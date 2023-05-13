@@ -7,6 +7,7 @@
 .stfolders
 *.lock
 
+excalidraw/
 datasets/
 tmp/
 books/
