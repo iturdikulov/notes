@@ -14,3 +14,5 @@ exclude_glob:
   - "/books"
   - "/datasets"
   - "prv_*"
+
+html_template_path_str: 'templates/obsidianhtml.html'
