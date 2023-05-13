@@ -5,42 +5,11 @@ tags:
 date: 1678377600
 ---
 
-This page contains actual lists of things I'm doing **now** (daily activities),
+This page contains actual lists of things I'm doing [[now]] (daily activities),
 long term goals and some other things. I need constantly check and update this
 page, because all things are changing.
 
 This page is a part of my [[zettelkasten]].
-
-## Now
-
-Items with bold font are my daily activities. Other is optional but highly
-recommended.
-
-1. [[spaced repetition]]
-
-2. [[duolingo]].
-
-3. [[khan academy]].
-
-4. [[exercise plan]].
-
-5. [[@BrianWKernighanProgrammingLanguage1988]].
-
-6. [[my awesome software list|software utilization]].
-
-7. [[@PythonTutorial2023]].
-
-8. [[@LucianoRamalhoFluentPython2021]].
-
-9. [[@InterviewCakeCodingInterviewPractice]].
-
-10. [[@JayWengrowCommonsenseGuideData2020]].
-
-11. [[@CharlesPetzoldCodeHiddenLanguage2000]].
-
-12. [[@AndrewLoomisFunPencilHow2013]].
-
-13. [[@KilpatrickDavidSvetOsveshchenie1988]].
 
 ## Work and long-term projects
 
