@@ -50,7 +50,7 @@ toggles:
 
     side_pane:              # only valid for documentation layout
       left_pane:
-        enabled: False
+        enabled: True
 
       right_pane:
         enabled: False
