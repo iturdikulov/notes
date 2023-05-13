@@ -32,5 +32,5 @@ e.g., contextual analysis.
 Abstract syntax trees are also used in program analysis and program
 transformation systems.
 
-![[!AST.excalidraw|1000]]
+![[!AST.excalidraw.svg]]
 *An abstract syntax tree for the Euclidean algorithm*
