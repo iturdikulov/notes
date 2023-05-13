@@ -1,0 +1,54 @@
+---
+title: Artificial intelligence (AI)
+date: 2023-03-11
+tags:
+  - inbox
+  - definition
+draft: true
+sr-due: 2023-03-22
+sr-interval: 1
+sr-ease: 210
+---
+
+Sort of [[computer program|program]] which mimics human cognition.
+
+> Artificial intelligence (AI) is intelligence demonstrated by machines, as
+> opposed to intelligence of humans and other animals. Example tasks in which
+> this is done include speech recognition, computer vision, translation between
+> (natural) languages, as well as other mappings of inputs.
+>
+> AI applications include advanced web search engines (e.g., Google Search),
+> recommendation systems (used by YouTube, Amazon, and Netflix), understanding
+> human speech (such as Siri and Alexa), self-driving cars (e.g., Waymo and
+> Tesla), generative or creative tools ([[chatgpt]] and AI art),
+> automated decision-making, and competing at the highest level in strategic
+> game systems (such as chess and Go).
+>
+> Goals: The general problem of simulating (or creating) intelligence has been
+> broken down into sub-problems. These consist of particular traits or
+> capabilities that researchers expect an intelligent system to display. The
+> traits described below have received the most attention.
+>
+> - Reasoning, problem-solving
+> - Knowledge representation
+> - Learning
+> - Natural language processing
+> - Perception
+> - Social intelligence
+> - General intelligence
+>
+> -- [Wikipedia](https://en.wikipedia.org/wiki/Artificial_intelligence)
+
+> An extreme goal of AI research is to create computer programs that can learn,
+> solve problems, and think logically. In practice, however, most applications
+> have picked on problems which computers can do well. Searching databases and
+> doing calculations are things computers do better than people. On the other
+> hand, "perceiving its environment" in any real sense is way beyond present-day
+> computing.
+>
+> --
+> [Wikipedia in Simple English](https://simple.wikipedia.org/wiki/Artificial_intelligence)
+
+## Resources
+
+- [There's An AI For That - The Biggest AI Aggregator](https://theresanaiforthat.com/)
