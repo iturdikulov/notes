@@ -37,6 +37,9 @@ else
     echo "Successfully created html code"
 fi
 
+# Create CNAME file
+echo "notes.iturdikulov.com" > docs/CNAME
+
 git add . --all
 git commit -m "autopush"
 git push
