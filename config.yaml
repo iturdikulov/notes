@@ -45,6 +45,9 @@ toggles:
   features:
     styling:
       layout: documentation               # documentation, tabs, minimal
+      max_note_width: 80rem              # not supported for layout: tabs
+      add_dir_list: True                  # show directory contents in one of the panes (only documentation layout)
+
     side_pane:              # only valid for documentation layout
       left_pane:
         enabled: False
