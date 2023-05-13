@@ -33,7 +33,7 @@ $$wpm = cpm / 5$$
 - My custom `typing` script. Which is just a wrapper around `tt` from
   [lemnos/tt: A terminal based typing test.](https://github.com/lemnos/tt) I'm
   trying to combine words learning with touch typing. Source for typing is here:
-  [[english language words]]
+  [words](./datasets/english_words_typing.txt).
 - [Typing.com](https://www.typing.com/)
 - [Typing Practice](https://www.keybr.com/) - this can fix your bad habits
 - [Monkeytype](https://monkeytype.com/)

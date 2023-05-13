@@ -18,7 +18,6 @@ I also consume [[media (communication)|media]] content in English.
 - [General Writing Introduction - Purdue University](https://owl.purdue.edu/owl/general_writing/index.html)
 - [[puzzle english]]
 - [[english language transcription]]
-- [[english language words]]
 - engvid - https://www.engvid.com/
 - [Изучение Английских Слов с помощью параллельных переводов онлайн](https://studyenglishwords.com/)
 - [English Grammar – Your guide to error-free writing](https://www.englishgrammar.org/)
