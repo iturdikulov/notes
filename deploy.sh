@@ -14,6 +14,7 @@ fi
 
 # Make sure project it is up to date
 git pull
+git push
 
 echo "Continue? (y/n)"
 read yn
