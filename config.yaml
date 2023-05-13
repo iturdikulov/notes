@@ -44,7 +44,13 @@ toggles:
 
   features:
     styling:
-      layout: tabs
+      layout: documentation               # documentation, tabs, minimal
+    side_pane:              # only valid for documentation layout
+      left_pane:
+        enabled: False
+
+      right_pane:
+        enabled: False
 
 # Will be inputted into the Html template as page title
 # Not used anywhere else atm.
