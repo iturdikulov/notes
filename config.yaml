@@ -16,3 +16,5 @@ exclude_glob:
   - "prv_*"
 
 html_template_path_str: 'templates/obsidianhtml.html'
+
+obsidian_entrypoint_path_str: 'my activities.md'
