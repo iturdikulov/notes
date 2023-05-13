@@ -33,7 +33,7 @@ md_entrypoint_path_str: '/home/inom/Projects/main/wiki_html/output/md/index.md'
 # Output path of HTML files
 # This can be an absolute or a relative path (relative to the working directory when calling obsidianhtml)
 # Use full path or relative path, but don't use ~/
-html_output_folder_path_str: '/home/inom/Projects/main/wiki_html/output/html'
+html_output_folder_path_str: '/home/inom/Projects/main/wiki_html/docs'
 
 # If extended logging is enabled under toggles/extended_logging
 # Extra information is written to this folder
