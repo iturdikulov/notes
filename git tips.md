@@ -315,6 +315,7 @@ Fetch the latest changes from origin and merge
 Fetch the latest changes from origin and rebase
 ?
 `git pull --rebase`
+<!--SR:!2023-05-17,4,270-->
 
 Pull down a remote branch, but rebase any locally differing commits onto the top of the incoming commits:
 ?

@@ -18,3 +18,24 @@ exclude_glob:
 html_template_path_str: 'templates/obsidianhtml.html'
 
 obsidian_entrypoint_path_str: 'my activities.md'
+
+# Input and output path of markdown files
+# This can be an absolute or a relative path (relative to the working directory when calling obsidianhtml)
+# Use full path or relative path, but don't use ~/
+md_folder_path_str:  '/home/inom/Projects/main/wiki_html/output/md'
+
+# Markdown entrypoint path
+# This has to be md_folder_path_str + '/index.md' when toggles/compile_md == True
+# This can be an absolute or a relative path (relative to the working directory when calling obsidianhtml)
+# Use full path or relative path, but don't use ~/
+md_entrypoint_path_str: '/home/inom/Projects/main/wiki_html/output/md/index.md'
+
+# Output path of HTML files
+# This can be an absolute or a relative path (relative to the working directory when calling obsidianhtml)
+# Use full path or relative path, but don't use ~/
+html_output_folder_path_str: '/home/inom/Projects/main/wiki_html/output/html'
+
+# If extended logging is enabled under toggles/extended_logging
+# Extra information is written to this folder
+log_output_folder_path_str: '/home/inom/Projects/main/wiki_html/output/log'
+
