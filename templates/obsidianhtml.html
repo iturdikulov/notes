@@ -24,6 +24,10 @@
 
     <style>
         /* Critical CSS */
+        html{
+            background: #000;
+        }
+
         body,
         .container,
         code {
@@ -32,7 +36,7 @@
         }
 
         body {
-            max-width: 1920px;
+            max-width: calc(15rem + 80ch);
             margin: 0 auto;
         }
 
@@ -105,8 +109,6 @@
                 {content}
                 <!-- end content -->
             </div>
-            <div class="container_filler"></div>
-            {right_pane}
         </div>
     </div>
 
