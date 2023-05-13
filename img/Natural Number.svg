@@ -1,0 +1,26 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120">
+
+% nach rechts
+<line x1="10" y1="110"  x2="60"  y2="60" style="stroke:black;stroke-width:0.5;" />
+<line x1="60" y1="60"   x2="100"  y2="20" style="stroke:black;stroke-width:0.5;" stroke-dasharray="2%, 2%"/>
+
+<circle cx="10" cy="110" r="1" stroke="black" stroke-width="0.5" fill="white"/>
+<text   x="13"  y="113"  font-size="5">1</text>
+
+<circle cx="20" cy="100" r="1" stroke="black" stroke-width="0.5" fill="white"/>
+<text   x="23"  y="103"  font-size="5">2</text>
+
+<circle cx="30" cy="90" r="1" stroke="black" stroke-width="0.5" fill="white"/>
+<text   x="33"  y="93" font-size="5">3</text>
+
+<circle cx="40" cy="80" r="1" stroke="black" stroke-width="0.5" fill="white"/>
+<text   x="43"  y="83" font-size="5">4</text>
+
+<circle cx="50" cy="70" r="1" stroke="black" stroke-width="0.5" fill="white"/>
+<text   x="53"  y="73" font-size="5">5</text>
+
+<circle cx="60" cy="60" r="1" stroke="black" stroke-width="0.5" fill="white"/>
+
+</svg>
+
