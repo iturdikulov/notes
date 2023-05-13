@@ -41,3 +41,9 @@ log_output_folder_path_str: '/home/inom/Projects/main/wiki_html/output/log'
 
 toggles:
   strict_line_breaks: true
+
+
+# Will be inputted into the Html template as page title
+# Not used anywhere else atm.
+site_name: "Inom's working notes"
+
