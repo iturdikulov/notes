@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Config
-git_output="~/Projects/main/wiki_html/"
+git_output="/home/inom/Projects/main/wiki_html"
 
 # Cd current folder
 cd "$(dirname "$0")"
