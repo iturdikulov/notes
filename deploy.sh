@@ -16,14 +16,6 @@ fi
 git pull
 git push
 
-echo "Continue? (y/n)"
-read yn
-
-if [ "$yn" != "y" ]; then
-    echo "Aborted"
-    exit 0
-fi
-
 # Convert Obsidian to HTML
 python -m obsidianhtml -i config.yaml
 # ^ the config file will output the html to $git_output
