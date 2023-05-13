@@ -27,15 +27,15 @@ fi
 python -m obsidianhtml -i config.yaml
 # ^ the config file will output the html to $git_output
 
+# Push changes
+cd "$git_output"
+
 if [ $? -ne 0 ]; then
     echo "Python script failed. Exited."
     exit 1
 else
     echo "Successfully created html code"
 fi
-
-# Push changes
-cd $git_output
 
 git add . --all
 git commit -m "autopush"
