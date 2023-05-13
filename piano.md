@@ -1,11 +1,13 @@
 ---
-title: "Piano"
 date: 2023-04-21
-tags:
-  - inbox
-  - definition
 draft: true
+tags:
+- inbox
+- definition
 ---
+
+# Piano
+
 > The piano is a **keyboard [[my music|musical]] instrument** with
 > strings struck by wooden hammers coated with a softer material (modern hammers
 > are covered with dense wool felt; some early pianos used leather). It is

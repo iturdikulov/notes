@@ -1,11 +1,12 @@
 ---
-title: "Computer-aided design (CAD, CADD)"
 date: 2023-04-17
-tags:
-  - inbox
-  - definition
 draft: true
+tags:
+- inbox
+- definition
 ---
+
+# Computer-aided design (CAD, CADD)
 
 > Use of [[computer|computers]] (or workstations) to aid in the
 > creation, modification, analysis, or optimization of a design. This

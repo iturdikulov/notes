@@ -1,12 +1,13 @@
 ---
-title: "Duolingo"
-tags:
-  - "inbox"
-  - "outline"
-  - "englishtip"
 date: 1683388800
-draft: "true"
+draft: 'true'
+tags:
+- inbox
+- outline
+- englishtip
 ---
+
+# Duolingo
 
 Отличная шпаргалка для структурированного изучения английского языка -
 [@SPaGPlacemat].

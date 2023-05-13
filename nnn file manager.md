@@ -1,12 +1,13 @@
 ---
-title: "Nnn file manager"
 date: 2023-04-02
-tags:
-  - inbox
-  - definition
-  - filestip
 draft: true
+tags:
+- inbox
+- definition
+- filestip
 ---
+
+# Nnn file manager
 
 ## Configuration, using environment variables
 ```bash

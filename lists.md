@@ -1,11 +1,12 @@
 ---
-title: "Lists"
 date: 2023-04-18
-tags:
-  - inbox
-  - definition
 draft: true
+tags:
+- inbox
+- definition
 ---
+
+# Lists
 
 > There are **three types** of lists: unordered lists, ordered lists, and
 > description lists (a.k.a. definition lists or association lists). Ordered

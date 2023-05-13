@@ -1,15 +1,16 @@
 ---
-title: Wiki (encyclopedia)
-date: 2023-03-28
-tags:
-  - inbox
-  - definition
-draft: true
 canonicalUrl: https://en.wikipedia.org/wiki/Wiki
+date: 2023-03-28
+draft: true
 sr-due: 2023-04-01
-sr-interval: 3
 sr-ease: 268
+sr-interval: 3
+tags:
+- inbox
+- definition
 ---
+
+# Wiki (encyclopedia)
 
 > A wiki (/ˈwɪki/ (listen) WIK-ee) is an online hypertext publication
 > collaboratively edited and managed by its own audience, using a web browser. A

@@ -1,14 +1,15 @@
 ---
-title: VR photography (virtual-reality photography)
 date: 2023-03-12
-tags:
-  - inbox
-  - definition
 draft: true
 sr-due: 2023-03-17
-sr-interval: 4
 sr-ease: 270
+sr-interval: 4
+tags:
+- inbox
+- definition
 ---
+
+# VR photography (virtual-reality photography)
 
 > VR [[photography|photography]] is the interactive viewing of
 > panoramic photographs, generally encompassing a 360-degree circle or a

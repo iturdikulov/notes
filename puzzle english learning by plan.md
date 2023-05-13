@@ -1,14 +1,15 @@
 ---
-title: Puzzle English learning by plan
 date: 2023-03-14
-tags:
-  - inbox
-  - literature
 draft: true
 sr-due: 2023-03-17
-sr-interval: 2
 sr-ease: 230
+sr-interval: 2
+tags:
+- inbox
+- literature
 ---
+
+# Puzzle English learning by plan
 
 This is my notes, taken from the [[puzzle english]] website.
 

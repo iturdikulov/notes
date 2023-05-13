@@ -1,16 +1,16 @@
 ---
-title: suckless.org
 date: 2022-12-29
-tags:
-  - inbox
-  - definition
 draft: true
 sr-due: 2023-03-16
-sr-interval: 3
 sr-ease: 253
+sr-interval: 3
+tags:
+- inbox
+- definition
 ---
 
-# Slock installation
+# suckless.org
+
 
 ```{.bash org-language="sh"}
 cd ~/Projects/suckless

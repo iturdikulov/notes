@@ -1,14 +1,15 @@
 ---
-title: The Useless Pages
 date: 2023-03-12
-tags:
-  - inbox
-  - definition
 draft: true
 sr-due: 2023-07-16
-sr-interval: 3
 sr-ease: 250
+sr-interval: 3
+tags:
+- inbox
+- definition
 ---
+
+# The Useless Pages
 
 The Useless Web was an example of early web humor. Original site you can find in
 [[internet archive]] -

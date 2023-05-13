@@ -1,11 +1,12 @@
 ---
-title: "Smartphone"
 date: 2023-04-23
-tags:
-  - inbox
-  - definition
 draft: true
+tags:
+- inbox
+- definition
 ---
+
+# Smartphone
 
 > A smartphone is a portable [[computer|computer]] device that
 > combines mobile telephone functions and computing functions into one unit.

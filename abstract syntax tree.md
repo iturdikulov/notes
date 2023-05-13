@@ -1,14 +1,15 @@
 ---
-title: Abstract syntax tree
 date: 2022-12-29
-tags:
-  - inbox
-  - definition
 draft: true
 sr-due: 2023-03-16
-sr-interval: 3
 sr-ease: 250
+sr-interval: 3
+tags:
+- inbox
+- definition
 ---
+
+# Abstract syntax tree
 
 In computer science, an abstract syntax tree (AST), or just syntax tree, is a
 tree representation of the abstract syntactic structure of text (often source

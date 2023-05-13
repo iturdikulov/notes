@@ -1,15 +1,16 @@
 ---
-title: Puzzle English
-date: 2022-12-29
 canonicalUrl: https://puzzle-english.com/
+date: 2022-12-29
 draft: true
-tags:
-  - inbox
-  - definition
 sr-due: 2023-06-14
-sr-interval: 1
 sr-ease: 230
+sr-interval: 1
+tags:
+- inbox
+- definition
 ---
+
+# Puzzle English
 
 Online platform for learning English. Contains various exercises, tests, words
 learning, etc. They use aggressive marketing techniques and I paid for the

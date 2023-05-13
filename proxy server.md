@@ -1,14 +1,15 @@
 ---
-title: Proxy server
 date: 2023-03-12
-tags:
-  - inbox
-  - definition
 draft: true
 sr-due: 2023-05-17
-sr-interval: 4
 sr-ease: 270
+sr-interval: 4
+tags:
+- inbox
+- definition
 ---
+
+# Proxy server
 
 In [[computer network|computer networking]],
 [[server (computing)]] application (program) that acts as middleman

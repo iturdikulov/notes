@@ -1,14 +1,15 @@
 ---
-title: Logarithm (logs)
 date: 2023-03-19
-tags:
-  - inbox
-  - definition
 draft: true
 sr-due: 2023-03-16
-sr-interval: 3
 sr-ease: 250
+sr-interval: 3
+tags:
+- inbox
+- definition
 ---
+
+# Logarithm (logs)
 
 > Part of [[mathematics]]. They are related to exponential
 > functions. A logarithm tells what exponent (or power) is needed to make a

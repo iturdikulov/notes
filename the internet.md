@@ -1,14 +1,15 @@
 ---
-title: The Internet
 date: 2022-12-29
 draft: true
-tags:
-  - inbox
-  - definition
 sr-due: 2023-03-16
-sr-interval: 3
 sr-ease: 250
+sr-interval: 3
+tags:
+- inbox
+- definition
 ---
+
+# The Internet
 
 > The Internet (or internet) is the **global system** of interconnected
 > [[computer network|computer networks]] that uses the Internet

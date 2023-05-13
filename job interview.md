@@ -1,14 +1,15 @@
 ---
-title: Job interview
 date: 2022-12-29
-tags:
-  - inbox
-  - definition
 draft: true
 sr-due: 2023-03-14
-sr-interval: 1
 sr-ease: 230
+sr-interval: 1
+tags:
+- inbox
+- definition
 ---
+
+# Job interview
 
 > Interview consisting of a conversation between a job applicant and a
 > representative of an employer which is conducted to assess whether the

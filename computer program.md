@@ -1,14 +1,15 @@
 ---
-title: Computer program
 date: 2023-03-21
-tags:
-  - inbox
-  - definition
 draft: true
 sr-due: 2023-03-16
-sr-interval: 3
 sr-ease: 250
+sr-interval: 3
+tags:
+- inbox
+- definition
 ---
+
+# Computer program
 
 > Sequence or set of instructions in a programming language for a computer to execute.
 > Computer programs are one component of software, which also includes documentation and other intangible components.

@@ -1,14 +1,15 @@
 ---
-title: diff
 date: 2023-01-27
-tags:
-  - inbox
-  - definition
 draft: false
 sr-due: 2023-03-17
-sr-interval: 4
 sr-ease: 270
+sr-interval: 4
+tags:
+- inbox
+- definition
 ---
+
+# diff
 
 Diff - tool to compare files line by line.
 

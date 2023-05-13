@@ -1,11 +1,12 @@
 ---
-title: "Inbox"
-tags:
-  - "inbox"
-  - "definition"
 date: 1682697600
-draft: "true"
+draft: 'true'
+tags:
+- inbox
+- definition
 ---
+
+# Inbox
 
 This is my long-running inbox of things to do... Most of them I moved from daily
 tasks.

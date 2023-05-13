@@ -1,14 +1,15 @@
 ---
-title: Linux
 date: 2023-03-17
-tags:
-  - inbox
-  - definition
 draft: true
 sr-due: 2023-03-16
-sr-interval: 3
 sr-ease: 250
+sr-interval: 3
+tags:
+- inbox
+- definition
 ---
+
+# Linux
 
 > Linux or **GNU/Linux** is a [[unix]]-like
 > [[operating system]] (or family of) for

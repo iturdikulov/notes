@@ -1,11 +1,12 @@
 ---
-title: "Science"
 date: 2023-04-16
-tags:
-  - inbox
-  - definition
 draft: true
+tags:
+- inbox
+- definition
 ---
+
+# Science
 
 > **Systematic endeavor** that builds and organizes **knowledge** in the form of
 > testable explanations and predictions about the universe.

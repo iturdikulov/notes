@@ -1,14 +1,15 @@
 ---
-title: "Negentropy"
-tags:
-  - "inbox"
-  - "definition"
 date: 1672243200
 draft: true
 sr-due: 1678723200
 sr-ease: 230
 sr-interval: 1
+tags:
+- inbox
+- definition
 ---
+
+# Negentropy
 
 > Negentropy is reverse entropy. It means things becoming more in order. By
 > 'order' is meant organization, structure and function: the opposite of

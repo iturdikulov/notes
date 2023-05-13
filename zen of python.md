@@ -1,10 +1,11 @@
 ---
-title: PEP20 - The Zen of Python
-date:  2022-12-29
+date: 2022-12-29
 draft: true
 tags:
-    - definition
+- definition
 ---
+
+# PEP20 - The Zen of Python
 
 > Long time Pythoneer Tim Peters succinctly channels the BDFL’s guiding principles for Python’s design into 20 aphorisms, only 19 of which have been written down - [@PEP20Zen1999].
 

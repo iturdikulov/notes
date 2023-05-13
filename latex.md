@@ -1,14 +1,15 @@
 ---
-title: LaTeX
 date: 2023-03-12
-tags:
-  - inbox
-  - definition
 draft: true
 sr-due: 2023-03-17
-sr-interval: 4
 sr-ease: 270
+sr-interval: 4
+tags:
+- inbox
+- definition
 ---
+
+# LaTeX
 
 - [TeX Live packages](https://tug.org/texlive/) (typesetting system, TeX is a
   popular means of typesetting complex mathematical formulae)

@@ -1,11 +1,12 @@
 ---
-title: "Unreal Engine"
 date: 2023-04-19
-tags:
-  - inbox
-  - definition
 draft: true
+tags:
+- inbox
+- definition
 ---
+
+# Unreal Engine
 
 > Unreal Engine (UE) is a 3D computer graphics [[game|game]] engine
 > developed by Epic Games, first showcased in the 1998 first-person shooter game

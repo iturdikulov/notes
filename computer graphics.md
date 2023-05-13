@@ -1,14 +1,15 @@
 ---
-title: Computer graphics
 date: 2023-03-08
-tags:
-  - inbox
-  - definition
 draft: true
 sr-due: 2023-03-14
-sr-interval: 1
 sr-ease: 230
+sr-interval: 1
+tags:
+- inbox
+- definition
 ---
+
+# Computer graphics
 
 > Deals with generating images and art with the aid of computers. Today,
 > computer graphics is a core technology in digital

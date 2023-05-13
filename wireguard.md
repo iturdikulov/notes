@@ -1,12 +1,13 @@
 ---
-title: "WireGuard"
-date: 2023-04-23
-tags:
-  - inbox
-  - definition
-draft: true
 canonicalUrl: https://www.wireguard.com/
+date: 2023-04-23
+draft: true
+tags:
+- inbox
+- definition
 ---
+
+# WireGuard
 
 > WireGuard is an extremely simple yet fast and modern
 > [[virtual private network (vpn)|vpn]] that utilizes

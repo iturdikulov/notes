@@ -1,11 +1,12 @@
 ---
-title: "Programmer (software developer, coder)"
 date: 2023-04-15
-tags:
-  - inbox
-  - definition
 draft: true
+tags:
+- inbox
+- definition
 ---
+
+# Programmer (software developer, coder)
 
 > Person who creates [[computer program]]'s — often for larger
 > computer software. A programmer is someone who writes/creates computer

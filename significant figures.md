@@ -1,11 +1,13 @@
 ---
-title: "Significant figures"
 date: 2023-05-02
-tags:
-  - inbox
-  - definition
 draft: true
+tags:
+- inbox
+- definition
 ---
+
+# Significant figures
+
 > Significant figures (also known as the significant digits, precision or
 > resolution) of a number in positional notation are digits in the number that
 > are reliable and necessary to indicate the quantity of something.

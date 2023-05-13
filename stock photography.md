@@ -1,14 +1,15 @@
 ---
-title: Stock photography
 date: 2023-03-12
-tags:
-  - inbox
-  - definition
 draft: true
 sr-due: 2023-03-17
-sr-interval: 4
 sr-ease: 270
+sr-interval: 4
+tags:
+- inbox
+- definition
 ---
+
+# Stock photography
 
 > Supply of photographs which are often licensed for specific uses. The stock
 > industry, which began to gain hold in the 1920s, has established models

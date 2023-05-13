@@ -1,14 +1,15 @@
 ---
-title: Web mapping (online mapping)
 date: 2023-03-12
-tags:
-  - inbox
-  - definition
 draft: true
 sr-due: 2023-03-17
-sr-interval: 4
 sr-ease: 270
+sr-interval: 4
+tags:
+- inbox
+- definition
 ---
+
+# Web mapping (online mapping)
 
 > Web mapping or an online mapping is the process of using maps, usually created
 > through geographic information systems (GIS) on the

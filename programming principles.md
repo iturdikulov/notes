@@ -1,14 +1,15 @@
 ---
-title: Programming principles
 date: 2022-12-29
-tags:
-  - inbox
-  - definition
 draft: true
 sr-due: 2023-03-24
-sr-interval: 2
 sr-ease: 210
+sr-interval: 2
+tags:
+- inbox
+- definition
 ---
+
+# Programming principles
 
 https://en.wikipedia.org/wiki/Category:Programming_principles
 

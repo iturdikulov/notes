@@ -1,14 +1,15 @@
 ---
-title: General-purpose programming language (GPL)
 date: 2023-03-11
-tags:
-  - inbox
-  - definition
 draft: true
 sr-due: 2023-05-21
-sr-interval: 53
 sr-ease: 248
+sr-interval: 53
+tags:
+- inbox
+- definition
 ---
+
+# General-purpose programming language (GPL)
 
 GPL - [[programming language]] for building
 [[computer software]] in a wide variety of application domains.

@@ -1,14 +1,15 @@
 ---
-title: Travel
 date: 2023-03-12
-tags:
-  - inbox
-  - definition
 draft: true
 sr-due: 2023-03-17
-sr-interval: 4
 sr-ease: 270
+sr-interval: 4
+tags:
+- inbox
+- definition
 ---
+
+# Travel
 
 > Travel is the movement of people between distant geographical locations.
 > Travel can be done by foot, bicycle, automobile, train, boat, bus, airplane,

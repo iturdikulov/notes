@@ -1,14 +1,15 @@
 ---
-title: Light (visible light)
 date: 2023-03-20
-tags:
-  - inbox
-  - definition
 draft: true
 sr-due: 2023-03-16
-sr-interval: 3
 sr-ease: 250
+sr-interval: 3
+tags:
+- inbox
+- definition
 ---
+
+# Light (visible light)
 
 > Electromagnetic radiation that can be perceived by the human eye. Visible
 > light is usually defined as having wavelengths in the range of 400–700

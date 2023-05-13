@@ -1,14 +1,15 @@
 ---
-title: "Readability"
 date: 2023-03-11
-tags:
-  - inbox
-  - definition
 draft: true
 sr-due: 2023-03-15
-sr-interval: 2
 sr-ease: 248
+sr-interval: 2
+tags:
+- inbox
+- definition
 ---
+
+# Readability
 
 > Readability, or textual difficulty, means how easy or hard a text is to read.
 > Research has shown that two main factors affect the ease with which texts are

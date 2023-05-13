@@ -1,11 +1,12 @@
 ---
-title: "Digital audio"
 date: 2023-04-17
-tags:
-  - inbox
-  - definition
 draft: true
+tags:
+- inbox
+- definition
 ---
+
+# Digital audio
 
 > Digital audio is a representation of sound recorded in, or converted into,
 > digital form. In digital audio, the sound wave of the audio signal is

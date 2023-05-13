@@ -1,14 +1,15 @@
 ---
-title: Python
 date: 2022-12-29
 draft: true
-tags:
-  - inbox
-  - definition
 sr-due: 2023-04-16
-sr-interval: 26
 sr-ease: 247
+sr-interval: 26
+tags:
+- inbox
+- definition
 ---
+
+# Python
 
 > Python is a [[high-level programming language|high-level]],
 > general-purpose [[programming language|programming language]].

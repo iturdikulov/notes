@@ -1,16 +1,15 @@
 ---
-title:
-  "Binary search algorithm (half-interval search, logarithmic search, binary
-  chop)"
 date: 2023-03-19
-tags:
-  - inbox
-  - definition
 draft: true
 sr-due: 2023-03-16
-sr-interval: 3
 sr-ease: 250
+sr-interval: 3
+tags:
+- inbox
+- definition
 ---
+
+# Binary search algorithm (half-interval search, logarithmic search, binary chop)
 
 > Search [[algorithm|algorithm]] that finds the position of a
 > target value within a sorted [[array (computer science)|array]].

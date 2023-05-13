@@ -1,11 +1,13 @@
 ---
-title: "News"
 date: 2023-04-15
-tags:
-  - inbox
-  - definition
 draft: true
+tags:
+- inbox
+- definition
 ---
+
+# News
+
 > Information about **current events**. This may be provided through many
 > different media: word of mouth, printing, postal systems, broadcasting,
 > **electronic communication**, or through the testimony of observers and

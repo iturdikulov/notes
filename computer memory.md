@@ -1,12 +1,13 @@
 ---
-title: "Computer memory"
 date: 2023-04-13
-tags:
-  - inbox
-  - definition
-  - CS
 draft: true
+tags:
+- inbox
+- definition
+- CS
 ---
+
+# Computer memory
 
 Memory can be viewed as a giant collection of cells.
 Each cell is a single byte of data and has own address, where one number greater

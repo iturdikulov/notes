@@ -1,14 +1,15 @@
 ---
-title: How I study Computer Science?
 date: 2023-03-13
-tags:
-  - inbox
-  - outline
 draft: true
 sr-due: 2024-03-16
-sr-interval: 3
 sr-ease: 250
+sr-interval: 3
+tags:
+- inbox
+- outline
 ---
+
+# How I study Computer Science?
 
 Not 100% related to Computer Science, but I started to learn it from this book:
 [[@BrianWKernighanProgrammingLanguage1988]]. I currently read it and do

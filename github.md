@@ -1,15 +1,16 @@
 ---
-title: GitHub
+canonicalUrl: https://github.com/
 date: 2023-03-12
-tags:
-  - inbox
-  - definition
 draft: true
 sr-due: 2023-03-17
-sr-interval: 4
 sr-ease: 270
-canonicalUrl: https://github.com/
+sr-interval: 4
+tags:
+- inbox
+- definition
 ---
+
+# GitHub
 
 Internet hosting service for software development and version control using Git.
 

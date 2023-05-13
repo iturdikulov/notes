@@ -1,14 +1,15 @@
 ---
-title: Anxiety
 date: 2023-03-22
-tags:
-  - inbox
-  - definition
 draft: true
 sr-due: 2023-04-02
-sr-interval: 4
 sr-ease: 270
+sr-interval: 4
+tags:
+- inbox
+- definition
 ---
+
+# Anxiety
 
 > Anxiety is an [[emotion|emotion]] which is characterized by an
 > unpleasant state of inner turmoil and includes feelings of dread over

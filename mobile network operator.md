@@ -1,14 +1,15 @@
 ---
-title: Mobile network operator
 date: 2023-03-12
-tags:
-  - inbox
-  - definition
 draft: true
 sr-due: 2023-03-16
-sr-interval: 3
 sr-ease: 250
+sr-interval: 3
+tags:
+- inbox
+- definition
 ---
+
+# Mobile network operator
 
 > A mobile [[computer network|network]] operator, also known as a
 > wireless service provider, wireless carrier, cellular company, or mobile

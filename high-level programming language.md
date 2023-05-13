@@ -1,14 +1,15 @@
 ---
-title: High-level programming language
 date: 2023-03-11
-tags:
-  - inbox
-  - definition
 draft: true
 sr-due: 2023-03-16
-sr-interval: 3
 sr-ease: 268
+sr-interval: 3
+tags:
+- inbox
+- definition
 ---
+
+# High-level programming language
 
 From Wikipedia [@HighlevelProgrammingLanguage2023]:
 

@@ -1,14 +1,15 @@
 ---
-title: Programming language
 date: 2023-03-21
-tags:
-  - inbox
-  - definition
 draft: true
 sr-due: 2023-03-16
-sr-interval: 3
 sr-ease: 250
+sr-interval: 3
+tags:
+- inbox
+- definition
 ---
+
+# Programming language
 
 > System of notation for writing [[computer program]]'s. Most programming
 > languages are text-based formal languages, but they may also be graphical.

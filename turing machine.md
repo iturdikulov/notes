@@ -1,14 +1,15 @@
 ---
-title: Turing machine
 date: 2023-03-20
-tags:
-  - inbox
-  - definition
 draft: true
 sr-due: 2023-04-16
-sr-interval: 3
 sr-ease: 250
+sr-interval: 3
+tags:
+- inbox
+- definition
 ---
+
+# Turing machine
 
 System of rules, states and transitions rather than a real machine.
 

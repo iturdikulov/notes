@@ -1,11 +1,12 @@
 ---
-title: "Computing"
 date: 2023-04-17
-tags:
-  - inbox
-  - definition
 draft: true
+tags:
+- inbox
+- definition
 ---
+
+# Computing
 
 > Computing is any goal-oriented activity requiring, benefiting from, or
 > creating computing machinery. It includes the study and experimentation of

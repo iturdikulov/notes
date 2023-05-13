@@ -1,14 +1,15 @@
 ---
-title: How do I work with contacts
-date:  2023-03-12
-tags:
-    - inbox
-    - outline
+date: 2023-03-12
 draft: true
 sr-due: 2023-03-17
-sr-interval: 4
 sr-ease: 270
+sr-interval: 4
+tags:
+- inbox
+- outline
 ---
+
+# How do I work with contacts
 
 ::TODO: Info how I organize contact note type, need implement ::
 

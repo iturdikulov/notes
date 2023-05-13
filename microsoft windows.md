@@ -1,16 +1,16 @@
 ---
-title: Microsoft Windows
 date: 2022-12-29
 draft: true
-tags:
-  - inbox
-  - definition
 sr-due: 2023-03-17
-sr-interval: 4
 sr-ease: 270
+sr-interval: 4
+tags:
+- inbox
+- definition
 ---
 
-# [TODO]{.todo .TODO} review {#review}
+# Microsoft Windows
+
 
 Windows is a group of several proprietary graphical operating system families
 developed and marketed by Microsoft. Each family caters to a certain sector of

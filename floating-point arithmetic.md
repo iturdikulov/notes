@@ -1,14 +1,15 @@
 ---
-title: Floating-point arithmetic
 date: 2023-03-23
-tags:
-  - inbox
-  - definition
 draft: true
 sr-due: 2023-03-31
-sr-interval: 3
 sr-ease: 268
+sr-interval: 3
+tags:
+- inbox
+- definition
 ---
+
+# Floating-point arithmetic
 
 > Floating-point arithmetic (FP) is arithmetic that represents real numbers
 > approximately, using an integer with a fixed precision, called the

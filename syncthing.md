@@ -1,12 +1,13 @@
 ---
-title: "Syncthing"
-date: 2023-04-09
-tags:
-  - inbox
-  - definition
-draft: true
 canonicalUrl: https://syncthing.net/
+date: 2023-04-09
+draft: true
+tags:
+- inbox
+- definition
 ---
+
+# Syncthing
 
 > Peer-to-peer file synchronization application. It can sync files between
 > devices on a local network, or between remote devices over the Internet. --

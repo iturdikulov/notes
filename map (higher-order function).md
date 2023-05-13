@@ -1,11 +1,12 @@
 ---
-title: "Map (higher-order function, aka apply-to-all)"
 date: 2023-04-29
-tags:
-  - inbox
-  - definition
 draft: true
+tags:
+- inbox
+- definition
 ---
+
+# Map (higher-order function, aka apply-to-all)
 
 > map is the name of a higher-order [[function (computer programming)|function]]
 > that applies a given **function** to **each** element of a collection, e.g. a

@@ -1,12 +1,13 @@
 ---
-title: "Switch to neovim path"
 date: 2023-04-04
-tags:
-  - inbox
-  - definition
-  - vimtip
 draft: true
+tags:
+- inbox
+- definition
+- vimtip
 ---
+
+# Switch to neovim path
 
 In daily life I use [[pycharm]] right now, for python development.
 I'm planing to switch to [[neovim (text editor)]] and here list of steps to take it.

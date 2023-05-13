@@ -1,14 +1,15 @@
 ---
-title: Maintenance
 date: 2023-03-12
-tags:
-  - inbox
-  - outline
 draft: true
 sr-due: 2023-03-17
-sr-interval: 4
 sr-ease: 270
+sr-interval: 4
+tags:
+- inbox
+- outline
 ---
+
+# Maintenance
 
 > Functional checks, servicing, repairing or replacing of necessary devices,
 > equipment, machinery, building infrastructure, and supporting utilities in
@@ -55,4 +56,3 @@ Here I collect all my maintenance tasks/techniques/tools.
 ## Other
 
 - [This to That, how glue things to other things](http://www.thistothat.com/)
-

@@ -1,12 +1,13 @@
 ---
-title: "Telekasten.nvim"
-date: 2023-04-06
-tags:
-  - inbox
-  - definition
 canonicalUrl: https://github.com/renerocksai/telekasten.nvim
+date: 2023-04-06
 draft: true
+tags:
+- inbox
+- definition
 ---
+
+# Telekasten.nvim
 
 > A Neovim (lua) plugin for working with a text-based, markdown zettelkasten / wiki and mixing it with a journal, based on [[telescope.nvim]]
 TODO:

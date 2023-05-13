@@ -1,11 +1,12 @@
 ---
-title: MPV
-date:  2022-12-29
+date: 2022-12-29
 draft: true
 tags:
-  - mediatip
-  - outline
+- mediatip
+- outline
 ---
+
+# MPV
 
 MPV is a free (as in freedom) [[media (communication)|media]]
 player for the command line (it has own pseudo-gui). It supports a wide variety

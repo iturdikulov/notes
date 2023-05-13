@@ -1,13 +1,14 @@
 ---
-title: "IP address"
 date: 2022-12-29
-tags:
-  - inbox
-  - definition
 sr-due: 2023-03-16
-sr-interval: 3
 sr-ease: 250
+sr-interval: 3
+tags:
+- inbox
+- definition
 ---
+
+# IP address
 
 > An [[internet protocol|internet protocol]] address (IP address)
 > is a numerical label such as 192.0.2.1 that is connected to a computer network

@@ -1,12 +1,13 @@
 ---
-title: "telescope.nvim"
-date: 2023-04-06
-tags:
-  - inbox
-  - definition
-draft: true
 canonicalUrl: https://github.com/nvim-telescope/telescope.nvim
+date: 2023-04-06
+draft: true
+tags:
+- inbox
+- definition
 ---
+
+# telescope.nvim
 
 > Highly extendable fuzzy finder over lists. Telescope is centered around modularity, allowing for easy customization.
 

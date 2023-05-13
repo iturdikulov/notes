@@ -1,14 +1,15 @@
 ---
-title: Multi-factor authentication
 date: 2022-12-29
-tags:
-  - inbox
-  - definition
 draft: true
 sr-due: 2023-03-16
-sr-interval: 3
 sr-ease: 250
+sr-interval: 3
+tags:
+- inbox
+- definition
 ---
+
+# Multi-factor authentication
 
 You can configure pamu2f Example (onlykey working config)
 

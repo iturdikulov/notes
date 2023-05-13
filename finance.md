@@ -1,14 +1,15 @@
 ---
-title: Finance
 date: 2023-03-06
-tags:
-  - inbox
-  - definition
 draft: true
 sr-due: 2023-03-16
-sr-interval: 3
 sr-ease: 250
+sr-interval: 3
+tags:
+- inbox
+- definition
 ---
+
+# Finance
 
 > Finance is a study which figures out how people, businesses and groups make
 > and use money. It can mean:

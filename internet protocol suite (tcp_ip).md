@@ -1,11 +1,12 @@
 ---
-title: "Internet protocol suite (TCP/IP)"
 date: 2023-04-15
-tags:
-  - inbox
-  - definition
 draft: true
+tags:
+- inbox
+- definition
 ---
+
+# Internet protocol suite (TCP/IP)
 
 > Is a framework for organizing the set of communication protocols used in the
 > [[the internet|internet]] and similar [[computer network]]'s

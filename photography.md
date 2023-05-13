@@ -1,14 +1,15 @@
 ---
-title: Photography
 date: 2023-03-08
-tags:
-  - inbox
-  - definition
 draft: true
 sr-due: 2023-03-16
-sr-interval: 3
 sr-ease: 250
+sr-interval: 3
+tags:
+- inbox
+- definition
 ---
+
+# Photography
 
 > Photography is the [[art|art]], application, and practice of
 > creating durable images by recording light, either electronically by means of
@@ -17,4 +18,3 @@ sr-ease: 250
 > (e.g., photolithography), and business, as well as its more direct uses for
 > art, film and video production, recreational purposes, hobby, and mass
 > communication.
-

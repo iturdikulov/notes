@@ -1,14 +1,15 @@
 ---
-title: Computer security
 date: 2023-03-05
-tags:
-  - definition
-  - inbox
 draft: true
 sr-due: 2023-03-14
-sr-interval: 1
 sr-ease: 230
+sr-interval: 1
+tags:
+- definition
+- inbox
 ---
+
+# Computer security
 
 ## Software
 

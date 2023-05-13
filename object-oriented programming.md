@@ -1,14 +1,15 @@
 ---
-title: Object-oriented programming (OOP)
 date: 2023-03-12
-tags:
-  - inbox
-  - definition
 draft: true
 sr-due: 2023-05-20
-sr-interval: 52
 sr-ease: 248
+sr-interval: 52
+tags:
+- inbox
+- definition
 ---
+
+# Object-oriented programming (OOP)
 
 > Way of writing computer programs using "objects" to stand for data and
 > methods. Often, computer programs that are not object-oriented are a list of

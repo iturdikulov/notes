@@ -1,15 +1,16 @@
 ---
-title: Array (computer science)
 date: 2022-12-29
-tags:
-  - definition
-  - inbox
-  - CS
 draft: true
 sr-due: 2023-05-03
-sr-interval: 43
 sr-ease: 210
+sr-interval: 43
+tags:
+- definition
+- inbox
+- CS
 ---
+
+# Array (computer science)
 
 > Array is a [[data structure]] consisting of a collection of
 > elements (values or variables), each identified by at least one array index or

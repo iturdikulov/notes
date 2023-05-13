@@ -1,11 +1,12 @@
 ---
-title: "Hidden file and hidden directory (.dotfiles)"
 date: 2023-04-02
-tags:
-  - inbox
-  - definition
 draft: true
+tags:
+- inbox
+- definition
 ---
+
+# Hidden file and hidden directory (.dotfiles)
 
 Hidden file or directory, is item which filesystem utilities do not display by
 default when they are used to showing directory listing. This behavior useful to

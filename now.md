@@ -1,9 +1,10 @@
 ---
-title: "Now"
 date: 2023-05-14
 tags:
-  - outline
+- outline
 ---
+
+# Now
 
 ## Now
 
@@ -35,4 +36,3 @@ recommended.
 12. [[@AndrewLoomisFunPencilHow2013]].
 
 13. [[@KilpatrickDavidSvetOsveshchenie1988]].
-

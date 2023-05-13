@@ -1,14 +1,15 @@
 ---
-title: Weather
 date: 2023-03-12
-tags:
-  - inbox
-  - definition
 draft: true
 sr-due: 2023-03-17
-sr-interval: 4
 sr-ease: 270
+sr-interval: 4
+tags:
+- inbox
+- definition
 ---
+
+# Weather
 
 > The state of the atmosphere, describing for example the degree to which it is
 > hot or cold, wet or dry, calm or stormy, clear or cloudy. On Earth, most

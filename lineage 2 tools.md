@@ -1,11 +1,12 @@
 ---
-title: "Lineage 2 tools"
 date: 2023-04-15
-tags:
-  - inbox
-  - definition
 draft: true
+tags:
+- inbox
+- definition
 ---
+
+# Lineage 2 tools
 
 > Lineage II is a massively multiplayer online role-playing game (MMORPG) for
 > Microsoft Windows and the second game in the Lineage series. It is a prequel
@@ -240,5 +241,3 @@ Geobuilder - creates geodata with client. U can setup startup map in l2.ini.
 PandasBuildConv -> converts client-builded geodata into _conv.dat
 
 HDGE -> geodata editor/converter
-
-

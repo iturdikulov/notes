@@ -1,14 +1,15 @@
 ---
-title: Bitlbee
 date: 2022-12-29
-tags:
-  - defenition
-  - inbox
 draft: true
 sr-due: 2023-04-15
-sr-interval: 25
 sr-ease: 250
+sr-interval: 25
+tags:
+- defenition
+- inbox
 ---
+
+# Bitlbee
 
 If you understand all of this and still wish to use it, see HowtoPurple and add
 the account like this in &bitlbee:

@@ -1,14 +1,15 @@
 ---
-title: Media (communication)
 date: 2022-12-29
-tags:
-  - inbox
-  - definition
 draft: true
 sr-due: 2023-03-16
-sr-interval: 3
 sr-ease: 250
+sr-interval: 3
+tags:
+- inbox
+- definition
 ---
+
+# Media (communication)
 
 > In mass communication, media are the communication outlets or tools used to
 > store and deliver information or data. The term refers to components of

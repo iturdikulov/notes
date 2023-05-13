@@ -1,14 +1,15 @@
 ---
-title: How to Study
 date: 2022-12-29
-tags:
-  - inbox
-  - permanent
 draft: true
 sr-due: 2023-03-14
-sr-interval: 1
 sr-ease: 224
+sr-interval: 1
+tags:
+- inbox
+- permanent
 ---
+
+# How to Study
 
 > Education is a **purposeful activity** directed at **achieving certain aims**,
 > such as transmitting knowledge or fostering skills and character traits. These

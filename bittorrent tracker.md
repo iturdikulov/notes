@@ -1,14 +1,15 @@
 ---
-title: BitTorrent tracker
 date: 2023-03-12
-tags:
-  - inbox
-  - definition
 draft: true
 sr-due: 2023-03-16
-sr-interval: 3
 sr-ease: 250
+sr-interval: 3
+tags:
+- inbox
+- definition
 ---
+
+# BitTorrent tracker
 
 > A BitTorrent tracker is a special type of server that assists in the
 > communication between peers using the BitTorrent protocol.

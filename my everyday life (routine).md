@@ -1,9 +1,10 @@
 ---
-title: "My Everyday life (routine)"
-tags:
-  - "outline"
 date: 1672243200
+tags:
+- outline
 ---
+
+# My Everyday life (routine)
 
 ## Goal
 
@@ -51,4 +52,3 @@ Same but fewer sessions, maybe 4-5
 - Drink a glass of water
 - Place phone, headphones, tablet on charger
 - Weekly charge: headaches 2, e-reader, phone 2
-

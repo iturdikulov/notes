@@ -1,14 +1,15 @@
 ---
-title: Krita
 date: 2023-03-04
 draft: true
-tags:
-  - inbox
-  - definition
 sr-due: 2023-03-16
-sr-interval: 3
 sr-ease: 250
+sr-interval: 3
+tags:
+- inbox
+- definition
 ---
+
+# Krita
 
 ## Mouse shortcuts
 

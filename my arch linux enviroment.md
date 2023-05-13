@@ -1,14 +1,15 @@
 ---
-title: My Arch Linux enviroment
-date:  2023-03-13
-tags:
-    - inbox
-    - permanent
+date: 2023-03-13
 draft: true
 sr-due: 2024-03-16
-sr-interval: 3
 sr-ease: 250
+sr-interval: 3
+tags:
+- inbox
+- permanent
 ---
+
+# My Arch Linux enviroment
 
 [Improving performance - ArchWiki](https://wiki.archlinux.org/title/improving_performance)
 

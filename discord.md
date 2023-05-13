@@ -1,15 +1,16 @@
 ---
-title: Discord
+canonicalUrl: https://discord.com/app
 date: 2023-03-12
-tags:
-  - inbox
-  - definition
 draft: true
 sr-due: 2023-03-17
-sr-interval: 4
 sr-ease: 270
-canonicalUrl: https://discord.com/app
+sr-interval: 4
+tags:
+- inbox
+- definition
 ---
+
+# Discord
 
 > Discord is a VoIP and instant messaging
 > [[social networking service|social]] platform. Users have the
@@ -17,4 +18,3 @@ canonicalUrl: https://discord.com/app
 > and files in private chats or as part of communities called "servers".
 >
 > -- [Wikipedia](<https://en.wikipedia.org/wiki/Discord_(software)>)
-

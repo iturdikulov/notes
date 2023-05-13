@@ -1,14 +1,15 @@
 ---
-title: Digital electronics
 date: 2023-03-12
-tags:
-  - inbox
-  - definition
 draft: true
 sr-due: 2023-03-17
-sr-interval: 4
 sr-ease: 270
+sr-interval: 4
+tags:
+- inbox
+- definition
 ---
+
+# Digital electronics
 
 > Digital electronics is a field of electronics involving the study of digital
 > signals and the engineering of devices that use or produce them. This is in

@@ -1,11 +1,12 @@
 ---
-title: "Competitive programming (sports programming)"
 date: 2023-04-03
-tags:
-  - inbox
-  - definition
 draft: true
+tags:
+- inbox
+- definition
 ---
+
+# Competitive programming (sports programming)
 
 > Mind sport usually held over the Internet or a local network, involving
 > participants trying to [[computer programming|program]] according

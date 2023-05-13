@@ -1,13 +1,14 @@
 ---
-title: My pet projects
 date: 2023-03-12
-tags:
-  - inbox
-  - outline
 sr-due: 2023-03-14
-sr-interval: 1
 sr-ease: 230
+sr-interval: 1
+tags:
+- inbox
+- outline
 ---
+
+# My pet projects
 
 - LinkedIn Account registrar
 - [ ] iturdikulov.com setup (initialization)

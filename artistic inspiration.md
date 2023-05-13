@@ -1,14 +1,15 @@
 ---
-title: Artistic inspiration
 date: 2023-03-19
-tags:
-  - inbox
-  - definition
 draft: true
 sr-due: 2023-03-16
-sr-interval: 3
 sr-ease: 250
+sr-interval: 3
+tags:
+- inbox
+- definition
 ---
+
+# Artistic inspiration
 
 > Inspiration (from the Latin inspirare, meaning "to breathe into") is an
 > unconscious burst of creativity in a literary, musical, or visual

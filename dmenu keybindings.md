@@ -1,14 +1,15 @@
 ---
-title: Dmenu keybindings
 date: 2023-03-13
-tags:
-  - inbox
-  - permanent
 draft: true
 sr-due: 2024-03-16
-sr-interval: 3
 sr-ease: 250
+sr-interval: 3
+tags:
+- inbox
+- permanent
 ---
+
+# Dmenu keybindings
 
 dmenu is completely controlled by the keyboard.
 

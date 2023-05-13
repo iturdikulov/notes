@@ -1,14 +1,15 @@
 ---
-title: How I learn computer programming
 date: 2023-03-13
-tags:
-  - inbox
-  - outline
 draft: true
 sr-due: 2024-03-16
-sr-interval: 3
 sr-ease: 250
+sr-interval: 3
+tags:
+- inbox
+- outline
 ---
+
+# How I learn computer programming
 
 - [A collection of full-stack resources for programmers](https://github.com/charlax/professional-programming)
 - [Continually updated, interactive, and test-driven coding challenges, with Anki flashcards.](https://github.com/donnemartin/interactive-coding-challenges)

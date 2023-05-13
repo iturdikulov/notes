@@ -1,14 +1,15 @@
 ---
-title: How I study English language?
 date: 2023-03-13
-tags:
-  - inbox
-  - outline
 draft: true
 sr-due: 2024-03-16
-sr-interval: 3
 sr-ease: 250
+sr-interval: 3
+tags:
+- inbox
+- outline
 ---
+
+# How I study English language?
 
 I usually just read some content in [[english language]].
 I also consume [[media (communication)|media]] content in English.

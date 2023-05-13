@@ -1,14 +1,16 @@
 ---
-title: Zotero Research Assistant
-date: 2023-01-27
-tags:
-  - inbox
-  - defenition
 canonicalUrl: https://www.zotero.org/
+date: 2023-01-27
 sr-due: 2023-03-16
-sr-interval: 3
 sr-ease: 265
+sr-interval: 3
+tags:
+- inbox
+- defenition
 ---
+
+# Zotero Research Assistant
+
 ![](../img/screenshoot-zotero.png)
 *Zotero main window*
 

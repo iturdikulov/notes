@@ -1,14 +1,15 @@
 ---
-title: My favorite fonts
-date:  2023-03-13
-tags:
-    - inbox
-    - permanent
+date: 2023-03-13
 draft: true
 sr-due: 2023-03-16
-sr-interval: 3
 sr-ease: 250
+sr-interval: 3
+tags:
+- inbox
+- permanent
 ---
+
+# My favorite fonts
 
 '\*' mark - [nerdfont](https://www.nerdfonts.com/|nerdfont) available.
 

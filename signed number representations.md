@@ -1,14 +1,15 @@
 ---
-title: Signed number representations
 date: 2023-03-23
-tags:
-  - inbox
-  - definition
 draft: true
 sr-due: 2023-04-02
-sr-interval: 4
 sr-ease: 270
+sr-interval: 4
+tags:
+- inbox
+- definition
 ---
+
+# Signed number representations
 
 > Used to solve the problem of representing negative integers in binary. The
 > problem of trying to store the negative sign (−) of a binary

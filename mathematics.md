@@ -1,14 +1,15 @@
 ---
-title: Mathematics
 date: 2023-03-06
-tags:
-  - definition
-  - inbox
 draft: true
 sr-due: 2023-03-15
-sr-interval: 2
 sr-ease: 230
+sr-interval: 2
+tags:
+- definition
+- inbox
 ---
+
+# Mathematics
 
 > Mathematics is the study of numbers, shapes, and patterns. The word comes from
 > the Greek μάθημα (máthema), meaning "science, knowledge, or learning", and is

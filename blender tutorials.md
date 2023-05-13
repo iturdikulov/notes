@@ -1,11 +1,12 @@
 ---
-title: "Blender Tutorials"
 date: 2023-04-13
-tags:
-  - inbox
-  - definition
 draft: true
+tags:
+- inbox
+- definition
 ---
+
+# Blender Tutorials
 
 My watched/watching [[blender|blender]] tutorials.
 

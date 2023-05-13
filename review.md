@@ -1,14 +1,15 @@
 ---
-title: Review
 date: 2023-03-12
-tags:
-  - inbox
-  - definition
 draft: true
 sr-due: 2023-03-17
-sr-interval: 4
 sr-ease: 270
+sr-interval: 4
+tags:
+- inbox
+- definition
 ---
+
+# Review
 
 > A review is an evaluation of a publication, product, service, or company or a
 > critical take on current affairs in literature, politics or culture. In

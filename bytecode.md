@@ -1,14 +1,15 @@
 ---
-title: Bytecode (portable code or p-code)
 date: 2022-12-29
 draft: true
-tags:
-  - inbox
-  - definition
 sr-due: 2023-03-16
-sr-interval: 3
 sr-ease: 250
+sr-interval: 3
+tags:
+- inbox
+- definition
 ---
+
+# Bytecode (portable code or p-code)
 
 > Form of instruction set designed for efficient execution by a software
 > interpreter. Unlike human-readable source [[code]], bytecodes are compact
@@ -32,4 +33,3 @@ sr-ease: 250
 > similar to object modules, but dynamically loaded during execution.
 >
 > -- [Wikipedia](https://en.wikipedia.org/wiki/Bytecode)
-

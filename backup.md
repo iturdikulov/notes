@@ -1,14 +1,15 @@
 ---
-title: Backup
 date: 2023-03-05
-tags:
-  - defenition
-  - inbox
 draft: true
 sr-due: 2023-08-10
-sr-interval: 1
 sr-ease: 230
+sr-interval: 1
+tags:
+- defenition
+- inbox
 ---
+
+# Backup
 
 Copy of some data. This copy precious if when the original data is lost or
 damaged (changed).

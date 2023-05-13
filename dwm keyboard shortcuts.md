@@ -1,14 +1,15 @@
 ---
-title: Dwm keyboard shortcuts
-date:  2023-03-13
-tags:
-    - inbox
-    - DWM
+date: 2023-03-13
 draft: true
 sr-due: 2024-03-16
-sr-interval: 3
 sr-ease: 250
+sr-interval: 3
+tags:
+- inbox
+- DWM
 ---
+
+# Dwm keyboard shortcuts
 
 I swapped meta key (ALT/META) to super key (WIN), which used in DWM by default
 as modifier key, to decrease key conflicts in various programs.

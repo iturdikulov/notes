@@ -1,14 +1,15 @@
 ---
-title: Sorting algorithm
 date: 2023-03-18
-tags:
-  - inbox
-  - definition
 draft: true
 sr-due: 2023-03-16
-sr-interval: 3
 sr-ease: 250
+sr-interval: 3
+tags:
+- inbox
+- definition
 ---
+
+# Sorting algorithm
 
 > Puts elements of a list into an order. The most frequently used orders are
 > numerical order and lexicographical order, and either ascending or descending.

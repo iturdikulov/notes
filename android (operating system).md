@@ -1,11 +1,12 @@
 ---
-title: "Android (operating system)"
 date: 2023-04-02
-tags:
-  - inbox
-  - definition
 draft: true
+tags:
+- inbox
+- definition
 ---
+
+# Android (operating system)
 
 > Android is an operating system for mobile devices. It is mostly used for
 > smartphones, like Google's own Google Pixel, as well as by other phone

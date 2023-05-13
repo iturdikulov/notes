@@ -1,11 +1,12 @@
 ---
-title: "Classical mechanics"
 date: 2023-04-17
-tags:
-  - inbox
-  - definition
 draft: true
+tags:
+- inbox
+- definition
 ---
+
+# Classical mechanics
 
 > [[physics|physical]] theory describing the motion of macroscopic
 > objects, from projectiles to parts of machinery and astronomical objects, such
@@ -15,4 +16,3 @@ draft: true
 > (reversibility).
 >
 > -- [Wikipedia](https://en.wikipedia.org/wiki/Classical_mechanics)
-

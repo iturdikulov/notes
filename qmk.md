@@ -1,14 +1,15 @@
 ---
-title: QMK Firmware
 date: 2023-01-28
 draft: false
-tags:
-  - inbox
-  - definition
 sr-due: 2023-03-16
-sr-interval: 3
 sr-ease: 250
+sr-interval: 3
+tags:
+- inbox
+- definition
 ---
+
+# QMK Firmware
 
 > The goal of the QMK software project is to develop a completely customizable,
 > powerful, and enjoyable firmware experience for any project - keyboard or

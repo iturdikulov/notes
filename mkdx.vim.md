@@ -1,12 +1,13 @@
 ---
-title: "mkdx.vim"
-date: 2023-04-05
-tags:
-  - inbox
-  - definition
-draft: true
 canonicalUrl: https://github.com/SidOfc/mkdx
+date: 2023-04-05
+draft: true
+tags:
+- inbox
+- definition
 ---
+
+# mkdx.vim
 
 > mkdx.vim is a Markdown plugin that aims to reduce the time you spend formatting your markdown documents
 

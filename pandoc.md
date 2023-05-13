@@ -1,13 +1,14 @@
 ---
-title: Pandoc
 date: 2023-03-09
-tags:
-  - inbox
-  - definition
 sr-due: 2023-04-14
-sr-interval: 1
 sr-ease: 230
+sr-interval: 1
+tags:
+- inbox
+- definition
 ---
+
+# Pandoc
 
 Pandoc [@JohnMacFarlanePandocUserGuide2023] is a [[haskell]]
 library and command-line tool to convert markup files (Markdown, LaTeX, HTML),

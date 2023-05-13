@@ -1,11 +1,12 @@
 ---
-title: "Sc-im"
 date: 2023-04-08
-tags:
-  - inbox
-  - definition
 draft: true
+tags:
+- inbox
+- definition
 ---
+
+# Sc-im
 
 If you enter `:fsum`, sc-im auto-calculate the sum of the column.
 

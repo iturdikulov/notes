@@ -1,14 +1,15 @@
 ---
-title: My Games
 date: 2023-03-12
-tags:
-  - inbox
-  - outline
 draft: true
 sr-due: 2023-03-17
-sr-interval: 4
 sr-ease: 270
+sr-interval: 4
+tags:
+- inbox
+- outline
 ---
+
+# My Games
 
 I play [[game|games]] (but not too much) usually on my
 [[computer|computer ]]or on my

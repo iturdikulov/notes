@@ -1,14 +1,15 @@
 ---
-title: Computer keyboard
 date: 2023-03-12
-tags:
-  - inbox
-  - definition
 draft: true
 sr-due: 2023-03-17
-sr-interval: 4
 sr-ease: 270
+sr-interval: 4
+tags:
+- inbox
+- definition
 ---
+
+# Computer keyboard
 
 > Peripheral input device modeled after the typewriter keyboard (I even used it)
 > which uses an arrangement of buttons or keys to act as mechanical levers or

@@ -1,14 +1,15 @@
 ---
-title: Number
 date: 2022-12-29
 draft: true
-tags:
-  - inbox
-  - definition
 sr-due: 2023-03-14
-sr-interval: 1
 sr-ease: 230
+sr-interval: 1
+tags:
+- inbox
+- definition
 ---
+
+# Number
 
 > Concept from [[mathematics|mathematics]], used to count or
 > measure. Depending on the field of mathematics, where numbers are used, there

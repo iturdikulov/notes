@@ -1,14 +1,15 @@
 ---
-title: Keyboard shortcut
-date:  2023-02-21
-tags:
-    - inbox
-    - definition
+date: 2023-02-21
 draft: true
 sr-due: 2023-03-16
-sr-interval: 3
 sr-ease: 250
+sr-interval: 3
+tags:
+- inbox
+- definition
 ---
+
+# Keyboard shortcut
 
 Control - main command key
 

@@ -1,14 +1,15 @@
 ---
-title: C (programming language)
 date: 2022-12-29
-tags:
-  - inbox
-  - definition
 draft: true
 sr-due: 2023-03-22
-sr-interval: 1
 sr-ease: 203
+sr-interval: 1
+tags:
+- inbox
+- definition
 ---
+
+# C (programming language)
 
 C is multi-paradigm programming language (I started learn it later than needed
 😼). By design work efficiently with typical machine instructions.

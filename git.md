@@ -1,14 +1,15 @@
 ---
-title: Git Version Control System
 date: 2022-12-29
 draft: true
-tags:
-  - inbox
-  - definition
 sr-due: 2023-03-14
-sr-interval: 1
 sr-ease: 228
+sr-interval: 1
+tags:
+- inbox
+- definition
 ---
+
+# Git Version Control System
 
 Distributed revision control system, [[computer program]], designed
 to help people create other computer program together.

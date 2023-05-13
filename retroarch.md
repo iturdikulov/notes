@@ -1,14 +1,15 @@
 ---
-title: RetroArch
 date: 2022-12-29
-tags:
-  - inbox
-  - definition
 draft: true
 sr-due: 2023-03-17
-sr-interval: 4
 sr-ease: 274
+sr-interval: 4
+tags:
+- inbox
+- definition
 ---
+
+# RetroArch
 
 Install & configure RetroArch on arch-based system!
 

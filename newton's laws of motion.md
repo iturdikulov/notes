@@ -1,14 +1,15 @@
 ---
-title: Newton's laws of motion
 date: 2023-03-19
-tags:
-  - inbox
-  - definition
 draft: true
 sr-due: 2023-03-16
-sr-interval: 3
 sr-ease: 250
+sr-interval: 3
+tags:
+- inbox
+- definition
 ---
+
+# Newton's laws of motion
 
 > Three basic laws of [[classical mechanics|classical mechanics]]
 > that describe the relationship between the motion of an object and the forces

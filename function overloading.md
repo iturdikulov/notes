@@ -1,11 +1,12 @@
 ---
-title: Function overloading (method overloading)
 date: 2023-04-01
-tags:
-  - inbox
-  - definition
 draft: true
+tags:
+- inbox
+- definition
 ---
+
+# Function overloading (method overloading)
 
 > Ability to create multiple
 > [[function (computer programming)|functions]] of the same name

@@ -1,14 +1,15 @@
 ---
-title: Unix
 date: 2022-12-29
-tags:
-  - definition
-  - inbox
 draft: true
 sr-due: 2023-05-18
-sr-interval: 50
 sr-ease: 250
+sr-interval: 50
+tags:
+- definition
+- inbox
 ---
+
+# Unix
 
 > UNIX is a computer operating system. It was first developed in 1969 at Bell
 > Labs. Ken Thompson, Dennis Ritchie, Douglas McIlroy, and others created it.

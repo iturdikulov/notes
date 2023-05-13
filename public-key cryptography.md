@@ -1,14 +1,15 @@
 ---
-title: Public-key cryptography
 date: 2023-03-21
-tags:
-  - inbox
-  - definition
 draft: true
 sr-due: 2023-03-16
-sr-interval: 3
 sr-ease: 250
+sr-interval: 3
+tags:
+- inbox
+- definition
 ---
+
+# Public-key cryptography
 
 > Public-key cryptography, or asymmetric cryptography, is the field of
 > cryptographic systems that use pairs of related keys. Each key pair consists

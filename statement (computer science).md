@@ -1,14 +1,15 @@
 ---
-title: Statement (computer science)
 date: 2023-03-21
-tags:
-  - inbox
-  - definition
 draft: true
 sr-due: 2023-03-16
-sr-interval: 3
 sr-ease: 250
+sr-interval: 3
+tags:
+- inbox
+- definition
 ---
+
+# Statement (computer science)
 
 > In [[computer programming|computer programming]], a statement is
 > a syntactic unit of an imperative programming language that expresses some
@@ -17,4 +18,3 @@ sr-ease: 250
 > (e.g. [[expression (computer science)|expressions]]).
 >
 > -- [Wikipedia](https://en.wikipedia.org/wiki/Statement_\(computer_science\))
-

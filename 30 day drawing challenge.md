@@ -1,14 +1,15 @@
 ---
-title: My 30 Day Drawing Challenge
 date: 2023-03-08
-tags:
-  - inbox
-  - log
 draft: true
 sr-due: 2023-03-17
-sr-interval: 4
 sr-ease: 270
+sr-interval: 4
+tags:
+- inbox
+- log
 ---
+
+# My 30 Day Drawing Challenge
 
 My first steps in [[my art]] creation.
 

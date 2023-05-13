@@ -1,14 +1,15 @@
 ---
-title: Electronic design automation (EDA)
 date: 2023-03-12
-tags:
-  - inbox
-  - definition
 draft: true
 sr-due: 2023-03-16
-sr-interval: 3
 sr-ease: 250
+sr-interval: 3
+tags:
+- inbox
+- definition
 ---
+
+# Electronic design automation (EDA)
 
 > Electronic design automation (EDA), also referred to as electronic
 > computer-aided design (ECAD), is a category of

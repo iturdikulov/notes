@@ -1,12 +1,13 @@
 ---
-title: "Nomad Sculpt"
-date: 2023-04-15
-tags:
-  - inbox
-  - definition
-draft: true
 canonicalUrl: https://nomadsculpt.com/manual/
+date: 2023-04-15
+draft: true
+tags:
+- inbox
+- definition
 ---
+
+# Nomad Sculpt
 
 A sculpting and painting mobile application.
 

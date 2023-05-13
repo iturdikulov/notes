@@ -1,14 +1,15 @@
 ---
-title: Art
 date: 2022-12-29
-tags:
-  - definition
-  - inbox
 draft: true
 sr-due: 2023-04-20
-sr-interval: 29
 sr-ease: 250
+sr-interval: 29
+tags:
+- definition
+- inbox
 ---
+
+# Art
 
 Art - various human activity and it's resulting product, that include
 imaginative, creative talent.

@@ -1,11 +1,13 @@
 ---
-title: "Neomutt"
 date: 2023-04-19
-tags:
-  - inbox
-  - definition
 draft: true
+tags:
+- inbox
+- definition
 ---
+
+# Neomutt
+
 > NeoMutt is a text-based application which interacts with users through
 > different menus which are mostly line-/entry-based or page-based. A line-based
 > menu is the so-called “index” menu (listing all messages of the currently

@@ -1,12 +1,13 @@
 ---
-title: "Khan Academy"
-tags:
-  - "inbox"
-  - "definition"
-canonicalUrl: "https://www.khanacademy.org/"
+canonicalUrl: https://www.khanacademy.org/
 date: 1681660800
 draft: true
+tags:
+- inbox
+- definition
 ---
+
+# Khan Academy
 
 > Learn for free about [[mathematics|math]],
 > [[art|art]],

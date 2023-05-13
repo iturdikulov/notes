@@ -1,15 +1,16 @@
 ---
-title: Source code (or code)
+canonicalUrl: https://en.wikipedia.org/wiki/Source_code
 date: 2023-03-21
-tags:
-  - inbox
-  - definition
 draft: true
 sr-due: 2023-04-16
-sr-interval: 3
 sr-ease: 250
-canonicalUrl: https://en.wikipedia.org/wiki/Source_code
+sr-interval: 3
+tags:
+- inbox
+- definition
 ---
+
+# Source code (or code)
 
 > Any collection of text, with or without comments, written using a
 > human-readable [[programming language]], usually as plain text.

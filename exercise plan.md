@@ -1,14 +1,15 @@
 ---
-title: Exercise Plan
-date:  2023-03-12
-tags:
-    - inbox
-    - outline
+date: 2023-03-12
 draft: true
 sr-due: 2023-03-15
-sr-interval: 2
 sr-ease: 230
+sr-interval: 2
+tags:
+- inbox
+- outline
 ---
+
+# Exercise Plan
 
 If you're completely new to physical training and want to use only your own body
 weight, you can start with a basic full-body routine that targets all major

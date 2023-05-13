@@ -1,11 +1,12 @@
 ---
-title: Touch typing
 date: 2023-03-12
-tags:
-  - outline
-  - definition
 draft: true
+tags:
+- outline
+- definition
 ---
+
+# Touch typing
 
 > Touch typing (also called blind typing, or touch keyboarding) is a style of
 > typing.

@@ -1,14 +1,15 @@
 ---
-title: Psychology
 date: 2023-03-12
-tags:
-  - inbox
-  - definition
 draft: true
 sr-due: 2023-03-17
-sr-interval: 4
 sr-ease: 270
+sr-interval: 4
+tags:
+- inbox
+- definition
 ---
+
+# Psychology
 
 > Psychology is the [[science|scientific]] study of mind and
 > behavior in humans and non-humans. Psychology includes the study of conscious

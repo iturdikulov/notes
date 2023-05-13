@@ -1,11 +1,12 @@
 ---
-title: "Computational complexity"
 date: 2023-04-17
-tags:
-  - inbox
-  - definition
 draft: true
+tags:
+- inbox
+- definition
 ---
+
+# Computational complexity
 
 > In [[computer science]], the computational complexity or simply
 > complexity of an algorithm is the amount of resources required to run it.

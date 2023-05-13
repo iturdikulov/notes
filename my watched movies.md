@@ -1,14 +1,15 @@
 ---
-title: My Watched Movies
 date: 2023-03-11
-tags:
-  - inbox
-  - permanent
 draft: true
 sr-due: 2023-04-18
-sr-interval: 28
 sr-ease: 250
+sr-interval: 28
+tags:
+- inbox
+- permanent
 ---
+
+# My Watched Movies
 
 - [x] Lord of the Rings: The Fellowship of the Ring (2001) Medieval motifs,
       fantasy, magic, RPG! 9.85/10

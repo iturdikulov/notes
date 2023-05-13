@@ -1,14 +1,15 @@
 ---
-title: Magic SysRq key
 date: 2022-12-29
 draft: true
-tags:
-  - inbox
-  - definition
 sr-due: 2023-03-17
-sr-interval: 4
 sr-ease: 270
+sr-interval: 4
+tags:
+- inbox
+- definition
 ---
+
+# Magic SysRq key
 
 The magic SysRq key is a key combination understood by the Linux kernel, which
 allows the user to perform various low-level commands regardless of the system's

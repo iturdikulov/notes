@@ -1,11 +1,12 @@
 ---
-title: "Interpreter (computing)"
 date: 2023-05-13
-tags:
-  - inbox
-  - definition
 draft: true
+tags:
+- inbox
+- definition
 ---
+
+# Interpreter (computing)
 
 > In computer science, an interpreter is a computer program that directly
 > executes instructions written in a programming or scripting language, without

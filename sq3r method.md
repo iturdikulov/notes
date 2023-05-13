@@ -1,14 +1,15 @@
 ---
-title: "SQ3R"
-tags:
-  - "inbox"
-  - "definiton"
 date: 1672243200
 draft: true
 sr-due: 1687363200
 sr-ease: 210
 sr-interval: 1
+tags:
+- inbox
+- definiton
 ---
+
+# SQ3R
 
 This is sort of [@SQ3R2022] optimization of the reading process.
 

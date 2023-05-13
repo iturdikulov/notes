@@ -1,14 +1,15 @@
 ---
-title: Miniflux
-date: 2023-03-27
-tags:
-  - inbox
-  - definition
 canonicalUrl: https://miniflux.app/
+date: 2023-03-27
 sr-due: 2023-04-01
-sr-interval: 4
 sr-ease: 272
+sr-interval: 4
+tags:
+- inbox
+- definition
 ---
+
+# Miniflux
 
 > Miniflux is a minimalist and opinionated feed reader.
 >

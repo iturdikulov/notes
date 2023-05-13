@@ -1,14 +1,15 @@
 ---
-title: Algorithm
 date: 2023-03-18
-tags:
-  - inbox
-  - definition
 draft: true
 sr-due: 2023-03-16
-sr-interval: 3
 sr-ease: 250
+sr-interval: 3
+tags:
+- inbox
+- definition
 ---
+
+# Algorithm
 
 In general, it's, set of step-by-step instructions for solving some problem
 ([[logic|logical]] or [[mathematics|mathematical]], or

@@ -1,15 +1,16 @@
 ---
-title: Neotest - A framework for interacting with tests within NeoVim.
+canonicalUrl: https://github.com/nvim-neotest/neotest
 date: 2023-03-19
-tags:
-  - inbox
-  - definition
 draft: true
 sr-due: 2023-03-16
-sr-interval: 3
 sr-ease: 250
-canonicalUrl: https://github.com/nvim-neotest/neotest
+sr-interval: 3
+tags:
+- inbox
+- definition
 ---
+
+# Neotest - A framework for interacting with tests within NeoVim.
 
 A framework for interacting with [[software testing|tests]] within
 [[neovim (text editor)]].

@@ -1,15 +1,16 @@
 ---
-title: Kitty (terminal emulator)
+canonicalUrl: https://sw.kovidgoyal.net/kitty/
 date: 2023-04-05
 draft: true
-tags:
-  - definition
-  - termtip
-canonicalUrl: https://sw.kovidgoyal.net/kitty/
 sr-due: 2023-06-17
-sr-interval: 4
 sr-ease: 270
+sr-interval: 4
+tags:
+- definition
+- termtip
 ---
+
+# Kitty (terminal emulator)
 
 > `kitty` is designed for power **keyboard** users. To that end all its controls
 > work with the keyboard (although it fully supports mouse interactions as

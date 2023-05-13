@@ -1,13 +1,14 @@
 ---
-title: "Spaced repetition"
 date: 2023-03-12
-tags:
-  - inbox
-  - definition
 sr-due: 2023-04-05
-sr-interval: 3
 sr-ease: 269
+sr-interval: 3
+tags:
+- inbox
+- definition
 ---
+
+# Spaced repetition
 
 > Learning technique usually using flashcards, where information that is newer,
 > and harder to remember are shown more frequently, while information that is

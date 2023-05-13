@@ -1,14 +1,15 @@
 ---
-title: My Computer Science Roadmap
 date: 2023-03-08
-tags:
-  - inbox
-  - permanent
 draft: true
 sr-due: 2023-03-22
-sr-interval: 1
 sr-ease: 208
+sr-interval: 1
+tags:
+- inbox
+- permanent
 ---
+
+# My Computer Science Roadmap
 
 My personal roadmap to learn Computer Science. It's based on
 https://teachyourselfcs.com/.

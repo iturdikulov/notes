@@ -1,10 +1,11 @@
 ---
-title: "How to type 100 words per minute"
 tags:
     - outline
 author: "Dan"
 date: 1670342400
 ---
+
+## How to type 100 words per minute
 
 > I spent too much time trying to improve my typing speed by doing the wrong
 things. After much experimentation and many dead ends, I discovered several

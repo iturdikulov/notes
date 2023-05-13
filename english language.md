@@ -1,14 +1,15 @@
 ---
-title: English language
 date: 2023-03-06
-tags:
-  - definition
-  - inbox
 draft: true
 sr-due: 2023-03-22
-sr-interval: 1
 sr-ease: 209
+sr-interval: 1
+tags:
+- definition
+- inbox
 ---
+
+# English language
 
 > English is a language that started in Anglo-Saxon England. It is originally
 > from Anglo-Frisian and Old Saxon dialects. English is now used as a global
@@ -29,4 +30,3 @@ sr-ease: 209
 > that is the most Latin, and it is often mistaken for being a Romance language.
 >
 > [Wikipedia in Simple English](https://simple.wikipedia.org/wiki/English_language)
-

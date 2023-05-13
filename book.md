@@ -1,11 +1,12 @@
 ---
-title: "Book"
 date: 2023-04-17
-tags:
-  - inbox
-  - definition
 draft: true
+tags:
+- inbox
+- definition
 ---
+
+# Book
 
 > Medium for recording information in the form of writing or images, typically
 > composed of many pages (made of papyrus, parchment, vellum, or paper) bound

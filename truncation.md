@@ -1,14 +1,15 @@
 ---
-title: Truncation
 date: 2023-03-23
-tags:
-  - inbox
-  - definition
 draft: true
 sr-due: 2023-04-01
-sr-interval: 3
 sr-ease: 268
+sr-interval: 3
+tags:
+- inbox
+- definition
 ---
+
+# Truncation
 
 > Limiting the number of digits right of the decimal point by discarding the
 > least significant ones.

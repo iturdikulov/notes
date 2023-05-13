@@ -1,16 +1,16 @@
 ---
-title: dm-crypt
 date: 2022-12-29
-tags:
-  - inbox
-  - definition
 draft: true
 sr-due: 2023-03-15
-sr-interval: 2
 sr-ease: 248
+sr-interval: 2
+tags:
+- inbox
+- definition
 ---
 
-# Create encrypted file container
+# dm-crypt
+
 
 ```{.bash org-language="sh"}
 # Redirect output of /dev/zero to initialize container file

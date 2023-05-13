@@ -1,15 +1,16 @@
 ---
-title: "Brave (web browser)"
-tags:
-  - "inbox"
-  - "definition"
-canonicalUrl: "https://brave.com/"
+canonicalUrl: https://brave.com/
 date: 1678982400
 draft: true
 sr-due: 1678896000
 sr-ease: 250
 sr-interval: 3
+tags:
+- inbox
+- definition
 ---
+
+# Brave (web browser)
 
 Free open source browser.
 

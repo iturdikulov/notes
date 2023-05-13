@@ -1,14 +1,15 @@
 ---
-title: Bit
 date: 2023-03-20
-tags:
-  - inbox
-  - definition
 draft: true
 sr-due: 2023-03-16
-sr-interval: 3
 sr-ease: 250
+sr-interval: 3
+tags:
+- inbox
+- definition
 ---
+
+# Bit
 
 > The bit is the most basic unit of information in
 > [[computing|computing]] and digital communications. The name is a

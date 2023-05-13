@@ -1,14 +1,15 @@
 ---
-title: Computer Science Learning Resources
 date: 2023-03-08
-tags:
-  - inbox
-  - outline
 draft: true
 sr-due: 2023-03-22
-sr-interval: 1
 sr-ease: 205
+sr-interval: 1
+tags:
+- inbox
+- outline
 ---
+
+# Computer Science Learning Resources
 
 ## Core
 

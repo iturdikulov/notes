@@ -1,14 +1,15 @@
 ---
-title: dmenu (dynamic menu for X)
 date: 2023-01-01
-tags:
-  - inbox
-  - definition
 draft: true
 sr-due: 2023-03-27
-sr-interval: 14
 sr-ease: 290
+sr-interval: 14
+tags:
+- inbox
+- definition
 ---
+
+# dmenu (dynamic menu for X)
 
 > dmenu is a dynamic menu for X, originally designed for dwm. It manages large
 > numbers of user-defined menu items efficiently.

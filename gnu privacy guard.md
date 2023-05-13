@@ -1,14 +1,15 @@
 ---
-title: GNU Privacy Guard (GPG or GnuPG)
 date: 2022-12-29
 draft: true
-tags:
-  - inbox
-  - definition
 sr-due: 2023-03-16
-sr-interval: 3
 sr-ease: 268
+sr-interval: 3
+tags:
+- inbox
+- definition
 ---
+
+# GNU Privacy Guard (GPG or GnuPG)
 
 > Free-software replacement for Symantec's PGP cryptographic software suite. The
 > software is compliant with RFC 4880, the IETF standards-track specification of

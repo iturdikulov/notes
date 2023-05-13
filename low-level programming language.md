@@ -1,14 +1,15 @@
 ---
-title: "Low-level programming language"
 date: 2023-03-12
-tags:
-  - inbox
-  - definition
 draft: true
 sr-due: 2023-03-16
-sr-interval: 3
 sr-ease: 250
+sr-interval: 3
+tags:
+- inbox
+- definition
 ---
+
+# Low-level programming language
 
 > Programming language that involves knowledge of both computer hardware and the
 > coding used to make the computer hardware do actions.

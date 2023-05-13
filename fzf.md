@@ -1,14 +1,15 @@
 ---
-title: fzf
 date: 2023-03-03
 draft: true
-tags:
-  - inbox
-  - definition
 sr-due: 2023-03-17
-sr-interval: 4
 sr-ease: 270
+sr-interval: 4
+tags:
+- inbox
+- definition
 ---
+
+# fzf
 
 It's a general purpose fuzzy finder written in Golang that can be used with any
 list of things: files, processes, command history, git branches, etc.

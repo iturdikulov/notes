@@ -1,14 +1,15 @@
 ---
-title: Portable Document Format (PDF)
 date: 2023-03-28
-tags:
-  - inbox
-  - definition
 draft: true
 sr-due: 2023-04-11
-sr-interval: 13
 sr-ease: 290
+sr-interval: 13
+tags:
+- inbox
+- definition
 ---
+
+# Portable Document Format (PDF)
 
 > File format developed by Adobe in 1992 to present documents, including text
 > formatting and images, in a manner independent of application software,

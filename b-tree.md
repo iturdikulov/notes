@@ -1,14 +1,15 @@
 ---
-title: B-tree
 date: 2023-03-18
-tags:
-  - inbox
-  - definition
 draft: true
 sr-due: 2023-03-16
-sr-interval: 3
 sr-ease: 250
+sr-interval: 3
+tags:
+- inbox
+- definition
 ---
+
+# B-tree
 
 > B-tree is a self-balancing tree data structure that maintains sorted data and
 > allows searches, sequential access, insertions, and deletions in
@@ -37,4 +38,3 @@ sr-ease: 250
 | Search    | O(log *n*)  | O(log *n*)     |
 | Insert    | O(log *n*)  | O(log *n*)     |
 | Delete    | O(log *n*)  | O(log *n*)     |
-

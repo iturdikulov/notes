@@ -1,12 +1,13 @@
 ---
-title: Obsidian
-date: 2023-03-14
-tags:
-  - definition
-  - shortcut
-draft: true
 canonicalUrl: https://obsidian.md/
+date: 2023-03-14
+draft: true
+tags:
+- definition
+- shortcut
 ---
+
+# Obsidian
 
 > Obsidian is a powerful and extensible knowledge base that works on top of your
 > local folder of plain text files.

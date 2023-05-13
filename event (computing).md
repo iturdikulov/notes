@@ -1,14 +1,15 @@
 ---
-title: Event (computing)
 date: 2023-03-21
-tags:
-  - inbox
-  - definition
 draft: true
 sr-due: 2023-03-16
-sr-interval: 3
 sr-ease: 250
+sr-interval: 3
+tags:
+- inbox
+- definition
 ---
+
+# Event (computing)
 
 > Action or occurrence recognized by [[computer program|software]],
 > often originating asynchronously from the external environment, that may be
@@ -19,4 +20,3 @@ sr-ease: 250
 > frequently an event loop.
 >
 > -- [Wikipedia](https://en.wikipedia.org/wiki/Event_\(computing\))
-

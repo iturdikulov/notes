@@ -1,15 +1,16 @@
 ---
-title: DevDocs
-date: 2023-03-12
-tags:
-  - inbox
-  - definition
-draft: true
 canonicalURL: https://devdocs.io/
+date: 2023-03-12
+draft: true
 sr-due: 2023-03-16
-sr-interval: 3
 sr-ease: 268
+sr-interval: 3
+tags:
+- inbox
+- definition
 ---
+
+# DevDocs
 
 DevDocs combines multiple API documentations in a fast, organized, and
 searchable interface.

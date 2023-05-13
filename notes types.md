@@ -1,13 +1,14 @@
 ---
-title: Notes types which I use with Zettelkasten
 date: 2023-03-09
-tags:
-  - inbox
-  - permanent
 sr-due: 2023-03-14
-sr-interval: 1
 sr-ease: 230
+sr-interval: 1
+tags:
+- inbox
+- permanent
 ---
+
+# Notes types which I use with Zettelkasten
 
 This is initial table of notes types which I use with
 [[zettelkasten]]. I will update it as I improve my workflow. To set

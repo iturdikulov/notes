@@ -1,9 +1,10 @@
 ---
-title: "Multiplication table"
 tags:
-  - "outline"
-  - "mathtip"
+- outline
+- mathtip
 ---
+
+# Multiplication table
 
 > In [[mathematics|mathematics]], a multiplication table (sometimes, less
 > formally, a times table) is a mathematical table used to define a
@@ -40,4 +41,3 @@ tags:
 
 To remember this table I use the following training method:
 [Math Trainer - Multiplication](https://www.mathsisfun.com/numbers/math-trainer-multiply.html)
-

@@ -1,14 +1,15 @@
 ---
-title: Signal (IPC)
 date: 2023-03-22
-tags:
-  - inbox
-  - definition
 draft: true
 sr-due: 2023-04-02
-sr-interval: 4
 sr-ease: 270
+sr-interval: 4
+tags:
+- inbox
+- definition
 ---
+
+# Signal (IPC)
 
 > Signals are standardized messages sent to a running program to trigger
 > specific behavior, such as quitting or error handling. They are a limited form

@@ -1,14 +1,15 @@
 ---
-title: Getting Things Done (GTD)
 date: 2023-03-05
-tags:
-  - inbox
-  - definition
 draft: true
 sr-due: 2023-03-14
-sr-interval: 1
 sr-ease: 228
+sr-interval: 1
+tags:
+- inbox
+- definition
 ---
+
+# Getting Things Done (GTD)
 
 > Getting Things Done (GTD) is a way of organizing all the things a person has
 > to do. The method was made by David Allen. He has written a book about this

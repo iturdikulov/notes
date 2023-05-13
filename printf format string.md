@@ -1,14 +1,15 @@
 ---
-title: Printf format in C
-date:  2022-12-29
-tags:
-    - inbox
-    - definition
+date: 2022-12-29
 draft: true
 sr-due: 2023-03-15
-sr-interval: 2
 sr-ease: 248
+sr-interval: 2
+tags:
+- inbox
+- definition
 ---
+
+# Printf format in C
 
 TODO: add link to python section?
 ```{=org}

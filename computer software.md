@@ -1,14 +1,15 @@
 ---
-title: "Computer software"
 date: 2022-12-29
-tags:
-  - inbox
-  - definition
 draft: true
 sr-due: 2023-03-17
-sr-interval: 4
 sr-ease: 270
+sr-interval: 4
+tags:
+- inbox
+- definition
 ---
+
+# Computer software
 
 > Set of instructions and documentation that tells a computer what to do or how
 > to perform a task. Software includes all different programs on a computer,

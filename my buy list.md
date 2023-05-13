@@ -1,14 +1,15 @@
 ---
-title: "My Buy List"
-tags:
-  - "inbox"
-  - "permanent"
 date: 1670601600
 draft: true
 sr-due: 1678982400
 sr-ease: 270
 sr-interval: 4
+tags:
+- inbox
+- permanent
 ---
+
+# My Buy List
 
 Usually I buy things in bulk, so I don't need to buy them again for a long time.
 I'm trying to buy items [[online shopping|online]] or offline

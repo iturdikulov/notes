@@ -1,11 +1,12 @@
 ---
-title: "Information theory"
 date: 2023-04-17
-tags:
-  - inbox
-  - definition
 draft: true
+tags:
+- inbox
+- definition
 ---
+
+# Information theory
 
 > Branch of applied [[mathematics|mathematic]] and electrical
 > engineering. Information theory measures the amount of information in data

@@ -1,14 +1,15 @@
 ---
-title: Cutlets
 date: 2023-03-11
-tags:
-  - inbox
-  - definiton
 draft: true
 sr-due: 2023-03-17
-sr-interval: 4
 sr-ease: 270
+sr-interval: 4
+tags:
+- inbox
+- definiton
 ---
+
+# Cutlets
 
 ## Cuisines of Russia, Ukraine and other countries of former Soviet Union
 

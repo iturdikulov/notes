@@ -1,11 +1,12 @@
 ---
-title: "My Articles List (publishing)"
 date: 2023-04-18
-tags:
-  - inbox
-  - outline
 draft: true
+tags:
+- inbox
+- outline
 ---
+
+# My Articles List (publishing)
 
 > An article or piece is a written work published in a print or electronic
 > medium. It may be for the purpose of propagating news, research results,

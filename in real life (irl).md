@@ -1,11 +1,12 @@
 ---
-title: "In real life (IRL)"
 date: 2023-04-17
-tags:
-  - inbox
-  - definition
 draft: true
+tags:
+- inbox
+- definition
 ---
+
+# In real life (IRL)
 
 For life support I need [[my buy list|buy some things]],
 [[cooking|cook]] food and

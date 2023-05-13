@@ -1,14 +1,15 @@
 ---
-title: Recursion (computer science)
 date: 2023-03-18
-tags:
-  - inbox
-  - definition
 draft: true
 sr-due: 2023-03-16
-sr-interval: 3
 sr-ease: 250
+sr-interval: 3
+tags:
+- inbox
+- definition
 ---
+
+# Recursion (computer science)
 
 > Method of solving a [[computational problem|computation problem]]
 > where the solution depends on solutions to smaller instances of the same
@@ -22,6 +23,3 @@ sr-ease: 250
 ![Recursive Tree](./img/RecursiveTree.JPG)
 *Tree created using the Logo programming language and relying heavily on
 recursion. Each branch can be seen as a smaller version of a tree.*
-
-
-

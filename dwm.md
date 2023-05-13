@@ -1,14 +1,15 @@
 ---
-title: dwm (dynamic window manager)
 date: 2022-12-29
-tags:
-  - inbox
-  - definition
 draft: true
 sr-due: 2024-03-17
-sr-interval: 4
 sr-ease: 270
+sr-interval: 4
+tags:
+- inbox
+- definition
 ---
+
+# dwm (dynamic window manager)
 
 > dwm is a dynamic window manager for X. It manages windows in tiled, monocle
 > and floating layouts. All of the layouts can be applied dynamically,

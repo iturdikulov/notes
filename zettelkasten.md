@@ -1,14 +1,15 @@
 ---
-title: Zettelkasten Method
 date: 2023-03-10
-tags:
-  - inbox
-  - outline
 draft: true
 sr-due: 2023-03-31
-sr-interval: 10
 sr-ease: 228
+sr-interval: 10
+tags:
+- inbox
+- outline
 ---
+
+# Zettelkasten Method
 
 My notes should be organized to evolve, save my time and bring benefits to me
 and others.

@@ -1,15 +1,16 @@
 ---
-title: Fandom (website)
+canonicalUrl: https://www.fandom.com/
 date: 2023-03-12
-tags:
-  - inbox
-  - definition
 draft: true
 sr-due: 2023-03-17
-sr-interval: 4
 sr-ease: 270
-canonicalUrl: https://www.fandom.com/
+sr-interval: 4
+tags:
+- inbox
+- definition
 ---
+
+# Fandom (website)
 
 > Fandom powers fan experiences - Our mission is to understand, inform,
 > entertain and celebrate fans by building the best entertainment and gaming

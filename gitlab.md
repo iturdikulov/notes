@@ -1,15 +1,16 @@
 ---
-title: GitLab
+canonicalUrl: https://gitlab.com/
 date: 2023-03-12
-tags:
-  - inbox
-  - definition
 draft: true
 sr-due: 2023-05-17
-sr-interval: 4
 sr-ease: 270
-canonicalUrl: https://gitlab.com/
+sr-interval: 4
+tags:
+- inbox
+- definition
 ---
+
+# GitLab
 
 DevOps software package which can develop, secure, and operate software.
 Alternative to [[github]].

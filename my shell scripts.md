@@ -1,11 +1,12 @@
 ---
-title: "My shell scripts"
 date: 2023-04-02
-tags:
-  - inbox
-  - definition
 draft: true
+tags:
+- inbox
+- definition
 ---
+
+# My shell scripts
 
 - [ ] dmenu record, from lukesmith
 - [ ] Well, there is "gio mount sftp://USER@XYZ" after which you can access the

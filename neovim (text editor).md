@@ -1,14 +1,15 @@
 ---
-title: Neovim (text editor)
 date: 2023-02-20
-tags:
-    - inbox
-    - definition
 draft: true
 sr-due: 2023-03-22
-sr-interval: 1
 sr-ease: 210
+sr-interval: 1
+tags:
+- inbox
+- definition
 ---
+
+# Neovim (text editor)
 
 [@Neovim] - Hyperextensible Vim-based text editor.
 

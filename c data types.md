@@ -1,14 +1,15 @@
 ---
-title: C data types
 date: 2022-12-29
-tags:
-  - inbox
-  - definition
 draft: true
 sr-due: 2023-03-15
-sr-interval: 2
 sr-ease: 245
+sr-interval: 2
+tags:
+- inbox
+- definition
 ---
+
+# C data types
 
 ```{=org}
 #+filetags: C, data structures, programming

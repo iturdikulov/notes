@@ -1,11 +1,13 @@
 ---
-title: Surfingkeys
-date:  2023-03-27
-tags:
-    - definition
-    - browser
 canonicalUrl: https://github.com/brookhong/Surfingkeys
+date: 2023-03-27
+tags:
+- definition
+- browser
 ---
+
+# Surfingkeys
+
 > Browser extension that provides keyboard-based navigation and control of the
 > web in the spirit of the VIM editor. But it's not for VIM users only, it's for
 > anyone who just needs some more shortcuts to his/her own functions.
@@ -960,4 +962,3 @@ Open vim editor for current input
 <kbd><Ctrl-Alt-i></kbd>
 ?
 Open neovim for current input
-

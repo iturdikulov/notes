@@ -1,14 +1,15 @@
 ---
-title: Data type
 date: 2023-03-15
-tags:
-  - inbox
-  - definition
 draft: true
 sr-due: 2023-03-16
-sr-interval: 3
 sr-ease: 250
+sr-interval: 3
+tags:
+- inbox
+- definition
 ---
+
+# Data type
 
 In modern language like Python, JavaScript you can even not working with data
 types (modern days you can use some ways for use types).

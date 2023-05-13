@@ -1,11 +1,12 @@
 ---
-title: "Semolina Porridge"
 date: 2023-04-29
-tags:
-  - inbox
-  - definition
 draft: true
+tags:
+- inbox
+- definition
 ---
+
+# Semolina Porridge
 
 TODO: link with recipes outline?
 

@@ -1,14 +1,15 @@
 ---
-title: Heap (data structure)
 date: 2022-12-29
 draft: true
-tags:
-  - inbox
-  - definition
 sr-due: 2023-03-17
-sr-interval: 4
 sr-ease: 270
+sr-interval: 4
+tags:
+- inbox
+- definition
 ---
+
+# Heap (data structure)
 
 Tree data structure, which convenient to specific heap property:
 

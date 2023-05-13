@@ -1,14 +1,15 @@
 ---
-title: English transcription
 date: 2023-02-20
-tags:
-  - inbox
-  - permanent
 draft: true
 sr-due: 2023-03-16
-sr-interval: 3
 sr-ease: 250
+sr-interval: 3
+tags:
+- inbox
+- permanent
 ---
+
+# English transcription
 
 Источники:
 

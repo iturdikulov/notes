@@ -1,14 +1,15 @@
 ---
-title: Public utility
 date: 2023-03-12
-tags:
-  - inbox
-  - definition
 draft: true
 sr-due: 2023-03-17
-sr-interval: 4
 sr-ease: 270
+sr-interval: 4
+tags:
+- inbox
+- definition
 ---
+
+# Public utility
 
 > A public utility company (usually just utility) is an organization that
 > maintains the infrastructure for a public service (often also providing a

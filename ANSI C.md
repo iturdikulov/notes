@@ -1,11 +1,13 @@
 ---
-title: "ANSI C"
 date: 2023-05-01
-tags:
-  - inbox
-  - definition
 draft: true
+tags:
+- inbox
+- definition
 ---
+
+# ANSI C
+
 > ANSI C, ISO C, and Standard C are successive standards for the
 > [[c (programming language)|c programming]] language published by
 > the American National Standards Institute (ANSI) and ISO/IEC JTC 1/SC 22/WG 14

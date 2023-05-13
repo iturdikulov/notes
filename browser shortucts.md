@@ -1,15 +1,17 @@
 ---
-title: "Browser shortucts"
-tags:
-  - "inbox"
-  - "outline"
-  - "browser"
 date: 1678982400
 draft: true
 sr-due: 1678896000
 sr-ease: 250
 sr-interval: 3
+tags:
+- inbox
+- outline
+- browser
 ---
+
+# Browser shortucts
+
 This is a list of keyboard shortcuts which I use in my browser.
 Currently, I use [[brave (web browser)]].
 

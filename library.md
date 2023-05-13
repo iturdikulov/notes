@@ -1,14 +1,15 @@
 ---
-title: Library
 date: 2023-03-12
-tags:
-  - inbox
-  - definition
 draft: true
 sr-due: 2023-03-17
-sr-interval: 4
 sr-ease: 270
+sr-interval: 4
+tags:
+- inbox
+- definition
 ---
+
+# Library
 
 - [Audio Books Online Download, Free Unabridged Audiobook Torrent on AudioBook Bay (ABB)](https://audiobookbay.li/)
 - [Library Genesis](https://libgen.is/)

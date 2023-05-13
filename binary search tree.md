@@ -1,14 +1,15 @@
 ---
-title: Binary search tree
 date: 2023-03-18
-tags:
-  - inbox
-  - definition
 draft: true
 sr-due: 2023-03-16
-sr-interval: 3
 sr-ease: 250
+sr-interval: 3
+tags:
+- inbox
+- definition
 ---
+
+# Binary search tree
 
 > In [[binary search tree|computer science]], a binary search tree
 > (BST), also called an ordered or sorted binary tree, is a rooted binary tree
@@ -29,4 +30,3 @@ principle of [[binary search algorithm|binary search]].
 | Search    | O(log _n_)  | O(_n_)         |
 | Insert    | O(log _n_)  | O(_n_)         |
 | Delete    | O(log _n_)  | O(_n_)         |
-

@@ -1,9 +1,10 @@
 ---
-title: "My awesome software list"
-tags:
-  - "outline"
 date: 1678636800
+tags:
+- outline
 ---
+
+# My awesome software list
 
 This is a list my daily-used software. Some of them described in more details in
 other notes.

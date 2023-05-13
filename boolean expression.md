@@ -1,14 +1,15 @@
 ---
-title: Boolean expression
 date: 2023-05-24
-tags:
-  - inbox
-  - definition
 draft: true
 sr-due: 2023-04-01
-sr-interval: 4
 sr-ease: 270
+sr-interval: 4
+tags:
+- inbox
+- definition
 ---
+
+# Boolean expression
 
 Expression which produce a `Boolean` value when evaluated. Used in many
 [[programming language|programming languages]] as built-in type.

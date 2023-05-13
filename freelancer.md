@@ -1,14 +1,15 @@
 ---
-title: Freelancer
 date: 2023-03-12
-tags:
-  - inbox
-  - definition
 draft: true
 sr-due: 2023-03-17
-sr-interval: 4
 sr-ease: 270
+sr-interval: 4
+tags:
+- inbox
+- definition
 ---
+
+# Freelancer
 
 > Freelance (sometimes spelled free-lance or free lance), freelancer, or
 > freelance worker, are terms commonly used for a person who is self-employed

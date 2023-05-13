@@ -1,14 +1,15 @@
 ---
-title: "Escape sequences"
-tags:
-  - "inbox"
-  - "definition"
 date: 1672243200
 draft: true
 sr-due: 1678809600
 sr-ease: 248
 sr-interval: 2
+tags:
+- inbox
+- definition
 ---
+
+# Escape sequences
 
 Combination of characters, which meaning something other than the literal
 characters contained therein.

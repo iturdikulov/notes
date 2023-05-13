@@ -1,14 +1,15 @@
 ---
-title: Development Environment
 date: 2023-03-05
-tags:
-  - inbox
-  - outline
 draft: true
 sr-due: 2023-03-16
-sr-interval: 3
 sr-ease: 252
+sr-interval: 3
+tags:
+- inbox
+- outline
 ---
+
+# Development Environment
 
 NEXT: review this
 

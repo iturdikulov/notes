@@ -1,11 +1,12 @@
 ---
-title: "Biology"
 date: 2023-04-18
-tags:
-  - inbox
-  - definition
 draft: true
+tags:
+- inbox
+- definition
 ---
+
+# Biology
 
 > Biology is the scientific study of life. It is a natural
 > [[science|science]] with a broad scope but has several unifying

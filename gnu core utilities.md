@@ -1,11 +1,12 @@
 ---
-title: "GNU Core Utilities"
 date: 2023-04-19
-tags:
-  - inbox
-  - outline
 draft: true
+tags:
+- inbox
+- outline
 ---
+
+# GNU Core Utilities
 
 > The GNU Core Utilities or coreutils is a package of GNU software containing
 > implementations for many of the basic tools, such as cat, ls, and rm, which

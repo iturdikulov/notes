@@ -1,14 +1,15 @@
 ---
-title: Audio Check
-date: 2023-03-12
-tags:
-  - inbox
-  - definition
 canonicalUrl: https://www.audiocheck.net/
+date: 2023-03-12
 draft: true
 sr-due: 2023-03-17
-sr-interval: 4
 sr-ease: 270
+sr-interval: 4
+tags:
+- inbox
+- definition
 ---
+
+# Audio Check
 
 Test your audio equipment online.

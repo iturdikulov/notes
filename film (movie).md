@@ -1,15 +1,16 @@
 ---
-title: Film (Movie)
+canonicalUrl: https://simple.wikipedia.org/wiki/Movie
 date: 2023-07-12
-tags:
-  - inbox
-  - definition
 draft: true
 sr-due: 2023-07-17
-sr-interval: 4
 sr-ease: 270
-canonicalUrl: https://simple.wikipedia.org/wiki/Movie
+sr-interval: 4
+tags:
+- inbox
+- definition
 ---
+
+# Film (Movie)
 
 A movie or film is a type of visual [[art]] that uses images and
 sounds to tell stories or teach people something. Most people watch movies to

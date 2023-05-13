@@ -1,14 +1,15 @@
 ---
-title: How I learn 3D computer graphics
 date: 2023-03-13
-tags:
-  - inbox
-  - outline
 draft: true
 sr-due: 2024-03-16
-sr-interval: 3
 sr-ease: 250
+sr-interval: 3
+tags:
+- inbox
+- outline
 ---
+
+# How I learn 3D computer graphics
 
 My outline for learning 3D [[computer graphics]].
 

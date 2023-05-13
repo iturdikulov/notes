@@ -1,14 +1,15 @@
 ---
-title: File (command)
 date: 2023-03-22
-tags:
-  - inbox
-  - definition
 draft: true
 sr-due: 2023-05-16
-sr-interval: 3
 sr-ease: 250
+sr-interval: 3
+tags:
+- inbox
+- definition
 ---
+
+# File (command)
 
 Determines the type of file. Additional information: `man file`
 

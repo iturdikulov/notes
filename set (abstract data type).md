@@ -1,11 +1,12 @@
 ---
-title: "Set (abstract data type)"
 date: 2023-04-14
-tags:
-  - inbox
-  - definition
 draft: true
+tags:
+- inbox
+- definition
 ---
+
+# Set (abstract data type)
 
 > Abstract data type that can store unique values, without any particular order.
 > It is a computer implementation of the mathematical concept of a finite set.
@@ -44,4 +45,3 @@ contrast to insertion into the begging of a regular array
 can take $2N + 1$ steps. Formula: (search $N$ steps) + (shift
 $N$ steps) + (insert 1 step). In other words we add search operation to insert
 value into set.
-

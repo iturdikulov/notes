@@ -1,11 +1,12 @@
 ---
-title: "Camera"
 date: 2023-04-23
-tags:
-  - inbox
-  - definition
 draft: true
+tags:
+- inbox
+- definition
 ---
+
+# Camera
 
 > A camera is an optical instrument that captures [[my pictures|images]]. Most
 > cameras can capture 2D images, while some more advanced models can capture

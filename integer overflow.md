@@ -1,14 +1,15 @@
 ---
-title: Integer overflow
 date: 2023-03-23
-tags:
-  - inbox
-  - definition
 draft: true
 sr-due: 2023-04-02
-sr-interval: 4
 sr-ease: 270
+sr-interval: 4
+tags:
+- inbox
+- definition
 ---
+
+# Integer overflow
 
 > Number which is stored becomes larger than the capacity of the
 > [[computer memory|memory]] it is stored in. The most likely

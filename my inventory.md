@@ -1,14 +1,16 @@
 ---
-title: "My Inventory"
-tags:
-  - "inbox"
-  - "permanent"
 date: 1672243200
 draft: true
 sr-due: 1678982400
 sr-ease: 270
 sr-interval: 4
+tags:
+- inbox
+- permanent
 ---
+
+# My Inventory
+
 - мексидол 2.0 мл с физраствором
 - комбилипен витамины
 - трентал

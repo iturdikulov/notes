@@ -1,14 +1,15 @@
 ---
-title: Computer Science
 date: 2022-12-29
 draft: true
-tags:
-  - definition
-  - inbox
 sr-due: 2023-03-14
-sr-interval: 1
 sr-ease: 228
+sr-interval: 1
+tags:
+- definition
+- inbox
 ---
+
+# Computer Science
 
 > Study of [[computation|computation]], automation, and
 > information. Computer [[science|science]] spans theoretical
@@ -25,4 +26,3 @@ sr-ease: 228
 
 I haw own plan to
 [[how i study computer science|study computer science]].
-

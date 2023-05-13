@@ -1,14 +1,15 @@
 ---
-title: Parcel post
 date: 2023-03-12
-tags:
-  - inbox
-  - definition
 draft: true
 sr-due: 2023-03-17
-sr-interval: 4
 sr-ease: 270
+sr-interval: 4
+tags:
+- inbox
+- definition
 ---
+
+# Parcel post
 
 > Parcel post is a postal service for mail that is too heavy for normal letter
 > post. It is usually slower than letter post. The development of the parcel

@@ -1,11 +1,12 @@
 ---
-title: "Internet Protocol"
 date: 2023-04-17
-tags:
-  - inbox
-  - definition
 draft: true
+tags:
+- inbox
+- definition
 ---
+
+# Internet Protocol
 
 > The Internet Protocol (IP) is the [[computer network|network]]
 > layer communications protocol in the Internet protocol suite for relaying

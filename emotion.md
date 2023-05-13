@@ -1,11 +1,12 @@
 ---
-title: "Emotion"
 date: 2023-04-17
-tags:
-  - inbox
-  - definition
 draft: true
+tags:
+- inbox
+- definition
 ---
+
+# Emotion
 
 > Emotions are what people feel. They are very ancient, and can be seen in all
 > mammals.
