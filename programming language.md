@@ -10,7 +10,7 @@ sr-interval: 3
 sr-ease: 250
 ---
 
-> System of notation for writing [[computer programs]]. Most programming
+> System of notation for writing [[computer program]]'s. Most programming
 > languages are text-based formal languages, but they may also be graphical.
 > They are a kind of [[computer]] language.
 >

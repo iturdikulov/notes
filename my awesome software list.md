@@ -345,4 +345,4 @@ Check also [[my shell scripts|my shell scripts]] and
 
 ## Android
 
-- [[202304100133-Termux]
+- [[termux]

@@ -12,7 +12,7 @@ draft: "true"
 localLibrary: "zotero://select/items/1_RJSUR4DQ"
 ---
 This book is Part I of the fourth edition of Robert Sedgewick and Kevin Wayne’s
-[[algorithms]], the leading textbook on algorithms today,
+[[algorithm]]'s, the leading textbook on algorithms today,
 widely used in colleges and universities worldwide.
 
 Part I contains Chapters 1 through 3 of the book.
