@@ -1,5 +1,5 @@
 import os
-from datetime import datetime
+from datetime import datetime, date
 
 import frontmatter
 
@@ -17,12 +17,15 @@ for filename in os.listdir(directory):
         # Open the file and read its contents
         with open(filepath, "r") as f:
             post = frontmatter.loads(f.read())
-            date = post.get("date")
+            cdate = post.get("date")
+            convert = False
+            if cdate and isinstance(cdate, int):
+                # convert timestamp to "YYYY-MM-DD" string
+                post["date"] = datetime.fromtimestamp(int(cdate)).strftime("%Y-%m-%d")
+                convert = True
 
-            if date and date.isdigit():
-                # Convert from unix timestamp to date YYYY-MM-DD
-                post["date"] = datetime.utcfromtimestamp(int(date)).strftime("%Y-%m-%d")
-
+            if convert:
                 with open(filepath, "w") as f:
                     f.write(frontmatter.dumps(post))
                     print(f"Fixed frontmatter for {filename}")
+

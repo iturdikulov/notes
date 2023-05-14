@@ -1,7 +1,7 @@
 ---
+date: '2023-03-09'
 tags:
-  - "outline"
-date: 1678377600
+- outline
 ---
 
 # My daily activities and goals
