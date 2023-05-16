@@ -13,19 +13,20 @@ sr-ease: 250
 
 # Notes types which I use with Zettelkasten
 
-This is initial table of notes types which I use with
-[[zettelkasten]]. I will update it as I improve my workflow. To set
-note type need just apple tag from left column to note.
+This is initial table of notes types which I use with [[zettelkasten]]. I will
+update it as I improve my workflow. To set note type need just apple tag from
+left column to note.
 
 | Tag         | Description                                                |
 | :---------- | :--------------------------------------------------------- |
 | #inbox      | Prompts and Incomplete notes (can be linked in log)        |
-| #daily      | Daily working log                                          |
+| #weekly     | Weakly working log                                         |
 | #permanent  | My Notes with complete phrases in the title                |
 | #defenition | Simple definitions + little personal notes (or vice versa) |
 | #outline    | Outline notes                                              |
 | #research   | Literature notes                                           |
 |             |                                                            |
-| #stub       | Stubs                                                      |
+| #stub       | Stubs TODO: what is stubs?                                 |
 | #contact    | Person notes                                               |
 | #log        | Log notes                                                  |
+
