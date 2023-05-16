@@ -1,12 +1,12 @@
 ---
-date: '2022-12-28'
+date: "2022-12-28"
 draft: true
 sr-due: 1678982400
 sr-ease: 270
 sr-interval: 4
 tags:
-- inbox
-- permanent
+  - inbox
+  - permanent
 ---
 
 # My Inventory
@@ -53,8 +53,14 @@ tags:
 
 ## [[digital electronics|electronics]] Devices
 
-- KBD75 V2 custom mechanical keyboard, support [[qmk]] firmware.
-  [YUNZII AKKO
-  CS](https://www.yunzii.com/products/yunzii-akko-cs-switches-45-pcs) Lavender
-  Purple Switches.
+- TODO: kindle paperwhite model
+- TODO: mobile phone 1 model
+- TODO: mobile phone 2 model
+- TODO: Mouse model
+- TODO: Monitor model
+- TODO: PC parts models
 - Samsung Galaxy Tab S7 FE - SM-T733
+- KBD75 V2 custom mechanical keyboard, support [[qmk]] firmware.
+  [YUNZII AKKO CS](https://www.yunzii.com/products/yunzii-akko-cs-switches-45-pcs)
+  Lavender Purple Switches.
+
