@@ -1,12 +1,12 @@
 ---
-date: '2022-12-28'
+date: "2022-12-28"
 draft: true
 sr-due: 1678723200
 sr-ease: 230
 sr-interval: 1
 tags:
-- inbox
-- definition
+  - inbox
+  - definition
 ---
 
 # Negentropy
@@ -17,6 +17,9 @@ tags:
 > Solar System. Another example is life.
 >
 > -- [Wikipedia in Simple English](https://simple.wikipedia.org/wiki/Negentropy)
+
+I store tasks, which I need to check constantly, in this file. This helps me to
+reduce chaos in my life (at least digital).
 
 ## My process of negentropy
 
@@ -31,5 +34,6 @@ tags:
 - [ ] [[my backup plan]]
 - [ ] how to store things, what I really need?
 - [ ] Mobile device backup {#mobile-device-backup}
-- [ ] Zotero/Zettelkasten
+- [ ] zotero @notes fix, break attachments check
+- [ ] obsidian, find break links
 - [ ] sync dotfiles nvim and check it
