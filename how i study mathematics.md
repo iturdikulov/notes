@@ -28,3 +28,7 @@ List of resources and tips to learn [[mathematics]]
 - [math-prosto.ru](https://math-prosto.ru/)
 - [Ликбез по дискретной математике - Stepic.org](https://stepic.org/course/%D0%9B%D0%B8%D0%BA%D0%B1%D0%B5%D0%B7-%D0%BF%D0%BE-%D0%B4%D0%B8%D1%81%D0%BA%D1%80%D0%B5%D1%82%D0%BD%D0%BE%D0%B9-%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B5-91/)
 - [Mathway | Algebra Problem Solver](https://www.mathway.com/Algebra)
+
+## TODO
+
+- [ ] [Simple Math in Russian](https://www.youtube.com/playlist?list=PLC2pBQ7lPOZCu0cehs7tPmnoeK2BjUiSk)
