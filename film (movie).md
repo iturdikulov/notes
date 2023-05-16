@@ -142,4 +142,4 @@ Some films can also use Western plots even if they are set in other places
 
 ## See also
 
-- [[my watched movies]]
+- [[my movies]]

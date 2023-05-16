@@ -16,7 +16,7 @@ tags:
 > addition to a critical evaluation, the review's author may assign the work a
 > rating to indicate its relative merit.
 >
-> Reviews can apply to a [[my watched movies|movie]] (a movie
+> Reviews can apply to a [[my movies|movie]] (a movie
 > review), video [[my games|games]](video game review),
 > [[my music|musical]] composition (music review of a composition
 > or recording), [[my books|books]](book review); a piece of

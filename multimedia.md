@@ -15,5 +15,5 @@ tags:
 - [[my music]]
 - [[my games]]
 - [[my books]]
-- [[my watched movies]]
+- [[my movies]]
 - [[my pictures]]

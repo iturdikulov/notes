@@ -48,7 +48,7 @@ Right now I'm trying to follow my personal [[exercise plan]] and
 I can also spend time with my family, friends and pets or consume some media,
 for example:
 
-- Watching [[my watched movies|movies]], [[twitch (service)|twitch]],
+- Watching [[my movies|movies]], [[twitch (service)|twitch]],
   [[youtube|youtube]]
 - Playing [[my games]]
 - Reading [[my books]] and [[news]]
