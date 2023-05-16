@@ -79,3 +79,4 @@ trash
 var/lib/lxcfs/
 ~$*
 books/
+.git/
