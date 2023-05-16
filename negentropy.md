@@ -32,3 +32,4 @@ tags:
 - [ ] how to store things, what I really need?
 - [ ] Mobile device backup {#mobile-device-backup}
 - [ ] Zotero/Zettelkasten
+- [ ] sync dotfiles nvim and check it
