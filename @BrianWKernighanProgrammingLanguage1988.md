@@ -704,7 +704,7 @@ function is ==the location or address of the beginning of the array==.
 ## 1.9 Character Arrays /29
 
 The most common type of array in C is the ==array of characters==.
-<!--SR:!2023-05-15,3,267-->
+<!--SR:!2023-05-28,11,267-->
 
 Pseudocode to get the longest line from stdin:
 ```
@@ -791,7 +791,7 @@ are usually known as ==automatic variables==.
 ## 1.10 External Variables and Scope /31
 
 To use external variable you need to ==define and declare== it.
-<!--SR:!2023-05-15,2,227-->
+<!--SR:!2023-05-23,6,227-->
 
 "Definition" refers to the place where the variable is created or assigned
 storage; "declaration" refers to places where the nature of the variable is
@@ -859,7 +859,7 @@ void copy(void) {
 Syntactically, external definitions are just like definitions of local
 variables, but since they occur ==outside== of functions, the variables are
 external.
-<!--SR:!2023-05-14,2,247-->
+<!--SR:!2023-06-03,17,267-->
 
 Keyword `extern` used to?
 ?
@@ -1141,7 +1141,7 @@ initialization?
 Not-automatic initialized once, before program starts execution.
 Explicitly initialized automatic variables are initialized each time the function
 or block it is in is entered.
-<!--SR:!2023-05-16,4,274-->
+<!--SR:!2023-05-19,2,254-->
 
 External and static variables are initialized to ==zero== by default.
 
