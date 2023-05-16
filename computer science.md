@@ -33,4 +33,3 @@ I think knowing computer science help to write effective [[code]] (goal of good
 [[programmer (software developer)], which I want to be]).
 
 I haw own plan to [[how i study computer science|study computer science]].
-

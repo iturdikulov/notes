@@ -45,3 +45,12 @@ sr-ease: 210
 - [Руководство Django Girls](https://tutorial.djangogirls.org/ru/)
 - [Python Django - The Practical Guide](https://www.udemy.com/course/python-django-the-practical-guide/)
 - [Neural networks](https://stepik.org/course/50352/promo)
+
+
+## TODO
+- [x] https://gist.github.com/tasdikrahman/2bdb3fb31136a3768fac, not worked as
+  expected
+- [ ] https://flask.palletsprojects.com/en/2.2.x/testing/
+- [ ] https://youtu.be/eJDIsFJN4OQ
+- [ ] https://youtu.be/Q7AOvWpIVHU
+- [ ] https://gist.github.com/eruvanos/f6f62edb368a20aaa880e12976620db8
