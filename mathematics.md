@@ -7,6 +7,9 @@ sr-interval: 2
 tags:
 - definition
 - inbox
+sr-due: 2023-08-02
+sr-interval: 77
+sr-ease: 230
 ---
 
 # Mathematics

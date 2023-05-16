@@ -7,6 +7,9 @@ sr-interval: 2
 tags:
 - inbox
 - definition
+sr-due: 2023-12-27
+sr-interval: 224
+sr-ease: 265
 ---
 
 # C data types

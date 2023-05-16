@@ -7,6 +7,9 @@ sr-interval: 1
 tags:
 - inbox
 - permanent
+sr-due: 2023-12-09
+sr-interval: 206
+sr-ease: 244
 ---
 
 # How to Study

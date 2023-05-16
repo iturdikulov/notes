@@ -10,9 +10,9 @@ tags:
 localLibrary: zotero://select/items/1_75777N49
 cloudLibrary: http://zotero.org/users/9108355/items/75777N49
 draft: true
-sr-due: 2023-03-14
-sr-interval: 1
-sr-ease: 228
+sr-due: 2023-12-11
+sr-interval: 208
+sr-ease: 248
 ---
 
 Widely considered one of the best practical guides to programming, Steve

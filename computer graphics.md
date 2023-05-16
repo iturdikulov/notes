@@ -7,6 +7,9 @@ sr-interval: 1
 tags:
 - inbox
 - definition
+sr-due: 2023-08-01
+sr-interval: 76
+sr-ease: 230
 ---
 
 # Computer graphics

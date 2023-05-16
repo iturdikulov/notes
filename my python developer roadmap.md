@@ -7,6 +7,9 @@ sr-interval: 1
 tags:
 - inbox
 - outline
+sr-due: 2023-05-25
+sr-interval: 8
+sr-ease: 210
 ---
 
 # My Python Developer Roadmap

@@ -7,6 +7,9 @@ sr-interval: 3
 tags:
 - inbox
 - definition
+sr-due: 2023-08-06
+sr-interval: 81
+sr-ease: 250
 ---
 
 # Programming language

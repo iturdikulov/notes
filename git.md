@@ -7,6 +7,9 @@ sr-interval: 1
 tags:
 - inbox
 - definition
+sr-due: 2023-12-12
+sr-interval: 209
+sr-ease: 248
 ---
 
 # Git Version Control System

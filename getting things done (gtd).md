@@ -7,6 +7,9 @@ sr-interval: 1
 tags:
 - inbox
 - definition
+sr-due: 2023-07-30
+sr-interval: 74
+sr-ease: 228
 ---
 
 # Getting Things Done (GTD)

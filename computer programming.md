@@ -7,6 +7,9 @@ sr-interval: 1
 tags:
 - inbox
 - definition
+sr-due: 2023-05-26
+sr-interval: 9
+sr-ease: 210
 ---
 
 # Computer programming
@@ -16,3 +19,4 @@ usually by designing/building an executable computer program.
 
 - [[how i learn computer programming]]
 - [[programming principles|programming principles]]
+

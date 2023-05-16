@@ -7,6 +7,9 @@ sr-interval: 3
 tags:
 - inbox
 - definition
+sr-due: 2023-08-13
+sr-interval: 88
+sr-ease: 250
 ---
 
 # Photography

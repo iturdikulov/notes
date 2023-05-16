@@ -7,6 +7,9 @@ sr-interval: 1
 tags:
 - definition
 - inbox
+sr-due: 2023-12-13
+sr-interval: 210
+sr-ease: 250
 ---
 
 # Computer security

@@ -7,6 +7,9 @@ sr-interval: 3
 tags:
 - inbox
 - definition
+sr-due: 2023-08-12
+sr-interval: 87
+sr-ease: 250
 ---
 
 # Physics

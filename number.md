@@ -7,6 +7,9 @@ sr-interval: 1
 tags:
 - inbox
 - definition
+sr-due: 2023-07-31
+sr-interval: 75
+sr-ease: 230
 ---
 
 # Number

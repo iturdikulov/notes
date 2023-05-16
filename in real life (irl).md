@@ -2,21 +2,19 @@
 date: 2023-04-17
 draft: true
 tags:
-- inbox
-- definition
+  - inbox
+  - definition
 ---
 
 # In real life (IRL)
 
-For life support I need [[my buy list|buy some things]],
-[[cooking|cook]] food and
-[[my inventory|keep inventory]].
+IRL is abbreviation for "in real life". I use it to describe my real life
+activities.
 
-Sometimes I do some [[do it yourself|cool things]] or spent time
-for [[art]].
+For life support I need [[my buy list|buy some things]], [[cooking|cook]] food
+and [[my inventory|keep inventory]].
 
-Also, worth to mention this notes [[home construction]] and
-[[government]].
+Sometimes I do some [[do it yourself|cool things]] or spent time for [[art]].
 
-## TODO
-- [ ] https://pikabu.ru/story/razmer_dzhinsov_kak_opredelit_svoy__tablitsyi_razmerov_kak_pravilno_vyibrat_dzhinsyi_siluyet_posadka_razmeryi_6417938
+Also, worth to mention this notes [[home construction]] and [[government]].
+

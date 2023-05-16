@@ -7,6 +7,9 @@ sr-interval: 1
 tags:
 - definition
 - inbox
+sr-due: 2023-12-15
+sr-interval: 212
+sr-ease: 250
 ---
 
 # Zathura

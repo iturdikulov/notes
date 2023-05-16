@@ -7,6 +7,9 @@ sr-interval: 2
 tags:
 - inbox
 - definition
+sr-due: 2023-12-29
+sr-interval: 226
+sr-ease: 268
 ---
 
 # Printf format in C

@@ -7,6 +7,9 @@ sr-interval: 2
 tags:
 - inbox
 - definition
+sr-due: 2023-05-27
+sr-interval: 10
+sr-ease: 228
 ---
 
 # Readability

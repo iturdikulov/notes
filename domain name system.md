@@ -7,6 +7,9 @@ sr-interval: 1
 tags:
 - inbox
 - definition
+sr-due: 2023-05-28
+sr-interval: 11
+sr-ease: 210
 ---
 
 # Domain Name System (DNS)

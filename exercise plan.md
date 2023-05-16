@@ -7,6 +7,9 @@ sr-interval: 2
 tags:
 - inbox
 - outline
+sr-due: 2023-05-26
+sr-interval: 9
+sr-ease: 210
 ---
 
 # Exercise Plan

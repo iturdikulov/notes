@@ -6,6 +6,9 @@ sr-interval: 1
 tags:
 - inbox
 - permanent
+sr-due: 2023-12-14
+sr-interval: 211
+sr-ease: 250
 ---
 
 # Notes types which I use with Zettelkasten

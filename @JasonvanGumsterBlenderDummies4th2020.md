@@ -10,9 +10,9 @@ tags:
 localLibrary: zotero://select/items/1_D42944HA
 cloudLibrary: http://zotero.org/users/9108355/items/D42944HA
 draft: true
-sr-due: 2023-03-14
-sr-interval: 1
-sr-ease: 230
+sr-due: 2023-12-16
+sr-interval: 213
+sr-ease: 250
 ---
 
 Some of the dramatic visual effects you've seen in top-grossing movies and

@@ -8,6 +8,9 @@ sr-interval: 2
 tags:
 - inbox
 - definition
+sr-due: 2023-08-08
+sr-interval: 83
+sr-ease: 249
 ---
 
 # Blender

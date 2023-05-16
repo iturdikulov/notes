@@ -7,6 +7,9 @@ sr-interval: 1
 tags:
 - inbox
 - definition
+sr-due: 2023-05-24
+sr-interval: 7
+sr-ease: 210
 ---
 
 # Job interview

@@ -7,6 +7,9 @@ sr-interval: 3
 tags:
 - inbox
 - definition
+sr-due: 2023-08-11
+sr-interval: 86
+sr-ease: 250
 ---
 
 # Algorithm

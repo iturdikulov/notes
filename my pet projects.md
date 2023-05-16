@@ -6,6 +6,9 @@ sr-interval: 1
 tags:
 - inbox
 - outline
+sr-due: 2023-05-27
+sr-interval: 10
+sr-ease: 210
 ---
 
 # My pet projects

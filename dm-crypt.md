@@ -7,6 +7,9 @@ sr-interval: 2
 tags:
 - inbox
 - definition
+sr-due: 2023-12-30
+sr-interval: 227
+sr-ease: 268
 ---
 
 # dm-crypt

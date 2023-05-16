@@ -10,9 +10,9 @@ tags:
 localLibrary: zotero://select/items/1_R4UA7XFI
 cloudLibrary: http://zotero.org/users/9108355/items/R4UA7XFI
 draft: true
-sr-due: 2023-03-15
-sr-interval: 2
-sr-ease: 246
+sr-due: 2023-12-28
+sr-interval: 225
+sr-ease: 266
 ---
 
 My notes are based on this book + Neovim.

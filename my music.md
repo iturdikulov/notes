@@ -7,6 +7,9 @@ sr-interval: 3
 tags:
 - inbox
 - permanent
+sr-due: 2023-05-24
+sr-interval: 7
+sr-ease: 230
 ---
 
 # My Music
