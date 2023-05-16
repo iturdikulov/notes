@@ -7,9 +7,9 @@ sr-interval: 1
 tags:
 - inbox
 - definition
-sr-due: 2024-11-20
-sr-interval: 553
-sr-ease: 250
+sr-due: 2024-02-18
+sr-interval: 277
+sr-ease: 230
 ---
 
 # Neovim (text editor)
@@ -872,7 +872,7 @@ left.
  Restore last session `SPC TAB R`
  Switch to workspace 1 `M-1`
  Switch to workspace 2 and so forth. `M-2`
- go to #N tab `SPC Tab [num]`
+ go to N tab `SPC Tab [num]`
  Move Tab Forward/Backward `M-x workspace/swap-left[right]`
  ------------------------------------- ---------------------------------------------
 
@@ -1740,8 +1740,8 @@ TODO: https://www.youtube.com/@teej_dv
 
 ## Tips
 
-#k - up to # line
-#j - down to # line
+`#k` - up to # line
+`#j` - down to # line
 
 switch to previous file, the best alternative to c-o
 c-^
@@ -2630,6 +2630,7 @@ left.
 
 ### Workspaces
 
+```
  ------------------------------------- ---------------------------------------------
  create a new workspace <kbd>C-t</kbd>
  Switch to workspace <kbd>SPC TAB .</kbd>
@@ -2643,9 +2644,10 @@ left.
  Restore last session <kbd>SPC TAB R</kbd>
  Switch to workspace 1 <kbd>M-1</kbd>
  Switch to workspace 2 and so forth. <kbd>M-2</kbd>
- go to #N tab <kbd>SPC Tab [num]</kbd>
+ go to N tab <kbd>SPC Tab [num]</kbd>
  Move Tab Forward/Backward <kbd>M-x workspace/swap-left[right]</kbd>
  ------------------------------------- ---------------------------------------------
+ ```
 
 ### Buffers
 
