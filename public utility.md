@@ -7,6 +7,9 @@ sr-interval: 4
 tags:
 - inbox
 - definition
+sr-due: 2024-01-22
+sr-interval: 250
+sr-ease: 290
 ---
 
 # Public utility

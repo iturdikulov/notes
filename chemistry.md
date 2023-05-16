@@ -7,6 +7,9 @@ sr-interval: 4
 tags:
 - inbox
 - definition
+sr-due: 2024-01-21
+sr-interval: 249
+sr-ease: 290
 ---
 
 # Chemistry

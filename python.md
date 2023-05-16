@@ -7,6 +7,9 @@ sr-interval: 26
 tags:
 - inbox
 - definition
+sr-due: 2023-11-28
+sr-interval: 195
+sr-ease: 267
 ---
 
 # Python

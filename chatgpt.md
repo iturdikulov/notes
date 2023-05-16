@@ -7,6 +7,9 @@ sr-interval: 3
 tags:
 - inbox
 - definition
+sr-due: 2024-01-15
+sr-interval: 243
+sr-ease: 288
 ---
 
 # ChatGPT

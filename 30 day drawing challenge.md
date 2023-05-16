@@ -7,6 +7,9 @@ sr-interval: 4
 tags:
 - inbox
 - log
+sr-due: 2024-01-22
+sr-interval: 250
+sr-ease: 290
 ---
 
 # My 30 Day Drawing Challenge

@@ -7,6 +7,9 @@ sr-interval: 4
 tags:
 - inbox
 - definition
+sr-due: 2023-11-26
+sr-interval: 193
+sr-ease: 290
 ---
 
 # Signal (IPC)

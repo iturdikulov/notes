@@ -7,6 +7,9 @@ sr-interval: 4
 tags:
 - inbox
 - definition
+sr-due: 2023-11-12
+sr-interval: 179
+sr-ease: 290
 ---
 
 # Signed number representations

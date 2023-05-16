@@ -7,6 +7,9 @@ sr-interval: 50
 tags:
 - definition
 - inbox
+sr-due: 2023-11-09
+sr-interval: 176
+sr-ease: 270
 ---
 
 # Unix

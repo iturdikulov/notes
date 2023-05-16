@@ -7,6 +7,9 @@ sr-interval: 25
 tags:
 - defenition
 - inbox
+sr-due: 2023-12-03
+sr-interval: 200
+sr-ease: 270
 ---
 
 # Bitlbee

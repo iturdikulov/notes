@@ -7,6 +7,9 @@ sr-interval: 1
 tags:
 - inbox
 - permanent
+sr-due: 2023-10-30
+sr-interval: 166
+sr-ease: 228
 ---
 
 # My Computer Science Roadmap

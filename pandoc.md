@@ -6,6 +6,9 @@ sr-interval: 1
 tags:
 - inbox
 - definition
+sr-due: 2023-09-05
+sr-interval: 111
+sr-ease: 250
 ---
 
 # Pandoc

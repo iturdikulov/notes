@@ -7,6 +7,9 @@ sr-interval: 14
 tags:
 - inbox
 - definition
+sr-due: 2024-02-03
+sr-interval: 262
+sr-ease: 310
 ---
 
 # dmenu (dynamic menu for X)

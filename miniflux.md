@@ -7,6 +7,9 @@ sr-interval: 4
 tags:
 - inbox
 - definition
+sr-due: 2023-11-24
+sr-interval: 191
+sr-ease: 292
 ---
 
 # Miniflux

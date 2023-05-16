@@ -7,6 +7,9 @@ sr-interval: 1
 tags:
 - inbox
 - definition
+sr-due: 2023-11-01
+sr-interval: 168
+sr-ease: 230
 ---
 
 # Variable (computer science)

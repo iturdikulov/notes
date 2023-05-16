@@ -6,6 +6,9 @@ tags:
 - inbox
 - outline
 - pythontip
+sr-due: 2023-05-19
+sr-interval: 2
+sr-ease: 248
 ---
 
 # Comprehensive Python Cheatsheet

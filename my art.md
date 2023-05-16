@@ -7,6 +7,9 @@ sr-interval: 4
 tags:
 - inbox
 - outline
+sr-due: 2023-11-13
+sr-interval: 180
+sr-ease: 290
 ---
 
 # 202303121811-My Art

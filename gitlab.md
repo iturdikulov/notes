@@ -8,6 +8,9 @@ sr-interval: 4
 tags:
 - inbox
 - definition
+sr-due: 2023-06-01
+sr-interval: 15
+sr-ease: 290
 ---
 
 # GitLab

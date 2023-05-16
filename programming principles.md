@@ -7,6 +7,9 @@ sr-interval: 2
 tags:
 - inbox
 - definition
+sr-due: 2023-10-27
+sr-interval: 163
+sr-ease: 230
 ---
 
 # Programming principles

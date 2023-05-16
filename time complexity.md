@@ -8,6 +8,9 @@ tags:
 - inbox
 - definition
 - CS
+sr-due: 2024-01-01
+sr-interval: 229
+sr-ease: 270
 ---
 
 # Time complexity

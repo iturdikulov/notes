@@ -7,6 +7,9 @@ sr-interval: 3
 tags:
 - inbox
 - definition
+sr-due: 2024-01-10
+sr-interval: 238
+sr-ease: 270
 ---
 
 # Data type

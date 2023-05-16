@@ -7,6 +7,9 @@ sr-interval: 10
 tags:
 - inbox
 - outline
+sr-due: 2023-11-17
+sr-interval: 184
+sr-ease: 248
 ---
 
 # Zettelkasten Method

@@ -8,6 +8,9 @@ sr-interval: 11
 tags:
 - inbox
 - definition
+sr-due: 2023-12-02
+sr-interval: 199
+sr-ease: 306
 ---
 
 # Copilot

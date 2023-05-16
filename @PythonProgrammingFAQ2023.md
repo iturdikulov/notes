@@ -10,8 +10,8 @@ tags:
 localLibrary: zotero://select/items/1_LI9M57AQ
 cloudLibrary: http://zotero.org/users/9108355/items/LI9M57AQ
 draft: true
-sr-due: 2023-03-16
-sr-interval: 1
-sr-ease: 208
+sr-due: 2023-11-20
+sr-interval: 187
+sr-ease: 228
 ---
 

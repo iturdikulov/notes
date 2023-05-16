@@ -7,6 +7,9 @@ sr-interval: 3
 tags:
 - inbox
 - definition
+sr-due: 2024-01-11
+sr-interval: 239
+sr-ease: 270
 ---
 
 # htop

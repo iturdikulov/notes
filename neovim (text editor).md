@@ -7,6 +7,9 @@ sr-interval: 1
 tags:
 - inbox
 - definition
+sr-due: 2024-11-20
+sr-interval: 553
+sr-ease: 250
 ---
 
 # Neovim (text editor)

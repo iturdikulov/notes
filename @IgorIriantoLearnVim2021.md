@@ -11,9 +11,9 @@ tags:
 localLibrary: zotero://select/items/1_MR62S8MN
 cloudLibrary: http://zotero.org/users/9108355/items/MR62S8MN
 draft: true
-sr-due: 2023-03-23
-sr-interval: 1
-sr-ease: 228
+sr-due: 2023-11-14
+sr-interval: 181
+sr-ease: 248
 ---
 
 Learning Vim and Vimscript doesn't have to be hard. This is the guide that

@@ -7,6 +7,9 @@ sr-interval: 4
 tags:
 - inbox
 - definition
+sr-due: 2024-01-24
+sr-interval: 252
+sr-ease: 290
 ---
 
 # Firefox

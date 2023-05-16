@@ -4,6 +4,9 @@ draft: true
 tags:
 - inbox
 - definition
+sr-due: 2023-05-28
+sr-interval: 11
+sr-ease: 288
 ---
 
 # Lists

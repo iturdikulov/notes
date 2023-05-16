@@ -7,6 +7,9 @@ sr-interval: 4
 tags:
 - inbox
 - definition
+sr-due: 2023-11-11
+sr-interval: 178
+sr-ease: 290
 ---
 
 # Integer overflow

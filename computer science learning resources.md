@@ -7,6 +7,9 @@ sr-interval: 1
 tags:
 - inbox
 - outline
+sr-due: 2023-10-28
+sr-interval: 164
+sr-ease: 225
 ---
 
 # Computer Science Learning Resources

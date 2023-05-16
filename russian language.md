@@ -7,6 +7,9 @@ sr-interval: 1
 tags:
 - inbox
 - definition
+sr-due: 2023-11-07
+sr-interval: 174
+sr-ease: 230
 ---
 
 # Russian language

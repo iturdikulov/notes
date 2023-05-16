@@ -7,6 +7,9 @@ sr-interval: 3
 tags:
 - inbox
 - outline
+sr-due: 2023-12-31
+sr-interval: 228
+sr-ease: 270
 ---
 
 # My Awesome Neovim Plugins

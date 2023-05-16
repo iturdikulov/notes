@@ -7,6 +7,9 @@ sr-interval: 4
 tags:
 - inbox
 - definition
+sr-due: 2023-06-02
+sr-interval: 16
+sr-ease: 290
 ---
 
 # Proxy server

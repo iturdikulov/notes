@@ -7,6 +7,9 @@ sr-interval: 3
 tags:
 - inbox
 - defenition
+sr-due: 2024-01-13
+sr-interval: 241
+sr-ease: 285
 ---
 
 # Zotero Research Assistant

@@ -7,6 +7,9 @@ sr-interval: 3
 tags:
 - inbox
 - permanent
+sr-due: 2023-12-28
+sr-interval: 225
+sr-ease: 270
 ---
 
 # My Pictures

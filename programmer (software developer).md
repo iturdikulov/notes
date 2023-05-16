@@ -4,6 +4,9 @@ draft: true
 tags:
 - inbox
 - definition
+sr-due: 2023-05-21
+sr-interval: 4
+sr-ease: 274
 ---
 
 # Programmer (software developer, coder)

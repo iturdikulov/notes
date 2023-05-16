@@ -8,6 +8,9 @@ sr-interval: 3
 tags:
 - inbox
 - definition
+sr-due: 2026-02-03
+sr-interval: 993
+sr-ease: 308
 ---
 
 # DevDocs

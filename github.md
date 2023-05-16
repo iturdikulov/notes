@@ -8,6 +8,9 @@ sr-interval: 4
 tags:
 - inbox
 - definition
+sr-due: 2024-01-25
+sr-interval: 253
+sr-ease: 290
 ---
 
 # GitHub

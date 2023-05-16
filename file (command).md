@@ -7,6 +7,9 @@ sr-interval: 3
 tags:
 - inbox
 - definition
+sr-due: 2023-05-30
+sr-interval: 13
+sr-ease: 270
 ---
 
 # File (command)

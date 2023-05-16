@@ -7,6 +7,9 @@ sr-interval: 3
 tags:
 - inbox
 - contact
+sr-due: 2024-01-18
+sr-interval: 246
+sr-ease: 288
 ---
 
 # Guido van Rossum

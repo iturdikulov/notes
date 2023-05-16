@@ -7,6 +7,9 @@ sr-interval: 32
 tags:
 - inbox
 - definition
+sr-due: 2023-11-29
+sr-interval: 196
+sr-ease: 268
 ---
 
 # Functional programming

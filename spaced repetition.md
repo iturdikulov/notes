@@ -6,6 +6,9 @@ sr-interval: 3
 tags:
 - inbox
 - definition
+sr-due: 2023-11-08
+sr-interval: 175
+sr-ease: 289
 ---
 
 # Spaced repetition

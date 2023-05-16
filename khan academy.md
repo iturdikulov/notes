@@ -5,6 +5,9 @@ draft: true
 tags:
 - inbox
 - definition
+sr-due: 2023-05-29
+sr-interval: 12
+sr-ease: 289
 ---
 
 # Khan Academy

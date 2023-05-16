@@ -7,6 +7,9 @@ sr-interval: 3
 tags:
 - inbox
 - definition
+sr-due: 2024-01-02
+sr-interval: 230
+sr-ease: 270
 ---
 
 # Null function

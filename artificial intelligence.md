@@ -7,6 +7,9 @@ sr-interval: 1
 tags:
 - inbox
 - definition
+sr-due: 2023-11-03
+sr-interval: 170
+sr-ease: 230
 ---
 
 # Artificial intelligence (AI)

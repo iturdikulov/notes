@@ -8,6 +8,9 @@ tags:
 - inbox
 - definition
 - CS
+sr-due: 2024-01-05
+sr-interval: 233
+sr-ease: 270
 ---
 
 # Function (computer programming)

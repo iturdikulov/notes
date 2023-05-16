@@ -7,6 +7,9 @@ sr-interval: 31
 tags:
 - inbox
 - definition
+sr-due: 2023-11-27
+sr-interval: 194
+sr-ease: 268
 ---
 
 # Procedural programming

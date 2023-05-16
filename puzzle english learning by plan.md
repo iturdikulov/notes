@@ -7,6 +7,9 @@ sr-interval: 2
 tags:
 - inbox
 - literature
+sr-due: 2023-12-08
+sr-interval: 205
+sr-ease: 250
 ---
 
 # Puzzle English learning by plan

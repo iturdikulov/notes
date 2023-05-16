@@ -7,6 +7,9 @@ sr-interval: 3
 tags:
 - inbox
 - definition
+sr-due: 2023-11-21
+sr-interval: 188
+sr-ease: 288
 ---
 
 # Floating-point arithmetic

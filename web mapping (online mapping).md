@@ -7,6 +7,9 @@ sr-interval: 4
 tags:
 - inbox
 - definition
+sr-due: 2024-01-16
+sr-interval: 244
+sr-ease: 290
 ---
 
 # Web mapping (online mapping)

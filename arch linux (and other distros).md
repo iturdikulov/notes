@@ -7,6 +7,9 @@ sr-interval: 28
 tags:
 - definition
 - inbox
+sr-due: 2023-11-27
+sr-interval: 194
+sr-ease: 270
 ---
 
 # Arch Linux (and other distros)

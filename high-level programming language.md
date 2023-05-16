@@ -7,6 +7,9 @@ sr-interval: 3
 tags:
 - inbox
 - definition
+sr-due: 2024-01-17
+sr-interval: 245
+sr-ease: 288
 ---
 
 # High-level programming language

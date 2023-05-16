@@ -10,9 +10,9 @@ tags:
 localLibrary: zotero://select/items/1_D8RYSQHS
 cloudLibrary: http://zotero.org/users/9108355/items/D8RYSQHS
 draft: true
-sr-due: 2023-03-22
-sr-interval: 1
-sr-ease: 210
+sr-due: 2023-10-31
+sr-interval: 167
+sr-ease: 230
 ---
 
 В наше время книги А.П. Киселева стали библиографической редкостью и неизвестны

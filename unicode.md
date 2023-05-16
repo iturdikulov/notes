@@ -7,6 +7,9 @@ sr-interval: 4
 tags:
 - definition
 - inbox
+sr-due: 2024-01-28
+sr-interval: 256
+sr-ease: 290
 ---
 
 # Unicode

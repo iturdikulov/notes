@@ -7,6 +7,9 @@ sr-interval: 4
 tags:
 - inbox
 - outline
+sr-due: 2024-01-23
+sr-interval: 251
+sr-ease: 290
 ---
 
 # How do I work with contacts

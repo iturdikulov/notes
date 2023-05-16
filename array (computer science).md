@@ -8,6 +8,9 @@ tags:
 - definition
 - inbox
 - CS
+sr-due: 2023-11-09
+sr-interval: 176
+sr-ease: 230
 ---
 
 # Array (computer science)

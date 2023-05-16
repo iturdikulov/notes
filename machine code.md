@@ -7,6 +7,9 @@ sr-interval: 3
 tags:
 - inbox
 - definition
+sr-due: 2024-01-08
+sr-interval: 236
+sr-ease: 270
 ---
 
 # Machine code

@@ -7,6 +7,9 @@ sr-interval: 1
 tags:
 - definition
 - inbox
+sr-due: 2023-11-02
+sr-interval: 169
+sr-ease: 229
 ---
 
 # English language

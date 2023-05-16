@@ -8,6 +8,9 @@ sr-interval: 4
 tags:
 - inbox
 - definition
+sr-due: 2024-01-30
+sr-interval: 258
+sr-ease: 292
 ---
 
 # Hugo

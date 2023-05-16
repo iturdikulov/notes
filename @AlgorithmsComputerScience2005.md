@@ -10,9 +10,9 @@ tags:
 localLibrary: zotero://select/items/1_T6V7M5DE
 cloudLibrary: http://zotero.org/users/9108355/items/T6V7M5DE
 draft: true
-sr-due: 2023-03-20
-sr-interval: 1
-sr-ease: 228
+sr-due: 2023-11-22
+sr-interval: 189
+sr-ease: 248
 ---
 
 We've partnered with Dartmouth college professors Tom Cormen and Devin Balkcom

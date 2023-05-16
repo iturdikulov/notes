@@ -7,6 +7,9 @@ sr-interval: 3
 tags:
 - inbox
 - definition
+sr-due: 2024-01-05
+sr-interval: 233
+sr-ease: 270
 ---
 
 # Collection (abstract data type)

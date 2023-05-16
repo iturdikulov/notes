@@ -7,6 +7,9 @@ sr-interval: 4
 tags:
 - inbox
 - definition
+sr-due: 2023-11-10
+sr-interval: 177
+sr-ease: 290
 ---
 
 # Anxiety

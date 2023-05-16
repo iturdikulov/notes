@@ -7,6 +7,9 @@ sr-interval: 13
 tags:
 - inbox
 - definition
+sr-due: 2023-11-30
+sr-interval: 197
+sr-ease: 310
 ---
 
 # Portable Document Format (PDF)

@@ -8,6 +8,9 @@ sr-interval: 4
 tags:
 - inbox
 - definition
+sr-due: 2024-01-12
+sr-interval: 240
+sr-ease: 290
 ---
 
 # Reddit

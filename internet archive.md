@@ -8,6 +8,9 @@ sr-interval: 4
 tags:
 - inbox
 - definition
+sr-due: 2024-01-14
+sr-interval: 242
+sr-ease: 290
 ---
 
 # Internet Archive

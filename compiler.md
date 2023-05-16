@@ -7,6 +7,9 @@ sr-interval: 3
 tags:
 - inbox
 - definition
+sr-due: 2023-12-22
+sr-interval: 219
+sr-ease: 270
 ---
 
 # Compiler

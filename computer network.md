@@ -8,6 +8,9 @@ sr-interval: 3
 tags:
 - inbox
 - definition
+sr-due: 2023-05-31
+sr-interval: 14
+sr-ease: 270
 ---
 
 # Computer network

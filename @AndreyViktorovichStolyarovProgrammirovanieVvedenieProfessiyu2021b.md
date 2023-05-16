@@ -11,9 +11,9 @@ tags:
 localLibrary: zotero://select/items/1_4XC9U67X
 cloudLibrary: http://zotero.org/users/9108355/items/4XC9U67X
 draft: true
-sr-due: 2023-03-30
-sr-interval: 9
-sr-ease: 227
+sr-due: 2023-11-16
+sr-interval: 183
+sr-ease: 247
 ---
 
 ---

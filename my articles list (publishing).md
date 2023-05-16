@@ -4,6 +4,9 @@ draft: true
 tags:
 - inbox
 - outline
+sr-due: 2023-05-21
+sr-interval: 4
+sr-ease: 270
 ---
 
 # My Articles List (publishing)

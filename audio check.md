@@ -8,6 +8,9 @@ sr-interval: 4
 tags:
 - inbox
 - definition
+sr-due: 2034-11-15
+sr-interval: 4200
+sr-ease: 330
 ---
 
 # Audio Check

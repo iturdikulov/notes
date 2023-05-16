@@ -7,6 +7,9 @@ sr-interval: 3
 tags:
 - inbox
 - dfeinition
+sr-due: 2023-12-20
+sr-interval: 217
+sr-ease: 270
 ---
 
 # Quicksort

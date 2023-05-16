@@ -7,6 +7,9 @@ sr-interval: 14
 tags:
 - inbox
 - definition
+sr-due: 2023-11-29
+sr-interval: 196
+sr-ease: 310
 ---
 
 # Inkscape

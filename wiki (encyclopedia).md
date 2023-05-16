@@ -8,6 +8,9 @@ sr-interval: 3
 tags:
 - inbox
 - definition
+sr-due: 2023-11-18
+sr-interval: 185
+sr-ease: 288
 ---
 
 # Wiki (encyclopedia)

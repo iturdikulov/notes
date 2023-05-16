@@ -11,9 +11,9 @@ tags:
 localLibrary: zotero://select/items/1_G7I74I7J
 cloudLibrary: http://zotero.org/users/9108355/items/G7I74I7J
 draft: true
-sr-due: 2023-03-22
-sr-interval: 1
-sr-ease: 210
+sr-due: 2023-11-04
+sr-interval: 171
+sr-ease: 230
 ---
 
 # Pro Git /2

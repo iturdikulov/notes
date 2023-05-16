@@ -7,6 +7,9 @@ sr-interval: 3
 tags:
 - inbox
 - definition
+sr-due: 2024-01-14
+sr-interval: 242
+sr-ease: 288
 ---
 
 # GNU Privacy Guard (GPG or GnuPG)

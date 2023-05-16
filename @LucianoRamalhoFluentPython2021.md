@@ -10,9 +10,9 @@ tags:
 localLibrary: zotero://select/items/1_BDH3MZID
 cloudLibrary: http://zotero.org/users/9108355/items/BDH3MZID
 draft: true
-sr-due: 2023-04-13
-sr-interval: 23
-sr-ease: 248
+sr-due: 2023-12-01
+sr-interval: 198
+sr-ease: 268
 ---
 
 Python’s simplicity lets you become productive quickly, but this often means you aren’t using everything it has to offer. With this hands-on guide, you’ll learn how to write effective, idiomatic Python code by leveraging its best—and possibly most neglected—features.

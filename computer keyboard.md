@@ -7,6 +7,9 @@ sr-interval: 4
 tags:
 - inbox
 - definition
+sr-due: 2024-01-29
+sr-interval: 257
+sr-ease: 290
 ---
 
 # Computer keyboard

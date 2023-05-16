@@ -7,6 +7,9 @@ sr-interval: 3
 tags:
 - inbox
 - definition
+sr-due: 2024-01-06
+sr-interval: 234
+sr-ease: 270
 ---
 
 # Dynamic programming

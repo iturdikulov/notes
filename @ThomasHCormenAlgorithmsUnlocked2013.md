@@ -11,9 +11,9 @@ tags:
 localLibrary: zotero://select/items/1_NI9Y5RR4
 cloudLibrary: http://zotero.org/users/9108355/items/NI9Y5RR4
 draft: true
-sr-due: 2023-03-20
-sr-interval: 1
-sr-ease: 228
+sr-due: 2023-11-23
+sr-interval: 190
+sr-ease: 248
 ---
 
 For anyone who has ever wondered how computers solve problems, an engagingly

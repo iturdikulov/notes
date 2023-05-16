@@ -7,6 +7,9 @@ sr-interval: 29
 tags:
 - inbox
 - definition
+sr-due: 2023-12-07
+sr-interval: 204
+sr-ease: 270
 ---
 
 # How to solve it
