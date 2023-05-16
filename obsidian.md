@@ -24,3 +24,7 @@ Switch between edit and read mode
 ## Useful plugins/projects
 
 - https://obsidian-html.github.io/v4/index.html
+
+## TODO
+
+- [ ] Review [@Obsidiantracker]
