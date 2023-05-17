@@ -9,7 +9,7 @@ tags:
 - definiton
 ---
 
-# SQ3R
+# SQ3R method
 
 This is sort of [@SQ3R2022] optimization of the reading process.
 
