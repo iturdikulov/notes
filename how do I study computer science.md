@@ -184,6 +184,7 @@ Publication Year   Author                                                     Ti
 2011               Robert C. Martin                                           The clean coder: A code of conduct for professional programmers
 2002               Pete McBreen                                               Software craftsmanship: The new imperative
 2007               Steve McConnell                                            Сколько стоит программный проект
+- Software Estimation: Demystifying the Black Art by Steve McConnel [ru]
 2006               Steven John Metsker; William C. Wake                       Design patterns in Java
 1997               Bertrand Meyer                                             Object-oriented software construction
 2008               Scott Meyers                                               Effective C++: 55 Specific Ways to Improve Your Programs and Designs
@@ -191,6 +192,7 @@ Publication Year   Author                                                     Ti
 2002               Kevin D. Mitnick; William L. Simon                         The art of deception: Controlling the human element of security
 2004               Clifton Nock                                               Data access patterns: Database interactions in object-oriented applications
 2018               Donald A. Norman                                           Дизайн привычных вещей
+- The Design of Everyday Things by Donald Norman
 1992               Peter Norvig                                               Paradigms of artificial intelligence programming: Case studies in Common Lisp
 2008               Steve Pavlina                                              Personal development for smart people: The conscious pursuit of personal growth
 2008               Charles Petzold                                            The annotated Turing: A guided tour through Alan Turing\'s historic paper on computability and the Turing machine
@@ -221,6 +223,11 @@ Publication Year   Author                                                     Ti
 1997               Donald Ervin Knuth                                         The Art of Computer Programming, Volume 2
 2023               Donald Ervin Knuth                                         The Art of Computer Programming, Volume 4B
 
+- Cracking the Coding Interview by Gayle Laakmann McDowell
+- Working Effectively with Legacy Code by Michael Feathers
+- Continuous Delivery by Jez Humble & David Farley
+- Design Patterns by Erich Gamma / Richard Helm / Ralph Johnson
+
 ## Level 3
 
 - [Project Euler](https://projecteuler.net/archives)
@@ -228,6 +235,8 @@ Publication Year   Author                                                     Ti
 - [Project Euler Solutions 2](https://github.com/nayuki/Project-Euler-solutions)
 
 ### To review
+
+- Alice in Wonderland by Lewis Carol
 
 Publication Year   Author                                                     Title
 ------------------ ---------------------------------------------------------- --------------------------------------------------------------------------------------------
@@ -259,6 +268,13 @@ Publication Year   Author                                                     Ti
 2008               Franklyn Albin Turbak; David K. Gifford; Mark A. Sheldon   Design concepts in programming languages
 2004               David West                                                 Object thinking
 
+- The Tao Te Ching
+- Soft Skills by John Sonmez
+- The Career Programmer: Guerilla Tactics for an Imperfect World by Christopher
+- Zen and the Art of Motorcycle Maintenance by Robert M. Pirsig [audio]
+- My Job Went To India
+- Object-Oriented Analysis and Design with Applications by Grady Booch
+
 # Resources
 
 - [Free programming books by subject](https://github.com/EbookFoundation/free-programming-books/blob/main/books/free-programming-books-subjects.md)
@@ -274,44 +290,7 @@ Publication Year   Author                                                     Ti
 
 ## Personal Resources
 
-- [[zotero]] resources. Check #active, L1 and L2 tags, check categories.
-- Find notes with this pattern: `@fileName`. It's references to zotero resources
-  (usually books), with my notes.
-
-
-<!-- TODO: review -->
-
-- koreader
-- Xodo
-- golden dict
-- zotero and books categories
-- zmi for zotero
-- encyclopedia
-- manga and comics
-- tachiyomi
-
-- Design Patterns by by Erich Gamma / Richard Helm / Ralph Johnson / John
-  Vlissides (25% recommended) [base]
-- Working Effectively with Legacy Code by Michael Feathers (26.4% recommended)
-  [base]
-- Cracking the Coding Interview by Gayle Laakmann McDowell (22% recommended)
-  [base]
-- Algorithms by Robert Sedgewick & Kevin Wayne (8.8% recommended) [video]
-- Soft Skills by John Sonmez (22% recommended) [base easy]
-- Continuous Delivery by Jez Humble & David Farley (8.8% recommended) [base]
-- The Design of Everyday Things by Donald Norman [audio youtube]
-- Modern C++ Design by Andrei Alexandrescu [x]
-- The Practice of Programming by Kernighan and Pike [x]
-- Software Estimation: Demystifying the Black Art by Steve McConnel [ru]
-- My Job Went To India [x]
-- Algorithms + Data Structures = Programs [ru/en]
-- Computer Systems - A Programmer's Perspective [x]
-- Agile Principles, Patterns, and Practices in C# by Robert C. Martin [x]
-- Design Patterns in C# by Steve Metsker [c# skip]
-- Zen and the Art of Motorcycle Maintenance by Robert M. Pirsig [audio]
-- Alice in Wonderland by Lewis Carol [audio]
-- Object Thinking by Dr. David West [x]
-- Object-Oriented Analysis and Design with Applications by Grady Booch [x]
-- The Tao Te Ching [?]
-- The Career Programmer: Guerilla Tactics for an Imperfect World by Christopher
-  Duncan [https://archive.org/details/careerprogrammer00chri/page/n5/mode/1up]
+- [[zotero|Zotero]] categorized books, I mostly use it to manage books and
+  generate [[bibliography]].
+- Find notes with this pattern: `@AuthorTitle`. It's references to zotero
+  resources (usually books), with my notes.
