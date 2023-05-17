@@ -14,4 +14,4 @@ sr-ease: 270
 
 # Video game development
 
-[[how i learn game development]]
+[[how do I study game development]]
