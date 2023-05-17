@@ -40,7 +40,7 @@ sr-ease: 273
 > A common separation by content are fiction and non-fiction books.
 >
 > This simple separation can be found in most
-> [[my books|collections]], [[library|libraries]], and
+> [[my read books|collections]], [[library|libraries]], and
 > bookstores. There are other types such as books of sheet music.
 >
 > -- [Wikipedia](https://en.wikipedia.org/wiki/Book)

@@ -27,7 +27,7 @@ sr-ease: 270
 - [[my videos]]
 - [[my music]]
 - [[my games]]
-- [[my books]]
+- [[my read books]]
 - [[my movies]]
 - [[my pictures]]
 - [[comics]]

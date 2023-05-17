@@ -51,7 +51,7 @@ for example:
 - Watching [[my movies|movies]], [[twitch (service)|twitch]],
   [[youtube|youtube]]
 - Playing [[my games]]
-- Reading [[my books]] and [[news]]
+- Reading [[my read books]] and [[news]]
 - Listening [[my music]]
 - Art [[my art]]
 
@@ -62,14 +62,14 @@ And of course healthy [[sleep]].
 I'm trying to learn new things every day. Currently, I'm studying (this is
 plan):
 
-Here my "to learn" books list: [[my books]].
+Here my "to learn" books list: [[my read books]].
 
 Here my "to learn" articles list: [[my articles list (publishing)]].
 
 Since I'm use [[zettelkasten]], I can create new notes based on education
 materials and extend them with different sources, my experience, etc.
 
-To study effectively I use [[sq3r method]], [[how to study|study techniques]]
+To study effectively I use [[SQ3R method]], [[how to study|study techniques]]
 and various methods [[how to solve it]]. More information here - [[education]].
 
 It's not enough to study only, need continuously practice (use your knowledge)
