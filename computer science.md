@@ -32,4 +32,4 @@ In computer science central role plays [[algorithm|algorithms]] and
 I think knowing computer science help to write effective [[code]] (goal of good
 [[programmer (software developer)], which I want to be]).
 
-I haw own plan to [[how i study computer science|study computer science]].
+My plan to learn CS is here: [[how do I study computer science]].
