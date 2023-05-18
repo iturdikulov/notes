@@ -15,12 +15,29 @@ sr-ease: 230
 
 # Array (computer science)
 
+## Array (data structure)
+
 > Array is a [[data structure]] consisting of a collection of
 > elements (values or variables), each identified by at least one array index or
-> key. -- https://en.wikipedia.org/wiki/Array_(data_structure)
+> key.
+>
+> -- [Wikipedia](https://en.wikipedia.org/wiki/Array_\(data_structure\))
 
 > An assemblage of items that are randomly accessible by integers, the index. --
 > https://xlinux.nist.gov/dads/HTML/array.html
+
+## Array (data type)
+
+> In [[computer science]], **array** is a [[data type]] that represents a
+> collection of _elements_ [[value (computer science)|values]]
+> or [[variable (computer science)|variables]], each selected by one or more indices
+> (identifying keys) that can be computed at [[runtime (program lifecycle phase)|runtime]] during program execution.
+> Such a collection is usually called
+> an **array variable** or **array value**. By analogy with the mathematical
+> concepts [[vector]] and [[matrix (mathematics)|matrix]], array types with one
+> and two indices are often called **vector type** and **matrix type**,
+> respectively. More generally, a multidimensional array type can be called a
+> **tensor type**, by analogy with the physical concept, [[tensor]].
 
 | 0   | 1   | 2   | 3   | 4   | 5   |
 | --- | --- | --- | --- | --- | --- |
