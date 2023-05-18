@@ -169,7 +169,7 @@ reminder that there may be more to learn. For those who've never coded before,
 but who'd like to, you might prefer a guide like
 [this one](https://www.reddit.com/r/learnprogramming/wiki/faq#wiki_getting_started).
 
-[![Structure and Interpretation of Computer Programs](sicp.jpg)](https://sarabander.github.io/sicp/html/index.xhtml)
+[![Structure and Interpretation of Computer Programs](img/book_cover/sicp.jpg)](https://sarabander.github.io/sicp/html/index.xhtml)
 
 ### Computer Architecture
 
@@ -220,7 +220,7 @@ Computer Architecture” for specific readings. The lecture notes and labs are
 available online, and past lectures are
 [on the Internet Archive](https://archive.org/details/ucberkeley-webcast-PL-XXv-cvA_iCl2-D-FS5mk0jFF6cYSJs_).
 
-[![Computer Systems: A Programmer's Perspective](csapp.jpg)](http://csapp.cs.cmu.edu/3e/home.html)
+[![Computer Systems: A Programmer's Perspective](img/book_cover/csapp.jpg)](http://csapp.cs.cmu.edu/3e/home.html)
 
 > Hardware is the platform
 
@@ -263,8 +263,8 @@ _[How to Solve It](https://smile.amazon.com/How-Solve-Mathematical-Princeton-Sci
 as an excellent and unique guide to general problem solving; it’s as applicable
 to computer science as it is to mathematics.
 
-[![The Algorithm Design Manual](skiena.jpg)](https://smile.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1848000693/)
-[![How to Solve It](polya.jpg)](https://smile.amazon.com/How-Solve-Mathematical-Princeton-Science/dp/069116407X/)
+[![The Algorithm Design Manual](img/book_cover/skiena.jpg)](https://smile.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1848000693/)
+[![How to Solve It](img/book_cover/polya.jpg)](https://smile.amazon.com/How-Solve-Mathematical-Princeton-Science/dp/069116407X/)
 
 > I have only one method that I recommend extensively—it’s called think before
 > you write.
@@ -367,7 +367,7 @@ available as unofficial playlists on Youtube.
 
 — Bob Kahn
 
-[![Computer Networking: A Top-Down Approach](top-down.jpg)](https://smile.amazon.com/Computer-Networking-Top-Down-Approach-7th/dp/0133594149/)
+[![Computer Networking: A Top-Down Approach](img/book_cover/top-down.jpg)](https://smile.amazon.com/Computer-Networking-Top-Down-Approach-7th/dp/0133594149/)
 
 ### Databases
 
@@ -404,8 +404,8 @@ Finally, data modeling is a neglected and poorly taught aspect of working with
 databases. Our suggested book on the topic is
 _[Data and Reality: A Timeless Perspective on Perceiving and Managing Information in Our Imprecise World](https://www.amazon.com/Data-Reality-Perspective-Perceiving-Information/dp/1935504215)_.
 
-[![Readings in Database Systems](redbook.jpg)](http://www.redbook.io/)
-[![Data and Reality](data-reality.jpg)](https://www.amazon.com/Data-Reality-Perspective-Perceiving-Information/dp/1935504215)
+[![Readings in Database Systems](img/book_cover/redbook.jpg)](http://www.redbook.io/)
+[![Data and Reality](img/book_cover/data-reality.jpg)](https://www.amazon.com/Data-Reality-Perspective-Perceiving-Information/dp/1935504215)
 
 ### Languages and Compilers
 
@@ -434,7 +434,7 @@ utilize the Dragon Book, if you so choose, is as a supplementary reference for a
 video lecture series. Our recommended one is
 [Alex Aiken’s, on edX](https://www.edx.org/course/compilers).
 
-[![Compilers: Principles, Techniques & Tools](dragon.jpg)](https://smile.amazon.com/Compilers-Principles-Techniques-Tools-2nd/dp/0321486811)
+[![Compilers: Principles, Techniques & Tools](img/book_cover/dragon.jpg)](https://smile.amazon.com/Compilers-Principles-Techniques-Tools-2nd/dp/0321486811)
 
 > Don’t be a boilerplate programmer. Instead, build tools for users and other
 > programmers. Take historical note of textile and steel industries: do you want
@@ -469,7 +469,7 @@ distributed systems absolutely mandates reading papers. A good list is
 [here](http://dsrg.pdos.csail.mit.edu/papers/), and we would highly encourage
 attending your local [Papers We Love](http://paperswelove.org/) chapter.
 
-[![Designing Data-Intensive Applications](ddia.jpg)](https://smile.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable-ebook/dp/B06XPJML5D/)
+[![Designing Data-Intensive Applications](img/book_cover/ddia.jpg)](https://smile.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable-ebook/dp/B06XPJML5D/)
 
 ## Frequently asked questions
 
