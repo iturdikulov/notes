@@ -31,4 +31,4 @@ My favorite operating systems:
 
 Other operating systems:
 
-- [[microsoft windows]]
+- [[Microsoft Windows]]

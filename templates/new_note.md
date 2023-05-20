@@ -5,6 +5,6 @@ tags:
   - definition
 ---
 
-## {{title}}
+# {{title}}
 
 

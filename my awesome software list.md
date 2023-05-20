@@ -274,7 +274,7 @@ Check also [[my shell scripts|my shell scripts]] and
 - [fdupes](https://github.com/adrianlopezroche/fdupes) - identifying or deleting
   duplicate files
 - [ventoy](https://www.ventoy.net/en/isolist.html) - tool to create bootable USB
-  drive
+  drive, [[ventoy|more info]]
 - [xclip](https://github.com/astrand/xclip) - command line interface to the X11
   clipboard
 - [xdotool](https://www.semicomplete.com/projects/xdotool/) - Command-line X11

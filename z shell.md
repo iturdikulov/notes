@@ -15,7 +15,6 @@ sr-ease: 270
 # Z shell
 
 
-<https://github.com/alexanderepstein/Bash-Snippets>
 
 # Kill process by pattern
 
@@ -281,3 +280,8 @@ For example:
 - `||` => `&&`
 - `or` => `and`
 - ...
+
+
+## Resourecs
+
+- https://github.com/alexanderepstein/Bash-Snippets

@@ -14,7 +14,7 @@ sr-ease: 270
 
 # Binary search algorithm (half-interval search, logarithmic search, binary chop)
 
-> Search [[algorithm|algorithm]] that finds the position of a
+> In [[computer science]], binary search [[algorithm]] that finds the position of a
 > target value within a sorted [[array (computer science)|array]].
 >
 > Binary search compares the target value to the middle element of the array. If

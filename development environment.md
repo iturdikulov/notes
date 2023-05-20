@@ -32,7 +32,7 @@ NEXT: review this
   - [[suckless.org]]
   - [[self-hosting (web services)]]
   - [[hugo]]
-  - [[microsoft windows]]
+  - [[Microsoft Windows]]
   - [[zotero]]
   - [[git]]
   - [[fzf]]

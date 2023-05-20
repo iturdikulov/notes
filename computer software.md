@@ -22,7 +22,7 @@ sr-ease: 290
 > to perform a specific operation, such as a
 > [[neovim (text editor)|text editor]] game or a word processor. The
 > operating system (e.g. [[arch linux (and other distros)]], Mac OS,
-> [[microsoft windows]], Android and various Linux distributions)
+> [[Microsoft Windows]], Android and various Linux distributions)
 > is a type of software that is used as a platform for running the applications,
 > and controls all user interface tools including display and the keyboard.
 
