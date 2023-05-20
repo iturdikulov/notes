@@ -12,6 +12,22 @@
 # https://msdn.rg-adguard.net/public.php?seach=us_windows_10_enterprise_ltsc_2021_x64_dvd_d289cf96&str=25#60680
 #
 # sha256sum en-us_windows_10_enterprise_ltsc_2021_x64_dvd_d289cf96.iso | grep c90a6df8997bf49e56b9673982f3e80745058723a707aef8f22998ae6479597d
+#
+# LTSC release require additioanl steps to install winget
+#
+# VC++ v14 Desktop Framework Package
+#
+# https://docs.microsoft.com/en-gb/troubleshoot/cpp/c-runtime-packages-desktop-bridge#how-to-install-and-update-desktop-framework-packages
+#
+# Download the correct VC++ v14 Desktop Framework Package for your architecture.
+# Install with: Add-AppxPackage -Path "PATH TO FILE"
+#
+# Installing Winget
+# Make sure all dependencies are installed before doing this!
+# From the latest release download the .msixbundle install- and .xml license file: https://github.com/microsoft/winget-cli/releases
+# Install with: Add-AppxProvisionedPackage -Online -PackagePath "PATH TO MSIXBUNDLE" -LicensePath "PATH TO XML" -Verbose
+# Wait for the install to finish and you're done. You may need to restart the terminal, or reboot your pc.
+# Verify that the installation succeeded by running winget in PowerShell. If no errors occur then you're done!
 
 $hasPackageManager = Get-AppPackage -name 'Microsoft.DesktopAppInstaller'
 if (!$hasPackageManager -or [version]$hasPackageManager.Version -lt [version]"1.10.0.0") {
@@ -106,13 +122,13 @@ New-Item -ItemType Directory -Path "C:\bin"
 New-Item -ItemType Directory -Path "C:\tmp"
 
 # Download Colemak-DH installer
-$url = "https://github.com/ColemakMods/mod-dh/blob/master/klc/colemak_dh_ansi_us.zip"
+$url = "https://github.com/ColemakMods/mod-dh/blob/master/klc/colemak_dh_ansi_us.zip?raw=true"
 $outputDir = "C:\tmp"
 $outputPath = Join-Path $outputDir (Split-Path $url -Leaf)
 Invoke-WebRequest $url -OutFile $outputPath
 
-# Install WSL
-wsl --install
+echo "Installing WSL"
+echo "wsl --install"
 
-# Enable dark mode
-New-ItemProperty -Path HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Personalize -Name AppsUseLightTheme -Value 0
+echo "Enable dark mode"
+echo "New-ItemProperty -Path HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Personalize -Name AppsUseLightTheme -Value 0"
