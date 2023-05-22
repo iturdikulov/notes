@@ -76,7 +76,7 @@ Toggle on top
 ?
 `T`
 
-Progress bar,
+Show progression bar, elapsed time and total duration on the OSD.
 ?
 `o`
 
@@ -115,6 +115,10 @@ Take screenshot
 Show lists
 ?
 `F8`, `F9`
+
+Show OSD state
+?
+`F1`
 
 Show stats
 ?
@@ -207,6 +211,7 @@ Close playlist
 
 # TODO
 
+- [ ] [mpv keyboard shortcuts · GitHub](https://gist.github.com/flatlinebb/07caa79fd3b9f3770788df21756a4611)
 - [ ] <https://github.com/NurioHin/mpv-bookmarker/>
 - [ ] <https://github.com/zenyd/mpv-scripts>
 - [ ] <https://github.com/occivink/mpv-scripts>
