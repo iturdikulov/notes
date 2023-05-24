@@ -30,7 +30,7 @@ Moreover, are given difference between Python and other languages, such as C, C+
 
 - Start interactive interpreter mode: `python3`.
 - Exit <kbd>C-d</kbd>, <kbd>C-z</kbd> or `quit()`.
-- Interpreter support [[gnu readline]] library.
+- Interpreter support [[GNU readline]] library.
 - `python -c` - execute Python code.
 - `python -m [arg]` - execute Python module.
 - `python -i` - start interactive interpreter mode, can be combined with `-c` and `-m`.

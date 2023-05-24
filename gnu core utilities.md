@@ -21,6 +21,6 @@ Here I store basic coreutils and similar tools that I use on a daily basis.
 
 - [ ] iostat
 - [[gnu sed]]
-- [[gnu readline]]
+- [[GNU readline]]
 - [[gnu privacy guard]]
 - [[gnu project debugger]]
