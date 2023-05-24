@@ -19,26 +19,28 @@ My purchased items stored here: [[my inventory]].
 
 ## Repeating
 
- - [x] 🧴 Mineral water
- - [ ] 🥔 Potato
- - [ ] 🧀 Cheese
- - [ ] 🍗 Chicken - 2x
- - [ ] 🥚 Eggs
- - [ ] 🌯 Shawarma
- - [ ] 🍎 Apples
+ - [ ] 🧴 Mineral water x3
+ - [ ] 🧀 Cheese 500g
+ - [x] 🥔 Potato
+ - [x] 🥕 Carrots
+ - [ ] 🥛 Milk 3.2% x3
+ - [ ] 🍗 Chicken - 1x, fillet - x2
+ - [x] 🥚 Eggs
+ - [ ] 🌯 Shawarma - 2x
+ - [ ] 🍎 Apples - 1kg
  - [ ] 🥪 Sandwiches
- - [x] 🍫 Chocolate
- - [x]    Coca-Cola
+ - [ ] 🍫 Chocolate bars - x2
+ - [ ] 🍌 Bananas
+ - [ ] 🍊 Oranges
+ - [ ] 🟤 Dates (финики)
+ - [ ] 🍓 Strawberry
+ - [ ] 🍊 Mandarins
 
  - [x] 🧼 Soap
  - [x] 🧴 Shampoo
  - [x] 🧴 Body cream
 
- - [x] 🥕 Carrots
- - [ ] 🥛 Milk 3.2% x3
  - [ ] 🧀 Cottage cheese
- - [ ] 🍌 Bananas
- - [ ] 🍊 Oranges
  - [ ] 🍇 Grapes
  - [ ] 🧃 Juice
  - [ ] 🌽 Corn sticks
@@ -49,12 +51,9 @@ My purchased items stored here: [[my inventory]].
  - [-] 🧀 Curd
  - [x] 🧄 Garlic
  - [ ] 🟠 Persimmon (хурма)
- - [ ] 🟤 Dates (финики)
- - [ ] 🍓 Strawberry
  - [ ] 🍒 Cherry / Bird-cherry
  - [ ] 🍐 Pears (груши)
  - [ ] 🥭 Mango
- - [ ] 🍊 Mandarins
  - [x] 🧻 Paper towels
  - [x] 🧻 Toilet paper
  - [x] 🧂 Salt
