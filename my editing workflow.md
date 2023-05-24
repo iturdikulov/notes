@@ -10,11 +10,86 @@ sr-interval: 4
 sr-ease: 271
 ---
 
-# Switch to neovim path
+# My editing workflow
 
-In daily life I use [[pycharm]] right now, for python development.
-I'm planing to switch to [[neovim (text editor)]] and here list of steps to take it.
+## Introduction
 
+In daily life I use [[pycharm]] and [[neovim (text editor)]].
+Maybe in near future I will switch to use only neovim.
+
+Main functions which I use:
+
+- files navigation
+- code navigation
+- code editing
+- code refactoring
+- code autocompletion
+- code debugging
+- code testing and running
+
+## Files navigation
+
+- find file, with history and fuzzy search
+- find file, based on grep
+- find file in project tree (git repo) / cwd
+- get file history / local history
+
+## Code navigation
+
+- find symbol, based on grep
+- go to definition/declaration
+- find usages/references
+- go to older/newer position
+- go to previous/next hunk
+- go to next/previous file
+
+## Code editing
+
+- code folding
+- code commenting
+- code formatting
+- code objects actions
+- macro
+- other vim magic
+
+## Code refactoring
+
+- rename/move/extract/inline
+- automatic refactorings
+- sort/organize imports
+
+## Code autocompletion
+
+- lsp autocompletion
+- snippets
+- copilot
+
+## Code debugging
+
+- run debugger
+- restart debugger
+- stop debugger
+- step over
+- step into
+- step out
+- run to cursor
+- evaluate expression
+
+## Code testing and running
+
+- generate test
+- run test
+- coverage test
+
+## VCS
+
+- add/remove into stage
+- commit/push
+- pull/rebase/merge
+- diff
+
+
+## -----
 `git push -o merge_request.create --set-upstream origin HEAD`
 
 ## harpoon

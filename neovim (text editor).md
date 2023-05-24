@@ -1695,7 +1695,7 @@ VIM TUTOR
 ## Plugins
 - [[sniprun]]
 
-Current mail goal: [[switch to neovim path]]
+Current mail goal: [[my editing workflow]]
 - [ ] https://stackoverflow.com/questions/509690/how-can-you-list-the-matches-of-vims-search
 
 
