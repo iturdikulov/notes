@@ -22,6 +22,7 @@ Show help on a Git subcommand (like `clone`, `add`, `push`, `log`, etc.):
 Execute a Git subcommand:
 ?
 `git subcommand`
+<!--SR:!2023-05-29,4,272-->
 
 Execute a Git subcommand on a custom repository root path:
 ?
@@ -35,6 +36,7 @@ Execute a Git subcommand with a given configuration set:
 Create a new local repository, _project_name_ is optional. If no project name specified you'll create git repository in current directory. You can also use non-existing **nested** directories, git automatically create needed structure.
 ?
 `git init [project_name]`
+<!--SR:!2023-05-29,4,272-->
 
 Download from an existing repository. URL can be `http[s]...` or `git@...` (require specific private ssh key). If project path specified, git will clone into this directory.
 ?
@@ -208,6 +210,7 @@ Stage all changed files, ready for commit
 ?
 `git add .`
 `git add [--all|-A]`
+<!--SR:!2023-05-28,3,252-->
 
 Stop tracking the file completely (leave it on disk)
 ?
