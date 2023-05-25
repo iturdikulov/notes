@@ -17,27 +17,24 @@ sr-ease: 271
 In daily life I use [[pycharm]] and [[neovim (text editor)]].
 Maybe in near future I will switch to use only neovim.
 
-Main functions which I use:
-
-- files navigation
-- code navigation
-- code editing
-- code refactoring
-- code autocompletion
-- code debugging
-- code testing and running
-
 ## Files navigation
 
 - find file, with history and fuzzy search
+<kbd>^+P</kbd>
+
 - find file, based on grep
-- find file in project tree (git repo) / cwd
-- get file history / local history
+<leader>fs
+
+- get file vcs history
+
+- get file local history
+<leader>u
 
 ## Code navigation
 
+- go to definition
+- go to declaration
 - find symbol, based on grep
-- go to definition/declaration
 - find usages/references
 - go to older/newer position
 - go to previous/next hunk
@@ -46,7 +43,14 @@ Main functions which I use:
 ## Code editing
 
 - code folding
-- code commenting
+zo/zc/zr
+
+- comment line
+gcc
+
+- comment block
+gc<motion>
+
 - code formatting
 - code objects actions
 - macro
