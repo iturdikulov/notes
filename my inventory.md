@@ -61,7 +61,8 @@ tags:
 - TODO: PC parts models
 - Base Board: Micro-Star International Co., Ltd.
   [B450M MORTAR MAX (MS-7B89)](https://www.msi.com/Motherboard/B450M-MORTAR-MAX/support)
-- Samsung Galaxy Tab S7 FE - SM-T733
+- Samsung Galaxy Tab S7 FE (SM-T733)
+- OnePlus Nord2 5G (DN2103)
 - KBD75 V2 custom mechanical keyboard, support [[qmk]] firmware.
   [YUNZII AKKO CS](https://www.yunzii.com/products/yunzii-akko-cs-switches-45-pcs)
   Lavender Purple Switches.
