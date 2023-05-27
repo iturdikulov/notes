@@ -24,3 +24,7 @@ sr-ease: 270
 > - Any system that includes circulation of money. --
 >
 > -- [Simple English Wikipedia](https://simple.wikipedia.org/wiki/Finance)
+
+## Resources
+
+- [Cryptocurrency Debit Card List](https://www.cryptowisser.com/debit-cards/)
