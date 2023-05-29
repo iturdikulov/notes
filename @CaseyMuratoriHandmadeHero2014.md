@@ -169,51 +169,6 @@ What dereference operator (indirection operator) `*` do?
 ?
 It's used to get value of variable at the pointer address. It can be used to output value of referencing or even set its value.
 
-# [Day 001: Setting Up the Windows Build](https://hero.handmade.network/episode/code/day001/)
-
-[Getting Started / Introduction to C](https://davidgow.net/handmadepenguin/ch0.html)
-
-# [Day 001qa: Setting Up the Windows Build - Q&A](https://hero.handmade.network/episode/code/day001qa/)
-
-[Setting Up the Linux Build](https://davidgow.net/handmadepenguin/ch1.html)
-
-# [Day 002: Opening a Win32 Window](https://hero.handmade.network/episode/code/day002/)
-
-[Opening an SDL Window](https://davidgow.net/handmadepenguin/ch2.html)
-
-# [Day 002qa: Opening a Win32 Window - Q&A](https://hero.handmade.network/episode/code/day002qa/)
-
-# [Day 003: Allocating a Back Buffer](https://hero.handmade.network/episode/code/day003/)
-
-[Allocating a Backbuffer](https://davidgow.net/handmadepenguin/ch3.html)
-
-# [Day 004: Animating the Back Buffer](https://hero.handmade.network/episode/code/day004/)
-
-[Animating the Backbuffer](https://davidgow.net/handmadepenguin/ch4.html)
-
-# [Day 005: Windows Graphics Review](https://hero.handmade.network/episode/code/day005/)
-
-[Graphics Refactoring and Review](https://davidgow.net/handmadepenguin/ch5.html)
-
-# [Day 006: Gamepad and Keyboard Input](https://hero.handmade.network/episode/code/day006/)
-
-[Gamepad and Keyboard Input](https://davidgow.net/handmadepenguin/ch6.html)
-
-# [Day 007: Initializing DirectSound](https://hero.handmade.network/episode/code/day007/)
-
-[Initialising SDL Audio](https://davidgow.net/handmadepenguin/ch7.html)
-
-# [Day 008: Writing a Square Wave to DirectSound](https://hero.handmade.network/episode/code/day008/)
-
-[Playing a Square Wave with SDL](https://davidgow.net/handmadepenguin/ch8.html)
-
-# [Day 009: Variable-Pitch Sine Wave Output](https://hero.handmade.network/episode/code/day009/)
-
-[Variable-Pitch Sine Wave Output](https://davidgow.net/handmadepenguin/ch9.html)
-
-# [Day 010: QueryPerformanceCounter and RDTSC](https://hero.handmade.network/episode/code/day010/)
-
-[SDL\_GetPerformanceCounter and RDTSC](https://davidgow.net/handmadepenguin/ch10.html)
 
 # [Day 011: The Basics of Platform API Design](https://hero.handmade.network/episode/code/day011/)
 
