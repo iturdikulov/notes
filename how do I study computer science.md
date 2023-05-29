@@ -22,8 +22,8 @@ more fundamental knowledge.
 
 My next book, which I found useful is "The C Programming Language"
 [@BrianWKernighanProgrammingLanguage1988]. I read it and do exercises from it.
-My current goal is complete it and start to dive into [[algorithm|algorithms]]
-and [[data structure|data structures]].
+My current goal is complete it and start to dive into [[algorithm]]
+and [[data structure]].
 
 I also in parallel work with Python (paid job) and read official
 tutorials/documentation to write better Python code.
