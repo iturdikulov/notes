@@ -27,20 +27,20 @@ In my words - universal, clear and easy to understand language because it can on
 Write useful programs probably the best goal to learn any language.
 
 C wears well as one's ==experience== with it grows.
-<!--SR:!2023-05-14,2,247-->
+<!--SR:!2023-07-31,62,267-->
 
 # Preface to the first edition /8
 
 Is C is a general-purpose language?
 ?
 Yes, general-purpose something like universal language, to use it in any domain, and not have limited functions to specific domain.
-<!--SR:!2023-05-15,3,267-->
+<!--SR:!2023-08-07,69,287-->
 
 Is C is high-level language?
 ?
 Yes, but it not a "very high-level" language, nor a "big" one.
 But its absence of restrictions and its generality make it more convenient and effective for many tasks than supposedly more powerful languages.
-<!--SR:!2023-05-16,3,247-->
+<!--SR:!2023-07-28,59,267-->
 
 # Chapter 1 - A Tutorial Introduction /9
 
@@ -62,7 +62,7 @@ Basics of C (as language, like [[variable (computer science)]] and arithmetic
 
 The only way to learn a new programming language is by ==writing programs== in
 it.
-<!--SR:!2023-05-14,2,247-->
+<!--SR:!2023-08-01,63,267-->
 
 Hello world program, can you describe it, each parts?
 ```c
@@ -116,7 +116,7 @@ Describe this [[escape sequence]]'s:
 <!--SR:!2023-11-24,206,268-->
 
 C program, whatever its size, consists of ==functions and variables==.
-<!--SR:!2023-05-15,3,267-->
+<!--SR:!2023-08-04,66,287-->
 
 Function contains ... that specify its computing operations to be done, and ...
 store values used during the computation.
@@ -126,12 +126,12 @@ store values used during the computation.
 
 A function contains ==statements== that specify the computing
 operations to be done.
-<!--SR:!2023-05-15,3,267-->
+<!--SR:!2023-08-09,71,287-->
 
 Main difference between statement and expression?
 ?
 An expression evaluates to a value. A statement does something.
-<!--SR:!2023-05-14,1,234-->
+<!--SR:!2023-06-02,3,214-->
 
 The every program must have a function called ==main==.
 Your program begins executing at the beginning of this function.
@@ -140,14 +140,14 @@ Your program begins executing at the beginning of this function.
 One method (simplest) to communicate data between functions is?
 ?
 Use arguments between calling function and called function.
-<!--SR:!2023-05-15,3,267-->
+<!--SR:!2023-08-05,67,287-->
 
 A function is called by ==naming it==, followed by a parenthesized list of
 arguments.
 <!--SR:!2023-05-15,3,267-->
 
 `"hello, world\n"` this is a ==character string== or ==string constant==.
-<!--SR:!2023-05-25,13,228!2023-05-25,13,228-->
+<!--SR:!2023-06-06,7,208!2023-07-27,58,248-->
 
 [**Exercise 1-1.**](./@BrianWKernighanProgrammingLanguage1988/chapter_1/1-1_hello_world.c)
 [**Exercise 1-2.**](./@BrianWKernighanProgrammingLanguage1988/chapter_1/1-2_printf_experiments.c)
@@ -175,7 +175,7 @@ How to define single and block comments?
 Comments may appear anywhere where a ==blank, tab or newline== can appear (whitespace character).
 
 In C you must ==declare all== variables before they are used.
-<!--SR:!2023-05-15,3,267-->
+<!--SR:!2023-06-02,3,247-->
 
 A declaration announces ==the properties== of variables.
 
@@ -275,7 +275,7 @@ Is printf part of C language, does it's unified?
 ?
 No it's part of standard library, and the behavior of `printf` is defined in the
 ANSI standard, so its properties should be the same with any compiler.
-<!--SR:!2023-05-14,2,247-->
+<!--SR:!2023-07-31,62,267-->
 
 `scanf` is like ==`printf`==
 <!--SR:!2023-05-15,3,267-->
@@ -311,7 +311,7 @@ placeholder in printf work.
 
 In any context where it is permissible to use the value of some type, you can
 use ==a more complicated expression of that type==.
-<!--SR:!2023-05-14,2,247-->
+<!--SR:!2023-07-29,60,267-->
 
 Describe each part of for loop control structure.
 ```c
@@ -339,7 +339,7 @@ Yes, any **valid** expressions. TODO: test it.
 A `#define` line defines a ==`symbolic name` or `symbolic constant`== to be a
 particular string of character (token string). Generally speaking `#define`
 directive defines a **macro**.
-<!--SR:!2023-05-14,2,247-->
+<!--SR:!2023-06-24,25,247-->
 
 How to define symbolic name or symbolic constant?
 ?
@@ -370,7 +370,7 @@ A text stream is a sequence of ==characters==
 <!--SR:!2023-06-19,38,268-->
 
 Each line in text stream is terminated by a special character, called a ==newline==.
-<!--SR:!2023-05-14,2,208-->
+<!--SR:!2023-06-20,21,208-->
 
 What output you receive if you run this program?
 ```c
@@ -383,7 +383,7 @@ putchar('G');
 Hello, world!
 G
 ```
-<!--SR:!2023-05-30,18,268-->
+<!--SR:!2023-08-06,68,288-->
 
 ### 1.5.1 File Copying /18
 
@@ -425,16 +425,16 @@ for (nc = 0; getchar() != EOF; ++nc) {
 }
 printf("%.0f\n", nc); // supress floating point, by %.0f
 ```
-<!--SR:!2023-05-15,2,227-->
+<!--SR:!2023-07-23,54,247-->
 
 Programs should act intelligently when given ==zero==-length input.
-<!--SR:!2023-05-15,3,267-->
+<!--SR:!2023-08-08,70,287-->
 
 Difference between `++nc` and `nc++`
 ?
 `++nc` - increment `nc` before use it, and return incremented value.
 `nc++` - return `nc` value and then increment it.
-<!--SR:!2023-05-15,3,267-->
+<!--SR:!2023-06-28,29,267-->
 
 `%ld` is ==`long`== integer placeholder
 
@@ -507,7 +507,7 @@ int main() {
 ```
 
 An assignment is an expression with the value and assignments associated from (direction) ==right to left, like `nl = (nw = (nc = 0));`==.
-<!--SR:!2023-05-27,15,248-->
+<!--SR:!2023-06-07,8,228-->
 
 Expressions connected by && or || are evaluated (direction) ==left to right==.
 <!--SR:!2023-07-17,76,248-->
@@ -649,13 +649,13 @@ Can you write formal and actual parameters for power function?
 int power(int base, int n); // formal parameters
 power(1, 2); // actual parameters
 ```
-<!--SR:!2023-05-24,12,228-->
+<!--SR:!2023-07-26,57,248-->
 
 Describe this return values of main function: 0, 1
 ?
 0 - usually this means normal termination
 1 - some signal, unusual or erroneous termination condition
-<!--SR:!2023-05-14,2,247-->
+<!--SR:!2023-07-30,61,267-->
 
 How/where declare function prototype?
 ?
@@ -694,7 +694,7 @@ variables in the called routine. In other words can be used as ==temporary
 variables==.
 
 C allows use call by reference by using ==pointers== to variables.
-<!--SR:!2023-05-15,3,267-->
+<!--SR:!2023-06-27,28,267-->
 
 When the name of an array is used as an argument, the value passed to the
 function is ==the location or address of the beginning of the array==.
@@ -704,7 +704,7 @@ function is ==the location or address of the beginning of the array==.
 ## 1.9 Character Arrays /29
 
 The most common type of array in C is the ==array of characters==.
-<!--SR:!2023-05-28,11,267-->
+<!--SR:!2023-07-18,49,287-->
 
 Pseudocode to get the longest line from stdin:
 ```
@@ -779,7 +779,7 @@ The return type of ==void== states explicitly that no value is returned.
 <!--SR:!2023-05-15,3,267-->
 
 Each string terminates with a ==null character, '\0' equal to 0==.
-<!--SR:!2023-05-15,3,267-->
+<!--SR:!2023-06-29,30,267-->
 
 Null character is not part of normal text.
 
@@ -886,7 +886,7 @@ Does need to heavily use `extern` variables?
 It's complicate things, if you have a lot of `extern` variables, it's hard to
 keep track of them (their values can be change unexpectably) and hard to modify
 program.
-<!--SR:!2023-05-14,2,247-->
+<!--SR:!2023-06-23,24,247-->
 
 
 # Chapter 2 - Types, Operators and Expressions /35
@@ -899,7 +899,7 @@ Which core language parts usually program consists of?
 3. operators which specify what to do with the variables and constants
 4. expressions which combine variables and constants into larger units and
    produce new values
-<!--SR:!2023-05-14,1,214-->
+<!--SR:!2023-06-02,3,194-->
 
 The type of object determines (variable, expression...)?
 ?
@@ -922,13 +922,13 @@ At least first ==31== characters of an internal name are significant.
 
 For external names, the standard guarantees' uniqueness only for ==6==
 characters and single case.
-<!--SR:!2023-05-16,3,254-->
+<!--SR:!2023-07-30,61,274-->
 
 Which reserved keywords in C you know, can they be used as variable names?
 ?
 `if, else, int, float, char, for, while, do, return, switch`, no they can't be
 used as variable names.
-<!--SR:!2023-05-15,3,254-->
+<!--SR:!2023-06-26,27,254-->
 
 If you choose variable name, how you choose its name?
 ?
@@ -970,7 +970,7 @@ It's implementation-defined, so it's better to specify explicitly. But printable
 characters are always positive.
 
 Plain `int` is equivalent to ==`signed int`==.
-<!--SR:!2023-05-16,3,254-->
+<!--SR:!2023-06-02,3,234-->
 
 ## 2.3 Constants /36
 
@@ -1018,7 +1018,7 @@ other characters.
 Is escape sequences like `'\n'` represent two characters or one?
 ?
 One, it's single character.
-<!--SR:!2023-05-17,4,274-->
+<!--SR:!2023-08-03,65,294-->
 
 Is `'\000'` represent one character or three?
 ?
@@ -1031,7 +1031,7 @@ Is `'\xhh'` represent one character or two?
 One, it's single character. `hh` is one or more hexadecimal digits.
 ASCII vertical tab is `'\xb'`.
 ASCII bell character is `'\x7'`.
-<!--SR:!2023-05-16,3,254-->
+<!--SR:!2023-08-02,64,274-->
 
 The character `'\0'` represents the character with ==zero== value, the null
 character.
@@ -1053,7 +1053,7 @@ Is `string constant` different from `string literal`?
 ?
 No, they are the same. `"hello, world\n"` is a string constant, or string
 literal, is a sequence of characters surrounded by double quotes.
-<!--SR:!2023-05-15,3,254-->
+<!--SR:!2023-06-22,23,254-->
 
 How concatenation of string literals works?
 ?
@@ -1087,7 +1087,7 @@ Is `'x'` is same as `"x"`?
 ?
 No, `'x'` is a single character, `"x"` is a string constant (contains 2
 entities).
-<!--SR:!2023-05-17,4,274-->
+<!--SR:!2023-06-30,31,274-->
 
 **Enumeration constant** is a list of constant ==integer values==, like `enum
 boolean { NO, YES };`.
@@ -1158,7 +1158,7 @@ Is here allowed to use `const` keyword `int strlen(const char[]);`, if yes why?
 Yes, it can be used with array arguments to indicate that the function does not
 change that array. Result is implementation dependent if an attempt is made to
 change a `const` object.
-<!--SR:!2023-05-15,2,234-->
+<!--SR:!2023-06-21,22,234-->
 
 ## 2.5 Arithmetic Operators /40
 
