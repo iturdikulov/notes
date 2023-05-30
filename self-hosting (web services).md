@@ -37,6 +37,7 @@ full control over my data with minimal latency, and maximal speed.
 - [Syncthing](http://127.0.0.1:8384/)
 - [qBittorent](http://localhost:8081/)
 - PrivateBin
+- [draw.io](http://localhost:8085/)
 
 ## Resources
 
