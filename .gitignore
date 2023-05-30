@@ -2,7 +2,9 @@
 .idea
 *.log
 *.out
-.obsidian/
+.trash
+**/.obsidian/*
+!**/.obsidian/snippets
 .stversions
 .stfolders
 *.lock
