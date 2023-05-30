@@ -11,20 +11,23 @@ sr-due: 1678896000
 sr-ease: 232
 sr-interval: 1
 tags:
-    - "research"
-    - "inbox"
+  - "research"
+  - "inbox"
 ---
 
-My notes taken from the Python Tutorial.
-This tutorial is cover basic concepts of Python, most noteworthy features and language elements.
+My notes taken from the Python Tutorial. This tutorial is cover basic concepts
+of Python, most noteworthy features and language elements.
 
 # [1. Whetting Your Appetite](https://docs.python.org/3/tutorial/appetite.html)
 
-In this section described when Python usable. For examlpe scripting, simple GUI, etc.
+In this section described when Python usable. For example scripting, simple GUI,
+etc.
 
-Also described strong points of Python, such as rapid development, interactive, integration, batteries-included, etc.
+Also described strong points of Python, such as rapid development, interactive,
+integration, batteries-included, etc.
 
-Moreover, are given difference between Python and other languages, such as C, C++, Java, etc.
+Moreover, are given difference between Python and other languages, such as C,
+C++, Java, etc.
 
 # [2. Using the Python Interpreter](https://docs.python.org/3/tutorial/interpreter.html)
 
@@ -33,21 +36,27 @@ Moreover, are given difference between Python and other languages, such as C, C+
 - Interpreter support [[GNU readline]] library.
 - `python -c` - execute Python code.
 - `python -m [arg]` - execute Python module.
-- `python -i` - start interactive interpreter mode, can be combined with `-c` and `-m`.
+- `python -i` - start interactive interpreter mode, can be combined with `-c`
+  and `-m`.
 
 Python support argument parsing. You can use `sys.argv` to get arguments.
-Minimal length of `sys.argv` is 1, can be empty, script name (`python -`, `-` is standard input) or module name (`python -m -i lzma`).
+Minimal length of `sys.argv` is 1, can be empty, script name (`python -`, `-` is
+standard input) or module name (`python -m -i lzma`).
 
 In `sys.argv` also stored `-c` (not sure) and `-m` arguments.
 
-By default, Python source files are treated as encoded in [[unicode|UTF-8]], but standard library only use [[ascii]] characters for identifiers, this convention that any portable code should follow.
+By default, Python source files are treated as encoded in [[unicode|UTF-8]], but
+standard library only use [[ascii]] characters for identifiers, this convention
+that any portable code should follow.
 
-If you need to set not UTF-8 encoding, use `# -*- coding: encoding -*-` comment as first line or after [[shebang (unix)]]:
+If you need to set not UTF-8 encoding, use `# -*- coding: encoding -*-` comment
+as first line or after [[shebang (unix)]]:
 
 ```python
 #!/usr/bin/env python3
 # -*- coding: cp1251 -*-
 ```
+
 # [3. An Informal Introduction to Python](https://docs.python.org/3/tutorial/introduction.html)
 
 ```python
@@ -74,7 +83,8 @@ print(5 ** 2)  # 5 squared
 print(2 ** 7)  # 2 to the power of 7
 ```
 
-[[operator (computer programming)|Operators]] with mixed type [[operand]]'s convert the integer operand to floating point
+[[operator (computer programming)|Operators]] with mixed type [[operand]]'s
+convert the integer operand to floating point
 
 ```python
 print(4 * 3.75 - 1) # 14.0
@@ -94,7 +104,8 @@ Use undefined variable, will raise `NameError`:
 n  # try to access an undefined variable
 ```
 
-In interactive mode, the last printed expression is assigned to the variable `_`.
+In interactive mode, the last printed expression is assigned to the variable
+`_`.
 
 ```python
 tax = 12.5 / 100  # tax
@@ -104,7 +115,8 @@ price + _         # 113.0625
 round(_, 2)       # 113.06
 ```
 
-Python support various [[data type]]'s such as: Int, Float, Decimal and Fraction, [[complex number]]'s (using `j` or `J` suffix - `3+5j`).
+Python support various [[data type]]'s such as: Int, Float, Decimal and
+Fraction, [[complex number]]'s (using `j` or `J` suffix - `3+5j`).
 
 In Python all these types are objects, so they have methods and attributes.
 
@@ -119,7 +131,8 @@ print("\"Yes,\" they said.")
 print('"Isn\'t", they said.')
 ```
 
-In interactive mode [[escape sequence]] not recognized, so use `print()` function.
+In interactive mode [[escape sequence]] not recognized, so use `print()`
+function.
 
 You can disable escaping by using raw strings:
 
@@ -128,10 +141,10 @@ print('C:\some\name')   # here \n means newline!
 print(r'C:\some\name')  # note the r before the quote
 ```
 
-A raw string may not end in an odd number of \ characters; see the FAQ ::TODO: Make clickable :: entry for more information and workarounds.
+A raw string may not end in an odd number of \ characters; see the FAQ ::TODO:
+Make clickable :: entry for more information and workarounds.
 
-You can use multiline strings:
-`\` - used here to prevent printing newline.
+You can use multiline strings: `\` - used here to prevent printing newline.
 
 ```python
 print("""\
@@ -141,12 +154,17 @@ Usage: thingy [OPTIONS]
 """)
 ```
 
-> Unlike other languages, special characters such as \n have the same meaning with both single ('...') and double ("...") quotes. The only difference between the two is that within single quotes you don’t need to escape " (but you have to escape \') and vice versa.
+> Unlike other languages, special characters such as \n have the same meaning
+> with both single ('...') and double ("...") quotes. The only difference
+> between the two is that within single quotes you don’t need to escape " (but
+> you have to escape \') and vice versa.
 
-[[string literal]] can be multiple lines by `"""` triple double or single `'''` quotes. You can use `\` character to prevent automatically inserting new line in output (useful for formatting).
+[[string literal]] can be multiple lines by `"""` triple double or single `'''`
+quotes. You can use `\` character to prevent automatically inserting new line in
+output (useful for formatting).
 
-You can also concatenate string with `+` operator or by breaking them into new lines or space.
-`*` used for repeating string (multiplication).
+You can also concatenate string with `+` operator or by breaking them into new
+lines or space. `*` used for repeating string (multiplication).
 
 ```python
 print(3 * 'un' + 'ium')   # 'unununium'
@@ -162,8 +180,8 @@ print(f"{text}?")  # concatenation using f-string
 print(text.__add__("?"))  # concatenation using __add__ method
 ```
 
-Strings can be indexed (subscripted).
-In python no separate character type, a character is a string of size one.
+Strings can be indexed (subscripted). In python no separate character type, a
+character is a string of size one.
 
 ```python
 word = 'Python'
@@ -199,18 +217,18 @@ word = "Hello, World!"
 print(word[:5] + word[5:]) == word  # True
 ```
 
-Attempting to use invalid index in range slice handled?
-?
-Gracefully, without raising an exception.
+Attempting to use invalid index in range slice handled? ? Gracefully, without
+raising an exception.
+
 ```python
 word = 'Python'
 print(word[42:])
 print(word[4:42])
 ```
 
-To remember you can use this table.
-Think indices are pointing between characters.
-How do you think this table is constructed (row 1, 2, 3)?
+To remember you can use this table. Think indices are pointing between
+characters. How do you think this table is constructed (row 1, 2, 3)?
+
 ```
 +---+---+---+---+---+---+
 | H | e | l | l | o | , |
@@ -237,7 +255,8 @@ print('J' + word[1:])  # Jython
 print(word[:2] + 'py') # Pypy
 ```
 
-String has various built-in methods - [String Methods](https://docs.python.org/3/library/stdtypes.html#string-methods).
+String has various built-in methods -
+[String Methods](https://docs.python.org/3/library/stdtypes.html#string-methods).
 
 Built-in function `len()` returns length of string.
 
@@ -248,8 +267,8 @@ s = '😀😀😀😀😀😀😀😀😀😀' '😀😀😀😀😀😀😀😀
 print(len(s))  # 4
 ```
 
-Most versatile [[data type]] is [[list (abstract data type)]].
-In Python list can contain elements of different types, but usually used one type.
+Most versatile [[data type]] is [[list (abstract data type)]]. In Python list
+can contain elements of different types, but usually used one type.
 
 ```python
 squares = [1, 4, 9, 16, 25]
@@ -265,7 +284,9 @@ print(squares[-1])
 print(squares[-3:])  # slicing returns a new list
 ```
 
-All slice operations return a new list (shallow copy) containing the requested elements.
+All slice operations return a new list (shallow copy) containing the requested
+elements.
+
 ```python
 squares = [1, 4, 9, 16, 25]
 print(squares[:])  # [1, 4, 9, 16, 25]
@@ -279,6 +300,7 @@ print(squares + [4, 3, 2, 1])  # [9, 8, 7, 6, 5, 4, 3, 2, 1]
 ```
 
 List are, mutable, unlike strings.
+
 ```python
 cubes = [1, 8, 27, 65, 125]  # something's wrong here, let's check 4th element
 print(4 ** 3)  # 64, the cube of 4 is 64, not 65!
@@ -291,7 +313,8 @@ cubes.append(7 ** 3)  # and the cube of 7
 print(cubes)
 ```
 
-You can also do assignments to lists (inserting/replace), which can change their size or clear them entirely.
+You can also do assignments to lists (inserting/replace), which can change their
+size or clear them entirely.
 
 ```python
 letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g']
@@ -307,6 +330,7 @@ print(letters)
 ```
 
 List also support built-in functions `len()` and `+`.
+
 ```python
 print(len(["Hello", "World"]))  # 2
 ```
@@ -319,7 +343,9 @@ n = [1, 2, 3]
 x = [a, n]
 print(x) # [['a', 'b', 'c'], [1, 2, 3]]
 ```
+
 [[fibonacci sequence]]:
+
 ```python
 a, b = 0, 1  # multiple assignment, initialize variables
 while a < 10:
@@ -334,16 +360,12 @@ while a < 10:
     # 3, 5
 ```
 
-Order of Evaluation in Python expression
-?
-In Python, the left operand is always evaluated before the right operand.
+Order of Evaluation in Python expression ? In Python, the left operand is always
+evaluated before the right operand.
 
-Non-zero and (zero or [[null pointer|None]]) values in Python (and C) considered as ([[boolean data type]])?
-Non-zero and zero length values considered as?
-?
-True and False.
-Length also True and False.
-
+Non-zero and (zero or [[null pointer|None]]) values in Python (and C) considered
+as ([[boolean data type]])? Non-zero and zero length values considered as? ?
+True and False. Length also True and False.
 
 ## [4. More Control Flow Tools](https://docs.python.org/3/tutorial/controlflow.html)
 
@@ -358,14 +380,16 @@ else:  # optional, sort of default
     print('More')
 ```
 
-For statement in Python iterates over the sequence items, in the order that they appear.
-And finish when sequence is exhausted.
+For statement in Python iterates over the sequence items, in the order that they
+appear. And finish when sequence is exhausted.
 
 ```python
 [print(x, end="😮") for x in list("Hnr")]  # H😮n😮r😮
 ```
 
-> Code that modifies a collection while iterating over that same collection can be tricky to get right. Instead, it is usually more straight-forward to loop over a copy of the collection or to create a new collection:
+> Code that modifies a collection while iterating over that same collection can
+> be tricky to get right. Instead, it is usually more straight-forward to loop
+> over a copy of the collection or to create a new collection:
 
 ```python
 # Create a sample collection
@@ -385,26 +409,30 @@ for user, status in users.items():
 print(active_users)
 ```
 
-`range()` is sort of converting given length to known array (`0,1,...,X`). It generates arithmetic progression.
+`range()` is sort of converting given length to known array (`0,1,...,X`). It
+generates arithmetic progression.
 
 ```python
 print(list(range(10))) # [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
                        # ten isn't included in the generated sequence.
 ```
 
-You can select range start number (not index).
-Some like to generate numbers from X to Y-1.
+You can select range start number (not index). Some like to generate numbers
+from X to Y-1.
+
 ```python
 print(list(range(5, 10)))  # [5, 6, 7, 8, 9]
 ```
 
-What you will see in interactive python session if you enter this: `list(range(0, 10))`
-?
+What you will see in interactive python session if you enter this:
+`list(range(0, 10))` ?
+
 ```python
 [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 ```
 
-And you can also specify [[increment and decrement operators|increment]] for step size. Which can be positive or negative.
+And you can also specify [[increment and decrement operators|increment]] for
+step size. Which can be positive or negative.
 
 ```python
 print(list(range(0, 10, 1)))  # [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
@@ -418,7 +446,9 @@ print(list(range(-10, -100, -30))) # [-10, -40, -70]
 print(list(range(-10, 10, 30))) # [-10], first item only
 ```
 
-To iterate over the indices of a sequence, you can combine `range()` and `len()` as follows:
+To iterate over the indices of a sequence, you can combine `range()` and `len()`
+as follows:
+
 ```python
 a = ['Mary', 'had', 'a', 'little', 'lamb']
 for i in range(len(a)):
@@ -426,6 +456,7 @@ for i in range(len(a)):
 ```
 
 But better just use `enumerate()` function.
+
 ```python
 a = ['Mary', 'had', 'a', 'little', 'lamb']
 for i, item in enumerate(a):
@@ -433,19 +464,23 @@ for i, item in enumerate(a):
 ```
 
 If we don't iterate over range and just print it, we will get object reference.
+
 ```python
 print(range(10))  # range(0, 10)
 ```
 
-> The `break` statement, like in C, `breaks out` of the innermost enclosing `for` or `while` loop.
+> The `break` statement, like in C, `breaks out` of the innermost enclosing
+> `for` or `while` loop.
 
 ::TODO: add #loop into control flow ::
 
 In python [[control flow#loop]] statements may have a `else` clause.
 
-It is executed if loop wasn't `break`ed (we iterated over all items in `for` or `while` condition become `False`).
+It is executed if loop wasn't `break`ed (we iterated over all items in `for` or
+`while` condition become `False`).
 
 ::TODO: better review this ::
+
 ```python
 for n in range(2, 10):
     # multiple loops
@@ -476,9 +511,9 @@ for num in range(2, 10):
         print("Found an odd number", num)
 ```
 
-`pass` is a [[null function|null operation]] (statement, while `None` is an object).
-When it is executed, nothing happens.
-It is useful as a placeholder when a statement is required syntactically, but no code needs to be executed
+`pass` is a [[null function|null operation]] (statement, while `None` is an
+object). When it is executed, nothing happens. It is useful as a placeholder
+when a statement is required syntactically, but no code needs to be executed
 
 ```python
 while True:
@@ -496,9 +531,12 @@ except ImportError:
 
 ::TODO: watch this - https://www.youtube.com/watch?v=-79HGfWmH_w ::
 
-A match statement compare expression with successive patterns until one or more matches.
-So this is [[pattern matching]].
-> Only the first pattern that matches gets executed and it can also extract components (sequence elements or object attributes) from the value into variables.
+A match statement compare expression with successive patterns until one or more
+matches. So this is [[pattern matching]].
+
+> Only the first pattern that matches gets executed and it can also extract
+> components (sequence elements or object attributes) from the value into
+> variables.
 
 ```python
 def http_error(status):
@@ -532,7 +570,6 @@ match point:
     case _:
         raise ValueError("Not a point")
 ```
-
 
 ## [5. Data Structures](https://docs.python.org/3/tutorial/datastructures.html)
 
