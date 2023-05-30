@@ -32,7 +32,7 @@ sr-ease: 288
    2. easy to follow
 
 I use lists a lot, and good to know some
-[[english language|english]] grammar rules to follow.
+[[English language|english]] grammar rules to follow.
 
 > ## Punctuation in bullet lists
 >

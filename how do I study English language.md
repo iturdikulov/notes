@@ -11,7 +11,7 @@ tags:
 
 # How do I study English language?
 
-I usually just read some content in [[english language]].
+I usually just read some content in [[English language]].
 I also consume [[media (communication)|media]] content in English.
 
 Since I am a native speaker of [[Russian language]], I need to study English
