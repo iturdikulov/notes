@@ -13,6 +13,7 @@ sr-interval: 234
 sr-ease: 270
 ---
 
+```
 bindkey -L
 ---
 bindkey "^@" set-mark-command # C-@ - set the mark
@@ -134,6 +135,7 @@ bindkey "^[^?" backward-kill-word
 bindkey -R " "-"~" self-insert
 bindkey "^?" backward-delete-char
 bindkey -R "\M-^@"-"\M-^?" self-insert
+```
 
 # Z shell (zsh)
 
