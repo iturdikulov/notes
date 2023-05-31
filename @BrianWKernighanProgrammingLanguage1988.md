@@ -792,7 +792,7 @@ are usually known as ==automatic variables==.
 correctly print the length of arbitrarily long input lines, and as much as
 possible
 
-Exercise 1-17. Write a program to print all input lines that are longer than 80
+[Exercise 1-17](./@BrianWKernighanProgrammingLanguage1988/chapter_1/1-17_lines_longest_than_80_characters.c). Write a program to print all input lines that are longer than 80
 characters.
 
 Exercise 1-18. Write a program to remove trailing blanks and tabs from each
