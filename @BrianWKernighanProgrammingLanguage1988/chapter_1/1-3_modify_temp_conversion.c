@@ -21,7 +21,7 @@ int main()
     printf("Fahr | Celsius\n");
     // 4_|_7 // header characters length | values characters length
     while (fahr <= upper) {
-        celsius = 5 * (fahr-32) / 9;
+        celsius = 5 * (fahr - 32) / 9;
         printf("%4d | %7d\n", fahr, celsius);
         fahr = fahr + step;
     }

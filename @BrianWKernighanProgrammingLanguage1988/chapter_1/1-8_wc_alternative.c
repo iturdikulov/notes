@@ -8,7 +8,8 @@
 #include <stdio.h>
 
 /* count lines in input */
-int main() {
+int main()
+{
     // init charcter and line counter, tab counter and blanks counter
     int c;
     int newlines, tabs, blanks = 0;
@@ -16,11 +17,9 @@ int main() {
     while ((c = getchar()) != EOF) { // while not eof
         if (c == '\n') { // compare character with newline
             ++newlines;
-        }
-        else if (c == '\t') {
+        } else if (c == '\t') {
             ++tabs;
-        }
-        else if (c == ' ') {
+        } else if (c == ' ') {
             ++blanks;
         }
     }

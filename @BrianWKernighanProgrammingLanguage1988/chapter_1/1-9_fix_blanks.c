@@ -7,21 +7,22 @@
 
 #include <stdio.h>
 
-int main() {
-  int c;
-  int blanks_number = 0;
+int main()
+{
+    int c;
+    int blanks_number = 0;
 
-  while ((c = getchar()) != EOF) {
-    if (c == ' ') {
-      // if it's first blank or last char wasn't blank print it
-      if (blanks_number == 0) {
-        putchar(c);
-      }
+    while ((c = getchar()) != EOF) {
+        if (c == ' ') {
+            // if it's first blank or last char wasn't blank print it
+            if (blanks_number == 0) {
+                putchar(c);
+            }
 
-      ++blanks_number;
-    } else {
-      putchar(c);
-      blanks_number = 0;
+            ++blanks_number;
+        } else {
+            putchar(c);
+            blanks_number = 0;
+        }
     }
-  }
 }

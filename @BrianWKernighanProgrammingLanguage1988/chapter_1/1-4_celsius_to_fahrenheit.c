@@ -21,7 +21,7 @@ int main()
     printf("Celsius | Fahr\n");
     while (fahr <= upper) {
         // TODO: write formula to get fahr instead celsius
-        celsius = (5.0 / 9.0) * (fahr-32); // max value is 148
+        celsius = (5.0 / 9.0) * (fahr - 32); // max value is 148
         printf("%4d | %7d\n", celsius, fahr); // we just swap values
         fahr = fahr + step;
     }

@@ -5,17 +5,15 @@
 #include <stdio.h>
 
 /* count lines, words, and characters in input */
-int main() {
+int main()
+{
     int c;
 
     while ((c = getchar()) != EOF) {
         if (c == '\n') {
             putchar(' ');
-        }
-        else {
+        } else {
             putchar(c);
         }
     }
 }
-
-

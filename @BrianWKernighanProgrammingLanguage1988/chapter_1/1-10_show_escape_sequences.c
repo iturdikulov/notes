@@ -6,22 +6,19 @@
 
 #include <stdio.h>
 
-int main(){
+int main()
+{
     int c;
 
-	// NOTE: here we can use switch-case
-    while ((c = getchar()) != EOF)
-    {
-        if (c == '\t'){
+    // NOTE: here we can use switch-case
+    while ((c = getchar()) != EOF) {
+        if (c == '\t') {
             printf("\\t");
-        }
-        else if (c == '\b'){
+        } else if (c == '\b') {
             printf("\\b");
-        }
-        else if (c == '\\') {
+        } else if (c == '\\') {
             printf("\\\\");
-        }
-        else{
+        } else {
             putchar(c);
         }
     }

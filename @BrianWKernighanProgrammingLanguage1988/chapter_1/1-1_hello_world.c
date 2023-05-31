@@ -22,5 +22,5 @@ int main()
     // stray ‘\’ in program, 'world' undeclared, expected ‘)' before 'n'
     // printf(hello, world\n);
 
-    return(0);
+    return (0);
 }
