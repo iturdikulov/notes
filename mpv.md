@@ -202,6 +202,12 @@ Close playlist
 ?
 `Esc`
 
+## Custom hotkeys
+
+Play clipboard URL: M-q-p
+Global pause: s-Play
+MPV fzf history: s-S-Play
+
 ## Plugins
 
 - <https://github.com/jonniek/mpv-playlistmanager>
