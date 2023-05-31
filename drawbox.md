@@ -16,11 +16,33 @@ Information about community, paid options and history.
 
 Explore what we learn in this course. Who our teachers.
 
+Don't work in a vacuum. You'll improve faster by working together.
+
+Fundamentals depends, it can be line, form, light, color, perspective, gesture,
+anatomy, style, etc...
+
 We learn:
 
 - Mark making
 - Observational drawing
-- Spatial reasoning
+- Spatial reasoning, but not too much
 - More advanced exercises, like work with light and shadow (but very basic)
 
-Don't work in a vacuum. You'll improve faster by working together.
+What we not learn (mostly):
+
+- Light
+- Anatomy
+- Gesture
+- Style
+
+## Lesson 1: Lines, Ellipses and Boxes
+
+Text is more up-to-date than video.
+
+> Even when the videos are fully updated however, there is immense value in
+> absorbing the material in different formats. Our brains easily become
+> complacent, so going through it in multiple formats is more effective, even
+> than just rewatching the same video several times.
+
+They recommend to watch video first, then read text.
+
