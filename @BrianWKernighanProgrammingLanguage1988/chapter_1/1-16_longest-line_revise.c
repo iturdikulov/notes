@@ -9,10 +9,19 @@ of the text.
 *
 * Solution:
 *
+* NOT SURE IF THIS CORRECT solution
+*
+* I just use MAXLINE sizeof(char)
+*
+* Propably need to use sort of dynamic arrays and pointers or exist simlper solution
+* or use malloc/etc
+*
 */
 
 #include <stdio.h>
-#define MAXLINE 1000 /* maximum input line size */
+#include <limits.h>
+
+#define MAXLINE sizeof(char) /* maximum input line size */
 
 int custom_getline(char line[], int maxline);
 void copy(char to[], char from[]);
