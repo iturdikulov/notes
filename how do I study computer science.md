@@ -111,7 +111,7 @@ Publication Year   Author                                  Title
 ## Level 2
 
 - TODO: [Introduction to Computer Science and Programming](https://ocw.mit.edu/courses/6-00-introduction-to-computer-science-and-programming-fall-2008/)
-- TODO: [[@DavidFlanaganJavaScriptDefinitiveGuide2020|JavaScript: The Definitive Guide]]
+- TODO: [[papis/0a96b011624a27630b92896fb6c7b31b-flanagan-david/notes|JavaScript: The Definitive Guide]]
 - TODO: [[@SteveMcConnellCodeComplete2004|Code Complete]]
 - TODO: [[papis/d6ecfc65bb43da6336f0d6593071cbd8-hunt-andrew-and-tho/notes|The Pragmatic Programmer: From Journeyman to Master]]
 - TODO: [[@IgorIriantoLearnVim2021|Learn Vim. The Smart Way.]]
