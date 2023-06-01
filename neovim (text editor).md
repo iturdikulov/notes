@@ -56,7 +56,7 @@ Instead, touch and edit the file, you can just use
 
 ## Resources
 - [[@DrewNeilPracticalVimEdit2015|Practical Vim: Edit text at the speed of thought]]
-- [[@DrewNeilModernVimCraft2018|Modern Vim: Craft your development environment with Vim 8 and Neovim]]
+- [[papis/82951c75090ce154272484448309812b-neil-drew/notes|Modern Vim: Craft your development environment with Vim 8 and Neovim]]
 - [Interactive Vim tutorial](http://www.openvim.com/)
 - [Vim Tips Wiki | Fandom](https://vim.fandom.com/wiki/Vim_Tips_Wiki)
 - [Vim 01 - Основы - YouTube](https://www.youtube.com/watch?v=zNnsNtBF80g)
@@ -569,7 +569,7 @@ Paste image and link::`<leader>zi`
 # Resources
 
 - [[@DrewNeilPracticalVimEdit2015]]
-- [[@DrewNeilModernVimCraft2018]]
+- [[papis/82951c75090ce154272484448309812b-neil-drew/notes]]
 
 
 # VIM SUPER BASE DRAFT
@@ -1718,7 +1718,7 @@ Current mail goal: [[my editing workflow]]
 
 ## Resources
 - [[@DrewNeilPracticalVimEdit2015|Practical Vim: Edit text at the speed of thought]]
-- [[@DrewNeilModernVimCraft2018|Modern Vim: Craft your development environment with Vim 8 and Neovim]]
+- [[papis/82951c75090ce154272484448309812b-neil-drew/notes|Modern Vim: Craft your development environment with Vim 8 and Neovim]]
 - [Interactive Vim tutorial](http://www.openvim.com/)
 - [Vim Tips Wiki | Fandom](https://vim.fandom.com/wiki/Vim_Tips_Wiki)
 - [Vim 01 - Основы - YouTube](https://www.youtube.com/watch?v=zNnsNtBF80g)
@@ -2349,7 +2349,7 @@ Paste image and link::<kbd><leader>zi</kbd>
 # Resources
 
 - [[@DrewNeilPracticalVimEdit2015]]
-- [[@DrewNeilModernVimCraft2018]]
+- [[papis/82951c75090ce154272484448309812b-neil-drew/notes]]
 
 
 # VIM SUPER BASE DRAFT

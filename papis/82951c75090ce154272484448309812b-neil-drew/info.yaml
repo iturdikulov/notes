@@ -8,6 +8,7 @@ files:
 - drew-neil-2018-modern-vim-craft-your-development-environment-with-vim-8-and-neovim3.pdf
 isbn: 978-1-68050-262-6
 keywords: active, neovim
+notes: notes.md
 papis_id: fd4e17db627c82262721ff4eab9fd2da
 publisher: The Pragmatic Bookshelf
 ref: ModernVimCraNeil2018
