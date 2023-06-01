@@ -35,4 +35,4 @@ recommended.
 
 12. [[papis/882dd7e427ed785b79bc28335be19693-loomis-andrew/notes]].
 
-13. [[@KilpatrickDavidSvetOsveshchenie1988]].
+13. [[papis/af1e94df98f63aa42a732c48bb7d5176-david-kilpatrick/notes]].
