@@ -29,7 +29,7 @@ recommended.
 
 9. [[@InterviewCakeCodingInterviewPractice]].
 
-10. [[@JayWengrowCommonsenseGuideData2020]].
+10. [[papis/2ef118ce3473c9fe93acfc371e3f736e-wengrow-jay/notes]].
 
 11. [[@CharlesPetzoldCodeHiddenLanguage2000]].
 

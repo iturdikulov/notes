@@ -67,10 +67,10 @@ books not directly related to computer science.
 
 - NEXT: [[@CharlesPetzoldCodeHiddenLanguage2000]].
 - NEXT: [[papis/bdcf7cd50c6dc8a18320d0c05b44affe-ramalho-luciano/notes]], python complete reading
-- NEXT: [[@JayWengrowCommonsenseGuideData2020]].
+- NEXT: [[papis/2ef118ce3473c9fe93acfc371e3f736e-wengrow-jay/notes]].
 - NEXT: [[@InterviewCakeCodingInterviewPractice]], to learn algorithms and data
   structures. I think worth to do it after
-  [[@JayWengrowCommonsenseGuideData2020]]
+  [[papis/2ef118ce3473c9fe93acfc371e3f736e-wengrow-jay/notes]]
 - NEXT: [[@AndreyViktorovichStolyarovProgrammirovanieVvedenieProfessiyu2021b]]
 - NEXT: [Тренировки по алгоритмам - YouTube](https://www.youtube.com/playlist?list=PL6Wui14DvQPySdPv5NUqV3i8sDbHkCKC5)
 
