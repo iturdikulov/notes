@@ -62,7 +62,7 @@ books not directly related to computer science.
 - NOW: [[@PythonTutorial2023]], to refresh knowledge
 - NOW: [[comprehensive python cheatsheet]], I'm writing flashcards from it, I
   think it's will be very useful to know syntax/core libraries.
-- NOW: [[@EricMatthesPythonCrashCourse2023]], really quick reading, to refresh
+- NOW: [[papis/55e4c3a7646b701da66038d1ed63326b-matthes-eric/notes]], really quick reading, to refresh
   knowledge, maybe I find something new.
 
 - NEXT: [[@CharlesPetzoldCodeHiddenLanguage2000]].
