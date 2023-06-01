@@ -12,6 +12,7 @@ files:
 keywords: active
 language: en
 note: 'titleTranslation:'
+notes: notes.md
 papis_id: 5fd85e1477bddaa6e7b1fe4beb6fe339
 ref: EffectivePythoHillar
 title: Effective Python Testing With Pytest
