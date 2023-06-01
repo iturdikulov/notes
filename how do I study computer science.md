@@ -79,7 +79,7 @@ books not directly related to computer science.
 - TODO: [[@RobertSedgewickAlgorithms2014a]]
 - TODO: [[@RobertSedgewickAlgorithms2014b]]
 - TODO: [[]]
-- TODO: [[@ThomasHCormenAlgorithmsUnlocked2013]]
+- TODO: [[papis/5a531e96f3b3b978f489ce0cf6e84b26-cormen-thomas-h./notes]]
 - TODO: [[papis/1ac2e1a756753ace397543a1a7dc255f/notes]]
 
 ### To review
