@@ -25,7 +25,7 @@ recommended.
 
 7. [[@PythonTutorial2023]].
 
-8. [[@LucianoRamalhoFluentPython2021]].
+8. [[papis/bdcf7cd50c6dc8a18320d0c05b44affe-ramalho-luciano/notes]].
 
 9. [[@InterviewCakeCodingInterviewPractice]].
 

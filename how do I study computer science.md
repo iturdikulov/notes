@@ -66,7 +66,7 @@ books not directly related to computer science.
   knowledge, maybe I find something new.
 
 - NEXT: [[@CharlesPetzoldCodeHiddenLanguage2000]].
-- NEXT: [[@LucianoRamalhoFluentPython2021]], python complete reading
+- NEXT: [[papis/bdcf7cd50c6dc8a18320d0c05b44affe-ramalho-luciano/notes]], python complete reading
 - NEXT: [[@JayWengrowCommonsenseGuideData2020]].
 - NEXT: [[@InterviewCakeCodingInterviewPractice]], to learn algorithms and data
   structures. I think worth to do it after
