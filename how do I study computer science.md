@@ -80,7 +80,7 @@ books not directly related to computer science.
 - TODO: [[@RobertSedgewickAlgorithms2014b]]
 - TODO: [[@AlgorithmsComputerScience2005]]
 - TODO: [[@ThomasHCormenAlgorithmsUnlocked2013]]
-- TODO: [[@HarvardXCS50x2023]]
+- TODO: [[papis/1ac2e1a756753ace397543a1a7dc255f/notes]]
 
 ### To review
 
