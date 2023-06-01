@@ -1,0 +1,34 @@
+abstract: A Programmer's Introduction to Mathematics uses your familiarity with ideas
+  from programming and software to teach mathematics. You'll learn about the central
+  objects and theorems of mathematics, covering graphs, calculus, linear algebra,
+  eigenvalues, optimization, and more. You'll also be immersed in the often unspoken
+  cultural attitudes of mathematics, learning both how to read and write proofs while
+  understanding why mathematics is the way it is. Between each technical chapter is
+  an essay describing a different aspect of mathematical culture, and discussions
+  of the insights and meta-insights that constitute mathematical intuition.As you
+  learn, we'll use new mathematical ideas to create wondrous programs, from cryptographic
+  schemes to neural networks to hyperbolic tessellations. Each chapter also contains
+  a set of exercises that have you actively explore mathematical topics on your own.
+  By the end of the book, you will be able to learn mathematics on your own. In short,
+  this book will teach you to engage with mathematics.This is the ebook edition, a
+  full-color pdf containing the complete contents of the book (the physical book is
+  black and white). Due to the heavy use of mathematical typesetting, there is no
+  plan for a ebook-reader-specific format (mobi, epub). This ebook is a simple pdf
+  download.
+author: Kun, Jeremy
+author_list:
+- family: Kun
+  given: Jeremy
+file: '@JeremyKunProgrammerIntroductionMathematics2020.md:/home/inom/Projects/main/wiki/@JeremyKunProgrammerIntroductionMathematics2020.md:text/x-markdown;Jeremy_Kun-2020-A_Programmer''s_Introduction_to_Mathematics_-_Second_Edition.html:/home/inom/Projects/main/wiki/books/Math/Jeremy_Kun-2020-A_Programmer''s_Introduction_to_Mathematics_-_Second_Edition.html:text/html;Jeremy_Kun-2020-A_Programmer''s_Introduction_to_Mathematics_-_Second_Edition.pdf:/home/inom/Projects/main/wiki/books/Math/Jeremy_Kun-2020-A_Programmer''s_Introduction_to_Mathematics_-_Second_Edition.pdf:application/pdf'
+files: []
+language: en
+notes: notes.md
+papis_id: 9a6f6aa6693332d9ab25cd5d80ec8083
+ref: AProgrammerSKunJ2020
+shorttitle: A {Programmer}'s {Introduction} to {Mathematics}
+time-added: 2023-06-02-01:19:09
+title: 'A Programmer''s Introduction to Mathematics: Second Edition'
+type: book
+url: https://j2kun.gumroad.com/l/pim-book
+urldate: '2023-03-27'
+year: '2020'
