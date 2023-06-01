@@ -931,7 +931,7 @@ Which variable names rules you should follow?
 <!--SR:!2023-05-15,3,254-->
 
 At least first ==31== characters of an internal name are significant.
-<!--SR:!2023-05-15,3,254-->
+<!--SR:!2023-06-05,4,234-->
 
 For external names, the standard guarantees' uniqueness only for ==6==
 characters and single case.
