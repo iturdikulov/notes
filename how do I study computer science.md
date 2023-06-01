@@ -56,8 +56,8 @@ books not directly related to computer science.
 
 ## Level 1
 
-- NOW: [[@BrianWKernighanProgrammingLanguage1988]] basic reading
-- NOW: [[@BrianWKernighanProgrammingLanguage1988]] exercises, but I do it rarely
+- NOW: [[papis/9c8a1a90d37c313ce0809814e3c99f82-kernighan-brian-w./notes]] basic reading
+- NOW: [[papis/9c8a1a90d37c313ce0809814e3c99f82-kernighan-brian-w./notes]] exercises, but I do it rarely
   right now, to save time for other things.
 - NOW: [[@PythonTutorial2023]], to refresh knowledge
 - NOW: [[comprehensive python cheatsheet]], I'm writing flashcards from it, I

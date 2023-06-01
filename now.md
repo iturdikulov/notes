@@ -19,7 +19,7 @@ recommended.
 
 4. [[exercise plan]].
 
-5. [[@BrianWKernighanProgrammingLanguage1988]].
+5. [[papis/9c8a1a90d37c313ce0809814e3c99f82-kernighan-brian-w./notes]].
 
 6. [[my awesome software list|software utilization]].
 
