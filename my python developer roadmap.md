@@ -26,7 +26,7 @@ sr-ease: 210
 
 ## Shelve
 
-- [[@BrettSlatkinEffectivePython902020|Effective Python]]
+- [[papis/7f8d984537ec14ac5cd5432d44facea8-slatkin-brett/notes|Effective Python]]
 - [[@LucianoRamalhoFluentPython2021|Fluent Python]]
 - [Ultimate Python study guide for newcomers and professionals alike.](https://github.com/huangsam/ultimate-python)
 - [Blog - Full Stack Python](https://www.fullstackpython.com/blog.html)
