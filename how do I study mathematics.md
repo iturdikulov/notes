@@ -14,14 +14,14 @@ tags:
 List of resources and tips to learn [[mathematics]]
 
 - [[papis/99798ea3067ec2618000d574b97bf955-aleksandr-emelin/notes]]
-- [[@AndreiPetrovichKiselyovAlgebraChast2006]]
+- [[papis/e614d794116031133f68747001d0e912-kiselyov-andrei-pet/notes]]
 - Discrete Mathematics for Computer Scientists [math]
 
 - [ ] [https://www.mathsisfun.com/](Math is Fun), I think it's good initial
   point
 - [ ] concrete mathematic
 - [[multiplication table]]
-- [[@AndreiPetrovichKiselyovAlgebraChast2006|Алгебра, часть 1]]
+- [[papis/e614d794116031133f68747001d0e912-kiselyov-andrei-pet/notes|Алгебра, часть 1]]
 - [[papis/99798ea3067ec2618000d574b97bf955-aleksandr-emelin/notes|Кратчайший курс школьной математики]]
 - Лекториум basic mathematic -
   <https://stepik.org/lesson/28728/step/1?unit=9786>
