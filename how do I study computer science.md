@@ -17,7 +17,7 @@ some methodical materials from teachers. I started to read after 9th grade (1
 year later) and this give me my initial knowledge about computer science, basic
 algorithms, Visual Basic and office programs. And I think here was sort
 observation of internet/web technologies. Currently, I think better to dive into
-computer science with [[@CharlesPetzoldCodeHiddenLanguage2000]] which give much
+computer science with [[papis/2f5f35f6a9f0bf0c8b514e6c119de480-petzold-charles/notes]] which give much
 more fundamental knowledge.
 
 My next book, which I found useful is "The C Programming Language"
@@ -65,7 +65,7 @@ books not directly related to computer science.
 - NOW: [[papis/55e4c3a7646b701da66038d1ed63326b-matthes-eric/notes]], really quick reading, to refresh
   knowledge, maybe I find something new.
 
-- NEXT: [[@CharlesPetzoldCodeHiddenLanguage2000]].
+- NEXT: [[papis/2f5f35f6a9f0bf0c8b514e6c119de480-petzold-charles/notes]].
 - NEXT: [[papis/bdcf7cd50c6dc8a18320d0c05b44affe-ramalho-luciano/notes]], python complete reading
 - NEXT: [[papis/2ef118ce3473c9fe93acfc371e3f736e-wengrow-jay/notes]].
 - NEXT: [[papis/aabfa212b360ace00b30ea98b5b2aba1-interviewcake/notes]], to learn algorithms and data

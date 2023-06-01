@@ -31,7 +31,7 @@ recommended.
 
 10. [[papis/2ef118ce3473c9fe93acfc371e3f736e-wengrow-jay/notes]].
 
-11. [[@CharlesPetzoldCodeHiddenLanguage2000]].
+11. [[papis/2f5f35f6a9f0bf0c8b514e6c119de480-petzold-charles/notes]].
 
 12. [[papis/882dd7e427ed785b79bc28335be19693-loomis-andrew/notes]].
 
