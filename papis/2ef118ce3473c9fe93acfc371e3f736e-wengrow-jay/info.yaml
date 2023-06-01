@@ -1,0 +1,46 @@
+abstract: If you thought that data structures and algorithms were all just theory,
+  you're missing out on what they can do for your code. Learn to use Big O Notation
+  to make your code run faster by orders of magnitude. Choose from data structures
+  such as hash tables, trees, and graphs to increase your code's efficiency exponentially.
+  With simple language and clear diagrams, this book makes this complex topic accessible,
+  no matter your background. This new edition features practice exercises in every
+  chapter, and new chapters on topics such as dynamic programming and heaps and tries.
+  Get the hands-on info you need to master data structures and algorithms for your
+  day-to-day work. Algorithms and data structures are much more than abstract concepts.
+  Mastering them enables you to write code that runs faster and more efficiently,
+  which is particularly important for today's web and mobile apps. Take a practical
+  approach to data structures and algorithms, with techniques and real-world scenarios
+  that you can use in your daily production code, with examples in JavaScript, Python,
+  and Ruby. This new and revised second edition features new chapters on recursion,
+  dynamic programming, and using Big O in your daily work. Use Big O notation to measure
+  and articulate the efficiency of your code, and modify your algorithm to make it
+  faster. Find out how your choice of arrays, linked lists, and hash tables can dramatically
+  affect the code you write. Use recursion to solve tricky problems and create algorithms
+  that run exponentially faster than the alternatives. Dig into advanced data structures
+  such as binary trees and graphs to help scale specialized applications such as social
+  networks and mapping software. You'll even encounter a single keyword that can give
+  your code a turbo boost. Practice your new skills with exercises in every chapter,
+  along with detailed solutions. Use these techniques today to make your code faster
+  and more scalable.
+author: Wengrow, Jay
+author_list:
+- family: Wengrow
+  given: Jay
+file: '@JayWengrowCommonsenseGuideData2020.md:/home/inom/Projects/main/wiki/@JayWengrowCommonsenseGuideData2020.md:text/x-markdown;Jay_Wengrow-2020-A_Common-sense_Guide_to_Data_Structures_and_Algorithms_-_Level_Up_Your_Core.epub:/home/inom/Projects/main/wiki/books/Development/Jay_Wengrow-2020-A_Common-sense_Guide_to_Data_Structures_and_Algorithms_-_Level_Up_Your_Core.epub:application/epub+zip;Jay_Wengrow-2020-A_Common-sense_Guide_to_Data_Structures_and_Algorithms_-_Level_Up_Your_Core.pdf:/home/inom/Projects/main/wiki/books/Development/Jay_Wengrow-2020-A_Common-sense_Guide_to_Data_Structures_and_Algorithms_-_Level_Up_Your_Core.pdf:application/pdf'
+files:
+- jaywengrowcommonsenseguidedata2020.md
+- jay-wengrow-2020-a-common-sense-guide-to-data-structures-and-algorithms-level-up-your-core-a.epub
+- jay-wengrow-2020-a-common-sense-guide-to-data-structures-and-algorithms-level-up-your-core-b.pdf
+isbn: 978-1-68050-722-5
+keywords: active, algorithms
+language: en
+note: 'Google-Books-ID: SKX5ygEACAAJ'
+papis_id: 6ae98031eac7030fb26c525984ff697d
+publisher: Pragmatic Bookshelf
+ref: ACommonSenseWengro2020
+shorttitle: A {Common}-sense {Guide} to {Data} {Structures} and {Algorithms}
+title: 'A Common-sense Guide to Data Structures and Algorithms: Level Up Your Core
+  Programming Skills'
+type: book
+url: https://www.google.com/books/edition/A_Common_sense_Guide_to_Data_Structures/SKX5ygEACAAJ?hl=en
+year: '2020'

@@ -1,0 +1,41 @@
+abstract: 'Portable, powerful, and a breeze to use, Python is ideal for both standalone
+  programs and scripting applications. With this hands-on book, you can master the
+  fundamentals of the core Python language quickly and efficiently, whether you''re
+  new to programming or just new to Python. Once you finish, you will know enough
+  about the language to use it in any application domain you choose.Learning Python
+  is based on material from author Mark Lutz''s popular training courses, which he''s
+  taught over the past decade. Each chapter is a self-contained lesson that helps
+  you thoroughly understand a key component of Python before you continue. Along with
+  plenty of annotated examples, illustrations, and chapter summaries, every chapter
+  also contains Brain Builder, a unique section with practical exercises and review
+  quizzes that let you practice new skills and test your understanding as you go.
+  This book covers: Types and Operations – Python''s major built-in object types in
+  depth: numbers, lists, dictionaries, and moreStatements and Syntax – the code you
+  type to create and process objects in Python, along with Python''s general syntax
+  modelFunctions – Python''s basic procedural tool for structuring and reusing codeModules
+  – packages of statements, functions, and other tools organized into larger componentsClasses
+  and OOP – Python''s optional object-oriented programming tool for structuring code
+  for customization and reuseExceptions and Tools – exception handling model and statements,
+  plus a look at development tools for writing larger programs Learning Python gives
+  you a deep and complete understanding of the language that will help you comprehend
+  any application-level examples of Python that you later encounter. If you''re ready
+  to discover what Google and YouTube see in Python, this book is the best way to
+  get started.'
+address: Beijing
+author: Lutz, Mark
+author_list:
+- family: Lutz
+  given: Mark
+edition: Fifth edition
+file: Mark_Lutz-2013-Learning_Python.epub:/home/inom/Projects/main/wiki/books/Development/Python/Mark_Lutz-2013-Learning_Python.epub:application/epub+zip;Mark_Lutz-2013-Learning_Python.pdf:/home/inom/Projects/main/wiki/books/Development/Python/Mark_Lutz-2013-Learning_Python.pdf:application/pdf
+files:
+- mark-lutz-2013-learning-python.epub
+- mark-lutz-2013-learning-python-a.pdf
+isbn: 978-1-4493-5573-9
+keywords: active, object-oriented, python
+papis_id: 3193d0f3857b43f14f7f7272de5d9c2d
+publisher: O'Reilly
+ref: LearningPythonLutz2013
+title: Learning Python
+type: book
+year: '2013'

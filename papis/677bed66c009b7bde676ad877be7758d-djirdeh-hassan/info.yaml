@@ -1,0 +1,26 @@
+abstract: Front-end web development has become astoundingly complex. If you’ve never
+  used a modern JavaScript framework, building your first app that just displays “Hello”
+  can take a whole week! That might sound ridiculous, but most frameworks assume knowledge
+  of the terminal, advanced JavaScript, and tools such as the Node Package Manager
+  (NPM), Babel, Webpack, and sometimes more. Vue, refreshingly, doesn’t assume. We
+  call it the “progressive” JavaScript framework because it scales down as well as
+  it scales up. If your app is simple, you can use Vue just like jQuery - by dropping
+  in a tag. But as your skills and needs grow more advanced, Vue grows with you to
+  make you more powerful and productive.
+author: Djirdeh, Hassan
+author_list:
+- family: Djirdeh
+  given: Hassan
+file: Hassan_Djirdeh-2021-Fullstack_Vue.Js.epub:/home/inom/Projects/main/wiki/books/Frontend/Hassan_Djirdeh-2021-Fullstack_Vue.Js.epub:application/epub+zip;Hassan_Djirdeh-2021-Fullstack_Vue.Js.pdf:/home/inom/Projects/main/wiki/books/Frontend/Hassan_Djirdeh-2021-Fullstack_Vue.Js.pdf:application/pdf;Hassan_Djirdeh-2021-Fullstack_Vue.Js.zip:/home/inom/Projects/main/wiki/books/Frontend/Hassan_Djirdeh-2021-Fullstack_Vue.Js.zip:application/zip
+files:
+- hassan-djirdeh-2021-fullstack-vue.js.epub
+- hassan-djirdeh-2021-fullstack-vue.js-a.pdf
+- hassan-djirdeh-2021-fullstack-vue.js-b.zip
+keywords: active, javascript
+papis_id: 314f1c1b17fe6a6f53db5471974d584c
+publisher: leanpub.com
+ref: FullstackVueJDjirde2021
+title: Fullstack Vue.Js
+type: book
+volume: '1'
+year: '2021'

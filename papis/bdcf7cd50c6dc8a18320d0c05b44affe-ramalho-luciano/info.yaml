@@ -1,0 +1,36 @@
+abstract: 'Python’s simplicity lets you become productive quickly, but this often
+  means you aren’t using everything it has to offer. With this hands-on guide, you’ll
+  learn how to write effective, idiomatic Python code by leveraging its best—and possibly
+  most neglected—features. Author Luciano Ramalho takes you through Python’s core
+  language features and libraries, and shows you how to make your code shorter, faster,
+  and more readable at the same time. Many experienced programmers try to bend Python
+  to fit patterns they learned from other languages, and never discover Python features
+  outside of their experience. With this book, those Python programmers will thoroughly
+  learn how to become proficient in Python 3. This book covers: * **Python data model:**
+  understand how special methods are the key to the consistent behavior of objects
+  * **Data structures:** take full advantage of built-in types, and understand the
+  text vs bytes duality in the Unicode age * **Functions as objects:** view Python
+  functions as first-class objects, and understand how this affects popular design
+  patterns * **Object-oriented idioms:** build classes by learning about references,
+  mutability, interfaces, operator overloading, and multiple inheritance * **Control
+  flow:** leverage context managers, generators, coroutines, and concurrency with
+  the concurrent.futures and asyncio packages * **Metaprogramming:** understand how
+  properties, attribute descriptors, class decorators, and metaclasses work.'
+address: Sebastopol, CA
+author: Ramalho, Luciano
+author_list:
+- family: Ramalho
+  given: Luciano
+edition: Second edition
+file: '@LucianoRamalhoFluentPython2021.md:/home/inom/Projects/main/wiki/content/@LucianoRamalhoFluentPython2021.md:text/markdown;Luciano_Ramalho-2021-Fluent_Python.epub:/home/inom/Projects/main/wiki/books/Development/Python/Luciano_Ramalho-2021-Fluent_Python.epub:application/epub+zip;Luciano_Ramalho-2021-Fluent_Python.pdf:/home/inom/Projects/main/wiki/books/Development/Python/Luciano_Ramalho-2021-Fluent_Python.pdf:application/pdf'
+files:
+- luciano-ramalho-2021-fluent-python.epub.zip
+- luciano-ramalho-2021-fluent-python-a.pdf
+isbn: 978-1-4920-5628-7
+keywords: active, object-oriented, python
+papis_id: 853230b9445655572cdb9038ad234b2c
+publisher: O'Reilly
+ref: FluentPythonRamalh2021
+title: Fluent Python
+type: book
+year: '2021'

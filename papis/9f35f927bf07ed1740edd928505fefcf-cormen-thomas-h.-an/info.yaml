@@ -1,0 +1,29 @@
+abstract: '"The leading introductory textbook and reference on algorithms"--'
+address: Cambridge, Massachusett
+author: Cormen, Thomas H. and Leiserson, Charles Eric and Rivest, Ronald L. and Stein,
+  Clifford
+author_list:
+- family: Cormen
+  given: Thomas H.
+- family: Leiserson
+  given: Charles Eric
+- family: Rivest
+  given: Ronald L.
+- family: Stein
+  given: Clifford
+edition: Fourth edition
+file: '@ThomasHCormenIntroductionAlgorithms2022.md:/home/inom/Projects/main/wiki/@ThomasHCormenIntroductionAlgorithms2022.md:text/markdown;Thomas_H._Cormen_et_al-2022-Introduction_to_algorithms.7z:/home/inom/Projects/main/wiki/books/Computer
+  Science/Thomas_H._Cormen_et_al-2022-Introduction_to_algorithms.7z:application/x-7z-compressed;Thomas_H._Cormen_et_al-2022-Introduction_to_algorithms.pdf:/home/inom/Projects/main/wiki/books/Computer
+  Science/Thomas_H._Cormen_et_al-2022-Introduction_to_algorithms.pdf:application/pdf'
+files:
+- thomashcormenintroductionalgorithms2022.md
+- thomas-h.-cormen-et-al-2022-introduction-to-algorithms-a.7z
+- thomas-h.-cormen-et-al-2022-introduction-to-algorithms-b.pdf
+isbn: 978-0-262-04630-5
+keywords: active, algorithms, L2, math
+papis_id: 02494e6e682485d365dfb0b51416eb8f
+publisher: The MIT Press
+ref: IntroductionToCormen2022
+title: Introduction to algorithms
+type: book
+year: '2022'

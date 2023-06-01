@@ -1,0 +1,38 @@
+abstract: 'Programmers who endure and succeed amidst swirling uncertainty and nonstop
+  pressure share a common attribute: They care deeply about the practice of creating
+  software. They treat it as a craft. They are professionals. In The Clean Coder:
+  A Code of Conduct for Professional Programmers, legendary software expert Robert
+  C. Martin introduces the disciplines, techniques, tools, and practices of true software
+  craftsmanship. This book is packed with practical advice–about everything from estimating
+  and coding to refactoring and testing. It covers much more than technique: It is
+  about attitude. Martin shows how to approach software development with honor, self-respect,
+  and pride; work well and work clean; communicate and estimate faithfully; face difficult
+  decisions with clarity and honesty; and understand that deep knowledge comes with
+  a responsibility to act. Readers will learn What it means to behave as a true software
+  craftsman How to deal with conflict, tight schedules, and unreasonable managers
+  How to get into the flow of coding, and get past writer’s block How to handle unrelenting
+  pressure and avoid burnout How to combine enduring attitudes with new development
+  paradigms How to manage your time, and avoid blind alleys, marshes, bogs, and swamps
+  How to foster environments where programmers and teams can thrive When to say “No”–and
+  how to say it When to say “Yes”–and what yes really means Great software is something
+  to marvel at: powerful, elegant, functional, a pleasure to work with as both a developer
+  and as a user. Great software isn’t written by machines. It is written by professionals
+  with an unshakable commitment to craftsmanship. The Clean Coder will help you become
+  one of them–and earn the pride and fulfillment that they alone possess.'
+address: Upper Saddle River, NJ
+author: Martin, Robert C.
+author_list:
+- family: Martin
+  given: Robert C.
+file: Robert_C._Martin-2011-The_clean_coder_-_A_code_of_conduct_for_professional_programmers.pdf:/home/inom/Projects/main/wiki/books/Development/Workflow/Robert_C._Martin-2011-The_clean_coder_-_A_code_of_conduct_for_professional_programmers.pdf:application/pdf
+files:
+- robert-c.-martin-2011-the-clean-coder-a-code-of-conduct-for-professional-programmers.pdf
+isbn: 978-0-13-708107-3
+keywords: active, skills
+papis_id: 56abcbe9838b7a0ae81119a673c710cc
+publisher: Prentice Hall
+ref: TheCleanCoderMartin2011
+shorttitle: The clean coder
+title: 'The clean coder: A code of conduct for professional programmers'
+type: book
+year: '2011'

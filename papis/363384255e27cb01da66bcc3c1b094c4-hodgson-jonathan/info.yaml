@@ -1,0 +1,18 @@
+abstract: I describe my email setup. It mainly consists of Mutt and Vim although there
+  are various supporting tools as well
+author: Hodgson, Jonathan
+author_list:
+- family: Hodgson
+  given: Jonathan
+file: Hodgson-2020-My_Email_Setup_using_Mutt_and_Vim.html:/home/inom/Projects/main/wiki/books/Development/Workflow/Guides/Hodgson-2020-My_Email_Setup_using_Mutt_and_Vim.html:text/html
+files:
+- hodgson-2020-my-email-setup-using-mutt-and-vim.html
+keywords: \#nosource, active
+month: May
+papis_id: 0db94c2af111d2b12e9f8fae9bf3a6ca
+ref: MyEmailSetupHodgso2020
+title: My Email Setup using Mutt and Vim
+type: misc
+url: https://jonathanh.co.uk/blog/mutt-setup/
+urldate: '2023-02-22'
+year: '2020'

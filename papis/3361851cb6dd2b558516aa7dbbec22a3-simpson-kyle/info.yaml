@@ -1,0 +1,28 @@
+abstract: 'The worldwide best selling You Don''t Know JS book series is back for a
+  2nd edition: You Don''t Know JS Yet. All 6 books are brand new, rewritten to cover
+  all sides of JS for 2020 and beyond. You''ll still get in-depth coverage of the
+  core language, applied in useful code organization patterns for your programs. And
+  of course, through Kyle''s unique perspective and conversational tone, explore passionate,
+  reasoned debate of the most common questions developers face. Get Started, the first
+  book in the new edition series, is where to start your journey of knowing JS more
+  deeply. This book surveys the language in multiple layers of detail, laying out
+  a roadmap with the other books as guides for your learning and growth. For any developer
+  hoping to move from early JS experience to a deeper level, here is your first step
+  to get started.'
+author: Simpson, Kyle
+author_list:
+- family: Simpson
+  given: Kyle
+file: Kyle_Simpson-2020-You_don't_know_JS_yet_-_Get_started.pdf:/home/inom/Projects/main/wiki/books/Frontend/Kyle_Simpson-2020-You_don't_know_JS_yet_-_Get_started.pdf:application/pdf
+files:
+- kyle-simpson-2020-you-don-t-know-js-yet-get-started.pdf
+isbn: 978-1-64786-220-6
+keywords: active, javascript
+papis_id: bc533f95440ecc514636e570f4824591
+publisher: GetiPub \& Leanpub
+ref: YouDonTKnowSimpso2020
+series: You don't know {JS} yet
+title: 'You don''t know JS yet: Get started'
+type: book
+volume: '1'
+year: '2020'

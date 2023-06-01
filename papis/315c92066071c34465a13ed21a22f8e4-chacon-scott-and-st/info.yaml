@@ -1,0 +1,31 @@
+abstract: 'The entire Pro Git book, written by Scott Chacon and Ben Straub and published
+  by Apress, is available here. All content is licensed under the Creative Commons
+  Attribution Non Commercial Share Alike 3.0 license. Print versions of the book are
+  available on Amazon.com.
+
+
+  The version found here has been updated with corrections and additions from hundreds
+  of contributors. If you see an error or have a suggestion, patches and issues are
+  welcome in its GitHub repository.'
+address: New York, NY
+author: Chacon, Scott and Straub, Ben
+author_list:
+- family: Chacon
+  given: Scott
+- family: Straub
+  given: Ben
+edition: Second edition
+file: '@ScottChaconProGit2022.md:/home/inom/Projects/main/wiki/content/@ScottChaconProGit2022.md:text/markdown;Scott_Chacon_Ben_Straub-2022-Pro_Git.pdf:/home/inom/Projects/main/wiki/books/Development/OS
+  and UNIX and DB/Scott_Chacon_Ben_Straub-2022-Pro_Git.pdf:application/pdf'
+files:
+- scott-chacon-ben-straub-2022-pro-git.pdf
+isbn: 978-1-4842-0077-3
+keywords: active, git
+papis_id: d3839a2c03f54ab3833818c4186a2d76
+publisher: Apress
+ref: ProGitChacon2022
+series: The expert's voice in software development
+title: Pro Git
+type: book
+url: https://git-scm.com/book/en/v2
+year: '2022'

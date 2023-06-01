@@ -1,0 +1,21 @@
+abstract: Learn how to build production-ready websites with Python \& Django. This
+  book covers in-depth how professional Django programmers do their job and build
+  real-world web applications. Topics covered include Docker, environment variables,
+  payments, search, permissions, file/image uploads, testing, security, performance,
+  and deployment.
+author: Vincent, William S
+author_list:
+- family: Vincent
+  given: William S
+file: William_S_Vincent-2020-Django_for_professionals_-_Production_websites_with_Python_&_Django.pdf:/home/inom/Projects/main/wiki/books/Development/Python/William_S_Vincent-2020-Django_for_professionals_-_Production_websites_with_Python_&_Django.pdf:application/pdf
+files:
+- william-s-vincent-2020-django-for-professionals-production-websites-with-python-django.pdf
+isbn: 978-1-08-158216-6
+keywords: active, python
+language: english
+papis_id: 3d3862afa292bfd44f69c3045ec65639
+ref: DjangoForProfVincen2020
+shorttitle: Django for professionals
+title: 'Django for professionals: Production websites with Python & Django'
+type: book
+year: '2020'

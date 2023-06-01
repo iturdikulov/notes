@@ -1,0 +1,44 @@
+abstract: Updated and Expanded for Python 3 It’s easy to start developing programs
+  with Python, which is why the language is so popular. However, Python’s unique strengths,
+  charms, and expressiveness can be hard to grasp, and there are hidden pitfalls that
+  can easily trip you up. This second edition of Effective Python will help you master
+  a truly “Pythonic” approach to programming, harnessing Python’s full power to write
+  exceptionally robust and well-performing code. Using the concise, scenario-driven
+  style pioneered in Scott Meyers’ best-selling Effective C++ , Brett Slatkin brings
+  together 90 Python best practices, tips, and shortcuts, and explains them with realistic
+  code examples so that you can embrace Python with confidence. Drawing on years of
+  experience building Python infrastructure at Google, Slatkin uncovers little-known
+  quirks and idioms that powerfully impact code behavior and performance. You’ll understand
+  the best way to accomplish key tasks so you can write code that’s easier to understand,
+  maintain, and improve. In addition to even more advice, this new edition substantially
+  revises all items from the first edition to reflect how best practices have evolved.
+  Key features include 30 new actionable guidelines for all major areas of Python
+  Detailed explanations and examples of statements, expressions, and built-in types
+  Best practices for writing functions that clarify intention, promote reuse, and
+  avoid bugs Better techniques and idioms for using comprehensions and generator functions
+  Coverage of how to accurately express behaviors with classes and interfaces Guidance
+  on how to avoid pitfalls with metaclasses and dynamic attributes More efficient
+  and clear approaches to concurrency and parallelism Solutions for optimizing and
+  hardening to maximize performance and quality Techniques and built-in modules that
+  aid in debugging and testing Tools and best practices for collaborative development
+  Effective Python will prepare growing programmers to make a big impact using Python
+address: Erscheinungsort nicht ermittelbar
+author: Slatkin, Brett
+author_list:
+- family: Slatkin
+  given: Brett
+edition: Second edition
+file: '@BrettSlatkinEffectivePython902020.md:/home/inom/Projects/main/wiki/content/@BrettSlatkinEffectivePython902020.md:text/markdown;Brett_Slatkin-2020-Effective_Python_-_90_specific_ways_to_write_better_python.pdf:/home/inom/Projects/main/wiki/books/Development/Python/Brett_Slatkin-2020-Effective_Python_-_90_specific_ways_to_write_better_python.pdf:application/pdf'
+files:
+- brett-slatkin-2020-effective-python-90-specific-ways-to-write-better-python.pdf
+isbn: 978-0-13-485398-7
+keywords: active, python
+language: english
+papis_id: d8b8c7691622ac6569f987a298317fe1
+publisher: Addison-Wesley
+ref: EffectivePythoSlatki2020
+series: Effective software development series
+shorttitle: Effective {Python}
+title: 'Effective Python: 90 specific ways to write better python'
+type: book
+year: '2020'

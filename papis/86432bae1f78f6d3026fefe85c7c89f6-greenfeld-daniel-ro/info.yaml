@@ -1,0 +1,27 @@
+abstract: 'Two Scoops of Django: Best Practices For Django 1.8 is full of more material
+  that will help you with your Django projects. We''ll introduce you to various tips,
+  tricks, patterns, code snippets, and techniques that we''ve picked up over the years.
+  We have put thousands of hours into the third edition of the book, writing and revising
+  its material to include significant improvements and new material based on feedback
+  from previous editions.'
+address: Corona, CA
+author: Greenfeld, Daniel Roy and Greenfeld, Audrey Roy
+author_list:
+- family: Greenfeld
+  given: Daniel Roy
+- family: Greenfeld
+  given: Audrey Roy
+edition: 3. ed
+file: Daniel_Roy_Greenfeld_Audrey_Roy_Greenfeld-2015-Two_scoops_of_Django_-_Best_practices_for_Django_1.8.pdf:/home/inom/Projects/main/wiki/books/Development/Python/Daniel_Roy_Greenfeld_Audrey_Roy_Greenfeld-2015-Two_scoops_of_Django_-_Best_practices_for_Django_1.8.pdf:application/pdf
+files:
+- daniel-roy-greenfeld-audrey-roy-greenfeld-2015-two-scoops-of-django-best-practices-for-django-1.8.pdf
+isbn: 978-0-9814673-4-4
+keywords: active, python
+language: english
+papis_id: b5b8682f540f44c3210e9c7889302b8d
+publisher: Two Scoops Press
+ref: TwoScoopsOfDGreenf2015
+shorttitle: Two scoops of {Django}
+title: 'Two scoops of Django: Best practices for Django 1.8'
+type: book
+year: '2015'

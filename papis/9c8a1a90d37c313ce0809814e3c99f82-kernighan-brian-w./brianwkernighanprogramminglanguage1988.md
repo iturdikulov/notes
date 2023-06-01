@@ -5,9 +5,9 @@ tags:
   - "research"
 ---
 
-The authors of this book [@TheCProgrammiKernig1988] present the
+The authors of this book [@BrianWKernighanProgrammingLanguage1988] present the
 complete guide to ANSI standard C language programming. Written by the
-developers of C, this new version helps readers keep up with the finalized ANSI
+developers of C, this new version helps ****readers keep up with the finalized ANSI
 standard for C while showing how to take advantage of C's rich set of operators,
 economy of expression, improved control flow, and data structures.
 

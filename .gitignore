@@ -15,4 +15,10 @@ tmp/
 books/
 books_tablet/
 prv_*
-papis
+papis/**/*.pdf
+papis/**/*.epub
+papis/**/*.mp3
+papis/**/*.mp4
+papis/**/*.m4b
+papis/**/*.djvu
+papis/**/*.m4a

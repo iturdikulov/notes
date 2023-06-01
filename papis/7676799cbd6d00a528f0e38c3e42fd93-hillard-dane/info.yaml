@@ -1,0 +1,21 @@
+abstract: In this tutorial, you'll learn how to take your testing to the next level
+  with pytest. You'll cover intermediate and advanced pytest features such as fixtures,
+  marks, parameters, and plugins. With pytest, you can make your test suites fast,
+  effective, and less painful to maintain.
+author: Hillard, Dane
+author_list:
+- family: Hillard
+  given: Dane
+file: '@DaneHillardEffectivePythonTesting.md:/home/inom/Projects/main/wiki/@DaneHillardEffectivePythonTesting.md:text/x-markdown;Dane_Hillard-Effective_Python_Testing_With_Pytest.html:/home/inom/Projects/main/wiki/books/Development/Python/Dane_Hillard-Effective_Python_Testing_With_Pytest.html:text/html'
+files:
+- danehillardeffectivepythontesting.md
+- dane-hillard-effective-python-testing-with-pytest-a.html
+keywords: active
+language: en
+note: 'titleTranslation:'
+papis_id: 5fd85e1477bddaa6e7b1fe4beb6fe339
+ref: EffectivePythoHillar
+title: Effective Python Testing With Pytest
+type: misc
+url: https://realpython.com/pytest-python-testing/
+urldate: '2023-04-29'

@@ -1,0 +1,21 @@
+abstract: В наше время книги А.П.Киселёва стали библиографической редкостью и неизвестны
+  молодым учителям. А между тем дальнейшее совершенствование преподавания математики
+  невозможно без личного знакомства каждого учителя с учебниками, некогда считавшимися
+  эталонными. Именно по этой причине и предпринимается переиздание "Алгебры" А.П.
+  Киселёва. Рекомендовано Научно-методическим советом по математике Министерства образования
+  и науки Российской Федерации в качестве учебного пособия для общеобразовательных
+  школ и лицеев.
+author: Kiselyov, Andrei Petrovich
+author_list:
+- family: Kiselyov
+  given: Andrei Petrovich
+file: Andrei_Petrovich_Kiselyov-2005-Алгебра,_часть_2.pdf:/home/inom/Projects/main/wiki/books/Math/Andrei_Petrovich_Kiselyov-2005-Алгебра,_часть_2.pdf:application/pdf
+files:
+- andrei-petrovich-kiselyov-2005-algebra-chast-2.pdf
+isbn: 5-9221-0533-7
+keywords: active, math
+papis_id: 5a148133dd083b85c42f33d0683c1434
+ref: AlgebraChastKisely2005
+title: Алгебра, часть 2
+type: book
+year: '2005'

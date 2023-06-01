@@ -1,0 +1,32 @@
+abstract: 'Programming Legend Charles Petzold unlocks the secrets of the extraordinary
+  and prescient 1936 paper by Alan M. Turing** Mathematician Alan Turing invented
+  an imaginary computer known as the Turing Machine; in an age before computers, he
+  explored the concept of what it meant to be *computable* , creating the field of
+  computability theory in the process, a foundation of present-day computer programming.
+  The book expands Turing’s original 36-page paper with additional background chapters
+  and extensive annotations; the author elaborates on and clarifies many of Turing’s
+  statements, making the original difficult-to-read document accessible to present
+  day programmers, computer science majors, math geeks, and others. Interwoven into
+  the narrative are the highlights of Turing’s own life: his years at Cambridge and
+  Princeton, his secret work in cryptanalysis during World War II, his involvement
+  in seminal computer projects, his speculations about artificial intelligence, his
+  arrest and prosecution for the crime of "gross indecency," and his early death by
+  apparent suicide at the age of 41.'
+address: Indianapolis, IN
+author: Petzold, Charles
+author_list:
+- family: Petzold
+  given: Charles
+file: Charles_Petzold-2008-The_annotated_Turing_-_A_guided_tour_through_Alan_Turing's_historic_paper_on.pdf:/home/inom/Projects/main/wiki/books/Development/Charles_Petzold-2008-The_annotated_Turing_-_A_guided_tour_through_Alan_Turing's_historic_paper_on.pdf:application/pdf
+files:
+- charles-petzold-2008-the-annotated-turing-a-guided-tour-through-alan-turing-s-historic-paper-on.pdf
+isbn: 978-0-470-22905-7
+keywords: active
+papis_id: 256087c1ef797d277ea40789ea723a47
+publisher: Wiley Pub
+ref: TheAnnotatedTPetzol2008
+shorttitle: The annotated {Turing}
+title: 'The annotated Turing: A guided tour through Alan Turing''s historic paper
+  on computability and the Turing machine'
+type: book
+year: '2008'

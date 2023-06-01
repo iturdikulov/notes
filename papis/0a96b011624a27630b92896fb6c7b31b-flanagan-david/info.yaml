@@ -1,0 +1,35 @@
+abstract: 'JavaScript is the programming language of the web and is used by more software
+  developers today than any other programming language. For nearly 25 years this best
+  seller has been the go-to guide for JavaScript programmers. The seventh edition
+  is fully updated to cover the 2020 version of JavaScript, and new chapters cover
+  classes, modules, iterators, generators, Promises, async/await, and metaprogramming.
+  You''ll find illuminating and engaging example code throughout. This book is for
+  programmers who want to learn JavaScript and for web developers who want to take
+  their understanding and mastery to the next level. It begins by explaining the JavaScript
+  language itself, in detail, from the bottom up. It then builds on that foundation
+  to cover the web platform and Node.js. Topics include: Types, values, variables,
+  expressions, operators, statements, objects, and arrays Functions, classes, modules,
+  iterators, generators, Promises, and async/await JavaScript''s standard library:
+  data structures, regular expressions, JSON, i18n, et cetera The web platform: documents,
+  components, graphics, networking, storage, and threads Node.js: buffers, files,
+  streams, threads, child processes, web clients, and web servers Tools and language
+  extensions that professional JavaScript developers rely on.'
+address: Beijing [China] ; Sebastopol, CA
+author: Flanagan, David
+author_list:
+- family: Flanagan
+  given: David
+edition: Seventh edition
+file: '@DavidFlanaganJavaScriptDefinitiveGuide2020.md:/home/inom/Projects/main/wiki/content/@DavidFlanaganJavaScriptDefinitiveGuide2020.md:text/markdown;David_Flanagan-2020-JavaScript_-_The_definitive_guide_-_Master_the_world''s_most-used_programming.pdf:/home/inom/Projects/main/wiki/books/Frontend/David_Flanagan-2020-JavaScript_-_The_definitive_guide_-_Master_the_world''s_most-used_programming.pdf:application/pdf'
+files:
+- david-flanagan-2020-javascript-the-definitive-guide-master-the-world-s-most-used-programming.pdf
+isbn: 978-1-4919-5202-3
+keywords: active, javascript, object-oriented
+papis_id: 09f6d457808a7dce186aa322707a5d13
+publisher: O'Reilly Media, Inc
+ref: JavascriptTheFlanag2020
+shorttitle: '{JavaScript}'
+title: 'JavaScript: The definitive guide: Master the world''s most-used programming
+  language'
+type: book
+year: '2020'

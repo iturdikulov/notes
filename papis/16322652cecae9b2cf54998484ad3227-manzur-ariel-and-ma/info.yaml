@@ -1,0 +1,28 @@
+author: Manzur, Ariel and Marques, George
+author_list:
+- family: Manzur
+  given: Ariel
+- family: Marques
+  given: George
+edition: 1st edition
+file: '@ArielManzurGodotEngineGame2018.md:/home/inom/Projects/main/wiki/@ArielManzurGodotEngineGame2018.md:text/x-markdown;Ariel_Manzur_George_Marques-2018-Godot_Engine_Game_Development_in_24_Hours.epub:/home/inom/Projects/main/wiki/books/Development/GameDev
+  & VFX/Ariel_Manzur_George_Marques-2018-Godot_Engine_Game_Development_in_24_Hours.epub:application/epub+zip;Ariel_Manzur_George_Marques-2018-Godot_Engine_Game_Development_in_24_Hours.pdf:/home/inom/Projects/main/wiki/books/Development/GameDev
+  & VFX/Ariel_Manzur_George_Marques-2018-Godot_Engine_Game_Development_in_24_Hours.pdf:application/pdf'
+files:
+- arielmanzurgodotenginegame2018.md
+- ariel-manzur-george-marques-2018-godot-engine-game-development-in-24-hours-a.epub
+- ariel-manzur-george-marques-2018-godot-engine-game-development-in-24-hours-b.pdf
+keywords: active
+language: english
+month: March
+note: 'Assets: https://github.com/vnen/Godot-24-Hours
+
+  titleTranslation:'
+papis_id: 6572a05122062dee831f68ed26784aad
+publisher: Sams Publishing
+ref: GodotEngineGaManzur2018
+shorttitle: Godot {Engine} {Game} {Development} in 24 {Hours}, {Sams} {Teach} {Yourself}
+title: Godot Engine Game Development in 24 Hours
+type: book
+url: https://www.informit.com/store/godot-engine-game-development-in-24-hours-sams-teach-9780134835099
+year: '2018'
