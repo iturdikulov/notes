@@ -112,7 +112,7 @@ Publication Year   Author                                  Title
 
 - TODO: [Introduction to Computer Science and Programming](https://ocw.mit.edu/courses/6-00-introduction-to-computer-science-and-programming-fall-2008/)
 - TODO: [[papis/0a96b011624a27630b92896fb6c7b31b-flanagan-david/notes|JavaScript: The Definitive Guide]]
-- TODO: [[@SteveMcConnellCodeComplete2004|Code Complete]]
+- TODO: [[papis/5936b08f8c4d30c8b99e13f43ebb60a8-mcconnell-steve/notes|Code Complete]]
 - TODO: [[papis/d6ecfc65bb43da6336f0d6593071cbd8-hunt-andrew-and-tho/notes|The Pragmatic Programmer: From Journeyman to Master]]
 - TODO: [[@IgorIriantoLearnVim2021|Learn Vim. The Smart Way.]]
 - TODO: [[papis/1ae149d1c843b867b0b254a20df34b4f-neil-drew/notes]]

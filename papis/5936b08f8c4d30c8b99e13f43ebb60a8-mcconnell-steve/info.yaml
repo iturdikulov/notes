@@ -26,6 +26,7 @@ files:
 - steve-mcconnell-2004-code-complete-b.pdf
 isbn: 978-0-7356-1967-8
 keywords: active
+notes: notes.md
 papis_id: 8fefe1884943ba7d3b175fea6a89ec6b
 publisher: Microsoft Press
 ref: CodeCompleteMcconn2004
