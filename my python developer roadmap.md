@@ -16,7 +16,7 @@ sr-ease: 210
 
 ## Learning
 
-- [[@PythonTutorial2023|Python Tutorial]]
+- [[papis/14f60db29650af4d6edb2aef6d5539da/notes|Python Tutorial]]
 - [Python Developer’s Guide](https://devguide.python.org/)
 - [[@PythonStandardLibrary2023|Python Standard Library]]
 - [[@PythonProgrammingFAQ2023]]

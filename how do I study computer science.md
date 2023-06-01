@@ -59,7 +59,7 @@ books not directly related to computer science.
 - NOW: [[papis/9c8a1a90d37c313ce0809814e3c99f82-kernighan-brian-w./notes]] basic reading
 - NOW: [[papis/9c8a1a90d37c313ce0809814e3c99f82-kernighan-brian-w./notes]] exercises, but I do it rarely
   right now, to save time for other things.
-- NOW: [[@PythonTutorial2023]], to refresh knowledge
+- NOW: [[papis/14f60db29650af4d6edb2aef6d5539da/notes]], to refresh knowledge
 - NOW: [[comprehensive python cheatsheet]], I'm writing flashcards from it, I
   think it's will be very useful to know syntax/core libraries.
 - NOW: [[papis/55e4c3a7646b701da66038d1ed63326b-matthes-eric/notes]], really quick reading, to refresh
