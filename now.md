@@ -33,6 +33,6 @@ recommended.
 
 11. [[@CharlesPetzoldCodeHiddenLanguage2000]].
 
-12. [[@AndrewLoomisFunPencilHow2013]].
+12. [[papis/882dd7e427ed785b79bc28335be19693-loomis-andrew/notes]].
 
 13. [[@KilpatrickDavidSvetOsveshchenie1988]].
