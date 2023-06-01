@@ -115,7 +115,7 @@ Publication Year   Author                                  Title
 - TODO: [[@SteveMcConnellCodeComplete2004|Code Complete]]
 - TODO: [[papis/d6ecfc65bb43da6336f0d6593071cbd8-hunt-andrew-and-tho/notes|The Pragmatic Programmer: From Journeyman to Master]]
 - TODO: [[@IgorIriantoLearnVim2021|Learn Vim. The Smart Way.]]
-- TODO: [[@DrewNeilPracticalVimEdit2015]]
+- TODO: [[papis/1ae149d1c843b867b0b254a20df34b4f-neil-drew/notes]]
 
 - TODO: [RUST half-hour](https://fasterthanli.me/articles/a-half-hour-to-learn-rust)
 - TODO: [Vulkan Tutorial](https://vulkan-tutorial.com/)

@@ -9,6 +9,7 @@ files:
 - drew-neil-2015-practical-vim-edit-text-at-the-speed-of-thought.pdf
 isbn: 978-1-68050-127-8
 keywords: active, neovim
+notes: notes.md
 papis_id: fbbb285dcb6f0423e0a0718507250c38
 publisher: The Pragmatic Bookshelf
 ref: PracticalVimNeil2015

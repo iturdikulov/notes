@@ -55,7 +55,7 @@ Instead, touch and edit the file, you can just use
 <kbd>:</kbd> for entering a command. Type <kbd>tab</kbd> to complete a command. Type <kbd>ctrl</kbd>+<kbd>d</kbd> to see a list of possible commands. Type <kbd>ctrl</kbd>+<kbd>f</kbd> to list previous commands.
 
 ## Resources
-- [[@DrewNeilPracticalVimEdit2015|Practical Vim: Edit text at the speed of thought]]
+- [[papis/1ae149d1c843b867b0b254a20df34b4f-neil-drew/notes|Practical Vim: Edit text at the speed of thought]]
 - [[papis/82951c75090ce154272484448309812b-neil-drew/notes|Modern Vim: Craft your development environment with Vim 8 and Neovim]]
 - [Interactive Vim tutorial](http://www.openvim.com/)
 - [Vim Tips Wiki | Fandom](https://vim.fandom.com/wiki/Vim_Tips_Wiki)
@@ -568,7 +568,7 @@ Paste image and link::`<leader>zi`
 
 # Resources
 
-- [[@DrewNeilPracticalVimEdit2015]]
+- [[papis/1ae149d1c843b867b0b254a20df34b4f-neil-drew/notes]]
 - [[papis/82951c75090ce154272484448309812b-neil-drew/notes]]
 
 
@@ -1717,7 +1717,7 @@ Current mail goal: [[my editing workflow]]
 `shc` - insert bash code block
 
 ## Resources
-- [[@DrewNeilPracticalVimEdit2015|Practical Vim: Edit text at the speed of thought]]
+- [[papis/1ae149d1c843b867b0b254a20df34b4f-neil-drew/notes|Practical Vim: Edit text at the speed of thought]]
 - [[papis/82951c75090ce154272484448309812b-neil-drew/notes|Modern Vim: Craft your development environment with Vim 8 and Neovim]]
 - [Interactive Vim tutorial](http://www.openvim.com/)
 - [Vim Tips Wiki | Fandom](https://vim.fandom.com/wiki/Vim_Tips_Wiki)
@@ -2348,7 +2348,7 @@ Paste image and link::<kbd><leader>zi</kbd>
 
 # Resources
 
-- [[@DrewNeilPracticalVimEdit2015]]
+- [[papis/1ae149d1c843b867b0b254a20df34b4f-neil-drew/notes]]
 - [[papis/82951c75090ce154272484448309812b-neil-drew/notes]]
 
 
