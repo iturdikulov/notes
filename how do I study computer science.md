@@ -77,8 +77,6 @@ books not directly related to computer science.
 - TODO: [[python|python]]
 - TODO: [[papis/9f35f927bf07ed1740edd928505fefcf-cormen-thomas-h.-an/notes|Introduction to Algorithms]]
 - TODO: [[papis/8e080a939e8f3929a129f88699ab6646-sedgewick-robert-an/notes]]
-- TODO: [[@RobertSedgewickAlgorithms2014b]]
-- TODO: [[]]
 - TODO: [[papis/5a531e96f3b3b978f489ce0cf6e84b26-cormen-thomas-h./notes]]
 - TODO: [[papis/1ac2e1a756753ace397543a1a7dc255f/notes]]
 
