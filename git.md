@@ -29,7 +29,7 @@ collaborate.
 In [[git tips]] I store various flashcards, how to use git (sort of
 cheatcheet).
 
-Additional details can be found in [[@ScottChaconProGit2022]] book. You can also
+Additional details can be found in [[papis/315c92066071c34465a13ed21a22f8e4-chacon-scott-and-st/notes]] book. You can also
 use built-in help: `man git`, `git help` or `git [command] –help`.
 
 ## Additional Resources
@@ -41,7 +41,7 @@ TODO: check this resources
 - Remove file from git history (extra tool):
   <https://stackoverflow.com/questions/43762338/how-to-remove-file-from-git-history>
   `git filter-repo --invert-paths --path <path to the file or directory>`
-- [[@ScottChaconProGit2022|Pro Git]]
+- [[papis/315c92066071c34465a13ed21a22f8e4-chacon-scott-and-st/notes|Pro Git]]
 - [[diff]]
 - [Git - gittutorial Documentation](https://git-scm.com/docs/gittutorial)
 - [The ULTIMATE Git workflow using Neovim's Fugitive, Telescope & Git-Signs!](https://www.youtube.com/watch?v=IyBAuDPzdFY)

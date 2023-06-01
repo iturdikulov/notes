@@ -122,7 +122,7 @@ Publication Year   Author                                  Title
 - TODO: [[git tips]]
 - TODO: [[neovim (text editor)]]
 
-- TODO: [[@ScottChaconProGit2022|Pro Git]]
+- TODO: [[papis/315c92066071c34465a13ed21a22f8e4-chacon-scott-and-st/notes|Pro Git]]
 - TODO: [Алгоритмы и структуры данных в ядре Linux, Chromium и не только / Хабр](https://habr.com/ru/company/wunderfund/blog/277143/)
 - TODO: [Project Euler](https://projecteuler.net/), [solutions](https://www.nayuki.io/page/project-euler-solutions)
 - TODO: [Interactive, and test-driven coding challenges](https://github.com/donnemartin/interactive-coding-challenges), focused on algorithms and data structures.

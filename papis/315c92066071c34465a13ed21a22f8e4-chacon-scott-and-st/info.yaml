@@ -21,6 +21,7 @@ files:
 - scott-chacon-ben-straub-2022-pro-git.pdf
 isbn: 978-1-4842-0077-3
 keywords: active, git
+notes: notes.md
 papis_id: d3839a2c03f54ab3833818c4186a2d76
 publisher: Apress
 ref: ProGitChacon2022
