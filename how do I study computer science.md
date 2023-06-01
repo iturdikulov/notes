@@ -71,7 +71,7 @@ books not directly related to computer science.
 - NEXT: [[papis/aabfa212b360ace00b30ea98b5b2aba1-interviewcake/notes]], to learn algorithms and data
   structures. I think worth to do it after
   [[papis/2ef118ce3473c9fe93acfc371e3f736e-wengrow-jay/notes]]
-- NEXT: [[@AndreyViktorovichStolyarovProgrammirovanieVvedenieProfessiyu2021b]]
+- NEXT: [[papis/2aaba9c8a111b0a808fc70c0f23bc787-stoliarov-andrei-vik/notes]]
 - NEXT: [Тренировки по алгоритмам - YouTube](https://www.youtube.com/playlist?list=PL6Wui14DvQPySdPv5NUqV3i8sDbHkCKC5)
 
 - TODO: [[python|python]]
