@@ -13,7 +13,7 @@ tags:
 
 List of resources and tips to learn [[mathematics]]
 
-- [[@EmelinAleksandrKratchayshiyKursShkolnoy]]
+- [[papis/99798ea3067ec2618000d574b97bf955-aleksandr-emelin/notes]]
 - [[@AndreiPetrovichKiselyovAlgebraChast2006]]
 - Discrete Mathematics for Computer Scientists [math]
 
@@ -22,7 +22,7 @@ List of resources and tips to learn [[mathematics]]
 - [ ] concrete mathematic
 - [[multiplication table]]
 - [[@AndreiPetrovichKiselyovAlgebraChast2006|Алгебра, часть 1]]
-- [[@EmelinAleksandrKratchayshiyKursShkolnoy|Кратчайший курс школьной математики]]
+- [[papis/99798ea3067ec2618000d574b97bf955-aleksandr-emelin/notes|Кратчайший курс школьной математики]]
 - Лекториум basic mathematic -
   <https://stepik.org/lesson/28728/step/1?unit=9786>
 - Конкретная математика
