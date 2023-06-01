@@ -28,7 +28,6 @@ author_list:
   given: Jay
 file: '@JayWengrowCommonsenseGuideData2020.md:/home/inom/Projects/main/wiki/@JayWengrowCommonsenseGuideData2020.md:text/x-markdown;Jay_Wengrow-2020-A_Common-sense_Guide_to_Data_Structures_and_Algorithms_-_Level_Up_Your_Core.epub:/home/inom/Projects/main/wiki/books/Development/Jay_Wengrow-2020-A_Common-sense_Guide_to_Data_Structures_and_Algorithms_-_Level_Up_Your_Core.epub:application/epub+zip;Jay_Wengrow-2020-A_Common-sense_Guide_to_Data_Structures_and_Algorithms_-_Level_Up_Your_Core.pdf:/home/inom/Projects/main/wiki/books/Development/Jay_Wengrow-2020-A_Common-sense_Guide_to_Data_Structures_and_Algorithms_-_Level_Up_Your_Core.pdf:application/pdf'
 files:
-- jaywengrowcommonsenseguidedata2020.md
 - jay-wengrow-2020-a-common-sense-guide-to-data-structures-and-algorithms-level-up-your-core-a.epub
 - jay-wengrow-2020-a-common-sense-guide-to-data-structures-and-algorithms-level-up-your-core-b.pdf
 isbn: 978-1-68050-722-5

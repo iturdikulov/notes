@@ -27,7 +27,6 @@ author_list:
 edition: '3'
 file: '@EricMatthesPythonCrashCourse2023.md:/home/inom/Projects/main/wiki/@EricMatthesPythonCrashCourse2023.md:text/x-markdown;Eric_Matthes-2023-Python_Crash_Course.pdf:/home/inom/Projects/main/wiki/books/Development/Python/Eric_Matthes-2023-Python_Crash_Course.pdf:application/pdf'
 files:
-- ericmatthespythoncrashcourse2023.md
 - eric-matthes-2023-python-crash-course-a.pdf
 isbn: 978-1-71850-270-3
 keywords: active, python

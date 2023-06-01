@@ -22,7 +22,6 @@ author_list:
 edition: 2nd ed
 file: '@SteveMcConnellCodeComplete2004.md:/home/inom/Projects/main/wiki/@SteveMcConnellCodeComplete2004.md:text/markdown;Steve_McConnell-2004-Code_complete.epub:/home/inom/Projects/main/wiki/books/Development/Patterns/Steve_McConnell-2004-Code_complete.epub:application/epub+zip;Steve_McConnell-2004-Code_complete.pdf:/home/inom/Projects/main/wiki/books/Development/Patterns/Steve_McConnell-2004-Code_complete.pdf:application/pdf'
 files:
-- stevemcconnellcodecomplete2004.md
 - steve-mcconnell-2004-code-complete-a.epub
 - steve-mcconnell-2004-code-complete-b.pdf
 isbn: 978-0-7356-1967-8

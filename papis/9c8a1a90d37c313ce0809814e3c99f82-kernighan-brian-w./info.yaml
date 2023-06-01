@@ -13,7 +13,6 @@ edition: 2nd ed
 file: '@BrianWKernighanProgrammingLanguage1988.md:/home/inom/Projects/main/wiki/@BrianWKernighanProgrammingLanguage1988.md:text/markdown;Brian_W._Kernighan_Dennis_M._Ritchie-1988-The_C_programming_language.pdf:/home/inom/Projects/main/wiki/books/Development/C
   and C++/Brian_W._Kernighan_Dennis_M._Ritchie-1988-The_C_programming_language.pdf:application/pdf'
 files:
-- brianwkernighanprogramminglanguage1988.md
 - brian-w.-kernighan-dennis-m.-ritchie-1988-the-c-programming-language-a.pdf
 isbn: 978-0-13-110370-2 978-0-13-110362-7
 keywords: active, C

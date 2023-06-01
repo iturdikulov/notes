@@ -5,7 +5,6 @@ author_list:
   given: ''
 file: '@InterviewCakeCodingInterviewPractice.md:/home/inom/Projects/main/wiki/@InterviewCakeCodingInterviewPractice.md:text/x-markdown;InterviewCake-Coding_Interview_Practice.7z:/home/inom/Projects/main/wiki/books/Development/InterviewCake-Coding_Interview_Practice.7z:application/x-7z-compressed;InterviewCake-Coding_Interview_Practice.html:/home/inom/Projects/main/wiki/books/Development/InterviewCake-Coding_Interview_Practice.html:text/html;InterviewCake-Coding_Interview_Practice.pdf:/home/inom/Projects/main/wiki/books/Development/InterviewCake-Coding_Interview_Practice.pdf:application/pdf'
 files:
-- interviewcakecodinginterviewpractice.md
 - interviewcake-coding-interview-practice-a.7z
 - interviewcake-coding-interview-practice-b.html
 - interviewcake-coding-interview-practice-c.pdf
