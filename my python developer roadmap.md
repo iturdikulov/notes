@@ -19,7 +19,7 @@ sr-ease: 210
 - [[papis/14f60db29650af4d6edb2aef6d5539da/notes|Python Tutorial]]
 - [Python Developer’s Guide](https://devguide.python.org/)
 - [[@PythonStandardLibrary2023|Python Standard Library]]
-- [[@PythonProgrammingFAQ2023]]
+- [[papis/c771f17042efd4785d59b86771535801/notes]]
 - [codingforentrepreneurs\/30-Days-of-Python.](https://www.youtube.com/playlist?list=PLEsfXFp6DpzQjDBvhNy5YbaBx9j-ZsUe6)
 
 ## Practice
