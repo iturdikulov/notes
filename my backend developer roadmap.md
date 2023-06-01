@@ -19,7 +19,7 @@ Source [RoadMap](https://roadmap.sh/backend)
 
 # Internet
 - [ ] Internet
-    - [ ] [[@RusShulerHowDoesInternet2002|How Does the Internet Work?]]
+    - [ ] [[papis/4ed80dd50cfd3a58160cbb6707254d12/notes|How Does the Internet Work?]]
     - [ ] The Internet
     - [ ] [[papis/c7b2c222bbf975affcc2f507fe2b6d61-kun-jeremy/@TheInternet|The internet, explained]]
 - [ ] What is HTTP?
