@@ -27,7 +27,7 @@ recommended.
 
 8. [[papis/bdcf7cd50c6dc8a18320d0c05b44affe-ramalho-luciano/notes]].
 
-9. [[@InterviewCakeCodingInterviewPractice]].
+9. [[papis/aabfa212b360ace00b30ea98b5b2aba1-interviewcake/notes]].
 
 10. [[papis/2ef118ce3473c9fe93acfc371e3f736e-wengrow-jay/notes]].
 

@@ -11,6 +11,7 @@ files:
 journal: 'Interview Cake: Programming Interview Questions and Tips'
 keywords: active
 language: en
+notes: notes.md
 papis_id: 0daefa57b840eab3fca8c884880b34f6
 ref: CodingIntervieInterv
 title: Coding Interview Practice
