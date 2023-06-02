@@ -7,6 +7,7 @@ sr-interval: 1
 tags:
 - inbox
 - definition
+- vimtip
 sr-due: 2024-02-18
 sr-interval: 277
 sr-ease: 230
@@ -56,7 +57,7 @@ command-line, for entering editor commands::`:`
 
 replace mode, replace existing text by directly typing over it.::`R`
 
-similar to visual, but with a more MS Windows-like behavior::`select` TODO: check
+mode similar to visual, but with a more MS Windows-like behavior::`select` TODO: check
 
 similar to the command-line mode but optimized for batch processing::`ex-mode` TODO: check
 
@@ -148,7 +149,7 @@ go To line n `:n`
 
 go to first line::`gg`
 
-go to last line::`G`
+go to last line of document::`G`
 
 go to line n::`[n]gg`
 
@@ -199,6 +200,7 @@ Move the cursor a paragraph backwards::`{`
 Move the cursor a paragraph forwards::`}`
 
 Move the cursor a section forwards or to the next `{`::`]]`
+<!--SR:!2023-06-05,2,230-->
 
 Move the cursor a section backwards or the previous `{`::`]]`
 
@@ -414,6 +416,7 @@ next/previous tab::`gt gT`
 `C-w +` and `C-w -`:::Increase and decrease window height
 
 Equal window::`C-w =`
+<!--SR:!2023-06-05,2,230-->
 
 Close other windows::`C-w o`
 
@@ -494,6 +497,7 @@ Right now I use this color-scheme
 `pyc`::insert python code block
 `javac`::insert java code block
 `clc`::insert c code block
+<!--SR:!2023-06-05,2,230-->
 `cppc`::insert CPP code block
 `jsc`::insert JavaScript code block
 `phpc`::insert PHP code block
@@ -501,6 +505,7 @@ Right now I use this color-scheme
 `tsc`::insert typescript code block
 `rubyc`::insert ruby code block
 `goc`::insert go code block
+<!--SR:!2023-06-04,1,210-->
 `rustc`::insert rust code block
 `lua`::insert Lua code block
 `shc`::insert bash code block
@@ -517,7 +522,7 @@ Follow link::`<leader>zz`
 
 Find weekly notes::`<leader>zw`
 
-Goto week::`<leader>zW`
+List weeks::`<leader>zW`
 
 Create new note::`<leader>zn`
 
@@ -542,6 +547,7 @@ Show backlinks::`<leader>zb`
 Find friends::`<leader>zF`
 
 Preview image::`<leader>zp`
+<!--SR:!2023-06-04,1,210-->
 
 Browse media::`<leader>zm`
 
@@ -862,6 +868,7 @@ Press `C-f` in command mode to open the command history window.
 For more about the command history window, see `:h cmdwin`.
 
 How quickly close command history window?::`<C-c><C-c>`
+<!--SR:!2023-06-05,2,230-->
 
 ## Netrw
 
@@ -930,6 +937,7 @@ Show tags::`<leader>z#`
 Show backlinks::`<leader>zb`
 Find friends::`<leader>zF`
 Preview image::`<leader>zp`
+<!--SR:!2023-06-04,1,210-->
 Browse media::`<leader>zm`
 Rename note::`<leader>zr`
 Paste image and link::`<leader>zi`
@@ -939,64 +947,6 @@ Paste image and link::`<leader>zi`
 - [[papis/1ae149d1c843b867b0b254a20df34b4f-neil-drew/notes]]
 - [[papis/82951c75090ce154272484448309812b-neil-drew/notes]]
 
-# VIM SUPER BASE DRAFT
-
-https://gist.github.com/t-mart/610795fcf7998559ea80
-
-TODO: find/port/use
-
-## Vim base commands
-
-select something::`v[motion]`
-copy something::`y[motion]`
-delete something (can be used with black hole register)::`d[motion]`
-change something (can be used with black hole register)::`c[motion]`
-
-## Vim Text objects (motions)
-
-outer::`a`
-inner::`i`
-word::`w`
-sentence::`s`
-paragraph::`p`
-argument (require plugin, works inside brackets)::`a`
-single and double quote::`❜` `"`
-back quote::`` ` ``
-a parenthesized block::`)` `}`
-a tag::`t`
-a single tag::`>`
-entire content::`e`
-
-## Vim Modes
-
-normal, for navigation and manipulation of text::`ESC`
-insert, for inserting new text.::`iIaAoO`
-visual, for navigation and manipulation of text selections::`v`
-command-line, for entering editor commands::`:`
-replace mode, replace existing text by directly typing over it.::`R`
-similar to visual, but with a more MS Windows-like behavior::`select`
-similar to the command-line mode but optimized for batch processing::`ex-mode`
-
-## Vim registers
-
-It's sort of space in memory to store text. Every register can be accessed using double quote `"`.
-For example `r` register, copy/paste will be like this `"ry` / `"rp`.
-You can access register in insert/command mode by `C-r[register name]`.
-You can use the `:reg[a|b|c]` command to see all the registers and their content.
-If you use `qw` to record a macro, the register `"w` will have all actions which you have done.
-
-The unnamed register (yank, delete) `""`
-10 numbered registers (latest yank, newest, ..., oldest) `"0` to `"9`
-The last entered text (read only) `".`
-Current file path (read only) `"%`
-Most recently used command (read only) `":`
-The alternate file register (sort of last edited file) `"#`
-The black hole register `"_`
-The selection (system clipboard) `"*`, `"+`
-Last search pattern register `"/`
-26 Named registers \"a to \"z (or \"A to\"Z), sort of clipboards `[a-z]`
-The small delete register `"-`
-The expression register, useful for calculation `C-r =...` `"=`
 
 ### [TODO]{.todo .TODO} how to change macro registers in evil, how to execute them? {#how-to-change-macro-registers-in-evil-how-to-execute-them}
 
