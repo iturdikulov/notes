@@ -90,7 +90,7 @@ output)
 
 `/`::search mode
 
-`?`::search mode
+`?`::backward search mode
 
 Find each occurrence of 'foo' (in all lines), and replace it with 'bar'
 ?
@@ -105,7 +105,7 @@ The replacement will check each line in the buffer, but will only match within t
 
 `:'<,'>s/old/new/g`::replace all old with new throughout visual selection
 
-`&`::repeat substitute, equal to `:s//~/`
+`&`::repeat last substitute, equal to `:s//~/`
 
 `:s/\[foo\]//g`::Escape the square brackets with a backslash, to replace `[foo]`
 
@@ -162,6 +162,7 @@ Puts the current line at the middle::`zz`
 Puts the current line at the bottom::`zb`
 
 Scrolling down, cursor staying on the same line::`C-y`
+<!--SR:!2023-06-05,2,233-->
 
 Jump by **s**tart of words (punctuation considered words)::`w`
 
@@ -170,6 +171,7 @@ Jump by **s**tart words (words determined only by spaces, no punctuation)::`W`
 Jump to en**d** of words (punctuation considered words)::`e`
 
 Jump to en**d** of words (no punctuation)::`E`
+<!--SR:!2023-06-04,1,213-->
 
 Jump **b**ackward by words (punctuation considered words)::`b`
 
@@ -178,6 +180,7 @@ Jump **b**ackward by words (no punctuation)::`B`
 Jump backwar**d** to end of words::`ge`
 
 **J**ump to zero symbol (start of line)::`0`
+<!--SR:!2023-06-05,2,233-->
 
    **J**ump to first non-blank character of line::`^`
 
@@ -347,6 +350,7 @@ The alternate file register (sort of last edited file)::`"#`
 The black hole register::`"_`
 
 The selection (system clipboard)::`"*`, `"+`
+<!--SR:!2023-06-04,1,213-->
 
 Last search pattern register::`"/`
 
@@ -393,17 +397,19 @@ How quickly close command history window?
 
 ### Windows
 
-You can use vim motion keys to navigate between open windows for example?
+You can use vim motion keys to navigate between open windows, for example to navigate to left window?
 ?
-`C-w h` moves the window to the left. Windows are panes in your screen
+`C-w h`
 
 split open file::`:sp f`
 
 vertical split open file::`:vsp f`
+<!--SR:!2023-06-04,1,213-->
 
 next/previous tab::`gt gT`
 
 `C-w v`::window split vertically
+<!--SR:!2023-06-04,1,213-->
 
 `C-w s`::window split horizontal
 
@@ -414,6 +420,7 @@ next/previous tab::`gt gT`
 `C-w >` and `C-w <`:::Increase and decrease window width
 
 `C-w +` and `C-w -`:::Increase and decrease window height
+<!--SR:!2023-06-05,2,233-->
 
 Equal window::`C-w =`
 <!--SR:!2023-06-05,2,230-->
@@ -421,6 +428,7 @@ Equal window::`C-w =`
 Close other windows::`C-w o`
 
 Swap windows::`C-w x`
+<!--SR:!2023-06-04,1,213-->
 
 jumps to the last window you used \*::`C-w C-p`
 
@@ -501,6 +509,7 @@ Right now I use this color-scheme
 `cppc`::insert CPP code block
 `jsc`::insert JavaScript code block
 `phpc`::insert PHP code block
+<!--SR:!2023-06-05,2,233-->
 `sqlc`::insert SQL code block
 `tsc`::insert typescript code block
 `rubyc`::insert ruby code block
@@ -509,6 +518,7 @@ Right now I use this color-scheme
 `rustc`::insert rust code block
 `lua`::insert Lua code block
 `shc`::insert bash code block
+<!--SR:!2023-06-05,2,233-->
 
 ### Telekasten
 
@@ -527,6 +537,7 @@ List weeks::`<leader>zW`
 Create new note::`<leader>zn`
 
 Create new note from template::`<leader>zN`
+<!--SR:!2023-06-04,1,213-->
 
 Yank note link::`<leader>zy`
 
@@ -928,6 +939,7 @@ Find weekly notes::`<leader>zw`
 Goto this week::`<leader>zW`
 Create new note::`<leader>zn`
 Create new note from template::`<leader>zN`
+<!--SR:!2023-06-04,1,213-->
 Yank notelink::`<leader>zy`
 Show calendar::`<leader>zc`
 CalendarT::`<leader>zC`
