@@ -25,20 +25,25 @@ Runs `main()` if file wasn't imported (code snippet).
 if __name__ == '__main__':
     pass
 ```
-<!--SR:!2023-05-08,11,270-->
+<!--SR:!2023-08-04,63,270-->
 
 
 ### List
 
 Access list items
+- `[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]`
+- `[0, 2, 4, 6, 8]`
+- `[9, 8, 7, 6, 5, 4, 3, 2, 1]`
+- `[9, 8, 7, 6, 5, 4, 3, 2, 1, 0]`
+- `[5, 6, 7, 8, 9]`
 ?
 ```python
 list_example = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
-print(list_example[0:10])    # [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
-print(list_example[0:10:2])  # [0, 2, 4, 6, 8]
-print(list_example[10:0:-1]) # [9, 8, 7, 6, 5, 4, 3, 2, 1]
-print(list_example[::-1])    # [9, 8, 7, 6, 5, 4, 3, 2, 1, 0]
-print(list_example[5:])      # [5, 6, 7, 8, 9]
+print(list_example[0:10])
+print(list_example[0:10:2])
+print(list_example[10:0:-1])
+print(list_example[::-1])
+print(list_example[5:])
 ```
 
 Add items to list
@@ -127,12 +132,13 @@ Flatter list (itertools)
 `['ABC', 'DEF'] -> ['A', 'B', 'C', 'D', 'E', 'F']`
 ?
 ```python
+# use itertools.chain.from_iterable()
 import itertools
 items = ['ABC', 'DEF']
 flatter_list = list(itertools.chain.from_iterable(items))
 print(flatter_list)  # ['A', 'B', 'C', 'D', 'E', 'F']
 ```
-<!--SR:!2023-04-30,1,210-->
+<!--SR:!2023-09-12,102,230-->
 
 Generate product of list items, `functools.reduce`<br>
 `[1, 2, 3] -> 6 = (1 * 2) * 3` or `[1, 2, 3, 4] -> 24 = ((1 * 2) * 3) * 4`
@@ -414,7 +420,7 @@ print(set_example1)  # {'a', 'r', 'd', 'v', 'k'}
 print(set_example2)  # {'aardvark'}
 print(set_example3)  # {'aardvark'}
 ```
-<!--SR:!2023-04-30,3,250-->
+<!--SR:!2023-06-08,6,230-->
 
 How add items to `set()` (2 ways)?
 ?
@@ -518,65 +524,101 @@ print(set_example)     # set()
 
 Frozen set is an immutable and hashable set.
 That means it can be used as a key in a dictionary or as an element in a set.
+How to use them as a key in a dictionary or as an element in a set?
+?
 ```python
 # <frozenset> = frozenset(<collection>)
-# TODO: add examples
+# Create a list of numbers
+numbers = [1, 2, 3, 4, 5]
+
+# Create a frozenset from the list
+frozen_numbers = frozenset(numbers)
+
+# Print the frozenset
+print(frozen_numbers)
+
+set_example = {frozen_numbers}
+print(set_example)
+
+dict_example = {frozen_numbers: "value"}
+print(dict_example[frozen_numbers])
+
+
+# Try to change an element in the frozenset
+# This will raise an error
+# frozen_numbers.add(6)
 ```
 
 ## Tuple
 
 Tuple is an immutable and hashable ==list==.
 
+How to create empty tuple or tuple with elements?
+?
 ```python
 tuple_example = (1, 2, 3)
-empty_tuple = ()
 print(tuple_example)  # (1, 2, 3)
+empty_tuple = ()
 print(empty_tuple)    # ()
 ```
 
 ### Named Tuple
 
-Named tuple is tuple's subclass with ==named elements==.
-
+Named tuple is tuple's subclass with?
+?
+named elements
 ```python
 from collections import namedtuple
-Point = namedtuple('Point', 'x y')
+Point = namedtuple('Point', ['x', 'y'])
 p = Point(1, y=2)
 Point(x=1, y=2)
 p[0]
-1.
-p.x
-2.
-getattr(p, 'y')
-3.
+print(p.x)
+print(getattr(p, 'y'))
+print(p._fields)
 ```
 
+## Range
 
-Range
------
-**Immutable and hashable sequence of integers.**
+Immutable and hashable sequence of integers.
 ```python
 <range> = range(stop)                       # range(to_exclusive)
 <range> = range(start, stop)                # range(from_inclusive, to_exclusive)
 <range> = range(start, stop, ±step)         # range(from_inclusive, to_exclusive, ±step_size)
 ```
 
+Output of this block of code?
 ```python
->>> [i for i in range(3)]
+print([i for i in range(0, 3, 1)])
+print([i for i in range(0, 3, 2)])
+print(list(range(0, 10)))
+```
+?
+```
 [0, 1, 2]
+[0, 2] # because 0 then 0+2=2 then 2+2=4, but it's not in range
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9] # end of range is -1
 ```
 
+## Enumerate
 
-Enumerate
----------
+Output of this block of code?
 ```python
-for i, el in enumerate(<collection> [, i_start]):
-    ...
+for i, el in enumerate(['one', 'two', 'three']):
+    print(i, el)
+```
+?
+```
+0 one
+1 two
+2 three
 ```
 
 
-Iterator
---------
+## Iterator
+
+How to create iterator from collection or function?
+?
 ```python
 <iter> = iter(<collection>)                 # `iter(<iter>)` returns unmodified iterator.
 <iter> = iter(<function>, to_exclusive)     # A sequence of return values until 'to_exclusive'.
@@ -585,6 +627,7 @@ Iterator
 ```
 
 ### Itertools
+
 ```python
 import itertools as it
 ```
