@@ -72,14 +72,24 @@ change something (can be used with black hole register)::`c[register][num][motio
 
 `:`::command mode
 
-`/`::search mode
+How to split line (a/i/r)
+?
 
-`?`::search mode
+- `a<cr><esc>`
+- `r<cr>`
+- `i<cr><esc>`
 
 `!`
 ?
 external filter, used in command mode to execute something (`r!` redirect
 output)
+
+
+## Search & replace
+
+`/`::search mode
+
+`?`::search mode
 
 Find each occurrence of 'foo' (in all lines), and replace it with 'bar'
 ?
@@ -91,12 +101,32 @@ The replacement will check each line in the buffer, but will only match within t
 `:%s/\%Vfoo/bar/g[c]`
 `[c]` - confirmations.
 
-How to split line (a/i/r)
-?
 
-- `a<cr><esc>`
-- `r<cr>`
-- `i<cr><esc>`
+`:'<,'>s/old/new/g`::replace all old with new throughout visual selection
+
+`&`::repeat substitute, equal to `:s//~/`
+
+`:s/\[foo\]//g`::Escape the square brackets with a backslash, to replace `[foo]`
+
+`:%s/\(^ *\)\@<! \{2,}/ /g`
+?
+Replace multiple spaces with one, This says find 2 or more spaces (` \{2,}`)
+that are NOT preceded by 'the start of the line followed by zero or more
+spaces'.
+
+`f[x]|Fx`::search line forward for 'x', backward for 'x'
+
+`t[x]|Tx`::search line forward before 'x', backward before 'x'
+
+`,|;`::backward, forward after that "finds", works for s, f and t
+
+You can also just press f/t/F/T ==again== to continue search
+
+`/ ESC`::clear search highlights or `:noh`
+
+`n|N`::repeat search in same direction, in opposite direction
+
+`*|#`::search forward word under cursor, search backward word under cursor
 
 ### Navigation
 
@@ -191,6 +221,18 @@ Goes to the newer cursor position on the change list::`g,`
 Jump to previous position you were at::`C-o`
 
 Jump to more recent position you were a::`C-i`
+
+### Bookmarks
+
+List all the current marks::`:marks`
+
+Make a bookmark named `a` at the current cursor position::`m[a]`
+
+Go to position of bookmark `a`::`` `[a] ``
+
+Go to the line with bookmark `a`::`'[a]`
+
+Go to the line that you last edited::`` `. ``
 
 ### Files
 
@@ -515,53 +557,7 @@ this.
 <!-- IDEAS -->
 
 
-### Bookmarks
-
----
-
-list all the current marks `:marks`
-make a bookmark named a at the current cursor position `m[a]`
-go to position of bookmark a `` `[a] ``
-go to the line with bookmark a `'[a]`
-go to the line that you last edited `` `. ``
-
----
-
-
-# Search & Replace
-
-## Evil search & replace
-
-```example
-s evil snipe forward
-S evil snipe backward
-f[x]|Fx search line forward for 'x', backward for 'x'
-t[x]|Tx search line forward before 'x', backward before 'x'
- all this 3 modes, has addditional keybindings:
- ,|; backward, forward after that "finds", works for s, f and t
- you can also just press f/t/F/T again to continue search
-
-/ ESC clear search highlights
-
-/pattern search for pattern, use \C escape charater for case sensitive
-?pattern search backward for pattern
-n|N repeat search in same direction, in opposite direction
-*|# search forward word under cursor, search backward word under cursor
-:%s/old/new/g replace all old with new throughout file
-:%s/old/new/gc replace all old with new throughout file with confirmation
-:'<,'>s/old/new/g replace all old with new throughout visual selection
-& repeat substitute, equal to :s//~/
-
-:s/\[foo\]//g Escape the square brackets with a backslash, to replace [foo]
-
-:%s/\(^ *\)\@<! \{2,}/ /g Replace multiple spaces with one, This says "find 2 or more spaces (' \{2,}') that are NOT preceded by 'the start of the line followed by zero or more spaces'.
-```
-
-# Changing Text (editing)
-
-## Evil changing text
-
----
+### Changing text
 
 run command in insert mode `C-o[motion]`
 
@@ -598,11 +594,7 @@ duplicate line `yyP`
 fix spaces / tabs issues in whole file `:%retab`
 execute {cmd} and insert its standard output below the cursor. `:r !{cmd}`
 
----
-
-## Evil deleting text
-
----
+### Deleting text
 
 delete current character, previous character `x`
 delete previous character `X`
@@ -612,41 +604,7 @@ delete until the next \' character on the line (replace \' by any character) `dt
 delete from cursor to end of line `D`
 delete \[range\] lines `:[range]d`
 
----
-
-## [TODO]{.todo .TODO} [Evil surround](https://github.com/emacs-evil/evil-surround) {#evil-surround}
-
-```example
-ds[char or t] deletes the surrounding char or html element
-cs[char][char or <tag>] change the surrounding char to char or <tag>
-ysiw[char] chage the surrounding of inner word
-
-ysWf ysWF functions example, wrap text/word
-
-S[text object] in visual state will surround a text object
-```
-
-## [TODO]{.todo .TODO} Evil exchange {#evil-exchange}
-
-\`cx\[motion\]\` ... \`cx\[motion\]\` Exchange motion \`cxx\` Like
-\`cx\`, but use the current line. \`X\` Like \`cx\`, but for Visual
-mode. \`cxc\` Clear any \`{motion}\` pending for exchange. If you're
-using the same motion again (e.g. exchanging two words using \`cxiw\`),
-you can use \`.\` the second time. If one region is fully contained
-within the other, it will replace the containing region.
-
-## Evil commenting
-
----
-
-comment line `gcc`
-comment motion `gc[motion,a]`
-
----
-
-# Formatting Text and Fold
-
-## Evil formatting
+### Formatting
 
 ```example
 >> indent line one column to right *
@@ -676,7 +634,35 @@ zo|zc Fold/Unfold
 zO|zC open all nested folds, close all nested folds
 ```
 
-# Evil Visual Mode
+---
+
+## [TODO]{.todo .TODO} [Evil surround](https://github.com/emacs-evil/evil-surround) {#evil-surround}
+
+```example
+ds[char or t] deletes the surrounding char or html element
+cs[char][char or <tag>] change the surrounding char to char or <tag>
+ysiw[char] chage the surrounding of inner word
+
+ysWf ysWF functions example, wrap text/word
+
+S[text object] in visual state will surround a text object
+```
+
+## [TODO]{.todo .TODO} Evil exchange {#evil-exchange}
+
+\`cx\[motion\]\` ... \`cx\[motion\]\` Exchange motion \`cxx\` Like
+\`cx\`, but use the current line. \`X\` Like \`cx\`, but for Visual
+mode. \`cxc\` Clear any \`{motion}\` pending for exchange. If you're
+using the same motion again (e.g. exchanging two words using \`cxiw\`),
+you can use \`.\` the second time. If one region is fully contained
+within the other, it will replace the containing region.
+
+## Commenting
+
+comment line `gcc`
+comment motion `gc[motion,a]`
+
+### Visual Mode
 
 ```example
 v start visual mode, mark lines, then do command (such as y-yank)
