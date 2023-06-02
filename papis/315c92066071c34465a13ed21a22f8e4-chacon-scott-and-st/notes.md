@@ -16,248 +16,252 @@ sr-interval: 171
 sr-ease: 230
 ---
 
-# Pro Git /2
+# Pro Git
 
-# Table of Contents /3
+A book about Git and [[version control]] in general.
 
-# Licence /7
+## Pro Git /2
 
-# Preface by Scott Chacon /8
+## Table of Contents /3
 
-# Preface by Ben Straub /9
+## Licence /7
 
-# Dedications /10
+## Preface by Scott Chacon /8
 
-# Contributors /11
+## Preface by Ben Straub /9
 
-# Introduction /14
+## Dedications /10
 
-# Getting Started /16
+## Contributors /11
 
-## About Version Control /16
+## Introduction /14
 
-## A Short History of Git /20
+## Getting Started /16
 
-## What is Git? /20
+### About Version Control /16
 
-## The Command Line /24
+### A Short History of Git /20
 
-## Installing Git /24
+### What is Git? /20
 
-## First-Time Git Setup /27
+### The Command Line /24
 
-## Getting Help /30
+### Installing Git /24
 
-## Summary /31
+### First-Time Git Setup /27
 
-# Git Basics /32
+### Getting Help /30
 
-## Getting a Git Repository /32
+### Summary /31
 
-## Recording Changes to the Repository /34
+## Git Basics /32
 
-## Viewing the Commit History /46
+### Getting a Git Repository /32
 
-## Undoing Things /52
+### Recording Changes to the Repository /34
 
-## Working with Remotes /56
+### Viewing the Commit History /46
 
-## Tagging /61
+### Undoing Things /52
 
-## Git Aliases /66
+### Working with Remotes /56
 
-## Summary /68
+### Tagging /61
 
-# Git Branching /69
+### Git Aliases /66
 
-## Branches in a Nutshell /69
+### Summary /68
 
-## Basic Branching and Merging /76
+## Git Branching /69
 
-## Branch Management /85
+### Branches in a Nutshell /69
 
-## Branching Workflows /88
+### Basic Branching and Merging /76
 
-## Remote Branches /91
+### Branch Management /85
 
-## Rebasing /101
+### Branching Workflows /88
 
-## Summary /110
+### Remote Branches /91
 
-# Git on the Server /111
+### Rebasing /101
 
-## The Protocols /111
+### Summary /110
 
-## Getting Git on a Server /116
+## Git on the Server /111
 
-## Generating Your SSH Public Key /118
+### The Protocols /111
 
-## Setting Up the Server /119
+### Getting Git on a Server /116
 
-## Git Daemon /122
+### Generating Your SSH Public Key /118
 
-## Smart HTTP /123
+### Setting Up the Server /119
 
-## GitWeb /125
+### Git Daemon /122
 
-## GitLab /126
+### Smart HTTP /123
 
-## Third Party Hosted Options /130
+### GitWeb /125
 
-## Summary /131
+### GitLab /126
 
-# Distributed Git /132
+### Third Party Hosted Options /130
 
-## Distributed Workflows /132
+### Summary /131
 
-## Contributing to a Project /135
+## Distributed Git /132
 
-## Maintaining a Project /156
+### Distributed Workflows /132
 
-## Summary /171
+### Contributing to a Project /135
 
-# GitHub /172
+### Maintaining a Project /156
 
-## Account Setup and Configuration /172
+### Summary /171
 
-## Contributing to a Project /177
+## GitHub /172
 
-## Maintaining a Project /197
+### Account Setup and Configuration /172
 
-## Managing an organization /211
+### Contributing to a Project /177
 
-## Scripting GitHub /214
+### Maintaining a Project /197
 
-## Summary /223
+### Managing an organization /211
 
-# Git Tools /224
+### Scripting GitHub /214
 
-## Revision Selection /224
+### Summary /223
 
-## Interactive Staging /232
+## Git Tools /224
 
-## Stashing and Cleaning /236
+### Revision Selection /224
 
-## Signing Your Work /242
+### Interactive Staging /232
 
-## Searching /245
+### Stashing and Cleaning /236
 
-## Rewriting History /249
+### Signing Your Work /242
 
-## Reset Demystified /257
+### Searching /245
 
-## Advanced Merging /276
+### Rewriting History /249
 
-## Rerere /293
+### Reset Demystified /257
 
-## Debugging with Git /299
+### Advanced Merging /276
 
-## Submodules /302
+### Rerere /293
 
-## Bundling /323
+### Debugging with Git /299
 
-## Replace /326
+### Submodules /302
 
-## Credential Storage /335
+### Bundling /323
 
-## Summary /340
+### Replace /326
 
-# Customizing Git /341
+### Credential Storage /335
 
-## Git Configuration /341
+### Summary /340
 
-## Git Attributes /351
+## Customizing Git /341
 
-## Git Hooks /359
+### Git Configuration /341
 
-## An Example Git-Enforced Policy /362
+### Git Attributes /351
 
-## Summary /371
+### Git Hooks /359
 
-# Git and Other Systems /372
+### An Example Git-Enforced Policy /362
 
-## Git as a Client /372
+### Summary /371
 
-## Migrating to Git /407
+## Git and Other Systems /372
 
-## Summary /423
+### Git as a Client /372
 
-# Git Internals /424
+### Migrating to Git /407
 
-## Plumbing and Porcelain /424
+### Summary /423
 
-## Git Objects /425
+## Git Internals /424
 
-## Git References /435
+### Plumbing and Porcelain /424
 
-## Packfiles /439
+### Git Objects /425
 
-## The Refspec /442
+### Git References /435
 
-## Transfer Protocols /445
+### Packfiles /439
 
-## Maintenance and Data Recovery /450
+### The Refspec /442
 
-## Environment Variables /457
+### Transfer Protocols /445
 
-## Summary /462
+### Maintenance and Data Recovery /450
 
-# Appendix A: Git in Other Environments /463
+### Environment Variables /457
 
-## Graphical Interfaces /463
+### Summary /462
 
-## Git in Visual Studio /468
+## Appendix A: Git in Other Environments /463
 
-## Git in Visual Studio Code /469
+### Graphical Interfaces /463
 
-## Git in IntelliJ / PyCharm / WebStorm / PhpStorm / RubyMine /469
+### Git in Visual Studio /468
 
-## Git in Sublime Text /470
+### Git in Visual Studio Code /469
 
-## Git in Bash /470
+### Git in IntelliJ / PyCharm / WebStorm / PhpStorm / RubyMine /469
 
-## Git in Zsh /471
+### Git in Sublime Text /470
 
-## Git in PowerShell /473
+### Git in Bash /470
 
-## Summary /475
+### Git in Zsh /471
 
-# Appendix B: Embedding Git in your Applications /476
+### Git in PowerShell /473
 
-## Command-line Git /476
+### Summary /475
 
-## Libgit2 /476
+## Appendix B: Embedding Git in your Applications /476
 
-## JGit /481
+### Command-line Git /476
 
-## go-git /484
+### Libgit2 /476
 
-## Dulwich /486
+### JGit /481
 
-# Appendix C: Git Commands /488
+### go-git /484
 
-## Setup and Config /488
+### Dulwich /486
 
-## Getting and Creating Projects /490
+## Appendix C: Git Commands /488
 
-## Basic Snapshotting /491
+### Setup and Config /488
 
-## Branching and Merging /493
+### Getting and Creating Projects /490
 
-## Sharing and Updating Projects /495
+### Basic Snapshotting /491
 
-## Inspection and Comparison /497
+### Branching and Merging /493
 
-## Debugging /498
+### Sharing and Updating Projects /495
 
-## Patching /499
+### Inspection and Comparison /497
 
-## Email /499
+### Debugging /498
 
-## External Systems /501
+### Patching /499
 
-## Administration /501
+### Email /499
 
-## Plumbing Commands /502
+### External Systems /501
 
-# Index /503
+### Administration /501
+
+### Plumbing Commands /502
+
+## Index /503
