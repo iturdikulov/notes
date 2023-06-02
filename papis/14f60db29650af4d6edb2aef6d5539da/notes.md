@@ -529,8 +529,6 @@ except ImportError:
     pass  # this is bad pracitce DO NOT DO THIS
 ```
 
-::TODO: watch this - https://www.youtube.com/watch?v=-79HGfWmH_w ::
-
 A match statement compare expression with successive patterns until one or more
 matches. So this is [[pattern matching]].
 

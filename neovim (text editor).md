@@ -14,6 +14,10 @@ sr-ease: 230
 
 # Neovim (text editor)
 
+Find file under cursor::`gf`
+
+Find link under cursor::`gx`
+
 [@Neovim] - Hyperextensible Vim-based text editor.
 
 ## What I handle by it
