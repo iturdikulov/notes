@@ -1,7 +1,7 @@
 ---
 title: "The C Programming Language"
 tags:
-  - "ctip"
+  - "code-tip"
   - "research"
 ---
 

@@ -2,7 +2,7 @@
 date: 2022-12-29
 draft: true
 tags:
-- mediatip
+- dev-tip
 - outline
 ---
 

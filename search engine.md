@@ -4,7 +4,7 @@ draft: true
 tags:
 - inbox
 - definition
-- searchtip
+- web-tip
 sr-due: 2023-06-03
 sr-interval: 17
 sr-ease: 301

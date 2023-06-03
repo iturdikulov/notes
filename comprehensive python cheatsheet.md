@@ -5,7 +5,7 @@ draft: true
 tags:
 - inbox
 - outline
-- pythontip
+- code-tip
 sr-due: 2023-05-19
 sr-interval: 2
 sr-ease: 248

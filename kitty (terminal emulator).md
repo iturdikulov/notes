@@ -7,7 +7,7 @@ sr-ease: 270
 sr-interval: 4
 tags:
 - definition
-- termtip
+- dev-tip
 ---
 
 # Kitty (terminal emulator)

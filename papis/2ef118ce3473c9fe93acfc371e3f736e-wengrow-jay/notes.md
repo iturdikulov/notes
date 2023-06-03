@@ -9,7 +9,7 @@ canonicalUrl: https://www.google.com/books/edition/A_Common_sense_Guide_to_Data_
 citekey: JayWengrowCommonsenseGuideData2020
 tags:
   - research
-  - CS
+  - CS-tip
 localLibrary: zotero://select/items/1_R6AGTWDZ
 cloudLibrary: http://zotero.org/users/9108355/items/R6AGTWDZ
 draft: true

@@ -3,8 +3,8 @@ date: 2023-04-02
 draft: true
 tags:
 - inbox
-- definition
-- filestip
+- outline
+- dev-tip
 sr-due: 2023-05-20
 sr-interval: 3
 sr-ease: 269

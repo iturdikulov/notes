@@ -7,7 +7,7 @@ sr-interval: 3
 tags:
 - inbox
 - definition
-- CS
+- CS-tip
 sr-due: 2024-01-01
 sr-interval: 229
 sr-ease: 270

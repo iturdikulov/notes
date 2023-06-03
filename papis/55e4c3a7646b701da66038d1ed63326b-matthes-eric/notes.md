@@ -6,7 +6,7 @@ dateAdded: 2023-04-21
 citekey: EricMatthesPythonCrashCourse2023
 tags:
   - research
-  - pythontip
+  - code-tip
 localLibrary: zotero://select/items/1_GBPKLF48
 cloudLibrary: http://zotero.org/users/9108355/items/GBPKLF48
 draft: true

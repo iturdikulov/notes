@@ -1,7 +1,8 @@
 ---
 date: 2023-03-31
 tags:
-- gittip
+- outline
+- dev-tip
 ---
 
 # Git tips

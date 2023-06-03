@@ -7,7 +7,7 @@ sr-interval: 1
 tags:
 - inbox
 - definition
-- vimtip
+- vim-tip
 sr-due: 2024-02-18
 sr-interval: 277
 sr-ease: 230
