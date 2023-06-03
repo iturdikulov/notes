@@ -33,6 +33,7 @@ sr-ease: 230
 
 ## Resources
 
+- [GeoGebra](https://www.geogebra.org/)
 - [Матан — Неолурк](https://neolurk.org/wiki/%D0%9C%D0%B0%D1%82%D0%B0%D0%BD)
 - [Discord Mathematics](https://discord.com/channels/268882317391429632/)
 - [zulipchat](https://zulipchat.com/)
