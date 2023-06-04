@@ -83,5 +83,5 @@ Check this note [[in real life (irl)]].
 
 ## Mentoring and helping
 
-I don't think I'm great at this, but I'm trying to help people on [[github]],
+I don't think I'm great at this, but I'm trying to help people on [[GitHub]],
 and in future on [[stack overflow]]. Sometimes on different platforms or IRL.

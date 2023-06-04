@@ -16,7 +16,7 @@ sr-ease: 290
 # GitLab
 
 DevOps software package which can develop, secure, and operate software.
-Alternative to [[github]].
+Alternative to [[GitHub]].
 
 Includes:
 

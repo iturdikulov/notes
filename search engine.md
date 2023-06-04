@@ -78,7 +78,7 @@ Foldoc Dict - search for definitions, mostly technical
 ?
 `f`
 
-GitHub - code search, [[github|more info]]
+GitHub - code search, [[GitHub|more info]]
 ?
 `gh`
 
