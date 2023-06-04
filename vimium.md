@@ -3,7 +3,7 @@ date: 2023-06-04
 tags:
   - inbox
   - outline
-  - dev-tip
+  - vim-tip
 ---
 
 # Vimium - The Hacker's Browser
@@ -80,99 +80,123 @@ Navigating your history:
 `H`::go back in history
 `L`::go forward in history
 
-## Manipulating tabs
+Manipulating tabs:
 
-`J,`::gT   go one tab left
-`K,`::gt   go one tab right
+`J, gT`::go one tab left
+
+`K, gt`::go one tab right
+
 `g0`::go to the first tab. Use ng0 to go to n-th tab
+
 `g$`::go to the last tab
+
 `^`::visit the previously-visited tab
+
 `t`::create tab
+
 `yt`::duplicate current tab
+
 `x`::close current tab
+
 `X`::restore closed tab (i.e. unwind the 'x' command)
+
 `T`::search through your open tabs
-`W`::move current tab to new window
-`<a-p>`::pin/unpin current tab
 
-Using marks:
+`W`::move current tab to new window. NOTE: this is sometimes very useful.
 
-    ma, mA  set local mark "a" (global mark "A")
-    `a, `A  jump to local mark "a" (global mark "A")
-    ``      jump back to the position before the previous jump
-              -- that is, before the previous gg, G, n, N, / or `a
+`<c-q>`::pin/unpin current tab
 
-Additional advanced browsing commands:
+## Using marks
 
-    ]], [[  Follow the link labeled 'next' or '>' ('previous' or '<')
-              - helpful for browsing paginated sites
-    <a-f>   open multiple links in a new tab
-    gi      focus the first (or n-th) text input box on the page. Use <tab> to cycle through options.
-    gu      go up one level in the URL hierarchy
-    gU      go up to root of the URL hierarchy
-    ge      edit the current URL
-    gE      edit the current URL and open in a new tab
-    zH      scroll all the way left
-    zL      scroll all the way right
-    v       enter visual mode; use p/P to paste-and-go, use y to yank
-    V       enter visual line mode
+`ma, mA`::set local mark "a" (global mark "A")
 
-Vimium supports command repetition so, for example, hitting `5t` will open 5 tabs in rapid succession. `<Esc>`
-(or `<c-[>`) will clear any partial commands in the queue and will also exit insert and find modes.
+Jump to local mark "a" (global mark "A")
+?
+`\`a, \`A`
 
-There are some advanced commands which aren't documented here; refer to the help dialog (type `?`) for a full
-list.
+"\`\`"
+?
+jump back to the position before the previous jump, that is, before the previous
+`gg, G, n, N, /` or `\`a`
+
+## Additional advanced browsing commands
+
+`]], [[`::Follow the link labeled 'next' or '>' ('previous' or '<')
+
+`<a-f>`::open multiple links in a new tab
+
+`gi`
+?
+focus the first (or n-th) text input box on the page. Use <tab> to cycle through
+options.
+
+`gu`::go up one level in the URL hierarchy
+
+`gU`::go up to root of the URL hierarchy
+
+`ge`::edit the current URL
+
+`gE`::edit the current URL and open in a new tab
+
+`zH`::scroll all the way left
+
+`zL`::scroll all the way right
+
+`v`::enter visual mode; use p/P to paste-and-go, use y to yank
+
+`V`::enter visual line mode
+
+Vimium supports command repetition so, for example, hitting ==`5t`== will open 5
+tabs in rapid succession. `<Esc>` (or `<c-[>`) will clear any partial commands
+in the queue and will also exit insert and find modes.
+
+There are some advanced commands which aren't documented here; refer to the help
+dialog (type ==`?`==) for a full list.
 
 ## Custom Key Mappings
 
-You may remap or unmap any of the default key bindings in the "Custom key mappings" on the options page.
+You may remap or unmap any of the default key bindings in the "Custom key
+mappings" on the options page.
 
 Enter one of the following key mapping commands per line:
 
-- `map key command`: Maps a key to a Vimium command. Overrides Chrome's default behavior (if any).
-- `unmap key`: Unmaps a key and restores Chrome's default behavior (if any).
-- `unmapAll`: Unmaps all bindings. This is useful if you want to completely wipe Vimium's defaults and start
-  from scratch with your own setup.
+- ==`map key command`==: Maps a key to a Vimium command. Overrides Chrome's
+  default behavior (if any).
+- ==`unmap key`==: Unmaps a key and restores Chrome's default behavior (if any).
+- ==`unmapAll`==: Unmaps all bindings. This is useful if you want to completely
+  wipe Vimium's defaults and start from scratch with your own setup.
 
 Examples:
 
-- `map <c-d> scrollPageDown` maps ctrl+d to scrolling the page down. Chrome's default behavior of bringing up
-  a bookmark dialog is suppressed.
+- `map <c-d> scrollPageDown` maps ctrl+d to scrolling the page down. Chrome's
+  default behavior of bringing up a bookmark dialog is suppressed.
 - `map r reload` maps the r key to reloading the page.
-- `unmap <c-d>` removes any mapping for ctrl+d and restores Chrome's default behavior.
+- `unmap <c-d>` removes any mapping for ctrl+d and restores Chrome's default
+  behavior.
 - `unmap r` removes any mapping for the r key.
 
 Available Vimium commands can be found via the "Show available commands" link
 near the key mapping box on the options page. The command name appears to the
-right of the description in parenthesis.
+right of the description in parentheses.
 
 You can add comments to key mappings by starting a line with `"` or `#`.
 
 The following special keys are available for mapping:
 
-- `<c-*>`, `<a-*>`, `<s-*>`, `<m-*>` for ctrl, alt, shift, and meta (command on Mac) respectively with any key. Replace `*`
-  with the key of choice.
+- `<c-*>`, `<a-*>`, `<s-*>`, `<m-*>` for ctrl, alt, shift, and meta (command on
+  Mac) respectively with any key. Replace `*` with the key of choice.
 - `<left>`, `<right>`, `<up>`, `<down>` for the arrow keys.
 - `<f1>` through `<f12>` for the function keys.
 - `<space>` for the space key.
-- `<tab>`, `<enter>`, `<delete>`, `<backspace>`, `<insert>`, `<home>` and `<end>` for the corresponding non-printable keys (version 1.62 onwards).
+- `<tab>`, `<enter>`, `<delete>`, `<backspace>`, `<insert>`, `<home>` and
+  `<end>` for the corresponding non-printable keys (version 1.62 onwards).
 
-Shifts are automatically detected so, for example, `<c-&>` corresponds to ctrl+shift+7 on an English keyboard.
+Shifts are automatically detected so, for example, `<c-&>` corresponds to
+ctrl+shift+7 on an English keyboard.
 
-## More documentation
+## Resources
 
-Many of the more advanced or involved features are documented on
-[Vimium's GitHub wiki](https://github.com/philc/vimium/wiki). Also
-see the [FAQ](https://github.com/philc/vimium/wiki/FAQ).
+- Many of the more advanced or involved features are documented on
+  [Vimium's GitHub wiki](https://github.com/philc/vimium/wiki).
 
-## Contributing
-
-See [CONTRIBUTING.md](CONTRIBUTING.md) for details.
-
-## Release Notes
-
-See [CHANGELOG](CHANGELOG.md) for the major changes in each release.
-
-## License
-
-Copyright (c) Phil Crosby, Ilya Sukhar. See [MIT-LICENSE.txt](MIT-LICENSE.txt) for details.
+- Also see the [FAQ](https://github.com/philc/vimium/wiki/FAQ).
