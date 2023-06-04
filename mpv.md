@@ -28,12 +28,12 @@ Half speed increase/decrease
 Double speed
 ?
 `{`, `}`
-<!--SR:!2023-04-16,1,230-->
+<!--SR:!2023-06-11,7,210-->
 
 Reset speed
 ?
 `BCK`
-<!--SR:!2023-04-16,1,230-->
+<!--SR:!2023-06-13,9,210-->
 
 Seek
 ?

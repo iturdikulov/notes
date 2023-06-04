@@ -6,7 +6,7 @@ sr-ease: 250
 sr-interval: 3
 tags:
 - inbox
-- permanent
+- outline
 sr-due: 2024-01-06
 sr-interval: 234
 sr-ease: 270
@@ -53,5 +53,6 @@ Significant part are from [[programming fonts - test drive]].
 - Victor Mono \*
 
 ## Need check
+- TODO: download all this fonts and check them
 - TODO: [noto-fonts] - Google Noto TTF fonts, fonts for all languages (use Unicode, and OpenType), <https://dive into it deeply.com/noto>
 - TODO: [Lo-Res](https://fonts.adobe.com/fonts/lo-res#fonts-section)

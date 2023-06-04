@@ -6,7 +6,7 @@ sr-ease: 250
 sr-interval: 3
 tags:
 - inbox
-- defintion
+- definition
 sr-due: 2023-12-25
 sr-interval: 222
 sr-ease: 270

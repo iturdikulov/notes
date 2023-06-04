@@ -202,4 +202,4 @@ In worst case deletion operation will take
 $N$ steps, where $N$ is a number of items in array.
 One step to delete value, and $N-1$ (we don't need to shift deleted value) steps
 to shift data.
-<!--SR:!2023-04-16,2,220-->
+<!--SR:!2023-06-10,6,200-->

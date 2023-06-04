@@ -673,7 +673,7 @@ function decalaration
 <!--SR:!2023-06-11,30,248-->
 
 Well-chosen names are good self-==documenting== code
-<!--SR:!2023-05-14,2,247-->
+<!--SR:!2023-08-23,80,267-->
 
 **Exercise 1.15.** [Rewrite the temperature conversion program of Section 1.2 to use a function for conversion.](./@BrianWKernighanProgrammingLanguage1988/chapter_1/1-15_temerature_conversion_using_func.c)
 
@@ -773,7 +773,7 @@ void copy(char to[], char from[]) {
 
 If a return type isn't specified, the C compiler assumes a default return type
 of ==int==.
-<!--SR:!2023-05-15,3,267-->
+<!--SR:!2023-06-08,4,247-->
 
 The return type of ==void== states explicitly that no value is returned.
 <!--SR:!2023-05-15,3,267-->

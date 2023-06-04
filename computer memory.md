@@ -26,7 +26,7 @@ than the previous cell's address.
 ## Facts about computer memory
 
 A computer can jump to any memory address ==in one== step.
-<!--SR:!2023-04-17,3,250-->
+<!--SR:!2023-11-30,179,270-->
 
 When computer allocate an array, it also "makes note" ==at which memory address
 the array begins==.

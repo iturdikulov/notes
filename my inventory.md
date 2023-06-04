@@ -6,7 +6,7 @@ sr-ease: 270
 sr-interval: 4
 tags:
   - inbox
-  - permanent
+  - outline
 ---
 
 # My Inventory

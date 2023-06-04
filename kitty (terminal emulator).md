@@ -36,56 +36,56 @@ tags:
 Open URL in web browser
 ?
 <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>e</kbd>
-<!--SR:!2023-04-16,1,232-->
+<!--SR:!2023-06-10,6,212-->
 
 Edit kitty.conf
 ?
 <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>f2</kbd>
-<!--SR:!2023-05-03,18,270-->
+<!--SR:!2023-12-10,189,290-->
 
 Reload kitty.conf
 ?
 <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>f5</kbd>
-<!--SR:!2023-04-19,4,272-->
+<!--SR:!2023-06-12,8,252-->
 
 Go to specific tab
 ?
 <kbd>ctrl</kbd>+<kbd>alt</kbd>+<kbd>n</kbd>
-<!--SR:!2023-04-19,4,272-->
+<!--SR:!2023-08-16,73,272-->
 
 Close current tab
 ?
 <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>q</kbd>
-<!--SR:!2023-05-05,3,212-->
+<!--SR:!2023-06-09,5,192-->
 
 Move tab forward
 ?
 <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>.</kbd>
-<!--SR:!2023-04-16,1,232-->
+<!--SR:!2023-06-09,5,212-->
 
 Move tab backward
 ?
 <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>,</kbd>
-<!--SR:!2023-04-16,1,232-->
+<!--SR:!2023-08-02,59,232-->
 
 ## Custom shortcuts
 
 Switch project using sessionizer
 ?
 <kbd>c</kbd>+<kbd>space</kbd>
-<!--SR:!2023-04-19,4,272-->
+<!--SR:!2023-12-11,190,292-->
 
 Find tab
 ?
 <kbd>c</kbd>+<kbd>a</kbd>+<kbd>f</kbd>
-<!--SR:!2023-05-05,3,212-->
+<!--SR:!2023-06-09,5,192-->
 
 Switch to `n` tab
 ?
 <kbd>c</kbd>+<kbd>a</kbd>+<kbd>[n]</kbd>
-<!--SR:!2023-04-19,4,272-->
+<!--SR:!2023-06-14,10,252-->
 
 Start keyboard-driven text selection as a kitten, using [kitty_grab](https://github.com/yurikhan/kitty_grab)
 ?
 <kbd>c</kbd>+<kbd>a</kbd>+<kbd>c</kbd>
-<!--SR:!2023-04-16,1,232-->
+<!--SR:!2023-06-10,6,212-->

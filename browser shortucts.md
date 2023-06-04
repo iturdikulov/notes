@@ -15,7 +15,7 @@ tags:
 This is a list of keyboard shortcuts which I use in my browser.
 Currently, I use [[brave (web browser)]].
 
-# Browser
+Also, would be useful to check [[vimium]] note.
 
 ## Tabs and Windows
 
@@ -396,3 +396,4 @@ Togle PIP
 Save item in Zotero
 ?
 <kbd>meta</kbd>+<kbd>shift</kbd>+<kbd>z</kbd>
+

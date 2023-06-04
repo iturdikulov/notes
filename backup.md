@@ -5,7 +5,7 @@ sr-due: 2023-08-10
 sr-ease: 230
 sr-interval: 1
 tags:
-- defenition
+- definition
 - inbox
 ---
 

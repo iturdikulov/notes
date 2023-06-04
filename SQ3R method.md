@@ -6,7 +6,7 @@ sr-ease: 210
 sr-interval: 1
 tags:
 - inbox
-- definiton
+- definition
 ---
 
 # SQ3R method

@@ -3,6 +3,7 @@ title: "Handmade Hero"
 tags:
   - "inbox"
   - "research"
+  - "code-tip"
 author: "Casey Muratori"
 canonicalUrl: "https://hero.handmade.network/episode/code"
 citekey: "CaseyMuratoriHandmadeHero2014"

@@ -6,7 +6,7 @@ sr-ease: 250
 sr-interval: 3
 tags:
 - inbox
-- permanent
+- outline
 sr-due: 2023-05-24
 sr-interval: 7
 sr-ease: 230

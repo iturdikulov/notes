@@ -6,7 +6,7 @@ sr-ease: 230
 sr-interval: 2
 tags:
 - inbox
-- literature
+- languages-tip
 sr-due: 2023-12-08
 sr-interval: 205
 sr-ease: 250

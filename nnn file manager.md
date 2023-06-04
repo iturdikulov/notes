@@ -251,7 +251,7 @@ Lock
 Help, conf
 ?
 <kbd>?</kbd>
-<!--SR:!2023-05-03,1,230-->
+<!--SR:!2023-06-08,4,210-->
 
 ## type-to-nav mode shortcuts
 Go to first file/match

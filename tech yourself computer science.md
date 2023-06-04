@@ -6,7 +6,7 @@ sr-ease: 208
 sr-interval: 1
 tags:
 - inbox
-- permanent
+- research
 sr-due: 2023-10-30
 sr-interval: 166
 sr-ease: 228

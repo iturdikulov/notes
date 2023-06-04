@@ -27,10 +27,9 @@ Run display fix script. Sometimes it's needed to fix display after suspend or hi
 <kbd>super</kbd>+<kbd>shift</kbd>+<kbd>ctrl</kbd>+<kbd>w</kbd>
 
 Enable Do not Disturb mode
-TODO: add tasker/android support
 ?
 <kbd>super</kbd>+<kbd>ctrl</kbd>+<kbd>n</kbd>
-<!--SR:!2023-04-18,3,269-->
+<!--SR:!2023-12-09,188,289-->
 
 Sync email (TODO: need check)
 ?
@@ -117,7 +116,7 @@ Super+Shift+Control+2
 apply tag to all (window appear on all tags), to reset apply tag again.
 ?
 Super+Shift+0
-<!--SR:!2023-04-16,1,229-->
+<!--SR:!2023-06-11,7,209-->
 
 banish tags (add/remove all windows from #2 tag)
 it's sort of moving all windows from tag #2 to current tag. On tag switch - DWM reset this.
