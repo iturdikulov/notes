@@ -50,9 +50,10 @@ after finishing studying.
 
 1. Study with social groups increase your ==motivation== and help you to learn.
    It's also provided challenge and competition.
-2. Read the ==whole chunk of material== and then get back and read and
+   
+1. Read the ==whole chunk of material== and then get back and read and
    understand the 1st paragraph again, one by one.
-3. Sleep well, have a good rest for your memory, your brain do
+1. Sleep well, have a good rest for your memory, your brain do
    ==sort of garbage== cleaning during the sleep.
 4. Write ==notes== during the reading, and right after the reading; sit down
    with your notes and expand on everything you wrote down, dive into it deeply.
