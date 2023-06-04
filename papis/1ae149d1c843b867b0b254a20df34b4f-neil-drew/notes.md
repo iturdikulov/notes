@@ -80,6 +80,7 @@ Book contains linked examples, so you can download them and play with them.
 ## Use Vim's Factory Settings \24
 
 To open vim with default settings run this command ==`vim -u NONE -N`==. -N flag here reverts vi compatible mode (*nocompatible*). Set nocompatible is completely ignored in nvim, +1 reason to use it 🤔. But butter just use blank `init.lua` file, to enable built-in plugins.
+<!--SR:!2023-06-05,1,239-->
 
 ## On the Role of Vim Script \25
 
@@ -96,14 +97,17 @@ If you know how to craft useful actions using vim, you can reuse them and repeat
 ## Tip 1. Meet the Dot Command \28
 
 `:h .`::Dot command help.
+<!--SR:!2023-06-07,3,258-->
 `x`::Delete character under cursor.
 `u`::Undo.
 `dd`::Delete current line.
+<!--SR:!2023-06-07,3,266-->
 `.`::repeat last command.
 `>{motion}`::Increase indentation depending on motion.
 `>G`::Increase indentation from the current line until the end of the file (in markdown until section?).
 
 Do vim record keystrokes if we enter insert mode and type something?::Yes, we can even repeat these keystrokes.
+<!--SR:!2023-06-08,3,258-->
 
 The dot command is a Micro ==macro==.
 
@@ -124,6 +128,7 @@ var foobar = foo + bar;
 ```
 
 How run normal mode commands across a range?::use `:normal` command.
+<!--SR:!2023-06-05,1,238-->
 `C`::Change to the end of the line and set insert mode.
 `s`::Delete character under cursor and set insert mode.
 `S`::Delete current line and set insert mode.
@@ -159,6 +164,7 @@ Scan line for previous character, repeat, undo::`F{char}/T{char}`, `;`, `,`
 Scan document for next match, repeat, undo::`/pattern<CR>`, `n`, `N`
 Scan document for previous match, repeat, undo::`?pattern<CR>`, `n`, `N`
 Pefrom substitution, repeat, undo::`:s/old/new/`, `&`, `u`
+<!--SR:!2023-06-06,1,238-->
 Execute a sequence of changes (record & execute macro), repeat, undo::`qx{changes}q`, `@x`, `u`
 
 Difference between `:s` and `:%s`

@@ -54,12 +54,13 @@ normal mode, for navigation and manipulation of text::`ESC` or `C-[` or `C-c` or
 insert mode, for inserting new text.::`iIaAoO`
 
 visual, for navigation and manipulation of text selections::`v` or `V` or `C-v`
+<!--SR:!2023-06-06,2,228-->
 
 command-line, for entering editor commands::`:`
 
 replace mode, replace existing text by directly typing over it.::`R`
 
-mode similar to visual, but with a more MS Windows-like behavior::`select` TODO: check
+mode similar to visual, but with a more MS Windows-like behavior::`select`
 
 similar to the command-line mode but optimized for batch processing::`ex-mode` TODO: check
 
@@ -82,7 +83,7 @@ How to split line (a/i/r)
 - `r<cr>`
 - `i<cr><esc>`
 
-`!`
+`:!`
 ?
 external filter, used in command mode to execute something (`r!` redirect
 output)
@@ -153,6 +154,7 @@ go To line n `:n`
 go to first line::`gg`
 
 go to last line of document::`G`
+<!--SR:!2023-06-07,3,249-->
 
 go to line n::`[n]gg`
 
@@ -160,7 +162,7 @@ go To line n::`[n]G`
 
 Puts the current line at the top::`zt`
 
-Puts the current line at the middle::`zz`
+Puts the current line at the middle (and scroll to middle)::`zz`
 
 Puts the current line at the bottom::`zb`
 
@@ -170,18 +172,20 @@ Scrolling down, cursor staying on the same line::`C-y`
 Jump by **s**tart of words (punctuation considered words)::`w`
 
 Jump by **s**tart words (words determined only by spaces, no punctuation)::`W`
+<!--SR:!2023-06-07,3,249-->
 
 Jump to en**d** of words (punctuation considered words)::`e`
 
 Jump to en**d** of words (no punctuation)::`E`
-<!--SR:!2023-06-04,1,213-->
+<!--SR:!2023-06-05,1,193-->
 
 Jump **b**ackward by words (punctuation considered words)::`b`
+<!--SR:!2023-06-05,1,211-->
 
 Jump **b**ackward by words (no punctuation)::`B`
 
 Jump backwar**d** to end of words::`ge`
-<!--SR:!2023-06-04,1,210-->
+<!--SR:!2023-06-05,1,190-->
 
 **J**ump to zero symbol (start of line)::`0`
 <!--SR:!2023-06-05,2,233-->
@@ -195,10 +199,12 @@ Jump to the last non-blank character of the lin**e** ::`g_`
 Move to the current line (useful for making commands line-based)::`_`
 
 Move line upwards, on the first not blank character::`-`
+<!--SR:!2023-06-05,1,209-->
 
 Move line downwards, on the first not blank character::`+`
 
 Move the cursor forward to the next sentence (or table cell)::`)`
+<!--SR:!2023-06-05,1,208-->
 
 Move backward by a sentence (or table cell)::`(`
 
@@ -212,6 +218,7 @@ Move the cursor a section forwards or to the next `{`::`]]`
 Move the cursor a section backwards or the previous `{`::`]]`
 
 Move the cursor to the top, middle, bottom of the screen.::`HML`
+<!--SR:!2023-06-05,1,209-->
 
 Jump to matching brace, bracket, or parentheses::`%`
 
@@ -234,6 +241,7 @@ Jump to more recent position you were a::`C-i`
 ### Clipboard
 
 `ysiw[char]`:::change the surrounding of inner word
+<!--SR:!2023-06-05,1,211-->
 
 `ysWf ysWF`:::wrap text/word with function example
 
@@ -248,6 +256,7 @@ Jump to more recent position you were a::`C-i`
 `p`::put (paste) the clipboard after cursor/current line
 
 `P`::put (paste) before cursor/current line
+<!--SR:!2023-06-06,2,228-->
 
 `:set`::paste avoid unexpected effects in pasting
 
@@ -266,6 +275,7 @@ Jump to more recent position you were a::`C-i`
 `"xgp`::just like "p", but leave the cursor just after the new text
 
 `"xgP`::just like "P", but leave the cursor just after the new text
+<!--SR:!2023-06-05,1,209-->
 
 `:[line]put`::x put the text from register x after `[line]`
 
@@ -302,6 +312,7 @@ Reverse two letters (delete and paste, technically)::`Xp`
 Undo changes::`u`
 
 Redo changes::`C-r`
+<!--SR:!2023-06-05,1,209-->
 
 Insert content of register r (`in insert mode`)::`C-rr`
 
@@ -314,6 +325,7 @@ Switch case of current word::`g~iw`
 Make current word uppercase::`gUiw`
 
 Make current word lowercase::`guiw`
+<!--SR:!2023-06-05,1,211-->
 
 Make uppercase until end of line::`gU$`
 
@@ -322,10 +334,12 @@ Make lowercase until end of line::`gu$`
 Change line to UPPER::`gUU`
 
 Fill text::`gw`
+<!--SR:!2023-06-06,1,208-->
 
 Swap current line with next (line down)::`ddp`
 
 Swap current line with previous (line up)::`ddkP`
+<!--SR:!2023-06-06,2,231-->
 
 Duplicate line and stay on same line::`yyP`
 
@@ -334,6 +348,7 @@ Fix spaces / tabs issues in whole file::`:%retab`
 ### Deleting text
 
 `ds[char or t]`:::deletes the surrounding char or HTML element
+<!--SR:!2023-06-06,1,208-->
 
 Delete current character, previous character::`x`
 
@@ -355,14 +370,17 @@ Delete \[range\] lines::`:[range]d`
 `>>`::indent line one column to right
 
 `<<'::indent line one column to left
+<!--SR:!2023-06-06,2,228-->
 
 `==`::auto-indent current line
+<!--SR:!2023-06-05,1,208-->
 
 `=`::indent text, works with visual selection
 
 `>`::shift right in visual mode (v)
 
 `<`::shift left in visual mode (v)
+<!--SR:!2023-06-06,1,208-->
 
 ### Visual Mode
 
@@ -375,6 +393,7 @@ Delete \[range\] lines::`:[range]d`
 `O`:::move to other corner of block
 
 `U`:::upper case of marked area
+<!--SR:!2023-06-05,1,208-->
 
 `C-v`:::start visual block mode
 
@@ -385,26 +404,30 @@ Delete \[range\] lines::`:[range]d`
 `ib`:::mark inner () block
 
 `ggVG`:::Select All
+<!--SR:!2023-06-05,1,208-->
 
 `vc`:::change (replace) marked text
 
-`vy`:::yank (copy) marked text
+`y`:::yank (copy) marked text
 
 `vd`:::delete marked text
 
 `v~`:::switch case
 `
 `v%`:::selects matching parenthesis
+<!--SR:!2023-06-06,1,208-->
 
 `vi{`:::selects matching curly brace
 
 `vi"`:::selects text between double quotes
+<!--SR:!2023-06-06,2,229-->
 
 `vi'`:::selects text between single quotes
 
 `viW|vis|vip|viB`:::select word, sentence, paragraph, innermost brackets
 
 `vt|vT|vf|VF`:::select and search
+<!--SR:!2023-06-05,1,209-->
 
 ### Fold
 
@@ -415,6 +438,7 @@ Fold text object ...<motion>
 `zf`
 
 `zf#j`:::creates a fold from the cursor down # lines.
+<!--SR:!2023-06-06,1,208-->
 
 `zf/`:::string creates a fold from the cursor to string.
 
@@ -429,6 +453,7 @@ Fold text object ...<motion>
 `zm`:::increases the fold-level by one.
 
 `zM`:::closes all open folds.
+<!--SR:!2023-06-06,1,208-->
 
 `zr`:::decreases the fold-level by one.
 
@@ -443,10 +468,12 @@ Fold text object ...<motion>
 `]z`:::move to end of open fold.
 
 `za`:::toggle fold *
+<!--SR:!2023-06-06,2,228-->
 
 `zo|zc`:::Fold/Unfold
 
 `zO|zC`:::open all nested folds, close all nested folds
+<!--SR:!2023-06-06,1,208-->
 
 ### Bookmarks
 
@@ -476,6 +503,7 @@ Also works outside vim (with my alias `e`)
 Switch to buffer whose filename begins with "vimrc"::`:b vimrc[tab]`
 
 Edit the file whose name is under or after the cursor::`gf`
+<!--SR:!2023-06-06,1,208-->
 
 `:x` or `ZZ`::quit and save
 
@@ -510,6 +538,7 @@ inner::`i`
 word::`w`
 
 sentence::`s`
+<!--SR:!2023-06-06,1,208-->
 
 paragraph::`p`
 
@@ -522,6 +551,7 @@ back quote::`` ` ``
 a parenthesized block::`)` `}`
 
 a tag::`t`
+<!--SR:!2023-06-06,2,231-->
 
 a single tag::`>`
 
@@ -536,8 +566,10 @@ TODO: add more examples
 ## Advanced
 
 `zf`::fold text object
+<!--SR:!2023-06-06,2,228--> (can create fold)
 
 Find link under cursor::`gx` - open URL under cursor (`netrw-gx`)
+<!--SR:!2023-06-05,1,211-->
 
 Type ==`tab`== to complete a command
 
@@ -554,6 +586,7 @@ List previous commands in command mode::`C-f`
 `]s`:::next misspelled word
 
 `[s`:::previous misspelled word
+<!--SR:!2023-06-07,3,248-->
 
 `zg`:::add word to wordlists TODO: merge wordlists with ltex plugin
 
@@ -582,9 +615,10 @@ Most recently used command (read only)::`":`
 The alternate file register (sort of last edited file)::`"#`
 
 The black hole register::`"_`
+<!--SR:!2023-06-06,2,228-->
 
-The selection (system clipboard)::`"*`, `"+`
-<!--SR:!2023-06-04,1,213-->
+Register AKA the selection (system clipboard)::`"*`, `"+`
+<!--SR:!2023-06-06,2,213-->
 
 Last search pattern register::`"/`
 
@@ -638,16 +672,17 @@ You can use vim motion keys to navigate between open windows, for example to nav
 split open file::`:sp f`
 
 vertical split open file::`:vsp f`
-<!--SR:!2023-06-04,1,213-->
+<!--SR:!2023-06-05,1,193-->
 
 next/previous tab::`gt gT`
 
 `C-w v`::window split vertically
-<!--SR:!2023-06-04,1,213-->
+<!--SR:!2023-06-06,2,213-->
 
 `C-w s`::window split horizontal
 
 `C-w C-w`::to switch windows
+<!--SR:!2023-06-07,2,228-->
 
 `C-w q`::to kill windows. Better `bd` replacement
 <!--SR:!2023-06-06,3,250-->
@@ -655,7 +690,7 @@ next/previous tab::`gt gT`
 `C-w >` and `C-w <`:::Increase and decrease window width
 
 `C-w +` and `C-w -`:::Increase and decrease window height
-<!--SR:!2023-06-05,2,233-->
+<!--SR:!2023-06-05,2,233!2023-06-06,2,228-->
 
 Equal window::`C-w =`
 <!--SR:!2023-06-05,2,230-->
@@ -663,7 +698,7 @@ Equal window::`C-w =`
 Close other windows::`C-w o`
 
 Swap windows::`C-w x`
-<!--SR:!2023-06-04,1,213-->
+<!--SR:!2023-06-06,2,213-->
 
 jumps to the last window you used \*::`C-w C-p`
 
@@ -687,6 +722,7 @@ This use `shada` file, which is a viminfo analog. Check `:h shada` for more info
 Load view
 ?
 `:loadview [N]`, N is a view name (1-9)
+<!--SR:!2023-06-06,1,208-->
 
 ### Netrw
 
@@ -697,6 +733,7 @@ Go back to the previous directory in the history::`u`
 Jump to the most recent directory saved on the "Bookmarks". To create a bookmark we use `mb`::`gb`
 
 Open a preview window::`p`
+<!--SR:!2023-06-07,2,228-->
 
 Close the preview window::`<C-w>z`
 
@@ -717,6 +754,7 @@ Delete a file::`D`
 `M-\`::toggle copilot
 
 `M-S-del`::delete current file, warning deleting without confirmation. TODO: use trash-cli
+<!--SR:!2023-06-06,2,228-->
 
 Right now I use this color-scheme
 <https://raw.githubusercontent.com/navarasu/onedark.nvim/master/lua/onedark/highlights.lua>
@@ -768,11 +806,12 @@ comment motion::`gc[motion,a]`
 `rubyc`::insert ruby code block
 
 `goc`::insert go code block
-<!--SR:!2023-06-04,1,210-->
+<!--SR:!2023-06-06,2,210-->
 
 `rustc`::insert rust code block
 
 `lua`::insert Lua code block
+<!--SR:!2023-06-06,2,231-->
 
 `shc`::insert bash code block
 <!--SR:!2023-06-05,2,233-->
@@ -783,20 +822,22 @@ TODO: need review
 
 Find notes::`<leader>zf`
 
-Search notes::`<leader>zg`
+Search **in** notes::`<leader>zg`
 
 Follow link::`<leader>zz`
 
 Find weekly notes::`<leader>zw`
 
 List weeks::`<leader>zW`
+<!--SR:!2023-06-08,3,248-->
 
 Create new note::`<leader>zn`
 
 Create new note from template::`<leader>zN`
-<!--SR:!2023-06-04,1,213-->
+<!--SR:!2023-06-06,2,213-->
 
 Yank note link::`<leader>zy`
+<!--SR:!2023-06-07,2,228-->
 
 Show calendar::`<leader>zc`
 
@@ -815,7 +856,7 @@ Show backlinks::`<leader>zb`
 Find friends::`<leader>zF`
 
 Preview image::`<leader>zp`
-<!--SR:!2023-06-04,1,210-->
+<!--SR:!2023-06-06,2,210-->
 
 Browse media::`<leader>zm`
 
@@ -825,6 +866,7 @@ Rename note::`<leader>zr`
 
 If you need markdown links, use ==`url_to_markdown.sh`== script. TODO: automate
 this.
+<!--SR:!2023-06-06,2,228-->
 
 `C-SPC`::switch project using `kitty sessionizer` [script](~/.local/bin/kitty-sessionizer.sh)
 

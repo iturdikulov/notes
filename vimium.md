@@ -48,6 +48,7 @@ Once you have Vimium installed, you can see this list of key bindings at any tim
 `i`::enter insert mode -- all commands will be ignored until you hit Esc to exit
 
 `yy`::copy the current url to the clipboard
+<!--SR:!2023-06-07,2,245-->
 
 `yf`::copy a link url to the clipboard
 
@@ -60,6 +61,7 @@ Once you have Vimium installed, you can see this list of key bindings at any tim
 `C-h`::Open URL, bookmark, or history entry
 
 `C-H`::Open URL, bookmark, history entry in a new tab
+<!--SR:!2023-06-06,1,225-->
 
 `b`::Open bookmark
 
@@ -87,6 +89,7 @@ Manipulating tabs:
 `K, gt`::go one tab right
 
 `g0`::go to the first tab. Use ng0 to go to n-th tab
+<!--SR:!2023-06-06,1,225-->
 
 `g$`::go to the last tab
 
@@ -99,6 +102,7 @@ Manipulating tabs:
 `x`::close current tab
 
 `X`::restore closed tab (i.e. unwind the 'x' command)
+<!--SR:!2023-06-07,2,245-->
 
 `T`::search through your open tabs
 
@@ -131,12 +135,15 @@ focus the first (or n-th) text input box on the page. Use <tab> to cycle through
 options.
 
 `gu`::go up one level in the URL hierarchy
+<!--SR:!2023-06-06,2,245-->
 
 `gU`::go up to root of the URL hierarchy
 
 `ge`::edit the current URL
+<!--SR:!2023-06-05,1,228-->
 
 `gE`::edit the current URL and open in a new tab
+<!--SR:!2023-06-07,2,245-->
 
 `zH`::scroll all the way left
 
@@ -152,6 +159,7 @@ in the queue and will also exit insert and find modes.
 
 There are some advanced commands which aren't documented here; refer to the help
 dialog (type ==`?`==) for a full list.
+<!--SR:!2023-06-05,1,230-->
 
 ## Custom Key Mappings
 
