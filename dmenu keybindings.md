@@ -9,7 +9,7 @@ tags:
 - dev-tip
 ---
 
-# Dmenu keybindings
+# dmenu keybindings
 
 dmenu is completely controlled by the keyboard.
 
