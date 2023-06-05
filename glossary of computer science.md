@@ -7,6 +7,11 @@ tags:
 
 # Glossary of [[computer science]]
 
+TODO: read full article (fast/skim)
+TODO: read full article again (slow)
+TODO: write in own words
+TODO: review all definitions
+
 ## A
 
 - abstract data type (ADT)
