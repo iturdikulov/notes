@@ -133,7 +133,7 @@ So knowledge in data structures can write scalable, fast and efficient software.
 Most basic data structure?
 ?
 Array, versatile
-<!--SR:!2023-04-16,4,270-->
+<!--SR:!2023-08-22,78,270-->
 
 Some information about arrays: [[array (computer science)]]
 

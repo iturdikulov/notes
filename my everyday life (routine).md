@@ -8,13 +8,13 @@ tags:
 # My Everyday life (routine)
 
 - I.::Initialization, want to do good wake-up, care about my body, warm-up and walk.
-<!--SR:!2023-06-05,1,230-->
+<!--SR:!2023-06-07,2,230-->
 - n.::Need to learn something new, to grow it's important.
-<!--SR:!2023-06-05,1,230-->
+<!--SR:!2023-06-07,2,230-->
 - o.::Opportunity to **work hard**, with intervals and plan.
 <!--SR:!2023-06-07,3,250-->
 - m.::My workout to be healthy, this give me energy.
-<!--SR:!2023-06-05,1,230-->
+<!--SR:!2023-06-07,2,230-->
 - o.::Opportunity for side projects, to improve your skills and have fun.
 <!--SR:!2023-06-07,3,250-->
 - z.::Zone of planning, and rest, to be ready for tomorrow.

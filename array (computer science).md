@@ -85,7 +85,7 @@ array during its initialization.
 When allocating an array the computer always keeps track:
 ?
 Beginning address and array size
-<!--SR:!2023-04-16,2,221-->
+<!--SR:!2023-06-12,7,201-->
 
 An array is stored such that the **position of each element** can be computed
 from its **index tuple** by a mathematical formula. So a computer can find the
@@ -161,12 +161,12 @@ It's efficient and fastens operation, since require only one step.
 ?
 Looking to see if a particular value exists within the array, and if so, at
 which index.
-<!--SR:!2023-04-15,1,186-->
+<!--SR:!2023-06-10,5,166-->
 
 Basic search operation is "==linear search==". We check each cell one at time
 until we find the value we are looking for (or until we read all cells).
 Steps = `N` cells in array. Search is much slower than read (less efficient).
-<!--SR:!2023-04-16,2,220-->
+<!--SR:!2023-08-03,59,220-->
 
 In other words it's search for an index of a value in the array, sort of inverse
 of reading. We provide a value to the computer and asking it to return the
@@ -175,7 +175,7 @@ index of that value's location.
 ### Array insert operation
 ?
 Adding a new value to an additional slot within the array.
-<!--SR:!2023-04-15,1,186-->
+<!--SR:!2023-06-13,8,166-->
 
 Efficiency depends on where we insert the value.
 
