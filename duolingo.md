@@ -353,3 +353,46 @@ The skirts are black.
 Моё платье чёрное.
 ?
 My dress is black.
+
+## Справочник раздела 9
+
+Извините, вы говорите по-русски?
+?
+Excuse me, do you speak Russian?
+
+Я потерялся, и мне нужна помощь.
+?
+I'm lost and I need help.
+
+Есть ли автобусная остановка поблизости?
+?
+Is there a bus stop nearby?
+
+Да, есть автобусная остановка справа.
+?
+Yes, there is a bus stop on the right.
+
+Спасибо за вашу помощь.
+?
+Thank you for your help.
+
+У вас есть туалет?
+?
+Do you have a bathroom?
+
+### Что вам нужно?
+
+По‑русски мы говорим мне нужно, ей нужно и т.д. По‑английски же говорят
+==I need, she needs==.
+
+Если тебе нужны мои брюки, возьми их.
+?
+If you need my pants, take them.
+
+Нам нужен врач.
+?
+We need a doctor.
+
+(Этой) Кошке нужна еда.
+?
+The cat needs food.
