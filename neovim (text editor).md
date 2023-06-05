@@ -185,7 +185,7 @@ Jump **b**ackward by words (punctuation considered words)::`b`
 Jump **b**ackward by words (no punctuation)::`B`
 
 Jump backwar**d** to end of words::`ge`
-<!--SR:!2023-06-05,1,190-->
+<!--SR:!2023-06-06,1,170-->
 
 **J**ump to zero symbol (start of line)::`0`
 <!--SR:!2023-06-05,2,233-->
@@ -204,7 +204,7 @@ Move line upwards, on the first not blank character::`-`
 Move line downwards, on the first not blank character::`+`
 
 Move the cursor forward to the next sentence (or table cell)::`)`
-<!--SR:!2023-06-05,1,208-->
+<!--SR:!2023-06-07,2,208-->
 
 Move backward by a sentence (or table cell)::`(`
 
@@ -241,7 +241,7 @@ Jump to more recent position you were a::`C-i`
 ### Clipboard
 
 `ysiw[char]`:::change the surrounding of inner word
-<!--SR:!2023-06-05,1,211-->
+<!--SR:!2023-06-06,1,191-->
 
 `ysWf ysWF`:::wrap text/word with function example
 
@@ -373,7 +373,7 @@ Delete \[range\] lines::`:[range]d`
 <!--SR:!2023-06-06,2,228-->
 
 `==`::auto-indent current line
-<!--SR:!2023-06-05,1,208-->
+<!--SR:!2023-06-07,2,208-->
 
 `=`::indent text, works with visual selection
 
@@ -393,7 +393,7 @@ Delete \[range\] lines::`:[range]d`
 `O`:::move to other corner of block
 
 `U`:::upper case of marked area
-<!--SR:!2023-06-05,1,208-->
+<!--SR:!2023-06-08,3,228-->
 
 `C-v`:::start visual block mode
 
@@ -404,7 +404,7 @@ Delete \[range\] lines::`:[range]d`
 `ib`:::mark inner () block
 
 `ggVG`:::Select All
-<!--SR:!2023-06-05,1,208-->
+<!--SR:!2023-06-08,3,228-->
 
 `vc`:::change (replace) marked text
 
@@ -427,7 +427,7 @@ Delete \[range\] lines::`:[range]d`
 `viW|vis|vip|viB`:::select word, sentence, paragraph, innermost brackets
 
 `vt|vT|vf|VF`:::select and search
-<!--SR:!2023-06-05,1,209-->
+<!--SR:!2023-06-07,2,209-->
 
 ### Fold
 
@@ -663,6 +663,16 @@ How quickly close command history window?
 ?
 `<C-c><C-c>`
 
+### Buffers
+
+List buffers
+?
+`:buffers` - built-in command, `:Telescope buffers` - telescope command
+
+Switch to buffer
+?
+`:b <buffer name>` or `:b <buffer number>`
+
 ### Windows
 
 You can use vim motion keys to navigate between open windows, for example to navigate to left window?
@@ -700,7 +710,11 @@ Close other windows::`C-w o`
 Swap windows::`C-w x`
 <!--SR:!2023-06-06,2,213-->
 
+Open current window in new tab::`C-w T`
+
 jumps to the last window you used \*::`C-w C-p`
+
+Create a new window and start editing an empty file in it::`:new` or `C-w n`
 
 ### Sessions
 

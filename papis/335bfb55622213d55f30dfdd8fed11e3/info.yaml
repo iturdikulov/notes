@@ -1,0 +1,12 @@
+abstract: 'Today we use the wonderful nvim-dap to debug and work with #golang and
+  explore different debugging possiblities INSIDE of neovim.They said it couldn''t
+  be don...'
+files: []
+keywords: video, sharing, camera phone, video phone, free, upload
+notes: notes.md
+papis_id: 797b3014480ee0009c55cc6661961ed4
+ref: DebuggingInNe
+time-added: 2023-06-05-20:51:30
+title: Debugging In Neovim (ft BashBunni)
+type: video.other
+url: https://www.youtube.com/watch?v=0moS8UHupGc
