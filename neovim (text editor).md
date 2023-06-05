@@ -884,8 +884,9 @@ this.
 
 `C-SPC`::switch project using `kitty sessionizer` [script](~/.local/bin/kitty-sessionizer.sh)
 
-## Sources
+## Resources
 
+- [x] [@DebuggingInNe] Debugging In Neovim (ft BashBunni and TJ DeVries) - YouTube
 - [Vim 01 - Основы - YouTube](https://www.youtube.com/watch?v=zNnsNtBF80g)
 - [ ] http://jrmiii.com/attachments/Vim.pdf
 - [ ] describe [packer](~/.config/nvim/lua/inomoz/packer.lua)
