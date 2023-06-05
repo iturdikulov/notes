@@ -40,4 +40,6 @@ My current focus is on:
 
 15. [Math is Fun](https://www.mathsisfun.com/)
 
+16. [[papis/5aee9141341f0446db43774cc7c61657/notes|Blender Beginner Donut Tutorial]]
+
 # Archive
