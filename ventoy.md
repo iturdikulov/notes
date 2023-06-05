@@ -4,6 +4,9 @@ tags:
   - inbox
   - definition
 canonicalUrl: https://www.ventoy.net/en/index.html
+sr-due: 2023-06-09
+sr-interval: 4
+sr-ease: 276
 ---
 
 # Ventoy

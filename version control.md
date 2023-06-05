@@ -3,6 +3,9 @@ date: 2023-06-02
 tags:
   - inbox
   - definition
+sr-due: 2023-06-08
+sr-interval: 3
+sr-ease: 251
 ---
 
 # Version control
