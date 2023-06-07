@@ -99,6 +99,10 @@ Show full change history
 `git log`
 `git l` - custom alias
 
+Find git commit that introduced a string in any branch
+?
+`git log -S <string> --source --all`
+
 View commits which would be pushed (commits in current local branch).
 ?
 `git log @{u}..`
