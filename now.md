@@ -11,7 +11,7 @@ My current focus is on:
 1. [Math is Fun](https://www.mathsisfun.com/)
 2. [[Duolingo]]. Including daily practice and theory.
 3. [[papis/5aee9141341f0446db43774cc7c61657/notes|Blender Beginner Donut Tutorial]]
-4. Working Project
+4. Working Project and Working Project in [[neovim (text editor)]]
 5. [[papis/14f60db29650af4d6edb2aef6d5539da/notes|The Python Tutorial]]. And [[comprehensive python cheatsheet|Python Cheat sheet]].
 6. [[papis/bdcf7cd50c6dc8a18320d0c05b44affe-ramalho-luciano/notes|Fluent Python]].
 7. [[papis/2ef118ce3473c9fe93acfc371e3f736e-wengrow-jay/notes|A Common-sense Guide to Data Structures and Algorithms]].
