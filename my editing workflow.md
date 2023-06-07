@@ -20,11 +20,21 @@ I n daily life I use [[pycharm]] and [[neovim (text editor)]] inside
 
 Maybe in near future I will switch to use only neovim.
 
+- [ ] files navigation
+
 ## Files navigation
 
-- grep content in current project::`<leader>fs`
+- focus editor::`<c-'>`
+
+- grep content in current project and open find toolbar::`<leader>fs`
 
 - locate file in file manager::`<leader>pv`
+
+- go to file::`<m-p>`
+
+- [ ] recent files, Telescope oldfiles + cwd
+
+- [ ] recent locations, https://github.com/cbochs/portal.nvim
 
 - find file, with history and fuzzy search::`M-p`
 
@@ -38,13 +48,11 @@ Maybe in near future I will switch to use only neovim.
 
 - go to declaration::`gD`
 
-- find symbol, based on grep:`<leader>vws[S]`
+- find symbol, based on grep:`<leader>vws[S]`*
 
 - find usages/references::`<leader>vrr`
 
 - go to older/newer position::`<c-o>/<c-i>`
-
-- signature help `i` mode::`c-h`
 
 - hover help::`K`
 
@@ -54,13 +62,13 @@ Maybe in near future I will switch to use only neovim.
 
 ## Code editing
 
-- code folding::`zo/zc/zr`
+- code folding::`zo/zc/zr` *
 
 - comment line::`gcc`
 
 - comment block`gc<motion>`
 
-- code formatting
+- code formatting::`<leader>F`*
 
 - code actions::`<leader>vaa`
 
@@ -70,7 +78,7 @@ Maybe in near future I will switch to use only neovim.
 
 - rename/move/extract/inline
 
-- automatic refactorings (black integration)
+- automatic refactorings (<!-- black integration -->)
 
 - sort/organize imports
 
@@ -82,7 +90,7 @@ Maybe in near future I will switch to use only neovim.
 
 - snippets
 
-## Code debugging
+## Code debugging/testing
 
 - run debugger::`<f5>`
 
@@ -100,8 +108,6 @@ Maybe in near future I will switch to use only neovim.
 
 - evaluate expression
 
-## Code testing and running
-
 - run/debug the nearest test::`<leader>pt`
 
 - generate test
@@ -112,9 +118,9 @@ Maybe in near future I will switch to use only neovim.
 
 ## Errors and warnings navigation
 
-- go to next/previous error::`<leader>gn/gp`??
+- go to next/previous error::`[d` `]d`
 
-- go to file with error::`<leader>gf`??traceback
+- go to file with error::?? traceback actions
 
 ## VCS
 
@@ -145,7 +151,7 @@ c-t c-n c-m-t c-m-n
 
 - [x] from the quickmenu, open a file in: a vertical split with control+v, a horizontal split with control+x, a new tab with control+t
 
-## figutive
+## Figutive
 
 - [x] open diff/git for current file
   <kbd>=</kbd>
