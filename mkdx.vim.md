@@ -12,42 +12,43 @@ sr-ease: 272
 
 # mkdx.vim
 
-> mkdx.vim is a Markdown plugin that aims to reduce the time you spend formatting your markdown documents
+> mkdx.vim is a Markdown plugin that aims to reduce the time you spend
+> formatting your markdown documents
 
 ## Core hotkeys
 
 Toggle list
 ?
-<kbd><leader>ll</kbd>
+`<leader>ll`
 
 Wrap link
 ?
-<kbd><leader>ln</kbd>
+`<leader>ln`
 
 Toggle checklist ([[telekasten.nvim]] method)
 ?
-<kbd><leader>zt</kbd>
+`<leader>zt`
 
 Toggle task item (support visual mode)
 ?
-<kbd><leader>t</kbd>
+`<leader>t`
 
 Check/uncheck list item (support visual mode)
 ?
-<kbd><leader>=</kbd> and <kbd><leader>-</kbd>
+`<leader>=` and <kbd><leader>-</kbd>
 Sort of `+/-`
 
 Dead link detection
 ?
-<kbd><leader>L</kbd>
+`<leader>L`
 
-Insert `<kbd>` shortcut
+Insert ``` shortcut
 ?
-<kbd><<tab></kbd>
+`<<tab>`
 
 Insert new line intended to list (if cursor is in list)
 ?
-<kbd>shift</kbd>+<kbd>enter</kbd>
+`shift+enter`
 
 ## TODO
 
