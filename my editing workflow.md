@@ -24,6 +24,8 @@ Maybe in near future I will switch to use only neovim.
 
 ## Files navigation
 
+- [ ] https://github.com/astral-sh/ruff-lsp
+
 - focus editor::`<c-'>`
 
 - grep content in current project and open find toolbar::`<leader>fs`
@@ -32,9 +34,21 @@ Maybe in near future I will switch to use only neovim.
 
 - go to file::`<m-p>`
 
-- [ ] recent files, Telescope oldfiles + cwd
+- recent files, Telescope old files + cwd::`<m-e>`
 
 - [ ] recent locations, https://github.com/cbochs/portal.nvim
+
+- [x] add file into harpoon list
+      leader-a
+- [x] show harpoon menu
+      c-e
+- [x] close harpoon menu
+      q or esc
+- [x] switch harpoon items
+c-t c-n c-m-t c-m-n
+
+- [x] from the quickmenu, open a file in: a vertical split with control+v, a horizontal split with control+x, a new tab with control+t
+
 
 - find file, with history and fuzzy search::`M-p`
 
@@ -76,6 +90,8 @@ Maybe in near future I will switch to use only neovim.
 
 ## Code refactoring
 
+- rope-vim
+
 - rename/move/extract/inline
 
 - automatic refactorings (<!-- black integration -->)
@@ -92,29 +108,56 @@ Maybe in near future I will switch to use only neovim.
 
 ## Code debugging/testing
 
-- run debugger::`<f5>`
+- [ ] https://github.com/tjdevries/config_manager/blob/78608334a7803a0de1a08a9a4bd1b03ad2a5eb11/xdg_config/nvim/after/plugin/dap.lua
 
-- restart debugger
+- run debugger configuration/continue::`<F5>`
 
-- stop debugger
+- restart debugger::`<leader>dR`
 
-- step over
+- toggle breakpoint::`<leader>db[B]`
 
-- step into
+- stop debugger::`<leader>dx`
 
-- step out
+- jump to cursor::`<S-F1>` *
 
-- run to cursor
+- step back::`<F1>` n*
+
+- step over::`<F3>`
+
+- step into::`<F2>`
+
+- step out::`<F4>`
+
+- run to cursor::`<leader>dC`
 
 - evaluate expression
 
-- run/debug the nearest test::`<leader>pt`
+- view breakpoints
+
+- run the nearest test::`<leader>dnn`
+
+- rerun the last test
+
+- run current test file::`<leader>dnf` *
+
+- debug the nearest test::`<leader>ddc`
+
+- open test results::`<leader>dno`
+
+- show summary::`<leader>dns`
+
+- toggle output panel::`<leader>dnt`
 
 - generate test
 
-- run test
-
 - coverage test
+
+- [x] https://github.com/harrisoncramer/nvim/blob/main/lua/plugins/neotest.lua check/use keybindings
+- [x] run nearest test with debugger, show stderr output
+Venv configured, filename is not `test.py`, but `test_*.py`
+- [-] run group of tests with debugger, show stderr output
+CI/Reporting
+
 
 ## Errors and warnings navigation
 
@@ -137,19 +180,6 @@ Maybe in near future I will switch to use only neovim.
 `git push -o merge_request.create --set-upstream origin HEAD`
 key:
 
-
-## harpoon n*
-
-- [x] add file into harpoon list
-      leader-a
-- [x] show harpoon menu
-      c-e
-- [x] close harpoon menu
-      q or esc
-- [x] switch harpoon items
-c-t c-n c-m-t c-m-n
-
-- [x] from the quickmenu, open a file in: a vertical split with control+v, a horizontal split with control+x, a new tab with control+t
 
 ## Figutive
 
@@ -279,6 +309,9 @@ c-a-p
 - [x] structure view
 :TSPlaygroundToggle
 
+- close tab
+  c-w q
+
 - close splits
   c-w o
 
@@ -302,7 +335,6 @@ c-a-p
 ## Todo
 - [x] telescope command_history
 
-- [x] https://github.com/harrisoncramer/nvim/blob/main/lua/plugins/neotest.lua check/use keybindings
 
 - [x] refactoring
 - pyton-rope arch package or rope
@@ -339,10 +371,6 @@ https://stackoverflow.com/questions/2147875/what-vim-commands-can-be-used-to-quo
 - [-] vim shell output actions...
 :h redir, !...|grep, r!... etc
 
-- [x] run nearest test with debugger, show stderr output
-Venv configured, filename is not `test.py`, but `test_*.py`
-- [-] run group of tests with debugger, show stderr output
-CI/Reporting
 - [-] run debugger with specific configuration
 run method?
 - [-] ~~gitsigns.nvim~~ - overkill? vim fugitive is enough?
