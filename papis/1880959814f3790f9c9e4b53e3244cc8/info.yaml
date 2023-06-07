@@ -1,0 +1,16 @@
+abstract: Zotero compatibility scripts for papis
+company: Papis
+extra: 'original-date: 2018-09-01T00:51:59Z'
+files: []
+libraryCatalog: GitHub
+month: 6
+notes: []
+papis_id: c666a48e53c94ef1fc12920d806716d2
+programmingLanguage: Python
+ref: PapisPapisZot2023
+seeAlso: []
+tags: bibtex; publications; zotero; papers; crossref; scihub; papis
+title: papis/papis-zotero
+type: software
+url: https://github.com/papis/papis-zotero
+year: 2023
