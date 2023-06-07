@@ -12,91 +12,127 @@ sr-ease: 271
 
 # My editing workflow
 
-## Introduction
+p* - pycharm only
+n* - neovim only
 
-In daily life I use [[pycharm]] and [[neovim (text editor)]].
+I n daily life I use [[pycharm]] and [[neovim (text editor)]] inside
+[[kitty (terminal emulator)]].
+
 Maybe in near future I will switch to use only neovim.
 
 ## Files navigation
 
-- find file, with history and fuzzy search
-<kbd>^+P</kbd>
+- grep content in current project::`<leader>fs`
 
-- find file, based on grep
-<leader>fs
+- locate file in file manager::`<leader>pv`
 
-- get file vcs history
+- find file, with history and fuzzy search::`M-p`
 
-- get file local history
-<leader>u
+- log git history of current file::`<leader>gl`
+
+- get file local history::`<leader>u`
 
 ## Code navigation
 
-- go to definition
-- go to declaration
-- find symbol, based on grep
-- find usages/references
-- go to older/newer position
-- go to previous/next hunk
-- go to next/previous file
+- go to definition::`gd`
+
+- go to declaration::`gD`
+
+- find symbol, based on grep:`<leader>vws[S]`
+
+- find usages/references::`<leader>vrr`
+
+- go to older/newer position::`<c-o>/<c-i>`
+
+- signature help `i` mode::`c-h`
+
+- hover help::`K`
+
+- go to previous/current file::`c-^`
+
+- go to previous/next function hunk::`[[`/`]]`
 
 ## Code editing
 
-- code folding
-zo/zc/zr
+- code folding::`zo/zc/zr`
 
-- comment line
-gcc
+- comment line::`gcc`
 
-- comment block
-gc<motion>
+- comment block`gc<motion>`
 
 - code formatting
-- code objects actions
-- macro
-- other vim magic
+
+- code actions::`<leader>vaa`
+
+- macro record/replay::`q<letter>/@<letter>`
 
 ## Code refactoring
 
 - rename/move/extract/inline
-- automatic refactorings
+
+- automatic refactorings (black integration)
+
 - sort/organize imports
 
 ## Code autocompletion
 
-- lsp autocompletion
+- confirm autocomplete::`<c-y>`
+
+- confirm copilot::`<tab>`
+
 - snippets
-- copilot
 
 ## Code debugging
 
-- run debugger
+- run debugger::`<f5>`
+
 - restart debugger
+
 - stop debugger
+
 - step over
+
 - step into
+
 - step out
+
 - run to cursor
+
 - evaluate expression
 
 ## Code testing and running
 
+- run/debug the nearest test::`<leader>pt`
+
 - generate test
+
 - run test
+
 - coverage test
+
+## Errors and warnings navigation
+
+- go to next/previous error::`<leader>gn/gp`??
+
+- go to file with error::`<leader>gf`??traceback
 
 ## VCS
 
 - add/remove into stage
+
 - commit/push
+
 - pull/rebase/merge
+
 - diff
 
-
-## -----
+- push and create merge request
+?
 `git push -o merge_request.create --set-upstream origin HEAD`
+key:
 
-## harpoon
+
+## harpoon n*
 
 - [x] add file into harpoon list
       leader-a
@@ -204,18 +240,6 @@ u
 - [x] diagnostics
       <kbd>leader</kbd>+<kbd>v</kbd>+<kbd>d</kbd>
 
-- [x] code actions
-      leader-v-a-a
-
-- [x] signature help
-  i mode, c-h
-
-- [x] hover help
-  K
-
-- [x] find usages/references
-  leader-v-r-r
-
 - [x] declaration/definition ?? how it works
   leader-v-g-d[D]
 
@@ -269,7 +293,6 @@ c-a-p
 
 - Push changes
   leader-p
-
 ## Todo
 - [x] telescope command_history
 
@@ -329,7 +352,5 @@ possible insert tab by S-Tab, but better to use S-Return
 - [x] compare working tree with branch
 git-diff or :Merginal
 - [ ] cherry-picking/compare
-
 ## Resources
 
-- [[kitty (terminal emulator)]]
