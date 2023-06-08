@@ -2,7 +2,7 @@
 # for more details, please refer to https://github.com/j178/leetgo
 language: en
 code:
-  lang: python
+  lang: python3
 leetcode:
   site: https://leetcode.com
 credentials:
