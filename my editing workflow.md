@@ -168,10 +168,9 @@ Maybe in near future I will switch to use only neovim.
 
 - go to file with error::?? Traceback actions.
 
-
-
-
 ## VCS
+
+- [ ] 3-way diff/merge
 
 - [ ] cherry-picking/compare
 
@@ -224,8 +223,6 @@ Maybe in near future I will switch to use only neovim.
 
 - [ ] find commands, aka action search
       leader-f-a
-
-- [ ] search symbols [classes, variables, functions, etc.] leader-v-w-s[S]
 
 - [ ] telescope builtin's, super search, `:h telescope.builtin` n\*::`<leader>fF`
 
@@ -314,7 +311,11 @@ Maybe in near future I will switch to use only neovim.
 
 ## SQL
 
-- [ ] sql workflow
+- [ ] connect and open database console
+- [ ] execute query and show results
+- [ ] copy all results/row/column
+- [ ] toggle results view
+
 - [ ] https://github.com/kristijanhusak/vim-dadbod-ui/blob/master/doc/dadbod-ui.txt
 - [ ] vim-dadbod-ui https://github.com/kristijanhusak/vim-dadbod-ui#mappings
       full-featured database client, possible set values, load values from files, query, work with multiple databases
