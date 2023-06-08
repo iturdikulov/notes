@@ -88,6 +88,9 @@ How to split line (a/i/r)
 external filter, used in command mode to execute something (`r!` redirect
 output)
 
+`C-t` in insert mode::indent
+`C-d` in insert mode::unindent
+
 ### Search & replace
 
 `/`::search mode
