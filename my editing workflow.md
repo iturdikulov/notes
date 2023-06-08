@@ -91,6 +91,12 @@ c-t c-n c-m-t c-m-n
 ## Code refactoring
 
 - rope-vim
+- [x] refactoring
+- pyton-rope arch package or rope
+- pip install pynvim for neovim
+- pip install ropevim
+- install plugin
+- on issues maybe need remov .ropeproject or fix python3_host_prog (disable virtualenv/pyenv)
 
 - rename/move/extract/inline
 
@@ -336,12 +342,6 @@ c-a-p
 - [x] telescope command_history
 
 
-- [x] refactoring
-- pyton-rope arch package or rope
-- pip install pynvim for neovim
-- pip install ropevim
-- install plugin
-- on issues maybe need remov .ropeproject
 
 - [-] JS debugging (browser)
 Propably easly just use chrome built-in debugger/sourcemaps
