@@ -72,7 +72,9 @@ Generate or update TOC (you can also use details markup)::`<leader>i`
 
 Open TOC in quickfix window (you can use `:cn` to navigate)::`<leader>I`
 
-## TODO
+## To Do
 
 - [ ] check https://github.com/SidOfc/mkdx
 - [ ] c-t/c-d - renumber list items
+- [ ] url2markdown link
+- [ ] html2markdown

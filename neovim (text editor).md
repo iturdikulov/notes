@@ -700,6 +700,10 @@ next/previous tab::`gt gT`
 `C-w q`::to kill windows. Better `bd` replacement
 <!--SR:!2023-06-06,3,250-->
 
+maximize buffer::`C-w \_`
+
+maximize buffer width::`C-w |`
+
 `C-w >` and `C-w <`:::Increase and decrease window width
 
 `C-w +` and `C-w -`:::Increase and decrease window height
