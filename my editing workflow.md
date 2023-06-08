@@ -2,9 +2,9 @@
 date: 2023-04-04
 draft: true
 tags:
-- inbox
-- definition
-- vim-tip
+  - inbox
+  - definition
+  - vim-tip
 sr-due: 2023-05-21
 sr-interval: 4
 sr-ease: 271
@@ -20,13 +20,11 @@ I n daily life I use [[pycharm]] and [[neovim (text editor)]] inside
 
 Maybe in near future I will switch to use only neovim.
 
-- [ ] files navigation
-
 ## Files navigation
 
-- [ ] https://github.com/astral-sh/ruff-lsp
+- [x] `cd` to current file path::`<leader>z%` n\*
 
-- focus editor::`<c-'>`
+- [x] focus editor::`<c-'>`
 
 - grep content in current project and open find toolbar::`<leader>fs`
 
@@ -34,27 +32,17 @@ Maybe in near future I will switch to use only neovim.
 
 - go to file::`<m-p>`
 
-- recent files, Telescope old files + cwd::`<m-e>`
+- recent files, Telescope old files + CWD::`<m-e>`
 
-- [ ] recent locations, https://github.com/cbochs/portal.nvim
-
-- [x] add file into harpoon list
-      leader-a
-- [x] show harpoon menu
-      c-e
-- [x] close harpoon menu
-      q or esc
-- [x] switch harpoon items
-c-t c-n c-m-t c-m-n
+- [x] recent locations::`<leader>o`, `<leader>i` n\*
 
 - [x] from the quickmenu, open a file in: a vertical split with control+v, a horizontal split with control+x, a new tab with control+t
-
 
 - find file, with history and fuzzy search::`M-p`
 
 - log git history of current file::`<leader>gl`
 
-- get file local history::`<leader>u`
+- get file local history/undotree::`<leader>u`
 
 ## Code navigation
 
@@ -62,7 +50,7 @@ c-t c-n c-m-t c-m-n
 
 - go to declaration::`gD`
 
-- find symbol, based on grep:`<leader>vws[S]`*
+- find symbol, based on grep:`<leader>vws[S]`\*
 
 - find usages/references::`<leader>vrr`
 
@@ -74,15 +62,25 @@ c-t c-n c-m-t c-m-n
 
 - go to previous/next function hunk::`[[`/`]]`
 
+### Harpoon n\*
+
+- [x] add file into harpoon list::`leader-a`
+
+- [x] show harpoon menu::`c-e`
+
+- [x] close harpoon menu::`q or esc`
+
+- [x] switch harpoon items::`c-t c-n c-m-t c-m-n`\*
+
 ## Code editing
 
-- code folding::`zo/zc/zr` *
+- code folding::`zo/zc/zr` \*
 
 - comment line::`gcc`
 
 - comment block`gc<motion>`
 
-- code formatting::`<leader>F`*
+- code formatting::`<leader>F`
 
 - code actions::`<leader>vaa`
 
@@ -90,33 +88,33 @@ c-t c-n c-m-t c-m-n
 
 ## Code refactoring
 
-- rope-vim
-- [x] refactoring
-- pyton-rope arch package or rope
-- pip install pynvim for neovim
-- pip install ropevim
-- install plugin
-- on issues maybe need remov .ropeproject or fix python3_host_prog (disable virtualenv/pyenv)
+- [ ] list document trouble::`<leader>xq`
 
-- rename/move/extract/inline
+- [ ] list workspace trouble::`<leader>xQ`
 
-- automatic refactorings (<!-- black integration -->)
+- [ ] https://github.com/python-rope/ropevim#keybinding
 
-- sort/organize imports
+- [ ] rename/move/extract/inline
+
+- [ ] automatic refactorings (<!-- black integration -->)
+
+- [ ] sort/organize imports, manually?
 
 ## Code autocompletion
 
-- confirm autocomplete::`<c-y>`
+- [x] confirm autocomplete::`<c-y>`
 
-- confirm copilot::`<tab>`
+- [x] confirm copilot::`<tab>`
 
-- snippets
+- [ ] snippets in autocomplete
 
 ## Code debugging/testing
 
 - [ ] https://github.com/tjdevries/config_manager/blob/78608334a7803a0de1a08a9a4bd1b03ad2a5eb11/xdg_config/nvim/after/plugin/dap.lua
 
-- run debugger configuration/continue::`<F5>`
+- run debugger configuration::`<F5>`
+
+- continue debugger::`<F6>`, not required in neovim
 
 - restart debugger::`<leader>dR`
 
@@ -124,9 +122,9 @@ c-t c-n c-m-t c-m-n
 
 - stop debugger::`<leader>dx`
 
-- jump to cursor::`<S-F1>` *
+- jump to cursor::`<S-F1>` \*
 
-- step back::`<F1>` n*
+- step back::`<F1>` n\*
 
 - step over::`<F3>`
 
@@ -144,7 +142,7 @@ c-t c-n c-m-t c-m-n
 
 - rerun the last test
 
-- run current test file::`<leader>dnf` *
+- run current test file::`<leader>dnf` \*
 
 - debug the nearest test::`<leader>ddc`
 
@@ -154,24 +152,54 @@ c-t c-n c-m-t c-m-n
 
 - toggle output panel::`<leader>dnt`
 
-- generate test
-
 - coverage test
 
-- [x] https://github.com/harrisoncramer/nvim/blob/main/lua/plugins/neotest.lua check/use keybindings
-- [x] run nearest test with debugger, show stderr output
-Venv configured, filename is not `test.py`, but `test_*.py`
-- [-] run group of tests with debugger, show stderr output
-CI/Reporting
+- generate test
 
+- [ ] run group of tests, pytest cwd?
+
+- [ ] CI/Reporting workflow
+
+- [x] [neotest](https://github.com/harrisoncramer/nvim/blob/main/lua/plugins/neotest.lua)
 
 ## Errors and warnings navigation
 
 - go to next/previous error::`[d` `]d`
 
-- go to file with error::?? traceback actions
+- go to file with error::?? Traceback actions.
+
+
+
 
 ## VCS
+
+- [ ] cherry-picking/compare
+
+- [ ] open diff/git for current file::`=`
+
+- [ ] stage/unstage file `-`
+
+- [ ] commit chunk or selection of chunk `s`
+
+- [ ] commit staged changes cc
+
+- [ ] revert all changes, stash the changes czz Push stash. Pass a [count] of 1 to add `--include-untracked` or 2 to add `--all`.
+
+- [ ] stash changes
+
+- [ ] czA Apply topmost stash, or stash@{count}.
+
+- [ ] dv Perform a |:Gvdiffsplit| on the file under the cursor.
+
+- [ ] dd Perform a |:Gdiffsplit| on the file under the cursor.
+
+- [ ] ds Perform a |:Ghdiffsplit| on the file under the cursor.
+
+- [ ] gt - accept left side of diff
+
+- [ ] gn - accept right side of diff
+
+- [ ] telescope git... Telescope git\_...
 
 - add/remove into stage
 
@@ -181,181 +209,118 @@ CI/Reporting
 
 - diff
 
-- push and create merge request
-?
-`git push -o merge_request.create --set-upstream origin HEAD`
-key:
+- push and create merge request `git push -o merge_request.create --set-upstream origin HEAD`
 
-
-## Figutive
-
-- [x] open diff/git for current file
-  <kbd>=</kbd>
-
-- [x] stage/unstage file
-  <kbd>-</kbd>
-
-- [x] commit chunk or selection of chunk
-  <kbd>s</kbd>
-
-- [x] commit staged changes
-  cc
-
-- [x] revert all changes, stash the changes
-  czz Push stash. Pass a [count] of 1 to add
-  `--include-untracked` or 2 to add `--all`.
-
-- [x] czA Apply topmost stash, or stash@{count}.
-
-- [x] dv Perform a |:Gvdiffsplit| on the file under the cursor.
-
-- [x] dd Perform a |:Gdiffsplit| on the file under the cursor.
-
-- [x] ds Perform a |:Ghdiffsplit| on the file under the cursor.
-
-- [x] gt - accept left side of diff
-- [x] gn - accept right side of diff
-
-- [x] telescope git...
-Telescope git_...
+- [-] ~~gitsigns.nvim~~ - overkill? vim fugitive is enough?
 
 ## Custom
 
-- [x] quick switch to terminal
-Ctrl-Z while editing in vim to send it to background, do your thing on the terminal and use fg at any time to bring up vim again.
-C-\ switch to terminal
 
-- [x] nvim term autoinsert mode
+- [ ] quick switch to terminal
+      Ctrl-Z while editing in vim to send it to background, do your thing on the terminal and use fg at any time to bring up vim again.
+      C-\ switch to terminal
 
-- [x] telescope builtin's, super search
-  leader-f-F
-  :h telescope.builtin
+- [ ] nvim term help/video tutor
 
-- [x] find commands, aka action search
-  leader-f-a
+- [ ] find commands, aka action search
+      leader-f-a
 
-- [x] search symbols [classes, variables, functions, etc.]
-leader-v-w-s[S]
+- [ ] search symbols [classes, variables, functions, etc.] leader-v-w-s[S]
 
-- [x] search files in current project
-      <kbd>c</kbd>+<kbd>s</kbd>+<kbd>p</kbd>
+- [ ] telescope builtin's, super search, `:h telescope.builtin` n\*::`<leader>fF`
 
-- [x] search files in git repo
-      <kbd>c</kbd>+<kbd>p</kbd>
+- [ ] find hotkey/action::`<leader>fk` in vim to find action use `<leader>fK`
 
-- [x] pick file in current file directory (telescope-file-browser)
-      <kbd>leader</kbd>+<kbd>p</kbd>+<kbd>V</kbd>
+- [ ] open git commit UI, git status::`<Leader>gg`
 
-- [x] pick file in current project (telescope-file-browser)
-      <kbd>leader</kbd>+<kbd>p</kbd>+<kbd>v</kbd>
+- [ ] git history :G l or :G log
 
-- [x] find action, in vim case it's shortcut
-      <kbd>leader</kbd>+<kbd>f</kbd>+<kbd>k</kbd>
+- [ ] jump to source from git history O or o
 
-- [x] open git commit UI, git status
-      <kbd>leader</kbd>+<kbd>g</kbd>+<kbd>g</kbd>
+- [ ] next/prev hunk ( )
 
-- [x] git history
-:G l or :G log
+- [ ] stage hunk s
 
-- [x] jump to source from git history
-O or o
+- [ ] unstage hunk u
 
-- [x] next/prev hunk
-( )
+- [ ] diagnostics `<Leader>vd`
 
-- [x] stage hunk
-s
+- [ ] declaration/definition ?? how it works
+      leader-v-g-d[D]
 
-- [x] unstage hunk
-u
+- [ ] rename leader-v-r-n
 
-- [x] run debugger
-      <kbd>f5</kbd>
+- [ ] add/remove/list remove dynamic workspace folders leader w a, leader w r, leader w l
 
-- [x] restart debugger
-      <kbd>leader</kbd>+<kbd>d</kbd>+<kbd>r[R]</kbd>
+- [ ] permanent bookmarks, marks, using viminfo?
 
-- [x] stop debugger
-      <kbd>leader</kbd>+<kbd>d</kbd>+<kbd>x[X]</kbd>
-
-- [x] diagnostics
-      <kbd>leader</kbd>+<kbd>v</kbd>+<kbd>d</kbd>
-
-- [x] declaration/definition ?? how it works
-  leader-v-g-d[D]
-
-- [x] rename
-  leader-v-r-n
-
-- [x] add/remove/list remove dynamic workspace folders
-leader w a, leader w r, leader w l
-
-- [x] vim-dadbod-ui https://github.com/kristijanhusak/vim-dadbod-ui#mappings
-full-featured database client, possible set values, load values from files, query, work with multiple databases
-
-- [x] permanent bookmarks, marks, using viminfo?
-
-- [x] linter, built-in into lsp
-
-- [x] formatter
-      leader-f
-
-- [x] external documentation
+- [ ] external documentation
       leader-zw search word
       gz <Plug>ZVOperator
       leader>z <Plug>ZVVisSelection
       <leader><leader>z <Plug>ZVKeyDocset
 
-- [x] search in git repo (telescope-git)
-- [x] list active buffers, to switch
-c-a-p
+- [ ] search in git repo (telescope-git)
 
-- ~~Makefile integration~~
-- [x] structure view
-:TSPlaygroundToggle
+- [ ] list active buffers, to switch c-a-p
 
-- close tab
-  c-w q
+- [ ] structure view :TSPlaygroundToggle
 
-- close splits
-  c-w o
+- Push changes leader-p
 
-- equal splits
-  c-w =
-
-- maximize buffer
-  c-w \_
-
-- maximize buffer width
-  c-w |
-
-- switch to buffer
-  c-w hjkl
-
-- Undotree of file
-  space-u
-
-- Push changes
-  leader-p
 ## Todo
-- [x] telescope command_history
 
-
+- [ ] telescope command_history
 
 - [-] JS debugging (browser)
-Propably easly just use chrome built-in debugger/sourcemaps
-https://stackoverflow.com/questions/71810002/how-to-configure-the-dap-debugger-under-neovim-for-typescript
+  Propably easly just use chrome built-in debugger/sourcemaps
+  https://stackoverflow.com/questions/71810002/how-to-configure-the-dap-debugger-under-neovim-for-typescript
 
 - [-] ~~select in~~
-- [x] new scratch file
-:enew
-- [x] execute current file
-leader o or leader O (run using xdg-open)
 
-- [x] add quotes/x pairs to words/sentence
-https://github.com/kylechui/nvim-surround
-https://stackoverflow.com/questions/2147875/what-vim-commands-can-be-used-to-quote-unquote-words
+- [ ] new scratch file :enew
+
+- [ ] execute scratch file
+
+- [ ] execute current file (open externally) leader o or leader O (run using xdg-open)
+
+- [ ] add quotes/x pairs to words/sentence
+      https://github.com/kylechui/nvim-surround
+      https://stackoverflow.com/questions/2147875/what-vim-commands-can-be-used-to-quote-unquote-words
+
+- [-] vim shell output actions...
+  :h redir, !...|grep, r!... etc
+
+- [ ]  run method?
+
+
+## LSP
+
+- [ ] https://github.com/astral-sh/ruff-lsp
+
+- [ ] linter, built-in into lsp
+
+- [-] python lsp actions
+  - [ ] autoimport
+  - [ ] remove unused imports
+- [ ] python lsp symbols
+- [ ] optimize imports
+- [ ] copilot tab issue (try indent, while suggestion active!), markdown alignment issues
+      possible insert tab by S-Tab, but better to use S-Return
+
+- [ ] diff branches. Working tree diff.
+- [ ] compare working tree with branch
+      git-diff or :Merginal
+
+## SQL
+
+- [ ] sql workflow
+- [ ] https://github.com/kristijanhusak/vim-dadbod-ui/blob/master/doc/dadbod-ui.txt
+- [ ] vim-dadbod-ui https://github.com/kristijanhusak/vim-dadbod-ui#mappings
+      full-featured database client, possible set values, load values from files, query, work with multiple databases
+
+## Vim surround
+
 ```
     Old text                    Command         New text
 --------------------------------------------------------------------------------
@@ -364,27 +329,6 @@ https://stackoverflow.com/questions/2147875/what-vim-commands-can-be-used-to-quo
     [delete ar*ound me!]        ds]             delete around me!
     remove <b>HTML t*ags</b>    dst             remove HTML tags
     'change quot*es'            cs'"            "change quotes"
-    <b>or tag* types</b>        csth1<CR>       <h1>or tag types</h1>
-    delete(functi*on calls)     dsf             function calls
+    n* <b>or tag* types</b>        csth1<CR>       <h1>or tag types</h1>
+    n* delete(functi*on calls)     dsf             function calls
 ```
-
-- [-] vim shell output actions...
-:h redir, !...|grep, r!... etc
-
-- [-] run debugger with specific configuration
-run method?
-- [-] ~~gitsigns.nvim~~ - overkill? vim fugitive is enough?
-- [-] python lsp actions
-    - [x] autoimport
-    - [x] remove unused imports
-- [x] python lsp symbols
-- [x] optimize imports
-- [x] copilot tab issue (try indent, while suggestion active!), markdown alignment issues
-possible insert tab by S-Tab, but better to use S-Return
-
-- [x] diff branches. Working tree diff.
-- [x] compare working tree with branch
-git-diff or :Merginal
-- [ ] cherry-picking/compare
-## Resources
-
