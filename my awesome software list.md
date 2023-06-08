@@ -106,7 +106,7 @@ Check also [[my shell scripts|my shell scripts]] and
 - [NNN (n³)](https://github.com/jarun/nnn) - nnn (n³) is a full-featured
   terminal file manager, [[nnn file manager|more info]]
 - [leetup](https://github.com/dragfire/leetup) - command line tool to solve
-  [[leetcode]] problems
+  [[LeetCode]] problems
 
 ## Internet
 
