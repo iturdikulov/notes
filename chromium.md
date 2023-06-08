@@ -33,4 +33,5 @@ Reasons why I use it:
 - [FrankerFaceZ](https://chrome.google.com/webstore/detail/frankerfacez/fadndhdgpmmaapbmfcknlfgcflmmmieb), to make Twitch better.
 - [Picture In Picture](https://chrome.google.com/webstore/detail/picture-in-picture-extens/hkgfoiooedgoejojocmhlaklaeopbecg), to watch videos in a floating window (always on top).
 
-TODO: add flags and settings
+TODO: add flags and settings, and [config](~/.config/chromium-flags.conf).
+
