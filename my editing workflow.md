@@ -44,21 +44,27 @@ Insert new line above/below::`[<space>`, `]<space>`
 
 ## Code navigation
 
-- go to definition::`gd`
+- [x] go to definition::`gd`
 
-- go to declaration::`gD`
+- [x] go to declaration::`gD`
 
-- find symbol, based on grep:`<leader>vws[S]`\*
+- [x] find symbol, based on grep:`<leader>vws[S]`\*
 
-- find usages/references::`<leader>vrr`
+- [x] find usages/references::`<leader>vrr`
 
-- go to older/newer position::`<c-o>/<c-i>`
+- [x] go to older/newer position::`<c-o>/<c-i>`
 
-- hover help::`K`
+- [x] hover help::`K`
 
-- go to previous/current file::`c-^`
+- [ ] external documentation integration
+      leader-zw search word
+      gz <Plug>ZVOperator
+      leader>z <Plug>ZVVisSelection
+      <leader><leader>z <Plug>ZVKeyDocset
 
-- go to previous/next function hunk::`[[`/`]]`
+- [x] go to previous/current file::`c-^`
+
+- [x] go to previous/next function hunk::`[[`/`]]`
 
 ### Harpoon n\*
 
@@ -72,17 +78,17 @@ Insert new line above/below::`[<space>`, `]<space>`
 
 ## Code editing
 
-- code folding::`zo/zc/zr` \*
+- [ ] code folding::`zo/zc/zr` \*
 
-- comment line::`gcc`
+- [x] comment line::`gcc`
 
-- comment block`gc<motion>`
+- [x] comment block`gc<motion>`
 
-- code formatting::`<leader>F`
+- [x] code formatting::`<leader>F`
 
-- code actions::`<leader>vaa`
+- [x] code actions::`<leader>vaa`
 
-- macro record/replay::`q<letter>/@<letter>`
+- [x] macro record/replay::`q<letter>/@<letter>`
 
 ## Code refactoring
 
@@ -94,9 +100,7 @@ Insert new line above/below::`[<space>`, `]<space>`
 ?
 a vertical split with `C-v`, a horizontal split with `C-x`, a new tab with `C-t`
 
-- [ ] automatic refactorings (<!-- black integration -->)
-
-- [ ] sort/organize imports, manually?
+- [ ] black integration on_save, pre_commit
 
 ### Rope
 - [ ] https://github.com/python-rope/ropevim#keybinding
@@ -126,7 +130,7 @@ a vertical split with `C-v`, a horizontal split with `C-x`, a new tab with `C-t`
 | C-c r 1 v         | RopeMoveCurrentModule                                    |
 | C-c r 1 p         | RopeModuleToPackage                                      |
 |                   |                                                          |
-| C-c r o           | RopeOrganizeImports                                      |
+| C-c r o           | RopeOrganizeImports|OrganizeImports                                      |
 | C-c r n \[vfcmp\] | RopeGenerate(Variable\|Function\|Class\|Module\|Package) |
 |                   |                                                          |
 | C-c r a /         | RopeCodeAssist                                           |
@@ -151,7 +155,11 @@ a vertical split with `C-v`, a horizontal split with `C-x`, a new tab with `C-t`
 
 - [ ] sync templates
 
-## Code debugging/testing
+## Code run/debugging/testing
+
+- [x] auto-import:
+    neovim: autocomplete or insert mode and press `<c-space>`
+    pycharm: type and press `<c-space><c-space>`
 
 - [ ] https://github.com/tjdevries/config_manager/blob/78608334a7803a0de1a08a9a4bd1b03ad2a5eb11/xdg_config/nvim/after/plugin/dap.lua
 
@@ -213,6 +221,11 @@ a vertical split with `C-v`, a horizontal split with `C-x`, a new tab with `C-t`
 
 ## VCS
 
+- [ ] diff branches. Working tree diff.
+
+- [ ] compare working tree with branch
+      git-diff or :Merginal
+
 - [ ] log git history of current file::`<leader>gl`
 
 - [ ] open 3-way diff/merge
@@ -229,11 +242,13 @@ a vertical split with `C-v`, a horizontal split with `C-x`, a new tab with `C-t`
 
 - [ ] commit staged changes `cc`
 
-- [ ] next/prev hunk ( )
+- [ ] next/previous hunk `(`, `)`
 
 - [ ] stage hunk s
 
-- [ ] revert all changes, stash the changes czz Push stash. Pass a [count] of 1 to add `--include-untracked` or 2 to add `--all`.
+- [ ] unstage hunk u
+
+- [ ] revert all changes, stash the changes `czz` Push stash. Pass a [count] of 1 to add `--include-untracked` or 2 to add `--all`.
 
 - [ ] stash changes
 
@@ -251,19 +266,13 @@ a vertical split with `C-v`, a horizontal split with `C-x`, a new tab with `C-t`
 
 - [ ] telescope git... Telescope git\_...
 
-- add/remove into stage
+- [ ] Push changes leader-p
 
-- commit/push
+- [ ] pull & rebase/merge
 
-- Push changes leader-p
+- [ ] push and create merge request `git push -o merge_request.create --set-upstream origin HEAD`
 
-- pull/rebase/merge
-
-- diff
-
-- push and create merge request `git push -o merge_request.create --set-upstream origin HEAD`
-
-- [-] ~~gitsigns.nvim~~ - overkill? vim fugitive is enough?
+- [ ] gitsigns.nvim - overkill? vim fugitive is enough?
 
 ## Custom
 
@@ -273,25 +282,17 @@ a vertical split with `C-v`, a horizontal split with `C-x`, a new tab with `C-t`
 
 - [ ] nvim term help/video tutor
 
-- [ ] find commands, aka action search
-      leader-f-a
+- [x] telescope command_history::`<leader>fc` n\*
 
-- [ ] telescope builtin's, super search, `:h telescope.builtin` n\*::`<leader>fF`
+- [x] telescope builtin's, super search, `:h telescope.builtin` ::`<leader>fF` n\*
 
-- [ ] find hotkey/action::`<leader>fk` in vim to find action use `<leader>fK`
+- [x] find hotkey/action::`<leader>fk` in vim to find action use `<leader>fK`
 
-- [ ] open git commit UI, git status::`<Leader>gg`
-
-- [ ] git history :G l or :G log
+- [x] open git commit UI, git status::`<Leader>gg`
 
 - [ ] jump to source from git history O or o
 
-- [ ] unstage hunk u
-
-- [ ] diagnostics `<Leader>vd`
-
-- [ ] declaration/definition ?? how it works
-      leader-v-g-d[D]
+- [x] diagnostics `<Leader>vd`
 
 - [ ] rename leader-v-r-n
 
@@ -299,61 +300,13 @@ a vertical split with `C-v`, a horizontal split with `C-x`, a new tab with `C-t`
 
 - [ ] permanent bookmarks, marks, using viminfo?
 
-- [ ] external documentation
-      leader-zw search word
-      gz <Plug>ZVOperator
-      leader>z <Plug>ZVVisSelection
-      <leader><leader>z <Plug>ZVKeyDocset
-
 - [ ] search in git repo (telescope-git)
 
 - [ ] list active buffers, to switch c-a-p
 
 - [ ] structure view :TSPlaygroundToggle
 
-## Todo
-
-- [ ] telescope command_history
-
-- [-] JS debugging (browser)
-  Propably easly just use chrome built-in debugger/sourcemaps
-  https://stackoverflow.com/questions/71810002/how-to-configure-the-dap-debugger-under-neovim-for-typescript
-
-- [-] ~~select in~~
-
-- [ ] new scratch file :enew
-
-- [ ] execute scratch file
-
-- [ ] execute current file (open externally) leader o or leader O (run using xdg-open)
-
-- [ ] add quotes/x pairs to words/sentence
-      https://github.com/kylechui/nvim-surround
-      https://stackoverflow.com/questions/2147875/what-vim-commands-can-be-used-to-quote-unquote-words
-
-- [-] vim shell output actions...
-  :h redir, !...|grep, r!... etc
-
-- [ ]  run method?
-
-
-## LSP
-
-- [ ] https://github.com/astral-sh/ruff-lsp
-
-- [ ] linter, built-in into lsp
-
-- [-] python lsp actions
-  - [ ] autoimport
-  - [ ] remove unused imports
-- [ ] python lsp symbols
-- [ ] optimize imports
-- [ ] copilot tab issue (try indent, while suggestion active!), markdown alignment issues
-      possible insert tab by S-Tab, but better to use S-Return
-
-- [ ] diff branches. Working tree diff.
-- [ ] compare working tree with branch
-      git-diff or :Merginal
+- [ ] linter integration, https://github.com/astral-sh/ruff-lsp
 
 ## SQL
 
@@ -368,24 +321,31 @@ a vertical split with `C-v`, a horizontal split with `C-x`, a new tab with `C-t`
 
 ## Vim surround
 
-```
-    Old text                    Command         New text
---------------------------------------------------------------------------------
-    surr*ound_words             ysiw)           (surround_words)
-    *make strings               ys$"            "make strings"
-    [delete ar*ound me!]        ds]             delete around me!
-    remove <b>HTML t*ags</b>    dst             remove HTML tags
-    'change quot*es'            cs'"            "change quotes"
-    n* <b>or tag* types</b>        csth1<CR>       <h1>or tag types</h1>
-    n* delete(functi*on calls)     dsf             function calls
-```
+- [x] surr*ound_words             ysiw)           (surround_words)
+- [x] *make strings               ys$"            "make strings"
+- [x] [delete ar*ound me!]        ds]             delete around me!
+- [x] remove <b>HTML t*ags</b>    dst             remove HTML tags
+- [x] 'change quot*es'            cs'"            "change quotes"
+- [x] <b>or tag* types</b>        csth1<CR>       <h1>or tag types</h1> n\*
+- [x] delete(functi*on calls)     dsf             function calls       n\*
+
+## JS debugging (browser)
+
+- [ ] Probably easily just use chrome built-in debugger/sourcemaps
+- [ ] https://stackoverflow.com/questions/71810002/how-to-configure-the-dap-debugger-under-neovim-for-typescript
 
 ## Code style
 
+- [ ] https://peps.python.org/pep-0008/
+
 ## Commit style
+
+- [ ] https://github.com/conventional-commits/conventionalcommits.org
 
 ## Automation
 
-
+- [ ] vim shell output actions... :h redir, !...|grep, r!... etc
 - [ ] https://github.com/tpope/vim-unimpaired
-
+- [ ] new scratch file `:enew`
+- [ ] execute scratch file
+- [ ] execute current file (open externally) leader o or leader O (run using xdg-open)
