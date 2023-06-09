@@ -20,29 +20,27 @@ I n daily life I use [[pycharm]] and [[neovim (text editor)]] inside
 
 Maybe in near future I will switch to use only neovim.
 
+## Built-in maps
+
+Insert new line above/below::`[<space>`, `]<space>`
+
 ## Files navigation
 
 - [x] `cd` to current file path::`<leader>z%` n\*
 
 - [x] focus editor::`<c-'>`
 
-- grep content in current project and open find toolbar::`<leader>fs`
+- [x] grep content in current project and open find toolbar::`<leader>fs`
 
-- locate file in file manager::`<leader>pv`
+- [x] locate file in file manager::`<leader>pv`
 
-- go to file::`<m-p>`
+- [x] go to file::`<m-p>`
 
-- recent files, Telescope old files + CWD::`<m-e>`
+- [x] recent files, Telescope old files + CWD::`<m-e>`
 
 - [x] recent locations::`<leader>o`, `<leader>i` n\*
 
-- [x] from the quickmenu, open a file in: a vertical split with control+v, a horizontal split with control+x, a new tab with control+t
-
-- find file, with history and fuzzy search::`M-p`
-
-- log git history of current file::`<leader>gl`
-
-- get file local history/undotree::`<leader>u`
+- [x] find file, with history and fuzzy search::`M-p`
 
 ## Code navigation
 
@@ -88,17 +86,62 @@ Maybe in near future I will switch to use only neovim.
 
 ## Code refactoring
 
-- [ ] list document trouble::`<leader>xq`
+- [x] list document trouble::`<leader>xq`
 
-- [ ] list workspace trouble::`<leader>xQ`
+- [x] list workspace trouble::`<leader>xQ`
 
-- [ ] https://github.com/python-rope/ropevim#keybinding
+- [x] from the quick-menu, open a file in splits
+?
+a vertical split with `C-v`, a horizontal split with `C-x`, a new tab with `C-t`
 
 - [ ] rename/move/extract/inline
 
 - [ ] automatic refactorings (<!-- black integration -->)
 
 - [ ] sort/organize imports, manually?
+
+### Rope
+- [ ] https://github.com/python-rope/ropevim#keybinding
+
+| Key               | Command                                                  |
+|-------------------|----------------------------------------------------------|
+| C-x p o           | RopeOpenProject | Synchronize                            |
+| C-x p k           | RopeCloseProject | CloseProject
+| C-x p f           | NOT USING RopeFindFile                                              |
+| C-x p 4 f         | NOT USING RopeFindFileOtherWindow                                  |
+| C-x p u           | RopeUndo | NOT used, works with builtin undo                                                |
+| C-x p r           | RopeRedo | NOT used, works with builtin redo                                                 |
+| C-x p c           | RopeProjectConfig | NOT USED                                       |
+| C-x p n \[mpfd\]  | RopeCreate(Module\|Package\|File\|Directory) | Same            |
+|                   | RopeWriteProject                                         |
+|                   |                                                          |
+| C-c r r           | RopeRename | Rename                                      |
+| C-c r l           | RopeExtractVariable | IntroduceVariable                                      |
+| C-c r m           | RopeExtractMethod                                        |
+| C-c r i           | RopeInline                                               |
+| C-c r v           | RopeMove                                                 |
+| C-c r x           | RopeRestructure                                          |
+| C-c r u           | RopeUseFunction                                          |
+| C-c r f           | RopeIntroduceFactory                                     |
+| C-c r s           | RopeChangeSignature                                      |
+| C-c r 1 r         | RopeRenameCurrentModule                                  |
+| C-c r 1 v         | RopeMoveCurrentModule                                    |
+| C-c r 1 p         | RopeModuleToPackage                                      |
+|                   |                                                          |
+| C-c r o           | RopeOrganizeImports                                      |
+| C-c r n \[vfcmp\] | RopeGenerate(Variable\|Function\|Class\|Module\|Package) |
+|                   |                                                          |
+| C-c r a /         | RopeCodeAssist                                           |
+| C-c r a g         | RopeGotoDefinition                                       |
+| C-c r a d         | RopeShowDoc                                              |
+| C-c r a f         | RopeFindOccurrences                                      |
+| C-c r a ?         | RopeLuckyAssist                                          |
+| C-c r a j         | RopeJumpToGlobal                                         |
+| C-c r a c         | RopeShowCalltip                                          |
+|                   | RopeAnalyzeModule                                        |
+|                   | RopeAutoImport                                           |
+|                   | RopeGenerateAutoimportCache                              |
+
 
 ## Code autocompletion
 
@@ -170,7 +213,12 @@ Maybe in near future I will switch to use only neovim.
 
 ## VCS
 
-- [ ] 3-way diff/merge
+- log git history of current file::`<leader>gl`
+
+- [ ] open 3-way diff/merge
+
+- get file local history/undotree::`<leader>u`
+
 
 - [ ] cherry-picking/compare
 
@@ -333,3 +381,13 @@ Maybe in near future I will switch to use only neovim.
     n* <b>or tag* types</b>        csth1<CR>       <h1>or tag types</h1>
     n* delete(functi*on calls)     dsf             function calls
 ```
+
+## Code style
+
+## Commit style
+
+## Automation
+
+
+- [ ] https://github.com/tpope/vim-unimpaired
+
