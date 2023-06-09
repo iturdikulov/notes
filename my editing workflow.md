@@ -226,9 +226,30 @@ even not easy to implement same workflow like in neovim/vim-fugitive). So I
 decided use only neovim/vim-fugitive for VCS work. Also, this will help me to
 switch into Neovim/Vim easily.
 
+
+### Fugitive
+
 `:Gwrite`::Stage current file
 
-- [ ] http://vimcasts.org/blog/2011/05/the-fugitive-series/
+`:Gread`::Checkout current file
+
+`:Gremove`::Remove current file
+
+`:Gmove <relative_path>`::Move current file
+
+Open autocomplete in commit buffer::`C-n`
+
+`:G blame::`Open split window with blame buffer
+
+`:G commit`::Open split window with commit buffer
+
+`:Gedit [<path>]`::Open index file
+
+`:Gdiffsplit`::vimdiff against the index version of the file
+
+- [ ] Perform a `:Gdiffsplit` on the file under the cursor.::`dd`
+
+- [ ] 1/5 http://vimcasts.org/blog/2011/05/the-fugitive-series/
 
 - [ ] https://github.com/lewis6991/gitsigns.nvim
 
@@ -241,7 +262,7 @@ switch into Neovim/Vim easily.
 - [ ] compare working tree with branch
       git-diff or :Merginal
 
-- [ ] log git history of current file::`<leader>gl`
+- [x] log git history of current file::`<leader>gl`
 
 - [ ] open 3-way diff/merge
 
@@ -249,17 +270,23 @@ switch into Neovim/Vim easily.
 
 - [x] get file local history/undotree::`<leader>u`
 
-- [ ] open diff/git for current file::`=`
+- [x] open diff/git for current file::`=`
 
-- [ ] stage/unstage file `-`
+- [x] stage/unstage (add/reset) file, works in visual mode too (multiple files)
+?
+`-`
 
-- [ ] commit chunk or selection of chunk `s`
+- [x] open file in the window below (git status)::`<cr>`
 
-- [ ] commit staged changes `cc`
+- [x] commit chunk or selection of chunk::`s`
 
-- [ ] next/previous hunk `(`, `)`
+- [x] run `git add –patch` for current file::`P`
 
-- [ ] stage hunk s
+- [x] commit staged changes::`cc`
+
+- [x] next/previous hunk::`(`, `)`
+
+- [x] stage hunk::`s`
 
 - [ ] unstage hunk u
 
@@ -271,7 +298,6 @@ switch into Neovim/Vim easily.
 
 - [ ] dv Perform a |:Gvdiffsplit| on the file under the cursor.
 
-- [ ] dd Perform a |:Gdiffsplit| on the file under the cursor.
 
 - [ ] ds Perform a |:Ghdiffsplit| on the file under the cursor.
 
