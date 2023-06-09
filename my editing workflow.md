@@ -94,8 +94,6 @@ Insert new line above/below::`[<space>`, `]<space>`
 ?
 a vertical split with `C-v`, a horizontal split with `C-x`, a new tab with `C-t`
 
-- [ ] rename/move/extract/inline
-
 - [ ] automatic refactorings (<!-- black integration -->)
 
 - [ ] sort/organize imports, manually?
@@ -117,9 +115,9 @@ a vertical split with `C-v`, a horizontal split with `C-x`, a new tab with `C-t`
 |                   |                                                          |
 | C-c r r           | RopeRename | Rename                                      |
 | C-c r l           | RopeExtractVariable | IntroduceVariable                                      |
-| C-c r m           | RopeExtractMethod                                        |
-| C-c r i           | RopeInline                                               |
-| C-c r v           | RopeMove                                                 |
+| C-c r m           | RopeExtractMethod | ExtractMethod                                       |
+| C-c r i           | RopeInline | Inline                                              |
+| C-c r v           | RopeMove  | Move                                               |
 | C-c r x           | RopeRestructure                                          |
 | C-c r u           | RopeUseFunction                                          |
 | C-c r f           | RopeIntroduceFactory                                     |
@@ -149,55 +147,57 @@ a vertical split with `C-v`, a horizontal split with `C-x`, a new tab with `C-t`
 
 - [x] confirm copilot::`<tab>`
 
-- [ ] snippets in autocomplete
+- [x] snippets in autocomplete
+
+- [ ] sync templates
 
 ## Code debugging/testing
 
 - [ ] https://github.com/tjdevries/config_manager/blob/78608334a7803a0de1a08a9a4bd1b03ad2a5eb11/xdg_config/nvim/after/plugin/dap.lua
 
-- run debugger configuration::`<F5>`
+- [x] run debugger configuration::`<F5>`
 
-- continue debugger::`<F6>`, not required in neovim
+- [x] continue debugger::`<F6>`, not required in neovim
 
-- restart debugger::`<leader>dR`
+- [x] restart debugger::`<leader>dR`
 
-- toggle breakpoint::`<leader>db[B]`
+- [x] toggle breakpoint::`<leader>db[B]`
 
-- stop debugger::`<leader>dx`
+- [x] stop debugger::`<leader>dx`
 
-- jump to cursor::`<S-F1>` \*
+- [ ] jump to cursor::`<S-F1>` \*
 
-- step back::`<F1>` n\*
+- [x] step back::`<F1>` n\*
 
-- step over::`<F3>`
+- [x] step over::`<F3>`
 
-- step into::`<F2>`
+- [x] step into::`<F2>`
 
-- step out::`<F4>`
+- [x] step out::`<F4>`
 
-- run to cursor::`<leader>dC`
+- [ ] run to cursor::`<leader>dC`
 
-- evaluate expression
+- [ ] evaluate expression
 
-- view breakpoints
+- [ ] view breakpoints
 
-- run the nearest test::`<leader>dnn`
+- [x] run the nearest test::`<leader>dnn`
 
-- rerun the last test
+- [x] rerun the last test
 
-- run current test file::`<leader>dnf` \*
+- [ ] run current test file::`<leader>dnf` \*
 
-- debug the nearest test::`<leader>ddc`
+- [x] debug the nearest test::`<leader>ddc`
 
-- open test results::`<leader>dno`
+- [x] open test results::`<leader>dno`
 
-- show summary::`<leader>dns`
+- [x] show summary::`<leader>dns`
 
-- toggle output panel::`<leader>dnt`
+- [x] toggle output panel::`<leader>dnt`
 
-- coverage test
+- [ ] coverage test
 
-- generate test
+- [ ] generate test
 
 - [ ] run group of tests, pytest cwd?
 
@@ -207,20 +207,19 @@ a vertical split with `C-v`, a horizontal split with `C-x`, a new tab with `C-t`
 
 ## Errors and warnings navigation
 
-- go to next/previous error::`[d` `]d`
+- [x] go to next/previous error::`[d` `]d`
 
-- go to file with error::?? Traceback actions.
+- [x] go to file with error (under cursor)::`gf` or `gF` n*
 
 ## VCS
 
-- log git history of current file::`<leader>gl`
+- [ ] log git history of current file::`<leader>gl`
 
 - [ ] open 3-way diff/merge
 
-- get file local history/undotree::`<leader>u`
+- [x] get file local history/undotree::`<leader>u`
 
-
-- [ ] cherry-picking/compare
+- [ ] cherry-picking commit
 
 - [ ] open diff/git for current file::`=`
 
@@ -228,7 +227,11 @@ a vertical split with `C-v`, a horizontal split with `C-x`, a new tab with `C-t`
 
 - [ ] commit chunk or selection of chunk `s`
 
-- [ ] commit staged changes cc
+- [ ] commit staged changes `cc`
+
+- [ ] next/prev hunk ( )
+
+- [ ] stage hunk s
 
 - [ ] revert all changes, stash the changes czz Push stash. Pass a [count] of 1 to add `--include-untracked` or 2 to add `--all`.
 
@@ -252,6 +255,8 @@ a vertical split with `C-v`, a horizontal split with `C-x`, a new tab with `C-t`
 
 - commit/push
 
+- Push changes leader-p
+
 - pull/rebase/merge
 
 - diff
@@ -261,7 +266,6 @@ a vertical split with `C-v`, a horizontal split with `C-x`, a new tab with `C-t`
 - [-] ~~gitsigns.nvim~~ - overkill? vim fugitive is enough?
 
 ## Custom
-
 
 - [ ] quick switch to terminal
       Ctrl-Z while editing in vim to send it to background, do your thing on the terminal and use fg at any time to bring up vim again.
@@ -281,10 +285,6 @@ a vertical split with `C-v`, a horizontal split with `C-x`, a new tab with `C-t`
 - [ ] git history :G l or :G log
 
 - [ ] jump to source from git history O or o
-
-- [ ] next/prev hunk ( )
-
-- [ ] stage hunk s
 
 - [ ] unstage hunk u
 
@@ -310,8 +310,6 @@ a vertical split with `C-v`, a horizontal split with `C-x`, a new tab with `C-t`
 - [ ] list active buffers, to switch c-a-p
 
 - [ ] structure view :TSPlaygroundToggle
-
-- Push changes leader-p
 
 ## Todo
 
