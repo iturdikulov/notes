@@ -219,7 +219,22 @@ a vertical split with `C-v`, a horizontal split with `C-x`, a new tab with `C-t`
 
 - [x] go to file with error (under cursor)::`gf` or `gF` n*
 
-## VCS
+## VCS n\*
+
+NOTE: I just won't deeply integrate VCS keybindings into pycharm (and it's maybe
+even not easy to implement same workflow like in neovim/vim-fugitive). So I
+decided use only neovim/vim-fugitive for VCS work. Also, this will help me to
+switch into Neovim/Vim easily.
+
+`:Gwrite`::Stage current file
+
+- [ ] http://vimcasts.org/blog/2011/05/the-fugitive-series/
+
+- [ ] https://github.com/lewis6991/gitsigns.nvim
+
+- [ ] https://www.reddit.com/r/vim/comments/8h044y/comment/dym4eax/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button
+
+- [ ] list branches
 
 - [ ] diff branches. Working tree diff.
 
@@ -230,9 +245,9 @@ a vertical split with `C-v`, a horizontal split with `C-x`, a new tab with `C-t`
 
 - [ ] open 3-way diff/merge
 
-- [x] get file local history/undotree::`<leader>u`
+- [ ] accept left/right hunk in 3-way diff/merge
 
-- [ ] cherry-picking commit
+- [x] get file local history/undotree::`<leader>u`
 
 - [ ] open diff/git for current file::`=`
 
@@ -271,6 +286,11 @@ a vertical split with `C-v`, a horizontal split with `C-x`, a new tab with `C-t`
 - [ ] pull & rebase/merge
 
 - [ ] push and create merge request `git push -o merge_request.create --set-upstream origin HEAD`
+
+- [ ] cherry-picking commit
+https://www.reddit.com/r/neovim/comments/tuhs7u/comment/i35571l/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button
+
+- [ ] https://vi.stackexchange.com/questions/tagged/plugin-fugitive
 
 - [ ] gitsigns.nvim - overkill? vim fugitive is enough?
 
