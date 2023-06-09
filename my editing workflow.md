@@ -229,6 +229,9 @@ switch into Neovim/Vim easily.
 
 ### Fugitive
 
+- [ ] Fugitive.lua keybindings
+- [ ] Control size of git status window
+
 `:Gwrite`::Stage current file
 
 `:Gread`::Checkout current file
@@ -264,9 +267,15 @@ Open autocomplete in commit buffer::`C-n`
 
 - [x] log git history of current file::`<leader>gl`
 
-- [ ] open 3-way diff/merge
+- [x] `dv`::Perform a `:Gvdiffsplit` on the file under the cursor
 
-- [ ] accept left/right hunk in 3-way diff/merge
+- [x] `ds`::Perform a `:Ghdiffsplit` on the file under the cursor
+
+- [ ] `gt` - accept left side of diff
+
+- [ ] `gn` - accept right side of diff
+
+- [ ] accept left/right hunk in 3-way diff/merge conflict
 
 - [x] get file local history/undotree::`<leader>u`
 
@@ -288,7 +297,7 @@ Open autocomplete in commit buffer::`C-n`
 
 - [x] stage hunk::`s`
 
-- [ ] unstage hunk u
+- [x] unstage hunk::`u`
 
 - [ ] revert all changes, stash the changes `czz` Push stash. Pass a [count] of 1 to add `--include-untracked` or 2 to add `--all`.
 
@@ -296,20 +305,13 @@ Open autocomplete in commit buffer::`C-n`
 
 - [ ] czA Apply topmost stash, or stash@{count}.
 
-- [ ] dv Perform a |:Gvdiffsplit| on the file under the cursor.
-
-
-- [ ] ds Perform a |:Ghdiffsplit| on the file under the cursor.
-
-- [ ] gt - accept left side of diff
-
-- [ ] gn - accept right side of diff
-
 - [ ] telescope git... Telescope git\_...
 
-- [ ] Push changes leader-p
+- [x] Push changes::`<leader>p`
 
-- [ ] pull & rebase/merge
+- [ ] pull & merge
+
+- [ ] pull & rebase
 
 - [ ] push and create merge request `git push -o merge_request.create --set-upstream origin HEAD`
 
