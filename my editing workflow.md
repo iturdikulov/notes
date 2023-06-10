@@ -49,7 +49,7 @@ Insert new line above/below::`[<space>`, `]<space>`
 
 - [x] find file, with history and fuzzy search::`M-p`
 
-- [x] telescope resume::`<m-P>` n*
+- [x] telescope resume::`<m-P>` n\*
 
 ## Code navigation
 
@@ -66,7 +66,7 @@ Insert new line above/below::`[<space>`, `]<space>`
 - [x] hover help::`K`
 
 - [x] zeavim word under cursor or selection::`<leader>zh` In pycharm works only
-  selection.
+      selection.
 
 - [x] zeavim search motion::`gz[motion]` n\*
 
@@ -81,12 +81,11 @@ Insert new line above/below::`[<space>`, `]<space>`
 - [x] selection code::`<C-e>`
 - [x] selection link::`<C-k>`
 - [x] renumber list items::`gN`, using `bullets.vim` n\*
-- [x] toggle checkbox::`<leader>zt` n*
+- [x] toggle checkbox::`<leader>zt` n\*
 - [x] bullet demote::`<C-t>` or `>>` or `>` in visual mode
 - [x] bullet promote::`<C-d>` or `<<` or `<` in visual mode
 - [x] URL to markdown > clipboard > paste::`<leader>pl` n\*
 - [x] HTML to markdown > clipboard > paste::`<leader>ph` n\*
-
 
 ### Harpoon n\*
 
@@ -184,7 +183,10 @@ Insert new line above/below::`[<space>`, `]<space>`
       neovim: autocomplete or insert mode and press `<c-space>`
       pycharm: type and press `<c-space><c-space>`
 
-- [ ] https://github.com/tjdevries/config_manager/blob/78608334a7803a0de1a08a9a4bd1b03ad2a5eb11/xdg_config/nvim/after/plugin/dap.lua
+- [x] Review and pick something from [tjdervis-dap config](https://github.com/tjdevries/config_manager/blob/master/xdg_config/nvim/after/plugin/dap.lua)
+
+- [x] telescope-dap.nvim prefix::`<leader>dl`
+- [x] view breakpoints::`<leader>dlb`
 
 - [x] run debugger configuration::`<F5>`
 
@@ -209,8 +211,6 @@ Insert new line above/below::`[<space>`, `]<space>`
 - [ ] run to cursor::`<leader>dC`
 
 - [ ] evaluate expression
-
-- [ ] view breakpoints
 
 - [x] run the nearest test::`<leader>dnn`
 
@@ -251,7 +251,7 @@ switch into Neovim/Vim easily.
 
 ### Fugitive
 
-- [ ] Fugitive.lua keybindings
+- [ ] fugitive.lua keybindings
 
 - [ ] Control size of git status window
 
@@ -324,17 +324,15 @@ Open autocomplete in commit buffer::`C-n`
 
 - [ ] revert all changes, stash the changes `czz` Push stash. Pass a [count] of 1 to add `--include-untracked` or 2 to add `--all`.
 
-- [ ] stash changes
+- [ ] stash current changes
 
 - [ ] czA Apply topmost stash, or stash@{count}.
 
 - [ ] grep in VCS repo history
 
-- [x] Push changes::`<leader>p`
+- [x] Push changes::`<leader>p` (in fugitive mode for nvim) n\*
 
-- [ ] pull & merge
-
-- [ ] pull & rebase
+- [x] pull & rebase::`<leader>P` (in fugitive mode for nvim) n\*
 
 - [ ] push and create merge request `git push -o merge_request.create --set-upstream origin HEAD`
 
@@ -361,7 +359,7 @@ Open autocomplete in commit buffer::`C-n`
 
 - [x] open git commit UI, git status::`<Leader>gg`
 
-- [x] show diff from git history::`Return`, in `Pycharm` it's `Ctrl+D` *
+- [x] show diff from git history::`Return`, in `Pycharm` it's `Ctrl+D` \*
 
 - [x] open fugitive object in new split::`o` or `O` n\*
 
@@ -369,12 +367,14 @@ Open autocomplete in commit buffer::`C-n`
 
 - [x] rename object (using LSP):`<Leader>vrn`
 
-- [ ] add/remove/list remove dynamic workspace folders leader w a, leader w r, leader w l
+- [x] add/remove/list workspace folders
+?
+`<Leader>wa`, `<Leader>wr`, `<Leader>wl`. Pycharm alternative is project
+structure. n\*
 
-- [ ] list active buffers, to switch c-a-p
+- [x] telescope list active buffers::`<M-b>`
 
-- [ ] structure view :TSPlaygroundToggle
-
+- [x] parsed syntax-tree view::`:TSPlaygroundToggle` n\*
 
 ## netrw
 
