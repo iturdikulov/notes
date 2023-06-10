@@ -75,6 +75,3 @@ Open TOC in quickfix window (you can use `:cn` to navigate)::`<leader>I`
 ## To Do
 
 - [ ] check https://github.com/SidOfc/mkdx
-- [ ] c-t/c-d - renumber list items
-- [ ] url2markdown link
-- [ ] html2markdown
