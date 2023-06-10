@@ -20,6 +20,8 @@ I n daily life I use [[pycharm]] and [[neovim (text editor)]] inside
 
 Maybe in near future I will switch to use only neovim.
 
+- [ ] complete SQL
+- [ ] complete netrw
 - [ ] complete debugging
 - [ ] complete testing
 - [ ] complete refactoring
@@ -175,8 +177,6 @@ Insert new line above/below::`[<space>`, `]<space>`
 
 - [x] snippets in autocomplete
 
-- [ ] sync templates
-
 ## Code run/debugging/testing
 
 - [x] auto-import:
@@ -253,7 +253,7 @@ switch into Neovim/Vim easily.
 
 - [ ] fugitive.lua keybindings
 
-- [ ] Control size of git status window
+- [x] Control size of git status window and allow toggle it n\*
 
 `:Gwrite`::Stage current file
 
