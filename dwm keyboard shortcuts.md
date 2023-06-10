@@ -84,8 +84,10 @@ Terminal::<kbd>S-M-CR</kbd>
 Kill active window::<kbd>Super-S-c</kbd>
 Show tags alternatives in top bar::<kbd>Super-n</kbd>
 Toggle top bar::<kbd>Super-b</kbd>
-Focus next window::<kbd>Super-j</kbd>
-Focus prev window::<kbd>Super-k</kbd>
+Focus next window::<kbd>Super-h</kbd>
+Focus prev window::<kbd>Super-l</kbd>
+Resize window to right::<kbd>Super-shift-h</kbd>
+Resize window to left::<kbd>Super-shift-l</kbd>
 Power menu::<kbd>Super-S-C-Del</kbd>
 Pass menu::<kbd>Super-S-p</kbd>
 Active programs::<kbd>Super-a</kbd>
