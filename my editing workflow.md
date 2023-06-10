@@ -20,6 +20,13 @@ I n daily life I use [[pycharm]] and [[neovim (text editor)]] inside
 
 Maybe in near future I will switch to use only neovim.
 
+- [ ] complete VSC
+- [ ] complete refactoring
+- [ ] complete debugging
+- [ ] complete testing
+- [ ] complete git
+- [ ] complete snippets
+
 ## Built-in maps
 
 Insert new line above/below::`[<space>`, `]<space>`
