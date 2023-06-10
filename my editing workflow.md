@@ -20,12 +20,14 @@ I n daily life I use [[pycharm]] and [[neovim (text editor)]] inside
 
 Maybe in near future I will switch to use only neovim.
 
-- [ ] complete VSC
-- [ ] complete refactoring
 - [ ] complete debugging
 - [ ] complete testing
+- [ ] complete refactoring
+- [ ] complete VSC
 - [ ] complete git
 - [ ] complete snippets
+- [ ] complete learn
+- [ ] complete other
 
 ## Built-in maps
 
