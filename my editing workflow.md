@@ -452,6 +452,7 @@ structure. n\*
 
 ## Learn
 
+- [x] [How to: Create a git Merge Conflict](https://jonathanmh.com/how-to-create-a-git-merge-conflict/)
 - [ ] `:h fugitive.txt`
 - [ ] `:h lua-guide`
 - [ ] `:h terminal`
