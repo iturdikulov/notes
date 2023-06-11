@@ -144,6 +144,13 @@ Branches: To delete a remote branch "branch_name":
 ?
 `git push --delete origin [branch_name]`
 
+
+Continue merge after resolving conflicts
+?
+`git merge --continue`
+And if you don't want to edit the message when continuing/resuming the merge:
+`git merge --continue --no-edit`
+
 Branches: To delete all branches on remote that are already merged:
 ?
 `git branch --merged | egrep -v "(^*|main|dev)" | xargs git branch -d`
