@@ -257,13 +257,7 @@ switch into Neovim/Vim easily.
 
 ### Fugitive
 
-    vim.keymap.set("n", "<space>gb", ":Git branch<Space>")
-
-    vim.keymap.set("n", "<space>gp", ":Ggrep<Space>")
-    vim.keymap.set("n", "<space>gm", ":Gmove<Space>")
-    vim.keymap.set("n", "<space>go", ":Git checkout<Space>")
-
-- [ ] fugitive.lua keybindings
+- [x] import fugitive.lua keybindings
 
 - [x] Control size of git status window and allow toggle it n\*
 
@@ -272,6 +266,12 @@ switch into Neovim/Vim easily.
 - [x] `:diffupdate`::update diff window, can help with highlighting issues
 
 Index file represent ==last committed== version of file.
+
+Checkout branch::`<leader>go`
+
+Grep in branch, `:Git grep`, but I prefer telescope `<leader>fs`::`<leader>gp`
+
+Move current file to another location `:Git move`::`<leader>gm`
 
 - [x] `:Gwrite` or `<leader>gw`
 ?
@@ -327,7 +327,7 @@ lines
 
 - [ ] https://www.reddit.com/r/vim/comments/8h044y/comment/dym4eax/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button
 
-- [ ] list branches
+- [x] list branches `<leader>gb` and then press =`<tab>`=.
 
 - [ ] diff branches. Working tree diff.
 
