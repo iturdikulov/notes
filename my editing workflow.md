@@ -20,13 +20,14 @@ I n daily life I use [[pycharm]] and [[neovim (text editor)]] inside
 
 Maybe in near future I will switch to use only neovim.
 
-- [ ] complete debugging
-- [ ] complete netrw
-- [ ] complete testing
-- [ ] complete refactoring
-- [ ] complete VSC
-- [ ] complete learn
-- [ ] complete other
+- [ ] initialize refactoring
+- [ ] initialize debugging
+- [ ] initialize VCS
+- [ ] initialize netrw
+- [ ] initialize testing
+- [ ] initialize VSC
+- [ ] initialize learn
+- [ ] initialize other
 
 ## Built-in maps
 
@@ -204,8 +205,6 @@ enabling `Mark modified`).
 
 - [x] stop debugger::`<leader>dx`
 
-- [ ] jump to cursor::`<S-F1>` \*
-
 - [x] step back::`<F1>` n\*
 
 - [x] step over::`<F3>`
@@ -213,6 +212,8 @@ enabling `Mark modified`).
 - [x] step into::`<F2>`
 
 - [x] step out::`<F4>`
+
+- [ ] jump to cursor::`<S-F1>` \*
 
 - [ ] run to cursor::`<leader>dC`
 
@@ -470,7 +471,6 @@ structure. n\*
 - [ ] https://github.com/conventional-commits/conventionalcommits.org
 
 ## CLI tools
-- [ ] httpie
 
 ## Automation
 
@@ -481,4 +481,3 @@ structure. n\*
 - [ ] execute current file (open externally) leader o or leader O (run using xdg-open)
 - [ ] https://github.com/stevearc/aerial.nvim
 - [ ] https://learnvim.irian.to/basics/fold
-- [ ]
