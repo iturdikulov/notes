@@ -99,7 +99,7 @@ Insert new line above/below::`[<space>`, `]<space>`
 
 ## Code editing
 
-- [ ] mark modified files
+- [x] mark modified files
 ?
 In neovim it's `[+]` in the status line, in pycharm it's mark in tab (requires
 enabling `Mark modified`).
@@ -126,8 +126,11 @@ enabling `Mark modified`).
       ?
       a vertical split with `C-v`, a horizontal split with `C-x`, a new tab with `C-t`
 
-- [ ] black integration on_save, pre_commit
-- [ ] linter integration, https://github.com/astral-sh/ruff-lsp
+- [x] black integration, for neovim using `efm` and `vim.lsp.buf.format()`. For
+      pycharm using plugin.
+
+- [x] linter integration, https://github.com/astral-sh/ruff-lsp. Added but with
+  zero configuration. n\*
 
 ### Rope
 
@@ -255,12 +258,6 @@ switch into Neovim/Vim easily.
 ### Fugitive
 
     vim.keymap.set("n", "<space>gb", ":Git branch<Space>")
-    vim.keymap.set("n", "<space>gc", ":Git commit -v -q<CR>")
-    vim.keymap.set("n", "<space>gC", ":Git commit -v -q --amend<CR>")
-
-    vim.keymap.set("n", "<space>gD", ":Git diff<CR>")
-
-    vim.keymap.set("n", "<space>ga", ":Git add -p<CR>")  -- add with patch
 
     vim.keymap.set("n", "<space>gp", ":Ggrep<Space>")
     vim.keymap.set("n", "<space>gm", ":Gmove<Space>")
@@ -312,6 +309,12 @@ Open autocomplete in commit buffer::`C-n`
 `:Gedit :<path>` or `Gedit :0` or `<leader>ge`::Open index file
 
 `:Gdiffsplit` or `<leader>gd`::vimdiff against the index version of the file
+
+`:Git diff` or `<leader>gD`::git diff against the last committed version of the file.
+
+`:Git commit --ammend` or `<leader>ga`::amend last commit
+
+`:Git add -p` or `<leader>gA`::run git add with patch
 
 - [x] to use `:diffget` on deleted lines, place cursor position ==after== that
 lines
