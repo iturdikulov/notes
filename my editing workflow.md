@@ -20,14 +20,11 @@ I n daily life I use [[pycharm]] and [[neovim (text editor)]] inside
 
 Maybe in near future I will switch to use only neovim.
 
-- [ ] complete SQL
-- [ ] complete netrw
 - [ ] complete debugging
+- [ ] complete netrw
 - [ ] complete testing
 - [ ] complete refactoring
 - [ ] complete VSC
-- [ ] complete git
-- [ ] complete snippets
 - [ ] complete learn
 - [ ] complete other
 
@@ -44,6 +41,7 @@ Insert new line above/below::`[<space>`, `]<space>`
 - [x] grep content in current project and open find toolbar::`<leader>fs`
 
 - [x] locate file in file manager::`<leader>pv`
+- [x] locate file in telescope file manager::`<leader>pV`
 
 - [x] recent files, Telescope old files + CWD::`<m-e>`
 
@@ -100,6 +98,11 @@ Insert new line above/below::`[<space>`, `]<space>`
 - [x] switch harpoon items::`c-t c-n c-m-t c-m-n`\*
 
 ## Code editing
+
+- [ ] mark modified files
+?
+In neovim it's `[+]` in the status line, in pycharm it's mark in tab (requires
+enabling `Mark modified`).
 
 - [x] code folding::`zo/zc/zr`
 
@@ -251,13 +254,50 @@ switch into Neovim/Vim easily.
 
 ### Fugitive
 
+    vim.keymap.set("n", "<space>gb", ":Git branch<Space>")
+    vim.keymap.set("n", "<space>gc", ":Git commit -v -q<CR>")
+    vim.keymap.set("n", "<space>gC", ":Git commit -v -q --amend<CR>")
+
+    vim.keymap.set("n", "<space>gD", ":Git diff<CR>")
+
+    vim.keymap.set("n", "<space>ga", ":Git add -p<CR>")  -- add with patch
+
+    vim.keymap.set("n", "<space>gp", ":Ggrep<Space>")
+    vim.keymap.set("n", "<space>gm", ":Gmove<Space>")
+    vim.keymap.set("n", "<space>go", ":Git checkout<Space>")
+
 - [ ] fugitive.lua keybindings
 
 - [x] Control size of git status window and allow toggle it n\*
 
-`:Gwrite`::Stage current file
+- [x] `:diffoff[!]`::Close diff window, can be used in combination with `:q[!]` to close
 
-`:Gread`::Checkout current file
+- [x] `:diffupdate`::update diff window, can help with highlighting issues
+
+Index file represent ==last committed== version of file.
+
+- [x] `:Gwrite` or `<leader>gw`
+?
+Stage current file if it's working copy, or checkout if it's index file
+
+- [x] `:Gwrite` on working copy will ==stage file==.
+- [x] `:Gwrite` on index file will ==checkout file==.
+- [x] `:diffput` its like ==`:Gwrite`== but for diff window and works with hunks.
+- [x] `:diffput` on working copy will ==stage hunk==.
+- [x] `:diffput` on index file will ==checkout hunk==.
+- [x] `dp` is hotkey for ==`:diffput`==. `p` is stays for "put".
+
+- [x] `:Gread` or `<leader>gR`
+?
+Checkout current file if it's working copy, or stage if it's index file
+
+- [x] `:Gread` on working copy will ==checkout file==.
+- [x] `:Gread` on index file will ==stage file==.
+- [x] `:diffget` its like ==`:Gread`== but for diff window and works with hunks.
+- [x] `:diffget` on working copy will ==checkout hunk==.
+- [x] `:diffget` on index file will ==stage hunk==.
+- [x] `do` is hotkey for ==`:diffget`==. `o` is stays for "obtain".
+
 
 `:Gremove`::Remove current file
 
@@ -269,9 +309,12 @@ Open autocomplete in commit buffer::`C-n`
 
 `:G commit`::Open split window with commit buffer
 
-`:Gedit [<path>]`::Open index file
+`:Gedit :<path>` or `Gedit :0` or `<leader>ge`::Open index file
 
-`:Gdiffsplit`::vimdiff against the index version of the file
+`:Gdiffsplit` or `<leader>gd`::vimdiff against the index version of the file
+
+- [x] to use `:diffget` on deleted lines, place cursor position ==after== that
+lines
 
 - [ ] Perform a `:Gdiffsplit` on the file under the cursor.::`dd`
 
@@ -380,12 +423,14 @@ structure. n\*
 
 ## SQL
 
-- [ ] connect and open database console
-- [ ] execute query and show results
-- [ ] copy all results/row/column
-- [ ] toggle results view
+- [x] toggle DB UI::`<leader>qt`
+- [x] toggle last query info::`<leader>qi` n\*
+- [x] execute query::`<leader>S`
+- [x] https://github.com/kristijanhusak/vim-dadbod-completion
+- [x] connect and open database console
+- [x] copy all results/row/column::`y[motion]`, `yic` n\*
 
-- [ ] https://github.com/kristijanhusak/vim-dadbod-ui/blob/master/doc/dadbod-ui.txt
+- [x] https://github.com/kristijanhusak/vim-dadbod-ui/blob/master/doc/dadbod-ui.txt
 - [ ] vim-dadbod-ui https://github.com/kristijanhusak/vim-dadbod-ui#mappings
       full-featured database client, possible set values, load values from files, query, work with multiple databases
 
@@ -420,6 +465,9 @@ structure. n\*
 
 - [ ] https://github.com/conventional-commits/conventionalcommits.org
 
+## CLI tools
+- [ ] httpie
+
 ## Automation
 
 - [ ] vim shell output actions... :h redir, !...|grep, r!... etc
@@ -429,3 +477,4 @@ structure. n\*
 - [ ] execute current file (open externally) leader o or leader O (run using xdg-open)
 - [ ] https://github.com/stevearc/aerial.nvim
 - [ ] https://learnvim.irian.to/basics/fold
+- [ ]
