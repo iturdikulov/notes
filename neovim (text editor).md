@@ -32,6 +32,8 @@ sr-ease: 230
 
 # API
 
+To start with different config use `NVIM_APPNAME` env variable.
+
 # Programming language support
 
 # UI
