@@ -20,12 +20,11 @@ I n daily life I use [[pycharm]] and [[neovim (text editor)]] inside
 
 Maybe in near future I will switch to use only neovim.
 
+- [ ] initialize netrw
+- [ ] initialize VCS
+- [ ] initialize testing
 - [ ] initialize refactoring
 - [ ] initialize debugging
-- [ ] initialize VCS
-- [ ] initialize netrw
-- [ ] initialize testing
-- [ ] initialize VSC
 - [ ] initialize learn
 - [ ] initialize other
 
@@ -34,6 +33,11 @@ Maybe in near future I will switch to use only neovim.
 Insert new line above/below::`[<space>`, `]<space>`
 
 ## Files navigation
+
+
+- [x] close all buffers except current and stay on original cursor position
+?
+`<leader>bd`, Use this: `:%bd\|e#\|bd#<cr>\|'"`
 
 - [x] `cd` to current file path::`<leader>z%` n\*
 
