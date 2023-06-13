@@ -502,7 +502,7 @@ structure. n\*
 
 ## Automation
 
-- [ ] vim shell output actions... :h redir, !...|grep, r!... etc
+- [ ] vim-shell output actions... `:h redir`, `!...|grep`, `r!...`, etc.
 - [ ] https://github.com/tpope/vim-unimpaired
 - [ ] new scratch file `:enew`
 - [ ] execute scratch file
