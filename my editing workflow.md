@@ -95,6 +95,10 @@ Insert new line above/below::`[<space>`, `]<space>`
 
 ### Harpoon n\*
 
+- [ ] quick switch to terminal
+      Ctrl-Z while editing in vim to send it to background, do your thing on the terminal and use fg at any time to bring up vim again.
+      C-\ switch to terminal
+
 - [x] add file into harpoon list::`leader-a`
 
 - [x] show harpoon menu::`c-e`
@@ -352,20 +356,18 @@ lines
 
 - [ ] accept left/right hunk in 3-way diff/merge conflict
 
-- [ ] revert all changes, stash the changes `czz` Push stash. Pass a [count] of 1 to add `--include-untracked` or 2 to add `--all`.
-
-- [ ] stash current changes
-
-- [ ] czA Apply topmost stash, or stash@{count}.
-
 - [ ] grep in VCS repo history
-
-- [ ] push and create merge request `git push -o merge_request.create --set-upstream origin HEAD`
 
 - [ ] cherry-picking commit
       https://www.reddit.com/r/neovim/comments/tuhs7u/comment/i35571l/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button
 
 - [ ] https://vi.stackexchange.com/questions/tagged/plugin-fugitive
+
+- [x] stash the changes::`czz`, require staging changes before
+
+- [x] Apply topmost stash::`cza`
+
+- [x] push and create merge request::`<leader>T` in vim-fugitive buffer
 
 - [x] get file local history/undotree::`<leader>u`
 
@@ -398,10 +400,6 @@ lines
 - [ ] `:h gitsigns.txt`
 
 ## Custom
-
-- [ ] quick switch to terminal
-      Ctrl-Z while editing in vim to send it to background, do your thing on the terminal and use fg at any time to bring up vim again.
-      C-\ switch to terminal
 
 - [x] telescope command_history::`<leader>fc` n\*
 
