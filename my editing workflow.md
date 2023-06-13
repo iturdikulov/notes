@@ -45,7 +45,6 @@ Insert new line above/below::`[<space>`, `]<space>`
 
 - [x] grep content in current project and open find toolbar::`<leader>fs`
 
-- [x] locate file in file manager::`<leader>pv`
 - [x] locate file in telescope file manager::`<leader>pV`
 
 - [x] recent files, Telescope old files + CWD::`<m-e>`
@@ -78,6 +77,8 @@ Insert new line above/below::`[<space>`, `]<space>`
 - [x] zeavim select doc-set and query::`<leader><leader>z` n\*
 
 - [x] go to previous/current file::`c-^`
+
+### Markdown
 
 - [x] go to previous/next function hunk::`[[`/`]]`
 - [x] go to link::`gx`
@@ -223,19 +224,7 @@ enabling `Mark modified`).
 
 - [ ] evaluate expression
 
-- [x] run the nearest test::`<leader>dnn`
-
-- [x] rerun the last test
-
 - [ ] run current test file::`<leader>dnf` \*
-
-- [x] debug the nearest test::`<leader>ddc`
-
-- [x] open test results::`<leader>dno`
-
-- [x] show summary::`<leader>dns`
-
-- [x] toggle output panel::`<leader>dnt`
 
 - [ ] coverage test
 
@@ -244,6 +233,18 @@ enabling `Mark modified`).
 - [ ] run group of tests, pytest cwd?
 
 - [ ] CI/Reporting workflow
+
+- [x] run the nearest test::`<leader>dnn`
+
+- [x] rerun the last test
+
+- [x] debug the nearest test::`<leader>ddc`
+
+- [x] open test results::`<leader>dno`
+
+- [x] show summary::`<leader>dns`
+
+- [x] toggle output panel::`<leader>dnt`
 
 - [x] [neotest](https://github.com/harrisoncramer/nvim/blob/main/lua/plugins/neotest.lua)
 
@@ -324,20 +325,7 @@ Open autocomplete in commit buffer::`C-n`
 - [x] to use `:diffget` on deleted lines, place cursor position ==after== that
 lines
 
-- [ ] Perform a `:Gdiffsplit` on the file under the cursor.::`dd`
-
-- [ ] 1/5 http://vimcasts.org/blog/2011/05/the-fugitive-series/
-
-- [ ] https://github.com/lewis6991/gitsigns.nvim
-
-- [ ] https://www.reddit.com/r/vim/comments/8h044y/comment/dym4eax/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button
-
 - [x] list branches `<leader>gb` and then press =`<tab>`=.
-
-- [ ] diff branches. Working tree diff.
-
-- [ ] compare working tree with branch
-      git-diff or :Merginal
 
 - [x] log git history of current file::`<leader>gl`
 
@@ -345,11 +333,39 @@ lines
 
 - [x] `ds`::Perform a `:Ghdiffsplit` on the file under the cursor
 
+- [ ] Perform a `:Gdiffsplit` on the file under the cursor.::`dd`
+
+- [ ] 2/5 http://vimcasts.org/blog/2011/05/the-fugitive-series/
+
+- [ ] https://github.com/lewis6991/gitsigns.nvim
+
+- [ ] https://www.reddit.com/r/vim/comments/8h044y/comment/dym4eax/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button
+
+- [ ] diff branches. Working tree diff.
+
+- [ ] compare working tree with branch
+      git-diff or :Merginal
+
 - [ ] `gt` - accept left side of diff
 
 - [ ] `gn` - accept right side of diff
 
 - [ ] accept left/right hunk in 3-way diff/merge conflict
+
+- [ ] revert all changes, stash the changes `czz` Push stash. Pass a [count] of 1 to add `--include-untracked` or 2 to add `--all`.
+
+- [ ] stash current changes
+
+- [ ] czA Apply topmost stash, or stash@{count}.
+
+- [ ] grep in VCS repo history
+
+- [ ] push and create merge request `git push -o merge_request.create --set-upstream origin HEAD`
+
+- [ ] cherry-picking commit
+      https://www.reddit.com/r/neovim/comments/tuhs7u/comment/i35571l/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button
+
+- [ ] https://vi.stackexchange.com/questions/tagged/plugin-fugitive
 
 - [x] get file local history/undotree::`<leader>u`
 
@@ -373,24 +389,9 @@ lines
 
 - [x] unstage hunk::`u`
 
-- [ ] revert all changes, stash the changes `czz` Push stash. Pass a [count] of 1 to add `--include-untracked` or 2 to add `--all`.
-
-- [ ] stash current changes
-
-- [ ] czA Apply topmost stash, or stash@{count}.
-
-- [ ] grep in VCS repo history
-
 - [x] Push changes::`<leader>p` (in fugitive mode for nvim) n\*
 
 - [x] pull & rebase::`<leader>P` (in fugitive mode for nvim) n\*
-
-- [ ] push and create merge request `git push -o merge_request.create --set-upstream origin HEAD`
-
-- [ ] cherry-picking commit
-      https://www.reddit.com/r/neovim/comments/tuhs7u/comment/i35571l/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button
-
-- [ ] https://vi.stackexchange.com/questions/tagged/plugin-fugitive
 
 ### Git Signs
 
@@ -429,6 +430,31 @@ structure. n\*
 
 ## netrw
 
+- [x] [Using Netrw, vim's builtin file explorer](https://vonheikemen.github.io/devlog/tools/using-netrw-vim-builtin-file-explorer/)
+
+- [x] locate file in file manager::`<leader>pv` or `:Explore` or `:Ex`
+
+- [x] Explore variants:`:Vexplore`, `:Hexplore`, `:Texplore`, `:Sexplore`
+- [x] Open/parent directory/previous directory/add bookmark/most recent bookmark
+?
+`<cr>`, `-`, `u`, `mb`, `gb`
+- [ ] remove the most recent bookmark::`mB`
+- [x] preview window/close preview window::`p`, `<C-w>z`
+- [x] toggle hidden files::`gh`
+- [x] create file::`%`
+- [x] rename (move) file::`R`
+- [x] Marks a file or directory::`mf`
+- [x] Clear marks in current buffer::`mF`
+- [x] Clear all marks::`mu`
+- [x] Assign the "target directory" used by the move and copy commands.::`mt`
+- [x] Assign target directory and copy in one command::`mtmc`
+- [x] Copy/move the marked files in the target directory.::`mc`, `mm`
+- [x] Runs an external command on the marked files.::`mx`
+- [x] Delete a file or an empty directory::`D`
+- [x] Delete a file or directory recursively::`mx` then `trash`
+- [x] Toggle banner::`I`
+- [x] List key mappings::`F1`
+
 ## SQL
 
 - [x] toggle DB UI::`<leader>qt`
@@ -444,13 +470,13 @@ structure. n\*
 
 ## Vim surround
 
-- [x] surr\*ound_words ysiw) (surround_words)
-- [x] \*make strings ys$" "make strings"
-- [x] [delete ar\*ound me!] ds] delete around me!
-- [x] remove <b>HTML t\*ags</b> dst remove HTML tags
-- [x] 'change quot\*es' cs'" "change quotes"
-- [x] <b>or tag\* types</b> csth1<CR> <h1>or tag types</h1> n\*
-- [x] delete(functi\*on calls) dsf function calls n\*
+- [x] `surr*ound_words ysiw)` (surround_words)
+- [x] `*make strings ys$"` "make strings"
+- [x] `[delete ar*ound me!] ds]` delete around me!
+- [x] remove `<b>HTML t*ags</b> dst` remove HTML tags
+- [x] change `quot*es' cs'"` "change quotes"
+- [x] `<b>or tag* types</b> csth1<CR>` `<h1>or tag types</h1>` n\*
+- [x] `delete(functi*on calls) dsf` function calls n\*
 
 ## JS debugging (browser)
 
