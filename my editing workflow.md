@@ -20,6 +20,9 @@ I n daily life I use [[pycharm]] and [[neovim (text editor)]] inside
 
 Maybe in near future I will switch to use only neovim.
 
+Some of the bindings can be changed, so this guide is not 100% actual.
+Better to check live bindings using telescope/config/etc.
+
 - [ ] initialize netrw
 - [ ] initialize VCS
 - [ ] initialize testing
@@ -37,7 +40,7 @@ Insert new line above/below::`[<space>`, `]<space>`
 
 - [x] close all buffers except current and stay on original cursor position
 ?
-`<leader>bd`, Use this: `:%bd\|e#\|bd#<cr>\|'"`
+`<leader>bD`, Use this: `:%bd\|e#\|bd#<cr>\|'"`
 
 - [x] `cd` to current file path::`<leader>z%` n\*
 
