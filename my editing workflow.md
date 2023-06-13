@@ -367,7 +367,7 @@ lines
 
 - [x] Apply topmost stash::`cza`
 
-- [x] push and create merge request::`<leader>T` in vim-fugitive buffer
+- [ ] push and create merge request::`<leader>T` in vim-fugitive buffer
 
 - [x] get file local history/undotree::`<leader>u`
 
@@ -485,9 +485,9 @@ structure. n\*
 ## Learn
 
 - [x] [How to: Create a git Merge Conflict](https://jonathanmh.com/how-to-create-a-git-merge-conflict/)
+- [ ] `:h terminal`
 - [ ] `:h fugitive.txt`
 - [ ] `:h lua-guide`
-- [ ] `:h terminal`
 - [ ] `:h`
 
 ## Code style
