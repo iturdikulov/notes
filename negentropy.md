@@ -37,3 +37,4 @@ reduce chaos in my life (at least digital).
 - [ ] zotero @notes fix, break attachments check
 - [ ] obsidian, find break links
 - [ ] sync dotfiles nvim and check it
+
