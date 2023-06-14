@@ -19,3 +19,6 @@ It's useful when I want to "daemonize" a process.
 
 If I want leave job in background and close shell session, in my case (`zsh`) I
 need to run `setopt nohup` before pressing `C-d`.
+
+If required redirect output to specific file and do it silently,
+I can use something like this (inbox.sh script) `nohup mailsync &>/tmp/mailsync.log & disown; neomutt`
