@@ -78,6 +78,8 @@ change something (can be used with black hole register)::`c[register][num][motio
 
 `:`::command mode
 
+TODO: keybindings in command mode
+
 How to split line (a/i/r)
 ?
 
@@ -884,6 +886,10 @@ Preview image::`<leader>zp`
 Browse media::`<leader>zm`
 
 Rename note::`<leader>zr`
+
+## Lua in neovim
+
+`:lua =vim.lsp.buf_get_clients()`::list lsp clients
 
 ## Scripts
 
