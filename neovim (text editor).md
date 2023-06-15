@@ -101,9 +101,42 @@ output)
 
 `?`::backward search mode
 
+`//`::repeat last search
+
+`/search\c`::case insensitive search
+
+`/search\C`::case sensitive search
+
+`set ignorecase`
+?
+case insensitive search
+
+`set smartcase`
+?
+case insensitive search, unless there is a capital letter in the search, but `ignorecase` needs to be on
+
+`vim[grep][!] /{pattern}/[g][j][f] {file} ...`
+?
+Search pattern across files pattern.
+
+`grep {pattern} {file} ...`::Search pattern across files pattern.
+
+`:copen`::Open quickfix window
+
+`C-k`::`:cnext`
+
+`C-j`::`:cprev`
+
+`@:`::repeat last command
+
+`@@`::repeat last `@<whatever>`
+
 Find each occurrence of 'foo' (in all lines), and replace it with 'bar'
 ?
 `:%s/foo/bar/g[c]`
+`%` - all lines.
+`s` - substitute.
+`g` - global (all occurrences in the line not only the first one).
 `[c]` - confirmations.
 
 The replacement will check each line in the buffer, but will only match within the last visual selection
@@ -111,12 +144,15 @@ The replacement will check each line in the buffer, but will only match within t
 `:%s/\%Vfoo/bar/g[c]`
 `[c]` - confirmations.
 
-
 `:'<,'>s/old/new/g`::replace all old with new throughout visual selection
 
 `&`::repeat last substitute, equal to `:s//~/`
 
 `:s/\[foo\]//g`::Escape the square brackets with a backslash, to replace `[foo]`
+
+`:s/pat\/tern/replace/g`::Escape the `/` to match "pat/tern"
+
+`:s#pat/tern#replace#g`::Use another character as separator to match "pat/tern".
 
 `:%s/\(^ *\)\@<! \/ /g`
 ?
@@ -136,7 +172,33 @@ You can also just press f/t/F/T ==again== to continue search
 
 `n|N`::repeat search in same direction, in opposite direction
 
-`*|#`::search forward word under cursor, search backward word under cursor
+`*|#` or `g*|g#`::search forward word under cursor, search backward word under cursor
+
+How to do granular find and replace in the whole file
+?
+1. Search something with `/`
+2. Type `cgn` and `word` to replace, or run some command, where `gn` is a
+   motion that selects the next match of the last used search pattern. Of course
+   you can use `cgN` and `dgn` to delete, etc.
+3. Find next `n/N` and repeat `.`
+
+Find and Replace in Multiple Files using `argslist`
+?
+1. Initialize the argslist with `:args *.ext` from CWD.
+2. Optionaly add more files with `:argadd *.ext`. You can also use `**/*.ext`
+   to search recursively.
+3. Optionally remove some files with `:argdelete *.ext`, to delet all use `*`
+4. Do search and replace: `:argdo %s/foo/bar/[g][e][c] | update`. `e` here prevents
+   error messages when there is no match, `c` is for confirmation.
+You can also use `:bufdo` to do the same thing in all open buffers.
+To use argslist in vimgrep use `:vimgrep // ##`. `//` is last search pattern.
+Use `:cdo` to do something with the quickfix list.
+
+Search with telescope and quickfix
+?
+1. `<leader>fs` to grep results
+2. `<C-q>` to add all results to the quickfix list
+3. `:cdo s/StringOne/StringTwo/g | update` to make the change and save all the files.
 
 ### Navigation
 
