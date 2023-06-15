@@ -177,7 +177,7 @@ Check also [[my shell scripts|my shell scripts]] and
   [[zathura|more info]]
 - [zared](https://github.com/paoloap/zaread) - E-Book and Office document reader
 - [ffmpeg](https://ffmpeg.org/) - a complete, cross-platform solution to record,
-  convert and stream audio and video
+  convert and stream audio and video, [[ffmpeg|more info]]
 - [strawberry](https://www.strawberrymusicplayer.org/) - cross-platform music
   player and music collection organizer
 - [imv](https://sr.ht/~exec64/imv/) - command line image viewer intended for use
