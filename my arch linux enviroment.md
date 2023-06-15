@@ -671,3 +671,10 @@ appropriate to match the config). Call zramctl or swapon to confirm that
 the device has been created and is in use. Once installed and
 configured, the generator will be invoked by systemd early at boot,
 there is no need to do anything else.
+
+## Additional resources
+
+- https://github.com/systemd/zram-generator
+
+- TODO: check ansible scrips?
+
