@@ -51,7 +51,7 @@ Sort of [[computer program|program]] which mimics human cognition.
 > computing.
 >
 > --
-> [Wikipedia in Simple English](https://simple.wikipedia.org/wiki/Artificial_intelligence)
+> [Simple English Wikipedia](https://simple.wikipedia.org/wiki/Artificial_intelligence)
 
 ## Resources
 

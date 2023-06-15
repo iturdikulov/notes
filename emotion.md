@@ -35,4 +35,4 @@ sr-ease: 279
 > hundreds of millions of years. These are the hormone system, the autonomic
 > nervous system and the 'lower' brain centers (hindbrain and midbrain).
 >
-> [Wikipedia in Simple English](https://simple.wikipedia.org/wiki/Emotion)
+> [Simple English Wikipedia](https://simple.wikipedia.org/wiki/Emotion)

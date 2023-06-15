@@ -19,7 +19,7 @@ sr-ease: 270
 > certain number, so logarithms are the inverse (opposite) of exponentiation.
 > Historically, they were useful in multiplying or dividing large numbers.
 >
-> -- [Wikipedia in Simple English](https://simple.wikipedia.org/wiki/Logarithm)
+> -- [Simple English Wikipedia](https://simple.wikipedia.org/wiki/Logarithm)
 
 
 > Logarithms are the inverse operation of exponentiation. We can use logarithms

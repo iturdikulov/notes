@@ -32,7 +32,7 @@ sr-ease: 290
 > behaviors in humans and animals. Psychology aims to explain how the mind
 > works. It also looks at how our actions relate to how we think.
 >
-> -- [Wikipedia in Simple English](https://simple.wikipedia.org/wiki/Psychology)
+> -- [Simple English Wikipedia](https://simple.wikipedia.org/wiki/Psychology)
 
 ## Useful resources
 

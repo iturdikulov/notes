@@ -22,7 +22,7 @@ sr-ease: 270
 > hardware to do actions.
 >
 > --
-> [Wikipedia in Simple English](https://simple.wikipedia.org/wiki/Low-level_programming_language)
+> [Simple English Wikipedia](https://simple.wikipedia.org/wiki/Low-level_programming_language)
 
 Usually low-level programming languages are used to speed up execution of
 program, or to make it more efficient.

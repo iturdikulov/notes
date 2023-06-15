@@ -20,4 +20,4 @@ sr-ease: 267
 > amount of information in data measures how easily it is guessed by a person
 > who does not know its value.
 >
-> [Wikipedia in Simple English](https://simple.wikipedia.org/wiki/Information_theory)
+> [Simple English Wikipedia](https://simple.wikipedia.org/wiki/Information_theory)

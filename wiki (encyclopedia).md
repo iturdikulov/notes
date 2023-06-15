@@ -41,7 +41,7 @@ method.
 - [Algorithms and data structures](https://en.wikipedia.org/wiki/Category:Algorithms_and_data_structures)
 - [Physics by Wikipedia](https://en.wikipedia.org/wiki/Category:Physics)
 - [Rational Wiki](https://rationalwiki.org/wiki/Main_Page)
-- [Wikipedia in Simple English](https://simple.wikipedia.org/wiki/Main_Page), I
+- [Simple English Wikipedia](https://simple.wikipedia.org/wiki/Main_Page), I
   have offline copy of this wiki in [[goldendict|golden dict]].
 - [Wikipedia best](https://en.wikipedia.org/wiki/Wikipedia:Best_articles)
 - [IFixit](https://www.ifixit.com/)

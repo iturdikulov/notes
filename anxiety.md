@@ -28,7 +28,7 @@ sr-ease: 290
 > misfortune. Very often, people with anxiety also feel worries. There can also
 > be physical symptoms, like having a headache or an upset stomach.
 >
-> -- [Wikipedia in Simple English](https://simple.wikipedia.org/wiki/Anxiety)
+> -- [Simple English Wikipedia](https://simple.wikipedia.org/wiki/Anxiety)
 
 ## How I fight against anxiety
 
@@ -37,3 +37,4 @@ sr-ease: 290
   can worry about them, but I need sort of "green light" to start solving them.
 - I'm reducing my troubles by solving things which I can solve.
 - Calendar can reduce my troubles by reminding me of things which I can solve.
+

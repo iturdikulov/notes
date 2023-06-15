@@ -22,7 +22,7 @@ sr-ease: 279
 > mobile operating systems or are used for specialized work.
 >
 > --
-> [Wikipedia in simple English](https://simple.wikipedia.org/wiki/Operating_system)
+> [Simple English Wikipedia](https://simple.wikipedia.org/wiki/Operating_system)
 
 My favorite operating systems:
 

@@ -32,4 +32,4 @@ sr-ease: 229
 > vocabulary comes from Latin, English is sometimes called the Germanic language
 > that is the most Latin, and it is often mistaken for being a Romance language.
 >
-> [Wikipedia in Simple English](https://simple.wikipedia.org/wiki/English_language)
+> [Simple English Wikipedia](https://simple.wikipedia.org/wiki/English_language)

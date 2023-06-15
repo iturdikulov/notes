@@ -106,7 +106,7 @@ PinBoard - search for bookmarks
 ?
 `pb`
 
-Simple English Wikipedia - Wikipedia in simple English
+Simple English Wikipedia
 ?
 `w`
 

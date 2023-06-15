@@ -31,4 +31,4 @@ sr-ease: 270
 > constraints of all levels below them.
 >
 > --
-> [Wikipedia in Simple English](https://simple.wikipedia.org/wiki/Chomsky_hierarchy)
+> [Simple English Wikipedia](https://simple.wikipedia.org/wiki/Chomsky_hierarchy)
