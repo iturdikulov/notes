@@ -39,4 +39,3 @@ reduce chaos in my life (at least digital).
 - LOOP: obsidian, find break links
 - LOOP: sync dotfiles nvim and check it
 - NEXT: audiobooks negentropy
-
