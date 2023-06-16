@@ -23,18 +23,20 @@ reduce chaos in my life (at least digital).
 
 ## My process of negentropy
 
-- [ ] Organize files: \~/org, \~/projects, \~/.pass, \~/downloads, /data
-- [ ] Organize from download dir: music, audiobooks, commix, other media
-- [ ] Import into org notes from KoHighlights
-- [ ] Organize passwords - move from brave into pass
-- [ ] flash cards optimization
-- [ ] KoReader, KoHighlights via ssh mount
-- [ ] dmenu-run-history issues, clean old items?
-- [ ] history clean
-- [ ] [[my backup plan]]
-- [ ] how to store things, what I really need?
-- [ ] Mobile device backup {#mobile-device-backup}
-- [ ] zotero @notes fix, break attachments check
-- [ ] obsidian, find break links
-- [ ] sync dotfiles nvim and check it
+- LOOP: optimize `~/.aliases ~/.functions ~/.cargo/bin ~/.local/share/go/bin /home/inom/.local/bin`
+- LOOP: Organize files: \~/org, \~/projects, \~/.pass, \~/downloads, /data
+- LOOP: Organize from download dir: music, audiobooks, commix, other media
+- LOOP: Import into org notes from KoHighlights
+- LOOP: Organize passwords - move from brave into pass
+- LOOP: flash cards optimization
+- LOOP: KoReader, KoHighlights via ssh mount
+- LOOP: dmenu-run-history issues, clean old items?
+- LOOP: history clean
+- LOOP: [[my backup plan]]
+- LOOP: how to store things, what I really need?
+- LOOP: Mobile device backup {#mobile-device-backup}
+- LOOP: zotero @notes fix, break attachments check
+- LOOP: obsidian, find break links
+- LOOP: sync dotfiles nvim and check it
+- NEXT: audiobooks negentropy
 
