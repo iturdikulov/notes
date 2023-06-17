@@ -3,22 +3,10 @@ tags:
   - "weekly"
 ---
 
-# Review Week {{week}} / {{year}}
+# {{week}} / {{year}}
 
----
-
-## Significant events
-
-
-
-## Next
-
-
+Note for this week.
 
 ## Inbox
-
-
-
-## Week highlights
 
 
