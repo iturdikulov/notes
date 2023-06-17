@@ -346,4 +346,5 @@ Check also [[my shell scripts|my shell scripts]] and
 
 ## Android
 
-- [[termux]
+- [[Termux]
+- [[Tachiyomi]]
