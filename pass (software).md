@@ -46,6 +46,8 @@ pass mv [-f] old/path new/path
 pass grep [GREP_OPTIONS] search-string
 ```
 
+TODO: check if this workflow working on mobile.
+
 If I have only one login for site, I use site.tld as entry name. If I have more
 I use site.tld/username.
 
