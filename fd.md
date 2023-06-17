@@ -1,0 +1,39 @@
+---
+date: 2023-06-17
+tags:
+  - inbox
+  - definition
+---
+
+# fd
+
+> fd is a program to **find** entries in your **filesystem**. It is a simple,
+> fast and user-friendly alternative to find. While it does not aim to support
+> all of find's powerful functionality, it provides sensible (opinionated)
+> defaults for a majority of use cases.
+> -- [fd](https://github.com/sharkdp/fd)
+
+
+## Commands
+
+```sh
+# Simple search:
+fd <search query>
+
+# Specifying the root directory for the search:
+fd <search query> <directory>
+
+# Searching for a particular file extension:
+fd -e <file extension> <search query>
+
+# Searching for a particular file name:
+fd -g <file name>.<file extension>
+
+# Search for hidden and ignored files:
+fd -H <search query>
+
+# Excluding specific files or directories:
+fd -E <file or directories which should be excluded> <search query>
+```
+
+TODO: https://github.com/sharkdp/fd#how-to-use

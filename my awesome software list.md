@@ -76,9 +76,9 @@ Check also [[my shell scripts|my shell scripts]] and
   finder, [[fzf]]
 
 - [fd](https://github.com/sharkdp/fd) - A simple, fast and user-friendly
-  alternative to \'find\'
+  alternative to \'find\', [[fd|more info]]
 - [ripgrep](https://github.com/BurntSushi/ripgrep) - recursively searches the
-  current directory for a regex pattern
+  current directory for a regex pattern, [[ripgrep|more info]]
 - [pdfgrep](https://pdfgrep.org/) - search text in PDF files
 
 - [reflex](https://github.com/cespare/reflex) - watch a directory and rerun a
