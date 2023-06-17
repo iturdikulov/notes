@@ -18,114 +18,67 @@ sr-ease: 301
 
 ## My search engines list
 
-Browser bookmarks
-?
-`@b`
+Browser bookmarks::`@b`
 
-Browser Tabs
-?
-`@t`
+Browser Tabs::`@t`
 
-Browser History
-?
-`@h`
+Browser History::`@h`
 
-Google search
-?
-`g`
+Google search::`!g`
 
-1337x - torrent search
-?
-`1x`
+## DuckDuckGo bangs
 
-acronymfinder.com - search for acronyms
-?
-`af`
+I utilize [DuckDuckGo bangs](https://duckduckgo.com/bang) to search in different
+websites.
 
-Amazon - shopping
-?
-`a`
+Primary shortcut for DuckDuckGo is `!`.
 
-eBay - shopping
-?
-`e`
+And here list of my favorite bangs:
 
-ArchWiki - Arch Linux Wiki
-?
-`aw`
+- eBay - shopping::`! !e `
+- Amazon - shopping::`! !a `
+- AliExpress - shopping::`! !ae `
+- Wikipedia - search in the largest encyclopedia::`! !w `
+- Simple English Wikipedia::`! !sw `
+- Russian Wikipedia::`! !ц `
+- ArchWiki - Arch Linux Wiki::`! !archwiki `
+- BookFinder - search for books::`! !bookfinder `
+- Project Gutenberg - search for free books::`! !pg `
+- Google Books - search for books::`! !gb `
+- Google Scholar - search for scientific articles, books::`! !gsc `
+- DockerHub - search for [[docker]] images::`! !dh `
+- GitHub - code search, [[GitHub|more info]]::`! !gh `
+- GitHub Gist - code snippets::`! !gist `
+- Your Github Stars::`! !githubstars `
+- GitLab - code search, [[GitLab|more info]]::`! !glab `
+- SourceGraph - code search::`! !sg `
+- StackOverflow - search for programming questions and answers::`! !so `
+- SuperUser - search for computer questions and answers::`! !su `
+- WolframAlpha - computational intelligence search engine::`! !wa`
+- MathWorld - search for math definitions, formulas::`! !math`
+- Foldoc Dict - search for definitions, mostly technical::`! !foldoc `
+- Google Cache - search for cached pages, need pass [[uniform resource locator (url)|url]]::`! !cache `
+- Web Archive - search for archived pages, need pass [[uniform resource locator (url)|url]]::`! !webarchive `
+- Google Translate - translate text::`! !gt `
+- Yandex Translate - translate text::`! !ytr `
+- DeepL Translate - translate text::`! !dpl `
+- Google Maps - search for places::`! !m `
+- OpenStreetMap - search for places::`! !osm `
+- Google Images - search for images::`! !gi `
+- Yandex Images - search for images::`! !ymg `
+- Google Videos - search for videos::`! !gv `
+- IMDb - search for movies, actors::`! !imd `
+- Rotten Tomatoes - search for movies, actors::`! !rt `
+- YouTube - search for videos::`! !yt `
+- Twitch - search for streams::`! !ttv `
+- Last FM - search for music, artists::`! !lastfm `
+- Fandom - search for fandoms::`! !fandom `
+- Reddit - search for subreddits::`! !r `
+- MDN - Mozzila developer network docs::`! !mdn `
+- MSDN - Microsoft developer network docs::`! !msdn `
+- DevDocs - search for programming docs::`! !dd `
+- Godot Docs - search for Godot docs::`! !godot `
+- Rust Docs - search for Rust docs::`! !rust `
+- PinBoard - search for bookmarks::`! !pb `
 
-BookFinder - search for books
-?
-`b`
 
-Project Gutenberg - search for free books
-?
-`pg`
-
-Google Books - search for books
-?
-`gb`
-
-Google Scholar - search for scientific articles, books
-?
-`gs`
-
-DockerHub - search for [[docker]] images
-?
-`d`
-
-Foldoc Dict - search for definitions, mostly technical
-?
-`f`
-
-GitHub - code search, [[GitHub|more info]]
-?
-`gh`
-
-Google Cache - search for cached pages, need pass [[uniform resource locator (url)|url]], like `:gc example.com`
-?
-`gc`
-
-Web Archive - search for archived pages, need pass [[uniform resource locator (url)|url]], like `:war example.com`
-?
-`war`
-
-IMDB - search for movies, actors
-?
-`i`
-
-Last FM - search for music, artists
-?
-`lf`
-
-MDN - Mozzila developer network docs
-?
-`mdn`
-
-PinBoard - search for bookmarks
-?
-`pb`
-
-Simple English Wikipedia
-?
-`w`
-
-StackOverflow - search for programming questions and answers
-?
-`s`
-
-Wikipedia - search in the largest encyclopedia
-?
-`w`
-
-Wolfram MathWorld - search for math definitions, formulas
-?
-`mw`
-
-WolframAlpha - computational intelligence search engine
-?
-`wa`
-
-YouTube - search for videos
-?
-`y`
