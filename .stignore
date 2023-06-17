@@ -80,4 +80,5 @@ var/lib/lxcfs/
 ~$*
 books/
 .git/
-.obsidian/plugins/
+*.obsidian
+.obsidian/
