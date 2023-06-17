@@ -86,7 +86,7 @@ pandoc -C \
        "$file" && \
 ```
 
-- `-t` - input format [[markdown#gfm]] ::TODO: add this heading/note
+- `-t` - input format [[markdown#gfm]] TODO: add this heading/note
 - `-f` - output format (markdown+raw_html)
 - `--wrap=preserve` - preserve line breaks
 - `--csl=books/research-institute-for-nature-and-forest.csl` - citation style

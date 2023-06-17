@@ -142,8 +142,8 @@ print('C:\some\name')   # here \n means newline!
 print(r'C:\some\name')  # note the r before the quote
 ```
 
-A raw string may not end in an odd number of \ characters; see the FAQ ::TODO:
-Make clickable :: entry for more information and workarounds.
+A raw string may not end in an odd number of \ characters; see the FAQ  entry for more information and workarounds.
+TODO: Make clickable
 
 You can use multiline strings: `\` - used here to prevent printing newline.
 
@@ -473,14 +473,14 @@ print(range(10))  # range(0, 10)
 > The `break` statement, like in C, `breaks out` of the innermost enclosing
 > `for` or `while` loop.
 
-::TODO: add #loop into control flow ::
+TODO: add #loop into control flow
 
 In python [[control flow#loop]] statements may have a `else` clause.
 
 It is executed if loop wasn't `break`ed (we iterated over all items in `for` or
 `while` condition become `False`).
 
-::TODO: better review this ::
+TODO: better review this
 
 ```python
 for n in range(2, 10):

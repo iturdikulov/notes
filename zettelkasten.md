@@ -22,7 +22,7 @@ I took general note ideas from Zettelkasten and
 
 Main principles of my note-taking method:
 
-::TODO: Need describe these principles::
+TODO: Need describe these principles
 
 - Notes should be atomic
 - Notes should be concept-oriented

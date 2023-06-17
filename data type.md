@@ -21,4 +21,4 @@ types (modern days you can use some ways for use types).
 - Float: 32-bit, 1 bit sign bit, exponent part 8-bit, mantissa 23-bit
 - Char: -128 to 127
 - String: `char [10] = "Studying";`
-- Void: no value, ::TODO: is void a type?::
+- Void: no value, TODO: is void a type?

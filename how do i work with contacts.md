@@ -14,9 +14,10 @@ sr-ease: 290
 
 # How do I work with contacts
 
-::TODO: Info how I organize contact note type, need implement ::
+TODO: Info how I organize contact note type, need implement ::
 
-I use caldav server to store contacts and sync them across devices using ::TODO: add notes :: vdirsyncer on desktop computer and Davx5 on android phone.
+I use caldav server to store contacts and sync them across devices using
+TODO: add notes vdirsyncer on desktop computer and Davx5 on android phone.
 
 ## Edit and view contacts
 - khard interactive cli
