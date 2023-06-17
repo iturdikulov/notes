@@ -14,7 +14,7 @@ sr-ease: 274
 
 # Cooking
 
-- https://based.cooking/
+- <https://based.cooking/>
 - [[cutlets]]
 - [[creamy mashed potatoes]]
 - [CalorieKing](https://www.calorieking.com/us/en/)
