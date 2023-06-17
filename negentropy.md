@@ -23,6 +23,8 @@ reduce chaos in my life (at least digital).
 
 ## My process of negentropy
 
+- TODO: videos and pictures workflow
+- LOOP: [[my backup plan]]
 - LOOP: optimize `~/.aliases ~/.functions ~/.cargo/bin ~/.local/share/go/bin /home/inom/.local/bin`
 - LOOP: Organize files: \~/org, \~/projects, \~/.pass, \~/downloads, /data
 - LOOP: Organize from download dir: music, audiobooks, commix, other media
@@ -32,10 +34,10 @@ reduce chaos in my life (at least digital).
 - LOOP: KoReader, KoHighlights via ssh mount
 - LOOP: dmenu-run-history issues, clean old items?
 - LOOP: history clean
-- LOOP: [[my backup plan]]
 - LOOP: how to store things, what I really need?
 - LOOP: Mobile device backup {#mobile-device-backup}
 - LOOP: zotero @notes fix, break attachments check
 - LOOP: obsidian, find break links
 - LOOP: sync dotfiles nvim and check it
 - NEXT: audiobooks negentropy
+- NEXT: golden dict cleanup, sort dictionaries
