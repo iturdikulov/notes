@@ -14,4 +14,4 @@ sr-ease: 248
 
 # Exercise
 
-[[exercise plan]]
+[[Exercise Plan]]
