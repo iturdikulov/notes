@@ -361,7 +361,7 @@ an existing pair the lookup of a value associated with a particular key
 > There, a small program is stored called firmware. It does power-on self-tests
 > and, most importantly, allows access to other types of memory like a hard disk
 > and main memory. The firmware loads bigger programs into the computer's main
-> memory and runs it.
+> memory and runs it. Check also [[boot sector]].
 
 ## C
 
