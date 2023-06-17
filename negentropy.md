@@ -40,5 +40,7 @@ reduce chaos in my life (at least digital).
 - LOOP: zotero @notes fix, break attachments check
 - LOOP: obsidian, find break links
 - LOOP: sync dotfiles nvim and check it
+- LOOP: review search engines
+- LOOP: check services/timers/etc, check maintenance section in aliases
 - NEXT: audiobooks negentropy
 - NEXT: golden dict cleanup, sort dictionaries
