@@ -6,25 +6,36 @@ tags:
 
 # Now
 
-My current focus is on:
+My current focus is on following things, order is not important.
+All with help of [[Spaced Repetition]], [[SQ3R method]] and [[education]].
 
-1. [Math is Fun](https://www.mathsisfun.com/)
-2. [[Duolingo]]. Including daily practice and theory.
-3. [[LeetCode]] problems with help of [[Leetgo]].
-4. [[papis/5aee9141341f0446db43774cc7c61657/notes|Blender Beginner Donut Tutorial]]
-5. Working Project and Working Project in [[neovim (text editor)]]
-6. [[papis/14f60db29650af4d6edb2aef6d5539da/notes|The Python Tutorial]]. And [[comprehensive python cheatsheet|Python Cheat sheet]].
-7. [[papis/bdcf7cd50c6dc8a18320d0c05b44affe-ramalho-luciano/notes|Fluent Python]].
-8. [[papis/2ef118ce3473c9fe93acfc371e3f736e-wengrow-jay/notes|A Common-sense Guide to Data Structures and Algorithms]].
-9. [[Drawbox]]
-10. [[Spaced Repetition]]
-11. [[Exercise Plan]]. Level-up my body.
-12. [[Khan Academy]].
-13. [[papis/9c8a1a90d37c313ce0809814e3c99f82-kernighan-brian-w./notes|The C programming language]]. Including exercises.
-14. [[my awesome software list|Software Utilization]]. Focus on [[neovim (text editor)]].
-15. [[papis/aabfa212b360ace00b30ea98b5b2aba1-interviewcake/notes|Coding Interview Practice]].
-16. [[papis/2f5f35f6a9f0bf0c8b514e6c119de480-petzold-charles/notes|Code: The hidden language of computer hardware and software]].
-17. [[papis/882dd7e427ed785b79bc28335be19693-loomis-andrew/notes|Fun With A Pencil]].
-18. [[papis/af1e94df98f63aa42a732c48bb7d5176-david-kilpatrick/notes|Свет и освещение]].
+## Self-Expression
+
+1. [@SvetIOsveshcheniDavid1988]
+2. [@FunWithAPencLoomis2013] and [[Drawbox]]
+3. [@BlenderBeginne] and [[blender tutorials]]
+4. [@HandmadeHeroMurato2014]
+
+## Education
+
+1. [@CodeTheHiddePetzol2000]
+2. [Math is Fun](https://www.mathsisfun.com/)
+3. [[Khan Academy]]
+4. [[Duolingo]]
+
+## Professional
+
+1. [@ThePythonTuto], [[comprehensive python cheatsheet]] and [@FluentPythonRamalh2021]
+2. [[LeetCode]] problems with help of [[Leetgo]].
+3. [@ACommonSenseWengro2020]. [@CodingIntervieInterv]
+4. [@TheCProgrammiKernig1988]. Including exercises.
+5. [[my awesome software list|Software Utilization]].
+    Focus on [[neovim (text editor)]] and [[my editing workflow]].
+
+## IRL
+
+1. [[Exercise Plan]]. Level-up my body.
+2. [[style of life]]. TODO: need research.
+3. [[cooking]]
 
 # Archive
