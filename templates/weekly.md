@@ -5,8 +5,6 @@ tags:
 
 # {{week}} / {{year}}
 
-Note for this week.
+TODO: Note for this week.
 
-## Inbox
-
-
+- TODO:
