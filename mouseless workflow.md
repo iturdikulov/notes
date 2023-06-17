@@ -15,6 +15,7 @@ sr-ease: 290
 # Mouseless workflow
 
 - [[keyboard shortcut]]
+- TODO: mouseless-workflow make more relevant (check book)
 
 # Mouse emulation (qmk)
 
