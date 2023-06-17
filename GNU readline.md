@@ -6,7 +6,7 @@ sr-ease: 270
 sr-interval: 4
 tags:
 - inbox
-- definition
+- research
 sr-due: 2024-01-14
 sr-interval: 242
 sr-ease: 290
@@ -14,13 +14,10 @@ sr-ease: 290
 
 # GNU Readline
 
-NEXT: I really need work on it. This also available in Python interactive shell.
+> GNU Readline Library GNU Readline Library, a utility which aids in the
+> consistency of user interface across discrete programs which provide a command
+> line interface. The Readline home page is
+> <http://www.gnu.org/software/readline/>.
 
-Here I place keybindings for GNU readline.
-
-This article is based on the
-[GNU Readline Manual](https://tiswww.case.edu/php/chet/readline/readline.html).
-
-Additionally, I tested the keybindings in ZSH.
-
-<!-- TODO: add materials -->
+Basically I use `vi` mode in readline, including python and ipython interactive
+shell (`~/.inputrc`, `~/.ipython/profile_default/ipython_config.py`).
