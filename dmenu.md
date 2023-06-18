@@ -13,7 +13,7 @@ sr-interval: 262
 sr-ease: 310
 ---
 
-# dmenu (dynamic menu for X)
+ dmenu (dynamic menu for X)
 
 > dmenu is a dynamic menu for X, originally designed for dwm. It manages large
 > numbers of user-defined menu items efficiently.
@@ -29,55 +29,59 @@ popular alternative is `rofi`, but for me, it's too complex.
 
 dmenu is keyboard oriented program, and need to use it's
 
-## dmenu keybindings
+ dmenu keybindings
 
 dmenu is completely controlled by the keyboard.
 
-{#TAB}::{#C-i}, Copy to the input field (to run with arguments)
+- NEXT: shift+enter and dmenu term wait?
 
-{#RET}::Confirm selection and exit (execute)
+`TAB`, `C-i`::Copy selection to the input field (to run with arguments)
 
-{#C-RET}::Confirm selection and continue (multi-run)
+`<cr>`::Confirm selection and exit (execute)
 
-{#S-RET}::Confirm input (multi-run)
+`C-<cr>`
+?
+Confirm selection and continue (multi-run). Useful for running multiple instances of the same program.
 
-{#ESC}, {#C-c}, {#C-g}::Exit without selecting an item
+`S-<cr>`::Confirm input and run (run exactly what is typed in the input field)
 
-{#C-a}, {#M-g}::Home in input and menu
+`ESC`, `C-c`, `C-g`::Exit without selecting an item
 
-{#C-e}, {#M-G}::End in input and menu
+`C-a`, `M-g`::Home in input and menu
 
-{#left}, {#C-b}::Left in input and menu
+`C-e`, `M-G`::End in input and menu
 
-{#right}, {#C-f}::Right in input and menu
+`left`, `C-b`::Left in input and menu
 
-{#M-b}::Move to start word in input
+`right`, `C-f`::Right in input and menu
 
-{#M-f}::Move to the end word in input
+`M-b`::Move to start word in input
 
-{#C-n}, {#M-h}::Down (or left) in menu
+`M-f`::Move to the end word in input
 
-{#C-p}, {#M-l}::Up (or right) in menu
+`C-n`, `M-h`::Down (or left) in menu
 
-{#M-j}::Page down
+`C-p`, `M-l`::Up (or right) in menu
 
-{#M-k}::Page up
+`M-j`::Page down
 
-{#BS}, {#C-h}::Backspace in input
+`M-k`::Page up
 
-{#DEL}, {#C-d}::Delete in input
+`BS`, `C-h`::Backspace in input
 
-{#C-w}::Delete word left
+`DEL`, `C-d`::Delete in input
 
-{#C-u}::Delete line left
+`C-w`::Delete word left
 
-{#C-k}::Delete line right
+`C-u`::Delete line left
 
-{#C-y}::Paste from primary X selection
+`C-k`::Delete line right
 
-{#C-Y}::Paste from X clipboard
+`C-y`::Paste from primary X selection
 
-## Resources
+`C-Y`::Paste from X clipboard
+
+ ## Resources
 
 - dmenu manpages - `man dmenu`
 - [ArchWiki page](https://wiki.archlinux.org/title/dmenu)
