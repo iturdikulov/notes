@@ -12,21 +12,21 @@ All with help of [[Spaced Repetition]], [[SQ3R method]] and [[education]].
 ## Self-Expression
 
 1. [@SvetIOsveshcheniDavid1988]
-2. [@FunWithAPencLoomis2013] and [[Drawbox]]
+2. [@FunWithAPencLoomis2013] and [[Drawbox]], alias is `drw`
 3. [@BlenderBeginne] and [[blender tutorials]]
-4. [@HandmadeHeroMurato2014]
+4. [@HandmadeHeroMurato2014], alias is `hnh`
 
 ## Education
 
 1. [@CodeTheHiddePetzol2000]
-2. [Math is Fun](https://www.mathsisfun.com/)
-3. [[Khan Academy]]
-4. [[Duolingo]]
+2. [Math is Fun](https://www.mathsisfun.com/), alias is `mif`
+3. [[Khan Academy]], alias is `kha`
+4. [[Duolingo]], alias is `dl`
 
 ## Professional
 
 1. [@ThePythonTuto], [[comprehensive python cheatsheet]] and [@FluentPythonRamalh2021]
-2. [[LeetCode]] problems with help of [[Leetgo]].
+2. [[LeetCode]] problems with help of [[Leetgo]], alias is `leet`
 3. [@ACommonSenseWengro2020]. [@CodingIntervieInterv]
 4. [@TheCProgrammiKernig1988]. Including exercises.
 5. [[my awesome software list|Software Utilization]].
