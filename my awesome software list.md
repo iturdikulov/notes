@@ -170,6 +170,8 @@ Check also [[my shell scripts|my shell scripts]] and
 - [net-tools](https://net-tools.sourceforge.io/) - the collection of base
   networking utilities for Linux
 - [remmina](https://remmina.org/) - remote access screen and file sharing
+- `ldd` - print shared library dependencies, useful for debugging and find
+required libraries
 
 ## Multimedia
 
@@ -200,6 +202,8 @@ Check also [[my shell scripts|my shell scripts]] and
 - [crontab guru](https://crontab.guru/) - the quick and simple editor for
   crontab schedule expressions
 - [healthchecks](https://healthchecks.io/) - cron job monitoring
+- [AdGuardHome](https://github.com/AdguardTeam/AdGuardHome) - network-wide
+  software for blocking ads & tracking, [[AdGuardHome|more info]]
 
 ## Security
 
