@@ -19,4 +19,4 @@ sr-ease: 274
 >
 > -- [Wikipedia](https://en.wikipedia.org/wiki/Programmer)
 
-I usually program in [[python]] and [[c (programming language)]]
+I usually program in [[Python]] and [[c (programming language)]]

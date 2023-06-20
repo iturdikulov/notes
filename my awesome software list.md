@@ -19,7 +19,7 @@ Check also [[my shell scripts|my shell scripts]] and
 - [C2x](https://en.wikipedia.org/wiki/C2x) - next version of the C programming
   language standard, [[c (programming language)|more info]]
 - [Python](https://www.python.org/) - general-purpose programming language,
-  [[python|more info]]
+  [[Python|more info]]
 - [Rust](https://www.rust-lang.org/) - systems programming language,
   [[rust (programming language)|more info]]
 - [Neovim](https://neovim.io/) - vim-fork focused on extensibility and agility,

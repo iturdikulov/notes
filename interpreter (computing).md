@@ -25,6 +25,6 @@ sr-ease: 274
 > - Explicitly execute stored precompiled [[bytecode]] made by a compiler and
 >   matched with the interpreter Virtual Machine.
 
-Here example how [[python]] does it:
+Here example how [[Python]] does it:
 
 ![[!how_python_interpreter_works.excalidraw]]
