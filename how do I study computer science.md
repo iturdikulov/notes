@@ -74,7 +74,7 @@ books not directly related to computer science.
 - NEXT: [[papis/2aaba9c8a111b0a808fc70c0f23bc787-stoliarov-andrei-vik/notes]]
 - NEXT: [Тренировки по алгоритмам - YouTube](https://www.youtube.com/playlist?list=PL6Wui14DvQPySdPv5NUqV3i8sDbHkCKC5)
 
-- TODO: [[python|python]]
+- TODO: [[Python|python]]
 - TODO: [[papis/9f35f927bf07ed1740edd928505fefcf-cormen-thomas-h.-an/notes|Introduction to Algorithms]]
 - TODO: [[papis/8e080a939e8f3929a129f88699ab6646-sedgewick-robert-an/notes]]
 - TODO: [[papis/5a531e96f3b3b978f489ce0cf6e84b26-cormen-thomas-h./notes]]
