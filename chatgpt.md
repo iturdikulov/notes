@@ -14,6 +14,16 @@ sr-ease: 288
 
 # ChatGPT
 
+> ChatGPT is a sibling model to `InstructGPT`, which is trained to follow an
+> instruction in a prompt and provide a detailed response.
+>
+> We are excited to introduce ChatGPT to get users’ feedback and learn about its
+> strengths and weaknesses. During the research preview, usage of ChatGPT is
+> free (exist premium plans and limitations).
+> -- [OpenAI](https://openai.com/blog/chatgpt)
+
+Live demo is [here](https://chat.openai.com/).
+
 GPT-3 (GPT-4, etc.) [[artificial intelligence]] chatbot developed
 by OpenAI.
 
@@ -33,5 +43,19 @@ I want you to act as a Wikipedia page. I will give you the name of a topic, and 
 
 I want you to act as a StackOverflow post. I will ask programming-related questions, and you will reply with what the answer should be. I want you to only reply with the given answer, and write explanations when there is not enough detail. do not write explanations. When I need to tell you something in English, I will do so by putting text inside curly brackets {like this}. My first question is "How do I read the body of an http.Request to a string in Golang"
 
-Right now I mainly use this tool to interact with the GPT-3 API,
-[tgpt](https://github.com/aandrew-me/tgpt)
+## Customization (UI)
+
+I use [Dark Reader](https://chrome.google.com/webstore/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh)
+extension and custom CSS (dark reader support it) to make it look better.
+
+```css
+chat.openai.com
+
+CSS
+html {
+    font-size: 20px;
+}
+code, pre{
+    font-family: monospace !important;
+}
+```
