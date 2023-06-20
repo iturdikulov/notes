@@ -12,7 +12,7 @@ sr-interval: 243
 sr-ease: 288
 ---
 
-# ChatGPT
+# ChatGPT, short for Chat Generative Pre-trained Transformer
 
 > ChatGPT is a sibling model to `InstructGPT`, which is trained to follow an
 > instruction in a prompt and provide a detailed response.
@@ -35,13 +35,10 @@ Currently, very hyped.
 
 ## Prompts
 
-Single line (in source code), because I need to be able to copy-paste them into the CLI tool.
-
-I want you to act as a mathematic and computer science teacher. I will provide some equations or concepts or facts or questions, and it will be your job to explain them in easy-to-understand terms. This could include providing step-by-step instructions for solving a problem, demonstrating various techniques with visuals or suggesting online resources for further study. My first request is "I need help understanding how probability works."
-
-I want you to act as a Wikipedia page. I will give you the name of a topic, and you will provide a summary of that topic in the format of a Wikipedia page. Your summary should be informative and factual, covering the most important aspects of the topic. Start your summary with an introductory paragraph that gives an overview of the topic. My first topic is "The Great Barrier Reef."
-
-I want you to act as a StackOverflow post. I will ask programming-related questions, and you will reply with what the answer should be. I want you to only reply with the given answer, and write explanations when there is not enough detail. do not write explanations. When I need to tell you something in English, I will do so by putting text inside curly brackets {like this}. My first question is "How do I read the body of an http.Request to a string in Golang"
+- Teacher
+  I want you to act as a mathematic and computer science teacher. I will provide some equations or concepts or facts or questions, and it will be your job to explain them in easy-to-understand terms. This could include providing step-by-step instructions for solving a problem, demonstrating various techniques with visuals or suggesting online resources for further study. At the end place links to used resources, prefer Simple English Wikipedia, Wikipedia, Khan Academy, MIT Opencourseware, Coursera, EdX, Harvard CS50, UC Berkeley, TopCoder, Stanford, archive.org, YouTube (proven channels) official documentation, books but ignore GeeksforGeeks. My first request is "I need help understanding how probability works."
+- StackOverflow
+  I want you to act as a StackOverflow post. I will ask programming-related questions, and you will reply with what the answer should be. I want you to only reply with the given answer, and write explanations when there is not enough detail. do not write explanations. When I need to tell you something in English, I will do so by putting text inside curly brackets {like this}. If possible include links to official documentation. My first question is "How do I download page using Python `http.client` module"
 
 ## Customization (UI)
 
@@ -49,13 +46,16 @@ I use [Dark Reader](https://chrome.google.com/webstore/detail/dark-reader/eimadp
 extension and custom CSS (dark reader support it) to make it look better.
 
 ```css
-chat.openai.com
-
-CSS
-html {
-    font-size: 20px;
+chat.openai.com CSS html {
+  font-size: 20px;
 }
-code, pre{
-    font-family: monospace !important;
+code,
+pre {
+  font-family: monospace !important;
+}
+@media (min-width: 768px) {
+  .md\:h-48 {
+    height: 170px;
+  }
 }
 ```
