@@ -22,6 +22,7 @@ All with help of [[Spaced Repetition]], [[SQ3R method]] and [[education]].
 2. [Math is Fun](https://www.mathsisfun.com/), alias is `mif`
 3. [[Khan Academy]], alias is `kha`
 4. [[Duolingo]], alias is `dl`
+5. [MonkeyType](https://monkeytype.com/), alias is `mt`
 
 ## Professional
 
