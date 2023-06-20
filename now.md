@@ -26,6 +26,7 @@ All with help of [[Spaced Repetition]], [[SQ3R method]] and [[education]].
 
 ## Professional
 
+1. Working project
 1. [@ThePythonTuto], [[comprehensive python cheatsheet]] and [@FluentPythonRamalh2021]
 2. [[LeetCode]] problems with help of [[Leetgo]], alias is `leet`
 3. [@ACommonSenseWengro2020]. [@CodingIntervieInterv]
