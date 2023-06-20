@@ -432,3 +432,16 @@ Just in case it doesn't work, try to use this one as well:
 
 https://stackoverflow.com/questions/8987037/how-to-kill-all-processes-with-a-given-partial-name
 
+## Search current line in ZSH (vi mode)
+
+To search across the line, you can use `f` and `F` to search for the next and
+previous occurrence of a character on the current line.
+
+You can combine this with `;` and `,` to repeat the search in the same and the
+opposite direction and `0` to jump to the beginning of the line and then do
+search.
+
+`0f{char}` - search for the first occurrence of `{char}` on the current line
+`5f{char}` - search for the fifth occurrence of `{char}` on the current line
+`0f{char};` - search for the first occurrence of `{char}` on the current line
+and then repeat the search in the same direction.
