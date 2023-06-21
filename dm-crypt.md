@@ -14,8 +14,7 @@ sr-ease: 268
 
 # dm-crypt
 
-
-```{.bash org-language="sh"}
+```sh
 # Redirect output of /dev/zero to initialize container file
 dd if=/dev/zero bs=1M count=100 of=encrypted_change_name.img
 
@@ -31,7 +30,7 @@ sudo mkfs.ext4
 
 # Mount and unmount file container
 
-```{.bash org-language="sh"}
+```sh
 # Open luks partition
 sudo cryptsetup luksOpen encrypted_change_name.img
 sudo mount  ~/tmp/my-mount-point

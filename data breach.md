@@ -14,10 +14,10 @@ sr-ease: 290
 
 # Data breach
 
-> A data breach is a [[computer security|security]] violation, in
-> which sensitive, protected or confidential data is copied, transmitted,
-> viewed, stolen, altered or used by an individual unauthorized to do so.
+> A data breach is a [[computer security|security]] violation, in which
+> sensitive, protected or confidential data is copied, transmitted, viewed,
+> stolen, altered or used by an individual unauthorized to do so.
 
 ## Resources
-- [Have I Been Pwned: Check if your email has been compromised in a data
-  breach](https://haveibeenpwned.com/)
+
+- [Have I Been Pwned: Check if your email has been compromised in a data breach](https://haveibeenpwned.com/)

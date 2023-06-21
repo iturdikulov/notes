@@ -13,4 +13,3 @@ sr-ease: 288
 ---
 
 # Education
-

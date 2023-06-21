@@ -22,11 +22,10 @@ sr-ease: 290
 > professional associations or websites to get work.
 >
 > Fields, professions, and industries where freelancing is predominant include:
-> music, writing, acting,
-> [[computer programming|computer programming]], web design,
-> [[computer graphics|graphic]] design, translating and
-> illustrating, film and video production, and other forms of piece work that
-> some cultural theorists consider central to the cognitive-cultural economy.
+> music, writing, acting, [[computer programming|computer programming]], web
+> design, [[computer graphics|graphic]] design, translating and illustrating,
+> film and video production, and other forms of piece work that some cultural
+> theorists consider central to the cognitive-cultural economy.
 >
 > -- [Wikipedia](https://en.wikipedia.org/wiki/Freelancer)
 

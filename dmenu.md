@@ -13,7 +13,7 @@ sr-interval: 262
 sr-ease: 310
 ---
 
- dmenu (dynamic menu for X)
+dmenu (dynamic menu for X)
 
 > dmenu is a dynamic menu for X, originally designed for dwm. It manages large
 > numbers of user-defined menu items efficiently.
@@ -29,7 +29,7 @@ popular alternative is `rofi`, but for me, it's too complex.
 
 dmenu is keyboard oriented program, and need to use it's
 
- dmenu keybindings
+dmenu keybindings
 
 dmenu is completely controlled by the keyboard.
 
@@ -81,9 +81,8 @@ Confirm selection and continue (multi-run). Useful for running multiple instance
 
 `C-Y`::Paste from X clipboard
 
- ## Resources
+## Resources
 
 - dmenu manpages - `man dmenu`
 - [ArchWiki page](https://wiki.archlinux.org/title/dmenu)
 - [Dmenu Best Practices](http://www.troubleshooters.com/linux/dmenu/bestpractices.htm)
-

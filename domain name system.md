@@ -15,14 +15,13 @@ sr-ease: 210
 # Domain Name System (DNS)
 
 > Hierarchical and distributed naming system for computers, services, and other
-> resources in the [[the internet|internet]] or other Internet
-> Protocol (IP) [[computer network|networks]]. It associates
-> various information with domain names assigned to each of the associated
-> entities. Most prominently, it translates readily memorized domain names to
-> the numerical IP addresses needed for locating and identifying computer
-> services and devices with the underlying network protocols. The Domain Name
-> System has been an essential component of the functionality of the Internet
-> since 1985.
+> resources in the [[the internet|internet]] or other Internet Protocol (IP)
+> [[computer network|networks]]. It associates various information with domain
+> names assigned to each of the associated entities. Most prominently, it
+> translates readily memorized domain names to the numerical IP addresses needed
+> for locating and identifying computer services and devices with the underlying
+> network protocols. The Domain Name System has been an essential component of
+> the functionality of the Internet since 1985.
 >
 > -- [Wikipedia](https://en.wikipedia.org/wiki/Domain_Name_System)
 

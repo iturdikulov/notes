@@ -22,8 +22,8 @@ sr-ease: 270
 >
 > -- [Font - Wikipedia](https://en.wikipedia.org/wiki/Font)
 
-I keep storing [[my favorite fonts|fonts]], which I use daily or which
-looks great for me.
+I keep storing [[my favorite fonts|fonts]], which I use daily or which looks
+great for me.
 
 A computer font is implemented as a digital data file containing a set of
 graphically related glyphs. They are widely used in modern

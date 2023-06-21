@@ -14,9 +14,9 @@ sr-ease: 270
 
 # Elementary particles
 
-> In particle [[physics|physics]], an elementary particle or
-> fundamental particle is a subatomic particle that is not composed of other
-> particles. Particles currently thought to be elementary include electrons, the
+> In particle [[physics|physics]], an elementary particle or fundamental
+> particle is a subatomic particle that is not composed of other particles.
+> Particles currently thought to be elementary include electrons, the
 > fundamental fermions (quarks, leptons, antiquarks, and antileptons, which
 > generally are matter particles and antimatter particles), as well as the
 > fundamental bosons (gauge bosons and the Higgs boson), which generally are

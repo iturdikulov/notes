@@ -15,11 +15,11 @@ tags:
 > and passes our testing infrastructure FATE across Linux, Mac OS X, Microsoft
 > Windows, the BSDs, Solaris, etc. under a wide variety of build environments,
 > machine architectures, and configurations.
+>
 > -- [FFmpeg](https://ffmpeg.org/about.html)
 
-I widely use FFmpeg in various wrappres and sometimes directly.
-Best example is slightly modified [Luke Smith's](https://lukesmith.xyz/)
+I widely use FFmpeg in various wrappres and sometimes directly. Best example is
+slightly modified [Luke Smith's](https://lukesmith.xyz/)
 [ffmpeg screen record script](https://raw.githubusercontent.com/LukeSmithxyz/voidrice/master/.local/bin/dmenurecord).
 
 TODO: place my version here.
-
