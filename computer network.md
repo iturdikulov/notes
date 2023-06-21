@@ -15,15 +15,13 @@ sr-ease: 270
 
 # Computer network
 
-Set of [[computer|computers]] sharing resources located on or
-provided by [[node (networking)|network nodes]].
+Set of [[computer|computers]] sharing resources located on or provided by
+[[node (networking)|network nodes]].
 
-Group of two or more [[computer|computers]] that are linked
-together. Networks are usually used to share resources, exchange files or
-communicate with other users.
+Group of two or more [[computer|computers]] that are linked together. Networks
+are usually used to share resources, exchange files or communicate with other
+users.
 
-TODO:
-
-- connection and protocols
-- network topology
-- OSI
+- TODO: connection and protocols
+- TODO: network topology
+- TODO: OSI

@@ -11,6 +11,7 @@ tags:
 > disk, floppy disk, optical disc, etc.) which contains machine code to be
 > loaded into random-access memory (RAM) and then executed by a computer
 > system's built-in firmware (e.g., the BIOS).
+>
 > -- [Wikipedia](https://en.wikipedia.org/wiki/Boot_sector)
 
 Usualy it's very first sector of the disk.
@@ -25,17 +26,17 @@ modified.
 
 ## Partition tables
 
-Disk usuly must be partitioned and there are two defenitions how to store
+Usually disks must be partitioned and there are two definitions how to store
 partition information.
 
 1. MBR (Master Boot Record) - is the **first sector** of a data storage device
-   that has been partitioned. The MBR sector may contain code to locate the active
-   partition and invoke its volume boot record.
+   that has been partitioned. The MBR sector may contain code to locate the
+   active partition and invoke its volume boot record.
 2. VBR (Volume Boot Record) - is the **first sector** of a data storage device
-   that has *not* been partitioned, or the first sector of an individual partition
-   on a data storage device that has been partitioned. It may contain code to
-   load an operating system (or other standalone program) installed on that device
-   or within that partition.
+   that has _not_ been partitioned, or the first sector of an individual
+   partition on a data storage device that has been partitioned. It may contain
+   code to load an operating system (or other standalone program) installed on
+   that device or within that partition.
 
 The maximum capacity of MBR partition tables is only about 2 terabytes.
 
@@ -56,6 +57,7 @@ and the boot mode is UEFI.
 > because of the limitations of master boot record (MBR) partition tables, which
 > use 32 bits for logical block addressing (LBA) of traditional 512-byte disk
 > sectors.
+>
 > -- [Wikipedia](https://en.wikipedia.org/wiki/GUID_Partition_Table)
 
 GPT partition tables offer a maximum capacity of 9.7 zetabytes. 1 zetabyte is

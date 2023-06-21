@@ -13,7 +13,7 @@ sr-ease: 270
 ---
 
 # Big O notation
+
 ![](img/pasted_img_20230608083705.png)
-*Big O notation*
 
-
+_Big O notation_

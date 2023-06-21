@@ -13,4 +13,5 @@ tags:
 > tracking domains to a “black hole”, thus preventing your devices from
 > connecting to those servers. It's based on software we use for our public
 > AdGuard DNS servers, and both share a lot of code.
+>
 > -- [AdGuardHome](https://github.com/AdguardTeam/AdGuardHome)

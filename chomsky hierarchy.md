@@ -15,9 +15,9 @@ sr-ease: 270
 # Chomsky hierarchy
 
 > The Chomsky hierarchy, in the fields of formal language theory,
-> [[computer science]], and linguistics, is a containment hierarchy
-> of classes of formal grammars. This hierarchy of grammars was described by
-> Noam Chomsky in 1956.
+> [[computer science]], and linguistics, is a containment hierarchy of classes
+> of formal grammars. This hierarchy of grammars was described by Noam Chomsky
+> in 1956.
 >
 > -- [Wikipedia](https://en.wikipedia.org/wiki/Chomsky_hierarchy)
 
@@ -30,5 +30,4 @@ sr-ease: 270
 > 3 contain restrictions. Grammars in higher-numbered levels also satisfy the
 > constraints of all levels below them.
 >
-> --
-> [Simple English Wikipedia](https://simple.wikipedia.org/wiki/Chomsky_hierarchy)
+> -- [Simple English Wikipedia](https://simple.wikipedia.org/wiki/Chomsky_hierarchy)

@@ -14,13 +14,13 @@ sr-ease: 270
 
 # Comics
 
-[[media (communication)|medium]] used to express ideas with images,
-often combined with text or other visual information. It typically takes the
-form of a sequence of panels of images. Textual devices such as speech balloons,
-captions, and onomatopoeia can indicate dialogue, narration, sound effects, or
-other information. There is no consensus amongst theorists and historians on a
+[[media (communication)|medium]] used to express ideas with images, often
+combined with text or other visual information. It typically takes the form of a
+sequence of panels of images. Textual devices such as speech balloons, captions,
+and onomatopoeia can indicate dialogue, narration, sound effects, or other
+information. There is no consensus amongst theorists and historians on a
 definition of comics; some emphasize the combination of images and text, some
-sequentiality or other image relations, and others historical aspects such as
+sequentially or other image relations, and others historical aspects such as
 mass reproduction or the use of recurring characters.
 
 ## Resources

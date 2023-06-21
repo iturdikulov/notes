@@ -14,5 +14,5 @@ sr-ease: 290
 
 # Brain.fm
 
-Brain.fm makes [[my music]] (use some scientific research) to help
-you do what you need to do, better. Music genres: focus, relax, and sleep.
+Brain.fm makes [[my music]] (use some scientific research) to help you do what
+you need to do, better. Music genres: focus, relax, and sleep.

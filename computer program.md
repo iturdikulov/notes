@@ -14,6 +14,8 @@ sr-ease: 270
 
 # Computer program
 
-> Sequence or set of instructions in a programming language for a computer to execute.
-> Computer programs are one component of software, which also includes documentation and other intangible components.
+> Sequence or set of instructions in a programming language for a computer to
+> execute. Computer programs are one component of software, which also includes
+> documentation and other intangible components.
+>
 > -- [Wikipedia](https://en.wikipedia.org/wiki/Computer_program)

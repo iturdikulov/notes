@@ -45,6 +45,7 @@ How to Learn 3D in 4 weeks (self-taught curriculum) - YouTube
 - [ ] https://www.youtube.com/watch?v=Nj_l6YHMj-c
 
 ## Particles
+
 - [ ] https://www.youtube.com/watch?v=j17dGVw3_gM
 - [ ] https://www.youtube.com/watch?v=exAwCkuGHe4
 - [ ] [Easy God Rays or Sun Rays in Blender - YouTube](https://www.youtube.com/watch?v=MQooOGayOQI)
@@ -61,43 +62,33 @@ How to Learn 3D in 4 weeks (self-taught curriculum) - YouTube
 - [ ] https://www.youtube.com/watch?v=9ehbb93atqo
 
 ## Modeling
+
 - [ ] [Как сделать пружину](https://www.youtube.com/watch?v=f_tbE0Kn7KM)
 
 ## Fluids
 
 - [ ] [Glass Liquid Simulation Tutorial](https://www.youtube.com/watch?v=V_LEc4r9_a0)
 
-
 ## Notes from tutorials
 
-To change world units need
-?
-Scene Properties (properties sidebar) > Units > Metric
+To change world units need ? Scene Properties (properties sidebar) > Units >
+Metric
 
-After scaling object, need to apply scale
-?
-Ctrl + A > Scale
+After scaling object, need to apply scale ? Ctrl + A > Scale
 
 You can change shading of object from ==context menu==
 
-How to apply subdivision modifier (or any modifier)
-?
-P > Modifiers Properties > Add Modifier
+How to apply subdivision modifier (or any modifier) ? P > Modifiers Properties >
+Add Modifier
 
-How to move siblings points in edit mode
-?
-You need to select point(s) enable proportional editing (O) and move (G)
-To increase/decrease proportional editing radius use mouse wheel
+How to move siblings points in edit mode ? You need to select point(s) enable
+proportional editing (O) and move (G) To increase/decrease proportional editing
+radius use mouse wheel
 
-How to move points along axis in proportional editing mode
-?
-Use alt + s to shrink/fatten proportional editing radius
+How to move points along axis in proportional editing mode ? Use alt + s to
+shrink/fatten proportional editing radius
 
-How select random points in edit mode
-?
-Select > **S**elect Random
+How select random points in edit mode ? Select > **S**elect Random
 
-Orthographic mode basically means
-?
-that you can't see perspective, only orthographic view (no depth, objects same
-size regardless of distance)
+Orthographic mode basically means ? that you can't see perspective, only
+orthographic view (no depth, objects same size regardless of distance)

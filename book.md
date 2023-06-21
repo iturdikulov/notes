@@ -34,13 +34,12 @@ sr-ease: 273
 > possibility of print-on-demand, where no books are printed until after an
 > order is received from a customer.
 >
->
 > ## Types
 >
 > A common separation by content are fiction and non-fiction books.
 >
-> This simple separation can be found in most
-> [[my read books|collections]], [[library|libraries]], and
-> bookstores. There are other types such as books of sheet music.
+> This simple separation can be found in most [[my read books|collections]],
+> [[library|libraries]], and bookstores. There are other types such as books of
+> sheet music.
 >
 > -- [Wikipedia](https://en.wikipedia.org/wiki/Book)

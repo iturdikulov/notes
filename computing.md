@@ -13,11 +13,10 @@ sr-ease: 265
 
 > Computing is any goal-oriented activity requiring, benefiting from, or
 > creating computing machinery. It includes the study and experimentation of
-> [[algorithm|algorithmic]] processes, and development of both
-> hardware and software. Computing has scientific, engineering,
-> [[mathematics|mathematical]], technological and social aspects.
-> Major computing disciplines include computer engineering,
-> [[computer science|computer science]], cybersecurity, data
+> [[algorithm|algorithmic]] processes, and development of both hardware and
+> software. Computing has scientific, engineering, [[mathematics|mathematical]],
+> technological and social aspects. Major computing disciplines include computer
+> engineering, [[computer science|computer science]], cybersecurity, data
 > science, information systems, information technology and software engineering.
 >
 > -- [Wikipedia](https://en.wikipedia.org/wiki/Computing)

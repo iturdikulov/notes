@@ -13,4 +13,3 @@ tags:
 > transfer, including file sharing.
 >
 > -- [Wikipedia](https://en.wikipedia.org/wiki/Internet_Relay_Chat)
-

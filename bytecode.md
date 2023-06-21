@@ -22,12 +22,12 @@ sr-ease: 270
 >
 > The name bytecode stems from instruction sets that have one-byte opcodes
 > followed by optional parameters. Intermediate representations such as bytecode
-> may be output by [[programming language]] implementations to ease interpretation, or
-> it may be used to reduce hardware and operating system dependence by allowing
-> the same code to run cross-platform, on different devices. Bytecode may often be
-> either directly executed on a [[virtual machine]] (a p-code machine, i.e.,
-> interpreter), or it may be further compiled into machine code for better
-> performance.
+> may be output by [[programming language]] implementations to ease
+> interpretation, or it may be used to reduce hardware and operating system
+> dependence by allowing the same code to run cross-platform, on different
+> devices. Bytecode may often be either directly executed on a
+> [[virtual machine]] (a p-code machine, i.e., interpreter), or it may be
+> further compiled into machine code for better performance.
 >
 > Since bytecode instructions are processed by software, they may be arbitrarily
 > complex, but are nonetheless often akin to traditional hardware instructions:

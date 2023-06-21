@@ -12,8 +12,8 @@ sr-ease: 266
 # Competitive programming (sports programming)
 
 > Mind sport usually held over the Internet or a local network, involving
-> participants trying to [[computer programming|program]] according
-> to provided specifications.
+> participants trying to [[computer programming|program]] according to provided
+> specifications.
 >
 > Contestants are referred to as sport programmers. Competitive programming is
 > recognized and supported by several multinational software and Internet
@@ -31,3 +31,5 @@ I'm using right now [leetcode](https://leetcode.com/), my problem list stored in
 
 I use [leetup](https://github.com/dragfire/leetup) to interact with leetcode
 problems.
+
+TODO: switched to leetgo?

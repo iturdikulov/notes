@@ -6,5 +6,3 @@ tags:
 ---
 
 # Associative array
-
-

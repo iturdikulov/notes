@@ -45,4 +45,3 @@ Text is more up-to-date than video.
 > than just rewatching the same video several times.
 
 They recommend to watch video first, then read text.
-

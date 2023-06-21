@@ -15,5 +15,5 @@ sr-ease: 290
 
 # Big Pile of Vim-like
 
-Interactive version of the big list of
-[[neovim (text editor)|vim]]-like software.
+Interactive version of the big list of [[neovim (text editor)|vim]]-like
+software.

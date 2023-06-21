@@ -20,4 +20,5 @@ sr-ease: 250
 - [[gnu privacy guard]]
 - [[pass (software)]]
 - [[dm-crypt]]
-- [DroidFS](https://github.com/hardcore-sushi/DroidFS) - use encrypted virtual filesystems on Android
+- [DroidFS](https://github.com/hardcore-sushi/DroidFS) - use encrypted virtual
+  filesystems on Android

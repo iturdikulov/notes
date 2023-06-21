@@ -19,4 +19,3 @@ usually by designing/building an executable computer program.
 
 - [[how i learn computer programming]]
 - [[programming principles|programming principles]]
-

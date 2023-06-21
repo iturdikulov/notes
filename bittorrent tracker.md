@@ -25,15 +25,16 @@ sr-ease: 270
 > efficient transmission and reassembly of the copied file. Clients that have
 > already begun downloading a file communicate with the tracker periodically to
 > negotiate faster file transfer with new peers, and provide
-> [[computer network|network]] performance statistics; however,
-> after the initial peer-to-peer file download is started, peer-to-peer
-> communication can continue without the connection to a tracker.
+> [[computer network|network]] performance statistics; however, after the
+> initial peer-to-peer file download is started, peer-to-peer communication can
+> continue without the connection to a tracker.
 >
 > Tracker can be public or private.
 >
 > -- [Wikipedia](https://en.wikipedia.org/wiki/BitTorrent_tracker)
 
 ## Resources
+
 - [RuTracker.org](https://rutracker.org/forum/index.php)
 - [NNM-Club](https://nnmclub.to/)
 - https://1337x.to/

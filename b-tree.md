@@ -40,4 +40,3 @@ sr-ease: 270
 | Search    | O(log n) | O(log n)   |
 | Insert    | O(log n) | O(log n)   |
 | Delete    | O(log n) | O(log n)   |
-

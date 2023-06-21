@@ -18,8 +18,7 @@ sr-ease: 290
 > which uses an arrangement of buttons or keys to act as mechanical levers or
 > electronic switches.
 
-Currently, I use KBD75 V2 custom mechanical keyboard, support
-[[qmk]] firmware.
+Currently, I use KBD75 V2 custom mechanical keyboard, support [[qmk]] firmware.
 
 ## Resources
 
