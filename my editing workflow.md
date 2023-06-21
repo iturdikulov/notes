@@ -443,6 +443,7 @@ structure. n\*
 - [x] preview window/close preview window::`p`, `<C-w>z`
 - [x] toggle hidden files::`gh`
 - [x] create file::`%`
+- [x] create directory::`d`
 - [x] rename (move) file::`R`
 - [x] Marks a file or directory::`mf`
 - [x] Clear marks in current buffer::`mF`
