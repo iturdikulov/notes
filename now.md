@@ -6,8 +6,8 @@ tags:
 
 # Now
 
-My current focus is on following things, order is not important.
-All with help of [[Spaced Repetition]], [[SQ3R method]] and [[education]].
+My current focus is on following things, order is not important. All with help
+of [[Spaced Repetition]], [[SQ3R method]] and [[education]].
 
 ## Education
 
@@ -29,10 +29,11 @@ All with help of [[Spaced Repetition]], [[SQ3R method]] and [[education]].
 ## Professional
 
 1. Working project
-2. [@ThePythonTuto], [[comprehensive python cheatsheet]] and [@FluentPythonRamalh2021]
+2. [@ThePythonTuto], [[comprehensive python cheatsheet]] and
+   [@FluentPythonRamalh2021]
 3. [[LeetCode]] problems with help of [[Leetgo]], alias is `leet`
-4. [[my awesome software list|Software Utilization]].
-    Focus on [[neovim (text editor)]] and [[my editing workflow]].
+4. [[my awesome software list|Software Utilization]]. Focus on
+   [[neovim (text editor)]] and [[my editing workflow]].
 
 ## IRL
 
