@@ -7,7 +7,8 @@ tags:
 
 # My Everyday life (routine)
 
-- I.::Initialization, want to do good wake-up, care about my body, warm-up and walk.
+- I.::Initialization, want to do good wake-up, care about my body, warm-up and
+walk.
 <!--SR:!2023-06-07,2,230-->
 - n.::Need to learn something new, to grow it's important.
 <!--SR:!2023-06-07,2,230-->
