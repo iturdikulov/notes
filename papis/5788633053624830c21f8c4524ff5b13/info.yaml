@@ -2,8 +2,7 @@ abstract: We've partnered with Dartmouth college professors Tom Cormen and Devin
   to teach introductory computer science algorithms, including searching, sorting,
   recursion, and graph theory. Learn with a combination of articles, visualizations,
   quizzes, and coding challenges.
-author:
-  MIT: null
+author: 'MIT'
 file: '@AlgorithmsComputerScience2005.md:/home/inom/Projects/main/wiki/@AlgorithmsComputerScience2005.md:text/x-markdown;2005-Algorithms_Computer_science_Computing.html:/home/inom/Projects/main/wiki/books/Computer
   Science/2005-Algorithms_Computer_science_Computing.html:text/html'
 files:
@@ -15,7 +14,8 @@ notes: notes.md
 papis_id: b657ddd32c314d7bf470df18af05a646
 ref: AlgorithmsTex2005
 title: Algorithms - Computer science
+shorttitle: Algorithms - Computer science
 type: misc
 url: https://www.khanacademy.org/computing/computer-science/algorithms
 urldate: '2023-03-18'
-year: '2005'
+year: 2005

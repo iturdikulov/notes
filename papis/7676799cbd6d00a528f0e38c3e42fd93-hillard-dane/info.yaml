@@ -16,6 +16,8 @@ notes: notes.md
 papis_id: 5fd85e1477bddaa6e7b1fe4beb6fe339
 ref: EffectivePythoHillar
 title: Effective Python Testing With Pytest
+shorttitle: Testing With Pytest
 type: misc
 url: https://realpython.com/pytest-python-testing/
 urldate: '2023-04-29'
+year: 2022

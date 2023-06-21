@@ -9,6 +9,16 @@ tags:
 My current focus is on following things, order is not important.
 All with help of [[Spaced Repetition]], [[SQ3R method]] and [[education]].
 
+## Education
+
+1. [@CodeTheHiddePetzol2000]
+2. [@ACommonSenseWengro2020]. [@CodingIntervieInterv]
+3. [@TheCProgrammiKernig1988]. Including exercises.
+4. [Math is Fun](https://www.mathsisfun.com/), alias is `mif`
+5. [[Khan Academy]], alias is `kha`
+6. [[Duolingo]], alias is `dl`
+7. [MonkeyType](https://monkeytype.com/), alias is `mt`
+
 ## Self-Expression
 
 1. [@SvetIOsveshcheniDavid1988]
@@ -16,22 +26,12 @@ All with help of [[Spaced Repetition]], [[SQ3R method]] and [[education]].
 3. [@BlenderBeginne] and [[blender tutorials]]
 4. [@HandmadeHeroMurato2014], alias is `hnh`
 
-## Education
-
-1. [@CodeTheHiddePetzol2000]
-2. [Math is Fun](https://www.mathsisfun.com/), alias is `mif`
-3. [[Khan Academy]], alias is `kha`
-4. [[Duolingo]], alias is `dl`
-5. [MonkeyType](https://monkeytype.com/), alias is `mt`
-
 ## Professional
 
 1. Working project
-1. [@ThePythonTuto], [[comprehensive python cheatsheet]] and [@FluentPythonRamalh2021]
-2. [[LeetCode]] problems with help of [[Leetgo]], alias is `leet`
-3. [@ACommonSenseWengro2020]. [@CodingIntervieInterv]
-4. [@TheCProgrammiKernig1988]. Including exercises.
-5. [[my awesome software list|Software Utilization]].
+2. [@ThePythonTuto], [[comprehensive python cheatsheet]] and [@FluentPythonRamalh2021]
+3. [[LeetCode]] problems with help of [[Leetgo]], alias is `leet`
+4. [[my awesome software list|Software Utilization]].
     Focus on [[neovim (text editor)]] and [[my editing workflow]].
 
 ## IRL

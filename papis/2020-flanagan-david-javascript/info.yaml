@@ -22,14 +22,15 @@ author_list:
 edition: Seventh edition
 file: '@DavidFlanaganJavaScriptDefinitiveGuide2020.md:/home/inom/Projects/main/wiki/content/@DavidFlanaganJavaScriptDefinitiveGuide2020.md:text/markdown;David_Flanagan-2020-JavaScript_-_The_definitive_guide_-_Master_the_world''s_most-used_programming.pdf:/home/inom/Projects/main/wiki/books/Frontend/David_Flanagan-2020-JavaScript_-_The_definitive_guide_-_Master_the_world''s_most-used_programming.pdf:application/pdf'
 files:
-- david-flanagan-2020-javascript-the-definitive-guide-master-the-world-s-most-used-programming.pdf
+- 2020-flanagan-david-javascript.pdf
 isbn: 978-1-4919-5202-3
 keywords: active, javascript, object-oriented
 notes: notes.md
 papis_id: 09f6d457808a7dce186aa322707a5d13
 publisher: O'Reilly Media, Inc
 ref: JavascriptTheFlanag2020
-shorttitle: '{JavaScript}'
+shorttitle: JavaScript
+time-added: 2023-06-22-01:03:18
 title: 'JavaScript: The definitive guide: Master the world''s most-used programming
   language'
 type: book

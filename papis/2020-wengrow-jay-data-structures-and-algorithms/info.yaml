@@ -26,10 +26,10 @@ author: Wengrow, Jay
 author_list:
 - family: Wengrow
   given: Jay
-file: '@JayWengrowCommonsenseGuideData2020.md:/home/inom/Projects/main/wiki/@JayWengrowCommonsenseGuideData2020.md:text/x-markdown;Jay_Wengrow-2020-A_Common-sense_Guide_to_Data_Structures_and_Algorithms_-_Level_Up_Your_Core.epub:/home/inom/Projects/main/wiki/books/Development/Jay_Wengrow-2020-A_Common-sense_Guide_to_Data_Structures_and_Algorithms_-_Level_Up_Your_Core.epub:application/epub+zip;Jay_Wengrow-2020-A_Common-sense_Guide_to_Data_Structures_and_Algorithms_-_Level_Up_Your_Core.pdf:/home/inom/Projects/main/wiki/books/Development/Jay_Wengrow-2020-A_Common-sense_Guide_to_Data_Structures_and_Algorithms_-_Level_Up_Your_Core.pdf:application/pdf'
+file: 'Jay_Wengrow-2020-A_Common-sense_Guide_to_Data_Structures_and_Algorithms_-_Level_Up_Your_Core.epub:/home/inom/Projects/main/wiki/books/Development/Jay_Wengrow-2020-A_Common-sense_Guide_to_Data_Structures_and_Algorithms_-_Level_Up_Your_Core.epub:application/epub+zip;Jay_Wengrow-2020-A_Common-sense_Guide_to_Data_Structures_and_Algorithms_-_Level_Up_Your_Core.pdf:/home/inom/Projects/main/wiki/books/Development/Jay_Wengrow-2020-A_Common-sense_Guide_to_Data_Structures_and_Algorithms_-_Level_Up_Your_Core.pdf:application/pdf'
 files:
-- jay-wengrow-2020-a-common-sense-guide-to-data-structures-and-algorithms-level-up-your-core-a.epub
-- jay-wengrow-2020-a-common-sense-guide-to-data-structures-and-algorithms-level-up-your-core-b.pdf
+- 2020-wengrow-jay-data-structures-and-algorithms-a.epub
+- 2020-wengrow-jay-data-structures-and-algorithms-b.pdf
 isbn: 978-1-68050-722-5
 keywords: active, algorithms
 language: en
@@ -38,7 +38,8 @@ notes: notes.md
 papis_id: 6ae98031eac7030fb26c525984ff697d
 publisher: Pragmatic Bookshelf
 ref: ACommonSenseWengro2020
-shorttitle: A {Common}-sense {Guide} to {Data} {Structures} and {Algorithms}
+shorttitle: Data Structures and Algorithms
+time-added: 2023-06-22-01:14:16
 title: 'A Common-sense Guide to Data Structures and Algorithms: Level Up Your Core
   Programming Skills'
 type: book

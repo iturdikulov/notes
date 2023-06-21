@@ -7,4 +7,4 @@ tags:
 
 # papis
 
-
+papis add --from yaml path-to-yaml.yaml file-to-pdf.pdf

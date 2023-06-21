@@ -27,6 +27,7 @@ publisher: Apress
 ref: ProGitChacon2022
 series: The expert's voice in software development
 title: Pro Git
+shorttitle: Pro Git
 type: book
 url: https://git-scm.com/book/en/v2
 year: '2022'
