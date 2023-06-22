@@ -49,7 +49,7 @@ Not superior, but looks good enough.
 
 # Table of Contents /7
 
-In book it's actually Contents.
+In this book it's actually Contents.
 
 Data structures (which make me more happy, haha), intro to algorithms, big O
 with logarithms!), speed-up and optimize, big O in everyday code, blazing fast
@@ -61,22 +61,19 @@ WOW this looks great. Unfortunately, I have no idea what about half of these,
 but I WILL UNDERSTAND it ☕.
 
 # Preface /14
-
 ## Who Is This Book For? /15
-
 ## What’s New in the Second Edition /15
-
 ## What’s in This Book? /16
-
 ## How to Read This Book /17
-
 ## Code Examples /19
-
 ## Online Resources /19
-
 ## Acknowledgments /20
-
 ## Connecting /21
+
+Quite interesting overview of book. Contains main chapters, short information
+about them and what you will learn.
+
+This book is for me, self-taught programmer, who want to make his work better.
 
 - write better software (reduce entropy)
 - this book help to understand how to write better software and not use a lot of
@@ -104,7 +101,17 @@ end.
 This book use mix of languages: JavaScript, Python, Ruby and pseudocode. Which
 is good 😀.
 
+Contacts:
+
+```
+Jay Wengrow
+jay@actualize.co
+May, 2020
+```
+
 # 1. Why Data Structures Matter /22
+
+First focus when you are code is to write properly running code.
 
 Why?
 

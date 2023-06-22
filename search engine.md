@@ -12,7 +12,13 @@ sr-ease: 301
 
 # Search engine
 
-> Software system designed to carry out web searches. They search the World Wide Web in a systematic way for particular information specified in a textual web search query. The search results are generally presented in a line of results, often referred to as search engine results pages (SERPs). When a user enters a query into a search engine, the engine scans its index of web pages to find those that are relevant to the user's query. The results are then ranked by relevancy and displayed to the user.
+> Software system designed to carry out web searches. They search the World Wide
+> Web in a systematic way for particular information specified in a textual web
+> search query. The search results are generally presented in a line of results,
+> often referred to as search engine results pages (SERPs). When a user enters a
+> query into a search engine, the engine scans its index of web pages to find
+> those that are relevant to the user's query. The results are then ranked by
+> relevancy and displayed to the user.
 >
 > -- [Wikipedia](https://en.wikipedia.org/wiki/Search_engine)
 
@@ -80,5 +86,3 @@ And here list of my favorite bangs:
 - Godot Docs - search for Godot docs::`! !godot `
 - Rust Docs - search for Rust docs::`! !rust `
 - PinBoard - search for bookmarks::`! !pb `
-
-

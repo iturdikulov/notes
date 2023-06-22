@@ -12,10 +12,10 @@ tags:
 
 # Film (Movie)
 
-A movie or film is a type of visual [[art]] that uses images and
-sounds to tell stories or teach people something. Most people watch movies to
-entertain themselves or to have fun (or relax, motivate, etc.). Some movies can
-make people laugh, but other movies can make them cry, or make them feel afraid.
+A movie or film is a type of visual [[art]] that uses images and sounds to tell
+stories or teach people something. Most people watch movies to entertain
+themselves or to have fun (or relax, motivate, etc.). Some movies can make
+people laugh, but other movies can make them cry, or make them feel afraid.
 
 ## Types of movies
 

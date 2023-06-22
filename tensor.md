@@ -7,14 +7,14 @@ tags:
 
 # Tensor
 
-> In [[mathematics]], a tensor is an algebraic object that describes a multilinear
-> relationship between sets of algebraic objects related to a vector space.
-> Tensors may map between different objects such as vectors, scalars, and even
-> other tensors. There are many types of tensors, including scalars and vectors
-> (which are the simplest tensors), dual vectors, multilinear maps between
-> vector spaces, and even some operations such as the dot product. Tensors are
-> defined independent of any basis, although they are often referred to by their
-> components in a basis related to a particular coordinate system.
+> In [[mathematics]], a tensor is an algebraic object that describes a
+> multilinear relationship between sets of algebraic objects related to a vector
+> space. Tensors may map between different objects such as vectors, scalars, and
+> even other tensors. There are many types of tensors, including scalars and
+> vectors (which are the simplest tensors), dual vectors, multilinear maps
+> between vector spaces, and even some operations such as the dot product.
+> Tensors are defined independent of any basis, although they are often referred
+> to by their components in a basis related to a particular coordinate system.
 >
 > Tensors have become important in [[physics]] because they provide a concise
 > mathematical framework for formulating and solving physics problems in areas
@@ -29,7 +29,7 @@ tags:
 >
 > -- [Wikipedia](https://en.wikipedia.org/wiki/Tensor)
 
-TODO: add images/simpler explanation
-TODO: watch [Зубко И.Ю. Тензорный язык - это просто. Часть 1 - YouTube](https://www.youtube.com/watch?v=jMvj4Rxka1w)
-TODO: watch [Зубко И.Ю. Тензорный язык - это просто. Часть 2 - YouTube](https://www.youtube.com/watch?v=HVhyCAq2pmY)
-
+TODO: add images/simpler explanation TODO: watch
+[Зубко И.Ю. Тензорный язык - это просто. Часть 1 - YouTube](https://www.youtube.com/watch?v=jMvj4Rxka1w)
+TODO: watch
+[Зубко И.Ю. Тензорный язык - это просто. Часть 2 - YouTube](https://www.youtube.com/watch?v=HVhyCAq2pmY)

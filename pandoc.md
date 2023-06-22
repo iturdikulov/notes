@@ -13,9 +13,9 @@ sr-ease: 250
 
 # Pandoc
 
-Pandoc [@JohnMacFarlanePandocUserGuide2023] is a [[haskell]]
-library and command-line tool to convert markup files (Markdown, LaTeX, HTML),
-it's also can produce PDF output.
+Pandoc [@JohnMacFarlanePandocUserGuide2023] is a [[haskell]] library and
+command-line tool to convert markup files (Markdown, LaTeX, HTML), it's also can
+produce PDF output.
 
 It supports a dozen input/output formats, you can check this by running
 `pandoc --list-input-formats` and `pandoc --list-output-formats` commands, or
@@ -24,12 +24,12 @@ use the `--from` and `--to` options to select formats interactively.
 Pandoc supports Markdown with various features like: syntax for tables,
 definition lists, metadata blocks, footnotes, citations, math, and much more.
 
-Program has modular design and use [[abstract syntax tree|ast]] to
-represent documents. Reader modules - parse text in a given format and produce a
-native representation of the document (AST). Writer modules convert this AST
-into a target format. Using this design adding an input or output format
-requires only adding a reader or writer. Users also can run custom pandoc
-filters to modify the intermediate AST.
+Program has modular design and use [[abstract syntax tree|ast]] to represent
+documents. Reader modules - parse text in a given format and produce a native
+representation of the document (AST). Writer modules convert this AST into a
+target format. Using this design adding an input or output format requires only
+adding a reader or writer. Users also can run custom pandoc filters to modify
+the intermediate AST.
 
 Pandoc limitations are happens because intermediate representation of a document
 is less expressive than many of the formats it converts between, and you can
@@ -67,9 +67,8 @@ notes from [[markdown]] to Markdown, to support [[bibtex]] [[citation]], like
 `@JohnMacFarlanePandocUserGuide2023`.
 
 In results pandoc using various flags (BibTeX file, citation style, etc.)
-generate markdown file with integrated citations, and
-[[bibliography]]. Later I use this to generate my static site,
-using [[hugo]].
+generate markdown file with integrated citations, and [[bibliography]]. Later I
+use this to generate my static site, using [[hugo]].
 
 Here is the core part of the script:
 

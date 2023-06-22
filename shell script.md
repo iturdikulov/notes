@@ -20,5 +20,5 @@ sr-ease: 272
 >
 > -- [Wikipedia](https://en.wikipedia.org/wiki/Shell_script)
 
-I personally [[my shell scripts|use]] a lot of shell scripts,
-mainly for simple tasks or use some of them as wrappers for other programs.
+I personally [[my shell scripts|use]] a lot of shell scripts, mainly for simple
+tasks or use some of them as wrappers for other programs.

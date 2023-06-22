@@ -41,48 +41,65 @@ suggested textbook or video lecture series, but ideally both. Aim for 100-200
 hours of study of each topic, then revisit favorites throughout your career 🚀.
 
 - Subject: [Programming](#programming)
-  - Why study? Don’t be the person who “never quite understood” something like recursion.
-  - Book: *Structure and Interpretation of Computer Programs*
+
+  - Why study? Don’t be the person who “never quite understood” something like
+    recursion.
+  - Book: _Structure and Interpretation of Computer Programs_
   - Videos: Brian Harvey’s Berkeley CS 61A
 
 - Subject: [Computer Architecture](#architecture)
-  - Why study? If you don’t have a solid mental model of how a computer actually works, all of your higher-level abstractions will be brittle.
-  - Book: *Computer Systems: A Programmer's Perspective*
+
+  - Why study? If you don’t have a solid mental model of how a computer actually
+    works, all of your higher-level abstractions will be brittle.
+  - Book: _Computer Systems: A Programmer's Perspective_
   - Videos: Berkeley CS 61C
 
 - Subject: [Algorithms and Data Structures](#algorithms)
-  - Why study? If you don’t know how to use ubiquitous data structures like stacks, queues, trees, and graphs, you won’t be able to solve challenging problems.
-  - Book: *The Algorithm Design Manual*
+
+  - Why study? If you don’t know how to use ubiquitous data structures like
+    stacks, queues, trees, and graphs, you won’t be able to solve challenging
+    problems.
+  - Book: _The Algorithm Design Manual_
   - Videos: Steven Skiena’s lectures
 
 - Subject: [Math for CS](#math)
-  - Why study? CS is basically a runaway branch of applied math, so learning math will give you a competitive advantage.
-  - Book: *Mathematics for Computer Science*
+
+  - Why study? CS is basically a runaway branch of applied math, so learning
+    math will give you a competitive advantage.
+  - Book: _Mathematics for Computer Science_
   - Videos: Tom Leighton’s MIT 6.042J
 
 - Subject: [Operating Systems](#operating-systems)
-  - Why study? Most of the code you write is run by an operating system, so you should know how those interact.
-  - Book: *Operating Systems: Three Easy Pieces*
+
+  - Why study? Most of the code you write is run by an operating system, so you
+    should know how those interact.
+  - Book: _Operating Systems: Three Easy Pieces_
   - Videos: Berkeley CS 162
 
 - Subject: [Computer Networking](#networking)
-  - Why study? The Internet turned out to be a big deal: understand how it works to unlock its full potential.
-  - Book: *Computer Networking: A Top-Down Approach*
+
+  - Why study? The Internet turned out to be a big deal: understand how it works
+    to unlock its full potential.
+  - Book: _Computer Networking: A Top-Down Approach_
   - Videos: Stanford CS 144
 
 - Subject: [Databases](#databases)
-  - Why study? Data is at the heart of most significant programs, but few understand how database systems actually work.
-  - Book: *Readings in Database Systems*
+
+  - Why study? Data is at the heart of most significant programs, but few
+    understand how database systems actually work.
+  - Book: _Readings in Database Systems_
   - Videos: Joe Hellerstein’s Berkeley CS 186
 
 - Subject: [Languages and Compilers](#languages)
-  - Why study? If you understand how languages and compilers actually work, you’ll write better code and learn new languages more easily.
-  - Book: *Crafting Interpreters*
+
+  - Why study? If you understand how languages and compilers actually work,
+    you’ll write better code and learn new languages more easily.
+  - Book: _Crafting Interpreters_
   - Videos: Alex Aiken’s course on edX
 
 - Subject: [Distributed Systems](#distributed-systems)
   - Why study? These days, most systems are distributed systems.
-  - Book: *Designing Data-Intensive Applications* by Martin Kleppmann
+  - Book: _Designing Data-Intensive Applications_ by Martin Kleppmann
   - Videos: MIT 6.824
 
 ## Still too much?
@@ -599,4 +616,3 @@ enough time and motivation. But if you'd prefer an intensive, structured,
 instructor-led program, you might be interested in our
 [Computer Science Intensive](https://bradfieldcs.com/csi/). We
 [DON'T](https://ozwrites.com/masters/) suggest pursuing a master's degree.
-

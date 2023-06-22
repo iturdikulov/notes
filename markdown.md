@@ -89,9 +89,9 @@ Formatting:
 
 Minimal syntax:
 
-|foo|bar|
-|-|-|
-|baz|bim|
+| foo | bar |
+| --- | --- |
+| baz | bim |
 
 ```markdown
 |foo|bar|
@@ -104,4 +104,3 @@ Minimal syntax:
 - [ ] https://daringfireball.net/projects/markdown/basics
 - [ ] https://daringfireball.net/projects/markdown/syntax
 - [ ] https://github.github.com/gfm/
-

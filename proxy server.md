@@ -14,10 +14,9 @@ sr-ease: 290
 
 # Proxy server
 
-In [[computer network|computer networking]],
-[[server (computing)]] application (program) that acts as middleman
-(intermediary) between a client requesting a resource and the server providing
-that resource.
+In [[computer network|computer networking]], [[server (computing)]] application
+(program) that acts as middleman (intermediary) between a client requesting a
+resource and the server providing that resource.
 
 ```
           .-~~~-.

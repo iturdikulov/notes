@@ -11,12 +11,11 @@ sr-ease: 272
 
 # Function overloading (method overloading)
 
-> Ability to create multiple
-> [[function (computer programming)|functions]] of the same name
-> with different implementations. Calls to an overloaded function will run a
-> specific implementation of that function appropriate to the context of the
-> call, allowing one function call to perform different tasks depending on
-> context.
+> Ability to create multiple [[function (computer programming)|functions]] of
+> the same name with different implementations. Calls to an overloaded function
+> will run a specific implementation of that function appropriate to the context
+> of the call, allowing one function call to perform different tasks depending
+> on context.
 >
 > -- [Wikipedia](https://en.wikipedia.org/wiki/Function_overloading)
 

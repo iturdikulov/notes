@@ -9,5 +9,3 @@ sr-ease: 272
 ---
 
 # How do I study physics and chemistry?
-
-

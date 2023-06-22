@@ -20,4 +20,3 @@ and [[my inventory|keep inventory]].
 Sometimes I do some [[do it yourself|cool things]] or spent time for [[art]].
 
 Also, worth to mention this notes [[home construction]] and [[government]].
-

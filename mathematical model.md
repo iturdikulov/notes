@@ -19,5 +19,3 @@ tags:
 > be taught as a subject in its own right.
 >
 > -- [Wikipedia](https://en.wikipedia.org/wiki/Mathematical_model)
-
-

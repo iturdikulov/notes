@@ -9,5 +9,3 @@ sr-ease: 130
 ---
 
 # Software engineering
-
-

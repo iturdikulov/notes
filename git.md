@@ -14,8 +14,8 @@ sr-ease: 248
 
 # Git Version Control System
 
-Distributed revision control system, [[computer program]], designed
-to help people create other computer program together.
+Distributed revision control system, [[computer program]], designed to help
+people create other computer program together.
 
 > Git is a free and open source distributed version control system designed to
 > handle everything from small to very large projects with speed and efficiency.
@@ -26,11 +26,11 @@ multiple branches as features tree, if your decision was incorrect, you can
 easily revert you changes. It's also useful for review your changes and
 collaborate.
 
-In [[git tips]] I store various flashcards, how to use git (sort of
-cheatcheet).
+In [[git tips]] I store various flashcards, how to use git (sort of cheatcheet).
 
-Additional details can be found in [[papis/315c92066071c34465a13ed21a22f8e4-chacon-scott-and-st/notes]] book. You can also
-use built-in help: `man git`, `git help` or `git [command] –help`.
+Additional details can be found in
+[[papis/315c92066071c34465a13ed21a22f8e4-chacon-scott-and-st/notes]] book. You
+can also use built-in help: `man git`, `git help` or `git [command] –help`.
 
 ## Additional Resources
 

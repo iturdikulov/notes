@@ -32,8 +32,8 @@ sr-ease: 276
    ```bash
    lsblk -o name,mountpoint,label,size,uuid
    ```
-2. Run the shell script as root (if used ventoy-bin package, binary is
-   `ventoy`)
+3. Run the shell script as root (if used ventoy-bin package, binary is `ventoy`)
+
    ```bash
    # XXX is the USB device, for example /dev/sdb.
    sh Ventoy2Disk.sh { -i | -u } /dev/XXX
@@ -56,12 +56,12 @@ sr-ease: 276
       -n          try non-destructive installation (only for install)
    ```
 
-
 ## How to copy ISO file to Ventoy USB drive and validate it
 
 ### Windows
 
 Checksums are verified, check this section [[win_setup_script]]
+
 ```sh
 export VENTOY_PATH="/media/Ventoy"
 export WIN_ISO_CHECKSUM="c90a6df8997bf49e56b9673982f3e80745058723a707aef8f22998ae6479597d"

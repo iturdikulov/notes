@@ -20,8 +20,8 @@ sr-ease: 272
 When inside a link, typing a URL that starts with a ==`#`== will show a list of
 autocompletion based on the links of all the headers in the document.
 
-Pressing `o` `O` and `<cr>` in insert mode on list item will ==create==
-a new list item (bullet on numeric). To insert a new line, press `<shift+enter>`.
+Pressing `o` `O` and `<cr>` in insert mode on list item will ==create== a new
+list item (bullet on numeric). To insert a new line, press `<shift+enter>`.
 
 Numbered list items will be ==renumbered== upon indenting / un-indenting. The
 algorithm for this is still pretty basic but attempts to ensure correct nesting.

@@ -21,5 +21,5 @@ sr-ease: 290
 > intellectual curiosity." --
 > [Hacker News - Wikipedia](https://en.wikipedia.org/wiki/Hacker_News)
 
-RSS of the best news: https://hnrss.org/best. I also added it in my
-[[miniflux]] RSS reader.
+RSS of the best news: https://hnrss.org/best. I also added it in my [[miniflux]]
+RSS reader.

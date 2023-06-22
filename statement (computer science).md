@@ -14,10 +14,10 @@ sr-ease: 270
 
 # Statement (computer science)
 
-> In [[computer programming|computer programming]], a statement is
-> a syntactic unit of an imperative programming language that expresses some
-> action to be carried out. A program written in such a language is formed by
-> a sequence of one or more statements. A statement may have internal components
-> (e.g. [[expression (computer science)|expressions]]).
+> In [[computer programming|computer programming]], a statement is a syntactic
+> unit of an imperative programming language that expresses some action to be
+> carried out. A program written in such a language is formed by a sequence of
+> one or more statements. A statement may have internal components (e.g.
+> [[expression (computer science)|expressions]]).
 >
 > -- [Wikipedia](https://en.wikipedia.org/wiki/Statement_\(computer_science\))

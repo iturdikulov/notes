@@ -18,8 +18,8 @@ tags:
 >
 > Infographics can be created by hand using simple everyday tools such as graph
 > paper, pencils, markers, and rulers. However, today they are more often
-> created using [[computer program|computer software]], which is
-> often both faster and easier. They can be created with general
+> created using [[computer program|computer software]], which is often both
+> faster and easier. They can be created with general
 > [[my awesome software list#graphics|illustration software]]
 >
 > -- [Wikipedia](https://en.wikipedia.org/wiki/Infographic)

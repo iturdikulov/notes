@@ -14,9 +14,9 @@ sr-ease: 290
 
 # Style of life
 
-> The term style of [[in real life (irl)|life]] (German:
-> Lebensstil) was used by psychiatrist Alfred Adler as one of several constructs
-> describing the dynamics of the personality.
+> The term style of [[in real life (irl)|life]] (German: Lebensstil) was used by
+> psychiatrist Alfred Adler as one of several constructs describing the dynamics
+> of the personality.
 >
 > The Style of Life reflects the individual's unique, unconscious, and
 > repetitive way of responding to (or avoiding) the main tasks of living:

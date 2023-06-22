@@ -8,15 +8,16 @@ tags:
 
 # Slack
 
-> Slack is an [[instant messaging]] program designed by [Slack Technologies](https://slack.com/)
-> and owned by Salesforce. Although Slack was developed for professional and
-> organizational communications, it has also been adopted as a community
-> platform. Users can communicate with **voice calls**, **video calls**, text
-> messaging, media, and files in private chats or as part of communities called
-> "workspaces." Slack also uses [[Internet Relay Chat (IRC)|IRC-style]] features such
-> as persistent chat rooms (channels) organized by topic, private groups,
-> and direct messaging. In addition to these online communication features,
-> Slack can integrate with other software.
+> Slack is an [[instant messaging]] program designed by
+> [Slack Technologies](https://slack.com/) and owned by Salesforce. Although
+> Slack was developed for professional and organizational communications, it has
+> also been adopted as a community platform. Users can communicate with **voice
+> calls**, **video calls**, text messaging, media, and files in private chats or
+> as part of communities called "workspaces." Slack also uses
+> [[Internet Relay Chat (IRC)|IRC-style]] features such as persistent chat rooms
+> (channels) organized by topic, private groups, and direct messaging. In
+> addition to these online communication features, Slack can integrate with
+> other software.
 >
 > -- [Wikipedia](<https://en.wikipedia.org/wiki/Slack_(software)>)
 
@@ -86,7 +87,8 @@ Switch to previous workspace::`ctrl + shift + tab`
 
 Switch to next workspace::`ctrl + tab`
 
-Switch to workspace 1 (see assigned number under the workspace icon in your Slack app)::`ctrl + 1`
+Switch to workspace 1 (see assigned number under the workspace icon in your
+Slack app)::`ctrl + 1`
 
 ## Mark messages read or unread
 
@@ -164,4 +166,4 @@ Toggle video on and off::`v`
 
 Show invite list::`a`
 
-View emoji reactions and select first::`e  1`
+View emoji reactions and select first::`e 1`

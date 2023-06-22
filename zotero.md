@@ -14,7 +14,8 @@ sr-ease: 285
 # Zotero Research Assistant
 
 ![](../img/screenshoot-zotero.png)
-*Zotero main window*
+
+_Zotero main window_
 
 Zotero - free citation manager, it's contains a lot of features, such as:
 
@@ -26,8 +27,8 @@ Zotero - free citation manager, it's contains a lot of features, such as:
 - built-in PDF viewer and annotator;
 - API to extend Zotero's functional.
 
-I use it to store my [[literature]]: books, articles, education
-resources, cheatsheets, feeds, etc.
+I use it to store my [[literature]]: books, articles, education resources,
+cheatsheets, feeds, etc.
 
 Zotero has advanced search capabilities, you can search by author, title, year,
 tags, etc. It's also indexing your references, so you can search by content (PDF
@@ -54,7 +55,7 @@ shortcut <kbd>M-n</kbd> to generate notes.
 - [ ] zotero password recover android
 - [ ] zotero documentation update
 - [ ] need link all this :: To generate TOC I use pdftoc.sh script, its use
-pdftocgen to generate TOC and [[gnu sed]] to add heading markup
-rules. It's work more stable than built-in TOC generator.
+      pdftocgen to generate TOC and [[gnu sed]] to add heading markup rules.
+      It's work more stable than built-in TOC generator.
 
 Then I can easily add TOC to my research notes.

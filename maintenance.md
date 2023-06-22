@@ -16,10 +16,10 @@ sr-ease: 290
 
 > Functional checks, servicing, repairing or replacing of necessary devices,
 > equipment, machinery, building infrastructure, and supporting utilities in
-> industrial, business, and residential installations. Over time, this has
-> come to include multiple wordings that describe various cost-effective
-> practices to keep equipment operational; these activities occur either
-> before or after a failure.
+> industrial, business, and residential installations. Over time, this has come
+> to include multiple wordings that describe various cost-effective practices to
+> keep equipment operational; these activities occur either before or after a
+> failure.
 >
 > Any activity—such as tests, measurements, replacements, adjustments, and
 > repairs—intended to retain or restore a functional unit in or to a specified

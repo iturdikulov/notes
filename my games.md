@@ -14,9 +14,8 @@ sr-ease: 290
 
 # My Games
 
-I play [[game|games]] (but not too much) usually on my
-[[computer|computer ]]or on my
-[[smartphone|smartphone]].
+I play [[game|games]] (but not too much) usually on my [[computer|computer]]or
+on my [[smartphone|smartphone]].
 
 ## Active games
 

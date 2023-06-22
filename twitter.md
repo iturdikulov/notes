@@ -18,5 +18,5 @@ sr-ease: 290
 From breaking news and entertainment to sports and politics, get the full story
 with all the live commentary.
 
-The company operated the
-[[social networking service|social networking]] service.
+The company operated the [[social networking service|social networking]]
+service.

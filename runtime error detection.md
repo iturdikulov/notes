@@ -31,4 +31,3 @@ tags:
 > flow of the application.
 >
 > -- [Wikipedia](https://en.wikipedia.org/wiki/Runtime_error_detection)
-

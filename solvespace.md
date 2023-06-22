@@ -16,4 +16,5 @@ sr-ease: 270
 
 Is a free (GPLv3) parametric 3d [[computer-aided design (cad, cadd)|cad]] tool.
 
-TODO: watch series [SolveSpace](https://www.youtube.com/playlist?list=PLGAjLwYQPgaBafzQTLA84IkTOptOdIsUX)
+TODO: watch series
+[SolveSpace](https://www.youtube.com/playlist?list=PLGAjLwYQPgaBafzQTLA84IkTOptOdIsUX)

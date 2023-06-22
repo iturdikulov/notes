@@ -26,8 +26,8 @@ sr-ease: 270
 >
 > Linear search is rarely practical because other
 > [[search algorithm|search algorithms]] and schemes, such as the
-> [[binary search algorithm]] and [[hash table]],
-> allow significantly faster searching for all but short lists.
+> [[binary search algorithm]] and [[hash table]], allow significantly faster
+> searching for all but short lists.
 >
 > -- [Wikipedia](https://en.wikipedia.org/wiki/Linear_search)
 

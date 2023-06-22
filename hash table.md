@@ -37,4 +37,5 @@ sr-ease: 270
 | Delete    | Θ(1)    | O(n)       |
 
 ![[!hash_table.excalidraw]]
-*A small phone book as a hash table*
+
+_A small phone book as a hash table_

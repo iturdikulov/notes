@@ -19,14 +19,13 @@ sr-ease: 290
 > addition to a critical evaluation, the review's author may assign the work a
 > rating to indicate its relative merit.
 >
-> Reviews can apply to a [[my movies|movie]] (a movie
-> review), video [[my games|games]](video game review),
-> [[my music|musical]] composition (music review of a composition
-> or recording), [[my read books|books]](book review); a piece of
-> hardware like a car, [[in real life (irl)|home]] appliance, or
-> computer; or [[my awesome software list|software]] such as
-> business software, sales software; or an event or performance, such as a live
-> music concert, play, musical theater show, dance show or art exhibition
+> Reviews can apply to a [[my movies|movie]] (a movie review), video
+> [[my games|games]](video game review), [[my music|musical]] composition (music
+> review of a composition or recording), [[my read books|books]](book review); a
+> piece of hardware like a car, [[in real life (irl)|home]] appliance, or
+> computer; or [[my awesome software list|software]] such as business software,
+> sales software; or an event or performance, such as a live music concert,
+> play, musical theater show, dance show or art exhibition
 >
 > A compilation of reviews may itself be called a review.
 

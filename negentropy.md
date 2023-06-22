@@ -26,7 +26,8 @@ reduce chaos in my life (at least digital).
 - LOOP: [[my backup plan]]
 - LOOP: pass negentropy
 - LOOP: videos and pictures workflow
-- LOOP: optimize `~/.aliases ~/.functions ~/.cargo/bin ~/.local/share/go/bin /home/inom/.local/bin`
+- LOOP: optimize
+  `~/.aliases ~/.functions ~/.cargo/bin ~/.local/share/go/bin /home/inom/.local/bin`
 - LOOP: Organize files: \~/org, \~/projects, \~/.pass, \~/downloads, /data
 - LOOP: Organize from download dir: music, audiobooks, commix, other media
 - LOOP: Import into org notes from KoHighlights

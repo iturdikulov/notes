@@ -171,7 +171,7 @@ Check also [[my shell scripts|my shell scripts]] and
   networking utilities for Linux
 - [remmina](https://remmina.org/) - remote access screen and file sharing
 - `ldd` - print shared library dependencies, useful for debugging and find
-required libraries
+  required libraries
 
 ## Multimedia
 
@@ -321,8 +321,8 @@ required libraries
   [[dwm|dwm]]
 - [GIMP](https://www.gimp.org/) - GNU Image Manipulation Program, fine but krita
   good enough for me
-- [anki](https://apps.ankiweb.net/) -
-  [[spaced repetition|spaced repetition]] flashcards
+- [anki](https://apps.ankiweb.net/) - [[spaced repetition|spaced repetition]]
+  flashcards
 - [emacs](https://www.gnu.org/software/emacs/) - lisp-based text editor
 - [bash](https://www.gnu.org/software/bash/) - Unix shell and command language
 - [klavaro](https://klavaro.sourceforge.io/en/index.html) - Touch Typing Tutor

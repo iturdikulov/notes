@@ -24,8 +24,10 @@ TODO: link with recipes outline?
 
 1. In a saucepan put little water (1 tablespoon), so that the milk does not burn
 2. In a saucepan, put milk combine the milk, sugar, and salt to taste.
-3. Place the saucepan over medium heat and bring to a boil, stirring occasionally.
+3. Place the saucepan over medium heat and bring to a boil, stirring
+   occasionally.
 4. When the milk boils, gradually add the semolina, stirring to avoid lumps.
-5. Reduce the heat to a minimum and continue stirring until the porridge thickens for about 5-7 minutes.
+5. Reduce the heat to a minimum and continue stirring until the porridge
+   thickens for about 5-7 minutes.
 6. Add the butter and stir until fully distributed.
 7. Serve the hot or warm porridge. Enjoy your meal!

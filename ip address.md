@@ -14,14 +14,13 @@ sr-ease: 270
 
 # IP address
 
-> An [[internet protocol|internet protocol]] address (IP address)
-> is a numerical label such as 192.0.2.1 that is connected to a computer network
-> that uses the Internet Protocol for communication. An IP address serves two
-> main functions: [[computer network|network]] interface
-> identification and location addressing.
+> An [[internet protocol|internet protocol]] address (IP address) is a numerical
+> label such as 192.0.2.1 that is connected to a computer network that uses the
+> Internet Protocol for communication. An IP address serves two main functions:
+> [[computer network|network]] interface identification and location addressing.
 >
 > -- [Wikipedia](https://en.wikipedia.org/wiki/IP_address)
->
+
 IP address is::unique address, used to identify each computer on the internet.
 
 IP address provided by::ICANN, and ensure that 2 organizations don't use the
@@ -40,38 +39,38 @@ decimal value `0-255` (256 total values). . - is period
 IPv6 can have ==2== formats:
 
 - normal, pure IPv6 format `FFFF:FFFF:FFFF:FFFF:FFFF:FFFF:FFFF:FFFF`, `FFFF` -
-is segment, total 8 segments, hexadecimal value 0-FFFF, separated by colons IPv6
-support short notations - no leading zeros The following list shows examples of
-valid IPv6 (Normal) addresses:
+  is segment, total 8 segments, hexadecimal value 0-FFFF, separated by colons
+  IPv6 support short notations - no leading zeros The following list shows
+  examples of valid IPv6 (Normal) addresses:
   - `2001 : db8: 3333 : 4444 : 5555 : 6666 : 7777 : 8888`
   - `2001 : db8 : 3333 : 4444 : CCCC : DDDD : EEEE : FFFF`
   - `: :` (implies all 8 segments are zero)
   - `2001: db8: :` (implies that the last six segments are zero)
   - `: : 1234 : 5678` (implies that the first six segments are zero)
   - `2001 : db8: : 1234 : 5678` (implies that the middle four segments are zero)
-  - `2001:0db8:0001:0000:0000:0ab9:C0A8:0102` (This can be compressed to eliminate
-    leading zeros, as follows: `2001:db8:1::ab9:C0A8:102`)
+  - `2001:0db8:0001:0000:0000:0ab9:C0A8:0102` (This can be compressed to
+    eliminate leading zeros, as follows: `2001:db8:1::ab9:C0A8:102`)
 - dual, IPv6 + IPv4 format Combines IPv6 and IPv4 address, and has this format:
   `FFFF:FFFF:FFFF:FFFF:FFFF:FFFF:FFFF:FFFF:nnn.nnn.nnn.nnn`
 
 The following list shows examples of valid IPv6 (Dual) addresses:
 
-  - `2001 : db8: 3333 : 4444 : 5555 : 6666 : 1 . 2 . 3 . 4`
-  - `: : 11 . 22 . 33 . 44` (implies all six IPv6 segments are zero)
-  - `2001 : db8: : 123 . 123 . 123 . 123` (implies that the last four IPv6
-    segments are zero)
-  - `: : 1234 : 5678 : 91 . 123 . 4 . 56` (implies that the first four IPv6
-    segments are zero)
-  - `: : 1234 : 5678 : 1 . 2 . 3 . 4` (implies that the first four IPv6 segments
-    are zero)
-  - `2001 : db8: : 1234 : 5678 : 5 . 6 . 7 . 8` (implies that the middle two IPv6
-    segments are zero)
+- `2001 : db8: 3333 : 4444 : 5555 : 6666 : 1 . 2 . 3 . 4`
+- `: : 11 . 22 . 33 . 44` (implies all six IPv6 segments are zero)
+- `2001 : db8: : 123 . 123 . 123 . 123` (implies that the last four IPv6
+  segments are zero)
+- `: : 1234 : 5678 : 91 . 123 . 4 . 56` (implies that the first four IPv6
+  segments are zero)
+- `: : 1234 : 5678 : 1 . 2 . 3 . 4` (implies that the first four IPv6 segments
+  are zero)
+- `2001 : db8: : 1234 : 5678 : 5 . 6 . 7 . 8` (implies that the middle two IPv6
+  segments are zero)
 
 ## IP ranges - CIDR
 
-CIDR - ==Classless Inter-Domain Routing==, was adopted to simplify the addressing
-scheme. In CIDR each subnet has own subnet mask, and the subnet mask is part of
-the IP address.
+CIDR - ==Classless Inter-Domain Routing==, was adopted to simplify the
+addressing scheme. In CIDR each subnet has own subnet mask, and the subnet mask
+is part of the IP address.
 
 ### IPv4 CIDR blocks
 

@@ -29,8 +29,7 @@ Wiki concepts:
 - Anyone can edit any page, you may be not expert in the topic (but this also
   can be bad, so review must be done).
 
-I'm use similar format to store my notes, with [[zettelkasten]]
-method.
+I'm use similar format to store my notes, with [[zettelkasten]] method.
 
 ## Popular wiki's
 

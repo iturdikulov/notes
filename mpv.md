@@ -8,10 +8,9 @@ tags:
 
 # MPV
 
-MPV is a free (as in freedom) [[media (communication)|media]]
-player for the command line (it has own pseudo-gui). It supports a wide variety
-of media file formats (including images), audio and video codecs, and subtitle
-types.
+MPV is a free (as in freedom) [[media (communication)|media]] player for the
+command line (it has own pseudo-gui). It supports a wide variety of media file
+formats (including images), audio and video codecs, and subtitle types.
 
 MPV also provide GPU video decoding, API, scripts, OSD, OSC, configurable
 keybinding and ton of other features.

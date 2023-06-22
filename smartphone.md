@@ -11,14 +11,13 @@ sr-ease: 277
 
 # Smartphone
 
-> A smartphone is a portable [[computer|computer]] device that
-> combines mobile telephone functions and computing functions into one unit.
-> They are distinguished from older-design feature phones by their stronger
-> hardware capabilities and extensive mobile operating systems, which facilitate
-> wider software, access to the internet (including web browsing over mobile
-> broadband), and multimedia functionality (including
-> [[my music|music]], [[my videos|video]],
-> [[camera|cameras]], and [[my games|gaming#smartphone]]),
+> A smartphone is a portable [[computer|computer]] device that combines mobile
+> telephone functions and computing functions into one unit. They are
+> distinguished from older-design feature phones by their stronger hardware
+> capabilities and extensive mobile operating systems, which facilitate wider
+> software, access to the internet (including web browsing over mobile
+> broadband), and multimedia functionality (including [[my music|music]],
+> [[my videos|video]], [[camera|cameras]], and [[my games|gaming#smartphone]]),
 > alongside core phone functions such as voice calls and text messaging.
 >
 > Smartphones typically contain a number of metal–oxide–semiconductor (MOS)

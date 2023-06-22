@@ -14,8 +14,7 @@ sr-ease: 273
 
 # suckless.org
 
-
-```{.bash org-language="sh"}
+```sh
 cd ~/Projects/suckless
 git clone git://git.suckless.org/slock
 cd slock

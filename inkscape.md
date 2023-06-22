@@ -35,4 +35,3 @@ TODO:
 
 - inkscape-open-symbols\* - Symbol libraries are sets of SVG symbols located in
   one SVG document, <https://github.com/PanderMusubi/inkscape-open-symbols>
-

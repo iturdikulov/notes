@@ -15,8 +15,7 @@ sr-ease: 270
 
 # Unary operation
 
-In [[mathematics]] operation with only one
-[[operand]].
+In [[mathematics]] operation with only one [[operand]].
 
 > More generally, a unary operation is a function with exactly one operand, such
 > as the factorial, square root, or NOT. --

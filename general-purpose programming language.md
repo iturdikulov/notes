@@ -11,10 +11,9 @@ tags:
 
 # General-purpose programming language (GPL)
 
-GPL - [[programming language]] for building
-[[computer software]] in a wide variety of application domains.
-Conversely, a domain-specific programming language (DSL) is used within a
-specific area.
+GPL - [[programming language]] for building [[computer software]] in a wide
+variety of application domains. Conversely, a domain-specific programming
+language (DSL) is used within a specific area.
 
 - Python, C, C++, JavaScript are general-purpose programming languages.
 - SQL is a domain-specific programming language for querying relational

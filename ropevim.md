@@ -7,10 +7,10 @@ tags:
 
 # Ropevim, rope in vim
 
-> Ropevim is a [[neovim (text editor)|vim]] mode that uses [rope](https://github.com/python-rope/rope) library
-> to provide features like python refactorings and code-assists. You should
-> install rope library before using ropevim.
-> -- [ropevim](https://github.com/python-rope/ropevim)
+> Ropevim is a [[neovim (text editor)|vim]] mode that uses
+> [rope](https://github.com/python-rope/rope) library to provide features like
+> python refactorings and code-assists. You should install rope library before
+> using ropevim. -- [ropevim](https://github.com/python-rope/ropevim)
 
 ## Quick start
 
@@ -21,4 +21,3 @@ tags:
 pip install pynvim # for neovim
 pip install ropevim
 ```
-

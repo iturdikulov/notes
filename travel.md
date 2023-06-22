@@ -22,8 +22,8 @@ sr-ease: 290
 >
 > -- [Wikipedia](https://en.wikipedia.org/wiki/Travel)
 
-My general traveling notes (some [[in real life (irl)]]
-expirience). TODO: add some.
+My general traveling notes (some [[in real life (irl)]] expirience). TODO: add
+some.
 
 ## Resources
 

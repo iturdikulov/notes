@@ -14,10 +14,10 @@ sr-ease: 270
 
 # Mobile network operator
 
-> A mobile [[computer network|network]] operator, also known as a
-> wireless service provider, wireless carrier, cellular company, or mobile
-> network carrier, is a provider of wireless communications services that owns
-> or controls
+> A mobile [[computer network|network]] operator, also known as a wireless
+> service provider, wireless carrier, cellular company, or mobile network
+> carrier, is a provider of wireless communications services that owns or
+> controls
 >
 > -- [Wikipedia](https://en.wikipedia.org/wiki/Mobile_network_operator)
 

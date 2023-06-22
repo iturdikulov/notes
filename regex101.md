@@ -14,5 +14,5 @@ sr-ease: 290
 
 # Regex101
 
-One of the largest [[regular expression (regex, regexp)|regex]]
-testing services in the world.
+One of the largest [[regular expression (regex, regexp)|regex]] testing services
+in the world.

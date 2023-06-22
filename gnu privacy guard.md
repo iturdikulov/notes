@@ -24,10 +24,10 @@ sr-ease: 288
 >
 > GnuPG is a hybrid-encryption software program because it uses a combination of
 > conventional symmetric-key cryptography for speed, and
-> [[public-key cryptography|public-key cryptography]]
-> for ease of secure key exchange, typically by using the recipient's public key
-> to encrypt a session key which is used only once. This mode of operation is
-> part of the OpenPGP standard and has been part of PGP from its first version.
+> [[public-key cryptography|public-key cryptography]] for ease of secure key
+> exchange, typically by using the recipient's public key to encrypt a session
+> key which is used only once. This mode of operation is part of the OpenPGP
+> standard and has been part of PGP from its first version.
 >
 > The GnuPG 1.x series uses an integrated cryptographic library, while the GnuPG
 > 1.x series replaces this with Libgcrypt.

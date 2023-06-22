@@ -46,10 +46,10 @@ sr-ease: 210
 - [Python Django - The Practical Guide](https://www.udemy.com/course/python-django-the-practical-guide/)
 - [Neural networks](https://stepik.org/course/50352/promo)
 
-
 ## TODO
+
 - [x] https://gist.github.com/tasdikrahman/2bdb3fb31136a3768fac, not worked as
-  expected
+      expected
 - [ ] https://flask.palletsprojects.com/en/2.2.x/testing/
 - [ ] https://youtu.be/eJDIsFJN4OQ
 - [ ] https://youtu.be/Q7AOvWpIVHU

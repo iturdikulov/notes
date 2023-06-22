@@ -15,12 +15,12 @@ sr-ease: 270
 # Media (communication)
 
 > In mass communication, media are the communication outlets or tools used to
-> store and deliver information or data. The term refers to components of
-> the mass media communications industry, such as print media, publishing, the
-> news media, photography, cinema, broadcasting (radio and television), digital
+> store and deliver information or data. The term refers to components of the
+> mass media communications industry, such as print media, publishing, the news
+> media, photography, cinema, broadcasting (radio and television), digital
 > media, and advertising.
 >
-> -- [Wikipedia](https://en.wikipedia.org/wiki/Media_\(communication\))
+> -- [Wikipedia](<https://en.wikipedia.org/wiki/Media_(communication)>)
 
 ## Resources
 

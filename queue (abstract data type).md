@@ -41,6 +41,4 @@ tags:
 | Insert    | O(1)    | O(1)       |
 | Delete    | O(1)    | O(1)       |
 
-![[!queue.excalidraw]]
-*Representation of a FIFO queue*
-
+![[!queue.excalidraw]] _Representation of a FIFO queue_

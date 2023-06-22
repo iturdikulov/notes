@@ -30,4 +30,5 @@ Heap is a special type of binary tree with specific criteria:
   nodes.
 
 ![[!max-heap_binary_tree.excalidraw]]
-*Example of a binary max-heap with node keys being integers between 1 and 100*
+
+_Example of a binary max-heap with node keys being integers between 1 and 100_

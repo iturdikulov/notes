@@ -18,7 +18,7 @@ List of resources and tips to learn [[mathematics]]
 - Discrete Mathematics for Computer Scientists [math]
 
 - [ ] [https://www.mathsisfun.com/](Math is Fun), I think it's good initial
-  point
+      point
 - [ ] concrete mathematic
 - [[multiplication table]]
 - [[papis/e614d794116031133f68747001d0e912-kiselyov-andrei-pet/notes|Алгебра, часть 1]]

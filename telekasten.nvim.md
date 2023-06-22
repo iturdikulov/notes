@@ -12,8 +12,11 @@ sr-ease: 272
 
 # Telekasten.nvim
 
-> A Neovim (lua) plugin for working with a text-based, markdown zettelkasten / wiki and mixing it with a journal, based on [[telescope.nvim]]
+> A Neovim (lua) plugin for working with a text-based, markdown zettelkasten /
+> wiki and mixing it with a journal, based on [[telescope.nvim]]
+
 TODO:
+
 - https://github.com/epwalsh/obsidian.nvim
 - https://github.com/epwalsh/obsidian.nvim#navigate-to-the-current-line-when-using-obsidianopen
   solve many issues with obsidian

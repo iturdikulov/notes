@@ -14,6 +14,7 @@ tags:
 > “base” Python, and may optionally be isolated from the packages in the base
 > environment, so only those explicitly installed in the virtual environment are
 > available.
+>
 > -- [venv](https://docs.python.org/3/library/venv.html)
 
 To initialize a virtual environment in `.venv` directory, run:

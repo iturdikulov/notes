@@ -16,17 +16,16 @@ sr-ease: 270
 # Source code (or code)
 
 > Any collection of text, with or without comments, written using a
-> human-readable [[programming language]], usually as plain text.
-> The source code of a [[computer program]] is specially designed
-> to facilitate the work of computer programmers, who specify the actions to be
-> performed by a computer mostly by writing source code.
+> human-readable [[programming language]], usually as plain text. The source
+> code of a [[computer program]] is specially designed to facilitate the work of
+> computer programmers, who specify the actions to be performed by a computer
+> mostly by writing source code.
 
-I think it's sort of text representation of [[algorithm]], written
-in programming language.
+I think it's sort of text representation of [[algorithm]], written in
+programming language.
 
-> Source code is often transformed by an
-> [[assembly language|assembler]] or [[compiler]] into
-> binary [[machine code]], which can be executed by computer.
+> Source code is often transformed by an [[assembly language|assembler]] or
+> [[compiler]] into binary [[machine code]], which can be executed by computer.
 
 In other words program (which now executed from machine code) translate source
 code written by human into machine code, which can be executed by computer to
