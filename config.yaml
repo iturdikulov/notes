@@ -17,6 +17,11 @@ exclude_glob:
 
 html_template_path_str: 'templates/obsidianhtml.html'
 
+file_exports:
+  - encoding: utf-8
+    src: templates/obsidianhtml.css
+    dst: obs.html/static/master.css
+
 obsidian_entrypoint_path_str: 'my activities.md'
 
 # Input and output path of markdown files
