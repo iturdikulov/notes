@@ -9,7 +9,7 @@ tags:
 - dev-tip
 ---
 
-# Dwm keyboard shortcuts
+# dwm keyboard shortcuts
 
 I swapped meta key (ALT/META) to super key (WIN), which used in DWM by default
 as modifier key, to decrease key conflicts in various programs.
@@ -29,7 +29,6 @@ Run display fix script. Sometimes it's needed to fix display after suspend or hi
 Enable Do not Disturb mode
 ?
 <kbd>super</kbd>+<kbd>ctrl</kbd>+<kbd>n</kbd>
-<!--SR:!2023-12-09,188,289-->
 
 Sync email (TODO: need check)
 ?
@@ -118,13 +117,11 @@ Super+Shift+Control+2
 apply tag to all (window appear on all tags), to reset apply tag again.
 ?
 Super+Shift+0
-<!--SR:!2023-06-11,7,209-->
 
 banish tags (add/remove all windows from #2 tag)
 it's sort of moving all windows from tag #2 to current tag. On tag switch - DWM reset this.
 ?
 Super+Control+2
-<!--SR:!2023-04-16,1,210-->
 
 
 ## Toggle workspace layout
@@ -158,27 +155,6 @@ Move floating window, absolute positioning (allows moving windows between monito
 Resize client, client center position is fixed which means that client expands in all directions including center::<kbd>Mod3Mask-S-</kbd>
 Resize client, client is positioned in a floating grid, movement is relative to client's current position (center include)::<kbd>Mod3Mask-M-</kbd>
 
-## Additional functional
+## To-Do
 
-### Status bar
-I use customized [dwm-bar](https://github.com/inomoz/dwm-bar).
-
-Enabled modules are: datetime, volume status and keyboard layout.
-That items are not interactive.
-
-I also created custom modules, dnd and timewarrior:
-
-- [dnd](https://github.com/inomoz/dotfiles/blob/main/.local/bin/dnd)
-(Do Not Disturb), key <kbd>s-C-n</kbd>.  It's toggle notifications pause,
-in status bar displayed ⛔ icon.
-- [pomo](https://github.com/inomoz/dotfiles/blob/main/.local/bin/pomo.sh)
-(pomodoro), key <kbd>s-C-w</kbd> it's activate pomodoro timer, in status bar displayed
-⏳ icon.
-
-## Useful links
-- <https://dwm.suckless.org/tutorial/>
-- <https://ratfactor.com/dwm>
-- <https://wiki.gentoo.org/wiki/Dwm>
-- <https://dwm.suckless.org/customisation/windows_key/>
-
-<!-- TODO: create repo with my patches -->
+- TODO: rewrite keybindings in more readable format

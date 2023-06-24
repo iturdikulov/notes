@@ -9,7 +9,7 @@ tags:
 This is a list my daily-used software. Some of them described in more details in
 other notes.
 
-Check also [[my shell scripts|my shell scripts]] and
+Check also [[my shell scripts]] and
 [[hidden file and hidden directory (.dotfiles)|dotfiles]].
 
 ## Favorites
@@ -253,7 +253,7 @@ Check also [[my shell scripts|my shell scripts]] and
 ## Core
 
 - [linux](https://kernel.org/) - monolithic, modular, multitasking, Unix-like
-  operating system kernel, [[linux|more info]]
+  operating system kernel, [[Linux|more info]]
 - [btrfs](https://btrfs.wiki.kernel.org/index.php/Main_Page) - modern copy on
   write (CoW) filesystem for Linux
 - [nfs-utils](http://nfs.sourceforge.net/) - Support programs for Network File
@@ -350,5 +350,6 @@ Check also [[my shell scripts|my shell scripts]] and
 
 ## Android
 
+TODO: actualize this list
 - [[Termux]
 - [[Tachiyomi]]

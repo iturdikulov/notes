@@ -28,5 +28,5 @@ address.
 A computer can jump to any memory address ==in one== step.
 <!--SR:!2023-11-30,179,270-->
 
-When computer allocate an array, it also "makes note"
-==at which memory addresses the array begins==.
+When computer allocate an array, it also store arrays
+==address, at which memory addresses the array begins==.

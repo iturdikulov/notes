@@ -19,7 +19,7 @@ Key features for me:
 - Rich ad blocking (Shield), and it's available for all [[computing platform]]
   which I use.
 - Support for extensions.
-- [[video acceleration api]] support on [[linux]]
+- [[video acceleration api]] support on [[Linux]]
 - [[chrome devtools]] support.
 - Built-in browser sync, and it's available for all platforms which I use.
 

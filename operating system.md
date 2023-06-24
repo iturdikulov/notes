@@ -26,7 +26,7 @@ sr-ease: 279
 
 My favorite operating systems:
 
-- [[linux]] kernel based operating systems
+- [[Linux]] kernel based operating systems
 - [[android (operating system)]]
 
 Other operating systems:

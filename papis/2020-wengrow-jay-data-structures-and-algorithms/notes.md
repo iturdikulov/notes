@@ -8,10 +8,8 @@ dateAdded: 2023-04-11
 canonicalUrl: https://www.google.com/books/edition/A_Common_sense_Guide_to_Data_Structures/SKX5ygEACAAJ?hl=en
 citekey: JayWengrowCommonsenseGuideData2020
 tags:
-  - research
-  - CS-tip
-localLibrary: zotero://select/items/1_R6AGTWDZ
-cloudLibrary: http://zotero.org/users/9108355/items/R6AGTWDZ
+    - research
+    - CS-tip
 draft: true
 canonicalUrl: https://pragprog.com/titles/jwdsal2
 ---
@@ -75,23 +73,23 @@ about them and what you will learn.
 
 This book is for me, self-taught programmer, who want to make his work better.
 
-- write better software (reduce entropy)
-- this book help to understand how to write better software and not use a lot of
-  math jargon, use common-sense language + a lot of diagrams
-- with this knowledge you will to be able to write fast, efficient and elegant
-  code
-- this book for me!
-- this book is updated and revisited (2nd edition)
-- this book blends theory with practice
-- knowledge of data structures and algorithms can reduce entropy in your code
-- explain recursion and dynamic programming (?)
-- book contains exercises and solutions
+-   write better software (reduce entropy)
+-   this book help to understand how to write better software and not use a lot of
+    math jargon, use common-sense language + a lot of diagrams
+-   with this knowledge you will to be able to write fast, efficient and elegant
+    code
+-   this book for me!
+-   this book is updated and revisited (2nd edition)
+-   this book blends theory with practice
+-   knowledge of data structures and algorithms can reduce entropy in your code
+-   explain recursion and dynamic programming (?)
+-   book contains exercises and solutions
 
 This book give answers to questions like:
 
-- why data structures matter?
-- why algorithms matter?
-- Big O notation? ...
+-   why data structures matter?
+-   why algorithms matter?
+-   Big O notation? ...
 
 I need to read this book in order.
 
@@ -115,32 +113,26 @@ First focus when you are code is to write properly running code.
 
 Why?
 
-Because efficiency, you can write efficient or inefficient code. sort of
+Because **efficiency**, you can write efficient or inefficient code. sort of
 productive or unproductive code... For me unproductive means increase entropy of
 system. Which I hate. Because programs must run fast... Efficient code looks even
 better, easily to maintain and use in every-day life.
 
+Example with 2 different algorithms and how they can be different in speed.
+[Example 1](./_examples/example_1.py)
+
 First step in writing fast code is to understand what data structures are and
 how different data structures can affect to speed of our code.
 
-Data structures? Array? Data structure operations? Measuring speed? Reading
+Array? Data structure operations? Measuring speed? Reading
 operation? Searching operation? Insertion operation? Deletion operation? Sets?
 And why single rule can affect efficiency? Exercises.
 
 ## Data Structures /23
 
-Data structures refer to how data is organized. Data organization can be highly
-impact on performance. Depending on data organization program can run faster or
-slower by orders of **magnitude**.
-
-So knowledge in data structures can write scalable, fast and efficient software.
+Notes leaved here [[data structure]].
 
 ## The Array: The Foundational Data Structure /24
-
-Most basic data structure?
-?
-Array, versatile
-<!--SR:!2023-08-22,78,270-->
 
 Some information about arrays: [[array (computer science)]]
 
@@ -156,15 +148,21 @@ A will always be faster than operation B on all pieces of hardware.
 Measuring the number of steps is key to analyzing the speed of an operation.
 
 ## Reading /26
+
 ## Searching /29
+
 ## Insertion /32
+
 ## Deletion /34
+
 I placed notes here: [[array (computer science)]]
 
 ## Sets: How a Single Rule Can Affect Efficiency /36
+
 I placed notes here: [[set (abstract data type)]]
 
 ## Wrapping Up /39
+
 Analyze data structure before use them. Choose most suitable.
 
 ## Exercises /40
@@ -214,7 +212,6 @@ Analyze data structure before use them. Choose most suitable.
    instance, we can **cut our search short** as soon as we find it. But if we
    need to find all instances, we have no choice but inspect **each element** of
    the entire array.
-
 
 # 2. Why Algorithms Matter /41
 

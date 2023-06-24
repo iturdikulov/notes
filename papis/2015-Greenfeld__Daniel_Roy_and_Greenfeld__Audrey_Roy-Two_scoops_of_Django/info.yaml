@@ -21,7 +21,6 @@ language: english
 papis_id: b5b8682f540f44c3210e9c7889302b8d
 publisher: Two Scoops Press
 ref: TwoScoopsOfDGreenf2015
-shorttitle: Two scoops of {Django}
 title: 'Two scoops of Django: Best practices for Django 1.8'
 shorttitle: 'Two scoops of Django'
 type: book

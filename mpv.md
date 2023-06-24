@@ -2,8 +2,8 @@
 date: 2022-12-29
 draft: true
 tags:
-- dev-tip
-- outline
+  - dev-tip
+  - outline
 ---
 
 # MPV
@@ -19,187 +19,95 @@ I use it as my main video player
 
 ## Keybindings (keys are sensitive)
 
-Half speed increase/decrease
-?
-`[`, `]`
-<!--SR:!2023-04-16,1,230-->
+Half speed increase/decrease::`[`, `]`
 
-Double speed
-?
-`{`, `}`
-<!--SR:!2023-06-11,7,210-->
+Double speed::`{`, `}`
 
-Reset speed
-?
-`BCK`
-<!--SR:!2023-06-13,9,210-->
+Reset speed::`BCK`
 
-Seek
-?
-`h`, `j`, `k`, `l`
+Seek::`h`, `j`, `k`, `l`
 
-Undo last seek
-?
-`S-BCK`
+Undo last seek::`S-BCK`
 
-Frame forward/backward
-?
-`.`, `,`
+Frame forward/backward::`.`, `,`
 
-Next/Previous in playlist
-?
-`<`, `>`
+Next/Previous in playlist::`<`, `>`
 
-Pause/Resume
-?
-`SPC`
+Pause/Resume::`SPC`
 
-Mute
-?
-`m`
+Mute::`m`
 
-Quit
-?
-`q`
+Quit::`q`
 
-Increase/decrease volume
-?
-`/`, `*`
+Increase/decrease volume::`/`, `*`
 
+Switch video / audio tracks::`_`, `#`
 
-Switch video / audio tracks
-?
-`_`, `#`
+Toggle on top::`T`
 
-Toggle on top
-?
-`T`
+Show progression bar, elapsed time and total duration on the OSD.::`o`
 
-Show progression bar, elapsed time and total duration on the OSD.
-?
-`o`
+Toggle duration display::`O`
 
-Toggle duration display
-?
-`O`
+Toggle subtitles::`v`
 
-Toggle subtitles
-?
-`v`
+Switch subtitles::`J` `S`
 
-Switch subtitles
-?
-`J` `S`
+Adjust subtitles delay +/-::`z`, `Z`
 
-Adjust subtitles delay +/-
-?
-`z`, `Z`
+Adjust subtitles font::`S-g`, `S-f`
 
-Adjust subtitles font
-?
-`S-g`, `S-f`
+Adjust audio delay::`C-+`, `C--`
 
-Adjust audio delay
-?
-`C-+`, `C--`
+Loop::`L`
 
-Loop
-?
-`L`
+Take screenshot::`s`, `C-s`
 
-Take screenshot
-?
-`s`, `C-s`
+Show lists::`F8`, `F9`
 
-Show lists
-?
-`F8`, `F9`
+Show OSD state::`F1`
 
-Show OSD state
-?
-`F1`
+Show stats::`i`, `I`
 
-Show stats
-?
-`i`, `I`
+Contrast::`1`, `2`
 
-Contrast
-?
-`1`, `2`
+Brightness::`3`, `4`
 
-Brightness
-?
-`3`, `4`
+Gamma::`5`, `6`
 
-Gamma
-?
-`5`, `6`
+Saturation::`7`, `8`
 
-Saturation
-?
-`7`, `8`
-
-Resize window
-?
-`M-0`, `M-1`, `M-2`
+Resize window::`M-0`, `M-1`, `M-2`
 
 # MPV playlist manager
 
-Show playlist
-?
-`S-Return`
+Show playlist::`S-Return`
 
-Sort playlist by filename
-?
-`C-p`
+Sort playlist by filename::`C-p`
 
-Shuffle playlist
-?
-`C-P`
+Shuffle playlist::`C-P`
 
-Reverse playlist
-?
-`C-R`
+Reverse playlist::`C-R`
 
-Save playlist
-?
-`p`
+Save playlist::`p`
 
-Load all files from current directory
-?
-`P`
+Load all files from current directory::`P`
 
-Movement in playlist - up/down
-?
-`up`, `down`
+Movement in playlist - up/down::`up`, `down`
 
-Movement in playlist - page up/page down
-?
-`PgUp`, `PgDown`
+Movement in playlist - page up/page down::`PgUp`, `PgDown`
 
-Movement in playlist - first entry
-?
-`Home`
+Movement in playlist - first entry::`Home`
 
-Movement in playlist - last entry
-?
-`End`
+Movement in playlist - last entry::`End`
 
-Remove selected entry from playlist
-?
-`BCK`
+Remove selected entry from playlist::`BCK`
 
-Open selected entry (or next file is playing)
-?
-`Enter`
+Open selected entry (or next file is playing)::`Enter`
 
-Select or Unselect the file under cursor (to reorder)
-?
-`Left`, `Right`
+Select or Unselect the file under cursor (to reorder)::`Left`, `Right`
 
-Close playlist
-?
-`Esc`
+Close playlist::`Esc`
 
 ## Custom hotkeys
 
@@ -211,8 +119,8 @@ MPV fzf history: s-S-Play
 
 - <https://github.com/jonniek/mpv-playlistmanager>
 - <https://github.com/mpv-player/mpv/blob/master/TOOLS/umpv>, useful
-    to add queue, use mpv as music player, emulates \"unique
-    application\"
+  to add queue, use mpv as music player, emulates \"unique
+  application\"
 
 # TODO
 

@@ -1,7 +1,12 @@
-Don't forget that creating the file from here may create the file in the wrong
-directory!
-
+Don't forget that creating the file from here may create the file in the wrong directory!
+- [[papis/af1e94df98f63aa42a732c48bb7d5176-david-kilpatrick/notes]] in [[art]]
 - [[~/.config/chromium-flags.conf]] in [[chromium]]
 - [[integer]] in [[glossary of computer science]]
+- [[papis/14f60db29650af4d6edb2aef6d5539da/notes]] in [[how do I study computer science]], [[my python developer roadmap]]
+- [[papis/2ef118ce3473c9fe93acfc371e3f736e-wengrow-jay/notes]] in [[how do I study computer science]]
+- [[papis/5a531e96f3b3b978f489ce0cf6e84b26-cormen-thomas-h./notes]] in [[how do I study computer science]]
+- [[papis/0a96b011624a27630b92896fb6c7b31b-flanagan-david/notes]] in [[how do I study computer science]]
+- [[papis/731393c6e40c6bdd44b8170acef82a62-van-gumster-jason/notes]] in [[how do I study game development]]
 - [[~/.local/bin/kitty-sessionizer.sh]] in [[neovim (text editor)]]
 - [[~/.config/nvim/lua/inomoz/packer.lua]] in [[neovim (text editor)]]
+- [[./_examples/example_1.py]] in [[papis/2020-wengrow-jay-data-structures-and-algorithms/notes]]

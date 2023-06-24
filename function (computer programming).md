@@ -45,7 +45,7 @@ sr-ease: 270
 > Different programming languages may use different conventions for passing
 > arguments:
 >
-> -- [Wikipedia](<https://en.wikipedia.org/wiki/Function_(computer_programming)>)
+> -- [Wikipedia](<https://en.wikipedia.org/wiki/Function_(computer_programming)>) <!--SR:!2023-06-25,1,250-->
 
 ```
                ----------

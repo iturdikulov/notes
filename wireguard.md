@@ -24,7 +24,7 @@ sr-ease: 275
 > most secure, easiest to use, and simplest VPN solution in the industry.
 >
 > A combination of extremely high-speed cryptographic primitives and the fact
-> that WireGuard lives inside the [[linux|linux]] kernel means that secure
+> that WireGuard lives inside the [[Linux|linux]] kernel means that secure
 > networking can be very high-speed. It is suitable for both small embedded
 > devices like [[smartphone|smartphones]] and fully loaded backbone routers.
 >

@@ -6,8 +6,8 @@ sr-due: 2023-06-17
 sr-ease: 270
 sr-interval: 4
 tags:
-- definition
-- dev-tip
+  - definition
+  - dev-tip
 ---
 
 # Kitty (terminal emulator)
@@ -36,51 +36,41 @@ tags:
 Open URL in web browser
 ?
 `C-S-e`
-<!--SR:!2023-06-10,6,212-->
 
 Edit kitty.conf
 ?
 `C-S-f2`
-<!--SR:!2023-12-10,189,290-->
 
 Reload kitty.conf
 ?
 `C-S-f5`
-<!--SR:!2023-06-12,8,252-->
 
 Go to specific tab
 ?
 `C-M-n`
-<!--SR:!2023-08-16,73,272-->
 
 Close current tab
 ?
 `C-S-q`
-<!--SR:!2023-06-09,5,192-->
 
 Move tab forward
 ?
 `C-S-.`
-<!--SR:!2023-06-09,5,212-->
 
 Move tab backward
 ?
 `C-S-,`
-<!--SR:!2023-08-02,59,232-->
 
 ## Custom shortcuts
 
 Switch project using sessionizer
 ?
 `C-space`
-<!--SR:!2023-12-11,190,292-->
 
 Find tab
 ?
 `C-M-f`
-<!--SR:!2023-06-09,5,192-->
 
 Start keyboard-driven text selection as a kitten, using [kitty_grab](https://github.com/yurikhan/kitty_grab)
 ?
 `C-M-c`
-<!--SR:!2023-06-10,6,212-->
