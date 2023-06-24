@@ -16,4 +16,4 @@ sr-ease: 270
 
 My awesome [[neovim (text editor)]] collection of plugins.
 
-Most actual version is `~/.config/nvim/lua/inomoz/packer.lua`.
+Most actual version is <file:///home/inom/.config/nvim/lua/inomoz/packer.lua>
