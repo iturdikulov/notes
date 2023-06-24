@@ -980,7 +980,7 @@ this.
 - [x] [@DebuggingInNe] Debugging In Neovim (ft BashBunni and TJ DeVries) - YouTube
 - [Vim 01 - Основы - YouTube](https://www.youtube.com/watch?v=zNnsNtBF80g)
 - [ ] http://jrmiii.com/attachments/Vim.pdf
-- [ ] describe [packer](~/.config/nvim/lua/inomoz/packer.lua)
+- [ ] describe [packer](file:///home/inom/.config/nvim/lua/inomoz/packer.lua)
 - [ ] Current mail goal: [[my editing workflow]]
 - [ ] https://stackoverflow.com/questions/509690/how-can-you-list-the-matches-of-vims-search
 - [ ] https://github.com/tpope/vim-surround
