@@ -11,16 +11,15 @@ tags:
 
 # Computer Science
 
-> Study of [[computation|computation]], automation, and information. Computer
-> [[science|science]] spans theoretical disciplines (such as
-> [[algorithm|algorithms]], theory of computation, information theory, and
-> automation) to practical disciplines (including the design and implementation
-> of hardware and [[computer software|software]]). Computer science is generally
-> considered an academic discipline and distinct from computer programming which
-> is considered to be a technical field. Algorithms and
-> [[data structure|data structures]] are central to computer science.
->
-> -- [Wikipedia](https://en.wikipedia.org/wiki/Computer_science)
+> Study of [[computation]], automation, and information. Computer
+> [[science]] spans theoretical disciplines (such as [[algorithm|algorithms]],
+> theory of computation, information theory, and automation) to practical
+> disciplines (including the design and implementation of hardware and
+> [[computer software|software]]). Computer science is generally considered an
+> academic discipline and distinct from computer programming which is considered
+> to be a technical field. [[algorithm|Algorithms]] and [[data structure]] are
+> central to computer science.\
+> —&thinsp;<cite>[Wikipedia](https://en.wikipedia.org/wiki/Computer_science)</cite>
 
 Computer science connect theory (computation, automation, information) with real
 world practice (software and hardware). In Russian, it's known as
@@ -32,4 +31,5 @@ In computer science central role plays [[algorithm|algorithms]] and
 I think knowing computer science help to write effective [[code]] (goal of good
 [[programmer (software developer)], which I want to be]).
 
-My plan to learn CS is here: [[how do I study computer science]].
+I described how I learn computer science here: [[how do I study computer
+science]].
