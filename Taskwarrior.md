@@ -13,7 +13,10 @@ tags:
 > gets out of your way.\
 > —&thinsp;<cite>[Taskwarrior](https://taskwarrior.org/)</cite>
 
+Generally Taskwarrior is CLI To-Do list manager.
+
 Features:
+- plain text format (avoid proprietary formats)
 - cross-platform
 - [[open-source]]
 - [[command-line interface]], TUI with vit
