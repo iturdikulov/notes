@@ -972,7 +972,8 @@ If you need markdown links, use ==`url_to_markdown.sh`== script. TODO: automate
 this.
 <!--SR:!2023-06-06,2,228-->
 
-`C-SPC`::switch project using `kitty sessionizer` [script](~/.local/bin/kitty-sessionizer.sh)
+`C-SPC`::switch project using `kitty sessionizer`
+[script](file:///home/inom/.local/bin/kitty-sessionizer.sh)
 
 ## Resources
 
