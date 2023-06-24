@@ -17,8 +17,8 @@ some methodical materials from teachers. I started to read after 9th grade (1
 year later) and this give me my initial knowledge about computer science, basic
 algorithms, Visual Basic and office programs. And I think here was sort
 observation of internet/web technologies. Currently, I think better to dive into
-computer science with [[papis/2f5f35f6a9f0bf0c8b514e6c119de480-petzold-charles/notes]] which give much
-more fundamental knowledge.
+computer science with @CodeTheHiddePetzol2000 which give much more fundamental
+knowledge.
 
 My next book, which I found useful is "The C Programming Language"
 [@BrianWKernighanProgrammingLanguage1988]. I read it and do exercises from it.
@@ -30,9 +30,9 @@ tutorials/documentation to write better Python code.
 
 ## Conventions
 
+- LOOP - I work with it every day or period, TODO: need better describe/timing.
 - TODO - I want to work with it sometimes in the future.
-- NEXT - I want to work with it ASAP.
-- NOW - I work with it now.
+- NEXT - I want to work with it ASAP or work it now.
 - DONE - I finished basic work with it. But I can learn flashcards or do
   exercises from it.
 - KILL - I don't want to work with it (maybe I will change my mind in the
@@ -56,8 +56,8 @@ books not directly related to computer science.
 
 ## Level 1
 
-- NOW: [[papis/9c8a1a90d37c313ce0809814e3c99f82-kernighan-brian-w./notes]] basic reading
-- NOW: [[papis/9c8a1a90d37c313ce0809814e3c99f82-kernighan-brian-w./notes]] exercises, but I do it rarely
+- NOW: @TheCProgrammiKernig1988 basic reading
+- NOW: @TheCProgrammiKernig1988 exercises, but I do it rarely
   right now, to save time for other things.
 - NOW: [[papis/14f60db29650af4d6edb2aef6d5539da/notes]], to refresh knowledge
 - NOW: [[comprehensive python cheatsheet]], I'm writing flashcards from it, I

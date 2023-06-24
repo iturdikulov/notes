@@ -40,4 +40,5 @@ Reasons why I use it:
 - [Picture In Picture](https://chrome.google.com/webstore/detail/picture-in-picture-extens/hkgfoiooedgoejojocmhlaklaeopbecg),
   to watch videos in a floating window (always on top).
 
-TODO: add flags and settings, and [config](~/.config/chromium-flags.conf).
+TODO: add flags and settings, and
+[config](file:///home/inom/.config/chromium-flags.conf).

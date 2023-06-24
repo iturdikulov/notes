@@ -26,5 +26,5 @@ databases, game development, utilities, etc.
 
 ## Learning resources
 
-- [[papis/9c8a1a90d37c313ce0809814e3c99f82-kernighan-brian-w./notes]]
-- [[papis/6f54b541f411cd3867159abbed2f6373-muratori-casey/notes]]
+- @TheCProgrammiKernig1988
+- @HandmadeHeroMurato2014
