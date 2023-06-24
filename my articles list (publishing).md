@@ -34,7 +34,31 @@ some will be just a link.
 
 ### Reading
 
+- [ ] https://myst-parser.readthedocs.io/en/latest/syntax/typography.html
+- [ ]
+https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/removing-sensitive-data-from-a-repository
+- [ ] https://www.youtube.com/watch?v=YFlC6RL1MmM
+- [ ] https://prodia.com/
+- [ ] [pre-commit](https://pre-commit.com/) note
+- [ ] https://webuxlab.com/en/projects/vm-passthrough-parsec
+- [ ] https://docs.onlykey.io/usersguide.html
+- [ ] https://github.com/pallets/flask
+- [ ]
+  https://aur.archlinux.org/packages/freetube-bin#:~:text=Package%20Details%3A-,freetube%2Dbin,-0.18.0%2D1
+- [ ] https://www.youtube.com/watch?v=RoHI83C9Fyk interview
+- [ ]
+  [justfoolingaround/animdl anime downloader and streamer](https://github.com/justfoolingaround/animdl)
+- [ ]
+  [My Inventions Nikola Tesla](https://archive.org/details/MyInventionsNikolaTesla/page/n29/mode/2up)
+- [ ] [Crafting Interpreters](http://craftinginterpreters.com/)
+- [ ] check book "Inko Ai Takita, Liz Staley - Learn Clip Studio Paint"
+- [ ]
+  https://www.digitalocean.com/community/tutorials/how-to-use-traefik-v2-as-a-reverse-proxy-for-docker-containers-on-ubuntu-20-04
 - [ ] https://logosbynick.teachable.com/
+- [ ]: tj videos pack
+  * https://www.youtube.com/watch?v=v3o9YaHBM4Q
+  * https://www.youtube.com/watch?v=9gUatBHuXE0
+  * https://www.youtube.com/watch?v=HlfjpstqXwE
 - [ ] check aliases
       https://github.com/8carlosf/dotfiles/blob/master/bash/.bashrc#L34
 - [ ] android backup setup https://github.com/NeoApplications/Neo-Backup
