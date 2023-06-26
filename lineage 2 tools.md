@@ -69,6 +69,27 @@ NV - (NPC Viewer) просмотр нпс (всех нпс, можно погу�
 
 
 ## Client Side stuff
+
+winetricks requirements:
+> export WINEARCH=win32
+> winetricks vcrun2005 vcrun2008 vcrun2010 vcrun2012 vcrun2013 vcrun2015
+> wine system/l2.exe
+> winetricks corefonts
+> winetricks sandbox
+> winecfg and configure drivers
+
+Kill game guard (high-five), [method](https://i.imgur.com/tQswxD4.png)
+
+Requirements:
+- xpeviewer
+- https://github.com/WerWolv/ImHex/releases
+- hex editor (I use <https://github.com/RaafatTurki/hex.nvim>)
+
+1. Open in РЕ Editor core.dll (system\core.dll)
+2. Go to exports → `?GL2UseGameGuard@@3HA` (`046c`)
+3. Go to hex and get offset, in my case: `000e0db4`
+4. Open in hex editor core.dll and go to offset
+
 http://l2maxi.ru/java/faq/1697-manual-redaktirovanie-modeley-ukx-v-lineagenormalnyy.html
 https://maxcheaters.com/topic/240179-collection-l2-shares-updated-07042023google-drive/
 https://www.youtube.com/watch?v=IMMynGIoSR0 - effect
