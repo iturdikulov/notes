@@ -15,7 +15,8 @@ sr-ease: 270
 # Data structures
 
 Analyzing the number of steps an operation takes is the heart of understanding
-the performance of data structures.
+the performance of data structures. Choose right data structure can greatly
+impact on performance of your program.
 
 Data itself is just basically numbers and strings (in computers all data finally
 stored as [[bit]] sequences).

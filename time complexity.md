@@ -15,8 +15,8 @@ sr-ease: 270
 
 # Time complexity
 
-Measuring the speed of an operation (how many steps' operation will take) is also
-known as measuring its ==time complexity==.
+Measuring the speed of an operation (how many steps' operation will take) is
+also known as measuring its ==time complexity==.
 <!--SR:!2023-07-04,10,230-->
 
 When we measure how “fast” an operation takes, we do not refer to how fast the

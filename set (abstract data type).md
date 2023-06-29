@@ -4,6 +4,7 @@ draft: true
 tags:
 - inbox
 - definition
+- CS-tip
 sr-due: 2023-05-20
 sr-interval: 3
 sr-ease: 266
@@ -21,12 +22,12 @@ So main set feature is that it can store ==only unique values==.
 
 Set seems so similar (especially array-based set) to the
 [[array (computer science)|array]] but operations performed on the set are
-different, mainly on insert operation. (different efficiency, because we have
-non-duplicating constraint). But it perfectly replaces array, when you need
-unique data.
+different, mainly on **insert operation**. It has different efficiency, because
+we have non-duplicating constraint. But it perfectly replaces array, when you
+need unique data.
 
-Sets are useful when you need to ensure that you don't have duplicate data.
-Suitable for any lists of unique data (phone numbers, email addresses, etc.).
+Sets can be suitable for any lists of unique data (phone numbers, email
+addresses, etc.).
 
 Reading from a set take ==one step==, like array.
 
@@ -36,15 +37,18 @@ set==, like array.
 Deletion from set takes ==$N$ steps, delete and move data to the left to close
 gap==, like array.
 
-Insertion is different. You need to ensure that you don't have duplicate data
-and this means every insertion into a set ==first requires a search operation==.
+**Insertion** is different. You need to ensure that you don't have duplicate
+data and this means every insertion into a set
+==first requires a search operation==.
 
-In best case insertion into set takes: ? Insert into end of set. $N + 1$ steps.
-$N$ steps → search, 1 step to insert into end.
+In best case insertion into set takes:
+?
+Insert into end of set. $N + 1$ steps. $N$ steps → search, 1 step to insert into
+end.
 
-In worst case insertion into set takes: ? Insert into beginning of set. In
-contrast to insertion into the begging of a regular array
-($N+1), insertion
-can take $2N + 1$ steps. Formula: (search $N$ steps) + (shift
-$N$ steps) + (insert 1 step). In other words we add search operation to insert
-value into set.
+In worst case insertion into set takes:
+?
+Insert into beginning of set is worst case scenario. In contrast to insertion
+into the begging of a regular array ($N+1), insertion can take $2N + 1$ steps.
+Formula: (search $N$ steps) + (shift $N$ steps) + (insert 1 step). In other
+words we add search operation to insert value into set.
