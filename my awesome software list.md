@@ -353,3 +353,6 @@ Check also [[my shell scripts]] and
 TODO: actualize this list
 - [[Termux]
 - [[Tachiyomi]]
+
+## TODO:
+- `faketime` - manipulate the system time for a given command
