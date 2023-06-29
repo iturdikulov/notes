@@ -27,12 +27,12 @@ Good checklist for wake-up:
 ## 2. Project A chunk 1
 
 Main goals:
-- Opportunity to **work hard**.
-- Focus on main tasks, go from hard to easy.
-- Limit timing for tasks.
-- Break work into 20–35-40 minutes sessions.
-- Do 5–10 minutes breaks.
-- Drink more water during the day.
+- [ ] Opportunity to **work hard**.
+- [ ] Focus on main tasks, go from hard to easy.
+- [ ] Limit timing for tasks.
+- [ ] Break work into 20–35-40 minutes sessions.
+- [ ] Do 5–10 minutes breaks.
+- [ ] Drink more water during the day.
 
 ## 3. Lunch chunk
 
