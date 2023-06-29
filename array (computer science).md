@@ -15,6 +15,8 @@ sr-ease: 230
 
 # Array (computer science)
 
+Array is one of most basic data structure in computer science.
+
 ## Array (data structure)
 
 > Array is a [[data structure]] consisting of a collection of elements (values
@@ -26,12 +28,12 @@ sr-ease: 230
 >
 > -- <https://xlinux.nist.gov/dads/HTML/array.html>
 
-Array in memory is a **contiguous** block of memory locations. Array usually at
-least has an **address** in memory and **size** (number of items in array). Each
-element of array has an index (location of elements or address), and first index
-is `0`.
+Array in memory is a **contiguous** block of memory locations (which allocated
+when you create it). Array usually at least has an **address** in memory and
+**size** (number of items in array). Each element of array has an index
+(location of elements or address), and first index is `0`.
 
-size_of_array = last_index + 1
+size_of_array = ==last_index + 1==
 
 | 0   | 1   | 2   | 3   | 4   | 5   |
 | --- | --- | --- | --- | --- | --- |
@@ -40,7 +42,11 @@ size_of_array = last_index + 1
 |     |     |     | `10`  |     |     |
 |     |     |     |     | `6`   |     |
 |     | `7`   |     |     | `11`  |     |
-*Graphical representation of array in memory*
+*Graphical representation of array in memory*\
+How many total items in this array? Is empty items has address in memory?
+?
+6*5 = 30
+yes, empty items has address in memory
 
 ## Array (data type)
 
@@ -107,57 +113,4 @@ Read value at index 3:
 
 Examples, how to use [[array in programming languages]].
 
-## Array operations
-
-Array reading is
-?
-Looking up (access/retrieve) a value at a particular index in an array.
-It's efficient and fastens operation, since require only one step.
-
-Array reading require ==only one== step, because we can retrieve value by some
-computation (array address + index).
-
-### Array search operation
-
-? Looking to see if a particular value exists within the array, and if so, at
-which index.
-
-
-Basic search operation is "==linear==" search. We check each cell one at time
-until we find the value we are looking for (or until we read all cells). Steps =
-`N` cells in array. Search is much slower than read (less efficient).
-
-
-In other words it's search for an index of a value in the array, sort of inverse
-of reading. We provide a value to the computer and asking it to return the index
-of that value's location.
-
-### Array insert operation
-
-? Adding a new value to an additional slot within the array.
-
-
-Efficiency depends on where we insert the value.
-
-- End - one step, we know index where to place, because we have beginning
-  address and size of array. But keep in mind, we need to allocate more memory
-  for array while inserting.
-- Beginning or in the middle, this operation require shifting data. In the worst
-  case (begging of array) it's $N+1$ steps, where $N$ is a number of items in
-  array.
-
-How many steps will take insertion in the worst case? ? $N+1$ steps, where $N$
-is a number of items in array.
-
-
-## Array delete operation
-
-? Removing a value from the array. In other words process of eliminating the
-value at a particular index.
-
-
-In worst case deletion operation will take ? $N$ steps, where $N$ is a number of
-items in array. One step to delete value, and $N-1$ (we don't need to shift
-deleted value) steps to shift data.
-
-
+Array operations explained in [[array operations]].
