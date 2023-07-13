@@ -26,3 +26,25 @@ sr-ease: 228
 
 I like ideas of GTD productivity system. I not read the book, but I use daily
 GTD method.
+
+General ideas:
+- Inbox
+- Next actions
+- Waiting for
+- Projects
+- Some day/maybe
+
+## Inbox
+
+Inbox is where you can QUICK as possible add all your tasks, ideas, etc...
+Using Taskwarrior I can add task through special scratch window, bind to
+<kbd>s-grave</kbd> keybinding.
+
+`next`, task which you can do now (or anytime). If you're not planning do this
+task, you need to move them into `wailt` list or `someday` list.
+
+`wait`, task which you can't do now, but you need to do it in the future.
+Taskwarrior allow hide this tasks from `next` list, but you can see them by
+using `task list all`.
+
+
