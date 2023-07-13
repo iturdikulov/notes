@@ -42,9 +42,8 @@ processing.
 
 In computing, an algorithm is a precise list of operations that could be done by
 a [[Turing machine]]. For the purpose of [[computation|computing]], algorithms
-are written in [[pseudocode]], [[flowchart|flow charts]], or
-[[programming language]].
+are written in [[pseudocode]], [[flowchart]], or [[programming language]].
 
 Sometimes, it’s possible to have two different algorithms that accomplish the
-same task ()[[computational complexity]]. One algorithm can be faster than the
-other by orders of magnitude.
+same task [[computational complexity]]. One algorithm can be faster than the
+other by *orders of magnitude*.
