@@ -132,8 +132,12 @@ on my [[smartphone|smartphone]].
 - `Pilgrims`
 - `MOLEK-SYNTEZ`
 - `Screeps: World`
+- `Brotato`
 
 ## Modding
+
+### Manual (steam)
+
 
 ### Skyrim
 
@@ -228,3 +232,6 @@ essential or "Highly recommended" mods.
   Activate to something other than "E" won't also ghost-change Use in
   menus to that other key.
 
+
+### Gothic 1
+https://www.reddit.com/r/SteamDeck/comments/uxtomx/enjoying_gothic_on_my_steamdeck/
