@@ -34,6 +34,7 @@ on my [[smartphone|smartphone]].
 ## All Games list
 
 - [[lineage 2 tools]], long story..., 9.7/10
+- ~~`Brotato`~~, completed, too time-consuming, I 8/10
 - ~~`Dark Souls Prepare to Die Edition`~~, too time-consuming, 8/10 (bad port,
   but overall good game)
 - [@Factorio2023], completed, 9.5/10 sandbox experience
@@ -132,7 +133,6 @@ on my [[smartphone|smartphone]].
 - `Pilgrims`
 - `MOLEK-SYNTEZ`
 - `Screeps: World`
-- `Brotato`
 
 ## Modding
 
