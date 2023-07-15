@@ -22,3 +22,9 @@ Features:
 - integrations, most popular Timewarrior and Taskserver, TODO: add note/use it
 
 Some general notes available in @DiveIntoTaskwarriorTomasBabej.
+
+## Resources
+
+- [Taskwarrior - 30-Second Tutorial](https://taskwarrior.org/docs/30second.html)
+- [Taskwarrior - Usage Examples](https://taskwarrior.org/docs/examples/)
+- [Taskwarrior - Best Practices](https://taskwarrior.org/docs/best-practices/)
