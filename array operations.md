@@ -14,10 +14,10 @@ There are four basic operations that can be performed on an
 ## Reading
 
 Array reading is ==looking up (access/retrieve)== a value at a particular index
-in an array. It's efficient and fastens operation, since require only one step.
+in an array. It's efficient and fastens operation, since require only one step. <!--SR:!2023-07-16,3,250-->
 
 Array reading require ==only one== step, because we can retrieve value by some
-computation (array address + index).
+computation (array address + index). <!--SR:!2023-07-16,3,250-->
 
 ![shopping list array](./!shopping_list_array.excalidraw.svg)
 *Schematic array representation in memory*
@@ -27,7 +27,7 @@ Facts about computers and arrays:
 jump to `1010` address, we can read "apples" value.
 - When computer allocate an array, it makes note at which memory addresses the
 array begins, and knowing that address and index of any element, computer can
-calculate the memory address (simply addition) of that element in ==one step==.
+calculate the memory address (simply addition) of that element in ==one step==. <!--SR:!2023-07-16,3,250-->
 
 ## Searching
 
@@ -46,7 +46,7 @@ of that value's location.
 
 ## Insertion
 
-Insertion is operation of?
+Array insertion is operation of?
 ?
 Adding a new value to an additional slot within the array.
 

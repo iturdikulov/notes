@@ -52,3 +52,4 @@ for x in array {
 In Python used ==[[list (abstract data type)]]== not arrays, and here no
 restrictions on the type of items stored in the array, and its size is not
 fixed.
+<!--SR:!2023-07-16,3,250-->

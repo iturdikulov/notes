@@ -69,6 +69,7 @@ to `n-1` where `n` is a number of items in array.
 
 In general array is ==list of data elements==.
 Size of an array is ==how many data elements the array holds==.
+<!--SR:!2023-07-15,2,230-->
 
 The index of an array is the number that identifies ==where a piece of data
 lives== inside the array.
@@ -114,3 +115,11 @@ Read value at index 3:
 Examples, how to use [[array in programming languages]].
 
 Array operations explained in [[array operations]].
+
+## Ordered array
+
+Ordered array is same as array, but with one difference: elements in ordered
+array are ==sorted in some order== (usually ascending or descending), and when you
+modify array, you must keep it sorted.
+
+In worst case insertion in ordered array is ==$N+2$ steps==.

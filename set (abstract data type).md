@@ -30,6 +30,7 @@ Sets can be suitable for any lists of unique data (phone numbers, email
 addresses, etc.).
 
 Reading from a set take ==one step==, like array.
+<!--SR:!2023-07-16,3,266-->
 
 Searching a set takes up to ==$N$ steps, where $N$ is a number of items in the
 set==, like array.
@@ -45,10 +46,11 @@ In best case insertion into set takes:
 ?
 Insert into end of set. $N + 1$ steps. $N$ steps → search, 1 step to insert into
 end.
+<!--SR:!2023-07-14,1,246-->
 
 In worst case insertion into set takes:
 ?
 Insert into beginning of set is worst case scenario. In contrast to insertion
-into the begging of a regular array ($N+1), insertion can take $2N + 1$ steps.
+into the begging of a regular array ($N+1$), insertion can take $2N + 1$ steps.
 Formula: (search $N$ steps) + (shift $N$ steps) + (insert 1 step). In other
 words we add search operation to insert value into set.
