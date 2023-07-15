@@ -9,7 +9,7 @@ created: 2023-07-14
 
 A series where author show how to use taskwarrior to implement GTD.
 
-## GTD with Taskwarrior, Part 1: Intro
+## Intro
 
 Before learning this course author recommended to check what GTD is. Here more
 details about GTD system: http://hamberg.no/gtd
@@ -40,3 +40,8 @@ mark task as done, you can use `task done <ID>`.
 
 You can specify multiple IDs, separated by comma or a contiguous range of IDs:
 `task 1,3,5 done` or `task 1-5 done`.
+
+## Collection
+
+Collection is a capture process. Where you can save all your incoming tasks,
+this allows free your mind from remembering all this tasks.
