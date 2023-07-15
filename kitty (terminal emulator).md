@@ -31,46 +31,116 @@ tags:
 > extensible, so that new features can be added in the future with relatively
 > little effort.
 
+TODO: https://sw.kovidgoyal.net/kitty/overview
+
 ## Shortcuts
 
-Open URL in web browser
-?
-`C-S-e`
+Kitty support any operation with keyboard (which is cool) and also supports all
+shortcuts customization.
 
-Edit kitty.conf
-?
-`C-S-f2`
+`Mod` key in my configuration is `Ctrl+Shift`.
 
-Reload kitty.conf
-?
-`C-S-f5`
+## Scrolling
 
-Go to specific tab
-?
-`C-M-n`
+These shortcuts are working only in terminal mode (not in any TUI/Full screen
+console application).
 
-Close current tab
-?
-`C-S-q`
+Line up / Line down::`Mod+k` / `Mod+j`
 
-Move tab forward
-?
-`C-S-.`
+Page up / Page down::`Mod+u` / `Mod+d`
 
-Move tab backward
-?
-`C-S-,`
+Top / Bottom::`Mod+\` / `Mod+/`
+
+Previous / Next shell prompt vertical position::`Mod+z` / `Mod+x`
+
+Browse scrollback in less::`Mod+h`
+
+Browse last cmd output::`Mod+g`
+
+## Tabs
+
+New tab::`Mod-t`
+
+Close tab::`Mod-q`
+
+Next tab / Previous tab::`C-<tab>` / `C-S-<tab>`
+
+Switch layout::`Mod-l`
+
+Go to specific tab::`C-M-<tab number>`
+
+Close current tab::`Mod-q`
+
+Move tab forward / backward::`Mod-.` / `Mod-,`
+
+Set tab title::`C-S-M-t`
+
+## Windows
+
+New window::`Mod-RET`
+
+New OS window::`M-S-RET`, it's my custom shortcut
+
+Close window::`s-S-c`, it's my custom shortcut
+
+Resize window::`Mod-r`
+
+Next window / Previous window::`Mod+]` / `Mod+[` * TODO: need rebind
+
+Move window forward::`Mod+f`
+
+Move window backward::`Mod+b`
+
+Move window to top `Mod+\``
+
+Visually focus window (with number)::`Mod+F7`
+
+Visually swap window (with number)::`Mod+F8`
+
+Focus specific window::`Mod+<window number>` (1-9)
+
+TODO: check other window shortcuts
+
+## Other
+
+Increase font size::`Mod-equal`
+Decrease font size::`Mod-minus`
+Restore font size::`Mod-backspace`
+
+Open URL in web browser::`Mod-e`
+
+Edit kitty.conf::`Mod-F2`
+
+Reload kitty.conf::`Mod-F5`
+
+Show help::`Mod-F1`
+
+Copy to clipboard::`Mod-c`
+
+Paste from clipboard::`Mod-v`
+
+Paste from selection::`Mod-s`
+
+Pass selection to program::`Mod-o` ?
+
+Toggle full-screen::`Mod-F11`
+
+Input Unicode character::`C-M-u`, customized
+
+Reset the terminal::`Mod-delete` ?
+
+Edit kitty.conf::`Mod-f2`
+Reload kitty.conf::`Mod-f5`
+Debug kitty.conf::`Mod-f6`
+
+Open a kitty shell::`Mod-escape`
 
 ## Custom shortcuts
 
-Switch project using sessionizer
-?
-`C-space`
+Switch project using sessionizer::`C-space`
 
-Find tab
-?
-`C-M-f`
+Switch project using sessionizer and ignore duplicate tabs::`C-S-space`
 
-Start keyboard-driven text selection as a kitten, using [kitty_grab](https://github.com/yurikhan/kitty_grab)
-?
-`C-M-c`
+Find tab::`C-M-F`
+
+Start keyboard-driven text selection as a kitten, using [kitty_grab](https://github.com/yurikhan/kitty_grab)::`C-M-c`
