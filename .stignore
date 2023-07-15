@@ -78,7 +78,6 @@ tmp_uploads
 trash
 var/lib/lxcfs/
 ~$*
-books/
-.git/
-*.obsidian
-.obsidian/
+books
+.git
+.obsidian
