@@ -24,6 +24,7 @@ Check also [[my shell scripts]] and
   [[rust (programming language)|more info]]
 - [Neovim](https://neovim.io/) - vim-fork focused on extensibility and agility,
   [[neovim (text editor)|more info]]
+- [[Taskwarrior]] - command-line to-do list manager
 
 ### Tier 2
 
@@ -356,3 +357,5 @@ TODO: actualize this list
 
 ## TODO:
 - `faketime` - manipulate the system time for a given command
+- `antimicro` - bind keyboard and mouse actions to your gamepad or joystick
+https://github.com/AntiMicroX/antimicrox-profiles/tree/master/applications
