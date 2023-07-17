@@ -122,4 +122,25 @@ Ordered array is same as array, but with one difference: elements in ordered
 array are ==sorted in some order== (usually ascending or descending), and when you
 modify array, you must keep it sorted.
 
-In worst case insertion in ordered array is ==$N+2$ steps==.
+Ordered array are identical to "classic" array, but here only one difference,
+whenever you modify the array, you must keep it in ==sorted order==.
+
+And this brings some specific rules. For example, we want to add 75 into ordered
+array at some point
+
+```
+3.17.80.202          # initial array, we want to add 75
+*.**.17<75<80.**.*** # 3 steps, we go through array, to find right place for 75
+                     # this steps are called comparison
+
+3.17.80.202.[ ]      # we allocate memory for new element
+3.17.80.[ ].202      # we shift right all elements after 75
+3.17.[ ].80.202      # here at least 2 operations?
+
+3.17.75.80.202       # new ordered array
+```
+When inserting into an ordered array, we need to always conduct a ==search==
+before the actual insertion to determine the correct spot for the insertion.
+
+In the worst case when using linear search, we spent ==$N+2$== steps to insert
+new value into ordered array.
