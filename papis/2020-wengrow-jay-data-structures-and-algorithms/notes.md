@@ -217,18 +217,38 @@ Analyze data structure before use them. Choose most suitable.
 
 Placed some notes here [[algorithm]].
 
+
 ## Ordered Arrays /42
-
-
 ## Searching an Ordered Array /44
-
 ## Binary Search /46
-
 ## Binary Search vs. Linear Search /51
+
+Placed some notes in [[binary search algorithm]]
 
 ## Wrapping Up /54
 
 ## Exercises /54
+
+1. How many steps would it take to perform a linear search for the number
+8 in the ordered array, [2, 4, 6, 8, 10, 12, 13] ?
+   > I think 4, on step 4 we compare 8 with search value and return index 3.
+   Linear search on this array would take four steps. We start at the beginning
+   of the array and check each element from left to right. Because the 8 is the
+   fourth number, we’ll find it in four steps
+2. How many steps would binary search take for the previous example?
+   > Probably 1, because we split array to half, and we found value instantly in
+   > 1 step, by jump to index #3. But maybe it's depends on implementation.
+   Binary search would take just one step in this case. We start the binary
+   search at the middlemost element, and the 8 just happens to be the
+   middlemost element!
+3. What is the maximum number of steps it would take to perform a binary
+search on an array of size 100,000?
+   > With my computations, probably 17, round log2(n).
+   To solve this, we need to count how many times we halve 100,000 until
+   we get down to 1. If we keep dividing 100,000 by 2, we see that it takes
+   us 16 times until we get down to about 1.53.
+   This means a worst-case scenario would take **about 16 times**.
+
 
 # 3. O Yes! Big O Notation /55
 
