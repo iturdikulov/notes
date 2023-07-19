@@ -19,3 +19,5 @@ planning to use it
 
 
 https://serverfault.com/questions/1069617/full-system-backup-on-a-remote-server-with-borg
+
+https://justin.abrah.ms/computer-science/understanding-big-o-formal-definition.html
