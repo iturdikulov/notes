@@ -33,7 +33,8 @@ when you create it). Array usually at least has an **address** in memory and
 **size** (number of items in array). Each element of array has an index
 (location of elements or address), and first index is `0`.
 
-size_of_array = ==last_index + 1==
+size_of_array = last_index ==+ 1==
+<!--SR:!2023-07-21,2,236-->
 
 | 0   | 1   | 2   | 3   | 4   | 5   |
 | --- | --- | --- | --- | --- | --- |
@@ -47,6 +48,7 @@ How many total items in this array? Is empty items has address in memory?
 ?
 6*5 = 30
 yes, empty items has address in memory
+<!--SR:!2023-07-21,2,239-->
 
 ## Array (data type)
 
@@ -69,7 +71,7 @@ to `n-1` where `n` is a number of items in array.
 
 In general array is ==list of data elements==.
 Size of an array is ==how many data elements the array holds==.
-<!--SR:!2023-07-15,2,230-->
+<!--SR:!2023-07-27,8,230!2023-07-21,2,239-->
 
 The index of an array is the number that identifies ==where a piece of data
 lives== inside the array.
@@ -77,6 +79,7 @@ lives== inside the array.
 In most programming languages, arrays are ==zero-indexed==, meaning that the
 first element of the array is at index 0, the second element is at index 1, and
 so on.
+<!--SR:!2023-07-20,1,219-->
 
 ```mermaid
 graph LR
@@ -88,8 +91,9 @@ graph LR
 
 When you create array ([[initialization (programming)]]) you must set array size
 (number of items stored in the array). Size of array is fixed. Also, computer
-==allocate some [[computer memory|memory]]== for array during its
+==allocate some [[computer memory|memory]]== to store array, during its
 initialization.
+<!--SR:!2023-07-21,2,236-->
 
 
 When allocating an array the computer always keeps track: ? Beginning address
@@ -119,17 +123,18 @@ Array operations explained in [[array operations]].
 ## Ordered array
 
 Ordered array is same as array, but with one difference: elements in ordered
-array are ==sorted in some order== (usually ascending or descending), and when you
-modify array, you must keep it sorted.
+array are sorted ==in some order== (usually ascending or descending), and when
+you modify array, you must keep it sorted.
 
 Ordered array are identical to "classic" array, but here only one difference,
 whenever you modify the array, you must keep it in ==sorted order==.
+<!--SR:!2023-07-21,2,239-->
 
 And this brings some specific rules. For example, we want to add 75 into ordered
 array at some point
 
 ```
-3.17.80.202          # initial array, we want to add 75
+3.17.80.202                 # initial array, we want to add 75
 *.**.17<75<80.**.*** # 3 steps, we go through array, to find right place for 75
                      # this steps are called comparison
 
@@ -141,10 +146,13 @@ array at some point
 ```
 When inserting into an ordered array, we need to always conduct a ==search==
 before the actual insertion to determine the correct spot for the insertion.
+<!--SR:!2023-07-21,2,236-->
 
 In the worst case when using linear search, we spent ==$N+2$== steps to insert
 new value into ordered array. But with [[binary search]] we can insert elements
 more effectively.
+<!--SR:!2023-07-20,1,216-->
 
 Main advantage of ordered array is that we can use ==[[binary search]]== algorithm
 to find elements in array very efficiently.
+<!--SR:!2023-07-21,2,239-->

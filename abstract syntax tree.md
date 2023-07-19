@@ -20,6 +20,7 @@ sr-ease: 270
 > (often source code) written in a formal language. Each node of the tree
 > denotes a construct occurring in the text.\
 > —&thinsp;<cite>[Wikipedia](https://en.wikipedia.org/wiki/Abstract_syntax_tree)</cite>
+<!--SR:!2023-07-20,1,250-->
 
 Abstract syntax trees are used in program analysis and program
 transformation systems. As example Euclidean algorithm is shown below.

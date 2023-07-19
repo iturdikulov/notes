@@ -23,4 +23,5 @@ When we measure how “fast” an operation takes, we do not refer to how fast t
 operation takes in terms of pure time, but instead in how many ==steps== it
 takes. Measuring operations by steps, allow us to compare operations speed
 independently of the hardware they are run on.
+<!--SR:!2023-07-22,3,258-->
 
