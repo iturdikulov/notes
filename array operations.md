@@ -31,6 +31,8 @@ calculate the memory address (simply addition) of that element in ==one step==. 
 
 ## Searching
 
+### Linear search
+
 Reading is looking to see if a particular value ==exists== within the array, and
 if so, at which index.
 
@@ -43,6 +45,55 @@ Search is much slower than read (less efficient). Maximum steps are `N`, where
 In other words, search for an index of a value in the array, sort of ==inverse==
 of reading. We provide a value to the computer and asking it to return the index
 of that value's location.
+
+```ruby
+def linear_search(array, search_value)
+    # Warning this example designed for sorted array.
+    # We iterate through every element in the array:
+    array.each_with_index do |element, index|
+        # If we find the value we're looking for, we return its index:
+        if element == search_value
+            return index
+
+        # If we reach an element that is greater than the value
+        # we're looking for, we can exit the loop early:
+        elsif element > search_value
+            break
+        end
+    end
+
+    # We return nil if we do not find the value within the array:
+    return nil
+end
+
+i = linear_search([3, 17, 75, 80, 202, 300], 202)
+puts i
+```
+
+For both kinds of arrays (sorted and unsorted), if they contain N elements,
+linear search can take up to ==N steps==. But if you use a binary search, which
+can be used with ordered arrays, effectiveness of search will raise
+dramatically.
+
+### Binary search for ordered array
+
+NOTE: that binary search is only possible within an ordered array, with classic
+array we need to read all cells.
+
+Example of how binary search works:
+```
+# input data: ordered array with 9 elements, need find value 7
+
+? ? ? ? ? ? ? ? ?
+        9          # we begin with central cell, wich was calclulated
+? ? ? ? x x x x x  # we eliminated 5 items, because 7 is less than 9
+? 4 ? ?            # we inspect middlemost value (left one)
+x x ? ?            # we eliminated 2 items, because 7 is more than 4
+    6 ?            # so left only 1 cell and we need inspect it
+    x 7            # if here no 7, we not return index, in our case we
+                   # return index #3
+```
+
 
 ## Insertion
 
@@ -58,9 +109,9 @@ Efficiency depends on where we insert the value.
 - End - one step, we know index where to place, because we have beginning
   address and size of array. But keep in mind, we need to allocate more memory
   for array while inserting, which cost some time/operations.
-- Beginning or in the middle, this operation require shifting data. In the worst
-  case (begging of array) it's $N+1$ steps, where $N$ is a number of items in
-  array.
+- Beginning or in the middle, this operation requires shifting data. In the
+worst case (begging of array) it's $N+1$ steps, where $N$ is a number of items
+in array.
 
 Inserting element into array at index means we insert it at the right place of
 that index and shift all elements to the right.
