@@ -110,3 +110,23 @@ p "----------------------"
 p binary_search([3, 17, 22, 75, 80, 202], 202)
 ```
 
+## Compare with linear search
+
+1. array items 3
+   linear search: 3 steps
+   binary search: 2 steps
+2. array items 7
+   linear search: 7 steps
+   binary search: 3 steps (+ 1 step)
+3. array items 15
+   linear search: 15 steps
+   binary search: 4 steps (+ 1 step)
+4. array items 100
+   linear search: 100 steps
+   binary search: 7 steps
+5. array items 10000
+   linear search: 10000 steps
+   binary search: ≈13 steps
+6. array items 1000000
+   linear search: 1000000 steps
+   binary search: 20 steps
