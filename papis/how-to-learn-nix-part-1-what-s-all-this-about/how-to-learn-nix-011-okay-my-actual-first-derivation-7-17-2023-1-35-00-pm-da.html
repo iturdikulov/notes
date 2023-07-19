@@ -1,0 +1,533 @@
+<!DOCTYPE html> <html lang=en style><!--
+ Page saved with SingleFile 
+ url: https://ianthehenry.com/posts/how-to-learn-nix/okay-my-actual-first-derivation/ 
+ saved date: Mon Jul 17 2023 13:35:00 GMT+0600 (Kyrgyzstan Time)
+--><meta charset=utf-8>
+<meta name=viewport content="initial-scale=1,maximum-scale=1">
+<title>How to Learn Nix, Part 11: Okay my actual first derivation</title>
+<link rel=canonical href=https://ianthehenry.com/posts/how-to-learn-nix/okay-my-actual-first-derivation/>
+<style>:root{--box-radius:6px;--outer-box-radius:10px}:root{--content-bg:#fff;--gutter-bg:#eeeef3;--text-fg:#4d4d4c;--table-border-color:#ccc;--separator-color:#6d6d6c;--link:#07c;--link-visited:#751a9a;--blockquote-accent:var(--link);--footnote-accent:#ffd2a3;--subscribe-button-bg:#44e66c;--subscribe-button-fg:#11391b;--media-controls-on:#34b553;--media-controls-contrast:#fff;--inline-code-bg:#f3f3fa;--code-block-bg:#f3f3fa;--aside-bg:#f3f3fa;--aside-warning-bg:#fff5d1;--aside-warning-fg:#ac3233;--palette-red:#c82829;--palette-green:#718c00;--palette-yellow:#eab700;--palette-orange:#f5871f;--palette-blue:#4271ae;--palette-purple:#8959a8;--palette-teal:#3e999f;--palette-white:#fefefe;--palette-black:#000;--palette-text:var(--text-fg);--palette-dim:#8e908c;--highlight-bg:var(--palette-yellow);--highlight-fg:var(--text-fg)}#dmt::before{content:"🌖"}#dmt:hover::before{content:"🌗"}@media (prefers-color-scheme:dark){:root:not(.light-theme){--content-bg:#313233;--gutter-bg:#1d1f21;--text-fg:#d8d4cf;--table-border-color:#ccc;--separator-color:#6d6d6c;--link:rgb(82,183,255);--link-visited:rgb(193,104,229);--blockquote-accent:var(--link);--footnote-accent:#a8612f;--subscribe-button-bg:#44e66c;--subscribe-button-fg:#11391b;--media-controls-on:#44e66c;--media-controls-contrast:#11391b;--inline-code-bg:#3c4044;--code-block-bg:#1d1f21;--aside-bg:#3c4044;--aside-warning-bg:#fff5d1;--aside-warning-fg:var(--palette-red);--palette-red:#cc6666;--palette-green:#b5bd68;--palette-yellow:#f0c674;--palette-orange:#de935f;--palette-blue:#81a2be;--palette-purple:#b294bb;--palette-teal:#8abeb7;--palette-white:#fefefe;--palette-black:#000;--palette-text:var(--text-fg);--palette-dim:#969896;--highlight-bg:var(--palette-yellow);--highlight-fg:var(--palette-black)}:root:not(.light-theme) #dmt::before{content:"🌒"}:root:not(.light-theme) #dmt:hover::before{content:"🌓"}}#dmt{width:30px;text-align:right;padding-right:4px;position:absolute;top:0;bottom:0;right:0;border:none;background-color:inherit;cursor:pointer}*{margin:0;padding:0;font:inherit;box-sizing:border-box}html{background-color:var(--gutter-bg);color:var(--text-fg)}body{font-family:system-ui,sans-serif;font-size:12pt;line-height:1.8;word-wrap:break-word}body:not(.content-page) main>aside{padding:0 var(--content-padding)}body.content-page main,body:not(.content-page) article{background-color:var(--content-bg);border-radius:var(--outer-box-radius);padding:var(--content-padding)}pre{word-wrap:normal}em,i{font-style:italic}sup{font-size:75%}sup a::before{content:"["}sup a::after{content:"]"}h1>a:only-child,h2>a:only-child{display:block}main .subsection-header+.post-list{margin-top:0}strong{font-weight:700}ol,ul{padding-left:3ch}.footnotes>ol{margin-top:1em}.footnotes li:not(.highlight){transition:background-color 1s}hr{border-style:solid;border-width:1.5px 0 0;border-radius:1px;border-color:var(--separator-color)}:not(pre)>code{white-space:pre;background-color:var(--inline-code-bg)}li{padding-left:0}blockquote{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:"";content:none}a,a:active,a:visited{text-decoration:none}a:hover{text-decoration:underline}blockquote{padding:0 0 0 var(--content-padding);border-left:solid 2px var(--blockquote-accent)}aside{--content-padding:0.5em;padding:.5em;border-radius:var(--box-radius);background-color:var(--aside-bg)}a,a:active,header a:visited,footer a:visited,h1 a:visited{color:var(--link)}a:visited{color:var(--link-visited)}a.footnote-ref:visited,a.footnote-backref:visited,.notation-help-link-container a:visited{color:var(--link)}h1{font-size:130%}main *+p,main *+pre,main *+aside,main *+section,main *+article,main *+blockquote,main *+div,main *+ul,main *+hr,main *+h1{margin-top:1em}main pre+div.highlight,main div.highlight+pre{margin-top:1px}main .post-header *+h1{margin-top:0}code{font-family:Menlo,monospace;padding:0 3px;border-radius:2px}pre{background-color:var(--code-block-bg);font-size:11pt;padding:calc(.75*var(--content-padding)) var(--content-padding);line-height:1.3;border-radius:var(--box-radius);overflow-x:scroll;-webkit-overflow-scrolling:touch}pre code{padding:0;border-radius:0;display:inline-block;background-color:initial}p+p{margin-top:1em}body{margin:0 auto;--content-padding:10px;max-width:768px;-webkit-text-size-adjust:100%;position:relative}header{position:relative}header>*{height:48px;line-height:48px}.promo,.promo:visited,.promo:active{display:block;text-align:center;background-color:var(--link);color:var(--code-block-bg);border-radius:0 0 var(--outer-box-radius) var(--outer-box-radius)}header .site-title{font-size:130%}header nav{position:absolute;right:30px;top:0}@media all and (max-width:400px){:root{--outer-box-radius:0}header{text-align:center}header nav{position:static}:not(pre)>code{white-space:pre-wrap}body{--content-padding:10px}#dmt{padding:0;text-align:center;width:40px}}header ul{padding:0}header li{list-style:none;display:inline-block}header a{display:block;height:100%}header li+li{margin-left:1em}footer{padding:2em 0;font-size:.85em;text-align:center}article h1.post-title{font-size:200%}article .post-title a{display:block}article .meta{font-size:90%;font-style:italic}.post-header h1{line-height:1.2em;margin-bottom:.5em}.post-footer{text-align:center}.post-footer a{display:block}ol.post-list{list-style-position:inside;padding:0}.series-rider .series-name{font-style:italic}.highlight{color:var(--palette-text)}.highlight .err{color:var(--palette-red)}.highlight .k{color:var(--palette-purple)}.highlight .n{color:var(--palette-text)}.highlight .o{color:var(--palette-teal)}.highlight .p{color:var(--palette-text)}.highlight .c1{color:var(--palette-dim)}.highlight .kn{color:var(--palette-teal)}.highlight .s{color:var(--palette-green)}.highlight .nb{color:var(--palette-text)}.highlight .no{color:var(--palette-red)}.highlight .ne{color:var(--palette-red)}.highlight .nv{color:var(--palette-red)}.highlight .s2{color:var(--palette-green)}.highlight .si{color:var(--palette-orange)}.highlight .sr{color:var(--palette-green)}.highlight .s1{color:var(--palette-green)}</style>
+<meta property=og:title content="How to Learn Nix, Part 11: Okay my actual first derivation">
+<meta property=og:type content=website>
+<meta property=og:url content=https://ianthehenry.com/posts/how-to-learn-nix/okay-my-actual-first-derivation/>
+<meta name=description content="In which we finally get to use Nix to build some software.">
+<meta property=og:description content="In which we finally get to use Nix to build some software.">
+<meta property=og:image content=https://ianthehenry.com/checkerboard.png>
+<meta name=twitter:creator content=@ianthehenry>
+<meta name=twitter:card content=summary>
+<link type=image/x-icon rel="shortcut icon" href="data:image/vnd.microsoft.icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAHH1uIDShg/xEsZv8GFk3/CSJb/wgZT/8IGU//CBlP/wkiW/8HGE7/CBlP/wkiW/8HIFX/BxhO/wcgVf8OK2t7JDhz/wcfW/8NNn7/CSpq/wkjYf8MJGP/DCJg/w02ef9SqdX/TKHJ/1my2f9Moc3/UqzV/1Cr1v9Pocf/Ditr/xk2cf8KJGL/CjR8/wwva/8RK2r/Cido/w8qa/8LLW//TqjT/1Gnz/9bsNf/Sp/K/1Wt2f9Wrtj/UKjQ/w8xc/8gPHj/Di5w/xk4ef8TL27/Dy5u/xU3fv8QLGv/Ditr/1qy3f9dttv/Yrje/0ecx/9Knsz/U6fQ/1m13f8YN3n/JjZx/wszdv8YOXz/Eilm/xc3e/8dSZT/GDJz/xk/hv9hu+P/WbHZ/1mv1v9Kn8z/WLHd/1212v9ds9n/Eipr/xcqYv8SOX3/GzRz/xQrZ/8aM3D/HEuU/xc0df8fPYD/Yrre/1603P9dt9z/VKvY/1iz4v9etNr/Y73m/xk5fP8cMm3/JEWK/xc0dP8eO3v/Hjd4/ydRnP8WM3P/Gjd3/2bA5/9dtd//Ybng/2K95v9ct+P/Ybnf/2K95/8oS5L/GChg/xxBh/8lSIz/GC5s/yM5ev8hRoz/HTp7/yE6e/9Zsdz/YLzn/2jF7v9ryfL/YLzn/1qu1f9htdz/GDyD/y0/ev9qx/X/acDn/1235v9euun/Yb3r/1665v9owu7/GUOL/yhGh/8nUJL/MkmI/yBFiP8jOHb/MVag/yM+gv8VMGv/acXx/27G7/9szv3/bMb1/2zD6/9vy/X/edf5/yBHjv8yS47/JEuO/zVLiv8nS5D/LkOB/yRXpP8lQoT/H0WI/3fS+P910Pf/b8/8/2bB7/991Pn/eNb+/3nT+P8pS5L/O1GS/ytUnP86UJH/NF2k/zNLjP8sXKv/JkCB/x4+ff+B2/3/etT9/4He//922f//fNf//3TT//991/7/NU6N/zZSkP86Zav/PlWR/zFepv88ZKb/MF2n/yQ/gf8bNXH/fd3//3/b//+K6P//ft///3vV//993f//gdz//0hWlf9FZKX/RmOj/0JXlv9IeMP/QXKz/0Jsuf8eO3z/Hjt2/3vd//+C3v//ju3//3zg//+H4v//guL//4nj//9HXp3/UGur/ztgqf9JYqP/S3G4/05ur/9EbLT/Hjt7/zNJhf+G4///heT//4rq//+E5///iOT//4jr//+G4///UXO0/09iov9EX6H/SWWn/1V5wP9Kaa7/RGSp/ydLj/8NKGCfDShg/x8+d/8RLGb/CBlP/wYWTf8GFEj/CBNH/wooZP8JIlv/CCJd/woWSf8HGE7/ByBV/wwgU/8fO3mfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="><meta http-equiv=content-security-policy content="default-src 'none'; font-src 'self' data:; img-src 'self' data:; style-src 'unsafe-inline'; media-src 'self' data:; script-src 'unsafe-inline' data:; object-src 'self' data:; frame-src 'self' data:;"><style>img[src="data:,"],source[src="data:,"]{display:none!important}</style></head>
+<body class=content-page>
+<a class=promo href=https://janet.guide/ target=_blank><i>psst, hey kid, wanna read a weird programming book</i></a>
+<header>
+<a class=site-title href=https://ianthehenry.com/>Ian Henry</a>
+<nav>
+<ul><li><a href=https://ianthehenry.com/about/>About</a><li><a href=https://ianthehenry.com/posts/>Blog</a><li><a href=https://ianthehenry.com/stuff/>Stuff</a></ul>
+</nav>
+<button id=dmt title="Toggle dark mode"></button>
+</header>
+<main>
+<aside class=series-rider>
+<p>This post is part of the series <a class=series-name href=https://ianthehenry.com/posts/how-to-learn-nix/>How to Learn Nix</a>, a rambling diary in which I work my way through the Nix manual in excrutiating detail.</p>
+</aside>
+<article class=post>
+<div class=post-header>
+<time class=meta datetime=2021-03-09>March 9, 2021</time>
+<h1 class=post-title>
+<a href=https://ianthehenry.com/posts/how-to-learn-nix/okay-my-actual-first-derivation/>How to Learn Nix, Part&nbsp;11:<br>Okay my actual first derivation</a></h1>
+</div>
+<div class=post-content><h1 id=143-arguments-and-variableshttpswebarchiveorgweb20210227145624httpsnixosorgmanualnixstablesec-arguments><a href=https://web.archive.org/web/20210227145624/https://nixos.org/manual/nix/stable/#sec-arguments>14.3. Arguments and Variables</a></h1>
+<p>We open on another annotated code snippet:</p>
+<blockquote>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-nix data-lang=nix><span class=k>rec</span> <span class=p>{</span>
+
+  <span class=n>hello</span> <span class=o>=</span> <span class=kn>import</span> <span class=sr>../applications/misc/hello/ex-1</span> <span class=p>{</span>
+    <span class=k>inherit</span> <span class=n>fetchurl</span> <span class=n>stdenv</span> <span class=n>perl</span><span class=p>;</span>
+  <span class=p>};</span>
+
+  <span class=n>perl</span> <span class=o>=</span> <span class=kn>import</span> <span class=sr>../development/interpreters/perl</span> <span class=p>{</span>
+    <span class=k>inherit</span> <span class=n>fetchurl</span> <span class=n>stdenv</span><span class=p>;</span>
+  <span class=p>};</span>
+
+  <span class=n>fetchurl</span> <span class=o>=</span> <span class=kn>import</span> <span class=sr>../build-support/fetchurl</span> <span class=p>{</span>
+    <span class=k>inherit</span> <span class=n>stdenv</span><span class=p>;</span> <span class=o>...</span>
+  <span class=p>};</span>
+
+  <span class=n>stdenv</span> <span class=o>=</span> <span class=o>...</span><span class=p>;</span>
+
+<span class=p>}</span>
+</code></pre></div></blockquote>
+<p>This is explained as a simplified excerpt from the file <code>pkgs/top-level/all-packages.nix</code>, which seems to be a path in the <code>nixpkgs</code> repository.</p>
+<p>I open that file to see what the full version looks like.</p>
+<p>And it’s not… very similar. It’s a function, not a “set” expression. There’s a bunch of stuff that I can’t understand. I grep for <code>hello</code> and find this:</p>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-nix data-lang=nix><span class=n>hello</span> <span class=err>=</span> <span class=n>callPackage</span> <span class=sr>../applications/misc/hello</span> <span class=p>{</span> <span class=p>};</span>
+</code></pre></div><p>Hmm. Not very similar at all. The manual claims that file is “where all Nix expressions for packages are imported and called with the appropriate arguments,” but I sure don’t… see that.</p>
+<p>Let’s look in the <code>../applications/misc/hello</code> file and see if it’s any better.</p>
+<p>Oh, it’s not a file. It’s a directory, with a <code>default.nix</code>. Fair enough. It looks a <em>little</em> bit like the example from the previous chapter:</p>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-nix data-lang=nix><span class=p>{</span> <span class=n>lib</span><span class=o>,</span> <span class=n>stdenv</span><span class=o>,</span> <span class=n>fetchurl</span> <span class=p>}:</span>
+
+<span class=n>stdenv</span><span class=o>.</span><span class=n>mkDerivation</span> <span class=k>rec</span> <span class=p>{</span>
+  <span class=n>pname</span> <span class=o>=</span> <span class=s2>"hello"</span><span class=p>;</span>
+  <span class=n>version</span> <span class=o>=</span> <span class=s2>"2.10"</span><span class=p>;</span>
+
+  <span class=n>src</span> <span class=o>=</span> <span class=n>fetchurl</span> <span class=p>{</span>
+    <span class=n>url</span> <span class=o>=</span> <span class=s2>"mirror://gnu/hello/</span><span class=si>${</span><span class=n>pname</span><span class=si>}</span><span class=s2>-</span><span class=si>${</span><span class=n>version</span><span class=si>}</span><span class=s2>.tar.gz"</span><span class=p>;</span>
+    <span class=n>sha256</span> <span class=o>=</span> <span class=s2>"0ssi1wpaf7plaswqqjwigppsg5fyh99vdlb9kzl7c9lng89ndq1i"</span><span class=p>;</span>
+  <span class=p>};</span>
+
+  <span class=n>doCheck</span> <span class=o>=</span> <span class=no>true</span><span class=p>;</span>
+
+  <span class=n>meta</span> <span class=o>=</span> <span class=k>with</span> <span class=n>lib</span><span class=p>;</span> <span class=p>{</span>
+    <span class=n>description</span> <span class=o>=</span> <span class=s2>"A program that produces a familiar, friendly greeting"</span><span class=p>;</span>
+    <span class=n>longDescription</span> <span class=o>=</span> <span class=s1>''
+</span><span class=s1>      GNU Hello is a program that prints "Hello, world!" when you run it.
+</span><span class=s1>      It is fully customizable.
+</span><span class=s1>    ''</span><span class=p>;</span>
+    <span class=n>homepage</span> <span class=o>=</span> <span class=s2>"https://www.gnu.org/software/hello/manual/"</span><span class=p>;</span>
+    <span class=n>changelog</span> <span class=o>=</span> <span class=s2>"https://git.savannah.gnu.org/cgit/hello.git/plain/NEWS?h=v</span><span class=si>${</span><span class=n>version</span><span class=si>}</span><span class=s2>"</span><span class=p>;</span>
+    <span class=n>license</span> <span class=o>=</span> <span class=n>licenses</span><span class=o>.</span><span class=n>gpl3Plus</span><span class=p>;</span>
+    <span class=n>maintainers</span> <span class=o>=</span> <span class=p>[</span> <span class=n>maintainers</span><span class=o>.</span><span class=n>eelco</span> <span class=p>];</span>
+    <span class=n>platforms</span> <span class=o>=</span> <span class=n>platforms</span><span class=o>.</span><span class=n>all</span><span class=p>;</span>
+  <span class=p>};</span>
+<span class=p>}</span>
+</code></pre></div><p>It seems that in real life (or perhaps in a newer version of Nix since the manual was written) the <code>name</code> attribute is split into <code>pname</code> and <code>version</code>. <code>doCheck</code> and <code>meta</code> are here now, and there is no <code>perl</code> – instead we take an argument called <code>lib</code>, which is used in a very weird-looking syntactic construct that I can’t begin to understand. It’s not really like anything I am familiar with, so my brain doesn’t know what to think of it.</p>
+<p>No explicit <code>builder</code> either, but the manual did say that it was basically showing us the default builder, so it makes sense that it’s omitted in real life.</p>
+<p>Anyway, there’s nothing here about how those arguments are provided. We’ll have to look at <code>callPackage</code>.</p>
+<p>But I don’t know how to do that. I don’t know what that function is – it’s not declared in <code>all-packages.nix</code>, and I don’t know where it comes from, or how to trace/debug Nix expressions.</p>
+<p>I am now sad about this section of the manual, because it appears to be lying to me, or to be very outdated. I don’t know how outdated, or how relevant anything of this is, or what I should believe right now. It makes me sad about the entire manual, too: I wonder what else I’ve learned is no longer true.</p>
+<p>But I press on:</p>
+<p><code>rec</code> is familiar to me – like OCaml’s <code>let rec</code> or lisp’s <code>let*</code>, which we need so that packages can refer to one another. Sure. Makes sense. <code>import</code> does the thing you expect.</p>
+<p><code>foo = import bar { inherit qux; };</code> <em>looks</em> like some weird new syntax where the <code>import</code> is scoped over the following block or something, because my brain is so used to parsing curly braces as blocks. I have to remind myself that this is just another function call: <code>foo = (import bar) { inherit qux }</code>, since our <code>hello/default.nix</code> contains a function declaration.</p>
+<p>Aha! The manual actually explains <code>callPackage</code>:</p>
+<blockquote>
+<p>Nixpkgs has a convenience function <code>callPackage</code> that imports and calls a function, filling in any missing arguments by passing the corresponding attribute from the Nixpkgs set, like this:</p>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-nix data-lang=nix><span class=n>hello</span> <span class=err>=</span> <span class=n>callPackage</span> <span class=sr>../applications/misc/hello/ex-1</span> <span class=p>{</span> <span class=p>};</span>
+</code></pre></div><p>If necessary, you can set or override arguments:</p>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-nix data-lang=nix><span class=n>hello</span> <span class=err>=</span> <span class=n>callPackage</span> <span class=sr>../applications/misc/hello/ex-1</span> <span class=p>{</span> <span class=n>stdenv</span> <span class=o>=</span> <span class=n>myStdenv</span><span class=p>;</span> <span class=p>};</span>
+</code></pre></div></blockquote>
+<p>So, okay. The same thing is going on; the manual was not just lying to me. I resolve to be more patient in the future.</p>
+<p>But this explanation raises a few new questions. This implies that Nix has some kind of reflection capability, to know which arguments to pass. That’s weird. Or maybe Nix ignores “extra” attributes when it pattern matches on the set (or whatever), so <code>callPackage</code> just passes it everything. That feels more plausible.</p>
+<p>It also says it passes them “from the Nixpkgs set,” which is presumably the set that we are in the process of <em>defining</em>, right? So that’s… a little magical. I am at peace with lazy evaluation, though: mutually recursive values are familiar to me, so my brain is not broken by this notion. I could imagine someone being pretty confused by how this works, though, so it would be nice if the manual explained it (if that’s actually what’s happening here).</p>
+<p>Moving on, I am intrigued by this bit:</p>
+<blockquote>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-nix data-lang=nix><span class=n>fetchurl</span> <span class=err>=</span> <span class=kn>import</span> <span class=sr>../build-support/fetchurl</span> <span class=p>{</span> <span class=k>inherit</span> <span class=n>stdenv</span><span class=p>;</span> <span class=o>...</span> <span class=p>};</span>
+</code></pre></div></blockquote>
+<p>Naturally, I open up <code>~/src/nixpkgs/pkgs/build-support/fetchurl/default.nix</code> to see what it looks like.</p>
+<p>And it’s a big file! With a lot of comments. It actually inspires me to install Nix syntax highlighting to be able to parse it all more easily. It really helps to distinguish comments, I find. Maybe I should try a color scheme that just colors strings and comments differently, and doesn’t try to distinguish between reserved words and types or whatever else in my code. Is that a thing?</p>
+<p>It is not a Nix thing. Focus, Ian.</p>
+<p>Huh. Okay. So <code>fetchurl</code> is a function with a lot of optional arguments (I assume that’s what question marks mean), and it basically looks like this:</p>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-nix data-lang=nix><span class=p>{</span> <span class=c1># URL to fetch.</span>
+  <span class=n>url</span> <span class=o>?</span> <span class=s2>""</span>
+
+<span class=o>,</span> <span class=c1># Alternatively, a list of URLs specifying alternative download</span>
+  <span class=c1># locations.  They are tried in order.</span>
+  <span class=n>urls</span> <span class=o>?</span> <span class=p>[]</span>
+<span class=o>,</span> <span class=o>...</span>
+<span class=p>}:</span>
+
+<span class=o>...</span>
+
+<span class=k>let</span>
+  <span class=n>urls_</span> <span class=o>=</span>
+    <span class=k>if</span> <span class=n>urls</span> <span class=o>!=</span> <span class=p>[]</span> <span class=o>&amp;&amp;</span> <span class=n>url</span> <span class=o>==</span> <span class=s2>""</span> <span class=k>then</span>
+      <span class=p>(</span><span class=k>if</span> <span class=n>lib</span><span class=o>.</span><span class=n>isList</span> <span class=n>urls</span> <span class=k>then</span> <span class=n>urls</span>
+       <span class=k>else</span> <span class=ne>throw</span> <span class=s2>"`urls` is not a list"</span><span class=p>)</span>
+    <span class=k>else</span> <span class=k>if</span> <span class=n>urls</span> <span class=o>==</span> <span class=p>[]</span> <span class=o>&amp;&amp;</span> <span class=n>url</span> <span class=o>!=</span> <span class=s2>""</span> <span class=k>then</span> <span class=p>[</span><span class=n>url</span><span class=p>]</span>
+    <span class=k>else</span> <span class=ne>throw</span> <span class=s2>"fetchurl requires either `url` or `urls` to be set"</span><span class=p>;</span>
+    <span class=o>...</span>
+<span class=k>in</span>
+
+<span class=n>stdenvNoCC</span><span class=o>.</span><span class=n>mkDerivation</span> <span class=p>{</span>
+    <span class=n>name</span> <span class=o>=</span>
+      <span class=k>if</span> <span class=n>showURLs</span> <span class=k>then</span> <span class=s2>"urls"</span>
+      <span class=k>else</span> <span class=k>if</span> <span class=n>name</span> <span class=o>!=</span> <span class=s2>""</span> <span class=k>then</span> <span class=n>name</span>
+      <span class=k>else</span> <span class=nb>baseNameOf</span> <span class=p>(</span><span class=nb>toString</span> <span class=p>(</span><span class=nb>builtins</span><span class=o>.</span><span class=n>head</span> <span class=n>urls_</span><span class=p>));</span>
+
+    <span class=n>builder</span> <span class=o>=</span> <span class=sr>./builder.sh</span><span class=p>;</span>
+
+    <span class=o>...</span>
+<span class=p>}</span>
+</code></pre></div><p>So it returns… a <em>derivation?</em></p>
+<p>I don’t really understand.</p>
+<p>Except that I do, when I think about it for a minute.</p>
+<p>In the example we saw in the last section, <code>perl</code> was a derivation, and apparently Nix built and installed it in the Nix store before it called our build script. And now I learn that <code>src</code> was <em>also</em> a derivation, although I didn’t realize it at the time, so of course Nix <em>also</em> built and installed <em>it</em> in the Nix store before it called our build script.</p>
+<p>But what does it mean to “build” <code>src</code>? Easy: whatever it says in <code>~/src/nixpkgs/pkgs/build-support/fetchurl/builder.sh</code>. Which does exactly the thing you’d expect: basically <code>curl $url --output $out</code>.</p>
+<p>So, okay, great. Now this <em>should</em> mean that I have the source of <code>hello</code> in my store, somewhere, with the name <code>hello-2.10.tar.gz</code> – because that’s the <code>url</code> attribute declared in <code>hello/default.nix</code>.</p>
+<p>But I don’t.</p>
+<pre><code>$ ls /nix/store | grep hello-2.10.tar.gz
+8g94wcv0wjx2rldf25gvrrwdj6hgifiy-hello-2.10.tar.gz.drv
+</code></pre>
+<p>That’s <em>very close</em>, though. But it’s a file – I don’t know what <em>kind</em> of file – and it looks something like this:</p>
+<pre tabindex=0><code>Derive(
+  [ ( "out"
+    , "/nix/store/3x7dwzq014bblazs7kq20p9hyzz0qh8g-hello-2.10.tar.gz"
+    , "sha256"
+    , "31e066137a962676e89f69d1b65382de95a7ef7d914b8cb956f41ea72e0f516b"
+    ) ]
+, [ ("/nix/store/5n184bf8dg2n7lbq0cvsl9dn4npk3508-bash-4.4-p23.drv", ["out"])
+  , ("/nix/store/7nw4bgvwl4w03s6g15279hq52gbc30iy-stdenv-darwin.drv", ["out"])
+  , ("/nix/store/qyy39sw31s9zkx1qq23jg1df79m71rqa-mirrors-list.drv", ["out"])
+  , ("/nix/store/xn0d02v02gncbfp811ca0h4iq2qw5wff-curl-7.74.0.drv", ["dev"])
+  ]
+, ...much, much more elided...
+)
+</code></pre><p>I “pretty printed” it by hand, because I don’t know what format this is, but presumably it’s some kind of description of every input to the <code>fetchurl</code> “anonymous derivation” we created.</p>
+<p>I realize that I probably installed <code>hello</code> from cache, so of course I don’t actually <em>have</em> the sources. I’ll need to build it.</p>
+<p>I check <code>man nix-env</code>, again. There’s nothing in the <code>--INSTALL</code> section on how to force it to build from scratch. But I think I might know:</p>
+<pre><code>$ nix-env -iA nixpkgs.hello --option substituters ''
+replacing old 'hello-2.10'
+installing 'hello-2.10'
+</code></pre>
+<p>Ugh. No. That didn’t work. I return to the man page. It tells me how to fail if it can’t find a prebuilt version, but not how to ignore the cache. Nothing in here seems helpful, and after checking <code>man 5 nix.conf</code> I really do think that should work.</p>
+<p>It occurs to me that this probably is a no-op, and I need to remove the package first. I do that, but get the same result. Then it occurs to me that I need to collect garbage, and try again:</p>
+<pre><code>$ nix-env -iA nixpkgs.hello --option substituters ''
+DOWNLOADING MILLIONS OF PACKAGES
+</code></pre>
+<p>Oh gosh. Oh gosh. Mistake. I just wanted to build <code>hello</code> from source, but this is triggering a cascade of building <em>everything</em> from source – everything that <code>hello</code> needs, including such vital packages as:</p>
+<pre><code>/nix/store/jwm6dyvh483x60k47yn7dpm9gg39f0qc-bash44-013.drv
+/nix/store/la57hnb0dn1w4bwym7y55klxpk33vzms-bash44-004.drv
+/nix/store/m2dwqchar62dp6f1llplrbzy6rwy75n9-bash44-014.drv
+/nix/store/n17k51dick3gp7ms6dzprmvp56q3rsnr-bash44-011.drv
+/nix/store/s9jzppqzbi2ra6nhza6m2v8c2chbbqxs-bash44-018.drv
+/nix/store/sc81n3y4wkzhk5br6f16waiqmnxyd996-bash44-009.drv
+/nix/store/v9vfflw7j170q5qzv056a0gswzz1jx8n-bash44-015.drv
+/nix/store/wfqvhn8bycl29011lmja7870lyq0grq9-bash44-023.drv
+</code></pre>
+<p>Don’t wanna. Maybe if I install some trivial program first <em>with</em> substituters, and then turn them off, I can make this work…</p>
+<pre><code>$ nix-env -iA nixpkgs.cat
+error: attribute 'cat' in selection path 'nixpkgs.cat' not found
+</code></pre>
+<p>Boo. I’m vaguely afraid of installing all of <code>coreutils</code>. I try the next best thing:</p>
+<pre tabindex=0><code>$ nix-env -iA nixpkgs.sl
+installing 'sl-5.05'
+these paths will be fetched (3.16 MiB download, 15.43 MiB unpacked):
+  /nix/store/a5mixw1swqprm1jm897kdl6nqfmx1j4k-gettext-0.21
+  /nix/store/ps4yifn6srsqb2x1g3r3h7v0k91h88j1-sl-5.05
+  /nix/store/rvp4bvhqbjnkb2zpshdifvkdscj328cy-ncurses-6.2
+  /nix/store/vxr67g3i7m7d5gmfq231g2i4zfnqzj6d-gcc-10.2.0-lib
+copying path '/nix/store/rvp4bvhqbjnkb2zpshdifvkdscj328cy-ncurses-6.2' from 'https://cache.nixos.org'...
+copying path '/nix/store/a5mixw1swqprm1jm897kdl6nqfmx1j4k-gettext-0.21' from 'https://cache.nixos.org'...
+copying path '/nix/store/vxr67g3i7m7d5gmfq231g2i4zfnqzj6d-gcc-10.2.0-lib' from 'https://cache.nixos.org'...
+copying path '/nix/store/ps4yifn6srsqb2x1g3r3h7v0k91h88j1-sl-5.05' from 'https://cache.nixos.org'...
+building '/nix/store/wsnz4hwx5y6lbqis47snmrblxjxqvk9f-user-environment.drv'...
+created 38 symlinks in user environment
+</code></pre><p>After a mandatory <code>sl</code> viewing – always a delight – I realize the foolishness of my plan: that didn’t install all of its build time dependencies, because it didn’t need to. Hrm.</p>
+<p>I mean, how long could a full build of <code>hello</code> take from scratch? Let’s find out.</p>
+<p>I reach for my power cord, as my laptop attempts to achieve powered flight.</p>
+<p>I’m thinking this is a “leave it overnight” situation.</p>
+<p>I’m only doing this to prove to myself that the <code>hello</code> source will end up in the Nix store, but I’m <em>pretty</em> sure I’m right about that, and the cost of this is not totally worth confirming. But still I’m curious to see the error message I will inevitably get. Is there any chance this actually works? That I can build this, and all of its build dependencies, completely from scratch? No, right?</p>
+<p>I could manually add a bunch of its build dependencies to the store, if I knew how to do that – but <code>nix-env</code> is all I know right now, and that really does not seem like the right way to do this. I resolve to just leave this running to see what happens, and carry on with it in the background.</p>
+<p>Although, hmm. Looks like it broke already.</p>
+<p>A <code>curl</code> invocation is hanging while trying to download:</p>
+<pre><code>http://www.opensource.apple.com/tarballs/bootstrap_cmds/bootstrap_cmds-121.tar.gz
+</code></pre>
+<p>It seems like a transient problem, but Nix’s <code>fetchurl</code> doesn’t notice that nothing is happening, so it just hangs. Annoying.</p>
+<p>I kill it. And I check <code>/nix/store</code>, and I can see <em>some</em> sources here – <code>/nix/store/rv68r40mwx7xa7vrlmanczkkjcnkc452-bash-4.4.tar.gz</code> is a 9 meg file that I assume was produced by this.</p>
+<p>So, okay, good enough: they’re just files.</p>
+<p>Which makes me suspect that what I thought before was wrong: the thing that calls <code>builder.sh</code> doesn’t “create the destination directory.” I now think that the <code>hello</code> directory only existed because <code>make install</code> created it. And if it had created a file, that would be just fine too: so long as it puts something at <code>$out</code>, I think Nix will be happy.</p>
+<p>Neat.</p>
+<h1 id=144-building-and-testinghttpswebarchiveorgweb20210227145624httpsnixosorgmanualnixstablesec-building-simple><a href=https://web.archive.org/web/20210227145624/https://nixos.org/manual/nix/stable/#sec-building-simple>14.4. Building and Testing</a></h1>
+<p>This section opens with the words:</p>
+<blockquote>
+<p>You can now try to build Hello. Of course, you could do <code>nix-env -i hello</code>, but you may not want to install a possibly broken package just yet. The best way to test the package is by using the command <code>nix-build</code>, which builds a Nix expression and creates a symlink named <code>result</code> in the current directory.</p>
+</blockquote>
+<p>What do you mean “a possibly broken package? What do you mean “test the package”? I haven’t authored <code>hello</code>. I haven’t put files anywhere. I’ve run that command many times before, and I know that it just installs the package from Nixpkgs.</p>
+<p>It seems that the manual is <em>trying</em> to walk me through creating my own package, but it is not doing that. It’s just showing me some code snippets. I have no idea how I would actually <em>do anything</em> with those snippets. What files they should go in, how to get <code>nix-env</code> to look at them, whatever.</p>
+<p>But I <em>think</em> I <em>might</em> have enough information at this point to figure out what I need to do on my own. So I attempt to set up my own little test package.</p>
+<p>First I’ll set up <code>~/scratch</code> as a custom “channel.”</p>
+<pre><code>$ ln -s ~/scratch ~/.nix-defexpr/ianpkgs
+</code></pre>
+<p>Then I create a few files:</p>
+<pre><code>$ cd ~/scratch
+
+$ cat builder.sh
+</code></pre>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=nb>source</span> <span class=nv>$stdenv</span>/setup
+mkdir <span class=nv>$out</span>
+<span class=nb>echo</span> <span class=s1>$'#!/usr/bin/env bash\necho "Hello, Nix!"'</span> &gt; <span class=nv>$out</span>/hello
+chmod +x <span class=nv>$out</span>/hello
+</code></pre></div><pre><code>$ cat hello.nix
+</code></pre>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-nix data-lang=nix><span class=p>{</span> <span class=n>stdenv</span> <span class=p>}:</span>
+
+<span class=n>stdenv</span><span class=o>.</span><span class=n>mkDerivation</span> <span class=p>{</span>
+  <span class=n>name</span> <span class=o>=</span> <span class=s2>"my-hello"</span><span class=p>;</span>
+  <span class=n>builder</span> <span class=o>=</span> <span class=sr>./builder.sh</span><span class=p>;</span>
+<span class=p>}</span>
+</code></pre></div><pre><code>$ cat default.nix
+</code></pre>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-nix data-lang=nix><span class=k>rec</span> <span class=p>{</span>
+  <span class=n>hello</span> <span class=o>=</span> <span class=kn>import</span> <span class=sr>./hello.nix</span> <span class=p>{</span> <span class=k>inherit</span> <span class=n>stdenv</span><span class=p>;</span> <span class=p>};</span>
+  <span class=n>stdenv</span> <span class=o>=</span> <span class=kn>import</span> <span class=sr>/Users/ian/src/nixpkgs/pkgs/stdenv</span><span class=p>;</span>
+<span class=p>}</span>
+</code></pre></div><p>Yes, I cheated at the end there. What else was I supposed to do?</p>
+<p>Let’s see if this works. The manual says I can build it with <code>nix-build</code> instead of installing it.</p>
+<pre><code>$ nix-build -A ianpkgs.hello
+error: attribute 'ianpkgs' in selection path 'ianpkgs.hello' not found
+</code></pre>
+<p>Okay umm hmm. I don’t know what that means. Ah: it seems <code>nix-build</code> does not use <code>~/.nix-defexpr</code> at all, so my channel name is irrelevant. It uses whatever the <code>default.nix</code> is in the current directory. Got it:</p>
+<pre><code>$ cd ~/scratch
+$ nix-build -A hello
+error: value is a function while a set was expected, at /Users/ian/scratch/hello.nix:3:1
+</code></pre>
+<p>Hrm. I’m encouraged that it, like, got as far as it did? I <em>basically</em> just copied the example, though, so I am discouraged that it did not work.</p>
+<p><em>Value is a function while a set was expected</em>. Very mysterious.</p>
+<p>Ah. It’s referring to <code>stdenv</code>, of course. I never called it.</p>
+<p>But <em>how</em> do I call it? What do I pass it?</p>
+<p>I try to figure this out by tracing what the “real” Nixpkgs does. The <code>default.nix</code> in Nixpkgs points me to <code>pkgs/top-level/impure.nix</code>. That file imports <code>./.</code>, which I take to mean <code>default.nix</code>. That file calls a function called <code>boot</code> – defined in <code>../stdenv/booter.nix</code> – and passes it <code>allPackages</code> – which is a <em>function</em> – that is itself the result of <em>calling</em> the function <code>./stage.nix</code> – with a couple arguments, one of which is <code>lib</code>, the other <code>nixpkgsFun</code>. Not so far, it isn’t. <code>nixpkgsFun</code> has a <em>25-line</em> comment on its head explaining what it exists for, but not in terms that clarify anything here.</p>
+<p>In the process of looking at <code>nixpkgsFun</code> I lose the call stack, and forget what I was doing, and give up.</p>
+<p>This <em>cannot</em> be my first encounter with the Nix language.</p>
+<p>So instead I cheat harder:</p>
+<pre><code>$ cat default.nix
+</code></pre>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-nix data-lang=nix><span class=k>rec</span> <span class=p>{</span>
+  <span class=n>hello</span> <span class=o>=</span> <span class=kn>import</span> <span class=sr>./hello.nix</span> <span class=p>{</span> <span class=k>inherit</span> <span class=n>stdenv</span><span class=p>;</span> <span class=p>};</span>
+  <span class=n>stdenv</span> <span class=o>=</span> <span class=p>(</span><span class=kn>import</span> <span class=sr>/Users/ian/src/nixpkgs</span><span class=p>)</span><span class=o>.</span><span class=n>stdenv</span><span class=p>;</span>
+<span class=p>}</span>
+</code></pre></div><p>This is so close to working – but <code>nixpkgs</code> is apparently <em>actually</em> not a value, but a function. I have to call it like this:</p>
+<pre><code>$ cat default.nix
+</code></pre>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-nix data-lang=nix><span class=k>rec</span> <span class=p>{</span>
+  <span class=n>hello</span> <span class=o>=</span> <span class=kn>import</span> <span class=sr>./hello.nix</span> <span class=p>{</span> <span class=k>inherit</span> <span class=n>stdenv</span><span class=p>;</span> <span class=p>};</span>
+  <span class=n>stdenv</span> <span class=o>=</span> <span class=p>(</span><span class=kn>import</span> <span class=sr>/Users/ian/src/nixpkgs</span> <span class=p>{})</span><span class=o>.</span><span class=n>stdenv</span><span class=p>;</span>
+<span class=p>}</span>
+</code></pre></div><p>That doesn’t make any sense to me, given that <code>nix-env -iA nixpkgs.hello</code> seems to treat it as a plain old “set.” Does <code>nix-env</code> actually expect a unit function that <em>returns</em> a set? If so, why? Why aren’t we just passing values around here?</p>
+<p>I don’t know. But my thing works now!</p>
+<pre tabindex=0><code>$ nix-build -A hello
+these derivations will be built:
+  /nix/store/707rfjxpfxhbjqp1i6d2x1f0s654c1m5-my-hello.drv
+these paths will be fetched (130.32 MiB download, 653.59 MiB unpacked):
+    (long list that I've elided)
+copying path '/nix/store/18k3k2pnqj0xqlnw9nk3mxldi939byx4-gawk-5.1.0' from 'https://cache.nixos.org'...
+...many more "copying path lines"...
+building '/nix/store/707rfjxpfxhbjqp1i6d2x1f0s654c1m5-my-hello.drv'...
+/nix/store/my9k2rj6syj018mn9fnscy81amzw5sgs-my-hello
+</code></pre><p>It worked! <code>nix-build</code> placed a symlink to the result in the current directory, which is… weird, but kind of neat? It could have just… printed it, or something? It <em>also</em> printed it. In fact:</p>
+<pre><code>$ nix-build -A hello 2&gt;/dev/null
+/nix/store/my9k2rj6syj018mn9fnscy81amzw5sgs-my-hello
+</code></pre>
+<p>It’s the only thing it prints to stdout. So, okay. I have my <code>result</code>. And I can…</p>
+<pre><code>$ result/hello
+Hello, Nix!
+</code></pre>
+<p><em>Excellent.</em></p>
+<p>My first Nix… thing.<sup id=fnref:1><a href=#fn:1 class=footnote-ref role=doc-noteref>1</a></sup> Despite Nix’s best efforts to prevent me from making a package, I eventually overcame. Proud of myself, I decide to install it, too, that it may grace my <code>PATH</code> forevermore:</p>
+<pre><code>$ nix-env -iA ianpkgs.hello
+installing 'my-hello'
+building '/nix/store/2yfxccscbx0rm1v51hr4lwhlpila25l1-user-environment.drv'...
+created 39 symlinks in user environment
+
+$ hello
+zsh: command not found: hello
+</code></pre>
+<p><em>Gasp</em>. I’ve installed the package – and I know the path in the Nix store works – but there’s apparently nothing about the package that lets <code>nix-env</code> know that it contains an executable, so it doesn’t get a symlink.</p>
+<p>How do I fix that?</p>
+<p>The example in the manual certainly didn’t do anything special. I open up a few packages. I swap <code>name</code> for <code>pname</code> on the off chance it means “program name” instead of, as I assumed, “printable name” or “pretty name” or something like that.</p>
+<p>Nope.</p>
+<p>I run <code>find ~/src/nixpkgs/pkgs -name builder.sh</code>, and look for interesting candidates that do not use the generic builder (which I suspect is somehow doing something to register executables, or something). I see <code>pkgs/games/keen4</code>, and nostalgia washes over me as I remember the thrill of temporarily turning potato guards into flowers. I mean, I played the original too, but something about throwing those little grenades was kisses fingers emoji. Don’t think I ever tried <em>Goodbye Galaxy</em>.</p>
+<p>Curiosity gets the better of me – is this really? – so I give it a shot.</p>
+<pre tabindex=0><code>$ nix-env -iA nixpkgs.keen4
+installing 'keen4'
+error: Package ‘keen4’ in /nix/store/ys2x968psphylqb0gri928km5bny25ww-nixpkgs-21.05pre271444.9816b99e71c/nixpkgs/pkgs/games/keen4/default.nix:17 has an unfree license (‘unfree’), refusing to evaluate.
+
+a) To temporarily allow unfree packages, you can use an environment variable
+   for a single invocation of the nix tools.
+
+     $ export NIXPKGS_ALLOW_UNFREE=1
+
+b) For `nixos-rebuild` you can set
+  { nixpkgs.config.allowUnfree = true; }
+in configuration.nix to override this.
+
+Alternatively you can configure a predicate to whitelist specific packages:
+  { nixpkgs.config.allowUnfreePredicate = pkg: builtins.elem (lib.getName pkg) [
+      "keen4"
+    ];
+  }
+
+c) For `nix-env`, `nix-build`, `nix-shell` or any other Nix command you can add
+  { allowUnfree = true; }
+to ~/.config/nixpkgs/config.nix.
+
+(use '--show-trace' to show detailed location information)
+</code></pre><p>Huh. Umm. Okay?</p>
+<pre><code>$ NIXPKGS_ALLOW_UNFREE=1 nix-env -iA nixpkgs.keen4
+installing 'keen4'
+...
+$ keen4
+</code></pre>
+<p>And <em>bam</em>. It just worked! DOSBox started up, I selected my sound card – hell yeah – loaded the main menu, and then quit. So I could get back to work.</p>
+<p>The galaxy can wait.</p>
+<p>Why is this in here? Was this game released into the public domain? No; it’s explicitly marked “unfree.” Did I just… did I just pirate something? Am I cybercriminal now?</p>
+<p>You can’t prove anything.</p>
+<p>Well, I didn’t learn what I wanted to learn. There’s nothing different about that package. I look through <code>builder.sh</code> and don’t notice it doing anything different from what I’m doing. By random luck, it <em>also</em> just writes a shell script (that launches DOSBox and does some other stuff) and <code>chmod +x</code>s it. Nostalgia has guided me well this night.</p>
+<p>As a result, I learn the right way to shebang: I should have used <code>$SHELL</code>, not <code>/usr/env/bin bash</code>. <em>Now you’re thinking with Nix.</em></p>
+<p>But why is <code>keen4</code> on my <code>PATH</code>, when <code>hello</code> is not?</p>
+<p>I double check <code>~/.nix-profile/bin</code> and confirm – again – that it still isn’t there. But in the process of doing so, I <em>just happen</em> to notice that there is a <code>~/.nix-profile/hello</code> – a symlink to <code>/nix/store/vyn32fklp5ign13w21s9hl58a62dwlky-my-hello-1.0/hello</code>!</p>
+<p><em>Aha</em>, I realize: it’s symlinking everything I install, but with the same directory structure as the directory. I modify my <code>builder.sh</code>:</p>
+<pre><code>$ cat builder.sh
+</code></pre>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=nb>source</span> <span class=nv>$stdenv</span>/setup
+
+mkdir -p <span class=nv>$out</span>/bin
+
+cat &gt;<span class=nv>$out</span>/bin/hello <span class=s>&lt;&lt;EOF
+</span><span class=s>#!$SHELL
+</span><span class=s>echo "Hello, Nix!"
+</span><span class=s>EOF</span>
+
+chmod +x <span class=nv>$out</span>/bin/hello
+</code></pre></div><p>Try again:</p>
+<pre tabindex=0><code>$ nix-env -iA ianpkgs.hello
+replacing old 'my-hello-1.0'
+installing 'my-hello-1.0'
+these derivations will be built:
+  /nix/store/0jld2igd44rgs1mdi59h34zbx6i04qrh-my-hello-1.0.drv
+building '/nix/store/0jld2igd44rgs1mdi59h34zbx6i04qrh-my-hello-1.0.drv'...
+building '/nix/store/ns4gzk4al99ki5glsfgm7h2bha48zkmk-user-environment.drv'...
+created 41 symlinks in user environment
+</code></pre><p>And hold my breath:</p>
+<pre tabindex=0><code>$ hello
+Hello, Nix!
+</code></pre><p>Like looking into your child’s eyes for the very first time.</p>
+<p>This realization was <em>actually</em> random luck. I don’t know how long that would have taken me if I didn’t tab-complete so aggressively, or if I hadn’t set up my tab completion to show a full directory listing. For posterity, this is what my shell looks like when I tab complete:</p>
+<pre><code>$ nix-env --rollback
+switching from generation 29 to 28
+
+$ ll ~/.nix-profile/&lt;TAB&gt; # &lt;- my cursor is still on this line
+Library@       bin/           etc/           hello@         lib@
+libexec@       manifest.nix@  share/
+</code></pre>
+<p>I just happened to notice that <code>hello@</code> while tabbing over to <code>bin/</code>. Phew. (The rollback was to put it back in the “bad” state, for this historical reenactment, before I fixed the <code>builder.sh</code>.)</p>
+<p>I have to say: this seems obvious, now that I know how it works. There’s nothing “telling” Nix to add a symlink to <code>bin/</code>: when you install something, <em>everything</em> in the build’s output is symlinked, no matter what it looks like. (I tested it by creating a non-executable file as well, just to be sure). This also explains all the <em>other</em> stuff in <code>~/.nix-profile</code> – presumably it’s just there because it’s there. The directory structure isn’t significant to <code>nix-env</code>, it’s just the way the installed subset of my <code>/nix/store</code> happens to look.</p>
+<p>But this was <em>completely not obvious</em> to me before I discovered it. I really wish that some part of the manual had explained how Nix assembles the user environment before I got this far. Who knows how long that might have taken me to figure out, had fate not smiled this day.</p>
+<p>But okay. We ran the sample code in the manual, sort of. After much deliberation. Are we done? No. Now we get to read the words that come after it. This is referring to the command <code>nix-build -A hello</code>:</p>
+<blockquote>
+<p>The <code>-A</code> option selects the <code>hello</code> attribute. This is faster than using the symbolic package name specified by the name attribute (which also happens to be <code>hello</code>) and is unambiguous (there can be multiple packages with the symbolic name <code>hello</code>, but there can be only one attribute in a set named <code>hello</code>).</p>
+</blockquote>
+<p>Okay: by “symbolic name” I assume this is the prefix of the <code>name</code> attribute that precedes the version number – I chose <code>"my-hello"</code> for that to see what would happen. But there doesn’t seem to be any way to call <code>nix-build</code> with a “symbolic name,” so this paragraph feels weird and confusing. I read <code>man nix-build</code> to confirm, and yeah. That’s not a thing <code>nix-build</code> can do.</p>
+<p>I assume that this is <em>supposed</em> to be referring to the 30-second-long way to install packages with <code>nix-env -i hello</code>, and that somehow over the course of changes to the manual it now exists in a section talking about <code>nix-build</code>. And I now understand why <code>nix-env -i hello</code> is slower than <code>nix-env -iA nixpkgs.hello</code>: in the first command, <code>hello</code> is a string, and we have to search through every derivation for a matching string. In the second, <code>hello</code> is an attribute name, and we just have to look it up. And yes, it is still <em>absolutely insane</em> that the default behavior is to use the symbolic name.</p>
+<p>I also learn:</p>
+<blockquote>
+<p><code>nix-build</code> registers the <code>./result</code> symlink as a garbage collection root, so unless and until you delete the <code>./result</code> symlink, the output of the build will be safely kept on your system. You can use <code>nix-build</code>’s <code>-o</code> switch to give the symlink another name.</p>
+</blockquote>
+<p>Indeed:</p>
+<pre><code>$ ll /nix/var/nix/gcroots/auto
+qqrfq5975mbpf5p9xpsqwhfpyj7q5jkk@ -&gt; /Users/ian/scratch/result
+
+$ rm /nix/var/nix/gcroots/auto/qqrfq5975mbpf5p9xpsqwhfpyj7q5jkk
+</code></pre>
+<p>And a previous theory of mine is confirmed:</p>
+<blockquote>
+<p>Nix has transactional semantics. Once a build finishes successfully, Nix makes a note of this in its database: it registers that the path denoted by out is now “valid”. If you try to build the derivation again, Nix will see that the path is already valid and finish immediately. If a build fails, either because it returns a non-zero exit code, because Nix or the builder are killed, or because the machine crashes, then the output paths will not be registered as valid. If you try to build the derivation again, Nix will remove the output paths if they exist (e.g., because the builder died half-way through make install) and try again. Note that there is no “negative caching”: Nix doesn’t remember that a build failed, and so a failed build can always be repeated. This is because Nix cannot distinguish between permanent failures (e.g., a compiler error due to a syntax error in the source) and transient failures (e.g., a disk full condition).</p>
+</blockquote>
+<p>I thought that whole paragraph was nice and clear and well-written so I copied it verbatim.</p>
+<p>The manual then tells me that there are per-store-path locks, so I don’t need to worry about running multiple <code>nix-foo</code> commands at the same time. I sort of figured this was the case, but good. I learn that – because the locks are per store path – I can have Nix build multiple store paths in parallel with <code>-j</code>. Ain’t nobody got time to type that all the time, so <code>man 5 nix.conf</code> teaches me to set <code>max-jobs = auto</code> in my <code>nix.conf</code> if I want to live life to the fullest. But I still haven’t made a <code>nix.conf</code>, so I do nothing.</p>
+<p>And that’s the end of the section.</p>
+<p>I feel pretty good. I feel like I learned a lot here – I got to build my first package; I got to see how my user-environment is actually put together. I learned that “derivation” appears to just mean “thing that puts files in <code>/nix/store</code>,” and exists at a more generic level than “software packages.” I think this is a really important insight that the manual has so far not said anything about. I am very glad that I thought to look up <code>fetchurl</code>.</p>
+<p>I do wish the manual had made all of this a bit <em>easier</em>, but hey. That’s why we’re here, right?</p>
+<h1 id=145-generic-builder-syntaxhttpswebarchiveorgweb20210227145624httpsnixosorgmanualnixstablesec-building-simple><a href=https://web.archive.org/web/20210227145624/https://nixos.org/manual/nix/stable/#sec-building-simple>14.5. Generic Builder Syntax</a></h1>
+<p>This post should be over, but there’s only one section left before we hit a very different chapter, so I’m tacking it on here.</p>
+<p>We basically just learn how to use the “generic builder,” for packages that do the classic <code>configure</code>/<code>make</code>/<code>make install</code> dance.</p>
+<blockquote>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=nv>buildInputs</span><span class=o>=</span><span class=s2>"</span><span class=nv>$perl</span><span class=s2>"</span>
+
+<span class=nb>source</span> <span class=nv>$stdenv</span>/setup
+
+genericBuild
+</code></pre></div></blockquote>
+<p>This is equivalent to the original example from the last post. I see here a reason why we <code>source $stdenv/setup</code> ourselves, instead of having it be automatic: so that we can set variables and stuff before we do so.</p>
+<p>I learn that I can set <code>buildInputs</code> to be a list of things and Nix will infer if they should be binaries on our <code>PATH</code> or header search path elements or “so on.” “So on?” What does that mean? A footnote expands:</p>
+<blockquote>
+<p>How does it work? <code>setup</code> tries to source the file <code>pkg/nix-support/setup-hook</code> of all dependencies. These “setup hooks” can then set up whatever environment variables they want; for instance, the setup hook for Perl sets the <code>PERL5LIB</code> environment variable to contain the <code>lib/site_perl</code> directories of all inputs.</p>
+</blockquote>
+<p>Huh. I find <code>perl</code> in <code>~/src/nixpkgs/pkgs/development/interpreters/perl</code>. There is no <code>nix-support</code> subdirectory, but there is a file called <code>setup-hook.sh</code>. I suspect documentation rot: this file does, in fact, configure <code>PERL5LIB</code>:</p>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash>addPerlLibPath <span class=o>()</span> <span class=o>{</span>
+    addToSearchPath PERL5LIB <span class=nv>$1</span>/lib/perl5/site_perl
+<span class=o>}</span>
+
+addEnvHooks <span class=s2>"</span><span class=nv>$hostOffset</span><span class=s2>"</span> addPerlLibPath
+</code></pre></div><p>No idea what <code>$hostOffset</code> is. Interesting that this doesn’t <em>configure</em> the environment, but “schedules” an environment configuration to take place at the appropriate time. Sure. Still not totally clear on “hooks,” but being familiar with the term and seeing it (apparently) used in the familiar way here, I assume I understand what’s happening here.</p>
+<p>Continuing on, I learn that you can specify <code>buildInputs</code> as a list (? array?) in the argument to <code>mkDerivation</code> instead of the script, which makes the script itself unnecessary – I can now omit the <code>builder</code> attribute, and the default build will take place, and everything will be the same.</p>
+<p>I don my obnoxious pedant hat to say this: “Generic Builder Syntax” is a bad section title. We didn’t learn any syntax here. We learned the “Generic Builder Semantics.” I take my obnoxious pedant hat off. <em>So there</em>.</p>
+<p>Okay. Now we’re actually done.</p>
+<hr>
+<ul>
+<li>What exactly does <code>callPackage</code> call functions with?</li>
+<li>Why does <code>import /Users/ian/src/nixpkgs</code> give me a function back?</li>
+<li>Why is there a Commander Keen game in nixpkgs? How is that allowed?</li>
+<li>How do I make my own <code>ianpkgs</code> without <code>import</code>ing things from the “main” <code>nixpkgs</code>? What would a minimal <code>default.nix</code> look like?</li>
+<li>What is <code>$hostOffset</code> in a setup hook?</li>
+</ul>
+<section class=footnotes role=doc-endnotes>
+<hr>
+<ol>
+<li id=fn:1 role=doc-endnote>
+<p>Did I actually get this right on my first try? No. I didn’t. I forgot that <code>bash</code> needs <code>$'...'</code> quoted strings to interpret escape characters, because <code>zsh</code> does not. But I went back and <em>changed the historical record</em> because this just seemed like distracting noise. I already feel terrible that I lied to you.&nbsp;<a href=#fnref:1 class=footnote-backref role=doc-backlink>↩︎</a></p>
+</li>
+</ol>
+</section>
+</div>
+</article>
+<div class=post-footer>
+<a href="mailto:ianthehenry@gmail.com?subject=let%27s%20talk%20about%20%22Okay%20my%20actual%20first%20derivation%22&amp;body=First%20of%20all,%20I%20just%20wanted%20to%20say%20that%20I%20forgive%20you%20for%20not%20having%20a%20real%20comment%20system%20on%20your%20site.">comment on this post</a><a href=https://ianthehenry.com/posts/how-to-learn-nix/nix-language/>Next up ➜ The Nix expression language</a></div>
+<aside class=series-rider>
+<p>
+This post is part of the series <a class=series-name href=https://ianthehenry.com/posts/how-to-learn-nix/>How to Learn Nix</a>.
+You can
+<a target=_blank href=https://ianthehenry.com/feed.xml>subscribe to my RSS feed</a>
+or
+<a target=_blank href=https://twitter.com/ianthehenry>follow me on Twitter</a>
+for more, or <a href=https://ianthehenry.com/posts/>peruse my back catalog</a> if you're in the mood for something different.
+<div class=subsection-header>Opening remarks</div><ol start=1 class=post-list><li><a href=https://ianthehenry.com/posts/how-to-learn-nix/introduction/>What's all this about?</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/prior-knowledge/>Prior knowledge</a></li>
+</ol><div class=subsection-header>Reading the Nix manual</div><ol start=3 class=post-list><li><a href=https://ianthehenry.com/posts/how-to-learn-nix/glossary/>What we talk about when we talk about Nix</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/quick-start-guide/>Quick starts, full hearts</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/basic-package-management/>Basic package management</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/profiles/>Profiles</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/garbage-collection/>Garbage collection</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/channels/>Channels</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/sharing/>Learning to share</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/my-first-derivation/>My first derivation</a></li>
+<li><strong><a href=https://ianthehenry.com/posts/how-to-learn-nix/okay-my-actual-first-derivation/>Okay my actual first derivation</a></strong>&nbsp;←&nbsp;you are here</li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/nix-language/>The Nix expression language</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/derivations/>Derivations</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/built-in-functions/>Built-in Functions</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/advanced-topics/>Advanced Topics</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/command-reference/>Command Reference</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/configuration/>Configuration</a></li>
+</ol><div class=subsection-header>Interlude: in which we follow our hearts, however briefly</div><ol start=18 class=post-list><li><a href=https://ianthehenry.com/posts/how-to-learn-nix/nix-manual-reflection/>So I read the manual huh</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/switching-from-homebrew-to-nix/>Switching from Homebrew to Nix</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/my-first-nix-bug/>My first Nix bug</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/my-first-package-upgrade/>My first package upgrade</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/declarative-user-environment/>Setting up a declarative user environment</a></li>
+</ol><div class=subsection-header>Reading the Nixpkgs manual</div><ol start=23 class=post-list><li><a href=https://ianthehenry.com/posts/how-to-learn-nix/how-to-learn-nixpkgs/>How to learn Nixpkgs</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/overlays/>Overlays</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/overriding/>Overriding</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/an-infinite-list-of-functions/>An infinite list of functions</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/even-more-functions-somehow/>Even more functions, somehow</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/the-standard-environment/>The standard environment</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/derivations-in-detail/>Derivations in detail</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/cross-compilation/>Cross-compilation</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/platform-notes/>Platform notes</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/builders/>Builders</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/languages-and-frameworks/>Languages and frameworks</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/random-package-grab-bag/>Random package grab-bag</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/how-to-give-back/>How to give back</a></li>
+</ol><div class=subsection-header>Documentation behind us, we set out on our own</div><ol start=36 class=post-list><li><a href=https://ianthehenry.com/posts/how-to-learn-nix/nixpkgs-reflection/>So I read the other manual, huh</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/saving-your-shell/>Saving your shell</a></li>
+</ol><div class=subsection-header>Oh right forgot about Nix Pills</div><ol start=38 class=post-list><li><a href=https://ianthehenry.com/posts/how-to-learn-nix/nix-pills/>Nix Pills</a></li>
+</ol><div class=subsection-header>Our whole lives ahead of us</div><ol start=39 class=post-list><li><a href=https://ianthehenry.com/posts/how-to-learn-nix/python3-alpha/>How to install Python</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/open-questions/>Open questions</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/ambiguous-packages/>Ambiguous packages</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/nix-zshell/>Running zsh in nix-shell</a></li>
+</ol><div class=subsection-header>Nix 2.4 slithers to life</div><ol start=43 class=post-list><li><a href=https://ianthehenry.com/posts/how-to-learn-nix/flakes/>My first brush with flakes</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/more-flakes/>More flakes, unfortunately</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/new-profiles/>Fancy new profiles</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/chipping-away-at-flakes/>Chipping away at flakes</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/nix-develop/>New and unimproved shells</a></li>
+</ol>
+</aside>
+</main>
+<footer>
+© 1899-1907 <a href=https://ianthehenry.com/about/>Ian Henry</a>
+</footer>

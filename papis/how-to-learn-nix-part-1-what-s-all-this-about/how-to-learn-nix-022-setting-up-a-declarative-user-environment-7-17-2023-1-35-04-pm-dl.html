@@ -1,0 +1,431 @@
+<!DOCTYPE html> <html lang=en style><!--
+ Page saved with SingleFile 
+ url: https://ianthehenry.com/posts/how-to-learn-nix/declarative-user-environment/ 
+ saved date: Mon Jul 17 2023 13:35:04 GMT+0600 (Kyrgyzstan Time)
+--><meta charset=utf-8>
+<meta name=viewport content="initial-scale=1,maximum-scale=1">
+<title>How to Learn Nix, Part 22: Setting up a declarative user environment</title>
+<link rel=canonical href=https://ianthehenry.com/posts/how-to-learn-nix/declarative-user-environment/>
+<style>:root{--box-radius:6px;--outer-box-radius:10px}:root{--content-bg:#fff;--gutter-bg:#eeeef3;--text-fg:#4d4d4c;--table-border-color:#ccc;--separator-color:#6d6d6c;--link:#07c;--link-visited:#751a9a;--blockquote-accent:var(--link);--footnote-accent:#ffd2a3;--subscribe-button-bg:#44e66c;--subscribe-button-fg:#11391b;--media-controls-on:#34b553;--media-controls-contrast:#fff;--inline-code-bg:#f3f3fa;--code-block-bg:#f3f3fa;--aside-bg:#f3f3fa;--aside-warning-bg:#fff5d1;--aside-warning-fg:#ac3233;--palette-red:#c82829;--palette-green:#718c00;--palette-yellow:#eab700;--palette-orange:#f5871f;--palette-blue:#4271ae;--palette-purple:#8959a8;--palette-teal:#3e999f;--palette-white:#fefefe;--palette-black:#000;--palette-text:var(--text-fg);--palette-dim:#8e908c;--highlight-bg:var(--palette-yellow);--highlight-fg:var(--text-fg)}#dmt::before{content:"🌖"}#dmt:hover::before{content:"🌗"}@media (prefers-color-scheme:dark){:root:not(.light-theme){--content-bg:#313233;--gutter-bg:#1d1f21;--text-fg:#d8d4cf;--table-border-color:#ccc;--separator-color:#6d6d6c;--link:rgb(82,183,255);--link-visited:rgb(193,104,229);--blockquote-accent:var(--link);--footnote-accent:#a8612f;--subscribe-button-bg:#44e66c;--subscribe-button-fg:#11391b;--media-controls-on:#44e66c;--media-controls-contrast:#11391b;--inline-code-bg:#3c4044;--code-block-bg:#1d1f21;--aside-bg:#3c4044;--aside-warning-bg:#fff5d1;--aside-warning-fg:var(--palette-red);--palette-red:#cc6666;--palette-green:#b5bd68;--palette-yellow:#f0c674;--palette-orange:#de935f;--palette-blue:#81a2be;--palette-purple:#b294bb;--palette-teal:#8abeb7;--palette-white:#fefefe;--palette-black:#000;--palette-text:var(--text-fg);--palette-dim:#969896;--highlight-bg:var(--palette-yellow);--highlight-fg:var(--palette-black)}:root:not(.light-theme) #dmt::before{content:"🌒"}:root:not(.light-theme) #dmt:hover::before{content:"🌓"}}#dmt{width:30px;text-align:right;padding-right:4px;position:absolute;top:0;bottom:0;right:0;border:none;background-color:inherit;cursor:pointer}*{margin:0;padding:0;font:inherit;box-sizing:border-box}html{background-color:var(--gutter-bg);color:var(--text-fg)}body{font-family:system-ui,sans-serif;font-size:12pt;line-height:1.8;word-wrap:break-word}body:not(.content-page) main>aside{padding:0 var(--content-padding)}body.content-page main,body:not(.content-page) article{background-color:var(--content-bg);border-radius:var(--outer-box-radius);padding:var(--content-padding)}pre{word-wrap:normal}em,i{font-style:italic}sup{font-size:75%}sup a::before{content:"["}sup a::after{content:"]"}h1>a:only-child,h2>a:only-child{display:block}main .subsection-header+.post-list{margin-top:0}strong{font-weight:700}ol,ul{padding-left:3ch}.footnotes>ol{margin-top:1em}.footnotes li:not(.highlight){transition:background-color 1s}hr{border-style:solid;border-width:1.5px 0 0;border-radius:1px;border-color:var(--separator-color)}:not(pre)>code{white-space:pre;background-color:var(--inline-code-bg)}li{padding-left:0}a,a:active,a:visited{text-decoration:none}a:hover{text-decoration:underline}aside{--content-padding:0.5em;padding:.5em;border-radius:var(--box-radius);background-color:var(--aside-bg)}a,a:active,header a:visited,footer a:visited,h1 a:visited{color:var(--link)}a:visited{color:var(--link-visited)}a.footnote-ref:visited,a.footnote-backref:visited,.notation-help-link-container a:visited{color:var(--link)}main *+p,main *+pre,main *+aside,main *+section,main *+article,main *+div{margin-top:1em}main pre+div.highlight,main div.highlight+pre,main pre+pre{margin-top:1px}main .post-header *+h1{margin-top:0}code{font-family:Menlo,monospace;padding:0 3px;border-radius:2px}pre{background-color:var(--code-block-bg);font-size:11pt;padding:calc(.75*var(--content-padding)) var(--content-padding);line-height:1.3;border-radius:var(--box-radius);overflow-x:scroll;-webkit-overflow-scrolling:touch}pre code{padding:0;border-radius:0;display:inline-block;background-color:initial}p+p{margin-top:1em}body{margin:0 auto;--content-padding:10px;max-width:768px;-webkit-text-size-adjust:100%;position:relative}header{position:relative}header>*{height:48px;line-height:48px}.promo,.promo:visited,.promo:active{display:block;text-align:center;background-color:var(--link);color:var(--code-block-bg);border-radius:0 0 var(--outer-box-radius) var(--outer-box-radius)}header .site-title{font-size:130%}header nav{position:absolute;right:30px;top:0}@media all and (max-width:400px){:root{--outer-box-radius:0}header{text-align:center}header nav{position:static}:not(pre)>code{white-space:pre-wrap}body{--content-padding:10px}#dmt{padding:0;text-align:center;width:40px}}header ul{padding:0}header li{list-style:none;display:inline-block}header a{display:block;height:100%}header li+li{margin-left:1em}footer{padding:2em 0;font-size:.85em;text-align:center}article h1.post-title{font-size:200%}article .post-title a{display:block}article .meta{font-size:90%;font-style:italic}.post-header h1{line-height:1.2em;margin-bottom:.5em}.post-footer{text-align:center}.post-footer a{display:block}ol.post-list{list-style-position:inside;padding:0}.series-rider .series-name{font-style:italic}.highlight{color:var(--palette-text)}.highlight .k{color:var(--palette-purple)}.highlight .n{color:var(--palette-text)}.highlight .o{color:var(--palette-teal)}.highlight .p{color:var(--palette-text)}.highlight .cp{color:var(--palette-dim)}.highlight .c1{color:var(--palette-dim)}.highlight .kn{color:var(--palette-teal)}.highlight .m{color:var(--palette-orange)}.highlight .nb{color:var(--palette-text)}.highlight .se{color:var(--palette-orange)}.highlight .sr{color:var(--palette-green)}.highlight .s1{color:var(--palette-green)}</style>
+<meta property=og:title content="How to Learn Nix, Part 22: Setting up a declarative user environment">
+<meta property=og:type content=website>
+<meta property=og:url content=https://ianthehenry.com/posts/how-to-learn-nix/declarative-user-environment/>
+<meta name=description content="We open on a chat conversation that I had with my good friend and former colleague “Doug,” in which we were discussing my experience reading through the Nix manual.
+ ian: there were certain things that i wanted to learn how to do
+ ian: and i still don't really know how to do them
+ ian: like
+ ian: it seems like
+ ian: you should just have a file
+ ian: called &quot;ian.nix&quot;
+ ian: where you write down the things you want
+ ian: and then there should be a way to say &quot;install exactly this set
+      of things&quot;
+ ian: but there isn't
+ ian: so i still want to figure out how to write that
+ ian: anyway
+">
+<meta property=og:description content="We open on a chat conversation that I had with my good friend and former colleague “Doug,” in which we were discussing my experience reading through the Nix manual.
+ ian: there were certain things that i wanted to learn how to do
+ ian: and i still don't really know how to do them
+ ian: like
+ ian: it seems like
+ ian: you should just have a file
+ ian: called &quot;ian.nix&quot;
+ ian: where you write down the things you want
+ ian: and then there should be a way to say &quot;install exactly this set
+      of things&quot;
+ ian: but there isn't
+ ian: so i still want to figure out how to write that
+ ian: anyway
+">
+<meta property=og:image content=https://ianthehenry.com/checkerboard.png>
+<meta name=twitter:creator content=@ianthehenry>
+<meta name=twitter:card content=summary>
+<link type=image/x-icon rel="shortcut icon" href="data:image/vnd.microsoft.icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAHH1uIDShg/xEsZv8GFk3/CSJb/wgZT/8IGU//CBlP/wkiW/8HGE7/CBlP/wkiW/8HIFX/BxhO/wcgVf8OK2t7JDhz/wcfW/8NNn7/CSpq/wkjYf8MJGP/DCJg/w02ef9SqdX/TKHJ/1my2f9Moc3/UqzV/1Cr1v9Pocf/Ditr/xk2cf8KJGL/CjR8/wwva/8RK2r/Cido/w8qa/8LLW//TqjT/1Gnz/9bsNf/Sp/K/1Wt2f9Wrtj/UKjQ/w8xc/8gPHj/Di5w/xk4ef8TL27/Dy5u/xU3fv8QLGv/Ditr/1qy3f9dttv/Yrje/0ecx/9Knsz/U6fQ/1m13f8YN3n/JjZx/wszdv8YOXz/Eilm/xc3e/8dSZT/GDJz/xk/hv9hu+P/WbHZ/1mv1v9Kn8z/WLHd/1212v9ds9n/Eipr/xcqYv8SOX3/GzRz/xQrZ/8aM3D/HEuU/xc0df8fPYD/Yrre/1603P9dt9z/VKvY/1iz4v9etNr/Y73m/xk5fP8cMm3/JEWK/xc0dP8eO3v/Hjd4/ydRnP8WM3P/Gjd3/2bA5/9dtd//Ybng/2K95v9ct+P/Ybnf/2K95/8oS5L/GChg/xxBh/8lSIz/GC5s/yM5ev8hRoz/HTp7/yE6e/9Zsdz/YLzn/2jF7v9ryfL/YLzn/1qu1f9htdz/GDyD/y0/ev9qx/X/acDn/1235v9euun/Yb3r/1665v9owu7/GUOL/yhGh/8nUJL/MkmI/yBFiP8jOHb/MVag/yM+gv8VMGv/acXx/27G7/9szv3/bMb1/2zD6/9vy/X/edf5/yBHjv8yS47/JEuO/zVLiv8nS5D/LkOB/yRXpP8lQoT/H0WI/3fS+P910Pf/b8/8/2bB7/991Pn/eNb+/3nT+P8pS5L/O1GS/ytUnP86UJH/NF2k/zNLjP8sXKv/JkCB/x4+ff+B2/3/etT9/4He//922f//fNf//3TT//991/7/NU6N/zZSkP86Zav/PlWR/zFepv88ZKb/MF2n/yQ/gf8bNXH/fd3//3/b//+K6P//ft///3vV//993f//gdz//0hWlf9FZKX/RmOj/0JXlv9IeMP/QXKz/0Jsuf8eO3z/Hjt2/3vd//+C3v//ju3//3zg//+H4v//guL//4nj//9HXp3/UGur/ztgqf9JYqP/S3G4/05ur/9EbLT/Hjt7/zNJhf+G4///heT//4rq//+E5///iOT//4jr//+G4///UXO0/09iov9EX6H/SWWn/1V5wP9Kaa7/RGSp/ydLj/8NKGCfDShg/x8+d/8RLGb/CBlP/wYWTf8GFEj/CBNH/wooZP8JIlv/CCJd/woWSf8HGE7/ByBV/wwgU/8fO3mfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="><meta http-equiv=content-security-policy content="default-src 'none'; font-src 'self' data:; img-src 'self' data:; style-src 'unsafe-inline'; media-src 'self' data:; script-src 'unsafe-inline' data:; object-src 'self' data:; frame-src 'self' data:;"><style>img[src="data:,"],source[src="data:,"]{display:none!important}</style></head>
+<body class=content-page>
+<a class=promo href=https://janet.guide/ target=_blank><i>psst, hey kid, wanna read a weird programming book</i></a>
+<header>
+<a class=site-title href=https://ianthehenry.com/>Ian Henry</a>
+<nav>
+<ul><li><a href=https://ianthehenry.com/about/>About</a><li><a href=https://ianthehenry.com/posts/>Blog</a><li><a href=https://ianthehenry.com/stuff/>Stuff</a></ul>
+</nav>
+<button id=dmt title="Toggle dark mode"></button>
+</header>
+<main>
+<aside class=series-rider>
+<p>This post is part of the series <a class=series-name href=https://ianthehenry.com/posts/how-to-learn-nix/>How to Learn Nix</a>, a rambling diary in which I work my way through the Nix manual in excrutiating detail.</p>
+</aside>
+<article class=post>
+<div class=post-header>
+<time class=meta datetime=2021-03-20>March 20, 2021</time>
+<h1 class=post-title>
+<a href=https://ianthehenry.com/posts/how-to-learn-nix/declarative-user-environment/>How to Learn Nix, Part&nbsp;22:<br>Setting up a declarative user environment</a></h1>
+</div>
+<div class=post-content><p>We open on a chat conversation that I had with my good friend and former colleague “Doug,” in which we were discussing my experience reading through the Nix manual.</p>
+<pre tabindex=0><code> ian: there were certain things that i wanted to learn how to do
+ ian: and i still don't really know how to do them
+ ian: like
+ ian: it seems like
+ ian: you should just have a file
+ ian: called "ian.nix"
+ ian: where you write down the things you want
+ ian: and then there should be a way to say "install exactly this set
+      of things"
+ ian: but there isn't
+ ian: so i still want to figure out how to write that
+ ian: anyway
+</code></pre><p>At this point I intended to change the topic, because I wanted to talk to Doug about videogames or something. But the topic was not to be changed:</p>
+<pre tabindex=0><code>doug: isn't that command nix-env -irf ian.nix? or am i missing something
+ ian: wut
+ ian: oh
+ ian: i have no idea
+ ian: maybe!
+doug: that was roughly my takeaway from my adventures
+</code></pre><p>I pause, and think about it. I remember <code>nix-env --set</code>, and how I think I can use that if I can figure out how to write an expression that is a derivation for a user environment – one of those good old <code>/nix/store/xxx-user-environment</code> directories that we’ve seen many times.</p>
+<p>I had spent a little time thinking about this already, and my intention was to read through the Nixpkgs manual, as I suspected that somewhere in that massive repo I would find some <code>mkUserEnvironmentDerivation</code> function.<sup id=fnref:1><a href=#fn:1 class=footnote-ref role=doc-noteref>1</a></sup> I could imagine how I would write this derivation myself – it’s basically just <code>find $targets -mindepth 1 -exec ln -s {} $out \;</code> (yes and a separate <code>find</code> to set up the directory structure and you’d need to get the relative path for the whatever I’m not getting sucked into this rabbit hole with you right now) – but there’s gotta be some built-in “official” way to do that. And if I could find that official way, I could probably learn a lot about how the environment actually gets set up.</p>
+<p>Anyway. These thoughts pass through my head, and I reply succinctly:</p>
+<pre tabindex=0><code> ian: i don't know how to write ian.nix
+ ian: i guess
+ ian: i will try things
+ ian: and see what happens
+ ian: no spoilers
+</code></pre><p>But Doug is determined to spoil:</p>
+<pre tabindex=0><code>doug: have you considered a record? or a list? or maybe it doesn't matter
+      and it's unclear why?
+</code></pre><p>At this point I’m thinking “Oh, Doug doesn’t get it. See, <code>nix-env -i</code> requires a single derivation; I read the whole manual so I know that I need to give it an expression that resolves to a derivation.” I’m sure if I tried to “install” a list, that command invocation would just fail.</p>
+<p>Or would it? I become unsure. There are no type signatures here. <code>man nix-env</code>’s section on <code>--install</code> seems to support my position: the documentation talks only about single derivations. But still: maybe? Dynamically typed languages love implicit overloading, right?</p>
+<p>I politely disagree.</p>
+<pre tabindex=0><code> ian: yeah that's i guess
+ ian: i don't know WHY that would work
+ ian: given my understanding of nix-env -i
+doug: everything is lazy except for the thing where shit gets installed
+</code></pre><p>Doug said a swear, and I apologize for repeating it. He didn’t know this was going to end up in a blog post.</p>
+<pre tabindex=0><code> ian: but like i have always specified a single package
+ ian: there's nothing about it being able to work on lists or sets or something
+ ian: like is it going to recursively evaluate every derivation in
+      any expression i give it?
+ ian: that's insane and also probably exactly how it works
+doug: my understanding is that it doesn't "work" on a list, it just evaluates
+      the expression and the side-effect of doing that installs the packages
+doug: and then discards the result
+</code></pre><p>I meditate on this. It makes some sense, and actually tickles a bit of intuition that I remember from long ago: I remember thinking that Nix worked by evaluating expressions, and somehow collecting a list of derivations encountered during that evaluation – like a writer monad – and then installing them as a second pass once it had evaluated everything.</p>
+<p>I had completely forgotten that I had this mental model before Doug said that, but it comes back to me. This was my intuition for how NixOS decided what packages it needed to install when I would change <code>configuration.nix</code>. I don’t think I ever thought to apply the intuition to <code>nix-env</code>, but maybe – it’s been a long time.</p>
+<p>Still, that can’t be right. Because:</p>
+<pre tabindex=0><code> ian: but that would mean that if you type nix-env -i it would install the
+      whole world
+ ian: which like
+</code></pre><p>You know that scene at the end of <em>Oldboy</em> where you’re slowly realizing what’s happening right as the protagonist is slowly realizing what’s happening?</p>
+<pre tabindex=0><code>doug: yes
+ ian: surely not
+doug: oh yes
+ ian: surely not
+</code></pre><p>The curtain has been drawn back. I can see the entire scheme laid out before me. I am faced with a horror too great for me to comprehend. The mind rejects it.</p>
+<pre tabindex=0><code> ian: oh man this is going in the post
+ ian: this conversation
+</code></pre><p>I respond flippantly, as I am wont to do.</p>
+<pre tabindex=0><code>doug: i mean my state was kind of fucked up the whole time
+doug: so i might be remembering wrong or i typed something that i thought
+      was right
+ ian: i do remember you doing something and it was trying to install the
+      whole world
+ ian: but surely it wasn't THAT
+</code></pre><p>At this point I have to apologize again for Doug’s language but also clarify something.</p>
+<p>I had told Doug that I was writing this series before I had finished reading the Nix manual, and before I had published any of these blog posts. And he had pretty much the optimal response: “Oh, yeah, I did that once. Lemme send it to you.” He then proceeds to pull out <em>his own Nix diary</em>, a chronicle of his attempt to set up a brand new laptop using Nix as his primary package manager. (Sans NixOS, because he’s brave but not crazy.)</p>
+<p>I had read through his diary when I was getting pretty close to the end of the Nix manual and thought it wouldn’t corrupt me too much. But I was sort of skimming it, and obviously overlooked this most fascinating of experiences.</p>
+<p>Fortunately, he proceeded to quote from his own Nix diary:</p>
+<pre tabindex=0><code>doug: &gt; But I don't know how to say "just go back to whatever the config is".
+      &gt; I thought nix-env -ir would be it (which is install and remove all,
+      &gt; equivalent to uninstalling everything first), but that seemed to...
+      &gt; want to install everything?
+</code></pre><p>I trust him to remember this. But I also cannot accept it. I apply a heuristic to try to decide if this is true: technical Darwinism. If it were the case that typing <code>nix-env -i</code> would try to install every package in Nixpkgs, would Nix still exist? No: even if it ever worked that way, that is such an obvious bug that it would have been fixed years ago. Nix would not exist with that bug. And Nix still exists, so that bug must not exist. Right?</p>
+<pre tabindex=0><code> ian: that's like
+ ian: that's so
+ ian: easy
+ ian: to shoot yourself in the foot with
+</code></pre><p>But the sad truth comes to light.</p>
+<pre tabindex=0><code>doug: https://github.com/NixOS/nix/issues/1334
+doug: hahaha
+doug: oh here's the original one https://github.com/NixOS/nix/issues/308
+doug: 2014
+doug: open
+doug: &gt; I've come to like this feature
+</code></pre><p>And here we are.</p>
+<p>I rush to get my thoughts down as quickly as I can, as I know that I will not remember the details of the conversational flow and my own thought processes come tomorrow. The date: March 4, 2021. The day that I published the first 4 posts in this series – which is why we were having this conversation in the first place.</p>
+<p>A week later I pick this back up, and decide to actually get around to trying this. Because this conversation definitely shortened the time it would take me to figure this out, I included it above. Now we’re on the same page again. You are once again in sync with my Nix journey.</p>
+<p>Because I don’t really want to mess up my <em>own</em> profile, I make a new one:</p>
+<pre tabindex=0><code>$ nix-env -iA nixpkgs.hello --profile ~/scratch/profile
+installing 'hello-2.10'
+these paths will be fetched (0.02 MiB download, 0.07 MiB unpacked):
+  /nix/store/70pxcwpdiq7ddrk4w8axfl51s9xh9ahn-hello-2.10
+copying path '/nix/store/70pxcwpdiq7ddrk4w8axfl51s9xh9ahn-hello-2.10' from 'https://cache.nixos.org'...
+building '/nix/store/14p1q2z1shvjw6jkk5wd63l0bia0wx6v-user-environment.drv'...
+created 2 symlinks in user environment
+</code></pre><pre tabindex=0><code>$ ll ~/scratch/profile*
+/Users/ian/scratch/profile@ -&gt; profile-1-link
+/Users/ian/scratch/profile-1-link@ -&gt; /nix/store/l8h2bfp2grx7c0ia3c4awmsf2m3666a0-user-environment
+</code></pre><pre tabindex=0><code>$ tree -l ~/scratch/profile
+/Users/ian/scratch/profile/
+├── bin -&gt; /nix/store/70pxcwpdiq7ddrk4w8axfl51s9xh9ahn-hello-2.10/bin
+│&nbsp;&nbsp; └── hello
+├── manifest.nix -&gt; /nix/store/nhh2gf0cpiaw5rsnr4g3xnai1jflxmgx-env-manifest.nix
+└── share -&gt; /nix/store/70pxcwpdiq7ddrk4w8axfl51s9xh9ahn-hello-2.10/share
+    ├── info
+    │&nbsp;&nbsp; └── hello.info
+    └── man
+        └── man1
+            └── hello.1.gz
+</code></pre><p>Neat. I wasn’t really sure if that would work.<sup id=fnref:2><a href=#fn:2 class=footnote-ref role=doc-noteref>2</a></sup></p>
+<p>Now let’s try to make a “declarative” profile:</p>
+<pre><code>$ cat ian.nix
+</code></pre>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-nix data-lang=nix><span class=k>with</span> <span class=kn>import</span> <span class=sr>&lt;nixpkgs&gt;</span> <span class=p>{};</span> <span class=p>[</span> <span class=n>hello</span> <span class=n>git</span> <span class=p>]</span>
+</code></pre></div><pre><code>$ nix-env -p ~/scratch/profile --set ian.nix
+error: selector 'ian.nix' matches no derivations
+</code></pre>
+<p>Er, right. Uhh…</p>
+<pre><code>$ nix-env -p ~/scratch/profile --set 'import ./ian.nix'
+error: getting status of '/Users/ian/scratch/import ./ian.nix': No such file or directory
+</code></pre>
+<p>???</p>
+<p>I read the <code>man nix-env</code> and learn that <code>--set</code> only works if I provide the <em>name</em> of a package. So… I have no idea what to do about that. Not use <code>--set</code>, I guess. And here I thought… that it was anything? Nope. Let’s try it Doug’s way:</p>
+<pre tabindex=0><code>$ nix-env -p ~/scratch/profile -irf ian.nix
+building '/nix/store/6mlp94f12lh71knbvki2qk4g8qrk8ala-user-environment.drv'...
+created 186 symlinks in user environment
+
+$ ls ~/scratch/profile/bin
+git@                git-credential-netrc@       git-credential-osxkeychain@
+git-cvsserver@      git-http-backend@           git-receive-pack@
+git-shell@          git-upload-archive@         git-upload-pack@
+hello@
+</code></pre><p>Okay! Lotta symlinks. Mostly <code>man</code> pages for <code>git</code>. But… that was it! That was super easy.</p>
+<p>Now I have no idea <em>why</em> that was super easy. I mean, I <em>sort of</em> do – some sort of mental image is forming here.</p>
+<pre tabindex=0><code>$ nix-env -qaf ian.nix
+git-2.30.1
+hello-2.10
+</code></pre><p>So what it <em>seems like</em> <code>nix-env</code> is doing is <em>recursively evaluating</em> whatever expression you give it. Instead of just evaluating the argument you give it, it is “deeply” evaluating everything, and installing every derivation it can get its hands on – or so it seems.</p>
+<p>Let’s test a few different things:</p>
+<pre><code>$ cat ian.nix
+</code></pre>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-nix data-lang=nix><span class=k>with</span> <span class=kn>import</span> <span class=sr>&lt;nixpkgs&gt;</span> <span class=p>{};</span> <span class=p>[</span> <span class=p>[[</span><span class=n>hello</span><span class=p>]</span> <span class=n>hello</span><span class=p>]</span> <span class=p>{</span> <span class=n>attribute</span> <span class=o>=</span> <span class=n>git</span><span class=p>;</span> <span class=p>}</span> <span class=p>]</span>
+</code></pre></div><pre><code>$ nix-env -qaf ian.nix
+git-2.30.1
+hello-2.10
+
+$ nix-env -p ~/scratch/profile -irf ian.nix
+</code></pre>
+<p>Doesn’t seem to mind arbitrary nesting. Seems to deduplicate derivations. Evaluates to the exact same set, apparently, such that <code>nix-env -irf</code> gave me no output.</p>
+<p>Let’s try something weirder:</p>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-nix data-lang=nix><span class=k>with</span> <span class=kn>import</span> <span class=sr>&lt;nixpkgs&gt;</span> <span class=p>{};</span> <span class=p>[</span> <span class=p>({}:</span> <span class=n>hello</span><span class=p>)</span> <span class=p>{</span> <span class=n>attribute</span> <span class=o>=</span> <span class=n>git</span><span class=p>;</span> <span class=p>}</span> <span class=p>]</span>
+</code></pre></div><p>No problems with that. But if I try:</p>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-nix data-lang=nix><span class=k>with</span> <span class=kn>import</span> <span class=sr>&lt;nixpkgs&gt;</span> <span class=p>{};</span> <span class=p>[</span> <span class=p>(</span><span class=n>x</span><span class=p>:</span> <span class=n>hello</span><span class=p>)</span> <span class=p>{</span> <span class=n>attribute</span> <span class=o>=</span> <span class=n>git</span><span class=p>;</span> <span class=p>}</span> <span class=p>]</span>
+</code></pre></div><pre><code>$ nix-env -qaf ian.nix
+error: expression does not evaluate to a derivation (or a set or list of those)
+</code></pre>
+<p>Aha. Okay. And indeed, tossing other values in there – numbers, strings, nulls, etc – gives me the same error.</p>
+<p>So okay – at least it’s like… at least it’s not just cherry-picking derivations out of an arbitrary tree. I can feel <em>okay</em> about this. Minus the part where it’s completely undocumented.<sup id=fnref:3><a href=#fn:3 class=footnote-ref role=doc-noteref>3</a></sup></p>
+<p>Now I can write my own “real” <code>ian.nix</code> by basically copying the output of <code>nix-env -q</code>…</p>
+<p>I remember, though, that <code>nix-env -q</code> reports <em>derivation names</em>, but I need <em>attribute names</em> to put in my file. But these are <em>almost always</em> the same thing, which is super confusing – you don’t really need to think about this distinction 90% of the time but then sometimes something goes wrong and suddenly you do.</p>
+<p>Anyway, this works great except for <code>nss-cacert</code>, which is apparently just called <code>nixpkgs.cacert</code>.</p>
+<p>I try to test this out, but I’m getting errors about an excellent package called <a href=https://ngrok.com/><code>ngrok</code></a>, which I’ve added to my environment since last we spoke.</p>
+<pre tabindex=0><code>$ nix-env -p ~/scratch/profile -irf ian.nix
+error: Package ‘ngrok-2.3.35’ in /nix/store/mi0xpwzl81c7dgpr09qd67knbc24xab5-nixpkgs-21.05pre274251.f5f6dc053b1/nixpkgs/pkgs/tools/networking/ngrok-2/default.nix:38
+has an unfree license (‘unfree’), refusing to evaluate.
+</code></pre><p>The rest of the error message basically tells me to do this:</p>
+<pre tabindex=0><code>$ mkdir -p ~/.config/nixpkgs
+
+$ echo '{ allowUnfree = true; }' &gt; ~/.config/nixpkgs/config.nix
+</code></pre><p>And now it works just fine.</p>
+<p>Neat! Okay.</p>
+<p>This seems like a pretty good solution to the declarative user environment problem? That file is pretty simple:</p>
+<pre><code>$ cat ian.nix
+</code></pre>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-nix data-lang=nix><span class=k>with</span> <span class=kn>import</span> <span class=sr>&lt;nixpkgs&gt;</span> <span class=p>{};</span> <span class=p>[</span>
+  <span class=n>cabal-install</span>
+  <span class=n>curl</span>
+  <span class=n>fzf</span>
+  <span class=n>git</span>
+  <span class=c1># ...</span>
+  <span class=n>xz</span>
+  <span class=n>yarn</span>
+  <span class=n>yasm</span>
+  <span class=n>zsh</span>
+<span class=p>]</span>
+</code></pre></div><p>Now, what else do I want to do?</p>
+<p>Well, over time I expect that I will <code>nix-env -iA</code> things, and will want to see how my environment has diverged from my declarative environment so that I can bring them into sync.</p>
+<p>But that’s easy to do:</p>
+<pre tabindex=0><code>$ nix-env -p ~/scratch/profile -iA nixpkgs.hello
+installing 'hello-2.10'
+these paths will be fetched (0.02 MiB download, 0.07 MiB unpacked):
+  /nix/store/70pxcwpdiq7ddrk4w8axfl51s9xh9ahn-hello-2.10
+copying path '/nix/store/70pxcwpdiq7ddrk4w8axfl51s9xh9ahn-hello-2.10' from 'https://cache.nixos.org'...
+building '/nix/store/687kj91sv4cdvhf2z9rkrdaj2g7gb6g2-user-environment.drv'...
+created 767 symlinks in user environment
+</code></pre><pre tabindex=0><code>$ diff -u --label ian.nix &lt;(nix-env -qaf ian.nix) --label current &lt;(nix-env -p ~/scratch/profile -q)
+--- ian.nix
++++ current
+@@ -3,6 +3,7 @@
+ fzf-0.25.1
+ git-2.30.1
+ graphviz-2.42.2
++hello-2.10
+ hexedit-1.2.13
+ htop-3.0.5
+ hugo-0.81.0
+</code></pre><p>Handy command, maybe? It occurs to me that this is also a <em>better</em> version of <code>nix-env -u --dry-run</code> for seeing outdated packages – I tweak it a little bit to show me “the diff that will be applied to my environment if I resync,” which is the opposite of what I had above, and save it in <a href=https://ianthehenry.com/posts/sd-my-script-directory/>my script directory</a>.</p>
+<p>Now it looks like this (after a <code>nix-channel --update</code>):</p>
+<pre tabindex=0><code>$ sd nix diff
+--- current
++++ user.nix
+-git-2.30.0
++git-2.30.1
+-hello-2.10
+-python3-3.8.7
++python3-3.8.8
+</code></pre><p>For the record, in the “full version,” that’s:</p>
+<pre><code>$ sd cat nix diff
+</code></pre>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=cp>#!/usr/bin/env bash
+</span><span class=cp></span>
+<span class=nb>set</span> -euo pipefail
+
+diff -U <span class=m>0</span> <span class=se>\
+</span><span class=se></span>  --label current &lt;<span class=o>(</span>nix-env -q<span class=o>)</span> <span class=se>\
+</span><span class=se></span>  --label user.nix &lt;<span class=o>(</span>nix-env -qaf ~/dotfiles/user.nix<span class=o>)</span> <span class=se>\
+</span><span class=se></span><span class=p>|</span> grep -v <span class=s1>'^@'</span>
+</code></pre></div><p>Neat. Now any packages I manually install will show up as <code>-</code> lines to tell me that “re-syncing” with <code>nix-env -irf ~/dotfiles/user.nix</code> will uninstall them. I think that’s clear; I think I can remember that. I might end up hating it, or making the output fancier. For now? Seems great.</p>
+<aside>
+<p>Update, nine months later: I did end up making this fancier, because the diff wouldn’t always put upgrades next to one another. Sometimes I would get output like this:</p>
+<pre tabindex=0><code>$ sd nix diff
+-htop-3.1.0
+-nodejs-14.18.0
+-git-2.33.0
+-delta-0.8.3
++nodejs-14.18.1
++git-2.33.1
++delta-0.10.2
++racer 2.1.48
+</code></pre><p>And it was very difficult for me to parse that. The <a href=https://github.com/ianthehenry/sd-nix>fancy improved version</a> looks like this instead:</p>
+<pre tabindex=0><code>$ sd nix diff
+- htop 3.1.0
++ racer 2.1.48
+! nodejs 14.18.0 -&gt; 14.18.1
+! git 2.33.0 -&gt; 2.33.1
+! delta 0.8.3 -&gt; 0.10.2
+</code></pre><p>Except it’s also colorized. I still don’t have a way to include colorized terminal excerpts here. I should do something about that.</p>
+</aside>
+<p>This is also <em>much faster</em> than <code>nix-env -u --dry-run</code>, because it’s not doing anything with package names, just attributes. So that’s pretty nice too. And it’s not going to end up trying to get me to <a href=https://ianthehenry.com/posts/how-to-learn-nix/my-first-package-upgrade/>install some weird alpha version of Python</a>. Which is a bonus.</p>
+<p>Alright! I feel pretty good about this. Thanks, Doug. I think it would have taken me much longer to get here without your help.</p>
+<p>But before I go, I just have to see for myself…</p>
+<pre tabindex=0><code>$ nix-env -p ~/scratch/profile -i
+</code></pre><p>Oh. Oh yeah. <em>Oh yeah it does</em>.</p>
+<p>It blew out my scrollback, but I can show you the very end:</p>
+<pre tabindex=0><code>...
+installing 'zxing-3.1.0'
+installing 'zydis-3.1.0'
+installing 'zynaddsubfx-3.0.5'
+installing 'zz-unstable-2021-01-26'
+installing 'zziplib-0.13.71'
+installing 'zzuf-0.15'
+error: Package ‘1oom-1.0’ in /nix/store/v43dzqk60bmd4rpksq5ix9gibcj18as9-nixpkgs-21.05pre273941.a2b0ea6865b/nixpkgs/pkgs/games/1oom/default.nix:27 is not supported on ‘x86_64-darwin’, refusing to evaluate.
+
+a) To temporarily allow packages that are unsupported for this system, you can 
+   use an environment variable for a single invocation of the nix tools.
+
+     $ export NIXPKGS_ALLOW_UNSUPPORTED_SYSTEM=1
+
+b) For `nixos-rebuild` you can set
+  { nixpkgs.config.allowUnsupportedSystem = true; }
+in configuration.nix to override this.
+
+c) For `nix-env`, `nix-build`, `nix-shell` or any other Nix command you can add
+  { allowUnsupportedSystem = true; }
+to ~/.config/nixpkgs/config.nix.
+
+(use '--show-trace' to show detailed location information)
+</code></pre><p><em>Phew</em>. Thanks, <code>1oom-1.0</code>. Saved me there.</p>
+<p>I do realize that I’m relying on exactly this same behavior whenever I run <code>nix-env -irf ian.nix</code>. And I like that I can do that. But I would <em>really like it much more</em> if it went something like this:</p>
+<pre tabindex=0><code>$ nix-env -irf ian.nix
+error: no selector provided
+If you want to install the entire package universe, re-run this
+command with --yes-i-really-want-to-install-every-package
+
+$ nix-env -irf ian.nix --yes-i-really-want-to-install-every-package
+</code></pre><p>But oh well. There’s <em>no way</em> I’ll ever <a href=https://github.com/NixOS/nix/issues/308#issuecomment-564961230>type <code>nix-env -i</code> by itself by accident</a>, so what are the odds that I’ll ever have to think about this again he said his voice trailing off into a mumble.</p>
+<section class=footnotes role=doc-endnotes>
+<hr>
+<ol>
+<li id=fn:1 role=doc-endnote>
+<p>If you are paying way too much attention you might remember that I learned in <a href=https://ianthehenry.com/posts/how-to-learn-nix/my-first-nix-bug/>in part 20</a> that this is not a Nix function, it’s a C++ thing. But part 20 took so long to finish that the timeline is a bit muddied: I started writing this post after I started writing part 20, but finished it before I got to that part, so just… you don’t care anyway.&nbsp;<a href=#fnref:1 class=footnote-backref role=doc-backlink>↩︎</a></p>
+</li>
+<li id=fn:2 role=doc-endnote>
+<p>Yes, I already did this <a href=https://ianthehenry.com/posts/how-to-learn-nix/my-first-nix-bug/>in part 20</a>, but due to the timeline multiverse I did actually learn how to do it here first.&nbsp;<a href=#fnref:2 class=footnote-backref role=doc-backlink>↩︎</a></p>
+</li>
+<li id=fn:3 role=doc-endnote>
+<p>In part 26, I will learn that <a href=https://ianthehenry.com/posts/how-to-learn-nix/an-infinite-list-of-functions/>this is a little more complicated</a> than I thought.&nbsp;<a href=#fnref:3 class=footnote-backref role=doc-backlink>↩︎</a></p>
+</li>
+</ol>
+</section></div>
+</article>
+<div class=post-footer>
+<a href="mailto:ianthehenry@gmail.com?subject=let%27s%20talk%20about%20%22Setting%20up%20a%20declarative%20user%20environment%22&amp;body=First%20of%20all,%20I%20just%20wanted%20to%20say%20that%20I%20forgive%20you%20for%20not%20having%20a%20real%20comment%20system%20on%20your%20site.">comment on this post</a><a href=https://ianthehenry.com/posts/how-to-learn-nix/how-to-learn-nixpkgs/>Next up ➜ How to learn Nixpkgs</a></div>
+<aside class=series-rider>
+<p>
+This post is part of the series <a class=series-name href=https://ianthehenry.com/posts/how-to-learn-nix/>How to Learn Nix</a>.
+You can
+<a target=_blank href=https://ianthehenry.com/feed.xml>subscribe to my RSS feed</a>
+or
+<a target=_blank href=https://twitter.com/ianthehenry>follow me on Twitter</a>
+for more, or <a href=https://ianthehenry.com/posts/>peruse my back catalog</a> if you're in the mood for something different.
+<div class=subsection-header>Opening remarks</div><ol start=1 class=post-list><li><a href=https://ianthehenry.com/posts/how-to-learn-nix/introduction/>What's all this about?</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/prior-knowledge/>Prior knowledge</a></li>
+</ol><div class=subsection-header>Reading the Nix manual</div><ol start=3 class=post-list><li><a href=https://ianthehenry.com/posts/how-to-learn-nix/glossary/>What we talk about when we talk about Nix</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/quick-start-guide/>Quick starts, full hearts</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/basic-package-management/>Basic package management</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/profiles/>Profiles</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/garbage-collection/>Garbage collection</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/channels/>Channels</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/sharing/>Learning to share</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/my-first-derivation/>My first derivation</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/okay-my-actual-first-derivation/>Okay my actual first derivation</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/nix-language/>The Nix expression language</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/derivations/>Derivations</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/built-in-functions/>Built-in Functions</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/advanced-topics/>Advanced Topics</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/command-reference/>Command Reference</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/configuration/>Configuration</a></li>
+</ol><div class=subsection-header>Interlude: in which we follow our hearts, however briefly</div><ol start=18 class=post-list><li><a href=https://ianthehenry.com/posts/how-to-learn-nix/nix-manual-reflection/>So I read the manual huh</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/switching-from-homebrew-to-nix/>Switching from Homebrew to Nix</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/my-first-nix-bug/>My first Nix bug</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/my-first-package-upgrade/>My first package upgrade</a></li>
+<li><strong><a href=https://ianthehenry.com/posts/how-to-learn-nix/declarative-user-environment/>Setting up a declarative user environment</a></strong>&nbsp;←&nbsp;you are here</li>
+</ol><div class=subsection-header>Reading the Nixpkgs manual</div><ol start=23 class=post-list><li><a href=https://ianthehenry.com/posts/how-to-learn-nix/how-to-learn-nixpkgs/>How to learn Nixpkgs</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/overlays/>Overlays</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/overriding/>Overriding</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/an-infinite-list-of-functions/>An infinite list of functions</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/even-more-functions-somehow/>Even more functions, somehow</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/the-standard-environment/>The standard environment</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/derivations-in-detail/>Derivations in detail</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/cross-compilation/>Cross-compilation</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/platform-notes/>Platform notes</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/builders/>Builders</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/languages-and-frameworks/>Languages and frameworks</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/random-package-grab-bag/>Random package grab-bag</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/how-to-give-back/>How to give back</a></li>
+</ol><div class=subsection-header>Documentation behind us, we set out on our own</div><ol start=36 class=post-list><li><a href=https://ianthehenry.com/posts/how-to-learn-nix/nixpkgs-reflection/>So I read the other manual, huh</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/saving-your-shell/>Saving your shell</a></li>
+</ol><div class=subsection-header>Oh right forgot about Nix Pills</div><ol start=38 class=post-list><li><a href=https://ianthehenry.com/posts/how-to-learn-nix/nix-pills/>Nix Pills</a></li>
+</ol><div class=subsection-header>Our whole lives ahead of us</div><ol start=39 class=post-list><li><a href=https://ianthehenry.com/posts/how-to-learn-nix/python3-alpha/>How to install Python</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/open-questions/>Open questions</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/ambiguous-packages/>Ambiguous packages</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/nix-zshell/>Running zsh in nix-shell</a></li>
+</ol><div class=subsection-header>Nix 2.4 slithers to life</div><ol start=43 class=post-list><li><a href=https://ianthehenry.com/posts/how-to-learn-nix/flakes/>My first brush with flakes</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/more-flakes/>More flakes, unfortunately</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/new-profiles/>Fancy new profiles</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/chipping-away-at-flakes/>Chipping away at flakes</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/nix-develop/>New and unimproved shells</a></li>
+</ol>
+</aside>
+</main>
+<footer>
+© 1899-1907 <a href=https://ianthehenry.com/about/>Ian Henry</a>
+</footer>

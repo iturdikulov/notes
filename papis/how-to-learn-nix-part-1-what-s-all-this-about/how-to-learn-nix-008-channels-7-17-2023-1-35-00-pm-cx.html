@@ -1,0 +1,173 @@
+<!DOCTYPE html> <html lang=en style><!--
+ Page saved with SingleFile 
+ url: https://ianthehenry.com/posts/how-to-learn-nix/channels/ 
+ saved date: Mon Jul 17 2023 13:35:00 GMT+0600 (Kyrgyzstan Time)
+--><meta charset=utf-8>
+<meta name=viewport content="initial-scale=1,maximum-scale=1">
+<title>How to Learn Nix, Part 8: Channels</title>
+<link rel=canonical href=https://ianthehenry.com/posts/how-to-learn-nix/channels/>
+<style>:root{--box-radius:6px;--outer-box-radius:10px}:root{--content-bg:#fff;--gutter-bg:#eeeef3;--text-fg:#4d4d4c;--table-border-color:#ccc;--separator-color:#6d6d6c;--link:#07c;--link-visited:#751a9a;--blockquote-accent:var(--link);--footnote-accent:#ffd2a3;--subscribe-button-bg:#44e66c;--subscribe-button-fg:#11391b;--media-controls-on:#34b553;--media-controls-contrast:#fff;--inline-code-bg:#f3f3fa;--code-block-bg:#f3f3fa;--aside-bg:#f3f3fa;--aside-warning-bg:#fff5d1;--aside-warning-fg:#ac3233;--palette-red:#c82829;--palette-green:#718c00;--palette-yellow:#eab700;--palette-orange:#f5871f;--palette-blue:#4271ae;--palette-purple:#8959a8;--palette-teal:#3e999f;--palette-white:#fefefe;--palette-black:#000;--palette-text:var(--text-fg);--palette-dim:#8e908c;--highlight-bg:var(--palette-yellow);--highlight-fg:var(--text-fg)}#dmt::before{content:"🌖"}#dmt:hover::before{content:"🌗"}@media (prefers-color-scheme:dark){:root:not(.light-theme){--content-bg:#313233;--gutter-bg:#1d1f21;--text-fg:#d8d4cf;--table-border-color:#ccc;--separator-color:#6d6d6c;--link:rgb(82,183,255);--link-visited:rgb(193,104,229);--blockquote-accent:var(--link);--footnote-accent:#a8612f;--subscribe-button-bg:#44e66c;--subscribe-button-fg:#11391b;--media-controls-on:#44e66c;--media-controls-contrast:#11391b;--inline-code-bg:#3c4044;--code-block-bg:#1d1f21;--aside-bg:#3c4044;--aside-warning-bg:#fff5d1;--aside-warning-fg:var(--palette-red);--palette-red:#cc6666;--palette-green:#b5bd68;--palette-yellow:#f0c674;--palette-orange:#de935f;--palette-blue:#81a2be;--palette-purple:#b294bb;--palette-teal:#8abeb7;--palette-white:#fefefe;--palette-black:#000;--palette-text:var(--text-fg);--palette-dim:#969896;--highlight-bg:var(--palette-yellow);--highlight-fg:var(--palette-black)}:root:not(.light-theme) #dmt::before{content:"🌒"}:root:not(.light-theme) #dmt:hover::before{content:"🌓"}}#dmt{width:30px;text-align:right;padding-right:4px;position:absolute;top:0;bottom:0;right:0;border:none;background-color:inherit;cursor:pointer}*{margin:0;padding:0;font:inherit;box-sizing:border-box}html{background-color:var(--gutter-bg);color:var(--text-fg)}body{font-family:system-ui,sans-serif;font-size:12pt;line-height:1.8;word-wrap:break-word}body:not(.content-page) main>aside{padding:0 var(--content-padding)}body.content-page main,body:not(.content-page) article{background-color:var(--content-bg);border-radius:var(--outer-box-radius);padding:var(--content-padding)}pre{word-wrap:normal}em,i{font-style:italic}h1>a:only-child,h2>a:only-child{display:block}main .subsection-header+.post-list{margin-top:0}strong{font-weight:700}ol,ul{padding-left:3ch}hr{border-style:solid;border-width:1.5px 0 0;border-radius:1px;border-color:var(--separator-color)}:not(pre)>code{white-space:pre;background-color:var(--inline-code-bg)}li{padding-left:0}blockquote{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:"";content:none}a,a:active,a:visited{text-decoration:none}a:hover{text-decoration:underline}blockquote{padding:0 0 0 var(--content-padding);border-left:solid 2px var(--blockquote-accent)}aside{--content-padding:0.5em;padding:.5em;border-radius:var(--box-radius);background-color:var(--aside-bg)}a,a:active,header a:visited,footer a:visited,h1 a:visited{color:var(--link)}a:visited{color:var(--link-visited)}main *+p,main *+pre,main *+aside,main *+article,main *+blockquote,main *+div,main *+ul,main *+hr{margin-top:1em}main .post-header *+h1{margin-top:0}code{font-family:Menlo,monospace;padding:0 3px;border-radius:2px}pre{background-color:var(--code-block-bg);font-size:11pt;padding:calc(.75*var(--content-padding)) var(--content-padding);line-height:1.3;border-radius:var(--box-radius);overflow-x:scroll;-webkit-overflow-scrolling:touch}pre code{padding:0;border-radius:0;display:inline-block;background-color:initial}p+p{margin-top:1em}body{margin:0 auto;--content-padding:10px;max-width:768px;-webkit-text-size-adjust:100%;position:relative}header{position:relative}header>*{height:48px;line-height:48px}.promo,.promo:visited,.promo:active{display:block;text-align:center;background-color:var(--link);color:var(--code-block-bg);border-radius:0 0 var(--outer-box-radius) var(--outer-box-radius)}header .site-title{font-size:130%}header nav{position:absolute;right:30px;top:0}@media all and (max-width:400px){:root{--outer-box-radius:0}header{text-align:center}header nav{position:static}:not(pre)>code{white-space:pre-wrap}body{--content-padding:10px}#dmt{padding:0;text-align:center;width:40px}}header ul{padding:0}header li{list-style:none;display:inline-block}header a{display:block;height:100%}header li+li{margin-left:1em}footer{padding:2em 0;font-size:.85em;text-align:center}article h1.post-title{font-size:200%}article .post-title a{display:block}article .meta{font-size:90%;font-style:italic}.post-header h1{line-height:1.2em;margin-bottom:.5em}.post-footer{text-align:center}.post-footer a{display:block}ol.post-list{list-style-position:inside;padding:0}.series-rider .series-name{font-style:italic}</style>
+<meta property=og:title content="How to Learn Nix, Part 8: Channels">
+<meta property=og:type content=website>
+<meta property=og:url content=https://ianthehenry.com/posts/how-to-learn-nix/channels/>
+<meta name=description content="I turn my eyes to Chapter 12, and learn:
+
+A Nix channel is just a URL that points to a place that contains a set of Nix expressions and a manifest.
+
+Neat. What does that mean?">
+<meta property=og:description content="I turn my eyes to Chapter 12, and learn:
+
+A Nix channel is just a URL that points to a place that contains a set of Nix expressions and a manifest.
+
+Neat. What does that mean?">
+<meta property=og:image content=https://ianthehenry.com/checkerboard.png>
+<meta name=twitter:creator content=@ianthehenry>
+<meta name=twitter:card content=summary>
+<link type=image/x-icon rel="shortcut icon" href="data:image/vnd.microsoft.icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAHH1uIDShg/xEsZv8GFk3/CSJb/wgZT/8IGU//CBlP/wkiW/8HGE7/CBlP/wkiW/8HIFX/BxhO/wcgVf8OK2t7JDhz/wcfW/8NNn7/CSpq/wkjYf8MJGP/DCJg/w02ef9SqdX/TKHJ/1my2f9Moc3/UqzV/1Cr1v9Pocf/Ditr/xk2cf8KJGL/CjR8/wwva/8RK2r/Cido/w8qa/8LLW//TqjT/1Gnz/9bsNf/Sp/K/1Wt2f9Wrtj/UKjQ/w8xc/8gPHj/Di5w/xk4ef8TL27/Dy5u/xU3fv8QLGv/Ditr/1qy3f9dttv/Yrje/0ecx/9Knsz/U6fQ/1m13f8YN3n/JjZx/wszdv8YOXz/Eilm/xc3e/8dSZT/GDJz/xk/hv9hu+P/WbHZ/1mv1v9Kn8z/WLHd/1212v9ds9n/Eipr/xcqYv8SOX3/GzRz/xQrZ/8aM3D/HEuU/xc0df8fPYD/Yrre/1603P9dt9z/VKvY/1iz4v9etNr/Y73m/xk5fP8cMm3/JEWK/xc0dP8eO3v/Hjd4/ydRnP8WM3P/Gjd3/2bA5/9dtd//Ybng/2K95v9ct+P/Ybnf/2K95/8oS5L/GChg/xxBh/8lSIz/GC5s/yM5ev8hRoz/HTp7/yE6e/9Zsdz/YLzn/2jF7v9ryfL/YLzn/1qu1f9htdz/GDyD/y0/ev9qx/X/acDn/1235v9euun/Yb3r/1665v9owu7/GUOL/yhGh/8nUJL/MkmI/yBFiP8jOHb/MVag/yM+gv8VMGv/acXx/27G7/9szv3/bMb1/2zD6/9vy/X/edf5/yBHjv8yS47/JEuO/zVLiv8nS5D/LkOB/yRXpP8lQoT/H0WI/3fS+P910Pf/b8/8/2bB7/991Pn/eNb+/3nT+P8pS5L/O1GS/ytUnP86UJH/NF2k/zNLjP8sXKv/JkCB/x4+ff+B2/3/etT9/4He//922f//fNf//3TT//991/7/NU6N/zZSkP86Zav/PlWR/zFepv88ZKb/MF2n/yQ/gf8bNXH/fd3//3/b//+K6P//ft///3vV//993f//gdz//0hWlf9FZKX/RmOj/0JXlv9IeMP/QXKz/0Jsuf8eO3z/Hjt2/3vd//+C3v//ju3//3zg//+H4v//guL//4nj//9HXp3/UGur/ztgqf9JYqP/S3G4/05ur/9EbLT/Hjt7/zNJhf+G4///heT//4rq//+E5///iOT//4jr//+G4///UXO0/09iov9EX6H/SWWn/1V5wP9Kaa7/RGSp/ydLj/8NKGCfDShg/x8+d/8RLGb/CBlP/wYWTf8GFEj/CBNH/wooZP8JIlv/CCJd/woWSf8HGE7/ByBV/wwgU/8fO3mfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="><meta http-equiv=content-security-policy content="default-src 'none'; font-src 'self' data:; img-src 'self' data:; style-src 'unsafe-inline'; media-src 'self' data:; script-src 'unsafe-inline' data:; object-src 'self' data:; frame-src 'self' data:;"><style>img[src="data:,"],source[src="data:,"]{display:none!important}</style></head>
+<body class=content-page>
+<a class=promo href=https://janet.guide/ target=_blank><i>psst, hey kid, wanna read a weird programming book</i></a>
+<header>
+<a class=site-title href=https://ianthehenry.com/>Ian Henry</a>
+<nav>
+<ul><li><a href=https://ianthehenry.com/about/>About</a><li><a href=https://ianthehenry.com/posts/>Blog</a><li><a href=https://ianthehenry.com/stuff/>Stuff</a></ul>
+</nav>
+<button id=dmt title="Toggle dark mode"></button>
+</header>
+<main>
+<aside class=series-rider>
+<p>This post is part of the series <a class=series-name href=https://ianthehenry.com/posts/how-to-learn-nix/>How to Learn Nix</a>, a rambling diary in which I work my way through the Nix manual in excrutiating detail.</p>
+</aside>
+<article class=post>
+<div class=post-header>
+<time class=meta datetime=2021-03-07>March 7, 2021</time>
+<h1 class=post-title>
+<a href=https://ianthehenry.com/posts/how-to-learn-nix/channels/>How to Learn Nix, Part&nbsp;8:<br>Channels</a></h1>
+</div>
+<div class=post-content><p>I turn my eyes to <a href=https://web.archive.org/web/20210227145624/https://nixos.org/manual/nix/stable/#sec-channels>Chapter 12</a>, and learn:</p>
+<blockquote>
+<p>A Nix channel is just a URL that points to a place that contains a set of Nix expressions and a manifest.</p>
+</blockquote>
+<p>Neat. What does that mean?</p>
+<pre tabindex=0><code>$ cat ~/.nix-channels
+https://nixos.org/channels/nixpkgs-unstable nixpkgs
+</code></pre><p>I’ve got the URL. Let’s see what its deal is.</p>
+<pre><code>$ curl https://nixos.org/channels/nixpkgs-unstable
+Redirecting to https://channels.nixos.org/nixpkgs-unstable
+</code></pre>
+<p>Oh. Weird. Maybe I should update it, and save myself the redirect. That’s a 302 redirect, too – huh. I wonder if this is for some usage analytics thing that’s not set up on the subdomain?</p>
+<p>Following that URL gives me another redirect – a 301 this time – to <code>https://releases.nixos.org/nixpkgs/nixpkgs-21.05pre271734.aed173ff970</code>, which is an <em>HTML page</em>.</p>
+<p>I’m probably not sending the right <code>Accepts</code> header to get the “real” responses here, am I? This is a dumb way to investigate this.</p>
+<p>Anyway, it tells me some commands for editing <code>~/.nix-channels</code>, which really do not feel necessary. I’ve gotta add GC roots by hand, but you’ll edit a text file for me? Whatever I’m over it.</p>
+<p><code>nix-channel --update</code> is the important command, which we’ve seen before. Oh! And the manual says that it works by downloading this file:</p>
+<pre><code>https://nixos.org/channels/nixpkgs-unstable/nixexprs.tar.bz2
+</code></pre>
+<p>But that file does not seem to exist. I suspect documentation rot.</p>
+<p>And that’s the end of the chapter.</p>
+<p>Hmm. Okay. I have to say, I didn’t learn a lot from this chapter. I would like to understand what <code>nix-channel --update</code> actually does, though, so I try the man page.</p>
+<p>It mentions <code>nix-channel --rollback</code>. I had suspected this existed when I saw the numbered <code>channels-1-link</code> symlink mirroring the <code>profile-1-link</code> type links in <code>/nix/var/nix/profiles/per-user/ian</code>. Could be neat, I guess? There does not seem to be an equivalent <code>--list-channel-generations</code> or whatever, but that’s fine. They’re symlinks! I’m not afraid of moving some symlinks around.</p>
+<p>The man page contains this example of a rollback:</p>
+<blockquote>
+<pre tabindex=0><code>$ nix-instantiate --eval -E '(import &lt;nixpkgs&gt; {}).lib.nixpkgsVersion'
+"14.04.527.0e935f1"
+
+$ nix-channel --rollback
+switching from generation 483 to 482
+
+$ nix-instantiate --eval -E '(import &lt;nixpkgs&gt; {}).lib.nixpkgsVersion'
+"14.04.526.dbadfad"
+</code></pre></blockquote>
+<p>This is tickling some ancient memories, and I have <em>so many questions</em> about these lines but I know it will be a massive tangent, so I deliberately hold off.</p>
+<p>It explains that <code>channels_root</code> exists for a multi-user installation, and that it links to the channels used by the <code>root</code> user. I don’t know why <em>I</em> have that, though. I don’t <em>think</em> I have a multi-user install. I certainly don’t have a daemon running or anything.</p>
+<p>It’s interesting how being in unfamiliar territory makes everything feel so uncertain. It never occurred to me that <code>channels_root</code> referred to “the root user.” I thought <code>root</code> was like… like a GC root. Like a tree root, or something, something for bootstrapping packages. It’s a good example of a name that seems perfectly intuitive when you already know what it is, but is not intuitive if you don’t already know what it means.</p>
+<p>Anyway. Moving on.</p>
+<p>The <em>man page</em> tells me that I should be looking for <code>nixexprs.tar.xz</code>, <em>not</em> <code>nixexprs.tar.bz2</code>. Aha!</p>
+<pre><code>$ curl -L https://nixos.org/channels/nixpkgs-unstable/nixexprs.tar.xz -o nixexprs.tar.xz
+$ xz --decompress nixexprs.tar.xz
+$ tar xf nixexprs.tar
+$ ls
+nixexprs.tar
+nixpkgs-21.05pre271734.aed173ff970/
+</code></pre>
+<p>Okay. Now we’re cooking.</p>
+<p>Inspecting that directory, it looks like – well, it looks like an exact copy of the <a href=https://github.com/NixOS/nixpkgs>Nixpkgs git repository</a>, as it stood at revision <code>aed173ff970</code>. Neat. Okay. So that’s not really magic at all. It downloads the contents, and puts it somewhere. Where?</p>
+<pre><code>$ readlink /nix/var/nix/profiles/per-user/ian/channels-1-link
+/nix/store/98kbm9c2p7m8h1mjppvc0sam1vvkpz85-user-environment
+</code></pre>
+<p>That’s kinda weird. It’s a user environment? Like our <code>profile</code> links were? Huh.</p>
+<pre tabindex=0><code>$ tree /nix/store/98kbm9c2p7m8h1mjppvc0sam1vvkpz85-user-environment
+/nix/store/98kbm9c2p7m8h1mjppvc0sam1vvkpz85-user-environment
+├── manifest.nix -&gt; /nix/store/7ql8mcd63f98janzqa70ijpbz5skz48d-env-manifest.nix
+└── nixpkgs -&gt; /nix/store/ys2x968psphylqb0gri928km5bny25ww-nixpkgs-21.05pre271444.9816b99e71c/nixpkgs
+</code></pre><p>Definitely doesn’t <em>look</em> like the other user-environments.</p>
+<p>I don’t know where <code>manifest.nix</code> came from. And it’s uglified; I can’t read it. But I can confirm that <code>/nix/store/ys2x...99e71c/nixpkgs</code> is in fact a copy of the Nixpkgs repo, just like the one I un<code>tar</code>red (though it’s a different git revision than the one I downloaded because I haven’t <code>nix-channel --update</code>d since yesterday).</p>
+<p>Okay! So we saw what it did, sort of. And I think we now officially understand <code>~/.nix-defexpr</code>? How it’s managed; what it does? Why when we type <code>nix-env -iA nixpkgs.hello</code>, it ends up magically looking in the contents of some git repo? It didn’t need to be a git repo at all – any <code>.tar.xz</code> you download on the internet with the right shape could end up supplyin' packages. Good to know.</p>
+<hr>
+<ul>
+<li>Why does the default install give me <code>https://nixos.org/channels/nixpkgs-unstable</code> which 302s to <code>https://channels.nixos.org/nixpkgs-unstable</code>?</li>
+<li>What is a <code>manifest.nix</code>?</li>
+<li>Why is the store object in <code>~/.nix-defexpr</code> also called a <code>user-environment</code>?</li>
+</ul></div>
+</article>
+<div class=post-footer>
+<a href="mailto:ianthehenry@gmail.com?subject=let%27s%20talk%20about%20%22Channels%22&amp;body=First%20of%20all,%20I%20just%20wanted%20to%20say%20that%20I%20forgive%20you%20for%20not%20having%20a%20real%20comment%20system%20on%20your%20site.">comment on this post</a><a href=https://ianthehenry.com/posts/how-to-learn-nix/sharing/>Next up ➜ Learning to share</a></div>
+<aside class=series-rider>
+<p>
+This post is part of the series <a class=series-name href=https://ianthehenry.com/posts/how-to-learn-nix/>How to Learn Nix</a>.
+You can
+<a target=_blank href=https://ianthehenry.com/feed.xml>subscribe to my RSS feed</a>
+or
+<a target=_blank href=https://twitter.com/ianthehenry>follow me on Twitter</a>
+for more, or <a href=https://ianthehenry.com/posts/>peruse my back catalog</a> if you're in the mood for something different.
+<div class=subsection-header>Opening remarks</div><ol start=1 class=post-list><li><a href=https://ianthehenry.com/posts/how-to-learn-nix/introduction/>What's all this about?</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/prior-knowledge/>Prior knowledge</a></li>
+</ol><div class=subsection-header>Reading the Nix manual</div><ol start=3 class=post-list><li><a href=https://ianthehenry.com/posts/how-to-learn-nix/glossary/>What we talk about when we talk about Nix</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/quick-start-guide/>Quick starts, full hearts</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/basic-package-management/>Basic package management</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/profiles/>Profiles</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/garbage-collection/>Garbage collection</a></li>
+<li><strong><a href=https://ianthehenry.com/posts/how-to-learn-nix/channels/>Channels</a></strong>&nbsp;←&nbsp;you are here</li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/sharing/>Learning to share</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/my-first-derivation/>My first derivation</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/okay-my-actual-first-derivation/>Okay my actual first derivation</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/nix-language/>The Nix expression language</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/derivations/>Derivations</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/built-in-functions/>Built-in Functions</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/advanced-topics/>Advanced Topics</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/command-reference/>Command Reference</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/configuration/>Configuration</a></li>
+</ol><div class=subsection-header>Interlude: in which we follow our hearts, however briefly</div><ol start=18 class=post-list><li><a href=https://ianthehenry.com/posts/how-to-learn-nix/nix-manual-reflection/>So I read the manual huh</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/switching-from-homebrew-to-nix/>Switching from Homebrew to Nix</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/my-first-nix-bug/>My first Nix bug</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/my-first-package-upgrade/>My first package upgrade</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/declarative-user-environment/>Setting up a declarative user environment</a></li>
+</ol><div class=subsection-header>Reading the Nixpkgs manual</div><ol start=23 class=post-list><li><a href=https://ianthehenry.com/posts/how-to-learn-nix/how-to-learn-nixpkgs/>How to learn Nixpkgs</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/overlays/>Overlays</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/overriding/>Overriding</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/an-infinite-list-of-functions/>An infinite list of functions</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/even-more-functions-somehow/>Even more functions, somehow</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/the-standard-environment/>The standard environment</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/derivations-in-detail/>Derivations in detail</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/cross-compilation/>Cross-compilation</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/platform-notes/>Platform notes</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/builders/>Builders</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/languages-and-frameworks/>Languages and frameworks</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/random-package-grab-bag/>Random package grab-bag</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/how-to-give-back/>How to give back</a></li>
+</ol><div class=subsection-header>Documentation behind us, we set out on our own</div><ol start=36 class=post-list><li><a href=https://ianthehenry.com/posts/how-to-learn-nix/nixpkgs-reflection/>So I read the other manual, huh</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/saving-your-shell/>Saving your shell</a></li>
+</ol><div class=subsection-header>Oh right forgot about Nix Pills</div><ol start=38 class=post-list><li><a href=https://ianthehenry.com/posts/how-to-learn-nix/nix-pills/>Nix Pills</a></li>
+</ol><div class=subsection-header>Our whole lives ahead of us</div><ol start=39 class=post-list><li><a href=https://ianthehenry.com/posts/how-to-learn-nix/python3-alpha/>How to install Python</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/open-questions/>Open questions</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/ambiguous-packages/>Ambiguous packages</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/nix-zshell/>Running zsh in nix-shell</a></li>
+</ol><div class=subsection-header>Nix 2.4 slithers to life</div><ol start=43 class=post-list><li><a href=https://ianthehenry.com/posts/how-to-learn-nix/flakes/>My first brush with flakes</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/more-flakes/>More flakes, unfortunately</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/new-profiles/>Fancy new profiles</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/chipping-away-at-flakes/>Chipping away at flakes</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/nix-develop/>New and unimproved shells</a></li>
+</ol>
+</aside>
+</main>
+<footer>
+© 1899-1907 <a href=https://ianthehenry.com/about/>Ian Henry</a>
+</footer>

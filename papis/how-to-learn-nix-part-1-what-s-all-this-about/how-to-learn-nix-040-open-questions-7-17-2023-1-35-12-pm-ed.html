@@ -1,0 +1,977 @@
+<!DOCTYPE html> <html lang=en style><!--
+ Page saved with SingleFile 
+ url: https://ianthehenry.com/posts/how-to-learn-nix/open-questions/ 
+ saved date: Mon Jul 17 2023 13:35:12 GMT+0600 (Kyrgyzstan Time)
+--><meta charset=utf-8>
+<meta name=viewport content="initial-scale=1,maximum-scale=1">
+<title>How to Learn Nix, Part 40: Open questions</title>
+<link rel=canonical href=https://ianthehenry.com/posts/how-to-learn-nix/open-questions/>
+<style>:root{--box-radius:6px;--outer-box-radius:10px}:root{--content-bg:#fff;--gutter-bg:#eeeef3;--text-fg:#4d4d4c;--table-border-color:#ccc;--separator-color:#6d6d6c;--link:#07c;--link-visited:#751a9a;--blockquote-accent:var(--link);--footnote-accent:#ffd2a3;--subscribe-button-bg:#44e66c;--subscribe-button-fg:#11391b;--media-controls-on:#34b553;--media-controls-contrast:#fff;--inline-code-bg:#f3f3fa;--code-block-bg:#f3f3fa;--aside-bg:#f3f3fa;--aside-warning-bg:#fff5d1;--aside-warning-fg:#ac3233;--palette-red:#c82829;--palette-green:#718c00;--palette-yellow:#eab700;--palette-orange:#f5871f;--palette-blue:#4271ae;--palette-purple:#8959a8;--palette-teal:#3e999f;--palette-white:#fefefe;--palette-black:#000;--palette-text:var(--text-fg);--palette-dim:#8e908c;--highlight-bg:var(--palette-yellow);--highlight-fg:var(--text-fg)}#dmt::before{content:"🌖"}#dmt:hover::before{content:"🌗"}@media (prefers-color-scheme:dark){:root:not(.light-theme){--content-bg:#313233;--gutter-bg:#1d1f21;--text-fg:#d8d4cf;--table-border-color:#ccc;--separator-color:#6d6d6c;--link:rgb(82,183,255);--link-visited:rgb(193,104,229);--blockquote-accent:var(--link);--footnote-accent:#a8612f;--subscribe-button-bg:#44e66c;--subscribe-button-fg:#11391b;--media-controls-on:#44e66c;--media-controls-contrast:#11391b;--inline-code-bg:#3c4044;--code-block-bg:#1d1f21;--aside-bg:#3c4044;--aside-warning-bg:#fff5d1;--aside-warning-fg:var(--palette-red);--palette-red:#cc6666;--palette-green:#b5bd68;--palette-yellow:#f0c674;--palette-orange:#de935f;--palette-blue:#81a2be;--palette-purple:#b294bb;--palette-teal:#8abeb7;--palette-white:#fefefe;--palette-black:#000;--palette-text:var(--text-fg);--palette-dim:#969896;--highlight-bg:var(--palette-yellow);--highlight-fg:var(--palette-black)}:root:not(.light-theme) #dmt::before{content:"🌒"}:root:not(.light-theme) #dmt:hover::before{content:"🌓"}}#dmt{width:30px;text-align:right;padding-right:4px;position:absolute;top:0;bottom:0;right:0;border:none;background-color:inherit;cursor:pointer}*{margin:0;padding:0;font:inherit;box-sizing:border-box}html{background-color:var(--gutter-bg);color:var(--text-fg)}body{font-family:system-ui,sans-serif;font-size:12pt;line-height:1.8;word-wrap:break-word}body:not(.content-page) main>aside{padding:0 var(--content-padding)}body.content-page main,body:not(.content-page) article{background-color:var(--content-bg);border-radius:var(--outer-box-radius);padding:var(--content-padding)}pre{word-wrap:normal}em,i{font-style:italic}sup{font-size:75%}sup a::before{content:"["}sup a::after{content:"]"}h1>a:only-child,h2>a:only-child{display:block}main .subsection-header+.post-list{margin-top:0}strong{font-weight:700}ol,ul{padding-left:3ch}.footnotes>ol{margin-top:1em}.footnotes li:not(.highlight){transition:background-color 1s}ul ul{padding-left:2em}hr{border-style:solid;border-width:1.5px 0 0;border-radius:1px;border-color:var(--separator-color)}:not(pre)>code{white-space:pre;background-color:var(--inline-code-bg)}li{padding-left:0}blockquote{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:"";content:none}a,a:active,a:visited{text-decoration:none}a:hover{text-decoration:underline}blockquote{padding:0 0 0 var(--content-padding);border-left:solid 2px var(--blockquote-accent)}aside{--content-padding:0.5em;padding:.5em;border-radius:var(--box-radius);background-color:var(--aside-bg)}a,a:active,header a:visited,footer a:visited,h1 a:visited{color:var(--link)}a:visited{color:var(--link-visited)}a.footnote-ref:visited,a.footnote-backref:visited,.notation-help-link-container a:visited{color:var(--link)}h1{font-size:130%}main *+p,main *+pre,main *+aside,main *+section,main *+article,main *+blockquote,main *+div,main *+ul,main *+h1{margin-top:1em}main pre+div.highlight{margin-top:1px}main li>ul:last-child{margin-top:0}main .post-header *+h1{margin-top:0}code{font-family:Menlo,monospace;padding:0 3px;border-radius:2px}pre{background-color:var(--code-block-bg);font-size:11pt;padding:calc(.75*var(--content-padding)) var(--content-padding);line-height:1.3;border-radius:var(--box-radius);overflow-x:scroll;-webkit-overflow-scrolling:touch}pre code{padding:0;border-radius:0;display:inline-block;background-color:initial}p+p{margin-top:1em}body{margin:0 auto;--content-padding:10px;max-width:768px;-webkit-text-size-adjust:100%;position:relative}header{position:relative}header>*{height:48px;line-height:48px}.promo,.promo:visited,.promo:active{display:block;text-align:center;background-color:var(--link);color:var(--code-block-bg);border-radius:0 0 var(--outer-box-radius) var(--outer-box-radius)}header .site-title{font-size:130%}header nav{position:absolute;right:30px;top:0}@media all and (max-width:400px){:root{--outer-box-radius:0}header{text-align:center}header nav{position:static}:not(pre)>code{white-space:pre-wrap}body{--content-padding:10px}#dmt{padding:0;text-align:center;width:40px}}header ul{padding:0}header li{list-style:none;display:inline-block}header a{display:block;height:100%}header li+li{margin-left:1em}footer{padding:2em 0;font-size:.85em;text-align:center}article h1.post-title{font-size:200%}article .post-title a{display:block}article .meta{font-size:90%;font-style:italic}.post-header h1{line-height:1.2em;margin-bottom:.5em}.post-footer{text-align:center}.post-footer a{display:block}ol.post-list{list-style-position:inside;padding:0}.series-rider .series-name{font-style:italic}.highlight{color:var(--palette-text)}.highlight .err{color:var(--palette-red)}.highlight .k{color:var(--palette-purple)}.highlight .n{color:var(--palette-text)}.highlight .o{color:var(--palette-teal)}.highlight .p{color:var(--palette-text)}.highlight .c1{color:var(--palette-dim)}.highlight .nb{color:var(--palette-text)}.highlight .nt{color:var(--palette-teal)}.highlight .w{color:var(--palette-text)}.highlight .s2{color:var(--palette-green)}.highlight .si{color:var(--palette-orange)}.highlight .s1{color:var(--palette-green)}</style>
+<meta property=og:title content="How to Learn Nix, Part 40: Open questions">
+<meta property=og:type content=website>
+<meta property=og:url content=https://ianthehenry.com/posts/how-to-learn-nix/open-questions/>
+<meta name=description content="Over the course of reading the Nix manual, reading the Nixpkgs manual, reading the Nix Pills, and performing my own experiments, I have accumulated quite a few “open questions.”
+I leave them at the bottom of each post, and they help ease my mind: writing them down allows me to forget them. They are not lurking in the darker corners of my brain, distracting me as I try to go about my day. They will be there for me when I need them, and that is a calming thought.
+Now, I’m not done learning Nix. But I have read all of the official documentation, at this point, and it is time to enter into a new chapter of my Nix journey: I am leaving the warm embrace of the manuals, and setting off on my own. And what better place to start by going through my open questions?
+All 160 of them.">
+<meta property=og:description content="Over the course of reading the Nix manual, reading the Nixpkgs manual, reading the Nix Pills, and performing my own experiments, I have accumulated quite a few “open questions.”
+I leave them at the bottom of each post, and they help ease my mind: writing them down allows me to forget them. They are not lurking in the darker corners of my brain, distracting me as I try to go about my day. They will be there for me when I need them, and that is a calming thought.
+Now, I’m not done learning Nix. But I have read all of the official documentation, at this point, and it is time to enter into a new chapter of my Nix journey: I am leaving the warm embrace of the manuals, and setting off on my own. And what better place to start by going through my open questions?
+All 160 of them.">
+<meta property=og:image content=https://ianthehenry.com/checkerboard.png>
+<meta name=twitter:creator content=@ianthehenry>
+<meta name=twitter:card content=summary>
+<link type=image/x-icon rel="shortcut icon" href="data:image/vnd.microsoft.icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAHH1uIDShg/xEsZv8GFk3/CSJb/wgZT/8IGU//CBlP/wkiW/8HGE7/CBlP/wkiW/8HIFX/BxhO/wcgVf8OK2t7JDhz/wcfW/8NNn7/CSpq/wkjYf8MJGP/DCJg/w02ef9SqdX/TKHJ/1my2f9Moc3/UqzV/1Cr1v9Pocf/Ditr/xk2cf8KJGL/CjR8/wwva/8RK2r/Cido/w8qa/8LLW//TqjT/1Gnz/9bsNf/Sp/K/1Wt2f9Wrtj/UKjQ/w8xc/8gPHj/Di5w/xk4ef8TL27/Dy5u/xU3fv8QLGv/Ditr/1qy3f9dttv/Yrje/0ecx/9Knsz/U6fQ/1m13f8YN3n/JjZx/wszdv8YOXz/Eilm/xc3e/8dSZT/GDJz/xk/hv9hu+P/WbHZ/1mv1v9Kn8z/WLHd/1212v9ds9n/Eipr/xcqYv8SOX3/GzRz/xQrZ/8aM3D/HEuU/xc0df8fPYD/Yrre/1603P9dt9z/VKvY/1iz4v9etNr/Y73m/xk5fP8cMm3/JEWK/xc0dP8eO3v/Hjd4/ydRnP8WM3P/Gjd3/2bA5/9dtd//Ybng/2K95v9ct+P/Ybnf/2K95/8oS5L/GChg/xxBh/8lSIz/GC5s/yM5ev8hRoz/HTp7/yE6e/9Zsdz/YLzn/2jF7v9ryfL/YLzn/1qu1f9htdz/GDyD/y0/ev9qx/X/acDn/1235v9euun/Yb3r/1665v9owu7/GUOL/yhGh/8nUJL/MkmI/yBFiP8jOHb/MVag/yM+gv8VMGv/acXx/27G7/9szv3/bMb1/2zD6/9vy/X/edf5/yBHjv8yS47/JEuO/zVLiv8nS5D/LkOB/yRXpP8lQoT/H0WI/3fS+P910Pf/b8/8/2bB7/991Pn/eNb+/3nT+P8pS5L/O1GS/ytUnP86UJH/NF2k/zNLjP8sXKv/JkCB/x4+ff+B2/3/etT9/4He//922f//fNf//3TT//991/7/NU6N/zZSkP86Zav/PlWR/zFepv88ZKb/MF2n/yQ/gf8bNXH/fd3//3/b//+K6P//ft///3vV//993f//gdz//0hWlf9FZKX/RmOj/0JXlv9IeMP/QXKz/0Jsuf8eO3z/Hjt2/3vd//+C3v//ju3//3zg//+H4v//guL//4nj//9HXp3/UGur/ztgqf9JYqP/S3G4/05ur/9EbLT/Hjt7/zNJhf+G4///heT//4rq//+E5///iOT//4jr//+G4///UXO0/09iov9EX6H/SWWn/1V5wP9Kaa7/RGSp/ydLj/8NKGCfDShg/x8+d/8RLGb/CBlP/wYWTf8GFEj/CBNH/wooZP8JIlv/CCJd/woWSf8HGE7/ByBV/wwgU/8fO3mfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="><meta http-equiv=content-security-policy content="default-src 'none'; font-src 'self' data:; img-src 'self' data:; style-src 'unsafe-inline'; media-src 'self' data:; script-src 'unsafe-inline' data:; object-src 'self' data:; frame-src 'self' data:;"><style>img[src="data:,"],source[src="data:,"]{display:none!important}</style></head>
+<body class=content-page>
+<a class=promo href=https://janet.guide/ target=_blank><i>psst, hey kid, wanna read a weird programming book</i></a>
+<header>
+<a class=site-title href=https://ianthehenry.com/>Ian Henry</a>
+<nav>
+<ul><li><a href=https://ianthehenry.com/about/>About</a><li><a href=https://ianthehenry.com/posts/>Blog</a><li><a href=https://ianthehenry.com/stuff/>Stuff</a></ul>
+</nav>
+<button id=dmt title="Toggle dark mode"></button>
+</header>
+<main>
+<aside class=series-rider>
+<p>This post is part of the series <a class=series-name href=https://ianthehenry.com/posts/how-to-learn-nix/>How to Learn Nix</a>, a rambling diary in which I work my way through the Nix manual in excrutiating detail.</p>
+</aside>
+<article class=post>
+<div class=post-header>
+<time class=meta datetime=2021-06-13>June 13, 2021</time>
+<h1 class=post-title>
+<a href=https://ianthehenry.com/posts/how-to-learn-nix/open-questions/>How to Learn Nix, Part&nbsp;40:<br>Open questions</a></h1>
+</div>
+<div class=post-content><p>Over the course of reading the Nix manual, reading the Nixpkgs manual, reading the Nix Pills, and performing my own experiments, I have accumulated quite a few “open questions.”</p>
+<p>I leave them at the bottom of each post, and they help ease my mind: writing them down allows me to forget them. They are not lurking in the darker corners of my brain, distracting me as I try to go about my day. They will be there for me when I need them, and that is a calming thought.</p>
+<p>Now, I’m not <em>done</em> learning Nix. But I have read all of the official documentation, at this point, and it is time to enter into a new chapter of my Nix journey: I am leaving the warm embrace of the manuals, and setting off on my own. And what better place to start by going through my open questions?</p>
+<p>All 160 of them.</p>
+<p>That’s a lot! But I <em>have</em> written a lot of blog posts. That’s only 4 questions per post, on average, which actually feels a little low to me.</p>
+<p>And besides, it’s not really 160 <em>open</em> questions. I expect that I know the answer to most of them, by now. And lots of them are subjective “why is Nix like this”-type questions that I don’t actually need to answer.</p>
+<p>So… let’s see if I’m right? Be back soon.</p>
+<p>Soon:</p>
+<p>Okay, so I went through every single question, and:</p>
+<ul>
+<li>I know the answer to 66 of them.</li>
+<li>I <em>think</em> I know the answer to 11 more, but I want to follow up on something about them.</li>
+<li>26 are bad questions: either they’re subjective or they don’t have answers or their answers are not actually satisfying in any way.</li>
+<li>Which leaves 57 questions that I don’t know the answer to.</li>
+</ul>
+<p>Okay. That’s not… <em>too</em> bad…</p>
+<p>But I certainly have my work cut out for me. Let’s start with the easy stuff:</p>
+<h1 id=answers-i-feel-pretty-good-about>Answers I feel pretty good about</h1>
+<ul>
+<li>What is the difference between a “derivation” and a “store derivation”?
+<ul>
+<li>“Store derivation” refers to a <code>.drv</code> file, “derivation” is a fuzzy word that could mean any of like three different things.</li>
+</ul>
+</li>
+<li>How does a derivation turn into a “result” or an “output path”? When does a derivation “produce” something?
+<ul>
+<li>The primitive operation is <code>nix-store --realise</code>, but many other commands realize derivations: <code>nix-build</code>, <code>nix-env</code>, <code>nix-shell</code>, etc.</li>
+</ul>
+</li>
+<li>How do I configure the location of the Nix binary cache (or other “substituters,” if I recall the terminology correctly)?
+<ul>
+<li>The <code>substituters</code> key in <code>nix.conf</code>. See <a href=https://ianthehenry.com/posts/how-to-learn-nix/sharing/>Part 9: Learning to share</a>.</li>
+</ul>
+</li>
+<li>What/why is <code>nix-shell '&lt;nixpkgs&gt;' --attr pan</code>?
+<ul>
+<li><code>&lt;nixpkgs&gt;</code> is a file path that evaluates to a function of no arguments that returns an attribute set; <code>--attr</code> selects a specific attribute within that attribute set. That gives you a derivation, and <code>nix-shell</code> plops you into a shell with the build-time dependencies of that derivation.</li>
+</ul>
+</li>
+<li>What is <code>NIX_PATH</code>?
+<ul>
+<li>This is a variable kinda like <code>PATH</code>, colon-separated directories that are searched to resolve <code>&lt;foo&gt;</code> expressions, but it can also contain named elements: <code>nixpkgs=/path/to/the/thing</code>.</li>
+</ul>
+</li>
+<li>What does the weird comment mean about “appending channels” to <code>NIX_PATH</code>?
+<ul>
+<li>It really does append them, weirdly, even if they’re already present. See <a href=https://ianthehenry.com/posts/how-to-learn-nix/how-to-give-back/>Part 35: How to give back</a>.</li>
+</ul>
+</li>
+<li>What is <code>~/.nix-defexpr</code>?
+<ul>
+<li>Explained in <a href=https://ianthehenry.com/posts/how-to-learn-nix/basic-package-management/>Part 5: Basic package management</a>. Only relevant to <code>nix-env</code> and <code>nix-channel</code>, as far as I can tell.</li>
+</ul>
+</li>
+<li>What is <code>~/.nix-profile</code>?
+<ul>
+<li>Symlink to the current user environment built by <code>nix-env</code>.</li>
+</ul>
+</li>
+<li>What is <code>~/.nix-channels</code>?
+<ul>
+<li>Tiny text file listing channel names and URLs. Used by <code>nix-channel</code> commands.</li>
+</ul>
+</li>
+<li>Why does <code>nix-env -qa git</code> print the same line three times?
+<ul>
+<li>
+<p>Package names are dumb and broken. I’m really seeing:</p>
+<pre tabindex=0><code>$ nix-env -qa git --json | jq keys
+[
+  "nixpkgs.git",
+  "nixpkgs.git-doc",
+  "nixpkgs.gitFull"
+]
+</code></pre></li>
+</ul>
+</li>
+<li>Why doesn’t <code>nix-env -qa</code> behave like a search?
+<ul>
+<li>It takes a regex.</li>
+</ul>
+</li>
+<li>How do I search for packages by name using <code>nix-env</code>?
+<ul>
+<li>Use a regex.</li>
+</ul>
+</li>
+<li>Why does <code>nix-shell</code> download so many packages? What are they for?
+<ul>
+<li>It downloads the packages in the standard environment, usually – it’s entirely dependent on the packages you invoke it with.</li>
+</ul>
+</li>
+<li>Why does every invocation of <code>nix-env</code> take 30 seconds before it does <em>anything?</em>
+<ul>
+<li>Package names are dumb and broken.</li>
+</ul>
+</li>
+<li>How do I collect garbage without making my next invocation of <code>nix-shell -p hello</code> redownload all the stuff it needs to be a shell?
+<ul>
+<li>I wrote a whole post about this: <a href=https://ianthehenry.com/posts/how-to-learn-nix/saving-your-shell/>Part 37: Saving your shell</a>.</li>
+</ul>
+</li>
+<li>Why does the manual explicitly call out upgrading Nix? Will it not be upgraded through “normal” means? Do I have to upgrade it separately?
+<ul>
+<li>No. It’s the same as any other package. Note that there is also <code>nix upgrade-nix</code>, which does not do what you think it does, or what you want it to do.</li>
+</ul>
+</li>
+<li>Why is <code>~/.nix-defexpr</code> not just a symlink to <code>nixpkgs</code>?
+<ul>
+<li>Because you might have multiple channels.</li>
+</ul>
+</li>
+<li>Why does Nix call what seem to be associative arrays, or records, or something “sets”?
+<ul>
+<li>The term “set” is just shorthand for “attribute set.”</li>
+</ul>
+</li>
+<li>Does <code>nix-env -iA nixpkgs.hello</code> actually <em>do anything</em> if <code>hello</code> is already installed?
+<ul>
+<li>Not if it’s the same derivation; but it will replace it if not.</li>
+</ul>
+</li>
+<li>Where is the Nix configuration file?
+<ul>
+<li><code>~/.config/nix/config.nix</code></li>
+</ul>
+</li>
+<li>What are “outputs” (as in <code>keep-outputs</code>)?
+<ul>
+<li>See <a href=https://ianthehenry.com/posts/how-to-learn-nix/saving-your-shell/>Part 37: Saving your shell</a>.</li>
+</ul>
+</li>
+<li>What does <code>keep-derivations</code> do? I’m still not really clear on the term “derivations”.
+<ul>
+<li>See <a href=https://ianthehenry.com/posts/how-to-learn-nix/saving-your-shell/>Part 37: Saving your shell</a>.</li>
+</ul>
+</li>
+<li>What is a <code>manifest.nix</code>?
+<ul>
+<li>See <a href=https://ianthehenry.com/posts/how-to-learn-nix/nix-pills/>Part 38: Nix pills</a>.</li>
+</ul>
+</li>
+<li>What does the function <code>mkDerivation</code> <em>actually do?</em> What does it “return”? What side effects does it have?
+<ul>
+<li>See <a href=https://ianthehenry.com/posts/how-to-learn-nix/the-standard-environment/>Part 28: The standard environment</a>.</li>
+</ul>
+</li>
+<li>Why does Nix call maps “sets”?
+<ul>
+<li>Duplicate; see above.</li>
+</ul>
+</li>
+<li>Are paths a first-class type in Nix?
+<ul>
+<li>Yes.</li>
+</ul>
+</li>
+<li>What is a hook?
+<ul>
+<li>See <a href=https://ianthehenry.com/posts/how-to-learn-nix/the-standard-environment/>Part 28: The standard environment</a>.</li>
+</ul>
+</li>
+<li>Do I have to <code>source $stdenv/setup</code>? If so, why?
+<ul>
+<li>Nope! But it’s pretty handy, and saves a lot of work.</li>
+</ul>
+</li>
+<li>When are the side effects of <code>fetchurl</code> actually executed?
+<ul>
+<li><code>fetchurl</code> evaluates to a derivation, so whenever that derivation is “realized” (built).</li>
+</ul>
+</li>
+<li>What exactly does <code>callPackage</code> call functions with?
+<ul>
+<li>The Nixpkgs “fixpoint” set, i.e., the thing that <code>import &lt;nixpkgs&gt; {}</code> returns.</li>
+</ul>
+</li>
+<li>Why does <code>import /Users/ian/src/nixpkgs</code> give me a function back?
+<ul>
+<li>So you can pass optional arguments like <code>system</code> or <code>config</code> to customize Nixpkgs.</li>
+</ul>
+</li>
+<li>How do I make my own <code>ianpkgs</code> without <code>import</code>ing things from the “main” <code>nixpkgs</code>? What would a minimal <code>default.nix</code> look like?
+<ul>
+<li>The <a href=https://nixos.org/guides/nix-pills/our-first-derivation.html>Nix Pills series</a> does a pretty good job of walking through a derivation from actual scratch.</li>
+</ul>
+</li>
+<li>How do I find my platform identifier without building Nix from scratch?
+<ul>
+<li><code>builtins.currentSystem</code></li>
+</ul>
+</li>
+<li>If <code>builder</code> is a derivation that produces multiple files, what binary does it run?
+<ul>
+<li>The <code>builder</code> technically can be a derivation, but it’s coerced to a path, so the <code>builder</code> would have to evaluate to a single file. If it evaluates to a directory, you have to specify the path to the executable you want.</li>
+</ul>
+</li>
+<li>Are paths actually a different type at runtime, or are they really strings?
+<ul>
+<li>They really are different, and are more complicated than just strings, due to the file-filtering stuff.</li>
+</ul>
+</li>
+<li>Why does <code>$stdenv/setup</code> require one of <code>$dev</code> or <code>$out</code> to exist?
+<ul>
+<li>Covered in <a href=https://ianthehenry.com/posts/how-to-learn-nix/derivations-in-detail/>Part 29: Derivations in detail</a>.</li>
+</ul>
+</li>
+<li>How can I explicitly register a runtime dependency?
+<ul>
+<li>You can’t, at least in the way that I was thinking when I asked the question. This is only possible by putting a reference to the dependency in the output path.</li>
+</ul>
+</li>
+<li>Does <code>toString</code> have the same behavior as Nix’s stringification of derivation attributes?
+<ul>
+<li>
+<p>Yes; it just looks at the <code>outPath</code> attribute:</p>
+<pre tabindex=0><code>nix-repl&gt; builtins.toString { outPath = "hi"; }
+"hi"
+</code></pre></li>
+</ul>
+</li>
+<li>What is a pure/impure shell?
+<ul>
+<li>See <a href=https://ianthehenry.com/posts/how-to-learn-nix/command-reference/>Part 16: Command reference</a>.</li>
+</ul>
+</li>
+<li>What is <code>manifest.nix</code>?
+<ul>
+<li>Duplicate; see above.</li>
+</ul>
+</li>
+<li>What’s the difference between a package and a derivation?
+<ul>
+<li>This is a fuzzy, difficult question to answer. A derivation is like the “recipe” to produce a package, or a “description” of the package. Or sometimes it’s used to refer to the package itself. The terminology is vague and confusing, as far as I can tell.</li>
+</ul>
+</li>
+<li>How can I ask Nix to show me runtime dependencies of an output?
+<ul>
+<li><code>nix-store --query --references</code> or <code>nix-store --query --requisites</code>, for the reqursive version. Note that Nix doesn’t <em>really</em> have a concept of a “runtime” reference, though, and this will include build-time dependencies in the case that you have <code>propagatedBuildInputs</code>.</li>
+</ul>
+</li>
+<li>Are runtime dependencies known per-derivation, or per-output?
+<ul>
+<li>Per-output.</li>
+</ul>
+</li>
+<li>How can I inspect / pretty print a store derivation?
+<ul>
+<li><code>nix show-derivation</code></li>
+</ul>
+</li>
+<li>What’s the difference between <code>nix-store --dump</code> and <code>nix-store --export</code>?
+<ul>
+<li><code>--dump</code> gives you the contents of the store path; <code>--export</code> gives you the contents of the store path plus the relevant database entries.</li>
+</ul>
+</li>
+<li>What does <code>nix-env -i /nix/store/store-path</code> do?
+<ul>
+<li>I mean, it does the thing you expect; it’s just undocumented.</li>
+</ul>
+</li>
+<li>How do I (locally) “fork” a derivation?
+<ul>
+<li>Overrides and overlays. See <a href=https://ianthehenry.com/posts/how-to-learn-nix/overriding/>Part 25: Overriding</a> for a description of the process, or <a href=https://ianthehenry.com/posts/how-to-learn-nix/python3-alpha/>Part 39: How to install Python</a> for an example.</li>
+</ul>
+</li>
+<li>How can I evaluate an option to see its current/default value?
+<ul>
+<li><code>nix show-config</code></li>
+</ul>
+</li>
+<li>What the <em>hell</em> does <code>keep-outputs</code> do?
+<ul>
+<li>Duplicate; see above.</li>
+</ul>
+</li>
+<li>What happens if two packages produce outputs with the same name? Like what if I install <code>/nix/store/foo-1.0/bin/foo</code> and <code>/nix/store/bar-1.0/bin/foo</code> – what ends up in <code>~/.nix-profile/bin/foo</code>?
+<ul>
+<li><code>meta.priority</code> disambiguates; see <a href=https://ianthehenry.com/posts/how-to-learn-nix/python3-alpha/>Part 39: How to install Python</a>.</li>
+</ul>
+</li>
+<li>Why is <code>nix-env -u</code> trying to upgrade my <code>python3</code> to some weird alpha version?
+<ul>
+<li>I wrote a whole post about this. See <a href=https://ianthehenry.com/posts/how-to-learn-nix/python3-alpha/>Part 39: How to install Python</a>.</li>
+</ul>
+</li>
+<li>How do I print all output paths of a derivation?
+<ul>
+<li><code>nix show-derivation</code>, or <code>nix-store --query --outputs</code>.</li>
+</ul>
+</li>
+<li>What is <code>derivation.override</code>? A method?
+<ul>
+<li>Yeah, essentially, in the let-over-lambda sense. The <a href=https://nixos.org/guides/nix-pills/override-design-pattern.html>Nix Pills series</a> walks through the implementation.</li>
+</ul>
+</li>
+<li>How do I use <code>derivation.override</code>?
+<ul>
+<li>Explained in <a href=https://ianthehenry.com/posts/how-to-learn-nix/overriding/>Part 25: Overriding</a>.</li>
+</ul>
+</li>
+<li>Why is there <code>buildEnv</code> – a function – in the top-level of Nixpkgs, when I learned before that <code>nix-env</code> required all top-level things to be derivations?
+<ul>
+<li>It’s more complicated than that; ⌘F <code>recurseIntoAttrs</code> in <a href=https://ianthehenry.com/posts/how-to-learn-nix/an-infinite-list-of-functions/>Part 26: An infinite list of functions</a>.</li>
+</ul>
+</li>
+<li>What is “the fixed-point used by Nixpkgs”? What does that mean? Why is that term never defined or explained?
+<ul>
+<li><a href=https://nixos.org/guides/nix-pills/nixpkgs-overriding-packages.html>Nix Pills does explain the term</a>; but yeah, basically this is referring to the giant attribute that the function that is Nixpkgs returns, after applying user overrides and overlays and such.</li>
+</ul>
+</li>
+<li>Why does the repl print the <code>drvPath</code> instead of the <code>outputPath</code>?
+<ul>
+<li>It actually instantiates the derivation and puts it in your store.</li>
+</ul>
+</li>
+<li>What’s the point of <code>.drv</code> files?
+<ul>
+<li>Provides useful query operations, and gives a pretty clean separation between instantiation and realization.</li>
+</ul>
+</li>
+<li>How do I add a <code>shell.nix</code> file to my <code>gcroots</code>?
+<ul>
+<li>Kind of a duplicate; I wrote a whole post about this: <a href=https://ianthehenry.com/posts/how-to-learn-nix/saving-your-shell/>Part 37: Saving your shell</a>.</li>
+</ul>
+</li>
+<li>Why does the <code>fixupPhase</code> move doc directories around?
+<ul>
+<li>
+<p>Okay, so basically: this is because of the default behavior of <code>man</code>, when you don’t specify an explicit <code>MANPATH</code>.</p>
+<p>Here is my <code>MANPATH</code>:</p>
+<pre tabindex=0><code>$ manpath | tr ':' '\n'
+/usr/local/share/man
+/usr/share/man
+/Library/Apple/usr/share/man
+/Users/ian/.nix-profile/share/man
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/share/man
+/Library/Developer/CommandLineTools/usr/share/man
+</code></pre><p>Where does that come from? Wellllll… it’s enormously complicated. The answer to that question will not fit in this blog post. But you can see that <code>/Users/ian/.nix-profile/share/man</code> is in there, but <code>/Users/ian/.nix-profile/man</code> is not, so it makes sense to move <code>foo-1.0/man</code> to <code>foo-1.0/share/man</code>.<sup id=fnref:1><a href=#fn:1 class=footnote-ref role=doc-noteref>1</a></sup> That way when you install such a package, you will be able to run <code>man foo</code> and everything will work okay.</p>
+<p>But why would the <code>foo</code> derivation create <code>foo-1.0/man</code> in the first place? Why wouldn’t it create <code>foo-1.0/share/man</code> directly?</p>
+<p>Well, it <em>might</em>. But it might not: Nixpkgs is a big place, and packages a lot of software, not all of which is going to put <code>man</code> pages in the same place. So it makes sense to impose some consistency on the universe of packages after the fact, in a way that does not require modifying any <code>make</code> rules or anything. See that footnote above<sup id=fnref:1><a href=#fn:1 class=footnote-ref role=doc-noteref>1</a></sup> for an explanation of why <code>share/man</code> is preferable to <code>man</code>.</p>
+</li>
+</ul>
+</li>
+<li>Why does <code>nix repl</code> keep printing errors about unfree packages when I just ask it to <em>evaluate</em> the top-level <code>pkgs</code> expression?
+<ul>
+<li>Because evaluating derivations at the repl actually <em>instantiates</em> the derivations and puts them in your store.</li>
+</ul>
+</li>
+<li>Does Nix not explicitly distinguish between runtime and build-time dependencies?
+<ul>
+<li>Nope! Nixpkgs does, but Nix itself has a very simple data model. See <a href=https://ianthehenry.com/posts/how-to-learn-nix/saving-your-shell/>Part 37: Saving your shell</a>.</li>
+</ul>
+</li>
+<li>If I use an override or an overlay or whatever, does that only affect <code>nix-env</code>? Or does that affect any Nix command?
+<ul>
+<li>This is a Nixpkgs thing, so it will affect anything that imports <code>&lt;nixpkgs&gt;</code>.</li>
+</ul>
+</li>
+<li>How can I see the hash for a git repository, ala <code>nix-prefetch-url</code>?
+<ul>
+<li>Requires an external command like <code>nix-prefetch-github</code>; see <a href=https://ianthehenry.com/posts/how-to-learn-nix/how-to-give-back/>Part 35: How to give back</a>.</li>
+</ul>
+</li>
+<li>How does Nix calculate the set of references for an output?
+<ul>
+<li>The algorithm is <a href=https://nixos.org/guides/nix-pills/automatic-runtime-dependencies.html>explained in the Nix Pills series</a>; see <a href=https://ianthehenry.com/posts/how-to-learn-nix/nix-pills/>Part 38: Nix Pills</a>.</li>
+</ul>
+</li>
+<li>Can I have a dependency that only shows up in <code>nix-shell</code>, without being a build-time dependency of my derivation?
+<ul>
+<li>No; this doesn’t make sense. All <code>nix-shell</code> does is re-create the environment of a derivation, which includes all build-time dependencies.</li>
+</ul>
+</li>
+</ul>
+<h1 id=answers-that-i-kinda-basically-get-but-maybe-should-look-into-it-further>Answers that I kinda basically get, but maybe should look into it further</h1>
+<ul>
+<li>
+<p>What is the Nix database, and what is stored there?</p>
+<ul>
+<li>This probably deserves a post of its own, but basically it stores metadata about paths in the store, like what other paths they reference, and whether or not they’re valid. But it also stores info about derivation outputs, and I don’t really understand the purpose of that.</li>
+</ul>
+</li>
+<li>
+<p>When I get a binary cached package, do I still download and keep all the build-time dependencies?</p>
+<ul>
+<li>
+<p>I assume the answer is “no,” because it’s not necessary. But I don’t know if <code>keep-outputs = true</code> changes this answer. I don’t expect it to, but let’s check empirically.</p>
+<pre><code>$ nix show-derivation nixpkgs.hello | jq '.[] |= { outputs, inputSrcs, inputDrvs }'
+</code></pre>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-json data-lang=json><span class=p>{</span>
+  <span class=nt>"/nix/store/mic03kwmyphr3pd9l0rrq28cf60b215s-hello-2.10.drv"</span><span class=p>:</span> <span class=p>{</span>
+    <span class=nt>"outputs"</span><span class=p>:</span> <span class=p>{</span>
+      <span class=nt>"out"</span><span class=p>:</span> <span class=p>{</span>
+        <span class=nt>"path"</span><span class=p>:</span> <span class=s2>"/nix/store/qwn4c03x5s1ydajfbqwdv236qkajpa4j-hello-2.10"</span>
+      <span class=p>}</span>
+    <span class=p>},</span>
+    <span class=nt>"inputSrcs"</span><span class=p>:</span> <span class=p>[</span>
+      <span class=s2>"/nix/store/9krlzvny65gdc8s7kpb6lkx8cd02c25b-default-builder.sh"</span>
+    <span class=p>],</span>
+    <span class=nt>"inputDrvs"</span><span class=p>:</span> <span class=p>{</span>
+      <span class=nt>"/nix/store/94ckk990hrnzjbk2062acmwxajpg64gf-hello-2.10.tar.gz.drv"</span><span class=p>:</span> <span class=p>[</span>
+        <span class=s2>"out"</span>
+      <span class=p>],</span>
+      <span class=nt>"/nix/store/apghmhf48v3d381nagi9sa86fprvsl6c-bash-4.4-p23.drv"</span><span class=p>:</span> <span class=p>[</span>
+        <span class=s2>"out"</span>
+      <span class=p>],</span>
+      <span class=nt>"/nix/store/kfkii8d3rkwa1x7icr90bn8gbb6g8pzi-stdenv-darwin.drv"</span><span class=p>:</span> <span class=p>[</span>
+        <span class=s2>"out"</span>
+      <span class=p>]</span>
+    <span class=p>}</span>
+  <span class=p>}</span>
+<span class=p>}</span>
+</code></pre></div><p>So one “build time dependency” of <code>hello</code> is the output called <code>out</code> produced by the derivation <code>/nix/store/94ckk990hrnzjbk2062acmwxajpg64gf-hello-2.10.tar.gz.drv</code>. In other words, the hello source code.</p>
+<p>I think I can instantiate that derivation all by itself, to see the output path? I’m assuming it’s the <code>src</code> attribute…</p>
+<pre tabindex=0><code>$ nix-instantiate '&lt;nixpkgs&gt;' -A hello.src
+warning: you did not specify '--add-root'; the result might be removed by the garbage collector
+/nix/store/94ckk990hrnzjbk2062acmwxajpg64gf-hello-2.10.tar.gz.drv
+</code></pre><p>Yep! And now I can find the output:</p>
+<pre><code>$ nix show-derivation /nix/store/94ckk990hrnzjbk2062acmwxajpg64gf-hello-2.10.tar.gz.drv | jq '.[] |= .outputs'
+</code></pre>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-json data-lang=json><span class=p>{</span>
+  <span class=nt>"/nix/store/94ckk990hrnzjbk2062acmwxajpg64gf-hello-2.10.tar.gz.drv"</span><span class=p>:</span> <span class=p>{</span>
+    <span class=nt>"out"</span><span class=p>:</span> <span class=p>{</span>
+      <span class=nt>"path"</span><span class=p>:</span> <span class=s2>"/nix/store/3x7dwzq014bblazs7kq20p9hyzz0qh8g-hello-2.10.tar.gz"</span><span class=p>,</span>
+      <span class=nt>"hashAlgo"</span><span class=p>:</span> <span class=s2>"sha256"</span><span class=p>,</span>
+      <span class=nt>"hash"</span><span class=p>:</span> <span class=s2>"31e066137a962676e89f69d1b65382de95a7ef7d914b8cb956f41ea72e0f516b"</span>
+    <span class=p>}</span>
+  <span class=p>}</span>
+<span class=p>}</span>
+</code></pre></div><p>Er, I also could have just done:</p>
+<pre tabindex=0><code>$ nix-store --query --outputs /nix/store/94ckk990hrnzjbk2062acmwxajpg64gf-hello-2.10.tar.gz.drv
+/nix/store/3x7dwzq014bblazs7kq20p9hyzz0qh8g-hello-2.10.tar.gz
+</code></pre><p>Anyway. So the question is: when I install <code>hello</code>, will I also download the path <code>/nix/store/3x7dwzq014bblazs7kq20p9hyzz0qh8g-hello-2.10.tar.gz</code>? What about the <code>/nix/store/94ckk990hrnzjbk2062acmwxajpg64gf-hello-2.10.tar.gz.drv</code>?</p>
+<p>I don’t <em>know</em> the answer. I would be very surprised if it downloads <code>hello-2.10.tar.gz</code>, because that’s completely unnecessary. But I do expect it to put <code>hello-2.10.tar.gz.drv</code> in the store, because that’s a reference of the <code>hello-2.10.drv</code> file, and Nix doesn’t want a path in the store that is “incomplete” – that is missing some of its references.</p>
+<p>Let’s see if I’m right?</p>
+<pre tabindex=0><code>$ nix-collect-garbage
+finding garbage collector roots...
+removing stale temporary roots file '/nix/var/nix/temproots/94738'
+removing stale temporary roots file '/nix/var/nix/temproots/94712'
+deleting garbage...
+deleting '/nix/store/mic03kwmyphr3pd9l0rrq28cf60b215s-hello-2.10.drv'
+deleting '/nix/store/94ckk990hrnzjbk2062acmwxajpg64gf-hello-2.10.tar.gz.drv'
+deleting '/nix/store/trash'
+deleting unused links...
+note: currently hard linking saves 0.00 MiB
+2 store paths deleted, 0.00 MiB freed
+</code></pre><p>Alright. Moment of truth:</p>
+<pre tabindex=0><code>$ nix-env -iA nixpkgs.hello
+installing 'hello-2.10'
+these paths will be fetched (0.02 MiB download, 0.07 MiB unpacked):
+  /nix/store/qwn4c03x5s1ydajfbqwdv236qkajpa4j-hello-2.10
+copying path '/nix/store/qwn4c03x5s1ydajfbqwdv236qkajpa4j-hello-2.10' from 'https://cache.nixos.org'...
+building '/nix/store/76wq9wqpszy173w5f4dn6fnv76lbsdwc-user-environment.drv'...
+created 1040 symlinks in user environment
+</code></pre><p>Okay. So we only fetched one path… but that’s expected. Because we’re able to produce the <code>.drv</code> files locally, from the definitions in Nixpkgs. And indeed, we did create the <code>.drv</code>:</p>
+<pre tabindex=0><code>$ ls /nix/store/mic03kwmyphr3pd9l0rrq28cf60b215s-hello-2.10.drv
+/nix/store/mic03kwmyphr3pd9l0rrq28cf60b215s-hello-2.10.drv
+</code></pre><p>As well as its references:</p>
+<pre tabindex=0><code>$ ls /nix/store/94ckk990hrnzjbk2062acmwxajpg64gf-hello-2.10.tar.gz.drv
+/nix/store/94ckk990hrnzjbk2062acmwxajpg64gf-hello-2.10.tar.gz.drv
+</code></pre><p>But we did not create the output:</p>
+<pre tabindex=0><code>$ ls /nix/store/3x7dwzq014bblazs7kq20p9hyzz0qh8g-hello-2.10.tar.gz
+ls: cannot access '/nix/store/3x7dwzq014bblazs7kq20p9hyzz0qh8g-hello-2.10.tar.gz': No such file or directory
+</code></pre><p>Okay. So it works the way I expected.</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Do “substitutes” live in the Nix database or not?</p>
+<ul>
+<li>
+<p>Just, like, empirically… no? This is an unusually false claim for the manual to make, though, and I couldn’t tell you where substituters <em>do</em> live, so I should look into a little bit. Like, it’s probably cached locally, right?</p>
+<p>I look it up, and find that substitutes are cached in <code>~/.cache/nix</code>:</p>
+<pre><code>$ sqlite3 ~/.cache/nix/binary-cache-v6.sqlite .schema
+</code></pre>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-sql data-lang=sql><span class=k>CREATE</span><span class=w> </span><span class=k>TABLE</span><span class=w> </span><span class=n>BinaryCaches</span><span class=w> </span><span class=p>(</span><span class=w>
+</span><span class=w>    </span><span class=n>id</span><span class=w>        </span><span class=nb>integer</span><span class=w> </span><span class=k>primary</span><span class=w> </span><span class=k>key</span><span class=w> </span><span class=n>autoincrement</span><span class=w> </span><span class=k>not</span><span class=w> </span><span class=k>null</span><span class=p>,</span><span class=w>
+</span><span class=w>    </span><span class=n>url</span><span class=w>       </span><span class=nb>text</span><span class=w> </span><span class=k>unique</span><span class=w> </span><span class=k>not</span><span class=w> </span><span class=k>null</span><span class=p>,</span><span class=w>
+</span><span class=w>    </span><span class=k>timestamp</span><span class=w> </span><span class=nb>integer</span><span class=w> </span><span class=k>not</span><span class=w> </span><span class=k>null</span><span class=p>,</span><span class=w>
+</span><span class=w>    </span><span class=n>storeDir</span><span class=w>  </span><span class=nb>text</span><span class=w> </span><span class=k>not</span><span class=w> </span><span class=k>null</span><span class=p>,</span><span class=w>
+</span><span class=w>    </span><span class=n>wantMassQuery</span><span class=w> </span><span class=nb>integer</span><span class=w> </span><span class=k>not</span><span class=w> </span><span class=k>null</span><span class=p>,</span><span class=w>
+</span><span class=w>    </span><span class=n>priority</span><span class=w>  </span><span class=nb>integer</span><span class=w> </span><span class=k>not</span><span class=w> </span><span class=k>null</span><span class=w>
+</span><span class=w></span><span class=p>);</span><span class=w>
+</span><span class=w></span><span class=k>CREATE</span><span class=w> </span><span class=k>TABLE</span><span class=w> </span><span class=n>sqlite_sequence</span><span class=p>(</span><span class=n>name</span><span class=p>,</span><span class=n>seq</span><span class=p>);</span><span class=w>
+</span><span class=w></span><span class=k>CREATE</span><span class=w> </span><span class=k>TABLE</span><span class=w> </span><span class=n>NARs</span><span class=w> </span><span class=p>(</span><span class=w>
+</span><span class=w>    </span><span class=k>cache</span><span class=w>            </span><span class=nb>integer</span><span class=w> </span><span class=k>not</span><span class=w> </span><span class=k>null</span><span class=p>,</span><span class=w>
+</span><span class=w>    </span><span class=n>hashPart</span><span class=w>         </span><span class=nb>text</span><span class=w> </span><span class=k>not</span><span class=w> </span><span class=k>null</span><span class=p>,</span><span class=w>
+</span><span class=w>    </span><span class=n>namePart</span><span class=w>         </span><span class=nb>text</span><span class=p>,</span><span class=w>
+</span><span class=w>    </span><span class=n>url</span><span class=w>              </span><span class=nb>text</span><span class=p>,</span><span class=w>
+</span><span class=w>    </span><span class=n>compression</span><span class=w>      </span><span class=nb>text</span><span class=p>,</span><span class=w>
+</span><span class=w>    </span><span class=n>fileHash</span><span class=w>         </span><span class=nb>text</span><span class=p>,</span><span class=w>
+</span><span class=w>    </span><span class=n>fileSize</span><span class=w>         </span><span class=nb>integer</span><span class=p>,</span><span class=w>
+</span><span class=w>    </span><span class=n>narHash</span><span class=w>          </span><span class=nb>text</span><span class=p>,</span><span class=w>
+</span><span class=w>    </span><span class=n>narSize</span><span class=w>          </span><span class=nb>integer</span><span class=p>,</span><span class=w>
+</span><span class=w>    </span><span class=n>refs</span><span class=w>             </span><span class=nb>text</span><span class=p>,</span><span class=w>
+</span><span class=w>    </span><span class=n>deriver</span><span class=w>          </span><span class=nb>text</span><span class=p>,</span><span class=w>
+</span><span class=w>    </span><span class=n>sigs</span><span class=w>             </span><span class=nb>text</span><span class=p>,</span><span class=w>
+</span><span class=w>    </span><span class=n>ca</span><span class=w>               </span><span class=nb>text</span><span class=p>,</span><span class=w>
+</span><span class=w>    </span><span class=k>timestamp</span><span class=w>        </span><span class=nb>integer</span><span class=w> </span><span class=k>not</span><span class=w> </span><span class=k>null</span><span class=p>,</span><span class=w>
+</span><span class=w>    </span><span class=n>present</span><span class=w>          </span><span class=nb>integer</span><span class=w> </span><span class=k>not</span><span class=w> </span><span class=k>null</span><span class=p>,</span><span class=w>
+</span><span class=w>    </span><span class=k>primary</span><span class=w> </span><span class=k>key</span><span class=w> </span><span class=p>(</span><span class=k>cache</span><span class=p>,</span><span class=w> </span><span class=n>hashPart</span><span class=p>),</span><span class=w>
+</span><span class=w>    </span><span class=k>foreign</span><span class=w> </span><span class=k>key</span><span class=w> </span><span class=p>(</span><span class=k>cache</span><span class=p>)</span><span class=w> </span><span class=k>references</span><span class=w> </span><span class=n>BinaryCaches</span><span class=p>(</span><span class=n>id</span><span class=p>)</span><span class=w> </span><span class=k>on</span><span class=w> </span><span class=k>delete</span><span class=w> </span><span class=k>cascade</span><span class=w>
+</span><span class=w></span><span class=p>);</span><span class=w>
+</span><span class=w></span><span class=k>CREATE</span><span class=w> </span><span class=k>TABLE</span><span class=w> </span><span class=n>LastPurge</span><span class=w> </span><span class=p>(</span><span class=w>
+</span><span class=w>    </span><span class=n>dummy</span><span class=w>            </span><span class=nb>text</span><span class=w> </span><span class=k>primary</span><span class=w> </span><span class=k>key</span><span class=p>,</span><span class=w>
+</span><span class=w>    </span><span class=n>value</span><span class=w>            </span><span class=nb>integer</span><span class=w>
+</span><span class=w></span><span class=p>);</span><span class=w>
+</span></code></pre></div><p>They’re still called <code>BinaryCaches</code>, but those are our substitutes.</p>
+</li>
+</ul>
+</li>
+<li>
+<p>What is the “type” of a derivation?</p>
+<ul>
+<li>It’s an attribute set containing the attribute <code>{ type = "derivation"; }</code>, but it’s also… more than that?</li>
+</ul>
+</li>
+<li>
+<p>How does <code>nix-env --set-flag</code> work?</p>
+<ul>
+<li>I assume this just alters the <code>manifest.nix</code>, and <code>nix-env</code> commands know to parse <code>manifest.nix</code> before building the environment.</li>
+</ul>
+</li>
+<li>
+<p>How can I make <code>nix-shell</code> use <code>zsh</code>?</p>
+<ul>
+<li>I think just ignoring <code>--rcfile</code> will get me there… it is weirdly convoluted and annoying, though. This deserves <a href=https://ianthehenry.com/posts/how-to-learn-nix/nix-zshell/>its own post</a>.</li>
+</ul>
+</li>
+<li>
+<p>Is there a better way to see outdated packages?</p>
+<ul>
+<li>I explain <em>my</em> answer in <a href=https://ianthehenry.com/posts/how-to-learn-nix/declarative-user-environment/>“Part 22: Declarative environment”</a>, but I don’t know if there is a general answer.</li>
+</ul>
+</li>
+<li>
+<p>Are derivations sets or not? Why do they print differently? What makes them different or special or magical?</p>
+<ul>
+<li>Sort of a duplicate; <code>{ type = "derivation"; }</code> is all it takes to make them print differently in <code>nix repl</code>.</li>
+</ul>
+</li>
+<li>
+<p>Can I install my macOS GUI apps with Nix?</p>
+<ul>
+<li>
+<p>I think I <em>could</em>, but I can’t think of any reason why I would want to. Basically all macOS GUI apps use something like <a href=https://sparkle-project.org/>Sparkle</a> to update themselves, so it’s not like they’d stay in sync anyway. I should check on Emacs, though.</p>
+<p>Let’s see… we’ve got <code>nixpkgs.emacs</code> and <code>nixpkgs.emacsMacport</code>. <code>sd nix info emacsMacport</code> tells me:</p>
+<blockquote>
+<p>This is the “Mac port” addition to GNU Emacs 26. This provides a native GUI support for Mac OS X 10.6 - 10.12. Note that Emacs 23 and later already contain the official GUI support via the NS (Cocoa) port for Mac OS X 10.4 and later. So if it is good enough for you, then you don’t need to try this.</p>
+</blockquote>
+<p>Hmm. Is <code>emacs</code> good enough for me? Let’s try it and see…</p>
+<p>Oooh wow. Performance is <em>noticeably terrible</em>. Like, just redraws are visibly slow. Let’s try the <code>emacsMacport</code>…</p>
+<p>Huh! Running <code>emacs</code> now opens a terminal instance of Emacs. That’s kinda funny. Not really what I was going for, but sure. So uhhh…</p>
+<pre tabindex=0><code>$ open ~/.nix-profile/Applications/Emacs.app
+No application knows how to open file:///Users/ian/.nix-profile/Applications/Emacs.app/ (Error Domain=NSOSStatusErrorDomain Code=-10814 "kLSApplicationNotFoundErr: E.g. no application claims the file" UserInfo={_LSLine=1479, _LSFunction=runEvaluator}).
+</code></pre><p>Hmm. I open it via Finder, and now it launches normally when I use <code>open</code> too. Weird. Something about that… made it realize it was an app? I have no idea. Anyway, it seems to work great. Performance feels only the normal amount of sluggish. I will probably gripe in the future if this turns out not to work right for some reason.</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Does Nix install all build-time dependencies of a package?</p>
+<ul>
+<li>Duplicate; see above.</li>
+</ul>
+</li>
+<li>
+<p>Is Hydra responsible for populating <a href=https://cache.nixos.org/?>https://cache.nixos.org?</a></p>
+<ul>
+<li>
+<p>I thought I knew the answer when I asked this – I thought it was obviously “yes” – but I have <em>no idea</em> how to check this.</p>
+<p>This is surprisingly hard to answer. I google furiously. I search through the NixOS organization on GitHub. I come up with <em>no answers</em>.</p>
+<p>I can find comments on the NixOS Discourse that confirm this; that make this claim. But nothing authoritative. Not that I don’t believe those comments, just… why isn’t this vital feature described in the Hydra README or manual or something?</p>
+<p>Hmm. Let’s look through the Hydra source.</p>
+<p>I find <a href=https://github.com/NixOS/hydra/blob/fa924ea6978f2d47536a418157984a881c8226fc/src/lib/Hydra/Plugin/S3Backup.pm><code>S3Backup.pm</code></a>, which seems to be uploading build results to a configurable S3 bucket. But that file has barely changed over the last eight years. I think this is some random other thing.</p>
+<p>Hmm.</p>
+<p>Searching through IRC logs returns <em>tons</em> of references to Hydra populating the binary cache.</p>
+<p>So the code must be there. I just can’t find it using GitHub search. Time to clone, and get real search…</p>
+<p>Okay, I think it’s <a href=https://github.com/NixOS/hydra/blob/75855c202fa9346edca10fd10e81d238a18eb0e4/src/hydra-queue-runner/queue-monitor.cc#L514>this bit</a>. I sort of don’t bother to read the whole thing. I have lost the will to care about this any more.</p>
+<p>It’s strange to me that this is just <em>known</em>… and even I assumed this was the case. But I can’t find it actually <em>written down</em> anywhere.</p>
+<p>It’s probably stated somewhere really obvious, and I’m just overlooking it? I don’t know.</p>
+</li>
+</ul>
+</li>
+</ul>
+<h1 id=bad-questions>Bad questions</h1>
+<ul>
+<li>
+<p>What are the <code>nix</code> equivalents of <code>nix-env</code>, <code>nix-build</code>, and <code>nix-instantiate</code>?</p>
+<ul>
+<li>
+<p>My overall impression is that the <code>nix</code> binary, at least right now, has a couple of really useful commands (<code>nix search</code>, <code>nix repl</code>) and a couple of pretty-useful commands (<code>nix show-config</code>, <code>nix show-derivation</code>) and then dozens of random little utility things that you’ll never need that should be hidden behind some subcommand but aren’t.</p>
+<p>There are actually <em>31</em> subcommands of the <code>nix</code> binary. There is no hierarchy to these commands; nothing that makes them browseable. Some examples:</p>
+<pre tabindex=0><code>to-base16        convert a hash to base-16 representation
+to-base32        convert a hash to base-32 representation
+to-base64        convert a hash to base-64 representation
+to-sri           convert a hash to SRI representation
+</code></pre><p>These commands exist at the same level as, say, <code>nix repl</code>, despite one of those things being vastly more commonplace.</p>
+<p>I quickly gave up on trying to use <code>nix</code>, or looking for <code>nix</code>-equivalents of commands. I stopped <em>wanting</em> that: I stopped caring about the <code>nix</code> command, a few chapters into the manual. It proved that it was not the usability overhaul I was hoping for, and I embraced the “old-style” <code>nix-foo</code> commands.</p>
+<p>So while there is a <code>nix build</code> command, I haven’t used it: I tried it once, but it didn’t work as well as <code>nix-build</code>, so now I am soured to it forever. I know there’s no equivalent of <code>nix-env</code>, and I would be very surprised if there’s a <code>nix-instantiate</code> equivalent.</p>
+</li>
+</ul>
+</li>
+<li>
+<p>What is the <code>nix</code> equivalent of <code>nix-store -qR</code> to print out the closure of a store path?</p>
+<ul>
+<li>I don’t know, but again, I don’t really care: I expect there isn’t one. Maybe <code>nix path-info</code> can do this, but if so it isn’t documented.</li>
+</ul>
+</li>
+<li>
+<p>What are the <code>nix</code> equivalents of <code>nix-store --dump</code> and <code>nix-store --restore</code>, for working with NARs?</p>
+<ul>
+<li>I don’t know, and I don’t really care.</li>
+</ul>
+</li>
+<li>
+<p>Why is there no <code>man nix</code>?</p>
+<ul>
+<li>Because there isn’t?</li>
+</ul>
+</li>
+<li>
+<p>Why did <code>nix-env -i hello</code> tell me it “created 40 symlinks in user environment”?</p>
+<ul>
+<li>I get what this means now, but I think the message is useless and confusing. This is basically a debug-level log message.</li>
+</ul>
+</li>
+<li>
+<p>How do I install commands using <code>nix</code> instead of <code>nix-env</code>?</p>
+<ul>
+<li>I don’t.</li>
+</ul>
+</li>
+<li>
+<p>Why does <code>nix run</code> need the <code>nixpkgs</code> qualifier when <code>nix-shell</code> doesn’t?</p>
+<ul>
+<li>It’s pretty much a complete mystery to me what commands will accept what arguments. <code>nix-env</code> takes package names, except when it doesn’t; <code>nix-shell -p</code> evaluates arbitrary Nix expressions with the <code>nixpkgs</code> entry on your <code>NIX_PATH</code> in scope, but <code>nix-shell</code> takes a path – a Nix path, not a file path – and on and on. So I don’t know. Because every command is a special snowflake.</li>
+</ul>
+</li>
+<li>
+<p>Why is there an <code>--upgrade</code> command if <code>--install</code> will upgrade packages?</p>
+<ul>
+<li>This is dumb and <code>--upgrade</code> is dumb and you should never use it.</li>
+</ul>
+</li>
+<li>
+<p>How do I pretty print Nix files?</p>
+<ul>
+<li>As far as I can tell, there is no built-in way to do this. I managed to do this with a third-party tool called <code>nixpkgs.nixfmt</code>, but it wants to reformat files in-place, which is not very useful.</li>
+</ul>
+</li>
+<li>
+<p>Why do hashes appear at the beginning of store paths instead of the end?</p>
+<ul>
+<li>I dunno, because whatever? This seems natural to me, despite it making tab-completion harder.</li>
+</ul>
+</li>
+<li>
+<p>What are the sizes of integral and floating point numbers?</p>
+<ul>
+<li>According to <code>builtins.valueSize</code>, they are both 64-bits, but I don’t know if that’s just because it’s the native size. I don’t actually care at all, though: if this ever matters to me, something has gone horribly wrong.</li>
+</ul>
+</li>
+<li>
+<p>Why does <code>mkDerivation</code> pass through <code>args</code> literally?</p>
+<ul>
+<li>I would call this a bug, but in practice you don’t ever pass positional arguments to your builder, you just pass environment variables, so it doesn’t really matter.</li>
+</ul>
+</li>
+<li>
+<p>What is the use case for <code>nix-env --set</code>?</p>
+<ul>
+<li>Don’t know; don’t care.</li>
+</ul>
+</li>
+<li>
+<p>Why can’t I say <code>nix-env -eA nixpkgs.hello</code>? Why do I need to use the “symbolic name”?</p>
+<ul>
+<li>Ehhh yeah I mean because package names are dumb and the user environment doesn’t remember the path you used to install packages.</li>
+</ul>
+</li>
+<li>
+<p>How do I pretty print Nix expressions?</p>
+<ul>
+<li>Duplicate; see above.</li>
+</ul>
+</li>
+<li>
+<p>Why don’t I have <code>man</code> pages for <code>coreutils</code>?</p>
+<ul>
+<li>
+<p>Requires <code>coreutils-full</code>; this is probably a disk space thing? I found it extremely confusing, but whatever.</p>
+<p>A comment in the derivation seems to support this:</p>
+<pre><code>$ grep man1 -B1 -A5 ~/src/nixpkgs/pkgs/tools/misc/coreutils/default.nix
+</code></pre>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-nix data-lang=nix>  <span class=n>postInstall</span> <span class=err>=</span> <span class=n>optionalString</span> <span class=p>(</span><span class=n>stdenv</span><span class=o>.</span><span class=n>hostPlatform</span> <span class=o>!=</span> <span class=n>stdenv</span><span class=o>.</span><span class=n>buildPlatform</span> <span class=o>&amp;&amp;</span> <span class=o>!</span><span class=n>minimal</span><span class=p>)</span> <span class=s1>''
+</span><span class=s1>    rm $out/share/man/man1/*
+</span><span class=s1>    cp </span><span class=si>${</span><span class=n>buildPackages</span><span class=o>.</span><span class=n>coreutils-full</span><span class=si>}</span><span class=s1>/share/man/man1/* $out/share/man/man1
+</span><span class=s1>  ''</span>
+  <span class=c1># du: 8.7 M locale + 0.4 M man pages</span>
+  <span class=o>+</span> <span class=n>optionalString</span> <span class=n>minimal</span> <span class=s1>''
+</span><span class=s1>    rm -r "$out/share"
+</span><span class=s1>  ''</span><span class=p>;</span>
+</code></pre></div><p>(<code>minimal = false</code> in <code>coreutils-full</code>.)</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Why do I have to explicitly install <code>info</code> pages for <code>coreutils</code>?</p>
+<ul>
+<li>Because no one wants <code>info</code> pages. I only asked this because I couldn’t find the <code>man</code> pages, but then I did, so this question doesn’t really matter.</li>
+</ul>
+</li>
+<li>
+<p>Why doesn’t <code>overrideAttrs</code> just transform a set into a new set?</p>
+<ul>
+<li>Slight convenience with relatively low cost?</li>
+</ul>
+</li>
+<li>
+<p>Why doesn’t <code>nix-collect-garbage --dry-run</code> do the thing I expect?</p>
+<ul>
+<li>I dunno, because it would be more work?</li>
+</ul>
+</li>
+<li>
+<p>What derivation attributes are special enough that <code>nix repl</code> prints them out?</p>
+<ul>
+<li>Looking back on this question, I just <a href=https://ianthehenry.com/posts/how-to-learn-nix/an-infinite-list-of-functions/>misread the output of a <code>repl</code> session</a> (⌘F <code>recurseForDerivations</code>). It seems to only print out <code>drvPath</code>.</li>
+</ul>
+</li>
+<li>
+<p>Why is <code>prefer-remote-fetch</code> kebab-cased?</p>
+<ul>
+<li>There are lots of functions like this in Nixpkgs. I don’t know, but I’m guessing because the files are kebab-cased, and fixing these would cause a lot of breakage.</li>
+</ul>
+</li>
+<li>
+<p>Is it safe to get rid of <code>locateDominatingFile</code> (and other unused <code>lib</code> functions)?</p>
+<ul>
+<li>Ehh, maybe; I don’t really care.</li>
+</ul>
+</li>
+<li>
+<p>Why is <code>lib.misc</code> not called <code>lib.deprecated</code>?</p>
+<ul>
+<li>I can safely assume backwards compatibility with a historical accident.</li>
+</ul>
+</li>
+<li>
+<p>Why is <code>lib.trivial</code> not called <code>lib.misc</code>?</p>
+<ul>
+<li>I can safely assume backwards compatibility with a historical accident.</li>
+</ul>
+</li>
+<li>
+<p>Do we need <code>fetchFromSavannah</code> here?</p>
+<ul>
+<li>I think the answer is no, but, like, also, who cares.</li>
+</ul>
+</li>
+<li>
+<p>Why does the repl instantiate <code>.drv</code> files and put them into the actual store?</p>
+<ul>
+<li>Like many “why” questions, I doubt I’ll get a real answer here, and don’t really care enough to try to track it down.</li>
+</ul>
+</li>
+</ul>
+<h1 id=questions-without-answers-even-in-this-day-and-age>Questions without answers, even in this day and age</h1>
+<ul>
+<li>What does it mean to compose a package?</li>
+<li>What is <code>NIX_PROFILES</code>?</li>
+<li>What are all those <code>/nix/store/...user-environment/share/nix/*.nix</code> files?</li>
+<li>Why does the default install give me <code>https://nixos.org/channels/nixpkgs-unstable</code> which 302s to <code>https://channels.nixos.org/nixpkgs-unstable</code>?</li>
+<li>Why is the store object in <code>~/.nix-defexpr</code> also called a <code>user-environment</code>?</li>
+<li>Can I put a space in a Nix package name?</li>
+<li>How do “special” paths like <code>stdenv-darwin</code> wind up in the store / stay in the store? Are those part of the <code>nix</code> package?</li>
+<li>Why is there a Commander Keen game in nixpkgs? How is that allowed?
+<ul>
+<li>I’ll leave this one as an exercise for the reader. It’s easy to look into; I looked into it; I have no further questions. Everything checks out.</li>
+</ul>
+</li>
+<li>What is <code>$hostOffset</code> in a setup hook?</li>
+<li>How do I actually find the logs I want in <code>/nix/var/log/nix</code>?</li>
+<li>How do extended file system attributes work in Nix?</li>
+<li>Why doesn’t <code>fetchGit</code> return a fixed-output derivation?</li>
+<li>What is <code>builtins.placeholder</code>?</li>
+<li>What is “context”?</li>
+<li>What do the <code>unsafe</code> functions do?</li>
+<li>What is <code>scopedImport</code>?</li>
+<li>Is there any difference between <code>nix-build</code> and <code>nix build</code>?</li>
+<li>What’s up with that weird array situation?</li>
+<li>What’s the “user environment build script”</li>
+<li>Why does <code>nix eval</code> need its argument to be in parentheses?</li>
+<li>Why doesn’t <code>nix-store --read-log</code> work?</li>
+<li>What does <code>allow-import-from-derivation</code> do?</li>
+<li>How can I set up my own “hashed mirror?”</li>
+<li>How <em>should I</em> install my login shell with Nix?</li>
+<li>How do I <code>--keep-failed</code> with <code>nix build</code>?
+<ul>
+<li>I think maybe <code>nix log</code> has something to say here?</li>
+</ul>
+</li>
+<li>What’s the difference between <code>nix build</code> and <code>nix-build</code>?
+<ul>
+<li>Duplicate.</li>
+</ul>
+</li>
+<li>What is the not terribly gross way to run <code>nix-shell -p</code> with a package from a custom channel (i.e. without renaming it to <code>"nixpkgs"</code>)?</li>
+<li>Can I run Nix tests after <code>nix-build</code> without doing a full rebuild from <code>nix-shell</code>?</li>
+<li>In the case that I have multiple substituters configured, how can I see which substituters have certain packages?</li>
+<li>How do I see what (package × architecture) pairs are <em>supposed</em> to be cached in the official cache?</li>
+<li>How do I quickly “go to definition” of a package?</li>
+<li>What on earth is <code>builtins.placeholder</code> for?
+<ul>
+<li>Duplicate.</li>
+</ul>
+</li>
+<li>How can I use <code>overrideAttrs</code> to <em>remove</em> an attribute?</li>
+<li>How do I print the contents of a derivation without setting the <code>type</code> to something else?</li>
+<li>What’s up with <code>lib.strings.addContextFrom</code>?</li>
+<li>What’s with <code>fix'</code> and the <code>__unfix__</code> attribute? Should I care about this?</li>
+<li>What is <code>hydra-eval-jobs</code>?</li>
+<li>Where is <code>lib.warn</code> defined?</li>
+<li>What… on earth… is all of this platform arithmetic? What do these numbers mean? Why– what is happening here?</li>
+<li>Why does the <code>substituteAll</code> builder need to call <code>preInstall</code>/<code>postInstall</code>?</li>
+<li>Is it true that “Environment variables are then substituted in it using <code>substituteAll</code>”? Is Python doing that explicitly unnecessarily, or are the docs wrong?</li>
+<li>Why is there a <code>stdenv.targetPlatform</code>? What does that mean?</li>
+<li>How can I get <code>ldd</code> on my macOS box?</li>
+<li>Why did Nix try to install Xcode to build <code>hello</code> for macOS?</li>
+<li>Why is <code>install_name</code> an intrinsic property of a <code>.dylib</code> file?</li>
+<li>What does it mean to “have a builder for the <code>system</code>” of <code>runCommandLocal</code>?</li>
+<li>Does <code>allowSubstitues = false</code> disable substitutes for all dependencies of a derivation as well?</li>
+<li>What is <code>runtimeShell</code>, and when should I prefer it over <code>$SHELL</code>?</li>
+<li>How can I <code>nix search</code> through <code>nixpkgs.nodePackages</code>?
+<ul>
+<li>Oddly, I <em>can</em> search through <code>nixpkgs.ocamlPackages</code>…</li>
+</ul>
+</li>
+<li>How am I supposed to use e.g. <code>bower2nix</code> while iterating on a package from <code>nix-shell</code>?</li>
+<li>What the heck is up with the Node.js stuff?</li>
+<li>How do <code>hashed-mirrors</code> work?</li>
+<li>Why does Nix… disable TLS when fetching sources? What?</li>
+<li>How do I enable the sandbox for a single build?</li>
+<li>Is there anything Nix-specific about NAR files?</li>
+</ul>
+<p>So… now what? Do I go through and try to answer every single one of these?</p>
+<p>No. Of course not. This post has taken way too long already. None of these questions are really <em>pressing</em>, and I can find the answers in my own time, as I do more real Nix things. I already closed like 65% of my open questions in this post; I can leave the rest for later.</p>
+<section class=footnotes role=doc-endnotes>
+<hr>
+<ol>
+<li id=fn:1 role=doc-endnote>
+<p>You might be wondering: why is that in there?</p>
+<p>Basically, without an explicit <code>MANPATH</code>, <code>man</code> is going to look through elements in your <code>PATH</code>, and try to find a “nearby” <code>man/</code> directory for each entry. If it finds one, it adds it to the <code>MANPATH</code>.</p>
+<p>A concrete example: if you have <code>/foo/bar/baz/bin</code> on your <code>PATH</code>, it’s going to look for <code>../share/man</code> – i.e., <code>/foo/bar/baz/share/man</code>. If it finds it, it adds it to the manual search path. And then it stops.</p>
+<p>If it <em>doesn’t</em> find <code>../share/man</code>, it will then look for <code>../man</code>. So if you <em>only</em> had a <code>~/.nix-profile/man</code> directory and no <code>~/.nix-profile/share/man</code> directory, then <code>man</code> would work as expected. But if you then grew a <code>~/.nix-profile/share/man</code> directory, <code>man</code> would no longer be able to find the <code>~/.nix-profile/man</code> directory, because every <code>PATH</code> entry only gets a single corresponding <code>MANPATH</code> entry.</p>
+<p>This behavior is not documented anywhere, at least in the <code>man</code> that macOS ships. The most it has to say about it is:</p>
+<blockquote>
+<p>[…] for each directory in the command search path (we’ll call it a “command directory”) for which you do not have a <code>MANPATH_MAP</code> statement, <code>man</code> automatically looks for a manual page directory “nearby” namely as a subdirectory in the command directory itself or in the parent directory of the command directory.</p>
+<p>You can disable the automatic “nearby” searches by including a <code>NOAUTOPATH</code> statement in <code>/private/etc/man.conf</code>.</p>
+</blockquote>
+<p>That says nothing about the <code>../share/man</code> behavior, which is the salient thing here. But you can check the implementation of the <code>find_man_subdir</code> function in <a href=https://opensource.apple.com/source/man/man-21.60.1/man/src/manpath.c.auto.html><code>manpath.c</code></a>, if you want a better answer.</p>
+<p>That is hilarious, isn’t it? I find running <code>man man</code> very funny, and the fact that it doesn’t actually document the one bit of behavior I’m curious about even funnier. Computers are great.</p>
+<p>Out of curiosity: does GNU <code>man</code> fare better?</p>
+<p>I run <code>nix-shell -p man-db</code> to check. Experimenting with <code>manpath</code> reveals that it will add both <code>../share/man</code> and <code>../man</code> if they exist, unlike macOS’s <code>man</code>. But neither <code>man man</code> nor <code>man manpath</code> has <em>any</em> information about <em>why</em> this is or where those values come from, and even the <code>man.conf</code> file shipped doesn’t include a note about it (my <code>/etc/man.conf</code> at least hints at this behavior, by telling you how to disable it).</p>
+<p>In fact the only reference to this behavior that I can find is a comment in the source: see <code>get_manpath_from_path</code> in <a href=https://git.savannah.nongnu.org/cgit/man-db.git/tree/src/manp.c><code>manp.c</code></a>.</p>
+<p>Anyway this is the longest footnote I have ever written how are you doing.&nbsp;<a href=#fnref:1 class=footnote-backref role=doc-backlink>↩︎</a></p>
+</li>
+</ol>
+</section></div>
+</article>
+<div class=post-footer>
+<a href="mailto:ianthehenry@gmail.com?subject=let%27s%20talk%20about%20%22Open%20questions%22&amp;body=First%20of%20all,%20I%20just%20wanted%20to%20say%20that%20I%20forgive%20you%20for%20not%20having%20a%20real%20comment%20system%20on%20your%20site.">comment on this post</a><a href=https://ianthehenry.com/posts/how-to-learn-nix/ambiguous-packages/>Next up ➜ Ambiguous packages</a></div>
+<aside class=series-rider>
+<p>
+This post is part of the series <a class=series-name href=https://ianthehenry.com/posts/how-to-learn-nix/>How to Learn Nix</a>.
+You can
+<a target=_blank href=https://ianthehenry.com/feed.xml>subscribe to my RSS feed</a>
+or
+<a target=_blank href=https://twitter.com/ianthehenry>follow me on Twitter</a>
+for more, or <a href=https://ianthehenry.com/posts/>peruse my back catalog</a> if you're in the mood for something different.
+<div class=subsection-header>Opening remarks</div><ol start=1 class=post-list><li><a href=https://ianthehenry.com/posts/how-to-learn-nix/introduction/>What's all this about?</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/prior-knowledge/>Prior knowledge</a></li>
+</ol><div class=subsection-header>Reading the Nix manual</div><ol start=3 class=post-list><li><a href=https://ianthehenry.com/posts/how-to-learn-nix/glossary/>What we talk about when we talk about Nix</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/quick-start-guide/>Quick starts, full hearts</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/basic-package-management/>Basic package management</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/profiles/>Profiles</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/garbage-collection/>Garbage collection</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/channels/>Channels</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/sharing/>Learning to share</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/my-first-derivation/>My first derivation</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/okay-my-actual-first-derivation/>Okay my actual first derivation</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/nix-language/>The Nix expression language</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/derivations/>Derivations</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/built-in-functions/>Built-in Functions</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/advanced-topics/>Advanced Topics</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/command-reference/>Command Reference</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/configuration/>Configuration</a></li>
+</ol><div class=subsection-header>Interlude: in which we follow our hearts, however briefly</div><ol start=18 class=post-list><li><a href=https://ianthehenry.com/posts/how-to-learn-nix/nix-manual-reflection/>So I read the manual huh</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/switching-from-homebrew-to-nix/>Switching from Homebrew to Nix</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/my-first-nix-bug/>My first Nix bug</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/my-first-package-upgrade/>My first package upgrade</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/declarative-user-environment/>Setting up a declarative user environment</a></li>
+</ol><div class=subsection-header>Reading the Nixpkgs manual</div><ol start=23 class=post-list><li><a href=https://ianthehenry.com/posts/how-to-learn-nix/how-to-learn-nixpkgs/>How to learn Nixpkgs</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/overlays/>Overlays</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/overriding/>Overriding</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/an-infinite-list-of-functions/>An infinite list of functions</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/even-more-functions-somehow/>Even more functions, somehow</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/the-standard-environment/>The standard environment</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/derivations-in-detail/>Derivations in detail</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/cross-compilation/>Cross-compilation</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/platform-notes/>Platform notes</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/builders/>Builders</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/languages-and-frameworks/>Languages and frameworks</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/random-package-grab-bag/>Random package grab-bag</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/how-to-give-back/>How to give back</a></li>
+</ol><div class=subsection-header>Documentation behind us, we set out on our own</div><ol start=36 class=post-list><li><a href=https://ianthehenry.com/posts/how-to-learn-nix/nixpkgs-reflection/>So I read the other manual, huh</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/saving-your-shell/>Saving your shell</a></li>
+</ol><div class=subsection-header>Oh right forgot about Nix Pills</div><ol start=38 class=post-list><li><a href=https://ianthehenry.com/posts/how-to-learn-nix/nix-pills/>Nix Pills</a></li>
+</ol><div class=subsection-header>Our whole lives ahead of us</div><ol start=39 class=post-list><li><a href=https://ianthehenry.com/posts/how-to-learn-nix/python3-alpha/>How to install Python</a></li>
+<li><strong><a href=https://ianthehenry.com/posts/how-to-learn-nix/open-questions/>Open questions</a></strong>&nbsp;←&nbsp;you are here</li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/ambiguous-packages/>Ambiguous packages</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/nix-zshell/>Running zsh in nix-shell</a></li>
+</ol><div class=subsection-header>Nix 2.4 slithers to life</div><ol start=43 class=post-list><li><a href=https://ianthehenry.com/posts/how-to-learn-nix/flakes/>My first brush with flakes</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/more-flakes/>More flakes, unfortunately</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/new-profiles/>Fancy new profiles</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/chipping-away-at-flakes/>Chipping away at flakes</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/nix-develop/>New and unimproved shells</a></li>
+</ol>
+</aside>
+</main>
+<footer>
+© 1899-1907 <a href=https://ianthehenry.com/about/>Ian Henry</a>
+</footer>

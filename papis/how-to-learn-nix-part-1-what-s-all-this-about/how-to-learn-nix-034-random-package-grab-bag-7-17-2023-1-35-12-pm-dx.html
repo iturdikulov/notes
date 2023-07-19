@@ -1,0 +1,191 @@
+<!DOCTYPE html> <html lang=en style><!--
+ Page saved with SingleFile 
+ url: https://ianthehenry.com/posts/how-to-learn-nix/random-package-grab-bag/ 
+ saved date: Mon Jul 17 2023 13:35:12 GMT+0600 (Kyrgyzstan Time)
+--><meta charset=utf-8>
+<meta name=viewport content="initial-scale=1,maximum-scale=1">
+<title>How to Learn Nix, Part 34: Random package grab-bag</title>
+<link rel=canonical href=https://ianthehenry.com/posts/how-to-learn-nix/random-package-grab-bag/>
+<style>:root{--box-radius:6px;--outer-box-radius:10px}:root{--content-bg:#fff;--gutter-bg:#eeeef3;--text-fg:#4d4d4c;--table-border-color:#ccc;--separator-color:#6d6d6c;--link:#07c;--link-visited:#751a9a;--blockquote-accent:var(--link);--footnote-accent:#ffd2a3;--subscribe-button-bg:#44e66c;--subscribe-button-fg:#11391b;--media-controls-on:#34b553;--media-controls-contrast:#fff;--inline-code-bg:#f3f3fa;--code-block-bg:#f3f3fa;--aside-bg:#f3f3fa;--aside-warning-bg:#fff5d1;--aside-warning-fg:#ac3233;--palette-red:#c82829;--palette-green:#718c00;--palette-yellow:#eab700;--palette-orange:#f5871f;--palette-blue:#4271ae;--palette-purple:#8959a8;--palette-teal:#3e999f;--palette-white:#fefefe;--palette-black:#000;--palette-text:var(--text-fg);--palette-dim:#8e908c;--highlight-bg:var(--palette-yellow);--highlight-fg:var(--text-fg)}#dmt::before{content:"🌖"}#dmt:hover::before{content:"🌗"}@media (prefers-color-scheme:dark){:root:not(.light-theme){--content-bg:#313233;--gutter-bg:#1d1f21;--text-fg:#d8d4cf;--table-border-color:#ccc;--separator-color:#6d6d6c;--link:rgb(82,183,255);--link-visited:rgb(193,104,229);--blockquote-accent:var(--link);--footnote-accent:#a8612f;--subscribe-button-bg:#44e66c;--subscribe-button-fg:#11391b;--media-controls-on:#44e66c;--media-controls-contrast:#11391b;--inline-code-bg:#3c4044;--code-block-bg:#1d1f21;--aside-bg:#3c4044;--aside-warning-bg:#fff5d1;--aside-warning-fg:var(--palette-red);--palette-red:#cc6666;--palette-green:#b5bd68;--palette-yellow:#f0c674;--palette-orange:#de935f;--palette-blue:#81a2be;--palette-purple:#b294bb;--palette-teal:#8abeb7;--palette-white:#fefefe;--palette-black:#000;--palette-text:var(--text-fg);--palette-dim:#969896;--highlight-bg:var(--palette-yellow);--highlight-fg:var(--palette-black)}:root:not(.light-theme) #dmt::before{content:"🌒"}:root:not(.light-theme) #dmt:hover::before{content:"🌓"}}#dmt{width:30px;text-align:right;padding-right:4px;position:absolute;top:0;bottom:0;right:0;border:none;background-color:inherit;cursor:pointer}*{margin:0;padding:0;font:inherit;box-sizing:border-box}html{background-color:var(--gutter-bg);color:var(--text-fg)}body{font-family:system-ui,sans-serif;font-size:12pt;line-height:1.8;word-wrap:break-word}body:not(.content-page) main>aside{padding:0 var(--content-padding)}body.content-page main,body:not(.content-page) article{background-color:var(--content-bg);border-radius:var(--outer-box-radius);padding:var(--content-padding)}pre{word-wrap:normal}em,i{font-style:italic}h1>a:only-child,h2>a:only-child{display:block}main .subsection-header+.post-list{margin-top:0}strong{font-weight:700}ol,ul{padding-left:3ch}:not(pre)>code{white-space:pre;background-color:var(--inline-code-bg)}li{padding-left:0}blockquote{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:"";content:none}a,a:active,a:visited{text-decoration:none}a:hover{text-decoration:underline}blockquote{padding:0 0 0 var(--content-padding);border-left:solid 2px var(--blockquote-accent)}aside{--content-padding:0.5em;padding:.5em;border-radius:var(--box-radius);background-color:var(--aside-bg)}a,a:active,header a:visited,footer a:visited,h1 a:visited,h2 a:visited{color:var(--link)}a:visited{color:var(--link-visited)}h2{font-size:120%}main *+p,main *+pre,main *+aside,main *+article,main *+blockquote,main *+div,main *+ul,main *+h2{margin-top:1em}main .post-header *+h1{margin-top:0}code{font-family:Menlo,monospace;padding:0 3px;border-radius:2px}pre{background-color:var(--code-block-bg);font-size:11pt;padding:calc(.75*var(--content-padding)) var(--content-padding);line-height:1.3;border-radius:var(--box-radius);overflow-x:scroll;-webkit-overflow-scrolling:touch}pre code{padding:0;border-radius:0;display:inline-block;background-color:initial}p+p{margin-top:1em}body{margin:0 auto;--content-padding:10px;max-width:768px;-webkit-text-size-adjust:100%;position:relative}header{position:relative}header>*{height:48px;line-height:48px}.promo,.promo:visited,.promo:active{display:block;text-align:center;background-color:var(--link);color:var(--code-block-bg);border-radius:0 0 var(--outer-box-radius) var(--outer-box-radius)}header .site-title{font-size:130%}header nav{position:absolute;right:30px;top:0}@media all and (max-width:400px){:root{--outer-box-radius:0}header{text-align:center}header nav{position:static}:not(pre)>code{white-space:pre-wrap}body{--content-padding:10px}#dmt{padding:0;text-align:center;width:40px}}header ul{padding:0}header li{list-style:none;display:inline-block}header a{display:block;height:100%}header li+li{margin-left:1em}footer{padding:2em 0;font-size:.85em;text-align:center}article h1.post-title{font-size:200%}article .post-title a{display:block}article .meta{font-size:90%;font-style:italic}.post-header h1{line-height:1.2em;margin-bottom:.5em}.post-footer{text-align:center}.post-footer a{display:block}ol.post-list{list-style-position:inside;padding:0}.series-rider .series-name{font-style:italic}.highlight{color:var(--palette-text)}.highlight .k{color:var(--palette-purple)}.highlight .nb{color:var(--palette-text)}.highlight .s2{color:var(--palette-green)}</style>
+<meta property=og:title content="How to Learn Nix, Part 34: Random package grab-bag">
+<meta property=og:type content=website>
+<meta property=og:url content=https://ianthehenry.com/posts/how-to-learn-nix/random-package-grab-bag/>
+<meta name=description content="Chapter 16 is a curious beast.
+It is a list of 17 packages, and information about how to use or configure them.
+Some of them make a lot of sense to me: Nginx, Emacs, X.org. Complicated packages that, I imagine, there is a lot of configuring to do.
+Some of them do not make sense to me. Some of them I have never heard of. ibus-engines.typing-booster. I don’t really think of that as on the same level as, you know, Eclipse. “Cataclysm: Dark Days Ahead.” That’s just… a game. It is the only game listed. Look, I do not know. I’m not sure what the inclusion criteria here is, or if it’s anything beyond “someone put it here.”
+Here’s the complete list:">
+<meta property=og:description content="Chapter 16 is a curious beast.
+It is a list of 17 packages, and information about how to use or configure them.
+Some of them make a lot of sense to me: Nginx, Emacs, X.org. Complicated packages that, I imagine, there is a lot of configuring to do.
+Some of them do not make sense to me. Some of them I have never heard of. ibus-engines.typing-booster. I don’t really think of that as on the same level as, you know, Eclipse. “Cataclysm: Dark Days Ahead.” That’s just… a game. It is the only game listed. Look, I do not know. I’m not sure what the inclusion criteria here is, or if it’s anything beyond “someone put it here.”
+Here’s the complete list:">
+<meta property=og:image content=https://ianthehenry.com/checkerboard.png>
+<meta name=twitter:creator content=@ianthehenry>
+<meta name=twitter:card content=summary>
+<link type=image/x-icon rel="shortcut icon" href="data:image/vnd.microsoft.icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAHH1uIDShg/xEsZv8GFk3/CSJb/wgZT/8IGU//CBlP/wkiW/8HGE7/CBlP/wkiW/8HIFX/BxhO/wcgVf8OK2t7JDhz/wcfW/8NNn7/CSpq/wkjYf8MJGP/DCJg/w02ef9SqdX/TKHJ/1my2f9Moc3/UqzV/1Cr1v9Pocf/Ditr/xk2cf8KJGL/CjR8/wwva/8RK2r/Cido/w8qa/8LLW//TqjT/1Gnz/9bsNf/Sp/K/1Wt2f9Wrtj/UKjQ/w8xc/8gPHj/Di5w/xk4ef8TL27/Dy5u/xU3fv8QLGv/Ditr/1qy3f9dttv/Yrje/0ecx/9Knsz/U6fQ/1m13f8YN3n/JjZx/wszdv8YOXz/Eilm/xc3e/8dSZT/GDJz/xk/hv9hu+P/WbHZ/1mv1v9Kn8z/WLHd/1212v9ds9n/Eipr/xcqYv8SOX3/GzRz/xQrZ/8aM3D/HEuU/xc0df8fPYD/Yrre/1603P9dt9z/VKvY/1iz4v9etNr/Y73m/xk5fP8cMm3/JEWK/xc0dP8eO3v/Hjd4/ydRnP8WM3P/Gjd3/2bA5/9dtd//Ybng/2K95v9ct+P/Ybnf/2K95/8oS5L/GChg/xxBh/8lSIz/GC5s/yM5ev8hRoz/HTp7/yE6e/9Zsdz/YLzn/2jF7v9ryfL/YLzn/1qu1f9htdz/GDyD/y0/ev9qx/X/acDn/1235v9euun/Yb3r/1665v9owu7/GUOL/yhGh/8nUJL/MkmI/yBFiP8jOHb/MVag/yM+gv8VMGv/acXx/27G7/9szv3/bMb1/2zD6/9vy/X/edf5/yBHjv8yS47/JEuO/zVLiv8nS5D/LkOB/yRXpP8lQoT/H0WI/3fS+P910Pf/b8/8/2bB7/991Pn/eNb+/3nT+P8pS5L/O1GS/ytUnP86UJH/NF2k/zNLjP8sXKv/JkCB/x4+ff+B2/3/etT9/4He//922f//fNf//3TT//991/7/NU6N/zZSkP86Zav/PlWR/zFepv88ZKb/MF2n/yQ/gf8bNXH/fd3//3/b//+K6P//ft///3vV//993f//gdz//0hWlf9FZKX/RmOj/0JXlv9IeMP/QXKz/0Jsuf8eO3z/Hjt2/3vd//+C3v//ju3//3zg//+H4v//guL//4nj//9HXp3/UGur/ztgqf9JYqP/S3G4/05ur/9EbLT/Hjt7/zNJhf+G4///heT//4rq//+E5///iOT//4jr//+G4///UXO0/09iov9EX6H/SWWn/1V5wP9Kaa7/RGSp/ydLj/8NKGCfDShg/x8+d/8RLGb/CBlP/wYWTf8GFEj/CBNH/wooZP8JIlv/CCJd/woWSf8HGE7/ByBV/wwgU/8fO3mfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="><meta http-equiv=content-security-policy content="default-src 'none'; font-src 'self' data:; img-src 'self' data:; style-src 'unsafe-inline'; media-src 'self' data:; script-src 'unsafe-inline' data:; object-src 'self' data:; frame-src 'self' data:;"><style>img[src="data:,"],source[src="data:,"]{display:none!important}</style></head>
+<body class=content-page>
+<a class=promo href=https://janet.guide/ target=_blank><i>psst, hey kid, wanna read a weird programming book</i></a>
+<header>
+<a class=site-title href=https://ianthehenry.com/>Ian Henry</a>
+<nav>
+<ul><li><a href=https://ianthehenry.com/about/>About</a><li><a href=https://ianthehenry.com/posts/>Blog</a><li><a href=https://ianthehenry.com/stuff/>Stuff</a></ul>
+</nav>
+<button id=dmt title="Toggle dark mode"></button>
+</header>
+<main>
+<aside class=series-rider>
+<p>This post is part of the series <a class=series-name href=https://ianthehenry.com/posts/how-to-learn-nix/>How to Learn Nix</a>, a rambling diary in which I work my way through the Nix manual in excrutiating detail.</p>
+</aside>
+<article class=post>
+<div class=post-header>
+<time class=meta datetime=2021-05-14>May 14, 2021</time>
+<h1 class=post-title>
+<a href=https://ianthehenry.com/posts/how-to-learn-nix/random-package-grab-bag/>How to Learn Nix, Part&nbsp;34:<br>Random package grab-bag</a></h1>
+</div>
+<div class=post-content><p><a href=https://web.archive.org/web/20210318102415if_/https://nixos.org/manual/nixpkgs/stable/#chap-packages>Chapter 16</a> is a curious beast.</p>
+<p>It is a list of 17 packages, and information about how to use or configure them.</p>
+<p>Some of them make a lot of sense to me: Nginx, Emacs, X.org. Complicated packages that, I imagine, there is a lot of configuring to do.</p>
+<p>Some of them do not make sense to me. Some of them I have never heard of. <code>ibus-engines.typing-booster</code>. I don’t really think of that as on the same level as, you know, Eclipse. “Cataclysm: Dark Days Ahead.” That’s just… a game. It is the only game listed. Look, I do not know. I’m not sure what the inclusion criteria here is, or if it’s anything beyond “someone put it here.”</p>
+<p>Here’s the complete list:</p>
+<ul>
+<li>Citrix Workspace</li>
+<li>DLib</li>
+<li>Eclipse</li>
+<li>Elm</li>
+<li>Emacs</li>
+<li>ibus-engines.typing-booster</li>
+<li>Kakoune</li>
+<li>Linux kernel</li>
+<li>Locales</li>
+<li>Nginx</li>
+<li>OpenGL</li>
+<li>Interactive shell helpers</li>
+<li>Steam</li>
+<li>Cataclysm: Dark Days Ahead</li>
+<li>Urxvt</li>
+<li>Weechat</li>
+<li>X.org</li>
+</ul>
+<p>Let’s dive in.</p>
+<p>Never heard of Citrix Workspace. Never heard of DLib. I have heard of Eclipse, but there is no chance that I will ever use Eclipse again in this lifetime.</p>
+<p>We have Elm, but it’s very short, and points to something called <code>elm2nix</code>. Why is this part of Chapter 16? This seems much more at home in Chapter 15. I don’t know.</p>
+<p>Then we get to Emacs.</p>
+<h2 id=165-emacshttpsnixosorgmanualnixpkgsstablesec-emacs><a href=https://nixos.org/manual/nixpkgs/stable/#sec-emacs>16.5. Emacs</a></h2>
+<p>I use Emacs, when I program. Emacs is great, for programming. I’m not using Emacs right now, because Emacs is pretty terrible for prose. I like to write Markdown files, and I find that once you have a Markdown file longer than 20k words or so, Emacs becomes basically useless.</p>
+<p>Also Emacs pretty much requires that you hard-wrap your lines, which is something I find abhorrent in prose.</p>
+<p><em>Anyway</em>. When I am using Emacs, I am using something called <a href=https://www.spacemacs.org/>Spacemacs</a>, which is a sort of configuration manager and set of very good defaults for Emacs. I don’t really know very much about configuring Emacs without using Spacemacs, because I haven’t had to do it in like six years.</p>
+<p>Anyway, it <em>seems</em> that I could also choose to configure Emacs with Nix.</p>
+<p>The example it gives involves writing a <code>packageOverrides</code> expression that embeds a <code>default.el</code> <em>as a string</em> in a <code>.nix</code> file. Because you don’t want to edit this file in any kind of <code>elisp-mode</code> anyway, do you?</p>
+<p>And then a command to copy that file in place.</p>
+<p>Look, I don’t know… this seems awful? Maybe it’s possible to just make a normal <code>~/.emacs.d/init.el</code> and reference these Nix-installed MELPA packages. It’s <em>certainly</em> possible to write the <code>default.el</code> as a separate file and not embed it as a literal string. But… I dunno. I don’t know what the value add is here.</p>
+<p>I was sort of expecting something like <em>binaries needed by Emacs</em>. Like, if I want to install <a href=https://github.com/racer-rust/racer><code>racer</code></a> or <a href=https://github.com/haskell/haskell-language-server><code>haskell-language-server</code></a> or something in a <code>shell.nix</code> file, in a way that Emacs can see it but it’s not polluting my <code>PATH</code> – how do I do that? The manual does not say. I suppose I have to just globally <code>nix-env -i</code> those packages as usual, and feel a little weird about it.</p>
+<p>Weird.</p>
+<p>I dunno. I don’t really see myself switching away from Spacemacs here.</p>
+<p>Let’s move on.</p>
+<p>There is one sentence about <a href=https://kakoune.org/>Kakoune</a>, a neat editor that is <em>so close</em> to what I want but tragically broken in many ways that render it unusable and makes me want to write my own.</p>
+<p>There are some words about the Linux Kernel, in case you want to make your own Linux Kernel with Nix.</p>
+<h2 id=1610-nginxhttpsnixosorgmanualnixpkgsstablesec-nginx><a href=https://nixos.org/manual/nixpkgs/stable/#sec-nginx>16.10. Nginx</a></h2>
+<p>Some words about Nginx:</p>
+<blockquote>
+<p>As of NixOS 19.09, the nginx package in Nixpkgs is patched such that when nginx serves a file out of <code>/nix/store</code>, the hash in the store path is used as the <code>ETag</code> header in the HTTP response, thus providing proper caching functionality. This happens automatically; you do not need to do modify any configuration to get this behavior.</p>
+</blockquote>
+<p>That’s pretty neat! But also… terrible?</p>
+<p>Although I <em>am</em> serving this blog via Nginx on NixOS <em>as we speak</em>, I do not build the blog to my <code>/nix/store</code>, so I do not get this caching behavior.</p>
+<p>And I’m not sure I would want to, either: I would need to put each individual file in its own store path in order to actually cache them with the correct resolution. I don’t want to uncache my CSS files just because I fix a typo in some random blog post.</p>
+<p>The way my asset caching works right now is the classic thing: putting the hash of the file contents in the file name, and telling clients to cache them forever.</p>
+<p>So if I were to regenerate this static site with a <code>default.nix</code> and serve it directly out of my <code>/nix/store</code> – something I thought would be desirable, before reading this – then that would break, and I would need to figure out how to fight Nix to stop doing that. Or I would need to like… put each individual file in the <code>/nix/store</code>, and make a store object that was just symlinks to all the files, with the correct directory structure?</p>
+<p>Would the Nix-Nginx integration do the right thing with those symlinks? Would it use the destination hashes for the <code>ETag</code> header?</p>
+<p>I don’t know. And I don’t really think I’ll be finding out.</p>
+<h2 id=1612-interactive-shell-helpershttpsnixosorgmanualnixpkgsstablesec-shell-helpers><a href=https://nixos.org/manual/nixpkgs/stable/#sec-shell-helpers>16.12. Interactive shell helpers</a></h2>
+<p>Here’s the whole section:</p>
+<blockquote>
+<p>Some packages provide the shell integration to be more useful. But unlike other systems, nix doesn’t have a standard share directory location. This is why a bunch <code>PACKAGE-share</code> scripts are shipped that print the location of the corresponding shared folder. Current list of such packages is as following:</p>
+<ul>
+<li><code>autojump</code>: <code>autojump-share</code></li>
+<li><code>fzf</code>: <code>fzf-share</code></li>
+</ul>
+<p>E.g. <code>autojump</code> can then used in the <code>.bashrc</code> like this:</p>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=nb>source</span> <span class=s2>"</span><span class=k>$(</span>autojump-share<span class=k>)</span><span class=s2>/autojump.bash"</span>
+</code></pre></div></blockquote>
+<p>I take umbrage with “a bunch” being used to mean “2,” but whatever.</p>
+<p>Okay. I don’t know what <code>fzf</code>’s shell integration looks like. I am a pretty big <code>fzf</code> user, and have gone so far as to <a href=https://github.com/ianthehenry/dotfiles/blob/b6bfede5552598d44382f7782daf3f7b15559cda/.zshrc#L67>integrate it into my interactive shell’s line-reader</a>, but I don’t know what the default integration looks like.</p>
+<p>But anyway, this is a neat trick for “exporting” Nix paths in a nice way.</p>
+<h2 id=1613-steamhttpsnixosorgmanualnixpkgsstablesec-steam><a href=https://nixos.org/manual/nixpkgs/stable/#sec-steam>16.13. Steam</a></h2>
+<p>I remember seeing Steam in Nixpkgs while I was <a href=https://ianthehenry.com/posts/how-to-learn-nix/builders/>looking through uses of <code>buildFHSUserEnv</code></a>. This section describes some of the reasons why <code>buildFHSUserEnv</code> is necessary, and provides information on how to run Steam in NixOS.</p>
+<p>Which <em>seems crazy to me</em>, but then again, running NixOS on a personal computer seems a little crazy to me, and this is a natural thing for someone doing that to want to do.</p>
+<p>Anyway, I’m not going to do that, but it’s fun that it’s even possible.</p>
+<h2 id=1614-cataclysm-dark-days-aheadhttpsnixosorgmanualnixpkgsstablecataclysm-dark-days-ahead><a href=https://nixos.org/manual/nixpkgs/stable/#cataclysm-dark-days-ahead>16.14. Cataclysm: Dark Days Ahead</a></h2>
+<p>Do you think I can install this on my Mac?</p>
+<pre tabindex=0><code>$ nix-shell -p cataclysm-dda
+</code></pre><p>Yeah! It totally worked. With graphics and everything! I didn’t even need to use the curses build.</p>
+<p>I have never played <em>Cataclysm: DDA</em>, but I’ve heard very good things. Mayhaps one day I will return to this.</p>
+<p>It seems weird that it gets its own little section, including information on how to specify a specific Git revision of the source, how to install mods – if you’re playing a modded <em>Cataclysm: DDA</em> that you assembled via Nix expressions, please get in touch. I feel like you’re using Nix at such a high level that I could probably learn <em>something</em> from talking to you.</p>
+<p>Other stuff. Urxvt. Weechat. I don’t know… why I would prefer configuring these in Nix instead of the normal way. But sure.</p>
+<p>Then there’s a <em>surprisingly brief</em> section on X.org. I would be very impressed if this was sufficient information to install and configure X. But as I am on a Mac, I do not attempt to try.</p>
+<p>I know someone who tried to install X using Nix, but not using NixOS. They did not succeed. But they were very brave for trying, I think. I don’t know if they read this section of the manual during the attempt, or whether it helped them. But I like to think that it did.</p>
+<p>And that’s the end! Of the chapter and the section. And the blog post. The <em>penultimate blog post</em>. At least in the Nixpkgs series. I think there’s only one post worth of content left. <em>Exciting.</em></p></div>
+</article>
+<div class=post-footer>
+<a href="mailto:ianthehenry@gmail.com?subject=let%27s%20talk%20about%20%22Random%20package%20grab-bag%22&amp;body=First%20of%20all,%20I%20just%20wanted%20to%20say%20that%20I%20forgive%20you%20for%20not%20having%20a%20real%20comment%20system%20on%20your%20site.">comment on this post</a><a href=https://ianthehenry.com/posts/how-to-learn-nix/how-to-give-back/>Next up ➜ How to give back</a></div>
+<aside class=series-rider>
+<p>
+This post is part of the series <a class=series-name href=https://ianthehenry.com/posts/how-to-learn-nix/>How to Learn Nix</a>.
+You can
+<a target=_blank href=https://ianthehenry.com/feed.xml>subscribe to my RSS feed</a>
+or
+<a target=_blank href=https://twitter.com/ianthehenry>follow me on Twitter</a>
+for more, or <a href=https://ianthehenry.com/posts/>peruse my back catalog</a> if you're in the mood for something different.
+<div class=subsection-header>Opening remarks</div><ol start=1 class=post-list><li><a href=https://ianthehenry.com/posts/how-to-learn-nix/introduction/>What's all this about?</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/prior-knowledge/>Prior knowledge</a></li>
+</ol><div class=subsection-header>Reading the Nix manual</div><ol start=3 class=post-list><li><a href=https://ianthehenry.com/posts/how-to-learn-nix/glossary/>What we talk about when we talk about Nix</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/quick-start-guide/>Quick starts, full hearts</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/basic-package-management/>Basic package management</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/profiles/>Profiles</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/garbage-collection/>Garbage collection</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/channels/>Channels</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/sharing/>Learning to share</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/my-first-derivation/>My first derivation</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/okay-my-actual-first-derivation/>Okay my actual first derivation</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/nix-language/>The Nix expression language</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/derivations/>Derivations</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/built-in-functions/>Built-in Functions</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/advanced-topics/>Advanced Topics</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/command-reference/>Command Reference</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/configuration/>Configuration</a></li>
+</ol><div class=subsection-header>Interlude: in which we follow our hearts, however briefly</div><ol start=18 class=post-list><li><a href=https://ianthehenry.com/posts/how-to-learn-nix/nix-manual-reflection/>So I read the manual huh</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/switching-from-homebrew-to-nix/>Switching from Homebrew to Nix</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/my-first-nix-bug/>My first Nix bug</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/my-first-package-upgrade/>My first package upgrade</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/declarative-user-environment/>Setting up a declarative user environment</a></li>
+</ol><div class=subsection-header>Reading the Nixpkgs manual</div><ol start=23 class=post-list><li><a href=https://ianthehenry.com/posts/how-to-learn-nix/how-to-learn-nixpkgs/>How to learn Nixpkgs</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/overlays/>Overlays</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/overriding/>Overriding</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/an-infinite-list-of-functions/>An infinite list of functions</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/even-more-functions-somehow/>Even more functions, somehow</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/the-standard-environment/>The standard environment</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/derivations-in-detail/>Derivations in detail</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/cross-compilation/>Cross-compilation</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/platform-notes/>Platform notes</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/builders/>Builders</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/languages-and-frameworks/>Languages and frameworks</a></li>
+<li><strong><a href=https://ianthehenry.com/posts/how-to-learn-nix/random-package-grab-bag/>Random package grab-bag</a></strong>&nbsp;←&nbsp;you are here</li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/how-to-give-back/>How to give back</a></li>
+</ol><div class=subsection-header>Documentation behind us, we set out on our own</div><ol start=36 class=post-list><li><a href=https://ianthehenry.com/posts/how-to-learn-nix/nixpkgs-reflection/>So I read the other manual, huh</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/saving-your-shell/>Saving your shell</a></li>
+</ol><div class=subsection-header>Oh right forgot about Nix Pills</div><ol start=38 class=post-list><li><a href=https://ianthehenry.com/posts/how-to-learn-nix/nix-pills/>Nix Pills</a></li>
+</ol><div class=subsection-header>Our whole lives ahead of us</div><ol start=39 class=post-list><li><a href=https://ianthehenry.com/posts/how-to-learn-nix/python3-alpha/>How to install Python</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/open-questions/>Open questions</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/ambiguous-packages/>Ambiguous packages</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/nix-zshell/>Running zsh in nix-shell</a></li>
+</ol><div class=subsection-header>Nix 2.4 slithers to life</div><ol start=43 class=post-list><li><a href=https://ianthehenry.com/posts/how-to-learn-nix/flakes/>My first brush with flakes</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/more-flakes/>More flakes, unfortunately</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/new-profiles/>Fancy new profiles</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/chipping-away-at-flakes/>Chipping away at flakes</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/nix-develop/>New and unimproved shells</a></li>
+</ol>
+</aside>
+</main>
+<footer>
+© 1899-1907 <a href=https://ianthehenry.com/about/>Ian Henry</a>
+</footer>

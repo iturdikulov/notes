@@ -1,0 +1,178 @@
+<!DOCTYPE html> <html lang=en style><!--
+ Page saved with SingleFile 
+ url: https://ianthehenry.com/posts/how-to-learn-nix/overlays/ 
+ saved date: Mon Jul 17 2023 13:35:08 GMT+0600 (Kyrgyzstan Time)
+--><meta charset=utf-8>
+<meta name=viewport content="initial-scale=1,maximum-scale=1">
+<title>How to Learn Nix, Part 24: Overlays</title>
+<link rel=canonical href=https://ianthehenry.com/posts/how-to-learn-nix/overlays/>
+<style>:root{--box-radius:6px;--outer-box-radius:10px}:root{--content-bg:#fff;--gutter-bg:#eeeef3;--text-fg:#4d4d4c;--table-border-color:#ccc;--separator-color:#6d6d6c;--link:#07c;--link-visited:#751a9a;--blockquote-accent:var(--link);--footnote-accent:#ffd2a3;--subscribe-button-bg:#44e66c;--subscribe-button-fg:#11391b;--media-controls-on:#34b553;--media-controls-contrast:#fff;--inline-code-bg:#f3f3fa;--code-block-bg:#f3f3fa;--aside-bg:#f3f3fa;--aside-warning-bg:#fff5d1;--aside-warning-fg:#ac3233;--palette-red:#c82829;--palette-green:#718c00;--palette-yellow:#eab700;--palette-orange:#f5871f;--palette-blue:#4271ae;--palette-purple:#8959a8;--palette-teal:#3e999f;--palette-white:#fefefe;--palette-black:#000;--palette-text:var(--text-fg);--palette-dim:#8e908c;--highlight-bg:var(--palette-yellow);--highlight-fg:var(--text-fg)}#dmt::before{content:"🌖"}#dmt:hover::before{content:"🌗"}@media (prefers-color-scheme:dark){:root:not(.light-theme){--content-bg:#313233;--gutter-bg:#1d1f21;--text-fg:#d8d4cf;--table-border-color:#ccc;--separator-color:#6d6d6c;--link:rgb(82,183,255);--link-visited:rgb(193,104,229);--blockquote-accent:var(--link);--footnote-accent:#a8612f;--subscribe-button-bg:#44e66c;--subscribe-button-fg:#11391b;--media-controls-on:#44e66c;--media-controls-contrast:#11391b;--inline-code-bg:#3c4044;--code-block-bg:#1d1f21;--aside-bg:#3c4044;--aside-warning-bg:#fff5d1;--aside-warning-fg:var(--palette-red);--palette-red:#cc6666;--palette-green:#b5bd68;--palette-yellow:#f0c674;--palette-orange:#de935f;--palette-blue:#81a2be;--palette-purple:#b294bb;--palette-teal:#8abeb7;--palette-white:#fefefe;--palette-black:#000;--palette-text:var(--text-fg);--palette-dim:#969896;--highlight-bg:var(--palette-yellow);--highlight-fg:var(--palette-black)}:root:not(.light-theme) #dmt::before{content:"🌒"}:root:not(.light-theme) #dmt:hover::before{content:"🌓"}}#dmt{width:30px;text-align:right;padding-right:4px;position:absolute;top:0;bottom:0;right:0;border:none;background-color:inherit;cursor:pointer}*{margin:0;padding:0;font:inherit;box-sizing:border-box}html{background-color:var(--gutter-bg);color:var(--text-fg)}body{font-family:system-ui,sans-serif;font-size:12pt;line-height:1.8;word-wrap:break-word}body:not(.content-page) main>aside{padding:0 var(--content-padding)}body.content-page main,body:not(.content-page) article{background-color:var(--content-bg);border-radius:var(--outer-box-radius);padding:var(--content-padding)}pre{word-wrap:normal}em,i{font-style:italic}h1>a:only-child,h2>a:only-child{display:block}main .subsection-header+.post-list{margin-top:0}strong{font-weight:700}ol,ul{padding-left:3ch}hr{border-style:solid;border-width:1.5px 0 0;border-radius:1px;border-color:var(--separator-color)}:not(pre)>code{white-space:pre;background-color:var(--inline-code-bg)}li{padding-left:0}blockquote{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:"";content:none}a,a:active,a:visited{text-decoration:none}a:hover{text-decoration:underline}blockquote{padding:0 0 0 var(--content-padding);border-left:solid 2px var(--blockquote-accent)}aside{--content-padding:0.5em;padding:.5em;border-radius:var(--box-radius);background-color:var(--aside-bg)}a,a:active,header a:visited,footer a:visited,h1 a:visited{color:var(--link)}a:visited{color:var(--link-visited)}h1{font-size:130%}main *+p,main *+aside,main *+article,main *+blockquote,main *+div,main *+ul,main *+hr,main *+h1{margin-top:1em}main .post-header *+h1{margin-top:0}code{font-family:Menlo,monospace;padding:0 3px;border-radius:2px}pre{background-color:var(--code-block-bg);font-size:11pt;padding:calc(.75*var(--content-padding)) var(--content-padding);line-height:1.3;border-radius:var(--box-radius);overflow-x:scroll;-webkit-overflow-scrolling:touch}pre code{padding:0;border-radius:0;display:inline-block;background-color:initial}p+p{margin-top:1em}body{margin:0 auto;--content-padding:10px;max-width:768px;-webkit-text-size-adjust:100%;position:relative}header{position:relative}header>*{height:48px;line-height:48px}.promo,.promo:visited,.promo:active{display:block;text-align:center;background-color:var(--link);color:var(--code-block-bg);border-radius:0 0 var(--outer-box-radius) var(--outer-box-radius)}header .site-title{font-size:130%}header nav{position:absolute;right:30px;top:0}@media all and (max-width:400px){:root{--outer-box-radius:0}header{text-align:center}header nav{position:static}:not(pre)>code{white-space:pre-wrap}body{--content-padding:10px}#dmt{padding:0;text-align:center;width:40px}}header ul{padding:0}header li{list-style:none;display:inline-block}header a{display:block;height:100%}header li+li{margin-left:1em}footer{padding:2em 0;font-size:.85em;text-align:center}article h1.post-title{font-size:200%}article .post-title a{display:block}article .meta{font-size:90%;font-style:italic}.post-header h1{line-height:1.2em;margin-bottom:.5em}.post-footer{text-align:center}.post-footer a{display:block}ol.post-list{list-style-position:inside;padding:0}.series-rider .series-name{font-style:italic}.highlight{color:var(--palette-text)}.highlight .n{color:var(--palette-text)}.highlight .o{color:var(--palette-teal)}.highlight .p{color:var(--palette-text)}.highlight .sr{color:var(--palette-green)}</style>
+<meta property=og:title content="How to Learn Nix, Part 24: Overlays">
+<meta property=og:type content=website>
+<meta property=og:url content=https://ianthehenry.com/posts/how-to-learn-nix/overlays/>
+<meta name=description content="This is my first encounter with the term “overlays.” The manual describes it thus:
+
+Overlays are used to add layers in the fixed-point used by Nixpkgs to compose the set of all packages.
+
+Any questions?">
+<meta property=og:description content="This is my first encounter with the term “overlays.” The manual describes it thus:
+
+Overlays are used to add layers in the fixed-point used by Nixpkgs to compose the set of all packages.
+
+Any questions?">
+<meta property=og:image content=https://ianthehenry.com/checkerboard.png>
+<meta name=twitter:creator content=@ianthehenry>
+<meta name=twitter:card content=summary>
+<link type=image/x-icon rel="shortcut icon" href="data:image/vnd.microsoft.icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAHH1uIDShg/xEsZv8GFk3/CSJb/wgZT/8IGU//CBlP/wkiW/8HGE7/CBlP/wkiW/8HIFX/BxhO/wcgVf8OK2t7JDhz/wcfW/8NNn7/CSpq/wkjYf8MJGP/DCJg/w02ef9SqdX/TKHJ/1my2f9Moc3/UqzV/1Cr1v9Pocf/Ditr/xk2cf8KJGL/CjR8/wwva/8RK2r/Cido/w8qa/8LLW//TqjT/1Gnz/9bsNf/Sp/K/1Wt2f9Wrtj/UKjQ/w8xc/8gPHj/Di5w/xk4ef8TL27/Dy5u/xU3fv8QLGv/Ditr/1qy3f9dttv/Yrje/0ecx/9Knsz/U6fQ/1m13f8YN3n/JjZx/wszdv8YOXz/Eilm/xc3e/8dSZT/GDJz/xk/hv9hu+P/WbHZ/1mv1v9Kn8z/WLHd/1212v9ds9n/Eipr/xcqYv8SOX3/GzRz/xQrZ/8aM3D/HEuU/xc0df8fPYD/Yrre/1603P9dt9z/VKvY/1iz4v9etNr/Y73m/xk5fP8cMm3/JEWK/xc0dP8eO3v/Hjd4/ydRnP8WM3P/Gjd3/2bA5/9dtd//Ybng/2K95v9ct+P/Ybnf/2K95/8oS5L/GChg/xxBh/8lSIz/GC5s/yM5ev8hRoz/HTp7/yE6e/9Zsdz/YLzn/2jF7v9ryfL/YLzn/1qu1f9htdz/GDyD/y0/ev9qx/X/acDn/1235v9euun/Yb3r/1665v9owu7/GUOL/yhGh/8nUJL/MkmI/yBFiP8jOHb/MVag/yM+gv8VMGv/acXx/27G7/9szv3/bMb1/2zD6/9vy/X/edf5/yBHjv8yS47/JEuO/zVLiv8nS5D/LkOB/yRXpP8lQoT/H0WI/3fS+P910Pf/b8/8/2bB7/991Pn/eNb+/3nT+P8pS5L/O1GS/ytUnP86UJH/NF2k/zNLjP8sXKv/JkCB/x4+ff+B2/3/etT9/4He//922f//fNf//3TT//991/7/NU6N/zZSkP86Zav/PlWR/zFepv88ZKb/MF2n/yQ/gf8bNXH/fd3//3/b//+K6P//ft///3vV//993f//gdz//0hWlf9FZKX/RmOj/0JXlv9IeMP/QXKz/0Jsuf8eO3z/Hjt2/3vd//+C3v//ju3//3zg//+H4v//guL//4nj//9HXp3/UGur/ztgqf9JYqP/S3G4/05ur/9EbLT/Hjt7/zNJhf+G4///heT//4rq//+E5///iOT//4jr//+G4///UXO0/09iov9EX6H/SWWn/1V5wP9Kaa7/RGSp/ydLj/8NKGCfDShg/x8+d/8RLGb/CBlP/wYWTf8GFEj/CBNH/wooZP8JIlv/CCJd/woWSf8HGE7/ByBV/wwgU/8fO3mfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="><meta http-equiv=content-security-policy content="default-src 'none'; font-src 'self' data:; img-src 'self' data:; style-src 'unsafe-inline'; media-src 'self' data:; script-src 'unsafe-inline' data:; object-src 'self' data:; frame-src 'self' data:;"><style>img[src="data:,"],source[src="data:,"]{display:none!important}</style></head>
+<body class=content-page>
+<a class=promo href=https://janet.guide/ target=_blank><i>psst, hey kid, wanna read a weird programming book</i></a>
+<header>
+<a class=site-title href=https://ianthehenry.com/>Ian Henry</a>
+<nav>
+<ul><li><a href=https://ianthehenry.com/about/>About</a><li><a href=https://ianthehenry.com/posts/>Blog</a><li><a href=https://ianthehenry.com/stuff/>Stuff</a></ul>
+</nav>
+<button id=dmt title="Toggle dark mode"></button>
+</header>
+<main>
+<aside class=series-rider>
+<p>This post is part of the series <a class=series-name href=https://ianthehenry.com/posts/how-to-learn-nix/>How to Learn Nix</a>, a rambling diary in which I work my way through the Nix manual in excrutiating detail.</p>
+</aside>
+<article class=post>
+<div class=post-header>
+<time class=meta datetime=2021-04-05>April 5, 2021</time>
+<h1 class=post-title>
+<a href=https://ianthehenry.com/posts/how-to-learn-nix/overlays/>How to Learn Nix, Part&nbsp;24:<br>Overlays</a></h1>
+</div>
+<div class=post-content><p>This is my first encounter with the term “overlays.” The manual describes it thus:</p>
+<blockquote>
+<p>Overlays are used to add layers in the fixed-point used by Nixpkgs to compose the set of all packages.</p>
+</blockquote>
+<p>Any questions?</p>
+<h1 id=chapter-3-overlayshttpswebarchiveorgweb20210318102415if_httpsnixosorgmanualnixpkgsstablechap-overlays><a href=https://web.archive.org/web/20210318102415if_/https://nixos.org/manual/nixpkgs/stable/#chap-overlays>Chapter 3. Overlays</a></h1>
+<p>This is the first time I have heard Nix use the term “fixed-point.” Although I understand, like, that term in general, I have no idea how to apply that here. I think of a fixed-point as a property of a certain <em>function</em>, and I don’t know what function the manual is referring to here. It’s weird to say “the fixed-point used by Nixpkgs.” My best guess is that it’s talking about <em>evaluation</em> of the recursive set of all packages. But… I don’t really know. That seems a strange term to throw around if that’s all we’re talking about.</p>
+<p>I also, once again, don’t know how the term “compose” is being used here. “To compose the set of all packages” reads to me as “to assemble the set of all packages.” But using the terms “fixed-point” and “compose” in the same sentence obviously evokes the function composition definition of the term. But my brain can’t make sense of that, so I would classify this as just confusingly worded. I guess?</p>
+<p>I wonder if I am missing something important by making this assumption.</p>
+<p>Oh well. Perhaps this will make sense later.</p>
+<blockquote>
+<p>The list of overlays can be set either explicitly in a Nix expression, or through <code>&lt;nixpkgs-overlays&gt;</code> or user configuration files.</p>
+</blockquote>
+<p>Okay. I guess that’s a new magic <code>NIX_PATH</code> element?</p>
+<p>The manual goes on to enumerate these three approaches.</p>
+<blockquote>
+<p>The list of overlays can be passed explicitly when importing nixpkgs, for example <code>import &lt;nixpkgs&gt; { overlays = [ overlay1 overlay2 ]; }</code>.</p>
+<p>Further overlays can be added by calling the <code>pkgs.extend</code> or <code>pkgs.appendOverlays</code>, although it is often preferable to avoid these functions, because they recompute the Nixpkgs fixpoint, which is somewhat expensive to do.</p>
+</blockquote>
+<p>Okay. Now we use the shorthand fixpoint, which is the more familiar term to me, but there is still no explanation of what this means.</p>
+<p>The second case is when I have <code>nixpkgs-overlays</code> in my <code>NIX_PATH</code>. If it’s a file, it’s a list. If it’s a directory, each <code>.nix</code> file in that directory (or <code>path/default.nix</code> file) is an individual overlay. And it explains the rules for ordering overlays, since order is significant.</p>
+<p>Still no mention of <em>what an overlay is</em> or how I would use it. It <em>sounds</em> like a different kind of <code>packageOverrides</code>? I don’t understand.</p>
+<h1 id=32-defining-overlayshttpswebarchiveorgweb20210318102415if_httpsnixosorgmanualnixpkgsstablesec-overlays-definition><a href=https://web.archive.org/web/20210318102415if_/https://nixos.org/manual/nixpkgs/stable/#sec-overlays-definition>3.2. Defining overlays</a></h1>
+<p>Okay. Here we see a definition and example of an overlay:</p>
+<blockquote>
+<p>Overlays are Nix functions which accept two arguments, conventionally called <code>self</code> and <code>super</code>, and return a set of packages. For example, the following is a valid overlay.</p>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-nix data-lang=nix><span class=n>self</span><span class=p>:</span> <span class=n>super</span><span class=p>:</span>
+
+<span class=p>{</span>
+  <span class=n>boost</span> <span class=o>=</span> <span class=n>super</span><span class=o>.</span><span class=n>boost</span><span class=o>.</span><span class=n>override</span> <span class=p>{</span>
+    <span class=n>python</span> <span class=o>=</span> <span class=n>self</span><span class=o>.</span><span class=n>python3</span><span class=p>;</span>
+  <span class=p>};</span>
+  <span class=n>rr</span> <span class=o>=</span> <span class=n>super</span><span class=o>.</span><span class=n>callPackage</span> <span class=sr>./pkgs/rr</span> <span class=p>{</span>
+    <span class=n>stdenv</span> <span class=o>=</span> <span class=n>self</span><span class=o>.</span><span class=n>stdenv_32bit</span><span class=p>;</span>
+  <span class=p>};</span>
+<span class=p>}</span>
+</code></pre></div></blockquote>
+<p>Alright. I can sort of see what we’re doing here. The manual explains that <code>self</code> is the “final” package set (I assume this means the package set with <em>all</em> of the overlays applied), and <code>super</code> is the “current” state, if we think of overlays as folding over a set of packages. The manual doesn’t say that; that’s how I’m reading it.</p>
+<p>Aha!</p>
+<blockquote>
+<p>Overlays are similar to other methods for customizing Nixpkgs, in particular the <code>packageOverrides</code> attribute described in Section 2.5, “Modify packages via <code>packageOverrides</code>”. Indeed, <code>packageOverrides</code> acts as an overlay with only the <code>super</code> argument. It is therefore appropriate for basic use, but overlays are more powerful and easier to distribute.</p>
+</blockquote>
+<p>Got it. So this actually tells me more about <code>packageOverrides</code> than the section on <code>packageOverrides</code> did. I’m still salty about that section.</p>
+<h1 id=33-using-overlays-to-configure-alternativeshttpswebarchiveorgweb20210318102415if_httpsnixosorgmanualnixpkgsstablesec-overlays-alternatives><a href=https://web.archive.org/web/20210318102415if_/https://nixos.org/manual/nixpkgs/stable/#sec-overlays-alternatives>3.3. Using overlays to configure alternatives</a></h1>
+<blockquote>
+<p>Certain software packages have different implementations of the same interface. […] Nixpkgs has what we call <code>alternatives</code>, which are configured through overlays.</p>
+</blockquote>
+<p>Okay. It goes on to give an example, using a package I have not heard of that can select a particular <code>so</code> to link, by using overlays:</p>
+<blockquote>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-nix data-lang=nix><span class=n>self</span><span class=p>:</span> <span class=n>super</span><span class=p>:</span>
+
+<span class=p>{</span>
+  <span class=n>blas</span> <span class=o>=</span> <span class=n>super</span><span class=o>.</span><span class=n>blas</span><span class=o>.</span><span class=n>override</span> <span class=p>{</span>
+    <span class=n>blasProvider</span> <span class=o>=</span> <span class=n>self</span><span class=o>.</span><span class=n>mkl</span><span class=p>;</span>
+  <span class=p>}</span>
+  <span class=n>lapack</span> <span class=o>=</span> <span class=n>super</span><span class=o>.</span><span class=n>lapack</span><span class=o>.</span><span class=n>override</span> <span class=p>{</span>
+    <span class=n>lapackProvider</span> <span class=o>=</span> <span class=n>self</span><span class=o>.</span><span class=n>mkl</span><span class=p>;</span>
+  <span class=p>}</span>
+<span class=p>}</span>
+</code></pre></div></blockquote>
+<p>Okay. This seems like it could be useful, although it appears to require buy-in from every package to allow itself to be configurable in this way. Hmm.</p>
+<p>Wow, <em>lotta</em> text about this specific BLAS/LAPACK example. Is this… is this an important example? Is this relevant? I would prefer to see a second example, instead of learning more about the details of Intel MKL’s requirement to have <code>openmp</code> when running on a system with multiple processors.</p>
+<p>I’m getting the sense that this was written by someone who spent a very long time making these <em>particular</em> packages work well in Nix. But it doesn’t make for the best… general example. We’re getting way into the weeds.</p>
+<p>Maybe the Nixpkgs manual is going to tell us about every weird package in the ecosystem? I don’t know.</p>
+<p>That’s it! That’s all we get on overlays.</p>
+<hr>
+<ul>
+<li>What is “the fixed-point used by Nixpkgs”? What does that mean? Why is that term never defined or explained?</li>
+</ul></div>
+</article>
+<div class=post-footer>
+<a href="mailto:ianthehenry@gmail.com?subject=let%27s%20talk%20about%20%22Overlays%22&amp;body=First%20of%20all,%20I%20just%20wanted%20to%20say%20that%20I%20forgive%20you%20for%20not%20having%20a%20real%20comment%20system%20on%20your%20site.">comment on this post</a><a href=https://ianthehenry.com/posts/how-to-learn-nix/overriding/>Next up ➜ Overriding</a></div>
+<aside class=series-rider>
+<p>
+This post is part of the series <a class=series-name href=https://ianthehenry.com/posts/how-to-learn-nix/>How to Learn Nix</a>.
+You can
+<a target=_blank href=https://ianthehenry.com/feed.xml>subscribe to my RSS feed</a>
+or
+<a target=_blank href=https://twitter.com/ianthehenry>follow me on Twitter</a>
+for more, or <a href=https://ianthehenry.com/posts/>peruse my back catalog</a> if you're in the mood for something different.
+<div class=subsection-header>Opening remarks</div><ol start=1 class=post-list><li><a href=https://ianthehenry.com/posts/how-to-learn-nix/introduction/>What's all this about?</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/prior-knowledge/>Prior knowledge</a></li>
+</ol><div class=subsection-header>Reading the Nix manual</div><ol start=3 class=post-list><li><a href=https://ianthehenry.com/posts/how-to-learn-nix/glossary/>What we talk about when we talk about Nix</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/quick-start-guide/>Quick starts, full hearts</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/basic-package-management/>Basic package management</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/profiles/>Profiles</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/garbage-collection/>Garbage collection</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/channels/>Channels</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/sharing/>Learning to share</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/my-first-derivation/>My first derivation</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/okay-my-actual-first-derivation/>Okay my actual first derivation</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/nix-language/>The Nix expression language</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/derivations/>Derivations</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/built-in-functions/>Built-in Functions</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/advanced-topics/>Advanced Topics</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/command-reference/>Command Reference</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/configuration/>Configuration</a></li>
+</ol><div class=subsection-header>Interlude: in which we follow our hearts, however briefly</div><ol start=18 class=post-list><li><a href=https://ianthehenry.com/posts/how-to-learn-nix/nix-manual-reflection/>So I read the manual huh</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/switching-from-homebrew-to-nix/>Switching from Homebrew to Nix</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/my-first-nix-bug/>My first Nix bug</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/my-first-package-upgrade/>My first package upgrade</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/declarative-user-environment/>Setting up a declarative user environment</a></li>
+</ol><div class=subsection-header>Reading the Nixpkgs manual</div><ol start=23 class=post-list><li><a href=https://ianthehenry.com/posts/how-to-learn-nix/how-to-learn-nixpkgs/>How to learn Nixpkgs</a></li>
+<li><strong><a href=https://ianthehenry.com/posts/how-to-learn-nix/overlays/>Overlays</a></strong>&nbsp;←&nbsp;you are here</li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/overriding/>Overriding</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/an-infinite-list-of-functions/>An infinite list of functions</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/even-more-functions-somehow/>Even more functions, somehow</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/the-standard-environment/>The standard environment</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/derivations-in-detail/>Derivations in detail</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/cross-compilation/>Cross-compilation</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/platform-notes/>Platform notes</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/builders/>Builders</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/languages-and-frameworks/>Languages and frameworks</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/random-package-grab-bag/>Random package grab-bag</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/how-to-give-back/>How to give back</a></li>
+</ol><div class=subsection-header>Documentation behind us, we set out on our own</div><ol start=36 class=post-list><li><a href=https://ianthehenry.com/posts/how-to-learn-nix/nixpkgs-reflection/>So I read the other manual, huh</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/saving-your-shell/>Saving your shell</a></li>
+</ol><div class=subsection-header>Oh right forgot about Nix Pills</div><ol start=38 class=post-list><li><a href=https://ianthehenry.com/posts/how-to-learn-nix/nix-pills/>Nix Pills</a></li>
+</ol><div class=subsection-header>Our whole lives ahead of us</div><ol start=39 class=post-list><li><a href=https://ianthehenry.com/posts/how-to-learn-nix/python3-alpha/>How to install Python</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/open-questions/>Open questions</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/ambiguous-packages/>Ambiguous packages</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/nix-zshell/>Running zsh in nix-shell</a></li>
+</ol><div class=subsection-header>Nix 2.4 slithers to life</div><ol start=43 class=post-list><li><a href=https://ianthehenry.com/posts/how-to-learn-nix/flakes/>My first brush with flakes</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/more-flakes/>More flakes, unfortunately</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/new-profiles/>Fancy new profiles</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/chipping-away-at-flakes/>Chipping away at flakes</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/nix-develop/>New and unimproved shells</a></li>
+</ol>
+</aside>
+</main>
+<footer>
+© 1899-1907 <a href=https://ianthehenry.com/about/>Ian Henry</a>
+</footer>

@@ -1,0 +1,833 @@
+<!DOCTYPE html> <html lang=en style><!--
+ Page saved with SingleFile 
+ url: https://ianthehenry.com/posts/how-to-learn-nix/languages-and-frameworks/ 
+ saved date: Mon Jul 17 2023 13:35:11 GMT+0600 (Kyrgyzstan Time)
+--><meta charset=utf-8>
+<meta name=viewport content="initial-scale=1,maximum-scale=1">
+<title>How to Learn Nix, Part 33: Languages and frameworks</title>
+<link rel=canonical href=https://ianthehenry.com/posts/how-to-learn-nix/languages-and-frameworks/>
+<style>:root{--box-radius:6px;--outer-box-radius:10px}:root{--content-bg:#fff;--gutter-bg:#eeeef3;--text-fg:#4d4d4c;--table-border-color:#ccc;--separator-color:#6d6d6c;--link:#07c;--link-visited:#751a9a;--blockquote-accent:var(--link);--footnote-accent:#ffd2a3;--subscribe-button-bg:#44e66c;--subscribe-button-fg:#11391b;--media-controls-on:#34b553;--media-controls-contrast:#fff;--inline-code-bg:#f3f3fa;--code-block-bg:#f3f3fa;--aside-bg:#f3f3fa;--aside-warning-bg:#fff5d1;--aside-warning-fg:#ac3233;--palette-red:#c82829;--palette-green:#718c00;--palette-yellow:#eab700;--palette-orange:#f5871f;--palette-blue:#4271ae;--palette-purple:#8959a8;--palette-teal:#3e999f;--palette-white:#fefefe;--palette-black:#000;--palette-text:var(--text-fg);--palette-dim:#8e908c;--highlight-bg:var(--palette-yellow);--highlight-fg:var(--text-fg)}#dmt::before{content:"🌖"}#dmt:hover::before{content:"🌗"}@media (prefers-color-scheme:dark){:root:not(.light-theme){--content-bg:#313233;--gutter-bg:#1d1f21;--text-fg:#d8d4cf;--table-border-color:#ccc;--separator-color:#6d6d6c;--link:rgb(82,183,255);--link-visited:rgb(193,104,229);--blockquote-accent:var(--link);--footnote-accent:#a8612f;--subscribe-button-bg:#44e66c;--subscribe-button-fg:#11391b;--media-controls-on:#44e66c;--media-controls-contrast:#11391b;--inline-code-bg:#3c4044;--code-block-bg:#1d1f21;--aside-bg:#3c4044;--aside-warning-bg:#fff5d1;--aside-warning-fg:var(--palette-red);--palette-red:#cc6666;--palette-green:#b5bd68;--palette-yellow:#f0c674;--palette-orange:#de935f;--palette-blue:#81a2be;--palette-purple:#b294bb;--palette-teal:#8abeb7;--palette-white:#fefefe;--palette-black:#000;--palette-text:var(--text-fg);--palette-dim:#969896;--highlight-bg:var(--palette-yellow);--highlight-fg:var(--palette-black)}:root:not(.light-theme) #dmt::before{content:"🌒"}:root:not(.light-theme) #dmt:hover::before{content:"🌓"}}#dmt{width:30px;text-align:right;padding-right:4px;position:absolute;top:0;bottom:0;right:0;border:none;background-color:inherit;cursor:pointer}*{margin:0;padding:0;font:inherit;box-sizing:border-box}html{background-color:var(--gutter-bg);color:var(--text-fg)}body{font-family:system-ui,sans-serif;font-size:12pt;line-height:1.8;word-wrap:break-word}body:not(.content-page) main>aside{padding:0 var(--content-padding)}body.content-page main,body:not(.content-page) article{background-color:var(--content-bg);border-radius:var(--outer-box-radius);padding:var(--content-padding)}pre{word-wrap:normal}em,i{font-style:italic}sup{font-size:75%}sup a::before{content:"["}sup a::after{content:"]"}h1>a:only-child,h2>a:only-child{display:block}main .subsection-header+.post-list{margin-top:0}strong{font-weight:700}ol,ul{padding-left:3ch}.footnotes>ol{margin-top:1em}.footnotes li:not(.highlight){transition:background-color 1s}hr{border-style:solid;border-width:1.5px 0 0;border-radius:1px;border-color:var(--separator-color)}:not(pre)>code{white-space:pre;background-color:var(--inline-code-bg)}li{padding-left:0}blockquote{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:"";content:none}a,a:active,a:visited{text-decoration:none}a:hover{text-decoration:underline}blockquote{padding:0 0 0 var(--content-padding);border-left:solid 2px var(--blockquote-accent)}aside{--content-padding:0.5em;padding:.5em;border-radius:var(--box-radius);background-color:var(--aside-bg)}a,a:active,header a:visited,footer a:visited,h1 a:visited,h2 a:visited{color:var(--link)}a:visited{color:var(--link-visited)}a.footnote-ref:visited,a.footnote-backref:visited,.notation-help-link-container a:visited{color:var(--link)}h1{font-size:130%}h2{font-size:120%}main *+p,main *+pre,main *+aside,main *+section,main *+article,main *+blockquote,main *+div,main *+ul,main *+hr,main *+h1,main *+h2{margin-top:1em}main pre+div.highlight,main div.highlight+pre,main pre+pre{margin-top:1px}main .post-header *+h1{margin-top:0}code{font-family:Menlo,monospace;padding:0 3px;border-radius:2px}pre{background-color:var(--code-block-bg);font-size:11pt;padding:calc(.75*var(--content-padding)) var(--content-padding);line-height:1.3;border-radius:var(--box-radius);overflow-x:scroll;-webkit-overflow-scrolling:touch}pre code{padding:0;border-radius:0;display:inline-block;background-color:initial}p+p{margin-top:1em}body{margin:0 auto;--content-padding:10px;max-width:768px;-webkit-text-size-adjust:100%;position:relative}header{position:relative}header>*{height:48px;line-height:48px}.promo,.promo:visited,.promo:active{display:block;text-align:center;background-color:var(--link);color:var(--code-block-bg);border-radius:0 0 var(--outer-box-radius) var(--outer-box-radius)}header .site-title{font-size:130%}header nav{position:absolute;right:30px;top:0}@media all and (max-width:400px){:root{--outer-box-radius:0}header{text-align:center}header nav{position:static}:not(pre)>code{white-space:pre-wrap}body{--content-padding:10px}#dmt{padding:0;text-align:center;width:40px}}header ul{padding:0}header li{list-style:none;display:inline-block}header a{display:block;height:100%}header li+li{margin-left:1em}footer{padding:2em 0;font-size:.85em;text-align:center}article h1.post-title{font-size:200%}article .post-title a{display:block}article .meta{font-size:90%;font-style:italic}.post-header h1{line-height:1.2em;margin-bottom:.5em}.post-footer{text-align:center}.post-footer a{display:block}ol.post-list{list-style-position:inside;padding:0}.series-rider .series-name{font-style:italic}.highlight{color:var(--palette-text)}.highlight .k{color:var(--palette-purple)}.highlight .l{color:var(--palette-orange)}.highlight .n{color:var(--palette-text)}.highlight .o{color:var(--palette-teal)}.highlight .p{color:var(--palette-text)}.highlight .c1{color:var(--palette-dim)}.highlight .kc{color:var(--palette-purple)}.highlight .kn{color:var(--palette-teal)}.highlight .nb{color:var(--palette-text)}.highlight .no{color:var(--palette-red)}.highlight .ne{color:var(--palette-red)}.highlight .nt{color:var(--palette-teal)}.highlight .w{color:var(--palette-text)}.highlight .s2{color:var(--palette-green)}.highlight .si{color:var(--palette-orange)}.highlight .sr{color:var(--palette-green)}.highlight .s1{color:var(--palette-green)}</style>
+<meta property=og:title content="How to Learn Nix, Part 33: Languages and frameworks">
+<meta property=og:type content=website>
+<meta property=og:url content=https://ianthehenry.com/posts/how-to-learn-nix/languages-and-frameworks/>
+<meta name=description content="Okay, we’re going to talk about Chapter 15 now.
+Except that, by one crude estimate, Chapter 15 accounts for more than one third of the entire Nixpkgs manual.
+It’s really 26 chapters in one, although they aren’t called chapters, they’re just called sections.
+It’s a very, very long chapter.
+So… we’re only actually going to talk about parts of Chapter 15.">
+<meta property=og:description content="Okay, we’re going to talk about Chapter 15 now.
+Except that, by one crude estimate, Chapter 15 accounts for more than one third of the entire Nixpkgs manual.
+It’s really 26 chapters in one, although they aren’t called chapters, they’re just called sections.
+It’s a very, very long chapter.
+So… we’re only actually going to talk about parts of Chapter 15.">
+<meta property=og:image content=https://ianthehenry.com/checkerboard.png>
+<meta name=twitter:creator content=@ianthehenry>
+<meta name=twitter:card content=summary>
+<link type=image/x-icon rel="shortcut icon" href="data:image/vnd.microsoft.icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAHH1uIDShg/xEsZv8GFk3/CSJb/wgZT/8IGU//CBlP/wkiW/8HGE7/CBlP/wkiW/8HIFX/BxhO/wcgVf8OK2t7JDhz/wcfW/8NNn7/CSpq/wkjYf8MJGP/DCJg/w02ef9SqdX/TKHJ/1my2f9Moc3/UqzV/1Cr1v9Pocf/Ditr/xk2cf8KJGL/CjR8/wwva/8RK2r/Cido/w8qa/8LLW//TqjT/1Gnz/9bsNf/Sp/K/1Wt2f9Wrtj/UKjQ/w8xc/8gPHj/Di5w/xk4ef8TL27/Dy5u/xU3fv8QLGv/Ditr/1qy3f9dttv/Yrje/0ecx/9Knsz/U6fQ/1m13f8YN3n/JjZx/wszdv8YOXz/Eilm/xc3e/8dSZT/GDJz/xk/hv9hu+P/WbHZ/1mv1v9Kn8z/WLHd/1212v9ds9n/Eipr/xcqYv8SOX3/GzRz/xQrZ/8aM3D/HEuU/xc0df8fPYD/Yrre/1603P9dt9z/VKvY/1iz4v9etNr/Y73m/xk5fP8cMm3/JEWK/xc0dP8eO3v/Hjd4/ydRnP8WM3P/Gjd3/2bA5/9dtd//Ybng/2K95v9ct+P/Ybnf/2K95/8oS5L/GChg/xxBh/8lSIz/GC5s/yM5ev8hRoz/HTp7/yE6e/9Zsdz/YLzn/2jF7v9ryfL/YLzn/1qu1f9htdz/GDyD/y0/ev9qx/X/acDn/1235v9euun/Yb3r/1665v9owu7/GUOL/yhGh/8nUJL/MkmI/yBFiP8jOHb/MVag/yM+gv8VMGv/acXx/27G7/9szv3/bMb1/2zD6/9vy/X/edf5/yBHjv8yS47/JEuO/zVLiv8nS5D/LkOB/yRXpP8lQoT/H0WI/3fS+P910Pf/b8/8/2bB7/991Pn/eNb+/3nT+P8pS5L/O1GS/ytUnP86UJH/NF2k/zNLjP8sXKv/JkCB/x4+ff+B2/3/etT9/4He//922f//fNf//3TT//991/7/NU6N/zZSkP86Zav/PlWR/zFepv88ZKb/MF2n/yQ/gf8bNXH/fd3//3/b//+K6P//ft///3vV//993f//gdz//0hWlf9FZKX/RmOj/0JXlv9IeMP/QXKz/0Jsuf8eO3z/Hjt2/3vd//+C3v//ju3//3zg//+H4v//guL//4nj//9HXp3/UGur/ztgqf9JYqP/S3G4/05ur/9EbLT/Hjt7/zNJhf+G4///heT//4rq//+E5///iOT//4jr//+G4///UXO0/09iov9EX6H/SWWn/1V5wP9Kaa7/RGSp/ydLj/8NKGCfDShg/x8+d/8RLGb/CBlP/wYWTf8GFEj/CBNH/wooZP8JIlv/CCJd/woWSf8HGE7/ByBV/wwgU/8fO3mfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="><meta http-equiv=content-security-policy content="default-src 'none'; font-src 'self' data:; img-src 'self' data:; style-src 'unsafe-inline'; media-src 'self' data:; script-src 'unsafe-inline' data:; object-src 'self' data:; frame-src 'self' data:;"><style>img[src="data:,"],source[src="data:,"]{display:none!important}</style></head>
+<body class=content-page>
+<a class=promo href=https://janet.guide/ target=_blank><i>psst, hey kid, wanna read a weird programming book</i></a>
+<header>
+<a class=site-title href=https://ianthehenry.com/>Ian Henry</a>
+<nav>
+<ul><li><a href=https://ianthehenry.com/about/>About</a><li><a href=https://ianthehenry.com/posts/>Blog</a><li><a href=https://ianthehenry.com/stuff/>Stuff</a></ul>
+</nav>
+<button id=dmt title="Toggle dark mode"></button>
+</header>
+<main>
+<aside class=series-rider>
+<p>This post is part of the series <a class=series-name href=https://ianthehenry.com/posts/how-to-learn-nix/>How to Learn Nix</a>, a rambling diary in which I work my way through the Nix manual in excrutiating detail.</p>
+</aside>
+<article class=post>
+<div class=post-header>
+<time class=meta datetime=2021-05-13>May 13, 2021</time>
+<h1 class=post-title>
+<a href=https://ianthehenry.com/posts/how-to-learn-nix/languages-and-frameworks/>How to Learn Nix, Part&nbsp;33:<br>Languages and frameworks</a></h1>
+</div>
+<div class=post-content><p>Okay, we’re going to talk about <a href=https://web.archive.org/web/20210318102415if_/https://nixos.org/manual/nixpkgs/stable/#chap-language-support>Chapter 15</a> now.</p>
+<p>Except that, by one crude estimate, Chapter 15 accounts for more than one third of the entire Nixpkgs manual.</p>
+<p>It’s really 26 chapters in one, although they aren’t called chapters, they’re just called sections.</p>
+<p>It’s a very, very long chapter.</p>
+<p>So… we’re only actually going to talk about <em>parts</em> of Chapter 15.</p>
+<h1 id=chapter-15-languages-and-frameworkshttpswebarchiveorgweb20210318102415if_httpsnixosorgmanualnixpkgsstablechap-language-support><a href=https://web.archive.org/web/20210318102415if_/https://nixos.org/manual/nixpkgs/stable/#chap-language-support>Chapter 15. Languages and frameworks</a></h1>
+<p>The chapter is arranged alphabetically, and alphabetically the first language is <a href=https://en.wikipedia.org/wiki/Agda_(programming_language)>Agda</a>.</p>
+<p>It might surprise you to hear this, but I do not know Agda.</p>
+<p>But I read some words about how to build Agda project using Nix, and it seems… fine? It seems like it’s a thing that you can do, if it’s a thing that you want to do. But I don’t exactly get very much out of it.</p>
+<p>And that’s going to be the case for <em>most</em> of these languages (and frameworks). So I’m, well, I’m going to skip almost all of them.</p>
+<p>It will keep me sane; it will keep this blog post to a <em>somewhat</em> readable length.</p>
+<p>Here’s the full list of things:</p>
+<ul>
+<li>Agda</li>
+<li>Android</li>
+<li>BEAM Languages (Erlang, Elixir &amp; LFE)</li>
+<li>Bower</li>
+<li>Coq</li>
+<li>Crystal</li>
+<li>Emscripten</li>
+<li>GNOME</li>
+<li>Go</li>
+<li>Haskell</li>
+<li>Idris</li>
+<li>iOS</li>
+<li>Java</li>
+<li>User’s Guide to Lua Infrastructure</li>
+<li>Node.js</li>
+<li>OCaml</li>
+<li>Perl</li>
+<li>PHP</li>
+<li>Python</li>
+<li>Qt</li>
+<li>R</li>
+<li>Ruby</li>
+<li>Rust</li>
+<li>TeX Live</li>
+<li>Titanium</li>
+<li>Vim</li>
+</ul>
+<p>And here’s the much smaller list of things that I could say anything useful or intelligent about:</p>
+<ul>
+<li>Bower</li>
+<li>Go</li>
+<li>Haskell</li>
+<li>iOS</li>
+<li>Node.js</li>
+<li>OCaml</li>
+<li>Python</li>
+<li>Rust</li>
+</ul>
+<p>So let’s give it a shot.</p>
+<h2 id=154-bowerhttpswebarchiveorgweb20210318102415if_httpsnixosorgmanualnixpkgsstablesec-bower><a href=https://web.archive.org/web/20210318102415if_/https://nixos.org/manual/nixpkgs/stable/#sec-bower>15.4. Bower</a></h2>
+<p>I included Bower in this list mostly because it seems like a really simple place to start. I <em>have</em> used Bower before, some decades ago, but I’m genuinely surprised that it still exists. The <a href=https://bower.io/>Bower homepage</a> even says:</p>
+<blockquote>
+<p>While Bower is maintained, we recommend using Yarn and Webpack or Parcel for front-end projects</p>
+</blockquote>
+<p>Which is… yeah.</p>
+<p>But I understand that not every project can switch away; software is a burden that we must live with forever. And anyway, Bower is such a trivial “platform” that I feel like it’s a good place to start.</p>
+<p>In case you’re not familiar: this is basically a way to specify your web frontend dependencies by writing a JSON file (like <code>package.json</code>) that will be downloaded into a <code>bower_components</code> directory (like <code>node_modules</code>). And then… nothing else. There’s nothing else. It’s just a package registry. It’s up to you what you do with the <code>bower_components</code>; how you actually incorporate the source files it downloads.</p>
+<p>I happen to have two projects that use Bower sitting in my <code>~/src</code>. One is a <a href=https://www.purescript.org/>Purescript</a> project, and I seem to recall that (at the time) Purescript used Bower as their semi-official package registry of record. I imagine that’s changed, but here we are. This project is sort of complicated, though, and not a very good test subject.</p>
+<p>The other is a project from 2014: a simple chat client I wrote as an experiment to try out <a href=https://emberjs.com/>Ember.js</a>.<sup id=fnref:1><a href=#fn:1 class=footnote-ref role=doc-noteref>1</a></sup> Seems like that oughtta work.</p>
+<pre><code>$ cat bower.json
+</code></pre>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-json data-lang=json><span class=p>{</span>
+  <span class=nt>"name"</span><span class=p>:</span> <span class=s2>"Tocky"</span><span class=p>,</span>
+  <span class=nt>"dependencies"</span><span class=p>:</span> <span class=p>{</span>
+    <span class=nt>"ember"</span><span class=p>:</span> <span class=s2>"=1.5.0-beta.2"</span><span class=p>,</span>
+    <span class=nt>"socket.io-client"</span><span class=p>:</span> <span class=s2>"~0.9.16"</span><span class=p>,</span>
+    <span class=nt>"momentjs"</span><span class=p>:</span> <span class=s2>"=2.5.1"</span>
+  <span class=p>},</span>
+  <span class=nt>"overrides"</span><span class=p>:</span> <span class=p>{</span>
+    <span class=nt>"socket.io-client"</span><span class=p>:</span> <span class=p>{</span>
+      <span class=nt>"main"</span><span class=p>:</span> <span class=s2>"dist/socket.io.js"</span>
+    <span class=p>}</span>
+  <span class=p>}</span>
+<span class=p>}</span>
+</code></pre></div><p>Now I don’t have Bower anymore, because, you know, it is 2021. And it doesn’t <em>appear</em> to be present in Nixpkgs – <code>nix search bower</code> gives one result, and it is not in any way related.</p>
+<p>But the manual tells me I can find it in <code>nodePackages.bower</code>.</p>
+<p>But how could I have found that out for myself? How can I search through <code>nodePackages</code>?</p>
+<p><code>nix search --help</code> is no help. I suppose I will need to use <code>nix-env -qa</code> for this.</p>
+<pre tabindex=0><code>$ nix-env -qaA nixpkgs.nodePackages
+(tens of thousands of lines of output)
+</code></pre><p>Hmm.</p>
+<pre tabindex=0><code>$ nix-env -qaA nixpkgs.nodePackages bower
+error: selector 'bower' matches no derivations
+
+$ nix-env -qaA nixpkgs.nodePackages '*bower*'
+error: An empty regex is not allowed in the POSIX grammar.
+
+$ nix-env -qaA nixpkgs.nodePackages '.*bower.*'
+node_bower-1.8.12
+node_bower2nix-3.2.0
+</code></pre><p>Yes; very intuitive.</p>
+<p>Also very annoying that this gives me the <em>names</em> of these derivations, when what I want is the attribute path. How do I see the path? <code>man nix-env</code> teaches me <code>-P</code>:</p>
+<pre tabindex=0><code>$ nix-env -qaA nixpkgs.nodePackages '.*bower.*' -P
+nixpkgs.nodePackages.bower      node_bower-1.8.12
+nixpkgs.nodePackages.bower2nix  node_bower2nix-3.2.0
+</code></pre><p>Which seems like <em>always</em> more useful than the “name.” Derivation names seem like such a huge design mistake.</p>
+<p>I also still wish I could just <code>nix search</code> this.</p>
+<p>Allllright. Anyway. Back to it.</p>
+<p>The manual tells me I can run <code>bower2nix</code> and get an equivalent Nix expression to my simple little <code>bower.json</code>:</p>
+<pre tabindex=0><code>$ nix-shell -p nodePackages.{bower,bower2nix}
+(downloading hundreds of millions of derivations)
+...
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: typescript@~1.8.9 (node_modules/typescript):
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: request to https://registry.npmjs.org/typescript failed: cache mode is 'only-if-cached' but no cached response available.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: tsd@~0.6.5 (node_modules/tsd):
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: request to https://registry.npmjs.org/tsd failed: cache mode is 'only-if-cached' but no cached response available.
+
+audited 95 packages in 0.824s \ postinstall:bower2nix: WARN optional SKIPPING OPTIONAL D[0m
+
+4 packages are looking for funding
+  run `npm fund` for details
+
+found 11 vulnerabilities (5 low, 6 high)
+  run `npm audit fix` to fix them, or `npm audit` for details
+@nix { "action": "setPhase", "phase": "fixupPhase" }wer2nix: timing audit body Completed in 1m
+post-installation fixup
+rewriting symlink /nix/store/50lf045gfws0nk86gyxmnf9yksrc07ih-node_bower2nix-3.2.0/bin to be relative to /nix/store/50lf045gfws0nk86gyxmnf9yksrc07ih-node_bower2nix-3.2.0
+patching script interpreter paths in /nix/store/50lf045gfws0nk86gyxmnf9yksrc07ih-node_bower2nix-3.2.0
+</code></pre><p>Whole lotta noise at the end there. Including what looks like some improper ANSI escapes? I don’t know. I don’t care.</p>
+<p>I am comforted by the warning about how many vulnerabilities this has. I dunno if that’s from <code>bower</code> or <code>bower2nix</code> or whether or not I should care in the slightest.</p>
+<p>Anyway, let’s run it:</p>
+<pre tabindex=0><code>[nix-shell:~/src/old/tocky]$ bower2nix
+# Generated by bower2nix v3.2.0 (https://github.com/rvl/bower2nix)
+{ fetchbower, buildEnv }:
+buildEnv { name = "bower-env"; ignoreCollisions = true; paths = [
+Parsing /Users/ian/src/old/tocky/bower.json failed: ReferenceError: primordials is not defined
+</code></pre><p>Huh. I don’t know what that means.</p>
+<p>I think maybe the format of a <code>bower.json</code> has changed since 2014.</p>
+<p>No: Googling the error tells me this is some sort of Node version incompatibility thing?</p>
+<p>Which I would not think possible, given that, you know, this is supposed to be Nix country. Packages can specify which Node they depend on, can’t they?</p>
+<pre tabindex=0><code>$ nix-env -qa nodejs
+nodejs-10.24.1
+nodejs-12.22.1
+nodejs-14.16.1
+nodejs-14.16.1
+nodejs-15.14.0
+nodejs-16.1.0
+</code></pre><p>Or is this some deficiency of the Nix <code>nodePackages</code> infrastructure that they all assume latest Node?</p>
+<p>Let’s suspect it’s the fault of my <code>bower.json</code>. Let’s try to use the one from the example:</p>
+<pre><code>[nix-shell:~/scratch/bowering]$ cat bower.json
+</code></pre>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-json data-lang=json><span class=p>{</span>
+  <span class=nt>"name"</span><span class=p>:</span> <span class=s2>"my-web-app"</span><span class=p>,</span>
+  <span class=nt>"dependencies"</span><span class=p>:</span> <span class=p>{</span>
+    <span class=nt>"angular"</span><span class=p>:</span> <span class=s2>"~1.5.0"</span><span class=p>,</span>
+    <span class=nt>"bootstrap"</span><span class=p>:</span> <span class=s2>"~3.3.6"</span>
+  <span class=p>}</span>
+<span class=p>}</span>
+</code></pre></div><pre tabindex=0><code>[nix-shell:~/scratch/bowering]$ bower2nix
+# Generated by bower2nix v3.2.0 (https://github.com/rvl/bower2nix)
+{ fetchbower, buildEnv }:
+buildEnv { name = "bower-env"; ignoreCollisions = true; paths = [
+Parsing /Users/ian/scratch/bowering/bower.json failed: ReferenceError: primordials is not defined
+</code></pre><p>Well, we tried. I go to file an issue, but someone has beaten me to it:</p>
+<p><a href=https://github.com/rvl/bower2nix/issues/20>https://github.com/rvl/bower2nix/issues/20</a></p>
+<p>Well, theoretically, if this worked, then I could use this to create a <code>bower_components</code> directory. Presumably in the Nix store though, right?</p>
+<p>How does that work?</p>
+<p>Let’s see if we can piece a little bit more together. The manual tells me that, had <code>bower2nix</code> worked, it would have given me output like this:</p>
+<blockquote>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-nix data-lang=nix><span class=p>{</span> <span class=n>fetchbower</span><span class=o>,</span> <span class=n>buildEnv</span> <span class=p>}:</span>
+<span class=n>buildEnv</span> <span class=p>{</span> <span class=n>name</span> <span class=o>=</span> <span class=s2>"bower-env"</span><span class=p>;</span> <span class=n>ignoreCollisions</span> <span class=o>=</span> <span class=no>true</span><span class=p>;</span> <span class=n>paths</span> <span class=o>=</span> <span class=p>[</span>
+  <span class=p>(</span><span class=n>fetchbower</span> <span class=s2>"angular"</span> <span class=s2>"1.5.3"</span> <span class=s2>"~1.5.0"</span> <span class=s2>"1749xb0firxdra4rzadm4q9x90v6pzkbd7xmcyjk6qfza09ykk9y"</span><span class=p>)</span>
+  <span class=p>(</span><span class=n>fetchbower</span> <span class=s2>"bootstrap"</span> <span class=s2>"3.3.6"</span> <span class=s2>"~3.3.6"</span> <span class=s2>"1vvqlpbfcy0k5pncfjaiskj3y6scwifxygfqnw393sjfxiviwmbv"</span><span class=p>)</span>
+  <span class=p>(</span><span class=n>fetchbower</span> <span class=s2>"jquery"</span> <span class=s2>"2.2.2"</span> <span class=s2>"1.9.1 - 2"</span> <span class=s2>"10sp5h98sqwk90y4k6hbdviwqzvzwqf47r3r51pakch5ii2y7js1"</span><span class=p>)</span>
+<span class=p>];</span> <span class=p>}</span>
+</code></pre></div></blockquote>
+<p>I save that as <code>bower-components.nix</code>. Now the manual tells me that to actually create my <code>bower_components</code> directory, I need to call the Nix function <code>buildBowerComponents</code>.</p>
+<p>Okaaaay. I don’t know how to just “call” that function and build it. But I know how to make a <code>default.nix</code> that does just that:</p>
+<pre><code>[nix-shell:~/scratch/bowering]$ cat default.nix
+</code></pre>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-nix data-lang=nix><span class=p>{</span> <span class=n>pkgs</span> <span class=o>?</span> <span class=kn>import</span> <span class=sr>&lt;nixpkgs&gt;</span> <span class=p>{}</span> <span class=p>}:</span>
+<span class=n>pkgs</span><span class=o>.</span><span class=n>buildBowerComponents</span> <span class=p>{</span>
+  <span class=n>name</span> <span class=o>=</span> <span class=s2>"bowering"</span><span class=p>;</span>
+  <span class=n>generated</span> <span class=o>=</span> <span class=sr>./bower-components.nix</span><span class=p>;</span>
+  <span class=n>src</span> <span class=o>=</span> <span class=sr>./.</span><span class=p>;</span>
+<span class=p>}</span>
+</code></pre></div><pre tabindex=0><code>[nix-shell:~/scratch/bowering]$ nix-build
+these derivations will be built:
+  /nix/store/adzqz5nz7yzzvsipfbrsba0h42phwgd3-angular-1.5.3.drv
+  /nix/store/hl0l67smi2cy3j6i0v5lx84qrhbfcskh-jquery-2.2.2.drv
+  /nix/store/q0pdb64p59qlzzzaxccfzrk7yfy77px2-builder.pl.drv
+  /nix/store/v4gvynz3spyykqwqi6bpzbwdhqbi7lnq-bootstrap-3.3.6.drv
+  /nix/store/cddah8by5f3dnfjs3rmd64yg6mcfdb98-bower-env.drv
+  /nix/store/5vil9g9x000kwxcbg0bg7dab9j9i6iv8-bower_components-bowering.drv
+these paths will be fetched (0.10 MiB download, 0.19 MiB unpacked):
+  /nix/store/mxgzq97yax2zzgl52gql8i1kzkvpi6dv-nss-cacert-3.63
+building '/nix/store/q0pdb64p59qlzzzaxccfzrk7yfy77px2-builder.pl.drv'...
+copying path '/nix/store/mxgzq97yax2zzgl52gql8i1kzkvpi6dv-nss-cacert-3.63' from 'https://cache.nixos.org'...
+building '/nix/store/adzqz5nz7yzzvsipfbrsba0h42phwgd3-angular-1.5.3.drv'...
+hash mismatch in fixed-output derivation '/nix/store/1isbljl2cfqknmacnv0iq81jx8bay3qx-angular-1.5.3':
+  wanted: sha256:1749xb0firxdra4rzadm4q9x90v6pzkbd7xmcyjk6qfza09ykk9y
+  got:    sha256:0z50hlpj3f5nfnxcaxr5qn07jnavfksqy1xcwz0nmnh2rff0dljf
+cannot build derivation '/nix/store/cddah8by5f3dnfjs3rmd64yg6mcfdb98-bower-env.drv': 1 dependencies couldn't be built
+cannot build derivation '/nix/store/5vil9g9x000kwxcbg0bg7dab9j9i6iv8-bower_components-bowering.drv': 1 dependencies couldn't be built
+error: build of '/nix/store/5vil9g9x000kwxcbg0bg7dab9j9i6iv8-bower_components-bowering.drv' failed
+</code></pre><p>Okay. So the example output was just… wrong. It had all the wrong hashes for the packages. That’s weird. I update them all:</p>
+<pre><code>[nix-shell:~/scratch/bowering]$ cat bower-components.nix
+</code></pre>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-nix data-lang=nix><span class=p>{</span> <span class=n>fetchbower</span><span class=o>,</span> <span class=n>buildEnv</span> <span class=p>}:</span>
+<span class=n>buildEnv</span> <span class=p>{</span> <span class=n>name</span> <span class=o>=</span> <span class=s2>"bower-env"</span><span class=p>;</span> <span class=n>ignoreCollisions</span> <span class=o>=</span> <span class=no>true</span><span class=p>;</span> <span class=n>paths</span> <span class=o>=</span> <span class=p>[</span>
+  <span class=p>(</span><span class=n>fetchbower</span> <span class=s2>"angular"</span> <span class=s2>"1.5.3"</span> <span class=s2>"~1.5.0"</span> <span class=s2>"0z50hlpj3f5nfnxcaxr5qn07jnavfksqy1xcwz0nmnh2rff0dljf"</span><span class=p>)</span>
+  <span class=p>(</span><span class=n>fetchbower</span> <span class=s2>"bootstrap"</span> <span class=s2>"3.3.6"</span> <span class=s2>"~3.3.6"</span> <span class=s2>"1pq8av43bm0il6ml90yqh6vdfvdfzbx7adb8swbr8fp6zdzhv8bw"</span><span class=p>)</span>
+  <span class=p>(</span><span class=n>fetchbower</span> <span class=s2>"jquery"</span> <span class=s2>"2.2.2"</span> <span class=s2>"1.9.1 - 2"</span> <span class=s2>"1a05yawxryww5agsmib3slvqsg1f9mb4dr7spy7zb2ag7agmp8s7"</span><span class=p>)</span>
+<span class=p>];</span> <span class=p>}</span>
+</code></pre></div><p>And try again:</p>
+<pre tabindex=0><code>[nix-shell:~/scratch/bowering]$ nix-build
+these derivations will be built:
+  /nix/store/x9lckg0v6x87vx7n3b1lmqp7g0yy2vgf-bower_components-bowering.drv
+building '/nix/store/x9lckg0v6x87vx7n3b1lmqp7g0yy2vgf-bower_components-bowering.drv'...
+bower cached        https://github.com/twbs/bootstrap.git#3.3.6
+bower cached        https://github.com/angular/bower-angular.git#1.5.3
+bower cached        https://github.com/jquery/jquery-dist.git#2.2.2
+bower install       bootstrap#3.3.6
+bower install       angular#1.5.3
+bower install       jquery#2.2.2
+
+bootstrap#3.3.6 bower_components/bootstrap
+└── jquery#2.2.2
+
+angular#1.5.3 bower_components/angular
+
+jquery#2.2.2 bower_components/jquery
+/nix/store/yvkngx82xwc0zzm7pdawj8rd8vhdp5vb-bower_components-bowering
+</code></pre><p>Okay! Now we’re getting somewhere.</p>
+<pre tabindex=0><code>[nix-shell:~/scratch/bowering]$ tree result | head
+result
+└── bower_components
+    ├── angular
+    │   ├── README.md
+    │   ├── angular-csp.css
+    │   ├── angular.js
+    │   ├── angular.min.js
+    │   ├── angular.min.js.gzip
+    │   ├── angular.min.js.map
+    │   ├── bower.json
+</code></pre><p>So the <code>result</code> wasn’t the <code>bower_components</code> directory, as I would have expected. Instead it was a directory with a subdirectory called <code>bower_components</code>, for some reason. I am not very interested in the actual details here, but sure. I made the <code>bower_components</code> directory with Nix, sort of, eventually.</p>
+<p>Now, I still have a <code>bower.json</code> file, so this would still be compatible (at least in theory) with non-Nix users. I like that: it doesn’t replace <code>bower</code> altogether, it merely augments it with Nix caching and determinism and such.</p>
+<p>But <code>bower.json</code> isn’t the source of truth to Nix; I have to manually run <code>bower2nix</code> in order to keep it in sync. That’s gross. I don’t really like that. I can definitely imagine a fuzzy version specification causing <code>bower</code> to silently resolve to a newer version of a dependency, and then the Nix build will diverge from the non-Nix builds without my realizing.</p>
+<p>But that’s sort of a fault of Bower, for not producing a lock file: the same thing could happen with two different people not using Nix by just running <code>bower install</code> at different points in time. So we’ll see how Nix handles this problem with “real” platforms.</p>
+<p>A bigger issue here is that I can reference this Nix store <code>bower_components</code> directory from the build instructions of my <code>default.nix</code>. But if I’m actually developing iteratively, I will be in a <code>nix-shell</code>, and then… how am I supposed to use this? I’m not, am I? Am I just supposed to run <code>bower</code> in my <code>nix-shell</code>?</p>
+<p>This feels weird. Is there a way to say that I depend on <code>bower</code>, but only in <code>nix-shell</code>, not in a normal build?</p>
+<p>Are <code>nix-shell</code> environments necessarily identical to the <code>nix-build</code> environments?</p>
+<p>I don’t know. Let’s try some more, and see if they explain this.</p>
+<h2 id=159-gohttpswebarchiveorgweb20210318102415if_httpsnixosorgmanualnixpkgsstablesec-language-go><a href=https://web.archive.org/web/20210318102415if_/https://nixos.org/manual/nixpkgs/stable/#sec-language-go>15.9. Go</a></h2>
+<p>I said I could say something interesting about Go, but I lied. I’ve never really used Go, and I don’t know much about its module system, except that at one point it involved referencing GitHub repository paths directly with no sense of version constraints except “well it doesn’t build anymore.”</p>
+<p>So I thought I may as well learn how Go has changed while I was here.</p>
+<blockquote>
+<p>The function <code>buildGoModule</code> builds Go programs managed with Go modules. It builds a Go modules through a two phase build:</p>
+<ul>
+<li>An intermediate fetcher derivation. This derivation will be used to fetch all of the dependencies of the Go module.</li>
+<li>A final derivation will use the output of the intermediate derivation to build the binaries and produce the final output.</li>
+</ul>
+</blockquote>
+<p>Okay. So it <em>seems</em> like Go projects have a special <code>vendor/</code> directory, that holds all of the dependencies, and the Nix function <code>buildGoModule</code> will… regenerate that <code>vendor</code> directory. If you want it to. It doesn’t have to. You can also have it trust the contents of <code>vendor</code>, in which case… this is just shorthand for running <code>go build</code>?</p>
+<p>I look through the source in <code>~/src/nixpkgs/pkgs/developement/go-modules/generic/default.nix</code>.</p>
+<p>And basically, there are two derivations here: one called <code>go-modules</code>, which is just the <code>vendor/</code> directory, and one that is the actual project. It’s quite a bit more complicated than <code>go build</code>, however, and involves quite a lot of <code>GOPATH</code> arithmetic and directory detection (??) and apparent scraping of stdout in order to set a consistently useful exit code (???). And at least some small amount of cross-compilation complication.</p>
+<p>Anyway, okay, I dunno; seems kinda reasonable. No magical <code>go2nix</code> situation here. Operates with normal <code>go mod vendor</code> commands, and gives you some decent build defaults.</p>
+<p>There’s also support for the “legacy” non-module Go dependencies, which requires writing out dependencies as Nix expressions manually (?). And writing out dependencies is annoying, because you need, you know, the hash.</p>
+<p>Where do you get the hash?</p>
+<p>Do you put in an empty string and run it and copy the “correct” hash from the error message you get?</p>
+<p>That’s what I was doing for the Bower example. It did not feel good. I did not feel smart while I was doing that.</p>
+<p>I remember finding – somewhat hidden, in <a href=https://ianthehenry.com/posts/how-to-learn-nix/command-reference/>the end of the Command Reference</a> – a command called <code>nix-prefetch-url</code>. <code>man nix-prefetch-url</code> says:</p>
+<blockquote>
+<p>This command is just a convenience for Nix expression writers. Often a Nix expression fetches some source distribution from the network using the <code>fetchurl</code> expression contained in Nixpkgs. However, <code>fetchurl</code> requires a cryptographic hash. If you don’t know the hash, you would have to download the file first, and then <code>fetchurl</code> would download it again when you build your Nix expression. Since <code>fetchurl</code> uses the same name for the downloaded file as <code>nix-prefetch-url</code>, the redundant download can be avoided.</p>
+</blockquote>
+<p>Which, okay. I am less concerned with the redundant download – although that is great – and more concerned with the ergonomics. Does this work with a Git repo?</p>
+<p>The manual gives this Go example:</p>
+<blockquote>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-nix data-lang=nix><span class=p>[</span> 
+  <span class=p>{</span>
+    <span class=n>goPackagePath</span> <span class=o>=</span> <span class=s2>"gopkg.in/yaml.v2"</span><span class=p>;</span> 
+
+    <span class=n>fetch</span> <span class=o>=</span> <span class=p>{</span>
+      <span class=n>type</span> <span class=o>=</span> <span class=s2>"git"</span><span class=p>;</span> 
+      <span class=n>url</span> <span class=o>=</span> <span class=s2>"https://gopkg.in/yaml.v2"</span><span class=p>;</span>
+      <span class=n>rev</span> <span class=o>=</span> <span class=s2>"a83829b6f1293c91addabc89d0571c246397bbf4"</span><span class=p>;</span>
+      <span class=n>sha256</span> <span class=o>=</span> <span class=s2>"1m4dsmk90sbi17571h6pld44zxz7jc4lrnl4f27dpd1l8g5xvjhh"</span><span class=p>;</span>
+    <span class=p>};</span>
+  <span class=p>}</span>
+  <span class=p>{</span>
+    <span class=n>goPackagePath</span> <span class=o>=</span> <span class=s2>"github.com/docopt/docopt-go"</span><span class=p>;</span>
+
+    <span class=n>fetch</span> <span class=o>=</span> <span class=p>{</span>
+      <span class=n>type</span> <span class=o>=</span> <span class=s2>"git"</span><span class=p>;</span>
+      <span class=n>url</span> <span class=o>=</span> <span class=s2>"https://github.com/docopt/docopt-go"</span><span class=p>;</span>
+      <span class=n>rev</span> <span class=o>=</span> <span class=s2>"784ddc588536785e7299f7272f39101f7faccc3f"</span><span class=p>;</span>
+      <span class=n>sha256</span> <span class=o>=</span> <span class=s2>"0wwz48jl9fvl1iknvn9dqr4gfy1qs03gxaikrxxp9gry6773v3sj"</span><span class=p>;</span>
+    <span class=p>};</span>
+  <span class=p>}</span>
+<span class=p>]</span>
+</code></pre></div></blockquote>
+<p>Anyone want to take bets on how magical <code>nix-prefetch-url</code> is?</p>
+<pre tabindex=0><code>$ nix-prefetch-url https://github.com/docopt/docopt-go
+[0.2 MiB DL]
+path is '/nix/store/fqq189a0wcavhl0rkmw9w20kkcqhnc4g-docopt-go'
+0lb30s8i7q30rrv5jzlssrva9rj99rkaxnn3yam6ll2my8wzwnpi
+
+$ cat /nix/store/fqq189a0wcavhl0rkmw9w20kkcqhnc4g-docopt-go
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en" data-color-mode="auto" data-light-theme="light" data-dark-theme="dark"&gt;
+  &lt;head&gt;
+    &lt;meta charset="utf-8"&gt;
+...
+</code></pre><p>About what I expected.</p>
+<p>In any case there’s no way to specify the <code>rev</code>, so this command isn’t going to work regardless.</p>
+<p>Let’s see if there’s a modern, <code>nix</code> command equivalent. There are only two plausible-sounding subcommands…</p>
+<pre tabindex=0><code>$ nix hash-file --help
+Usage: nix hash-file &lt;FLAGS&gt;... &lt;PATHS&gt;...
+
+Summary: print cryptographic hash of a regular file.
+
+Flags:
+      --base16       print hash in base-16
+      --base32       print hash in base-32 (Nix-specific)
+      --base64       print hash in base-64
+      --sri          print hash in SRI format
+      --type &lt;TYPE&gt;  hash algorithm ('md5', 'sha1', 'sha256', or 'sha512')
+
+Note: this program is EXPERIMENTAL and subject to change.
+</code></pre><pre tabindex=0><code>$ nix hash-path --help
+Usage: nix hash-path &lt;FLAGS&gt;... &lt;PATHS&gt;...
+
+Summary: print cryptographic hash of the NAR serialisation of a path.
+
+Flags:
+      --base16       print hash in base-16
+      --base32       print hash in base-32 (Nix-specific)
+      --base64       print hash in base-64
+      --sri          print hash in SRI format
+      --type &lt;TYPE&gt;  hash algorithm ('md5', 'sha1', 'sha256', or 'sha512')
+
+Note: this program is EXPERIMENTAL and subject to change.
+</code></pre><p>Neither of which appear to be anything.</p>
+<p>Well, open question I guess.</p>
+<h2 id=1510-haskellhttpswebarchiveorgweb20210318102415if_httpsnixosorgmanualnixpkgsstablehaskell><a href=https://web.archive.org/web/20210318102415if_/https://nixos.org/manual/nixpkgs/stable/#haskell>15.10. Haskell</a></h2>
+<blockquote>
+<p>The documentation for the Haskell infrastructure is published at <a href=https://haskell4nix.readthedocs.io/>https://haskell4nix.readthedocs.io/</a>. The source code for that site lives in the <code>doc/</code> sub-directory of the <a href=https://github.com/NixOS/cabal2nix><code>cabal2nix</code></a> Git repository and changes can be submitted there.</p>
+</blockquote>
+<p>That’s it! That’s the whole chapter. That was easy reading.</p>
+<p>Sigh, no; I suppose I have to follow that first link there.</p>
+<p>But this makes me think that it’s going to be very complicated, and I am afraid.</p>
+<p>I remember, five years ago, when I was first doing Nix, there being a mirror of every single Hackage package in Nixpkgs itself, as a Nix expression.</p>
+<p>But that makes so little sense to me now that it feels like it must be a false memory. There are too many packages, and in order to do any useful dependency resolution you would need to have every single version of every single package.</p>
+<p>But let’s see. Let’s take a look at the <a href=https://haskell4nix.readthedocs.io/nixpkgs-users-guide.html>Nixpkgs User’s Guide</a>.</p>
+<blockquote>
+<p>Nixpkgs distributes build instructions for all Haskell packages registered on Hackage, but strangely enough normal Nix package lookups don’t seem to discover any of them, except for the default version of ghc, cabal-install, and stack:</p>
+<pre tabindex=0><code>$ nix-env -i alex
+error: selector ‘alex’ matches no derivations
+$ nix-env -qa ghc
+ghc-8.10.2
+</code></pre></blockquote>
+<p>That’s… what? I assume by “strangely enough” it means “to most users of Nix” or something.</p>
+<blockquote>
+<p>The Haskell package set is not registered in the top-level namespace because it is <em>huge</em>. If all Haskell packages were visible to these commands, then name-based search/install operations would be much slower than they are now. We avoided that by keeping all Haskell-related packages in a separate attribute set called <code>haskellPackages</code>, which the following command will list:</p>
+<pre tabindex=0><code>$ nix-env -f "&lt;nixpkgs&gt;" -qaP -A haskellPackages
+haskellPackages.a50              a50-0.5
+haskellPackages.AAI              AAI-0.2.0.1
+haskellPackages.abacate          abacate-0.0.0.0
+haskellPackages.abc-puzzle       abc-puzzle-0.2.1
+haskellPackages.abcBridge        abcBridge-0.15
+haskellPackages.abcnotation      abcnotation-1.9.0
+haskellPackages.abeson           abeson-0.1.0.1
+[... some 14000 entries omitted  ...]
+</code></pre></blockquote>
+<p>Okay, so this is basically what we already saw with <code>nodePackages</code> above. It goes on to show how to install them. They just use the exact name that the package has on Hackage, with this fun caveat:</p>
+<blockquote>
+<p>(Actually, this convention causes trouble with packages like <code>3dmodels</code> and <code>4Blocks</code>, because these names are invalid identifiers in the Nix language. The issue of how to deal with these rare corner cases is currently unresolved.)</p>
+</blockquote>
+<p>Can’t you just quote them? Aren’t arbitrary strings allowed as attributes?</p>
+<pre tabindex=0><code>nix-repl&gt; { "3blocks" = 1; }
+{ "3blocks" = 1; }
+</code></pre><p>Shrug. Not important.</p>
+<blockquote>
+<p>Our current default compiler is GHC 8.10.x and the <code>haskellPackages</code> set contains packages built with that particular version. Nixpkgs contains the last three major releases of GHC and there is a whole family of package sets available that defines Hackage packages built with each of those compilers, too:</p>
+<pre tabindex=0><code>nix-env -f "&lt;nixpkgs&gt;" -qaP -A haskell.packages.ghc8104
+nix-env -f "&lt;nixpkgs&gt;" -qaP -A haskell.packages.ghc901
+</code></pre></blockquote>
+<p>Okay, neat. Don’t love smashing numbers together like that, but alright.</p>
+<p>It goes on to describe normal <code>cabal</code> stuff and Nix stuff… <code>nix-shell -p</code>, etc. Nothing too interesting.</p>
+<p>It describes a lot about making a compiler with certain packages available. I <em>assume</em> this means, like, built-in to <code>ghci</code> or something? I don’t really understand. Then getting a GHC with Hoogle and doc support and stuff. On the <code>ghcWithHoogle</code>:</p>
+<blockquote>
+<p>This environment generator not only produces an environment with GHC and all the specified libraries, but also generates a <code>hoogle</code> and <code>haddock</code> indexes for all the packages, and provides a wrapper script around hoogle binary that uses all those things. A precise name for this thing would be “<code>ghcWithPackagesAndHoogleAndDocumentationIndexes</code>”, which is, regrettably, too long and scary.</p>
+</blockquote>
+<p>Love it.</p>
+<p>And that looks pretty cool? Like, I wanna <code>hoogle</code> from the command-line and have it print URLs to local Haddock documentation. That seems great.</p>
+<p>Next we see <code>haskell-language-server</code>… I am not really going to set up a full Haskell dev environment via Nix right now, but it looks pretty tame. It recommends putting this in a <code>shell.nix</code> and not installing it globally, which is reassuring; I was wondering about that. But then do I need to open a new instance of Emacs from within that <code>nix-shell</code> in order for it to “see” the <code>hls</code> on my <code>PATH</code>? Or is there some Emacs wizardry by which it can detect that I am in a Nix project, and automatically use the correct binary?</p>
+<p>Who am I kidding. It’s Emacs. I’m sure it can do that.</p>
+<p>I’ll have to come back to that later, though. That sounds like something that deserves a post of its own.</p>
+<p>Finally we get to <code>stack</code>.</p>
+<p>I have actually used Nix to build <code>stack</code> project before, because I host <a href=https://github.com/ianthehenry/basilica/>some Haskell projects</a> on my NixOS server, so I had to figure out how to do that. Here’s what I did (this is a very old project that I should maybe go in and update…)</p>
+<pre><code>claudius $ cat stack.yaml
+</code></pre>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-yaml data-lang=yaml><span class=nt>flags</span><span class=p>:</span><span class=w> </span>{}<span class=w>
+</span><span class=w>
+</span><span class=w></span><span class=nt>packages</span><span class=p>:</span><span class=w>
+</span><span class=w></span>- <span class=s1>'.'</span><span class=w>
+</span><span class=w>
+</span><span class=w></span><span class=nt>extra-deps</span><span class=p>:</span><span class=w>
+</span><span class=w></span>- <span class=l>suspend-0.2.0.0</span><span class=w>
+</span><span class=w></span>- <span class=l>timers-0.2.0.3</span><span class=w>
+</span><span class=w>
+</span><span class=w></span><span class=nt>resolver</span><span class=p>:</span><span class=w> </span><span class=l>lts-10.4</span><span class=w>
+</span><span class=w>
+</span><span class=w></span><span class=nt>nix</span><span class=p>:</span><span class=w>
+</span><span class=w>  </span><span class=nt>enable</span><span class=p>:</span><span class=w> </span><span class=kc>true</span><span class=w>
+</span><span class=w>  </span><span class=nt>packages</span><span class=p>:</span><span class=w>
+</span><span class=w>  </span>- <span class=l>sqlite</span><span class=w>
+</span><span class=w>  </span>- <span class=l>zlib</span><span class=w>
+</span><span class=w>  </span>- <span class=l>binutils</span><span class=w>
+</span></code></pre></div><p>But I was sort of using Nix “inside out.” I was still running regular <code>stack build</code> commands; <code>stack</code> just knows how to transparently create a Nix environment. Which is great, but also meant that I didn’t really know anything about Nix while I was doing this.</p>
+<p>Anyway, I learn that I can also set an arbitrary custom <code>shell.nix</code> expression and use that to customize the build environment, instead of using the simple declarative <code>packages</code> list that <code>stack</code> provides me. Neat.</p>
+<p>Next up I learn about “ad-hoc environments for <code>nix-shell</code>.” And I see this very cool example:</p>
+<blockquote>
+<pre tabindex=0><code>nix-shell -p "haskellPackages.ghcWithPackages (pkgs: with pkgs; [mtl pandoc])"
+</code></pre></blockquote>
+<p>I didn’t know you could do that! I’ve only ever seen <em>attribute names</em> passed to <code>nix-shell -p</code>. I didn’t know you could also pass expressions! Today I learned.</p>
+<p>Anyway, let’s try that. Do you think it’ll make me build GHC from source?</p>
+<p>It did not. It peacefully downloaded <em>most</em> of Hackage, while I nervously watched my free disk space dwindle to nothing, and then… with 4.7 gibibytes to spare, it dropped me into a shell.</p>
+<p>Okay. Neat. It’s cool that that works. And now I have <code>pandoc</code>.</p>
+<p>Of course, I already <em>had</em> <code>pandoc</code>, but now I have… a different <code>pandoc</code>, I guess. A newer <code>pandoc</code>? An older <code>pandoc</code>? <code>pandoc --version</code> output is identical. I don’t know.</p>
+<p>Anyway. That’s neat, and it teaches me how to write the equivalent <code>shell.nix</code> – although, oddly, it does not use the <code>mkShell</code> function. It just makes a derivation and supplies a <code>buildInputs</code> manually, and a <code>shellhook</code> to set the right environment variables (a weird GHC quirk that it explained and I did not mention).</p>
+<p>Next up, something weird:</p>
+<blockquote>
+<p>If your own Haskell packages have build instructions for Cabal, then you can convert those automatically into build instructions for Nix using the <code>cabal2nix</code> utility, which you can install into your profile by running <code>nix-env -i cabal2nix</code>.</p>
+</blockquote>
+<p>So my impression from that statement is that Nix does this automatically for everything in Hackage, but if I want to do the equivalent thing myself (because caching, consistency, whatever), then this is how. Okay. I test it on <a href=https://github.com/ianthehenry/basilica/blob/master/basilica.cabal>that same simple Haskell project</a>:</p>
+<pre><code>[nix-shell:~/src/basilica]$ cabal2nix .
+</code></pre>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-nix data-lang=nix><span class=p>{</span> <span class=n>mkDerivation</span><span class=o>,</span> <span class=n>aeson</span><span class=o>,</span> <span class=n>base</span><span class=o>,</span> <span class=n>base16-bytestring</span><span class=o>,</span> <span class=n>bytestring</span>
+<span class=o>,</span> <span class=n>case-insensitive</span><span class=o>,</span> <span class=n>classy-prelude</span><span class=o>,</span> <span class=n>configurator</span><span class=o>,</span> <span class=n>containers</span>
+<span class=o>,</span> <span class=n>cryptohash</span><span class=o>,</span> <span class=n>DRBG</span><span class=o>,</span> <span class=n>esqueleto</span><span class=o>,</span> <span class=n>filepath</span><span class=o>,</span> <span class=n>http-client</span><span class=o>,</span> <span class=n>http-types</span>
+<span class=o>,</span> <span class=n>io-streams</span><span class=o>,</span> <span class=n>lens</span><span class=o>,</span> <span class=n>lib</span><span class=o>,</span> <span class=n>lifted-base</span><span class=o>,</span> <span class=n>monad-control</span><span class=o>,</span> <span class=n>monad-logger</span>
+<span class=o>,</span> <span class=n>mtl</span><span class=o>,</span> <span class=n>persistent</span><span class=o>,</span> <span class=n>persistent-sqlite</span><span class=o>,</span> <span class=n>persistent-template</span><span class=o>,</span> <span class=n>random</span>
+<span class=o>,</span> <span class=n>scotty</span><span class=o>,</span> <span class=n>suspend</span><span class=o>,</span> <span class=n>text</span><span class=o>,</span> <span class=n>time</span><span class=o>,</span> <span class=n>timers</span><span class=o>,</span> <span class=n>transformers</span><span class=o>,</span> <span class=n>unix-time</span><span class=o>,</span> <span class=n>wai</span>
+<span class=o>,</span> <span class=n>wai-websockets</span><span class=o>,</span> <span class=n>warp</span><span class=o>,</span> <span class=n>websockets</span><span class=o>,</span> <span class=n>wreq</span>
+<span class=p>}:</span>
+<span class=n>mkDerivation</span> <span class=p>{</span>
+  <span class=n>pname</span> <span class=o>=</span> <span class=s2>"basilica"</span><span class=p>;</span>
+  <span class=n>version</span> <span class=o>=</span> <span class=s2>"0.1.0.0"</span><span class=p>;</span>
+  <span class=n>src</span> <span class=o>=</span> <span class=sr>./.</span><span class=p>;</span>
+  <span class=n>isLibrary</span> <span class=o>=</span> <span class=no>false</span><span class=p>;</span>
+  <span class=n>isExecutable</span> <span class=o>=</span> <span class=no>true</span><span class=p>;</span>
+  <span class=n>executableHaskellDepends</span> <span class=o>=</span> <span class=p>[</span>
+    <span class=n>aeson</span> <span class=n>base</span> <span class=n>base16-bytestring</span> <span class=n>bytestring</span> <span class=n>case-insensitive</span>
+    <span class=n>classy-prelude</span> <span class=n>configurator</span> <span class=n>containers</span> <span class=n>cryptohash</span> <span class=n>DRBG</span> <span class=n>esqueleto</span>
+    <span class=n>filepath</span> <span class=n>http-client</span> <span class=n>http-types</span> <span class=n>io-streams</span> <span class=n>lens</span> <span class=n>lifted-base</span>
+    <span class=n>monad-control</span> <span class=n>monad-logger</span> <span class=n>mtl</span> <span class=n>persistent</span> <span class=n>persistent-sqlite</span>
+    <span class=n>persistent-template</span> <span class=n>random</span> <span class=n>scotty</span> <span class=n>suspend</span> <span class=n>text</span> <span class=n>time</span> <span class=n>timers</span>
+    <span class=n>transformers</span> <span class=n>unix-time</span> <span class=n>wai</span> <span class=n>wai-websockets</span> <span class=n>warp</span> <span class=n>websockets</span> <span class=n>wreq</span>
+  <span class=p>];</span>
+  <span class=n>license</span> <span class=o>=</span> <span class=n>lib</span><span class=o>.</span><span class=n>licenses</span><span class=o>.</span><span class=n>mit</span><span class=p>;</span>
+<span class=p>}</span>
+</code></pre></div><p>Very tame! Okay. Presumably this will be supplied some fancy wrapper called <code>mkDerivation</code>.</p>
+<p>Now it shows me how to write an <a href=https://ianthehenry.com/posts/how-to-learn-nix/how-to-learn-nixpkgs/>override</a> that will allow me to use my own custom packages with the Nix resolution logic.</p>
+<p>Hmm. This is a little weird, since that feels like a <em>global</em> property – at least a user-wide property – and not a per-project property, as I would want. It feels like I’m <em>unlikely</em> to have a conflict among my own private Haskell packages where this would ever cause a problem, so I do not worry about it further.</p>
+<p>And… okay! That’s it. All pretty tame.</p>
+<h2 id=1512-ioshttpswebarchiveorgweb20210318102415if_httpsnixosorgmanualnixpkgsstableios><a href=https://web.archive.org/web/20210318102415if_/https://nixos.org/manual/nixpkgs/stable/#ios>15.12. iOS</a></h2>
+<blockquote>
+<p>This component is basically a wrapper/workaround that makes it possible to expose an Xcode installation as a Nix package by means of symlinking to the relevant executables on the host system.</p>
+<p>Since Xcode can’t be packaged with Nix, nor we can publish it as a Nix package (because of its license) this is basically the only integration strategy making it possible to do iOS application builds that integrate with other components of the Nix ecosystem</p>
+</blockquote>
+<p>Interesting.</p>
+<p>I… I suppose that some people like Nix quite a bit, and they are willing to go through some weird trouble to get iOS projects building under Nix. This <em>sounds</em> crazy to me, on the surface – I can’t imagine as a developer that this experience is ergonomic enough to use – but I do understand wanting to use Nix as your CI environment, I guess.</p>
+<p>I don’t actually have Xcode installed on this computer, on account of it requiring more than 40GB of free space to install and this laptop only having a 128GB SSD. It’s very, very old.</p>
+<p>So I can’t really test this, or see if it actually works.</p>
+<h2 id=1515-nodejshttpswebarchiveorgweb20210318102415if_httpsnixosorgmanualnixpkgsstablenodejs><a href=https://web.archive.org/web/20210318102415if_/https://nixos.org/manual/nixpkgs/stable/#node.js>15.15. Node.js</a></h2>
+<p>Okay. So we already saw the <code>nodePackages</code> thing. But apparently it’s not a complete mirror of the NPM registry. I assumed that the <code>haskellPackages</code> was a complete mirror of Hackage, because it didn’t say otherwise, but now we see:</p>
+<blockquote>
+<p>As a rule of thumb, the package set should only provide end user software packages, such as command-line utilities. Libraries should only be added to the package set if there is a non-NPM package that requires it.</p>
+<p>When it is desired to use NPM libraries in a development project, use the <code>node2nix</code> generator directly on the <code>package.json</code> configuration file of the project.</p>
+</blockquote>
+<p>I try running <code>node2nix</code> on a <a href=https://github.com/ianthehenry/effing.js>simple JavaScript project</a> that has a <a href=https://github.com/ianthehenry/effing.js/blob/master/package.json>shockingly large number of dev dependencies</a> for being just a set of helper functions.</p>
+<p>This created some Nix files in the current directory:</p>
+<pre tabindex=0><code>[nix-shell:~/src/effing]$ wc -l *.nix
+   17 default.nix
+  567 node-env.nix
+   40 node-packages.nix
+  624 total
+</code></pre><pre><code>[nix-shell:~/src/effing]$ cat default.nix
+</code></pre>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-nix data-lang=nix><span class=c1># This file has been generated by node2nix 1.9.0. Do not edit!</span>
+
+<span class=p>{</span><span class=n>pkgs</span> <span class=o>?</span> <span class=kn>import</span> <span class=sr>&lt;nixpkgs&gt;</span> <span class=p>{</span>
+    <span class=k>inherit</span> <span class=n>system</span><span class=p>;</span>
+  <span class=p>}</span><span class=o>,</span> <span class=n>system</span> <span class=o>?</span> <span class=nb>builtins</span><span class=o>.</span><span class=n>currentSystem</span><span class=o>,</span> <span class=n>nodejs</span> <span class=o>?</span> <span class=n>pkgs</span><span class=o>.</span><span class=s2>"nodejs-12_x"</span><span class=p>}:</span>
+
+<span class=k>let</span>
+  <span class=n>nodeEnv</span> <span class=o>=</span> <span class=kn>import</span> <span class=sr>./node-env.nix</span> <span class=p>{</span>
+    <span class=k>inherit</span> <span class=p>(</span><span class=n>pkgs</span><span class=p>)</span> <span class=n>stdenv</span> <span class=n>lib</span> <span class=n>python2</span> <span class=n>runCommand</span> <span class=n>writeTextFile</span><span class=p>;</span>
+    <span class=k>inherit</span> <span class=n>pkgs</span> <span class=n>nodejs</span><span class=p>;</span>
+    <span class=n>libtool</span> <span class=o>=</span> <span class=k>if</span> <span class=n>pkgs</span><span class=o>.</span><span class=n>stdenv</span><span class=o>.</span><span class=n>isDarwin</span> <span class=k>then</span> <span class=n>pkgs</span><span class=o>.</span><span class=n>darwin</span><span class=o>.</span><span class=n>cctools</span> <span class=k>else</span> <span class=no>null</span><span class=p>;</span>
+  <span class=p>};</span>
+<span class=k>in</span>
+<span class=kn>import</span> <span class=sr>./node-packages.nix</span> <span class=p>{</span>
+  <span class=k>inherit</span> <span class=p>(</span><span class=n>pkgs</span><span class=p>)</span> <span class=n>fetchurl</span> <span class=n>nix-gitignore</span> <span class=n>stdenv</span> <span class=n>lib</span> <span class=n>fetchgit</span><span class=p>;</span>
+  <span class=k>inherit</span> <span class=n>nodeEnv</span><span class=p>;</span>
+<span class=p>}</span>
+</code></pre></div><pre><code>[nix-shell:~/src/effing]$ cat node-packages.nix
+</code></pre>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-nix data-lang=nix><span class=c1># This file has been generated by node2nix 1.9.0. Do not edit!</span>
+
+<span class=p>{</span><span class=n>nodeEnv</span><span class=o>,</span> <span class=n>fetchurl</span><span class=o>,</span> <span class=n>fetchgit</span><span class=o>,</span> <span class=n>nix-gitignore</span><span class=o>,</span> <span class=n>stdenv</span><span class=o>,</span> <span class=n>lib</span><span class=o>,</span> <span class=n>globalBuildInputs</span> <span class=o>?</span> <span class=p>[]}:</span>
+
+<span class=k>let</span>
+  <span class=n>sources</span> <span class=o>=</span> <span class=p>{};</span>
+  <span class=n>args</span> <span class=o>=</span> <span class=p>{</span>
+    <span class=n>name</span> <span class=o>=</span> <span class=s2>"effing"</span><span class=p>;</span>
+    <span class=n>packageName</span> <span class=o>=</span> <span class=s2>"effing"</span><span class=p>;</span>
+    <span class=n>version</span> <span class=o>=</span> <span class=s2>"2.0.1"</span><span class=p>;</span>
+    <span class=n>src</span> <span class=o>=</span> <span class=sr>./.</span><span class=p>;</span>
+    <span class=n>buildInputs</span> <span class=o>=</span> <span class=n>globalBuildInputs</span><span class=p>;</span>
+    <span class=n>meta</span> <span class=o>=</span> <span class=p>{</span>
+      <span class=n>description</span> <span class=o>=</span> <span class=s2>"Function functions."</span><span class=p>;</span>
+      <span class=n>license</span> <span class=o>=</span> <span class=s2>"MIT"</span><span class=p>;</span>
+    <span class=p>};</span>
+    <span class=n>production</span> <span class=o>=</span> <span class=no>true</span><span class=p>;</span>
+    <span class=n>bypassCache</span> <span class=o>=</span> <span class=no>true</span><span class=p>;</span>
+    <span class=n>reconstructLock</span> <span class=o>=</span> <span class=no>true</span><span class=p>;</span>
+  <span class=p>};</span>
+<span class=k>in</span>
+<span class=p>{</span>
+  <span class=n>args</span> <span class=o>=</span> <span class=n>args</span><span class=p>;</span>
+  <span class=n>sources</span> <span class=o>=</span> <span class=n>sources</span><span class=p>;</span>
+  <span class=n>tarball</span> <span class=o>=</span> <span class=n>nodeEnv</span><span class=o>.</span><span class=n>buildNodeSourceDist</span> <span class=n>args</span><span class=p>;</span>
+  <span class=n>package</span> <span class=o>=</span> <span class=n>nodeEnv</span><span class=o>.</span><span class=n>buildNodePackage</span> <span class=n>args</span><span class=p>;</span>
+  <span class=n>shell</span> <span class=o>=</span> <span class=n>nodeEnv</span><span class=o>.</span><span class=n>buildNodeShell</span> <span class=n>args</span><span class=p>;</span>
+  <span class=n>nodeDependencies</span> <span class=o>=</span> <span class=n>nodeEnv</span><span class=o>.</span><span class=n>buildNodeDependencies</span> <span class=p>(</span><span class=n>lib</span><span class=o>.</span><span class=n>overrideExisting</span> <span class=n>args</span> <span class=p>{</span>
+    <span class=n>src</span> <span class=o>=</span> <span class=n>stdenv</span><span class=o>.</span><span class=n>mkDerivation</span> <span class=p>{</span>
+      <span class=n>name</span> <span class=o>=</span> <span class=n>args</span><span class=o>.</span><span class=n>name</span> <span class=o>+</span> <span class=s2>"-package-json"</span><span class=p>;</span>
+      <span class=n>src</span> <span class=o>=</span> <span class=n>nix-gitignore</span><span class=o>.</span><span class=n>gitignoreSourcePure</span> <span class=p>[</span>
+        <span class=s2>"*"</span>
+        <span class=s2>"!package.json"</span>
+        <span class=s2>"!package-lock.json"</span>
+      <span class=p>]</span> <span class=n>args</span><span class=o>.</span><span class=n>src</span><span class=p>;</span>
+      <span class=n>dontBuild</span> <span class=o>=</span> <span class=no>true</span><span class=p>;</span>
+      <span class=n>installPhase</span> <span class=o>=</span> <span class=s2>"mkdir -p $out; cp -r ./* $out;"</span><span class=p>;</span>
+    <span class=p>};</span>
+  <span class=p>});</span>
+<span class=p>}</span>
+</code></pre></div><p>Interestingly, all of this seems, just… generic? It didn’t seem to… read my dependencies. Or maybe it doesn’t handle <code>devDependencies</code>? There’s no reference to, like, a pinned <code>mocha</code> or something. I dunno. Let’s see what happens if we try to use it:</p>
+<pre><code>[nix-shell:~/src/effing]$ nix-build
+(doing stuff)
+</code></pre>
+<p>It worked! And it produced a bunch of <code>result</code>s. What are they? The manual doesn’t say anything about it. Let’s take a look:</p>
+<pre tabindex=0><code>[nix-shell:~/src/effing]$ tree result*
+result
+├── bin -&gt; lib/node_modules/.bin
+└── lib
+    ├── package-lock.json
+    └── package.json
+result-2
+└── lib
+    └── node_modules
+        └── effing
+            ├── CHANGELOG.md
+            ├── LICENSE
+            ├── README.md 
+            ⋮
+result-3
+└── bin
+    └── shell
+result-4
+├── nix-support
+│   └── hydra-build-products
+└── tarballs
+    └── effing-2.0.1.tgz
+</code></pre><p>So <code>result</code> is… I don’t know. It contains a broken symlink. And a copy of <code>package.json</code>, with slightly different whitespace. And a basically empty <code>package-lock.json</code> that contains no actual locks.</p>
+<p><code>result-2</code> is… just a literal copy of my source? But in a <code>lib/node_modules</code> subdirectory. Okay.</p>
+<p><code>result-3</code> is just this one script:</p>
+<pre tabindex=0><code>[nix-shell:~/src/effing]$ cat result-3/bin/shell
+#! /nix/store/30njb8l701pwnm5ya749fh2cgyc2d70m-bash-4.4-p23/bin/bash -e
+
+exec /nix/store/30njb8l701pwnm5ya749fh2cgyc2d70m-bash-4.4-p23/bin/bash
+</code></pre><p><em>Okay</em>.</p>
+<p>And <code>result-4</code> is, I guess, the actual build result? But zipped up?</p>
+<pre tabindex=0><code>[nix-shell:~/src/effing]$ tar tvf result-4/tarballs/effing-2.0.1.tgz
+-rw-r--r-- 0/0            1054 1985-10-26 01:15 package/LICENSE
+-rw-r--r-- 0/0             953 1985-10-26 01:15 package/package.json
+-rw-r--r-- 0/0             111 1985-10-26 01:15 package/CHANGELOG.md
+-rw-r--r-- 0/0            9401 1985-10-26 01:15 package/README.md
+-rw-r--r-- 0/0             502 1985-10-26 01:15 package/default.nix
+-rw-r--r-- 0/0           20335 1985-10-26 01:15 package/node-env.nix
+-rw-r--r-- 0/0            1017 1985-10-26 01:15 package/node-packages.nix
+</code></pre><p>Nope. Okay. I have no idea. And the manual doesn’t really have any more words to say.</p>
+<h2 id=1516-ocamlhttpswebarchiveorgweb20210318102415if_httpsnixosorgmanualnixpkgsstablesec-language-ocaml><a href=https://web.archive.org/web/20210318102415if_/https://nixos.org/manual/nixpkgs/stable/#sec-language-ocaml>15.16. OCaml</a></h2>
+<p>Alright, we’re sort of getting into a rhythm. There’s a function called <code>buildDunePackage</code>. It does the thing. Except, does it? Does it do the thing?</p>
+<p>The manual doesn’t say where to find the <code>buildDunePackage</code> function, but convention has me guess to look in <code>ocamlPackages</code>, which turns out to be correct.</p>
+<p>I try to make a trivial <code>default.nix</code> for one of my Dune projects:</p>
+<pre><code>$ cat default.nix
+</code></pre>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-nix data-lang=nix><span class=k>let</span> <span class=n>pkgs</span> <span class=o>=</span> <span class=kn>import</span> <span class=sr>&lt;nixpkgs&gt;</span> <span class=p>{};</span> <span class=k>in</span>
+<span class=n>pkgs</span><span class=o>.</span><span class=n>ocamlPackages</span><span class=o>.</span><span class=n>buildDunePackage</span> <span class=k>rec</span> <span class=p>{</span>
+  <span class=n>pname</span> <span class=o>=</span> <span class=s2>"hexagain"</span><span class=p>;</span>
+  <span class=n>version</span> <span class=o>=</span> <span class=s2>"0.0.0"</span><span class=p>;</span>
+  <span class=n>minimumOCamlVersion</span> <span class=o>=</span> <span class=s2>"4.03"</span><span class=p>;</span>
+  <span class=n>src</span> <span class=o>=</span> <span class=sr>./.</span><span class=p>;</span>
+<span class=p>}</span>
+</code></pre></div><pre><code>$ nix-build
+error: dune is not available for OCaml 4.12.0
+(use '--show-trace' to show detailed location information)
+</code></pre>
+<p>Hmm. Umm. Unexpected. I look through the <code>nixpkgs</code> source and find this:</p>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-nix data-lang=nix><span class=k>if</span> <span class=o>!</span><span class=n>lib</span><span class=o>.</span><span class=n>versionAtLeast</span> <span class=n>ocaml</span><span class=o>.</span><span class=n>version</span> <span class=s2>"4.02"</span>
+<span class=k>then</span> <span class=ne>throw</span> <span class=s2>"dune is not available for OCaml </span><span class=si>${</span><span class=n>ocaml</span><span class=o>.</span><span class=n>version</span><span class=si>}</span><span class=s2>"</span>
+</code></pre></div><p>But… that can’t be right. Because. <code>4.12.0</code> is “at least” <code>4.02</code>. Isn’t it? If you tell me otherwise, I’m going to throw a fit.</p>
+<pre tabindex=0><code>nix-repl&gt; pkgs.lib.versionAtLeast "4.12.0" "4.02"
+true
+</code></pre><p>Okay, good. So it must be coming from the other <code>throw</code>…</p>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-nix data-lang=nix><span class=k>if</span> <span class=n>lib</span><span class=o>.</span><span class=n>versionOlder</span> <span class=n>ocaml</span><span class=o>.</span><span class=n>version</span> <span class=s2>"4.08"</span>
+<span class=k>then</span> <span class=ne>throw</span> <span class=s2>"dune is not available for OCaml </span><span class=si>${</span><span class=n>ocaml</span><span class=o>.</span><span class=n>version</span><span class=si>}</span><span class=s2>"</span>
+</code></pre></div><pre tabindex=0><code>nix-repl&gt; pkgs.lib.versionOlder "4.12.0" "4.08"
+false
+</code></pre><p>Okay, what the heck. I’m very confused. I think my local <code>~/src/nixpkgs</code> has diverged from my channel? I think I’m looking at code that is not the code I’m running. Because when I run <code>--show-trace</code> it points me to a file that doesn’t exist.</p>
+<p>I have been very hesitant to update my channel, because <a href=https://ianthehenry.com/posts/how-to-learn-nix/my-first-package-upgrade/>I have been bit by it in the past</a>, and lost access to the binary cache.</p>
+<p>So I carefully update my local clone to the exact version of my channel, and…</p>
+<p>Find the actual source of my grief:</p>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-nix data-lang=nix><span class=k>if</span> <span class=o>!</span><span class=n>lib</span><span class=o>.</span><span class=n>versionAtLeast</span> <span class=n>ocaml</span><span class=o>.</span><span class=n>version</span> <span class=s2>"4.02"</span>
+<span class=o>||</span> <span class=n>lib</span><span class=o>.</span><span class=n>versionAtLeast</span> <span class=n>ocaml</span><span class=o>.</span><span class=n>version</span> <span class=s2>"4.12"</span>
+<span class=k>then</span> <span class=ne>throw</span> <span class=s2>"dune is not available for OCaml </span><span class=si>${</span><span class=n>ocaml</span><span class=o>.</span><span class=n>version</span><span class=si>}</span><span class=s2>"</span>
+</code></pre></div><p>Aha. Well. I have no idea… why it isn’t compatible. With the default OCaml. Seems… well, you know how it seems.</p>
+<p>I think when I was writing this package, I was doing so against <code>4.07.1</code>. But there’s no <code>ocamlPackages_4_07_1</code>. So… let’s see if it builds with something way older?</p>
+<p>I have to cancel the first attempt so I can collect garbage, and get rid of all the Haskell/Node stuff that I’ve built up, because my disk is dangerously close to full. I try again…</p>
+<pre tabindex=0><code>$ nix-build
+warning: dumping very large path (&gt; 256 MiB); this may run out of memory
+</code></pre><p>I’ve never seen this before, and I don’t know what it means. It printed that and then just hung, for a long time, before the usual “these derivations will be built” message.</p>
+<p>One of the derivations it claims will be built is:</p>
+<pre><code>/nix/store/70rhm4bbwrpnbiqsg88zlv1wfkpmj7lh-x11env.drv
+</code></pre>
+<p>I don’t know what that’s about.</p>
+<p>And now it’s compiling the OCaml compiler from source.</p>
+<p>I guess that there’s no substitute available for 4.03? So the fallback is to build from source?</p>
+<p>I have another idea: install it with something other than Nix, where substitutes are still available for old versions of things.</p>
+<p>I don’t want to spend a week compiling OCaml, so I interrupt it and move on. Maybe one day Nix’s Dune infrastructure will support the default OCaml.</p>
+<h2 id=1519-pythonhttpswebarchiveorgweb20210318102415if_httpsnixosorgmanualnixpkgsstablepython><a href=https://web.archive.org/web/20210318102415if_/https://nixos.org/manual/nixpkgs/stable/#python>15.19. Python</a></h2>
+<p>Okay, we’re still going, huh. There’s still more. Only two more! Let’s get it over with.</p>
+<p>So: Python. Python has this crazy versioning mess unseen anywhere else in the programming world. So there are multiple Pythons in Nixpkgs.</p>
+<p>So far this seems pretty similar to the Haskell stuff.</p>
+<blockquote>
+<pre tabindex=0><code>$ nix-shell -p 'python38.withPackages(ps: with ps; [ numpy toolz ])'
+</code></pre></blockquote>
+<p>Sure sure.</p>
+<p>A couple weird formatting problems with this section of the manual. Huh.</p>
+<p>This describes how to use the <code>nix-shell -i</code> shebang. And then a <code>shell.nix</code>:</p>
+<blockquote>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-nix data-lang=nix><span class=k>with</span> <span class=kn>import</span> <span class=sr>&lt;nixpkgs&gt;</span> <span class=p>{};</span>
+<span class=p>(</span><span class=n>python38</span><span class=o>.</span><span class=n>withPackages</span> <span class=p>(</span><span class=n>ps</span><span class=p>:</span> <span class=p>[</span><span class=n>ps</span><span class=o>.</span><span class=n>numpy</span> <span class=n>ps</span><span class=o>.</span><span class=n>toolz</span><span class=p>]))</span><span class=o>.</span><span class=n>env</span>
+</code></pre></div></blockquote>
+<p>Interesting to see that <code>.env</code>? What is that? I get that it needs to be different than the <code>nix-shell -p</code> invocation, but I don’t know in general how to go from a <code>nix-shell -p</code> to a <code>shell.nix</code>. Which… is sort of a crazy statement. Maybe <code>mkShell</code> works in all cases? I don’t know.</p>
+<p>This section seems to be nicely written for people who are not super experienced with Nix. It explains this expression in detail, but not the <code>.env</code> part. Hmm.</p>
+<p>Oh! It does explain how to combine this with <code>mkShell</code>:</p>
+<blockquote>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-nix data-lang=nix><span class=k>with</span> <span class=kn>import</span> <span class=sr>&lt;nixpkgs&gt;</span> <span class=p>{};</span>
+<span class=k>let</span>
+  <span class=n>pythonEnv</span> <span class=o>=</span> <span class=n>python38</span><span class=o>.</span><span class=n>withPackages</span> <span class=p>(</span><span class=n>ps</span><span class=p>:</span> <span class=p>[</span>
+    <span class=n>ps</span><span class=o>.</span><span class=n>numpy</span>
+    <span class=n>ps</span><span class=o>.</span><span class=n>toolz</span>
+  <span class=p>]);</span>
+<span class=k>in</span> <span class=n>mkShell</span> <span class=p>{</span>
+  <span class=n>buildInputs</span> <span class=o>=</span> <span class=p>[</span>
+    <span class=n>pythonEnv</span>
+
+    <span class=n>black</span>
+    <span class=n>mypy</span>
+
+    <span class=n>libffi</span>
+    <span class=n>openssl</span>
+  <span class=p>];</span>
+<span class=p>}</span>
+</code></pre></div></blockquote>
+<p>And yeah, it looks like the trivial thing works. Nice.</p>
+<p>Next it describes how to do this with an <a href=https://ianthehenry.com/posts/how-to-learn-nix/overlays/>overlay</a>. Neat.</p>
+<p>And then we see the obligatory <code>buildPythonPackage</code>.</p>
+<p>Alright. We have a function called <code>fetchPypi</code>, which can grab dependencies.</p>
+<p>Anyway, we see some code examples, which are functions that take a whole bunch of other Python derivations as arguments. It doesn’t really explain… how these work, or how to call these, or what this means.</p>
+<p>Like, these are functions that need to be called with something like <code>callPackage</code>, presumably. Except not <code>callPackage</code>; they need to be called with specifically <code>python38.pkgs</code> or whatever.</p>
+<p>I can see that there <em>is</em> a function called <code>python38.pkgs.callPackage</code> that presumably does this, but there’s no mention of it so far.</p>
+<p>Let’s keep going.</p>
+<p>Checks. More stuff. Wow. This is a <em>really</em> long section. I kind of skim it. I’m losing steam. This is like a full reference. Which is great! But not something I really need to read right now. I don’t expect to ever actually write Python again.</p>
+<p>We get to <code>pypi2nix</code>. <code>python2nix</code>. A whole FAQ. <em>Seems</em> very impressive. But I do not read it. I admire the care that the Nix Python people have put into this documentation, though.</p>
+<h2 id=1523-rusthttpswebarchiveorgweb20210318102415if_httpsnixosorgmanualnixpkgsstablerust><a href=https://web.archive.org/web/20210318102415if_/https://nixos.org/manual/nixpkgs/stable/#rust>15.23. Rust</a></h2>
+<p><code>rustPlatform.buildRustPackage</code>. It has this to say:</p>
+<blockquote>
+<p><code>buildRustPackage</code> requires a <code>cargoSha256</code> attribute which is computed over all crate sources of this package. Currently it is obtained by inserting a fake checksum into the expression and building the package once. The correct checksum can be then take from the failed build.</p>
+</blockquote>
+<p>Seems chill? I dunno. Seems fine. All of this seems reasonable. Looks easy, compared to what we’ve seen so far.</p>
+<p>Tests can’t depend on the file structure in <code>target/</code>. Fair enough.</p>
+<blockquote>
+<p>Nixpkgs contains a tool called <code>carnix</code> (<code>nix-env -iA nixos.carnix</code>), which can be used to turn a <code>Cargo.lock</code> into a Nix expression.</p>
+<p>That Nix expression calls <code>rustc</code> directly (hence bypassing Cargo), and can be used to compile a crate and all its dependencies.</p>
+</blockquote>
+<p>I don’t know… why I would want this. I like <code>cargo</code>. The example looks terrifying.</p>
+<p>The manual goes on to describe how I can configure the build. Seems nice. But then:</p>
+<blockquote>
+<p>Oftentimes you want to develop code from within <code>nix-shell</code>. Unfortunately <code>buildRustCrate</code> does not support common <code>nix-shell</code> operations directly (see <a href=https://github.com/NixOS/nixpkgs/issues/37945>this issue</a>) so we will use <code>stdenv.mkDerivation</code> instead.</p>
+</blockquote>
+<p>And then it just shows, like, a trivial <code>shell.nix</code> that just adds <code>cargo</code> and <code>rustc</code> as dependencies. Nothing fancy here.</p>
+<p>It shows how to use nightly Rust. It involves… downloading Nix expressions from <a href=https://github.com/mozilla/nixpkgs-mozilla>the <code>nixpkgs-mozilla</code> repo</a>? Okay. Neat? I haven’t had occasion to use anything but the stable Rust yet myself, but I have not really written any Rust worth noting at this point in my life.</p>
+<h2 id=1524-tex-livehttpswebarchiveorgweb20210318102415if_httpsnixosorgmanualnixpkgsstablesec-language-texlive><a href=https://web.archive.org/web/20210318102415if_/https://nixos.org/manual/nixpkgs/stable/#sec-language-texlive>15.24. TeX Live</a></h2>
+<p>No no I am kidding. I am done. We are done.</p>
+<p>So, I think… in general, I like the idea of having a <code>nix-shell</code> with stuff in it. I like using that to specify project dependencies. It’s a good thing to do. I have, in fact, been doing a lot of things with <code>nix-shell -p</code> because it’s such a nice way to get an environment set up very quickly.</p>
+<p>But I don’t <em>really</em> understand the advantage yet of wanting to <code>nix-build</code> all my things. Like, to distribute software. Nor do I really understand the value add of something like <code>cabal2nix</code>. Most languages I write already have a quite nice way to do dependency resolution, and dependencies are generally small and easy enough that the <code>/nix/store</code> sharing isn’t really meaningful.</p>
+<p>But anyway.</p>
+<p>I suppose it’s something that I will need to see in practice. Who knows how it actually feels to use it. I will reserve judgment for now.</p>
+<p>Well, that was quite a chapter.</p>
+<p>And it’s also… very nearly the end of the manual. That was the last really substantial chapter, I think. I can see the light at the end of the tunnel.</p>
+<hr>
+<ul>
+<li>How can I <code>nix search</code> through <code>nixpkgs.nodePackages</code>?</li>
+<li>How am I supposed to use e.g. <code>bower2nix</code> while iterating on a package from <code>nix-shell</code>?</li>
+<li>Can I have a dependency that only shows up in <code>nix-shell</code>, without being a build-time dependency of my derivation?</li>
+<li>How can I see the hash for a git repository, ala <code>nix-prefetch-url</code>?</li>
+<li>What the heck is up with the Node.js stuff?</li>
+</ul>
+<section class=footnotes role=doc-endnotes>
+<hr>
+<ol>
+<li id=fn:1 role=doc-endnote>
+<p>Look, it was 2014. React was still slick with vernix; we didn’t know any better back then. Even though seven years have passed, I can still remember the creeping horror of Ember.js’s “Conflation over Composition” design philosophy…&nbsp;<a href=#fnref:1 class=footnote-backref role=doc-backlink>↩︎</a></p>
+</li>
+</ol>
+</section></div>
+</article>
+<div class=post-footer>
+<a href="mailto:ianthehenry@gmail.com?subject=let%27s%20talk%20about%20%22Languages%20and%20frameworks%22&amp;body=First%20of%20all,%20I%20just%20wanted%20to%20say%20that%20I%20forgive%20you%20for%20not%20having%20a%20real%20comment%20system%20on%20your%20site.">comment on this post</a><a href=https://ianthehenry.com/posts/how-to-learn-nix/random-package-grab-bag/>Next up ➜ Random package grab-bag</a></div>
+<aside class=series-rider>
+<p>
+This post is part of the series <a class=series-name href=https://ianthehenry.com/posts/how-to-learn-nix/>How to Learn Nix</a>.
+You can
+<a target=_blank href=https://ianthehenry.com/feed.xml>subscribe to my RSS feed</a>
+or
+<a target=_blank href=https://twitter.com/ianthehenry>follow me on Twitter</a>
+for more, or <a href=https://ianthehenry.com/posts/>peruse my back catalog</a> if you're in the mood for something different.
+<div class=subsection-header>Opening remarks</div><ol start=1 class=post-list><li><a href=https://ianthehenry.com/posts/how-to-learn-nix/introduction/>What's all this about?</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/prior-knowledge/>Prior knowledge</a></li>
+</ol><div class=subsection-header>Reading the Nix manual</div><ol start=3 class=post-list><li><a href=https://ianthehenry.com/posts/how-to-learn-nix/glossary/>What we talk about when we talk about Nix</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/quick-start-guide/>Quick starts, full hearts</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/basic-package-management/>Basic package management</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/profiles/>Profiles</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/garbage-collection/>Garbage collection</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/channels/>Channels</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/sharing/>Learning to share</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/my-first-derivation/>My first derivation</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/okay-my-actual-first-derivation/>Okay my actual first derivation</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/nix-language/>The Nix expression language</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/derivations/>Derivations</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/built-in-functions/>Built-in Functions</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/advanced-topics/>Advanced Topics</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/command-reference/>Command Reference</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/configuration/>Configuration</a></li>
+</ol><div class=subsection-header>Interlude: in which we follow our hearts, however briefly</div><ol start=18 class=post-list><li><a href=https://ianthehenry.com/posts/how-to-learn-nix/nix-manual-reflection/>So I read the manual huh</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/switching-from-homebrew-to-nix/>Switching from Homebrew to Nix</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/my-first-nix-bug/>My first Nix bug</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/my-first-package-upgrade/>My first package upgrade</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/declarative-user-environment/>Setting up a declarative user environment</a></li>
+</ol><div class=subsection-header>Reading the Nixpkgs manual</div><ol start=23 class=post-list><li><a href=https://ianthehenry.com/posts/how-to-learn-nix/how-to-learn-nixpkgs/>How to learn Nixpkgs</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/overlays/>Overlays</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/overriding/>Overriding</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/an-infinite-list-of-functions/>An infinite list of functions</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/even-more-functions-somehow/>Even more functions, somehow</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/the-standard-environment/>The standard environment</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/derivations-in-detail/>Derivations in detail</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/cross-compilation/>Cross-compilation</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/platform-notes/>Platform notes</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/builders/>Builders</a></li>
+<li><strong><a href=https://ianthehenry.com/posts/how-to-learn-nix/languages-and-frameworks/>Languages and frameworks</a></strong>&nbsp;←&nbsp;you are here</li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/random-package-grab-bag/>Random package grab-bag</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/how-to-give-back/>How to give back</a></li>
+</ol><div class=subsection-header>Documentation behind us, we set out on our own</div><ol start=36 class=post-list><li><a href=https://ianthehenry.com/posts/how-to-learn-nix/nixpkgs-reflection/>So I read the other manual, huh</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/saving-your-shell/>Saving your shell</a></li>
+</ol><div class=subsection-header>Oh right forgot about Nix Pills</div><ol start=38 class=post-list><li><a href=https://ianthehenry.com/posts/how-to-learn-nix/nix-pills/>Nix Pills</a></li>
+</ol><div class=subsection-header>Our whole lives ahead of us</div><ol start=39 class=post-list><li><a href=https://ianthehenry.com/posts/how-to-learn-nix/python3-alpha/>How to install Python</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/open-questions/>Open questions</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/ambiguous-packages/>Ambiguous packages</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/nix-zshell/>Running zsh in nix-shell</a></li>
+</ol><div class=subsection-header>Nix 2.4 slithers to life</div><ol start=43 class=post-list><li><a href=https://ianthehenry.com/posts/how-to-learn-nix/flakes/>My first brush with flakes</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/more-flakes/>More flakes, unfortunately</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/new-profiles/>Fancy new profiles</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/chipping-away-at-flakes/>Chipping away at flakes</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/nix-develop/>New and unimproved shells</a></li>
+</ol>
+</aside>
+</main>
+<footer>
+© 1899-1907 <a href=https://ianthehenry.com/about/>Ian Henry</a>
+</footer>

@@ -1,0 +1,700 @@
+<!DOCTYPE html> <html lang=en style><!--
+ Page saved with SingleFile 
+ url: https://ianthehenry.com/posts/how-to-learn-nix/the-standard-environment/ 
+ saved date: Mon Jul 17 2023 13:35:08 GMT+0600 (Kyrgyzstan Time)
+--><meta charset=utf-8>
+<meta name=viewport content="initial-scale=1,maximum-scale=1">
+<title>How to Learn Nix, Part 28: The standard environment</title>
+<link rel=canonical href=https://ianthehenry.com/posts/how-to-learn-nix/the-standard-environment/>
+<style>:root{--box-radius:6px;--outer-box-radius:10px}:root{--content-bg:#fff;--gutter-bg:#eeeef3;--text-fg:#4d4d4c;--table-border-color:#ccc;--separator-color:#6d6d6c;--link:#07c;--link-visited:#751a9a;--blockquote-accent:var(--link);--footnote-accent:#ffd2a3;--subscribe-button-bg:#44e66c;--subscribe-button-fg:#11391b;--media-controls-on:#34b553;--media-controls-contrast:#fff;--inline-code-bg:#f3f3fa;--code-block-bg:#f3f3fa;--aside-bg:#f3f3fa;--aside-warning-bg:#fff5d1;--aside-warning-fg:#ac3233;--palette-red:#c82829;--palette-green:#718c00;--palette-yellow:#eab700;--palette-orange:#f5871f;--palette-blue:#4271ae;--palette-purple:#8959a8;--palette-teal:#3e999f;--palette-white:#fefefe;--palette-black:#000;--palette-text:var(--text-fg);--palette-dim:#8e908c;--highlight-bg:var(--palette-yellow);--highlight-fg:var(--text-fg)}#dmt::before{content:"🌖"}#dmt:hover::before{content:"🌗"}@media (prefers-color-scheme:dark){:root:not(.light-theme){--content-bg:#313233;--gutter-bg:#1d1f21;--text-fg:#d8d4cf;--table-border-color:#ccc;--separator-color:#6d6d6c;--link:rgb(82,183,255);--link-visited:rgb(193,104,229);--blockquote-accent:var(--link);--footnote-accent:#a8612f;--subscribe-button-bg:#44e66c;--subscribe-button-fg:#11391b;--media-controls-on:#44e66c;--media-controls-contrast:#11391b;--inline-code-bg:#3c4044;--code-block-bg:#1d1f21;--aside-bg:#3c4044;--aside-warning-bg:#fff5d1;--aside-warning-fg:var(--palette-red);--palette-red:#cc6666;--palette-green:#b5bd68;--palette-yellow:#f0c674;--palette-orange:#de935f;--palette-blue:#81a2be;--palette-purple:#b294bb;--palette-teal:#8abeb7;--palette-white:#fefefe;--palette-black:#000;--palette-text:var(--text-fg);--palette-dim:#969896;--highlight-bg:var(--palette-yellow);--highlight-fg:var(--palette-black)}:root:not(.light-theme) #dmt::before{content:"🌒"}:root:not(.light-theme) #dmt:hover::before{content:"🌓"}}#dmt{width:30px;text-align:right;padding-right:4px;position:absolute;top:0;bottom:0;right:0;border:none;background-color:inherit;cursor:pointer}*{margin:0;padding:0;font:inherit;box-sizing:border-box}html{background-color:var(--gutter-bg);color:var(--text-fg)}table,td,th{border:solid 1px var(--table-border-color)}td,th{padding:.25em .5em}body{font-family:system-ui,sans-serif;font-size:12pt;line-height:1.8;word-wrap:break-word}body:not(.content-page) main>aside{padding:0 var(--content-padding)}body.content-page main,body:not(.content-page) article{background-color:var(--content-bg);border-radius:var(--outer-box-radius);padding:var(--content-padding)}pre{word-wrap:normal}em,i{font-style:italic}h1>a:only-child,h2>a:only-child{display:block}main .subsection-header+.post-list{margin-top:0}strong{font-weight:700}ol,ul{padding-left:3ch}hr{border-style:solid;border-width:1.5px 0 0;border-radius:1px;border-color:var(--separator-color)}:not(pre)>code{white-space:pre;background-color:var(--inline-code-bg)}li{padding-left:0}blockquote{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:"";content:none}table{border-collapse:collapse;border-spacing:0}a,a:active,a:visited{text-decoration:none}a:hover{text-decoration:underline}blockquote{padding:0 0 0 var(--content-padding);border-left:solid 2px var(--blockquote-accent)}aside{--content-padding:0.5em;padding:.5em;border-radius:var(--box-radius);background-color:var(--aside-bg)}a,a:active,header a:visited,footer a:visited,h1 a:visited{color:var(--link)}a:visited{color:var(--link-visited)}h1{font-size:130%}main *+p,main *+pre,main *+aside,main *+article,main *+blockquote,main *+table,main *+div,main *+ul,main *+hr,main *+h1{margin-top:1em}main pre+div.highlight{margin-top:1px}main .post-header *+h1{margin-top:0}code{font-family:Menlo,monospace;padding:0 3px;border-radius:2px}pre{background-color:var(--code-block-bg);font-size:11pt;padding:calc(.75*var(--content-padding)) var(--content-padding);line-height:1.3;border-radius:var(--box-radius);overflow-x:scroll;-webkit-overflow-scrolling:touch}pre code{padding:0;border-radius:0;display:inline-block;background-color:initial}p+p{margin-top:1em}body{margin:0 auto;--content-padding:10px;max-width:768px;-webkit-text-size-adjust:100%;position:relative}header{position:relative}header>*{height:48px;line-height:48px}.promo,.promo:visited,.promo:active{display:block;text-align:center;background-color:var(--link);color:var(--code-block-bg);border-radius:0 0 var(--outer-box-radius) var(--outer-box-radius)}header .site-title{font-size:130%}header nav{position:absolute;right:30px;top:0}@media all and (max-width:400px){:root{--outer-box-radius:0}header{text-align:center}header nav{position:static}:not(pre)>code{white-space:pre-wrap}body{--content-padding:10px}#dmt{padding:0;text-align:center;width:40px}}header ul{padding:0}header li{list-style:none;display:inline-block}header a{display:block;height:100%}header li+li{margin-left:1em}footer{padding:2em 0;font-size:.85em;text-align:center}article h1.post-title{font-size:200%}article .post-title a{display:block}article .meta{font-size:90%;font-style:italic}.post-header h1{line-height:1.2em;margin-bottom:.5em}.post-footer{text-align:center}.post-footer a{display:block}ol.post-list{list-style-position:inside;padding:0}.series-rider .series-name{font-style:italic}.highlight{color:var(--palette-text)}.highlight .err{color:var(--palette-red)}.highlight .k{color:var(--palette-purple)}.highlight .n{color:var(--palette-text)}.highlight .o{color:var(--palette-teal)}.highlight .p{color:var(--palette-text)}.highlight .c1{color:var(--palette-dim)}.highlight .nb{color:var(--palette-text)}.highlight .no{color:var(--palette-red)}.highlight .nv{color:var(--palette-red)}.highlight .mi{color:var(--palette-orange)}.highlight .s2{color:var(--palette-green)}.highlight .se{color:var(--palette-orange)}.highlight .si{color:var(--palette-orange)}.highlight .sr{color:var(--palette-green)}.highlight .s1{color:var(--palette-green)}</style>
+<meta property=og:title content="How to Learn Nix, Part 28: The standard environment">
+<meta property=og:type content=website>
+<meta property=og:url content=https://ianthehenry.com/posts/how-to-learn-nix/the-standard-environment/>
+<meta name=description content="Okay. I remember stdenv. I remember it adding a lot of nice things to my PATH in a builder script, although I couldn’t tell you what exactly it included. I remember that it absolutely insists that you have an output named out or dev, and if you don’t (because, say, the example in the manual didn’t) you’ll get a horrible error message from deep in the bowels of some shell script.
+Let’s see if we can get more specific.">
+<meta property=og:description content="Okay. I remember stdenv. I remember it adding a lot of nice things to my PATH in a builder script, although I couldn’t tell you what exactly it included. I remember that it absolutely insists that you have an output named out or dev, and if you don’t (because, say, the example in the manual didn’t) you’ll get a horrible error message from deep in the bowels of some shell script.
+Let’s see if we can get more specific.">
+<meta property=og:image content=https://ianthehenry.com/checkerboard.png>
+<meta name=twitter:creator content=@ianthehenry>
+<meta name=twitter:card content=summary>
+<link type=image/x-icon rel="shortcut icon" href="data:image/vnd.microsoft.icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAHH1uIDShg/xEsZv8GFk3/CSJb/wgZT/8IGU//CBlP/wkiW/8HGE7/CBlP/wkiW/8HIFX/BxhO/wcgVf8OK2t7JDhz/wcfW/8NNn7/CSpq/wkjYf8MJGP/DCJg/w02ef9SqdX/TKHJ/1my2f9Moc3/UqzV/1Cr1v9Pocf/Ditr/xk2cf8KJGL/CjR8/wwva/8RK2r/Cido/w8qa/8LLW//TqjT/1Gnz/9bsNf/Sp/K/1Wt2f9Wrtj/UKjQ/w8xc/8gPHj/Di5w/xk4ef8TL27/Dy5u/xU3fv8QLGv/Ditr/1qy3f9dttv/Yrje/0ecx/9Knsz/U6fQ/1m13f8YN3n/JjZx/wszdv8YOXz/Eilm/xc3e/8dSZT/GDJz/xk/hv9hu+P/WbHZ/1mv1v9Kn8z/WLHd/1212v9ds9n/Eipr/xcqYv8SOX3/GzRz/xQrZ/8aM3D/HEuU/xc0df8fPYD/Yrre/1603P9dt9z/VKvY/1iz4v9etNr/Y73m/xk5fP8cMm3/JEWK/xc0dP8eO3v/Hjd4/ydRnP8WM3P/Gjd3/2bA5/9dtd//Ybng/2K95v9ct+P/Ybnf/2K95/8oS5L/GChg/xxBh/8lSIz/GC5s/yM5ev8hRoz/HTp7/yE6e/9Zsdz/YLzn/2jF7v9ryfL/YLzn/1qu1f9htdz/GDyD/y0/ev9qx/X/acDn/1235v9euun/Yb3r/1665v9owu7/GUOL/yhGh/8nUJL/MkmI/yBFiP8jOHb/MVag/yM+gv8VMGv/acXx/27G7/9szv3/bMb1/2zD6/9vy/X/edf5/yBHjv8yS47/JEuO/zVLiv8nS5D/LkOB/yRXpP8lQoT/H0WI/3fS+P910Pf/b8/8/2bB7/991Pn/eNb+/3nT+P8pS5L/O1GS/ytUnP86UJH/NF2k/zNLjP8sXKv/JkCB/x4+ff+B2/3/etT9/4He//922f//fNf//3TT//991/7/NU6N/zZSkP86Zav/PlWR/zFepv88ZKb/MF2n/yQ/gf8bNXH/fd3//3/b//+K6P//ft///3vV//993f//gdz//0hWlf9FZKX/RmOj/0JXlv9IeMP/QXKz/0Jsuf8eO3z/Hjt2/3vd//+C3v//ju3//3zg//+H4v//guL//4nj//9HXp3/UGur/ztgqf9JYqP/S3G4/05ur/9EbLT/Hjt7/zNJhf+G4///heT//4rq//+E5///iOT//4jr//+G4///UXO0/09iov9EX6H/SWWn/1V5wP9Kaa7/RGSp/ydLj/8NKGCfDShg/x8+d/8RLGb/CBlP/wYWTf8GFEj/CBNH/wooZP8JIlv/CCJd/woWSf8HGE7/ByBV/wwgU/8fO3mfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="><meta http-equiv=content-security-policy content="default-src 'none'; font-src 'self' data:; img-src 'self' data:; style-src 'unsafe-inline'; media-src 'self' data:; script-src 'unsafe-inline' data:; object-src 'self' data:; frame-src 'self' data:;"><style>img[src="data:,"],source[src="data:,"]{display:none!important}</style></head>
+<body class=content-page>
+<a class=promo href=https://janet.guide/ target=_blank><i>psst, hey kid, wanna read a weird programming book</i></a>
+<header>
+<a class=site-title href=https://ianthehenry.com/>Ian Henry</a>
+<nav>
+<ul><li><a href=https://ianthehenry.com/about/>About</a><li><a href=https://ianthehenry.com/posts/>Blog</a><li><a href=https://ianthehenry.com/stuff/>Stuff</a></ul>
+</nav>
+<button id=dmt title="Toggle dark mode"></button>
+</header>
+<main>
+<aside class=series-rider>
+<p>This post is part of the series <a class=series-name href=https://ianthehenry.com/posts/how-to-learn-nix/>How to Learn Nix</a>, a rambling diary in which I work my way through the Nix manual in excrutiating detail.</p>
+</aside>
+<article class=post>
+<div class=post-header>
+<time class=meta datetime=2021-04-18>April 18, 2021</time>
+<h1 class=post-title>
+<a href=https://ianthehenry.com/posts/how-to-learn-nix/the-standard-environment/>How to Learn Nix, Part&nbsp;28:<br>The standard environment</a></h1>
+</div>
+<div class=post-content><p>Okay. I remember <code>stdenv</code>. I remember it adding a lot of nice things to my <code>PATH</code> in a <code>builder</code> script, although I couldn’t tell you what exactly it included. I remember that it <em>absolutely insists</em> that you have an output named <code>out</code> or <code>dev</code>, and if you don’t (because, say, the <em>example in the manual didn’t</em>) you’ll get a horrible error message from deep in the bowels of some shell script.</p>
+<p>Let’s see if we can get more specific.</p>
+<h1 id=chapter-6-the-standard-environmenthttpswebarchiveorgweb20210318102415if_httpsnixosorgmanualnixpkgsstablechap-stdenv><a href=https://web.archive.org/web/20210318102415if_/https://nixos.org/manual/nixpkgs/stable/#chap-stdenv>Chapter 6. The Standard Environment</a></h1>
+<p>Okay. So <code>stdenv.mkDerivation</code> instead of the built-in <code>derivation</code>, yes. I remember this doing something that <em>I</em> would consider sort of broken with the <code>args</code> value.</p>
+<p>The minimum we need to pass is <code>src</code> and <code>name</code>, but the manual teaches us that <code>pname</code> and <code>version</code> is <em>preferred</em>, which is something I can heartily agree with.</p>
+<blockquote>
+<p>Many packages have dependencies that are not provided in the standard environment. It’s usually sufficient to specify those dependencies in the <code>buildInputs</code> attribute:</p>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-nix data-lang=nix><span class=n>stdenv</span><span class=o>.</span><span class=n>mkDerivation</span> <span class=p>{</span>
+  <span class=n>name</span> <span class=o>=</span> <span class=s2>"libfoo-1.2.3"</span><span class=p>;</span>
+  <span class=o>...</span>
+  <span class=n>buildInputs</span> <span class=o>=</span> <span class=p>[</span><span class=n>libbar</span> <span class=n>perl</span> <span class=n>ncurses</span><span class=p>];</span>
+<span class=p>}</span>
+</code></pre></div><p>This attribute ensures that the <code>bin</code> subdirectories of these packages appear in the <code>PATH</code> environment variable during the build, that their <code>include</code> subdirectories are searched by the C compiler, and so on.</p>
+</blockquote>
+<p>Okay – <a href=https://ianthehenry.com/posts/how-to-learn-nix/my-first-derivation/>the first time we saw this</a>, way back in the Nix manual, used <code>perl</code> as an <em>attribute</em> and then referred to it as <code>$perl</code> in the builder script, and actually manually consed it onto the <code>PATH</code>. This seems like a strictly nicer way to do that.</p>
+<p>Next we learn a little bit about how the “default builder” works. It seems that it’s a giant shell script, but you’re able to insert code into the shell script at a few key points – so you can customize the way that code is built (by default <code>make</code>) without customizing how it is installed (by default <code>make install</code>). Alright. This section is only an introduction, and tells us that these things <em>can be done</em>, but leaves the details up to future sections of the manual. I think the example is pretty illustrative:</p>
+<blockquote>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-nix data-lang=nix><span class=n>stdenv</span><span class=o>.</span><span class=n>mkDerivation</span> <span class=p>{</span>
+  <span class=n>name</span> <span class=o>=</span> <span class=s2>"fnord-4.5"</span><span class=p>;</span>
+  <span class=o>...</span>
+  <span class=n>buildPhase</span> <span class=o>=</span> <span class=s1>''
+</span><span class=s1>    gcc foo.c -o foo
+</span><span class=s1>  ''</span><span class=p>;</span>
+  <span class=n>installPhase</span> <span class=o>=</span> <span class=s1>''
+</span><span class=s1>    mkdir -p $out/bin
+</span><span class=s1>    cp foo $out/bin
+</span><span class=s1>  ''</span><span class=p>;</span>
+ <span class=p>}</span>
+</code></pre></div></blockquote>
+<p>I like this structure a lot: give me a high-level, breadth-first overview, but make sure to tell me that we’ll come back to it in more detail so that I don’t go off on my own trying to figure out all the bits and bobs myself.</p>
+<p>Then we see a <em>better</em> way that we can customize the defaults – which it calls the “generic builder:”</p>
+<blockquote>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-shell data-lang=shell><span class=nb>source</span> <span class=nv>$stdenv</span>/setup
+
+buildPhase<span class=o>()</span> <span class=o>{</span>
+  <span class=nb>echo</span> <span class=s2>"... this is my custom build phase ..."</span>
+  gcc foo.c -o foo
+<span class=o>}</span>
+
+installPhase<span class=o>()</span> <span class=o>{</span>
+  mkdir -p <span class=nv>$out</span>/bin
+  cp foo <span class=nv>$out</span>/bin
+<span class=o>}</span>
+
+genericBuild
+</code></pre></div></blockquote>
+<p>That seems much nicer in the case that you’re doing something nontrivial – at the very least I could run <code>shellcheck</code> on that file, which would be much more tricky to do with embedded string literals in Nix. But it’s probably good to have the string option too, in case you’re just doing something trivial.</p>
+<p>Anyway, the manual tells us one very important thing that <code>source "${stdenv}/setup"</code> does for us: it processes <code>buildInputs</code> and puts them on our <code>PATH</code>. So that’s nice.</p>
+<p>Aha! The next section tells us everything that is available in the standard environment. It’s roughly what I would expect: we’ve got <code>coreutils</code>, <code>findutils</code>, <code>diffutils</code>. We have <code>bash</code>, but no <code>sh</code> – thank goodness. So we have a baseline usable system. We have <code>sed</code> and <code>awk</code> and <code>grep</code>, because we aren’t animals. Then <code>tar</code>, <code>gzip</code>, <code>bzip2</code>, and <code>xz</code> – we probably need to unpack a source archive. Then we have <code>gcc</code> and <code>make</code>, so that we can do something with the sources. Minor outlier is <code>patch</code>, which I just assumed was a part of <code>diffutils</code>, but I guess it isn’t.</p>
+<p>We also have <code>patchelf</code>, but only on Linux. Is that really… is that really common enough to be included in the standard environment? As stated many times, I do not use Linux on a daily basis. Is that… something that is a regular part of Linux users' workflows?</p>
+<p>Okay, now let’s check if all of this is true.</p>
+<p><code>nixpkgs</code> has a file called <code>common-path.nix</code>:</p>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-nix data-lang=nix><span class=p>{</span><span class=n>pkgs</span><span class=p>}:</span> <span class=p>[</span>
+  <span class=n>pkgs</span><span class=o>.</span><span class=n>coreutils</span>
+  <span class=n>pkgs</span><span class=o>.</span><span class=n>findutils</span>
+  <span class=n>pkgs</span><span class=o>.</span><span class=n>diffutils</span>
+  <span class=n>pkgs</span><span class=o>.</span><span class=n>gnused</span>
+  <span class=n>pkgs</span><span class=o>.</span><span class=n>gnugrep</span>
+  <span class=n>pkgs</span><span class=o>.</span><span class=n>gawk</span>
+  <span class=n>pkgs</span><span class=o>.</span><span class=n>gnutar</span>
+  <span class=n>pkgs</span><span class=o>.</span><span class=n>gzip</span>
+  <span class=n>pkgs</span><span class=o>.</span><span class=n>bzip2</span><span class=o>.</span><span class=n>bin</span>
+  <span class=n>pkgs</span><span class=o>.</span><span class=n>gnumake</span>
+  <span class=n>pkgs</span><span class=o>.</span><span class=n>bash</span>
+  <span class=n>pkgs</span><span class=o>.</span><span class=n>patch</span>
+  <span class=n>pkgs</span><span class=o>.</span><span class=n>xz</span><span class=o>.</span><span class=n>bin</span>
+<span class=p>]</span>
+</code></pre></div><p>Yep. They ain’t lyin'. Cool. I imagine this doesn’t change too much.</p>
+<aside>
+<p>Sidebar: <code>awk</code>? Who is using <code>awk</code> in their build scripts? Are you using <code>awk</code> in your build scripts? What… what are you doing with <code>awk</code>?</p>
+</aside>
+<blockquote>
+<p>As described in the Nix manual, almost any <code>*.drv</code> store path in a derivation’s attribute set will induce a dependency on that derivation. <code>mkDerivation</code>, however, takes a few attributes intended to, between them, include all the dependencies of a package.</p>
+</blockquote>
+<p>I most certainly do not <em>remember</em> the Nix manual describing this. I don’t really remember it saying <em>anything</em> about <code>.drv</code> files. But it has been a while. It’s possible that I’ve forgotten. I remember it describing that, like, you need to explicitly specify build inputs. But it never described the details or the mechanism behind that, that I can recall.</p>
+<p>But gosh, it looks like all that’s about to change.</p>
+<p>Quite a bit to unpack here:</p>
+<blockquote>
+<p>Dependencies can be broken down along three axes: their host and target platforms relative to the new derivation’s, and whether they are propagated. The platform distinctions are motivated by cross compilation … [but] even if one is not cross compiling, the platforms imply whether or not the dependency is needed at run-time or build-time, a concept that makes perfect sense outside of cross compilation.</p>
+</blockquote>
+<p>Okay. There’s a footnote, also:</p>
+<blockquote>
+<p>The build platform is ignored because it is a mere implementation detail of the package satisfying the dependency: As a general programming principle, dependencies are always specified as interfaces, not concrete implementation.</p>
+</blockquote>
+<p>Uhhhh okay. I don’t know what that means. I mean, I know what interfaces/implementation separation means in <em>general</em>. But I don’t know why this implies the build platform is an implementation detail. I don’t know what “build platform” means, I guess.</p>
+<p>I thought the platform thing made sense, on my first read, but after reading the next few sentences it clearly doesn’t. And I have no idea what “propagated” means. The paragraph continues:</p>
+<blockquote>
+<p>By default, the run-time/build-time distinction is just a hint for mental clarity, but with <code>strictDeps</code> set it is mostly enforced even in the native case.</p>
+</blockquote>
+<p>That’s surprising to me? I would think, you know, the runtime dependencies are the ones that get installed when I say “install this thing please.” Nix will download the thing I asked for from cache, and also download all of its runtime dependencies. Right? It doesn’t seem like a hint for mental clarity. It seems like a pretty fundamentally different thing, in the face of a binary cache.</p>
+<p>I’m not sure what it means to “enforce” this. It doesn’t describe <code>strictDeps</code> immediately, but I’ll keep going.</p>
+<blockquote>
+<p>The extension of <code>PATH</code> with dependencies, alluded to above, proceeds according to the relative platforms alone. The process is carried out only for dependencies whose host platform matches the new derivation’s build platform i.e. dependencies which run on the platform where the new derivation will be built. For each dependency <code>dep</code> of those dependencies, <code>dep/bin</code>, if present, is added to the <code>PATH</code> environment variable.</p>
+</blockquote>
+<p>Okay. That’s a lot of words, but I think it’s saying something extremely simple: the <code>stdenv</code> builder thingy makes build-time dependencies available to the build script, not runtime dependencies.</p>
+<p>The terminology is very confusing, though: here we see “host platform” and “build platform,” though the previous paragraph used the terms “host platform” and “target platform.” I assume “host platform” meant “build platform” and “target platform” meant “runtime platform,” but then this sentence doesn’t make sense, so I guess that’s wrong. Since obviously it should only be providing build dependencies that can actually <em>run</em> on the build platform.</p>
+<p>The paragraph links to a later chapter that says it will define these terms. I think I need to read that and come back; I am really not following this description.</p>
+<p>In Chapter 9, I find these definitions:</p>
+<blockquote>
+<p>The “build platform” is the platform on which a package is built. Once someone has a built package, or pre-built binary package, the build platform should not matter and can be ignored.</p>
+</blockquote>
+<p>Okay. I’m happy with that.</p>
+<blockquote>
+<p>The “host platform” is the platform on which a package will be run. This is the simplest platform to understand, but also the one with the worst name.</p>
+</blockquote>
+<p>Haha. Okay.</p>
+<blockquote>
+<p>The “target platform” attribute is, unlike the other two attributes, not actually fundamental to the process of building software. Instead, it is only relevant for compatibility with building certain specific compilers and build tools. It can be safely ignored for all other packages.</p>
+</blockquote>
+<p>Then there are <em>three more paragraphs</em> describing it in detail. But basically, you know how <code>gcc</code> can’t actually compile for a different architecture unless you <em>recompile <code>gcc</code> itself?</em> That’s always seemed crazy to me, that compilers aren’t just functions that take code and produce whatever target you want. I mean, <em>some</em> compilers are, obviously. It seems like a weird architectural mistake, though, right? Like how is that a compile-time anyway we can stop taking about this. I have never written a compiler. I can’t really sass it in good conscience.</p>
+<p>So it seems like Nix uses the term “target platform” to mean, like, “the platform that a given compiler can produce.” So I expect that there are versions of <code>gcc</code> for like:</p>
+<ul>
+<li><code>host = darwin</code>, <code>target = darwin</code></li>
+<li><code>host = darwin</code>, <code>target = linux</code></li>
+<li><code>host = darwin</code>, <code>target = arm or something i dunno</code></li>
+</ul>
+<p>So yeah, okay. Returning to that confusing paragraph…</p>
+<blockquote>
+<p>The process is carried out only for dependencies whose host platform matches the new derivation’s build platform i.e. dependencies which run on the platform where the new derivation will be built. For each dependency <code>dep</code> of those dependencies, <code>dep/bin</code>, if present, is added to the <code>PATH</code> environment variable.</p>
+</blockquote>
+<p>Okay. So it isn’t really making a runtime/build time distinction at all. It just says that dependencies that can run on the build platform will be in <code>PATH</code>. Simple. Let’s keep going.</p>
+<blockquote>
+<p>The dependency is propagated when it forces some of its other-transitive (non-immediate) downstream dependencies to also take it on as an immediate dependency.</p>
+</blockquote>
+<p>Is “other-transitive” a typo? Is that a term I should be familiar with? The parenthetical implies it means, like, “strictly transitive” (by analogy with “strict subset”)? Google doesn’t seem to know this term, but I think that’s what the manual is getting at.</p>
+<p>But why does this… matter? What’s the difference between an immediate and a transitive dependency?</p>
+<p>The next sentence is:</p>
+<blockquote>
+<p>Nix itself already takes a package’s transitive dependencies into account, but this propagation ensures nixpkgs-specific infrastructure like setup hooks (mentioned above) also are run as if the propagated dependency.</p>
+</blockquote>
+<p>I didn’t cut that off. That’s the whole sentence. And the end of the paragraph. It seems to just end in the middle of a sentence. Oh boy.</p>
+<p>Okay, I don’t understand this. The <em>term</em> “setup hooks” did appear earlier in this section, but it was really only accompanied by a “we’ll talk about this soon” link to a later section. It <em>seems</em> like this is a way for a package to modify the build environments of things that depend on it (at build time)? I can maybe <em>imagine</em> this being useful but I am having trouble coming up with a plausible example right now.</p>
+<p>Next paragraph:</p>
+<blockquote>
+<p>It is important to note that dependencies are not necessarily propagated as the same sort of dependency that they were before, but rather as the corresponding sort so that the platform rules still line up.</p>
+</blockquote>
+<p>What? By “sort of dependency,” does it mean as runtime or build time dependencies? How… I’m just confused at this point. This is not making sense to me.</p>
+<blockquote>
+<p>The exact rules for dependency propagation can be given by assigning to each dependency two integers based one how its host and target platforms are offset from the depending derivation’s platforms. Those offsets are given below in the descriptions of each dependency list attribute. Algorithmically, we traverse propagated inputs, accumulating every propagated dependency’s propagated dependencies and adjusting them to account for the “shift in perspective” described by the current dependency’s platform offsets. This results in sort a transitive closure of the dependency relation, with the offsets being approximately summed when two dependency links are combined. We also prune transitive dependencies whose combined offsets go out-of-bounds, which can be viewed as a filter over that transitive closure removing dependencies that are blatantly absurd.</p>
+</blockquote>
+<p>Uhhh <em>uhhh</em> help what is happening here. Even without the typo in the first sentence, this is mystifying. What are these <em>offsets?</em> I think of platforms as, like, distinct things. There’s no… hierarchy. There’s no <em>ordering</em> of different platforms.</p>
+<blockquote>
+<p>We can define the process precisely with <a href=https://en.wikipedia.org/wiki/Natural_deduction>Natural Deduction</a> using the inference rules. This probably seems a bit obtuse, but so is the bash code that actually implements it! They’re confusing in very different ways so… hopefully if something doesn’t make sense in one presentation, it will in the other!</p>
+</blockquote>
+<p>Okay that paragraph took this from arcane and mystifying into a little bit fun and whimsical. I appreciate the human touch there. It even links to a Wikipedia article. I like that the author is acknowledging that this is hard, and that in fact it’s even harder than it sounds, because cross-compilation is complicated. A footnote points me to the code that implements this:</p>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=c1># Mutually-recursively find all build inputs. See the dependency section of the</span>
+<span class=c1># stdenv chapter of the Nixpkgs manual for the specification this algorithm</span>
+<span class=c1># implements.</span>
+findInputs<span class=o>()</span> <span class=o>{</span>
+</code></pre></div><p>I <em>remember</em> that! I remember making a joke about this function <a href=https://ianthehenry.com/posts/how-to-learn-nix/my-first-derivation/>all the way back in part 10</a>. We’ve come full circle. At least for this one particular small nested circle that is part of a larger Kandinski-esque kaleidoscope of shapes.</p>
+<p>Anyway, I cannot imagine that I, in this moment, need to understand this, as I am neither cross-compiling anything nor even trying to author a Nix package. But. I’ll read the pseudocode that describes what’s happening.</p>
+<p>Okay. I read the pseudocode. It’s, umm, yeah.</p>
+<p>I really feel like I don’t understand the motivation here for “adjusting platforms” or how we’re treating platforms, like, as numbers. Why I can “add” platforms together; what that even means. I think my brain really needs a concrete example in order to make any sense of this: this section is describing the solution to a problem I don’t really understand what the problem is in the first place. How often are we doing platform arithmetic? In what situations do we have dependencies that propagate through a weird chain of multiple different platforms? I don’t know.</p>
+<p>I suppose this comes up a lot if you’re, like, building a CI server intended to produce binaries for multiple platforms. But I’m thinking that this probably isn’t going to be a large part of my Nix experience. So I don’t feel too bad that I don’t understand it.</p>
+<p>Mostly, though, the presentation is– I don’t think this section of the manual does a good job of explaining this to someone who does not already understand how it works. We just dove right into “yeah there are relative offsets and you have to follow these inference rules and they’re just integers.” At no point did we, like, get a concrete example to motivate it. The manual hasn’t even technically defined the relevant terms here, unless you jumped ahead to Chapter 9 as I did.</p>
+<p><em>Anyway</em>. Moving on.</p>
+<p>Next up we get different variables that we can use to describe dependencies for the standard environment.</p>
+<p>We’ve already seen <code>buildInputs</code>; it was straightforward. Here’s the formal treatment:</p>
+<blockquote>
+<p>A list of dependencies whose host platform and target platform match the new derivation’s. This means a <code>0</code> host offset and a <code>1</code> target offset from the new derivation’s host platform. This would be called <code>depsHostTarget</code> but for historical continuity. If the dependency doesn’t care about the target platform (i.e. isn’t a compiler or similar tool), put it here, rather than in <code>depsBuildBuild</code>.</p>
+</blockquote>
+<p>Okaaaay. I am very glad that this is <em>not</em> called <code>depsHostTarget</code>, regardless of historical continuity.</p>
+<blockquote>
+<p>These are often programs and libraries used by the new derivation at run-time, but that isn’t always the case. For example, the machine code in a statically-linked library is only used at run-time, but the derivation containing the library is only needed at build-time. Even in the dynamic case, the library may also be needed at build-time to appease the linker.</p>
+</blockquote>
+<p>The library case is an interesting example; I sort of think of “build-time dependencies” as things like <code>gcc</code>, and I would think of <code>pcre</code> as a runtime dependency, but of course, yeah, in the case of static linking <code>pcre</code> is sort of both. I guess that’s maybe why the waters are muddied a little here between runtime and build-time dependencies. Hmm. Okay. That makes this seem… less gratuitously confusing, I guess.</p>
+<p>Let’s see… there are a bunch of other variables. Most of them have crazy names in the pattern of <code>depsHostTarget</code> that I can’t begin to parse.</p>
+<p>But <code>nativeBuildInputs</code> sounds interesting.</p>
+<blockquote>
+<p>If the dependency doesn’t care about the target platform (i.e. isn’t a compiler or similar tool), put it here, rather than in <code>depsBuildBuild</code> or <code>depsBuildTarget</code>. This could be called <code>depsBuildHost</code> but <code>nativeBuildInputs</code> is used for historical continuity.</p>
+</blockquote>
+<p>And then there are a bunch of these weirdly constructed variables: <code>depsBuildBuild</code>, <code>depsBuildTarget</code>, <code>depsHostHost</code>, <code>depsTargetTarget</code>. And then also propagated versions of each of those. Every one has at least one paragraph of description.</p>
+<p>Here’s an excerpt from <code>depsBuildTarget</code>:</p>
+<blockquote>
+<p>This is a somewhat confusing concept to wrap one’s head around, and for good reason. As the only dependency type where the platform offsets are not adjacent integers, it requires thinking of a bootstrapping stage two away from the current one. It and its use-case go hand in hand and are both considered poor form: try to not need this sort of dependency, and try to avoid building standard libraries and runtimes in the same derivation as the compiler produces code using them. Instead strive to build those like a normal library, using the newly-built compiler just as a normal library would. In short, do not use this attribute unless you are packaging a compiler and are sure it is needed.</p>
+</blockquote>
+<p>Okay, I don’t– I’m definitely not going to understand all of these. I will come back to this as soon as I start doing cross-compilation, I guess. In the meantime… I guess I’ll stick to <code>nativeBuildInputs</code>? Most of the time?</p>
+<p>Next up we learn some attributes that will affect the <code>stdenv</code> builder. It <em>calls</em> them attributes, but I assume these are actually <em>environment variables</em> that affect the <code>stdenv</code> builder, but we rely on the fact that attributes turn into environment variables.</p>
+<p><code>NIX_DEBUG</code> – does roughly what you’d expect. Set it to an integer verbosity level from 1 to 7, it seems. <code>enableParallelBuilding</code>, which may default to true or false depending on the tool (?). <code>passthru</code>:</p>
+<blockquote>
+<p>This is an attribute set which can be filled with arbitrary values. For example:</p>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-nix data-lang=nix><span class=n>passthru</span> <span class=err>=</span> <span class=p>{</span>
+  <span class=n>foo</span> <span class=o>=</span> <span class=s2>"bar"</span><span class=p>;</span>
+  <span class=n>baz</span> <span class=o>=</span> <span class=p>{</span>
+    <span class=n>value1</span> <span class=o>=</span> <span class=mi>4</span><span class=p>;</span>
+    <span class=n>value2</span> <span class=o>=</span> <span class=mi>5</span><span class=p>;</span>
+  <span class=p>};</span>
+<span class=p>}</span>
+</code></pre></div><p>Values inside it are not passed to the builder, so you can change them without triggering a rebuild. However, they can be accessed outside of a derivation directly, as if they were set inside a derivation itself, e.g. <code>hello.baz.value1</code>.</p>
+</blockquote>
+<p>Okay, neat. One particular value is considered special by Nixpkgs convention: <code>passthru.updateScript</code>, which is used to automatically update Nixpkgs by <code>maintainers/scripts/update.nix</code>. Okay.</p>
+<p>Thank goodness we don’t have to type those extra three characters.</p>
+<p>Next up we learn about customizing the different “phases” of the default build – configure, build, install, etc. It turns out you can actually set your <em>own</em> phases, by specifying, well, the <code>phases</code> attribute/environment variable. It defaults to:</p>
+<pre tabindex=0><code>$prePhases unpackPhase patchPhase $preConfigurePhases configurePhase 
+$preBuildPhases buildPhase checkPhase $preInstallPhases installPhase 
+fixupPhase installCheckPhase $preDistPhases distPhase $postPhases
+</code></pre><p>Okay, so some of those are lists, I guess, and some are single phases. So you can, like, append some <code>preBuildPhases</code>. Okay, sure. I have seen at least one higher-level package-making combinator that appeared to make it easy to define Python packages, so I can see this being useful. These all seem pretty straightforward.</p>
+<p>It describes the default behavior for each of the singular phases (I assume the default behavior for the <code>pre</code>/<code>post</code> phases is nothing).</p>
+<p><code>unpackPhase</code> does what you’d expect with the <code>src</code> argument, depending on its extension (or with the <code>srcs</code> argument, if you’re so inclined). There are various attributes you can also pass to customize this, as well as <code>preUnpack</code> and <code>postUnpack</code> which are not <em>phases</em>, apparently, but “hooks.”</p>
+<p><code>patchPhase</code> reads patches from an attribute called – you guessed it – <code>patches</code>. I <em>assume</em> this is supposed to be a list of files, not literal patches as strings, but it doesn’t actually give an example. Maybe both work?</p>
+<p>I look for concrete examples. A lot of them use <code>fetchpatch</code>, and take a path to an individual commit on GitHub? Alright; that’s useful to know I guess, for contributing to Nixpkgs. But if just I have a problem, I’ll probably add a <code>packageOverrides</code> to just reference a local patch. There are also some packages that just check in a patch file directly into Nixpkgs. I guess it’s personal preference. I’m also seeing a function called <code>substituteAll</code>? I find the definition, but it’s unhelpfully documented as:</p>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-nix data-lang=nix><span class=c1># see the substituteAll in the nixpkgs documentation for usage and constaints</span>
+</code></pre></div><p>Okay. ⌘F tells me I’ll be getting to that soon.</p>
+<p>I don’t see any examples of inlining a literal patch into the package config. So that’s good.</p>
+<p>Next up is <code>configure</code> – I can set <code>dontConfigure = true;</code> to skip this, in case I am not writing a C project. Which I almost certainly am not. Lotsa flags for this one.</p>
+<p>Then <code>buildPhase</code>, <code>checkPhase</code>, <code>installPhase</code> – all what you’d expect. Then <code>fixupPhase</code>, which is <em>not</em> obvious, but explained as:</p>
+<blockquote>
+<ul>
+<li>It moves the <code>man/</code>, <code>doc/</code> and <code>info/</code> subdirectories of <code>$out</code> to <code>share/</code>.</li>
+</ul>
+</blockquote>
+<p>I guess so that packages are more likely to follow a consistent directory structure?</p>
+<blockquote>
+<ul>
+<li>It strips libraries and executables of debug information.</li>
+</ul>
+</blockquote>
+<p>Okay – but there are flags to ask it not to, please. I assume this is the default to get more deterministic artifacts. It also teaches me that I can <code>separateDebugInfo = true;</code> and then <code>set debug-file-directory ~/.nix-profile/lib/debug</code> in my <code>~/.gdbinit</code> in order to be able to debug things I install with <code>nix-env</code>. Neat.</p>
+<blockquote>
+<ul>
+<li>On Linux, it applies the <code>patchelf</code> command to ELF executables and libraries to remove unused directories from the <code>RPATH</code> in order to prevent unnecessary runtime dependencies.</li>
+</ul>
+</blockquote>
+<p>Aha. So that’s why we have <code>patchelf</code>.</p>
+<blockquote>
+<ul>
+<li>It rewrites the interpreter paths of shell scripts to paths found in <code>PATH</code>. E.g., <code>/usr/bin/perl</code> will be rewritten to <code>/nix/store/some-perl/bin/perl</code> found in <code>PATH.</code></li>
+</ul>
+</blockquote>
+<p>Neat. Okay. Does it do that only for shebangs, or for any absolute path? Presumably only shebangs: the relative attribute to not do this is called <code>dontPatchShebangs</code>. Also doing the other thing would be… hard. I feel like parsing arbitrary bash is a bit out of scope for Nix.</p>
+<p>Okay, that was an interesting phase. Next is <code>installCheck</code>, which is another boring one.</p>
+<p>Then there’s the <code>distPhase</code>:</p>
+<blockquote>
+<p>The distribution phase is intended to produce a source distribution of the package. The default <code>distPhase</code> first calls <code>make dist</code>, then it copies the resulting source tarballs to <code>$out/tarballs/</code>. This phase is only executed if the attribute <code>doDist</code> is set.</p>
+</blockquote>
+<p>Okay! That’s it for phases. Next up, a description of some friendly shell functions we have available for our use in builder scripts:</p>
+<p><code>makeWrapper</code> allows me to create, well, a wrapper executable that runs the wrapped executable with different environment variables, different <code>PATH</code>, different <code>argv[0]</code>, different command-line args… nothing about <em>removing</em> command-line args, though, so I don’t know if I could use this to make a <code>zsh</code> that is compatible with <code>nix-shell</code>. Maybe, though?</p>
+<p><code>substitute</code> is… it’s basically just <code>sed</code>, but with nice syntax for expanding variables, and seems to only do literal replacements.</p>
+<blockquote>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash>substitute ./foo.in ./foo.out <span class=se>\
+</span><span class=se></span>    --replace /usr/bin/bar <span class=nv>$bar</span>/bin/bar <span class=se>\
+</span><span class=se></span>    --replace <span class=s2>"a string containing spaces"</span> <span class=s2>"some other text"</span> <span class=se>\
+</span><span class=se></span>    --subst-var someVar
+</code></pre></div><p><code>substitute</code> is implemented using the <code>replace</code> command. Unlike with the <code>sed</code> command, you don’t have to worry about escaping special characters.</p>
+</blockquote>
+<p>I’ve never heard of <code>replace</code> before. It’s not included in macOS. It’s not a part of <code>coreutils</code>, either. How does it call <code>replace</code>, then?</p>
+<p>It doesn’t. That’s a lie – it seems to entirely use shell replacement patterns. There is a <code>nixpkgs.replace</code>, but it doesn’t appear to have man pages, so I can’t really tell you anything.</p>
+<p>This makes me think this is stale, and that the next line is <em>also</em> stale:</p>
+<blockquote>
+<p>It supports performing substitutions on binary files (such as executables), though there you’ll probably want to make sure that the replacement string is as long as the replaced string.</p>
+</blockquote>
+<p>I very much doubt that, if it’s using shell substitution commands. But I’m not gonna try it.</p>
+<p>Next up we have <code>substituteAll</code> – which we saw in the <code>patches</code> thing.</p>
+<p>It seems that the <em>Nix</em> function <code>substituteAll</code> produces a derivation whose <code>builder</code> script calls the <em>shell</em> function <code>substituteAll</code>. And then also does <code>eval "$preInstall"</code> and <code>eval "$postInstall"</code>? I don’t know what that’s about. Why is that a part of this?</p>
+<p>Oh, right, because this is the <code>preInstall</code>/<code>postInstall</code> for this little anonymous derivation, not for the derivation using <code>substituteAll</code> to patch its sources. Right. Right. Okay. But it doesn’t define a <code>preInstall</code>/<code>postInstall</code> attribute? So why… is this because of that weird “propagated” thing that I don’t really understand? Why is this necessary?</p>
+<p>I don’t know. Let’s move on.</p>
+<p><code>substituteAllInPlace</code>; easy. <code>stripHash</code>:</p>
+<blockquote>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=c1># prints coreutils-8.24</span>
+stripHash <span class=s2>"/nix/store/9s9r019176g7cvn2nvcw41gsp862y6b4-coreutils-8.24"</span>
+</code></pre></div></blockquote>
+<p>Useful.</p>
+<p>And lastly <code>wrapProgram</code>:</p>
+<blockquote>
+<p>Convenience function for <code>makeWrapper</code> that automatically creates a sane wrapper file. It takes all the same arguments as <code>makeWrapper</code>, except for <code>--argv0</code>.</p>
+</blockquote>
+<p>Okay! That’s what our builders look like.</p>
+<h1 id=67-package-setup-hookshttpsnixosorgmanualnixpkgsstablessec-setup-hooks><a href=https://nixos.org/manual/nixpkgs/stable/#ssec-setup-hooks>6.7. Package setup hooks</a></h1>
+<p>Now we arrive at a <em>very long section</em>. There are many paragraphs of English prose uninterrupted by code snippets or examples.</p>
+<p>But they’re very well-written paragraphs, and they clearly explain something that was confusing to me. And they do so humbly, describing the downsides of this approach and how it’s kind of gross and hacky but still extremely useful.</p>
+<p>So <em>basically</em>: when you depend on something, you aren’t <em>just</em> depending on it; you aren’t just putting it in your <code>/nix/store</code>. You’re <em>also</em> giving that package the chance to run arbitrary shell code during your build phase – basically, you’re giving every dependency a chance to configure itself before you turn around and use it.</p>
+<p>So I’m on board with that. <em>Then</em> it goes back to describing “platforms” as integers and how you need to use <code>$hostOffset</code> or <code>$targetOffset</code> in order to make sure you’re adding hooks to the <em>right</em> downstream packages or… I don’t know. Then it loses me. My takeaway from this is that I should add these hooks by saying:</p>
+<blockquote>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash>addEnvHooks <span class=s2>"</span><span class=nv>$hostOffset</span><span class=s2>"</span> myBashFunction
+</code></pre></div></blockquote>
+<p>And try not to worry about what “<code>$hostOffset</code>” means.</p>
+<p>Then it describes specific hooks that “are run for every package built using <code>stdenv.mkDerivation</code>,” but describes things it’s already talked about. <code>move-docs.sh</code>, which we remember from <code>fixupPhase</code>:</p>
+<blockquote>
+<p>This setup hook moves any installed documentation to the <code>/share</code> subdirectory directory. This includes the man, doc and info directories. This is needed for legacy programs that do not know how to use the <code>share</code> subdirectory.</p>
+</blockquote>
+<p>Wha? When it says “the <code>/share</code> subdirectory directory,” I assume it means “the <code>share</code> subdirectory?” Like <code>/nix/store/xxx-out/share</code>? Is that a typo or some strange convention with which I am unfamiliar?</p>
+<p>Then <code>strip.sh</code>, and <code>patch-shebangs.sh</code>… I guess we’re just seeing how these behaviors are implemented? But I really don’t see how this relates to hooks – how this relates to dependencies configuring themselves. It seems like it’s just describing the <code>stdenv</code> build details.</p>
+<p>It’s weird that it’s describing these as <code>.sh</code> files, when the manual presented these as “bash functions.” Maybe they define the bash functions? Or maybe there’s some dynamism here so you can give it a function or a script? I don’t know.</p>
+<p>This describes the “CC Wrapper” a bit – I sort of <a href=https://ianthehenry.com/posts/how-to-learn-nix/my-first-nix-bug/>encountered that, unwillingly</a>, when I was trying to build Nix from source. It seems to exist to find dependencies. I dunno. I’m sort of zoning out; this is a really long section that I really don’t expect to matter for a long time. I skim…</p>
+<p><code>breakpointHook</code>:</p>
+<blockquote>
+<p>This hook will make a build pause instead of stopping when a failure happens. It prevents nix from cleaning up the build environment immediately and allows the user to attach to a build environment using the <code>cntr</code> command. Upon build error it will print instructions on how to use <code>cntr</code>, which can be used to enter the environment for debugging. Installing <code>cntr</code> and running the command will provide shell access to the build sandbox of failed build.</p>
+</blockquote>
+<p>Never heard of <code>cntr</code>. It seems to be “A container debugging tool based on FUSE.” Neat. I can use it pretty easily:</p>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-nix data-lang=nix><span class=n>nativeBuildInputs</span> <span class=err>=</span> <span class=p>[</span> <span class=n>breakpointHook</span> <span class=p>];</span>
+</code></pre></div><p>But, unfortunately, it’s Linux-specific. Are builds happening in containers? I haven’t really given much thought to the build environment isolation here.</p>
+<p>Anyway, there are millions of built-in hooks. <em>Millions</em>. I skim to the end, without finding any others that excite me.</p>
+<p>I don’t really get– these descriptions follow a section that says “hooks are weirdly like inherited transparently.” But then it describes a bunch that… aren’t? They’re just built into every package?</p>
+<p>Oh, I missed this separator in my skimming:</p>
+<blockquote>
+<p>Here are some more packages that provide a setup hook. Since the list of hooks is extensible, this is not an exhaustive list. The mechanism is only to be used as a last resort, so it might cover most uses.</p>
+</blockquote>
+<p>Okay. So the examples here are illustrative:</p>
+<blockquote>
+<p>Python: Adds the <code>lib/${python.libPrefix}/site-packages</code> subdirectory of each build input to the <code>PYTHONPATH</code> environment variable.</p>
+</blockquote>
+<p>Okay. I’m not really a Python person, but this seems like a straightforward one. Let’s see if we can follow the definition.</p>
+<pre><code>$ cat ~/src/nixpkgs/pkgs/development/interpreters/python/setup-hook.sh
+</code></pre>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash>addPythonPath<span class=o>()</span> <span class=o>{</span>
+    addToSearchPathWithCustomDelimiter : PYTHONPATH <span class=nv>$1</span>/@sitePackages@
+<span class=o>}</span>
+
+toPythonPath<span class=o>()</span> <span class=o>{</span>
+    <span class=nb>local</span> <span class=nv>paths</span><span class=o>=</span><span class=s2>"</span><span class=nv>$1</span><span class=s2>"</span>
+    <span class=nb>local</span> <span class=nv>result</span><span class=o>=</span>
+    <span class=k>for</span> i in <span class=nv>$paths</span><span class=p>;</span> <span class=k>do</span>
+        <span class=nv>p</span><span class=o>=</span><span class=s2>"</span><span class=nv>$i</span><span class=s2>/@sitePackages@"</span>
+        <span class=nv>result</span><span class=o>=</span><span class=s2>"</span><span class=si>${</span><span class=nv>result</span><span class=si>}${</span><span class=nv>result</span><span class=p>:+:</span><span class=si>}</span><span class=nv>$p</span><span class=s2>"</span>
+    <span class=k>done</span>
+    <span class=nb>echo</span> <span class=nv>$result</span>
+<span class=o>}</span>
+
+<span class=k>if</span> <span class=o>[</span> -z <span class=s2>"</span><span class=si>${</span><span class=nv>dontAddPythonPath</span><span class=k>:-</span><span class=si>}</span><span class=s2>"</span> <span class=o>]</span><span class=p>;</span> <span class=k>then</span>
+    addEnvHooks <span class=s2>"</span><span class=nv>$hostOffset</span><span class=s2>"</span> addPythonPath
+<span class=k>fi</span>
+
+<span class=c1># Determinism: The interpreter is patched to write null timestamps when compiling python files.</span>
+<span class=c1># This way python doesn't try to update them when we freeze timestamps in nix store.</span>
+<span class=nb>export</span> <span class=nv>DETERMINISTIC_BUILD</span><span class=o>=</span>1<span class=p>;</span>
+<span class=c1># Determinism: We fix the hashes of str, bytes and datetime objects.</span>
+<span class=nb>export</span> <span class=nv>PYTHONHASHSEED</span><span class=o>=</span>0<span class=p>;</span>
+<span class=c1># Determinism. Whenever Python is included, it should not check user site-packages.</span>
+<span class=c1># This option is only relevant when the sandbox is disabled.</span>
+<span class=nb>export</span> <span class=nv>PYTHONNOUSERSITE</span><span class=o>=</span>1<span class=p>;</span>
+</code></pre></div><p>Also note the <code>@sitePackages@</code> line, which will presumably be replaced by a <code>substituteAll</code> call somewhere.</p>
+<p>But, okay… where is this <em>used?</em> I see that it calls <code>addEnvHooks</code>. So presumably this script is going to be eval’d by any script that depends on <code>python</code> (or any of the other packages defined here). But how does that happen?</p>
+<p>Is there a <code>setupHook =</code> line, somewhere? I can’t find it, but there is a <em>lot</em> of Nix code here. This might be easier to observe in motion:</p>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-nix data-lang=nix><span class=n>nix-repl</span><span class=o>&gt;</span> <span class=n>pkgs</span><span class=o>.</span><span class=n>python</span> <span class=o>//</span> <span class=p>{</span> <span class=n>type</span> <span class=o>=</span> <span class=s2>"divination"</span><span class=p>;</span> <span class=p>}</span>
+<span class=p>{</span>
+  <span class=n>C_INCLUDE_PATH</span> <span class=o>=</span> <span class=s2>"/nix/store/v5vd9k28hsmj826nr0sx48ajyh7wfqf1-Libsystem-1238.60.2/include:/nix/store/czpiyz53jz1lznag71s5q25ajjqls3ad-bzip2-1.0.6.0.1-dev/include:/nix/store/l8gj8w7ma7ykv4wjdcrm27cxlrz8jfpj-openssl-1.1.1j-dev/include:/nix/store/78w7q3bfqk7v1m6rmyqjvz9mcxmqnrqf-zlib-1.2.11-dev/include:/nix/store/2wqdl2a5wx0jaqf1jrizpkncw91g55p3-db-5.3.28-dev/include:/nix/store/6i66pc23pcp8vvi5aqx2grwmg6505jds-gdbm-1.19/include:/nix/store/vgma7r066pldsla4fi1jwzl3rz88b8f1-ncurses-6.2-dev/include:/nix/store/wsgwk0dmqgw5dabaq05j9kspwc53v2j2-sqlite-3.34.1-dev/include:/nix/store/l9i9j3kjhnrzy2b0wpzw0hjkkm3lklv9-readline-6.3p08-dev/include:/nix/store/h0x6wir3pz5kr27saj5s0axfmffwadv2-configd-453.19/include"</span><span class=p>;</span>
+  <span class=n>DETERMINISTIC_BUILD</span> <span class=o>=</span> <span class=mi>1</span><span class=p>;</span>
+  <span class=n>LDFLAGS</span> <span class=o>=</span> <span class=s2>""</span><span class=p>;</span>
+  <span class=n>LIBRARY_PATH</span> <span class=o>=</span> <span class=s2>"/nix/store/v5vd9k28hsmj826nr0sx48ajyh7wfqf1-Libsystem-1238.60.2/lib:/nix/store/yagfwm4fdnb7izby3qwbdbi3klrhc6cf-bzip2-1.0.6.0.1/lib:/nix/store/xxmdw2z5cm1rlcl8n9n91q7356542byw-openssl-1.1.1j/lib:/nix/store/rnxxqbgijxxnjfyqpcgmcajmi6hq19b2-zlib-1.2.11/lib:/nix/store/95lcb5clawyk93mad8snn99p5xrryk6w-db-5.3.28/lib:/nix/store/6i66pc23pcp8vvi5aqx2grwmg6505jds-gdbm-1.19/lib:/nix/store/gkmkh3nj9qck3kyqcrqd7lcqsv1ipn2c-ncurses-6.2/lib:/nix/store/98581sab5cs4q4x9a0cs6jqyyypbsx2f-sqlite-3.34.1/lib:/nix/store/yk2ry7hp5hzn9vxld87m4gx4b3j9x0bj-readline-6.3p08/lib:/nix/store/h0x6wir3pz5kr27saj5s0axfmffwadv2-configd-453.19/lib"</span><span class=p>;</span>
+  <span class=n>NIX_CFLAGS_COMPILE</span> <span class=o>=</span> <span class=s2>"-msse2"</span><span class=p>;</span>
+  <span class=n>__darwinAllowLocalNetworking</span> <span class=o>=</span> <span class=no>false</span><span class=p>;</span>
+  <span class=n>__ignoreNulls</span> <span class=o>=</span> <span class=no>true</span><span class=p>;</span>
+  <span class=n>__impureHostDeps</span> <span class=o>=</span> <span class=p>[</span> <span class=o>...</span> <span class=p>];</span>
+  <span class=n>__propagatedImpureHostDeps</span> <span class=o>=</span> <span class=p>[</span> <span class=o>...</span> <span class=p>];</span>
+  <span class=n>__propagatedSandboxProfile</span> <span class=o>=</span> <span class=p>[</span> <span class=o>...</span> <span class=p>];</span>
+  <span class=n>__sandboxProfile</span> <span class=o>=</span> <span class=s2>""</span><span class=p>;</span>
+  <span class=n>all</span> <span class=o>=</span> <span class=p>[</span> <span class=o>...</span> <span class=p>];</span>
+  <span class=n>args</span> <span class=o>=</span> <span class=p>[</span> <span class=o>...</span> <span class=p>];</span>
+  <span class=n>buildEnv</span> <span class=o>=</span> <span class=err>«</span><span class=nb>derivation</span> <span class=sr>/nix/store/gnk5p753k9iy9phr2jna02828k6cn5xh-python-2.7.18-env.drv</span><span class=err>»</span><span class=p>;</span>
+  <span class=n>buildInputs</span> <span class=o>=</span> <span class=p>[</span> <span class=o>...</span> <span class=p>];</span>
+  <span class=n>builder</span> <span class=o>=</span> <span class=s2>"/nix/store/l25gl3siwmq6gws4lqlyd1040xignvqw-bash-4.4-p23/bin/bash"</span><span class=p>;</span>
+  <span class=n>configureFlags</span> <span class=o>=</span> <span class=p>[</span> <span class=o>...</span> <span class=p>];</span>
+  <span class=n>depsBuildBuild</span> <span class=o>=</span> <span class=p>[</span> <span class=o>...</span> <span class=p>];</span>
+  <span class=n>depsBuildBuildPropagated</span> <span class=o>=</span> <span class=p>[</span> <span class=o>...</span> <span class=p>];</span>
+  <span class=n>depsBuildTarget</span> <span class=o>=</span> <span class=p>[</span> <span class=o>...</span> <span class=p>];</span>
+  <span class=n>depsBuildTargetPropagated</span> <span class=o>=</span> <span class=p>[</span> <span class=o>...</span> <span class=p>];</span>
+  <span class=n>depsHostHost</span> <span class=o>=</span> <span class=p>[</span> <span class=o>...</span> <span class=p>];</span>
+  <span class=n>depsHostHostPropagated</span> <span class=o>=</span> <span class=p>[</span> <span class=o>...</span> <span class=p>];</span>
+  <span class=n>depsTargetTarget</span> <span class=o>=</span> <span class=p>[</span> <span class=o>...</span> <span class=p>];</span>
+  <span class=n>depsTargetTargetPropagated</span> <span class=o>=</span> <span class=p>[</span> <span class=o>...</span> <span class=p>];</span>
+  <span class=n>doCheck</span> <span class=o>=</span> <span class=no>false</span><span class=p>;</span>
+  <span class=n>doInstallCheck</span> <span class=o>=</span> <span class=no>false</span><span class=p>;</span>
+  <span class=n>drvAttrs</span> <span class=o>=</span> <span class=p>{</span> <span class=o>...</span> <span class=p>};</span>
+  <span class=n>drvPath</span> <span class=o>=</span> <span class=s2>"/nix/store/y8nr9xn2k2k7710mj09ywsd2yb3fw66g-python-2.7.18.drv"</span><span class=p>;</span>
+  <span class=n>enableParallelBuilding</span> <span class=o>=</span> <span class=no>true</span><span class=p>;</span>
+  <span class=n>enableParallelChecking</span> <span class=o>=</span> <span class=no>true</span><span class=p>;</span>
+  <span class=n>executable</span> <span class=o>=</span> <span class=s2>"python2.7"</span><span class=p>;</span>
+  <span class=n>hasDistutilsCxxPatch</span> <span class=o>=</span> <span class=no>true</span><span class=p>;</span>
+  <span class=n>implementation</span> <span class=o>=</span> <span class=s2>"cpython"</span><span class=p>;</span>
+  <span class=n>inputDerivation</span> <span class=o>=</span> <span class=err>«</span><span class=nb>derivation</span> <span class=sr>/nix/store/gapzmqlazdh9aiqb4x1bbdrm5hcvs1gz-python-2.7.18.drv</span><span class=err>»</span><span class=p>;</span>
+  <span class=n>interpreter</span> <span class=o>=</span> <span class=s2>"/nix/store/nbjiq2cvbjx8wjdn859ynma92s194mcx-python-2.7.18/bin/python2.7"</span><span class=p>;</span>
+  <span class=n>isPy2</span> <span class=o>=</span> <span class=no>true</span><span class=p>;</span>
+  <span class=n>isPy27</span> <span class=o>=</span> <span class=no>true</span><span class=p>;</span>
+  <span class=n>isPy3</span> <span class=o>=</span> <span class=no>false</span><span class=p>;</span>
+  <span class=n>isPy310</span> <span class=o>=</span> <span class=no>false</span><span class=p>;</span>
+  <span class=n>isPy35</span> <span class=o>=</span> <span class=no>false</span><span class=p>;</span>
+  <span class=n>isPy36</span> <span class=o>=</span> <span class=no>false</span><span class=p>;</span>
+  <span class=n>isPy37</span> <span class=o>=</span> <span class=no>false</span><span class=p>;</span>
+  <span class=n>isPy38</span> <span class=o>=</span> <span class=no>false</span><span class=p>;</span>
+  <span class=n>isPy39</span> <span class=o>=</span> <span class=no>false</span><span class=p>;</span>
+  <span class=n>isPy3k</span> <span class=o>=</span> <span class=no>false</span><span class=p>;</span>
+  <span class=n>isPyPy</span> <span class=o>=</span> <span class=no>false</span><span class=p>;</span>
+  <span class=n>libPrefix</span> <span class=o>=</span> <span class=s2>"python2.7"</span><span class=p>;</span>
+  <span class=n>meta</span> <span class=o>=</span> <span class=p>{</span> <span class=o>...</span> <span class=p>};</span>
+  <span class=n>name</span> <span class=o>=</span> <span class=s2>"python-2.7.18"</span><span class=p>;</span>
+  <span class=n>nativeBuildInputs</span> <span class=o>=</span> <span class=p>[</span> <span class=o>...</span> <span class=p>];</span>
+  <span class=n>out</span> <span class=o>=</span> <span class=err>«</span><span class=nb>derivation</span> <span class=sr>/nix/store/y8nr9xn2k2k7710mj09ywsd2yb3fw66g-python-2.7.18.drv</span><span class=err>»</span><span class=p>;</span>
+  <span class=n>outPath</span> <span class=o>=</span> <span class=s2>"/nix/store/nbjiq2cvbjx8wjdn859ynma92s194mcx-python-2.7.18"</span><span class=p>;</span>
+  <span class=n>outputName</span> <span class=o>=</span> <span class=s2>"out"</span><span class=p>;</span>
+  <span class=n>outputUnspecified</span> <span class=o>=</span> <span class=no>true</span><span class=p>;</span>
+  <span class=n>outputs</span> <span class=o>=</span> <span class=p>[</span> <span class=o>...</span> <span class=p>];</span>
+  <span class=n>override</span> <span class=o>=</span> <span class=p>{</span> <span class=o>...</span> <span class=p>};</span>
+  <span class=n>overrideAttrs</span> <span class=o>=</span> <span class=err>«</span><span class=n>lambda</span> <span class=o>@</span> <span class=sr>/nix/store/mi0xpwzl81c7dgpr09qd67knbc24xab5-nixpkgs-21.05pre274251.f5f6dc053b1/nixpkgs/lib/customisation.nix</span><span class=p>:</span><span class=mi>85</span><span class=p>:</span><span class=mi>73</span><span class=err>»</span><span class=p>;</span>
+  <span class=n>overrideDerivation</span> <span class=o>=</span> <span class=err>«</span><span class=n>lambda</span> <span class=o>@</span> <span class=sr>/nix/store/mi0xpwzl81c7dgpr09qd67knbc24xab5-nixpkgs-21.05pre274251.f5f6dc053b1/nixpkgs/lib/customisation.nix</span><span class=p>:</span><span class=mi>84</span><span class=p>:</span><span class=mi>32</span><span class=err>»</span><span class=p>;</span>
+  <span class=n>passthru</span> <span class=o>=</span> <span class=p>{</span> <span class=o>...</span> <span class=p>};</span>
+  <span class=n>patches</span> <span class=o>=</span> <span class=p>[</span> <span class=o>...</span> <span class=p>];</span>
+  <span class=n>pkgs</span> <span class=o>=</span> <span class=p>{</span> <span class=o>...</span> <span class=p>};</span>
+  <span class=n>pname</span> <span class=o>=</span> <span class=s2>"python"</span><span class=p>;</span>
+  <span class=n>postFixup</span> <span class=o>=</span> <span class=s2>"# Include a sitecustomize.py file. Note it causes an error when it's in postInstall with 2.7.</span><span class=se>\n</span><span class=s2>cp /nix/store/kclys2xfrg0zjmpa37gyp33nyg1c7j0q-sitecustomize.py $out/lib/python2.7/site-packages/sitecustomize.py</span><span class=se>\n</span><span class=s2>"</span><span class=p>;</span>
+  <span class=n>postInstall</span> <span class=o>=</span> <span class=s2>"# needed for some packages, especially packages that backport</span><span class=se>\n</span><span class=s2># functionality to 2.x from 3.x</span><span class=se>\n</span><span class=s2>for item in $out/lib/python2.7/test/*; do</span><span class=se>\n</span><span class=s2>  if [[ </span><span class=se>\"</span><span class=s2>$item</span><span class=se>\"</span><span class=s2> != */test_support.py*</span><span class=se>\n</span><span class=s2>     &amp;&amp; </span><span class=se>\"</span><span class=s2>$item</span><span class=se>\"</span><span class=s2> != */test/support</span><span class=se>\n</span><span class=s2>     &amp;&amp; </span><span class=se>\"</span><span class=s2>$item</span><span class=se>\"</span><span class=s2> != */test/regrtest.py* ]]; then</span><span class=se>\n</span><span class=s2>    rm -rf </span><span class=se>\"</span><span class=s2>$item</span><span class=se>\"\n</span><span class=s2>  else</span><span class=se>\n</span><span class=s2>    echo $item</span><span class=se>\n</span><span class=s2>  fi</span><span class=se>\n</span><span class=s2>done</span><span class=se>\n</span><span class=s2>touch $out/lib/python2.7/test/__init__.py</span><span class=se>\n</span><span class=s2>ln -s $out/lib/python2.7/pdb.py $out/bin/pdb</span><span class=se>\n</span><span class=s2>ln -s $out/lib/python2.7/pdb.py $out/bin/pdb2.7</span><span class=se>\n</span><span class=s2>ln -s $out/share/man/man1/{python2.7.1.gz,python.1.gz}</span><span class=se>\n\n</span><span class=s2>rm </span><span class=se>\"</span><span class=s2>$out</span><span class=se>\"</span><span class=s2>/lib/python*/plat-*/regen # refers to glibc.dev</span><span class=se>\n\n</span><span class=s2># Determinism: Windows installers were not deterministic.</span><span class=se>\n</span><span class=s2># We're also not interested in building Windows installers.</span><span class=se>\n</span><span class=s2>find </span><span class=se>\"</span><span class=s2>$out</span><span class=se>\"</span><span class=s2> -name 'wininst*.exe' | xargs -r rm -f</span><span class=se>\n</span><span class=s2># Determinism: rebuild all bytecode</span><span class=se>\n</span><span class=s2># We exclude lib2to3 because that's Python 2 code which fails</span><span class=se>\n</span><span class=s2># We rebuild three times, once for each optimization level</span><span class=se>\n</span><span class=s2>find $out -name </span><span class=se>\"</span><span class=s2>*.py</span><span class=se>\"</span><span class=s2> | $out/bin/python -m compileall -q -f -x </span><span class=se>\"</span><span class=s2>lib2to3</span><span class=se>\"</span><span class=s2> -i -</span><span class=se>\n</span><span class=s2>find $out -name </span><span class=se>\"</span><span class=s2>*.py</span><span class=se>\"</span><span class=s2> | $out/bin/python -O -m compileall -q -f -x </span><span class=se>\"</span><span class=s2>lib2to3</span><span class=se>\"</span><span class=s2> -i -</span><span class=se>\n</span><span class=s2>find $out -name </span><span class=se>\"</span><span class=s2>*.py</span><span class=se>\"</span><span class=s2> | $out/bin/python -OO -m compileall -q -f -x </span><span class=se>\"</span><span class=s2>lib2to3</span><span class=se>\"</span><span class=s2> -i -</span><span class=se>\n</span><span class=s2>"</span><span class=p>;</span>
+  <span class=n>postPatch</span> <span class=o>=</span> <span class=s2>""</span><span class=p>;</span>
+  <span class=n>preConfigure</span> <span class=o>=</span> <span class=s2>"# Purity.</span><span class=se>\n</span><span class=s2>for i in /usr /sw /opt /pkg; do</span><span class=se>\n</span><span class=s2>  substituteInPlace ./setup.py --replace $i /no-such-path</span><span class=se>\n</span><span class=s2>done</span><span class=se>\n</span><span class=s2>for i in Lib/plat-*/regen; do</span><span class=se>\n</span><span class=s2>  substituteInPlace $i --replace /usr/include/ /nix/store/v5vd9k28hsmj826nr0sx48ajyh7wfqf1-Libsystem-1238.60.2/include/</span><span class=se>\n</span><span class=s2>done</span><span class=se>\n</span><span class=s2>substituteInPlace configure --replace '`/usr/bin/arch`' '</span><span class=se>\"</span><span class=s2>i386</span><span class=se>\"</span><span class=s2>'</span><span class=se>\n</span><span class=s2>substituteInPlace Lib/multiprocessing/__init__.py </span><span class=se>\\\n</span><span class=s2>  --replace 'os.popen(comm)' 'os.popen(</span><span class=se>\"</span><span class=s2>/nix/store/cpvjym13fdglv6zmdr5xav20g5rbafbx-coreutils-8.32/bin/nproc</span><span class=se>\"</span><span class=s2>)'</span><span class=se>\n</span><span class=s2>"</span><span class=p>;</span>
+  <span class=n>propagatedBuildInputs</span> <span class=o>=</span> <span class=p>[</span> <span class=o>...</span> <span class=p>];</span>
+  <span class=n>propagatedNativeBuildInputs</span> <span class=o>=</span> <span class=p>[</span> <span class=o>...</span> <span class=p>];</span>
+  <span class=n>pythonAtLeast</span> <span class=o>=</span> <span class=err>«</span><span class=n>lambda</span> <span class=o>@</span> <span class=sr>/nix/store/mi0xpwzl81c7dgpr09qd67knbc24xab5-nixpkgs-21.05pre274251.f5f6dc053b1/nixpkgs/lib/strings.nix</span><span class=p>:</span><span class=mi>503</span><span class=p>:</span><span class=mi>24</span><span class=err>»</span><span class=p>;</span>
+  <span class=n>pythonForBuild</span> <span class=o>=</span> <span class=err>«</span><span class=nb>derivation</span> <span class=sr>/nix/store/y8nr9xn2k2k7710mj09ywsd2yb3fw66g-python-2.7.18.drv</span><span class=err>»</span><span class=p>;</span>
+  <span class=n>pythonOlder</span> <span class=o>=</span> <span class=err>«</span><span class=n>lambda</span> <span class=o>@</span> <span class=sr>/nix/store/mi0xpwzl81c7dgpr09qd67knbc24xab5-nixpkgs-21.05pre274251.f5f6dc053b1/nixpkgs/lib/strings.nix</span><span class=p>:</span><span class=mi>491</span><span class=p>:</span><span class=mi>22</span><span class=err>»</span><span class=p>;</span>
+  <span class=n>pythonVersion</span> <span class=o>=</span> <span class=s2>"2.7"</span><span class=p>;</span>
+  <span class=n>setupHook</span> <span class=o>=</span> <span class=err>«</span><span class=nb>derivation</span> <span class=sr>/nix/store/n2l76vrvpa2fv89kflg5s1fk6x713x1g-python-setup-hook.sh.drv</span><span class=err>»</span><span class=p>;</span>
+  <span class=n>sitePackages</span> <span class=o>=</span> <span class=s2>"lib/python2.7/site-packages"</span><span class=p>;</span>
+  <span class=n>sourceVersion</span> <span class=o>=</span> <span class=p>{</span> <span class=o>...</span> <span class=p>};</span>
+  <span class=n>src</span> <span class=o>=</span> <span class=err>«</span><span class=nb>derivation</span> <span class=sr>/nix/store/jbv74pqxq95hcwif4mf19rapmq69a1bi-Python-2.7.18.tar.xz.drv</span><span class=err>»</span><span class=p>;</span>
+  <span class=n>stdenv</span> <span class=o>=</span> <span class=err>«</span><span class=nb>derivation</span> <span class=sr>/nix/store/v1fmdbwdgqds6b4icqzyin0anag03dz3-stdenv-darwin.drv</span><span class=err>»</span><span class=p>;</span>
+  <span class=n>strictDeps</span> <span class=o>=</span> <span class=no>false</span><span class=p>;</span>
+  <span class=n>system</span> <span class=o>=</span> <span class=s2>"x86_64-darwin"</span><span class=p>;</span>
+  <span class=n>tests</span> <span class=o>=</span> <span class=p>{</span> <span class=o>...</span> <span class=p>};</span>
+  <span class=n>type</span> <span class=o>=</span> <span class=s2>"divination"</span><span class=p>;</span>
+  <span class=n>ucsEncoding</span> <span class=o>=</span> <span class=mi>4</span><span class=p>;</span>
+  <span class=n>userHook</span> <span class=o>=</span> <span class=no>null</span><span class=p>;</span>
+  <span class=n>version</span> <span class=o>=</span> <span class=s2>"2.7.18"</span><span class=p>;</span>
+  <span class=n>withPackages</span> <span class=o>=</span> <span class=err>«</span><span class=n>lambda</span> <span class=o>@</span> <span class=sr>/nix/store/mi0xpwzl81c7dgpr09qd67knbc24xab5-nixpkgs-21.05pre274251.f5f6dc053b1/nixpkgs/pkgs/development/interpreters/python/with-packages.nix</span><span class=p>:</span><span class=mi>3</span><span class=p>:</span><span class=mi>1</span><span class=err>»</span><span class=p>;</span>
+<span class=p>}</span>
+</code></pre></div><p>Okay – yes:</p>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-nix data-lang=nix><span class=n>setupHook</span> <span class=err>=</span> <span class=err>«</span><span class=nb>derivation</span> <span class=sr>/nix/store/n2l76vrvpa2fv89kflg5s1fk6x713x1g-python-setup-hook.sh.drv</span><span class=err>»</span><span class=p>;</span>
+</code></pre></div><p>So <em>somewhere</em> in this directory, I should be able to find a like <code>substituteAll setup-hook.sh python-setup-hook.sh</code> line, right?</p>
+<p>Not quite, but close:</p>
+<pre><code>$ cat setup-hook.nix
+</code></pre>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-nix data-lang=nix><span class=p>{</span> <span class=n>runCommand</span> <span class=p>}:</span>
+
+<span class=n>sitePackages</span><span class=p>:</span>
+
+<span class=k>let</span>
+  <span class=n>hook</span> <span class=o>=</span> <span class=sr>./setup-hook.sh</span><span class=p>;</span>
+<span class=k>in</span> <span class=n>runCommand</span> <span class=s2>"python-setup-hook.sh"</span> <span class=p>{</span>
+  <span class=k>inherit</span> <span class=n>sitePackages</span><span class=p>;</span>
+<span class=p>}</span> <span class=s1>''
+</span><span class=s1>  cp </span><span class=si>${</span><span class=n>hook</span><span class=si>}</span><span class=s1> hook.sh
+</span><span class=s1>  substituteAllInPlace hook.sh
+</span><span class=s1>  mv hook.sh $out
+</span><span class=s1>''</span>
+</code></pre></div><p>An <code>import ./setup-hook.nix</code>, then?</p>
+<p>Nope. Hmm. It’s kind of a tangly mess.</p>
+<p><code>cpython/default.nix</code> (as well as <code>pypy/default.nix</code> and <code>cpython/2.7/default.nix</code>) all contain the <code>setupHook = python-setup-hook sitePackages;</code> lines. So those are the actual leaf derivations, I assume. But they each take <code>python-setup-hook</code> as an <em>argument</em>, and I’m not sure… where that comes, who calls them with it, or why it’s kebab-case.</p>
+<p>All I can see is a <code>callPackage</code>, but that would imply <code>python-setup-hook</code> exists at the top-level, which–</p>
+<pre tabindex=0><code>nix-repl&gt; pkgs.python-setup-hook
+{ __functionArgs = { ... }; __functor = «lambda @ /nix/store/mi0xpwzl81c7dgpr09qd67knbc24xab5-nixpkgs-21.05pre274251.f5f6dc053b1/nixpkgs/lib/trivial.nix:324:19»; override = { ... }; }
+</code></pre><p>Oh. Which it does. Okay. Weird:</p>
+<pre><code>$ grep -B 1 'python-setup-hook' ~/src/nixpkgs/pkgs/top-level/all-packages.nix
+</code></pre>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-nix data-lang=nix>  <span class=c1># Should eventually be moved inside Python interpreters.</span>
+  <span class=n>python-setup-hook</span> <span class=err>=</span> <span class=n>callPackage</span> <span class=sr>../development/interpreters/python/setup-hook.nix</span> <span class=p>{</span> <span class=p>};</span>
+</code></pre></div><p><em>Huh</em>. Okay.</p>
+<p>Well, anyway, we saw an example. How did I know I was looking for <code>setupHook</code>? Did I just guess that that would be the name of the attribute? I think I did. It <em>is</em> documented, all the way back in the <code>fixupPhase</code> documentation:</p>
+<blockquote>
+<p><code>setupHook</code> – A package can export a setup hook by setting this variable. The setup hook, if defined, is copied to <code>$out/nix-support/setup-hook</code>. Environment variables are then substituted in it using <code>substituteAll</code>.</p>
+</blockquote>
+<p>Huh, okay. We didn’t see that, though – we saw a derivation that explicitly called <code>substituteAll</code>. Oh, but right, duh, environment variables. So the script says <code>$hostOffset</code>, but the result says…</p>
+<pre><code>$ cat /nix/store/3dc6fidfpk2z2n92vqnagswnzrw512ax-python-2.7.17/nix-support/setup-hook
+</code></pre>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash>addPythonPath<span class=o>()</span> <span class=o>{</span>
+    addToSearchPathWithCustomDelimiter : PYTHONPATH <span class=nv>$1</span>/lib/python2.7/site-packages
+<span class=o>}</span>
+
+toPythonPath<span class=o>()</span> <span class=o>{</span>
+    <span class=nb>local</span> <span class=nv>paths</span><span class=o>=</span><span class=s2>"</span><span class=nv>$1</span><span class=s2>"</span>
+    <span class=nb>local</span> <span class=nv>result</span><span class=o>=</span>
+    <span class=k>for</span> i in <span class=nv>$paths</span><span class=p>;</span> <span class=k>do</span>
+        <span class=nv>p</span><span class=o>=</span><span class=s2>"</span><span class=nv>$i</span><span class=s2>/lib/python2.7/site-packages"</span>
+        <span class=nv>result</span><span class=o>=</span><span class=s2>"</span><span class=si>${</span><span class=nv>result</span><span class=si>}${</span><span class=nv>result</span><span class=p>:+:</span><span class=si>}</span><span class=nv>$p</span><span class=s2>"</span>
+    <span class=k>done</span>
+    <span class=nb>echo</span> <span class=nv>$result</span>
+<span class=o>}</span>
+
+addEnvHooks <span class=s2>"</span><span class=nv>$hostOffset</span><span class=s2>"</span> addPythonPath
+
+<span class=c1># Determinism: The interpreter is patched to write null timestamps when compiling python files.</span>
+<span class=c1># This way python doesn't try to update them when we freeze timestamps in nix store.</span>
+<span class=nb>export</span> <span class=nv>DETERMINISTIC_BUILD</span><span class=o>=</span>1<span class=p>;</span>
+<span class=c1># Determinism: We fix the hashes of str, bytes and datetime objects.</span>
+<span class=nb>export</span> <span class=nv>PYTHONHASHSEED</span><span class=o>=</span>0<span class=p>;</span>
+<span class=c1># Determinism. Whenever Python is included, it should not check user site-packages.</span>
+<span class=c1># This option is only relevant when the sandbox is disabled.</span>
+<span class=nb>export</span> <span class=nv>PYTHONNOUSERSITE</span><span class=o>=</span>1<span class=p>;</span>
+</code></pre></div><p>Umm, still says <code>$hostOffset</code>. Huh. Only the <code>@sitePackages@</code> calls are different. And presumably they are different because of this:</p>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-nix data-lang=nix><span class=k>let</span>
+  <span class=n>hook</span> <span class=o>=</span> <span class=sr>./setup-hook.sh</span><span class=p>;</span>
+<span class=k>in</span> <span class=n>runCommand</span> <span class=s2>"python-setup-hook.sh"</span> <span class=p>{</span>
+  <span class=k>inherit</span> <span class=n>sitePackages</span><span class=p>;</span>
+<span class=p>}</span> <span class=s1>''
+</span><span class=s1>  cp </span><span class=si>${</span><span class=n>hook</span><span class=si>}</span><span class=s1> hook.sh
+</span><span class=s1>  substituteAllInPlace hook.sh
+</span><span class=s1>  mv hook.sh $out
+</span><span class=s1>''</span>
+</code></pre></div><p>And not because of any, you know, anything magical happening. Hmm.</p>
+<h1 id=68-purity-in-nixpkgshttpswebarchiveorgweb20210318102415if_httpsnixosorgmanualnixpkgsstablesec-purity-in-nixpkgs><a href=https://web.archive.org/web/20210318102415if_/https://nixos.org/manual/nixpkgs/stable/#sec-purity-in-nixpkgs>6.8 Purity in Nixpkgs</a></h1>
+<blockquote>
+<p>[measures taken to prevent dependencies on packages outside the store, and what you can do to prevent them]</p>
+<p>GCC doesn’t search in locations such as <code>/usr/include</code>. In fact, attempts to add such directories through the <code>-I</code> flag are filtered out. Likewise, the linker (from GNU binutils) doesn’t search in standard locations such as <code>/usr/lib</code>. Programs built on Linux are linked against a GNU C Library that likewise doesn’t search in the default system locations.</p>
+</blockquote>
+<p>That’s the whole section! Thank goodness for the tl;dr at the top.</p>
+<h1 id=69-hardening-in-nixpkgshttpswebarchiveorgweb20210318102415if_httpsnixosorgmanualnixpkgsstablesec-hardening-in-nixpkgs><a href=https://web.archive.org/web/20210318102415if_/https://nixos.org/manual/nixpkgs/stable/#sec-hardening-in-nixpkgs>6.9. Hardening in Nixpkgs</a></h1>
+<p>This section seems to begin with the assumption that I know what hardening means. I do not. There are lots of things that that could mean to me. I think of, you know, cybersecurity. Then I think of Metapod. But… I assume this is some sort of reproducibility thing?</p>
+<p>No! It actually is about security hardening, if you’re building C or C++ packages. It seems to default to enabling a bunch of nice warnings in <code>gcc</code>? And some actual protections. Neat! It has little examples of the types of compiler errors you should expect to see if these hardening flags break your build and need to be disabled. That’s nice! Thanks, Nix.</p>
+<h1 id=what-did-we-learn>what did we learn</h1>
+<p>Okay. That’s the end of the chapter.</p>
+<p>This was a long one, and sort of a… mixture of extremely useful practical information about how to actually write your own derivation in real life, and then a bunch of completely inscrutable cross-compilation and propagated dependency stuff.</p>
+<p>Why was that confusing? Cross-compilation isn’t, like, <em>that</em> crazy, is it? We’re just compiling things for other things? Yeah, the <code>gcc</code> “target” thing is weird, I guess, but… it seems like if I think about how I would model this, maybe I will come up with something resembling Nix’s solution, and then it will make sense to me.</p>
+<p>So something I recently did with cross-compilation was build <a href=https://github.com/qmk/qmk_firmware>QMK</a> for a <a href=https://github.com/nicinabox/lets-split-guide>weird new keyboard</a> I bought. I’ll try to use that as a concrete example, and see how far I get.</p>
+<p>So the “package” – the ultimate thing I built – was a “binary” for… well, I don’t know what Nix would call the platform. I’ll call it <code>avr</code>, I guess.</p>
+<table>
+<thead>
+<tr>
+<th style=text-align:center>Package</th>
+<th style=text-align:center>Host platform</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style=text-align:center><code>keymap.hex</code></td>
+<td style=text-align:center><code>avr</code></td>
+</tr>
+</tbody>
+</table>
+<p>But it has dependencies. For one thing, in order to make that, I needed a compiler that targeted <code>avr</code>:</p>
+<table>
+<thead>
+<tr>
+<th style=text-align:center>Package</th>
+<th style=text-align:center>Host platform</th>
+<th style=text-align:center>Target platform</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style=text-align:center><code>keymap.hex</code></td>
+<td style=text-align:center><code>avr</code></td>
+<td style=text-align:center></td>
+</tr>
+<tr>
+<td style=text-align:center><code>gcc</code></td>
+<td style=text-align:center><code>x86_64-darwin</code></td>
+<td style=text-align:center><code>avr</code></td>
+</tr>
+</tbody>
+</table>
+<p>Wow, in doing that, I realized that if you ever ask <code>nix repl</code> to print out the top-level <code>nixpkgs</code> expression, it just… does. And there’s no way to quit. It doesn’t process <code>SIGTERM</code> – you can’t <code>ctrl-c</code> out of it. I had to <code>kill -9</code> it to get it to stop spewing errors about unfree packages (???). Weird. Unpleasant.</p>
+<p>So okay, obviously there are more than just those things. <code>gcc</code> itself has a lots of dependencies. But they sort of are all trivial now, right? There’s only one “level” of cross-compilation happening. Let’s assume <code>gcc</code> depends on <code>make</code>…</p>
+<table>
+<thead>
+<tr>
+<th style=text-align:center>Package</th>
+<th style=text-align:center>Host platform</th>
+<th style=text-align:center>Target platform</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style=text-align:center><code>keymap.hex</code></td>
+<td style=text-align:center><code>avr</code></td>
+<td style=text-align:center></td>
+</tr>
+<tr>
+<td style=text-align:center><code>gcc</code></td>
+<td style=text-align:center><code>x86_64-darwin</code></td>
+<td style=text-align:center><code>avr</code></td>
+</tr>
+<tr>
+<td style=text-align:center><code>make</code></td>
+<td style=text-align:center><code>x86_64-darwin</code></td>
+<td style=text-align:center><code>x86_64-darwin</code></td>
+</tr>
+</tbody>
+</table>
+<p>I guess… hmm. This exercise isn’t useful. I don’t know how to print out an <em>actual</em> visualization of the real life <code>qmk</code> package. Or even if the real-life scenario <em>is</em> interesting or representative: after all, I’m just making an executable – it itself has no Nix-specified dependencies (as far as I know). And there is no Nix expression to define the final output – only a Nix expression to define the environment that I need in order to build the final output. There might not actually be any actual platform arithmetic here.</p>
+<p>Darn.</p>
+<p>Yeah, I guess I’m having trouble understanding why this isn’t just a simple recursive thing. Line up the target platform with the host platform. I feel like I really need an example of… why you’d ever need multiple levels of indirection here.</p>
+<p>So say I’m trying to build a Linux executable. And I’m on my Mac. And the Linux executable has build-time and run-time dependencies.</p>
+<p>Some of the build-time dependencies are, like, <code>make</code>. But some of the build-time dependencies are libraries that need to be statically linked. And then some of the runtime dependencies are libraries that are going to be dynamically linked. Let’s say:</p>
+<ul>
+<li>Build-time dependencies: <code>gcc</code>, <code>make</code>, <code>pcre</code></li>
+<li>Runtime dependencies: <code>libsqlite3</code></li>
+</ul>
+<p>So those build-time dependencies are different <em>types</em> of dependencies. <code>make</code> is easy; it’s doing its own thing. <code>host = darwin</code>, <code>target = darwin</code>. <code>gcc</code> is <code>host = darwin</code>, <code>target = linux</code>. But <code>pcre</code> is <code>host = linux</code> (with no target). And <code>libsqlite3</code> is also <code>host = linux</code> (no target).</p>
+<p>So how do I <em>say that</em> to Nix? How do I express the difference between those “types” of dependencies? Presumably these are different combinations of <code>depsBuildTarget</code> and <code>depsHostHost</code> or whatever?</p>
+<p>I don’t know. I don’t know how. I would think that I would, like, say explicitly what I need and when I need it. But it seems that Nix is going to great effort to make sure that I don’t need to be explicit, and it will just figure it out?</p>
+<p>And apparently it involves arithmetic. Yeah, I don’t get it. I don’t know. I really need to work through a concrete example before I can hope to understand what’s happening here.</p>
+<p>Which I will not do right now. If anyone out there is reading this and <em>does</em> understand all this, I would love to hear how you got there. Otherwise, I will have to wait for Chapter 9, which seems to dive more deeply into all of this (oh boy).</p>
+<hr>
+<ul>
+<li>Does Nix install all build-time dependencies of a package?</li>
+<li>What… on earth… is all of this platform arithmetic? What do these numbers mean? Why– what is happening here?</li>
+<li>Why does the <code>fixupPhase</code> move doc directories around?</li>
+<li>Why does the <code>substituteAll</code> builder need to call <code>preInstall</code>/<code>postInstall</code>?</li>
+<li>Is it true that “Environment variables are then substituted in it using <code>substituteAll</code>”? Is Python doing that explicitly unnecessarily, or are the docs wrong?</li>
+<li>Why does <code>nix repl</code> keep printing errors about unfree packages when I just ask it to <em>evaluate</em> the top-level <code>pkgs</code> expression?</li>
+</ul></div>
+</article>
+<div class=post-footer>
+<a href="mailto:ianthehenry@gmail.com?subject=let%27s%20talk%20about%20%22The%20standard%20environment%22&amp;body=First%20of%20all,%20I%20just%20wanted%20to%20say%20that%20I%20forgive%20you%20for%20not%20having%20a%20real%20comment%20system%20on%20your%20site.">comment on this post</a><a href=https://ianthehenry.com/posts/how-to-learn-nix/derivations-in-detail/>Next up ➜ Derivations in detail</a></div>
+<aside class=series-rider>
+<p>
+This post is part of the series <a class=series-name href=https://ianthehenry.com/posts/how-to-learn-nix/>How to Learn Nix</a>.
+You can
+<a target=_blank href=https://ianthehenry.com/feed.xml>subscribe to my RSS feed</a>
+or
+<a target=_blank href=https://twitter.com/ianthehenry>follow me on Twitter</a>
+for more, or <a href=https://ianthehenry.com/posts/>peruse my back catalog</a> if you're in the mood for something different.
+<div class=subsection-header>Opening remarks</div><ol start=1 class=post-list><li><a href=https://ianthehenry.com/posts/how-to-learn-nix/introduction/>What's all this about?</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/prior-knowledge/>Prior knowledge</a></li>
+</ol><div class=subsection-header>Reading the Nix manual</div><ol start=3 class=post-list><li><a href=https://ianthehenry.com/posts/how-to-learn-nix/glossary/>What we talk about when we talk about Nix</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/quick-start-guide/>Quick starts, full hearts</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/basic-package-management/>Basic package management</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/profiles/>Profiles</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/garbage-collection/>Garbage collection</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/channels/>Channels</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/sharing/>Learning to share</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/my-first-derivation/>My first derivation</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/okay-my-actual-first-derivation/>Okay my actual first derivation</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/nix-language/>The Nix expression language</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/derivations/>Derivations</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/built-in-functions/>Built-in Functions</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/advanced-topics/>Advanced Topics</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/command-reference/>Command Reference</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/configuration/>Configuration</a></li>
+</ol><div class=subsection-header>Interlude: in which we follow our hearts, however briefly</div><ol start=18 class=post-list><li><a href=https://ianthehenry.com/posts/how-to-learn-nix/nix-manual-reflection/>So I read the manual huh</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/switching-from-homebrew-to-nix/>Switching from Homebrew to Nix</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/my-first-nix-bug/>My first Nix bug</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/my-first-package-upgrade/>My first package upgrade</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/declarative-user-environment/>Setting up a declarative user environment</a></li>
+</ol><div class=subsection-header>Reading the Nixpkgs manual</div><ol start=23 class=post-list><li><a href=https://ianthehenry.com/posts/how-to-learn-nix/how-to-learn-nixpkgs/>How to learn Nixpkgs</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/overlays/>Overlays</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/overriding/>Overriding</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/an-infinite-list-of-functions/>An infinite list of functions</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/even-more-functions-somehow/>Even more functions, somehow</a></li>
+<li><strong><a href=https://ianthehenry.com/posts/how-to-learn-nix/the-standard-environment/>The standard environment</a></strong>&nbsp;←&nbsp;you are here</li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/derivations-in-detail/>Derivations in detail</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/cross-compilation/>Cross-compilation</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/platform-notes/>Platform notes</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/builders/>Builders</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/languages-and-frameworks/>Languages and frameworks</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/random-package-grab-bag/>Random package grab-bag</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/how-to-give-back/>How to give back</a></li>
+</ol><div class=subsection-header>Documentation behind us, we set out on our own</div><ol start=36 class=post-list><li><a href=https://ianthehenry.com/posts/how-to-learn-nix/nixpkgs-reflection/>So I read the other manual, huh</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/saving-your-shell/>Saving your shell</a></li>
+</ol><div class=subsection-header>Oh right forgot about Nix Pills</div><ol start=38 class=post-list><li><a href=https://ianthehenry.com/posts/how-to-learn-nix/nix-pills/>Nix Pills</a></li>
+</ol><div class=subsection-header>Our whole lives ahead of us</div><ol start=39 class=post-list><li><a href=https://ianthehenry.com/posts/how-to-learn-nix/python3-alpha/>How to install Python</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/open-questions/>Open questions</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/ambiguous-packages/>Ambiguous packages</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/nix-zshell/>Running zsh in nix-shell</a></li>
+</ol><div class=subsection-header>Nix 2.4 slithers to life</div><ol start=43 class=post-list><li><a href=https://ianthehenry.com/posts/how-to-learn-nix/flakes/>My first brush with flakes</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/more-flakes/>More flakes, unfortunately</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/new-profiles/>Fancy new profiles</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/chipping-away-at-flakes/>Chipping away at flakes</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/nix-develop/>New and unimproved shells</a></li>
+</ol>
+</aside>
+</main>
+<footer>
+© 1899-1907 <a href=https://ianthehenry.com/about/>Ian Henry</a>
+</footer>

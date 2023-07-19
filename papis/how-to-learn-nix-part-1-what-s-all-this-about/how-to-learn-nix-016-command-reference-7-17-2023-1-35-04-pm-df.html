@@ -1,0 +1,758 @@
+<!DOCTYPE html> <html lang=en style><!--
+ Page saved with SingleFile 
+ url: https://ianthehenry.com/posts/how-to-learn-nix/command-reference/ 
+ saved date: Mon Jul 17 2023 13:35:04 GMT+0600 (Kyrgyzstan Time)
+--><meta charset=utf-8>
+<meta name=viewport content="initial-scale=1,maximum-scale=1">
+<title>How to Learn Nix, Part 16: Command Reference</title>
+<link rel=canonical href=https://ianthehenry.com/posts/how-to-learn-nix/command-reference/>
+<style>:root{--box-radius:6px;--outer-box-radius:10px}:root{--content-bg:#fff;--gutter-bg:#eeeef3;--text-fg:#4d4d4c;--table-border-color:#ccc;--separator-color:#6d6d6c;--link:#07c;--link-visited:#751a9a;--blockquote-accent:var(--link);--footnote-accent:#ffd2a3;--subscribe-button-bg:#44e66c;--subscribe-button-fg:#11391b;--media-controls-on:#34b553;--media-controls-contrast:#fff;--inline-code-bg:#f3f3fa;--code-block-bg:#f3f3fa;--aside-bg:#f3f3fa;--aside-warning-bg:#fff5d1;--aside-warning-fg:#ac3233;--palette-red:#c82829;--palette-green:#718c00;--palette-yellow:#eab700;--palette-orange:#f5871f;--palette-blue:#4271ae;--palette-purple:#8959a8;--palette-teal:#3e999f;--palette-white:#fefefe;--palette-black:#000;--palette-text:var(--text-fg);--palette-dim:#8e908c;--highlight-bg:var(--palette-yellow);--highlight-fg:var(--text-fg)}#dmt::before{content:"🌖"}#dmt:hover::before{content:"🌗"}@media (prefers-color-scheme:dark){:root:not(.light-theme){--content-bg:#313233;--gutter-bg:#1d1f21;--text-fg:#d8d4cf;--table-border-color:#ccc;--separator-color:#6d6d6c;--link:rgb(82,183,255);--link-visited:rgb(193,104,229);--blockquote-accent:var(--link);--footnote-accent:#a8612f;--subscribe-button-bg:#44e66c;--subscribe-button-fg:#11391b;--media-controls-on:#44e66c;--media-controls-contrast:#11391b;--inline-code-bg:#3c4044;--code-block-bg:#1d1f21;--aside-bg:#3c4044;--aside-warning-bg:#fff5d1;--aside-warning-fg:var(--palette-red);--palette-red:#cc6666;--palette-green:#b5bd68;--palette-yellow:#f0c674;--palette-orange:#de935f;--palette-blue:#81a2be;--palette-purple:#b294bb;--palette-teal:#8abeb7;--palette-white:#fefefe;--palette-black:#000;--palette-text:var(--text-fg);--palette-dim:#969896;--highlight-bg:var(--palette-yellow);--highlight-fg:var(--palette-black)}:root:not(.light-theme) #dmt::before{content:"🌒"}:root:not(.light-theme) #dmt:hover::before{content:"🌓"}}#dmt{width:30px;text-align:right;padding-right:4px;position:absolute;top:0;bottom:0;right:0;border:none;background-color:inherit;cursor:pointer}*{margin:0;padding:0;font:inherit;box-sizing:border-box}html{background-color:var(--gutter-bg);color:var(--text-fg)}body{font-family:system-ui,sans-serif;font-size:12pt;line-height:1.8;word-wrap:break-word}body:not(.content-page) main>aside{padding:0 var(--content-padding)}body.content-page main,body:not(.content-page) article{background-color:var(--content-bg);border-radius:var(--outer-box-radius);padding:var(--content-padding)}pre{word-wrap:normal}em,i{font-style:italic}h1>a:only-child,h2>a:only-child{display:block}main .subsection-header+.post-list{margin-top:0}strong{font-weight:700}ol,ul{padding-left:3ch}hr{border-style:solid;border-width:1.5px 0 0;border-radius:1px;border-color:var(--separator-color)}:not(pre)>code{white-space:pre;background-color:var(--inline-code-bg)}li{padding-left:0}blockquote{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:"";content:none}a,a:active,a:visited{text-decoration:none}a:hover{text-decoration:underline}blockquote{padding:0 0 0 var(--content-padding);border-left:solid 2px var(--blockquote-accent)}aside{--content-padding:0.5em;padding:.5em;border-radius:var(--box-radius);background-color:var(--aside-bg)}a,a:active,header a:visited,footer a:visited,h1 a:visited{color:var(--link)}a:visited{color:var(--link-visited)}h1{font-size:130%}h2{font-size:120%}main *+p,main *+pre,main *+aside,main *+article,main *+blockquote,main *+div,main *+a.image-container,main *+ul,main *+hr,main *+h1,main *+h2{margin-top:1em}main pre+div.highlight,main div.highlight+pre,main pre+pre{margin-top:1px}main .post-header *+h1{margin-top:0}code{font-family:Menlo,monospace;padding:0 3px;border-radius:2px}pre{background-color:var(--code-block-bg);font-size:11pt;padding:calc(.75*var(--content-padding)) var(--content-padding);line-height:1.3;border-radius:var(--box-radius);overflow-x:scroll;-webkit-overflow-scrolling:touch}pre code{padding:0;border-radius:0;display:inline-block;background-color:initial}p+p{margin-top:1em}body{margin:0 auto;--content-padding:10px;max-width:768px;-webkit-text-size-adjust:100%;position:relative}header{position:relative}header>*{height:48px;line-height:48px}.promo,.promo:visited,.promo:active{display:block;text-align:center;background-color:var(--link);color:var(--code-block-bg);border-radius:0 0 var(--outer-box-radius) var(--outer-box-radius)}header .site-title{font-size:130%}header nav{position:absolute;right:30px;top:0}@media all and (max-width:400px){:root{--outer-box-radius:0}header{text-align:center}header nav{position:static}:not(pre)>code{white-space:pre-wrap}body{--content-padding:10px}#dmt{padding:0;text-align:center;width:40px}}header ul{padding:0}header li{list-style:none;display:inline-block}header a{display:block;height:100%}header li+li{margin-left:1em}footer{padding:2em 0;font-size:.85em;text-align:center}article h1.post-title{font-size:200%}article .post-title a{display:block}article .meta{font-size:90%;font-style:italic}.post-content>.image-container{margin-left:calc(-1*var(--content-padding));margin-right:calc(-1*var(--content-padding));display:block}img{max-width:100%;height:auto;display:block;margin:0 auto;background-size:cover}.post-header h1{line-height:1.2em;margin-bottom:.5em}.post-footer{text-align:center}.post-footer a{display:block}ol.post-list{list-style-position:inside;padding:0}.series-rider .series-name{font-style:italic}.highlight{color:var(--palette-text)}.highlight .k{color:var(--palette-purple)}.highlight .n{color:var(--palette-text)}.highlight .o{color:var(--palette-teal)}.highlight .p{color:var(--palette-text)}.highlight .cp{color:var(--palette-dim)}.highlight .c1{color:var(--palette-dim)}.highlight .kn{color:var(--palette-teal)}.highlight .nb{color:var(--palette-text)}.highlight .no{color:var(--palette-red)}.highlight .s2{color:var(--palette-green)}.highlight .se{color:var(--palette-orange)}.highlight .sr{color:var(--palette-green)}</style>
+<meta property=og:title content="How to Learn Nix, Part 16: Command Reference">
+<meta property=og:type content=website>
+<meta property=og:url content=https://ianthehenry.com/posts/how-to-learn-nix/command-reference/>
+<meta name=description content="Oooookay.
+I said I was gonna read the manual, right? I’ll do it. I’ll read it. I already read all those functions, didn’t I? It’s time for Part VI: Command Reference.">
+<meta property=og:description content="Oooookay.
+I said I was gonna read the manual, right? I’ll do it. I’ll read it. I already read all those functions, didn’t I? It’s time for Part VI: Command Reference.">
+<meta property=og:image content=https://ianthehenry.com/checkerboard.png>
+<meta name=twitter:creator content=@ianthehenry>
+<meta name=twitter:card content=summary>
+<link type=image/x-icon rel="shortcut icon" href="data:image/vnd.microsoft.icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAHH1uIDShg/xEsZv8GFk3/CSJb/wgZT/8IGU//CBlP/wkiW/8HGE7/CBlP/wkiW/8HIFX/BxhO/wcgVf8OK2t7JDhz/wcfW/8NNn7/CSpq/wkjYf8MJGP/DCJg/w02ef9SqdX/TKHJ/1my2f9Moc3/UqzV/1Cr1v9Pocf/Ditr/xk2cf8KJGL/CjR8/wwva/8RK2r/Cido/w8qa/8LLW//TqjT/1Gnz/9bsNf/Sp/K/1Wt2f9Wrtj/UKjQ/w8xc/8gPHj/Di5w/xk4ef8TL27/Dy5u/xU3fv8QLGv/Ditr/1qy3f9dttv/Yrje/0ecx/9Knsz/U6fQ/1m13f8YN3n/JjZx/wszdv8YOXz/Eilm/xc3e/8dSZT/GDJz/xk/hv9hu+P/WbHZ/1mv1v9Kn8z/WLHd/1212v9ds9n/Eipr/xcqYv8SOX3/GzRz/xQrZ/8aM3D/HEuU/xc0df8fPYD/Yrre/1603P9dt9z/VKvY/1iz4v9etNr/Y73m/xk5fP8cMm3/JEWK/xc0dP8eO3v/Hjd4/ydRnP8WM3P/Gjd3/2bA5/9dtd//Ybng/2K95v9ct+P/Ybnf/2K95/8oS5L/GChg/xxBh/8lSIz/GC5s/yM5ev8hRoz/HTp7/yE6e/9Zsdz/YLzn/2jF7v9ryfL/YLzn/1qu1f9htdz/GDyD/y0/ev9qx/X/acDn/1235v9euun/Yb3r/1665v9owu7/GUOL/yhGh/8nUJL/MkmI/yBFiP8jOHb/MVag/yM+gv8VMGv/acXx/27G7/9szv3/bMb1/2zD6/9vy/X/edf5/yBHjv8yS47/JEuO/zVLiv8nS5D/LkOB/yRXpP8lQoT/H0WI/3fS+P910Pf/b8/8/2bB7/991Pn/eNb+/3nT+P8pS5L/O1GS/ytUnP86UJH/NF2k/zNLjP8sXKv/JkCB/x4+ff+B2/3/etT9/4He//922f//fNf//3TT//991/7/NU6N/zZSkP86Zav/PlWR/zFepv88ZKb/MF2n/yQ/gf8bNXH/fd3//3/b//+K6P//ft///3vV//993f//gdz//0hWlf9FZKX/RmOj/0JXlv9IeMP/QXKz/0Jsuf8eO3z/Hjt2/3vd//+C3v//ju3//3zg//+H4v//guL//4nj//9HXp3/UGur/ztgqf9JYqP/S3G4/05ur/9EbLT/Hjt7/zNJhf+G4///heT//4rq//+E5///iOT//4jr//+G4///UXO0/09iov9EX6H/SWWn/1V5wP9Kaa7/RGSp/ydLj/8NKGCfDShg/x8+d/8RLGb/CBlP/wYWTf8GFEj/CBNH/wooZP8JIlv/CCJd/woWSf8HGE7/ByBV/wwgU/8fO3mfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="><meta http-equiv=content-security-policy content="default-src 'none'; font-src 'self' data:; img-src 'self' data:; style-src 'unsafe-inline'; media-src 'self' data:; script-src 'unsafe-inline' data:; object-src 'self' data:; frame-src 'self' data:;"><style>img[src="data:,"],source[src="data:,"]{display:none!important}</style></head>
+<body class=content-page>
+<a class=promo href=https://janet.guide/ target=_blank><i>psst, hey kid, wanna read a weird programming book</i></a>
+<header>
+<a class=site-title href=https://ianthehenry.com/>Ian Henry</a>
+<nav>
+<ul><li><a href=https://ianthehenry.com/about/>About</a><li><a href=https://ianthehenry.com/posts/>Blog</a><li><a href=https://ianthehenry.com/stuff/>Stuff</a></ul>
+</nav>
+<button id=dmt title="Toggle dark mode"></button>
+</header>
+<main>
+<aside class=series-rider>
+<p>This post is part of the series <a class=series-name href=https://ianthehenry.com/posts/how-to-learn-nix/>How to Learn Nix</a>, a rambling diary in which I work my way through the Nix manual in excrutiating detail.</p>
+</aside>
+<article class=post>
+<div class=post-header>
+<time class=meta datetime=2021-03-14>March 14, 2021</time>
+<h1 class=post-title>
+<a href=https://ianthehenry.com/posts/how-to-learn-nix/command-reference/>How to Learn Nix, Part&nbsp;16:<br>Command Reference</a></h1>
+</div>
+<div class=post-content><p>Oooookay.</p>
+<p>I said I was gonna read the manual, right? I’ll do it. I’ll read it. I already <a href=https://ianthehenry.com/posts/how-to-learn-nix/built-in-functions/>read all those functions</a>, didn’t I? It’s time for <a href=https://web.archive.org/web/20210227145624/https://nixos.org/manual/nix/stable/#part-command-ref>Part VI: Command Reference</a>.</p>
+<h1 id=chapter-20-common-optionshttpswebarchiveorgweb20210227145624httpsnixosorgmanualnixstablesec-common-options><a href=https://web.archive.org/web/20210227145624/https://nixos.org/manual/nix/stable/#sec-common-options>Chapter 20. Common Options</a></h1>
+<p>Shoutout to <code>--fallback</code>:</p>
+<blockquote>
+<p>Whenever Nix attempts to build a derivation for which substitutes are known for each output path, but realising the output paths through the substitutes fails, fall back on building the derivation.</p>
+<p>The most common scenario in which this is useful is when we have registered substitutes in order to perform binary distribution from, say, a network repository. If the repository is down, the realisation of the derivation will fail. When this option is specified, Nix will build the derivation instead. Thus, installation from binaries falls back on installation from source. This option is not the default since it is generally not desirable for a transient failure in obtaining the substitutes to lead to a full build from source (with the related consumption of resources).</p>
+</blockquote>
+<p>Makes sense! Fail early.</p>
+<p>I learn about <code>--arg name value</code>, which is interesting:</p>
+<blockquote>
+<p>This option is accepted by <code>nix-env</code>, <code>nix-instantiate</code> and <code>nix-build</code>. When evaluating Nix expressions, the expression evaluator will automatically try to call functions that it encounters. It can automatically call functions for which every argument has a default value (e.g., <code>{ argName ? defaultValue }: ...</code>). With <code>--arg</code>, you can also call functions that have arguments without a default value (or override a default value). That is, if the evaluator encounters a function with an argument named <code>name</code>, it will call it with value <code>value</code>.</p>
+</blockquote>
+<p>I saw before why the expression <code>import &lt;nixpkgs&gt;</code> was a function – so I can change the <code>system</code> if I want to, and probably other things.</p>
+<p><code>--argstr</code> lets me get away from quoting <code>value</code> in double-quotes, which is nice.</p>
+<p>In the description of <code>--attr</code>:</p>
+<blockquote>
+<p>In addition to attribute names, you can also specify array indices. For instance, the attribute path <code>foo.3.bar</code> selects the <code>bar</code> attribute of the fourth element of the array in the <code>foo</code> attribute of the top-level expression.</p>
+</blockquote>
+<p>First time I’ve heard the term “array.” First time I’ve seen this syntax.</p>
+<pre tabindex=0><code>nix-repl&gt; [1 2 3].2
+error: attempt to call something which is not a function but a list, at (string):1:1
+
+nix-repl&gt; [1 2 3].foo
+error: value is a list while a set was expected, at (string):1:1
+</code></pre><p>I guess I don’t know what an array is? No idea.</p>
+<p><code>--expr</code> is akin to <code>bash</code>’s <code>-c</code>. Neat.</p>
+<h1 id=chapter-21-common-environment-variableshttpswebarchiveorgweb20210227145624httpsnixosorgmanualnixstablesec-common-env><a href=https://web.archive.org/web/20210227145624/https://nixos.org/manual/nix/stable/#sec-common-env>Chapter 21. Common Environment Variables</a></h1>
+<p><code>IN_NIX_SHELL</code>:</p>
+<blockquote>
+<p>Indicator that tells if the current environment was set up by <code>nix-shell</code>. Since Nix 2.0 the values are <code>"pure"</code> and <code>"impure"</code></p>
+</blockquote>
+<p>Huh. I wonder what that means.</p>
+<p>I learn that <code>NIX_PATH</code> has a special shorthand way to refer to the “official” Nix channels: <code>nixpkgs=channel:nixos-15.09</code> is a valid <code>NIX_PATH</code> element.</p>
+<p>I don’t understand how the colon is an element separator but also a part of that syntax? I am confused. Oh well.</p>
+<p>This seems to be the “prefix” thing that I saw in <code>builtins.nixPath</code>.</p>
+<h1 id=chapter-22-main-commandshttpswebarchiveorgweb20210227145624httpsnixosorgmanualnixstablech-main-commands><a href=https://web.archive.org/web/20210227145624/https://nixos.org/manual/nix/stable/#ch-main-commands>Chapter 22. Main Commands</a></h1>
+<p>This looks like just… the man pages. For all the main commands. Or like… the man pages as they existed at some point in time? But augmented with <em>hypertext</em>.</p>
+<h2 id=nix-env><code>nix-env</code></h2>
+<p>Alright. I read about <code>nix-env</code>. When installing a package using “symbolic name” mode (the thing that takes 30 seconds):</p>
+<blockquote>
+<p>If there are multiple derivations matching a name in <code>args</code> that have the same name (e.g., <code>gcc-3.3.6</code> and <code>gcc-4.1.1</code>), then the derivation with the highest <em>priority</em> is used. A derivation can define a priority by declaring the <code>meta.priority</code> attribute. This attribute should be a number, with a higher value denoting a lower priority. The default priority is <code>0</code>.</p>
+<p>If there are multiple matching derivations with the same priority, then the derivation with the highest version will be installed.</p>
+</blockquote>
+<p>Okay. I won’t use that, ever, because it takes 30 seconds to do anything with it, but sure.</p>
+<blockquote>
+<p>To find out the attribute paths of available packages, use <code>nix-env -qaP</code>.</p>
+</blockquote>
+<p>I run that, and am delighted to find, hidden amongst the tens of thousands of lines of uninteresting output:</p>
+<pre tabindex=0><code>ianpkgs.hello       my-hello-1.0
+</code></pre><p>We made it.</p>
+<p>Alright, continuing through <code>nix-env</code>… we already saw <code>--upgrade</code> and <code>--uninstall</code>. We have <code>--set</code>? Which “modifies the current generation of a profile so that it contains exactly the specified derivation, and nothing else.” Okay? I am curious what the point of that is. Can I make a derivation that expresses my entire profile? I would totally do that so that I could have the same environment on multiple machines, if I knew how.</p>
+<p>Then <code>--set-flag</code>. Hmm. This is weird. I can… change properties of installed derivations? Like override things? The documentation says that <code>priority</code>, <code>keep</code>, and <code>active</code> are “useful” things.</p>
+<p>Hmm. Let’s see what this does. I first remove <code>hello</code> to make sure I get the “official” one:</p>
+<pre tabindex=0><code>$ nix-env -e hello
+
+$ nix-env -iA nixpkgs.hello
+installing 'hello-2.10'
+these paths will be fetched (0.02 MiB download, 0.07 MiB unpacked):
+  /nix/store/pakmb65sf3g2hkbm1fdgk2fh6hiij720-hello-2.10
+copying path '/nix/store/pakmb65sf3g2hkbm1fdgk2fh6hiij720-hello-2.10' from 'https://cache.nixos.org'...
+building '/nix/store/zf5nn4ad6g1s8w252ja5zrn7mvy45b26-user-environment.drv'...
+error: packages '/nix/store/rfd0d3kxdvj1z281bs96baa8fx5zl83z-my-hello-1.0/bin/hello' and '/nix/store/pakmb65sf3g2hkbm1fdgk2fh6hiij720-hello-2.10/bin/hello' have the same priority 5; use 'nix-env --set-flag priority NUMBER INSTALLED_PKGNAME' to change the priority of one of the conflicting packages (0 being the highest priority)
+builder for '/nix/store/zf5nn4ad6g1s8w252ja5zrn7mvy45b26-user-environment.drv' failed with exit code 1
+error: build of '/nix/store/zf5nn4ad6g1s8w252ja5zrn7mvy45b26-user-environment.drv' failed
+</code></pre><p>Oh wow! Weird coincidence. <span id=nix-env-name-mistake>I forgot that I need to use <code>nix-env -e my-hello</code></span>. I wonder why I can’t just say <code>nix-env -eA ianpkgs.hello</code>. The lack of symmetry is very upsetting.</p>
+<pre tabindex=0><code>$ nix-env -e my-hello
+uninstalling 'my-hello-1.0'
+building '/nix/store/m3ppbfhjrjr6mbzk12hd552fnggl37hf-user-environment.drv'...
+created 40 symlinks in user environment
+
+$ nix-env -iA nixpkgs.hello
+installing 'hello-2.10'
+building '/nix/store/s223rbnw7kg5mp873vpayaqsr69bnqms-user-environment.drv'...
+created 43 symlinks in user environment
+</code></pre><p>Okay. Back to normal. Now let’s see how this works…</p>
+<pre tabindex=0><code>$ nix-env --set-flag name hello-renamed nixpkgs.hello
+error: selector 'nixpkgs.hello' matches no derivations
+</code></pre><p><em>Ugh</em>.</p>
+<pre tabindex=0><code>$ nix-env --set-flag name hello-renamed hello
+setting flag on 'hello-2.10'
+building '/nix/store/rx46k8gb3as8b3jwy5id5zjxb8dp8bfa-user-environment.drv'...
+created 43 symlinks in user environment
+</code></pre><p>Okay.</p>
+<pre tabindex=0><code>$ hello-renamed
+zsh: command not found: hello-renamed
+</code></pre><p>Duh; renaming the derivation wouldn’t change the name of its output.</p>
+<pre tabindex=0><code>$ nix-env -q | cat
+hello-2.10
+keen4
+nix-2.3.10
+nss-cacert-3.60
+sl-5.05
+</code></pre><p>Hmm. Does not seem to have done anything.</p>
+<p>Ah, but looking back in the manual, it says “allows <em>meta</em> attributes of installed packages to be modified” (emphasis mine). Whoops. Well okay – let’s try that.</p>
+<pre tabindex=0><code>$ nix-env --set-flag priority 1234 hello
+setting flag on 'hello-2.10'
+building '/nix/store/d8hjw2znsh2f3y3p6ihyr91v1p1xn0vl-user-environment.drv'...
+created 43 symlinks in user environment
+</code></pre><p>Did it work? Did it do anything? I don’t know. I don’t know how to “view” this derivation. I am mostly curious about <em>where this information is stored</em>. I assume, you know, this isn’t rewriting the <code>hello.nix</code> file; that would be crazy. But this doesn’t fit into my current mental model of Nix expression evaluation. Derivations are found, and then… <em>patched?</em> On a per-user basis? Presumably only when I’m using <code>nix-env</code>? What about <code>nix-build</code>? I do not know.</p>
+<p>The manual says “they affect the behaviour of <code>nix-env</code> or the user environment build script.” What’s the “user environment build script”?</p>
+<p>The manual doesn’t say anything about how this works. Maybe I can figure it out:</p>
+<pre tabindex=0><code>$ rg 1234 /nix/var
+
+$ rg 1234 ~/.nix-profile
+</code></pre><p>Hmmmmmmmm. Okay. No idea. Must be magic.</p>
+<pre tabindex=0><code>$ nix-env --set-flag priority 90424915 hello
+
+$ rg --files-with-matches 90424915 /nix/store
+/nix/store/gdq1348ld0qcgf7csf91331wqbls93yw-env-manifest.nix
+/nix/store/9jmsijgqm9flpp37q9v43lpfp974zhmv-user-environment.drv
+</code></pre><p>Okay. Oh. I’m a dum-dum: <code>rg</code> needs <code>-L</code> to actually follow <code>~/.nix-profile</code>. It’s right there:</p>
+<pre tabindex=0><code>$ rg -L --files-with-matches 90424915 ~/.nix-profile/
+/Users/ian/.nix-profile/manifest.nix
+</code></pre><p>Really wish I know how to pretty print this file.</p>
+<pre tabindex=0><code>$ nix repl
+Welcome to Nix version 2.3.10. Type :? for help.
+
+nix-repl&gt; manifest = import /Users/ian/.nix-profile/manifest.nix
+
+nix-repl&gt; :p manifest
+[ «derivation ???» «derivation ???» «derivation ???» «derivation ???» «derivation ???» ]
+</code></pre><p>Cool thanks. There doesn’t seem to be any Nix pretty printer. I see <code>nix eval</code>, and try that:</p>
+<pre tabindex=0><code>$ nix eval 'import /Users/ian/.nix-profile/manifest.nix'
+error: getting status of '/Users/ian/scratch/import /Users/ian/.nix-profile/manifest.nix': No such file or directory
+</code></pre><p>What?? I read <code>nix eval --help</code>. The example uses a normal expression:</p>
+<pre tabindex=0><code>$ nix eval '(1 + 2)'
+3
+
+$ nix eval '1 + 2'
+error: don't know what to do with argument '1 + 2'
+Try 'nix --help' for more information.
+</code></pre><p>Are you <em>kidding me?</em> Why? What? In case you were wondering: there is <em>nothing</em> in <code>nix eval --help</code> about this. But you know what, sure, fine; whatever.</p>
+<pre tabindex=0><code>$ nix eval '(import /Users/ian/.nix-profile/manifest.nix)'
+(incredibly long single line of un-prettified output elided)
+</code></pre><p>Cool. Okay. Cool. Sure.</p>
+<p>This is very upsetting, but I think if I want to <em>actually</em> read this file, I have to do this:</p>
+<pre tabindex=0><code>$ nix-env -i jq
+^Cerror: interrupted by the user
+
+$ nix-env -iA nixpkgs.jq
+installing 'jq-1.6'
+...
+
+$ nix eval --json '(import /Users/ian/.nix-profile/manifest.nix)' | jq .
+[
+  "/nix/store/vz6aphin9j1nkcmd6wcyi0hbk20kbxx1-jq-1.6-bin",
+  "/nix/store/pakmb65sf3g2hkbm1fdgk2fh6hiij720-hello-2.10",
+  "/nix/store/0ma07n8g55g2gxsbk917p2s0x6d9yhn1-keen4",
+  "/nix/store/ps4yifn6srsqb2x1g3r3h7v0k91h88j1-sl-5.05",
+  "/nix/store/q0z2kvkgrpvaipa87jl98qh7g5pym5fj-nix-2.3.10",
+  "/nix/store/ki7gssifc0xracrah8ygm63xj23wkjdz-nss-cacert-3.60"
+]
+</code></pre><p><em>You have got to be kidding me</em>. Ugh. Yes; I understand; I know what’s happening here. I just… I just want to read this file. This is the best I can come up with:</p>
+<pre tabindex=0><code>$ cat ~/.nix-profile/manifest.nix | tr ';' '\n'
+</code></pre><p>Are you happy, Nix? Are you okay this this? Anyway. It’s a list of what I think might be inputs to the <code>derivation</code> function? I find <code>hello</code>, and painstakingly beautify it by hand:</p>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-nix data-lang=nix><span class=p>{</span>
+  <span class=n>name</span> <span class=o>=</span> <span class=s2>"hello-2.10"</span><span class=p>;</span>
+  <span class=n>out</span> <span class=o>=</span> <span class=p>{</span> <span class=n>outPath</span> <span class=o>=</span> <span class=s2>"/nix/store/pakmb65sf3g2hkbm1fdgk2fh6hiij720-hello-2.10"</span><span class=p>;</span> <span class=p>};</span>
+  <span class=n>outPath</span> <span class=o>=</span> <span class=s2>"/nix/store/pakmb65sf3g2hkbm1fdgk2fh6hiij720-hello-2.10"</span><span class=p>;</span>
+  <span class=n>outputs</span> <span class=o>=</span> <span class=p>[</span> <span class=s2>"out"</span> <span class=p>];</span>
+  <span class=n>system</span> <span class=o>=</span> <span class=s2>"x86_64-darwin"</span><span class=p>;</span>
+  <span class=n>type</span> <span class=o>=</span> <span class=s2>"derivation"</span><span class=p>;</span>
+  <span class=n>meta</span> <span class=o>=</span> <span class=p>{</span>
+    <span class=n>available</span> <span class=o>=</span> <span class=no>true</span><span class=p>;</span>
+    <span class=n>broken</span> <span class=o>=</span> <span class=no>false</span><span class=p>;</span>
+    <span class=n>changelog</span> <span class=o>=</span> <span class=s2>"https://git.savannah.gnu.org/cgit/hello.git/plain/NEWS?h=v2.10"</span><span class=p>;</span>
+    <span class=n>description</span> <span class=o>=</span> <span class=s2>"A program that produces a familiar, friendly greeting"</span><span class=p>;</span>
+    <span class=n>homepage</span> <span class=o>=</span> <span class=s2>"https://www.gnu.org/software/hello/manual/"</span><span class=p>;</span>
+    <span class=n>insecure</span> <span class=o>=</span> <span class=no>false</span><span class=p>;</span>
+    <span class=n>license</span> <span class=o>=</span> <span class=p>{</span> <span class=o>...</span> <span class=p>};</span>
+    <span class=n>longDescription</span> <span class=o>=</span> <span class=s2>"GNU Hello is a program that prints </span><span class=se>\"</span><span class=s2>Hello, world!</span><span class=se>\"</span><span class=s2> when you run it.</span><span class=se>\n</span><span class=s2>It is fully customizable.</span><span class=se>\n</span><span class=s2>"</span><span class=p>;</span>
+    <span class=n>maintainers</span> <span class=o>=</span> <span class=p>[</span> <span class=o>...</span> <span class=p>];</span>
+    <span class=n>name</span> <span class=o>=</span> <span class=s2>"hello-renamed"</span><span class=p>;</span>
+    <span class=n>outputsToInstall</span> <span class=o>=</span> <span class=p>[</span> <span class=s2>"out"</span> <span class=p>];</span>
+    <span class=n>platforms</span> <span class=o>=</span> <span class=p>[</span> <span class=o>...</span> <span class=p>];</span>
+    <span class=n>position</span> <span class=o>=</span> <span class=s2>"/nix/store/ys2x968psphylqb0gri928km5bny25ww-nixpkgs-21.05pre271444.9816b99e71c/nixpkgs/pkgs/applications/misc/hello/default.nix:15"</span><span class=p>;</span>
+    <span class=n>priority</span> <span class=o>=</span> <span class=s2>"90424915"</span><span class=p>;</span>
+    <span class=n>unfree</span> <span class=o>=</span> <span class=no>false</span><span class=p>;</span>
+    <span class=n>unsupported</span> <span class=o>=</span> <span class=no>false</span><span class=p>;</span>
+  <span class=p>};</span>
+<span class=p>}</span>
+</code></pre></div><p>Hmm. It’s clearly not <em>all</em> the inputs. No <code>builder</code>, for example. I have no idea what this is. But I guess that when I use <code>nix-env</code> it like… evaluates expressions… and then looks at <code>manifest.nix</code>… to overwrite the <code>meta</code> field? Or something? I don’t know. Note that <code>meta.name = "hello-renamed"</code>, although I don’t think that that field is meaningful.</p>
+<p>Moving on.</p>
+<p><code>nix-env --query</code>. Not really anything interesting here. When does Nix use the term “package” and when does it use the term “derivation”? I still don’t understand that. It has an example to “show available packages in the Nix expression <code>foo.nix</code>,” but isn’t that really listing <em>derivations?</em> I assume? I don’t know.</p>
+<p>The rest of <code>nix-env</code> is profile generation stuff. Nothing new here.</p>
+<h2 id=nix-build><code>nix-build</code></h2>
+<p>We move on to <code>nix-build</code>, and learn this interesting tidbit:</p>
+<blockquote>
+<p><code>nix-build</code> is essentially a wrapper around <code>nix-instantiate</code> (to translate a high-level Nix expression to a low-level store derivation) and <code>nix-store --realise</code> (to build the store derivation).</p>
+</blockquote>
+<p>Well I’ll be.</p>
+<p>Nix build says it takes a path, but the first example is this:</p>
+<blockquote>
+<pre tabindex=0><code>$ nix-build '&lt;nixpkgs&gt;' -A firefox
+</code></pre></blockquote>
+<p>So it means that it takes a <em>Nix</em> path, not a file path. Good to know, as I had assumed, you know, the thing that I’m used to.</p>
+<p>I learn that <code>nix-build</code> will only build the default output by default, but that I can say:</p>
+<blockquote>
+<pre tabindex=0><code>$ nix-build '&lt;nixpkgs&gt;' -A openssl.all
+</code></pre></blockquote>
+<p>To build all outputs.</p>
+<p><em>Huh?</em> Is <code>(derivation).all</code> a thing? Is that special syntax to <code>nix-build</code>? Let’s find out.</p>
+<pre tabindex=0><code>$ nix-build '&lt;nixpkgs&gt;' -A openssl.all
+... lots of build output ...
+</code></pre><pre tabindex=0><code>$ ls result*
+result@     result-bin@ result-dev@ result-doc@ result-man@
+</code></pre><pre tabindex=0><code>$ nix eval '(import &lt;nixpkgs&gt; {}).openssl.all'
+trace: Warning: `stdenv.lib` is deprecated and will be removed in the next release. Please use `lib` instead. For more information see https://github.com/NixOS/nixpkgs/issues/108938
+trace: lib.crossLists is deprecated, use lib.cartesianProductOfSets instead
+trace: `lib.nixpkgsVersion` is deprecated, use `lib.version` instead!
+trace: lib.zip is deprecated, use lib.zipAttrsWith instead
+trace: warning: lib.readPathsFromFile is deprecated, use a list instead
+trace: `mkStrict' is obsolete; use `mkOverride 0' instead.
+trace: Warning: `showVal` is deprecated and will be removed in the next release, please use `traceSeqN`
+trace: Warning: `stdenv.lib` is deprecated and will be removed in the next release. Please use `lib` instead. For more information see https://github.com/NixOS/nixpkgs/issues/108938
+trace: Warning: `stdenv.lib` is deprecated and will be removed in the next release. Please use `lib` instead. For more information see https://github.com/NixOS/nixpkgs/issues/108938
+trace: Warning: `stdenv.lib` is deprecated and will be removed in the next release. Please use `lib` instead. For more information see https://github.com/NixOS/nixpkgs/issues/108938
+trace: Warning: `stdenv.lib` is deprecated and will be removed in the next release. Please use `lib` instead. For more information see https://github.com/NixOS/nixpkgs/issues/108938
+trace: Warning: `stdenv.lib` is deprecated and will be removed in the next release. Please use `lib` instead. For more information see https://github.com/NixOS/nixpkgs/issues/108938'
+^Cerror: interrupted by the user
+</code></pre><p>It just hung for like ten seconds so I gave up.</p>
+<p>Huuuuh. No idea. Okay. No idea. Not gonna… just no idea.</p>
+<h2 id=nix-shell><code>nix-shell</code></h2>
+<p>I continue on to <code>nix-shell</code>.</p>
+<p>I think that <code>nix-shell</code> is kind of Nix’s killer feature, but I’ve only seen it once in the manual so far: when we were using <code>nix-shell -p</code>, <a href=https://ianthehenry.com/posts/how-to-learn-nix/quick-start-guide/>all the way back in the quick start guide</a>. The description in the manual does not really line up with what we observed:</p>
+<blockquote>
+<p>The command <code>nix-shell</code> will build the dependencies of the specified derivation, but not the derivation itself. It will then start an interactive shell in which all environment variables defined by the derivation path have been set to their corresponding values, and the script <code>$stdenv/setup</code> has been sourced. This is useful for reproducing the environment of a derivation for development.</p>
+</blockquote>
+<p>Okay. So it gives me an environment similar to the one in which my <code>builder.sh</code> ran. Makes sense: that’s what I would want, if I were iteratively working on a project.</p>
+<blockquote>
+<p>If the derivation defines the variable <code>shellHook</code>, it will be evaluated after <code>$stdenv/setup</code> has been sourced. Since this hook is not executed by regular Nix builds, it allows you to perform initialisation specific to <code>nix-shell</code>.</p>
+</blockquote>
+<p>Neat. So I could, if I wanted, set <code>PS1</code> to some custom thing for my project. Or something; I dunno.</p>
+<p>Let’s try this out. It doesn’t take long for me to get a shell that works for <code>my-hello</code>:</p>
+<pre><code>$ cat shell.nix
+</code></pre>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-nix data-lang=nix><span class=k>let</span> <span class=n>stdenv</span> <span class=o>=</span> <span class=p>(</span><span class=kn>import</span> <span class=sr>&lt;nixpkgs&gt;</span> <span class=p>{})</span><span class=o>.</span><span class=n>stdenv</span><span class=p>;</span> <span class=k>in</span>
+<span class=kn>import</span> <span class=sr>./hello.nix</span> <span class=p>{</span> <span class=k>inherit</span> <span class=n>stdenv</span><span class=p>;</span> <span class=p>}</span>
+</code></pre></div><pre tabindex=0><code>$ nix-shell
+(downloading a million dev dependencies)
+
+[nix-shell:~/scratch]$ exit
+</code></pre><p>Neat.</p>
+<pre><code>$ cat hello.nix
+</code></pre>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-nix data-lang=nix><span class=p>{</span> <span class=n>stdenv</span> <span class=p>}:</span>
+
+<span class=nb>derivation</span> <span class=p>{</span>
+  <span class=k>inherit</span> <span class=n>stdenv</span><span class=p>;</span>
+  <span class=n>system</span> <span class=o>=</span> <span class=s2>"x86_64-darwin"</span><span class=p>;</span>
+  <span class=n>name</span> <span class=o>=</span> <span class=s2>"my-hello-1.0"</span><span class=p>;</span>
+  <span class=n>builder</span> <span class=o>=</span> <span class=n>stdenv</span><span class=o>.</span><span class=n>shell</span><span class=p>;</span>
+  <span class=n>args</span> <span class=o>=</span> <span class=p>[</span> <span class=s2>"-e"</span> <span class=sr>./builder.sh</span> <span class=p>];</span>
+  <span class=n>messagefile</span> <span class=o>=</span> <span class=sr>./message.txt</span><span class=p>;</span>
+  <span class=n>outputs</span> <span class=o>=</span> <span class=p>[</span><span class=s2>"foo"</span> <span class=s2>"out"</span><span class=p>];</span>
+  <span class=n>shellHook</span> <span class=o>=</span> <span class=s2>"PS1='sup$ '"</span><span class=p>;</span>
+<span class=p>}</span>
+</code></pre></div><pre tabindex=0><code>$ nix-shell
+sup$
+</code></pre><p>Excellent.</p>
+<p>More realistically, I could see myself setting env vars or something to enable more verbose/debug output only while in a shell. I dunno exactly what the use case is supposed to be here.</p>
+<blockquote>
+<p>All options not listed here are passed to <code>nix-store --realise</code>, except for <code>--arg</code> and <code>--attr</code> / <code>-A</code> which are passed to <code>nix-instantiate</code>.</p>
+</blockquote>
+<p><code>nix-build</code> had this same sentence – I assume <code>nix-shell</code> is also just a wrapper around those, although that isn’t stated explicitly this time.</p>
+<p>I am curious what the shell actually looks like, and how much control I have over it.</p>
+<pre tabindex=0><code>$ nix-shell
+sup$ echo $SHELL
+/nix/store/a1dq324pcgq8gm47q1xjnagj9vdx5k8i-bash-interactive-4.4-p23/bin/bash
+</code></pre><p>Could I, like, configure it to use <code>zsh</code>, somehow? What “normal” things are available to me? What does this environment look like?</p>
+<pre tabindex=0><code>sup$ echo $PATH | tr : '\n'
+/nix/store/a1dq324pcgq8gm47q1xjnagj9vdx5k8i-bash-interactive-4.4-p23/bin
+/nix/store/kxx4n980xm8qwkk145jidx8s04005yq7-clang-wrapper-7.1.0/bin
+/nix/store/1b8cbk68p7j7fn17z43rlwcf8ks4sa2i-clang-7.1.0/bin
+/nix/store/4wfhsy75bs6lsw8c3nyxm869z4w5g8vd-coreutils-8.32/bin
+/nix/store/x952ac06bg38jl9f5jgkg085vw6d21yh-cctools-binutils-darwin-wrapper-949.0.1/bin
+/nix/store/kiclfrcdg2lxifq68q7d354dlaqk8136-cctools-binutils-darwin-949.0.1/bin
+/nix/store/4wfhsy75bs6lsw8c3nyxm869z4w5g8vd-coreutils-8.32/bin
+/nix/store/4wfhsy75bs6lsw8c3nyxm869z4w5g8vd-coreutils-8.32/bin
+/nix/store/vaznvc9x54qsgrz8iial44ski19q5b00-findutils-4.7.0/bin
+/nix/store/53mx7zdf69h7212879a6sl377zsy52k9-diffutils-3.7/bin
+/nix/store/a7v6hnav786g120mbaqq6518bdinrnj5-gnused-4.8/bin
+/nix/store/z30bw9b4chcvyyy1d8595ilhrgp1y40z-gnugrep-3.6/bin
+/nix/store/18k3k2pnqj0xqlnw9nk3mxldi939byx4-gawk-5.1.0/bin
+/nix/store/c1rdliivs0gvckc96v6mfbi7c111nkrf-gnutar-1.32/bin
+/nix/store/f5ax81lvzbyyj7agvwynl1gh8y3vh204-gzip-1.10/bin
+/nix/store/a9k58a6y353nkdp3zfwnkbaaqk2x5knd-bzip2-1.0.6.0.1-bin/bin
+/nix/store/na3wscjazx8cwy9y1g2wv63yxvrnjh77-gnumake-4.3/bin
+/nix/store/5y6lcfjghk5kbv4782vi7w79vz60gsyn-bash-4.4-p23/bin
+/nix/store/zk4bd77s3m06rywwar3xj7h8yg6zlq7b-patch-2.7.6/bin
+/nix/store/0drrznwp316knss36m177bk3r3pgj31i-xz-5.2.5-bin/bin
+/Users/ian/.nix-profile/bin
+/Users/ian/.opam/default/bin
+/usr/local/bin
+/usr/bin
+/bin
+/usr/sbin
+/sbin
+/Library/Apple/usr/bin
+/Users/ian/.nodenv/shims
+/Users/ian/.local/bin
+/Users/ian/.pyenv/shims
+/Users/ian/.rbenv/shims
+/Users/ian/bin
+/usr/local/sbin
+./node_modules/.bin
+/Users/ian/.cabal/bin
+/Users/ian/src/httprintf/scripts
+</code></pre><p>Okay. So it didn’t clear my <code>PATH</code>, as you can see from the things that you can see there. My <em>private things</em>. I still have <a href=https://github.com/ianthehenry/httprintf><code>httprintf</code></a> installed? Man. Good times. What is <code>~/.local/bin</code>? I don’t even know. Not sure why <code>coreutils</code> shows up three times here.</p>
+<p>So the <code>nix-shell</code> environment is not supposed to be a clean-room, totally identical environment for every user on every machine. So it sure <em>seems</em> like I shouldn’t have to use <code>bash</code> just to use <code>nix-shell</code>. Maybe if I read on, I will learn more.</p>
+<p>Hmm:</p>
+<blockquote>
+<p>If [<code>--pure</code>] is specified, the environment is almost entirely cleared before the interactive shell is started, so you get an environment that more closely corresponds to the “real” Nix build. A few variables, in particular <code>HOME</code>, <code>USER</code> and <code>DISPLAY</code>, are retained. Note that <code>~/.bashrc</code> and (depending on your Bash installation) <code>/etc/bashrc</code> are still sourced, so any variables set there will affect the interactive shell.</p>
+</blockquote>
+<p>Yeah, okay, one of the first things it says is:</p>
+<blockquote>
+<p><code>NIX_BUILD_SHELL</code>: Shell used to start the interactive environment. Defaults to the <code>bash</code> found in <code>PATH</code>.</p>
+</blockquote>
+<p>That’s… that sounds wrong?</p>
+<pre tabindex=0><code>$ which bash
+/bin/bash
+
+$ nix-shell
+
+sup$ echo $SHELL
+/nix/store/a1dq324pcgq8gm47q1xjnagj9vdx5k8i-bash-interactive-4.4-p23/bin/bash
+
+sup$ suspend
+[1]  + 83101 suspended (signal)  nix-shell
+
+$ ps -p 83101
+  PID TTY           TIME CMD
+83101 ttys002    0:01.74 bash --rcfile /private/tmp/nix-shell-83101-0/rc
+</code></pre><p>Argh. I don’t know the macOS equivalent of <code>readlink /proc/83101/exe</code>, so I have no idea what <code>bash</code> <em>means</em> there. But I can figure it out empirically:</p>
+<pre tabindex=0><code>$ export PATH=$HOME/bin:$PATH
+
+$ echo 'echo "okay yeah"' &gt; ~/bin/bash
+
+$ chmod +x ~/bin/bash
+
+$ which bash
+/Users/ian/bin/bash
+
+$ nix-shell
+sup$
+</code></pre><p>Lies!</p>
+<p>Anyway:</p>
+<blockquote>
+<p>You can use <code>nix-shell</code> as a script interpreter to allow scripts written in arbitrary languages to obtain their own dependencies via Nix. This is done by starting the script with the following lines:</p>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=cp>#! /usr/bin/env nix-shell
+</span><span class=cp></span><span class=c1>#! nix-shell -i real-interpreter -p packages</span>
+</code></pre></div></blockquote>
+<p>Neat! That’s actually… kind of awesome. The weird double shebang is because on <em>some</em> operating systems – like mine, for example – you can only specify a single argument to the program in your shebang, for some reason. If you’ve never been bitten by that before: it’s super annoying.</p>
+<p>Okay; that’s all it has to say about <code>nix-shell</code>.</p>
+<p>Every time I run <code>nix-shell</code> it takes like two full seconds before I actually get to the prompt. That’s too many seconds. I guess realistically I should only start this once and I’m in it for a long time, but since I’m messing with it I keep jumping in and out. Still, anyone trying to <em>write</em> a <code>shell.nix</code> file is probably going to be annoyed by that.</p>
+<p>Now: how do I use <code>zsh</code>?</p>
+<pre tabindex=0><code>$ NIX_BUILD_SHELL=zsh nix-shell
+bash: no such option: rcfile
+</code></pre><p>Hmmmmmmm. Well that’s… a very surprising message.</p>
+<p><em>No</em> level of verbosity actually tells me what it’s trying to do.</p>
+<p>But I remember from the <code>ps</code> output that it’s calling <code>bash --rcfile ...</code>, so presumably… it’s doing <em>something</em> to invoke my <code>NIX_BUILD_SHELL</code> – <code>zsh</code> – with <code>$0</code> set to <code>bash</code>, and what I’m seeing is actually this error from <code>zsh</code>:</p>
+<pre tabindex=0><code>$ zsh --rcfile foo
+zsh: no such option: rcfile
+</code></pre><p>“Shaking my head.”</p>
+<p>Well hmmmm. I find it rather painful to use <code>bash</code> interactively, and this seems like a bizarre dependency/restriction to place on <code>nix-shell</code>. I bet that I can make like… a wrapper script? Around <code>zsh</code>? There doesn’t seem to be any way to make it <em>not</em> pass <code>--rcfile</code>. Sigh.</p>
+<h2 id=nix-store><code>nix-store</code></h2>
+<p>I move on to <code>nix-store</code>.</p>
+<blockquote>
+<p>You generally do not need to run this command manually.</p>
+</blockquote>
+<p>Okay. There are a few things it can do:</p>
+<p><code>--realise</code>, which I’ve seen before. There’s an example here:</p>
+<blockquote>
+<pre><code>$ nix-store -r $(nix-instantiate ./test.nix)
+/nix/store/31axcgrlbfsxzmfff1gyj1bf62hvkby2-aterm-2.3.1
+</code></pre>
+</blockquote>
+<p>It says “This is essentially what <code>nix-build</code> does.” Neat.</p>
+<p>Next we have <code>--serve</code>:</p>
+<blockquote>
+<p>The operation <code>--serve</code> provides access to the Nix store over stdin and stdout, and is intended to be used as a means of providing Nix store access to a restricted ssh user.</p>
+</blockquote>
+<p>This is <em>different</em> than the <code>--builders</code> thing we saw before. But maybe that’s implemented with this? No idea. There’s an example of adding an <code>authorized_key</code> that can only run <code>nix-store --serve</code>. Alright.</p>
+<p><code>nix-store --gc</code> is next. Has suboperations for printing live paths, dead paths, and GC roots.</p>
+<pre tabindex=0><code>$ nix-store --gc --print-roots
+/Users/ian/scratch/result -&gt; /nix/store/x98m491civwbjzwg5jbp7sgk16sd43gq-openssl-1.1.1i
+/Users/ian/scratch/result-bin -&gt; /nix/store/37xs5h3j5nw7ir9zm4g9wqm3i0dfmqpm-openssl-1.1.1i-bin
+/Users/ian/scratch/result-dev -&gt; /nix/store/x2n1j80f8gz2r34gpns3dfm5bfw30pk8-openssl-1.1.1i-dev
+/Users/ian/scratch/result-doc -&gt; /nix/store/wpjhgpchwcj0lj1lvbkf8sr5k0z4v8pn-openssl-1.1.1i-doc
+/Users/ian/scratch/result-man -&gt; /nix/store/94dqsl7hqy72bdji8bwajrq8q3l6v9hd-openssl-1.1.1i-man
+/nix/var/nix/profiles/per-user/ian/channels-1-link -&gt; /nix/store/98kbm9c2p7m8h1mjppvc0sam1vvkpz85-user-environment
+/nix/var/nix/profiles/per-user/ian/profile-36-link -&gt; /nix/store/0hd6v2qg6yb6vq0rswwcss2bmb5q7hpl-user-environment
+/nix/var/nix/profiles/per-user/ian/profile-37-link -&gt; /nix/store/1ycbnky2bp8sqa0lmglzshvc4db7hy6v-user-environment
+/nix/var/nix/profiles/per-user/ian/profile-38-link -&gt; /nix/store/d8ib4dy00afk7f5k1bxr3mys2n9nb6h3-user-environment
+{lsof} -&gt; /nix/store/2s8x59z3cly97fyc3hvlngl637snpwcq-swift-corefoundation
+{lsof} -&gt; /nix/store/4f5dzhsf7g1iyxgpgkaz5xlw1j7wwlcn-bzip2-1.0.6.0.1
+{lsof} -&gt; /nix/store/541lzmhppr82600vz7ap54n22dz7gydf-ICU-66108
+{lsof} -&gt; /nix/store/66xjqfj62sgdasiwqg9ynnv2w29v7761-editline-1.17.0
+{lsof} -&gt; /nix/store/7x357k8k3rwbq52j44mc11v1mv9hr4b7-libssh2-1.9.0
+{lsof} -&gt; /nix/store/80lqr4rajdip60b7ln0w9bg5kcjn1vzc-curl-7.74.0
+{lsof} -&gt; /nix/store/85sgz75qnywgcxsn0y41bykwkkfsxyl2-aws-c-cal-0.4.5
+{lsof} -&gt; /nix/store/8y9r21h0aqh3j84ipagsy8q1b5zv50cg-aws-checksums-0.1.11
+{lsof} -&gt; /nix/store/aqf78c2x1kwv9i123p55m3f4iyx9fz3c-openssl-1.1.1i
+{lsof} -&gt; /nix/store/awgjr2jdyr2gqhkd8nb03yh8bzcg1zci-xz-5.2.5
+{lsof} -&gt; /nix/store/c1ln5y1p009wn44j03z1r7rdhmjx3k2j-curl-7.74.0
+{lsof} -&gt; /nix/store/cgswwsl39w991i92f09mxbc58rlqr9x9-aws-c-common-0.4.64
+{lsof} -&gt; /nix/store/cz5fh11s985jncxmy0dwnxk079ln7mq3-brotli-1.0.9-lib
+{lsof} -&gt; /nix/store/i5pzypw0d97knbnq6sisvf1wkkbbb91g-libkrb5-1.18
+{lsof} -&gt; /nix/store/kpz8mj9iya2api2xkpjvbl71qnfjyz4l-aws-c-event-stream-0.2.6
+{lsof} -&gt; /nix/store/lzx704yj5p6rvwm44jrb20d4gsm4xfr4-aws-sdk-cpp-1.8.121
+{lsof} -&gt; /nix/store/m99vmj6i29lr6b66lqr7p5a3ji1z6zrc-sqlite-3.34.1
+{lsof} -&gt; /nix/store/mw590ax8x2n9161hwvnl9j5156di6d47-libc++abi-7.1.0
+{lsof} -&gt; /nix/store/phxiw7s3r2qc8q51a5rkcgdkx23x2mlm-libiconv-50
+{lsof} -&gt; /nix/store/pqajcmw6jmq2i8ka001z53r1a09w4y67-libssh2-1.9.0
+{lsof} -&gt; /nix/store/py64zn5n0vmcv1irdyr7vgn2pp7wx52s-nghttp2-1.41.0-lib
+{lsof} -&gt; /nix/store/q0z2kvkgrpvaipa87jl98qh7g5pym5fj-nix-2.3.10
+{lsof} -&gt; /nix/store/q1rhw9f30fm0yzx1hic1hgj31sfc6k4p-libkrb5-1.18
+{lsof} -&gt; /nix/store/rlbvxb9cjb15ify4i5rpg7yk1wpsiqsd-libsodium-1.0.18
+{lsof} -&gt; /nix/store/s5rd3hgdirrdwdfbn7m4hd0i3d2zqpz5-libxml2-2.9.10
+{lsof} -&gt; /nix/store/swm0jwbcn54rzkv8264gv7774lijmzpv-boost-1.69.0
+{lsof} -&gt; /nix/store/vrmgqjl51gwf47i5i1rbs7dnkb1g1pvf-libc++-7.1.0
+{lsof} -&gt; /nix/store/wphpzw2swy36pm4ph3r1zfvwfj2njxjf-zlib-1.2.11
+{lsof} -&gt; /nix/store/x98m491civwbjzwg5jbp7sgk16sd43gq-openssl-1.1.1i
+{lsof} -&gt; /nix/store/yi9klhxd1243l7inrkn12f6lwzp9bki4-Libsystem-1238.60.2
+{lsof} -&gt; /nix/store/ypj3w1f8lpk9gqlvbnb4dydggir28wnp-aws-c-io-0.7.1
+{lsof} -&gt; /nix/store/z716g9svwi8gxwc3ddbyh9jkr6xma3z2-boehm-gc-8.0.4
+{lsof} -&gt; /nix/store/zxya6i6ncqs8q6fq3mcl0igflmy2219n-nghttp2-1.41.0-lib
+</code></pre><p>Huh! I wonder what I have running that’s using those paths. I don’t <em>think</em> I have anything except the <code>nix-store</code> process itself. Are those all the runtime dependencies of <code>nix-store</code>? That seems… like a lot. But maybe! I wonder how I can ask Nix to show me runtime dependencies of a specific package output.</p>
+<p>Huh. <code>nix-store --delete</code> allows me to delete unreachable paths one by one, if I want to.</p>
+<p><code>nix-store --query</code> has a <em>lot</em> of subcommands. Let’s try them:</p>
+<pre tabindex=0><code>$ nix-store --query --outputs /nix/store/rsrwc2m01bh8ai0jfwjx1qlgvwshcm23-hello-2.10.drv
+/nix/store/pakmb65sf3g2hkbm1fdgk2fh6hiij720-hello-2.10
+</code></pre><p>Okay. Had to pass a <code>drv</code> file. Don’t really know what those are.</p>
+<pre tabindex=0><code>$ nix-store --query --requisites /nix/store/pakmb65sf3g2hkbm1fdgk2fh6hiij720-hello-2.10
+/nix/store/mw590ax8x2n9161hwvnl9j5156di6d47-libc++abi-7.1.0
+/nix/store/vrmgqjl51gwf47i5i1rbs7dnkb1g1pvf-libc++-7.1.0
+/nix/store/541lzmhppr82600vz7ap54n22dz7gydf-ICU-66108
+/nix/store/aqf78c2x1kwv9i123p55m3f4iyx9fz3c-openssl-1.1.1i
+/nix/store/wphpzw2swy36pm4ph3r1zfvwfj2njxjf-zlib-1.2.11
+/nix/store/pqajcmw6jmq2i8ka001z53r1a09w4y67-libssh2-1.9.0
+/nix/store/5y6lcfjghk5kbv4782vi7w79vz60gsyn-bash-4.4-p23
+/nix/store/yi9klhxd1243l7inrkn12f6lwzp9bki4-Libsystem-1238.60.2
+/nix/store/q1rhw9f30fm0yzx1hic1hgj31sfc6k4p-libkrb5-1.18
+/nix/store/zxya6i6ncqs8q6fq3mcl0igflmy2219n-nghttp2-1.41.0-lib
+/nix/store/c1ln5y1p009wn44j03z1r7rdhmjx3k2j-curl-7.74.0
+/nix/store/s5rd3hgdirrdwdfbn7m4hd0i3d2zqpz5-libxml2-2.9.10
+/nix/store/2s8x59z3cly97fyc3hvlngl637snpwcq-swift-corefoundation
+/nix/store/pakmb65sf3g2hkbm1fdgk2fh6hiij720-hello-2.10
+</code></pre><p>Are these runtime dependencies of <code>hello</code>? That’s… no. These are build dependencies. Right? I still don’t really know what “the closure of a store path” means. The manual explains why I might use this:</p>
+<blockquote>
+<p>This query can be used to implement various kinds of deployment. A <em>source deployment</em> is obtained by distributing the closure of a store derivation. A <em>binary deployment</em> is obtained by distributing the closure of an output path. A <em>cache deployment</em> (combined source/binary deployment, including binaries of build-time-only dependencies) is obtained by distributing the closure of a store derivation and specifying the option <code>--include-outputs</code>.</p>
+</blockquote>
+<p>Okay. I sort of zone out, and have trouble following this. I don’t know what “the closure of a store derivation” means. Is the thing I printed above “the closure of an output path”? It sure doesn’t <em>seem</em> like those should be runtime dependencies. I don’t know.</p>
+<p>Oh wow, but if I run it with a derivation:</p>
+<pre tabindex=0><code>$ nix-store --query --requisites /nix/store/rsrwc2m01bh8ai0jfwjx1qlgvwshcm23-hello-2.10.drv | head
+/nix/store/1i5y55x4b4m9qkx5dqbmr1r6bvrqbanw-multiple-outputs.sh
+/nix/store/bnj8d7mvbkg3vdb07yz74yhl3g107qq5-patch-shebangs.sh
+/nix/store/cickvswrvann041nqxb0rxilc46svw1n-prune-libtool-files.sh
+/nix/store/cl3qd985p1yxyfkj96v0hqxiy3w69xq5-compress-man-pages.sh
+/nix/store/dsyj1sp3h8q2wwi8m6z548rvn3bmm3vc-builder.sh
+/nix/store/fyaryjvghbkpfnsyw97hb3lyb37s1pd6-move-lib64.sh
+/nix/store/h54dzwd7rdh2jlcv91424csl6d0ccgjy-strip.sh
+/nix/store/71d9qf26s1nzrp34cqw1hh0yrx0h1kbx-cpio.drv
+/nix/store/7jl6nhfsc0mchccg5w40rfm4zfshpsag-bzip2.drv
+/nix/store/bci5x35014bbpc87x7ds2n2ffh5syns1-sh.drv
+</code></pre><p>I get <em>way more</em>. So I guess GNU <code>hello</code> has a runtime dependency on <code>openssl</code>. Who knew.</p>
+<p>I can see the reverse, and see anything that refers to <code>hello</code>:</p>
+<pre tabindex=0><code>$ nix-store --query --referers /nix/store/pakmb65sf3g2hkbm1fdgk2fh6hiij720-hello-2.10
+/nix/store/284k5vqfd305b3gwsi5b812mi0r5y14d-env-manifest.nix
+/nix/store/0hd6v2qg6yb6vq0rswwcss2bmb5q7hpl-user-environment
+/nix/store/gdq1348ld0qcgf7csf91331wqbls93yw-env-manifest.nix
+/nix/store/1ycbnky2bp8sqa0lmglzshvc4db7hy6v-user-environment
+/nix/store/47srnbccwfzn29psab0h6ca7vrl9bjm1-env-manifest.nix
+/nix/store/lb1xkhvrdrsjhfmxlgdqz19nvg6aay3v-env-manifest.nix
+/nix/store/47xq5hw013axr41nhay5fjb4ns9mjj0k-user-environment
+/nix/store/ghcmiqqd9dy5bm465b5q18fwblakycza-env-manifest.nix
+/nix/store/5mhy1r42mg3qmb749gr633cb7r437vw7-user-environment
+/nix/store/ghyl8jvypws36wga7pd2if5km36m6irw-env-manifest.nix
+/nix/store/d8ib4dy00afk7f5k1bxr3mys2n9nb6h3-user-environment
+/nix/store/k68v9b59l2gyiikfwpj1yj7pvxs194zz-env-manifest.nix
+/nix/store/hvshm1v6g4d1k5k8k02jk0386850q0qj-user-environment
+/nix/store/wwls7pkgj6ndflhg8mxgslyx9fjax93b-env-manifest.nix
+/nix/store/vdgl8anh9g0nmwx7zb3q244bbgm1nknb-user-environment
+</code></pre><p>Is that really how we’re going to spell “referers”? What is this, HTTP? (It seems to accept the correct spelling also.)</p>
+<p>Neat. I can find a “deriver” – a term that is in the glossary but which I had forgotten:</p>
+<pre tabindex=0><code>$ nix-store --query --deriver /nix/store/pakmb65sf3g2hkbm1fdgk2fh6hiij720-hello-2.10
+/nix/store/6rcmdg8cxrx2wj86v7h9hzgppcpbbxgh-hello-2.10.drv
+</code></pre><p>That file does not actually exist, which is… weird?</p>
+<p>I can print a cute tree:</p>
+<pre tabindex=0><code>$ nix-store --query --tree /nix/store/pakmb65sf3g2hkbm1fdgk2fh6hiij720-hello-2.10 | head
+/nix/store/pakmb65sf3g2hkbm1fdgk2fh6hiij720-hello-2.10
++---/nix/store/2s8x59z3cly97fyc3hvlngl637snpwcq-swift-corefoundation
+    +---/nix/store/541lzmhppr82600vz7ap54n22dz7gydf-ICU-66108
+    |   +---/nix/store/vrmgqjl51gwf47i5i1rbs7dnkb1g1pvf-libc++-7.1.0
+    |   |   +---/nix/store/mw590ax8x2n9161hwvnl9j5156di6d47-libc++abi-7.1.0
+    |   |   |   +---/nix/store/mw590ax8x2n9161hwvnl9j5156di6d47-libc++abi-7.1.0 [...]
+    |   |   +---/nix/store/vrmgqjl51gwf47i5i1rbs7dnkb1g1pvf-libc++-7.1.0 [...]
+    |   +---/nix/store/541lzmhppr82600vz7ap54n22dz7gydf-ICU-66108 [...]
+    +---/nix/store/c1ln5y1p009wn44j03z1r7rdhmjx3k2j-curl-7.74.0
+    |   +---/nix/store/aqf78c2x1kwv9i123p55m3f4iyx9fz3c-openssl-1.1.1i
+</code></pre><p>Alright. I’m bored of <code>nix-store --query</code>. But I push on.</p>
+<p><code>nix-store --query --graphml</code>? Hmm. I don’t know how to consume such a format. I google and find something called <code>graph-easy</code>.</p>
+<pre tabindex=0><code>$ nix-env -iA nixpkgs.graph-easy
+installing 'perl5.32.0-Graph-Easy-0.76'
+...
+created 55 symlinks in user environment
+
+$ nix-store --query --graphml /nix/store/pakmb65sf3g2hkbm1fdgk2fh6hiij720-hello-2.10 &gt; deps.xml
+
+$ graph-easy deps.xml deps.svg
+zsh: /Users/ian/.nix-profile/bin/graph-easy: bad interpreter: /nix/store/49wx1mcvigd35dd8ha7280k9b4ixd6mj-perl-5.32.0/bin/perl -w -I/nix/store/49wx1mcvigd35dd8ha7280k9b4ixd6mj-perl-5.32.0/: exec format error
+</code></pre><p>Hey yeah look! It’s the thing I was talking about earlier. macOS can’t deal with that. How would I… <em>fix</em> this? I don’t know. I don’t know how to patch it to be compatible. For the record:</p>
+<pre tabindex=0><code>$ head -n1 $(which graph-easy)
+#!/nix/store/49wx1mcvigd35dd8ha7280k9b4ixd6mj-perl-5.32.0/bin/perl -w -I/nix/store/49wx1mcvigd35dd8ha7280k9b4ixd6mj-perl-5.32.0/lib/perl5/site_perl -I/nix/store/49wx1mcvigd35dd8ha7280k9b4ixd6mj-perl-5.32.0/lib/perl5/site_perl -I/nix/store/49wx1mcvigd35dd8ha7280k9b4ixd6mj-perl-5.32.0/lib/perl5/site_perl -I/nix/store/49wx1mcvigd35dd8ha7280k9b4ixd6mj-perl-5.32.0/lib/perl5/site_perl -I/nix/store/49wx1mcvigd35dd8ha7280k9b4ixd6mj-perl-5.32.0/lib/perl5/site_perl -I/nix/store/9a3i3lmx6j4d9my3z0i7qzlbda73axqr-perl5.32.0-Graph-Easy-0.76/lib/perl5/site_perl
+</code></pre><p>That’s… it seems like we could probably get away without <em>all</em> of those. The same search path is repeated five times. Not that it matters here.</p>
+<p>So… I give up visualizing my runtime dependencies. I suppose that I don’t know how to render GraphML output.</p>
+<pre tabindex=0><code>$ nix-store --query --binding name /nix/store/rsrwc2m01bh8ai0jfwjx1qlgvwshcm23-hello-2.10.drv
+hello-2.10
+
+$ nix-store --query --binding meta /nix/store/rsrwc2m01bh8ai0jfwjx1qlgvwshcm23-hello-2.10.drv
+error: derivation '/nix/store/rsrwc2m01bh8ai0jfwjx1qlgvwshcm23-hello-2.10.drv' has no environment binding named 'meta'
+</code></pre><p>Okay; this is interesting. The manual says that <code>nix-store --query --binding name paths</code>:</p>
+<blockquote>
+<p>Prints the value of the attribute <code>name</code> (i.e., environment variable) of the store derivations <code>paths</code>. It is an error for a derivation to not have the specified attribute.</p>
+</blockquote>
+<p>So I guess that only some paths are passed on as environment variables to the derivation’s builder – and <code>meta</code> is not, as I would expect. Any others? I don’t know – there doesn’t seem to be a way to list all bindings.</p>
+<p>Just want to point out that this is yet a third definition of the word “path.” I wish that the Nix manual would use the term “store path” when it means “store path.”</p>
+<p>Oh, there’s an example here that shows me how to render GraphML. Except… <em>no</em>. There’s just a plain <code>--graph</code>. I just… missed that. I just skipped that suboperation completely. Okay. It’s normal. You can use <code>graphviz</code> and everything is fine. I apologize for ever making you think about GraphML.</p>
+<pre tabindex=0><code>$ nix-env -iA nixpkgs.graphviz
+...
+
+$ nix-store --query --graph /nix/store/pakmb65sf3g2hkbm1fdgk2fh6hiij720-hello-2.10 | dot -Tsvg &gt; deps.svg
+</code></pre><p>And here it is!</p>
+<a class=image-container href=https://ianthehenry.com/posts/how-to-learn-nix/command-reference/hello-dependency-graph.svg><picture>
+<img src=data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIKICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPgo8IS0tIEdlbmVyYXRlZCBieSBncmFwaHZpeiB2ZXJzaW9uIDIuNDMuMCAoMCkKIC0tPgo8IS0tIFRpdGxlOiBHIFBhZ2VzOiAxIC0tPgo8c3ZnIHdpZHRoPSI3MTBwdCIgaGVpZ2h0PSIzMzJwdCIKIHZpZXdCb3g9IjAuMDAgMC4wMCA3MTAuMDAgMzMyLjAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4KPGcgaWQ9ImdyYXBoMCIgY2xhc3M9ImdyYXBoIiB0cmFuc2Zvcm09InNjYWxlKDEgMSkgcm90YXRlKDApIHRyYW5zbGF0ZSg0IDMyOCkiPgo8dGl0bGU+RzwvdGl0bGU+CjwhLS0gL25peC9zdG9yZS9wYWttYjY1c2YzZzJoa2JtMWZkZ2syZmg2aGlpajcyMCYjNDU7aGVsbG8mIzQ1OzIuMTAgLS0+CjxnIGlkPSJub2RlMSIgY2xhc3M9Im5vZGUiPgo8dGl0bGU+L25peC9zdG9yZS9wYWttYjY1c2YzZzJoa2JtMWZkZ2syZmg2aGlpajcyMCYjNDU7aGVsbG8mIzQ1OzIuMTA8L3RpdGxlPgo8cG9seWdvbiBmaWxsPSIjZmYwMDAwIiBzdHJva2U9ImJsYWNrIiBwb2ludHM9IjE5MywtMzYgMTIxLC0zNiAxMjEsMCAxOTMsMCAxOTMsLTM2Ii8+Cjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjE1NyIgeT0iLTE0LjMiIGZvbnQtZmFtaWx5PSJUaW1lcyxzZXJpZiIgZm9udC1zaXplPSIxNC4wMCI+aGVsbG8mIzQ1OzIuMTA8L3RleHQ+CjwvZz4KPCEtLSAvbml4L3N0b3JlLzJzOHg1OXozY2x5OTdmeWMzaHZsbmdsNjM3c25wd2NxJiM0NTtzd2lmdCYjNDU7Y29yZWZvdW5kYXRpb24gLS0+CjxnIGlkPSJub2RlMiIgY2xhc3M9Im5vZGUiPgo8dGl0bGU+L25peC9zdG9yZS8yczh4NTl6M2NseTk3ZnljM2h2bG5nbDYzN3NucHdjcSYjNDU7c3dpZnQmIzQ1O2NvcmVmb3VuZGF0aW9uPC90aXRsZT4KPHBvbHlnb24gZmlsbD0iI2ZmMDAwMCIgc3Ryb2tlPSJibGFjayIgcG9pbnRzPSIyMjIsLTEwOCA5MiwtMTA4IDkyLC03MiAyMjIsLTcyIDIyMiwtMTA4Ii8+Cjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjE1NyIgeT0iLTg2LjMiIGZvbnQtZmFtaWx5PSJUaW1lcyxzZXJpZiIgZm9udC1zaXplPSIxNC4wMCI+c3dpZnQmIzQ1O2NvcmVmb3VuZGF0aW9uPC90ZXh0Pgo8L2c+CjwhLS0gL25peC9zdG9yZS8yczh4NTl6M2NseTk3ZnljM2h2bG5nbDYzN3NucHdjcSYjNDU7c3dpZnQmIzQ1O2NvcmVmb3VuZGF0aW9uJiM0NTsmZ3Q7L25peC9zdG9yZS9wYWttYjY1c2YzZzJoa2JtMWZkZ2syZmg2aGlpajcyMCYjNDU7aGVsbG8mIzQ1OzIuMTAgLS0+CjxnIGlkPSJlZGdlMSIgY2xhc3M9ImVkZ2UiPgo8dGl0bGU+L25peC9zdG9yZS8yczh4NTl6M2NseTk3ZnljM2h2bG5nbDYzN3NucHdjcSYjNDU7c3dpZnQmIzQ1O2NvcmVmb3VuZGF0aW9uJiM0NTsmZ3Q7L25peC9zdG9yZS9wYWttYjY1c2YzZzJoa2JtMWZkZ2syZmg2aGlpajcyMCYjNDU7aGVsbG8mIzQ1OzIuMTA8L3RpdGxlPgo8cGF0aCBmaWxsPSJub25lIiBzdHJva2U9ImJsYWNrIiBkPSJNMTU3LC03MS43QzE1NywtNjMuOTggMTU3LC01NC43MSAxNTcsLTQ2LjExIi8+Cjxwb2x5Z29uIGZpbGw9ImJsYWNrIiBzdHJva2U9ImJsYWNrIiBwb2ludHM9IjE2MC41LC00Ni4xIDE1NywtMzYuMSAxNTMuNSwtNDYuMSAxNjAuNSwtNDYuMSIvPgo8L2c+CjwhLS0gL25peC9zdG9yZS81NDFsem1ocHByODI2MDB2ejdhcDU0bjIyZHo3Z3lkZiYjNDU7SUNVJiM0NTs2NjEwOCAtLT4KPGcgaWQ9Im5vZGUzIiBjbGFzcz0ibm9kZSI+Cjx0aXRsZT4vbml4L3N0b3JlLzU0MWx6bWhwcHI4MjYwMHZ6N2FwNTRuMjJkejdneWRmJiM0NTtJQ1UmIzQ1OzY2MTA4PC90aXRsZT4KPHBvbHlnb24gZmlsbD0iI2ZmMDAwMCIgc3Ryb2tlPSJibGFjayIgcG9pbnRzPSI5MCwtMTgwIDEyLC0xODAgMTIsLTE0NCA5MCwtMTQ0IDkwLC0xODAiLz4KPHRleHQgdGV4dC1hbmNob3I9Im1pZGRsZSIgeD0iNTEiIHk9Ii0xNTguMyIgZm9udC1mYW1pbHk9IlRpbWVzLHNlcmlmIiBmb250LXNpemU9IjE0LjAwIj5JQ1UmIzQ1OzY2MTA4PC90ZXh0Pgo8L2c+CjwhLS0gL25peC9zdG9yZS81NDFsem1ocHByODI2MDB2ejdhcDU0bjIyZHo3Z3lkZiYjNDU7SUNVJiM0NTs2NjEwOCYjNDU7Jmd0Oy9uaXgvc3RvcmUvMnM4eDU5ejNjbHk5N2Z5YzNodmxuZ2w2MzdzbnB3Y3EmIzQ1O3N3aWZ0JiM0NTtjb3JlZm91bmRhdGlvbiAtLT4KPGcgaWQ9ImVkZ2UyIiBjbGFzcz0iZWRnZSI+Cjx0aXRsZT4vbml4L3N0b3JlLzU0MWx6bWhwcHI4MjYwMHZ6N2FwNTRuMjJkejdneWRmJiM0NTtJQ1UmIzQ1OzY2MTA4JiM0NTsmZ3Q7L25peC9zdG9yZS8yczh4NTl6M2NseTk3ZnljM2h2bG5nbDYzN3NucHdjcSYjNDU7c3dpZnQmIzQ1O2NvcmVmb3VuZGF0aW9uPC90aXRsZT4KPHBhdGggZmlsbD0ibm9uZSIgc3Ryb2tlPSJyZWQiIGQ9Ik03Ni45MywtMTQzLjg4QzkwLjY2LC0xMzQuODEgMTA3LjcxLC0xMjMuNTUgMTIyLjU0LC0xMTMuNzYiLz4KPHBvbHlnb24gZmlsbD0icmVkIiBzdHJva2U9InJlZCIgcG9pbnRzPSIxMjQuNTUsLTExNi42MiAxMzAuOTcsLTEwOC4xOSAxMjAuNywtMTEwLjc4IDEyNC41NSwtMTE2LjYyIi8+CjwvZz4KPCEtLSAvbml4L3N0b3JlL2MxbG41eTFwMDA5d240NGowM3oxcjdyZGhtangzazJqJiM0NTtjdXJsJiM0NTs3Ljc0LjAgLS0+CjxnIGlkPSJub2RlNCIgY2xhc3M9Im5vZGUiPgo8dGl0bGU+L25peC9zdG9yZS9jMWxuNXkxcDAwOXduNDRqMDN6MXI3cmRobWp4M2syaiYjNDU7Y3VybCYjNDU7Ny43NC4wPC90aXRsZT4KPHBvbHlnb24gZmlsbD0iI2ZmMDAwMCIgc3Ryb2tlPSJibGFjayIgcG9pbnRzPSI0MjEuNSwtMTgwIDM0NC41LC0xODAgMzQ0LjUsLTE0NCA0MjEuNSwtMTQ0IDQyMS41LC0xODAiLz4KPHRleHQgdGV4dC1hbmNob3I9Im1pZGRsZSIgeD0iMzgzIiB5PSItMTU4LjMiIGZvbnQtZmFtaWx5PSJUaW1lcyxzZXJpZiIgZm9udC1zaXplPSIxNC4wMCI+Y3VybCYjNDU7Ny43NC4wPC90ZXh0Pgo8L2c+CjwhLS0gL25peC9zdG9yZS9jMWxuNXkxcDAwOXduNDRqMDN6MXI3cmRobWp4M2syaiYjNDU7Y3VybCYjNDU7Ny43NC4wJiM0NTsmZ3Q7L25peC9zdG9yZS8yczh4NTl6M2NseTk3ZnljM2h2bG5nbDYzN3NucHdjcSYjNDU7c3dpZnQmIzQ1O2NvcmVmb3VuZGF0aW9uIC0tPgo8ZyBpZD0iZWRnZTMiIGNsYXNzPSJlZGdlIj4KPHRpdGxlPi9uaXgvc3RvcmUvYzFsbjV5MXAwMDl3bjQ0ajAzejFyN3JkaG1qeDNrMmomIzQ1O2N1cmwmIzQ1OzcuNzQuMCYjNDU7Jmd0Oy9uaXgvc3RvcmUvMnM4eDU5ejNjbHk5N2Z5YzNodmxuZ2w2MzdzbnB3Y3EmIzQ1O3N3aWZ0JiM0NTtjb3JlZm91bmRhdGlvbjwvdGl0bGU+CjxwYXRoIGZpbGw9Im5vbmUiIHN0cm9rZT0iZ3JlZW4iIGQ9Ik0zNDQuNDEsLTE0OS4wNUMzMTAuNzUsLTEzOC42MiAyNjEuMjMsLTEyMy4yOCAyMjEuNTUsLTExMC45OSIvPgo8cG9seWdvbiBmaWxsPSJncmVlbiIgc3Ryb2tlPSJncmVlbiIgcG9pbnRzPSIyMjIuNTQsLTEwNy42NCAyMTEuOTUsLTEwOC4wMiAyMjAuNDcsLTExNC4zMiAyMjIuNTQsLTEwNy42NCIvPgo8L2c+CjwhLS0gL25peC9zdG9yZS9zNXJkM2hnZGlycmR3ZGZibjdtNGhkMGkzZDJ6cXB6NSYjNDU7bGlieG1sMiYjNDU7Mi45LjEwIC0tPgo8ZyBpZD0ibm9kZTUiIGNsYXNzPSJub2RlIj4KPHRpdGxlPi9uaXgvc3RvcmUvczVyZDNoZ2RpcnJkd2RmYm43bTRoZDBpM2QyenFwejUmIzQ1O2xpYnhtbDImIzQ1OzIuOS4xMDwvdGl0bGU+Cjxwb2x5Z29uIGZpbGw9IiNmZjAwMDAiIHN0cm9rZT0iYmxhY2siIHBvaW50cz0iMjA2LC0xODAgMTA4LC0xODAgMTA4LC0xNDQgMjA2LC0xNDQgMjA2LC0xODAiLz4KPHRleHQgdGV4dC1hbmNob3I9Im1pZGRsZSIgeD0iMTU3IiB5PSItMTU4LjMiIGZvbnQtZmFtaWx5PSJUaW1lcyxzZXJpZiIgZm9udC1zaXplPSIxNC4wMCI+bGlieG1sMiYjNDU7Mi45LjEwPC90ZXh0Pgo8L2c+CjwhLS0gL25peC9zdG9yZS9zNXJkM2hnZGlycmR3ZGZibjdtNGhkMGkzZDJ6cXB6NSYjNDU7bGlieG1sMiYjNDU7Mi45LjEwJiM0NTsmZ3Q7L25peC9zdG9yZS8yczh4NTl6M2NseTk3ZnljM2h2bG5nbDYzN3NucHdjcSYjNDU7c3dpZnQmIzQ1O2NvcmVmb3VuZGF0aW9uIC0tPgo8ZyBpZD0iZWRnZTQiIGNsYXNzPSJlZGdlIj4KPHRpdGxlPi9uaXgvc3RvcmUvczVyZDNoZ2RpcnJkd2RmYm43bTRoZDBpM2QyenFwejUmIzQ1O2xpYnhtbDImIzQ1OzIuOS4xMCYjNDU7Jmd0Oy9uaXgvc3RvcmUvMnM4eDU5ejNjbHk5N2Z5YzNodmxuZ2w2MzdzbnB3Y3EmIzQ1O3N3aWZ0JiM0NTtjb3JlZm91bmRhdGlvbjwvdGl0bGU+CjxwYXRoIGZpbGw9Im5vbmUiIHN0cm9rZT0iYmx1ZSIgZD0iTTE1NywtMTQzLjdDMTU3LC0xMzUuOTggMTU3LC0xMjYuNzEgMTU3LC0xMTguMTEiLz4KPHBvbHlnb24gZmlsbD0iYmx1ZSIgc3Ryb2tlPSJibHVlIiBwb2ludHM9IjE2MC41LC0xMTguMSAxNTcsLTEwOC4xIDE1My41LC0xMTguMSAxNjAuNSwtMTE4LjEiLz4KPC9nPgo8IS0tIC9uaXgvc3RvcmUvdnJtZ3FqbDUxZ3dmNDdpNWkxcmJzN2Rua2IxZzFwdmYmIzQ1O2xpYmMrKyYjNDU7Ny4xLjAgLS0+CjxnIGlkPSJub2RlNiIgY2xhc3M9Im5vZGUiPgo8dGl0bGU+L25peC9zdG9yZS92cm1ncWpsNTFnd2Y0N2k1aTFyYnM3ZG5rYjFnMXB2ZiYjNDU7bGliYysrJiM0NTs3LjEuMDwvdGl0bGU+Cjxwb2x5Z29uIGZpbGw9IiNmZjAwMDAiIHN0cm9rZT0iYmxhY2siIHBvaW50cz0iOTQsLTI1MiA4LC0yNTIgOCwtMjE2IDk0LC0yMTYgOTQsLTI1MiIvPgo8dGV4dCB0ZXh0LWFuY2hvcj0ibWlkZGxlIiB4PSI1MSIgeT0iLTIzMC4zIiBmb250LWZhbWlseT0iVGltZXMsc2VyaWYiIGZvbnQtc2l6ZT0iMTQuMDAiPmxpYmMrKyYjNDU7Ny4xLjA8L3RleHQ+CjwvZz4KPCEtLSAvbml4L3N0b3JlL3ZybWdxamw1MWd3ZjQ3aTVpMXJiczdkbmtiMWcxcHZmJiM0NTtsaWJjKysmIzQ1OzcuMS4wJiM0NTsmZ3Q7L25peC9zdG9yZS81NDFsem1ocHByODI2MDB2ejdhcDU0bjIyZHo3Z3lkZiYjNDU7SUNVJiM0NTs2NjEwOCAtLT4KPGcgaWQ9ImVkZ2U1IiBjbGFzcz0iZWRnZSI+Cjx0aXRsZT4vbml4L3N0b3JlL3ZybWdxamw1MWd3ZjQ3aTVpMXJiczdkbmtiMWcxcHZmJiM0NTtsaWJjKysmIzQ1OzcuMS4wJiM0NTsmZ3Q7L25peC9zdG9yZS81NDFsem1ocHByODI2MDB2ejdhcDU0bjIyZHo3Z3lkZiYjNDU7SUNVJiM0NTs2NjEwODwvdGl0bGU+CjxwYXRoIGZpbGw9Im5vbmUiIHN0cm9rZT0ibWFnZW50YSIgZD0iTTUxLC0yMTUuN0M1MSwtMjA3Ljk4IDUxLC0xOTguNzEgNTEsLTE5MC4xMSIvPgo8cG9seWdvbiBmaWxsPSJtYWdlbnRhIiBzdHJva2U9Im1hZ2VudGEiIHBvaW50cz0iNTQuNSwtMTkwLjEgNTEsLTE4MC4xIDQ3LjUsLTE5MC4xIDU0LjUsLTE5MC4xIi8+CjwvZz4KPCEtLSAvbml4L3N0b3JlL2FxZjc4YzJ4MWt3djlpMTIzcDU1bTNmNGl5eDlmejNjJiM0NTtvcGVuc3NsJiM0NTsxLjEuMWkgLS0+CjxnIGlkPSJub2RlNyIgY2xhc3M9Im5vZGUiPgo8dGl0bGU+L25peC9zdG9yZS9hcWY3OGMyeDFrd3Y5aTEyM3A1NW0zZjRpeXg5ZnozYyYjNDU7b3BlbnNzbCYjNDU7MS4xLjFpPC90aXRsZT4KPHBvbHlnb24gZmlsbD0iI2ZmMDAwMCIgc3Ryb2tlPSJibGFjayIgcG9pbnRzPSI0NDQuNSwtMzI0IDM1MS41LC0zMjQgMzUxLjUsLTI4OCA0NDQuNSwtMjg4IDQ0NC41LC0zMjQiLz4KPHRleHQgdGV4dC1hbmNob3I9Im1pZGRsZSIgeD0iMzk4IiB5PSItMzAyLjMiIGZvbnQtZmFtaWx5PSJUaW1lcyxzZXJpZiIgZm9udC1zaXplPSIxNC4wMCI+b3BlbnNzbCYjNDU7MS4xLjFpPC90ZXh0Pgo8L2c+CjwhLS0gL25peC9zdG9yZS9hcWY3OGMyeDFrd3Y5aTEyM3A1NW0zZjRpeXg5ZnozYyYjNDU7b3BlbnNzbCYjNDU7MS4xLjFpJiM0NTsmZ3Q7L25peC9zdG9yZS9jMWxuNXkxcDAwOXduNDRqMDN6MXI3cmRobWp4M2syaiYjNDU7Y3VybCYjNDU7Ny43NC4wIC0tPgo8ZyBpZD0iZWRnZTYiIGNsYXNzPSJlZGdlIj4KPHRpdGxlPi9uaXgvc3RvcmUvYXFmNzhjMngxa3d2OWkxMjNwNTVtM2Y0aXl4OWZ6M2MmIzQ1O29wZW5zc2wmIzQ1OzEuMS4xaSYjNDU7Jmd0Oy9uaXgvc3RvcmUvYzFsbjV5MXAwMDl3bjQ0ajAzejFyN3JkaG1qeDNrMmomIzQ1O2N1cmwmIzQ1OzcuNzQuMDwvdGl0bGU+CjxwYXRoIGZpbGw9Im5vbmUiIHN0cm9rZT0iYnVybHl3b29kIiBkPSJNNDE0LjA0LC0yODcuODVDNDIyLjAxLC0yNzguMTIgNDMwLjgzLC0yNjUuMjcgNDM1LC0yNTIgNDM5LjgsLTIzNi43NCA0NDEuMDUsLTIzMC44MSA0MzUsLTIxNiA0MzAuNTEsLTIwNS4wMiA0MjIuNTMsLTE5NS4wOCA0MTQuMTUsLTE4Ni44NiIvPgo8cG9seWdvbiBmaWxsPSJidXJseXdvb2QiIHN0cm9rZT0iYnVybHl3b29kIiBwb2ludHM9IjQxNi40OSwtMTg0LjI2IDQwNi43NSwtMTgwLjA5IDQxMS43NiwtMTg5LjQyIDQxNi40OSwtMTg0LjI2Ii8+CjwvZz4KPCEtLSAvbml4L3N0b3JlL3BxYWpjbXc2am1xMmk4a2EwMDF6NTNyMWEwOXc0eTY3JiM0NTtsaWJzc2gyJiM0NTsxLjkuMCAtLT4KPGcgaWQ9Im5vZGU4IiBjbGFzcz0ibm9kZSI+Cjx0aXRsZT4vbml4L3N0b3JlL3BxYWpjbXc2am1xMmk4a2EwMDF6NTNyMWEwOXc0eTY3JiM0NTtsaWJzc2gyJiM0NTsxLjkuMDwvdGl0bGU+Cjxwb2x5Z29uIGZpbGw9IiNmZjAwMDAiIHN0cm9rZT0iYmxhY2siIHBvaW50cz0iNDI2LjUsLTI1MiAzMzkuNSwtMjUyIDMzOS41LC0yMTYgNDI2LjUsLTIxNiA0MjYuNSwtMjUyIi8+Cjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjM4MyIgeT0iLTIzMC4zIiBmb250LWZhbWlseT0iVGltZXMsc2VyaWYiIGZvbnQtc2l6ZT0iMTQuMDAiPmxpYnNzaDImIzQ1OzEuOS4wPC90ZXh0Pgo8L2c+CjwhLS0gL25peC9zdG9yZS9hcWY3OGMyeDFrd3Y5aTEyM3A1NW0zZjRpeXg5ZnozYyYjNDU7b3BlbnNzbCYjNDU7MS4xLjFpJiM0NTsmZ3Q7L25peC9zdG9yZS9wcWFqY213NmptcTJpOGthMDAxejUzcjFhMDl3NHk2NyYjNDU7bGlic3NoMiYjNDU7MS45LjAgLS0+CjxnIGlkPSJlZGdlMTIiIGNsYXNzPSJlZGdlIj4KPHRpdGxlPi9uaXgvc3RvcmUvYXFmNzhjMngxa3d2OWkxMjNwNTVtM2Y0aXl4OWZ6M2MmIzQ1O29wZW5zc2wmIzQ1OzEuMS4xaSYjNDU7Jmd0Oy9uaXgvc3RvcmUvcHFhamNtdzZqbXEyaThrYTAwMXo1M3IxYTA5dzR5NjcmIzQ1O2xpYnNzaDImIzQ1OzEuOS4wPC90aXRsZT4KPHBhdGggZmlsbD0ibm9uZSIgc3Ryb2tlPSJidXJseXdvb2QiIGQ9Ik0zOTQuMjksLTI4Ny43QzM5Mi42NCwtMjc5Ljk4IDM5MC42NSwtMjcwLjcxIDM4OC44MSwtMjYyLjExIi8+Cjxwb2x5Z29uIGZpbGw9ImJ1cmx5d29vZCIgc3Ryb2tlPSJidXJseXdvb2QiIHBvaW50cz0iMzkyLjE4LC0yNjEuMTUgMzg2LjY3LC0yNTIuMSAzODUuMzQsLTI2Mi42MiAzOTIuMTgsLTI2MS4xNSIvPgo8L2c+CjwhLS0gL25peC9zdG9yZS9wcWFqY213NmptcTJpOGthMDAxejUzcjFhMDl3NHk2NyYjNDU7bGlic3NoMiYjNDU7MS45LjAmIzQ1OyZndDsvbml4L3N0b3JlL2MxbG41eTFwMDA5d240NGowM3oxcjdyZGhtangzazJqJiM0NTtjdXJsJiM0NTs3Ljc0LjAgLS0+CjxnIGlkPSJlZGdlNyIgY2xhc3M9ImVkZ2UiPgo8dGl0bGU+L25peC9zdG9yZS9wcWFqY213NmptcTJpOGthMDAxejUzcjFhMDl3NHk2NyYjNDU7bGlic3NoMiYjNDU7MS45LjAmIzQ1OyZndDsvbml4L3N0b3JlL2MxbG41eTFwMDA5d240NGowM3oxcjdyZGhtangzazJqJiM0NTtjdXJsJiM0NTs3Ljc0LjA8L3RpdGxlPgo8cGF0aCBmaWxsPSJub25lIiBzdHJva2U9ImJsYWNrIiBkPSJNMzgzLC0yMTUuN0MzODMsLTIwNy45OCAzODMsLTE5OC43MSAzODMsLTE5MC4xMSIvPgo8cG9seWdvbiBmaWxsPSJibGFjayIgc3Ryb2tlPSJibGFjayIgcG9pbnRzPSIzODYuNSwtMTkwLjEgMzgzLC0xODAuMSAzNzkuNSwtMTkwLjEgMzg2LjUsLTE5MC4xIi8+CjwvZz4KPCEtLSAvbml4L3N0b3JlL3Excmh3OWYzMGZtMHl6eDFoaWMxaGdqMzFzZmM2azRwJiM0NTtsaWJrcmI1JiM0NTsxLjE4IC0tPgo8ZyBpZD0ibm9kZTkiIGNsYXNzPSJub2RlIj4KPHRpdGxlPi9uaXgvc3RvcmUvcTFyaHc5ZjMwZm0weXp4MWhpYzFoZ2ozMXNmYzZrNHAmIzQ1O2xpYmtyYjUmIzQ1OzEuMTg8L3RpdGxlPgo8cG9seWdvbiBmaWxsPSIjZmYwMDAwIiBzdHJva2U9ImJsYWNrIiBwb2ludHM9IjYwNSwtMjUyIDUyMSwtMjUyIDUyMSwtMjE2IDYwNSwtMjE2IDYwNSwtMjUyIi8+Cjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjU2MyIgeT0iLTIzMC4zIiBmb250LWZhbWlseT0iVGltZXMsc2VyaWYiIGZvbnQtc2l6ZT0iMTQuMDAiPmxpYmtyYjUmIzQ1OzEuMTg8L3RleHQ+CjwvZz4KPCEtLSAvbml4L3N0b3JlL3Excmh3OWYzMGZtMHl6eDFoaWMxaGdqMzFzZmM2azRwJiM0NTtsaWJrcmI1JiM0NTsxLjE4JiM0NTsmZ3Q7L25peC9zdG9yZS9jMWxuNXkxcDAwOXduNDRqMDN6MXI3cmRobWp4M2syaiYjNDU7Y3VybCYjNDU7Ny43NC4wIC0tPgo8ZyBpZD0iZWRnZTgiIGNsYXNzPSJlZGdlIj4KPHRpdGxlPi9uaXgvc3RvcmUvcTFyaHc5ZjMwZm0weXp4MWhpYzFoZ2ozMXNmYzZrNHAmIzQ1O2xpYmtyYjUmIzQ1OzEuMTgmIzQ1OyZndDsvbml4L3N0b3JlL2MxbG41eTFwMDA5d240NGowM3oxcjdyZGhtangzazJqJiM0NTtjdXJsJiM0NTs3Ljc0LjA8L3RpdGxlPgo8cGF0aCBmaWxsPSJub25lIiBzdHJva2U9InJlZCIgZD0iTTUyMC44LC0yMTYuNTlDNDkzLjkzLC0yMDYuMTQgNDU5LjA3LC0xOTIuNTggNDMxLjEzLC0xODEuNzIiLz4KPHBvbHlnb24gZmlsbD0icmVkIiBzdHJva2U9InJlZCIgcG9pbnRzPSI0MzIuMTUsLTE3OC4zNiA0MjEuNTYsLTE3OCA0MjkuNjEsLTE4NC44OCA0MzIuMTUsLTE3OC4zNiIvPgo8L2c+CjwhLS0gL25peC9zdG9yZS93cGhwencyc3d5MzZwbTRwaDNyMXpmdndmajJuanhqZiYjNDU7emxpYiYjNDU7MS4yLjExIC0tPgo8ZyBpZD0ibm9kZTEwIiBjbGFzcz0ibm9kZSI+Cjx0aXRsZT4vbml4L3N0b3JlL3dwaHB6dzJzd3kzNnBtNHBoM3IxemZ2d2ZqMm5qeGpmJiM0NTt6bGliJiM0NTsxLjIuMTE8L3RpdGxlPgo8cG9seWdvbiBmaWxsPSIjZmYwMDAwIiBzdHJva2U9ImJsYWNrIiBwb2ludHM9IjMzMywtMzI0IDI1NywtMzI0IDI1NywtMjg4IDMzMywtMjg4IDMzMywtMzI0Ii8+Cjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjI5NSIgeT0iLTMwMi4zIiBmb250LWZhbWlseT0iVGltZXMsc2VyaWYiIGZvbnQtc2l6ZT0iMTQuMDAiPnpsaWImIzQ1OzEuMi4xMTwvdGV4dD4KPC9nPgo8IS0tIC9uaXgvc3RvcmUvd3BocHp3MnN3eTM2cG00cGgzcjF6ZnZ3Zmoybmp4amYmIzQ1O3psaWImIzQ1OzEuMi4xMSYjNDU7Jmd0Oy9uaXgvc3RvcmUvYzFsbjV5MXAwMDl3bjQ0ajAzejFyN3JkaG1qeDNrMmomIzQ1O2N1cmwmIzQ1OzcuNzQuMCAtLT4KPGcgaWQ9ImVkZ2U5IiBjbGFzcz0iZWRnZSI+Cjx0aXRsZT4vbml4L3N0b3JlL3dwaHB6dzJzd3kzNnBtNHBoM3IxemZ2d2ZqMm5qeGpmJiM0NTt6bGliJiM0NTsxLjIuMTEmIzQ1OyZndDsvbml4L3N0b3JlL2MxbG41eTFwMDA5d240NGowM3oxcjdyZGhtangzazJqJiM0NTtjdXJsJiM0NTs3Ljc0LjA8L3RpdGxlPgo8cGF0aCBmaWxsPSJub25lIiBzdHJva2U9ImdyZWVuIiBkPSJNMjk5LjQzLC0yODcuOTRDMzA0Ljc5LC0yNjkuMjYgMzE0Ljk5LC0yMzguOTEgMzMwLC0yMTYgMzM2Ljc4LC0yMDUuNjUgMzQ1Ljg1LC0xOTUuNjcgMzU0LjU1LC0xODcuMjIiLz4KPHBvbHlnb24gZmlsbD0iZ3JlZW4iIHN0cm9rZT0iZ3JlZW4iIHBvaW50cz0iMzU3LjEzLC0xODkuNiAzNjIuMDUsLTE4MC4yMSAzNTIuMzUsLTE4NC40OCAzNTcuMTMsLTE4OS42Ii8+CjwvZz4KPCEtLSAvbml4L3N0b3JlL3dwaHB6dzJzd3kzNnBtNHBoM3IxemZ2d2ZqMm5qeGpmJiM0NTt6bGliJiM0NTsxLjIuMTEmIzQ1OyZndDsvbml4L3N0b3JlL3M1cmQzaGdkaXJyZHdkZmJuN200aGQwaTNkMnpxcHo1JiM0NTtsaWJ4bWwyJiM0NTsyLjkuMTAgLS0+CjxnIGlkPSJlZGdlMTYiIGNsYXNzPSJlZGdlIj4KPHRpdGxlPi9uaXgvc3RvcmUvd3BocHp3MnN3eTM2cG00cGgzcjF6ZnZ3Zmoybmp4amYmIzQ1O3psaWImIzQ1OzEuMi4xMSYjNDU7Jmd0Oy9uaXgvc3RvcmUvczVyZDNoZ2RpcnJkd2RmYm43bTRoZDBpM2QyenFwejUmIzQ1O2xpYnhtbDImIzQ1OzIuOS4xMDwvdGl0bGU+CjxwYXRoIGZpbGw9Im5vbmUiIHN0cm9rZT0iYmx1ZSIgZD0iTTI1Ni44LC0zMDEuNjlDMjI0LjU0LC0yOTYuNjUgMTgwLjE3LC0yODMuOTYgMTU4LC0yNTIgMTQ1LjU5LC0yMzQuMTEgMTQ2LjU0LC0yMDguOTUgMTQ5LjksLTE4OS45NCIvPgo8cG9seWdvbiBmaWxsPSJibHVlIiBzdHJva2U9ImJsdWUiIHBvaW50cz0iMTUzLjM0LC0xOTAuNjEgMTUxLjk1LC0xODAuMSAxNDYuNDgsLTE4OS4xOCAxNTMuMzQsLTE5MC42MSIvPgo8L2c+CjwhLS0gL25peC9zdG9yZS93cGhwencyc3d5MzZwbTRwaDNyMXpmdndmajJuanhqZiYjNDU7emxpYiYjNDU7MS4yLjExJiM0NTsmZ3Q7L25peC9zdG9yZS9wcWFqY213NmptcTJpOGthMDAxejUzcjFhMDl3NHk2NyYjNDU7bGlic3NoMiYjNDU7MS45LjAgLS0+CjxnIGlkPSJlZGdlMTMiIGNsYXNzPSJlZGdlIj4KPHRpdGxlPi9uaXgvc3RvcmUvd3BocHp3MnN3eTM2cG00cGgzcjF6ZnZ3Zmoybmp4amYmIzQ1O3psaWImIzQ1OzEuMi4xMSYjNDU7Jmd0Oy9uaXgvc3RvcmUvcHFhamNtdzZqbXEyaThrYTAwMXo1M3IxYTA5dzR5NjcmIzQ1O2xpYnNzaDImIzQ1OzEuOS4wPC90aXRsZT4KPHBhdGggZmlsbD0ibm9uZSIgc3Ryb2tlPSJibGFjayIgZD0iTTMxNi43NSwtMjg3LjdDMzI3Ljg0LC0yNzguODggMzQxLjQ3LC0yNjguMDMgMzUzLjQ5LC0yNTguNDciLz4KPHBvbHlnb24gZmlsbD0iYmxhY2siIHN0cm9rZT0iYmxhY2siIHBvaW50cz0iMzU1Ljg1LC0yNjEuMDcgMzYxLjUsLTI1Mi4xIDM1MS40OSwtMjU1LjU5IDM1NS44NSwtMjYxLjA3Ii8+CjwvZz4KPCEtLSAvbml4L3N0b3JlL3lpOWtsaHhkMTI0M2w3aW5ya24xMmY2bHd6cDlia2k0JiM0NTtMaWJzeXN0ZW0mIzQ1OzEyMzguNjAuMiAtLT4KPGcgaWQ9Im5vZGUxMSIgY2xhc3M9Im5vZGUiPgo8dGl0bGU+L25peC9zdG9yZS95aTlrbGh4ZDEyNDNsN2lucmtuMTJmNmx3enA5YmtpNCYjNDU7TGlic3lzdGVtJiM0NTsxMjM4LjYwLjI8L3RpdGxlPgo8cG9seWdvbiBmaWxsPSIjZmYwMDAwIiBzdHJva2U9ImJsYWNrIiBwb2ludHM9IjU5NS41LC0zMjQgNDYyLjUsLTMyNCA0NjIuNSwtMjg4IDU5NS41LC0yODggNTk1LjUsLTMyNCIvPgo8dGV4dCB0ZXh0LWFuY2hvcj0ibWlkZGxlIiB4PSI1MjkiIHk9Ii0zMDIuMyIgZm9udC1mYW1pbHk9IlRpbWVzLHNlcmlmIiBmb250LXNpemU9IjE0LjAwIj5MaWJzeXN0ZW0mIzQ1OzEyMzguNjAuMjwvdGV4dD4KPC9nPgo8IS0tIC9uaXgvc3RvcmUveWk5a2xoeGQxMjQzbDdpbnJrbjEyZjZsd3pwOWJraTQmIzQ1O0xpYnN5c3RlbSYjNDU7MTIzOC42MC4yJiM0NTsmZ3Q7L25peC9zdG9yZS9jMWxuNXkxcDAwOXduNDRqMDN6MXI3cmRobWp4M2syaiYjNDU7Y3VybCYjNDU7Ny43NC4wIC0tPgo8ZyBpZD0iZWRnZTEwIiBjbGFzcz0iZWRnZSI+Cjx0aXRsZT4vbml4L3N0b3JlL3lpOWtsaHhkMTI0M2w3aW5ya24xMmY2bHd6cDlia2k0JiM0NTtMaWJzeXN0ZW0mIzQ1OzEyMzguNjAuMiYjNDU7Jmd0Oy9uaXgvc3RvcmUvYzFsbjV5MXAwMDl3bjQ0ajAzejFyN3JkaG1qeDNrMmomIzQ1O2N1cmwmIzQ1OzcuNzQuMDwvdGl0bGU+CjxwYXRoIGZpbGw9Im5vbmUiIHN0cm9rZT0iYmx1ZSIgZD0iTTUxNS43NiwtMjg3LjY5QzUwMS4xMiwtMjY5LjA1IDQ3Ni4zNywtMjM4Ljk5IDQ1MiwtMjE2IDQ0MC44NiwtMjA1LjQ5IDQyNy43MiwtMTk0Ljk5IDQxNS45MSwtMTg2LjE0Ii8+Cjxwb2x5Z29uIGZpbGw9ImJsdWUiIHN0cm9rZT0iYmx1ZSIgcG9pbnRzPSI0MTcuNzMsLTE4My4xMyA0MDcuNiwtMTgwLjAyIDQxMy41NywtMTg4Ljc3IDQxNy43MywtMTgzLjEzIi8+CjwvZz4KPCEtLSAvbml4L3N0b3JlL3lpOWtsaHhkMTI0M2w3aW5ya24xMmY2bHd6cDlia2k0JiM0NTtMaWJzeXN0ZW0mIzQ1OzEyMzguNjAuMiYjNDU7Jmd0Oy9uaXgvc3RvcmUvcTFyaHc5ZjMwZm0weXp4MWhpYzFoZ2ozMXNmYzZrNHAmIzQ1O2xpYmtyYjUmIzQ1OzEuMTggLS0+CjxnIGlkPSJlZGdlMTUiIGNsYXNzPSJlZGdlIj4KPHRpdGxlPi9uaXgvc3RvcmUveWk5a2xoeGQxMjQzbDdpbnJrbjEyZjZsd3pwOWJraTQmIzQ1O0xpYnN5c3RlbSYjNDU7MTIzOC42MC4yJiM0NTsmZ3Q7L25peC9zdG9yZS9xMXJodzlmMzBmbTB5engxaGljMWhnajMxc2ZjNms0cCYjNDU7bGlia3JiNSYjNDU7MS4xODwvdGl0bGU+CjxwYXRoIGZpbGw9Im5vbmUiIHN0cm9rZT0iZ3JlZW4iIGQ9Ik01MzcuNCwtMjg3LjdDNTQxLjI3LC0yNzkuNzMgNTQ1Ljk1LC0yNzAuMSA1NTAuMjQsLTI2MS4yNiIvPgo8cG9seWdvbiBmaWxsPSJncmVlbiIgc3Ryb2tlPSJncmVlbiIgcG9pbnRzPSI1NTMuNDcsLTI2Mi42MyA1NTQuNjksLTI1Mi4xIDU0Ny4xNywtMjU5LjU3IDU1My40NywtMjYyLjYzIi8+CjwvZz4KPCEtLSAvbml4L3N0b3JlL3p4eWE2aTZuY3FzOHE2ZnEzbWNsMGlnZmxteTIyMTluJiM0NTtuZ2h0dHAyJiM0NTsxLjQxLjAmIzQ1O2xpYiAtLT4KPGcgaWQ9Im5vZGUxMiIgY2xhc3M9Im5vZGUiPgo8dGl0bGU+L25peC9zdG9yZS96eHlhNmk2bmNxczhxNmZxM21jbDBpZ2ZsbXkyMjE5biYjNDU7bmdodHRwMiYjNDU7MS40MS4wJiM0NTtsaWI8L3RpdGxlPgo8cG9seWdvbiBmaWxsPSIjZmYwMDAwIiBzdHJva2U9ImJsYWNrIiBwb2ludHM9IjI4MywtMjUyIDE2NywtMjUyIDE2NywtMjE2IDI4MywtMjE2IDI4MywtMjUyIi8+Cjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjIyNSIgeT0iLTIzMC4zIiBmb250LWZhbWlseT0iVGltZXMsc2VyaWYiIGZvbnQtc2l6ZT0iMTQuMDAiPm5naHR0cDImIzQ1OzEuNDEuMCYjNDU7bGliPC90ZXh0Pgo8L2c+CjwhLS0gL25peC9zdG9yZS96eHlhNmk2bmNxczhxNmZxM21jbDBpZ2ZsbXkyMjE5biYjNDU7bmdodHRwMiYjNDU7MS40MS4wJiM0NTtsaWImIzQ1OyZndDsvbml4L3N0b3JlL2MxbG41eTFwMDA5d240NGowM3oxcjdyZGhtangzazJqJiM0NTtjdXJsJiM0NTs3Ljc0LjAgLS0+CjxnIGlkPSJlZGdlMTEiIGNsYXNzPSJlZGdlIj4KPHRpdGxlPi9uaXgvc3RvcmUvenh5YTZpNm5jcXM4cTZmcTNtY2wwaWdmbG15MjIxOW4mIzQ1O25naHR0cDImIzQ1OzEuNDEuMCYjNDU7bGliJiM0NTsmZ3Q7L25peC9zdG9yZS9jMWxuNXkxcDAwOXduNDRqMDN6MXI3cmRobWp4M2syaiYjNDU7Y3VybCYjNDU7Ny43NC4wPC90aXRsZT4KPHBhdGggZmlsbD0ibm9uZSIgc3Ryb2tlPSJtYWdlbnRhIiBkPSJNMjYzLjY1LC0yMTUuODhDMjg1LjI1LC0yMDYuMzEgMzEyLjM1LC0xOTQuMyAzMzUuMjcsLTE4NC4xNSIvPgo8cG9seWdvbiBmaWxsPSJtYWdlbnRhIiBzdHJva2U9Im1hZ2VudGEiIHBvaW50cz0iMzM2Ljc1LC0xODcuMzIgMzQ0LjQ3LC0xODAuMDcgMzMzLjkxLC0xODAuOTIgMzM2Ljc1LC0xODcuMzIiLz4KPC9nPgo8IS0tIC9uaXgvc3RvcmUvNXk2bGNmamdoazVrYnY0Nzgydmk3dzc5dno2MGdzeW4mIzQ1O2Jhc2gmIzQ1OzQuNCYjNDU7cDIzIC0tPgo8ZyBpZD0ibm9kZTEzIiBjbGFzcz0ibm9kZSI+Cjx0aXRsZT4vbml4L3N0b3JlLzV5NmxjZmpnaGs1a2J2NDc4MnZpN3c3OXZ6NjBnc3luJiM0NTtiYXNoJiM0NTs0LjQmIzQ1O3AyMzwvdGl0bGU+Cjxwb2x5Z29uIGZpbGw9IiNmZjAwMDAiIHN0cm9rZT0iYmxhY2siIHBvaW50cz0iNzAyLC0zMjQgNjE0LC0zMjQgNjE0LC0yODggNzAyLC0yODggNzAyLC0zMjQiLz4KPHRleHQgdGV4dC1hbmNob3I9Im1pZGRsZSIgeD0iNjU4IiB5PSItMzAyLjMiIGZvbnQtZmFtaWx5PSJUaW1lcyxzZXJpZiIgZm9udC1zaXplPSIxNC4wMCI+YmFzaCYjNDU7NC40JiM0NTtwMjM8L3RleHQ+CjwvZz4KPCEtLSAvbml4L3N0b3JlLzV5NmxjZmpnaGs1a2J2NDc4MnZpN3c3OXZ6NjBnc3luJiM0NTtiYXNoJiM0NTs0LjQmIzQ1O3AyMyYjNDU7Jmd0Oy9uaXgvc3RvcmUvcTFyaHc5ZjMwZm0weXp4MWhpYzFoZ2ozMXNmYzZrNHAmIzQ1O2xpYmtyYjUmIzQ1OzEuMTggLS0+CjxnIGlkPSJlZGdlMTQiIGNsYXNzPSJlZGdlIj4KPHRpdGxlPi9uaXgvc3RvcmUvNXk2bGNmamdoazVrYnY0Nzgydmk3dzc5dno2MGdzeW4mIzQ1O2Jhc2gmIzQ1OzQuNCYjNDU7cDIzJiM0NTsmZ3Q7L25peC9zdG9yZS9xMXJodzlmMzBmbTB5engxaGljMWhnajMxc2ZjNms0cCYjNDU7bGlia3JiNSYjNDU7MS4xODwvdGl0bGU+CjxwYXRoIGZpbGw9Im5vbmUiIHN0cm9rZT0icmVkIiBkPSJNNjM0LjUyLC0yODcuN0M2MjIuNDQsLTI3OC44IDYwNy41NSwtMjY3LjgyIDU5NC40OCwtMjU4LjIiLz4KPHBvbHlnb24gZmlsbD0icmVkIiBzdHJva2U9InJlZCIgcG9pbnRzPSI1OTYuMzQsLTI1NS4yMiA1ODYuMjEsLTI1Mi4xIDU5Mi4xOSwtMjYwLjg1IDU5Ni4zNCwtMjU1LjIyIi8+CjwvZz4KPCEtLSAvbml4L3N0b3JlL213NTkwYXg4eDJuOTE2MWh3dm5sOWo1MTU2ZGk2ZDQ3JiM0NTtsaWJjKythYmkmIzQ1OzcuMS4wIC0tPgo8ZyBpZD0ibm9kZTE0IiBjbGFzcz0ibm9kZSI+Cjx0aXRsZT4vbml4L3N0b3JlL213NTkwYXg4eDJuOTE2MWh3dm5sOWo1MTU2ZGk2ZDQ3JiM0NTtsaWJjKythYmkmIzQ1OzcuMS4wPC90aXRsZT4KPHBvbHlnb24gZmlsbD0iI2ZmMDAwMCIgc3Ryb2tlPSJibGFjayIgcG9pbnRzPSIxMDIsLTMyNCAwLC0zMjQgMCwtMjg4IDEwMiwtMjg4IDEwMiwtMzI0Ii8+Cjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjUxIiB5PSItMzAyLjMiIGZvbnQtZmFtaWx5PSJUaW1lcyxzZXJpZiIgZm9udC1zaXplPSIxNC4wMCI+bGliYysrYWJpJiM0NTs3LjEuMDwvdGV4dD4KPC9nPgo8IS0tIC9uaXgvc3RvcmUvbXc1OTBheDh4Mm45MTYxaHd2bmw5ajUxNTZkaTZkNDcmIzQ1O2xpYmMrK2FiaSYjNDU7Ny4xLjAmIzQ1OyZndDsvbml4L3N0b3JlL3ZybWdxamw1MWd3ZjQ3aTVpMXJiczdkbmtiMWcxcHZmJiM0NTtsaWJjKysmIzQ1OzcuMS4wIC0tPgo8ZyBpZD0iZWRnZTE3IiBjbGFzcz0iZWRnZSI+Cjx0aXRsZT4vbml4L3N0b3JlL213NTkwYXg4eDJuOTE2MWh3dm5sOWo1MTU2ZGk2ZDQ3JiM0NTtsaWJjKythYmkmIzQ1OzcuMS4wJiM0NTsmZ3Q7L25peC9zdG9yZS92cm1ncWpsNTFnd2Y0N2k1aTFyYnM3ZG5rYjFnMXB2ZiYjNDU7bGliYysrJiM0NTs3LjEuMDwvdGl0bGU+CjxwYXRoIGZpbGw9Im5vbmUiIHN0cm9rZT0ibWFnZW50YSIgZD0iTTUxLC0yODcuN0M1MSwtMjc5Ljk4IDUxLC0yNzAuNzEgNTEsLTI2Mi4xMSIvPgo8cG9seWdvbiBmaWxsPSJtYWdlbnRhIiBzdHJva2U9Im1hZ2VudGEiIHBvaW50cz0iNTQuNSwtMjYyLjEgNTEsLTI1Mi4xIDQ3LjUsLTI2Mi4xIDU0LjUsLTI2Mi4xIi8+CjwvZz4KPC9nPgo8L3N2Zz4K alt="hello depedency graph" title="hello depedency graph" srcset sizes></picture></a>
+<p>It’s not not <em>most</em> beautiful. But it does explain why <code>hello</code> depends on so much stuff: because I’m on a Mac.</p>
+<p>Okay.</p>
+<p><code>nix-store --add</code> lets me add individual files to the store. Don’t know why I would want that, but that’s okay – the manual did warn me that I probably don’t care about most of this stuff.</p>
+<p><code>nix-store --add-fixed</code> is a separate command instead of an option on <code>--add</code>, and it lets me add stuff with a hash. Okay.</p>
+<p><code>nix-store --verify</code> will check that everything is okay with the Nix database and fix stuff if it isn’t.</p>
+<pre tabindex=0><code>$ nix-store --verify
+reading the Nix store...
+checking path existence...
+</code></pre><p>Phew. Seems like I’m okay. I even collect garbage and try <code>nix-store --verify --check-contents</code>. Clean bill of health.</p>
+<p>I don’t care about the next few commands.</p>
+<p><code>nix-store --dump</code> and <code>nix-store --restore</code> seems like the way to copy stuff from one computer to another – although presumably <code>nix copy</code> is the high-level wrapper around them that I actually want to use.</p>
+<p>Oh hmm no – I go on to learn <code>nix-store --export</code>:</p>
+<blockquote>
+<p>This is like <code>nix-store --dump</code>, except that the NAR archive produced by that command doesn’t contain the necessary meta-information to allow it to be imported into another Nix store (namely, the set of references of the path).</p>
+</blockquote>
+<p>Wait, what? What’s “the set of references of the path”? What does that mean? Why do I need it?</p>
+<p><code>nix-store --optimise</code> replaces duplicated files with hardlinks. I remember doing this on my NixOS box at some point, before I figured out how to set up NixOS to automatically collect garbage and I was always running out of disk space (because I <em>did</em> have automatic updates set up). Ha: “Use <code>-vv</code> or <code>-vvv</code> to get some progress indication.” I’m glad they say that, but it’s not great that they have to say that, right?</p>
+<p>Aha! <code>nix-store --read-log</code>. That’s how I can look at logs.</p>
+<pre tabindex=0><code>$ nix-store --read-log  /nix/store/pakmb65sf3g2hkbm1fdgk2fh6hiij720-hello-2.10
+error: build log of derivation '/nix/store/pakmb65sf3g2hkbm1fdgk2fh6hiij720-hello-2.10' is not available
+</code></pre><p>Boo. I did collect garbage recently. Maybe that wiped my logs? Hmm.</p>
+<p>No, but it seems like it did delete the <code>.drv</code>. And maybe only <code>.drv</code>s have logs?</p>
+<pre tabindex=0><code>$ nix-env -iA nixpkgs.hello
+replacing old 'hello-2.10'
+installing 'hello-2.10'
+building '/nix/store/y4v15zqm0vl8dcgqn9lin2h83jzm817a-user-environment.drv'...
+created 161 symlinks in user environment
+
+$ nix-store --read-log /nix/store/rsrwc2m01bh8ai0jfwjx1qlgvwshcm23-hello-2.10.drv
+error: build log of derivation '/nix/store/rsrwc2m01bh8ai0jfwjx1qlgvwshcm23-hello-2.10.drv' is not available
+</code></pre><p>Boo. Oh:</p>
+<blockquote>
+<p>if the path was downloaded as a pre-built binary through a substitute, then the log is unavailable.</p>
+</blockquote>
+<p>Fair enough.</p>
+<pre tabindex=0><code>$ nix-env -iA ianpkgs.hello
+...
+
+$ nix-store --read-log /nix/store/ksf5zvkxln1n8la0ix936rsj9xbpzjjb-my-hello-1.0-foo
+</code></pre><p>It worked! But… it didn’t print anything. But it worked! I guess!</p>
+<p><code>nix-store --dump-db</code> and <code>nix-store --load-db</code>. Probably not gonna use those.</p>
+<p><code>nix-store --print-env</code> sounds interesting.</p>
+<pre tabindex=0><code>$ nix-store --print-env /nix/store/xhcsmjw41i2yhh569visqsz0cvipl897-my-hello-1.0.drv
+export builder; builder='/nix/store/5y6lcfjghk5kbv4782vi7w79vz60gsyn-bash-4.4-p23/bin/bash'
+export foo; foo='/nix/store/ksf5zvkxln1n8la0ix936rsj9xbpzjjb-my-hello-1.0-foo'
+export messagefile; messagefile='/nix/store/nmmdalhj24wsz2zi342ymavzqklywk97-message.txt'
+export name; name='my-hello-1.0'
+export out; out='/nix/store/15a167ahlp23a6djv35n9mr2brz1al0l-my-hello-1.0'
+export outputs; outputs='foo out'
+export shellHook; shellHook='PS1='\''sup$ '\'''
+export stdenv; stdenv='/nix/store/sp860v02a8j8s7vqhjrc94hgsklqdvdw-stdenv-darwin'
+export system; system='x86_64-darwin'
+export _args; _args=''-e' '/nix/store/6bqabm9hb9l3c0kh8hnvbdbc7s26jiwz-builder.sh''
+</code></pre><p>Neat! Okay. I like that; that feels good. That command just made things a lot more concrete for me.</p>
+<p>Lastly we have <code>nix-store --generate-binary-cache-key</code> which <em>feels</em> a little different than the other commands here but okay sure.</p>
+<h1 id=chapter-23-utilitieshttpswebarchiveorgweb20210227145624httpsnixosorgmanualnixstablech-utilities><a href=https://web.archive.org/web/20210227145624/https://nixos.org/manual/nix/stable/#ch-utilities>Chapter 23. Utilities</a></h1>
+<p><code>nix-channel</code>. Already covered that thoroughly; doesn’t look like there’s anything new or interesting here. Same for <code>nix-collect-garbage</code>.</p>
+<p><code>nix-copy-closure</code>; seems fine. Connects to the remote host twice, once to do the diff and once again to do the copy. No objections.</p>
+<p>This has a really interesting example:</p>
+<blockquote>
+<pre><code>$ nix-copy-closure --from alice@itchy.labs \
+   /nix/store/0dj0503hjxy5mbwlafv1rsbdiyx1gkdy-subversion-1.4.4
+$ nix-env -i /nix/store/0dj0503hjxy5mbwlafv1rsbdiyx1gkdy-subversion-1.4.4
+</code></pre>
+</blockquote>
+<p>I thought <code>nix-env -i</code> took a “symbolic name” or whatever. It can take a store path too? This is definitely not documented. I try it out:</p>
+<pre tabindex=0><code>$ nix-env -i /nix/store/15a167ahlp23a6djv35n9mr2brz1al0l-my-hello-1.0
+installing 'my-hello-1.0'
+building '/nix/store/vfwngc3260y17nx3k5bqhhcj9gpjbnc7-user-environment.drv'...
+warning: not including '/nix/store/15a167ahlp23a6djv35n9mr2brz1al0l-my-hello-1.0' in the user environment because it's not a directory
+created 158 symlinks in user environment
+</code></pre><p>Skeptical side eyes. Don’t know. I wish that <code>man nix-env</code> would have something to say about this.</p>
+<p>Next we have <code>nix-daemon</code>. The manual says this:</p>
+<blockquote>
+<p>The Nix daemon is necessary in multi-user Nix installations. It performs build actions and other operations on the Nix store on behalf of unprivileged users.</p>
+</blockquote>
+<p>And <em>nothing more</em>. Shortest command yet.</p>
+<p><code>nix-hash</code> – I don’t know if there’s I reason I would ever want to use this.</p>
+<p><code>nix-instantiate</code>. Okay. So this command is in the “utility” section but it <em>seems</em> like kind of a major, fundamental piece of Nix on top of which many other commands are built.</p>
+<pre tabindex=0><code>$ nix-instantiate hello.nix
+error: cannot auto-call a function that has an argument without a default value ('stdenv')
+</code></pre><p>Sigh yes fair enough. Wait a minute – is this how I can pretty-print?</p>
+<pre tabindex=0><code>$ nix-instantiate --parse hello.nix
+({ stdenv }: (derivation  { name = "my-hello-1.0"; system = "x86_64-darwin"; outputs = [ ("foo") ("out") ]; builder = (stdenv).shell; args = [ ("-e") (/Users/ian/scratch/builder.sh) ]; messagefile = /Users/ian/scratch/message.txt; inherit stdenv ; shellHook = "PS1='sup\$ '"; }))
+</code></pre><p>Sigh. Of course not.</p>
+<pre tabindex=0><code>$ nix-instantiate --eval hello.nix
+&lt;LAMBDA&gt;
+</code></pre><p>Alright. I happen to remember that my <code>shell.nix</code> is just the application of the <code>hello.nix</code> function with <code>stdenv</code>, so:</p>
+<pre tabindex=0><code>$ nix-instantiate shell.nix
+warning: you did not specify '--add-root'; the result might be removed by the garbage collector
+/nix/store/xhcsmjw41i2yhh569visqsz0cvipl897-my-hello-1.0.drv!foo
+</code></pre><p>Huh! <code>!foo</code>. Weird. That is the default output for my package. The filename is just the part before the <code>!</code>, though.</p>
+<p>I’m not sure why <code>nix-instantiate --eval</code> exists. It feels very different from the “compile a derivation into a <code>.drv</code> file,” which seems like its main job.</p>
+<p>Anyway.</p>
+<p><code>nix-prefetch-url</code> – “This command is just a convenience for Nix expression writers.” It will tell me the hash to put in my <code>fetchurl</code> command. That’s nice!</p>
+<p>And it’s also the last command! Nice. Okay. We did it. We know <em>all of Nix</em>.</p>
+<p>Obviously the manual… completely omitted the <code>nix</code> command. So. We don’t know that one. But… probably nothing important in there, right?</p>
+<hr>
+<ul>
+<li>What’s up with that weird array situation?</li>
+<li>What is a pure/impure shell?</li>
+<li>What is the use case for <code>nix-env --set</code>?</li>
+<li>Why can’t I say <code>nix-env -eA nixpkgs.hello</code>? Why do I need to use the “symbolic name”?</li>
+<li>What’s the “user environment build script”</li>
+<li>How does <code>nix-env --set-flag</code> work?</li>
+<li>How do I pretty print Nix expressions?</li>
+<li>Why does <code>nix eval</code> need its argument to be in parentheses?</li>
+<li>What is <code>manifest.nix</code>?</li>
+<li>How can I make <code>nix-shell</code> use <code>zsh</code>?</li>
+<li>What’s the difference between a package and a derivation?</li>
+<li>What is <code>openssl.all</code> actually?</li>
+<li>How can I ask Nix to show me runtime dependencies of an output?</li>
+<li>Are runtime dependencies known per-derivation, or per-output?</li>
+<li>How can I inspect / pretty print a store derivation?</li>
+<li>What’s the difference between <code>nix-store --dump</code> and <code>nix-store --export</code>?</li>
+<li>Why doesn’t <code>nix-store --read-log</code> work?</li>
+<li>What does <code>nix-env -i /nix/store/store-path</code> do?</li>
+<li>How do I (locally) “fork” a derivation?</li>
+</ul></div>
+</article>
+<div class=post-footer>
+<a href="mailto:ianthehenry@gmail.com?subject=let%27s%20talk%20about%20%22Command%20Reference%22&amp;body=First%20of%20all,%20I%20just%20wanted%20to%20say%20that%20I%20forgive%20you%20for%20not%20having%20a%20real%20comment%20system%20on%20your%20site.">comment on this post</a><a href=https://ianthehenry.com/posts/how-to-learn-nix/configuration/>Next up ➜ Configuration</a></div>
+<aside class=series-rider>
+<p>
+This post is part of the series <a class=series-name href=https://ianthehenry.com/posts/how-to-learn-nix/>How to Learn Nix</a>.
+You can
+<a target=_blank href=https://ianthehenry.com/feed.xml>subscribe to my RSS feed</a>
+or
+<a target=_blank href=https://twitter.com/ianthehenry>follow me on Twitter</a>
+for more, or <a href=https://ianthehenry.com/posts/>peruse my back catalog</a> if you're in the mood for something different.
+<div class=subsection-header>Opening remarks</div><ol start=1 class=post-list><li><a href=https://ianthehenry.com/posts/how-to-learn-nix/introduction/>What's all this about?</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/prior-knowledge/>Prior knowledge</a></li>
+</ol><div class=subsection-header>Reading the Nix manual</div><ol start=3 class=post-list><li><a href=https://ianthehenry.com/posts/how-to-learn-nix/glossary/>What we talk about when we talk about Nix</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/quick-start-guide/>Quick starts, full hearts</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/basic-package-management/>Basic package management</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/profiles/>Profiles</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/garbage-collection/>Garbage collection</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/channels/>Channels</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/sharing/>Learning to share</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/my-first-derivation/>My first derivation</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/okay-my-actual-first-derivation/>Okay my actual first derivation</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/nix-language/>The Nix expression language</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/derivations/>Derivations</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/built-in-functions/>Built-in Functions</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/advanced-topics/>Advanced Topics</a></li>
+<li><strong><a href=https://ianthehenry.com/posts/how-to-learn-nix/command-reference/>Command Reference</a></strong>&nbsp;←&nbsp;you are here</li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/configuration/>Configuration</a></li>
+</ol><div class=subsection-header>Interlude: in which we follow our hearts, however briefly</div><ol start=18 class=post-list><li><a href=https://ianthehenry.com/posts/how-to-learn-nix/nix-manual-reflection/>So I read the manual huh</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/switching-from-homebrew-to-nix/>Switching from Homebrew to Nix</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/my-first-nix-bug/>My first Nix bug</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/my-first-package-upgrade/>My first package upgrade</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/declarative-user-environment/>Setting up a declarative user environment</a></li>
+</ol><div class=subsection-header>Reading the Nixpkgs manual</div><ol start=23 class=post-list><li><a href=https://ianthehenry.com/posts/how-to-learn-nix/how-to-learn-nixpkgs/>How to learn Nixpkgs</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/overlays/>Overlays</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/overriding/>Overriding</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/an-infinite-list-of-functions/>An infinite list of functions</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/even-more-functions-somehow/>Even more functions, somehow</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/the-standard-environment/>The standard environment</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/derivations-in-detail/>Derivations in detail</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/cross-compilation/>Cross-compilation</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/platform-notes/>Platform notes</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/builders/>Builders</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/languages-and-frameworks/>Languages and frameworks</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/random-package-grab-bag/>Random package grab-bag</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/how-to-give-back/>How to give back</a></li>
+</ol><div class=subsection-header>Documentation behind us, we set out on our own</div><ol start=36 class=post-list><li><a href=https://ianthehenry.com/posts/how-to-learn-nix/nixpkgs-reflection/>So I read the other manual, huh</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/saving-your-shell/>Saving your shell</a></li>
+</ol><div class=subsection-header>Oh right forgot about Nix Pills</div><ol start=38 class=post-list><li><a href=https://ianthehenry.com/posts/how-to-learn-nix/nix-pills/>Nix Pills</a></li>
+</ol><div class=subsection-header>Our whole lives ahead of us</div><ol start=39 class=post-list><li><a href=https://ianthehenry.com/posts/how-to-learn-nix/python3-alpha/>How to install Python</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/open-questions/>Open questions</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/ambiguous-packages/>Ambiguous packages</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/nix-zshell/>Running zsh in nix-shell</a></li>
+</ol><div class=subsection-header>Nix 2.4 slithers to life</div><ol start=43 class=post-list><li><a href=https://ianthehenry.com/posts/how-to-learn-nix/flakes/>My first brush with flakes</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/more-flakes/>More flakes, unfortunately</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/new-profiles/>Fancy new profiles</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/chipping-away-at-flakes/>Chipping away at flakes</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/nix-develop/>New and unimproved shells</a></li>
+</ol>
+</aside>
+</main>
+<footer>
+© 1899-1907 <a href=https://ianthehenry.com/about/>Ian Henry</a>
+</footer>

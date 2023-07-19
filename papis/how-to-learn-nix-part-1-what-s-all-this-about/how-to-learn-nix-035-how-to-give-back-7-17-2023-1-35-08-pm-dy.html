@@ -1,0 +1,409 @@
+<!DOCTYPE html> <html lang=en style><!--
+ Page saved with SingleFile 
+ url: https://ianthehenry.com/posts/how-to-learn-nix/how-to-give-back/ 
+ saved date: Mon Jul 17 2023 13:35:08 GMT+0600 (Kyrgyzstan Time)
+--><meta charset=utf-8>
+<meta name=viewport content="initial-scale=1,maximum-scale=1">
+<title>How to Learn Nix, Part 35: How to give back</title>
+<link rel=canonical href=https://ianthehenry.com/posts/how-to-learn-nix/how-to-give-back/>
+<style>:root{--box-radius:6px;--outer-box-radius:10px}:root{--content-bg:#fff;--gutter-bg:#eeeef3;--text-fg:#4d4d4c;--table-border-color:#ccc;--separator-color:#6d6d6c;--link:#07c;--link-visited:#751a9a;--blockquote-accent:var(--link);--footnote-accent:#ffd2a3;--subscribe-button-bg:#44e66c;--subscribe-button-fg:#11391b;--media-controls-on:#34b553;--media-controls-contrast:#fff;--inline-code-bg:#f3f3fa;--code-block-bg:#f3f3fa;--aside-bg:#f3f3fa;--aside-warning-bg:#fff5d1;--aside-warning-fg:#ac3233;--palette-red:#c82829;--palette-green:#718c00;--palette-yellow:#eab700;--palette-orange:#f5871f;--palette-blue:#4271ae;--palette-purple:#8959a8;--palette-teal:#3e999f;--palette-white:#fefefe;--palette-black:#000;--palette-text:var(--text-fg);--palette-dim:#8e908c;--highlight-bg:var(--palette-yellow);--highlight-fg:var(--text-fg)}#dmt::before{content:"🌖"}#dmt:hover::before{content:"🌗"}@media (prefers-color-scheme:dark){:root:not(.light-theme){--content-bg:#313233;--gutter-bg:#1d1f21;--text-fg:#d8d4cf;--table-border-color:#ccc;--separator-color:#6d6d6c;--link:rgb(82,183,255);--link-visited:rgb(193,104,229);--blockquote-accent:var(--link);--footnote-accent:#a8612f;--subscribe-button-bg:#44e66c;--subscribe-button-fg:#11391b;--media-controls-on:#44e66c;--media-controls-contrast:#11391b;--inline-code-bg:#3c4044;--code-block-bg:#1d1f21;--aside-bg:#3c4044;--aside-warning-bg:#fff5d1;--aside-warning-fg:var(--palette-red);--palette-red:#cc6666;--palette-green:#b5bd68;--palette-yellow:#f0c674;--palette-orange:#de935f;--palette-blue:#81a2be;--palette-purple:#b294bb;--palette-teal:#8abeb7;--palette-white:#fefefe;--palette-black:#000;--palette-text:var(--text-fg);--palette-dim:#969896;--highlight-bg:var(--palette-yellow);--highlight-fg:var(--palette-black)}:root:not(.light-theme) #dmt::before{content:"🌒"}:root:not(.light-theme) #dmt:hover::before{content:"🌓"}}#dmt{width:30px;text-align:right;padding-right:4px;position:absolute;top:0;bottom:0;right:0;border:none;background-color:inherit;cursor:pointer}*{margin:0;padding:0;font:inherit;box-sizing:border-box}html{background-color:var(--gutter-bg);color:var(--text-fg)}body{font-family:system-ui,sans-serif;font-size:12pt;line-height:1.8;word-wrap:break-word}body:not(.content-page) main>aside{padding:0 var(--content-padding)}body.content-page main,body:not(.content-page) article{background-color:var(--content-bg);border-radius:var(--outer-box-radius);padding:var(--content-padding)}pre{word-wrap:normal}em,i{font-style:italic}h1>a:only-child,h2>a:only-child{display:block}main .subsection-header+.post-list{margin-top:0}strong{font-weight:700}ol,ul{padding-left:3ch}hr{border-style:solid;border-width:1.5px 0 0;border-radius:1px;border-color:var(--separator-color)}:not(pre)>code{white-space:pre;background-color:var(--inline-code-bg)}li{padding-left:0}blockquote{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:"";content:none}a,a:active,a:visited{text-decoration:none}a:hover{text-decoration:underline}blockquote{padding:0 0 0 var(--content-padding);border-left:solid 2px var(--blockquote-accent)}aside{--content-padding:0.5em;padding:.5em;border-radius:var(--box-radius);background-color:var(--aside-bg)}a,a:active,header a:visited,footer a:visited,h1 a:visited,h2 a:visited{color:var(--link)}a:visited{color:var(--link-visited)}h1{font-size:130%}h2{font-size:120%}main *+p,main *+pre,main *+aside,main *+article,main *+blockquote,main *+div,main *+ul,main *+hr,main *+h1,main *+h2{margin-top:1em}main div.highlight+div.highlight{margin-top:1px}main .post-header *+h1{margin-top:0}code{font-family:Menlo,monospace;padding:0 3px;border-radius:2px}pre{background-color:var(--code-block-bg);font-size:11pt;padding:calc(.75*var(--content-padding)) var(--content-padding);line-height:1.3;border-radius:var(--box-radius);overflow-x:scroll;-webkit-overflow-scrolling:touch}pre code{padding:0;border-radius:0;display:inline-block;background-color:initial}p+p{margin-top:1em}body{margin:0 auto;--content-padding:10px;max-width:768px;-webkit-text-size-adjust:100%;position:relative}header{position:relative}header>*{height:48px;line-height:48px}.promo,.promo:visited,.promo:active{display:block;text-align:center;background-color:var(--link);color:var(--code-block-bg);border-radius:0 0 var(--outer-box-radius) var(--outer-box-radius)}header .site-title{font-size:130%}header nav{position:absolute;right:30px;top:0}@media all and (max-width:400px){:root{--outer-box-radius:0}header{text-align:center}header nav{position:static}:not(pre)>code{white-space:pre-wrap}body{--content-padding:10px}#dmt{padding:0;text-align:center;width:40px}}header ul{padding:0}header li{list-style:none;display:inline-block}header a{display:block;height:100%}header li+li{margin-left:1em}footer{padding:2em 0;font-size:.85em;text-align:center}article h1.post-title{font-size:200%}article .post-title a{display:block}article .meta{font-size:90%;font-style:italic}.post-header h1{line-height:1.2em;margin-bottom:.5em}.post-footer{text-align:center}.post-footer a{display:block}ol.post-list{list-style-position:inside;padding:0}.series-rider .series-name{font-style:italic}.highlight{color:var(--palette-text)}.highlight .err{color:var(--palette-red)}.highlight .n{color:var(--palette-text)}.highlight .o{color:var(--palette-teal)}.highlight .p{color:var(--palette-text)}.highlight .c1{color:var(--palette-dim)}.highlight .s2{color:var(--palette-green)}</style>
+<meta property=og:title content="How to Learn Nix, Part 35: How to give back">
+<meta property=og:type content=website>
+<meta property=og:url content=https://ianthehenry.com/posts/how-to-learn-nix/how-to-give-back/>
+<meta name=description content="This is it. We’ve reached the end. After a month and a half of reading the Nixpkgs manual in excruciating detail, I have finally defeated it.
+Or, I’m about to defeat it. We’re about to defeat it. We’re going to do this together.">
+<meta property=og:description content="This is it. We’ve reached the end. After a month and a half of reading the Nixpkgs manual in excruciating detail, I have finally defeated it.
+Or, I’m about to defeat it. We’re about to defeat it. We’re going to do this together.">
+<meta property=og:image content=https://ianthehenry.com/checkerboard.png>
+<meta name=twitter:creator content=@ianthehenry>
+<meta name=twitter:card content=summary>
+<link type=image/x-icon rel="shortcut icon" href="data:image/vnd.microsoft.icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAHH1uIDShg/xEsZv8GFk3/CSJb/wgZT/8IGU//CBlP/wkiW/8HGE7/CBlP/wkiW/8HIFX/BxhO/wcgVf8OK2t7JDhz/wcfW/8NNn7/CSpq/wkjYf8MJGP/DCJg/w02ef9SqdX/TKHJ/1my2f9Moc3/UqzV/1Cr1v9Pocf/Ditr/xk2cf8KJGL/CjR8/wwva/8RK2r/Cido/w8qa/8LLW//TqjT/1Gnz/9bsNf/Sp/K/1Wt2f9Wrtj/UKjQ/w8xc/8gPHj/Di5w/xk4ef8TL27/Dy5u/xU3fv8QLGv/Ditr/1qy3f9dttv/Yrje/0ecx/9Knsz/U6fQ/1m13f8YN3n/JjZx/wszdv8YOXz/Eilm/xc3e/8dSZT/GDJz/xk/hv9hu+P/WbHZ/1mv1v9Kn8z/WLHd/1212v9ds9n/Eipr/xcqYv8SOX3/GzRz/xQrZ/8aM3D/HEuU/xc0df8fPYD/Yrre/1603P9dt9z/VKvY/1iz4v9etNr/Y73m/xk5fP8cMm3/JEWK/xc0dP8eO3v/Hjd4/ydRnP8WM3P/Gjd3/2bA5/9dtd//Ybng/2K95v9ct+P/Ybnf/2K95/8oS5L/GChg/xxBh/8lSIz/GC5s/yM5ev8hRoz/HTp7/yE6e/9Zsdz/YLzn/2jF7v9ryfL/YLzn/1qu1f9htdz/GDyD/y0/ev9qx/X/acDn/1235v9euun/Yb3r/1665v9owu7/GUOL/yhGh/8nUJL/MkmI/yBFiP8jOHb/MVag/yM+gv8VMGv/acXx/27G7/9szv3/bMb1/2zD6/9vy/X/edf5/yBHjv8yS47/JEuO/zVLiv8nS5D/LkOB/yRXpP8lQoT/H0WI/3fS+P910Pf/b8/8/2bB7/991Pn/eNb+/3nT+P8pS5L/O1GS/ytUnP86UJH/NF2k/zNLjP8sXKv/JkCB/x4+ff+B2/3/etT9/4He//922f//fNf//3TT//991/7/NU6N/zZSkP86Zav/PlWR/zFepv88ZKb/MF2n/yQ/gf8bNXH/fd3//3/b//+K6P//ft///3vV//993f//gdz//0hWlf9FZKX/RmOj/0JXlv9IeMP/QXKz/0Jsuf8eO3z/Hjt2/3vd//+C3v//ju3//3zg//+H4v//guL//4nj//9HXp3/UGur/ztgqf9JYqP/S3G4/05ur/9EbLT/Hjt7/zNJhf+G4///heT//4rq//+E5///iOT//4jr//+G4///UXO0/09iov9EX6H/SWWn/1V5wP9Kaa7/RGSp/ydLj/8NKGCfDShg/x8+d/8RLGb/CBlP/wYWTf8GFEj/CBNH/wooZP8JIlv/CCJd/woWSf8HGE7/ByBV/wwgU/8fO3mfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="><meta http-equiv=content-security-policy content="default-src 'none'; font-src 'self' data:; img-src 'self' data:; style-src 'unsafe-inline'; media-src 'self' data:; script-src 'unsafe-inline' data:; object-src 'self' data:; frame-src 'self' data:;"><style>img[src="data:,"],source[src="data:,"]{display:none!important}</style></head>
+<body class=content-page>
+<a class=promo href=https://janet.guide/ target=_blank><i>psst, hey kid, wanna read a weird programming book</i></a>
+<header>
+<a class=site-title href=https://ianthehenry.com/>Ian Henry</a>
+<nav>
+<ul><li><a href=https://ianthehenry.com/about/>About</a><li><a href=https://ianthehenry.com/posts/>Blog</a><li><a href=https://ianthehenry.com/stuff/>Stuff</a></ul>
+</nav>
+<button id=dmt title="Toggle dark mode"></button>
+</header>
+<main>
+<aside class=series-rider>
+<p>This post is part of the series <a class=series-name href=https://ianthehenry.com/posts/how-to-learn-nix/>How to Learn Nix</a>, a rambling diary in which I work my way through the Nix manual in excrutiating detail.</p>
+</aside>
+<article class=post>
+<div class=post-header>
+<time class=meta datetime=2021-05-15>May 15, 2021</time>
+<h1 class=post-title>
+<a href=https://ianthehenry.com/posts/how-to-learn-nix/how-to-give-back/>How to Learn Nix, Part&nbsp;35:<br>How to give back</a></h1>
+</div>
+<div class=post-content><p>This is it. We’ve reached the end. After a month and a half of reading the Nixpkgs manual in excruciating detail, I have finally defeated it.</p>
+<p>Or, I’m about to defeat it. <em>We’re</em> about to defeat it. We’re going to do this together.</p>
+<h1 id=chapter-17-quick-start-to-adding-a-packagehttpswebarchiveorgweb20210318102415if_httpsnixosorgmanualnixpkgsstablechap-quick-start><a href=https://web.archive.org/web/20210318102415if_/https://nixos.org/manual/nixpkgs/stable/#chap-quick-start>Chapter 17. Quick Start to Adding a Package</a></h1>
+<p>At this point I feel that I’ve… kind of got a pretty good handle on this. Step 1: write a <code>default.nix</code> file. Step 2: put it somewhere reasonable. Step 3: add it to the giant monolithic list of every package in the universe.</p>
+<p>And, yeah. That’s pretty much what the manual says.</p>
+<p>It then gives a list of 9 packages to serve as good examples for writing said <code>default.nix</code> files.</p>
+<p>Aha!</p>
+<blockquote>
+<p>You can use <code>nix-prefetch-url</code> <em><code>url</code></em> to get the SHA-256 hash of source distributions. There are similar commands as <code>nix-prefetch-git</code> and <code>nix-prefetch-hg</code> available in <code>nix-prefetch-scripts</code> package.</p>
+</blockquote>
+<p><a href=https://ianthehenry.com/posts/how-to-learn-nix/languages-and-frameworks/>I was just wondering about that.</a> Now I have my answer.</p>
+<blockquote>
+<p>A list of schemes for <code>mirror://</code> URLs can be found in <a href=https://github.com/NixOS/nixpkgs/blob/master/pkgs/build-support/fetchurl/mirrors.nix><code>pkgs/build-support/fetchurl/mirrors.nix</code></a>.</p>
+</blockquote>
+<p>Wha? What are <code>mirror://</code> URLs?</p>
+<p>It doesn’t say, but it links to the code, so let’s take a look.</p>
+<p>And there is… no explanation of this. I have never encountered a <code>mirror://</code> URL, although ⌘F tells me that the Nixpkgs manual did use some of them (without explanation) in the <a href=https://web.archive.org/web/20210318102415if_/https://nixos.org/manual/nixpkgs/stable/#ssec-perl-packaging>section on packaging Perl programs</a>.</p>
+<p>It just says:</p>
+<pre tabindex=0><code># Mirrors for mirror://site/filename URIs, where "site" is
+# "sourceforge", "gnu", etc.
+</code></pre><p>And then there’s a big long list of attributes like this:</p>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-nix data-lang=nix> <span class=c1># SourceForge.</span>
+<span class=n>sourceforge</span> <span class=err>=</span> <span class=p>[</span>
+  <span class=s2>"https://downloads.sourceforge.net/"</span>
+  <span class=s2>"https://prdownloads.sourceforge.net/"</span>
+  <span class=s2>"https://heanet.dl.sourceforge.net/sourceforge/"</span>
+  <span class=s2>"https://surfnet.dl.sourceforge.net/sourceforge/"</span>
+  <span class=s2>"https://dfn.dl.sourceforge.net/sourceforge/"</span>
+  <span class=s2>"https://osdn.dl.sourceforge.net/sourceforge/"</span>
+  <span class=s2>"https://kent.dl.sourceforge.net/sourceforge/"</span>
+<span class=p>];</span>
+</code></pre></div><div class=highlight><pre tabindex=0 class=chroma><code class=language-nix data-lang=nix><span class=c1># CPAN mirrors.</span>
+<span class=n>cpan</span> <span class=err>=</span> <span class=p>[</span>
+  <span class=s2>"https://cpan.metacpan.org/"</span>
+  <span class=s2>"https://cpan.perl.org/"</span>
+  <span class=s2>"http://backpan.perl.org/"</span>  <span class=c1># for old releases</span>
+<span class=p>];</span>
+</code></pre></div><p>So I’m <em>assuming</em> – this is not explained in the code or the manual – that there is some Nix machinery in <code>fetchurl</code> to try these lists of mirrors, when you use the <code>mirror</code> “protocol.”</p>
+<p>But there is also one mysterious one – at the very top of the file:</p>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-nix data-lang=nix><span class=c1># Content-addressable Nix mirrors.</span>
+<span class=n>hashedMirrors</span> <span class=err>=</span> <span class=p>[</span>
+  <span class=s2>"http://tarballs.nixos.org"</span>
+<span class=p>];</span>
+</code></pre></div><p>I don’t really know what that’s about. It certainly seems different than all the others.</p>
+<p>But I <em>remember</em> hearing – I don’t remember reading this in the manual, or in some random blog post, or what – about some sort of mechanism that <code>fetchurl</code> can use to transparently mirror sources, as a way to make Nix builds reproducible even as The Internet changes out from under us.</p>
+<p>Aha! Grepping my blog reveals the answer. The Nix manual mentioned it, in passing, in <a href=https://ianthehenry.com/posts/how-to-learn-nix/configuration/>the documentation for a configuration value called <code>hashed-mirrors</code></a>.</p>
+<p>So presumably this is just the default value, and I can configure my own <code>hashed-mirrors</code> with all the sources that my software depends on. Which I like!</p>
+<p>I wonder how I can set that up.</p>
+<p>I also wonder if <code>hashed-mirrors</code> is like… a fallback? Or a preferred cache, like a CDN situation? I would <em>guess</em> that it’s just a fallback. But maybe not? Since you’d only use it in the case that you aren’t using a substitute. And Nix is paying for that bandwidth already. Anyway, if I had my own private version, I would definitely want it to be the primary source. Hmm. I wonder if I can configure that.</p>
+<p>Anyway. Yeah. That’s how you contribute. And then you open a PR. Seems straightforward.</p>
+<h1 id=chapter-18-coding-conventionshttpswebarchiveorgweb20210318102415if_httpsnixosorgmanualnixpkgsstablechap-conventions><a href=https://web.archive.org/web/20210318102415if_/https://nixos.org/manual/nixpkgs/stable/#chap-conventions>Chapter 18. Coding conventions</a></h1>
+<p>This is a chapter about conventions.</p>
+<p>It begins with… syntax. Like, where to put your braces. How many spaces to use. Stuff like that. Stuff that, in 2021, actual humans are still spending actual human effort on. Stuff that a computer can– okay. I won’t go on a rant about autoformatters. Or <em>linters</em>, at the very least – that’s not even a controversial ask, is it? Anyway. Definitely bigger fish to fry here.</p>
+<p>I’m not going to read all of these detailed instructions for how to <em>format source code</em> because it’s, you know, life is too short.</p>
+<p>Actually, I will rant a little bit, because I thought of something <em>almost</em> interesting to say about this.</p>
+<p>One of the beautiful things about Nix is that it takes “build instructions” – documents written for humans – and turns them into expressions written for computers.</p>
+<p>Consider, for example, <a href=https://github.com/supercollider/supercollider/blob/61af9b487a8d3a7341b295752235b84e8fc23dde/README_LINUX.md>this document</a>. It is a document that describes how to build the music programming environment SuperCollider. It is a lot of words. It contains instructions for human people to follow, if they want to build SuperCollider for themselves. <em>Many</em> of the words are just about how to install Qt.</p>
+<p>Now consider <a href=https://github.com/NixOS/nixpkgs/blob/3675e4b7e3bf18ae8c939506997df52b662045a8/pkgs/development/interpreters/supercollider/default.nix>this alternative</a>. That’s the Nix expression to build SuperCollider.</p>
+<p>The ability to lift “instructions for humans” into “instructions for computers” is one of the great superpowers that Nix gives you.</p>
+<p>I don’t mean to pick on SuperCollider; that’s just something I happened to be playing with recently, and I thought its build instructions made a very good Nix case study. And I recognize that I’m not being fair, really: the official instructions contain a lot of information about conditional compilation of different features, which the Nix expression does not support.</p>
+<p>So I will pick on myself instead:</p>
+<blockquote>
+<p>This project relies on <code>cairo</code> and <code>pango</code>. If you don’t have them already, you can install them with Homebrew like this:</p>
+<pre><code>$ brew install cairo --without-x11
+$ brew install pango --without-x11
+</code></pre>
+<p>Afterwards, I’m pretty sure you need <code>gtk2hs-buildtools</code> for something.</p>
+<pre><code>$ cabal install gtk2hs-buildtools
+</code></pre>
+<p>Make sure you don’t install that into a sandbox! It adds some binaries that you need. So make sure <code>~/.cabal/bin</code> is on your <code>PATH</code>.</p>
+<p>Afterwards, we do haskell things:</p>
+<pre><code>$ cabal sandbox init
+</code></pre>
+<p>We have to install the Haskell <code>pango</code> bindings separately because <code>clang</code> can’t build it. Look, don’t ask me.</p>
+<pre><code>$ cabal install pango -j --with-gcc=gcc-4.8
+</code></pre>
+<p>Then we install the rest:</p>
+<pre><code>$ cabal install -j --only-dependencies
+</code></pre>
+</blockquote>
+<p>Those are the build instructions I wrote once for <a href=https://github.com/ianthehenry/memegen>a little toy project designed to waste company time and money</a>. Are the instructions correct? Complete? I have no idea. It’s not like I <em>tested</em> them. How could I? It worked on my machine. Did I capture every dependency? I don’t know. The language I used there is certainly not reassuring.</p>
+<p>Anyway, we’re in part 35 of a series about learning Nix. So I don’t really think I need to convince you of the value of actually repeatable build instructions.</p>
+<p>Now consider this document:</p>
+<blockquote>
+<p>Function formal arguments are written as:</p>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-nix data-lang=nix><span class=p>{</span> <span class=n>arg1</span><span class=o>,</span> <span class=n>arg2</span><span class=o>,</span> <span class=n>arg3</span> <span class=p>}:</span>
+</code></pre></div><p>but if they don’t fit on one line they’re written as:</p>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-nix data-lang=nix><span class=p>{</span> <span class=n>arg1</span><span class=o>,</span> <span class=n>arg2</span><span class=o>,</span> <span class=n>arg3</span>
+<span class=o>,</span> <span class=n>arg4</span><span class=o>,</span> <span class=o>...</span>
+<span class=o>,</span> <span class=c1># Some comment...</span>
+  <span class=n>argN</span>
+<span class=p>}:</span>
+</code></pre></div></blockquote>
+<p>It’s just as infuriating, right? As opposed to:</p>
+<pre tabindex=0><code>$ nix fmt
+</code></pre><p>Or whatever.</p>
+<p>Okay. End of rant.</p>
+<p>The manual then describes package naming conventions. Which begins with the wonderful:</p>
+<blockquote>
+<p>The key words <em>must</em>, <em>must not</em>, <em>required</em>, <em>shall</em>, <em>shall not</em>, <em>should</em>, <em>should not</em>, <em>recommended</em>, <em>may</em>, and <em>optional</em> in this section are to be interpreted as described in <a href=https://tools.ietf.org/html/rfc2119>RFC 2119</a>. Only <em>emphasized</em> words are to be interpreted in this way.</p>
+</blockquote>
+<p>You know you’re in for a good time whenever someone links to RFC 2119.</p>
+<p>This is followed by a couple simple rules for naming packages. No uppercase letters. Versions start with numbers. I dunno. I thought I could be snarky about the naming police intensely overspecifying every little detail, but there are only actually six different rules.</p>
+<p>One of them is:</p>
+<blockquote>
+<p>If a package is not a release but a commit from a repository, then the version part of the name <em>must</em> be the date of that (fetched) commit. The date <em>must</em> be in “<code>YYYY-MM-DD</code>” format. Also append “<code>unstable</code>” to the name - e.g., “<code>pkgname-unstable-2014-09-23</code>”.</p>
+</blockquote>
+<p>Which seems odd to me. I dunno. Kinda arbitrary, whether a commit is “a release” or just “a commit.”</p>
+<p>Anyway, then we describe the layout of the Nixpkgs repository. What folders to put stuff in. I don’t really know the exact difference between a <code>tool/</code> and an <code>application/</code>, but I could probably distinguish between them pretty well in practice. I dunno. <code>servers/</code> is for both HTTP servers and X.org, which is very funny to me.</p>
+<h2 id=184-fetching-sourceshttpswebarchiveorgweb20210318102415if_httpsnixosorgmanualnixpkgsstablesec-sources><a href=https://web.archive.org/web/20210318102415if_/https://nixos.org/manual/nixpkgs/stable/#sec-sources>18.4. Fetching Sources</a></h2>
+<blockquote>
+<p>Right now there is only one fetcher which has mirroring support and that is <code>fetchurl</code>.</p>
+</blockquote>
+<p>Aha. So the <code>hashed-mirrors</code> thingy doesn’t work with <code>fetchgit</code>? Or <code>fetchFromGitHub</code>? That seems… problematic.</p>
+<p>Or, no… it seems <code>fetchFromGitHub</code> <em>is</em> implemented with <code>fetchurl</code>, not <code>fetchgit</code> – it fetches a source archive over HTTP; it doesn’t fetch via the git protocol directly. Okay; that’s good to know.</p>
+<p>The manual gives an example here of how to use the <code>nix-prefetch-scripts</code>:</p>
+<blockquote>
+<p>Find the value to put as <code>sha256</code> by running</p>
+<pre tabindex=0><code>nix run -f '&lt;nixpkgs&gt;' nix-prefetch-github -c nix-prefetch-github --rev 1f795f9f44607cc5bec70d1300150bfefcef2aae NixOS nix
+</code></pre><p>or</p>
+<pre tabindex=0><code>nix-prefetch-url --unpack https://github.com/NixOS/nix/archive/1f795f9f44607cc5bec70d1300150bfefcef2aae.tar.gz. 
+</code></pre></blockquote>
+<p>I tried running that first one:</p>
+<pre tabindex=0><code>$ nix run -f '&lt;nixpkgs&gt;' nix-prefetch-github -c nix-prefetch-github --rev 1f795f9f44607cc5bec70d1300150bfefcef2aae NixOS nix
+[4 copied (1.2 MiB), 0.3 MiB DL]
+{
+    "owner": "NixOS",
+    "repo": "nix",
+    "rev": "1f795f9f44607cc5bec70d1300150bfefcef2aae",
+    "sha256": "1i2yxndxb6yc9l6c99pypbd92lfq5aac4klq7y2v93c9qvx2cgpc",
+    "fetchSubmodules": true
+}
+</code></pre><p>Pretty neat!</p>
+<p>This is my first encounter with <code>nix run</code>. Well, since <a href=https://ianthehenry.com/posts/how-to-learn-nix/quick-start-guide/>the quick start guide</a>, anyway.</p>
+<p>Let’s try to dissect that a little. From <code>nix run --help</code>:</p>
+<pre tabindex=0><code>Usage: nix run &lt;FLAGS&gt;... &lt;INSTALLABLES&gt;...
+
+-f, --file &lt;FILE&gt;               evaluate FILE rather than the default
+-c, --command &lt;COMMAND&gt; &lt;ARGS&gt;  command and arguments to be executed; defaults to 'bash'
+</code></pre><p>So we provide one <code>INSTALLABLE</code>, <code>nix-prefetch-github</code>. Presumably that’s the name of a top-level attribute:</p>
+<pre tabindex=0><code>$ sd nix info nix-prefetch-github
+nix-prefetch-github-4.0.3 Prefetch sources from github
+</code></pre><p>Indeed. There is also:</p>
+<pre tabindex=0><code>$ sd nix info nix-prefetch-scripts
+nix-prefetch-scripts Collection of all the nix-prefetch-* scripts which may be used to obtain source hashes
+</code></pre><p>But I don’t try to run that one.</p>
+<p>Then the <code>--file</code> we pass is <code>&lt;nixpkgs&gt;</code>. Although this doesn’t look like a “file,” remember that it is – to Nix, <code>&lt;nixpkgs&gt;</code> is another way to write the <em>path</em> <code>/Users/ian/.nix-defexpr/channels/nixpkgs</code>, which is a directory with a <code>default.nix</code> file.</p>
+<p>And then <code>-c</code> is the command to run with that <code>INSTALLABLE</code> on our <code>PATH</code>, I guess. I assume it just adds <code>/nix/store/xxx-nix-prefetch-github-4.0.3/bin</code> to the <code>PATH</code> and then tries to execute that command?</p>
+<p>Let’s find out.</p>
+<pre tabindex=0><code>$ nix run -f '&lt;nixpkgs&gt;' nix-prefetch-github -c env | grep '^PATH='
+PATH=/nix/store/y1c2zbzirfhv29ix4hdsxp6ksnxl2q3q-python3.8-nix-prefetch-github-4.0.3/bin:...
+</code></pre><p>Indeed. Okay. Cool.</p>
+<h2 id=185-obtaining-source-hashhttpswebarchiveorgweb20210318102415if_httpsnixosorgmanualnixpkgsstablesec-source-hashes><a href=https://web.archive.org/web/20210318102415if_/https://nixos.org/manual/nixpkgs/stable/#sec-source-hashes>18.5. Obtaining source hash</a></h2>
+<p>We just learned how to do this, but now there’s a whole section on how to do this? In more detail, but I’m not sure that any of the extra detail is necessary, given the above example.</p>
+<p>I learn how to turn a hexadecimal hash into a <a href=https://en.wikipedia.org/wiki/Base32>Base32 hash</a>.</p>
+<blockquote>
+<p>You can convert between formats with <code>nix-hash</code>, for example:</p>
+<pre tabindex=0><code>nix-hash --type sha256 --to-base32 HASH
+</code></pre></blockquote>
+<p>Okay. I think that’s the first time I’ve seen <code>nix-hash</code>.</p>
+<p>It then says “if all else fails, put a fake hash and run some command and copy the error,” and provides examples of well-formed but incorrect hashes: <code>lib.fakeSha256</code> and friends. Huh!</p>
+<p>Actually really it says <em>don’t</em> do this, because downloading a package is not a very good way to find out what the hash <em>should</em> be, because man in the middle attacks.</p>
+<p>It adds this <em>mystifying</em> explanation:</p>
+<blockquote>
+<p><code>https://</code> URLs are not secure in method 5. When obtaining hashes with fake hash method, TLS checks are disabled. So refetch source hash from several different networks to exclude MITM scenario. Alternatively, use fake hash method to make Nix error, but instead of extracting hash from error, extract <code>https://</code> URL and prefetch it with method 1.</p>
+</blockquote>
+<p>…what? Why on earth would TLS checks be disabled when fetching sources with a known fake hash? What? This must be… wrong, right? What is this trying to say?</p>
+<p>I don’t know. I am upset and afraid.</p>
+<h1 id=chapter-19-submitting-changeshttpswebarchiveorgweb20210318102415if_httpsnixosorgmanualnixpkgsstablechap-submitting-changes><a href=https://web.archive.org/web/20210318102415if_/https://nixos.org/manual/nixpkgs/stable/#chap-submitting-changes>Chapter 19. Submitting changes</a></h1>
+<p>Alright. Now we know how to make changes. Now we learn how to submit them.</p>
+<p>This is… instructions for how to make good commits? Update release notes. How to test stuff. Good information, I guess? Link to contribution guidelines. How to mark security releases and get them out sooner. “There is a pull request template.”</p>
+<p>This is interesting:</p>
+<blockquote>
+<p>Sandboxing is not enabled by default in Nix due to a small performance hit on each build. In pull requests for nixpkgs people are asked to test builds with sandboxing enabled (see <code>Tested using sandboxing</code> in the pull request template) because in <a href=https://nixos.org/hydra/>https://nixos.org/hydra/</a> sandboxing is also used.</p>
+</blockquote>
+<p>It then tells me how to enable sandboxes. By editing my global <code>/etc/nix/nix.conf</code>? That seems dumb. If I just wanna test one derivation… there’s no <code>--sandbox</code> flag I can pass to <code>nix-build</code>, or something? Come on.</p>
+<blockquote>
+<p>If you are updating a package’s version, you can use <code>nixpkgs-review</code> to make sure all packages that depend on the updated package still compile correctly. The <code>nixpkgs-review</code> utility can look for and build all dependencies either based on uncommited changes with the <code>wip</code> option or specifying a github pull request number.</p>
+<pre tabindex=0><code>nix run nixpkgs.nixpkgs-review -c nixpkgs-review pr 12345
+</code></pre></blockquote>
+<p>Pretty neat!</p>
+<p>Also, that’s much nicer looking than <code>nix run -f '&lt;nixpkgs&gt;'</code>. How does that work, then? Does <code>nix run</code> use <code>~/.nix-defexpr</code>? I attempt to answer empirically:</p>
+<pre tabindex=0><code>$ nix run nixpkgs.hello -c hello
+Hello, world!
+
+$ nix run ianpkgs.hello -c hello
+error: attribute 'ianpkgs' in selection path 'ianpkgs.hello' not found
+</code></pre><p>Hmm. Maybe not. Or I just broke <a href=https://ianthehenry.com/posts/how-to-learn-nix/okay-my-actual-first-derivation/>my <code>ianpkgs</code> thing</a> that I set up forever ago.</p>
+<p>Yes, okay. It seems I did break it, at some point:</p>
+<pre tabindex=0><code>$ nix-env -iA ianpkgs.hello
+error: expression does not evaluate to a derivation (or a set or list of those)
+</code></pre><p>I fix it – my <code>default.nix</code> wasn’t fully applying <code>callPackage</code> – and try again:</p>
+<pre tabindex=0><code>$ nix run ianpkgs.hello -c hello
+error: attribute 'ianpkgs' in selection path 'ianpkgs.hello' not found
+</code></pre><p>So, no. I thought there was a chance that it was just a bad error message, but it seems it is not using <code>~/.nix-defexpr</code> at all.</p>
+<p>So… what is it using? <code>nix run --help</code> doesn’t explain this. It does say:</p>
+<pre tabindex=0><code>To start a shell providing youtube-dl from your 'nixpkgs' channel:
+$ nix run nixpkgs.youtube-dl
+</code></pre><p>But… what? Is it literally defaulting to <code>~/.nixpkgs-defexpr/channels</code>? That would be insane.</p>
+<p>I have no idea.</p>
+<p>I guess I have to look in the source.</p>
+<p>Let’s see… <a href=https://github.com/NixOS/nix/blob/8803753666023882515404177b08f3f8bdad52a0/src/nix/run.cc><code>src/nix/run.cc</code></a> does not document the <code>-f</code> flag, but it seems to be an “installable” command. That leads me to <a href=https://github.com/NixOS/nix/blob/8803753666023882515404177b08f3f8bdad52a0/src/nix/installables.cc><code>installables.cc</code></a>.</p>
+<p>Which is <em>sort of inscrutable</em>. But it seems to rely on <code>NIX_PATH</code> elements, and duplicate <em>some subset</em> of the <code>nix-env</code> directory-traversing thing?</p>
+<pre tabindex=0><code>$ echo $NIX_PATH
+/Users/ian/.nix-defexpr/channels:/Users/ian/.nix-defexpr/channels
+</code></pre><p>Why is that my <code>NIX_PATH</code>? Because apparently I’ve sourced my <code>~/.zshenv</code> since I started this shell session, and every time I do that, it adds an entry here.</p>
+<pre tabindex=0><code>$ source ~/.zshenv
+
+$ echo $NIX_PATH
+/Users/ian/.nix-defexpr/channels:/Users/ian/.nix-defexpr/channels:/Users/ian/.nix-defexpr/channels
+</code></pre><p>How am I to express my feelings, with only the Latin alphabet at my disposal? I feel as though I must turn, in these trying times, to Unicode’s Supplemental Symbols and Pictographs block: 🤦‍♀️</p>
+<p>Anyway, I find <a href=https://github.com/NixOS/nix/issues/1865>this issue</a> by looking at the blame for <code>installables.cc</code>, which… does nothing to give me confidence in… anything. My takeaway is: no one knows how this works, and no one knows how this is supposed to work, because no one has decided how this is supposed to work, and that’s what you get for using <code>nix run</code> when it’s marked experimental.</p>
+<p>Yeah; I have no idea here. Let’s do some experiments:</p>
+<pre tabindex=0><code>$ NIX_PATH=ianpkgs=$HOME/.nix-defexpr/ianpkgs nix run ianpkgs.hello -c hello
+error: file 'nixpkgs' was not found in the Nix search path (add it using $NIX_PATH or -I), at /Users/ian/scratch/default.nix:1:13
+</code></pre><p>Ah. Right. That’s on me: I <code>import &lt;nixpkgs&gt;</code> in my <code>default.nix</code>.</p>
+<pre tabindex=0><code>$ NIX_PATH=ianpkgs=$HOME/.nix-defexpr/ianpkgs:nixpkgs=$HOME/.nix-defexpr/channels/nixpkgs nix run ianpkgs.hello -c hello
+Hello, Nix!
+</code></pre><p>Okay. So that works. I guess. So this… treats the first component as a <code>NIX_PATH</code> element?</p>
+<p>I don’t know.</p>
+<p>I guess the <code>-f '&lt;nixpkgs&gt;'</code> version – while quite a mouthful – at least I could explain how it worked.</p>
+<p><em>Anyway</em>, moving on: description of branches. Where to put your PR. Simple stuff.</p>
+<h1 id=chapter-20-reviewing-contributionshttpswebarchiveorgweb20210318102415if_httpsnixosorgmanualnixpkgsstablechap-reviewing-contributions><a href=https://web.archive.org/web/20210318102415if_/https://nixos.org/manual/nixpkgs/stable/#chap-reviewing-contributions>Chapter 20. Reviewing contributions</a></h1>
+<p>Be nice. Be polite.</p>
+<blockquote>
+<p>GitHub provides reactions as a simple and quick way to provide feedback to pull requests or any comments. The thumb-down reaction should be used with care and if possible accompanied with some explanation so the submitter has directions to improve their contribution.</p>
+</blockquote>
+<p>I heartily approve of this language.</p>
+<p>Some examples of common tasks, and how to do them. Seems pretty nice. Updating packages. Adding new ones. Not a lot to say about this one.</p>
+<h1 id=chapter-21-contributing-to-this-documentationhttpswebarchiveorgweb20210318102415if_httpsnixosorgmanualnixpkgsstablechap-contributing><a href=https://web.archive.org/web/20210318102415if_/https://nixos.org/manual/nixpkgs/stable/#chap-contributing>Chapter 21. Contributing to this documentation</a></h1>
+<p><em>Now we’re talking</em>.</p>
+<blockquote>
+<pre tabindex=0><code>$ cd /path/to/nixpkgs/doc
+$ nix-shell
+[nix-shell]$ make
+</code></pre></blockquote>
+<p>I try it out, and just get a <em>massive</em> pile of error messages.</p>
+<p>Starts like this:</p>
+<pre tabindex=0><code>pandoc preface.chapter.md -t docbook \
+        --top-level-division=chapter \
+        --extract-media=media \
+        --lua-filter=/diagram-generator.lua \
+        -f markdown+smart \
+| cat  &gt; preface.chapter.xml
+Error running filter /diagram-generator.lua:
+/diagram-generator.lua: openBinaryFile: does not exist (No such file or directory)
+</code></pre><p>Ends like this:</p>
+<pre tabindex=0><code>^
+manual.xml:40: element include: XInclude error : could not load contributing/contributing-to-documentation.chapter.xml, and no fallback was found
+make: *** [Makefile:77: manual-full.xml] Error 1
+</code></pre><p>With hundreds of similar error messages along the way.</p>
+<blockquote>
+<p>If you experience problems, run <code>make debug</code> to help understand the docbook errors.</p>
+</blockquote>
+<p>Okay. This gives me less output…</p>
+<pre tabindex=0><code>[nix-shell:~/src/nixpkgs/doc]$ make debug
+nix-shell --run "xmloscopy --docbook5 ./manual.xml ./manual-full.xml"
+trace: lib.crossLists is deprecated, use lib.cartesianProductOfSets instead
+trace: `mkStrict' is obsolete; use `mkOverride 0' instead.
+trace: `lib.nixpkgsVersion` is deprecated, use `lib.version` instead!
+trace: warning: lib.readPathsFromFile is deprecated, use a list instead
+trace: Warning: `showVal` is deprecated and will be removed in the next release, please use `traceSeqN`
+trace: lib.zip is deprecated, use lib.zipAttrsWith instead
+    Feasability check on files without xincludes...
+
+A document is feasibly valid if it could be transformed into a valid
+document by inserting any number of attributes and child elements
+anywhere in the tree.
+
+This is equivalent to pretending every element is optional.
+
+This option may be useful while a document is still under
+construction.
+
+This option also disables checking that references are valid.
+./release-notes.xml: OK
+./preface.chapter.xml: Not feasibly valid:
+Line 1:
+make: *** [Makefile:8: debug] Error 1
+</code></pre><p>I mean, it’s not… wrong, I guess.</p>
+<pre tabindex=0><code>[nix-shell:~/src/nixpkgs/doc]$ cat preface.chapter.xml
+</code></pre><p>It’s just an empty file. Which is, in fact, not feasibly valid.</p>
+<blockquote>
+<p>After making modifications to the manual, it’s important to build it before committing. You can do that as follows:</p>
+<pre tabindex=0><code>$ cd /path/to/nixpkgs/doc
+$ nix-shell
+[nix-shell]$ make clean
+[nix-shell]$ nix-build .
+</code></pre></blockquote>
+<p>Okay. I’ll bite.</p>
+<p>I ran this, and it… succeeded? Just fine?</p>
+<blockquote>
+<p>If the build succeeds, the manual will be in <code>./result/share/doc/nixpkgs/manual.html</code>.</p>
+</blockquote>
+<p>And indeed. That worked. Very different CSS – I’m so used to way the manual looks, after all these months, that it’s sort of jarring to see it using these alternative styles – but yeah, it’s all here.</p>
+<p>So… I have no idea why it said to run <code>make</code>, when, in fact, the secret is to run <code>nix-build</code>. That’s… that’s extremely confusing.</p>
+<p>Do you think this is a test? This is like, if you want to make contributions to the Nixpkgs documentation, the first thing you need to do is fix the documentation for how to make documentation contributions?</p>
+<p>Ugh.</p>
+<p>Well, one day, maybe. I read the whole Nixpkgs manual. Although I feel like I have a lot more to say about the Nix manual than the Nixpkgs manual, it’s not impossible that I’ll be back here some day, fixing typos or something at least.</p>
+<p>For now? Farewell, Nixpkgs manual. You were… a lot longer and a lot harder to read than the Nix manual, if we’re being honest with each other.</p>
+<hr>
+<ul>
+<li>How do <code>hashed-mirrors</code> work?</li>
+<li>Why does Nix… disable TLS when fetching sources? What?</li>
+<li>How do I enable the sandbox for a single build?</li>
+</ul></div>
+</article>
+<div class=post-footer>
+<a href="mailto:ianthehenry@gmail.com?subject=let%27s%20talk%20about%20%22How%20to%20give%20back%22&amp;body=First%20of%20all,%20I%20just%20wanted%20to%20say%20that%20I%20forgive%20you%20for%20not%20having%20a%20real%20comment%20system%20on%20your%20site.">comment on this post</a><a href=https://ianthehenry.com/posts/how-to-learn-nix/nixpkgs-reflection/>Next up ➜ So I read the other manual, huh</a></div>
+<aside class=series-rider>
+<p>
+This post is part of the series <a class=series-name href=https://ianthehenry.com/posts/how-to-learn-nix/>How to Learn Nix</a>.
+You can
+<a target=_blank href=https://ianthehenry.com/feed.xml>subscribe to my RSS feed</a>
+or
+<a target=_blank href=https://twitter.com/ianthehenry>follow me on Twitter</a>
+for more, or <a href=https://ianthehenry.com/posts/>peruse my back catalog</a> if you're in the mood for something different.
+<div class=subsection-header>Opening remarks</div><ol start=1 class=post-list><li><a href=https://ianthehenry.com/posts/how-to-learn-nix/introduction/>What's all this about?</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/prior-knowledge/>Prior knowledge</a></li>
+</ol><div class=subsection-header>Reading the Nix manual</div><ol start=3 class=post-list><li><a href=https://ianthehenry.com/posts/how-to-learn-nix/glossary/>What we talk about when we talk about Nix</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/quick-start-guide/>Quick starts, full hearts</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/basic-package-management/>Basic package management</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/profiles/>Profiles</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/garbage-collection/>Garbage collection</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/channels/>Channels</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/sharing/>Learning to share</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/my-first-derivation/>My first derivation</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/okay-my-actual-first-derivation/>Okay my actual first derivation</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/nix-language/>The Nix expression language</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/derivations/>Derivations</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/built-in-functions/>Built-in Functions</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/advanced-topics/>Advanced Topics</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/command-reference/>Command Reference</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/configuration/>Configuration</a></li>
+</ol><div class=subsection-header>Interlude: in which we follow our hearts, however briefly</div><ol start=18 class=post-list><li><a href=https://ianthehenry.com/posts/how-to-learn-nix/nix-manual-reflection/>So I read the manual huh</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/switching-from-homebrew-to-nix/>Switching from Homebrew to Nix</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/my-first-nix-bug/>My first Nix bug</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/my-first-package-upgrade/>My first package upgrade</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/declarative-user-environment/>Setting up a declarative user environment</a></li>
+</ol><div class=subsection-header>Reading the Nixpkgs manual</div><ol start=23 class=post-list><li><a href=https://ianthehenry.com/posts/how-to-learn-nix/how-to-learn-nixpkgs/>How to learn Nixpkgs</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/overlays/>Overlays</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/overriding/>Overriding</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/an-infinite-list-of-functions/>An infinite list of functions</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/even-more-functions-somehow/>Even more functions, somehow</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/the-standard-environment/>The standard environment</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/derivations-in-detail/>Derivations in detail</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/cross-compilation/>Cross-compilation</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/platform-notes/>Platform notes</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/builders/>Builders</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/languages-and-frameworks/>Languages and frameworks</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/random-package-grab-bag/>Random package grab-bag</a></li>
+<li><strong><a href=https://ianthehenry.com/posts/how-to-learn-nix/how-to-give-back/>How to give back</a></strong>&nbsp;←&nbsp;you are here</li>
+</ol><div class=subsection-header>Documentation behind us, we set out on our own</div><ol start=36 class=post-list><li><a href=https://ianthehenry.com/posts/how-to-learn-nix/nixpkgs-reflection/>So I read the other manual, huh</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/saving-your-shell/>Saving your shell</a></li>
+</ol><div class=subsection-header>Oh right forgot about Nix Pills</div><ol start=38 class=post-list><li><a href=https://ianthehenry.com/posts/how-to-learn-nix/nix-pills/>Nix Pills</a></li>
+</ol><div class=subsection-header>Our whole lives ahead of us</div><ol start=39 class=post-list><li><a href=https://ianthehenry.com/posts/how-to-learn-nix/python3-alpha/>How to install Python</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/open-questions/>Open questions</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/ambiguous-packages/>Ambiguous packages</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/nix-zshell/>Running zsh in nix-shell</a></li>
+</ol><div class=subsection-header>Nix 2.4 slithers to life</div><ol start=43 class=post-list><li><a href=https://ianthehenry.com/posts/how-to-learn-nix/flakes/>My first brush with flakes</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/more-flakes/>More flakes, unfortunately</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/new-profiles/>Fancy new profiles</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/chipping-away-at-flakes/>Chipping away at flakes</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/nix-develop/>New and unimproved shells</a></li>
+</ol>
+</aside>
+</main>
+<footer>
+© 1899-1907 <a href=https://ianthehenry.com/about/>Ian Henry</a>
+</footer>

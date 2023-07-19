@@ -1,0 +1,202 @@
+<!DOCTYPE html> <html lang=en style><!--
+ Page saved with SingleFile 
+ url: https://ianthehenry.com/posts/how-to-learn-nix/basic-package-management/ 
+ saved date: Mon Jul 17 2023 13:34:59 GMT+0600 (Kyrgyzstan Time)
+--><meta charset=utf-8>
+<meta name=viewport content="initial-scale=1,maximum-scale=1">
+<title>How to Learn Nix, Part 5: Basic package management</title>
+<link rel=canonical href=https://ianthehenry.com/posts/how-to-learn-nix/basic-package-management/>
+<style>:root{--box-radius:6px;--outer-box-radius:10px}:root{--content-bg:#fff;--gutter-bg:#eeeef3;--text-fg:#4d4d4c;--table-border-color:#ccc;--separator-color:#6d6d6c;--link:#07c;--link-visited:#751a9a;--blockquote-accent:var(--link);--footnote-accent:#ffd2a3;--subscribe-button-bg:#44e66c;--subscribe-button-fg:#11391b;--media-controls-on:#34b553;--media-controls-contrast:#fff;--inline-code-bg:#f3f3fa;--code-block-bg:#f3f3fa;--aside-bg:#f3f3fa;--aside-warning-bg:#fff5d1;--aside-warning-fg:#ac3233;--palette-red:#c82829;--palette-green:#718c00;--palette-yellow:#eab700;--palette-orange:#f5871f;--palette-blue:#4271ae;--palette-purple:#8959a8;--palette-teal:#3e999f;--palette-white:#fefefe;--palette-black:#000;--palette-text:var(--text-fg);--palette-dim:#8e908c;--highlight-bg:var(--palette-yellow);--highlight-fg:var(--text-fg)}#dmt::before{content:"🌖"}#dmt:hover::before{content:"🌗"}@media (prefers-color-scheme:dark){:root:not(.light-theme){--content-bg:#313233;--gutter-bg:#1d1f21;--text-fg:#d8d4cf;--table-border-color:#ccc;--separator-color:#6d6d6c;--link:rgb(82,183,255);--link-visited:rgb(193,104,229);--blockquote-accent:var(--link);--footnote-accent:#a8612f;--subscribe-button-bg:#44e66c;--subscribe-button-fg:#11391b;--media-controls-on:#44e66c;--media-controls-contrast:#11391b;--inline-code-bg:#3c4044;--code-block-bg:#1d1f21;--aside-bg:#3c4044;--aside-warning-bg:#fff5d1;--aside-warning-fg:var(--palette-red);--palette-red:#cc6666;--palette-green:#b5bd68;--palette-yellow:#f0c674;--palette-orange:#de935f;--palette-blue:#81a2be;--palette-purple:#b294bb;--palette-teal:#8abeb7;--palette-white:#fefefe;--palette-black:#000;--palette-text:var(--text-fg);--palette-dim:#969896;--highlight-bg:var(--palette-yellow);--highlight-fg:var(--palette-black)}:root:not(.light-theme) #dmt::before{content:"🌒"}:root:not(.light-theme) #dmt:hover::before{content:"🌓"}}#dmt{width:30px;text-align:right;padding-right:4px;position:absolute;top:0;bottom:0;right:0;border:none;background-color:inherit;cursor:pointer}*{margin:0;padding:0;font:inherit;box-sizing:border-box}html{background-color:var(--gutter-bg);color:var(--text-fg)}body{font-family:system-ui,sans-serif;font-size:12pt;line-height:1.8;word-wrap:break-word}body:not(.content-page) main>aside{padding:0 var(--content-padding)}body.content-page main,body:not(.content-page) article{background-color:var(--content-bg);border-radius:var(--outer-box-radius);padding:var(--content-padding)}pre{word-wrap:normal}em,i{font-style:italic}h1>a:only-child,h2>a:only-child{display:block}main .subsection-header+.post-list{margin-top:0}strong{font-weight:700}ol,ul{padding-left:3ch}hr{border-style:solid;border-width:1.5px 0 0;border-radius:1px;border-color:var(--separator-color)}:not(pre)>code{white-space:pre;background-color:var(--inline-code-bg)}li{padding-left:0}blockquote{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:"";content:none}a,a:active,a:visited{text-decoration:none}a:hover{text-decoration:underline}blockquote{padding:0 0 0 var(--content-padding);border-left:solid 2px var(--blockquote-accent)}aside{--content-padding:0.5em;padding:.5em;border-radius:var(--box-radius);background-color:var(--aside-bg)}a,a:active,header a:visited,footer a:visited,h1 a:visited{color:var(--link)}a:visited{color:var(--link-visited)}h1{font-size:130%}main *+p,main *+pre,main *+aside,main *+article,main *+blockquote,main *+div,main *+ul,main *+hr,main *+h1{margin-top:1em}main .post-header *+h1{margin-top:0}code{font-family:Menlo,monospace;padding:0 3px;border-radius:2px}pre{background-color:var(--code-block-bg);font-size:11pt;padding:calc(.75*var(--content-padding)) var(--content-padding);line-height:1.3;border-radius:var(--box-radius);overflow-x:scroll;-webkit-overflow-scrolling:touch}pre code{padding:0;border-radius:0;display:inline-block;background-color:initial}p+p{margin-top:1em}body{margin:0 auto;--content-padding:10px;max-width:768px;-webkit-text-size-adjust:100%;position:relative}header{position:relative}header>*{height:48px;line-height:48px}.promo,.promo:visited,.promo:active{display:block;text-align:center;background-color:var(--link);color:var(--code-block-bg);border-radius:0 0 var(--outer-box-radius) var(--outer-box-radius)}header .site-title{font-size:130%}header nav{position:absolute;right:30px;top:0}@media all and (max-width:400px){:root{--outer-box-radius:0}header{text-align:center}header nav{position:static}:not(pre)>code{white-space:pre-wrap}body{--content-padding:10px}#dmt{padding:0;text-align:center;width:40px}}header ul{padding:0}header li{list-style:none;display:inline-block}header a{display:block;height:100%}header li+li{margin-left:1em}footer{padding:2em 0;font-size:.85em;text-align:center}article h1.post-title{font-size:200%}article .post-title a{display:block}article .meta{font-size:90%;font-style:italic}.post-header h1{line-height:1.2em;margin-bottom:.5em}.post-footer{text-align:center}.post-footer a{display:block}ol.post-list{list-style-position:inside;padding:0}.series-rider .series-name{font-style:italic}.highlight{color:var(--palette-text)}.highlight .n{color:var(--palette-text)}.highlight .o{color:var(--palette-teal)}.highlight .p{color:var(--palette-text)}.highlight .kn{color:var(--palette-teal)}.highlight .nb{color:var(--palette-text)}.highlight .sr{color:var(--palette-green)}</style>
+<meta property=og:title content="How to Learn Nix, Part 5: Basic package management">
+<meta property=og:type content=website>
+<meta property=og:url content=https://ianthehenry.com/posts/how-to-learn-nix/basic-package-management/>
+<meta name=description content="Part III deals with using Nix as a package manager. The quick start guide already gave us a brief introduction to this, but now we get to go into detail.">
+<meta property=og:description content="Part III deals with using Nix as a package manager. The quick start guide already gave us a brief introduction to this, but now we get to go into detail.">
+<meta property=og:image content=https://ianthehenry.com/checkerboard.png>
+<meta name=twitter:creator content=@ianthehenry>
+<meta name=twitter:card content=summary>
+<link type=image/x-icon rel="shortcut icon" href="data:image/vnd.microsoft.icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAHH1uIDShg/xEsZv8GFk3/CSJb/wgZT/8IGU//CBlP/wkiW/8HGE7/CBlP/wkiW/8HIFX/BxhO/wcgVf8OK2t7JDhz/wcfW/8NNn7/CSpq/wkjYf8MJGP/DCJg/w02ef9SqdX/TKHJ/1my2f9Moc3/UqzV/1Cr1v9Pocf/Ditr/xk2cf8KJGL/CjR8/wwva/8RK2r/Cido/w8qa/8LLW//TqjT/1Gnz/9bsNf/Sp/K/1Wt2f9Wrtj/UKjQ/w8xc/8gPHj/Di5w/xk4ef8TL27/Dy5u/xU3fv8QLGv/Ditr/1qy3f9dttv/Yrje/0ecx/9Knsz/U6fQ/1m13f8YN3n/JjZx/wszdv8YOXz/Eilm/xc3e/8dSZT/GDJz/xk/hv9hu+P/WbHZ/1mv1v9Kn8z/WLHd/1212v9ds9n/Eipr/xcqYv8SOX3/GzRz/xQrZ/8aM3D/HEuU/xc0df8fPYD/Yrre/1603P9dt9z/VKvY/1iz4v9etNr/Y73m/xk5fP8cMm3/JEWK/xc0dP8eO3v/Hjd4/ydRnP8WM3P/Gjd3/2bA5/9dtd//Ybng/2K95v9ct+P/Ybnf/2K95/8oS5L/GChg/xxBh/8lSIz/GC5s/yM5ev8hRoz/HTp7/yE6e/9Zsdz/YLzn/2jF7v9ryfL/YLzn/1qu1f9htdz/GDyD/y0/ev9qx/X/acDn/1235v9euun/Yb3r/1665v9owu7/GUOL/yhGh/8nUJL/MkmI/yBFiP8jOHb/MVag/yM+gv8VMGv/acXx/27G7/9szv3/bMb1/2zD6/9vy/X/edf5/yBHjv8yS47/JEuO/zVLiv8nS5D/LkOB/yRXpP8lQoT/H0WI/3fS+P910Pf/b8/8/2bB7/991Pn/eNb+/3nT+P8pS5L/O1GS/ytUnP86UJH/NF2k/zNLjP8sXKv/JkCB/x4+ff+B2/3/etT9/4He//922f//fNf//3TT//991/7/NU6N/zZSkP86Zav/PlWR/zFepv88ZKb/MF2n/yQ/gf8bNXH/fd3//3/b//+K6P//ft///3vV//993f//gdz//0hWlf9FZKX/RmOj/0JXlv9IeMP/QXKz/0Jsuf8eO3z/Hjt2/3vd//+C3v//ju3//3zg//+H4v//guL//4nj//9HXp3/UGur/ztgqf9JYqP/S3G4/05ur/9EbLT/Hjt7/zNJhf+G4///heT//4rq//+E5///iOT//4jr//+G4///UXO0/09iov9EX6H/SWWn/1V5wP9Kaa7/RGSp/ydLj/8NKGCfDShg/x8+d/8RLGb/CBlP/wYWTf8GFEj/CBNH/wooZP8JIlv/CCJd/woWSf8HGE7/ByBV/wwgU/8fO3mfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="><meta http-equiv=content-security-policy content="default-src 'none'; font-src 'self' data:; img-src 'self' data:; style-src 'unsafe-inline'; media-src 'self' data:; script-src 'unsafe-inline' data:; object-src 'self' data:; frame-src 'self' data:;"><style>img[src="data:,"],source[src="data:,"]{display:none!important}</style></head>
+<body class=content-page>
+<a class=promo href=https://janet.guide/ target=_blank><i>psst, hey kid, wanna read a weird programming book</i></a>
+<header>
+<a class=site-title href=https://ianthehenry.com/>Ian Henry</a>
+<nav>
+<ul><li><a href=https://ianthehenry.com/about/>About</a><li><a href=https://ianthehenry.com/posts/>Blog</a><li><a href=https://ianthehenry.com/stuff/>Stuff</a></ul>
+</nav>
+<button id=dmt title="Toggle dark mode"></button>
+</header>
+<main>
+<aside class=series-rider>
+<p>This post is part of the series <a class=series-name href=https://ianthehenry.com/posts/how-to-learn-nix/>How to Learn Nix</a>, a rambling diary in which I work my way through the Nix manual in excrutiating detail.</p>
+</aside>
+<article class=post>
+<div class=post-header>
+<time class=meta datetime=2021-03-05>March 5, 2021</time>
+<h1 class=post-title>
+<a href=https://ianthehenry.com/posts/how-to-learn-nix/basic-package-management/>How to Learn Nix, Part&nbsp;5:<br>Basic package management</a></h1>
+</div>
+<div class=post-content><p>Part III deals with using Nix as a package manager. The quick start guide already gave us a brief introduction to this, but now we get to go into detail.</p>
+<h1 id=chapter-9-basic-package-managementhttpswebarchiveorgweb20210227145624httpsnixosorgmanualnixstablech-basic-package-mgmt><a href=https://web.archive.org/web/20210227145624/https://nixos.org/manual/nix/stable/#ch-basic-package-mgmt>Chapter 9. Basic Package Management</a></h1>
+<p>“Channels” come up again, and the manual teases that Chapter 12 is a whole chapter on channels, so we’ll presumably understand what they are soon.</p>
+<p>It also <em>tantalizingly</em> implies that we don’t <em>need</em> channels to use Nix. We can just <em>manually download</em> the latest version of Nixpkgs. But it links to <a href=http://nixos.org/nixpkgs/download.html>http://nixos.org/nixpkgs/download.html</a>, which now just redirects to <a href=https://nixos.org/download.html>https://nixos.org/download.html</a>, which seems to have no way to manually download Nixpkgs. So maybe it’s lying.</p>
+<p>But this is something I am very eager to understand: “what is nixpkgs?” is second only to “what is a derivation?” on my list of Nix questions that keep me up at night.</p>
+<p>So I downloaded Nixpkgs by hand. I <em>think</em>. I cloned <a href=https://github.com/NixOS/nixpkgs>the GitHub repo</a> locally. I think that’s the same? We’ll find out.</p>
+<p>The manual tells me I can run this:</p>
+<blockquote>
+<pre><code>$ nix-env -qaf ~/src/nixpkgs
+</code></pre>
+</blockquote>
+<p>To use my “local” copy. And <code>man nix-env</code> explains the <code>-f</code>/<code>--file</code> command as:</p>
+<blockquote>
+<p>Specifies the Nix expression (designated below as the active Nix expression) used by the <code>--install</code>, <code>--upgrade</code>, and <code>--query</code> <code>--available</code> operations to obtain derivations. The default is <code>~/.nix-defexpr</code>.</p>
+<p>If the argument starts with <code>http://</code> or <code>https://</code>, it is interpreted as the URL of a tarball that will be downloaded and unpacked to a temporary location. The tarball must include a single top-level directory containing at least a file named <code>default.nix</code>.</p>
+</blockquote>
+<p>Fascinating. None of this makes sense. It’s called <code>--file</code>, but the default value is <code>~/.nix-defexpr</code>, a cryptically named <em>directory</em> that just consists of two symlinks: one called <code>channels</code> and one called <code>channels_root</code>.</p>
+<p>I still don’t know what the “active Nix expression” means.</p>
+<p>And yet: the command works. I get a list of 32,586 packages, after the familiar 30 seconds of waiting for anything to happen. Meanwhile, because I haven’t updated my channel as recently as the clone (I assume) I only get 32,544 packages when I run without <code>--file</code>. Cool. So the flag is doing something.</p>
+<p>But this is sort of weird, because <code>~/.nix-defexpr</code> has a completely different structure than my clone of the Nixpkgs repo. This upsets me, and makes me feel afraid. I want to think about things in “types” or “interfaces” or something. I can wrap my head around “give it a directory containing a <code>default.nix</code> file.” I can’t quite wrap my head around “give it a directory containing a <code>channels</code> symlink to another directory that contains a directory called <code>nixpkgs</code> which itself contains a file called <code>default.nix</code>.” And the fact that it accepts either? That’s messed up.</p>
+<p>Can I just give it a file? Let’s see.</p>
+<pre><code>$ nix-env -qaf ~/src/nixpkgs/default.nix | wc -l
+32586
+</code></pre>
+<p>Yep.</p>
+<p>At first I was sad and confused that it didn’t explain what types of things can be passed to <code>--file</code>, and I wrote a little thing about how it might seem trivial but these things are very important to feel comfortable using a tool and I felt all simultaneously hurt and righteous.</p>
+<p>But then I looked harder and it turns out the man page does describe it, just in a completely different section nowhere near where the <code>--file</code> flag is described. And it doesn’t actually describe <code>--file</code>, but rather <code>~/.nix-defexpr</code>, which is the default value of <code>--file</code>, so it’s… it’s hidden.</p>
+<p>But it says:</p>
+<blockquote>
+<p>If <code>~/.nix-defexpr</code> is a file, it is loaded as a Nix expression. If the expression is a set, it is used as the default Nix expression. If the expression is a function, an empty set is passed as argument and the return value is used as the default Nix expression.</p>
+<p>If <code>~/.nix-defexpr</code> is a directory containing a <code>default.nix</code> file, that file is loaded as in the above paragraph.</p>
+<p>If <code>~/.nix-defexpr</code> is a directory without a <code>default.nix</code> file, then its contents (both files and subdirectories) are loaded as Nix expressions. The expressions are combined into a single set, each expression under an attribute with the same name as the original file or subdirectory.</p>
+<p>For example, if <code>~/.nix-defexpr</code> contains two files, <code>foo.nix</code> and <code>bar.nix</code>, then the default Nix expression will essentially be</p>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-nix data-lang=nix><span class=p>{</span>
+  <span class=n>foo</span> <span class=o>=</span> <span class=kn>import</span> <span class=sr>~/.nix-defexpr/foo.nix</span><span class=p>;</span>
+  <span class=n>bar</span> <span class=o>=</span> <span class=kn>import</span> <span class=sr>~/.nix-defexpr/bar.nix</span><span class=p>;</span>
+<span class=p>}</span>
+</code></pre></div><p>The file <code>manifest.nix</code> is always ignored. Subdirectories without a <code>default.nix</code> file are traversed recursively in search of more Nix expressions, but the names of these intermediate directories are not added to the attribute paths of the default Nix expression.</p>
+</blockquote>
+<p>Okay. So looking at my <code>~/.nix-defexprs</code>, and trying to follow the rules laid out here…</p>
+<pre tabindex=0><code>$ find -L ~/.nix-defexpr -not -name '.*' -maxdepth 3
+/Users/ian/.nix-defexpr/channels_root
+/Users/ian/.nix-defexpr/channels
+/Users/ian/.nix-defexpr/channels/manifest.nix
+/Users/ian/.nix-defexpr/channels/nixpkgs
+/Users/ian/.nix-defexpr/channels/nixpkgs/maintainers
+/Users/ian/.nix-defexpr/channels/nixpkgs/README.md
+/Users/ian/.nix-defexpr/channels/nixpkgs/COPYING
+/Users/ian/.nix-defexpr/channels/nixpkgs/pkgs
+/Users/ian/.nix-defexpr/channels/nixpkgs/flake.nix
+/Users/ian/.nix-defexpr/channels/nixpkgs/lib
+/Users/ian/.nix-defexpr/channels/nixpkgs/default.nix
+/Users/ian/.nix-defexpr/channels/nixpkgs/doc
+/Users/ian/.nix-defexpr/channels/nixpkgs/nixos
+/Users/ian/.nix-defexpr/channels/nixpkgs/svn-revision
+</code></pre><p>(<code>-L</code> causes it to follow symbolic links, and I excluded all the hidden files like <code>.git</code> in <code>nixpkgs/</code> just to make it a little more readable.)</p>
+<p>Okay. So, if I understood correctly: it’s going to search <code>channels_root</code> and <code>channels</code> for <code>default.nix</code> files or else other <code>.nix</code> files, if the directory doesn’t have <code>default.nix</code>. Then it’s going to return a “set” containing the expressions in those files as “attributes.” So if I understood the example correctly, we’ll wind up with an expression that looks like this:</p>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-nix data-lang=nix><span class=p>{</span>
+  <span class=n>nixpkgs</span> <span class=o>=</span> <span class=kn>import</span> <span class=sr>/Users/ian/.nix-defexpr/channels/nixpkgs/default.nix</span><span class=p>;</span>
+<span class=p>}</span>
+</code></pre></div><p>Because the directory <code>channels/</code> didn’t contribute to the name of the attribute, and <code>channels_root</code> was completely empty. I assume that winds up looking something like this:</p>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-nix data-lang=nix><span class=p>{</span>
+  <span class=n>nixpkgs</span> <span class=o>=</span> <span class=p>{</span>
+    <span class=n>hello</span> <span class=o>=</span> <span class=p>(</span><span class=n>some</span> <span class=nb>derivation</span><span class=p>);</span>
+    <span class=n>git</span> <span class=o>=</span> <span class=p>(</span><span class=n>some</span> <span class=nb>derivation</span><span class=p>);</span>
+    <span class=o>...</span>
+  <span class=p>};</span>
+<span class=p>}</span>
+</code></pre></div><p>Which would explain why we say <code>nix-env -iA nixpkgs.hello</code>.</p>
+<p>Neat! To check my understanding, I tried to make a differently “named” <code>nixpkgs</code>:</p>
+<pre tabindex=0><code>$ mkdir ~/scratch
+
+$ ln -s ~/src/nixpkgs ~/scratch/ianpkgs
+
+$ nix-env -f ~/scratch -iA ianpkgs.hello
+replacing old 'hello-2.10'
+installing 'hello-2.10'
+</code></pre><p>Great! Okay. So that sort of makes sense. We see the string <code>nixpkgs</code> because that’s the name of <em>a child directory</em> of <code>~/.nix-defexpr</code>. Presumably the rest of the structure there will make sense once we understand channels.</p>
+<p>I also wanna say: this makes sense, right? Because presumably I could have <code>nixpkgs</code> and like <code>proprietary-company-software</code> at the same time, and I’d need to specify which I wanted.</p>
+<p>But the common, single user case– I mean, like 99% of cases where a human invokes <code>nix-env</code>, they’re going to be referring to <code>nixpkgs</code>, right? I’m sort of tempted here to make my <code>~/.nix-defexpr</code> just symlink to the <code>nixpkgs/default.nix</code> so I can just write <code>nix-env -iA hello</code> instead of <code>nix-env -iA nixpkgs.hello</code>, and then I could just override my expression to something else in the few cases where I wanted to something that wasn’t in <code>nixpkgs</code>. But I am afraid to do this just yet, before I have a better understanding of the purpose of the <code>channels</code> directory…</p>
+<p>Anyway. Moving on, this section teaches me that <code>nix-env -q</code> accepts regular expressions, even though <code>nix-env -u</code> accepted globs. Weird, but yeah, I gathered that from the 30 second syntax error in the last post.</p>
+<p>It also teaches me I can use <code>nix-env -qas</code> to see the “status” of all “available” packages. As I’ve said before, there are countless thousands of available packages, so this command does not feel very useful, but presumably it takes regexes too. Or globs. Who knows?</p>
+<p>It says if a package is installed in my environment, whether it’s present on the system (like <code>hello</code> is, even after I <code>nix-env --uninstall</code> it), and whether or not there is a “substitution” available.</p>
+<p>This command seems to take <em>even longer than usual</em> so I didn’t play around with it.</p>
+<p>But the manual highlights an interesting thing here: if I use my local clone of <code>nixpkgs</code>, I might not get as many binary cached packages. But if I use the <em>channel</em>, I will only get updated packages once all the new binaries have been cached. So that’s a good thing to know. The “channel” lags the repo a little bit, to make time for caching.</p>
+<p>It also explains the difference between <code>-u</code> and <code>-i</code>:</p>
+<blockquote>
+<p>This will <em>only</em> upgrade Subversion if there is a “newer” version in the new set of Nix expressions, as defined by some pretty arbitrary rules regarding ordering of version numbers (which generally do what you’d expect of them). To just unconditionally replace Subversion with whatever version is in the Nix expressions, use <code>-i</code> instead of <code>-u</code>; <code>-i</code> will remove whatever version is already installed.</p>
+</blockquote>
+<p>Okay, sure. I still sort of question the usefulness of <code>-u</code>, but I guess it’s a nice way to upgrade <em>all</em> my packages at once – it would be annoying to reinstall all of them (or would it? I’ve already downloaded them, right? Does it actually have to do anything to reinstall them?). But I would probably just use <code>-i</code> if I had a specific one to upgrade, I think.</p>
+<p>The chapter closes with an example of a command that looks equivalent to <code>brew outdated</code>. It’s:</p>
+<pre><code>$ nix-env --upgrade --dry-run
+</code></pre>
+<p>With no arguments, <code>--upgrade</code> will upgrade all your packages, and <code>--dry-run</code> obviously just prints what it would do.</p>
+<p>This is… fine, I guess, but I’m a little saddened. In my head “list outdated packages” is a single, like, thing that I do. I like having a command for it. I use it to look up patch notes for software that I care deeply about before I upgrade it. A dry run upgrade is sort of… meh. I wish there was a <code>nix outdated</code> command, is what I’m saying. And this intrudes on my fantasy of getting rid of <code>-u</code> altogether.</p>
+<hr>
+<ul>
+<li>Why is <code>~/.nix-defexpr</code> not just a symlink to <code>nixpkgs</code>?</li>
+<li>Why does Nix call what seem to be associative arrays, or records, or something “sets”?</li>
+<li>Does <code>nix-env -iA nixpkgs.hello</code> actually <em>do anything</em> if <code>hello</code> is already installed?</li>
+</ul></div>
+</article>
+<div class=post-footer>
+<a href="mailto:ianthehenry@gmail.com?subject=let%27s%20talk%20about%20%22Basic%20package%20management%22&amp;body=First%20of%20all,%20I%20just%20wanted%20to%20say%20that%20I%20forgive%20you%20for%20not%20having%20a%20real%20comment%20system%20on%20your%20site.">comment on this post</a><a href=https://ianthehenry.com/posts/how-to-learn-nix/profiles/>Next up ➜ Profiles</a></div>
+<aside class=series-rider>
+<p>
+This post is part of the series <a class=series-name href=https://ianthehenry.com/posts/how-to-learn-nix/>How to Learn Nix</a>.
+You can
+<a target=_blank href=https://ianthehenry.com/feed.xml>subscribe to my RSS feed</a>
+or
+<a target=_blank href=https://twitter.com/ianthehenry>follow me on Twitter</a>
+for more, or <a href=https://ianthehenry.com/posts/>peruse my back catalog</a> if you're in the mood for something different.
+<div class=subsection-header>Opening remarks</div><ol start=1 class=post-list><li><a href=https://ianthehenry.com/posts/how-to-learn-nix/introduction/>What's all this about?</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/prior-knowledge/>Prior knowledge</a></li>
+</ol><div class=subsection-header>Reading the Nix manual</div><ol start=3 class=post-list><li><a href=https://ianthehenry.com/posts/how-to-learn-nix/glossary/>What we talk about when we talk about Nix</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/quick-start-guide/>Quick starts, full hearts</a></li>
+<li><strong><a href=https://ianthehenry.com/posts/how-to-learn-nix/basic-package-management/>Basic package management</a></strong>&nbsp;←&nbsp;you are here</li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/profiles/>Profiles</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/garbage-collection/>Garbage collection</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/channels/>Channels</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/sharing/>Learning to share</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/my-first-derivation/>My first derivation</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/okay-my-actual-first-derivation/>Okay my actual first derivation</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/nix-language/>The Nix expression language</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/derivations/>Derivations</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/built-in-functions/>Built-in Functions</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/advanced-topics/>Advanced Topics</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/command-reference/>Command Reference</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/configuration/>Configuration</a></li>
+</ol><div class=subsection-header>Interlude: in which we follow our hearts, however briefly</div><ol start=18 class=post-list><li><a href=https://ianthehenry.com/posts/how-to-learn-nix/nix-manual-reflection/>So I read the manual huh</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/switching-from-homebrew-to-nix/>Switching from Homebrew to Nix</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/my-first-nix-bug/>My first Nix bug</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/my-first-package-upgrade/>My first package upgrade</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/declarative-user-environment/>Setting up a declarative user environment</a></li>
+</ol><div class=subsection-header>Reading the Nixpkgs manual</div><ol start=23 class=post-list><li><a href=https://ianthehenry.com/posts/how-to-learn-nix/how-to-learn-nixpkgs/>How to learn Nixpkgs</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/overlays/>Overlays</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/overriding/>Overriding</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/an-infinite-list-of-functions/>An infinite list of functions</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/even-more-functions-somehow/>Even more functions, somehow</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/the-standard-environment/>The standard environment</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/derivations-in-detail/>Derivations in detail</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/cross-compilation/>Cross-compilation</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/platform-notes/>Platform notes</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/builders/>Builders</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/languages-and-frameworks/>Languages and frameworks</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/random-package-grab-bag/>Random package grab-bag</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/how-to-give-back/>How to give back</a></li>
+</ol><div class=subsection-header>Documentation behind us, we set out on our own</div><ol start=36 class=post-list><li><a href=https://ianthehenry.com/posts/how-to-learn-nix/nixpkgs-reflection/>So I read the other manual, huh</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/saving-your-shell/>Saving your shell</a></li>
+</ol><div class=subsection-header>Oh right forgot about Nix Pills</div><ol start=38 class=post-list><li><a href=https://ianthehenry.com/posts/how-to-learn-nix/nix-pills/>Nix Pills</a></li>
+</ol><div class=subsection-header>Our whole lives ahead of us</div><ol start=39 class=post-list><li><a href=https://ianthehenry.com/posts/how-to-learn-nix/python3-alpha/>How to install Python</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/open-questions/>Open questions</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/ambiguous-packages/>Ambiguous packages</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/nix-zshell/>Running zsh in nix-shell</a></li>
+</ol><div class=subsection-header>Nix 2.4 slithers to life</div><ol start=43 class=post-list><li><a href=https://ianthehenry.com/posts/how-to-learn-nix/flakes/>My first brush with flakes</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/more-flakes/>More flakes, unfortunately</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/new-profiles/>Fancy new profiles</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/chipping-away-at-flakes/>Chipping away at flakes</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/nix-develop/>New and unimproved shells</a></li>
+</ol>
+</aside>
+</main>
+<footer>
+© 1899-1907 <a href=https://ianthehenry.com/about/>Ian Henry</a>
+</footer>

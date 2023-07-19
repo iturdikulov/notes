@@ -1,0 +1,239 @@
+<!DOCTYPE html> <html lang=en style><!--
+ Page saved with SingleFile 
+ url: https://ianthehenry.com/posts/how-to-learn-nix/glossary/ 
+ saved date: Mon Jul 17 2023 13:34:59 GMT+0600 (Kyrgyzstan Time)
+--><meta charset=utf-8>
+<meta name=viewport content="initial-scale=1,maximum-scale=1">
+<title>How to Learn Nix, Part 3: What we talk about when we talk about Nix</title>
+<link rel=canonical href=https://ianthehenry.com/posts/how-to-learn-nix/glossary/>
+<style>:root{--box-radius:6px;--outer-box-radius:10px}:root{--content-bg:#fff;--gutter-bg:#eeeef3;--text-fg:#4d4d4c;--table-border-color:#ccc;--separator-color:#6d6d6c;--link:#07c;--link-visited:#751a9a;--blockquote-accent:var(--link);--footnote-accent:#ffd2a3;--subscribe-button-bg:#44e66c;--subscribe-button-fg:#11391b;--media-controls-on:#34b553;--media-controls-contrast:#fff;--inline-code-bg:#f3f3fa;--code-block-bg:#f3f3fa;--aside-bg:#f3f3fa;--aside-warning-bg:#fff5d1;--aside-warning-fg:#ac3233;--palette-red:#c82829;--palette-green:#718c00;--palette-yellow:#eab700;--palette-orange:#f5871f;--palette-blue:#4271ae;--palette-purple:#8959a8;--palette-teal:#3e999f;--palette-white:#fefefe;--palette-black:#000;--palette-text:var(--text-fg);--palette-dim:#8e908c;--highlight-bg:var(--palette-yellow);--highlight-fg:var(--text-fg)}#dmt::before{content:"🌖"}#dmt:hover::before{content:"🌗"}@media (prefers-color-scheme:dark){:root:not(.light-theme){--content-bg:#313233;--gutter-bg:#1d1f21;--text-fg:#d8d4cf;--table-border-color:#ccc;--separator-color:#6d6d6c;--link:rgb(82,183,255);--link-visited:rgb(193,104,229);--blockquote-accent:var(--link);--footnote-accent:#a8612f;--subscribe-button-bg:#44e66c;--subscribe-button-fg:#11391b;--media-controls-on:#44e66c;--media-controls-contrast:#11391b;--inline-code-bg:#3c4044;--code-block-bg:#1d1f21;--aside-bg:#3c4044;--aside-warning-bg:#fff5d1;--aside-warning-fg:var(--palette-red);--palette-red:#cc6666;--palette-green:#b5bd68;--palette-yellow:#f0c674;--palette-orange:#de935f;--palette-blue:#81a2be;--palette-purple:#b294bb;--palette-teal:#8abeb7;--palette-white:#fefefe;--palette-black:#000;--palette-text:var(--text-fg);--palette-dim:#969896;--highlight-bg:var(--palette-yellow);--highlight-fg:var(--palette-black)}:root:not(.light-theme) #dmt::before{content:"🌒"}:root:not(.light-theme) #dmt:hover::before{content:"🌓"}}#dmt{width:30px;text-align:right;padding-right:4px;position:absolute;top:0;bottom:0;right:0;border:none;background-color:inherit;cursor:pointer}*{margin:0;padding:0;font:inherit;box-sizing:border-box}html{background-color:var(--gutter-bg);color:var(--text-fg)}body{font-family:system-ui,sans-serif;font-size:12pt;line-height:1.8;word-wrap:break-word}body:not(.content-page) main>aside{padding:0 var(--content-padding)}body.content-page main,body:not(.content-page) article{background-color:var(--content-bg);border-radius:var(--outer-box-radius);padding:var(--content-padding)}em,i{font-style:italic}h1>a:only-child,h2>a:only-child{display:block}main .subsection-header+.post-list{margin-top:0}strong{font-weight:700}ol,ul{padding-left:3ch}hr{border-style:solid;border-width:1.5px 0 0;border-radius:1px;border-color:var(--separator-color)}:not(pre)>code{white-space:pre;background-color:var(--inline-code-bg)}li{padding-left:0}blockquote{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:"";content:none}a,a:active,a:visited{text-decoration:none}a:hover{text-decoration:underline}blockquote{padding:0 0 0 var(--content-padding);border-left:solid 2px var(--blockquote-accent)}aside{--content-padding:0.5em;padding:.5em;border-radius:var(--box-radius);background-color:var(--aside-bg)}a,a:active,header a:visited,footer a:visited,h1 a:visited{color:var(--link)}a:visited{color:var(--link-visited)}h1{font-size:130%}h2{font-size:120%}main *+p,main *+aside,main *+article,main *+blockquote,main *+div,main *+ul,main *+hr,main *+h1,main *+h2{margin-top:1em}main .post-header *+h1{margin-top:0}code{font-family:Menlo,monospace;padding:0 3px;border-radius:2px}p+p{margin-top:1em}body{margin:0 auto;--content-padding:10px;max-width:768px;-webkit-text-size-adjust:100%;position:relative}header{position:relative}header>*{height:48px;line-height:48px}.promo,.promo:visited,.promo:active{display:block;text-align:center;background-color:var(--link);color:var(--code-block-bg);border-radius:0 0 var(--outer-box-radius) var(--outer-box-radius)}header .site-title{font-size:130%}header nav{position:absolute;right:30px;top:0}@media all and (max-width:400px){:root{--outer-box-radius:0}header{text-align:center}header nav{position:static}:not(pre)>code{white-space:pre-wrap}body{--content-padding:10px}#dmt{padding:0;text-align:center;width:40px}}header ul{padding:0}header li{list-style:none;display:inline-block}header a{display:block;height:100%}header li+li{margin-left:1em}footer{padding:2em 0;font-size:.85em;text-align:center}article h1.post-title{font-size:200%}article .post-title a{display:block}article .meta{font-size:90%;font-style:italic}.post-header h1{line-height:1.2em;margin-bottom:.5em}.post-footer{text-align:center}.post-footer a{display:block}ol.post-list{list-style-position:inside;padding:0}.series-rider .series-name{font-style:italic}</style>
+<meta property=og:title content="How to Learn Nix, Part 3: What we talk about when we talk about Nix">
+<meta property=og:type content=website>
+<meta property=og:url content=https://ianthehenry.com/posts/how-to-learn-nix/glossary/>
+<meta name=description content="I decide to start learning Nix by reading through the glossary. I don’t expect to fully understand every definition – I expect it will take first-hand experience to really understand these terms – but I think it will be a useful primer before I read the documentation. At least I will recognize when I encounter a Nix-specific term.">
+<meta property=og:description content="I decide to start learning Nix by reading through the glossary. I don’t expect to fully understand every definition – I expect it will take first-hand experience to really understand these terms – but I think it will be a useful primer before I read the documentation. At least I will recognize when I encounter a Nix-specific term.">
+<meta property=og:image content=https://ianthehenry.com/checkerboard.png>
+<meta name=twitter:creator content=@ianthehenry>
+<meta name=twitter:card content=summary>
+<link type=image/x-icon rel="shortcut icon" href="data:image/vnd.microsoft.icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAHH1uIDShg/xEsZv8GFk3/CSJb/wgZT/8IGU//CBlP/wkiW/8HGE7/CBlP/wkiW/8HIFX/BxhO/wcgVf8OK2t7JDhz/wcfW/8NNn7/CSpq/wkjYf8MJGP/DCJg/w02ef9SqdX/TKHJ/1my2f9Moc3/UqzV/1Cr1v9Pocf/Ditr/xk2cf8KJGL/CjR8/wwva/8RK2r/Cido/w8qa/8LLW//TqjT/1Gnz/9bsNf/Sp/K/1Wt2f9Wrtj/UKjQ/w8xc/8gPHj/Di5w/xk4ef8TL27/Dy5u/xU3fv8QLGv/Ditr/1qy3f9dttv/Yrje/0ecx/9Knsz/U6fQ/1m13f8YN3n/JjZx/wszdv8YOXz/Eilm/xc3e/8dSZT/GDJz/xk/hv9hu+P/WbHZ/1mv1v9Kn8z/WLHd/1212v9ds9n/Eipr/xcqYv8SOX3/GzRz/xQrZ/8aM3D/HEuU/xc0df8fPYD/Yrre/1603P9dt9z/VKvY/1iz4v9etNr/Y73m/xk5fP8cMm3/JEWK/xc0dP8eO3v/Hjd4/ydRnP8WM3P/Gjd3/2bA5/9dtd//Ybng/2K95v9ct+P/Ybnf/2K95/8oS5L/GChg/xxBh/8lSIz/GC5s/yM5ev8hRoz/HTp7/yE6e/9Zsdz/YLzn/2jF7v9ryfL/YLzn/1qu1f9htdz/GDyD/y0/ev9qx/X/acDn/1235v9euun/Yb3r/1665v9owu7/GUOL/yhGh/8nUJL/MkmI/yBFiP8jOHb/MVag/yM+gv8VMGv/acXx/27G7/9szv3/bMb1/2zD6/9vy/X/edf5/yBHjv8yS47/JEuO/zVLiv8nS5D/LkOB/yRXpP8lQoT/H0WI/3fS+P910Pf/b8/8/2bB7/991Pn/eNb+/3nT+P8pS5L/O1GS/ytUnP86UJH/NF2k/zNLjP8sXKv/JkCB/x4+ff+B2/3/etT9/4He//922f//fNf//3TT//991/7/NU6N/zZSkP86Zav/PlWR/zFepv88ZKb/MF2n/yQ/gf8bNXH/fd3//3/b//+K6P//ft///3vV//993f//gdz//0hWlf9FZKX/RmOj/0JXlv9IeMP/QXKz/0Jsuf8eO3z/Hjt2/3vd//+C3v//ju3//3zg//+H4v//guL//4nj//9HXp3/UGur/ztgqf9JYqP/S3G4/05ur/9EbLT/Hjt7/zNJhf+G4///heT//4rq//+E5///iOT//4jr//+G4///UXO0/09iov9EX6H/SWWn/1V5wP9Kaa7/RGSp/ydLj/8NKGCfDShg/x8+d/8RLGb/CBlP/wYWTf8GFEj/CBNH/wooZP8JIlv/CCJd/woWSf8HGE7/ByBV/wwgU/8fO3mfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="><meta http-equiv=content-security-policy content="default-src 'none'; font-src 'self' data:; img-src 'self' data:; style-src 'unsafe-inline'; media-src 'self' data:; script-src 'unsafe-inline' data:; object-src 'self' data:; frame-src 'self' data:;"><style>img[src="data:,"],source[src="data:,"]{display:none!important}</style></head>
+<body class=content-page>
+<a class=promo href=https://janet.guide/ target=_blank><i>psst, hey kid, wanna read a weird programming book</i></a>
+<header>
+<a class=site-title href=https://ianthehenry.com/>Ian Henry</a>
+<nav>
+<ul><li><a href=https://ianthehenry.com/about/>About</a><li><a href=https://ianthehenry.com/posts/>Blog</a><li><a href=https://ianthehenry.com/stuff/>Stuff</a></ul>
+</nav>
+<button id=dmt title="Toggle dark mode"></button>
+</header>
+<main>
+<aside class=series-rider>
+<p>This post is part of the series <a class=series-name href=https://ianthehenry.com/posts/how-to-learn-nix/>How to Learn Nix</a>, a rambling diary in which I work my way through the Nix manual in excrutiating detail.</p>
+</aside>
+<article class=post>
+<div class=post-header>
+<time class=meta datetime=2021-03-04>March 4, 2021</time>
+<h1 class=post-title>
+<a href=https://ianthehenry.com/posts/how-to-learn-nix/glossary/>How to Learn Nix, Part&nbsp;3:<br>What we talk about when we talk about Nix</a></h1>
+</div>
+<div class=post-content><p>I decide to start learning Nix by reading through the glossary. I don’t expect to fully understand every definition – I expect it will take first-hand experience to really understand these terms – but I think it will be a useful primer before I read the documentation. At least I will recognize when I encounter a Nix-specific term.</p>
+<h1 id=appendix-a-glossaryhttpswebarchiveorgweb20210227145624httpsnixosorgmanualnixstablepart-glossary><a href=https://web.archive.org/web/20210227145624/https://nixos.org/manual/nix/stable/#part-glossary>Appendix A. Glossary</a></h1>
+<h2 id=derivation>derivation</h2>
+<blockquote>
+<p>A description of a build action. The result of a derivation is a store object. Derivations are typically specified in Nix expressions using the <code>derivation</code> primitive. These are translated into low-level <em>store derivations</em> (implicitly by <code>nix-env</code> and <code>nix-build</code>, or explicitly by <code>nix-instantiate</code>).</p>
+</blockquote>
+<p>This is… the first thing, and also the most confusing thing. I had to break it into multiple sentences.</p>
+<blockquote>
+<p>A description of a build action.</p>
+</blockquote>
+<p>This immediately seems unintuitive to me. Software often has multiple build steps to produce a single artifact. I would call each of these steps a “build action.” But my assumption (and vague memory) is that a derivation is supposed to be “a description of an artifact,” which is to say a description of <em>multiple build actions</em>. So I’m not sure if I am reading that too literally or if Nix has some sort of build system built into it.</p>
+<blockquote>
+<p>The result of a derivation is a store object.</p>
+</blockquote>
+<p>I’m not sure what “result of a derivation” means, but I will assume it means “the result of the build action that the derivation describes.” I don’t love the wording if that is the correct reading.</p>
+<blockquote>
+<p>Derivations are typically specified in Nix expressions using the <code>derivation</code> primitive.</p>
+</blockquote>
+<p>Okay. I suppose I will get to that, when I make my own derivation.</p>
+<blockquote>
+<p>These are translated into low-level <em>store derivations</em> (implicitly by <code>nix-env</code> and <code>nix-build</code>, or explicitly by <code>nix-instantiate</code>).</p>
+</blockquote>
+<p>Okay. I do not know what a “store derivation” is, and this is not defined in the glossary, although the italics imply this is a term of art.</p>
+<p>This sentence uses the “old” commands that I am familiar with from using Nix years ago, but I assume now there would be different commands that just use the <code>nix</code> executable.</p>
+<h2 id=store>store</h2>
+<blockquote>
+<p>The location in the file system where store objects live. Typically <code>/nix/store</code>.</p>
+</blockquote>
+<p>Okay. That’s sort of a weird usage to me: I would think “store” would mean “the collection of things” not “the location of the collection of things.” The rest of the glossary seems to use this in the intuitive sense, so I assume this is just badly worded.</p>
+<h2 id=store-path>store path</h2>
+<blockquote>
+<p>The location in the file system of a store object, i.e., an immediate child of the Nix store directory.</p>
+</blockquote>
+<p>Okay. Simple enough. Path in the store, not path to the store (which according to the glossary would just be “store,” which I do not believe).</p>
+<h2 id=store-object>store object</h2>
+<blockquote>
+<p>A file that is an immediate child of the Nix store directory. These can be regular files, but also entire directory trees. Store objects can be sources (objects copied from outside of the store), derivation outputs (objects produced by running a build action), or derivations (files describing a build action).</p>
+</blockquote>
+<p>Okay. So derivations can live in the store, build artifacts can live in the store, and plain files can live in the store. Cool. I don’t really understand what it means for a derivation to live in the store, so that’s an open question for me.</p>
+<h2 id=substitute>substitute</h2>
+<blockquote>
+<p>A substitute is a command invocation stored in the Nix database that describes how to build a store object, bypassing the normal build mechanism (i.e., derivations). Typically, the substitute builds the store object by downloading a pre-built version of the store object from some server.</p>
+</blockquote>
+<p>This is the first occurrence of the term “Nix database.” I don’t know what that means. I assume it is separate from the store, but it is not defined anywhere, and descriptions of Nix are usually about “content addressable store” and not “content addressable store plus a database.”</p>
+<p>In order to understand Nix, I have to understand what Nix is – how it works, not just how to use it. So I will have to follow up on this.</p>
+<h2 id=purity>purity</h2>
+<blockquote>
+<p>The assumption that equal Nix derivations when run always produce the same output. This cannot be guaranteed in general (e.g., a builder can rely on external inputs such as the network or the system time) but the Nix model assumes it.</p>
+</blockquote>
+<p>This is a strange thing to define in the glossary since Nix seems to use the word in exactly the way I would expect. But I suppose if you aren’t coming from a functional programming background, the term might not be familiar.</p>
+<h2 id=nix-expression>Nix expression</h2>
+<blockquote>
+<p>A high-level description of software packages and compositions thereof. Deploying software using Nix entails writing Nix expressions for your packages. Nix expressions are translated to derivations that are stored in the Nix store. These derivations can then be built.</p>
+</blockquote>
+<p>What is a “software package”? Since this is not defined elsewhere in the glossary, I’m going to assume it means the normal thing that it should mean, i.e. “git” or “pcre” would be software packages.</p>
+<p>But then what does it mean to compose packages? I don’t know how to compose “git” with anything else. It’s just a package. Packages do not, in my experience, compose with one another.</p>
+<p>So maybe the glossary is using “composition” in a different sense. Like, the things that comprise a package. This makes more sense, but that interpretation is grammatically unnatural to me: I would say “software packages and <em>the</em> compositions thereof.” So there’s an open question for me: do packages compose?</p>
+<blockquote>
+<p>Deploying software using Nix entails writing Nix expressions for your packages.</p>
+</blockquote>
+<p>That’s sort of a strange statement. Not <em>building</em> software, but deploying it? That choice of word is strange but I am going to assume it means “using Nix to make software” not literally “using Nix to <em>deploy</em> software.”</p>
+<blockquote>
+<p>Nix expressions are translated to derivations that are stored in the Nix store. These derivations can then be built.</p>
+</blockquote>
+<p>Okay. Expressions become derivations. Derivations are stored in the Nix store.</p>
+<p>I assume, based on my prior understanding of the term “expression” and the fact that the definition for derivation says they are created by “expressions using the <code>derivation</code> primitive” that not <em>all</em> expressions become derivations.</p>
+<h2 id=reference>reference</h2>
+<blockquote>
+<p>A store path <strong>P</strong> is said to have a reference to a store path <strong>Q</strong> if the store object at <strong>P</strong> contains the path <strong>Q</strong> somewhere. The <em>references</em> of a store path are the set of store paths to which it has a reference.</p>
+<p>A derivation can reference other derivations and sources (but not output paths), whereas an output path only references other output paths.</p>
+</blockquote>
+<p>I like that this gives a very precise definition. It’s not completely clear what it means for a store object to “contain” a path – does this mean a symlink to the path from a directory-type object? Or does it mean an occurrence of that path as text in a file? It could be both, I suppose.</p>
+<h2 id=reachable>reachable</h2>
+<blockquote>
+<p>A store path <strong>Q</strong> is reachable from another store path <strong>P</strong> if <strong>Q</strong> is in the closure of the references relation.</p>
+</blockquote>
+<p>Good definition. Intuitive term.</p>
+<h2 id=closure>closure</h2>
+<blockquote>
+<p>The closure of a store path is the set of store paths that are directly or indirectly “reachable” from that store path; that is, it’s the closure of the path under the references relation. For a package, the closure of its derivation is equivalent to the build-time dependencies, while the closure of its output path is equivalent to its runtime dependencies. For correct deployment it is necessary to deploy whole closures, since otherwise at runtime files could be missing. The command <code>nix-store -qR</code> prints out closures of store paths.</p>
+<p>As an example, if the store object at path <strong>P</strong> contains a reference to path <strong>Q</strong>, then <strong>Q</strong> is in the closure of <strong>P</strong>. Further, if <strong>Q</strong> references <strong>R</strong> then <strong>R</strong> is also in the closure of <strong>P</strong>.</p>
+</blockquote>
+<p>I have nothing ungenerous to say about this definition. It is clear and concise and gives concrete examples.</p>
+<blockquote>
+<p>For a package, the closure of its derivation is equivalent to the build-time dependencies, while the closure of its output path is equivalent to its runtime dependencies.</p>
+</blockquote>
+<p>Here we see “package” again, and I am going to continue assuming it means what I think it means.</p>
+<p>But I highlighted this because of use of the term “output path.” I still don’t quite know how to think about derivations – they’re functions (?) that produce build artifacts – which presumably turn into store objects – and I think “output path” is referring to the path of that store object? Hopefully this will become more clear.</p>
+<blockquote>
+<p>The command <code>nix-store -qR</code> prints out closures of store paths.</p>
+</blockquote>
+<p>Is this still the recommended command? Is there a <code>nix print-closures</code> or something command now?</p>
+<h2 id=output-path>output path</h2>
+<blockquote>
+<p>A store path produced by a derivation.</p>
+</blockquote>
+<p>Oh, there it is. It’s defined. Okay. Okay. Still not… still don’t totally have an intuition for “produced by a derivation.”</p>
+<h2 id=deriver>deriver</h2>
+<blockquote>
+<p>The deriver of an output path is the store derivation that built it.</p>
+</blockquote>
+<p>Okay. Note “store derivation,” not “derivation.” Still unclear on that distinction.</p>
+<p>A boring note: this definition links to the definition of “output path,” which makes it clear that it is a Nix term, but the first occurrence of “output path” in the glossary did not. But none of the definitions I’m copying include these links, so you cannot tell.</p>
+<h2 id=validity>validity</h2>
+<blockquote>
+<p>A store path is considered <em>valid</em> if it exists in the file system, is listed in the Nix database as being valid, and if all paths in its closure are also valid.</p>
+</blockquote>
+<p>Here we see the Nix database again. This is not a helpful definition: it sort of reads as “a package is valid if it is marked valid,” and I don’t know what it would take to mark something valid, or what it would mean if a package were marked invalid in the database.</p>
+<h2 id=user-environment>user environment</h2>
+<blockquote>
+<p>An automatically generated store object that consists of a set of symlinks to “active” applications, i.e., other store paths. These are generated automatically by <code>nix-env</code>.</p>
+</blockquote>
+<p>This gives a hint that “references” probably do include symlinks. Is <code>nix-env</code> still the preferred command to manage the user environment?</p>
+<h2 id=profile>profile</h2>
+<blockquote>
+<p>A symlink to the current user environment of a user, e.g., <code>/nix/var/nix/profiles/default</code>.</p>
+</blockquote>
+<p>Okay.</p>
+<h2 id=nar>NAR</h2>
+<blockquote>
+<p>A <em>N</em>ix <em>AR</em>chive. This is a serialisation of a path in the Nix store. It can contain regular files, directories and symbolic links. NARs are generated and unpacked using <code>nix-store --dump</code> and <code>nix-store --restore</code>.</p>
+</blockquote>
+<p>Okay.</p>
+<hr>
+<p>This does not define one very important term that I happen to remember: “nixpkgs.” This is the name for, as I recall, the default repository of all packages available in the Nix universe. I remember that you can configure whatever package sources you want – I’m not really sure what the right term for that is – but that is the default, official one.</p>
+<p>Nixpkgs is a git repo, and I think contributions to it are just pull requests on GitHub, which I think is neat. Sure, of course, GitHub evil monopoly FUD monolith whatever, but having contributions tied to what is, for better or worse, a developer’s public ID card seems better than signing up for an account on www dot nixos dot org.</p>
+<p>Oh, and one more term: channel. I vaguely remember that channels are like… sort of analogous to git remotes? But I only ever had one channel, and it is where <code>nixpkgs</code> came from. I remember doing something with the <code>nix-channel</code> command frequently, even though I only ever had one channel. I think I remember it being analogous to <code>brew update</code>.</p>
+<hr>
+<p>So that was helpful, and it left me with some open questions that I will need to follow up on as I learn more:</p>
+<ul>
+<li>What is the difference between a “derivation” and a “store derivation”?</li>
+<li>How does a derivation turn into a “result” or an “output path”? When does a derivation “produce” something?</li>
+<li>What is the Nix database, and what is stored there?</li>
+<li>What does it mean to compose a package?</li>
+<li>What are the <code>nix</code> equivalents of <code>nix-env</code>, <code>nix-build</code>, and <code>nix-instantiate</code>?</li>
+<li>What is the <code>nix</code> equivalent of <code>nix-store -qR</code> to print out the closure of a store path?</li>
+<li>What are the <code>nix</code> equivalents of <code>nix-store --dump</code> and <code>nix-store --restore</code>, for working with NARs?</li>
+</ul></div>
+</article>
+<div class=post-footer>
+<a href="mailto:ianthehenry@gmail.com?subject=let%27s%20talk%20about%20%22What%20we%20talk%20about%20when%20we%20talk%20about%20Nix%22&amp;body=First%20of%20all,%20I%20just%20wanted%20to%20say%20that%20I%20forgive%20you%20for%20not%20having%20a%20real%20comment%20system%20on%20your%20site.">comment on this post</a><a href=https://ianthehenry.com/posts/how-to-learn-nix/quick-start-guide/>Next up ➜ Quick starts, full hearts</a></div>
+<aside class=series-rider>
+<p>
+This post is part of the series <a class=series-name href=https://ianthehenry.com/posts/how-to-learn-nix/>How to Learn Nix</a>.
+You can
+<a target=_blank href=https://ianthehenry.com/feed.xml>subscribe to my RSS feed</a>
+or
+<a target=_blank href=https://twitter.com/ianthehenry>follow me on Twitter</a>
+for more, or <a href=https://ianthehenry.com/posts/>peruse my back catalog</a> if you're in the mood for something different.
+<div class=subsection-header>Opening remarks</div><ol start=1 class=post-list><li><a href=https://ianthehenry.com/posts/how-to-learn-nix/introduction/>What's all this about?</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/prior-knowledge/>Prior knowledge</a></li>
+</ol><div class=subsection-header>Reading the Nix manual</div><ol start=3 class=post-list><li><strong><a href=https://ianthehenry.com/posts/how-to-learn-nix/glossary/>What we talk about when we talk about Nix</a></strong>&nbsp;←&nbsp;you are here</li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/quick-start-guide/>Quick starts, full hearts</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/basic-package-management/>Basic package management</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/profiles/>Profiles</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/garbage-collection/>Garbage collection</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/channels/>Channels</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/sharing/>Learning to share</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/my-first-derivation/>My first derivation</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/okay-my-actual-first-derivation/>Okay my actual first derivation</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/nix-language/>The Nix expression language</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/derivations/>Derivations</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/built-in-functions/>Built-in Functions</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/advanced-topics/>Advanced Topics</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/command-reference/>Command Reference</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/configuration/>Configuration</a></li>
+</ol><div class=subsection-header>Interlude: in which we follow our hearts, however briefly</div><ol start=18 class=post-list><li><a href=https://ianthehenry.com/posts/how-to-learn-nix/nix-manual-reflection/>So I read the manual huh</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/switching-from-homebrew-to-nix/>Switching from Homebrew to Nix</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/my-first-nix-bug/>My first Nix bug</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/my-first-package-upgrade/>My first package upgrade</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/declarative-user-environment/>Setting up a declarative user environment</a></li>
+</ol><div class=subsection-header>Reading the Nixpkgs manual</div><ol start=23 class=post-list><li><a href=https://ianthehenry.com/posts/how-to-learn-nix/how-to-learn-nixpkgs/>How to learn Nixpkgs</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/overlays/>Overlays</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/overriding/>Overriding</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/an-infinite-list-of-functions/>An infinite list of functions</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/even-more-functions-somehow/>Even more functions, somehow</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/the-standard-environment/>The standard environment</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/derivations-in-detail/>Derivations in detail</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/cross-compilation/>Cross-compilation</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/platform-notes/>Platform notes</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/builders/>Builders</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/languages-and-frameworks/>Languages and frameworks</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/random-package-grab-bag/>Random package grab-bag</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/how-to-give-back/>How to give back</a></li>
+</ol><div class=subsection-header>Documentation behind us, we set out on our own</div><ol start=36 class=post-list><li><a href=https://ianthehenry.com/posts/how-to-learn-nix/nixpkgs-reflection/>So I read the other manual, huh</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/saving-your-shell/>Saving your shell</a></li>
+</ol><div class=subsection-header>Oh right forgot about Nix Pills</div><ol start=38 class=post-list><li><a href=https://ianthehenry.com/posts/how-to-learn-nix/nix-pills/>Nix Pills</a></li>
+</ol><div class=subsection-header>Our whole lives ahead of us</div><ol start=39 class=post-list><li><a href=https://ianthehenry.com/posts/how-to-learn-nix/python3-alpha/>How to install Python</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/open-questions/>Open questions</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/ambiguous-packages/>Ambiguous packages</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/nix-zshell/>Running zsh in nix-shell</a></li>
+</ol><div class=subsection-header>Nix 2.4 slithers to life</div><ol start=43 class=post-list><li><a href=https://ianthehenry.com/posts/how-to-learn-nix/flakes/>My first brush with flakes</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/more-flakes/>More flakes, unfortunately</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/new-profiles/>Fancy new profiles</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/chipping-away-at-flakes/>Chipping away at flakes</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/nix-develop/>New and unimproved shells</a></li>
+</ol>
+</aside>
+</main>
+<footer>
+© 1899-1907 <a href=https://ianthehenry.com/about/>Ian Henry</a>
+</footer>

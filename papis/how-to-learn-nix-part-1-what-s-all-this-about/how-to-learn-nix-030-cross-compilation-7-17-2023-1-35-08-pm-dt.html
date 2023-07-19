@@ -1,0 +1,605 @@
+<!DOCTYPE html> <html lang=en style><!--
+ Page saved with SingleFile 
+ url: https://ianthehenry.com/posts/how-to-learn-nix/cross-compilation/ 
+ saved date: Mon Jul 17 2023 13:35:08 GMT+0600 (Kyrgyzstan Time)
+--><meta charset=utf-8>
+<meta name=viewport content="initial-scale=1,maximum-scale=1">
+<title>How to Learn Nix, Part 30: Cross-compilation</title>
+<link rel=canonical href=https://ianthehenry.com/posts/how-to-learn-nix/cross-compilation/>
+<style>:root{--box-radius:6px;--outer-box-radius:10px}:root{--content-bg:#fff;--gutter-bg:#eeeef3;--text-fg:#4d4d4c;--table-border-color:#ccc;--separator-color:#6d6d6c;--link:#07c;--link-visited:#751a9a;--blockquote-accent:var(--link);--footnote-accent:#ffd2a3;--subscribe-button-bg:#44e66c;--subscribe-button-fg:#11391b;--media-controls-on:#34b553;--media-controls-contrast:#fff;--inline-code-bg:#f3f3fa;--code-block-bg:#f3f3fa;--aside-bg:#f3f3fa;--aside-warning-bg:#fff5d1;--aside-warning-fg:#ac3233;--palette-red:#c82829;--palette-green:#718c00;--palette-yellow:#eab700;--palette-orange:#f5871f;--palette-blue:#4271ae;--palette-purple:#8959a8;--palette-teal:#3e999f;--palette-white:#fefefe;--palette-black:#000;--palette-text:var(--text-fg);--palette-dim:#8e908c;--highlight-bg:var(--palette-yellow);--highlight-fg:var(--text-fg)}#dmt::before{content:"🌖"}#dmt:hover::before{content:"🌗"}@media (prefers-color-scheme:dark){:root:not(.light-theme){--content-bg:#313233;--gutter-bg:#1d1f21;--text-fg:#d8d4cf;--table-border-color:#ccc;--separator-color:#6d6d6c;--link:rgb(82,183,255);--link-visited:rgb(193,104,229);--blockquote-accent:var(--link);--footnote-accent:#a8612f;--subscribe-button-bg:#44e66c;--subscribe-button-fg:#11391b;--media-controls-on:#44e66c;--media-controls-contrast:#11391b;--inline-code-bg:#3c4044;--code-block-bg:#1d1f21;--aside-bg:#3c4044;--aside-warning-bg:#fff5d1;--aside-warning-fg:var(--palette-red);--palette-red:#cc6666;--palette-green:#b5bd68;--palette-yellow:#f0c674;--palette-orange:#de935f;--palette-blue:#81a2be;--palette-purple:#b294bb;--palette-teal:#8abeb7;--palette-white:#fefefe;--palette-black:#000;--palette-text:var(--text-fg);--palette-dim:#969896;--highlight-bg:var(--palette-yellow);--highlight-fg:var(--palette-black)}:root:not(.light-theme) #dmt::before{content:"🌒"}:root:not(.light-theme) #dmt:hover::before{content:"🌓"}}#dmt{width:30px;text-align:right;padding-right:4px;position:absolute;top:0;bottom:0;right:0;border:none;background-color:inherit;cursor:pointer}*{margin:0;padding:0;font:inherit;box-sizing:border-box}html{background-color:var(--gutter-bg);color:var(--text-fg)}table,td,th{border:solid 1px var(--table-border-color)}td,th{padding:.25em .5em}body{font-family:system-ui,sans-serif;font-size:12pt;line-height:1.8;word-wrap:break-word}body:not(.content-page) main>aside{padding:0 var(--content-padding)}body.content-page main,body:not(.content-page) article{background-color:var(--content-bg);border-radius:var(--outer-box-radius);padding:var(--content-padding)}pre{word-wrap:normal}em,i{font-style:italic}h1>a:only-child,h2>a:only-child{display:block}main .subsection-header+.post-list{margin-top:0}strong{font-weight:700}ol,ul{padding-left:3ch}hr{border-style:solid;border-width:1.5px 0 0;border-radius:1px;border-color:var(--separator-color)}:not(pre)>code{white-space:pre;background-color:var(--inline-code-bg)}li{padding-left:0}blockquote{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:"";content:none}table{border-collapse:collapse;border-spacing:0}a,a:active,a:visited{text-decoration:none}a:hover{text-decoration:underline}blockquote{padding:0 0 0 var(--content-padding);border-left:solid 2px var(--blockquote-accent)}aside{--content-padding:0.5em;padding:.5em;border-radius:var(--box-radius);background-color:var(--aside-bg)}a,a:active,header a:visited,footer a:visited,h1 a:visited{color:var(--link)}a:visited{color:var(--link-visited)}h1{font-size:130%}main *+p,main *+pre,main *+aside,main *+article,main *+blockquote,main *+table,main *+div,main *+ul,main *+ol,main *+hr,main *+h1{margin-top:1em}main .post-header *+h1{margin-top:0}code{font-family:Menlo,monospace;padding:0 3px;border-radius:2px}pre{background-color:var(--code-block-bg);font-size:11pt;padding:calc(.75*var(--content-padding)) var(--content-padding);line-height:1.3;border-radius:var(--box-radius);overflow-x:scroll;-webkit-overflow-scrolling:touch}pre code{padding:0;border-radius:0;display:inline-block;background-color:initial}p+p{margin-top:1em}body{margin:0 auto;--content-padding:10px;max-width:768px;-webkit-text-size-adjust:100%;position:relative}header{position:relative}header>*{height:48px;line-height:48px}.promo,.promo:visited,.promo:active{display:block;text-align:center;background-color:var(--link);color:var(--code-block-bg);border-radius:0 0 var(--outer-box-radius) var(--outer-box-radius)}header .site-title{font-size:130%}header nav{position:absolute;right:30px;top:0}@media all and (max-width:400px){:root{--outer-box-radius:0}header{text-align:center}header nav{position:static}:not(pre)>code{white-space:pre-wrap}body{--content-padding:10px}#dmt{padding:0;text-align:center;width:40px}}header ul{padding:0}header li{list-style:none;display:inline-block}header a{display:block;height:100%}header li+li{margin-left:1em}footer{padding:2em 0;font-size:.85em;text-align:center}article h1.post-title{font-size:200%}article .post-title a{display:block}article .meta{font-size:90%;font-style:italic}.post-header h1{line-height:1.2em;margin-bottom:.5em}.post-footer{text-align:center}.post-footer a{display:block}ol.post-list{list-style-position:inside;padding:0}.series-rider .series-name{font-style:italic}.highlight{color:var(--palette-text)}.highlight .err{color:var(--palette-red)}.highlight .n{color:var(--palette-text)}.highlight .o{color:var(--palette-teal)}.highlight .p{color:var(--palette-text)}.highlight .s2{color:var(--palette-green)}.highlight .s1{color:var(--palette-green)}</style>
+<meta property=og:title content="How to Learn Nix, Part 30: Cross-compilation">
+<meta property=og:type content=website>
+<meta property=og:url content=https://ianthehenry.com/posts/how-to-learn-nix/cross-compilation/>
+<meta name=description content="Back in Chapter 6, we got a sort of whirlwind introduction to cross-compilation.
+No; perhaps “introduction” is the wrong word. It was more of a detailed description of an algorithm used somewhere within the dependency resolution phase of cross-compilation, presented without context or motivation, in a section that mostly left us with more questions than answers.
+So hopefully now we’ll get an actual introduction.">
+<meta property=og:description content="Back in Chapter 6, we got a sort of whirlwind introduction to cross-compilation.
+No; perhaps “introduction” is the wrong word. It was more of a detailed description of an algorithm used somewhere within the dependency resolution phase of cross-compilation, presented without context or motivation, in a section that mostly left us with more questions than answers.
+So hopefully now we’ll get an actual introduction.">
+<meta property=og:image content=https://ianthehenry.com/checkerboard.png>
+<meta name=twitter:creator content=@ianthehenry>
+<meta name=twitter:card content=summary>
+<link type=image/x-icon rel="shortcut icon" href="data:image/vnd.microsoft.icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAHH1uIDShg/xEsZv8GFk3/CSJb/wgZT/8IGU//CBlP/wkiW/8HGE7/CBlP/wkiW/8HIFX/BxhO/wcgVf8OK2t7JDhz/wcfW/8NNn7/CSpq/wkjYf8MJGP/DCJg/w02ef9SqdX/TKHJ/1my2f9Moc3/UqzV/1Cr1v9Pocf/Ditr/xk2cf8KJGL/CjR8/wwva/8RK2r/Cido/w8qa/8LLW//TqjT/1Gnz/9bsNf/Sp/K/1Wt2f9Wrtj/UKjQ/w8xc/8gPHj/Di5w/xk4ef8TL27/Dy5u/xU3fv8QLGv/Ditr/1qy3f9dttv/Yrje/0ecx/9Knsz/U6fQ/1m13f8YN3n/JjZx/wszdv8YOXz/Eilm/xc3e/8dSZT/GDJz/xk/hv9hu+P/WbHZ/1mv1v9Kn8z/WLHd/1212v9ds9n/Eipr/xcqYv8SOX3/GzRz/xQrZ/8aM3D/HEuU/xc0df8fPYD/Yrre/1603P9dt9z/VKvY/1iz4v9etNr/Y73m/xk5fP8cMm3/JEWK/xc0dP8eO3v/Hjd4/ydRnP8WM3P/Gjd3/2bA5/9dtd//Ybng/2K95v9ct+P/Ybnf/2K95/8oS5L/GChg/xxBh/8lSIz/GC5s/yM5ev8hRoz/HTp7/yE6e/9Zsdz/YLzn/2jF7v9ryfL/YLzn/1qu1f9htdz/GDyD/y0/ev9qx/X/acDn/1235v9euun/Yb3r/1665v9owu7/GUOL/yhGh/8nUJL/MkmI/yBFiP8jOHb/MVag/yM+gv8VMGv/acXx/27G7/9szv3/bMb1/2zD6/9vy/X/edf5/yBHjv8yS47/JEuO/zVLiv8nS5D/LkOB/yRXpP8lQoT/H0WI/3fS+P910Pf/b8/8/2bB7/991Pn/eNb+/3nT+P8pS5L/O1GS/ytUnP86UJH/NF2k/zNLjP8sXKv/JkCB/x4+ff+B2/3/etT9/4He//922f//fNf//3TT//991/7/NU6N/zZSkP86Zav/PlWR/zFepv88ZKb/MF2n/yQ/gf8bNXH/fd3//3/b//+K6P//ft///3vV//993f//gdz//0hWlf9FZKX/RmOj/0JXlv9IeMP/QXKz/0Jsuf8eO3z/Hjt2/3vd//+C3v//ju3//3zg//+H4v//guL//4nj//9HXp3/UGur/ztgqf9JYqP/S3G4/05ur/9EbLT/Hjt7/zNJhf+G4///heT//4rq//+E5///iOT//4jr//+G4///UXO0/09iov9EX6H/SWWn/1V5wP9Kaa7/RGSp/ydLj/8NKGCfDShg/x8+d/8RLGb/CBlP/wYWTf8GFEj/CBNH/wooZP8JIlv/CCJd/woWSf8HGE7/ByBV/wwgU/8fO3mfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="><meta http-equiv=content-security-policy content="default-src 'none'; font-src 'self' data:; img-src 'self' data:; style-src 'unsafe-inline'; media-src 'self' data:; script-src 'unsafe-inline' data:; object-src 'self' data:; frame-src 'self' data:;"><style>img[src="data:,"],source[src="data:,"]{display:none!important}</style></head>
+<body class=content-page>
+<a class=promo href=https://janet.guide/ target=_blank><i>psst, hey kid, wanna read a weird programming book</i></a>
+<header>
+<a class=site-title href=https://ianthehenry.com/>Ian Henry</a>
+<nav>
+<ul><li><a href=https://ianthehenry.com/about/>About</a><li><a href=https://ianthehenry.com/posts/>Blog</a><li><a href=https://ianthehenry.com/stuff/>Stuff</a></ul>
+</nav>
+<button id=dmt title="Toggle dark mode"></button>
+</header>
+<main>
+<aside class=series-rider>
+<p>This post is part of the series <a class=series-name href=https://ianthehenry.com/posts/how-to-learn-nix/>How to Learn Nix</a>, a rambling diary in which I work my way through the Nix manual in excrutiating detail.</p>
+</aside>
+<article class=post>
+<div class=post-header>
+<time class=meta datetime=2021-04-26>April 26, 2021</time>
+<h1 class=post-title>
+<a href=https://ianthehenry.com/posts/how-to-learn-nix/cross-compilation/>How to Learn Nix, Part&nbsp;30:<br>Cross-compilation</a></h1>
+</div>
+<div class=post-content><p>Back in <a href=https://ianthehenry.com/posts/how-to-learn-nix/the-standard-environment/>Chapter 6</a>, we got a sort of whirlwind introduction to cross-compilation.</p>
+<p>No; perhaps “introduction” is the wrong word. It was more of a detailed description of an algorithm used somewhere within the dependency resolution phase of cross-compilation, presented without context or motivation, in a section that mostly left us with more questions than answers.</p>
+<p>So hopefully now we’ll get an actual introduction.</p>
+<h1 id=chapter-9-cross-compilationhttpswebarchiveorgweb20210318102415if_httpsnixosorgmanualnixpkgsstablechap-cross><a href=https://web.archive.org/web/20210318102415if_/https://nixos.org/manual/nixpkgs/stable/#chap-cross>Chapter 9. Cross-compilation</a></h1>
+<blockquote>
+<p>One might think that cross-compilation is a fairly niche concern. However, there are significant advantages to rigorously distinguishing between build-time and run-time environments!</p>
+</blockquote>
+<p>So this is an interesting argument. I accept that cross-compilation is valuable – you don’t need to convince me – but this particular line of argumenting is very strange to me. I would assume that cross-compilation is completely orthogonal to the distinction between build-time and runtime: I would assume that Nix would make that distinction regardless.</p>
+<p>The fact that they’re presented coupled together here is very interesting: it implies that, to someone who actually knows something about building software, the two ideas go hand in hand. As someone who knows almost nothing about building software, this is very unintuitive but also very intriguing.</p>
+<p>Anyway, I learn that the <code>hostPlatform</code>/<code>targetPlatform</code>/<code>buildPlatform</code> terminology comes from <code>autoconf</code>.</p>
+<p>I learn a very weird thing, which is that these keys exist as <code>stdenv.buildPlatform</code> (and friends). I don’t know what that means. Like, I can evaluate that in <code>nix repl</code>:</p>
+<pre tabindex=0><code>nix-repl&gt; pkgs.stdenv.targetPlatform
+{ aesSupport = false; avx2Support = false; avx512Support = false; avxSupport = false; config = "x86_64-apple-darwin"; emulator = «lambda @ /nix/store/mi0xpwzl81c7dgpr09qd67knbc24xab5-nixpkgs-21.05pre274251.f5f6dc053b1/nixpkgs/lib/systems/default.nix:110:18»; extensions = { ... }; fma4Support = false; fmaSupport = false; gcc = { ... }; is32bit = false; is64bit = true; isAarch32 = false; isAarch64 = false; isAlpha = false; isAndroid = false; isAvr = false; isBSD = false; isBigEndian = false; isCompatible = «lambda @ /nix/store/mi0xpwzl81c7dgpr09qd67knbc24xab5-nixpkgs-21.05pre274251.f5f6dc053b1/nixpkgs/lib/systems/default.nix:28:22»; isCygwin = false; isDarwin = true; isEfi = true; isFreeBSD = false; isGenode = false; isGhcjs = false; isJavaScript = false; isLinux = false; isLittleEndian = true; isMacOS = true; isMinGW = false; isMips = false; isMmix = false; isMsp430 = false; isMusl = false; isNetBSD = false; isNone = false; isOpenBSD = false; isOr1k = false; isPower = false; isPowerPC = false; isRedox = false; isRiscV = false; isSparc = false; isStatic = false; isSunOS = false; isUClibc = false; isUnix = true; isVc4 = false; isWasi = false; isWasm = false; isWindows = false; isi686 = false; isiOS = false; isx86 = true; isx86_32 = false; isx86_64 = true; libc = "libSystem"; linux-kernel = { ... }; linuxArch = "x86_64"; parsed = { ... }; qemuArch = "x86_64"; rustc = { ... }; sse3Support = false; sse4_1Support = false; sse4_2Support = false; sse4_aSupport = false; ssse3Support = false; system = "x86_64-darwin"; uname = { ... }; useAndroidPrebuilt = false; useiOSPrebuilt = false; }
+</code></pre><p>What does it mean? I don’t know. I would think these would be set on <code>stdenv</code> while I’m in the process of building something… like, it’s not a <em>global</em> quality of <code>stdenv</code>. It’s a quality of a particular derivation at a particular point in time. Right?</p>
+<p>Anyway, I already read the overview of what these are to try to understand some of Chapter 6, but to recap:</p>
+<ul>
+<li><code>buildPlatform</code> is the thing you expect</li>
+<li><code>hostPlatform</code> is the platform on which a derivation will run</li>
+<li><code>targetPlatform</code> is the platform for which this derivation can produce executable code, and is a weird hack to accommodate the fact that <code>gcc</code> (and other tools) can only produce code for a single platform, and if you want to compile for ARM on an Intel machine or whatever, you need to have a <em>separate</em> GCC executable that can produce ARM machine code. It’s not just a flag. Which, yes, is crazy, but here we are.</li>
+</ul>
+<p>These “platforms” are actually attribute-sets, and we learn a little about what attributes they contain:</p>
+<p><code>system</code> is a sort abbreviation for the entire set, of the format <code>[cpu]-[os]</code>. Alright. We’ve seen that before.</p>
+<p><code>config</code> is <em>also</em> a sort of abbreviation, but a longer abbreviation of the form <code>[cpu]-[vendor]-[os]</code> or the form <code>[cpu]-[vendor]-[os]-[abi]</code>. Apparently the former is from LLVM and is called the “LLVM triple.” Never heard that before. This field ends with the lovable line:</p>
+<blockquote>
+<p>This needs a better name than <code>config</code>!</p>
+</blockquote>
+<p>Indeed.</p>
+<p><code>parsed</code> is <code>config</code> but parsed into a set:</p>
+<pre tabindex=0><code>nix-repl&gt; pkgs.buildPlatform.config
+"x86_64-apple-darwin"
+
+nix-repl&gt; pkgs.buildPlatform.parsed
+{ _type = "system"; abi = { ... }; cpu = { ... }; kernel = { ... }; vendor = { ... }; }
+</code></pre><p>Interesting <code>_type</code> there. Don’t know what that means.</p>
+<p><code>libc</code> is the name of the C standard library.</p>
+<blockquote>
+<p><code>is*</code>: These predicates are defined in <code>lib.systems.inspect</code>, and slapped onto every platform. They are superior to the ones in <code>stdenv</code> as they force the user to be explicit about which platform they are inspecting. Please use these instead of those.</p>
+</blockquote>
+<p>Huh. I don’t know what “the ones in <code>stdenv</code>” are. But looking for examples, this is like <code>is32bit</code>, <code>isDarwin</code>, <code>isMusl</code> – all kinds of stuff. <code>isJavaScript</code>?? What <code>isJavaScript</code>?? Can you… no… what? I have to dig in.</p>
+<p>But I’m not sure… how. There is no, like, list of all platforms, that I can tell. There is <code>pkgs.platforms</code>, but I don’t know what it is – there are only a few entries, and they are not in the format described here. Ah, right, it’s <code>pkgs.lib.platforms</code>. Kinda forgot about that. It’s been a little while.</p>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-python data-lang=python><span class=n>nix</span><span class=o>-</span><span class=n>repl</span><span class=o>&gt;</span> <span class=n>pkgs</span><span class=o>.</span><span class=n>lib</span><span class=o>.</span><span class=n>platforms</span><span class=o>.</span><span class=n>js</span>
+<span class=p>[</span> <span class=s2>"js-ghcjs"</span> <span class=p>]</span>
+</code></pre></div><p>I don’t… what? Why is that a platform?</p>
+<p>Hmm. I guess that because <code>ghc</code> is one of those compilers that has the stupid <code>targetPlatform</code> thing, if you want to “cross-compile” Haskell to JS you need to use a different version of GHC? I don’t… hmm. This feels strange to me somehow: I would think of something like <code>js_of_ocaml</code> in the same way that I would think of, I dunno, <code>pandoc</code> or something. It produces an output, but I’m not… cross-compiling. I assume this makes some part of the Haskell infrastructure cleaner, or something? I don’t know.</p>
+<blockquote>
+<p><code>platform</code>: This is, quite frankly, a dumping ground of ad-hoc settings (it’s an attribute set). See <code>lib.systems.platforms</code> for examples–there’s hopefully one in there that will work verbatim for each platform that is working. Please help us triage these flags and give them better homes!</p>
+</blockquote>
+<p>I quoted that one because it’s fun-loving and jovial.</p>
+<h1 id=922-theory-of-dependency-categorizationhttpswebarchiveorgweb20210318102415if_httpsnixosorgmanualnixpkgsstablessec-cross-dependency-categorization><a href=https://web.archive.org/web/20210318102415if_/https://nixos.org/manual/nixpkgs/stable/#ssec-cross-dependency-categorization>9.2.2. Theory of dependency categorization</a></h1>
+<p>Ooookay. We get off to a great start:</p>
+<blockquote>
+<aside>
+<p><strong>Note</strong>: This is a rather philosophical description that isn’t very Nixpkgs-specific. For an overview of all the relevant attributes given to <code>mkDerivation</code>, see Section 6.3, “Specifying dependencies”. For a description of how everything is implemented, see Section 9.4.1, “Implementation of dependencies”.</p>
+</aside>
+</blockquote>
+<p>Alright. I’m down. I’m into it. I think. Hopefully this will give me the context that I need to understand the whole thing about platforms as integer offsets relative to whatever. Hopefully this will make that make sense.</p>
+<p>We start off slow: runtime dependencies need to have matching hosts. Naturally. No further questions.</p>
+<blockquote>
+<p>A build time dependency, however, has a shift in platforms between the depending package and the depended-on package. “build time dependency” means that to build the depending package we need to be able to run the depended-on’s package. The depending package’s build platform is therefore equal to the depended-on package’s host platform.</p>
+</blockquote>
+<p>Right, okay. The abstract terms make it a little hard to read, but this is also kind of a trivial statement.</p>
+<blockquote>
+<p>If both the dependency and depending packages aren’t compilers or other machine-code-producing tools, we’re done.</p>
+</blockquote>
+<p>Oh, good! So <em>all</em> of the complexity with the weird integer-shifting relative offset stuff exists <em>just</em> to accommodate <code>targetPlatform</code>?</p>
+<p>That seems surprising to me. But also, maybe? I keep reading.</p>
+<blockquote>
+<p>And indeed <code>buildInputs</code> and <code>nativeBuildInputs</code> have covered these simpler build-time and run-time (respectively) changes for many years.</p>
+</blockquote>
+<p><code>nativeBuildInputs</code> is a weird term for “runtime dependencies,” but sure.</p>
+<blockquote>
+<p>But if the dependency does produce machine code, we might need to worry about its target platform too. In principle, that target platform might be any of the depending package’s build, host, or target platforms, but we prohibit dependencies from a “later” platform to an earlier platform to limit confusion because we’ve never seen a legitimate use for them.</p>
+</blockquote>
+<p>I am not familiar with the idea of “later” or “earlier” platforms. That hasn’t been explained. But I’m going to <em>guess</em> that <code>buildPlatform</code> is earlier than <code>hostPlatform</code> is earlier than <code>targetPlatform</code>.</p>
+<p>So I <em>think</em> what this is saying is: say we want to build a compiler that runs on a Mac but produces code for iOS.</p>
+<pre><code>myPhoneCompiler:
+  hostPlatform = mac
+  targetPlatform = ios
+</code></pre>
+<p>Now say it has dependencies:</p>
+<pre><code>myPhoneCompiler:
+  hostPlatform = mac
+  targetPlatform = ios
+  buildPlatform = &lt;whatever you're building it on&gt;
+  dependsOn:
+    gcc (host = &lt;parent.buildPlatform&gt;, target = mac)
+    my-assembler (host = mac, target = ios)
+</code></pre>
+<p>I <em>think</em> that what the above sentence said is that <em>this isn’t allowed</em>. My compiler can’t depend on an iOS assembler because the target platform of the assembler is “later” than the host platform? Even though it’s a runtime dependency?</p>
+<p>I feel like I’m probably not understanding this correctly, because this seems perfectly reasonable to me. Maybe it will become more clear if I keep reading…</p>
+<blockquote>
+<p>Finally, if the depending package is a compiler or other machine-code-producing tool, it might need dependencies that run at “emit time”. This is for compilers that (regrettably) insist on being built together with their source langauges' standard libraries. Assuming build != host != target, a run-time dependency of the standard library cannot be run at the compiler’s build time or run time, but only at the run time of code emitted by the compiler.</p>
+</blockquote>
+<p>That’s not… a runtime dependency, then? Man. This would be <em>so easy</em> to understand with concrete examples. I hope we get to that. Because my brain doesn’t know what to think when it hears “a runtime dependency of the standard library.” I can’t think of what that would mean, so I am unable to wrap my head around this.</p>
+<blockquote>
+<p>Putting this all together, that means we have dependencies in the form “host → target”, in at most the following six combinations:</p>
+<table>
+<thead>
+<tr>
+<th>Dependency’s host platform</th>
+<th>Dependency’s target platform</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>build</td>
+<td>build</td>
+</tr>
+<tr>
+<td>build</td>
+<td>host</td>
+</tr>
+<tr>
+<td>build</td>
+<td>target</td>
+</tr>
+<tr>
+<td>host</td>
+<td>host</td>
+</tr>
+<tr>
+<td>host</td>
+<td>target</td>
+</tr>
+<tr>
+<td>target</td>
+<td>target</td>
+</tr>
+</tbody>
+</table>
+</blockquote>
+<p>Okay. Let’s try to make these concrete. Let’s say I’m trying to make a compiler that will run on a Mac for iOS. And I want to build it on my very powerful Windows gaming computer, because my laptop is slow and ancient.</p>
+<p>So my compiler can have six different kinds of dependencies:</p>
+<table>
+<thead>
+<tr>
+<th>Dependency’s host platform</th>
+<th>Dependency’s target platform</th>
+<th>wat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>windows</td>
+<td>windows</td>
+<td>some kind of code generator or macro expander or something?</td>
+</tr>
+<tr>
+<td>windows</td>
+<td>mac</td>
+<td>a normal compiler</td>
+</tr>
+<tr>
+<td>windows</td>
+<td>ios</td>
+<td>a compiler for a library that my compiler’s executables will link against</td>
+</tr>
+<tr>
+<td>mac</td>
+<td>mac</td>
+<td>some sort of JIT compiler or something? This is a runtime dependency that for some reason has a target.</td>
+</tr>
+<tr>
+<td>mac</td>
+<td>ios</td>
+<td>this is like the assembler example above</td>
+</tr>
+<tr>
+<td>ios</td>
+<td>ios</td>
+<td>a JIT compiler that I will embed inside my iOS apps?</td>
+</tr>
+</tbody>
+</table>
+<p>Maybe? I don’t feel good about the <code>mac</code>/<code>mac</code> or <code>ios</code>/<code>ios</code> examples. I don’t know if I can abbreviate “host = target” to “there is no target it’s just a regular dependency.” I feel like “target platform” should really be an optional attribute, and this table doesn’t include the three cases were it’s <code>null</code> or whatever.</p>
+<p>Anyway, I now understand the later/earlier distinction, by observing which pairs are left out of this table: my compiler cannot depend on something that runs on a Mac and produces code for Windows, because that makes no sense. Nor something that runs on iOS and produces code for a Mac. Which like, yeah, okay, that doesn’t make sense either. Nor iOS → Windows, which makes the least sense of all.</p>
+<p>Oh! I spoke too soon. The very next paragraph:</p>
+<blockquote>
+<p>Some examples will make this table clearer.</p>
+</blockquote>
+<p>Yes! Yes it will. Let’s see:</p>
+<blockquote>
+<p>Suppose there’s some package that is being built with a <code>(build, host, target)</code> platform triple of <code>(foo, bar, baz)</code>. If it has a build-time library dependency, that would be a “host → build” dependency with a triple of <code>(foo, foo, *)</code> (the target platform is irrelevant). If it needs a compiler to be built, that would be a “build → host” dependency with a triple of <code>(foo, foo, *)</code> (the target platform is irrelevant). That compiler, would be built with another compiler, also “build → host” dependency, with a triple of <code>(foo, foo, foo)</code>.</p>
+</blockquote>
+<p><em>Gosh crystal clear</em>. Come on. That’s not… that’s not an example. Calling it <code>baz</code> instead of “target platform” really doesn’t help me. Let’s see if I can make sense of this with my concrete platforms:</p>
+<blockquote>
+<p>Suppose there’s some package that is being built with a <code>(build, host, target)</code> platform triple of <code>(windows, mac, ios)</code>. If it has a build-time library dependency, that would be a “host → build” dependency with a triple of <code>(windows, windows, *)</code> (the target platform is irrelevant). If it needs a compiler to be built, that would be a “build → host” dependency with a triple of <code>(windows, windows, *)</code> (the target platform is irrelevant). That compiler, would be built with another compiler, also “build → host” dependency, with a triple of <code>(windows, windows, windows)</code>.</p>
+</blockquote>
+<p>What does it mean by “host → build” dependency? What does it mean by “build → host”? What does that arrow mean? I think of, like, “x → y” meaning “x depends on y.” Or maybe “x is a dependency of y.” I guess that’s ambiguous. But obviously these arrows mean something else. What do they mean? I have no idea. That didn’t really… explain anything to me.</p>
+<h1 id=923-cross-packaging-cookbookhttpswebarchiveorgweb20210318102415if_httpsnixosorgmanualnixpkgsstablessec-cross-cookbook><a href=https://web.archive.org/web/20210318102415if_/https://nixos.org/manual/nixpkgs/stable/#ssec-cross-cookbook>9.2.3. Cross packaging cookbook</a></h1>
+<blockquote>
+<p>Ideally, the information above is exhaustive, so this section cannot provide any new information</p>
+</blockquote>
+<p>Ideally. <em>Ideally</em>.</p>
+<p>So this section is like a Q&amp;A? Of like common errors? Apparently there are <em>three common errors</em>:</p>
+<blockquote>
+<p>What if my package’s build system needs to build a C program to be run under the build environment?</p>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-nix data-lang=nix><span class=n>depsBuildBuild</span> <span class=err>=</span> <span class=p>[</span> <span class=n>buildPackages</span><span class=o>.</span><span class=n>stdenv</span><span class=o>.</span><span class=n>cc</span> <span class=p>];</span>
+</code></pre></div></blockquote>
+<p>I actually think I could have answered that! So yeah, you need a C compiler that runs on the your build platform and targets your build platform. Makes sense.</p>
+<blockquote>
+<p>My package fails to find <code>ar</code>.</p>
+<p>Many packages assume that an unprefixed <code>ar</code> is available, but Nix doesn’t provide one. It only provides a prefixed one, just as it only does for all the other <code>binutils</code> programs. It may be necessary to patch the package to fix the build system to use a prefixed <code>ar</code>.</p>
+</blockquote>
+<p>I am fortunate enough that I have not had to work in the C/C++ world, so I don’t know what this means. Wikipedia tells me:</p>
+<blockquote>
+<p>Today, <code>ar</code> is generally used only to create and update static library files that the link editor or linker uses and for generating .deb packages for the Debian family; it can be used to create archives for any purpose, but has been largely replaced by <code>tar</code> for purposes other than static libraries.</p>
+</blockquote>
+<p>Well, TIL. But what is a “prefixed” <code>ar</code>? Apparently this means, like <code>arm64-ar</code> or something – platform/architecture/whatever prefixed. Makes sense!</p>
+<blockquote>
+<p>My package’s testsuite needs to run host platform code.</p>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-nix data-lang=nix><span class=n>doCheck</span> <span class=err>=</span> <span class=n>stdenv</span><span class=o>.</span><span class=n>hostPlatform</span> <span class=o>==</span> <span class=n>stdenv</span><span class=o>.</span><span class=n>buildPlatfrom</span><span class=p>;</span>
+</code></pre></div></blockquote>
+<p>That seems like kind of an anti-pattern? Wouldn’t that lock you out of cross-compilation? Didn’t this chapter start by stressing how important it was to support cross-compilation? I’m surprised that this is a “cookbook recipe” and not a “please don’t do this but if you really have to recipe.”</p>
+<p>Anyway, those are the three common things that can go wrong while cross-compiling. Neat.</p>
+<h1 id=93-cross-building-packageshttpswebarchiveorgweb20210318102415if_httpsnixosorgmanualnixpkgsstablesec-cross-usage><a href=https://web.archive.org/web/20210318102415if_/https://nixos.org/manual/nixpkgs/stable/#sec-cross-usage>9.3. Cross-building packages</a></h1>
+<p>Okay, we finally learn how we can actually cross-compile things:</p>
+<blockquote>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash>nix-build <span class=s1>'&lt;nixpkgs&gt;'</span> --arg crossSystem <span class=s1>'(import &lt;nixpkgs/&gt; lib&gt;).systems.examples.fooBarBaz'</span> -A whatever
+</code></pre></div></blockquote>
+<p>What on earth is <code>import &lt;nixpkgs/&gt; lib&gt;</code>? Is that… that’s gotta be a typo or an escape problem, right? What… huh?</p>
+<p>Let’s try it out! Let’s see if I can build a package on my Linux machine for Mac and then copy the binary over to my Mac.</p>
+<p>So… how do I do that? There is no <code>lib.systems.examples.x86_64-darwin</code>. So how do I… huh. It seems like all of the <code>examples</code> are things that you would usually cross-compile to: iOS, Raspberry PI, etc. Maybe I can just pass <code>{ config = "x86_64-apple-darwin"; }</code>? Let’s try it.</p>
+<pre tabindex=0><code>claudius $ nix-build '&lt;nixpkgs&gt;' --arg crossSystem '{ config = "x86_64-apple-darwin"; }' -A hello
+error: Package ‘Xcode.app’ in /nix/store/f40pgpk3q4xyf8v6jps7b2pvyffzi2gz-nixpkgs-21.05pre280331.54c1e44240d/nixpkgs/pkgs/os-specific/darwin/xcode/default.nix:36 has an unfree license (‘unfree’), refusing to evaluate.
+
+a) To temporarily allow unfree packages, you can use an environment variable
+   for a single invocation of the nix tools.
+
+     $ export NIXPKGS_ALLOW_UNFREE=1
+
+b) For `nixos-rebuild` you can set
+  { nixpkgs.config.allowUnfree = true; }
+in configuration.nix to override this.
+
+Alternatively you can configure a predicate to allow specific packages:
+  { nixpkgs.config.allowUnfreePredicate = pkg: builtins.elem (lib.getName pkg) [
+      "Xcode.app"
+    ];
+  }
+
+c) For `nix-env`, `nix-build`, `nix-shell` or any other Nix command you can add
+  { allowUnfree = true; }
+to ~/.config/nixpkgs/config.nix.
+
+(use '--show-trace' to show detailed location information)
+</code></pre><p>Ha! Cool! I mean, yeah, there’s no way that’s gonna <em>work</em>. Can’t install Xcode on a Linux computer. I should just do this the other way around, and build a Linux package on my Mac. I didn’t want to do that because I didn’t want to compile GCC on my laptop, as I’ve done it before and remember it taking about 10 hours. (In addition to being gross and weird, the <code>targetPlatform</code> thing also wastes electricity.)</p>
+<p>But sure; who knows; let’s give it a shot:</p>
+<pre tabindex=0><code>claudius $ NIXPKGS_ALLOW_UNFREE=1 nix-build '&lt;nixpkgs&gt;' --arg crossSystem '{ config = "x86_64-apple-darwin"; }' -A hello
+error: infinite recursion encountered, at undefined position
+(use '--show-trace' to show detailed location information)
+</code></pre><p>Unexpected. But alright. Why not?</p>
+<pre tabindex=0><code>claudius $ NIXPKGS_ALLOW_UNFREE=1 nix-build '&lt;nixpkgs&gt;' --arg crossSystem '{ config = "x86_64-apple-darwin"; }' -A hello --show-trace
+error: while evaluating the attribute 'stdenv' of the derivation 'hello-2.10-x86_64-apple-darwin' at /nix/store/f40pgpk3q4xyf8v6jps7b2pvyffzi2gz-nixpkgs-21.05pre280331.54c1e44240d/nixpkgs/pkgs/stdenv/generic/make-derivation.nix:203:11:
+while evaluating the attribute 'defaultNativeBuildInputs' of the derivation 'stdenv-linux' at /nix/store/f40pgpk3q4xyf8v6jps7b2pvyffzi2gz-nixpkgs-21.05pre280331.54c1e44240d/nixpkgs/pkgs/stdenv/generic/default.nix:88:14:
+while evaluating the attribute 'depsTargetTargetPropagated' of the derivation 'x86_64-apple-darwin-clang-wrapper-7.1.0' at /nix/store/f40pgpk3q4xyf8v6jps7b2pvyffzi2gz-nixpkgs-21.05pre280331.54c1e44240d/nixpkgs/pkgs/stdenv/generic/make-derivation.nix:197:11:
+while evaluating the attribute 'buildInputs' of the derivation 'compiler-rt-7.1.0-x86_64-apple-darwin' at /nix/store/f40pgpk3q4xyf8v6jps7b2pvyffzi2gz-nixpkgs-21.05pre280331.54c1e44240d/nixpkgs/pkgs/stdenv/generic/make-derivation.nix:203:11:
+while evaluating the attribute 'stdenv' of the derivation 'libc++abi-7.1.0-x86_64-apple-darwin' at /nix/store/f40pgpk3q4xyf8v6jps7b2pvyffzi2gz-nixpkgs-21.05pre280331.54c1e44240d/nixpkgs/pkgs/stdenv/generic/make-derivation.nix:203:11:
+infinite recursion encountered, at undefined position
+</code></pre><p>Shrug. Let’s give my laptop a shot:</p>
+<pre tabindex=0><code>$ nix-build '&lt;nixpkgs&gt;' --arg crossSystem '{ config = "x86_64-unknown-linux"; }' -A hello
+error: Target specification with 3 components is ambiguous
+(use '--show-trace' to show detailed location information)
+</code></pre><p>Fair enough.</p>
+<pre tabindex=0><code>$ nix-build '&lt;nixpkgs&gt;' --arg crossSystem '{ config = "x86_64-unknown-linux-gnu"; }' -A hello
+these derivations will be built:
+  /nix/store/p1cjqks77sbhkcd934an3shabh001pj8-stdenv-darwin.drv
+  /nix/store/30z82c835dj5ln8g9992aqpcqp5camxg-linux-headers-5.11.drv
+  /nix/store/50lxj3ijcm59mhhcf3r39izjq1zw209g-x86_64-unknown-linux-gnu-binutils-2.35.1.drv
+  /nix/store/mkwymmlf1qgwggygszvgzyprwln3nfaz-x86_64-unknown-linux-gnu-binutils-wrapper-2.35.1.drv
+  /nix/store/ln9s87mq6qqrvl5a4cj3pik2i0svnx39-x86_64-unknown-linux-gnu-stage-static-gcc-debug-10.2.0.drv
+  /nix/store/s8sqjgbzp5hg8kniwrgnxx5w83rgs29k-x86_64-unknown-linux-gnu-stage-static-gcc-debug-wrapper-10.2.0.drv
+  /nix/store/fvrqy4wyvk3b6y8g4n85c8imm47h1ynd-stdenv-darwin.drv
+  /nix/store/b3zywbj7zxfg5726a320vl83z60phx4n-glibc-2.32-37-x86_64-unknown-linux-gnu.drv
+  /nix/store/vi3b33dq1rsj2izjgrrq23738klb931k-x86_64-unknown-linux-gnu-binutils-wrapper-2.35.1.drv
+  /nix/store/364fiav2wd8znpz1l0jl9lh7i2nnizhi-x86_64-unknown-linux-gnu-stage-final-gcc-debug-10.2.0.drv
+  /nix/store/nyhnb22b6m27bwv3sl9pylxxsg8ammih-x86_64-unknown-linux-gnu-stage-final-gcc-debug-wrapper-10.2.0.drv
+  /nix/store/ms6r0lrhsmghn6g82104hz1pkwidm7ny-stdenv-darwin.drv
+  /nix/store/dq7ivx09wggf7cvq2d07n96gharpfg18-hello-2.10-x86_64-unknown-linux-gnu.drv
+these paths will be fetched (166.17 MiB download, 191.06 MiB unpacked):
+  /nix/store/3h286a44qp6ayn239bkc6ad3c5bax852-texinfo-6.7
+  /nix/store/3l70d7kcfsh91w6792h4fqs4kjbq17py-glibc-reinstate-prlimit64-fallback.patch?id=eab07e78b691ae7866267fc04d31c7c3ad6b0eeb
+  /nix/store/3x7dwzq014bblazs7kq20p9hyzz0qh8g-hello-2.10.tar.gz
+  /nix/store/4vnfkpaj1vwaiahhqgwn7cgn04l79lxz-which-2.21
+  /nix/store/58i8n9c7h1fas60yjx57f01bdzkdvqkn-linux-5.11.tar.xz
+  /nix/store/5df8r14rlh97pka1zd33jqxsmcpm5fzx-libelf-0.8.13
+  /nix/store/73xby7vcy20l0k7m0044ah73sa08kwjp-python3-minimal-3.8.8
+  /nix/store/d4lh03b725krh9f398aqqmym17v017jv-binutils-2.35.1.tar.bz2
+  /nix/store/fn7kd6112rx1i8fg53r9mblayxsvkqzy-libmpc-1.2.0
+  /nix/store/izpqgk9aahvp7v6mn96f3n7q3fimdywy-mpfr-4.1.0
+  /nix/store/mxmzc9azimdwzyjbk61zan1ny5nkx8l6-expand-response-params
+  /nix/store/nqa9d4yxz1l2cgswzqr1pkm4jfrksm0q-locale-C.diff
+  /nix/store/pnidiw0hllhclkkmqsymvgf7bz75w2kx-mpfr-4.1.0-dev
+  /nix/store/xpiqxz99cghxbb996i10js3byaifzqdp-patchelf-0.12
+  /nix/store/yl0acs9vzng0cd4qfdcgb3zpwjm034nw-glibc-2.32.tar.xz
+...
+</code></pre><p>So this is interesting. The packages with their prefixed names are not in the binary cache, so we’ve got to build all of them. And that’s gonna take.. some time. But apparently a macOS version of <code>patchelf</code> is in the cache, so we can just fetch that.</p>
+<p>Anyway, it’s compiling GCC now, so I should go get a power cord. In the meantime… let’s keep reading.</p>
+<p>Oh! Ha. Okay. The very next part says, basically, “note that it would be nice if you could just say <code>'{ config = "&lt;arch&gt;-&lt;os&gt;-&lt;vendor&gt;-&lt;abi&gt;"; }'</code> and not have to use the <code>examples</code> set, but there are ambiguities sometimes so what are we gonna do.” Well, it seems to be working well for these very common platforms? So far, at least.</p>
+<p>Okay, now we get to something interesting.</p>
+<blockquote>
+<p>One would think that <code>localSystem</code> and <code>crossSystem</code> overlap horribly with the three <code>*Platforms</code> (<code>buildPlatform</code>, <code>hostPlatform</code>, and <code>targetPlatform</code>; see <code>stage.nix</code> or the manual).</p>
+</blockquote>
+<p>These seem like very different things to me. The <code>*Platform</code>s exist for individual derivations. <code>localSystem</code> and <code>crossSystem</code> exist for all of Nixpkgs. But sure? They are, like, both platforms. Or systems? Okay, yeah, the terminology is confusing.</p>
+<blockquote>
+<p>Actually, those identifiers are purposefully not used here to draw a subtle but important distinction: While the granularity of having 3 platforms is necessary to properly *build* packages, it is overkill for specifying the user’s *intent* when making a build plan or package set.</p>
+</blockquote>
+<p>Yeah, exactly. Also interesting to see what looks like some un-interpreted markdown? I don’t know what format these docs are written in. But I guess not markdown.</p>
+<blockquote>
+<p>A simple “build vs deploy” dichotomy is adequate: the sliding window principle described in the previous section shows how to interpolate between the these two “end points” to get the 3 platform triple for each bootstrapping stage.</p>
+</blockquote>
+<p>What sliding window principle? I think this is stale. The previous section had no such description. None of the previous sections did.</p>
+<h1 id=94-cross-compilation-infrastructurehttpswebarchiveorgweb20210318102415if_httpsnixosorgmanualnixpkgsstablesec-cross-infra><a href=https://web.archive.org/web/20210318102415if_/https://nixos.org/manual/nixpkgs/stable/#sec-cross-infra>9.4. Cross-compilation infrastructure</a></h1>
+<blockquote>
+<p>The categorizes of dependencies developed in Section 9.2.2, “Theory of dependency categorization” are specified as lists of derivations given to <code>mkDerivation</code>, as documented in Section 6.3, “Specifying dependencies”. In short, each list of dependencies for “host → target” of “foo → bar” is called <code>depsFooBar</code>, with exceptions for backwards compatibility that <code>depsBuildHost</code> is instead called <code>nativeBuildInputs</code> and <code>depsHostTarget</code> is instead called <code>buildInputs</code>. Nixpkgs is now structured so that each <code>depsFooBar</code> is automatically taken from <code>pkgsFooBar</code>. (These <code>pkgsFooBars</code> are quite new, so there is no special case for <code>nativeBuildInputs</code> and <code>buildInputs</code>.) For example, <code>pkgsBuildHost.gcc</code> should be used at build-time, while <code>pkgsHostTarget.gcc</code> should be used at run-time.</p>
+</blockquote>
+<p>This is the first I’m hearing of <code>pkgs*</code>. I think of <code>pkgs</code> as an abbreviation for the expression <code>import &lt;nixpkgs&gt; {}</code>. Are these… also attributes? On a derivation? Let’s keep going.</p>
+<blockquote>
+<p>Now, for most of Nixpkgs’s history, there were no <code>pkgsFooBar</code> attributes, and most packages have not been refactored to use it explicitly. Prior to those, there were just <code>buildPackages</code>, <code>pkgs</code>, and <code>targetPackages</code>. Those are now redefined as aliases to <code>pkgsBuildHost</code>, <code>pkgsHostTarget</code>, and <code>pkgsTargetTarget</code>. It is acceptable, even recommended, to use them for libraries to show that the host platform is irrelevant.</p>
+</blockquote>
+<p>Again, what are we talking about here? What is <code>pkgsFooBar</code>? This is written as the manual had already discussed these attributes, but it hasn’t.</p>
+<blockquote>
+<p>But before that, there was just <code>pkgs</code>, even though both <code>buildInputs</code> and <code>nativeBuildInputs</code> existed. [Cross barely worked, and those were implemented with some hacks on <code>mkDerivation</code> to override dependencies.] What this means is the vast majority of packages do not use any explicit package set to populate their dependencies, just using whatever <code>callPackage</code> gives them even if they do correctly sort their dependencies into the multiple lists described above. And indeed, asking that users both sort their dependencies, <em>and</em> take them from the right attribute set, is both too onerous and redundant, so the recommended approach (for now) is to continue just categorizing by list and not using an explicit package set.</p>
+</blockquote>
+<p>Ahhhh. I see. So this is describing an alternative way to specify dependencies: <code>callPackage</code> is apparently going to pass my derivation an argument called <code>pkgs</code>, and it’s also going to pass an argument called <code>pkgsBuildHost</code>, and I can reference packages in those sets instead of listing them as <code>depsBuildHost</code> (or in addition??). I don’t know.</p>
+<blockquote>
+<p>To make this work, we “splice” together the six <code>pkgsFooBar</code> package sets and have <code>callPackage</code> actually take its arguments from that. This is currently implemented in <code>pkgs/top-level/splice.nix</code>. <code>mkDerivation</code> then, for each dependency attribute, pulls the right derivation out from the splice. This splicing can be skipped when not cross-compiling as the package sets are the same, but still is a bit slow for cross-compiling. We’d like to do something better, but haven’t come up with anything yet.</p>
+</blockquote>
+<p>Huh. Okay. Hmm.</p>
+<h1 id=942-bootstrappinghttpswebarchiveorgweb20210318102415if_httpsnixosorgmanualnixpkgsstablessec-bootstrapping><a href=https://web.archive.org/web/20210318102415if_/https://nixos.org/manual/nixpkgs/stable/#ssec-bootstrapping>9.4.2. Bootstrapping</a></h1>
+<blockquote>
+<p>Each of the package sets described above come from a single bootstrapping stage. While <code>pkgs/top-level/default.nix</code>, coordinates the composition of stages at a high level, <code>pkgs/top-level/stage.nix</code> “ties the knot” (creates the fixed point) of each stage. The package sets are defined per-stage however, so they can be thought of as edges between stages (the nodes) in a graph. Compositions like <code>pkgsBuildTarget.targetPackages</code> can be thought of as paths to this graph.</p>
+</blockquote>
+<p>Umm.</p>
+<blockquote>
+<p>While there are many package sets, and thus many edges, the stages can also be arranged in a linear chain. In other words, many of the edges are redundant as far as connectivity is concerned. This hinges on the type of bootstrapping we do. Currently for cross it is:</p>
+<ol>
+<li><code>(native, native, native)</code></li>
+<li><code>(native, native, foreign)</code></li>
+<li><code>(native, foreign, foreign)</code></li>
+</ol>
+</blockquote>
+<p>I don’t know, friends. I don’t know what this is trying to tell me. I am reading the words, but no information is coming out.</p>
+<blockquote>
+<p>In each stage, <code>pkgsBuildHost</code> refers to the previous stage, <code>pkgsBuildBuild</code> refers to the one before that, and <code>pkgsHostTarget</code> refers to the current one, and <code>pkgsTargetTarget</code> refers to the next one. When there is no previous or next stage, they instead refer to the current stage. Note how all the invariants regarding the mapping between dependency and depending packages' build host and target platforms are preserved. <code>pkgsBuildTarget</code> and <code>pkgsHostHost</code> are more complex in that the stage fitting the requirements isn’t always a fixed chain of “prevs” and “nexts” away (modulo the “saturating” self-references at the ends). We just special case each instead. All the primary edges are implemented is in <code>pkgs/stdenv/booter.nix</code>, and secondarily aliases in <code>pkgs/top-level/stage.nix</code>.</p>
+</blockquote>
+<p>Look, I can appreciate that this is a very difficult problem to solve and a lot of effort was put into solving it. This feels like one of those cases where someone spent weeks getting really deep into something and when they finally came up for air they sort of forgot how to talk to people who did <em>not</em> spend weeks implementing cross-compilation. Does the casual Nix user understand this description? Should they?</p>
+<blockquote>
+<p>If one looks at the 3 platform triples, one can see that they overlap such that one could put them together into a chain like:</p>
+<p><code>(native, native, native, foreign, foreign)</code></p>
+<p>If one imagines the saturating self references at the end being replaced with infinite stages, and then overlays those platform triples, one ends up with the infinite tuple:</p>
+<p><code>(native..., native, native, native, foreign, foreign, foreign...)</code></p>
+<p>On can then imagine any sequence of platforms such that there are bootstrap stages with their 3 platforms determined by “sliding a window” that is the 3 tuple through the sequence. This was the original model for bootstrapping. Without a target platform (assume a better world where all compilers are multi-target and all standard libraries are built in their own derivation), this is sufficient. Conversely if one wishes to cross compile “faster”, with a “Canadian Cross” bootstraping stage where build != host != target, more bootstrapping stages are needed since no sliding window providess the pesky <code>pkgsBuildTarget</code> package set since it skips the Canadian cross stage’s “host”.</p>
+</blockquote>
+<p>Ah yes. The Canadian Cross. A normal term that the average person is familiar with.</p>
+<p>Apparently this is a normal term in compiler terms, but as someone who has not worked in compilers, I had never heard of it. I looked it up. Yeah, it’s the three-platform case.</p>
+<p>Anyway – I guess these sections got re-ordered? Such that the sliding window thing is now described after the section that references it. Okay. And the paragraph that references the “saturation” is also before the paragraph introducing that concept. Okay.</p>
+<p>I still have no idea what’s going on; I have completely lost sight of the problem we’re trying to solve and the solution that apparently solves it.</p>
+<p>There is a large, multi-paragraph “note” that follows this. It begins this way:</p>
+<blockquote>
+<p>It is much better to refer to <code>buildPackages</code> than <code>targetPackages</code>, or more broadly package sets that do not mention “target”. There are three reasons for this.</p>
+</blockquote>
+<p>And then it describes the reasons. And look: I don’t understand the reasons. I can add no valuable commentary here. The reasons talk about bootstrapping stages and infinite reference cycles; one of the reasons appears to be truncated – the sentence just ends, without punctuation, and without, as far as I can tell, a complete thought. I cannot make sense of this note.</p>
+<p>I will not try too hard.</p>
+<p>I feel like this is written… not for the consumption of the average Nix user. Either that or the average Nix user knows a <em>lot more</em> about cross-compilation than I do.</p>
+<p>I really wish that the manual spent more time explaining, like, the small subset of all of this that I need to know in order to <em>write</em> packages. Explain what I should be doing, and explain why. And then save the dependency resolution algorithm in a separate, like, I dunno, design document or something.</p>
+<p>It occurs to me that all of this explanation <em>might</em> be confusing because Nix has not found the right way to model this problem. But I think that’s probably wrong: I expect that this is actually just an incredibly hard problem and there is no solution that is going to make it natural to someone who does not understand the problem and who has not spent a lot of time thinking about the problem.</p>
+<p>But like, the whole <code>targetPlatform</code> thing feels like such a weird hack and I feel like there’s got to be some kind of representation of that triple that makes sense for compilers and for not-compilers that doesn’t require us to specify a field for every package that is only meaningful for some of them? A definition of <code>targetPlatform</code> that makes sense regardless of whether or not you are generating code?</p>
+<p>I don’t know. I’m rambling. The cross-compilation chapter is over. I don’t really feel like I understand cross-compilation any better. But now I know about <code>crossSystem</code>? That’s kind of nice? I’m happy to know about that.</p>
+<p>Oh hey! My build just finished. Great timing.</p>
+<pre tabindex=0><code>$ file /nix/store/w4y584y6iam5j2la6br1qkk48vn0d453-hello-2.10-x86_64-unknown-linux-gnu/bin/hello
+/nix/store/w4y584y6iam5j2la6br1qkk48vn0d453-hello-2.10-x86_64-unknown-linux-gnu/bin/hello:
+ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /nix/store/c3bkb04jbbwm983xl0r8r6ixl171ldk9-glibc-2.32-37-x86_64-unknown-linux-gnu/lib/ld-linux-x86-64.so.2, for GNU/Linux 2.6.32, not stripped
+</code></pre><p>Alright. So can I copy that executable? <em>Probably not</em>. It is dynamically linked. But I dunno. Maybe?</p>
+<p>Where can I get <code>ldd</code> on macOS? It’s not in <code>coretuils</code> or <code>binutils</code> or <code>gcc</code> or anything I can think of. I have to copy it to my NixOS box just to see what’s happening:</p>
+<pre tabindex=0><code>claudius $ ldd hello
+linux-vdso.so.1 (0x00007ffe1d3ad000)
+libc.so.6 =&gt; /nix/store/z0b60y0khix9jb74ka56gw7b7n9s8awx-glibc-2.26-131/lib/libc.so.6 (0x00007f08f1a70000)
+/nix/store/c3bkb04jbbwm983xl0r8r6ixl171ldk9-glibc-2.32-37-x86_64-unknown-linux-gnu/lib/ld-linux-x86-64.so.2 =&gt; /nix/store/z0b60y0khix9jb74ka56gw7b7n9s8awx-glibc-2.26-131/lib64/ld-linux-x86-64.so.2 (0x00007f08f1e22000)
+</code></pre><p>I assume I can’t just run this. But I’ll try?</p>
+<pre tabindex=0><code>claudius $ ./hello
+zsh: no such file or directory: ./hello
+
+claudius $ file ./hello
+./hello: ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /nix/store/c3bkb04jbbwm983xl0r8r6ixl171ldk9-glibc-2.32-37-x86_64-unknown-linux-gnu/lib/ld-linux-x86-64.so.2, for GNU/Linux 2.6.32, not stripped
+</code></pre><p>Very weird. Very weird. It most certainly <em>is</em> a file. It is also most certainly executable. Why is <code>zsh</code> giving me an error here?</p>
+<pre tabindex=0><code>claudius $ strace -f ./hello
+execve("./hello", ["./hello"], 0x7ffedf6142f8 /* 44 vars */) = -1 ENOENT (No such file or directory)
+strace: exec: No such file or directory
++++ exited with 1 +++
+</code></pre><p>What?</p>
+<pre tabindex=0><code>claudius $ strace -f ~/scratch/hello
+execve("/home/ian/scratch/hello", ["/home/ian/scratch/hello"], 0x7fffd6f9b788 /* 44 vars */) = -1 ENOENT (No such file or directory)
+strace: exec: No such file or directory
++++ exited with 1 +++
+</code></pre><p>So I’m <em>guessing</em> that this is just a horrible Linux error, because of course the file <em>does</em> exist, but it’s missing some dependency or something and it’s manifesting with this terrible error because, you know, all it can do is give me an error number. It can’t tell me what file is actually missing. So <code>zsh</code> assumes it’s the only file it knows about. Ugh.</p>
+<p>Anyway, I didn’t really expect to be able to do this. I believe I should have to use <code>nix copy</code> to transfer the file with all of its dependencies. Let’s try it?</p>
+<pre tabindex=0><code>$ nix copy --to ssh://claudius /nix/store/w4y584y6iam5j2la6br1qkk48vn0d453-hello-2.10-x86_64-unknown-linux-gnu/bin/hello
+[1/0/2 copied (1.9/28.4 MiB)] copying path '/nix/store/c3bkb04jbbwm983xl0r8r6ierror:
+cannot add path '/nix/store/c3bkb04jbbwm983xl0r8r6ixl171ldk9-glibc-2.32-37-x86_64-unknown-linux-gnu'
+because it lacks a valid signature
+[0 copied (2.0 MiB)]
+error: writing to file: Broken pipe
+</code></pre><p><em>Sigh</em>. Same error from <code>nix-copy-closure</code>.</p>
+<pre tabindex=0><code>$ nix-store --export /nix/store/w4y584y6iam5j2la6br1qkk48vn0d453-hello-2.10-x86_64-unknown-linux-gnu/bin/hello | ssh claudius 'nix-store --import'
+error: cannot add path '/nix/store/w4y584y6iam5j2la6br1qkk48vn0d453-hello-2.10-x86_64-unknown-linux-gnu'
+because it lacks a valid signature
+</code></pre><p>There’s no fooling them.</p>
+<p>I don’t really remember anything about… signatures. But I do remember something about <em>generating</em> signatures? Or something?</p>
+<p>I search through my diary. I find, in <a href=https://ianthehenry.com/posts/how-to-learn-nix/advanced-topics/>part 15</a>, a single unexplained snippet that I quoted from the manual:</p>
+<blockquote>
+<pre><code>nix sign-paths --key-file /etc/nix/key.private $OUT_PATHS
+</code></pre>
+</blockquote>
+<p>And <a href=https://ianthehenry.com/posts/how-to-learn-nix/command-reference/>part 16</a> contained a passing reference to <code>nix-store --generate-binary-cache-key</code>. It implies this is for, you know, binary caches. But maybe it’s the same mechanism? I would expect that.</p>
+<p>But I don’t know how to specify valid public keys on my remote server.</p>
+<p>I look up <code>man nix.conf</code>. Here’s the relevant stuff:</p>
+<pre tabindex=0><code>require-sigs
+  If set to true (the default), any non-content-addressed path added or copied
+  to the Nix store (e.g. when substituting from a binary cache) must have a
+  valid signature, that is, be signed using one of the keys listed in
+  trusted-public-keys or secret-key-files. Set to false to disable signature
+  checking.
+
+secret-key-files
+  A whitespace-separated list of files containing secret (private) keys. These are used to sign locally-built paths. They can be generated using nix-store --generate-binary-cache-key. The corresponding public key can be distributed to other users, who can add it to trusted-public-keys in their nix.conf.
+
+trusted-public-keys
+  A whitespace-separated list of public keys. When paths are copied from
+  another Nix store (such as a binary cache), they must be signed with one of
+  these keys. For example:
+  cache.nixos.org-1:6NCHdD59X431o0gWypbMrAURkbJ16ZPMQFGspcDShjY= 
+  hydra.nixos.org-1:CNHJZBh9K4tP3EKF6FkkgeVYsS3ohTl+oS0Qa8bezVs=.
+</code></pre><p>Okay. So theoretically I can add <code>trusted-public-keys</code> to my server. Except…</p>
+<p>My server is NixOS. My <code>/etc/nix/nix.conf</code> begins with the lines:</p>
+<pre><code># WARNING: this file is generated from the nix.* options in
+# your NixOS configuration, typically
+# /etc/nixos/configuration.nix.  Do not edit it!
+</code></pre>
+<p>Okay, sure. So I can just add something to my <code>configuration.nix</code>:</p>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-nix data-lang=nix><span class=n>nix</span><span class=o>.</span><span class=n>trusted-public-keys</span> <span class=err>=</span> <span class=p>[</span> <span class=s2>"cache.nixos.org-1:6NCHdD59X431o0gWypbMrAURkbJ16ZPMQFGspcDShjY="</span> <span class=s2>"mbp:XOc406wjeYvKOOBZ7oCtyPHBPOgNhDIRvx5GU47WLC0="</span> <span class=p>];</span>
+</code></pre></div><p>But this <em>doesn’t work:</em></p>
+<pre tabindex=0><code>claudius $ sudo nixos-rebuild switch
+error: The option `nix.trusted-public-keys' defined in `/etc/nixos/configuration.nix' does not exist.
+</code></pre><p>Hmmm. I can’t find <em>any</em> documentation that describes what the translation from Nix attributes to config names is. I searched. I googled. There is no documentation in the NixOS manual for how to configure your <code>nix.conf</code>. Which seems crazy to me.</p>
+<p>I’m going to guess that it expects a <code>camelCase</code> key, for some reason? Just to be confusing?</p>
+<pre tabindex=0><code>claudius $ sudo nixos-rebuild switch
+error: The option `nix.trustedPublicKeys' defined in `/etc/nixos/configuration.nix' does not exist.
+</code></pre><p>I guess I would have been more annoyed if that had worked.</p>
+<p>Ah, it’s in <code>man configuration.nix</code>. I should’ve looked there sooner. And sadly, it’s this:</p>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-nix data-lang=nix><span class=n>nix</span><span class=o>.</span><span class=n>binaryCachePublicKeys</span> <span class=err>=</span> <span class=p>[</span> <span class=s2>"cache.nixos.org-1:6NCHdD59X431o0gWypbMrAURkbJ16ZPMQFGspcDShjY="</span> <span class=s2>"mbp:XOc406wjeYvKOOBZ7oCtyPHBPOgNhDIRvx5GU47WLC0="</span> <span class=p>];</span>
+</code></pre></div><p>Sigh. I want to emphasize this excerpt from <code>man nix.conf</code>:</p>
+<pre tabindex=0><code>binary-cache-public-keys
+  Deprecated: binary-cache-public-keys is now an alias to trusted-public-keys.
+</code></pre><p>But NixOS, it seems, did not get the same treatment. But it <em>generated</em> the key <code>trusted-public-keys</code> in <code>nix.conf</code> – so someone updated the value without updating the attribute name. Heavy sigh.</p>
+<p>Anyway, I finally managed to add a single line to my <code>nix.conf</code>. And now, on my laptop:</p>
+<pre tabindex=0><code>$ nix sign-paths --key-file secret /nix/store/w4y584y6iam5j2la6br1qkk48vn0d453-hello-2.10-x86_64-unknown-linux-gnu/bin/hello 
+
+$ nix copy --to ssh://claudius /nix/store/w4y584y6iam5j2la6br1qkk48vn0d453-hello-2.10-x86_64-unknown-linux-gnu/bin/hello
+[1/0/2 copied (2.1/28.4 MiB)] copying path '/nix/store/c3bkb04jbbwm983xl0r8r6ierror: cannot add path '/nix/store/c3bkb04jbbwm983xl0r8r6ixl171ldk9-glibc-2.32-37-x86_64-unknown-linux-gnu' because it lacks a valid signature
+[0 copied (2.1 MiB)]
+error: writing to file: Broken pipe
+</code></pre><p>Womp womp. It seems <code>nix sign-paths</code> does not sign the closure of the path?</p>
+<pre tabindex=0><code>$ nix sign-paths --recursive --key-file secret /nix/store/w4y584y6iam5j2la6br1qkk48vn0d453-hello-2.10-x86_64-unknown-linux-gnu/bin/hello
+
+$ nix copy --to ssh://claudius /nix/store/w4y584y6iam5j2la6br1qkk48vn0d453-hello-2.10-x86_64-unknown-linux-gnu/bin/hello
+[2 copied (28.4 MiB)]
+</code></pre><p>I guess that kinda makes sense.</p>
+<p><em>Anyway</em>. Now I can finally run my cross-compiled package:</p>
+<pre tabindex=0><code>claudius $ /nix/store/w4y584y6iam5j2la6br1qkk48vn0d453-hello-2.10-x86_64-unknown-linux-gnu/bin/hello
+Inconsistency detected by ld.so: get-dynamic-info.h: 146: elf_get_dynamic_info: Assertion `info[DT_RUNPATH] == NULL' failed!
+</code></pre><p>Hahaha. Well, we tried. We tried cross-compiling. It did not go great. In keeping with the theme of the chapter, I suppose.</p>
+<p>Maybe I didn’t cross-compile properly? I did just say <code>{ config = "x86_64-unknown-linux-gnu"; }</code>. I could be more specific…</p>
+<pre tabindex=0><code>$ nix-build '&lt;nixpkgs&gt;' --arg crossSystem '{config = "x86_64-unknown-linux-gnu"; libc = "glibc"; linux-kernel = { autoModules = true; baseConfig = "defconfig"; name = "pc"; target = "bzImage"; }; linuxArch = "x86_64"; parsed = { _type = "system"; abi = { _type = "abi"; name = "gnu"; }; cpu = { _type = "cpu-type"; arch = "x86-64"; bits = 64; family = "x86"; name = "x86_64"; significantByte = { _type = "significant-byte"; name = "littleEndian"; }; }; kernel = { _type = "kernel"; execFormat = { _type = "exec-format"; name = "elf"; }; name = "linux"; }; vendor = { _type = "vendor"; name = "unknown"; }; }; qemuArch = "x86_64"; sse3Support = false; sse4_1Support = false; sse4_2Support = false; sse4_aSupport = false; ssse3Support = false; system = "x86_64-linux"; uname = { processor = "x86_64"; release = null; system = "Linux"; }; }' -A hello
+these derivations will be built:
+...
+</code></pre><p>Let’s try that? It is recompiling a <em>lot</em> of stuff. Which kind of surprises me. But it seems like a good sign? I don’t know what in that set it was <em>not</em> defaulting to, though. Did it not assume <code>libc = "glibc"</code>? I don’t know.</p>
+<p>Hmm. I thought this would be done a lot quicker. Like, I already have the right <code>gcc</code>, don’t I? It’s not rebuilding <em>everything?</em> I hope?</p>
+<p>(It seems to be rebuilding everything.)</p>
+<p>The next morning: it failed?</p>
+<pre tabindex=0><code>cycle detected in the references of '/nix/store/fxpb3ia4hd0qx51qqmw9kgpb3sw36q2m-x86_64-unknown-linux-gnu-stage-final-gcc-debug-10.2.0' from '/nix/store/rs9v4cryx7j8lv8fj6ym0da637kp5s1g-x86_64-unknown-linux-gnu-stage-final-gcc-debug-10.2.0-lib'
+cannot build derivation '/nix/store/mrgaa3w6nvwy8c8jhsbm30fzw61rqz2c-x86_64-unknown-linux-gnu-stage-final-gcc-debug-wrapper-10.2.0.drv': 1 dependencies couldn't be built
+cannot build derivation '/nix/store/zaw6nq0lyl9cmc68sdm7kpn2cljb3c0w-stdenv-darwin.drv': 1 dependencies couldn't be built
+cannot build derivation '/nix/store/wfld8hma7a2cr8h6v9i57qrz1zsnh0kw-hello-2.10-x86_64-unknown-linux-gnu.drv': 1 dependencies couldn't be built
+</code></pre><p>Umm hmm. I check the cookbook: no; this is not one of the three things that is supposed to go wrong.</p>
+<p>Well. Okay. I guess… I guess that this doesn’t work. Not even a little bit.</p>
+<p>I should give up now, but I press on, and find a relevant issue:</p>
+<p><a href=https://github.com/NixOS/nixpkgs/issues/88213>https://github.com/NixOS/nixpkgs/issues/88213</a></p>
+<p>It <em>claims</em> to be fixed months ago. It seems I’ve hit both of the issues described in that thread: it’s possible that my original attempt at cross-compilation <em>was</em> valid, modulo the CoreFoundation issue, and that my second attempt for some reason brought back the cyclic reference issue that is supposed to be fixed.</p>
+<p>So I’m not sure.</p>
+<p>I see this (currently) open PR:</p>
+<p><a href=https://github.com/NixOS/nixpkgs/pull/103517>https://github.com/NixOS/nixpkgs/pull/103517</a></p>
+<p>Which seems to fix the <code>info[DT_RUNPATH] == NULL</code> assertion error. But it has been open for five months, with no activity in the last three.</p>
+<p><em>Anyway</em> my overall impression here is that cross-compilation is not… quite… ready for prime time. I get the sense that this is a brave new world and I have inadvertently stepped into a work in progress. I will now gracefully step out, and try again in a few months.</p>
+<hr>
+<ul>
+<li>Why is there a <code>stdenv.targetPlatform</code>? What does that mean?</li>
+<li>How can I get <code>ldd</code> on my macOS box?</li>
+<li>Why did Nix try to install Xcode to build <code>hello</code> for macOS?</li>
+</ul></div>
+</article>
+<div class=post-footer>
+<a href="mailto:ianthehenry@gmail.com?subject=let%27s%20talk%20about%20%22Cross-compilation%22&amp;body=First%20of%20all,%20I%20just%20wanted%20to%20say%20that%20I%20forgive%20you%20for%20not%20having%20a%20real%20comment%20system%20on%20your%20site.">comment on this post</a><a href=https://ianthehenry.com/posts/how-to-learn-nix/platform-notes/>Next up ➜ Platform notes</a></div>
+<aside class=series-rider>
+<p>
+This post is part of the series <a class=series-name href=https://ianthehenry.com/posts/how-to-learn-nix/>How to Learn Nix</a>.
+You can
+<a target=_blank href=https://ianthehenry.com/feed.xml>subscribe to my RSS feed</a>
+or
+<a target=_blank href=https://twitter.com/ianthehenry>follow me on Twitter</a>
+for more, or <a href=https://ianthehenry.com/posts/>peruse my back catalog</a> if you're in the mood for something different.
+<div class=subsection-header>Opening remarks</div><ol start=1 class=post-list><li><a href=https://ianthehenry.com/posts/how-to-learn-nix/introduction/>What's all this about?</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/prior-knowledge/>Prior knowledge</a></li>
+</ol><div class=subsection-header>Reading the Nix manual</div><ol start=3 class=post-list><li><a href=https://ianthehenry.com/posts/how-to-learn-nix/glossary/>What we talk about when we talk about Nix</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/quick-start-guide/>Quick starts, full hearts</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/basic-package-management/>Basic package management</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/profiles/>Profiles</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/garbage-collection/>Garbage collection</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/channels/>Channels</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/sharing/>Learning to share</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/my-first-derivation/>My first derivation</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/okay-my-actual-first-derivation/>Okay my actual first derivation</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/nix-language/>The Nix expression language</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/derivations/>Derivations</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/built-in-functions/>Built-in Functions</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/advanced-topics/>Advanced Topics</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/command-reference/>Command Reference</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/configuration/>Configuration</a></li>
+</ol><div class=subsection-header>Interlude: in which we follow our hearts, however briefly</div><ol start=18 class=post-list><li><a href=https://ianthehenry.com/posts/how-to-learn-nix/nix-manual-reflection/>So I read the manual huh</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/switching-from-homebrew-to-nix/>Switching from Homebrew to Nix</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/my-first-nix-bug/>My first Nix bug</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/my-first-package-upgrade/>My first package upgrade</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/declarative-user-environment/>Setting up a declarative user environment</a></li>
+</ol><div class=subsection-header>Reading the Nixpkgs manual</div><ol start=23 class=post-list><li><a href=https://ianthehenry.com/posts/how-to-learn-nix/how-to-learn-nixpkgs/>How to learn Nixpkgs</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/overlays/>Overlays</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/overriding/>Overriding</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/an-infinite-list-of-functions/>An infinite list of functions</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/even-more-functions-somehow/>Even more functions, somehow</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/the-standard-environment/>The standard environment</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/derivations-in-detail/>Derivations in detail</a></li>
+<li><strong><a href=https://ianthehenry.com/posts/how-to-learn-nix/cross-compilation/>Cross-compilation</a></strong>&nbsp;←&nbsp;you are here</li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/platform-notes/>Platform notes</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/builders/>Builders</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/languages-and-frameworks/>Languages and frameworks</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/random-package-grab-bag/>Random package grab-bag</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/how-to-give-back/>How to give back</a></li>
+</ol><div class=subsection-header>Documentation behind us, we set out on our own</div><ol start=36 class=post-list><li><a href=https://ianthehenry.com/posts/how-to-learn-nix/nixpkgs-reflection/>So I read the other manual, huh</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/saving-your-shell/>Saving your shell</a></li>
+</ol><div class=subsection-header>Oh right forgot about Nix Pills</div><ol start=38 class=post-list><li><a href=https://ianthehenry.com/posts/how-to-learn-nix/nix-pills/>Nix Pills</a></li>
+</ol><div class=subsection-header>Our whole lives ahead of us</div><ol start=39 class=post-list><li><a href=https://ianthehenry.com/posts/how-to-learn-nix/python3-alpha/>How to install Python</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/open-questions/>Open questions</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/ambiguous-packages/>Ambiguous packages</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/nix-zshell/>Running zsh in nix-shell</a></li>
+</ol><div class=subsection-header>Nix 2.4 slithers to life</div><ol start=43 class=post-list><li><a href=https://ianthehenry.com/posts/how-to-learn-nix/flakes/>My first brush with flakes</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/more-flakes/>More flakes, unfortunately</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/new-profiles/>Fancy new profiles</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/chipping-away-at-flakes/>Chipping away at flakes</a></li>
+<li><a href=https://ianthehenry.com/posts/how-to-learn-nix/nix-develop/>New and unimproved shells</a></li>
+</ol>
+</aside>
+</main>
+<footer>
+© 1899-1907 <a href=https://ianthehenry.com/about/>Ian Henry</a>
+</footer>
