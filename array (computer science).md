@@ -143,4 +143,8 @@ When inserting into an ordered array, we need to always conduct a ==search==
 before the actual insertion to determine the correct spot for the insertion.
 
 In the worst case when using linear search, we spent ==$N+2$== steps to insert
-new value into ordered array.
+new value into ordered array. But with [[binary search]] we can insert elements
+more effectively.
+
+Main advantage of ordered array is that we can use ==[[binary search]]== algorithm
+to find elements in array very efficiently.
