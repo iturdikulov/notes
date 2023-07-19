@@ -35,8 +35,11 @@ An algorithm that is $\mathcal{O}(N)$ is also known as having ==linear== time.
 $\mathcal{O}(1)$ algorithm can also be referred to as having ==constant== time.
 <!--SR:!2023-07-22,3,270-->
 
-Big O is not about how many steps an algorithm takes with specific input, but
-more about how the number of steps grows as the size of the input grows. So it's
+Big O Notation resolves the key question: if there are $N$ data elements,
+how many ==steps== will the algorithm take?
+
+Big O is not only about how many steps an algorithm takes with specific input,
+but more about how the number of steps grows as the size of the input grows. So it's
 describe relationship between input data and the algorithm efficiency.
 
 Let’s say we have an algorithm that always takes three steps no matter how
@@ -54,4 +57,15 @@ Big O can describe the best and worst case scenario of an algorithm. But Big O
 Notation generally refers to the ==worst case (pessimistic approach)== scenario,
 unless specified otherwise.
 <!--SR:!2023-07-22,3,270-->
+
+$\mathcal{O}(N)$ is the Big O way of describing an algorithm that increases
+==one step== each time the data is doubled.
+
+$\mathcal{O}(log N)$ means that for $N$ data elements, the algorithm would take
+==$\log_{2} N$== steps.
+
+$\mathcal{O}(log N)$ means the algorithm takes as many steps as it takes to
+keep halving the data elements until we remain with ==1==.
+
+If there are 8 elements, the $\mathcal{O}(log N)$ algorithm would take ==3== steps.
 

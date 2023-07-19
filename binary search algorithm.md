@@ -130,3 +130,16 @@ p binary_search([3, 17, 22, 75, 80, 202], 202)
 6. array items 1000000
    linear search: 1000000 steps
    binary search: 20 steps
+
+Difference between $\mathcal{O}(N)$ and $\mathcal{O}(log N)$:
+
+| N elem. | O(N)   | O(log N) |
+|---------|--------|----------|
+| 8       | 8      | 3        |
+| 16      | 16     | 4        |
+| 32      | 32     | 5        |
+| 64      | 64     | 6        |
+| 128     | 128    | 7        |
+| 256     | 256    | 8        |
+| 512     | 512    | 9        |
+| 1024    | 1024   | 10       |
