@@ -7,6 +7,8 @@ tags:
 created: 2023-07-17
 ---
 
+His code repo: https://github.com/wiltaylor/dotfiles/tree/master
+
 What is nix?
 - package build system
 - reproducible builds
@@ -485,6 +487,8 @@ nix = {
   };
 };
 ```
+To validate that flakes are enabled run `nix --version` and check
+`/etc/nix/nix.conf` file and grep for `experimental-features`.
 
 ## Working with flake
 
