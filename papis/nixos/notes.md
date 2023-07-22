@@ -60,19 +60,6 @@ You can update channel with `nix-channel --update` and then rebuild.
 
 `man home-configuration.nix` home manager options.
 
-Useful links:
-  weekly beginner-oriented improvised QA-style lecture on Nix
-- search for packages: https://search.nixos.org/packages
-- search for options: https://search.nixos.org/options
-- learn manuals (on bottom): https://nixos.org/learn.html
-
-- The Nix Hour: https://www.youtube.com/playlist?list=PLyzwHTVJlRc8yjlx4VR4LU5A5O44og9in
-- NixOS Wiki: https://nixos.wiki/
-- Nix Pills: https://nixos.org/nixos/nix-pills/index.html
-  A low-level tutorial on building software packages with Nix, showing in detail
-  how Nixpkgs is constructed.
-- Community: https://nixos.org/community.html
-
 ## Configuration
 
 You can use `-I nixosconfig=/path/to/config` flag with `nixos-rebuild switch`
@@ -258,3 +245,311 @@ The fetcher will be called as follows:
 >   rev = "65bb66d364e0d10d00bd848a3d35e2755654655b";
 >   sha256 = "sha256:0000000000000000000000000000000000000000000000000000";
 > }
+
+
+## Nix
+
+- Functional
+- Lazy Evaluation
+- Immutable
+- Derivation
+
+Derivation generation process:
+Nix Code → Derivation → Store
+
+Language structures
+- variables
+- sets
+- lists
+- functions
+- derivations
+
+### Variables
+
+```nix
+a = 7;
+b = "string";
+c = ''
+    multiline
+    string
+'';
+```
+
+### Sets
+
+```nix
+{
+  a = 7;
+  b = "string";
+  c = {
+    d = 8;
+  };
+}
+```
+
+
+### Lists
+
+```nix
+a [1 2 3]; # no commas
+```
+
+### Functions
+
+```nix
+# Simple function that takes param and returns param + 1
+func1 = param: param + 1;
+
+func2 = {param1, param2}: param1 + param2;
+```
+
+### derivations
+
+```nix
+derivation {
+  system = "x86_64-linux";
+  name = "foo";
+  builder = "/bin/sh";
+  outputs = [ "out" ];
+};
+```
+
+### Better alternative (wrappers)
+
+- `mkDerivation`
+- `runCommand`
+- `writeScriptBin`
+
+## Languages special statements
+
+Better to follow this guide:
+https://nixos.org/manual/nix/stable/language/constructs.html
+
+### With
+
+```nix
+enviroment.systemPackages = with pkgs; [
+  vim
+  git
+  zsh
+];
+```
+
+### Import
+
+```nix
+x = import ./myother.nix; # don't forget to drop last ; at the end in .nix
+                          # if you will import it
+y = import ./folder; # import ./folder/default.nix
+```
+
+### Inherit
+
+When defining a set or in a let-expression it is often convenient to copy
+variables from the surrounding lexical scope (e.g., when you want to propagate
+attributes). This can be shortened using the inherit keyword. For instance,
+
+```nix
+let x = 123; in
+{ inherit x;
+  y = 456;
+}
+```
+
+is equal to
+
+```nix
+{ x = 123;
+  y = 456;
+}
+```
+
+### If
+
+```nix
+new_val = if x == 7 then "yes" else "no";
+```
+
+
+### Let
+
+```nix
+let
+  x = 7; # computation
+in {
+  y = x; # use of computation (result)
+}
+```
+
+## Helpful Resources
+
+### REPL
+
+Like Python REPL, you can do interactive programming with Nix.
+
+- Can open with `nix repl`
+- Close with `C-d`
+- Support any Nix expression
+
+### Language server
+
+https://github.com/nix-community/rnix-lsp
+
+### Learning resources
+- learn manuals (on bottom): https://nixos.org/learn.html
+  weekly beginner-oriented improvised QA-style lecture on Nix
+- search for packages: https://search.nixos.org/packages
+- search for options: https://search.nixos.org/options
+
+- The Nix Hour: https://www.youtube.com/playlist?list=PLyzwHTVJlRc8yjlx4VR4LU5A5O44og9in
+- NixOS Wiki: https://nixos.wiki/
+- Nix Pills: https://nixos.org/nixos/nix-pills/index.html
+  A low-level tutorial on building software packages with Nix, showing in detail
+  how Nixpkgs is constructed.
+- Community: https://nixos.org/community.html
+
+## Nix Shell
+
+### Simple shell
+
+```sh
+# Start shell with hello package in path
+nix-shell -p hello
+
+# Start shell with hello package in path
+# and execute hello command
+nix-shell -p hello --run hello
+
+# Packages runned in shell are not installed in system
+# and removed on garbage collection
+```
+
+### Complex shell
+
+You can write nix expression to create shell with packages you need.
+
+```nix
+# name it shell.nix and run nix-shell
+{ pkgs ? import <nixpkgs> { } }:
+# myScript is a derivation
+let myScript = pkgs.writeScriptBin "my-script" ''
+  #!/usr/bin/env bash
+  echo "Hello, world!"
+'';
+in pkgs.mkShell {
+  name = "my-shell";
+  buildInputs = with pkgs; [
+    hello
+    vim
+    git
+    zsh
+    myScript
+  ];
+
+  shellHook = ''
+    echo "Hello, world!"
+  '';
+}
+```
+
+## Flakes
+
+What are flakes?
+- Project file
+- Dependency management (support dynamic lock files)
+- Updates
+
+There various methods to enable nix flakes:
+
+Temporary
+Add `--experimental-features 'nix-command flakes'` when calling the nix command.
+
+Permanent (NixOS variant in `configuration.nix`) and run `nixos-rebuild`.
+```nix
+# example from Saturday, July 22 2023
+# https://github.com/Misterio77/nix-starter-configs/blob/main/minimal/nixos/configuration.nix
+nix = {
+  # This will add each flake input as a registry
+  # To make nix3 commands consistent with your flake
+  registry = lib.mapAttrs (_: value: { flake = value; }) inputs;
+
+  # This will additionally add your inputs to the system's legacy channels
+  # Making legacy nix commands consistent as well, awesome!
+  nixPath = lib.mapAttrsToList (key: value: "${key}=${value.to.path}") config.nix.registry;
+
+  settings = {
+    # Enable flakes and new 'nix' command
+    experimental-features = "nix-command flakes";
+    # Deduplicate and optimize nix store
+    auto-optimise-store = true;
+  };
+};
+```
+
+## Working with flake
+
+Advanced info is here: https://nixos.wiki/wiki/Flakes
+
+Main commands (get more by `nix flake --help`):
+- `nix flake init` - initialize flake
+- `nix flake update` - update flake
+- `nix flake lock` - lock flake
+- `nix flake check` - check flake
+- `nix flake info` - show flake info
+
+First you need to initialize nix flake (default template): `nix flake init`
+This will generate this template:
+
+```nix
+{
+  description = "A very basic flake";
+
+  outputs = { self, nixpkgs }: {
+
+    packages.x86_64-linux.hello = nixpkgs.legacyPackages.x86_64-linux.hello;
+
+    packages.x86_64-linux.default = self.packages.x86_64-linux.hello;
+
+  };
+}
+```
+
+### Inputs
+
+You can configure nixpkgs flake version, by adding nixpkgs.url in inputs:
+```nix
+{
+  description = "A very basic flake";
+
+  # inputs is an attribute set of all the dependencies of the flake.
+  inputs = {
+    # use master branch of the GitHub repository as input,
+    # this is the most common input format
+    nixpkgs.url = "github:nixos/nixpkgs/nixos-23.05";
+  };
+
+  outputs = { self, nixpkgs }: {
+
+    packages.x86_64-linux.hello = nixpkgs.legacyPackages.x86_64-linux.hello;
+
+    packages.x86_64-linux.default = self.packages.x86_64-linux.hello;
+
+  };
+}
+```
+
+### Outputs
+
+To get list of flake outputs: `nix flake show`
+
+You can build flake output with `nix build .#`. `.#` here is a reference to
+the current directory/flake.
+
+You can put in outputs various things:
+- packages
+- modules
+- applications
+- shells
+- home manager configurations
+- nix system configurations
+- etc.
