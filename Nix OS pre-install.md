@@ -23,6 +23,7 @@ wpa_passphrase SSID 'PASSWORD' > /etc/wpa_supplicant.conf (optional)
 systemctl start wpa_supplicant
 
 # Configure sshd:
+sudo -i # become root
 systemctl start sshd
 passwd # So we can login via SSH
 ```
@@ -39,8 +40,9 @@ ls -l /dev/disk/by-id
 
 # Configure disk drives
 # You can get the UUIDs by running
-export DD1="/dev/disk/by-id/..."
-export DD2="/dev/disk/by-id/..."
+# change sda/sdb to your disk
+export DD1="/dev/sda"
+export DD2="/dev/sdb"
 
 # Output of 2 commands bellow must OK
 test -e "$DD1" && echo OK
@@ -65,8 +67,8 @@ shred --verbose --random-source=/dev/urandom -n1 --zero $DD1 &
 shred --verbose --random-source=/dev/urandom -n1 --zero $DD2
 
 # Create GPT partitons
-printf "label: gpt\n,100M,U\n,,L\n" | sfdisk $DD1
-printf "label: gpt\n,100M,U\n,,L\n" | sfdisk $DD2
+printf "label: gpt\n,550M,U\n,,L\n" | sfdisk $DD1
+printf "label: gpt\n,550M,U\n,,L\n" | sfdisk $DD2
 ```
 
 ## 2. Create File Systems
@@ -75,21 +77,21 @@ printf "label: gpt\n,100M,U\n,,L\n" | sfdisk $DD2
 ls -l /dev/disk/by-id/
 
 # Check sub-partitons
-test -e "$DD1-part1" && echo OK
-test -e "$DD1-part2" && echo OK
+test -e "${DD1}1" && echo OK
+test -e "${DD1}2" && echo OK
 
-test -e "$DD2-part1" && echo OK
-test -e "$DD2-part2" && echo OK
+test -e "${DD2}1" && echo OK
+test -e "${DD2}2" && echo OK
 
 # Create EFI (FAT32) filesystem:
-mkfs.fat -F 32 "$DD1-part1" -n BOOT
-mkfs.fat -F 32 "$DD2-part1" -n BOOT_BACKUP
+mkfs.fat -F32 "${DD1}1" -n BOOT
+mkfs.fat -F32 "${DD2}1" -n BOOT_BACKUP
 
 # Create BTRFS raid 1 filesystem:
-mkfs -t btrfs -L ROOT -m raid1 -d raid1 "$DD1-part2" "$DD2-part2"
+mkfs -t btrfs -L ROOT -m raid1 -d raid1 "${DD2}2" "${DD1}2"
 
 # Set up mount points variables
-ls -lah /dev/disk/by-label/
+ls -lah /dev/disk/by-uuid/
 export BOOT="/dev/disk/by-label/BOOT"
 export ROOT="/dev/disk/by-label/ROOT" # this is our root partition
 export BOOT_BACKUP="/dev/disk/by-label/BOOT_BACKUP" # to copy boot disk
@@ -113,8 +115,8 @@ umount /mnt
 
 # Mount the root partition
 mount -o compress=zstd,subvol=root,ssd $ROOT /mnt
-mkdir -p /mnt/{home,nix,boot/efi}
-mount $BOOT /mnt/boot/efi # mount the boot partition into efi
+mkdir -p /mnt/{home,nix,boot}
+mount $BOOT /mnt/boot # mount the boot partition into efi
 mount -o compress=zstd,subvol=home,ssd $ROOT /mnt/home
 mount -o compress=zstd,noatime,subvol=nix,ssd $ROOT /mnt/nix
 
@@ -129,20 +131,9 @@ Generate configuration:
 nixos-generate-config --root /mnt
 ```
 
-Adjust bootloader, already done in my case:
+Adjust mount paths (if required)
 ```sh
-# /etc/nixos/configuration.nix
-boot.loader = {
-  efi = {
-    canTouchEfiVariables = true;
-    efiSysMountPoint = "/boot/efi"; # ← use the same mount point here.
-  };
-  grub = {
-     efiSupport = true;
-     #efiInstallAsRemovable = true; # in case canTouchEfiVariables doesn't work for your system
-     device = "nodev";
-  };
-};
+# /mnt/etc/nixos/hardware-configuration.nix
 ```
 
 
@@ -158,7 +149,15 @@ nixos-install
 
 Set user password
 ```sh
-$ passwd
+$ passwd username
+```
+
+Mount and copyt $BOOT to $BOOT_BACKUP
+```sh
+mkdir -p /tmp/boot
+mount $BOOT_BACKUP /tmp/boot
+cp -r /mnt/boot/efi/* /tmp/boot
+umount /tmp/boot
 ```
 
 ## Reinstall bootloader
@@ -189,3 +188,7 @@ nixos-enter NIXOS_INSTALL_BOOTLOADER=1 /nix/var/nix/profiles/system/bin/switch-t
 - fix hardware-configuration.nix
 - swap in ram
 - backup boot partition
+
+
+tmpfs 1618464 415764 1202700 26% /run/user/1000
+mount -o remount,size=2G /run/user/0
