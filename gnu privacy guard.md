@@ -33,3 +33,29 @@ sr-ease: 288
 > 1.x series replaces this with Libgcrypt.
 >
 > -- [Wikipedia](https://en.wikipedia.org/wiki/GNU_Privacy_Guard)
+
+You can generate GPG key with `gpg --generate-key` command.
+
+To check GPG keys, installed on your system run `gpg --list-key`.
+
+To export public key with specific email,
+run `gpg --output <path/key_name.gpg> --export --armor <email>`.
+
+To export private key with specific email,
+run `gpg --output <path/key_name.gpg> --export-secret-key --armor <email>`.
+
+If required, you can trust your own key with this algorithm:
+1. `gpg --edit-key <email>`
+2. `trust`
+3. `5` (ultimate trust, in our case)
+4. `y` (yes)
+5. `quit`
+
+To export ssh key from GPG key, run `gpg --export-ssh-key <email>`.
+You must have at least one subkey, with authentication capability.
+To generate you can use somthing like this:
+`gpg --expert --edit-key, RSA, 4096, -ENCRYPT, -DECRYPT, AUTH, save`.
+
+## Resources
+
+- https://wiki.archlinux.org/title/GnuPG
