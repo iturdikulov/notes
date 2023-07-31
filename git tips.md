@@ -119,6 +119,21 @@ Show change history for file/directory including diffs
 ?
 `git log -p [file/directory]`
 
+View differences of branches/stash with meld other tool?
+?
+```sh
+# To get list of toolname runt this:
+# git difftool --tool-help
+
+# Compare current branch with another branch
+git difftool -d branchname -t toolname
+
+# Compare current branch with stash
+git difftool -d stash -t toolname
+```
+YOU CAN EDIT files in meld and save them!
+
+
 ## Branches
 Working With Branches List all local branches
 ?
