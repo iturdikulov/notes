@@ -69,3 +69,15 @@ keep halving the data elements until we remain with ==1==.
 
 If there are 8 elements, the $\mathcal{O}(log N)$ algorithm would take ==3== steps.
 
+
+Is this algorithm $\mathcal{O}(N)$ or $\mathcal{O}(log N)$?
+```python
+def is_prime(number):
+    for i in range(2, number):
+        if number % i == 0:
+            return False
+    return True
+```
+?
+It's $\mathcal{O}(N)$.
+
