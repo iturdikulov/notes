@@ -98,6 +98,17 @@ Keyboard shortcuts are described in [[dwm keyboard shortcuts]] note.
 - <https://wiki.gentoo.org/wiki/Dwm>
 - <https://dwm.suckless.org/customisation/windows_key/>
 
+## Workspaces
+
+- [1] My main working workspace. Usually tmux session in pair with terminal.
+- [2] Browser workspace, also contains [[newsboat]] tmux session.
+- [3] Search and translate workspace *not used now
+- [4] My personal wiki/education workspace
+- [5] My personal art/game_dev workspace
+- [6]-[7] Free workspaces
+- [8] Working Chat workspace, usually Slack++
+- [9] Personal Chat and Music workspace, usually Weechat + ncspot
+
 ## To-Do
 
 - TODO: create repo with my patches
