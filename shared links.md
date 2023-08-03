@@ -17,7 +17,7 @@ planning to use it
 - TODO: review https://pikabu.ru/story/dyeni_vilnyov_rekomenduet_9_luchshikh_filmov_za_20_let_21_veka_10377624
 - TODO: review Suspend on power button
 
-
 https://serverfault.com/questions/1069617/full-system-backup-on-a-remote-server-with-borg
-
 https://justin.abrah.ms/computer-science/understanding-big-o-formal-definition.html
+https://github.com/3rd/image.nvim
+https://www.vsegdavkusno.ru/
