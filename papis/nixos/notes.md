@@ -68,6 +68,10 @@ You can use `-I nixosconfig=/path/to/config` flag with `nixos-rebuild switch`
 and `-f /path/to/config` with `home-manager switch` to specify configuration
 file.
 
+mail config: https://github.com/luisantonioig/nixos-config/blob/master/mail.nix
+
+https://github.com/Inom-Turdikulov/nix_dotfiles
+https://gitlab.com/liketechnik/nixos-files/-/blob/master/profiles/neovim/default.nix#L4
 https://github.com/jordanisaacs/dotfiles
 https://codeberg.org/anriha/nixos-config/src/branch/main/configuration.nix
 https://github.com/Misterio77/nix-starter-configs
@@ -557,3 +561,9 @@ You can put in outputs various things:
 - home manager configurations
 - nix system configurations
 - etc.
+
+
+TODO:
+ - follow config guide
+ - https://github.com/nix-community/home-manager/issues/2216#issuecomment-917507881
+
