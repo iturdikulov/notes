@@ -253,20 +253,94 @@ search on an array of size 100,000?
 # 3. O Yes! Big O Notation /55
 
 ## Big O: How Many Steps Relative to N Elements? /56
-
 ## The Soul of Big O /57
-
 ## An Algorithm of the Third Kind /60
+Some notes are placed in [[big O notation]].
 
 ## Logarithms /61
+Some notes are placed in [[logarithm]].
 
 ## O(log N) Explained /62
-
 ## Practical Examples /63
-
 ## Wrapping Up /65
+Some notes are placed in [[big O notation]].
 
 ## Exercises /65
+
+1. Use Big O Notation to describe the time complexity of the following function
+   that determines whether a given year is a leap year:
+   ```c
+   function isLeapYear(year) {
+       return (year % 100 === 0) ? (year % 400 === 0) : (year % 4 === 0);
+   }
+   ```
+   I think it's O(1), because we do only 3 operations. And since 3 is finite
+   number time complexity is constant.
+2. Use Big O Notation to describe the time complexity of the following function
+that sums up all the numbers from a given array:
+   ```c
+   function arraySum(array) {
+       let sum = 0;
+       for(let i = 0; i < array.length; i++) {
+           sum += array[i];
+       }
+       return sum;
+   }
+   ```
+   This looks like O(n), because we iterate over array of N, elements.
+3. The following function is based on the age-old analogy used to describe
+   the power of compounding interest:
+
+   Imagine you have a chessboard and put a single grain of rice on one
+   square. On the second square, you put 2 grains of rice, since that is
+   double the amount of rice on the previous square. On the third square,
+   you put 4 grains. On the fourth square, you put 8 grains, and on the fifth
+   square, you put 16 grains, and so on.
+
+   The following function calculates which square you’ll need to place a
+   certain number of rice grains. For example, for 16 grains, the function
+   will return 5, since you will place the 16 grains on the fifth square.
+
+   Use Big O Notation to describe the time complexity of this function, which
+   is below:
+
+   ```javascript
+   function chessboardSpace(numberOfGrains) {
+       let chessboardSpaces = 1;
+       let placedGrains = 1;
+
+       while (placedGrains < numberOfGrains) {
+           placedGrains *= 2;
+           chessboardSpaces += 1;
+       }
+       return chessboardSpaces;
+   }
+   ```
+   This looks like $\mathcal{O}(\log N)$, for example number of grains is 100,
+   and we do ~ 7 iterations, etc. Like in [[binary search algorithm]].
+4. The following function accepts an array of strings and returns a new array
+that only contains the strings that start with the character "a". Use Big O
+Notation to describe the time complexity of the function:
+function selectAStrings(array) {
+let newArray = [];
+for(let i = 0; i < array.length; i++) {
+if (array[i].startsWith("a")) {
+newArray.push(array[i]);
+}
+}
+return newArray;
+}
+The following function calculates the median from an ordered array.
+Describe its time complexity in terms of Big O Notation:
+function median(array) {
+const middle = Math.floor(array.length / 2);
+// If array has even amount of numbers:
+if (array.length % 2 === 0) {
+return (array[middle - 1] + array[middle]) / 2;
+} else { // If array has odd amount of numbers:
+return array[middle];
+}
+}
 
 # 4. Speeding Up Your Code with Big O /67
 
