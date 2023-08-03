@@ -32,6 +32,13 @@ cheat sheet).
 Additional details can be found in @ProGitChacon2022 book. You
 can also use built-in help: `man git`, `git help` or `git [command] –help`.
 
+After installing git, you usually need to configure it, here minimal
+configuration example, with my personal data:
+```sh
+git config --global user.name "First Lastname"
+git config --global user.email "user@domain.tld"
+```
+
 ## Additional Resources
 
 TODO: check this resources
