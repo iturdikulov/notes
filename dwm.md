@@ -13,7 +13,7 @@ tags:
 # dwm (dynamic window manager)
 
 > dwm is a dynamic window manager for X. It manages windows in tiled, monocle
-> and floating layouts. All of the layouts can be applied dynamically,
+> and floating layouts. All the layouts can be applied dynamically,
 > optimizing the environment for the application in use and the task performed\
 > —&thinsp;<cite>[dwm](https://dwm.suckless.org/)</cite>
 
@@ -98,13 +98,13 @@ Keyboard shortcuts are described in [[dwm keyboard shortcuts]] note.
 - <https://wiki.gentoo.org/wiki/Dwm>
 - <https://dwm.suckless.org/customisation/windows_key/>
 
-## Workspaces
+## Workspaces (beta)
 
 - [1] My main working workspace. Usually tmux session in pair with terminal.
 - [2] Browser workspace, also contains [[newsboat]] tmux session.
-- [3] Search and translate workspace *not used now
-- [4] My personal wiki/education workspace
-- [5] My personal art/game_dev workspace
+- [3] chatgpt-cli + additional terminal for dict and translate-shell
+- [4] My personal wiki/education workspace, neovim with wiki project
+- [5] My personal art/game_dev workspace, krita, godot, etc
 - [6]-[7] Free workspaces
 - [8] Working Chat workspace, usually Slack++
 - [9] Personal Chat and Music workspace, usually Weechat + ncspot
