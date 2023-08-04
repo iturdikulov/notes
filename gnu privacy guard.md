@@ -56,6 +56,20 @@ You must have at least one subkey, with authentication capability.
 To generate you can use somthing like this:
 `gpg --expert --edit-key, RSA, 4096, -ENCRYPT, -DECRYPT, AUTH, save`.
 
+## GnuPG to SSH
+
+1. Find fingerprint of your RSA key: `gpg --list-secret-keys --keyid-format short`
+2. Next, you can use openpgp2ssh tool distributed in with monkeyshpere project:
+```sh
+# 01234567 must be fingerprint of a RSA key (or subkey)
+# gpg --export-secret-keys also accept finger print of global key  (in this
+# case, it exports all sub-keys). # However, openpgp2ssh only accept finger
+# print of an RSA key If no arguments are provided, openpgp2ssh export RSA
+# keys it find
+gpg --export-secret-keys (or --export-secret-subkeys) 01234567! | openpgp2ssh 01234567 > id_rsa
+```
+3. You can now extract ssh public key using: `ssh-keygen -y -f id_rsa > id_rsa.pub`
+
 ## Resources
 
 - https://wiki.archlinux.org/title/GnuPG
