@@ -34,6 +34,24 @@ sr-ease: 288
 >
 > -- [Wikipedia](https://en.wikipedia.org/wiki/GNU_Privacy_Guard)
 
+## Subkeys Usage
+
+Being able to store the primary key offline or a more secure device. If a
+machine with a subkey is harmed, you can easily revoke the subkey without all
+the hassles of revoking your primary key (sharing a new key, getting new
+signatures, ...).
+
+Having different subkeys on different machines, for example a signing subkey on
+a build server. Again, revoking single keys is easy.
+
+Using a larger primary key for long lifetime, and shorter, but faster subkeys
+for day-to-day usage.
+
+Some algorithms do not support both encrypting and signing. For example, a DSA
+primary key requires another key for encryption, typically paired with ElGamal.
+
+## Basic commands
+
 You can generate GPG key with `gpg --generate-key` command.
 Or `gpg --full-generate-key` for more options.
 
@@ -57,7 +75,7 @@ If required, you can trust your own key with this algorithm:
 
 ## GnuPG backup steps
 
-First of all, before we begin, your@id.here represents your GPG key ID. This
+First, before we begin, your@id.here represents your GPG key ID. This
 could be your email address or the key ID.
 
 Indeed, your private key is critical, but other files are also important.
@@ -72,9 +90,24 @@ Run the following commands in your command line (Command Prompt for Windows,
 Terminal for macOS and Linux). Replace "your@id.here" with your GPG key ID:
 
 ```sh
-gpg --export --armor your@id.here > your@id.here.pub.asc
-gpg --export-secret-keys --armor your@id.here > your@id.here.priv.asc
-gpg --export-secret-subkeys --armor your@id.here > your@id.here.sub_priv.asc
+# --armor option to, in order to create an ASCII version of the key that is not
+# binary and readable
+
+# In order to save all the Public Keys we have imported to our system, we need to
+# backup them. The Public Keys are saved at the ~/.gnupg/pubring.kbx and
+# ~/.gnupg/pubring.gpg files. But we do need to backup the files directly, it is
+# better to use the --export option.
+gpg --export --armor > mypublickeys.asc
+
+# Export private key
+# Note: Although the exported Private Key is encrypted with your passphrase, be
+# very carefull with this file, as if it gets compromised and brute-forced,
+# anyone can impersonate you and read all your encrypted files and emails.
+gpg --export-secret-keys --armor --output your@id.here.priv.asc your@id.here
+gpg --export-secret-subkeys --armor --output your@id.here.sub_priv.asc your@id.here
+
+# The GPG Trust Database is used to keep the trust values for each of the Public
+# Keys you have.
 gpg --export-ownertrust > ownertrust.txt
 ```
 
@@ -84,9 +117,12 @@ If you need to restore your keys and trust level (e.g., after reinstalling the
 system or on a new computer), use the following commands:
 
 ```sh
-gpg --import your@id.here.pub.asc
+gpg --import mypublickeys.asc
 gpg --import your@id.here.priv.asc
 gpg --import your@id.here.sub_priv.asc
+
+# NOTE: To import the Trust Database, we need to first delete the current one:
+# rm ~/.gnupg/trustdb.gpg
 gpg --import-ownertrust ownertrust.txt
 ```
 
@@ -100,7 +136,7 @@ hit Enter:
 gpg --edit-key your@id.here gpg> trust Your decision? 5 Note: If you're
 ```
 
-1. Export/import revocation certificate:
+4. Export/import revocation certificate:
 
 Export:
 ```sh
@@ -118,6 +154,22 @@ Comment: This is a revocation certificate
 
 operating on Windows, you might need to install GPG4Win first. If you're on
 macOS, you may need to install GPG Suite.
+
+5. Delete keys
+
+If you want to delete the Private Key file you created, you can use the
+[[shred]] utility to delete the file permanently and make it harder to be
+recovered by overwriting it:
+
+```sh
+# The shred options, do the following:
+#
+# z: add a final overwrite with zeros to hide shredding
+# u: de-allocate and remove file after overwriting
+# v: show progress
+
+shred -zuv privatekey.asc
+```
 
 ## GnuPG to SSH
 
