@@ -27,3 +27,10 @@ Display current time
 ?
 `termdown --time`, `-z` is short for `--time`
 
+Start a 1 minute and speak something when 5 seconds left.
+?
+I use custom `piper_speak` program, you may need change `then/fi` part for your
+system.
+`termdown 10s --exec-cmd "if [ '{0}' == '5' ]; then piper_speak '{1} left, Row! Row! Fight the Power!'; fi"`
+
+TODO: write piper_speak and termdown wrapper.
