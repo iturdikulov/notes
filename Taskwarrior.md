@@ -18,7 +18,8 @@ Features:
 - plain text format (avoid proprietary formats)
 - cross-platform
 - [[open-source]]
-- [[command-line interface]], TUI with vit
+- [[command-line interface]]
+- many extensions and integrations, like Taskwarrior Server and Taskwarrior TUI
 - integrations, most popular Timewarrior and Taskserver, TODO: add note/use it
 
 Some general notes available in @DiveIntoTaskwarriorTomasBabej.
