@@ -93,8 +93,11 @@ How to split line (a/i/r)
 
 `:!`
 ?
-external filter, used in command mode to execute something (`r!` redirect
-output)
+external filter, used in command mode to execute something
+
+`:r!`
+?
+Redirect output of external command to current buffer
 
 You could also use ==`w !python`== to run your python program (no need to save,
 it will pass the content as stdin, that's what w ! is for). That way you don't
