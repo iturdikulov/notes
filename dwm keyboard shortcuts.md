@@ -108,7 +108,7 @@ Drag floating window using mouse (with drag)::`<D-LeftMouse>`
 
 Resize floating window using mouse (with drag)::`<D-RightMouse>`
 
-Which keys you use as floating window resize/move keys?
+Which keys you use as floating window resize/move keys (float position patch)?
 ```
 These directions:
 ↖ ↑ ↗
@@ -116,15 +116,37 @@ These directions:
 ↙ ↓ ↘
 ```
 ?
-q w f
-a c s
-x r d
+q f p
+r c t
+x s d
 
-Move floating window, client position is limited to monitor window area::`Mod3Mask-`
-Move floating window, absolute positioning (allows moving windows between monitors)::`Mod3Mask-C-`
-Resize client, client center position is fixed which means that client expands in all directions including center::`Mod3Mask-S-`
-Resize client, client is positioned in a floating grid, movement is relative to client's current position (center include)::`Mod3Mask-M-`
+In my case `Mod3Mask` is bind to `XF86Tools` (`F13`) key, (added manually using
+[[qmk|QMK frimware]]).
 
-## To-Do
+To enable mod3 key I run this command in [[dwm]] autostart script:
+`xmodmap -e "clear mod3" -e "add mod3 = XF86Tools"`
+
+Move floating window, client position is limited to monitor window area?
+?
+`Mod3Mask-qfprtxsd`
+
+Resize client, client is positioned in a floating grid, movement is relative to
+client's current position (center include)
+?
+`Mod3Mask-M-qfprtxsdc`
+
+Resize client, client center position is fixed which means that client expands
+in all directions including center?
+?
+`Mod3Mask-S-qfprtxsdc`
+As if you are pushing the rod by the window
+
+Move floating window, absolute positioning (allows moving windows between
+monitors)?
+?
+`Mod3Mask-C-qfprtxsd`, but it's probably useless for me.
+
+
+## TODO
 
 - TODO: create fancy screenshot with border
