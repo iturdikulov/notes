@@ -102,12 +102,13 @@ Keyboard shortcuts are described in [[dwm keyboard shortcuts]] note.
 
 - [1] My main working workspace. Usually tmux session in pair with terminal.
 - [2] Browser workspace, also contains [[newsboat]] tmux session.
-- [3] chatgpt-cli + additional terminal for dict and translate-shell
+- [3] [[ChatGPT]] + and [[translate-shell]] workspace
 - [4] My personal wiki/education workspace, neovim with wiki project
-- [5] My personal art/game_dev workspace, krita, godot, etc
-- [6]-[7] Free workspaces
+- [5] My personal art/game_dev workspace, [[krita]], [[godot engine]], etc.
+- [6] VM/ssh workspace
+- [7] Free* workspaces
 - [8] Working Chat workspace, usually Slack++
-- [9] Personal Chat and Music workspace, usually Weechat + ncspot
+- [9] Personal [[weechat|chat]], stream and [[ncspot|music]] workspace.
 
 ## To-Do
 
