@@ -173,11 +173,8 @@ shred -zuv privatekey.asc
 
 ## GnuPG to SSH
 
-You must have at least one subkey, with authentication capability.
-To generate you can use somthing like this:
-`gpg --expert --edit-key, RSA, 4096, -ENCRYPT, -DECRYPT, AUTH, save`.
-
-1. Find fingerprint of your RSA key: `gpg --list-secret-keys --keyid-format short`
+1. Find fingerprint of your RSA key:
+   `gpg --list-secret-keys --keyid-format short` or `gpg -K`
 2. Next, you can use openpgp2ssh tool distributed in with monkeyshpere project:
 ```sh
 # 01234567 must be fingerprint of a RSA key (or subkey)
@@ -210,11 +207,11 @@ gpg --send-keys --keyserver keyserver.ubuntu.com $GPGKEY
 
 Note that keyserver.ubuntu.com is only reachable via IPv4.
 
-### Keyservers list:
+### Key servers list:
 
-- https://keyserver.ubuntu.com/. Ubuntu Keyserver: federated, no verification,
+- https://keyserver.ubuntu.com/. Ubuntu keyserver: federated, no verification,
 keys cannot be deleted.
-- https://keys.mailvelope.com/. Mailvelope Keyserver: central, verification of
+- https://keys.mailvelope.com/. Mailvelope keyserver: central, verification of
 email IDs, keys can be deleted.
 - https://keys.openpgp.org/. central, verification of email IDs, keys can be
 deleted, no third-party signatures (i.e. no Web of Trust support).
