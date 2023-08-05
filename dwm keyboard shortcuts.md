@@ -14,85 +14,78 @@ tags:
 I swapped meta key (ALT/META) to super key (WIN), which used in DWM by default
 as modifier key, to decrease key conflicts in various programs.
 
-I use VIM key notation, exceptions - `WIN` key is `Super` and few others [[vim keycodes]].
+Key notation in flashcards - I just use vim key notation (`:h key-notation`),
+with some exceptions.
 
 ## Specific
 
-Toggle sticky window
-?
-<kbd>super</kbd>+<kbd>shift</kbd>+<kbd>s</kbd>
-
-Run display fix script. Sometimes it's needed to fix display after suspend or hibernate (usually after switching display).
-?
-<kbd>super</kbd>+<kbd>shift</kbd>+<kbd>ctrl</kbd>+<kbd>w</kbd>
-
-Enable Do not Disturb mode
-?
-<kbd>super</kbd>+<kbd>ctrl</kbd>+<kbd>n</kbd>
-
-Sync email (TODO: need check)
-?
-<kbd>super</kbd>+<kbd>ctrl</kbd>+<kbd>e</kbd>
-
-Create Screenshot::<kbd>PrntScrn</kbd>
-
 TODO: create fancy screenshot with border
 
-Create full screenshot and save it in ~/Pictures/screenshots/::<kbd>Super-PrntScrn</kbd>
-Create active window screenshot and copy to clipboard::<kbd>Super-S-PrnScrn</kbd>
+Toggle sticky on active window (topmost)::`<D-S>`
+
+Toggle floating on active window ::`<D-S-space>`
+
+Create Screenshot::`<Print>`
+
+Start screencast recording of selected region ([[MP4]] format)::`<D-Print>`
+
+Start screencast recording of selected region ([[GIF]] format)::`<D-C-Print>`
+
+Create full screenshot and save it in ~/Pictures/screenshots/::Super-PrntScrn
+Create active window screenshot and copy to clipboard::Super-S-PrnScrn
 
 Toggle full screen mode
 ?
-<kbd>Super-y</kbd>
+Super-y
 
 ## Media keys
 
-Volume Up::<kbd>RaiseVolume</kbd>
-Volume Down::<kbd>LowerVolume</kbd>
+Volume Up::RaiseVolume
+Volume Down::LowerVolume
 
-Mpv Pause::<kbd>Play</kbd>
-Mpv Next::<kbd>Next</kbd>
-Mpv Prev::<kbd>Prev</kbd>
-Mpv Forward::<kbd>Forward</kbd>
-Mpv Rewind::<kbd>Rewind</kbd>
+Mpv Pause::Play
+Mpv Next::Next
+Mpv Prev::Prev
+Mpv Forward::Forward
+Mpv Rewind::Rewind
 
-Strawberry Pause::<kbd>Super-Play</kbd>
-Strawberry Next::<kbd>Super-Next</kbd>
-Strawberry Prev::<kbd>Super-Prev</kbd>
-Strawberry Forward::<kbd>Shift-Next</kbd>
-Strawberry Rewind::<kbd>Shift-Prev</kbd>
-Strawberry Volume Up::<kbd>Super-RaiseVolume</kbd>
-Strawberry Volume Down::<kbd>Super-LowerVolume</kbd>
+Strawberry Pause::Super-Play
+Strawberry Next::Super-Next
+Strawberry Prev::Super-Prev
+Strawberry Forward::Shift-Next
+Strawberry Rewind::Shift-Prev
+Strawberry Volume Up::Super-RaiseVolume
+Strawberry Volume Down::Super-LowerVolume
 
 ## Run
 
-Run Browser::<kbd><M-S-2></kbd>
-Run Dictionary and Translator::<kbd><M-S-3></kbd>
-Developer Documentation::<kbd><M-S-4></kbd>
-Instant Messaging::<kbd><M-S-5></kbd>
-Image Editor::<kbd><M-S-6></kbd>
-Music Player::<kbd><M-S-7></kbd>
-Research management::<kbd><M-S-8></kbd>
-Remote Server::<kbd><M-S-9></kbd>
-Games management::<kbd><M-S-F1></kbd>
-Virtual Machine management::<kbd><M-S-F2></kbd>
-Remote connect to mobile device::<kbd><M-S-F3></kbd>
+Run Browser::<M-S-2>
+Run Dictionary and Translator::<M-S-3>
+Developer Documentation::<M-S-4>
+Instant Messaging::<M-S-5>
+Image Editor::<M-S-6>
+Music Player::<M-S-7>
+Research management::<M-S-8>
+Remote Server::<M-S-9>
+Games management::<M-S-F1>
+Virtual Machine management::<M-S-F2>
+Remote connect to mobile device::<M-S-F3>
 
-[[dmenu]] for running programs::<kbd>Super-p</kbd>
-Terminal::<kbd>S-M-CR</kbd>
-Kill active window::<kbd>Super-S-c</kbd>
-Show tags alternatives in top bar::<kbd>Super-n</kbd>
-Toggle top bar::<kbd>Super-b</kbd>
-Focus next window::<kbd>Super-h</kbd>
-Focus prev window::<kbd>Super-l</kbd>
-Resize window to right::<kbd>Super-shift-h</kbd>
-Resize window to left::<kbd>Super-shift-l</kbd>
-Power menu::<kbd>Super-S-C-Del</kbd>
-Pass menu::<kbd>Super-S-p</kbd>
-Active programs::<kbd>Super-a</kbd>
-Unicode menu::<kbd>Super-u</kbd>
-Morc menu::<kbd>M-S-p</kbd>
-Clipboard history::<kbd>Super-v</kbd>
+[[dmenu]] for running programs::Super-p
+Terminal::S-M-CR
+Kill active window::Super-S-c
+Show tags alternatives in top bar::Super-n
+Toggle top bar::Super-b
+Focus next window::Super-h
+Focus prev window::Super-l
+Resize window to right::Super-shift-h
+Resize window to left::Super-shift-l
+Power menu::Super-S-C-Del
+Pass menu::Super-S-p
+Active programs::Super-a
+Unicode menu::Super-u
+Morc menu::M-S-p
+Clipboard history::Super-v
 
 ## Resize windows
 
@@ -102,9 +95,9 @@ push active window from stack to master (toggle)::Super+Return
 
 ## Tags adding/removing
 
-apply tag to active window (like move window to tag)::<kbd>Super-S-{1-F4}</kbd>
-view tag::<kbd>Super-{1-F4}</kbd>
-Toglge tags (sort of alt-tab per workspaces)::<kbd>Super-Tab</kbd>
+apply tag to active window (like move window to tag)::Super-S-{1-F4}
+view tag::Super-{1-F4}
+Toglge tags (sort of alt-tab per workspaces)::Super-Tab
 toggle bar::Super+b
 view all windows on screen (reset - apply tag)::Super+0
 
@@ -126,17 +119,18 @@ Super+Control+2
 
 ## Toggle workspace layout
 
-Tiled layout::<kbd>Super-t</kbd>
-Floating layout::<kbd>Super-f</kbd>
-Monocle layout::<kbd>Super-m</kbd>
-Toggle between tiled and floating layout::<kbd>Super+space</kbd>
-Toggle active window layout (useful to set floating)::<kbd>Super+S+space</kbd>
+I recommend test layout using at least 2 windows.
+
+Tiled layout::Super-t
+Floating layout::Super-f
+Monocle layout::Super-m, so switch between windows, use `M-tab`
+Toggle between tiled and monocle layout::`<D-C-S-space>`
 
 ## Floating windows control
 
-Drag floating window::<kbd>Super-LeftMouse</kbd>
-Make individual window float/unfloat (using mouse)::<kbd>Super+LeftMouse</kbd>
-Resize floating window (modifiers)::<kbd>Super+RightMouse</kbd>
+Drag floating window::Super-LeftMouse
+Make individual window float/unfloat (using mouse)::Super+LeftMouse
+Resize floating window (modifiers)::Super+RightMouse
 
 Which keys you use as floating window resize/move keys?
 ```
@@ -150,11 +144,12 @@ q w f
 a c s
 x r d
 
-Move floating window, client position is limited to monitor window area::<kbd>Mod3Mask-</kbd>
-Move floating window, absolute positioning (allows moving windows between monitors)::<kbd>Mod3Mask-C-</kbd>
-Resize client, client center position is fixed which means that client expands in all directions including center::<kbd>Mod3Mask-S-</kbd>
-Resize client, client is positioned in a floating grid, movement is relative to client's current position (center include)::<kbd>Mod3Mask-M-</kbd>
+Move floating window, client position is limited to monitor window area::Mod3Mask-
+Move floating window, absolute positioning (allows moving windows between monitors)::Mod3Mask-C-
+Resize client, client center position is fixed which means that client expands in all directions including center::Mod3Mask-S-
+Resize client, client is positioned in a floating grid, movement is relative to client's current position (center include)::Mod3Mask-M-
 
 ## To-Do
 
 - TODO: rewrite keybindings in more readable format
+- TODO: not really actual, maybe need to add some links to SHCMD sections
