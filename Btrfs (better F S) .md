@@ -49,6 +49,14 @@ mount options.
 
 `btrfs check` is not safe, it's experimental and can corrupt data (2021).
 
+Resize filesystem (root volume) to maximum size
+```sh
+# first check lsblk -f
+parted /dev/sdb resizepart 2 100% # 2 here is partition numper
+btrfs filesystem resize max /
+btrfs fi show / # validate size
+```
+
 ## Resources
 
 - https://btrfs.readthedocs.io/en/latest/index.html
