@@ -359,3 +359,4 @@ TODO: actualize this list
 - `faketime` - manipulate the system time for a given command
 - `antimicro` - bind keyboard and mouse actions to your gamepad or joystick
 https://github.com/AntiMicroX/antimicrox-profiles/tree/master/applications
+- REVIEW this list, add ncspot, termdown, etc (check nixos modules)
