@@ -126,20 +126,18 @@ In my case `Mod3Mask` is bind to `XF86Tools` (`F13`) key, (added manually using
 To enable mod3 key I run this command in [[dwm]] autostart script:
 `xmodmap -e "clear mod3" -e "add mod3 = XF86Tools"`
 
-Move floating window, client position is limited to monitor window area?
+Move floating window using grid
 ?
 `Mod3Mask-qfprtxsd`
+
+Move floating window (more precise)
+?
+`Mod3Mask-M-qfprtxsd`
 
 Resize client, client is positioned in a floating grid, movement is relative to
 client's current position (center include)
 ?
-`Mod3Mask-M-qfprtxsdc`
-
-Resize client, client center position is fixed which means that client expands
-in all directions including center?
-?
 `Mod3Mask-S-qfprtxsdc`
-As if you are pushing the rod by the window
 
 Move floating window, absolute positioning (allows moving windows between
 monitors)?
