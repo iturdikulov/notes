@@ -450,7 +450,7 @@ structure. n\*
 - [x] Clear all marks::`mu`
 - [x] Assign the "target directory" used by the move and copy commands.::`mt`
 - [x] Assign target directory and copy in one command::`mtmc`
-- [x] Copy/move the marked files in the target directory.::`mc`, `mm`
+- [x] **Copy/move** the marked files in the target directory.::`mc`, `mm`
 - [x] Runs an external command on the marked files.::`mx`
 - [x] Delete a file or an empty directory::`D`
 - [x] Delete a file or directory recursively::`mx` then `trash`
