@@ -44,6 +44,8 @@ Insert new line above/below::`[<space>`, `]<space>`
 
 - [x] `cd` to current file path::`<leader>z%` n\*
 
+- [ ] Cd to various directories::parent dir `:cd ..`, current file dir. `:cd %:h`, home dir. `:cd`, previous dir `:cd -`
+
 - [x] focus editor::`<c-'>`
 
 - [x] grep content in current project and open find toolbar::`<leader>fs`
@@ -419,6 +421,8 @@ lines
 - [x] diagnostics `<Leader>vd`
 
 - [x] rename object (using LSP):`<Leader>vrn`
+
+- [ ] close all windows except current::`<C-w>o`
 
 - [x] add/remove/list workspace folders
 ?
