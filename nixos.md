@@ -18,6 +18,8 @@ tags:
 
 ## Cleanup old generations
 
+Native nix commands:
+
 ```sh
 nix-env --list-generations
 
@@ -32,3 +34,12 @@ sudo nix-collect-garbage --delete-older-than 30d
 # After the garbage collection, you can run the following command to remove
 # boot entries that are no longer valid:
 sudo nixos-rebuild switch
+```
+
+[[hey]] utility
+
+```sh
+hey gc; sudo hey gc
+```
+
+
