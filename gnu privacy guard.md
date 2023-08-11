@@ -207,6 +207,19 @@ gpg --send-keys --keyserver keyserver.ubuntu.com $GPGKEY
 
 Note that keyserver.ubuntu.com is only reachable via IPv4.
 
+## Test GnuPG
+
+A useful gpg option to experiment is `--homedir`:
+
+```sh
+gpg --homedir ~/tmp --list-keys
+# Or alternatively use GNUPGHOME
+export GNUPGHOME=~/tmp
+gpg --list-keys
+```
+This way your default keyring, trust database, etc. get ignored, and you have a
+fresh keyring with which you can test if the conversion/import was successful.
+
 ### Key servers list:
 
 - https://keyserver.ubuntu.com/. Ubuntu keyserver: federated, no verification,
