@@ -14,6 +14,19 @@ sr-ease: 268
 
 # dm-crypt
 
+> dm-crypt is a transparent block device encryption subsystem in [[Linux]]
+> kernel versions 2.6 and later and in DragonFly BSD. It is part of the device
+> mapper (dm) infrastructure, and uses cryptographic routines from the kernel's
+> Crypto API. Unlike its predecessor cryptoloop, dm-crypt was designed to
+> support advanced modes of operation, such as XTS, LRW and ESSIV (see disk
+> encryption theory for further information), in order to avoid watermarking
+> attacks. In addition to that, dm-crypt addresses some reliability problems of
+> cryptoloop.
+> —&thinsp;<cite>[Wikipedia](https://en.wikipedia.org/wiki/Dm-crypt)</cite>
+
+
+## Create encrypted file container
+
 ```sh
 # Redirect output of /dev/zero to initialize container file
 dd if=/dev/zero bs=1M count=100 of=encrypted_change_name.img
@@ -28,7 +41,7 @@ sudo cryptsetup luksOpen encrypted_change_name.img
 sudo mkfs.ext4
 ```
 
-# Mount and unmount file container
+## Mount and unmount file container
 
 ```sh
 # Open luks partition
