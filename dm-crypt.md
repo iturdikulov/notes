@@ -35,10 +35,16 @@ dd if=/dev/zero bs=1M count=100 of=encrypted_change_name.img
 sudo cryptsetup luksFormat encrypted_change_name.img  # set passpharse and conifm it
 
 # Open luks partition
-sudo cryptsetup luksOpen encrypted_change_name.img
+sudo losetup -P /dev/loop0
+sudo cryptsetup luksOpen /dev/loop0 encrypted_change_name.img
 
 # Because we just created container, need create filesystem on it (one-time)
-sudo mkfs.ext4
+sudo mkfs.ext4 /dev/mapper/encrypted_change_name
+sudo mount /dev/mapper/encrypted_change_name my-mount-point
+
+# Umount and luksClose
+sudo umount my-mount-point
+sudo cryptsetup luksClose /dev/mapper/encrypted_change_name
 ```
 
 ## Mount and unmount file container
