@@ -90,6 +90,9 @@ Run the following commands in your command line (Command Prompt for Windows,
 Terminal for macOS and Linux). Replace "your@id.here" with your GPG key ID:
 
 ```sh
+# First get your keys list with keygrips
+gpg -K
+
 # --armor option to, in order to create an ASCII version of the key that is not
 # binary and readable
 
@@ -97,18 +100,22 @@ Terminal for macOS and Linux). Replace "your@id.here" with your GPG key ID:
 # backup them. The Public Keys are saved at the ~/.gnupg/pubring.kbx and
 # ~/.gnupg/pubring.gpg files. But we do need to backup the files directly, it is
 # better to use the --export option.
-gpg --export --armor > mypublickeys.asc
+export KEYGRIP=0X1234567890ABCDEF...
+gpg --output "${KEYGRIP}_public.pub" --export --armor keygrip $KEYGRIP
 
 # Export private key
 # Note: Although the exported Private Key is encrypted with your passphrase, be
 # very carefull with this file, as if it gets compromised and brute-forced,
 # anyone can impersonate you and read all your encrypted files and emails.
-gpg --export-secret-keys --armor --output your@id.here.priv.asc your@id.here
-gpg --export-secret-subkeys --armor --output your@id.here.sub_priv.asc your@id.here
+gpg --export-secret-keys --armor --output "${KEYGRIP}_private.asc" $KEYGRIP
+gpg --export-secret-subkeys --armor --output "${KEYGRIP}_private_sub.asc" $KEYGRIP
 
 # The GPG Trust Database is used to keep the trust values for each of the Public
 # Keys you have.
-gpg --export-ownertrust > ownertrust.txt
+gpg --output ownertrust.txt --export-ownertrust
+
+# Export revoke key
+gpg --gen-revoke --armor --output "${KEYGRIP}_revoke.asc" $KEYGRIP
 ```
 
 2. Import keys and ownertrust:
@@ -136,14 +143,8 @@ hit Enter:
 gpg --edit-key your@id.here gpg> trust Your decision? 5 Note: If you're
 ```
 
-4. Export/import revocation certificate:
+4. Import revocation certificate:
 
-Export:
-```sh
-gpg --gen-revoke --armor --output revcert.asc user-id
-```
-
-Import:
 ```sh
 echo -n "-----BEGIN PGP PUBLIC KEY BLOCK-----
 Comment: This is a revocation certificate
