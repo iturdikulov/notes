@@ -65,6 +65,9 @@ sgdisk --zap-all $DD2
 # this can take some time...
 shred --verbose --random-source=/dev/urandom -n1 --zero $DD1 &
 shred --verbose --random-source=/dev/urandom -n1 --zero $DD2
+# less secure methods
+# or blkdiscard -s $DD...
+# or dd if=/dev/zero of=/dev/sdX bs=100M ... pv /dev/zero > /dev/sdX
 
 # Create GPT partitons
 printf "label: gpt\n,550M,U\n,,L\n" | sfdisk $DD1
