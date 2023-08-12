@@ -53,7 +53,7 @@ primary key requires another key for encryption, typically paired with ElGamal.
 ## Basic commands
 
 You can generate GPG key with `gpg --generate-key` command.
-Or `gpg --full-generate-key` for more options.
+Or `gpg --full-generate-key --expert` for more options.
 
 To check GPG keys, installed on your system run `gpg --list-key`.
 
@@ -91,7 +91,7 @@ Terminal for macOS and Linux). Replace "your@id.here" with your GPG key ID:
 
 ```sh
 # First get your keys list with keygrips
-gpg -K
+gpg -k
 
 # --armor option to, in order to create an ASCII version of the key that is not
 # binary and readable
@@ -101,7 +101,7 @@ gpg -K
 # ~/.gnupg/pubring.gpg files. But we do need to backup the files directly, it is
 # better to use the --export option.
 export KEYGRIP=0X1234567890ABCDEF...
-gpg --output "${KEYGRIP}_public.pub" --export --armor keygrip $KEYGRIP
+gpg --output "${KEYGRIP}_public.pub" --export --armor $KEYGRIP
 
 # Export private key
 # Note: Although the exported Private Key is encrypted with your passphrase, be
@@ -112,9 +112,12 @@ gpg --export-secret-subkeys --armor --output "${KEYGRIP}_private_sub.asc" $KEYGR
 
 # The GPG Trust Database is used to keep the trust values for each of the Public
 # Keys you have.
-gpg --output ownertrust.txt --export-ownertrust
+gpg --export-ownertrust > all_keys_ownertrust.txt
 
-# Export revoke key
+# ~/.gnupg/openpgp-revocs.d/
+# This is the directory where gpg stores pre-generated revocation certificates. The file name corresponds to the OpenPGP fingerprint of the respective key. It is suggested to backup those certificates and if the primary private key is not stored on the disk to move them to an external storage device. Anyone who can access these files is able to revoke the corresponding key. You may want to print them out. You should backup all files in this directory and take care to keep this backup closed away.
+
+# Generate revoke key
 gpg --gen-revoke --armor --output "${KEYGRIP}_revoke.asc" $KEYGRIP
 ```
 
@@ -124,16 +127,16 @@ If you need to restore your keys and trust level (e.g., after reinstalling the
 system or on a new computer), use the following commands:
 
 ```sh
-gpg --import mypublickeys.asc
-gpg --import your@id.here.priv.asc
-gpg --import your@id.here.sub_priv.asc
+gpg --import ..._public.pub
+gpg --import ..._private.asc
+gpg --import ..._private_sub.asc
 
 # NOTE: To import the Trust Database, we need to first delete the current one:
 # rm ~/.gnupg/trustdb.gpg
 gpg --import-ownertrust ownertrust.txt
 ```
 
-3. Ultimately trust the imported key:
+3. Ultimately trust the imported key (optional if ownertrust is not imported):
 
 This step is needed to set the ultimate trust level for your keys. Run the
 following command, then type trust, then 5 (which means "ultimate trust") and
@@ -143,7 +146,7 @@ hit Enter:
 gpg --edit-key your@id.here gpg> trust Your decision? 5 Note: If you're
 ```
 
-4. Import revocation certificate:
+4. Import revocation certificate (optional, if you need revoke key):
 
 ```sh
 echo -n "-----BEGIN PGP PUBLIC KEY BLOCK-----
@@ -153,10 +156,14 @@ Comment: This is a revocation certificate
 -----END PGP PUBLIC KEY BLOCK-----" | gpg --import -
 ```
 
-operating on Windows, you might need to install GPG4Win first. If you're on
-macOS, you may need to install GPG Suite.
+5. Delete keys (optional!)
 
-5. Delete keys
+```sh
+gpg -k
+gpg --delete-keys ...
+gpg --delete-secret-keys ...
+gpg -k
+```
 
 If you want to delete the Private Key file you created, you can use the
 [[shred]] utility to delete the file permanently and make it harder to be
@@ -220,6 +227,18 @@ gpg --list-keys
 ```
 This way your default keyring, trust database, etc. get ignored, and you have a
 fresh keyring with which you can test if the conversion/import was successful.
+
+## Fix permissions
+
+To fix the " gpg: WARNING: unsafe permissions on homedir '/home/path/to/user/.gnupg' " error
+
+```sh
+chown -R $(whoami) ~/.gnupg/
+
+# Also correct the permissions and access rights on the directory
+chmod 600 ~/.gnupg/*
+chmod 700 ~/.gnupg
+```
 
 ### Key servers list:
 
