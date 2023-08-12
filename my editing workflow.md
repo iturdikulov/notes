@@ -517,3 +517,11 @@ structure. n\*
 - [ ] execute current file (open externally) leader o or leader O (run using xdg-open)
 - [ ] https://github.com/stevearc/aerial.nvim
 - [ ] https://learnvim.irian.to/basics/fold
+
+
+
+## Custom
+replace single quotes to double: `:s/\'\(.*\)\'/\"\1\"`
+
+map specific insert key in specific terminal: CTRL-K CTRL-F1 to get key code,
+then map it...
