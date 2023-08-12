@@ -80,6 +80,10 @@ could be your email address or the key ID.
 
 Indeed, your private key is critical, but other files are also important.
 
+If you want save your user attributes, signatures (including local signatures),
+and ownertrust values use `--export-options backup` on export and
+`--import-options restore` on import.
+
 1. Export keys and ownertrust:
 
 These commands are intended to export your keys and trust level. Public and
@@ -114,8 +118,13 @@ gpg --export-secret-subkeys --armor --output "${KEYGRIP}_private_sub.asc" $KEYGR
 # Keys you have.
 gpg --export-ownertrust > all_keys_ownertrust.txt
 
-# ~/.gnupg/openpgp-revocs.d/
-# This is the directory where gpg stores pre-generated revocation certificates. The file name corresponds to the OpenPGP fingerprint of the respective key. It is suggested to backup those certificates and if the primary private key is not stored on the disk to move them to an external storage device. Anyone who can access these files is able to revoke the corresponding key. You may want to print them out. You should backup all files in this directory and take care to keep this backup closed away.
+# ~/.gnupg/openpgp-revocs.d/ # This is the directory where gpg stores
+# pre-generated revocation certificates. The file name corresponds to the OpenPGP
+# fingerprint of the respective key. It is suggested to backup those certificates
+# and if the primary private key is not stored on the disk to move them to an
+# external storage device. Anyone who can access these files is able to revoke the
+# corresponding key. You may want to print them out. You should backup all files
+# in this directory and take care to keep this backup closed away.
 
 # Generate revoke key
 gpg --gen-revoke --armor --output "${KEYGRIP}_revoke.asc" $KEYGRIP
