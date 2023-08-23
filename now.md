@@ -11,34 +11,30 @@ of [[Spaced Repetition]], [[SQ3R method]] and [[education]].
 
 ## Education
 
-1. [@CodeTheHiddePetzol2000]
-2. [@ACommonSenseWengro2020]. [@CodingIntervieInterv]
-3. [@TheCProgrammiKernig1988]. Including exercises.
-4. [Math is Fun](https://www.mathsisfun.com/), alias is `mif`
-5. [[Khan Academy]], alias is `kha`
-6. [[Duolingo]], alias is `dl`
-7. [MonkeyType](https://monkeytype.com/), alias is `mt`
+My main education resources placed in [[zotero]] library. Most important things
+are under **foundation** and **review** tags. It's contain many resources, such
+as books, web-sites and web-pages, videos and many others.
 
-## Self-Expression
+## Active or long projects
 
-1. [@SvetIOsveshcheniDavid1988]
-2. [@FunWithAPencLoomis2013] and [[Drawbox]], alias is `drw`
-3. [@BlenderBeginne] and [[blender tutorials]]
-4. [@HandmadeHeroMurato2014], alias is `hnh`
-
-## Professional
-
-1. Working project
-2. [@ThePythonTuto], [[comprehensive python cheatsheet]] and
-   [@FluentPythonRamalh2021]
-3. [[LeetCode]] problems with help of [[Leetgo]], alias is `leet`
-4. [[my awesome software list|Software Utilization]]. Focus on
-   [[neovim (text editor)]] and [[my editing workflow]].
-
-## IRL
+TODO: go through each item and link zotero `@` cites
 
 1. [[Exercise Plan]]. Level-up my body.
 2. [[style of life]]. TODO: need research.
 3. [[cooking]]
+4. Working on business automation
+5. [[comprehensive python cheatsheet]]
+6. [[the python tutorial]]
+7. [[fluent python|Fluent Python book]]
+8. [[LeetCode]] problems with help of [[Leetgo]], alias is `leet`
+9. Learn and "utilize" [[my awesome software list]]
+10. Learn and "utilize" [[neovim (text editor)]] and [[my editing workflow]]
+11. Cool game development series - [[handmade hero]]
+12. Fundamental C book - [[the c programming language|The C Programming Language]]
+13. Fundamental (but simple) algorithms and data structures book - [[data structures and algorithms]]
 
-# Archive
+## Archive
+
+## Canceled
+
+
