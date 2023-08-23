@@ -32,6 +32,8 @@ TODO: go through each item and link zotero `@` cites
 11. Cool game development series - [[handmade hero]]
 12. Fundamental C book - [[the c programming language|The C Programming Language]]
 13. Fundamental (but simple) algorithms and data structures book - [[data structures and algorithms]]
+14. Playing with [[raylib]]
+15. Playing with [[godot engine]]
 
 ## Archive
 
