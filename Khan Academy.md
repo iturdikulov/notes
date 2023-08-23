@@ -12,10 +12,13 @@ sr-ease: 289
 
 # Khan Academy
 
-> Learn for free about [[mathematics|math]], [[art|art]],
-> [[computer programming|computer programming]], economics, [[physics|physics]],
-> [[chemistry|chemistry]], biology, medicine, [[finance]], history, and more.
+> Learn for free about [[mathematics]], [[art]],
+> [[computer programming]], economics, [[physics]],
+> [[chemistry]], biology, medicine, [[finance]], history, and more.
 >
-> -- [Khan Academy](https://www.khanacademy.org/)
+> —&thinsp;<cite>[Khan Academy](https://www.khanacademy.org/)</cite>
 
-![My active courses](https://www.khanacademy.org/profile/me/courses)
+Khan Academy [@RDUBFWDW#SalKhan__Khan] is good place to polish foundation skills
+in various subjects. I'm mostly interested in [[mathematics]] and [[physics]].
+
+- [My active courses](https://www.khanacademy.org/profile/me/courses)
