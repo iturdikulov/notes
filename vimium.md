@@ -4,6 +4,9 @@ tags:
   - inbox
   - outline
   - vim-tip
+sr-due: 2023-08-25
+sr-interval: 1
+sr-ease: 226
 ---
 
 # Vimium - The Hacker's Browser

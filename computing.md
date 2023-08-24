@@ -4,8 +4,8 @@ draft: true
 tags:
 - inbox
 - definition
-sr-due: 2023-05-20
-sr-interval: 3
+sr-due: 2023-11-30
+sr-interval: 98
 sr-ease: 265
 ---
 
@@ -24,4 +24,4 @@ sr-ease: 265
 ![Computer simulation, one of the main cross-computing methodologies.](<./img/GalvesLocherbach_-_High_Resolution_(1000).gif>)
 _Computer simulation, one of the main cross-computing methodologies._
 
-TODO: recreate in 3D?
+TODO: recreate in 3D using [[raylib]]?

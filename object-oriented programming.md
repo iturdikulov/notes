@@ -7,6 +7,9 @@ sr-interval: 52
 tags:
 - inbox
 - definition
+sr-due: 2023-10-01
+sr-interval: 38
+sr-ease: 228
 ---
 
 # Object-oriented programming (OOP)

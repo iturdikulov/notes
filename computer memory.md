@@ -5,9 +5,9 @@ tags:
 - inbox
 - definition
 - CS-tip
-sr-due: 2023-05-20
-sr-interval: 3
-sr-ease: 269
+sr-due: 2023-09-09
+sr-interval: 16
+sr-ease: 249
 ---
 
 # Computer memory

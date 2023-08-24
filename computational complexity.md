@@ -4,9 +4,9 @@ draft: true
 tags:
 - inbox
 - definition
-sr-due: 2023-05-20
-sr-interval: 3
-sr-ease: 268
+sr-due: 2023-09-08
+sr-interval: 15
+sr-ease: 248
 ---
 
 # Computational complexity

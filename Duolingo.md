@@ -5,9 +5,9 @@ tags:
   - inbox
   - outline
   - languages-tip
-sr-due: 2023-05-20
-sr-interval: 3
-sr-ease: 269
+sr-due: 2023-09-05
+sr-interval: 12
+sr-ease: 249
 ---
 
 # Duolingo

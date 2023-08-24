@@ -5,9 +5,9 @@ tags:
 - inbox
 - definition
 - CS-tip
-sr-due: 2023-05-20
-sr-interval: 3
-sr-ease: 266
+sr-due: 2023-09-06
+sr-interval: 13
+sr-ease: 246
 ---
 
 # Set (abstract data type)

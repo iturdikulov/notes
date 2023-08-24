@@ -22,15 +22,15 @@ TODO: go through each item and link zotero `@` cites
 
 ## My priorities to learn
 
-1. [[Exercise Plan]]. Level-up my body.
-2. [[style of life]]. TODO: need research.
-3. [[cooking]]
-4. [[how do I study computer science]]
-5. [[how do I study mathematics]]
-6. [[how do I study English language]]
-7. [[how do I study game development]]
-8. [[how do I study physics and chemistry]]
-9. Working on business automation
+1. Working on business automation
+2. [[Exercise Plan]]
+3. [[style of life]] and [[in real life (IRL)]]
+4. [[cooking]]
+5. [[how do I study computer science]]
+6. [[how do I study mathematics]]
+7. [[how do I study English language]]
+8. [[how do I study game development]]
+9. [[how do I study physics and chemistry]]
 10. [[comprehensive python cheatsheet]]
 11. [[the python tutorial]]
 12. [[fluent python|Fluent Python book]]

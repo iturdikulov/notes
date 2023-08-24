@@ -3,6 +3,9 @@ date: 2023-07-17
 tags:
   - inbox
   - outline
+sr-due: 2023-08-25
+sr-interval: 1
+sr-ease: 230
 ---
 
 # About me

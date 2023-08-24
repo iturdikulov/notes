@@ -6,9 +6,9 @@ tags:
 - inbox
 - outline
 - code-tip
-sr-due: 2023-05-19
-sr-interval: 2
-sr-ease: 248
+sr-due: 2023-09-06
+sr-interval: 13
+sr-ease: 228
 ---
 
 # Comprehensive Python Cheatsheet

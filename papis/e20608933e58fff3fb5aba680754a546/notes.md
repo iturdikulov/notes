@@ -5,6 +5,9 @@ tags:
 - inbox
 - research
 created: 2023-07-14
+sr-due: 2023-08-25
+sr-interval: 1
+sr-ease: 230
 ---
 
 A series where author show how to use taskwarrior to implement GTD.

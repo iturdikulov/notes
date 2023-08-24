@@ -5,6 +5,9 @@ tags:
 - inbox
 - research
 created: 2023-07-17
+sr-due: 2023-08-25
+sr-interval: 1
+sr-ease: 234
 ---
 
 His code repo: https://github.com/wiltaylor/dotfiles/tree/master
