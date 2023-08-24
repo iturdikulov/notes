@@ -19,7 +19,7 @@ Questions and answers formatted as flashcards.
 Looks like any popular language changes over the time, and C is not an
 exception.
 
-Goal of the [[ANSI C]] standard
+Goal of the [[ANSI_C]] standard
 ?
 Produce an unambiguous and machine-independent definition of the language C.
 In my words - universal, clear and easy to understand language because it can only mean one thing.
@@ -45,8 +45,8 @@ But its absence of restrictions and its generality make it more convenient and e
 
 # Chapter 1 - A Tutorial Introduction /9
 
-Basics of C (as language, like [[variable (computer science)]] and arithmetic
-[[expression (computer science)]]).
+Basics of C (as language, like [[Variable_(computer_science)]] and arithmetic
+[[Expression_(computer_science)]]).
 ?
 - Declarations
 - Variables and constants
@@ -100,7 +100,7 @@ Steps to compile and run a C program
 3. Load it & Run it
 5. Find out where your output went
 
-Describe this [[escape sequence]]'s:
+Describe this [[Escape_sequence]]'s:
 - `\n`
 - `\t`
 - `\b`
@@ -122,8 +122,8 @@ C program, whatever its size, consists of ==functions and variables==.
 Function contains ... that specify its computing operations to be done, and ...
 store values used during the computation.
 ?
-[[statement (computer science)]] and
-[[variable (computer science)]].
+[[Statement_(computer_science)]] and
+[[Variable_(computer_science)]].
 
 A function contains ==statements== that specify the computing
 operations to be done.
@@ -180,7 +180,7 @@ In C you must ==declare all== variables before they are used.
 
 A declaration announces ==the properties== of variables.
 
-Declaration consists of a ==[[c data types|type]], a list of one or more
+Declaration consists of a ==[[C_data_types|type]], a list of one or more
 variable names, optionally initial value==. Example: `int fahr, celsius = 0`.
 <!--SR:!2023-05-23,11,228-->
 
@@ -198,7 +198,7 @@ Float size: 4 byte sizeof(float)
 ```
 <!--SR:!2023-05-26,14,248-->
 
-Which [[c data types]] you know, for example 7 basic data types?
+Which [[C_data_types]] you know, for example 7 basic data types?
 ?
 - `char` - Character
 - `int` - Integer (signed or unsigned, short, long, long long)
@@ -269,7 +269,7 @@ Including header file, main function, variables declaration, assignment
 statements, while loop, loop body statements.
 
 `printf("%d\t%d\n", fahr, celsius);` Each % construction in the first argument
-of [[printf format string]] is paired with the:
+of [[Printf_format_string]] is paired with the:
 corresponding ==second argument==.
 
 Is printf part of C language, does it's unified?
@@ -301,7 +301,7 @@ If variable has floating-point nature, but can be written using integral values
 ==decimal points for human readers==.
 <!--SR:!2023-06-12,31,248-->
 
-[[printf format string]] check this note for details how '%'
+[[Printf_format_string]] check this note for details how '%'
 placeholder in printf work.
 
 [**Exercise 1-3.**](./@BrianWKernighanProgrammingLanguage1988/chapter_1/1-3_modify_temp_conversion.c)
@@ -687,7 +687,7 @@ Passing arguments by value called ==call by value==, while some other languages
 use call by reference (FORTRAN as example).
 <!--SR:!2023-05-15,3,267-->
 
-Worth to check [[evaluation strategy]].
+Worth to check [[Evaluation_strategy]].
 
 Call by value usually leads to more compact programs with fewer extraneous
 variables, because parameters can be treated as conveniently initialized local

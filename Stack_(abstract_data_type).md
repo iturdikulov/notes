@@ -10,8 +10,8 @@ sr-ease: 223
 
 # Stack (abstract data type)
 
-> In [[computer science]], a **stack** is an [[abstract data type]] that serves
-> as a [[collection (abstract data type)]] of elements, with two main
+> In [[Computer_science]], a **stack** is an [[Abstract_data_type]] that serves
+> as a [[Collection_(abstract_data_type)]] of elements, with two main
 > operations:
 >
 > - **Push**, which adds an element to the collection, and

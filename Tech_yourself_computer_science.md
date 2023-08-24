@@ -40,21 +40,23 @@ Study all nine subjects below, in roughly the presented order, using either the
 suggested textbook or video lecture series, but ideally both. Aim for 100-200
 hours of study of each topic, then revisit favorites throughout your career 🚀.
 
-- Subject: [Programming](#programming)
+TODO: use anchors links to sections
+
+- [[Computer_programming|Programming]]
 
   - Why study? Don’t be the person who “never quite understood” something like
     recursion.
   - Book: _Structure and Interpretation of Computer Programs_
   - Videos: Brian Harvey’s Berkeley CS 61A
 
-- Subject: [Computer Architecture](#architecture)
+- [[Computer_architecture|Computer_Architecture]]
 
   - Why study? If you don’t have a solid mental model of how a computer actually
     works, all of your higher-level abstractions will be brittle.
   - Book: _Computer Systems: A Programmer's Perspective_
   - Videos: Berkeley CS 61C
 
-- Subject: [Algorithms and Data Structures](#algorithms)
+- [[Algorithm|Algorithms]] and [[Data_structure|Data_Structures]]
 
   - Why study? If you don’t know how to use ubiquitous data structures like
     stacks, queues, trees, and graphs, you won’t be able to solve challenging
@@ -62,42 +64,43 @@ hours of study of each topic, then revisit favorites throughout your career 🚀
   - Book: _The Algorithm Design Manual_
   - Videos: Steven Skiena’s lectures
 
-- Subject: [Math for CS](#math)
+- Math for CS
 
   - Why study? CS is basically a runaway branch of applied math, so learning
     math will give you a competitive advantage.
   - Book: _Mathematics for Computer Science_
   - Videos: Tom Leighton’s MIT 6.042J
 
-- Subject: [Operating Systems](#operating-systems)
+- [[Operating_system|Operating_Systems]]
 
   - Why study? Most of the code you write is run by an operating system, so you
     should know how those interact.
   - Book: _Operating Systems: Three Easy Pieces_
   - Videos: Berkeley CS 162
 
-- Subject: [Computer Networking](#networking)
+- [[Computer_network|Computer_Networking]]
 
   - Why study? The Internet turned out to be a big deal: understand how it works
     to unlock its full potential.
   - Book: _Computer Networking: A Top-Down Approach_
   - Videos: Stanford CS 144
 
-- Subject: [Databases](#databases)
+- Databases
 
   - Why study? Data is at the heart of most significant programs, but few
     understand how database systems actually work.
   - Book: _Readings in Database Systems_
   - Videos: Joe Hellerstein’s Berkeley CS 186
 
-- Subject: [Languages and Compilers](#languages)
+- Languages and Compilers
 
   - Why study? If you understand how languages and compilers actually work,
     you’ll write better code and learn new languages more easily.
   - Book: _Crafting Interpreters_
   - Videos: Alex Aiken’s course on edX
 
-- Subject: [Distributed Systems](#distributed-systems)
+- Distributed Systems
+
   - Why study? These days, most systems are distributed systems.
   - Book: _Designing Data-Intensive Applications_ by Martin Kleppmann
   - Videos: MIT 6.824
@@ -186,7 +189,7 @@ reminder that there may be more to learn. For those who've never coded before,
 but who'd like to, you might prefer a guide like
 [this one](https://www.reddit.com/r/learnprogramming/wiki/faq#wiki_getting_started).
 
-[![Structure and Interpretation of Computer Programs](img/book_cover/sicp.jpg)](https://sarabander.github.io/sicp/html/index.xhtml)
+[![Structure and Interpretation of Computer Programs](img/tech_yourself_computer_science/sicp.jpg)](https://sarabander.github.io/sicp/html/index.xhtml)
 
 ### Computer Architecture
 
@@ -237,7 +240,7 @@ Computer Architecture” for specific readings. The lecture notes and labs are
 available online, and past lectures are
 [on the Internet Archive](https://archive.org/details/ucberkeley-webcast-PL-XXv-cvA_iCl2-D-FS5mk0jFF6cYSJs_).
 
-[![Computer Systems: A Programmer's Perspective](img/book_cover/csapp.jpg)](http://csapp.cs.cmu.edu/3e/home.html)
+[![Computer Systems: A Programmer's Perspective](img/tech_yourself_computer_science/csapp.jpg)](http://csapp.cs.cmu.edu/3e/home.html)
 
 > Hardware is the platform
 
@@ -280,8 +283,8 @@ _[How to Solve It](https://smile.amazon.com/How-Solve-Mathematical-Princeton-Sci
 as an excellent and unique guide to general problem solving; it’s as applicable
 to computer science as it is to mathematics.
 
-[![The Algorithm Design Manual](img/book_cover/skiena.jpg)](https://smile.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1848000693/)
-[![How to Solve It](img/book_cover/polya.jpg)](https://smile.amazon.com/How-Solve-Mathematical-Princeton-Science/dp/069116407X/)
+[![The Algorithm Design Manual](img/tech_yourself_computer_science/skiena.jpg)](https://smile.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1848000693/)
+[![How to Solve It](img/tech_yourself_computer_science/polya.jpg)](https://smile.amazon.com/How-Solve-Mathematical-Princeton-Science/dp/069116407X/)
 
 > I have only one method that I recommend extensively—it’s called think before
 > you write.
@@ -384,7 +387,7 @@ available as unofficial playlists on Youtube.
 
 — Bob Kahn
 
-[![Computer Networking: A Top-Down Approach](img/book_cover/top-down.jpg)](https://smile.amazon.com/Computer-Networking-Top-Down-Approach-7th/dp/0133594149/)
+[![Computer Networking: A Top-Down Approach](img/tech_yourself_computer_science/top-down.jpg)](https://smile.amazon.com/Computer-Networking-Top-Down-Approach-7th/dp/0133594149/)
 
 ### Databases
 
@@ -421,8 +424,8 @@ Finally, data modeling is a neglected and poorly taught aspect of working with
 databases. Our suggested book on the topic is
 _[Data and Reality: A Timeless Perspective on Perceiving and Managing Information in Our Imprecise World](https://www.amazon.com/Data-Reality-Perspective-Perceiving-Information/dp/1935504215)_.
 
-[![Readings in Database Systems](img/book_cover/redbook.jpg)](http://www.redbook.io/)
-[![Data and Reality](img/book_cover/data-reality.jpg)](https://www.amazon.com/Data-Reality-Perspective-Perceiving-Information/dp/1935504215)
+[![Readings in Database Systems](img/tech_yourself_computer_science/redbook.jpg)](http://www.redbook.io/)
+[![Data and Reality](img/tech_yourself_computer_science/data-reality.jpg)](https://www.amazon.com/Data-Reality-Perspective-Perceiving-Information/dp/1935504215)
 
 ### Languages and Compilers
 
@@ -451,7 +454,7 @@ utilize the Dragon Book, if you so choose, is as a supplementary reference for a
 video lecture series. Our recommended one is
 [Alex Aiken’s, on edX](https://www.edx.org/course/compilers).
 
-[![Compilers: Principles, Techniques & Tools](img/book_cover/dragon.jpg)](https://smile.amazon.com/Compilers-Principles-Techniques-Tools-2nd/dp/0321486811)
+[![Compilers: Principles, Techniques & Tools](img/tech_yourself_computer_science/dragon.jpg)](https://smile.amazon.com/Compilers-Principles-Techniques-Tools-2nd/dp/0321486811)
 
 > Don’t be a boilerplate programmer. Instead, build tools for users and other
 > programmers. Take historical note of textile and steel industries: do you want
@@ -486,7 +489,7 @@ distributed systems absolutely mandates reading papers. A good list is
 [here](http://dsrg.pdos.csail.mit.edu/papers/), and we would highly encourage
 attending your local [Papers We Love](http://paperswelove.org/) chapter.
 
-[![Designing Data-Intensive Applications](img/book_cover/ddia.jpg)](https://smile.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable-ebook/dp/B06XPJML5D/)
+[![Designing Data-Intensive Applications](img/tech_yourself_computer_science/ddia.jpg)](https://smile.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable-ebook/dp/B06XPJML5D/)
 
 ## Frequently asked questions
 

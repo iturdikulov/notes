@@ -34,7 +34,7 @@ C++, Java, etc.
 
 - Start interactive interpreter mode: `python3`.
 - Exit <kbd>C-d</kbd>, <kbd>C-z</kbd> or `quit()`.
-- Interpreter support [[GNU readline]] library.
+- Interpreter support [[GNU_readline]] library.
 - `python -c` - execute Python code.
 - `python -m [arg]` - execute Python module.
 - `python -i` - start interactive interpreter mode, can be combined with `-c`
@@ -46,12 +46,12 @@ standard input) or module name (`python -m -i lzma`).
 
 In `sys.argv` also stored `-c` (not sure) and `-m` arguments.
 
-By default, Python source files are treated as encoded in [[unicode|UTF-8]], but
-standard library only use [[ascii]] characters for identifiers, this convention
+By default, Python source files are treated as encoded in [[Unicode|UTF-8]], but
+standard library only use [[Ascii]] characters for identifiers, this convention
 that any portable code should follow.
 
 If you need to set not UTF-8 encoding, use `# -*- coding: encoding -*-` comment
-as first line or after [[shebang (unix)]]:
+as first line or after [[Shebang_(unix)]]:
 
 ```python
 #!/usr/bin/env python3
@@ -84,7 +84,7 @@ print(5 ** 2)  # 5 squared
 print(2 ** 7)  # 2 to the power of 7
 ```
 
-[[operator (computer programming)|Operators]] with mixed type [[operand]]'s
+[[Operator_(computer_programming)|Operators]] with mixed type [[Operand]]'s
 convert the integer operand to floating point
 
 ```python
@@ -116,8 +116,8 @@ price + _         # 113.0625
 round(_, 2)       # 113.06
 ```
 
-Python support various [[data type]]'s such as: Int, Float, Decimal and
-Fraction, [[complex number]]'s (using `j` or `J` suffix - `3+5j`).
+Python support various [[Data_type]]'s such as: Int, Float, Decimal and
+Fraction, [[Complex_number]]'s (using `j` or `J` suffix - `3+5j`).
 
 In Python all these types are objects, so they have methods and attributes.
 
@@ -132,7 +132,7 @@ print("\"Yes,\" they said.")
 print('"Isn\'t", they said.')
 ```
 
-In interactive mode [[escape sequence]] not recognized, so use `print()`
+In interactive mode [[Escape_sequence]] not recognized, so use `print()`
 function.
 
 You can disable escaping by using raw strings:
@@ -238,7 +238,7 @@ characters. How do you think this table is constructed (row 1, 2, 3)?
  -6. -5. -4. -3. -2. -1.
 ```
 
-Python strings are ==[[immutable object]]'s==.
+Python strings are ==[[Immutable_object]]'s==.
 
 So you can't assign new value to character in string.
 
@@ -268,7 +268,7 @@ s = '😀😀😀😀😀😀😀😀😀😀' '😀😀😀😀😀😀😀😀
 print(len(s))  # 4
 ```
 
-Most versatile [[data type]] is [[list (abstract data type)]]. In Python list
+Most versatile [[Data_type]] is [[List_(abstract_data_type)]]. In Python list
 can contain elements of different types, but usually used one type.
 
 ```python
@@ -276,7 +276,7 @@ squares = [1, 4, 9, 16, 25]
 print(squares)  # [1, 4, 9, 16, 25]
 ```
 
-Lists like [[String_literal]] and [[iterator]] can be indexed and sliced.
+Lists like [[String_literal]] and [[Iterator]] can be indexed and sliced.
 
 ```python
 squares = [1, 4, 9, 16, 25]
@@ -345,7 +345,7 @@ x = [a, n]
 print(x) # [['a', 'b', 'c'], [1, 2, 3]]
 ```
 
-[[fibonacci sequence]]:
+[[Fibonacci_sequence]]:
 
 ```python
 a, b = 0, 1  # multiple assignment, initialize variables
@@ -364,13 +364,13 @@ while a < 10:
 Order of Evaluation in Python expression ? In Python, the left operand is always
 evaluated before the right operand.
 
-Non-zero and (zero or [[null pointer|None]]) values in Python (and C) considered
-as ([[boolean data type]])? Non-zero and zero length values considered as? ?
+Non-zero and (zero or [[Null_pointer|None]]) values in Python (and C) considered
+as ([[Boolean_data_type]])? Non-zero and zero length values considered as? ?
 True and False. Length also True and False.
 
 ## [4. More Control Flow Tools](https://docs.python.org/3/tutorial/controlflow.html)
 
-[[control flow]] - more info.
+[[Control_flow]] - more info.
 
 ```python
 if x < 0:
@@ -432,7 +432,7 @@ What you will see in interactive python session if you enter this:
 [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 ```
 
-And you can also specify [[increment and decrement operators|increment]] for
+And you can also specify [[Increment_and_decrement_operators|increment]] for
 step size. Which can be positive or negative.
 
 ```python
@@ -475,7 +475,7 @@ print(range(10))  # range(0, 10)
 
 TODO: add #loop into control flow
 
-In python [[control flow#loop]] statements may have a `else` clause.
+In python [[Control_flow#loop]] statements may have a `else` clause.
 
 It is executed if loop wasn't `break`ed (we iterated over all items in `for` or
 `while` condition become `False`).
@@ -512,7 +512,7 @@ for num in range(2, 10):
         print("Found an odd number", num)
 ```
 
-`pass` is a [[null function|null operation]] (statement, while `None` is an
+`pass` is a [[Null_function|null_operation]] (statement, while `None` is an
 object). When it is executed, nothing happens. It is useful as a placeholder
 when a statement is required syntactically, but no code needs to be executed
 
@@ -531,7 +531,7 @@ except ImportError:
 ```
 
 A match statement compare expression with successive patterns until one or more
-matches. So this is [[pattern matching]].
+matches. So this is [[Pattern_matching]].
 
 > Only the first pattern that matches gets executed and it can also extract
 > components (sequence elements or object attributes) from the value into

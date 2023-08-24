@@ -1,0 +1,316 @@
+---
+date: 2022-12-29
+draft: true
+sr-due: 2023-03-16
+sr-ease: 250
+sr-interval: 3
+tags:
+- inbox
+- outline
+sr-due: 2023-05-24
+sr-interval: 7
+sr-ease: 230
+---
+
+# My Music
+
+> Music is generally defined as the [[Art]] of arranging sound to create some
+> combination of form, harmony, melody, rhythm or otherwise expressive content.
+> Definitions of music vary depending on culture, though it is an aspect of all
+> human societies, a cultural universal.
+>
+> -- [Wikipedia](https://en.wikipedia.org/wiki/Music)
+
+- [ ] ~~tidal & sound server~~
+- [x] [Katana Zero (Original Soundtrack)](https://open.spotify.com/album/23KCp1w3aJeKdMrqcyodWK)
+- [ ] Mulan soundtrack
+- [ ] Stellaris soundtrack
+
+# Tracks
+
+- TODO: https://open.spotify.com/collection/tracks
+- Deep Purple - Smoke on the Water
+- Это всё, что останется после меня...
+- 2 UNLIMITED - No Limi
+- 25 к 10
+- ABBA - Gimme! Gimme! Gimme!
+- AC/DC - Highway to Hell
+- Abba - Mamma Mia
+- Ace of Base - The Sign
+- Adele - Rolling in the Deep
+- Aerosmith - Dream On
+- Alice Cooper - Poison
+- Alphaville - Forever Young
+- Bee Gees - Stayin' Alive
+- Beethoven - Für Elise
+- Beethoven's 5th Symphony
+- Blue Oyster Cult - (Don't Fear) The Reaper
+- Bob Dylan - The Times They Are A-Changin'
+- Boney M. - Rasputin (
+- Chordettes - Lollipop
+- College & Electric Youth - A Real Hero
+- Coolio - Gangsta's Paradise
+- Creedence Clearwater Revival - Fortunate Song
+- DMX - Party Up
+- Depeche Mode - Enjoy The Silence
+- Depeche Mode - Personal Jesus
+- Depeche Mode - Stripped (Official Video)
+- Die, Die My Darling - Metallica Lyrics
+- Dj Smash - Moscow never sleeps
+- Eagles - Hotel California
+- Ed Sheeran - Shape of You
+- Elvis Presley - Can't Help Falling In Love
+- Eminem - Without Me
+- Europe - The Final Countdown
+- Five Stars - Atom Bomb Baby
+- Flashdance - Maniac Full
+- Foo Fighters - The Pretender
+- Frank Sinatra I Love You Baby
+- Fun Fun Fun- The Beach Boys
+- George Michael - Careless Whisper
+- Gloria Gaynor - I Will Survive
+- Green Day - American Idiot
+- Hallelujah Rufus Wainwright
+- Hollywood Undead - Undead
+- Hozier - Take Me To Church
+- Iggy Pop - The Passenger
+- Imagine Dragons - Demons
+- Indila - Dernière Danse
+- Initial D - Deja Vu
+- James Brown - I Feel Good
+- Joe Cocker - You Can Leave Your Hat On
+- Johnny Cash - Hurt
+- Kiss - I Was Made For
+- Lana Del Rey - Young and Beautiful
+- Live And Let Die
+- MGMT - Little Dark Age
+- MIKA - Relax, Take It Easy
+- Mariah Carey - Hero
+- Metallica - King Nothing
+- Metallica - The Unforgiven
+- Metallica: Enter Sandman
+- Metallica: Nothing Else Matters
+- Michael Jackson - Beat It
+- Michael Jackson - Billie Jean
+- Michael Jackson - Black Or White
+- Michael Jackson - Earth Song
+- Michael Jackson - Thriller
+- Michael Jackson - Smooth Criminal
+- Modern Talking - Cheri Cheri Lady
+- Mr. Tambourine Man
+- Mr.Kitty - After Dark
+- Nirvana - About A Girl
+- Oasis - Slide Away
+- Offenbach - Infernal Galop
+- Opus - Life Is Life
+- P!nk - So What
+- Papa Roach - Last Resort
+- R.E.M. - Losing My Religion
+- Rammstein - Moskau
+- Red Hot Chili Peppers - Californication
+- Red Hot Chili Peppers - Can't Stop
+- Rick Astley - Never Gonna Give You Up
+- Rossini: William Tell Overture: Final
+- SABATON - Night Witches
+- Sandra - In The Heat Of The Night
+- Scorpions - Lonely Nights
+- Scorpions - Wind Of Change
+- Shocking Blue - Venus
+- Simon and Garfunkel - The Sound of Silence
+- Spice Girls - Wannabe
+- Status Quo - In The Army Now
+- Sum 41 - Still Waiting
+- Tchaikovsky Nutcracker Highlights (2/4); March/Snowflakes Waltz; Lanchbery
+- The Black Eyed Peas
+- The Doors - People Are Strange
+- The Doors - Riders On The Storm
+- The Killers - Mr. Brightside
+- The Mamas & The Papas
+- The Platters - Only Your
+- The Police - Every Breath You Take
+- The Prodigy - 'Breathe'
+- The Prodigy - Invaders Must Die
+- The Prodigy - Voodoo People
+- The Rolling Stones - (I Can't Get No)
+- The Rolling Stones - Paint It, Black
+- The Trashmen - Surfin Bird - Bird is the Word
+- The Weather Girls - It's Raining Men
+- The White Stripes - Seven Nation Army
+- The Who - Behind Blue Eyes
+- Third Eye Blind - Jumper
+- Ween - Ocean Man
+- Whiplash - Metallica
+- Wolf Alice - Silk
+- Wolfgang Amadeus Mozart: Eine kleine Nachtmusik
+- You Never Can Tell
+- ZAZ - Je veux
+- Zемфира - СПИД
+- a-ha - Take On Men
+- a-ha - Take On Men
+- blink-182 - All The Small Things
+- t.A.T.u. - All The Things She Said
+- twenty one pilots: Stressed Out
+- Агата Кристи - Как на войне
+- Альянс - На заре
+- Би-2 - Bowie
+- Би-2 - Вечная призрачная встречная
+- Би-2 — Полковнику никто не пишет (
+- Градусы — Режиссер
+- Гражданская Оборона - Про дурачка
+- Григорий Лепс - Рюмка водки на столе
+- Группа "Форум" - "Белая ночь".
+- ДДТ - Актриса Весна
+- ДДТ - Что такое осень
+- Жуки - Батарейка.
+- Здравствуй песня - Синий, синий иней
+- Игорь Корнелюк - Дожди
+- Кипелов - Я свободен
+- Лариса Мондрус "Проснись и пой"
+- Ласковый май - Белые розы
+- Линда - Мало Огня
+- Мария Пахоменко - Стоят девчонки
+- Марк Бернес - Журавли
+- Машина Времени - Однажды мир прогнётся под нас
+- Муслим Магомаев Королева красоты
+- Нам нужна одна победа - Песни военных лет
+- Наутилус Помпилиус - Скованные одной цепью
+- Песня о друге (1967) Владимир Высоцкий
+- Седая ночь
+- Сектор газа - Лирика
+- Солдатами не рождаются
+- Стас Михайлов Всё для тебя
+- Татьяна Буланова - Ясный мой свет
+- Юлия Савичева — Если в сердце живет любовь
+- Юность В Сапогах Песня
+- Я спросил у ясеня
+- Янка Дягилева. Нюркина песня
+- ёмная ночь Поёт Марк Бернес
+- Lou Bega - Mambo No. 5
+- Nelly Furtado - Say It Right
+- Pixies - Where Is My Mind
+- System Of A Down - Chop Suey!
+- Vivaldi - Spring
+- ЛЕСНИК
+- Prokofiev - Dance of the Knights
+- Al Bano & Romina Power "Felicita"
+- Whitney Houston - I Will Always Love Your
+- Звери - Районы-кварталы
+- Земфира — Искала
+- Крис Кельми - Ночное рандеву
+- Foster The People - Pumped Up Kicks
+- Boney M. - Sunny
+- Lana Del Rey - Summertime Sadness
+- AWOLNATION - Sail
+- Black Strobe - I'm A Man
+- Grieg - In the Hall of the Mountain King
+- Pink Floyd - Another Brick In The Wall,
+- Комбинация - American Boy
+- Three Days Grace - Animal I Have Become
+- Sia - Chandelier
+- Duran Duran - Come Undone
+- Смысловые Галлюцинации - Вечно Молодой
+- Twisted Sister - I Wanna Rock
+- Cascada - Everytime We Touch
+- ATC / A Touch of Class - Around the World
+- Corona - The Rhythm of the Night
+- СПЛИН - Выхода нет
+- Total - Бьет по глазам
+- Мумий Тролль - Владивосток 2000
+- Bon Jovi - It's My Life
+- Daft Punk - Harder, Better, Faster, Stronger
+- Bon Jovi - Livin' On A Prayer
+- Van Halen - Jump
+- Bang a Gong (Get It On)
+- Ace of Base - Beautiful Life
+- Mariah Carey - All I Want For Christmas Is You
+- Ray Parker Jr. - Ghostbusters
+- Five - Everybody Get Up
+- Mo-Do - Eins Zwei Polizei
+- Carly Rae Jepsen - Call Me Maybe
+- Tom Jones, Mousse T. - Sexbomb
+- Мираж - Музыка нас связала
+- Muse - Supermassive Black Hole
+- George Harrison - Got My Mind Set On You
+- Позови меня с собой
+- Belinda Carlisle - Heaven Is A Place On Earth
+- Roxette - Sleeping In My Car
+- Ram Jam - Black Betty
+- Земляне - Трава у дома
+- ВИА Поющие сердца
+- Андрей Губин - Лиза
+- Nickelback - How You Remind Me
+- Survivor - Eye Of The Tiger
+- Blue Swede - Hooked on a Feeling
+- Scorpions - Send Me An Angel
+- The Fray - How to Save a Life
+- Natalie Imbruglia - Torn
+- Blondie - One Way Or Another
+- Avicii - Wake Me Up
+- Sum 41 - Pieces
+- twenty one pilots: Heathens
+- Richard Wagner - Ride of The Valkyries
+- System Of A Down - Aerials
+- OneRepublic - All The Right Moves
+- Timbaland - Apologize ft. OneRepublic
+- Elvis Presley - Jailhouse Rock
+- Carl Orff - O Fortuna ~ Carmina Burana
+- Rag'n'Bone Man - Human
+- Bleed It Out - Linkin Park
+- The Weeknd - Blinding Lights
+- Chris DeBurgh - Lady In Red
+- The Smiths - How Soon Is Now?
+- Queen - We Will Rock You
+- Limp Bizkit - Rollin'
+- Rammstein - Deutschland
+- blink-182 - What's My Age Again?
+- Rick Astley - Together Forever
+- Roxette - Listen To Your Heart
+- Woodkid - Run Boy Run
+- t.A.T.u. - All About Us
+- Ylvis - The Fox (What Does The Fox Say?)
+- The Beatles - Hey Jude
+- Righteous Brothers - Unchained Melod
+- Britney Spears - Oops!...I Did It Again
+- Чичерина - Ту-лу-ла
+- Nirvana - Lithium
+- Bob Marley - No Women No Cry
+- Nirvana - Dumb
+- Sleeper - Atomic
+- М Магомаев Серенада Трубадура Луч
+- Mr.President - Coco Jamboo
+- Mattafix - Big City Life
+- Katy Perry - Roar
+- Coldplay - The Scientist
+- Devil Like You - Gareth Dunlop
+- Ляпис Трубецкой - Капитал
+- Phil Collins - Another Day In Paradise
+- Nancy Sinatra - These Boots Are Made For Walkin'
+- Imagine Dragons - Thunder
+- Frankie Goes To Hollywood - Relax
+- Би-2 - Варвара
+- Boney M. - Daddy Cool
+- Joan Jett & The Blackhearts - I Hate Myself for Loving
+- Remy Zero - Save Me
+- The Weeknd - Starboy ft. Daft Punk
+- Thirty Seconds To Mars - Walk On Water
+- The Tokens - The Lion Sleeps Tonight
+- Jim Croce - Time in a bottle
+- Village People - YMCA OFFICIAL
+- Green Day - Longview
+- Oh, Pretty Woman
+- Bloodhound Gang - The Bad Touch
+- Marilyn Monroe - I Wanna Be Loved By You
+- Funkytown- Lipps Inc
+- Hot Stuff
+- MC Hammer - U Can't Touch This
+- House Of The Rising Sun
+- Mötley Crüe - Kickstart My Heart
+- Я хочу быть с тобой
+- Smash Mouth - I'm A Believer
+- Игорь Скляр - Комарово
+- dumb - nirvana
+
+## Resources
+
+- [MusicBrainz - The Open Music Encyclopedia](https://musicbrainz.org/), useful
+  for finding the correct artist and album name

@@ -20,8 +20,8 @@ Generally Taskwarrior is CLI To-Do list manager.
 Features:
 - plain text format (avoid proprietary formats)
 - cross-platform
-- [[open-source]]
-- [[command-line interface]]
+- [[Open-source]]
+- [[Command-line_interface]]
 - many extensions and integrations, like Taskwarrior Server and Taskwarrior TUI
 - integrations, most popular Timewarrior and Taskserver, TODO: add note/use it
 

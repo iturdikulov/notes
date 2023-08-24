@@ -16,7 +16,7 @@ sr-ease: 210
 
 Site - [LeetCode](https://leetcode.com/)
 
-CLI tool to interact with the site - [[Leetgo]].
+CLI tool to interact with the site - [[Leetgo_(software)|Leetgo]].
 
 ## Resources
 
