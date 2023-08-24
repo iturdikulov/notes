@@ -7,7 +7,7 @@ tags:
 # Now
 
 My current focus is on following things, order is not important. All with help
-of [[Spaced Repetition]], [[SQ3R method]] and [[education]].
+of [[Spaced Repetition]], [[Sq3R method]] and [[education]].
 
 ## Education
 

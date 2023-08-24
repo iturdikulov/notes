@@ -69,7 +69,7 @@ Here my "to learn" articles list: [[my articles list (publishing)]].
 Since I'm use [[zettelkasten]], I can create new notes based on education
 materials and extend them with different sources, my experience, etc.
 
-To study effectively I use [[SQ3R method]], [[how to study|study techniques]]
+To study effectively I use [[Sq3R method]], [[how to study|study techniques]]
 and various methods [[how to solve it]]. More information here - [[education]].
 
 It's not enough to study only, need continuously practice (use your knowledge)
