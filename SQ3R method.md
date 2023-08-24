@@ -11,7 +11,8 @@ tags:
 
 # SQ3R method
 
-This is sort of [@SQ3R2022] optimization of the reading process.
+This is sort of optimization of the reading process.
+This note are based on [@UXGIZVBL#No_Author_2023_Sq3R].
 
 ## How I use it
 
