@@ -50,7 +50,7 @@ after finishing studying.
 
 1. Study with social groups increase your ==motivation== and help you to learn.
    It's also provided challenge and competition.
-   
+
 1. Read the ==whole chunk of material== and then get back and read and
    understand the 1st paragraph again, one by one.
 1. Sleep well, have a good rest for your memory, your brain do
@@ -70,10 +70,3 @@ after finishing studying.
 9. Use ==[[spaced repetition]]==, research software like [[papis]] and
    [[zettelkasten]] method.
 
-## My priorities to learn
-
-- [[how do I study computer science]]
-- [[how do I study mathematics]]
-- [[how do I study English language]]
-- [[how do I study game development]]
-- [[how do I study physics and chemistry]]

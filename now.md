@@ -19,21 +19,29 @@ as books, web-sites and web-pages, videos and many others.
 
 TODO: go through each item and link zotero `@` cites
 
+
+## My priorities to learn
+
 1. [[Exercise Plan]]. Level-up my body.
 2. [[style of life]]. TODO: need research.
 3. [[cooking]]
-4. Working on business automation
-5. [[comprehensive python cheatsheet]]
-6. [[the python tutorial]]
-7. [[fluent python|Fluent Python book]]
-8. [[LeetCode]] problems with help of [[Leetgo]], alias is `leet`
-9. Learn and "utilize" [[my awesome software list]]
-10. Learn and "utilize" [[neovim (text editor)]] and [[my editing workflow]]
-11. Cool game development series - [[handmade hero]]
-12. Fundamental C book - [[the c programming language|The C Programming Language]]
-13. Fundamental (but simple) algorithms and data structures book - [[data structures and algorithms]]
-14. Playing with [[raylib]]
-15. Playing with [[godot engine]]
+4. [[how do I study computer science]]
+5. [[how do I study mathematics]]
+6. [[how do I study English language]]
+7. [[how do I study game development]]
+8. [[how do I study physics and chemistry]]
+9. Working on business automation
+10. [[comprehensive python cheatsheet]]
+11. [[the python tutorial]]
+12. [[fluent python|Fluent Python book]]
+13. [[LeetCode]] problems with help of [[Leetgo]], alias is `leet`
+14. Learn and "utilize" [[my awesome software list]]
+15. Learn and "utilize" [[neovim (text editor)]] and [[my editing workflow]]
+16. Cool game development series - [[handmade hero]]
+17. Fundamental C book - [[the c programming language|The C Programming Language]]
+18. Fundamental (but simple) algorithms and data structures book - [[data structures and algorithms]]
+19. Playing with [[raylib]]
+20. Playing with [[godot engine]]
 
 ## Archive
 
