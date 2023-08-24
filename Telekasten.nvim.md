@@ -13,7 +13,7 @@ sr-ease: 272
 # Telekasten.nvim
 
 > A Neovim (lua) plugin for working with a text-based, markdown zettelkasten /
-> wiki and mixing it with a journal, based on [[telescope.nvim]]
+> wiki and mixing it with a journal, based on [[Telescope.nvim]]
 
 TODO:
 

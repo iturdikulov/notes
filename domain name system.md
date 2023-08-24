@@ -15,7 +15,7 @@ sr-ease: 210
 # Domain Name System (DNS)
 
 > Hierarchical and distributed naming system for computers, services, and other
-> resources in the [[the internet|internet]] or other Internet Protocol (IP)
+> resources in the [[Internet|internet]] or other Internet Protocol (IP)
 > [[computer network|networks]]. It associates various information with domain
 > names assigned to each of the associated entities. Most prominently, it
 > translates readily memorized domain names to the numerical IP addresses needed

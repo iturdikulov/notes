@@ -12,7 +12,7 @@ sr-ease: 274
 # Internet protocol suite (TCP/IP)
 
 > Is a framework for organizing the set of communication protocols used in the
-> [[the internet|internet]] and similar [[computer network]]'s according to
+> [[Internet|internet]] and similar [[computer network]]'s according to
 > functional criteria. The foundational protocols in the suite are the
 > Transmission Control Protocol (TCP), the User Datagram Protocol (UDP), and the
 > Internet Protocol (IP).

@@ -12,7 +12,7 @@ sr-interval: 223
 sr-ease: 270
 ---
 
-# The Internet
+# Internet
 
 > The Internet (or internet) is the **global system** of interconnected
 > [[computer network|computer networks]] that uses the Internet protocol suite

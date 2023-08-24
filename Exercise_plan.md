@@ -12,7 +12,7 @@ sr-interval: 9
 sr-ease: 210
 ---
 
-# Exercise Plan
+# Exercise plan
 
 If you're completely new to physical training and want to use only your own body
 weight, you can start with a basic full-body routine that targets all major

@@ -120,7 +120,7 @@ Check also [[my shell scripts]] and
   [[bitlbee|more info]]
 - [Firefox](https://www.mozilla.org/en-US/firefox/new/) - web browser,
   [[firefox|more info]]
-- [[surfingkeys]] - keyboard-based navigation in web browser
+- [[Surfingkeys]] - keyboard-based navigation in web browser
 - [slack-desktop](https://slack.com/) - Slack Desktop for Linux
 - [discord](https://discord.com/) - Discord Instant Messenger
 - [lynx](https://lynx.invisible-island.net/) - text-based web browser
@@ -228,7 +228,7 @@ Check also [[my shell scripts]] and
 - [rsync](https://rsync.samba.org/) - fast and extraordinarily versatile file
   copying tool
 - [syncthing](https://syncthing.net/) - is a continuous file synchronization
-  program, [[syncthing|more info]]
+  program, [[Syncthing|more info]]
 - [wireguard](https://www.wireguard.com/) - simple yet fast and modern VPN
 - [wireshark](https://www.wireshark.org/) - network protocol analyzer
 - [nmap](https://nmap.org/) - network scanner

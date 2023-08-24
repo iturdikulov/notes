@@ -13,7 +13,7 @@ sr-ease: 248
 
 > In [[computer science]], the computational complexity or simply complexity of
 > an algorithm is the amount of resources required to run it. Particular focus
-> is given to [[time complexity|computation time]](generally measured by the
+> is given to [[Time_complexity|computation time]](generally measured by the
 > number of needed elementary operations) and memory storage requirements. The
 > complexity of a problem is the complexity of the best algorithms that allow
 > solving the problem.

@@ -62,7 +62,7 @@ yes, empty items has address in memory
 > [[matrix (mathematics)|matrix]], array types with one and two indices are
 > often called **vector type** and **matrix type**, respectively. More
 > generally, a multidimensional array type can be called a **tensor type**, by
-> analogy with the physical concept, [[tensor]].
+> analogy with the physical concept, [[Tensor]].
 So in general array is a 1 way storing several items (such as integers). Usually
 array store the same type of items (this depending on language). Every item in
 array indexed (by integer number starting from 0) and you can access array item

@@ -6,7 +6,7 @@ tags:
 
 # My daily activities and goals
 
-This page contains actual lists of things I'm doing [[now]] (daily activities),
+This page contains actual lists of things I'm doing [[Now]] (daily activities),
 long term goals and some other things. I need constantly check and update this
 page, because all things are changing.
 
@@ -40,7 +40,7 @@ I'm connecting with them by voice calls, sometimes text messages. Here is
 
 ## Exercise and health
 
-Right now I'm trying to follow my personal [[Exercise Plan]] and
+Right now I'm trying to follow my personal [[Exercise_plan]] and
 [[my everyday life (routine)]] routine.
 
 ## Relax and fun
@@ -69,7 +69,7 @@ Here my "to learn" articles list: [[my articles list (publishing)]].
 Since I'm use [[zettelkasten]], I can create new notes based on education
 materials and extend them with different sources, my experience, etc.
 
-To study effectively I use [[Sq3R method]], [[how to study|study techniques]]
+To study effectively I use [[Sq3R_method]], [[How_to_study|study techniques]]
 and various methods [[how to solve it]]. More information here - [[education]].
 
 It's not enough to study only, need continuously practice (use your knowledge)
@@ -84,4 +84,4 @@ Check this note [[in real life (irl)]].
 ## Mentoring and helping
 
 I don't think I'm great at this, but I'm trying to help people on [[GitHub]],
-and in future on [[stack overflow]]. Sometimes on different platforms or IRL.
+and in future on [[Stack_Overflow]]. Sometimes on different platforms or IRL.

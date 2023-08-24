@@ -1,8 +1,9 @@
 ---
 title: "The C Programming Language"
 tags:
-  - "code-tip"
-  - "research"
+  - research
+  - inbox
+  - CS-tip
 ---
 
 The authors of this book [@TheCProgrammiKernig1988] present the

@@ -33,4 +33,4 @@ Don't forget that creating the file from here may create the file in the wrong d
 - [[~/.config/nvim/lua/inomoz/packer.lua]] in [[neovim (text editor)]]
 - [[papis/82951c75090ce154272484448309812b-neil-drew/notes]] in [[neovim (text editor)]]
 - [[./_examples/example_1.py]] in [[papis/2020-wengrow-jay-data-structures-and-algorithms/notes]]
-- [[papis/6f4cd97a258ac7dc7cdc966fdbcdb2bc/notes]] in [[touch typing]]
+- [[papis/6f4cd97a258ac7dc7cdc966fdbcdb2bc/notes]] in [[Touch_typing]]

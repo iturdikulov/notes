@@ -31,7 +31,7 @@ He recommends buying a mechanical keyboard, which I already have, and I like it.
 
 1. "Proper posture is important as minor discomforts get amplified over time." I
    agree, and definitely need to improve my posture. And combine it with
-   [[Exercise Plan]].
+   [[Exercise_plan]].
 
 2. "Measure your progress often" If I use training tools, I'll measure my
    progress often.
@@ -67,7 +67,7 @@ help me with this.
 
 11. "Use a typing trainer to re-enforce the mental model"
 
-Refer to [[touch typing]] for more details.
+Refer to [[Touch_typing]] for more details.
 
 11. "Don’t look at the keyboard"
 

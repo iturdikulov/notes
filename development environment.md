@@ -29,7 +29,7 @@ NEXT: review this
   - adblocker
   - research
 - Other:
-  - [[suckless.org]]
+  - [[Suckless.org]]
   - [[self-hosting (web services)]]
   - [[hugo]]
   - [[Microsoft Windows]]

@@ -160,7 +160,7 @@ Usage: thingy [OPTIONS]
 > between the two is that within single quotes you don’t need to escape " (but
 > you have to escape \') and vice versa.
 
-[[string literal]] can be multiple lines by `"""` triple double or single `'''`
+[[String_literal]] can be multiple lines by `"""` triple double or single `'''`
 quotes. You can use `\` character to prevent automatically inserting new line in
 output (useful for formatting).
 
@@ -276,7 +276,7 @@ squares = [1, 4, 9, 16, 25]
 print(squares)  # [1, 4, 9, 16, 25]
 ```
 
-Lists like [[string literal]] and [[iterator]] can be indexed and sliced.
+Lists like [[String_literal]] and [[iterator]] can be indexed and sliced.
 
 ```python
 squares = [1, 4, 9, 16, 25]

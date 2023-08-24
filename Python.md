@@ -35,7 +35,7 @@ sr-ease: 267
 >
 > Python is a multi-paradigm programming language.
 > [[object-oriented programming|object-oriented]] programming and
-> [[structured programming|structured programming]] are fully supported, and
+> [[Structured_programming|structured programming]] are fully supported, and
 > many of their features support
 > [[functional programming|functional programming]] and aspect-oriented
 > programming (including metaprogramming and metaobjects). Many other paradigms
@@ -71,10 +71,10 @@ Python is [dynamically typed] and [garbage-collected].
 
 It supports any popular [[programming paradigm]]:
 
-- [[structured programming]]
+- [[Structured_programming]]
 - [[procedural programming]]
 - [[object-oriented programming]]
 - [[functional programming]]
 
-Rich [[the python standard library|standard library]] make it's "batteries
+Rich [[Python_standard_library|standard library]] make it's "batteries
 included" language.

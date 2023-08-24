@@ -18,7 +18,7 @@ sr-ease: 270
 > process of finding the computational complexity of algorithms—the amount of
 > time, storage, or other resources needed to execute them.
 > Usually, this involves determining a function that relates the size of an
-> algorithm's input to the number of steps it takes (its [[time complexity]]) or
+> algorithm's input to the number of steps it takes (its [[Time_complexity]]) or
 > the number of storage locations it uses (its space complexity). An algorithm
 > is said to be efficient when this function's values are small, or grow slowly
 > compared to a growth in the size of the input. Different inputs of the same

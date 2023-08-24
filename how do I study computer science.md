@@ -48,7 +48,7 @@ want to know.
 **Level 3** - expert knowledge, which I want to know. This also includes some
 books not directly related to computer science.
 
-## [[tech yourself computer science|Computer Science Roadmap]]
+## [[Tech_yourself_computer_science|Computer Science Roadmap]]
 
 ## [[my backend developer roadmap|Backend Developer Roadmap]]
 
