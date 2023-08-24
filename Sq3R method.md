@@ -9,7 +9,7 @@ tags:
 - definition
 ---
 
-# SQ3R method
+# Sq3R reading method
 
 This is sort of optimization of the reading process.
 This note are based on [@UXGIZVBL#No_Author_2023_Sq3R].
