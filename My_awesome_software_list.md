@@ -194,7 +194,7 @@ Check also [[My_shell_scripts_(software)|my scripts]] and
 - [ytfzf](https://github.com/pystardust/ytfzf) - POSIX script that helps you
   find and download YouTube videos
 - [RetroArch](https://www.retroarch.com/) - frontend for emulators, game engines
-  and media players, [[Retroarch|more_info]]
+  and media players, [[Retroarch_(software)|more_info]]
 
 ## Services
 
@@ -353,8 +353,8 @@ Check also [[My_shell_scripts_(software)|my scripts]] and
 ## Android
 
 TODO: actualize this list
-- [[Termux]]
-- [[Tachiyomi_(software)]]
+- [[Termux_(software)|Termux]]
+- [[Tachiyomi_(software)|Tachiyomi]]
 
 ## Archive
 

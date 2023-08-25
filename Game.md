@@ -16,7 +16,7 @@ sr-ease: 290
 
 ## Emulators
 
-- [[Retroarch|emuland,_collection_of_emulators]]
+- [[Retroarch_(software)|Retroarch]]
 
 video games distribution [Welcome to Steam](https://store.steampowered.com/)
 [Steam Workshop Downloader](https://steamworkshopdownloader.io/)

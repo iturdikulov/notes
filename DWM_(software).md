@@ -17,10 +17,6 @@ tags:
 > optimizing the environment for the application in use and the task performed\
 > — <cite>[dwm](https://dwm.suckless.org/)</cite>
 
-![My configured DWM with 2 windows in
-foreground](../pasted_img_20230102033318.png)
-_My configured DWM with 2 windows in foreground_
-
 I used long time `i3wm`, `KWin`, `GNOME`, `Desktop Window Manager`, various
 status bars (like `polybar`), etc. But after that I discovered DWM, I just
 switched to it and use it with maximum pleasure. It has some "disadvantages",

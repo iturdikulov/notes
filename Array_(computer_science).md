@@ -19,7 +19,7 @@ Array is one of most basic data structure in computer science.
 
 ## Array (data structure)
 
-> Array is a [[Data_structure]] consisting of a collection of elements (values
+> Array is a [[Data_structure|data structure]] consisting of a collection of elements (values
 > or variables), each identified by at least one array index or key.
 >
 > -- [Wikipedia](https://en.wikipedia.org/wiki/Array_\(data_structure\))
@@ -52,7 +52,7 @@ yes, empty items has address in memory
 
 ## Array (data type)
 
-> In [[Computer_science]], **array** is a [[Data_type]] that represents a
+> In [[Computer_science]], **array** is a [[Data_type|data type]] that represents a
 > collection of _elements_ [[Value_(computer_science)|values]] or
 > [[Variable_(computer_science)|variables]], each selected by one or more
 > indices (identifying keys) that can be computed at
@@ -63,6 +63,7 @@ yes, empty items has address in memory
 > often called **vector type** and **matrix type**, respectively. More
 > generally, a multidimensional array type can be called a **tensor type**, by
 > analogy with the physical concept, [[Tensor]].
+> 
 So in general array is a 1 way storing several items (such as integers). Usually
 array store the same type of items (this depending on language). Every item in
 array indexed (by integer number starting from 0) and you can access array item
@@ -89,7 +90,7 @@ graph LR
     A --- |Index 3| E(4)
 ```
 
-When you create array ([[Initialization_(programming)]]) you must set array size
+When you create array ([[Initialization_(programming)|initialize]]) you must set array size
 (number of items stored in the array). Size of array is fixed. Also, computer
 ==allocate some [[Computer_memory|memory]]== to store array, during its
 initialization.
@@ -116,9 +117,9 @@ Read value at index 3:
 3. So, memory address for index 3 is 13
 4. Read value from memory address 13 = D
 
-Examples, how to use [[Array_in_programming_languages]].
+Examples, how to use [[Array_in_programming_languages|array in programming languages]].
 
-Array operations explained in [[Array_operations]].
+Array operations explained in [[Array_operations|array operations]].
 
 ## Ordered array
 
@@ -149,10 +150,10 @@ before the actual insertion to determine the correct spot for the insertion.
 <!--SR:!2023-07-21,2,236-->
 
 In the worst case when using linear search, we spent ==$N+2$== steps to insert
-new value into ordered array. But with [[Binary_search]] we can insert elements
+new value into ordered array. But with [[Binary_search_algorithm|binary search]] we can insert elements
 more effectively.
 <!--SR:!2023-07-20,1,216-->
 
-Main advantage of ordered array is that we can use ==[[Binary_search]]== algorithm
+Main advantage of ordered array is that we can use ==[[Binary_search_algorithm|binary search]]== algorithm
 to find elements in array very efficiently.
 <!--SR:!2023-07-21,2,239-->
