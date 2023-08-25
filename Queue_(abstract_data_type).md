@@ -44,5 +44,5 @@ sr-ease: 228
 | Insert    | O(1)    | O(1)       |
 | Delete    | O(1)    | O(1)       |
 
-![[!queue.excalidraw]]\
+![](./img/queue.excalidraw.svg)
 _Representation of a FIFO queue_

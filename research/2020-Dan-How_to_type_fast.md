@@ -31,7 +31,7 @@ He recommends buying a mechanical keyboard, which I already have, and I like it.
 
 1. "Proper posture is important as minor discomforts get amplified over time." I
    agree, and definitely need to improve my posture. And combine it with
-   [[Exercise_plan]].
+   [[Exercise_plan|exercise plan]].
 
 2. "Measure your progress often" If I use training tools, I'll measure my
    progress often.
@@ -62,8 +62,10 @@ He recommends buying a mechanical keyboard, which I already have, and I like it.
     > Memorize the relative offset for each finger from its resting position on
     > the home row
 
-I created [[!20230401211755-ColemakDH_ANSI_fingers_positions.excalidraw]] to
-help me with this.
+I created fingers relative positions map to help me with this.
+
+![Colemak finger positions](../img/ColemakDH_ANSI_fingers_positions.excalidraw.svg)
+_Colemak finger positions_
 
 11. "Use a typing trainer to re-enforce the mental model"
 

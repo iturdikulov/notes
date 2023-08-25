@@ -50,4 +50,7 @@ TODO: check each type and add examples
 - Imaginary numbers
 - Complex numbers
 
-![Number](/img/NumberSetinC.svg)
+TODO: convert into excalidraw
+![Number](img/NumberSetinC.svg)
+
+![Number](img/Diagramma_di_Venn_dei_numeri.svg)

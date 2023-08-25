@@ -25,8 +25,8 @@ Array reading require (steps) ==only one step, $\mathcal{O}(1)$==, because we
 can retrieve value by some computation (array address + index).
 <!--SR:!2023-07-31,12,250-->
 
-![shopping list array](./!shopping_list_array.excalidraw.svg)
-*Schematic array representation in memory*
+![shopping list array](./img/shopping_list_array.excalidraw.svg)
+_Schematic array representation in memory_
 
 ### Facts about computers and arrays
 
@@ -131,8 +131,8 @@ in array.
 Inserting element into array at index means we insert it at the right place of
 that index and shift all elements to the right.
 
-![shopping list array insert](./!shopping_list_array_insert.svg)
-*Array insertion operation in memory*
+![shopping list array insert](./img/shopping_list_array_insert.svg)
+_Array insertion operation in memory_
 
 How many steps will take insertion in the worst case?
 ?
@@ -149,8 +149,8 @@ Removing a value from the array. In other words process of eliminating the
 value at a particular index.
 <!--SR:!2023-07-22,3,250-->
 
-![shopping list array delete](./!shopping_list_array_delete.svg)
-*Array deletion operation in memory*
+![shopping list array delete](./img/shopping_list_array_delete.svg)
+_Array deletion operation in memory_
 
 In worst case deletion operation will take ?
 ?

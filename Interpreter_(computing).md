@@ -27,4 +27,4 @@ sr-ease: 274
 
 Here example how [[Python]] does it:
 
-![[!how_python_interpreter_works.excalidraw]]
+![How python interpreter works](./img/how_python_interpreter_works.excalidraw.svg)
