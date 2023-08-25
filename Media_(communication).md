@@ -25,7 +25,7 @@ sr-ease: 270
 ## Resources
 - [[My_Videos]]
 - [[My_Music]]
-- [[My_games]]
+- [[My_Games]]
 - [[My_read_books]]
 - [[My_Movies]]
 - [[My_Pictures]]

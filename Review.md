@@ -20,7 +20,7 @@ sr-ease: 290
 > rating to indicate its relative merit.
 >
 > Reviews can apply to a [[My_Movies|movie]] (a movie review), video
-> [[My_games|games]](video game review), [[My_Music|musical]] composition (music
+> [[My_Games|games]](video game review), [[My_Music|musical]] composition (music
 > review of a composition or recording), [[My_read_books|books]](book review); a
 > piece of hardware like a car, [[In_real_life_(IRL)|home]] appliance, or
 > computer; or [[My_awesome_software_list|software]] such as business software,

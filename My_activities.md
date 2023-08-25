@@ -50,7 +50,7 @@ for example:
 
 - Watching [[My_Movies|movies]], [[Twitch_(service)|twitch]],
   [[Youtube|youtube]]
-- Playing [[My_games]]
+- Playing [[My_Games]]
 - Reading [[My_read_books]] and [[News]]
 - Listening [[My_Music]]
 - Art [[My_art]]
