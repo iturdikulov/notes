@@ -22,7 +22,7 @@ sr-ease: 290
 > enforced, as well as a mechanism for determining policy. In many countries,
 > the government has a kind of constitution, a statement of its governing
 > principles and philosophy.\
-> —&thinsp;<cite>[Wikipedia](https://en.wikipedia.org/wiki/Government)</cite>
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Government)</cite>
 
 ## Services
 

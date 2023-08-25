@@ -23,7 +23,7 @@ sr-ease: 230
 > Russia, Belarus, Kazakhstan, and Kyrgyzstan, and is still commonly used as a
 > lingua franca in Ukraine, the Caucasus, Central Asia, and to a lesser extent
 > in the Baltic states and Israel.\
-> —&thinsp;<cite>[Wikipedia](https://en.wikipedia.org/wiki/Russian_language)</cite>
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Russian_language)</cite>
 
 ## Learning resources
 

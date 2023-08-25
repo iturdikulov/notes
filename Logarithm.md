@@ -18,12 +18,12 @@ sr-ease: 270
 > logarithm tells what exponent (or power) is needed to make a certain number,
 > so logarithms are the inverse (opposite) of exponentiation. Historically, they
 > were useful in multiplying or dividing large numbers.
-> -&thinsp;<cite>[Simple English Wikipedia](https://simple.wikipedia.org/wiki/Logarithm)</cite>
+> - <cite>[Simple English Wikipedia](https://simple.wikipedia.org/wiki/Logarithm)</cite>
 
 > Logarithms are the inverse operation of exponentiation. We can use logarithms
 > to find the exponent to which a given base must be raised in order to produce
 > a particular result.
-> -&thinsp;<cite>[Khan Academy](https://www.khanacademy.org/math/algebra2/x2ec2f6f830c9fb89:logs/x2ec2f6f830c9fb89:exp-models/a/logarithms-faq)</cite>
+> - <cite>[Khan Academy](https://www.khanacademy.org/math/algebra2/x2ec2f6f830c9fb89:logs/x2ec2f6f830c9fb89:exp-models/a/logarithms-faq)</cite>
 
 What actually $log_{2}(1024)$ means? Try to use multiplication and division to
 describe it in simple words.

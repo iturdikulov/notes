@@ -16,7 +16,7 @@ sr-ease: 289
 > [[Computer_programming]], economics, [[Physics]],
 > [[Chemistry]], biology, medicine, [[Finance]], history, and more.
 >
-> —&thinsp;<cite>[Khan Academy](https://www.khanacademy.org/)</cite>
+> — <cite>[Khan Academy](https://www.khanacademy.org/)</cite>
 
 Khan Academy [@RDUBFWDW#SalKhan__Khan] is good place to polish foundation skills
 in various subjects. I'm mostly interested in [[Mathematics]] and [[Physics]].

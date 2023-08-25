@@ -15,4 +15,4 @@ sr-ease: 230
 > its use in Linux distributions, but it is used by other UNIX variants as
 > well. It is maintained by the Linux Foundation. The latest version is 3.0
 > (`man hier`), released on 3 June 2015.
-> -&thinsp;[Wikipedia](https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard)
+> - [Wikipedia](https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard)

@@ -13,7 +13,7 @@ sr-ease: 232
 
 > Netrw makes reading files, writing files, browsing over a network, and
 > local browsing easy!\
-> —&thinsp;<cite>`:h netrw`</cite>
+> — <cite>`:h netrw`</cite>
 
 ## Flashcards
 

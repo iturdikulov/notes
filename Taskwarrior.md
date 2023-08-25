@@ -13,7 +13,7 @@ sr-ease: 230
 > Taskwarrior is Free and Open Source Software that manages your TODO list from
 > the command line. It is flexible, fast, and unobtrusive. It does its job then
 > gets out of your way.\
-> —&thinsp;<cite>[Taskwarrior](https://taskwarrior.org/)</cite>
+> — <cite>[Taskwarrior](https://taskwarrior.org/)</cite>
 
 Generally Taskwarrior is CLI To-Do list manager.
 

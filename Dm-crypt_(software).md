@@ -21,8 +21,8 @@ sr-ease: 268
 > support advanced modes of operation, such as XTS, LRW and ESSIV (see disk
 > encryption theory for further information), in order to avoid watermarking
 > attacks. In addition to that, dm-crypt addresses some reliability problems of
-> cryptoloop.
-> —&thinsp;<cite>[Wikipedia](https://en.wikipedia.org/wiki/Dm-crypt)</cite>
+> cryptoloop.\
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Dm-crypt)</cite>
 
 
 ## Create/mount encrypted file container

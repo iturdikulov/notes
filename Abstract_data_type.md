@@ -17,4 +17,4 @@ sr-ease: 150
 > this type, and the behavior of these operations. This mathematical model
 > contrasts with data structures, which are concrete representations of data,
 > and are the point of view of an implementer, not a user.\
-> —&thinsp;<cite>[Wikipedia](https://en.wikipedia.org/wiki/Abstract_data_type)</cite>
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Abstract_data_type)</cite>

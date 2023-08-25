@@ -12,7 +12,7 @@ sr-ease: 230
 
 > sdcv is a simple, cross-platform, text-based utility for working with
 dictionaries in StarDict format.\
-> —&thinsp;<cite>[sdcv](https://github.com/Dushistov/sdcv)</cite>
+> — <cite>[sdcv](https://github.com/Dushistov/sdcv)</cite>
 
 
 ## Ordering

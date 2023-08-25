@@ -12,7 +12,7 @@ sr-ease: 230
 # Termdown
 
 > Countdown timer and stopwatch in your terminal\
-> -&thinsp;<cite>[trehn/termdown](https://github.com/trehn/termdown)</cite>
+> - <cite>[trehn/termdown](https://github.com/trehn/termdown)</cite>
 
 Start a stopwatch::`termdown`
 

@@ -21,7 +21,7 @@ sr-ease: 232
 > authentication protocol validates the user to the server; and the connection
 > protocol multiplexes the encrypted tunnel into multiple logical communication
 > channels.\
-> —&thinsp;<cite>[Wikipedia](https://en.wikipedia.org/wiki/Secure_Shell_Protocol)</cite>
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Secure_Shell_Protocol)</cite>
 
 
 ## X11 forwarding on Android

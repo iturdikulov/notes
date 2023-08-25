@@ -22,4 +22,4 @@ sr-ease: 232
 > Beginning with the fifth generation of video [[Game]] consoles, the use of
 > polygons became more common, and with each succeeding generation, polygonal
 > models became increasingly complex.
-> -&thinsp;<cite>[Wikipedia](https://en.wikipedia.org/wiki/Polygon_\(computer_graphics\))</cite>
+> - <cite>[Wikipedia](https://en.wikipedia.org/wiki/Polygon_\(computer_graphics\))</cite>

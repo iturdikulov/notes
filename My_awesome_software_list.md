@@ -24,6 +24,7 @@ Check also [[My_shell_scripts_(software)|my scripts]] and
   [[Rust_(programming_language)|more_info]]
 - [Neovim](https://neovim.io/) - vim-fork focused on extensibility and agility,
   [[Neovim_(software)]]
+  * [[Sniprun_(software)|Sniprun]], used to run code blocks (mostly in research notes).
 - [[Taskwarrior]] - command-line to-do list manager
 
 ### Tier 2
@@ -136,7 +137,7 @@ Check also [[My_shell_scripts_(software)|my scripts]] and
   [[Nomad_sculpt_(software)|more_info]]
 
 ## Utilities
-
+- [[Termdown_(software)|Termdown]] - Countdown timer and stopwatch in your terminal
 - [kitty](https://sw.kovidgoyal.net/kitty/) - The fast, feature-rich, GPU based
   terminal emulator
 - [wmctrl](https://sites.google.com/site/tstyblo/wmctrl) - command line tool to
@@ -352,8 +353,12 @@ Check also [[My_shell_scripts_(software)|my scripts]] and
 ## Android
 
 TODO: actualize this list
-- [[Termux]
+- [[Termux]]
 - [[Tachiyomi_(software)]]
+
+## Archive
+
+- [[Papis_(software)]], not use anymore, I switched to [[Zotero_(software)]]
 
 ## TODO:
 - `faketime` - manipulate the system time for a given command

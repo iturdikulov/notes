@@ -16,7 +16,7 @@ sr-ease: 230
 > tracking domains to a “black hole”, thus preventing your devices from
 > connecting to those servers. It's based on software we use for our public
 > AdGuard DNS servers, and both share a lot of code.\
-> —&thinsp;<cite>[AdGuardHome](https://github.com/AdguardTeam/AdGuardHome)</cite>
+> — <cite>[AdGuardHome](https://github.com/AdguardTeam/AdGuardHome)</cite>
 
 ## To-Do
 

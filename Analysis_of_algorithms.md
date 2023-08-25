@@ -27,4 +27,4 @@ sr-ease: 270
 > otherwise specified, the function describing the performance of an algorithm
 > is usually an upper bound, determined from the worst case inputs to the
 > algorithm.\
-> —&thinsp;<cite>[Wikipedia](https://en.wikipedia.org/wiki/Analysis_of_algorithms)</cite>
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Analysis_of_algorithms)</cite>

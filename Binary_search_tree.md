@@ -20,7 +20,7 @@ sr-ease: 270
 > left subtree and less than the ones in its right subtree. The time complexity
 > of operations on the binary search tree is directly proportional to the height
 > of the tree.
-> -&thinsp;<cite>[Wikipedia](https://en.wikipedia.org/wiki/Binary_search_tree)</cite>
+> - <cite>[Wikipedia](https://en.wikipedia.org/wiki/Binary_search_tree)</cite>
 
 A binary search tree is a binary tree data structure that works based on the
 principle of [[Binary_search_algorithm|binary_search]].

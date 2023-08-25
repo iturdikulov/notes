@@ -18,7 +18,7 @@ sr-ease: 270
 > writer. The deterioration of a person's handwriting is also a symptom or
 > result of several different diseases. The inability to produce clear and
 > coherent handwriting is also known as dysgraphia.\
-—&thinsp;<cite>[Wikipedia](https://en.wikipedia.org/wiki/Handwriting)</cite>
+— <cite>[Wikipedia](https://en.wikipedia.org/wiki/Handwriting)</cite>
 
 I like to write beautiful and readable handwriting, but I preffer more
 calligraphy style.

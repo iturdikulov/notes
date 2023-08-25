@@ -17,7 +17,7 @@ sr-ease: 232
 > components of the distribution — including the kernel, installed packages and
 > system configuration files — are built by Nix from pure functions called Nix
 > expressions.\
-> —&thinsp;<cite>[NixOS Wiki](https://nixos.wiki/wiki/Overview_of_the_NixOS_Linux_distribution)</cite>
+> — <cite>[NixOS Wiki](https://nixos.wiki/wiki/Overview_of_the_NixOS_Linux_distribution)</cite>
 
 ## Cleanup old generations
 

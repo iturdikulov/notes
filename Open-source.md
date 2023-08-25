@@ -19,4 +19,4 @@ sr-ease: 230
 > to the public. The open-source movement in software began as a response to the
 > limitations of proprietary code. The model is used for projects such as in
 > open-source appropriate technology, and open-source drug discovery.\
-> —&thinsp;<cite>[Wikipedia](https://en.wikipedia.org/wiki/Open_source)</cite>
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Open_source)</cite>

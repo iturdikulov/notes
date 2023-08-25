@@ -15,7 +15,7 @@ tags:
 > dwm is a dynamic window manager for X. It manages windows in tiled, monocle
 > and floating layouts. All the layouts can be applied dynamically,
 > optimizing the environment for the application in use and the task performed\
-> —&thinsp;<cite>[dwm](https://dwm.suckless.org/)</cite>
+> — <cite>[dwm](https://dwm.suckless.org/)</cite>
 
 ![My configured DWM with 2 windows in
 foreground](../pasted_img_20230102033318.png)

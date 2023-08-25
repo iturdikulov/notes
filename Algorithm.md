@@ -29,7 +29,7 @@ mathematician called 'Al-Khwārizmī' (he is practically from my **homeland**)
 > eventually. Using human characteristics as descriptors of machines in
 > metaphorical ways was already practiced by Alan Turing with terms such as
 > "memory", "search" and "stimulus".\
-> —&thinsp;<cite>[Algorithm - Wikipedia](https://en.wikipedia.org/wiki/Algorithm)</cite>
+> — <cite>[Algorithm - Wikipedia](https://en.wikipedia.org/wiki/Algorithm)</cite>
 <!--SR:!2023-07-20,1,230-->
 
 In general, it's, set of finite step-by-step instructions for solving some
@@ -51,4 +51,4 @@ other by *orders of magnitude*.
 
 > Often there is more than one way to achieve a particular computing goal, and
 > the algorithm you choose can seriously affect the speed of your code.
-> —&thinsp;<cite>@ACommonSenseWengro2020, p. 34</cite>
+> — <cite>@ACommonSenseWengro2020, p. 34</cite>

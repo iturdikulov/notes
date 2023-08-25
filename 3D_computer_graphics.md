@@ -20,7 +20,7 @@ sr-ease: 290
 > purposes of performing calculations and rendering digital images, usually 2D
 > images but sometimes 3D images. The resulting images may be stored for viewing
 > later (possibly as an animation) or displayed in real time.\
-> —&thinsp;<cite>[Wikipedia](https://en.wikipedia.org/wiki/3D_computer_graphics)</cite>
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/3D_computer_graphics)</cite>
 
 I'm trying to [[How_I_learn_3D_computer_graphics|learn]] 3D computer graphics.
 By developing various [[My_Games|games]] and modelling 3D models in [[Blender_(software)]].

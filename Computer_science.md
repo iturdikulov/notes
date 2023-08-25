@@ -19,7 +19,7 @@ tags:
 > academic discipline and distinct from computer programming which is considered
 > to be a technical field. [[Algorithm|Algorithms]] and [[Data_structure|data_structure]] are
 > central to computer science.\
-> —&thinsp;<cite>[Wikipedia](https://en.wikipedia.org/wiki/Computer_science)</cite>
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Computer_science)</cite>
 
 Computer science connect theory (computation, automation, information) with real
 world practice (software and hardware). In Russian, it's known as
