@@ -12,9 +12,9 @@ sr-interval: 180
 sr-ease: 290
 ---
 
-# 202303121811-My Art
+# My Art
 
 I have some art but need to organize it. And I really want to start drawing with
-this book: [[Papis/882dd7e427ed785b79bc28335be19693-loomis-andrew/notes]].
+this book: [[2013-Loomis_Andrew-Fun_With_A_Pencil]]
 
 TODO: organize art
