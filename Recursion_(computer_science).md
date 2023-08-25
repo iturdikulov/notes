@@ -21,8 +21,9 @@ sr-ease: 270
 > types of problems, and recursion is one of the central ideas of
 > [[Computer_science|computer_science]].
 >
-> -- [Wikipedia](<https://en.wikipedia.org/wiki/Recursion_(computer_science)>)
+> -- [Wikipedia](https://en.wikipedia.org/wiki/Recursion_\(computer_science\))
 
-![Recursive Tree](./img/RecursiveTree.JPG) _Tree created using the Logo
+![Recursive Tree](./img/RecursiveTree.JPG)\
+_Tree created using the Logo
 programming language and relying heavily on recursion. Each branch can be seen
 as a smaller version of a tree._

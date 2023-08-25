@@ -27,7 +27,7 @@ sr-ease: 246
 > -- [Wikipedia](https://en.wikipedia.org/wiki/Competitive_programming)
 
 I'm using right now [leetcode](https://leetcode.com/), my problem list stored in
-[compititive](file://$HOME/main/wiki/competitive/) project.
+competitive project (TODO add).
 
 I use [leetup](https://github.com/dragfire/leetup) to interact with leetcode
 problems.

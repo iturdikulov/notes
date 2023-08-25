@@ -118,9 +118,6 @@ productive or unproductive code... For me unproductive means increase entropy of
 system. Which I hate. Because programs must run fast... Efficient code looks even
 better, easily to maintain and use in every-day life.
 
-Example with 2 different algorithms and how they can be different in speed.
-[Example 1](./_examples/example_1.py)
-
 First step in writing fast code is to understand what data structures are and
 how different data structures can affect to speed of our code.
 

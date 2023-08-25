@@ -30,7 +30,7 @@ a better developer.
 
 Cover itself not great, but blank page is perfect 😀.
 
-![mongolian-gerbil|720](img/mongolian-gerbil.png) _mongolian-gerbil_
+![mongolian-gerbil|720](img/Mongolian_Gerbil.png)
 
 # [Table of Contents](zotero://open-pdf/0_UBS68PBA/7)
 

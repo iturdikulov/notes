@@ -36,7 +36,7 @@ Toggle sticky on active window (topmost)::`<D-S>`
 ## Programs specific shortcuts
 
 Actual programs shortcuts/specific hardware control, etc. located in
-[dwm config.h](file:///home/inom/Projects/suckless/dwm-flexipatch/config.h)
+`config.h`.
 Check `SHCMD()` functions.
 
 Also, I have predefined workspace programs shortcuts. For example to open

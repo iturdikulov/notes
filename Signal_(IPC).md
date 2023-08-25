@@ -19,4 +19,4 @@ sr-ease: 290
 > of inter-process communication (IPC), typically used in Unix, Unix-like, and
 > other POSIX-compliant operating systems.
 >
-> -- [Wikipedia](<https://en.wikipedia.org/wiki/Signal_(IPC)>)
+> -- [Wikipedia](https://en.wikipedia.org/wiki/Signal_\(IPC\))

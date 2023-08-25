@@ -30,7 +30,7 @@ solvable. Especially if you use something like `DWM flexipatch`.
 Right now I use various patches, with this DWM fork:
 [bakkeby/dwm-flexipatch](https://github.com/Inom-Turdikulov/dwm-flexipatch).
 
-To use dwm effectively, I use my own [[Dwm_keyboard_shortcuts]].
+To use dwm effectively, I use my own [[DWM_keyboard_shortcuts]].
 
 ## Launching
 
@@ -71,7 +71,7 @@ _Tiled layout_
 By default, dwm in ==tiled== layout. But you can switch between ==tiled==,
 ==monocle==, ==floating== layouts.
 
-For additional information, see [[Dwm_keyboard_shortcuts]].
+For additional information, see [[DWM_keyboard_shortcuts]].
 
 ## Additional functional
 
@@ -90,7 +90,7 @@ It's toggling notifications pause mode, in status bar displayed ⛔ icon.
 
 ## Keyboard shortcuts
 
-Keyboard shortcuts are described in [[Dwm_keyboard_shortcuts]] note.
+Keyboard shortcuts are described in [[DWM_keyboard_shortcuts]] note.
 
 ## Useful links
 - <https://dwm.suckless.org/tutorial/>

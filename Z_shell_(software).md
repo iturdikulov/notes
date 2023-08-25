@@ -143,7 +143,7 @@ bindkey -R "\M-^@"-"\M-^?" self-insert
 
 ## Keybindings
 
-I think it's very similar to [[GNU_readline]].
+I think it's very similar to [[GNU_Readline]].
 
 ## Moving
 
@@ -241,7 +241,7 @@ https://github.com/fliptheweb/bash-shortcuts-cheat-sheet/blob/master/README.md
 
 Use `ESC` or `CTRL-[` to enter `Normal mode`.
 
-Check also [[Gnu_readline]] additional keybinding.
+Check also [[GNU_Readline]] additional keybinding.
 
 # ZSH vi mode
 
@@ -312,7 +312,8 @@ option.
 - `sd"`   : Delete `"`
 - `sr"'`  : Change `"` to `'`
 
-Note that key sequences must be pressed in fairly quick succession to avoid a timeout. You may extend this timeout with the [`ZVM_KEYTIMEOUT` option](#readkey-engine).
+Note that key sequences must be pressed in fairly quick succession to avoid a
+timeout. You may extend this timeout with the `ZVM_KEYTIMEOUT` option
 
 ### How to select surround text object?
 

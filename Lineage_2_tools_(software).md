@@ -93,7 +93,6 @@ Requirements:
 http://l2maxi.ru/java/faq/1697-manual-redaktirovanie-modeley-ukx-v-lineagenormalnyy.html
 https://maxcheaters.com/topic/240179-collection-l2-shares-updated-07042023google-drive/
 https://www.youtube.com/watch?v=IMMynGIoSR0 - effect
-![](img/pasted_img_20230415175922.png)
 
 ## L2Editor
 Supported files: u, uax, ukx, unr, usx, utx

@@ -20,4 +20,4 @@ sr-ease: 224
 > detected by the compiler before the program is ever executed
 >
 > --
-> [Wikipedia](<https://en.wikipedia.org/wiki/Runtime_(program_lifecycle_phase)>)
+> [Wikipedia](https://en.wikipedia.org/wiki/Runtime_\(program_lifecycle_phase\))

@@ -24,8 +24,8 @@ sr-ease: 290
 > mean the weather of Earth.
 >
 > There are a variety of end users to weather forecasts. Weather warnings are
-> important forecasts because they are used to protect
-> [[In_real_life_(irl)|life]] and property. Forecasts based on temperature and
+> important forecasts because they are used to protecting
+> [[In_real_life_(IRL)|life]] and property. Forecasts based on temperature and
 > precipitation are important to agriculture, and therefore to commodity traders
 > within stock markets. Temperature forecasts are used by utility companies to
 > estimate demand over coming days.

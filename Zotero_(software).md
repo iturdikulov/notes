@@ -13,8 +13,7 @@ sr-ease: 285
 
 # Zotero Research Assistant
 
-![](../img/screenshoot-zotero.png)
-
+![](./img/Zotero-5-macOS-Screenshot@2x.png)
 _Zotero main window_
 
 Zotero - free citation manager, it's contains a lot of features, such as:

@@ -20,7 +20,7 @@ sr-ease: 290
 > public control and regulation ranging from local community-based groups to
 > statewide government monopolies.
 >
-> Many utilities are essential for human [[In_real_life_(irl)|life]], national
+> Many utilities are essential for human [[In_real_life_(IRL)|life]], national
 > defense, or commerce, and the risk of public harm with mismanagement is
 > considerably greater than with other goods.
 >

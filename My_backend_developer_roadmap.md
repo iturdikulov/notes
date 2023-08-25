@@ -19,7 +19,7 @@ Source [RoadMap](https://roadmap.sh/backend)
 
 # Internet
 - [ ] Internet
-    - [ ] [[2002-Shuler_Rus-How_Does_the_Internet_Work]]
+    - [ ] [[research/2002-Shuler_Rus-How_Does_the_Internet_Work]]
     - [ ] The Internet
     - [ ] The_internet_explained
 - [ ] What is HTTP?

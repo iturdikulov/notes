@@ -20,4 +20,4 @@ sr-ease: 290
 > text messaging, media and files in private chats or as part of communities
 > called "servers".
 >
-> -- [Wikipedia](<https://en.wikipedia.org/wiki/Discord_(software)>)
+> -- [Wikipedia](https://en.wikipedia.org/wiki/Discord_\(software\))

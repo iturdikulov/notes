@@ -19,7 +19,7 @@ live actively and interesting. I'm working now as a software engineer in a small
 company (remote, full-stack position, but moving into
 [[My_backend_developer_roadmap|backend]] position).
 
-I organize my work using, [[Getting_things_done_(gtd)|gtd]] mainly using Inbox,
+I organize my work using, [[Getting_things_done_(GTD)|GTD]] mainly using Inbox,
 Tasks (TODO and NEXT), Daily and Weekly notes.
 
 To follow external timelines I sometimes use [[Calendar]] events, but it's
@@ -27,7 +27,7 @@ secondary task planner.
 
 To connect with colleagues I use [[Instant_messaging]] and [[Email]] clients.
 
-In my work significantly help my [[Development_environment]], [[Backup]] plan
+In my work significantly help my [[Development_Environment]], [[Backup]] plan
 and daily [[Maintenance]], with attention to [[Computer_security]].
 
 Currently, I'm working on social platform automation project.
@@ -36,11 +36,11 @@ Currently, I'm working on social platform automation project.
 
 Social connections are important to me and probably to my family and friends.
 I'm connecting with them by voice calls, sometimes text messages. Here is
-[[How_do_i_work_with_contacts]] if you need to write something to me.
+[[How_do_I_work_with_contacts|contacts]] if you need to write something to me.
 
 ## Exercise and health
 
-Right now I'm trying to follow my personal [[Exercise_plan]] and
+Right now I'm trying to follow my personal [[research/Exercise_plan]] and
 [[My_everyday_life_(routine)]] routine.
 
 ## Relax and fun
@@ -48,11 +48,11 @@ Right now I'm trying to follow my personal [[Exercise_plan]] and
 I can also spend time with my family, friends and pets or consume some media,
 for example:
 
-- Watching [[My_movies|movies]], [[Twitch_(service)|twitch]],
+- Watching [[My_Movies|movies]], [[Twitch_(service)|twitch]],
   [[Youtube|youtube]]
 - Playing [[My_games]]
 - Reading [[My_read_books]] and [[News]]
-- Listening [[My_music]]
+- Listening [[My_Music]]
 - Art [[My_art]]
 
 And of course healthy [[Sleep]].
@@ -79,7 +79,7 @@ implement my [[My_pet_projects|pet_projects]] and
 
 ## IRL, government and other things
 
-Check this note [[In_real_life_(irl)]].
+Check this note [[In_real_life_(IRL)|IRL]].
 
 ## Mentoring and helping
 

@@ -22,7 +22,7 @@ Array is one of most basic data structure in computer science.
 > Array is a [[Data_structure]] consisting of a collection of elements (values
 > or variables), each identified by at least one array index or key.
 >
-> -- [Wikipedia](<https://en.wikipedia.org/wiki/Array_(data_structure)>)
+> -- [Wikipedia](https://en.wikipedia.org/wiki/Array_\(data_structure\))
 
 > An assemblage of items that are randomly accessible by integers, the index.
 >

@@ -21,7 +21,7 @@ sr-ease: 290
 > min heap, the key of P is less than or equal to the key of C. The node at the
 > "top" of the heap (with no parents) is called the root node.
 >
-> -- [Wikipedia](<https://en.wikipedia.org/wiki/Heap_(data_structure)>)
+> -- [Wikipedia](https://en.wikipedia.org/wiki/Heap_\(data_structure\))
 
 Heap is a special type of binary tree with specific criteria:
 

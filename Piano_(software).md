@@ -11,7 +11,7 @@ sr-ease: 248
 
 # Piano
 
-> The piano is a **keyboard [[My_music|musical]] instrument** with strings
+> The piano is a **keyboard [[My_Music|musical]] instrument** with strings
 > struck by wooden hammers coated with a softer material (modern hammers are
 > covered with dense wool felt; some early pianos used leather). It is played
 > using its keyboard, which is a row of keys (small levers) touched by the

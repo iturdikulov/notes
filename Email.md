@@ -14,4 +14,4 @@ sr-ease: 270
 
 # Email
 
-- [[How_do_i_work_with_email]]
+- [[How_do_I_work_with_email]]

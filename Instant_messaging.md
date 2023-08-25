@@ -14,4 +14,4 @@ sr-ease: 290
 
 # Instant messaging
 
-- [[How_do_i_work_with_instant_messages]]
+- [[How_do_I_work_with_instant_messages]]

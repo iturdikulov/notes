@@ -39,8 +39,8 @@ be 2D animated or 3D animated.
 
 Examples:
 
-- <https://studio.blender.org/films/>
-- [World of Warcraft Wrath of The Lich King Cinematic Intro 8k (Remastered with Machine Learning AI)](file:///library/videos/CG/short_movies/WOW_Wrath_of_The_Lich_King_AwmvwTopbas.mp4)
+- https://studio.blender.org/films/
+- World of Warcraft Wrath of The Lich King Cinematic Intro 8k (Remastered with Machine Learning AI). TODO: add link.
 
 ## Buddy movies
 
@@ -142,4 +142,4 @@ Some films can also use Western plots even if they are set in other places
 
 ## See also
 
-- [[My_movies]]
+- [[My_Movies]]

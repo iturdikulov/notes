@@ -24,7 +24,7 @@ sr-ease: 267
 > object-oriented and functional programming. It is often described as a
 > "batteries included" language due to its comprehensive standard library.
 >
-> [[Guido_van_rossum|guido_van_rossum]] began working on Python in the late
+> [[Guido_Van_Rossum|guido_van_rossum]] began working on Python in the late
 > 1980s as a successor to the ABC programming language and first released it in
 > 1991 as Python 0.9.0. Python 2.0 was released in 2000. Python 3.0, released in
 > 2008, was a major revision not completely backward-compatible with earlier
@@ -53,7 +53,7 @@ sr-ease: 267
 > modules (itertools and functools) that implement functional tools borrowed
 > from Haskell and Standard ML.
 >
-> -- [Wikipedia](<https://en.wikipedia.org/wiki/Python_(programming_language)>)
+> -- [Wikipedia](https://en.wikipedia.org/wiki/Python_\(programming_language\))
 
 [[Zen_of_python]] describes the philosophy of Python.
 

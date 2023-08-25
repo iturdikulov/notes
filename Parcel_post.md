@@ -23,7 +23,7 @@ sr-ease: 290
 >
 > -- [Wikipedia](https://en.wikipedia.org/wiki/Parcel_post)
 
-I use it very often in my [[In_real_life_(irl)|life]].
+I use it very often in my [[In_real_life_(IRL)|life]].
 
 ## Resources
 

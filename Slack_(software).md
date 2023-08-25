@@ -22,7 +22,7 @@ sr-ease: 232
 > addition to these online communication features, Slack can integrate with
 > other software.
 >
-> -- [Wikipedia](<https://en.wikipedia.org/wiki/Slack_(software)>)
+> -- [Wikipedia](https://en.wikipedia.org/wiki/Slack_\(software\))
 
 One of my main communication tools with my colleagues.
 

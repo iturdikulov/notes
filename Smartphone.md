@@ -16,8 +16,8 @@ sr-ease: 277
 > distinguished from older-design feature phones by their stronger hardware
 > capabilities and extensive mobile operating systems, which facilitate wider
 > software, access to the internet (including web browsing over mobile
-> broadband), and multimedia functionality (including [[My_music|music]],
-> [[My_videos|video]], [[Camera|cameras]], and [[My_games|gaming#smartphone]]),
+> broadband), and multimedia functionality (including [[My_Music|music]],
+> [[My_Videos|video]], [[Camera|cameras]], and [[My_games|gaming#smartphone]]),
 > alongside core phone functions such as voice calls and text messaging.
 >
 > Smartphones typically contain a number of metal–oxide–semiconductor (MOS)

@@ -11,9 +11,9 @@ sr-ease: 279
 
 # Camera
 
-> A camera is an optical instrument that captures [[My_pictures|images]]. Most
+> A camera is an optical instrument that captures [[My_Pictures|images]]. Most
 > cameras can capture 2D images, while some more advanced models can capture
-> [[Vr_photography_(virtual-reality_photography)|3D_images]]. At a basic level,
+> [[VR_photography_(virtual-reality_photography)|3D_images]]. At a basic level,
 > most cameras consist of a sealed box (the camera body), with a small hole (the
 > aperture) that allows [[Light]] to pass through and capture an image on a
 > light-sensitive surface (usually a digital sensor or photographic film).

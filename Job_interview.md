@@ -26,7 +26,7 @@ sr-ease: 210
 >
 > -- [Wikipedia](https://en.wikipedia.org/wiki/Interview)
 
-I think good job is way to obitain better [[In_real_life_(irl)|life]]. And of
+I think good job is way to obtain better [[In_real_life_(IRL)|life]]. And of
 course you need to be ready for job interview to take it.
 
 ## Resources

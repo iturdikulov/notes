@@ -1112,7 +1112,7 @@ particular key
 
 $$\text{significand} \times \text{base}^\text{exponent},$$
 
-where significand is an [[Integer]], base is an integer greater than or equal to
+where significand is an integer, base is an integer greater than or equal to
 two, and exponent is also an integer. For example:
 
 $$1.2345 = \underbrace{12345}_\text{significand} \times \underbrace{10}_\text{base}\!\!\!\!\!\!^{\overbrace{-4}^\text{exponent}}.$$

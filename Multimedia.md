@@ -14,9 +14,9 @@ sr-ease: 270
 
 # Multimedia
 
-- [[My_videos]]
-- [[My_music]]
-- [[My_games]]
+- [[My_Videos]]
+- [[My_Music]]
+- [[My_games]] TODO: rename
 - [[My_read_books]]
-- [[My_movies]]
-- [[My_pictures]]
+- [[My_Movies]]
+- [[My_Pictures]]

@@ -20,7 +20,7 @@ sr-ease: 272
 > containers, tree-like containers, or even abstract containers such as futures
 > and promises.
 >
-> -- [Wikipedia](<https://en.wikipedia.org/wiki/Map_(higher-order_function)>)
+> -- [Wikipedia](https://en.wikipedia.org/wiki/Map_\(higher-order_function\))
 
 Python example:
 

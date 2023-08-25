@@ -34,7 +34,7 @@ C++, Java, etc.
 
 - Start interactive interpreter mode: `python3`.
 - Exit <kbd>C-d</kbd>, <kbd>C-z</kbd> or `quit()`.
-- Interpreter support [[GNU_readline]] library.
+- Interpreter support [[GNU_Readline]] library.
 - `python -c` - execute Python code.
 - `python -m [arg]` - execute Python module.
 - `python -i` - start interactive interpreter mode, can be combined with `-c`
@@ -47,11 +47,11 @@ standard input) or module name (`python -m -i lzma`).
 In `sys.argv` also stored `-c` (not sure) and `-m` arguments.
 
 By default, Python source files are treated as encoded in [[Unicode|UTF-8]], but
-standard library only use [[Ascii]] characters for identifiers, this convention
+standard library only use [[ASCII]] characters for identifiers, this convention
 that any portable code should follow.
 
 If you need to set not UTF-8 encoding, use `# -*- coding: encoding -*-` comment
-as first line or after [[Shebang_(unix)]]:
+as first line or after [[Shebang_(Unix)]]:
 
 ```python
 #!/usr/bin/env python3

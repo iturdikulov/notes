@@ -25,4 +25,4 @@ Features:
 - ...
 
 I think I can take some useful notes from this website. I'll track them here -
-[[Puzzle_english_learning_by_plan]].
+[[Puzzle_English_learning_by_plan|plan]].

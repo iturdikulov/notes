@@ -14,4 +14,4 @@ sr-ease: 270
 
 # Calendar
 
-- [[How_do_i_work_with_the_calendar]]
+- [[How_do_I_work_with_the_calendar]]

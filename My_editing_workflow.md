@@ -85,7 +85,7 @@ Insert new line above/below::`[<space>`, `]<space>`
 
 ### Markdown
 
-- [x] go to previous/next function hunk::`[[`/`]]`
+- [x] go to previous/next function hunk::`[[/]]`
 - [x] go to link::`gx`
 - [x] selection bold::`<C-b>`
 - [x] selection italic::`<C-i>`

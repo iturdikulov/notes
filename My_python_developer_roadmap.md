@@ -20,15 +20,15 @@ TOOD: sync research/core notes (duplicates), at least tutorial and standard libr
 - [[Python_tutorial|Python tutorial]]
 - [Python Developer’s Guide](https://devguide.python.org/)
 - [[Python_standard_library|Standart Library]]
-- [[2023-Python_documentation-Python_FAQ]]
+- [[research/2023-Python_documentation-Python_FAQ]]
 - [codingforentrepreneurs\/30-Days-of-Python.](https://www.youtube.com/playlist?list=PLEsfXFp6DpzQjDBvhNy5YbaBx9j-ZsUe6)
 
 ## Practice
 
 ## Shelve
 
-- [[2020-Slatkin_Brett-Effective_Python]]
-- [[2021-Ramalho_Luciano-Fluent_Python]]
+- [[research/2020-Slatkin_Brett-Effective_Python]]
+- [[research/2021-Ramalho_Luciano-Fluent_Python]]
 - [Ultimate Python study guide for newcomers and professionals alike.](https://github.com/huangsam/ultimate-python)
 - [Blog - Full Stack Python](https://www.fullstackpython.com/blog.html)
 - [Python Cheatsheet - Python Cheatsheet](https://www.pythoncheatsheet.org/)

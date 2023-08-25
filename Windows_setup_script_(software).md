@@ -13,8 +13,6 @@ sr-ease: 279
 I have own quick-start script for [[Microsoft_Windows]]. I tried to make it very
 simple and straightforward. To install Windows, I usually just use [[Ventoy_(software)|ventoy]].
 
-You can check last version here: [win_setup.ps1](./win/win-setup.ps1)
-
 To execute it, you need to run PowerShell as Administrator and execute this
 command:
 

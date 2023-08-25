@@ -22,4 +22,4 @@ sr-ease: 270
 > have one or more dedicated places where events are handled, frequently an
 > event loop.
 >
-> -- [Wikipedia](<https://en.wikipedia.org/wiki/Event_(computing)>)
+> -- [Wikipedia](https://en.wikipedia.org/wiki/Event_\(computing\))

@@ -35,7 +35,7 @@ sr-ease: 228
 > object-oriented languages as classes. Common implementations are circular
 > buffers and linked lists.
 >
-> -- [Wikipedia](<https://en.wikipedia.org/wiki/Queue_(abstract_data_type)>)
+> -- [Wikipedia](https://en.wikipedia.org/wiki/Queue_\(abstract_data_type\))
 
 | Algorithm | Average | Worst case |
 | --------- | ------- | ---------- |
@@ -44,4 +44,5 @@ sr-ease: 228
 | Insert    | O(1)    | O(1)       |
 | Delete    | O(1)    | O(1)       |
 
-![[!queue.excalidraw]] _Representation of a FIFO queue_
+![[!queue.excalidraw]]\
+_Representation of a FIFO queue_

@@ -20,14 +20,13 @@ sr-ease: 270
 > media, photography, cinema, broadcasting (radio and television), digital
 > media, and advertising.
 >
-> -- [Wikipedia](<https://en.wikipedia.org/wiki/Media_(communication)>)
+> -- [Wikipedia](https://en.wikipedia.org/wiki/Media_\(communication\))
 
 ## Resources
-
-- [[My_videos]]
-- [[My_music]]
+- [[My_Videos]]
+- [[My_Music]]
 - [[My_games]]
 - [[My_read_books]]
-- [[My_movies]]
-- [[My_pictures]]
+- [[My_Movies]]
+- [[My_Pictures]]
 - [[Comics]]

@@ -13,7 +13,7 @@ sr-ease: 250
 
 # Notes types which I use with Zettelkasten
 
-This is initial table of notes types which I use with [[zettelkasten]]. I will
+This is initial table of notes types which I use with [[Zettelkasten]]. I will
 update it as I improve my workflow. To set note type need just apple tag from
 left column to note.
 
