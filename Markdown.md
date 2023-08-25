@@ -14,7 +14,7 @@ tags:
 You can also convert markdown to tons of other formats, including PDF, using
 [[Pandoc_(software)|pandoc]].
 
-I use Markdown as my primary format for all my [[Notes_types|notes]].
+I use Markdown as my primary format for all my [[Zettelkasten_note_type|notes]].
 
 ## Basics (which I use)
 

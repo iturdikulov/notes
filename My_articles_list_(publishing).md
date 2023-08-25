@@ -76,7 +76,7 @@ https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/r
 
 - [ ] [Types of ZT Notes](https://zk.zettel.page/types-of-notes)
 - [ ] https://notes.andymatuschak.org/Taxonomy_of_note_types.
-- [ ] Then update [[Notes_types]]
+- [ ] Then update [[Zettelkasten_note_type|note types]]
 
 - [ ] [The origins of Python](https://inference-review.com/article/the-origins-of-python)
 - [ ] [How do hardware timers work? - YouTube](https://www.youtube.com/watch?v=g_koa00MBLg)

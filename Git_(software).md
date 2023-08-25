@@ -48,7 +48,7 @@ TODO: check this resources
 - Remove file from git history (extra tool):
   <https://stackoverflow.com/questions/43762338/how-to-remove-file-from-git-history>
   `git filter-repo --invert-paths --path <path to the file or directory>`
-- [[Papis/315c92066071c34465a13ed21a22f8e4-chacon-scott-and-st/notes|Pro_Git]]
+- [[2022-Chacon_Scott_and_Straub_Ben-Pro_Git]]
 - [[Diff_(software)|Diff]]
 - [Git - gittutorial Documentation](https://git-scm.com/docs/gittutorial)
 - [The ULTIMATE Git workflow using Neovim's Fugitive, Telescope & Git-Signs!](https://www.youtube.com/watch?v=IyBAuDPzdFY)

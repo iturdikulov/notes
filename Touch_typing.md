@@ -25,7 +25,7 @@ tags:
 > -- [Wikipedia](https://en.wikipedia.org/wiki/Touch_typing)
 
 Useful article to improve typing speed:
-[[Papis/6f4cd97a258ac7dc7cdc966fdbcdb2bc/notes]].
+[[2020-Dan-How_to_type_fast]]
 
 WPM - words per minute, CPM - characters per minute. WPM calculation:
 $$wpm = cpm / 5$$

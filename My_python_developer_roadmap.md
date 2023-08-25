@@ -16,18 +16,19 @@ sr-ease: 210
 
 ## Learning
 
-- [[Papis/14f60db29650af4d6edb2aef6d5539da/notes|Python_Tutorial]]
+TOOD: sync research/core notes (duplicates), at least tutorial and standard library
+- [[Python_tutorial|Python tutorial]]
 - [Python Developer’s Guide](https://devguide.python.org/)
-- [[Papis/74b5d9ce4b6ffcf86eaf9484220a6ab5/notes|Python_Standard_Library]]
-- [[Papis/c771f17042efd4785d59b86771535801/notes]]
+- [[Python_standard_library|Standart Library]]
+- [[2023-Python_documentation-Python_FAQ]]
 - [codingforentrepreneurs\/30-Days-of-Python.](https://www.youtube.com/playlist?list=PLEsfXFp6DpzQjDBvhNy5YbaBx9j-ZsUe6)
 
 ## Practice
 
 ## Shelve
 
-- [[Papis/7f8d984537ec14ac5cd5432d44facea8-slatkin-brett/notes|Effective_Python]]
-- [[Papis/bdcf7cd50c6dc8a18320d0c05b44affe-ramalho-luciano/notes|Fluent_Python]]
+- [[2020-Slatkin_Brett-Effective_Python]]
+- [[2021-Ramalho_Luciano-Fluent_Python]]
 - [Ultimate Python study guide for newcomers and professionals alike.](https://github.com/huangsam/ultimate-python)
 - [Blog - Full Stack Python](https://www.fullstackpython.com/blog.html)
 - [Python Cheatsheet - Python Cheatsheet](https://www.pythoncheatsheet.org/)

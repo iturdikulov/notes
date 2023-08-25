@@ -988,8 +988,8 @@ this.
 - [ ] Current mail goal: [[My_editing_workflow]]
 - [ ] https://stackoverflow.com/questions/509690/how-can-you-list-the-matches-of-vims-search
 - [ ] https://github.com/tpope/vim-surround
-- [[Papis/1ae149d1c843b867b0b254a20df34b4f-neil-drew/notes|Practical_Vim:_Edit_text_at_the_speed_of_thought]]
-- [[Papis/82951c75090ce154272484448309812b-neil-drew/notes|Modern_Vim:_Craft_your_development_environment_with_Vim_8_and_Neovim]]
+- [[2018-Neil_Drew-Modern_Vim]]
+- [[2015-Neil_Drew-Practical_Vim]]
 - [Interactive Vim tutorial](http://www.openvim.com/)
 - [VimGolf](https://www.vimgolf.com/)
 - [Vim Tips Wiki | Fandom](https://vim.fandom.com/wiki/Vim_Tips_Wiki)

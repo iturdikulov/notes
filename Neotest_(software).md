@@ -16,7 +16,7 @@ sr-ease: 270
 # Neotest - A framework for interacting with tests within NeoVim.
 
 A framework for interacting with [[Software_testing|tests]] within
-[[Neovim_(text_editor)]].
+[[Neovim_(software)|neovim]].
 
 Has core to run tests runners, interact with them, and display results (interact
 with user).

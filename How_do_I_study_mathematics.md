@@ -13,16 +13,14 @@ tags:
 
 List of resources and tips to learn [[Mathematics]]
 
-- [[Papis/99798ea3067ec2618000d574b97bf955-aleksandr-emelin/notes]]
-- [[Papis/e614d794116031133f68747001d0e912-kiselyov-andrei-pet/notes]]
-- Discrete Mathematics for Computer Scientists [math]
+- [[2021-Aлeксaндр_Eмeлин-Кратчайший_курс_школьной_математики]]
+- TODO: киселёв
+- [[2020-Kun_Jeremy-A_Programmers_Introduction_to_Mathematics]]
 
 - [ ] [https://www.mathsisfun.com/](Math is Fun), I think it's good initial
       point
 - [ ] concrete mathematic
 - [[Multiplication_table]]
-- [[Papis/e614d794116031133f68747001d0e912-kiselyov-andrei-pet/notes|Алгебра,_часть_1]]
-- [[Papis/99798ea3067ec2618000d574b97bf955-aleksandr-emelin/notes|Кратчайший_курс_школьной_математики]]
 - Лекториум basic mathematic -
   <https://stepik.org/lesson/28728/step/1?unit=9786>
 - Конкретная математика

@@ -30,7 +30,7 @@ TODO: Need describe these principles
 - Prefer relationships to hierarchy
 - Write notes in personal-aware style, instead public-aware style
 
-Notes can have various [[Notes_types|types]].
+Notes can have various [[Zettelkasten_note_type|types]].
 
 I use [[Telekasten.nvim_(software)|telekasten]] plugin to manage my notes with Zettelkasten method.
 
