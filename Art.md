@@ -25,10 +25,18 @@ or just "creative copy" something beautiful.
 
 I'm fan of fine art and CGI art.
 
+## Related, TODO: describe each item
+
+- [[Artistic_inspiration]]
+- [[Handwriting]]
+- [[30_day_drawing_challenge]]
+- [[How_I_learn_3D_computer_graphics]]
+
 ## Tools
 
 - [[Blender_(software)]]
 - [[Krita_(software)]]
+- [[Godot_(game_engine)]]
 
 ## Learning resources
 
