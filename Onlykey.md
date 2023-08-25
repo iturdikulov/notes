@@ -11,10 +11,10 @@ sr-ease: 270
 
 # Onlykey
 
-> OnlyKey was developed by a team of security experts and white hat hackers to
-> stop malicious hackers. One thing hackers and malware on a computer cannot do
-> is physically touch something.
-
+> OnlyKey was developed by a team of [[Computer_security|security ]] experts and
+> white hat hackers to stop malicious hackers. One thing hackers and malware on
+> a computer cannot do is physically touch something.
+>
 > In order to use OnlyKey to log in, physical touch is required. In order to
 > read a secure message, physical touch is required.
 >
@@ -29,9 +29,8 @@ sr-ease: 270
 > the PIN. Protected on Untrusted Computer - The PIN is entered on OnlyKey
 > instead of on a computer. Entering a PIN on a compromised computer would
 > result in compromise of the PIN. Only One PIN to Remember - Protect all of
-> your accounts with only one PIN to remember.
->
-> -- [Onlykey](https://onlykey.io/)
+> your accounts with only one PIN to remember.\
+> — <cite>[Onlykey](https://onlykey.io/)</cite>
 
 ## Onlykey setup (pam.d) in archlinux
 

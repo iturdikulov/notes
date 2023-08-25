@@ -10,10 +10,11 @@ sr-ease: 230
 
 # Nohup
 
-> nohup - run a command immune to hangups, with output to a non-tty -- man nohup
+> nohup - run a command immune to hangups, with output to a non-tty.\
+> — <cite>man nohup</cite>
 
-Nohup allow to run a command immune to hangups, with output to a non-tty. It's
-useful when I want to "daemonize" a process.
+Nohup allow running a command immune to hangups, with output to a non-tty. It's
+useful when I want to "[[Daemon_(computing)|daemonize]]" a process.
 
 ## How I use it
 

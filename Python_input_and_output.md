@@ -12,7 +12,7 @@ sr-interval: 218
 sr-ease: 270
 ---
 
-# Python Input/output
+# [[Python]] Input/output
 
 Syntax: "{" [field_name] ["!" conversion] [":" format_spec] "}"
 

@@ -20,3 +20,8 @@ sr-ease: 270
 - [[My_read_books]]
 - [[My_Movies]]
 - [[My_Pictures]]
+
+## Multimedia formats
+
+- [[MP4]]
+- [[GIF]]

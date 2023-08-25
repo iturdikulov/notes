@@ -23,8 +23,9 @@ Check also [[My_shell_scripts_(software)|my scripts]] and
 - [Rust](https://www.rust-lang.org/) - systems programming language,
   [[Rust_(programming_language)|more_info]]
 - [Neovim](https://neovim.io/) - vim-fork focused on extensibility and agility,
-  [[Neovim_(software)]]
-  * [[Sniprun_(software)|Sniprun]], used to run code blocks (mostly in research notes).
+  * [[Neovim_(software)]]
+  * [[Sniprun_(software)|Sniprun]] - run code blocks (mostly in research notes).
+  * [[Mkdx.vim_(software)|mkdx.vim]] - Markdown formatting plugin, not used now
 - [[Taskwarrior]] - command-line to-do list manager
 
 ### Tier 2
@@ -125,6 +126,8 @@ Check also [[My_shell_scripts_(software)|my scripts]] and
 - [slack-desktop](https://slack.com/) - Slack Desktop for Linux
 - [discord](https://discord.com/) - Discord Instant Messenger
 - [lynx](https://lynx.invisible-island.net/) - text-based web browser
+- [[Miniflux_(software)|miniflux]] - RSS reader, web application
+- [[Newsboat_(software)|newsboat]] - CLI RSS reader, console application
 
 ## Graphics
 
@@ -137,6 +140,7 @@ Check also [[My_shell_scripts_(software)|my scripts]] and
   [[Nomad_sculpt_(software)|more_info]]
 
 ## Utilities
+- [[Sdcv_(software)|Sdcv]] - console version of StarDict dictionary
 - [[Termdown_(software)|Termdown]] - Countdown timer and stopwatch in your terminal
 - [kitty](https://sw.kovidgoyal.net/kitty/) - The fast, feature-rich, GPU based
   terminal emulator
