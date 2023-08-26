@@ -8,6 +8,7 @@ tags:
 sr-due: 2023-09-05
 sr-interval: 12
 sr-ease: 249
+canonicalUrl: https://www.duolingo.com/
 ---
 
 # Duolingo

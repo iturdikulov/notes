@@ -15,6 +15,8 @@ sr-ease: 290
 
 # fzf
 
+- [ ] review [Vim universe. fzf - command line fuzzy finder](https://www.youtube.com/watch?v=qgG5Jhi_Els)
+
 It's a general purpose fuzzy finder written in Golang that can be used with any
 list of things: files, processes, command history, git branches, etc.
 
@@ -47,3 +49,4 @@ Select Environment variables / aliases
 - `unset **<TAB>`
 - `export **<TAB>`
 - `unalias **<TAB>`
+

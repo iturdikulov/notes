@@ -10,6 +10,7 @@ tags:
 sr-due: 2023-05-25
 sr-interval: 8
 sr-ease: 210
+canonicalUrl: https://leetcode.com/
 ---
 
 # LeetCode

@@ -1,5 +1,4 @@
 ---
-canonicalUrl: https://www.khanacademy.org/
 date: '2023-04-16'
 draft: true
 tags:
@@ -8,6 +7,7 @@ tags:
 sr-due: 2023-05-29
 sr-interval: 12
 sr-ease: 289
+canonicalUrl: https://www.khanacademy.org/
 ---
 
 # Khan Academy
