@@ -8,7 +8,7 @@ sr-interval: 4
 tags:
 - inbox
 - definition
-- web-tip
+- code-tip
 sr-due: 2024-01-25
 sr-interval: 253
 sr-ease: 290
