@@ -1,4 +1,5 @@
 _library/
 .stversions/
 .obsidian/
+.venv
 private/
