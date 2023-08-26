@@ -11,14 +11,9 @@ of [[Spaced_repetition]], [[Sq3R_method]] and [[Education]].
 
 ## Education
 
-My main education resources placed in [[Zotero_(software)]] library. Most important things
-are under **foundation** and **review** tags. It's contain many resources, such
-as books, web-sites and web-pages, videos and many others.
-
 ## Active or long projects
 
-TODO: go through each item and link zotero `@` cites
-
+TODO: go through each item
 
 ## My priorities
 
