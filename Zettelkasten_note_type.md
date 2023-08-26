@@ -89,7 +89,6 @@ Requirements:
 [[Now|now]] my current working projects, reflect my current interests.
 - Topic note, like [[My_art|art]], [[My_Videos|videos]], etc.
 
-
 ## Templates
 
 Tags are used to define note type.
@@ -98,4 +97,13 @@ Tags are used to define note type.
 - [ ] literature note, tags: research
 - [ ] person note, tags: person
 - [ ] log note, tags: log
+- [ ] outline note, tags: outline
 
+I also have additional topics tags, mainly used for
+[[Spaced_repetition|spaced repetition]] system:
+- compute_science - computer science related topics'
+- development - software related topics, shortcuts, etc.
+- programming
+- vim
+- computer_graphics
+- english - English learning topics
