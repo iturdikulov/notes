@@ -45,5 +45,3 @@ Insta: https://instagram.com/ThePrimeagen
 Twitter: https://twitter.com/ThePrimeagen
 VimRC & i3: https://github.com/ThePrimeagen/.dotf...
 Keyboard 15% off https://bit.ly/Prime360 USE CODE PRIME360
-
-#coding #neovim  #typescript  #programming #vim #softwareengineering #codinglife #webdesign #webdevelopment #webdev #javascript #rustlang #rust #twitch #twitchstreamer #programmerhumor #codinghumor #software #softwareengineer #softwaredeveloper #softwaredevelopment

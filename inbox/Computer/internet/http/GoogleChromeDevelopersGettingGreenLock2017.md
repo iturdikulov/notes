@@ -14,5 +14,3 @@ Watch more Chrome and Web talks at I/O '17 here: https://goo.gl/Q1bFGY
 See all the talks from Google I/O '17 here: https://goo.gl/D0D4VE
 
 Subscribe to the Chrome channel: http://goo.gl/LLLNvf
-
-#io17 #GoogleIO #GoogleIO2017 event: Google I/O 2017; re_ty: Publish;
