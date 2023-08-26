@@ -1,5 +1,6 @@
 ---
 external: https://simple.wikipedia.org/wiki/Computer_network
+archive: 1693089155.504629
 date: 2023-03-21
 draft: true
 sr-due: 2023-05-31

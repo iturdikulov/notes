@@ -1,7 +1,7 @@
 ---
 date: {{date}}
 external:
-local:
+archive:
 tags:
   - inbox
   - research

@@ -90,11 +90,11 @@ Requirements:
 
 Tags are used to define note type.
 
-- [ ] permanent note, default note, tags: bridge, person, term, log
-- [ ] literature note, tags: research
-- [ ] person note, tags: person
-- [ ] log note, tags: log
-- [ ] outline note, tags: outline
+- permanent note, default note, tags: bridge, person, term, log
+- literature note, tags: research
+- person note, tags: person
+- log note, tags: log
+- outline note, tags: outline
 
 I also have additional topics tags, mainly used for
 [[Spaced_repetition|spaced repetition]] system:
@@ -106,3 +106,7 @@ I also have additional topics tags, mainly used for
 - english
 - IRL
 - mathematics
+
+Also templates may have this frontamatter variables:
+- `external: https...` - link to external resource, such as web-page, video, etc.
+- `archive: 0000000000.000000` - [[ArchiveBox_(software)|archivebox]] timestamp, used as unique id
