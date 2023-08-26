@@ -6,7 +6,7 @@ sr-ease: 270
 sr-interval: 230
 tags:
 - inbox
-- vim-tip
+- vim
 ---
 
 # Sniprun

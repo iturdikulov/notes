@@ -7,7 +7,7 @@ canonicalUrl: https://www.youtube.com/watch?v=FxSsnHeWQBY
 citekey: PyCon2014NedBatchelderGetting2014
 tags:
   - research
-  - code-tip
+  - programming
 localLibrary: zotero://select/items/1_RBFQFU22
 cloudLibrary: http://zotero.org/users/9108355/items/RBFQFU22
 draft: true

@@ -6,7 +6,7 @@ sr-ease: 270
 sr-interval: 230
 tags:
 - inbox
-- CS-tip
+- computer_science
 ---
 
 # Linear search (sequential search)

@@ -6,7 +6,7 @@ sr-ease: 270
 sr-interval: 226
 tags:
 - inbox
-- languages-tip
+- english
 ---
 
 # English transcription

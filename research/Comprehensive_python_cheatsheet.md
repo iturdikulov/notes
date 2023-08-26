@@ -5,7 +5,7 @@ draft: true
 tags:
 - inbox
 - outline
-- code-tip
+- programming
 sr-due: 2023-09-06
 sr-interval: 13
 sr-ease: 228

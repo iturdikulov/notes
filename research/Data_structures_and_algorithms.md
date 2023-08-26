@@ -9,7 +9,7 @@ canonicalUrl: https://www.google.com/books/edition/A_Common_sense_Guide_to_Data_
 citekey: JayWengrowCommonsenseGuideData2020
 tags:
     - research
-    - CS-tip
+    - computer_science
 draft: true
 canonicalUrl: https://pragprog.com/titles/jwdsal2
 ---

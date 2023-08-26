@@ -6,7 +6,7 @@ sr-ease: 250
 sr-interval: 3
 tags:
 - inbox
-- CG-tip
+- computer_graphics
 ---
 
 # Blender Common Shortcuts

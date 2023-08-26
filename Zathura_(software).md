@@ -2,7 +2,7 @@
 date: 2022-12-29
 tags:
 - outline
-- dev-tip
+- development
 ---
 
 # Zathura document viewer

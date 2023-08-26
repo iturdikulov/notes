@@ -5,7 +5,7 @@ sr-ease: 232
 sr-interval: 1
 tags:
 - inbox
-- dev-tip
+- development
 ---
 
 # Translate-shell

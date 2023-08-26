@@ -6,7 +6,7 @@ sr-ease: 270
 sr-interval: 226
 tags:
 - inbox
-- CS-tip
+- computer_science
 ---
 
 # Big O notation in [[Mathematics]] and [[Computer_science]]

@@ -7,7 +7,7 @@ sr-ease: 290
 sr-interval: 253
 tags:
 - inbox
-- code-tip
+- programming
 ---
 
 # GitHub

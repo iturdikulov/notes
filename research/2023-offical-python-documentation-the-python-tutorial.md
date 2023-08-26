@@ -13,7 +13,7 @@ sr-interval: 1
 tags:
   - "research"
   - "inbox"
-  - "code-tip"
+  - "programming"
 ---
 
 My notes taken from the Python Tutorial. This tutorial is cover basic concepts

@@ -6,7 +6,7 @@ sr-ease: 271
 sr-interval: 4
 tags:
 - inbox
-- vim-tip
+- vim
 ---
 
 # My editing workflow

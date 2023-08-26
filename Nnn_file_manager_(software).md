@@ -7,7 +7,7 @@ sr-interval: 12
 tags:
 - inbox
 - outline
-- dev-tip
+- development
 ---
 
 # Nnn file manager

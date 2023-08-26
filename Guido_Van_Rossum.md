@@ -6,7 +6,7 @@ sr-ease: 288
 sr-interval: 246
 tags:
 - inbox
-- contact
+- person
 ---
 
 # Guido van Rossum

@@ -6,7 +6,7 @@ sr-ease: 250
 sr-interval: 86
 tags:
 - inbox
-- CS-tip
+- computer_science
 ---
 
 # Algorithm

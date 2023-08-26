@@ -3,7 +3,7 @@ title: "Modern Vim: Craft your development environment with Vim 8 and Neovim"
 tags:
   - "research"
   - "inbox"
-  - "vim-tip"
+  - "vim"
 author: "Drew Neil"
 citekey: "DrewNeilModernVimCraft2018"
 cloudLibrary: "http://zotero.org/users/9108355/items/T865KBV3"

@@ -6,7 +6,7 @@ sr-ease: 230
 sr-interval: 176
 tags:
 - inbox
-- CS-tip
+- computer_science
 ---
 
 # Array (computer science)

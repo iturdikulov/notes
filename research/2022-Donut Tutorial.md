@@ -4,7 +4,7 @@ description:
 tags:
 - inbox
 - research
-- CG-tip
+- computer_graphics
 created: 2023-06-05
 sr-due: 2023-08-25
 sr-interval: 1

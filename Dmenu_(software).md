@@ -6,7 +6,7 @@ sr-ease: 310
 sr-interval: 262
 tags:
 - inbox
-- dev-tip
+- development
 ---
 
 dmenu (dynamic menu for X)

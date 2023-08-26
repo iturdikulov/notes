@@ -1,7 +1,7 @@
 ---
 tags:
 - outline
-- math-tip
+- mathematics
 ---
 
 # Multiplication table

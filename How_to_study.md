@@ -6,7 +6,7 @@ sr-ease: 244
 sr-interval: 206
 tags:
 - inbox
-- irl-tip
+- IRL
 ---
 
 # How to study?

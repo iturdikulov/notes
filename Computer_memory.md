@@ -6,7 +6,7 @@ sr-ease: 249
 sr-interval: 16
 tags:
 - inbox
-- CS-tip
+- computer_science
 ---
 
 # Computer memory

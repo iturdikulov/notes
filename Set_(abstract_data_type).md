@@ -6,7 +6,7 @@ sr-ease: 246
 sr-interval: 13
 tags:
 - inbox
-- CS-tip
+- computer_science
 ---
 
 # Set (abstract data type)

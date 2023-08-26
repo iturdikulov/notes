@@ -5,7 +5,7 @@ sr-ease: 230
 sr-interval: 1
 tags:
 - inbox
-- dev-tip
+- development
 ---
 
 # Termdown

@@ -6,7 +6,7 @@ canonicalUrl: https://realpython.com/pytest-python-testing/
 citekey: DaneHillardEffectivePythonTesting
 tags:
   - research
-  - code-tip
+  - programming
 localLibrary: zotero://select/items/1_VE3KQUQY
 cloudLibrary: http://zotero.org/users/9108355/items/VE3KQUQY
 draft: true

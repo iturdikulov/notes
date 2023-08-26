@@ -8,7 +8,7 @@ sr-interval: 12
 tags:
 - inbox
 - outline
-- languages-tip
+- english
 ---
 
 # Duolingo

@@ -6,7 +6,7 @@ sr-ease: 290
 sr-interval: 248
 tags:
 - inbox
-- irl-tip
+- IRL
 ---
 
 # Government

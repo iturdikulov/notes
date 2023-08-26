@@ -6,7 +6,7 @@ sr-interval: 1
 tags:
 - inbox
 - outline
-- vim-tip
+- vim
 ---
 
 # Vimium - The Hacker's Browser

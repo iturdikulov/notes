@@ -5,7 +5,7 @@ sr-ease: 228
 sr-interval: 1
 tags:
 - inbox
-- CS-tip
+- computer_science
 ---
 
 # Array in programming languages

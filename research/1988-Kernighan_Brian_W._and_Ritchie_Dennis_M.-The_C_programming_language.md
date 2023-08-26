@@ -3,7 +3,7 @@ title: "The C Programming Language"
 tags:
   - research
   - inbox
-  - CS-tip
+  - computer_science
 ---
 
 The authors of this book [@TheCProgrammiKernig1988] present the

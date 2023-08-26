@@ -5,7 +5,7 @@ sr-ease: 270
 sr-interval: 232
 tags:
 - inbox
-- code-tip
+- programming
 ---
 
 # IP address

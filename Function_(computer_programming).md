@@ -6,7 +6,7 @@ sr-ease: 270
 sr-interval: 233
 tags:
 - inbox
-- CS-tip
+- computer_science
 ---
 
 # Function (computer programming)

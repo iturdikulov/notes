@@ -5,7 +5,7 @@ sr-ease: 227
 sr-interval: 1
 tags:
 - inbox
-- CS-tip
+- computer_science
 ---
 
 # Array operations

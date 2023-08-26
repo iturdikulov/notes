@@ -6,7 +6,7 @@ sr-ease: 270
 sr-interval: 220
 tags:
 - inbox
-- CS-tip
+- computer_science
 ---
 
 # Abstract syntax tree

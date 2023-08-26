@@ -6,7 +6,7 @@ sr-ease: 270
 sr-interval: 234
 tags:
 - inbox
-- dev-tip
+- development
 ---
 
 ```

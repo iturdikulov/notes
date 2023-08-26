@@ -6,7 +6,7 @@ sr-ease: 230
 sr-interval: 277
 tags:
 - inbox
-- vim-tip
+- vim
 ---
 
 # Neovim (text editor)

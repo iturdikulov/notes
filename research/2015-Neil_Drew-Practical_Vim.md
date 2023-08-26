@@ -7,7 +7,7 @@ citekey: DrewNeilPracticalVimEdit2015
 tags:
     - research
     - inbox
-    - vim-tip
+    - vim
 localLibrary: zotero://select/items/1_R4UA7XFI
 cloudLibrary: http://zotero.org/users/9108355/items/R4UA7XFI
 draft: true

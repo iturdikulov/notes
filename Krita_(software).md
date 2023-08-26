@@ -6,7 +6,7 @@ sr-ease: 270
 sr-interval: 231
 tags:
 - inbox
-- CG-tip
+- computer_graphics
 ---
 
 # Krita

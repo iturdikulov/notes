@@ -6,7 +6,7 @@ sr-ease: 290
 sr-interval: 250
 tags:
 - inbox
-- dev-tip
+- development
 ---
 
 # fzf
