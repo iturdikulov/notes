@@ -1,5 +1,5 @@
 ---
-canonicalUrl: http://lib.ru/
+external: http://lib.ru/
 date: '2023-08-15'
 tags:
 - research

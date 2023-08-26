@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://www.cloudflare.com/learning/ddos/glossary/hypertext-transfer-protocol-http/
+external: https://www.cloudflare.com/learning/ddos/glossary/hypertext-transfer-protocol-http/
 date: '2023-08-18'
 tags:
 - research

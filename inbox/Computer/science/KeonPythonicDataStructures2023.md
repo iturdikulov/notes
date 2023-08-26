@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://github.com/keon/algorithms
+external: https://github.com/keon/algorithms
 date: '2023-08-19'
 tags:
 - research

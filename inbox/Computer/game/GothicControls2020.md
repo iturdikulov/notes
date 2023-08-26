@@ -1,5 +1,5 @@
 ---
-canonicalUrl: http://strategywiki.org/wiki/Gothic/Controls
+external: http://strategywiki.org/wiki/Gothic/Controls
 date: '2023-08-21'
 tags:
 - research

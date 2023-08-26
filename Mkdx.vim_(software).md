@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://github.com/SidOfc/mkdx
+external: https://github.com/SidOfc/mkdx
 date: 2023-04-05
 draft: true
 sr-due: 2023-05-21

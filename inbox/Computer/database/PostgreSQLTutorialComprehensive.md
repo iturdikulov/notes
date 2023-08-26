@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://www.postgresqltutorial.com/
+external: https://www.postgresqltutorial.com/
 date: '2023-08-15'
 tags:
 - research

@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://github.com/brookhong/Surfingkeys
+external: https://github.com/brookhong/Surfingkeys
 date: 2023-03-27
 tags:
 - outline

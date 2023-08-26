@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://web.dev/why-https-matters/
+external: https://web.dev/why-https-matters/
 date: '2023-08-18'
 tags:
 - research

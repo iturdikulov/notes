@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://www.jetbrains.com/pycharm/
+external: https://www.jetbrains.com/pycharm/
 date: 2023-03-15
 draft: true
 sr-due: 2023-12-28

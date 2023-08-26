@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://wiki.archlinux.org/title/Universal_2nd_Factor
+external: https://wiki.archlinux.org/title/Universal_2nd_Factor
 date: '2023-08-18'
 tags:
 - research

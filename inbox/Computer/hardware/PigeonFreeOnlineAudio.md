@@ -1,6 +1,6 @@
 ---
 author: Dr Ir Stéphane Pigeon
-canonicalUrl: https://www.audiocheck.net/
+external: https://www.audiocheck.net/
 date: '2023-08-25'
 tags:
 - research

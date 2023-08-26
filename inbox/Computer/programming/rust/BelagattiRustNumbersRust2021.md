@@ -1,6 +1,6 @@
 ---
 author: Pavan Belagatti
-canonicalUrl: https://thenewstack.io/rust-by-the-numbers-the-rust-programming-language-in-2021/
+external: https://thenewstack.io/rust-by-the-numbers-the-rust-programming-language-in-2021/
 date: '2023-08-18'
 tags:
 - research

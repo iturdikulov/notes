@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://www.oracle.com/database/what-is-database/
+external: https://www.oracle.com/database/what-is-database/
 date: '2023-08-18'
 tags:
 - research

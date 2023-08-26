@@ -1,6 +1,6 @@
 ---
 author: popchart
-canonicalUrl: https://popchart.co/products/cats-categorized
+external: https://popchart.co/products/cats-categorized
 date: '2023-01-10'
 tags:
 - research

@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://github.com/donnemartin/system-design-primer
+external: https://github.com/donnemartin/system-design-primer
 date: '2023-08-19'
 tags:
 - research

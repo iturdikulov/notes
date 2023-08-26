@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://satscompanion.com/product/spag-placemat/
+external: https://satscompanion.com/product/spag-placemat/
 date: '2023-01-09'
 tags:
 - research

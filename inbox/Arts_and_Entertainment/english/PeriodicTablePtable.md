@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://ptable.com/?lang=en
+external: https://ptable.com/?lang=en
 date: '2023-01-09'
 tags:
 - research

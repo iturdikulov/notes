@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://github.com/StanForever/awesome-websites
+external: https://github.com/StanForever/awesome-websites
 date: '2023-08-15'
 tags:
 - research

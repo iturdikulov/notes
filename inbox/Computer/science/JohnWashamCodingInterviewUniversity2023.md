@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://github.com/jwasham/coding-interview-university
+external: https://github.com/jwasham/coding-interview-university
 date: '2023-08-15'
 tags:
 - research

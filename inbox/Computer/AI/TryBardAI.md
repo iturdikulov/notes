@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://bard.google.com
+external: https://bard.google.com
 date: '2023-08-20'
 tags:
 - research

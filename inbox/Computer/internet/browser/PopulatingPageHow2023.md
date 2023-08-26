@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://developer.mozilla.org/en-US/docs/Web/Performance/How_browsers_work
+external: https://developer.mozilla.org/en-US/docs/Web/Performance/How_browsers_work
 date: '2023-08-18'
 tags:
 - research

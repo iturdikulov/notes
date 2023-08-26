@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://github.com/gibsjose/cpp-cheat-sheet/blob/master/C%2B%2B%20Syntax.md
+external: https://github.com/gibsjose/cpp-cheat-sheet/blob/master/C%2B%2B%20Syntax.md
 tags:
 - research
 - inbox

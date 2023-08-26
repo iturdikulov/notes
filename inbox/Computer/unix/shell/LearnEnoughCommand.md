@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://www.softcover.io/books/28fdb94f/learn_enough_command_line
+external: https://www.softcover.io/books/28fdb94f/learn_enough_command_line
 date: '2023-08-17'
 tags:
 - research

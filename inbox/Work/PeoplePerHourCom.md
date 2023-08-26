@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://www.peopleperhour.com/dashboard/seller
+external: https://www.peopleperhour.com/dashboard/seller
 date: '2023-08-15'
 tags:
 - research

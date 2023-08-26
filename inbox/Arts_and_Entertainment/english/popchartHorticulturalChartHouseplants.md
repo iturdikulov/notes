@@ -1,6 +1,6 @@
 ---
 author: popchart
-canonicalUrl: https://popchart.co/products/the-horticultural-chart-of-houseplants
+external: https://popchart.co/products/the-horticultural-chart-of-houseplants
 date: '2023-01-10'
 tags:
 - research

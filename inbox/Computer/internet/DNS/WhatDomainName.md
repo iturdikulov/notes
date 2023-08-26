@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://www.cloudflare.com/learning/dns/glossary/what-is-a-domain-name/
+external: https://www.cloudflare.com/learning/dns/glossary/what-is-a-domain-name/
 date: '2023-08-18'
 tags:
 - research

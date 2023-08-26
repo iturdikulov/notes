@@ -3,7 +3,7 @@ title: "Ned Batchelder: Getting Started Testing - PyCon 2014"
 author: Ned Batchelder
 date: 2014-04-24
 dateAdded: 2023-04-21
-canonicalUrl: https://www.youtube.com/watch?v=FxSsnHeWQBY
+external: https://www.youtube.com/watch?v=FxSsnHeWQBY
 citekey: PyCon2014NedBatchelderGetting2014
 tags:
   - research

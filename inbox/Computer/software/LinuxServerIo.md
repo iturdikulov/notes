@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://docs.linuxserver.io/
+external: https://docs.linuxserver.io/
 date: '2023-08-15'
 tags:
 - research

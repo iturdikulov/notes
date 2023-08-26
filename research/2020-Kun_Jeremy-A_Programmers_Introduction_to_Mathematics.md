@@ -3,7 +3,7 @@ title: "A Programmer's Introduction to Mathematics: Second Edition"
 tags:
   - "research"
 author: "Jeremy Kun"
-canonicalUrl: "https://j2kun.gumroad.com/l/pim-book"
+external: "https://j2kun.gumroad.com/l/pim-book"
 citekey: "JeremyKunProgrammerIntroductionMathematics2020"
 cloudLibrary: "http://zotero.org/users/9108355/items/EW72QPRF"
 date: 2020

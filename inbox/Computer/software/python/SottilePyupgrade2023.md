@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://github.com/asottile/pyupgrade
+external: https://github.com/asottile/pyupgrade
 date: '2023-08-15'
 tags:
 - research

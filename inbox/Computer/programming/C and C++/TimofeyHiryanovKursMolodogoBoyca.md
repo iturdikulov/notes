@@ -1,6 +1,6 @@
 ---
 author: Тимофей Хирьянов
-canonicalUrl: https://cs.mipt.ru/c_intro/
+external: https://cs.mipt.ru/c_intro/
 tags:
 - research
 - inbox

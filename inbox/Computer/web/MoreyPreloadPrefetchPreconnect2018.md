@@ -1,6 +1,6 @@
 ---
 author: Raelene Morey
-canonicalUrl: https://wp-rocket.me/blog/preload-prefetch-preconnect-speed-site-browser-resource-hints/
+external: https://wp-rocket.me/blog/preload-prefetch-preconnect-speed-site-browser-resource-hints/
 date: '2023-08-15'
 tags:
 - research

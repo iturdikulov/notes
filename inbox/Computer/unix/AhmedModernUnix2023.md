@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://github.com/ibraheemdev/modern-unix
+external: https://github.com/ibraheemdev/modern-unix
 date: '2023-08-15'
 tags:
 - research

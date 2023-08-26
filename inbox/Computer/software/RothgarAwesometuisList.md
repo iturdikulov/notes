@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://github.com/rothgar/awesome-tuis
+external: https://github.com/rothgar/awesome-tuis
 date: '2023-08-15'
 tags:
 - research

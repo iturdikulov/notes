@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://collabnix.com/docker-cheatsheet/
+external: https://collabnix.com/docker-cheatsheet/
 date: '2023-08-15'
 tags:
 - research

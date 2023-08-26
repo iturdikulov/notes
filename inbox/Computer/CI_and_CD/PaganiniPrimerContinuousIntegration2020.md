@@ -1,6 +1,6 @@
 ---
 author: Catherine Paganini
-canonicalUrl: https://thenewstack.io/a-primer-continuous-integration-and-continuous-delivery-ci-cd/
+external: https://thenewstack.io/a-primer-continuous-integration-and-continuous-delivery-ci-cd/
 date: '2023-08-18'
 tags:
 - research

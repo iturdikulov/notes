@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://mike.place/2017/fzf-fd/
+external: https://mike.place/2017/fzf-fd/
 date: '2023-08-15'
 tags:
 - research

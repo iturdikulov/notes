@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://github.com/gdquest-demos/godot-4-3d-third-person-controller
+external: https://github.com/gdquest-demos/godot-4-3d-third-person-controller
 date: '2023-08-19'
 tags:
 - research

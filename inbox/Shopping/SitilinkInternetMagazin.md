@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://www.citilink.ru/
+external: https://www.citilink.ru/
 date: '2023-08-15'
 tags:
 - research

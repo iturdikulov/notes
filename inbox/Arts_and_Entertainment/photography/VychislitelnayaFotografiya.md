@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://jejeya.pictures/future_of_photography
+external: https://jejeya.pictures/future_of_photography
 date: '2023-08-15'
 tags:
 - research

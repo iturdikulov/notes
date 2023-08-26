@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://en.wikipedia.org/wiki/C23_(C_standard_revision)#External_links
+external: https://en.wikipedia.org/wiki/C23_(C_standard_revision)#External_links
 tags:
 - research
 - inbox

@@ -1,6 +1,6 @@
 ---
 author: popchart
-canonicalUrl: https://popchart.co/products/a-visual-guide-to-musical-notation
+external: https://popchart.co/products/a-visual-guide-to-musical-notation
 date: '2023-01-10'
 tags:
 - research

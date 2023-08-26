@@ -1,6 +1,6 @@
 ---
 author: Paul Dawkins
-canonicalUrl: https://tutorial.math.lamar.edu/Extras/CheatSheets_Tables.aspx#TrigSheet
+external: https://tutorial.math.lamar.edu/Extras/CheatSheets_Tables.aspx#TrigSheet
 date: '2023-01-09'
 tags:
 - research

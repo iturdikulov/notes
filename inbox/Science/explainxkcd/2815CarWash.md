@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://www.explainxkcd.com/wiki/index.php/2815:_Car_Wash
+external: https://www.explainxkcd.com/wiki/index.php/2815:_Car_Wash
 date: '2023-08-20'
 tags:
 - research

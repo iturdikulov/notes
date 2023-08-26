@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://docs.python.org/3/library/index.html
+external: https://docs.python.org/3/library/index.html
 date: '2023-08-15'
 tags:
 - research

@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://www.topcoder.com/thrive/articles/Computational%20Complexity%20part%20one
+external: https://www.topcoder.com/thrive/articles/Computational%20Complexity%20part%20one
 date: '2023-08-22'
 tags:
 - research

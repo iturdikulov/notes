@@ -1,6 +1,6 @@
 ---
 author: Thomas Hamilton
-canonicalUrl: https://www.guru99.com/software-testing-introduction-importance.html
+external: https://www.guru99.com/software-testing-introduction-importance.html
 date: '2023-08-18'
 tags:
 - research

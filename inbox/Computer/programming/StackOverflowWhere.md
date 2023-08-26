@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://stackoverflow.com/
+external: https://stackoverflow.com/
 date: '2023-08-15'
 tags:
 - research

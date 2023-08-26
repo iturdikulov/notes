@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://mail.yandex.ru
+external: https://mail.yandex.ru
 date: '2023-08-20'
 tags:
 - research

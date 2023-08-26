@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://en.wikipedia.org/wiki/Unary_operation
+external: https://en.wikipedia.org/wiki/Unary_operation
 date: 2023-03-18
 draft: true
 sr-due: 2023-12-23

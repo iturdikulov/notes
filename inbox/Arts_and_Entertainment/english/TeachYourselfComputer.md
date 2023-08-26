@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://teachyourselfcs.com/
+external: https://teachyourselfcs.com/
 date: '2023-01-05'
 tags:
 - research

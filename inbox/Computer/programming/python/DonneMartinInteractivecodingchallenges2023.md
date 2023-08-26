@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://github.com/donnemartin/interactive-coding-challenges
+external: https://github.com/donnemartin/interactive-coding-challenges
 date: '2023-08-19'
 tags:
 - research

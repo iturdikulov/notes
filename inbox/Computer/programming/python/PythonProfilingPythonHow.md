@@ -1,6 +1,6 @@
 ---
 author: Real Python
-canonicalUrl: https://realpython.com/python-profiling/
+external: https://realpython.com/python-profiling/
 date: '2023-08-15'
 tags:
 - research

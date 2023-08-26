@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://www.linux.org.ru/forum/development/17025364
+external: https://www.linux.org.ru/forum/development/17025364
 date: '2023-08-15'
 tags:
 - research

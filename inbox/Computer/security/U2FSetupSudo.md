@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://horan.hk/blog/u2f-pam-sudo/
+external: https://horan.hk/blog/u2f-pam-sudo/
 date: '2023-08-18'
 tags:
 - research

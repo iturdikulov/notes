@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://github.com/LukeSmithxyz/voidrice
+external: https://github.com/LukeSmithxyz/voidrice
 date: '2023-08-19'
 tags:
 - research

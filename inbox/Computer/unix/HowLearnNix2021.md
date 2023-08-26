@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://ianthehenry.com/posts/how-to-learn-nix/
+external: https://ianthehenry.com/posts/how-to-learn-nix/
 date: '2023-08-23'
 tags:
 - research

@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://github.com/tiangolo/full-stack-fastapi-postgresql
+external: https://github.com/tiangolo/full-stack-fastapi-postgresql
 date: '2023-08-17'
 tags:
 - research

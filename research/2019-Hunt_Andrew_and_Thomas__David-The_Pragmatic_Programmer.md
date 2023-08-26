@@ -3,7 +3,7 @@ title: "The Pragmatic Programmer: Your Journey to Mastery"
 tags:
   - "research"
 author: "Andrew Hunt; David Thomas"
-canonicalUrl: "https://pragprog.com/titles/tpp20/the-pragmatic-programmer-20th-anniversary-edition/"
+external: "https://pragprog.com/titles/tpp20/the-pragmatic-programmer-20th-anniversary-edition/"
 citekey: "AndrewHuntPragmaticProgrammerYour2019"
 cloudLibrary: "http://zotero.org/users/9108355/items/Q6GLKWYC"
 date: 2019

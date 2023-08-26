@@ -2,7 +2,7 @@
 title: Python Programming FAQ
 date: 2023
 dateAdded: 2023-03-14
-canonicalUrl: https://docs.python.org/3/faq/programming.html
+external: https://docs.python.org/3/faq/programming.html
 citekey: PythonProgrammingFAQ2023
 tags:
     - research

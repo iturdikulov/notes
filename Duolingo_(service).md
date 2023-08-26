@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://www.duolingo.com/
+external: https://www.duolingo.com/
 date: '2023-05-06'
 draft: 'true'
 sr-due: 2023-09-05

@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://aws.amazon.com/what-is/api/
+external: https://aws.amazon.com/what-is/api/
 date: '2023-08-18'
 tags:
 - research

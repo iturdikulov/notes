@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://syncthing.net/
+external: https://syncthing.net/
 date: 2023-04-09
 draft: true
 sr-due: 2023-05-21

@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://www.toptal.com/python/orchestrating-celery-python-background-jobs
+external: https://www.toptal.com/python/orchestrating-celery-python-background-jobs
 date: '2023-08-15'
 tags:
 - research

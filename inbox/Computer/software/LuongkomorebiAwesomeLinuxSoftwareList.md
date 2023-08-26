@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://github.com/luong-komorebi/Awesome-Linux-Software
+external: https://github.com/luong-komorebi/Awesome-Linux-Software
 date: '2023-08-15'
 tags:
 - research

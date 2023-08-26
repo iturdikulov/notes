@@ -1,6 +1,6 @@
 ---
 author: B. Cameron Gain
-canonicalUrl: https://thenewstack.io/3-ways-to-use-automation-in-ci-cd-pipelines/
+external: https://thenewstack.io/3-ways-to-use-automation-in-ci-cd-pipelines/
 date: '2023-08-18'
 tags:
 - research

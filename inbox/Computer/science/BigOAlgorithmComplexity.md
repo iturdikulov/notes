@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://www.bigocheatsheet.com/
+external: https://www.bigocheatsheet.com/
 date: '2023-08-15'
 tags:
 - research

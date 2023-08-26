@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://www.twitch.tv/peksi
+external: https://www.twitch.tv/peksi
 date: '2023-08-17'
 tags:
 - research

@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://drawabox.com/
+external: https://drawabox.com/
 date: 2023-05-29
 sr-due: 2023-08-25
 sr-ease: 228

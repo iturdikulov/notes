@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://processing.org/
+external: https://processing.org/
 date: '2023-08-15'
 tags:
 - research

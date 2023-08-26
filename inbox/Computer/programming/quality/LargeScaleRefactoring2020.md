@@ -1,5 +1,5 @@
 ---
-canonicalUrl: http://www.seporaitis.net/posts/2020/05/19/large-scale-refactoring-with-pybowler/
+external: http://www.seporaitis.net/posts/2020/05/19/large-scale-refactoring-with-pybowler/
 date: '2023-08-19'
 tags:
 - research

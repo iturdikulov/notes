@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://github.com/nvim-telescope/telescope.nvim
+external: https://github.com/nvim-telescope/telescope.nvim
 date: 2023-04-06
 draft: true
 sr-due: 2023-05-21

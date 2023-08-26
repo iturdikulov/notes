@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://en.wikipedia.org/w/index.php?title=Heap_(data_structure)&oldid=1164988218
+external: https://en.wikipedia.org/w/index.php?title=Heap_(data_structure)&oldid=1164988218
 date: '2023-08-22'
 tags:
 - research

@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://en.wikipedia.org/w/index.php?title=Cache_(computing)&oldid=1167849640
+external: https://en.wikipedia.org/w/index.php?title=Cache_(computing)&oldid=1167849640
 date: '2023-08-18'
 tags:
 - research

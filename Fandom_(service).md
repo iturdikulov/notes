@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://www.fandom.com/
+external: https://www.fandom.com/
 date: 2023-03-12
 draft: true
 sr-due: 2024-01-25

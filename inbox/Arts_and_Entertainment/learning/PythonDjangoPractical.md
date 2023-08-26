@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://www.udemy.com/course/python-django-the-practical-guide/
+external: https://www.udemy.com/course/python-django-the-practical-guide/
 date: '2023-08-19'
 tags:
 - research

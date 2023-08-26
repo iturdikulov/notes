@@ -3,7 +3,7 @@ title: Algorithms unlocked
 author: Thomas H. Cormen
 date: 2013
 dateAdded: 2022-12-18
-canonicalUrl:
+external:
 citekey: ThomasHCormenAlgorithmsUnlocked2013
 tags:
   - research

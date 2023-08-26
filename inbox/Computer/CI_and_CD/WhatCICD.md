@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://about.gitlab.com/topics/ci-cd/
+external: https://about.gitlab.com/topics/ci-cd/
 date: '2023-08-18'
 tags:
 - research

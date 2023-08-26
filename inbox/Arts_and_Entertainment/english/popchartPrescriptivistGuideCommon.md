@@ -1,6 +1,6 @@
 ---
 author: popchart
-canonicalUrl: https://popchart.co/products/a-prescriptivists-guide-to-common-issues-in-english-usage
+external: https://popchart.co/products/a-prescriptivists-guide-to-common-issues-in-english-usage
 date: '2023-01-10'
 tags:
 - research

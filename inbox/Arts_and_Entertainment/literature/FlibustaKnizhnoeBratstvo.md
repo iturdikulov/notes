@@ -1,5 +1,5 @@
 ---
-canonicalUrl: http://flibusta.site/
+external: http://flibusta.site/
 date: '2023-08-15'
 tags:
 - research

@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://en.wikipedia.org/w/index.php?title=Metric_prefix&oldid=1169164041
+external: https://en.wikipedia.org/w/index.php?title=Metric_prefix&oldid=1169164041
 date: '2023-08-20'
 tags:
 - research

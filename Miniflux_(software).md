@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://miniflux.app/
+external: https://miniflux.app/
 date: 2023-03-27
 sr-due: 2023-11-24
 sr-ease: 292

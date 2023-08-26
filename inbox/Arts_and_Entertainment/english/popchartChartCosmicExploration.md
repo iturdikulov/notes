@@ -1,6 +1,6 @@
 ---
 author: popchart
-canonicalUrl: https://popchart.co/products/the-chart-of-cosmic-exploration
+external: https://popchart.co/products/the-chart-of-cosmic-exploration
 date: '2023-01-10'
 tags:
 - research

@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://open.spotify.com/
+external: https://open.spotify.com/
 date: '2023-08-17'
 tags:
 - research

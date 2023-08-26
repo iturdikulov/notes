@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://knowyourmeme.com/memes/despite-everything-its-still-you
+external: https://knowyourmeme.com/memes/despite-everything-its-still-you
 date: '2023-08-25'
 tags:
 - research

@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://pycon.org/
+external: https://pycon.org/
 date: '2023-08-15'
 tags:
 - research

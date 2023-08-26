@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://tldp.org/LDP/Bash-Beginners-Guide/html/
+external: https://tldp.org/LDP/Bash-Beginners-Guide/html/
 date: '2023-08-15'
 tags:
 - research

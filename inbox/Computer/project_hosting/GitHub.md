@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://github.com/
+external: https://github.com/
 date: '2023-08-15'
 tags:
 - research

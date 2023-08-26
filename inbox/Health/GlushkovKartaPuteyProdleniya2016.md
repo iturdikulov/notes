@@ -1,6 +1,6 @@
 ---
 author: Алексей Глушков
-canonicalUrl: https://antiage.community/generalarticle/1242-karta-putej-prodleniya-zhizni-dostupnykh-uzhe-sejchas-chernovik-alekseya-turchina
+external: https://antiage.community/generalarticle/1242-karta-putej-prodleniya-zhizni-dostupnykh-uzhe-sejchas-chernovik-alekseya-turchina
 date: '2023-08-15'
 tags:
 - research

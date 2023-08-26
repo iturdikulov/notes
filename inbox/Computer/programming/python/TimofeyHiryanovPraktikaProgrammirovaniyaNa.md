@@ -1,6 +1,6 @@
 ---
 author: Тимофей Хирьянов
-canonicalUrl: http://cs.mipt.ru/python/
+external: http://cs.mipt.ru/python/
 date: '2023-08-19'
 tags:
 - research

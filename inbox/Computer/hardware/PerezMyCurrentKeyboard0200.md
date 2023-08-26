@@ -1,6 +1,6 @@
 ---
 author: Eli Rodríguez Pérez
-canonicalUrl: https://eli-rodriguez.com/en/posts/my-current-keyboard-layout/
+external: https://eli-rodriguez.com/en/posts/my-current-keyboard-layout/
 date: '2023-08-15'
 tags:
 - research

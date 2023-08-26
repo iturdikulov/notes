@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://www.gosuslugi.ru/
+external: https://www.gosuslugi.ru/
 date: '2023-08-15'
 tags:
 - research

@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://shipper.space/
+external: https://shipper.space/
 date: '2023-08-15'
 tags:
 - research

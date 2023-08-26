@@ -1,6 +1,6 @@
 ---
 author: Martin Heinz
-canonicalUrl: https://martinheinz.dev/blog/64
+external: https://martinheinz.dev/blog/64
 date: '2023-08-15'
 tags:
 - research

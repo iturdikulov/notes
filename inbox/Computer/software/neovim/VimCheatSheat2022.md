@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://web.archive.org/web/20220311075824/http://michael.peopleofhonoronly.com/vim/
+external: https://web.archive.org/web/20220311075824/http://michael.peopleofhonoronly.com/vim/
 date: '2023-01-10'
 tags:
 - research

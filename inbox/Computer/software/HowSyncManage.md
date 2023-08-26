@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://hund.tty1.se/2020/08/12/how-to-sync-and-manage-your-caldav-and-carddav-via-the-terminal.html
+external: https://hund.tty1.se/2020/08/12/how-to-sync-and-manage-your-caldav-and-carddav-via-the-terminal.html
 date: '2023-08-15'
 tags:
 - research

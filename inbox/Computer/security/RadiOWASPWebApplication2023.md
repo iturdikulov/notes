@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://github.com/0xRadi/OWASP-Web-Checklist
+external: https://github.com/0xRadi/OWASP-Web-Checklist
 date: '2023-08-18'
 tags:
 - research

@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://en.wikipedia.org/w/index.php?title=Daemon_(computing)&oldid=1167005554
+external: https://en.wikipedia.org/w/index.php?title=Daemon_(computing)&oldid=1167005554
 date: '2023-08-25'
 tags:
 - research

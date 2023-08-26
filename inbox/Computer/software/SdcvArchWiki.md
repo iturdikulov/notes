@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://wiki.archlinux.org/title/sdcv
+external: https://wiki.archlinux.org/title/sdcv
 date: '2023-08-19'
 tags:
 - research

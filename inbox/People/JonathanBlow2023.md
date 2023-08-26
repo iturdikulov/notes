@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://en.wikipedia.org/w/index.php?title=Jonathan_Blow&oldid=1170551642
+external: https://en.wikipedia.org/w/index.php?title=Jonathan_Blow&oldid=1170551642
 date: '2023-08-15'
 tags:
 - research

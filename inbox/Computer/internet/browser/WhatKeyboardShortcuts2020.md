@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://support.brave.com/hc/en-us/articles/360032272171-What-keyboard-shortcuts-can-I-use-in-Brave-
+external: https://support.brave.com/hc/en-us/articles/360032272171-What-keyboard-shortcuts-can-I-use-in-Brave-
 date: '2023-08-18'
 tags:
 - research

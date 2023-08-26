@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://github.com/cirosantilli/test-git-conflict
+external: https://github.com/cirosantilli/test-git-conflict
 date: '2023-08-19'
 tags:
 - research

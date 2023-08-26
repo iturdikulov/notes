@@ -1,6 +1,6 @@
 ---
 author: popchart
-canonicalUrl: https://popchart.co/products/a-pop-culture-guide-to-proofreading-marks
+external: https://popchart.co/products/a-pop-culture-guide-to-proofreading-marks
 date: '2023-01-10'
 tags:
 - research

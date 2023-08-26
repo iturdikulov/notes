@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://github.com/BoboTiG/python-mss
+external: https://github.com/BoboTiG/python-mss
 date: '2023-08-15'
 tags:
 - research

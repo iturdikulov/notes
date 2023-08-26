@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://pcpartpicker.com/
+external: https://pcpartpicker.com/
 date: '2023-08-15'
 tags:
 - research

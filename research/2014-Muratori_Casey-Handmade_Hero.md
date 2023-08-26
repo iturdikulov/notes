@@ -5,7 +5,7 @@ tags:
   - "research"
   - "programming"
 author: "Casey Muratori"
-canonicalUrl: "https://hero.handmade.network/episode/code"
+external: "https://hero.handmade.network/episode/code"
 citekey: "CaseyMuratoriHandmadeHero2014"
 cloudLibrary: "http://zotero.org/users/9108355/items/MFMSWR7F"
 date: 2014

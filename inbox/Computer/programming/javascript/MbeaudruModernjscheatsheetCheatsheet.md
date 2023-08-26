@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://github.com/mbeaudru/modern-js-cheatsheet
+external: https://github.com/mbeaudru/modern-js-cheatsheet
 date: '2023-08-15'
 tags:
 - research

@@ -1,6 +1,6 @@
 ---
 author: visualhistory
-canonicalUrl: https://visualhistory.livejournal.com/456619.html
+external: https://visualhistory.livejournal.com/456619.html
 date: '2023-01-05'
 tags:
 - research

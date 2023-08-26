@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://thenewstack.io/ci-cd/
+external: https://thenewstack.io/ci-cd/
 date: '2023-08-18'
 tags:
 - research

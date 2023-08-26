@@ -3,7 +3,7 @@ title: "Fun With A Pencil: How Everybody Can Easily Learn to Draw"
 author: Andrew Loomis
 date: 2013
 dateAdded: 2022-12-18
-canonicalUrl:
+external:
 citekey: AndrewLoomisFunPencilHow2013
 tags:
   - research

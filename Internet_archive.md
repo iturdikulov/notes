@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://archive.org/
+external: https://archive.org/
 date: 2023-03-12
 draft: true
 sr-due: 2024-01-14

@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/bits-cheat-sheet.pdf
+external: https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/bits-cheat-sheet.pdf
 date: '2023-08-22'
 tags:
 - research

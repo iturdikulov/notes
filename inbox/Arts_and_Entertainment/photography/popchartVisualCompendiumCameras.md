@@ -1,6 +1,6 @@
 ---
 author: popchart
-canonicalUrl: https://popchart.co/products/a-visual-compendium-of-cameras
+external: https://popchart.co/products/a-visual-compendium-of-cameras
 date: '2023-01-10'
 tags:
 - research

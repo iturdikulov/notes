@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://leetcode.com/
+external: https://leetcode.com/
 date: 2022-12-29
 draft: true
 sr-due: 2023-05-25

@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://peps.python.org/pep-0008/
+external: https://peps.python.org/pep-0008/
 date: '2023-08-15'
 tags:
 - research

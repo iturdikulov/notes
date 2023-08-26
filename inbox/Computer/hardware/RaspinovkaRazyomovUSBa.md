@@ -1,5 +1,5 @@
 ---
-canonicalUrl: http://rones.su/techno/usb.html
+external: http://rones.su/techno/usb.html
 date: '2023-08-16'
 tags:
 - research

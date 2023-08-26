@@ -1,6 +1,6 @@
 ---
 author: Juan Martínez
-canonicalUrl: https://dribbble.com/shots/3634582-History-Of-Life
+external: https://dribbble.com/shots/3634582-History-Of-Life
 date: '2023-01-09'
 tags:
 - research

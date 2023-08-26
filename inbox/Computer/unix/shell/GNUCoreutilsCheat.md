@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://catonmat.net/gnu-coreutils-cheat-sheet
+external: https://catonmat.net/gnu-coreutils-cheat-sheet
 date: '2023-01-09'
 tags:
 - research

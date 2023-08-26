@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://www.tutorialspoint.com/memcached/index.htm
+external: https://www.tutorialspoint.com/memcached/index.htm
 date: '2023-08-18'
 tags:
 - research

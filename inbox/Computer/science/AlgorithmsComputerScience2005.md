@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://www.khanacademy.org/computing/computer-science/algorithms
+external: https://www.khanacademy.org/computing/computer-science/algorithms
 date: '2023-03-18'
 tags:
 - research

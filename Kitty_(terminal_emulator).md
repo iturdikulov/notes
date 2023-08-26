@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://sw.kovidgoyal.net/kitty/
+external: https://sw.kovidgoyal.net/kitty/
 date: 2023-04-05
 draft: true
 sr-due: 2023-06-17

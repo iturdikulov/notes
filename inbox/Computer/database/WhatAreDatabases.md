@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://www.prisma.io/dataguide/intro/what-are-databases
+external: https://www.prisma.io/dataguide/intro/what-are-databases
 date: '2023-08-18'
 tags:
 - research

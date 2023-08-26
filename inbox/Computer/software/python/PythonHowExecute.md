@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://stackoverflow.com/questions/24612395/how-do-i-execute-inserts-and-updates-in-an-alembic-upgrade-script
+external: https://stackoverflow.com/questions/24612395/how-do-i-execute-inserts-and-updates-in-an-alembic-upgrade-script
 date: '2023-08-15'
 tags:
 - research

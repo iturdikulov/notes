@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://based.cooking/pan-pizza/
+external: https://based.cooking/pan-pizza/
 date: '2023-08-21'
 tags:
 - research

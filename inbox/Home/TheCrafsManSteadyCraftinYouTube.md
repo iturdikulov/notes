@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://www.youtube.com/@TheCrafsMan/videos
+external: https://www.youtube.com/@TheCrafsMan/videos
 date: '2023-08-21'
 tags:
 - research

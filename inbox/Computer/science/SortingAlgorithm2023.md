@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://en.wikipedia.org/w/index.php?title=Sorting_algorithm&oldid=1169697083#Stability
+external: https://en.wikipedia.org/w/index.php?title=Sorting_algorithm&oldid=1169697083#Stability
 date: '2023-08-22'
 tags:
 - research

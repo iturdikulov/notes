@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://www.youtube.com/watch?v=10GA-A_7Dls&list=PLxZ7p55WWz1la38FHUrOqNEBCn7tZfKf3
+external: https://www.youtube.com/watch?v=10GA-A_7Dls&list=PLxZ7p55WWz1la38FHUrOqNEBCn7tZfKf3
 date: '2022-12-18'
 tags:
 - research

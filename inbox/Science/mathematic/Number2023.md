@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://en.wikipedia.org/w/index.php?title=Number&oldid=1170563629
+external: https://en.wikipedia.org/w/index.php?title=Number&oldid=1170563629
 date: '2023-08-15'
 tags:
 - research

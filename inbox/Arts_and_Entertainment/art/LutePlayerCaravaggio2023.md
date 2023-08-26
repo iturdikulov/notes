@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://en.wikipedia.org/w/index.php?title=The_Lute_Player_(Caravaggio)&oldid=1165244399
+external: https://en.wikipedia.org/w/index.php?title=The_Lute_Player_(Caravaggio)&oldid=1165244399
 date: '2023-08-18'
 tags:
 - research

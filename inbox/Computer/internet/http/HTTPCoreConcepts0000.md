@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://www.smashingmagazine.com/2021/08/http3-core-concepts-part1/
+external: https://www.smashingmagazine.com/2021/08/http3-core-concepts-part1/
 date: '2023-08-18'
 tags:
 - research

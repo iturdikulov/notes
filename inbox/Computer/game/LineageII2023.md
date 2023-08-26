@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://en.wikipedia.org/w/index.php?title=Lineage_II&oldid=1165592489
+external: https://en.wikipedia.org/w/index.php?title=Lineage_II&oldid=1165592489
 date: '2023-08-19'
 tags:
 - research

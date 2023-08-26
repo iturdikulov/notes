@@ -1,6 +1,6 @@
 ---
 author: popchart
-canonicalUrl: https://popchart.co/products/dinosauria
+external: https://popchart.co/products/dinosauria
 date: '2023-01-10'
 tags:
 - research

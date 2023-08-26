@@ -1,6 +1,6 @@
 ---
 author: David Herbert
-canonicalUrl: http://blog.logrocket.com/css-before-after-custom-animations-transitions/
+external: http://blog.logrocket.com/css-before-after-custom-animations-transitions/
 date: '2023-08-15'
 tags:
 - research

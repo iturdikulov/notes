@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://termux.dev/
+external: https://termux.dev/
 date: 2023-04-10
 draft: true
 sr-due: 2023-05-21

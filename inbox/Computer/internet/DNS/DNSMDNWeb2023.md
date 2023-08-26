@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://developer.mozilla.org/en-US/docs/Glossary/DNS
+external: https://developer.mozilla.org/en-US/docs/Glossary/DNS
 date: '2023-08-18'
 tags:
 - research

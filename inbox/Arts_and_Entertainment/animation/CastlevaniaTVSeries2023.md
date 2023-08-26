@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://en.wikipedia.org/w/index.php?title=Castlevania_(TV_series)
+external: https://en.wikipedia.org/w/index.php?title=Castlevania_(TV_series)
 date: 2023-08-19
 tags:
 - research

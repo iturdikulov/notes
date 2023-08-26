@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://cs.fyi/guide/how-does-internet-work
+external: https://cs.fyi/guide/how-does-internet-work
 date: '2023-08-18'
 tags:
 - research

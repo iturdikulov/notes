@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://brave.com/
+external: https://brave.com/
 date: 2023-03-16
 draft: true
 sr-due: 1678896000

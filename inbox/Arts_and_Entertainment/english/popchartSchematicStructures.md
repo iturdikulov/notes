@@ -1,6 +1,6 @@
 ---
 author: popchart
-canonicalUrl: https://popchart.co/products/the-schematic-of-structures
+external: https://popchart.co/products/the-schematic-of-structures
 date: '2023-01-10'
 tags:
 - research

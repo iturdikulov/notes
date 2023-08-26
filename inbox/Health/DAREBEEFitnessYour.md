@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://darebee.com/
+external: https://darebee.com/
 date: '2023-08-15'
 tags:
 - research

@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://en.wikipedia.org/w/index.php?title=Cutlet&oldid=1139948488
+external: https://en.wikipedia.org/w/index.php?title=Cutlet&oldid=1139948488
 date: '2023-03-10'
 tags:
 - research

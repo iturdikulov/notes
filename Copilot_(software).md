@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://github.com/features/copilot/
+external: https://github.com/features/copilot/
 date: 2023-03-28
 draft: true
 sr-due: 2023-12-02

@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://github.com/LinuxCafeFederation/awesome-gnu-linux-gaming#graphics-cards
+external: https://github.com/LinuxCafeFederation/awesome-gnu-linux-gaming#graphics-cards
 date: '2023-08-15'
 tags:
 - research

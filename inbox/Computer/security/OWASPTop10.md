@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://sucuri.net/guides/owasp-top-10-security-vulnerabilities-2020/
+external: https://sucuri.net/guides/owasp-top-10-security-vulnerabilities-2020/
 date: '2023-08-18'
 tags:
 - research

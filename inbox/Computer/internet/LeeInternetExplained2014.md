@@ -1,6 +1,6 @@
 ---
 author: Timothy B. Lee
-canonicalUrl: https://www.vox.com/2014/6/16/18076282/the-internet
+external: https://www.vox.com/2014/6/16/18076282/the-internet
 date: '2023-08-18'
 tags:
 - research

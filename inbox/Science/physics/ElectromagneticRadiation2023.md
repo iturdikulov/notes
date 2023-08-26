@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://en.wikipedia.org/w/index.php?title=Electromagnetic_radiation&oldid=1163253181
+external: https://en.wikipedia.org/w/index.php?title=Electromagnetic_radiation&oldid=1163253181
 date: '2023-08-15'
 tags:
 - research

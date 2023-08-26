@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://en.wikipedia.org/w/index.php?title=Diceware&oldid=1164655404
+external: https://en.wikipedia.org/w/index.php?title=Diceware&oldid=1164655404
 date: '2023-08-19'
 tags:
 - research

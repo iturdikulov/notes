@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://en.wikipedia.org/w/index.php?title=Factorio&oldid=1169947858
+external: https://en.wikipedia.org/w/index.php?title=Factorio&oldid=1169947858
 date: '2023-08-15'
 tags:
 - research

@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://howhttps.works
+external: https://howhttps.works
 date: '2023-08-18'
 tags:
 - research

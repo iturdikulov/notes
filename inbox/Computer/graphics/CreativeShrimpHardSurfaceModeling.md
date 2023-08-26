@@ -1,6 +1,6 @@
 ---
 author: Creative Shrimp
-canonicalUrl: https://blendermarket.com/products/hard-surface-modeling-in-blender
+external: https://blendermarket.com/products/hard-surface-modeling-in-blender
 date: '2023-08-19'
 tags:
 - research

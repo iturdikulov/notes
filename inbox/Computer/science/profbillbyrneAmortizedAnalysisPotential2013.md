@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://www.youtube.com/watch?v=B3SpQZaAZP4
+external: https://www.youtube.com/watch?v=B3SpQZaAZP4
 date: '2023-08-22'
 tags:
 - research

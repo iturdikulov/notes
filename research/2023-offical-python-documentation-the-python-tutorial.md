@@ -1,6 +1,6 @@
 ---
 title: "The Python Tutorial"
-canonicalUrl: "https://docs.python.org/3/tutorial/index.html"
+external: "https://docs.python.org/3/tutorial/index.html"
 citekey: "PythonTutorial2023"
 cloudLibrary: "http://zotero.org/users/9108355/items/TRRH47RY"
 date: 2023
@@ -370,7 +370,7 @@ True and False. Length also True and False.
 
 ## [4. More Control Flow Tools](https://docs.python.org/3/tutorial/controlflow.html)
 
- Check this note to get additional information: [[Control_flow|control flow]] 
+ Check this note to get additional information: [[Control_flow|control flow]]
 
 ```python
 if x < 0:

@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://ghdocs-prod.azurewebsites.net/en/authentication/keeping-your-account-and-data-secure/removing-sensitive-data-from-a-repository
+external: https://ghdocs-prod.azurewebsites.net/en/authentication/keeping-your-account-and-data-secure/removing-sensitive-data-from-a-repository
 date: '2023-08-15'
 tags:
 - research

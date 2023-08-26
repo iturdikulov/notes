@@ -3,7 +3,7 @@ title: "Algorithms: Part 1"
 tags:
   - "research"
 author: "Robert Sedgewick; Kevin Wayne"
-canonicalUrl: "https://algs4.cs.princeton.edu/home/"
+external: "https://algs4.cs.princeton.edu/home/"
 citekey: "RobertSedgewickAlgorithms2014a"
 cloudLibrary: "http://zotero.org/users/9108355/items/RJSUR4DQ"
 date: 1391184000

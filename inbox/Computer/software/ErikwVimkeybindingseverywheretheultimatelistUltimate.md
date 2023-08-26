@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://github.com/erikw/vim-keybindings-everywhere-the-ultimate-list
+external: https://github.com/erikw/vim-keybindings-everywhere-the-ultimate-list
 date: '2023-08-15'
 tags:
 - research

@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://www.gutenberg.org/
+external: https://www.gutenberg.org/
 date: '2023-08-15'
 tags:
 - research

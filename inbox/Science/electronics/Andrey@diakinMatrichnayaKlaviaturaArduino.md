@@ -1,6 +1,6 @@
 ---
 author: Андрей @diakin
-canonicalUrl: https://habr.com/ru/post/664892/
+external: https://habr.com/ru/post/664892/
 date: '2022-12-18'
 tags:
 - research

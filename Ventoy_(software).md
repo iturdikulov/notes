@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://www.ventoy.net/en/index.html
+external: https://www.ventoy.net/en/index.html
 date: 2023-05-20
 sr-due: 2023-06-09
 sr-ease: 276

@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://www.cloudflare.com/learning/network-layer/how-does-the-internet-work/
+external: https://www.cloudflare.com/learning/network-layer/how-does-the-internet-work/
 date: '2023-08-18'
 tags:
 - research

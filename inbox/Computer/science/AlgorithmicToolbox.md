@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://www.coursera.org/learn/algorithmic-toolbox
+external: https://www.coursera.org/learn/algorithmic-toolbox
 date: '2023-08-19'
 tags:
 - research

@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://vk.com/feed
+external: https://vk.com/feed
 date: '2023-08-15'
 tags:
 - research

@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://aws.amazon.com/caching/
+external: https://aws.amazon.com/caching/
 date: '2023-08-18'
 tags:
 - research

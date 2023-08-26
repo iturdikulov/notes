@@ -1,6 +1,6 @@
 ---
 author: Ars Staff
-canonicalUrl: https://arstechnica.com/information-technology/2013/10/a-relatively-easy-to-understand-primer-on-elliptic-curve-cryptography/
+external: https://arstechnica.com/information-technology/2013/10/a-relatively-easy-to-understand-primer-on-elliptic-curve-cryptography/
 date: '2023-08-15'
 tags:
 - research

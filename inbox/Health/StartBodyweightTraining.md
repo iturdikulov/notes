@@ -1,5 +1,5 @@
 ---
-canonicalUrl: http://www.startbodyweight.com/
+external: http://www.startbodyweight.com/
 date: '2023-01-09'
 tags:
 - research

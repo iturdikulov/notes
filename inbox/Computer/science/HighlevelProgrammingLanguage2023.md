@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://en.wikipedia.org/w/index.php?title=High-level_programming_language&oldid=1143671448
+external: https://en.wikipedia.org/w/index.php?title=High-level_programming_language&oldid=1143671448
 date: '2023-03-11'
 tags:
 - research

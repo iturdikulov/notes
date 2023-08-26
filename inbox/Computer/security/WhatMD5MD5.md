@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://www.techtarget.com/searchsecurity/definition/MD5
+external: https://www.techtarget.com/searchsecurity/definition/MD5
 date: '2023-08-18'
 tags:
 - research

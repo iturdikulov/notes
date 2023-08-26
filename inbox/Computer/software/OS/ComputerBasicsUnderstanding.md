@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://edu.gcfglobal.org/en/computerbasics/understanding-operating-systems/1/
+external: https://edu.gcfglobal.org/en/computerbasics/understanding-operating-systems/1/
 date: '2023-08-18'
 tags:
 - research

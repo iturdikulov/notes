@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://vim.reversed.top/
+external: https://vim.reversed.top/
 date: 2023-03-12
 draft: true
 sr-due: 2024-01-16

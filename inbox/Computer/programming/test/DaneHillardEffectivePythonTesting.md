@@ -1,6 +1,6 @@
 ---
 author: Dane Hillard
-canonicalUrl: https://realpython.com/pytest-python-testing/
+external: https://realpython.com/pytest-python-testing/
 date: '2023-08-18'
 tags:
 - research

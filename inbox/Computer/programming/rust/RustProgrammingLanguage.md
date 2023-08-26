@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://doc.rust-lang.org/book/
+external: https://doc.rust-lang.org/book/
 date: '2023-08-18'
 tags:
 - research

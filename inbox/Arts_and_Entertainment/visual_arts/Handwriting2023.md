@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://en.wikipedia.org/w/index.php?title=Handwriting&oldid=1171209661
+external: https://en.wikipedia.org/w/index.php?title=Handwriting&oldid=1171209661
 date: '2023-08-25'
 tags:
 - research

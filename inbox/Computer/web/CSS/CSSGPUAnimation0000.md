@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://www.smashingmagazine.com/2016/12/gpu-animation-doing-it-right/
+external: https://www.smashingmagazine.com/2016/12/gpu-animation-doing-it-right/
 date: '2023-08-15'
 tags:
 - research

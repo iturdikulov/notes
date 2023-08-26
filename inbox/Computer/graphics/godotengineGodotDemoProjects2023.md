@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://github.com/godotengine/godot-demo-projects
+external: https://github.com/godotengine/godot-demo-projects
 date: '2023-08-19'
 tags:
 - research

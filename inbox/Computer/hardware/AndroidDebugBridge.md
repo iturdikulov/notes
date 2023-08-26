@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://developer.android.com/tools/adb
+external: https://developer.android.com/tools/adb
 date: '2023-08-15'
 tags:
 - research

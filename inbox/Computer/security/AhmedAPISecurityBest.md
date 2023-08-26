@@ -1,6 +1,6 @@
 ---
 author: Kamran Ahmed
-canonicalUrl: https://roadmap.sh/best-practices/api-security
+external: https://roadmap.sh/best-practices/api-security
 date: '2023-08-18'
 tags:
 - research

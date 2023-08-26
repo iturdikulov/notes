@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://www.twitch.tv/guit88man
+external: https://www.twitch.tv/guit88man
 date: '2023-08-21'
 tags:
 - research

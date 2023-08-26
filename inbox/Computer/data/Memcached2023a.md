@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://github.com/memcached/memcached
+external: https://github.com/memcached/memcached
 date: '2023-08-18'
 tags:
 - research

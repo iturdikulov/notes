@@ -3,7 +3,7 @@ title: "Coding Interview Practice"
 tags:
   - "research"
 author: "InterviewCake"
-canonicalUrl: "https://www.interviewcake.com/table-of-contents"
+external: "https://www.interviewcake.com/table-of-contents"
 citekey: "InterviewCakeCodingInterviewPractice"
 cloudLibrary: "http://zotero.org/users/9108355/items/LGF6FCS7"
 dateAdded: 1673280000

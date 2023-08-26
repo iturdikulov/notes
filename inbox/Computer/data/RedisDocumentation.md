@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://redis.io/docs/
+external: https://redis.io/docs/
 date: '2023-08-18'
 tags:
 - research

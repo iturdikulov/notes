@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://account.protonvpn.com/login
+external: https://account.protonvpn.com/login
 date: '2023-08-15'
 tags:
 - research

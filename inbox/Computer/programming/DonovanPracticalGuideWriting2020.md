@@ -1,6 +1,6 @@
 ---
 author: Ryan Donovan
-canonicalUrl: https://stackoverflow.blog/2020/04/06/a-practical-guide-to-writing-technical-specs/
+external: https://stackoverflow.blog/2020/04/06/a-practical-guide-to-writing-technical-specs/
 date: '2023-08-15'
 tags:
 - research

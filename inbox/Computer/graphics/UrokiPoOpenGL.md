@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://triplepointfive.github.io/ogltutor/
+external: https://triplepointfive.github.io/ogltutor/
 date: '2023-08-15'
 tags:
 - research

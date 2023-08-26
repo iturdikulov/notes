@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://github.com/mdn/webextensions-examples
+external: https://github.com/mdn/webextensions-examples
 date: '2023-08-15'
 tags:
 - research

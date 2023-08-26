@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP
+external: https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP
 date: '2023-08-18'
 tags:
 - research

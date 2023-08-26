@@ -1,6 +1,6 @@
 ---
 author: '@vas3k'
-canonicalUrl: https://vas3k.blog/blog/computational_photography/
+external: https://vas3k.blog/blog/computational_photography/
 date: '2023-08-15'
 tags:
 - research

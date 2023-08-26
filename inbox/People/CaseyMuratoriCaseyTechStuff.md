@@ -1,6 +1,6 @@
 ---
 author: Casey Muratori
-canonicalUrl: https://caseymuratori.com/index
+external: https://caseymuratori.com/index
 date: '2023-08-15'
 tags:
 - research

@@ -1,6 +1,6 @@
 ---
 author: baeldung
-canonicalUrl: https://www.baeldung.com/linux/posix
+external: https://www.baeldung.com/linux/posix
 date: '2023-08-17'
 tags:
 - research

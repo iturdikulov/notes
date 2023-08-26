@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://pgexercises.com/gettingstarted.html
+external: https://pgexercises.com/gettingstarted.html
 date: '2023-08-15'
 tags:
 - research

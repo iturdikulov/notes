@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://www.khanacademy.org/computing/code-org/computers-and-the-internet
+external: https://www.khanacademy.org/computing/code-org/computers-and-the-internet
 date: '2023-08-22'
 tags:
 - research

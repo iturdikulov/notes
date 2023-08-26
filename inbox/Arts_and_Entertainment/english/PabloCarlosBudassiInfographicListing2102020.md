@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://commons.wikimedia.org/wiki/File:The_Celestial_Zoo_infographic_wikimedia.png
+external: https://commons.wikimedia.org/wiki/File:The_Celestial_Zoo_infographic_wikimedia.png
 date: '2023-01-09'
 tags:
 - research

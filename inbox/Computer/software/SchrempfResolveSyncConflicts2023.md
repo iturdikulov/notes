@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://github.com/dschrempf/syncthing-resolve-conflicts
+external: https://github.com/dschrempf/syncthing-resolve-conflicts
 date: '2023-08-19'
 tags:
 - research

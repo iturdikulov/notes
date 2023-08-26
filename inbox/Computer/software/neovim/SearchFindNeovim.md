@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://dotfyle.com/plugins
+external: https://dotfyle.com/plugins
 date: '2023-08-15'
 tags:
 - research

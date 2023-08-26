@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://en.wikipedia.org/w/index.php?title=Sicario_(2015_film)&oldid=1166420807
+external: https://en.wikipedia.org/w/index.php?title=Sicario_(2015_film)&oldid=1166420807
 date: '2023-08-22'
 tags:
 - research

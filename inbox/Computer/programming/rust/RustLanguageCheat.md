@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://cheats.rs/
+external: https://cheats.rs/
 date: '2023-08-15'
 tags:
 - research

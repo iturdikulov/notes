@@ -1,6 +1,6 @@
 ---
 author: Matt Sicker
-canonicalUrl: https://musigma.blog/2021/05/09/gpg-ssh-ed25519.html
+external: https://musigma.blog/2021/05/09/gpg-ssh-ed25519.html
 date: '2023-08-15'
 tags:
 - research

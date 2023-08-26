@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://www.l2jserver.com/
+external: https://www.l2jserver.com/
 date: 2023-04-18
 draft: true
 sr-due: 2023-05-21

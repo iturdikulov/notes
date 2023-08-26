@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://carlcheo.com/startcoding
+external: https://carlcheo.com/startcoding
 date: '2023-01-10'
 tags:
 - research

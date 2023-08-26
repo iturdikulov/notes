@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://github.com/borgmatic-collective/borgmatic
+external: https://github.com/borgmatic-collective/borgmatic
 date: '2023-08-19'
 tags:
 - research

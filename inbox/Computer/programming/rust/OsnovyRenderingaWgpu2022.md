@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://habr.com/ru/companies/otus/articles/658859/
+external: https://habr.com/ru/companies/otus/articles/658859/
 date: '2023-08-18'
 tags:
 - research

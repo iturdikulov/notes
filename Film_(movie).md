@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://simple.wikipedia.org/wiki/Movie
+external: https://simple.wikipedia.org/wiki/Movie
 date: 2023-07-12
 draft: true
 sr-due: 2023-07-17

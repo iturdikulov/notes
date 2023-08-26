@@ -1,6 +1,6 @@
 ---
 author: popchart
-canonicalUrl: https://popchart.co/products/a-stylistic-survey-of-graphic-design
+external: https://popchart.co/products/a-stylistic-survey-of-graphic-design
 date: '2023-01-10'
 tags:
 - research

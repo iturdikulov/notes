@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://github.com/vinta/awesome-python
+external: https://github.com/vinta/awesome-python
 date: '2023-08-15'
 tags:
 - research

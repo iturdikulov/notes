@@ -1,5 +1,5 @@
 ---
-canonicalUrl: http://www.wikicfp.com/cfp/
+external: http://www.wikicfp.com/cfp/
 date: '2023-08-15'
 tags:
 - research

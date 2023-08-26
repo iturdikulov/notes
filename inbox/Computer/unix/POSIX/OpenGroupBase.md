@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://pubs.opengroup.org/onlinepubs/9699919799/
+external: https://pubs.opengroup.org/onlinepubs/9699919799/
 date: '2023-08-17'
 tags:
 - research

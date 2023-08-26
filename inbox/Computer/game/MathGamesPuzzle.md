@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://www.mathsisfun.com/games/index.html
+external: https://www.mathsisfun.com/games/index.html
 date: '2023-08-21'
 tags:
 - research

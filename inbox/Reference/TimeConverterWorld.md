@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://www.worldtimebuddy.com/
+external: https://www.worldtimebuddy.com/
 date: '2023-08-15'
 tags:
 - research

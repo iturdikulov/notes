@@ -1,6 +1,6 @@
 ---
 author: Valentinas C
-canonicalUrl: https://www.hostinger.com/tutorials/linux-commands
+external: https://www.hostinger.com/tutorials/linux-commands
 date: '2023-08-17'
 tags:
 - research

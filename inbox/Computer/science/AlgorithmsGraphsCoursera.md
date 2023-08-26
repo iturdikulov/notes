@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://www.coursera.org/learn/algorithms-on-graphs
+external: https://www.coursera.org/learn/algorithms-on-graphs
 date: '2023-08-22'
 tags:
 - research

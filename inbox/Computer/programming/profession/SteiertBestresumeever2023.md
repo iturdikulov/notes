@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://github.com/salomonelli/best-resume-ever
+external: https://github.com/salomonelli/best-resume-ever
 date: '2023-08-15'
 tags:
 - research

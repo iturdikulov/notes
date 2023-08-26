@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://www.khanacademy.org/
+external: https://www.khanacademy.org/
 date: '2023-04-16'
 draft: true
 sr-due: 2023-05-29

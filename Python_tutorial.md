@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://docs.python.org/3/tutorial/index.html
+external: https://docs.python.org/3/tutorial/index.html
 citekey: PythonTutorial2023
 cloudLibrary: http://zotero.org/users/9108355/items/TRRH47RY
 date: 2023

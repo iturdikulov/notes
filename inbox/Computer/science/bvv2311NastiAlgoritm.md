@@ -1,6 +1,6 @@
 ---
 author: bvv2311
-canonicalUrl: https://habr.com/ru/post/656999/
+external: https://habr.com/ru/post/656999/
 date: '2022-12-18'
 tags:
 - research

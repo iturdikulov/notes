@@ -1,6 +1,6 @@
 ---
 author: Rob Tuytel; Obaidur Rahman
-canonicalUrl: https://www.udemy.com/course/blender-environments/
+external: https://www.udemy.com/course/blender-environments/
 date: '2023-08-19'
 tags:
 - research

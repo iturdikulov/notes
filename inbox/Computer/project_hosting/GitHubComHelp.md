@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://ghdocs-prod.azurewebsites.net/_next/data/v56K6cOXiXGkTQX9Jh_EQ/en.json
+external: https://ghdocs-prod.azurewebsites.net/_next/data/v56K6cOXiXGkTQX9Jh_EQ/en.json
 date: '2023-08-15'
 tags:
 - research

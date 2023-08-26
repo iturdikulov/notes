@@ -2,7 +2,7 @@
 title: The Python Standard Library
 date: 2023
 dateAdded: 2023-03-14
-canonicalUrl: https://docs.python.org/3/library/index.html
+external: https://docs.python.org/3/library/index.html
 citekey: PythonStandardLibrary2023
 tags:
     - research

@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://en.wikipedia.org/w/index.php?title=Gothic_(series)&oldid=1171167301
+external: https://en.wikipedia.org/w/index.php?title=Gothic_(series)&oldid=1171167301
 date: '2023-08-19'
 tags:
 - research

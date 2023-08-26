@@ -1,6 +1,6 @@
 ---
 author: popchart
-canonicalUrl: https://popchart.co/products/birds-of-the-world
+external: https://popchart.co/products/birds-of-the-world
 date: '2023-01-10'
 tags:
 - research

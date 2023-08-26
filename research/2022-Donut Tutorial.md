@@ -9,7 +9,7 @@ created: 2023-06-05
 sr-due: 2023-08-25
 sr-interval: 1
 sr-ease: 230
-canonicalUrl: https://www.youtube.com/watch?v=nIoXOplUvAw
+external: https://www.youtube.com/watch?v=nIoXOplUvAw
 ---
 
 `M-z`::toggle X-ray

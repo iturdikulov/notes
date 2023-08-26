@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://browserstack.wpengine.com/guide/testing-pyramid-for-test-automation/
+external: https://browserstack.wpengine.com/guide/testing-pyramid-for-test-automation/
 date: '2023-08-18'
 tags:
 - research

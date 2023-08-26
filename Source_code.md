@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://en.wikipedia.org/wiki/Source_code
+external: https://en.wikipedia.org/wiki/Source_code
 date: 2023-03-21
 draft: true
 sr-due: 2023-09-12

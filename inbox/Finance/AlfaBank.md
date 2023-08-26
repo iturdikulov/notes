@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://alfabank.ru/
+external: https://alfabank.ru/
 date: '2023-08-15'
 tags:
 - research

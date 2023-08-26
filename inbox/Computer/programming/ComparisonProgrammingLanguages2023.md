@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://en.wikipedia.org/w/index.php?title=Comparison_of_programming_languages_(string_functions)&oldid=1161065332#Concatenation
+external: https://en.wikipedia.org/w/index.php?title=Comparison_of_programming_languages_(string_functions)&oldid=1161065332#Concatenation
 date: '2023-08-15'
 tags:
 - research

@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://en.wikipedia.org/w/index.php?title=Computer_performance&oldid=1167061652
+external: https://en.wikipedia.org/w/index.php?title=Computer_performance&oldid=1167061652
 date: '2023-08-25'
 tags:
 - research

@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://www.linux.org.ru/
+external: https://www.linux.org.ru/
 date: '2023-08-15'
 tags:
 - research

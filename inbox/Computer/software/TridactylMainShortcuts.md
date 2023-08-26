@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://app.memrise.com/course/5995499/tridactyls-main-shortcuts/
+external: https://app.memrise.com/course/5995499/tridactyls-main-shortcuts/
 date: '2023-08-21'
 tags:
 - research

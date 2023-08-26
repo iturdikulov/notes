@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://news.ycombinator.com/best
+external: https://news.ycombinator.com/best
 date: 2023-03-12
 draft: true
 sr-due: 2024-01-28

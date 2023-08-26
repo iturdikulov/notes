@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://github.com/lekkas/c-algorithms
+external: https://github.com/lekkas/c-algorithms
 date: '2023-08-22'
 tags:
 - research

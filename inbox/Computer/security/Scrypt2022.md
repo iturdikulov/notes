@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://en.wikipedia.org/w/index.php?title=Scrypt&oldid=1122728631
+external: https://en.wikipedia.org/w/index.php?title=Scrypt&oldid=1122728631
 date: '2023-08-18'
 tags:
 - research

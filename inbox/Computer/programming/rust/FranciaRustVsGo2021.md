@@ -1,6 +1,6 @@
 ---
 author: Jonathan Turner, Steve Francia
-canonicalUrl: https://thenewstack.io/rust-vs-go-why-theyre-better-together/
+external: https://thenewstack.io/rust-vs-go-why-theyre-better-together/
 date: '2023-08-18'
 tags:
 - research

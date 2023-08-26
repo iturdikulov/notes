@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://en.wikipedia.org/w/index.php?title=Python_(programming_language)&oldid=1170534008
+external: https://en.wikipedia.org/w/index.php?title=Python_(programming_language)&oldid=1170534008
 date: '2023-08-15'
 tags:
 - research

@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://auth0.com/blog/hashing-in-action-understanding-bcrypt/
+external: https://auth0.com/blog/hashing-in-action-understanding-bcrypt/
 date: '2023-08-18'
 tags:
 - research

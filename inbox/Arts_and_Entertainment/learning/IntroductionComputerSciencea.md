@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/
+external: https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/
 date: '2023-08-15'
 tags:
 - research

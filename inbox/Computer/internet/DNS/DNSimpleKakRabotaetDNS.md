@@ -1,6 +1,6 @@
 ---
 author: DNSimple
-canonicalUrl: https://howdns.works/
+external: https://howdns.works/
 date: '2023-08-17'
 tags:
 - research

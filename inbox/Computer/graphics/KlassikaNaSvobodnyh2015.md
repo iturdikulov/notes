@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://www.linux.org.ru/forum/games/11192801
+external: https://www.linux.org.ru/forum/games/11192801
 date: '2023-08-15'
 tags:
 - research

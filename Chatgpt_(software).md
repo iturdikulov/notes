@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://chat.openai.com/chat
+external: https://chat.openai.com/chat
 date: 2023-03-12
 sr-due: 2024-01-15
 sr-ease: 288

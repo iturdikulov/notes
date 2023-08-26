@@ -1,6 +1,6 @@
 ---
 author: Stan Prokopenko
-canonicalUrl: https://www.proko.com/course/figure-drawing-fundamentals
+external: https://www.proko.com/course/figure-drawing-fundamentals
 date: '2023-08-19'
 tags:
 - research

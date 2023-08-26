@@ -1,6 +1,6 @@
 ---
 author: Bilal Arslan
-canonicalUrl: https://github.com/arslanbilal/git-cheat-sheet
+external: https://github.com/arslanbilal/git-cheat-sheet
 date: '2023-01-09'
 tags:
 - research

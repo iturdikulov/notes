@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://nixos.org/
+external: https://nixos.org/
 date: '2023-08-15'
 tags:
 - research

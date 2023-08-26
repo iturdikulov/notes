@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://blog.winter.dev/2020/designing-a-physics-engine/
+external: https://blog.winter.dev/2020/designing-a-physics-engine/
 date: '2023-08-15'
 tags:
 - research

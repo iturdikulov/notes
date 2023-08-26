@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://habr.com/ru/articles/596411/
+external: https://habr.com/ru/articles/596411/
 date: '2023-08-18'
 tags:
 - research

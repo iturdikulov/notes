@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://digital-photography-school.com/cheat-sheet-gear-settings-low-light-photography/
+external: https://digital-photography-school.com/cheat-sheet-gear-settings-low-light-photography/
 date: '2023-01-10'
 tags:
 - research

@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://habr.com/ru/companies/pt/articles/674216/
+external: https://habr.com/ru/companies/pt/articles/674216/
 date: '2022-06-30'
 tags:
 - research

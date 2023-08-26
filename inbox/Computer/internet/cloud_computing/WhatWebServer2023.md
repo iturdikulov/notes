@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_web_server
+external: https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_web_server
 date: '2023-08-18'
 tags:
 - research

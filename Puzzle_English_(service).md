@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://puzzle-english.com/
+external: https://puzzle-english.com/
 date: 2022-12-29
 draft: true
 sr-due: 2023-06-14

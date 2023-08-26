@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://blog.pendowski.com/ringodoro-self-made-pomodoro-timer/
+external: https://blog.pendowski.com/ringodoro-self-made-pomodoro-timer/
 date: '2023-08-15'
 tags:
 - research

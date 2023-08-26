@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://en.wikipedia.org/w/index.php?title=Memcached&oldid=1146819359
+external: https://en.wikipedia.org/w/index.php?title=Memcached&oldid=1146819359
 date: '2023-08-18'
 tags:
 - research

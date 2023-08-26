@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://thanoskoutr.com/posts/gpg-keys-configure/
+external: https://thanoskoutr.com/posts/gpg-keys-configure/
 date: '2023-08-15'
 tags:
 - research

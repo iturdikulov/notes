@@ -1,6 +1,6 @@
 ---
 author: Sidney Liebrand
-canonicalUrl: https://sidneyliebrand.io
+external: https://sidneyliebrand.io
 date: '2023-08-15'
 tags:
 - research

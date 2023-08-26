@@ -8,7 +8,7 @@ date: 2023
 sr-due: 1678723200
 sr-ease: 230
 sr-interval: 1
-canonicalUrl: https://www.youtube.com/playlist?list=PLawfWYMUziZqyUL5QDLVbe3j5BKWj42E5
+external: https://www.youtube.com/playlist?list=PLawfWYMUziZqyUL5QDLVbe3j5BKWj42E5
 ---
 
 ## Week 0

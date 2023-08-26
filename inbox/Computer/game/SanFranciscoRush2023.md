@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://en.wikipedia.org/w/index.php?title=San_Francisco_Rush_2049&oldid=1170450702
+external: https://en.wikipedia.org/w/index.php?title=San_Francisco_Rush_2049&oldid=1170450702
 date: '2023-08-19'
 tags:
 - research

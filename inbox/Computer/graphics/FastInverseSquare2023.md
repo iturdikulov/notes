@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://en.wikipedia.org/w/index.php?title=Fast_inverse_square_root&oldid=1168589082
+external: https://en.wikipedia.org/w/index.php?title=Fast_inverse_square_root&oldid=1168589082
 date: '2023-08-15'
 tags:
 - research

@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://github.com/gibsjose/cpp-cheat-sheet/blob/master/Data%20Structures%20and%20Algorithms.md
+external: https://github.com/gibsjose/cpp-cheat-sheet/blob/master/Data%20Structures%20and%20Algorithms.md
 tags:
 - research
 - inbox

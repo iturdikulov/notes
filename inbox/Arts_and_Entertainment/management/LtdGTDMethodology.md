@@ -1,6 +1,6 @@
 ---
 author: Xmind Ltd
-canonicalUrl: https://xmind.app/m/SDC5/
+external: https://xmind.app/m/SDC5/
 date: '2023-01-15'
 tags:
 - research

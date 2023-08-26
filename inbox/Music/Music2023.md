@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://en.wikipedia.org/w/index.php?title=Music&oldid=1170113128
+external: https://en.wikipedia.org/w/index.php?title=Music&oldid=1170113128
 date: '2023-08-18'
 tags:
 - research

@@ -1,7 +1,7 @@
 ---
 ate: '2023-01-09'
 author: Paul Dawkins
-canonicalUrl: https://tutorial.math.lamar.edu/Extras/CheatSheets_Tables.aspx#CommonDerivInt
+external: https://tutorial.math.lamar.edu/Extras/CheatSheets_Tables.aspx#CommonDerivInt
 tags:
 - research
 - inbox

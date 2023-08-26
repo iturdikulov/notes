@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://roadmap.sh/python
+external: https://roadmap.sh/python
 date: '2023-08-15'
 tags:
 - research

@@ -1,6 +1,6 @@
 ---
 author: Nathan Lovato; François Bélair; Henrique Campos; Răzvan C. Rădulescu
-canonicalUrl: https://gdquest.mavenseed.com/courses/create-your-first-2d-game-with-godot-extended-edition
+external: https://gdquest.mavenseed.com/courses/create-your-first-2d-game-with-godot-extended-edition
 date: '2023-08-18'
 tags:
 - research

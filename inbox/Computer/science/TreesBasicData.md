@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://www.coursera.org/lecture/data-structures/trees-95qda
+external: https://www.coursera.org/lecture/data-structures/trees-95qda
 date: '2023-08-22'
 tags:
 - research

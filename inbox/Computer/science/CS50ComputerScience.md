@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://www.edx.org/cs50
+external: https://www.edx.org/cs50
 date: '2023-08-15'
 tags:
 - research

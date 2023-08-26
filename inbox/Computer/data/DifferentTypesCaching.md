@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://wp-rocket.me/wordpress-cache/different-types-of-caching/
+external: https://wp-rocket.me/wordpress-cache/different-types-of-caching/
 date: '2023-08-18'
 tags:
 - research

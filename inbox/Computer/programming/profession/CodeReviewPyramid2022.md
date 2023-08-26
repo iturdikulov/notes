@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://www.morling.dev/blog/the-code-review-pyramid/
+external: https://www.morling.dev/blog/the-code-review-pyramid/
 date: '2023-01-10'
 tags:
 - research

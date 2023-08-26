@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://society6.com/product/history-of-life_print
+external: https://society6.com/product/history-of-life_print
 date: '2023-01-09'
 tags:
 - research

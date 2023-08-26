@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/Pages_sites_servers_and_search_engines
+external: https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/Pages_sites_servers_and_search_engines
 date: '2023-08-18'
 tags:
 - research

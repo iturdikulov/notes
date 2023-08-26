@@ -1,6 +1,6 @@
 ---
 author: Kent Trammell
-canonicalUrl: https://cgcookie.com/courses/human-realistic-portrait-creation-with-blender
+external: https://cgcookie.com/courses/human-realistic-portrait-creation-with-blender
 date: '2023-08-19'
 tags:
 - research

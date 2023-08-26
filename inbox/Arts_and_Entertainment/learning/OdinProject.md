@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://www.theodinproject.com/
+external: https://www.theodinproject.com/
 date: '2023-08-15'
 tags:
 - research

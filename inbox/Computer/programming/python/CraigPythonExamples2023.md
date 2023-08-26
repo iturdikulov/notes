@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://github.com/geekcomputers/Python
+external: https://github.com/geekcomputers/Python
 date: '2023-08-19'
 tags:
 - research

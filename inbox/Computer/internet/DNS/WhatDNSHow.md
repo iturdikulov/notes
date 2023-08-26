@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://www.cloudflare.com/learning/dns/what-is-dns/
+external: https://www.cloudflare.com/learning/dns/what-is-dns/
 date: '2023-08-18'
 tags:
 - research

@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://twobithistory.org/2021/03/08/arpanet-protocols.html
+external: https://twobithistory.org/2021/03/08/arpanet-protocols.html
 date: '2023-08-20'
 tags:
 - research

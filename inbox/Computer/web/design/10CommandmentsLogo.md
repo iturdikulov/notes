@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://www.designmantic.com/blog/infographics/ten-commandments-of-logo-design/
+external: https://www.designmantic.com/blog/infographics/ten-commandments-of-logo-design/
 date: '2023-01-10'
 tags:
 - research

@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://en.wikipedia.org/w/index.php?title=C23_(C_standard_revision)&oldid=1170325288#External_links
+external: https://en.wikipedia.org/w/index.php?title=C23_(C_standard_revision)&oldid=1170325288#External_links
 date: '2023-08-14'
 tags:
 - research

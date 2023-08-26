@@ -1,6 +1,6 @@
 ---
 author: Matt Smith
-canonicalUrl: https://github.com/AllThingsSmitty/css-protips
+external: https://github.com/AllThingsSmitty/css-protips
 date: '2023-01-10'
 tags:
 - research

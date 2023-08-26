@@ -3,7 +3,7 @@ title: Pro Git
 author: Scott Chacon; Ben Straub
 date: 2022
 dateAdded: 2022-12-30
-canonicalUrl: https://git-scm.com/book/en/v2
+external: https://git-scm.com/book/en/v2
 citekey: ScottChaconProGit2022
 tags:
   - research

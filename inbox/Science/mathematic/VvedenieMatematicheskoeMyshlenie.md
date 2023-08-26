@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://www.coursera.org/learn/mathematical-thinking?utm_campaign=gotocourse&utm_medium=coursepage&utm_source=CourseTalk
+external: https://www.coursera.org/learn/mathematical-thinking?utm_campaign=gotocourse&utm_medium=coursepage&utm_source=CourseTalk
 date: '2023-08-15'
 tags:
 - research

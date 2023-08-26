@@ -1,6 +1,6 @@
 ---
 author: F. C. Stegerman
-canonicalUrl: https://github.com/obfusk/bash-cheatsheet
+external: https://github.com/obfusk/bash-cheatsheet
 date: '2023-01-09'
 tags:
 - research

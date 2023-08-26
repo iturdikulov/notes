@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://www.mongodb.com/nosql-explained
+external: https://www.mongodb.com/nosql-explained
 date: '2023-08-18'
 tags:
 - research

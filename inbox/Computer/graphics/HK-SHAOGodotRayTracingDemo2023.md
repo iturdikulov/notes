@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://github.com/HK-SHAO/Godot-RayTracing-Demo
+external: https://github.com/HK-SHAO/Godot-RayTracing-Demo
 date: '2023-08-19'
 tags:
 - research

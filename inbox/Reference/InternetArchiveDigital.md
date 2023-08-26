@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://archive.org/
+external: https://archive.org/
 date: '2023-08-15'
 tags:
 - research

@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://dvprogram.state.gov/
+external: https://dvprogram.state.gov/
 date: '2023-08-15'
 tags:
 - research

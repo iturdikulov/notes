@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://roadmap.sh/backend
+external: https://roadmap.sh/backend
 date: '2023-08-15'
 tags:
 - research

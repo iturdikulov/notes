@@ -1,5 +1,5 @@
 ---
-canonicalUrl: http://ariis.it/static/articles/handwritten-pgp-key/page.html
+external: http://ariis.it/static/articles/handwritten-pgp-key/page.html
 date: '2023-08-15'
 tags:
 - research

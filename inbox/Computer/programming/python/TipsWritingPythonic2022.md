@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://davidamos.dev/3-tips-for-writing-pythonic-code/
+external: https://davidamos.dev/3-tips-for-writing-pythonic-code/
 date: '2023-08-15'
 tags:
 - research

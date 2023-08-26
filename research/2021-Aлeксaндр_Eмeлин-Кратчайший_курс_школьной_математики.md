@@ -3,7 +3,7 @@ title: Кратчайший курс школьной математики
 author: Eмeлин Aлeксaндр
 date: 2021-9-31
 dateAdded: 2022-12-30
-canonicalUrl: https://mathter.pro/pesochnica/index.html
+external: https://mathter.pro/pesochnica/index.html
 citekey: EmelinAleksandrKratchayshiyKursShkolnoy
 tags:
     - research

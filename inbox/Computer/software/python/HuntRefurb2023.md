@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://github.com/dosisod/refurb
+external: https://github.com/dosisod/refurb
 date: '2023-08-15'
 tags:
 - research

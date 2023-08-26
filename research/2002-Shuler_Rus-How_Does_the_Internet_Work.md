@@ -3,7 +3,7 @@ title: How Does the Internet Work?
 author:  Rus Shuler
 date: 2002
 dateAdded: 2023-02-19
-canonicalUrl: https://web.stanford.edu/class/msande91si/www-spr04/readings/week1/InternetWhitepaper.htm
+external: https://web.stanford.edu/class/msande91si/www-spr04/readings/week1/InternetWhitepaper.htm
 citekey: RusShulerHowDoesInternet2002
 tags:
     - research

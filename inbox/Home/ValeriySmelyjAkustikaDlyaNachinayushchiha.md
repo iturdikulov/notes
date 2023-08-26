@@ -1,6 +1,6 @@
 ---
 author: ValeriySmelyj
-canonicalUrl: https://pikabu.ru/story/akustika_dlya_nachinayushchikh_zvukopogloshchenie_chast_2_3961293
+external: https://pikabu.ru/story/akustika_dlya_nachinayushchikh_zvukopogloshchenie_chast_2_3961293
 date: '2023-01-10'
 tags:
 - research

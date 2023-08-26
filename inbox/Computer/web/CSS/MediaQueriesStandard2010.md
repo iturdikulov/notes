@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://css-tricks.com/snippets/css/media-queries-for-standard-devices/
+external: https://css-tricks.com/snippets/css/media-queries-for-standard-devices/
 date: '2023-08-15'
 tags:
 - research

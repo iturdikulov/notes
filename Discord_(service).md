@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://discord.com/app
+external: https://discord.com/app
 date: 2023-03-12
 draft: true
 sr-due: 2024-01-27

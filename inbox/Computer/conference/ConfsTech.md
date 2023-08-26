@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://confs.tech/
+external: https://confs.tech/
 date: '2023-08-15'
 tags:
 - research

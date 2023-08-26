@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://simple.wikipedia.org/wiki/Computer_network
+external: https://simple.wikipedia.org/wiki/Computer_network
 date: 2023-03-21
 draft: true
 sr-due: 2023-05-31

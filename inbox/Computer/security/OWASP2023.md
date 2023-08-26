@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://en.wikipedia.org/w/index.php?title=OWASP&oldid=1170789517
+external: https://en.wikipedia.org/w/index.php?title=OWASP&oldid=1170789517
 date: '2023-08-18'
 tags:
 - research

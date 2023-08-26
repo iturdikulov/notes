@@ -1,5 +1,5 @@
 ---
-canonicalUrl: null
+external: null
 date: '2023-01-10'
 tags:
 - research

@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://github.com/rigtorp/awesome-modern-cpp
+external: https://github.com/rigtorp/awesome-modern-cpp
 date: '2023-08-15'
 tags:
 - research

@@ -1,6 +1,6 @@
 ---
 author: Real Python
-canonicalUrl: https://realpython.com/practical-prompt-engineering/
+external: https://realpython.com/practical-prompt-engineering/
 date: '2023-08-15'
 tags:
 - research

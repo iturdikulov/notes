@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://horan.hk/blog/u2f-pam-login/
+external: https://horan.hk/blog/u2f-pam-login/
 date: '2023-08-18'
 tags:
 - research

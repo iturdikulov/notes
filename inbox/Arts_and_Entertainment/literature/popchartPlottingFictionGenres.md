@@ -1,6 +1,6 @@
 ---
 author: popchart
-canonicalUrl: https://popchart.co/products/a-plotting-of-fiction-genres
+external: https://popchart.co/products/a-plotting-of-fiction-genres
 date: '2023-01-10'
 tags:
 - research

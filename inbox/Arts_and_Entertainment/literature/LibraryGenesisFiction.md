@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://libgen.is/fiction/
+external: https://libgen.is/fiction/
 date: '2023-08-15'
 tags:
 - research

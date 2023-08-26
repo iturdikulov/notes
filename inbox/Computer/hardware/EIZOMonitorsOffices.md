@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://www.eizo.be/monitor-test/
+external: https://www.eizo.be/monitor-test/
 date: '2023-08-17'
 tags:
 - research

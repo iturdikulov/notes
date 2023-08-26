@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://archive.org/details/ucberkeley_webcast_VIS4YDpuP98
+external: https://archive.org/details/ucberkeley_webcast_VIS4YDpuP98
 date: '2023-08-22'
 tags:
 - research

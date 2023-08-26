@@ -1,6 +1,6 @@
 ---
 author: Jonathan Hodgson
-canonicalUrl: https://jonathanh.co.uk/blog/mutt-setup/
+external: https://jonathanh.co.uk/blog/mutt-setup/
 date: '2023-08-15'
 tags:
 - research

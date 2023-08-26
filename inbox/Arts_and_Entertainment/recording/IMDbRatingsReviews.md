@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://www.imdb.com/
+external: https://www.imdb.com/
 date: '2023-08-15'
 tags:
 - research

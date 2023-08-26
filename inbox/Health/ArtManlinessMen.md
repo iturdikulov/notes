@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://www.artofmanliness.com/
+external: https://www.artofmanliness.com/
 date: '2023-08-15'
 tags:
 - research

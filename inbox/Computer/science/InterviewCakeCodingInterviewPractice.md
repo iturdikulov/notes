@@ -1,6 +1,6 @@
 ---
 author: InterviewCake
-canonicalUrl: https://www.interviewcake.com/table-of-contents
+external: https://www.interviewcake.com/table-of-contents
 date: '2023-01-10'
 tags:
 - research

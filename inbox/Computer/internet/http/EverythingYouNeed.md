@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://cs.fyi/guide/http-in-depth
+external: https://cs.fyi/guide/http-in-depth
 date: '2023-08-18'
 tags:
 - research

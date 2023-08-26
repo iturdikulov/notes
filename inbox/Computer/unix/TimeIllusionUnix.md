@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://www.netmeister.org/blog/epoch.html
+external: https://www.netmeister.org/blog/epoch.html
 date: '2023-08-15'
 tags:
 - research

@@ -1,6 +1,6 @@
 ---
 author: RomeoStevens
-canonicalUrl: https://www.lesswrong.com/posts/PhXENjdXiHhsWGfQo/lifestyle-interventions-to-increase-longevity
+external: https://www.lesswrong.com/posts/PhXENjdXiHhsWGfQo/lifestyle-interventions-to-increase-longevity
 date: '2023-01-10'
 tags:
 - research

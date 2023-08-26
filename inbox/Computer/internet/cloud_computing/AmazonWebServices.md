@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://aws.amazon.com/
+external: https://aws.amazon.com/
 date: '2023-08-15'
 tags:
 - research

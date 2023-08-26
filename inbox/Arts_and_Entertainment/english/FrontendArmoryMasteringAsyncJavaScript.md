@@ -1,6 +1,6 @@
 ---
 author: FrontendArmory
-canonicalUrl: https://frontarm.com/courses/async-javascript/in-practice/cheatsheet/
+external: https://frontarm.com/courses/async-javascript/in-practice/cheatsheet/
 date: '2023-01-10'
 tags:
 - research

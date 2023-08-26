@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://github.com/bryansteiner/gpu-passthrough-tutorial
+external: https://github.com/bryansteiner/gpu-passthrough-tutorial
 date: '2023-08-16'
 tags:
 - research

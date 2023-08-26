@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://www.mathsisfun.com/
+external: https://www.mathsisfun.com/
 date: 2023-08-26
 tags:
 - inbox

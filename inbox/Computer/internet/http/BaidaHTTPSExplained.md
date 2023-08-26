@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://baida.dev/articles/https-explained-with-carrier-pigeons
+external: https://baida.dev/articles/https-explained-with-carrier-pigeons
 date: '2023-08-18'
 tags:
 - research

@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://www.blender.org/
+external: https://www.blender.org/
 date: '2023-08-15'
 tags:
 - research

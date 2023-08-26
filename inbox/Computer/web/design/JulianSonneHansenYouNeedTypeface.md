@@ -1,6 +1,6 @@
 ---
 author: Julian Sonne Hansen
-canonicalUrl: https://julianhansen.com/soyouneedatypeface
+external: https://julianhansen.com/soyouneedatypeface
 date: '2023-01-09'
 tags:
 - research

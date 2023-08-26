@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://en.wikipedia.org/w/index.php?title=Object-oriented_programming&oldid=1170362261
+external: https://en.wikipedia.org/w/index.php?title=Object-oriented_programming&oldid=1170362261
 date: '2023-08-15'
 tags:
 - research

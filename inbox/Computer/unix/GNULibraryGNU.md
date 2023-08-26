@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://www.gnu.org/software/libc/manual/
+external: https://www.gnu.org/software/libc/manual/
 date: '2023-08-25'
 tags:
 - research

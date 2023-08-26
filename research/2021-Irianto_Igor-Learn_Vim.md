@@ -3,7 +3,7 @@ title: Learn Vim
 author: Igor Irianto
 date: 2021
 dateAdded: 2023-03-19
-canonicalUrl: https://learnvim.irian.to
+external: https://learnvim.irian.to
 citekey: IgorIriantoLearnVim2021
 tags:
   - research

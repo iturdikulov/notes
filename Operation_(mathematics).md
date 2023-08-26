@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://en.wikipedia.org/wiki/Operation_(mathematics)
+external: https://en.wikipedia.org/wiki/Operation_(mathematics)
 date: 2023-03-18
 draft: true
 sr-due: 2023-12-20

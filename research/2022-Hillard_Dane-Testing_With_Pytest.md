@@ -2,7 +2,7 @@
 title: "Effective Python Testing With Pytest"
 author: Dane Hillard
 dateAdded: 2023-04-29
-canonicalUrl: https://realpython.com/pytest-python-testing/
+external: https://realpython.com/pytest-python-testing/
 citekey: DaneHillardEffectivePythonTesting
 tags:
   - research

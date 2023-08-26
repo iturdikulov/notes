@@ -1,5 +1,5 @@
 ---
-canonicalUrl: https://www.npmjs.com/package/bcrypt
+external: https://www.npmjs.com/package/bcrypt
 date: '2023-08-18'
 tags:
 - research
