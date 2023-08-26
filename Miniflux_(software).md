@@ -1,15 +1,11 @@
 ---
 canonicalUrl: https://miniflux.app/
 date: 2023-03-27
-sr-due: 2023-04-01
-sr-ease: 272
-sr-interval: 4
+sr-due: 2023-11-24
+sr-ease: 292
+sr-interval: 191
 tags:
 - inbox
-- definition
-sr-due: 2023-11-24
-sr-interval: 191
-sr-ease: 292
 ---
 
 # Miniflux

@@ -1,15 +1,11 @@
 ---
 date: 2023-03-08
 draft: true
-sr-due: 2023-03-16
+sr-due: 2023-08-13
 sr-ease: 250
-sr-interval: 3
+sr-interval: 88
 tags:
 - inbox
-- definition
-sr-due: 2023-08-13
-sr-interval: 88
-sr-ease: 250
 ---
 
 # Photography

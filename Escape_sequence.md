@@ -6,7 +6,6 @@ sr-ease: 248
 sr-interval: 2
 tags:
 - inbox
-- definition
 ---
 
 # Escape sequences

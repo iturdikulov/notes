@@ -1,15 +1,12 @@
 ---
 date: 2022-12-29
 draft: true
-sr-due: 2023-03-14
-sr-ease: 224
-sr-interval: 1
+sr-due: 2023-12-09
+sr-ease: 244
+sr-interval: 206
 tags:
 - inbox
 - irl-tip
-sr-due: 2023-12-09
-sr-interval: 206
-sr-ease: 244
 ---
 
 # How to study?
@@ -69,4 +66,3 @@ after finishing studying.
    terms, and idioms.
 9. Use ==[[Spaced_repetition]]==, research software like [[Zotero_(software)]] and
    [[Zettelkasten]] method.
-

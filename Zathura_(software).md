@@ -1,8 +1,8 @@
 ---
 date: 2022-12-29
 tags:
-  - outline
-  - dev-tip
+- outline
+- dev-tip
 ---
 
 # Zathura document viewer

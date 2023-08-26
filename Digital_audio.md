@@ -1,12 +1,11 @@
 ---
 date: 2023-04-17
 draft: true
+sr-due: 2023-09-06
+sr-ease: 248
+sr-interval: 13
 tags:
 - inbox
-- definition
-sr-due: 2023-09-06
-sr-interval: 13
-sr-ease: 248
 ---
 
 # Digital audio

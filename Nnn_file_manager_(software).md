@@ -1,13 +1,13 @@
 ---
 date: 2023-04-02
 draft: true
+sr-due: 2023-09-05
+sr-ease: 249
+sr-interval: 12
 tags:
 - inbox
 - outline
 - dev-tip
-sr-due: 2023-09-05
-sr-interval: 12
-sr-ease: 249
 ---
 
 # Nnn file manager

@@ -2,15 +2,11 @@
 canonicalUrl: https://en.wikipedia.org/wiki/Source_code
 date: 2023-03-21
 draft: true
-sr-due: 2023-04-16
-sr-ease: 250
-sr-interval: 3
+sr-due: 2023-09-12
+sr-ease: 270
+sr-interval: 118
 tags:
 - inbox
-- definition
-sr-due: 2023-09-12
-sr-interval: 118
-sr-ease: 270
 ---
 
 # Source code (or code)

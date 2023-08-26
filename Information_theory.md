@@ -1,12 +1,11 @@
 ---
 date: 2023-04-17
 draft: true
+sr-due: 2023-09-07
+sr-ease: 247
+sr-interval: 14
 tags:
 - inbox
-- definition
-sr-due: 2023-09-07
-sr-interval: 14
-sr-ease: 247
 ---
 
 # Information theory

@@ -7,7 +7,6 @@ sr-ease: 250
 sr-interval: 3
 tags:
 - inbox
-- definition
 ---
 
 # Brave (web browser)

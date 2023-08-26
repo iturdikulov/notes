@@ -1,15 +1,12 @@
 ---
 date: 2023-04-01
 draft: true
-sr-due: 2023-04-02
-sr-ease: 270
-sr-interval: 4
+sr-due: 2023-11-13
+sr-ease: 290
+sr-interval: 180
 tags:
 - inbox
 - outline
-sr-due: 2023-11-13
-sr-interval: 180
-sr-ease: 290
 ---
 
 # My Art

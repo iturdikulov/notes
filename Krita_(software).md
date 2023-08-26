@@ -1,16 +1,12 @@
 ---
 date: 2023-03-04
 draft: true
-sr-due: 2023-03-16
-sr-ease: 250
-sr-interval: 3
+sr-due: 2024-01-03
+sr-ease: 270
+sr-interval: 231
 tags:
 - inbox
-- definition
 - CG-tip
-sr-due: 2024-01-03
-sr-interval: 231
-sr-ease: 270
 ---
 
 # Krita

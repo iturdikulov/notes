@@ -1,13 +1,12 @@
 ---
 date: 2023-04-14
 draft: true
+sr-due: 2023-09-06
+sr-ease: 246
+sr-interval: 13
 tags:
 - inbox
-- definition
 - CS-tip
-sr-due: 2023-09-06
-sr-interval: 13
-sr-ease: 246
 ---
 
 # Set (abstract data type)

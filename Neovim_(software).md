@@ -1,16 +1,12 @@
 ---
 date: 2023-02-20
 draft: true
-sr-due: 2023-03-22
-sr-ease: 210
-sr-interval: 1
+sr-due: 2024-02-18
+sr-ease: 230
+sr-interval: 277
 tags:
 - inbox
-- definition
 - vim-tip
-sr-due: 2024-02-18
-sr-interval: 277
-sr-ease: 230
 ---
 
 # Neovim (text editor)

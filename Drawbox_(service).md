@@ -1,12 +1,11 @@
 ---
-date: 2023-05-29
-tags:
-  - inbox
-  - definition
-sr-due: 2023-08-25
-sr-interval: 1
-sr-ease: 228
 canonicalUrl: https://drawabox.com/
+date: 2023-05-29
+sr-due: 2023-08-25
+sr-ease: 228
+sr-interval: 1
+tags:
+- inbox
 ---
 
 # Drawabox - learning the fundamentals of drawing

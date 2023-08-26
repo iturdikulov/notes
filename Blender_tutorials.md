@@ -1,13 +1,12 @@
 ---
 date: 2023-04-13
 draft: true
+sr-due: 2023-05-21
+sr-ease: 270
+sr-interval: 4
 tags:
 - inbox
-- definition
 - CG-tip
-sr-due: 2023-05-21
-sr-interval: 4
-sr-ease: 270
 ---
 
 # Blender Tutorials

@@ -1,12 +1,11 @@
 ---
-date: "2022-12-28"
+date: '2022-12-28'
 draft: true
 sr-due: 1678723200
 sr-ease: 230
 sr-interval: 1
 tags:
-  - inbox
-  - definition
+- inbox
 ---
 
 # Negentropy

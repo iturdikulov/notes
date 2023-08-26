@@ -2,8 +2,8 @@
 date: 2022-12-29
 draft: true
 tags:
-  - dev-tip
-  - outline
+- dev-tip
+- outline
 ---
 
 # MPV

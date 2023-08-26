@@ -1,14 +1,14 @@
 ---
-date: "2023-05-06"
-draft: "true"
-tags:
-  - inbox
-  - outline
-  - languages-tip
-sr-due: 2023-09-05
-sr-interval: 12
-sr-ease: 249
 canonicalUrl: https://www.duolingo.com/
+date: '2023-05-06'
+draft: 'true'
+sr-due: 2023-09-05
+sr-ease: 249
+sr-interval: 12
+tags:
+- inbox
+- outline
+- languages-tip
 ---
 
 # Duolingo
@@ -502,4 +502,3 @@ it know Maria?::оно знает Марию?
 He knows Maria.::Он знает Марию.
 
 Does he know Maria?::Он знает Марию?
-

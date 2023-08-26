@@ -1,12 +1,11 @@
 ---
 date: 2023-08-14
-tags:
-  - inbox
-  - definition
-  - vim-tip
 sr-due: 2023-08-25
-sr-interval: 1
 sr-ease: 232
+sr-interval: 1
+tags:
+- inbox
+- vim-tip
 ---
 
 ## netrw
@@ -75,4 +74,3 @@ Remove the most recent bookmark::`mB`
 
 - `:h netrw`
 - [Using Netrw, vim's builtin file explorer](https://vonheikemen.github.io/devlog/tools/using-netrw-vim-builtin-file-explorer/)
-

@@ -1,12 +1,11 @@
 ---
-date: 2023-05-20
-tags:
-  - inbox
-  - definition
 canonicalUrl: https://www.ventoy.net/en/index.html
+date: 2023-05-20
 sr-due: 2023-06-09
-sr-interval: 4
 sr-ease: 276
+sr-interval: 4
+tags:
+- inbox
 ---
 
 # Ventoy

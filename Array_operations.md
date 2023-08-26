@@ -1,12 +1,11 @@
 ---
 date: 2023-06-28
-tags:
-  - inbox
-  - definition
-  - CS-tip
 sr-due: 2023-08-25
-sr-interval: 1
 sr-ease: 227
+sr-interval: 1
+tags:
+- inbox
+- CS-tip
 ---
 
 # Array operations
@@ -157,5 +156,3 @@ In worst case deletion operation will take ?
 $N$ steps, where $N$ is a number of items in array. One step to delete value,
 and $N-1$ (we don't need to shift deleted value) steps to shift data.
 <!--SR:!2023-07-20,1,230-->
-
-

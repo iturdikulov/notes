@@ -1,15 +1,11 @@
 ---
 date: 2023-03-12
 draft: true
-sr-due: 2023-03-28
-sr-ease: 290
-sr-interval: 15
+sr-due: 2024-02-02
+sr-ease: 310
+sr-interval: 261
 tags:
 - inbox
-- definition
-sr-due: 2024-02-02
-sr-interval: 261
-sr-ease: 310
 ---
 
 # Home construction (residential construction)

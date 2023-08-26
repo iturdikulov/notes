@@ -1,7 +1,7 @@
 ---
 date: 2023-05-14
 tags:
-  - outline
+- outline
 ---
 
 # Now
@@ -41,5 +41,3 @@ TODO: go through each item
 ## Archive
 
 ## Canceled
-
-

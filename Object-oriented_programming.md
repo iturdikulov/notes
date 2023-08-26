@@ -1,15 +1,11 @@
 ---
 date: 2023-03-12
 draft: true
-sr-due: 2023-05-20
-sr-ease: 248
-sr-interval: 52
+sr-due: 2023-10-01
+sr-ease: 228
+sr-interval: 38
 tags:
 - inbox
-- definition
-sr-due: 2023-10-01
-sr-interval: 38
-sr-ease: 228
 ---
 
 # Object-oriented programming (OOP)

@@ -1,15 +1,12 @@
 ---
 date: 2022-12-29
 draft: true
-sr-due: 2023-03-16
-sr-ease: 250
-sr-interval: 3
+sr-due: 2023-05-24
+sr-ease: 230
+sr-interval: 7
 tags:
 - inbox
 - outline
-sr-due: 2023-05-24
-sr-interval: 7
-sr-ease: 230
 ---
 
 # My Music

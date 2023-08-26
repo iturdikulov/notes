@@ -1,12 +1,12 @@
 ---
 date: 2023-04-19
 draft: true
+sr-due: 2023-05-21
+sr-ease: 280
+sr-interval: 4
 tags:
 - inbox
 - outline
-sr-due: 2023-05-21
-sr-interval: 4
-sr-ease: 280
 ---
 
 # GNU Core Utilities

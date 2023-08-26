@@ -1,15 +1,11 @@
 ---
 date: 2023-03-23
 draft: true
-sr-due: 2023-04-01
-sr-ease: 268
-sr-interval: 3
+sr-due: 2023-11-15
+sr-ease: 288
+sr-interval: 182
 tags:
 - inbox
-- definition
-sr-due: 2023-11-15
-sr-interval: 182
-sr-ease: 288
 ---
 
 # Truncation

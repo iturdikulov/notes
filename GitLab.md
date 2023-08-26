@@ -2,15 +2,11 @@
 canonicalUrl: https://gitlab.com/
 date: 2023-03-12
 draft: true
-sr-due: 2023-05-17
-sr-ease: 270
-sr-interval: 4
+sr-due: 2023-06-01
+sr-ease: 290
+sr-interval: 15
 tags:
 - inbox
-- definition
-sr-due: 2023-06-01
-sr-interval: 15
-sr-ease: 290
 ---
 
 # GitLab

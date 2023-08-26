@@ -1,15 +1,11 @@
 ---
 date: 2022-12-29
 draft: true
-sr-due: 2023-03-15
-sr-ease: 245
-sr-interval: 2
+sr-due: 2023-12-27
+sr-ease: 265
+sr-interval: 224
 tags:
 - inbox
-- definition
-sr-due: 2023-12-27
-sr-interval: 224
-sr-ease: 265
 ---
 
 # C data types

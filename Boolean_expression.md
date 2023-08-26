@@ -1,15 +1,11 @@
 ---
 date: 2023-05-24
 draft: true
-sr-due: 2023-04-01
-sr-ease: 270
-sr-interval: 4
+sr-due: 2023-11-25
+sr-ease: 290
+sr-interval: 192
 tags:
 - inbox
-- definition
-sr-due: 2023-11-25
-sr-interval: 192
-sr-ease: 290
 ---
 
 # Boolean expression

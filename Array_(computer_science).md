@@ -1,16 +1,12 @@
 ---
 date: 2022-12-29
 draft: true
-sr-due: 2023-05-03
-sr-ease: 210
-sr-interval: 43
+sr-due: 2023-11-09
+sr-ease: 230
+sr-interval: 176
 tags:
-- definition
 - inbox
 - CS-tip
-sr-due: 2023-11-09
-sr-interval: 176
-sr-ease: 230
 ---
 
 # Array (computer science)

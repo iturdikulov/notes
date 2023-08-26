@@ -1,16 +1,12 @@
 ---
 date: 2023-03-21
 draft: true
-sr-due: 2023-03-16
-sr-ease: 250
-sr-interval: 3
+sr-due: 2024-01-05
+sr-ease: 270
+sr-interval: 233
 tags:
 - inbox
-- definition
 - CS-tip
-sr-due: 2024-01-05
-sr-interval: 233
-sr-ease: 270
 ---
 
 # Function (computer programming)

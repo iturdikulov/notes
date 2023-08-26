@@ -1,15 +1,11 @@
 ---
 date: 2023-03-23
 draft: true
-sr-due: 2023-03-31
-sr-ease: 268
-sr-interval: 3
+sr-due: 2023-11-19
+sr-ease: 288
+sr-interval: 186
 tags:
 - inbox
-- definition
-sr-due: 2023-11-19
-sr-interval: 186
-sr-ease: 288
 ---
 
 # Type conversion (type casting)

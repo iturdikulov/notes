@@ -1,8 +1,8 @@
 ---
-date: 2023-03-13
 canonical_url: https://daringfireball.net/projects/markdown/
+date: 2023-03-13
 tags:
-  - outline
+- outline
 ---
 
 > Markdown is a text-to-HTML conversion tool for web writers. Markdown allows

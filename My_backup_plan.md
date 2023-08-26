@@ -1,15 +1,11 @@
 ---
 date: 2023-02-22
 draft: true
-sr-due: 2023-03-16
-sr-ease: 250
-sr-interval: 3
+sr-due: 2023-12-30
+sr-ease: 270
+sr-interval: 227
 tags:
 - inbox
-- definition
-sr-due: 2023-12-30
-sr-interval: 227
-sr-ease: 270
 ---
 
 # My backup plan
@@ -57,4 +53,3 @@ Mailbox files. In some distributions, these files may be located in the deprecat
 
 /var/opt
 Variable data from add-on packages that are stored in /opt.
-

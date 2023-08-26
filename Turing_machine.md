@@ -1,15 +1,11 @@
 ---
 date: 2023-03-20
 draft: true
-sr-due: 2023-04-16
-sr-ease: 250
-sr-interval: 3
+sr-due: 2023-09-13
+sr-ease: 270
+sr-interval: 119
 tags:
 - inbox
-- definition
-sr-due: 2023-09-13
-sr-interval: 119
-sr-ease: 270
 ---
 
 # Turing machine

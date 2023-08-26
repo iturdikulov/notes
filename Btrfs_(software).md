@@ -1,15 +1,11 @@
 ---
 date: 2023-03-22
 draft: true
-sr-due: 2023-03-16
-sr-ease: 250
-sr-interval: 3
+sr-due: 2023-12-21
+sr-ease: 270
+sr-interval: 218
 tags:
 - inbox
-- definition
-sr-due: 2023-12-21
-sr-interval: 218
-sr-ease: 270
 ---
 
 # Btrfs (better F S)
@@ -62,4 +58,3 @@ btrfs fi show / # validate size
 - https://btrfs.readthedocs.io/en/latest/index.html
 - https://docs.docker.com/storage/storagedriver/btrfs-driver/
 - https://www.reddit.com/r/GUIX/comments/qe7sd8/btrfs_maintenance_on_guix_system_partition/
-

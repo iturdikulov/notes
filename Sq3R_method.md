@@ -6,7 +6,6 @@ sr-ease: 210
 sr-interval: 1
 tags:
 - inbox
-- definition
 ---
 
 # Sq3R reading method

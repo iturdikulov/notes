@@ -7,7 +7,6 @@ sr-ease: 270
 sr-interval: 4
 tags:
 - inbox
-- definition
 ---
 
 # Film (Movie)

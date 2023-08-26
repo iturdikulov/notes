@@ -1,15 +1,11 @@
 ---
 date: 2022-12-29
 draft: true
-sr-due: 2023-04-15
-sr-ease: 250
-sr-interval: 25
-tags:
-- definition
-- inbox
 sr-due: 2023-12-03
-sr-interval: 200
 sr-ease: 270
+sr-interval: 200
+tags:
+- inbox
 ---
 
 # Bitlbee

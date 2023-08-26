@@ -1,15 +1,11 @@
 ---
 date: 2023-03-22
 draft: true
-sr-due: 2023-04-02
-sr-ease: 270
-sr-interval: 4
+sr-due: 2023-11-10
+sr-ease: 290
+sr-interval: 177
 tags:
 - inbox
-- definition
-sr-due: 2023-11-10
-sr-interval: 177
-sr-ease: 290
 ---
 
 # Anxiety

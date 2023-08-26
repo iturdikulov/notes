@@ -3,7 +3,6 @@ date: 2023-03-12
 draft: true
 tags:
 - outline
-- definition
 ---
 
 # Touch typing

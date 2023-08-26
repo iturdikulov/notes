@@ -1,16 +1,12 @@
 ---
+canonicalUrl: https://leetcode.com/
 date: 2022-12-29
 draft: true
-sr-due: 2023-03-15
-sr-ease: 230
-sr-interval: 2
+sr-due: 2023-05-25
+sr-ease: 210
+sr-interval: 8
 tags:
 - inbox
-- definition
-sr-due: 2023-05-25
-sr-interval: 8
-sr-ease: 210
-canonicalUrl: https://leetcode.com/
 ---
 
 # LeetCode

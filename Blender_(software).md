@@ -2,15 +2,11 @@
 canonicalUrl: https://www.blender.org/
 date: 2023-03-04
 draft: true
-sr-due: 2023-03-15
+sr-due: 2023-08-08
 sr-ease: 249
-sr-interval: 2
+sr-interval: 83
 tags:
 - inbox
-- definition
-sr-due: 2023-08-08
-sr-interval: 83
-sr-ease: 249
 ---
 
 # Blender

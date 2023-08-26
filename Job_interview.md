@@ -1,15 +1,11 @@
 ---
 date: 2022-12-29
 draft: true
-sr-due: 2023-03-14
-sr-ease: 230
-sr-interval: 1
+sr-due: 2023-05-24
+sr-ease: 210
+sr-interval: 7
 tags:
 - inbox
-- definition
-sr-due: 2023-05-24
-sr-interval: 7
-sr-ease: 210
 ---
 
 # Job interview

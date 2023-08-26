@@ -1,15 +1,11 @@
 ---
 date: 2023-03-23
 draft: true
-sr-due: 2023-03-31
-sr-ease: 268
-sr-interval: 3
+sr-due: 2023-11-21
+sr-ease: 288
+sr-interval: 188
 tags:
 - inbox
-- definition
-sr-due: 2023-11-21
-sr-interval: 188
-sr-ease: 288
 ---
 
 # Floating-point arithmetic

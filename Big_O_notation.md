@@ -1,16 +1,12 @@
 ---
 date: 2023-03-18
 draft: true
-sr-due: 2023-03-16
-sr-ease: 250
-sr-interval: 3
+sr-due: 2023-12-29
+sr-ease: 270
+sr-interval: 226
 tags:
 - inbox
-- definition
 - CS-tip
-sr-due: 2023-12-29
-sr-interval: 226
-sr-ease: 270
 ---
 
 # Big O notation in [[Mathematics]] and [[Computer_science]]
@@ -80,4 +76,3 @@ def is_prime(number):
 ```
 ?
 It's $\mathcal{O}(N)$.
-

@@ -2,12 +2,11 @@
 canonicalUrl: https://github.com/SidOfc/mkdx
 date: 2023-04-05
 draft: true
-tags:
-  - inbox
-  - definition
 sr-due: 2023-05-21
-sr-interval: 4
 sr-ease: 272
+sr-interval: 4
+tags:
+- inbox
 ---
 
 # mkdx.vim

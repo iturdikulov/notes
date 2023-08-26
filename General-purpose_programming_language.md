@@ -6,7 +6,6 @@ sr-ease: 248
 sr-interval: 53
 tags:
 - inbox
-- definition
 ---
 
 # General-purpose programming language (GPL)

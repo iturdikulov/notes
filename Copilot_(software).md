@@ -2,15 +2,11 @@
 canonicalUrl: https://github.com/features/copilot/
 date: 2023-03-28
 draft: true
-sr-due: 2023-04-08
-sr-ease: 286
-sr-interval: 11
+sr-due: 2023-12-02
+sr-ease: 306
+sr-interval: 199
 tags:
 - inbox
-- definition
-sr-due: 2023-12-02
-sr-interval: 199
-sr-ease: 306
 ---
 
 # Copilot

@@ -1,15 +1,11 @@
 ---
 date: 2023-03-13
 draft: true
-sr-due: 2023-03-16
+sr-due: 2023-08-12
 sr-ease: 250
-sr-interval: 3
+sr-interval: 87
 tags:
 - inbox
-- definition
-sr-due: 2023-08-12
-sr-interval: 87
-sr-ease: 250
 ---
 
 # Physics

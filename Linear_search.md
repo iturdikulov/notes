@@ -1,16 +1,12 @@
 ---
 date: 2023-03-19
 draft: true
-sr-due: 2023-03-16
-sr-ease: 250
-sr-interval: 3
+sr-due: 2024-01-02
+sr-ease: 270
+sr-interval: 230
 tags:
 - inbox
-- definition
 - CS-tip
-sr-due: 2024-01-02
-sr-interval: 230
-sr-ease: 270
 ---
 
 # Linear search (sequential search)

@@ -1,13 +1,12 @@
 ---
 date: 2023-04-03
 draft: true
+sr-due: 2023-06-03
+sr-ease: 301
+sr-interval: 17
 tags:
 - inbox
-- definition
 - web-tip
-sr-due: 2023-06-03
-sr-interval: 17
-sr-ease: 301
 ---
 
 # Search engine

@@ -1,12 +1,11 @@
 ---
 date: 2023-04-03
 draft: true
+sr-due: 2023-09-08
+sr-ease: 246
+sr-interval: 15
 tags:
 - inbox
-- definition
-sr-due: 2023-09-08
-sr-interval: 15
-sr-ease: 246
 ---
 
 # Competitive programming (sports programming)

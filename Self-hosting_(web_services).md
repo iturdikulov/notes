@@ -2,15 +2,11 @@
 date: 2022-12-29
 draft: true
 private: true
-sr-due: 2023-03-17
-sr-ease: 270
-sr-interval: 4
+sr-due: 2024-01-29
+sr-ease: 290
+sr-interval: 257
 tags:
 - inbox
-- definition
-sr-due: 2024-01-29
-sr-interval: 257
-sr-ease: 290
 ---
 
 # Self-hosting (web services)

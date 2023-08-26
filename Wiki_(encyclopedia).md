@@ -2,15 +2,11 @@
 canonicalUrl: https://en.wikipedia.org/wiki/Wiki
 date: 2023-03-28
 draft: true
-sr-due: 2023-04-01
-sr-ease: 268
-sr-interval: 3
+sr-due: 2023-11-18
+sr-ease: 288
+sr-interval: 185
 tags:
 - inbox
-- definition
-sr-due: 2023-11-18
-sr-interval: 185
-sr-ease: 288
 ---
 
 # Wiki (encyclopedia)

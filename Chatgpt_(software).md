@@ -1,15 +1,11 @@
 ---
 canonicalUrl: https://chat.openai.com/chat
 date: 2023-03-12
-sr-due: 2023-03-16
-sr-ease: 268
-sr-interval: 3
+sr-due: 2024-01-15
+sr-ease: 288
+sr-interval: 243
 tags:
 - inbox
-- definition
-sr-due: 2024-01-15
-sr-interval: 243
-sr-ease: 288
 ---
 
 # ChatGPT, short for Chat Generative Pre-trained Transformer

@@ -1,19 +1,19 @@
 ---
-title: "The Python Tutorial"
-canonicalUrl: "https://docs.python.org/3/tutorial/index.html"
-citekey: "PythonTutorial2023"
-cloudLibrary: "http://zotero.org/users/9108355/items/TRRH47RY"
+canonicalUrl: https://docs.python.org/3/tutorial/index.html
+citekey: PythonTutorial2023
+cloudLibrary: http://zotero.org/users/9108355/items/TRRH47RY
 date: 2023
 dateAdded: 1678723200
 draft: true
-localLibrary: "zotero://select/items/1_TRRH47RY"
+localLibrary: zotero://select/items/1_TRRH47RY
 sr-due: 1678896000
 sr-ease: 232
 sr-interval: 1
 tags:
-  - "research"
-  - "inbox"
-  - "code-tip"
+- research
+- inbox
+- code-tip
+title: The Python Tutorial
 ---
 
 My notes taken from the Python Tutorial. This tutorial is cover basic concepts

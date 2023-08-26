@@ -1,11 +1,10 @@
 ---
 date: 2023-06-04
-tags:
-  - inbox
-  - definition
 sr-due: 2023-08-27
-sr-interval: 3
 sr-ease: 269
+sr-interval: 3
+tags:
+- inbox
 ---
 
 # papis

@@ -1,15 +1,12 @@
 ---
 date: 2023-03-08
 draft: true
-sr-due: 2023-03-17
-sr-ease: 270
-sr-interval: 4
+sr-due: 2024-01-22
+sr-ease: 290
+sr-interval: 250
 tags:
 - inbox
 - log
-sr-due: 2024-01-22
-sr-interval: 250
-sr-ease: 290
 ---
 
 # My 30-Day Drawing Challenge

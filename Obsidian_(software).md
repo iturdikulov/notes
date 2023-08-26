@@ -3,8 +3,7 @@ canonicalUrl: https://obsidian.md/
 date: 2023-03-14
 draft: true
 tags:
-  - definition
-  - dev-tip
+- dev-tip
 ---
 
 # Obsidian

@@ -1,15 +1,12 @@
 ---
 date: 2023-03-14
 draft: true
-sr-due: 2023-03-17
-sr-ease: 230
-sr-interval: 2
+sr-due: 2023-12-08
+sr-ease: 250
+sr-interval: 205
 tags:
 - inbox
 - languages-tip
-sr-due: 2023-12-08
-sr-interval: 205
-sr-ease: 250
 ---
 
 # Puzzle English learning by plan

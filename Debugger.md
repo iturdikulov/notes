@@ -1,15 +1,11 @@
 ---
 date: 2023-03-11
 draft: true
-sr-due: 2023-03-16
-sr-ease: 250
-sr-interval: 3
+sr-due: 2024-01-02
+sr-ease: 270
+sr-interval: 230
 tags:
 - inbox
-- definition
-sr-due: 2024-01-02
-sr-interval: 230
-sr-ease: 270
 ---
 
 # Debugger

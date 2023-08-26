@@ -1,15 +1,11 @@
 ---
 date: 2023-03-28
 draft: true
-sr-due: 2023-04-12
-sr-ease: 290
-sr-interval: 14
+sr-due: 2023-11-29
+sr-ease: 310
+sr-interval: 196
 tags:
 - inbox
-- definition
-sr-due: 2023-11-29
-sr-interval: 196
-sr-ease: 310
 ---
 
 # Inkscape

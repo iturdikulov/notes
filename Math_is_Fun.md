@@ -1,9 +1,8 @@
 ---
+canonicalUrl: https://www.mathsisfun.com/
 date: 2023-08-26
 tags:
-  - inbox
-  - definition
-canonicalUrl: https://www.mathsisfun.com/
+- inbox
 ---
 
 TODO: fill authors in tags, Les Bill Gates, Dianne Gentry, David Sevilla, Jesus Ernesto Montes

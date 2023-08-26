@@ -1,12 +1,11 @@
 ---
 date: 2023-04-17
 draft: true
-tags:
-  - inbox
-  - definition
 sr-due: 2023-05-21
-sr-interval: 4
 sr-ease: 287
+sr-interval: 4
+tags:
+- inbox
 ---
 
 # In real life (IRL)

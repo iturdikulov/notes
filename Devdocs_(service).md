@@ -2,15 +2,11 @@
 canonicalURL: https://devdocs.io/
 date: 2023-03-12
 draft: true
-sr-due: 2023-03-16
-sr-ease: 268
-sr-interval: 3
+sr-due: 2026-02-03
+sr-ease: 308
+sr-interval: 993
 tags:
 - inbox
-- definition
-sr-due: 2026-02-03
-sr-interval: 993
-sr-ease: 308
 ---
 
 # DevDocs

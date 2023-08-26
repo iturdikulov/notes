@@ -1,15 +1,11 @@
 ---
 date: 2022-12-29
 draft: true
-sr-due: 2023-04-20
-sr-ease: 250
-sr-interval: 29
-tags:
-- definition
-- inbox
 sr-due: 2023-12-05
-sr-interval: 202
 sr-ease: 270
+sr-interval: 202
+tags:
+- inbox
 ---
 
 # Art

@@ -1,12 +1,11 @@
 ---
 date: 2023-06-24
-tags:
-  - inbox
-  - definition
-  - CS-tip
 sr-due: 2023-08-25
-sr-interval: 1
 sr-ease: 228
+sr-interval: 1
+tags:
+- inbox
+- CS-tip
 ---
 
 # Array in programming languages

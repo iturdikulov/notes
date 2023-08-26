@@ -5,8 +5,8 @@ sr-due: 2023-06-18
 sr-ease: 250
 sr-interval: 28
 tags:
-  - inbox
-  - outline
+- inbox
+- outline
 ---
 
 # My movies, which I watched and want to watch

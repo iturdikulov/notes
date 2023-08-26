@@ -1,15 +1,11 @@
 ---
 date: 2022-12-29
 draft: true
-sr-due: 2023-03-22
-sr-ease: 203
-sr-interval: 1
+sr-due: 2023-10-29
+sr-ease: 223
+sr-interval: 165
 tags:
 - inbox
-- definition
-sr-due: 2023-10-29
-sr-interval: 165
-sr-ease: 223
 ---
 
 # C (programming language)

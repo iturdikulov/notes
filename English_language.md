@@ -1,15 +1,11 @@
 ---
 date: 2023-03-06
 draft: true
-sr-due: 2023-03-22
-sr-ease: 209
-sr-interval: 1
-tags:
-- definition
-- inbox
 sr-due: 2023-11-02
-sr-interval: 169
 sr-ease: 229
+sr-interval: 169
+tags:
+- inbox
 ---
 
 # English language

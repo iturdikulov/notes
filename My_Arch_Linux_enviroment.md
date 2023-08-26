@@ -678,4 +678,3 @@ there is no need to do anything else.
 - https://github.com/systemd/zram-generator
 
 - TODO: check ansible scrips?
-

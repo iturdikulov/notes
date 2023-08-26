@@ -1,15 +1,11 @@
 ---
 date: 2023-03-05
 draft: true
-sr-due: 2023-03-14
+sr-due: 2023-07-30
 sr-ease: 228
-sr-interval: 1
+sr-interval: 74
 tags:
 - inbox
-- definition
-sr-due: 2023-07-30
-sr-interval: 74
-sr-ease: 228
 ---
 
 # Getting Things Done (GTD)
@@ -46,5 +42,3 @@ task, you need to move them into `wailt` list or `someday` list.
 `wait`, task which you can't do now, but you need to do it in the future.
 Taskwarrior allow hide this tasks from `next` list, but you can see them by
 using `task list all`.
-
-

@@ -1,15 +1,11 @@
 ---
 date: 2023-03-22
 draft: true
-sr-due: 2023-04-02
-sr-ease: 270
-sr-interval: 4
+sr-due: 2023-11-26
+sr-ease: 290
+sr-interval: 193
 tags:
 - inbox
-- definition
-sr-due: 2023-11-26
-sr-interval: 193
-sr-ease: 290
 ---
 
 # Signal (IPC)

@@ -1,15 +1,11 @@
 ---
 date: 2022-12-29
 draft: true
-sr-due: 2023-03-17
-sr-ease: 270
-sr-interval: 4
+sr-due: 2024-01-16
+sr-ease: 290
+sr-interval: 244
 tags:
 - inbox
-- definition
-sr-due: 2024-01-16
-sr-interval: 244
-sr-ease: 290
 ---
 
 # ledger

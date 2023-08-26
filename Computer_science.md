@@ -5,8 +5,7 @@ sr-due: 2023-06-14
 sr-ease: 228
 sr-interval: 1
 tags:
-  - definition
-  - inbox
+- inbox
 ---
 
 # Computer Science

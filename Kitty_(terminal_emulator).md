@@ -6,8 +6,7 @@ sr-due: 2023-06-17
 sr-ease: 270
 sr-interval: 4
 tags:
-  - definition
-  - dev-tip
+- dev-tip
 ---
 
 # Kitty (terminal emulator)

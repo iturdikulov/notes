@@ -1,11 +1,11 @@
 ---
 date: 2023-07-20
-tags:
-  - inbox
-  - research
 sr-due: 2023-08-25
-sr-interval: 1
 sr-ease: 228
+sr-interval: 1
+tags:
+- inbox
+- research
 ---
 
 # Polygon mesh

@@ -1,11 +1,10 @@
 ---
 date: 2023-05-20
-tags:
-  - inbox
-  - definition
 sr-due: 2023-06-09
-sr-interval: 4
 sr-ease: 279
+sr-interval: 4
+tags:
+- inbox
 ---
 
 # Windows Setup Script

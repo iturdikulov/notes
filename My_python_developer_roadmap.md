@@ -1,15 +1,12 @@
 ---
 date: 2023-03-12
 draft: true
-sr-due: 2023-03-14
-sr-ease: 230
-sr-interval: 1
+sr-due: 2023-05-25
+sr-ease: 210
+sr-interval: 8
 tags:
 - inbox
 - outline
-sr-due: 2023-05-25
-sr-interval: 8
-sr-ease: 210
 ---
 
 # My Python Developer Roadmap

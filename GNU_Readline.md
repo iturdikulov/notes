@@ -1,15 +1,12 @@
 ---
 date: 2023-02-03
 draft: true
-sr-due: 2023-03-17
-sr-ease: 270
-sr-interval: 4
+sr-due: 2024-01-14
+sr-ease: 290
+sr-interval: 242
 tags:
 - inbox
 - research
-sr-due: 2024-01-14
-sr-interval: 242
-sr-ease: 290
 ---
 
 # GNU Readline

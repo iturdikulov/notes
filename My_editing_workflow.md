@@ -1,13 +1,12 @@
 ---
 date: 2023-04-04
 draft: true
-tags:
-  - inbox
-  - definition
-  - vim-tip
 sr-due: 2023-05-21
-sr-interval: 4
 sr-ease: 271
+sr-interval: 4
+tags:
+- inbox
+- vim-tip
 ---
 
 # My editing workflow

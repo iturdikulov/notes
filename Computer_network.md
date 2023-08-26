@@ -2,15 +2,11 @@
 canonicalUrl: https://simple.wikipedia.org/wiki/Computer_network
 date: 2023-03-21
 draft: true
-sr-due: 2023-05-16
-sr-ease: 250
-sr-interval: 3
+sr-due: 2023-05-31
+sr-ease: 270
+sr-interval: 14
 tags:
 - inbox
-- definition
-sr-due: 2023-05-31
-sr-interval: 14
-sr-ease: 270
 ---
 
 # Computer network

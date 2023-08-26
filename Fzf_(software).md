@@ -1,16 +1,12 @@
 ---
 date: 2023-03-03
 draft: true
-sr-due: 2023-03-17
-sr-ease: 270
-sr-interval: 4
-tags:
-    - inbox
-    - definition
-    - dev-tip
 sr-due: 2024-01-22
-sr-interval: 250
 sr-ease: 290
+sr-interval: 250
+tags:
+- inbox
+- dev-tip
 ---
 
 # fzf
@@ -49,4 +45,3 @@ Select Environment variables / aliases
 - `unset **<TAB>`
 - `export **<TAB>`
 - `unalias **<TAB>`
-

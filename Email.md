@@ -1,15 +1,11 @@
 ---
 date: 2023-03-12
 draft: true
-sr-due: 2023-03-16
-sr-ease: 250
-sr-interval: 3
+sr-due: 2024-01-06
+sr-ease: 270
+sr-interval: 234
 tags:
 - inbox
-- definition
-sr-due: 2024-01-06
-sr-interval: 234
-sr-ease: 270
 ---
 
 # Email

@@ -1,12 +1,12 @@
 ---
 date: 2023-06-04
-tags:
-  - inbox
-  - outline
-  - vim-tip
 sr-due: 2023-08-25
-sr-interval: 1
 sr-ease: 226
+sr-interval: 1
+tags:
+- inbox
+- outline
+- vim-tip
 ---
 
 # Vimium - The Hacker's Browser

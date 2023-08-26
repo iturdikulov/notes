@@ -1,15 +1,11 @@
 ---
 date: 2023-03-28
 draft: true
-sr-due: 2023-04-11
-sr-ease: 290
-sr-interval: 13
+sr-due: 2023-11-30
+sr-ease: 310
+sr-interval: 197
 tags:
 - inbox
-- definition
-sr-due: 2023-11-30
-sr-interval: 197
-sr-ease: 310
 ---
 
 # Portable Document Format (PDF)
