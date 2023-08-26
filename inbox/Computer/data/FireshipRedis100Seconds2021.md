@@ -12,8 +12,6 @@ Use the special link https://redis.info/fireship (or code: MATRIX200) to try Red
 
 Redis is an extremely fast in-memory database often used as a cache. It has evolved into a multi-model database with support for graphs, JSON documents, full-text search, and more. Try Redis Enterprise for free https://bit.ly/3wnVsXA
 
-#database #tech #100SecondsOfCode
-
 Note. I collaborated with RedisLabs on this video, but I maintained full creative control over the content - Redis it’s a product I genuinely like and use (like all topics on my channel).
 
 🔗 Resources

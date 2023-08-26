@@ -7,7 +7,7 @@ sr-interval: 3
 tags:
 - inbox
 - outline
-- dev-tip
+- development
 ---
 
 # Browser shortucts

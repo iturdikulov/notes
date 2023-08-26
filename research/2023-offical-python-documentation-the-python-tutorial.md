@@ -473,7 +473,7 @@ print(range(10))  # range(0, 10)
 > The `break` statement, like in C, `breaks out` of the innermost enclosing
 > `for` or `while` loop.
 
-TODO: add #loop into control flow
+TODO: add `#loop` into control flow
 
 In python [[Control_flow#loop]] statements may have a `else` clause.
 

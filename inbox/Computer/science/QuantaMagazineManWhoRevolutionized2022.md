@@ -17,5 +17,3 @@ Read more at Quanta Magazine: https://www.quantamagazine.org/bringi...
 - FOLLOW us Twitter: https://twitter.com/QuantaMagazine
 
 Quanta Magazine is an editorially independent publication supported by the Simons Foundation https://www.simonsfoundation.org/
-
-#computerscience #math

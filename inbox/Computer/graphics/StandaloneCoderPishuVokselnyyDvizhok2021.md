@@ -13,5 +13,3 @@ tags:
 
 GitHub:
 https://github.com/StanislavPetrovV/V...
-
-#standalonecoder

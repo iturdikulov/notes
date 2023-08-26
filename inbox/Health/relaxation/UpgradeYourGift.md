@@ -6,6 +6,6 @@ tags:
 - inbox
 ---
 
-# Upgrade Your Gift Wrapping with a Simple Pleats Technique #ecofriendly #japanesegiftwrapping
+# Upgrade Your Gift Wrapping with a Simple Pleats Technique 
 
 【For online courses】 👉 https://www.shihomasuda.com/onlinecourses【For live workshops】👉 https://www.shihomasuda.com/gift-wrapping-workshops【For the training ...

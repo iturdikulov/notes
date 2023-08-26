@@ -101,9 +101,10 @@ Tags are used to define note type.
 
 I also have additional topics tags, mainly used for
 [[Spaced_repetition|spaced repetition]] system:
-- compute_science - computer science related topics'
+- compute_science
 - development - software related topics, shortcuts, etc.
 - programming
 - vim
 - computer_graphics
-- english - English learning topics
+- mathematics
+- english

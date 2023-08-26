@@ -72,8 +72,3 @@ Example use cases
 Twitter - https://twitter.com/BeABetterDevv
 Instagram - https://www.instagram.com/beabetterdevv/
 Patreon - Donations help fund additional content - https://www.patreon.com/beabetterdev
-
-#AWS
-#SQL
-#NoSQL
-#Serverless

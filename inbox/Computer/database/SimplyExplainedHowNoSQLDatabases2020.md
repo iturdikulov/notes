@@ -29,5 +29,3 @@ Blog: https://savjee.be
 
 📚 Sources used to make this video:
 https://savjee.be/videos/simply-expla...
-
-#database #aws #amazon #dynamodb #simplyexplained

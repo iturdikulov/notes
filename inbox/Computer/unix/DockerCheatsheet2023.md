@@ -717,7 +717,7 @@ services:
 
 
 
-#Expose port to linked service (not to host)
+# Expose port to linked service (not to host)
 Expose :[3000]
 
 

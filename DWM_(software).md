@@ -7,7 +7,7 @@ sr-interval: 4
 tags:
 - inbox
 - definition
-- dev-tip
+- development
 ---
 
 # dwm (dynamic window manager)

@@ -14,5 +14,3 @@ tags:
 
 Код проекта:
 https://github.com/StanislavPetrovV/S...
-
-#standalonecoder
