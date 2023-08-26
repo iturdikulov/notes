@@ -3,6 +3,9 @@ canonicalUrl: https://www.mathsisfun.com/
 date: 2023-08-26
 tags:
 - inbox
+sr-due: 2023-08-28
+sr-interval: 1
+sr-ease: 230
 ---
 
 TODO: fill authors in tags, Les Bill Gates, Dianne Gentry, David Sevilla, Jesus Ernesto Montes

@@ -4,6 +4,9 @@ tags:
   - research
   - inbox
   - computer_science
+sr-due: 2023-08-28
+sr-interval: 1
+sr-ease: 236
 ---
 
 The authors of this book [@TheCProgrammiKernig1988] present the
