@@ -68,7 +68,7 @@ questions:
     * Is this missing from my knowledge, does this duplicate something?
     * Do I want to explore this further?
 
-### Permanent notes types
+### Additional permanent notes types
 
 - Bridge note, to combine ideas, usually someone else and mine if they different
   in terms, or even very different.
@@ -88,3 +88,14 @@ Requirements:
 - Main index note, as entry point, like websete index page. For example
 [[Now|now]] my current working projects, reflect my current interests.
 - Topic note, like [[My_art|art]], [[My_Videos|videos]], etc.
+
+
+## Templates
+
+Tags are used to define note type.
+
+- [ ] permanent note, default note, tags: bridge, person, term, log
+- [ ] literature note, tags: research
+- [ ] person note, tags: person
+- [ ] log note, tags: log
+
