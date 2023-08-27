@@ -38,13 +38,15 @@ note.
 
 I have "rich" system to manage my reference note. Some rules:
 - Notes are taken specifically on the content. Usually I just use annotating
-viewer (such as [[Okular_(software)|Okular]] and [[Xodo_(software)|Xodo]]) to generate initial notes. Then I
-can write additional literature notes in `reserach` directory.
+viewer (such as [[Sioyek_(software)|Sioyek]] and [[Xodo_(software)|Xodo]]) to
+generate initial notes. Then I can write additional literature notes in
+`reserach` directory.
 - Be selective, rewrite it in your own words and make sure you understand the
 concept (or follow up on it if you don’t at first).
 - Use direct quotes sparingly (don't overuse them).
 - Remember, you are not simply collecting resources you need to process them.
-- Answer Question: is the content useful/interesting/relevant to you and/or your research?
+- Answer Question: is the content useful/interesting/relevant to you and/or your
+research?
 
 ## Permanent notes
 
