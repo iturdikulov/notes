@@ -1,16 +1,11 @@
 ---
-title: "Algorithms: Part 1"
 tags:
   - "research"
 author: "Robert Sedgewick; Kevin Wayne"
-external: "https://algs4.cs.princeton.edu/home/"
-citekey: "RobertSedgewickAlgorithms2014a"
-cloudLibrary: "http://zotero.org/users/9108355/items/RJSUR4DQ"
-date: 1391184000
-dateAdded: 1680364800
-draft: "true"
-localLibrary: "zotero://select/items/1_RJSUR4DQ"
+external: "zotero://select/items/1_RJSUR4DQ"
 ---
+# Algorithms: Part 1
+
 This book is Part I of the fourth edition of Robert Sedgewick and Kevin Wayne’s
 [[algorithm]]'s, the leading textbook on algorithms today,
 widely used in colleges and universities worldwide.

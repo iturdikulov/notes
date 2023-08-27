@@ -1,17 +1,14 @@
 ---
-title: "Ned Batchelder: Getting Started Testing - PyCon 2014"
 author: Ned Batchelder
 date: 2014-04-24
-dateAdded: 2023-04-21
 external: https://www.youtube.com/watch?v=FxSsnHeWQBY
-citekey: PyCon2014NedBatchelderGetting2014
 tags:
   - research
   - programming
-localLibrary: zotero://select/items/1_RBFQFU22
-cloudLibrary: http://zotero.org/users/9108355/items/RBFQFU22
-draft: true
+archive: true
 ---
+
+# Getting Started Testing - PyCon 2014
 
 If you've never written tests before, you probably know you *should*, but view the whole process as a bureaucratic paperwork nightmare to check off on your ready-to-ship checklist. This is the wrong way to approach testing. Tests are a solution to a problem that is important to you: does my code work? I'll show how Python tests are written, and why.
 

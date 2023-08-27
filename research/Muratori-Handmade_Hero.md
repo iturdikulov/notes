@@ -6,15 +6,7 @@ tags:
   - "programming"
 author: "Casey Muratori"
 external: "https://hero.handmade.network/episode/code"
-citekey: "CaseyMuratoriHandmadeHero2014"
-cloudLibrary: "http://zotero.org/users/9108355/items/MFMSWR7F"
 date: 2014
-dateAdded: 1677686400
-draft: true
-localLibrary: "zotero://select/items/1_MFMSWR7F"
-sr-due: 1678809600
-sr-ease: 230
-sr-interval: 2
 ---
 
 > A limbless child receives a magical gift that allows him to set off on the adventure he always dreamed of.

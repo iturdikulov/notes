@@ -32,7 +32,7 @@ TODO: go through each item
 15. [[LeetCode]] problems with help of [[Leetgo_(software)|Leetgo]], alias is `leet`
 16. Learn and "utilize" [[My_awesome_software_list]]
 17. Learn and "utilize" [[Neovim_(software)|Neovim]] and [[My_editing_workflow]]
-18. Cool game development series - [[research/2014-Muratori_Casey-Handmade_Hero|Handmade Hero]]
+18. Cool game development series - [[Muratori-Handmade_Hero|Handmade Hero]]
 19. Fundamental C book - [[research/1988-Kernighan_Brian_W._and_Ritchie_Dennis_M.-The_C_programming_language|The C programming language]]
 20. Fundamental (but simple) algorithms and data structures book - [[research/Data_structures_and_algorithms|Data structures and algorithms]]
 21. Playing with [[Raylib]]

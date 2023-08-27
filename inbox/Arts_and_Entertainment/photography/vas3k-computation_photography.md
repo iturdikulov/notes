@@ -1,6 +1,7 @@
 ---
 author: '@vas3k'
 external: https://vas3k.blog/blog/computational_photography/
+archive: True
 date: '2023-08-15'
 tags:
 - research

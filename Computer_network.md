@@ -1,11 +1,7 @@
 ---
 external: https://simple.wikipedia.org/wiki/Computer_network
-archive: 1693089155.504629
+archive: true
 date: 2023-03-21
-draft: true
-sr-due: 2023-05-31
-sr-ease: 270
-sr-interval: 14
 tags:
 - inbox
 ---
