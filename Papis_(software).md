@@ -1,12 +1,10 @@
 ---
 date: 2023-06-04
-sr-due: 2023-08-27
-sr-ease: 269
-sr-interval: 3
-tags:
-- inbox
+external: https://github.com/papis/papis
 ---
 
 # papis
 
-papis add --from yaml path-to-yaml.yaml file-to-pdf.pdf
+CLI bibliography manager. Support notes, custom fields, tags, and more. I not
+use it anymore, and use [[Zotero_(software)|zotero]] (only for books) and
+[[Telekasten.nvim_(software)|Telekasten]] based notes system.
