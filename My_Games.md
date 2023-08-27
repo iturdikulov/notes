@@ -16,6 +16,7 @@ on my [[Smartphone|smartphone]].
 
 ## Active games
 
+- [[Gothic_(video_game)]]
 - `Half-Life`
 - `Detroit: Become Human`
 - `The Talos Principle`

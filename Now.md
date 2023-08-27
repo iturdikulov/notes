@@ -27,11 +27,12 @@ TODO: go through each item and adjust naming, metadata, etc.
 8. Learn and "utilize" [[My_awesome_software_list|software list]]
 9. Learn and "utilize" [[Neovim_(software)|neovim]] and [[My_editing_workflow|editing workflow]]
 10. Cool game development series - [[Muratori-Handmade_Hero|Handmade Hero]]
-13. [[research/2020-Slatkin_Brett-Effective_Python|Effective python]]
-11. [[research/2021-Ramalho_Luciano-Fluent_Python|Fluent_Python]]
-12. [[inbox/Arts_and_Entertainment/learning/PythonDjangoPractical|Django course]]
+11. [[research/2020-Slatkin_Brett-Effective_Python|Effective python]]
+12. [[research/2021-Ramalho_Luciano-Fluent_Python|Fluent_Python]]
+13. [[inbox/Arts_and_Entertainment/learning/PythonDjangoPractical|Django course]]
 14. Playing with [[Raylib]]
 15. Playing with [[Godot_(game_engine)|Godot]]
+16. Playing [[Gothic_(video_game)|Gothic]]
 
 ## Additional
 
