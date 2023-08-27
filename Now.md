@@ -1,7 +1,7 @@
 ---
 date: 2023-05-14
 tags:
-- outline
+    - outline
 ---
 
 # Now
