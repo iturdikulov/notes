@@ -99,6 +99,10 @@ Minimal syntax:
 |baz|bim|
 ```
 
+## Extra
+
+Escape backtick character: `` ` ``, ``List`1``
+
 ## TODO
 
 - [ ] https://daringfireball.net/projects/markdown/basics
