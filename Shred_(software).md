@@ -20,12 +20,12 @@ Delete data from block device, useful on [[Operating_system|OS]] installation or
 work with [[GNU_Privacy_Guard_(software)|GPG]] keys and files:
     `shred --verbose --random-source=/dev/urandom -n1 --zero /dev/sdX`
 
-Overwrite file with garbage, 15 times:
-    `shred -n15 path/to/file`
-
 Overwrite file with zeros (final overwrite) and change permissions if required:
     `shred -zf pat/to/file`
 
 Deallocate and remove file after overwriting:
     `shred -u path/to/file`
+
+Overwrite file with garbage, 15 times (questionable if it is really needed)
+    `shred -n15 path/to/file`
 
