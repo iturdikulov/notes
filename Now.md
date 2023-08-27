@@ -17,19 +17,19 @@ TODO: go through each item and adjust naming, metadata, etc.
 
 ## Priorities
 
-1. [[My_activities]]
-2. Working on business automation
+1. [[My_activities|Activities]]
+2. Business automation project
 3. [[research/Comprehensive_python_cheatsheet|Python cheatsheet]]
 4. [[Python_tutorial]]
-5. [[research/Data_structures_and_algorithms|Fundamental (but simple) algorithms and data structures book]]
-6. Fundamental C book - [[research/1988-Kernighan_Brian_W._and_Ritchie_Dennis_M.-The_C_programming_language|The C programming language]]
+5. [[research/Data_structures_and_algorithms|Data structures and algorithms]]
+6. [[research/1988-Kernighan_Brian_W._and_Ritchie_Dennis_M.-The_C_programming_language|The C programming language]]
 7. [[LeetCode]] problems with help of [[Leetgo_(software)|Leetgo]], alias is `leet`
-8. Learn and "utilize" [[My_awesome_software_list]]
-9. Learn and "utilize" [[Neovim_(software)|Neovim]] and [[My_editing_workflow]]
+8. Learn and "utilize" [[My_awesome_software_list|software list]]
+9. Learn and "utilize" [[Neovim_(software)|neovim]] and [[My_editing_workflow|editing workflow]]
 10. Cool game development series - [[Muratori-Handmade_Hero|Handmade Hero]]
-11. [[research/2021-Ramalho_Luciano-Fluent_Python|Fluent_Python_book]]
-12. [[inbox/Arts_and_Entertainment/learning/PythonDjangoPractical]]
-13. [[research/2020-Slatkin_Brett-Effective_Python]]
+13. [[research/2020-Slatkin_Brett-Effective_Python|Effective python]]
+11. [[research/2021-Ramalho_Luciano-Fluent_Python|Fluent_Python]]
+12. [[inbox/Arts_and_Entertainment/learning/PythonDjangoPractical|Django course]]
 14. Playing with [[Raylib]]
 15. Playing with [[Godot_(game_engine)|Godot]]
 
