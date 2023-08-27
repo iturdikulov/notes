@@ -15,9 +15,10 @@ sr-ease: 210
 > — <cite>[Sioyek](https://sioyek.info/)</cite>
 
 Key features for me:
+
+- good [[Portable_document_format_(PDF)|PDF]] viewer
 - vim-like keybindings
 - support highlighting and bookmarks
-- annotated [[Portable_document_format_(PDF)|PDF]] viewer
 - anchor links support (marks)
 - command palette menu
 - [[SyncTeX_(software)|Synctex ]] support
