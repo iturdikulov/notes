@@ -20,15 +20,15 @@ company (remote, full-stack position, but moving into
 [[My_backend_developer_roadmap|backend]] position).
 
 I organize my work using, [[Getting_things_done_(GTD)|GTD]] mainly using Inbox,
-Tasks (TODO and NEXT), Daily and Weekly notes.
+Tasks (TODO and NEXT), Daily and Weekly notes with [[Taskwarrior]].
 
-To follow external timelines I sometimes use [[Calendar]] events, but it's
-secondary task planner.
+To follow external timelines I sometimes use [[Calendar]] events, but
+it's secondary task planner.
 
-To connect with colleagues I use [[Instant_messaging]] and [[Email]] clients.
+To connect with colleagues I use [[Instant_messaging|IM]] and [[Email]] clients.
 
-In my work significantly help my [[Development_Environment]], [[Backup]] plan
-and daily [[Maintenance]], with attention to [[Computer_security]].
+In my work significantly help my [[Development_Environment]], [[Backup]]
+plan and daily [[Maintenance]], with attention to [[Computer_security]] practices.
 
 Currently, I'm working on social platform automation project.
 
@@ -40,16 +40,16 @@ I'm connecting with them by voice calls, sometimes text messages. Here is
 
 ## Exercise and health
 
-Right now I'm trying to follow my personal [[research/Exercise_plan]] and
-[[My_everyday_life_(routine)]] routine.
+Right now I'm trying to follow my personal
+[[research/Exercise_plan|exercise plan]] and [[My_everyday_life_(routine)|routine]].
 
 ## Relax and fun
 
 I can also spend time with my family, friends and pets or consume some media,
 for example:
 
-- Watching [[My_Movies|movies]], [[Twitch_(service)|twitch]],
-  [[Youtube|youtube]]
+- Watching [[My_Movies]], [[Twitch_(service)|twitch]],
+  [[Youtube_(service)|youtube]]
 - Playing [[My_Games]]
 - Reading [[My_read_books]] and [[News]]
 - Listening [[My_Music]]
@@ -66,22 +66,24 @@ Here my "to learn" books list: [[My_read_books]].
 
 Here my "to learn" articles list: [[My_articles_list_(publishing)]].
 
+TODO: check/move books/articles into now or maybe archive.
+
 Since I'm use [[Zettelkasten]], I can create new notes based on education
 materials and extend them with different sources, my experience, etc.
 
-To study effectively I use [[Sq3R_method]], [[How_to_study|study_techniques]]
-and various methods [[How_to_solve_it]]. More information here - [[Education]].
+To study effectively I use [[Sq3R_method]], [[How_to_study|study techniques]]
+and various [[How_to_solve_it|methods ]]. More information is [[Education|here]].
 
 It's not enough to study only, need continuously practice (use your knowledge)
 and test yourself, to solve this problem I use [[Spaced_repetition]] and
 implement my [[My_pet_projects|pet_projects]] and
-[[Work_(human_activity)|working_projects]].
+[[Work_(human_activity)|working projects]].
 
-## IRL, government and other things
+## Society
 
 Check this note [[In_real_life_(IRL)|IRL]].
 
 ## Mentoring and helping
 
-I don't think I'm great at this, but I'm trying to help people on [[GitHub_(service)|Github]],
-and in future on [[Stack_Overflow]]. Sometimes on different platforms or IRL.
+I don't think I'm great at this, but I'm trying to help people on [[GitHub_(service)|GitHub]],
+and in future on [[Stack_Overflow_(service)]]. Sometimes on different platforms or IRL.

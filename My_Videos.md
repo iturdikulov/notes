@@ -12,7 +12,7 @@ tags:
 # My Videos
 
 - [[Mpv_(software)|Mpv]] as main media viewer.
-- [[Youtube]]
+- [[Youtube_(service)]]
 - selfhosted
 - short
 - learn, CS, gamedev, irl
