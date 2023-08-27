@@ -2,10 +2,6 @@
 date: 2023-08-05
 author: Colin Plumb
 sr-due: 2023-08-27
-sr-ease: 254
-sr-interval: 3
-tags:
-- inbox
 ---
 
 # Shred - secure delete
@@ -32,3 +28,6 @@ Overwrite file with zeros (final overwrite) and change permissions if required:
 Deallocate and remove file after overwriting:
     `shred -u path/to/file`
 
+## Resources
+
+- shred man pages - `man shred`
