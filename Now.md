@@ -17,8 +17,8 @@ TODO: go through each item and adjust naming, metadata, etc.
 
 1. [[My_activities|Activities]]
 2. Business automation project
-3. [[research/Comprehensive_python_cheatsheet|Python cheatsheet]]
-4. [[Python_tutorial]]
+3. [[research/python.org-Python_tutorial]]
+4. [[research/Comprehensive_python_cheatsheet|Python cheatsheet]]
 5. [[research/Data_structures_and_algorithms|Data structures and algorithms]]
 6. [[research/1988-Kernighan_Brian_W._and_Ritchie_Dennis_M.-The_C_programming_language|The C programming language]]
 7. [[LeetCode]] problems with help of [[Leetgo_(software)|Leetgo]]

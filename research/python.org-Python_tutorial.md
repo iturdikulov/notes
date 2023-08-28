@@ -1,20 +1,22 @@
 ---
 external: https://docs.python.org/3/tutorial/index.html
-citekey: PythonTutorial2023
-cloudLibrary: http://zotero.org/users/9108355/items/TRRH47RY
 date: 2023
-dateAdded: 1678723200
-draft: true
-localLibrary: zotero://select/items/1_TRRH47RY
-sr-due: 1678896000
-sr-ease: 232
-sr-interval: 1
 tags:
 - research
 - inbox
 - programming
-title: The Python Tutorial
 ---
+
+# The Python Tutorial
+
+Python powerful, [[High-level_programming_language|high level]]
+[[Object-oriented_programming|object orientend]]
+[[Programming_language|programming language]].
+
+Python tutorial cover basic concepts of Python, to learn more recommended to
+check [[research/python.org-Python_standard_library|standard library]],
+[[research/2023-Python_documentation-Python_FAQ|FAQ]] and
+[[research/python.org-Python-Glossary|glossary]].
 
 My notes taken from the Python Tutorial. This tutorial is cover basic concepts
 of Python, most noteworthy features and language elements.
@@ -24,10 +26,10 @@ of Python, most noteworthy features and language elements.
 In this section described when Python usable. For example scripting, simple GUI,
 etc.
 
-Also described strong points of Python, such as rapid development, interactive,
-integration, batteries-included, etc.
+Also described strong points of Python, such as rapid development, interactivity,
+simple integration, batteries-included, etc.
 
-Moreover, are given difference between Python and other languages, such as C,
+ given difference between Python and other languages, such as C,
 C++, Java, etc.
 
 # [2. Using the Python Interpreter](https://docs.python.org/3/tutorial/interpreter.html)

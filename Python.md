@@ -56,8 +56,7 @@ tags:
 This is most prioritized language for me. I learn it according to my
 [[My_python_developer_roadmap]].
 
-**Python** [@PythonProgrammingLanguage2023] is a
-[[High-level_programming_language|high-level]],
+**Python**  is a [[High-level_programming_language|high-level]],
 [[General-purpose_programming_language]].
 
 One of key features of Python is attention to [[Readability]], by using
@@ -72,5 +71,5 @@ It supports any popular [[Programming_paradigm]]:
 - [[Object-oriented_programming]]
 - [[Functional_programming]]
 
-Rich [[Python_standard_library|standard_library]] make it's "batteries
+Rich [[research/python.org-Python_standard_library|standard library]] make it's "batteries
 included" language.

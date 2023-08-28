@@ -14,9 +14,9 @@ tags:
 ## Learning
 
 TOOD: sync research/core notes (duplicates), at least tutorial and standard library
-- [[Python_tutorial|Python tutorial]]
+- [[research/python.org-Python_tutorial|Python tutorial]]
 - [Python Developer’s Guide](https://devguide.python.org/)
-- [[Python_standard_library|Standart Library]]
+- [[research/python.org-Python_standard_library|Standart Library]]
 - [[research/2023-Python_documentation-Python_FAQ]]
 - [codingforentrepreneurs\/30-Days-of-Python.](https://www.youtube.com/playlist?list=PLEsfXFp6DpzQjDBvhNy5YbaBx9j-ZsUe6)
 
