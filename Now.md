@@ -30,6 +30,8 @@ TODO: go through each item and adjust naming, metadata, etc.
 13. [[inbox/Arts_and_Entertainment/learning/PythonDjangoPractical|Django course]]
 14. [[Raylib]]
 15. [[Godot_(game_engine)|Godot]]
+16. [[research/1928-Kiselyov_Andrei_Petrovich-Элементы_алгебры_и_анализа_часть_1|Элементы алгербы и анализа, часть 1]]
+17. [[Math_is_Fun|Math is fun]]
 
 ## Games
 
