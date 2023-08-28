@@ -2,11 +2,6 @@
 date: 2023-08-28
 external: https://strategywiki.org/wiki/Gothic/Controls
 archive: true
-tags:
-  - inbox
-sr-due: 2023-08-29
-sr-interval: 1
-sr-ease: 210
 ---
 
 # Gothic controls
