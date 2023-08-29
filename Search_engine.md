@@ -62,8 +62,8 @@ And here list of my favorite bangs:
 - WolframAlpha - computational intelligence search engine::`! !wa`
 - MathWorld - search for math definitions, formulas::`! !math`
 - Foldoc Dict - search for definitions, mostly technical::`! !foldoc `
-- Google Cache - search for cached pages, need pass [[Uniform_resource_locator_(url)|url]]::`! !cache `
-- Web Archive - search for archived pages, need pass [[Uniform_resource_locator_(url)|url]]::`! !webarchive `
+- Google Cache - search for cached pages, need pass [[Uniform_resource_locator-URL|url]]::`! !cache `
+- Web Archive - search for archived pages, need pass [[Uniform_resource_locator-URL|url]]::`! !webarchive `
 - Google Translate - translate text::`! !gt `
 - Yandex Translate - translate text::`! !ytr `
 - DeepL Translate - translate text::`! !dpl `

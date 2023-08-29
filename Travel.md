@@ -18,7 +18,7 @@ tags:
 >
 > -- [Wikipedia](https://en.wikipedia.org/wiki/Travel)
 
-My general traveling notes (some [[In_real_life_(IRL)|IRL]] experience). TODO: add
+My general traveling notes (some [[In_real_life_IRL|IRL]] experience). TODO: add
 some.
 
 Travel and me very different things 🙃.

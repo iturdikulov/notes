@@ -10,7 +10,7 @@ tags:
 
 # Style of life
 
-> The term style of [[In_real_life_(IRL)]] (German: "Lebensstil") was used by
+> The term style of [[In_real_life_IRL]] (German: "Lebensstil") was used by
 > psychiatrist Alfred Adler as one of several constructs describing the dynamics
 > of the personality.
 >

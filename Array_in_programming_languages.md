@@ -35,7 +35,7 @@ array[3] = 33;
 array[4] = 50;
 ```
 
-## Arrays in [[Rust_(programming_language)]]:
+## Arrays in [[Rust]]:
 
 ```rust
 let mut array: [i32; 3] = [0; 3];

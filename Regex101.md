@@ -10,5 +10,5 @@ tags:
 
 # Regex101
 
-One of the largest [[Regular_expression_(regexp)|regex]] testing services
+One of the largest [[Regular_expression_or_regexp|regex]] testing services
 in the world.

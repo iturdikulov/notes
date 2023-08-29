@@ -10,7 +10,7 @@ tags:
 
 # Map (higher-order function, aka apply-to-all)
 
-> map is the name of a higher-order [[Function_(computer_programming)|function]]
+> map is the name of a higher-order [[Function|function]]
 > that applies a given **function** to **each** element of a collection, e.g. a
 > list or set, returning the results in a **collection** of the same type. It is
 > often called apply-to-all when considered in functional form.

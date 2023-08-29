@@ -22,7 +22,7 @@ tags:
 >
 > -- [Wikipedia](https://en.wikipedia.org/wiki/Interview)
 
-I think good job is way to obtain better [[In_real_life_(IRL)|life]]. And of
+I think good job is way to obtain better [[In_real_life_IRL|life]]. And of
 course you need to be ready for job interview to take it.
 
 ## Resources

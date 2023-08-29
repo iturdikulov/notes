@@ -19,7 +19,7 @@ live actively and interesting. I'm working now as a software engineer in a small
 company (remote, full-stack position, but moving into
 [[My_backend_developer_roadmap|backend]] position).
 
-I organize my work using, [[Getting_things_done_(GTD)|GTD]] mainly using Inbox,
+I organize my work using, [[Getting_things_done_GTD|GTD]] mainly using Inbox,
 Tasks (TODO and NEXT), Daily and Weekly notes with [[Taskwarrior]].
 
 To follow external timelines I sometimes use [[Calendar]] events, but
@@ -81,9 +81,9 @@ implement my [[My_pet_projects|pet_projects]] and
 
 ## Society
 
-Check this note [[In_real_life_(IRL)|IRL]].
+Check this note [[In_real_life_IRL|IRL]].
 
 ## Mentoring and helping
 
 I don't think I'm great at this, but I'm trying to help people on [[GitHub|GitHub]],
-and in future on [[Stack_Overflow_(service)]]. Sometimes on different platforms or IRL.
+and in future on [[Stack_Overflow]]. Sometimes on different platforms or IRL.

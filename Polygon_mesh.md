@@ -11,7 +11,7 @@ tags:
 # Polygon mesh
 
 > In 3D [[Computer_graphics]] and [[Solid_modeling]], a polygon mesh is a
-> collection of [[Vertex_(computer_graphics)|vertices]], edges and faces that
+> collection of [[Vertex|vertices]], edges and faces that
 > defines the shape of a polyhedral object. The faces usually consist of
 > triangles (triangle mesh), quadrilaterals (quads), or other simple convex
 > polygons (n-gons), since this simplifies rendering, but may also be more

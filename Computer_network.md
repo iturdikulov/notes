@@ -9,7 +9,7 @@ tags:
 # Computer network
 
 Set of [[Computer|computers]] sharing resources located on or provided by
-[[Node_(networking)|network_nodes]].
+[[Node|network_nodes]].
 
 Group of two or more [[Computer|computers]] that are linked together. Networks
 are usually used to share resources, exchange files or communicate with other

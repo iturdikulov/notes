@@ -19,7 +19,7 @@ tags:
 >
 > -- [Wikipedia](https://en.wikipedia.org/wiki/Parcel_post)
 
-I use it very often in my [[In_real_life_(IRL)|life]].
+I use it very often in my [[In_real_life_IRL|life]].
 
 ## Resources
 

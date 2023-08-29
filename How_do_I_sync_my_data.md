@@ -31,6 +31,6 @@ mostly to listen music offline.
 - photos from tablet and phone, synced by syncthing, one way (phone and tablet
 → data storage), to avoid data loss. I import them into library using
 [[Darktable]] and then delete from phone and tablet manually after processing.
-- taskwarrior data ([[Getting_things_done_(GTD)|GTD]]), managed by taskd server.
+- taskwarrior data ([[Getting_things_done_GTD|GTD]]), managed by taskd server.
 sorted photos, journals, etc.
 - videos are manged by samba server.

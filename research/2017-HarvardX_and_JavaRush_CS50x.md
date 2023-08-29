@@ -66,7 +66,7 @@ make hello
 ```
 
 - [[Printf_format_string|printf]] explanation
-- [[Conditional_(computer_programming)|conditional programming]] explanation
+- [[Conditional|conditional programming]] explanation
 
 Conditional program:
 ```c

@@ -51,7 +51,7 @@ standard library only use [[ascii]] characters for identifiers, this convention
 that any portable code should follow.
 
 If you need to set not UTF-8 encoding, use `# -*- coding: encoding -*-` comment
-as first line or after [[Shebang_(Unix)|shebang]]:
+as first line or after [[Shebang|shebang]]:
 
 ```python
 #!/usr/bin/env python3
@@ -84,7 +84,7 @@ print(5 ** 2)  # 5 squared
 print(2 ** 7)  # 2 to the power of 7
 ```
 
-[[Operator_(computer_programming)|Operators]] with mixed type [[operand]]'s
+[[Operator|Operators]] with mixed type [[operand]]'s
 convert the integer operand to floating point
 
 ```python

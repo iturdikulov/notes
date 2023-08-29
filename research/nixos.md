@@ -154,7 +154,7 @@ snap, перепаковывает и помещает в /nix/store. То ес�
 вы подключаете телефон в KDE по MTP и он работает - то вот, это я зафиксил. Не
 работало.
 
-## NixOS and [[Filesystem_Hierarchy_Standard_(FHS)|FHS]]
+## NixOS and [[Filesystem_Hierarchy_Standard_FHS|FHS]]
 
 NixOS doesn't follow the FHS:
 

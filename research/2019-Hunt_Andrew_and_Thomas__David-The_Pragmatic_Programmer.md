@@ -35,7 +35,7 @@ localLibrary: "zotero://select/items/1_Q6GLKWYC"
 > - Solve the underlying problems of concurrent code
 > - Guard against security vulnerabilities
 > - Build teams of pragmatic
->   [[Programmer_(software_developer)|programmers]]
+>   [[Programmer|programmers]]
 > - Take responsibility for your work and career
 > - [[Software_testing|Test]] ruthlessly and effectively, including
 >   Property-based testing

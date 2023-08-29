@@ -11,7 +11,7 @@ This is a list my daily-used software. Some of them described in more details in
 other notes.
 
 Check also [[My_shell_scripts|my scripts]] and
-[[Hidden_file_and_hidden_directory_(dotfiles)|dotfiles]].
+[[Hidden_file_and_hidden_directory_dotfiles|dotfiles]].
 
 ## Favorites
 

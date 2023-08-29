@@ -31,7 +31,7 @@ Open a new tab, and jump to it
 ?
 <kbd>C-t</kbd>. You can also use <kbd>O</kbd>
 ?
-to open selected [[Uniform_resource_locator_(url)|url]] or search term in a new tab.
+to open selected [[Uniform_resource_locator-URL|url]] or search term in a new tab.
 
 Reopen the last closed tab, and jump to it. Works even after restarting Brave.
 ?

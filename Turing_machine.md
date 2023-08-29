@@ -31,7 +31,7 @@ Turning machine consists of:
 - A set of rules, which define what to do when the machine is in a certain state
   and reads a certain symbol (a definition of a so-called transition function).
 
-When a Turing machine is started, a [[Word_(computer_architecture)]] (out of the
+When a Turing machine is started, a [[Word]] (out of the
 working-alphabet) must be present on the infinite tape of the machine, initial
 input. The read/write-device on the first character now reads the first
 character and depending on the current state of Turing machine the

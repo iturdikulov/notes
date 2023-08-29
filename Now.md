@@ -34,14 +34,14 @@ TODO: go through each item and adjust naming, metadata, etc.
 
 ## Games
 
-1. [[Gothic_(video_game)|Gothic]]
+1. [[Gothic|Gothic]]
 2. [[Turing_Complete|Turing Complete]]
 
 ## Additional
 
 1. [[Exercise]]
 2. [[Style_of_life]]
-3. [[In_real_life_(IRL)]]
+3. [[In_real_life_IRL]]
 4. [[Cooking]]
 5. [[research/Tech_yourself_computer_science|Tech_computer_science]]
 6. [[How_do_I_study_mathematics]]

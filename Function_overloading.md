@@ -10,7 +10,7 @@ tags:
 
 # Function overloading (method overloading)
 
-> Ability to create multiple [[Function_(computer_programming)|functions]] of
+> Ability to create multiple [[Function|functions]] of
 > the same name with different implementations. Calls to an overloaded function
 > will run a specific implementation of that function appropriate to the context
 > of the call, allowing one function call to perform different tasks depending

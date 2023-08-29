@@ -48,7 +48,7 @@ But its absence of restrictions and its generality make it more convenient and e
 
 # Chapter 1 - A Tutorial Introduction /9
 
-Basics of C (as language, like [[Variable_(computer_science)]] and arithmetic
+Basics of C (as language, like [[Variable]] and arithmetic
 [[Expression]]).
 ?
 - Declarations
@@ -125,8 +125,8 @@ C program, whatever its size, consists of ==functions and variables==.
 Function contains ... that specify its computing operations to be done, and ...
 store values used during the computation.
 ?
-[[Statement_(computer_science)]] and
-[[Variable_(computer_science)]].
+[[Statement]] and
+[[Variable]].
 
 A function contains ==statements== that specify the computing
 operations to be done.

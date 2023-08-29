@@ -10,7 +10,7 @@ tags:
 
 # Null function
 
-> Null [[Function_(computer_programming)|function]] (or null operator) is a
+> Null [[Function|function]] (or null operator) is a
 > subroutine that leaves the program state unchanged. When it is part of the
 > instruction set of a processor, it is called a NOP or NOOP (No OPeration).
 >

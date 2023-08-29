@@ -17,7 +17,7 @@ tags:
 > also been adopted as a community platform. Users can communicate with **voice
 > calls**, **video calls**, text messaging, media, and files in private chats or
 > as part of communities called "workspaces." Slack also uses
-> [[Internet_Relay_Chat_(IRC)|IRC-style]] features such as persistent chat rooms
+> [[Internet_Relay_Chat-IRC|IRC-style]] features such as persistent chat rooms
 > (channels) organized by topic, private groups, and direct messaging. In
 > addition to these online communication features, Slack can integrate with
 > other software.

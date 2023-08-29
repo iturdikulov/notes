@@ -28,7 +28,7 @@ In computer science central role plays [[Algorithm|algorithms]] and
 [[Data_structure|data_structures]].
 
 I think knowing computer science help to write effective [[Code]] (goal of good
-[[Programmer_(software_developer)|programmer]], which I want to be).
+[[Programmer|programmer]], which I want to be).
 
 I described how I learn computer science here: [[How do I study computer
 science]].

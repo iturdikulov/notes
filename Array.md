@@ -49,8 +49,8 @@ yes, empty items has address in memory
 ## Array (data type)
 
 > In [[Computer_science]], **array** is a [[Data_type|data type]] that represents a
-> collection of _elements_ [[Value_(computer_science)|values]] or
-> [[Variable_(computer_science)|variables]], each selected by one or more
+> collection of _elements_ [[Value|values]] or
+> [[Variable|variables]], each selected by one or more
 > indices (identifying keys) that can be computed at
 > [[Runtime|runtime]] during program execution. Such a
 > collection is usually called an **array variable** or **array value**. By
