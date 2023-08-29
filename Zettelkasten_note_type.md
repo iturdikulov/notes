@@ -111,4 +111,4 @@ I also have additional topics tags, mainly used for
 
 Also templates may have this frontamatter variables:
 - `external: https...` - link to external resource, such as web-page, video, etc.
-- `archive: 0000000000.000000` - [[ArchiveBox|archivebox]] timestamp, used as unique id
+- `archive: 0000000000.000000` - [[ArchiveBox]] timestamp, used as unique id

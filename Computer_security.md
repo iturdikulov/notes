@@ -15,6 +15,6 @@ tags:
 - [[Multi-factor_authentication]]
 - [[GNU_Privacy_Guard|GPG]]
 - [[Pass_(software)|Pass]]
-- [[Dm-crypt|Dm-crypt]]
+- [[Dm-crypt]]
 - [DroidFS](https://github.com/hardcore-sushi/DroidFS) - use encrypted virtual
   filesystems on Android

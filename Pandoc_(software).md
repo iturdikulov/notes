@@ -64,7 +64,7 @@ notes from [[Markdown]] to Markdown, to support [[Bibtex]] [[Citation]], like
 
 In results pandoc using various flags (BibTeX file, citation style, etc.)
 generate markdown file with integrated citations, and [[Bibliography]]. Later I
-use this to generate my static site, using [[Hugo|Hugo]].
+use this to generate my static site, using [[Hugo]].
 
 Here is the core part of the script:
 
