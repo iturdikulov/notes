@@ -7,8 +7,7 @@ tags:
 # Now
 
 My current focus is on following things, order is not important. All with help
-of [[Spaced_repetition]], [[Sq3R_method]],
-[[Telekasten.nvim|Telekasten]] and [[Education]].
+of [[Spaced_repetition]], [[Sq3R_method]], [[Telekasten.nvim]] and [[Education]].
 
 
 ## Priorities
@@ -21,7 +20,7 @@ TODO: go through each item and adjust naming, metadata, etc.
 4. [[research/Comprehensive_python_cheatsheet|Python cheatsheet]]
 5. [[research/Data_structures_and_algorithms|Data structures and algorithms]]
 6. [[research/1988-Kernighan_Brian_W._and_Ritchie_Dennis_M.-The_C_programming_language|The C programming language]]
-7. [[LeetCode]] problems with help of [[Leetgo|Leetgo]]
+7. [[LeetCode]] problems with help of [[Leetgo]]
 8. Learn and "utilize" [[My_awesome_software_list|software list]]
 9. Learn and "utilize" [[Neovim|neovim]] and [[My_editing_workflow|editing workflow]]
 10. [[Muratori-Handmade_Hero|Handmade Hero]], game development

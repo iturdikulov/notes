@@ -12,7 +12,7 @@ tags:
 > [John Gruber](https://daringfireball.net/projects/markdown/)
 
 You can also convert markdown to tons of other formats, including PDF, using
-[[Pandoc|pandoc]].
+[[Pandoc]].
 
 I use Markdown as my primary format for all my [[Zettelkasten_note_type|notes]].
 

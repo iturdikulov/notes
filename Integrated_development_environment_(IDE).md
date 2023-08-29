@@ -17,5 +17,5 @@ tags:
 > others, such as SharpDevelop and Lazarus, do not.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Integrated_development_environment)</cite>
 
-I use right now [[Pycharm|Pycharm]] as my main IDE, also I have my
-custom [[Neovim|neovim ]] "[PDE](https://www.youtube.com/watch?v=QMVIJhC9Veg)".
+I use right now [[Pycharm]] as my main IDE, also I have my
+custom [[Neovim]] "[PDE](https://www.youtube.com/watch?v=QMVIJhC9Veg)".

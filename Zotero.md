@@ -33,7 +33,7 @@ sync your attachments too (use syncthing to sync zotero attachments directory).
 
 Better BibTeX is a plugin for Zotero that allows you to export your references
 to BibTeX format. It's useful to use with LaTeX, integrate with your favorite
-tool, etc. I use [[Neovim|neovim]] telescope BibTeX plugin to quickly add
+tool, etc. I use [[Neovim]] telescope BibTeX plugin to quickly add
 references to my [[Zettelkasten_note_type|notes]].
 
 ## Plugins

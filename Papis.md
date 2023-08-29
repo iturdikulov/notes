@@ -9,4 +9,4 @@ tags:
 
 CLI bibliography manager. Support notes, custom fields, tags, and more. I not
 use it anymore, and use [[Zotero|zotero]] (only for books) and
-[[Telekasten.nvim|Telekasten]] based notes system.
+[[Telekasten.nvim]] based notes system.

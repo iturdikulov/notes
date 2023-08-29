@@ -4,6 +4,8 @@ tags:
 - outline
 ---
 
+TODO: restructure, instead more_info, use linking to notes!
+
 # My awesome software list
 
 This is a list my daily-used software. Some of them described in more details in
@@ -25,7 +27,7 @@ Check also [[My_shell_scripts|my scripts]] and
 - [Neovim](https://neovim.io/) - vim-fork focused on extensibility and agility,
   * [[Neovim]]
   * [[Sniprun]] - run code blocks (mostly in research notes).
-  * [[Mkdx.vim|mkdx.vim]] - Markdown formatting plugin, not used now
+  * [[Mkdx.vim]] - Markdown formatting plugin, not used now
 - [[Taskwarrior]] - command-line to-do list manager
 
 ### Tier 2
@@ -126,8 +128,8 @@ Check also [[My_shell_scripts|my scripts]] and
 - [slack-desktop](https://slack.com/) - Slack Desktop for Linux
 - [discord](https://discord.com/) - Discord Instant Messenger
 - [lynx](https://lynx.invisible-island.net/) - text-based web browser
-- [[Miniflux|miniflux]] - RSS reader, web application
-- [[Newsboat|newsboat]] - CLI RSS reader, console application
+- [[Miniflux]] - RSS reader, web application
+- [[Newsboat]] - CLI RSS reader, console application
 
 ## Graphics
 
