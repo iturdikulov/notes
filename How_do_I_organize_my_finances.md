@@ -13,7 +13,7 @@ tags:
 
 To organize my [[Finance|finances]] I use:
 
-- [[Ledger_(software)]]
+- [[Ledger]]
 - [[Payment_service_provider]]
 
 ## Resources

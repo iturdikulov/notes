@@ -6,6 +6,7 @@ sr-ease: 290
 sr-interval: 244
 tags:
 - inbox
+- software
 ---
 
 # ledger

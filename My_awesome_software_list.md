@@ -9,7 +9,7 @@ tags:
 This is a list my daily-used software. Some of them described in more details in
 other notes.
 
-Check also [[My_shell_scripts_(software)|my scripts]] and
+Check also [[My_shell_scripts|my scripts]] and
 [[Hidden_file_and_hidden_directory_(dotfiles)|dotfiles]].
 
 ## Favorites
@@ -23,9 +23,9 @@ Check also [[My_shell_scripts_(software)|my scripts]] and
 - [Rust](https://www.rust-lang.org/) - systems programming language,
   [[Rust_(programming_language)|more_info]]
 - [Neovim](https://neovim.io/) - vim-fork focused on extensibility and agility,
-  * [[Neovim_(software)]]
+  * [[Neovim]]
   * [[Sniprun]] - run code blocks (mostly in research notes).
-  * [[Mkdx.vim_(software)|mkdx.vim]] - Markdown formatting plugin, not used now
+  * [[Mkdx.vim|mkdx.vim]] - Markdown formatting plugin, not used now
 - [[Taskwarrior]] - command-line to-do list manager
 
 ### Tier 2
@@ -33,7 +33,7 @@ Check also [[My_shell_scripts_(software)|my scripts]] and
 - [Blender](https://www.blender.org/), open-source 3D computer graphics software
   tool set, [[Blender|more_info]]
 - [Krita](https://krita.org/en/), open source painting program,
-  [[Krita_(software)|more_info]]
+  [[Krita|more_info]]
 
 ### Tier 3
 
@@ -50,9 +50,9 @@ Check also [[My_shell_scripts_(software)|my scripts]] and
 - [GCC](https://gcc.gnu.org/) - GNU Compiler Collection,
   [[GNU_Compiler_Collection|more_info]]
 - [Obsidian](https://obsidian.md/) - a knowledge base that works on local
-  Markdown files, [[Obsidian_(software)|more_info]]
+  Markdown files, [[Obsidian|more_info]]
 - [Pycharm](https://www.jetbrains.com/pycharm/) - Python IDE for professional
-  developers, [[Pycharm_(software)|more_info]]
+  developers, [[Pycharm|more_info]]
 - [GDB](https://www.gnu.org/software/gdb/) - GNU Project debugger,
   [[GNU_Debugger|more_info]]
 - [Git](https://git-scm.com/) - distributed version control system,
@@ -81,7 +81,7 @@ Check also [[My_shell_scripts_(software)|my scripts]] and
 - [fd](https://github.com/sharkdp/fd) - A simple, fast and user-friendly
   alternative to \'find\', [[Fd|more_info]]
 - [ripgrep](https://github.com/BurntSushi/ripgrep) - recursively searches the
-  current directory for a regex pattern, [[Ripgrep_(software)|more_info]]
+  current directory for a regex pattern, [[Ripgrep|more_info]]
 - [pdfgrep](https://pdfgrep.org/) - search text in PDF files
 
 - [reflex](https://github.com/cespare/reflex) - watch a directory and rerun a
@@ -107,7 +107,7 @@ Check also [[My_shell_scripts_(software)|my scripts]] and
 - [ansible](https://www.ansible.com/) - Ansible is a radically simple IT
   automation platform that makes your applications and systems easier to deploy
 - [NNN (n³)](https://github.com/jarun/nnn) - nnn (n³) is a full-featured
-  terminal file manager, [[Nnn_file_manager_(software)|more_info]]
+  terminal file manager, [[Nnn_file_manager|more_info]]
 - [leetup](https://github.com/dragfire/leetup) - command line tool to solve
   [[LeetCode]] problems
 
@@ -116,7 +116,7 @@ Check also [[My_shell_scripts_(software)|my scripts]] and
 - [Brave](https://brave.com/) - modern, fast and private browser, based on
   Chromium, [[Brave]]
 - [NeoMutt](https://neomutt.org/) - message user agent (MUA),
-  [[Neomutt_(software)|more_info]]
+  [[Neomutt|more_info]]
 - [Telegram Desktop](https://desktop.telegram.org/) - Telegram Desktop
 - [bitlbee](https://www.bitlbee.org/) - IRC to other chat networks gateway,
   [[Bitlbee|more_info]]
@@ -126,8 +126,8 @@ Check also [[My_shell_scripts_(software)|my scripts]] and
 - [slack-desktop](https://slack.com/) - Slack Desktop for Linux
 - [discord](https://discord.com/) - Discord Instant Messenger
 - [lynx](https://lynx.invisible-island.net/) - text-based web browser
-- [[Miniflux_(software)|miniflux]] - RSS reader, web application
-- [[Newsboat_(software)|newsboat]] - CLI RSS reader, console application
+- [[Miniflux|miniflux]] - RSS reader, web application
+- [[Newsboat|newsboat]] - CLI RSS reader, console application
 
 ## Graphics
 
@@ -137,7 +137,7 @@ Check also [[My_shell_scripts_(software)|my scripts]] and
   convert digital images
 - [SolveSpace](https://solvespace.com/index.pl) - 3D parametric/interactive CAD
 - [Nomad Sculpt](https://nomadsculpt.com/), 3D sculpting software,
-  [[Nomad_sculpt_(software)|more_info]]
+  [[Nomad_sculpt|more_info]]
 
 ## Utilities
 - [[Sdcv|Sdcv]] - console version of StarDict dictionary
@@ -198,7 +198,7 @@ Check also [[My_shell_scripts_(software)|my scripts]] and
 - [ytfzf](https://github.com/pystardust/ytfzf) - POSIX script that helps you
   find and download YouTube videos
 - [RetroArch](https://www.retroarch.com/) - frontend for emulators, game engines
-  and media players, [[Retroarch_(software)|more_info]]
+  and media players, [[Retroarch|more_info]]
 
 ## Services
 
@@ -214,9 +214,9 @@ Check also [[My_shell_scripts_(software)|my scripts]] and
 ## Security
 
 - [ledger](https://www.ledger-cli.org/) - Command-Line Accounting,
-  [[Ledger_(software)|more_info]]
+  [[Ledger|more_info]]
 - [pass](https://www.passwordstore.org/) - the standard Unix password manager,
-  [[Pass_(software)|more_info]]
+  [[Pass|more_info]]
 - [GPG](https://gnupg.org/) - encrypt and sign your data and communications,
   [[GNU_Privacy_Guard|more_info]]
 - [firejail](https://firejail.wordpress.com) - SUID sandbox program that reduces
@@ -245,11 +245,11 @@ Check also [[My_shell_scripts_(software)|my scripts]] and
 - [surfraw](https://gitlab.com/surfraw/Surfraw/) - Shell Users\' Revolutionary
   Front Rage Against the Web
 - [TeX Live packages](https://tug.org/texlive/) typesetting system
-  [[Latex_(software)|more_info]]
+  [[Latex|more_info]]
 - [ghostscript](https://www.ghostscript.com/) - An interpreter for the
   PostScript language
 - [pandoc](https://pandoc.org/) - Swiss-army knife to convert markup format
-  files, [[Pandoc_(software)|more_info]]
+  files, [[Pandoc|more_info]]
 - [translate-shell](https://www.soimort.org/translate-shell/) - command line
   translator
 - [abiword](https://www.abisource.com/) - Fully-featured word processor
@@ -338,9 +338,9 @@ Check also [[My_shell_scripts_(software)|my scripts]] and
 ## Databases
 
 - [MySQL](https://www.mysql.com/) - relational database management system,
-  [[Mysql_(software)|more_info]]
+  [[Mysql|more_info]]
 - [PostgreSQL](https://www.postgresql.org/) - object-relational database
-  management system, [[Postgresql_(software)|more_info]]
+  management system, [[Postgresql|more_info]]
 
 ## EDA
 
@@ -350,7 +350,7 @@ Check also [[My_shell_scripts_(software)|my scripts]] and
 
 ## CLI
 
-- [[Patch_(software)]]
+- [[Patch]]
 - [[File]]
 - [scrcpy](https://github.com/Genymobile/scrcpy)
 
@@ -362,7 +362,7 @@ TODO: actualize this list
 
 ## Archive
 
-- [[Papis_(software)]], not use anymore, I switched to [[Zotero]]
+- [[Papis]], not use anymore, I switched to [[Zotero]]
 
 ## TODO:
 - `faketime` - manipulate the system time for a given command

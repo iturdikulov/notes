@@ -6,6 +6,7 @@ sr-ease: 290
 sr-interval: 240
 tags:
 - inbox
+- software
 ---
 
 # LaTeX

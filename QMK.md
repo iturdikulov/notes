@@ -6,6 +6,7 @@ sr-ease: 270
 sr-interval: 236
 tags:
 - inbox
+- software
 ---
 
 # QMK Firmware

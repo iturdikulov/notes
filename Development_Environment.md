@@ -17,7 +17,7 @@ NEXT: review this
 - Windows manager: [[DWM]]
 - Terminal: [[Kitty_(terminal_emulator)]]
 - Shell: [[Z_shell]]
-- Editor: [[Neovim_(software)]]
+- Editor: [[Neovim]]
 - Browser:
   - vim keybindings
   <!-- TODO: add materials -->
@@ -35,5 +35,5 @@ NEXT: review this
   - [[Fzf]]
 - Office
   - [[Zathura]]
-  - [[Latex_(software)]]
+  - [[Latex]]
 - [[Mouseless_workflow]]

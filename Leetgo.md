@@ -5,6 +5,7 @@ sr-ease: 130
 sr-interval: 1
 tags:
 - inbox
+- software
 ---
 
 # Leetgo

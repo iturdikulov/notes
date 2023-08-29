@@ -18,7 +18,7 @@ tags:
 >
 > -- [Simple English Wikipedia](https://simple.wikipedia.org/wiki/Spaced_repetition)
 
-Right now I'm using [[Obsidian_(software)|Obsidian]] plugin
+Right now I'm using [[Obsidian|Obsidian]] plugin
 [spaced repetition](https://www.stephenmwangi.com/obsidian-spaced-repetition/)
 and various note types to generate flashcards. I also use it to select current
 notes to work.

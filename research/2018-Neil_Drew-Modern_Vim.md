@@ -16,7 +16,7 @@ sr-ease: 246
 sr-interval: 2
 ---
 
-Turn [[Neovim_(software)|neovim]] into a full-blown development
+Turn [[Neovim|neovim]] into a full-blown development
 environment using Vim 8’s new features and this sequel to the beloved bestseller
 Practical Vim. Integrate your editor with tools for building, testing, linting,
 indexing, and searching your codebase. Discover the future of Vim with Neovim: a

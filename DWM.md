@@ -97,8 +97,8 @@ Keyboard shortcuts are described in [[DWM_keyboard_shortcuts]] note.
 ## Workspaces (beta)
 
 - [1] My main working workspace. Usually tmux session in pair with terminal.
-- [2] Browser workspace, also contains [[Newsboat_(software)]] tmux session.
-- [3] [[Chatgpt]] + and [[Translate-shell_(software)]] workspace
+- [2] Browser workspace, also contains [[Newsboat]] tmux session.
+- [3] [[Chatgpt]] + and [[Translate-shell]] workspace
 - [4] My personal wiki/education workspace, neovim with wiki project
 - [5] My personal art/game_dev workspace, [[Krita_(software)]], [[Godot_(game_engine)]], etc.
 - [6] VM/ssh workspace

@@ -4,6 +4,7 @@ draft: true
 tags:
 - development
 - outline
+- software
 ---
 
 # MPV

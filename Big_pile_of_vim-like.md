@@ -12,5 +12,5 @@ tags:
 
 # Big Pile of Vim-like
 
-Interactive version of the big list of [[Neovim_(software)|vim]]-like
+Interactive version of the big list of [[Neovim|vim]]-like
 software.

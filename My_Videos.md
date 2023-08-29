@@ -11,7 +11,7 @@ tags:
 
 # My Videos
 
-- [[Mpv_(software)|Mpv]] as main media viewer.
+- [[Mpv|Mpv]] as main media viewer.
 - [[Youtube_(service)]]
 - selfhosted
 - short

@@ -13,6 +13,6 @@ little overcomplicated, and it's not solving some mine specific problems.
 And I avoided using it, and instead I'm going to build my own archiving
 solution, based on [[SingleFile_CLI|SingleFile CLI]],
 [[Chromium]] PDF printing and
-[[Postlight_Parser_(software)|Postlight Parser]] based HTML DOM dump.
+[[Postlight_Parser|Postlight Parser]] based HTML DOM dump.
 
 TODO: implement/write own note

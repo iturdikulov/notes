@@ -14,8 +14,8 @@ tags:
 p* - pycharm only
 n* - neovim only
 
-I n daily life I use [[Pycharm_(software)|pycharm]] and
-[[Neovim_(software)|neovim]] in [[Tmux]] session.
+I n daily life I use [[Pycharm|pycharm]] and
+[[Neovim|neovim]] in [[Tmux]] session.
 
 Maybe in near future I will switch to use only neovim.
 
@@ -432,7 +432,7 @@ structure. n\*
 
 - [x] parsed syntax-tree view::`:TSPlaygroundToggle` n\*
 
-## [[Netrw_(software)|netrw]]
+## [[Netrw|netrw]]
 
 Main file manager
 

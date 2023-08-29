@@ -6,6 +6,7 @@ sr-ease: 248
 sr-interval: 16
 tags:
 - inbox
+- software
 ---
 
 # Piano

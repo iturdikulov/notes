@@ -7,6 +7,7 @@ sr-ease: 270
 sr-interval: 225
 tags:
 - inbox
+- software
 ---
 
 # PyCharm: the Python IDE for Professional Developers by JetBrains

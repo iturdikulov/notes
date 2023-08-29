@@ -31,7 +31,7 @@ I'm fan of fine art and CGI art.
 ## Tools
 
 - [[Blender]]
-- [[Krita_(software)]]
+- [[Krita]]
 - [[Godot_(game_engine)]]
 
 ## Learning resources

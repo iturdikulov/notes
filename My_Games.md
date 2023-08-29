@@ -32,7 +32,7 @@ on my [[Smartphone|smartphone]].
 ## All Games list
 
 TODO: fix links
-- [[Lineage_2_tools_(software)|Lineage 2]], long story..., 9.7/10
+- [[Lineage_2_tools|Lineage 2]], long story..., 9.7/10
 - ~~`Brotato`~~, completed, too time-consuming, I 8/10
 - ~~`Dark Souls Prepare to Die Edition`~~, too time-consuming, 8/10 (bad port,
   but overall good game)

@@ -18,4 +18,4 @@ tags:
 >
 > -- [Wikipedia](https://en.wikipedia.org/wiki/News)
 
-My main news provider is [[Newsboat_(software)]]
+My main news provider is [[Newsboat]]

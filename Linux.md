@@ -22,7 +22,7 @@ tags:
 >
 > -- [Simple English Wikipedia](https://simple.wikipedia.org/wiki/Linux)
 
-Personally I use [[Arch_Linux|Arch Linux]] and [[NixOS_(software)|NixOS]] distributions.
+Personally I use [[Arch_Linux|Arch Linux]] and [[NixOS|NixOS]] distributions.
 
 ## Linux features
 

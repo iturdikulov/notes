@@ -14,7 +14,7 @@ tags:
 > which uses an arrangement of buttons or keys to act as mechanical levers or
 > electronic switches.
 
-Currently, I use KBD75 V2 custom mechanical keyboard, support [[QMK_(software)|QMK]] firmware.
+Currently, I use KBD75 V2 custom mechanical keyboard, support [[QMK|QMK]] firmware.
 
 ## Resources
 

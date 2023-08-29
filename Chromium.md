@@ -35,7 +35,7 @@ Reasons why I use it:
 - [vimium](https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb),
   I know about different extensions and browsers. But for me vimium good enough.
 - [Zotero Connector](https://www.zotero.org/download/connectors), I use it with
-  [[Papis_(software)|papis]] integration (zotero-papis).
+  [[Papis|papis]] integration (zotero-papis).
 - [SponsorBlock](https://chrome.google.com/webstore/detail/sponsorblock-for-youtube/mnjggcdmjocbbbhaepdhchncahnbgone),
   to skip sponsored segments of YouTube videos.
 - [FrankerFaceZ](https://chrome.google.com/webstore/detail/frankerfacez/fadndhdgpmmaapbmfcknlfgcflmmmieb),

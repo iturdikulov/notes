@@ -12,7 +12,7 @@ tags:
 
 ## Emulators
 
-- [[Retroarch_(software)|Retroarch]]
+- [[Retroarch|Retroarch]]
 
 video games distribution [Welcome to Steam](https://store.steampowered.com/)
 [Steam Workshop Downloader](https://steamworkshopdownloader.io/)

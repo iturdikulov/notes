@@ -47,7 +47,7 @@ NEXT: issue with very long lines, how to deal with it?
 
 ## What I handle by it
 
-- Notes, Weekly calendar - telekasten.nvim together with [[Obsidian_(software)]]
+- Notes, Weekly calendar - telekasten.nvim together with [[Obsidian]]
 - File management - netrw
 - Code editing (highly customized setup)
 - Code blocks running

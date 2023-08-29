@@ -23,7 +23,7 @@ Related to [[My_Games]]:
 
 - [Factorio Wiki](https://factorio.fandom.com/wiki/Main_Page)
 
-Related to [[Neovim_(software)]]:
+Related to [[Neovim]]:
 
 - [Vim Tips Wiki](https://vim.fandom.com/wiki/Vim_Tips_Wiki)
 

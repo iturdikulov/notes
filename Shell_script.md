@@ -19,5 +19,5 @@ tags:
 >
 > -- [Wikipedia](https://en.wikipedia.org/wiki/Shell_script)
 
-I personally [[My_shell_scripts_(software)|use]] a lot of shell scripts, mainly for simple
+I personally [[My_shell_scripts|use]] a lot of shell scripts, mainly for simple
 tasks or use some of them as wrappers for other programs.

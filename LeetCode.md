@@ -13,7 +13,7 @@ tags:
 
 Site - [LeetCode](https://leetcode.com/)
 
-CLI tool to interact with the site - [[Leetgo_(software)|Leetgo]].
+CLI tool to interact with the site - [[Leetgo|Leetgo]].
 
 ## Resources
 

@@ -12,4 +12,4 @@ tags:
 
 - [Infinite Mac](https://macos8.app/)
 - [WINDOWS93](http://www.windows93.net/)
-- [[Retroarch_(software)]]
+- [[Retroarch]]

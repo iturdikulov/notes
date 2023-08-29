@@ -6,6 +6,7 @@ sr-ease: 294
 sr-interval: 248
 tags:
 - inbox
+- software
 ---
 
 # RetroArch

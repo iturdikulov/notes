@@ -121,7 +121,7 @@ r c t
 x s d
 
 In my case `Mod3Mask` is bind to `XF86Tools` (`F13`) key, (added manually using
-[[QMK_(software)|QMK]]).
+[[QMK|QMK]]).
 
 TODO: not actual, add info about xorg config
 To enable mod3 key I run this command in [[DWM]] autostart script:
