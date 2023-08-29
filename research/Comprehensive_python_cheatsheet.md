@@ -30,8 +30,7 @@ if __name__ == '__main__':
 
 ### List
 
-Access list items
-- `[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]`
+Access list items of `[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]`:
 - `[0, 2, 4, 6, 8]`
 - `[9, 8, 7, 6, 5, 4, 3, 2, 1]`
 - `[9, 8, 7, 6, 5, 4, 3, 2, 1, 0]`
@@ -39,7 +38,7 @@ Access list items
 ?
 ```python
 list_example = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
-print(list_example[0:10])
+print(list_example[0:9])
 print(list_example[0:10:2])
 print(list_example[10:0:-1])
 print(list_example[::-1])
@@ -4015,10 +4014,3 @@ def read_file(filename):
 if __name__ == '__main__':
     main()
 ```
-
-
-Index
------
-* **Only available in the [PDF](https://transactions.sendowl.com/products/78175486/4422834F/view).**
-* **Ctrl+F / ⌘F is usually sufficient.**
-* **Searching `'#<title>'` on the [webpage](https://gto76.github.io/python-cheatsheet/) will limit the search to the titles.**
