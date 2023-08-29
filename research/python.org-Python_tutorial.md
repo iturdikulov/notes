@@ -1,5 +1,6 @@
 ---
 external: https://docs.python.org/3/tutorial/index.html
+archive: true
 date: 2023
 tags:
 - research
@@ -14,8 +15,8 @@ Python powerful, [[High-level_programming_language|high level]]
 [[Programming_language|programming language]].
 
 Python tutorial cover basic concepts of Python, to learn more recommended to
-check [[research/python.org-Python_standard_library|standard library]],
-[[research/2023-Python_documentation-Python_FAQ|FAQ]] and
+check also [[research/python.org-Python_standard_library|standard library]],
+[[research/2023-Python_documentation-Python_FAQ|FAQ]], [[research/Comprehensive_python_cheatsheet|cheatsheet]] and
 [[research/python.org-Python-Glossary|glossary]].
 
 My notes taken from the Python Tutorial. This tutorial is cover basic concepts
