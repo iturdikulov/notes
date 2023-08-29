@@ -124,7 +124,7 @@ In my case `Mod3Mask` is bind to `XF86Tools` (`F13`) key, (added manually using
 [[QMK_(software)|QMK]]).
 
 TODO: not actual, add info about xorg config
-To enable mod3 key I run this command in [[DWM_(software)|DWM]] autostart script:
+To enable mod3 key I run this command in [[DWM|DWM]] autostart script:
 `xmodmap -e "clear mod3" -e "add mod3 = XF86Tools"`
 
 Move floating window using grid

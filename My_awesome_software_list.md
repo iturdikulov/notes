@@ -31,7 +31,7 @@ Check also [[My_shell_scripts_(software)|my scripts]] and
 ### Tier 2
 
 - [Blender](https://www.blender.org/), open-source 3D computer graphics software
-  tool set, [[Blender_(software)|more_info]]
+  tool set, [[Blender|more_info]]
 - [Krita](https://krita.org/en/), open source painting program,
   [[Krita_(software)|more_info]]
 
@@ -43,23 +43,23 @@ Check also [[My_shell_scripts_(software)|my scripts]] and
   raw developer
 - [Natron](https://natrongithub.github.io/), open source compositing software
 - [Inkscape](https://inkscape.org/), open source vector graphics editor,
-  [[Inkscape_(software)|more_info]]
+  [[Inkscape|more_info]]
 
 ## Programming
 
 - [GCC](https://gcc.gnu.org/) - GNU Compiler Collection,
-  [[GNU_Compiler_Collection_(software)|more_info]]
+  [[GNU_Compiler_Collection|more_info]]
 - [Obsidian](https://obsidian.md/) - a knowledge base that works on local
   Markdown files, [[Obsidian_(software)|more_info]]
 - [Pycharm](https://www.jetbrains.com/pycharm/) - Python IDE for professional
   developers, [[Pycharm_(software)|more_info]]
 - [GDB](https://www.gnu.org/software/gdb/) - GNU Project debugger,
-  [[GNU_Debugger_(software)|more_info]]
+  [[GNU_Debugger|more_info]]
 - [Git](https://git-scm.com/) - distributed version control system,
-  [[Git_(software)|more_info]]
+  [[Git|more_info]]
 - [Docker](https://www.docker.com/) - set of platform as service products that
   use OS-level virtualization to deliver software in packages called containers,
-  [[Docker_(software)|more_info]]
+  [[Docker|more_info]]
 - [sc-im](https://github.com/andmarti1424/sc-im) - vim-like spreadsheet
   calculator/editor, [[Sc-im_(software)|more_info]]
 - [visidata](http://visidata.org/) - interactive multi-tool for tabular data
@@ -76,10 +76,10 @@ Check also [[My_shell_scripts_(software)|my scripts]] and
   login shell and as a command interpreter for shell scripting
 - [ipython](https://ipython.org/) - interactive python command shell
 - [fzf](https://github.com/junegunn/fzf) - general-purpose command-line fuzzy
-  finder, [[Fzf_(software)]]
+  finder, [[Fzf]]
 
 - [fd](https://github.com/sharkdp/fd) - A simple, fast and user-friendly
-  alternative to \'find\', [[Fd_(software)|more_info]]
+  alternative to \'find\', [[Fd|more_info]]
 - [ripgrep](https://github.com/BurntSushi/ripgrep) - recursively searches the
   current directory for a regex pattern, [[Ripgrep_(software)|more_info]]
 - [pdfgrep](https://pdfgrep.org/) - search text in PDF files
@@ -114,14 +114,14 @@ Check also [[My_shell_scripts_(software)|my scripts]] and
 ## Internet
 
 - [Brave](https://brave.com/) - modern, fast and private browser, based on
-  Chromium, [[Brave_(software)]]
+  Chromium, [[Brave]]
 - [NeoMutt](https://neomutt.org/) - message user agent (MUA),
   [[Neomutt_(software)|more_info]]
 - [Telegram Desktop](https://desktop.telegram.org/) - Telegram Desktop
 - [bitlbee](https://www.bitlbee.org/) - IRC to other chat networks gateway,
-  [[Bitlbee_(software)|more_info]]
+  [[Bitlbee|more_info]]
 - [Firefox](https://www.mozilla.org/en-US/firefox/new/) - web browser,
-  [[Firefox_(software)|more_info]]
+  [[Firefox|more_info]]
 - [[Surfingkeys_(software)]] - keyboard-based navigation in web browser
 - [slack-desktop](https://slack.com/) - Slack Desktop for Linux
 - [discord](https://discord.com/) - Discord Instant Messenger
@@ -153,7 +153,7 @@ Check also [[My_shell_scripts_(software)|my scripts]] and
 - [lsyncd](https://lsyncd.github.io/lsyncd/) - synchronization tool for local
   (same machine) and remote (ssh) targets
 - [htop](https://htop.dev/) - cross-platform interactive process viewer,
-  [[Htop_(software)|more_info]]
+  [[Htop|more_info]]
 - [wget](https://www.gnu.org/software/wget/) - download utility
 - [nethogs](https://github.com/raboof/nethogs) - network monitoring
 - [figlet](http://www.figlet.org/) - making large letters out of ordinary text
@@ -185,7 +185,7 @@ Check also [[My_shell_scripts_(software)|my scripts]] and
   [[Zathura_(software)|more_info]]
 - [zared](https://github.com/paoloap/zaread) - E-Book and Office document reader
 - [ffmpeg](https://ffmpeg.org/) - a complete, cross-platform solution to record,
-  convert and stream audio and video, [[Ffmpeg_(software)|more_info]]
+  convert and stream audio and video, [[Ffmpeg|more_info]]
 - [strawberry](https://www.strawberrymusicplayer.org/) - cross-platform music
   player and music collection organizer
 - [imv](https://sr.ht/~exec64/imv/) - command line image viewer intended for use
@@ -209,7 +209,7 @@ Check also [[My_shell_scripts_(software)|my scripts]] and
   crontab schedule expressions
 - [healthchecks](https://healthchecks.io/) - cron job monitoring
 - [AdGuardHome](https://github.com/AdguardTeam/AdGuardHome) - network-wide
-  software for blocking ads & tracking, [[AdGuardHome_(software)|more_info]]
+  software for blocking ads & tracking, [[AdGuardHome|more_info]]
 
 ## Security
 
@@ -218,7 +218,7 @@ Check also [[My_shell_scripts_(software)|my scripts]] and
 - [pass](https://www.passwordstore.org/) - the standard Unix password manager,
   [[Pass_(software)|more_info]]
 - [GPG](https://gnupg.org/) - encrypt and sign your data and communications,
-  [[GNU_Privacy_Guard_(software)|more_info]]
+  [[GNU_Privacy_Guard|more_info]]
 - [firejail](https://firejail.wordpress.com) - SUID sandbox program that reduces
   the risk of security breaches
 
@@ -280,7 +280,7 @@ Check also [[My_shell_scripts_(software)|my scripts]] and
 - [trash-cli](https://github.com/andreafrancia/trash-cli) - Command Line
   Interface to FreeDesktop.org Trash
 - [borgbackup](https://borgbackup.github.io/) - deduplicating archiver with
-  compression and encryption, [[Borg_(software)|more_info]]
+  compression and encryption, [[Borg|more_info]]
 - [fdupes](https://github.com/adrianlopezroche/fdupes) - identifying or deleting
   duplicate files
 - [ventoy](https://www.ventoy.net/en/isolist.html) - tool to create bootable USB
@@ -296,9 +296,9 @@ Check also [[My_shell_scripts_(software)|my scripts]] and
 
 - [slock](https://tools.suckless.org/slock/) - simple X display locker
 - [dwm](https://dwm.suckless.org/) - A dynamic window manager for X,
-  [[DWM_(software)|more_info]]
+  [[DWM|more_info]]
 - [dmenu](https://tools.suckless.org/dmenu/) - Generic menu for X,
-  [[Dmenu_(software)|more_info]]
+  [[Dmenu|more_info]]
 - [tabbed](https://tools.suckless.org/tabbed/) - Tabbed fronted to X embed-aware
   applications
 - [quark](https://tools.suckless.org/quark/) - tiny and simple HTTP
@@ -324,7 +324,7 @@ Check also [[My_shell_scripts_(software)|my scripts]] and
 ## Archive
 
 - [i3](https://i3wm.org/) tiling window manager, used a lot, but now I use
-  [[DWM_(software)|dwm]]
+  [[DWM|dwm]]
 - [GIMP](https://www.gimp.org/) - GNU Image Manipulation Program, fine but krita
   good enough for me
 - [anki](https://apps.ankiweb.net/) - [[Spaced_repetition|spaced_repetition]]
@@ -351,7 +351,7 @@ Check also [[My_shell_scripts_(software)|my scripts]] and
 ## CLI
 
 - [[Patch_(software)]]
-- [[File_(software)]]
+- [[File]]
 - [scrcpy](https://github.com/Genymobile/scrcpy)
 
 ## Android

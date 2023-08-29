@@ -11,10 +11,10 @@ tags:
 
 Mainly I have this data:
 - working projects, out of sync. It's very critical to avoid data loss. I
-use [[Borg_(software)|Borg]] for daily backup.
+use [[Borg|Borg]] for daily backup.
 - wiki library, synced by syncthing, two-way (data storage ↔ phone and
-tablet). To avoid data loss, I am using [[Git_(software)|Git]] and 1-hours backup using
-[[Borg_(software)|borg]] + 5 versions managed by syncthing. Additionally, my syncthing server
+tablet). To avoid data loss, I am using [[Git|Git]] and 1-hours backup using
+[[Borg|borg]] + 5 versions managed by syncthing. Additionally, my syncthing server
 usually always online, to avoid sync conflicts.
 Ignored directories: `.obsidian`, `.git`. I also place here
 additional data:
@@ -30,7 +30,7 @@ download/delete some files, I can ssh into my server and edit it there. I use it
 mostly to listen music offline.
 - photos from tablet and phone, synced by syncthing, one way (phone and tablet
 → data storage), to avoid data loss. I import them into library using
-[[Darktable_(software)|Darktable]] and then delete from phone and tablet manually after processing.
+[[Darktable|Darktable]] and then delete from phone and tablet manually after processing.
 - taskwarrior data ([[Getting_things_done_(GTD)|GTD]]), managed by taskd server.
 sorted photos, journals, etc.
 - videos are manged by samba server.

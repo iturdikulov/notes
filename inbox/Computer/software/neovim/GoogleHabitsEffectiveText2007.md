@@ -4,6 +4,7 @@ date: '2023-08-15'
 tags:
 - research
 - inbox
+- software
 ---
 
 # 7 Habits For Effective Text Editing 2.0

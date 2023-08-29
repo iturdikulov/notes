@@ -6,6 +6,7 @@ sr-ease: 290
 sr-interval: 252
 tags:
 - inbox
+- software
 ---
 
 # Computer software

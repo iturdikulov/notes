@@ -51,7 +51,7 @@ And here list of my favorite bangs:
 - Project Gutenberg - search for free books::`! !pg `
 - Google Books - search for books::`! !gb `
 - Google Scholar - search for scientific articles, books::`! !gsc `
-- DockerHub - search for [[Docker_(software)|docker]] images::`! !dh `
+- DockerHub - search for [[Docker|docker]] images::`! !dh `
 - GitHub - code search, [[GitHub_(service)|more_info]]::`! !gh `
 - GitHub Gist - code snippets::`! !gist `
 - Your Github Stars::`! !githubstars `

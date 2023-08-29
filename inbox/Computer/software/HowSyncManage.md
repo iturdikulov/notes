@@ -4,6 +4,7 @@ date: '2023-08-15'
 tags:
 - research
 - inbox
+- software
 ---
 
 # How to sync and manage your CalDAV-calendars and your CardDAV-addressbooks via the terminal | Hund

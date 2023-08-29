@@ -5,6 +5,7 @@ date: '2023-08-15'
 tags:
 - research
 - inbox
+- software
 ---
 
 # My Email Setup using Mutt and Vim

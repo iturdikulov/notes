@@ -4,6 +4,7 @@ date: '2023-08-17'
 tags:
 - research
 - inbox
+- software
 ---
 
 # AT&T Archives: The UNIX Operating System

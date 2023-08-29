@@ -26,4 +26,4 @@ sudo make install
 ```
 
 TODO: add xst
-- [[DWM_(software)|DWM]]
+- [[DWM|DWM]]

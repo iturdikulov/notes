@@ -30,7 +30,7 @@ I'm fan of fine art and CGI art.
 
 ## Tools
 
-- [[Blender_(software)]]
+- [[Blender]]
 - [[Krita_(software)]]
 - [[Godot_(game_engine)]]
 

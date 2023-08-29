@@ -20,7 +20,7 @@ All new note have a `- inbox` tag, this allowing to use
 Workflow:
 
 - Any resource, such as video, article, web-page, picture archived using
-[[ArchiveBox_(software)|archivebox]] or directly downloaded into own directory.
+[[ArchiveBox|archivebox]] or directly downloaded into own directory.
 
  - Notes includes links to related notes and sources links. Rich linking
  essential in Zettelkasten system.
@@ -111,4 +111,4 @@ I also have additional topics tags, mainly used for
 
 Also templates may have this frontamatter variables:
 - `external: https...` - link to external resource, such as web-page, video, etc.
-- `archive: 0000000000.000000` - [[ArchiveBox_(software)|archivebox]] timestamp, used as unique id
+- `archive: 0000000000.000000` - [[ArchiveBox|archivebox]] timestamp, used as unique id

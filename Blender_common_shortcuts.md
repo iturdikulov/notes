@@ -11,7 +11,7 @@ tags:
 
 # Blender Common Shortcuts
 
-Shortcuts for [[Blender_(software)]] which I use often.
+Shortcuts for [[Blender]] which I use often.
 
 ## General (most window types)
 

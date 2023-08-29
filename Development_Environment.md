@@ -14,7 +14,7 @@ tags:
 NEXT: review this
 
 - [[Unix|unix_as_a_philosophy]]
-- Windows manager: [[DWM_(software)]]
+- Windows manager: [[DWM]]
 - Terminal: [[Kitty_(terminal_emulator)]]
 - Shell: [[Z_shell_(software)]]
 - Editor: [[Neovim_(software)]]
@@ -28,11 +28,11 @@ NEXT: review this
 - Other:
   - [[Suckless.org]]
   - [[Self-hosting_(web_services)]]
-  - [[Hugo_(software)]]
+  - [[Hugo]]
   - [[Microsoft_Windows]]
   - [[Zotero_(software)]]
-  - [[Git_(software)]]
-  - [[Fzf_(software)]]
+  - [[Git]]
+  - [[Fzf]]
 - Office
   - [[Zathura_(software)]]
   - [[Latex_(software)]]

@@ -11,7 +11,7 @@ tags:
 
 # Blender Tutorials
 
-My watched/watching [[Blender_(software)|blender]] tutorials.
+My watched/watching [[Blender|blender]] tutorials.
 
 Make notes, particularly [[Blender_common_shortcuts|hotkey]].
 

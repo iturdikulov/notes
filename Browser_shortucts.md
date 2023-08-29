@@ -13,7 +13,7 @@ tags:
 # Browser shortucts
 
 This is a list of keyboard shortcuts which I use in my browser.
-Currently, I use [[Firefox_(software)|Firefox]] and [[Brave_(software)|Brave browser]].
+Currently, I use [[Firefox|Firefox]] and [[Brave|Brave browser]].
 
 Also, would be useful to check [[Vimium_(software)|vimium]] note.
 

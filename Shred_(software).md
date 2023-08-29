@@ -17,7 +17,7 @@ Bellow some useful and tested commands. But be aware, double check what you are
 trying to do, because shred is very powerful and can be destructive.
 
 Delete data from block device, useful on [[Operating_system|OS]] installation or
-work with [[GNU_Privacy_Guard_(software)|GPG]] keys and files:
+work with [[GNU_Privacy_Guard|GPG]] keys and files:
     `shred --verbose --random-source=/dev/urandom -n1 --zero /dev/sdX`
 
 Overwrite file with zeros (final overwrite) and change permissions if required:

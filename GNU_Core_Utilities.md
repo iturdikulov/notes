@@ -20,7 +20,7 @@ tags:
 Here I store basic coreutils and similar tools that I use on a daily basis.
 
 - [ ] iostat
-- [[GNU_Sed_(software)]]
+- [[GNU_Sed]]
 - [[GNU_Readline]]
-- [[GNU_Privacy_Guard_(software)]]
-- [[GNU_Debugger_(software)]]
+- [[GNU_Privacy_Guard]]
+- [[GNU_Debugger]]
