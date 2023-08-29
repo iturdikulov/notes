@@ -24,7 +24,7 @@ Check also [[My_shell_scripts_(software)|my scripts]] and
   [[Rust_(programming_language)|more_info]]
 - [Neovim](https://neovim.io/) - vim-fork focused on extensibility and agility,
   * [[Neovim_(software)]]
-  * [[Sniprun|Sniprun]] - run code blocks (mostly in research notes).
+  * [[Sniprun]] - run code blocks (mostly in research notes).
   * [[Mkdx.vim_(software)|mkdx.vim]] - Markdown formatting plugin, not used now
 - [[Taskwarrior]] - command-line to-do list manager
 
@@ -141,7 +141,7 @@ Check also [[My_shell_scripts_(software)|my scripts]] and
 
 ## Utilities
 - [[Sdcv|Sdcv]] - console version of StarDict dictionary
-- [[Termdown|Termdown]] - Countdown timer and stopwatch in your terminal
+- [[Termdown]] - Countdown timer and stopwatch in your terminal
 - [kitty](https://sw.kovidgoyal.net/kitty/) - The fast, feature-rich, GPU based
   terminal emulator
 - [wmctrl](https://sites.google.com/site/tstyblo/wmctrl) - command line tool to
@@ -357,8 +357,8 @@ Check also [[My_shell_scripts_(software)|my scripts]] and
 ## Android
 
 TODO: actualize this list
-- [[Termux|Termux]]
-- [[Tachiyomi|Tachiyomi]]
+- [[Termux]]
+- [[Tachiyomi]]
 
 ## Archive
 

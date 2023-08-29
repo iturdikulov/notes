@@ -34,7 +34,7 @@ Why nixos?
 
 NixOS main website is [https://nixos.org/](https://nixos.org/).
 
-I download minimal image and copy it into USB drive with [[Ventoy|ventoy]].
+I download minimal image and copy it into USB drive with [[Ventoy]].
 
 My guide to install NixOS described in own note: [[NixOS_pre-install|NixOS pre-install]].
 

@@ -28,6 +28,6 @@ tags:
 
 1. Start XSDL.
 
-2. Open [[Termux|Termux]] and type: `export DISPLAY=127.0.0.1:0`
+2. Open [[Termux]] and type: `export DISPLAY=127.0.0.1:0`
 
 3. SSH to remote host: `ssh -Y user@hostname`
