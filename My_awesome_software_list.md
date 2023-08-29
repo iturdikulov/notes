@@ -2,6 +2,7 @@
 date: '2023-03-12'
 tags:
 - outline
+- software
 ---
 
 TODO: restructure, instead more_info, use linking to notes!

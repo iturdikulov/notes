@@ -4,6 +4,7 @@ date: '2023-08-19'
 tags:
 - research
 - inbox
+- software
 ---
 
 # 03 Mouseless Driven Development by Hadi Hariri - released in 2012

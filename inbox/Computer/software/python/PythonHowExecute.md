@@ -4,6 +4,7 @@ date: '2023-08-15'
 tags:
 - research
 - inbox
+- software
 ---
 
 # python - How do I execute inserts and updates in an Alembic upgrade script? - Stack Overflow

@@ -4,6 +4,7 @@ date: '2023-08-15'
 tags:
 - research
 - inbox
+- software
 ---
 
 # python - Celery: log each task run to its own file? - Stack Overflow
