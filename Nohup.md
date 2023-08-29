@@ -13,7 +13,7 @@ tags:
 > — <cite>man nohup</cite>
 
 Nohup allow running a command immune to hangups, with output to a non-tty. It's
-useful when I want to "[[Daemon_(computing)|daemonize]]" a process.
+useful when I want to "[[Daemon|daemonize]]" a process.
 
 ## How I use it
 

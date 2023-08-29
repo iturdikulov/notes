@@ -15,7 +15,7 @@ NEXT: review this
 
 - [[Unix|unix_as_a_philosophy]]
 - Windows manager: [[DWM]]
-- Terminal: [[Kitty_(terminal_emulator)]]
+- Terminal: [[Kitty]]
 - Shell: [[Z_shell]]
 - Editor: [[Neovim]]
 - Browser:
@@ -27,7 +27,7 @@ NEXT: review this
   - research
 - Other:
   - [[Suckless.org]]
-  - [[Self-hosting_(web_services)]]
+  - [[Self-hosting]]
   - [[Hugo]]
   - [[Microsoft_Windows]]
   - [[Zotero]]

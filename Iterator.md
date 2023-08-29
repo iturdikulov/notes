@@ -11,5 +11,5 @@ tags:
 # Iterator
 
 Iterator is an object that can be used to traverse a
-[[Collection_(abstract_data_type)]], practically
-[[List_(abstract_data_type)|lists]].
+[[Collection]], practically
+[[List|lists]].

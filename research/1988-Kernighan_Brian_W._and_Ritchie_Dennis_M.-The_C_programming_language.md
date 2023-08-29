@@ -49,7 +49,7 @@ But its absence of restrictions and its generality make it more convenient and e
 # Chapter 1 - A Tutorial Introduction /9
 
 Basics of C (as language, like [[Variable_(computer_science)]] and arithmetic
-[[Expression_(computer_science)]]).
+[[Expression]]).
 ?
 - Declarations
 - Variables and constants

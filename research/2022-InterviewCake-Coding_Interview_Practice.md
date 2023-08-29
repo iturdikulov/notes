@@ -15,7 +15,7 @@ Kick butt at coding interviews. Be the candidate employers fight over.
 
 ## Other terms
 
-- [[Heap_(data_structure)|heap]]
+- [[Heap|heap]]
 - [[bytecode]]
 
 ## 0. Algorithmic thinking
@@ -26,7 +26,7 @@ Kick butt at coding interviews. Be the candidate employers fight over.
 
 ## 1. Array and string manipulation
 
-- [[Array_(computer_science)|array]]
+- [[Array|array]]
 - Array Slicing
 - In-Place Algorithms
 - Dynamic Array

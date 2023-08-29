@@ -18,4 +18,4 @@ tags:
 >
 > -- [Wikipedia](https://en.wikipedia.org/wiki/Programmer)
 
-I usually program in [[Python]] and [[C_(programming_language)]]
+I usually program in [[Python]] and [[C]]

@@ -11,7 +11,7 @@ tags:
 # Cooking
 
 - <https://based.cooking/>
-- [[Cutlets_(cooking)|Cutlets]]
+- [[Cutlets|Cutlets]]
 - [[Semolina_porridge_(cooking)|Semolina porridge]]
 - [[Creamy_mashed_potatoes]]
 - [CalorieKing](https://www.calorieking.com/us/en/)

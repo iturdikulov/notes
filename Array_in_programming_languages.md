@@ -10,7 +10,7 @@ tags:
 
 # Array in programming languages
 
-## Arrays in [[C_(programming_language)]]:
+## Arrays in [[C]]:
 
 ```c
 int array[4];  // Initialize array with 4 items
@@ -24,7 +24,7 @@ for (int i = 0; i < 4; i++) {
 printf("%f", 2.14 + array[0]);  // Error: index out of range
 ```
 
-## Arrays in [[Java_(programming_language)]]:
+## Arrays in [[Java]]:
 
 ```java
 int[] array = new int[5];
@@ -51,7 +51,7 @@ for x in array {
 }
 ```
 
-In Python used ==[[List_(abstract_data_type)]]== not arrays, and here no
+In Python used ==[[List]]== not arrays, and here no
 restrictions on the type of items stored in the array, and its size is not
 fixed.
 <!--SR:!2023-07-29,10,250-->

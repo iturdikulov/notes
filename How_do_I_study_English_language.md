@@ -12,7 +12,7 @@ tags:
 # How do I study English language?
 
 I usually just read some content in [[English_language]]. I also consume
-[[Media_(communication)|media]] content in English.
+[[Media|media]] content in English.
 
 Since I am a native speaker of [[Russian_language]], I need to study English
 with Russian in same time (to understand grammar, etc.).
@@ -20,7 +20,7 @@ with Russian in same time (to understand grammar, etc.).
 ## Resources
 
 - [General Writing Introduction - Purdue University](https://owl.purdue.edu/owl/general_writing/index.html)
-- [[Puzzle_English_(service)|Puzzle English]]
+- [[Puzzle_English|Puzzle English]]
 - [[English_language_transcription]]
 - engvid - https://www.engvid.com/
 - [Изучение Английских Слов с помощью параллельных переводов онлайн](https://studyenglishwords.com/)

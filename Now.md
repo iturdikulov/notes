@@ -28,14 +28,14 @@ TODO: go through each item and adjust naming, metadata, etc.
 12. [[research/2021-Ramalho_Luciano-Fluent_Python|Fluent_Python]]
 13. [[inbox/Arts_and_Entertainment/learning/PythonDjangoPractical|Django course]]
 14. [[Raylib]]
-15. [[Godot_(game_engine)|Godot]]
+15. [[Godot|Godot]]
 16. [[research/1928-Kiselyov_Andrei_Petrovich-Элементы_алгебры_и_анализа_часть_1|Элементы алгербы и анализа, часть 1]]
 17. [[Math_is_Fun|Math is fun]]
 
 ## Games
 
 1. [[Gothic_(video_game)|Gothic]]
-2. [[Turing_Complete_(video_game)|Turing Complete]]
+2. [[Turing_Complete|Turing Complete]]
 
 ## Additional
 

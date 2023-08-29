@@ -16,7 +16,7 @@ sr-ease: 210
 
 Key features for me:
 
-- good [[Portable_document_format_(PDF)|PDF]] viewer
+- good [[Portable_document_format_PDF|PDF]] viewer
 - vim-like keybindings
 - support highlighting and bookmarks
 - anchor links support (marks)

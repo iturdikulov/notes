@@ -41,15 +41,15 @@ I'm connecting with them by voice calls, sometimes text messages. Here is
 ## Exercise and health
 
 Right now I'm trying to follow my personal
-[[research/Exercise_plan|exercise plan]] and [[My_everyday_life_(routine)|routine]].
+[[research/Exercise_plan|exercise plan]] and [[My_everyday_life|routine]].
 
 ## Relax and fun
 
 I can also spend time with my family, friends and pets or consume some media,
 for example:
 
-- Watching [[My_Movies]], [[Twitch_(service)|twitch]],
-  [[Youtube_(service)|youtube]]
+- Watching [[My_Movies]], [[Twitch|twitch]],
+  [[Youtube|youtube]]
 - Playing [[My_Games]]
 - Reading [[My_read_books]] and [[News]]
 - Listening [[My_Music]]
@@ -64,7 +64,7 @@ plan):
 
 Here my "to learn" books list: [[My_read_books]].
 
-Here my "to learn" articles list: [[My_articles_list_(publishing)]].
+Here my "to learn" articles list: [[My_articles_list]].
 
 TODO: check/move books/articles into now or maybe archive.
 
@@ -77,7 +77,7 @@ and various [[How_to_solve_it|methods ]]. More information is [[Education|here]]
 It's not enough to study only, need continuously practice (use your knowledge)
 and test yourself, to solve this problem I use [[Spaced_repetition]] and
 implement my [[My_pet_projects|pet_projects]] and
-[[Work_(human_activity)|working projects]].
+[[Work|working projects]].
 
 ## Society
 
@@ -85,5 +85,5 @@ Check this note [[In_real_life_(IRL)|IRL]].
 
 ## Mentoring and helping
 
-I don't think I'm great at this, but I'm trying to help people on [[GitHub_(service)|GitHub]],
+I don't think I'm great at this, but I'm trying to help people on [[GitHub|GitHub]],
 and in future on [[Stack_Overflow_(service)]]. Sometimes on different platforms or IRL.

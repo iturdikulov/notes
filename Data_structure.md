@@ -17,7 +17,7 @@ impact on performance of your program.
 Data itself is just basically numbers and strings (in computers all data finally
 stored as [[Bit]] sequences).
 
-Basic data structure is [[Array_(computer_science)]].
+Basic data structure is [[Array]].
 
 - <https://en.wikipedia.org/wiki/Fizz_buzz>
 - imperative and functional versions

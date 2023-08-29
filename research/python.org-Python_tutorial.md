@@ -270,7 +270,7 @@ s = '😀😀😀😀😀😀😀😀😀😀' '😀😀😀😀😀😀😀😀
 print(len(s))  # 4
 ```
 
-Most versatile [[Data_type]] is [[List_(abstract_data_type)]]. In Python list
+Most versatile [[Data_type]] is [[List]]. In Python list
 can contain elements of different types, but usually used one type.
 
 ```python

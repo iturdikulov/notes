@@ -100,7 +100,7 @@ Keyboard shortcuts are described in [[DWM_keyboard_shortcuts]] note.
 - [2] Browser workspace, also contains [[Newsboat]] tmux session.
 - [3] [[Chatgpt]] + and [[Translate-shell]] workspace
 - [4] My personal wiki/education workspace, neovim with wiki project
-- [5] My personal art/game_dev workspace, [[Krita_(software)]], [[Godot_(game_engine)]], etc.
+- [5] My personal art/game_dev workspace, [[Krita_(software)]], [[Godot]], etc.
 - [6] VM/ssh workspace
 - [7] Free* workspaces
 - [8] Working Chat workspace, usually Slack++

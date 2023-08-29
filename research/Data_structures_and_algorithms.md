@@ -131,7 +131,7 @@ Notes leaved here [[Data_structure]].
 
 ## The Array: The Foundational Data Structure /24
 
-Some information about arrays: [[Array_(computer_science)]]
+Some information about arrays: [[Array]]
 
 ## Measuring Speed /25
 
@@ -152,11 +152,11 @@ Measuring the number of steps is key to analyzing the speed of an operation.
 
 ## Deletion /34
 
-I placed notes here: [[Array_(computer_science)]]
+I placed notes here: [[Array]]
 
 ## Sets: How a Single Rule Can Affect Efficiency /36
 
-I placed notes here: [[Set_(abstract_data_type)]]
+I placed notes here: [[Set]]
 
 ## Wrapping Up /39
 

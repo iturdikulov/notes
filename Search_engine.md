@@ -52,7 +52,7 @@ And here list of my favorite bangs:
 - Google Books - search for books::`! !gb `
 - Google Scholar - search for scientific articles, books::`! !gsc `
 - DockerHub - search for [[Docker|docker]] images::`! !dh `
-- GitHub - code search, [[GitHub_(service)|more_info]]::`! !gh `
+- GitHub - code search, [[GitHub|more_info]]::`! !gh `
 - GitHub Gist - code snippets::`! !gist `
 - Your Github Stars::`! !githubstars `
 - GitLab - code search, [[GitLab|more_info]]::`! !glab `

@@ -12,7 +12,7 @@ tags:
 # GitLab
 
 DevOps software package which can develop, secure, and operate software.
-Alternative to [[GitHub_(service)|GitHub]].
+Alternative to [[GitHub|GitHub]].
 
 Includes:
 
@@ -24,4 +24,4 @@ Includes:
 - Wiki
 - Pages for static sites / documentation
 - Container registry
-- Can be [[Self-hosting_(web_services)|self-hosted]]
+- Can be [[Self-hosting|self-hosted]]

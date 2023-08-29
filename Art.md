@@ -32,7 +32,7 @@ I'm fan of fine art and CGI art.
 
 - [[Blender]]
 - [[Krita]]
-- [[Godot_(game_engine)]]
+- [[Godot]]
 
 ## Learning resources
 

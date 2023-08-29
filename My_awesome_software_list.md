@@ -5,8 +5,6 @@ tags:
 - software
 ---
 
-TODO: restructure, instead more_info, use linking to notes!
-
 # My awesome software list
 
 This is a list my daily-used software. Some of them described in more details in
@@ -19,43 +17,33 @@ Check also [[My_shell_scripts|my scripts]] and
 
 ### Tier 1
 
-- [C2x](https://en.wikipedia.org/wiki/C2x) - next version of the C programming
-  language standard, [[C_(programming_language)|more_info]]
-- [Python](https://www.python.org/) - general-purpose programming language,
-  [[Python|more_info]]
-- [Rust](https://www.rust-lang.org/) - systems programming language,
-  [[Rust_(programming_language)|more_info]]
 - [Neovim](https://neovim.io/) - vim-fork focused on extensibility and agility,
-  * [[Neovim]]
+  * [[Neovim]] - main PDE environment
+  * [[Telekasten.nvim]] - personal [[Zettelkasten]]
   * [[Sniprun]] - run code blocks (mostly in research notes).
-  * [[Mkdx.vim]] - Markdown formatting plugin, not used now
+- [[Pycharm]] - IDE for Python
+- [[Firefox]] - web browser
 - [[Taskwarrior]] - command-line to-do list manager
 
 ### Tier 2
 
-- [Blender](https://www.blender.org/), open-source 3D computer graphics software
-  tool set, [[Blender|more_info]]
-- [Krita](https://krita.org/en/), open source painting program,
-  [[Krita|more_info]]
+- [[Blender]] - open-source 3D computer graphics software tool set
+- [[Krita]] - open source painting program
 
 ### Tier 3
 
-- [Godot Engine](https://godotengine.org/), free and open source 2D and 3D game
-  engine, [[Godot_(game_engine)]]
-- [darktable](https://www.darktable.org/) - photography workflow application and
-  raw developer
-- [Natron](https://natrongithub.github.io/), open source compositing software
-- [Inkscape](https://inkscape.org/), open source vector graphics editor,
-  [[Inkscape|more_info]]
+- [[Godot]] - free and open source 2D and 3D game engine
+- [[Darktable]] - photography workflow application and raw developer
+- [[Natron]] - open source compositing software
+- [[Inkscape]] - open source vector graphics editor,
+- [[Obsidian]] - a knowledge base that works on local Markdown files
 
 ## Programming
 
-- [GCC](https://gcc.gnu.org/) - GNU Compiler Collection,
-  [[GNU_Compiler_Collection|more_info]]
-- [Obsidian](https://obsidian.md/) - a knowledge base that works on local
-  Markdown files, [[Obsidian|more_info]]
-- [Pycharm](https://www.jetbrains.com/pycharm/) - Python IDE for professional
-  developers, [[Pycharm|more_info]]
+- [[GNU_Compiler_Collection|GCC]] - GNU Compiler Collection,
+
+TODO: restructure, instead more_info, use linking to notes!
+
 - [GDB](https://www.gnu.org/software/gdb/) - GNU Project debugger,
   [[GNU_Debugger|more_info]]
 - [Git](https://git-scm.com/) - distributed version control system,

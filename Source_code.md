@@ -31,7 +31,7 @@ As example, you can write some compiler program (source code) for new
 programming language, by using one of existing compiler/programming language,
 and then that program can translate your new programming language (your own
 source code) into machine code, which can be executed by computer. This process
-named [[Bootstrapping_(compilers)]].
+named [[Bootstrapping]].
 
 ```
                 ----------

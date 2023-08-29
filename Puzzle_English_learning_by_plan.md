@@ -11,7 +11,7 @@ tags:
 
 # Puzzle English learning by plan
 
-This is my notes, taken from the [[Puzzle_English_(service)|Puzzle English]] website.
+This is my notes, taken from the [[Puzzle_English|Puzzle English]] website.
 
 ## Глаголы
 

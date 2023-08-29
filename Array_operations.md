@@ -11,7 +11,7 @@ tags:
 # Array operations
 
 There are four basic operations that can be performed on an
-[[Array_(computer_science)]].
+[[Array]].
 
 ## Reading
 

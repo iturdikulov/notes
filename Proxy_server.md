@@ -10,7 +10,7 @@ tags:
 
 # Proxy server
 
-In [[Computer_network|computer_networking]], [[Server_(computing)]] application
+In [[Computer_network|computer_networking]], [[Server]] application
 (program) that acts as middleman (intermediary) between a client requesting a
 resource and the server providing that resource.
 

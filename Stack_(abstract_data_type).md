@@ -10,7 +10,7 @@ tags:
 # Stack (abstract data type)
 
 > In [[Computer_science]], a **stack** is an [[Abstract_data_type]] that serves
-> as a [[Collection_(abstract_data_type)]] of elements, with two main
+> as a [[Collection]] of elements, with two main
 > operations:
 >
 > - **Push**, which adds an element to the collection, and

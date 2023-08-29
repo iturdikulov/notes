@@ -1,6 +1,6 @@
 ---
 date: 2023-03-28
-draft: true
+external: https://inkscape.org/
 sr-due: 2023-11-29
 sr-ease: 310
 sr-interval: 196

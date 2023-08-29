@@ -4,6 +4,7 @@ draft: true
 sr-due: 2024-01-03
 sr-ease: 270
 sr-interval: 231
+external: https://krita.org/en/
 tags:
 - inbox
 - computer_graphics
@@ -11,6 +12,8 @@ tags:
 ---
 
 # Krita
+
+TODO: move shortcuts into own note
 
 ## Mouse shortcuts
 
