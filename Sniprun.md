@@ -7,6 +7,7 @@ sr-interval: 230
 tags:
 - inbox
 - vim
+- software
 ---
 
 # Sniprun

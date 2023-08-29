@@ -4,6 +4,7 @@ date: '2023-08-21'
 tags:
 - research
 - inbox
+- software
 ---
 
 # Tridactyl's main Shortcuts

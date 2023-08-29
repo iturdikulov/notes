@@ -5,6 +5,7 @@ sr-ease: 250
 sr-interval: 111
 tags:
 - inbox
+- software
 ---
 
 # Pandoc

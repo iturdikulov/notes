@@ -24,7 +24,7 @@ Check also [[My_shell_scripts_(software)|my scripts]] and
   [[Rust_(programming_language)|more_info]]
 - [Neovim](https://neovim.io/) - vim-fork focused on extensibility and agility,
   * [[Neovim_(software)]]
-  * [[Sniprun_(software)|Sniprun]] - run code blocks (mostly in research notes).
+  * [[Sniprun|Sniprun]] - run code blocks (mostly in research notes).
   * [[Mkdx.vim_(software)|mkdx.vim]] - Markdown formatting plugin, not used now
 - [[Taskwarrior]] - command-line to-do list manager
 
@@ -61,7 +61,7 @@ Check also [[My_shell_scripts_(software)|my scripts]] and
   use OS-level virtualization to deliver software in packages called containers,
   [[Docker|more_info]]
 - [sc-im](https://github.com/andmarti1424/sc-im) - vim-like spreadsheet
-  calculator/editor, [[Sc-im_(software)|more_info]]
+  calculator/editor, [[Sc-im|more_info]]
 - [visidata](http://visidata.org/) - interactive multi-tool for tabular data
 
 - [locust](https://locust.io/) - An open source load testing tool
@@ -122,7 +122,7 @@ Check also [[My_shell_scripts_(software)|my scripts]] and
   [[Bitlbee|more_info]]
 - [Firefox](https://www.mozilla.org/en-US/firefox/new/) - web browser,
   [[Firefox|more_info]]
-- [[Surfingkeys_(software)]] - keyboard-based navigation in web browser
+- [[Surfingkeys]] - keyboard-based navigation in web browser
 - [slack-desktop](https://slack.com/) - Slack Desktop for Linux
 - [discord](https://discord.com/) - Discord Instant Messenger
 - [lynx](https://lynx.invisible-island.net/) - text-based web browser
@@ -140,8 +140,8 @@ Check also [[My_shell_scripts_(software)|my scripts]] and
   [[Nomad_sculpt_(software)|more_info]]
 
 ## Utilities
-- [[Sdcv_(software)|Sdcv]] - console version of StarDict dictionary
-- [[Termdown_(software)|Termdown]] - Countdown timer and stopwatch in your terminal
+- [[Sdcv|Sdcv]] - console version of StarDict dictionary
+- [[Termdown|Termdown]] - Countdown timer and stopwatch in your terminal
 - [kitty](https://sw.kovidgoyal.net/kitty/) - The fast, feature-rich, GPU based
   terminal emulator
 - [wmctrl](https://sites.google.com/site/tstyblo/wmctrl) - command line tool to
@@ -182,7 +182,7 @@ Check also [[My_shell_scripts_(software)|my scripts]] and
 ## Multimedia
 
 - [zathrua](https://pwmt.org/projects/zathura/) - Document viewer,
-  [[Zathura_(software)|more_info]]
+  [[Zathura|more_info]]
 - [zared](https://github.com/paoloap/zaread) - E-Book and Office document reader
 - [ffmpeg](https://ffmpeg.org/) - a complete, cross-platform solution to record,
   convert and stream audio and video, [[Ffmpeg|more_info]]
@@ -233,7 +233,7 @@ Check also [[My_shell_scripts_(software)|my scripts]] and
 - [rsync](https://rsync.samba.org/) - fast and extraordinarily versatile file
   copying tool
 - [syncthing](https://syncthing.net/) - is a continuous file synchronization
-  program, [[Syncthing_(software)|more_info]]
+  program, [[Syncthing|more_info]]
 - [wireguard](https://www.wireguard.com/) - simple yet fast and modern VPN
 - [wireshark](https://www.wireshark.org/) - network protocol analyzer
 - [nmap](https://nmap.org/) - network scanner
@@ -284,7 +284,7 @@ Check also [[My_shell_scripts_(software)|my scripts]] and
 - [fdupes](https://github.com/adrianlopezroche/fdupes) - identifying or deleting
   duplicate files
 - [ventoy](https://www.ventoy.net/en/isolist.html) - tool to create bootable USB
-  drive, [[Ventoy_(software)|more_info]]
+  drive, [[Ventoy|more_info]]
 - [xclip](https://github.com/astrand/xclip) - command line interface to the X11
   clipboard
 - [xdotool](https://www.semicomplete.com/projects/xdotool/) - Command-line X11
@@ -357,12 +357,12 @@ Check also [[My_shell_scripts_(software)|my scripts]] and
 ## Android
 
 TODO: actualize this list
-- [[Termux_(software)|Termux]]
-- [[Tachiyomi_(software)|Tachiyomi]]
+- [[Termux|Termux]]
+- [[Tachiyomi|Tachiyomi]]
 
 ## Archive
 
-- [[Papis_(software)]], not use anymore, I switched to [[Zotero_(software)]]
+- [[Papis_(software)]], not use anymore, I switched to [[Zotero]]
 
 ## TODO:
 - `faketime` - manipulate the system time for a given command

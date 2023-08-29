@@ -6,6 +6,7 @@ sr-ease: 270
 sr-interval: 237
 tags:
 - inbox
+- software
 ---
 
 # SolveSpace

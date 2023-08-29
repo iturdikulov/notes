@@ -6,6 +6,7 @@ sr-ease: 288
 sr-interval: 244
 tags:
 - inbox
+- software
 ---
 
 # Pass (software)

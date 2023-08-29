@@ -38,7 +38,7 @@ note.
 
 I have "rich" system to manage my reference note. Some rules:
 - Notes are taken specifically on the content. Usually I just use annotating
-viewer (such as [[Sioyek_(software)|Sioyek]] and [[Xodo_(software)|Xodo]]) to
+viewer (such as [[Sioyek|Sioyek]] and [[Xodo|Xodo]]) to
 generate initial notes. Then I can write additional literature notes in
 `reserach` directory.
 - Be selective, rewrite it in your own words and make sure you understand the

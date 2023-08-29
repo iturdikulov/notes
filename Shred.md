@@ -3,6 +3,8 @@ date: 2023-08-05
 author: Colin Plumb
 external: https://www.gnu.org/software/coreutils/manual/html_node/shred-invocation.html
 archive: true
+tags:
+- software
 ---
 
 # Shred - secure delete

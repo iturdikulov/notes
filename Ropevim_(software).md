@@ -5,6 +5,7 @@ sr-ease: 228
 sr-interval: 1
 tags:
 - inbox
+- software
 ---
 
 # Ropevim, rope in vim

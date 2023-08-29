@@ -3,6 +3,7 @@ date: 2022-12-29
 tags:
 - outline
 - development
+- software
 ---
 
 # Zathura document viewer

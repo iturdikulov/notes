@@ -5,6 +5,7 @@ sr-ease: 232
 sr-interval: 1
 tags:
 - inbox
+- software
 ---
 
 # NixOS

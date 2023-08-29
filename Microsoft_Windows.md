@@ -30,5 +30,5 @@ currently 4 releases of LTSC: one in 2015 (version 1507), one in 2016 (version
 1607), one in 2018 (labeled as 2019, version 1809), and one in 2021 (version
 21H2). In 2024 planned next release.
 
-Check post-installation steps for Windows, in this note [[Windows_setup_script_(software)]],
+Check post-installation steps for Windows, in this note [[Windows_setup_script]],
 her some info which LTSC edition I use.

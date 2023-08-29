@@ -7,6 +7,7 @@ sr-ease: 270
 sr-interval: 239
 tags:
 - inbox
+- software
 ---
 
 # Neotest - A framework for interacting with tests within NeoVim.

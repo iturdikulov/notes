@@ -4,6 +4,7 @@ date: '2023-01-10'
 tags:
 - research
 - inbox
+- software
 ---
 
 # Vim Cheat Sheat for Programmers by Michael Pohoreski

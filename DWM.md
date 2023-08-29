@@ -104,7 +104,7 @@ Keyboard shortcuts are described in [[DWM_keyboard_shortcuts]] note.
 - [6] VM/ssh workspace
 - [7] Free* workspaces
 - [8] Working Chat workspace, usually Slack++
-- [9] Personal [[Weechat_(software)|chat]], stream and music workspace. TODO: add spotify link here.
+- [9] Personal [[Weechat|chat]], stream and music workspace. TODO: add spotify link here.
 
 ## To-Do
 

@@ -6,6 +6,7 @@ sr-interval: 1
 tags:
 - inbox
 - development
+- software
 ---
 
 # Slack

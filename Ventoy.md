@@ -6,6 +6,7 @@ sr-ease: 276
 sr-interval: 4
 tags:
 - inbox
+- software
 ---
 
 # Ventoy
@@ -59,7 +60,7 @@ tags:
 
 ### Windows
 
-Checksums are verified, check this note [[Windows_setup_script_(software)|Windows setup script]]
+Checksums are verified, check this note [[Windows_setup_script|Windows setup script]]
 
 ```sh
 export VENTOY_PATH="/media/Ventoy"

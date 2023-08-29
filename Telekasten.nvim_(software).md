@@ -7,12 +7,13 @@ sr-ease: 272
 sr-interval: 4
 tags:
 - inbox
+- software
 ---
 
 # Telekasten.nvim
 
 > A Neovim (lua) plugin for working with a text-based, markdown zettelkasten /
-> wiki and mixing it with a journal, based on [[Telescope.nvim_(software)|Telescope]]
+> wiki and mixing it with a journal, based on [[Telescope.nvim|Telescope]]
 
 TODO:
 

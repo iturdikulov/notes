@@ -6,6 +6,7 @@ sr-ease: 290
 sr-interval: 251
 tags:
 - inbox
+- software
 ---
 
 # Patch (Unix)

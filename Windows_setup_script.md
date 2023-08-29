@@ -5,12 +5,13 @@ sr-ease: 279
 sr-interval: 4
 tags:
 - inbox
+- software
 ---
 
 # Windows Setup Script
 
 I have own quick-start script for [[Microsoft_Windows]]. I tried to make it very
-simple and straightforward. To install Windows, I usually just use [[Ventoy_(software)|ventoy]].
+simple and straightforward. To install Windows, I usually just use [[Ventoy|ventoy]].
 
 Script:
 

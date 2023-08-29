@@ -172,7 +172,7 @@ gpg -k
 ```
 
 If you want to delete the Private Key file you created, you can use the
-[[Shred_(software)|Shred]] utility to delete the file permanently and make it harder to be
+[[Shred|Shred]] utility to delete the file permanently and make it harder to be
 recovered by overwriting it:
 
 ```sh

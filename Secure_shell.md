@@ -5,6 +5,7 @@ sr-ease: 232
 sr-interval: 1
 tags:
 - inbox
+- software
 ---
 
 # SSH (Secure Shell)
@@ -27,6 +28,6 @@ tags:
 
 1. Start XSDL.
 
-2. Open [[Termux_(software)|Termux]] and type: `export DISPLAY=127.0.0.1:0`
+2. Open [[Termux|Termux]] and type: `export DISPLAY=127.0.0.1:0`
 
 3. SSH to remote host: `ssh -Y user@hostname`

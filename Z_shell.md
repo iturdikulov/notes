@@ -7,6 +7,7 @@ sr-interval: 234
 tags:
 - inbox
 - development
+- software
 ---
 
 ```

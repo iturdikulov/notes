@@ -1,12 +1,8 @@
 ---
 external: https://www.wireguard.com/
-date: 2023-04-23
-draft: true
-sr-due: 2023-05-21
-sr-ease: 275
-sr-interval: 4
 tags:
 - inbox
+- software
 ---
 
 # WireGuard

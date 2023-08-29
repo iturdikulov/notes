@@ -4,6 +4,7 @@ date: '2023-08-19'
 tags:
 - research
 - inbox
+- software
 ---
 
 # MiniGlome/Archive.org-Downloader

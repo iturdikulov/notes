@@ -6,6 +6,7 @@ sr-ease: 270
 sr-interval: 4
 tags:
 - inbox
+- software
 ---
 
 # My shell scripts

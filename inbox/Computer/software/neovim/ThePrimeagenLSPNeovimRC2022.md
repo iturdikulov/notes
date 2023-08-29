@@ -4,6 +4,7 @@ date: '2023-08-15'
 tags:
 - research
 - inbox
+- software
 ---
 
 # 0 to LSP : Neovim RC From Scratch

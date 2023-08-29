@@ -15,7 +15,7 @@ p* - pycharm only
 n* - neovim only
 
 I n daily life I use [[Pycharm_(software)|pycharm]] and
-[[Neovim_(software)|neovim]] in [[Termux_(software)|Tmux]] session.
+[[Neovim_(software)|neovim]] in [[Termux|Tmux]] session.
 
 Maybe in near future I will switch to use only neovim.
 

@@ -7,6 +7,7 @@ sr-ease: 272
 sr-interval: 4
 tags:
 - inbox
+- software
 ---
 
 # mkdx.vim

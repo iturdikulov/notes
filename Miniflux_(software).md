@@ -6,6 +6,7 @@ sr-ease: 292
 sr-interval: 191
 tags:
 - inbox
+- software
 ---
 
 # Miniflux

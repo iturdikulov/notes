@@ -6,6 +6,7 @@ sr-ease: 290
 sr-interval: 247
 tags:
 - inbox
+- software
 ---
 
 # Pacman (software)

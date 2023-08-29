@@ -15,7 +15,7 @@ tags:
 This is a list of keyboard shortcuts which I use in my browser.
 Currently, I use [[Firefox]] and [[Brave]].
 
-Also, would be useful to check [[Vimium_(software)|vimium]] note.
+Also, would be useful to check [[Vimium|vimium]] note.
 
 ## Tabs and Windows
 

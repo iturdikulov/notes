@@ -4,6 +4,7 @@ date: '2023-08-15'
 tags:
 - research
 - inbox
+- software
 ---
 
 # rothgar/awesome-tuis: List of projects that provide terminal user interfaces

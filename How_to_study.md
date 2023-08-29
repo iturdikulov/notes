@@ -64,5 +64,5 @@ after finishing studying.
    Read, Recall, Repetition.
 8. ==Acronyms== and interacting images can help you remember and memorize facts,
    terms, and idioms.
-9. Use ==[[Spaced_repetition]]==, research software like [[Zotero_(software)]] and
+9. Use ==[[Spaced_repetition]]==, research software like [[Zotero]] and
    [[Zettelkasten]] method.

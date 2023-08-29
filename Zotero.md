@@ -1,10 +1,8 @@
 ---
 external: https://www.zotero.org/
 date: 2023-01-27
-sr-due: 2024-01-13
-sr-ease: 285
-sr-interval: 241
-tags: []
+tags:
+- software
 ---
 
 # Zotero Research Assistant

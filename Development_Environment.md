@@ -16,7 +16,7 @@ NEXT: review this
 - [[Unix|unix_as_a_philosophy]]
 - Windows manager: [[DWM]]
 - Terminal: [[Kitty_(terminal_emulator)]]
-- Shell: [[Z_shell_(software)]]
+- Shell: [[Z_shell]]
 - Editor: [[Neovim_(software)]]
 - Browser:
   - vim keybindings
@@ -30,10 +30,10 @@ NEXT: review this
   - [[Self-hosting_(web_services)]]
   - [[Hugo]]
   - [[Microsoft_Windows]]
-  - [[Zotero_(software)]]
+  - [[Zotero]]
   - [[Git]]
   - [[Fzf]]
 - Office
-  - [[Zathura_(software)]]
+  - [[Zathura]]
   - [[Latex_(software)]]
 - [[Mouseless_workflow]]

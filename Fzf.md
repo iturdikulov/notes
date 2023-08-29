@@ -17,7 +17,7 @@ tags:
 It's a general purpose fuzzy finder written in Golang that can be used with any
 list of things: files, processes, command history, git branches, etc.
 
-For [[Z_shell_(software)|Z shell]], it provides the following key bindings
+For [[Z_shell|Z shell]], it provides the following key bindings
 
 - `C-t`::Paste the selected file path(s) into the command line
 - `C-r`::Paste the selected command from history into the command line

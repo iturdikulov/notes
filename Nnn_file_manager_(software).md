@@ -8,6 +8,7 @@ tags:
 - inbox
 - outline
 - development
+- software
 ---
 
 # Nnn file manager

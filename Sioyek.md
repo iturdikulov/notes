@@ -21,7 +21,7 @@ Key features for me:
 - support highlighting and bookmarks
 - anchor links support (marks)
 - command palette menu
-- [[SyncTeX_(software)|Synctex ]] support
+- [[SyncTeX|Synctex ]] support
 - extensible
 - portals (preview multiple places of document in same time)
 

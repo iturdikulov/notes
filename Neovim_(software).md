@@ -7,6 +7,7 @@ sr-interval: 277
 tags:
 - inbox
 - vim
+- software
 ---
 
 # Neovim (text editor)
