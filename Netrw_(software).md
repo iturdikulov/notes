@@ -4,8 +4,8 @@ sr-due: 2023-08-25
 sr-ease: 232
 sr-interval: 1
 tags:
-- inbox
-- vim
+    - inbox
+    - vim
 ---
 
 ## netrw
@@ -26,7 +26,7 @@ netrw explore variants::`:Vexplore`, `:Hexplore`, `:Texplore`, `:Sexplore`
 
 Open directory, parent directory::`<cr>`, `-` or `u`
 
-Preview window, close preview window::`p`, `<C-w>z`
+Preview window (press again to update), close preview window::`p`, `<C-w>z`
 
 Toggle hidden files::`gh`
 
@@ -70,7 +70,8 @@ List bookmarks and history::`qb`
 
 Remove the most recent bookmark::`mB`
 
-## References
+## Resources
 
 - `:h netrw`
+- `:h netrw-quickmap`
 - [Using Netrw, vim's builtin file explorer](https://vonheikemen.github.io/devlog/tools/using-netrw-vim-builtin-file-explorer/)
