@@ -19,7 +19,7 @@ TODO: go through each item and adjust naming, metadata, etc.
 3. [[research/python.org-Python_tutorial]]
 4. [[research/Comprehensive_python_cheatsheet|Python cheatsheet]]
 5. [[research/Data_structures_and_algorithms|Data structures and algorithms]]
-6. [[research/1988-Kernighan_Brian_W._and_Ritchie_Dennis_M.-The_C_programming_language|The C programming language]]
+6. [[research/Kernighan_and_Ritchie-The_C_programming_language|The C programming language]]
 7. [[LeetCode]] problems with help of [[Leetgo]]
 8. Learn and "utilize" [[My_awesome_software_list|software list]]
 9. Learn and "utilize" [[Neovim|neovim]] and [[My_editing_workflow|editing workflow]]

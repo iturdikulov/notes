@@ -9,13 +9,16 @@ sr-interval: 1
 sr-ease: 236
 ---
 
-The authors of this book [@TheCProgrammiKernig1988] present the
-complete guide to ANSI standard C language programming. Written by the
+The authors of this book [@P5BZ8EFX#Kernighan_Ritchie_1988_Programming] present
+the complete guide to ANSI standard C language programming. Written by the
 developers of C, this new version helps readers keep up with the finalized ANSI
 standard for C while showing how to take advantage of C's rich set of operators,
 economy of expression, improved control flow, and data structures.
 
 Questions and answers formatted as flashcards.
+
+Answers are placed in
+[repository](~/Computer/programming/kernighan_the_c_programming_language/).
 
 # Preface /6
 
