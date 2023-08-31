@@ -45,15 +45,16 @@ print(list_example[::-1])
 print(list_example[5:])
 ```
 
-Add items to list
+Add items to list, `[] -> [1,2,3]`
 ?
 ```python
 items = []
 items.append(1)
+items.append(2)
 print(items)  # [1]
 ```
 
-Extend items in list
+Extend items in list, `[1,2] -> [1,2,3,4]`
 ?
 ```python
 items = [0, 1]
@@ -61,7 +62,7 @@ items.extend([2, 3])
 print(items)  # [0, 1, 2, 3]
 ```
 
-In-place sorts list
+In-place sorts list, `[3, 2, 1] -> [1, 2, 3]`
 ?
 ```python
 items = [3, 2, 1]
@@ -69,7 +70,7 @@ items.sort()
 print(items)  # [1, 2, 3]
 ```
 
-Reverse list
+Reverse list, `[1, 2, 3] -> [3, 2, 1]`
 ?
 ```python
 items = [1, 2, 3]
