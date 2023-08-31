@@ -258,7 +258,43 @@ deleted, no third-party signatures (i.e. no Web of Trust support).
 
 More: https://en.wikipedia.org/wiki/Key_server_(cryptographic)#Keyserver_examples
 
+## How to import an SSH ed25519 key to GPG?
+
+1. First you need [[Secure_shell#Generate ed25519 ssh key|generate]] or use
+existing key.
+2. Setup gpg-agent with ssh support
+3. Add your SSH private key to GPG by `ssh-add ed25519-filename`.
+NOTE: that if you are asked for a new password, it is recommended that you use
+the same as your GPG master password.
+4. Check keygrips `gpg -K --with-keygrip`
+
+## How to import an SSH ed25519 key to GPG?
+
+Assume that you have already setup `gpg-agent`.
+
+1. Setup `SSH_AUTH_SOCK` and `GPG_TTY` environment variables by
+`export SSH_AUTH_SOCK=$(gpgconf --list-dirs agent-ssh-socket)` and
+`export GPG_TTY=$(tty)`.
+This optional, usually I have gpg-agent with ssh support.
+2. Add your SSH private key to GPG by `ssh-add ed25519-filename`.
+NOTE: that if you are asked for a new password, it is recommended that you use the same as your GPG master password.
+3. Identify the keygrip of the private key that you added by step 2.
+  1. Check the keygrips of your existing GPG private keys by `gpg -K --with-keygrip`.
+  2. Check private key files by `ls -l $(gpgconf --list-dirs homedir)/private-keys-v1.d`.
+  3. The filename of step 3.2. that is not in the keygrips of step 3-1 is the keygrip that you added by step 2.
+4.  Setup the key added by `ssh-add` to a subkey.
+  1. Start GPG by `gpg --expert --edit-key "Your-existing-GPG-Key-ID"`.
+  2. Enter `addkey` command.
+  3. Select "Existing key". (Maybe "13")
+  4. Enter the keygrip identified by step 3.
+  5. Set the capability as you wish and Finish.
+  6. Then, answer the questions appropriately.
+     Note that you should answer `Y` to `Really create?` and `Save changes?` etc.
+5. Verify that the import was successful by `gpg -K --with-keygrip`.
+ You should be able to see the keygrip that you just added.
+
 
 ## Resources
 
 - https://wiki.archlinux.org/title/GnuPG
+- https://superuser.com/questions/1414381/how-to-import-an-ssh-ed25519-key-to-gpg
