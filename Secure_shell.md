@@ -30,4 +30,12 @@ tags:
 
 2. Open [[Termux]] and type: `export DISPLAY=127.0.0.1:0`
 
-3. SSH to remote host: `ssh -Y user@hostname`
+1. SSH to remote host: `ssh -Y user@hostname`
+
+## Generate ed25519 ssh key
+
+```sh
+# -t type, -f file, -C comment
+ssh-keygen -t ed25519 -f ~/.ssh/id_ed25519 -C "Full Name <email>"
+```
+
