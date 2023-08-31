@@ -44,3 +44,17 @@ sudo nixos-rebuild switch
 ```sh
 hey gc; sudo hey gc
 ```
+
+## Get revision/hash for fetchFromGitHub/fetchit
+
+For example this repo: [https://github.com/cli/cli](https://github.com/cli/cli)
+
+```sh
+# SHA256
+nix-shell -p nix-prefetch-git jq --run \
+  "nix hash to-sri sha256:\$(nix-prefetch-git --url https://github.com/cli/cli --quiet --rev v2.20.2 | jq -r '.sha256')"
+
+# REV
+nix-shell -p nix-prefetch-git jq --run "nix-prefetch-git --url https://github.com/cli/cli --quiet --rev master | jq -r '.rev'"
+```
+
