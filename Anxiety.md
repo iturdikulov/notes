@@ -17,13 +17,13 @@ tags:
 > response to a real threat. It is often accompanied by nervous behavior such as
 > pacing back and forth, somatic complaints, and rumination.
 >
-> -- [Wikipedia](https://en.wikipedia.org/wiki/Anxiety)
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Anxiety)</cite>
 
 > Anxiety is distress or uneasiness of mind caused by a fear of danger or
 > misfortune. Very often, people with anxiety also feel worries. There can also
 > be physical symptoms, like having a headache or an upset stomach.
 >
-> -- [Simple English Wikipedia](https://simple.wikipedia.org/wiki/Anxiety)
+> — <cite>[Simple English Wikipedia](https://simple.wikipedia.org/wiki/Anxiety)</cite>
 
 ## How I fight against anxiety
 

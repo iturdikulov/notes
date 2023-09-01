@@ -15,4 +15,4 @@ tags:
 > and other artistic endeavours. The concept has origins in both Hellenism and
 > Hebraism.
 >
-> -- [Wikipedia](https://en.wikipedia.org/wiki/Artistic_inspiration)
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Artistic_inspiration)</cite>

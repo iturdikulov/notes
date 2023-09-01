@@ -18,11 +18,11 @@ Array is one of most basic data structure in computer science.
 > Array is a [[Data_structure|data structure]] consisting of a collection of elements (values
 > or variables), each identified by at least one array index or key.
 >
-> -- [Wikipedia](https://en.wikipedia.org/wiki/Array_\(data_structure\))
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Array_\(data_structure\))</cite>
 
 > An assemblage of items that are randomly accessible by integers, the index.
 >
-> -- <https://xlinux.nist.gov/dads/HTML/array.html>
+> — <cite><https://xlinux.nist.gov/dads/HTML/array.html></cite>
 
 Array in memory is a **contiguous** block of memory locations (which allocated
 when you create it). Array usually at least has an **address** in memory and
@@ -59,7 +59,7 @@ yes, empty items has address in memory
 > often called **vector type** and **matrix type**, respectively. More
 > generally, a multidimensional array type can be called a **tensor type**, by
 > analogy with the physical concept, [[Tensor]].
-> 
+>
 So in general array is a 1 way storing several items (such as integers). Usually
 array store the same type of items (this depending on language). Every item in
 array indexed (by integer number starting from 0) and you can access array item

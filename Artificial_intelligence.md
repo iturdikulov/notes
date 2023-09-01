@@ -37,7 +37,7 @@ Sort of [[Computer_program|program]] which mimics human cognition.
 > - Social intelligence
 > - General intelligence
 >
-> -- [Wikipedia](https://en.wikipedia.org/wiki/Artificial_intelligence)
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Artificial_intelligence)</cite>
 
 > An extreme goal of AI research is to create computer programs that can learn,
 > solve problems, and think logically. In practice, however, most applications

@@ -20,7 +20,7 @@ tags:
 > found. If the search ends with the remaining half being empty, the target is
 > not in the array.
 >
-> -- [Wikipedia](https://en.wikipedia.org/wiki/Binary_search_algorithm)
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Binary_search_algorithm)</cite>
 
 | Property                    | Value            |
 | :-------------------------- | :--------------- |

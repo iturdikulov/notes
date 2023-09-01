@@ -18,7 +18,7 @@ tags:
 > storage systems that read and write relatively large blocks of data, such as
 > databases and file systems.
 >
-> -- [Wikipedia](https://en.wikipedia.org/wiki/B-tree)
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/B-tree)</cite>
 
 ```
             hello

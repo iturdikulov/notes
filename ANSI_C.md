@@ -19,7 +19,7 @@ tags:
 > as C89 or C90). Software developers writing in C are encouraged to conform to
 > the standards, as doing so helps portability between compilers.
 >
-> -- [Wikipedia](https://en.wikipedia.org/wiki/ANSI_C)
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/ANSI_C)</cite>
 
 Latest standard:
 [ANSI C - Wikipedia#C2x](https://en.wikipedia.org/wiki/ANSI_C#C2x)

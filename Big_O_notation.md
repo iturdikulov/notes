@@ -13,9 +13,9 @@ tags:
 
 > Way of comparing ==rates of growth== of different functions. It is often used
 > to compare the efficiency of different algorithms, which is done by
-> calculating how much memory is needed, and how much time it takes to complete.
->
-> -- [SE Wikipedia](https://simple.wikipedia.org/wiki/Big_O_notation)
+> calculating how much memory is needed, and how much time it takes to
+> complete.\
+> — <cite>[SE Wikipedia](https://simple.wikipedia.org/wiki/Big_O_notation)</cite>
 <!--SR:!2023-07-20,1,250-->
 
 ![Big O notation](./img/Big-O-notation.png)
