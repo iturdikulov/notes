@@ -79,32 +79,39 @@ sgdisk --zap-all $DD2
 # Create GPT partitons
 printf "label: gpt\n,550M,U\n,,L\n" | sfdisk $DD1
 printf "label: gpt\n,550M,U\n,,L\n" | sfdisk $DD2
+# lsblk
+# nvme0n1     259:0    0   1.8T  0 disk
+# ├─nvme0n1p1 259:2    0   550M  0 part
+# └─nvme0n1p2 259:3    0   1.8T  0 part
+# nvme1n1     259:1    0   1.8T  0 disk
+# ├─nvme1n1p1 259:4    0   550M  0 part
+# └─nvme1n1p2 259:5    0   1.8T  0 part
 ```
 
 ## 2. Create File Systems
 
 ```sh
-ls -l /dev/disk/by-id/
+ls -l /dev/nvme0n1* /dev/nvme1n1*
 
 # Check sub-partitons
-test -e "${DD1}1" && echo OK
-test -e "${DD1}2" && echo OK
+test -e "${DD1}p1" && echo OK
+test -e "${DD1}p2" && echo OK
 
-test -e "${DD2}1" && echo OK
-test -e "${DD2}2" && echo OK
+test -e "${DD2}p1" && echo OK
+test -e "${DD2}p2" && echo OK
 
 # Create EFI (FAT32) filesystem:
-mkfs.fat -F32 "${DD1}1" -n BOOT
-mkfs.fat -F32 "${DD2}1" -n BOOT_BACKUP
+mkfs.fat -F32 "${DD1}p1" -n NBOOT
+mkfs.fat -F32 "${DD2}p1" -n NBOOT_BCK
 
 # Create BTRFS raid 1 filesystem:
-mkfs -t btrfs -L ROOT -m raid1 -d raid1 "${DD2}2" "${DD1}2"
+mkfs -t btrfs -L NROOT -m raid1 -d raid1 "${DD1}p2" "${DD2}p2"
 
 # Set up mount points variables
-ls -lah /dev/disk/by-uuid/
-export BOOT="/dev/disk/by-label/BOOT"
-export ROOT="/dev/disk/by-label/ROOT" # this is our root partition
-export BOOT_BACKUP="/dev/disk/by-label/BOOT_BACKUP" # to copy boot disk
+ls -lah /dev/disk/by-label
+export BOOT="/dev/disk/by-label/NBOOT"
+export ROOT="/dev/disk/by-label/NROOT" # this is our root partition
+export BOOT_BACKUP="/dev/disk/by-label/NBOOT_BCK" # to copy boot disk
 
 # Validate
 test -e "$BOOT" && echo OK
