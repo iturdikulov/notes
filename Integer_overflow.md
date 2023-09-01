@@ -14,7 +14,7 @@ tags:
 > [[Computer_memory|memory]] it is stored in. The most likely result is that the
 > number will reset to 0 and start over
 >
-> -- [Wikipedia](https://simple.wikipedia.org/wiki/Integer_overflow)
+> — <cite>[Wikipedia](https://simple.wikipedia.org/wiki/Integer_overflow)</cite>
 
 Example:
 

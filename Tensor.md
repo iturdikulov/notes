@@ -29,7 +29,7 @@ tags:
 > This leads to the concept of a tensor field. In some areas, tensor fields are
 > so ubiquitous that they are often simply called "tensors".
 >
-> -- [Wikipedia](https://en.wikipedia.org/wiki/Tensor)
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Tensor)</cite>
 
 TODO: add images/simpler explanation TODO: watch
 [Зубко И.Ю. Тензорный язык - это просто. Часть 1 - YouTube](https://www.youtube.com/watch?v=jMvj4Rxka1w)

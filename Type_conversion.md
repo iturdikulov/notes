@@ -15,7 +15,7 @@ Word is self-explanatory.
 > Type conversion, type casting, type coercion, and type juggling are different
 > ways of changing an expression from one data type to another.
 >
-> -- [Wikipedia](https://en.wikipedia.org/wiki/Type_conversion)
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Type_conversion)</cite>
 
 Usually used to convert digital data from one format to another, for example
 from `int` to `float` or from `float` to `int`.

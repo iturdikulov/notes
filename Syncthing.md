@@ -15,7 +15,7 @@ tags:
 > Peer-to-peer file synchronization application. It can sync files between
 > devices on a local network, or between remote devices over the Internet.
 >
-> -- [Wikipeida](https://en.wikipedia.org/wiki/Syncthing)
+> — <cite>[Wikipeida](https://en.wikipedia.org/wiki/Syncthing)</cite>
 
 ## Resolve conflicts
 

@@ -13,7 +13,7 @@ tags:
 
 > Miniflux is a minimalist and opinionated feed reader.
 >
-> -- [Miniflux](https://miniflux.app/)
+> — <cite>[Miniflux](https://miniflux.app/)</cite>
 
 I tried various RSS readers. But I chose Miniflux for these reasons:
 

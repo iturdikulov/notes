@@ -28,4 +28,4 @@ tags:
 > satellite messaging connectivity and satellite emergency services into devices
 > for use in remote regions where there is no reliable cellular network.
 >
-> -- [Wikipedia](https://en.wikipedia.org/wiki/Smartphone)
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Smartphone)</cite>

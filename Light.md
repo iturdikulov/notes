@@ -28,4 +28,4 @@ tags:
 > particles. The study of light, known as optics, is an important research area
 > in modern physics.
 >
-> -- [Wikipedia](https://en.wikipedia.org/wiki/Visible_light)
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Visible_light)</cite>

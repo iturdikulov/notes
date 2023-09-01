@@ -20,4 +20,4 @@ tags:
 > (such as economics, [[Psychology]], sociology, political science). It can also
 > be taught as a subject in its own right.
 >
-> -- [Wikipedia](https://en.wikipedia.org/wiki/Mathematical_model)
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Mathematical_model)</cite>

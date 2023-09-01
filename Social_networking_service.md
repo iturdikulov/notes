@@ -15,7 +15,7 @@ tags:
 > interests, activities, backgrounds or real-life
 > [[How_do_I_work_with_contacts|contacts]].
 >
-> -- [Wikipedia](https://en.wikipedia.org/wiki/Social_networking_service)
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Social_networking_service)</cite>
 
 ## Resources
 

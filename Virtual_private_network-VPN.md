@@ -15,7 +15,7 @@ tags:
 > [[Computer_network|computer_network]], or between two networks, using an
 > insecure communication medium such as the public [[Internet|internet]].
 >
-> -- [Wikipedia](https://en.wikipedia.org/wiki/Virtual_private_network)
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Virtual_private_network)</cite>
 
 ## Resources
 

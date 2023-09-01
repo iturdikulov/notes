@@ -20,7 +20,7 @@ tags:
 > are usually more accurate predictors of which applicants will make suitable
 > employees, according to research studies.
 >
-> -- [Wikipedia](https://en.wikipedia.org/wiki/Interview)
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Interview)</cite>
 
 I think good job is way to obtain better [[In_real_life_IRL|life]]. And of
 course you need to be ready for job interview to take it.

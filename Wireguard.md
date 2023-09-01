@@ -23,7 +23,7 @@ tags:
 > networking can be very high-speed. It is suitable for both small embedded
 > devices like [[Smartphone|smartphones]] and fully loaded backbone routers.
 >
-> -- [WireGuard](https://www.wireguard.com/)
+> — <cite>[WireGuard](https://www.wireguard.com/)</cite>
 
 ## Connecting to WireGuard
 

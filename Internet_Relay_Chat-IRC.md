@@ -15,4 +15,4 @@ tags:
 > one-on-one communication via private message as well as chat and data
 > transfer, including file sharing.
 >
-> -- [Wikipedia](https://en.wikipedia.org/wiki/Internet_Relay_Chat)
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Internet_Relay_Chat)</cite>

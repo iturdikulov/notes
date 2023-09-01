@@ -15,7 +15,7 @@ tags:
 > carrier, is a provider of wireless communications services that owns or
 > controls
 >
-> -- [Wikipedia](https://en.wikipedia.org/wiki/Mobile_network_operator)
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Mobile_network_operator)</cite>
 
 ## Resources
 

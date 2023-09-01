@@ -15,7 +15,7 @@ tags:
 > Internet Protocol for communication. An IP address serves two main functions:
 > [[Computer_network|network]] interface identification and location addressing.
 >
-> -- [Wikipedia](https://en.wikipedia.org/wiki/IP_address)
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/IP_address)</cite>
 
 IP address is::unique address, used to identify each computer on the internet.
 

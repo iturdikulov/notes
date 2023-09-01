@@ -15,7 +15,7 @@ tags:
 > medium. It may be for the purpose of propagating news, research results,
 > academic analysis, or debate.
 >
-> -- [Wikipedia](https://en.wikipedia.org/wiki/Article)
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Article)</cite>
 
 Here I store all unread/read articles, by category. Some will have own notes,
 some will be just a link.

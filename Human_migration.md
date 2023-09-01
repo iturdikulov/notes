@@ -21,7 +21,7 @@ tags:
 > household level, and with better access to migration networks, facilitating a
 > possible second move in their [[In_real_life_IRL|live]].
 >
-> -- [Wikipedia](https://en.wikipedia.org/wiki/Human_migration)
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Human_migration)</cite>
 
 ## Resources
 

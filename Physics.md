@@ -14,4 +14,4 @@ tags:
 > fundamental constituents, its motion and behavior through space and time, and
 > the related entities of energy and force.
 >
-> -- [Wikipedia](https://en.wikipedia.org/wiki/Physics)
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Physics)</cite>

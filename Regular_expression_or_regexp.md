@@ -16,4 +16,4 @@ tags:
 > techniques are developed in theoretical [[Computer_science]] and formal
 > language theory.
 >
-> -- [Wikipedia](https://en.wikipedia.org/wiki/Regular_expression)
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Regular_expression)</cite>

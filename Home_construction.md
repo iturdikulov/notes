@@ -15,7 +15,7 @@ tags:
 > people who might now or someday reside there
 >
 >
-> -- [Wikipedia](https://en.wikipedia.org/wiki/Home_construction)
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Home_construction)</cite>
 
 My parents spent significant time and money to build a house. And my father do
 it professionally.

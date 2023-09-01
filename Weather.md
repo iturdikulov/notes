@@ -26,7 +26,7 @@ tags:
 > within stock markets. Temperature forecasts are used by utility companies to
 > estimate demand over coming days.
 >
-> -- [Wikipedia](https://en.wikipedia.org/wiki/Weather)
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Weather)</cite>
 
 ## Resources
 

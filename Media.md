@@ -17,7 +17,7 @@ tags:
 > media, photography, cinema, broadcasting (radio and television), digital
 > media, and advertising.
 >
-> -- [Wikipedia](https://en.wikipedia.org/wiki/Media_\(communication\))
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Media_\(communication\))</cite>
 
 ## Resources
 - [[My_Videos]]

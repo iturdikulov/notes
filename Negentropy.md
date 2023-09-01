@@ -15,7 +15,7 @@ tags:
 > randomness or chaos. One example of negentropy is a star system such as the
 > Solar System. Another example is life.
 >
-> -- [Simple English Wikipedia](https://simple.wikipedia.org/wiki/Negentropy)
+> — <cite>[Simple English Wikipedia](https://simple.wikipedia.org/wiki/Negentropy)</cite>
 
 I store tasks, which I need to check constantly, in this file. This helps me to
 reduce chaos in my life (at least digital).

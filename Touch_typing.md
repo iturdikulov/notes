@@ -21,7 +21,7 @@ tags:
 > either are referred to as hybrid typists.) Both two-handed touch typing and
 > one-handed touch typing are possible.
 >
-> -- [Wikipedia](https://en.wikipedia.org/wiki/Touch_typing)
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Touch_typing)</cite>
 
 Useful article to improve typing speed:
 [[2020-Dan-How_to_type_fast]]

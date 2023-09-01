@@ -19,7 +19,7 @@ tags:
 > features a high degree of portability, supporting a wide range of desktop,
 > mobile, console, and virtual reality platforms.
 >
-> -- [Wikipedia](https://en.wikipedia.org/wiki/Unreal_Engine)
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Unreal_Engine)</cite>
 
 ## Usage
 

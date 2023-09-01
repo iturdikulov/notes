@@ -21,7 +21,7 @@ tags:
 > way. Most types of OS supported
 > (Windows/WinPE/Linux/ChromeOS/Unix/VMware/Xen...)
 >
-> -- [Ventoy](https://www.ventoy.net/en/index.html)
+> — <cite>[Ventoy](https://www.ventoy.net/en/index.html)</cite>
 
 ## [Getting started](https://www.ventoy.net/en/doc_start.html)
 

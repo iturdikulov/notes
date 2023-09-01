@@ -18,7 +18,7 @@ tags:
 > contractual basis, while stock agencies may accept the high-quality photos of
 > amateur photographers through online submission.
 >
-> -- [Wikipedia](https://en.wikipedia.org/wiki/Stock_photography)
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Stock_photography)</cite>
 
 ## Resources
 

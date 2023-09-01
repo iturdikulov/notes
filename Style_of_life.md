@@ -20,7 +20,7 @@ tags:
 > remains consistent throughout life, unless it is changed through depth
 > psychotherapy.
 >
-> -- [Wikipedia](https://en.wikipedia.org/wiki/Style_of_life)
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Style_of_life)</cite>
 
 ## Resources
 

@@ -26,7 +26,7 @@ tags:
 > [[Binary_search_algorithm]] and [[Hash_table]], allow significantly faster
 > searching for all but short lists.
 >
-> -- [Wikipedia](https://en.wikipedia.org/wiki/Linear_search)
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Linear_search)</cite>
 
 Linear search usually inefficient. For example, if we have a list of 1000
 elements, and we want to find the element with value 1000, we will have to check

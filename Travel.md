@@ -16,7 +16,7 @@ tags:
 > trip. Travel can also include relatively short stays between successive
 > movements, as in the case of tourism.
 >
-> -- [Wikipedia](https://en.wikipedia.org/wiki/Travel)
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Travel)</cite>
 
 My general traveling notes (some [[In_real_life_IRL|IRL]] experience). TODO: add
 some.

@@ -14,4 +14,4 @@ tags:
 > [[Source_code|source_code]] conforming to the style, and help to avoid
 > introducing errors.
 >
-> -- [Wikipedia](https://en.wikipedia.org/wiki/Programming_style)
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Programming_style)</cite>

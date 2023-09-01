@@ -15,6 +15,6 @@ tags:
 > They used assembly language to write it. In 1972, the Unix code was rewritten
 > with the new C programming language.
 >
-> -- [Wikipedia](https://simple.wikipedia.org/wiki/Unix)
+> — <cite>[Wikipedia](https://simple.wikipedia.org/wiki/Unix)</cite>
 
 ![Unix timeline](./img/Unix_timeline.svg) _The history of UNIX and its variants_

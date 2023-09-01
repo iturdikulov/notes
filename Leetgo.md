@@ -16,7 +16,7 @@ tags:
 > code and test cases, support local testing and debugging, and you can use any
 > IDE you like to solve problems.
 >
-> -- [Leetgo](https://github.com/j178/leetgo)
+> — <cite>[Leetgo](https://github.com/j178/leetgo)</cite>
 
 ## Features
 

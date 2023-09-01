@@ -15,7 +15,7 @@ tags:
 > instructions for the computer, telling it to do certain things in a certain
 > way.
 >
-> -- [Wikipedia](https://simple.wikipedia.org/wiki/Object-oriented_programming)
+> — <cite>[Wikipedia](https://simple.wikipedia.org/wiki/Object-oriented_programming)</cite>
 
 Be careful, OOP can produce a lot of boilerplate code. It's not always the best
 solution.

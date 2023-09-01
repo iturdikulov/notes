@@ -34,7 +34,7 @@ tags:
 > key or a short key sequence instead of repeating a sequence of actions over
 > and over.
 >
-> -- [NeoMutt Manual](https://neomutt.org/guide/)
+> — <cite>[NeoMutt Manual](https://neomutt.org/guide/)</cite>
 
 Show key bindings
 ?

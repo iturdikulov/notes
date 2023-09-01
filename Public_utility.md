@@ -20,7 +20,7 @@ tags:
 > defense, or commerce, and the risk of public harm with mismanagement is
 > considerably greater than with other goods.
 >
-> -- [Wikipedia](https://en.wikipedia.org/wiki/Public_utility)
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Public_utility)</cite>
 
 ## Resources
 

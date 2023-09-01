@@ -10,10 +10,9 @@ tags:
 
 # High-level programming language
 
-From Wikipedia [@HighlevelProgrammingLanguage2023]:
-
 > In computer science, a high-level programming language is a programming
 > language with strong abstraction from the details of the computer.
+TODO: add link
 
 So high-level language hide some low-level details and provide more high-level
 abstractions. Which can make programming easier to write code.
@@ -31,7 +30,7 @@ Fortran, created in 1950s.
 > In the 1960s, a high-level programming language using a compiler was commonly
 > called an autocode. Examples of autocodes are COBOL and Fortran.
 >
-> -- [@HighlevelProgrammingLanguage2023]
+> — <cite>[@HighlevelProgrammingLanguage2023]</cite>
 
 Instead, dealing with registers, memory addresses and call stacks
 ([[Low-level_programming_language]]), high-level languages deals with:

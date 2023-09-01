@@ -49,7 +49,7 @@ tags:
 > modules (itertools and functools) that implement functional tools borrowed
 > from Haskell and Standard ML.
 >
-> -- [Wikipedia](https://en.wikipedia.org/wiki/Python_\(programming_language\))
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Python_\(programming_language\))</cite>
 
 [[Zen_of_python]] describes the philosophy of Python.
 

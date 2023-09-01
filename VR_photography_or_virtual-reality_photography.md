@@ -16,7 +16,7 @@ tags:
 > sphere, or spherical photo, as well as interactive panorama or immersive
 > panorama.
 >
-> -- [Wikipedia](https://en.wikipedia.org/wiki/VR_photography)
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/VR_photography)</cite>
 
 ## Resources
 

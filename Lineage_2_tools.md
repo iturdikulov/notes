@@ -18,7 +18,7 @@ tags:
 > users during the month of March 2007. To date, the game has been played by
 > more than 14 million users, most of whom are based in Asia.
 >
-> -- [Wikipedia](https://en.wikipedia.org/wiki/Lineage_II)
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Lineage_II)</cite>
 
 Lineage II adopted a free-to-play model in Lineage II: Goddess of Destruction,
 with all game content being free except for "purchasable in-game store items and

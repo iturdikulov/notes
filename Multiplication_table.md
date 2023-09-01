@@ -21,7 +21,7 @@ tags:
 > dating to about 305 BC, during China's Warring States period. "Table of
 > Pythagoras" on Napier's bones[3]
 >
-> -- [Wikipedia](https://en.wikipedia.org/wiki/Multiplication_table)
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Multiplication_table)</cite>
 
 | ×   | 0   | 1   | 2   | 3   | 4   | 5   | 6   | 7   | 8   | 9   | 10  | 11  | 12  |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |

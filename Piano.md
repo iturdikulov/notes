@@ -19,7 +19,7 @@ tags:
 > strike the strings. It was invented in Italy by Bartolomeo Cristofori around
 > the year 1700.
 >
-> -- [Wikipedia](https://en.wikipedia.org/wiki/Piano)
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Piano)</cite>
 
 ## Resources
 

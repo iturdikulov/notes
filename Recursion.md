@@ -18,7 +18,7 @@ tags:
 > types of problems, and recursion is one of the central ideas of
 > [[Computer_science|computer_science]].
 >
-> -- [Wikipedia](https://en.wikipedia.org/wiki/Recursion_\(computer_science\))
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Recursion_\(computer_science\))</cite>
 
 ![Recursive Tree](./img/RecursiveTree.JPG)\
 _Tree created using the Logo

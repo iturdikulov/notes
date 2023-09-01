@@ -21,7 +21,7 @@ tags:
 > faster and easier. They can be created with general
 > [[My_awesome_software_list#graphics|illustration_software]]
 >
-> -- [Wikipedia](https://en.wikipedia.org/wiki/Infographic)
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Infographic)</cite>
 
 ## Resources
 

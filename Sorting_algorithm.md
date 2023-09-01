@@ -18,7 +18,7 @@ tags:
 > is also often useful for canonicalizing data and for producing human-readable
 > output.
 >
-> -- [Wikipedia](https://en.wikipedia.org/wiki/Sorting_algorithm)
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Sorting_algorithm)</cite>
 
 ## Resources
 

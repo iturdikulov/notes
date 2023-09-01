@@ -17,6 +17,6 @@ tags:
 > Most programmers have extensive computing and coding experience in many
 > varieties of programming languages and platforms
 >
-> -- [Wikipedia](https://en.wikipedia.org/wiki/Programmer)
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Programmer)</cite>
 
 I usually program in [[Python]] and [[C]]

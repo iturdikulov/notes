@@ -34,7 +34,7 @@ tags:
 > condition that it may be continuously used, at its original or designed
 > capacity and efficiency for its intended purpose.
 >
-> -- [Wikipedia](https://en.wikipedia.org/wiki/Maintenance)
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Maintenance)</cite>
 
 Here I collect all my maintenance tasks/techniques/tools.
 

@@ -15,7 +15,7 @@ tags:
 > (numbered) lists should usually be used only for list items that should be in
 > a specific order, such as steps in a cooking recipe.
 >
-> -- [Wikipedia](https://en.wikipedia.org/wiki/Help:List)
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Help:List)</cite>
 
 ## Examples
 
@@ -61,7 +61,7 @@ rules to follow.
 > However, if you chose to use all fragments instead of complete sentences, you
 > wouldn’t need to end the fragments with punctuation.
 >
-> -- [Grammarly](https://www.grammarly.com/blog/bullet-list/)
+> — <cite>[Grammarly](https://www.grammarly.com/blog/bullet-list/)</cite>
 
 Without punctuation, lists are harder to read, especially when they are long.
 Main idea is use consistent punctuation.

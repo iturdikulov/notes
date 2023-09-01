@@ -21,4 +21,4 @@ tags:
 > delivered. It also defines addressing methods that are used to label the
 > datagram with source and destination information.
 >
-> -- [Wikipedia](https://en.wikipedia.org/wiki/Internet_Protocol)
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Internet_Protocol)</cite>

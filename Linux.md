@@ -20,7 +20,7 @@ tags:
 > of the software for Linux is free software. This is one reason why many people
 > like to use Linux.
 >
-> -- [Simple English Wikipedia](https://simple.wikipedia.org/wiki/Linux)
+> — <cite>[Simple English Wikipedia](https://simple.wikipedia.org/wiki/Linux)</cite>
 
 Personally I use [[Arch_Linux|Arch Linux]] and [[NixOS]] distributions.
 

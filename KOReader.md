@@ -14,7 +14,7 @@ tags:
 > [[Portable_document_format_PDF]], DjVu, EPUB, FB2 and many more formats,
 > running on Cervantes, **Kindle**, Kobo, PocketBook and Android devices
 >
-> -- [KOReader](http://koreader.rocks/)
+> — <cite>[KOReader](http://koreader.rocks/)</cite>
 
 I frequently use it to read mostly fiction books on my
 [[My_inventory##Kindle_paperwhite|kindle_paperwhite]].

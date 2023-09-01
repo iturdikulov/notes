@@ -13,4 +13,4 @@ tags:
 > Transmission Control Protocol (TCP), the User Datagram Protocol (UDP), and the
 > Internet Protocol (IP).
 >
-> -- [Wikipedia](https://en.wikipedia.org/wiki/Internet_protocol_suite)
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Internet_protocol_suite)</cite>

@@ -22,7 +22,7 @@ tags:
 > addition to these online communication features, Slack can integrate with
 > other software.
 >
-> -- [Wikipedia](https://en.wikipedia.org/wiki/Slack_\(software\))
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Slack_\(software\))</cite>
 
 One of my main communication tools with my colleagues.
 

@@ -17,7 +17,7 @@ tags:
 > prices. Today, many parcels also travel by road and international shipments
 > may travel by sea or airmail.
 >
-> -- [Wikipedia](https://en.wikipedia.org/wiki/Parcel_post)
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Parcel_post)</cite>
 
 I use it very often in my [[In_real_life_IRL|life]].
 

@@ -18,4 +18,4 @@ tags:
 > - **Pop**, which removes the most recently added element that was not yet
 >   removed.
 >
-> -- [Wikipedia](https://en.wikipedia.org/wiki/Stack_\(abstract_data_type\))
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Stack_\(abstract_data_type\))</cite>

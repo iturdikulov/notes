@@ -19,7 +19,7 @@ tags:
 > containers, tree-like containers, or even abstract containers such as futures
 > and promises.
 >
-> -- [Wikipedia](https://en.wikipedia.org/wiki/Map_\(higher-order_function\))
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Map_\(higher-order_function\))</cite>
 
 Python example:
 

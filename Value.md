@@ -14,4 +14,4 @@ tags:
 > representation of some **entity** that can be manipulated by a program. The
 > members of a type are the values of that type.
 >
-> -- [Wikipedia](https://en.wikipedia.org/wiki/Value_\(computer_science\))
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Value_\(computer_science\))</cite>

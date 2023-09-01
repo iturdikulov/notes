@@ -35,7 +35,7 @@ tags:
 > object-oriented languages as classes. Common implementations are circular
 > buffers and linked lists.
 >
-> -- [Wikipedia](https://en.wikipedia.org/wiki/Queue_\(abstract_data_type\))
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Queue_\(abstract_data_type\))</cite>
 
 | Algorithm | Average | Worst case |
 | --------- | ------- | ---------- |

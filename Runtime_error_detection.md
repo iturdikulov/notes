@@ -32,4 +32,4 @@ tags:
 > Runtime error detection tools can only detect errors in the executed control
 > flow of the application.
 >
-> -- [Wikipedia](https://en.wikipedia.org/wiki/Runtime_error_detection)
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Runtime_error_detection)</cite>

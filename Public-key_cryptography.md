@@ -18,7 +18,7 @@ tags:
 > public-key cryptography depends on keeping the private key secret; the public
 > key can be openly distributed without compromising security.
 >
-> -- [Wikipedia](https://en.wikipedia.org/wiki/Public-key_cryptography)
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Public-key_cryptography)</cite>
 
 Examples of protocols using asymmetric key algorithms include:
 

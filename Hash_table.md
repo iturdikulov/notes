@@ -23,7 +23,7 @@ tags:
 > collisions where the hash function generates the same index for more than one
 > key. Such collisions are typically accommodated in some way.
 >
-> -- [Wikipedia](https://en.wikipedia.org/wiki/Hash_table)
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Hash_table)</cite>
 
 | Algorithm | Average | Worst case |
 | --------- | ------- | ---------- |

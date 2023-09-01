@@ -21,13 +21,13 @@ tags:
 > Ψ (psi), the first letter of the Greek word psyche from which the term
 > psychology is derived, is commonly associated with the science.
 >
-> -- [Wikipedia](https://en.wikipedia.org/wiki/Psychology)
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Psychology)</cite>
 
 > Psychology is the study of the mind. It studies thoughts, feelings, and
 > behaviors in humans and animals. Psychology aims to explain how the mind
 > works. It also looks at how our actions relate to how we think.
 >
-> -- [Simple English Wikipedia](https://simple.wikipedia.org/wiki/Psychology)
+> — <cite>[Simple English Wikipedia](https://simple.wikipedia.org/wiki/Psychology)</cite>
 
 ## Useful resources
 

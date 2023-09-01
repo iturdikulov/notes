@@ -16,6 +16,6 @@ tags:
 > witnesses to events. News is sometimes called "hard news" to differentiate it
 > from soft media
 >
-> -- [Wikipedia](https://en.wikipedia.org/wiki/News)
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/News)</cite>
 
 My main news provider is [[Newsboat]]

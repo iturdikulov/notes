@@ -27,4 +27,4 @@ tags:
 > 0.8 mm) is also considered a significant figure even though there is
 > uncertainty in it.
 >
-> -- [Wikipedia](https://en.wikipedia.org/wiki/Significant_figures)
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Significant_figures)</cite>

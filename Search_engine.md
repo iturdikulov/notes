@@ -19,7 +19,7 @@ tags:
 > those that are relevant to the user's query. The results are then ranked by
 > relevancy and displayed to the user.
 >
-> -- [Wikipedia](https://en.wikipedia.org/wiki/Search_engine)
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Search_engine)</cite>
 
 ## My search engines list
 

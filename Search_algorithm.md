@@ -15,4 +15,4 @@ tags:
 > calculated in the search space of a problem domain, with either discrete or
 > continuous values.
 >
-> -- [Wikipedia](https://en.wikipedia.org/wiki/Search_algorithm)
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Search_algorithm)</cite>

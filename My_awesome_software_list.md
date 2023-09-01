@@ -356,6 +356,7 @@ TODO: actualize this list
 - [[Papis]], not use anymore, I switched to [[Zotero]]
 
 ## TODO:
+- `ipcalc` - simple IP network calculator
 - `faketime` - manipulate the system time for a given command
 - `antimicro` - bind keyboard and mouse actions to your gamepad or joystick
 https://github.com/AntiMicroX/antimicrox-profiles/tree/master/applications

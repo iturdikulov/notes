@@ -15,7 +15,7 @@ tags:
 > sector of the computing industry. For example, Windows NT for consumers,
 > Windows Server for servers, and Windows IoT for embedded systems.
 >
-> -- [Wikipedia](https://en.wikipedia.org/wiki/Microsoft_Windows)
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Microsoft_Windows)</cite>
 
 ## Windows LTSC Editon
 

@@ -17,7 +17,7 @@ tags:
 > Nvim is emphatically a fork of Vim, not a clone: compatibility with Vim
 > (especially editor and Vimscript features) is maintained where possible.
 >
-> -- Neovim's help (:help neovim)
+> — <cite>`:help neovim`</cite>
 
 Enable logs - `nvim -V10nvim.log`
 

@@ -16,7 +16,7 @@ tags:
 > This is done to take advantage of the spacing effect which can be a better way
 > and quicker way to learn and keep information.
 >
-> -- [Simple English Wikipedia](https://simple.wikipedia.org/wiki/Spaced_repetition)
+> — <cite>[Simple English Wikipedia](https://simple.wikipedia.org/wiki/Spaced_repetition)</cite>
 
 Right now I'm using [[Obsidian]] plugin
 [spaced repetition](https://www.stephenmwangi.com/obsidian-spaced-repetition/)

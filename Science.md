@@ -13,7 +13,7 @@ tags:
 > **Systematic endeavor** that builds and organizes **knowledge** in the form of
 > testable explanations and predictions about the universe.
 >
-> -- [Wikipedia](https://en.wikipedia.org/wiki/Science)
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Science)</cite>
 
 > ## Scientific method
 >
