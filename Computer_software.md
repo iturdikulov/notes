@@ -22,7 +22,7 @@ tags:
 > type of software that is used as a platform for running the applications, and
 > controls all user interface tools including display and the keyboard.
 >
-> -- [Wikipedia](https://en.wikipedia.org/wiki/Computer_program)
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Computer_program)</cite>
 
 
 TODO: duplicate of [[Computer_program]]

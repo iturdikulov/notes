@@ -18,7 +18,7 @@ tags:
 > engineering, [[Computer_science|computer_science]], cybersecurity, data
 > science, information systems, information technology and software engineering.
 >
-> -- [Wikipedia](https://en.wikipedia.org/wiki/Computing)
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Computing)</cite>
 
 ![Computer simulation, one of the main cross-computing methodologies.](GalvesLocherbach_-_High_Resolution.gif)
 _Computer simulation, one of the main cross-computing methodologies._

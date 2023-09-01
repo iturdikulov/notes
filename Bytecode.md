@@ -31,4 +31,4 @@ tags:
 > been built also. Different parts may often be stored in separate files,
 > similar to object modules, but dynamically loaded during execution.
 >
-> -- [Wikipedia](https://en.wikipedia.org/wiki/Bytecode)
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Bytecode)</cite>

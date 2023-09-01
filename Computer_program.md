@@ -14,4 +14,4 @@ tags:
 > execute. Computer programs are one component of software, which also includes
 > documentation and other intangible components.
 >
-> -- [Wikipedia](https://en.wikipedia.org/wiki/Computer_program)
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Computer_program)</cite>

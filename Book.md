@@ -41,4 +41,4 @@ tags:
 > [[Library|libraries]], and bookstores. There are other types such as books of
 > sheet music.
 >
-> -- [Wikipedia](https://en.wikipedia.org/wiki/Book)
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Book)</cite>

@@ -15,6 +15,5 @@ tags:
 > spacecraft, planets, stars, and galaxies. For objects governed by classical
 > mechanics, if the present state is known, it is possible to predict how it
 > will move in the future (determinism), and how it has moved in the past
-> (reversibility).
->
-> -- [Wikipedia](https://en.wikipedia.org/wiki/Classical_mechanics)
+> (reversibility).\
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Classical_mechanics)</cite>

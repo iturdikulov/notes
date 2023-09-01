@@ -15,7 +15,7 @@ tags:
 > of formal grammars. This hierarchy of grammars was described by Noam Chomsky
 > in 1956.
 >
-> -- [Wikipedia](https://en.wikipedia.org/wiki/Chomsky_hierarchy)
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Chomsky_hierarchy)</cite>
 
 > The Chomsky hierarchy is a concept of theoretical computer science. Noam
 > Chomsky looked at grammars of regular language and classified them into four
@@ -26,4 +26,4 @@ tags:
 > 3 contain restrictions. Grammars in higher-numbered levels also satisfy the
 > constraints of all levels below them.
 >
-> -- [Simple English Wikipedia](https://simple.wikipedia.org/wiki/Chomsky_hierarchy)
+> — <cite>[Simple English Wikipedia](https://simple.wikipedia.org/wiki/Chomsky_hierarchy)</cite>

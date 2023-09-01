@@ -14,7 +14,7 @@ tags:
 > loaded into random-access memory (RAM) and then executed by a computer
 > system's built-in firmware (e.g., the BIOS).
 >
-> -- [Wikipedia](https://en.wikipedia.org/wiki/Boot_sector)
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Boot_sector)</cite>
 
 Usualy it's very first sector of the disk.
 
@@ -60,7 +60,7 @@ and the boot mode is UEFI.
 > use 32 bits for logical block addressing (LBA) of traditional 512-byte disk
 > sectors.
 >
-> -- [Wikipedia](https://en.wikipedia.org/wiki/GUID_Partition_Table)
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/GUID_Partition_Table)</cite>
 
 GPT partition tables offer a maximum capacity of 9.7 zetabytes. 1 zetabyte is
 about 1 billion terabytes.

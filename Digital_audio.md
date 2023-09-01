@@ -26,7 +26,7 @@ tags:
 > instrumental pieces, podcasts, sound effects, and other sounds. Modern online
 > [[My_Music]] distribution depends on digital recording and data compression.
 >
-> -- [Wikipedia](https://en.wikipedia.org/wiki/Digital_audio)
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Digital_audio)</cite>
 
 ## Resources
 

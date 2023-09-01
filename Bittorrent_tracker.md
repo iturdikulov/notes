@@ -27,7 +27,7 @@ tags:
 >
 > Tracker can be public or private.
 >
-> -- [Wikipedia](https://en.wikipedia.org/wiki/BitTorrent_tracker)
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/BitTorrent_tracker)</cite>
 
 ## Resources
 

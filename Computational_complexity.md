@@ -17,4 +17,4 @@ tags:
 > complexity of a problem is the complexity of the best algorithms that allow
 > solving the problem.
 >
-> -- [Wikipedia](https://en.wikipedia.org/wiki/Computational_complexity)
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Computational_complexity)</cite>

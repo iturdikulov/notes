@@ -21,4 +21,4 @@ tags:
 > that determines the amount of time the photosensitive surface is exposed to
 > the light.
 >
-> -- [Wikipedia](https://en.wikipedia.org/wiki/Camera)
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Camera)</cite>

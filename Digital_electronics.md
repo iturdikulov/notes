@@ -18,7 +18,7 @@ tags:
 > gates, often packaged in integrated circuits. Complex devices may have simple
 > electronic representations of Boolean logic functions.
 >
-> -- [Wikipedia](https://en.wikipedia.org/wiki/Digital_electronics)
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Digital_electronics)</cite>
 
 ## Resources
 

@@ -22,7 +22,7 @@ tags:
 > imagery (CGI). The non-artistic aspects of computer graphics are the subject
 > of [[Computer_science|computer_science]] research.
 >
-> -- [Wikipedia](https://en.wikipedia.org/wiki/Computer_graphics)
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Computer_graphics)</cite>
 
 <video src="file:///home/inom/Projects/main/wiki/video/Inside_the_Original_iPod_hTpcOmlvCEQ.mp4" width=380 controls></video>
 

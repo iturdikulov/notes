@@ -16,7 +16,7 @@ tags:
 > most commonly represented as either "1" or "0", but other representations such
 > as true/false, yes/no, on/off, or +/− are also widely used.
 >
-> -- [Wikipedia](https://en.wikipedia.org/wiki/Bit)
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Bit)</cite>
 
 ## TODO
 

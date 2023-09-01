@@ -19,4 +19,4 @@ tags:
 > allows organisms to move, grow, and reproduce. Finally, all organisms are able
 > to regulate their own internal environments.
 >
-> -- [Wikipedia](https://en.wikipedia.org/wiki/Biology)
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Biology)</cite>

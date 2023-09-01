@@ -23,7 +23,7 @@ tags:
 > contestants (who can vary in number from tens or even hundreds to several
 > thousands).
 >
-> -- [Wikipedia](https://en.wikipedia.org/wiki/Competitive_programming)
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Competitive_programming)</cite>
 
 I'm using right now [leetcode](https://leetcode.com/), my problem list stored in
 competitive project (TODO add).

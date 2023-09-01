@@ -28,4 +28,4 @@ tags:
 > [[Computer_graphics]] (both hardware and software), and discrete differential
 > geometry.
 >
-> -- [Wikipedia](https://en.wikipedia.org/wiki/Computer-aided_design)
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Computer-aided_design)</cite>
