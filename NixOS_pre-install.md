@@ -37,14 +37,17 @@ ssh -o PubkeyAuthentication=no -o PreferredAuthentications=password root@192.168
 
 Identify devices
 ```sh
-fdisk -l
-ls -l /dev/disk/by-id
+lsblk
+
+# in my case disks are: nvme0n1 nvme1n1, which located at:
+# /dev/nvme0n1
+# /dev/nvme1n1
 
 # Configure disk drives
 # You can get the UUIDs by running
 # change sda/sdb to your disk
-export DD1="/dev/sda"
-export DD2="/dev/sdb"
+export DD1="/dev/nvme0n1"
+export DD2="/dev/nvme1n1"
 
 # Output of 2 commands bellow must OK
 test -e "$DD1" && echo OK
@@ -57,10 +60,6 @@ test -e "$DD2" && echo OK
 ## 1. Initialize GPT partitions
 
 ```sh
-# Cleanup old partition information
-sgdisk --zap-all $DD1 &
-sgdisk --zap-all $DD2
-
 # One pass secure delete all data,
 # with entropy from e.g. /dev/urandom,
 # and a final overwrite with zeros.
@@ -70,6 +69,12 @@ shred --verbose --random-source=/dev/urandom -n1 --zero $DD2
 # less secure methods
 # or blkdiscard -s $DD...
 # or dd if=/dev/zero of=/dev/sdX bs=100M ... pv /dev/zero > /dev/sdX
+
+# Cleanup old partition information
+# if exist!
+sgdisk --zap-all $DD1 &
+sgdisk --zap-all $DD2
+
 
 # Create GPT partitons
 printf "label: gpt\n,550M,U\n,,L\n" | sfdisk $DD1
