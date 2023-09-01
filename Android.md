@@ -19,7 +19,14 @@ tags:
 > — <cite>[Simple English Wikipedia
 ](https://simple.wikipedia.org/wiki/Android_(operating_system))</cite>
 
-I use android daily on my smartphone and tablet. But I'm trying to keep it
-simple and minimalistic.
+I use android on daily-basis with smartphone and tablet. But I'm trying to keep
+it simple and minimalistic.
 
-My apps: [[My_awesome_software_list#android]]
+I store list of useful software in [[My_awesome_software_list#Android|my software list]].
+
+I also need sync data between my working machine and android devices. There 2
+ways to sync data which I usually use:
+
+1. Mount android device using `mounter` script, which assigned to `<MOD-C-m>` in
+   [[DWM]]. And rsync data: `rsync -r <source> <destination>`.
+2. Complex setup, using [[Syncthing]]
