@@ -24,6 +24,9 @@ tags:
 
 ## Create/mount encrypted file container
 
+If you create new container from scratch, after cryptsetup open, create FS (ext4 no journal in example):
+`mke2fs -t ext4 -O ^has_journal /dev/mapper/encrypted_change_name`
+
 ```sh
 # Redirect output of /dev/zero to initialize container file
 dd if=/dev/zero bs=1M count=100 of=encrypted_change_name.img
