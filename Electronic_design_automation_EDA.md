@@ -21,4 +21,4 @@ tags:
 > particular describes EDA specifically with respect to integrated circuits
 > (ICs).
 >
-> -- [Wikipedia](https://en.wikipedia.org/wiki/Electronic_design_automation)
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Electronic_design_automation)</cite>

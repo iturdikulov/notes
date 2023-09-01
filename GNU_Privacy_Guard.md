@@ -29,7 +29,7 @@ tags:
 > The GnuPG 1.x series uses an integrated cryptographic library, while the GnuPG
 > 1.x series replaces this with Libgcrypt.
 >
-> -- [Wikipedia](https://en.wikipedia.org/wiki/GNU_Privacy_Guard)
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/GNU_Privacy_Guard)</cite>
 
 ## Subkeys Usage
 

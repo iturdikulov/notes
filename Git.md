@@ -16,7 +16,7 @@ people create other computer program together.
 
 > Git is a free and open source distributed version control system designed to
 > handle everything from small to very large projects with speed and efficiency.
-> -- <https://git-scm.com/>
+> — <cite><https://git-scm.com/></cite>
 
 Git is useful to work with code without fear, you can experiment with code, use
 multiple branches as features tree, if your decision was incorrect, you can

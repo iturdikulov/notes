@@ -16,7 +16,7 @@ tags:
 > of the call, allowing one function call to perform different tasks depending
 > on context.
 >
-> -- [Wikipedia](https://en.wikipedia.org/wiki/Function_overloading)
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Function_overloading)</cite>
 
 ## Example in C++
 

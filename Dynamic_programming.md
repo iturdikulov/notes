@@ -23,7 +23,7 @@ tags:
 > breaking it into sub-problems and then recursively finding the optimal
 > solutions to the sub-problems, then it is said to have optimal substructure.
 >
-> -- [Wikipedia](https://en.wikipedia.org/wiki/Dynamic_programming)
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Dynamic_programming)</cite>
 
 > Dynamic programming is a method of solving problems, which is used in computer
 > science, mathematics and economics. Using this method, a complex problem is
@@ -34,4 +34,4 @@ tags:
 > Dynamic programming can be used in cases where it is possible to split a
 > problem into smaller problems, which are all quite similar.
 >
-> -- [Wikipedia in Simple English](https://simple.wikipedia.org/wiki/Dynamic_programming)
+> — <cite>[Wikipedia in Simple English](https://simple.wikipedia.org/wiki/Dynamic_programming)</cite>

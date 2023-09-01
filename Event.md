@@ -19,4 +19,4 @@ tags:
 > have one or more dedicated places where events are handled, frequently an
 > event loop.
 >
-> -- [Wikipedia](https://en.wikipedia.org/wiki/Event_\(computing\))
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Event_\(computing\))</cite>

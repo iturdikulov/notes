@@ -19,4 +19,4 @@ tags:
 > force particles that mediate interactions among fermions. A particle
 > containing two or more elementary particles is a composite particle.
 >
-> -- [Wikipedia](https://en.wikipedia.org/wiki/Elementary_particle)
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Elementary_particle)</cite>

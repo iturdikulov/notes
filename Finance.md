@@ -19,7 +19,7 @@ tags:
 > - As a verb, "to finance" is to provide money for business
 > - Any system that includes circulation of money. --
 >
-> -- [Simple English Wikipedia](https://simple.wikipedia.org/wiki/Finance)
+> — <cite>[Simple English Wikipedia](https://simple.wikipedia.org/wiki/Finance)</cite>
 
 ## Resources
 

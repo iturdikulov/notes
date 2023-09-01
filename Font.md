@@ -16,7 +16,7 @@ tags:
 > font is a matched set of type, with a piece (a "sort") for each glyph. A
 > typeface consists of various fonts that share an overall design.
 >
-> -- [Font - Wikipedia](https://en.wikipedia.org/wiki/Font)
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Font)</cite>
 
 I keep storing [[My_favorite_fonts|fonts]], which I use daily or which looks
 great for me.

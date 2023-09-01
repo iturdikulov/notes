@@ -19,7 +19,7 @@ tags:
 > network protocols. The Domain Name System has been an essential component of
 > the functionality of the Internet since 1985.
 >
-> -- [Wikipedia](https://en.wikipedia.org/wiki/Domain_Name_System)
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Domain_Name_System)</cite>
 
 ## How a website found on the internet
 

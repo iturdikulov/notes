@@ -15,7 +15,7 @@ tags:
 > implementations for many of the basic tools, such as cat, ls, and rm, which
 > are used on [[Unix|unix]]-like operating systems.
 >
-> -- [Wikipedia](https://en.wikipedia.org/wiki/GNU_Core_Utilities)
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/GNU_Core_Utilities)</cite>
 
 Here I store basic coreutils and similar tools that I use on a daily basis.
 

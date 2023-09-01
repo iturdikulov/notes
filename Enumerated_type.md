@@ -36,4 +36,4 @@ tags:
 > whether their actual values were significant. These magic numbers could make
 > the source code harder for others to understand and maintain.
 >
-> -- [Wikipedia](https://en.wikipedia.org/wiki/Enumerated_type)
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Enumerated_type)</cite>

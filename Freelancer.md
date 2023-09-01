@@ -23,7 +23,7 @@ tags:
 > film and video production, and other forms of piece work that some cultural
 > theorists consider central to the cognitive-cultural economy.
 >
-> -- [Wikipedia](https://en.wikipedia.org/wiki/Freelancer)
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Freelancer)</cite>
 
 ## Resources
 

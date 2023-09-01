@@ -20,7 +20,7 @@ tags:
 > In practice, most floating-point systems use base two, though base ten
 > (decimal floating point) is also common.
 >
-> -- [Wikipedia](https://en.wikipedia.org/wiki/Floating-point_arithmetic)
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Floating-point_arithmetic)</cite>
 
 Base two floating pointing is used by default and can produce rounding errors.
 
