@@ -13,8 +13,7 @@ tags:
 > There are **three types** of lists: unordered lists, ordered lists, and
 > description lists (a.k.a. definition lists or association lists). Ordered
 > (numbered) lists should usually be used only for list items that should be in
-> a specific order, such as steps in a cooking recipe.
->
+> a specific order, such as steps in a cooking recipe.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Help:List)</cite>
 
 ## Examples

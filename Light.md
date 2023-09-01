@@ -26,6 +26,5 @@ tags:
 > [[Elementary_particle|elementary_particles]] called photons that represents
 > the quanta of electromagnetic field, and can be analyzed as both waves and
 > particles. The study of light, known as optics, is an important research area
-> in modern physics.
->
+> in modern physics.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Visible_light)</cite>

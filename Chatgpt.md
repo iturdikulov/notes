@@ -16,8 +16,7 @@ tags:
 >
 > We are excited to introduce ChatGPT to get users’ feedback and learn about its
 > strengths and weaknesses. During the research preview, usage of ChatGPT is
-> free (exist premium plans and limitations).
->
+> free (exist premium plans and limitations).\
 > — <cite>[OpenAI](https://openai.com/blog/chatgpt)</cite>
 
 Live demo is [here](https://chat.openai.com/).

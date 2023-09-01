@@ -16,8 +16,7 @@ tags:
 > to Lineage and is set 150 years before the first game. It has become popular
 > since its October 1, 2003 launch in South Korea, reporting 1,000,918 unique
 > users during the month of March 2007. To date, the game has been played by
-> more than 14 million users, most of whom are based in Asia.
->
+> more than 14 million users, most of whom are based in Asia.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Lineage_II)</cite>
 
 Lineage II adopted a free-to-play model in Lineage II: Goddess of Destruction,

@@ -11,8 +11,7 @@ tags:
 # Truncation
 
 > Limiting the number of digits right of the decimal point by discarding the
-> least significant ones.
->
+> least significant ones.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Truncation)</cite>
 
 Usually you can see truncation when dividing two integers. For example, `5/2` is

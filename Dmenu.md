@@ -13,8 +13,7 @@ tags:
 dmenu (dynamic menu for X)
 
 > dmenu is a dynamic menu for X, originally designed for dwm. It manages large
-> numbers of user-defined menu items efficiently.
->
+> numbers of user-defined menu items efficiently.\
 > — <cite>[dmenu](https://tools.suckless.org/dmenu/)</cite>
 
 I widely use dmenu in my scripts, which linked with my global shortcuts. It's

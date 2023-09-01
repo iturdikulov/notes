@@ -26,6 +26,5 @@ tags:
 > wireless communication protocols (such as Bluetooth, Wi-Fi, or satellite
 > navigation). More recently, smartphone manufacturers have begun to integrate
 > satellite messaging connectivity and satellite emergency services into devices
-> for use in remote regions where there is no reliable cellular network.
->
+> for use in remote regions where there is no reliable cellular network.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Smartphone)</cite>

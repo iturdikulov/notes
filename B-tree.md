@@ -16,8 +16,7 @@ tags:
 > binary search tree, allowing for nodes with more than two children. Unlike
 > other self-balancing binary search trees, the B-tree is well suited for
 > storage systems that read and write relatively large blocks of data, such as
-> databases and file systems.
->
+> databases and file systems.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/B-tree)</cite>
 
 ```

@@ -9,8 +9,7 @@ tags:
 # Vimium - The Hacker's Browser
 
 > Vimium is a browser extension that provides keyboard-based navigation and
-> control of the web in the spirit of the Vim editor.
->
+> control of the web in the spirit of the Vim editor.\
 > — <cite>[Vimium](https://vimium.github.io/)</cite>
 
 **Installation instructions:**

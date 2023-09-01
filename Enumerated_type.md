@@ -34,6 +34,5 @@ tags:
 > These arbitrary values were sometimes referred to as magic [[Number|numbers]]
 > since there often was no explanation as to how the numbers were obtained or
 > whether their actual values were significant. These magic numbers could make
-> the source code harder for others to understand and maintain.
->
+> the source code harder for others to understand and maintain.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Enumerated_type)</cite>

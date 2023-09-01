@@ -14,8 +14,7 @@ tags:
 > the same name with different implementations. Calls to an overloaded function
 > will run a specific implementation of that function appropriate to the context
 > of the call, allowing one function call to perform different tasks depending
-> on context.
->
+> on context.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Function_overloading)</cite>
 
 ## Example in C++

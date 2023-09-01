@@ -19,6 +19,5 @@ tags:
 > Cameras have various mechanisms to control how light falls onto the
 > light-sensitive surface, including lenses that focus the light and a shutter
 > that determines the amount of time the photosensitive surface is exposed to
-> the light.
->
+> the light.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Camera)</cite>

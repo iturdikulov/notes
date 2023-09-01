@@ -21,8 +21,7 @@ tags:
 > music, writing, acting, [[Computer_programming|computer_programming]], web
 > design, [[Computer_graphics|graphic]] design, translating and illustrating,
 > film and video production, and other forms of piece work that some cultural
-> theorists consider central to the cognitive-cultural economy.
->
+> theorists consider central to the cognitive-cultural economy.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Freelancer)</cite>
 
 ## Resources

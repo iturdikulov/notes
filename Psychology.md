@@ -19,8 +19,7 @@ tags:
 > psychologists aim to understand the behavior of individuals and groups.
 >
 > Ψ (psi), the first letter of the Greek word psyche from which the term
-> psychology is derived, is commonly associated with the science.
->
+> psychology is derived, is commonly associated with the science.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Psychology)</cite>
 
 > Psychology is the study of the mind. It studies thoughts, feelings, and

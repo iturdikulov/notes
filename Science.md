@@ -11,8 +11,7 @@ tags:
 # Science
 
 > **Systematic endeavor** that builds and organizes **knowledge** in the form of
-> testable explanations and predictions about the universe.
->
+> testable explanations and predictions about the universe.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Science)</cite>
 
 > ## Scientific method
@@ -32,3 +31,4 @@ tags:
 > might be revised if we find out the previous solution was not good enough.
 >
 > In other words science is what we do to find out about the natural world.
+> TODO: add link

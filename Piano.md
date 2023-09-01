@@ -17,8 +17,7 @@ tags:
 > using its keyboard, which is a row of keys (small levers) touched by the
 > performer with the fingers and thumbs of both hands, causing the hammers to
 > strike the strings. It was invented in Italy by Bartolomeo Cristofori around
-> the year 1700.
->
+> the year 1700.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Piano)</cite>
 
 ## Resources

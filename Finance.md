@@ -17,8 +17,7 @@ tags:
 > - Thinking about how to control money to make profit
 > - Studying how to take chances in projects that make money
 > - As a verb, "to finance" is to provide money for business
-> - Any system that includes circulation of money. --
->
+> - Any system that includes circulation of money.\
 > — <cite>[Simple English Wikipedia](https://simple.wikipedia.org/wiki/Finance)</cite>
 
 ## Resources

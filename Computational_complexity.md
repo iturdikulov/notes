@@ -15,6 +15,5 @@ tags:
 > is given to [[Time_complexity|computation_time]](generally measured by the
 > number of needed elementary operations) and memory storage requirements. The
 > complexity of a problem is the complexity of the best algorithms that allow
-> solving the problem.
->
+> solving the problem.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Computational_complexity)</cite>

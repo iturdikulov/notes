@@ -14,8 +14,7 @@ tags:
 > different media: word of mouth, printing, postal systems, broadcasting,
 > **electronic communication**, or through the testimony of observers and
 > witnesses to events. News is sometimes called "hard news" to differentiate it
-> from soft media
->
+> from soft media.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/News)</cite>
 
 My main news provider is [[Newsboat]]

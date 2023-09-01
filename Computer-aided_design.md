@@ -26,6 +26,5 @@ tags:
 >
 > CAD has been a major driving force for research in computational geometry,
 > [[Computer_graphics]] (both hardware and software), and discrete differential
-> geometry.
->
+> geometry.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Computer-aided_design)</cite>

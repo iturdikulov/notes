@@ -13,8 +13,7 @@ tags:
 
 > An article or piece is a written work published in a print or electronic
 > medium. It may be for the purpose of propagating news, research results,
-> academic analysis, or debate.
->
+> academic analysis, or debate.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Article)</cite>
 
 Here I store all unread/read articles, by category. Some will have own notes,

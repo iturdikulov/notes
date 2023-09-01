@@ -32,8 +32,7 @@ tags:
 > so-called “functions” which can be executed manually (using the command line)
 > or in macros. Macros allow the user to bind a sequence of commands to a single
 > key or a short key sequence instead of repeating a sequence of actions over
-> and over.
->
+> and over.\
 > — <cite>[NeoMutt Manual](https://neomutt.org/guide/)</cite>
 
 Show key bindings

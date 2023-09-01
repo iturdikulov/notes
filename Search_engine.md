@@ -17,8 +17,7 @@ tags:
 > often referred to as search engine results pages (SERPs). When a user enters a
 > query into a search engine, the engine scans its index of web pages to find
 > those that are relevant to the user's query. The results are then ranked by
-> relevancy and displayed to the user.
->
+> relevancy and displayed to the user.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Search_engine)</cite>
 
 ## My search engines list

@@ -16,8 +16,7 @@ tags:
 > Programs for Android, also called "apps" (short for applications), usually
 > come from the Google Play Store. The Android programs have a file extension of
 > .APK.\
-> — <cite>[Simple English Wikipedia
-](https://simple.wikipedia.org/wiki/Android_(operating_system))</cite>
+> — <cite>[Simple English Wikipedia](https://simple.wikipedia.org/wiki/Android_(operating_system))</cite>
 
 I use android on daily-basis with smartphone and tablet. But I'm trying to keep
 it simple and minimalistic.

@@ -19,8 +19,7 @@ tags:
 > keyboard (the home row) and having them reach for specific other keys. (Under
 > this usage, typists who do not look at the keyboard but do not use home row
 > either are referred to as hybrid typists.) Both two-handed touch typing and
-> one-handed touch typing are possible.
->
+> one-handed touch typing are possible.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Touch_typing)</cite>
 
 Useful article to improve typing speed:

@@ -10,7 +10,7 @@ tags:
 # Nohup
 
 > nohup - run a command immune to hangups, with output to a non-tty.\
-> — <cite>man nohup</cite>
+> — <cite>`man nohup`</cite>
 
 Nohup allow running a command immune to hangups, with output to a non-tty. It's
 useful when I want to "[[Daemon|daemonize]]" a process.

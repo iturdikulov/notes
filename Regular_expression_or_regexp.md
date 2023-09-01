@@ -14,6 +14,5 @@ tags:
 > patterns are used by string-searching algorithms for "find" or "find and
 > replace" operations on strings, or for input validation. Regular expression
 > techniques are developed in theoretical [[Computer_science]] and formal
-> language theory.
->
+> language theory.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Regular_expression)</cite>

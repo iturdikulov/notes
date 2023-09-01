@@ -17,8 +17,7 @@ tags:
 >
 > The concept of a map is not limited to lists: it works for sequential
 > containers, tree-like containers, or even abstract containers such as futures
-> and promises.
->
+> and promises.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Map_\(higher-order_function\))</cite>
 
 Python example:

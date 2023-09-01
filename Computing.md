@@ -16,8 +16,8 @@ tags:
 > software. Computing has scientific, engineering, [[Mathematics|mathematical]],
 > technological and social aspects. Major computing disciplines include computer
 > engineering, [[Computer_science|computer_science]], cybersecurity, data
-> science, information systems, information technology and software engineering.
->
+> science, information systems, information technology and software
+> engineering.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Computing)</cite>
 
 ![Computer simulation, one of the main cross-computing methodologies.](GalvesLocherbach_-_High_Resolution.gif)

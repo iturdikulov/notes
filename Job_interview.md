@@ -18,8 +18,7 @@ tags:
 > conversation to a structured interview in which an applicant is asked a
 > predetermined list of questions in a specified order; structured interviews
 > are usually more accurate predictors of which applicants will make suitable
-> employees, according to research studies.
->
+> employees, according to research studies.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Interview)</cite>
 
 I think good job is way to obtain better [[In_real_life_IRL|life]]. And of

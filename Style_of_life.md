@@ -18,8 +18,7 @@ tags:
 > repetitive way of responding to (or avoiding) the main tasks of living:
 > friendship, love, and work. This style, rooted in a childhood prototype,
 > remains consistent throughout life, unless it is changed through depth
-> psychotherapy.
->
+> psychotherapy.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Style_of_life)</cite>
 
 ## Resources

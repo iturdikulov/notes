@@ -12,6 +12,5 @@ tags:
 
 > System of notation for writing [[Computer_program]]'s. Most programming
 > languages are text-based formal languages, but they may also be graphical.
-> They are a kind of [[Computer]] language.
->
+> They are a kind of [[Computer]] language.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Programming_language)</cite>

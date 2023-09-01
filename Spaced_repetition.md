@@ -14,8 +14,7 @@ tags:
 > older and easier to remember is shown less frequently.
 >
 > This is done to take advantage of the spacing effect which can be a better way
-> and quicker way to learn and keep information.
->
+> and quicker way to learn and keep information.\
 > — <cite>[Simple English Wikipedia](https://simple.wikipedia.org/wiki/Spaced_repetition)</cite>
 
 Right now I'm using [[Obsidian]] plugin

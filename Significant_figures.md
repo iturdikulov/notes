@@ -25,6 +25,5 @@ tags:
 > significant figures. Digits which are uncertain but reliable are also
 > considered significant figures. In this example, the last digit (8, which adds
 > 0.8 mm) is also considered a significant figure even though there is
-> uncertainty in it.
->
+> uncertainty in it.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Significant_figures)</cite>

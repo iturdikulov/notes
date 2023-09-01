@@ -15,8 +15,7 @@ tags:
 > scripting languages. Typical operations performed by shell scripts include
 > file manipulation, program execution, and printing text. A script which sets
 > up the environment, runs the program, and does any necessary cleanup or
-> logging, is called a wrapper.
->
+> logging, is called a wrapper.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Shell_script)</cite>
 
 I personally [[My_shell_scripts|use]] a lot of shell scripts, mainly for simple

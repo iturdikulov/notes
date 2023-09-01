@@ -13,8 +13,7 @@ tags:
 > A mobile [[Computer_network|network]] operator, also known as a wireless
 > service provider, wireless carrier, cellular company, or mobile network
 > carrier, is a provider of wireless communications services that owns or
-> controls
->
+> controls.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Mobile_network_operator)</cite>
 
 ## Resources

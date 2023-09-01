@@ -29,6 +29,5 @@ tags:
 > complex, but are nonetheless often akin to traditional hardware instructions:
 > virtual stack machines are the most common, but virtual register machines have
 > been built also. Different parts may often be stored in separate files,
-> similar to object modules, but dynamically loaded during execution.
->
+> similar to object modules, but dynamically loaded during execution.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Bytecode)</cite>

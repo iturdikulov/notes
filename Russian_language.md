@@ -21,11 +21,10 @@ tags:
 > in the Baltic states and Israel.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Russian_language)</cite>
 
-## Learning resources
+## Resources
 
-- [Русский язык | Е. И. Литневская Русский язык: краткий теоретический курс для
-школьников](http://gramota.ru/book/litnevskaya.php)
-- <http://gramota.ru/book/litnevskaya.php>
+- [Е. И. Литневская Русский язык: краткий теоретический курс для школьников](http://gramota.ru/book/litnevskaya.php)
+- [gramota.ru book](http://gramota.ru/book/litnevskaya.php)
 - [gramota.ru](http://new.gramota.ru/)
 - [videotutor-rusyaz.ru](https://videotutor-rusyaz.ru/uchenikam/teoriya.html)
 - [morphologyonline.ru](https://morphologyonline.ru/chasti-rechi.html)

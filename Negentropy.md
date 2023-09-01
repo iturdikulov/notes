@@ -13,8 +13,7 @@ tags:
 > Negentropy is reverse entropy. It means things becoming more in order. By
 > 'order' is meant organization, structure and function: the opposite of
 > randomness or chaos. One example of negentropy is a star system such as the
-> Solar System. Another example is life.
->
+> Solar System. Another example is life.\
 > — <cite>[Simple English Wikipedia](https://simple.wikipedia.org/wiki/Negentropy)</cite>
 
 I store tasks, which I need to check constantly, in this file. This helps me to

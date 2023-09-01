@@ -16,6 +16,5 @@ tags:
 >
 > - **Push**, which adds an element to the collection, and
 > - **Pop**, which removes the most recently added element that was not yet
->   removed.
->
+>   removed.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Stack_\(abstract_data_type\))</cite>

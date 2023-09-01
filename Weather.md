@@ -24,8 +24,7 @@ tags:
 > [[In_real_life_IRL|life]] and property. Forecasts based on temperature and
 > precipitation are important to agriculture, and therefore to commodity traders
 > within stock markets. Temperature forecasts are used by utility companies to
-> estimate demand over coming days.
->
+> estimate demand over coming days.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Weather)</cite>
 
 ## Resources

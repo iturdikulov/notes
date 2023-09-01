@@ -12,6 +12,5 @@ tags:
 > particular programming style will help
 > [[Programmer|programmers]] read and understand
 > [[Source_code|source_code]] conforming to the style, and help to avoid
-> introducing errors.
->
+> introducing errors.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Programming_style)</cite>

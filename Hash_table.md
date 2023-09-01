@@ -21,8 +21,7 @@ tags:
 > Ideally, the hash function will assign each key to a unique bucket, but most
 > hash table designs employ an imperfect hash function, which might cause hash
 > collisions where the hash function generates the same index for more than one
-> key. Such collisions are typically accommodated in some way.
->
+> key. Such collisions are typically accommodated in some way.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Hash_table)</cite>
 
 | Algorithm | Average | Worst case |

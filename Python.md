@@ -47,17 +47,16 @@ tags:
 > tradition. It has `filter`, `map` and `reduce` functions; list comprehensions,
 > dictionaries, sets, and generator expressions. The standard library has two
 > modules (itertools and functools) that implement functional tools borrowed
-> from Haskell and Standard ML.
->
+> from Haskell and Standard ML.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Python_\(programming_language\))</cite>
 
-[[Zen_of_python]] describes the philosophy of Python.
+[[Zen_of_python|Zen of python]] describes the philosophy of Python.
 
 This is most prioritized language for me. I learn it according to my
-[[My_python_developer_roadmap]].
+[[My_python_developer_roadmap|roadmap]].
 
-**Python**  is a [[High-level_programming_language|high-level]],
-[[General-purpose_programming_language]].
+**Python** is a [[High-level_programming_language|high-level]],
+[[General-purpose_programming_language|general-purpose]] programming language.
 
 One of key features of Python is attention to [[Readability]], by using
 indentation to delimit code blocks, rather than curly brackets or keywords.

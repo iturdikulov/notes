@@ -12,5 +12,3 @@ tags:
 > designed to make typing more comfortable. The resulting layout is commonly
 > known as Colemak-DH.\
 > — <cite>[Colemak Mod-DH](https://colemakmods.github.io/mod-dh/)</cite>
-
-

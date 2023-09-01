@@ -16,8 +16,7 @@ tags:
 >
 > Digital electronic circuits are usually made from large assemblies of logic
 > gates, often packaged in integrated circuits. Complex devices may have simple
-> electronic representations of Boolean logic functions.
->
+> electronic representations of Boolean logic functions.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Digital_electronics)</cite>
 
 ## Resources

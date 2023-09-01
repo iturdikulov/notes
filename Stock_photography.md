@@ -16,8 +16,7 @@ tags:
 > photography, and microstock photography. Professional stock photographers
 > traditionally place their images with one or more stock agencies on a
 > contractual basis, while stock agencies may accept the high-quality photos of
-> amateur photographers through online submission.
->
+> amateur photographers through online submission.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Stock_photography)</cite>
 
 ## Resources

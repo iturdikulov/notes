@@ -27,8 +27,7 @@ tags:
 > situations in which a different tensor can occur at each point of an object;
 > for example the stress within an object may vary from one location to another.
 > This leads to the concept of a tensor field. In some areas, tensor fields are
-> so ubiquitous that they are often simply called "tensors".
->
+> so ubiquitous that they are often simply called "tensors".\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Tensor)</cite>
 
 TODO: add images/simpler explanation TODO: watch

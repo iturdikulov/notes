@@ -25,8 +25,7 @@ tags:
 > initial peer-to-peer file download is started, peer-to-peer communication can
 > continue without the connection to a tracker.
 >
-> Tracker can be public or private.
->
+> Tracker can be public or private.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/BitTorrent_tracker)</cite>
 
 ## Resources

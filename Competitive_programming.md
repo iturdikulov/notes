@@ -21,8 +21,7 @@ tags:
 > A programming competition generally involves the host presenting a set of
 > logical or mathematical problems, also known as puzzles or challenges, to the
 > contestants (who can vary in number from tens or even hundreds to several
-> thousands).
->
+> thousands).\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Competitive_programming)</cite>
 
 I'm using right now [leetcode](https://leetcode.com/), my problem list stored in

@@ -20,8 +20,7 @@ tags:
 > [[Internet_Relay_Chat-IRC|IRC-style]] features such as persistent chat rooms
 > (channels) organized by topic, private groups, and direct messaging. In
 > addition to these online communication features, Slack can integrate with
-> other software.
->
+> other software.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Slack_\(software\))</cite>
 
 One of my main communication tools with my colleagues.

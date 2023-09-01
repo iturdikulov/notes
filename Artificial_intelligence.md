@@ -36,17 +36,14 @@ Sort of [[Computer_program|program]] which mimics human cognition.
 > - Perception
 > - Social intelligence
 > - General intelligence
->
-> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Artificial_intelligence)</cite>
+> — <cite>[Artificial intelligence](https://en.wikipedia.org/wiki/Artificial_intelligence)</cite>
 
 > An extreme goal of AI research is to create computer programs that can learn,
 > solve problems, and think logically. In practice, however, most applications
 > have picked on problems which computers can do well. Searching databases and
 > doing calculations are things computers do better than people. On the other
 > hand, "perceiving its environment" in any real sense is way beyond present-day
-> computing.
->
-> --
+> computing.\
 > [Simple English Wikipedia](https://simple.wikipedia.org/wiki/Artificial_intelligence)
 
 ## Resources

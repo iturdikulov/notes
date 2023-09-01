@@ -21,12 +21,12 @@ tags:
 > A combination of extremely high-speed cryptographic primitives and the fact
 > that WireGuard lives inside the [[Linux|linux]] kernel means that secure
 > networking can be very high-speed. It is suitable for both small embedded
-> devices like [[Smartphone|smartphones]] and fully loaded backbone routers.
->
+> devices like [[Smartphone|smartphones]] and fully loaded backbone routers.\
 > — <cite>[WireGuard](https://www.wireguard.com/)</cite>
 
 ## Connecting to WireGuard
 
+TODO: review this
 I wrote special [script](file:///home/inom/.local/bin/wg-toggle.sh):
 `wg-toggle.sh` which allows me quickly toggle between WireGuard configuration
 (up/down).

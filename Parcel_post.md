@@ -15,8 +15,7 @@ tags:
 > post is closely connected with the development of the railway network which
 > enabled parcels to be carried in bulk, to a regular schedule and at economic
 > prices. Today, many parcels also travel by road and international shipments
-> may travel by sea or airmail.
->
+> may travel by sea or airmail.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Parcel_post)</cite>
 
 I use it very often in my [[In_real_life_IRL|life]].

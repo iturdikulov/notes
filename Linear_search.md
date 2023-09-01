@@ -24,8 +24,7 @@ tags:
 > Linear search is rarely practical because other
 > [[Search_algorithm|search_algorithms]] and schemes, such as the
 > [[Binary_search_algorithm]] and [[Hash_table]], allow significantly faster
-> searching for all but short lists.
->
+> searching for all but short lists.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Linear_search)</cite>
 
 Linear search usually inefficient. For example, if we have a list of 1000

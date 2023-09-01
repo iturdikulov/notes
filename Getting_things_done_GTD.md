@@ -17,8 +17,7 @@ tags:
 >
 > The Getting Things Done method follows a simple rule: by writing down all
 > tasks your mind is free to focus on the task at hand. In this way, the mind
-> does not have to remember all the things he still has to do.
->
+> does not have to remember all the things he still has to do.\
 > — <cite>[Wikipedia in Simple English](https://simple.wikipedia.org/wiki/Getting_Things_Done)</cite>
 
 I like ideas of GTD productivity system. I not read the book, but I use daily

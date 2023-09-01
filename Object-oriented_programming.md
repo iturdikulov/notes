@@ -13,8 +13,7 @@ tags:
 > Way of writing computer programs using "objects" to stand for data and
 > methods. Often, computer programs that are not object-oriented are a list of
 > instructions for the computer, telling it to do certain things in a certain
-> way.
->
+> way.\
 > — <cite>[Wikipedia](https://simple.wikipedia.org/wiki/Object-oriented_programming)</cite>
 
 Be careful, OOP can produce a lot of boilerplate code. It's not always the best

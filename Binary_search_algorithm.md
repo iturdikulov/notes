@@ -18,8 +18,7 @@ tags:
 > the search continues on the remaining half, again taking the middle element to
 > compare to the target value, and repeating this until the target value is
 > found. If the search ends with the remaining half being empty, the target is
-> not in the array.
->
+> not in the array.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Binary_search_algorithm)</cite>
 
 | Property                    | Value            |

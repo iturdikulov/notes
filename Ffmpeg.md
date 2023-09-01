@@ -17,8 +17,7 @@ tags:
 > community or a corporation. It is also highly portable: FFmpeg compiles, runs,
 > and passes our testing infrastructure FATE across Linux, Mac OS X, Microsoft
 > Windows, the BSDs, Solaris, etc. under a wide variety of build environments,
-> machine architectures, and configurations.
->
+> machine architectures, and configurations.\
 > — <cite>[FFmpeg](https://ffmpeg.org/about.html)</cite>
 
 I widely use FFmpeg in various wrappres and sometimes directly. Best example is

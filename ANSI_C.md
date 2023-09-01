@@ -17,8 +17,7 @@ tags:
 > Electrotechnical Commission (IEC). Historically, the names referred
 > specifically to the original and best-supported version of the standard (known
 > as C89 or C90). Software developers writing in C are encouraged to conform to
-> the standards, as doing so helps portability between compilers.
->
+> the standards, as doing so helps portability between compilers.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/ANSI_C)</cite>
 
 Latest standard:

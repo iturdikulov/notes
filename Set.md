@@ -14,8 +14,8 @@ tags:
 > Abstract data type that can store unique values, without any particular order.
 > It is a computer implementation of the mathematical concept of a finite set.
 > Unlike most other collection types, rather than retrieving a specific element
-> from a set, one typically tests a value for membership in a set.
-> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Set_\(abstract_data_type\)</cite>
+> from a set, one typically tests a value for membership in a set.\
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Set_\(abstract_data_type\))</cite>
 
 So main set feature is that it can store ==only unique values==.
 <!--SR:!2023-07-22,3,259-->

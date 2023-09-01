@@ -39,6 +39,5 @@ tags:
 >
 > This simple separation can be found in most [[My_read_books|collections]],
 > [[Library|libraries]], and bookstores. There are other types such as books of
-> sheet music.
->
+> sheet music.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Book)</cite>

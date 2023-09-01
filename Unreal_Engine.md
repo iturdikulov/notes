@@ -17,8 +17,7 @@ tags:
 > variety of genres of games and has seen adoption by other industries, most
 > notably the film and television industry. Unreal Engine is written in C++ and
 > features a high degree of portability, supporting a wide range of desktop,
-> mobile, console, and virtual reality platforms.
->
+> mobile, console, and virtual reality platforms.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Unreal_Engine)</cite>
 
 ## Usage

@@ -13,8 +13,7 @@ tags:
 
 > Mechanism for creating a secure connection between a computing device and a
 > [[Computer_network|computer_network]], or between two networks, using an
-> insecure communication medium such as the public [[Internet|internet]].
->
+> insecure communication medium such as the public [[Internet|internet]].\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Virtual_private_network)</cite>
 
 ## Resources

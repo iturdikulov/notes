@@ -18,8 +18,7 @@ tags:
 >
 > Many utilities are essential for human [[In_real_life_IRL|life]], national
 > defense, or commerce, and the risk of public harm with mismanagement is
-> considerably greater than with other goods.
->
+> considerably greater than with other goods.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Public_utility)</cite>
 
 ## Resources

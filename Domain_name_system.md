@@ -17,8 +17,7 @@ tags:
 > translates readily memorized domain names to the numerical IP addresses needed
 > for locating and identifying computer services and devices with the underlying
 > network protocols. The Domain Name System has been an essential component of
-> the functionality of the Internet since 1985.
->
+> the functionality of the Internet since 1985.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Domain_Name_System)</cite>
 
 ## How a website found on the internet

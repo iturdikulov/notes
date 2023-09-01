@@ -16,8 +16,7 @@ tags:
 > [[Computational_complexity|efficiency]] of other algorithms (such as search
 > and merge algorithms) that require input data to be in sorted lists. Sorting
 > is also often useful for canonicalizing data and for producing human-readable
-> output.
->
+> output.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Sorting_algorithm)</cite>
 
 ## Resources

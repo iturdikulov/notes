@@ -15,9 +15,8 @@ tags:
 > Nvim is based on Vim by Bram Moolenaar.
 >
 > Nvim is emphatically a fork of Vim, not a clone: compatibility with Vim
-> (especially editor and Vimscript features) is maintained where possible.
->
-> — <cite>`:help neovim`</cite>
+> (especially editor and Vimscript features) is maintained where possible.\
+> — <cite>`:help nvim`</cite>
 
 Enable logs - `nvim -V10nvim.log`
 

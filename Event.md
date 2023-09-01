@@ -17,6 +17,5 @@ tags:
 > [[Operating_system|system]], by the user, or in other ways. Typically, events
 > are handled synchronously with the program flow; that is, the software may
 > have one or more dedicated places where events are handled, frequently an
-> event loop.
->
+> event loop.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Event_\(computing\))</cite>

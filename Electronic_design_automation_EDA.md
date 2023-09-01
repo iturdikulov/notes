@@ -19,6 +19,5 @@ tags:
 > semiconductor chips. Since a modern semiconductor chip can have billions of
 > components, EDA tools are essential for their design; this article in
 > particular describes EDA specifically with respect to integrated circuits
-> (ICs).
->
+> (ICs).\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Electronic_design_automation)</cite>

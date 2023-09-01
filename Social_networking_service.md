@@ -13,8 +13,7 @@ tags:
 > Online platform which people use to build social networks or social
 > relationships with other people who share similar personal or career content,
 > interests, activities, backgrounds or real-life
-> [[How_do_I_work_with_contacts|contacts]].
->
+> [[How_do_I_work_with_contacts|contacts]].\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Social_networking_service)</cite>
 
 ## Resources

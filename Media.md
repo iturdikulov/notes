@@ -15,8 +15,7 @@ tags:
 > store and deliver information or data. The term refers to components of the
 > mass media communications industry, such as print media, publishing, the news
 > media, photography, cinema, broadcasting (radio and television), digital
-> media, and advertising.
->
+> media, and advertising.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Media_\(communication\))</cite>
 
 ## Resources

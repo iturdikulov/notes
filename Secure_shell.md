@@ -38,4 +38,3 @@ tags:
 # -t type, -f file, -C comment
 ssh-keygen -t ed25519 -f ~/.ssh/id_ed25519 -C "Full Name <email>"
 ```
-

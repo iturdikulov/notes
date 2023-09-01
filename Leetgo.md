@@ -14,8 +14,7 @@ tags:
 > functionality of [[LeetCode]], allowing you to do all of your [[LeetCode]]
 > exercises without leaving the terminal. It can automatically generate skeleton
 > code and test cases, support local testing and debugging, and you can use any
-> IDE you like to solve problems.
->
+> IDE you like to solve problems.\
 > — <cite>[Leetgo](https://github.com/j178/leetgo)</cite>
 
 ## Features

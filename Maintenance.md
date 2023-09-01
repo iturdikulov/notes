@@ -32,8 +32,7 @@ tags:
 > The routine recurring work required to keep a facility (plant, building,
 > structure, ground facility, utility system, or other real property) in such
 > condition that it may be continuously used, at its original or designed
-> capacity and efficiency for its intended purpose.
->
+> capacity and efficiency for its intended purpose.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Maintenance)</cite>
 
 Here I collect all my maintenance tasks/techniques/tools.

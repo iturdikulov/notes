@@ -14,8 +14,7 @@ tags:
 > digital communications. The name is a portmanteau of binary digit. The bit
 > represents a logical state with one of two possible values. These values are
 > most commonly represented as either "1" or "0", but other representations such
-> as true/false, yes/no, on/off, or +/− are also widely used.
->
+> as true/false, yes/no, on/off, or +/− are also widely used.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Bit)</cite>
 
 ## TODO

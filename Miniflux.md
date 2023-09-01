@@ -11,8 +11,7 @@ tags:
 
 # Miniflux
 
-> Miniflux is a minimalist and opinionated feed reader.
->
+> Miniflux is a minimalist and opinionated feed reader.\
 > — <cite>[Miniflux](https://miniflux.app/)</cite>
 
 I tried various RSS readers. But I chose Miniflux for these reasons:

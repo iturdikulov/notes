@@ -13,8 +13,8 @@ tags:
 > An [[Internet_protocol|internet_protocol]] address (IP address) is a numerical
 > label such as 192.0.2.1 that is connected to a computer network that uses the
 > Internet Protocol for communication. An IP address serves two main functions:
-> [[Computer_network|network]] interface identification and location addressing.
->
+> [[Computer_network|network]] interface identification and location
+> addressing.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/IP_address)</cite>
 
 IP address is::unique address, used to identify each computer on the internet.

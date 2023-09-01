@@ -21,8 +21,7 @@ tags:
 > time do often break apart recursively. Likewise, in
 > [[Computer_science|computer_science]], if a problem can be solved optimally by
 > breaking it into sub-problems and then recursively finding the optimal
-> solutions to the sub-problems, then it is said to have optimal substructure.
->
+> solutions to the sub-problems, then it is said to have optimal substructure.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Dynamic_programming)</cite>
 
 > Dynamic programming is a method of solving problems, which is used in computer
@@ -32,6 +31,5 @@ tags:
 > problem.
 >
 > Dynamic programming can be used in cases where it is possible to split a
-> problem into smaller problems, which are all quite similar.
->
+> problem into smaller problems, which are all quite similar.\
 > — <cite>[Wikipedia in Simple English](https://simple.wikipedia.org/wiki/Dynamic_programming)</cite>

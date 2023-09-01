@@ -19,6 +19,5 @@ tags:
 > host solely based on the [[IP_address|ip_addresses]] in the packet headers.
 > For this purpose, IP defines packet structures that encapsulate the data to be
 > delivered. It also defines addressing methods that are used to label the
-> datagram with source and destination information.
->
+> datagram with source and destination information.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Internet_Protocol)</cite>

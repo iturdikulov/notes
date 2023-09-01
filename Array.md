@@ -16,12 +16,10 @@ Array is one of most basic data structure in computer science.
 ## Array (data structure)
 
 > Array is a [[Data_structure|data structure]] consisting of a collection of elements (values
-> or variables), each identified by at least one array index or key.
->
+> or variables), each identified by at least one array index or key.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Array_\(data_structure\))</cite>
 
-> An assemblage of items that are randomly accessible by integers, the index.
->
+> An assemblage of items that are randomly accessible by integers, the index.\
 > — <cite><https://xlinux.nist.gov/dads/HTML/array.html></cite>
 
 Array in memory is a **contiguous** block of memory locations (which allocated

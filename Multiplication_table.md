@@ -19,8 +19,7 @@ tags:
 > years ago. However, they used a base of 60. The oldest known tables using a
 > base of 10 are the Chinese decimal multiplication table on bamboo strips
 > dating to about 305 BC, during China's Warring States period. "Table of
-> Pythagoras" on Napier's bones[3]
->
+> Pythagoras" on Napier's bones.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Multiplication_table)</cite>
 
 | ×   | 0   | 1   | 2   | 3   | 4   | 5   | 6   | 7   | 8   | 9   | 10  | 11  | 12  |
