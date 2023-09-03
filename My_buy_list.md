@@ -56,6 +56,8 @@ My purchased items stored here: [[My_inventory|inventory]].
 
 - 🥣 Cereal
 - 🍚 Semolina
+- 🍚 Rice
+- 🍜 Ramen/Noodle
 - 🌾 Buckwheat
 
 - 🥪 Sandwiches
