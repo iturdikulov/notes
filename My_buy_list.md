@@ -29,7 +29,11 @@ My purchased items stored here: [[My_inventory|inventory]].
 - 🥚 Eggs
 - 🍗 Chicken
 - 🍗 Minced chicken
+- 🐟 Fish
 - 🥩 Meat
+- 🥜 Peanuts
+- 🌰 Chestnut
+- 🌰 Almond
 
 - 🌶️ Hot pepper
 - 🫑 Bell Pepper
@@ -45,14 +49,16 @@ My purchased items stored here: [[My_inventory|inventory]].
 - 🍓 Strawberry
 - 🍊 Mandarins
 - 🍒 Cherry
+- 🥥 Coconut
 - 🍎 Apples
 - 🍇 Grapes
 - 🥕 Carrots
 - 🍐 Pears
 - 🥔 Potato
 - 🥭 Mango
+- 🍄 Mushroom
 - 🌽 Corn sticks
-- 🥥 Coconut
+- 🫘 Beans
 
 - 🥣 Cereal
 - 🍚 Semolina
@@ -60,9 +66,12 @@ My purchased items stored here: [[My_inventory|inventory]].
 - 🍜 Ramen/Noodle
 - 🌾 Buckwheat
 
+- 🥟 Dumplings
+- 🍞 Bread
 - 🥪 Sandwiches
 - 🌯 Shawarma
-- 🍫 Chocolate bars
+- 🍫 Chocolate bars, Nutella
+- 🍪 Cookies, Oreo
 
 - 🧼 Soap
 - 🧴 Shampoo
