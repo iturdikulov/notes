@@ -14,57 +14,57 @@ tags:
 Usually I buy things in bulk, so I don't need to buy them again for a long time.
 I'm trying to buy items [[Online_shopping|online]] or offline (everyday items).
 
-My purchased items stored here: [[My_inventory]].
+My purchased items stored here: [[My_inventory|inventory]].
 
 ## Repeating
 
-TODO: convert into taskwarrior task
+- 🧴 Mineral water
+- 🥛 Milk
+- 🧃 Juice
 
-- [x] 🧴 Mineral water x3
-- [x] 🧀 Cheese 500g
-- [ ] 🥔 Potato
-- [ ] 🥕 Carrots
-- [ ] 🥛 Milk 3.2% x3
-- [ ] 🍗 Chicken - 1x, fillet - x2
-- [ ] 🥚 Eggs
-- [ ] 🌯 Shawarma - 2x
-- [ ] 🍎 Apples - 1kg
-- [ ] 🥪 Sandwiches
-- [ ] 🍫 Chocolate bars - x2
-- [ ] 🍌 Bananas
-- [ ] 🍊 Oranges
-- [ ] 🟤 Dates (финики)
-- [ ] 🍓 Strawberry
-- [ ] 🍊 Mandarins
-- [ ] 🍒 Cherry / Bird-cherry
+- 🧀 Curd
+- 🧀 Cheese
+- 🧀 Cottage cheese
 
-- [ ] 🧼 Soap
-- [ ] 🧴 Shampoo
-- [ ] 🧴 Body cream
+- 🥚 Eggs
+- 🍗 Chicken
+- 🍗 Minced chicken
+- 🥩 Meat
 
-- [ ] 🧀 Cottage cheese
-- [ ] 🍇 Grapes
-- [ ] 🧃 Juice
-- [ ] 🌽 Corn sticks
-- [ ] 🥣 Cereal
-- [ ] 🌶️ Pepper
-- [ ] 🌿 Flavoring
-- [ ] 🍗 Minced chicken
-- [ ] 🧀 Curdw
-- [ ] 🧄 Garlic
-- [ ] 🟠 Persimmon (хурма)
-- [ ] 🍐 Pears (груши)
-- [ ] 🥭 Mango
-- [ ] 🧻 Paper towels
-- [ ] 🧻 Toilet paper
-- [ ] 🧂 Salt
-- [ ] 🍚 Semolina
-- [ ] 🌾 Buckwheat
-- [ ] 🦷 Toothpaste
+- 🌶️ Hot pepper
+- 🫑 Bell Pepper
+- 🌿 Flavoring
+- 🧄 Garlic
+- 🧅 Onion
+- 🧂 Salt
 
-## Inventory
+- 🍌 Bananas
+- 🍊 Oranges
+- 🟠 Persimmon
+- 🟤 Dates
+- 🍓 Strawberry
+- 🍊 Mandarins
+- 🍒 Cherry
+- 🍎 Apples
+- 🍇 Grapes
+- 🥕 Carrots
+- 🍐 Pears
+- 🥔 Potato
+- 🥭 Mango
+- 🌽 Corn sticks
+- 🥥 Coconut
 
-- [x] беруши Moldex
-- [x] Drawing tablet, wacom bt
-- [x] Stilus
-- [ ] Jeans and jacket
+- 🥣 Cereal
+- 🍚 Semolina
+- 🌾 Buckwheat
+
+- 🥪 Sandwiches
+- 🌯 Shawarma
+- 🍫 Chocolate bars
+
+- 🧼 Soap
+- 🧴 Shampoo
+- 🧴 Body cream
+- 🧻 Paper towels
+- 🧻 Toilet paper
+- 🦷 Toothpaste
