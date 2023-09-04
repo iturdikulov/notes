@@ -10,7 +10,7 @@ archive: true
 
 I use this remaps (optimized for [[Colemak_Mod-DH]]):
 
-Arrows are set to this keys:
+Arrows are set to these keys:
 
 ↑ - `w`
 ← - `a`
