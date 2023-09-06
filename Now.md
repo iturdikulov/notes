@@ -35,7 +35,7 @@ TODO: go through each item and adjust naming, metadata, etc.
 ## Games
 
 1. [[Gothic|Gothic]]
-2. [[Turing_Complete|Turing Complete]]
+2. [[Turing_Complete_(game)|Turing Complete]]
 
 ## Additional
 
