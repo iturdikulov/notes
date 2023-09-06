@@ -11,7 +11,7 @@ tags:
 # The Python Tutorial
 
 Python powerful, [[High-level_programming_language|high level]]
-[[Object-oriented_programming|object orientend]]
+[[Object-oriented_programming|object-oriented]]
 [[Programming_language|programming language]].
 
 Python tutorial cover basic concepts of Python, to learn more recommended to
