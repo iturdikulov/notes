@@ -35,7 +35,7 @@ or globally (`:h telekasten.link_notation`). Examples:
   'Telekasten.nvim'
   * [[Telekasten.nvim#^xxxblkxx]] links to the paragraph with id ^xxxxxxxx within
   the note named 'A cool title'
-  * [[201705061300|A cool title]] links to the note named `201705061300` but shows
+  * [[Telekasten.nvim|A cool title]] links to the note named `201705061300` but shows
   the link as `A cool title` if `conceallevel=2`
   * [[#To-Do]] links to the heading 'TODO' within all notes
   * [[#^xxxblkxxx]] links to the paragraph with id ^xxxxxxxx within all notes

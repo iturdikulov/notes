@@ -9,7 +9,7 @@ tags:
 
 # Proxy server
 
-In [[Computer_network|computer_networking]], [[Server]] application
+In [[Computer_network|computer networking]], [[Server|server]] application
 (program) that acts as middleman (intermediary) between a client requesting a
 resource and the server providing that resource.
 
@@ -50,7 +50,7 @@ range of sources (usually from Internet).
 A reverse proxy is usually an internal-facing proxy used as a front-end to
 control and protect access to a server on a private network. A reverse proxy
 commonly also performs tasks such as load-balancing, authentication, decryption
-and caching. For example [[Ngnix]] Reverse Proxy.
+and caching. For example [[Nginx]] Reverse Proxy.
 
 Proxies can various levels of anonymity:
 

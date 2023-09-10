@@ -3,3 +3,4 @@ _library/
 .obsidian/
 .venv
 private/
+.trash/

@@ -18,7 +18,7 @@ economy of expression, improved control flow, and data structures.
 Questions and answers formatted as flashcards.
 
 Answers are placed in
-[repository](~/Computer/programming/kernighan_the_c_programming_language/).
+[repository](file:///home/inom/Computer/programming/kernighan_the_c_programming_language/).
 
 # Preface /6
 
