@@ -2,7 +2,6 @@
 tags:
   - "research"
 author: "Robert Sedgewick; Kevin Wayne"
-external: "zotero://select/items/1_RJSUR4DQ"
 ---
 # Algorithms: Part 1
 
