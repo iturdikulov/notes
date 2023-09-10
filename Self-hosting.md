@@ -1,6 +1,5 @@
 ---
 date: 2022-12-29
-draft: true
 private: true
 sr-due: 2024-01-29
 sr-ease: 290

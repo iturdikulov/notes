@@ -1,6 +1,5 @@
 ---
 date: 2023-03-11
-draft: true
 sr-due: 2024-01-17
 sr-ease: 288
 sr-interval: 245

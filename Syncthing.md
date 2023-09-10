@@ -1,7 +1,6 @@
 ---
 external: https://syncthing.net/
 date: 2023-04-09
-draft: true
 sr-due: 2023-05-21
 sr-ease: 270
 sr-interval: 4

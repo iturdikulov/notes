@@ -1,7 +1,6 @@
 ---
 external: https://en.wikipedia.org/wiki/Wiki
 date: 2023-03-28
-draft: true
 sr-due: 2023-11-18
 sr-ease: 288
 sr-interval: 185

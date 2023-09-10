@@ -1,7 +1,6 @@
 ---
 external: https://gitlab.com/
 date: 2023-03-12
-draft: true
 sr-due: 2023-06-01
 sr-ease: 290
 sr-interval: 15

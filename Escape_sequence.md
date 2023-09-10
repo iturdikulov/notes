@@ -1,6 +1,5 @@
 ---
 date: '2022-12-28'
-draft: true
 sr-due: 1678809600
 sr-ease: 248
 sr-interval: 2

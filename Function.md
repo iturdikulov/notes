@@ -1,6 +1,5 @@
 ---
 date: 2023-03-21
-draft: true
 sr-due: 2024-01-05
 sr-ease: 270
 sr-interval: 233
@@ -44,7 +43,7 @@ tags:
 > Different programming languages may use different conventions for passing
 > arguments.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Function_\(computer_programming\))</cite>
-<!--SR:!2023-08-07,25,250!2023-07-22,3,260-->
+<!--SR:!2023-08-07,25,250-->
 
 ```
                ----------
