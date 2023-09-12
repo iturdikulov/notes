@@ -2,14 +2,10 @@
 title: Алгебра, часть 1
 author: Andrei Petrovich Kiselyov
 date: 2006
-dateAdded: 2022-12-18
-citekey: AndreiPetrovichKiselyovAlgebraChast2006
+directory: ~/Science/math/Kiselyov_Элементы_алгебры_и_анализа/
 tags:
   - research
   - inbox
-localLibrary: zotero://select/items/1_D8RYSQHS
-cloudLibrary: http://zotero.org/users/9108355/items/D8RYSQHS
-draft: true
 sr-due: 2023-10-31
 sr-interval: 167
 sr-ease: 230
