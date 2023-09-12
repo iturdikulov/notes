@@ -4,7 +4,6 @@ date: 2023
 tags:
 - research
 - inbox
-- programming
 ---
 
 # The Python Tutorial

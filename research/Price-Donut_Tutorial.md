@@ -10,6 +10,7 @@ sr-due: 2023-08-25
 sr-interval: 1
 sr-ease: 230
 external: https://www.youtube.com/watch?v=nIoXOplUvAw
+directory: ~/Computer/graphics/Price-Donut_Tutorial
 ---
 
 `M-z`::toggle X-ray

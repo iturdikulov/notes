@@ -7,6 +7,7 @@ tags:
 sr-due: 2023-08-28
 sr-interval: 1
 sr-ease: 236
+directory: ~/Computer/programming/Kernighan_and_Ritchie-The_C_programming_language
 ---
 
 The authors of this book present the complete guide to ANSI standard C language

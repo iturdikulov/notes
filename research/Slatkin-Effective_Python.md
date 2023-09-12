@@ -1,18 +1,14 @@
 ---
 title: "Effective Python: 90 specific ways to write better python"
 tags:
-  - "research"
-  - "inbox"
-author: "Brett Slatkin"
-citekey: "BrettSlatkinEffectivePython902020"
-cloudLibrary: "http://zotero.org/users/9108355/items/5DEQB65V"
+  - research
+  - inbox
+author: Brett Slatkin
 date: 2020
-dateAdded: 1671292800
-draft: true
-localLibrary: "zotero://select/items/1_5DEQB65V"
 sr-due: 1681833600
 sr-ease: 250
 sr-interval: 29
+directory: ~/Computer/programming/Slatkin-Effective_Python
 ---
 
 

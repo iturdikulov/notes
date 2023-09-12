@@ -6,13 +6,11 @@ tags:
 sr-due: 2023-08-25
 sr-interval: 1
 sr-ease: 222
+external: https://en.wikipedia.org/wiki/Glossary_of_computer_science
 ---
 
 # Glossary of [[Computer_science]]
 
-- TODO: read full article (fast/skim)
-- TODO: read full article again (slow)
-- TODO: write in own words
 - TODO: review all definitions
 
 ## A

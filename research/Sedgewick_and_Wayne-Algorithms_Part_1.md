@@ -1,8 +1,10 @@
 ---
 tags:
   - "research"
-author: "Robert Sedgewick; Kevin Wayne"
+author: Robert Sedgewick; Kevin Wayne
+directory: ~/Computer/science/Sedgewick_and_Wayne-Algorithms_Part_1
 ---
+
 # Algorithms: Part 1
 
 This book is Part I of the fourth edition of Robert Sedgewick and Kevin Wayne’s

@@ -2,17 +2,13 @@
 title: Fluent Python
 author:  Luciano Ramalho
 date: 2021
-dateAdded: 2022-12-18
-citekey: LucianoRamalhoFluentPython2021
 tags:
   - research
   - inbox
-localLibrary: zotero://select/items/1_BDH3MZID
-cloudLibrary: http://zotero.org/users/9108355/items/BDH3MZID
-draft: true
 sr-due: 2023-12-01
 sr-interval: 198
 sr-ease: 268
+directory: ~/Computer/programming/Ramalho-Fluent_Python
 ---
 
 Python’s simplicity lets you become productive quickly, but this often means you aren’t using everything it has to offer. With this hands-on guide, you’ll learn how to write effective, idiomatic Python code by leveraging its best—and possibly most neglected—features.

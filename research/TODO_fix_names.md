@@ -1,17 +1,3 @@
-Wikipedia-Glossary_of_computer_science
-Python_Community-Python_Glossary
-Python_Community-Python_FAQ
-Python_Community-Python_Tutorial
-Python_Community-Python_Standard_Library
-Murphy_Essential_Grammar_in_Use
-Ramalho-Fluent_Python
-Slatkin-Effective_Python
-Syd-GTD_with_taskwarrior
-Kernighan_and_Ritchie-The_C_programming_language
-Sedgewick_and_Wayne-Algorithms_Part_1
-Muratori-Handmade_Hero/
-Price-Donut_Tutorial
-
 drwxr-x---     - inom 10 Sep 01:07 turdikulov_files_samples/
 .rw-r----- 9.0Ki inom  2 Sep 06:08 hostnames.md
 drwxr-x--- - inom  2 Sep 06:08 alesha_vo1n_buttons/
