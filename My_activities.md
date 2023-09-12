@@ -41,7 +41,7 @@ I'm connecting with them by voice calls, sometimes text messages. Here is
 ## Exercise and health
 
 Right now I'm trying to follow my personal
-[[research/Exercise_plan|exercise plan]] and [[My_everyday_life|routine]].
+[[research/Turdikulov-Exercise_plan|exercise plan]] and [[My_everyday_life|routine]].
 
 ## Relax and fun
 

@@ -69,5 +69,5 @@ It supports any popular [[Programming_paradigm]]:
 - [[Object-oriented_programming]]
 - [[Functional_programming]]
 
-Rich [[research/python.org-Python_standard_library|standard library]] make it's "batteries
+Rich [[research/Python_Community-Python_Standard_Library|standard library]] make it's "batteries
 included" language.

@@ -983,8 +983,8 @@ this.
 - [ ] Current mail goal: [[My_editing_workflow]]
 - [ ] https://stackoverflow.com/questions/509690/how-can-you-list-the-matches-of-vims-search
 - [ ] https://github.com/tpope/vim-surround
-- [[research/2018-Neil_Drew-Modern_Vim]]
-- [[research/2015-Neil_Drew-Practical_Vim]]
+- [[research/Neil-Modern_Vim]]
+- [[research/Neil-Practical_Vim]]
 - [Interactive Vim tutorial](http://www.openvim.com/)
 - [VimGolf](https://www.vimgolf.com/)
 - [Vim Tips Wiki | Fandom](https://vim.fandom.com/wiki/Vim_Tips_Wiki)

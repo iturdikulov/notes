@@ -16,21 +16,21 @@ TODO: go through each item and adjust naming, metadata, etc.
 
 1. [[My_activities|Activities]]
 2. Business automation project
-3. [[research/python.org-Python_tutorial]]
-4. [[research/Comprehensive_python_cheatsheet|Python cheatsheet]]
-5. [[research/Data_structures_and_algorithms|Data structures and algorithms]]
+3. [[research/Python_Community-Python_Tutorial]]
+4. [[research/Šorn-Comprehensive_python_cheatsheet|Python cheatsheet]]
+5. [[research/Wengrow-Data_structures_and_algorithms|Data structures and algorithms]]
 6. [[research/Kernighan_and_Ritchie-The_C_programming_language|The C programming language]]
 7. [[LeetCode]] problems with help of [[Leetgo]]
 8. Learn and "utilize" [[My_awesome_software_list|software list]]
 9. Learn and "utilize" [[Neovim|neovim]] and [[My_editing_workflow|editing workflow]]
 10. [[Muratori-Handmade_Hero|Handmade Hero]], game development
-11. [[research/2020-Slatkin_Brett-Effective_Python|Effective python]]
-12. [[research/2021-Ramalho_Luciano-Fluent_Python|Fluent_Python]]
+11. [[research/Slatkin-Effective_Python|Effective python]]
+12. [[research/Ramalho-Fluent_Python|Fluent_Python]]
 13. [[inbox/Arts_and_Entertainment/learning/PythonDjangoPractical|Django course]]
 14. [[Raylib]]
 15. [[Godot|Godot]]
-16. [[research/Киселёв_Элементы_алгебры_и_анализа_часть_1|Элементы алгербы и анализа, часть 1]]
-17. [[Math_is_Fun|Math is fun]]
+16. [[research/Киселёв-Элементы_алгебры_и_анализа_часть_1|Элементы алгербы и анализа, часть 1]]
+17. [[research/Math_is_Fun_Team-Math_is_Fun|Math is fun]]
 
 ## Games
 
@@ -43,7 +43,7 @@ TODO: go through each item and adjust naming, metadata, etc.
 2. [[Style_of_life]]
 3. [[In_real_life_IRL]]
 4. [[Cooking]]
-5. [[research/Tech_yourself_computer_science|Tech_computer_science]]
+5. [[research/Nova_Byrne-Tech_yourself_computer_science|Tech_computer_science]]
 6. [[How_do_I_study_mathematics]]
 7. [[How_do_I_study_English_language]]
 8. [[How_do_I_study_physics_and_chemistry]]

@@ -11,6 +11,6 @@ tags:
 # My Art
 
 I have some art but need to organize it. And I really want to start drawing with
-this book: [[research/2013-Loomis_Andrew-Fun_With_A_Pencil]].
+this book: [[research/Loomis-Fun_With_A_Pencil]].
 
 TODO: organize art

@@ -1,5 +1,4 @@
 ---
-title: Henry How to Learn Nix
 description:
 tags:
 - inbox
@@ -10,7 +9,7 @@ sr-interval: 1
 sr-ease: 230
 ---
 
-## How to learn nix part 3
+# Henry How to Learn Nix
 
 /nix/store - The location in the file system where store objects live.
 

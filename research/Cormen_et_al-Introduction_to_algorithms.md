@@ -2,7 +2,9 @@
 title: "Introduction to Algorithms"
 tags:
   - research
+directory: ~/Computer/science/Cormen_et_al-Introduction_to_algorithms
 ---
+TODO: add authors
 
 The leading introductory textbook and reference on algorithms.
 

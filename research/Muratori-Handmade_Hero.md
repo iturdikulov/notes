@@ -7,6 +7,7 @@ tags:
 author: "Casey Muratori"
 external: "https://hero.handmade.network/episode/code"
 date: 2014
+directory: ~/Computer/graphics/Muratori-Handmade_Hero
 ---
 
 > A limbless child receives a magical gift that allows him to set off on the adventure he always dreamed of.

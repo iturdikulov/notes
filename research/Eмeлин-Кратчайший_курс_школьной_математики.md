@@ -9,7 +9,7 @@ tags:
 sr-due: 2023-12-23
 sr-interval: 220
 sr-ease: 270
-directory: ~/Science/math/Емелин_Кратчайший_курс_школьной_математики
+directory: ~/Science/math/Емелин-Кратчайший_курс_школьной_математики
 ---
 
 **Contents**

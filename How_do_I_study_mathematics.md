@@ -14,7 +14,7 @@ List of resources and tips to learn [[Mathematics]]
 
 - [[research/Eмeлин-Кратчайший_курс_школьной_математики]]
 - TODO: киселёв
-- [[research/2020-Kun_Jeremy-A_Programmers_Introduction_to_Mathematics]]
+- [[research/Kun-A_Programmers_Introduction_to_Mathematics]]
 
 - [ ] [https://www.mathsisfun.com/](Math is Fun), I think it's good initial
       point
