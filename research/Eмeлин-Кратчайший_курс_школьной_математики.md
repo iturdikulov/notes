@@ -2,18 +2,14 @@
 title: Кратчайший курс школьной математики
 author: Eмeлин Aлeксaндр
 date: 2021-9-31
-dateAdded: 2022-12-30
 external: https://mathter.pro/pesochnica/index.html
-citekey: EmelinAleksandrKratchayshiyKursShkolnoy
 tags:
     - research
     - inbox
-localLibrary: zotero://select/items/1_824FJQHS
-cloudLibrary: http://zotero.org/users/9108355/items/824FJQHS
-draft: true
 sr-due: 2023-12-23
 sr-interval: 220
 sr-ease: 270
+directory: ~/Science/math/Емелин_Кратчайший_курс_школьной_математики
 ---
 
 **Contents**

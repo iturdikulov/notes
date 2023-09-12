@@ -12,7 +12,7 @@ tags:
 
 List of resources and tips to learn [[Mathematics]]
 
-- [[research/2021-Aлeксaндр_Eмeлин-Кратчайший_курс_школьной_математики]]
+- [[research/Eмeлин-Кратчайший_курс_школьной_математики]]
 - TODO: киселёв
 - [[research/2020-Kun_Jeremy-A_Programmers_Introduction_to_Mathematics]]
 
