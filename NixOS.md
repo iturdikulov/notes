@@ -57,3 +57,9 @@ nix-shell -p nix-prefetch-git jq --run \
 # REV
 nix-shell -p nix-prefetch-git jq --run "nix-prefetch-git --url https://github.com/cli/cli --quiet --rev master | jq -r '.rev'"
 ```
+
+## TODO:
+ - linux kernel flake + le9ec
+ - test Plasma/Wayland
+ - pipewire low-latency + rtkit
+
