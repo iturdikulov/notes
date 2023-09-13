@@ -29,7 +29,7 @@ TODO: go through each item and adjust naming, metadata, etc.
 16. [[research/Киселёв-Элементы_алгебры_и_анализа_часть_1|Элементы алгербы и анализа, часть 1]]
 17. [[research/Math_is_Fun_Team-Math_is_Fun|Math is fun]]
 10. [[Muratori-Handmade_Hero|Handmade Hero]], game development
-14. [[Raylib]]
+14. [[research/Raylib_Community-Raylib]]
 15. [[Godot]]
 
 ## Games

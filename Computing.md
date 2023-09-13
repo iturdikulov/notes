@@ -22,4 +22,4 @@ tags:
 ![Computer simulation, one of the main cross-computing methodologies.](GalvesLocherbach_-_High_Resolution.gif)
 _Computer simulation, one of the main cross-computing methodologies._
 
-TODO: recreate in 3D using [[Raylib]]?
+TODO: recreate in 3D using [[research/Raylib_Community-Raylib]]?
