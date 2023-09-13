@@ -93,7 +93,6 @@ Babej-A_dive_into_taskwarrior_ecosystem
 Batchelder-Getting_started_testing
 Shuler-How_Does_the_Internet_Work
 Šorn-Comprehensive_python_cheatsheet
-Wengrow-Data_structures_and_algorithms
 Nova_Byrne-Tech_yourself_computer_science
 KOReader_Community-KOReader_user_guide
 Devries_Debugging_in_Neovim

@@ -18,9 +18,6 @@ data structures.
 
 Questions and answers formatted as flashcards.
 
-Answers are placed in
-[repository](file:///home/inom/Computer/programming/kernighan_the_c_programming_language/).
-
 # Preface /6
 
 Looks like any popular language changes over the time, and C is not an

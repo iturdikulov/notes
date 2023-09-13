@@ -23,18 +23,18 @@ TODO: go through each item and adjust naming, metadata, etc.
 7. [[LeetCode]] problems with help of [[Leetgo]]
 8. Learn and "utilize" [[My_awesome_software_list|software list]]
 9. Learn and "utilize" [[Neovim|neovim]] and [[My_editing_workflow|editing workflow]]
-10. [[Muratori-Handmade_Hero|Handmade Hero]], game development
 11. [[research/Slatkin-Effective_Python|Effective python]]
 12. [[research/Ramalho-Fluent_Python|Fluent_Python]]
-13. [[inbox/Arts_and_Entertainment/learning/PythonDjangoPractical|Django course]]
-14. [[Raylib]]
-15. [[Godot|Godot]]
+13. [[research/Greenfelds-Two_Scoops_of_Django_3.x]]
 16. [[research/Киселёв-Элементы_алгебры_и_анализа_часть_1|Элементы алгербы и анализа, часть 1]]
 17. [[research/Math_is_Fun_Team-Math_is_Fun|Math is fun]]
+10. [[Muratori-Handmade_Hero|Handmade Hero]], game development
+14. [[Raylib]]
+15. [[Godot]]
 
 ## Games
 
-1. [[Gothic|Gothic]]
+1. [[Gothic]]
 2. [[Turing_Complete_(game)|Turing Complete]]
 
 ## Additional
@@ -47,6 +47,8 @@ TODO: go through each item and adjust naming, metadata, etc.
 6. [[How_do_I_study_mathematics]]
 7. [[How_do_I_study_English_language]]
 8. [[How_do_I_study_physics_and_chemistry]]
+
+## TODO
 
 ## Archive
 

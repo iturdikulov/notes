@@ -1,18 +1,15 @@
 ---
-title:
-  "A Common-sense Guide to Data Structures and Algorithms: Level Up Your Core
-  Programming Skills"
 author: Jay Wengrow
 date: 2020
-dateAdded: 2023-04-11
 external: https://www.google.com/books/edition/A_Common_sense_Guide_to_Data_Structures/SKX5ygEACAAJ?hl=en
-citekey: JayWengrowCommonsenseGuideData2020
 tags:
     - research
     - computer_science
-draft: true
 external: https://pragprog.com/titles/jwdsal2
+directory: ~/Computer/science/Wengrow-Data_structures_and_algorithms
 ---
+
+# A Common-sense Guide to Data Structures and Algorithms: Level Up Your Core Programming Skills
 
 If you thought that data structures and algorithms were all just theory, you're
 missing out on what they can do for your code. Learn to use Big O Notation to
