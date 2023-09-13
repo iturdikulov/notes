@@ -1,20 +1,17 @@
 ---
-title: "Practical Vim: Edit text at the speed of thought"
 author: Drew Neil
 date: 2015
-dateAdded: 2022-12-18
-citekey: DrewNeilPracticalVimEdit2015
 tags:
     - research
     - inbox
     - vim
-localLibrary: zotero://select/items/1_R4UA7XFI
-cloudLibrary: http://zotero.org/users/9108355/items/R4UA7XFI
-draft: true
 sr-due: 2023-12-28
 sr-interval: 225
 sr-ease: 266
+directory: ~/Computer/software/Neil-Practical_Vim
 ---
+
+# Practical Vim: Edit text at the speed of thought
 
 My notes are based on this book + Neovim.
 

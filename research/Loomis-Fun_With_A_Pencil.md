@@ -1,16 +1,13 @@
 ---
-title: "Fun With A Pencil: How Everybody Can Easily Learn to Draw"
 author: Andrew Loomis
 date: 2013
-dateAdded: 2022-12-18
-external:
-citekey: AndrewLoomisFunPencilHow2013
 tags:
   - research
-localLibrary: zotero://select/items/1_2Z7PEUDE
-cloudLibrary: http://zotero.org/users/9108355/items/2Z7PEUDE
-draft: true
+  - inbox
+directory: ~/Arts_and_Entertainment/visual_arts/Loomis-Fun_With_A_Pencil
 ---
+
+# Fun With A Pencil: How Everybody Can Easily Learn to Draw
 
 Andrew Loomis (1892-1959) is revered amongst artists - including comics
 superstar Alex Ross - for his mastery of drawing. His first book, Fun With a

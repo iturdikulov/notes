@@ -1,15 +1,12 @@
 ---
-title: "Coding Interview Practice"
 tags:
   - "research"
-author: "InterviewCake"
+author: InterviewCake Team
 external: "https://www.interviewcake.com/table-of-contents"
-citekey: "InterviewCakeCodingInterviewPractice"
-cloudLibrary: "http://zotero.org/users/9108355/items/LGF6FCS7"
-dateAdded: 1673280000
-draft: "true"
-localLibrary: "zotero://select/items/1_LGF6FCS7"
+directory: ~/Computer/science/InterviewCake_Team-Coding_Interview_Practice
 ---
+
+# Coding Interview Practice
 
 Kick butt at coding interviews. Be the candidate employers fight over.
 

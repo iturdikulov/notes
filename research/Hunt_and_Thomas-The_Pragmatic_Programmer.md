@@ -1,16 +1,13 @@
 ---
-title: "The Pragmatic Programmer: Your Journey to Mastery"
 tags:
   - "research"
 author: "Andrew Hunt; David Thomas"
 external: "https://pragprog.com/titles/tpp20/the-pragmatic-programmer-20th-anniversary-edition/"
-citekey: "AndrewHuntPragmaticProgrammerYour2019"
-cloudLibrary: "http://zotero.org/users/9108355/items/Q6GLKWYC"
 date: 2019
-dateAdded: 1680019200
-draft: "true"
-localLibrary: "zotero://select/items/1_Q6GLKWYC"
+diretory: ~/Computer/programming/Hunt_and_Thomas-The_Pragmatic_Programmer
 ---
+
+# The Pragmatic Programmer: Your Journey to Mastery
 
 > Andy and Dave wrote this influential, classic book to help their clients
 > create better [[Computer_software|software]] and rediscover the

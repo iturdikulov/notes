@@ -1,17 +1,16 @@
 ---
-title: "Code: The hidden language of computer hardware and software"
 author:  Charles Petzold
 date: 2000
-dateAdded: 2022-12-18
-citekey: CharlesPetzoldCodeHiddenLanguage2000
 tags:
-    - research
-    - inbox
-draft: true
+  - research
+  - inbox
 sr-due: 2023-11-05
 sr-interval: 172
 sr-ease: 230
+directory: ~/Computer/science/Petzold-Code
 ---
+
+# Code: The hidden language of computer hardware and software
 
 What do flashlights, the British invasion, black cats, and seesaws have to do
 with computers? In CODE, they show us the ingenious ways we manipulate language

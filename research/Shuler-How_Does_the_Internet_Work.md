@@ -1,13 +1,13 @@
 ---
-title: How Does the Internet Work?
-author:  Rus Shuler
+author: Rus Shuler
 date: 2002
 external: https://web.stanford.edu/class/msande91si/www-spr04/readings/week1/InternetWhitepaper.htm
-archive: true
 tags:
     - research
     - inbox
 ---
+
+# How Does the Internet Work?
 
 How does the Internet work? Good question! The Internet's growth has become explosive and it seems impossible to escape the bombardment of www.com's seen constantly on television, heard on radio, and seen in magazines. Because the Internet has become such a large part of our lives, a good understanding is needed to use this new tool most effectively.
 

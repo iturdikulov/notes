@@ -1,8 +1,10 @@
 ---
 tags:
-    - outline
+  - research
+  - inbox
 author: "Dan"
-date: 1670342400
+date: 2023
+external: https://roosterdan.medium.com/how-to-type-100-words-per-minute-a780fd80fd27
 ---
 
 ## How to type 100 words per minute

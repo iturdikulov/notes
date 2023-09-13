@@ -1,20 +1,17 @@
 ---
-title: Learn Vim
 author: Igor Irianto
 date: 2021
-dateAdded: 2023-03-19
-external: https://learnvim.irian.to
-citekey: IgorIriantoLearnVim2021
 tags:
   - research
   - inbox
-localLibrary: zotero://select/items/1_MR62S8MN
-cloudLibrary: http://zotero.org/users/9108355/items/MR62S8MN
-draft: true
 sr-due: 2023-11-14
 sr-interval: 181
 sr-ease: 248
+external: https://learnvim.irian.to
+directory: ~/Computer/software/Irianto-Learn_Vim
 ---
+
+# Learn Vim
 
 Learning Vim and Vimscript doesn't have to be hard. This is the guide that
 you're looking for.

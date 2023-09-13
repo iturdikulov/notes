@@ -1,21 +1,16 @@
 ---
-title:
-  "JavaScript: The definitive guide: Master the world's most-used programming
-  language"
 author: David Flanagan
 date: 2020
-dateAdded: 2022-12-18
-citekey: DavidFlanaganJavaScriptDefinitiveGuide2020
 tags:
   - research
   - inbox
-localLibrary: zotero://select/items/1_ZPD9FZS7
-cloudLibrary: http://zotero.org/users/9108355/items/ZPD9FZS7
-draft: true
 sr-due: 2023-09-19
 sr-interval: 124
 sr-ease: 248
+directory: ~/Computer/programming/Flanagan-JavaScript
 ---
+
+# JavaScript: The definitive guide: Master the world's most-used programming language
 
 JavaScript is the programming language of the web and is used by more software
 developers today than any other programming language. For nearly 25 years this

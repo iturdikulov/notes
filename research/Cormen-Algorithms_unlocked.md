@@ -1,20 +1,16 @@
 ---
-title: Algorithms unlocked
 author: Thomas H. Cormen
 date: 2013
-dateAdded: 2022-12-18
-external:
-citekey: ThomasHCormenAlgorithmsUnlocked2013
 tags:
   - research
   - inbox
-localLibrary: zotero://select/items/1_NI9Y5RR4
-cloudLibrary: http://zotero.org/users/9108355/items/NI9Y5RR4
-draft: true
 sr-due: 2023-11-23
 sr-interval: 190
 sr-ease: 248
+directory: ~/Computer/science/Cormen-Algorithms_unlocked
 ---
+
+# Algorithms unlocked
 
 For anyone who has ever wondered how computers solve problems, an engagingly
 written guide for nonexperts to the basics of computer algorithms. Have you ever

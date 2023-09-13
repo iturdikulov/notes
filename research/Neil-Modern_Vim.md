@@ -1,20 +1,17 @@
 ---
-title: "Modern Vim: Craft your development environment with Vim 8 and Neovim"
 tags:
   - "research"
   - "inbox"
   - "vim"
 author: "Drew Neil"
-citekey: "DrewNeilModernVimCraft2018"
-cloudLibrary: "http://zotero.org/users/9108355/items/T865KBV3"
 date: 2018
-dateAdded: 1671292800
-draft: true
-localLibrary: "zotero://select/items/1_T865KBV3"
 sr-due: 1678809600
 sr-ease: 246
 sr-interval: 2
+directory: ~/Computer/software/Neil-Modern_Vim
 ---
+
+# Modern Vim: Craft your development environment with Vim 8 and Neovim
 
 Turn [[Neovim]] into a full-blown development
 environment using Vim 8’s new features and this sequel to the beloved bestseller

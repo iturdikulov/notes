@@ -1,14 +1,13 @@
 ---
-external: https://github.com/gto76/python-cheatsheet
-date: 2023-04-24
-draft: true
+author: Jure Šorn
+date: 2023
 tags:
-- inbox
-- outline
-- programming
+  - inbox
+  - research
 sr-due: 2023-09-06
 sr-interval: 13
 sr-ease: 228
+external: https://github.com/gto76/python-cheatsheet
 ---
 
 # Comprehensive Python Cheatsheet

@@ -1,16 +1,13 @@
 ---
-title: "Effective Python Testing With Pytest"
 author: Dane Hillard
-dateAdded: 2023-04-29
 external: https://realpython.com/pytest-python-testing/
-citekey: DaneHillardEffectivePythonTesting
 tags:
   - research
   - programming
-localLibrary: zotero://select/items/1_VE3KQUQY
-cloudLibrary: http://zotero.org/users/9108355/items/VE3KQUQY
-draft: true
+directory: ~/Computer/programming/Hillard-Testing_With_Pytest
 ---
+
+# Effective Python Testing With Pytest
 
 ## Survey & Questions (need remove all after find answers)
 

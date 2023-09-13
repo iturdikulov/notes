@@ -1,19 +1,14 @@
 ---
-title: Pro Git
 author: Scott Chacon; Ben Straub
 date: 2022
-dateAdded: 2022-12-30
 external: https://git-scm.com/book/en/v2
-citekey: ScottChaconProGit2022
 tags:
   - research
   - inbox
-localLibrary: zotero://select/items/1_G7I74I7J
-cloudLibrary: http://zotero.org/users/9108355/items/G7I74I7J
-draft: true
 sr-due: 2023-11-04
 sr-interval: 171
 sr-ease: 230
+directory: ~/Computer/software/Chacon_and_Ben-Pro_Git
 ---
 
 # Pro Git

@@ -1,16 +1,13 @@
 ---
-title: "Python Crash Course"
 author: Eric Matthes
-date: 2023-01-10
-dateAdded: 2023-04-21
-citekey: EricMatthesPythonCrashCourse2023
+date: 2023
 tags:
   - research
-  - programming
-localLibrary: zotero://select/items/1_GBPKLF48
-cloudLibrary: http://zotero.org/users/9108355/items/GBPKLF48
-draft: true
+  - inbox
+directory: ~/Computer/programming/Matthes-Python_Crash_Course
 ---
+
+# Python Crash Course
 
 started from p.130
 

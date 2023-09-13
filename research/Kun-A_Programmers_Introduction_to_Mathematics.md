@@ -1,16 +1,14 @@
 ---
-title: "A Programmer's Introduction to Mathematics: Second Edition"
 tags:
-  - "research"
+  - research
+  - inbox
 author: "Jeremy Kun"
 external: "https://j2kun.gumroad.com/l/pim-book"
-citekey: "JeremyKunProgrammerIntroductionMathematics2020"
-cloudLibrary: "http://zotero.org/users/9108355/items/EW72QPRF"
 date: 2020
-dateAdded: 1679846400
-draft: "true"
-localLibrary: "zotero://select/items/1_EW72QPRF"
+directory: ~/Science/math/Kun-A_Programmers_Introduction_to_Mathematics
 ---
+
+# A Programmer's Introduction to Mathematics: Second Edition
 
 A Programmer's Introduction to [[mathematics]] uses your
 familiarity with ideas from [[Computer_programming|programming]]

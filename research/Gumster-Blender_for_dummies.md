@@ -1,19 +1,16 @@
 ---
-title: Blender® for dummies, 4th edition
 author: Jason van Gumster
 date: 2020
-dateAdded: 2022-12-18
-citekey: JasonvanGumsterBlenderDummies4th2020
 tags:
   - research
   - inbox
-localLibrary: zotero://select/items/1_D42944HA
-cloudLibrary: http://zotero.org/users/9108355/items/D42944HA
-draft: true
 sr-due: 2023-12-16
 sr-interval: 213
 sr-ease: 250
+directory: ~/Computer/graphics/Gumster-Blender_for_dummies
 ---
+
+# Blender® for dummies, 4th edition
 
 Some of the dramatic visual effects you've seen in top-grossing movies and
 heralded television series got their start in Blender. This book helps you get

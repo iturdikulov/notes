@@ -1,6 +1,5 @@
 ---
-title: Debugging In Neovim (ft BashBunni)
-description:
+author: TJ DeVries
 tags:
 - inbox
 - research
@@ -9,7 +8,10 @@ created: 2023-06-05
 sr-due: 2023-08-25
 sr-interval: 1
 sr-ease: 230
+external: https://www.youtube.com/watch?v=0moS8UHupGc
 ---
+
+# Debugging In Neovim (ft BashBunni)
 
 Indent paragraph::`>ip`
 

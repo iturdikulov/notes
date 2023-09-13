@@ -1,14 +1,16 @@
 ---
-title: Tomas Babej (2019) A Dive into Taskwarrior Ecosystem with Tomas Babej
-description:
+author: Tomas Babej
 tags:
     - inbox
     - research
-created: 2023-06-28
+date: 2020
 sr-due: 2023-08-25
 sr-interval: 1
 sr-ease: 228
+external: https://www.youtube.com/watch?v=tijnc65soEI
 ---
+
+#  A Dive into Taskwarrior Ecosystem
 
 ## Typical Workflow
 

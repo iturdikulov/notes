@@ -5,7 +5,6 @@ external: https://www.youtube.com/watch?v=FxSsnHeWQBY
 tags:
   - research
   - programming
-archive: true
 ---
 
 # Getting Started Testing - PyCon 2014

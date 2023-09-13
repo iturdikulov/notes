@@ -1,15 +1,16 @@
 ---
+author: Oz Nova; Myles Byrne
 date: 2023-03-08
-draft: true
 sr-due: 2023-03-22
 sr-ease: 208
 sr-interval: 1
 tags:
-- inbox
-- research
+  - inbox
+  - research
 sr-due: 2023-10-30
 sr-interval: 166
 sr-ease: 228
+external: https://teachyourselfcs.com/
 ---
 
 # Teach Yourself Computer Science
