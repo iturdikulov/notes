@@ -4,8 +4,9 @@ sr-due: 2024-01-22
 sr-ease: 290
 sr-interval: 250
 tags:
-- inbox
-- log
+  - inbox
+  - log
+directory: ~/Arts_and_Entertainment/visual_arts/30_days_draw_challenge/
 ---
 
 # My 30-Day Drawing Challenge
