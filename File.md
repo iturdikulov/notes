@@ -4,8 +4,9 @@ sr-due: 2023-05-30
 sr-ease: 270
 sr-interval: 13
 tags:
-- inbox
-- software
+  - inbox
+  - software
+directory: ~/Computer/data/files_samples
 ---
 
 # File
