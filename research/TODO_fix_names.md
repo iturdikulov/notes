@@ -1,6 +1,0 @@
-turdikulov_pdf_menu_generator/
-turdikulov_opencv_bot/
-turdikulov_opencv_realtime_angle_calculation/
-turdikulov_snake/
-turdikulov_multiplication/
-turdikulov_python-cheatsheet/
