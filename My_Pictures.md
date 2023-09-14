@@ -6,13 +6,12 @@ sr-interval: 225
 tags:
 - inbox
 - outline
+directory: ~/Pictures/
 ---
 
 # My Pictures
 
-- Personal Photo
-- Personal ART
-- Artistic
-- Cheatsheets
+TODO: picture definition
+
 - Photos
-- GIF's & Memes
+- Screenshot
