@@ -7,6 +7,8 @@ tags:
 - inbox
 - development
 - software
+external: https://github.com/bakkeby/dwm-flexipatch
+directory: ~/Computer/software/dwm-flexipatch/
 ---
 
 # dwm (dynamic window manager)

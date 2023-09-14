@@ -7,6 +7,7 @@ sr-interval: 236
 tags:
 - inbox
 - software
+directory: ~/Computer/hardware/QMK
 ---
 
 # QMK Firmware

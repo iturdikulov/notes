@@ -6,7 +6,7 @@ tags:
     - research
     - computer_science
 external: https://pragprog.com/titles/jwdsal2
-directory: ~/Computer/science/Wengrow-Data_structures_and_algorithms
+directory: ~/Computer/science/Wengrow-Data_structures_and_algorithms/
 ---
 
 # A Common-sense Guide to Data Structures and Algorithms: Level Up Your Core Programming Skills

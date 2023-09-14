@@ -7,6 +7,8 @@ tags:
 - inbox
 - vim
 - software
+external: https://neovim.io/
+directory: ~/Computer/software/nvim/
 ---
 
 # Neovim (text editor)

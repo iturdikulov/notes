@@ -5,6 +5,7 @@ date: '2023-08-19'
 tags:
 - research
 - inbox
+directory: ~/Computer/graphics/Creative_Shrimp-Hard_Surface_Modeling_In_Blender
 ---
 
 # Hard Surface Modeling In Blender
