@@ -100,7 +100,7 @@ TODO: restructure, instead more_info, use linking to notes!
 - [NNN (n³)](https://github.com/jarun/nnn) - nnn (n³) is a full-featured
   terminal file manager, [[Nnn_file_manager|more_info]]
 - [leetup](https://github.com/dragfire/leetup) - command line tool to solve
-  [[LeetCode]] problems
+  [[LeetCode_Team-LeetCode|LeetCode]] problems
 
 ## Internet
 

@@ -11,7 +11,7 @@ tags:
 # Leetgo
 
 > leetgo is a command-line tool for LeetCode that provides almost all the
-> functionality of [[LeetCode]], allowing you to do all of your [[LeetCode]]
+> functionality of [[LeetCode_Team-LeetCode|LeetCode]], allowing you to do all of your LeetCode
 > exercises without leaving the terminal. It can automatically generate skeleton
 > code and test cases, support local testing and debugging, and you can use any
 > IDE you like to solve problems.\

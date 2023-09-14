@@ -20,7 +20,7 @@ TODO: go through each item and adjust naming, metadata, etc.
 4. [[research/Šorn-Comprehensive_python_cheatsheet|Python cheatsheet]]
 5. [[research/Wengrow-Data_structures_and_algorithms|Data structures and algorithms]]
 6. [[research/Kernighan_and_Ritchie-The_C_programming_language|The C programming language]]
-7. [[LeetCode]] problems with help of [[Leetgo]]
+7. [[LeetCode_Team-LeetCode|LeetCode]] problems with help of [[Leetgo]]
 8. Learn and "utilize" [[My_awesome_software_list|software list]]
 9. Learn and "utilize" [[Neovim|neovim]] and [[My_editing_workflow|editing workflow]]
 11. [[research/Slatkin-Effective_Python|Effective python]]
