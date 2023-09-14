@@ -5,6 +5,7 @@ sr-ease: 230
 sr-interval: 174
 tags:
 - inbox
+directory: ~/Arts_and_Entertainment/russian/
 ---
 
 # Russian language

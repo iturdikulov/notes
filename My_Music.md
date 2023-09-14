@@ -6,6 +6,7 @@ sr-interval: 7
 tags:
 - inbox
 - outline
+directory: ~/Music/
 ---
 
 # My Music

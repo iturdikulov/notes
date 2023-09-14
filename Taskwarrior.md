@@ -5,6 +5,7 @@ sr-ease: 230
 sr-interval: 1
 tags:
 - inbox
+directory: ~/.task
 ---
 
 # Taskwarrior

@@ -1,0 +1,22 @@
+---
+date: 2023-09-15
+tags:
+  - inbox
+directory: ~/Computer/graphics/3D_models
+---
+
+# 3D modeling
+
+> In 3D [[Computer_graphics|computer graphics]], 3D modeling is the process of
+> developing a mathematical coordinate-based representation of any surface of an
+> object (inanimate or living) in three dimensions via specialized software by
+> manipulating edges, vertices, and polygons in a simulated 3D space.
+>
+> Three-dimensional (3D) models represent a physical body using a collection of
+> points in 3D space, connected by various geometric entities such as triangles,
+> lines, curved surfaces, etc. Being a collection of data (points and other
+> information), 3D models can be created manually, algorithmically (procedural
+> modeling), or by scanning. Their surfaces may be further defined with texture
+> mapping.\
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/3D_modeling)</cite>
+

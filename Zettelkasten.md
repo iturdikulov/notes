@@ -6,6 +6,7 @@ sr-interval: 184
 tags:
 - inbox
 - outline
+directory: ~/Wiki/
 ---
 
 # Zettelkasten Method

@@ -5,6 +5,7 @@ sr-ease: 249
 sr-interval: 14
 tags:
 - inbox
+directory: ~/Science/
 ---
 
 # Science

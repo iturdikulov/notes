@@ -5,6 +5,7 @@ sr-ease: 230
 sr-interval: 77
 tags:
 - inbox
+directory: ~/Science/math/
 ---
 
 # Mathematics

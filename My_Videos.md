@@ -6,6 +6,7 @@ sr-interval: 240
 tags:
 - inbox
 - outline
+directory: ~/Videos/
 ---
 
 # My Videos

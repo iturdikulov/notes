@@ -6,6 +6,7 @@ sr-interval: 236
 tags:
 - inbox
 - computer_graphic
+directory: ~/Computer/graphics/sprite/
 ---
 
 # Sprite (computer graphics)

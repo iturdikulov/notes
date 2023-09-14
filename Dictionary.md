@@ -5,13 +5,18 @@ sr-ease: 230
 sr-interval: 1
 tags:
 - inbox
+directory: ~/Reference/dictionary/
 ---
 
-# Dictionary, mostly English to Russian tech terms
+# Dictionary
 
-conks - жарг. глохнуть, работать с перебоями, сбоить
-solid grasp - твердое понимание или твердая хватка
-versatile - универсальность, универсальный
-coherent - связный, когерентный
-hitch - заминка, помеха, препятствие, задержка
-bearing - выдержка, терпение, отношение, подшипник
+> A dictionary is a listing of lexemes from the lexicon of one or more specific
+> languages, often arranged alphabetically (or by consonantal root for Semitic
+> languages or radical and stroke for logographic languages), which may include
+> information on definitions, usage, etymologies, pronunciations, translation,
+> etc. It is a lexicographical reference that shows inter-relationships
+> among the data.\
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Dictionary)</cite>
+
+I use [[Sdcv|electronic dictionaries]] to translations and understand the
+meaning of words.

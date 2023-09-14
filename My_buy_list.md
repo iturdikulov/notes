@@ -11,7 +11,7 @@ tags:
 # My Buy List
 
 Usually I buy things in bulk, so I don't need to buy them again for a long time.
-I'm trying to buy items [[Online_shopping|online]] or offline (everyday items).
+I'm trying to buy items [[Shopping|online]] or offline (everyday items).
 
 My purchased items stored here: [[My_inventory|inventory]].
 
