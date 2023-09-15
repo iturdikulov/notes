@@ -3,4 +3,5 @@
 .venv
 private/
 .trash/
-inbox
+inbox/**/*
+!inbox/**/*.md
