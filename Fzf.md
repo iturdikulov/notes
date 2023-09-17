@@ -16,11 +16,14 @@ tags:
 It's a general purpose fuzzy finder written in Golang that can be used with any
 list of things: files, processes, command history, git branches, etc.
 
-For [[Z_shell|Z shell]], it provides the following key bindings
+For [[Z_shell|Z shell]], it provides the following key bindings (overwrite
+existing ones), and they are very handy:
 
-- `C-t`::Paste the selected file path(s) into the command line
-- `C-r`::Paste the selected command from history into the command line
-- `M-C`::`cd` into the selected directory
+- `C-r`::History search, paste the selected command from history into the command line
+- `M-C`::Directory search, `cd` into the selected directory
+- `C-t`::Paste the selected file path(s) into the command line. Useful to insert paths into arguments of commands.
+- `vi $(fd \.yaml|fzf)`::run a command with the selected item from `fzf` as argument
+- `mv $(fd -t directory|fzf) ~/Temp/`, DANGER::move a directory from selected path to `~/Temp/`
 
 ## Fuzzy completion mode
 
@@ -45,3 +48,13 @@ Select Environment variables / aliases
 - `unset **<TAB>`
 - `export **<TAB>`
 - `unalias **<TAB>`
+
+## Use with ripgrep
+
+`rg . | fzf`::Fuzzy search every line in every file
+`rg . | fzf | cut -d ":" -f 1`::Fuzzy search every line, in every file, and return the file location
+
+## Resources
+
+- `man fzf`
+- [x] [So you've installed `fzf`. Now what?](https://andrew-quinn.me/fzf/)
