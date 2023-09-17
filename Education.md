@@ -8,3 +8,7 @@ tags:
 ---
 
 # Education
+
+## Resources
+
+- [ ] https://commoncog.com/how-to-learn-tacit-knowledge/
