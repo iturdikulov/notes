@@ -7,8 +7,13 @@ tags:
 - inbox
 - programming
 ---
-
 # Operator
+
+How you can describe operator purpose in computing?
+?
+Operator is generally like functions (with different syntax) with specific
+purpose and used very often. Usually operators defined by programming language
+itself.
 
 > In [[Computer_programming|computer programming]], operators are **constructs**
 > defined within programming languages which behave generally like functions,
@@ -23,5 +28,3 @@ tags:
 > existing operators or even define completely new operators.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Operator_\(computer_programming\))</cite>
 
-Operator is micro-function with specific purpose and used very often. Usually
-operators defined by language itself.
