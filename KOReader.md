@@ -16,6 +16,6 @@ tags:
 > — <cite>[KOReader](http://koreader.rocks/)</cite>
 
 I frequently use it to read mostly fiction books on my
-[[My_inventory##Kindle_paperwhite|kindle_paperwhite]].
+[[My_inventory##Kindle paperwhite|kindle_paperwhite]].
 
-I read user guide and leaved my notes here: [@KoreaderUserGKoread2023].
+User guide wit my notes here: [[research/KOReader_Community-KOReader_user_guide|user guide]].
