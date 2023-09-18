@@ -87,7 +87,7 @@ sha256sum -c "$VENTOY_PATH/$ISO_FILE.sha256.txt"
 
 ### Arch Linux
 
-To download, I use this URL: <https://geo.mirror.pkgbuild.com/iso/latest/>
+To download, I use [this URL](https://geo.mirror.pkgbuild.com/iso/latest/)
 
 ```sh
 ## Step 1 prepare
