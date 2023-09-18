@@ -27,3 +27,20 @@ directory: ~/Work/
 > industry, humanity has developed a variety of institutions for situating work
 > in society. As humans are diurnal, they work mainly during the day.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Work_(human_activity))</cite>
+
+I organize my work using, [[Getting_things_done_GTD|GTD]] mainly using Inbox,
+Tasks (TODO and NEXT), Daily and Weekly notes with [[Taskwarrior]].
+
+To follow external timelines I sometimes use [[Calendar|calendar]] events, but
+it's secondary task planner.
+
+To connect with colleagues I use [[Instant_messaging|IM]] and [[Email|email]]
+clients.
+
+In my work significantly help my [[Development_Environment]], [[Backup]] plan
+and daily [[Maintenance]], with attention to [[Computer_security]] practices.
+
+Currently I'm working now as a software engineer in a small company (remote,
+full-stack position, but moving into [[My_backend_developer_roadmap|backend]]
+position).
+
