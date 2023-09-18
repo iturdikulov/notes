@@ -27,5 +27,5 @@ I also need sync data between my working machine and android devices. There 2
 ways to sync data which I usually use:
 
 1. Mount android device using `mounter` script, which assigned to `<MOD-C-m>` in
-   [[DWM]]. And rsync data: `rsync -r <source> <destination>`.
-2. Complex setup, using [[Syncthing]]
+   [[DWM]]. And rsync data: `rsync -r <source> <destination>`. It's rare case.
+2. Complex setup, using [[Syncthing]].
