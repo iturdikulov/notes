@@ -18,19 +18,24 @@ If you're completely new to physical training and want to use only your own body
 weight, you can start with a basic full-body routine that targets all major
 muscle groups. Here's a 30-day plan to get you started:
 
-Week 1: Focus on building a foundation
+Remember to always listen to your body and adjust the exercises or reps as
+needed. And don't forget to fuel your body with nutritious food and get plenty
+of rest and hydration to support your progress.
 
-Day 1:
-- [x] 5 minutes of dynamic stretching (arm circles, leg swings, etc.)
-- [x] 5 minutes of dynamic stretching (arm circles, leg swings, etc.)
-- [ ] 3 sets of 10 bodyweight squats
-- [ ] 3 sets of 10 push-ups (on knees or against a wall if necessary)
-- [ ] 5 minutes of dynamic stretching (arm circles, leg swings, etc.)
-- [ ] 3 sets of 10 lunges (each leg)
-- [ ] 3 sets of 10 bench dips
-- [ ] 10-15 minutes of stretching and cool-down
+## Week 1. Focus on building a foundation
 
-Day 2:
+### Day 1
+
+- 5 minutes of dynamic stretching (arm circles, leg swings, etc.)
+- 3 sets of 10 bodyweight squats
+- 3 sets of 10 push-ups (on knees or against a wall if necessary)
+- 5 minutes of dynamic stretching (arm circles, leg swings, etc.)
+- 3 sets of 10 lunges (each leg)
+- 3 sets of 10 bench dips
+- 10-15 minutes of stretching and cool-down
+
+### Day 2
+
 - 10-15 minutes of dynamic stretching
 - 3 sets of 10 assisted pull-ups (using a sturdy table or bar)
 - 3 sets of 10 step-ups (each leg)
@@ -38,13 +43,19 @@ Day 2:
 - 3 sets of 10 bodyweight rows (using a sturdy table or bar)
 - 10-15 minutes of stretching and cool-down
 
-Day 3: Rest or low-impact cardio (brisk walking, swimming, cycling, or yoga)
+### Day 3
 
-Days 4-6: Repeat Days 1-3
+Rest or low-impact cardio (brisk walking, swimming, cycling, or yoga). Main idea
+of low-impact cardio is maintaining breathing (without shortness of breath)
+while performing it,
 
-Day 7: Rest or low-impact cardio
+### Days 4-6
 
-Week 2: Increase the intensity
+Repeat Days 1-3. You need to merge days 1-3 into one day.
+
+### Day 7 Rest or low-impact cardio
+
+## Week 2. Increase the intensity
 
 Days 8-10:
 - 10-15 minutes of dynamic stretching
@@ -95,15 +106,50 @@ Days 28-29: Repeat Days 24-26
 
 Day 30: Rest or low-impact cardio
 
-Remember to always listen to your body and adjust the exercises or reps as needed. And don't forget to fuel your body with nutritious food and get plenty of rest and hydration to support your progress.
+TODO review:
 
-[DAREBEE](https://darebee.com/)
-[The Fitness Wiki](https://thefitness.wiki/)
-[ExRx.net](https://www.exrx.net/)
+- [ ] [DAREBEE](https://darebee.com/)
+- [ ] [ExRx.net](https://www.exrx.net/)
+- [ ] [The Fitness Wiki](https://thefitness.wiki/)
+- [ ] Measure parameters (body, height)
 
-# [TODO]{.todo .TODO} source: <https://thefitness.wiki/> {#source-httpsthefitness.wiki}
+## Гимнастика для спины
 
-# [TODO]{.todo .TODO} Measure parameters (body, height) {#measure-parameters-body-height}
+Руки вверху - потянуться руками вверх по полу в течение 3-4 сек, расслабление. 5-6 раз
+
+Руки в стороны ладонями кверху - достать правую ладонь левой, и наоборот, при этом таз не поворачиваем, 5-б раз в каждую сторону.
+
+Попеременное сгибание ног в коленных суставах. 5-6 раз каждой ногой.
+
+Мах навстречу друг другу противоположной рукой и ногой (правая рука - левая нога
+и, наоборот, левая рука - правая нога). 5-6 раз
+
+Руки вдоль туловища, потянуться пяточками книзу в течение 3-4 сек., расслабление. 5-6 раз.
+
+Руки вдоль туловища, одновременно развести руки и ноги в стороны по полу. 5-6 раз.
+
+Руки в сторону, подтянуть к груди при помощи рух то правое, то левое колено. 5-6 раз каждой ногой.
+
+Руки вдоль туловища, медленно поднимая голову, посмотреть на носочки и вернуться в исходное положение. 5-6 раз.
+
+Медленно поднять ногу до угла 45° удержать ее в таком положении 3-4 сек, опустить. Выполнить это упражнение с чередованием ног (5-6 раз каждой ногой).
+
+Руки вдоль туловища, потянуться носочками книзу в течение 3-4 сек и расслабление. 5-6 раз.
+
+Ноги согнуты в коленях, стоят на ширине плеч. Опускаем колено к противоположной пятке. При этом стремимся достать пол. 5-6 раз каждой ногой.
+
+Выполнять велосипед вперед и назад в течение 1 мин. — от 30 с.
+
+Выполнять ножницы вертикальные и горизонтальные в течение 1 мин.
+
+Руки вверху - потянуться одновременно руками вверх, ногами (носочками книзу), в течение 3-4 сек и расслабление. 5-6 раз.
+
+Руки в стороны, подтягиваем одновременно оба колена к груди, обхватив их руками, при этом лбом стараемся достать колени. 5-6 раз
+
+Руки согнуты в локтях - прогибаемся в грудном отделе позвоночника. 5-7 раз.
+
+Руки в стороны - навстречу друг другу правый локоть и левое колено, и наоборот. 5-7 раз.
+
 
 # Приветствуем в рекомендуемом тренировочном плане (Recommended Routine
 
