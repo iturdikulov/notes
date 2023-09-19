@@ -31,3 +31,10 @@ I think knowing computer science help to write effective [[Code]] (goal of good
 
 I described how I learn computer science here: [[How do I study computer
 science]].
+
+## Resources
+
+- [ ] [Introduction to Computer Science and Programming in Python](https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/)
+- [ ] [[research/Abelson_and_Sussman-Structure_and_Interpretation_of_Computer_Programs_SICP|SCIP]]
+- [ ] [[research/Wikipedia-Glossary_of_computer_science]]
+- [ ] [[research/Nova_Byrne-Tech_yourself_computer_science]]

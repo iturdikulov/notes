@@ -20,5 +20,7 @@ mass reproduction or the use of recurring characters.
 
 ## Resources
 
-- [Nose Ears | Monopolies](https://wuzzy.neocities.org/)
 - [xkcd](https://xkcd.com/)
+- [explain xkcd](https://www.explainxkcd.com/wiki/index.php/Main_Page)
+- [Nose Ears | Monopolies](https://wuzzy.neocities.org/)
+- [Zen Pencils](https://www.zenpencils.com/newreaders/)

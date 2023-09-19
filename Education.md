@@ -33,4 +33,9 @@ repetition]] and implement my [[My_pet_projects|pet projects]] and
 
 ## Resources
 
+- [The Odin Project](https://www.theodinproject.com/)
+- [Full stack open](https://fullstackopen.com/en/)
+- [Udemy](https://www.udemy.com/)
+- [edX](https://www.edx.org/)
+- [Coursera](https://www.coursera.org/)
 - [ ] https://commoncog.com/how-to-learn-tacit-knowledge/
