@@ -4,6 +4,7 @@ date: 2023
 tags:
 - research
 - inbox
+- programming
 ---
 
 # The Python Tutorial
@@ -13,9 +14,12 @@ Python powerful, [[High-level_programming_language|high level]]
 [[Programming_language|programming language]].
 
 Python tutorial cover basic concepts of Python, to learn more recommended to
-check also [[research/Python_Community-Python_Standard_Library|standard library]],
-[[research/Python_Community-Python_FAQ|FAQ]], [[research/Šorn-Comprehensive_python_cheatsheet|cheatsheet]] and
-[[research/Python_Community-Python_Glossary|glossary]].
+check also these materials:
+
+- [[research/Python_Community-Python_Standard_Library|Standard library]]
+- [[research/Python_Community-Python_FAQ|FAQ]]
+- [[research/Šorn-Comprehensive_python_cheatsheet|Cheatsheet]]
+- [[research/Python_Community-Python_Glossary|Glossary]]
 
 My notes taken from the Python Tutorial. This tutorial is cover basic concepts
 of Python, most noteworthy features and language elements.
@@ -26,37 +30,36 @@ In this section described when Python usable. For example scripting, simple GUI,
 etc.
 
 Also described strong points of Python, such as rapid development, interactivity,
-simple integration, batteries-included, etc.
-
- given difference between Python and other languages, such as C,
-C++, Java, etc.
+simple integration, batteries-included, difference between Python and other
+languages, such as C, C++, Java, etc.
 
 # [2. Using the Python Interpreter](https://docs.python.org/3/tutorial/interpreter.html)
 
-- Start interactive interpreter mode: `python3`.
-- Exit <kbd>C-d</kbd>, <kbd>C-z</kbd> or `quit()`.
-- Interpreter support [[GNU_Readline]] library.
-- `python -c` - execute Python code.
-- `python -m [arg]` - execute Python module.
+- Start interactive interpreter mode: `python3` or better `ipython`
+- Exit <kbd>C-d</kbd>, <kbd>C-z</kbd> or `quit()`
+- Interpreter support [[GNU_Readline|readline]] library (which is cool)
+- `python -c` - execute Python code, useful for one-liners scripts
+- `python -m [arg]` - execute Python module, `pythom -m venv .venv`
 - `python -i` - start interactive interpreter mode, can be combined with `-c`
   and `-m`.
 
 Python support argument parsing. You can use `sys.argv` to get arguments.
 Minimal length of `sys.argv` is 1, can be empty, script name (`python -`, `-` is
-standard input) or module name (`python -m -i lzma`).
+standard input) or module name (`python -m -i lzma`). TODO: not sure about this.
 
 In `sys.argv` also stored `-c` (not sure) and `-m` arguments.
 
-By default, Python source files are treated as encoded in [[Unicode|UTF-8]], but
-standard library only use [[ASCII]] characters for identifiers, this convention
-that any portable code should follow.
+By default, Python 3 source files are treated as encoded in [[Unicode|UTF-8]],
+but standard library only use [[ASCII]] characters for identifiers, this
+convention that any portable code should follow.
 
-If you need to set not UTF-8 encoding, use `# -*- coding: encoding -*-` comment
+If you need to set non UTF-8 encoding, use `# -*- coding: encoding -*-` comment
 as first line or after [[Shebang]]:
 
 ```python
 #!/usr/bin/env python3
 # -*- coding: cp1251 -*-
+print("Я кодируюсь в cp1251")
 ```
 
 # [3. An Informal Introduction to Python](https://docs.python.org/3/tutorial/introduction.html)
@@ -79,20 +82,20 @@ print(8 / 5)  # division always returns a floating point number in Python!
 # in C - truncation toward zero if both operands are integers
 # in Python you can use // operator for same result
 print(17 // 3)  # floor division discards the fractional part
-print(17 % 3)  # the % operator returns the remainder of the division 5 * 3 + 2
+print(17 % 3)  # the % operator returns the remainder of the division (5 * 3) + 2
 print(17 / 3)  # result 5.666666666666667
 print(5 ** 2)  # 5 squared
 print(2 ** 7)  # 2 to the power of 7
 ```
 
-[[Operator|Operators]] with mixed type [[Operand]]'s
-convert the integer operand to floating point
+[[Operator|Operators]] with mixed type [[Operand|operand]]'s convert the integer
+operand to floating point, int → float.
 
 ```python
 print(4 * 3.75 - 1) # 14.0
 ```
 
-Set variables:
+Use variables:
 
 ```python
 width = 20
@@ -103,7 +106,7 @@ print(width * height)
 Use undefined variable, will raise `NameError`:
 
 ```python
-n  # try to access an undefined variable
+a = n + 1  # NameError: name 'n' is not defined
 ```
 
 In interactive mode, the last printed expression is assigned to the variable
@@ -117,36 +120,44 @@ price + _         # 113.0625
 round(_, 2)       # 113.06
 ```
 
-Python support various [[Data_type]]'s such as: Int, Float, Decimal and
-Fraction, [[Complex_number]]'s (using `j` or `J` suffix - `3+5j`).
+Python support various [[Data_type]]'s such as: Int, Float, Decimal, Fraction,
+[[Complex_number|Complex]] number's (complex using `j` or `J` suffix - `3+5j`).
 
 In Python all these types are objects, so they have methods and attributes.
 
 Python strings:
 
 ```python
+print("double quote is nice")  # double quotes
 print('spam eggs')  # single quotes
 print('doesn\'t')   # use \' to escape the single quote...
-print("doesn't")    # ...or use double quotes instead
+print("doesn't")    # or just use double quotes instead
 print('"Yes, " they said.')
 print("\"Yes,\" they said.")
 print('"Isn\'t", they said.')
 ```
 
-In interactive mode [[Escape_sequence]] not recognized, so use `print()`
-function.
+In interactive mode [[Escape_sequence|escape sequences]] not recognized, so use
+`print()` function.
 
 You can disable escaping by using raw strings:
 
 ```python
-print('C:\some\name')   # here \n means newline!
-print(r'C:\some\name')  # note the r before the quote
+print("C:\some\name")   # here \n means newline!
+print(r"C:\some\name")  # here \n is part of path, note the r before the quote
 ```
 
-A raw string may not end in an odd number of \ characters; see the FAQ  entry for more information and workarounds.
-TODO: Make clickable
+NOTE: A raw string may not end in an odd number of \ characters; see the FAQ
+entry for more information and workarounds. TODO: Make clickable.
 
-You can use multiline strings: `\` - used here to prevent printing newline.
+> Unlike other languages, special characters such as `\n` have the same meaning
+> with both single ('...') and double ("...") quotes. The only difference
+> between the two is that within single quotes you don’t need to escape `"` (but
+> you have to escape `'`) and vice versa.
+
+[[String_literal|Strings]] can be multiple lines, wrapped by `"""` triple double
+or single `'''` quotes. You can use `\` character to prevent automatically
+inserting new line in output (useful for formatting).
 
 ```python
 print("""\
@@ -154,36 +165,34 @@ Usage: thingy [OPTIONS]
      -h                        Display this usage message
      -H hostname               Hostname to connect to
 """)
+# -->
+# Usage: thingy [OPTIONS]
+#      -h                        Display this usage message
+#      -H hostname               Hostname to connect to
 ```
-
-> Unlike other languages, special characters such as \n have the same meaning
-> with both single ('...') and double ("...") quotes. The only difference
-> between the two is that within single quotes you don’t need to escape " (but
-> you have to escape \') and vice versa.
-
-[[String_literal]] can be multiple lines by `"""` triple double or single `'''`
-quotes. You can use `\` character to prevent automatically inserting new line in
-output (useful for formatting).
 
 You can also concatenate string with `+` operator or by breaking them into new
 lines or space. `*` used for repeating string (multiplication).
 
 ```python
-print(3 * 'un' + 'ium')   # 'unununium'
-print('Py' 'thon')        # 'Python'
-print('I' "n" r'O' f'm')  # 'InOm'
+print(3 * "un" + "ium")   # "unununium"
+print("Py"                # "Python"
+      "thon")
+print("I" "n" r"O" f"m")  # "InOm"
 
 # This useful for long strings.
-text = ('Put several strings within parentheses '
-        'to have them joined together.')
+text = ("Put several strings within parentheses "
+        "to have them joined together.")
 print(text)  # Put several strings within parentheses to have them joined together.
 print(text + "?")  # concatenation using +
 print(f"{text}?")  # concatenation using f-string
-print(text.__add__("?"))  # concatenation using __add__ method
+print(text.__add__("?"))  # concatenation using __add__ method, bad practice
 ```
 
 Strings can be indexed (subscripted). In python no separate character type, a
-character is a string of size one.
+character is a string of ==size one==.
+
+<!-- TODO: stopped here -->
 
 ```python
 word = 'Python'
