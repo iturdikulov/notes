@@ -30,6 +30,16 @@ required to buy (food, clothes, etc).
 - [OZON](https://www.ozon.ru/)
 - [Яндекс.Маркет](https://market.yandex.ru/)
 - [Ситилинк - интернет-магазин техники, электроники, товаров для дома и ремонта](https://www.citilink.ru/)
-- [AliExpress](https://aliexpress.ru/home.htm)
+- [AliExpress](https://aliexpress.com)
 - [Amazon.com. Spend less. Smile more.](https://www.amazon.com/)
 - [Интернет-магазин компьютерных технологий | computeruniverse](https://www.computeruniverse.net/ru)
+
+## Other shopping sites
+
+- [Djekxa.ru & Djekxa.com - Гипермаркет аккаунтов vk, odnoklassniki, twitter, instagram и другие](http://djekxa.ru/?shop=2)
+- [Social Media Accounts for Sale](https://accsmarket.com/)
+- [Bright Data - Web Data Platform](https://brightdata.com/cp/zones)
+
+## Third-party shopping services
+
+- [Shipper, доставка товаров из США](https://shipper.space/)
