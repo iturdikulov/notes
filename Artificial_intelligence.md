@@ -19,7 +19,7 @@ Sort of [[Computer_program|program]] which mimics human cognition.
 > AI applications include advanced web search engines (e.g., Google Search),
 > recommendation systems (used by YouTube, Amazon, and Netflix), understanding
 > human speech (such as Siri and Alexa), self-driving cars (e.g., Waymo and
-> Tesla), generative or creative tools ([[Chatgpt]] and AI art), automated
+> Tesla), generative or creative tools ([[ChatGPT]] and AI art), automated
 > decision-making, and competing at the highest level in strategic game systems
 > (such as chess and Go).
 >
@@ -47,4 +47,7 @@ Sort of [[Computer_program|program]] which mimics human cognition.
 
 ## Resources
 
+- [ ] [Harvard CS50’s Artificial Intelligence with Python](https://www.youtube.com/watch?v=5NgNicANyqM)
 - [There's An AI For That - The Biggest AI Aggregator](https://theresanaiforthat.com/)
+- [Artificial intelligence | TED Talks](https://www.ted.com/playlists/310/artificial_intelligence)
+

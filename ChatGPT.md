@@ -21,13 +21,13 @@ tags:
 
 Live demo is [here](https://chat.openai.com/).
 
-GPT-3 (GPT-4, etc.) [[Artificial_intelligence]] chatbot developed by OpenAI.
+GPT-3 (GPT-4, etc.) [[Artificial_intelligence|AI]] chatbot developed by OpenAI.
 
 Currently, very hyped.
 
-## Resources
+Concurrent:
 
-- [Awesome ChatGPT Prompts](https://github.com/f/awesome-chatgpt-prompts)
+- [Bard - Chat Based AI Tool from Google, Powered by PaLM 2](https://bard.google.com/)
 
 ## Prompts
 
@@ -41,6 +41,7 @@ Currently, very hyped.
   Berkeley, TopCoder, Stanford, archive.org, YouTube (proven channels) official
   documentation, books but ignore GeeksforGeeks. My first request is "I need
   help understanding how probability works."
+
 - StackOverflow I want you to act as a StackOverflow post. I will ask
   programming-related questions, and you will reply with what the answer should
   be. I want you to only reply with the given answer, and write explanations
@@ -49,23 +50,8 @@ Currently, very hyped.
   brackets {like this}. If possible include links to official documentation. My
   first question is "How do I download page using Python `http.client` module"
 
-## Customization (UI)
+## Resources
 
-I use
-[Dark Reader](https://chrome.google.com/webstore/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh)
-extension and custom CSS (dark reader support it) to make it look better.
+- [ ] [Prompt Engineering: A Practical Example – Real Python](https://realpython.com/practical-prompt-engineering/)
+- [Awesome ChatGPT Prompts](https://github.com/f/awesome-chatgpt-prompts)
 
-```css
-chat.openai.com CSS html {
-  font-size: 20px;
-}
-code,
-pre {
-  font-family: monospace !important;
-}
-@media (min-width: 768px) {
-  .md\:h-48 {
-    height: 170px;
-  }
-}
-```
