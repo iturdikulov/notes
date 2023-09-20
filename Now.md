@@ -16,11 +16,11 @@ TODO: go through each item and adjust naming, metadata, etc.
 
 1. [[My_activities|My activities]]
 2. Business automation project
-3. [[research/Python_Community-Python_Tutorial]], **priority #1**
-4. [[research/Šorn-Comprehensive_python_cheatsheet|Python cheatsheet]], **priority #1**
-5. [[research/Wengrow-Data_structures_and_algorithms|Data structures and algorithms]], **priority #2**
-6. [[research/Kernighan_and_Ritchie-The_C_programming_language|The C programming language]], **priority #3**
-7. [[LeetCode_Team-LeetCode|LeetCode]] problems with help of [[Leetgo]], **priority #4**
+3. [[research/Python_Community-Python_Tutorial]]
+4. [[research/Šorn-Comprehensive_python_cheatsheet|Python cheatsheet]]
+5. [[research/Wengrow-Data_structures_and_algorithms|Data structures and algorithms]]
+6. [[research/Kernighan_and_Ritchie-The_C_programming_language|The C programming language]]
+7. [[LeetCode_Team-LeetCode|LeetCode]] problems with help of [[Leetgo]]
 8. Learn and "utilize" [[My_awesome_software_list|software list]]
 9. Learn and "utilize" [[Neovim|neovim]] and [[My_editing_workflow|editing workflow]]
 11. [[research/Slatkin-Effective_Python|Effective python]]
