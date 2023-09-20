@@ -8,6 +8,9 @@ external: https://based.cooking/pan-pizza/
 
 # Pan Pizza
 
+![Pan Pizza](./img/Pizza_pan.jpg)
+_Pan Pizza_
+
 - ⏲️ Prep time: 30 min
 
 ## Ingredients

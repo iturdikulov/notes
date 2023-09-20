@@ -11,10 +11,11 @@ tags:
 
 ## Resources
 
-- [Based Cooking](https://based.cooking/)
-- [[Cutlets|Cutlets]]
+- [[Cutlets]]
+- [[Pan_Pizza|Pan Pizza]]
 - [[Semolina_porridge|Semolina porridge]]
-- [[Creamy_mashed_potatoes]]
+- [[Creamy_mashed_potatoes|Creamy mashed potatoes]]
+- [Based Cooking](https://based.cooking/)
 - [CalorieKing](https://www.calorieking.com/us/en/)
 - [Based Cooking](https://based.cooking/)
 - [Cocktail Builder](https://www.cocktailbuilder.com/)

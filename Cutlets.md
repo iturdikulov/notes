@@ -6,6 +6,7 @@ sr-interval: 250
 tags:
 - inbox
 - IRL
+external: https://based.cooking/pozharskiye-cutlets/
 ---
 
 # Cutlets
@@ -39,18 +40,41 @@ _Pozharsky cutlet_
 > "Kiev-style cutlet".\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Cutlet#Cuisines_of_Russia,_Ukraine_and_other_countries_of_former_Soviet_Union)</cite>
 
-## Recipe
+Famous Russian cutlet recipe, favoured by Nicholas I. Despite what seems to be a
+massive amount of butter required, they’re rather light, yet creamy.
 
-### Ingredients
+## Ingredients
 
-- chicken mince (~400g)
-- 1 onion
-- 1 egg
-- vegetable oil
-- salt
+- Chicken mince
+- Butter (originally, 1 part butter per 2 parts chicken; 1/4 works perfectly fine)
+- Eggs (~1 egg per 500g chicken, plus 3-5 for the breading)
+- A couple white bread loaves (store-bought breadcrumbs also suffice, but require more eggs)
+- Spices/salt (optional, recommended)
+- Non-lard based, non-chunky sauce (optional)
+- Onions (optional)
 
-### Directions
+## Directions
 
-1. Into chicken mince add grated onion, egg, salt (1 teaspoon) and mix well.
-2. Taste and add more salt if needed.
-3. Roll test cutlet and fry in hot oil on medium+ heat.
+1. Prepare 2 medium-sized and 1 extra large bowl, a few plates and a regular
+   frying pan.
+2. Get the chicken out of the cold and into the XL bowl. Butter, too, but onto a
+   plate.
+3. While they warm up, crumb up the bread. By hand. The smaller, the better. If
+   you’re using store-bought crumbs, just put those into a bowl.
+4. Mince the chicken, if necessary. Mince the onions, if you desire them. Divide
+   butter, once softened, into medium bits.
+5. Add eggs to the meat and put a few into a medium bowl; mix both bowls'
+   contents thoroughly.
+6. Add the spices, salt and/or sauce of your choosing. Some may consider this
+   barbaric, but I found that Heinz’s mustard ketchup works exceptionally well
+with the recipe. They’ll come out a tad red, though.
+7. Add the softened-up butter to the XL bowl and mix thoroughly.
+8. MAKE A TEST CUTLET by rolling up a small ball of the mince, then dipping it
+   into the bread, then into the eggs, then into the bread again, compounding
+the breading slightly between dips. More dips means less leaked butter/juice,
+but don’t overdo it lest you want more bread than meat in your cutlet.
+9. Fry, let cool and then taste the cutlet. (Pozharskiye are very juicy, so
+   liquid in the pan is to be expected.)
+10. If unsatisfied, add more flavoring or throw everything away. If satisfied,
+    repeat step 9. (Most cutlet sizes work well. Haven’t tried making giant or
+tiny ones, though.)
