@@ -12,7 +12,7 @@ directory: ~/Videos/
 # My Videos
 
 - [[Mpv]] as main media viewer.
-- [[Youtube]]
+- [[YouTube]]
 - selfhosted
 - short
 - learn, CS, gamedev, irl

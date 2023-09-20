@@ -13,9 +13,24 @@ tags:
 I started track of movies I watched in 2022. So this list is of course
 incomplete.
 
+## The Fill-In Filmography
+
+Good inspiration for watching movies.
+
+> A massive mapping of cinematic genres (with representative movies for each
+> category), this big-screen behemoth is fully customizable to reflect your
+> personal tastes—just grab a pencil and fill in the circle next to each film to
+> mark it as “Loved It,” “Liked It,” or merely “Watched It”! Whether your prefer
+> Period Pieces, Musicals, or tales of Haunted Dolls, there’s something here for
+> cinephiles of every sort.\
+> — <cite>[popchart](https://popchart.co/products/the-fill-in-filmography)</cite>
+
+![The Fill-In Filmography](./img/The_Fill-In_Filmography.webp)
+
 ## To watch/rewatch
 
 - [x] Невероятный мир глазами Энцо, dramatic, family movie 9/10
+- [ ] Sicario (2015 film)
 - [ ] Голый пистолет
 - [ ] Гнев человеческий
 - [ ] Lord of the Rings: The Two Towers (2002)
