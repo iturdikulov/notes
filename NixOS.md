@@ -54,8 +54,13 @@ For example this repo: [https://github.com/cli/cli](https://github.com/cli/cli)
 nix-shell -p nix-prefetch-git jq --run \
   "nix hash to-sri sha256:\$(nix-prefetch-git --url https://github.com/cli/cli --quiet --rev v2.20.2 | jq -r '.sha256')"
 
+nix-shell -p nix-prefetch-git jq --run \
+  "nix hash to-sri sha256:\$(nix-prefetch-git --url https://github.com/Inom-Turdikulov/dwm-flexipatch --quiet | jq -r '.sha256')"
+
 # REV
-nix-shell -p nix-prefetch-git jq --run "nix-prefetch-git --url https://github.com/cli/cli --quiet --rev master | jq -r '.rev'"
+nix-shell -p nix-prefetch-git jq --run "nix-prefetch-git --url https://github.com/cli/cli --quiet --rev v2.20.2 | jq -r '.rev'"
+
+nix-shell -p nix-prefetch-git jq --run "nix-prefetch-git --url https://github.com/Inom-Turdikulov/dwm-flexipatch --quiet | jq -r '.rev'"
 ```
 
 ## TODO:
