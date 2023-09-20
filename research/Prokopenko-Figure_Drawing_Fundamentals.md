@@ -10,4 +10,6 @@ directory: ~/Arts_and_Entertainment/visual_arts/Prokopenko-Figure_Drawing_Fundam
 
 # Figure Drawing Fundamentals
 
+Get classical training on how to draw male and female figures. Course contains
+several drawing fundamentals including gesture, measuring, and shading.
 
