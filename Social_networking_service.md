@@ -17,6 +17,10 @@ tags:
 
 ## Resources
 
+- [X. It’s what’s happening / X](https://twitter.com/)
+- [LinkedIn](https://www.linkedin.com/)
+- [VK](https://vk.com/)
+- [Instagram](https://www.instagram.com/)
+- [Collects direct links and deleting instructions to make account termination easy](https://www.accountkiller.com/en/popular)
 - [Djekxa.ru & Djekxa.com - Гипермаркет аккаунтов vk, odnoklassniki, twitter, instagram и другие](http://djekxa.ru/?shop=2)
 - [Social Media Accounts for Sale](https://accsmarket.com/)
-- [Collects direct links and deleting instructions to make account termination easy](https://www.accountkiller.com/en/popular)
