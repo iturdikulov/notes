@@ -16,3 +16,7 @@ solution, based on [[SingleFile_CLI|SingleFile CLI]],
 [[Postlight_Parser|Postlight Parser]] based HTML DOM dump.
 
 TODO: implement/write own note
+
+## TODO
+
+- [ ] archive external resources from my wiki > less than 100 mb?
