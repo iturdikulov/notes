@@ -31,7 +31,7 @@ Right now I'm trying to follow my personal
 I can also spend time with my family, friends and pets or consume some media,
 for example:
 
-- Watching [[My_Movies|movies]], [[Twitch]], [[Youtube]]
+- Watching [[My_Movies|movies]], [[Twitch]], [[YouTube]]
 - Playing [[My_Games|games]], mostly video games
 - Reading [[My_read_books|books]] and [[News|news]]
 - Listening [[My_Music|music]]

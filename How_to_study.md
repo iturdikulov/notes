@@ -59,7 +59,7 @@ after finishing studying.
 6. Active Recitation: The best way to learn is to ==teach somebody== else. If
    there's no one, teach an empty chair, teach virtual public, record video, or
    write it out.
-7. How to use textbooks? Use "==[[Sq3R_method]]==": Survey, Question,
+7. How to use textbooks? Use "==[[SQ3R_method]]==": Survey, Question,
    Read, Recall, Repetition.
 8. ==Acronyms== and interacting images can help you remember and memorize facts,
    terms, and idioms.

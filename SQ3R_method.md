@@ -5,12 +5,21 @@ sr-ease: 210
 sr-interval: 1
 tags:
 - inbox
+- development
 ---
 
-# Sq3R reading method
+# SQ3R reading method
 
-This is sort of optimization of the reading process.
-This note are based on [@UXGIZVBL#No_Author_2023_Sq3R].
+> This is sort of optimization of the reading process.
+> SQRRR or SQ3R is a reading comprehension method named for its five steps:
+> **survey, question, read, recite and review**. The method was introduced by
+> Francis P. Robinson, an American education philosopher in his 1946 book
+> Effective Study.
+>
+> Similar methods developed subsequently include PQRST and KWL table.\
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/SQ3R)</cite>
+
+What SQ3R stands for?::Survey, Question, Read, Recite, Review
 
 ## How I use it
 

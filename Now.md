@@ -7,7 +7,7 @@ tags:
 # Now
 
 My current focus is on following things, order is not important. All with help
-of [[Spaced_repetition|spaced repetition]], [[Sq3R_method|Sq3R]],
+of [[Spaced_repetition|spaced repetition]], [[SQ3R_method|Sq3R]],
 [[Zettelkasten|zettelkasten]] and [[Education|education]].
 
 ## Priorities

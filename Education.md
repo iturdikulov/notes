@@ -20,7 +20,7 @@ Since I'm use [[Zettelkasten]], I can create new notes based on education
 materials and extend them with different sources, my experience, etc. That
 materials have `research` tag.
 
-To study effectively I use [[Sq3R_method]], [[How_to_study|study techniques]]
+To study effectively I use [[SQ3R_method]], [[How_to_study|study techniques]]
 and various [[How_to_solve_it|methods]].
 
 It's not enough to study only, need continuously practice (use your knowledge)
