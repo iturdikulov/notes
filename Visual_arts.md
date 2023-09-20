@@ -18,3 +18,7 @@ directory: ~/Arts_and_Entertainment/visual_arts/
 
 Currently, I am working on [[30_day_drawing_challenge|my drawing challenge]] and
 [[Drawbox]] course.
+
+## Resources
+
+- [ArtStation - All Channels](https://www.artstation.com/?sort_by=community&dimension=all)
