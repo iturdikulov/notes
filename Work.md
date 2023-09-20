@@ -44,3 +44,9 @@ Currently I'm working now as a software engineer in a small company (remote,
 full-stack position, but moving into [[My_backend_developer_roadmap|backend]]
 position).
 
+## Resources
+
+- [Upwork](https://www.upwork.com/)
+- [Freelancer](https://www.freelancer.com/)
+- [Guru.com](https://www.guru.com/)
+- [PeoplePerHour.com](https://www.peopleperhour.com/)
