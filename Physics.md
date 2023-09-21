@@ -16,5 +16,8 @@ tags:
 
 ## Resources
 
+- [ ] [Metric prefix - Wikipedia](https://en.wikipedia.org/wiki/Metric_prefix)
+- [ ] [Physics Index](https://www.mathsisfun.com/physics/index.html)
+- [ ] [Electromagnetic radiation - Wikipedia](https://en.wikipedia.org/wiki/Electromagnetic_radiation)
 - [ ] [Designing a physics engine](https://winter.dev/articles/physics-engine)
 - [Physics — Susan Rigetti](https://www.susanrigetti.com/physics)
