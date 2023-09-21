@@ -23,4 +23,6 @@ tags:
 
 ## Resources
 
+- [ ] [How does Computer Hardware Work?  - YouTube](https://www.youtube.com/watch?v=d86ws7mQYIg)
+- [ ] [PDP-11 - Wikipedia](https://en.wikipedia.org/wiki/PDP-11)
 - [Pick parts. Build your PC. Compare and share. - PCPartPicker](https://pcpartpicker.com/)

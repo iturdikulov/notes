@@ -15,5 +15,8 @@ https://www.wikihow.com/Category:DIY
 
 ## Resources
 
+- [ ] [Ringodoro - self made Pomodoro timer](https://blog.pendowski.com/ringodoro-self-made-pomodoro-timer/)
 - [ ] [Матричная клавиатура и Ардуино — использование прерываний / Habr](https://habr.com/en/articles/664892/)
 - [ ] [Tutorial 01 for Arduino: Getting Acquainted with Arduino - YouTube](https://www.youtube.com/watch?v=fCxzA9_kg6s)
+- [ ] [TheCrafsMan SteadyCraftin - YouTube](https://www.youtube.com/@TheCrafsMan/videos)
+- [ ] [AlexGyver - YouTube](https://www.youtube.com/@AlexGyverShow/videos)

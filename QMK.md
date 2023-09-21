@@ -77,15 +77,9 @@ TODO: describe keys
 
 ![Colemak-DH ANSI](./img/Colemak-DH_ANSI.png)
 
-## Inspiration
-
-https://peterxjang.com/img/miryoku-layout.png
-
 ## Resources
 
+- [ ] [My current keyboard layout :: Eli Rodríguez Pérez — Personal blog](https://eli-rodriguez.com/en/posts/my-current-keyboard-layout/)
+- [ ] [QMK Basics: Tap and hold actions: Tap into your modifiers – Thomas Baart](https://thomasbaart.nl/2018/12/09/qmk-basics-tap-and-hold-actions/)
 - [QMK Configurator](https://config.qmk.fm/#/kbdfans/kbd75/rev2/LAYOUT)
 - [QMK JSON converter](https://jhelvy.shinyapps.io/qmkjsonconverter/)
-
-## TODO
-
-- [ ] https://thomasbaart.nl/2018/12/09/qmk-basics-tap-and-hold-actions/#:~:text=Tapping%20Force%20Hold%3A%20Allows%20you,modifier%20without%20pressing%20another%20key.

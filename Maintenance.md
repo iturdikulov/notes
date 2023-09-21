@@ -41,6 +41,7 @@ Here I collect all my maintenance tasks/techniques/tools.
 Here I collect resources to maintenance my hardware. Mostly
 [[Computer|computer]] hardware.
 
+- [EIZO monitor test](https://www.eizo.be/monitor-test/)
 - [UFO Test: Vertical Scrolling Text](https://www.testufo.com/framerates-text)
 - [Atrise Lutcurve - Визуальная калибровка дисплея](http://www.atrise.com/lutcurve/ru/)
 - [Keyboard Tester](https://www.keyboardtester.com/tester.html)

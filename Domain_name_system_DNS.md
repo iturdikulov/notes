@@ -42,6 +42,12 @@ tags:
 
 ## Resources
 
+- [ ] [What is DNS? | How DNS works | Cloudflare](https://www.cloudflare.com/learning/dns/what-is-dns/)
+- [ ] [What is a Domain Name? - Learn web development | MDN](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_domain_name)
+- [ ] [DNS 101 Miniseries - #1 - What does DNS do ? - YouTube](https://www.youtube.com/watch?v=zEmUuNFBgN8)
+- [ ] [How DNS works. What is DNS? Learn how step by step.](https://howdns.works/)
+- [ ] [What is a Domain Name? - A Beginners Guide to How Domain Names Work! - YouTube](https://www.youtube.com/watch?v=Y4cRx19nhJk)
+- [ ] [DNS - MDN Web Docs Glossary: Definitions of Web-related terms | MDN](https://developer.mozilla.org/en-US/docs/Glossary/DNS)
 - [Namecheap](https://vivaldi.com/bk/namecheap-en-us)
 - [\*Nic.Name - регистрация и продление доменов .RU .SU .РФ](https://www.regnic.name/)
-  https://www.cloudflare.com/
+- [Cloudflare Registrar | New Domain Registration | Cloudflare](https://www.cloudflare.com/products/registrar/)
