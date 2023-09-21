@@ -55,6 +55,7 @@ btrfs fi show / # validate size
 
 ## Resources
 
-- https://btrfs.readthedocs.io/en/latest/index.html
-- https://docs.docker.com/storage/storagedriver/btrfs-driver/
-- https://www.reddit.com/r/GUIX/comments/qe7sd8/btrfs_maintenance_on_guix_system_partition/
+- [ ] [digint/btrbk: Tool for creating snapshots and remote backups of btrfs subvolumes](https://github.com/digint/btrbk)
+- [Welcome to BTRFS documentation! — BTRFS documentation](https://btrfs.readthedocs.io/en/latest/index.html)
+- [Use the BTRFS storage driver | Docker Docs](https://docs.docker.com/storage/storagedriver/btrfs-driver/)
+- [btrfs maintenance on guix system partition : r/GUIX](https://www.reddit.com/r/GUIX/comments/qe7sd8/btrfs_maintenance_on_guix_system_partition/)

@@ -8,3 +8,7 @@ tags:
 ---
 
 # Virtual machine
+
+## Resources
+
+- [bryansteiner/gpu-passthrough-tutorial, KVM](https://github.com/bryansteiner/gpu-passthrough-tutorial)

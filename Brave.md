@@ -32,6 +32,7 @@ Key features for me:
 - [brave://media-internals](brave://media-internals) - media internals
 - [brave://gpu](brave://gpu) - gpu info
 - [brave://version](brave://version) - version info
+- [What keyboard shortcuts can I use in Brave? – Brave Help Center](https://support.brave.com/hc/en-us/articles/360032272171-What-keyboard-shortcuts-can-I-use-in-Brave-)
 
 ## Troubleshooting
 

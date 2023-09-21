@@ -15,6 +15,8 @@ https://www.wikihow.com/Category:DIY
 
 ## Resources
 
+- [Ронэс: Дельные страницы | Ваш технический справочник](http://rones.su/)
+- [ ] [Wi-Fi internet radio from a router with station switching capability / Habr](https://habr.com/en/articles/754150/)
 - [ ] [Ringodoro - self made Pomodoro timer](https://blog.pendowski.com/ringodoro-self-made-pomodoro-timer/)
 - [ ] [Матричная клавиатура и Ардуино — использование прерываний / Habr](https://habr.com/en/articles/664892/)
 - [ ] [Tutorial 01 for Arduino: Getting Acquainted with Arduino - YouTube](https://www.youtube.com/watch?v=fCxzA9_kg6s)

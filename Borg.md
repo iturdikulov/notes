@@ -9,3 +9,7 @@ tags:
 ---
 
 # Borg
+
+## Resources
+
+- [ ] [Borg backup - NixOS Wiki](https://nixos.wiki/wiki/Borg_backup)

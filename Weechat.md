@@ -9,3 +9,7 @@ tags:
 ---
 
 # WeeChat
+
+## Resources
+
+- [My always up-to-date WeeChat configuration (weechat-dev)](https://gist.github.com/pascalpoitras/8406501)

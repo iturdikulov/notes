@@ -9,3 +9,7 @@ tags:
 ---
 
 # Newsboat
+
+## Resources
+
+- [ ] [Tobias Alexander Franke - In praise of syndication](https://www.tobias-franke.eu/log/2019/08/07/in-praise-of-syndication.html)

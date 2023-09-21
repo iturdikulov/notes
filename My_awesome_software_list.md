@@ -361,3 +361,7 @@ TODO: actualize this list
 - `antimicro` - bind keyboard and mouse actions to your gamepad or joystick
 https://github.com/AntiMicroX/antimicrox-profiles/tree/master/applications
 - REVIEW this list, add ncspot, termdown, etc (check nixos modules)
+
+## Resources
+
+- [ ] [erikw/vim-keybindings-everywhere-the-ultimate-list](https://github.com/erikw/vim-keybindings-everywhere-the-ultimate-list)

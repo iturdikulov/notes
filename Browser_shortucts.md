@@ -11,8 +11,7 @@ tags:
 
 # Browser shortucts
 
-This is a list of keyboard shortcuts which I use in my browser.
-Currently, I use [[Firefox]] and [[Brave]].
+This is a list of keyboard shortcuts which I use in my [[Web_browser|web browser]].
 
 Also, would be useful to check [[Vimium|vimium]] note.
 
