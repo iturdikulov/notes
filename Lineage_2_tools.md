@@ -262,3 +262,8 @@ Geobuilder - creates geodata with client. U can setup startup map in l2.ini.
 PandasBuildConv -> converts client-builded geodata into _conv.dat
 
 HDGE -> geodata editor/converter
+
+
+## Resources
+
+- [ ] [Lineage 2 Wiki | Fandom](https://lineage2.fandom.com/wiki/Lineage_2_Wiki)

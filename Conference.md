@@ -17,6 +17,7 @@ I prefer technical conferences, which I visit mostly online.
 
 ## Resources
 
-- [Tech conferences | Confs.tech](https://confs.tech/#)
+- [Join us at PyCon](https://pycon.org/)
+- [Tech conferences | Confs.tech](https://confs.tech/)
 - [Conference Management Software | COMS](https://conference-service.com/index.html)
 - [Events on Data Science, Machine Learning, AI & Analytics - KDnuggets](https://www.kdnuggets.com/meetings/index.html)
