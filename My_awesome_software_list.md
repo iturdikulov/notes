@@ -364,4 +364,6 @@ https://github.com/AntiMicroX/antimicrox-profiles/tree/master/applications
 
 ## Resources
 
+- [ ] [List of applications - ArchWiki](https://wiki.archlinux.org/title/list_of_applications)
 - [ ] [erikw/vim-keybindings-everywhere-the-ultimate-list](https://github.com/erikw/vim-keybindings-everywhere-the-ultimate-list)
+- [ ] [ibraheemdev/modern-unix: A collection of modern/faster/saner alternatives to common unix commands.](https://github.com/ibraheemdev/modern-unix)

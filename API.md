@@ -42,3 +42,4 @@ versioned or not, etc.
 
 - [ ] [What is an API?](https://www.youtube.com/watch?v=s7wmiS2mSXY)
 - [ ] [What is an API? - Application Programming Interfaces Explained - AWS](https://aws.amazon.com/what-is/api/)
+- [ ] [API Security Best Practices](https://roadmap.sh/best-practices/api-security)

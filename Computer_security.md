@@ -20,4 +20,5 @@ tags:
 
 ## Resources
 
+- [ ] [Introduction - OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/index.html)
 - [Keybase](https://keybase.io/)

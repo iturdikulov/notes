@@ -71,3 +71,7 @@ It supports any popular [[Programming_paradigm]]:
 
 Rich [[research/Python_Community-Python_Standard_Library|standard library]] make it's "batteries
 included" language.
+
+## Resources
+
+- [ ] [Learn to become a modern Python developer](https://roadmap.sh/python)

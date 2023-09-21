@@ -65,7 +65,9 @@ reboot
 
 ## Resources
 
-- https://docs.crp.to/usersguide.html
-- https://0pointer.net/blog/unlocking-luks2-volumes-with-tpm2-fido2-pkcs11-security-hardware-on-systemd-248.html
-- https://github.com/Yubico/pam-u2f
-- https://support.yubico.com/hc/en-us/articles/360016649099-Ubuntu-Linux-Login-Guide-U2F
+- [OnlyKey User's Guide | Docs](https://docs.onlykey.io/usersguide.html)
+- [Unlocking LUKS2 volumes with TPM2, FIDO2, PKCS#11 Security Hardware on systemd 248](https://0pointer.net/blog/unlocking-luks2-volumes-with-tpm2-fido2-pkcs11-security-hardware-on-systemd-248.html)
+- [Yubico/pam-u2f: Pluggable Authentication Module (PAM) for U2F and FIDO2](https://github.com/Yubico/pam-u2f)
+- [Ubuntu Linux Login Guide - U2F – Yubico](https://support.yubico.com/hc/en-us/articles/360016649099-Ubuntu-Linux-Login-Guide-U2F)
+- [U2F setup for sudo by Brendan Horan](https://www.horan.hk/blog/u2f-pam-sudo/)
+- [U2F setup for lightdm login/screensaver by Brendan Horan](https://www.horan.hk/blog/u2f-pam-login/)

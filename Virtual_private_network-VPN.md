@@ -17,4 +17,7 @@ tags:
 
 ## Resources
 
+- [[Wireguard]]
+- [Proton VPN: Fast, Secure & Private Online VPN Service | Proton VPN](https://protonvpn.com/)
 - [Mullvad VPN](https://mullvad.net/en/account/#/login?next=/)
+- [ ] [3X-UI: Shadowsocks-2022 & XRay (XTLS) сервер с простой настройкой и приятным интерфейсом / Habr](https://habr.com/en/articles/735536/)

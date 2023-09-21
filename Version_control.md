@@ -22,3 +22,6 @@ specific version of a file.
 Modern developer tools can use multiple version control systems at the same
 time. For example GIT and vim's built-in undo system (can be extended with
 undotree plugin).
+
+I also use cloud based VCS services like [[GitHub]] and [[GitLab]] to store my
+source code, build artifacts and other files.

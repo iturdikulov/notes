@@ -27,3 +27,7 @@ Personally I use [[Arch_Linux|Arch Linux]] and [[NixOS]] distributions.
 - [[Magic_sysrq_key]]
 - X11 forwarding
 - [Linux kernel features - Wikipedia](https://en.wikipedia.org/wiki/Category:Linux_kernel_features)
+
+## Resources
+
+- [ ] [The 50 Most Popular Linux & Terminal Commands - Full Course for Beginners - YouTube](https://www.youtube.com/watch?v=ZtqBQ68cfJc)

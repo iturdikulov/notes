@@ -17,7 +17,10 @@ tags:
 
 Here I store basic coreutils and similar tools that I use on a daily basis.
 
+## Resources
+
 - [ ] iostat
+- [ ] [GNU Coreutils Cheat Sheet](https://catonmat.net/gnu-coreutils-cheat-sheet)
 - [[GNU_Sed]]
 - [[GNU_Readline]]
 - [[GNU_Privacy_Guard]]

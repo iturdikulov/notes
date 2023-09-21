@@ -30,3 +30,7 @@ My favorite operating systems:
 Other operating systems:
 
 - [[Microsoft_Windows]]
+
+## Resources
+
+- [ ] [Computer Basics: Understanding Operating Systems - YouTube](https://www.youtube.com/watch?v=fkGCLIQx1MI)

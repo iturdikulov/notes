@@ -6,6 +6,7 @@ sr-interval: 209
 tags:
 - inbox
 - software
+external: https://git-scm.com/
 ---
 
 # Git Version Control System
@@ -35,16 +36,15 @@ git config --global user.name "First Lastname"
 git config --global user.email "user@domain.tld"
 ```
 
-## Additional Resources
+## Resources
 
-TODO: check this resources
-
-- <https://github.com/bennadel/git-cheat-sheet>
-- More information: <https://git-scm.com/>.
-- Remove file from git history (extra tool):
-  <https://stackoverflow.com/questions/43762338/how-to-remove-file-from-git-history>
+- [ ] [version control - How to remove/delete a large file from commit history in the Git repository? - Stack Overflow](https://stackoverflow.com/questions/2100907/how-to-remove-delete-a-large-file-from-commit-history-in-the-git-repository/61602985#61602985)
+- [ ] [Git Cheat Sheet, by GitLab](https://about.gitlab.com/images/press/git-cheat-sheet.pdf)
+- [ ] [git index - Git - Difference Between 'assume-unchanged' and 'skip-worktree' - Stack Overflow](https://stackoverflow.com/questions/13630849/git-difference-between-assume-unchanged-and-skip-worktree)
+- [ ] [bennadel/git-cheat-sheet: A small git cheat sheet of common use-cases for my future self.](https://github.com/bennadel/git-cheat-sheet)
+- [ ] [github - How to remove file from Git history? - Stack Overflow](https://stackoverflow.com/questions/43762338/how-to-remove-file-from-git-history)
   `git filter-repo --invert-paths --path <path to the file or directory>`
 - [[research/Chacon_and_Ben-Pro_Git|Pro Git]]
-- [[Diff]]
 - [Git - gittutorial Documentation](https://git-scm.com/docs/gittutorial)
 - [The ULTIMATE Git workflow using Neovim's Fugitive, Telescope & Git-Signs!](https://www.youtube.com/watch?v=IyBAuDPzdFY)
+- [[Diff]]

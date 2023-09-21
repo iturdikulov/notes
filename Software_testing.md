@@ -13,3 +13,8 @@ tags:
 > validation and verification. Software testing can also provide an objective,
 > independent view of the software to allow the business to appreciate and
 > understand the risks of software implementation.
+
+
+## Resources
+
+- [Next-Generation Mobile Apps and Cross Browser Testing Cloud | LambdaTest](https://www.lambdatest.com/)

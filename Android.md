@@ -33,3 +33,5 @@ ways to sync data which I usually use:
 ## Resources
 
 - [Android Debug Bridge (adb)](https://developer.android.com/tools/adb)
+- [XDA Portal & Forums](https://www.xda-developers.com/)
+- [4PDA](https://4pda.to/forum/index.php)

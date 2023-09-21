@@ -11,11 +11,11 @@ external: https://en.wikipedia.org/wiki/Glossary_of_computer_science
 
 # Glossary of [[Computer_science]]
 
-- TODO: review all definitions
+You can check also this resource: [Dictionary of Algorithms and Data Structures](https://xlinux.nist.gov/dads/)
 
 ## A
 
-- abstract data type (ADT)
+- Abstract data type (ADT)
 
 > A mathematical model for data types in which a data type is defined by its
 > behavior (semantics) from the point of view of a user of the data,

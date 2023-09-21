@@ -27,3 +27,8 @@ principle of [[Binary_search_algorithm|binary_search]].
 | Search    | O(log _n_)  | O(_n_)         |
 | Insert    | O(log _n_)  | O(_n_)         |
 | Delete    | O(log _n_)  | O(_n_)         |
+
+
+## Resources
+
+- [ ] [CS50 2020 - Lecture 5 - Data Structures - YouTube](https://www.youtube.com/watch?v=2T-A_GFuoTo&t=4833s)

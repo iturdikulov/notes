@@ -9,3 +9,8 @@ tags:
 ---
 
 # Rust (programming language)
+
+
+## Resources
+
+- [ ] [Rust vs. Go: Why They’re Better Together - The New Stack](https://thenewstack.io/rust-vs-go-why-theyre-better-together/)

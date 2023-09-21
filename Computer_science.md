@@ -34,7 +34,11 @@ science]].
 
 ## Resources
 
+- [ ] [Algorithms on Graphs | Coursera](https://www.coursera.org/learn/algorithms-on-graphs)
+- [ ] [Computer science | Computing | Khan Academy](https://www.khanacademy.org/computing/computer-science)
+- [ ] [Introduction to Computer Science and Programming | Electrical Engineering and Computer Science | MIT OpenCourseWare](https://ocw.mit.edu/courses/6-00sc-introduction-to-computer-science-and-programming-spring-2011/)
 - [ ] [Introduction to Computer Science and Programming in Python](https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/)
 - [ ] [[research/Abelson_and_Sussman-Structure_and_Interpretation_of_Computer_Programs_SICP|SCIP]]
 - [ ] [[research/Wikipedia-Glossary_of_computer_science]]
 - [ ] [[research/Nova_Byrne-Tech_yourself_computer_science]]
+- [ ] [Хирьянов, 2020 Алгоритмы и структуры данных (С++) - YouTube](https://www.youtube.com/playlist?list=PLRDzFCPr95fL_5Xvnufpwj2uYZnZBBnsr)

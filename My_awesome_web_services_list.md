@@ -9,6 +9,8 @@ tags:
 
 List of web services which I often use, or can use in the future.
 
+- [[GitHub]]
+- [[GitLab]]
 - [IMDb: Ratings, Reviews, and Where to Watch the Best Movies & TV Shows](https://www.imdb.com/)
 - [[YouTube]]
 - [[Twitch]]

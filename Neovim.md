@@ -977,10 +977,15 @@ this.
 `C-SPC`::switch project using `kitty sessionizer`
 [script](file:///home/inom/.local/bin/kitty-sessionizer.sh)
 
+## Cheat sheet
+
+![](Vim_Cheat_Sheet_for_Programmers.pdf)
+
 ## Resources
 
+- [ ] [7 Habits For Effective Text Editing 2.0 - YouTube](https://www.youtube.com/watch?v=eX9m3g5J-XA)
+- [ ] [Vim - YouTube](https://www.youtube.com/playlist?list=PLcjongJGYetkY4RFSVftH43F91vgzqB7U)
 - [x] [@DebuggingInNe] Debugging In Neovim (ft BashBunni and TJ DeVries) - YouTube
-- [Vim 01 - Основы - YouTube](https://www.youtube.com/watch?v=zNnsNtBF80g)
 - [ ] http://jrmiii.com/attachments/Vim.pdf
 - [ ] Current mail goal: [[My_editing_workflow]]
 - [ ] https://stackoverflow.com/questions/509690/how-can-you-list-the-matches-of-vims-search

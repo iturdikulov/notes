@@ -20,6 +20,11 @@ tags:
 - [ ] [What is a web server? - Learn web development | MDN](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_web_server)
 - [ ] [What is the difference between webpage, website, web server, and search engine? - Learn web development | MDN](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/Pages_sites_servers_and_search_engines)
 
+### Backend
+
+- [ ] [Backend Developer Roadmap: What is Backend Development?](https://roadmap.sh/backend)
+
 ### Frontend
 
 - [React](https://react.dev/learn)
+- [CodePen: Online Code Editor and Front End Web Developer Community](https://codepen.io/trending)

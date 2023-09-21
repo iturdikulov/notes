@@ -75,4 +75,4 @@ Remove the most recent bookmark::`mB`
 
 - `:h netrw`
 - `:h netrw-quickmap`
-- [Using Netrw, vim's builtin file explorer](https://vonheikemen.github.io/devlog/tools/using-netrw-vim-builtin-file-explorer/)
+- [x] [Using Netrw, vim's builtin file explorer](https://vonheikemen.github.io/devlog/tools/using-netrw-vim-builtin-file-explorer/)
