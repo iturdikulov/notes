@@ -17,3 +17,7 @@ tags:
 - [[Dm-crypt]]
 - [DroidFS](https://github.com/hardcore-sushi/DroidFS) - use encrypted virtual
   filesystems on Android
+
+## Resources
+
+- [Keybase](https://keybase.io/)

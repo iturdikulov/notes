@@ -32,3 +32,8 @@ Examples of protocols using asymmetric key algorithms include:
 - SSH
 - Bitcoin
 - Off-the-Record Messaging
+
+## Resources
+
+- [ ] [Public Key Cryptography - Computerphile - YouTube](https://www.youtube.com/watch?v=GSIDS_lvRv4)
+- [ ] [A (relatively easy to understand) primer on elliptic curve cryptography | Ars Technica](https://arstechnica.com/information-technology/2013/10/a-relatively-easy-to-understand-primer-on-elliptic-curve-cryptography/)

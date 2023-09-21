@@ -294,5 +294,8 @@ NOTE: that if you are asked for a new password, it is recommended that you use t
 
 ## Resources
 
-- https://wiki.archlinux.org/title/GnuPG
-- https://superuser.com/questions/1414381/how-to-import-an-ssh-ed25519-key-to-gpg
+- [An abridged guide to using ed25519 PGP keys with GnuPG and SSH | MuSigma](https://musigma.blog/2021/05/09/gpg-ssh-ed25519.html)
+- [GPG Keys - Create & Use :: thanoskoutr — Blog](https://thanoskoutr.com/posts/gpg-keys-configure/)
+- [GnuPG - ArchWiki](https://wiki.archlinux.org/title/GnuPG)
+- [openssh - How to import an SSH ed25519 key to GPG? - Super User](https://superuser.com/questions/1414381/how-to-import-an-ssh-ed25519-key-to-gpg)
+- [fa - backup your PGP key with pencil and paper](http://ariis.it/static/articles/handwritten-pgp-key/page.html)
