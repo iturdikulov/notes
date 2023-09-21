@@ -38,11 +38,15 @@ Here I collect all my maintenance tasks/techniques/tools.
 
 ## Hardware maintenance
 
+Here I collect resources to maintenance my hardware. Mostly
+[[Computer|computer]] hardware.
+
 - [UFO Test: Vertical Scrolling Text](https://www.testufo.com/framerates-text)
 - [Atrise Lutcurve - Визуальная калибровка дисплея](http://www.atrise.com/lutcurve/ru/)
 - [Keyboard Tester](https://www.keyboardtester.com/tester.html)
 - [Dead-pixel check](http://lcdtech.info/en/tests/dead.pixel.htm)
 - [iFixit](https://www.ifixit.com/)
+- [Free Online Audio Tests, Test Tones and Tone Generators](https://www.audiocheck.net/)
 
 ## Monitoring
 

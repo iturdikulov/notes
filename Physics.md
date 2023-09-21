@@ -16,4 +16,5 @@ tags:
 
 ## Resources
 
+- [ ] [Designing a physics engine](https://winter.dev/articles/physics-engine)
 - [Physics — Susan Rigetti](https://www.susanrigetti.com/physics)

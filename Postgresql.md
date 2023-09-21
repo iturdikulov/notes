@@ -6,13 +6,12 @@ sr-interval: 4
 tags:
 - inbox
 - software
+external: https://www.postgresql.org/
 ---
 
 # PostgreSQL
 
-[PostgreSQL: The world's most advanced open source database](https://www.postgresql.org/),
-contains documentation, downloads, support, development, and community
-information.
+PostgreSQL: The world's most advanced open source database
 
 ## Quickstart
 
@@ -26,6 +25,9 @@ CREATE USER teamname WITH ENCRYPTED PASSWORD 'password';
 CREATE DATABASE yourdb OWNER teamname;
 ```
 
-## TODO
+## Resources
 
-- [ ] https://www.dylanpaulus.com/posts/postgres-is-a-graph-database/
+- [ ] [Learn PostgreSQL Tutorial - Full Course for Beginners - YouTube](https://www.youtube.com/watch?v=qw--VYLpxG4)
+- [ ] [PostgreSQL Exercises](https://pgexercises.com/gettingstarted.html)
+- [ ] [Postgres: The Graph Database You Didn't Know You Had](https://www.dylanpaulus.com/posts/postgres-is-a-graph-database/)
+- [ ] [PostgreSQL Tutorial – Comprehensive Postgresql Tutorial](https://www.postgresqltutorial.com/)

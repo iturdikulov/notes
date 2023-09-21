@@ -10,9 +10,10 @@ tags:
 IRL is abbreviation for "in real life". I use it to describe my real life
 activities.
 
-For life support I need [[My_buy_list|buy_some_things]], [[Cooking|cook]] food
-and [[My_inventory|keep_inventory]].
+For life support I need [[My_buy_list|buy some things]], [[Cooking|cook]] food
+and [[My_inventory|keep inventory]] (which require [[Maintenance|maintenance]]).
 
-Sometimes I do some [[Do_it_yourself|cool_things]] or spent time for [[Art]].
+Sometimes I do some [[Do_it_yourself|cool things]] or spent time for [[Art|art]].
 
-Also, worth to mention this notes [[Home_construction]] and [[Government]].
+Also, worth to mention this notes [[Home_construction|home construction]] and
+[[Government|goverment]].

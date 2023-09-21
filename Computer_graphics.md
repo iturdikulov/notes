@@ -22,6 +22,14 @@ tags:
 > of [[Computer_science|computer_science]] research.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Computer_graphics)</cite>
 
-<video src="file:///home/inom/Projects/main/wiki/video/Inside_the_Original_iPod_hTpcOmlvCEQ.mp4" width=380 controls></video>
-
+![](https://www.youtube.com/watch?v=hTpcOmlvCEQ)\
 _Excellent example of computer graphics (rendered video) from branch education_
+
+## Resources
+
+- [RenderDoc](https://renderdoc.org/)
+- [ ] [Уроки по OpenGL с сайта OGLDev](https://triplepointfive.github.io/ogltutor/)
+- [ ] [Scratchapixel 3.0, Learn Computer Graphics Programming](https://www.scratchapixel.com/)
+- [ ] [Logos By Nick Academy](https://logosbynick.teachable.com/courses), 2D graphics tutorials
+- [ ] [Introduction to Computer Graphics - YouTube](https://www.youtube.com/playlist?list=PLplnkTzzqsZTfYh4UbhLGpI5kGd5oW_Hh)
+- [ ] [Computer Graphics (CMU 15-462/662) - YouTube](https://www.youtube.com/playlist?list=PL9_jI1bdZmz2emSh0UQ5iOdT2xRHFHL7E)

@@ -28,3 +28,5 @@ tags:
   around TEX. CTAN has currently 6397 packages. 2917 contributors have
   contributed to it. Most of the packages are free and can be downloaded and
   used immediately.
+- [ ] Interesting article how to integrate Inkscape with latex:
+  [How I draw figures for my mathematical lecture notes using Inkscape](https://castel.dev/post/lecture-notes-2/).

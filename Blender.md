@@ -11,7 +11,8 @@ tags:
 
 # Blender
 
-Free and open source 3D creation suite. Free as in freedom.
+Free and open source [[3D_computer_graphics|3D]] creation suite. Free as in
+freedom.
 
 [[Computer_graphics]] software tool set used for creating animated films, visual
 effects, [[Art|art]], 3D-printed models, motion graphics, interactive 3D

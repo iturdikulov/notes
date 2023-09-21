@@ -15,7 +15,7 @@ on my [[Smartphone|smartphone]].
 
 ## Active games
 
-- [[Gothic]]
+- [ ] [[Gothic]]
 - `Half-Life`
 - `Detroit: Become Human`
 - `The Talos Principle`
@@ -32,11 +32,12 @@ on my [[Smartphone|smartphone]].
 
 TODO: fix links
 - [[Lineage_2_tools|Lineage 2]], long story..., 9.7/10
+- [San Francisco Rush 2049](https://en.wikipedia.org/wiki/San_Francisco_Rush_2049)
 - ~~`Brotato`~~, completed, too time-consuming, I 8/10
 - ~~`Dark Souls Prepare to Die Edition`~~, too time-consuming, 8/10 (bad port,
   but overall good game)
-- [@Factorio2023], completed, 9.5/10 sandbox experience
-- [@Gris2023], completed, 9/10 good atmosphere, singing
+- [Factorio](https://www.factorio.com/), completed, 9.5/10 sandbox experience
+- [Gris](https://nomada.studio/), completed, 9/10 good atmosphere, singing
 - `TrackMania Stadium`, completed (gold-platinum), 9/10 precision
 - `Baldur's Gate Enhanced Edition`
 - `Bastion`
@@ -229,7 +230,3 @@ essential or "Highly recommended" mods.
   Allows you to unbind gameplay keys from menu keys, so that changing
   Activate to something other than "E" won't also ghost-change Use in
   menus to that other key.
-
-
-### Gothic 1
-https://www.reddit.com/r/SteamDeck/comments/uxtomx/enjoying_gothic_on_my_steamdeck/

@@ -29,3 +29,7 @@ ways to sync data which I usually use:
 1. Mount android device using `mounter` script, which assigned to `<MOD-C-m>` in
    [[DWM]]. And rsync data: `rsync -r <source> <destination>`. It's rare case.
 2. Complex setup, using [[Syncthing]].
+
+## Resources
+
+- [Android Debug Bridge (adb)](https://developer.android.com/tools/adb)

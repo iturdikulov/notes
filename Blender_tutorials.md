@@ -90,3 +90,8 @@ How select random points in edit mode ? Select > **S**elect Random
 
 Orthographic mode basically means ? that you can't see perspective, only
 orthographic view (no depth, objects same size regardless of distance)
+
+## Resources
+
+- [ ] [[research/Price-Donut_Tutorial]]
+- [ ] [Animate a Character in 15 Minutes in Blender - YouTube](https://www.youtube.com/watch?v=imbIsNAvUpM)

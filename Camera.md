@@ -20,3 +20,11 @@ tags:
 > that determines the amount of time the photosensitive surface is exposed to
 > the light.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Camera)</cite>
+
+Cheatsheet, a visual compendium of cameras, history of photography:
+[Cheat sheet](./img/A_Visual_Compendium_of_Cameras.webp) and
+[Source](https://popchart.co/products/a-visual-compendium-of-cameras)
+
+## Resources
+
+- [ ] [How does a camera work? - YouTube](https://www.youtube.com/watch?v=B7Dopv6kzJA)
