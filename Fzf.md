@@ -58,3 +58,4 @@ Select Environment variables / aliases
 
 - `man fzf`
 - [x] [So you've installed `fzf`. Now what?](https://andrew-quinn.me/fzf/)
+- [ ] [Sidney Liebrand's blog - How FZF and ripgrep improved my workflow](https://sidneyliebrand.io/blog/how-fzf-and-ripgrep-improved-my-workflow)

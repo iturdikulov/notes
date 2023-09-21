@@ -34,3 +34,4 @@ Other operating systems:
 ## Resources
 
 - [ ] [Computer Basics: Understanding Operating Systems - YouTube](https://www.youtube.com/watch?v=fkGCLIQx1MI)
+- [ ] [Operating System Tutorial](https://www.guru99.com/os-tutorial.html)

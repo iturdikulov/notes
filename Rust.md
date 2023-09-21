@@ -13,4 +13,7 @@ tags:
 
 ## Resources
 
+- [ ] [The Rust Programming Language - The Rust Programming Language](https://doc.rust-lang.org/book/)
+- [ ] [Rust Language Cheat Sheet](https://cheats.rs/)
+- [ ] [Rust by the Numbers: The Rust Programming Language in 2021 - The New Stack](https://thenewstack.io/rust-by-the-numbers-the-rust-programming-language-in-2021/)
 - [ ] [Rust vs. Go: Why They’re Better Together - The New Stack](https://thenewstack.io/rust-vs-go-why-theyre-better-together/)

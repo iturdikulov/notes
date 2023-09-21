@@ -228,3 +228,7 @@ Scroll all the way right::`shift + right`
 Scroll all the way up::`shift + up`
 
 Scroll all the way down::`shift + down`
+
+## Resources
+
+- [GitHub Docs](https://docs.github.com/en)

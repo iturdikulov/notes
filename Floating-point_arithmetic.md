@@ -38,3 +38,7 @@ int main() {
 
 Decimal (base ten) floating-point usable to work with money values. TODO: add
 note?
+
+## Resources
+
+- [ ] [Representation of Floating Point Numbers - 1 - YouTube](https://www.youtube.com/watch?v=ji3SfClm8TU)

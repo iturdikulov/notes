@@ -44,3 +44,8 @@ array.
 - Search, if value exist in array, return index.
 - Insert, add new value to additional slot within array.
 - Delete, remove value from array.
+
+## Resources
+
+- [ ] [Visualising data structures and algorithms through animation](https://visualgo.net/en/sorting)
+- [ ] [Data Structure Visualization](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html)

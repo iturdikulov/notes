@@ -15,3 +15,8 @@ tags:
 > techniques are developed in theoretical [[Computer_science]] and formal
 > language theory.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Regular_expression)</cite>
+
+## Resources
+
+- [i Hate Regex - The Regex Cheat Sheet](https://ihateregex.io/)
+- [regex101: build, test, and debug regex](https://regex101.com/)

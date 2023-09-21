@@ -8,3 +8,7 @@ tags:
 ---
 
 # Code
+
+## Resources
+
+- [ ] [The Code Review Pyramid - Gunnar Morling](https://www.morling.dev/blog/the-code-review-pyramid/)

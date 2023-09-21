@@ -66,6 +66,7 @@ reboot
 ## Resources
 
 - [OnlyKey User's Guide | Docs](https://docs.onlykey.io/usersguide.html)
+- [Universal 2nd Factor - ArchWiki](https://wiki.archlinux.org/title/Universal_2nd_Factor)
 - [Unlocking LUKS2 volumes with TPM2, FIDO2, PKCS#11 Security Hardware on systemd 248](https://0pointer.net/blog/unlocking-luks2-volumes-with-tpm2-fido2-pkcs11-security-hardware-on-systemd-248.html)
 - [Yubico/pam-u2f: Pluggable Authentication Module (PAM) for U2F and FIDO2](https://github.com/Yubico/pam-u2f)
 - [Ubuntu Linux Login Guide - U2F – Yubico](https://support.yubico.com/hc/en-us/articles/360016649099-Ubuntu-Linux-Login-Guide-U2F)

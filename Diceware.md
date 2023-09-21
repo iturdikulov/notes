@@ -19,3 +19,8 @@ directory: ~/Computer/data/word_list/
 > be constructed randomly.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Diceware)</cite>
 
+
+Diceware passwords really work. Here some information about "traditional"
+passwords and their downsides - [The man who put us through password hell
+regrets
+everything](https://www.engadget.com/2017-08-08-nist-new-password-guidelines.html)

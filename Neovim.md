@@ -983,13 +983,16 @@ this.
 
 ## Resources
 
+- [ ] [How to Do 90% of What Plugins Do (With Just Vim) - YouTube](https://www.youtube.com/watch?v=XA2WjJbmmoM)
 - [ ] [7 Habits For Effective Text Editing 2.0 - YouTube](https://www.youtube.com/watch?v=eX9m3g5J-XA)
 - [ ] [Vim - YouTube](https://www.youtube.com/playlist?list=PLcjongJGYetkY4RFSVftH43F91vgzqB7U)
+- [x] [Setup nvim-lspconfig + nvim-cmp | Devlog](https://vonheikemen.github.io/devlog/tools/setup-nvim-lspconfig-plus-nvim-cmp/)
 - [x] [@DebuggingInNe] Debugging In Neovim (ft BashBunni and TJ DeVries) - YouTube
 - [ ] http://jrmiii.com/attachments/Vim.pdf
 - [ ] Current mail goal: [[My_editing_workflow]]
 - [ ] https://stackoverflow.com/questions/509690/how-can-you-list-the-matches-of-vims-search
 - [ ] https://github.com/tpope/vim-surround
+- [neovimcraft, plugins](https://neovimcraft.com/)
 - [[research/Neil-Modern_Vim]]
 - [[research/Neil-Practical_Vim]]
 - [Interactive Vim tutorial](http://www.openvim.com/)

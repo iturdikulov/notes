@@ -6,6 +6,7 @@ sr-interval: 201
 tags:
 - inbox
 - software
+external: https://archlinux.org/
 ---
 
 # Arch Linux

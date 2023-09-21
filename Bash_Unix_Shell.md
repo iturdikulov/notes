@@ -17,5 +17,6 @@ Personally, I use [[Z_shell|ZSH]] as my default shell
 
 ## Resources
 
+- [ ] [Command Challenge!](https://cmdchallenge.com/)
 - [ ] [Bash Guide for Beginners](https://tldp.org/LDP/Bash-Beginners-Guide/html/)
 - [ ] [The Bash Guide](https://guide.bash.academy/)

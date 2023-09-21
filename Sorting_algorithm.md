@@ -20,5 +20,5 @@ tags:
 
 ## Resources
 
-- [Visualising data structures and algorithms through animation](https://visualgo.net/en/sorting)
-- [Data Structure Visualization](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html)
+- [ ] [Visualising data structures and algorithms through animation](https://visualgo.net/en/sorting)
+- [ ] [Data Structure Visualization](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html)

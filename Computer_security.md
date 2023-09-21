@@ -22,3 +22,4 @@ tags:
 
 - [ ] [Introduction - OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/index.html)
 - [Keybase](https://keybase.io/)
+- [Kitboga - YouTube, mostly entertaiment](https://www.youtube.com/@KitbogaShow/videos)

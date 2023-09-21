@@ -15,3 +15,7 @@ tags:
 > one-on-one communication via private message as well as chat and data
 > transfer, including file sharing.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Internet_Relay_Chat)</cite>
+
+## Resources
+
+- [ ] [Libera Chat | A next-generation IRC network for FOSS projects collaboration!](https://libera.chat/)

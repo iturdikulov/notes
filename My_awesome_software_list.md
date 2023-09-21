@@ -367,3 +367,5 @@ https://github.com/AntiMicroX/antimicrox-profiles/tree/master/applications
 - [ ] [List of applications - ArchWiki](https://wiki.archlinux.org/title/list_of_applications)
 - [ ] [erikw/vim-keybindings-everywhere-the-ultimate-list](https://github.com/erikw/vim-keybindings-everywhere-the-ultimate-list)
 - [ ] [ibraheemdev/modern-unix: A collection of modern/faster/saner alternatives to common unix commands.](https://github.com/ibraheemdev/modern-unix)
+- [ ] [luong-komorebi/Awesome-Linux-Software: 🐧 A list of awesome Linux softwares](https://github.com/luong-komorebi/Awesome-Linux-Software)
+- [ ] [terminal.sexy - Terminal Color Scheme Designer](https://terminal.sexy/)

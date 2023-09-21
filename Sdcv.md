@@ -3,6 +3,7 @@ date: 2023-08-20
 sr-due: 2023-08-25
 sr-ease: 230
 sr-interval: 1
+external: https://github.com/Dushistov/sdcv
 tags:
 - inbox
 - software

@@ -19,3 +19,5 @@ tags:
 
 ## Resources
 
+- [ ] [Time is an illusion, Unix time doubly so...](https://www.netmeister.org/blog/epoch.html)
+- [ ] [A Guide to POSIX | Baeldung on Linux](https://www.baeldung.com/linux/posix)

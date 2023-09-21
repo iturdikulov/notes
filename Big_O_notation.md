@@ -8,7 +8,7 @@ tags:
 - computer_science
 ---
 
-# Big O notation in [[Mathematics]] and [[Computer_science]]
+# Big O notation in [[Mathematics|mathematics]] and [[Computer_science|computer science]]
 
 > Way of comparing ==rates of growth== of different functions. It is often used
 > to compare the efficiency of different algorithms, which is done by
@@ -75,3 +75,8 @@ def is_prime(number):
 ```
 ?
 It's $\mathcal{O}(N)$.
+
+
+## Resources
+
+- [Big-O Algorithm Complexity Cheat Sheet (Know Thy Complexities!) @ericdrowell](https://www.bigocheatsheet.com/)

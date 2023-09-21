@@ -26,3 +26,5 @@ tags:
 - [ ] [Documentation | Redis](https://redis.io/docs/)
 - [ ] [TutorialCachingStory · memcached/memcached Wiki](https://github.com/memcached/memcached/wiki/TutorialCachingStory)
 - [ ] [Memcached Tutorial](https://www.tutorialspoint.com/memcached/index.htm)
+- [ ] [The Magic of LRU Cache (100 Days of Google Dev) - YouTube](https://www.youtube.com/watch?v=R5ON3iwx78M)
+- [ ] [LRU, метод вытеснения из кэша / Habr](https://habr.com/en/articles/136758/)

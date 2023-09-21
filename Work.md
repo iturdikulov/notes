@@ -50,3 +50,5 @@ position).
 - [Freelancer](https://www.freelancer.com/)
 - [Guru.com](https://www.guru.com/)
 - [PeoplePerHour.com](https://www.peopleperhour.com/)
+- [Topcoder](https://www.topcoder.com/)
+- [HackerEarth | Online coding platform and developer assessment software](https://www.hackerearth.com/)
