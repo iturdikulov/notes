@@ -5,7 +5,9 @@ tags: []
 
 # PEP20 - The Zen of Python
 
-> Long time Pythoneer Tim Peters succinctly channels the BDFL’s guiding principles for Python’s design into 20 aphorisms, only 19 of which have been written down - [@PEP20Zen1999].
+> Long time Pythoneer Tim Peters succinctly channels the BDFL’s guiding principles for Python’s design into 20 aphorisms, only 19 of which have been written down
+
+You can also write: `import this` in python console or execute `python -c "import this"` to get this PEP.
 
 I think these principles can be applied to any human activity, not only to programming.
 
