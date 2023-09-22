@@ -19,3 +19,7 @@ operation takes in terms of pure time, but instead in how many ==steps== it
 takes. Measuring operations by steps, allow us to compare operations speed
 independently of the hardware they are run on.
 <!--SR:!2023-07-22,3,258-->
+
+## Resources
+
+- [ ] [CSE 373 -- Lecture 2, Fall 2020 - YouTube](https://www.youtube.com/watch?v=z1mkCe3kVUA&t=2054s)

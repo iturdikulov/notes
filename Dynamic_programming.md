@@ -32,3 +32,8 @@ tags:
 > Dynamic programming can be used in cases where it is possible to split a
 > problem into smaller problems, which are all quite similar.\
 > — <cite>[Wikipedia in Simple English](https://simple.wikipedia.org/wiki/Dynamic_programming)</cite>
+
+
+## Resources
+
+- [ ] [CSE 373 -- Lecture 18, Fall 2020 - YouTube](https://www.youtube.com/watch?v=wAA0AMfcJHQ)

@@ -81,6 +81,10 @@ included" language.
 ## Resources
 
 - [Python Tutorials – Real Python](https://realpython.com/)
+
+- [ ] [Problem Solving with Algorithms and Data Structures using Python — Problem Solving with Algorithms and Data Structures](https://runestone.academy/ns/books/published/pythonds/index.html)
+- [ ] [1: CS22 - Python Data Structures/Algorithms Class - Introduction - YouTube](https://www.youtube.com/playlist?list=PLtbC5OfOR8aqA6CJwWTRUITgGpUy1Umr3)
+
 - [ ] [Using Celery: Python Task Management | Toptal®](https://www.toptal.com/python/orchestrating-celery-python-background-jobs)
 - [ ] [How to learn Python programming | Guido van Rossum and Lex Fridman - YouTube](https://www.youtube.com/watch?v=F2Mx-u7auUs)
 - [ ] [Learn to become a modern Python developer](https://roadmap.sh/python)

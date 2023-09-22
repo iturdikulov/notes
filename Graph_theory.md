@@ -17,5 +17,6 @@ tags:
 
 ## Resources
 
+- [ ] [CSE 373 -- Lecture 10, Fall 2020 - YouTube](https://www.youtube.com/watch?v=Sjk0xqWWPCc)
 - [ ] [9. Breadth-First Search - YouTube](https://www.youtube.com/watch?v=oFVYVzlvk9c)
 - [ ] [Lecture 15: Single-Source Shortest Paths Problem - YouTube](https://www.youtube.com/watch?v=Aa2sqUhIn-E)
