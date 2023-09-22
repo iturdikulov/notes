@@ -22,6 +22,29 @@ Remember to always listen to your body and adjust the exercises or reps as
 needed. And don't forget to fuel your body with nutritious food and get plenty
 of rest and hydration to support your progress.
 
+## Week 0. Prepare your body
+
+### [ ] Day 1
+
+Morning:
+
+- [ ] 5 minutes of dynamic stretching (arm circles, leg swings, etc.)
+- [ ] 3 sets of 8 [bodyweight squats](https://darebee.com/exercises/squats-exercise.html)
+- [ ] 3 sets of 8 [push-ups](https://darebee.com/pushups-guide.html) (on knees or against a wall if necessary)
+
+
+### [ ] Day 2
+
+Morning:
+
+- [ ] 8 minutes of dynamic stretching (arm circles, leg swings, etc.)
+- [ ] 3 sets of 10 [bodyweight squats](https://darebee.com/exercises/squats-exercise.html)
+- [ ] 3 sets of 10 [push-ups](https://darebee.com/pushups-guide.html) (on knees or against a wall if necessary)
+
+Evening:
+
+- [ ] 5 minutes of dynamic stretching (arm circles, leg swings, etc.)
+
 ## Week 1. Focus on building a foundation
 
 ### Day 1
@@ -29,6 +52,7 @@ of rest and hydration to support your progress.
 - 5 minutes of dynamic stretching (arm circles, leg swings, etc.)
 - 3 sets of 10 bodyweight squats
 - 3 sets of 10 push-ups (on knees or against a wall if necessary)
+
 - 5 minutes of dynamic stretching (arm circles, leg swings, etc.)
 - 3 sets of 10 lunges (each leg)
 - 3 sets of 10 bench dips
