@@ -1,7 +1,8 @@
 ---
 date: 2023-08-28
 external: https://strategywiki.org/wiki/Gothic/Controls
-archive: true
+tags:
+  - inbox
 ---
 
 # Gothic controls

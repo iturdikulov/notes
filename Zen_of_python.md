@@ -1,6 +1,7 @@
 ---
 date: 2022-12-29
-tags: []
+tags:
+  - inbox
 ---
 
 # PEP20 - The Zen of Python
