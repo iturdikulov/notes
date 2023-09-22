@@ -19,7 +19,7 @@ tags:
 > most secure, easiest to use, and simplest VPN solution in the industry.
 >
 > A combination of extremely high-speed cryptographic primitives and the fact
-> that WireGuard lives inside the [[Linux|linux]] kernel means that secure
+> that WireGuard lives inside the [[GNU_Linux|linux]] kernel means that secure
 > networking can be very high-speed. It is suitable for both small embedded
 > devices like [[Smartphone|smartphones]] and fully loaded backbone routers.\
 > — <cite>[WireGuard](https://www.wireguard.com/)</cite>

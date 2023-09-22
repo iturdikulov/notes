@@ -10,7 +10,7 @@ tags:
 
 # dm-crypt
 
-> dm-crypt is a transparent block device encryption subsystem in [[Linux]]
+> dm-crypt is a transparent block device encryption subsystem in [[GNU_Linux]]
 > kernel versions 2.6 and later and in DragonFly BSD. It is part of the device
 > mapper (dm) infrastructure, and uses cryptographic routines from the kernel's
 > Crypto API. Unlike its predecessor cryptoloop, dm-crypt was designed to

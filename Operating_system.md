@@ -24,7 +24,7 @@ tags:
 
 My favorite operating systems:
 
-- [[Linux]] kernel based operating systems
+- [[GNU_Linux]] kernel based operating systems
 - [[Android]]
 
 Other operating systems:

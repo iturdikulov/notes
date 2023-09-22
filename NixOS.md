@@ -11,10 +11,10 @@ tags:
 
 # NixOS
 
-> NixOS is a [[Linux]] distribution based on the Nix package manager and build
-> system. It supports reproducible and declarative system-wide configuration
-> management as well as atomic upgrades and rollbacks, although it can
-> additionally support imperative package and user management. In NixOS, all
+> NixOS is a [[GNU_Linux]] distribution based on the Nix package manager and
+> build system. It supports reproducible and declarative system-wide
+> configuration management as well as atomic upgrades and rollbacks, although it
+> can additionally support imperative package and user management. In NixOS, all
 > components of the distribution — including the kernel, installed packages and
 > system configuration files — are built by Nix from pure functions called Nix
 > expressions.\

@@ -250,7 +250,7 @@ TODO: restructure, instead more_info, use linking to notes!
 ## Core
 
 - [linux](https://kernel.org/) - monolithic, modular, multitasking, Unix-like
-  operating system kernel, [[Linux|more_info]]
+  operating system kernel, [[GNU_Linux|more_info]]
 - [btrfs](https://btrfs.wiki.kernel.org/index.php/Main_Page) - modern copy on
   write (CoW) filesystem for Linux
 - [nfs-utils](http://nfs.sourceforge.net/) - Support programs for Network File
