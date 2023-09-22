@@ -17,6 +17,7 @@ TODO:
 - [ ] [HTTP | MDN](https://developer.mozilla.org/en-US/docs/Web/HTTP)
 - [ ] [Full HTTP Networking Course – Fetch and REST APIs in JavaScript - YouTube](https://www.youtube.com/watch?v=2JYT5f2isg4)
 - [ ] [SSL, TLS, HTTPS Explained - YouTube](https://www.youtube.com/watch?v=j9QmMEWmcfo)
+- [ ] [SSL, TLS, HTTP, HTTPS Explained - YouTube](https://www.youtube.com/watch?v=hExRDVZHhig)
 - [ ] [HTTP/1 to HTTP/2 to HTTP/3 - YouTube](https://www.youtube.com/watch?v=a-sBfyiXysI)
 - [ ] [What is HTTP? | Cloudflare](https://www.cloudflare.com/learning/ddos/glossary/hypertext-transfer-protocol-http/)
 - [ ] [Why HTTPS matters](https://web.dev/why-https-matters/)
