@@ -370,4 +370,5 @@ https://github.com/AntiMicroX/antimicrox-profiles/tree/master/applications
 - [ ] [ibraheemdev/modern-unix: A collection of modern/faster/saner alternatives to common unix commands.](https://github.com/ibraheemdev/modern-unix)
 - [ ] [luong-komorebi/Awesome-Linux-Software: 🐧 A list of awesome Linux softwares](https://github.com/luong-komorebi/Awesome-Linux-Software)
 - [ ] [rothgar/awesome-tuis: List of projects that provide terminal user interfaces](https://github.com/rothgar/awesome-tuis)
+- [ ] [Big Pile of Vim-like](https://vim.reversed.top/)
 - [ ] [terminal.sexy - Terminal Color Scheme Designer](https://terminal.sexy/)
