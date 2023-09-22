@@ -42,6 +42,7 @@ tags:
 
 - [ ] [Game Development](https://develop.games/)
 - [ ] [ASCII графика и PIXEL арт на Python - YouTube](https://www.youtube.com/watch?v=ww55ublLFq8)
+- [ ] [Red Blob Games](https://www.redblobgames.com/)
 - [[research/Muratori-Handmade_Hero]]
 - [[Lineage_2_tools]]
 - [[L2bot]]

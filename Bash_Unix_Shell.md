@@ -15,6 +15,11 @@ tags:
 
 Personally, I use [[Z_shell|ZSH]] as my default shell
 
+Cheat sheet:
+
+![](./img/Bash_CheatSheet.pdf)
+_[obfusk/bash-cheatsheet: bash cheat sheet](https://github.com/obfusk/bash-cheatsheet/tree/master)_
+
 ## Resources
 
 - [ ] [Command Challenge!](https://cmdchallenge.com/)

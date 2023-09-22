@@ -28,6 +28,7 @@ _Excellent example of computer graphics (rendered video) from branch education_
 ## Resources
 
 - [RenderDoc](https://renderdoc.org/)
+- [ ] [Основы рендеринга с wgpu на Rust / Habr](https://habr.com/en/companies/otus/articles/658859/)
 - [ ] [Уроки по OpenGL с сайта OGLDev](https://triplepointfive.github.io/ogltutor/)
 - [ ] [Scratchapixel 3.0, Learn Computer Graphics Programming](https://www.scratchapixel.com/)
 - [ ] [Logos By Nick Academy](https://logosbynick.teachable.com/courses), 2D graphics tutorials

@@ -13,6 +13,7 @@ tags:
 
 ## Resources
 
+- [ ] [Introduction - Rust By Example](https://doc.rust-lang.org/stable/rust-by-example/index.html)
 - [ ] [The Rust Programming Language - The Rust Programming Language](https://doc.rust-lang.org/book/)
 - [ ] [Rust Language Cheat Sheet](https://cheats.rs/)
 - [ ] [Rust by the Numbers: The Rust Programming Language in 2021 - The New Stack](https://thenewstack.io/rust-by-the-numbers-the-rust-programming-language-in-2021/)

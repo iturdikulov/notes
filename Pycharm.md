@@ -21,3 +21,7 @@ It is cross-platform, working on Microsoft Windows, macOS and Linux. PyCharm has
 a Professional Edition, released under a proprietary license and a Community
 Edition released under the Apache License.[2] PyCharm Community Edition is less
 extensive than the Professional Edition.
+
+## Resources
+
+- [ ] [03 Mouseless Driven Development by Hadi Hariri - released in 2012 - YouTube](https://www.youtube.com/watch?v=UH6YVv9js3s)

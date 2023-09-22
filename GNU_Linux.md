@@ -30,5 +30,6 @@ Personally I use [[Arch_Linux|Arch Linux]] and [[NixOS]] distributions.
 
 ## Resources
 
+- [ ] [Learn Enough Command Line to Be Dangerous | Learn Enough to Be Dangerous](https://www.learnenough.com/command-line-tutorial)
 - [ ] [Top 40 Linux Commands for All Users + Free Linux Cheat Sheet](https://www.hostinger.com/tutorials/linux-commands)
 - [ ] [The 50 Most Popular Linux & Terminal Commands - Full Course for Beginners - YouTube](https://www.youtube.com/watch?v=ZtqBQ68cfJc)

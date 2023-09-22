@@ -21,3 +21,6 @@ tags:
 > cluster.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Computer)</cite>
 
+## Resources
+
+- [ ] [Introducing How Computers Work (video) | Khan Academy](https://www.khanacademy.org/computing/code-org/computers-and-the-internet/how-computers-work/v/khan-academy-and-codeorg-introducing-how-computers-work)

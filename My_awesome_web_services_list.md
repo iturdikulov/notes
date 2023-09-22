@@ -16,4 +16,6 @@ List of web services which I often use, or can use in the future.
 - [[Twitch]]
 - [Time Converter and World Clock](https://www.worldtimebuddy.com/)
 
+## Resources
 
+- [ ] [StanForever/awesome-websites: A curated list of awesome websites](https://github.com/StanForever/awesome-websites)

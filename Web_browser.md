@@ -27,3 +27,4 @@ Currently, I use [[Firefox]] and [[Brave]].
 
 - [ ] [How browsers work](https://web.dev/howbrowserswork/)
 - [ ] [Populating the page: how browsers work - Web performance | MDN](https://developer.mozilla.org/en-US/docs/Web/Performance/How_browsers_work)
+- [ ] [Preload, Prefetch, Preconnect in WordPress: the Browser Resource Hints](https://wp-rocket.me/blog/preload-prefetch-preconnect-speed-site-browser-resource-hints/)

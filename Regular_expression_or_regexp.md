@@ -18,5 +18,6 @@ tags:
 
 ## Resources
 
+- [ ] [ziishaned/learn-regex: Learn regex the easy way](https://github.com/ziishaned/learn-regex)
 - [i Hate Regex - The Regex Cheat Sheet](https://ihateregex.io/)
 - [regex101: build, test, and debug regex](https://regex101.com/)

@@ -9,11 +9,12 @@ tags:
 
 # Binary search tree
 
-> In [[Computer_science]], a binary search tree (BST), also called an ordered or
-> sorted binary tree, is a rooted binary tree data structure with the key of
-> each internal node being greater than all the keys in the respective node's
-> left subtree and less than the ones in its right subtree. The time complexity
-> of operations on the binary search tree is directly proportional to the height
+> In [[Computer_science]], a binary search [[Tree_data_structure|tree]] (BST),
+> also called an ordered or sorted binary tree, is a rooted binary tree data
+> structure with the key of each internal node being greater than all the keys
+> in the respective node's left subtree and less than the ones in its right
+> subtree. The time complexity of operations on the binary search tree is
+> directly proportional to the height
 > of the tree.\
 > - <cite>[Wikipedia](https://en.wikipedia.org/wiki/Binary_search_tree)</cite>
 
@@ -32,3 +33,4 @@ principle of [[Binary_search_algorithm|binary_search]].
 ## Resources
 
 - [ ] [CS50 2020 - Lecture 5 - Data Structures - YouTube](https://www.youtube.com/watch?v=2T-A_GFuoTo&t=4833s)
+- [ ] [Binary Search Tree Review - YouTube](https://www.youtube.com/watch?v=x6At0nzX92o)

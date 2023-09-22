@@ -19,5 +19,5 @@ tags:
 
 ## Resources
 
+- [ ] [AT&T Archives: The UNIX Operating System - YouTube](https://www.youtube.com/watch?v=tc4ROCJYbm0)
 - [ ] [Time is an illusion, Unix time doubly so...](https://www.netmeister.org/blog/epoch.html)
-- [ ] [A Guide to POSIX | Baeldung on Linux](https://www.baeldung.com/linux/posix)

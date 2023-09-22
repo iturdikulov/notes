@@ -354,6 +354,7 @@ TODO: actualize this list
 ## Archive
 
 - [[Papis]], not use anymore, I switched to [[Zotero]]
+- [MiniGlome/Archive.org-Downloader: Python3 script to download archive.org books in PDF format](https://github.com/MiniGlome/Archive.org-Downloader)
 
 ## TODO:
 - `ipcalc` - simple IP network calculator
@@ -368,4 +369,5 @@ https://github.com/AntiMicroX/antimicrox-profiles/tree/master/applications
 - [ ] [erikw/vim-keybindings-everywhere-the-ultimate-list](https://github.com/erikw/vim-keybindings-everywhere-the-ultimate-list)
 - [ ] [ibraheemdev/modern-unix: A collection of modern/faster/saner alternatives to common unix commands.](https://github.com/ibraheemdev/modern-unix)
 - [ ] [luong-komorebi/Awesome-Linux-Software: 🐧 A list of awesome Linux softwares](https://github.com/luong-komorebi/Awesome-Linux-Software)
+- [ ] [rothgar/awesome-tuis: List of projects that provide terminal user interfaces](https://github.com/rothgar/awesome-tuis)
 - [ ] [terminal.sexy - Terminal Color Scheme Designer](https://terminal.sexy/)

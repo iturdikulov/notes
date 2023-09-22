@@ -48,6 +48,8 @@ tags:
 - [ ] [How DNS works. What is DNS? Learn how step by step.](https://howdns.works/)
 - [ ] [What is a Domain Name? - A Beginners Guide to How Domain Names Work! - YouTube](https://www.youtube.com/watch?v=Y4cRx19nhJk)
 - [ ] [DNS - MDN Web Docs Glossary: Definitions of Web-related terms | MDN](https://developer.mozilla.org/en-US/docs/Glossary/DNS)
+
+- [Your New Favorite Domain Registrar | iwantmyname](https://iwantmyname.com/)
 - [Namecheap](https://vivaldi.com/bk/namecheap-en-us)
 - [\*Nic.Name - регистрация и продление доменов .RU .SU .РФ](https://www.regnic.name/)
 - [Cloudflare Registrar | New Domain Registration | Cloudflare](https://www.cloudflare.com/products/registrar/)

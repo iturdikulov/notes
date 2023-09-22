@@ -19,4 +19,6 @@ tags:
 
 ## Resources
 
+- [ ] [Topcoder](https://www.topcoder.com/thrive/articles/Computational%20Complexity%20part%20one)
+- [ ] [Computational Complexity part two](https://www.topcoder.com/thrive/articles/Computational%20Complexity%20part%20two)
 - [ ] [Lecture 23: Computational Complexity - YouTube](https://www.youtube.com/watch?v=moPtwq_cVH8&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=25)

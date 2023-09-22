@@ -33,5 +33,7 @@ Other operating systems:
 
 ## Resources
 
+- [ ] [Operating Systems: Crash Course Computer Science #18 - YouTube](https://www.youtube.com/watch?v=26QPDBe-NB8)
+- [ ] [Computer Basics: Understanding Operating Systems](https://edu.gcfglobal.org/en/computerbasics/understanding-operating-systems/1/)
 - [ ] [Computer Basics: Understanding Operating Systems - YouTube](https://www.youtube.com/watch?v=fkGCLIQx1MI)
 - [ ] [Operating System Tutorial](https://www.guru99.com/os-tutorial.html)

@@ -45,3 +45,7 @@ tags:
 
 ![](./img/queue.excalidraw.svg)
 _Representation of a FIFO queue_
+
+## Resources
+
+- [ ] [Queues - Basic Data Structures | Coursera](https://www.coursera.org/lecture/data-structures/queues-EShpq)

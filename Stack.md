@@ -18,3 +18,7 @@ tags:
 > - **Pop**, which removes the most recently added element that was not yet
 >   removed.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Stack_\(abstract_data_type\))</cite>
+
+## Resources
+
+- [ ] [Stacks - Basic Data Structures | Coursera](https://www.coursera.org/lecture/data-structures/stacks-UdKzQ)

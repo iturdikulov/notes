@@ -19,3 +19,7 @@ directory: ~/Reference/docsets/
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Documentation)</cite>
 
 I use [[dasht]] to search through offline dash documentation files.
+
+## Resources
+
+- [ ] [A practical guide to writing technical specs - Stack Overflow](https://stackoverflow.blog/2020/04/06/a-practical-guide-to-writing-technical-specs/)

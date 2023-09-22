@@ -18,3 +18,7 @@ tags:
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Programmer)</cite>
 
 I usually program in [[Python]] and [[C]]
+
+## Resources
+
+- [ ] [How to "think" (and design) like a Software Architect at Silicon Valley Code Camp 2019 - YouTube](https://www.youtube.com/watch?v=mCM6QVHD08c)

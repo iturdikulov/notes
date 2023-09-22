@@ -72,7 +72,20 @@ It supports any popular [[Programming_paradigm]]:
 Rich [[research/Python_Community-Python_Standard_Library|standard library]] make it's "batteries
 included" language.
 
+## Development tools
+
+- [ ] [dosisod/refurb: A tool for refurbishing and modernizing Python codebases](https://github.com/dosisod/refurb)
+- [ ] [asottile/pyupgrade: A tool (and pre-commit hook) to automatically upgrade syntax for newer versions of the language.](https://github.com/asottile/pyupgrade)
+- [vinta/awesome-python: A curated list of awesome Python frameworks, libraries, software and resources](https://github.com/vinta/awesome-python)
+
 ## Resources
 
+- [Python Tutorials – Real Python](https://realpython.com/)
+- [ ] [Using Celery: Python Task Management | Toptal®](https://www.toptal.com/python/orchestrating-celery-python-background-jobs)
+- [ ] [How to learn Python programming | Guido van Rossum and Lex Fridman - YouTube](https://www.youtube.com/watch?v=F2Mx-u7auUs)
 - [ ] [Learn to become a modern Python developer](https://roadmap.sh/python)
+- [ ] [Ned Batchelder - Facts and Myths about Python names and values - PyCon 2015 - YouTube](https://www.youtube.com/watch?v=\_AEJHKGk9ns)
 - [ ] [PEP 8 – Style Guide for Python Code | peps.python.org](https://peps.python.org/pep-0008/)
+- [ ] [JIT-компилятор Python в 300 строк / Habr](https://habr.com/en/articles/674206/)
+- [ ] [А как в питоне пайпать? — Development — Форум](https://www.linux.org.ru/forum/development/17025364)
+- [ ] [[research/Seporaitis-Large_Scale_Refactoring_With_PyBowler]]

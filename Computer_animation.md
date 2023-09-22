@@ -15,3 +15,7 @@ directory: ~/Arts_and_Entertainment/animation/
 > three-dimensional picture. The animation's target is sometimes the computer
 > itself, while other times it is film.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Computer_animation)</cite>
+
+## Resources
+
+- [ ] [Easing Functions Cheat Sheet](https://easings.net/)

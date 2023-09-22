@@ -137,3 +137,8 @@ Difference between $\mathcal{O}(N)$ and $\mathcal{O}(log N)$:
 | 256     | 256    | 8        |
 | 512     | 512    | 9        |
 | 1024    | 1024   | 10       |
+
+
+## Resources
+
+- [ ] [Binary Search - YouTube](https://www.youtube.com/watch?v=D5SrAga1pno)

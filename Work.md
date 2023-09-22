@@ -46,6 +46,7 @@ position).
 
 ## Resources
 
+- [salomonelli/best-resume-ever](https://github.com/salomonelli/best-resume-ever)
 - [Upwork](https://www.upwork.com/)
 - [Freelancer](https://www.freelancer.com/)
 - [Guru.com](https://www.guru.com/)

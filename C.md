@@ -20,7 +20,14 @@ programming paradigm.
 C common used in OS development, microcontroller firmware development,
 databases, game development, utilities, etc.
 
-## Learning resources
+Great cheat sheet with core language syntax:
 
-- @TheCProgrammiKernig1988
-- @HandmadeHeroMurato2014
+![](./img/C_Reference_Card_ANSI.v2.2.pdf)
+_[C Reference Card (ANSI)](https://www.math.brown.edu/johsilve/ReferenceCards/CRefCard.v2.2.pdf)_
+
+## Resources
+
+- [ ] [Why C is so Influential - Computerphile - YouTube](https://www.youtube.com/watch?v=ci1PJexnfNE)
+- [ ] [[research/Muratori-Handmade_Hero]]
+- [ ] [[research/Kernighan_and_Ritchie-The_C_programming_language]]
+- [ ] [The GNU C Library - GNU Project - Free Software Foundation (FSF)](https://www.gnu.org/software/libc/manual/)

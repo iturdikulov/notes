@@ -34,6 +34,7 @@ science]].
 
 ## Resources
 
+- [ ] [The Man Who Revolutionized Computer Science With Math - YouTube](https://www.youtube.com/watch?v=rkZzg7Vowao)
 - [ ] [Algorithms on Graphs | Coursera](https://www.coursera.org/learn/algorithms-on-graphs)
 - [ ] [Computer science | Computing | Khan Academy](https://www.khanacademy.org/computing/computer-science)
 - [ ] [Introduction to Computer Science and Programming | Electrical Engineering and Computer Science | MIT OpenCourseWare](https://ocw.mit.edu/courses/6-00sc-introduction-to-computer-science-and-programming-spring-2011/)

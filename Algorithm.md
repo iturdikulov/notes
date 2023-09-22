@@ -52,5 +52,6 @@ the algorithm you choose can seriously affect the speed of your code.
 
 - [[research/Wengrow-Data_structures_and_algorithms]]
 - [List of algorithms - Wikipedia](https://en.wikipedia.org/wiki/List_of_algorithms)
+- [ ] [Red Blob Games](https://www.redblobgames.com/)
 - [ ] [Visualising data structures and algorithms through animation](https://visualgo.net/en/sorting)
 - [ ] [Data Structure Visualization](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html)

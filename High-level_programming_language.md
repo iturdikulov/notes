@@ -9,9 +9,15 @@ tags:
 
 # High-level programming language
 
-> In computer science, a high-level programming language is a programming
-> language with strong abstraction from the details of the computer.
-TODO: add link
+> In [[Computer_science|computer science]], a high-level
+> [[Programming_language|programming language]] is a programming language with
+> strong abstraction from the details of the computer. In contrast to low-level
+> programming languages, it may use natural language elements, be easier to use,
+> or may automate (or even hide entirely) significant areas of computing systems
+> (e.g. memory management), making the process of developing a program simpler
+> and more understandable than when using a lower-level language. The amount of
+> abstraction provided defines how "high-level" a programming language is.\
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/High-level_programming_language)</cite>
 
 So high-level language hide some low-level details and provide more high-level
 abstractions. Which can make programming easier to write code.

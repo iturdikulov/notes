@@ -79,4 +79,9 @@ It's $\mathcal{O}(N)$.
 
 ## Resources
 
+- [ ] [Big-O notation in 5 minutes - YouTube](https://www.youtube.com/watch?v=__vX2sjlpXU)
+- [ ] [Big Oh Notation (and Omega and Theta) - YouTube](https://www.youtube.com/watch?v=ei-A_wy5Yxw)
+- [ ] [Asymptotic Notation - YouTube](https://www.youtube.com/watch?v=iOq5kSKqeR4)
+- [ ] [Binary Search - YouTube](https://www.youtube.com/watch?v=D5SrAga1pno)
+- [ ] [Big O Notations - YouTube](https://www.youtube.com/watch?v=V6mKVRU1evU)
 - [Big-O Algorithm Complexity Cheat Sheet (Know Thy Complexities!) @ericdrowell](https://www.bigocheatsheet.com/)

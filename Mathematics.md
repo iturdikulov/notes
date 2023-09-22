@@ -30,6 +30,7 @@ directory: ~/Science/math/
 ## Resources
 
 - [ ] [Число Грэма Грехема(xkcdoff) - YouTube](https://www.youtube.com/watch?v=kOg-zDjA-0A)
+- [ ] [Math Skills: How to find Factorial, Permutation and Combination (Choose) - YouTube](https://www.youtube.com/watch?v=8RRo6Ti9d0U)
 - [ ] [Задачи тысячелетия - YouTube](https://www.youtube.com/playlist?list=PLzbL7FoiqpKboohozmqPpJXzO5m9iwHD-)
 - [ ] [Introduction to Mathematical Thinking | Coursera](https://www.coursera.org/learn/mathematical-thinking?utm_campaign=gotocourse&utm_medium=coursepage&utm_source=CourseTalk)
 - [ ] [Все главные формулы по математике - Математика - Теория, тесты, формулы и задачи - Обучение Математике, Онлайн подготовка к ЦТ и ЕГЭ.](https://educon.by/index.php/formuly/formmat)
