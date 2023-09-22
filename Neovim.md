@@ -4,9 +4,9 @@ sr-due: 2024-02-18
 sr-ease: 230
 sr-interval: 277
 tags:
-- inbox
-- vim
-- software
+  - inbox
+  - vim
+  - software
 external: https://neovim.io/
 directory: ~/Computer/software/nvim/
 ---
