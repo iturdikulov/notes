@@ -6,7 +6,7 @@ tags:
 
 # Painting list
 
-Interesting paintings to research.
+Interesting paintings to research, essential of [[Visual_arts|visual art]].
 
 ![](./img/Семирадский–По_примеру_богов_2.jpg)
 _[По примеру богов 2 (картина) — Генрих Ипполитович Семирадский](https://gallerix.ru/album/Semiradsky/pic/glrx-518946986)_
