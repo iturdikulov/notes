@@ -28,6 +28,10 @@ tags:
 ### Frontend
 
 - [CSS: Cascading Style Sheets | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [ ] [AllThingsSmitty/css-protips: A collection of tips to help take your CSS skills pro](https://github.com/AllThingsSmitty/css-protips)
+- [ ] [CSS GPU Animation: Doing It Right — Smashing Magazine](https://www.smashingmagazine.com/2016/12/gpu-animation-doing-it-right/)
+- [ ] [CSS ::before and ::after for custom animations and transitions - LogRocket Blog](https://blog.logrocket.com/css-before-after-custom-animations-transitions/)
+
 - [HTML: HyperText Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML)
 - [JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
@@ -38,6 +42,3 @@ tags:
 - [ ] [Как правильно верстать в 2022 году. Часть 1 / Habr](https://habr.com/en/articles/655009/)
 - [ ] [Основы и практика CSS Grid Layout:  как использовать двумерную раскладку для повседневных задач / Habr](https://habr.com/en/articles/656245/)
 - [ ] [Frontend Developer Roadmap: What is Frontend Development?](https://roadmap.sh/frontend)
-- [ ] [AllThingsSmitty/css-protips: A collection of tips to help take your CSS skills pro](https://github.com/AllThingsSmitty/css-protips)
-- [ ] [CSS GPU Animation: Doing It Right — Smashing Magazine](https://www.smashingmagazine.com/2016/12/gpu-animation-doing-it-right/)
-- [ ] [CSS ::before and ::after for custom animations and transitions - LogRocket Blog](https://blog.logrocket.com/css-before-after-custom-animations-transitions/)
