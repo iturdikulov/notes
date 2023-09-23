@@ -14,9 +14,9 @@ take < 2 min? ^ZZngSneU
 
 🗑️ ^t6C2YZkC
 
-- Trash
-- Incubate
-- Reference ^JEkgAfxv
+- Trash (Elliminate)
+- Incubate (Someday/Maybe)
+- Reference (Digital List/Notes) ^JEkgAfxv
 
 yes ^oaDxCr7s
 
@@ -37,7 +37,7 @@ with ETA ^mpkTKVNU
 
 no ^J0BItuVM
 
-Ready to work on it ^bLwm7uSU
+Ready to work on it in near time ^bLwm7uSU
 
 next actions
 or
@@ -275,8 +275,8 @@ I can save it in tickler file ^w8Ci9nXY
 		},
 		{
 			"type": "arrow",
-			"version": 345,
-			"versionNonce": 1054509541,
+			"version": 346,
+			"versionNonce": 619374794,
 			"isDeleted": false,
 			"id": "4vniFArAtMppFFZxfLIph",
 			"fillStyle": "hachure",
@@ -303,7 +303,7 @@ I can save it in tickler file ^w8Ci9nXY
 					"id": "PCUCOZh9"
 				}
 			],
-			"updated": 1695135152262,
+			"updated": 1695496748081,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -373,8 +373,8 @@ I can save it in tickler file ^w8Ci9nXY
 		},
 		{
 			"type": "text",
-			"version": 52,
-			"versionNonce": 923621579,
+			"version": 107,
+			"versionNonce": 97604566,
 			"isDeleted": false,
 			"id": "JEkgAfxv",
 			"fillStyle": "hachure",
@@ -387,7 +387,7 @@ I can save it in tickler file ^w8Ci9nXY
 			"y": 661.3333333333335,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 113.2398681640625,
+			"width": 318.15960693359375,
 			"height": 75,
 			"seed": 2086717125,
 			"groupIds": [],
@@ -399,24 +399,24 @@ I can save it in tickler file ^w8Ci9nXY
 					"type": "arrow"
 				}
 			],
-			"updated": 1695135143193,
+			"updated": 1695496836276,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
 			"fontFamily": 1,
-			"text": "- Trash\n- Incubate\n- Reference",
-			"rawText": "- Trash\n- Incubate\n- Reference",
+			"text": "- Trash (Elliminate)\n- Incubate (Someday/Maybe)\n- Reference (Digital List/Notes)",
+			"rawText": "- Trash (Elliminate)\n- Incubate (Someday/Maybe)\n- Reference (Digital List/Notes)",
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": null,
-			"originalText": "- Trash\n- Incubate\n- Reference",
+			"originalText": "- Trash (Elliminate)\n- Incubate (Someday/Maybe)\n- Reference (Digital List/Notes)",
 			"lineHeight": 1.25,
 			"baseline": 68
 		},
 		{
 			"type": "arrow",
-			"version": 314,
-			"versionNonce": 548321989,
+			"version": 318,
+			"versionNonce": 592325258,
 			"isDeleted": false,
 			"id": "fF0rIOIsVeEsPuPaCeUI6",
 			"fillStyle": "hachure",
@@ -425,12 +425,12 @@ I can save it in tickler file ^w8Ci9nXY
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -114.12688934456264,
-			"y": 470.2256428895456,
+			"x": -114.12874066552467,
+			"y": 470.2288460668564,
 			"strokeColor": "#2f9e44",
 			"backgroundColor": "transparent",
-			"width": 141.40359364272152,
-			"height": 7.298102203728831,
+			"width": 141.4074363517166,
+			"height": 7.300059739142455,
 			"seed": 736926827,
 			"groupIds": [],
 			"frameId": null,
@@ -443,7 +443,7 @@ I can save it in tickler file ^w8Ci9nXY
 					"id": "oaDxCr7s"
 				}
 			],
-			"updated": 1695135152264,
+			"updated": 1695496748088,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -465,8 +465,8 @@ I can save it in tickler file ^w8Ci9nXY
 					0
 				],
 				[
-					141.40359364272152,
-					-7.298102203728831
+					141.4074363517166,
+					-7.300059739142455
 				]
 			]
 		},
@@ -584,8 +584,8 @@ I can save it in tickler file ^w8Ci9nXY
 		},
 		{
 			"type": "arrow",
-			"version": 83,
-			"versionNonce": 82256645,
+			"version": 87,
+			"versionNonce": 519256842,
 			"isDeleted": false,
 			"id": "VRarEt0fDhfgHJNv4k5Ao",
 			"fillStyle": "hachure",
@@ -594,12 +594,12 @@ I can save it in tickler file ^w8Ci9nXY
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 133.00514150971884,
-			"y": 373.3301172449495,
+			"x": 133.00514151549092,
+			"y": 373.33011724133905,
 			"strokeColor": "#2f9e44",
 			"backgroundColor": "transparent",
-			"width": 1.3255389875663468,
-			"height": 114.66345057828289,
+			"width": 1.3255389832815752,
+			"height": 114.66345057467242,
 			"seed": 80659781,
 			"groupIds": [],
 			"frameId": null,
@@ -612,7 +612,7 @@ I can save it in tickler file ^w8Ci9nXY
 					"id": "tvLH5mYj"
 				}
 			],
-			"updated": 1695135152266,
+			"updated": 1695496748092,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -634,8 +634,8 @@ I can save it in tickler file ^w8Ci9nXY
 					0
 				],
 				[
-					1.3255389875663468,
-					-114.66345057828289
+					1.3255389832815752,
+					-114.66345057467242
 				]
 			]
 		},
@@ -715,8 +715,8 @@ I can save it in tickler file ^w8Ci9nXY
 		},
 		{
 			"type": "arrow",
-			"version": 250,
-			"versionNonce": 15939589,
+			"version": 251,
+			"versionNonce": 672163082,
 			"isDeleted": false,
 			"id": "Wr8M81xMt_S7lFf-x68Qa",
 			"fillStyle": "hachure",
@@ -738,7 +738,7 @@ I can save it in tickler file ^w8Ci9nXY
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1695135152264,
+			"updated": 1695496748086,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -842,8 +842,8 @@ I can save it in tickler file ^w8Ci9nXY
 		},
 		{
 			"type": "arrow",
-			"version": 109,
-			"versionNonce": 585360837,
+			"version": 113,
+			"versionNonce": 1408467082,
 			"isDeleted": false,
 			"id": "hxCLYwrA2NNc5E9ebw2M9",
 			"fillStyle": "hachure",
@@ -852,12 +852,12 @@ I can save it in tickler file ^w8Ci9nXY
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 141.14325319806952,
-			"y": 528.7444122656786,
+			"x": 141.14325311741567,
+			"y": 528.7444123161288,
 			"strokeColor": "#e03131",
 			"backgroundColor": "transparent",
-			"width": 2.6680334796937473,
-			"height": 52.531922432834676,
+			"width": 2.668033506306358,
+			"height": 52.531922343139286,
 			"seed": 1635166821,
 			"groupIds": [],
 			"frameId": null,
@@ -870,7 +870,7 @@ I can save it in tickler file ^w8Ci9nXY
 					"id": "ZrPrikhh"
 				}
 			],
-			"updated": 1695135152267,
+			"updated": 1695496748093,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -892,8 +892,8 @@ I can save it in tickler file ^w8Ci9nXY
 					0
 				],
 				[
-					2.6680334796937473,
-					52.531922432834676
+					2.668033506306358,
+					52.531922343139286
 				]
 			]
 		},
@@ -1011,8 +1011,8 @@ I can save it in tickler file ^w8Ci9nXY
 		},
 		{
 			"type": "arrow",
-			"version": 83,
-			"versionNonce": 2017745733,
+			"version": 87,
+			"versionNonce": 1420946314,
 			"isDeleted": false,
 			"id": "KxZ_3WkG7Bqn8JiX36eyp",
 			"fillStyle": "hachure",
@@ -1039,7 +1039,7 @@ I can save it in tickler file ^w8Ci9nXY
 					"id": "qbv01FmD"
 				}
 			],
-			"updated": 1695135152268,
+			"updated": 1695496748096,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -1105,8 +1105,8 @@ I can save it in tickler file ^w8Ci9nXY
 		},
 		{
 			"type": "arrow",
-			"version": 148,
-			"versionNonce": 872589989,
+			"version": 210,
+			"versionNonce": 415702666,
 			"isDeleted": false,
 			"id": "M3jylsRlJ9XO9XPm2Yrl2",
 			"fillStyle": "hachure",
@@ -1119,8 +1119,8 @@ I can save it in tickler file ^w8Ci9nXY
 			"y": 747.3185897006721,
 			"strokeColor": "#e03131",
 			"backgroundColor": "transparent",
-			"width": 2.707953934355686,
-			"height": 54.02244992390422,
+			"width": 2.6531552824439473,
+			"height": 54.02674088288734,
 			"seed": 452806123,
 			"groupIds": [],
 			"frameId": null,
@@ -1133,7 +1133,7 @@ I can save it in tickler file ^w8Ci9nXY
 					"id": "J0BItuVM"
 				}
 			],
-			"updated": 1695135152269,
+			"updated": 1695496965775,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -1151,8 +1151,8 @@ I can save it in tickler file ^w8Ci9nXY
 					0
 				],
 				[
-					2.707953934355686,
-					54.02244992390422
+					2.6531552824439473,
+					54.02674088288734
 				]
 			]
 		},
@@ -1195,8 +1195,8 @@ I can save it in tickler file ^w8Ci9nXY
 		},
 		{
 			"type": "diamond",
-			"version": 198,
-			"versionNonce": 784440971,
+			"version": 267,
+			"versionNonce": 1827460042,
 			"isDeleted": false,
 			"id": "AzACHc1MI_UjCs53Yg6zX",
 			"fillStyle": "hachure",
@@ -1210,7 +1210,7 @@ I can save it in tickler file ^w8Ci9nXY
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
 			"width": 199,
-			"height": 170,
+			"height": 180,
 			"seed": 687423819,
 			"groupIds": [],
 			"frameId": null,
@@ -1229,16 +1229,20 @@ I can save it in tickler file ^w8Ci9nXY
 				{
 					"id": "Jlna33BbIfs7jCwidXHGW",
 					"type": "arrow"
+				},
+				{
+					"id": "wU2tGUYo_vr0ZIBX6V-Wb",
+					"type": "arrow"
 				}
 			],
-			"updated": 1695134167794,
+			"updated": 1695496982333,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 172,
-			"versionNonce": 1468628555,
+			"version": 256,
+			"versionNonce": 1137878486,
 			"isDeleted": false,
 			"id": "bLwm7uSU",
 			"fillStyle": "hachure",
@@ -1247,30 +1251,30 @@ I can save it in tickler file ^w8Ci9nXY
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 100.59338124592972,
-			"y": 854.5000000000002,
+			"x": 99.503239949543,
+			"y": 857.0000000000002,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 83.97990417480469,
-			"height": 75,
+			"width": 86.16018676757812,
+			"height": 80,
 			"seed": 1249435627,
 			"groupIds": [],
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1695134075083,
+			"updated": 1695496982333,
 			"link": null,
 			"locked": false,
-			"fontSize": 20,
+			"fontSize": 16,
 			"fontFamily": 1,
-			"text": "Ready \nto work \non it",
-			"rawText": "Ready to work on it",
+			"text": "Ready to \nwork on it \nin near \ntime",
+			"rawText": "Ready to work on it in near time",
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "AzACHc1MI_UjCs53Yg6zX",
-			"originalText": "Ready to work on it",
+			"originalText": "Ready to work on it in near time",
 			"lineHeight": 1.25,
-			"baseline": 68
+			"baseline": 74
 		},
 		{
 			"type": "rectangle",
@@ -1349,8 +1353,8 @@ I can save it in tickler file ^w8Ci9nXY
 		},
 		{
 			"type": "arrow",
-			"version": 63,
-			"versionNonce": 1894632779,
+			"version": 189,
+			"versionNonce": 365200394,
 			"isDeleted": false,
 			"id": "Jlna33BbIfs7jCwidXHGW",
 			"fillStyle": "hachure",
@@ -1359,12 +1363,12 @@ I can save it in tickler file ^w8Ci9nXY
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 243.66666666666546,
-			"y": 894.6666666666666,
+			"x": 244.47968212362582,
+			"y": 896.8315901712551,
 			"strokeColor": "#2f9e44",
 			"backgroundColor": "transparent",
-			"width": 62.66666666666666,
-			"height": 0,
+			"width": 61.8536512097063,
+			"height": 0.7681745018585389,
 			"seed": 927412773,
 			"groupIds": [],
 			"frameId": null,
@@ -1377,7 +1381,7 @@ I can save it in tickler file ^w8Ci9nXY
 					"id": "TgEz4k5P"
 				}
 			],
-			"updated": 1695135221163,
+			"updated": 1695496965775,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -1399,8 +1403,8 @@ I can save it in tickler file ^w8Ci9nXY
 					0
 				],
 				[
-					62.66666666666666,
-					0
+					61.8536512097063,
+					-0.7681745018585389
 				]
 			]
 		},
@@ -1481,8 +1485,8 @@ I can save it in tickler file ^w8Ci9nXY
 		},
 		{
 			"type": "text",
-			"version": 396,
-			"versionNonce": 299219851,
+			"version": 424,
+			"versionNonce": 968171978,
 			"isDeleted": false,
 			"id": "PQI7ToOA",
 			"fillStyle": "hachure",
@@ -1502,7 +1506,7 @@ I can save it in tickler file ^w8Ci9nXY
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1695135477052,
+			"updated": 1695496940202,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -1518,8 +1522,8 @@ I can save it in tickler file ^w8Ci9nXY
 		},
 		{
 			"type": "arrow",
-			"version": 24,
-			"versionNonce": 1660851403,
+			"version": 27,
+			"versionNonce": 1357392918,
 			"isDeleted": false,
 			"id": "wU2tGUYo_vr0ZIBX6V-Wb",
 			"fillStyle": "hachure",
@@ -1541,10 +1545,14 @@ I can save it in tickler file ^w8Ci9nXY
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1695135478070,
+			"updated": 1695496966045,
 			"link": null,
 			"locked": false,
-			"startBinding": null,
+			"startBinding": {
+				"elementId": "AzACHc1MI_UjCs53Yg6zX",
+				"focus": 0.06477366255143979,
+				"gap": 1.26585413663922
+			},
 			"endBinding": {
 				"elementId": "zKAz_PQ1qzVH3FL9fDP-Y",
 				"gap": 14.666666666666629,
@@ -1603,8 +1611,8 @@ I can save it in tickler file ^w8Ci9nXY
 		},
 		{
 			"type": "text",
-			"version": 106,
-			"versionNonce": 1681010507,
+			"version": 231,
+			"versionNonce": 2109543818,
 			"isDeleted": false,
 			"id": "w8Ci9nXY",
 			"fillStyle": "hachure",
@@ -1613,8 +1621,8 @@ I can save it in tickler file ^w8Ci9nXY
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -373.1666666666674,
-			"y": 692.8333333333334,
+			"x": -473.1666666666674,
+			"y": 775.8333333333334,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "#a5d8ff",
 			"width": 269.1796875,
@@ -1629,7 +1637,7 @@ I can save it in tickler file ^w8Ci9nXY
 					"type": "arrow"
 				}
 			],
-			"updated": 1695135146572,
+			"updated": 1695496842519,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -1645,8 +1653,8 @@ I can save it in tickler file ^w8Ci9nXY
 		},
 		{
 			"type": "arrow",
-			"version": 47,
-			"versionNonce": 1533475595,
+			"version": 349,
+			"versionNonce": 646512778,
 			"isDeleted": false,
 			"id": "Otbc47hlJU3cO5Z-UPiKP",
 			"fillStyle": "hachure",
@@ -1655,12 +1663,12 @@ I can save it in tickler file ^w8Ci9nXY
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -408.1666666666675,
-			"y": 705.8885646996292,
+			"x": -271.1435677654015,
+			"y": 769.7366835775712,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "#a5d8ff",
-			"width": 33.00000000000006,
-			"height": 1.0746248264347287,
+			"width": 33.45324025470546,
+			"height": 27.616444319759125,
 			"seed": 1771879589,
 			"groupIds": [],
 			"frameId": null,
@@ -1668,18 +1676,18 @@ I can save it in tickler file ^w8Ci9nXY
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1695135146735,
+			"updated": 1695496843142,
 			"link": null,
 			"locked": false,
 			"startBinding": {
-				"elementId": "JEkgAfxv",
-				"focus": 0.1333333333333303,
-				"gap": 6.92679850260356
+				"elementId": "w8Ci9nXY",
+				"focus": 0.5997310607759982,
+				"gap": 6.096649755762201
 			},
 			"endBinding": {
-				"elementId": "w8Ci9nXY",
-				"focus": -0.36,
-				"gap": 2
+				"elementId": "JEkgAfxv",
+				"focus": -0.05975894540410439,
+				"gap": 5.7869059244785035
 			},
 			"lastCommittedPoint": null,
 			"startArrowhead": null,
@@ -1690,8 +1698,8 @@ I can save it in tickler file ^w8Ci9nXY
 					0
 				],
 				[
-					33.00000000000006,
-					1.0746248264347287
+					-33.45324025470546,
+					-27.616444319759125
 				]
 			]
 		}
@@ -1707,12 +1715,12 @@ I can save it in tickler file ^w8Ci9nXY
 		"currentItemRoughness": 1,
 		"currentItemOpacity": 100,
 		"currentItemFontFamily": 1,
-		"currentItemFontSize": 20,
+		"currentItemFontSize": 16,
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
 		"scrollX": 582.6666666666674,
-		"scrollY": -31.83333333333337,
+		"scrollY": 88.16666666666663,
 		"zoom": {
 			"value": 1
 		},
