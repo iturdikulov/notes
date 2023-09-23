@@ -29,6 +29,7 @@ Some general notes available in @DiveIntoTaskwarriorTomasBabej.
 
 ## Resources
 
-- [Taskwarrior - 30-Second Tutorial](https://taskwarrior.org/docs/30second.html)
-- [Taskwarrior - Usage Examples](https://taskwarrior.org/docs/examples/)
-- [Taskwarrior - Best Practices](https://taskwarrior.org/docs/best-practices/)
+- [ ] `man task`
+- [ ] [Taskwarrior - 30-Second Tutorial](https://taskwarrior.org/docs/30second.html)
+- [ ] [Taskwarrior - Usage Examples](https://taskwarrior.org/docs/examples/)
+- [ ] [Taskwarrior - Best Practices](https://taskwarrior.org/docs/best-practices/)
