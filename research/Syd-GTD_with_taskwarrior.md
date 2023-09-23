@@ -1,6 +1,4 @@
 ---
-title: Syd (2015) GTD with Taskwarrior
-description:
 tags:
 - inbox
 - research
@@ -8,7 +6,12 @@ created: 2023-07-14
 sr-due: 2023-09-25
 sr-interval: 1
 sr-ease: 230
-external: https://cs-syd.eu/posts/2015-06-14-gtd-with-taskwarrior-part-1-intro
+external:
+  - https://cs-syd.eu/posts/2015-06-14-gtd-with-taskwarrior-part-1-intro
+  - https://cs-syd.eu/posts/2015-06-21-gtd-with-taskwarrior-part-2-collection
+  - https://cs-syd.eu/posts/2015-06-28-gtd-with-taskwarrior-part-3-tickling
+  - https://cs-syd.eu/posts/2015-07-05-gtd-with-taskwarrior-part-4-processing
+  - https://cs-syd.eu/posts/2015-07-12-gtd-with-taskwarrior-part-5-doing
 ---
 
 A series where author show how to use taskwarrior to implement GTD. This series
@@ -95,8 +98,6 @@ report.in.labels            = ID,Description
 
 To see this report, just type `ti` (my alias to `task in`). You can use this ad
 mental habit to quickly check your inbox.
-
-<!-- TODO: I stopped here. -->
 
 # Part 3: Tickling
 
