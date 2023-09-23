@@ -49,6 +49,8 @@ Using Inbox lists, I'm reducing brain time to remember all these things.
 
 Outside of home/PC I use special lists files, which I'm editing in [[Markor]].
 
+## Processing
+
 General tips:
 
 - Process items from oldest to newest.
@@ -188,13 +190,22 @@ folders. Why 43? Because that means that you can have one for each of the **31**
 days of a month plus one for each of the **12** months of the year. If you’re
 reaching for your calculator now—just trust me on the number 43.
 
-This sort of calendar, but with much fewer restrictions. Each day/month you check
-tickler file and decide what to-do with these tasks. You can schedule it again or
-move into `next` list. It can be used as reminder system, to send messages to
-yourself in the future.
+This sort of calendar, but with much fewer restrictions. Each day/month you
+check tickler files (for current day) and decide what to-do with these tasks.
+You can schedule it again or move into `next` list. It can be used as reminder
+system, to send messages to yourself in the future.
+
+
+Tickler file requirements
+
+- Tickle items should only be visible on (and after) the day you need to see
+them.
+- For every tickle item, you should know why you get it in your inbox (again).
+- For every tickle item, you should know when you put it in your tickler system.
+- The transaction cost of using a tickler system should be as low as possible.
 
 ## Resources
 
 - [x] [GTD in 15 minutes](https://hamberg.no/gtd). Actually taken more than few
-hours from me 😀. But this material is very good, and I filled this note mostly
+hours from me 🙂. But this material is very good, and I filled this note mostly
 from this article.
