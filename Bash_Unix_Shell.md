@@ -20,6 +20,17 @@ Cheat sheet:
 ![](./img/Bash_CheatSheet.pdf)
 _[obfusk/bash-cheatsheet: bash cheat sheet](https://github.com/obfusk/bash-cheatsheet/tree/master)_
 
+## Tips
+
+Uppercase first letter of filenames:
+
+```sh
+for i in *;  # process every file in current directory
+    do new=`echo "$i" | sed -e 's/^./\U&/'`; # replace first char by a capitalized version
+    mv "$i" "$new";
+done;
+```
+
 ## Resources
 
 - [ ] [Command Challenge!](https://cmdchallenge.com/)

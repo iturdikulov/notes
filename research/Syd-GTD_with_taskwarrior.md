@@ -1,7 +1,7 @@
 ---
 tags:
-- inbox
-- research
+  - inbox
+  - research
 created: 2023-07-14
 sr-due: 2023-09-25
 sr-interval: 1
@@ -72,7 +72,7 @@ My `task add` command aliased to `ta`.
 
 ## Urgency
 
-To add urgency to an `inbox` task, we modify its urgency coefficient. You can do
+To add urgency to a `inbox` task, we modify its urgency coefficient. You can do
 this by putting the following line in your `~/.taskrc` file:
 
 `urgency.user.tag.inbox.coefficient=15.0`
@@ -200,7 +200,7 @@ context tag to a tag. Common context tags are `+@office`, `+@phone`,
 
 ## Research
 
-Often the very next task for a project is just a whole lot of 'looking into
+Often the very next task for a project is just a lot of 'looking into
 something'. For that reason, here is the `rnd` alias:
 
     # rnd - Research and development
@@ -221,36 +221,20 @@ annotate`.
 
 Usually read and review happens on the internet. Enter the `rnr` alias:
 
-To grab web page title I use complex `url2text` script, which utilize
+To grab web page title I use complex
+[[external/url2text|url2text]] script, which utilize
 [[Brave|brave]] browser (to support dynamic rendered web-pages, and avoid some
 false-positive web-sites protection issues).
-
-TODO: read content of `url2text` script dynamically?
-```sh
-#!/bin/sh
-
-BROWSER=brave
-url=${1:-$(xclip -o -selection clipboard)}
-format=${2:-title}
-
-# Use curl to fetch the page and extract the title with sed
-title=$($BROWSER --headless --dump-dom --disable-gpu "$url"|sed -n -e 's!.*<title>\(.*\)</title>.*!\1!p')
-
-if [[ $format == "title" ]]; then
-    printf "$url\n$title"
-else
-    echo "[$title]($url)"
-fi
-```
 
 And here `rnr` function:
 
 ```sh
 # Usage: rnr <url>
 rnr (){
-    local text=$(url2text $1)
+    local text=$(url2text text "$1")
     local descr="\"Read and review: $text\""
-    task add +next +rnr "$descr"
+    local id=$(task add +next +rnr "$descr" | sed -n 's/Created task \(.*\)./\1/p')
+    task $id|grep Description
 }
 ```
 
@@ -258,13 +242,13 @@ rnr (){
 
 ## Context
 
-> The most important step in choosing what task to work on is to realise that
-> there are tasks you don't even need to consider. If you're on an airplane and
+> The most important step in choosing what task to work on is to realize that
+> there are tasks you don't even need to consider. If you're on an airplane, and
 > you have some time to work, there's absolutely no way that you're going to be
 > able to water your office plants. Ideally, tasks that lie out of your current
 > context should not even present themselves in the range of opportunities.
 
-You can merge contexts into big one, or use custom parmeters, example (need
+You can merge contexts into big one, or use custom parameters, example (need
 place into `~/.taskrc`):
 
     context.work=+@computer or +@phone or +@online
@@ -278,9 +262,9 @@ command:
 
 ## Brain power
 
-Currently I don't use this feature, but it's interesting.
+Currently, I don't use this feature, but it's interesting.
 
-Here's another example. You've just done an exam and your brain feels like it's
+Here's another example. You've just done an exam and your brain feels like its
 toast. There's no use in seeing a task like `Write a review of Marc's paper on
 monoids in the category of endofunctors` (wink). A task like `Water the office
 plants` would ideally present itself at the top of your task list.

@@ -21,6 +21,9 @@ tags:
 - [Cocktail Builder](https://www.cocktailbuilder.com/)
 - [MyFridgeFood](https://myfridgefood.com/)
 
+- [ ] [Собираем ПП продукты на неделю! / Как питаться дёшево и полезно? - YouTube](https://www.youtube.com/watch?v=ONffRw8rxVA)
+
+
 ### YouTube channels
 
 - [AlmazanKitchen](https://www.youtube.com/@AlmazanKitchen/videos)

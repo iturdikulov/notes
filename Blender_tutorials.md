@@ -93,5 +93,6 @@ orthographic view (no depth, objects same size regardless of distance)
 
 ## Resources
 
+- [ ] [BlenderText To 3D AI Generator](https://devbud.gumroad.com/l/Shap-e)
 - [ ] [[research/Price-Donut_Tutorial]]
 - [ ] [Animate a Character in 15 Minutes in Blender - YouTube](https://www.youtube.com/watch?v=imbIsNAvUpM)

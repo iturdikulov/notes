@@ -18,3 +18,6 @@ directory: ~/People/
 I save some information about Peoples which I find interesting. I can save their
 contacts, biography, and other information.
 
+- [Jonathan Blow - Wikipedia](https://en.wikipedia.org/wiki/Jonathan_Blow)
+- [Sergey Leschev - Team Lead](https://sergeyleschev.github.io/)
+

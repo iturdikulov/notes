@@ -4,7 +4,7 @@ tags:
   - inbox
 ---
 
-# Poetry on [[NixOS]]
+# [[Poetry]] on [[NixOS]]
 
 Basically I use `nix-shell` with some minimal configuration.
 

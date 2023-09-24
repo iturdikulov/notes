@@ -26,6 +26,8 @@ Databases which I use or want to try:
 
 ## Resources
 
+- [ ] [Interactive tutorial on SQL | SQL-tutorial.ru search](http://www.sql-tutorial.ru/en/content.html)
+- [ ] [SQL exercises](https://sql-ex.ru/)
 - [ ] [Try Redis](https://try.redis.io/)
 - [ ] [What Is NoSQL? NoSQL Databases Explained | MongoDB](https://www.mongodb.com/nosql-explained)
 - [ ] [What Is a Database | Oracle](https://www.oracle.com/database/what-is-database/)

@@ -86,7 +86,10 @@ included" language.
 - [ ] [1: CS22 - Python Data Structures/Algorithms Class - Introduction - YouTube](https://www.youtube.com/playlist?list=PLtbC5OfOR8aqA6CJwWTRUITgGpUy1Umr3)
 
 - [ ] [Лучшие open-source инструменты для Python проектов](https://habr.com/en/articles/708916/)
+
+- [ ] [python - Celery: log each task run to its own file? - Stack Overflow](https://stackoverflow.com/questions/25281612/celery-log-each-task-run-to-its-own-file)
 - [ ] [Using Celery: Python Task Management | Toptal®](https://www.toptal.com/python/orchestrating-celery-python-background-jobs)
+
 - [ ] [How to learn Python programming | Guido van Rossum and Lex Fridman - YouTube](https://www.youtube.com/watch?v=F2Mx-u7auUs)
 - [ ] [Learn to become a modern Python developer](https://roadmap.sh/python)
 - [ ] [Ned Batchelder - Facts and Myths about Python names and values - PyCon 2015 - YouTube](https://www.youtube.com/watch?v=\_AEJHKGk9ns)

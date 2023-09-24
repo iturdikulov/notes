@@ -992,6 +992,7 @@ this.
 - [ ] Current mail goal: [[My_editing_workflow]]
 - [ ] https://stackoverflow.com/questions/509690/how-can-you-list-the-matches-of-vims-search
 - [ ] https://github.com/tpope/vim-surround
+- [ ] [Debugging Javascript applications with Neovim](https://miguelcrespo.co/posts/debugging-javascript-applications-with-neovim/)
 - [neovimcraft, plugins](https://neovimcraft.com/)
 - [[research/Neil-Modern_Vim]]
 - [[research/Neil-Practical_Vim]]
