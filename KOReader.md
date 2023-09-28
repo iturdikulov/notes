@@ -18,4 +18,5 @@ tags:
 I frequently use it to read mostly fiction books on my
 [[My_inventory##Kindle paperwhite|kindle_paperwhite]].
 
-User guide wit my notes here: [[research/KOReader_Community-KOReader_user_guide|user guide]].
+User guide wit my notes here:
+[[research/KOReader_Community-KOReader_user_guide|user guide]].
