@@ -13,26 +13,26 @@ tags:
 If you understand all of this and still wish to use it, see HowtoPurple and add
 the account like this in &bitlbee:
 
-`account add irc nickname@irc.example.net`{.verbatim}
+`account add irc nickname@irc.example.net`
 
 # Joining channels
 
 Do this in &bitlbee:
 
-`chat add irc #channel`{.verbatim} Then `/join #channel`{.verbatim}
+`chat add irc #channel` Then `/join #channel`
 
 # Sending private messages to users who are not in a channel
 
 Do this in &bitlbee:
 
-`add irc nickname`{.verbatim} Then `/query nickname`{.verbatim}
+`add irc nickname` Then `/query nickname`
 
 # Plugins
 
 Plugin adds \'xxxx\' protocol to bitlbee, add your account as usual:
-`account add xxxx <email> <password>`{.verbatim} `account xxx on`{.verbatim}
+`account add xxxx <email> <password>` `account xxx on`
 
-List & add, !1 here is channel list generated from `chat list xxxx`{.verbatim}
+List & add, !1 here is channel list generated from `chat list xxxx`
 
 ```example
 chat list xxxx

@@ -54,7 +54,7 @@ network settings.
 
 <https://archlinux.org/download/>
 
-``` {.bash org-language="sh"}
+```sh
 curl -O "..." # I recommed download iso directli into USB drive (ventoy)
 b2sum archlinux-2022.08.05-x86_64.iso
 # compare it (simplest method) copy / C-f,C-v on download page
@@ -64,24 +64,22 @@ After downloading and checking, copy it to flash drive, I use ventoy.
 
 ## Setup installation via SSH, recommended way
 
-1.  Set a root password `passwd`{.verbatim}
-
-2.  Confirm that `PermitRootLogin`{.verbatim} yes is set in
-    `/etc/ssh/sshd_config`{.verbatim}. If it is not, set it and reload
-    the OpenSSH daemon `sshd.service`{.verbatim}
-
+1.  Set a root password `passwd`
+2.  Confirm that `PermitRootLogin` yes is set in
+    `/etc/ssh/sshd_config`. If it is not, set it and reload
+    the OpenSSH daemon `sshd.service`
 3.  On the local machine, connect to the target machine via SSH with the
     following commands:
 
-    ``` {.bash org-language="sh"}
-    ip a                # find machine IP, need run inside remote machine
-    ssh root@address    # need run from client machine
-    ping archlinux.org  # check internet connection
-    ```
+```sh
+ip a                # find machine IP, need run inside remote machine
+ssh root@address    # need run from client machine
+ping archlinux.org  # check internet connection
+```
 
 ## Prepare
 
-``` {.bash org-language="sh"}
+```sh
 pacman -Syy # update mirrors
 
 # identify devices
@@ -127,7 +125,7 @@ timedatectl status
 
 # 1. Wipe existing disks
 
-``` {.bash org-language="sh"}
+```sh
 # cleanup partition information
 sgdisk --zap-all $DISK_DRIVE_1
 sgdisk --zap-all $DISK_DRIVE_2
@@ -148,7 +146,7 @@ need repeat this steps on drive 2.
 
 ## Start partitioning from free space, usually last line in TUI.
 
-``` {.bash org-language="sh"}
+```sh
 cgdisk $DISK_DRIVE_1
 # Create an EFI (EF00) partition with this commands
 n       # create new partiton
@@ -174,15 +172,11 @@ root     # partiton name
 # Write changes
 w
 yes # confirm
-
 ```
 
-```{=org}
-#+RESULTS:
-```
 ## Backup GPT scheme and import GPT scheme to different disk, for RAID1 setup
 
-``` {.bash org-language="sh"}
+```sh
 sgdisk --backup=partiton_table $DISK_DRIVE_1 # backup GPT first
 sgdisk --load-backup=partition_table $DISK_DRIVE_2
 # Randomize the GUID
@@ -194,7 +188,7 @@ sgdisk -G $DISK_DRIVE_2
 
 ## Create environment variables for each partitons
 
-``` {.bash org-language="sh"}
+```sh
 export DISK_PARTITON_A1=$DISK_DRIVE_1'1'
 export DISK_PARTITON_A2=$DISK_DRIVE_1'2'
 export DISK_PARTITON_A3=$DISK_DRIVE_1'3'
@@ -215,7 +209,7 @@ test -e "$DISK_PARTITON_B3" && echo "$DISK_PARTITON_B3" OK || echo fail
 
 ## 3. File systems creation
 
-``` {.bash org-language="sh"}
+```sh
 # Create EFI (FAT32) filesystem:
 mkfs.fat -F 32 $DISK_PARTITON_A1
 
@@ -229,7 +223,7 @@ mkfs -t btrfs -L ROOT -m raid1 -d raid1 $DISK_PARTITON_A3 $DISK_PARTITON_B3
 
 ## Step 4 - Create and Mount Subvolumes
 
-``` {.bash org-language="sh"}
+```sh
 # Create subvolumes
 mount $DISK_PARTITON_A3 /mnt/
 btrfs sub create /mnt/@ && \           # root
@@ -286,7 +280,7 @@ mkdir -p /mnt/boot/efi && mount $DISK_PARTITON_A1 /mnt/boot/efi
 
 ## Step 5 - Base System and /etc/fstab
 
-``` {.bash org-language="sh"}
+```sh
 # Select the HTTPS mirrors 100 up-to-date, and located in either Russia, Netherlands, Sweden  or Germany, sort them by download speed, and overwrite the file /etc/pacman.d/mirrorlist with the results:
 reflector --country Russia,Netherlands,Sweden,Germany  --latest 100 --protocol https --sort rate --save /etc/pacman.d/mirrorlist
 cat /etc/pacman.d/mirrorlist
@@ -328,7 +322,7 @@ less /mnt/etc/fstab
 
 ## Step 6 - System Configuration
 
-``` {.bash org-language="sh"}
+```sh
 # Add some zsh configs for a nicer experience
 cp /etc/zsh/zprofile /mnt/root/.zprofile && \
 cp /etc/zsh/zshrc /mnt/root/.zshrc
@@ -382,7 +376,7 @@ passwd $USER
 
 ## Step 7 - Configure initramfs
 
-``` {.bash org-language="sh"}
+```sh
 cp /etc/mkinitcpio.conf /tmp/mkinitcpio.conf.bak
 
 # Corruption recovery
@@ -401,7 +395,7 @@ mkinitcpio -p linux
 
 ## Step 8 - Bootloader installation
 
-``` {.bash org-language="sh"}
+```sh
 # https://wiki.archlinux.org/title/GRUB#Installation
 # need run this command in chrooted /mnt
 grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id=arch_grub --recheck --debug
@@ -426,7 +420,7 @@ umount /tmp/efi2
 
 ## Step 9 - Optimizations
 
-``` {.bash org-language="sh"}
+```sh
 # Install pipewire & pavucontrol
 pacman -S pipewire pavucontrol
 
@@ -504,7 +498,7 @@ cd pikaur && makepkg -fsri && cd .. && sudo rm -dR pikaur && exit
 
 ## Step 11 - Exit chroot unmount and reboot
 
-``` {.bash org-language="sh"}
+```sh
 exit
 
 umount -R /mnt
@@ -513,7 +507,7 @@ reboot
 
 ## Step 12 - Post install
 
-``` {.bash org-language="sh"}
+```sh
 # Validate btrfs state
 sudo btrfs device stats /
 sudo btrfs fi show
@@ -547,14 +541,14 @@ yadm anaconda
 
 1.  Network
 
-    ``` {.bash org-language="sh"}
+    ```sh
     # Up network device if needed
     sudo ip link set dev enp10s0 up
     ```
 
 2.  Custom Font install
 
-    ``` {.bash org-language="sh"}
+    ```sh
     # -LJ to download from github
     curl -LJ -o ~/.local/share/fonts/Meslo.zip --create-dirs https://github.com/ryanoasis/nerd-fonts/releases/download/v2.2.1/MPlus.zip
     trash ~/.local/share/fonts/MPlus.zip
@@ -570,7 +564,7 @@ Do this in arch live-iso.
 
 Convert Btrfs raid1 to single Btrfs
 
-``` {.bash org-language="sh"}
+```sh
 # Disable auto-mounting btrfs array in /etc/fstab, reboot
 DISK_DEVICE=/dev/sd[x]  # change to your disk name
 MOUNT_POINT=/mountpoint # don't use spaces here
@@ -612,7 +606,7 @@ now-single BTRFS into a RAID1 again.
 Restore gpt partiton from backup to new drive first (partition~table~),
 and recommended restore EFI partition too. Instructions above.
 
-``` {.bash org-language="sh"}
+```sh
 # add multiple devices
 btrfs device add /dev/sd[x] /boot
 btrfs device add /dev/sd[x] /
@@ -637,7 +631,7 @@ Alternative
 
 # Enable SSH access (sshd) after installation
 
-``` {.bash org-language="sh"}
+```sh
 # edit /etc/ssh/sshd_config
 # AllowUsers  username
 

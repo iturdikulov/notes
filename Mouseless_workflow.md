@@ -11,6 +11,7 @@ tags:
 
 - [[Keyboard_shortcut]]
 - TODO: mouseless-workflow make more relevant (check book)
+- TODO: outdated
 
 # Mouse emulation (qmk)
 
@@ -20,57 +21,57 @@ I use now chromium based Web browser (brave-browser) and this
 extensions:
 
   ----------------------------------------- ------------------------------------------------------------
-  Search in active tab                      `C-l`{.verbatim} -\> Type something -\> `RET`{.verbatim}
-  Search in new tab                         `C-l`{.verbatim} -\> Type something -\> `M-RET`{.verbatim}
-  Search in default engine                  `C-k`{.verbatim}
+  Search in active tab                      `C-l` -\> Type something -\> `RET`
+  Search in new tab                         `C-l` -\> Type something -\> `M-RET`
+  Search in default engine                  `C-k`
   Open link in current tab                  =C-=
   Open link in new tab and switch to it     `M-=|
-                                            | Open link in background tab | =C-"`{.verbatim}
-  Open link in new tab using mouse          `C-S-LMB`{.verbatim}
-  Focus item in search dialog (next/prev)   `Fn+j`{.verbatim} `Fn+k`{.verbatim}
-  Search in tabs                            `t`{.verbatim}
-  Go back in history                        `H`{.verbatim}
-  Go forward in history                     `L`{.verbatim}
-  Open history                              `C-H`{.verbatim}
-  Restore closed tab                        `C-T`{.verbatim}
-  Focus page content                        `S-F6`{.verbatim}
+                                            | Open link in background tab | =C-"`
+  Open link in new tab using mouse          `C-S-LMB`
+  Focus item in search dialog (next/prev)   `Fn+j` `Fn+k`
+  Search in tabs                            `t`
+  Go back in history                        `H`
+  Go forward in history                     `L`
+  Open history                              `C-H`
+  Restore closed tab                        `C-T`
+  Focus page content                        `S-F6`
   ----------------------------------------- ------------------------------------------------------------
 
 # Univeral
 
 Notepad based shortcuts, work mostly in any program, except specific.
 
-I use custom qmk bindings, using `FN + letter`{.verbatim} keybindings.
+I use custom qmk bindings, using `FN + letter` keybindings.
 
   ------------------------------- --------------------------------------------
-  Close an open dialog box        `ESC`{.verbatim}
-  Open the help                   `F1`{.verbatim}
-  Switch tabs forward             `C-tab`{.verbatim}
-  Switch tabs backward            `C-S-tab`{.verbatim}
-  Close tab                       `C-w`{.verbatim}
-  Zoom in and out the page        `C-+`{.verbatim}, `C--`{.verbatim}
-  Select all the text             `C-a`{.verbatim}
-  Search text                     `C-f`{.verbatim}, `/`{.verbatim}
-  Create new tab                  `C-t`{.verbatim}
-  Create new window               `C-n`{.verbatim}
-  Open the Print dialog box       `C-p`{.verbatim}
-  Undo                            `C-z`{.verbatim}
-  Redo                            `C-y`{.verbatim}
-  Refresh                         `C-r`{.verbatim}
-  PgUp, Select PgUp               `FN-u`{.verbatim}, `FN-S-u`{.verbatim}
-  PgDown, Select PgDown           `FN-d`{.verbatim}, `FN-S-d`{.verbatim}
-  Left, Select Left               `FN-h`{.verbatim}, `FN-S-h`{.verbatim}
-  Right, Select Right             `FN-l`{.verbatim}, `FN-S-l`{.verbatim}
-  Word Left, Select Word Left     `FN-C-h`{.verbatim}, `FN-C-S-h`{.verbatim}
-  Word Right, Select Word Right   `FN-C-l`{.verbatim}, `FN-C-S-l`{.verbatim}
-  Up, Select Up                   `FN-k`{.verbatim}, `FN-S-k`{.verbatim}
-  Down, Select Down               `FN-j`{.verbatim}, `FN-S-j`{.verbatim}
-  Delete Word Left                `C-BCK`{.verbatim}
-  Delete Word Right               `C-DEL`{.verbatim}
-  Home, Select to Home            `FN-^`{.verbatim}, `FN-S-^`{.verbatim}
-  End, Select to End              `FN-$`{.verbatim}, `FN-S-$`{.verbatim}
-  Top, Select to Top              `FN-C-^`{.verbatim}, `FN-C-S-^`{.verbatim}
-  Bottom, Select to bottom        `FN-C-$`{.verbatim}, `FN-C-S-$`{.verbatim}
+  Close an open dialog box        `ESC`
+  Open the help                   `F1`
+  Switch tabs forward             `C-tab`
+  Switch tabs backward            `C-S-tab`
+  Close tab                       `C-w`
+  Zoom in and out the page        `C-+`, `C--`
+  Select all the text             `C-a`
+  Search text                     `C-f`, `/`
+  Create new tab                  `C-t`
+  Create new window               `C-n`
+  Open the Print dialog box       `C-p`
+  Undo                            `C-z`
+  Redo                            `C-y`
+  Refresh                         `C-r`
+  PgUp, Select PgUp               `FN-u`, `FN-S-u`
+  PgDown, Select PgDown           `FN-d`, `FN-S-d`
+  Left, Select Left               `FN-h`, `FN-S-h`
+  Right, Select Right             `FN-l`, `FN-S-l`
+  Word Left, Select Word Left     `FN-C-h`, `FN-C-S-h`
+  Word Right, Select Word Right   `FN-C-l`, `FN-C-S-l`
+  Up, Select Up                   `FN-k`, `FN-S-k`
+  Down, Select Down               `FN-j`, `FN-S-j`
+  Delete Word Left                `C-BCK`
+  Delete Word Right               `C-DEL`
+  Home, Select to Home            `FN-^`, `FN-S-^`
+  End, Select to End              `FN-$`, `FN-S-$`
+  Top, Select to Top              `FN-C-^`, `FN-C-S-^`
+  Bottom, Select to bottom        `FN-C-$`, `FN-C-S-$`
   ------------------------------- --------------------------------------------
 
 # DWM
@@ -124,7 +125,7 @@ I use custom qmk bindings, using `FN + letter`{.verbatim} keybindings.
 # Popular
 
   ------------------------------ ------------------
-  Jump to (slack, github, etc)   `C-k`{.verbatim}
+  Jump to (slack, github, etc)   `C-k`
   ------------------------------ ------------------
 
 # Readline

@@ -33,7 +33,7 @@ tags:
 ## Onlykey setup (pam.d) in archlinux
 
 Be careful, pam rules applied immediately If you have issues, boot using
-live-iso usb drive, mount system (`mount /dev/.. /mnt`{.verbatim}) and fix
+live-iso usb drive, mount system (`mount /dev/.. /mnt`) and fix
 _etc/pam.d_ files.
 
 ```bash
