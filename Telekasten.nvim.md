@@ -23,7 +23,7 @@ In `(...)` are keys to use listed feature, need press prefix key and then key in
 parentheses.
 ^xxxblkxx
 
-- Find notes by name (`f`), #tag (`#`) or by searching within note text (`g`)
+- Find notes by name (`f`), `#tag` (`#`) or by searching within note text (`g`)
 - Find daily, weekly notes by date. I not use it, handled by [[Taskwarrior]].
 - **Vaults**: Support for multiple separate note collections.
 - Place and follow links to your notes (`f`) or create new ones (`n`), with templates (`N`)
