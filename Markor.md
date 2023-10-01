@@ -16,10 +16,3 @@ tags:
 > Markor is openly developed free software that accepts community
 > contributions.\
 > — <cite>[Github](https://github.com/gsantner/markor)</cite>
-
-I manage this text files using Markor:
-
-- [[Inbox_tablet]]
-- [[Inbox_mobile]]
-
-They are outside of git repo, so they are unavisable for public access.

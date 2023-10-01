@@ -17,7 +17,7 @@ directory: ~/Arts_and_Entertainment/visual_arts/
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Visual_arts)</cite>
 
 Currently, I am working on [[30_day_drawing_challenge|my drawing challenge]] and
-[[Drawbox]] course.
+[[research/Drawbox_Community-Drawbox]] course.
 
 ## Resources
 

@@ -26,3 +26,4 @@ language]], to understand most of [[C]]
 10. Learn and "utilize" [[Neovim|neovim]] and [[My_editing_workflow|editing workflow]]
 11. Read [[research/Экзюпери-Цитадель]] fiction book
 12. [[research/Sensei-Unreal_Engine_5_Beginner_Tutorial]]
+13. [[research/Drawbox_Community-Drawbox]]
