@@ -53,3 +53,31 @@ Check this note [[In_real_life_IRL|IRL]].
 
 I don't think I'm great at this, but I'm trying to help people on [[GitHub|GitHub]],
 and in future on [[Stack_Overflow]]. Sometimes on different platforms or IRL.
+
+## Mega TODO (most important)
+
+
+- [[Turing_Complete_(game)|Turing Complete]], and this game too
+- [[research/Ramalho-Fluent_Python|Fluent_Python]]
+- [[research/Greenfelds-Two_Scoops_of_Django_3.x]]
+8. Learn and "utilize" [[My_awesome_software_list|software list]]
+11. [[research/Slatkin-Effective_Python|Effective python]]
+17. [[research/Math_is_Fun_Team-Math_is_Fun|Math is fun]]
+14. [[research/Raylib_Community-Raylib]]
+
+## Additional
+
+1. [[Exercise]]
+2. [[Style_of_life]]
+3. [[In_real_life_IRL]]
+4. [[Cooking]]
+5. [[research/Nova_Byrne-Tech_yourself_computer_science|Tech_computer_science]]
+6. [[How_do_I_study_mathematics]]
+7. [[How_do_I_study_English_language]]
+8. [[How_do_I_study_physics_and_chemistry]]
+
+## TODO
+
+## Archive
+
+## Canceled
