@@ -38,6 +38,8 @@ some will be just a link.
 
 ### Programming
 
+- [ ] [What do you mean by mnemonics codes and machine codes, and what are its purposes? - Quora](https://www.quora.com/What-do-you-mean-by-mnemonics-codes-and-machine-codes-and-what-are-its-purposes)
+
 - [ ] [Ruff: one Python linter to rule them all](https://blog.jerrycodes.com/ruff-the-python-linter/)
 - [ ] [Python Monorepo: an Example. Part 1: Structure and Tooling - Tweag](https://www.tweag.io/blog/2023-04-04-python-monorepo-1/)
 
