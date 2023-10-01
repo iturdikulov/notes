@@ -24,3 +24,5 @@ language]], to understand most of [[C]]
 8. [[research/Muratori-Handmade_Hero|Handmade Hero]], my initial steps in [[Computer_graphics]].
 9. [[Gothic]], I want to just play this game
 10. Learn and "utilize" [[Neovim|neovim]] and [[My_editing_workflow|editing workflow]]
+11. Read [[research/Экзюпери-Цитадель]] fiction book
+12. [[research/Sensei-Unreal_Engine_5_Beginner_Tutorial]]
