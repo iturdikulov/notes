@@ -28,5 +28,5 @@ tags:
 
 ## Resources
 
+- [ ] [[research/Sensei-Unreal_Engine_5_Beginner_Tutorial]]
 - [ ] [Unreal Engine 5. Free two scenes. Lumen vs Baked light ](https://unreal.shop/models/unreal-engine-5.-free-two-scenes.-lumen-vs-baked-light)
-- [ ] [Unreal Engine 5 Beginner Tutorial](https://www.youtube.com/watch?v=k-zMkzmduqI)
