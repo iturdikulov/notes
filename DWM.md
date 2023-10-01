@@ -24,10 +24,10 @@ switched to it and use it with maximum pleasure. It has some "disadvantages",
 maybe not clear logic if you use it first time, but It's all manageable and
 solvable. Especially if you use something like `DWM flexipatch`.
 
-Right now I use various patches, with this DWM fork:
-[bakkeby/dwm-flexipatch](https://github.com/Inom-Turdikulov/dwm-flexipatch).
+Right now I use various patches, with my dwm-flexipatch fork:
+[Inom-Turdikulov/dwm-flexipatch](https://github.com/Inom-Turdikulov/dwm-flexipatch).
 
-To use dwm effectively, I use my own [[DWM_keyboard_shortcuts]].
+To use dwm effectively, I use my own [[DWM_keyboard_shortcuts|dwm shortcuts]].
 
 ## Launching
 
