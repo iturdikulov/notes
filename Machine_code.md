@@ -5,6 +5,9 @@ sr-ease: 270
 sr-interval: 236
 tags:
 - inbox
+- programming
 ---
 
 # Machine code
+
+Machine code is the ==set of numbers== that the CPU actually executes.
