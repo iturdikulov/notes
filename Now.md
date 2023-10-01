@@ -14,7 +14,7 @@ of [[Spaced_repetition|spaced repetition]], [[SQ3R_method|Sq3R]],
 
 TODO: go through each item and adjust naming, metadata, etc.
 
-1. [[My_activities|My activities]]
+1. [[Index|My activities]]
 2. Business automation project
 3. [[research/Python_Community-Python_Tutorial]]
 4. [[research/Šorn-Comprehensive_python_cheatsheet|Python cheatsheet]]

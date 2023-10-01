@@ -98,3 +98,8 @@ int main(void)
 - [[Truncation]]
 - [[Type_conversion|type conversion]]
 - [[Floating-point_arithmetic|floats]]
+
+
+## Resources
+
+- [ ] [CS50 Manual Pages](https://manual.cs50.io/)

@@ -72,9 +72,7 @@ For additional information, see [[DWM_keyboard_shortcuts]].
 
 ## Additional functional
 
-### Status bar
-
-I use customized `dwmblocks`.
+### Dwmblocks DND (not used anymore, maybe in future)
 
 Enabled modules are: `datetime`, volume status and keyboard layout.
 That items are not interactive.
@@ -89,25 +87,28 @@ It's toggling notifications pause mode, in status bar displayed ⛔ icon.
 
 Keyboard shortcuts are described in [[DWM_keyboard_shortcuts]] note.
 
-## Useful links
-- <https://dwm.suckless.org/tutorial/>
-- <https://ratfactor.com/dwm>
-- <https://wiki.gentoo.org/wiki/Dwm>
-- <https://dwm.suckless.org/customisation/windows_key/>
-
 ## Workspaces (beta)
 
-- [1] My main working workspace. Usually tmux session in pair with terminal.
-- [2] Browser workspace, also contains [[Newsboat]] tmux session.
-- [3] [[ChatGPT]] + and [[Translate-shell]] workspace
-- [4] My personal wiki/education workspace, neovim with wiki project
-- [5] My personal art/game_dev workspace, [[Krita_(software)]], [[Godot]], etc.
-- [6] VM/ssh workspace
-- [7] Free* workspaces
-- [8] Working Chat workspace, usually Slack++
-- [9] Personal [[Weechat|chat]], stream and music workspace. TODO: add spotify link here.
+- 1. My main working workspace. Usually tmux session in pair with terminal.
+- 2. Browser workspace, also can contains [[Newsboat]] tmux session.
+- 3. [[ChatGPT]] + and [[Translate-shell]] workspace
+- 4. My personal wiki/education workspace, neovim with wiki project
+- 5. My personal art/game_dev workspace, [[Krita_(software)]], [[Godot]], etc.
+- 6. Free* workspace
+- 7. Email/Contacts workspaces
+- 8. Working Chat workspace, usually [[Slack]]
+- 9. Stream and music workspace
 
 ## To-Do
 
-- TODO: create repo with my patches
-- TODO: describe dwmblocks
+- [x] create repo with my patches, I switched to [DWM
+flexipatch](file:///home/inom/Computer/software/dwm-flexipatch/)
+- [-] describe dwmblocks, I not use dwmblocks now, instead I use [GitHub -
+Gerschtli/dwm-status: Highly performant and configurable DWM status
+service](https://github.com/Gerschtli/dwm-status)
+
+## Resources
+
+- [dwm - dynamic window manager | suckless.org software that sucks less](https://dwm.suckless.org/tutorial/)
+- [Dave's Visual Guide to dwm - ratfactor](https://ratfactor.com/dwm)
+- [dwm - Gentoo Wiki](https://wiki.gentoo.org/wiki/Dwm)

@@ -12,17 +12,29 @@ tags:
 
 List of resources and tips to learn [[Mathematics]]
 
+- [[Multiplication_table]]
+- [ ] [Зачем нужны синусы и косинусы? - YouTube](https://youtu.be/hwpWTkdh-BA)
+- [ ] [Математическая продлёнка. Квадратные уравнения во всей красе]( https://habr.com/ru/post/714660/)
+- [ ] [Число Грэма Грехема(xkcdoff) - YouTube](https://www.youtube.com/watch?v=kOg-zDjA-0A)
+- [ ] [Math Skills: How to find Factorial, Permutation and Combination (Choose) - YouTube](https://www.youtube.com/watch?v=8RRo6Ti9d0U)
+- [ ] [Задачи тысячелетия - YouTube](https://www.youtube.com/playlist?list=PLzbL7FoiqpKboohozmqPpJXzO5m9iwHD-)
+- [ ] [Introduction to Mathematical Thinking | Coursera](https://www.coursera.org/learn/mathematical-thinking?utm_campaign=gotocourse&utm_medium=coursepage&utm_source=CourseTalk)
+- [ ] [Все главные формулы по математике - Математика - Теория, тесты, формулы и задачи - Обучение Математике, Онлайн подготовка к ЦТ и ЕГЭ.](https://educon.by/index.php/formuly/formmat)
+- [ ] [100 уроков Математики. А. Савватеев - YouTube](https://www.youtube.com/playlist?list=PLqBfxn8OBMGrsA_YynaQWqHKhL7kEvL4X)
+- [ ] [Cheat Sheets & Tables](https://tutorial.math.lamar.edu/Extras/CheatSheets_Tables.aspx)
+- [ ] [Numberphile на русском - YouTube](https://www.youtube.com/playlist?list=PLnL2HgHS7MDQhBx_gtn4gyLzGcjwYDAyJ)
+- [ ] [An Intuitive Introduction To Limits – BetterExplained](https://betterexplained.com/articles/an-intuitive-introduction-to-limits/)
+- [ ] [Introduction to Numerical Computing with NumPy | SciPy 2019 Tutorial | Alex Chabot-Leclerc - YouTube](https://www.youtube.com/watch?v=ZB7BZMhfPgk)
+- [ ] [Алгебра, уроки в свободном доступе - YouTube](https://www.youtube.com/playlist?list=PLp1o4TiOetLxhCoq5ltCibkk0tlJua_z7)
+- [ ] [[research/Math_is_Fun_Team-Math_is_Fun]]
+- [ ] [A Programmer's Introduction to Mathematics](https://pimbook.org/)
+- [ ] [Eric Cornwell Education Videos](https://vimeo.com/user543333)
 - [[research/Eмeлин-Кратчайший_курс_школьной_математики]]
 - TODO: киселёв
 - [[research/Kun-A_Programmers_Introduction_to_Mathematics]]
 
-- [ ] [https://www.mathsisfun.com/](Math is Fun), I think it's good initial
-      point
-- [ ] concrete mathematic
-- [[Multiplication_table]]
-- Лекториум basic mathematic -
-  <https://stepik.org/lesson/28728/step/1?unit=9786>
 - Конкретная математика
+- [ ] concrete mathematic
 - Что такое математика
 - [BetterExplained](https://betterexplained.com/)
 - [Math is Fun](https://www.mathsisfun.com/)

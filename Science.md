@@ -32,3 +32,7 @@ directory: ~/Science/
 >
 > In other words science is what we do to find out about the natural world.
 > TODO: add link
+
+## Popular science
+
+- [ ] [What If Everyone JUMPED At Once? - YouTube](https://youtu.be/jHbyQ_AQP8c)

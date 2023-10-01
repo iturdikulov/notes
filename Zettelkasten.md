@@ -6,6 +6,7 @@ sr-interval: 184
 tags:
 - inbox
 - outline
+- productivity
 directory: ~/Wiki/
 ---
 
@@ -33,5 +34,5 @@ I use [[Telekasten.nvim]] plugin to manage my notes with [[Zettelkasten]] method
 
 ## Resources
 
-- [PKM Zettelkasten Wiki](https://zk.zettel.page/)
 - [Andy Notes](https://notes.andymatuschak.org/About_these_notes)
+- [PKM Zettelkasten Wiki](https://zk.zettel.page/)

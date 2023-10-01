@@ -69,31 +69,16 @@ It supports any popular [[Programming_paradigm]]:
 - [[Object-oriented_programming]]
 - [[Functional_programming]]
 
-Rich [[research/Python_Community-Python_Standard_Library|standard library]] make it's "batteries
-included" language.
+Rich [[research/Python_Community-Python_Standard_Library|standard library]] make
+it's "batteries included" language.
 
-## Development tools
-
-- [ ] [dosisod/refurb: A tool for refurbishing and modernizing Python codebases](https://github.com/dosisod/refurb)
-- [ ] [asottile/pyupgrade: A tool (and pre-commit hook) to automatically upgrade syntax for newer versions of the language.](https://github.com/asottile/pyupgrade)
-- [vinta/awesome-python: A curated list of awesome Python frameworks, libraries, software and resources](https://github.com/vinta/awesome-python)
+Personally I learn python with
+[[My_python_developer_roadmap|my python developer roadmap]].
 
 ## Resources
 
+- [Documentation](https://docs.python.org/3/)
 - [Python Tutorials – Real Python](https://realpython.com/)
-
-- [ ] [Problem Solving with Algorithms and Data Structures using Python — Problem Solving with Algorithms and Data Structures](https://runestone.academy/ns/books/published/pythonds/index.html)
-- [ ] [1: CS22 - Python Data Structures/Algorithms Class - Introduction - YouTube](https://www.youtube.com/playlist?list=PLtbC5OfOR8aqA6CJwWTRUITgGpUy1Umr3)
-
-- [ ] [Лучшие open-source инструменты для Python проектов](https://habr.com/en/articles/708916/)
-
-- [ ] [python - Celery: log each task run to its own file? - Stack Overflow](https://stackoverflow.com/questions/25281612/celery-log-each-task-run-to-its-own-file)
-- [ ] [Using Celery: Python Task Management | Toptal®](https://www.toptal.com/python/orchestrating-celery-python-background-jobs)
-
-- [ ] [How to learn Python programming | Guido van Rossum and Lex Fridman - YouTube](https://www.youtube.com/watch?v=F2Mx-u7auUs)
-- [ ] [Learn to become a modern Python developer](https://roadmap.sh/python)
-- [ ] [Ned Batchelder - Facts and Myths about Python names and values - PyCon 2015 - YouTube](https://www.youtube.com/watch?v=\_AEJHKGk9ns)
-- [ ] [PEP 8 – Style Guide for Python Code | peps.python.org](https://peps.python.org/pep-0008/)
-- [ ] [JIT-компилятор Python в 300 строк / Habr](https://habr.com/en/articles/674206/)
-- [ ] [А как в питоне пайпать? — Development — Форум](https://www.linux.org.ru/forum/development/17025364)
-- [ ] [[research/Seporaitis-Large_Scale_Refactoring_With_PyBowler]]
+- [Python Developer’s Guide](https://devguide.python.org/)
+- [[research/Python_Community-Python_Standard_Library|Standart Library]]
+- [[research/Python_Community-Python_FAQ]]

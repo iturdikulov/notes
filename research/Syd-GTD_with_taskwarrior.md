@@ -1,7 +1,4 @@
 ---
-tags:
-  - inbox
-  - research
 created: 2023-07-14
 sr-due: 2023-09-25
 sr-interval: 1
@@ -12,6 +9,10 @@ external:
   - https://cs-syd.eu/posts/2015-06-28-gtd-with-taskwarrior-part-3-tickling
   - https://cs-syd.eu/posts/2015-07-05-gtd-with-taskwarrior-part-4-processing
   - https://cs-syd.eu/posts/2015-07-12-gtd-with-taskwarrior-part-5-doing
+tags:
+  - inbox
+  - research
+  - productivity
 ---
 
 A series where author show how to use taskwarrior to implement GTD. This series

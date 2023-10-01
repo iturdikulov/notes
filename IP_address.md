@@ -108,5 +108,5 @@ is part of the IP address.
 
 ## References
 
-- https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing
-- https://www.subnet-calculator.com/cidr.php
+- [ ] [Classless Inter-Domain Routing - Wikipedia](https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing)
+- [ ] [Online IP CIDR / VLSM Supernet Calculator](https://www.subnet-calculator.com/cidr.php)

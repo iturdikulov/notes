@@ -55,3 +55,5 @@ the algorithm you choose can seriously affect the speed of your code.
 - [ ] [Red Blob Games](https://www.redblobgames.com/)
 - [ ] [Visualising data structures and algorithms through animation](https://visualgo.net/en/sorting)
 - [ ] [Data Structure Visualization](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html)
+- [ ] [GitHub - keon/algorithms: Minimal examples of data structures and algorithms in Python](https://github.com/keon/algorithms)
+- [ ] [Algorithms & Data Structures | Learn Algorithms with TypeScript for Interviews](https://frontendmasters.com/courses/algorithms/)

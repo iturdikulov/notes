@@ -28,3 +28,14 @@ tags:
 > that is the most Latin, and it is often mistaken for being a Romance language.
 >
 > [Simple English Wikipedia](https://simple.wikipedia.org/wiki/English_language)
+
+My tools and services which help me learn English language:
+
+- [[Sdcv]]
+- [[Puzzle_English|Puzzle English]]
+- [[Duolingo]]
+
+## Resources
+
+- [ ] [С утра до вечера! Погрузитесь в прослушивание английского (9-часовая тренировка на выносливость) - YouTube](https://www.youtube.com/watch?v=PqBT7xpmZlE)
+- [ ] [EnglisPlaylists](https://boosty.to/englishplaylists)

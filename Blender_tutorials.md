@@ -96,3 +96,5 @@ orthographic view (no depth, objects same size regardless of distance)
 - [ ] [BlenderText To 3D AI Generator](https://devbud.gumroad.com/l/Shap-e)
 - [ ] [[research/Price-Donut_Tutorial]]
 - [ ] [Animate a Character in 15 Minutes in Blender - YouTube](https://www.youtube.com/watch?v=imbIsNAvUpM)
+- [ ] [GitHub - ichlubna/blenderScripts: Random Python scripts for Blender](https://github.com/ichlubna/blenderScripts)
+- [ ] [Destroy Anything with Particles in Blender - Iridesium - YouTube](https://www.youtube.com/watch?v=mXnp_KIo8q8)

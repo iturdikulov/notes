@@ -11,7 +11,7 @@ tags:
 
 ## Software
 
-- [[Multi-factor_authentication]]
+- [[Multi-factor_authentication_MFA]]
 - [[GNU_Privacy_Guard|GPG]]
 - [[Pass]]
 - [[Dm-crypt]]

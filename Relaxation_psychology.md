@@ -28,6 +28,7 @@ Methods of relaxation:
 
 ### [[YouTube]] channels
 
+- [Levsha - YouTube](https://www.youtube.com/@user-br3ve9xi1j)
 - [Foo the Flowerhorn](https://www.youtube.com/@FootheFlowerhorn/videos)
 - [johnnielawson](https://www.youtube.com/@johnnielawson/videos)
 - [Gentle Whispering ASMR](https://www.youtube.com/@GentleWhisperingASMR/videos)

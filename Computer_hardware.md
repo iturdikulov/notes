@@ -29,4 +29,7 @@ Great cheap computer hardware:
 
 - [ ] [How does Computer Hardware Work?  - YouTube](https://www.youtube.com/watch?v=d86ws7mQYIg)
 - [ ] [PDP-11 - Wikipedia](https://en.wikipedia.org/wiki/PDP-11)
+- [ ] [Visual Transistor-level Simulation of the 6502 CPU](http://visual6502.org/)
+- [ ] [How do hardware timers work? - YouTube](https://www.youtube.com/watch?v=g_koa00MBLg)
 - [Pick parts. Build your PC. Compare and share. - PCPartPicker](https://pcpartpicker.com/)
+- [Распиновка разъёмов USB 2.0](http://rones.su/techno/usb.html)

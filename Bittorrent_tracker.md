@@ -29,6 +29,8 @@ tags:
 
 ## Resources
 
+I use content from torrent trackers when it's legal.
+
 - [RuTracker.org](https://rutracker.org/forum/index.php)
 - [NNM-Club](https://nnmclub.to/)
-- https://1337x.to/
+- [Torrent Search Engine | 1337x.to](https://1337x.to/)

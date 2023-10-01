@@ -9,8 +9,3 @@ tags:
 
 # Payment service provider
 
-- <https://paywithmoon.com/>
-- <https://binance.com/>
-- <https://yoomoney.ru/>
-- <https://www.tinkoff.ru/>
-- <https://qiwi.com/>

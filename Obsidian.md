@@ -140,3 +140,7 @@ Review all flashcards in current file::`shift + alt + f`
 ## TODO
 
 - [ ] Review [@Obsidiantracker]
+
+## Resources
+
+- [ ] [Home · reuseman/flashcards-obsidian Wiki · GitHub](https://github.com/reuseman/flashcards-obsidian/wiki)

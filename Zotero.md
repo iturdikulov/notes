@@ -10,6 +10,9 @@ tags:
 ![](./img/Zotero-5-macOS-Screenshot@2x.png)
 _Zotero main window_
 
+I find zotero too complicated for me, and I just use my [[Telekasten.nvim]] with
+[[Calibre]] for books management.
+
 Zotero - free citation manager, it's contains a lot of features, such as:
 
 - UI to manage your references;
@@ -45,7 +48,7 @@ shortcut <kbd>M-n</kbd> to generate notes.
 ## Fix url's script example:
 
 ```js
-// https://regex101.com/r/ZdzzFC/1
+// [regex101 test](https://regex101.com/r/ZdzzFC/1)
 const re = /^\/library\/datasets\/books\/(.*?)/;
 const mode = Zotero.Attachments.LINK_MODE_LINKED_FILE;
 var attArray = ZutiloChrome.zoteroOverlay.getSelectedAttachments(mode);
@@ -105,10 +108,10 @@ for (let id of ids) {
 
 ## TOC
 
-- [ ] zotero pre-commit hook replace absolute paths
-- [ ] zotero password recover android
-- [ ] zotero documentation update
-- [ ] need link all this :: To generate TOC I use pdftoc.sh script, its use
+- [-] zotero pre-commit hook replace absolute paths
+- [-] zotero password recover android
+- [-] zotero documentation update
+- [-] need link all this :: To generate TOC I use pdftoc.sh script, its use
       pdftocgen to generate TOC and [[GNU_Sed]] to add heading markup rules.
       It's work more stable than built-in TOC generator.
 

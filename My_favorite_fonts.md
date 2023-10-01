@@ -50,7 +50,10 @@ Significant part are from [[Programming_fonts_-_test_drive]].
 
 ## Need check
 
-- TODO: download all this fonts and check them
-- TODO: [noto-fonts] - Google Noto TTF fonts, fonts for all languages (use
-  Unicode, and OpenType), <https://dive into it deeply.com/noto>
-- TODO: [Lo-Res](https://fonts.adobe.com/fonts/lo-res#fonts-section)
+- [ ] download all this fonts and check them
+- [ ] [noto-fonts] - Google Noto TTF fonts, fonts for all languages (use Unicode, and OpenType)
+- [ ] [Lo-Res](https://fonts.adobe.com/fonts/lo-res#fonts-section)
+- [ ] Unifont
+- [ ] Terminus
+- [ ] Terminess
+

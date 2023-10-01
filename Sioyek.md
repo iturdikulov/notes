@@ -67,10 +67,8 @@ TODO: complete this list
 
 ## Resources
 
-TODO: archive some items?
-
 - [Official documentation](https://sioyek-documentation.readthedocs.io/en/latest/)
-- [Sioyek - Feature Overview](https://www.youtube.com/watch?v=yTmCI0Xp5vI)
-- [Sioyek - Tutorial](https://www.youtube.com/watch?v=RaHRvnb0dY8)
 - [GitHub repository](https://github.com/ahrm/sioyek)
 - [GitHub extensions repository](https://github.com/ahrm/sioyek-python-extensions)
+- [ ] [Sioyek - Feature Overview](https://www.youtube.com/watch?v=yTmCI0Xp5vI)
+- [ ] [Sioyek - Tutorial](https://www.youtube.com/watch?v=RaHRvnb0dY8)

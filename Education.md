@@ -12,7 +12,7 @@ tags:
 Related lists:
 
 - [[My_read_books]].
-- [[My_read_articles]].
+- [[Articles]].
 
 TODO: check/move books/articles into now or maybe archive.
 
@@ -21,7 +21,7 @@ materials and extend them with different sources, my experience, etc. That
 materials have `research` tag.
 
 To study effectively I use [[SQ3R_method]], [[How_to_study|study techniques]]
-and various [[How_to_solve_it|methods]].
+and various [[research/Polya-How_to_solve_it|methods]].
 
 It's not enough to study only, need continuously practice (use your knowledge)
 and test yourself, to solve this problem I use [[Spaced_repetition|spaced

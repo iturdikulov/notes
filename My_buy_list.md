@@ -17,60 +17,60 @@ My purchased items stored here: [[My_inventory|inventory]].
 
 ## Repeating
 
-- 🧴 Mineral water
-- 🥛 Milk
-- 🧃 Juice
+- [ ] 🧴 Mineral water
+- [ ] 🥛 Milk
+- [ ] 🧃 Juice
 
 - 🧀 Curd
-- 🧀 Cheese
+- [ ] 🧀 Cheese
 - 🧀 Cottage cheese
 
-- 🥚 Eggs
-- 🍗 Chicken
+- [ ] 🥚 Eggs
+- [ ] 🍗 Chicken
 - 🍗 Minced chicken
 - 🐟 Fish
 - 🥩 Meat
-- 🥜 Peanuts
+- [ ] 🥜 Peanuts
 - 🌰 Chestnut
 - 🌰 Almond
 
 - 🌶️ Hot pepper
 - 🫑 Bell Pepper
-- 🌿 Flavoring
-- 🧄 Garlic
+- [ ] 🌿 Flavoring
+- [ ] 🧄 Garlic
 - 🧅 Onion
 - 🧂 Salt
 
-- 🍌 Bananas
-- 🍊 Oranges
+- [ ] 🍌 Bananas
+- [ ] 🍊 Oranges
 - 🟠 Persimmon
 - 🟤 Dates
 - 🍓 Strawberry
 - 🍊 Mandarins
 - 🍒 Cherry
 - 🥥 Coconut
-- 🍎 Apples
+- [ ] 🍎 Apples
 - 🍇 Grapes
-- 🥕 Carrots
+- [ ] 🥕 Carrots
 - 🍐 Pears
-- 🥔 Potato
+- [ ] 🥔 Potato
 - 🥭 Mango
-- 🍄 Mushroom
+- [ ] 🍄 Mushroom
 - 🌽 Corn sticks
 - 🫘 Beans
 
 - 🥣 Cereal
 - 🍚 Semolina
 - 🍚 Rice
-- 🍜 Ramen/Noodle
+- [ ] 🍜 Ramen/Noodle
 - 🌾 Buckwheat
 
-- 🥟 Dumplings
+- [ ] 🥟 Dumplings
 - 🍞 Bread
 - 🥪 Sandwiches
 - 🌯 Shawarma
-- 🍫 Chocolate bars, Nutella
-- 🍪 Cookies, Oreo
+- [ ] 🍫 Chocolate bars, Nutella
+- [ ] 🍪 Cookies, Oreo
 
 - 🧼 Soap
 - 🧴 Shampoo

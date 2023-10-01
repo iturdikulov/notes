@@ -31,3 +31,4 @@ CREATE DATABASE yourdb OWNER teamname;
 - [ ] [PostgreSQL Exercises](https://pgexercises.com/gettingstarted.html)
 - [ ] [Postgres: The Graph Database You Didn't Know You Had](https://www.dylanpaulus.com/posts/postgres-is-a-graph-database/)
 - [ ] [PostgreSQL Tutorial – Comprehensive Postgresql Tutorial](https://www.postgresqltutorial.com/)
+- [ ] [Postgres: The Graph Database You Didn't Know You Had](https://www.dylanpaulus.com/posts/postgres-is-a-graph-database/)

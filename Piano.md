@@ -21,5 +21,5 @@ tags:
 
 ## Resources
 
-- https://virtualpiano.net
-- https://recursivearts.com/virtual-piano/
+- [Virtual Piano - Play The Best Online Piano Keyboard Virtual Piano v1](https://virtualpiano.net)
+- [Virtual Piano | Play the Best Musical Keyboard Online](https://recursivearts.com/virtual-piano/)

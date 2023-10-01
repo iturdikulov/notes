@@ -10,8 +10,9 @@ tags:
 # My backup plan
 
 1. [x] Raid 1 for all data
-2. [ ] Borg + SSH, rclone sync, logs https://torsion.org/borgmatic/ DB strategy?
-       Ignore cache?
+2. [ ] Borg + SSH, rclone sync, logs [borgmatic](https://torsion.org/borgmatic/)
+3. [ ] DB strategy?
+4. [ ] Ignore cache?
 
 ## My files structure
 

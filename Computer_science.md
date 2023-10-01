@@ -34,6 +34,7 @@ science]].
 
 ## Resources
 
+- [ ] [Stepic computer science](https://stepik.org/lesson/28728/step/1?unit=9786)
 - [ ] [The Man Who Revolutionized Computer Science With Math - YouTube](https://www.youtube.com/watch?v=rkZzg7Vowao)
 - [ ] [Algorithms on Graphs | Coursera](https://www.coursera.org/learn/algorithms-on-graphs)
 - [ ] [Computer science | Computing | Khan Academy](https://www.khanacademy.org/computing/computer-science)

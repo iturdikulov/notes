@@ -10,3 +10,7 @@ tags:
 ---
 
 # Hugo
+
+## Resources
+
+- [ ] [Hugo tutorials](https://mertbakir.gitlab.io/hugo/)

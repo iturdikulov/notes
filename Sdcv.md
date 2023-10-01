@@ -30,7 +30,9 @@ Merriam-Webster's Collegiate    119769
 you take the first column of output, in other words Dictionary's name,
 and put it to ~/.sdcv_ordering line by line:
 
-```
+```sh
+# optimal dictionary ordering: Apersyan, Lingvo Universal, Motitsky, Babylon,
+# etc
 $ cat ~/.sdcv_ordering
 Merriam-Webster's Collegiate
 oxford
@@ -40,3 +42,8 @@ $
 that's all, at the next run of sdcv, for example sdcv man you get at first
 translation from Merriam-Webster's Collegiate and after that from oxford
 dictionary and after that all other translations.
+
+## Resources
+
+- [Index of /Recommend/ dictionaries](https://downloads.freemdict.com/Recommend/)
+- [Словариум — Словари для компьютеров и смартфонов](https://dic.1963.ru/)

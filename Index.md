@@ -6,13 +6,14 @@ tags:
 
 # My daily activities and goals
 
-This page contains actual lists of things I'm doing [[Now|now]] (daily activities),
-I need constantly check and update this page, because all things are changing.
+This page contains actual lists of things I'm doing [[Now|now]] (daily
+activities), I need constantly check and update this page, because all things
+are changing.
 
 ## Work and long-term projects
 
-[[Work]] is very important part of my life, it's allow keep my [[Finance|finance]]
-budget stable, live actively and interesting.
+[[Work]] is very important part of my life, it's allow keep my
+[[Finance|finance]] budget stable, live actively and interesting.
 
 ## Social activity and family
 

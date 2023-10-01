@@ -29,6 +29,8 @@ me what to do with them.
 
 ## Setup Syncthing on Kindle Touch
 
+Original source - [Magically format embedded languages in Neovim - YouTube](https://www.youtube.com/watch?v=v3o9YaHBM4Q).
+
 1. You need jailbreak and [KULA](http://www.mobileread.com/forums/showthread.php?t=203326) first.
 2. Download this [repository](https://github.com/gutenye/syncthing-kindle/archive/master.zip)
 3. Download [syncthing-linux-arm](https://github.com/syncthing/syncthing/releases) and copy `syncthing` binary to `syncthing/bin/`

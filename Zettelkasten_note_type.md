@@ -6,6 +6,7 @@ sr-interval: 211
 tags:
 - inbox
 - outline
+- productivity
 ---
 
 # Notes types which I use with Zettelkasten
@@ -112,3 +113,7 @@ I also have additional topics tags, mainly used for
 Also templates may have this frontamatter variables:
 - `external: https...` - link to external resource, such as web-page, video, etc.
 - `archive: 0000000000.000000` - [[ArchiveBox]] timestamp, used as unique id
+
+## Resources
+
+- [ ] [Types of ZT Notes](https://zk.zettel.page/types-of-notes)

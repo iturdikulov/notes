@@ -263,6 +263,55 @@ PandasBuildConv -> converts client-builded geodata into _conv.dat
 
 HDGE -> geodata editor/converter
 
+## Режим разработчика (devmod) в клиенте Lineage 2
+
+Основано на базе гайда от Ulthar, 20 май 2011, [Devmode (режим разработчика) в клиенте Lineage
+| 4Game](https://4gameforum.com/threads/167651/).
+
+1. Download [L2 File Editor](https://github.com/Inom-Turdikulov/L2FileEdit)
+2. Decrypt and open `l2.ini`
+3. Save file as `l2pawn.ini` in same directory with this modifications:
+NOTE: set read-only flag on this file, otherwise client will rewrite it. If not
+working try to overwrite l2.ini.
+
+    ... set initial parameters in [URL] section
+
+    localmap=20_20.unr
+    isl2netlogin=false
+    isl2console=false
+    isusecommand=false
+    l2threadfilter=1
+
+    ... set resolution for dev mode
+
+    [windrv.windowsclient]
+    fullscreenviewportx=1400
+    fullscreenviewporty=1050
+
+    ... in the end add
+
+    [l2pawnviewer]
+    st_head=0
+    st_rhand=0
+    st_lhand=0
+    st_gloves=0
+    st_chest=0
+    st_legs=0
+    st_feet=0
+    st_back=0
+    st_rlhand=1299
+
+4. Now you can execute pawn enabled client: `start l2.bin -ini=l2pawn.ini`
+
+Commands aviable:
+- fly
+- ghost
+- hero
+- press `<tab>` and then type `pv` (pawn viewer), now you can select race
+- press `<tab>` and type `nv` (npc viewer), now you can select npc, you search
+with mesh names, like `ostrich`
+- press `<tab>` and type `sv` (skill viewer), now you can select skill, you
+- `<ins>` enabled debug mode
 
 ## Resources
 

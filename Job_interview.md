@@ -25,6 +25,7 @@ course you need to be ready for job interview to take it.
 
 ## Resources
 
+- [ ] [What is the FAANG Interview? (for Software Engineer) - YouTube](https://www.youtube.com/watch?v=RoHI83C9Fyk )
 - [50 Ways to Get a Job](https://50waystogetajob.com/)
 - [Book :: Tech Interview Prep with Ian](https://techinterview.guide/)
 - [Compare career levels](https://www.levels.fyi/)

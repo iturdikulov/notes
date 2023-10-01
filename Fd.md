@@ -13,7 +13,8 @@ tags:
 > fd is a program to **find** entries in your **filesystem**. It is a simple,
 > fast and user-friendly alternative to find. While it does not aim to support
 > all of find's powerful functionality, it provides sensible (opinionated)
-> defaults for a majority of use cases. -- [fd](https://github.com/sharkdp/fd)
+> defaults for a majority of use cases.\
+> — <cite>[Github](https://github.com/sharkdp/fd)</cite>
 
 ## Commands
 
@@ -37,4 +38,7 @@ fd -H <search query>
 fd -E <file or directories which should be excluded> <search query>
 ```
 
-TODO: https://github.com/sharkdp/fd#how-to-use
+## Resources
+
+- [ ] [How to use fd](https://github.com/sharkdp/fd#how-to-use)
+

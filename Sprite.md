@@ -5,7 +5,7 @@ sr-ease: 270
 sr-interval: 236
 tags:
 - inbox
-- computer_graphic
+- computer_graphics
 directory: ~/Computer/graphics/sprite/
 ---
 

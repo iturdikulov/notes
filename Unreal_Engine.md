@@ -3,6 +3,7 @@ date: 2023-04-19
 sr-due: 2023-05-21
 sr-ease: 274
 sr-interval: 4
+external: https://www.unrealengine.com/en-US/linux
 tags:
 - inbox
 - software
@@ -24,3 +25,8 @@ tags:
 - Video games
 - Film and television
 - Research and development
+
+## Resources
+
+- [ ] [Unreal Engine 5. Free two scenes. Lumen vs Baked light ](https://unreal.shop/models/unreal-engine-5.-free-two-scenes.-lumen-vs-baked-light)
+- [ ] [Unreal Engine 5 Beginner Tutorial](https://www.youtube.com/watch?v=k-zMkzmduqI)

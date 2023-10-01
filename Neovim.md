@@ -54,6 +54,11 @@ NEXT: issue with very long lines, how to deal with it?
 
 ## Basics
 
+up::`k`
+down::`j`
+left::`h`
+right::`l`
+
 normal mode, for navigation and manipulation of text::`ESC` or `C-[` or `C-c` or `C-S` (custom)
 
 insert mode, for inserting new text.::`iIaAoO`
@@ -983,17 +988,61 @@ this.
 
 ## Resources
 
+- [.] 1/7 [Изучаем Vim - YouTube](https://www.youtube.com/playlist?list=PLcjongJGYetkY4RFSVftH43F91vgzqB7U)
+
 - [ ] [How to Do 90% of What Plugins Do (With Just Vim) - YouTube](https://www.youtube.com/watch?v=XA2WjJbmmoM)
 - [ ] [7 Habits For Effective Text Editing 2.0 - YouTube](https://www.youtube.com/watch?v=eX9m3g5J-XA)
-- [ ] [Vim - YouTube](https://www.youtube.com/playlist?list=PLcjongJGYetkY4RFSVftH43F91vgzqB7U)
+- [ ] Current main goal: [[My_editing_workflow]]
+- [ ] [Harpoon : Vim Conference 2021 - YouTube](https://youtu.be/Qnos8aApa9g)
+- [x] [How to Vim in 2023: Tips and Tricks - YouTube](https://www.youtube.com/watch?v=FrMRyXtiJkc)
 - [x] [Setup nvim-lspconfig + nvim-cmp | Devlog](https://vonheikemen.github.io/devlog/tools/setup-nvim-lspconfig-plus-nvim-cmp/)
 - [x] [@DebuggingInNe] Debugging In Neovim (ft BashBunni and TJ DeVries) - YouTube
-- [ ] http://jrmiii.com/attachments/Vim.pdf
-- [ ] Current mail goal: [[My_editing_workflow]]
-- [ ] https://stackoverflow.com/questions/509690/how-can-you-list-the-matches-of-vims-search
-- [ ] https://github.com/tpope/vim-surround
+
+
+- [ ] [Resolve Git Merge Conflicts with Neovim and Fugitive! - YouTube](https://www.youtube.com/watch?v=vpwJ7fqD1CE)
+- [ ] [Vim Cheat Sheet](http://jrmiii.com/attachments/Vim.pdf)
+- [ ] [How can you list the matches of Vim's search? - Stack Overflow](https://stackoverflow.com/questions/509690/how-can-you-list-the-matches-of-vims-search)
+- [ ] [GitHub - tpope/vim-surround: surround.vim: Delete/change/add parentheses/quotes/XML-tags/much more with ease](https://github.com/tpope/vim-surround)
 - [ ] [Debugging Javascript applications with Neovim](https://miguelcrespo.co/posts/debugging-javascript-applications-with-neovim/)
+- [ ] [How to paste yanked text into the Vim command line - Stack Overflow](https://stackoverflow.com/questions/3997078/how-to-paste-yanked-text-into-the-vim-command-line)
+
+- [ ] [GitHub - nvim-treesitter/nvim-treesitter-textobjects](https://github.com/nvim-treesitter/nvim-treesitter-textobjects)
+- [ ] [Language of VIM/NEOVIM – allsyed's blog](https://allsyed.com/posts/language-of-vim-neovim/)
+- [ ] [Debugging Neovim with Neovim and nvim-dap](https://zignar.net/2023/02/17/debugging-neovim-with-neovim-and-nvim-dap/)
+  - [Neovim Plugin: nvim-dap - YouTube](https://www.youtube.com/watch?v=ga3Cas7vNCk)
+  - [How to debug like a PRO using Neovim 🔥](https://miguelcrespo.co/how-to-debug-like-a-pro-using-neovim)
+- [ ] [GitHub - mfussenegger/nvim-lint: An asynchronous linter plugin for Neovim complementary to the built-in Language Server Protocol support.](https://github.com/mfussenegger/nvim-lint)
+
+
+- [ ] [vim - How do I yank all matching lines into one buffer? - Stack Overflow](https://stackoverflow.com/questions/1474966/how-do-i-yank-all-matching-lines-into-one-buffer)
+- [ ] [GitHub - kosayoda/nvim-lightbulb: VSCode 💡 for neovim's built-in LSP.](https://github.com/kosayoda/nvim-lightbulb)
+
+- [ ] [GitHub - ThePrimeagen/refactoring.nvim: The Refactoring library based off the Refactoring book by Martin Fowler](https://github.com/ThePrimeagen/refactoring.nvim)
+- [ ] [GitHub - lsyncd/lsyncd: Lsyncd (Live Syncing Daemon) synchronizes local directories with remote targets](https://github.com/lsyncd/lsyncd)
+- [-] [GitHub - chrishrb/gx.nvim: Implementation of gx without the need of netrw](https://github.com/chrishrb/gx.nvim), not useful for me
+- [ ] [How can I make the Neovim terminal run the current file in Python? - Vi and Vim Stack Exchange](https://vi.stackexchange.com/questions/15431/how-can-i-make-the-neovim-terminal-run-the-current-file-in-python)
+- [ ] [Using vimdiff as your git diff tool. - YouTube](https://www.youtube.com/watch?v=hb5RVnOda2o)
+- [ ] [Nvim autocmd](https://www.reddit.com/r/neovim/comments/xhtr1p/nvim_autocmd_filetype_option/)
+- [ ] [Using netrw](https://vonheikemen.github.io/devlog/tools/using-netrw-vim-builtin-file-explorer/)
+- [ ] [How to switch from Pycharm to Vim? : r/vim](https://www.reddit.com/r/vim/comments/qdgnid/how_to_switch_from_pycharm_to_vim/)
+- [ ] [GitHub - christoomey/vim-tmux-navigator: Seamless navigation between tmux panes and vim splits](https://github.com/christoomey/vim-tmux-navigator)
+- [ ] [Using (neo)vim for C++ development](https://idie.ru/posts/vim-modern-cpp/)
+- [ ] [Testing Your Code — The Hitchhiker's Guide to Python](https://docs.python-guide.org/writing/tests/)
+- [ ] [GitHub - jsirex/git-tutorial: Day to day git tutorial]( https://github.com/jsirex/git-tutorial/tree/master)
+- [ ] [GitHub - hari-rangarajan/CCTree: Vim CCTree plugin](https://github.com/hari-rangarajan/CCTree)
+- [ ] [GitHub - chipsenkbeil/distant.nvim: 🚧 (Alpha stage software) Edit files, run programs, and work with LSP on a remote machine from the comfort of your local environment 🚧](https://github.com/chipsenkbeil/distant.nvim)
+- [ ] [GitHub - Weissle/persistent-breakpoints.nvim: Neovim plugin for persistent breakpoints.](https://github.com/Weissle/persistent-breakpoints.nvim)
+- [ ] [Does anyone actually use EasyMotion? : r/vim](https://www.reddit.com/r/vim/comments/1yfzg2/does_anyone_actually_use_easymotion/)
+
+
+- [ ] [Magically format embedded languages in Neovim - YouTube](https://www.youtube.com/watch?v=v3o9YaHBM4Q)
+- [ ] [Automatically Execute *Anything* in Nvim - YouTube](https://www.youtube.com/watch?v=9gUatBHuXE0)
+- [ ] [Execute **anything** in neovim (now customizable) - YouTube](https://www.youtube.com/watch?v=HlfjpstqXwE)
+
+- [Vim Tips Wiki | Fandom](https://vim.fandom.com/wiki/Vim_Tips_Wiki)
+- [VimGolf - real Vim ninjas count every keystroke!](https://www.vimgolf.com/)
 - [neovimcraft, plugins](https://neovimcraft.com/)
+- [Vim Awesome](https://vimawesome.com/)
 - [[research/Neil-Modern_Vim]]
 - [[research/Neil-Practical_Vim]]
 - [Interactive Vim tutorial](http://www.openvim.com/)

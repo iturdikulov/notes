@@ -38,6 +38,7 @@ git config --global user.email "user@domain.tld"
 
 ## Resources
 
+- [ ] [pre-commit](https://pre-commit.com/)
 - [[research/Chacon_and_Ben-Pro_Git|Pro Git]]
 - [Git - gittutorial Documentation](https://git-scm.com/docs/gittutorial)
 - [[Diff]]

@@ -6,7 +6,7 @@ sr-interval: 74
 author: David Allen
 tags:
 - inbox
-- IRL
+- productivity
 ---
 
 # Getting Things Done (GTD)

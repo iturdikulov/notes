@@ -8,13 +8,15 @@ tags:
 - inbox
 - art
 ---
-
 # Film (Movie)
 
-A movie or film is a type of visual [[Art]] that uses images and sounds to tell
-stories or teach people something. Most people watch movies to entertain
-themselves or to have fun (or relax, motivate, etc.). Some movies can make
-people laugh, but other movies can make them cry, or make them feel afraid.
+> A movie or film is a type of [[Visual_arts|visual art]] that uses images and
+> sounds to tell stories or teach [[People|people]] something. Most people watch
+> movies to entertain themselves or to have fun. Some movies can make people
+> laugh, but other movies can make them cry, or make them feel afraid.
+> — <cite>[Simple English Wikipedia](https://simple.wikipedia.org/wiki/Movie)</cite>
+
+Some movies can also make people teach something.
 
 ## Types of movies
 
@@ -38,8 +40,8 @@ be 2D animated or 3D animated.
 
 Examples:
 
-- https://studio.blender.org/films/
-- World of Warcraft Wrath of The Lich King Cinematic Intro 8k (Remastered with Machine Learning AI). TODO: add link.
+- [Films - Blender Studio](https://studio.blender.org/films/)
+- [World of Warcraft Wrath of The Lich King Cinematic Intro 8k (Remastered with Machine Learning AI).](file:///home/inom/Arts_and_Entertainment/animation/WOW_Wrath_of_The_Lich_King_AwmvwTopbas.mp4)
 
 ## Buddy movies
 

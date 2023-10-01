@@ -12,7 +12,9 @@ tags:
 
 Install & configure RetroArch on arch-based system!
 
-# Install
+## Install
+
+TODO: rewrite this section and use NixOS setup
 
 ```bash
 # install package
@@ -26,7 +28,7 @@ retroarch-assets-ozone # for a more desktop-friendly GUI.
 
 ```
 
-# Configuration files
+## Configuration files
 
 ```bash
 $HOME/.config/retroarch/retroarch.cfg
@@ -39,9 +41,7 @@ state - save states
 saves - saves
 ```
 
-# Recommended cores
-
-<https://emulation.gametechwiki.com/index.php/Main_Page>
+## Recommended cores
 
 ```bash
 libretro-duckstation # ps 1
@@ -53,8 +53,8 @@ libretro-mupen64plus-next # Nintendo 64 core
 libretro-ppsspp # Sony PlayStation Portable core
 ```
 
-# Useful links
+## Resources
 
-<https://r-roms.github.io/megathread/retro/>
-<https://archive.org/download/RetroarchSystemFiles/Retroarch-System/>
-<http://81.234.103.195/>
+- [Emulation General Wiki](https://emulation.gametechwiki.com/index.php/Main_Page)
+- [Retro - /r/Roms Megathread](https://r-roms.github.io/megathread/retro/)
+- [RetroarchSystemFiles directory listing](https://archive.org/download/RetroarchSystemFiles/Retroarch-System/)

@@ -50,9 +50,6 @@ Application passwords just haven't tld, like
 
 I also use passwords groups, like business, email, social, etc.
 
-TODO: organize passwords into groups, which can be found here:
-https://duckduckgo.com/bangs
-
 ## Resources
 
 - [pass - ArchWiki](https://wiki.archlinux.org/title/Pass)

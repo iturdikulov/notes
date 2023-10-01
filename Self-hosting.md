@@ -22,19 +22,6 @@ tags:
 For me self-hosting is way to easily share data between devices, and to have
 full control over my data with minimal latency, and maximal speed.
 
-## Self-hosting services which I use
-
-- PhotoPrism
-- Miniflux
-- [Kiwix](http://10.243.211.202:8080/?lang=)
-- [Audioserve](http://localhost:8084/#0/)
-- [Komga](http://localhost:8443/dashboard)
-- [AdGuard Home](http://localhost/#filters)
-- [Syncthing](http://127.0.0.1:8384/)
-- [qBittorent](http://localhost:8081/)
-- PrivateBin
-- [draw.io](http://localhost:8085/)
-
 ## Resources
 
-- https://github.com/awesome-selfhosted/awesome-selfhosted
+- [GitHub - awesome-selfhosted/awesome-selfhosted: A list of Free Software network services and web applications which can be hosted on your own servers](https://github.com/awesome-selfhosted/awesome-selfhosted)

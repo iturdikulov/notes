@@ -3,19 +3,17 @@ external: https://github.com/brookhong/Surfingkeys
 date: 2023-03-27
 tags:
 - outline
-- software
 ---
 
 # Surfingkeys
 
 > Browser extension that provides keyboard-based navigation and control of the
 > web in the spirit of the VIM editor. But it's not for VIM users only, it's for
-> anyone who just needs some more shortcuts to his/her own functions.
+> anyone who just needs some more shortcuts to his/her own functions.\
+> — <cite>[GitHub](https://github.com/brookhong/Surfingkeys)</cite>
 
-Useful links:
-
-- https://github.com/brookhong/Surfingkeys/wiki/FAQ
-- https://chrome.google.com/webstore/detail/surfingkeys/gfbliohnnapiefjpjlpjnehglfpaknnc
+I think it's too complicated, and I just use [[Vimium]] right now, and I removed
+from my spaced repetition system.
 
 ## Help
 
@@ -962,3 +960,9 @@ Open vim editor for current input
 <kbd><Ctrl-Alt-i></kbd>
 ?
 Open neovim for current input
+
+## Resources
+
+- [ ] [FAQ · brookhong/Surfingkeys Wiki · GitHub](https://github.com/brookhong/Surfingkeys/wiki/FAQ)
+- [ ] [Chrome Extension](https://chrome.google.com/webstore/detail/surfingkeys/gfbliohnnapiefjpjlpjnehglfpaknnc)
+

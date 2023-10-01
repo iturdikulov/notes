@@ -29,3 +29,5 @@ rg figlet ~/Computer/data/dmoz_category
 rg Finance ~/Computer/data/dmoz_category/categories.txt|bat
 ```
 
+Simpler alternative to DMOZ can be
+[DuckDuckGo !Bangs](https://duckduckgo.com/bangs).

@@ -42,3 +42,4 @@ note?
 ## Resources
 
 - [ ] [Representation of Floating Point Numbers - 1 - YouTube](https://www.youtube.com/watch?v=ji3SfClm8TU)
+- [ ] [Floating Point Math](https://0.30000000000000004.com/)

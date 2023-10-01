@@ -2,7 +2,11 @@
 date: 2023-09-16
 tags:
   - inbox
-directory: ~/Arts_and_Entertainment/literature/Laozi-Tao_Te_Ching/
+  - fiction
+author:
+  - Laozi
+  - Arthur Waley (Translator)
+directory: "~/Arts_and_Entertainment/literature/Lao Tzu/The way and its power; a study of the Tao te ching and its place in Chinese thought (980)/"
 ---
 
 # Tao Te Ching

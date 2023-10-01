@@ -25,3 +25,7 @@ Features:
 
 I think I can take some useful notes from this website. I'll track them here -
 [[Puzzle_English_learning_by_plan|plan]].
+
+## Resources
+
+- [ ] [Import new words into dictionary](https://puzzle-english.com/change-my-dictionary/import)

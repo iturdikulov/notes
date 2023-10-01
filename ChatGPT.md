@@ -52,6 +52,7 @@ Concurrent:
 
 ## Resources
 
+- [ ] [ChatGPT Writes a Chatbot AI - YouTube](https://www.youtube.com/watch?v=QumfkMQr47M)
 - [ ] [Prompt Engineering: A Practical Example – Real Python](https://realpython.com/practical-prompt-engineering/)
-- [Awesome ChatGPT Prompts](https://github.com/f/awesome-chatgpt-prompts)
+- [ ] [Awesome ChatGPT Prompts](https://github.com/f/awesome-chatgpt-prompts)
 

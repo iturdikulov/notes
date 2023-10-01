@@ -65,6 +65,7 @@ reboot
 
 ## Resources
 
+- [ ] [GitHub - drduh/YubiKey-Guide: Guide to using YubiKey for GPG and SSH](https://github.com/drduh/YubiKey-Guide)
 - [OnlyKey User's Guide | Docs](https://docs.onlykey.io/usersguide.html)
 - [Universal 2nd Factor - ArchWiki](https://wiki.archlinux.org/title/Universal_2nd_Factor)
 - [Unlocking LUKS2 volumes with TPM2, FIDO2, PKCS#11 Security Hardware on systemd 248](https://0pointer.net/blog/unlocking-luks2-volumes-with-tpm2-fido2-pkcs11-security-hardware-on-systemd-248.html)

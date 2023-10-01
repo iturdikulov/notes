@@ -105,6 +105,6 @@ Escape backtick character: `` ` ``, ``List`1``
 
 ## TODO
 
-- [ ] https://daringfireball.net/projects/markdown/basics
-- [ ] https://daringfireball.net/projects/markdown/syntax
-- [ ] https://github.github.com/gfm/
+- [ ] [Daring Fireball: Markdown Basics](https://daringfireball.net/projects/markdown/basics)
+- [ ] [Daring Fireball: Markdown Syntax Documentation](https://daringfireball.net/projects/markdown/syntax)
+- [ ] [GitHub Flavored Markdown Spec](https://github.github.com/gfm/)

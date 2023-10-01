@@ -5,11 +5,14 @@ sr-ease: 270
 sr-interval: 217
 tags:
 - inbox
+- phycics
 ---
 
 # Newton's laws of motion
 
-> Three basic laws of [[Classical_mechanics|classical_mechanics]] that describe
+Explain Newton's laws of motion.
+?
+> Three basic laws of [[Classical_mechanics|classical mechanics]] that describe
 > the relationship between the motion of an object and the forces acting on it.
 > These laws can be paraphrased as follows:
 >
@@ -21,5 +24,8 @@ tags:
 >    magnitude but opposite directions.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Newton%27s_laws_of_motion)</cite>
 
-- [ ] completely understand the three laws of motion
-- [ ] https://www.khanacademy.org/science/physics/forces-newtons-laws
+TODO: completely understand the three laws of motion.
+
+## Resources
+
+- [ ] [Forces and Newton's laws of motion | Physics library | Khan Academy](https://www.khanacademy.org/science/physics/forces-newtons-laws)
