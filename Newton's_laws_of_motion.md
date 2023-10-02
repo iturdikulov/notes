@@ -28,4 +28,5 @@ TODO: completely understand the three laws of motion.
 
 ## Resources
 
+- [ ] [Newton’s Laws of Motion](https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/newtons-laws-of-motion/)
 - [ ] [Forces and Newton's laws of motion | Physics library | Khan Academy](https://www.khanacademy.org/science/physics/forces-newtons-laws)
