@@ -25,3 +25,5 @@ full control over my data with minimal latency, and maximal speed.
 ## Resources
 
 - [GitHub - awesome-selfhosted/awesome-selfhosted: A list of Free Software network services and web applications which can be hosted on your own servers](https://github.com/awesome-selfhosted/awesome-selfhosted)
+- [ ] [How To Use Traefik v2 as a Reverse Proxy for Docker Containers on Ubuntu 20.04 | DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-use-traefik-v2-as-a-reverse-proxy-for-docker-containers-on-ubuntu-20-04)
+- [ ] [benphelps/homepage: A highly customizable homepage (or startpage / application dashboard) with Docker and service API integrations.](https://github.com/benphelps/homepage)

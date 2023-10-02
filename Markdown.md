@@ -108,3 +108,4 @@ Escape backtick character: `` ` ``, ``List`1``
 - [ ] [Daring Fireball: Markdown Basics](https://daringfireball.net/projects/markdown/basics)
 - [ ] [Daring Fireball: Markdown Syntax Documentation](https://daringfireball.net/projects/markdown/syntax)
 - [ ] [GitHub Flavored Markdown Spec](https://github.github.com/gfm/)
+- [ ] [MyST - Markedly Structured Text](https://myst-parser.readthedocs.io/en/latest/syntax/typography.html)

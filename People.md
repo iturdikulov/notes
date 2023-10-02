@@ -18,6 +18,11 @@ directory: ~/People/
 I save some information about Peoples which I find interesting. I can save their
 contacts, biography, and other information.
 
+- [ ] Isaac Newton
+- [ ] Nikola Tesla
+- [ ] Ibn sina (Авиценна)
+- [ ] Al-Horazmi (Аль-Хорезми)
+
 - [ ] [ThePrimeagen](https://www.twitch.tv/theprimeagen/about)
 - [ ] [Casey Muratori](https://caseymuratori.com/)
 - [ ] [Jonathan Blow - Wikipedia](https://en.wikipedia.org/wiki/Jonathan_Blow)

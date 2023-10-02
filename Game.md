@@ -54,6 +54,7 @@ tags:
 ## Resources
 
 - [ ] [John Carmack: Doom, Quake, VR, AGI, Programming, Video Games, and Rockets | Lex Fridman Podcast #309 - YouTube](https://www.youtube.com/watch?v=I845O57ZSy4)
+- [ ] [Let’s BUILD a COMPUTER in CONWAY's GAME of LIFE ⠠⠵ - YouTube](https://www.youtube.com/watch?v=Kk2MH9O4pXY)
 - [Steam](https://store.steampowered.com/)
 - [Steam Workshop Downloader](https://steamworkshopdownloader.io/)
 - [Epic Games Store | Download & Play PC Games, Mods, DLC & More – Epic Games](https://store.epicgames.com/en-US/)

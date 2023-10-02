@@ -43,7 +43,7 @@ I'm fan of traditional [[Visual_arts|visual art]] and CGI art.
 - [[Artistic_inspiration]]
 - [[Handwriting]]
 - [[30_day_drawing_challenge]]
-- [[How_I_learn_3D_computer_graphics]]
+- [[How_I_learn_computer_graphics]]
 
 ## Tools
 

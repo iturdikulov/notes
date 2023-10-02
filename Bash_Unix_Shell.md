@@ -33,6 +33,7 @@ done;
 
 ## Resources
 
+- [ ] [The Bash Hackers Wiki](https://wiki.bash-hackers.org/doku.php)
 - [ ] [Command Challenge!](https://cmdchallenge.com/)
 - [ ] [Bash Guide for Beginners](https://tldp.org/LDP/Bash-Beginners-Guide/html/)
 - [ ] [The Bash Guide](https://guide.bash.academy/)

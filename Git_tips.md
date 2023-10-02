@@ -112,7 +112,7 @@ View commits which would be pushed (commits in current local branch).
 View changes which are new on a feature branch.
 ?
 
-```bash
+```sh
 git log -p feature --not main
 git diff main...feature
 ```
@@ -274,7 +274,7 @@ Change author of a commit.
 Commit in the past. Newer versions of Git allow `--date="2 days ago"` usage.
 ?
 
-```bash
+```sh
 # more recent versions of Git also support --date="2 days ago" directly
 git commit --date="`date --date='2 day ago'`"
 git commit --date="Jun 13 18:30:25 IST 2015"
@@ -336,7 +336,7 @@ Get the latest changes from origin (no merge)
 Pull changes, while overwriting any local commits.
 ?
 
-```bash
+```sh
 git fetch --all
 git reset --hard origin/master
 ```
@@ -441,7 +441,7 @@ Check any signatures it finds and list them in its output:
 
 Sync a fork with the master repo.
 
-```bash
+```sh
 git remote add upstream git@github.com:name/repo.git # <-- Set a new repo.
 git remote -v # <-- Confirm new remote repo.
 git fetch upstream # <-- Get branches.
@@ -458,7 +458,7 @@ git status # <-- Show the changes from the last commit.
 
 Set your identity.
 
-```bash
+```sh
 git config --global user.name "John Doe"
 git config --global user.email johndoe@example.com
 ```
@@ -477,7 +477,7 @@ Enable color support for commands like `git diff`.
 
 Remove file from git after adding it into `.gitignore`
 
-```bash
+```sh
 # Check, you committed all required changes before
 git rm -r --cached .
 git add .
@@ -486,7 +486,7 @@ git commit -m "Fix untracked files"
 
 Change the date of an existing commit.
 
-```bash
+```sh
 git filter-branch --env-filter \
     'if [ $GIT_COMMIT = 119f9ecf58069b265ab22f1f97d2b648faf932e0 ]
      then
@@ -500,7 +500,7 @@ Display the commit history of a set of files.
 
 Move your most recent commit from one branch, to stage it on [BRANCH].
 
-```bash
+```sh
 git reset HEAD~ --soft
 git stash
 git checkout [BRANCH]
@@ -511,6 +511,7 @@ git add .
 ## Resources
 
 - [The ULTIMATE Git workflow using Neovim's Fugitive, Telescope & Git-Signs!](https://www.youtube.com/watch?v=IyBAuDPzdFY)
+- [ ] [Removing sensitive data from a repository - GitHub Docs](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/removing-sensitive-data-from-a-repository)
 - [ ] [ThePrimeagen/git-worktree.nvim](https://github.com/ThePrimeagen/git-worktree.nvim)
 - [ ] [arslanbilal/git-cheat-sheet: :octocat: git and git flow cheat sheet](https://github.com/arslanbilal/git-cheat-sheet)
 - [ ] [version control - How to remove/delete a large file from commit history in the Git repository? - Stack Overflow](https://stackoverflow.com/questions/2100907/how-to-remove-delete-a-large-file-from-commit-history-in-the-git-repository/61602985#61602985)

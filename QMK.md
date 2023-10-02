@@ -80,6 +80,9 @@ my case I need to hold `ESC` and plug USB cable.
     FN-i - insert
     FN-frts (colemak layout) - mouse naviation
     FN-w - mouse left click
+    FN-tab - mouse right click
+    FN-q - mouse wheel up
+    FN-a - mouse wheel down
 
     C-[ - real escape key
     S-" - real quote key (I have " instead of ' by default)

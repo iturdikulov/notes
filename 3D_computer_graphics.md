@@ -18,10 +18,6 @@ tags:
 > time.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/3D_computer_graphics)</cite>
 
-I'm trying to [[How_I_learn_3D_computer_graphics|learn]] 3D computer graphics.
+I'm trying to [[How_I_learn_computer_graphics|learn]] 3D computer graphics.
 By developing various [[My_Games|games]] and modelling 3D models in [[Blender]].
 
-- [ ] [How 3D video games do graphics. - YouTube](https://www.youtube.com/watch?v=bGe-d09Nc_M)
-- [ ] [Пишу 3D Движок на Python - YouTube](https://www.youtube.com/watch?v=Scn96t7mwC4)
-- [ ] [Пишу 3D Движок на Python - YouTube](https://www.youtube.com/watch?v=Scn96t7mwC4)
-- [ ] [Трёхмерная графика с нуля. Часть 1: трассировка лучей / Habr](https://habr.com/en/articles/342510/)

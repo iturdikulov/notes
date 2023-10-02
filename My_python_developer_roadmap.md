@@ -14,6 +14,9 @@ tags:
 
 TOOD: sync research/core notes (duplicates), at least tutorial and standard library
 - [[research/Python_Community-Python_Tutorial|Python tutorial]]
+
+- [ ] [Python Monorepo: an Example. Part 1: Structure and Tooling - Tweag](https://www.tweag.io/blog/2023-04-04-python-monorepo-1/)
+- [ ] [Writing The Matrix in Python: easy guide / Habr](https://habr.com/en/articles/720452/)
 - [ ] [PEP 8 – Style Guide for Python Code | peps.python.org](https://peps.python.org/pep-0008/)
 - [codingforentrepreneurs\/30-Days-of-Python.](https://www.youtube.com/playlist?list=PLEsfXFp6DpzQjDBvhNy5YbaBx9j-ZsUe6)
 - [ ] [Python cheat cheets](https://www.datacamp.com/cheat-sheet)
@@ -71,9 +74,8 @@ TOOD: sync research/core notes (duplicates), at least tutorial and standard libr
 
 ## TODO
 
-- [x] https://gist.github.com/tasdikrahman/2bdb3fb31136a3768fac, not worked as
-      expected
-- [ ] https://flask.palletsprojects.com/en/2.2.x/testing/
-- [ ] https://youtu.be/eJDIsFJN4OQ
-- [ ] https://youtu.be/Q7AOvWpIVHU
-- [ ] https://gist.github.com/eruvanos/f6f62edb368a20aaa880e12976620db8
+- [x] [Typical Directory structure for python tests · GitHub](https://gist.github.com/tasdikrahman/2bdb3fb31136a3768fac)
+      not worked as expected
+- [ ] [GitHub - pallets/flask: The Python micro framework for building web applications.](https://github.com/pallets/flask)
+- [ ] [Testing Flask Applications — Flask Documentation (2.2.x)](https://flask.palletsprojects.com/en/2.2.x/testing/)
+- [ ] [Simple mock server for testing using Flask · GitHub](https://gist.github.com/eruvanos/f6f62edb368a20aaa880e12976620db8)

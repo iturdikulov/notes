@@ -17,7 +17,7 @@ tags:
 > professional associations or websites to get work.
 >
 > Fields, professions, and industries where freelancing is predominant include:
-> music, writing, acting, [[Computer_programming|computer_programming]], web
+> music, writing, acting, [[Computer_programming|computer programming]], web
 > design, [[Computer_graphics|graphic]] design, translating and illustrating,
 > film and video production, and other forms of piece work that some cultural
 > theorists consider central to the cognitive-cultural economy.\
@@ -29,4 +29,6 @@ tags:
 - [Фултайм удаленка на зарубежные компании](https://vas3k.club/post/11513/)
 - [Glassdoor](https://www.glassdoor.com/Job/) [Fiverr](https://www.fiverr.com/)
 - [Freelancer](https://www.freelancer.com/dashboard)
-  [Guru](https://www.guru.com/)
+- [Guru](https://www.guru.com/)
+- [How To Get Hired On Upwork](https://logosbynick.teachable.com/courses/enrolled/497397)
+

@@ -29,6 +29,7 @@ _[Inkscape Keyboard Layout v0.48.4 - Openclipart](https://openclipart.org/detail
 
 ## Resources
 
+- [ ] [The Inkscape Master Class | Logos By Nick Academy](https://logosbynick.teachable.com/courses/enrolled/485218)
 - [ ] [Inkscape Beginner Tutorials - Quickstart](https://inkscape.org/gallery/=tutorial/inkscape-beginner-tutorials/).
 - [ ] Interesting article how to integrate Inkscape with latex:
   [How I draw figures for my mathematical lecture notes using Inkscape](https://castel.dev/post/lecture-notes-2/).

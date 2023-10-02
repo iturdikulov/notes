@@ -16,6 +16,7 @@ tags:
 
 ## Resources
 
+- [ ] [The complete FUN TO IMAGINE with Richard Feynman - YouTube](https://www.youtube.com/watch?v=P1ww1IXRfTA)
 - [ ] [Metric prefix - Wikipedia](https://en.wikipedia.org/wiki/Metric_prefix)
 - [ ] [Physics Index](https://www.mathsisfun.com/physics/index.html)
 - [ ] [Electromagnetic radiation - Wikipedia](https://en.wikipedia.org/wiki/Electromagnetic_radiation)

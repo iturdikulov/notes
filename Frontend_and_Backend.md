@@ -28,6 +28,11 @@ tags:
 ### Frontend
 
 - [CSS: Cascading Style Sheets | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [ ] [1000x FASTER JavaScript? - YouTube](https://www.youtube.com/watch?v=B76gFi43HvM)
+- [ ] [mbeaudru/modern-js-cheatsheet: Cheatsheet for the JavaScript knowledge you will frequently encounter in modern projects.](https://github.com/mbeaudru/modern-js-cheatsheet)
+- [ ] [GitHub - bradtraversy/vanillawebprojects: Mini projects built with HTML5, CSS &amp; JavaScript. No frameworks or libraries](https://github.com/bradtraversy/vanillawebprojects)
+- [ ] [David Khourshid - Infinitely Better UIs with Finite Automata - YouTube](https://www.youtube.com/watch?v=VU1NKX6Qkxc)
+- [ ] [XState Catalogue](https://xstate-catalogue.com/)
 - [ ] [AllThingsSmitty/css-protips: A collection of tips to help take your CSS skills pro](https://github.com/AllThingsSmitty/css-protips)
 - [ ] [CSS GPU Animation: Doing It Right — Smashing Magazine](https://www.smashingmagazine.com/2016/12/gpu-animation-doing-it-right/)
 - [ ] [CSS ::before and ::after for custom animations and transitions - LogRocket Blog](https://blog.logrocket.com/css-before-after-custom-animations-transitions/)
@@ -38,7 +43,6 @@ tags:
 - [React](https://react.dev/learn)
 - [CodePen: Online Code Editor and Front End Web Developer Community](https://codepen.io/trending)
 
-- [ ] [mbeaudru/modern-js-cheatsheet: Cheatsheet for the JavaScript knowledge you will frequently encounter in modern projects.](https://github.com/mbeaudru/modern-js-cheatsheet)
 - [ ] [Как правильно верстать в 2022 году. Часть 1 / Habr](https://habr.com/en/articles/655009/)
 - [ ] [Основы и практика CSS Grid Layout:  как использовать двумерную раскладку для повседневных задач / Habr](https://habr.com/en/articles/656245/)
 - [ ] [Frontend Developer Roadmap: What is Frontend Development?](https://roadmap.sh/frontend)

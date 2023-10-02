@@ -34,3 +34,4 @@ tags:
 - [Карта путей продления жизни, доступных уже сейчас](https://antiage.community/generalarticle/1242-karta-putej-prodleniya-zhizni-dostupnykh-uzhe-sejchas-chernovik-alekseya-turchina)
 - [Простая Академия](https://prosto.academy/)
 
+- [ ] [Enlightenment – healer v1.0, полость рта | DanielDefo - Королевство Добра](https://danieldefo.ru/threads/enlightenment-healer-v1-0.14516/#post-781108)

@@ -117,3 +117,4 @@ Also templates may have this frontamatter variables:
 ## Resources
 
 - [ ] [Types of ZT Notes](https://zk.zettel.page/types-of-notes)
+- [ ] [Taxonomy of note types](https://notes.andymatuschak.org/Taxonomy_of_note_types)
