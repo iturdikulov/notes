@@ -43,7 +43,7 @@ Flash firmware steps:
 
 6. Create keymap and set it as default
 
-```
+```sh
 qmk new-keymap -km inomoz
 qmk config user.keymap=inomoz
 ```
@@ -90,7 +90,7 @@ my case I need to hold `ESC` and plug USB cable.
 
 ## Resources
 
-- [x] [My current keyboard layout :: Eli Rodríguez Pérez — Personal blog](https://eli-rodriguez.com/en/posts/my-current-keyboard-layout/)
-- [ ] [QMK Basics: Tap and hold actions: Tap into your modifiers – Thomas Baart](https://thomasbaart.nl/2018/12/09/qmk-basics-tap-and-hold-actions/)
 - [QMK Configurator](https://config.qmk.fm/#/kbdfans/kbd75/rev2/LAYOUT)
 - [QMK JSON converter](https://jhelvy.shinyapps.io/qmkjsonconverter/)
+- [x] [My current keyboard layout :: Eli Rodríguez Pérez — Personal blog](https://eli-rodriguez.com/en/posts/my-current-keyboard-layout/)
+- [ ] [QMK Basics – Thomas Baart](https://thomasbaart.nl/category/mechanical-keyboards/firmware/qmk/qmk-basics/)
