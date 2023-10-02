@@ -24,19 +24,14 @@ I use QMK on my keyboard (KBD75 rev2). I'have done some basic customizations to
 keymap. I use Colemak-DH layout, but on system level (because I use also Russian
 ЙЦУКЕН layout, so it's depends on qwerty layout).
 
-Key codes: https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md
+Key codes: [qmk_firmware/docs/keycodes.md](https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md)
 
 Flash firmware steps:
 
 1. Go to directory with QMK firmware `cd qmk_firmware`
 
-2. Prepare environment:
-   https://docs.qmk.fm/#/newbs_getting_started?id=prerequisites-3
-
-```sh
-sudo pacman --needed --noconfirm -S git python-pip libffi
-sudo pacman -S qmk  # optionally you can install qmk from PIP
-```
+2. Prepare environment, I have configured [[NixOS]] module:
+[qmk.nix](https://github.com/Inom-Turdikulov/dotfiles/blob/master/modules/hardware/qmk.nix).
 
 3. Run qmk setup, in most situations you will answer `y` to all questions
    `qmk setup`
@@ -68,15 +63,30 @@ it's equivalent to `qmk flash` if keyboard and keymap are set in config.
 Put Your Keyboard into `DFU` (Bootloader) Mode, after entering command above. In
 my case I need to hold `ESC` and plug USB cable.
 
-https://docs.qmk.fm/#/newbs_flashing?id=put-your-keyboard-into-dfu-bootloader-mode
-
-## Keys
-
-TODO: describe keys
+[More info](https://docs.qmk.fm/#/newbs_flashing?id=put-your-keyboard-into-dfu-bootloader-mode).
 
 ## My keymap variant
 
 ![Colemak-DH ANSI](./img/Colemak-DH_ANSI.png)
+
+
+## Keys (VIM like)
+
+    FN-hjkl - arrows
+    FN-e, FN-b - ctrl left/right (like VIM e/b)
+    FN-d, FN-u - page up/down
+    FN-^, FN-$ - home/end
+    FN-y, FN-p - clipboard copy/paste
+    FN-i - insert
+    FN-frts (colemak layout) - mouse naviation
+    FN-w - mouse left click
+
+    C-[ - real escape key
+    S-" - real quote key (I have " instead of ' by default)
+
+    Volume up/down - system volume up/down
+    Play/Pause - spotify play/pause
+
 
 ## Resources
 
