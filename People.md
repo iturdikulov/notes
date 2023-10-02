@@ -18,6 +18,9 @@ directory: ~/People/
 I save some information about Peoples which I find interesting. I can save their
 contacts, biography, and other information.
 
-- [Jonathan Blow - Wikipedia](https://en.wikipedia.org/wiki/Jonathan_Blow)
-- [Sergey Leschev - Team Lead](https://sergeyleschev.github.io/)
-
+- [ ] [ThePrimeagen](https://www.twitch.tv/theprimeagen/about)
+- [ ] [Casey Muratori](https://caseymuratori.com/)
+- [ ] [Jonathan Blow - Wikipedia](https://en.wikipedia.org/wiki/Jonathan_Blow)
+- [ ] [Tim Pope (tpope)](https://github.com/tpope)
+- [ ] [Dmitry V. Sokolov (ssloy)](https://github.com/ssloy)
+- [ ] [Sergey Leschev - Team Lead](https://sergeyleschev.github.io/)

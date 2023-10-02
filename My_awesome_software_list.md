@@ -131,7 +131,7 @@ TODO: restructure, instead more_info, use linking to notes!
   [[Nomad_sculpt|more_info]]
 
 ## Utilities
-- [[Sdcv|Sdcv]] - console version of StarDict dictionary
+- [[Sdcv]] - console version of StarDict dictionary
 - [[Termdown]] - Countdown timer and stopwatch in your terminal
 - [kitty](https://sw.kovidgoyal.net/kitty/) - The fast, feature-rich, GPU based
   terminal emulator

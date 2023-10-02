@@ -22,9 +22,6 @@ some will be just a link.
 
 ### People
 
-- [ ] [tpope (Tim Pope) · GitHub](https://github.com/tpope)
-- [ ] [ssloy (Dmitry V. Sokolov) · GitHub](https://github.com/ssloy)
-- [ ] [The Feynman Technique: The Best Way to Learn Anything](https://fs.blog/feynman-technique/)
 - [ ] [The complete FUN TO IMAGINE with Richard Feynman - YouTube](https://www.youtube.com/watch?v=P1ww1IXRfTA)
 - [ ] [My Inventions Nikola Tesla](https://archive.org/details/MyInventionsNikolaTesla/page/n29/mode/2up)
 
@@ -32,7 +29,6 @@ some will be just a link.
 
 - [ ] [Set A Light 3D Review: Can you learn lighting in a computer? - YouTube](https://www.youtube.com/watch?v=YFlC6RL1MmM)
 - [ ] [Physics of JellyCar: Soft Body Physics Explained - YouTube](https://www.youtube.com/watch?v=3OmkehAJoyo)
-- [ ] [GitHub - mikepan/GameEngineBook: The Complete "Game Development with Blender" Book. Now Free.](https://github.com/mikepan/GameEngineBook)
 - [ ] [Shadertoy BETA](https://www.shadertoy.com/)
 - [ ] [Best approach for Grass Detection ? - OpenCV QA Forum](https://answers.opencv.org/question/103496/best-approach-for-grass-detection/)
 

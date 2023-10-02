@@ -31,6 +31,9 @@ repetition]] and implement my [[My_pet_projects|pet projects]] and
 > The only way to learn a new programming language is by writing programs in it.\
 > — <cite>[[research/Kernighan_and_Ritchie-The_C_programming_language|K&R book]]</cite>
 
+I think [[research/Polya-How_to_solve_it|how to solve it]] can be also used
+as method to learn.
+
 ## Resources
 
 - [The Odin Project](https://www.theodinproject.com/)
@@ -38,4 +41,5 @@ repetition]] and implement my [[My_pet_projects|pet projects]] and
 - [Udemy](https://www.udemy.com/)
 - [edX](https://www.edx.org/)
 - [Coursera](https://www.coursera.org/)
-- [ ] https://commoncog.com/how-to-learn-tacit-knowledge/
+- [ ] [How To Acquire The Tacit Knowledge of Experts](https://commoncog.com/how-to-learn-tacit-knowledge/)
+- [ ] [The Feynman Technique: The Best Way to Learn Anything](https://fs.blog/feynman-technique/)

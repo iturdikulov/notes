@@ -34,3 +34,26 @@ them and deselected vertices by accident.
 Probably better to place `subdivision modifier` on bottom of the stack (depends on the situation)
 
 You can toggle snapping by ==`Shift-Tab`==.
+
+To change world units need ? Scene Properties (properties sidebar) > Units >
+Metric
+
+After scaling object, need to apply scale ? Ctrl + A > Scale
+
+You can change shading of object from ==context menu==
+
+How to apply subdivision modifier (or any modifier) ? P > Modifiers Properties >
+Add Modifier
+
+How to move siblings points in edit mode ? You need to select point(s) enable
+proportional editing (O) and move (G) To increase/decrease proportional editing
+radius use mouse wheel
+
+How to move points along axis in proportional editing mode ? Use alt + s to
+shrink/fatten proportional editing radius
+
+How select random points in edit mode ? Select > **S**elect Random
+
+Orthographic mode basically means ? that you can't see perspective, only
+orthographic view (no depth, objects same size regardless of distance)
+
