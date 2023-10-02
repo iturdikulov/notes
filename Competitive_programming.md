@@ -24,9 +24,5 @@ tags:
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Competitive_programming)</cite>
 
 I'm using right now [leetcode](https://leetcode.com/), my problem list stored in
-competitive project (TODO add).
+competitive project and [[leetcode-cli]] to quickly interact with leetcode.
 
-I use [leetup](https://github.com/dragfire/leetup) to interact with leetcode
-problems.
-
-TODO: switched to leetgo?
