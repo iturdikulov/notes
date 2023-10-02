@@ -33,7 +33,7 @@ Flash firmware steps:
 2. Prepare environment:
    https://docs.qmk.fm/#/newbs_getting_started?id=prerequisites-3
 
-```
+```sh
 sudo pacman --needed --noconfirm -S git python-pip libffi
 sudo pacman -S qmk  # optionally you can install qmk from PIP
 ```
@@ -54,7 +54,8 @@ qmk config user.keymap=inomoz
 ```
 
 Now you have own keymap, you can edit it in
-`keyboards/kbdfans/kbd75/keymaps/inomoz/keymap.c`
+`keyboards/kbdfans/kbd75/keymaps/inomoz/keymap.c`. My layout is
+[here](./external/keymap.c).
 
 7. Compile and flash Firmware `qmk compile -kb kbdfans/kbd75/rev2 -km inomoz`
 
@@ -79,7 +80,7 @@ TODO: describe keys
 
 ## Resources
 
-- [ ] [My current keyboard layout :: Eli Rodríguez Pérez — Personal blog](https://eli-rodriguez.com/en/posts/my-current-keyboard-layout/)
+- [x] [My current keyboard layout :: Eli Rodríguez Pérez — Personal blog](https://eli-rodriguez.com/en/posts/my-current-keyboard-layout/)
 - [ ] [QMK Basics: Tap and hold actions: Tap into your modifiers – Thomas Baart](https://thomasbaart.nl/2018/12/09/qmk-basics-tap-and-hold-actions/)
 - [QMK Configurator](https://config.qmk.fm/#/kbdfans/kbd75/rev2/LAYOUT)
 - [QMK JSON converter](https://jhelvy.shinyapps.io/qmkjsonconverter/)
