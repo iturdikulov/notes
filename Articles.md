@@ -67,7 +67,7 @@ some will be just a link.
 - [ ] [David Khourshid - Infinitely Better UIs with Finite Automata - YouTube](https://www.youtube.com/watch?v=VU1NKX6Qkxc)
 - [ ] [XState Catalogue](https://xstate-catalogue.com/)
 - [ ] [Automatically lock workstation when USB security key is removed (Linux, systemd) — fireglows blog \[testing\]](https://blog.fireglow.de/automatically-lock-workstation-when-usb-security-key-is-removed-linux-systemd)
-- [ ] [Let’s BUILD a COMPUTER in CONWAY's GAME of LIFE ⠠⠵ - YouTube](https://www.youtube.com/watch?v=Kk2MH9O4pXY&ab_channel=AlanZucconi)
+- [ ] [Let’s BUILD a COMPUTER in CONWAY's GAME of LIFE ⠠⠵ - YouTube](https://www.youtube.com/watch?v=Kk2MH9O4pXY)
 
 ### Web
 
@@ -124,6 +124,5 @@ some will be just a link.
 - [ ] [Google Podcast](https://cdn.changelog.com/uploads/podcast/3/the-changelog-3.mp3)
 - [ ] [Enlightenment – healer v1.0, полость рта | DanielDefo - Королевство Добра](https://danieldefo.ru/threads/enlightenment-healer-v1-0.14516/#post-781108)
 - [ ] [Размер джинсов: как определить свой - таблицы размеров Как правильно выбрать джинсы: силуэт, посадка, размеры | Пикабу](https://pikabu.ru/story/razmer_dzhinsov_kak_opredelit_svoy__tablitsyi_razmerov_kak_pravilno_vyibrat_dzhinsyi_siluyet_posadka_razmeryi_6417938)
-- [ ] [Акустика для начинающих. Звукоизоляция. Часть 1 | Пикабу](https://pikabu.ru/story/akustika_dlya_nachinayushchikh_zvukoizolyatsiya_chast_1_3956274)
-- [ ] [Акустика для начинающих .Звукопоглощение. Часть 2 | Пикабу](https://pikabu.ru/story/akustika_dlya_nachinayushchikh_zvukopogloshchenie_chast_2_3961293)
+
 
