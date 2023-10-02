@@ -18,7 +18,7 @@ core of [[Python]]
 algorithms]], to learn core of [[Computer_science|computer science]]
 5. [[research/Kernighan_and_Ritchie-The_C_programming_language|The C programming
 language]], to understand most of [[C]]
-6. [[LeetCode_Team-LeetCode|LeetCode]] problems with help of [[Leetgo]], to take
+6. [[LeetCode_Team-LeetCode|LeetCode]] problems with help of [[leetcode-cli]], to take
   experience in [[research/Polya-How_to_solve_it|solving problems]]
 7. [[research/Киселёв-Элементы_алгебры_и_анализа_часть_1|Элементы алгербы и анализа, часть 1]], to understand basic of [[Mathematics]] and Algebra
 8. [[research/Muratori-Handmade_Hero|Handmade Hero]], my initial steps in [[Computer_graphics]].

@@ -16,7 +16,7 @@ directory: ~/Computer/science/LeetCode_Team-LeetCode/
 
 [Articles](https://leetcode.com/articles/)
 
-CLI tool to interact with the site - [[Leetgo]].
+CLI tool to interact with the site - [[leetcode-cli]].
 
 ## Alternatives
 
