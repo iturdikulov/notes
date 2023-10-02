@@ -62,13 +62,8 @@ some will be just a link.
 - [ ] [GitHub - gvanrossum/500lines: 500 Lines or Less](https://github.com/gvanrossum/500lines)
 - [ ] [Writing The Matrix in Python: easy guide / Habr](https://habr.com/en/articles/720452/)
 
-## Math
-
-- [ ] [Микрокосм: E. coli и новая наука о жизни, Карл Циммер – скачать книгу fb2, epub, pdf на ЛитРес](https://www.litres.ru/carl-zimmer/mikrokosm-e-coli-i-novaya-nauka-o-zhizni/)
-
 ### Hardware
 
-- [ ] [Libvirt, Parsec, GPU Passthrough and others | Webux Lab](https://webuxlab.com/en/projects/vm-passthrough-parsec)
 - [ ] [David Khourshid - Infinitely Better UIs with Finite Automata - YouTube](https://www.youtube.com/watch?v=VU1NKX6Qkxc)
 - [ ] [XState Catalogue](https://xstate-catalogue.com/)
 - [ ] [Automatically lock workstation when USB security key is removed (Linux, systemd) — fireglows blog \[testing\]](https://blog.fireglow.de/automatically-lock-workstation-when-usb-security-key-is-removed-linux-systemd)
