@@ -14,10 +14,10 @@ of [[Spaced_repetition|spaced repetition]], [[SQ3R_method|Sq3R]],
 2. [[research/Python_Community-Python_Tutorial]], to learn core of [[Python]]
 3. [[research/Šorn-Comprehensive_python_cheatsheet|Python cheatsheet]], to learn
 core of [[Python]]
-4. [[research/Wengrow-Data_structures_and_algorithms|Data structures and
-algorithms]], to learn core of [[Computer_science|computer science]]
-5. [[research/Kernighan_and_Ritchie-The_C_programming_language|The C programming
-language]], to understand most of [[C]]
+4. [[research/Wengrow-Data_structures_and_algorithms|Data structures and algorithms]],
+to learn core of [[Computer_science|computer science]]
+5. [[research/Kernighan_and_Ritchie-The_C_programming_language|The C programming language]],
+to understand most of [[C]]
 6. [[LeetCode_Team-LeetCode|LeetCode]] problems with help of [[leetcode-cli]], to take
   experience in [[research/Polya-How_to_solve_it|solving problems]]
 7. [[research/Киселёв-Элементы_алгебры_и_анализа_часть_1|Элементы алгербы и анализа, часть 1]], to understand basic of [[Mathematics]] and Algebra
