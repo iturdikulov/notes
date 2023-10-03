@@ -13,6 +13,6 @@ tags:
 - LinkedIn Account registrar
 - [ ] iturdikulov.com setup (initialization) check bibtex urls generator?
 - [ ] update my emojis generation (tags support?), I need check
-      https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md
-- [ ] vim URL to Markdown link, added `url_to_markdown.sh` script (not perfect,
-      shortcut?)
+      [emoji-cheat-sheet/README.md at master · ikatyang/emoji-cheat-sheet · GitHub](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md)
+- [ ] vim URL to Markdown link, added `url_to_markdown.sh` script (not perfect, shortcut?)
+- [ ] dotfiles describe

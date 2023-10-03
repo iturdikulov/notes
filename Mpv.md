@@ -117,14 +117,14 @@ MPV fzf history: s-S-Play
 
 ## Plugins
 
-- <https://github.com/jonniek/mpv-playlistmanager>
-- <https://github.com/mpv-player/mpv/blob/master/TOOLS/umpv>, useful
-  to add queue, use mpv as music player, emulates \"unique
-  application\"
+- [GitHub - jonniek/mpv-playlistmanager: Mpv lua script to create and manage playlists](https://github.com/jonniek/mpv-playlistmanager)
+- [umpv](https://github.com/mpv-player/mpv/blob/master/TOOLS/umpv), useful to
+add queue, use mpv as music player, emulates "single mpv instance"
 
-# TODO
+# Resources
 
+TODO: add scripts from my nix dotfiles
 - [ ] [mpv keyboard shortcuts · GitHub](https://gist.github.com/flatlinebb/07caa79fd3b9f3770788df21756a4611)
-- [ ] <https://github.com/NurioHin/mpv-bookmarker/>
-- [ ] <https://github.com/zenyd/mpv-scripts>
-- [ ] <https://github.com/occivink/mpv-scripts>
+- [ ] [GitHub - NurioHin/mpv-bookmarker: A bookmarker menu to manage all your bookmarks in MPV](https://github.com/NurioHin/mpv-bookmarker/)
+- [ ] [GitHub - zenyd/mpv-scripts: Scripts for the mpv media player](https://github.com/zenyd/mpv-scripts)
+- [ ] [GitHub - occivink/mpv-scripts: Various scripts for mpv](https://github.com/occivink/mpv-scripts)

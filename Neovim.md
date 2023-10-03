@@ -732,7 +732,7 @@ Get directory containing file ('head')
 How to paste yanked text into the Vim command line?
 ?
 Hit `<C-r>"`. If you have literal control characters in what you have yanked, use `<C-r><Ctrl-o>"`.
-Source: https://stackoverflow.com/questions/3997078/how-to-paste-yanked-text-into-the-vim-command-line
+[Source](https://stackoverflow.com/questions/3997078/how-to-paste-yanked-text-into-the-vim-command-line)
 
 How to paste system clipboard into the Vim command line?
 ?
@@ -860,11 +860,9 @@ Delete a file::`D`
 
 `M-\`::toggle copilot
 
+TODO: not working
 `M-S-del`::delete current file, warning deleting without confirmation. TODO: use trash-cli
 <!--SR:!2023-06-06,2,228-->
-
-Right now I use this color-scheme
-<https://raw.githubusercontent.com/navarasu/onedark.nvim/master/lua/onedark/highlights.lua>
 
 ## Plugins
 
@@ -1028,7 +1026,6 @@ this.
 - [ ] [GitHub - christoomey/vim-tmux-navigator: Seamless navigation between tmux panes and vim splits](https://github.com/christoomey/vim-tmux-navigator)
 - [ ] [Using (neo)vim for C++ development](https://idie.ru/posts/vim-modern-cpp/)
 - [ ] [Testing Your Code — The Hitchhiker's Guide to Python](https://docs.python-guide.org/writing/tests/)
-- [ ] [GitHub - jsirex/git-tutorial: Day to day git tutorial]( https://github.com/jsirex/git-tutorial/tree/master)
 - [ ] [GitHub - hari-rangarajan/CCTree: Vim CCTree plugin](https://github.com/hari-rangarajan/CCTree)
 - [ ] [GitHub - chipsenkbeil/distant.nvim: 🚧 (Alpha stage software) Edit files, run programs, and work with LSP on a remote machine from the comfort of your local environment 🚧](https://github.com/chipsenkbeil/distant.nvim)
 - [ ] [GitHub - Weissle/persistent-breakpoints.nvim: Neovim plugin for persistent breakpoints.](https://github.com/Weissle/persistent-breakpoints.nvim)

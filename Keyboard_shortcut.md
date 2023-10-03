@@ -27,6 +27,7 @@ Some notes with shortcuts flashcards/lists:
 - [[Blender_common_shortcuts|Blender]]
 - [[Krita]]
 - [[Telescope.nvim]], TODO: add link to config?
+- [[Telekasten.nvim]], TODO: add link to config?
 - [[Fzf]]
 - [[Z_shell]]
 - [[GNU_Readline]]
@@ -34,6 +35,7 @@ Some notes with shortcuts flashcards/lists:
 - TODO: firefox
 - [[Vimium]]
 - [[Gothic_controls]]
+- [[Mpv]]
 
 ## Resources
 

@@ -1,5 +1,4 @@
 ---
-canonical_url: https://daringfireball.net/projects/markdown/
 date: 2023-03-13
 tags:
 - outline

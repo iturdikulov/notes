@@ -19,15 +19,14 @@ tags:
 > like The Silver Searcher, ack and grep. --
 > [ripgrep](https://github.com/BurntSushi/ripgrep)
 
-TODO: https://github.com/BurntSushi/ripgrep/blob/master/GUIDE.md
-
 ## Commands
 
 ```sh
 # Recursively search the current directory for a regular expression:
 rg regular_expression
 
-# Search for regular expressions recursively in the current directory, including hidden files and files listed in `.gitignore`:
+# Search for regular expressions recursively in the current directory, including
+# hidden files and files listed in `.gitignore`:
 rg --no-ignore --hidden regular_expression
 rg -uuu -. regular_expression
 
@@ -53,3 +52,7 @@ rg --invert-match regular_expression
 # Search a literal string pattern:
 rg --fixed-strings -- string
 ```
+
+## Resources
+
+- [ ] [ripgrep/GUIDE.md](https://github.com/BurntSushi/ripgrep/blob/master/GUIDE.md)

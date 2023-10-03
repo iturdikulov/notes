@@ -8,9 +8,9 @@ tags:
 - software
 ---
 
-# L2bot
+# Lineage 2 bot
 
-http://coderx.ru/showthread.php?t=9575
-http://fursoffers.narod.ru/Packets.htm
-https://github.com/Ruk33/l2auth
+- [Lineage II Packets](http://fursoffers.narod.ru/Packets.htm)
+- [ ] [Исходники моего недоделанного бота - CoderX :: Forums](http://coderx.ru/showthread.php?t=9575)
+- [ ] [GitHub - Ruk33/l2auth: Lineage 2 C4 server written in C as a learning exercise](https://github.com/Ruk33/l2auth)
 - [ ] [L2 Adrenaline Scripts. - Page 30 - Request Botting MaxCheaters.com | Lineage 2 Development Marketplace Bots and Cheats](https://maxcheaters.com/topic/189997-l2-adrenaline-scripts/page/30/#comment-2578306))

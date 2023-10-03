@@ -9,20 +9,41 @@ tags:
 
 # suckless.org
 
-```sh
-cd ~/Projects/suckless
-git clone git://git.suckless.org/slock
-cd slock
-# pam.d patch  and install
-curl -O https://tools.suckless.org/slock/patches/pam_auth/slock-pam_auth-20190207-35633d4.diff
-patch -i slock-pam_auth-20190207-35633d4.diff
+> Home of dwm, dmenu and other quality software with a focus on simplicity,
+> clarity, and frugality.\
+> — <cite>[suckless.org](https://suckless.org/)</cite>
+
+## xst
+
+> xst is a [st](https://st.suckless.org/) fork with some patches applied and other
+goodies.\
+> — <cite>[xst](https://github.com/gnotclub/xst)</cite>
+
+Features:
+
+-  Loads settings from Xresources.
+-  Live-reloads settings from xrdb on USR1 signal (like termite)
+-  Has cursor blinking options (and can persistently blink while typing)
+-  A keybind alt+u for launching urls with dmenu + xurls
+
+Suckless patches:
+
+- alpha
+- boxdraw
+- clipboard
+- disable bold/italic fonts
+- externalpipe
+- scrollback
+- spoiler
+- vertcenter
+- undercurl
+- netwmicon
 
 
-cp config.def.h config.h
-# changer user and group in config.h
-make
-sudo make install
-```
+## DWM
 
-TODO: add xst
-- [[DWM]]
+Fully described in [[DWM|own note]].
+
+## Dmenu
+
+Fully described in [[Dmenu|own note]].

@@ -510,7 +510,12 @@ git add .
 
 ## Resources
 
-- [The ULTIMATE Git workflow using Neovim's Fugitive, Telescope & Git-Signs!](https://www.youtube.com/watch?v=IyBAuDPzdFY)
+- [ ] [[research/Linux_Community-Submitting_patches]]
+- [ ] [GitHub - conventional-commits/conventionalcommits.org: The conventional commits specification](https://github.com/conventional-commits/conventionalcommits.org)
+
+- [ ] [The ULTIMATE Git workflow using Neovim's Fugitive, Telescope & Git-Signs!](https://www.youtube.com/watch?v=IyBAuDPzdFY)
+- [ ] [pre-commit](https://pre-commit.com/)
+- [ ] [GitHub - jsirex/git-tutorial: Day to day git tutorial]( https://github.com/jsirex/git-tutorial/tree/master)
 - [ ] [Removing sensitive data from a repository - GitHub Docs](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/removing-sensitive-data-from-a-repository)
 - [ ] [ThePrimeagen/git-worktree.nvim](https://github.com/ThePrimeagen/git-worktree.nvim)
 - [ ] [arslanbilal/git-cheat-sheet: :octocat: git and git flow cheat sheet](https://github.com/arslanbilal/git-cheat-sheet)

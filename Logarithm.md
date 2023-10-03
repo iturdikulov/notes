@@ -5,14 +5,15 @@ sr-ease: 270
 sr-interval: 231
 tags:
 - inbox
+- mathematics
 ---
 
 # Logarithm
 
-> Part of [[Mathematics]]. They are related to exponential functions. A
-> logarithm tells what exponent (or power) is needed to make a certain number,
-> so logarithms are the inverse (opposite) of exponentiation. Historically, they
-> were useful in multiplying or dividing large numbers.
+> Part of [[Mathematics|mathematics]]. They are related to exponential
+> functions. A logarithm tells what exponent (or power) is needed to make a
+> certain number, so logarithms are the inverse (opposite) of exponentiation.
+> Historically, they were useful in multiplying or dividing large numbers.
 > - <cite>[Simple English Wikipedia](https://simple.wikipedia.org/wiki/Logarithm)</cite>
 
 > Logarithms are the inverse operation of exponentiation. We can use logarithms
@@ -28,7 +29,7 @@ describe it in simple words.
 - How many times need to divide **2** to get 1 as result
   $1024 \div 2 \div 2 \div 2 \div 2 \div 2 \div 2 \div 2 \div 2 \div 2 \div 2 \div 2 = 1$. So answer is 10.
 
-## TODO
+## Resources
 
-- [ ] logXn log2n https://www.mathsisfun.com/algebra/logarithms.html
 - [ ] How logarithms interconnect with powers and exponents?
+- [ ] [Introduction to Logarithms](https://www.mathsisfun.com/algebra/logarithms.html)

@@ -23,7 +23,7 @@ multiple branches as features tree, if your decision was incorrect, you can
 easily revert you changes. It's also useful for reviewing your changes and
 collaborate.
 
-In [[Git_tips]] I store various flashcards, how to use git (sort of
+In [[Git_tips|my git tips]] I store various flashcards, how to use git (sort of
 cheat sheet).
 
 Additional details can be found in @ProGitChacon2022 book. You
@@ -38,7 +38,6 @@ git config --global user.email "user@domain.tld"
 
 ## Resources
 
-- [ ] [pre-commit](https://pre-commit.com/)
 - [[research/Chacon_and_Ben-Pro_Git|Pro Git]]
 - [Git - gittutorial Documentation](https://git-scm.com/docs/gittutorial)
 - [[Diff]]

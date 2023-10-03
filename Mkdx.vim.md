@@ -12,7 +12,11 @@ tags:
 # mkdx.vim
 
 > mkdx.vim is a Markdown plugin that aims to reduce the time you spend
-> formatting your markdown documents
+> formatting your [[Markdown|markdown]] documents.\
+> — <cite>[GitHub](https://github.com/SidOfc/mkdx)</cite>
+
+Not use it's right now, I think it's too complicated for me, maybe in the
+future. TODO: try it again.
 
 ## Notes
 
@@ -71,6 +75,3 @@ Generate or update TOC (you can also use details markup)::`<leader>i`
 
 Open TOC in quickfix window (you can use `:cn` to navigate)::`<leader>I`
 
-## To Do
-
-- [ ] check https://github.com/SidOfc/mkdx

@@ -49,6 +49,4 @@ or globally (`:h telekasten.link_notation`). Examples:
 - Image previews, via `catimg`, `viu`, or extension
 - Calendar support (`c`), but I prefer to use [[Taskwarrior]] and [[Khal]]
 
-## TODO
-
-- [ ] https://github.com/epwalsh/obsidian.nvim#navigate-to-the-current-line-when-using-obsidianopen
+## TODO: Plugins

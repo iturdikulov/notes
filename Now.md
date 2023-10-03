@@ -10,6 +10,7 @@ My current focus is on following things, order is not important. All with help
 of [[Spaced_repetition|spaced repetition]], [[SQ3R_method|Sq3R]],
 [[Zettelkasten|zettelkasten]] and [[Education|education]].
 
+0. [[My_pet_projects|Pet projects]]
 1. Business automation project (do for living)
 2. [[research/Python_Community-Python_Tutorial]], to learn core of [[Python]]
 3. [[research/Šorn-Comprehensive_python_cheatsheet|Python cheatsheet]], to learn

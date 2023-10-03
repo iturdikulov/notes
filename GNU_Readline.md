@@ -114,3 +114,8 @@ current line.
 ## TODO
 
 - [ ] sync with zsh/vi/neovim/ssh host `h rsi`
+
+## Resources
+
+- [GNU Readline Library](https://tiswww.case.edu/php/chet/readline/readline.html)
+

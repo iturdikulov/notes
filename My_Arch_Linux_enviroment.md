@@ -1,6 +1,6 @@
 ---
 date: 2023-03-13
-sr-due: 2024-03-16
+sr-due: 2025-03-16
 sr-ease: 250
 sr-interval: 3
 tags:
@@ -9,8 +9,6 @@ tags:
 ---
 
 # My Arch Linux environment
-
-[Improving performance - ArchWiki](https://wiki.archlinux.org/title/improving_performance)
 
 > Arch Linux is an independently developed, x86-64 general-purpose GNU/Linux
 > distribution that strives to provide the latest stable versions of most
@@ -50,9 +48,7 @@ network settings.
 
 # 0. Prepare environment
 
-## Download distributive and verify checksum
-
-<https://archlinux.org/download/>
+## [Download](https://archlinux.org/download/) distributive and verify checksum
 
 ```sh
 curl -O "..." # I recommed download iso directli into USB drive (ventoy)
@@ -516,28 +512,7 @@ df
 
 ```
 
-# Useful Links
-
--   <https://wiki.archlinux.org/title/System_maintenance>
--   <https://wiki.archlinux.org/title/improving_performance>
--   <https://wiki.archlinux.org/title/General_recommendations>
-
-# Sources
-
--   <https://wiki.archlinux.org/title/Frequently_asked_questions>
--   <https://wiki.archlinux.org/title/installation_guide>
--   <https://wiki.archlinux.org/title/Install_Arch_Linux_via_SSH>
--   <https://wiki.gentoo.org/wiki/Btrfs/Native_System_Root_Guide#Partitioning>
--   <https://wiki.archlinux.org/title/btrfs#Compression>
--   <https://gist.github.com/Th3Whit3Wolf/2f24b29183be7f8e9c0b05115aefb693>
--   <https://gist.github.com/broedli/5604637d5855bef68f3e#72-bootloader-grub2-install>
-
-yadm anaconda
-<https://wiki.archlinux.org/index.php/Uniform_look_for_Qt_and_GTK_applications>
-<https://wiki.archlinux.org/index.php/GTK+#Themes>
-<https://wiki.archlinux.org/index.php/qt#Appearance>
-
-<https://lukesmith.xyz/programs/ock> surf, ungoogled-chrome core & tools
+---
 
 1.  Network
 
@@ -555,81 +530,9 @@ yadm anaconda
     fc-cache -v
     ```
 
-3.  Ansible install <https://github.com/inomoz/inomoz-quickstart>
+3.  Ansible install [GitHub - Inom-Turdikulov/inomoz-quickstart](https://github.com/inomoz/inomoz-quickstart)
 
-# What to do on a failed disk (btrfs)
-
-<https://superuser.com/questions/1087787/linux-btrfs-convert-to-single-with-failed-drive#>:\~:text=Begin%20a%20rebalancing%20operation%20with,and%20size%20of%20your%20array.
-Do this in arch live-iso.
-
-Convert Btrfs raid1 to single Btrfs
-
-```sh
-# Disable auto-mounting btrfs array in /etc/fstab, reboot
-DISK_DEVICE=/dev/sd[x]  # change to your disk name
-MOUNT_POINT=/mountpoint # don't use spaces here
-
-# Make disk inaccessible to the kernel
-# echo 1 | sudo tee /sys/block/sd[x]/device/delete
-
-# Mount your array, with -o degraded mode.
-mount -o degraded "$DISK_DEVICE"2 "$MOUNTPOINT"2  # 2 is disk & mountpoint postfix /dev/sdb2 /mnt/sdb2
-mount -o degraded "$DISK_DEVICE"3 "$MOUNTPOINT"3  # 3 is disk & mountpoint postfix /dev/sdb3 /mnt/sdb3
-
-# if you have mount issues, try this
-btrfs rescue zero-log /dev/<devicename>
-
-# Begin a rebalancing operation
-btrfs balance start -f -mconvert=single -dconvert=single "$MOUNTPOINT"2
-btrfs balance start -f -mconvert=single -dconvert=single "$MOUNTPOINT"3
-
-# Remove the 'missing' faulty device.
-btrfs device remove missing "$MOUNTPOINT"2
-btrfs device remove missing "$MOUNTPOINT"3
-
-# Restore metadata redundancy
-btrfs balance start -mconvert=dup "$MOUNTPOINT"2
-btrfs balance start -mconvert=dup "$MOUNTPOINT"3
-
-# Now check that it has worked
-btrfs fi show
-btrfs fi usage
-```
-
-<https://btrfs.wiki.kernel.org/index.php/Using_Btrfs_with_Multiple_Devices>
-
-We then shut down the system, plugged the replacement disk in (actually
-the disk we had earlier ruined by double degraded booting, after wiping
-the BTRFS partition), booted and then did the usual dance to turn the
-now-single BTRFS into a RAID1 again.
-
-Restore gpt partiton from backup to new drive first (partition~table~),
-and recommended restore EFI partition too. Instructions above.
-
-```sh
-# add multiple devices
-btrfs device add /dev/sd[x] /boot
-btrfs device add /dev/sd[x] /
-
-# convert to raid1
-btrfs balance start -dconvert=raid1 -mconvert=raid1 /boot
-btrfs balance start -dconvert=raid1 -mconvert=raid1 /
-
-# Now check that it has worked
-btrfs fi show
-btrfs filesystem df /
-```
-
-As a result, we had a RAID1 again. If you wonder why we did not use
-Btrfs replace: We would have to connect the new disk before the second
-reboot, which is not always practical. With the method above, once we
-have rebalanced the file system to a single one, we can reboot as often
-as we like to get the new drive online.
-
-Alternative
-<https://btrfs.wiki.kernel.org/index.php/Using_Btrfs_with_Multiple_Devices#Using_btrfs_replace>
-
-# Enable SSH access (sshd) after installation
+## Enable SSH access (sshd) after installation
 
 ```sh
 # edit /etc/ssh/sshd_config
@@ -643,31 +546,20 @@ sudo systemctl enable --now sshd
 ip a|grep enp
 ```
 
-TODO:
-<https://www.cyberciti.biz/faq/linux-backup-restore-a-partition-table-with-sfdisk-command/>
-<https://wiki.archlinux.org/title/System_time#Time_synchronization>
+## Resources
 
-# systemd-timesyncd
-
-<https://blog.programs74.ru/how-to-use-systemd-timesyncd/>
-
-# xdg project dir
-
-# [TODO]{.todo .TODO} zram-generator {#zram-generator}
-
-<https://aur.archlinux.org/cgit/aur.git/tree/zram-generator.conf?h=zram-generator-defaults>
-<https://github.com/systemd/zram-generator>
-
-Install zram-generator using one of the methods listed above. Create a
-zram-generator.conf config file. Run systemctl daemon-reload to create
-new device units. Run systemctl start /dev/zram0 (adjust the name as
-appropriate to match the config). Call zramctl or swapon to confirm that
-the device has been created and is in use. Once installed and
-configured, the generator will be invoked by systemd early at boot,
-there is no need to do anything else.
-
-## Additional resources
-
-- https://github.com/systemd/zram-generator
-
-- TODO: check ansible scrips?
+- [[Btrfs]]
+- [Improving performance - ArchWiki](https://wiki.archlinux.org/title/improving_performance)
+- [System maintenance - ArchWiki](https://wiki.archlinux.org/title/System_maintenance)
+- [General recommendations - ArchWiki](https://wiki.archlinux.org/title/General_recommendations)
+- [Frequently asked questions - ArchWiki](https://wiki.archlinux.org/title/Frequently_asked_questions)
+- [Installation guide - ArchWiki](https://wiki.archlinux.org/title/installation_guide)
+- [Install Arch Linux via SSH - ArchWiki](https://wiki.archlinux.org/title/Install_Arch_Linux_via_SSH)
+- [My install instruction for a secure Arch Linux (sway) laptop workstation  · GitHub](https://gist.github.com/Th3Whit3Wolf/2f24b29183be7f8e9c0b05115aefb693)
+- [ ARCH - install uefi on dm-crypt btrfs · GitHub](https://gist.github.com/broedli/5604637d5855bef68f3e#72-bootloader-grub2-install)
+- [Uniform look for Qt and GTK applications - ArchWiki](https://wiki.archlinux.org/index.php/Uniform_look_for_Qt_and_GTK_applications)
+- [GTK - ArchWiki](https://wiki.archlinux.org/index.php/GTK+#Themes)
+- [Qt - ArchWiki](https://wiki.archlinux.org/index.php/qt#Appearance)
+- [System time - ArchWiki](https://wiki.archlinux.org/title/System_time#Time_synchronization)
+- [Использование systemd-timesyncd для синхронизации времени в Debian/Ubuntu](https://blog.programs74.ru/how-to-use-systemd-timesyncd/)
+- [GitHub - systemd/zram-generator: Systemd unit generator for zram devices](https://github.com/systemd/zram-generator)

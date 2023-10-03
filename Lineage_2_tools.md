@@ -83,19 +83,16 @@ Kill game guard (high-five), [method](https://i.imgur.com/tQswxD4.png)
 
 Requirements:
 - xpeviewer
-- https://github.com/WerWolv/ImHex/releases
-- hex editor (I use <https://github.com/RaafatTurki/hex.nvim>)
+- [Releases · WerWolv/ImHex](https://github.com/WerWolv/ImHex/releases)
+- hex editor (I use [GitHub - RaafatTurki/hex.nvim: hex editing done right](https://github.com/RaafatTurki/hex.nvim)
 
 1. Open in РЕ Editor core.dll (system\core.dll)
 2. Go to exports → `?GL2UseGameGuard@@3HA` (`046c`)
 3. Go to hex and get offset, in my case: `000e0db4`
 4. Open in hex editor core.dll and go to offset
 
-http://l2maxi.ru/java/faq/1697-manual-redaktirovanie-modeley-ukx-v-lineagenormalnyy.html
-https://maxcheaters.com/topic/240179-collection-l2-shares-updated-07042023google-drive/
-https://www.youtube.com/watch?v=IMMynGIoSR0 - effect
-
 ## L2Editor
+
 Supported files: u, uax, ukx, unr, usx, utx
 How to use Compiled:
 1. Extract L2Editor-Compiled.zip to your Lineage II folder.
@@ -120,7 +117,8 @@ Running on the original LineageEffect, LineageEffect_br, LineageWarrior from Sal
 Problems and issues are still enough but I will continue to work on the availability of free time.
 
 If you are interested in further development of the project, you can create issues:
-https://bitbucket.org/lordofdest/l2editor/issues
+[L2Editor issues](https://bitbucket.org/lordofdest/l2editor/issues).
+
 It is desirable with screenshots, video or any info that will help to quickly understand the problem.
 
 If you are interested in the source code of this editor, you can contact with me. The options can be as follows: Exchange or simply handing over to people with a normal reputation on the forum.
@@ -150,72 +148,9 @@ Maybe in future I try to share Interlude version of this Editor after fixing a l
 P.S.S
 Have a nice day.
 
-
-Edit 26/02/2020 https://drive.google.com/file/d/1qCVqTfuZe_NQug8a2DhVePdomnN5WqaH/view?usp=sharing
-проект не полностью рабочей версии под версию движка 4.23.0.
-
-## TODO
-
-- [ ] l2j server
-Ueview guide
-- [ ] [Вытаскиваем из Lineage2 текстуры, анимацию и меши](https://www.youtube.com/watch?v=OfoBiWhyrfE)
-- [ ] [Компиляция  u - YouTube](https://www.youtube.com/watch?v=JcDQzCbMNqY)
-- [ ] [Адаптирование Арморов - YouTube](https://www.youtube.com/watch?v=XgQ3INqrXjc)
-- [ ] https://www.youtube.com/watch?v=lXOjLTmL9nA
-
-
-https://forum.zone-game.info/showthread.php?t=42513&page=2
-
-Lighting
-https://github.com/monocyte-games/ue-lightmap-debugger
-https://forums.epicgames.com/udk/udk-development/level-design-and-creation/291247-i-hate-udk-lightmaps
-https://github.com/rdw-archive/RagnarokFileFormats/blob/master/GND.MD
-https://maxcheaters.com/topic/217389-l2editor/
-https://forum.zone-game.info/showthread.php?t=42513&page=11
-https://michaeljcole.github.io/wiki.unrealengine.com/LightingTroubleshootingGuide/#invalid-lightmap-settings-when-converting-bsp-to-static-mesh
-
-https://www.gildor.org/smf/index.php/topic,7653.0.html wtf?
-https://www.youtube.com/watch?v=YAZ9Wmg4tYo - unreal edit guide
-https://www.gildor.org/smf/index.php/topic,151.0.html - convert unreal to l2
-(static mesh/animations)
-https://www.gildor.org/smf/index.php/topic,2988.30.html - ue4 port
-https://www.youtube.com/watch?v=vLPvUV--yN0 - backface culling in blender
-https://www.youtube.com/watch?v=AKqJ6_l9iik&t=372s
-https://www.youtube.com/watch?v=vBJ4t0ZYSJo
-https://www.youtube.com/watch?v=IioWGDgtX1g
-
-## Sources
-- [ ] https://maxcheaters.com/topic/14091-how-to-make-your-own-model/
-- [ ] https://www.youtube.com/watch?v=UCzqCskoOQI (ueview guide)
-- [ ] https://docs.unrealengine.com/udk/Two/
-- [ ] https://www.gildor.org/downloads
-- [ ] http://rootware.ru/
-- [ ] https://github.com/acmi
-- [ ] https://www.acordero.org/projects/
-- [ ] https://www.youtube.com/@KonstantinNosov/videos
-- [ ] https://l2crypt.com/l2-tools/
-- [ ] https://forummaxi.ru/tutorials/category/6-%25d1%2580%25d0%25b0%25d0%25b1%25d0%25be%25d1%2582%25d0%25b0-%25d1%2581-%25d0%25ba%25d0%25bb%25d0%25b8%25d0%25b5%25d0%25bd%25d1%2582%25d0%25be%25d0%25bc/
-- [ ] https://cytologist11.rssing.com/chan-6721886/article5822-live.html
-- [ ] http://www.lineage2media.com/glowmodificationlineage2.html
-- [ ] https://forummaxi.ru/topic/79928-%D1%8D%D0%BA%D1%81%D0%BF%D0%BE%D1%80%D1%82-l2-3ds-max-%D1%8D%D1%84%D1%84%D0%B5%D0%BA%D1%82%D1%8B/
-- [ ] https://maxcheaters.com/topic/202062-l2-ultimate-collection/
-- [ ] http://rootware.ru/wotgreal-package-exporter/
-- [ ] https://forum.zone-game.info/showthread.php?t=27688
-- [ ] https://www.cuzus.org/forums/showthread.php?tid=2382&pid=24054#pid24054
-- [ ] https://www.cuzus.org/forums/showthread.php?tid=3319
-- [ ] https://cytologist11.rssing.com/chan-6721886/article5822-live.html
-
-## Extraction
-https://github.com/Bigcheese/L2MapExtract/blob/master/unreal_package.bt
-
-
-Unreal Lightmap... fix
-https://www.youtube.com/watch?v=kRmyzF6A10U
-
-
 ## Notes
+
 l2editor
-https://maxcheaters.com/topic/217389-l2editor/
 
 First version can open various maps, second save them with lighting
 
@@ -318,4 +253,54 @@ with mesh names, like `ostrich`
 
 ## Resources
 
+- [L2Editor - Страница 2 - Форум администраторов игровых серверов](https://forum.zone-game.info/showthread.php?t=42513&page=2)
+- [L2Editor - Client Development Discussion - MaxCheaters.com | Lineage 2 Development Marketplace Bots and Cheats](https://maxcheaters.com/topic/217389-l2editor/)
+
+- [ ] l2j server Ueview guide
+- [ ] [Вытаскиваем из Lineage2 текстуры, анимацию и меши](https://www.youtube.com/watch?v=OfoBiWhyrfE)
+- [ ] [Компиляция  u - YouTube](https://www.youtube.com/watch?v=JcDQzCbMNqY)
+- [ ] [Адаптирование Арморов - YouTube](https://www.youtube.com/watch?v=XgQ3INqrXjc)
+- [ ] [Экспорт 3D-моделей из игр на UE в Blender - YouTube](https://www.youtube.com/watch?v=lXOjLTmL9nA)
+- [ ] [How To Make Your Own Model - Client Development Discussion - MaxCheaters.com | Lineage 2 Development Marketplace Bots and Cheats](https://maxcheaters.com/topic/14091-how-to-make-your-own-model/)
+- [ ] [The Unreal Engine Asset Swiss Army Knife -- UE Viewer - YouTube](https://www.youtube.com/watch?v=UCzqCskoOQI )
+- [ ] [ UDK - Two - WebHome    ](https://docs.unrealengine.com/udk/Two/)
+
+- [ ] [UE tools, etract, view | Gildor's Homepage](https://www.gildor.org/downloads)
+- [ ] [Konstantin Nosov, UE viewer guides - YouTube](https://www.youtube.com/@KonstantinNosov/videos)
+
+- [ ] [L2 tools, Rootware Dev | PHP, C#, Java Develop and Useful Information](http://rootware.ru/)
+- [ ] [acmi tools (Aleksey Sazonov) · GitHub](https://github.com/acmi)
+- [ ] [Antonio Cordero tools](https://www.acordero.org/projects/)
+- [ ] [L2 Tools | L2 Programs - L2Crypt](https://l2crypt.com/l2-tools/)
+- [ ] [Работа с клиентом - ForumMaxi - Сообщество администраторов онлайн игр](https://forummaxi.ru/tutorials/category/6-%25d1%2580%25d0%25b0%25d0%25b1%25d0%25be%25d1%2582%25d0%25b0-%25d1%2581-%25d0%25ba%25d0%25bb%25d0%25b8%25d0%25b5%25d0%25bd%25d1%2582%25d0%25be%25d0%25bc/)
+- [ ] [Weapongrp вопросики](https://cytologist11.rssing.com/chan-6721886/article5822-live.html)
+- [ ] [Lineage 2 Media - Modify Glow Effects in Lineage 2 Easy](http://www.lineage2media.com/glowmodificationlineage2.html)
+- [ ] [Экспорт l2 - 3ds max эффекты - Обсуждения - ForumMaxi - Сообщество администраторов онлайн игр](https://forummaxi.ru/topic/79928-%D1%8D%D0%BA%D1%81%D0%BF%D0%BE%D1%80%D1%82-l2-3ds-max-%D1%8D%D1%84%D1%84%D0%B5%D0%BA%D1%82%D1%8B/)
+- [ ] [L2 Ultimate Collection - Marketplace \[L2Packs &amp; Files\] - MaxCheaters.com | Lineage 2 Development Marketplace Bots and Cheats](https://maxcheaters.com/topic/202062-l2-ultimate-collection/)
+- [ ] [WOTgreal Package Exporter | Rootware Dev](http://rootware.ru/wotgreal-package-exporter/)
+- [ ] [ Lineageeffect.u - Форум администраторов игровых серверов](https://forum.zone-game.info/showthread.php?t=27688)
+- [ ] [Editing .u files](https://www.cuzus.org/forums/showthread.php?tid=2382&pid=24054#pid24054)
+- [ ] [Компиляция .u файлов](https://www.cuzus.org/forums/showthread.php?tid=3319)
+
+### Lighting & Extraction
+
+- [GitHub - monocyte-games/ue-lightmap-debugger: A lightmap debugger for Unreal Engine 4. Easily view the lightmap and lightmap UVs of level actors.](https://github.com/monocyte-games/ue-lightmap-debugger)
+- [UDK Forums Update - Legacy / UDK Content Creation and Design - Epic Developer Community Forums](https://forums.epicgames.com/udk/udk-development/level-design-and-creation/291247-i-hate-udk-lightmaps)
+- [RagnarokFileFormats/GND.MD at master · rdw-archive/RagnarokFileFormats · GitHub](https://github.com/rdw-archive/RagnarokFileFormats/blob/master/GND.MD)
+- [wiki.unrealengine.com](https://michaeljcole.github.io/wiki.unrealengine.com/LightingTroubleshootingGuide/#invalid-lightmap-settings-when-converting-bsp-to-static-mesh)
+- [Blender to Unreal Lightmap Fix - YouTube](https://www.youtube.com/watch?v=kRmyzF6A10U)
+- [VerthMesh in UC.](https://www.gildor.org/smf/index.php/topic,7653.0.html )
+- [Unreal Editor 2 Tutorial - Building your first room for Unreal Tournament 99 - YouTube](https://www.youtube.com/watch?v=YAZ9Wmg4tYo)
+- [convert unreal mesh to l2](https://www.gildor.org/smf/index.php/topic,151.0.html)
+- [Manual Как собрать модели в UKX файл - YouTube](https://www.youtube.com/watch?v=AKqJ6_l9iik&t=372s)
+- [Manual как редактировать и сохранять текстуры Lineage 2 любых хроник v2 - YouTube](https://www.youtube.com/watch?v=vBJ4t0ZYSJo)
+- [Manual как работать с текстурами Lineage 2 - YouTube](https://www.youtube.com/watch?v=IioWGDgtX1g)
+- [L2MapExtract/unreal_package.bt at master · Bigcheese/L2MapExtract · GitHub](https://github.com/Bigcheese/L2MapExtract/blob/master/unreal_package.bt)
+- [Collection L2 Shares - Client Development Discussion - MaxCheaters.com | Lineage 2 Development Marketplace Bots and Cheats](https://maxcheaters.com/topic/240179-collection-l2-shares-updated-07042023google-drive/)
+- [ukx editing](http://l2maxi.ru/java/faq/1697-manual-redaktirovanie-modeley-ukx-v-lineagenormalnyy.html)
+- [decompilation/compilation Effects Unreal Editor Lineage 2. - YouTube](https://www.youtube.com/watch?v=IMMynGIoSR0)
+- [Lineage 2 on Unreal Engine 4 Work In Progress](https://www.gildor.org/smf/index.php/topic,2988.30.html)
+- [ ] Unreal, lineage 2 [L2.rar - Google Диск](https://drive.google.com/file/d/1qCVqTfuZe_NQug8a2DhVePdomnN5WqaH/view?usp=sharing)
+проект не полностью рабочей версии под версию движка 4.23.0.
 - [ ] [Lineage 2 Wiki | Fandom](https://lineage2.fandom.com/wiki/Lineage_2_Wiki)
+

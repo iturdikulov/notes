@@ -13,7 +13,11 @@ sr-ease: 268
 > Social news website focusing on computer science and entrepreneurship. It is
 > run by the investment fund and startup incubator Y Combinator. In general,
 > content that can be submitted is defined as "anything that gratifies one's
-> intellectual curiosity." --
-> [Hacker News - Wikipedia](https://en.wikipedia.org/wiki/Hacker_News)
+> intellectual curiosity.".\
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Hacker_News)</cite>
 
-RSS of the best news: https://hnrss.org/best. I also added it in my [[Newsboat|RSS reader]].
+I also added Hacker News into my [[Newsboat|RSS reader]].
+
+## Resources
+
+- [Hacker News best RSS feed](https://hnrss.org/best)

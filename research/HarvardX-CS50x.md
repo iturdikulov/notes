@@ -39,15 +39,13 @@ Long intro video with some basics:
 12 Else
 13      Person is not in phone book (end of algorithm)
 ```
-- Scratch programming language
-<https://scratch.mit.edu/projects/editor/?tutorial=getStarted>
+
+- Scratch programming language [Scratch - Imagine, Program, Share](https://scratch.mit.edu/projects/editor/?tutorial=getStarted)
 
 
 ## Week 1
 
-<https://inom-turdikulov-humble-space-train-g65pjqvq7hw4pr.github.dev/>
-<https://manual.cs50.io>
-<https://manual.cs50.io/#cs50.h>
+- [Workspace](https://inom-turdikulov-humble-space-train-g65pjqvq7hw4pr.github.dev/)
 
 Describe V$Code from Micro$oft 😀
 

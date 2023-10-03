@@ -144,12 +144,12 @@ enabling `Mark modified`).
 - [x] black integration, for neovim using `efm` and `vim.lsp.buf.format()`. For
       pycharm using plugin.
 
-- [x] linter integration, https://github.com/astral-sh/ruff-lsp. Added but with
-  zero configuration. n\*
+- [x] linter integration, [GitHub - astral-sh/ruff-lsp: A Language Server Protocol implementation for Ruff.](https://github.com/astral-sh/ruff-lsp)
+      Added but with zero configuration. n\*
 
 ### Rope
 
-- [ ] https://github.com/python-rope/ropevim#keybinding
+- [ ] [GitHub - python-rope/ropevim: vim mode that uses rope library to provide features like python refactorings and code-assists](https://github.com/python-rope/ropevim#keybinding)
 
 | Key               | Command                                                  |
 | ----------------- | -------------------------------------------------------- | --------------------------------- |
@@ -346,9 +346,11 @@ lines
 
 - [ ] 2/5 http://vimcasts.org/blog/2011/05/the-fugitive-series/
 
-- [ ] https://github.com/lewis6991/gitsigns.nvim
+- [-] [GitHub - lewis6991/gitsigns.nvim: Git integration for
+buffers](https://github.com/lewis6991/gitsigns.nvim). Stopped using it, generate
+some errors in my setup, don't really used it.
 
-- [ ] https://www.reddit.com/r/vim/comments/8h044y/comment/dym4eax/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button
+- [ ] [Vim Git Plugins : r/vim](https://www.reddit.com/r/vim/comments/8h044y/comment/dym4eax/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
 
 - [ ] diff branches. Working tree diff.
 
@@ -363,10 +365,9 @@ lines
 
 - [ ] grep in VCS repo history
 
-- [ ] cherry-picking commit
-      https://www.reddit.com/r/neovim/comments/tuhs7u/comment/i35571l/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button
+- [ ] cherry-picking commit [If you could chose only one, would you choose "vim-fugitive" or "lazygit", and why? : r/neovim](      https://www.reddit.com/r/neovim/comments/tuhs7u/comment/i35571l/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
 
-- [ ] https://vi.stackexchange.com/questions/tagged/plugin-fugitive
+- [ ] [Newest 'plugin-fugitive' Questions - Vi and Vim Stack Exchange](https://vi.stackexchange.com/questions/tagged/plugin-fugitive)
 
 - [x] stash the changes::`czz`, require staging changes before
 
@@ -442,13 +443,12 @@ Main file manager
 - [x] toggle DB UI::`<leader>qt`
 - [x] toggle last query info::`<leader>qi` n\*
 - [x] execute query::`<leader>S`
-- [x] https://github.com/kristijanhusak/vim-dadbod-completion
+- [ ] [GitHub - kristijanhusak/vim-dadbod-completion: Database autocompletion powered by https://github.com/tpope/vim-dadbod](https://github.com/kristijanhusak/vim-dadbod-completion)
 - [x] connect and open database console
 - [x] copy all results/row/column::`y[motion]`, `yic` n\*
 
-- [x] https://github.com/kristijanhusak/vim-dadbod-ui/blob/master/doc/dadbod-ui.txt
-- [ ] vim-dadbod-ui https://github.com/kristijanhusak/vim-dadbod-ui#mappings
-      full-featured database client, possible set values, load values from files, query, work with multiple databases
+- [ ] [vim-dadbod-ui/doc/dadbod-ui.txt at master · kristijanhusak/vim-dadbod-ui · GitHub](https://github.com/kristijanhusak/vim-dadbod-ui/blob/master/doc/dadbod-ui.txt)
+- [ ] vim-dadbod-ui [GitHub - kristijanhusak/vim-dadbod-ui: Simple UI for https://github.com/tpope/vim-dadbod](https://github.com/kristijanhusak/vim-dadbod-ui#mappings) full-featured database client, possible set values, load values from files, query, work with multiple databases
 
 ## Vim surround
 
@@ -463,8 +463,8 @@ Main file manager
 ## JS debugging (browser)
 
 - [ ] Probably easily just use chrome built-in debugger/sourcemaps
-- [ ] https://stackoverflow.com/questions/71810002/how-to-configure-the-dap-debugger-under-neovim-for-typescript
-- [ ] https://github.com/mxsdev/nvim-dap-vscode-js/issues/14
+- [x] [How to configure the DAP debugger under neovim for typescript? - Stack Overflow](https://stackoverflow.com/questions/71810002/how-to-configure-the-dap-debugger-under-neovim-for-typescript)
+- [ ] [Break points do not work · Issue #14 · mxsdev/nvim-dap-vscode-js · GitHub](https://github.com/mxsdev/nvim-dap-vscode-js/issues/14)
 
 ## Learn
 
@@ -476,27 +476,22 @@ Main file manager
 
 ## Code style
 
-- [ ] https://peps.python.org/pep-0008/
-
 ## Commit style
-
-- [ ] https://github.com/conventional-commits/conventionalcommits.org
 
 ## CLI tools
 
 ## Automation
 
 - [ ] vim-shell output actions... `:h redir`, `!...|grep`, `r!...`, etc.
-- [ ] https://github.com/tpope/vim-unimpaired
+- [ ] [GitHub - tpope/vim-unimpaired: unimpaired.vim: Pairs of handy bracket mappings](https://github.com/tpope/vim-unimpaired)
 - [ ] new scratch file `:enew`
 - [ ] execute scratch file
 - [ ] execute current file (open externally) leader o or leader O (run using xdg-open)
-- [ ] https://github.com/stevearc/aerial.nvim
-- [ ] https://learnvim.irian.to/basics/fold
-
-
+- [ ] [GitHub - stevearc/aerial.nvim: Neovim plugin for a code outline window](https://github.com/stevearc/aerial.nvim)
+- [ ] [Fold](https://learnvim.irian.to/basics/fold)
 
 ## Custom
+
 replace single quotes to double: `:s/\'\(.*\)\'/\"\1\"`
 
 map specific insert key in specific terminal: CTRL-K CTRL-F1 to get key code,

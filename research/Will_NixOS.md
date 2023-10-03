@@ -13,7 +13,7 @@ directory: ~/Computer/software/Will_NixOS
 
 # Taylor Will series on NixOS
 
-His code repo: https://github.com/wiltaylor/dotfiles/tree/master
+His code repo: [GitHub - wiltaylor/dotfiles: My personal dotfiles](https://github.com/wiltaylor/dotfiles/tree/master)
 
 What is nix?
 - package build system
@@ -43,7 +43,8 @@ My guide to install NixOS described in own note: [[NixOS_pre-install|NixOS pre-i
 
 # Home manager
 
-https://nix-community.github.io/home-manager/index.html#ch-installation
+[Home Manager Manual](https://nix-community.github.io/home-manager/index.html#ch-installation).
+
 I use latest standalone with specific Nixpkgs version. Example:
 ```sh
 $ nix-channel --add https://github.com/nix-community/home-manager/archive/release-23.05.tar.gz home-manager
@@ -55,7 +56,8 @@ $ nix-shell '<home-manager>' -A install
 Use `$ home-manager switch` to apply changes using home manager.
 
 Use `sudo nixos-rebuild switch` to apply NixOS changes.
-https://nixos.wiki/wiki/Nixos-rebuild
+[Nixos-rebuild - NixOS Wiki](https://nixos.wiki/wiki/Nixos-rebuild).
+
 
 You can run test build with `nixos-rebuild test`. More info on `nixos-rebuild
 --help`.
@@ -73,19 +75,6 @@ You can update channel with `nix-channel --update` and then rebuild.
 You can use `-I nixosconfig=/path/to/config` flag with `nixos-rebuild switch`
 and `-f /path/to/config` with `home-manager switch` to specify configuration
 file.
-
-mail config: https://github.com/luisantonioig/nixos-config/blob/master/mail.nix
-
-https://github.com/Inom-Turdikulov/nix_dotfiles
-https://gitlab.com/liketechnik/nixos-files/-/blob/master/profiles/neovim/default.nix#L4
-https://github.com/jordanisaacs/dotfiles
-https://codeberg.org/anriha/nixos-config/src/branch/main/configuration.nix
-https://github.com/Misterio77/nix-starter-configs
-
-Lifesaver, custom DWM!
-https://raw.githubusercontent.com/dev-null-undefined/NixOs/master/modules/generated/nixos/de/dwm.nix
-
-https://www.linux.org.ru/news/linux-general/16881424#comments
 
 ## NixOS and [[Filesystem_Hierarchy_Standard_FHS|FHS]]
 
@@ -509,6 +498,22 @@ You can put in outputs various things:
 по стандартным путям. Чисто симлинками. И внутри этого контейнера может
 запускаться любое стороннее бинарное приложение, например игры в Steam.
 
+## Resources
+
 TODO:
  - follow config guide
  - https://github.com/nix-community/home-manager/issues/2216#issuecomment-917507881
+
+mail config: https://github.com/luisantonioig/nixos-config/blob/master/mail.nix
+
+https://github.com/Inom-Turdikulov/nix_dotfiles
+https://gitlab.com/liketechnik/nixos-files/-/blob/master/profiles/neovim/default.nix#L4
+https://github.com/jordanisaacs/dotfiles
+https://codeberg.org/anriha/nixos-config/src/branch/main/configuration.nix
+https://github.com/Misterio77/nix-starter-configs
+
+Lifesaver, custom DWM!
+https://raw.githubusercontent.com/dev-null-undefined/NixOs/master/modules/generated/nixos/de/dwm.nix
+
+https://www.linux.org.ru/news/linux-general/16881424#comments
+

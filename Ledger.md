@@ -11,16 +11,15 @@ tags:
 # ledger
 
 > Ledger is a powerful, double-entry accounting system that is accessed from the
-> UNIX command-line.
->
-> &mdash; https://www.ledger-cli.org/
+> UNIX command-line.\
+> — <cite>[ledger](https://www.ledger-cli.org/)</cite>
 
-I'm almost not used ledger-cli before. But I want try to use it IRL.
+I'm almost not used ledger-cli before. But I want to try to use it IRL.
 
 Ledger offer double-entry accounting journal, where you track your transactions
-(plain text file). It's use a standart bookkeeping approach.
+(plain text file). It's use a standard bookkeeping approach.
 
-Ledger transaction examle:
+Ledger transaction example:
 
 ```
 2042/02/21 Shopping
@@ -43,7 +42,7 @@ Accounts examples:
 We track the flow of money from one account to another, amount of money figures
 twice, total balance of all accounts is always zero.
 
-## Journal examle
+## Journal example
 
 ```
 ; The opening balance (first transaction) sets up your initial financial state.
@@ -89,9 +88,9 @@ twice, total balance of all accounts is always zero.
 
 ## Quickstart
 
-First install `ledger`, for me it's aviable in ArchLinux community repo.
+First install `ledger`, for me, it's aviable in ArchLinux/NixOS community repo.
 
-Then you need create `journal.txt` file, use examle above.
+Then you need to create `journal.txt` file, use example above.
 
 Then run this commands to quickly understand how it's basicaly working:
 
@@ -107,8 +106,9 @@ $ ledger -f journal.txt register
 $ ledger -f journal.txt
 ```
 
-## Useful links
+## Resources
 
-- https://rolfschr.github.io/gswl-book/latest.html
-- https://www.ledger-cli.org/3.0/doc/ledger3.html
-- https://pig-monkey.com/search.html?q=ledger
+- [ ] [Getting Started With Ledger - August 28, 2019 201f047](https://rolfschr.github.io/gswl-book/latest.html)
+- [ ] [Ledger: Command-Line Accounting](https://www.ledger-cli.org/3.0/doc/ledger3.html)
+- [ ] [pig-monkey.com ledger](https://pig-monkey.com/search.html?q=ledger)
+- [ ] [finance | pig-monkey.com](https://pig-monkey.com/tag/finance/)

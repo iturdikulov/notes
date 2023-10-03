@@ -53,3 +53,6 @@ Mailbox files. In some distributions, these files may be located in the deprecat
 
 /var/opt
 Variable data from add-on packages that are stored in /opt.
+
+
+- [ ] [Backup and restore partition table](https://www.cyberciti.biz/faq/linux-backup-restore-a-partition-table-with-sfdisk-command/)

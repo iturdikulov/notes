@@ -29,8 +29,16 @@ Make something dirty but get experience.
 - [ ] [Intermediate Blender Tutorial Series - YouTube](https://www.youtube.com/playlist?list=PLjEaoINr3zgHJVJF3T3CFUAZ6z11jKg6a)
 - [ ] [How to Learn 3D in 4 weeks (self-taught curriculum) - YouTube](https://www.youtube.com/watch?v=Nj_l6YHMj-c)
 
-## Particles
+## Resources
 
+- [Libraries — Blender Cloud](https://cloud.blender.org/libraries), great source
+  of assets.
+- [ ] [The Complete "Game Development with Blender" Book](https://github.com/mikepan/GameEngineBook)
+- [ ] [BlenderText To 3D AI Generator](https://devbud.gumroad.com/l/Shap-e)
+- [ ] [Animate a Character in 15 Minutes in Blender - YouTube](https://www.youtube.com/watch?v=imbIsNAvUpM)
+- [ ] [GitHub - ichlubna/blenderScripts: Random Python scripts for Blender](https://github.com/ichlubna/blenderScripts)
+- [ ] [Destroy Anything with Particles in Blender - Iridesium - YouTube](https://www.youtube.com/watch?v=mXnp_KIo8q8)
+- [ ] [Use Backface Culling To Make Objects Transparent Based On Perspective - Blender - YouTube](https://www.youtube.com/watch?v=vLPvUV--yN0)
 - [ ] [Easy Caustics in Blender! - YouTube](https://www.youtube.com/watch?v=j17dGVw3_gM)
 - [ ] [Sculpt January 2018 | no 9 | Tool | Blender - YouTube](https://www.youtube.com/watch?v=exAwCkuGHe4)
 - [ ] [Easy God Rays or Sun Rays in Blender - YouTube](https://www.youtube.com/watch?v=MQooOGayOQI)
@@ -48,12 +56,3 @@ Make something dirty but get experience.
 - [ ] [Как сделать пружину](https://www.youtube.com/watch?v=f_tbE0Kn7KM)
 - [ ] [Glass Liquid Simulation Tutorial](https://www.youtube.com/watch?v=V_LEc4r9_a0)
 
-## Resources
-
-- [Libraries — Blender Cloud](https://cloud.blender.org/libraries), great source
-  of assets.
-- [ ] [The Complete "Game Development with Blender" Book](https://github.com/mikepan/GameEngineBook)
-- [ ] [BlenderText To 3D AI Generator](https://devbud.gumroad.com/l/Shap-e)
-- [ ] [Animate a Character in 15 Minutes in Blender - YouTube](https://www.youtube.com/watch?v=imbIsNAvUpM)
-- [ ] [GitHub - ichlubna/blenderScripts: Random Python scripts for Blender](https://github.com/ichlubna/blenderScripts)
-- [ ] [Destroy Anything with Particles in Blender - Iridesium - YouTube](https://www.youtube.com/watch?v=mXnp_KIo8q8)

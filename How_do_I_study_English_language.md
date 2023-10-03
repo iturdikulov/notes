@@ -21,7 +21,7 @@ with Russian in same time (to understand grammar, etc.).
 - [General Writing Introduction - Purdue University](https://owl.purdue.edu/owl/general_writing/index.html)
 - [[Puzzle_English|Puzzle English]]
 - [[English_language_transcription]]
-- engvid - https://www.engvid.com/
+- [engVid](https://www.engvid.com/)
 - [Изучение Английских Слов с помощью параллельных переводов онлайн](https://studyenglishwords.com/)
 - [English Grammar – Your guide to error-free writing](https://www.englishgrammar.org/)
 - [English Grammar Online - free exercises, explanations, vocabulary, dictionary and teaching materials](https://www.ego4u.com/)

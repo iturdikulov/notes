@@ -5,10 +5,11 @@ sr-ease: 290
 sr-interval: 251
 tags:
 - inbox
+- IRL
 ---
 
 # Creamy Mashed Potatoes
 
 - TODO: add more info about potatoes, how to cook them, etc.
-- TODO: https://based.cooking/creamy-mashed-potatoes/
-- TODO: https://en.wikipedia.org/wiki/Mashed_potato
+- [Creamy Mashed Potatoes | Based Cooking](https://based.cooking/creamy-mashed-potatoes/)
+- [Mashed potato - Wikipedia](https://en.wikipedia.org/wiki/Mashed_potato)

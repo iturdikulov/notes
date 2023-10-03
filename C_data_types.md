@@ -9,39 +9,19 @@ tags:
 
 # C data types
 
-```{=org}
-#+filetags: C, data structures, programming
-```
+TODO: need review!
 
-check also <https://www.cplusplus.com/reference/cstdint/>
-<https://en.wikibooks.org/wiki/C_Programming/stdint.h>
+How to use them in `printf` function described in
+[[Printf_format_string|printf format string]].
 
-Data Type Memory (bytes) Range Format Specifier
+Check main types here:
 
-short int 2 -32,768 to 32,767 %hd
+- [ ] [C data types - Wikipedia](https://en.wikipedia.org/wiki/C_data_types#Main_types)
+- [ ] [C and C++ Integer Limits | Microsoft Learn](https://learn.microsoft.com/en-us/cpp/c-language/cpp-integer-limits?view=msvc-170)
 
-unsigned short int 2 0 to 65,535 %hu
+## Resources
 
-unsigned int 4 0 to 4,294,967,295 %u
+- [[Data_type]].
+- [cstdint](https://www.cplusplus.com/reference/cstdint/)
+- [C Programming/stdint.h](https://en.wikibooks.org/wiki/C_Programming/stdint.h)
 
-int 4 -2,147,483,648 to 2,147,483,647 %d
-
-long int 4 -2,147,483,648 to 2,147,483,647 %ld
-
-unsigned long int 4 0 to 4,294,967,295 %lu
-
-long long int 8 -(2^63^) to (2^63^)-1 %lld
-
-unsigned long long int 8 0 to 18,446,744,073,709,551,615 %llu
-
-signed char 1 -128 to 127 %c
-
-unsigned char 1 0 to 255 %c
-
-float 4 %f
-
-double 8 %lf
-
-long double 16 %Lf
-
-Check also [[Data_type]].

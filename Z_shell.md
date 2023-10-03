@@ -9,137 +9,25 @@ tags:
 - software
 ---
 
-```
-bindkey -L
----
-bindkey "^@" set-mark-command # C-@ - set the mark
-bindkey "^A" beginning-of-line
-bindkey "^B" backward-char
-bindkey "^D" delete-char-or-list
-bindkey "^E" end-of-line
-bindkey "^F" forward-char
-bindkey "^G" send-break
-bindkey "^H" backward-delete-char
-bindkey "^I" fzf-completion
-bindkey "^J" accept-line
-bindkey "^K" kill-line
-bindkey "^L" clear-screen
-bindkey "^M" accept-line
-bindkey "^N" down-line-or-history
-bindkey "^O" accept-line-and-down-history
-bindkey "^P" up-line-or-history
-bindkey "^Q" push-line
-bindkey "^R" fzf-history-widget
-bindkey "^S" history-incremental-search-forward
-bindkey "^T" fzf-file-widget
-bindkey "^U" kill-whole-line
-bindkey "^V" quoted-insert
-bindkey "^W" backward-kill-word
-bindkey "^X^B" vi-match-bracket
-bindkey "^X^F" vi-find-next-char
-bindkey "^X^J" vi-join
-bindkey "^X^K" kill-buffer
-bindkey "^X^N" infer-next-history
-bindkey "^X^O" overwrite-mode
-bindkey "^X^V" vi-cmd-mode
-bindkey "^X^X" exchange-point-and-mark
-bindkey "^X*" expand-word
-bindkey "^X=" what-cursor-position
-bindkey "^XG" list-expand
-bindkey "^Xg" list-expand
-bindkey "^Xr" history-incremental-search-backward
-bindkey "^Xs" history-incremental-search-forward
-bindkey "^X^U" undo
-bindkey "^_" undo
-bindkey "^Xu" undo
-bindkey "^Y" autosuggest-accept
-bindkey "^[^D" list-choices
-bindkey "^[^G" send-break
-bindkey "^[^H" backward-kill-word
-bindkey "^[^I" self-insert-unmeta
-bindkey "^[^J" self-insert-unmeta
-bindkey "^[^L" clear-screen
-bindkey "^[^M" self-insert-unmeta
-bindkey "^[^_" copy-prev-word
-bindkey "^[ " expand-history
-bindkey "^[!" expand-history
-bindkey "^[\"" quote-region
-bindkey "^[\$" spell-word
-bindkey "^['" quote-line
-bindkey "^[-" neg-argument
-bindkey "^[." insert-last-word
-bindkey "^[0" digit-argument
-bindkey "^[1" digit-argument
-bindkey "^[2" digit-argument
-bindkey "^[3" digit-argument
-bindkey "^[4" digit-argument
-bindkey "^[5" digit-argument
-bindkey "^[6" digit-argument
-bindkey "^[7" digit-argument
-bindkey "^[8" digit-argument
-bindkey "^[9" digit-argument
-bindkey "^[<" beginning-of-buffer-or-history
-bindkey "^[>" end-of-buffer-or-history
-bindkey "^[?" which-command
-bindkey "^[A" accept-and-hold
-bindkey "^[B" backward-word
-bindkey "^[C" toggle-command
-bindkey "^[D" kill-word
-bindkey "^[F" forward-word
-bindkey "^[G" get-line
-bindkey "^[H" run-help
-bindkey "^[L" down-case-word
-bindkey "^[N" history-search-forward
-bindkey "^[OA" up-line-or-history
-bindkey "^[OB" down-line-or-history
-bindkey "^[OC" forward-char
-bindkey "^[OD" backward-char
-bindkey "^[P" history-search-backward
-bindkey "^[Q" push-line
-bindkey "^[S" spell-word
-bindkey "^[T" transpose-words
-bindkey "^[U" up-case-word
-bindkey "^[W" copy-region-as-kill
-bindkey "^[[1;3C" forward-word
-bindkey "^[[1;3D" backward-word
-bindkey "^[[200~" bracketed-paste
-bindkey "^[[A" up-line-or-history
-bindkey "^[[B" down-line-or-history
-bindkey "^[[C" forward-char
-bindkey "^[[D" backward-char
-bindkey "^[_" insert-last-word
-bindkey "^[a" accept-and-hold
-bindkey "^[b" backward-word
-bindkey "^[c" fzf-cd-widget
-bindkey "^[d" kill-word
-bindkey "^[f" forward-word
-bindkey "^[g" toggle-noglob
-bindkey "^[h" run-help
-bindkey "^[l" down-case-word
-bindkey "^[n" history-search-forward
-bindkey "^[p" history-search-backward
-bindkey "^[q" push-line
-bindkey "^[s" toggle-sudo
-bindkey "^[t" transpose-words
-bindkey "^[u" up-case-word
-bindkey "^[w" copy-region-as-kill
-bindkey "^[x" execute-named-cmd
-bindkey "^[y" yank-pop
-bindkey "^[z" execute-last-named-cmd
-bindkey "^[|" vi-goto-column
-bindkey "^[^?" backward-kill-word
-bindkey -R " "-"~" self-insert
-bindkey "^?" backward-delete-char
-bindkey -R "\M-^@"-"\M-^?" self-insert
-```
-
 # Z shell (zsh)
 
-- [ ] https://copperlight.github.io/shell/zsh-keyboard-shortcuts/
+> The Z shell (Zsh) is a [[Unix]] shell that can be used as an interactive login
+> shell and as a command interpreter for shell scripting. Zsh is an extended
+> Bourne shell with many improvements, including some features of
+> [[Bash_Unix_Shell|Bash]], ksh, and tcsh.
+>
+> Zsh was created by Paul Falstad in 1990 while he was a student at Princeton
+> University. It combines features from both ksh and tcsh, offering
+> functionality such as programmable command-line completion, extended file
+> globbing, improved variable/array handling, and themeable prompts.\
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Z_shell)</cite>
 
 ## Keybindings
 
 I think it's very similar to [[GNU_Readline]].
+
+List current shortcuts
+`sh bindkey -L`
 
 ## Moving
 
@@ -229,11 +117,6 @@ kill %n
 Example:
 
 kill %1
-
-## References
-http://cnswww.cns.cwru.edu/php/chet/readline/readline.html
-https://github.com/fliptheweb/bash-shortcuts-cheat-sheet/blob/master/README.md
-
 
 Use `ESC` or `CTRL-[` to enter `Normal mode`.
 
@@ -397,11 +280,6 @@ For example:
 - ...
 
 
-## Resourecs
-
-- https://github.com/alexanderepstein/Bash-Snippets
-
-
 ## Kill process by pattern
 
 Use pkill -f, which matches the pattern for any part of the command line
@@ -412,22 +290,20 @@ Just in case it doesn\'t work, try to use this one as well:
 
 `pkill -9 -f my_pattern`
 
-<https://stackoverflow.com/questions/8987037/how-to-kill-all-processes-with-a-given-partial-name>
-
-* TODO
-  https://github.com/alexanderepstein/Bash-Snippets
+[Source](https://stackoverflow.com/questions/8987037/how-to-kill-all-processes-with-a-given-partial-name)
 
 * Kill process by pattern
 
 Use pkill -f, which matches the pattern for any part of the command line
 
-~pkill -f my_pattern~
+`pkill -f my_pattern`
 
 Just in case it doesn't work, try to use this one as well:
 
-~pkill -9 -f my_pattern~
+TODO: doesn't work in z-shell
+`pkill -9 -f my_pattern`
 
-https://stackoverflow.com/questions/8987037/how-to-kill-all-processes-with-a-given-partial-name
+[Source](https://stackoverflow.com/questions/8987037/how-to-kill-all-processes-with-a-given-partial-name)
 
 ## Search current line in ZSH (vi mode)
 
@@ -445,4 +321,5 @@ and then repeat the search in the same direction.
 
 ## Resources
 
+- [ ] [Z Shell Keyboard Shortcuts - Copperlight Writes](https://copperlight.github.io/shell/zsh-keyboard-shortcuts/)
 - [ ] [config_manager/xdg_config/zsh/.zshrc at master · tjdevries/config_manager · GitHub](https://github.com/tjdevries/config_manager/blob/master/xdg_config/zsh/.zshrc)

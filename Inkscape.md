@@ -34,4 +34,4 @@ _[Inkscape Keyboard Layout v0.48.4 - Openclipart](https://openclipart.org/detail
 - [ ] Interesting article how to integrate Inkscape with latex:
   [How I draw figures for my mathematical lecture notes using Inkscape](https://castel.dev/post/lecture-notes-2/).
 - [ ] inkscape-open-symbols\* - Symbol libraries are sets of SVG symbols located in
-  one SVG document, <https://github.com/PanderMusubi/inkscape-open-symbols>
+  one SVG document, [PanderMusubi/inkscape-open-symbols: Open source SVG symbol sets that can be used as Inkscape symbols](https://github.com/PanderMusubi/inkscape-open-symbols)

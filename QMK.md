@@ -17,8 +17,6 @@ directory: ~/Computer/hardware/QMK
 > otherwise - and to provide helpful, encouraging, and kind support and feedback
 > for people with any software development experience.
 
-- QMK official site: https://qmk.fm/
-- My fork of QMK: https://github.com/inomoz/qmk_firmware
 
 I use QMK on my keyboard (KBD75 rev2). I'have done some basic customizations to
 keymap. I use Colemak-DH layout, but on system level (because I use also Russian
@@ -93,7 +91,9 @@ my case I need to hold `ESC` and plug USB cable.
 
 ## Resources
 
+- [QMK Firmware - An open source firmware for AVR and ARM based keyboards](https://qmk.fm/)
 - [QMK Configurator](https://config.qmk.fm/#/kbdfans/kbd75/rev2/LAYOUT)
 - [QMK JSON converter](https://jhelvy.shinyapps.io/qmkjsonconverter/)
+- [Inom-Turdikulov/qmk_firmware: Open-source keyboard firmware for Atmel AVR and Arm USB families](https://github.com/inomoz/qmk_firmware)
 - [x] [My current keyboard layout :: Eli Rodríguez Pérez — Personal blog](https://eli-rodriguez.com/en/posts/my-current-keyboard-layout/)
 - [ ] [QMK Basics – Thomas Baart](https://thomasbaart.nl/category/mechanical-keyboards/firmware/qmk/qmk-basics/)

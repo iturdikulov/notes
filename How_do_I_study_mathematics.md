@@ -16,7 +16,7 @@ List of resources and tips to learn [[Mathematics]]
 - [ ] [Projective Geometric Algebra](https://projectivegeometricalgebra.org/),
 also related to [[Computer_graphics]].
 - [ ] [Зачем нужны синусы и косинусы? - YouTube](https://youtu.be/hwpWTkdh-BA)
-- [ ] [Математическая продлёнка. Квадратные уравнения во всей красе]( https://habr.com/ru/post/714660/)
+- [ ] [Математическая продлёнка. Квадратные уравнения во всей красе](https://habr.com/ru/post/714660/)
 - [ ] [Число Грэма Грехема(xkcdoff) - YouTube](https://www.youtube.com/watch?v=kOg-zDjA-0A)
 - [ ] [Math Skills: How to find Factorial, Permutation and Combination (Choose) - YouTube](https://www.youtube.com/watch?v=8RRo6Ti9d0U)
 - [ ] [Задачи тысячелетия - YouTube](https://www.youtube.com/playlist?list=PLzbL7FoiqpKboohozmqPpJXzO5m9iwHD-)

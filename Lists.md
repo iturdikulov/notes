@@ -28,7 +28,7 @@ tags:
    1. very organized
    2. easy to follow
 
-I use lists a lot, and good to know some [[English_language|english]] grammar
+I use lists a lot, and good to know some [[English_language|English]] grammar
 rules to follow.
 
 > ## Punctuation in bullet lists
@@ -66,7 +66,3 @@ Main idea is use consistent punctuation.
 
 Use ";" in bullet-list items probably not good idea, because list item can use
 it as separator.
-
-## Resources
-
-- https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Lists

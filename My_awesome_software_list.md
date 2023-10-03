@@ -57,7 +57,7 @@ TODO: restructure, instead more_info, use linking to notes!
 
 - [locust](https://locust.io/) - An open source load testing tool
 - [jq](https://stedolan.github.io/jq/) - jq is like sed for JSON data,
-  <https://stedolan.github.io/jq/tutorial/>
+  [Tutorial](https://stedolan.github.io/jq/tutorial/)
 - [xsv](https://github.com/BurntSushi/xsv) - indexing, slicing, analyzing,
   splitting and joining CSV files
 
@@ -350,14 +350,17 @@ TODO: actualize this list
 - [MiniGlome/Archive.org-Downloader: Python3 script to download archive.org books in PDF format](https://github.com/MiniGlome/Archive.org-Downloader)
 
 ## TODO:
+
 - `ipcalc` - simple IP network calculator
 - `faketime` - manipulate the system time for a given command
 - `antimicro` - bind keyboard and mouse actions to your gamepad or joystick
-https://github.com/AntiMicroX/antimicrox-profiles/tree/master/applications
+  [antimicrox-profiles/applications](https://github.com/AntiMicroX/antimicrox-profiles/tree/master/applications)
+
 - REVIEW this list, add ncspot, termdown, etc (check nixos modules)
 
 ## Resources
 
+- [ ] [Programs and Equipment I Use | Luke's Webpage](https://lukesmith.xyz/programs/)
 - [ ] [List of applications - ArchWiki](https://wiki.archlinux.org/title/list_of_applications)
 - [ ] [erikw/vim-keybindings-everywhere-the-ultimate-list](https://github.com/erikw/vim-keybindings-everywhere-the-ultimate-list)
 - [ ] [ibraheemdev/modern-unix: A collection of modern/faster/saner alternatives to common unix commands.](https://github.com/ibraheemdev/modern-unix)

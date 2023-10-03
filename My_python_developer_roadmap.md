@@ -15,6 +15,7 @@ tags:
 TOOD: sync research/core notes (duplicates), at least tutorial and standard library
 - [[research/Python_Community-Python_Tutorial|Python tutorial]]
 
+- [ ] [PEP 8 – Style Guide for Python Code](https://peps.python.org/pep-0008/)
 - [ ] [Python Monorepo: an Example. Part 1: Structure and Tooling - Tweag](https://www.tweag.io/blog/2023-04-04-python-monorepo-1/)
 - [ ] [Writing The Matrix in Python: easy guide / Habr](https://habr.com/en/articles/720452/)
 - [ ] [PEP 8 – Style Guide for Python Code | peps.python.org](https://peps.python.org/pep-0008/)
