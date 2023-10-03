@@ -246,15 +246,15 @@ chmod 700 ~/.gnupg
 
 ### Key servers list:
 
-- https://keyserver.ubuntu.com/. Ubuntu keyserver: federated, no verification,
-keys cannot be deleted.
-- https://keys.mailvelope.com/. Mailvelope keyserver: central, verification of
-email IDs, keys can be deleted.
-- https://keys.openpgp.org/. central, verification of email IDs, keys can be
-deleted, no third-party signatures (i.e. no Web of Trust support).
-- keybase.io
+- [OpenPGP Keyserver](https://keyserver.ubuntu.com/). Ubuntu keyserver:
+federated, no verification, keys cannot be deleted.
+- [Mailvelope Key Server](https://keys.mailvelope.com/) Mailvelope keyserver:
+central, verification of email IDs, keys can be deleted.
+- [keys.openpgp.org](https://keys.openpgp.org/). Central, verification of email
+IDs, keys can be deleted, no third-party signatures (i.e. no Web of Trust
+support).
 
-More: https://en.wikipedia.org/wiki/Key_server_(cryptographic)#Keyserver_examples
+More: [Key server (cryptographic) - Wikipedia](https://en.wikipedia.org/wiki/Key_server_(cryptographic)#Keyserver_examples).
 
 ## How to import an SSH ed25519 key to GPG?
 
@@ -294,6 +294,7 @@ NOTE: that if you are asked for a new password, it is recommended that you use t
 
 ## Resources
 
+- [Keybase is secure messaging and file-sharing.](keybase.io)
 - [An abridged guide to using ed25519 PGP keys with GnuPG and SSH | MuSigma](https://musigma.blog/2021/05/09/gpg-ssh-ed25519.html)
 - [GPG Keys - Create & Use :: thanoskoutr — Blog](https://thanoskoutr.com/posts/gpg-keys-configure/)
 - [GnuPG - ArchWiki](https://wiki.archlinux.org/title/GnuPG)

@@ -1,5 +1,5 @@
 ---
-canonicalURL: https://devdocs.io/
+external: https://devdocs.io/
 date: 2023-03-12
 sr-due: 2026-02-03
 sr-ease: 308

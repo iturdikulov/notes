@@ -1,6 +1,6 @@
 ---
 date: 2022-12-29
-sr-due: 2023-12-23
+sr-due: 2022-12-23
 sr-ease: 270
 sr-interval: 220
 tags:
@@ -16,13 +16,15 @@ impact on performance of your program.
 Data itself is just basically numbers and strings (in computers all data finally
 stored as [[Bit]] sequences).
 
-Basic data structure is [[Array]].
+Basic data structure is [[Array|array]].
 
-- <https://en.wikipedia.org/wiki/Fizz_buzz>
-- imperative and functional versions
-- greedy
-- dynamic strategies
-- directed and undirected graphs
+Need review:
+
+- [ ] [Fizz buzz - Wikipedia](https://en.wikipedia.org/wiki/Fizz_buzz)
+- [ ] imperative and functional versions
+- [ ] greedy
+- [ ] dynamic strategies
+- [ ] directed and undirected graphs
 
 Data structures refer to ==how== data is organized. But data organization can be
 highly impact on **performance**. Your program can run fast and efficient or

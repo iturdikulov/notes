@@ -25,7 +25,6 @@ Key features for me:
 - extensible
 - portals (preview multiple places of document in same time)
 
-TODO: review https://ahrm.github.io/jekyll/update/2022/07/05/implementing-a-screen-reader-for-sioyek.html
 
 ## Shortcuts
 
@@ -70,5 +69,6 @@ TODO: complete this list
 - [Official documentation](https://sioyek-documentation.readthedocs.io/en/latest/)
 - [GitHub repository](https://github.com/ahrm/sioyek)
 - [GitHub extensions repository](https://github.com/ahrm/sioyek-python-extensions)
+- [ ] [Implementing text to speech for sioyek PDF viewer | ahrm’s blog](https://ahrm.github.io/jekyll/update/2022/07/05/implementing-a-screen-reader-for-sioyek.html)
 - [ ] [Sioyek - Feature Overview](https://www.youtube.com/watch?v=yTmCI0Xp5vI)
 - [ ] [Sioyek - Tutorial](https://www.youtube.com/watch?v=RaHRvnb0dY8)

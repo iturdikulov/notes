@@ -10,8 +10,8 @@ tags:
 
 # Unary operation
 
-In [[Mathematics]] operation with only one [[Operand]].
+In [[Mathematics|mathematics]] operation with only one [[Operand|operand]].
 
 > More generally, a unary operation is a function with exactly one operand, such
-> as the factorial, square root, or NOT. --
-> https://mathworld.wolfram.com/UnaryOperation.html
+> as the factorial, square root, or NOT.\
+> — <cite>[Wolfram MathWorld](https://mathworld.wolfram.com/UnaryOperation.html)</cite>

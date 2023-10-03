@@ -24,7 +24,7 @@ directory: ~/Music/
 
 # Tracks
 
-- TODO: https://open.spotify.com/collection/tracks
+- TODO: [Spotify tracks collection](https://open.spotify.com/collection/tracks)
 - Deep Purple - Smoke on the Water
 - Это всё, что останется после меня...
 - 2 UNLIMITED - No Limi

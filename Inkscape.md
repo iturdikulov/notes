@@ -12,7 +12,7 @@ tags:
 # Inkscape
 
 > Inkscape is a free and open-source [[Vector_graphics|vector graphics]] for
-> [[GNU_Linux]], Windows and macOS. It offers a rich set of features and is
+> GNU/Linux, Windows and macOS. It offers a rich set of features and is
 > widely used for both artistic and technical illustrations such as cartoons,
 > clip art, logos, typography, diagramming and flowcharting. It uses vector
 > graphics to allow for sharp printouts and renderings at unlimited resolution

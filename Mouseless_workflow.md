@@ -10,8 +10,7 @@ tags:
 # Mouseless workflow
 
 - [[Keyboard_shortcut]]
-- TODO: mouseless-workflow make more relevant (check book)
-- TODO: outdated
+- [ ] [[research/Cneude-Building_Your_Mouseless_Development_Environment|book]] make more relevant
 
 # Mouse emulation (qmk)
 
@@ -302,12 +301,7 @@ the key sequence ^XV^, that is Ctrl+x followed by Ctrl+v. To get back to
 emacs mode just type any key sequence that would normally get you to
 viins mode (\"insert-mode\") with vi-like bindings, e.g. i or a.
 
-# Devices
+## Resources
 
--   <https://qmk.fm/>
-
-# Practice
-
--   <https://monkeytype.com/>
-
-# Useful Links
+- [[QMK]]
+- [Monkeytype | A minimalistic, customizable typing test](https://monkeytype.com/)

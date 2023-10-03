@@ -11,12 +11,12 @@ external: https://git-scm.com/
 
 # Git Version Control System
 
-Distributed revision control system, [[Computer_program]], designed to help
-people create other computer program together.
+Distributed revision control system, [[Computer_program|computer program]],
+designed to help people create other computer program together.
 
 > Git is a free and open source distributed version control system designed to
 > handle everything from small to very large projects with speed and efficiency.
-> — <cite><https://git-scm.com/></cite>
+> — <cite>[Git](https://git-scm.com/)</cite>
 
 Git is useful to work with code without fear, you can experiment with code, use
 multiple branches as features tree, if your decision was incorrect, you can
