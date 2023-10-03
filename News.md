@@ -5,6 +5,9 @@ sr-ease: 279
 sr-interval: 4
 tags:
 - inbox
+sr-due: 2023-10-21
+sr-interval: 18
+sr-ease: 259
 ---
 
 # News

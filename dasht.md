@@ -3,6 +3,9 @@ date: 2023-09-15
 tags:
   - inbox
 external: https://github.com/sunaku/dasht
+sr-due: 2023-10-04
+sr-interval: 1
+sr-ease: 226
 ---
 
 # Dasht

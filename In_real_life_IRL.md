@@ -3,6 +3,9 @@ date: 2023-04-17
 tags:
 - inbox
 - IRL
+sr-due: 2023-10-07
+sr-interval: 4
+sr-ease: 287
 ---
 
 # In real life (IRL)

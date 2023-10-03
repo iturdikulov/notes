@@ -5,6 +5,9 @@ tags:
   - research
   - inbox
 directory: ~/Arts_and_Entertainment/visual_arts/Loomis-Fun_With_A_Pencil
+sr-due: 2023-10-04
+sr-interval: 1
+sr-ease: 234
 ---
 
 # Fun With A Pencil: How Everybody Can Easily Learn to Draw

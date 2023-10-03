@@ -5,6 +5,9 @@ sr-ease: 270
 sr-interval: 4
 tags:
 - inbox
+sr-due: 2024-04-11
+sr-interval: 191
+sr-ease: 270
 ---
 
 # Search algorithm

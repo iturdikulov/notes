@@ -2,6 +2,9 @@
 date: 2023-10-03
 tags:
   - inbox
+sr-due: 2023-10-05
+sr-interval: 2
+sr-ease: 238
 ---
 
 # Software quality
@@ -32,7 +35,6 @@ tags:
 
 - [ ] [Casey and Uncle Bob](https://github.com/cmuratori/misc/blob/main/cleancodeqa.md)
 - [ ] [I don't love the single responsibility principle](https://sklivvz.com/posts/i-dont-love-the-single-responsibility-principle)
-- [ ] [Uncle Bob SOLID principles - YouTube](https://www.youtube.com/watch?v=zHiWqnTWsn4)
 - [ ] [Abstraction Bad? | Clean Code : Horrible Performance : (Clip) Interview - YouTube](https://www.youtube.com/watch?v=DsAclZbP_Us)
 - [ ] [Response to a Reporter Regarding "Clean Code, Horrible Performance" ](https://www.computerenhance.com/p/response-to-a-reporter-regarding?publication_id=865289&post_id=113333520&isFreemail=true%E2%86%B5)
 

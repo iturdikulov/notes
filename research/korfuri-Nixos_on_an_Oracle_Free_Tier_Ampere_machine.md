@@ -5,6 +5,9 @@ tags:
   - research
 author: korfuri
 external: https://blog.korfuri.fr/posts/2022/08/nixos-on-an-oracle-free-tier-ampere-machine/
+sr-due: 2023-10-06
+sr-interval: 3
+sr-ease: 268
 ---
 
 # [[NixOS]] on an Oracle Free Tier Ampere machine. Success!

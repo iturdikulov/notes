@@ -7,6 +7,9 @@ sr-interval: 4
 tags:
 - inbox
 - software
+sr-due: 2023-10-21
+sr-interval: 18
+sr-ease: 250
 ---
 
 # Termux
@@ -15,3 +18,9 @@ tags:
 > directly with no rooting or setup required. A minimal base system is installed
 > automatically, additional packages are available using the package manager.\
 > — <cite>[Termux wiki](https://wiki.termux.com/wiki/Main_Page)</cite>
+
+## Resources
+
+- [ ] [termux.sh is a shell script for termux terminal app in android to install and setup various packages like vim, zsh and their configuration files.](https://github.com/sahilsehwag/android-termux-setup-script)
+
+

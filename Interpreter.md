@@ -6,6 +6,9 @@ sr-interval: 4
 tags:
 - inbox
 - development
+sr-due: 2024-04-16
+sr-interval: 196
+sr-ease: 274
 ---
 
 # Interpreter (computing)

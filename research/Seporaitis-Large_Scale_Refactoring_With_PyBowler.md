@@ -6,6 +6,9 @@ archive: true
 tags:
   - inbox
   - research
+sr-due: 2023-10-05
+sr-interval: 2
+sr-ease: 246
 ---
 
 # Large Scale Refactoring With PyBowler

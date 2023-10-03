@@ -6,6 +6,9 @@ sr-interval: 4
 tags:
 - inbox
 - software
+sr-due: 2023-10-22
+sr-interval: 19
+sr-ease: 250
 ---
 
 # My shell scripts

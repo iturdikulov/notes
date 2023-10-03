@@ -8,6 +8,9 @@ sr-interval: 4
 tags:
 - inbox
 - software
+sr-due: 2025-03-14
+sr-interval: 528
+sr-ease: 292
 ---
 
 # Telekasten.nvim - working with a markdown zettelkasten / wiki and mixing it with a journal

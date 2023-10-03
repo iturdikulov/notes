@@ -6,6 +6,9 @@ sr-interval: 4
 tags:
 - inbox
 - IRL
+sr-due: 2025-03-07
+sr-interval: 521
+sr-ease: 290
 ---
 
 # Semolina Porridge

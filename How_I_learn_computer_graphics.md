@@ -29,3 +29,4 @@ My outline for learning [[Computer_graphics]].
 - [ ] [Пишу 3D Движок на Python - YouTube](https://www.youtube.com/watch?v=Scn96t7mwC4)
 - [ ] [Пишу 3D Движок на Python - YouTube](https://www.youtube.com/watch?v=Scn96t7mwC4)
 - [ ] [Трёхмерная графика с нуля. Часть 1: трассировка лучей / Habr](https://habr.com/en/articles/342510/)
+- [ ] [Transvoxel](https://transvoxel.org/Transvoxel.pdf)

@@ -7,6 +7,9 @@ sr-interval: 4
 tags:
 - inbox
 - software
+sr-due: 2025-03-05
+sr-interval: 519
+sr-ease: 290
 ---
 
 # GNU Compiler Collection

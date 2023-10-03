@@ -3,6 +3,9 @@ date: 2023-09-14
 tags:
   - inbox
 directory: ~/Computer/graphics/OpenCV_L2_Bot/
+sr-due: 2023-10-04
+sr-interval: 1
+sr-ease: 236
 ---
 
 # OpenCV L2 Bot

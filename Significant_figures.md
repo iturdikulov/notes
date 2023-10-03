@@ -5,6 +5,9 @@ sr-ease: 270
 sr-interval: 4
 tags:
 - inbox
+sr-due: 2024-04-10
+sr-interval: 190
+sr-ease: 270
 ---
 
 # Significant figures

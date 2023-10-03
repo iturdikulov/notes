@@ -6,11 +6,14 @@ sr-interval: 4
 tags:
 - inbox
 - development
+sr-due: 2023-10-23
+sr-interval: 20
+sr-ease: 254
 ---
 
 # Programmer (software developer, coder)
 
-> Person who creates [[Computer_program]]'s — often for larger computer
+> Person who creates [[Computer_program|computer programs]]'s — often for larger computer
 > software. A programmer is someone who writes/creates computer software or
 > applications by providing a specific programming language to the computer.
 > Most programmers have extensive computing and coding experience in many

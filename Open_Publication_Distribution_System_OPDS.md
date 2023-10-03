@@ -2,9 +2,12 @@
 date: 2023-09-15
 tags:
   - inbox
+sr-due: 2026-01-31
+sr-interval: 851
+sr-ease: 348
 ---
 
-# Open Publication Distribution System
+# Open Publication Distribution System (OPDS)
 
 > The Open Publication Distribution System (OPDS) catalog format is a
 > syndication format for electronic publications based on Atom and HTTP. OPDS

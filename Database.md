@@ -35,3 +35,4 @@ Databases which I use or want to try:
 - [ ] [How do NoSQL databases work? Simply Explained! - YouTube](https://www.youtube.com/watch?v=0buKQHokLK8)
 - [ ] [Мигрируем БД в продакшене без даунтайма / Habr](https://habr.com/en/articles/664028/)
 - [ ] [SQL vs NoSQL Explained - YouTube](https://www.youtube.com/watch?v=ruz-vK8IesE)
+- [ ] [GitHub - mikeym88/key-value-database-python-interface: A Key-Value database interface for python using SQLAlchemy.](https://github.com/mikeym88/key-value-database-python-interface)

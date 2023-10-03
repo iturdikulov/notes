@@ -65,7 +65,6 @@ TODO: restructure, instead more_info, use linking to notes!
   switch between several programs in one terminal
 - [ZSH](https://www.zsh.org/) - Unix shell that can be used as an interactive
   login shell and as a command interpreter for shell scripting
-- [ipython](https://ipython.org/) - interactive python command shell
 - [fzf](https://github.com/junegunn/fzf) - general-purpose command-line fuzzy
   finder, [[Fzf]]
 
@@ -86,12 +85,6 @@ TODO: restructure, instead more_info, use linking to notes!
 - [github-cli](https://cli.github.com/) - The GitHub CLI
 - [glab](https://gitlab.com/gitlab-org/cli/) - The GitLab CLI
 
-- [scipy](https://scipy.org/) - Fundamental algorithms for scientific computing
-  in Python
-- [jupyter](https://jupyter.org/) - interactive computing across all programming
-  languages
-- [numpy](https://numpy.org/) - the fundamental package for scientific computing
-  with Python
 
 - [indent](https://www.gnu.org/software/indent/) - GNU Indent, make code easier
   to read

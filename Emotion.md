@@ -5,6 +5,9 @@ sr-ease: 279
 sr-interval: 4
 tags:
 - inbox
+sr-due: 2025-03-26
+sr-interval: 540
+sr-ease: 299
 ---
 
 # Emotion

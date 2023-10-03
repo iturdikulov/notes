@@ -37,3 +37,5 @@ done;
 - [ ] [Command Challenge!](https://cmdchallenge.com/)
 - [ ] [Bash Guide for Beginners](https://tldp.org/LDP/Bash-Beginners-Guide/html/)
 - [ ] [The Bash Guide](https://guide.bash.academy/)
+- [ ] [dotfiles/bin/.local/scripts ThePrimeagen/.dotfiles · GitHub](https://github.com/ThePrimeagen/.dotfiles/tree/master/bin/.local/scripts)
+- [ ] [dotfiles/bash/.bashrc at master · 8carlosf/dotfiles · GitHub](https://github.com/8carlosf/dotfiles/blob/master/bash/.bashrc#L34) check aliases

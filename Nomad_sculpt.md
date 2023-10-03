@@ -7,6 +7,9 @@ sr-interval: 4
 tags:
 - inbox
 - software
+sr-due: 2025-03-06
+sr-interval: 520
+sr-ease: 290
 ---
 
 # Nomad Sculpt

@@ -6,6 +6,9 @@ sr-ease: 270
 sr-interval: 4
 tags:
 - inbox
+sr-due: 2024-04-12
+sr-interval: 192
+sr-ease: 270
 ---
 
 # Handwriting

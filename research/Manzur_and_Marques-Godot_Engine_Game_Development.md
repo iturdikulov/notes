@@ -5,6 +5,9 @@ tags:
   - inbox
   - research
 directory: ~/Computer/graphics/Manzur_and_Marques-Godot_Engine_Game_Development/
+sr-due: 2023-10-07
+sr-interval: 4
+sr-ease: 272
 ---
 
 # Godot Engine Game Development in 24 Hours, Sams Teach Yourself: The Official Guide to Godot 3.0

@@ -6,6 +6,9 @@ sr-interval: 4
 tags:
 - inbox
 - software
+sr-due: 2025-03-13
+sr-interval: 527
+sr-ease: 290
 ---
 
 # sc-im

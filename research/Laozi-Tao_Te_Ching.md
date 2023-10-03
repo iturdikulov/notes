@@ -7,6 +7,9 @@ author:
   - Laozi
   - Arthur Waley (Translator)
 directory: "~/Arts_and_Entertainment/literature/Lao Tzu/The way and its power; a study of the Tao te ching and its place in Chinese thought (980)/"
+sr-due: 2023-10-06
+sr-interval: 3
+sr-ease: 250
 ---
 
 # Tao Te Ching

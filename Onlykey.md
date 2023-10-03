@@ -5,6 +5,9 @@ sr-ease: 270
 sr-interval: 4
 tags:
 - inbox
+sr-due: 2025-03-10
+sr-interval: 524
+sr-ease: 290
 ---
 
 # Onlykey

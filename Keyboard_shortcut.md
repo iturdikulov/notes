@@ -5,6 +5,7 @@ sr-ease: 270
 sr-interval: 224
 tags:
 - inbox
+- outline
 ---
 
 # Keyboard shortcut
@@ -25,6 +26,14 @@ Some notes with shortcuts flashcards/lists:
 
 - [[Blender_common_shortcuts|Blender]]
 - [[Krita]]
+- [[Telescope.nvim]], TODO: add link to config?
+- [[Fzf]]
+- [[Z_shell]]
+- [[GNU_Readline]]
+- [[Obsidian]]
+- TODO: firefox
+- [[Vimium]]
+- [[Gothic_controls]]
 
 ## Resources
 

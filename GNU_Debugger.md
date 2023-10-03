@@ -6,6 +6,9 @@ sr-interval: 4
 tags:
 - inbox
 - software
+sr-due: 2023-10-23
+sr-interval: 20
+sr-ease: 250
 ---
 
 # GNU Project debugger

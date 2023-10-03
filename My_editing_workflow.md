@@ -6,6 +6,9 @@ sr-interval: 4
 tags:
 - inbox
 - vim
+sr-due: 2023-10-24
+sr-interval: 21
+sr-ease: 251
 ---
 
 # My editing workflow

@@ -7,6 +7,9 @@ tags:
 - inbox
 - software
 external: https://www.postgresql.org/
+sr-due: 2023-10-21
+sr-interval: 18
+sr-ease: 250
 ---
 
 # PostgreSQL

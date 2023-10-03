@@ -5,6 +5,9 @@ sr-ease: 279
 sr-interval: 4
 tags:
 - inbox
+sr-due: 2024-04-19
+sr-interval: 199
+sr-ease: 279
 ---
 
 # Operating system

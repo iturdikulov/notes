@@ -5,6 +5,9 @@ sr-ease: 272
 sr-interval: 4
 tags:
 - inbox
+sr-due: 2025-03-15
+sr-interval: 529
+sr-ease: 292
 ---
 
 # Shell script

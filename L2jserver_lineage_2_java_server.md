@@ -7,6 +7,9 @@ sr-interval: 4
 tags:
 - inbox
 - software
+sr-due: 2025-03-09
+sr-interval: 523
+sr-ease: 290
 ---
 
 # L2jServer Lineage 2 Java Server

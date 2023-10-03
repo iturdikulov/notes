@@ -7,6 +7,9 @@ sr-interval: 4
 tags:
 - inbox
 - software
+sr-due: 2025-03-11
+sr-interval: 525
+sr-ease: 290
 ---
 
 # Syncthing

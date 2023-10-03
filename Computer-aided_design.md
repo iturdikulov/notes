@@ -5,6 +5,9 @@ sr-ease: 274
 sr-interval: 4
 tags:
 - inbox
+sr-due: 2025-03-17
+sr-interval: 531
+sr-ease: 294
 ---
 
 # Computer-aided design (CAD, CADD)
@@ -24,6 +27,6 @@ tags:
 > curves, surfaces, and solids in three-dimensional (3D) space.
 >
 > CAD has been a major driving force for research in computational geometry,
-> [[Computer_graphics]] (both hardware and software), and discrete differential
+> [[Computer_graphics|computer graphics]] (both hardware and software), and discrete differential
 > geometry.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Computer-aided_design)</cite>

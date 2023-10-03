@@ -5,6 +5,9 @@ sr-ease: 277
 sr-interval: 4
 tags:
 - inbox
+sr-due: 2024-04-17
+sr-interval: 197
+sr-ease: 277
 ---
 
 # Internet Protocol

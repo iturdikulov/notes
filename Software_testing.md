@@ -5,6 +5,9 @@ sr-ease: 272
 sr-interval: 4
 tags:
 - inbox
+sr-due: 2023-10-20
+sr-interval: 17
+sr-ease: 252
 ---
 
 # Software testing

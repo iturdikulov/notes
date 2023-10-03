@@ -5,6 +5,9 @@ sr-ease: 248
 sr-interval: 53
 tags:
 - inbox
+sr-due: 2025-07-19
+sr-interval: 655
+sr-ease: 268
 ---
 
 # General-purpose programming language (GPL)

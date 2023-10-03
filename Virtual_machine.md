@@ -6,6 +6,9 @@ sr-interval: 4
 tags:
 - inbox
 - software
+sr-due: 2024-04-14
+sr-interval: 194
+sr-ease: 272
 ---
 
 # Virtual machine

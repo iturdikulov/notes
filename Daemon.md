@@ -3,6 +3,9 @@ date: 2023-08-26
 tags:
 - inbox
 - development
+sr-due: 2023-10-07
+sr-interval: 4
+sr-ease: 277
 ---
 
 # Daemon_(computing)

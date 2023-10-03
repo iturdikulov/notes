@@ -5,6 +5,9 @@ sr-ease: 271
 sr-interval: 4
 tags:
 - inbox
+sr-due: 2025-03-12
+sr-interval: 526
+sr-ease: 291
 ---
 
 # Classical mechanics

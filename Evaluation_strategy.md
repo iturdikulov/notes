@@ -6,6 +6,9 @@ sr-ease: 270
 sr-interval: 4
 tags:
 - inbox
+sr-due: 2023-10-20
+sr-interval: 17
+sr-ease: 250
 ---
 
 # Evaluation strategy

@@ -13,6 +13,8 @@ tags:
 List of resources and tips to learn [[Mathematics]]
 
 - [[Multiplication_table]]
+- [ ] [Projective Geometric Algebra](https://projectivegeometricalgebra.org/),
+also related to [[Computer_graphics]].
 - [ ] [Зачем нужны синусы и косинусы? - YouTube](https://youtu.be/hwpWTkdh-BA)
 - [ ] [Математическая продлёнка. Квадратные уравнения во всей красе]( https://habr.com/ru/post/714660/)
 - [ ] [Число Грэма Грехема(xkcdoff) - YouTube](https://www.youtube.com/watch?v=kOg-zDjA-0A)

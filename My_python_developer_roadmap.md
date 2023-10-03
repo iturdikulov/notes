@@ -40,13 +40,6 @@ TOOD: sync research/core notes (duplicates), at least tutorial and standard libr
 - [ ] [А как в питоне пайпать? — Development — Форум](https://www.linux.org.ru/forum/development/17025364)
 - [ ] [[research/Seporaitis-Large_Scale_Refactoring_With_PyBowler]]
 
-## Development tools
-
-- [ ] [dosisod/refurb: A tool for refurbishing and modernizing Python codebases](https://github.com/dosisod/refurb)
-- [ ] [asottile/pyupgrade: A tool (and pre-commit hook) to automatically upgrade syntax for newer versions of the language.](https://github.com/asottile/pyupgrade)
-- [vinta/awesome-python: A curated list of awesome Python frameworks, libraries, software and resources](https://github.com/vinta/awesome-python)
-
-
 
 ## Practice
 
@@ -76,6 +69,5 @@ TOOD: sync research/core notes (duplicates), at least tutorial and standard libr
 
 - [x] [Typical Directory structure for python tests · GitHub](https://gist.github.com/tasdikrahman/2bdb3fb31136a3768fac)
       not worked as expected
-- [ ] [GitHub - pallets/flask: The Python micro framework for building web applications.](https://github.com/pallets/flask)
 - [ ] [Testing Flask Applications — Flask Documentation (2.2.x)](https://flask.palletsprojects.com/en/2.2.x/testing/)
 - [ ] [Simple mock server for testing using Flask · GitHub](https://gist.github.com/eruvanos/f6f62edb368a20aaa880e12976620db8)
