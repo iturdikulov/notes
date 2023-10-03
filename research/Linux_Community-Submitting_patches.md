@@ -6,6 +6,9 @@ tags:
 external:
  - https://www.kernel.org/doc/html/latest/process/submitting-patches.html
  - https://www.kernel.org/doc/html/latest/process/submit-checklist.html
+sr-due: 2023-10-05
+sr-interval: 2
+sr-ease: 230
 ---
 
 # Submitting patches: the essential guide to getting your code into the kernel

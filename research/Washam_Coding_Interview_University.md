@@ -6,6 +6,9 @@ tags:
 - research
 - inbox
 directory: ~/Computer/science/Washam_Coding_Interview_University/
+sr-due: 2023-10-06
+sr-interval: 3
+sr-ease: 250
 ---
 
 # Coding Interview University

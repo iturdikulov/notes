@@ -3,6 +3,9 @@ date: 2023-09-15
 tags:
   - inbox
 directory: ~/Media/
+sr-due: 2023-10-12
+sr-interval: 9
+sr-ease: 251
 ---
 
 # Mount

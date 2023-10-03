@@ -6,6 +6,9 @@ tags:
 - research
 - inbox
 directory: ~/Computer/science/Keon-Pythonic_Data_Structures/
+sr-due: 2023-10-07
+sr-interval: 4
+sr-ease: 270
 ---
 
 # Pythonic Data Structures and Algorithms

@@ -2,6 +2,9 @@
 date: 2023-10-03
 tags:
   - inbox
+sr-due: 2023-10-04
+sr-interval: 1
+sr-ease: 229
 ---
 
 # Generative adversarial network (GAN)

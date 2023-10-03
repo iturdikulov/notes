@@ -3,6 +3,9 @@ date: 2023-09-15
 tags:
   - inbox
 directory: ~/Temp
+sr-due: 2023-10-19
+sr-interval: 16
+sr-ease: 291
 ---
 
 # Temporary directory

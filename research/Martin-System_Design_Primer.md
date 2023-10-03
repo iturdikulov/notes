@@ -6,6 +6,9 @@ tags:
 - research
 - inbox
 directory: ~/Computer/science/Martin-System_Design_Primer/
+sr-due: 2023-10-06
+sr-interval: 3
+sr-ease: 250
 ---
 
 # The System Design Primer

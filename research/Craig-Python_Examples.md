@@ -6,6 +6,9 @@ tags:
 - research
 - inbox
 directory: ~/Computer/programming/Craig-Python_Examples/
+sr-due: 2023-10-07
+sr-interval: 4
+sr-ease: 270
 ---
 
 # Python Examples

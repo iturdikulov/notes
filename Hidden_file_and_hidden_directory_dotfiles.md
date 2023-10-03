@@ -2,6 +2,9 @@
 date: 2023-04-02
 tags:
 - inbox
+sr-due: 2023-10-06
+sr-interval: 3
+sr-ease: 250
 ---
 
 # Hidden file and hidden directory (.dotfiles)
@@ -21,3 +24,5 @@ They are commonly used for storing user configuration files.
 - [ ] [GitHub - lukas-reineke/dotfiles: My personal dotfiles. do not eat](https://github.com/lukas-reineke/dotfiles)
 - [ ] [GitHub - LukeSmithxyz/voidrice: My dotfiles (deployed by LARBS)](https://github.com/LukeSmithxyz/voidrice)
 - [ ] [GitHub - pigmonkey/dotfiles: User preference and configuration files that I use to build my working environment. (All the cool kids are doing it!)](https://github.com/pigmonkey/dotfiles)
+- [ ] [dotfiles/bin/.local/scripts ThePrimeagen/.dotfiles · GitHub](https://github.com/ThePrimeagen/.dotfiles/tree/master/bin/.local/scripts)
+- [ ] [dotfiles/bash/.bashrc at master · 8carlosf/dotfiles · GitHub](https://github.com/8carlosf/dotfiles/blob/master/bash/.bashrc#L34) check aliases

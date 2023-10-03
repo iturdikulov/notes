@@ -2,6 +2,9 @@
 date: 2023-10-03
 tags:
   - inbox
+sr-due: 2023-10-11
+sr-interval: 8
+sr-ease: 252
 ---
 
 # Slug Font Rendering Library

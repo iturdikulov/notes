@@ -2,6 +2,9 @@
 date: 2023-09-22
 tags:
   - inbox
+sr-due: 2023-10-05
+sr-interval: 2
+sr-ease: 252
 ---
 
 # Hash function

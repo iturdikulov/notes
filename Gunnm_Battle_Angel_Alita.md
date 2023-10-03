@@ -4,6 +4,9 @@ date: 1990
 directory: ~/Arts_and_Entertainment/manga/Gunnm_Battle_Angel_Alita/
 tags:
   - inbox
+sr-due: 2023-10-07
+sr-interval: 4
+sr-ease: 272
 ---
 
 # Gunnm aka Battle Angel Alita

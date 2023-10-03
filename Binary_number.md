@@ -2,10 +2,12 @@
 date: 2023-09-22
 tags:
   - inbox
+sr-due: 2023-10-09
+sr-interval: 6
+sr-ease: 250
 ---
 
-# Binary_number
-
+# Binary number
 
 > A binary number is a number expressed in the base-2 numeral system or binary
 > numeral system, a method of mathematical expression which uses only two

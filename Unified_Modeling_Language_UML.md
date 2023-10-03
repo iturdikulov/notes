@@ -2,6 +2,9 @@
 date: 2023-09-24
 tags:
   - inbox
+sr-due: 2023-10-14
+sr-interval: 11
+sr-ease: 286
 ---
 
 # Unified Modeling Language (UML)

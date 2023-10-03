@@ -3,6 +3,9 @@ date: 2023-09-15
 tags:
   - inbox
 directory: ~/Computer/graphics/3D_models
+sr-due: 2023-10-06
+sr-interval: 3
+sr-ease: 268
 ---
 
 # 3D modeling

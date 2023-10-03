@@ -6,6 +6,9 @@ tags:
 - research
 - inbox
 directory: ~/Computer/graphics/Tuytel_and_Rahman-Creating_3D_Environments/
+sr-due: 2023-10-06
+sr-interval: 3
+sr-ease: 250
 ---
 
 # Creating 3D Environments in Blender Tutorial

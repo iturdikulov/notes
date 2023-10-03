@@ -3,6 +3,9 @@ external: https://news.ycombinator.com/best
 date: 2023-03-12
 tags:
 - inbox
+sr-due: 2023-10-06
+sr-interval: 3
+sr-ease: 268
 ---
 
 # Hacker News

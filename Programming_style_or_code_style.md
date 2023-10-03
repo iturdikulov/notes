@@ -3,6 +3,9 @@ date: 2023-03-18
 tags:
 - inbox
 - programming
+sr-due: 2023-10-06
+sr-interval: 3
+sr-ease: 255
 ---
 
 # Programming style (code style)

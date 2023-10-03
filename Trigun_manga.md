@@ -4,6 +4,9 @@ date: 1995
 tags:
   - inbox
 directory: ~/Arts_and_Entertainment/manga/Trigun/
+sr-due: 2023-10-17
+sr-interval: 14
+sr-ease: 292
 ---
 
 # Trigun
