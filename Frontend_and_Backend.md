@@ -32,6 +32,7 @@ sr-ease: 230
 
 - [CSS: Cascading Style Sheets | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS)
 - [ ] [1000x FASTER JavaScript? - YouTube](https://www.youtube.com/watch?v=B76gFi43HvM)
+- [ ] [GitHub - camsong/You-Dont-Need-jQuery: Examples of how to do query, style, dom, ajax, event etc like jQuery with plain javascript.](https://github.com/camsong/You-Dont-Need-jQuery)
 - [ ] [mbeaudru/modern-js-cheatsheet: Cheatsheet for the JavaScript knowledge you will frequently encounter in modern projects.](https://github.com/mbeaudru/modern-js-cheatsheet)
 - [ ] [GitHub - bradtraversy/vanillawebprojects: Mini projects built with HTML5, CSS &amp; JavaScript. No frameworks or libraries](https://github.com/bradtraversy/vanillawebprojects)
 - [ ] [David Khourshid - Infinitely Better UIs with Finite Automata - YouTube](https://www.youtube.com/watch?v=VU1NKX6Qkxc)

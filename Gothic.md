@@ -5,7 +5,7 @@ archive: true
 tags:
   - inbox
   - art
-sr-due: 2023-10-07
+sr-due: 2022-10-07
 sr-interval: 4
 sr-ease: 277
 ---
@@ -39,3 +39,5 @@ Full game controls available at [[Gothic_controls|controls]] note.
 - [World of Players RU](https://worldofplayers.ru/)
 - [Gothic 1 on Steam](https://store.steampowered.com/app/65540/Gothic_1/)
 - [Gothic - Неолурк](https://neolurk.org/wiki/Gothic)
+- [Модостроение | World of Players RU](https://worldofplayers.ru/forums/353/)
+

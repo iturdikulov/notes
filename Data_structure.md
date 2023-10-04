@@ -9,12 +9,20 @@ tags:
 
 # Data structures
 
+> In [[Computer_science|computer science]], a data structure is a data
+> organization, management, and storage format that is usually chosen for
+> efficient access to data. More precisely, a data structure is a collection of
+> data values, the relationships among them, and the functions or operations
+> that can be applied to the data, i.e., it is an algebraic structure about
+> data.\
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Data_structure)</cite>
+
 Analyzing the number of steps an operation takes is the heart of understanding
 the performance of data structures. Choose right data structure can greatly
 impact on performance of your program.
 
 Data itself is just basically numbers and strings (in computers all data finally
-stored as [[Bit]] sequences).
+stored as [[Bit|bit]] sequences).
 
 Basic data structure is [[Array|array]].
 
