@@ -7,6 +7,9 @@ tags:
 - inbox
 - productivity
 directory: ~/.task
+sr-due: 2024-02-12
+sr-interval: 131
+sr-ease: 250
 ---
 
 # Taskwarrior

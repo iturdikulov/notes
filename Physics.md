@@ -14,11 +14,6 @@ tags:
 > the related entities of energy and force.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Physics)</cite>
 
-## Resources
+My physics learning plan is here:
+[[How_do_I_study_physics_and_chemistry|how do I study physics and chemistry]].
 
-- [ ] [The complete FUN TO IMAGINE with Richard Feynman - YouTube](https://www.youtube.com/watch?v=P1ww1IXRfTA)
-- [ ] [Metric prefix - Wikipedia](https://en.wikipedia.org/wiki/Metric_prefix)
-- [ ] [Physics Index](https://www.mathsisfun.com/physics/index.html)
-- [ ] [Electromagnetic radiation - Wikipedia](https://en.wikipedia.org/wiki/Electromagnetic_radiation)
-- [ ] [Designing a physics engine](https://winter.dev/articles/physics-engine)
-- [Physics — Susan Rigetti](https://www.susanrigetti.com/physics)

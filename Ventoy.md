@@ -7,6 +7,9 @@ sr-interval: 4
 tags:
 - inbox
 - software
+sr-due: 2025-01-12
+sr-interval: 466
+sr-ease: 296
 ---
 
 # Ventoy

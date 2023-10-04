@@ -5,6 +5,9 @@ sr-ease: 288
 sr-interval: 11
 tags:
 - inbox
+sr-due: 2025-04-17
+sr-interval: 561
+sr-ease: 308
 ---
 
 # Lists

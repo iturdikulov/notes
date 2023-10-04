@@ -5,6 +5,9 @@ sr-ease: 228
 sr-interval: 10
 tags:
 - inbox
+sr-due: 2024-03-23
+sr-interval: 171
+sr-ease: 228
 ---
 
 # Readability

@@ -7,6 +7,9 @@ sr-interval: 1
 tags:
 - inbox
 - art
+sr-due: 2023-10-10
+sr-interval: 6
+sr-ease: 208
 ---
 
 # Drawabox - learning the fundamentals of drawing

@@ -1,12 +1,11 @@
 ---
 external: https://github.com/SidOfc/mkdx
 date: 2023-04-05
-sr-due: 2023-05-21
+sr-due: 2025-05-21
 sr-ease: 272
 sr-interval: 4
 tags:
 - inbox
-- software
 ---
 
 # mkdx.vim
@@ -16,7 +15,9 @@ tags:
 > — <cite>[GitHub](https://github.com/SidOfc/mkdx)</cite>
 
 Not use it's right now, I think it's too complicated for me, maybe in the
-future. TODO: try it again.
+future. I switched to the simplest plugin
+([antonk52/markdowny.nvim](https://github.com/antonk52/markdowny.nvim)) to quick
+formatting, etc.
 
 ## Notes
 

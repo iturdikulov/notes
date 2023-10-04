@@ -7,6 +7,9 @@ tags:
   - inbox
   - software
 directory: ~/Computer/data/files_samples
+sr-due: 2025-03-18
+sr-interval: 531
+sr-ease: 290
 ---
 
 # File

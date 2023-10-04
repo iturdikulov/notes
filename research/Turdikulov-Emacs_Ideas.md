@@ -2,9 +2,9 @@
 date: 2023-06-03
 tags:
   - inbox
-sr-due: 2023-08-25
-sr-interval: 1
-sr-ease: 230
+sr-due: 2024-02-17
+sr-interval: 136
+sr-ease: 250
 ---
 
 # Emacs-ideas

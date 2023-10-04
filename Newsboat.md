@@ -6,6 +6,9 @@ sr-interval: 1
 tags:
 - inbox
 - software
+sr-due: 2024-02-16
+sr-interval: 135
+sr-ease: 252
 ---
 
 # Newsboat
