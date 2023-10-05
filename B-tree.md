@@ -10,7 +10,7 @@ tags:
 # B-tree
 
 > In [[Computer_science|computer science]], b-tree is a self-balancing
-> [[Tree_data_structure|tree]] data structure that maintains sorted data and
+> [[Tree|tree]] data structure that maintains sorted data and
 > allows searches, sequential access, insertions, and deletions in
 > [[Logarithm|logarithmic]] time. The B-tree generalizes the binary search tree,
 > allowing for nodes with more than two children. Unlike other self-balancing

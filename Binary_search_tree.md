@@ -9,7 +9,7 @@ tags:
 
 # Binary search tree
 
-> In [[Computer_science]], a binary search [[Tree_data_structure|tree]] (BST),
+> In [[Computer_science]], a binary search [[Tree|tree]] (BST),
 > also called an ordered or sorted binary tree, is a rooted binary tree data
 > structure with the key of each internal node being greater than all the keys
 > in the respective node's left subtree and less than the ones in its right
