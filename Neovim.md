@@ -986,6 +986,16 @@ this.
 
 ## Resources
 
+- [neovimcraft, plugins](https://neovimcraft.com/)
+- [Vim Tips Wiki | Fandom](https://vim.fandom.com/wiki/Vim_Tips_Wiki)
+- [VimGolf - real Vim ninjas count every keystroke!](https://www.vimgolf.com/)
+- [Vim Awesome](https://vimawesome.com/)
+- [[research/Neil-Modern_Vim]]
+- [[research/Neil-Practical_Vim]]
+- [Interactive Vim tutorial](http://www.openvim.com/)
+- [VimGolf](https://www.vimgolf.com/)
+- [Vim Tips Wiki | Fandom](https://vim.fandom.com/wiki/Vim_Tips_Wiki)
+- [Neovim Discourse](https://neovim.discourse.group/categories)
 - [.] 1/7 [Изучаем Vim - YouTube](https://www.youtube.com/playlist?list=PLcjongJGYetkY4RFSVftH43F91vgzqB7U)
 
 - [ ] [How to Do 90% of What Plugins Do (With Just Vim) - YouTube](https://www.youtube.com/watch?v=XA2WjJbmmoM)
@@ -1036,13 +1046,3 @@ this.
 - [ ] [Automatically Execute *Anything* in Nvim - YouTube](https://www.youtube.com/watch?v=9gUatBHuXE0)
 - [ ] [Execute **anything** in neovim (now customizable) - YouTube](https://www.youtube.com/watch?v=HlfjpstqXwE)
 
-- [Vim Tips Wiki | Fandom](https://vim.fandom.com/wiki/Vim_Tips_Wiki)
-- [VimGolf - real Vim ninjas count every keystroke!](https://www.vimgolf.com/)
-- [neovimcraft, plugins](https://neovimcraft.com/)
-- [Vim Awesome](https://vimawesome.com/)
-- [[research/Neil-Modern_Vim]]
-- [[research/Neil-Practical_Vim]]
-- [Interactive Vim tutorial](http://www.openvim.com/)
-- [VimGolf](https://www.vimgolf.com/)
-- [Vim Tips Wiki | Fandom](https://vim.fandom.com/wiki/Vim_Tips_Wiki)
-- [Neovim Discourse](https://neovim.discourse.group/categories)
