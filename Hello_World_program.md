@@ -70,16 +70,12 @@ int main() {
 }
 ```
 
-### [JavaScript](./external/hello_world/javascript.js)
+### [GDScript](./external/hello_world/GDScript.gd)
+```gdscript
+extends Node2D
 
-```javascript
-console.log("Hello, World!");
-```
-
-### [TypeScript](./external/hello_world/typescript.ts)
-
-```typescript
-console.log("Hello World");
+func _ready():
+    print("Hello World")
 ```
 
 ### [Go](./external/hello_world/golang.go)
@@ -111,6 +107,12 @@ public class Main {
     System.out.println("Hello World");
   }
 }
+```
+
+### [JavaScript](./external/hello_world/javascript.js)
+
+```javascript
+console.log("Hello, World!");
 ```
 
 ### [Lisp](./external/hello_world/lisp.lsp)
@@ -170,6 +172,12 @@ puts "Hello, World!"
 fn main() {
     println!("Hello, World!");
 }
+```
+
+### [TypeScript](./external/hello_world/typescript.ts)
+
+```typescript
+console.log("Hello World");
 ```
 
 ### [Scala](./external/hello_world/scala.scala)
