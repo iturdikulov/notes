@@ -42,6 +42,7 @@ Good inspiration for watching movies.
 - [ ] Castelvania
 - [ ] Ведьмина служба доставки
 - [ ] Нефть
+- [ ] Сериал метод
 
 ## Watched
 
