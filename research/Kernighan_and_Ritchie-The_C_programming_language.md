@@ -4,9 +4,9 @@ tags:
   - research
   - inbox
   - computer_science
-sr-due: 2022-08-28
-sr-interval: 1
-sr-ease: 236
+sr-due: 2027-06-15
+sr-interval: 1348
+sr-ease: 256
 directory: ~/Computer/programming/Kernighan_and_Ritchie-The_C_programming_language
 ---
 

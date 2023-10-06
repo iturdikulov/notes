@@ -5,9 +5,9 @@ archive: true
 tags:
   - inbox
   - art
-sr-due: 2022-10-07
-sr-interval: 4
-sr-ease: 277
+sr-due: 2027-08-27
+sr-interval: 1421
+sr-ease: 297
 ---
 
 # Gothic

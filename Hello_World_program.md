@@ -3,6 +3,9 @@ date: 2023-10-06
 tags:
   - inbox
   - programming
+sr-due: 2023-10-10
+sr-interval: 4
+sr-ease: 273
 ---
 
 # "Hello, World!" program
@@ -10,11 +13,12 @@ tags:
 > A "Hello, World!" program is generally a
 [[Computer_program|computer program]] that ignores any input, and outputs or
 > displays a message similar to "Hello, World!". A small piece of code in most
-> general-purpose programming languages, this program is used to illustrate a
-> language's basic syntax. "Hello, World!" programs are often the first a
-> student learns to write in a given language, and they can also be used as a
-> **sanity check** to ensure computer software intended to compile or run source
-> code is correctly installed, and that its operator understands how to use it.\
+> general-purpose [[Programming_language|programming languages]], this program
+> is used to illustrate a language's basic syntax. "Hello, World!" programs are
+> often the first a student learns to write in a given language, and they can
+> also be used as a **sanity check** to ensure computer software intended to
+> compile or run source code is correctly installed, and that its operator
+> understands how to use it.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/%22Hello,_World!%22_program)</cite>
 
 ## Languages

@@ -5,6 +5,9 @@ sr-ease: 273
 sr-interval: 4
 tags:
 - inbox
+sr-due: 2025-03-30
+sr-interval: 541
+sr-ease: 293
 ---
 
 # Book

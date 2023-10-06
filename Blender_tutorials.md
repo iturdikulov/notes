@@ -6,6 +6,9 @@ sr-interval: 4
 tags:
 - inbox
 - computer_graphics
+sr-due: 2028-12-29
+sr-interval: 1911
+sr-ease: 290
 ---
 
 # Blender Tutorials
