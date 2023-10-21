@@ -6,3 +6,4 @@ private/
 Inbox_*.md
 inbox/**/*
 !inbox/**/*.md
+external/salesloop
