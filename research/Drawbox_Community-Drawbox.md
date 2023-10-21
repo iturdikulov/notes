@@ -19,36 +19,34 @@ feature, which help me as [[English_language|English]] learner.
 
 ## Lesson 0: Getting Started
 
-Information about community, paid options and history.
+### Introduction
 
-Explore what we learn in this course. Who our teachers.
+[Drawabox Lesson 0, Part 1: What is Drawabox? - YouTube](https://youtu.be/9708PBUvCQ0).
 
-Don't work in a vacuum. You'll improve faster by working together.
+Drawabox is free course, which teach fundamentals of drawing. Started as Reddit
+thread, now its own site. Author continuously improve it and add new lessons.
 
-Fundamentals depends, it can be line, form, light, color, perspective, gesture,
-anatomy, style, etc...
+We start with basic mark making, move to lines, ellipses, boxes and more.
 
-We learn:
+This is a long course, which require a lot of practice and learning and drawbox
+designed to build strong foundation, later you can move to more advanced
+courses.
 
-- Mark making
-- Observational drawing
-- Spatial reasoning, but not too much
-- More advanced exercises, like work with light and shadow (but very basic)
-
-What we not learn (mostly):
-
-- Light
-- Anatomy
-- Gesture
-- Style
+### Changing your Mindset
+### Using this Course
+### Required/Recommended Tools
 
 ## Lesson 1: Lines, Ellipses and Boxes
 
-Text is more up-to-date than video.
-
-> Even when the videos are fully updated however, there is immense value in
-> absorbing the material in different formats. Our brains easily become
-> complacent, so going through it in multiple formats is more effective, even
-> than just rewatching the same video several times.
-
-They recommend to watch video first, then read text.
+### Some Quick Reminders
+### Lines: Using Your Arm
+### Lines: Markmaking
+### Lines: Homework
+### Ellipses
+### Boxes: The Basics of Perspective and Projection
+### Boxes: Foreshortening and Vanishing Points
+### Boxes: Rotation, Perspective Grids, and the Concept of Infinity
+### Boxes: Simplified Guidelines
+### Boxes: Additional Notes
+### Boxes: Homework
+### What Next?
