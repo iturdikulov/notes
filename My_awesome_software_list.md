@@ -351,6 +351,9 @@ TODO: actualize this list
 
 ## TODO:
 
+- dmidecode
+- lshw
+- geekbench
 - `ipcalc` - simple IP network calculator
 - `faketime` - manipulate the system time for a given command
 - `antimicro` - bind keyboard and mouse actions to your gamepad or joystick
