@@ -16,21 +16,21 @@ sr-ease: 210
 
 Key features for me:
 
-- good [[Portable_document_format_PDF|PDF]] viewer
-- vim-like keybindings
-- support highlighting and bookmarks
-- anchor links support (marks)
-- command palette menu
+- Just good [[Portable_document_format_PDF|PDF]] viewer
+- [[Neovim|Vim]] like keybindings
+- Support highlighting and bookmarks
+- Anchor links support (marks)
+- Command palette menu
 - [[SyncTeX]] support
-- extensible
-- portals (preview multiple places of document in same time)
+- Extensible
+- Portals (preview multiple places of document in same time)
 
 
 ## Shortcuts
 
 Open a new document::`o`
 
-Open recent documents::`O`
+Open recent documents list::`O`
 
 Up/Down navigation::`j`/`k`
 
@@ -56,13 +56,92 @@ Open command palette, useful to find functional::`:`
 
 Start search/next/previous::`/`/`[num]n`/`[num]N`
 
+## Marks
+
 Create persistent mark with `u` letter/go to this mark::`mu` / `` `u``
 
 What different between lowercase and uppercase marks?
 ?
-lowercase are local to each file, but upper case marks are global
+lowercase are local to each file, but upper case marks are global (persistent)
 
-TODO: complete this list
+Create visual mark to highlight current line, sort of paper bookmark
+?
+`<RightMouse>`
+
+Transform visual mark to line mark and move to the next/previous line?
+?
+`j`/`k`
+
+Quick go-to visual mark (created by right mouse click) and back::`` ` ``
+
+How to enable visual scroll mode, which automatically move visual scroll mark by
+wheel mouse?
+?
+`F7`
+
+## Bookmarks and highlights
+
+Create bookmark in current location
+?
+`b<letter>`, to auto-set text as bookmark title, select text and press `b`
+
+Search bookmark in the current file and all the bookmarks::`gb` and `gB`
+
+Delete the closest bookmark::Go to bookmark (search → select), and press `db`
+
+Create highlight::select text and press `h<letter>`
+
+Search highlight in the current file and all the highlights::`gh` and `gH`
+
+Delete the closest highlight
+?
+`<LeftMouse>` on highlight, and press `dh`
+
+## Smart Jump and Portals
+
+Go to figure (even not linked) or cited reference::`<MiddleClick>`
+
+Search line in Google Scholar or in library genesis::`<MiddleClick>`
+
+Open portal helper (it'll load the closest portal)::`F12`
+
+How to create portal?
+?
+`p` to use current location as source (select source), go to destination, and
+press `p` again. You can even create portals between different files!
+
+How to create portal using mouse and link as destination?
+?
+`p` to select source, then click on link (or middle click using smart jumps).
+
+How to delete the closest portal?
+?
+`dp`, this will delete the closest portal to current location (which displayed
+in helper window)
+
+How to adjust portal position?
+?
+press `P` while portal active, adjust destination (position) and press `<BCK>`
+
+How to adjust portal position and other parameters, using mouse?
+?
+`wheel` to adjust position, mouse drag to pan and `<C-wheel>` to zoom in/zoom
+out
+
+## Configuration
+
+To edit and find configuration, use command pallet (`:`) and following search
+keys:
+
+– prefs
+– prefs_user
+– keys
+– keys_user
+
+## TODO
+
+- Synctex
+- Extensions
 
 ## Resources
 
