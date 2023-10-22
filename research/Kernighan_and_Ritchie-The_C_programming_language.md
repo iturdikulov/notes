@@ -25,8 +25,9 @@ exception.
 
 Goal of the [[ANSI_C]] standard
 ?
-Produce an unambiguous and machine-independent definition of the language C.
-In my words - universal, clear and easy to understand language because it can only mean one thing.
+Produce an unambiguous and machine-independent definition of the language C. In
+my words - universal, clear and easy to understand language because it can only
+mean one thing.
 <!--SR:!2023-05-13,1,227-->
 
 Write useful programs probably the best goal to learn any language.
@@ -38,13 +39,15 @@ C wears well as one's ==experience== with it grows.
 
 Is C is a general-purpose language?
 ?
-Yes, general-purpose something like universal language, to use it in any domain, and not have limited functions to specific domain.
+Yes, general-purpose something like universal language, to use it in any domain,
+and not have limited functions to specific domain.
 <!--SR:!2023-08-07,69,287-->
 
 Is C is high-level language?
 ?
-Yes, but it not a "very high-level" language, nor a "big" one.
-But its absence of restrictions and its generality make it more convenient and effective for many tasks than supposedly more powerful languages.
+Yes, but it not a "very high-level" language, nor a "big" one. But its absence
+of restrictions and its generality make it more convenient and effective for
+many tasks than supposedly more powerful languages.
 <!--SR:!2023-07-28,59,267-->
 
 # Chapter 1 - A Tutorial Introduction /9
@@ -192,7 +195,8 @@ printf("Int size: %d byte sizeof(int)", sizeof(int));
 printf("Float size: %d byte sizeof(float)", sizeof(float));
 ```
 ?
-Now days it will output (of course, depends on your system, machine, compiler, etc.):
+Now days it will output (of course, depends on your system, machine, compiler,
+etc.):
 ```
 Int size: 4 byte sizeof(int)
 Float size: 4 byte sizeof(float)
@@ -321,12 +325,13 @@ for (fahr = 0; fahr <= 300; fahr = fahr + 20) {
 ```
 ?
 - `fahr = 0` - **initialization**, done once before loop starts
-- `fahr <= 300` - **condition** (test), controls the loop (execute if true), runs
-  before each iteration
-- `fahr = fahr + 20` or `fahr += 20` - **increment** step, after this step executed
-  condition will be revalidated.
+- `fahr <= 300` - **condition** (test), controls the loop (execute if true),
+runs before each iteration
+- `fahr = fahr + 20` or `fahr += 20` - **increment** step, after this step
+executed condition will be revalidated.
 
-The initialization, condition and increment can be any expressions, is that true?
+The initialization, condition and increment can be any expressions, is that
+true?
 ?
 Yes, any **valid** expressions. TODO: test it.
 
@@ -365,7 +370,8 @@ Its bad practice to bury **magic numbers** like 300 and 20 in program.
 A text stream is a sequence of ==characters==
 <!--SR:!2023-06-19,38,268-->
 
-Each line in text stream is terminated by a special character, called a ==newline==.
+Each line in text stream is terminated by a special character, called a
+==newline==.
 <!--SR:!2023-06-20,21,208-->
 
 What output you receive if you run this program?
@@ -413,7 +419,8 @@ while (getchar() != EOF) {
 printf("%ld\n", nc);
 ```
 ?
-Yes, we can use `for` loop instead of `while` loop. And additionally we can use double to count characters.
+Yes, we can use `for` loop instead of `while` loop. And additionally we can use
+double to count characters.
 ```c
 double nc;
 for (nc = 0; getchar() != EOF; ++nc) {
@@ -496,7 +503,8 @@ int main() {
 }
 ```
 
-An assignment is an expression with the value and assignments associated from (direction) ==right to left, like `nl = (nw = (nc = 0));`==.
+An assignment is an expression with the value and assignments associated from
+(direction) ==right to left, like `nl = (nw = (nc = 0));`==.
 <!--SR:!2023-06-07,8,228-->
 
 Expressions connected by && or || are evaluated (direction) ==left to right==.
@@ -512,7 +520,8 @@ White space characters are
 - `\v` Vertical tab
 - `\f` Form feed
 - `\r` Carriage return
-Because they serve the same purpose as the spaces between words and lines on a printed page — they make reading easier.
+Because they serve the same purpose as the spaces between words and lines on a
+printed page — they make reading easier.
 <!--SR:!2023-06-13,32,248-->
 
 ```c
@@ -561,10 +570,12 @@ int main() {
 
 ## 1.7 Functions /25
 
-Function encapsulate things, so we can reuse it in different places and don't worry about ==its implementation==.
+Function encapsulate things, so we can reuse it in different places and don't
+worry about ==its implementation==.
 <!--SR:!2023-06-17,36,288-->
 
-If you have properly designed function, you can ==ignore how job is done and just know what is done is sufficient==.
+If you have properly designed function, you can ==ignore how job is done and
+just know what is done is sufficient==.
 <!--SR:!2023-05-29,17,268-->
 
 $2^5$ is ==32==.
@@ -619,7 +630,8 @@ Where functions arguments (parameters) and local variables available.
 This is functions scope, and it's local to function.
 <!--SR:!2023-07-09,68,228-->
 
-Just like local variables, formal arguments are ==destroyed== when the function ends.
+Just like local variables, formal arguments are ==destroyed== when the function
+ends.
 <!--SR:!2023-12-22,224,250-->
 
 Can you write formal and actual parameters for power function?
@@ -1013,8 +1025,8 @@ ASCII bell character is `'\x7'`.
 The character `'\0'` represents the character with ==zero== value, the null
 character.
 
-`'\0'` is often written instead of ==`0` (numeric value)== to emphasize the character nature of some
-expression.
+`'\0'` is often written instead of ==`0` (numeric value)== to emphasize the
+character nature of some expression.
 
 A `constant expression` is an expression that involves ==only constants==.
 
@@ -1082,8 +1094,9 @@ No, names in different enumerations must be distinct. But values can be same.
 
 Is enumeration usually better than `#define`?
 ?
-Yes, enumeration is usually better than `#define` because enumeration offer the chance
-of checking and debugger may print enumeration values in their symbolic form.
+Yes, enumeration is usually better than `#define` because enumeration offer the
+chance of checking and debugger may print enumeration values in their symbolic
+form.
 
 ## 2.4 Declarations /39
 
@@ -1115,9 +1128,9 @@ Yes, it's valid, you can use expressions in initializers.
 Difference between automatic and non-automatic variables in terms of
 initialization?
 ?
-Not-automatic initialized once, before program starts execution.
-Explicitly initialized automatic variables are initialized each time the function
-or block it is in is entered.
+Not-automatic initialized once, before program starts execution. Explicitly
+initialized automatic variables are initialized each time the function or block
+it is in is entered.
 <!--SR:!2023-05-19,2,254-->
 
 External and static variables are initialized to ==zero== by default.
