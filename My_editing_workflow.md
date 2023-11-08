@@ -68,7 +68,7 @@ Insert new line above/below::`[<space>`, `]<space>`
 
 - [x] find symbol, based on grep:`<leader>vws[S]`\*
 
-- [x] find usages/references::`<leader>vrr`
+- [ ] find usages/references::`gr`
 
 - [x] go to older/newer position::`<c-o>/<c-i>`
 
