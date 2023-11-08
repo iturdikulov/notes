@@ -8,7 +8,7 @@ tags:
 - IRL
 ---
 
-# How to study?
+# How to study, or how need to study?
 
 > Education is a **purposeful activity** directed at **achieving certain aims**,
 > such as transmitting knowledge or fostering skills and character traits. These
