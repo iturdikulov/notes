@@ -80,6 +80,7 @@ as one of the most practical, since they can be run on real machines
 efficiently. Formally, a deterministic algorithm computes a mathematical
 function; a function has a unique value for any input in its domain, and the
 algorithm is a process that produces this particular value as output.
+<!--SR:!2023-10-25,1,230-->
 
 In computing, an **operand** is?
 ?
@@ -107,9 +108,9 @@ significant** part of the number is stored first. Now days LE order is
 Is compiler always tries to compact data structures?
 ?
 No, it can be wider than needed, reason optimizations.
-<!--SR:!2023-03-08,4,270-->
+
 Compiler tries to reduce memory calls, etc.
-But you can use `#pragma` to customize packing optimizations.
+But you can use `#pragma` to customize packing optimizations.<!--SR:!2024-09-09,321,270-->
 
 What is Data structure alignment?
 ?
@@ -124,7 +125,7 @@ if the data is stored in four consecutive bytes and the first byte lies on a
 
 ==Data alignment== is the aligning of elements according to their natural
 alignment.
-<!--SR:!2023-03-05,1,230-->
+<!--SR:!2023-11-23,30,210-->
 
 To ensure natural alignment, it may be necessary to insert some ==padding==
 between structure elements or after the last element of a structure.
@@ -186,7 +187,7 @@ while(1)
    }
 }
 ```
-<!--SR:!2023-03-07,3,250-->
+<!--SR:!2024-08-15,296,250-->
 
 What's wrong with this code (specific case logic)?
 ```c
@@ -213,6 +214,7 @@ What's wrong with this code (specific case logic)?
 ?
 Switch just jump to code, and continue execution blocks This logic usually is
 not expected. And you need place break; statements in each case!
+<!--SR:!2023-10-28,4,270-->
 
 What are `{}` blocks in C?
 ?
@@ -231,6 +233,7 @@ What dereference operator (indirection operator) `*` do?
 ?
 It's used to get value of variable at the pointer address. It can be used to
 output value of referencing or even set its value.
+<!--SR:!2023-10-25,1,230-->
 
 ### Additional Resources
 
