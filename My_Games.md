@@ -15,8 +15,13 @@ on my [[Smartphone|smartphone]].
 
 ## Active games
 
+- [x] [[Lineage_2_tools|Lineage 2]], long story..., 9.7/10
 - [ ] [[Gothic]]
+- [ ] [[Turing_Complete_(game)|Turing Complete]]
+- [x] Portal
+- [ ] Portal 2
 - `Half-Life`
+- `Half-Life 2`
 - `Detroit: Become Human`
 - `The Talos Principle`
 - `They Are Billions`
@@ -31,7 +36,6 @@ on my [[Smartphone|smartphone]].
 ## All Games list
 
 TODO: fix links
-- [[Lineage_2_tools|Lineage 2]], long story..., 9.7/10
 - [San Francisco Rush 2049](https://en.wikipedia.org/wiki/San_Francisco_Rush_2049)
 - ~~`Brotato`~~, completed, too time-consuming, I 8/10
 - ~~`Dark Souls Prepare to Die Edition`~~, too time-consuming, 8/10 (bad port,
