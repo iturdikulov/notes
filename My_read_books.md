@@ -17,6 +17,7 @@ review for each book.
 
 ### [[Russian_language|In Russian]]
 
+- [x] [[research/Экзюпери-Маленький_Принц]]
 - [ ] [[research/Экзюпери-Цитадель]]
 - [ ] Божественная комедия. Данте Алигьери
 - [ ] Я робот
@@ -28,9 +29,10 @@ review for each book.
 - [ ] Рассказы Азимова
 - [ ] Обитаемый остров
 - [ ] Азимов
+- [ ] Война и мир
 - [ ] [[research/Детская_литература-Библиотека_мировой_литературы_для_детей]]
 
 ### [[English_language|In English]]
 
-- [ ] [[research/Laozi-Tao_Te_Ching]],
 - [ ] Iliad and the Odyssey
+- [ ] [[research/Laozi-Tao_Te_Ching]],
