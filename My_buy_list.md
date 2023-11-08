@@ -13,64 +13,108 @@ tags:
 Usually I buy things in bulk, so I don't need to buy them again for a long time.
 I'm trying to buy items [[Shopping|online]] or offline (everyday items).
 
-My purchased items stored here: [[My_inventory|inventory]].
+My purchased items (mostly expensive) stored in [[My_inventory|my inventory]].
 
-## Repeating
+## Constantly need to buy
 
-- [ ] 🧴 Mineral water
-- [ ] 🥛 Milk
-- [ ] 🧃 Juice
-
-- 🧀 Curd
-- [ ] 🧀 Cheese
-- 🧀 Cottage cheese
-
-- [ ] 🥚 Eggs
-- [ ] 🍗 Chicken
-- 🍗 Minced chicken
-- 🐟 Fish
-- 🥩 Meat
-- [ ] 🥜 Peanuts
-- 🌰 Chestnut
-- 🌰 Almond
+### Greens and spices
 
 - 🌶️ Hot pepper
 - 🫑 Bell Pepper
-- [ ] 🌿 Flavoring
-- [ ] 🧄 Garlic
+- 🌿 Flavoring
+- 🧄 Garlic
 - 🧅 Onion
+- 🧅 Green onion
 - 🧂 Salt
+- 🧂 Pepper
+- 🧂 Basil
 
-- [ ] 🍌 Bananas
-- [ ] 🍊 Oranges
+### Drinks
+
+- 🧴 Mineral water
+- 🥛 Milk
+- 🧃 Juice, I prefer without sugar
+
+### Vegetables, mushrooms and nuts
+
+- 🍅 Tomato
+- 🥒 Cucumber
+- 🥕 Carrots
+- 🥔 Potato
+- 🍄 Mushroom
+- 🌽 Corn sticks
+- 🫘 Beans
+- 🥥 Coconut
+- 🥜 Peanuts
+- 🌰 Chestnut
+- 🌰 Almond
+
+### Fruits and berries
+
+- 🍐 Pears
+- 🍌 Bananas
+- 🍊 Oranges
 - 🟠 Persimmon
 - 🟤 Dates
 - 🍓 Strawberry
 - 🍊 Mandarins
 - 🍒 Cherry
-- 🥥 Coconut
-- [ ] 🍎 Apples
+- 🍎 Apples
 - 🍇 Grapes
-- [ ] 🥕 Carrots
-- 🍐 Pears
-- [ ] 🥔 Potato
 - 🥭 Mango
-- [ ] 🍄 Mushroom
-- 🌽 Corn sticks
-- 🫘 Beans
+- 🍑 Peach
+- 🥝 Kiwi
+- 🍍 Pineapple
+- 🍉 Watermelon
+- 🍈 Melon
+- 🍋 Lemon
+- 🍈 Grapefruit
+
+### Meat, fish and eggs
+
+- 🥩 Beef
+- 🍗 Chicken
+- 🍗 Minced chicken
+- 🐟 Fish
+- 🥚 Eggs
+
+### Cereal
 
 - 🥣 Cereal
 - 🍚 Semolina
 - 🍚 Rice
-- [ ] 🍜 Ramen/Noodle
+- 🍜 Ramen/Noodle
 - 🌾 Buckwheat
 
-- [ ] 🥟 Dumplings
+### Milk products
+
+- 🥛 Milk
+- 🥛 Kefir/Yogurt
+- 🧀 Curd
+- 🧀 Cheese
+- 🧀 Cottage cheese
+
+### Bread and half-finished products
+
 - 🍞 Bread
 - 🥪 Sandwiches
 - 🌯 Shawarma
-- [ ] 🍫 Chocolate bars, Nutella
-- [ ] 🍪 Cookies, Oreo
+- 🥟 Dumplings
+
+### Sweet
+
+- 🍰 Cake
+- 🍪 Cookies, Oreo
+- 🍫 Chocolate bars, Nutella
+- 🍭 Lollipop
+- 🍬 Candy
+- 🍿 Popcorn
+- 🍦 Ice cream
+- 🍩 Donuts
+- 🍦 Waffles
+- 🍯 Honey
+
+### Other
 
 - 🧼 Soap
 - 🧴 Shampoo
@@ -78,3 +122,4 @@ My purchased items stored here: [[My_inventory|inventory]].
 - 🧻 Paper towels
 - 🧻 Toilet paper
 - 🦷 Toothpaste
+- 🪥 Toothbrush
