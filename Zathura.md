@@ -8,8 +8,8 @@ tags:
 
 # Zathura document viewer
 
-Zathura is my favorite documents' viewer. It's support many formats, lightweight
-and fast.
+Zathura is my favorite [[Document|documents']] viewer. It's support many
+formats, lightweight and fast.
 
 I use custom configuration to adjust colors/fonts and paddings.
 

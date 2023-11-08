@@ -11,11 +11,8 @@ sr-ease: 270
 
 # Template
 
-Template files have many different uses. I store some for documents, text notes
-(markdown for example), graphics, web pages, boilerplate texts and other
-purposes.
+Template files have many different uses. I store some for
+[[Document|documents]], text [[Evergreen_notes|notes]] ([[Markdown|markdown ]]
+for example), graphics, web pages, boilerplate texts and other purposes.
 
-PDF templates for handwritten notes are stored
-[here](file:///home/inom/Templates/google-drive/notes/), which originally
-grabbed from [GitHub - flyguybravo/goodnotes](https://github.com/flyguybravo/goodnotes).
-
+[Here](~/Templates/) I'm collecting my templates.
