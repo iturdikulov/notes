@@ -39,3 +39,4 @@ _[Alphabet of Typography – Pop Chart](https://popchart.co/products/alphabet-of
 ## TODO
 
 - [ ] add here font properties, types, etc.
+- [ ] [Паратайп | Основные принципы сочетания шрифтов](http://rus.paratype.ru/pairing-typefaces)
