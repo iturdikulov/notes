@@ -21,22 +21,32 @@ Check also [[My_shell_scripts|my scripts]] and
   * [[Neovim]] - main PDE environment
   * [[Telekasten.nvim]] - personal [[Zettelkasten]]
   * [[Sniprun]] - run code blocks (mostly in research notes).
+- [[Obsidian]] - a knowledge base that works on local Markdown files. Used
+mostly to render markdown notes and to organize
+[[Spaced_repetition|spaced repetition]] system.
 - [[Pycharm]] - IDE for Python
-- [[Firefox]] - web browser
+- [Firefox](https://www.mozilla.org/en-US/firefox/new/) - web browser,
+  [[Firefox|more_info]]
 - [[Taskwarrior]] - command-line to-do list manager
 
 ### Tier 2
 
+- [[Godot]] - free and open source 2D and 3D game engine
 - [[Blender]] - open-source 3D computer graphics software tool set
 - [[Krita]] - open source painting program
 
 ### Tier 3
 
-- [[Godot]] - free and open source 2D and 3D game engine
+- Qucs-s - circuit simulator with graphical user interface
+- Fritzing - is an electronics design and prototyping platform for makers,
+hobbyists, and educators.
+- [[Inkscape]] - open source vector graphics editor,
 - [[Darktable]] - photography workflow application and raw developer
 - [[Natron]] - open source compositing software
-- [[Inkscape]] - open source vector graphics editor,
-- [[Obsidian]] - a knowledge base that works on local Markdown files
+
+### Tier 4 (proprietary)
+
+- Adobe Photoshop
 
 ## Programming
 
@@ -53,7 +63,6 @@ TODO: restructure, instead more_info, use linking to notes!
   [[Docker|more_info]]
 - [sc-im](https://github.com/andmarti1424/sc-im) - vim-like spreadsheet
   calculator/editor, [[Sc-im|more_info]]
-- [visidata](http://visidata.org/) - interactive multi-tool for tabular data
 
 - [locust](https://locust.io/) - An open source load testing tool
 - [jq](https://stedolan.github.io/jq/) - jq is like sed for JSON data,
@@ -92,25 +101,23 @@ TODO: restructure, instead more_info, use linking to notes!
   automation platform that makes your applications and systems easier to deploy
 - [NNN (n³)](https://github.com/jarun/nnn) - nnn (n³) is a full-featured
   terminal file manager, [[Nnn_file_manager|more_info]]
-- [leetup](https://github.com/dragfire/leetup) - command line tool to solve
-  [[LeetCode_Team-LeetCode|LeetCode]] problems
+-  [[leetcode-cli]] - command line tool to solve
+  [[LeetCode_Team-LeetCode|LeetCode]] problems from terminal
 
 ## Internet
 
 - [Brave](https://brave.com/) - modern, fast and private browser, based on
   Chromium, [[Brave]]
 - [NeoMutt](https://neomutt.org/) - message user agent (MUA),
-  [[Neomutt|more_info]]
+  [[Neomutt|more_info]], not use anymore
 - [Telegram Desktop](https://desktop.telegram.org/) - Telegram Desktop
 - [bitlbee](https://www.bitlbee.org/) - IRC to other chat networks gateway,
   [[Bitlbee|more_info]]
-- [Firefox](https://www.mozilla.org/en-US/firefox/new/) - web browser,
-  [[Firefox|more_info]]
 - [[Surfingkeys]] - keyboard-based navigation in web browser
 - [slack-desktop](https://slack.com/) - Slack Desktop for Linux
 - [discord](https://discord.com/) - Discord Instant Messenger
 - [lynx](https://lynx.invisible-island.net/) - text-based web browser
-- [[Miniflux]] - RSS reader, web application
+- [[Miniflux]] - RSS reader, web application, not use anymore
 - [[Newsboat]] - CLI RSS reader, console application
 
 ## Graphics
