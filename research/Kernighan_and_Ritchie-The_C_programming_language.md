@@ -12,16 +12,15 @@ directory: ~/Computer/programming/Kernighan_and_Ritchie-The_C_programming_langua
 
 The authors of this book present the complete guide to ANSI standard C language
 programming. Written by the developers of C, this new version helps readers keep
-up with the finalized ANSI standard for C while showing how to take advantage of
-C's rich set of operators, economy of expression, improved control flow, and
-data structures.
+up with the finalized ANSI standard for C (not latest one) while showing how to
+take advantage of C's rich set of operators, economy of expression, improved
+control flow, and data structures.
 
 Questions and answers formatted as flashcards.
 
 # Preface /6
 
-Looks like any popular language changes over the time, and C is not an
-exception.
+Any popular language changes over the time, and C is not an exception.
 
 Goal of the [[ANSI_C]] standard
 ?
@@ -30,7 +29,7 @@ my words - universal, clear and easy to understand language because it can only
 mean one thing.
 <!--SR:!2023-05-13,1,227-->
 
-Write useful programs probably the best goal to learn any language.
+Write ==useful== programs probably the best goal to learn any language.
 
 C wears well as one's ==experience== with it grows.
 <!--SR:!2023-07-31,62,267-->
@@ -47,13 +46,14 @@ Is C is high-level language?
 ?
 Yes, but it not a "very high-level" language, nor a "big" one. But its absence
 of restrictions and its generality make it more convenient and effective for
-many tasks than supposedly more powerful languages.
+many tasks than supposedly more powerful languages. For example, it's used a lot
+in hardware programming, embedded systems, kernel development, etc.
 <!--SR:!2023-07-28,59,267-->
 
 # Chapter 1 - A Tutorial Introduction /9
 
-Basics of C (as language, like [[Variable]] and arithmetic
-[[Expression]]).
+Basics of C (as language, like [[Variable|variable]] and arithmetic
+[[Expression|expression]]).
 ?
 - Declarations
 - Variables and constants
@@ -72,7 +72,8 @@ The only way to learn a new programming language is by ==writing programs== in
 it.
 <!--SR:!2023-08-01,63,267-->
 
-Hello world program, can you describe it, each parts?
+Here [[Hello_World_program|Hello world]] program, can you in details describe
+it, each parts?
 ```c
 #include <stdio.h>
 main()
@@ -83,31 +84,37 @@ main()
 ```
 ?
 ```c
-#include <stdio.h> // include standart input/output library (this is commentary)
-main() // define a function called main, that receives no arguments values, () surround arguments
-{                  //{ opens a block
-    // main calls library function printf,
-    // \n is escape sequence for newline
+// include standart input/output library (this is commentary)
+#include <stdio.h>
+
+// define a function called main (initiator), () surround arguments
+main()
+{ // { - opens a block of statements
+    // main calls library function printf in one function statement,
     // "hello, world\n" is a character string (string constant) argument
-    printf("hello, world\n"); // one statement of the main function
-// } closes a block
-}
+    // \n is escape sequence for newline
+    printf("hello, world\n"); // function which print string constant
+} // } - closes a block
 ```
 <!--SR:!2023-05-28,16,248-->
 
-Process of create the program text somewhere, compile it successfully, load it,
-run it, and find out where your output went a big deal. After that you usually
-can continue with comparatively easy tasks.
+Is this code valid in [[C]]?
+```c
+printf("hello, world
+");
+```
+?
+No, C compiler will produce error, missing terminating `"` character.
 
 Steps to compile and run a C program
 ?
-1. Create the program text somewhere
+1. Create the program text somewhere (file whose name ends in ".c")
 2. Compile it successfully (multiple steps), usually with `gcc` command or
-   `clang` or `cc`. In modern world you need to use some build system.
+   `clang` or `cc`. Nowadays, you usually need to use some build system.
 3. Load it & Run it
 5. Find out where your output went
 
-Describe this [[Escape_sequence]]'s:
+Describe this [[Escape_sequence|escape sequences]]'s:
 - `\n`
 - `\t`
 - `\b`
@@ -115,10 +122,10 @@ Describe this [[Escape_sequence]]'s:
 - `\"`
 - `\'`
 ?
-- `\n` - newline
+- `\n` - newline, it's a single character
 - `\t` - tab
 - `\b` - backspace
-- `\\` - backslash
+- `\\` - backslash itself
 - `\"` - double quote
 - `\'` - single quote
 <!--SR:!2023-11-24,206,268-->
@@ -126,11 +133,9 @@ Describe this [[Escape_sequence]]'s:
 C program, whatever its size, consists of ==functions and variables==.
 <!--SR:!2023-08-04,66,287-->
 
-Function contains ... that specify its computing operations to be done, and ...
-store values used during the computation.
-?
-[[Statement]] and
-[[Variable]].
+Function contains ==[[Statement|statements]] and [[Variable|variables]]== that
+specify its computing operations to be done, and store values used during the
+computation.
 
 A function contains ==statements== that specify the computing
 operations to be done.
@@ -151,11 +156,21 @@ Use arguments between calling function and called function.
 <!--SR:!2023-08-05,67,287-->
 
 A function is called by ==naming it==, followed by a parenthesized list of
-arguments.
+arguments (or just empty parenthesis).
 <!--SR:!2023-05-15,3,267-->
 
 `"hello, world\n"` this is a ==character string== or ==string constant==.
 <!--SR:!2023-06-06,7,208!2023-07-27,58,248-->
+
+### Exercises
+
+- [x] [Exercise 1-1](./chapter_1/1-1_hello_world.c). Run the "hello, world"
+program on your system. Experiment with leaving out parts of the program, to see
+what error messages you get.
+
+- [x] [Exercise 1-2](./chapter_1/1-2_printf_experiments.c). Experiment to find
+out what happens when printf's argument string contains '\c, where c is some
+character not listed above.
 
 ## 1.2 Variables and Arithmetic Expressions /11
 
