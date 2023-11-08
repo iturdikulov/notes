@@ -20,3 +20,14 @@ directory: ~/Reference/dictionary/
 
 I use [[Sdcv|electronic dictionaries]] to translations and understand the
 meaning of words.
+
+## Words which I search through Sdcv (inbox for future flashcards)
+
+- doom
+- confidence
+- anxiety
+- hesitation
+- tackle
+- aims
+- strength
+- досада
