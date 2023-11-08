@@ -23,11 +23,19 @@ meaning of words.
 
 ## Words which I search through Sdcv (inbox for future flashcards)
 
-- doom
-- confidence
-- anxiety
-- hesitation
-- tackle
 - aims
+- anxiety
+- beans
+- confidence
+- doom
+- hesitation
 - strength
+- tackle
+- vegetable
+- говядина
 - досада
+- крупа
+- напитки
+- напиток
+- орех
+- сладости
