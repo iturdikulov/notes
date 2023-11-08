@@ -30,9 +30,11 @@ Good inspiration for watching movies.
 ## To watch/rewatch
 
 - [x] Невероятный мир глазами Энцо, dramatic, family movie 9/10
-- [ ] ВАЛЛ·И (2008)
-- [ ] Sicario (2015)
-- [ ] Голый пистолет
+- [x] ВАЛЛ·И (2008), sensitive, happy end, for children
+- [x] Меланхолия (фильм, 2011), depressive a little, but not a lot for me. Make
+  me think about life. 9.1/10
+- [x] Sicario (2015), after second watch less emotional/interesting, 8.5/10
+- [x] Голый пистолет, after second watch less funny, but overall good, 8.1/10
 - [ ] Гнев человеческий
 - [ ] Lord of the Rings: The Two Towers (2002)
 - [ ] Lord of the Rings: The Return of the King (2003)
