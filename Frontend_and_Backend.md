@@ -60,3 +60,7 @@ Source of articles and materials:
 - [ ] [Infinitely Better UIs with Finite Automata - YouTube](https://www.youtube.com/watch?v=VU1NKX6Qkxc)
 - [ ] [XState Catalogue](https://xstate-catalogue.com/)
 
+## Resources
+
+- [ ] [The Odin Project, web development](https://www.theodinproject.com/)
+- [ ] [Full stack open](https://fullstackopen.com/en/)

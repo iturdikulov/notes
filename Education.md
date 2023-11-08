@@ -9,6 +9,15 @@ tags:
 
 # Education
 
+> Education is the transmission of knowledge, skills, and character traits. Its
+> precise definition is disputed and there are disagreements about what the aims
+> of education are and to what extent education is different from indoctrination
+> by fostering critical thinking. These disagreements affect how to identify,
+> measure, and improve forms of education. The term "education" can also refer
+> to the mental states and qualities of educated people and the academic field
+> studying educational phenomena.\
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Education)</cite>
+
 Since I'm use [[Zettelkasten]], I can create new notes based on education
 materials and extend them with different sources, my experience, etc. That
 materials have `research` tag.
@@ -28,6 +37,11 @@ good place to strength computer science skills is solving
 
 I think [[research/Polya-How_to_solve_it|how to solve it]] can be also used
 as method to learn.
+
+Also here good resources to understand how to learn better:
+
+- [ ] [The Feynman Technique: The Best Way to Learn Anything](https://fs.blog/feynman-technique/)
+- [ ] [How To Acquire The Tacit Knowledge of Experts](https://commoncog.com/how-to-learn-tacit-knowledge/)
 
 ## My current study list (priority is matter):
 
@@ -49,6 +63,8 @@ core of [[Python]] using cheatsheet.
 - [[research/Хирьянов-Курс_молодого_бойца_МФТИ_язык_С|Курс молодого бойца на языке С]], to learn basics of [[C]].
 
 - Learn more python programming with [[research/Хирьянов-Практика_программирования_на_Python|Практика программирования на Python]].
+
+- Learn algorithms and structures with [Хирьянов, 2020 Алгоритмы и структуры данных (С++) - YouTube](https://www.youtube.com/playlist?list=PLRDzFCPr95fL_5Xvnufpwj2uYZnZBBnsr). TODO: need to create own note.
 
 - [[research/Kernighan_and_Ritchie-The_C_programming_language|The C programming language]],
 to understand most of [[C]].
@@ -135,6 +151,13 @@ this engine, and it can be even used as [[Art]] tool.
 - [[research/Sedgewick_and_Wayne-Algorithms_Part_1]]
 - [[research/Sedgewick_and_Wayne-Algorithms_Part_2]]
 
+- [ ] [Introduction to Computer Science and Programming | Electrical Engineering and Computer Science | MIT OpenCourseWare](https://ocw.mit.edu/courses/6-00sc-introduction-to-computer-science-and-programming-spring-2011/)
+- [ ] [Introduction to Computer Science and Programming in Python](https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/)
+- [ ] [Computer science | Computing | Khan Academy](https://www.khanacademy.org/computing/computer-science)
+- [ ] [Stepic computer science](https://stepik.org/lesson/28728/step/1?unit=9786)
+- [ ] [Algorithms on Graphs | Coursera](https://www.coursera.org/learn/algorithms-on-graphs)
+
+- [ ] [The Man Who Revolutionized Computer Science With Math - YouTube](https://www.youtube.com/watch?v=rkZzg7Vowao)
 
 ### Computer graphics
 
@@ -181,12 +204,6 @@ this engine, and it can be even used as [[Art]] tool.
 - [[My_read_books]]
 - [[Articles]]
 - [[research/Nova_Byrne-Tech_yourself_computer_science|Tech yourself computer science]]
-- [The Odin Project](https://www.theodinproject.com/)
-- [Full stack open](https://fullstackopen.com/en/)
 - [Udemy](https://www.udemy.com/)
 - [edX](https://www.edx.org/)
 - [Coursera](https://www.coursera.org/)
-- [ ] [How To Acquire The Tacit Knowledge of Experts](https://commoncog.com/how-to-learn-tacit-knowledge/)
-- [ ] [The Feynman Technique: The Best Way to Learn Anything](https://fs.blog/feynman-technique/)
-
-
