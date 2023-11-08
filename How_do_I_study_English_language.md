@@ -16,6 +16,12 @@ I usually just read some content in [[English_language]]. I also consume
 Since I am a native speaker of [[Russian_language]], I need to study English
 with Russian in same time (to understand grammar, etc.).
 
+Fundamentals of English grammar:
+
+- [[research/Черниховская-English_Start-up]]
+- [[research/Murphy_Essential_Grammar_in_Use_Elementary]]
+- [[research/Murphy_Essential_Grammar_in_Use_Intermediate]]
+
 ## Resources
 
 - [General Writing Introduction - Purdue University](https://owl.purdue.edu/owl/general_writing/index.html)

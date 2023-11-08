@@ -13,6 +13,19 @@ tags:
 List of resources and tips to learn [[Mathematics]]
 
 - [[Multiplication_table]]
+- [Learn Numbers](https://www.mathsisfun.com/numbers/).
+- [[research/Eмeлин-Кратчайший_курс_школьной_математики]]
+- Read [[research/Киселёв-Элементы_алгебры_и_анализа_часть_1|Элементы алгербы и анализа, часть 1]],
+to understand basic of [[Mathematics]] and Algebra.
+- [[research/Хэндли-Считайте_в_уме_как_компьютер]]
+- [[research/Math_is_Fun_Team-Math_is_Fun|Math is fun]]
+- [[research/Романовский-Дискретный_анализ]]
+- [[research/Демидович-Сборник_задач_и_упражнений_по_математическому_анализу]]
+- [[research/Кушниренко-Программирование_для_математиков]]
+- [[research/Зорич-Математический_анализ]]
+- [[research/Schroder-Mathematical_Analysis]]
+- [[research/Kun-A_Programmers_Introduction_to_Mathematics]]
+
 - [ ] [Projective Geometric Algebra](https://projectivegeometricalgebra.org/),
 also related to [[Computer_graphics]].
 - [ ] [Зачем нужны синусы и косинусы? - YouTube](https://youtu.be/hwpWTkdh-BA)
@@ -28,12 +41,8 @@ also related to [[Computer_graphics]].
 - [ ] [An Intuitive Introduction To Limits – BetterExplained](https://betterexplained.com/articles/an-intuitive-introduction-to-limits/)
 - [ ] [Introduction to Numerical Computing with NumPy | SciPy 2019 Tutorial | Alex Chabot-Leclerc - YouTube](https://www.youtube.com/watch?v=ZB7BZMhfPgk)
 - [ ] [Алгебра, уроки в свободном доступе - YouTube](https://www.youtube.com/playlist?list=PLp1o4TiOetLxhCoq5ltCibkk0tlJua_z7)
-- [ ] [[research/Math_is_Fun_Team-Math_is_Fun]]
 - [ ] [A Programmer's Introduction to Mathematics](https://pimbook.org/)
 - [ ] [Eric Cornwell Education Videos](https://vimeo.com/user543333)
-- [[research/Eмeлин-Кратчайший_курс_школьной_математики]]
-- TODO: киселёв
-- [[research/Kun-A_Programmers_Introduction_to_Mathematics]]
 
 - Конкретная математика
 - [ ] concrete mathematic
