@@ -17,8 +17,9 @@ tags:
 
 Place for study is important. You can prepare ==environment== for study, reduce
 distraction factors. For example if you make your bed, you will not want to
-sleep there, because it's accurate, and you wank keep it accurate. Sometimes you
-can find other places to study, for example study café.
+sleep there, because it's accurate, and you wank keep it accurate, it can be
+also initial ritual to make first task done!. Sometimes you can find other
+places to study, for example study café.
 
 If you spend more time on learning, you will be more effective. To increase
 effective try to understand, you're learning ==fact or concept==. Name of thing
