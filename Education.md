@@ -109,6 +109,7 @@ this engine, and it can be even used as [[Art]] tool.
 
 ### Programming
 
+- [[research/Kernighan_and_Plauger-The_Elements_of_Programming_Style]]
 - [[research/DeVries-Tutorials]]
 - [[research/ThePrimeagen-Tutorials]]
 
