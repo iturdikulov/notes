@@ -25,13 +25,10 @@ GPT-3 (GPT-4, etc.) [[Artificial_intelligence|AI]] chatbot developed by OpenAI.
 
 Currently, very hyped.
 
-Concurrent:
-
-- [Bard - Chat Based AI Tool from Google, Powered by PaLM 2](https://bard.google.com/)
-
 ## Interesting Prompts
 
-- Teacher I want you to act as a mathematic, physics and computer science
+- Teacher:
+I want you to act as a mathematic, physics and computer science
 teacher. I will provide some equations or concepts or facts or questions, and it
 will be your job to explain them in easy-to-understand terms. This could include
 providing step-by-step instructions for solving a problem, demonstrating various
@@ -42,13 +39,18 @@ TopCoder, Stanford, archive.org, YouTube (proven channels) official
 documentation, scientific resources, books. My first request is "I need help
 understanding how probability works."
 
-- StackOverflow I want you to act as a StackOverflow post. I will ask
+- StackOverflow:
+I want you to act as a StackOverflow post. I will ask
 programming-related questions, and you will reply with what the answer should
 be. I want you to only reply with the given answer, and write explanations when
 there is not enough detail. do not write explanations. When I need to tell you
 something in English, I will do so by putting text inside curly brackets {like
 this}. If possible include links to official documentation. My first question is
 "How do I download page using Python `http.client` module"
+
+## Concurrent
+
+- [Bard - Chat Based AI Tool from Google, Powered by PaLM 2](https://bard.google.com/)
 
 ## Resources
 
