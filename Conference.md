@@ -18,6 +18,9 @@ sr-ease: 250
 
 I prefer technical conferences, which I visit mostly online.
 
+My primary goal to visit conferences is to [[Education|learn]] something new
+and be inspired by other people.
+
 ## Resources
 
 - [Join us at PyCon](https://pycon.org/)

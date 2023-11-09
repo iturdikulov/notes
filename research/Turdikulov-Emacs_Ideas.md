@@ -9,6 +9,8 @@ sr-ease: 250
 
 # Emacs-ideas
 
+Some stuff from Doom emacs, which I want to port or find ways to do in
+[[Neovim]].
 
 ## Terminal
 

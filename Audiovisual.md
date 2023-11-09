@@ -10,9 +10,10 @@ sr-ease: 250
 
 # Audiovisual
 
-> Audiovisual (AV) is electronic media possessing both a sound and a visual
-> component, such as slide-tape presentations, films, television programs,
-> corporate conferencing, church services, and live theater productions.
+> Audiovisual (AV) is electronic [[Media|media ]] possessing both a sound and a
+> visual component, such as slide-tape presentations, [[Film|films]], television
+> programs, corporate [[Conference|conferencing]], church services, and live
+> theater productions.
 >
 > Audiovisual service providers frequently offer web streaming, video
 > conferencing, and live broadcast services.

@@ -10,6 +10,5 @@ sr-ease: 270
 
 # Multiplication Quiz
 
-Interactive multiplication quiz written by me.
-
-
+Interactive multiplication quiz written by me, very simple!
+Used to remember [[Multiplication_table|multiplication table]].

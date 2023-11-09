@@ -8,6 +8,12 @@ tags:
 - outline
 ---
 
+## Contacts
+
+- Email: `i |AT| inomoz . ru`, replace `|AT|` with `@` and remove spaces.
+- [ ] Form to send message directly to my email
+- [[About_Me|Some info]] about me
+
 # How do I work with contacts
 
 TODO: Info how I organize contact note type, need implement

@@ -7,7 +7,7 @@ tags:
   - inbox
 ---
 
-This repo contains my Zettelkasten notes.
+This repo contains [[Index|my Zettelkasten notes]].
 
 Online version is here
 [https://notes.iturdikulov.com/](https://notes.iturdikulov.com/).

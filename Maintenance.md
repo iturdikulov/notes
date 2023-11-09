@@ -59,3 +59,4 @@ Here I collect resources to maintenance my hardware. Mostly
 ## Other
 
 - [This to That, how glue things to other things](http://www.thistothat.com/)
+- [[Dataview_maintenance_queries]], maintenance my [[Zettelkasten]] system.

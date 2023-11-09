@@ -9,9 +9,9 @@ sr-ease: 270
 
 # Secure Hash Algorithms (SHA)
 
-> The Secure Hash Algorithms are a family of cryptographic hash functions
-> published by the National Institute of Standards and Technology (NIST) as a
-> U.S. Federal Information Processing Standard (FIPS), including:
+> The Secure Hash Algorithms are a family of [[Cryptography|cryptographic ]]
+> hash functions published by the National Institute of Standards and Technology
+> (NIST) as a U.S. Federal Information Processing Standard (FIPS), including:
 >
 > - SHA-0: A retronym applied to the original version of the 160-bit hash
 >   function published in 1993 under the name "SHA". It was withdrawn shortly

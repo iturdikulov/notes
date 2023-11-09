@@ -39,3 +39,5 @@ meaning of words.
 - напиток
 - орех
 - сладости
+- trait
+- prevalent

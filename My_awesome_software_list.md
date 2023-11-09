@@ -266,6 +266,7 @@ TODO: restructure, instead more_info, use linking to notes!
 
 ## Utilities
 
+- [[Piper]] - a fast and local text to speech system
 - [pavucontrol](https://freedesktop.org/software/pulseaudio/pavucontrol/) -
   PulseAudio Volume Control
 - [trash-cli](https://github.com/andreafrancia/trash-cli) - Command Line
@@ -285,6 +286,7 @@ TODO: restructure, instead more_info, use linking to notes!
 
 ## UI
 
+- [[Rofi]] - window switcher, application launcher and dmenu replacement
 - [slock](https://tools.suckless.org/slock/) - simple X display locker
 - [dwm](https://dwm.suckless.org/) - A dynamic window manager for X,
   [[DWM|more_info]]

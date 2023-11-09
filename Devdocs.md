@@ -11,8 +11,8 @@ tags:
 
 # DevDocs
 
-DevDocs combines multiple API documentations in a fast, organized, and
-searchable interface.
+DevDocs combines multiple API [[Documentation|documentations ]] in a fast,
+organized, and searchable interface.
 
 Can be used as alternative to Dash or Zeal, since it's not required to install
 it locally can be used on any device with a browser.

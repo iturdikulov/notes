@@ -71,6 +71,8 @@ NV - (NPC Viewer) просмотр нпс (всех нпс, можно погу�
 
 ## Client Side stuff
 
+- [[research/xkor-xbot2010]], bot
+
 winetricks requirements:
 > export WINEARCH=win32
 > winetricks vcrun2005 vcrun2008 vcrun2010 vcrun2012 vcrun2013 vcrun2015

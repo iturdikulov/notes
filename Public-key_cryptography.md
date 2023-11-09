@@ -9,13 +9,14 @@ tags:
 
 # Public-key cryptography
 
-> Public-key cryptography, or asymmetric cryptography, is the field of
-> cryptographic systems that use pairs of related keys. Each key pair consists
-> of a public key and a corresponding private key. Key pairs are generated with
-> cryptographic [[Algorithm|algorithms]] based on [[Mathematics|mathematical]]
-> problems termed one-way functions. [[Computer_security|security]] of
-> public-key cryptography depends on keeping the private key secret; the public
-> key can be openly distributed without compromising security.\
+> Public-key [[Cryptography|cryptography]], or asymmetric cryptography, is the
+> field of cryptographic systems that use pairs of related keys. Each key pair
+> consists of a public key and a corresponding private key. Key pairs are
+> generated with cryptographic [[Algorithm|algorithms]] based on
+> [[Mathematics|mathematical]] problems termed one-way functions.
+> [[Computer_security|security]] of public-key cryptography depends on keeping
+> the private key secret; the public key can be openly distributed without
+> compromising security.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Public-key_cryptography)</cite>
 
 Examples of protocols using asymmetric key algorithms include:

@@ -15,21 +15,20 @@ on my [[Smartphone|smartphone]].
 
 ## Active games
 
-- [x] [[Lineage_2_tools|Lineage 2]], long story..., 9.7/10
 - [ ] [[Gothic]]
 - [ ] [[Turing_Complete_(game)|Turing Complete]]
-- [x] Portal
 - [ ] Portal 2
-- `Half-Life`
-- `Half-Life 2`
-- `Detroit: Become Human`
-- `The Talos Principle`
-- `They Are Billions`
-- `TIS-100`
-- `Dead Cells`
-- `Happy Game`
-- `Hellblade: Senua's Sacrifice`
-- `Command & Conquer 3: Tiberium Wars`
+- [ ] [[Castlevania]]
+- Half-Life
+- Half-Life 2
+- Detroit: Become Human
+- The Talos Principle
+- They Are Billions
+- TIS-100
+- Dead Cells
+- Happy Game
+- Hellblade: Senua's Sacrifice
+- Command & Conquer 3: Tiberium Wars
 
 ## Smartphone games
 
@@ -37,105 +36,107 @@ on my [[Smartphone|smartphone]].
 
 TODO: fix links
 - [San Francisco Rush 2049](https://en.wikipedia.org/wiki/San_Francisco_Rush_2049)
-- ~~`Brotato`~~, completed, too time-consuming, I 8/10
-- ~~`Dark Souls Prepare to Die Edition`~~, too time-consuming, 8/10 (bad port,
+- [x] [[Lineage_2_tools|Lineage 2]], long story..., 9.7/10
+- [x] Portal
+- [x] Brotato, completed, too time-consuming, I 8/10
+- Dark Souls Prepare to Die Edition, too time-consuming, 8/10 (bad port,
   but overall good game)
 - [Factorio](https://www.factorio.com/), completed, 9.5/10 sandbox experience
 - [Gris](https://nomada.studio/), completed, 9/10 good atmosphere, singing
-- `TrackMania Stadium`, completed (gold-platinum), 9/10 precision
-- `Baldur's Gate Enhanced Edition`
-- `Bastion`
-- `Besiege`
-- `Cities Skylines`
-- `Darkest Dungeon`
-- `Divinity Original Sin`
-- `Epistory - Typing Chronicles`
-- `Europa Universalis IV`
-- `Fallout 2`
-- `Fallout`
-- `Firewatch`
-- `FTL Faster Than Light`
-- `GNOG`
-- `Grim Dawn`
-- `Hacknet`
-- `Hollow Knight`
-- `Influent`
-- `Kerbal Space Program`
-- `Opus Magnum`
-- `Ori and the Blind Forest`
-- `Paperer Please`
-- `Plague Inc Evolved`
-- `Project Zomboid`
-- `Quadrilateral Cowboy`
-- `SHENZHEN IO`
-- `Silicon Zeroes`
-- `Stardew Valley`
-- `Stellaris`
-- `Terraria`
-- `The Witness`
-- `Transistor`
-- `Turing Complete`
-- `Undertale`
-- `while True learn()`
-- `Mark of the Ninja`
-- `What Remains of Edith Finch`
-- `The Binding of Isaac`
-- `Standly Paradise`
-- `Baba Is You`
-- `Machinarium`
-- `Super Meat Boy`
-- `Door Kickers`
-- `Limbo`
-- `SpaceChem`
-- `Burnout Paradise: The Ultimate Box`
-- `Super Hexagon - музыка, реакция, предсказание 10/10`
-- `Antichamber`
-- `Hotline Miami`
-- `Botanicula`
-- `Noita`
-- `Prison Architect`
-- `One Finger Death Punch - реакция, внимательность, эффекты сеттинг, 8/10`
-- `Cuphead`
-- `Titan Souls`
-- `Caves of Qud`
-- `Absolute Drift`
-- `Life is Strange`
-- `Morphopolis`
-- `Infinifactory`
-- `INSIDE`
-- `The Room`
-- `Gods Will Be Watching`
-- `Grand Theft Auto III`
-- `Grand Theft Auto: Vice City`
-- `Hero Siege`
-- `1001 Spikes`
-- `Hyper Light Drifter`
-- `Vicera Clenup Detail: Shadow Warrior`
-- `Hack&Slash`
-- `Banished`
-- `Rogue Legacy`
-- `GameDev Tycoon`
-- `Stronghold Crusader HD`
-- `Dragon's Dogma: Dark Arisen`
-- `Human Resource Machine`
-- `SimplePlanes`
-- `Pony Island`
-- `Hitman GO: Definitive Edition`
-- `Oxygen Not Included`
-- `Katana ZERO`
-- `Satisfactory`
-- `7 Billion Humans`
-- `Superflight`
-- `Wired`
-- `EXAPUNKS`
-- `CHUCHEL`
-- `Into the Breach`
-- `Creaks`
-- `Samorost 1`
-- `Automachef`
-- `Pilgrims`
-- `MOLEK-SYNTEZ`
-- `Screeps: World`
+- TrackMania Stadium, completed (gold-platinum), 9/10 precision
+- Baldur's Gate Enhanced Edition
+- Bastion
+- Besiege
+- Cities Skylines
+- Darkest Dungeon
+- Divinity Original Sin
+- Epistory - Typing Chronicles
+- Europa Universalis IV
+- Fallout 2
+- Fallout
+- Firewatch
+- FTL Faster Than Light
+- GNOG
+- Grim Dawn
+- Hacknet
+- Hollow Knight
+- Influent
+- Kerbal Space Program
+- Opus Magnum
+- Ori and the Blind Forest
+- Paperer Please
+- Plague Inc Evolved
+- Project Zomboid
+- Quadrilateral Cowboy
+- SHENZHEN IO
+- Silicon Zeroes
+- Stardew Valley
+- Stellaris
+- Terraria
+- The Witness
+- Transistor
+- Turing Complete
+- Undertale
+- while True learn()
+- Mark of the Ninja
+- What Remains of Edith Finch
+- The Binding of Isaac
+- Standly Paradise
+- Baba Is You
+- Machinarium
+- Super Meat Boy
+- Door Kickers
+- Limbo
+- SpaceChem
+- Burnout Paradise: The Ultimate Box
+- Super Hexagon - музыка, реакция, предсказание 10/10
+- Antichamber
+- Hotline Miami
+- Botanicula
+- Noita
+- Prison Architect
+- One Finger Death Punch - реакция, внимательность, эффекты сеттинг, 8/10
+- Cuphead
+- Titan Souls
+- Caves of Qud
+- Absolute Drift
+- Life is Strange
+- Morphopolis
+- Infinifactory
+- INSIDE
+- The Room
+- Gods Will Be Watching
+- Grand Theft Auto III
+- Grand Theft Auto: Vice City
+- Hero Siege
+- 1001 Spikes
+- Hyper Light Drifter
+- Vicera Clenup Detail: Shadow Warrior
+- Hack&Slash
+- Banished
+- Rogue Legacy
+- GameDev Tycoon
+- Stronghold Crusader HD
+- Dragon's Dogma: Dark Arisen
+- Human Resource Machine
+- SimplePlanes
+- Pony Island
+- Hitman GO: Definitive Edition
+- Oxygen Not Included
+- Katana ZERO
+- Satisfactory
+- 7 Billion Humans
+- Superflight
+- Wired
+- EXAPUNKS
+- CHUCHEL
+- Into the Breach
+- Creaks
+- Samorost 1
+- Automachef
+- Pilgrims
+- MOLEK-SYNTEZ
+- Screeps: World
 
 ## Modding
 

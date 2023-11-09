@@ -43,9 +43,3 @@ for example:
 - Improve my [[My_art|art]] skills
 
 And of course healthy [[Sleep|sleep]].
-
-## Contacts
-
-- Email: `i |AT| inomoz . ru`, replace `|AT|` with `@` and remove spaces.
-- [ ] Form to send message directly to my email
-
