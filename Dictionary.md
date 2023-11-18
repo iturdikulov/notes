@@ -26,12 +26,26 @@ meaning of words.
 - aims
 - anxiety
 - beans
+- compound
 - confidence
 - doom
+- excessive
+- exhausted
+- handly
 - hesitation
+- hurdle
+- local expert
+- medecine
+- point of ponder
+- prevalent
+- remainder
+- statement
 - strength
+- substitute
 - tackle
+- trait
 - vegetable
+- versatile
 - говядина
 - досада
 - крупа
@@ -39,5 +53,3 @@ meaning of words.
 - напиток
 - орех
 - сладости
-- trait
-- prevalent
