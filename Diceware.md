@@ -1,9 +1,10 @@
 ---
-external: https://theworld.com/~reinhold/diceware.html
-date: '2023-08-15'
+external:
+  - https://theworld.com/~reinhold/diceware.html
+date: 2023-08-15
 tags:
-- research
-- inbox
+  - inbox
+  - development
 directory: ~/Computer/data/word_list/
 sr-due: 2023-10-06
 sr-interval: 3

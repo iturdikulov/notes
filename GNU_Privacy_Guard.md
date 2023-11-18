@@ -294,7 +294,7 @@ NOTE: that if you are asked for a new password, it is recommended that you use t
 
 ## Resources
 
-- [Keybase is secure messaging and file-sharing.](keybase.io)
+- [Keybase is secure messaging and file-sharing.](https://keybase.io)
 - [An abridged guide to using ed25519 PGP keys with GnuPG and SSH | MuSigma](https://musigma.blog/2021/05/09/gpg-ssh-ed25519.html)
 - [GPG Keys - Create & Use :: thanoskoutr — Blog](https://thanoskoutr.com/posts/gpg-keys-configure/)
 - [GnuPG - ArchWiki](https://wiki.archlinux.org/title/GnuPG)

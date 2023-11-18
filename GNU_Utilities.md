@@ -145,7 +145,7 @@ A lot of these commands also usually exist in this
 > and assembly source code.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/GNU_Binutils)</cite>
 
-[Website](www.gnu.org/software/binutils/).
+[Website](https://www.gnu.org/software/binutils/).
 
 - `as` - assembler popularly known as GAS (GNU Assembler)
 - `ld` - linker
