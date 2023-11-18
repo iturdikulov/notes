@@ -313,3 +313,5 @@ directory: ~/Music/
 - [MusicBrainz - The Open Music Encyclopedia](https://musicbrainz.org/), useful
   for finding the correct artist and album name
 - [You are listening to](http://youarelistening.to/)
+- [Radio Record](https://www.radiorecord.ru/)
+
