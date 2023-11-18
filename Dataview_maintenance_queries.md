@@ -10,6 +10,7 @@ sr-ease: 270
 # No tags
 
 ```dataview
-list where length(file.tags) = 0
+list where length(file.tags) = 2 and contains(file.tags, "research") and contains(file.tags, "inbox")
+
 sort file.name asc
 ```
