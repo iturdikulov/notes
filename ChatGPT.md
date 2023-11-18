@@ -51,12 +51,15 @@ this}. If possible include links to official documentation. My first question is
 ## Concurrent
 
 - [Bard - Chat Based AI Tool from Google, Powered by PaLM 2](https://bard.google.com/)
+- [Bing AI - Search](https://www.bing.com/search?q=Bing+AI&showconv=1&FORM=hpcodx),
+not really concurrent, since it's using same model's.
+- [HuggingChat](https://huggingface.co/chat)
+- [Chatbot UI](https://openchat.team/)
 
 ## Resources
 
+- [ChatGPT | OpenAI Help Center](https://help.openai.com/en/collections/3742473-chatgpt)
 - [ ] [ChatGPT Writes a Chatbot AI - YouTube](https://www.youtube.com/watch?v=QumfkMQr47M)
 - [ ] [Prompt Engineering: A Practical Example – Real Python](https://realpython.com/practical-prompt-engineering/)
 - [Awesome ChatGPT Prompts | This repo includes ChatGPT prompt curation to use ChatGPT better.](https://prompts.chat/)
 - [Awesome ChatGPT Prompts](https://github.com/f/awesome-chatgpt-prompts)
-
-
