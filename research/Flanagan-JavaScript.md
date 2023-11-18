@@ -4,6 +4,7 @@ date: 2020
 tags:
   - research
   - inbox
+  - programming
 sr-due: 2023-09-19
 sr-interval: 124
 sr-ease: 248

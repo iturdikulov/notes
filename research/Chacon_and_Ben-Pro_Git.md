@@ -1,10 +1,13 @@
 ---
 author: Scott Chacon; Ben Straub
 date: 2022
-external: https://git-scm.com/book/en/v2
+external:
+  - https://git-scm.com/book/en/v2
 tags:
   - research
   - inbox
+  - software
+  - programming
 sr-due: 2023-11-04
 sr-interval: 171
 sr-ease: 230

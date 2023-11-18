@@ -5,8 +5,9 @@ sr-due: 2023-11-28
 sr-ease: 268
 sr-interval: 195
 tags:
-- inbox
-- research
+  - inbox
+  - research
+  - programming
 ---
 
 # The Python Standard Library

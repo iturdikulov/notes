@@ -36,7 +36,7 @@ C wears well as one's ==experience== with it grows.
 
 # Preface to the first edition /8
 
-Is C is a general-purpose language?
+Is C is a [[General-purpose_programming_language|general-purpose]] language?
 ?
 Yes, general-purpose something like universal language, to use it in any domain,
 and not have limited functions to specific domain.
@@ -55,16 +55,16 @@ in hardware programming, embedded systems, kernel development, etc.
 Basics of C (as language, like [[Variable|variable]] and arithmetic
 [[Expression|expression]]).
 ?
-- Declarations
-- Variables and constants
-- Arithmetic expressions
-- Operators and operands
-- Control flow
-- Loops
-- Functions
-- Input and output
-- Pointers
-- Standard library
+- Declarations, `int x;`
+- Variables and constants, `x = 1;`
+- Arithmetic expressions, `x = 1 + 2;`
+- Operators and operands, `x + y`
+- Control flow, `if (x > y) { ... }`
+- Loops, `while (x < y) { ... }`
+- Functions, `int power(int base, int n) { ... }`
+- Input and output, `printf("hello, world\n"); scanf("%d", &n);`
+- Pointers, `int *p;`
+- Standard library, `#include <stdio.h>`
 
 ## 1.1 Getting Started /9
 
@@ -78,7 +78,6 @@ it, each parts?
 #include <stdio.h>
 main()
 {
-    // print "hello, world\n" to standard output
     printf("hello, world\n");
 }
 ```
@@ -89,14 +88,17 @@ main()
 
 // define a function called main (initiator), () surround arguments
 main()
-{ // { - opens a block of statements
+{ // { brace - opens a block of statements
     // main calls library function printf in one function statement,
     // "hello, world\n" is a character string (string constant) argument
     // \n is escape sequence for newline
     printf("hello, world\n"); // function which print string constant
-} // } - closes a block
+} // } brace - closes a block
 ```
 <!--SR:!2023-05-28,16,248-->
+
+C program, whatever its size, consists of ==functions and variables==.
+<!--SR:!2023-08-04,66,287-->
 
 Is this code valid in [[C]]?
 ```c
@@ -130,20 +132,14 @@ Describe this [[Escape_sequence|escape sequences]]'s:
 - `\'` - single quote
 <!--SR:!2023-11-24,206,268-->
 
-C program, whatever its size, consists of ==functions and variables==.
-<!--SR:!2023-08-04,66,287-->
-
-Function contains ==[[Statement|statements]] and [[Variable|variables]]== that
-specify its computing operations to be done, and store values used during the
-computation.
-
-A function contains ==statements== that specify the computing
-operations to be done.
-<!--SR:!2023-08-09,71,287-->
+Function contains ==[[Statement|statements]] which specify its computing
+operations to be done, and [[Variable|variables]]== to store values used during
+the computation.
 
 Main difference between statement and expression?
 ?
-An expression evaluates to a value. A statement does something.
+An expression evaluates to a value and expression is part of statement. A
+statement does something.
 <!--SR:!2023-06-02,3,214-->
 
 The every program must have a function called ==main==.
@@ -157,24 +153,25 @@ Use arguments between calling function and called function.
 
 A function is called by ==naming it==, followed by a parenthesized list of
 arguments (or just empty parenthesis).
-<!--SR:!2023-05-15,3,267-->
+<!--SR:!2024-07-12,246,267-->
 
 `"hello, world\n"` this is a ==character string== or ==string constant==.
-<!--SR:!2023-06-06,7,208!2023-07-27,58,248-->
+<!--SR:!2024-05-04,177,208!2023-07-27,58,248-->
 
 ### Exercises
 
-- [x] [Exercise 1-1](./chapter_1/1-1_hello_world.c). Run the "hello, world"
-program on your system. Experiment with leaving out parts of the program, to see
-what error messages you get.
+- [x] [Exercise 1-1](file:///home/inom/Computer/programming/Kernighan_and_Ritchie-The_C_programming_language/chapter_1/1-1_hello_world.c).
+Run the "hello, world" program on your system. Experiment with leaving out parts
+of the program, to see what error messages you get.
 
-- [x] [Exercise 1-2](./chapter_1/1-2_printf_experiments.c). Experiment to find
-out what happens when printf's argument string contains '\c, where c is some
-character not listed above.
+- [x] [Exercise 1-2](file:///home/inom/Computer/programming/Kernighan_and_Ritchie-The_C_programming_language/chapter_1/1-2_printf_experiments.c).
+Experiment to find out what happens when printf's argument string contains '\c,
+where c is some character not listed above.
 
 ## 1.2 Variables and Arithmetic Expressions /11
 
-Formula to convert Fahrenheit to Celsius is ==`℃  = (5/9) * (℉  - 32)`==.
+Formula to convert Fahrenheit to Celsius is
+==$$^\circ C = \frac{5}{9} \times (^\circ F - 32)$$==
 
 How to define single and block comments?
 ?
@@ -296,7 +293,7 @@ Is printf part of C language, does it's unified?
 ?
 No it's part of standard library, and the behavior of `printf` is defined in the
 ANSI standard, so its properties should be the same with any compiler.
-<!--SR:!2023-07-31,62,267-->
+<!--SR:!2024-09-04,300,267-->
 
 `scanf` is like ==`printf`==
 <!--SR:!2023-05-15,3,267-->
@@ -383,7 +380,7 @@ Its bad practice to bury **magic numbers** like 300 and 20 in program.
 ## 1.5 Character Input and Output /18
 
 A text stream is a sequence of ==characters==
-<!--SR:!2023-06-19,38,268-->
+<!--SR:!2024-08-28,293,268-->
 
 Each line in text stream is terminated by a special character, called a
 ==newline==.
@@ -420,7 +417,7 @@ Read character from input stream
         output the character just read
         read next character
 ```
-<!--SR:!2023-05-15,3,267-->
+<!--SR:!2024-07-11,245,267-->
 
 ### 1.5.2 Character Counting /20
 
@@ -594,7 +591,7 @@ just know what is done is sufficient==.
 <!--SR:!2023-05-29,17,268-->
 
 $2^5$ is ==32==.
-<!--SR:!2023-08-10,89,248-->
+<!--SR:!2024-01-04,56,228-->
 
 `pow(x,y)` is equal to?
 ?
@@ -643,7 +640,7 @@ return type function_name (parameter declarations, if any) {
 Where functions arguments (parameters) and local variables available.
 ?
 This is functions scope, and it's local to function.
-<!--SR:!2023-07-09,68,228-->
+<!--SR:!2023-12-28,49,208-->
 
 Just like local variables, formal arguments are ==destroyed== when the function
 ends.
@@ -657,7 +654,7 @@ power(1, 2); // actual parameters
 ```
 <!--SR:!2023-07-26,57,248-->
 
-Describe this return values of main function: 0, 1
+Describe this return values of **main** function: 0, 1
 ?
 0 - usually this means normal termination
 1 - some signal, unusual or erroneous termination condition
@@ -783,7 +780,6 @@ The return type of ==void== states explicitly that no value is returned.
 <!--SR:!2023-05-15,3,267-->
 
 Each string terminates with a ==null character, '\0' equal to 0==.
-<!--SR:!2023-06-29,30,267-->
 
 Null character is not part of normal text.
 
@@ -974,7 +970,7 @@ It's implementation-defined, so it's better to specify explicitly. But printable
 characters are always positive.
 
 Plain `int` is equivalent to ==`signed int`==.
-<!--SR:!2023-06-02,3,234-->
+<!--SR:!2024-05-21,194,234-->
 
 ## 2.3 Constants /36
 
@@ -1035,7 +1031,7 @@ Is `'\xhh'` represent one character or two?
 One, it's single character. `hh` is one or more hexadecimal digits.
 ASCII vertical tab is `'\xb'`.
 ASCII bell character is `'\x7'`.
-<!--SR:!2023-08-02,64,274-->
+<!--SR:!2024-09-15,311,274-->
 
 The character `'\0'` represents the character with ==zero== value, the null
 character.
@@ -1146,7 +1142,7 @@ initialization?
 Not-automatic initialized once, before program starts execution. Explicitly
 initialized automatic variables are initialized each time the function or block
 it is in is entered.
-<!--SR:!2023-05-19,2,254-->
+<!--SR:!2023-12-02,23,234-->
 
 External and static variables are initialized to ==zero== by default.
 

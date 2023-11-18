@@ -4,6 +4,8 @@ author: Ruslan Osipov
 tags:
   - inbox
   - research
+  - development
+  - productivity
 directory: ~/Computer/software/Osipov-Mastering_Vim/
 sr-due: 2023-10-06
 sr-interval: 3

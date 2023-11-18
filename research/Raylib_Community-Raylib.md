@@ -1,10 +1,12 @@
 ---
 author: Ray
-external: https://www.raylib.com/index.html
+external:
+  - https://www.raylib.com/index.html
 date: 2023
 tags:
-- research
-- inbox
+  - research
+  - inbox
+  - computer_graphics
 directory: ~/Computer/graphics/Raylib_Community-Raylib
 sr-due: 2023-10-07
 sr-interval: 4

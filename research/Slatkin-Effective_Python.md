@@ -3,6 +3,7 @@ title: "Effective Python: 90 specific ways to write better python"
 tags:
   - research
   - inbox
+  - programming
 author: Brett Slatkin
 date: 2020
 sr-due: 1681833600

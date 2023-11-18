@@ -1,10 +1,12 @@
 ---
 author: Kent Trammell
-external: https://cgcookie.com/courses/human-realistic-portrait-creation-with-blender
-date: '2023-08-19'
+external:
+  - https://cgcookie.com/courses/human-realistic-portrait-creation-with-blender
+date: 2023-08-19
 tags:
-- research
-- inbox
+  - research
+  - inbox
+  - computer_graphics
 directory: ~/Computer/graphics/Trammel-HUMAN_Realistic_Portrait_With_Blender/
 sr-due: 2023-10-06
 sr-interval: 3

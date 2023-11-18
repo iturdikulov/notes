@@ -2,9 +2,11 @@
 tags:
   - research
   - inbox
-author: "Dan"
+  - productivity
+author: Dan
 date: 2023
-external: https://roosterdan.medium.com/how-to-type-100-words-per-minute-a780fd80fd27
+external:
+  - https://roosterdan.medium.com/how-to-type-100-words-per-minute-a780fd80fd27
 sr-due: 2023-10-04
 sr-interval: 1
 sr-ease: 228

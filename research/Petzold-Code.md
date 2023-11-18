@@ -1,9 +1,10 @@
 ---
-author:  Charles Petzold
+author: Charles Petzold
 date: 2000
 tags:
   - research
   - inbox
+  - computer_science
 sr-due: 2023-11-05
 sr-interval: 172
 sr-ease: 230

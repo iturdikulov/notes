@@ -3,9 +3,11 @@ date: 2023-09-19
 tags:
   - inbox
   - research
+  - computer_science
 author: Harold Abelson; Gerald Jay Sussman
 directory: ~/Computer/programming/Abelson_and_Sussman-SICP/
-external: http://mitpress.mit.edu/9780262510875/structure-and-interpretation-of-computer-programs/
+external:
+  - http://mitpress.mit.edu/9780262510875/structure-and-interpretation-of-computer-programs/
 sr-due: 2023-10-05
 sr-interval: 2
 sr-ease: 243

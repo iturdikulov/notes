@@ -2,8 +2,10 @@
 tags:
   - research
   - inbox
-author: "Jeremy Kun"
-external: "https://j2kun.gumroad.com/l/pim-book"
+  - mathematics
+author: Jeremy Kun
+external:
+  - https://j2kun.gumroad.com/l/pim-book
 date: 2020
 directory: ~/Science/math/Kun-A_Programmers_Introduction_to_Mathematics
 sr-due: 2023-10-06

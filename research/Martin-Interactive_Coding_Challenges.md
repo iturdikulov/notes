@@ -1,10 +1,13 @@
 ---
 author: Donne Martin
-external: https://github.com/donnemartin/interactive-coding-challenges
-date: '2023-08-19'
+external:
+  - https://github.com/donnemartin/interactive-coding-challenges
+date: 2023-08-19
 tags:
-- research
-- inbox
+  - research
+  - inbox
+  - computer_science
+  - programming
 directory: ~/Computer/science/Martin-Interactive_Coding_Challenges/
 sr-due: 2023-10-06
 sr-interval: 3

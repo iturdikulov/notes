@@ -1,10 +1,12 @@
 ---
 author: Rus Shuler
 date: 2002
-external: https://web.stanford.edu/class/msande91si/www-spr04/readings/week1/InternetWhitepaper.htm
+external:
+  - https://web.stanford.edu/class/msande91si/www-spr04/readings/week1/InternetWhitepaper.htm
 tags:
-    - research
-    - inbox
+  - research
+  - inbox
+  - backend
 sr-due: 2023-10-06
 sr-interval: 3
 sr-ease: 268

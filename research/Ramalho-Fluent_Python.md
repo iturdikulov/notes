@@ -1,10 +1,11 @@
 ---
 title: Fluent Python
-author:  Luciano Ramalho
+author: Luciano Ramalho
 date: 2021
 tags:
   - research
   - inbox
+  - programming
 sr-due: 2023-12-01
 sr-interval: 198
 sr-ease: 268

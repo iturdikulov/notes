@@ -4,7 +4,9 @@ date: 2023-09-14
 tags:
   - inbox
   - research
-external: https://godotengine.github.io/godot-demo-projects/
+  - computer_graphics
+external:
+  - https://godotengine.github.io/godot-demo-projects/
 directory: ~/Computer/graphics/Godot_Community-Godot_demo_projects/
 sr-due: 2023-10-07
 sr-interval: 4

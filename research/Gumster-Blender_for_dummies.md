@@ -4,6 +4,7 @@ date: 2020
 tags:
   - research
   - inbox
+  - computer_graphics
 sr-due: 2023-12-16
 sr-interval: 213
 sr-ease: 250

@@ -1,10 +1,13 @@
 ---
 auhtor: John Washam
-external: https://github.com/jwasham/coding-interview-university
-date: '2023-08-15'
+external:
+  - https://github.com/jwasham/coding-interview-university
+date: 2023-08-15
 tags:
-- research
-- inbox
+  - research
+  - inbox
+  - programming
+  - computer_science
 directory: ~/Computer/science/Washam_Coding_Interview_University/
 sr-due: 2023-10-06
 sr-interval: 3

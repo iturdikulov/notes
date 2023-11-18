@@ -4,6 +4,7 @@ date: 2013
 tags:
   - research
   - inbox
+  - art
 directory: ~/Arts_and_Entertainment/visual_arts/Loomis-Fun_With_A_Pencil
 sr-due: 2023-10-04
 sr-interval: 1

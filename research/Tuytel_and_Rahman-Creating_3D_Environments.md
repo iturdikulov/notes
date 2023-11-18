@@ -1,10 +1,12 @@
 ---
 author: Rob Tuytel; Obaidur Rahman
-external: https://www.udemy.com/course/blender-environments/
-date: '2023-08-19'
+external:
+  - https://www.udemy.com/course/blender-environments/
+date: 2023-08-19
 tags:
-- research
-- inbox
+  - research
+  - inbox
+  - computer_graphics
 directory: ~/Computer/graphics/Tuytel_and_Rahman-Creating_3D_Environments/
 sr-due: 2023-10-06
 sr-interval: 3

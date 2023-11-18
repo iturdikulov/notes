@@ -4,7 +4,9 @@ date: 2023-09-14
 tags:
   - inbox
   - research
-external: https://realpython.com/
+  - programming
+external:
+  - https://realpython.com/
 directory: ~/Computer/programming/Real_Python_Team-Python_Tutorials/
 sr-due: 2023-10-06
 sr-interval: 3

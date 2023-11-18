@@ -2,10 +2,12 @@
 title: Кратчайший курс школьной математики
 author: Eмeлин Aлeксaндр
 date: 2021-9-31
-external: https://mathter.pro/pesochnica/index.html
+external:
+  - https://mathter.pro/pesochnica/index.html
 tags:
-    - research
-    - inbox
+  - research
+  - inbox
+  - mathematics
 sr-due: 2023-12-23
 sr-interval: 220
 sr-ease: 270

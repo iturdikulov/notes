@@ -1,12 +1,15 @@
 ---
 tags:
-- inbox
-- research
+  - inbox
+  - research
+  - development
+  - software
 created: 2023-07-17
 sr-due: 2023-08-25
 sr-interval: 1
 sr-ease: 234
-external: https://www.youtube.com/playlist?list=PL-saUBvIJzOkjAw_vOac75v-x6EzNzZq-
+external:
+  - https://www.youtube.com/playlist?list=PL-saUBvIJzOkjAw_vOac75v-x6EzNzZq-
 author: Taylor Will
 directory: ~/Computer/software/Will_NixOS
 ---
