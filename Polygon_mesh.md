@@ -4,8 +4,8 @@ sr-due: 2023-08-25
 sr-ease: 228
 sr-interval: 1
 tags:
-- inbox
-- research
+  - inbox
+  - computer_graphics
 ---
 
 # Polygon mesh
