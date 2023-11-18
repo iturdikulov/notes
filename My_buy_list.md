@@ -15,9 +15,7 @@ I'm trying to buy items [[Shopping|online]] or offline (everyday items).
 
 My purchased items (mostly expensive) stored in [[My_inventory|my inventory]].
 
-## Constantly need to buy
-
-### Greens and spices
+## Greens and spices
 
 - 🌶️ Hot pepper
 - 🫑 Bell Pepper
@@ -29,13 +27,13 @@ My purchased items (mostly expensive) stored in [[My_inventory|my inventory]].
 - 🧂 Pepper
 - 🧂 Basil
 
-### Drinks
+## Drinks
 
 - 🧴 Mineral water
 - 🥛 Milk
 - 🧃 Juice, I prefer without sugar
 
-### Vegetables, mushrooms and nuts
+## Vegetables, mushrooms and nuts
 
 - 🍅 Tomato
 - 🥒 Cucumber
@@ -49,7 +47,7 @@ My purchased items (mostly expensive) stored in [[My_inventory|my inventory]].
 - 🌰 Chestnut
 - 🌰 Almond
 
-### Fruits and berries
+## Fruits and berries
 
 - 🍐 Pears
 - 🍌 Bananas
@@ -70,7 +68,7 @@ My purchased items (mostly expensive) stored in [[My_inventory|my inventory]].
 - 🍋 Lemon
 - 🍈 Grapefruit
 
-### Meat, fish and eggs
+## Meat, fish and eggs
 
 - 🥩 Beef
 - 🍗 Chicken
@@ -78,7 +76,7 @@ My purchased items (mostly expensive) stored in [[My_inventory|my inventory]].
 - 🐟 Fish
 - 🥚 Eggs
 
-### Cereal
+## Cereal
 
 - 🥣 Cereal
 - 🍚 Semolina
@@ -86,7 +84,7 @@ My purchased items (mostly expensive) stored in [[My_inventory|my inventory]].
 - 🍜 Ramen/Noodle
 - 🌾 Buckwheat
 
-### Milk products
+## Milk products
 
 - 🥛 Milk
 - 🥛 Kefir/Yogurt
@@ -94,14 +92,14 @@ My purchased items (mostly expensive) stored in [[My_inventory|my inventory]].
 - 🧀 Cheese
 - 🧀 Cottage cheese
 
-### Bread and half-finished products
+## Bread and half-finished products
 
 - 🍞 Bread
 - 🥪 Sandwiches
 - 🌯 Shawarma
 - 🥟 Dumplings
 
-### Sweet
+## Sweet
 
 - 🍰 Cake
 - 🍪 Cookies, Oreo
@@ -114,7 +112,7 @@ My purchased items (mostly expensive) stored in [[My_inventory|my inventory]].
 - 🍦 Waffles
 - 🍯 Honey
 
-### Other
+## Other
 
 - 🧼 Soap
 - 🧴 Shampoo
@@ -123,3 +121,7 @@ My purchased items (mostly expensive) stored in [[My_inventory|my inventory]].
 - 🧻 Toilet paper
 - 🦷 Toothpaste
 - 🪥 Toothbrush
+
+## Medicine
+
+- [ ] Офтан Катахром
