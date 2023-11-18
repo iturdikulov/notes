@@ -164,7 +164,7 @@ this engine, and it can be even used as [[Art]] tool.
 
 - [[research/Raylib_Community-Raylib]]
 
-- [[research/Price-Donut_Tutorial]]
+- [[research/Price-Donut_Tutorial_in_Blender]]
 - [[research/Creative_Shrimp-Hard_Surface_Modeling_In_Blender]]
 - [[research/Gumster-Blender_for_dummies]]
 - [[research/Trammell-HUMAN_Realistic_Portrait_With_Blender]]

@@ -26,7 +26,7 @@ Experiment, do something new, based on tutorials.
 
 Make something dirty but get experience.
 
-- [ ] [[research/Price-Donut_Tutorial]]
+- [ ] [[research/Price-Donut_Tutorial_in_Blender]]
 - [ ] [Learn Blender 3 for Complete Beginners - YouTube](https://www.youtube.com/playlist?list=PLn3ukorJv4vuU3ILv3g3xnUyEGOQR-D8J)
 - [ ] [Beginner Modelling Chair Tutorial - YouTube](https://www.youtube.com/playlist?list=PLjEaoINr3zgEL9UjPTLWQhLFAK7wVaRMR)
 - [ ] [Intermediate Blender Tutorial Series - YouTube](https://www.youtube.com/playlist?list=PLjEaoINr3zgHJVJF3T3CFUAZ6z11jKg6a)

@@ -17,3 +17,8 @@ freedom.
 [[Computer_graphics]] software tool set used for creating animated films, visual
 effects, [[Art|art]], 3D-printed models, motion graphics, interactive 3D
 applications, virtual reality, and, formerly, video [[Game|games]].
+
+## Resources
+
+- [Blender 4.0 Reference Manual — Blender Manual](https://docs.blender.org/manual/en/latest/index.html)
+
