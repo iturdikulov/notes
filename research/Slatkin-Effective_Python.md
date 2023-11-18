@@ -1,5 +1,4 @@
 ---
-title: "Effective Python: 90 specific ways to write better python"
 tags:
   - research
   - inbox
@@ -12,6 +11,7 @@ sr-interval: 29
 directory: ~/Computer/programming/Slatkin-Effective_Python
 ---
 
+# Effective Python: 90 specific ways to write better python
 
 ### Item 1: Know which version of python you're using {#item-1-know-which-version-of-python-you-re-using}
 

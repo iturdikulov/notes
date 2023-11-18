@@ -1,5 +1,4 @@
 ---
-title: Blender Beginner Donut Tutorial
 description:
 tags:
 - inbox
@@ -9,9 +8,11 @@ created: 2023-06-05
 sr-due: 2023-08-25
 sr-interval: 1
 sr-ease: 230
-external: https://www.youtube.com/playlist?list=PLjEaoINr3zgFX8ZsChQVQsuDSjEqdWMAD
+external: https://www.youtube.com/playlist?list=PLjEaoINr3zgEPv5y--4MKpciLaoQYZB1Z
 directory: ~/Computer/graphics/Price-Donut_Tutorial
 ---
+
+# Blender Beginner Donut Tutorial
 
 `G`::initiate move, `X`, `Y`, `Z` move along axis
 

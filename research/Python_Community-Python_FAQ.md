@@ -1,5 +1,4 @@
 ---
-title: Python Programming FAQ
 date: 2023
 external:
   - https://docs.python.org/3/faq/programming.html
@@ -12,3 +11,4 @@ sr-interval: 187
 sr-ease: 228
 ---
 
+# Python Programming FAQ

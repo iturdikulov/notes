@@ -1,5 +1,4 @@
 ---
-title: Fluent Python
 author: Luciano Ramalho
 date: 2021
 tags:
@@ -12,12 +11,21 @@ sr-ease: 268
 directory: ~/Computer/programming/Ramalho-Fluent_Python
 ---
 
-Python’s simplicity lets you become productive quickly, but this often means you aren’t using everything it has to offer. With this hands-on guide, you’ll learn how to write effective, idiomatic Python code by leveraging its best—and possibly most neglected—features.
+# Fluent Python
 
-Author Luciano Ramalho takes you through Python’s core language features and libraries, and shows you how to make your code shorter, faster, and more readable at the same time. Many experienced programmers try to bend Python to fit patterns they learned from other languages, and never discover Python features outside of their experience.
+Python’s simplicity lets you become productive quickly, but this often means you
+aren’t using everything it has to offer. With this hands-on guide, you’ll learn
+how to write effective, idiomatic Python code by leveraging its best—and
+possibly most neglected—features.
 
-With this book, those Python programmers will thoroughly learn how to become proficient in Python 3.
+Author Luciano Ramalho takes you through Python’s core language features and
+libraries, and shows you how to make your code shorter, faster, and more
+readable at the same time. Many experienced programmers try to bend Python to
+fit patterns they learned from other languages, and never discover Python
+features outside of their experience.
 
+With this book, those Python programmers will thoroughly learn how to become
+proficient in Python 3.
 
 # Cover /1
 

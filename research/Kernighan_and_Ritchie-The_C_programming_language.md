@@ -1,5 +1,4 @@
 ---
-title: "The C Programming Language"
 tags:
   - research
   - inbox
@@ -9,6 +8,8 @@ sr-interval: 1348
 sr-ease: 256
 directory: ~/Computer/programming/Kernighan_and_Ritchie-The_C_programming_language
 ---
+
+# The C Programming Language
 
 The authors of this book present the complete guide to ANSI standard C language
 programming. Written by the developers of C, this new version helps readers keep
