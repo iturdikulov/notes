@@ -78,7 +78,7 @@ Personally I learn python with
 ## Resources
 
 - [Documentation](https://docs.python.org/3/)
-- [Python Tutorials – Real Python](https://realpython.com/)
+- [Python Tutorials](https://realpython.com/)
 - [Python Developer’s Guide](https://devguide.python.org/)
 - [[research/Python_Community-Python_Standard_Library|Standart Library]]
 - [[research/Python_Community-Python_FAQ]]
