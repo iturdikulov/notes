@@ -12,7 +12,7 @@ sr-ease: 272
 
 `Mod` key: `Ctrl` or hold left mouse button.
 
-I use this remaps (optimized for [[Colemak_Mod-DH]]):
+I use this remaps (optimized for [[Colemak_Mod-DH|Colemak DH]] layout):
 
 Arrows are set to these keys:
 
