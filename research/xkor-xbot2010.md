@@ -2,7 +2,10 @@
 date: 2023-09-14
 tags:
   - inbox
-external: http://coderx.ru/showthread.php?t=9575&highlight=xBot2010
+  - research
+  - programming
+external:
+  - http://coderx.ru/showthread.php?t=9575&highlight=xBot2010
 archive: true
 sr-due: 2023-10-04
 sr-interval: 1

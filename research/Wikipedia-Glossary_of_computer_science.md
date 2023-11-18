@@ -1,15 +1,17 @@
 ---
 date: 2023-06-05
 tags:
-- inbox
-- outline
+  - inbox
+  - outline
+  - research
 sr-due: 2023-08-25
 sr-interval: 1
 sr-ease: 222
-external: https://en.wikipedia.org/wiki/Glossary_of_computer_science
+external:
+  - https://en.wikipedia.org/wiki/Glossary_of_computer_science
 ---
 
-# Glossary of [[Computer_science]]
+# Glossary of [[Computer_science|Computer Science]]
 
 You can check also this resource: [Dictionary of Algorithms and Data Structures](https://xlinux.nist.gov/dads/)
 

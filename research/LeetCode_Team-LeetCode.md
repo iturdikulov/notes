@@ -1,12 +1,15 @@
 ---
 author: LeetCode Team
-external: https://leetcode.com/
+external:
+  - https://leetcode.com/
 date: 2022-12-29
 sr-due: 2023-05-25
 sr-ease: 210
 sr-interval: 8
 tags:
-- inbox
+  - inbox
+  - research
+  - computer_science
 directory: ~/Computer/science/LeetCode_Team-LeetCode/
 ---
 

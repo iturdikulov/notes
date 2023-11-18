@@ -4,7 +4,9 @@ author: Unreal Sensei
 tags:
   - inbox
   - computer_graphics
-external: https://www.youtube.com/watch?v=k-zMkzmduqI
+  - research
+external:
+  - https://www.youtube.com/watch?v=k-zMkzmduqI
 directory: ~/Computer/graphics/Sensei-Unreal_Engine_5_Beginner_Tutorial/
 sr-due: 2023-10-04
 sr-interval: 1

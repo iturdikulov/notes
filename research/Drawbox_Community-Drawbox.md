@@ -1,15 +1,14 @@
 ---
-external: https://drawabox.com/
+external:
+  - https://drawabox.com/
 date: 2023-05-29
-sr-due: 2023-08-25
-sr-ease: 228
-sr-interval: 1
-tags:
-- inbox
-- art
 sr-due: 2023-10-10
-sr-interval: 6
 sr-ease: 208
+sr-interval: 6
+tags:
+  - inbox
+  - art
+  - research
 ---
 
 # Drawabox - learning the fundamentals of drawing

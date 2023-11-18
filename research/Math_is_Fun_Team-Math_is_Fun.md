@@ -1,8 +1,11 @@
 ---
-external: https://www.mathsisfun.com/
+external:
+  - https://www.mathsisfun.com/
 date: 2023-08-26
 tags:
-- inbox
+  - inbox
+  - research
+  - mathematics
 sr-due: 2023-08-28
 sr-interval: 1
 sr-ease: 230
