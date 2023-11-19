@@ -21,3 +21,8 @@ sr-ease: 232
 > into multimedia web pages. HTML describes the structure of a web page
 > semantically and originally included cues for its appearance.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/HTML)</cite>
+
+
+## Resources
+
+- [HTML - MDN](https://developer.mozilla.org/en-US/docs/Web/HTML)
