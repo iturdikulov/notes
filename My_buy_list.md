@@ -121,7 +121,11 @@ My purchased items (mostly expensive) stored in [[My_inventory|my inventory]].
 - 🧻 Toilet paper
 - 🦷 Toothpaste
 - 🪥 Toothbrush
+- 🧽 Kitchen sponge soft
+- 🧽 Kitchen sponge hard
+- 🧽 Kitchen sponge small
 
 ## Medicine
 
 - [ ] Офтан Катахром
+
