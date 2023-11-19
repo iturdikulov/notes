@@ -103,7 +103,9 @@ this engine, and it can be even used as [[Art]] tool.
 
 - Intro to photography with [[research/Килпатрик-Свет_и_освещение|Свет и освещение]].
 
-- Learn **[[Frontend_and_Backend]]**
+- Learn [[Frontend]]
+
+- Learn [[Backend]]
 
 ## Secondary study list
 
