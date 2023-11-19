@@ -112,7 +112,7 @@ My purchased items (mostly expensive) stored in [[My_inventory|my inventory]].
 - 🍦 Waffles
 - 🍯 Honey
 
-## Other
+## IRL
 
 - 🧼 Soap
 - 🧴 Shampoo
