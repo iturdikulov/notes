@@ -23,9 +23,11 @@ meaning of words.
 
 ## Words which I search through Sdcv (inbox for future flashcards)
 
+- actor
 - aims
 - anxiety
 - beans
+- claymation
 - compound
 - confidence
 - doom
@@ -39,6 +41,7 @@ meaning of words.
 - point of ponder
 - prevalent
 - remainder
+- robust
 - statement
 - strength
 - substitute
@@ -52,4 +55,6 @@ meaning of words.
 - напитки
 - напиток
 - орех
+- рядовой
 - сладости
+- щетка
