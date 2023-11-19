@@ -40,9 +40,8 @@ clients.
 In my work significantly help my [[Development_Environment]], [[Backup]] plan
 and daily [[Maintenance]], with attention to [[Computer_security]] practices.
 
-Currently I'm working now as a software engineer in a small company (remote,
-full-stack position, but moving into [[My_backend_developer_roadmap|backend]]
-position).
+Currently, I'm working now as a software engineer in a small company (remote,
+full-stack position, but moving into [[Backend|backend]] position).
 
 ## Resources
 

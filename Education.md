@@ -52,7 +52,7 @@ Also here good resources to understand how to learn better:
 of [[Python]].
   - [[research/Python_Community-Python_FAQ]]
   - [[research/Python_Community-Python_Glossary]]
-  - [[research/python.org-Python_standard_library]]
+  - [[research/Python_Community-Python_Standard_Library]]
   - [[research/Real_Python_Team-Python_Tutorials]]
   - [[research/Batchelder-Getting_started_testing]]
   - [[research/Seporaitis-Large_Scale_Refactoring_With_PyBowler]]
