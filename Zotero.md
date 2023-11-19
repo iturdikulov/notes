@@ -106,14 +106,3 @@ for (let id of ids) {
     }
 };
 ```
-
-## TOC
-
-- [-] zotero pre-commit hook replace absolute paths
-- [-] zotero password recover android
-- [-] zotero documentation update
-- [-] need link all this :: To generate TOC I use pdftoc.sh script, its use
-      pdftocgen to generate TOC and [[GNU_Sed]] to add heading markup rules.
-      It's work more stable than built-in TOC generator.
-
-Then I can easily add TOC to my research notes.
