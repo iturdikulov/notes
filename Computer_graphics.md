@@ -29,5 +29,6 @@ _Excellent example of computer graphics (rendered video) from branch education_
 
 - [ ] [Shadertoy BETA](https://www.shadertoy.com/)
 
+- [Компьютерная графика](http://compgraphics.info/)
 - [Real Time VFX](https://realtimevfx.com/)
 - [RenderDoc](https://renderdoc.org/)
