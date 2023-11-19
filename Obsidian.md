@@ -143,4 +143,5 @@ Review all flashcards in current file::`shift + alt + f`
 
 ## Resources
 
+- [Obsidian Help](https://help.obsidian.md/)
 - [ ] [Home · reuseman/flashcards-obsidian Wiki · GitHub](https://github.com/reuseman/flashcards-obsidian/wiki)

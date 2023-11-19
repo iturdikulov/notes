@@ -1,11 +1,13 @@
 ---
-external: https://github.com/SidOfc/mkdx
+external:
+  - https://github.com/SidOfc/mkdx
 date: 2023-04-05
 sr-due: 2025-05-21
 sr-ease: 272
 sr-interval: 4
 tags:
-- inbox
+  - inbox
+  - vim
 ---
 
 # mkdx.vim

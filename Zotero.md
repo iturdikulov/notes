@@ -1,6 +1,7 @@
 ---
 external: https://www.zotero.org/
 date: 2023-01-27
+archive: true
 tags:
 - software
 ---

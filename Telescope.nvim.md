@@ -1,15 +1,13 @@
 ---
-external:
+external: 
 date: 2023-04-06
-sr-due: 2023-05-21
-sr-ease: 270
-sr-interval: 4
-tags:
-- inbox
-- software
 sr-due: 2025-03-08
-sr-interval: 522
 sr-ease: 290
+sr-interval: 522
+tags:
+  - inbox
+  - software
+  - vim
 ---
 
 # telescope.nvim

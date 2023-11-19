@@ -4,8 +4,7 @@ date: 2021
 tags:
   - research
   - inbox
-  - development
-  - productivity
+  - vim
 sr-due: 2023-11-14
 sr-interval: 181
 sr-ease: 248

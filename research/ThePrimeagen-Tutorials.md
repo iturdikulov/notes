@@ -1,9 +1,12 @@
 ---
 author: ThePrimeagen
-external: https://www.youtube.com/@ThePrimeagen/videos
-date: '2023-08-15'
+external:
+  - https://www.youtube.com/@ThePrimeagen/videos
+date: 2023-08-15
 tags:
-- research
+  - research
+  - vim
+  - programming
 directory: ~/Computer/programming/ThePrimeagen-Tutorials/
 ---
 

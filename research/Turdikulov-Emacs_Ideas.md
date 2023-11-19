@@ -3,7 +3,7 @@ date: 2023-06-03
 tags:
   - inbox
   - research
-  - IRL
+  - vim
 sr-due: 2024-02-17
 sr-interval: 136
 sr-ease: 250

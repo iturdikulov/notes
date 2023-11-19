@@ -1,7 +1,6 @@
 ---
 date: 2023-08-28
 external: https://en.wikipedia.org/wiki/Gothic_(video_game)
-archive: true
 tags:
   - inbox
   - art
