@@ -25,3 +25,10 @@ sr-ease: 268
 
 I use [[Onedark_colors|onedark]] color scheme in configuration files of many used
 by me [[My_awesome_software_list|programs]].
+
+## Resources
+
+- [ColorScheme.Ru](https://colorscheme.ru/)
+- [terminal.sexy](https://terminal.sexy/)
+
+
