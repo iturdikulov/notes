@@ -136,6 +136,7 @@ this engine, and it can be even used as [[Art]] tool.
 ### Math and computer science
 
 - **[[How_do_I_study_mathematics|How do I study mathematics]]**
+- [AlgoList - алгоритмы, методы, исходники](http://algolist.manual.ru/)
 - [[research/Wikipedia-Glossary_of_computer_science]]
 - [[research/Petzold-Code]]
 - [[research/Cormen_et_al-Introduction_to_algorithms]]
