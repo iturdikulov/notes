@@ -29,12 +29,7 @@ Good inspiration for watching movies.
 
 ## To watch/rewatch
 
-- [x] Невероятный мир глазами Энцо, dramatic, family movie 9/10
-- [x] ВАЛЛ·И (2008), sensitive, happy end, for children
-- [x] Меланхолия (фильм, 2011), depressive a little, but not a lot for me. Make
-  me think about life. 9.1/10
-- [x] Sicario (2015), after second watch less emotional/interesting, 8.5/10
-- [x] Голый пистолет, after second watch less funny, but overall good, 8.1/10
+- [ ] Лесная братва (2006)
 - [ ] Гнев человеческий
 - [ ] Lord of the Rings: The Two Towers (2002)
 - [ ] Lord of the Rings: The Return of the King (2003)
@@ -48,6 +43,12 @@ Good inspiration for watching movies.
 - [ ] Сериал метод
 - [ ] Учитель на замену
 - [ ] One Eight Seven
+- [ ] Фантомас
+- [ ] [Судьба резидента](magnet:?xt=urn:btih:F0A052ADB9604005452D48908F45838B796A5519&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet&dn=%D0%A1%D1%83%D0%B4%D1%8C%D0%B1%D0%B0%20%D1%80%D0%B5%D0%B7%D0%B8%D0%B4%D0%B5%D0%BD%D1%82%D0%B0%20(%D0%92%D0%B5%D0%BD%D0%B8%D0%B0%D0%BC%D0%B8%D0%BD%20%D0%94%D0%BE%D1%80%D0%BC%D0%B0%D0%BD)%20%5B1970%2C%20%D0%BF%D1%81%D0%B8%D1%85%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9%20%D0%B4%D0%B5%D1%82%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%2C%20DVDRip-AVC%5D%20Sub%20(Eng))
+- [ ] [Журналист (Сергей Герасимов). 1967, Киноповесть](magnet:?xt=urn:btih:9049B58DF460CF89690BAB5BCD4DCBF7BCBAC38A&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet&dn=%D0%96%D1%83%D1%80%D0%BD%D0%B0%D0%BB%D0%B8%D1%81%D1%82%20(%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D0%B9%20%D0%93%D0%B5%D1%80%D0%B0%D1%81%D0%B8%D0%BC%D0%BE%D0%B2)%20%5B1967%2C%20%D0%9A%D0%B8%D0%BD%D0%BE%D0%BF%D0%BE%D0%B2%D0%B5%D1%81%D1%82%D1%8C%2C%20DVDRip%5D)
+- [ ] Свинарка и пастух
+- [ ] [Двенадцать месяцев. В яранге горит огонь](magnet:?xt=urn:btih:BF74E2B65E1C82A54F93BC5C487AF89B26038A57&tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet&dn=%D0%94%D0%B2%D0%B5%D0%BD%D0%B0%D0%B4%D1%86%D0%B0%D1%82%D1%8C%20%D0%BC%D0%B5%D1%81%D1%8F%D1%86%D0%B5%D0%B2.%20%D0%92%20%D1%8F%D1%80%D0%B0%D0%BD%D0%B3%D0%B5%20%D0%B3%D0%BE%D1%80%D0%B8%D1%82%20%D0%BE%D0%B3%D0%BE%D0%BD%D1%8C.%20%5B1956%2C%20%D0%A1%D0%B1%D0%BE%D1%80%D0%BD%D0%B8%D0%BA%20%D0%BC%D1%83%D0%BB%D1%8C%D1%82%D1%84%D0%B8%D0%BB%D1%8C%D0%BC%D0%BE%D0%B2%2C%20DVD5%5D%20%D0%9A%D1%80%D1%83%D0%BF%D0%BD%D1%8B%D0%B9%20%D0%9F%D0%BB%D0%B0%D0%BD%2C%20%D1%80%D0%B5%D1%81%D1%82%D0%B0%D0%B2%D1%80%D0%B0%D1%86%D0%B8%D1%8F).
+- [ ] [Дед Мороз и серый волк](magnet:?xt=urn:btih:E8235C6EFBB1E9E2C7507153D22DF042BC005F86&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet&dn=%D0%94%D0%B5%D0%B4%20%D0%9C%D0%BE%D1%80%D0%BE%D0%B7%20%D0%B8%20%D1%81%D0%B5%D1%80%D1%8B%D0%B9%20%D0%B2%D0%BE%D0%BB%D0%BA%20(%D0%92%D0%B8%D1%82%D0%BE%D0%BB%D1%8C%D0%B4%20%D0%91%D0%BE%D1%80%D0%B4%D0%B7%D0%B8%D0%BB%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9)%20%5B1978%2C%20%D0%A1%D0%A1%D0%A1%D0%A0%2C%20%D0%BC%D1%83%D0%BB%D1%8C%D1%82%D1%84%D0%B8%D0%BB%D1%8C%D0%BC%2C%20%D0%BA%D0%BE%D1%80%D0%BE%D1%82%D0%BA%D0%BE%D0%BC%D0%B5%D1%82%D1%80%D0%B0%D0%B6%D0%BA%D0%B0%2C%20WEB-DL%201080p%5D)
 
 ### Questionable
 
@@ -118,6 +119,13 @@ Good inspiration for watching movies.
 
 ## Watched
 
+- [x] Невероятный мир глазами Энцо, dramatic, family movie 9/10
+- [x] ВАЛЛ·И (2008), sensitive, happy end, for children
+- [x] Меланхолия (фильм, 2011), depressive a little, but not a lot for me. Make
+  me think about life. 9.1/10
+- [x] Sicario (2015), after second watch less emotional/interesting, 8.5/10
+- [x] Голый пистолет, after second watch less funny, but overall good, 8.1/10
+- [x] Опенгеймер, a lot of historical information, a little bit boring (for me), 7.8/10
 - [x] Lord of the Rings: The Fellowship of the Ring (2001) Medieval motifs,
       fantasy, magic, RPG! 9.85/10
 - [x] Прогулка с Богами: Два мира / Along with the Gods: The Two Worlds
