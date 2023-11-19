@@ -47,6 +47,9 @@ Sort of [[Computer_program|program]] which mimics human cognition.
 
 ## Resources
 
+- [x] [Richard Feynman: Can Machines Think? - YouTube](https://www.youtube.com/watch?app=desktop&v=ipRvjS7q1DI)
+NO, in some ways yes and can demonstrate intelegence-like behavior.
+
 - [ ] [Harvard CS50’s Artificial Intelligence with Python](https://www.youtube.com/watch?v=5NgNicANyqM)
 - [There's An AI For That - The Biggest AI Aggregator](https://theresanaiforthat.com/)
 - [Artificial intelligence | TED Talks](https://www.ted.com/playlists/310/artificial_intelligence)
