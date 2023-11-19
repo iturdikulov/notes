@@ -1,4 +1,5 @@
 ---
+date: 2022-01-01
 tags:
 - outline
 - mathematics
@@ -37,6 +38,43 @@ tags:
 | 10  | 0   | 10  | 20  | 30  | 40  | 50  | 60  | 70  | 80  | 90  | 100 | 110 | 120 |
 | 11  | 0   | 11  | 22  | 33  | 44  | 55  | 66  | 77  | 88  | 99  | 110 | 121 | 132 |
 | 12  | 0   | 12  | 24  | 36  | 48  | 60  | 72  | 84  | 96  | 108 | 120 | 132 | 144 |
+
+Basically multiplication table is set of multiply operations between **two
+numbers**.
+
+You can find that some operations are repeated in the multiplication table and
+that operations are the patterns.
+
+## Patterns
+
+Multiples of even numbers or even and odd numbers are always even numbers. 2x,
+4x, 6x, 8x, 10x, 5x6, 9x8, etc.
+
+2× is just doubling the number, 2x2=4, 2x3=6, 2x4=8, 5x2=10, 6x2=12, etc.
+
+5× has a pattern: 5, 10, 15, 20, etc. It ends in either 0 or 5.
+
+9× has a pattern, too: **9**, 1**8**, 2**7**, 3**6**, 4**5**, 5**4**, 6**3**,
+7**2**, 8**1**, 9**0**. Now, notice how the "ones" place goes down: 9, 8, 7, 6,
+...? And at the same time, the "tens" place goes up: 1, 2, 3,...?
+Well, your hands can help! Example: to multiply 9 by 8: hold your 8th finger down, and you can count "7" and "2" ... the answer is 72.
+
+10× is maybe the easiest of them all ... just put a zero after it.
+
+11× is mostly easy: from 11×2 to 11×9 you just put the two digits together.
+11×2=22, 11×3=33, ..., 11×9=99 and 11×11=121, 11×12=132
+
+2x12 → double 2x12 → 24
+3×12=36
+4×12=48
+5x12 → ends in 0, 60 (pattern above)
+6×12=72
+7×12=84
+8×12=96
+9×12=108
+10x12 → add 0, 120
+
+## Resources
 
 To remember this table I use the following training method:
 [Math Trainer - Multiplication](https://www.mathsisfun.com/numbers/math-trainer-multiply.html)
