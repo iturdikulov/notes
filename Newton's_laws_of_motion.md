@@ -5,7 +5,7 @@ sr-ease: 270
 sr-interval: 217
 tags:
 - inbox
-- phycics
+- physics
 ---
 
 # Newton's laws of motion
