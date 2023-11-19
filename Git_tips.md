@@ -241,9 +241,16 @@ Stage all changed files, ready for commit
 `git add [--all|-A]`
 <!--SR:!2023-06-20,16,252-->
 
-Stop tracking the file completely (leave it on disk)
+Stop tracking the file completely (leave it on disk) and remove from repo!
 ?
 `git rm --cached [file]`
+Here exist alternative `"un-track"` and `"track"` commands, with this solution
+file will stay in repo, but will not be tracked (updated) anymore, e.g., a
+dev.properties file that you would need to change for your local environment but
+you would never want to check in these changes:
+`git update-index --assume-unchanged <file>`
+If you want to start tracking changes again:
+`git update-index --no-assume-unchanged <file>`
 
 To list untracked files.
 ?
