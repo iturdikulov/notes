@@ -48,7 +48,7 @@ Also here good resources to understand how to learn better:
 - Improve my typing skills and practice [[English_language|English]] typing with
 [Monkeytype](https://monkeytype.com/).
 
-- [[research/Python_Community-Python_Tutorial|Python tutorial]], to learn core
+- [ ] [[research/Python_Community-Python_Tutorial|Python tutorial]], to learn core
 of [[Python]].
   - [[research/Python_Community-Python_FAQ]]
   - [[research/Python_Community-Python_Glossary]]

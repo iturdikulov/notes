@@ -8,22 +8,8 @@ tags:
 
 My current activities, priority are matter:
 
-- [[My_everyday_life|Routine]]
-
-- [[Work]]
-
-- [[Education]]
-
-- [[research/Turdikulov-Exercise_plan|Exercise plan]]
-
-- [[My_pet_projects|Pet projects]]
-
-- [[Art]]
-  - [[Visual_arts|Visual art]]
-  - [[3D_computer_graphics|3D graphics]]
-  - [[My_Games|Games]]
-
-- [[In_real_life_IRL|IRL]]
-
-- [[Cooking]]
-
+1. [[My_everyday_life|Routine]]
+2. [[Work]]
+3. [[Education]]
+4. [[My_pet_projects|Pet projects]]
+5. [[In_real_life_IRL|IRL]]

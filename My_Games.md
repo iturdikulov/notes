@@ -13,6 +13,9 @@ tags:
 I play [[Game|games]] (but not too much) usually on my [[Computer|computer]]or
 on my [[Smartphone|smartphone]].
 
+- [[OpenCV_L2_Bot]]
+- [[Snake_Game]]
+
 ## Active games
 
 - [ ] [[Gothic]]

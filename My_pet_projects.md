@@ -20,13 +20,11 @@ Features:
 - [ ] Important projects and articles on the homepage, basically HTML symlinks, maybe [[Hugo]] generated website.
 - [ ] Good CV, with links to PDF files.
 
-## Game development
+## [[Art]]
 
-- [ ] Gothic fun project
-- [ ] Skyrim fun project
-- [ ] Adrenaline L2 Bot
-- [ ] [[OpenCV_L2_Bot]]
-- [ ] [[Snake_Game]]
+- [[Visual_arts|Visual art]]
+- [[3D_computer_graphics|3D graphics]]
+- [[My_Games|Games]]
 
 ## Tools
 
