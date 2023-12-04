@@ -23,22 +23,39 @@ meaning of words.
 
 ## Words which I search through Sdcv (inbox for future flashcards)
 
+- As well
 - actor
+- admission
 - aims
 - anxiety
 - beans
+- bevel
+- borrowed
+- clause
 - claymation
 - compound
 - confidence
+- crease
+- discrepant
 - doom
+- dweling
+- dwelling
+- elaborate
+- ellobarte
+- encounter
 - excessive
 - exhausted
+- further
+- glory
 - handly
 - hesitation
 - hurdle
+- inflate
 - local expert
 - medecine
+- pivot
 - point of ponder
+- prefetch
 - prevalent
 - remainder
 - robust
