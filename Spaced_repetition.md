@@ -4,7 +4,8 @@ sr-due: 2023-11-08
 sr-ease: 289
 sr-interval: 175
 tags:
-- inbox
+  - inbox
+  - productivity
 ---
 
 # Spaced repetition
@@ -21,3 +22,34 @@ Right now I'm using [[Obsidian]] plugin
 [spaced repetition](https://www.stephenmwangi.com/obsidian-spaced-repetition/)
 and various note types to generate flashcards. I also use it to select current
 notes to work.
+
+## Test spaced repetition plugin
+
+Simple ==highlight==.
+<!--SR:!2023-11-27,3,250-->
+
+Highlight ==with
+new line== Is not working.
+
+Double::colon.
+<!--SR:!2023-11-27,3,250-->
+
+Double colon with::
+new line not working.
+
+Simple
+?
+Question
+<!--SR:!2023-11-27,3,250-->
+
+Simple question
+?
+With new
+\
+Lines
+
+Simple question 
+?
+With
+
+Newlines not working
