@@ -14,981 +14,532 @@ Shortcuts for [[Blender]] which I use often.
 
 ## General (most window types)
 
-Toolbar
-?
-T
+Toggle left toolbar::`T`
+Properties, right toolbar (useful to set dimensions, position, etc.)::`N`
+Add Object/Node::`S-A`
+Delete::`X` or `Delete` (single object deleting without confirmation)
+Search for Function::`F3`
 
-Properties (useful to set dimensions, position, etc.)
+Initiate Move, move along axis
 ?
-N
+`G`, `X`, `Y`, `Z` move along axis or move using `MiddleMouse` hold with
+snapping to axis. Along local axis - `X,X`/`Y,Y`/`Z,Z`.
 
-Add Object/Node
-?
-Shift + A
+Scale::`S`, along axis - `X/Y/Z` or scale using `MiddleMouse` hold with
+snapping to axis. Along local axis - `X,X`/`Y,Y`/`Z,Z`
 
-Delete
-?
-X *or* Delete
+Rotate::`R`, along axis - `X/Y/Z` or rotate using `MiddleMouse` hold with
+snapping to axis. Along local axis - `X,X`/`Y,Y`/`Z,Z`
 
-Search for Function
-?
-F3
+Trackball Rotate::`R, R`
+Precise movement::`S-(*hold*)`
+Incremental movement::`C-(*hold*)`
 
-Move
+Duplicate verticies/mesh.
 ?
-G
+`S-D`, or `Mesh -> Duplicate`. `LMB` to confirm, `Esc` to cancel.
+When you duplicate vertices, you can press `p` to separate them into a new mesh.
+Duplicate Linked TODO: linked?::`M-D`
+Hide selection (geometry/verticies)::`H`
+Unhide All::`M-H`
+Hide all Except Selected::`S-H`
+Annotate::`D (*hold*) + LMB (*drag*)`
+Erase Annotation::`D (*hold*) + RMB (*drag*)`
+Quick favs menu::`Q`
 
-Scale
+Rename object
 ?
-S
-
-Rotate
-?
-R
-… along axis - X/Y/Z
-… along local axis - X,X/Y,Y/Z,Z
-
-Trackball Rotate
-?
-R, R
-
-Precise movement
-?
-Shift (*hold*)
-
-Incremental movement
-?
-Ctrl (*hold*)
-
-Duplicate
-?
-Shift + D
-
-Duplicate Linked
-?
-Alt + D
-
-Hide
-?
-H
-
-Unhide All
-?
-Alt + H
-
-Hide all Except Selected
-?
-Shift + H
-
-Annotate
-?
-D (*hold*) + LMB (*drag*)
-
-Erase Annotation
-?
-D (*hold*) + RMB (*drag*)
-
-Quick favs menu
-?
-Q
+You can rename selected object by double-clicking on it in Scene collection. Or
+select object and press F2.
 
 ## Navigation (3D viewport)
 
-Orbit
-?
-MMB
+Orbit::`MMB`
 
-Pan
-?
-Shift + MMB
+Pan::`S-MMB`
 
-Zoom In/Out
-?
-Scroll *or* Ctrl + MMB
+Zoom In/Out::`Scroll` or `C-MMB`
 
-Fly
-?
-Shift + ~
+Fly::`S-~`
 
 ## View (3D viewport)
 
-## Numpad views
+## Numpad views (toggle)
 
-Camera
-?
-0
+Pie Menu::`~`
+Focus::`.`
+Isolate::`/`
 
-Focus
-?
-.
+Fast View Switch::`M-MMB (*drag*)`
+Camera::`0`
+Front::`1`
+Rotate Down::`2`
+Side::`3`
+Rotate Left::`4`
+Persp/Ortho::`5`
+Rotate Right::`6`
+Top::`7`
+Rotate Up::`8`
+Opposite::`9`
 
-Isolate
-?
-/
-
-Top
-?
-7
-
-Up
-?
-8
-
-Opposite
-?
-9
-
-Left
-?
-4
-
-Right
-?
-6
-
-Persp/Ortho
-?
-5
-
-Front
-?
-1
-
-Down
-?
-2
-
-Side
-?
-3
-
-View Pie Menu
-?
-~
-
-Fast View Switch
-?
-Alt + MMB (*drag*)
-
-Show All Objects
-?
-Home
-
-Zoom to region
-?
-Shift + B
+Show All Objects::`Home`
+Zoom to region::`S-B`
 
 ## Object Mode (3D viewport)
 
-Mode Pie Menu
-?
-Ctrl + TAB
-
-Edit/Object mode toggle
-?
-TAB
-
-Mirror
-?
-Ctrl + M *then* X/Y/Z (*or* MMB *(drag))*
-
-Set Parent (to last selected)
-?
-Ctrl + P
-
-Clear Parent
-?
-Alt + P
-
-Toggle Snapping
-?
-Shift + TAB
-
-Clear Location
-?
-Alt + G
-
-Clear Rotation
-?
-Alt + R
-
-Clear Scale
-?
-Alt + S
-
-Apply Location / Scale / Rotation
-?
-Ctrl + A
-
-Join Selected Objects
-?
-Ctrl + J
-
-Copy Attributes to New Objects
-?
-Ctrl + L
-
-Add Subdivision level
-?
-Ctrl + 0/1/2/3/4/5
-
-Mask view to region / Clear mask
-?
-Alt + B
-
-Center 3D cursor
-?
-Shift + C
-
-Move active object to collection
-?
-M
-
-Move Active Camera to view
-?
-Ctrl + Alt + Numpad0
-
-Set as Active Camera
-?
-Ctrl + Numpad0
+Change Mode Pie Menu::`C-TAB`
+Edit/Object mode toggle::`TAB`
+Mirror::`C-M` *then* `X/Y/Z` (*or* `MMB` *(drag))*
+Set Parent (to last selected)::`C-P`
+Clear Parent::`M-P`
+Toggle Snapping::`S-TAB`
+Clear Location::`M-G`
+Clear Rotation::`M-R`
+Clear Scale::`M-S`
+Apply Menu - Location / Scale / Rotation::`C-A`
+Join Selected Objects::`C-J`
+Copy Attributes to New Objects TODO: what is this?::`C-L`
+Add Subdivision level::`C-0/1/2/3/4/5`
+Mask view to region / Clear mask::`M-B`
+Center 3D cursor::`S-C`
+Move active object to collection::`M`
+Move Active Camera to view::`C-M-Numpad0`
+Set as Active Camera::`C-Numpad0`
 
 ## General Selection (most window types)
 
-Select
-?
-LMB
-
-Select All
-?
-A
-
-Deselect All
-?
-Alt + A *or* A,A
-
-Marquee Box Select
-?
-B *or* LMB (*drag*)
-
-Circle Select
-?
-C
-
-Lasso Select
-?
-Ctrl + RMB
-
-Invert Selection
-?
-Ctrl + i
-
-Select Linked
-?
-Shift + L
-
-Select Similar
-?
-Shift + G
-
-Select from many
-?
-Alt + LMB
+Select::`LMB`
+Select All::`A`
+Deselect All::`M-A`
+Marquee Box Select::`B` *or* `LMB (*drag*)`
+Circle Select::`C`
+Lasso Select::`C-RMB`
+Invert Selection::`C-i`
+Select Linked::`S-L`
+Select Similar::`S-G`
+Select from many TODO: what is this?::`M-LMB`
 
 ## Shading (3D viewport)
 
-Shading Pie Menu
-?
-Z
+Shading Pie Menu::`Z`
 
-Toggle X-Ray
+Toggle X-Ray (to select through mesh)
 ?
-Alt + Z
+`M-Z` or button in top right (2 squares).
 
 ## Pie Menus
 
-Pivot point pie menu
-?
-.
-
-Snap pie menu
-?
-Shift + S
-
-Orientation pie menu
-?
-,
+Pivot point pie menu TODO: what is pivot?::`.`
+Snap pie menu::`S-S`
+Orientation pie menu::`,`
 
 ## Selection (Edit Mode)
 
-Select Connected Mesh
-?
-Ctrl + L
-
-Select Connected Mesh Under Cursor
-?
-L
-
-Select Edge Loop
-?
-Alt + LMB
-
-Select Edge Ring
-?
-Ctrl + Alt + RMB
-
-Vertex Select Mode
-?
-1
-
-Edge Select Mode
-2
-
-Face Select Mode
-3
-
-Mirror current selection
-?
-Ctrl + Shift + M
-
-Grow/Shrink Selection
-Ctrl +/-
-
-Edge Crease
-?
-Ctrl + E
+Select Connected Mesh::`C-L`
+Select Connected Mesh Under Cursor::`L`
+Select Edge Loop::`M-LMB`
+Select Edge Ring::`C-M-RMB`
+Vertex Select Mode::`1`
+Edge Select Mode::`2`
+Face Select Mode::`3`
+Mirror current selection::`C-S-M`
+Grow/Shrink Selection TODO: need to fix my keyboard::`C-Num+`/ `C-Num-`
+Edge Crease::`C-E`
 
 ## Curve Editing (Edit mode)
 
-Add new handle
-?
-E *or* Ctrl + RMB
-
-Change handle type
-?
-V
-
-Delete but maintain connection
-?
-Ctrl + X
-
-Close curve
-?
-Alt + C
-
-Tilt
-?
-Ctrl + T
-
-Clear Tilt
-?
-Alt + T
+Add new handle::`E` *or* `C-RMB`
+Change handle type::`V`
+Delete but maintain connection::`C-X`
+Close curve::`M-C`
+Tilt, TODO: what is this?::`C-T`
+Clear Tilt::`M-T`
 
 ## Modelling (Edit Mode)
 
-Extrude
-?
-E
-
-Inset
-?
-i
-
-Bevel
-?
-Ctrl + B
-
-Bevel Vertices
-?
-Ctrl + Shift + B
-
-Loop cut
-?
-Ctrl + R
-
-Vertex/Edge Slide
-?
-G,G
-
-Knife
-?
-K
-
-Fill Face
-?
-F
-
-Shear
-?
-Ctrl + Shift + Alt + S
-
-Bend
-?
-Shift + W
-
-Split
-?
-Y
-
-Rip
-?
-V
-
-Rip Fill
-?
-Alt + V
-
-Merge
-?
-M
-
-Recalculate Normals
-?
-Shift + N
-
-Invert Normals
-?
-Ctrl + Shift + N
-
-Proportional Editing On/Off
-?
-O
-
-Proportional Falloff Type
-?
-Shift + O
-
-Separate to new object
-?
-P
+Extrude::`e`
+Inset, TODO: how its working?::`i`
+Bevel::`C-B`
+Bevel Vertices::`C-S-B`
+Loop cut::`C-R`
+Vertex/Edge Slide::`G,G`
+Knife::`K`
+Fill Face::`F`
+Shear::`C-S-M-S`
+Bend::`S-W`
+Split::`Y`
+Rip::`V`
+Rip Fill::`M-V`
+Merge::`M`
+Recalculate Normals::`S-N`
+Flip Normals: TODO: what it does?::`C-S-N`
+Proportional Editing On/Off::`O`
+Proportional Falloff Type::`S-O`
+Separate to new object::`P`
 
 ## Texturing (Edit Mode)
 
-Unwrap
-?
-U
-
-Mark Seam
-?
-Ctrl + E
+TODO: need review
+Unwrap::`U`
+Mark Seam::`C-E`
 
 ## UV Editor
 
-Select Island
-?
-L (*under cursor*) or Ctrl + L
-
-Stitch
-?
-V
-
-Weld
-?
-Shift + W
-
-Pin
-?
-P
-
-Unpin
-?
-Alt + P
-
-Select Pinned
-?
-Shift + P
+TODO: need review
+Select Island::`L` (*under cursor*) or `C-L`
+Stitch::`V`
+Weld::`S-W`
+Pin::`P`
+Unpin::`M-P`
+Select Pinned::`S-P`
 
 ## Image Editor (View)
 
-Properties, Scopes, Slots and Metadata
-?
-N
-
-View at 100%
-?
-1 (Numpad)
-
-View to Fit
-?
-Shift + Home
-
-Next Render Slot
-?
-J
-
-Previous Render Slot
-?
-Alt + J
-
-Select Render Slot
-?
-1-8
-
-Save Image
-?
-Alt + S
-
-Save Image As
-?
-Shift + S
+Properties, Scopes, Slots and Metadata::`N`
+View at 100%::`1 (Numpad)`
+View to Fit::`S-Home`
+Next Render Slot::`J`
+Previous Render Slot::`M-J`
+Select Render Slot::`1-8`
+Save Image::`M-S`
+Save Image As TODO: need compare with pdf cheatsheet::`S-M-S`
 
 ## Image Editor (Paint)
 
-Create New Blank Image
-?
-Alt + N
-
-Open Image
-?
-Alt + O
-
-Brush Properties
-?
-N
-
-Brush Size
-?
-F
-
-Brush Strength
-?
-Shift + F
-
-Sample Color
-?
-S
-
-Flip Color
-?
-X
+Create New Blank Image::`M-N`
+Open Image::`M-O`
+Brush Properties::`N`
+Brush Size::`F`
+Brush Strength::`S-F`
+Sample Color::`S`
+Flip Color::`X`
 
 ## Nodes (Materials / Compositor)
 
-Cut Connection
-Ctrl + RMB (*drag*)
-
-
-Connect selected
-?
-F
-
-Properties
-?
-N
-
-Delete selected but maintain connection
-?
-Ctrl + X
-
-Duplicate selected and maintain connection
-?
-Ctrl + Shift + D
-
-Mute Selected
-?
-M
-
-Group Selected
-?
-Ctrl + G
-
-Ungroup Selected
-?
-Ctrl + Alt + G
-
-Enter/Exit Group (Toggle)
-?
-TAB
-
-Frame Selected Nodes
-?
-Ctrl + J
-
-Show/Hide inactive node slots
-
-Ctrl + H
-
+TODO: need review
+Cut Connection::`C-RMB` (*drag*)
+Connect selected::`F`
+Properties::`N`
+Delete selected but maintain connection::`C-X`
+Duplicate selected and maintain connection::`C-S-D`
+Mute Selected::`M`
+Group Selected::`C-G`
+Ungroup Selected::`C-M-G`
+Edit Group (Toggle)::`TAB`
+Frame Selected Nodes::`C-J`
+Show/Hide inactive node slots::`C-H`
 
 ### Compositor
 
-Move backdrop
-?
-Alt + MMB
-
-Zoom backdrop
-?
-V / Alt + V
-
-Properties and performance
-?
-N
+TODO: need review
+Move backdrop::`M-MMB`
+Zoom backdrop::`V / M-V`
+Properties and performance::`N`
 
 ## Sculpting
 
-Brush Selection
-?
-Shift + Space
-
-Brush Size
-?
-F
-
-Brush Strength
-?
-Shift + F
-
-Brush Angle
-?
-Ctrl + F
-
-Angle Control
-?
-R
-
-Stroke Control
-?
-E
-
-Mask (box)
-?
-B
-
-Mask (brush)
-?
-M
-
-Clear Mask
-?
-Alt + M
-
-Invert Mask
-?
-Ctrl + i
-
-Hide (box)
-?
-H
+Brush Selection::`S-Space`
+Brush Size::`F`
+Brush Strength::`S-F`
+Brush Angle::`C-F`
+Angle Control::`R`
+Stroke Control::`E`
+Mask (box)::`B`
+Mask (brush)::`M`
+Clear Mask::`M-M`
+Invert Mask::`C-i`
+Hide (box)::`H`
 
 ## Rendering
 
-Render
-?
-F12
-
-Render Animation
-?
-Ctrl + F12
-
-Playback rendered animation
-?
-Ctrl + F11
-
-Set Render Region
-?
-Ctrl + B
-
-Clear Render Region
-?
-Ctrl + Alt + B
+Render::`F12`
+Render Animation::`C-F12`
+Playback rendered animation::`C-F11`
+Set Render Region, TODO: how it working?::`C-B`
+Clear Render Region::`C-M-B`
 
 ## Animation General
 
-Play/Pause Playback
-?
-Space
-
-Reverse Play
-?
-Ctrl + Shift + Space
-
-Scroll through frames
-?
-Alt + Scroll
-
-Next/Previous Frame
-?
-Left/Right arrow
-
-First/Last Frame
-?
-Shift + Left/Right arrow
-
-Jump to Keyframe
-?
-Up/Down arrow
-
-Add Keyframe on current frame
-?
-i
-
-Delete Keyframe on current frame
-?
-Alt + i
+Play/Pause Playback::`Space`
+Reverse Play::`C-S-Space`
+Scroll through frames::`M-Scroll`
+Next/Previous Frame::`Left/Right arrow`
+First/Last Frame::`S-Left/Right arrow`
+Jump to Keyframe::`Up/Down arrow`
+Add Keyframe on current frame::`i`
+Delete Keyframe on current frame::`M-i`
 
 ### Animation (Timeline / Dopesheet / Graph Editor)
 
-Toggle Dopesheet
-?
-Ctrl + TAB
-
-Toggle Frames/Seconds
-?
-Ctrl + T
-
-Zoom to fit active keyframes
-?
-Home *or* . (Numpad)
-
-Set Keyframe Interpolation
-?
-T
-
-Set Keyframe Handle Type
-?
-V
-
-Set Keyframe Extrapolation
-?
-Shift + E
-
-Mirror Keyframes
-?
-Ctrl + M
-
-Set Preview Range
-?
-P *then* LMB (*drag*)
-
-Auto set preview range
-?
-Ctrl + Alt + P
-
-Clear Preview
-?
-Alt + P
-
-Marker
-?
-M
-
-Rename Marker *
-?
-Ctrl + M
+Toggle Dopesheet::`C-TAB`
+Toggle Frames/Seconds::`C-T`
+Zoom to fit active keyframes::`Home` *or* `. (Numpad)`
+Set Keyframe Interpolation::`T`
+Set Keyframe Handle Type::`V`
+Set Keyframe Extrapolation::`S-E`
+Mirror Keyframes::`C-M`
+Set Preview Range::`P` *then* `LMB` (*drag*)
+Auto set preview range::`C-M-P`
+Clear Preview::`M-P`
+Marker::`M`
+Rename Marker TODO: not working?::`C-M`
 
 ### Animation (Timeline / Dopesheet / Graph Editor) (cont.)
 
-Bind Selected Camera to Selected Marker
-?
-Ctrl + B
-
-Select keyframes before/after current frame
-?
-[/]
-
-Select all keyframes on current frame
-?
-Ctrl + K
+Bind Selected Camera to Selected Marker, TODO: what it do?::`C-B`
+Select keyframes before/after current frame::`[/]`
+Select all keyframes on current frame, TODO: what it do?::`C-K`
 
 ### Graph Editor
 
-Add Keyframe at Cursor
-?
-Ctrl + RMB
-
-Properties and Modifiers
-?
-N
-
-Lock Selected Channel
-?
-TAB
+TODO: need review
+Add Keyframe at Cursor::`C-RMB`
+Properties and Modifiers::`N`
+Lock Selected Channel::`TAB`
 
 ## Rigging (Armatures)
 
-Add new bone
-?
-E
-
-Duplicate bone
-?
-Shift + D
-
-Bone Settings
-?
-Shift + W
-
-Roll
-?
-Ctrl + R
-
-Clear Roll
-?
-Alt + R
-
-Recalculate Roll
-?
-Shift + N
-
-Align bone
-?
-Ctrl + Alt + A
-
-Switch bone direction
-?
-Alt + F
-
-Dissolve Bone
-?
-Ctrl + X
-
-Dissolve bones
-?
-Ctrl + X
-
-Split
-?
-Y
-
-Separate
-?
-P
-
-Scroll Hierarchy
-?
-] *and* [
+Add new bone::`E`
+Duplicate bone::`S-D`
+Bone Settings::`S-W`
+Roll::`C-R`
+Clear Roll::`M-R`
+Recalculate Roll::`S-N`
+Align bone::`C-M-A`
+Switch bone direction::`M-F`
+Dissolve Bone::`C-X`
+Dissolve bones::`C-X`
+Split::`Y`
+Separate::`P`
+Scroll Hierarchy::`]` *and* `[`
 
 ## Posing Mode
 
-Add Keyframe
-?
-i
+TODO: need review
 
-Clear Location
-?
-Alt + G
-
-Clear Rotation
-?
-Alt + R
-
-Clear Scale
-?
-Alt + S
-
-Apply Pose
-?
-Ctrl + A
-
-Propagate Pose
-?
-Alt + P
-
-Push Pose from Breakdown
-?
-Ctrl + E
-
-Relax Pose to Breakdown
-?
-Alt + E
-
-Pose Breakdowner
-?
-Shift + E
-
-Copy Pose
-?
-Ctrl + C
-
-Paste Pose
-?
-Ctrl + V
-
-Add IK
-?
-Shift + i
-
-Add Pose to Library
-?
-Shift + L
-
-Paste Pose Flipped
-?
-Ctrl + Shift + V
-
-Add Constraint
-?
-Ctrl + Shift + C
+Add Keyframe::`i`
+Clear Location::`M-G`
+Clear Rotation::`M-R`
+Clear Scale::`M-S`
+Apply Pose::`C-A`
+Propagate Pose::`M-P`
+Push Pose from Breakdown::`C-E`
+Relax Pose to Breakdown::`M-E`
+Pose Breakdowner::`S-E`
+Copy Pose::`C-C`
+Paste Pose::`C-V`
+Add IK::`S-i`
+Add Pose to Library::`S-L`
+Paste Pose Flipped::`C-S-V`
+Add Constraint::`C-S-C`
 
 ## Window General (most window types)
 
-Toolbar
-?
-T
-
-Properties bar
-?
-N
-
-Maximise Area (but keep toolbar)
-?
-Ctrl + Space
-
-Fullscreen Area
-?
-Ctrl + Alt + Space
-
-Quad view
-?
-Ctrl + Alt + Q
+Toolbar::`T`
+Properties bar::`N`
+Maximise Area (but keep toolbar)::`C-Space`
+Fullscreen Area::`C-M-Space`
+Quad view::`C-M-Q`
 
 ### Change Window Type (Under Cursor)
 
-Movie Clip
-?
-Shift + F2
-
-Nodes
-?
-Shift + F3
-
-Python Console
-?
-Shift + F4
-
-3d Viewport
-?
-Shift + F5
-
-Graph
-?
-Shift + F6
-
-Properties
-?
-Shift + F7
-
-Video Sequencer
-?
-Shift + F8
-
-Outliner
-?
-Shift + F9
-
-UV/Image
-?
-Shift + F10
-
-Text
-?
-Shift + F11
-
-Dope Sheet
-?
-Shift + F12
+Assets::`S-F1`
+Movie Clip::`S-F2`
+Nodes::`S-F3`
+Python Console::`S-F4`
+3d Viewport::`S-F5`
+Graph::`S-F6`
+Properties::`S-F7`
+Video Sequencer::`S-F8`
+Outliner::`S-F9`
+UV/Image::`S-F10`
+Text::`S-F11`
+Dope Sheet::`S-F12`
 
 
 ## Other
 
-Open popup menu for last action
-?
-F9
+Open popup menu for last action::`F9`
+
+---
+
+# Blender Beginner Donut Tutorial
+
+You can select linked vertices by ==`Ctrl-L`==, it can help if you don't separate them and deselected vertices by accident.
+
+
+`Hold Shift`::`Allow to drag/set value more precisely`
+
+`Hold Control`::`Allow to drag/set value incrementally or enable snapping`
+
+`Z`::`toggle render mode`
+
+Probably better to place `subdivision modifier` on bottom of the stack (depends on the situation)
+
+You can toggle snapping by ==`Shift-Tab`==.
+
+To change world units need ? Scene Properties (properties sidebar) > Units >
+Metric
+
+After scaling object, need to apply scale ? C-A > Scale
+
+You can change shading of object from ==context menu==
+
+How to apply subdivision modifier (or any modifier) ? P > Modifiers Properties >
+Add Modifier
+
+How to move siblings points in edit mode ? You need to select point(s) enable
+proportional editing (O) and move (G) To increase/decrease proportional editing
+radius use mouse wheel
+
+How to move points along axis in proportional editing mode ? Use alt + s to
+shrink/fatten proportional editing radius
+
+How select random points in edit mode ? Select > **S**elect Random
+
+Orthographic mode basically means ? that you can't see perspective, only
+orthographic view (no depth, objects same size regardless of distance)
+
+https://docs.google.com/document/d/1zPBgZAdftWa6WVa7UIFUqW_7EcqOYE0X743RqFuJL3o/edit?usp=sharing
+
+# Navigation+
+
+3d viewport
+
+camera
+
+cube
+
+lamp
+
+adding object: add menu or +A
+
+delete object (without confirmation)A - DEL
+
+orbiting - scroll-wheel drag
+
+move the view - shift + scroll-wheel drag
+
+you can click on circles in axis control widget (top-right) to orbit or hold LMB on it and drag
+
+zoom - scroll up/down
+
+smooth zoom - ctrl + middle mouse drag 
+
+you can change view-port shading in top right corner, layout mode 
+
+You can move object by Gyzmo in move mode (left toolbar) and white circle around object. Or press G to grab and move your mouse.
+
+To cancel move press ESC or RMB
+
+To confirm press left click
+
+scale - scale button on left side, or S key
+
+rotate - rotate button or R key #
+
+To move by axis, press axis key while moving (X, Y, Z).  Alternative drag MMB while moving to snap/move object to axis.
+
+It also working with scaling 
+
+# Render
+
+Render working from point of view of camera
+
+F12 or Render menu -&gt; Render Image
+
+Save -&gt; ^s
+
+## Camera
+
+To enter the camera view mode, press button in right toolbar (toggle the camera view) or perss Num0 
+
+To quickly set camera position
+
+\- Select camera in Scene Collection (right menu)
+
+- press N to open properties menu
+- open view tab and check camera to view checkbox
+- move it as needed
+- uncheck camera to view 
+
+    To set material, in properties window (right side), select material tab and press add new, and set base color
+
+# Part 2
+
+After adding new object, in bottom left corner will be temporary (until you not do any action) available object options, to reopen them press F9
+
+You can quickly change object shading, by context menu (right click)
+
+On method to smooth object, is add subdivision surface modifier in object properties (right menu) .
+
+Subdivision surface split polygon to additional 4 polygons. 
+
+Press tab to switch between object and edit mode
+
+To move sibling vertices use proportional editing mode - O, or click on icon in top right. Change how much vertices affected (circle of influence size), use mouse scroll or use PgUP/PgDown.
+
+You can select edge, by holding alt and click on edge itself.
+
+# Part 3
+
+Duplicate object by +d, cancel moving by ESC or RMB
+
+
+You can select vertices in edit mode by drag LMB.
+
+**Z-fighting**, also called **stitching** or **planefighting**, is a phenomenon in 3D rendering that occurs when two or more primitives have very similar distances to the camera. This would cause them to have near-similar or identical values in the z-buffer, which keeps track of depth. This then means that when a specific pixel is being rendered, it is ambiguous which one of the two primitives are drawn in that pixel because the z-buffer cannot distinguish precisely which one is farther from the other.
+
+The _Solidify_ modifier takes the surface of any mesh and adds depth, thickness to it.
+
+You can hide modifiers in edit (and other modes) by toggle visibility in modifier properties (on top after modifier name).
+
+ You can toggle snapping by +tab or button in top right controls. Here various types of snapping: for example face project. Snapping working good if you have enough geometry (apply subdivision modifier for example). 
+
+To apply modifier, press arrow button near modifier name and  click on apply.
+
+You can extend selection in edit mode (for example edge) by ^+ and shrink by ^-.
+
+Use H to hide selection and !H to show it.
+
++H will hide all.
+
+Blender modifiers works from top to bottom. 
+
+One useful properties of solidify modifier is Edge data.
+
+To extrude, select  vertices (+LMB) and press E to start extrude. 
+
+# Part 4
+
+Shrink wrap modifier can help with snap vertices. Select target mesh, which vertices need to be snapped. Usually need to place this modifier above other ones.
+
+## Sculpting
+
+In sculpting mode you can quickly enable tools by hotkeys, for example inflate is I, draw is X, grab is G, mask M.
+
+F + mouse move will resize brush. 
+
++F + mouse move will change strength.
+
+If you have subdivision modifier, which not applied, sculpting still working on low-poly mesh, so usually you need to apply it. 
+
+Subdivision modifier applying will use Viewport level.
+
+Very handy option for mask is "Front Faces Only", which prevent painting it in opposite faces, you can find it in top toolbar, Brush dropdown. 
+
+To erase mask, hold ^
+
+To invert mask use ^i  
+
+If you want to see only selected object use / hotkey (isolation mode). 
+
+Mes filter tool can use to inflate/deflate not-masked faces.
+
+You can smooth mask by find clicking on this item in Mask option (make edge of mask "spread").
+
+To clear mask use !M or select option in menu.
+
+To reduce "lumpiness" in model, you can use smooth tool. Because this brush is so essential, it’s always accessible by holding S-and sculpting.
+
+---
