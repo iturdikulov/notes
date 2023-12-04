@@ -30,3 +30,12 @@ list where contains(file.path, "research") and !contains(file.tags, "research")
 
 sort file.name asc
 ```
+
+# Tags List
+
+```dataview
+TABLE file.tags
+SORT file.tags
+WHERE !contains(file.tags, "#inbox")
+```
+
