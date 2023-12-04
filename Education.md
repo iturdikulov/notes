@@ -48,15 +48,6 @@ Also here good resources to understand how to learn better:
 - Improve my typing skills and practice [[English_language|English]] typing with
 [Monkeytype](https://monkeytype.com/).
 
-- [ ] [[research/Python_Community-Python_Tutorial|Python tutorial]], to learn core
-of [[Python]].
-  - [[research/Python_Community-Python_FAQ]]
-  - [[research/Python_Community-Python_Glossary]]
-  - [[research/Python_Community-Python_Standard_Library]]
-  - [[research/Real_Python_Team-Python_Tutorials]]
-  - [[research/Batchelder-Getting_started_testing]]
-  - [[research/Seporaitis-Large_Scale_Refactoring_With_PyBowler]]
-
 - [[research/Šorn-Comprehensive_python_cheatsheet|Python cheatsheet]], to learn
 core of [[Python]] using cheatsheet.
 
@@ -111,6 +102,14 @@ this engine, and it can be even used as [[Art]] tool.
 
 ### Programming
 
+- [ ] [[research/Python_Community-Python_Tutorial|Python tutorial]], to learn core
+of [[Python]].
+  - [[research/Python_Community-Python_FAQ]]
+  - [[research/Python_Community-Python_Glossary]]
+  - [[research/Python_Community-Python_Standard_Library]]
+  - [[research/Real_Python_Team-Python_Tutorials]]
+  - [[research/Batchelder-Getting_started_testing]]
+  - [[research/Seporaitis-Large_Scale_Refactoring_With_PyBowler]]
 - [[research/Kernighan_and_Plauger-The_Elements_of_Programming_Style]]
 - [[research/DeVries-Tutorials]]
 - [[research/ThePrimeagen-Tutorials]]
