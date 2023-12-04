@@ -23,17 +23,33 @@ Search for Function::`F3`
 Initiate Move, move along axis
 ?
 `G`, `X`, `Y`, `Z` move along axis or move using `MiddleMouse` hold with
+snapping to axis. Along local axis - `X,X`/`Y,Y`/`Z,Z`. Alternative drag `MMB`
+while moving to snap/move object to axis.
+You can move object by Gizmo (local) in move mode (left toolbar) and white
+circle around object.
+To cancel move press `ESC` or `RMB`.
+
+Scale
+?
+`S`, along axis - `X/Y/Z` or scale using `MiddleMouse` hold with
 snapping to axis. Along local axis - `X,X`/`Y,Y`/`Z,Z`.
+Or scale button in left panel.
 
-Scale::`S`, along axis - `X/Y/Z` or scale using `MiddleMouse` hold with
-snapping to axis. Along local axis - `X,X`/`Y,Y`/`Z,Z`
-
-Rotate::`R`, along axis - `X/Y/Z` or rotate using `MiddleMouse` hold with
-snapping to axis. Along local axis - `X,X`/`Y,Y`/`Z,Z`
+Rotate
+?
+`R`, along axis - `X/Y/Z` or rotate using `MiddleMouse` hold with
+snapping to axis. Along local axis - `X,X`/`Y,Y`/`Z,Z`. Or rotate button in left
+panel.
 
 Trackball Rotate::`R, R`
-Precise movement::`S-(*hold*)`
-Incremental movement::`C-(*hold*)`
+
+Precise movement
+?
+`S-` (*hold*). Allow to drag/set value more precisely.
+
+Incremental movement
+?
+`C-(*hold*)`. Allow to drag/set value incrementally or enable snapping.
 
 Duplicate verticies/mesh.
 ?
@@ -49,18 +65,16 @@ Quick favs menu::`Q`
 
 Rename object
 ?
-You can rename selected object by double-clicking on it in Scene collection. Or
-select object and press F2.
+You can rename selected object by double-clicking on it in outliner. Or select object and press F2.
+
 
 ## Navigation (3D viewport)
 
 Orbit::`MMB`
-
 Pan::`S-MMB`
-
 Zoom In/Out::`Scroll` or `C-MMB`
-
-Fly::`S-~`
+Smooth zoom::`C-MMB` (*drag*)
+Fly::`S-~`. `Scroll` to change speed.
 
 ## View (3D viewport)
 
@@ -71,7 +85,7 @@ Focus::`.`
 Isolate::`/`
 
 Fast View Switch::`M-MMB (*drag*)`
-Camera::`0`
+Camera::`0`. Or press button in right toolbar (toggle the camera view).
 Front::`1`
 Rotate Down::`2`
 Side::`3`
@@ -92,7 +106,7 @@ Edit/Object mode toggle::`TAB`
 Mirror::`C-M` *then* `X/Y/Z` (*or* `MMB` *(drag))*
 Set Parent (to last selected)::`C-P`
 Clear Parent::`M-P`
-Toggle Snapping::`S-TAB`
+Toggle Snapping::`S-TAB`, or button in top right controls.
 Clear Location::`M-G`
 Clear Rotation::`M-R`
 Clear Scale::`M-S`
@@ -121,7 +135,10 @@ Select from many TODO: what is this?::`M-LMB`
 
 ## Shading (3D viewport)
 
-Shading Pie Menu::`Z`
+Shading Pie Menu
+?
+`Z`. You can also change/check current view-port shading in top right corner,
+layout mode
 
 Toggle X-Ray (to select through mesh)
 ?
@@ -135,7 +152,7 @@ Orientation pie menu::`,`
 
 ## Selection (Edit Mode)
 
-Select Connected Mesh::`C-L`
+Select Connected Mesh::`C-L`, useful to restore selection.
 Select Connected Mesh Under Cursor::`L`
 Select Edge Loop::`M-LMB`
 Select Edge Ring::`C-M-RMB`
@@ -145,6 +162,7 @@ Face Select Mode::`3`
 Mirror current selection::`C-S-M`
 Grow/Shrink Selection TODO: need to fix my keyboard::`C-Num+`/ `C-Num-`
 Edge Crease::`C-E`
+Shrink/fatten::`M-S`
 
 ## Curve Editing (Edit mode)
 
@@ -157,7 +175,7 @@ Clear Tilt::`M-T`
 
 ## Modelling (Edit Mode)
 
-Extrude::`e`
+Extrude::`e`, select at least few vertices, edges or faces.
 Inset, TODO: how its working?::`i`
 Bevel::`C-B`
 Bevel Vertices::`C-S-B`
@@ -238,17 +256,23 @@ Properties and performance::`N`
 
 ## Sculpting
 
+Inflate::`I`
+Draw::`X`
+Grab::`G`
 Brush Selection::`S-Space`
-Brush Size::`F`
-Brush Strength::`S-F`
+Change Brush Size::`F`
+Change Brush Strength::`S-F`
 Brush Angle::`C-F`
 Angle Control::`R`
 Stroke Control::`E`
 Mask (box)::`B`
 Mask (brush)::`M`
+Mask (brush) erase mode::Hold `C-`, while you in mask mode (`B`).
 Clear Mask::`M-M`
 Invert Mask::`C-i`
 Hide (box)::`H`
+Toggle Isolate mode::`/`
+Temporary toggle smooth tool::`S-`
 
 ## Rendering
 
@@ -360,186 +384,3 @@ Dope Sheet::`S-F12`
 ## Other
 
 Open popup menu for last action::`F9`
-
----
-
-# Blender Beginner Donut Tutorial
-
-You can select linked vertices by ==`Ctrl-L`==, it can help if you don't separate them and deselected vertices by accident.
-
-
-`Hold Shift`::`Allow to drag/set value more precisely`
-
-`Hold Control`::`Allow to drag/set value incrementally or enable snapping`
-
-`Z`::`toggle render mode`
-
-Probably better to place `subdivision modifier` on bottom of the stack (depends on the situation)
-
-You can toggle snapping by ==`Shift-Tab`==.
-
-To change world units need ? Scene Properties (properties sidebar) > Units >
-Metric
-
-After scaling object, need to apply scale ? C-A > Scale
-
-You can change shading of object from ==context menu==
-
-How to apply subdivision modifier (or any modifier) ? P > Modifiers Properties >
-Add Modifier
-
-How to move siblings points in edit mode ? You need to select point(s) enable
-proportional editing (O) and move (G) To increase/decrease proportional editing
-radius use mouse wheel
-
-How to move points along axis in proportional editing mode ? Use alt + s to
-shrink/fatten proportional editing radius
-
-How select random points in edit mode ? Select > **S**elect Random
-
-Orthographic mode basically means ? that you can't see perspective, only
-orthographic view (no depth, objects same size regardless of distance)
-
-https://docs.google.com/document/d/1zPBgZAdftWa6WVa7UIFUqW_7EcqOYE0X743RqFuJL3o/edit?usp=sharing
-
-# Navigation+
-
-3d viewport
-
-camera
-
-cube
-
-lamp
-
-adding object: add menu or +A
-
-delete object (without confirmation)A - DEL
-
-orbiting - scroll-wheel drag
-
-move the view - shift + scroll-wheel drag
-
-you can click on circles in axis control widget (top-right) to orbit or hold LMB on it and drag
-
-zoom - scroll up/down
-
-smooth zoom - ctrl + middle mouse drag 
-
-you can change view-port shading in top right corner, layout mode 
-
-You can move object by Gyzmo in move mode (left toolbar) and white circle around object. Or press G to grab and move your mouse.
-
-To cancel move press ESC or RMB
-
-To confirm press left click
-
-scale - scale button on left side, or S key
-
-rotate - rotate button or R key #
-
-To move by axis, press axis key while moving (X, Y, Z).  Alternative drag MMB while moving to snap/move object to axis.
-
-It also working with scaling 
-
-# Render
-
-Render working from point of view of camera
-
-F12 or Render menu -&gt; Render Image
-
-Save -&gt; ^s
-
-## Camera
-
-To enter the camera view mode, press button in right toolbar (toggle the camera view) or perss Num0 
-
-To quickly set camera position
-
-\- Select camera in Scene Collection (right menu)
-
-- press N to open properties menu
-- open view tab and check camera to view checkbox
-- move it as needed
-- uncheck camera to view 
-
-    To set material, in properties window (right side), select material tab and press add new, and set base color
-
-# Part 2
-
-After adding new object, in bottom left corner will be temporary (until you not do any action) available object options, to reopen them press F9
-
-You can quickly change object shading, by context menu (right click)
-
-On method to smooth object, is add subdivision surface modifier in object properties (right menu) .
-
-Subdivision surface split polygon to additional 4 polygons. 
-
-Press tab to switch between object and edit mode
-
-To move sibling vertices use proportional editing mode - O, or click on icon in top right. Change how much vertices affected (circle of influence size), use mouse scroll or use PgUP/PgDown.
-
-You can select edge, by holding alt and click on edge itself.
-
-# Part 3
-
-Duplicate object by +d, cancel moving by ESC or RMB
-
-
-You can select vertices in edit mode by drag LMB.
-
-**Z-fighting**, also called **stitching** or **planefighting**, is a phenomenon in 3D rendering that occurs when two or more primitives have very similar distances to the camera. This would cause them to have near-similar or identical values in the z-buffer, which keeps track of depth. This then means that when a specific pixel is being rendered, it is ambiguous which one of the two primitives are drawn in that pixel because the z-buffer cannot distinguish precisely which one is farther from the other.
-
-The _Solidify_ modifier takes the surface of any mesh and adds depth, thickness to it.
-
-You can hide modifiers in edit (and other modes) by toggle visibility in modifier properties (on top after modifier name).
-
- You can toggle snapping by +tab or button in top right controls. Here various types of snapping: for example face project. Snapping working good if you have enough geometry (apply subdivision modifier for example). 
-
-To apply modifier, press arrow button near modifier name and  click on apply.
-
-You can extend selection in edit mode (for example edge) by ^+ and shrink by ^-.
-
-Use H to hide selection and !H to show it.
-
-+H will hide all.
-
-Blender modifiers works from top to bottom. 
-
-One useful properties of solidify modifier is Edge data.
-
-To extrude, select  vertices (+LMB) and press E to start extrude. 
-
-# Part 4
-
-Shrink wrap modifier can help with snap vertices. Select target mesh, which vertices need to be snapped. Usually need to place this modifier above other ones.
-
-## Sculpting
-
-In sculpting mode you can quickly enable tools by hotkeys, for example inflate is I, draw is X, grab is G, mask M.
-
-F + mouse move will resize brush. 
-
-+F + mouse move will change strength.
-
-If you have subdivision modifier, which not applied, sculpting still working on low-poly mesh, so usually you need to apply it. 
-
-Subdivision modifier applying will use Viewport level.
-
-Very handy option for mask is "Front Faces Only", which prevent painting it in opposite faces, you can find it in top toolbar, Brush dropdown. 
-
-To erase mask, hold ^
-
-To invert mask use ^i  
-
-If you want to see only selected object use / hotkey (isolation mode). 
-
-Mes filter tool can use to inflate/deflate not-masked faces.
-
-You can smooth mask by find clicking on this item in Mask option (make edge of mask "spread").
-
-To clear mask use !M or select option in menu.
-
-To reduce "lumpiness" in model, you can use smooth tool. Because this brush is so essential, it’s always accessible by holding S-and sculpting.
-
----
