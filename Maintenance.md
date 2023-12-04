@@ -54,9 +54,10 @@ Here I collect resources to maintenance my hardware. Mostly
 - [ ] base monitoring setup
 - [ ] how inform about problems? (email, telegram, etc...)
 - [ ] backup monitoring setup
-- [ ] better arch maintenance script, add iotop?
+- [ ] better arch maintenance script, add `iotop`?
 
 ## Other
 
 - [This to That, how glue things to other things](http://www.thistothat.com/)
-- [[Dataview_maintenance_queries]], maintenance my [[Zettelkasten]] system.
+- [[Dataview_maintenance_queries|Dataview maintenance]], maintenance my
+[[Zettelkasten]] system.
