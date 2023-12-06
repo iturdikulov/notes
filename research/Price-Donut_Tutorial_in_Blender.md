@@ -295,3 +295,87 @@ edit?
 ?
 You can make values easier to edit using Math node (Multiply/Divide/Etc).
 It's useful to control density for example.
+
+# Part 7: Geometry Nodes (Long Sprinkles)
+
+Any operations like dragging/scale usually better to do with disabled
+==proportional edition mode (`O`) and snapping (`S-TAB`)==.
+
+Any new objects placed at 3D cursor, to move it use `S-RMB` or `Cursor
+tool` in left toolbar.
+
+If you have very small objects blender default ==clipping== value can be a
+problem (objects not rendering), to fix that change clipping value in right
+properties window (`N` → `View` → `Clip Start`).
+
+TODO: new note
+**Clipping**, in the context of computer graphics, is a method to
+selectively enable or disable rendering operations within a defined region
+of interest. Mathematically, clipping can be described using the
+terminology of constructive geometry. A rendering algorithm only draws
+pixels in the intersection between the clip region and the scene model.
+Lines and surfaces outside the view volume (aka. frustum) are removed.
+
+To add bevel to cylinder select ==opposite== faces and press `C-B` then
+drag mouse. Use mouse scroll to add additional levels.
+
+On method to add more geometry is creating ==loop-cut== (C-R). You can use
+mouse scroll (or `Page Up`/`Page Down`) to add more levels. In bottom level
+corner you will see current level.
+
+To set default position of cutting geometry (center) press ==`RMB`==.
+
+Simple ==deform== modifier (Bend mode) allow easily make cylinder little
+curved. It's curving object from origin point with specified Angle.
+
+To set origin point position to "default position" (maybe true for simple
+geometry), after scaling object, open context menu (RMB) and select
+==Set Origin → Origin Geometry==.
+
+You can group objects in collections, check outliner panel, click in top
+right button to create collection. Double-click on collection name to
+rename (or press ==F2==). And drag & drop to organize items.
+
+You can select multiple items in outliner and group them into multiple
+collections, drag & drop them or press ==`M`== and select collection to
+move items or create new one.
+
+To validate how many objects share Geometry Nodes modifier, you can check
+number in Modifier itself, `[Geometry Nodes][2]` for example. To make it
+independent ==click on this number==.
+
+DON'T forget to unpin ==`Geometry Nodes`== panel if you work on multiple
+objects with different `Gometry Nodes` modifier. You can validate its name
+on top in this panel.
+
+TODO: review this
+You can use rotation values from `Distribute Points on Faces` nodes and
+connect it into `Instance points` node. It allows applying normal vectors
+from some faces for each instance point (like get correct rotation values)?
+
+How to link collection into `Instance on Points` node?
+?
+You can use collection as `Instance source` in `Instance on Points node` (drag
+it into nodes editor), and usually you need to set these properties:
+- Separate Children (collection).
+- Reset Children (collection).
+- Pick Instance (node).
+
+You can validate rotation/scale/move (when you're changing them)
+values/information in ==top left corner==.
+
+==`Rotate Euler`== node allow adjusting rotation method and value, for
+example you can add it between `Distribute Points on Faces` and `Instance
+points node`. You can also add random value node into `Rotate By` connector
+(in this case it will use radians values, like tau for 360 degree), to make
+points rotating randomly.
+
+Random value node, in vector mode generate random ==vectors==. Each vector
+has x, y, z axis values.
+
+You can collapse node by clicking on arrow in ==top left corner== of it.
+
+To change multiple values (for example in node) ==hold `LMB` and drag==.
+
+Blender has some constants, if you type `pi` or `tau` into value field, it
+will ==be converted into specific value==.
