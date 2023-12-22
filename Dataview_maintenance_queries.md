@@ -39,3 +39,9 @@ SORT file.tags
 WHERE !contains(file.tags, "#inbox")
 ```
 
+# Directory properties
+
+```dataview
+TABLE file.frontmatter.directory
+Where file.frontmatter.directory
+```
