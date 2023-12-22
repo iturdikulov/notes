@@ -5,7 +5,7 @@ tags:
   - inbox
   - research
   - programming
-directory: "~/Arts_and_Entertainment/literature/Brian W. Kernighan/The Practice of Programming (2082)/"
+directory: "~/Arts_and_Entertainment/literature/Brian Kernighan/The Practice of Programming (2082)/"
 ---
 
 # The Practice of Programming

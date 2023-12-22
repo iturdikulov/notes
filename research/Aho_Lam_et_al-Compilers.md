@@ -9,7 +9,7 @@ author:
   - Monica S. Lam
   - Ravi Sethi
   - Jeffrey D. Ullman
-directory: "~/Arts_and_Entertainment/literature/Alfred V. Aho/Compilers_ Principles, Techniques, and Tools (1618)/"
+directory: "~/Arts_and_Entertainment/literature/Alfred Aho/Compilers_ Principles, Techniques, and Tools (1618)/"
 ---
 
 # Compilers: Principles, Techniques, and Tools

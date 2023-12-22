@@ -42,7 +42,7 @@ tags:
 Basically multiplication table is set of multiply operations between **two
 numbers**. And there no difference which number is first or second, because it's
 following
-[[Commutative_Associative_and_Distributive_Laws#Commutative Laws|commutative]]
+[[Commutative_Associative_and_Distributive_Laws]]
 property.
 
 Half of the table is a mirror image of the other (diagonal line from top left to
