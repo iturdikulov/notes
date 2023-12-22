@@ -43,9 +43,9 @@ How I can find hotkey for some action?
 If you are not able to remember hotkey, try to check it in panels controls
 (hover) or context menus. You can also use `F3` key to search for hotkey.
 
-How to quickly navigate in 3D view (top, bottom, left, front, etc)?
+How to quickly navigate in 3D view (top, bottom, left, front, etc.)?
 ?
-You can use `NUM1-9` keys. But using `Pie menu` for navigation (`) I
+You can use `NUM1-9` keys. But using `Pie menu` for navigation (````) I
 think more suitable than `Num` keys (on my keyboard at least).
 
 You can enable 3 keys Mouse emulation (`Settings` → `Input`), which might be
@@ -240,88 +240,106 @@ Blender support unit prefixes in values, for example 1 mm, 1 cm, 1 m, 1 km,
 etc. If you type 1 km in some input it will be automatically converted to
 meters.
 
-You can enable absolute snap in snapping settings, to snap object by pivot
-center all time, no matter what initial position was.
+You can enable `Absolute Grid Snap` in snapping settings, to snap object by
+==pivot center== all time, no matter what initial position was.
 
-You can use different modes of snapping: vertex (snap to the nearest
-vertex), edge, face (you can also auto-rotate with Align rotation to Target
-option). And you can also snap by specific axe (X, Y, Z), this useful in
-vertex snapping mode for example to snap near vertices.
+Which snapping modes are available?
+?
+You can use different modes of snapping: `vertex` (snap to the nearest
+vertex), `edge`, `face` (you can also auto-rotate snapping object to face,
+with `Align rotation` to `Target option`). And you can also snap by
+specific axe (X, Y, Z), this useful in vertex snapping mode for example to
+snap near vertices.
 
-Proporation editing allow you to edit multiple vertices or objects, which are in some radius from active vertex/object. You can change radius by mouse wheel or f/F keys. You can also use different fallow-of types (smooth,wsphere, sharp, linear, etc).
+`Proportion editing` allow you to edit multiple vertices or objects, which
+are in some radius from active vertex/object. You can change radius by
+mouse wheel or f/F keys. You can also use different fallow-of types
+(smooth, sphere, sharp, linear, etc.).
 
-Moving 3D cursor with holding S-C and RMB will snap to grid or other snapping mode (useful to snap per verticies for example).
+Moving 3D cursor with holding S-C and RMB will snap to grid or other
+snapping mode (useful to snap per vertices for example).
 
-You can select throug objects, by S-LMB.
+You can select through objects, by S-LMB.
 
-You can adjust wireframe (and any other) shading in dropdown menu, for example x-ray transparency, background color, etc.
+You can adjust wireframe (and any other) shading in dropdown menu, for
+example x-ray transparency, background color, etc.
 
-To see plain scene (without UI), you can just disable overlays and gyzmo (top right menu)
+To see plain scene (without UI), you can just disable overlays and gizmo
+(top right menu)
 
 You can add extra shading pie (Z) menu items in keymap settings.
 
-You can hide/show multiple objects in outliner, by holding LMB key on eye icon.
+You can hide/show multiple objects in outliner, by holding LMB key on eye
+icon.
 
-Outliner has additional Restriction Toggles (Filter icon), if you not see some object which must be visible, check Disable in viewport toggle.
+Outliner has additional Restriction Toggles (Filter icon), if you not see
+some object which must be visible, check Disable in viewport toggle.
 
-You can hide entrie collection from all modes and disable selecting items from it by Exclued from View layer toggle in Outliner.
+You can hide entire collection from all modes and disable selecting items
+from it by Excluded from View layer toggle in Outliner.
 
 To place objects to multiple collections use Link to Collection (S-M).
 
-You delete collection and objects in it by RMB on collection and Delete Hierarchy.
+You delete collection and objects in it by RMB on collection and Delete
+Hierarchy.
 
-You can select all objects in collection by RMB on collection and Select Objects.
+You can select all objects in collection by RMB on collection and Select
+Objects.
 
-You can group multiple objects by Empty object and parenting (C-P), useful when
-you need able to transform group of items and visualize selection of them in
-viewport.
+You can group multiple objects by Empty object and parenting (C-P), useful
+when you need to transform group of items and visualize selection of
+them in viewport.
 
 TODO: note backface culling (can be enabled in shading options).
 
 Shade smooth can be applied to individual faces.
 
-You can change shade smooth angle in operations menu (appear in bottom left or F9).
+You can change shade smooth angle in operations menu (appear in bottom left
+or F9).
 
 You mark specific edge as sharp, select it, RMB and Mark Sharp.
 
-Shade smooth by Angle very useful to smooth for example cylynder with angle of 30 DEG.
+Shade smooth by Angle very useful to smooth for example cylinder with angle
+of 30 DEG.
 
 You can flip normal by selecting it and press M-N, then flip.
 
 # 13: The Extrude, Inset, and Knife Tools
 
-Extrusion face (E) - create copy of face, move it and attach back to original face, original face will be deleted.
+Extrusion face (E) - create copy of face, move it and attach back to
+original face, original face will be deleted.
 
-To really cancel some action, like extrusion press ESC key and then C-Z to undo.
+To really cancel some action, like extrusion press ESC key and then C-Z to
+undo.
 
-Extrude Mainfold - atempt to extrude face and "trying" not create additional faces.
+Extrude Mainfold - attempt to extrude face and "trying" not create
+additional faces.
 
-Extrude alogn normals - extrude face along it's normal vector (check also
-offset even option), effect usually visible with mutliple faces.
+Extrude align normals - extrude face along its normal vector (check also
+offset even option), effect usually visible with multiple faces.
 
-Knife tool - to confirm press Enter or space key.
-Knife tool - A toggle angle constrain.
-Knife tool - S toggle distance measurement.
-Knife tool - C toggle cut through.
-To create multiple cuts, press RMB when you want to finish cut and start new one.
-To cut geometry along a planu use Bisect tool, but select firt all
-geometry.
+Knife tool - to confirm press Enter or space key. Knife tool - A toggle
+angle constrain. Knife tool - S toggle distance measurement. Knife tool - C
+toggle cut through. To create multiple cuts, press RMB when you want to
+finish cut and start new one. To cut geometry along a plane use Bisect
+tool, but select first all geometry.
 
-M-E open extrude menu, which allow you to extrude along normals, individual faces, etc.
+M-E open extrude menu, which allow you to extrude along normals, individual
+faces, etc.
 
 # 14 - Bevel and Edge Loops
 
-You can use bevel tool on edges and vertices (V to toggle, C-S-B to start with vertices). Good shape to training is square.
+You can use bevel tool on edges and vertices (V to toggle, C-S-B to start
+with vertices). Good shape to training is square.
 
 You can adjust many bevel parameters, for example you can create custom
 Profile Type, which allow you to create custom bevel shape.
 
-Usualy befor you bevel object, yoy need to apply scale (C-A).
+Usually before you bevel object, you need to apply scale (C-A).
 
-When  you use Loop-Cut (C-R) you can hold LMB to slide on edge.
-To disable slide in loop cut press Esc key.
-Before loop cut (LMB key) you can adjust segments amount using mouse
-scroll.
+When you use Loop-Cut (C-R) you can hold LMB to slide on edge. To disable
+slide in loop cut press Esc key. Before loop cut (LMB key) you can adjust
+segments amount using mouse scroll.
 
 To move edge quickly and regardless object rotation use Edge slide tool.
 
@@ -331,28 +349,28 @@ Loop cut can't go through face with 5+ edges (ngons) and through triangles.
 
 # 15 - Subdivide, Fill, and Merge
 
-To subdivide Edges, go too Edge and Subdivide (split edges/faces in half), or RMB → Subdivide.
-Sometimes it's can replace loop cut, since it allow you subdivide edges more
-precisely and solve ngon/triangle loop cut problem (you can select path to
-subdivide).
+To subdivide Edges, go too Edge and Subdivide (split edges/faces in half),
+or RMB → Subdivide. Sometimes it's can replace loop cut, since it allow you
+to subdivide edges more precisely and solve ngon/triangle loop cut problem
+(you can select path to subdivide).
 
 To subdivide Edge ring, go to Edge and Subdivide Edge Ring.
 
-You can't subdivede n-gons, but you can use knife tool to cut it.
+You can't subdivide n-gons, but you can use knife tool to cut it.
 
-You can extrude to cursor from many tools, hold C- and press, this is useful
-to create vertex in specific place (Edit mode, vertex mode).
+You can extrude to cursor from many tools, hold C- and press, this is
+useful to create vertex in specific place (Edit mode, vertex mode).
 
-You can create edge (and face too!) from just 2 vertices by selecting them and press F key (Vertex → New Edge/Face from Verticies).
-And this is not Knife tool, it's just create edge between 2 vertices or
-face, etc.
+You can create edge (and face too!) from just 2 vertices by selecting them
+and press F key (Vertex → New Edge/Face from Vertices). And this is not
+Knife tool, it's just creating edge between 2 vertices or faces, etc.
 
 M-F - fill face (not same as F), it will fill face with triangles (use Face
--> Grid fill to will with quads).
+→ Grid fill to will with quads).
 
-To connect vertecies, create edge and split it use J key.
+To connect vertices, create edge and split it use J key.
 
-To use auto-merge (merge verticies moved to same location), enable it in
+To use auto-merge (merge vertices moved to same location), enable it in
 options menu (top right) or control button (also top right) and usually you
 need to enable snapping by vertex.
 
@@ -361,63 +379,61 @@ then Edge menu → Bridge Edge Loops.
 
 # 16 - Object Modifiers
 
-Where is bevel modifier?
-?
-Modifiers → Add Modifier → Generate → Bevel.
+Where is bevel modifier? ? Modifiers → Add Modifier → Generate → Bevel.
 
 You can hide displaying modifier in Edit mode by clicking on icon in right
 of modifier name.
 
-You can add bevel weight (Edge → Add bevel weight) to edges and use it in bevel modifier to bevel
-only edges with specific weight.
+You can add bevel weight (Edge → Add bevel weight) to edges and use it in
+bevel modifier to bevel only edges with specific weight.
 
-If your bevel modifier not working (usually when you add some loop-cut), check Geometry → Clamp Overlap.
+If your bevel modifier not working (usually when you add some loop-cut),
+check Geometry → Clamp Overlap.
 
-Array modifier create copies of shape with some offset. And here mutliple
-opitiosn to control, for example offsets.
+Array modifier create copies of shape with some offset. And here multiple
+options to control, for example offsets.
 
-Mirror modifier mirror object by some axis, and it's working from object origin.
+Mirror modifier mirror object by some axis, and it's working from object
+origin.
 
-You can enable mesh symmetry in edit mode (top rigth), which working for
+You can enable mesh symmetry in edit mode (top right), which working for
 moving, but it's not working with adding and removing geometry. But usually
-mirror modifer is better. You can cut half of geometry, apply mirror
-modifier (enable clipping optionnaly) and then transformations will be applied to
-both sides.
+mirror modifier is better. You can cut half of geometry, apply mirror
+modifier (enable clipping optionally) and then transformations will be
+applied to both sides.
 
-You can instatly type someting in menus, to quickly find element.
+You can instantly type something in menus, to quickly find element.
 
 # 17 - Editors and Windows
 
 You can temporarily hide toolbar by T key.
 
-View menu can be used to quickly show/hide required paneles.
+View menu can be used to quickly show/hide required panels.
 
 Blender hotkeys working on active editor (mouse hover on which one). For
-example you can maximize CURRENT editor by C-space key.
+example, you can maximize CURRENT editor by C-space key.
 
-To toggle 4 view mode, use C-ALT-Q.
+To toggle `4 view` mode, use C-ALT-Q.
 
 You can zoom current editor by C-MMB.
 
 You create new window (to place on second monitor for example) from current
-editor, View (also aviable in Context Menu) → Area → Duplicate Area into New Window. Or use S-LMB drag
-from corner of current editor.
+editor, View (also aviable in Context Menu) → Area → Duplicate Area into
+New Window. Or use S-LMB drag from corner of current editor.
 
 You can adjust current tool mode per various workspace from Workspace tab
 in Tool options (N → Tool → Workspace for example).
 
 File → Defaults can help you to permanent save current settings (tools,
-workspaces, etc) into
-startup file or reset all of them.
+workspaces, etc.) into startup file or reset all of them.
 
 # 18 - Working With Blend Files
 
 You can use default UI when opening Blend file (yes they saved in blend
-files), in Open dialog click on
-Gear icon (top-right) and uncheck Load UI.
+files), in Open dialog click on Gear icon (top-right) and uncheck Load UI.
 
-You can open autosave file from File → Recover → Autosave window.
-Enable it in Settings → Save & Load settings.
+You can open autosave file from File → Recover → Autosave window. Enable it
+in Settings → Save & Load settings.
 
 Blender support Copy-Paste between same versions (or same major versions),
 you can use C-C and C-V between window instances.
@@ -425,8 +441,8 @@ you can use C-C and C-V between window instances.
 Blender support appending blend files (copy) or linking (reference)
 objects.
 
-Linked objects properties can be overwritten, to overwrite: Menu → Object → Library ->
-Make.
+Linked objects properties can be overwritten, to overwrite: Menu → Object →
+Library → Make.
 
 You can unlink objects from Object → Relations → Make Local → All or any
 other.
@@ -434,53 +450,55 @@ other.
 Solid shading mode support textures, check top right menu (shading menu).
 
 Blender (by default) not storing textures in blend files, so be careful. If
-you move texture somewhere, blender don't track this changes and then you
+you move texture somewhere, blender don't track this changes, and then you
 need to manually relink texture. But you can pack this texture into blend
 file (File → External Data → Pack Resources).
 
 # 19 - Cameras and Rendering
 
-Reneder is happens from current active camera (Black triangle on top).
-You can change active camera in scene settings (Properties panel → Scene
-tab). Or use C+NUM0 keybinding.
+Render is happens from current active camera (Black triangle on top). You
+can change active camera in scene settings (Properties panel → Scene tab).
+Or use C+NUM0 keybinding.
 
-Yousualy you need to rotate camera on Z-axis. Or better rotate/transformCG Cookie  from local
-camera orientation (R → X,Y and G-Z)
+You usually need to rotate camera on Z-axis. Or better rotate/transform
+from local camera orientation (R → X,Y and G-Z)
 
-Clipping affect to Z-fighting, try to change it if you see weried
+Clipping affect to Z-fighting, try to change it if you see weird
 artifacts.
 
-You can render viewpor from View → Viewport Render Image.
+You can render viewport from View → Viewport Render Image.
 
 Material shading mode use EEVEE render.
 
-To render image with transparency go to Render settings → Film and enable Transparent.
+To render image with transparency go to Render settings → Film and enable
+Transparent.
 
 # 20 - Materials and Lighting
 
 You can drag & drop colors/materials between material properties.
 
-You can adjust viewport material in Viewport Display tab of Material properties.
+You can adjust viewport material in Viewport Display tab of Material
+properties.
 
 You can input values without zero, for example 0.5 can be `.5`.
 
-Yellow dot in Color property usualy indicate that you can add some node to
+Yellow dot in Color property usually indicate that you can add some node to
 this property.
 
-Alternative to Sky texture is Environment texture (HDR).
-Is used to light your scene using an environment map image file as a texture.
-NOTE: disable transparency in render settings, if you use Environment
-Texture.
-To rotate this texture change Vector input (Directions of texture) In Surface tab to Vector Mapping, then
-In second verctor input set Texture Coordinates to Generated and adjust
-required properties.
+Alternative to Sky texture is Environment texture (HDR). Is used to light
+your scene using an environment map image file as a texture. NOTE: disable
+transparency in render settings, if you use Environment Texture. To rotate
+this texture change Vector input (Directions of texture) In Surface tab to
+Vector Mapping, then In second vector input set Texture Coordinates to
+Generated and adjust required properties.
 
 Use C-M-NUM0 to snap camera to view.
 
-To make shadow more soft, change radius in light properties or you can use
+To make shadow more soft, change radius in light properties, or you can use
 circle control (aviable for selected light source) in viewport.
 
-Sun light type - position is no matter, only rotation and point location is matter.
+Sunlight type - position is no matter, only rotation and point location is
+matter.
 
 # 21 - Intro to 3D Animation
 
@@ -492,9 +510,9 @@ finishes. So you need at least 2 keyframes. If you have only 1 keyframe
 animation starts and will continue forever. You need to change properties
 before you insert keyframe.
 
-Keyframe animtion have visual marks in object properties, yellow - we on
+Keyframe animation have visual marks in object properties, yellow - we on
 some keyframe, green - we are in interpolation between keyframes, orange -
-we changed some property and it's not keyframed.
+we changed some property, and it's not key framed.
 
 You can insert keyframes in properties, hover on property and press I key.
 
@@ -502,19 +520,20 @@ You can open channels menu in animation timeline, click on small arrow on
 left.
 
 You can delete not required properties from channels menu. And then you are
-able to change them without keyframing.
+able to change them without key framing.
 
-To quickli toggle Graph Editor, press C-TAB in any animation mode panel.
+To quickly toggle Graph Editor, press C-TAB in any animation mode panel.
 
-To fiend current frame (zoom & navigate) in graph editor timeline press `NUM.`
+To fiend current frame (zoom & navigate) in graph editor timeline press
+`NUM.`
 
-You can enable auto-keyframing (record button in top bar), to automaticali
+You can enable auto-keyframing (record button in top bar), to automatically
 add keyframes when you change properties.
 
 # 22 - 2D Animation with Grease Pencil
 
-You can add Grease Pencil object from Add menu and it's 3D object, but you
-can work with it in 2D mode and it allows you to go into draw mode if
+You can add Grease Pencil object from Add menu, and it's 3D object, but you
+can work with it in 2D mode, and it allows you to go into draw mode if
 greace pencil object selected.
 
 You can change brush in top left brush control.
@@ -525,18 +544,17 @@ directly on surface.
 Grease pencil support layers, you can add them from top right menu or in
 Data tab in properties. And you can animate each layer separately.
 
-You can use Emision Surface in Material, it will make object more
-stylized for cartoon.
+You can use Emission Surface in Material, it will make object more stylized
+for cartoon.
 
-You can move keyframes in Timeline by selecting it and use G → Drag &
-Drop.
+You can move keyframes in Timeline by selecting it and use G → Drag & Drop.
 
 Grace pencil object can have materials.
 
-Grace pencil objects react to lighiting, you can disable this behavior in
+Grace pencil objects react to lighting, you can disable this behavior in
 Layer properties → Turn off Lights.
 
-You can use Standart display space (Rendering → Color Management) to make
+You can use Standard display space (Rendering → Color Management) to make
 colors more like in raster editors.
 
 You can add noise modifier to grease pencil object to make it more natural.
@@ -558,30 +576,33 @@ Clay tool used to build natural forms (Space, 2).
 
 Clay Strips used to quickly add volume (Space, 3).
 
-Flattern: Space, 6
+Flatten: Space, 6
 
 Scrape: S-T
 
-Grab, like propertion edit
+Grab, like proportion edit
 
-Elastic Deform, use big radius (more than object) if you want squeeze object.
+Elastic Deform, use big radius (more than object) if you want squeeze
+object.
 
 Cloth:
 
-To see overay in object mode, enable it Overlay Options.
+To see overlay in object mode, enable it Overlay Options.
 
 To alter mesh topology in sculpting, enable Dyntopo (top right).
 
-You can optimize mesh after sculpting by using Remesh, C-R (top right), first turn
-of Dyntopo.
+You can optimize mesh after sculpting by using Remesh, C-R (top right),
+first turn of Dyntopo.
 
-In sculpting there own Subdivision Modifier type - Multiresolution. You can
-add it from Modifier tab in Sculpting mode (or just press C-[Number]).
-It allows you work on multiple levels of detail. You can change for example
-lower resolution detail and then apply it to higher resolution levels.
-To add more levels of detail, use Subdivide button in modifier settings.
+In sculpting their own Subdivision Modifier type - Multiresolution. You can
+add it from Modifier tab in Sculpting mode (or just press C-[Number]). It
+allows you work on multiple levels of detail. You can change for example
+lower resolution detail and then apply it to higher resolution levels. To
+add more levels of detail, use Subdivide button in modifier settings.
 
-When you navigate with multires, by default enabled show low resolution while navigating option (top right → options). You can disable it to see high resolution mesh all time.
+When you navigate with multires., by default enabled show low resolution
+while navigating option (top right → options). You can disable it to see
+high resolution mesh all time.
 
 To avoid lumps, prefer to work with low-res mesh and then add more details.
 
@@ -589,13 +610,17 @@ To avoid lumps, prefer to work with low-res mesh and then add more details.
 
 Learn basics, before you dive into some specific area.
 
-- [PRESS START: Your Simple First Blender Project - CG Cookie](https://cgcookie.com/courses/press-start-your-simple-first-blender-project)
+- [PRESS START: Your Simple First Blender Project - CG
+Cookie](https://cgcookie.com/courses/press-start-your-simple-first-blender-project)
 
-- [TRACK: The Fundamentals to become a skilled Blender artist - CG Cookie](https://cgcookie.com/playlists/15-track-the-fundamentals-to-become-a-skilled-blender-artist?utm_source=youtube&utm_campaign=BASICS%204.0%20YT&utm_medium=video&utm_content=Lesson24)
+- [TRACK: The Fundamentals to become a skilled Blender artist - CG
+Cookie](https://cgcookie.com/playlists/15-track-the-fundamentals-to-become-a-skilled-blender-artist?utm_source=youtube&utm_campaign=BASICS%204.0%20YT&utm_medium=video&utm_content=Lesson24)
 
-- [Big Idea: Digital Tablets - CG Cookie](https://cgcookie.com/posts/big-idea-digital-tablets?utm_source=youtube&utm_campaign=BASICS%204.0%20YT&utm_medium=video&utm_content=Lesson24)
+- [Big Idea: Digital Tablets - CG
+Cookie](https://cgcookie.com/posts/big-idea-digital-tablets?utm_source=youtube&utm_campaign=BASICS%204.0%20YT&utm_medium=video&utm_content=Lesson24)
 
 - [Hotkeys](https://d1tq3fcx54x7ou.cloudfront.net/uploads/store/tenant_161/attachment/2107/file/e3e8067f4de47536246c8439f242ebc5.pdf)
 
-- [Blender Market | A Unique Market for Creators that love Blender](https://blendermarket.com/)
+- [Blender Market | A Unique Market for Creators that love
+Blender](https://blendermarket.com/)
 
