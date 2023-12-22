@@ -301,8 +301,8 @@ accurate to scale when taking measurements from a real life object.
 Setting dimension of objects from real word can save a lot of time,
 especially for complex scenes (where you import other objects, etc.).
 
-When you're scaling objects for example, you can quickly input custom value
-using ==`.number`== keys chord.
+When you're scaling objects for example, and this mode is active you can
+quickly input custom value using ==`number`== keys chord.
 
 After scaling object, when you sure, apply it (`C-A` → Scale).
 
