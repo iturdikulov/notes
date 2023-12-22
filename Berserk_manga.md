@@ -3,7 +3,8 @@ author: Kentaro Miura
 date: 1989
 tags:
   - inbox
-directory: ~/Arts_and_Entertainment/manga/Berserk/
+  - manga
+directory: "~/Arts_and_Entertainment/literature/Kentaro Miura/"
 sr-due: 2023-10-07
 sr-interval: 4
 sr-ease: 272
