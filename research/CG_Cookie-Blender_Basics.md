@@ -253,99 +253,156 @@ snap near vertices.
 
 `Proportion editing` allow you to edit multiple vertices or objects, which
 are in some radius from active vertex/object. You can change radius by
-mouse wheel or f/F keys. You can also use different fallow-of types
+mouse wheel or ==`f` / `F`== keys. You can also use different fallow-of types
 (smooth, sphere, sharp, linear, etc.).
 
-Moving 3D cursor with holding S-C and RMB will snap to grid or other
-snapping mode (useful to snap per vertices for example).
+Moving 3D cursor with holding ==`S-`== and then `C-` and `RMB` will snap it
+to grid or other snapping mode (useful to snap per vertices for example).
 
-You can select through objects, by S-LMB.
+You can select through objects by some path (multiple objects, first,
+second, etc.), by ==`S-LMB`== keys.
 
+How to adjust wireframe shading?
+?
 You can adjust wireframe (and any other) shading in dropdown menu, for
 example x-ray transparency, background color, etc.
 
+How to quickly hide all UI elements?
+?
 To see plain scene (without UI), you can just disable overlays and gizmo
-(top right menu)
+(top right menu).
 
+Can shading PIE menu be customized?
+?
 You can add extra shading pie (Z) menu items in keymap settings.
 
-You can hide/show multiple objects in outliner, by holding LMB key on eye
-icon.
+You can hide/show multiple objects in outliner, by holding and dragging
+==`LMB`== key on eye icon.
 
-Outliner has additional Restriction Toggles (Filter icon), if you not see
-some object which must be visible, check Disable in viewport toggle.
+I can't see my object in viewport, and can't enable visibility in outliner,
+what I can do?
+?
+Outliner has additional `Restriction Toggles` (Filter icon), if you not see
+some object which must be visible, try to enable `Disable in Viewport` icon
+in `Filter` → `Restriction toggles` items.
 
+How to hide collection completely and make it non-selectable?
+?
 You can hide entire collection from all modes and disable selecting items
-from it by Excluded from View layer toggle in Outliner.
+from it by `Excluded from View layer` (checkbox) toggle in Outliner.
 
-To place objects to multiple collections use Link to Collection (S-M).
+How to place object in multiple collections?
+?
+To place objects to multiple collections use Link to Collection (`S-M`).
 
-You delete collection and objects in it by RMB on collection and Delete
-Hierarchy.
+How to delete collection and objects in it?
+?
+You delete collection and objects in it by context menu (`RMB` on
+collection) and `Delete Hierarchy`.
 
-You can select all objects in collection by RMB on collection and Select
-Objects.
+How to select all objects in collection?
+?
+You can select all objects in collection by `RMB` on collection and click
+on `Select Objects`.
 
-You can group multiple objects by Empty object and parenting (C-P), useful
-when you need to transform group of items and visualize selection of
+You can group multiple objects by Empty object and parenting ==(`C-P`)==,
+useful when you need to transform group of items and visualize selection of
 them in viewport.
 
 TODO: note backface culling (can be enabled in shading options).
 
-Shade smooth can be applied to individual faces.
+Can shade smooth be applied to individual faces?
+?
+Yes, shade smooth can be applied to individual faces, select face in face
+mode (3) and then apply it from context menu.
 
-You can change shade smooth angle in operations menu (appear in bottom left
-or F9).
-
-You mark specific edge as sharp, select it, RMB and Mark Sharp.
-
+How to set angle for shade smooth?
+?
+Apply `Shade Auto Smooth`, and then you can change shade smooth angle in
+operations menu (appear in bottom left or F9).
 Shade smooth by Angle very useful to smooth for example cylinder with angle
-of 30 DEG.
+of $30\degree$.
 
-You can flip normal by selecting it and press M-N, then flip.
+How to mark sharp edges?
+?
+You can mark specific edge as sharp, select it, `RMB` and `Mark Sharp`.
+
+How to flip normals?
+?
+You can flip normal by selecting it and press `M-N`, then `flip`.
 
 # 13: The Extrude, Inset, and Knife Tools
 
+Extrusion face in blender means?
+?
 Extrusion face (E) - create copy of face, move it and attach back to
 original face, original face will be deleted.
 
-To really cancel some action, like extrusion press ESC key and then C-Z to
-undo.
+How to cancel active operation?
+?
+To really cancel some action, like extrusion operation press `ESC` key and
+then `C-Z` to undo (if required).
 
-Extrude Mainfold - attempt to extrude face and "trying" not create
+What difference between `Extrude Faces` and `Extrude Mainfold`?
+?
+`Extrude Mainfold` tool - attempt to extrude face and "trying" not create
 additional faces.
+> This tool is very similar to `Extrude Faces` but enables Dissolve
+> Orthogonal Edges by default. This causes the tool to automatically split
+> and remove adjacent faces when extruding inward
 
-Extrude align normals - extrude face along its normal vector (check also
-offset even option), effect usually visible with multiple faces.
+What is Extrude along normals?
+?
+`Extrude along normals` - extrude face along its normal vector (check also
+`Offset Even` option), effect usually visible with multiple faces.
 
-Knife tool - to confirm press Enter or space key. Knife tool - A toggle
-angle constrain. Knife tool - S toggle distance measurement. Knife tool - C
-toggle cut through. To create multiple cuts, press RMB when you want to
-finish cut and start new one. To cut geometry along a plane use Bisect
-tool, but select first all geometry.
+`Knife tool` - to confirm cut press ==`Enter`==.
 
-M-E open extrude menu, which allow you to extrude along normals, individual
-faces, etc.
+Knife tool - `A` toggle ==angle constrain==.
+
+Knife tool - `S` toggle ==distance measurement==.
+
+Knife tool - `C` toggle ==cut through===.
+
+How create multiple cuts with knife tool?
+?
+To create multiple cuts, press `RMB` when you want to finish cut and start
+new one.
+
+To cut geometry along a plane use ==`Bisect`== tool (in Knife submenu), but
+select first all geometry.
+
+How to quickly select extrusion mode?
+?
+`M-E` open extrude menu, which allow you to extrude along normals,
+individual faces, etc.
 
 # 14 - Bevel and Edge Loops
 
-You can use bevel tool on edges and vertices (V to toggle, C-S-B to start
-with vertices). Good shape to training is square.
+You can use bevel tool ==(`C-B`)== on edges and vertices (`V` to toggle,
+`C-S-B` to start with vertices). Good shape to training is box.
 
-You can adjust many bevel parameters, for example you can create custom
-Profile Type, which allow you to create custom bevel shape.
+You can adjust many bevel parameters (operations menu), for example you can
+create custom `Profile Type`, which allow you to create ==custom bevel
+shape==.
 
-Usually before you bevel object, you need to apply scale (C-A).
+Bevel looks weird in some specific shape, how to fix it?
+?
+Usually before you bevel object, you need to apply scale (`C-A`).
 
-When you use Loop-Cut (C-R) you can hold LMB to slide on edge. To disable
-slide in loop cut press Esc key. Before loop cut (LMB key) you can adjust
-segments amount using mouse scroll.
+When you use Loop-Cut (`C-R`) you can hold `LMB` to ==slide on edge==.
 
-To move edge quickly and regardless object rotation use Edge slide tool.
+Before loop cut you can adjust segments amount using ==mouse scroll==.
 
-M-LMB C-M-LMB can select edge/face loop (use it in different modes).
+To move edge quickly and regardless object rotation use `Edge slide` tool.
 
-Loop cut can't go through face with 5+ edges (ngons) and through triangles.
+How to select edge/face loop?
+?
+`M-LMB` and `C-M-LMB` can select edge/face loop (use it in different select
+modes).
+
+Loop cut can't go through face with ==5+ edges (ngon's)== and through
+triangles.
 
 # 15 - Subdivide, Fill, and Merge
 
@@ -600,7 +657,7 @@ allows you work on multiple levels of detail. You can change for example
 lower resolution detail and then apply it to higher resolution levels. To
 add more levels of detail, use Subdivide button in modifier settings.
 
-When you navigate with multires., by default enabled show low resolution
+When you navigate with `Multiresolution`, by default enabled show low resolution
 while navigating option (top right → options). You can disable it to see
 high resolution mesh all time.
 
@@ -610,17 +667,10 @@ To avoid lumps, prefer to work with low-res mesh and then add more details.
 
 Learn basics, before you dive into some specific area.
 
-- [PRESS START: Your Simple First Blender Project - CG
-Cookie](https://cgcookie.com/courses/press-start-your-simple-first-blender-project)
+## Resources
 
-- [TRACK: The Fundamentals to become a skilled Blender artist - CG
-Cookie](https://cgcookie.com/playlists/15-track-the-fundamentals-to-become-a-skilled-blender-artist?utm_source=youtube&utm_campaign=BASICS%204.0%20YT&utm_medium=video&utm_content=Lesson24)
-
-- [Big Idea: Digital Tablets - CG
-Cookie](https://cgcookie.com/posts/big-idea-digital-tablets?utm_source=youtube&utm_campaign=BASICS%204.0%20YT&utm_medium=video&utm_content=Lesson24)
-
+- [ ] [Big Idea: Digital Tablets](https://cgcookie.com/posts/big-idea-digital-tablets?utm_source=youtube&utm_campaign=BASICS%204.0%20YT&utm_medium=video&utm_content=Lesson24)
+- [ ] [PRESS START: Your Simple First Blender Project](https://cgcookie.com/courses/press-start-your-simple-first-blender-project)
+- [ ] [TRACK: The Fundamentals to become a skilled Blender artist](https://cgcookie.com/playlists/15-track-the-fundamentals-to-become-a-skilled-blender-artist?utm_source=youtube&utm_campaign=BASICS%204.0%20YT&utm_medium=video&utm_content=Lesson24)
 - [Hotkeys](https://d1tq3fcx54x7ou.cloudfront.net/uploads/store/tenant_161/attachment/2107/file/e3e8067f4de47536246c8439f242ebc5.pdf)
-
-- [Blender Market | A Unique Market for Creators that love
-Blender](https://blendermarket.com/)
 
