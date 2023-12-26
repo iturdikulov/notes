@@ -21,3 +21,8 @@ tags:
 I'm trying to [[How_I_learn_computer_graphics|learn]] 3D computer graphics.
 By developing various [[My_Games|games]] and modelling 3D models in [[Blender]].
 
+## Assets
+
+- [Substance 3D Community Assets](https://substance3d.adobe.com/community-assets?assetType=substanceMaterial))
+- [Poly Haven](https://polyhaven.com/)
+
