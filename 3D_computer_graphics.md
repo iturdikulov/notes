@@ -23,6 +23,7 @@ By developing various [[My_Games|games]] and modelling 3D models in [[Blender]].
 
 ## Assets
 
+- [Quixel Megascans - The world's largest scanned 3D asset library](https://quixel.com/megascans)
 - [Substance 3D Community Assets](https://substance3d.adobe.com/community-assets?assetType=substanceMaterial))
 - [Poly Haven](https://polyhaven.com/)
 
