@@ -13,9 +13,9 @@ directory: ~/Computer/software/nvim/
 
 # Neovim (text editor)
 
-> Nvim is based on Vim by Bram Moolenaar.
+> Neovim is based on Vim by Bram Moolenaar.
 >
-> Nvim is emphatically a fork of Vim, not a clone: compatibility with Vim
+> Neovim is emphatically a fork of Vim, not a clone: compatibility with Vim
 > (especially editor and Vimscript features) is maintained where possible.\
 > — <cite>`:help nvim`</cite>
 
@@ -600,6 +600,8 @@ exit::`:q`
 
 save without exiting::`:w` or custom keybinding `C-s`
 
+Save with some name (save as)::`:w [filename]`
+
 write the current file and exit `:wq [file]`
 
 write/force write and exit `:wq! [file]`
@@ -763,17 +765,22 @@ How quickly close command history window?
 
 List buffers
 ?
-`:buffers` - built-in command, `:Telescope buffers` - telescope command
+`:buffers` - built-in command
+`:Telescope buffers` - telescope command, or `M-b` hotkey.
 
 Switch to buffer
 ?
 `:b <buffer name>` or `:b <buffer number>`
+
+Create new scratch buffer::`:enew`
 
 ### Windows
 
 You can use vim motion keys to navigate between open windows, for example to navigate to left window?
 ?
 `C-w h`
+So moving between windows can be done with `C-w` followed by `h/j/k/l` for
+left/down/up/right navigation respectively.
 
 split open file::`:sp f`
 
@@ -790,8 +797,12 @@ next/previous tab::`gt gT`
 `C-w C-w`::to switch windows
 <!--SR:!2023-06-07,2,228-->
 
-`C-w q`::to kill windows. Better `bd` replacement
+`C-w q`::to kill windows (quit window). Better `bd` replacement
 <!--SR:!2023-06-06,3,250-->
+
+Delete current buffer::`<leader>bd` or `:bd`
+
+Close all buffers except current one::`<leader>bD`
 
 maximize buffer::`C-w \_`
 
@@ -815,6 +826,13 @@ Open current window in new tab::`C-w T`
 jumps to the last window you used \*::`C-w C-p`
 
 Create a new window and start editing an empty file in it::`:new` or `C-w n`
+
+### Workspaces
+
+Workspaces: Neovim doesn't have native workspace support like Emacs.
+However, you can achieve similar functionality using tabs or different
+instances of Neovim. Personally I use [[Tmux]] with sessionizer script
+(bind to `Tmux prefix + f`).
 
 ### Sessions
 
@@ -984,8 +1002,6 @@ If you need markdown links, use ==`url_to_markdown.sh`== script. TODO: automate
 this.
 <!--SR:!2023-06-06,2,228-->
 
-`C-SPC`::switch project using `kitty sessionizer`
-[script](file:///home/inom/.local/bin/kitty-sessionizer.sh)
 
 ## Cheat sheet
 
@@ -1056,40 +1072,8 @@ this.
 
 
 
-# emc
-
-
-### Buffers
-
-- Buffers are a special concept in emacs they can be terminals, files,
-  directories, etc
-- `SPC ,` to open another buffer
-  - workspace buffer
-- `SPC SHIFT ,` to switch to all buffers
-- `SPC b X` You can create a scratch buffer
-- `SPC b s` to save and name it
-
-### Windows
-
-- `C-w v` window split vertically
-- `C-w s` window split horizonal
-- `C-w w` to switch windows
-- `SPC w q` to kill windows
-- `SPC w >` and `SPC w <` to increase and decrease window width
-- `SPC w +` and `SPC w -` to increase and decrease window height
-- You can use vim motion keys to navigate between open windows for example `SPC w H` moves the window to the left.
-- Windows are panes in your screen
-
 ### Workspaces
 
-- `SPC TAB n` New workspace
-- `SPC TAB N` Newly named workspace
-- `SPC TAB [` Previous workspace
-- `SPC TAB ]` Next workspace
-- `SPC TAB d` Remove workspace
-- `SPC TAB R` Restore last session
-- `M-1` Switch to workspace 1
-- `M-2` Switch to workspace 2 and so forth.
 
 ## Installing Packages using org-super-agenda as an example
 
@@ -1155,6 +1139,24 @@ this.
 - You can make an edit and the changes will be reflected in all the
   selection
 
+
+Installing Packages
+
+    Installing Packages: Neovim package management might vary depending on the plugin manager you use (e.g., Vim-Plug, dein.vim).
+        To add a package using Vim-Plug, for instance, you'd edit your vimrc and add the plugin in the designated section, then run :PlugInstall to install it.
+        Configuration of plugins typically happens in the vimrc file, similar to Emacs' configuration files.
+
+Quick Movements with Evil-Snipe
+
+    Inline Navigation: Neovim, with its modal editing, allows various methods for quick navigation within files.
+        For similar navigation, you can use commands like f followed by the character to navigate to that character forward in the line, and F to navigate backward.
+        Visual mode in Neovim is accessible using v, and you can use motions like t to jump right before a character you're searching for.
+        Neovim doesn't have a direct equivalent to Evil-Snipe's functionality, but plugins like easymotion or hop can assist in quicker navigation within files.
+
+Multiple Cursors
+
+    Multiple Cursors: Neovim also supports multiple cursors, although not natively.
+        Plugins like vim-multiple-cursors or vim-visual-multi offer similar functionality, allowing you to select multiple instances of a word and edit them simultaneously.
 
 ## Elfeed
 
@@ -1445,6 +1447,43 @@ See also - <https://magit.vc/manual/magit-refcard.pdf>
 # Additional Emacs Packages
 
 ## Org Mode
+
+Sure, here are Neovim alternatives for the provided Emacs and Evil commands:
+Emacs & Evil Commands
+
+    SPC-u alternative to C-u: Neovim doesn't have a direct equivalent, as C-u is a specific Emacs prefix key. Neovim doesn't use prefixes like this in its default mappings.
+    M-x Find Any Action (execute extended command): Neovim doesn't have an equivalent command as it doesn't have the same extensive command execution functionality out of the box. Neovim primarily relies on its modes and key combinations for functionalities.
+    C-[ Close popup or Escape key alternative (evil): In Neovim, the Escape key serves a similar role to exit insert mode and return to normal mode, which is the equivalent of closing or canceling operations.
+    SPC f p to open the config: In Neovim, you'd typically edit the init.vim or init.lua file directly, often found at ~/.config/nvim/.
+    SPC h v describe variable: Neovim doesn't have a direct equivalent to describe a variable within the editor. You might need to refer to documentation or comments within the code.
+    SPC o t for opening vterm in a popup window / SPC o T for opening vterm in fullscreen: Neovim has various terminal integration plugins like nvim-terminal-emulator that allow opening a terminal inside Neovim splits or tabs.
+
+Emacs Build & Run
+
+    SPC c e evaluate buffer or region: In Neovim, you might use a terminal within Neovim to execute commands related to your code or use specific plugins that offer evaluation of code snippets within the editor.
+    SPC c d jump to definition / SPC c D jump to references: Neovim has LSP (Language Server Protocol) support, and jumping to definitions and references is often integrated through LSP plugins like nvim-lsp.
+    SPC c l a LSP code actions: Similar LSP code actions can be triggered using LSP plugins like nvim-lspconfig.
+    SPC c o Organize Imports: Organizing imports might depend on the language and associated plugin configurations within Neovim.
+
+Emacs debug (dap-mode)
+
+    Neovim has debugging support through plugins like nvim-dap, which provides similar debugging functionalities with different key bindings and configurations.
+    Commands like SPC d s dap-debug could be replaced with corresponding nvim-dap commands configured in your Neovim setup.
+
+Emacs Clipboard
+
+    Neovim doesn't have direct alternatives for these Emacs clipboard commands. However, yanking and pasting operations can be performed using the standard Vim motions (y, p, P) within normal mode.
+
+Emacs Version Control (magit)
+
+    SPC g g shows Magit status page: Neovim doesn't have a built-in version control system like Magit. Git operations are typically performed via the terminal within Neovim, or through plugins like fugitive.vim.
+    @ c p to create a pull request with forge: Creating pull requests or interacting with Git forges like GitHub is usually done through the browser or dedicated Git client tools.
+
+Additional Emacs Packages
+
+    Org Mode: Neovim doesn't have a direct equivalent to Org Mode, which is a comprehensive tool in Emacs for organizing notes, tasks, and documents. Neovim users might employ other Markdown-based note-taking plugins or task management systems for similar functionalities.
+
+For Neovim, the functionalities and key mappings often rely on plugins and specific configurations tailored to the user's workflow and preferences.
 
 ### General
 
