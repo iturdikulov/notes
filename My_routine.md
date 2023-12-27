@@ -45,7 +45,7 @@ Mark completed tasks.
 ## 5. Walk/Exercise
 
 Regular work-out for better energy and healthy mind. Better to do it according
-[[research/Turdikulov-Exercise_plan|plan]] and track your progress.
+[[research/Turdikulov-Physical_exercise_plan|plan]] and track your progress.
 
 ## 6. Relax/Dinner
 
