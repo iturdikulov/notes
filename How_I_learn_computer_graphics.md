@@ -31,4 +31,6 @@ My outline for learning [[Computer_graphics]].
 - [ ] [Трёхмерная графика с нуля. Часть 1: трассировка лучей / Habr](https://habr.com/en/articles/342510/)
 - [ ] [Transvoxel](https://transvoxel.org/Transvoxel.pdf)
 - [ ] [mister chad](https://mister-chad.com/welcome)
+- [ ] [saharan/works: The code of several works on oimo.io/works](https://github.com/saharan/works)
+
 
