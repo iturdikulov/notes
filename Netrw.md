@@ -35,10 +35,6 @@ Create file::`%`
 
 Create directory::`d`
 
-Rename (move) file::`R`
-
-Marks a file or directory::`mf`
-
 Clear marks in current buffer::`mF`
 
 Clear all marks::`mu`
@@ -59,6 +55,10 @@ Assign target directory and copy in one command::`mtmc`
 
 Runs an external command on the marked files.::`mx`
 
+Rename (move) file::`R`
+
+Marks a file or directory::`mf`
+
 Delete a file or an empty directory::`D`
 
 Delete a file or directory recursively::`mx` then `trash.sh` (my custom script)
@@ -71,8 +71,23 @@ List bookmarks and history::`qb`
 
 Remove the most recent bookmark::`mB`
 
+Mark visual selection::`:normal mf`, which transforms to `:'<,'>normal mf`.
+
+## Uncategorized
+
+Change permissions::`gp`
+
+Select sorting style::`s`, by name, time, or file size
+
+Change the owner::`mf` to select files, `mx` then `chown ...`
+
+TODO: select all directories.
+TODO: invert the selection.
+TODO: switch between files and directories
+
 ## Resources
 
 - `:h netrw`
 - `:h netrw-quickmap`
 - [x] [Using Netrw, vim's builtin file explorer](https://vonheikemen.github.io/devlog/tools/using-netrw-vim-builtin-file-explorer/)
+
