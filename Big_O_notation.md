@@ -42,7 +42,7 @@ much data there is. That is, for N elements, the algorithm always takes three
 steps. How would you express that in terms of Big O?
 ?
 The algorithm is $\mathcal{O}(1)$. Because the number of steps is constant.
-<!--SR:!2023-07-22,3,270-->
+<!--SR:!2023-12-26,2,250-->
 
 $\mathcal{O}(N)$ is ==less== efficient than $\mathcal{O}(1)$ no matter how many
 steps the $\mathcal{O}(1)$ n algorithm actually takes.
