@@ -38,6 +38,10 @@ git config --global user.email "user@domain.tld"
 
 ## Resources
 
-- [[research/Chacon_and_Ben-Pro_Git|Pro Git]]
-- [Git - gittutorial Documentation](https://git-scm.com/docs/gittutorial)
-- [[Diff]]
+- [ ] [Git - SubmittingPatches Documentation](https://git-scm.com/docs/SubmittingPatches)
+- [ ] [Git - gittutorial Documentation](https://git-scm.com/docs/gittutorial)
+- [ ] [[research/Chacon_and_Ben-Pro_Git|Pro Git]]
+- [ ] [[Diff]]
+- [A collection of useful .gitattributes templates](https://github.com/gitattributes/gitattributes)
+- [A collection of useful .gitignore templates](https://github.com/github/gitignore)
+
