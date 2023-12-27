@@ -30,9 +30,9 @@ Some general notes available in @DiveIntoTaskwarriorTomasBabej.
 
 ## Resources
 
-- [x] [[research/Syd-GTD_with_taskwarrior]]
-- [ ] [[research/Babej-A_dive_into_taskwarrior_ecosystem]]
 - [ ] `man task`
+- [ ] [[research/Babej-A_dive_into_taskwarrior_ecosystem]]
+- [x] [[research/Syd-GTD_with_taskwarrior]]
 - [ ] [poor man's recurrence Discussion #2846 · GitHub](https://github.com/GothenburgBitFactory/taskwarrior/discussions/2846)
 - [ ] [Taskwarrior - 30-Second Tutorial](https://taskwarrior.org/docs/30second.html)
 - [ ] [Taskwarrior - Usage Examples](https://taskwarrior.org/docs/examples/)
