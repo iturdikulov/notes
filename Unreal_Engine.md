@@ -31,5 +31,8 @@ sr-ease: 254
 
 ## Resources
 
+- [[3D_computer_graphics#Assets]]
 - [ ] [[research/Sensei-Unreal_Engine_5_Beginner_Tutorial]]
-- [ ] [Unreal Engine 5. Free two scenes. Lumen vs Baked light ](https://unreal.shop/models/unreal-engine-5.-free-two-scenes.-lumen-vs-baked-light)
+- [ ] Unreal Engine 5 Game Development with C++ Scripting
+- [ ] [Unreal Engine C++ Survival Game Tutorials](https://www.tomlooman.com/unreal-engine-cpp-survival-sample-game/)
+
