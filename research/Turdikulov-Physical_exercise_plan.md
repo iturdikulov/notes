@@ -11,7 +11,7 @@ tags:
   - IRL
 ---
 
-# Exercise plan
+# Physical exercise plan
 
 If you're completely new to physical training and want to use only your own body
 weight, you can start with a basic full-body routine that targets all major
@@ -28,11 +28,14 @@ of rest and hydration to support your progress.
 - [ ] [Ab Challenge](https://darebee.com/challenges/ab-challenge.html)
 
 ### Wed 27 Dec 2023
-- [ ] 4/2/2 Push-ups
+
+- [x] 4/2/2 Push-ups
 - [ ] 10/6/6 Squats
 - [ ] 10 sit-ups
 - [ ] 20 flutter kicks
 - [ ] 30 sec plank
+
+---
 
 ## Week 0. Prepare your body
 
