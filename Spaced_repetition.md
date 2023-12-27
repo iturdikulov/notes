@@ -5,7 +5,6 @@ sr-ease: 289
 sr-interval: 175
 tags:
   - inbox
-  - productivity
 ---
 
 # Spaced repetition
@@ -48,7 +47,7 @@ With new
 \
 Lines
 
-Simple question 
+Simple question
 ?
 With
 
