@@ -17,6 +17,10 @@ sr-ease: 229
 > JavaScript engine to execute the code on users' devices.\
 > — <cite></cite>
 
+## Libraries
+
+- [xyflow: node-based UIs with React](https://github.com/xyflow/xyflow)
+
 ## Resources
 
 - [ ] [React](https://react.dev/learn)

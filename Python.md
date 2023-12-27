@@ -75,6 +75,17 @@ it's "batteries included" language.
 Personally I learn python with
 [[My_python_developer_roadmap|my python developer roadmap]].
 
+## Libraries, Frameworks, Templates
+
+- [spectree: API spec validator and OpenAPI document generator.](https://github.com/0b01001001/spectree#flask)
+- [GitHub - edkrueger/rq-flask-sqlalchemy-template](https://github.com/edkrueger/rq-flask-sqlalchemy-template/tree/master)
+
+## How-to/Guides
+
+- [python - SQLAlchemy proper session handling in multi-thread applications - Stack Overflow](https://stackoverflow.com/questions/9619789/sqlalchemy-proper-session-handling-in-multi-thread-applications)
+- [Using Python SQLAlchemy session in multithreading](https://copdips.com/2019/05/using-python-sqlalchemy-session-in-multithreading.html#way-2-using-scoped_session-to-create-a-thread-local-variable)
+
+
 ## Resources
 
 - [Documentation](https://docs.python.org/3/)
