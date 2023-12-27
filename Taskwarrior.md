@@ -1,8 +1,5 @@
 ---
 date: 2023-06-25
-sr-due: 2023-08-25
-sr-ease: 230
-sr-interval: 1
 tags:
 - inbox
 - productivity
@@ -33,7 +30,10 @@ Some general notes available in @DiveIntoTaskwarriorTomasBabej.
 
 ## Resources
 
+- [x] [[research/Syd-GTD_with_taskwarrior]]
+- [ ] [[research/Babej-A_dive_into_taskwarrior_ecosystem]]
 - [ ] `man task`
+- [ ] [poor man's recurrence Discussion #2846 · GitHub](https://github.com/GothenburgBitFactory/taskwarrior/discussions/2846)
 - [ ] [Taskwarrior - 30-Second Tutorial](https://taskwarrior.org/docs/30second.html)
 - [ ] [Taskwarrior - Usage Examples](https://taskwarrior.org/docs/examples/)
 - [ ] [Taskwarrior - Best Practices](https://taskwarrior.org/docs/best-practices/)
