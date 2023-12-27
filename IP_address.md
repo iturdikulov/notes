@@ -106,7 +106,17 @@ is part of the IP address.
 | a.0.0.0/1      | +127.255.255.255           | 128.0.0.0       | 2147483648 |                                     |
 | 0.0.0.0/0      | +255.255.255.255           | 0.0.0.0         | 4294967296 | Entire IPv4 Internet                |
 
+## Online tools
+
+- [Online IP CIDR / VLSM Supernet Calculator](https://www.subnet-calculator.com/cidr.php)
+
+### IP reputation check
+
+- [Proxy Detection Test - Detect Proxies With Our IP Lookup](https://www.ipqualityscore.com/free-ip-lookup-proxy-vpn-test)
+- [IP Address to IP Location and Proxy Information | IP2Location](https://www.ip2location.com/)
+- [The Web's Largest Community Tracking Online Fraud &amp; Abuse | Project Honey Pot](http://www.projecthoneypot.org)
+- [VirusTotal url scan](https://www.virustotal.com/gui/home/url)
+
 ## References
 
 - [ ] [Classless Inter-Domain Routing - Wikipedia](https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing)
-- [ ] [Online IP CIDR / VLSM Supernet Calculator](https://www.subnet-calculator.com/cidr.php)
