@@ -26,7 +26,9 @@ Experiment, do something new, based on tutorials.
 
 Make something dirty but get experience.
 
-- [ ] [[research/Price-Donut_Tutorial_in_Blender]]
+- [x] [[research/Price-Donut_Tutorial_in_Blender]]
+- [x] [[research/CG_Cookie-Blender_Basics]]
+- [ ] [Your Simple First Blender Project](https://cgcookie.com/courses/press-start-your-simple-first-blender-project)
 - [ ] [Learn Blender 3 for Complete Beginners - YouTube](https://www.youtube.com/playlist?list=PLn3ukorJv4vuU3ILv3g3xnUyEGOQR-D8J)
 - [ ] [Beginner Modelling Chair Tutorial - YouTube](https://www.youtube.com/playlist?list=PLjEaoINr3zgEL9UjPTLWQhLFAK7wVaRMR)
 - [ ] [Intermediate Blender Tutorial Series - YouTube](https://www.youtube.com/playlist?list=PLjEaoINr3zgHJVJF3T3CFUAZ6z11jKg6a)
@@ -36,6 +38,7 @@ Make something dirty but get experience.
 
 - [Libraries — Blender Cloud](https://cloud.blender.org/libraries), great source
   of assets.
+- [ ] [How To Render This Cinematic Shot With EEVEE | Blender Tutorial - YouTube](https://www.youtube.com/watch?app=desktop&v=RB6Ytdfwy-0)
 - [ ] [The Complete "Game Development with Blender" Book](https://github.com/mikepan/GameEngineBook)
 - [ ] [BlenderText To 3D AI Generator](https://devbud.gumroad.com/l/Shap-e)
 - [ ] [Animate a Character in 15 Minutes in Blender - YouTube](https://www.youtube.com/watch?v=imbIsNAvUpM)
