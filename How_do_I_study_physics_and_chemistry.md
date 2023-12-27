@@ -15,3 +15,8 @@ tags:
 - [ ] [Electromagnetic radiation - Wikipedia](https://en.wikipedia.org/wiki/Electromagnetic_radiation)
 - [ ] [Designing a physics engine](https://winter.dev/articles/physics-engine)
 - [ ] [Physics — Susan Rigetti](https://www.susanrigetti.com/physics)
+
+## Interactive & Entertainment
+
+- [ ] [Space Elevator](https://neal.fun/space-elevator/)
+- [ ] [Animation vs. Physics - YouTube](https://www.youtube.com/watch?v=ErMSHiQRnc8)
