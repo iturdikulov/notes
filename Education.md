@@ -9,14 +9,17 @@ tags:
 
 # Education
 
-> Education is the transmission of knowledge, skills, and character traits. Its
-> precise definition is disputed and there are disagreements about what the aims
-> of education are and to what extent education is different from indoctrination
-> by fostering critical thinking. These disagreements affect how to identify,
-> measure, and improve forms of education. The term "education" can also refer
-> to the mental states and qualities of educated people and the academic field
-> studying educational phenomena.\
+> Education is the transmission of knowledge, skills, and character traits.
+> Its precise definition is disputed and there are disagreements about what
+> the aims of education are and to what extent education is different from
+> indoctrination by fostering critical thinking. These disagreements affect
+> how to identify, measure, and improve forms of education. The term
+> "education" can also refer to the mental states and qualities of educated
+> people and the academic field studying educational phenomena.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Education)</cite>
+
+Important place in choosing what to learn is my [[Work#Goals|work goals]]
+and my [[My_pet_projects|pet projects]] required skills.
 
 Since I'm use [[Zettelkasten]], I can create new notes based on education
 materials and extend them with different sources, my experience, etc. That
@@ -26,7 +29,8 @@ My current focus is on following things, order is not important. All with help
 of [[Spaced_repetition|spaced repetition]], [[SQ3R_method|Sq3R]],
 [[Zettelkasten|zettelkasten]], [[How_to_study|study techniques]], etc.
 
-> The only way to learn a new programming language is by writing programs in it.\
+> The only way to learn a new programming language is by writing programs
+> in it.\
 > — <cite>[[research/Kernighan_and_Ritchie-The_C_programming_language|K&R book]]</cite>
 
 It's not enough to study only, need continuously practice (use your knowledge)
@@ -100,8 +104,12 @@ this engine, and it can be even used as [[Art]] tool.
 
 ## Secondary study list
 
+- [x] [[research/Price-Donut_Tutorial_in_Blender]]
+- [x] [[research/CG_Cookie-Blender_Basics]]
+
 ### Programming
 
+- [ ] [You can use Pydantic in SQLAlchemy fields - Roman Imankulov](https://roman.pt/posts/pydantic-in-sqlalchemy-fields/)
 - [ ] [[research/Python_Community-Python_Tutorial|Python tutorial]], to learn core
 of [[Python]].
   - [[research/Python_Community-Python_FAQ]]
