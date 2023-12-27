@@ -43,6 +43,12 @@ and daily [[Maintenance]], with attention to [[Computer_security]] practices.
 Currently, I'm working now as a software engineer in a small company (remote,
 full-stack position, but moving into [[Backend|backend]] position).
 
+## Goals
+
+- High proficient Software Engineer.
+- Backend specialist.
+- Business problem solver.
+
 ## Resources
 
 - [salomonelli/best-resume-ever](https://github.com/salomonelli/best-resume-ever)
