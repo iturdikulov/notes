@@ -23,13 +23,14 @@ meaning of words.
 
 ## Words which I search through Sdcv (inbox for future flashcards)
 
--
-- As well
 - actor
+- adequate
 - admission
 - aims
+- altitude
 - anxiety
 - approach
+- as well
 - beans
 - bevel
 - borrowed
@@ -38,6 +39,7 @@ meaning of words.
 - claymation
 - compound
 - confidence
+- considering
 - crease
 - curiosity
 - discrepant
@@ -54,25 +56,35 @@ meaning of words.
 - greace
 - handily
 - hesitation
+- hummingbird
 - hurdle
 - inflate
 - local expert
 - lump
+- mallard
 - medicine
+- mux
 - orthographic
+- osprey
 - pivot
 - point of ponder
 - prefetch
 - prevalent
+- proficient
 - remainder
 - robust
 - saturate
+- sit-up
+- squat
 - squeeze
 - statement
 - strength
 - substitute
 - tackle
+- tickle
 - trait
+- vapor
+- vapour
 - vegetable
 - versatile
 - выпуклсть
@@ -83,6 +95,12 @@ meaning of words.
 - напитки
 - напиток
 - орех
+- пресс
+- приседания
+- приседать
+- пропустить
 - рядовой
 - сладости
+- удлинить
+- удлинять
 - щетка
