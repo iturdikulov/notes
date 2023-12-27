@@ -114,19 +114,19 @@ print(5 ** 2)  # 5 squared
 print(2 ** 7)  # 2 to the power of 7
 ```
 
-What is floor division, what are value of `(-11) // 4` ?
+What is floor division (or div), what are value of `(-11) // 4` ?
 ?
 Mathematical division that rounds down to **nearest** integer. The floor
-division operator is `//`.  `(-11) // 4` is -3
+division operator is `//`.  `(-11) // 4` is -3 (yes it's correct)
 because that is `-2.75` rounded downward.
 <!--SR:!2023-11-17,1,220-->
 
 The `%` operator returns the ==remainder== of the division.
-<!--SR:!2023-11-18,2,240-->
+<!--SR:!2023-12-31,4,240-->
 
 [[Operator|Operators]] with mixed type [[Operand|operand]]'s convert the integer
 operand to ==floating point, int → float==.
-<!--SR:!2023-11-18,2,240-->
+<!--SR:!2024-01-02,6,240-->
 
 ```python
 print(4 * 3.75 - 1) # 14.0
@@ -148,7 +148,7 @@ a = n + 1  # NameError: name 'n' is not defined
 
 In interactive mode, the last printed expression is assigned to the variable
 ==`_`==, and it should be read-only (avoid assign values to it).
-<!--SR:!2023-11-18,2,240-->
+<!--SR:!2024-01-02,6,240-->
 
 ```python
 tax = 12.5 / 100  # tax
@@ -230,7 +230,7 @@ print(text.__add__("?"))  # concatenation using __add__ method, bad practice
 
 Strings can be indexed (subscripted). In python no separate character type, a
 **character** is a string of ==size one==.
-<!--SR:!2023-11-18,2,240-->
+<!--SR:!2024-01-01,5,240-->
 
 ```python
 word = 'Python'
@@ -268,12 +268,12 @@ What you see if you use this slice `word[0:2]`, where word is "Python"
 print("Python"[0:2])
 ```
 Characters from position 0 (included) to 2 (excluded), `'Py'`
-<!--SR:!2023-11-17,1,220-->
+<!--SR:!2023-12-29,2,220-->
 
 What you see if you use this slice `word[2:5]`, where word is "Python"
 ?
 Characters from position 2 (included) to 5 (excluded). `'tho'`
-<!--SR:!2023-11-18,2,240-->
+<!--SR:!2023-12-31,4,240-->
 
 Note: `s[:i] + s[i:] == s`, start is always included, and the end always
 excluded.
@@ -283,10 +283,10 @@ sentence = "Hello, World!"
 print(sentence[:5] + sentence[5:] == sentence)  # True
 ```
 
-Attempting to use invalid index in range slice handled?
+Attempting to use invalid index in range slice handled (with/without exception)?
 ?
 Gracefully, without raising an exception.
-<!--SR:!2023-11-18,2,240-->
+<!--SR:!2023-12-31,4,240-->
 
 ```python
 word = 'Python'
@@ -295,7 +295,7 @@ print(word[4:42])
 ```
 
 To remember how slices work, you can use this table. Think indices are pointing
-between characters. How do you think this table is constructed, header is word,
+between characters. How do you think this table is constructed, header is "word",
 row 1 and row 2 are?
 ?
 ```
@@ -307,12 +307,12 @@ row 1 and row 2 are?
 ```
 For non-negative indices, the length of a slice is the difference of the
 indices, if both are within bounds. For example, the length of word[1:3] is 2.
-<!--SR:!2023-11-17,1,220-->
+<!--SR:!2023-12-28,1,200-->
 
 Is it possible to use index outside of string bounds?
 ?
 No, it will raise `IndexError` exception.
-<!--SR:!2023-11-18,2,240-->
+<!--SR:!2024-01-01,5,240-->
 
 Python strings are ==[[Immutable_object|immutable]]==. You can't assign new
 value to character in string.
@@ -321,7 +321,7 @@ word = 'Python'
 word[0] = 'J'    # TypeError: 'str' object does not support item assignment
 word[2:] = 'py'  # TypeError: 'str' object does not support item assignment
 ```
-<!--SR:!2023-11-18,2,240-->
+<!--SR:!2023-12-31,4,240-->
 
 But you generate new string:
 
@@ -345,7 +345,7 @@ print(len(s))  # 28
 
 Most versatile [[Data_type|data type]] is [[List|list]]. In Python list can
 contain elements of different types, and usually used ==one type== of elements.
-<!--SR:!2023-11-18,2,240-->
+<!--SR:!2023-12-31,4,240-->
 
 ```python
 squares = [1, 4, 9, 16, 25]
@@ -368,7 +368,7 @@ requested elements.
 squares = [1, 4, 9, 16, 25]
 print(squares[:])  # [1, 4, 9, 16, 25]
 ```
-<!--SR:!2023-11-18,2,240-->
+<!--SR:!2023-12-28,1,220-->
 
 Lists also support operations like concatenation.
 
@@ -378,7 +378,7 @@ print(squares + [4, 3, 2, 1])  # [9, 8, 7, 6, 5, 4, 3, 2, 1]
 ```
 
 List are ==mutable==, unlike strings.
-<!--SR:!2023-11-18,2,240-->
+<!--SR:!2023-12-31,4,240-->
 
 ```python
 cubes = [1, 8, 27, 65, 125]  # something's wrong here, let's check 4th element
@@ -439,25 +439,26 @@ while a < 10:
     # 3, 5
 ```
 
-Order of Evaluation in Python expression?
+Order of Evaluation in Python expression (operand)?
 ?
-In Python, the left operand is always evaluated before the right operand.
-<!--SR:!2023-11-17,1,220-->
+In Python, the left operand is always evaluated before the right operand
+(if they has same priority).
+<!--SR:!2023-12-28,1,200-->
 
 Non-zero, zero or [[Null_pointer|None]] values in Python (and C) considered as
 ==[[Boolean_data_type|boolean]]==.
-<!--SR:!2023-11-18,2,240-->
+<!--SR:!2024-01-01,5,240-->
 
-Non-zero and zero length values considered as?
+Non-zero and zero length values considered as (xxx and xxx)?
 ?
 True and False. Length also True and False.
-<!--SR:!2023-11-18,2,240-->
+<!--SR:!2023-12-28,1,220-->
 
 `-3**2` in Python is?
 ?
 Since `**` has higher precedence than -, `-3**2` will be interpreted as
-`-(3**2)` and thus result in -9. To avoid this and get 9, you can use `(-3)**2`.
-<!--SR:!2023-11-18,2,240-->
+`-(3**2)` and thus result is -9. To avoid this and get 9, you can use `(-3)**2`.
+<!--SR:!2023-12-28,1,220-->
 
 ## [4. More Control Flow Tools](https://docs.python.org/3/tutorial/controlflow.html)
 
@@ -487,7 +488,7 @@ appear. And finish when sequence is exhausted.
 > Code that modifies a collection while iterating over that same collection can
 > be tricky to get right. Instead, it is usually more straight-forward to loop
 > over a ==copy== of the collection or to create a new collection:
-<!--SR:!2023-11-18,2,240-->
+<!--SR:!2024-01-01,5,240-->
 
 ```python
 # Create a sample collection
@@ -510,10 +511,10 @@ print(active_users)
 
 `range()` is sort of converting given length to known array (`0,1,...,X`). It
 generates (math) ==arithmetic progression==.
-<!--SR:!2023-11-18,2,240-->
+<!--SR:!2024-01-02,6,240-->
 
 Last index of `range(10)`?::`9`
-<!--SR:!2023-11-18,2,240-->
+<!--SR:!2024-01-01,5,240-->
 
 ```python
 print(list(range(10))) # [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
@@ -539,7 +540,7 @@ What you will see in interactive python session if you enter this:
 ```python
 [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 ```
-<!--SR:!2023-11-18,2,240-->
+<!--SR:!2024-01-01,5,240-->
 
 And you can also specify [[Increment_and_decrement_operators|increment]] for
 step size. Which can be positive or negative.
@@ -584,7 +585,7 @@ print(range(10))  # range(0, 10)
 What you will see with this code: `sum(range(4))`?
 ?
 # 0 + 1 + 2 + 3 = 6
-<!--SR:!2023-11-18,2,240-->
+<!--SR:!2023-12-31,4,240-->
 
 > The `break` statement, like in C, `breaks out` of the innermost enclosing
 > `for` or `while` loop.
@@ -592,7 +593,7 @@ What you will see with this code: `sum(range(4))`?
 In python `for` and `while` statements may have a `else` clause.
 It is executed if loop ==wasn't `break`ed== (we iterated over all items in `for` or
 `while` condition become `False`).
-<!--SR:!2023-11-17,1,220-->
+<!--SR:!2023-12-29,2,220-->
 
 ```python
 for n in range(2, 10):
