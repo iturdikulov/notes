@@ -246,5 +246,6 @@ essential or "Highly recommended" mods.
 
 ## Resources
 
+- [[Useless_pages|Useless pages]]
 - [GitHub - michelpereira/awesome-games-of-coding: A curated list of games that can teach you how to learn a programming language.](https://github.com/michelpereira/awesome-games-of-coding)
 
