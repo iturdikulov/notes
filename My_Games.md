@@ -18,6 +18,10 @@ on my [[Smartphone|smartphone]].
 
 ## Active games
 
+- [ ] [The Python Challenge](http://www.pythonchallenge.com/)
+- [ ] [Elevator Saga - the elevator programming game](https://play.elevatorsaga.com/)
+- [ ] [CodinGame](https://www.codingame.com/start/)
+
 - [ ] [[Gothic]]
 - [ ] [[Turing_Complete_(game)|Turing Complete]]
 - [ ] Portal 2
@@ -238,3 +242,9 @@ essential or "Highly recommended" mods.
   Allows you to unbind gameplay keys from menu keys, so that changing
   Activate to something other than "E" won't also ghost-change Use in
   menus to that other key.
+
+
+## Resources
+
+- [GitHub - michelpereira/awesome-games-of-coding: A curated list of games that can teach you how to learn a programming language.](https://github.com/michelpereira/awesome-games-of-coding)
+

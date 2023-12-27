@@ -22,3 +22,9 @@ Here you can find random useless page:
 
 [[Chrome_experiments]] to certain degree can be considered as
 useless pages too, but I'm not sure.
+
+[Iceberger](https://joshdata.me/iceberger.html).
+
+[The Password Game](https://neal.fun/password-game/).
+
+
