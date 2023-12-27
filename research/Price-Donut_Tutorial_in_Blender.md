@@ -33,12 +33,12 @@ How to move siblings points in edit mode?
 ?
 You need to select point(s) enable proportional editing (`O`) and move
 (`G`) To increase/decrease proportional editing radius use mouse wheel.
-<!--SR:!2023-12-10,3,250-->
+<!--SR:!2023-12-31,7,250-->
 
 How select random points in edit mode?
 ?
 Select > **S**elect Random.
-<!--SR:!2023-12-12,4,270-->
+<!--SR:!2024-01-02,10,270-->
 
 Orthographic mode basically means:
 ?
@@ -50,7 +50,7 @@ You can click on circles in axis control widget (top-right) to orbit or
 ==hold LMB== on it and drag.
 
 Render working from ==point of view== of camera.
-<!--SR:!2023-12-12,4,270-->
+<!--SR:!2024-01-06,13,270-->
 
 One method to quickly set camera position:
 - Select camera in Scene Collection (right menu).
@@ -99,7 +99,7 @@ thickness to it.
 
 Usually solidify modifier is used ==before== subdivision modifier.
 
-One useful property of solidify modifier is ==Edge data==, used to create
+One useful property of solidify modifier is ==Edge data -> Crease==, used to create
 crease or bevel.
 <!--SR:!2023-12-11,3,250-->
 
@@ -126,7 +126,7 @@ need to place this modifier above other ones.
 
 If you have subdivision modifier, which is not applied, sculpting still
 working on low-poly mesh, so usually you need to ==apply it==.
-<!--SR:!2023-12-12,4,270-->
+<!--SR:!2024-01-08,16,290-->
 
 Subdivision modifier applying will use ==Viewport== level property.
 
@@ -151,10 +151,10 @@ To make color less/more "glossy", change ==roughness== parameter.
 To parent objects, select child object first, then parent and press
 ==`C-P`==. BE CAREFUL not to have proportional editing enabled when you
 parent objects (otherwise here possible issues with location properties).
-<!--SR:!2023-12-12,4,270-->
+<!--SR:!2024-01-05,13,270-->
 
 To set image texture click on ==yellow circle== in base color in material
-properties.
+properties and select image texture.
 <!--SR:!2023-12-12,4,270-->
 
 [Poliigon](https://www.poliigon.com ) - Andrew Price's site with
@@ -178,7 +178,7 @@ roughness/normal maps (here no color only required values).
 
 A normal in 3D modeling is a depiction of the ==orientation== of a
 polygon's surface.
-<!--SR:!2023-12-08,1,230-->
+<!--SR:!2023-12-25,1,210-->
 
 Usually you need to connect into Principled BSDF ==Normal Map== first and
 only then Image Texture.
@@ -225,7 +225,7 @@ You can find Geometry Nodes in default layout menu.
 Geometry nodes actually are ==modifiers== (type). They have input (some
 geometry object), object modification nodes and output. It's also exposing
 properties for user and allow modifying them.
-<!--SR:!2023-12-12,4,270-->
+<!--SR:!2024-01-05,12,270-->
 
 Distribute points on faces allow adding small objects over
 ==object surface==. To see it on render, you need link object to be
@@ -238,7 +238,7 @@ To prevent points overlap when you use distribute points node, use
 
 ==Join geometry== node is essential to save original object geometry and
 add new one. To use it add input geometry and result of modifier nodes.
-<!--SR:!2023-12-09,1,230-->
+<!--SR:!2023-12-26,2,210-->
 
 Long vertical rounded rectangle in Geometry Nodes represent point which
 allowing to connect ==multiply inputs==.
@@ -269,9 +269,11 @@ Is here any indication of weight painting mode?
 ?
 When weight paint activated, selected object became blue (color), and
 you can start draw on it.
+Here weight color code:
+![Weight color code](../img/sculpt-paint_weight-paint_introduction_color-code.png)
 <!--SR:!2023-12-12,4,270-->
 
-Where Blender store weight paint data (structure name) ?
+Where Blender store weight paint data (structure name)?
 ?
 When you start weight painting it automatically create Vertex group (green
 icon in right properties window to access it). Vertex groups are mainly
@@ -351,7 +353,7 @@ curved. It's curving object from origin point with specified Angle.
 To set origin point position to "default position" (maybe true for simple
 geometry), after scaling object, open context menu (RMB) and select
 ==Set Origin → Origin Geometry==.
-<!--SR:!2023-12-09,1,230-->
+<!--SR:!2023-12-25,2,230-->
 
 You can group objects in collections, check outliner panel, click in top
 right button to create collection. Double-click on collection name to
@@ -604,12 +606,13 @@ linked objects (issues after duplicate for example).
 # Part 11: Compositing
 
 TODO: add note about area light.
-The area light simulates light originating from a surface (or surface-like)
-emitter. For example, a TV screen, office neon lights, a window, or a
-cloudy sky are just a few types of area light. The area light produces
-shadows with soft borders by sampling a light along a grid the size of
-which is defined by the user. This is in direct contrast to point-like
-artificial lights which produce sharp borders.
+
+The area light simulates light originating from a
+==surface (or surface-like)== emitter. For example, a TV screen, office
+neon lights, a window, or a cloudy sky are just a few types of area light.
+The area light produces shadows with soft borders by sampling a light along
+a grid the size of which is defined by the user. This is in direct contrast
+to point-like artificial lights which produce sharp borders.
 
 How to set size of area lamp?
 ?
