@@ -25,6 +25,11 @@ useless pages too, but I'm not sure.
 
 [Iceberger](https://joshdata.me/iceberger.html).
 
-[The Password Game](https://neal.fun/password-game/).
+
+## [Neal.fun](https://neal.fun/) projects
+
+- [The Password Game](https://neal.fun/password-game/).
+- [Internet Artifacts](https://neal.fun/internet-artifacts/)
+
 
 
