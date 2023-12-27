@@ -9,4 +9,4 @@ tags:
 
 # Exercise
 
-- [[research/Turdikulov-Exercise_plan]]
+- [[research/Turdikulov-Physical_exercise_plan]]
