@@ -255,6 +255,7 @@ with mesh names, like `ostrich`
 
 ## Resources
 
+- [l2 calc](http://l2p.lacrafter.ru/about.html)
 - [L2Editor - Страница 2 - Форум администраторов игровых серверов](https://forum.zone-game.info/showthread.php?t=42513&page=2)
 - [L2Editor - Client Development Discussion - MaxCheaters.com | Lineage 2 Development Marketplace Bots and Cheats](https://maxcheaters.com/topic/217389-l2editor/)
 
