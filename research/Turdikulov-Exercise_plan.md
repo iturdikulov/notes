@@ -21,6 +21,19 @@ Remember to always listen to your body and adjust the exercises or reps as
 needed. And don't forget to fuel your body with nutritious food and get plenty
 of rest and hydration to support your progress.
 
+## Initial steps
+
+- [ ] [50 Push-Ups Challenge](https://darebee.com/challenges/50-push-ups-challenge.html)
+- [ ] [Squat Challenge](https://darebee.com/challenges/squats-challenge.html)
+- [ ] [Ab Challenge](https://darebee.com/challenges/ab-challenge.html)
+
+### Wed 27 Dec 2023
+- [ ] 4/2/2 Push-ups
+- [ ] 10/6/6 Squats
+- [ ] 10 sit-ups
+- [ ] 20 flutter kicks
+- [ ] 30 sec plank
+
 ## Week 0. Prepare your body
 
 ### [ ] Day 1
