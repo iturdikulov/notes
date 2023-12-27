@@ -20,5 +20,5 @@ applications, virtual reality, and, formerly, video [[Game|games]].
 
 ## Resources
 
-- [Blender 4.0 Reference Manual — Blender Manual](https://docs.blender.org/manual/en/latest/index.html)
-
+- [Blender Manual](https://docs.blender.org/manual/en/latest/index.html)
+- [Blender Market | A Unique Market for Creators that love Blender](https://blendermarket.com/)
