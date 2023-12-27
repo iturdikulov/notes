@@ -1070,12 +1070,11 @@ this.
 - [ ] [Automatically Execute *Anything* in Nvim - YouTube](https://www.youtube.com/watch?v=9gUatBHuXE0)
 - [ ] [Execute **anything** in neovim (now customizable) - YouTube](https://www.youtube.com/watch?v=HlfjpstqXwE)
 
+TODO: emc review
 
+## Installing Packages, using Telekasten as example
 
-### Workspaces
-
-
-## Installing Packages using org-super-agenda as an example
+TODO: nixos based configuration
 
 - `SPC f p` to open the config.
 - To add a package, add the package to `.doom.d/package.el`
@@ -1089,14 +1088,12 @@ this.
   - `:after` lets you set which package it should load after
 - You can use `:after!` to configure packages that are already there
 
-## Quick, horizontal movements with evil-snipe
-
-### Inine navigation
+### Inline navigation
 
 - `f` and then the letter you want to navigate to.
   - `,` will go backward
   - `;` will go forward after that "find"
-- `t` to find and move cursor to the charachter before what you've searched.
+- `t` to find and move cursor to the character before what you've searched.
 - `v` puts you in vi mode. You can select text by with `v t some-char-you-navigate-to` or `v f some-char-you-navigate-to`
 - `;` to jump to the next find
 - `,` to jump to the previous one
@@ -1140,35 +1137,11 @@ this.
   selection
 
 
-Installing Packages
-
-    Installing Packages: Neovim package management might vary depending on the plugin manager you use (e.g., Vim-Plug, dein.vim).
-        To add a package using Vim-Plug, for instance, you'd edit your vimrc and add the plugin in the designated section, then run :PlugInstall to install it.
-        Configuration of plugins typically happens in the vimrc file, similar to Emacs' configuration files.
-
-Quick Movements with Evil-Snipe
-
-    Inline Navigation: Neovim, with its modal editing, allows various methods for quick navigation within files.
-        For similar navigation, you can use commands like f followed by the character to navigate to that character forward in the line, and F to navigate backward.
-        Visual mode in Neovim is accessible using v, and you can use motions like t to jump right before a character you're searching for.
-        Neovim doesn't have a direct equivalent to Evil-Snipe's functionality, but plugins like easymotion or hop can assist in quicker navigation within files.
 
 Multiple Cursors
 
     Multiple Cursors: Neovim also supports multiple cursors, although not natively.
         Plugins like vim-multiple-cursors or vim-visual-multi offer similar functionality, allowing you to select multiple instances of a word and edit them simultaneously.
-
-## Elfeed
-
-## Abbrev-mode
-
-## Ropemacs
-
-## tree-sitter
-
-## TRAMP
-
-## ReBuilder
 
 # Special Thanks
 
@@ -1305,7 +1278,6 @@ list of bookmarked files. It\'s amazingly useful
 # Emacs & Evil Commands
 
 ```example
-SPC-u alternative to C-u
 M-x Find Any Action (execute extended command)
 M-` text-mode emulation of menubar *
 C-c C-c run... *
