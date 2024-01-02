@@ -209,7 +209,7 @@ TODO: restructure, instead more_info, use linking to notes!
 - [pass](https://www.passwordstore.org/) - the standard Unix password manager,
   [[Pass|more_info]]
 - [GPG](https://gnupg.org/) - encrypt and sign your data and communications,
-  [[GNU_Privacy_Guard|more_info]]
+  [[GNU_Privacy_Guard_GPG|more_info]]
 - [firejail](https://firejail.wordpress.com) - SUID sandbox program that reduces
   the risk of security breaches
 

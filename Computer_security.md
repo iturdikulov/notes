@@ -12,7 +12,7 @@ tags:
 ## Software
 
 - [[Multi-factor_authentication_MFA]]
-- [[GNU_Privacy_Guard|GPG]]
+- [[GNU_Privacy_Guard_GPG|GPG]]
 - [[Pass]]
 - [[Dm-crypt]]
 - [DroidFS](https://github.com/hardcore-sushi/DroidFS) - use encrypted virtual

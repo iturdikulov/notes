@@ -171,7 +171,7 @@ A lot of these commands also usually exist in this
 
 - [[GNU_Sed|GNU Sed]]
 - [[GNU_Readline|GNU Readline]]
-- [[GNU_Privacy_Guard|GNU Privacy Guard (GPG)]]
+- [[GNU_Privacy_Guard_GPG|GNU Privacy Guard (GPG)]]
 - [[GNU_Debugger|GNU Debugger (GDB)]]
 
 ## Resources

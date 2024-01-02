@@ -23,7 +23,7 @@ Git crypt allow you to use transparent file encryption in [[Git|git]] repository
 
 Quick start:
 1. Initialize: `git-crypt init`
-2. Add [[GNU_Privacy_Guard|GPG]] user: `git-crypt add-gpg-user <email>`
+2. Add [[GNU_Privacy_Guard_GPG|GPG]] user: `git-crypt add-gpg-user <email>`
 3. Create `.gitattributes` file, with this content:
 ```
 # git crypt handle operations and diff for files, which match this pattern
