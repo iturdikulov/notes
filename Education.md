@@ -1,10 +1,11 @@
 ---
 date: 2023-03-12
-sr-due: 2024-01-19
+sr-due: 2024-03-19
 sr-ease: 288
 sr-interval: 247
 tags:
 - inbox
+- outline
 ---
 
 # Education
@@ -35,186 +36,97 @@ of [[Spaced_repetition|spaced repetition]], [[SQ3R_method|Sq3R]],
 
 It's not enough to study only, need continuously practice (use your knowledge)
 and test yourself, to solve this problem I implement my [[My_pet_projects|pet
-projects]] and [[Work|working projects]] to strengthen my studies. Additionally,
-good place to strength computer science skills is solving
-[[LeetCode_Team-LeetCode|LeetCode]] problems with help of [[leetcode-cli]].
+projects]] and [[Work|working projects]] to strengthen my studies.
 
-I think [[research/Polya-How_to_solve_it|how to solve it]] can be also used
-as method to learn.
 
-Also here good resources to understand how to learn better:
-
+TODO: understand how to learn better:
 - [ ] [The Feynman Technique: The Best Way to Learn Anything](https://fs.blog/feynman-technique/)
 - [ ] [How To Acquire The Tacit Knowledge of Experts](https://commoncog.com/how-to-learn-tacit-knowledge/)
+- [ ] [20 rules of knowledge formulation - supermemo.guru](https://supermemo.guru/wiki/20_rules_of_knowledge_formulation)
+- [ ] [20 rules of formulating knowledge in learning](https://super-memory.com/articles/20rules.htm)
+- [ ] [SuperMemo: Incremental learning](https://www.super-memory.com/help/il.htm)
 
-## My current study list (priority is matter):
+Generally I want to focus on 2 parts of my education:
 
-- Improve my typing skills and practice [[English_language|English]] typing with
-[Monkeytype](https://monkeytype.com/).
 
-- [[research/Šorn-Comprehensive_python_cheatsheet|Python cheatsheet]], to learn
-core of [[Python]] using cheatsheet.
+## Fundamentals of science
 
-- [[research/Хирьянов-Курс_молодого_бойца_МФТИ_язык_С|Курс молодого бойца на языке С]], to learn basics of [[C]].
+### Theory (priority is matter)
 
-- Learn more python programming with [[research/Хирьянов-Практика_программирования_на_Python|Практика программирования на Python]].
+**[[Computer_science|Computer science]]** combination of many science fields.
+My [[How_do_I_study_computer_science|learning path]].
 
-- Learn algorithms and structures with [Хирьянов, 2020 Алгоритмы и структуры данных (С++) - YouTube](https://www.youtube.com/playlist?list=PLRDzFCPr95fL_5Xvnufpwj2uYZnZBBnsr). TODO: need to create own note.
+**[[Computer_graphics|Computer graphics]]** I very impressed by it, and I like
+to learn more about it. My [[How_I_learn_computer_graphics|learning path]].
 
-- [[research/Kernighan_and_Ritchie-The_C_programming_language|The C programming language]],
-to understand most of [[C]].
-  - [[research/Costrasel-The_C_Programming_Language_Solutions]]
+**[[Art]]** is a great way to express my thoughts in easy to understand form.
+Art for me is also deeply integrated into computer graphics, because it provides
+many opportunities to create something beautiful.
+My [[How_do_I_study_art|learning path]].
 
-- [[research/Wengrow-Data_structures_and_algorithms|Data structures and algorithms]],
-to learn core of [[Computer_science|computer science]].
+**[[Mathematics]]** is a fundamental science, and part of many others, and I
+want to learn it better, at least on some beginner/advanced level.
+My [[How_do_I_study_mathematics|learning path]].
 
-- Learn fundamentals of programming with [[research/Столяров-Программирование_том_1|Программирование]], серия книг.
+**[[Physics]]** and **[[Chemistry]]** go after mathematics in my learning
+priority. I want to understand world better, and this fields can help me with
+it. My [[How_do_I_study_physics_and_chemistry|learning path]].
 
-- Learn how to [[research/Linux_Community-Submitting_patches|submit patches]] in
-  right way.
+**[[History]]** and **[[Literature]]**, many works in literature are related to
+history. Knowing history is improving your understanding of current world.
+Literature for me is great solution to fun and relax. My
+[[My_fiction_books|read and to read books]].
+TODO: add history/literature learning path note.
 
-- [[research/Drawbox_Community-Drawbox|Taking fundamental drawing exercises]].
- - [[research/Prokopenko-Figure_Drawing_Fundamentals]]
- - [[research/Loomis-Fun_With_A_Pencil]]
+**[[English_language|English language]]** is great to reveal huge part of
+world, new knowledge and opportunities. My
+[[How_do_I_study_English_language|learning plan]].
 
-- [[research/Muratori-Handmade_Hero|Handmade Hero]], my initial steps in
-[[Computer_graphics|computer graphics]].
+**[[Health]]** required for all humans, and I want to learn how to be healthy
+and more important how to stay healthy. I have
+[[research/My_Physical_exercise_plan|exercise plan]], which I follow.
 
-- Learn and "utilize" [[Neovim|neovim]] text editor and
-[[My_editing_workflow|editing workflow]].
-  - [[research/Irianto-Learn_Vim]]
-  - [[research/Neil-Modern_Vim]]
-  - [[research/Neil-Practical_Vim]]
-  - [[research/Osipov-Mastering_Vim]]
+### Practice
 
-- Take Unreal Engine 5 course
-[[research/Sensei-Unreal_Engine_5_Beginner_Tutorial|beginner course]], I like
-this engine, and it can be even used as [[Art]] tool.
+- [[My_pet_projects|My pet projects]]
+- [[LeetCode]]
+- [PhET simulations](https://phet.colorado.edu/)
+- [[My_sketchbook|My sketchbook]]
+- [[My_Physical_exercise_plan|My physical exercise plan]]
 
-- Learn and "utilize" [[My_awesome_software_list|software list]].
+---
 
-- Improve my [[Getting_things_done_GTD|GTD]] workflow with
-[[research/Syd-GTD_with_taskwarrior]].
+## Programming and software development
 
-- Intro to photography with [[research/Килпатрик-Свет_и_освещение|Свет и освещение]].
+### Theory
 
-- Learn [[Frontend]]
+**[[How_do_I_study_programming_and_software_development|Programming and software development]]**
+This is place where I store programming applied learning materials, related
+outline notes (like frontend/backend) and some management stuff.
 
-- Learn [[Backend]]
+**[[My_editing_workflow|My editing workflow]]** is heavily related to
+[[Neovim]], but it can be replicated in some advanced code editor (like
+[[Pycharm]]), here I store my main editing practices, tricks, etc.
 
-## Secondary study list
+**[[My_productivity_workflow|My productivity workflow]]** is about how I manage
+my time, tasks, etc. It's not only about software development, but also about my life.
 
-- [x] [[research/Price-Donut_Tutorial_in_Blender]]
-- [x] [[research/CG_Cookie-Blender_Basics]]
+**[[My_awesome_software_list|My awesome software list]]** is subset of endlessly
+large software list, which I use for my work and personal life.
 
-### Programming
+### Practice
 
-- [ ] [You can use Pydantic in SQLAlchemy fields - Roman Imankulov](https://roman.pt/posts/pydantic-in-sqlalchemy-fields/)
-- [ ] [[research/Python_Community-Python_Tutorial|Python tutorial]], to learn core
-of [[Python]].
-  - [[research/Python_Community-Python_FAQ]]
-  - [[research/Python_Community-Python_Glossary]]
-  - [[research/Python_Community-Python_Standard_Library]]
-  - [[research/Real_Python_Team-Python_Tutorials]]
-  - [[research/Batchelder-Getting_started_testing]]
-  - [[research/Seporaitis-Large_Scale_Refactoring_With_PyBowler]]
-- [[research/Kernighan_and_Plauger-The_Elements_of_Programming_Style]]
-- [[research/DeVries-Tutorials]]
-- [[research/ThePrimeagen-Tutorials]]
-
-- [[research/Ramalho-Fluent_Python|Fluent_Python]]
-- [[research/Greenfelds-Two_Scoops_of_Django_3.x]]
-- [[research/Slatkin-Effective_Python|Effective python]]
-- [[research/Keon-Pythonic_Data_Structures]]
-- [[research/Matthes-Python_Crash_Course]]
-- [[research/Craig-Python_Examples]]
-- [[research/Hillard-Testing_With_Pytest]]
-
-- [[research/McConnell-Code_complete]]
-- [[research/Kernighan_and_Pike-The_Practice_of_Programming]]
-- [[research/Abelson_and_Sussman-Structure_and_Interpretation_of_Computer_Programs_SICP|SCIP]]
-- [[research/Martin_Fowler-Refactoring]]
-- [[research/Aho_Lam_et_al-Compilers]]
-- [[research/Tanenbaum_and_Bos-Modern_Operating_Systems]]
-
-- [[research/Flanagan-JavaScript]]
-- [[research/Javidx9-Code_It_Yourself]]
-
-### Math and computer science
-
-- **[[How_do_I_study_mathematics|How do I study mathematics]]**
-- [AlgoList - алгоритмы, методы, исходники](http://algolist.manual.ru/)
-- [[research/Wikipedia-Glossary_of_computer_science]]
-- [[research/Petzold-Code]]
-- [[research/Cormen_et_al-Introduction_to_algorithms]]
-- [[research/Warren_Hackers_Delight]]
-- [[research/Polya-How_to_solve_it]]
-- [[research/Hopcroft_and_Motwani_and_Ullman-Introduction_to_Automata_Theory_Languages_and_Computation]]
-- [[research/Gusfield-Algorithms_on_Strings_Trees_and_Sequences]]
-
-- [[research/Washam_Coding_Interview_University]]
-- [[research/InterviewCake_Team-Coding_Interview_Practice]]
-- [[research/Martin-Interactive_Coding_Challenges]]
-- [[research/Martin-System_Design_Primer]]
-- [[research/Cormen-Algorithms_unlocked]]
-- [[research/HarvardX-CS50x]]
-- [[research/San_Diego_University-Algorithmic_Toolbox]]
-- [[research/Sedgewick_and_Wayne-Algorithms_Part_1]]
-- [[research/Sedgewick_and_Wayne-Algorithms_Part_2]]
-
-- [ ] [Introduction to Computer Science and Programming | Electrical Engineering and Computer Science | MIT OpenCourseWare](https://ocw.mit.edu/courses/6-00sc-introduction-to-computer-science-and-programming-spring-2011/)
-- [ ] [Introduction to Computer Science and Programming in Python](https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/)
-- [ ] [Computer science | Computing | Khan Academy](https://www.khanacademy.org/computing/computer-science)
-- [ ] [Stepic computer science](https://stepik.org/lesson/28728/step/1?unit=9786)
-- [ ] [Algorithms on Graphs | Coursera](https://www.coursera.org/learn/algorithms-on-graphs)
-
-- [ ] [The Man Who Revolutionized Computer Science With Math - YouTube](https://www.youtube.com/watch?v=rkZzg7Vowao)
-
-### Computer graphics
-
-- [[research/Raylib_Community-Raylib]]
-
-- [[research/Price-Donut_Tutorial_in_Blender]]
-- [[research/Creative_Shrimp-Hard_Surface_Modeling_In_Blender]]
-- [[research/Gumster-Blender_for_dummies]]
-- [[research/Trammell-HUMAN_Realistic_Portrait_With_Blender]]
-- [[research/Tuytel_and_Rahman-Creating_3D_Environments]]
-
-- [[research/Obuz_Game_Development_with_Blender_and_Godot]]
-- [[research/GDQuest_Team-Godot_Courses]]
-- [[research/Godot_Community-Godot_demo_projects]]
-- [[research/HK-SHAO-Godot_Raytracing_Demo]]
-- [[research/Manzur_and_Marques-Godot_Engine_Game_Development]]
-
-### Other
-
-- [[How_do_I_study_English_language|How do I study English language]]
-- [[How_do_I_study_physics_and_chemistry|How do I study physics and chemistry]]
-
-- [[research/Laozi-Tao_Te_Ching]]
-- [[research/Brooks-Mythical_Man-Month]]
-- [[research/Hunt_and_Thomas-The_Pragmatic_Programmer]]
-- [[research/Rainwater-Herding_Cats]]
-- [[research/Yourdon-Death_March]]
-
-- [[research/Cneude-Building_Your_Mouseless_Development_Environment]]
-- [[research/Dan-How_to_type_fast]]
-
-- [[research/Chacon_and_Ben-Pro_Git]]
-- [[research/KOReader_Community-KOReader_user_guide]]
-- [[research/Babej-A_dive_into_taskwarrior_ecosystem]]
-
-- [[research/Will_NixOS]]
-- [[research/Henry_How_to_Learn_Nix]]
-- [[research/korfuri-Nixos_on_an_Oracle_Free_Tier_Ampere_machine]]
-
-- [[research/Волков-Биохимия_мышечной_деятельности]]
+- [[My_pet_projects|pet projects]]
+- [Monkeytype | A minimalistic, customizable typing test](https://monkeytype.com/)
+- [VimGolf - real Vim ninjas count every keystroke!](https://www.vimgolf.com/)
+- [KeyCombiner](https://keycombiner.com/)
+- [[Work|working projects]]
+- [[My_awesome_software_list|software list]].
 
 ## Resources
 
-- [[My_read_books]]
-- [[Articles]]
-- [[research/Nova_Byrne-Tech_yourself_computer_science|Tech yourself computer science]]
 - [Udemy](https://www.udemy.com/)
 - [edX](https://www.edx.org/)
 - [Coursera](https://www.coursera.org/)
+- [Super Memory: Forget about forgetting](https://www.super-memory.com/)
+
