@@ -8,7 +8,8 @@ tags:
 - computer_science
 ---
 
-# Big O notation in [[Mathematics|mathematics]] and [[Computer_science|computer science]]
+# Big O notation in [[Mathematics|mathematics]] and
+[[Computer_science|computer science]]
 
 > Way of comparing ==rates of growth== of different functions. It is often used
 > to compare the efficiency of different algorithms, which is done by
@@ -85,4 +86,5 @@ It's $\mathcal{O}(N)$.
 - [ ] [Asymptotic Notation - YouTube](https://www.youtube.com/watch?v=iOq5kSKqeR4)
 - [ ] [Binary Search - YouTube](https://www.youtube.com/watch?v=D5SrAga1pno)
 - [ ] [Big O Notations - YouTube](https://www.youtube.com/watch?v=V6mKVRU1evU)
-- [Big-O Algorithm Complexity Cheat Sheet (Know Thy Complexities!) @ericdrowell](https://www.bigocheatsheet.com/)
+- [ ] [Big-O Algorithm Complexity Cheat Sheet (Know Thy Complexities!) @ericdrowell](https://www.bigocheatsheet.com/)
+- [ ] [Understanding the formal definition of Big-O](https://justin.abrah.ms/computer-science/understanding-big-o-formal-definition.html)

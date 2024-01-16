@@ -1,10 +1,6 @@
 ---
 external: https://www.duolingo.com/
-date: '2023-05-06'
-draft: 'true'
-sr-due: 2023-09-05
-sr-ease: 249
-sr-interval: 12
+date: 2023-05-06
 tags:
 - inbox
 - outline
@@ -15,6 +11,7 @@ tags:
 
 Отличная шпаргалка для структурированного изучения английского языка -
 [@SPaGPlacemat].
+TODO: fix link.
 
 ## Справочник раздела 1
 

@@ -21,8 +21,8 @@ tags:
 
 ## How a website found on the internet
 
-1.  open <http://example.com>
-2.  need find IP address of example.com
+1.  open [http://example.com](http://example.com)
+2.  need to find IP address of example.com
 3.  Places where we try to find IP address, next checked only if current one
     fails
     - Local Cache

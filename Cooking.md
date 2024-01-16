@@ -9,22 +9,20 @@ tags:
 
 # Cooking
 
+- [ ] [Собираем ПП продукты на неделю! / Как питаться дёшево и полезно? - YouTube](https://www.youtube.com/watch?v=ONffRw8rxVA)
+
 ## Resources
 
 - [[Cutlets]]
 - [[Pan_Pizza|Pan Pizza]]
 - [[Semolina_porridge|Semolina porridge]]
 - [[Creamy_mashed_potatoes|Creamy mashed potatoes]]
+- [Всегда Вкусно!](https://www.vsegdavkusno.ru/)
 - [Based Cooking](https://based.cooking/)
 - [CalorieKing](https://www.calorieking.com/us/en/)
 - [Based Cooking](https://based.cooking/)
 - [Cocktail Builder](https://www.cocktailbuilder.com/)
 - [MyFridgeFood](https://myfridgefood.com/)
-
-- [ ] [Собираем ПП продукты на неделю! / Как питаться дёшево и полезно? - YouTube](https://www.youtube.com/watch?v=ONffRw8rxVA)
-
-
-### YouTube channels
 
 - [AlmazanKitchen](https://www.youtube.com/@AlmazanKitchen/videos)
 - [emmymade](https://www.youtube.com/@emmymade/videos)
@@ -35,3 +33,4 @@ tags:
 - [Peaceful Cuisine](https://www.youtube.com/@peacefulcuisine)
 - [Steve1989MREInfo](https://www.youtube.com/@Steve1989MRE/videos)
 - [Townsends](https://www.youtube.com/@townsends/videos)
+

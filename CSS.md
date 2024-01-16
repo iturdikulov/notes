@@ -28,6 +28,7 @@ sr-ease: 222
 
 ## Resources
 
+- [CodePen trending](https://codepen.io/trending)
 - [ ] [CSS: Cascading Style Sheets | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS)
 - [ ] [Основы и практика CSS Grid Layout | Habr](https://habr.com/en/articles/656245/)
 - [ ] [A collection of tips to help take your CSS skills pro](https://github.com/AllThingsSmitty/css-protips)

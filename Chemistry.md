@@ -9,4 +9,9 @@ tags:
 
 # Chemistry
 
-- [PTable](http://www.ptable.com/)
+TODO: add term
+TODO: add periodic table note
+
+## Resources
+
+- [PTable - interactive periodic table](http://www.ptable.com/)

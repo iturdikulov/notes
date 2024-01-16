@@ -57,7 +57,7 @@ Generally I want to focus on 2 parts of my education:
 My [[How_do_I_study_computer_science|learning path]].
 
 **[[Computer_graphics|Computer graphics]]** I very impressed by it, and I like
-to learn more about it. My [[How_I_learn_computer_graphics|learning path]].
+to learn more about it. My [[How_I_study_computer_graphics|learning path]].
 
 **[[Art]]** is a great way to express my thoughts in easy to understand form.
 Art for me is also deeply integrated into computer graphics, because it provides
