@@ -1,14 +1,7 @@
 ---
-date: '2023-05-06'
-draft: 'true'
-sr-due: 2023-05-21
-sr-ease: 270
-sr-interval: 4
+date: 2023-05-06
 tags:
 - inbox
-sr-due: 2024-04-12
-sr-interval: 192
-sr-ease: 270
 ---
 
 # Handwriting
@@ -24,3 +17,5 @@ sr-ease: 270
 
 I like to write beautiful and readable handwriting, but I prefer calligraphy
 style.
+
+TODO: add my own font!

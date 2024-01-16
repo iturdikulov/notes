@@ -11,4 +11,4 @@ tags:
 
 # Stack Overflow
 
-[Stack overflow quistons](https://stackoverflow.com/questions)
+- [Stack overflow questions](https://stackoverflow.com/questions)

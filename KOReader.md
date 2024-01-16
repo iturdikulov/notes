@@ -10,7 +10,7 @@ tags:
 
 # KOReader
 
-> A [[My_read_books|e-book]] reader application supporting
+> A [[My_fiction_books|e-book]] reader application supporting
 > [[Portable_document_format_PDF]], DjVu, EPUB, FB2 and many more formats,
 > running on Cervantes, **Kindle**, Kobo, PocketBook and Android devices.\
 > — <cite>[KOReader](http://koreader.rocks/)</cite>

@@ -15,7 +15,7 @@ sr-ease: 224
 > and not merely the absence of disease and infirmity". A variety of
 > definitions have been used for different purposes over time. Health can be
 > promoted by encouraging healthful activities, such as regular
-> [[research/Turdikulov-Physical_exercise_plan|physical exercise]] and adequate
+> [[research/My_Physical_exercise_plan|physical exercise]] and adequate
 > [[Sleep|sleep]], and by reducing or avoiding unhealthful activities or
 > situations, such as smoking or excessive stress. Some factors affecting health
 > are due to individual choices, such as whether to engage in a high-risk

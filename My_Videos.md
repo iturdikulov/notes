@@ -11,7 +11,7 @@ directory: ~/Videos/
 
 # My Videos
 
-- [[Mpv]] as main media viewer.
+- [[mpv]] as main media viewer.
 - [[YouTube]]
 - selfhosted
 - short

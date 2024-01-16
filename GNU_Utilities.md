@@ -177,4 +177,4 @@ A lot of these commands also usually exist in this
 ## Resources
 
 - [ ] [GNU Coreutils Cheat Sheet](https://catonmat.net/gnu-coreutils-cheat-sheet)
-- [ ] [[GNU_Compiler_Collection]]
+- [ ] [[GNU_Compiler_Collection_GCC]]
