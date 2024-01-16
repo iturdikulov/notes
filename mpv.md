@@ -1,0 +1,129 @@
+---
+date: 2022-12-29
+tags:
+  - software
+  - productivity
+---
+
+# mpv
+
+mpv is a free (as in freedom) [[Media|media]] player for the
+command line (it has own pseudo-gui). It supports a wide variety of media file
+formats (including images), audio and video codecs, and subtitle types.
+
+mpv also provide GPU video decoding, API, scripts, OSD, OSC, configurable
+keybinding and ton of other features.
+
+I use it as my main video player
+
+## Keybindings (keys are sensitive)
+
+Half speed increase/decrease::`[`, `]`
+
+Double speed::`{`, `}`
+
+Reset speed::`BCK`
+
+Seek::`h`, `j`, `k`, `l`
+
+Undo last seek::`S-BCK`
+
+Frame forward/backward::`.`, `,`
+
+Next/Previous in playlist::`<`, `>`
+
+Pause/Resume::`SPC`
+
+Mute::`m`
+
+Quit::`q`
+
+Increase/decrease volume::`/`, `*`
+
+Switch video / audio tracks::`_`, `#`
+
+Toggle on top::`T`
+
+Show progression bar, elapsed time and total duration on the OSD.::`o`
+
+Toggle duration display::`O`
+
+Toggle subtitles::`v`
+
+Switch subtitles::`J` `S`
+
+Adjust subtitles delay +/-::`z`, `Z`
+
+Adjust subtitles font::`S-g`, `S-f`
+
+Adjust audio delay::`C-+`, `C--`
+
+Loop::`L`
+
+Take screenshot::`s`, `C-s`
+
+Show lists::`F8`, `F9`
+
+Show OSD state::`F1`
+
+Show stats::`i`, `I`
+
+Contrast::`1`, `2`
+
+Brightness::`3`, `4`
+
+Gamma::`5`, `6`
+
+Saturation::`7`, `8`
+
+Resize window::`M-0`, `M-1`, `M-2`
+
+# mpv playlist manager
+
+Show playlist::`S-Return`
+
+Sort playlist by filename::`C-p`
+
+Shuffle playlist::`C-P`
+
+Reverse playlist::`C-R`
+
+Save playlist::`p`
+
+Load all files from current directory::`P`
+
+Movement in playlist - up/down::`up`, `down`
+
+Movement in playlist - page up/page down::`PgUp`, `PgDown`
+
+Movement in playlist - first entry::`Home`
+
+Movement in playlist - last entry::`End`
+
+Remove selected entry from playlist::`BCK`
+
+Open selected entry (or next file is playing)::`Enter`
+
+Select or Unselect the file under cursor (to reorder)::`Left`, `Right`
+
+Close playlist::`Esc`
+
+## Custom hotkeys
+
+Play clipboard URL: M-q-p
+Global pause: s-Play
+mpv fzf history: s-S-Play
+
+## Plugins
+
+- [GitHub - jonniek/mpv-playlistmanager: Mpv lua script to create and manage playlists](https://github.com/jonniek/mpv-playlistmanager)
+- [umpv](https://github.com/mpv-player/mpv/blob/master/TOOLS/umpv), useful to
+add queue, use mpv as music player, emulates "single mpv instance"
+
+# Resources
+
+TODO: add scripts from my nix dotfiles
+- [ ] [mpv keyboard shortcuts · GitHub](https://gist.github.com/flatlinebb/07caa79fd3b9f3770788df21756a4611)
+- [ ] [GitHub - NurioHin/mpv-bookmarker: A bookmarker menu to manage all your bookmarks in mpv](https://github.com/NurioHin/mpv-bookmarker/)
+- [ ] [GitHub - zenyd/mpv-scripts: Scripts for the mpv media player](https://github.com/zenyd/mpv-scripts)
+- [ ] [GitHub - occivink/mpv-scripts: Various scripts for mpv](https://github.com/occivink/mpv-scripts)
