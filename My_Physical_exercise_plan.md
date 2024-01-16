@@ -1,9 +1,5 @@
 ---
 date: 2023-03-12
-draft: true
-sr-due: 2023-05-26
-sr-ease: 210
-sr-interval: 9
 tags:
   - inbox
   - outline
@@ -30,10 +26,10 @@ of rest and hydration to support your progress.
 ### Wed 27 Dec 2023
 
 - [x] 4/2/2 Push-ups
-- [ ] 10/6/6 Squats
+- [x] 10/6/6 Squats, partially
+- [x] 30 sec plank
 - [ ] 10 sit-ups
 - [ ] 20 flutter kicks
-- [ ] 30 sec plank
 
 ---
 
