@@ -10,7 +10,19 @@ tags:
 
 # How do I study Mathematics?
 
-List of resources and tips to learn [[Mathematics]]
+List of resources and tips to learn [[Mathematics|mathematics]]
+
+- [GeoGebra](https://www.geogebra.org/)
+- [Discord Mathematics](https://discord.com/channels/268882317391429632/)
+- [zulipchat](https://zulipchat.com/)
+- [reddit math](https://old.reddit.com/r/math)
+- [nforum](https://nforum.ncatlab.org/)
+- [math.stackexchange](https://math.stackexchange.com/)
+- [mathoverflow](https://mathoverflow.net/)
+- [category theory](https://categorytheory.zulipchat.com)
+- [hott](https://hott.zulipchat.com)
+- [artofproblemsolving](https://artofproblemsolving.com/community)
+- [Project Euler](https://projecteuler.net/)
 
 - [[Multiplication_table]]
 - [Learn Numbers](https://www.mathsisfun.com/numbers/).

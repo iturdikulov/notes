@@ -14,6 +14,7 @@ My outline for learning [[Computer_graphics]].
 
 ## Resources
 
+- [ ] [[research/Muratori-Handmade_Hero|Handmade Hero]], my initial steps
 - [ ] [Logos By Nick Academy](https://logosbynick.teachable.com/courses), 2D graphics tutorials
 - [ ] [Physics of JellyCar: Soft Body Physics Explained - YouTube](https://www.youtube.com/watch?v=3OmkehAJoyo)
 - [ ] [Основы рендеринга с wgpu на Rust / Habr](https://habr.com/en/companies/otus/articles/658859/)
@@ -33,4 +34,18 @@ My outline for learning [[Computer_graphics]].
 - [ ] [mister chad](https://mister-chad.com/welcome)
 - [ ] [saharan/works: The code of several works on oimo.io/works](https://github.com/saharan/works)
 
+
+- [[research/Raylib_Community-Raylib]]
+
+- [[research/Price-Donut_Tutorial_in_Blender]]
+- [[research/Creative_Shrimp-Hard_Surface_Modeling_In_Blender]]
+- [[research/Gumster-Blender_for_dummies]]
+- [[research/Trammell-HUMAN_Realistic_Portrait_With_Blender]]
+- [[research/Tuytel_and_Rahman-Creating_3D_Environments]]
+
+- [[research/Obuz_Game_Development_with_Blender_and_Godot]]
+- [[research/GDQuest_Team-Godot_Courses]]
+- [[research/Godot_Community-Godot_demo_projects]]
+- [[research/HK-SHAO-Godot_Raytracing_Demo]]
+- [[research/Manzur_and_Marques-Godot_Engine_Game_Development]]
 

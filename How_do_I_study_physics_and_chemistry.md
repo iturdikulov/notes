@@ -18,5 +18,7 @@ tags:
 
 ## Interactive & Entertainment
 
+- [ ] [oPhysics](http://ophysics.com/index.html)
+- [ ] [PhET: Free online physics, chemistry, biology, earth science and math simulations](https://phet.colorado.edu/)
 - [ ] [Space Elevator](https://neal.fun/space-elevator/)
 - [ ] [Animation vs. Physics - YouTube](https://www.youtube.com/watch?v=ErMSHiQRnc8)
