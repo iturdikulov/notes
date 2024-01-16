@@ -11,12 +11,12 @@ tags:
 
 # ChatGPT, short for Chat Generative Pre-trained Transformer
 
-> ChatGPT is a sibling model to `InstructGPT`, which is trained to follow an
-> instruction in a prompt and provide a detailed response.
+> ChatGPT is a sibling model to `InstructGPT`, which is trained to follow
+> an instruction in a prompt and provide a detailed response.
 >
-> We are excited to introduce ChatGPT to get users’ feedback and learn about its
-> strengths and weaknesses. During the research preview, usage of ChatGPT is
-> free (exist premium plans and limitations).\
+> We are excited to introduce ChatGPT to get users’ feedback and learn
+> about its strengths and weaknesses. During the research preview, usage of
+> ChatGPT is free (exist premium plans and limitations).\
 > — <cite>[OpenAI](https://openai.com/blog/chatgpt)</cite>
 
 Live demo is [here](https://chat.openai.com/).
@@ -48,6 +48,12 @@ something in English, I will do so by putting text inside curly brackets {like
 this}. If possible include links to official documentation. My first question is
 "How do I download page using Python `http.client` module"
 
+## Criticism
+
+With all the hype created around ChatGPT, the only task that its algorithms
+solve is predicting the next word based on the previous context, but
+sometimes it do it very well.
+
 ## Concurrent
 
 - [Bard - Chat Based AI Tool from Google, Powered by PaLM 2](https://bard.google.com/)
@@ -58,6 +64,7 @@ not really concurrent, since it's using same model's.
 
 ## Resources
 
+- [ChatGPT провалил тест на ручник](https://habr.com/ru/articles/724460/#habracut)
 - [ChatGPT | OpenAI Help Center](https://help.openai.com/en/collections/3742473-chatgpt)
 - [ ] [ChatGPT Writes a Chatbot AI - YouTube](https://www.youtube.com/watch?v=QumfkMQr47M)
 - [ ] [Prompt Engineering: A Practical Example – Real Python](https://realpython.com/practical-prompt-engineering/)
