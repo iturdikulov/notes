@@ -2,8 +2,8 @@
 .obsidian/
 .venv
 private/
+inbox/
+dailies/
 .trash/
-Inbox_*.md
-inbox/**/*
 !inbox/**/*.md
 external/salesloop
