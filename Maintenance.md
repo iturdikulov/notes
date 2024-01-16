@@ -36,6 +36,9 @@ tags:
 
 Here I collect all my maintenance tasks/techniques/tools.
 
+- Maintenance downloads (remove old files, etc...)
+- Maintenance backups (weekly check)
+
 ## Hardware maintenance
 
 Here I collect resources to maintenance my hardware. Mostly
@@ -48,6 +51,33 @@ Here I collect resources to maintenance my hardware. Mostly
 - [Dead-pixel check](http://lcdtech.info/en/tests/dead.pixel.htm)
 - [iFixit](https://www.ifixit.com/)
 - [Free Online Audio Tests, Test Tones and Tone Generators](https://www.audiocheck.net/)
+
+## Inbox
+
+Here I collect various inbox directories and services, which I need to check
+regularly. Main goal is get rid of entropy and use only 3 inboxes. But currently
+it's what I have:
+
+- Telegram saved messages, need to replace with something else. Can be replaced
+with Firefox bookmarks.
+- [[Firefox]] bookmarks (mobile/desktop).
+- Wiki inbox directory.
+- Cloud storage directories (need to do initial clean).
+- Downloads directory (mobile/desktop/tablet).
+- My old literature inbox: `~/Arts_and_Entertainment/literature/inbox/` need to
+clean-up.
+- Audion notes (mobile/tablet). Maybe I find some plugin in obsidian, which
+support audio to text conversion or build some workflow.
+- RNR tasks in [[Taskwarrior|taskwarrior]] and `project:inbox` tasks. Handled by
+taskwarrior CLI.
+
+### Related
+
+- Calendar events
+- Contacts
+- Emails (all my inboxes)
+- Passwords
+- SSH/GPG keys
 
 ## Monitoring
 
