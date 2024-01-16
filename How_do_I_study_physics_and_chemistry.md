@@ -5,6 +5,7 @@ sr-ease: 272
 sr-interval: 4
 tags:
 - inbox
+- outline
 ---
 
 # How do I study physics and chemistry?
