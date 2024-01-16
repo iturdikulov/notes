@@ -29,13 +29,10 @@ tags:
 >
 > [Simple English Wikipedia](https://simple.wikipedia.org/wiki/English_language)
 
-My tools and services which help me learn English language:
+I have English language [[How_do_I_study_English_language|learning plan]],
+which can help me to understand English materials, media and people.
 
-- [[Sdcv]]
-- [[Puzzle_English|Puzzle English]]
-- [[Duolingo]]
+## Tools
 
-## Resources
-
-- [ ] [С утра до вечера! Погрузитесь в прослушивание английского (9-часовая тренировка на выносливость) - YouTube](https://www.youtube.com/watch?v=PqBT7xpmZlE)
-- [ ] [EnglisPlaylists](https://boosty.to/englishplaylists)
+- [[Sdcv]] - console dictionary.
+- [[Translate-shell]] - console translator.

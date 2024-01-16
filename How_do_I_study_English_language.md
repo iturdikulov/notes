@@ -10,22 +10,30 @@ tags:
 
 # How do I study English language?
 
-I usually just read some content in [[English_language]]. I also consume
+I usually just read some content in [[English_language|English]]. I also consume
 [[Media|media]] content in English.
 
-Since I am a native speaker of [[Russian_language]], I need to study English
-with Russian in same time (to understand grammar, etc.).
+I am a native speaker of [[Russian_language|Russian]], and I need to study
+English with Russian in same time (to understand grammar terms, differences,
+etc.).
 
 Fundamentals of English grammar:
 
+- [ ] SPaG, build own cheat sheet (check inbox), learn basic concepts.
+- [ ] [[research/Петров-Полиглот]]
 - [[research/Черниховская-English_Start-up]]
 - [[research/Murphy_Essential_Grammar_in_Use_Elementary]]
 - [[research/Murphy_Essential_Grammar_in_Use_Intermediate]]
 
+- [[Duolingo]]
+- [English Playlists](https://boosty.to/englishplaylists)
+- [[Puzzle_English|Puzzle English]], mostly not used anymore.
+
 ## Resources
 
+- [[Touch_typing|Touch typing]] greatly help me to memorize words and phrases.
+- [ ] [9 часов английского](https://www.youtube.com/watch?v=PqBT7xpmZlE)
 - [General Writing Introduction - Purdue University](https://owl.purdue.edu/owl/general_writing/index.html)
-- [[Puzzle_English|Puzzle English]]
 - [[English_language_transcription]]
 - [engVid](https://www.engvid.com/)
 - [Изучение Английских Слов с помощью параллельных переводов онлайн](https://studyenglishwords.com/)
