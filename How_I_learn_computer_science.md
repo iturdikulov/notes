@@ -5,7 +5,9 @@ tags:
 - outline
 ---
 
-# How do I study computer science?
+# How I learn computer science
+
+TODO: better group resources
 
 - [[research/Wengrow-Data_structures_and_algorithms|Data structures and algorithms]],
 - Learn algorithms and structures with [Хирьянов, 2020 Алгоритмы и структуры данных (С++) - YouTube](https://www.youtube.com/playlist?list=PLRDzFCPr95fL_5Xvnufpwj2uYZnZBBnsr). TODO: need to create own note.

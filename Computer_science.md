@@ -31,6 +31,6 @@ good [[Programmer|programmer]], which I want to be).
 
 I described how I learn computer science here.
 
-Most education materials are in my [[Education|education]] note, since I think
+Most education materials are in my [[Learning|education]] note, since I think
 computer science is part of my main education.
 
