@@ -29,6 +29,16 @@ sr-ease: 254
 - Film and television
 - Research and development
 
+## Tips
+
+- Can't find projects in Epic Launcher (wine):\
+  You can create symbolic link to directory with projects, this allows to
+  install marketplace projects into your projects' directory.
+
+  Example: `/home/inom/.wine/drive_c/users/inom/Documents/Unreal Projects ->
+  /games/unreal-samples/`
+
+
 ## Resources
 
 - [[3D_computer_graphics#Assets]]
