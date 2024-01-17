@@ -11,6 +11,8 @@ sr-ease: 230
 
 # Backend
 
+TODO: add backend term
+
 Main difference between frontend and backend?
 ?
 Fronted is data representation layer, backend is data access layer. And
@@ -26,11 +28,7 @@ if some presentation work is done on server for example.
 > some presentation work is actually done on the server itself.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Frontend_and_backend)</cite>
 
-I learn some fundamentals from [Backend Developer
-Roadmap](https://roadmap.sh/backend).
 
-## Backend Developer Roadmap
+## Resources
 
-- [ ] [[research/Shuler-How_Does_the_Internet_Work]]
-- [ ] [What is a web server? | MDN](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_web_server)
-- [ ] [What is the difference between webpage, website, web server, and search engine? | MDN](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/Pages_sites_servers_and_search_engines)
+- [[How_I_learn_programming_and_software_development#Backend]]
