@@ -112,7 +112,7 @@ My purchased items (mostly expensive) stored in [[My_inventory|my inventory]].
 - 🍦 Waffles
 - 🍯 Honey
 
-## IRL
+## Hygiene and cleaning
 
 - 🧼 Soap
 - 🧴 Shampoo
@@ -129,3 +129,8 @@ My purchased items (mostly expensive) stored in [[My_inventory|my inventory]].
 
 - [ ] Офтан Катахром
 
+## Other
+
+- [ ] pants
+- [ ] slippers
+- [x] power station
