@@ -38,11 +38,11 @@ Primary shortcut for DuckDuckGo is `!`.
 
 And here list of my favorite bangs:
 
-- eBay - shopping::`! !e `
-- Amazon - shopping::`! !a `
-- AliExpress - shopping::`! !ae `
-- Wikipedia - search in the largest encyclopedia::`! !w `
-- Simple English Wikipedia::`! !sw `
+- eBay - shopping::`!e usb hub`
+- Amazon - shopping::`!a usb hub`
+- AliExpress - shopping::`!ae usb hub`
+- Wikipedia - search in the largest encyclopedia::`!w Pi`
+- Simple English Wikipedia::`!sw Pi`
 - Russian Wikipedia::`! !ц `
 - ArchWiki - Arch Linux Wiki::`! !archwiki `
 - BookFinder - search for books::`! !bookfinder `
