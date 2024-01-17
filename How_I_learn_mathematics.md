@@ -8,7 +8,9 @@ tags:
 - outline
 ---
 
-# How do I study Mathematics?
+# How I learn mathematics
+
+TODO: better group resources
 
 List of resources and tips to learn [[Mathematics|mathematics]]
 

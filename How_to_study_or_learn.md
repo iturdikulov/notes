@@ -4,11 +4,11 @@ sr-due: 2023-12-09
 sr-ease: 244
 sr-interval: 206
 tags:
-- inbox
-- IRL
+  - inbox
+  - IRL
 ---
 
-# How to study, or how need to study?
+# How to study or learn
 
 > Education is a **purposeful activity** directed at **achieving certain aims**,
 > such as transmitting knowledge or fostering skills and character traits. These

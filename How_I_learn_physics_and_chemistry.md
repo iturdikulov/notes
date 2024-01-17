@@ -8,7 +8,10 @@ tags:
 - outline
 ---
 
-# How do I study physics and chemistry?
+# How I learn physics and chemistry
+
+TODO: better group resources
+TODO: add youtube channels, Бояршинов, etc.
 
 - [ ] [The complete FUN TO IMAGINE with Richard Feynman - YouTube](https://www.youtube.com/watch?v=P1ww1IXRfTA)
 - [ ] [Metric prefix - Wikipedia](https://en.wikipedia.org/wiki/Metric_prefix)

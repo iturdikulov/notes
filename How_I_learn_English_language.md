@@ -8,7 +8,9 @@ tags:
 - outline
 ---
 
-# How do I study English language?
+# How I learn English language
+
+TODO: better group resources
 
 I usually just read some content in [[English_language|English]]. I also consume
 [[Media|media]] content in English.

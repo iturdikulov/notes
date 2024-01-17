@@ -5,7 +5,9 @@ tags:
 - outline
 ---
 
-# How do I study programming and software development?
+# How I learn programming and software development
+
+TODO: better group resources
 
 ## Frontend
 
