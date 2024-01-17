@@ -14,3 +14,17 @@ tags:
 > They are a kind of [[Computer]] language.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Programming_language)</cite>
 
+## Programming language which I interested in
+
+- [[Python]]
+- [[C]]
+- [[Go]]
+- [[Rust]]
+- [[JavaScript]]
+- Lua
+- [[Java]]
+- [[Haskell]]
+- Pascal
+- PHP
+- Ruby
+- Nix
