@@ -4,8 +4,8 @@ sr-due: 2023-12-30
 sr-ease: 268
 sr-interval: 227
 tags:
-- inbox
-- software
+  - inbox
+  - software
 ---
 
 # dm-crypt
@@ -20,24 +20,24 @@ tags:
 > cryptoloop.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Dm-crypt)</cite>
 
-
 ## Create/mount encrypted file container
 
-If you create new container from scratch, after cryptsetup open, create FS (ext4 no journal in example):
-`mke2fs -t ext4 -O ^has_journal /dev/mapper/encrypted_change_name`
-
 ```sh
-# Redirect output of /dev/zero to initialize container file
+# Redirect output of /dev/zero to initialize container file, optional step
 dd if=/dev/zero bs=1M count=100 of=encrypted_change_name.img
 
 # Initialize luks partition inside container
 cryptsetup luksFormat encrypted_change_name.img  # set passpharse and conifm it
 
 # Open luks partition
-cryptsetup open --type luks /path/to/dump desired-name
-mount /dev/mapper/encrypted_change_name my-mount-point
+sudo cryptsetup open --type luks /path/to/dump desired-name
+
+# Make filesystem on it, optional step
+sudo mke2fs -t ext4 -O ^has_journal /dev/mapper/encrypted_change_name
+
+sudo mount /dev/mapper/encrypted_change_name my-mount-point
 
 # Umount and luksClose
-umount my-mount-point
-cryptsetup luksClose /dev/mapper/encrypted_change_name
+sudo umount my-mount-point
+sudo cryptsetup luksClose /dev/mapper/encrypted_change_name
 ```
