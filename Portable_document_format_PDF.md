@@ -20,3 +20,7 @@ tags:
 > [Portable Document Format - Wikipedia](https://en.wikipedia.org/wiki/Portable_Document_Format)
 
 TODO: PostScript -> PDF conversion example. TODO: review PDF libraries.
+
+## Tools
+
+- pdfunite (part of poppler) - merge PDF files, usage: `pdfunite file1.pdf file2.pdf merged.pdf`
