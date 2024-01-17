@@ -69,6 +69,11 @@ nix-shell -p nix-prefetch-git jq --run "nix-prefetch-git --url https://github.co
 nix-shell -p nix-prefetch-git jq --run "nix-prefetch-git --url https://github.com/Inom-Turdikulov/dwm-flexipatch --quiet | jq -r '.hash'"
 ```
 
+## PCI passthrough
+
+- [Notes on PCI passthrough on NixOS using QEMU and VFIO](https://alexbakker.me/post/nixos-pci-passthrough-qemu-vfio.html)
+- Review and add notes [Virtiofs: Shared file system](https://github.com/virtio-win/kvm-guest-drivers-windows/wiki/Virtiofs:-Shared-file-system)
+
 ## TODO:
  - linux kernel flake + le9ec
  - test Plasma/Wayland
