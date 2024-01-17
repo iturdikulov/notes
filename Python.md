@@ -19,7 +19,7 @@ tags:
 > object-oriented and functional programming. It is often described as a
 > "batteries included" language due to its comprehensive standard library.
 >
-> [[Guido_Van_Rossum|guido_van_rossum]] began working on Python in the late
+> [[Guido_van_Rossum|Guido van Rossum]] began working on Python in the late
 > 1980s as a successor to the ABC programming language and first released it in
 > 1991 as Python 0.9.0. Python 2.0 was released in 2000. Python 3.0, released in
 > 2008, was a major revision not completely backward-compatible with earlier
@@ -62,29 +62,31 @@ indentation to delimit code blocks, rather than curly brackets or keywords.
 
 Python is [dynamically typed] and [garbage-collected].
 
-It supports any popular [[Programming_paradigm]]:
+It supports any popular [[Programming_paradigm|programming paradigm]]:
 
-- [[Structured_programming]]
-- [[Procedural_programming]]
-- [[Object-oriented_programming]]
-- [[Functional_programming]]
+- [[Structured_programming|structured]]
+- [[Procedural_programming|procedural]]
+- [[Object-oriented_programming|object-oriented]]
+- [[Functional_programming|functional]]
 
 Rich [[research/Python_Community-Python_Standard_Library|standard library]] make
 it's "batteries included" language.
 
 Personally I learn python with
-[[My_python_developer_roadmap|my python developer roadmap]].
+**[[My_python_developer_roadmap|my python developer roadmap]]**.
 
 ## Libraries, Frameworks, Templates
 
-- [spectree: API spec validator and OpenAPI document generator.](https://github.com/0b01001001/spectree#flask)
-- [GitHub - edkrueger/rq-flask-sqlalchemy-template](https://github.com/edkrueger/rq-flask-sqlalchemy-template/tree/master)
+- [ ] [spectree: API spec validator and OpenAPI document generator](https://github.com/0b01001001/spectree#flask)
+- [ ] [rq-flask-sqlalchemy-template](https://github.com/edkrueger/rq-flask-sqlalchemy-template/tree/master)
+- [ ] [Лучшие open-source инструменты для Python проектов](https://habr.com/en/articles/708916/)
 
-## How-to/Guides
+- [ ] [python - Celery: log each task run to its own file?](https://stackoverflow.com/questions/25281612/celery-log-each-task-run-to-its-own-file)
+- [ ] [Using Celery: Python Task Management](https://www.toptal.com/python/orchestrating-celery-python-background-jobs)
 
-- [python - SQLAlchemy proper session handling in multi-thread applications - Stack Overflow](https://stackoverflow.com/questions/9619789/sqlalchemy-proper-session-handling-in-multi-thread-applications)
-- [Using Python SQLAlchemy session in multithreading](https://copdips.com/2019/05/using-python-sqlalchemy-session-in-multithreading.html#way-2-using-scoped_session-to-create-a-thread-local-variable)
+## Refactoring
 
+- [ ] [[research/Seporaitis-Large_Scale_Refactoring_With_PyBowler]]
 
 ## Resources
 
