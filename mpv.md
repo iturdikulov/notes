@@ -18,6 +18,8 @@ I use it as my main video player
 
 ## Keybindings (keys are sensitive)
 
+Resize window::`M-0`, `M-1`, `M-2`
+
 Half speed increase/decrease::`[`, `]`
 
 Double speed::`{`, `}`
@@ -25,9 +27,7 @@ Double speed::`{`, `}`
 Reset speed::`BCK`
 
 Seek::`h`, `j`, `k`, `l`
-
 Undo last seek::`S-BCK`
-
 Frame forward/backward::`.`, `,`
 
 Next/Previous in playlist::`<`, `>`
@@ -49,11 +49,8 @@ Show progression bar, elapsed time and total duration on the OSD.::`o`
 Toggle duration display::`O`
 
 Toggle subtitles::`v`
-
 Switch subtitles::`J` `S`
-
 Adjust subtitles delay +/-::`z`, `Z`
-
 Adjust subtitles font::`S-g`, `S-f`
 
 Adjust audio delay::`C-+`, `C--`
@@ -76,7 +73,6 @@ Gamma::`5`, `6`
 
 Saturation::`7`, `8`
 
-Resize window::`M-0`, `M-1`, `M-2`
 
 # mpv playlist manager
 
@@ -114,16 +110,18 @@ Play clipboard URL: M-q-p
 Global pause: s-Play
 mpv fzf history: s-S-Play
 
+# Learning
+
+- [ ] `man mpv`
+- [x] [mpv keyboard shortcuts · GitHub](https://gist.github.com/flatlinebb/07caa79fd3b9f3770788df21756a4611)
+
 ## Plugins
 
-- [GitHub - jonniek/mpv-playlistmanager: Mpv lua script to create and manage playlists](https://github.com/jonniek/mpv-playlistmanager)
-- [umpv](https://github.com/mpv-player/mpv/blob/master/TOOLS/umpv), useful to
-add queue, use mpv as music player, emulates "single mpv instance"
-
-# Resources
-
 TODO: add scripts from my nix dotfiles
-- [ ] [mpv keyboard shortcuts · GitHub](https://gist.github.com/flatlinebb/07caa79fd3b9f3770788df21756a4611)
+- [GitHub - jonniek/mpv-playlistmanager: Mpv lua script to create and manage playlists](https://github.com/jonniek/mpv-playlistmanager)
 - [ ] [GitHub - NurioHin/mpv-bookmarker: A bookmarker menu to manage all your bookmarks in mpv](https://github.com/NurioHin/mpv-bookmarker/)
 - [ ] [GitHub - zenyd/mpv-scripts: Scripts for the mpv media player](https://github.com/zenyd/mpv-scripts)
 - [ ] [GitHub - occivink/mpv-scripts: Various scripts for mpv](https://github.com/occivink/mpv-scripts)
+- [umpv](https://github.com/mpv-player/mpv/blob/master/TOOLS/umpv), useful to
+add queue, use mpv as music player, emulates "single mpv instance"
+
