@@ -11,6 +11,8 @@ external: https://neovim.io/
 directory: ~/Computer/software/nvim/
 ---
 
+TODO: global cleanup and organize resources
+
 # Neovim (text editor)
 
 > Neovim is based on Vim by Bram Moolenaar.
@@ -1160,51 +1162,51 @@ Multiple Cursors
   [youtube](https://www.youtube.com/watch?v=sQS06Qjnkcc&list=PLVtKhBrRV_ZkPnBtt_TD1Cs9PJlU0IIdE)
   video series).
 
-- <https://docs.doomemacs.org/latest/> \*
+- https://docs.doomemacs.org/latest/ \*
 
-- <https://emacs-lsp.github.io/lsp-mode/page/main-features/> (LSP
+- https://emacs-lsp.github.io/lsp-mode/page/main-features/ (LSP
   starting point) \*
 
-- <https://github.com/niyumard/Doom-Emacs-Cheat-Sheet> \*
+- https://github.com/niyumard/Doom-Emacs-Cheat-Sheet \*
 
-- <https://raw.githubusercontent.com/hackjutsu/vim-cheatsheet/master/README.md>
+- https://raw.githubusercontent.com/hackjutsu/vim-cheatsheet/master/README.md
 
-- <https://raw.githubusercontent.com/LeCoupa/awesome-cheatsheets/master/tools/vim.txt>
+- https://raw.githubusercontent.com/LeCoupa/awesome-cheatsheets/master/tools/vim.txt
 
-- <https://thingsfittogether.com/wp-content/uploads/2021/03/Vim-Cheatsheet-2-Final-Draft.png>
+- https://thingsfittogether.com/wp-content/uploads/2021/03/Vim-Cheatsheet-2-Final-Draft.png
 
-- <https://github.com/rstacruz/cheatsheets/blob/master/vim.md>
+- https://github.com/rstacruz/cheatsheets/blob/master/vim.md
 
-- <https://imgur.com/gallery/YLInLlY>
+- https://imgur.com/gallery/YLInLlY
 
-- <https://emacs-lsp.github.io/lsp-mode/page/keybindings/>
+- https://emacs-lsp.github.io/lsp-mode/page/keybindings/
 
-- <https://resources.jetbrains.com/storage/products/pycharm/docs/PyCharm_ReferenceCard.pdf>
+- https://resources.jetbrains.com/storage/products/pycharm/docs/PyCharm_ReferenceCard.pdf
 
-- <https://vimsheet.com/>
+- https://vimsheet.com/
 
-- <https://vim.fandom.com/>
+- https://vim.fandom.com/
 
-- <https://vim.fandom.com/wiki/Best_Vim_Tips#Really_useful>
+- https://vim.fandom.com/wiki/Best_Vim_Tips#Really_useful
 
-- <https://vimhelp.org/vim_faq.txt.html>
+- https://vimhelp.org/vim_faq.txt.html
 
 - [Link to youtube video
   series](https://www.youtube.com/watch?v=BRqjaN4-gGQ&list=PLhXZp00uXBk4np17N39WvB80zgxlZfVwj&index=10)
 
-- <http://vimcasts.org/>
+- http://vimcasts.org/
 
-- <https://vim.fandom.com>
+- https://vim.fandom.com
 
-- <https://www.vimgolf.com/>
+- https://www.vimgolf.com/
 
-- <https://www.emacswiki.org/emacs/SiteMap> \*
+- https://www.emacswiki.org/emacs/SiteMap \*
 
-- <https://hungyi.net/>
+- https://hungyi.net/
 
-- <https://www.emacswiki.org/emacs/PythonProgrammingInEmacs>
+- https://www.emacswiki.org/emacs/PythonProgrammingInEmacs
 
-- <https://wikemacs.org/wiki/Python>
+- https://wikemacs.org/wiki/Python
 
 # [TODO]
 
@@ -1212,7 +1214,7 @@ Multiple Cursors
   says \"find 2 or more spaces (\' \\\\\') that are NOT preceded
   by \'the start of the line followed by zero or more spaces\'\"
 
-<https://github.com/tpope/vim-surround/blob/master/doc/surround.txt>
+https://github.com/tpope/vim-surround/blob/master/doc/surround.txt
 
 # [TODO]
 
@@ -1235,9 +1237,9 @@ Multiple Cursors
 - autoindent, based on previous line (as I remember exists specific
   plugin)
 
-- <https://www.reddit.com/r/emacs/comments/a3rajh/chrome_bookmarks_sync_to_org/>
+- https://www.reddit.com/r/emacs/comments/a3rajh/chrome_bookmarks_sync_to_org/
 
-- <https://noonker.github.io/posts/2020-04-22-elfeed/>
+- https://noonker.github.io/posts/2020-04-22-elfeed/
 
 \`C-r+0\` - in insert mode inserts the last yanked text, working in
 command mode \`C-r+\"\` - in insert mode inserts clipboard, working in
@@ -1250,7 +1252,7 @@ command mode
 M-x +snippets
 
 bookmarks
-<https://www.gnu.org/software/emacs/manual/html_node/emacs/Bookmarks.html#>:\~:text=Bookmarks%20are%20somewhat%20like%20registers,were%20reading%20in%20various%20files.
+https://www.gnu.org/software/emacs/manual/html_node/emacs/Bookmarks.html#:\~:text=Bookmarks%20are%20somewhat%20like%20registers,were%20reading%20in%20various%20files.
 
 Goto Test FindUsages SelectIn GotoFile GotoClass FileStructurePopup
 JumpToLastWindow \`~yp~ ~yl~\` QuickListPopupAction / Log \`~yd~ ~ya~\`
@@ -1264,7 +1266,7 @@ Computer Science terms... all tabs to spaces (existi somewhere in github
 configurations) search in hidden org-mode blocks elfeed read it later or
 favorites find in org-roam files org-attch dir function
 
-<https://www.gnu.org/software/emacs/manual/html_node/emacs/Keyboard-Macro-Counter.html>
+https://www.gnu.org/software/emacs/manual/html_node/emacs/Keyboard-Macro-Counter.html
 generate row, column number-ranges
 
 ---
@@ -1341,7 +1343,7 @@ lsp-find-declaration
 # Emacs debug (dap-mode)
 
 You need configure a keys:
-<https://docs.doomemacs.org/latest/#/usage/keybindings>
+https://docs.doomemacs.org/latest/#/usage/keybindings
 
 ```example
 SPC o d open debug chooser
@@ -1413,7 +1415,7 @@ C-x v = vc diff
 
 ```
 
-See also - <https://magit.vc/manual/magit-refcard.pdf>
+See also - https://magit.vc/manual/magit-refcard.pdf
 
 
 # Additional Emacs Packages
@@ -1517,7 +1519,7 @@ C-u C-c C-l in an org-buffer insert svg, png images directly from cliboard, save
 
 These keybinding only work after installing org-roam. To install org
 roam edit your \`init.el\` file and add \`(org +roam2)\` in its
-designated place. Watch <https://www.youtube.com/watch?v=AyhPmypHDEw> to
+designated place. Watch https://www.youtube.com/watch?v=AyhPmypHDEw to
 understand what org-roam is.
 
 ```example
@@ -1627,51 +1629,51 @@ q quick
   [youtube](https://www.youtube.com/watch?v=sQS06Qjnkcc&list=PLVtKhBrRV_ZkPnBtt_TD1Cs9PJlU0IIdE)
   video series).
 
-- <https://docs.doomemacs.org/latest/> \*
+- https://docs.doomemacs.org/latest/ \*
 
-- <https://emacs-lsp.github.io/lsp-mode/page/main-features/> (LSP
+- https://emacs-lsp.github.io/lsp-mode/page/main-features/ (LSP
   starting point) \*
 
-- <https://github.com/niyumard/Doom-Emacs-Cheat-Sheet> \*
+- https://github.com/niyumard/Doom-Emacs-Cheat-Sheet \*
 
-- <https://raw.githubusercontent.com/hackjutsu/vim-cheatsheet/master/README.md>
+- https://raw.githubusercontent.com/hackjutsu/vim-cheatsheet/master/README.md
 
-- <https://raw.githubusercontent.com/LeCoupa/awesome-cheatsheets/master/tools/vim.txt>
+- https://raw.githubusercontent.com/LeCoupa/awesome-cheatsheets/master/tools/vim.txt
 
-- <https://thingsfittogether.com/wp-content/uploads/2021/03/Vim-Cheatsheet-2-Final-Draft.png>
+- https://thingsfittogether.com/wp-content/uploads/2021/03/Vim-Cheatsheet-2-Final-Draft.png
 
-- <https://github.com/rstacruz/cheatsheets/blob/master/vim.md>
+- https://github.com/rstacruz/cheatsheets/blob/master/vim.md
 
-- <https://imgur.com/gallery/YLInLlY>
+- https://imgur.com/gallery/YLInLlY
 
-- <https://emacs-lsp.github.io/lsp-mode/page/keybindings/>
+- https://emacs-lsp.github.io/lsp-mode/page/keybindings/
 
-- <https://resources.jetbrains.com/storage/products/pycharm/docs/PyCharm_ReferenceCard.pdf>
+- https://resources.jetbrains.com/storage/products/pycharm/docs/PyCharm_ReferenceCard.pdf
 
-- <https://vimsheet.com/>
+- https://vimsheet.com/
 
-- <https://vim.fandom.com/>
+- https://vim.fandom.com/
 
-- <https://vim.fandom.com/wiki/Best_Vim_Tips#Really_useful>
+- https://vim.fandom.com/wiki/Best_Vim_Tips#Really_useful
 
-- <https://vimhelp.org/vim_faq.txt.html>
+- https://vimhelp.org/vim_faq.txt.html
 
 - [Link to youtube video
   series](https://www.youtube.com/watch?v=BRqjaN4-gGQ&list=PLhXZp00uXBk4np17N39WvB80zgxlZfVwj&index=10)
 
-- <http://vimcasts.org/>
+- http://vimcasts.org/
 
-- <https://vim.fandom.com>
+- https://vim.fandom.com
 
-- <https://www.vimgolf.com/>
+- https://www.vimgolf.com/
 
-- <https://www.emacswiki.org/emacs/SiteMap> \*
+- https://www.emacswiki.org/emacs/SiteMap \*
 
-- <https://hungyi.net/>
+- https://hungyi.net/
 
-- <https://www.emacswiki.org/emacs/PythonProgrammingInEmacs>
+- https://www.emacswiki.org/emacs/PythonProgrammingInEmacs
 
-- <https://wikemacs.org/wiki/Python>
+- https://wikemacs.org/wiki/Python
 
 # [TODO]
 
@@ -1679,7 +1681,7 @@ q quick
   says \"find 2 or more spaces (\' \\\\\') that are NOT preceded
   by \'the start of the line followed by zero or more spaces\'\"
 
-<https://github.com/tpope/vim-surround/blob/master/doc/surround.txt>
+https://github.com/tpope/vim-surround/blob/master/doc/surround.txt
 
 # [TODO]
 
@@ -1702,9 +1704,9 @@ q quick
 - autoindent, based on previous line (as I remember exists specific
   plugin)
 
-- <https://www.reddit.com/r/emacs/comments/a3rajh/chrome_bookmarks_sync_to_org/>
+- https://www.reddit.com/r/emacs/comments/a3rajh/chrome_bookmarks_sync_to_org/
 
-- <https://noonker.github.io/posts/2020-04-22-elfeed/>
+- https://noonker.github.io/posts/2020-04-22-elfeed/
 
 \`C-r+0\` - in insert mode inserts the last yanked text, working in
 command mode \`C-r+\"\` - in insert mode inserts clipboard, working in
@@ -1717,7 +1719,7 @@ command mode
 M-x +snippets
 
 bookmarks
-<https://www.gnu.org/software/emacs/manual/html_node/emacs/Bookmarks.html#>:\~:text=Bookmarks%20are%20somewhat%20like%20registers,were%20reading%20in%20various%20files.
+https://www.gnu.org/software/emacs/manual/html_node/emacs/Bookmarks.html#:\~:text=Bookmarks%20are%20somewhat%20like%20registers,were%20reading%20in%20various%20files.
 
 Goto Test FindUsages SelectIn GotoFile GotoClass FileStructurePopup
 JumpToLastWindow \`~yp~ ~yl~\` QuickListPopupAction / Log \`~yd~ ~ya~\`
@@ -1731,7 +1733,7 @@ Computer Science terms... all tabs to spaces (existi somewhere in github
 configurations) search in hidden org-mode blocks elfeed read it later or
 favorites find in org-roam files org-attch dir function
 
-<https://www.gnu.org/software/emacs/manual/html_node/emacs/Keyboard-Macro-Counter.html>
+https://www.gnu.org/software/emacs/manual/html_node/emacs/Keyboard-Macro-Counter.html
 generate row, column number-ranges
 
 ## Org Mode
@@ -2368,7 +2370,7 @@ lsp-find-declaration
 # Emacs debug (dap-mode)
 
 You need configure a keys:
-<https://docs.doomemacs.org/latest/#/usage/keybindings>
+https://docs.doomemacs.org/latest/#/usage/keybindings
 
 ```example
 SPC o d open debug chooser
@@ -2583,7 +2585,7 @@ C-u C-c C-l in an org-buffer insert svg, png images directly from cliboard, save
 
 These keybinding only work after installing org-roam. To install org
 roam edit your \`init.el\` file and add \`(org +roam2)\` in its
-designated place. Watch <https://www.youtube.com/watch?v=AyhPmypHDEw> to
+designated place. Watch https://www.youtube.com/watch?v=AyhPmypHDEw to
 understand what org-roam is.
 
 ```example
