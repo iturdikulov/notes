@@ -50,7 +50,7 @@ hobbyists, and educators.
 
 ## Programming
 
-- [[GNU_Compiler_Collection|GCC]] - GNU Compiler Collection,
+- [[GNU_Compiler_Collection_GCC|GCC]] - GNU Compiler Collection,
 
 TODO: restructure, instead more_info, use linking to notes!
 
@@ -181,7 +181,8 @@ TODO: restructure, instead more_info, use linking to notes!
   player and music collection organizer
 - [imv](https://sr.ht/~exec64/imv/) - command line image viewer intended for use
   with tiling window managers. Support SVG!
-- [mpv](https://mpv.io/) - a free, open source, and cross-platform media player
+- [mpv](https://mpv.io/) - a free, open source, and cross-platform media player,
+  [[mpv|more_info]]
 - [wtwitch](https://github.com/krathalan/wtwitch) - a terminal program for
   Twitch, check also [wtwitch-check](file://$HOME/.local/bin/wtwitch-check)
 - [yt-dlp](https://github.com/yt-dlp/yt-dlp), download videos from YouTube or
@@ -352,6 +353,7 @@ TODO: restructure, instead more_info, use linking to notes!
 TODO: actualize this list
 - [[Termux]]
 - [[Tachiyomi]]
+- [[KOReader]], manual - [[research/KOReader_Community-KOReader_user_guide]].
 
 ## Archive
 

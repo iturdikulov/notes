@@ -226,3 +226,8 @@ file_export_file - C-S-E
 
 TODO: file_close_all tablet_debugger selection_tool_mode_subtract Select Difference
 Blending Mode Select Screen Blending Mode flatten_image
+
+
+## Learning
+
+- [ ] [Krita](https://www.youtube.com/playlist?list=PLhqJJNjsQ7KE3FLHIE31UgmLdcqsZfXTw)

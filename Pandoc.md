@@ -90,6 +90,11 @@ pandoc -C \
 - `-M reference-section-title=References` - title of the bibliography section
 - `--mathjax` - use [[Mathjax]] to render math
 
+## Tools
+
+- [Try pandoc!](https://pandoc.org/try/)
+
 ## Resources
+
 
 - [ ] [How to make a scientific looking PDF from markdown (with bibliography) · GitHub](https://gist.github.com/maxogden/97190db73ac19fc6c1d9beee1a6e4fc8)

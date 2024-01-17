@@ -21,7 +21,7 @@ tags:
 - [[My_Videos]]
 - [[My_Music]]
 - [[My_Games]]
-- [[My_read_books]]
+- [[My_fiction_books]]
 - [[My_Movies]]
 - [[My_Pictures]]
 - [[Comics]]

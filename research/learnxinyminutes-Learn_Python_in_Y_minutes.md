@@ -750,7 +750,7 @@ class Human:
     # Basic initializer, this is called when this class is **instantiated**.
     # Note that the double leading and trailing underscores denote objects
     # or attributes that are used by Python but that live in user-controlled
-    # namespaces. Methods(or objects or attributes) like: __init__, __str__,
+    # namespaces. Methods (or objects or attributes) like: __init__, __str__,
     # __repr__ etc. are called special methods (or sometimes called dunder
     # methods). You should not invent such names on your own.
     def __init__(self, name):
@@ -761,19 +761,21 @@ class Human:
         self._age = 0   # the leading underscore indicates the "age" property is
                         # intended to be used internally
                         # do not rely on this to be enforced: it's a hint to other devs
+                        # NOTE: I rarely use this, need to use it more often
 
     # An instance method. All methods take "self" as the first argument
     def say(self, msg):
         print("{name}: {message}".format(name=self.name, message=msg))
+        print(f"{self.name}: {msg}")  # f-strings
 
     # Another instance method
     def sing(self):
         return 'yo... yo... microphone check... one two... one two...'
 
-    # A class method is shared among all instances
+    # A class method is shared **among all** instances
     # They are called with the calling class as the first argument
     # linking to class not to instance
-    # you can call classmethod without creating instance
+    # you can call classmethod **without** creating instance
     @classmethod
     def get_species(cls):
         return cls.species
@@ -783,10 +785,10 @@ class Human:
     def grunt():
         return "*grunt*"
 
-    # A property is just like a getter.
-    # It turns the method age() into a read-only attribute of the same name.
-    # there's no need to write trivial getters and setters in python, though.
     # TODO: python property, deleter and setter check
+    # A property is just like a getter.
+    # It turns the method age() into a **read-only attribute** of the same name.
+    # there's no need to write trivial getters and setters in python, though.
     @property
     def age(self):
         return self._age

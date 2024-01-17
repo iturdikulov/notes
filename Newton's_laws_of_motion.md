@@ -6,6 +6,9 @@ sr-interval: 217
 tags:
 - inbox
 - physics
+sr-due: 2025-09-29
+sr-interval: 622
+sr-ease: 270
 ---
 
 # Newton's laws of motion

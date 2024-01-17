@@ -29,7 +29,7 @@ tags:
 >
 > [Simple English Wikipedia](https://simple.wikipedia.org/wiki/English_language)
 
-I have English language [[How_do_I_study_English_language|learning plan]],
+I have English language [[How_I_learn_English_language|learning plan]],
 which can help me to understand English materials, media and people.
 
 ## Tools

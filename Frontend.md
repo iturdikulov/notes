@@ -20,7 +20,7 @@ sr-ease: 230
 > done on the server itself.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Frontend_and_backend)</cite>
 
-I learn some fundamentals from [Frontend Developer Roadmap](https://roadmap.sh/frontend)
+I get some fundamentals articles from [Frontend Developer Roadmap](https://roadmap.sh/frontend)
 
 ### Frontend
 
@@ -31,8 +31,5 @@ Source of articles and materials:
 
 ## Resources
 
-- [CodePen trending](https://codepen.io/trending)
-- [ ] [Mini projects built with HTML5, CSS & JavaScript](https://github.com/bradtraversy/vanillawebprojects)
-- [ ] [Как правильно верстать в 2022 году. Часть 1 / Habr](https://habr.com/en/articles/655009/)
-- [ ] [The Odin Project, web development](https://www.theodinproject.com/)
-- [ ] [Full stack open](https://fullstackopen.com/en/)
+- [[How_I_learn_programming_and_software_development#Frontend]]
+

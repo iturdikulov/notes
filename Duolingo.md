@@ -5,6 +5,9 @@ tags:
 - inbox
 - outline
 - english
+sr-due: 2024-01-17
+sr-interval: 1
+sr-ease: 230
 ---
 
 # Duolingo

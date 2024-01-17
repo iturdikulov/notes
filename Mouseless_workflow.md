@@ -129,7 +129,7 @@ I use custom qmk bindings, using `FN + letter` keybindings.
 
 # Readline
 
-<https://readline.kablamo.org/emacs.html>
+[https://readline.kablamo.org/emacs.html](https://readline.kablamo.org/emacs.html)
 
 ## Base
 

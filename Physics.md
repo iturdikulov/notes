@@ -15,5 +15,5 @@ tags:
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Physics)</cite>
 
 My physics learning plan is here:
-[[How_do_I_study_physics_and_chemistry|how do I study physics and chemistry]].
+[[How_I_learn_physics_and_chemistry|how do I study physics and chemistry]].
 

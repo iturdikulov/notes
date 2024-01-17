@@ -6,7 +6,7 @@ tags:
 
 # Inom's daily notes
 
-I keep my notes, mostly to improve my [[Education|education]] process, store
+I keep my notes, mostly to improve my [[Learning|education]] process, store
 important information (for me) and share it with others.
 
 My initial and most visited not is [[Now]]. Here I store my current activities

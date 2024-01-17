@@ -32,10 +32,10 @@ Some notes with shortcuts flashcards/lists:
 - [[Z_shell]]
 - [[GNU_Readline]]
 - [[Obsidian]]
-- TODO: firefox
+- [[Firefox]]
 - [[Vimium]]
 - [[Gothic_controls]]
-- [[Mpv]]
+- [[mpv]]
 
 ## Resources
 

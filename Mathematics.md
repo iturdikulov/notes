@@ -26,19 +26,8 @@ directory: ~/Science/math/
 >   analysis.
 > - Applied math is useful for solving problems in the real world. People
 >   working in business, science, engineering, and construction use mathematics.
+TODO: add source
 
 ## Resources
 
-- [[How_do_I_study_mathematics]]
-- [GeoGebra](https://www.geogebra.org/)
-- [Матан — Неолурк](https://neolurk.org/wiki/%D0%9C%D0%B0%D1%82%D0%B0%D0%BD)
-- [Discord Mathematics](https://discord.com/channels/268882317391429632/)
-- [zulipchat](https://zulipchat.com/)
-- [reddit math](https://old.reddit.com/r/math)
-- [nforum](https://nforum.ncatlab.org/)
-- [math.stackexchange](https://math.stackexchange.com/)
-- [mathoverflow](https://mathoverflow.net/)
-- [category theory](https://categorytheory.zulipchat.com)
-- [hott](https://hott.zulipchat.com)
-- [artofproblemsolving](https://artofproblemsolving.com/community)
-- [Project Euler](https://projecteuler.net/)
+- [[How_I_learn_mathematics]]

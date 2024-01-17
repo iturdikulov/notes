@@ -29,3 +29,9 @@ development and I mainly checked [Google Style Guides](https://google.github.io/
 
 The elements of programming style are next what I will read.
 TODO: check in the future, did I read it?
+
+## Resources
+
+- [ ] [Linux kernel coding style](https://www.kernel.org/doc/Documentation/process/coding-style.rst)
+- [ ] [Google Style Guides](https://google.github.io/styleguide/)
+

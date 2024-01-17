@@ -7,22 +7,25 @@ sr-interval: 1
 sr-ease: 229
 ---
 
-# JavaScript
+# JavaScript (dialect of ECMAScript), often abbreviated as JS
 
 > JavaScript (/ˈdʒɑːvəskrɪpt/), often abbreviated as JS, is a
 > [[Programming_language|programming language]] that is one of the core
-> technologies of the World Wide Web, alongside HTML and CSS. As of 2023, 98.7%
-> of websites use JavaScript on the client side for webpage behavior,[10] often
-> incorporating third-party libraries. All major web browsers have a dedicated
-> JavaScript engine to execute the code on users' devices.\
-> — <cite></cite>
+> technologies of the World Wide Web, alongside HTML and CSS. As of 2023,
+> 98.7% of websites use JavaScript on the client side for webpage
+> behavior,[10] often incorporating third-party libraries. All major web
+> browsers have a dedicated JavaScript engine to execute the code on users'
+> devices.\
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/JavaScript)</cite>
 
 ## Libraries
 
-- [xyflow: node-based UIs with React](https://github.com/xyflow/xyflow)
 
 ## Resources
 
+- [ ] [[research/learnxinyminutes-Learn_JavaScript_in_Y_minutes]]
+- [ ] [[research/Flanagan-JavaScript]]
+- [ ] [Why async: JavaScript and the real world](https://frontarm.com/courses/async-javascript/promises/why-async/)
 - [ ] [React](https://react.dev/learn)
 - [ ] [JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 - [ ] [1000x FASTER JavaScript? - YouTube](https://www.youtube.com/watch?v=B76gFi43HvM)
