@@ -5,6 +5,7 @@ sr-ease: 289
 sr-interval: 175
 tags:
   - inbox
+  - productivity
 ---
 
 # Spaced repetition
@@ -21,6 +22,20 @@ Right now I'm using [[Obsidian]] plugin
 [spaced repetition](https://www.stephenmwangi.com/obsidian-spaced-repetition/)
 and various note types to generate flashcards. I also use it to select current
 notes to work.
+
+## Spaced repetition obsidian plugin hotkeys
+
+### Review
+
+Review flashcards in this note::`C-A-f`
+Review flashcards from all notes::`C-A-a`
+Review note as easy::`C-A-1`
+Review note as good::`C-A-2`
+Review note as hard::`C-A-3`
+
+Open a note for review::``C-A-` ``
+View statistics::`A-c`
+
 
 ## Test spaced repetition plugin
 
