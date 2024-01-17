@@ -12,6 +12,8 @@ tags:
 
 My outline for learning [[Computer_graphics]].
 
+TODO: better group resources, add software section
+
 ## Resources
 
 - [ ] [[research/Muratori-Handmade_Hero|Handmade Hero]], my initial steps
