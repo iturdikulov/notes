@@ -23,9 +23,9 @@ By developing various [[My_Games|games]] and modelling 3D models in [[Blender]].
 
 ## Assets
 
-- [Quixel Megascans - The world's largest scanned 3D asset library](https://quixel.com/megascans)
+- [Quixel Megascans 3D asset library](https://quixel.com/megascans)
 - [Substance 3D Community Assets](https://substance3d.adobe.com/community-assets?assetType=substanceMaterial))
 - [Poly Haven](https://polyhaven.com/)
-- [Unreal Engine 5. Free two scenes. Lumen vs Baked light ](https://unreal.shop/models/unreal-engine-5.-free-two-scenes.-lumen-vs-baked-light)
 - [GPU Research Samples](https://www.intel.com/content/www/us/en/developer/topic-technology/graphics-research/samples.html)
+- [Unreal Engine 5 Lumen vs Baked light scenes](https://unreal.shop/models/unreal-engine-5.-free-two-scenes.-lumen-vs-baked-light)
 
