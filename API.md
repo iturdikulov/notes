@@ -34,7 +34,6 @@ sr-ease: 190
 > consistent even if the internal details change later. An API may be
 > custom-built for a particular pair of systems, or it may be a shared standard
 > allowing interoperability among many systems.\
->
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/API)</cite>
 
 API is way to communicate between two or more computer programs.
