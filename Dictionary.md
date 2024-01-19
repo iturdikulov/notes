@@ -4,7 +4,8 @@ sr-due: 2023-08-25
 sr-ease: 230
 sr-interval: 1
 tags:
-- inbox
+  - inbox
+  - english_language
 directory: ~/Reference/dictionary/
 ---
 
@@ -23,16 +24,12 @@ meaning of words.
 
 ## Words which I search through Sdcv (inbox for future flashcards)
 
-- Computer
-- Greace
-- R&D
-- RAE
-- SOLID
-- TCP
-- abnormal
-- actor
-- adequate
-- admission
+- Computer::[kəmˈpjuːtə] компьютер, расчетчик, вычислительный
+- R&D::research and development - исследования и разработки, научно-исследовательский и опытно-конструкторский
+- abnormal::[æbˈnɔːməl] ненормальный, неправильный, аномальный, анормальный, непредусмотренный (comp.)
+- actor::[ˈæktər] актёр, деятель, участник, личность, действующий субъект (comp.)
+- adequate::[ˈæd.ʌ.kwɪt] адекватный, соответствующий, достаточный (The food was adequate for all of us).
+- admission::[ədˈmɪʃ(ə)n] допущение (an acknowledgment of the truth of something), принятие; приём (в учебное заведение, клуб, общество), вход, доступ
 - afternoon
 - agnostic
 - aims
