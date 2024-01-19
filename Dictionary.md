@@ -24,7 +24,6 @@ meaning of words.
 ## Words which I search through Sdcv (inbox for future flashcards)
 
 - Computer
-- entertaiment
 - Greace
 - R&D
 - RAE
@@ -80,6 +79,7 @@ meaning of words.
 - enclosing
 - encounter
 - enrich
+- entertainment
 - escape
 - excessive
 - exhausted
@@ -96,6 +96,7 @@ meaning of words.
 - hurdle
 - indispensable
 - inflate
+- influence
 - inheritance
 - instantiated
 - intersection
@@ -214,12 +215,14 @@ meaning of words.
 - румыния
 - рюмка
 - рядовой
+- сантиметр
 - сладости
 - случайный
 - старушка
 - старче
 - сырник
 - сырники
+- тапочки
 - творожник
 - убийца
 - удлинить
@@ -228,4 +231,3 @@ meaning of words.
 - шилка
 - шутка
 - щетка
-- тапочки
