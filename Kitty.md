@@ -5,8 +5,9 @@ sr-due: 2023-06-17
 sr-ease: 270
 sr-interval: 4
 tags:
-- development
-- software
+  - development
+  - software
+  - spaced_repetition
 ---
 
 # Kitty (terminal emulator)

@@ -5,8 +5,9 @@ sr-ease: 228
 sr-interval: 74
 author: David Allen
 tags:
-- inbox
-- productivity
+  - inbox
+  - productivity
+  - spaced_repetition
 ---
 
 # Getting Things Done (GTD)

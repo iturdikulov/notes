@@ -6,6 +6,7 @@ sr-interval: 1
 tags:
   - inbox
   - english_language
+  - spaced_repetition
 directory: ~/Reference/dictionary/
 ---
 

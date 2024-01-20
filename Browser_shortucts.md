@@ -4,12 +4,13 @@ sr-due: 1678896000
 sr-ease: 250
 sr-interval: 3
 tags:
-- inbox
-- outline
-- development
+  - inbox
+  - outline
+  - development
+  - spaced_repetition
 ---
 
-# Browser shortucts
+# Browser shortcuts
 
 This is a list of keyboard shortcuts which I use in my [[Web_browser|web browser]].
 

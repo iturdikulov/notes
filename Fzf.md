@@ -4,9 +4,10 @@ sr-due: 2024-01-22
 sr-ease: 290
 sr-interval: 250
 tags:
-- inbox
-- development
-- software
+  - inbox
+  - development
+  - software
+  - spaced_repetition
 ---
 
 # fzf

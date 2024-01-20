@@ -1,8 +1,9 @@
 ---
 date: 2023-03-31
 tags:
-- outline
-- development
+  - outline
+  - development
+  - spaced_repetition
 ---
 
 # Git tips

@@ -4,8 +4,9 @@ sr-due: 2024-03-16
 sr-ease: 250
 sr-interval: 3
 tags:
-- inbox
-- computer_graphics
+  - inbox
+  - computer_graphics
+  - spaced_repetition
 ---
 
 # Blender Common Shortcuts

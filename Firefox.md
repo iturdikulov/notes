@@ -4,9 +4,12 @@ sr-due: 2024-01-24
 sr-ease: 290
 sr-interval: 252
 tags:
-- inbox
-- software
+  - inbox
+  - software
+  - spaced_repetition
 ---
+
+TODO: merge with [[Browser_shortucts]]
 
 # Firefox
 

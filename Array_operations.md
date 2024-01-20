@@ -4,8 +4,9 @@ sr-due: 2023-08-25
 sr-ease: 227
 sr-interval: 1
 tags:
-- inbox
-- computer_science
+  - inbox
+  - computer_science
+  - spaced_repetition
 ---
 
 # Array operations

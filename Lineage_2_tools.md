@@ -1,14 +1,11 @@
 ---
 date: 2023-04-15
-sr-due: 2023-05-21
-sr-ease: 274
-sr-interval: 4
-tags:
-- inbox
-- software
 sr-due: 2023-10-22
 sr-interval: 19
 sr-ease: 254
+tags:
+  - inbox
+  - software
 ---
 
 # Lineage 2 tools

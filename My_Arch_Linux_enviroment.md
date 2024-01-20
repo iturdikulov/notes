@@ -4,8 +4,8 @@ sr-due: 2025-03-16
 sr-ease: 250
 sr-interval: 3
 tags:
-- inbox
-- outline
+  - inbox
+  - outline
 ---
 
 # My Arch Linux environment

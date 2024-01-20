@@ -4,8 +4,9 @@ sr-due: 2024-01-02
 sr-ease: 270
 sr-interval: 230
 tags:
-- inbox
-- computer_science
+  - inbox
+  - computer_science
+  - spaced_repetition
 ---
 
 # Linear search (sequential search)

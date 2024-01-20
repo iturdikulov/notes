@@ -4,8 +4,9 @@ sr-due: 2023-12-29
 sr-ease: 270
 sr-interval: 226
 tags:
-- inbox
-- computer_science
+  - inbox
+  - computer_science
+  - spaced_repetition
 ---
 
 # Big O notation in [[Mathematics|mathematics]] and

@@ -1,9 +1,9 @@
 ---
 date: 2022-12-29
 tags:
-- outline
-- development
-- software
+  - development
+  - software
+  - spaced_repetition
 ---
 
 # Zathura document viewer

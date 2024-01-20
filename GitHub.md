@@ -5,8 +5,9 @@ sr-due: 2024-01-25
 sr-ease: 290
 sr-interval: 253
 tags:
-- inbox
-- development
+  - inbox
+  - development
+  - spaced_repetition
 ---
 
 # GitHub

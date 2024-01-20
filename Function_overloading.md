@@ -4,11 +4,13 @@ sr-due: 2023-05-21
 sr-ease: 272
 sr-interval: 4
 tags:
-- inbox
+  - inbox
+  - programming
+  - spaced_repetition
 ---
 
 # Function overloading (method overloading)
-
+?
 > Ability to create multiple [[Function|functions]] of
 > the same name with different implementations. Calls to an overloaded function
 > will run a specific implementation of that function appropriate to the context

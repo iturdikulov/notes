@@ -3,6 +3,7 @@ date: 2024-01-01
 tags:
   - inbox
   - computer_graphics
+  - spaced_repetition
 ---
 
 ## Galaxy Defiance

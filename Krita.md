@@ -5,9 +5,10 @@ sr-ease: 270
 sr-interval: 231
 external: https://krita.org/en/
 tags:
-- inbox
-- computer_graphics
-- software
+  - inbox
+  - computer_graphics
+  - software
+  - spaced_repetition
 ---
 
 # Krita

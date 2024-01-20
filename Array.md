@@ -6,6 +6,7 @@ sr-interval: 176
 tags:
   - inbox
   - computer_science
+  - spaced_repetition
 ---
 
 # Array (computer science)

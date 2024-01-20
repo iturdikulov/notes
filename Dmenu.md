@@ -4,12 +4,14 @@ sr-due: 2024-02-03
 sr-ease: 310
 sr-interval: 262
 tags:
-- inbox
-- development
-- software
+  - inbox
+  - archive
+  - development
+  - software
+  - spaced_repetition
 ---
 
-dmenu (dynamic menu for X)
+# dmenu (dynamic menu for X)
 
 > dmenu is a dynamic menu for X, originally designed for dwm. It manages large
 > numbers of user-defined menu items efficiently.\
@@ -20,7 +22,7 @@ allow integrating CLI programs with nice looking UI to quickly run desired
 actions.
 
 You can use dmenu as programs launcher (main purpose), search tool, etc. One of
-popular alternative is `rofi`, but for me, it's too complex.
+popular alternative is [[Rofi]], which I use right now.
 
 dmenu is keyboard oriented program, and need to use it's
 

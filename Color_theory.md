@@ -1,10 +1,10 @@
 ---
 date: 2023-10-03
-tags:
-  - inbox
 sr-due: 2023-10-06
 sr-interval: 3
 sr-ease: 253
+tags:
+  - inbox
 ---
 
 # Color theory

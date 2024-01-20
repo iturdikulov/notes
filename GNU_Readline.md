@@ -4,9 +4,10 @@ sr-due: 2024-01-14
 sr-ease: 290
 sr-interval: 242
 tags:
-- inbox
-- research
-- development
+  - inbox
+  - research
+  - development
+  - spaced_repetition
 ---
 
 # GNU Readline

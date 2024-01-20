@@ -3,10 +3,10 @@ date: 2022-12-29
 sr-due: 2023-12-12
 sr-ease: 248
 sr-interval: 209
-tags:
-- inbox
-- software
 external: https://git-scm.com/
+tags:
+  - inbox
+  - software
 ---
 
 # Git Version Control System

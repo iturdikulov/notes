@@ -1,11 +1,11 @@
 ---
 date: 2023-10-06
-tags:
-  - inbox
-  - programming
 sr-due: 2023-10-10
 sr-interval: 4
 sr-ease: 273
+tags:
+  - inbox
+  - programming
 ---
 
 # "Hello, World!" program

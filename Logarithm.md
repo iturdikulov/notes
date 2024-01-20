@@ -4,8 +4,9 @@ sr-due: 2024-01-03
 sr-ease: 270
 sr-interval: 231
 tags:
-- inbox
-- mathematics
+  - inbox
+  - mathematics
+  - spaced_repetition
 ---
 
 # Logarithm

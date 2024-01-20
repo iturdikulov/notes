@@ -4,8 +4,9 @@ sr-due: 2024-03-16
 sr-ease: 250
 sr-interval: 3
 tags:
-- inbox
-- development
+  - inbox
+  - development
+  - spaced_repetition
 ---
 
 # dwm keyboard shortcuts

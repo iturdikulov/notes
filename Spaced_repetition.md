@@ -6,6 +6,7 @@ sr-interval: 175
 tags:
   - inbox
   - productivity
+  - spaced_repetition
 ---
 
 # Spaced repetition

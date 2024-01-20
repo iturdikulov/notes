@@ -4,9 +4,10 @@ sr-due: 2024-01-06
 sr-ease: 270
 sr-interval: 234
 tags:
-- inbox
-- development
-- software
+  - inbox
+  - development
+  - software
+  - spaced_repetition
 ---
 
 # Z shell (zsh)

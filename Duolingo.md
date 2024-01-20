@@ -1,13 +1,14 @@
 ---
 external: https://www.duolingo.com/
 date: 2023-05-06
-tags:
-- inbox
-- outline
-- english
 sr-due: 2024-01-17
 sr-interval: 1
 sr-ease: 230
+tags:
+  - inbox
+  - outline
+  - english
+  - spaced_repetition
 ---
 
 # Duolingo

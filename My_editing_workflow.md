@@ -4,11 +4,9 @@ sr-due: 2023-05-21
 sr-ease: 271
 sr-interval: 4
 tags:
-- inbox
-- vim
-sr-due: 2023-10-24
-sr-interval: 21
-sr-ease: 251
+  - inbox
+  - vim
+  - spaced_repetition
 ---
 
 # My editing workflow

@@ -6,6 +6,7 @@ sr-interval: 220
 tags:
   - inbox
   - computer_science
+  - spaced_repetition
 ---
 
 # Data structures
