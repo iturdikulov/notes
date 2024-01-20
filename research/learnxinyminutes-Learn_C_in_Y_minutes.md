@@ -1,9 +1,11 @@
 ---
 date: 2024-01-16
-external: https://learnxinyminutes.com/docs/c/
+external:
+  - https://learnxinyminutes.com/docs/c/
 tags:
-- inbox
-- programming
+  - inbox
+  - programming
+  - research
 ---
 
 # Learn C in Y minutes

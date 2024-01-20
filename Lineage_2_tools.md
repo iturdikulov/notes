@@ -5,7 +5,7 @@ sr-interval: 19
 sr-ease: 254
 tags:
   - inbox
-  - software
+  - game
 ---
 
 # Lineage 2 tools

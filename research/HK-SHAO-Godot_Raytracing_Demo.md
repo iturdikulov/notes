@@ -5,6 +5,7 @@ tags:
   - inbox
   - research
   - computer_graphics
+  - game
 external:
   - https://github.com/HK-SHAO/Godot-RayTracing-Demo
 directory: ~/Computer/graphics/HK-SHAO-Godot_Raytracing_Demo/

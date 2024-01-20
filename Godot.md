@@ -1,14 +1,14 @@
 ---
 date: 2023-05-04
-external: https://www.godotengine.org/
-sr-due: 2023-05-21
-sr-ease: 270
-sr-interval: 4
-tags:
-- inbox
+external:
+  - https://www.godotengine.org/
 sr-due: 2024-04-13
-sr-interval: 193
 sr-ease: 270
+sr-interval: 193
+tags:
+  - inbox
+  - game
+  - software
 ---
 
 # Godot Engine (game engine)

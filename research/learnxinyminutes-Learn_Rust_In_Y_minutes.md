@@ -2,8 +2,10 @@
 date: 2024-01-01
 external: https://learnxinyminutes.com/docs/rust/
 tags:
-- inbox
-- programming
+  - inbox
+  - programming
+  - research
+  - spaced_repetition
 ---
 
 # Learn Rust in Y minutes

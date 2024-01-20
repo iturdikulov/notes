@@ -1,14 +1,15 @@
 ---
 author: Drew Neil
 date: 2015
-tags:
-    - research
-    - inbox
-    - vim
 sr-due: 2023-12-28
 sr-interval: 225
 sr-ease: 266
 directory: ~/Computer/software/Neil-Practical_Vim
+tags:
+  - research
+  - inbox
+  - vim
+  - spaced_repetition
 ---
 
 # Practical Vim: Edit text at the speed of thought

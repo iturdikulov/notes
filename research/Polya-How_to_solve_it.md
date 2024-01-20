@@ -3,11 +3,12 @@ date: 2023-01-07
 sr-due: 2023-12-07
 sr-ease: 270
 sr-interval: 204
-tags:
-- inbox
-- programming
-- research
 directory: "~/Arts_and_Entertainment/literature/George Polya/How to solve it (2276)/"
+tags:
+  - inbox
+  - programming
+  - research
+  - spaced_repetition
 ---
 
 # How to solve it

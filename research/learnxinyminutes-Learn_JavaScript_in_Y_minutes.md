@@ -1,9 +1,11 @@
 ---
 date: 2024-01-16
-external: https://learnxinyminutes.com/docs/javascript/
+external:
+  - https://learnxinyminutes.com/docs/javascript/
 tags:
   - inbox
   - programming
+  - research
 ---
 
 # Learn JavaScript in Y minutes

@@ -4,6 +4,7 @@ tags:
   - inbox
   - computer_graphics
   - spaced_repetition
+  - game
 ---
 
 ## Galaxy Defiance

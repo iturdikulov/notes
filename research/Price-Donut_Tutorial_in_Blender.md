@@ -1,15 +1,15 @@
 ---
-description:
-tags:
-- inbox
-- research
-- computer_graphics
 created: 2023-06-05
 sr-due: 2023-08-25
 sr-interval: 1
 sr-ease: 230
 external: https://www.youtube.com/playlist?list=PLjEaoINr3zgEPv5y--4MKpciLaoQYZB1Z
 directory: ~/Computer/graphics/Price-Donut_Tutorial
+tags:
+  - inbox
+  - research
+  - computer_graphics
+  - spaced_repetition
 ---
 
 # Blender Beginner Donut Tutorial

@@ -1,15 +1,14 @@
 ---
 date: 2023-04-19
-sr-due: 2023-05-21
-sr-ease: 274
-sr-interval: 4
-external: https://www.unrealengine.com/en-US/linux
-tags:
-- inbox
-- software
 sr-due: 2023-10-23
-sr-interval: 20
 sr-ease: 254
+sr-interval: 20
+external:
+  - https://www.unrealengine.com/en-US/linux
+tags:
+  - inbox
+  - software
+  - game
 ---
 
 # Unreal Engine

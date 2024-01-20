@@ -5,7 +5,7 @@ sr-ease: 270
 sr-interval: 226
 tags:
   - inbox
-  - english_language
+  - english
   - spaced_repetition
 ---
 

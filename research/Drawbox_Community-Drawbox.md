@@ -9,6 +9,7 @@ tags:
   - inbox
   - art
   - research
+  - spaced_repetition
 ---
 
 # Drawabox - learning the fundamentals of drawing

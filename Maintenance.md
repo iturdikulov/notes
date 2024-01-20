@@ -58,6 +58,7 @@ Here I collect various inbox directories and services, which I need to check
 regularly. Main goal is get rid of entropy and use only 3 inboxes. But currently
 it's what I have:
 
+- Review [[Dataview_maintenance_queries|dataview]] note.
 - Telegram saved messages, need to replace with something else. Can be replaced
 with Firefox bookmarks.
 - [[Firefox]] bookmarks (mobile/desktop).

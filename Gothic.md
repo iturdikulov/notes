@@ -1,9 +1,10 @@
 ---
 date: 2023-08-28
-external: https://en.wikipedia.org/wiki/Gothic_(video_game)
+external:
+  - https://en.wikipedia.org/wiki/Gothic_(video_game)
 tags:
   - inbox
-  - art
+  - game
 sr-due: 2027-08-27
 sr-interval: 1421
 sr-ease: 297

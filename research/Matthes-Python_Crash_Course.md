@@ -1,14 +1,15 @@
 ---
 author: Eric Matthes
 date: 2023
-tags:
-  - research
-  - inbox
-  - programming
 directory: ~/Computer/programming/Matthes-Python_Crash_Course
 sr-due: 2023-10-06
 sr-interval: 3
 sr-ease: 250
+tags:
+  - research
+  - inbox
+  - programming
+  - spaced_repetition
 ---
 
 # Python Crash Course

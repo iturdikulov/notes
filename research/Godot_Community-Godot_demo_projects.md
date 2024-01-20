@@ -5,6 +5,7 @@ tags:
   - inbox
   - research
   - computer_graphics
+  - game
 external:
   - https://godotengine.github.io/godot-demo-projects/
 directory: ~/Computer/graphics/Godot_Community-Godot_demo_projects/

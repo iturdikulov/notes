@@ -1,11 +1,13 @@
 ---
 date: 2024-01-13
-external: https://www.udemy.com/course/unreal-engine-5-the-ultimate-game-developer-course/
+external:
+  - https://www.udemy.com/course/unreal-engine-5-the-ultimate-game-developer-course/
 directory: ~/Computer/graphics/Ulibarri-Unreal_Engine_5_C++_The_Ultimate_Game_Developer/
 tags:
   - inbox
   - research
   - computer_graphics
+  - game
 ---
 
 # Stephen Ulibarri - Unreal Engine 5 C++ The Ultimate Game Developer Course

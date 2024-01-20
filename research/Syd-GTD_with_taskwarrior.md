@@ -13,6 +13,7 @@ tags:
   - inbox
   - research
   - productivity
+  - spaced_repetition
 ---
 
 A series where author show how to use taskwarrior to implement GTD. This series

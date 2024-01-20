@@ -1,15 +1,16 @@
 ---
 author: TJ DeVries
-tags:
-- inbox
-- research
-- vim
 created: 2023-06-05
 sr-due: 2023-08-25
 sr-interval: 1
 sr-ease: 230
 external: https://www.youtube.com/@teej_dv/videos
 directory: ~/Computer/programming/DeVries-Tutorials/
+tags:
+  - inbox
+  - research
+  - vim
+  - spaced_repetition
 ---
 
 # Debugging In Neovim (ft BashBunni)

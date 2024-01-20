@@ -1,12 +1,13 @@
 ---
 author: Jonathan Lampel
 tags:
-- inbox
-- research
-- computer_graphics
+  - inbox
+  - research
+  - computer_graphics
+  - spaced_repetition
 date: 2023-12-12
 external:
-- https://cgcookie.com/courses/blender-basics-an-introduction-to-blender-4-x
+  - https://cgcookie.com/courses/blender-basics-an-introduction-to-blender-4-x
 directory: ~/Computer/graphics/CG_Cookie-Blender_Basics
 ---
 

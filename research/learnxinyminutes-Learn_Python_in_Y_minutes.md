@@ -5,8 +5,10 @@ sr-ease: 267
 sr-interval: 195
 external: https://learnxinyminutes.com/docs/python/
 tags:
-- inbox
-- programming
+  - inbox
+  - programming
+  - research
+  - spaced_repetition
 ---
 
 # Learn Python in Y minutes

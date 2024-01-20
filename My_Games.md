@@ -4,8 +4,9 @@ sr-due: 2024-01-17
 sr-ease: 290
 sr-interval: 245
 tags:
-- inbox
-- outline
+  - inbox
+  - outline
+  - game
 ---
 
 # My Games

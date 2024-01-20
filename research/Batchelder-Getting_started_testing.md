@@ -5,13 +5,20 @@ external: https://www.youtube.com/watch?v=FxSsnHeWQBY
 tags:
   - research
   - programming
+  - spaced_repetition
 ---
 
 # Getting Started Testing - PyCon 2014
 
-If you've never written tests before, you probably know you *should*, but view the whole process as a bureaucratic paperwork nightmare to check off on your ready-to-ship checklist. This is the wrong way to approach testing. Tests are a solution to a problem that is important to you: does my code work? I'll show how Python tests are written, and why.
+If you've never written tests before, you probably know you _should_, but view
+the whole process as a bureaucratic paperwork nightmare to check off on your
+ready-to-ship checklist. This is the wrong way to approach testing. Tests are a
+solution to a problem that is important to you: does my code work? I'll show how
+Python tests are written, and why.
 
-Slides can be found at: https://speakerdeck.com/pycon2014 and https://github.com/PyCon/2014-slides
+Slides can be found at:
+- https://speakerdeck.com/pycon2014
+- https://github.com/PyCon/2014-slides
 
 ## Features
 
@@ -43,11 +50,13 @@ How tests must be written?
 - focused (little code as possible, help with debugging)
 
 ## unittest (automated test)
+
 - python standard library
 - infrastructure for well-structured tests
 - patterned on xUnit
 
 A simple unit test
+
 ```python
 import unittest
 from portfolio import Portfolio
@@ -73,6 +82,7 @@ else:
 
 You execute unittest by this command `python -m unittest test_portfolio.py`
 Possible output:
+
 ```
 F..E
 ======================================================================
@@ -80,18 +90,19 @@ FAIL: test_buy_one_stock (test_portfolio.PortfolioTest)
 ...
 Run 3 tests in 0.000s
 ```
-Dots indicate passing tests.
-`F` indicates a failing test.
-`E` indicates an exception in a test. Usually it's a bug in the test code.
+
+Dots indicate passing tests. `F` indicates a failing test. `E` indicates an
+exception in a test. Usually it's a bug in the test code.
 
 tests isolation
-- all tests gets a new test object (it's preferable, to avoid side effects
-  from previous tests)
+
+- all tests get a new test object (it's preferable, to avoid side effects from
+  previous tests)
 - tests can't affect each other
 - failure doesn't stop next tests
 
-Use `assertEqual` instead of `assert`, because it gives value which generated the
-failure.
+Use `assertEqual` instead of `assert`, because it gives value which generated
+the failure.
 
 Other assert helpers:
 
@@ -114,6 +125,7 @@ assertSequenceEqual(a, b)
 assertItemsEqual(a, b)
 ...
 ```
+
 Pro-tip: you own base class to write domain specific helpers/asserts
 
 ```python
@@ -126,6 +138,7 @@ class PortfolioTest(unittest.TestCase):
 class PortfolioTest(...):
 ...
 ```
+
 Unittest can't call the function to test (for example with wrong number of
 arguments), you need use special `assertRaises` method with context manager.
 
@@ -134,11 +147,11 @@ with self.assertRaises(TypeError):
     p.buy('IBM', 100)
 ```
 
-If you see repetition you need refactor code.
-You can use `setUp` (before each test) and `tearDown` (after each test) methods
-to avoid repetition.
+If you see repetition you need refactor code. You can use `setUp` (before each
+test) and `tearDown` (after each test) methods to avoid repetition.
 
 Under the covers:
+
 ```python
 testcase = PortfolioTest()
 try:
@@ -162,12 +175,14 @@ else:
 ```
 
 `setUp` and `tearDown` give you isolation!:
+
 - establish context
 - common `per-` or `post-` work
 - isolation, even with failures
 - also: `fixtures`
 
 Tests are real code!
+
 - helper functions, classes, etc. (so use real code, which used in your program)
 - can become significant
 - might need tests!
@@ -185,6 +200,7 @@ patching (don't forget to unpatch it in `tearDown`) which give a predictable
 result of the function and in same time you test it.
 
 Even better: mock objects (`import mock`)
+
 - Automatic chameleons
 - Act like any object
 - Record what happened to them
@@ -192,6 +208,7 @@ Even better: mock objects (`import mock`)
 - It can `patch` objects for you (for example `urlopen`)
 
 Test doubles:
+
 - powerful: isolates code
 - focuses tests
 - removes speed bumps and randomness
@@ -201,6 +218,7 @@ Test doubles:
 ## Additional
 
 Tools
+
 - `addCleanup`: nicer than tearDown
 - `doctest`: only for testing docs!!!
 - `nose, py.test`: better test runners
@@ -210,6 +228,7 @@ Tools
 - `Jenkins, Travis`: run tests all the time
 
 Topics
+
 - `TDD`: write tests first
 - `BDD`: describe external behavior
 - `integration tests`: test the whole system, bigger chunks
