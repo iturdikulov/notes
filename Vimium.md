@@ -48,7 +48,7 @@ Once you have Vimium installed, you can see this list of key bindings at any tim
 `i`::enter insert mode -- all commands will be ignored until you hit Esc to exit
 
 `yy`::copy the current url to the clipboard
-<!--SR:!2023-06-07,2,245-->
+<!--SR:!2024-01-27,7,265-->
 
 `yf`::copy a link url to the clipboard
 
@@ -143,7 +143,7 @@ options.
 <!--SR:!2023-06-05,1,228-->
 
 `gE`::edit the current URL and open in a new tab
-<!--SR:!2023-06-07,2,245-->
+<!--SR:!2024-01-21,1,225-->
 
 `zH`::scroll all the way left
 

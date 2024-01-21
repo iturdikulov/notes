@@ -67,7 +67,7 @@ to `n-1` where `n` is a number of items in array.
 
 In general array is ==list of data elements==.
 Size of an array is ==how many data elements the array holds==.
-<!--SR:!2023-07-27,8,230!2023-07-21,2,239-->
+<!--SR:!2023-07-27,8,230!2024-01-28,8,259-->
 
 The index of an array is the number that identifies ==where a piece of data
 lives== inside the array.
@@ -124,7 +124,7 @@ you modify array, you must keep it sorted.
 
 Ordered array are identical to "classic" array, but here only one difference,
 whenever you modify the array, you must keep it in ==sorted order==.
-<!--SR:!2023-07-21,2,239-->
+<!--SR:!2024-01-26,6,259-->
 
 And this brings some specific rules. For example, we want to add 75 into ordered
 array at some point

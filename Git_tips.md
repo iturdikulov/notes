@@ -40,7 +40,7 @@ Execute a Git subcommand with a given configuration set:
 Create a new local repository, _project_name_ is optional. If no project name specified you'll create git repository in current directory. You can also use non-existing **nested** directories, git automatically create needed structure.
 ?
 `git init [project_name]`
-<!--SR:!2023-07-12,38,292-->
+<!--SR:!2024-06-21,153,312-->
 
 Download from an existing repository. URL can be `http[s]...` or `git@...` (require specific private ssh key). If project path specified, git will clone into this directory.
 ?

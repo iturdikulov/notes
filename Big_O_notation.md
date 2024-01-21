@@ -17,7 +17,7 @@ tags:
 > calculating how much memory is needed, and how much time it takes to
 > complete.\
 > — <cite>[SE Wikipedia](https://simple.wikipedia.org/wiki/Big_O_notation)</cite>
-<!--SR:!2023-07-20,1,250-->
+<!--SR:!2024-01-21,1,230-->
 
 ![Big O notation](./img/Big-O-notation.png)
 _Big O notation_
