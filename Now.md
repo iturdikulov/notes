@@ -6,7 +6,7 @@ tags:
 
 # Now
 
-My current activities, priority are matter:
+## Global activities
 
 1. [[My_routine|Routine]]. Goals are to keep my mood predictable and stable. I
    failed multiple times to keep it, but I'm still trying.
@@ -19,3 +19,11 @@ My current activities, priority are matter:
 5. [[In_real_life_IRL|IRL]]. Since human are inherently social creatures, I
    should maintain some social connections and interact with other people, solve
    household tasks and so on.
+
+## Current activities
+
+- [[research/learnxinyminutes-Learn_Python_in_Y_minutes]]
+- [[research/Ulibarri-Unreal_Engine_5_C++_The_Ultimate_Game_Developer]]
+- [[research/Python_Community-Python_Tutorial]]
+- [[research/Wengrow-Data_structures_and_algorithms]]
+- [[My_Physical_exercise_plan]]
