@@ -82,7 +82,8 @@ Information about discord and QA
 
   - [[video:~/Computer/graphics/Ulibarri-Unreal_Engine_5_C++_The_Ultimate_Game_Developer/1. Getting Started/4. The Level Editor Viewport.mp4#0:04:52][0:04:52]] hold RMB + drag left/right also pan
 
-  - [[video:~/Computer/graphics/Ulibarri-Unreal_Engine_5_C++_The_Ultimate_Game_Developer/1. Getting Started/4. The Level Editor Viewport.mp4#0:05:14][0:05:14]] hold both mouse buttons + drag to move up/down and translate to the left and to ther right
+  - [[video:~/Computer/graphics/Ulibarri-Unreal_Engine_5_C++_The_Ultimate_Game_Developer/1. Getting Started/4. The Level Editor Viewport.mp4#0:05:14][0:05:14]] hold both mouse buttons + drag to move up/down and translate to the left and to ther right.
+    Hold M- and drag RMB to zoom in/out. Hold M- and drag LMB to rotate around. This is useful in static editor.
 
   - [[video:~/Computer/graphics/Ulibarri-Unreal_Engine_5_C++_The_Ultimate_Game_Developer/1. Getting Started/4. The Level Editor Viewport.mp4#0:05:58][0:05:58]] hold LMB and use WASD Q/E to fly around (no directional contorol) and you can use RMB + WASD Q/E to use free mode naviagtion
 
@@ -169,3 +170,110 @@ Information about discord and QA
 - [[video:~/Computer/graphics/Ulibarri-Unreal_Engine_5_C++_The_Ultimate_Game_Developer/2. Realistic Landscapes/1. Quixel Bridge.mp4#0:02:30][0:02:30]] 3D assets categories (aviable from home)
 - [[video:~/Computer/graphics/Ulibarri-Unreal_Engine_5_C++_The_Ultimate_Game_Developer/2. Realistic Landscapes/1. Quixel Bridge.mp4#0:02:53][0:02:53]] Select quality and download, then add (it will generate Megascans directory and category directory, then place new asset here)
 - [[video:~/Computer/graphics/Ulibarri-Unreal_Engine_5_C++_The_Ultimate_Game_Developer/2. Realistic Landscapes/1. Quixel Bridge.mp4#0:03:30][0:03:30]] You can open static mesh editor from content drawer by double click on required object
+- [[video:~/Computer/graphics/Ulibarri-Unreal_Engine_5_C++_The_Ultimate_Game_Developer/2. Realistic Landscapes/1. Quixel Bridge.mp4#0:05:01][0:05:01]] Color markers in content drawer:
+  - cyan: static mesh
+  - green: material instance
+  - red: textures
+- [[video:~/Computer/graphics/Ulibarri-Unreal_Engine_5_C++_The_Ultimate_Game_Developer/2. Realistic Landscapes/1. Quixel Bridge.mp4#0:06:01][0:06:01]] Use outliner to find hidden elements
+- [[video:~/Computer/graphics/Ulibarri-Unreal_Engine_5_C++_The_Ultimate_Game_Developer/2. Realistic Landscapes/1. Quixel Bridge.mp4#0:06:10][0:06:10]] To snap selecetd object to surface press `END` key
+- [[video:~/Computer/graphics/Ulibarri-Unreal_Engine_5_C++_The_Ultimate_Game_Developer/2. Realistic Landscapes/1. Quixel Bridge.mp4#0:07:10][0:07:10]] Downloading wall
+- [[video:~/Computer/graphics/Ulibarri-Unreal_Engine_5_C++_The_Ultimate_Game_Developer/2. Realistic Landscapes/1. Quixel Bridge.mp4#0:07:45][0:07:45]] S- + drag object will also move camera
+- [[video:~/Computer/graphics/Ulibarri-Unreal_Engine_5_C++_The_Ultimate_Game_Developer/2. Realistic Landscapes/1. Quixel Bridge.mp4#0:08:15][0:08:15]] Nature section, download rock with Nanite quality (can use a lot of space)
+
+## 2. Open world
+
+- [[video:~/Computer/graphics/Ulibarri-Unreal_Engine_5_C++_The_Ultimate_Game_Developer/2. Realistic Landscapes/2. Open World.mp4#0:00:23][0:00:23]] How large world typycally implemented
+- [[video:~/Computer/graphics/Ulibarri-Unreal_Engine_5_C++_The_Ultimate_Game_Developer/2. Realistic Landscapes/2. Open World.mp4#0:01:03][0:01:03]] Unreal open world system, one single map and unreal manage to load chunks of this map
+- [[video:~/Computer/graphics/Ulibarri-Unreal_Engine_5_C++_The_Ultimate_Game_Developer/2. Realistic Landscapes/2. Open World.mp4#0:01:53][0:01:53]] Create new map. First create `Maps` directory in `Content` directory. Then create map: File -> New Level -> Empty Open world
+- [[video:~/Computer/graphics/Ulibarri-Unreal_Engine_5_C++_The_Ultimate_Game_Developer/2. Realistic Landscapes/2. Open World.mp4#0:02:35][0:02:35]] Outliner will have only WorldDataLayers and WorldPartitionMiniMap objects
+- [[video:~/Computer/graphics/Ulibarri-Unreal_Engine_5_C++_The_Ultimate_Game_Developer/2. Realistic Landscapes/2. Open World.mp4#0:02:46][0:02:46]] World partition minimap, aviable from Window -> World Partition Editor (our location/position and current part of world)
+- [[video:~/Computer/graphics/Ulibarri-Unreal_Engine_5_C++_The_Ultimate_Game_Developer/2. Realistic Landscapes/2. Open World.mp4#0:03:26][0:03:26]] Save level: File -> Save -> Maps -> Name: SlashOpenWorld
+
+## 3. Lighting and Athmosphere
+
+- [[video:~/Computer/graphics/Ulibarri-Unreal_Engine_5_C++_The_Ultimate_Game_Developer/2. Realistic Landscapes/3. Lighting and Atmosphere.mp4#0:00:23][0:00:23]] Requirements for world lighthing:
+  - Sky Athmosphere
+  - Directional Light
+  - Sky Light
+  - Exponential Height Fog
+  - Volumetric Clouds
+- [[video:~/Computer/graphics/Ulibarri-Unreal_Engine_5_C++_The_Ultimate_Game_Developer/2. Realistic Landscapes/3. Lighting and Atmosphere.mp4#0:00:45][0:00:45]] Sky Athmosphere - creates an Earth-like atmosphere which scatters light like a real atmosphere. Cah have up to two atmospheric lights
+- [[video:~/Computer/graphics/Ulibarri-Unreal_Engine_5_C++_The_Ultimate_Game_Developer/2. Realistic Landscapes/3. Lighting and Atmosphere.mp4#0:01:25][0:01:25]] Directional light - light source infinitely far away. Shadow cast from it are all parallel. Simulates the sun (or moon)
+- [[video:~/Computer/graphics/Ulibarri-Unreal_Engine_5_C++_The_Ultimate_Game_Developer/2. Realistic Landscapes/3. Lighting and Atmosphere.mp4#0:02:01][0:02:01]] Set default map -> Project settings -> Maps & Modes -> Editor Startup Map. Change Editor and Game default map.
+- [[video:~/Computer/graphics/Ulibarri-Unreal_Engine_5_C++_The_Ultimate_Game_Developer/2. Realistic Landscapes/3. Lighting and Atmosphere.mp4#0:02:59][0:02:59]] Project settings automatically saved when you change them
+- [[video:~/Computer/graphics/Ulibarri-Unreal_Engine_5_C++_The_Ultimate_Game_Developer/2. Realistic Landscapes/3. Lighting and Atmosphere.mp4#0:03:29][0:03:29]] You can add actors from actor panel (aviable in add quickmenu)
+- [[video:~/Computer/graphics/Ulibarri-Unreal_Engine_5_C++_The_Ultimate_Game_Developer/2. Realistic Landscapes/3. Lighting and Atmosphere.mp4#0:03:49][0:03:49]] Search and add Sky Atmosphere, then drag it into scene
+- [[video:~/Computer/graphics/Ulibarri-Unreal_Engine_5_C++_The_Ultimate_Game_Developer/2. Realistic Landscapes/3. Lighting and Atmosphere.mp4#0:04:09][0:04:09]] To make SkyAtmosphere work, also add directional light
+- [[video:~/Computer/graphics/Ulibarri-Unreal_Engine_5_C++_The_Ultimate_Game_Developer/2. Realistic Landscapes/3. Lighting and Atmosphere.mp4#0:04:44][0:04:44]] Adding second directional light. You can move move it my C-L, keep C- key holding and move mouse
+- [[video:~/Computer/graphics/Ulibarri-Unreal_Engine_5_C++_The_Ultimate_Game_Developer/2. Realistic Landscapes/3. Lighting and Atmosphere.mp4#0:05:28][0:05:28]] Change Atmosphere sun index (properties) if you have more than one Directional Light actors
+- [[video:~/Computer/graphics/Ulibarri-Unreal_Engine_5_C++_The_Ultimate_Game_Developer/2. Realistic Landscapes/3. Lighting and Atmosphere.mp4#0:06:09][0:06:09]] Gimbal lock issue, if C-L and mouse move method not working, reset Directional light rotation to 0 deg. values and try again
+- [[video:~/Computer/graphics/Ulibarri-Unreal_Engine_5_C++_The_Ultimate_Game_Developer/2. Realistic Landscapes/3. Lighting and Atmosphere.mp4#0:06:52][0:06:52]] C-S-L + mouse move (while holding C-) will move second sun
+- [[video:~/Computer/graphics/Ulibarri-Unreal_Engine_5_C++_The_Ultimate_Game_Developer/2. Realistic Landscapes/3. Lighting and Atmosphere.mp4#0:07:16][0:07:16]] Click and drag in property to change value
+- [[video:~/Computer/graphics/Ulibarri-Unreal_Engine_5_C++_The_Ultimate_Game_Developer/2. Realistic Landscapes/3. Lighting and Atmosphere.mp4#0:07:54][0:07:54]] Mobility settings for lights:
+  - static: lighting cannot be changed in-game (location, direction, etc.)
+    - fastest to compute
+    - allows baked lighting
+  - stationary: light cah change its color and intensity, but not location or rotation
+    - allows partially-baked lighthing
+  - movable: can be moved and changed in-game
+    - can cast dynamic shadows
+- [[video:~/Computer/graphics/Ulibarri-Unreal_Engine_5_C++_The_Ultimate_Game_Developer/2. Realistic Landscapes/3. Lighting and Atmosphere.mp4#0:09:52][0:09:52]] Use movable light sources (Sun0 and Sun1)
+- [[video:~/Computer/graphics/Ulibarri-Unreal_Engine_5_C++_The_Ultimate_Game_Developer/2. Realistic Landscapes/3. Lighting and Atmosphere.mp4#0:10:10][0:10:10]] SkyLight:
+  - captures distant parts of the level (like outside of sphere)
+  - applies to the scene as light (reflections)
+  - global illumination
+  - "captures" only in certain conditions (depending on it's mobility):
+    - for static lights, updtates when builidng lighthing
+    - for stationary and movable lights, updates once on load and on "Capture"
+    - Constantly when Real-Time Capture is enabled
+- [[video:~/Computer/graphics/Ulibarri-Unreal_Engine_5_C++_The_Ultimate_Game_Developer/2. Realistic Landscapes/3. Lighting and Atmosphere.mp4#0:11:39][0:11:39]] Adding skylight, set it to movable, enable real time capture
+- [[video:~/Computer/graphics/Ulibarri-Unreal_Engine_5_C++_The_Ultimate_Game_Developer/2. Realistic Landscapes/3. Lighting and Atmosphere.mp4#0:12:04][0:12:04]] Fog and Clouds:
+  - exponential height fog:
+    - simulates fog
+    - gets thicker the lower you go
+    - support two colors:
+      - hemisphere of a planet facing the sun
+      - the other hemisphere
+  - volumetric clouds:
+    - dynamic clouds
+    - 3-dimensional
+    - material driven
+    - light-scattering
+- [[video:~/Computer/graphics/Ulibarri-Unreal_Engine_5_C++_The_Ultimate_Game_Developer/2. Realistic Landscapes/3. Lighting and Atmosphere.mp4#0:13:23][0:13:23]] Adding Exponential Height Fog:
+  you can adjust Fog Density, Fog Height Falloff, etc.
+- [[video:~/Computer/graphics/Ulibarri-Unreal_Engine_5_C++_The_Ultimate_Game_Developer/2. Realistic Landscapes/3. Lighting and Atmosphere.mp4#0:13:55][0:13:55]] Adding Volumetric Cloud
+- [[video:~/Computer/graphics/Ulibarri-Unreal_Engine_5_C++_The_Ultimate_Game_Developer/2. Realistic Landscapes/3. Lighting and Atmosphere.mp4#0:14:35][0:14:35]] Adjust Sun positions (make like sunset). Adjus sun size by changing source angle.
+- [[video:~/Computer/graphics/Ulibarri-Unreal_Engine_5_C++_The_Ultimate_Game_Developer/2. Realistic Landscapes/3. Lighting and Atmosphere.mp4#0:15:02][0:15:02]] Change sun temperature
+
+## Landscape
+
+- [[video:~/Computer/graphics/Ulibarri-Unreal_Engine_5_C++_The_Ultimate_Game_Developer/2. Realistic Landscapes/4. Landscape.mp4#0:00:43][0:00:43]] Change modes, landscape is enabling by S-2
+- [[video:~/Computer/graphics/Ulibarri-Unreal_Engine_5_C++_The_Ultimate_Game_Developer/2. Realistic Landscapes/4. Landscape.mp4#0:01:01][0:01:01]] Showing curring landscape size (green grid). Landscape is multiple meshes, and you can shape it as you wish
+- [[video:~/Computer/graphics/Ulibarri-Unreal_Engine_5_C++_The_Ultimate_Game_Developer/2. Realistic Landscapes/4. Landscape.mp4#0:01:44][0:01:44]] In landscape panel, you can adjust it. Number of Components control overall size of landscape. By default 8x8
+- [[video:~/Computer/graphics/Ulibarri-Unreal_Engine_5_C++_The_Ultimate_Game_Developer/2. Realistic Landscapes/4. Landscape.mp4#0:02:40][0:02:40]] Generate landscape (very big floor). If you have issuse with it, try to load required cells in World Partition table.
+- [[video:~/Computer/graphics/Ulibarri-Unreal_Engine_5_C++_The_Ultimate_Game_Developer/2. Realistic Landscapes/4. Landscape.mp4#0:03:10][0:03:10]] Sculpt ground by LMB + drag
+- [[video:~/Computer/graphics/Ulibarri-Unreal_Engine_5_C++_The_Ultimate_Game_Developer/2. Realistic Landscapes/4. Landscape.mp4#0:03:43][0:03:43]] Toggle between modes using S-NUM hotkey
+- [[video:~/Computer/graphics/Ulibarri-Unreal_Engine_5_C++_The_Ultimate_Game_Developer/2. Realistic Landscapes/4. Landscape.mp4#0:04:02][0:04:02]] Selection ceil of landscape, delete it in selection mode.
+- [[video:~/Computer/graphics/Ulibarri-Unreal_Engine_5_C++_The_Ultimate_Game_Developer/2. Realistic Landscapes/4. Landscape.mp4#0:05:07][0:05:07]] Insert prop (chair), focus it (`F`) to check how big is world.
+- [[video:~/Computer/graphics/Ulibarri-Unreal_Engine_5_C++_The_Ultimate_Game_Developer/2. Realistic Landscapes/4. Landscape.mp4#0:06:00][0:06:00]] Set chair origin to 0
+- [[video:~/Computer/graphics/Ulibarri-Unreal_Engine_5_C++_The_Ultimate_Game_Developer/2. Realistic Landscapes/4. Landscape.mp4#0:06:57][0:06:57]] Grouping objects, select object -> RMB -> Create new folder (or select exisiting), Sky
+- [[video:~/Computer/graphics/Ulibarri-Unreal_Engine_5_C++_The_Ultimate_Game_Developer/2. Realistic Landscapes/4. Landscape.mp4#0:07:07][0:07:07]] Select multiple objects with C- key and move into sky directory
+- [[video:~/Computer/graphics/Ulibarri-Unreal_Engine_5_C++_The_Ultimate_Game_Developer/2. Realistic Landscapes/4. Landscape.mp4#0:07:37][0:07:37]] Select multiple objects by S- + left key on latest object. And set location of them
+- [[video:~/Computer/graphics/Ulibarri-Unreal_Engine_5_C++_The_Ultimate_Game_Developer/2. Realistic Landscapes/4. Landscape.mp4#0:08:53][0:08:53]] Sculpting landscape tools
+- [[video:~/Computer/graphics/Ulibarri-Unreal_Engine_5_C++_The_Ultimate_Game_Developer/2. Realistic Landscapes/4. Landscape.mp4#0:09:04][0:09:04]] RMB used to look around, optionally press LMB/M- keys for additional control. You quickly toggle moving, hold RMB, then LMB, then release RMB and you will able move forward/backward.
+- [[video:~/Computer/graphics/Ulibarri-Unreal_Engine_5_C++_The_Ultimate_Game_Developer/2. Realistic Landscapes/4. Landscape.mp4#0:09:57][0:09:57]] Sculpt brush has size and strength (two radials).
+  - Cimple circular brush has size and falloff
+  - Alpha brush has size and texture (mask image as brush stroke)
+  - Pattern brush (tile mask across the landscape)
+  - Work with entire landscape components (working with landscape ceils)
+- [[video:~/Computer/graphics/Ulibarri-Unreal_Engine_5_C++_The_Ultimate_Game_Developer/2. Realistic Landscapes/4. Landscape.mp4#0:13:35][0:13:35]] Create rocky canyons
+- [[video:~/Computer/graphics/Ulibarri-Unreal_Engine_5_C++_The_Ultimate_Game_Developer/2. Realistic Landscapes/4. Landscape.mp4#0:14:15][0:14:15]] Start sculpting
+- [[video:~/Computer/graphics/Ulibarri-Unreal_Engine_5_C++_The_Ultimate_Game_Developer/2. Realistic Landscapes/4. Landscape.mp4#0:14:41][0:14:41]] Look at landscape from user perspective
+- [[video:~/Computer/graphics/Ulibarri-Unreal_Engine_5_C++_The_Ultimate_Game_Developer/2. Realistic Landscapes/4. Landscape.mp4#0:15:07][0:15:07]] Smooth tool
+- [[video:~/Computer/graphics/Ulibarri-Unreal_Engine_5_C++_The_Ultimate_Game_Developer/2. Realistic Landscapes/4. Landscape.mp4#0:15:33][0:15:33]] Use S- key to invert tool action
+- [[video:~/Computer/graphics/Ulibarri-Unreal_Engine_5_C++_The_Ultimate_Game_Developer/2. Realistic Landscapes/4. Landscape.mp4#0:16:04][0:16:04]] Flattern tool, make the top nice and flat
+- [[video:~/Computer/graphics/Ulibarri-Unreal_Engine_5_C++_The_Ultimate_Game_Developer/2. Realistic Landscapes/4. Landscape.mp4#0:16:39][0:16:39]] Ramp tool, generate ramp between 2 points (usefult for stairs)
+- [[video:~/Computer/graphics/Ulibarri-Unreal_Engine_5_C++_The_Ultimate_Game_Developer/2. Realistic Landscapes/4. Landscape.mp4#0:17:34][0:17:34]] Erosion, simulate erosion patterns on landscape
+- [[video:~/Computer/graphics/Ulibarri-Unreal_Engine_5_C++_The_Ultimate_Game_Developer/2. Realistic Landscapes/4. Landscape.mp4#0:19:09][0:19:09]] Create backward mountains on edges on terrain
+- [[video:~/Computer/graphics/Ulibarri-Unreal_Engine_5_C++_The_Ultimate_Game_Developer/2. Realistic Landscapes/4. Landscape.mp4#0:20:18][0:20:18]] Noise brush, can generate sort of mountains (with low strenght usually)
+- [[video:~/Computer/graphics/Ulibarri-Unreal_Engine_5_C++_The_Ultimate_Game_Developer/2. Realistic Landscapes/4. Landscape.mp4#0:21:35][0:21:35]] Hydro, similar to errosion, but caused by rainfall
