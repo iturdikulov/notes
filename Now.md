@@ -2,9 +2,13 @@
 date: 2023-05-14
 tags:
     - outline
+    - productivity
 ---
 
 # Now
+
+This note help me build my daily plan and track what I'm doing, completed items
+are moved into archive section.
 
 ## Global activities
 
@@ -22,9 +26,12 @@ tags:
 
 ## Current activities
 
+- [[My_Physical_exercise_plan|Slowly start doing physical exercises]]
+- [[Duolingo|Learn basic English]]
+- [[Social_networking_service|Social Networking]] working project
 - [[research/learnxinyminutes-Learn_Python_in_Y_minutes]]
 - [[research/Ulibarri-Unreal_Engine_5_C++_The_Ultimate_Game_Developer]]
 - [[research/Python_Community-Python_Tutorial]]
 - [[research/Wengrow-Data_structures_and_algorithms]]
-- [[My_Physical_exercise_plan]]
-- [[Duolingo]]
+
+## Archive
