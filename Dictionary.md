@@ -15,9 +15,9 @@ directory: ~/Reference/dictionary/
 > A dictionary is a listing of lexemes from the lexicon of one or more specific
 > languages, often arranged alphabetically (or by consonantal root for Semitic
 > languages or radical and stroke for logographic languages), which may include
-> information on definitions, usage, etymologies, pronunciations, translation,
-> etc. It is a lexicographical reference that shows inter-relationships
-> among the data.\
+> information on ==definitions, usage, etymologies, pronunciations, translation,
+> etc.== It is a lexicographical reference that shows inter-relationships among
+> the data.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Dictionary)</cite>
 
 I use [[Sdcv|electronic dictionaries]] to translations and understand the
@@ -25,12 +25,14 @@ meaning of words.
 
 ## Words which I search through Sdcv (inbox for future flashcards)
 
-- Computer::[kəmˈpjuːtə] компьютер, расчетчик, вычислительный
+- Computer::`[kəmˈpjuːtə]` компьютер, расчетчик, вычислительный
 - R&D::research and development - исследования и разработки, научно-исследовательский и опытно-конструкторский
-- abnormal::[æbˈnɔːməl] ненормальный, неправильный, аномальный, анормальный, непредусмотренный (comp.)
-- actor::[ˈæktər] актёр, деятель, участник, личность, действующий субъект (comp.)
-- adequate::[ˈæd.ʌ.kwɪt] адекватный, соответствующий, достаточный (The food was adequate for all of us).
-- admission::[ədˈmɪʃ(ə)n] допущение (an acknowledgment of the truth of something), принятие; приём (в учебное заведение, клуб, общество), вход, доступ
+- research
+- development
+- abnormal::`[æbˈnɔːməl]` ненормальный, неправильный, аномальный, анормальный, непредусмотренный (comp.)
+- actor::`[ˈæktər]` актёр, деятель, участник, личность, действующий субъект (comp.)
+- adequate::`[ˈæd.ʌ.kwɪt]` адекватный, соответствующий, достаточный (The food was adequate for all of us).
+- admission::`[ədˈmɪʃ(ə)n]` допущение (an acknowledgment of the truth of something), принятие; приём (в учебное заведение, клуб, общество), вход, доступ
 - afternoon
 - agnostic
 - aims
@@ -63,7 +65,7 @@ meaning of words.
 - confidence
 - considering
 - convince
-- crease
+- crease::`[kriːs]` складка; загиб; отутюженная стрелка (на брюках)
 - curiosity
 - definition
 - deprecated
@@ -229,3 +231,8 @@ meaning of words.
 - шилка
 - шутка
 - щетка
+
+- thicker
+- falloff
+- ramp
+- along
