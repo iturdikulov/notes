@@ -27,3 +27,4 @@ tags:
 - [[research/Python_Community-Python_Tutorial]]
 - [[research/Wengrow-Data_structures_and_algorithms]]
 - [[My_Physical_exercise_plan]]
+- [[Duolingo]]
