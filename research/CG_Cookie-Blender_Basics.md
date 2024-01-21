@@ -24,20 +24,20 @@ graphics and how to work with it.
 Interface is too small, how I can adjust it?
 ?
 You can adjust resolution scale for UI in `Blender Preferences` → `UI`.
-<!--SR:!2023-12-24,4,270-->
+<!--SR:!2024-01-31,10,270-->
 
 # 2: Navigating the 3D View
 
 How to zoom in/out?
 ?
 You zoom-in/zoom-out by using `Magnifier` icon in top right of 3D view and
-move by hand icon or just use mouse wheel.
+move by hand icon or just use mouse wheel (C-wheel for smooth zoom).
 
-What is basic concept of Orthographic view?
+What is basic concept of Orthographic view (perspective difference)?
 ?
 [[Orthographic_projection|Orthographic]] view remove our perspective
 distortion.
-<!--SR:!2023-12-21,1,230-->
+<!--SR:!2024-01-22,1,210-->
 
 How I can find hotkey for some action?
 ?
@@ -64,7 +64,7 @@ How to select multiple individual objects (outliner and in the 3D view)?
 ?
 In the outliner you can hold `C-` key to select individual objects.
 In blender to select multiple items, hold `S-` key and click using `LMB`.
-<!--SR:!2023-12-30,7,250-->
+<!--SR:!2024-01-25,4,230-->
 
 How to deselect individual objects (outliner and in the 3D view)?
 ?
@@ -80,7 +80,8 @@ How blender mark hidden toolbars in UI?
 You can expose additional tools from toolbar, if here small triangle (on
 left sidebar for example) and you can extend them by resizing to right.
 
-Can you describe how rotation works (mnemonic/IRL example) per axis (X, Y, Z)?
+Can you describe how rotation works (mnemonic/IRL example) per axis (X is front,
+Y left/right, Z top/bottom)?
 ?
 X - is sort of cartwheel exercise, 🤸
 Y - is front/backflip
@@ -89,21 +90,21 @@ Z - is pirouetting
 # 4: Transforming Objects and Adjusting Transformations
 
 Little squares in Gizmo move tool move object in ==2 axes (plane)==.
-<!--SR:!2023-12-23,3,250-->
+<!--SR:!2024-01-28,7,250-->
 
 White circle in rotate tool allow you to rotate object at given degree
 ==`C-`, `C-S-`== keys allow you to work with fixed values of degree.
-<!--SR:!2023-12-29,6,250-->
+<!--SR:!2024-02-04,14,250-->
 
 `Scale cage tool` acts like ==`transform tool`== in raster editors, but in
 3D space.
 
 In blender when you rotate object, arm is matter, long arm ==slow==
 rotation, short arm fast rotation.
-<!--SR:!2023-12-29,6,250-->
+<!--SR:!2024-02-03,13,250-->
 
 To reset values, hover on it and press ==`BCK`==.
-<!--SR:!2023-12-23,3,250-->
+<!--SR:!2024-01-29,8,250-->
 
 You can use math in input values, for example $2+2$ or $2*2$.
 
@@ -111,10 +112,10 @@ How to transform object with more precision or determine values?
 ?
 You can transform objects using precision (`S-` key) or determine values
 using `C-` or `C-S-` keys.
-<!--SR:!2023-12-25,2,230-->
+<!--SR:!2024-01-25,4,230-->
 
 You can clear object transformation by ==`M-G, M-R, M-S`== keys.
-<!--SR:!2024-01-01,9,250-->
+<!--SR:!2024-01-25,4,230-->
 
 # 5: Adding, Deleting, and the 3D Cursor
 
@@ -189,6 +190,7 @@ You can select specific object, which added in edit mode (for example
 multiple cubes), by selecting part of mesh and select ==linked (`C-L`)==.
 Then you can separate this object by `P` key and join back (child to
 parent) by `C-J` key.
+<!--SR:!2024-01-22,1,229-->
 
 How to set origin to geometry center?
 ?
@@ -203,6 +205,7 @@ locations). `Parents only`, transform only parent object.
 
 To quickly change current mode for object, you can use PIE menu -
 ==`C-TAB`==. In keymap settings you can set only `TAB` key for this menu.
+<!--SR:!2024-01-23,2,249-->
 
 You usually need to model object in edit mode, but rotate it in ==object
 mode==, to keep its local orientation.
@@ -235,7 +238,8 @@ useful for snapping for example. You can also change scene units, which
 also affect to grid and objects (for example location)! (`Scene` tab →
 `Unit scale`).
 
-How to quickly set object dimensions to 1 meter for example?
+How to quickly set object dimensions to 1 meter, 1 km, 1 cm for example
+(without calculation yourself)?
 ?
 Blender support unit prefixes in values, for example 1 mm, 1 cm, 1 m, 1 km,
 etc. If you type 1 km in some input it will be automatically converted to
@@ -316,6 +320,7 @@ Can shade smooth be applied to individual faces?
 ?
 Yes, shade smooth can be applied to individual faces, select face in face
 mode (3) and then apply it from context menu.
+<!--SR:!2024-01-24,2,249-->
 
 How to set angle for shade smooth?
 ?
@@ -352,7 +357,7 @@ additional faces.
 > Orthogonal Edges by default. This causes the tool to automatically split
 > and remove adjacent faces when extruding inward
 
-What is Extrude along normals?
+What do Extrude along normals mode (`C-F` -> ...)?
 ?
 `Extrude along normals` - extrude face along its normal vector (check also
 `Offset Even` option), effect usually visible with multiple faces.
