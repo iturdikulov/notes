@@ -29,9 +29,15 @@ are moved into archive section.
 - [[My_Physical_exercise_plan|Slowly start doing physical exercises]]
 - [[Duolingo|Learn basic English]]
 - [[Social_networking_service|Social Networking]] working project
-- [[research/learnxinyminutes-Learn_Python_in_Y_minutes]]
-- [[research/Ulibarri-Unreal_Engine_5_C++_The_Ultimate_Game_Developer]]
-- [[research/Python_Community-Python_Tutorial]]
+
 - [[research/Wengrow-Data_structures_and_algorithms]]
+- [[research/Python_Community-Python_Tutorial]]
+- [[research/learnxinyminutes-Learn_Python_in_Y_minutes]]
+- [[research/learnxinyminutes-Learn_Lua_in_Y_minutes]]
+- [[research/learnxinyminutes-Learn_C_in_Y_minutes]]
+- [[research/learnxinyminutes-Learn_Rust_In_Y_minutes]]
+- [[research/learnxinyminutes-Learn_JavaScript_in_Y_minutes]]
+
+- [[research/Ulibarri-Unreal_Engine_5_C++_The_Ultimate_Game_Developer]]
 
 ## Archive
