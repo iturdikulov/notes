@@ -12,8 +12,6 @@ tags:
 
 # Backend
 
-TODO: add backend term
-
 Main difference between frontend and backend?
 ?
 Fronted is data representation layer, backend is data access layer. And
@@ -29,6 +27,10 @@ if some presentation work is done on server for example.
 > some presentation work is actually done on the server itself.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Frontend_and_backend)</cite>
 
+> A data access layer (DAL) in computer software is a layer of a computer
+> program which provides simplified access to data stored in
+> ==persistent storage== of some kind, such as an entity-relational database.\
+> — <cite>[Data access layer](https://en.wikipedia.org/wiki/Data_access_layer)</cite>
 
 ## Resources
 
