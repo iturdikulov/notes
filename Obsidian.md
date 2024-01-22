@@ -16,133 +16,38 @@ tags:
 
 ## Hotkeys
 
-Switch between edit and read mode
-?
-`c+e`
-<!--SR:!2023-06-25,43,270-->
+- Switch between edit and read mode::`C-e`
+- Focus on last note::`M-n`
+- Open quick switcher::`M-p`
+- Open command palette::`C-:`
+- Open graph view::`C-g`
+- Open backlinks for the current file::`M-b`
+- Follow link under cursor::`M-RET`
+- Open link under cursor in new pane::`C-M-RET`
+- Open settings::`C-M-s`
+- Create new note::`C-n`
+- Close active pane::`C-w`
+- Search current file::`/`
+- Search & replace in current file::`C-h`
+- Search in all files::`C-S-f`
+- Toggle bold for selection::`C-b`
+- Toggle italics for selection::`C-i`
+- Insert link::`C-k`
+- Toggle edit/preview mode::`C-e`
+- Access developer console (useful to generate custom styles)::`C-S-I` (maybe need adjust keybinding)
+- Navigate back::`C-M-left`
+- Navigate forward::`C-M-right`
+- Open daily note::`M-f`
+- Find broken links::`M-S-b`
 
-Access developer console
-?
-`Ctrl+Shift+I`. If not working disable assigned hotkey in settings.
+Check also [[Spaced_repetition#Hotkeys|Spaced repetition]].
 
-Open quick switcher::`ctrl + o`
+## Plugins
 
-Open graph view::`ctrl + g`
-
-Open backlinks for the current file
-
-Open command palette::`ctrl + p`
-
-Open Markdown importer
-
-Navigate back::`ctrl + alt + left`
-
-Navigate forward::`ctrl + alt + right`
-
-Open another vault
-
-Open today's note
-
-Open previous daily note
-
-Open next daily note
-
-Open help::`f1`
-
-Follow link under cursor::`alt + enter`
-
-Open link under cursor in new pane::`ctrl + alt + enter`
-
-Open settings::`ctrl + ,`
-
-## Pane Handling
-
-Focus on pane above
-
-Focus on pane below
-
-Focus on pane to the left
-
-Focus on pane to the right
-
-Toggle pin
-
-Split vertical
-
-Split horizontal
-
-Create new note::`ctrl + n`
-
-Close active pane::`ctrl + w`
-
-Close all other panes
-
-Toggle left sidebar
-
-Toggle right sidebar
-
-Toggle default view mode
-
-## Appearance
-
-Use dark mode
-
-Use light mode
-
-# Search
-
-Search current file::`ctrl + f`
-
-Search & replace in current file::`ctrl + h`
-
-Search in all files::`ctrl + shift + f`
-
-## Folding
-
-Toggle fold on the current line
-
-Fold all headings and lists
-
-Unfold all headings and lists
-
-## Editing
-
-Swap line up
-
-Swap line down
-
-Toggle bold for selection::`ctrl + b`
-
-Toggle italics for selection::`ctrl + i`
-
-Toggle highlight for selection
-
-Insert link::`ctrl + k`
-
-Delete paragraph::`ctrl + d`
-
-Toggle edit/preview mode::`ctrl + e`
-
-Delete current file
-
-Editor: save file::`ctrl + s`
-
-## Customized
-
-Review all flashcards::`alt + f`
-
-Review all flashcards in current file::`shift + alt + f`
-
-## Useful plugins/projects
-
+- [ ] Review Obsidiantracker
 - [Obsidian-html](https://obsidian-html.github.io/v4/index.html)
 - [Excalidraw](https://github.com/zsviczian/obsidian-excalidraw-plugin)
-
-## TODO
-
-- [ ] Review [@Obsidiantracker]
 
 ## Resources
 
 - [Obsidian Help](https://help.obsidian.md/)
-- [ ] [Home · reuseman/flashcards-obsidian Wiki · GitHub](https://github.com/reuseman/flashcards-obsidian/wiki)
