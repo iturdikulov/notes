@@ -101,8 +101,9 @@ TODO: restructure, instead more_info, use linking to notes!
   automation platform that makes your applications and systems easier to deploy
 - [NNN (n³)](https://github.com/jarun/nnn) - nnn (n³) is a full-featured
   terminal file manager, [[Nnn_file_manager|more_info]]
--  [[leetcode-cli]] - command line tool to solve
-  [[LeetCode_Team-LeetCode|LeetCode]] problems from terminal
+- [[leetcode-cli]] - command line tool to solve [[LeetCode]] problems from
+terminal
+
 
 ## Internet
 
