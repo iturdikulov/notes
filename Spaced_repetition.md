@@ -24,9 +24,9 @@ Right now I'm using [[Obsidian]] plugin
 and various note types to generate flashcards. I also use it to select current
 notes to work.
 
-## Spaced repetition obsidian plugin hotkeys
+## Hotkeys
 
-### Review
+Spaced repetition obsidian plugin custom hotkeys.
 
 Review flashcards in this note::`C-A-f`
 Review flashcards from all notes::`C-A-a`
