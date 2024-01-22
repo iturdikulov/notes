@@ -38,7 +38,7 @@ He recommends buying a mechanical keyboard, which I already have, and I like it.
 
 1. "Proper posture is important as minor discomforts get amplified over time." I
    agree, and definitely need to improve my posture. And combine it with
-   [[Turdikulov-Physical_exercise_plan|exercise  plan]].
+[[My_Physical_exercise_plan|my exercises]].
 
 2. "Measure your progress often" If I use training tools, I'll measure my
    progress often.

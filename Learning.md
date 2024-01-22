@@ -87,7 +87,7 @@ world, new knowledge and opportunities. My
 
 **[[Health]]** required for all humans, and I want to learn how to be healthy
 and more important how to stay healthy. I have
-[[research/My_Physical_exercise_plan|exercise plan]], which I follow.
+[[My_Physical_exercise_plan|exercise plan]], which I follow.
 
 ### Practice
 

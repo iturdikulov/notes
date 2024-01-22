@@ -10,3 +10,4 @@ tags:
 # Exercise
 
 - [[research/My_Physical_exercise_plan]]
+I have my own plan to do [[My_Physical_exercise_plan|daily exercises]].

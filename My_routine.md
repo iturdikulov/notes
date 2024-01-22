@@ -45,7 +45,7 @@ Complete main tasks, connect with people, help them. Mark completed tasks.
 ## 5. Walk/Exercise
 
 Regular work-out for better energy and healthy mind. Better to do it according
-[[research/My_Physical_exercise_plan|plan]] and track your progress.
+[[My_Physical_exercise_plan|plan]] and track your progress.
 
 ## 6. Relax/Dinner
 

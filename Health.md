@@ -12,17 +12,17 @@ sr-ease: 224
 
 > In common usage and medicine, health, according to the World Health
 > Organization, is "a state of complete physical, mental and social well-being
-> and not merely the absence of disease and infirmity". A variety of
-> definitions have been used for different purposes over time. Health can be
-> promoted by encouraging healthful activities, such as regular
-> [[research/My_Physical_exercise_plan|physical exercise]] and adequate
-> [[Sleep|sleep]], and by reducing or avoiding unhealthful activities or
-> situations, such as smoking or excessive stress. Some factors affecting health
-> are due to individual choices, such as whether to engage in a high-risk
-> behavior, while others are due to structural causes, such as whether the
-> society is arranged in a way that makes it easier or harder for people to get
-> necessary healthcare services. Still, other factors are beyond both individual
-> and group choices, such as genetic disorders.\
+> and not merely the absence of disease and infirmity". A variety of definitions
+> have been used for different purposes over time. Health can be promoted by
+> encouraging healthful activities, such as regular
+> [[My_Physical_exercise_plan|physical exercise]] and adequate [[Sleep|sleep]],
+> and by reducing or avoiding unhealthful activities or situations, such as
+> smoking or excessive stress. Some factors affecting health are due to
+> individual choices, such as whether to engage in a high-risk behavior, while
+> others are due to structural causes, such as whether the society is arranged
+> in a way that makes it easier or harder for people to get necessary healthcare
+> services. Still, other factors are beyond both individual and group choices,
+> such as genetic disorders.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Health)</cite>
 
 ## Resources
