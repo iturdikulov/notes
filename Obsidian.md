@@ -44,7 +44,7 @@ Check also [[Spaced_repetition#Hotkeys|Spaced repetition]].
 
 ## Plugins
 
-- [ ] Review Obsidiantracker
+- [ ] Review [Obsidian tracker](https://github.com/pyrochlore/obsidian-tracker)
 - [Obsidian-html](https://obsidian-html.github.io/v4/index.html)
 - [Excalidraw](https://github.com/zsviczian/obsidian-excalidraw-plugin)
 
