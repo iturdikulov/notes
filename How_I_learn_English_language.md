@@ -31,6 +31,15 @@ Fundamentals of English grammar:
 - [English Playlists](https://boosty.to/englishplaylists)
 - [[Puzzle_English|Puzzle English]], mostly not used anymore.
 
+## A Prescriptivist's Guide to Common Issues in English Usage
+
+> This prescriptive chart addresses 50 common issues plaguing writers of all
+> stripes and straits—providing succinct usage rules and fun,
+> pop-culture-centric example sentences for each entry.\
+> — <cite>[Popchart](https://popchart.co/products/a-prescriptivists-guide-to-common-issues-in-english-usage)</cite>
+
+![A Prescriptivist's Guide to Common Issues in English Usage](./img/P2-UsageFINAL_UPDATEDZOOM.webp)
+
 ## Resources
 
 - [[Touch_typing|Touch typing]] greatly help me to memorize words and phrases.

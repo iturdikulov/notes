@@ -17,13 +17,20 @@ directory: ~/Music/
 > human societies, a cultural universal.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Music)</cite>
 
+## A Visual Guide to Musical Notation
+
+> An ensemble of sonic semiotics, this visual guide to musical notation charts
+> the symbols and ideograms of classical sheet music across a sextet of staff
+> lines.\
+> — <cite>[Popchart](https://popchart.co/products/a-visual-guide-to-musical-notation)</cite>
+![A Visual Guide to Musical Notation](./img/P-MusicNotes_0909_WP_NEWZOOM.webp)
+
+## Tracks
+
 - [ ] ~~tidal & sound server~~
 - [x] [Katana Zero (Original Soundtrack)](https://open.spotify.com/album/23KCp1w3aJeKdMrqcyodWK)
 - [ ] Mulan soundtrack
 - [ ] Stellaris soundtrack
-
-# Tracks
-
 - TODO: [Spotify tracks collection](https://open.spotify.com/collection/tracks)
 - Deep Purple - Smoke on the Water
 - Это всё, что останется после меня...
