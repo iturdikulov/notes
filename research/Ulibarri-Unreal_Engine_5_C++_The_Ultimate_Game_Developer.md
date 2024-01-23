@@ -277,3 +277,19 @@ Information about discord and QA
 - [[video:~/Computer/graphics/Ulibarri-Unreal_Engine_5_C++_The_Ultimate_Game_Developer/2. Realistic Landscapes/4. Landscape.mp4#0:19:09][0:19:09]] Create backward mountains on edges on terrain
 - [[video:~/Computer/graphics/Ulibarri-Unreal_Engine_5_C++_The_Ultimate_Game_Developer/2. Realistic Landscapes/4. Landscape.mp4#0:20:18][0:20:18]] Noise brush, can generate sort of mountains (with low strenght usually)
 - [[video:~/Computer/graphics/Ulibarri-Unreal_Engine_5_C++_The_Ultimate_Game_Developer/2. Realistic Landscapes/4. Landscape.mp4#0:21:35][0:21:35]] Hydro, similar to errosion, but caused by rainfall
+
+## 5. Landscape Material
+
+- [[video:~/Computer/graphics/Ulibarri-Unreal_Engine_5_C++_The_Ultimate_Game_Developer/2. Realistic Landscapes/5. 11 - Landscape Material.mp4#0:00:15][0:00:15]] In UI material is special type of asset, usually associated with Mesh
+- [[video:~/Computer/graphics/Ulibarri-Unreal_Engine_5_C++_The_Ultimate_Game_Developer/2. Realistic Landscapes/5. 11 - Landscape Material.mp4#0:00:32][0:00:32]] Find actor in Content drawer. RMB on item -> Browse to asset (or `C-b`)
+- [[video:~/Computer/graphics/Ulibarri-Unreal_Engine_5_C++_The_Ultimate_Game_Developer/2. Realistic Landscapes/5. 11 - Landscape Material.mp4#0:00:55][0:00:55]] Access material from details panel, press Browse icon in materials section (Directory with search icon)
+- [[video:~/Computer/graphics/Ulibarri-Unreal_Engine_5_C++_The_Ultimate_Game_Developer/2. Realistic Landscapes/5. 11 - Landscape Material.mp4#0:01:09][0:01:09]] Access material from static mesh editor (same as before)
+- [[video:~/Computer/graphics/Ulibarri-Unreal_Engine_5_C++_The_Ultimate_Game_Developer/2. Realistic Landscapes/5. 11 - Landscape Material.mp4#0:01:28][0:01:28]] Double click on material in Content Drawer to open Material Graph
+- [[video:~/Computer/graphics/Ulibarri-Unreal_Engine_5_C++_The_Ultimate_Game_Developer/2. Realistic Landscapes/5. 11 - Landscape Material.mp4#0:01:39][0:01:39]] Main material node group all subnodes
+- [[video:~/Computer/graphics/Ulibarri-Unreal_Engine_5_C++_The_Ultimate_Game_Developer/2. Realistic Landscapes/5. 11 - Landscape Material.mp4#0:04:34][0:04:34]] Import material from Quixel Bridge (Surfaces -> Sand -> Rippled Sand/Bright Sand)
+- [[video:~/Computer/graphics/Ulibarri-Unreal_Engine_5_C++_The_Ultimate_Game_Developer/2. Realistic Landscapes/5. 11 - Landscape Material.mp4#0:05:30][0:05:30]] Import ground -> Ground -> Forest -> Rockly Soil Ground, Dried grass on moss
+- [[video:~/Computer/graphics/Ulibarri-Unreal_Engine_5_C++_The_Ultimate_Game_Developer/2. Realistic Landscapes/5. 11 - Landscape Material.mp4#0:06:07][0:06:07]] Import -> Rock -> Canyon Sandstone Rock, Canyon Rocky ground (variations)
+- [[video:~/Computer/graphics/Ulibarri-Unreal_Engine_5_C++_The_Ultimate_Game_Developer/2. Realistic Landscapes/5. 11 - Landscape Material.mp4#0:07:00][0:07:00]] Materials appear in Surfaces directory
+- [[video:~/Computer/graphics/Ulibarri-Unreal_Engine_5_C++_The_Ultimate_Game_Developer/2. Realistic Landscapes/5. 11 - Landscape Material.mp4#0:07:27][0:07:27]] Materials has base color, normal and mask textures
+- [[video:~/Computer/graphics/Ulibarri-Unreal_Engine_5_C++_The_Ultimate_Game_Developer/2. Realistic Landscapes/5. 11 - Landscape Material.mp4#0:07:41][0:07:41]] Create Landscape directory for materials
+- [[video:~/Computer/graphics/Ulibarri-Unreal_Engine_5_C++_The_Ultimate_Game_Developer/2. Realistic Landscapes/5. 11 - Landscape Material.mp4#0:08:12][0:08:12]] Create material, by RMB -> Create material. Use `M_` prefix for material.
