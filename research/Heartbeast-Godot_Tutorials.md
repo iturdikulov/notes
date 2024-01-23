@@ -5,6 +5,7 @@ tags:
   - computer_graphics
   - spaced_repetition
   - game
+directory: ~/Computer/graphics/Heartbeast-Godot_Tutorials/
 ---
 
 ## Galaxy Defiance

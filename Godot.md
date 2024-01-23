@@ -1,7 +1,6 @@
 ---
 date: 2023-05-04
-external:
-  - https://www.godotengine.org/
+external: https://www.godotengine.org/
 sr-due: 2024-04-13
 sr-ease: 270
 sr-interval: 193
@@ -31,6 +30,7 @@ prototypes.
 - [ ] [godotengine/godot-demo-projects: Demonstration and Template Projects](https://github.com/godotengine/godot-demo-projects)
 - [ ] [gdquest-demos/godot-4-3d-third-person-controller: Godot 4 demo with a plug-and-play 3D Third-Person Shooter (TPS) character controller inspired by games like Ratchet and Clank.](https://github.com/gdquest-demos/godot-4-3d-third-person-controller)
 - [ ] [Godot 3 Tutorial Series - YouTube](https://www.youtube.com/playlist?list=PLda3VoSoc_TSBBOBYwcmlamF1UrjVtccZ)
+- [ ] [[research/Heartbeast-Godot_Tutorials]]
 - [ ] [[research/HK-SHAO-Godot_Raytracing_Demo]]
 - [ ] [[research/GDQuest_Team-Godot_Courses]]
 - [ ] [[research/Manzur_and_Marques-Godot_Engine_Game_Development]]
