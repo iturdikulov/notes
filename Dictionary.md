@@ -236,3 +236,4 @@ meaning of words.
 - falloff
 - ramp
 - along
+- запас
