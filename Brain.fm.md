@@ -5,10 +5,12 @@ sr-due: 2024-01-17
 sr-ease: 290
 sr-interval: 245
 tags:
-- inbox
+  - inbox
+  - productivity
 ---
 
 # Brain.fm
 
-Brain.fm makes [[My_Music]] (use some scientific research) to help you do what
-you need to do, better. Music genres: focus, relax, and sleep.
+> Use Brain.fm's functional [[My_Music|music]] to help you focus relax and sleep
+> better, using cutting edge neuroscience to get results.\
+> — <cite>[Brain.fm](https://www.brain.fm/)</cite>
