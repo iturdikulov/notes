@@ -3,9 +3,10 @@ date: 2023-03-06
 sr-due: 2023-08-02
 sr-ease: 230
 sr-interval: 77
-tags:
-- inbox
 directory: ~/Science/math/
+tags:
+  - inbox
+  - mathematics
 ---
 
 # Mathematics
@@ -25,9 +26,9 @@ directory: ~/Science/math/
 > - Change: how things become different. This subfield is usually called
 >   analysis.
 > - Applied math is useful for solving problems in the real world. People
->   working in business, science, engineering, and construction use mathematics.
-TODO: add source
+>   working in business, science, engineering, and construction use
+>   mathematics.\
+> — <cite>[Simple English Wikipedia](https://simple.wikipedia.org/wiki/Mathematics)</cite>
 
-## Resources
-
-- [[How_I_learn_mathematics]]
+I have [[How_I_learn_mathematics|learning plan]] to understand mathematics
+better and use in my life and work.
