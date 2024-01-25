@@ -11,6 +11,14 @@ list where length(file.tags) = 0
 sort file.name asc
 ```
 
+# No Inbox tag
+
+```dataview
+list where !contains(file.tags, "inbox")
+
+sort file.name asc
+```
+
 # Incorrect tags
 
 ```dataview

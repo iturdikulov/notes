@@ -1,9 +1,12 @@
 ---
-author: Dane Hillard
-external: https://realpython.com/pytest-python-testing/
+author:
+  - Dane Hillard
+external:
+  - https://realpython.com/pytest-python-testing/
 tags:
   - research
   - SR_programming
+  - inbox
 directory: ~/Computer/programming/Hillard-Testing_With_Pytest
 ---
 

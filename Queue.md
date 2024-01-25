@@ -40,9 +40,9 @@ tags:
 | Insert    | O(1)    | O(1)       |
 | Delete    | O(1)    | O(1)       |
 
-![](./img/queue.excalidraw.svg)
+![[img/queue.md]]
 _Representation of a FIFO queue_
 
 ## Resources
 
-- [ ] [Queues - Basic Data Structures | Coursera](https://www.coursera.org/lecture/data-structures/queues-EShpq)
+- [ ] [Queues - Basic Data Structures](https://www.coursera.org/lecture/data-structures/queues-EShpq)

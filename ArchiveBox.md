@@ -1,8 +1,10 @@
 ---
 date: 2023-08-26
-external: https://archivebox.io/
+external:
+  - https://archivebox.io/
 tags:
   - SR_software
+  - inbox
 ---
 
 # ArchiveBox

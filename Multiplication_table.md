@@ -3,6 +3,7 @@ date: 2022-01-01
 tags:
   - outline
   - SR_mathematics
+  - inbox
 ---
 
 # Multiplication table

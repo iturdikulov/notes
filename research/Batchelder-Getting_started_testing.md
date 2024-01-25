@@ -1,11 +1,13 @@
 ---
-author: Ned Batchelder
+author:
+  - Ned Batchelder
 date: 2014-04-24
 external:
   - https://www.youtube.com/watch?v=FxSsnHeWQBY
 tags:
   - research
   - SR_programming
+  - inbox
 ---
 
 # Getting Started Testing - PyCon 2014

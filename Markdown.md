@@ -3,7 +3,7 @@ date: 2023-03-13
 tags:
   - outline
   - SR_productivity
-  - SR_development
+  - inbox
 ---
 
 > Markdown is a text-to-HTML conversion tool for web writers. Markdown allows

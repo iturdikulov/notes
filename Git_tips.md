@@ -3,6 +3,7 @@ date: 2023-03-31
 tags:
   - outline
   - SR_development
+  - inbox
 ---
 
 # Git tips

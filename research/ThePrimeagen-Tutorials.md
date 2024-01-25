@@ -1,12 +1,13 @@
 ---
-author: ThePrimeagen
+author:
+  - ThePrimeagen
 external:
   - https://www.youtube.com/@ThePrimeagen/videos
 date: 2023-08-15
 tags:
   - research
   - SR_vim
-  - SR_programming
+  - inbox
 directory: ~/Computer/programming/ThePrimeagen-Tutorials/
 ---
 

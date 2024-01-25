@@ -6,6 +6,9 @@ tags:
 
 # Cooking
 
+Significant part of my [[In_real_life_IRL|life]] is cooking. I like to cook
+**sometimes**.
+
 - [ ] [Собираем ПП продукты на неделю! / Как питаться дёшево и полезно? - YouTube](https://www.youtube.com/watch?v=ONffRw8rxVA)
 
 ## Resources

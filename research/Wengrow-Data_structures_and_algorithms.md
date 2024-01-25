@@ -1,11 +1,13 @@
 ---
-author: Jay Wengrow
+author:
+  - Jay Wengrow
 date: 2020
 external:
   - https://pragprog.com/titles/jwdsal2
 tags:
   - research
   - SR_computer_science
+  - inbox
 directory: ~/Computer/science/Wengrow-Data_structures_and_algorithms/
 ---
 

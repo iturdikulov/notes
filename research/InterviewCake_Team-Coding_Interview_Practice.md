@@ -1,8 +1,12 @@
 ---
 tags:
-  - "research"
-author: InterviewCake Team
-external: "https://www.interviewcake.com/table-of-contents"
+  - research
+  - SR_computer_science
+  - inbox
+author:
+  - InterviewCake Team
+external:
+  - https://www.interviewcake.com/table-of-contents
 directory: ~/Computer/science/InterviewCake_Team-Coding_Interview_Practice
 ---
 

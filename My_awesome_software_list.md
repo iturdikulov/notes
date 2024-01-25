@@ -3,6 +3,7 @@ date: 2023-03-12
 tags:
   - outline
   - SR_software
+  - inbox
 ---
 
 # My awesome software list

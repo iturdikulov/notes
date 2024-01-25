@@ -3,6 +3,7 @@ date: 2023-06-04
 tags:
   - outline
   - SR_vim
+  - inbox
 ---
 
 # Vimium - The Hacker's Browser

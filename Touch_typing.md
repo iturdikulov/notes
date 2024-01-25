@@ -2,6 +2,8 @@
 date: 2023-03-12
 tags:
   - outline
+  - SR_productivity
+  - inbox
 ---
 
 # Touch typing

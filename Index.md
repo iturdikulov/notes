@@ -2,6 +2,7 @@
 date: 2023-03-09
 tags:
   - outline
+  - inbox
 ---
 
 # Inom's daily notes

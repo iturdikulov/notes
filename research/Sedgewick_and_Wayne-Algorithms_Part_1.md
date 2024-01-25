@@ -1,7 +1,10 @@
 ---
 tags:
-  - "research"
-author: Robert Sedgewick; Kevin Wayne
+  - research
+  - SR_computer_science
+  - inbox
+author:
+  - Robert Sedgewick; Kevin Wayne
 directory: ~/Computer/science/Sedgewick_and_Wayne-Algorithms_Part_1
 ---
 

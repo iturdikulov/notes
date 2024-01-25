@@ -27,5 +27,5 @@ tags:
 | Insert    | Θ(1)    | O(n)       |
 | Delete    | Θ(1)    | O(n)       |
 
-![Hash table](./img/hash_table.excalidraw.svg)
+![[img/hash_table.md]]
 _A small phone book as a hash table_

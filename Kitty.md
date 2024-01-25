@@ -3,8 +3,9 @@ external:
   - https://sw.kovidgoyal.net/kitty/
 date: 2023-04-05
 tags:
-  - SR_development
-  - SR_software
+  - inbox
+  - archive
+  - SR_productivity
 ---
 
 # Kitty (terminal emulator)

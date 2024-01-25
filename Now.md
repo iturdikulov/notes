@@ -3,6 +3,7 @@ date: 2023-05-14
 tags:
   - outline
   - SR_productivity
+  - inbox
 ---
 
 # Now

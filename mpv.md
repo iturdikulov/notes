@@ -1,8 +1,8 @@
 ---
 date: 2022-12-29
 tags:
-  - SR_software
   - SR_productivity
+  - inbox
 ---
 
 # mpv

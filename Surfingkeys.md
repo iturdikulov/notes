@@ -6,6 +6,7 @@ tags:
   - outline
   - SR_vim
   - archive
+  - inbox
 ---
 
 # Surfingkeys
