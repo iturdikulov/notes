@@ -3,6 +3,9 @@ date: 2023-09-15
 tags:
   - inbox
 external: https://calibre-ebook.com/
+sr-due: 2024-01-29
+sr-interval: 4
+sr-ease: 277
 ---
 
 # Calibre (software)

@@ -4,9 +4,9 @@ tags:
   - inbox
   - SR_art
   - bridge
-sr-due: 2024-01-29
-sr-interval: 4
-sr-ease: 270
+sr-due: 2024-01-27
+sr-interval: 2
+sr-ease: 250
 ---
 
 # Media (communication)
@@ -27,3 +27,9 @@ sr-ease: 270
 - [[My_Movies]]
 - [[My_Pictures]]
 - [[Comics]]
+- TODO: link to software
+
+## Multimedia formats
+
+- [[MP4]]
+- [[GIF]]

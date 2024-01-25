@@ -236,6 +236,8 @@ enabling `Mark modified`).
 
 - [ ] generate test, AI-test generate?
 
+- [x] run current file using [[Sniprun]]
+
 - [ ] run group of tests, pytest cwd?
 
 - [ ] CI/Reporting workflow

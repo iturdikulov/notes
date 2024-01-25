@@ -3,6 +3,9 @@ date: 2023-11-09
 tags:
   - inbox
   - SR_development
+sr-due: 2024-01-27
+sr-interval: 2
+sr-ease: 249
 ---
 
 # Brute-force attack

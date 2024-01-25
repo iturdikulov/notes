@@ -4,7 +4,7 @@ tags:
   - inbox
 sr-due: 2024-01-26
 sr-interval: 1
-sr-ease: 230
+sr-ease: 190
 ---
 
 # Computer

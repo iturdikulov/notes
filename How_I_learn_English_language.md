@@ -21,7 +21,7 @@ etc.).
 
 Fundamentals of English grammar:
 
-- [ ] SPaG, build own cheat sheet (check inbox), learn basic concepts.
+- [ ] [[img/Spelling_punctuation_and_grammar_SPAG]], need to lean concepts
 - [ ] [[research/Петров-Полиглот]]
 - [[research/Черниховская-English_Start-up]]
 - [[research/Murphy_Essential_Grammar_in_Use_Elementary]]

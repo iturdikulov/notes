@@ -18,7 +18,7 @@ tags:
 
 ![Currd pankekes](./img/curd_pancakes.jpg)
 
-## Learn how to cook
+## Learn how to [[Cooking|cook]] them
 
 - [ ] [Лучшие Сырники](https://www.youtube.com/watch?app=desktop&v=qg4D7NFtTeI#dialog)
 - [ ] [СЕКРЕТ СЫРНИКОВ ☆ Как в РЕСТОРАНЕ](https://www.youtube.com/watch?app=desktop&v=o-J33AkQja4)

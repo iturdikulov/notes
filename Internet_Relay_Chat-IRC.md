@@ -3,6 +3,9 @@ date: 2023-06-04
 tags:
   - inbox
   - SR_IRL
+sr-due: 2024-01-28
+sr-interval: 3
+sr-ease: 250
 ---
 
 # Internet Relay Chat (IRC)

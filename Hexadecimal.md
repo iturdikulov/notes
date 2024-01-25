@@ -2,9 +2,9 @@
 date: 2023-08-26
 tags:
   - inbox
-sr-due: 2024-01-28
-sr-interval: 3
-sr-ease: 260
+sr-due: 2024-02-05
+sr-interval: 11
+sr-ease: 280
 ---
 
 # Hexadecimal

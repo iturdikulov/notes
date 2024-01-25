@@ -4,6 +4,9 @@ tags:
   - inbox
   - SR_IRL
 directory: ~/Work/
+sr-due: 2024-01-26
+sr-interval: 1
+sr-ease: 220
 ---
 
 # Work (human activity)

@@ -2,6 +2,9 @@
 date: 2022-12-29
 tags:
   - inbox
+sr-due: 2024-01-28
+sr-interval: 3
+sr-ease: 267
 ---
 
 # PEP20 - The Zen of Python
