@@ -3,6 +3,9 @@ date: 2023-04-29
 external: https://onlykey.io/
 tags:
   - inbox
+sr-due: 2024-01-26
+sr-interval: 1
+sr-ease: 230
 ---
 
 # Onlykey

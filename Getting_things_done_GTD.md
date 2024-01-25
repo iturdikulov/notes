@@ -4,6 +4,9 @@ author: David Allen
 tags:
   - inbox
   - SR_productivity
+sr-due: 2024-01-26
+sr-interval: 1
+sr-ease: 229
 ---
 
 # Getting Things Done (GTD)

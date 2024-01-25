@@ -4,6 +4,9 @@ date: 2023-03-12
 tags:
   - inbox
   - SR_software
+sr-due: 2024-01-27
+sr-interval: 2
+sr-ease: 247
 ---
 
 # ChatGPT, short for Chat Generative Pre-trained Transformer

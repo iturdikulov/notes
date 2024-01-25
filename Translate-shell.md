@@ -3,6 +3,9 @@ date: 2023-08-05
 tags:
   - inbox
   - SR_english
+sr-due: 2024-01-27
+sr-interval: 2
+sr-ease: 247
 ---
 
 # Translate-shell

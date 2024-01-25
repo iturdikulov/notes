@@ -4,6 +4,9 @@ external: https://colemakmods.github.io/mod-dh/
 archive: true
 tags:
   - inbox
+sr-due: 2024-01-29
+sr-interval: 4
+sr-ease: 274
 ---
 
 # Colemak Mod-DH

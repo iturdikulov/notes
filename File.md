@@ -4,6 +4,9 @@ tags:
   - inbox
   - SR_software
 directory: ~/Computer/data/files_samples
+sr-due: 2024-01-29
+sr-interval: 4
+sr-ease: 272
 ---
 
 # File

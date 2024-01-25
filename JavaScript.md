@@ -2,6 +2,9 @@
 date: 2023-10-06
 tags:
   - inbox
+sr-due: 2024-01-26
+sr-interval: 1
+sr-ease: 223
 ---
 
 # JavaScript (dialect of ECMAScript), often abbreviated as JS

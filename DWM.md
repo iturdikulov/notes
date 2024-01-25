@@ -6,6 +6,9 @@ tags:
 external:
   - https://github.com/bakkeby/dwm-flexipatch
 directory: ~/Computer/software/dwm-flexipatch/
+sr-due: 2024-01-28
+sr-interval: 3
+sr-ease: 257
 ---
 
 # dwm (dynamic window manager)
