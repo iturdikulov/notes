@@ -1,11 +1,9 @@
 ---
 date: 2023-03-18
-sr-due: 2023-08-11
-sr-ease: 250
-sr-interval: 86
 tags:
-- inbox
-- computer_science
+  - inbox
+  - computer_science
+  - mathematics
 ---
 
 # Algorithm

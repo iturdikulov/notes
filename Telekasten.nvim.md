@@ -2,9 +2,6 @@
 external:
   - https://github.com/renerocksai/telekasten.nvim
 date: 2023-04-06
-sr-due: 2025-03-14
-sr-ease: 292
-sr-interval: 528
 tags:
   - inbox
   - software

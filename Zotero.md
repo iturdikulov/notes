@@ -3,10 +3,12 @@ external: https://www.zotero.org/
 date: 2023-01-27
 archive: true
 tags:
-- software
+  - software
 ---
 
 # Zotero Research Assistant
+
+TODO: add term
 
 ![](./img/Zotero-5-macOS-Screenshot@2x.png)
 _Zotero main window_

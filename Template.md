@@ -4,9 +4,6 @@ tags:
   - inbox
 directory: ~/Templates/
 external: https://en.wikipedia.org/wiki/Template
-sr-due: 2023-10-07
-sr-interval: 4
-sr-ease: 270
 ---
 
 # Template

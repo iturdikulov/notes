@@ -1,10 +1,7 @@
 ---
 date: 2022-12-29
-sr-due: 2023-07-31
-sr-ease: 230
-sr-interval: 75
 tags:
-- inbox
+  - inbox
 ---
 
 # Number
@@ -31,6 +28,7 @@ tags:
 > Mathematics is a way to use numbers to learn about the world and make things.
 > The study of the rules of the natural world is called science. The work that
 > uses numbers to make things is called engineering.
+TODO: add source
 
 ## Types of numbers
 

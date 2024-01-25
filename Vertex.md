@@ -1,11 +1,8 @@
 ---
 date: 2023-07-20
-sr-due: 2023-08-25
-sr-ease: 224
-sr-interval: 1
 tags:
-- inbox
-- computer_graphics
+  - inbox
+  - computer_graphics
 ---
 
 # Vertex (computer graphics)

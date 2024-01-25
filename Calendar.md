@@ -1,10 +1,7 @@
 ---
 date: 2023-03-12
-sr-due: 2023-12-24
-sr-ease: 270
-sr-interval: 221
 tags:
-- inbox
+  - inbox
 ---
 
 # Calendar

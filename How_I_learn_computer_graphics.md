@@ -1,16 +1,13 @@
 ---
 date: 2023-03-13
-sr-due: 2024-03-16
-sr-ease: 250
-sr-interval: 3
 tags:
-- inbox
-- outline
+  - inbox
+  - outline
 ---
 
 # How I learn computer graphics
 
-My outline for learning [[Computer_graphics]].
+My outline for learning [[Computer_graphics|computer graphics]].
 
 TODO: better group resources, add software section
 

@@ -4,9 +4,6 @@ tags:
   - inbox
   - IRL
 external: https://based.cooking/pan-pizza/
-sr-due: 2023-10-04
-sr-interval: 1
-sr-ease: 232
 ---
 
 # Pan Pizza

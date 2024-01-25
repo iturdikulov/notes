@@ -1,13 +1,7 @@
 ---
 date: 2023-04-17
-sr-due: 2023-05-21
-sr-ease: 277
-sr-interval: 4
 tags:
-- inbox
-sr-due: 2024-04-17
-sr-interval: 197
-sr-ease: 277
+  - inbox
 ---
 
 # Internet Protocol

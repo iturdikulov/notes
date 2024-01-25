@@ -1,11 +1,8 @@
 ---
 date: 2022-12-29
-sr-due: 2023-12-05
-sr-ease: 270
-sr-interval: 202
 tags:
-- inbox
-- art
+  - inbox
+  - art
 ---
 
 # Art

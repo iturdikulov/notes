@@ -1,9 +1,6 @@
 ---
 external: https://sw.kovidgoyal.net/kitty/
 date: 2023-04-05
-sr-due: 2023-06-17
-sr-ease: 270
-sr-interval: 4
 tags:
   - development
   - software

@@ -1,10 +1,7 @@
 ---
 date: 2023-03-06
-sr-due: 2023-11-07
-sr-ease: 230
-sr-interval: 174
 tags:
-- inbox
+  - inbox
 directory: ~/Arts_and_Entertainment/russian/
 ---
 

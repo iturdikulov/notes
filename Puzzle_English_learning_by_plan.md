@@ -1,11 +1,8 @@
 ---
 date: 2023-03-14
-sr-due: 2023-12-08
-sr-ease: 250
-sr-interval: 205
 tags:
-- inbox
-- english
+  - inbox
+  - english
 ---
 
 # Puzzle English learning by plan

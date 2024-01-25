@@ -1,11 +1,8 @@
 ---
 date: 2023-06-16
-sr-due: 2023-08-25
-sr-ease: 230
-sr-interval: 1
 tags:
-- inbox
-- software
+  - inbox
+  - software
 ---
 
 # FFmpeg - A complete, cross-platform solution to record, convert and stream audio and video.

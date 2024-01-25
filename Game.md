@@ -1,10 +1,7 @@
 ---
 date: 2022-12-29
-sr-due: 2024-01-21
-sr-ease: 290
-sr-interval: 249
 tags:
-- inbox
+  - inbox
 ---
 
 # Game

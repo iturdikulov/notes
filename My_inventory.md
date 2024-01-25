@@ -1,11 +1,8 @@
 ---
-date: '2022-12-28'
-sr-due: 1678982400
-sr-ease: 270
-sr-interval: 4
+date: 2022-12-28
 tags:
-- inbox
-- outline
+  - inbox
+  - outline
 ---
 
 # My Inventory

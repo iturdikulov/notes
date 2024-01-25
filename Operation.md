@@ -1,19 +1,17 @@
 ---
 date: 2023-03-18
-sr-due: 2023-12-20
-sr-ease: 270
-sr-interval: 217
 tags:
-- inbox
-- mathematics
+  - inbox
+  - mathematics
+  - spaced_repetition
 ---
 
 # Operation (mathematics)
 
-> In [[Mathematics|mathematics]], an ==operation== is a [[Function|function ]]
+> In [[Mathematics|mathematics]], an operation is a [[Function|function]]
 > which takes zero or more input values (also called "[[Operand|operands]]" or
 > "arguments") to a well-defined output value. The number of operands is the
-> arity of the operation.
+> ==arity of the operation==.
 >
 > The most commonly studied operations are binary operations (i.e., operations
 > of arity 2), such as addition and multiplication, and unary operations (i.e.,

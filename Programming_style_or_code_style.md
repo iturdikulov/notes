@@ -1,11 +1,8 @@
 ---
 date: 2023-03-18
 tags:
-- inbox
-- programming
-sr-due: 2023-10-06
-sr-interval: 3
-sr-ease: 255
+  - inbox
+  - programming
 ---
 
 # Programming style (code style)
@@ -15,13 +12,12 @@ sr-ease: 255
 > particular programming style will help
 > [[Programmer|programmers]] read and understand
 > [[Source_code|source_code]] conforming to the style, and help to avoid
-> introducing errors.\
+> introducing errors.
 >
 > A classic work on the subject was
 > [[research/Kernighan_and_Plauger-The_Elements_of_Programming_Style|The Elements of Programming Style]]
-> , written in the 1970s, and illustrated with examples from the Fortran and
-> PL/I languages prevalent at the time.
->
+> , written in the 1970s, and illustrated with examples from the FORTRAN and
+> PL/I languages prevalent at the time.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Programming_style)</cite>
 
 My first experience with code style was while I learned basics of web

@@ -1,8 +1,5 @@
 ---
 date: 2023-03-12
-sr-due: 2024-03-19
-sr-ease: 288
-sr-interval: 247
 tags:
   - inbox
   - outline
@@ -128,6 +125,7 @@ large software list, which I use for my work and personal life.
 
 ## Resources
 
+- [Wikiversity](https://www.wikiversity.org/)
 - [Udemy](https://www.udemy.com/)
 - [edX](https://www.edx.org/)
 - [Coursera](https://www.coursera.org/)

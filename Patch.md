@@ -1,16 +1,15 @@
 ---
 date: 2023-03-12
-sr-due: 2024-01-23
-sr-ease: 290
-sr-interval: 251
 tags:
-- inbox
-- software
+  - inbox
+  - software
 ---
 
 # Patch (Unix)
 
 Patch - apply a diff file to an original file.
+
+TODO: term/source?
 
 It's widely used to update the source code of a program, for example it's
 official method to patch DWM and other suckless software.

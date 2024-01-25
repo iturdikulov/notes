@@ -1,13 +1,7 @@
 ---
 date: 2023-04-18
-sr-due: 2023-05-28
-sr-ease: 288
-sr-interval: 11
 tags:
-- inbox
-sr-due: 2025-04-17
-sr-interval: 561
-sr-ease: 308
+  - inbox
 ---
 
 # Lists

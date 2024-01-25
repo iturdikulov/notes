@@ -1,13 +1,7 @@
 ---
 date: 2023-04-18
-sr-due: 2023-05-21
-sr-ease: 272
-sr-interval: 4
 tags:
-- inbox
-sr-due: 2024-04-20
-sr-interval: 199
-sr-ease: 272
+  - inbox
 ---
 
 # Biology

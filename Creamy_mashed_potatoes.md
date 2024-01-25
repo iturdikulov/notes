@@ -1,11 +1,8 @@
 ---
 date: 2023-03-11
-sr-due: 2024-01-23
-sr-ease: 290
-sr-interval: 251
 tags:
-- inbox
-- IRL
+  - inbox
+  - IRL
 ---
 
 # Creamy Mashed Potatoes

@@ -1,10 +1,7 @@
 ---
-date: '2022-12-28'
-sr-due: 1678723200
-sr-ease: 230
-sr-interval: 1
+date: 2022-12-28
 tags:
-- inbox
+  - inbox
 ---
 
 # Negentropy

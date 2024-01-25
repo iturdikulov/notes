@@ -3,9 +3,6 @@ date: 2023-09-15
 tags:
   - inbox
 directory: ~/Computer/graphics/3D_models
-sr-due: 2023-10-06
-sr-interval: 3
-sr-ease: 268
 ---
 
 # 3D modeling
@@ -22,4 +19,3 @@ sr-ease: 268
 > modeling), or by scanning. Their surfaces may be further defined with texture
 > mapping.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/3D_modeling)</cite>
-

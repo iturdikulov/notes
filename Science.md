@@ -1,11 +1,8 @@
 ---
 date: 2023-04-16
-sr-due: 2023-09-07
-sr-ease: 249
-sr-interval: 14
-tags:
-- inbox
 directory: ~/Science/
+tags:
+  - inbox
 ---
 
 # Science
@@ -30,8 +27,8 @@ directory: ~/Science/
 > suggest another answer. They may do more experiments. Anything in science
 > might be revised if we find out the previous solution was not good enough.
 >
-> In other words science is what we do to find out about the natural world.
-> TODO: add link
+> In other words science is what we do to find out about the natural world.\
+> — <cite>[Simple English Wikipedia](https://simple.wikipedia.org/wiki/Science)</cite>
 
 ## Popular science
 

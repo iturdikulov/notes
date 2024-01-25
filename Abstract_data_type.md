@@ -1,10 +1,7 @@
 ---
 date: 2023-05-18
-sr-due: 2023-06-08
-sr-ease: 150
-sr-interval: 3
 tags:
-- inbox
+  - inbox
 ---
 
 # Abstract data type (ADT)

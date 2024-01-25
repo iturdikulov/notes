@@ -1,15 +1,9 @@
 ---
 external: https://www.ventoy.net/en/index.html
 date: 2023-05-20
-sr-due: 2023-06-09
-sr-ease: 276
-sr-interval: 4
 tags:
-- inbox
-- software
-sr-due: 2025-01-12
-sr-interval: 466
-sr-ease: 296
+  - inbox
+  - software
 ---
 
 # Ventoy

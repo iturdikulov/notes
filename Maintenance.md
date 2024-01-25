@@ -1,11 +1,9 @@
 ---
 date: 2023-03-12
-sr-due: 2024-01-29
-sr-ease: 290
-sr-interval: 257
 tags:
-- inbox
-- outline
+  - inbox
+  - outline
+  - productivity
 ---
 
 # Maintenance
@@ -71,6 +69,12 @@ clean-up.
 support audio to text conversion or build some workflow.
 - RNR tasks in [[Taskwarrior|taskwarrior]] and `project:inbox` tasks. Handled by
 taskwarrior CLI.
+- [[How_do_I_sync_my_data|Sync my data]].
+
+## Wiki clean-up, find "bad files" with [[Ripgrep]] commands
+
+- `rg --files-with-matches -U tags\:\\n-|xargs vi`, find incorrect formatting
+tags
 
 ### Related
 

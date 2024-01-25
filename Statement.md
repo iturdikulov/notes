@@ -1,11 +1,8 @@
 ---
 date: 2023-03-21
-sr-due: 2024-01-02
-sr-ease: 270
-sr-interval: 230
 tags:
-- inbox
-- computer_science
+  - inbox
+  - computer_science
 ---
 
 # Statement (computer science)

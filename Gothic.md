@@ -5,9 +5,6 @@ external:
 tags:
   - inbox
   - game
-sr-due: 2027-08-27
-sr-interval: 1421
-sr-ease: 297
 ---
 
 # Gothic

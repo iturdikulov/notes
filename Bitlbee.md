@@ -1,11 +1,8 @@
 ---
 date: 2022-12-29
-sr-due: 2023-12-03
-sr-ease: 270
-sr-interval: 200
 tags:
-- inbox
-- software
+  - inbox
+  - software
 ---
 
 # Bitlbee

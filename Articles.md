@@ -1,14 +1,8 @@
 ---
 date: 2023-04-18
-sr-due: 2023-05-21
-sr-ease: 270
-sr-interval: 4
 tags:
-- inbox
-- outline
-sr-due: 2023-10-24
-sr-interval: 21
-sr-ease: 250
+  - inbox
+  - outline
 ---
 
 # Articles (publishing)

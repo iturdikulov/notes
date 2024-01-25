@@ -1,7 +1,7 @@
 ---
 date: 2023-05-06
 tags:
-- inbox
+  - inbox
 ---
 
 # Handwriting

@@ -4,6 +4,6 @@ tags:
   - inbox
 ---
 
-# Computational problem
+# Command-line interface (CLI)
 
 TODO: add term

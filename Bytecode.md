@@ -1,10 +1,7 @@
 ---
 date: 2022-12-29
-sr-due: 2024-01-10
-sr-ease: 270
-sr-interval: 238
 tags:
-- inbox
+  - inbox
 ---
 
 # Bytecode (portable code or p-code)

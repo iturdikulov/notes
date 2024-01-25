@@ -1,8 +1,5 @@
 ---
 date: 2022-12-29
-sr-due: 2023-12-09
-sr-ease: 244
-sr-interval: 206
 tags:
   - inbox
   - IRL

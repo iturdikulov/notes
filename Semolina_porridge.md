@@ -1,14 +1,8 @@
 ---
 date: 2023-04-29
-sr-due: 2023-05-21
-sr-ease: 270
-sr-interval: 4
 tags:
-- inbox
-- IRL
-sr-due: 2025-03-07
-sr-interval: 521
-sr-ease: 290
+  - inbox
+  - IRL
 ---
 
 # Semolina Porridge

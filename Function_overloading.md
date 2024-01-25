@@ -1,8 +1,5 @@
 ---
 date: 2023-04-01
-sr-due: 2023-05-21
-sr-ease: 272
-sr-interval: 4
 tags:
   - inbox
   - programming

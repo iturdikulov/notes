@@ -1,13 +1,7 @@
 ---
 date: 2023-04-23
-sr-due: 2023-05-21
-sr-ease: 277
-sr-interval: 4
 tags:
-- inbox
-sr-due: 2025-03-23
-sr-interval: 537
-sr-ease: 297
+  - inbox
 ---
 
 # Smartphone

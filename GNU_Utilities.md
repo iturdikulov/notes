@@ -1,15 +1,9 @@
 ---
 date: 2023-04-19
-sr-due: 2023-05-21
-sr-ease: 280
-sr-interval: 4
 tags:
   - inbox
   - outline
   - software
-sr-due: 2025-04-27
-sr-interval: 566
-sr-ease: 300
 ---
 
 ## GNU Core Utilities

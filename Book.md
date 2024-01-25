@@ -1,13 +1,7 @@
 ---
 date: 2023-04-17
-sr-due: 2023-05-21
-sr-ease: 273
-sr-interval: 4
 tags:
-- inbox
-sr-due: 2025-03-30
-sr-interval: 541
-sr-ease: 293
+  - inbox
 ---
 
 # Book

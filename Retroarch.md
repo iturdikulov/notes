@@ -1,11 +1,8 @@
 ---
 date: 2022-12-29
-sr-due: 2024-01-20
-sr-ease: 294
-sr-interval: 248
 tags:
-- inbox
-- software
+  - inbox
+  - software
 ---
 
 # RetroArch

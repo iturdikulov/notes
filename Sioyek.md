@@ -4,9 +4,6 @@ external: https://sioyek.info/
 tags:
   - inbox
   - development
-sr-due: 2023-08-28
-sr-interval: 1
-sr-ease: 210
 ---
 
 # Sioyek

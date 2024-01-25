@@ -1,10 +1,7 @@
 ---
 date: 2023-04-02
 tags:
-- inbox
-sr-due: 2023-10-06
-sr-interval: 3
-sr-ease: 250
+  - inbox
 ---
 
 # Hidden file and hidden directory (.dotfiles)

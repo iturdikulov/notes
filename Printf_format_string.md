@@ -1,11 +1,8 @@
 ---
 date: 2022-12-29
-sr-due: 2023-12-29
-sr-ease: 268
-sr-interval: 226
 tags:
-- inbox
-- programming
+  - inbox
+  - programming
 ---
 
 # Printf format in C

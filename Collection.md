@@ -1,11 +1,10 @@
 ---
 date: 2023-03-16
-sr-due: 2024-01-05
-sr-ease: 270
-sr-interval: 233
 tags:
-- inbox
-- computer_science
+  - inbox
+  - computer_science
 ---
 
 # Collection (abstract data type)
+
+TODO: add term

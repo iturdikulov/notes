@@ -1,10 +1,7 @@
 ---
-date: '2022-12-28'
-sr-due: 1678809600
-sr-ease: 248
-sr-interval: 2
+date: 2022-12-28
 tags:
-- inbox
+  - inbox
 ---
 
 # Escape sequences

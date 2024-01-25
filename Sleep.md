@@ -1,10 +1,7 @@
 ---
-date: '2023-03-04'
-sr-due: 1678896000
-sr-ease: 250
-sr-interval: 3
+date: 2023-03-04
 tags:
-- inbox
+  - inbox
 ---
 
 # Sleep

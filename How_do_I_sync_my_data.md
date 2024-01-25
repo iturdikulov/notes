@@ -1,10 +1,8 @@
 ---
 date: 2023-07-15
-sr-due: 2023-08-25
-sr-ease: 231
-sr-interval: 1
 tags:
-- inbox
+  - inbox
+  - productivity
 ---
 
 # How do I sync my data (and use it)
@@ -34,3 +32,5 @@ mostly to listen music offline.
 - taskwarrior data ([[Getting_things_done_GTD|GTD]]), managed by taskd server.
 sorted photos, journals, etc.
 - videos are manged by samba server.
+
+Check also [[Maintenance]].

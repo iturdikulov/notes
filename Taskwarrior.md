@@ -1,12 +1,9 @@
 ---
 date: 2023-06-25
 tags:
-- inbox
-- productivity
+  - inbox
+  - productivity
 directory: ~/.task
-sr-due: 2024-02-12
-sr-interval: 131
-sr-ease: 250
 ---
 
 # Taskwarrior
@@ -22,7 +19,7 @@ Features:
 - plain text format (avoid proprietary formats)
 - cross-platform
 - [[Open-source]]
-- [[Command-line_interface]]
+- [[Command-line_interface_CLI]]
 - many extensions and integrations, like Taskwarrior Server and Taskwarrior TUI
 - integrations, most popular Timewarrior and Taskserver, TODO: add note/use it
 

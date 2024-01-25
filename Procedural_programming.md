@@ -1,10 +1,9 @@
 ---
 date: 2023-03-12
-sr-due: 2023-11-27
-sr-ease: 268
-sr-interval: 194
 tags:
-- inbox
+  - inbox
 ---
 
 # Procedural programming
+
+TODO: add term

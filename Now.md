@@ -1,8 +1,8 @@
 ---
 date: 2023-05-14
 tags:
-    - outline
-    - productivity
+  - outline
+  - productivity
 ---
 
 # Now

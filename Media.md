@@ -1,11 +1,8 @@
 ---
 date: 2022-12-29
-sr-due: 2024-01-04
-sr-ease: 270
-sr-interval: 232
 tags:
-- inbox
-- art
+  - inbox
+  - art
 ---
 
 # Media (communication)
@@ -17,7 +14,8 @@ tags:
 > media, and advertising.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Media_\(communication\))</cite>
 
-## Resources
+## My Media
+
 - [[My_Videos]]
 - [[My_Music]]
 - [[My_Games]]

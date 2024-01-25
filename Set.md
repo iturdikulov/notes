@@ -1,11 +1,9 @@
 ---
 date: 2023-04-14
-sr-due: 2023-09-06
-sr-ease: 246
-sr-interval: 13
 tags:
-- inbox
-- computer_science
+  - inbox
+  - computer_science
+  - spaced_repetition
 ---
 
 # Set (abstract data type)

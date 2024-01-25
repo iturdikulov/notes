@@ -1,11 +1,8 @@
 ---
 date: 2023-03-13
-sr-due: 2024-03-16
-sr-ease: 250
-sr-interval: 3
 tags:
-- inbox
-- outline
+  - inbox
+  - outline
 ---
 
 # How I learn mathematics
@@ -25,6 +22,7 @@ List of resources and tips to learn [[Mathematics|mathematics]]
 - [hott](https://hott.zulipchat.com)
 - [artofproblemsolving](https://artofproblemsolving.com/community)
 - [Project Euler](https://projecteuler.net/)
+- [Mathematics - Wikiversity](https://en.wikiversity.org/wiki/Portal:Mathematics)
 
 - [[Multiplication_table]]
 - [Learn Numbers](https://www.mathsisfun.com/numbers/).

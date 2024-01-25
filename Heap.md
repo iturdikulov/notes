@@ -1,11 +1,8 @@
 ---
 date: 2022-12-29
-sr-due: 2024-01-27
-sr-ease: 290
-sr-interval: 255
 tags:
-- inbox
-- computer_science
+  - inbox
+  - computer_science
 ---
 
 # Heap (data structure)

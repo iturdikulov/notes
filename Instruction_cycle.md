@@ -2,9 +2,6 @@
 date: 2023-10-03
 tags:
   - inbox
-sr-due: 2023-10-10
-sr-interval: 7
-sr-ease: 252
 ---
 
 # Instruction_cycle

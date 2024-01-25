@@ -1,10 +1,7 @@
 ---
 date: 2023-03-18
-sr-due: 2024-01-02
-sr-ease: 270
-sr-interval: 230
 tags:
-- inbox
+  - inbox
 ---
 
 # Null function

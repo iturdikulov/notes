@@ -4,9 +4,6 @@ external: https://itexmac.sourceforge.net/SyncTeX.html
 tags:
   - inbox
   - software
-sr-due: 2023-10-06
-sr-interval: 3
-sr-ease: 266
 ---
 
 # SyncTeX

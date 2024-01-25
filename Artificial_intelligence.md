@@ -1,10 +1,7 @@
 ---
 date: 2023-03-11
-sr-due: 2023-11-03
-sr-ease: 230
-sr-interval: 170
 tags:
-- inbox
+  - inbox
 ---
 
 # Artificial intelligence (AI)

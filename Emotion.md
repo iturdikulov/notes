@@ -1,13 +1,7 @@
 ---
 date: 2023-04-17
-sr-due: 2023-05-21
-sr-ease: 279
-sr-interval: 4
 tags:
-- inbox
-sr-due: 2025-03-26
-sr-interval: 540
-sr-ease: 299
+  - inbox
 ---
 
 # Emotion

@@ -1,15 +1,11 @@
 ---
 date: 2023-04-03
-sr-due: 2023-05-21
-sr-ease: 270
-sr-interval: 4
 tags:
-- inbox
-- software
-external: https://www.postgresql.org/
-sr-due: 2023-10-21
-sr-interval: 18
-sr-ease: 250
+  - inbox
+  - software
+  - rnd
+external:
+  - https://www.postgresql.org/
 ---
 
 # PostgreSQL

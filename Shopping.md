@@ -1,11 +1,8 @@
 ---
 date: 2023-03-12
-sr-due: 2024-01-26
-sr-ease: 290
-sr-interval: 254
-tags:
-- inbox
 directory: ~/Shopping/
+tags:
+  - inbox
 ---
 
 # Shopping
@@ -21,7 +18,7 @@ directory: ~/Shopping/
 I rarely go shopping. I prefer to buy things online.
 
 I have [[My_buy_list|buy list]] where I store things I want to buy or what
-required to buy (food, clothes, etc).
+required to buy (food, clothes, etc.).
 
 ## Online shopping sites
 

@@ -1,9 +1,6 @@
 ---
 external: https://github.com/
 date: 2023-03-12
-sr-due: 2024-01-25
-sr-ease: 290
-sr-interval: 253
 tags:
   - inbox
   - development

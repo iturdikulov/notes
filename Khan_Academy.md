@@ -1,11 +1,8 @@
 ---
 external: https://www.khanacademy.org/
-date: '2023-04-16'
-sr-due: 2023-05-29
-sr-ease: 289
-sr-interval: 12
+date: 2023-04-16
 tags:
-- inbox
+  - inbox
 ---
 
 # Khan Academy

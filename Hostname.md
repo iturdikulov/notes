@@ -1,10 +1,7 @@
 ---
-date:  2022-12-29
+date: 2022-12-29
 tags:
   - inbox
-sr-due: 2023-10-07
-sr-interval: 4
-sr-ease: 270
 ---
 
 # Hostname

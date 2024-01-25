@@ -1,8 +1,8 @@
 ---
 date: 2022-01-01
 tags:
-- outline
-- mathematics
+  - outline
+  - mathematics
 ---
 
 # Multiplication table

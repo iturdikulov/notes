@@ -1,13 +1,7 @@
 ---
 date: 2023-03-11
-sr-due: 2023-05-27
-sr-ease: 228
-sr-interval: 10
 tags:
-- inbox
-sr-due: 2024-03-23
-sr-interval: 171
-sr-ease: 228
+  - inbox
 ---
 
 # Readability
@@ -18,12 +12,11 @@ sr-ease: 228
 > are less well known than common words. Rare, difficult words are often longer
 > than common, easy words. How difficult the **sentences** are: this is
 > syntactical difficulty. Long, complicated sentences cause more difficulty than
-> short, simple sentences. --
->
-> [Simple English Wikipedia](https://simple.wikipedia.org/wiki/Readability)
+> short, simple sentences.\
+> — <cite>[Simple English Wikipedia](https://simple.wikipedia.org/wiki/Readability)</cite>
 
 > Readability exists in both natural language and programming languages though
 > in different forms. In programming, things such as programmer comments, choice
 > of loop structure, and choice of names can determine the ease with which
-> humans can read computer program code. --
-> [Wikipedia](https://en.wikipedia.org/wiki/Readability)
+> humans can read computer program code.\
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Readability)</cite>

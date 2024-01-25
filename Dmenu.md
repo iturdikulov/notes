@@ -1,8 +1,5 @@
 ---
 date: 2023-01-01
-sr-due: 2024-02-03
-sr-ease: 310
-sr-interval: 262
 tags:
   - inbox
   - archive

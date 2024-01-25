@@ -1,10 +1,7 @@
 ---
 date: 2023-03-12
-sr-due: 2024-01-22
-sr-ease: 290
-sr-interval: 250
 tags:
-- inbox
+  - inbox
 ---
 
 # Public utility

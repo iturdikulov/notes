@@ -1,11 +1,8 @@
 ---
 date: 2022-12-29
-sr-due: 2023-10-29
-sr-ease: 223
-sr-interval: 165
 tags:
-- inbox
-- programming
+  - inbox
+  - programming
 ---
 
 # C (programming language)

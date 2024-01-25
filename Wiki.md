@@ -1,11 +1,8 @@
 ---
 external: https://en.wikipedia.org/wiki/Wiki
 date: 2023-03-28
-sr-due: 2023-11-18
-sr-ease: 288
-sr-interval: 185
 tags:
-- inbox
+  - inbox
 ---
 
 # Wiki (encyclopedia)
@@ -15,6 +12,7 @@ tags:
 > typical wiki contains multiple pages for the subjects or scope of the project,
 > and could be either open to the public or limited to use within an
 > organization for maintaining its internal knowledge base.
+TODO: add source
 
 Wiki concepts:
 

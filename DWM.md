@@ -1,12 +1,9 @@
 ---
 date: 2022-12-29
-sr-due: 2024-03-17
-sr-ease: 270
-sr-interval: 4
 tags:
-- inbox
-- development
-- software
+  - inbox
+  - development
+  - software
 external: https://github.com/bakkeby/dwm-flexipatch
 directory: ~/Computer/software/dwm-flexipatch/
 ---

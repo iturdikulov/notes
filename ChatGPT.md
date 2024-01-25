@@ -1,12 +1,9 @@
 ---
 external: https://chat.openai.com/chat
 date: 2023-03-12
-sr-due: 2024-01-15
-sr-ease: 288
-sr-interval: 243
 tags:
-- inbox
-- software
+  - inbox
+  - software
 ---
 
 # ChatGPT, short for Chat Generative Pre-trained Transformer

@@ -4,10 +4,7 @@ date: 1995
 tags:
   - inbox
   - manga
-directory: "~/Arts_and_Entertainment/literature/Yasuhiro Nightow/"
-sr-due: 2023-10-17
-sr-interval: 14
-sr-ease: 292
+directory: ~/Arts_and_Entertainment/literature/Yasuhiro Nightow/
 ---
 
 # Trigun

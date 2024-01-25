@@ -1,12 +1,8 @@
 ---
 date: 2022-12-29
-private: true
-sr-due: 2024-01-29
-sr-ease: 290
-sr-interval: 257
 tags:
-- inbox
-- software
+  - inbox
+  - software
 ---
 
 # Self-hosting (web services)
@@ -21,6 +17,9 @@ tags:
 
 For me self-hosting is way to easily share data between devices, and to have
 full control over my data with minimal latency, and maximal speed.
+
+TODO: review this services and maybe add some of them to my self-hosting:
+[envs.net | environments](https://envs.net/)
 
 ## Resources
 

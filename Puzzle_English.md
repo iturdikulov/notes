@@ -1,12 +1,9 @@
 ---
 external: https://puzzle-english.com/
 date: 2022-12-29
-sr-due: 2023-06-14
-sr-ease: 230
-sr-interval: 1
 tags:
-- inbox
-- english
+  - inbox
+  - english
 ---
 
 # Puzzle English

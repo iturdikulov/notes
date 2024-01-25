@@ -1,10 +1,7 @@
 ---
 date: 2023-03-13
-sr-due: 2024-03-16
-sr-ease: 250
-sr-interval: 3
 tags:
-- inbox
+  - inbox
 ---
 
 # Code

@@ -1,11 +1,9 @@
 ---
 date: 2022-12-29
-sr-due: 2023-12-23
-sr-ease: 270
-sr-interval: 220
 tags:
-- inbox
-- computer_science
+  - inbox
+  - computer_science
+  - spaced_repetition
 ---
 
 # Abstract syntax tree

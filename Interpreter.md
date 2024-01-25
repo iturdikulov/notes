@@ -1,14 +1,8 @@
 ---
 date: 2023-05-13
-sr-due: 2023-05-21
-sr-ease: 274
-sr-interval: 4
 tags:
-- inbox
-- development
-sr-due: 2024-04-16
-sr-interval: 196
-sr-ease: 274
+  - inbox
+  - development
 ---
 
 # Interpreter (computing)

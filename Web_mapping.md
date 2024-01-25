@@ -1,11 +1,8 @@
 ---
 date: 2023-03-12
-sr-due: 2024-01-16
-sr-ease: 290
-sr-interval: 244
 tags:
-- inbox
-- development
+  - inbox
+  - development
 ---
 
 # Web mapping (online mapping)
@@ -16,3 +13,4 @@ tags:
 > is both served and consumed, thus, web mapping is more than just web
 > cartography, it is a service where consumers may choose what the map will
 > show.
+TODO: add source

@@ -1,13 +1,10 @@
 ---
 author: Yukito Kishiro
 date: 1990
-directory: "~/Arts_and_Entertainment/literature/Yukito Kishiro/"
+directory: ~/Arts_and_Entertainment/literature/Yukito Kishiro/
 tags:
   - inbox
   - manga
-sr-due: 2023-10-07
-sr-interval: 4
-sr-ease: 272
 ---
 
 # Gunnm aka Battle Angel Alita

@@ -1,13 +1,7 @@
 ---
 date: 2023-04-17
-sr-due: 2023-05-21
-sr-ease: 274
-sr-interval: 4
 tags:
-- inbox
-sr-due: 2025-03-17
-sr-interval: 531
-sr-ease: 294
+  - inbox
 ---
 
 # Computer-aided design (CAD, CADD)

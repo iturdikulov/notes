@@ -3,9 +3,6 @@ date: 2023-09-15
 tags:
   - inbox
 directory: ~/Reference/
-sr-due: 2023-10-08
-sr-interval: 5
-sr-ease: 246
 ---
 
 # Reference

@@ -1,23 +1,19 @@
 ---
 date: 2023-03-12
-sr-due: 2023-12-29
-sr-ease: 270
-sr-interval: 226
 tags:
-- inbox
+  - inbox
+  - spaced_repetition
 ---
 
 # Low-level programming language
-
+?
 > Programming language that involves knowledge of both computer hardware and the
 > coding used to make the computer hardware do actions.
 >
 > The advantage of low-level programming languages compared to high-level
 > programming languages is that they can directly communicate with the computer
-> hardware to do actions.
->
-> --
-> [Simple English Wikipedia](https://simple.wikipedia.org/wiki/Low-level_programming_language)
+> hardware to do actions.\
+> — <cite>[Simple English Wikipedia](https://simple.wikipedia.org/wiki/Low-level_programming_language)</cite>
 
-Usually low-level programming languages are used to speed up execution of
+Usually low-level programming languages are used to ==speed up execution== of
 program, or to make it more efficient.

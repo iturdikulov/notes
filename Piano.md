@@ -1,11 +1,8 @@
 ---
 date: 2023-04-21
-sr-due: 2023-09-09
-sr-ease: 248
-sr-interval: 16
 tags:
-- inbox
-- software
+  - inbox
+  - software
 ---
 
 # Piano
@@ -19,7 +16,16 @@ tags:
 > the year 1700.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Piano)</cite>
 
+## A Visual Guide to Musical Notation
+
+> An ensemble of sonic semiotics, this visual guide to musical notation charts
+> the symbols and ideograms of classical sheet music across a sextet of staff
+> lines.\
+> — <cite>[Popchart](https://popchart.co/products/a-visual-guide-to-musical-notation)</cite>
+![A Visual Guide to Musical Notation](./img/P-MusicNotes_0909_WP_NEWZOOM.webp)
+
 ## Resources
 
+- [[My_Music]]
 - [Virtual Piano - Play The Best Online Piano Keyboard Virtual Piano v1](https://virtualpiano.net)
 - [Virtual Piano | Play the Best Musical Keyboard Online](https://recursivearts.com/virtual-piano/)

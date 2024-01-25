@@ -2,7 +2,7 @@
 date: 2023-06-04
 external: https://github.com/papis/papis
 tags:
-- software
+  - software
 ---
 
 # papis

@@ -1,11 +1,8 @@
 ---
 external: https://www.reddit.com/
 date: 2023-03-12
-sr-due: 2024-01-12
-sr-ease: 290
-sr-interval: 240
 tags:
-- inbox
+  - inbox
 ---
 
 # Reddit

@@ -1,25 +1,18 @@
 ---
 date: 2023-08-20
-sr-due: 2023-08-25
-sr-ease: 230
-sr-interval: 1
 external: https://github.com/Dushistov/sdcv
 tags:
-- inbox
-- software
-sr-due: 2024-02-13
-sr-interval: 132
-sr-ease: 250
+  - inbox
+  - software
 ---
 
 # sdcv
 
 > sdcv is a simple, cross-platform, text-based utility for working with
-dictionaries in StarDict format.\
+> dictionaries in StarDict format.\
 > — <cite>[sdcv](https://github.com/Dushistov/sdcv)</cite>
 
-
-## Ordering
+## Ordering dictionaries
 
 For example, you can run:
 

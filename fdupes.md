@@ -2,9 +2,6 @@
 date: 2023-09-24
 tags:
   - inbox
-sr-due: 2023-10-19
-sr-interval: 16
-sr-ease: 292
 ---
 
 # Fdupes

@@ -1,10 +1,7 @@
 ---
 date: 2023-04-03
-sr-due: 2023-09-08
-sr-ease: 246
-sr-interval: 15
 tags:
-- inbox
+  - inbox
 ---
 
 # Competitive programming (sports programming)

@@ -1,10 +1,7 @@
 ---
 date: 2023-03-21
-sr-due: 2023-08-06
-sr-ease: 250
-sr-interval: 81
 tags:
-- inbox
+  - inbox
 ---
 
 # Programming language
@@ -15,6 +12,8 @@ tags:
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Programming_language)</cite>
 
 ## Programming language which I interested in
+
+TODO: mark high-level languages
 
 - [[Python]]
 - [[C]]

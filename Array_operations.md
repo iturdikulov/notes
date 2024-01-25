@@ -1,8 +1,5 @@
 ---
 date: 2023-06-28
-sr-due: 2023-08-25
-sr-ease: 227
-sr-interval: 1
 tags:
   - inbox
   - computer_science

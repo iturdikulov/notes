@@ -1,11 +1,9 @@
 ---
 date: 2023-08-26
 tags:
-- inbox
-- software
-sr-due: 2023-08-28
-sr-interval: 1
-sr-ease: 230
+  - inbox
+  - software
+  - archive
 ---
 
 # Okular
@@ -17,3 +15,4 @@ sr-ease: 230
 > embedded in other applications.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Okular)</cite>
 
+I mostly use [[Zathura]], which is less feature-rich, but much faster.

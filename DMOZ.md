@@ -3,9 +3,6 @@ date: 2023-09-14
 tags:
   - inbox
 directory: ~/Computer/data/dmoz_category/
-sr-due: 2023-10-06
-sr-interval: 3
-sr-ease: 266
 ---
 
 # DMOZ

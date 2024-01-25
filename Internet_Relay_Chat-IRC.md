@@ -1,11 +1,8 @@
 ---
 date: 2023-06-04
-sr-due: 2023-08-25
-sr-ease: 230
-sr-interval: 1
 tags:
-- inbox
-- IRL
+  - inbox
+  - IRL
 ---
 
 # Internet Relay Chat (IRC)

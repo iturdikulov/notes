@@ -1,10 +1,7 @@
 ---
 date: 2022-12-29
-sr-due: 2023-05-28
-sr-ease: 210
-sr-interval: 11
 tags:
-- inbox
+  - inbox
 ---
 
 # Domain Name System (DNS)

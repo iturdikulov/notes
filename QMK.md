@@ -1,9 +1,9 @@
 ---
 date: 2023-01-28
-tags:
-- inbox
-- software
 directory: ~/Computer/hardware/QMK
+tags:
+  - inbox
+  - software
 ---
 
 # QMK Firmware
@@ -12,6 +12,7 @@ directory: ~/Computer/hardware/QMK
 > powerful, and enjoyable firmware experience for any project - keyboard or
 > otherwise - and to provide helpful, encouraging, and kind support and feedback
 > for people with any software development experience.
+TODO: add source
 
 
 I use QMK on my keyboard (KBD75 rev2). I'have done some basic customizations to

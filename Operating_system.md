@@ -1,13 +1,7 @@
 ---
 date: 2023-04-02
-sr-due: 2023-05-21
-sr-ease: 279
-sr-interval: 4
 tags:
-- inbox
-sr-due: 2024-04-19
-sr-interval: 199
-sr-ease: 279
+  - inbox
 ---
 
 # Operating system
@@ -17,26 +11,21 @@ sr-ease: 279
 > hardware and software resources. It provides common services for computer
 > programs.
 >
-> An OS can be small (like MenuetOS), or large (like Microsoft Windows).
-> Different operating systems can be used for different purposes. Some are used
-> for everyday things like on a personal computer (general-purpose). Others are
-> mobile operating systems or are used for specialized work.
->
-> --
-> [Simple English Wikipedia](https://simple.wikipedia.org/wiki/Operating_system)
+> An OS can be small (like MenuetOS), or large (like Microsoft Windows,
+> GNU/Linux). Different operating systems can be used for different purposes.
+> Some are used for everyday things like on a personal computer
+> (general-purpose). Others are mobile operating systems or are used for
+> specialized work.\
+> — <cite>[Simple English Wikipedia](https://simple.wikipedia.org/wiki/Operating_system)</cite>
 
-My favorite operating systems:
-
-- [[GNU_Linux]] kernel based operating systems
-- [[Android]]
-
-Other operating systems:
-
-- [[Microsoft_Windows]]
+I use the following operating systems:
+- [[GNU_Linux|GNU/Linux]] kernel based operating systems
+- [[Android]] linux kernel based operating system
+- [[Microsoft_Windows|MS Windows]] NT kernel based operating system
 
 ## Resources
 
-- [ ] [Operating Systems: Crash Course Computer Science #18 - YouTube](https://www.youtube.com/watch?v=26QPDBe-NB8)
+- [ ] [Operating Systems: Crash Course Computer Science #18](https://www.youtube.com/watch?v=26QPDBe-NB8)
 - [ ] [Computer Basics: Understanding Operating Systems](https://edu.gcfglobal.org/en/computerbasics/understanding-operating-systems/1/)
-- [ ] [Computer Basics: Understanding Operating Systems - YouTube](https://www.youtube.com/watch?v=fkGCLIQx1MI)
+- [ ] [Computer Basics: Understanding Operating Systems](https://www.youtube.com/watch?v=fkGCLIQx1MI)
 - [ ] [Operating System Tutorial](https://www.guru99.com/os-tutorial.html)

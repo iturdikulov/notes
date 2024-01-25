@@ -1,10 +1,7 @@
 ---
 date: 2022-12-29
-sr-due: 2024-01-15
-sr-ease: 290
-sr-interval: 243
 tags:
-- inbox
+  - inbox
 ---
 
 # Microsoft Windows
@@ -15,7 +12,7 @@ tags:
 > Windows Server for servers, and Windows IoT for embedded systems.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Microsoft_Windows)</cite>
 
-## Windows LTSC Editon
+## Windows LTSC Edition
 
 Windows from Enterprise Long-Term Servicing Channel (LTSC), long-term support
 variant of Windows Enterprise released every 2 to 3 years. Each release is
@@ -28,5 +25,5 @@ currently 4 releases of LTSC: one in 2015 (version 1507), one in 2016 (version
 1607), one in 2018 (labeled as 2019, version 1809), and one in 2021 (version
 21H2). In 2024 planned next release.
 
-Check post-installation steps for Windows, in this note [[Windows_setup_script]],
-her some info which LTSC edition I use.
+Check post-installation steps for Windows, in this note
+[[Windows_setup_script]], her some info which LTSC edition I use.

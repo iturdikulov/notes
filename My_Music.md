@@ -1,12 +1,9 @@
 ---
 date: 2022-12-29
-sr-due: 2023-05-24
-sr-ease: 230
-sr-interval: 7
-tags:
-- inbox
-- outline
 directory: ~/Music/
+tags:
+  - inbox
+  - outline
 ---
 
 # My Music
@@ -16,14 +13,6 @@ directory: ~/Music/
 > Definitions of music vary depending on culture, though it is an aspect of all
 > human societies, a cultural universal.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Music)</cite>
-
-## A Visual Guide to Musical Notation
-
-> An ensemble of sonic semiotics, this visual guide to musical notation charts
-> the symbols and ideograms of classical sheet music across a sextet of staff
-> lines.\
-> — <cite>[Popchart](https://popchart.co/products/a-visual-guide-to-musical-notation)</cite>
-![A Visual Guide to Musical Notation](./img/P-MusicNotes_0909_WP_NEWZOOM.webp)
 
 ## Tracks
 
@@ -315,6 +304,7 @@ directory: ~/Music/
 
 ## Resources
 
+- [[Brain.fm]]
 - [Spotify - Web Player: Music for everyone](https://open.spotify.com/)
 - [Yandex Music](https://music.yandex.ru/home)
 - [MusicBrainz - The Open Music Encyclopedia](https://musicbrainz.org/), useful

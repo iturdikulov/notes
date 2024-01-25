@@ -1,10 +1,7 @@
 ---
 date: 2023-03-21
-sr-due: 2023-12-21
-sr-ease: 270
-sr-interval: 218
 tags:
-- inbox
+  - inbox
 ---
 
 # Public-key cryptography
@@ -36,5 +33,6 @@ Examples of protocols using asymmetric key algorithms include:
 
 ## Resources
 
+- [[GNU_Privacy_Guard_GPG]]
 - [ ] [Public Key Cryptography - Computerphile - YouTube](https://www.youtube.com/watch?v=GSIDS_lvRv4)
 - [ ] [A (relatively easy to understand) primer on elliptic curve cryptography | Ars Technica](https://arstechnica.com/information-technology/2013/10/a-relatively-easy-to-understand-primer-on-elliptic-curve-cryptography/)

@@ -3,9 +3,6 @@ date: 2023-09-15
 tags:
   - inbox
 directory: ~/Documents/
-sr-due: 2023-10-06
-sr-interval: 3
-sr-ease: 268
 ---
 
 # Document

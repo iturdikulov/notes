@@ -1,8 +1,8 @@
 ---
-date: '2023-03-12'
+date: 2023-03-12
 tags:
-- outline
-- software
+  - outline
+  - software
 ---
 
 # My awesome software list

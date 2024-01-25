@@ -3,9 +3,6 @@ date: 2023-10-06
 tags:
   - inbox
   - computer_graphics
-sr-due: 2023-10-07
-sr-interval: 1
-sr-ease: 228
 ---
 
 # Three-dimensional space (3D space, 3-space)

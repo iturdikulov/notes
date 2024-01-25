@@ -1,13 +1,7 @@
 ---
 date: 2023-04-23
-sr-due: 2023-05-21
-sr-ease: 279
-sr-interval: 4
 tags:
-- inbox
-sr-due: 2024-04-18
-sr-interval: 198
-sr-ease: 279
+  - inbox
 ---
 
 # Camera

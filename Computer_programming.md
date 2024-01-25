@@ -1,10 +1,7 @@
 ---
 date: 2023-03-12
-sr-due: 2023-05-26
-sr-ease: 210
-sr-interval: 9
 tags:
-- inbox
+  - inbox
 ---
 
 # Computer programming

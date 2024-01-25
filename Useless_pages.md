@@ -1,10 +1,7 @@
 ---
 date: 2023-03-12
-sr-due: 2023-07-16
-sr-ease: 250
-sr-interval: 3
 tags:
-- inbox
+  - inbox
 ---
 
 # The Useless Pages
@@ -20,16 +17,13 @@ I find them sometimes interesting and fun. Some of them can be source of
 Here you can find random useless page:
 [The Useless Web](https://theuselessweb.com/).
 
-[[Chrome_experiments]] to certain degree can be considered as
+- [NYAN.CAT!](https://www.nyan.cat/index.php?cat=pirate)
+- [Iceberger](https://joshdata.me/iceberger.html).
+- [[Chrome_experiments]] to certain degree can be considered as
 useless pages too, but I'm not sure.
-
-[Iceberger](https://joshdata.me/iceberger.html).
-
-
-## [Neal.fun](https://neal.fun/) projects
-
-- [The Password Game](https://neal.fun/password-game/).
-- [Internet Artifacts](https://neal.fun/internet-artifacts/)
+- [Neal.fun](https://neal.fun/) projects
+  - [The Password Game](https://neal.fun/password-game/).
+  - [Internet Artifacts](https://neal.fun/internet-artifacts/)
 
 
 

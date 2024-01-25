@@ -1,11 +1,8 @@
 ---
 date: 2022-12-29
-sr-due: 2024-01-24
-sr-ease: 290
-sr-interval: 252
 tags:
-- inbox
-- software
+  - inbox
+  - software
 ---
 
 # Computer software

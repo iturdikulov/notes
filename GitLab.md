@@ -1,14 +1,8 @@
 ---
 external: https://gitlab.com/
 date: 2023-03-12
-sr-due: 2023-06-01
-sr-ease: 290
-sr-interval: 15
 tags:
-- inbox
-sr-due: 2025-04-20
-sr-interval: 564
-sr-ease: 310
+  - inbox
 ---
 
 # GitLab

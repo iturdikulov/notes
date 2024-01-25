@@ -1,10 +1,7 @@
 ---
 date: 2023-04-17
-sr-due: 2023-09-07
-sr-ease: 247
-sr-interval: 14
 tags:
-- inbox
+  - inbox
 ---
 
 # Information theory
@@ -16,6 +13,5 @@ tags:
 > compression and data communication. Data compression and data communication
 > are statistical, because they guess unknown values. The amount of information
 > in data measures how easily it is guessed by a person who does not know its
-> value.
->
-> [Simple English Wikipedia](https://simple.wikipedia.org/wiki/Information_theory)
+> value.\
+> — <cite>[Simple English Wikipedia](https://simple.wikipedia.org/wiki/Information_theory)</cite>

@@ -2,9 +2,6 @@
 date: 2023-09-22
 tags:
   - inbox
-sr-due: 2023-10-06
-sr-interval: 3
-sr-ease: 252
 ---
 
 # Computer hardware

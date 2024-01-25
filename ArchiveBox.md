@@ -2,7 +2,7 @@
 date: 2023-08-26
 external: https://archivebox.io/
 tags:
-- software
+  - software
 ---
 
 # ArchiveBox

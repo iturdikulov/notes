@@ -1,10 +1,8 @@
 ---
 date: 2023-03-13
-sr-due: 2023-08-12
-sr-ease: 250
-sr-interval: 87
 tags:
-- inbox
+  - inbox
+  - physics
 ---
 
 # Physics

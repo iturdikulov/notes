@@ -1,18 +1,13 @@
 ---
 date: 2023-04-29
-sr-due: 2023-05-21
-sr-ease: 270
-sr-interval: 4
+external: https://onlykey.io/
 tags:
-- inbox
-sr-due: 2025-03-10
-sr-interval: 524
-sr-ease: 290
+  - inbox
 ---
 
 # Onlykey
 
-> OnlyKey was developed by a team of [[Computer_security|security ]] experts and
+> OnlyKey was developed by a team of [[Computer_security|security]] experts and
 > white hat hackers to stop malicious hackers. One thing hackers and malware on
 > a computer cannot do is physically touch something.
 >
@@ -65,6 +60,8 @@ auth include u2f-sufficient
 auth include u2f-required
 reboot
 ```
+
+TODO: need to ingerate with NixOS, 2 keys (backup).
 
 ## Resources
 

@@ -1,15 +1,9 @@
 ---
 date: 2023-07-23
-sr-due: 2023-08-25
-sr-ease: 232
-sr-interval: 1
 external: https://nixos.org/
 tags:
   - inbox
   - software
-sr-due: 2024-02-15
-sr-interval: 134
-sr-ease: 252
 ---
 
 # NixOS

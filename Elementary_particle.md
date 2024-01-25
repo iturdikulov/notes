@@ -1,10 +1,7 @@
 ---
 date: 2022-12-29
-sr-due: 2023-12-30
-sr-ease: 270
-sr-interval: 227
 tags:
-- inbox
+  - inbox
 ---
 
 # Elementary particles

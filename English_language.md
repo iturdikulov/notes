@@ -1,10 +1,7 @@
 ---
 date: 2023-03-06
-sr-due: 2023-11-02
-sr-ease: 229
-sr-interval: 169
 tags:
-- inbox
+  - inbox
 ---
 
 # English language

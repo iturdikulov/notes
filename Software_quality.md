@@ -2,9 +2,6 @@
 date: 2023-10-03
 tags:
   - inbox
-sr-due: 2023-10-05
-sr-interval: 2
-sr-ease: 238
 ---
 
 # Software quality

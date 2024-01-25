@@ -1,9 +1,6 @@
 ---
 external: 
 date: 2023-04-06
-sr-due: 2025-03-08
-sr-ease: 290
-sr-interval: 522
 tags:
   - inbox
   - software

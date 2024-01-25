@@ -1,13 +1,9 @@
 ---
 date: 2023-04-02
-sr-due: 2023-09-05
-sr-ease: 249
-sr-interval: 12
 tags:
-- inbox
-- outline
-- development
-- software
+  - inbox
+  - development
+  - software
 ---
 
 # Nnn file manager

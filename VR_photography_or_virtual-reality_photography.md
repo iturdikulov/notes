@@ -1,10 +1,7 @@
 ---
 date: 2023-03-12
-sr-due: 2024-01-17
-sr-ease: 290
-sr-interval: 245
 tags:
-- inbox
+  - inbox
 ---
 
 # VR photography (virtual-reality photography)

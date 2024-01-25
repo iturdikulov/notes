@@ -1,19 +1,16 @@
 ---
 date: 2023-03-12
-sr-due: 2024-01-20
-sr-ease: 290
-sr-interval: 248
 tags:
-- inbox
-- IRL
+  - inbox
+  - IRL
 ---
 
 # Government
 
 > A government is the system or group of people governing an organized
-> ==community==, generally a state. In the case of its broad associative
-> definition, government normally consists of **legislature**, **executive**,
-> and **judiciary**. Government is a means by which organizational policies are
+> community, generally a state. In the case of its broad associative definition,
+> government normally consists of **legislature**, **executive**, and
+> **judiciary**. Government is a means by which organizational policies are
 > enforced, as well as a mechanism for determining policy. In many countries,
 > the government has a kind of constitution, a statement of its governing
 > principles and philosophy.\

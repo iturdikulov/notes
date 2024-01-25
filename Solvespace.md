@@ -1,16 +1,13 @@
 ---
 date: 2023-03-16
-sr-due: 2024-01-09
-sr-ease: 270
-sr-interval: 237
 tags:
-- inbox
-- software
+  - inbox
+  - software
 ---
 
 # SolveSpace
 
 Is a free (GPLv3) parametric 3d [[Computer-aided_design|cad]] tool.
+TODO: add source
 
-TODO: watch series
-[SolveSpace](https://www.youtube.com/playlist?list=PLGAjLwYQPgaBafzQTLA84IkTOptOdIsUX)
+TODO: watch series [SolveSpace](https://www.youtube.com/playlist?list=PLGAjLwYQPgaBafzQTLA84IkTOptOdIsUX)

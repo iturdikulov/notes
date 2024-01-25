@@ -1,9 +1,6 @@
 ---
 external: https://www.duolingo.com/
 date: 2023-05-06
-sr-due: 2024-01-17
-sr-interval: 1
-sr-ease: 230
 tags:
   - inbox
   - outline

@@ -3,9 +3,6 @@ date: 2023-09-15
 tags:
   - inbox
 directory: ~/Pictures/screenshot/
-sr-due: 2023-10-07
-sr-interval: 4
-sr-ease: 270
 ---
 
 # Screenshot

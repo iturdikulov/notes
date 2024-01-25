@@ -1,11 +1,9 @@
 ---
 date: 2023-04-03
-sr-due: 2023-06-03
-sr-ease: 301
-sr-interval: 17
 tags:
-- inbox
-- development
+  - inbox
+  - development
+  - spaced_repetition
 ---
 
 # Search engine
@@ -30,6 +28,8 @@ Browser History::`@h`
 Google search::`!g`
 
 ## DuckDuckGo bangs
+
+TODO: convert to Firefox Search Engine shortcuts
 
 I utilize [DuckDuckGo bangs](https://duckduckgo.com/bang) to search in different
 websites.

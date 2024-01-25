@@ -1,8 +1,8 @@
 ---
 date: 2024-01-15
 tags:
-- inbox
-- outline
+  - inbox
+  - outline
 ---
 
 # How I learn art

@@ -1,17 +1,13 @@
 ---
 date: 2023-04-08
-sr-due: 2023-05-21
-sr-ease: 270
-sr-interval: 4
 tags:
-- inbox
-- software
-sr-due: 2025-03-13
-sr-interval: 527
-sr-ease: 290
+  - inbox
+  - software
 ---
 
 # sc-im
+
+TODO: add term
 
 To enter numeric value, press `=` and enter the value.
 

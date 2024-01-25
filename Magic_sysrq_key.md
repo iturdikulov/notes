@@ -1,10 +1,7 @@
 ---
 date: 2022-12-29
-sr-due: 2024-01-27
-sr-ease: 290
-sr-interval: 255
 tags:
-- inbox
+  - inbox
 ---
 
 # Magic SysRq key
@@ -26,3 +23,5 @@ backups of unsaved work. The QWERTY (or AZERTY) mnemonics: "Raising Elephants Is
 So Utterly Boring", "Reboot Even If System Utterly Broken" or simply the word
 "BUSIER" read backwards, are often used to remember the following SysRq-keys
 sequence:
+
+TODO: source required

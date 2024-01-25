@@ -1,17 +1,15 @@
 ---
 date: 2023-03-14
-sr-due: 2023-12-27
-sr-ease: 270
-sr-interval: 224
 tags:
-- inbox
-- programming
+  - inbox
+  - programming
+  - spaced_repetition
 ---
 
 # Operand
 
 > In computing, an operand is the part of a computer instruction which specifies
-> what data is to be manipulated or operated on, while at the same time
+> what data is to be ==manipulated or operated on==, while at the same time
 > representing the data itself. A computer instruction describes an operation
 > such as add or multiply X, while the operand (or operands, as there can be
 > more than one) specify on which X to operate as well as the value of X.

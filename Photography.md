@@ -1,11 +1,8 @@
 ---
 date: 2023-03-08
-sr-due: 2023-08-13
-sr-ease: 250
-sr-interval: 88
-tags:
-- inbox
 directory: ~/Pictures/photos/
+tags:
+  - inbox
 ---
 
 # Photography
@@ -33,7 +30,7 @@ directory: ~/Pictures/photos/
 ## Gear and Settings
 
 Cheatsheet, which explain what can be used for Low Light Photography:
-[Cheat sheet](./img/Photography_Gear_and_Settings.webp) and
+![Cheat sheet](./img/Photography_Gear_and_Settings.webp) and
 [Source](https://digital-photography-school.com/cheat-sheet-gear-settings-low-light-photography/)
 
 ## Resources

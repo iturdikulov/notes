@@ -1,11 +1,8 @@
 ---
 date: 2023-04-15
 tags:
-- inbox
-- development
-sr-due: 2023-10-06
-sr-interval: 3
-sr-ease: 251
+  - inbox
+  - development
 ---
 
 # Internet protocol suite (TCP/IP)

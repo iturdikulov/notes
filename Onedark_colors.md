@@ -1,13 +1,14 @@
 ---
 date: 2023-06-18
-sr-due: 2023-08-25
-sr-ease: 230
-sr-interval: 1
 tags:
-- inbox
+  - inbox
 ---
 
-# One dark colors
+# One dark colors scheme
+
+My favorite colors scheme.
+
+Main colors:
 
 - Background: `#282c34`, color name is `black`
 - Current Line: `#2c323c`, color name is `darkgray`
@@ -22,4 +23,4 @@ tags:
 - Red: `#e06c75`
 - Yellow: `#e5c07b`
 
-TODO: review this
+TODO: review this, add Excalidraw cheat sheet.

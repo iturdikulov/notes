@@ -1,14 +1,8 @@
 ---
 date: 2023-04-15
-sr-due: 2023-05-21
-sr-ease: 274
-sr-interval: 4
 tags:
-- inbox
-- development
-sr-due: 2023-10-23
-sr-interval: 20
-sr-ease: 254
+  - inbox
+  - development
 ---
 
 # Programmer (software developer, coder)

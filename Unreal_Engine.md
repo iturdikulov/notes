@@ -1,8 +1,5 @@
 ---
 date: 2023-04-19
-sr-due: 2023-10-23
-sr-ease: 254
-sr-interval: 20
 external:
   - https://www.unrealengine.com/en-US/linux
 tags:

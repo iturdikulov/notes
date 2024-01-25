@@ -1,13 +1,7 @@
 ---
 date: 2023-04-02
-sr-due: 2023-05-21
-sr-ease: 272
-sr-interval: 4
 tags:
-- inbox
-sr-due: 2025-03-15
-sr-interval: 529
-sr-ease: 292
+  - inbox
 ---
 
 # Shell script

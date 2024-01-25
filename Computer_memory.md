@@ -1,11 +1,8 @@
 ---
 date: 2023-04-13
-sr-due: 2023-09-09
-sr-ease: 249
-sr-interval: 16
 tags:
-- inbox
-- computer_science
+  - inbox
+  - computer_science
 ---
 
 # Computer memory

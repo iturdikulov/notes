@@ -1,8 +1,5 @@
 ---
 date: 2023-04-15
-sr-due: 2023-10-22
-sr-interval: 19
-sr-ease: 254
 tags:
   - inbox
   - game

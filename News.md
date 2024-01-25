@@ -1,13 +1,7 @@
 ---
 date: 2023-04-15
-sr-due: 2023-05-21
-sr-ease: 279
-sr-interval: 4
 tags:
-- inbox
-sr-due: 2023-10-21
-sr-interval: 18
-sr-ease: 259
+  - inbox
 ---
 
 # News

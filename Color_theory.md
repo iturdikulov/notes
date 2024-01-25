@@ -1,8 +1,5 @@
 ---
 date: 2023-10-03
-sr-due: 2023-10-06
-sr-interval: 3
-sr-ease: 253
 tags:
   - inbox
 ---

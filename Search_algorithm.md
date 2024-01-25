@@ -1,13 +1,8 @@
 ---
 date: 2023-04-15
-sr-due: 2023-05-21
-sr-ease: 270
-sr-interval: 4
 tags:
-- inbox
-sr-due: 2024-04-11
-sr-interval: 191
-sr-ease: 270
+  - inbox
+  - computer_science
 ---
 
 # Search algorithm

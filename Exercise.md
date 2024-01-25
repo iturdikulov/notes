@@ -1,8 +1,5 @@
 ---
 date: 2022-12-29
-sr-due: 2023-12-10
-sr-ease: 248
-sr-interval: 207
 tags:
   - inbox
   - productivity

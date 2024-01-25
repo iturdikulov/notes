@@ -1,13 +1,7 @@
 ---
 date: 2023-05-02
-sr-due: 2023-05-21
-sr-ease: 270
-sr-interval: 4
 tags:
-- inbox
-sr-due: 2024-04-10
-sr-interval: 190
-sr-ease: 270
+  - inbox
 ---
 
 # Significant figures

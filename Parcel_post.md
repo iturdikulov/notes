@@ -1,10 +1,7 @@
 ---
 date: 2023-03-12
-sr-due: 2024-01-23
-sr-ease: 290
-sr-interval: 251
 tags:
-- inbox
+  - inbox
 ---
 
 # Parcel post
@@ -21,5 +18,7 @@ I use it very often in my [[In_real_life_IRL|life]].
 
 ## Resources
 
+- [Shipper](https://shipper.space/)
 - [Pochta.ru](https://www.pochta.ru/)
 - [polexp.com](https://polexp.com/)
+

@@ -1,10 +1,7 @@
 ---
 date: 2023-03-12
-sr-due: 2024-01-26
-sr-ease: 290
-sr-interval: 254
 tags:
-- inbox
+  - inbox
 ---
 
 # Psychology
@@ -23,8 +20,7 @@ tags:
 
 > Psychology is the study of the mind. It studies thoughts, feelings, and
 > behaviors in humans and animals. Psychology aims to explain how the mind
-> works. It also looks at how our actions relate to how we think.
->
+> works. It also looks at how our actions relate to how we think.\
 > — <cite>[Simple English Wikipedia](https://simple.wikipedia.org/wiki/Psychology)</cite>
 
 ## Useful resources

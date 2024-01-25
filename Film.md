@@ -1,12 +1,9 @@
 ---
 external: https://simple.wikipedia.org/wiki/Movie
 date: 2023-07-12
-sr-due: 2023-07-17
-sr-ease: 270
-sr-interval: 4
 tags:
-- inbox
-- art
+  - inbox
+  - art
 ---
 # Film (Movie)
 

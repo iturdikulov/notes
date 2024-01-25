@@ -1,8 +1,5 @@
 ---
 date: 2023-03-05
-sr-due: 2023-07-30
-sr-ease: 228
-sr-interval: 74
 author: David Allen
 tags:
   - inbox

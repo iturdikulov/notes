@@ -1,18 +1,15 @@
 ---
 date: 2023-03-09
-sr-due: 2023-09-05
-sr-ease: 250
-sr-interval: 111
 tags:
-- inbox
-- software
+  - inbox
+  - software
 ---
 
 # Pandoc
 
-Pandoc [@JohnMacFarlanePandocUserGuide2023] is a [[Haskell]] library and
-command-line tool to convert markup files (Markdown, LaTeX, HTML), it's also can
-produce PDF output.
+Pandoc is a [[Haskell]] library and command-line tool to convert markup files
+(Markdown, LaTeX, HTML), it's also can produce PDF output.
+TODO: add source
 
 It supports a dozen input/output formats, you can check this by running
 `pandoc --list-input-formats` and `pandoc --list-output-formats` commands, or
@@ -21,7 +18,7 @@ use the `--from` and `--to` options to select formats interactively.
 Pandoc supports Markdown with various features like: syntax for tables,
 definition lists, metadata blocks, footnotes, citations, math, and much more.
 
-Program has modular design and use [[Abstract_syntax_tree_AST|ast]] to represent
+Program has modular design and use [[Abstract_syntax_tree_AST|AST]] to represent
 documents. Reader modules - parse text in a given format and produce a native
 representation of the document (AST). Writer modules convert this AST into a
 target format. Using this design adding an input or output format requires only
@@ -95,6 +92,5 @@ pandoc -C \
 - [Try pandoc!](https://pandoc.org/try/)
 
 ## Resources
-
 
 - [ ] [How to make a scientific looking PDF from markdown (with bibliography) · GitHub](https://gist.github.com/maxogden/97190db73ac19fc6c1d9beee1a6e4fc8)

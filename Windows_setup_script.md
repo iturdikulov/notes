@@ -1,14 +1,8 @@
 ---
 date: 2023-05-20
-sr-due: 2023-06-09
-sr-ease: 279
-sr-interval: 4
 tags:
-- inbox
-- software
-sr-due: 2025-01-16
-sr-interval: 470
-sr-ease: 299
+  - inbox
+  - software
 ---
 
 # Windows Setup Script

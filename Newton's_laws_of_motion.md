@@ -1,14 +1,8 @@
 ---
 date: 2023-03-19
-sr-due: 2023-12-20
-sr-ease: 270
-sr-interval: 217
 tags:
-- inbox
-- physics
-sr-due: 2025-09-29
-sr-interval: 622
-sr-ease: 270
+  - inbox
+  - physics
 ---
 
 # Newton's laws of motion

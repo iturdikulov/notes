@@ -1,14 +1,14 @@
 ---
 date: 2022-12-29
-sr-due: 2023-10-27
-sr-ease: 230
-sr-interval: 163
 tags:
-- inbox
+  - inbox
+  - programming
+  - spaced_repetition
 ---
 
 # Programming principles
 
+TODO: add term
 https://en.wikipedia.org/wiki/Category:Programming_principles
 
 DRY::Don't Repeat Youself

@@ -1,10 +1,7 @@
 ---
 date: 2023-03-11
-sr-due: 2024-01-17
-sr-ease: 288
-sr-interval: 245
 tags:
-- inbox
+  - inbox
 ---
 
 # High-level programming language
@@ -37,7 +34,8 @@ Fortran, created in 1950s.
 > — <cite>[@HighlevelProgrammingLanguage2023]</cite>
 
 Instead, dealing with registers, memory addresses and call stacks
-([[Low-level_programming_language]]), high-level languages deals with:
+([[Low-level_programming_language|low-level language]]), high-level languages
+deals with:
 
 - variables
 - arrays
@@ -48,3 +46,6 @@ Instead, dealing with registers, memory addresses and call stacks
 - threads
 - locks
 - other abstractions
+
+I learn some high-level languages, listed in
+[[Programming_language|programming languages]] note.

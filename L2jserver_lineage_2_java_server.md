@@ -1,15 +1,9 @@
 ---
 external: https://www.l2jserver.com/
 date: 2023-04-18
-sr-due: 2023-05-21
-sr-ease: 270
-sr-interval: 4
 tags:
-- inbox
-- software
-sr-due: 2025-03-09
-sr-interval: 523
-sr-ease: 290
+  - inbox
+  - software
 ---
 
 # L2jServer Lineage 2 Java Server

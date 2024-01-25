@@ -2,9 +2,6 @@
 date: 2023-10-03
 tags:
   - inbox
-sr-due: 2023-10-06
-sr-interval: 3
-sr-ease: 250
 ---
 
 # Acoustics
@@ -29,4 +26,3 @@ sr-ease: 250
 
 - [ ] [Акустика для начинающих. Звукоизоляция. Часть 1](https://pikabu.ru/story/akustika_dlya_nachinayushchikh_zvukoizolyatsiya_chast_1_3956274)
 - [ ] [Акустика для начинающих. Звукопоглощение. Часть 2](https://pikabu.ru/story/akustika_dlya_nachinayushchikh_zvukopogloshchenie_chast_2_3961293)
-

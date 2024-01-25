@@ -1,10 +1,7 @@
 ---
 date: 2023-03-12
-sr-due: 2024-01-29
-sr-ease: 290
-sr-interval: 257
 tags:
-- inbox
+  - inbox
 ---
 
 # Computer keyboard

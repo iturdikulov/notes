@@ -1,11 +1,8 @@
 ---
 external: https://en.wikipedia.org/wiki/Source_code
 date: 2023-03-21
-sr-due: 2023-09-12
-sr-ease: 270
-sr-interval: 118
 tags:
-- inbox
+  - inbox
 ---
 
 # Source code (or code)

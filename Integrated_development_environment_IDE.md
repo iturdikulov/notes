@@ -1,11 +1,8 @@
 ---
 date: 2023-05-24
-sr-due: 2023-08-25
-sr-ease: 230
-sr-interval: 1
 tags:
-- inbox
-- development
+  - inbox
+  - development
 ---
 
 # Integrated development environment (IDE)

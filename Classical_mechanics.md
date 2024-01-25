@@ -1,13 +1,7 @@
 ---
 date: 2023-04-17
-sr-due: 2023-05-21
-sr-ease: 271
-sr-interval: 4
 tags:
-- inbox
-sr-due: 2025-03-12
-sr-interval: 526
-sr-ease: 291
+  - inbox
 ---
 
 # Classical mechanics

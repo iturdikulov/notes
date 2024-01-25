@@ -1,10 +1,7 @@
 ---
 date: 2023-06-02
-sr-due: 2023-06-08
-sr-ease: 251
-sr-interval: 3
 tags:
-- inbox
+  - inbox
 ---
 
 # Version control

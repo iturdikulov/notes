@@ -1,25 +1,23 @@
 ---
 date: 2023-07-16
-sr-due: 2023-08-25
-sr-ease: 230
-sr-interval: 1
 tags:
-- inbox
+  - inbox
 ---
 
-# Nix OS
+# Nix OS pre-install guide
 
 NOTE: The following tutorial is for EFI enabled systems.
 
 Entry point:
 
+- [[NixOS]]
 - [NixOS manual](https://nixos.org/manual/nixos/stable/index.html#sec-installation-manual)
 - [Bootloader - NixOS Wiki](https://nixos.wiki/wiki/Bootloader)
 
 ## 0. Prepare
 
 Boot from the USB stick and setup networking. (optionally setup SSH if you want
-to complete the install from another computer)
+to complete the installation from another computer)
 ```sh
 # Configure wifi:
 wpa_passphrase SSID 'PASSWORD' > /etc/wpa_supplicant.conf (optional)
@@ -170,7 +168,7 @@ Set user password
 $ passwd username
 ```
 
-Mount and copyt $BOOT to $BOOT_BACKUP
+Mount and copy `$BOOT` to `$BOOT_BACKUP`
 ```sh
 mkdir -p /tmp/boot
 mount $BOOT_BACKUP /tmp/boot

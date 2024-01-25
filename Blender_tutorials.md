@@ -1,14 +1,8 @@
 ---
 date: 2023-04-13
-sr-due: 2022-05-21
-sr-ease: 270
-sr-interval: 4
 tags:
-- inbox
-- computer_graphics
-sr-due: 2028-12-29
-sr-interval: 1911
-sr-ease: 290
+  - inbox
+  - computer_graphics
 ---
 
 # Blender Tutorials

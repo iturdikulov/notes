@@ -1,8 +1,5 @@
 ---
 date: 2023-03-11
-sr-due: 2024-01-02
-sr-ease: 270
-sr-interval: 230
 tags:
   - inbox
   - programming
@@ -24,7 +21,7 @@ tags:
 > execution.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Debugger)</cite>
 
-[[Computer_program]] that is used to test and "debug" other programs, mainly to
+[[Computer_program|Computer program]] that is used to test and "debug" other programs, mainly to
 solve programming bugs. Debug process can be deep integrated with development
 process.
 

@@ -93,7 +93,7 @@ int main(void)
 }
 ```
 
-- Linux basic [[Command-line_interface|cli]] usage.
+- Linux basic [[Command-line_interface_CLI|cli]] usage.
 - Do while loop usable sometimes, for example for input validation
 - [[Truncation]]
 - [[Type_conversion|type conversion]]

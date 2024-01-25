@@ -1,11 +1,8 @@
 ---
 date: 2023-03-05
-sr-due: 2024-01-13
-sr-ease: 272
-sr-interval: 241
 tags:
-- inbox
-- outline
+  - inbox
+  - outline
 ---
 
 # Development Environment

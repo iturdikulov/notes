@@ -1,11 +1,8 @@
 ---
 date: 2023-07-21
-sr-due: 2023-08-25
-sr-ease: 235
-sr-interval: 1
 tags:
-- inbox
-- software
+  - inbox
+  - software
 ---
 
 # Git-crypt

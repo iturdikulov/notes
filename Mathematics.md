@@ -1,8 +1,5 @@
 ---
 date: 2023-03-06
-sr-due: 2023-08-02
-sr-ease: 230
-sr-interval: 77
 directory: ~/Science/math/
 tags:
   - inbox

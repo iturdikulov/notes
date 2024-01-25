@@ -3,9 +3,6 @@ date: 2023-09-15
 tags:
   - inbox
 directory: ~/Arts_and_Entertainment/animation/
-sr-due: 2023-10-07
-sr-interval: 4
-sr-ease: 275
 ---
 
 # Computer animation

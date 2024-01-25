@@ -1,10 +1,7 @@
 ---
 date: 2023-03-18
-sr-due: 2023-12-31
-sr-ease: 270
-sr-interval: 228
 tags:
-- inbox
+  - inbox
 ---
 
 # Hash table (hash map)

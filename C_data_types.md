@@ -1,10 +1,7 @@
 ---
 date: 2022-12-29
-sr-due: 2023-12-27
-sr-ease: 265
-sr-interval: 224
 tags:
-- inbox
+  - inbox
 ---
 
 # C data types

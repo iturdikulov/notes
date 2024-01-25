@@ -1,10 +1,7 @@
 ---
 date: 2023-03-19
-sr-due: 2024-01-03
-sr-ease: 270
-sr-interval: 231
 tags:
-- inbox
+  - inbox
 ---
 
 # Artistic inspiration

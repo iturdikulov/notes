@@ -3,9 +3,6 @@ date: 2023-09-15
 tags:
   - inbox
 directory: ~/Computer/data/word_list/
-sr-due: 2023-10-16
-sr-interval: 13
-sr-ease: 290
 ---
 
 # Word list

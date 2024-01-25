@@ -3,9 +3,6 @@ date: 2023-09-14
 tags:
   - inbox
 directory: ~/Computer/customization/wallpapers/
-sr-due: 2023-10-18
-sr-interval: 15
-sr-ease: 293
 ---
 
 # Wallpaper

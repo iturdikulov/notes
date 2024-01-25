@@ -2,9 +2,6 @@
 date: 2023-09-22
 tags:
   - inbox
-sr-due: 2023-10-09
-sr-interval: 6
-sr-ease: 250
 ---
 
 # Binary number

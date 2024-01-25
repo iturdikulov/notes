@@ -1,12 +1,9 @@
 ---
 date: 2023-03-21
-sr-due: 2024-01-08
-sr-ease: 270
-sr-interval: 236
-tags:
-- inbox
-- computer_graphics
 directory: ~/Computer/graphics/sprite/
+tags:
+  - inbox
+  - computer_graphics
 ---
 
 # Sprite (computer graphics)

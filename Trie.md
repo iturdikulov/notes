@@ -3,9 +3,6 @@ date: 2023-10-06
 tags:
   - inbox
   - computer_science
-sr-due: 2023-10-07
-sr-interval: 1
-sr-ease: 232
 ---
 
 # Trie

@@ -1,10 +1,7 @@
 ---
 date: 2022-12-29
-sr-due: 2023-06-14
-sr-ease: 228
-sr-interval: 1
 tags:
-- inbox
+  - inbox
 ---
 
 # Computer Science

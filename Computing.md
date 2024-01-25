@@ -1,10 +1,7 @@
 ---
 date: 2023-04-17
-sr-due: 2023-11-30
-sr-ease: 265
-sr-interval: 98
 tags:
-- inbox
+  - inbox
 ---
 
 # Computing

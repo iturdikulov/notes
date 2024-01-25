@@ -1,10 +1,7 @@
 ---
 date: 2023-03-23
-sr-due: 2023-11-12
-sr-ease: 290
-sr-interval: 179
 tags:
-- inbox
+  - inbox
 ---
 
 # Signed number representations
@@ -14,10 +11,8 @@ tags:
 > is that there are no states left to use with which to represent the negative
 > assignment. It is not possible to just use 'off' for minus and 'on' for plus
 > because the computer would have no way of knowing whether it was a digit or a
-> sign.
->
-> --
-> [Wikipedia](https://simple.wikipedia.org/wiki/Signed_number_representations)
+> sign.\
+> — <cite>[Wikipedia](https://simple.wikipedia.org/wiki/Signed_number_representations)</cite>
 
 To solve this issue computer designers invented two's method for storing
 negative binary numbers.

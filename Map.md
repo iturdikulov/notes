@@ -1,14 +1,8 @@
 ---
 date: 2023-04-29
-sr-due: 2023-05-21
-sr-ease: 272
-sr-interval: 4
 tags:
-- inbox
-- programming
-sr-due: 2025-03-28
-sr-interval: 539
-sr-ease: 292
+  - inbox
+  - programming
 ---
 
 # Map (higher-order function, aka apply-to-all)

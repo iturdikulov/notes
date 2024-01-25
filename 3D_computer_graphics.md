@@ -1,10 +1,8 @@
 ---
 date: 2023-03-12
-sr-due: 2024-01-18
-sr-ease: 290
-sr-interval: 246
 tags:
-- inbox
+  - inbox
+  - computer_graphics
 ---
 
 # 3D computer graphics
@@ -23,9 +21,11 @@ By developing various [[My_Games|games]] and modelling 3D models in [[Blender]].
 
 ## Assets
 
+- [The Models Resource](https://www.models-resource.com/)
 - [Quixel Megascans 3D asset library](https://quixel.com/megascans)
 - [Substance 3D Community Assets](https://substance3d.adobe.com/community-assets?assetType=substanceMaterial))
 - [Poly Haven](https://polyhaven.com/)
 - [GPU Research Samples](https://www.intel.com/content/www/us/en/developer/topic-technology/graphics-research/samples.html)
 - [Unreal Engine 5 Lumen vs Baked light scenes](https://unreal.shop/models/unreal-engine-5.-free-two-scenes.-lumen-vs-baked-light)
-
+- [Bonnibel's Graphic Collection](https://graphic.neocities.org/directory)
+- [Poly Pizza: Free 3D models for everyone](https://poly.pizza/)

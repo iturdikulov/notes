@@ -1,11 +1,8 @@
 ---
-date: '2022-12-28'
-sr-due: 1687363200
-sr-ease: 210
-sr-interval: 1
+date: 2022-12-28
 tags:
-- inbox
-- development
+  - inbox
+  - development
 ---
 
 # SQ3R reading method
