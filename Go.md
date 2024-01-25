@@ -4,6 +4,9 @@ external: https://go.dev/
 tags:
   - inbox
   - SR_programming
+sr-due: 2024-01-26
+sr-interval: 1
+sr-ease: 225
 ---
 
 # Go (programming language), aka Golang

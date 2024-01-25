@@ -5,7 +5,7 @@ tags:
   - outline
 sr-due: 2024-01-26
 sr-interval: 1
-sr-ease: 228
+sr-ease: 208
 ---
 
 # How I learn physics and chemistry

@@ -4,6 +4,9 @@ date: 2023-03-16
 tags:
   - inbox
   - SR_software
+sr-due: 2024-01-29
+sr-interval: 4
+sr-ease: 270
 ---
 
 # Brave (web browser)

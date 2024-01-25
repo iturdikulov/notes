@@ -9,6 +9,9 @@ tags:
   - SR_computer_science
   - inbox
 directory: ~/Computer/science/Wengrow-Data_structures_and_algorithms/
+sr-due: 2024-01-26
+sr-interval: 1
+sr-ease: 220
 ---
 
 # A Common-sense Guide to Data Structures and Algorithms: Level Up Your Core Programming Skills

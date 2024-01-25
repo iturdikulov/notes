@@ -5,7 +5,7 @@ tags:
   - outline
 sr-due: 2024-01-26
 sr-interval: 1
-sr-ease: 219
+sr-ease: 199
 ---
 
 # How I learn computer graphics

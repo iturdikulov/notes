@@ -3,6 +3,9 @@ date: 2023-04-04
 tags:
   - inbox
   - SR_vim
+sr-due: 2024-01-26
+sr-interval: 1
+sr-ease: 217
 ---
 
 # My editing workflow

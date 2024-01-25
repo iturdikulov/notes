@@ -5,7 +5,7 @@ tags:
   - outline
 sr-due: 2024-01-26
 sr-interval: 1
-sr-ease: 228
+sr-ease: 188
 ---
 
 # How I learn computer programming
