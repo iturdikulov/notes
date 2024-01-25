@@ -2,9 +2,9 @@
 date: 2022-12-29
 tags:
   - inbox
-  - SR_development
-  - SR_software
-external: https://github.com/bakkeby/dwm-flexipatch
+  - SR_productivity
+external:
+  - https://github.com/bakkeby/dwm-flexipatch
 directory: ~/Computer/software/dwm-flexipatch/
 ---
 
