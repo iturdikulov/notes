@@ -2,6 +2,7 @@
 date: 2023-03-06
 tags:
   - inbox
+  - bridge
 directory: ~/Arts_and_Entertainment/russian/
 ---
 

@@ -5,8 +5,8 @@ tags:
   - research
   - inbox
   - SR_programming
-sr-due: 2023-12-01
-sr-interval: 198
+sr-due: 2025-09-20
+sr-interval: 604
 sr-ease: 268
 directory: ~/Computer/programming/Ramalho-Fluent_Python
 ---

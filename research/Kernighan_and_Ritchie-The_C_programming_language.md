@@ -7,6 +7,9 @@ tags:
   - research
   - inbox
   - SR_programming
+sr-due: 2025-11-29
+sr-interval: 674
+sr-ease: 236
 ---
 
 # The C Programming Language

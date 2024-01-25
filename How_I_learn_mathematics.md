@@ -3,6 +3,9 @@ date: 2023-03-13
 tags:
   - inbox
   - outline
+sr-due: 2024-01-27
+sr-interval: 2
+sr-ease: 201
 ---
 
 # How I learn mathematics

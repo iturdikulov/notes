@@ -5,9 +5,9 @@ tags:
   - research
   - inbox
   - SR_computer_science
-sr-due: 2023-11-05
-sr-interval: 172
-sr-ease: 230
+sr-due: 2024-04-30
+sr-interval: 96
+sr-ease: 210
 directory: ~/Computer/science/Petzold-Code
 ---
 

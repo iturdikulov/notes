@@ -11,6 +11,9 @@ sr-ease: 248
 external:
   - https://learnvim.irian.to
 directory: ~/Computer/software/Irianto-Learn_Vim
+sr-due: 2024-05-04
+sr-interval: 100
+sr-ease: 228
 ---
 
 # Learn Vim

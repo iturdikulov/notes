@@ -3,6 +3,10 @@ date: 2022-12-29
 tags:
   - inbox
   - SR_art
+  - bridge
+sr-due: 2024-01-29
+sr-interval: 4
+sr-ease: 270
 ---
 
 # Media (communication)

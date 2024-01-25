@@ -9,9 +9,9 @@ tags:
 external:
   - https://github.com/HK-SHAO/Godot-RayTracing-Demo
 directory: ~/Computer/graphics/HK-SHAO-Godot_Raytracing_Demo/
-sr-due: 2023-10-04
-sr-interval: 1
-sr-ease: 232
+sr-due: 2024-02-09
+sr-interval: 15
+sr-ease: 212
 ---
 
 # Godot Raytracing Demo

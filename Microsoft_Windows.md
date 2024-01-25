@@ -2,6 +2,9 @@
 date: 2022-12-29
 tags:
   - inbox
+sr-due: 2024-01-29
+sr-interval: 4
+sr-ease: 274
 ---
 
 # Microsoft Windows

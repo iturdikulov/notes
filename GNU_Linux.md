@@ -2,6 +2,9 @@
 date: 2023-03-17
 tags:
   - inbox
+sr-due: 2024-01-27
+sr-interval: 2
+sr-ease: 248
 ---
 
 # GNU/Linux

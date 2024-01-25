@@ -5,9 +5,9 @@ tags:
   - research
   - SR_computer_graphics
 directory: ~/Computer/graphics/OpenCV_Realtime_Angle_Calculation/
-sr-due: 2023-10-04
-sr-interval: 1
-sr-ease: 229
+sr-due: 2024-02-08
+sr-interval: 14
+sr-ease: 209
 ---
 
 # OpenCV Real-time Angle Calculation

@@ -8,9 +8,9 @@ external:
   - https://j2kun.gumroad.com/l/pim-book
 date: 2020
 directory: ~/Science/math/Kun-A_Programmers_Introduction_to_Mathematics
-sr-due: 2023-10-06
-sr-interval: 3
-sr-ease: 265
+sr-due: 2024-02-09
+sr-interval: 15
+sr-ease: 245
 ---
 
 # A Programmer's Introduction to Mathematics: Second Edition

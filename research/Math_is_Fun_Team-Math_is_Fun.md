@@ -11,6 +11,9 @@ sr-interval: 1
 sr-ease: 230
 author: Math is Fun Team
 directory: ~/Science/math/Math_is_Fun_Team-Math_is_Fun/
+sr-due: 2024-02-13
+sr-interval: 19
+sr-ease: 210
 ---
 
 # Math is Fun

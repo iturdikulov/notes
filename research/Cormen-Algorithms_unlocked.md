@@ -5,9 +5,9 @@ tags:
   - research
   - inbox
   - SR_computer_science
-sr-due: 2023-11-23
-sr-interval: 190
-sr-ease: 248
+sr-due: 2024-05-07
+sr-interval: 103
+sr-ease: 228
 directory: ~/Computer/science/Cormen-Algorithms_unlocked
 ---
 

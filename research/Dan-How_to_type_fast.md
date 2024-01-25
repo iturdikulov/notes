@@ -7,9 +7,9 @@ author: Dan
 date: 2023
 external:
   - https://roosterdan.medium.com/how-to-type-100-words-per-minute-a780fd80fd27
-sr-due: 2023-10-04
-sr-interval: 1
-sr-ease: 228
+sr-due: 2025-01-27
+sr-interval: 368
+sr-ease: 248
 ---
 
 ## How to type 100 words per minute

@@ -3,6 +3,9 @@ date: 2023-09-15
 tags:
   - inbox
 directory: ~/Arts_and_Entertainment/visual_arts/
+sr-due: 2024-01-27
+sr-interval: 2
+sr-ease: 248
 ---
 
 # Visual arts

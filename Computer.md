@@ -2,6 +2,9 @@
 date: 2023-03-21
 tags:
   - inbox
+sr-due: 2024-01-26
+sr-interval: 1
+sr-ease: 230
 ---
 
 # Computer
@@ -17,6 +20,8 @@ tags:
 > together, such as a [[Computer_network|computer network ]] or computer
 > cluster.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Computer)</cite>
+
+- TODO: Find computer enhance course by Muratori
 
 ## Resources
 

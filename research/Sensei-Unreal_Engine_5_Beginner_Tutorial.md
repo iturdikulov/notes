@@ -9,9 +9,9 @@ tags:
 external:
   - https://www.youtube.com/watch?v=k-zMkzmduqI
 directory: ~/Computer/graphics/Sensei-Unreal_Engine_5_Beginner_Tutorial/
-sr-due: 2023-10-04
-sr-interval: 1
-sr-ease: 230
+sr-due: 2024-02-11
+sr-interval: 17
+sr-ease: 210
 ---
 
 # Unreal Engine 5 Beginner Tutorial - UE5 Starter Course

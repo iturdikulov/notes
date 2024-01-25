@@ -6,8 +6,8 @@ tags:
   - inbox
   - SR_programming
   - research
-sr-due: 2023-10-04
-sr-interval: 1
+sr-due: 2024-06-05
+sr-interval: 132
 sr-ease: 229
 ---
 

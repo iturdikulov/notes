@@ -8,9 +8,9 @@ tags:
   - inbox
   - SR_programming
 directory: ~/Computer/programming/Kernighan_and_Ritchie-The_C_programming_language/Costrasel-The_C_Programming_Language_Solutions/
-sr-due: 2023-10-04
-sr-interval: 1
-sr-ease: 230
+sr-due: 2024-02-11
+sr-interval: 17
+sr-ease: 210
 ---
 
 # The C Programming Language 2nd Edition - Solutions

@@ -13,6 +13,9 @@ tags:
   - inbox
   - research
   - SR_productivity
+sr-due: 2024-02-10
+sr-interval: 16
+sr-ease: 210
 ---
 
 A series where author show how to use taskwarrior to implement GTD. This series

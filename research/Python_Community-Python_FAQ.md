@@ -6,9 +6,9 @@ tags:
   - research
   - inbox
   - SR_programming
-sr-due: 2023-11-20
-sr-interval: 187
-sr-ease: 228
+sr-due: 2024-05-06
+sr-interval: 102
+sr-ease: 208
 ---
 
 # Python Programming FAQ

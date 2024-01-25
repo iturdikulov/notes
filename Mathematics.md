@@ -4,6 +4,9 @@ directory: ~/Science/math/
 tags:
   - inbox
   - SR_mathematics
+sr-due: 2024-01-27
+sr-interval: 2
+sr-ease: 209
 ---
 
 # Mathematics

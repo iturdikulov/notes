@@ -8,8 +8,8 @@ tags:
   - inbox
   - SR_software
   - SR_programming
-sr-due: 2023-11-04
-sr-interval: 171
+sr-due: 2025-05-27
+sr-interval: 488
 sr-ease: 230
 directory: ~/Computer/software/Chacon_and_Ben-Pro_Git
 ---

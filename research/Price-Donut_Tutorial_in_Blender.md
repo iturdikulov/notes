@@ -10,6 +10,9 @@ tags:
   - inbox
   - research
   - SR_computer_graphics
+sr-due: 2025-06-09
+sr-interval: 501
+sr-ease: 250
 ---
 
 # Blender Beginner Donut Tutorial

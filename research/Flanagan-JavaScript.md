@@ -5,9 +5,9 @@ tags:
   - research
   - inbox
   - SR_programming
-sr-due: 2023-09-19
-sr-interval: 124
-sr-ease: 248
+sr-due: 2024-04-12
+sr-interval: 78
+sr-ease: 228
 directory: ~/Computer/programming/Flanagan-JavaScript
 ---
 

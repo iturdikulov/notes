@@ -8,8 +8,8 @@ tags:
 external:
   - https://www.kernel.org/doc/html/latest/process/submitting-patches.html
   - https://www.kernel.org/doc/html/latest/process/submit-checklist.html
-sr-due: 2023-10-05
-sr-interval: 2
+sr-due: 2024-06-06
+sr-interval: 133
 sr-ease: 230
 ---
 

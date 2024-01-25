@@ -9,6 +9,9 @@ tags:
   - inbox
   - SR_art
   - research
+sr-due: 2024-05-28
+sr-interval: 124
+sr-ease: 208
 ---
 
 # Drawabox - learning the fundamentals of drawing

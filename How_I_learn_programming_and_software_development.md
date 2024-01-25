@@ -3,6 +3,7 @@ date: 2024-01-15
 tags:
   - inbox
   - outline
+  - bridge
 ---
 
 # How I learn programming and software development

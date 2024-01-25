@@ -4,6 +4,7 @@ tags:
   - outline
   - SR_software
   - inbox
+  - bridge
 ---
 
 # My awesome software list

@@ -7,9 +7,9 @@ tags:
   - research
   - SR_productivity
 directory: ~/Computer/software/Cneude-Building_Your_Mouseless_Development_Environment/
-sr-due: 2023-10-04
-sr-interval: 1
-sr-ease: 230
+sr-due: 2024-02-07
+sr-interval: 13
+sr-ease: 210
 ---
 
 # Building Your Mouseless Development Environment

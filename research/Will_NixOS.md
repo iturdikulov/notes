@@ -12,6 +12,9 @@ external:
   - https://www.youtube.com/playlist?list=PL-saUBvIJzOkjAw_vOac75v-x6EzNzZq-
 author: Taylor Will
 directory: ~/Computer/software/Will_NixOS
+sr-due: 2024-07-24
+sr-interval: 181
+sr-ease: 234
 ---
 
 # Taylor Will series on NixOS

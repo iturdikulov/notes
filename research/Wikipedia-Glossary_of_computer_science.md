@@ -9,6 +9,9 @@ sr-interval: 1
 sr-ease: 222
 external:
   - https://en.wikipedia.org/wiki/Glossary_of_computer_science
+sr-due: 2024-02-13
+sr-interval: 19
+sr-ease: 202
 ---
 
 # Glossary of [[Computer_science|Computer Science]]
