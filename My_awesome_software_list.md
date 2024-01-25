@@ -5,6 +5,9 @@ tags:
   - SR_software
   - inbox
   - bridge
+sr-due: 2024-01-28
+sr-interval: 3
+sr-ease: 266
 ---
 
 # My awesome software list

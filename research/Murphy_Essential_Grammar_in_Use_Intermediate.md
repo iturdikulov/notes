@@ -5,9 +5,9 @@ tags:
   - research
   - SR_english
 directory: ~/Arts_and_Entertainment/english/Murphy_Essential_Grammar_in_Use_Intermediate
-sr-due: 2023-10-06
-sr-interval: 3
-sr-ease: 250
+sr-due: 2024-02-11
+sr-interval: 17
+sr-ease: 230
 ---
 
 # Murphy Essential Grammar in Use Intermediate

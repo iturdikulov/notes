@@ -4,6 +4,9 @@ external: https://github.com/Dushistov/sdcv
 tags:
   - inbox
   - SR_software
+sr-due: 2024-07-10
+sr-interval: 167
+sr-ease: 329
 ---
 
 # sdcv

@@ -3,6 +3,9 @@ date: 2023-03-14
 tags:
   - inbox
   - SR_english
+sr-due: 2024-04-11
+sr-interval: 77
+sr-ease: 328
 ---
 
 # Puzzle English learning by plan

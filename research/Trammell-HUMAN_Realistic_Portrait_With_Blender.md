@@ -8,8 +8,8 @@ tags:
   - inbox
   - SR_computer_graphics
 directory: ~/Computer/graphics/Trammel-HUMAN_Realistic_Portrait_With_Blender/
-sr-due: 2023-10-06
-sr-interval: 3
+sr-due: 2024-06-17
+sr-interval: 144
 sr-ease: 250
 ---
 

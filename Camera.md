@@ -2,6 +2,9 @@
 date: 2023-04-23
 tags:
   - inbox
+sr-due: 2024-02-02
+sr-interval: 8
+sr-ease: 250
 ---
 
 # Camera

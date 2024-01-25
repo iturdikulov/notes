@@ -4,6 +4,9 @@ date: 2023-03-12
 tags:
   - inbox
   - SR_productivity
+sr-due: 2026-02-05
+sr-interval: 742
+sr-ease: 346
 ---
 
 # Brain.fm

@@ -8,9 +8,9 @@ tags:
 external:
   - https://realpython.com/
 directory: ~/Computer/programming/Real_Python_Team-Python_Tutorials/
-sr-due: 2023-10-06
-sr-interval: 3
-sr-ease: 250
+sr-due: 2024-01-29
+sr-interval: 4
+sr-ease: 190
 ---
 
 # Python Tutorials

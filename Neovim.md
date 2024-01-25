@@ -6,6 +6,9 @@ tags:
   - SR_software
 external: https://neovim.io/
 directory: ~/Computer/software/nvim/
+sr-due: 2024-01-26
+sr-interval: 1
+sr-ease: 212
 ---
 
 TODO: global cleanup and organize resources

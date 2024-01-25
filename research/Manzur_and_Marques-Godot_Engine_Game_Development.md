@@ -7,8 +7,8 @@ tags:
   - SR_computer_graphics
   - SR_game
 directory: ~/Computer/graphics/Manzur_and_Marques-Godot_Engine_Game_Development/
-sr-due: 2023-10-07
-sr-interval: 4
+sr-due: 2025-04-01
+sr-interval: 432
 sr-ease: 272
 ---
 

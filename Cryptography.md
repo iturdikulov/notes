@@ -2,6 +2,9 @@
 date: 2023-11-09
 tags:
   - inbox
+sr-due: 2024-01-30
+sr-interval: 5
+sr-ease: 240
 ---
 
 # Cryptography

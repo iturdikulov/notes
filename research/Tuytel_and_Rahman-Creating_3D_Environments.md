@@ -8,8 +8,8 @@ tags:
   - inbox
   - SR_computer_graphics
 directory: ~/Computer/graphics/Tuytel_and_Rahman-Creating_3D_Environments/
-sr-due: 2023-10-06
-sr-interval: 3
+sr-due: 2024-06-20
+sr-interval: 147
 sr-ease: 250
 ---
 

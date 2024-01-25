@@ -6,8 +6,8 @@ tags:
   - research
   - SR_computer_graphics
 directory: ~/Computer/graphics/Obuz_Game_Development_with_Blender_and_Godot/
-sr-due: 2023-10-06
-sr-interval: 3
+sr-due: 2024-06-21
+sr-interval: 148
 sr-ease: 250
 ---
 

@@ -3,6 +3,9 @@ date: 2023-03-11
 tags:
   - inbox
   - SR_programming
+sr-due: 2024-01-27
+sr-interval: 2
+sr-ease: 249
 ---
 
 # Debugger

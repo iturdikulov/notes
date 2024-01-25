@@ -3,6 +3,9 @@ date: 2022-12-29
 tags:
   - inbox
   - SR_software
+sr-due: 2024-02-07
+sr-interval: 13
+sr-ease: 248
 ---
 
 # dm-crypt

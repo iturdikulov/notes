@@ -3,6 +3,9 @@ date: 2024-01-15
 tags:
   - inbox
   - outline
+sr-due: 2024-01-26
+sr-interval: 1
+sr-ease: 227
 ---
 
 # How I learn art

@@ -3,6 +3,9 @@ date: 2022-12-29
 tags:
   - inbox
   - SR_art
+sr-due: 2024-09-13
+sr-interval: 232
+sr-ease: 288
 ---
 
 # YouTube

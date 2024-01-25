@@ -8,8 +8,8 @@ tags:
   - research
   - SR_art
 directory: ~/Arts_and_Entertainment/visual_arts/Prokopenko-Figure_Drawing_Fundamentals/
-sr-due: 2023-10-06
-sr-interval: 3
+sr-due: 2024-06-19
+sr-interval: 146
 sr-ease: 250
 ---
 

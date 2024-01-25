@@ -11,6 +11,9 @@ tags:
   - research
   - inbox
   - SR_mathematics
+sr-due: 2024-02-01
+sr-interval: 7
+sr-ease: 170
 ---
 
 # Кратчайший курс школьной математики

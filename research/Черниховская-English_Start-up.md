@@ -6,8 +6,8 @@ tags:
   - SR_english
 author: Наталья Черниховская
 directory: ~/Arts_and_Entertainment/english/Черниховская-English_Start-up/
-sr-due: 2023-10-06
-sr-interval: 3
+sr-due: 2024-06-18
+sr-interval: 145
 sr-ease: 250
 ---
 

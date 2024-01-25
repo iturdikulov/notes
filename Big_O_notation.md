@@ -44,12 +44,12 @@ The algorithm is $\mathcal{O}(1)$. Because the number of steps is constant.
 
 $\mathcal{O}(N)$ is ==less== efficient than $\mathcal{O}(1)$ no matter how many
 steps the $\mathcal{O}(1)$ n algorithm actually takes.
-<!--SR:!2023-07-22,3,270-->
+<!--SR:!2024-02-02,8,270-->
 
 Big O can describe the best and worst case scenario of an algorithm. But Big O
 Notation generally refers to the ==worst case (pessimistic approach)== scenario,
 unless specified otherwise.
-<!--SR:!2023-07-22,3,270-->
+<!--SR:!2024-02-03,9,270-->
 
 $\mathcal{O}(N)$ is the Big O way of describing an algorithm that increases
 ==one step== each time the data is doubled.

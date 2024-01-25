@@ -3,6 +3,9 @@ date: 2023-07-17
 tags:
   - inbox
   - outline
+sr-due: 2024-02-07
+sr-interval: 13
+sr-ease: 290
 ---
 
 # About me
@@ -17,3 +20,5 @@ I like Linux the way that some people like Linux, and care about how computers
 works at a low level.
 I like high-level abstractions and simplicity and building things.
 I know some things about computers, how they work on low-level.
+
+My current interests available in [[Now]] note.

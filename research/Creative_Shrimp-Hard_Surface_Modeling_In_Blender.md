@@ -8,9 +8,9 @@ tags:
   - inbox
   - SR_computer_graphics
 directory: ~/Computer/graphics/Creative_Shrimp-Hard_Surface_Modeling_In_Blender
-sr-due: 2023-10-07
-sr-interval: 4
-sr-ease: 270
+sr-due: 2024-04-13
+sr-interval: 79
+sr-ease: 250
 ---
 
 # Hard Surface Modeling In Blender

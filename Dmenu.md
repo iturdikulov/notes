@@ -4,6 +4,9 @@ tags:
   - inbox
   - archive
   - SR_software
+sr-due: 2024-01-29
+sr-interval: 4
+sr-ease: 270
 ---
 
 # dmenu (dynamic menu for X)

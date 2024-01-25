@@ -4,6 +4,9 @@ tags:
   - inbox
   - SR_art
   - outline
+sr-due: 2024-01-27
+sr-interval: 2
+sr-ease: 246
 ---
 
 # My Art

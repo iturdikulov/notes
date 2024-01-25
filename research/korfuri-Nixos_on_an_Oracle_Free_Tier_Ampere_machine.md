@@ -4,12 +4,13 @@ tags:
   - inbox
   - research
   - SR_development
-author: korfuri
+author:
+  - korfuri
 external:
   - https://blog.korfuri.fr/posts/2022/08/nixos-on-an-oracle-free-tier-ampere-machine/
-sr-due: 2023-10-06
-sr-interval: 3
-sr-ease: 268
+sr-due: 2024-03-21
+sr-interval: 56
+sr-ease: 168
 ---
 
 # [[NixOS]] on an Oracle Free Tier Ampere machine. Success!

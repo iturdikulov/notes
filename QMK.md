@@ -4,6 +4,9 @@ directory: ~/Computer/hardware/QMK
 tags:
   - inbox
   - SR_software
+sr-due: 2024-01-30
+sr-interval: 5
+sr-ease: 248
 ---
 
 # QMK Firmware

@@ -19,7 +19,7 @@ require only one step.
 
 Array reading require (steps) ==only one step, $\mathcal{O}(1)$==, because we
 can retrieve value by some computation (array address + index).
-<!--SR:!2023-07-31,12,250-->
+<!--SR:!2024-01-30,5,230-->
 
 ![shopping list array](./img/shopping_list_array.excalidraw.svg)
 _Schematic array representation in memory_
@@ -82,7 +82,7 @@ For both kinds of arrays (sorted and unsorted), if they contain N elements,
 linear search can take up to ==N steps==. But if you use a binary search, which
 can be used with ordered arrays, effectiveness of search will raise
 dramatically.
-<!--SR:!2023-07-22,3,250-->
+<!--SR:!2024-02-01,7,250-->
 
 ### Binary search for ordered array
 
@@ -109,7 +109,7 @@ x x ? ?            # we eliminated 2 items, because 7 is more than 4
 Array insertion is operation of?
 ?
 Adding a new value to an additional slot within the array.
-<!--SR:!2023-07-22,3,250-->
+<!--SR:!2024-01-27,2,230-->
 
 When computer allocating an array, the computer always keeps track of the
 array's ==size==.

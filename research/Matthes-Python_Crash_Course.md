@@ -9,6 +9,9 @@ tags:
   - research
   - inbox
   - SR_programming
+sr-due: 2024-01-29
+sr-interval: 4
+sr-ease: 190
 ---
 
 # Python Crash Course

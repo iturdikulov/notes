@@ -2,6 +2,9 @@
 date: 2023-04-02
 tags:
   - inbox
+sr-due: 2024-02-10
+sr-interval: 16
+sr-ease: 291
 ---
 
 # Android (operating system)

@@ -2,6 +2,9 @@
 date: 2022-12-29
 tags:
   - inbox
+sr-due: 2024-02-03
+sr-interval: 9
+sr-ease: 250
 ---
 
 # Unix

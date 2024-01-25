@@ -9,8 +9,8 @@ tags:
 external:
   - https://godotengine.github.io/godot-demo-projects/
 directory: ~/Computer/graphics/Godot_Community-Godot_demo_projects/
-sr-due: 2023-10-07
-sr-interval: 4
+sr-due: 2024-07-02
+sr-interval: 159
 sr-ease: 272
 ---
 

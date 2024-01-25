@@ -3,6 +3,9 @@ date: 2022-12-29
 tags:
   - inbox
   - SR_computer_science
+sr-due: 2024-01-26
+sr-interval: 1
+sr-ease: 221
 ---
 
 # Array (computer science)
@@ -25,7 +28,7 @@ when you create it). Array usually at least has an **address** in memory and
 (location of elements or address), and first index is `0`.
 
 size_of_array = last_index ==+ 1==
-<!--SR:!2023-07-21,2,236-->
+<!--SR:!2024-01-29,4,236-->
 
 | 0   | 1   | 2   | 3   | 4   | 5   |
 | --- | --- | --- | --- | --- | --- |
@@ -71,7 +74,7 @@ lives== inside the array.
 In most programming languages, arrays are ==zero-indexed==, meaning that the
 first element of the array is at index 0, the second element is at index 1, and
 so on.
-<!--SR:!2023-07-20,1,219-->
+<!--SR:!2024-01-27,2,219-->
 
 ```mermaid
 graph LR

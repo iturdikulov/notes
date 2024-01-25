@@ -3,6 +3,9 @@ date: 2023-09-15
 tags:
   - inbox
 directory: ~/Arts_and_Entertainment/manga/
+sr-due: 2024-01-30
+sr-interval: 5
+sr-ease: 248
 ---
 
 # Manga

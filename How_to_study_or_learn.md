@@ -7,6 +7,8 @@ tags:
 
 # How to study or learn
 
+TODO: flashcards are not ideal, need to review
+
 > Education is a **purposeful activity** directed at **achieving certain aims**,
 > such as transmitting knowledge or fostering skills and character traits. These
 > aims may include the development of understanding, rationality, kindness, and
@@ -24,6 +26,7 @@ it's fact, what it does concept.
 
 ==Concepts== are more important than facts. Learning only facts it's waste of
 time. Try to understand the essence of thing and facts about it.
+<!--SR:!2024-01-26,1,230-->
 
 To test yourself try to put the concept in ==your own words==. If you can't do
 it, you probably really don't understand it, and you need spent time to make it
@@ -44,6 +47,7 @@ after finishing studying.
 
 1. Study with social groups increase your ==motivation== and help you to learn.
    It's also provided challenge and competition.
+<!--SR:!2024-01-26,1,230-->
 
 1. Read the ==whole chunk of material== and then get back and read and
    understand the 1st paragraph again, one by one.

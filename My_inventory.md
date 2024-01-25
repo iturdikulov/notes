@@ -3,6 +3,9 @@ date: 2022-12-28
 tags:
   - inbox
   - outline
+sr-due: 2024-01-26
+sr-interval: 1
+sr-ease: 230
 ---
 
 # My Inventory

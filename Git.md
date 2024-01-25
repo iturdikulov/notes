@@ -4,6 +4,9 @@ external: https://git-scm.com/
 tags:
   - inbox
   - SR_software
+sr-due: 2024-02-02
+sr-interval: 8
+sr-ease: 252
 ---
 
 # Git Version Control System

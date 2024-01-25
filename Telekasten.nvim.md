@@ -6,6 +6,9 @@ tags:
   - inbox
   - SR_software
   - SR_vim
+sr-due: 2024-01-26
+sr-interval: 1
+sr-ease: 226
 ---
 
 # Telekasten.nvim - working with a markdown zettelkasten / wiki and mixing it with a journal
