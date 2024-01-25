@@ -8,6 +8,9 @@ tags:
   - inbox
   - SR_programming
   - research
+sr-due: 2024-05-12
+sr-interval: 108
+sr-ease: 250
 ---
 
 # How to solve it

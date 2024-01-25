@@ -9,9 +9,9 @@ tags:
   - SR_programming
   - SR_computer_graphics
 directory: ~/Computer/graphics/Javidx9-Code_It_Yourself/
-sr-due: 2023-10-07
-sr-interval: 4
-sr-ease: 270
+sr-due: 2024-01-30
+sr-interval: 5
+sr-ease: 210
 ---
 
 # Code It Yourself

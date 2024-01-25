@@ -5,9 +5,9 @@ tags:
   - research
   - inbox
   - SR_computer_graphics
-sr-due: 2023-12-16
-sr-interval: 213
-sr-ease: 250
+sr-due: 2024-02-06
+sr-interval: 12
+sr-ease: 170
 directory: ~/Computer/graphics/Gumster-Blender_for_dummies
 ---
 

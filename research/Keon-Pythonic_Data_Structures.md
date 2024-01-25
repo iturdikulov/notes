@@ -9,9 +9,9 @@ tags:
   - SR_programming
   - SR_computer_science
 directory: ~/Computer/science/Keon-Pythonic_Data_Structures/
-sr-due: 2023-10-07
-sr-interval: 4
-sr-ease: 270
+sr-due: 2024-01-28
+sr-interval: 3
+sr-ease: 190
 ---
 
 # Pythonic Data Structures and Algorithms

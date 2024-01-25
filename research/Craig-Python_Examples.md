@@ -8,9 +8,9 @@ tags:
   - inbox
   - SR_programming
 directory: ~/Computer/programming/Craig-Python_Examples/
-sr-due: 2023-10-07
-sr-interval: 4
-sr-ease: 270
+sr-due: 2024-01-31
+sr-interval: 6
+sr-ease: 210
 ---
 
 # Python Examples

@@ -10,6 +10,9 @@ tags:
   - SR_computer_science
 external:
   - https://teachyourselfcs.com/
+sr-due: 2024-01-27
+sr-interval: 2
+sr-ease: 130
 ---
 
 # Teach Yourself Computer Science

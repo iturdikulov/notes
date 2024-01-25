@@ -6,9 +6,9 @@ tags:
   - inbox
   - SR_programming
   - SR_development
-sr-due: 2023-12-11
-sr-interval: 208
-sr-ease: 248
+sr-due: 2024-02-01
+sr-interval: 7
+sr-ease: 148
 directory: ~/Computer/programming/McConnell-Code_complete
 ---
 

@@ -3,8 +3,8 @@ date: 2023-04-16
 directory: ~/Science/
 tags:
   - inbox
-sr-due: 2024-01-26
-sr-interval: 1
+sr-due: 2024-01-31
+sr-interval: 6
 sr-ease: 228
 ---
 

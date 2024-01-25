@@ -9,6 +9,9 @@ tags:
   - research
   - inbox
   - SR_vim
+sr-due: 2024-02-23
+sr-interval: 29
+sr-ease: 206
 ---
 
 # Practical Vim: Edit text at the speed of thought

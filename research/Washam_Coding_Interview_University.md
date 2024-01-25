@@ -9,9 +9,9 @@ tags:
   - SR_programming
   - SR_computer_science
 directory: ~/Computer/science/Washam_Coding_Interview_University/
-sr-due: 2023-10-06
-sr-interval: 3
-sr-ease: 250
+sr-due: 2024-02-09
+sr-interval: 15
+sr-ease: 230
 ---
 
 # Coding Interview University

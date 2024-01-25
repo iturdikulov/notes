@@ -10,6 +10,9 @@ tags:
   - research
   - inbox
   - SR_development
+sr-due: 2024-02-11
+sr-interval: 17
+sr-ease: 248
 ---
 
 # How Does the Internet Work?

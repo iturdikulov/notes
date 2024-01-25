@@ -8,9 +8,9 @@ tags:
   - inbox
   - SR_programming
 directory: ~/Computer/science/Martin-System_Design_Primer/
-sr-due: 2023-10-06
-sr-interval: 3
-sr-ease: 250
+sr-due: 2024-02-08
+sr-interval: 14
+sr-ease: 230
 ---
 
 # The System Design Primer

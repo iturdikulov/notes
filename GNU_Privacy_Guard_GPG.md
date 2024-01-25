@@ -3,8 +3,8 @@ date: 2022-12-29
 tags:
   - inbox
   - SR_software
-sr-due: 2024-01-26
-sr-interval: 1
+sr-due: 2024-02-05
+sr-interval: 11
 sr-ease: 232
 ---
 
