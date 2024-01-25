@@ -2,7 +2,7 @@
 date: 2023-12-29
 tags:
   - inbox
-  - computer_graphics
+  - SR_computer_graphics
 ---
 
 # Raster graphics editor (graphics editor)

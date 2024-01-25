@@ -5,7 +5,7 @@ date: 2023-08-26
 tags:
   - inbox
   - research
-  - mathematics
+  - SR_mathematics
 sr-due: 2023-08-28
 sr-interval: 1
 sr-ease: 230

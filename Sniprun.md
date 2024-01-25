@@ -2,16 +2,14 @@
 date: 2022-12-29
 tags:
   - inbox
-  - vim
-  - software
-  - spaced_repetition
+  - SR_vim
 ---
 
 # Sniprun
 
-SnipRun selection::<kbd>f</kbd> SnipRun initial mode::<kbd><leader>ze</kbd>
-SnipRun, useful to check specific line, if code already
-loaded/executed::<kbd><leader>zee</kbd>
+SnipRun selection::<kbd>f</kbd> 
+SnipRun initial mode::<kbd><leader>ze</kbd>
+SnipRun run::<kbd><leader>zee</kbd>
 
 Get output from code blocks
 
@@ -35,5 +33,4 @@ int main(int argc,char **argv) {
   exit(0);
 }
 ```
-
-<!-- TODO: add more examples -->
+TODO: add more examples

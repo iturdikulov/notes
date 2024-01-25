@@ -1,9 +1,8 @@
 ---
 date: 2022-12-29
 tags:
-  - development
-  - software
-  - spaced_repetition
+  - inbox
+  - SR_productivity
 ---
 
 # Zathura document viewer

@@ -6,8 +6,7 @@ directory: ~/Computer/programming/Kernighan_and_Ritchie-The_C_programming_langua
 tags:
   - research
   - inbox
-  - programming
-  - spaced_repetition
+  - SR_programming
 ---
 
 # The C Programming Language

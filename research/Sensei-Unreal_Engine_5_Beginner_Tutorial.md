@@ -3,9 +3,9 @@ date: 2023-10-02
 author: Unreal Sensei
 tags:
   - inbox
-  - computer_graphics
+  - SR_computer_graphics
   - research
-  - game
+  - SR_game
 external:
   - https://www.youtube.com/watch?v=k-zMkzmduqI
 directory: ~/Computer/graphics/Sensei-Unreal_Engine_5_Beginner_Tutorial/

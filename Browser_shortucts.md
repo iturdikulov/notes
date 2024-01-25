@@ -2,9 +2,7 @@
 date: 2023-03-16
 tags:
   - inbox
-  - outline
-  - development
-  - spaced_repetition
+  - SR_productivity
 ---
 
 # Browser shortcuts

@@ -6,7 +6,7 @@ date: 2023-08-18
 tags:
   - research
   - inbox
-  - programming
+  - SR_programming
 directory: ~/Computer/programming/Kernighan_and_Ritchie-The_C_programming_language/Costrasel-The_C_Programming_Language_Solutions/
 sr-due: 2023-10-04
 sr-interval: 1

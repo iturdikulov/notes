@@ -3,7 +3,7 @@ date: 2023-09-19
 tags:
   - inbox
   - research
-  - computer_science
+  - SR_computer_science
 author: Harold Abelson; Gerald Jay Sussman
 directory: ~/Computer/programming/Abelson_and_Sussman-SICP/
 external:

@@ -3,7 +3,7 @@ external: https://www.jetbrains.com/pycharm/
 date: 2023-03-15
 tags:
   - inbox
-  - software
+  - SR_software
 ---
 
 # PyCharm

@@ -2,7 +2,7 @@
 date: 2023-06-16
 tags:
   - inbox
-  - software
+  - SR_software
 ---
 
 # FFmpeg - A complete, cross-platform solution to record, convert and stream audio and video.

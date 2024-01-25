@@ -2,7 +2,7 @@
 date: 2023-09-19
 tags:
   - inbox
-  - software
+  - SR_software
 ---
 
 # My awesome web services list

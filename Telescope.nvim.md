@@ -3,8 +3,8 @@ external:
 date: 2023-04-06
 tags:
   - inbox
-  - software
-  - vim
+  - SR_software
+  - SR_vim
 ---
 
 # telescope.nvim

@@ -1,11 +1,11 @@
 ---
-external: https://www.duolingo.com/
+external:
+  - https://www.duolingo.com/
 date: 2023-05-06
 tags:
   - inbox
   - outline
-  - english
-  - spaced_repetition
+  - SR_english
 ---
 
 # Duolingo

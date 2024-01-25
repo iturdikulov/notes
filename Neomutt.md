@@ -2,7 +2,7 @@
 date: 2023-04-19
 tags:
   - inbox
-  - software
+  - SR_software
 ---
 
 # Neomutt

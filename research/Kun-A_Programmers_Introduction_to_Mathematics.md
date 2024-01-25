@@ -2,7 +2,7 @@
 tags:
   - research
   - inbox
-  - mathematics
+  - SR_mathematics
 author: Jeremy Kun
 external:
   - https://j2kun.gumroad.com/l/pim-book

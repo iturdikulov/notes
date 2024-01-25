@@ -4,7 +4,7 @@ date: 2021
 tags:
   - research
   - inbox
-  - vim
+  - SR_vim
 sr-due: 2023-11-14
 sr-interval: 181
 sr-ease: 248

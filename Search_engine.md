@@ -2,8 +2,7 @@
 date: 2023-04-03
 tags:
   - inbox
-  - development
-  - spaced_repetition
+  - SR_development
 ---
 
 # Search engine

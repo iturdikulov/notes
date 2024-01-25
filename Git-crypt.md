@@ -2,7 +2,7 @@
 date: 2023-07-21
 tags:
   - inbox
-  - software
+  - SR_software
 ---
 
 # Git-crypt

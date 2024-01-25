@@ -3,7 +3,7 @@ date: 2023-03-12
 tags:
   - inbox
   - research
-  - programming
+  - SR_programming
 ---
 
 # The Python Standard Library

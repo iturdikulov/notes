@@ -4,8 +4,8 @@ external:
   - https://www.unrealengine.com/en-US/linux
 tags:
   - inbox
-  - software
-  - game
+  - SR_software
+  - SR_game
 ---
 
 # Unreal Engine

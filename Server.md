@@ -2,7 +2,7 @@
 date: 2023-03-21
 tags:
   - inbox
-  - development
+  - SR_development
 ---
 
 # Server (computing)

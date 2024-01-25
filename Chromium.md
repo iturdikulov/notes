@@ -2,7 +2,7 @@
 date: 2023-06-07
 tags:
   - inbox
-  - software
+  - SR_software
 ---
 
 # Chromium browser

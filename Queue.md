@@ -2,7 +2,7 @@
 date: 2023-05-19
 tags:
   - inbox
-  - computer_science
+  - SR_computer_science
 ---
 
 # Queue (abstract data type)

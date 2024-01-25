@@ -8,8 +8,7 @@ directory: ~/Computer/software/Neil-Practical_Vim
 tags:
   - research
   - inbox
-  - vim
-  - spaced_repetition
+  - SR_vim
 ---
 
 # Practical Vim: Edit text at the speed of thought

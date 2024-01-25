@@ -2,7 +2,7 @@
 date: 2023-03-19
 tags:
   - inbox
-  - programming
+  - SR_programming
 ---
 
 # Initialization (programming)

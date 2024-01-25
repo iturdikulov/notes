@@ -3,7 +3,7 @@ external: https://termux.dev/
 date: 2023-04-10
 tags:
   - inbox
-  - software
+  - SR_software
 ---
 
 # Termux

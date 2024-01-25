@@ -2,7 +2,7 @@
 date: 2023-04-29
 tags:
   - inbox
-  - programming
+  - SR_programming
 ---
 
 # Map (higher-order function, aka apply-to-all)

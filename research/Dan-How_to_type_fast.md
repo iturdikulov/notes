@@ -2,7 +2,7 @@
 tags:
   - research
   - inbox
-  - productivity
+  - SR_productivity
 author: Dan
 date: 2023
 external:

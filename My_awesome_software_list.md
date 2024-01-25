@@ -2,7 +2,7 @@
 date: 2023-03-12
 tags:
   - outline
-  - software
+  - SR_software
 ---
 
 # My awesome software list
@@ -13,18 +13,69 @@ other notes.
 Check also [[My_shell_scripts|my scripts]] and
 [[Hidden_file_and_hidden_directory_dotfiles|dotfiles]].
 
-## Favorites
+Table Of Contents:
 
-### Tier 1
+- [Audio](#audio)
+- [Chat Clients](#Chat\ Clients)
+- [Data Backup and Recovery](#data-backup-and-recovery)
+- [Desktop](#desktop--window-manager--customization)
+- [Development](#development)
+- [Books](#books)
+- [Education](#education)
+- [Email](#email)
+- [File Manager](#file-manager)
+- [Games](#games)
+- [Gaming Applications](#gaming-applications)
+- [Machine Emulators](#machine-emulators)
+- [Graphics](#graphics)
+- [Internet](#internet)
+- [Office](#office)
+- [Productivity](#productivity)
+- [Proxy & VPN](#proxy--vpn)
+- [Security](#security)
+- [Sharing Files](#sharing-files)
+- [Terminal](#terminal)
+- [Text Editors](#text-editors)
+- [Utilities](#utilities)
+- [Video](#video)
+- [Wiki Software](#wiki-software)
+- [Others](#others)
 
-- [Neovim](https://neovim.io/) - vim-fork focused on extensibility and agility,
-  * [[Neovim]] - main PDE environment
-  * [[Telekasten.nvim]] - personal [[Zettelkasten]]
-  * [[Sniprun]] - run code blocks (mostly in research notes).
-- [[Obsidian]] - a knowledge base that works on local Markdown files. Used
-mostly to render markdown notes and to organize
-[[Spaced_repetition|spaced repetition]] system.
+## Audio
+
+- [Audacity](https://www.audacityteam.org/) - multi-track audio editor
+- [Spotity](https://www.spotify.com/) - music streaming service, with electron
+  client
+- [Brain.fm](https://www.brain.fm/) - music streaming service
+
+## Chat Clients
+
+- [slack-desktop](https://slack.com/) - Slack Desktop for Linux
+- [discord](https://discord.com/) - Discord Instant Messenger
+- [Telegram Desktop](https://desktop.telegram.org/) - Telegram Desktop
+- [bitlbee](https://www.bitlbee.org/) - IRC to other chat networks gateway, [[Bitlbee|more_info]]
+
+## Data Backup and Recovery
+
+## Desktop
+
+- [i3](https://i3wm.org/) tiling window manager, used a lot, but now I use DWM.
+
+## Development
+
+- [[Neovim]] - main PDE environment
 - [[Pycharm]] - IDE for Python
+
+## Books
+
+- [[Calibre]] - e-book management software.
+
+## RND
+
+- [[Telekasten.nvim]] - personal [[Zettelkasten]]
+- [[Obsidian]] - a knowledge base that works on local Markdown files. Used
+  mostly to render markdown notes and to organize [[Spaced_repetition|spaced
+  repetition]] system.
 - [Firefox](https://www.mozilla.org/en-US/firefox/new/) - web browser,
   [[Firefox|more_info]]
 - [[Taskwarrior]] - command-line to-do list manager
@@ -39,7 +90,7 @@ mostly to render markdown notes and to organize
 
 - Qucs-s - circuit simulator with graphical user interface
 - Fritzing - is an electronics design and prototyping platform for makers,
-hobbyists, and educators.
+  hobbyists, and educators.
 - [[Inkscape]] - open source vector graphics editor,
 - [[Darktable]] - photography workflow application and raw developer
 - [[Natron]] - open source compositing software
@@ -94,7 +145,6 @@ TODO: restructure, instead more_info, use linking to notes!
 - [github-cli](https://cli.github.com/) - The GitHub CLI
 - [glab](https://gitlab.com/gitlab-org/cli/) - The GitLab CLI
 
-
 - [indent](https://www.gnu.org/software/indent/) - GNU Indent, make code easier
   to read
 - [ansible](https://www.ansible.com/) - Ansible is a radically simple IT
@@ -102,8 +152,7 @@ TODO: restructure, instead more_info, use linking to notes!
 - [NNN (n³)](https://github.com/jarun/nnn) - nnn (n³) is a full-featured
   terminal file manager, [[Nnn_file_manager|more_info]]
 - [[leetcode-cli]] - command line tool to solve [[LeetCode]] problems from
-terminal
-
+  terminal
 
 ## Internet
 
@@ -111,19 +160,13 @@ terminal
   Chromium, [[Brave]]
 - [NeoMutt](https://neomutt.org/) - message user agent (MUA),
   [[Neomutt|more_info]], not use anymore
-- [Telegram Desktop](https://desktop.telegram.org/) - Telegram Desktop
-- [bitlbee](https://www.bitlbee.org/) - IRC to other chat networks gateway,
-  [[Bitlbee|more_info]]
 - [[Surfingkeys]] - keyboard-based navigation in web browser
-- [slack-desktop](https://slack.com/) - Slack Desktop for Linux
-- [discord](https://discord.com/) - Discord Instant Messenger
 - [lynx](https://lynx.invisible-island.net/) - text-based web browser
 - [[Miniflux]] - RSS reader, web application, not use anymore
 - [[Newsboat]] - CLI RSS reader, console application
 
 ## Graphics
 
-- [Audacity](https://www.audacityteam.org/) - multi-track audio editor
 - [maim](https://github.com/naelstrof/maim) - take screenshots of your desktop
 - [imagemagic](https://imagemagick.org/index.php) - create, edit, compose, or
   convert digital images
@@ -132,6 +175,7 @@ terminal
   [[Nomad_sculpt|more_info]]
 
 ## Utilities
+
 - [[Sdcv]] - console version of StarDict dictionary
 - [[Termdown]] - Countdown timer and stopwatch in your terminal
 - [kitty](https://sw.kovidgoyal.net/kitty/) - The fast, feature-rich, GPU based
@@ -318,7 +362,7 @@ terminal
 
 ## Archive
 
-- [i3](https://i3wm.org/) tiling window manager, used a lot, but now I use
+
   [[DWM|dwm]]
 - [GIMP](https://www.gimp.org/) - GNU Image Manipulation Program, fine but krita
   good enough for me
@@ -352,6 +396,7 @@ terminal
 ## Android
 
 TODO: actualize this list
+
 - [[Termux]]
 - [[Tachiyomi]]
 - [[KOReader]], manual - [[research/KOReader_Community-KOReader_user_guide]].

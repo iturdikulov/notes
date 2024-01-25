@@ -2,9 +2,7 @@
 date: 2023-08-05
 tags:
   - inbox
-  - development
-  - software
-  - spaced_repetition
+  - SR_productivity
 ---
 
 # Termdown

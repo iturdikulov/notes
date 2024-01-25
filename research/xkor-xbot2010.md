@@ -3,7 +3,7 @@ date: 2023-09-14
 tags:
   - inbox
   - research
-  - programming
+  - SR_programming
 external:
   - http://coderx.ru/showthread.php?t=9575&highlight=xBot2010
 archive: true

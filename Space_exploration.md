@@ -2,7 +2,7 @@
 date: 2024-01-23
 tags:
   - inbox
-  - physics
+  - SR_physics
 ---
 
 # Space exploration

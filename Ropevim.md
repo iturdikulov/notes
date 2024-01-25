@@ -2,8 +2,8 @@
 date: 2023-06-09
 tags:
   - inbox
-  - software
-  - vim
+  - SR_software
+  - SR_vim
 ---
 
 # Ropevim, rope in vim

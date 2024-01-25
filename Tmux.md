@@ -2,8 +2,7 @@
 date: 2023-09-10
 tags:
   - inbox
-  - development
-  - spaced_repetition
+  - SR_productivity
 ---
 
 # Tmux

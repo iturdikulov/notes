@@ -8,8 +8,7 @@ sr-ease: 250
 tags:
   - research
   - inbox
-  - programming
-  - spaced_repetition
+  - SR_programming
 ---
 
 # Python Crash Course

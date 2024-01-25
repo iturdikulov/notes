@@ -3,7 +3,7 @@ external: https://chat.openai.com/chat
 date: 2023-03-12
 tags:
   - inbox
-  - software
+  - SR_software
 ---
 
 # ChatGPT, short for Chat Generative Pre-trained Transformer

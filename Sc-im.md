@@ -2,7 +2,7 @@
 date: 2023-04-08
 tags:
   - inbox
-  - software
+  - SR_software
 ---
 
 # sc-im

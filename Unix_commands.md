@@ -3,7 +3,7 @@ date: 2023-10-09
 tags:
   - inbox
   - outline
-  - software
+  - SR_software
 ---
 
 # Unix commands

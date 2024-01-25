@@ -2,9 +2,8 @@
 date: 2024-01-01
 tags:
   - inbox
-  - computer_graphics
-  - spaced_repetition
-  - game
+  - SR_computer_graphics
+  - SR_game
 directory: ~/Computer/graphics/Heartbeast-Godot_Tutorials/
 ---
 

@@ -2,7 +2,6 @@
 date: 2023-04-02
 tags:
   - inbox
-  - development
 ---
 
 # Android (operating system)

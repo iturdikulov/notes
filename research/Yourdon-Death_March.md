@@ -4,7 +4,7 @@ author: Edward Yourdon
 tags:
   - inbox
   - research
-  - development
+  - SR_development
 directory: "~/Arts_and_Entertainment/literature/Edward Yourdon/Death march_ the complete software developer's guide to surviving _mission impossible_ projects (2375)/"
 ---
 

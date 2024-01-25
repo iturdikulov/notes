@@ -2,7 +2,7 @@
 date: 2023-05-24
 tags:
   - inbox
-  - development
+  - SR_development
 ---
 
 # Integrated development environment (IDE)

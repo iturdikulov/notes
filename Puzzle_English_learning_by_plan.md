@@ -2,7 +2,7 @@
 date: 2023-03-14
 tags:
   - inbox
-  - english
+  - SR_english
 ---
 
 # Puzzle English learning by plan

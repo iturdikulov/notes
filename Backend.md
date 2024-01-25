@@ -3,8 +3,7 @@ date: 2023-09-21
 tags:
   - inbox
   - outline
-  - programming
-  - spaced_repetition
+  - SR_programming
 ---
 
 # Backend

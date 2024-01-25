@@ -2,8 +2,7 @@
 date: 2023-03-12
 tags:
   - inbox
-  - productivity
-  - spaced_repetition
+  - SR_productivity
 ---
 
 # Spaced repetition

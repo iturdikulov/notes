@@ -2,7 +2,7 @@
 date: 2023-03-12
 tags:
   - inbox
-  - computer_graphics
+  - SR_computer_graphics
 ---
 
 # 3D computer graphics

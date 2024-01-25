@@ -1,11 +1,11 @@
 ---
 date: 2024-01-01
-external: https://learnxinyminutes.com/docs/rust/
+external:
+  - https://learnxinyminutes.com/docs/rust/
 tags:
   - inbox
-  - programming
+  - SR_programming
   - research
-  - spaced_repetition
 ---
 
 # Learn Rust in Y minutes

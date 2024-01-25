@@ -2,8 +2,7 @@
 date: 2023-04-01
 tags:
   - inbox
-  - programming
-  - spaced_repetition
+  - SR_programming
 ---
 
 # Function overloading (method overloading)

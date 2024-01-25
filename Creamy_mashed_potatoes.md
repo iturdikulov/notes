@@ -2,7 +2,7 @@
 date: 2023-03-11
 tags:
   - inbox
-  - IRL
+  - SR_IRL
 ---
 
 # Creamy Mashed Potatoes

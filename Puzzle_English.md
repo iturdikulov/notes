@@ -3,7 +3,7 @@ external: https://puzzle-english.com/
 date: 2022-12-29
 tags:
   - inbox
-  - english
+  - SR_english
 ---
 
 # Puzzle English

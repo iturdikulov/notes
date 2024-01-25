@@ -2,11 +2,11 @@
 date: 2023-11-09
 tags:
   - inbox
-  - development
+  - SR_development
 ---
 
 # Brute-force attack
-
+?
 > In [[Cryptography|cryptography]], a brute-force attack consists of an attacker
 > submitting many passwords or passphrases with the hope of eventually guessing
 > correctly. The attacker systematically checks all possible passwords and

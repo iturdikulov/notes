@@ -2,7 +2,7 @@
 date: 2023-08-28
 tags:
   - inbox
-  - art
+  - SR_art
 ---
 
 # Turing Complete video game

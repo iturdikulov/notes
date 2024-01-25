@@ -2,7 +2,7 @@
 date: 2023-06-17
 tags:
   - inbox
-  - software
+  - SR_software
 ---
 
 # ripgrep

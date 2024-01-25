@@ -3,7 +3,7 @@ date: 2023-03-10
 tags:
   - inbox
   - outline
-  - productivity
+  - SR_productivity
 directory: ~/Wiki/
 ---
 
@@ -25,7 +25,7 @@ TODO: Need describe these principles
 - Prefer relationships to hierarchy
 - Write notes in personal-aware style, instead public-aware style
 
-Notes can have various [[Zettelkasten_note_type|types]].
+Notes can have various [[Zettelkasten_notes_type|types]].
 
 I use [[Telekasten.nvim]] plugin to manage my notes with [[Zettelkasten]] method.
 

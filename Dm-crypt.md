@@ -2,7 +2,7 @@
 date: 2022-12-29
 tags:
   - inbox
-  - software
+  - SR_software
 ---
 
 # dm-crypt

@@ -2,8 +2,7 @@
 date: 2023-06-28
 tags:
   - inbox
-  - computer_science
-  - spaced_repetition
+  - SR_computer_science
 ---
 
 # Array operations

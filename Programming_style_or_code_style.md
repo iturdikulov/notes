@@ -2,7 +2,7 @@
 date: 2023-03-18
 tags:
   - inbox
-  - programming
+  - SR_programming
 ---
 
 # Programming style (code style)

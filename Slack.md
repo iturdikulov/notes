@@ -2,8 +2,8 @@
 date: 2023-06-04
 tags:
   - inbox
-  - development
-  - software
+  - SR_development
+  - SR_software
 ---
 
 # Slack

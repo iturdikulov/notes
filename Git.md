@@ -3,7 +3,7 @@ date: 2022-12-29
 external: https://git-scm.com/
 tags:
   - inbox
-  - software
+  - SR_software
 ---
 
 # Git Version Control System

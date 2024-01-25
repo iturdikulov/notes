@@ -3,11 +3,11 @@ external: https://simple.wikipedia.org/wiki/Computer_network
 date: 2023-03-21
 tags:
   - inbox
-  - backend
+  - SR_development
 ---
 
 # Computer network
-
+?
 Set of [[Computer|computers]] sharing resources located on or provided by
 [[Node|network_nodes]].
 

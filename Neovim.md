@@ -2,8 +2,8 @@
 date: 2023-02-20
 tags:
   - inbox
-  - vim
-  - software
+  - SR_vim
+  - SR_software
 external: https://neovim.io/
 directory: ~/Computer/software/nvim/
 ---

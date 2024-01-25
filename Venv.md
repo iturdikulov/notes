@@ -2,7 +2,7 @@
 date: 2023-06-18
 tags:
   - inbox
-  - software
+  - SR_software
 ---
 
 # venv — Creation of virtual environments

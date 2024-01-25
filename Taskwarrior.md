@@ -2,7 +2,7 @@
 date: 2023-06-25
 tags:
   - inbox
-  - productivity
+  - SR_productivity
 directory: ~/.task
 ---
 

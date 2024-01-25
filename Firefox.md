@@ -2,8 +2,7 @@
 date: 2023-03-05
 tags:
   - inbox
-  - software
-  - spaced_repetition
+  - SR_software
 ---
 
 TODO: merge with [[Browser_shortucts]]

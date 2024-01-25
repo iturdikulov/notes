@@ -6,7 +6,7 @@ date: 2023-08-19
 tags:
   - research
   - inbox
-  - computer_graphics
+  - SR_computer_graphics
 directory: ~/Computer/graphics/Creative_Shrimp-Hard_Surface_Modeling_In_Blender
 sr-due: 2023-10-07
 sr-interval: 4

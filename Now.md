@@ -2,7 +2,7 @@
 date: 2023-05-14
 tags:
   - outline
-  - productivity
+  - SR_productivity
 ---
 
 # Now

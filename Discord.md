@@ -3,7 +3,7 @@ external: https://discord.com/app
 date: 2023-03-12
 tags:
   - inbox
-  - IRL
+  - SR_IRL
 ---
 
 # Discord

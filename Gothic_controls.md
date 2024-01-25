@@ -1,10 +1,10 @@
 ---
 date: 2023-08-28
-external: https://strategywiki.org/wiki/Gothic/Controls
+external:
+  - https://strategywiki.org/wiki/Gothic/Controls
 tags:
   - inbox
-  - game
-  - spaced_repetition
+  - SR_game
 ---
 
 # Gothic controls

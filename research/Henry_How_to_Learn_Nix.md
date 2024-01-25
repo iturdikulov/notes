@@ -3,7 +3,7 @@ author: Ian Henry
 tags:
   - inbox
   - research
-  - development
+  - SR_development
 created: 2023-07-17
 sr-due: 2023-08-25
 sr-interval: 1

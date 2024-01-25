@@ -2,7 +2,7 @@
 date: 2023-03-22
 tags:
   - inbox
-  - software
+  - SR_software
 ---
 
 # Borg

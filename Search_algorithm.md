@@ -2,7 +2,7 @@
 date: 2023-04-15
 tags:
   - inbox
-  - computer_science
+  - SR_computer_science
 ---
 
 # Search algorithm

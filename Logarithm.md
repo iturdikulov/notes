@@ -2,8 +2,7 @@
 date: 2023-03-19
 tags:
   - inbox
-  - mathematics
-  - spaced_repetition
+  - SR_mathematics
 ---
 
 # Logarithm

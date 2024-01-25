@@ -2,8 +2,8 @@
 tags:
   - inbox
   - research
-  - development
-  - software
+  - SR_development
+  - SR_software
 created: 2023-07-17
 sr-due: 2023-08-25
 sr-interval: 1

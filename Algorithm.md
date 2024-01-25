@@ -2,8 +2,8 @@
 date: 2023-03-18
 tags:
   - inbox
-  - computer_science
-  - mathematics
+  - SR_computer_science
+  - SR_mathematics
 ---
 
 # Algorithm

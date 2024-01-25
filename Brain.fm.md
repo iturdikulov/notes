@@ -3,7 +3,7 @@ external: https://my.brain.fm/focus
 date: 2023-03-12
 tags:
   - inbox
-  - productivity
+  - SR_productivity
 ---
 
 # Brain.fm

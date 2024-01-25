@@ -2,8 +2,7 @@
 date: 2022-12-29
 tags:
   - inbox
-  - computer_science
-  - spaced_repetition
+  - SR_computer_science
 ---
 
 # Data structures

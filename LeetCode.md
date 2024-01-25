@@ -6,7 +6,7 @@ date: 2022-12-29
 tags:
   - inbox
   - research
-  - computer_science
+  - SR_computer_science
 directory: ~/Computer/science/LeetCode_Team-LeetCode/
 ---
 

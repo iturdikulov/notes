@@ -2,7 +2,7 @@
 date: 2023-03-14
 tags:
   - inbox
-  - software
+  - SR_software
 ---
 
 # GNU sed (stream editor) is a non-interactive command-line text editor.

@@ -4,7 +4,7 @@ external:
   - https://learnxinyminutes.com/docs/javascript/
 tags:
   - inbox
-  - programming
+  - SR_programming
   - research
 ---
 

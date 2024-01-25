@@ -1,10 +1,10 @@
 ---
-external: https://github.com/SidOfc/mkdx
+external:
+  - https://github.com/SidOfc/mkdx
 date: 2023-04-05
 tags:
   - inbox
-  - vim
-  - spaced_repetition
+  - SR_vim
 ---
 
 # mkdx.vim

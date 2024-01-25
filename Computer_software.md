@@ -2,7 +2,7 @@
 date: 2022-12-29
 tags:
   - inbox
-  - software
+  - SR_software
 ---
 
 # Computer software
@@ -19,7 +19,10 @@ tags:
 > including display and the keyboard.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Computer_program)</cite>
 
+A Software is a [[Computer_program|program]] set, in which one or
+many programs are executed sequentially or simultaneously to perform a
+particular job.
 
-TODO: duplicate of [[Computer_program]]
-
-- [[My_awesome_software_list]]
+I track and maintain
+[[My_awesome_software_list|my software list and categories]],
+to quickly find what I need and used before.

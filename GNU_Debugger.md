@@ -2,7 +2,7 @@
 date: 2023-04-02
 tags:
   - inbox
-  - software
+  - SR_software
 ---
 
 # GNU Project debugger

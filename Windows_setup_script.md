@@ -2,7 +2,7 @@
 date: 2023-05-20
 tags:
   - inbox
-  - software
+  - SR_software
 ---
 
 # Windows Setup Script

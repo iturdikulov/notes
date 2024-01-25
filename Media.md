@@ -2,7 +2,7 @@
 date: 2022-12-29
 tags:
   - inbox
-  - art
+  - SR_art
 ---
 
 # Media (communication)

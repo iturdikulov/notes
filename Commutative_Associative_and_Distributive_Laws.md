@@ -2,7 +2,7 @@
 date: 2023-05-18
 tags:
   - inbox
-  - mathematics
+  - SR_mathematics
 external: https://www.mathsisfun.com/associative-commutative-distributive.html
 ---
 

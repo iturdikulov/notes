@@ -2,7 +2,7 @@
 date: 2023-10-06
 tags:
   - inbox
-  - computer_graphics
+  - SR_computer_graphics
 ---
 
 # Three-dimensional space (3D space, 3-space)

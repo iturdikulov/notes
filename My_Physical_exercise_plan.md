@@ -4,7 +4,7 @@ tags:
   - inbox
   - outline
   - research
-  - IRL
+  - SR_IRL
 ---
 
 # Physical exercise plan

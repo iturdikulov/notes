@@ -3,7 +3,7 @@ date: 2023-09-13
 tags:
   - inbox
   - research
-  - programming
+  - SR_programming
 external: https://www.feldroy.com/books/two-scoops-of-django-3-x
 directory: ~/Computer/web/Greenfelds-Two_Scoops_of_Django_3.x
 sr-due: 2023-10-04

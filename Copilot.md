@@ -3,7 +3,7 @@ external: https://github.com/features/copilot/
 date: 2023-03-28
 tags:
   - inbox
-  - software
+  - SR_software
 ---
 
 # Copilot

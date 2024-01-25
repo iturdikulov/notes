@@ -2,8 +2,7 @@
 date: 2022-12-29
 tags:
   - inbox
-  - programming
-  - spaced_repetition
+  - SR_programming
 ---
 
 # Programming principles

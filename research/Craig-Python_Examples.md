@@ -6,7 +6,7 @@ date: 2023-08-19
 tags:
   - research
   - inbox
-  - programming
+  - SR_programming
 directory: ~/Computer/programming/Craig-Python_Examples/
 sr-due: 2023-10-07
 sr-interval: 4

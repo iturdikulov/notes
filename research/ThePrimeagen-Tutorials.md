@@ -5,8 +5,8 @@ external:
 date: 2023-08-15
 tags:
   - research
-  - vim
-  - programming
+  - SR_vim
+  - SR_programming
 directory: ~/Computer/programming/ThePrimeagen-Tutorials/
 ---
 

@@ -2,7 +2,7 @@
 date: 2023-05-01
 tags:
   - inbox
-  - programming
+  - SR_programming
 ---
 
 # ANSI C

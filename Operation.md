@@ -2,8 +2,7 @@
 date: 2023-03-18
 tags:
   - inbox
-  - mathematics
-  - spaced_repetition
+  - SR_mathematics
 ---
 
 # Operation (mathematics)

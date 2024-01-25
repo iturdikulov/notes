@@ -2,7 +2,7 @@
 date: 2023-08-12
 tags:
   - inbox
-  - software
+  - SR_software
 ---
 
 # xxd

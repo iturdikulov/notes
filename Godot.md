@@ -3,8 +3,8 @@ date: 2023-05-04
 external: https://www.godotengine.org/
 tags:
   - inbox
-  - game
-  - software
+  - SR_game
+  - SR_software
 ---
 
 # Godot Engine (game engine)

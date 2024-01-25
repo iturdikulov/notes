@@ -3,7 +3,7 @@ date: 2023-09-25
 tags:
   - inbox
   - research
-  - development
+  - SR_development
 author: korfuri
 external:
   - https://blog.korfuri.fr/posts/2022/08/nixos-on-an-oracle-free-tier-ampere-machine/

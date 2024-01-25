@@ -2,8 +2,7 @@
 date: 2023-04-04
 tags:
   - inbox
-  - vim
-  - spaced_repetition
+  - SR_vim
 ---
 
 # My editing workflow

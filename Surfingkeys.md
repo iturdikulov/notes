@@ -4,8 +4,7 @@ external:
 date: 2023-03-27
 tags:
   - outline
-  - spaced_repetition
-  - vim
+  - SR_vim
   - archive
 ---
 

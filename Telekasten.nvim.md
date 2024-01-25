@@ -4,8 +4,8 @@ external:
 date: 2023-04-06
 tags:
   - inbox
-  - software
-  - vim
+  - SR_software
+  - SR_vim
 ---
 
 # Telekasten.nvim - working with a markdown zettelkasten / wiki and mixing it with a journal

@@ -2,7 +2,7 @@
 tags:
   - "research"
   - "inbox"
-  - "vim"
+  - "SR_vim"
 author: "Drew Neil"
 date: 2018
 sr-due: 1678809600

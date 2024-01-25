@@ -4,7 +4,7 @@ external:
 date: 2023-08-15
 tags:
   - inbox
-  - development
+  - SR_development
 directory: ~/Computer/data/word_list/
 ---
 

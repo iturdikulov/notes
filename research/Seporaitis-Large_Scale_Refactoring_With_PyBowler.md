@@ -7,7 +7,7 @@ archive: true
 tags:
   - inbox
   - research
-  - programming
+  - SR_programming
 sr-due: 2023-10-05
 sr-interval: 2
 sr-ease: 246

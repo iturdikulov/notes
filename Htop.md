@@ -2,7 +2,7 @@
 date: 2023-02-03
 tags:
   - inbox
-  - software
+  - SR_software
 ---
 
 # htop

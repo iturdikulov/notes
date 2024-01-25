@@ -3,8 +3,7 @@ date: 2023-03-05
 author: David Allen
 tags:
   - inbox
-  - productivity
-  - spaced_repetition
+  - SR_productivity
 ---
 
 # Getting Things Done (GTD)

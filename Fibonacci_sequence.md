@@ -2,7 +2,7 @@
 date: 2023-03-16
 tags:
   - inbox
-  - mathematics
+  - SR_mathematics
 ---
 
 # Fibonacci sequence

@@ -1,10 +1,10 @@
 ---
-external: https://github.com/
+external:
+  - https://github.com/
 date: 2023-03-12
 tags:
   - inbox
-  - development
-  - spaced_repetition
+  - SR_development
 ---
 
 # GitHub

@@ -2,7 +2,7 @@
 date: 2023-01-27
 tags:
   - inbox
-  - software
+  - SR_software
 ---
 
 # diff

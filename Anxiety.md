@@ -2,8 +2,7 @@
 date: 2023-03-22
 tags:
   - inbox
-  - productivity
-  - spaced_repetition
+  - SR_productivity
 ---
 
 # Anxiety

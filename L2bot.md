@@ -2,7 +2,7 @@
 date: 2023-06-26
 tags:
   - inbox
-  - software
+  - SR_software
 ---
 
 # Lineage 2 bot

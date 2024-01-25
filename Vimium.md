@@ -2,9 +2,7 @@
 date: 2023-06-04
 tags:
   - outline
-  - vim
-  - software
-  - spaced_repetition
+  - SR_vim
 ---
 
 # Vimium - The Hacker's Browser

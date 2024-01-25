@@ -9,8 +9,7 @@ external:
 tags:
   - inbox
   - research
-  - programming
-  - spaced_repetition
+  - SR_programming
 ---
 
 # Comprehensive Python Cheatsheet

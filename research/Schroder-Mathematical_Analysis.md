@@ -4,7 +4,7 @@ author: Bernd S. W. Schröder
 tags:
   - inbox
   - research
-  - mathematics
+  - SR_mathematics
 directory: "~/Arts_and_Entertainment/literature/Bernd Schroder/Mathematical Analysis A Concise Introduction (2379)/"
 ---
 

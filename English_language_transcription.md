@@ -2,8 +2,7 @@
 date: 2023-02-20
 tags:
   - inbox
-  - english
-  - spaced_repetition
+  - SR_english
 ---
 
 # English transcription

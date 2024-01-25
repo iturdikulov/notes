@@ -3,7 +3,7 @@ external: https://simple.wikipedia.org/wiki/Movie
 date: 2023-07-12
 tags:
   - inbox
-  - art
+  - SR_art
 ---
 # Film (Movie)
 

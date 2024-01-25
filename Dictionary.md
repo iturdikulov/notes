@@ -2,8 +2,7 @@
 date: 2023-06-24
 tags:
   - inbox
-  - english
-  - spaced_repetition
+  - SR_english
 directory: ~/Reference/dictionary/
 ---
 

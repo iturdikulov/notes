@@ -7,7 +7,7 @@ sr-interval: 166
 tags:
   - inbox
   - research
-  - computer_science
+  - SR_computer_science
 external:
   - https://teachyourselfcs.com/
 ---

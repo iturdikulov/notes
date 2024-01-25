@@ -3,7 +3,7 @@ date: 2023-09-17
 tags:
   - inbox
   - research
-  - english
+  - SR_english
 author: Наталья Черниховская
 directory: ~/Arts_and_Entertainment/english/Черниховская-English_Start-up/
 sr-due: 2023-10-06

@@ -3,7 +3,7 @@ date: 2023-07-15
 external: https://www.darktable.org/
 tags:
   - inbox
-  - software
+  - SR_software
 ---
 
 # Darktable

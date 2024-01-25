@@ -2,7 +2,7 @@
 date: 2023-03-19
 tags:
   - inbox
-  - computer_science
+  - SR_computer_science
 ---
 
 # Word (computer architecture)

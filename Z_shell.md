@@ -2,9 +2,7 @@
 date: 2022-12-03
 tags:
   - inbox
-  - development
-  - software
-  - spaced_repetition
+  - SR_productivity
 ---
 
 # Z shell (zsh)

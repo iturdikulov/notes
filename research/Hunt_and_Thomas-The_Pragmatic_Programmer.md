@@ -1,7 +1,7 @@
 ---
 tags:
   - "research"
-  - "development"
+  - "SR_development"
 author: "Andrew Hunt; David Thomas"
 external: "https://pragprog.com/titles/tpp20/the-pragmatic-programmer-20th-anniversary-edition/"
 date: 2019

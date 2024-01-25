@@ -4,7 +4,7 @@ date: 1990
 directory: ~/Arts_and_Entertainment/literature/Yukito Kishiro/
 tags:
   - inbox
-  - manga
+  - SR_art
 ---
 
 # Gunnm aka Battle Angel Alita

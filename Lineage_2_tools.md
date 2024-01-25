@@ -2,7 +2,7 @@
 date: 2023-04-15
 tags:
   - inbox
-  - game
+  - SR_game
 ---
 
 # Lineage 2 tools

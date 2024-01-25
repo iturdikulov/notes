@@ -2,8 +2,8 @@
 date: 2024-01-17
 tags:
   - inbox
-  - computer_graphics
-  - software
+  - SR_computer_graphics
+  - SR_software
 ---
 
 # GIMP - GNU Image Manipulation Program

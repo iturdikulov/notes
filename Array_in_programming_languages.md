@@ -2,7 +2,7 @@
 date: 2023-06-24
 tags:
   - inbox
-  - computer_science
+  - SR_computer_science
 ---
 
 # Array in programming languages

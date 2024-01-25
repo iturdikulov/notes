@@ -3,9 +3,7 @@ date: 2023-01-01
 tags:
   - inbox
   - archive
-  - development
-  - software
-  - spaced_repetition
+  - SR_software
 ---
 
 # dmenu (dynamic menu for X)

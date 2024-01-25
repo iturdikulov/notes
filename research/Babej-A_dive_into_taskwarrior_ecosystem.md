@@ -4,12 +4,12 @@ date: 2020
 sr-due: 2023-08-25
 sr-interval: 1
 sr-ease: 228
-external: https://www.youtube.com/watch?v=tijnc65soEI
+external:
+  - https://www.youtube.com/watch?v=tijnc65soEI
 tags:
   - inbox
   - research
-  - productivity
-  - spaced_repetition
+  - SR_productivity
 ---
 
 #  A Dive into Taskwarrior Ecosystem

@@ -1,11 +1,11 @@
 ---
 author: Jay Wengrow
 date: 2020
-external: https://www.google.com/books/edition/A_Common_sense_Guide_to_Data_Structures/SKX5ygEACAAJ?hl=en
+external:
+  - https://pragprog.com/titles/jwdsal2
 tags:
-    - research
-    - computer_science
-external: https://pragprog.com/titles/jwdsal2
+  - research
+  - SR_computer_science
 directory: ~/Computer/science/Wengrow-Data_structures_and_algorithms/
 ---
 

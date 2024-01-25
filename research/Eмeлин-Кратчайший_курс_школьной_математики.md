@@ -1,7 +1,8 @@
 ---
 author: Eмeлин Aлeксaндр
 date: 2021-9-31
-external: https://mathter.pro/pesochnica/index.html
+external:
+  - https://mathter.pro/pesochnica/index.html
 sr-due: 2023-12-23
 sr-interval: 220
 sr-ease: 270
@@ -9,8 +10,7 @@ directory: ~/Science/math/Емелин-Кратчайший_курс_школь�
 tags:
   - research
   - inbox
-  - mathematics
-  - spaced_repetition
+  - SR_mathematics
 ---
 
 # Кратчайший курс школьной математики

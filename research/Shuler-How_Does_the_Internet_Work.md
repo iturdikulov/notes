@@ -1,15 +1,15 @@
 ---
 author: Rus Shuler
 date: 2002
-external: https://web.stanford.edu/class/msande91si/www-spr04/readings/week1/InternetWhitepaper.htm
+external:
+  - https://web.stanford.edu/class/msande91si/www-spr04/readings/week1/InternetWhitepaper.htm
 sr-due: 2023-10-06
 sr-interval: 3
 sr-ease: 268
 tags:
   - research
   - inbox
-  - backend
-  - spaced_repetition
+  - SR_development
 ---
 
 # How Does the Internet Work?

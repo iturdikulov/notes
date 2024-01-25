@@ -3,7 +3,7 @@ external: https://www.blender.org/
 date: 2023-03-04
 tags:
   - inbox
-  - software
+  - SR_software
 ---
 
 # Blender

@@ -6,8 +6,8 @@ directory: ~/Computer/graphics/Ulibarri-Unreal_Engine_5_C++_The_Ultimate_Game_De
 tags:
   - inbox
   - research
-  - computer_graphics
-  - game
+  - SR_computer_graphics
+  - SR_game
 ---
 
 # Stephen Ulibarri - Unreal Engine 5 C++ The Ultimate Game Developer Course

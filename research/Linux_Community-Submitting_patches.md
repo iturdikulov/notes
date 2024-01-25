@@ -3,8 +3,8 @@ date: 2023-09-18
 tags:
   - inbox
   - research
-  - programming
-  - development
+  - SR_programming
+  - SR_development
 external:
   - https://www.kernel.org/doc/html/latest/process/submitting-patches.html
   - https://www.kernel.org/doc/html/latest/process/submit-checklist.html

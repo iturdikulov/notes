@@ -4,7 +4,7 @@ external:
   - https://docs.python.org/3/glossary.html
 tags:
   - inbox
-  - programming
+  - SR_programming
   - research
 sr-due: 2023-10-04
 sr-interval: 1

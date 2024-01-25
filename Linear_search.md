@@ -2,8 +2,7 @@
 date: 2023-03-19
 tags:
   - inbox
-  - computer_science
-  - spaced_repetition
+  - SR_computer_science
 ---
 
 # Linear search (sequential search)

@@ -3,7 +3,7 @@ date: 2023-03-06
 directory: ~/Science/math/
 tags:
   - inbox
-  - mathematics
+  - SR_mathematics
 ---
 
 # Mathematics

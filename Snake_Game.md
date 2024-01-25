@@ -2,7 +2,7 @@
 date: 2023-09-14
 tags:
   - inbox
-  - game
+  - SR_game
 directory: ~/Computer/graphics/Snake_Game/
 ---
 

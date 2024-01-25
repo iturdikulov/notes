@@ -6,8 +6,8 @@ date: 2023-08-19
 tags:
   - research
   - inbox
-  - programming
-  - computer_graphics
+  - SR_programming
+  - SR_computer_graphics
 directory: ~/Computer/graphics/Javidx9-Code_It_Yourself/
 sr-due: 2023-10-07
 sr-interval: 4

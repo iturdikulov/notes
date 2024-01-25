@@ -2,7 +2,7 @@
 date: 2022-12-28
 tags:
   - outline
-  - IRL
+  - SR_IRL
 ---
 
 # My everyday life (routine)

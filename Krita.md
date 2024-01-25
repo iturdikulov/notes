@@ -1,11 +1,11 @@
 ---
 date: 2023-03-04
-external: https://krita.org/en/
+external:
+  - https://krita.org/en/
 tags:
   - inbox
-  - computer_graphics
-  - software
-  - spaced_repetition
+  - SR_computer_graphics
+  - SR_software
 ---
 
 # Krita

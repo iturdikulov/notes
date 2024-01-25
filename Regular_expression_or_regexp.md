@@ -2,8 +2,7 @@
 date: 2023-04-17
 tags:
   - inbox
-  - programming
-  - spaced_repetition
+  - SR_programming
 ---
 
 # Regular expression (regex, regexp, rational expression)

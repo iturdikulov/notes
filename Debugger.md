@@ -2,8 +2,7 @@
 date: 2023-03-11
 tags:
   - inbox
-  - programming
-  - spaced_repetition
+  - SR_programming
 ---
 
 # Debugger

@@ -2,8 +2,8 @@
 date: 2023-03-13
 tags:
   - outline
-  - productivity
-  - development
+  - SR_productivity
+  - SR_development
 ---
 
 > Markdown is a text-to-HTML conversion tool for web writers. Markdown allows
@@ -15,7 +15,7 @@ tags:
 You can also convert markdown to tons of other formats, including PDF, using
 [[Pandoc]].
 
-I use Markdown as my primary format for all my [[Zettelkasten_note_type|notes]],
+I use Markdown as my primary format for all my [[Zettelkasten_notes_type|notes]],
 [[Documentation]] and in various [[My_awesome_web_services_list|services]].
 
 ## Basics (which I use)

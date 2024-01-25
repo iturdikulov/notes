@@ -3,7 +3,7 @@ date: 2023-04-19
 tags:
   - inbox
   - outline
-  - software
+  - SR_software
 ---
 
 ## GNU Core Utilities

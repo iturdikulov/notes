@@ -2,7 +2,7 @@
 date: 2023-09-21
 tags:
   - inbox
-  - art
+  - SR_art
 ---
 
 # Graphic design

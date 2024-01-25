@@ -3,7 +3,7 @@ date: 2023-03-19
 tags:
   - inbox
   - outline
-  - computer_science
+  - SR_computer_science
 ---
 
 # List of algorithms

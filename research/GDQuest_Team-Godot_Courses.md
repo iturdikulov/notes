@@ -4,8 +4,8 @@ date: 2023-09-14
 tags:
   - inbox
   - research
-  - computer_graphics
-  - game
+  - SR_computer_graphics
+  - SR_game
 directory: ~/Computer/graphics/GDQuest_Team-Godot_Courses
 sr-due: 2023-10-07
 sr-interval: 4

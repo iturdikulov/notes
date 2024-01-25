@@ -3,7 +3,7 @@ date: 2023-08-27
 external: https://sioyek.info/
 tags:
   - inbox
-  - development
+  - SR_development
 ---
 
 # Sioyek

@@ -3,7 +3,7 @@ date: 2023-04-02
 external: https://gcc.gnu.org/
 tags:
   - inbox
-  - software
+  - SR_software
 ---
 
 # GNU Compiler Collection (GCC)

@@ -4,8 +4,8 @@ date: 2004
 tags:
   - research
   - inbox
-  - programming
-  - development
+  - SR_programming
+  - SR_development
 sr-due: 2023-12-11
 sr-interval: 208
 sr-ease: 248

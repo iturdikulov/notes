@@ -2,7 +2,7 @@
 date: 2022-12-29
 tags:
   - inbox
-  - computer_science
+  - SR_computer_science
 ---
 
 # Heap (data structure)

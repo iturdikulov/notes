@@ -2,7 +2,7 @@
 date: 2024-01-18
 tags:
   - inbox
-  - IRL
+  - SR_IRL
 ---
 
 # Сырники (Curd pancakes)

@@ -6,8 +6,8 @@ date: 2023-08-19
 tags:
   - research
   - inbox
-  - computer_science
-  - programming
+  - SR_computer_science
+  - SR_programming
 directory: ~/Computer/science/Martin-Interactive_Coding_Challenges/
 sr-due: 2023-10-06
 sr-interval: 3

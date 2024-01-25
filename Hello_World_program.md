@@ -2,7 +2,7 @@
 date: 2023-10-06
 tags:
   - inbox
-  - programming
+  - SR_programming
 ---
 
 # "Hello, World!" program

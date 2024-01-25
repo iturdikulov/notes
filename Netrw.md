@@ -2,8 +2,8 @@
 date: 2023-08-14
 tags:
   - inbox
-  - vim
-  - software
+  - SR_vim
+  - SR_software
 ---
 
 ## netrw

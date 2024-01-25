@@ -2,8 +2,7 @@
 date: 2023-04-03
 tags:
   - inbox
-  - software
-  - rnd
+  - SR_software
 external:
   - https://www.postgresql.org/
 ---

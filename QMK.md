@@ -3,7 +3,7 @@ date: 2023-01-28
 directory: ~/Computer/hardware/QMK
 tags:
   - inbox
-  - software
+  - SR_software
 ---
 
 # QMK Firmware

@@ -2,8 +2,7 @@
 date: 2023-03-12
 tags:
   - inbox
-  - programming
-  - spaced_repetition
+  - SR_programming
 ---
 
 # Object-oriented programming (OOP)

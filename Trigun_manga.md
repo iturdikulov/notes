@@ -3,7 +3,7 @@ author: Yasuhiro Nightow
 date: 1995
 tags:
   - inbox
-  - manga
+  - SR_art
 directory: ~/Arts_and_Entertainment/literature/Yasuhiro Nightow/
 ---
 

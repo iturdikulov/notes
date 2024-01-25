@@ -1,11 +1,11 @@
 ---
 author: Ned Batchelder
 date: 2014-04-24
-external: https://www.youtube.com/watch?v=FxSsnHeWQBY
+external:
+  - https://www.youtube.com/watch?v=FxSsnHeWQBY
 tags:
   - research
-  - programming
-  - spaced_repetition
+  - SR_programming
 ---
 
 # Getting Started Testing - PyCon 2014

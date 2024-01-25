@@ -3,7 +3,7 @@ date: 2023-07-23
 external: https://nixos.org/
 tags:
   - inbox
-  - software
+  - SR_software
 ---
 
 # NixOS

@@ -2,7 +2,7 @@
 date: 2023-05-13
 tags:
   - inbox
-  - development
+  - SR_development
 ---
 
 # Interpreter (computing)

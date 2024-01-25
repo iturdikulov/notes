@@ -2,7 +2,7 @@
 date: 2023-06-04
 tags:
   - inbox
-  - IRL
+  - SR_IRL
 ---
 
 # Internet Relay Chat (IRC)

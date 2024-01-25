@@ -3,7 +3,7 @@ date: 2023-03-21
 directory: ~/Computer/graphics/sprite/
 tags:
   - inbox
-  - computer_graphics
+  - SR_computer_graphics
 ---
 
 # Sprite (computer graphics)

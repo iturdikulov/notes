@@ -2,7 +2,7 @@
 date: 2023-03-18
 tags:
   - inbox
-  - computer_science
+  - SR_computer_science
 ---
 
 # Recursion (computer science)

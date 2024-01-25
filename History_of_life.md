@@ -2,7 +2,7 @@
 date: 2024-01-14
 tags:
   - inbox
-  - history
+  - SR_science
 ---
 
 # History of life

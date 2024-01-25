@@ -3,7 +3,7 @@ date: 2023-06-18
 tags:
   - inbox
   - research
-  - software
+  - SR_software
 ---
 
 # Tachiyomi

@@ -4,8 +4,8 @@ date: 2023-09-14
 tags:
   - inbox
   - research
-  - computer_graphics
-  - game
+  - SR_computer_graphics
+  - SR_game
 external:
   - https://github.com/HK-SHAO/Godot-RayTracing-Demo
 directory: ~/Computer/graphics/HK-SHAO-Godot_Raytracing_Demo/

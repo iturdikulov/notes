@@ -2,7 +2,7 @@
 date: 2022-12-28
 tags:
   - inbox
-  - development
+  - SR_development
 ---
 
 # SQ3R reading method

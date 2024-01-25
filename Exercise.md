@@ -2,7 +2,7 @@
 date: 2022-12-29
 tags:
   - inbox
-  - productivity
+  - SR_productivity
 ---
 
 # Exercise

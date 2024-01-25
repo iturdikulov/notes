@@ -12,8 +12,7 @@ external:
 tags:
   - inbox
   - research
-  - productivity
-  - spaced_repetition
+  - SR_productivity
 ---
 
 A series where author show how to use taskwarrior to implement GTD. This series

@@ -4,7 +4,7 @@ external:
   - https://en.wikipedia.org/wiki/Gothic_(video_game)
 tags:
   - inbox
-  - game
+  - SR_game
 ---
 
 # Gothic

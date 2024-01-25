@@ -4,8 +4,8 @@ date: 2023-09-14
 tags:
   - inbox
   - research
-  - computer_graphics
-  - game
+  - SR_computer_graphics
+  - SR_game
 external:
   - https://godotengine.github.io/godot-demo-projects/
 directory: ~/Computer/graphics/Godot_Community-Godot_demo_projects/

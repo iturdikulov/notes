@@ -3,8 +3,8 @@ external:
   - https://obsidian.md/
 date: 2023-03-14
 tags:
-  - software
-  - productivity
+  - SR_software
+  - SR_productivity
 ---
 
 # Obsidian

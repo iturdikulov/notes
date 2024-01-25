@@ -3,7 +3,7 @@ external: https://syncthing.net/
 date: 2023-04-09
 tags:
   - inbox
-  - software
+  - SR_software
 ---
 
 # Syncthing

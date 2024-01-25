@@ -2,9 +2,8 @@
 date: 2023-03-03
 tags:
   - inbox
-  - development
-  - software
-  - spaced_repetition
+  - SR_development
+  - SR_software
 ---
 
 # fzf

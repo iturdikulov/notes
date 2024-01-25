@@ -3,7 +3,7 @@ date: 2023-03-28
 external: https://inkscape.org/
 tags:
   - inbox
-  - software
+  - SR_software
 ---
 
 # Inkscape

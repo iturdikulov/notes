@@ -2,7 +2,7 @@
 date: 2023-03-16
 tags:
   - inbox
-  - computer_science
+  - SR_computer_science
 ---
 
 # List (abstract data type)

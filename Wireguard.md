@@ -2,7 +2,7 @@
 external: https://www.wireguard.com/
 tags:
   - inbox
-  - software
+  - SR_software
 ---
 
 # WireGuard

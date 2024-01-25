@@ -3,7 +3,7 @@ external: https://www.l2jserver.com/
 date: 2023-04-18
 tags:
   - inbox
-  - software
+  - SR_software
 ---
 
 # L2jServer Lineage 2 Java Server

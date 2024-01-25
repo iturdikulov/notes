@@ -3,7 +3,7 @@ external: https://miniflux.app/
 date: 2023-03-27
 tags:
   - inbox
-  - software
+  - SR_software
 ---
 
 # Miniflux

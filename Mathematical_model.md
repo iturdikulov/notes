@@ -2,7 +2,7 @@
 date: 2023-05-18
 tags:
   - inbox
-  - mathematics
+  - SR_mathematics
 ---
 
 # Mathematical model

@@ -3,7 +3,7 @@ author: Katsuhiro Otomo
 date: 1982
 tags:
   - inbox
-  - manga
+  - SR_art
 directory: ~/Arts_and_Entertainment/literature/Katsuhiro Otomo/
 ---
 

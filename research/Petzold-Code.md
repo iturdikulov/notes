@@ -4,7 +4,7 @@ date: 2000
 tags:
   - research
   - inbox
-  - computer_science
+  - SR_computer_science
 sr-due: 2023-11-05
 sr-interval: 172
 sr-ease: 230

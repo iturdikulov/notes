@@ -2,7 +2,7 @@
 date: 2023-08-05
 tags:
   - inbox
-  - software
+  - SR_software
 ---
 
 # Fail2Ban

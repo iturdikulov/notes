@@ -3,7 +3,7 @@ date: 2023-08-20
 external: https://github.com/Dushistov/sdcv
 tags:
   - inbox
-  - software
+  - SR_software
 ---
 
 # sdcv

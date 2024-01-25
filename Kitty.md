@@ -1,10 +1,10 @@
 ---
-external: https://sw.kovidgoyal.net/kitty/
+external:
+  - https://sw.kovidgoyal.net/kitty/
 date: 2023-04-05
 tags:
-  - development
-  - software
-  - spaced_repetition
+  - SR_development
+  - SR_software
 ---
 
 # Kitty (terminal emulator)

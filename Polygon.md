@@ -2,7 +2,7 @@
 date: 2023-07-20
 tags:
   - inbox
-  - computer_graphics
+  - SR_computer_graphics
 ---
 
 # Polygon (computer graphics)

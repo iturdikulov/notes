@@ -2,8 +2,8 @@
 date: 2023-04-02
 tags:
   - inbox
-  - development
-  - software
+  - SR_development
+  - SR_software
 ---
 
 # Nnn file manager

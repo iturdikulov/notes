@@ -3,7 +3,7 @@ author: Kentaro Miura
 date: 1989
 tags:
   - inbox
-  - manga
+  - SR_art
 directory: ~/Arts_and_Entertainment/literature/Kentaro Miura/
 ---
 

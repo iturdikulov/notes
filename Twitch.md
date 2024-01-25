@@ -2,7 +2,7 @@
 date: 2023-03-12
 tags:
   - inbox
-  - art
+  - SR_art
 ---
 
 # Twitch (service)

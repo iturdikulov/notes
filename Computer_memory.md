@@ -2,7 +2,7 @@
 date: 2023-04-13
 tags:
   - inbox
-  - computer_science
+  - SR_computer_science
 ---
 
 # Computer memory

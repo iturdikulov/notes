@@ -6,8 +6,8 @@ external:
 tags:
   - research
   - inbox
-  - software
-  - programming
+  - SR_software
+  - SR_programming
 sr-due: 2023-11-04
 sr-interval: 171
 sr-ease: 230

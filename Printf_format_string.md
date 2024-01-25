@@ -2,7 +2,7 @@
 date: 2022-12-29
 tags:
   - inbox
-  - programming
+  - SR_programming
 ---
 
 # Printf format in C

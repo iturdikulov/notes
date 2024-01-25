@@ -2,7 +2,7 @@
 date: 2022-12-29
 tags:
   - inbox
-  - IRL
+  - SR_IRL
 ---
 
 # How to study or learn

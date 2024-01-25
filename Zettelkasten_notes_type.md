@@ -3,7 +3,7 @@ date: 2023-03-09
 tags:
   - inbox
   - outline
-  - productivity
+  - SR_productivity
 ---
 
 # Notes types which I use with Zettelkasten
@@ -17,7 +17,7 @@ All new note have a `- inbox` tag, this allowing to use
 
 Workflow:
 
-- Any resource, such as video, article, web-page, picture archived using
+- TODO: Any resource, such as video, article, web-page, picture archived using
 [[ArchiveBox|archivebox]] or directly downloaded into own directory.
 
  - Notes includes links to related notes and sources links. Rich linking
@@ -98,18 +98,19 @@ Tags are used to define note type.
 
 I also have additional topics tags, mainly used for
 [[Spaced_repetition|spaced repetition]] system:
-- development - software related topics, shortcuts, etc.
-- computer_science
-- programming
-- vim
-- computer_graphics
-- english
-- IRL
-- mathematics
+- SR_development - software related topics, shortcuts, etc.
+- SR_computer_science
+- SR_computer_graphics
+- SR_programming
+- SR_vim
+- SR_English
+- SR_IRL
+- SR_mathematics
 
-Also templates may have this frontamatter variables:
+Also, templates may have this frontamatter variables:
 - `external: https...` - link to external resource, such as web-page, video, etc.
 - `archive: 0000000000.000000` - [[ArchiveBox]] timestamp, used as unique id
+- `author: name` - author of resource, usually used in literature notes
 
 ## Resources
 

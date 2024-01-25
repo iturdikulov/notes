@@ -2,7 +2,7 @@
 tags:
   - research
   - inbox
-  - computer_science
+  - SR_computer_science
 date: 2023
 sr-due: 1678723200
 sr-ease: 230

@@ -3,7 +3,7 @@ date: 2006
 tags:
   - inbox
   - research
-  - computer_science
+  - SR_computer_science
 author:
   - J. Hopcroft
   - R. Motwani

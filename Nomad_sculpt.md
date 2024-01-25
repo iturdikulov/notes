@@ -3,7 +3,7 @@ external: https://nomadsculpt.com/manual/
 date: 2023-04-15
 tags:
   - inbox
-  - software
+  - SR_software
 ---
 
 # Nomad Sculpt

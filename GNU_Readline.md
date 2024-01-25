@@ -3,8 +3,7 @@ date: 2023-02-03
 tags:
   - inbox
   - research
-  - development
-  - spaced_repetition
+  - SR_development
 ---
 
 # GNU Readline

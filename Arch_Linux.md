@@ -3,7 +3,7 @@ date: 2022-12-29
 external: https://archlinux.org/
 tags:
   - inbox
-  - software
+  - SR_software
 ---
 
 # Arch Linux

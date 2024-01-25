@@ -2,8 +2,7 @@
 date: 2023-04-14
 tags:
   - inbox
-  - computer_science
-  - spaced_repetition
+  - SR_computer_science
 ---
 
 # Set (abstract data type)

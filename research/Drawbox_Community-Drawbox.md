@@ -7,9 +7,8 @@ sr-ease: 208
 sr-interval: 6
 tags:
   - inbox
-  - art
+  - SR_art
   - research
-  - spaced_repetition
 ---
 
 # Drawabox - learning the fundamentals of drawing

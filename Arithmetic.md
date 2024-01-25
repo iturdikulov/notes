@@ -2,7 +2,7 @@
 date: 2023-10-06
 tags:
   - inbox
-  - mathematics
+  - SR_mathematics
 ---
 
 # Arithmetic

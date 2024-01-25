@@ -1,9 +1,8 @@
 ---
 date: 2022-12-29
 tags:
-  - software
-  - productivity
-  - spaced_repetition
+  - SR_software
+  - SR_productivity
 ---
 
 # mpv

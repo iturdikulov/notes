@@ -3,7 +3,7 @@ external: https://www.ventoy.net/en/index.html
 date: 2023-05-20
 tags:
   - inbox
-  - software
+  - SR_software
 ---
 
 # Ventoy

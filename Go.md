@@ -3,7 +3,7 @@ date: 2023-03-19
 external: https://go.dev/
 tags:
   - inbox
-  - programming
+  - SR_programming
 ---
 
 # Go (programming language), aka Golang

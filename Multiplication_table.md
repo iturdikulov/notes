@@ -2,7 +2,7 @@
 date: 2022-01-01
 tags:
   - outline
-  - mathematics
+  - SR_mathematics
 ---
 
 # Multiplication table

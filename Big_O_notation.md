@@ -2,8 +2,7 @@
 date: 2023-03-18
 tags:
   - inbox
-  - computer_science
-  - spaced_repetition
+  - SR_computer_science
 ---
 
 # Big O notation in [[Mathematics|mathematics]] and

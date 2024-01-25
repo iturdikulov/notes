@@ -3,7 +3,7 @@ external: https://brave.com/
 date: 2023-03-16
 tags:
   - inbox
-  - software
+  - SR_software
 ---
 
 # Brave (web browser)

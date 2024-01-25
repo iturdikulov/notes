@@ -3,7 +3,7 @@ external: https://gohugo.io/
 date: 2023-01-02
 tags:
   - inbox
-  - software
+  - SR_software
   - archive
 ---
 

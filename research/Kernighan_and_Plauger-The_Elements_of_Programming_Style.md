@@ -6,7 +6,7 @@ author:
 tags:
   - inbox
   - research
-  - programming
+  - SR_programming
 directory: "~/Arts_and_Entertainment/literature/Brian Kernighan/The Elements of Programming Style, 2nd Edition (2083)/"
 ---
 

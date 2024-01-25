@@ -2,8 +2,8 @@
 date: 2023-03-13
 tags:
   - inbox
-  - development
-  - spaced_repetition
+  - SR_software
+  - SR_productivity
 ---
 
 # dwm keyboard shortcuts

@@ -2,7 +2,7 @@
 date: 2023-07-15
 tags:
   - inbox
-  - productivity
+  - SR_productivity
 ---
 
 # How do I sync my data (and use it)

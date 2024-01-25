@@ -2,7 +2,7 @@
 date: 2023-03-19
 tags:
   - inbox
-  - physics
+  - SR_physics
 ---
 
 # Newton's laws of motion

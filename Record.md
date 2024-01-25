@@ -2,7 +2,7 @@
 date: 2023-10-05
 tags:
   - inbox
-  - computer_science
+  - SR_computer_science
 ---
 
 # Record

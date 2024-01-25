@@ -4,8 +4,8 @@ external:
 date: 2023-03-19
 tags:
   - inbox
-  - software
-  - vim
+  - SR_software
+  - SR_vim
 ---
 
 # Neotest - A framework for interacting with tests within NeoVim.

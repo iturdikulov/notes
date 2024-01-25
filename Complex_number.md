@@ -2,7 +2,7 @@
 date: 2023-03-15
 tags:
   - inbox
-  - mathematics
+  - SR_mathematics
 ---
 
 # Complex number
