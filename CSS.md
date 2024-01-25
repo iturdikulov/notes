@@ -3,6 +3,9 @@ date: 2023-10-06
 tags:
   - inbox
   - SR_development
+sr-due: 2024-01-28
+sr-interval: 3
+sr-ease: 263
 ---
 
 # Cascading Style Sheets (CSS)

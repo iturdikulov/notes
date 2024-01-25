@@ -2,6 +2,9 @@
 date: 2023-06-25
 tags:
   - inbox
+sr-due: 2024-01-28
+sr-interval: 3
+sr-ease: 269
 ---
 
 # Open source

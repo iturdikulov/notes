@@ -3,6 +3,9 @@ date: 2023-09-10
 tags:
   - inbox
   - SR_productivity
+sr-due: 2024-01-27
+sr-interval: 2
+sr-ease: 243
 ---
 
 # Tmux

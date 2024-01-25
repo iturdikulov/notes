@@ -6,9 +6,9 @@ tags:
   - SR_english
 author: Наталья Черниховская
 directory: ~/Arts_and_Entertainment/english/Черниховская-English_Start-up/
-sr-due: 2024-06-18
-sr-interval: 145
-sr-ease: 250
+sr-due: 2024-04-07
+sr-interval: 73
+sr-ease: 230
 ---
 
 # Наталья Черниховская: English. Start-up. Самоучитель английского для начинающих

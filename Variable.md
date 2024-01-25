@@ -3,6 +3,9 @@ date: 2023-03-13
 tags:
   - inbox
   - SR_computer_science
+sr-due: 2024-01-27
+sr-interval: 2
+sr-ease: 242
 ---
 
 # Variable (computer science)

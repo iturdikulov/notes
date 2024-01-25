@@ -3,6 +3,9 @@ date: 2022-12-29
 tags:
   - inbox
   - SR_computer_science
+sr-due: 2024-01-26
+sr-interval: 1
+sr-ease: 226
 ---
 
 # Abstract syntax tree

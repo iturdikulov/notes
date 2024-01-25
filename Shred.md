@@ -7,6 +7,9 @@ external:
 tags:
   - SR_software
   - inbox
+sr-due: 2024-01-28
+sr-interval: 3
+sr-ease: 267
 ---
 
 # Shred - secure delete

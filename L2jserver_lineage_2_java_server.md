@@ -4,6 +4,9 @@ date: 2023-04-18
 tags:
   - inbox
   - SR_software
+sr-due: 2024-01-28
+sr-interval: 3
+sr-ease: 267
 ---
 
 # L2jServer Lineage 2 Java Server

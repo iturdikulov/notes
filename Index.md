@@ -3,6 +3,9 @@ date: 2023-03-09
 tags:
   - outline
   - inbox
+sr-due: 2024-01-28
+sr-interval: 3
+sr-ease: 268
 ---
 
 # Inom's daily notes
