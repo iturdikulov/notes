@@ -3,8 +3,8 @@ date: 2023-07-20
 tags:
   - inbox
   - SR_computer_graphics
-sr-due: 2024-01-27
-sr-interval: 2
+sr-due: 2024-03-07
+sr-interval: 41
 sr-ease: 243
 ---
 

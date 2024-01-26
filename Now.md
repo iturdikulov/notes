@@ -4,9 +4,9 @@ tags:
   - outline
   - SR_productivity
   - inbox
-sr-due: 2024-01-27
-sr-interval: 1
-sr-ease: 208
+sr-due: 2024-02-05
+sr-interval: 10
+sr-ease: 148
 ---
 
 # Now

@@ -32,4 +32,3 @@ Features:
 - [ ] Various scripts: url2text, rnr, etc... Need review and describe them
 - [ ] Dotfiles: need describe them too
 - [[PDF_Menu_Generator]]
-- [[Multiplication_Quiz]]

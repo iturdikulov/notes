@@ -99,5 +99,5 @@ TODO: more patterns [Multiplication Tips and Tricks](https://www.mathsisfun.com/
 
 - Multiplication Quiz
   Interactive multiplication quiz written by me, very simple!
-  Can be found [here](~/Computer/programming/Multiplication_Quiz/)
+  Can be found [here](file:///home/inom/Computer/programming/Multiplication_Quiz/)
 

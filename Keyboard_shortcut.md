@@ -34,7 +34,6 @@ Some notes with shortcuts flashcards/lists:
 - [[Obsidian]]
 - [[Firefox]]
 - [[Vimium]]
-- [[Gothic_controls]]
 - [[mpv]]
 
 ## References

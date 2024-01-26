@@ -4,8 +4,8 @@ tags:
   - inbox
   - outline
   - bridge
-sr-due: 2024-01-27
-sr-interval: 1
+sr-due: 2024-01-30
+sr-interval: 4
 sr-ease: 195
 ---
 

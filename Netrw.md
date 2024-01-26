@@ -4,9 +4,9 @@ tags:
   - inbox
   - SR_vim
   - SR_software
-sr-due: 2024-01-27
-sr-interval: 2
-sr-ease: 243
+sr-due: 2024-02-24
+sr-interval: 29
+sr-ease: 283
 ---
 
 ## netrw

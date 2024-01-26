@@ -2,9 +2,9 @@
 date: 2023-03-12
 tags:
   - inbox
-sr-due: 2024-01-27
-sr-interval: 1
-sr-ease: 210
+sr-due: 2024-02-04
+sr-interval: 9
+sr-ease: 250
 ---
 
 # Cooking

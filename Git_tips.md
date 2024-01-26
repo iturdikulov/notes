@@ -4,9 +4,9 @@ tags:
   - outline
   - SR_development
   - inbox
-sr-due: 2024-01-27
-sr-interval: 1
-sr-ease: 213
+sr-due: 2024-02-06
+sr-interval: 11
+sr-ease: 253
 ---
 
 # Git tips

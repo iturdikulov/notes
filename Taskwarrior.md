@@ -4,8 +4,8 @@ tags:
   - inbox
   - SR_productivity
 directory: ~/.task
-sr-due: 2024-01-27
-sr-interval: 2
+sr-due: 2024-01-31
+sr-interval: 5
 sr-ease: 242
 ---
 

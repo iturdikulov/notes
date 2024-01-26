@@ -5,9 +5,9 @@ tags:
   - outline
   - SR_productivity
 directory: ~/Wiki/
-sr-due: 2024-01-27
-sr-interval: 2
-sr-ease: 244
+sr-due: 2024-02-25
+sr-interval: 30
+sr-ease: 284
 ---
 
 # Zettelkasten Method

@@ -5,8 +5,8 @@ external:
 tags:
   - SR_software
   - inbox
-sr-due: 2024-01-27
-sr-interval: 2
+sr-due: 2024-02-12
+sr-interval: 17
 sr-ease: 245
 ---
 

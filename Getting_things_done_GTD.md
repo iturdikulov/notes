@@ -4,8 +4,8 @@ author: David Allen
 tags:
   - inbox
   - SR_productivity
-sr-due: 2024-01-27
-sr-interval: 1
+sr-due: 2024-02-02
+sr-interval: 7
 sr-ease: 209
 ---
 

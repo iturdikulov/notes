@@ -4,8 +4,8 @@ date: 2023-03-21
 tags:
   - inbox
   - SR_development
-sr-due: 2024-01-27
-sr-interval: 2
+sr-due: 2024-02-01
+sr-interval: 6
 sr-ease: 243
 ---
 

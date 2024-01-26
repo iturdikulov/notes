@@ -4,9 +4,9 @@ tags:
   - inbox
 author: Hitoshi Akamatsu
 directory: ~/Arts_and_Entertainment/animation/Castlevania_TV_series/
-sr-due: 2024-01-27
-sr-interval: 1
-sr-ease: 213
+sr-due: 2024-03-01
+sr-interval: 35
+sr-ease: 273
 ---
 
 # Castlevania
