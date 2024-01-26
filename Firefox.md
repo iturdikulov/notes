@@ -22,7 +22,7 @@ TODO: merge with [[Browser_shortucts]]
 
 Check also [[Vimium]] extension keybindings.
 
-## Resources
+## References
 
 - [Firefox Keyboard shortcuts](https://support.mozilla.org/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly)
 

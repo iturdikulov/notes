@@ -38,7 +38,7 @@ fd -H <search query>
 fd -E <file or directories which should be excluded> <search query>
 ```
 
-## Resources
+## References
 
 - [ ] [How to use fd](https://github.com/sharkdp/fd#how-to-use)
 

@@ -27,7 +27,7 @@ sr-ease: 222
 > — <cite>[Popchart](https://popchart.co/products/a-visual-guide-to-musical-notation)</cite>
 ![A Visual Guide to Musical Notation](./img/P-MusicNotes_0909_WP_NEWZOOM.webp)
 
-## Resources
+## References
 
 - [[My_Music]]
 - [Virtual Piano - Play The Best Online Piano Keyboard Virtual Piano v1](https://virtualpiano.net)

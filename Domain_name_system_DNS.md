@@ -40,7 +40,7 @@ sr-ease: 249
 4.  Since we have IP address, we connect to server:port (80/443 port) and get
     for example web-page HTML code.
 
-## Resources
+## References
 
 - [ ] [What is DNS? | How DNS works | Cloudflare](https://www.cloudflare.com/learning/dns/what-is-dns/)
 - [ ] [What is a Domain Name? - Learn web development | MDN](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_domain_name)

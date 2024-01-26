@@ -37,7 +37,7 @@ Some notes with shortcuts flashcards/lists:
 - [[Gothic_controls]]
 - [[mpv]]
 
-## Resources
+## References
 
 - [ ] [ShortcutFoo](https://www.shortcutfoo.com/)
 - [ ] [VimGolf - real Vim ninjas count every keystroke!](https://www.vimgolf.com/)

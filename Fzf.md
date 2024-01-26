@@ -53,7 +53,7 @@ Select Environment variables / aliases
 `rg . | fzf`::Fuzzy search every line in every file
 `rg . | fzf | cut -d ":" -f 1`::Fuzzy search every line, in every file, and return the file location
 
-## Resources
+## References
 
 - `man fzf`
 - [x] [So you've installed `fzf`. Now what?](https://andrew-quinn.me/fzf/)

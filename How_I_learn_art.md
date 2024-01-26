@@ -37,7 +37,7 @@ I also like to practice [[Handwriting|handwriting]].
 - [[Krita]]
 - [[Darktable]]
 
-## Resources
+## References
 
 Here are some resources for [[Artistic_inspiration|inspiration]]:
 

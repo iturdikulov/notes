@@ -34,7 +34,7 @@ for i in *;  # process every file in current directory
 done;
 ```
 
-## Resources
+## References
 
 - [[Hidden_file_and_hidden_directory_dotfiles|Dotfiles]]
 - [ ] [GitHub - fliptheweb/bash-shortcuts-cheat-sheet: Useful shortcuts for bash/zsh](https://github.com/fliptheweb/bash-shortcuts-cheat-sheet/tree/master)

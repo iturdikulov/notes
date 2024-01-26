@@ -20,7 +20,7 @@ sr-ease: 270
 > considerably greater than with other goods.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Public_utility)</cite>
 
-## Resources
+## References
 
 - [Мой ГАЗ](https://xn--80afnfom.xn--80ahmohdapg.xn--80asehdb/)
 - [TNS Energo](https://penza.tns-e.ru/population/) [ubo58](https://lk.ubo58.ru/)

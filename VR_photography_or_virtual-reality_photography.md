@@ -16,7 +16,7 @@ sr-ease: 270
 > panorama.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/VR_photography)</cite>
 
-## Resources
+## References
 
 - TODO: files examples?
 - [Explore World](https://www.explordle.com/map/wor)

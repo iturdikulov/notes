@@ -25,6 +25,6 @@ sr-ease: 203
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Tree_(data_structure))</cite>
 
 
-## Resources
+## References
 
 - [ ] [Trees - Basic Data Structures | Coursera](https://www.coursera.org/lecture/data-structures/trees-95qda)

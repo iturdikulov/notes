@@ -26,7 +26,7 @@ CREATE USER teamname WITH ENCRYPTED PASSWORD 'password';
 CREATE DATABASE yourdb OWNER teamname;
 ```
 
-## Resources
+## References
 
 - [ ] [Learn PostgreSQL Tutorial - Full Course for Beginners - YouTube](https://www.youtube.com/watch?v=qw--VYLpxG4)
 - [ ] [PostgreSQL Exercises](https://pgexercises.com/gettingstarted.html)

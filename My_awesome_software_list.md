@@ -444,7 +444,7 @@ TODO: actualize this list
 
 - REVIEW this list, add ncspot, termdown, etc (check nixos modules)
 
-## Resources
+## References
 
 - [ ] [Programs and Equipment I Use | Luke's Webpage](https://lukesmith.xyz/programs/)
 - [ ] [List of applications - ArchWiki](https://wiki.archlinux.org/title/list_of_applications)

@@ -53,7 +53,7 @@ position).
 - Business problem solver.
 - Game developer.
 
-## Resources
+## References
 
 - [salomonelli/best-resume-ever](https://github.com/salomonelli/best-resume-ever)
 - [Upwork](https://www.upwork.com/)

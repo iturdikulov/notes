@@ -171,7 +171,7 @@ A lot of these commands also usually exist in this
 - [[GNU_Privacy_Guard_GPG|GNU Privacy Guard (GPG)]]
 - [[GNU_Debugger|GNU Debugger (GDB)]]
 
-## Resources
+## References
 
 - [ ] [GNU Coreutils Cheat Sheet](https://catonmat.net/gnu-coreutils-cheat-sheet)
 - [ ] [[GNU_Compiler_Collection_GCC]]

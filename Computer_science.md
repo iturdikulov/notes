@@ -36,3 +36,14 @@ good [[Programmer|programmer]], which I want to be).
 
 I described how I [[Learning|learn]] computer science
 [[How_I_learn_computer_science|here]].
+
+TODO: read and review wiki article
+
+[label 1][id]
+[label 2][id]
+
+## References
+- [id]: http://mail.com "abus"
+-  https://ru.wikipedia.org/wiki/%D0%98%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0
+
+

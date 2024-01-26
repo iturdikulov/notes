@@ -15,7 +15,7 @@ sr-ease: 250
 > understand the risks of software implementation.
 
 
-## Resources
+## References
 
 - [ ] [What is Software Testing? Definition](https://www.guru99.com/software-testing-introduction-importance.html)
 - [ ] [Getting Started with the Test Automation Pyramid | BrowserStack](https://www.browserstack.com/guide/testing-pyramid-for-test-automation)

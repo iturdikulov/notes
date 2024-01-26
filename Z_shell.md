@@ -318,7 +318,7 @@ search.
 `0f{char};` - search for the first occurrence of `{char}` on the current line
 and then repeat the search in the same direction.
 
-## Resources
+## References
 
 - [ ] [Z Shell Keyboard Shortcuts - Copperlight Writes](https://copperlight.github.io/shell/zsh-keyboard-shortcuts/)
 - [ ] [config_manager/xdg_config/zsh/.zshrc at master · tjdevries/config_manager · GitHub](https://github.com/tjdevries/config_manager/blob/master/xdg_config/zsh/.zshrc)

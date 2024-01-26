@@ -18,7 +18,7 @@ sr-ease: 268
 > electronic representations of Boolean logic functions.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Digital_electronics)</cite>
 
-## Resources
+## References
 
 - [Smartphone comparison Kimovil.com](https://www.kimovil.com/)
 - [Pick parts. Build your PC. Compare and share. - PCPartPicker](https://pcpartpicker.com/)

@@ -27,7 +27,7 @@ List of awesome [[Python]] frameworks, libraries, software and resources.
 - [ ] [asottile/pyupgrade: A tool (and pre-commit hook) to automatically upgrade syntax for newer versions of the language.](https://github.com/asottile/pyupgrade)
 - [ ] [GitHub - astral-sh/ruff-lsp: A Language Server Protocol implementation for Ruff.](https://github.com/charliermarsh/ruff-lsp)
 
-## Resources
+## References
 
 - [A curated list of awesome Python frameworks, libraries, software and resources](https://github.com/vinta/awesome-python)
 

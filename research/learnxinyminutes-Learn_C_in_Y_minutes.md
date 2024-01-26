@@ -895,7 +895,7 @@ Node createLinkedList(int *vals, int len);
 #endif /* End of the if precompiler directive. */
 ```
 
-## Resources
+## References
 
 - [[research/Kernighan_and_Ritchie-The_C_programming_language]]
 - TODO: [Learn C the Hard Way](https://learncodethehardway.org/c/)

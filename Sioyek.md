@@ -143,7 +143,7 @@ keys:
 - Synctex
 - Extensions
 
-## Resources
+## References
 
 - [Official documentation](https://sioyek-documentation.readthedocs.io/en/latest/)
 - [GitHub repository](https://github.com/ahrm/sioyek)

@@ -496,7 +496,7 @@ replace single quotes to double: `:s/\'\(.*\)\'/\"\1\"`
 map specific insert key in specific terminal: CTRL-K CTRL-F1 to get key code,
 then map it...
 
-## Resources
+## References
 
 - [ ] [[research/Irianto-Learn_Vim]]
 - [ ] [[research/Neil-Modern_Vim]]

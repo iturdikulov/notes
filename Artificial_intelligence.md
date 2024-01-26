@@ -45,7 +45,7 @@ Sort of [[Computer_program|program]] which mimics human cognition.
 > computing.\
 > [Simple English Wikipedia](https://simple.wikipedia.org/wiki/Artificial_intelligence)
 
-## Resources
+## References
 
 - [x] [Richard Feynman: Can Machines Think? - YouTube](https://www.youtube.com/watch?app=desktop&v=ipRvjS7q1DI)
 NO, in some ways yes and can demonstrate intelegence-like behavior. TODO: write

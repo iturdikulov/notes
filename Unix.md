@@ -17,7 +17,7 @@ sr-ease: 250
 
 ![Unix timeline](./img/Unix_timeline.svg) _The history of UNIX and its variants_
 
-## Resources
+## References
 
 - [ ] [AT&T Archives: The UNIX Operating System - YouTube](https://www.youtube.com/watch?v=tc4ROCJYbm0)
 - [ ] ["The early days of Unix at Bell Labs" - Brian Kernighan (LCA 2022 Online) - YouTube](https://www.youtube.com/watch?v=ECCr_KFl41E)

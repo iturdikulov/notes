@@ -27,7 +27,7 @@ Databases which I use or want to try:
 - [[SQLite]]
 - [[Redis]]
 
-## Resources
+## References
 
 - [ ] [Interactive tutorial on SQL | SQL-tutorial.ru search](http://www.sql-tutorial.ru/en/content.html)
 - [ ] [SQL exercises](https://sql-ex.ru/)

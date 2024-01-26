@@ -20,7 +20,7 @@ sr-ease: 268
 > specific situations.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Vector_graphics)</cite>
 
-## Resources
+## References
 
 - [Download free vector art, stock photos & videos](https://www.vecteezy.com/)
 - [Icons and Photos For Everything](https://thenounproject.com/)

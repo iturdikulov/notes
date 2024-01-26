@@ -17,7 +17,7 @@ sr-ease: 205
 > solving the problem.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Computational_complexity)</cite>
 
-## Resources
+## References
 
 - [ ] [Topcoder](https://www.topcoder.com/thrive/articles/Computational%20Complexity%20part%20one)
 - [ ] [Computational Complexity part two](https://www.topcoder.com/thrive/articles/Computational%20Complexity%20part%20two)

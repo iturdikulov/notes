@@ -519,7 +519,7 @@ git stash pop
 git add .
 ```
 
-## Resources
+## References
 
 - [ ] [[research/Linux_Community-Submitting_patches]]
 - [ ] [GitHub - conventional-commits/conventionalcommits.org: The conventional commits specification](https://github.com/conventional-commits/conventionalcommits.org)

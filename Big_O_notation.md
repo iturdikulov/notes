@@ -78,7 +78,7 @@ def is_prime(number):
 It's $\mathcal{O}(N)$.
 
 
-## Resources
+## References
 
 - [ ] [CSE 373 -- Lecture 2, Fall 2020 - YouTube](https://www.youtube.com/watch?v=z1mkCe3kVUA&t=3039s)
 - [ ] [Big-O notation in 5 minutes - YouTube](https://www.youtube.com/watch?v=__vX2sjlpXU)

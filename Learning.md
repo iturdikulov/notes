@@ -127,7 +127,7 @@ large software list, which I use for my work and personal life.
 - [[Work|working projects]]
 - [[My_awesome_software_list|software list]].
 
-## Resources
+## References
 
 - [Wikiversity](https://www.wikiversity.org/)
 - [Udemy](https://www.udemy.com/)

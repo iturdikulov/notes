@@ -19,6 +19,6 @@ sr-ease: 242
 
 I usually program in [[Python]] and [[C]]
 
-## Resources
+## References
 
 - [ ] [How to "think" (and design) like a Software Architect at Silicon Valley Code Camp 2019 - YouTube](https://www.youtube.com/watch?v=mCM6QVHD08c)

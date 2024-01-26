@@ -34,7 +34,7 @@ Examples of protocols using asymmetric key algorithms include:
 - Bitcoin
 - Off-the-Record Messaging
 
-## Resources
+## References
 
 - [[GNU_Privacy_Guard_GPG]]
 - [ ] [Public Key Cryptography - Computerphile - YouTube](https://www.youtube.com/watch?v=GSIDS_lvRv4)

@@ -10,6 +10,6 @@ sr-ease: 232
 
 # Borg
 
-## Resources
+## References
 
 - [ ] [Borg backup - NixOS Wiki](https://nixos.wiki/wiki/Borg_backup)

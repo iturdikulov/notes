@@ -18,7 +18,7 @@ sr-ease: 250
 > IEEE. POSIX is intended to be used by both application and system developers.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/POSIX)</cite>
 
-## Resources
+## References
 
 - [The Open Group Base Specifications Issue 7, 2018 edition](https://en.wikipedia.org/wiki/POSIX)
 - [ ] [A Guide to POSIX | Baeldung on Linux](https://www.baeldung.com/linux/posix)

@@ -14,7 +14,7 @@ My outline for learning [[Computer_graphics|computer graphics]].
 
 TODO: better group resources, add software section
 
-## Resources
+## References
 
 - [ ] [[research/Muratori-Handmade_Hero|Handmade Hero]], my initial steps
 - [ ] [Logos By Nick Academy](https://logosbynick.teachable.com/courses), 2D graphics tutorials

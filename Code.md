@@ -28,7 +28,7 @@ sr-ease: 225
 > obtained by concatenating the encoded strings.
 > — <cite>[Wiki](https://en.wikipedia.org/wiki/Code)</cite>
 
-## Resources
+## References
 
 - [ ] [The Code Review Pyramid - Gunnar Morling](https://www.morling.dev/blog/the-code-review-pyramid/)
 - [ ] [Where Does Bad Code Come From? - YouTube](https://www.youtube.com/watch?v=7YpFGkG-u1w)

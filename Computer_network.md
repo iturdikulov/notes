@@ -22,6 +22,6 @@ users.
 - TODO: network topology
 - TODO: OSI
 
-## Resources
+## References
 
 - [Cloudflare - The Web Performance & Security Company | Cloudflare](https://www.cloudflare.com/)

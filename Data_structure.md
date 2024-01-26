@@ -150,7 +150,7 @@ array.
 - Insert, add new value to additional slot within array.
 - Delete, remove value from array.
 
-## Resources
+## References
 
 - [ ] imperative and functional versions
 - [ ] greedy

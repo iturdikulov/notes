@@ -30,7 +30,7 @@ When computer allocate an array, it also stores arrays ==address, at which
 memory addresses the array begins==.
 <!--SR:!2023-07-14,1,240-->
 
-## Resources
+## References
 
 - [ ] [What every programmer should know about memory, Part 1](https://lwn.net/Articles/250967/)
 

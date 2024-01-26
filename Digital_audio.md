@@ -27,6 +27,6 @@ sr-ease: 268
 > compression.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Digital_audio)</cite>
 
-## Resources
+## References
 
 - [Audio Check](https://www.audiocheck.net/audiofrequencysignalgenerator_sinetone.php)

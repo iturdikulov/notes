@@ -57,6 +57,6 @@ length of the sleeve.
 
 ![Size chart for men uniforms](./img/Body-measurement-cm-to-size-male-drawing.jpg)
 
-## Resources
+## References
 
 - [Size chart for mens uniforms | Uniforms by Olino](https://webshop.olinouniforms.com/en-us/size-chart-men).

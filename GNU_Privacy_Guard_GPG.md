@@ -355,7 +355,7 @@ cp sub-key.asc /media/storage/ # copy sub-key to storage
 # umount storage, buy following guide above
 ```
 
-## Resources
+## References
 
 - [Keybase is secure messaging and file-sharing.](https://keybase.io)
 - [An abridged guide to using ed25519 PGP keys with GnuPG and SSH](https://musigma.blog/2021/05/09/gpg-ssh-ed25519.html)

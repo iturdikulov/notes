@@ -15,7 +15,7 @@ not "clutter" the display of the content of directory.
 
 They are commonly used for storing user configuration files.
 
-## Resources
+## References
 
 - My personal dotfiles [GitHub](https://github.com/inom-Turdikulov/dotfiles)
 - [ ] [craftzdog dotfiles](https://github.com/craftzdog/dotfiles-public)

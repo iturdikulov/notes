@@ -204,7 +204,7 @@ The following special keys are available for mapping:
 Shifts are automatically detected so, for example, `<c-&>` corresponds to
 ctrl+shift+7 on an English keyboard.
 
-## Resources
+## References
 
 - Many of the more advanced or involved features are documented on
   [Vimium's GitHub wiki](https://github.com/philc/vimium/wiki).

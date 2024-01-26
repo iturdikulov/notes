@@ -28,7 +28,7 @@ Here example how [[Python]] does it:
 
 ![How python interpreter works](./img/how_python_interpreter_works.excalidraw.svg)
 
-## Resources
+## References
 
 - [ ] [Crafting Interpreters](http://craftinginterpreters.com/contents.html)
 

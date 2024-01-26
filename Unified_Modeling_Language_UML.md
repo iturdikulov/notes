@@ -20,7 +20,7 @@ sr-ease: 248
 
 UML widely used in [[Computer_programming|computer programming]].
 
-## Resources
+## References
 
 - [ ] [UML 2.0 Class Diagrams - YouTube](https://www.youtube.com/watch?v=3cmzqZzwNDM&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc&index=5)
 

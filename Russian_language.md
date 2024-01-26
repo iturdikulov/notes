@@ -22,7 +22,7 @@ sr-ease: 243
 > in the Baltic states and Israel.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Russian_language)</cite>
 
-## Resources
+## References
 
 - [Е. И. Литневская Русский язык: краткий теоретический курс для школьников](http://gramota.ru/book/litnevskaya.php)
 - [gramota.ru book](http://gramota.ru/book/litnevskaya.php)

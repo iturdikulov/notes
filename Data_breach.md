@@ -13,6 +13,6 @@ sr-ease: 230
 > sensitive, protected or confidential data is copied, transmitted, viewed,
 > stolen, altered or used by an individual unauthorized to do so.
 
-## Resources
+## References
 
 - [Have I Been Pwned: Check if your email has been compromised in a data breach](https://haveibeenpwned.com/)

@@ -48,7 +48,7 @@ this engine, and it can be even used as [[Art]] tool.
 - [[research/Sedgewick_and_Wayne-Algorithms_Part_1]]
 - [[research/Sedgewick_and_Wayne-Algorithms_Part_2]]
 
-## Resources
+## References
 
 - [[research/Washam_Coding_Interview_University]]
 - [[research/Nova_Byrne-Tech_yourself_computer_science|Tech yourself computer science]]

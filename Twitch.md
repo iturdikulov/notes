@@ -21,6 +21,6 @@ sr-ease: 272
 > (RTS), fighting games, racing games, and first-person shooters.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Twitch_\(service\))</cite>
 
-## Resources
+## References
 
 - [Twitch Following Channels](https://www.twitch.tv/directory/following/channels)

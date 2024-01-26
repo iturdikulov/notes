@@ -28,7 +28,7 @@ Great cheap computer hardware:
 [Computer Hardware Chart 2.0 by Sonic840](./img/Computer_hardware_chart.png)
 [Source](https://www.deviantart.com/sonic840/art/Computer-Hardware-Chart-2-0-587798335)
 
-## Resources
+## References
 
 - [ ] [How does Computer Hardware Work?  - YouTube](https://www.youtube.com/watch?v=d86ws7mQYIg)
 - [ ] [PDP-11 - Wikipedia](https://en.wikipedia.org/wiki/PDP-11)

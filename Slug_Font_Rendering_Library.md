@@ -17,6 +17,6 @@ sr-ease: 250
 > virtual environment.\
 > — <cite>[Slug Font Rendering Library](https://sluglibrary.com/)
 
-## Resources
+## References
 
 - [ ] [Slug Algorithm](https://sluglibrary.com/slug_algorithm.pdf)

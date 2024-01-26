@@ -15,7 +15,7 @@ sr-ease: 248
 > [[How_do_I_work_with_contacts|contacts]].\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Social_networking_service)</cite>
 
-## Resources
+## References
 
 - [Collects direct links and deleting instructions to make account termination easy](https://www.accountkiller.com/en/popular)
 - [X. It’s what’s happening / X](https://twitter.com/)

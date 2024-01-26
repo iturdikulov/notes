@@ -250,7 +250,7 @@ with mesh names, like `ostrich`
 - press `<tab>` and type `sv` (skill viewer), now you can select skill, you
 - `<ins>` enabled debug mode
 
-## Resources
+## References
 
 - [l2 calc](http://l2p.lacrafter.ru/about.html)
 - [L2Editor - Страница 2 - Форум администраторов игровых серверов](https://forum.zone-game.info/showthread.php?t=42513&page=2)

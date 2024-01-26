@@ -115,7 +115,7 @@ Also, templates may have this frontamatter variables:
 - `archive: 0000000000.000000` - [[ArchiveBox]] timestamp, used as unique id
 - `author: name` - author of resource, usually used in literature notes
 
-## Resources
+## References
 
 - [ ] [Types of ZT Notes](https://zk.zettel.page/types-of-notes)
 - [ ] [Taxonomy of note types](https://notes.andymatuschak.org/Taxonomy_of_note_types)

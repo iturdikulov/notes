@@ -25,7 +25,7 @@ sr-ease: 244
 Godot is good to develop [[3D_computer_graphics|3D]] games and various
 prototypes.
 
-## Resources
+## References
 
 - [ ] [godotengine/godot-demo-projects: Demonstration and Template Projects](https://github.com/godotengine/godot-demo-projects)
 - [ ] [gdquest-demos/godot-4-3d-third-person-controller: Godot 4 demo with a plug-and-play 3D Third-Person Shooter (TPS) character controller inspired by games like Ratchet and Clank.](https://github.com/gdquest-demos/godot-4-3d-third-person-controller)

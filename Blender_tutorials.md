@@ -31,7 +31,7 @@ Make something dirty but get experience.
 - [ ] [Intermediate Blender Tutorial Series - YouTube](https://www.youtube.com/playlist?list=PLjEaoINr3zgHJVJF3T3CFUAZ6z11jKg6a)
 - [ ] [How to Learn 3D in 4 weeks (self-taught curriculum) - YouTube](https://www.youtube.com/watch?v=Nj_l6YHMj-c)
 
-## Resources
+## References
 
 - [Libraries — Blender Cloud](https://cloud.blender.org/libraries), great source
   of assets.

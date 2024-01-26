@@ -21,7 +21,7 @@ some.
 
 Travel and me very different things 🙃.
 
-## Resources
+## References
 
 - [Flightradar24](https://www.flightradar24.com/)
 - [RZD](http://www.rzd.ru/)

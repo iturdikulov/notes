@@ -88,7 +88,7 @@ Personally I learn python with
 
 - [ ] [[research/Seporaitis-Large_Scale_Refactoring_With_PyBowler]]
 
-## Resources
+## References
 
 - [Documentation](https://docs.python.org/3/)
 - [Python Tutorials](https://realpython.com/)

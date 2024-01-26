@@ -15,7 +15,7 @@ sr-ease: 249
 > controls.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Mobile_network_operator)</cite>
 
-## Resources
+## References
 
 - [Prepaid Data SIM Card Wiki](https://prepaid-data-sim-card.fandom.com/wiki/Prepaid_SIM_with_data)
 - [Личный кабинет Smartcard - система самообслуживания](https://lk.smcard.ru/session/new)

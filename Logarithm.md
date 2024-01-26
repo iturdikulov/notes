@@ -29,7 +29,7 @@ describe it in simple words.
 - How many times need to divide **2** to get 1 as result
   $1024 \div 2 \div 2 \div 2 \div 2 \div 2 \div 2 \div 2 \div 2 \div 2 \div 2 \div 2 = 1$. So answer is 10.
 
-## Resources
+## References
 
 - [ ] How logarithms interconnect with powers and exponents?
 - [ ] [Introduction to Logarithms](https://www.mathsisfun.com/algebra/logarithms.html)

@@ -29,7 +29,7 @@ Source of articles and materials:
 - [[CSS]]
 - [[JavaScript]]
 
-## Resources
+## References
 
 - [[How_I_learn_programming_and_software_development#Frontend]]
 

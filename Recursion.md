@@ -23,6 +23,6 @@ _Tree created using the Logo
 programming language and relying heavily on recursion. Each branch can be seen
 as a smaller version of a tree._
 
-## Resources
+## References
 
 - [ ] [Lecture 8 | Programming Abstractions (Stanford) - YouTube](https://www.youtube.com/watch?v=gl3emqCuueQ)

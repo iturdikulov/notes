@@ -16,6 +16,6 @@ sr-ease: 250
 > transfer, including file sharing.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Internet_Relay_Chat)</cite>
 
-## Resources
+## References
 
 - [ ] [Libera Chat | A next-generation IRC network for FOSS projects collaboration!](https://libera.chat/)

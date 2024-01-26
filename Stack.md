@@ -19,6 +19,6 @@ sr-ease: 222
 >   removed.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Stack_\(abstract_data_type\))</cite>
 
-## Resources
+## References
 
 - [ ] [Stacks - Basic Data Structures | Coursera](https://www.coursera.org/lecture/data-structures/stacks-UdKzQ)

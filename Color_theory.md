@@ -31,7 +31,7 @@ sr-ease: 250
 > and vision science.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Color_theory)</cite>
 
-## Resources
+## References
 
 - [ ] [Applying Color Theory to Digital Displays :: UXmatters](https://www.uxmatters.com/mt/archives/2007/01/applying-color-theory-to-digital-displays.php)
 - [ ] [Understanding Colors — Blender Guru](http://www.blenderguru.com/tutorials/understanding-colors)

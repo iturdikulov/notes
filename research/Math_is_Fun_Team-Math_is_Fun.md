@@ -21,6 +21,6 @@ sr-ease: 210
 [[Mathematics|Math]] explained in easy language, plus puzzles, [[Game|games]],
 worksheets and an illustrated dictionary. For K-12 kids, teachers and parents.
 
-## Resources
+## References
 
 - [ ] [Math Games - Puzzle, Number, Strategy, Logic and Multiplayer Math Games](https://www.mathsisfun.com/games/index.html)

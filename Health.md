@@ -25,7 +25,7 @@ sr-ease: 223
 > such as genetic disorders.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Health)</cite>
 
-## Resources
+## References
 
 - [90 Days of Action](https://darebee.com/programs/90-days-of-action.html)
 - [DAREBEE - Fitness On Your Terms.](https://darebee.com/)

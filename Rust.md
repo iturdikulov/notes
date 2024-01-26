@@ -11,7 +11,7 @@ sr-ease: 245
 # Rust (programming language)
 
 
-## Resources
+## References
 
 - [ ] [Introduction - Rust By Example](https://doc.rust-lang.org/stable/rust-by-example/index.html)
 - [ ] [The Rust Programming Language - The Rust Programming Language](https://doc.rust-lang.org/book/)

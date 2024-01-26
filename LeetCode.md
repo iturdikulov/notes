@@ -28,7 +28,7 @@ CLI tool to interact with the site - [[leetcode-cli]].
 - [Developer Training | Test Coding Skills Online - Codility](https://app.codility.com/programmers/)
 - [HackerRank - Online Coding Tests and Technical Interviews](https://www.hackerrank.com/)
 
-## Resources
+## References
 
 - [MisterBooo/LeetCodeAnimation](https://github.com/MisterBooo/LeetCodeAnimation)
 - [Top 100 Liked Questions](https://leetcode.com/problemset/all/?listId=79h8rn6&page=1)

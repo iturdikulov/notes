@@ -18,7 +18,7 @@ definition of comics; some emphasize the combination of images and text, some
 sequentially or other image relations, and others historical aspects such as
 mass reproduction or the use of recurring characters.
 
-## Resources
+## References
 
 - [xkcd](https://xkcd.com/)
 - [explain xkcd](https://www.explainxkcd.com/wiki/index.php/Main_Page)

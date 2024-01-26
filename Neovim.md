@@ -1009,7 +1009,7 @@ this.
 
 ![](Vim_Cheat_Sheet_for_Programmers.pdf)
 
-## Resources
+## References
 
 - [neovimcraft, plugins](https://neovimcraft.com/)
 - [Vim Tips Wiki | Fandom](https://vim.fandom.com/wiki/Vim_Tips_Wiki)

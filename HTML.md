@@ -23,6 +23,6 @@ sr-ease: 247
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/HTML)</cite>
 
 
-## Resources
+## References
 
 - [HTML - MDN](https://developer.mozilla.org/en-US/docs/Web/HTML)

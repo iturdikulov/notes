@@ -1,5 +1,6 @@
 ---
 date: 2023-03-13
+external: https://daringfireball.net/projects/markdown/syntax
 tags:
   - outline
   - SR_productivity
@@ -107,6 +108,22 @@ Minimal syntax:
 ## Extra
 
 Escape backtick character: `` ` ``, ``List`1``
+
+Here's a simple footnote,[^1] and here's a longer one.[^bignote]
+
+You can also use inline footnotes. ^[notice that the carat goes outside of the brackets on this one.]
+
+### Footnotes
+
+[^1]: meaningful!
+
+[^bignote]: Here's one with multiple paragraphs and code.
+
+    Indent paragraphs to include them in the footnote.
+
+    `{ my code }`
+
+    Add as many paragraphs as you like.
 
 ## TODO
 

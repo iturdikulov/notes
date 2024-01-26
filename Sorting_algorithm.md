@@ -18,7 +18,7 @@ sr-ease: 228
 > output.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Sorting_algorithm)</cite>
 
-## Resources
+## References
 
 - [ ] [Visualising data structures and algorithms through animation](https://visualgo.net/en/sorting)
 - [ ] [Data Structure Visualization](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html)

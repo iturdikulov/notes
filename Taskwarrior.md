@@ -28,7 +28,7 @@ Features:
 
 Some general notes available in @DiveIntoTaskwarriorTomasBabej.
 
-## Resources
+## References
 
 - [ ] `man task`
 - [ ] [[research/Babej-A_dive_into_taskwarrior_ecosystem]]

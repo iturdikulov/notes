@@ -22,6 +22,6 @@ Machine code is the ==set of numbers== that the CPU actually executes.
 > (possibly interspersed with data)".\
 > — <cite>[Machine code](https://en.wikipedia.org/wiki/Machine_code)</cite>
 
-## Resources
+## References
 
 - [ ] [What do you mean by mnemonics codes and machine codes, and what are its purposes? - Quora](https://www.quora.com/What-do-you-mean-by-mnemonics-codes-and-machine-codes-and-what-are-its-purposes)

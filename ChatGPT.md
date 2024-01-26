@@ -62,7 +62,7 @@ not really concurrent, since it's using same model's.
 - [HuggingChat](https://huggingface.co/chat)
 - [Chatbot UI](https://openchat.team/)
 
-## Resources
+## References
 
 - [ChatGPT провалил тест на ручник](https://habr.com/ru/articles/724460/#habracut)
 - [ChatGPT | OpenAI Help Center](https://help.openai.com/en/collections/3742473-chatgpt)

@@ -18,6 +18,6 @@ sr-ease: 272
 
 I also added Hacker News into my [[Newsboat|RSS reader]].
 
-## Resources
+## References
 
 - [Hacker News best RSS feed](https://hnrss.org/best)

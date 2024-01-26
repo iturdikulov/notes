@@ -37,7 +37,7 @@ sr-ease: 249
 
 ## TODO: applications
 
-## Resources
+## References
 
 - [Prodia](https://app.prodia.com/). Check this models: Deliberate, Anything,
 Stable Diffusion (SD), Analog Diffusion.

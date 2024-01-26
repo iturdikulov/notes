@@ -305,7 +305,7 @@ sr-ease: 212
 - Игорь Скляр - Комарово
 - dumb - nirvana
 
-## Resources
+## References
 
 - [[Brain.fm]]
 - [Spotify - Web Player: Music for everyone](https://open.spotify.com/)

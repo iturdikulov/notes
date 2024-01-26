@@ -26,7 +26,7 @@ sr-ease: 263
 > and its formatting.
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/CSS)</cite>
 
-## Resources
+## References
 
 - [CodePen trending](https://codepen.io/trending)
 - [ ] [Grid Garden - A game for learning CSS grid](https://cssgridgarden.com/)

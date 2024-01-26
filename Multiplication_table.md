@@ -93,7 +93,7 @@ Well, your hands can help! Example: to multiply 9 by 8: hold your 8th finger dow
 
 TODO: more patterns [Multiplication Tips and Tricks](https://www.mathsisfun.com/multiplication-tips-tricks.html)
 
-## Resources
+## References
 
 To remember this table I use the following training method:
 [Math Trainer - Multiplication](https://www.mathsisfun.com/numbers/math-trainer-multiply.html)

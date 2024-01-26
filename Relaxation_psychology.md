@@ -27,7 +27,7 @@ Methods of relaxation:
 - Physical, breathing, muscle relaxation
 - Mental, meditation
 
-## Resources
+## References
 
 ### [[YouTube]] channels
 

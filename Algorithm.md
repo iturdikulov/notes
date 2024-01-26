@@ -49,7 +49,7 @@ other by *orders of magnitude*.
 Often there is more than one way to achieve a particular computing goal, and
 the algorithm you choose can seriously affect the speed of your code.
 
-## Resources
+## References
 
 - [[research/Wengrow-Data_structures_and_algorithms]]
 - [List of algorithms - Wikipedia](https://en.wikipedia.org/wiki/List_of_algorithms)

@@ -44,7 +44,7 @@ _[A Plotting of Fiction Genres by popchart](https://popchart.co/products/a-plott
 
 My favorite genre.
 
-## Resources
+## References
 
 - [Лаборатория Фантастики](https://fantlab.ru/)
 

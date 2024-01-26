@@ -107,7 +107,7 @@ flexipatch](file:///home/inom/Computer/software/dwm-flexipatch/)
 Gerschtli/dwm-status: Highly performant and configurable DWM status
 service](https://github.com/Gerschtli/dwm-status)
 
-## Resources
+## References
 
 - [dwm - dynamic window manager | suckless.org software that sucks less](https://dwm.suckless.org/tutorial/)
 - [Dave's Visual Guide to dwm - ratfactor](https://ratfactor.com/dwm)

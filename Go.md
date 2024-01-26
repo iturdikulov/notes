@@ -20,7 +20,7 @@ sr-ease: 205
 > is Go.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Go_(programming_language))</cite>
 
-## Resources
+## References
 
 - [Get Started - The Go Programming Language](https://go.dev/learn/)
 

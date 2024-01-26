@@ -546,7 +546,7 @@ sudo systemctl enable --now sshd
 ip a|grep enp
 ```
 
-## Resources
+## References
 
 - [[Btrfs]]
 - [Improving performance - ArchWiki](https://wiki.archlinux.org/title/improving_performance)

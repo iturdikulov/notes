@@ -64,6 +64,6 @@ objects of derived classes without knowing it." See also design by contract.
 "Depend upon abstractions, not concretes."
 
 
-## Resources
+## References
 
 - [ ] [SOLID Principles: Improve OOD in Python](https://realpython.com/solid-principles-python/)

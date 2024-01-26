@@ -21,7 +21,7 @@ sr-ease: 203
 ## Libraries
 
 
-## Resources
+## References
 
 - [ ] [[research/learnxinyminutes-Learn_JavaScript_in_Y_minutes]]
 - [ ] [[research/Flanagan-JavaScript]]

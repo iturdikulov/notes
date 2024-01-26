@@ -22,7 +22,7 @@ sr-ease: 271
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Infographic)</cite>
 
 TODO: add examples
-## Resources
+## References
 
 - [Animagraffs](https://animagraffs.com/)
 - [How a Car Works](https://www.howacarworks.com/)

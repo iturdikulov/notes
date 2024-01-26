@@ -19,6 +19,6 @@ sr-ease: 234
 > the computer itself, while other times it is film.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Computer_animation)</cite>
 
-## Resources
+## References
 
 - [ ] [Easing Functions Cheat Sheet](https://easings.net/)

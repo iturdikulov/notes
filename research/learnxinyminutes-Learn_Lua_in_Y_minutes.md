@@ -394,7 +394,7 @@ g()  -- Prints out 343; nothing printed before now.
 --]]
 ```
 
-## Resources
+## References
 
 - `:h lua-guide` in neovim
 - [Programming in Lua (first edition)](https://www.lua.org/pil/contents.html)

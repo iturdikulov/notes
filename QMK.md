@@ -89,7 +89,7 @@ my case I need to hold `ESC` and plug USB cable.
     Play/Pause - spotify play/pause
 
 
-## Resources
+## References
 
 - [QMK Firmware - An open source firmware for AVR and ARM based keyboards](https://qmk.fm/)
 - [QMK Configurator](https://config.qmk.fm/#/kbdfans/kbd75/rev2/LAYOUT)

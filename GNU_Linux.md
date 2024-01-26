@@ -28,7 +28,7 @@ Personally I use [[Arch_Linux|Arch Linux]] and [[NixOS]] distributions.
 - X11 forwarding
 - [Linux kernel features - Wikipedia](https://en.wikipedia.org/wiki/Category:Linux_kernel_features)
 
-## Resources
+## References
 
 - [ ] [Learn Enough Command Line to Be Dangerous | Learn Enough to Be Dangerous](https://www.learnenough.com/command-line-tutorial)
 - [ ] [Top 40 Linux Commands for All Users + Free Linux Cheat Sheet](https://www.hostinger.com/tutorials/linux-commands)

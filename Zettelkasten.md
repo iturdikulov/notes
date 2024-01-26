@@ -32,7 +32,7 @@ Notes can have various [[Zettelkasten_notes_type|types]].
 
 I use [[Telekasten.nvim]] plugin to manage my notes with [[Zettelkasten]] method.
 
-## Resources
+## References
 
 - [Andy Notes](https://notes.andymatuschak.org/About_these_notes)
 - [PKM Zettelkasten Wiki](https://zk.zettel.page/)

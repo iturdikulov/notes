@@ -100,6 +100,6 @@ int main(void)
 - [[Floating-point_arithmetic|floats]]
 
 
-## Resources
+## References
 
 - [ ] [CS50 Manual Pages](https://manual.cs50.io/)

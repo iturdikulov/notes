@@ -11,7 +11,7 @@ sr-ease: 252
 # Docker
 
 
-## Resources
+## References
 
 - [ ] [Docker Cheatsheet \[2023 Updated\] – Collabnix](https://collabnix.com/docker-cheatsheet/)
 - [Docker Hub Container Image Library | App Containerization](https://hub.docker.com/)

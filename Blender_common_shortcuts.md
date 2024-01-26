@@ -385,7 +385,7 @@ Dope Sheet::`S-F12`
 
 Open popup menu for last action::`F9`
 
-## Resources
+## References
 
 - [Learn Blender with a poster
 infographic](https://www.giudansky.com/illustration/infographics/blender-map),

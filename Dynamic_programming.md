@@ -34,6 +34,6 @@ sr-ease: 221
 > — <cite>[Wikipedia in Simple English](https://simple.wikipedia.org/wiki/Dynamic_programming)</cite>
 
 
-## Resources
+## References
 
 - [ ] [CSE 373 -- Lecture 18, Fall 2020 - YouTube](https://www.youtube.com/watch?v=wAA0AMfcJHQ)

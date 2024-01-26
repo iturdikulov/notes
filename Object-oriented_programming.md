@@ -23,7 +23,7 @@ Usually object-oriented programming techniques using various
 [[Programming_principles|programming principles]] and take advantage of
 [[Software_quality|software quality]].
 
-## Resources
+## References
 
 - [ ] [Composition over inheritance - Wikipedia](https://en.wikipedia.org/wiki/Composition_over_inheritance)
 - [ ] [Uncle Bob SOLID principles - YouTube](https://www.youtube.com/watch?v=zHiWqnTWsn4)

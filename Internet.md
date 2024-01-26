@@ -21,7 +21,7 @@ sr-ease: 247
 > electronic mail, telephony, and file sharing.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Internet)</cite>
 
-## Resources
+## References
 
 - [ ] [How the Internet Works in 5 Minutes - YouTube](https://www.youtube.com/watch?v=7_LPdttKXPc)
 - [ ] [How does the INTERNET work? | ICT #2 - YouTube](https://www.youtube.com/watch?v=x3c1ih2NJEg)

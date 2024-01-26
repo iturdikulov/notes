@@ -22,6 +22,6 @@ sr-ease: 268
     # Example: replace every occurrence of 'hello' with 'world' on lines 10-20
     $ sed '10,20s/hello/world/' input.txt > output.txt
 
-## Resources
+## References
 
 - [ ] `man sed`

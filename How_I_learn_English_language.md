@@ -40,7 +40,7 @@ Fundamentals of English grammar:
 
 ![A Prescriptivist's Guide to Common Issues in English Usage](./img/P2-UsageFINAL_UPDATEDZOOM.webp)
 
-## Resources
+## References
 
 - [[Touch_typing|Touch typing]] greatly help me to memorize words and phrases.
 - [ ] [9 часов английского](https://www.youtube.com/watch?v=PqBT7xpmZlE)

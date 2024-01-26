@@ -25,7 +25,7 @@ Great cheat sheet with core language syntax:
 ![](./img/C_Reference_Card_ANSI.v2.2.pdf)
 _[C Reference Card (ANSI)](https://www.math.brown.edu/johsilve/ReferenceCards/CRefCard.v2.2.pdf)_
 
-## Resources
+## References
 
 - [ ] [Why C is so Influential - Computerphile - YouTube](https://www.youtube.com/watch?v=ci1PJexnfNE)
 - [ ] [[research/Muratori-Handmade_Hero]]

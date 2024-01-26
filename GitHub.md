@@ -234,6 +234,6 @@ Scroll all the way up::`shift + up`
 
 Scroll all the way down::`shift + down`
 
-## Resources
+## References
 
 - [GitHub Docs](https://docs.github.com/en)

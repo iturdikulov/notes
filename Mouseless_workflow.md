@@ -301,7 +301,7 @@ the key sequence ^XV^, that is Ctrl+x followed by Ctrl+v. To get back to
 emacs mode just type any key sequence that would normally get you to
 viins mode (\"insert-mode\") with vi-like bindings, e.g. i or a.
 
-## Resources
+## References
 
 - [[QMK]]
 - [Monkeytype | A minimalistic, customizable typing test](https://monkeytype.com/)

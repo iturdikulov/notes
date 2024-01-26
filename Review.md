@@ -24,7 +24,7 @@ sr-ease: 229
 >
 > A compilation of reviews may itself be called a review.
 
-## Resources
+## References
 
 - [Earth Reviews](https://neal.fun/earth-reviews/)
 - [IMDb](https://www.imdb.com/)

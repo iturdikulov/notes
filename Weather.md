@@ -26,6 +26,6 @@ sr-ease: 270
 > estimate demand over coming days.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Weather)</cite>
 
-## Resources
+## References
 
 - [Accuweather](http://www.accuweather.com/)

@@ -504,7 +504,7 @@ You can put in outputs various things:
 по стандартным путям. Чисто симлинками. И внутри этого контейнера может
 запускаться любое стороннее бинарное приложение, например игры в Steam.
 
-## Resources
+## References
 
 TODO:
  - follow config guide

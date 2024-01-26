@@ -56,7 +56,7 @@ sr-ease: 222
 - [LinuxCafeFederation/awesome-gnu-linux-gaming](https://github.com/LinuxCafeFederation/awesome-gnu-linux-gaming)
 - [vinjn/awesome-vulkan: Awesome Vulkan ecosystem](https://github.com/vinjn/awesome-vulkan)
 
-## Resources
+## References
 
 - [ ] [John Carmack: Doom, Quake, VR, AGI, Programming, Video Games, and Rockets | Lex Fridman Podcast #309 - YouTube](https://www.youtube.com/watch?v=I845O57ZSy4)
 - [ ] [Let’s BUILD a COMPUTER in CONWAY's GAME of LIFE ⠠⠵ - YouTube](https://www.youtube.com/watch?v=Kk2MH9O4pXY)

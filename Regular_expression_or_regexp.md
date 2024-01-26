@@ -17,7 +17,7 @@ sr-ease: 228
 > and formal language theory.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Regular_expression)</cite>
 
-## Resources
+## References
 
 - [ ] [ziishaned/learn-regex: Learn regex the easy way](https://github.com/ziishaned/learn-regex)
 - [i Hate Regex - The Regex Cheat Sheet](https://ihateregex.io/)

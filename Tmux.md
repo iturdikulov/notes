@@ -148,7 +148,7 @@ Tmux copy mode - Search forward::`/`
 Tmux copy mode - Start of line::`0`
 Tmux copy mode - Start selection::`Space`
 
-## Resources
+## References
 
 - [ ] [tmux 2: Productive Mouse-Free Development by Brian P. Hogan](https://pragprog.com/titles/bhtmux2/tmux-2/)
 

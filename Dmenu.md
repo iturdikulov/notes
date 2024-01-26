@@ -76,7 +76,7 @@ Confirm selection and continue (multi-run). Useful for running multiple instance
 
 `C-Y`::Paste from X clipboard
 
-## Resources
+## References
 
 - dmenu manpages - `man dmenu`
 - [ArchWiki page](https://wiki.archlinux.org/title/dmenu)

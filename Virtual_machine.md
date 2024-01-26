@@ -37,7 +37,7 @@ sr-ease: 233
 > are not universally interchangeable.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Virtual_machine)</cite>
 
-## Resources
+## References
 
 - [ ] [bryansteiner/gpu-passthrough-tutorial, KVM](https://github.com/bryansteiner/gpu-passthrough-tutorial)
 - [ ] [Libvirt, Parsec, GPU Passthrough and others | Webux Lab](https://webuxlab.com/en/projects/vm-passthrough-parsec)

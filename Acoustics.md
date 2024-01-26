@@ -25,7 +25,7 @@ sr-ease: 266
 >
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Acoustics)</cite>
 
-## Resources
+## References
 
 - [ ] [Акустика для начинающих. Звукоизоляция. Часть 1](https://pikabu.ru/story/akustika_dlya_nachinayushchikh_zvukoizolyatsiya_chast_1_3956274)
 - [ ] [Акустика для начинающих. Звукопоглощение. Часть 2](https://pikabu.ru/story/akustika_dlya_nachinayushchikh_zvukopogloshchenie_chast_2_3961293)

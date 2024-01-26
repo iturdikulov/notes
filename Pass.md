@@ -51,6 +51,6 @@ Application passwords just haven't tld, like
 
 I also use passwords groups, like business, email, social, etc.
 
-## Resources
+## References
 
 - [pass - ArchWiki](https://wiki.archlinux.org/title/Pass)

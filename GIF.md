@@ -12,7 +12,7 @@ sr-ease: 270
 
 TODO: add term
 
-## Resources
+## References
 
 - [Paul Robertson GIFs - Find &amp; Share on GIPHY](https://giphy.com/paulrobertson)
 

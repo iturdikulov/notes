@@ -36,7 +36,7 @@ git config --global user.name "First Lastname"
 git config --global user.email "user@domain.tld"
 ```
 
-## Resources
+## References
 
 - [ ] [Git - SubmittingPatches Documentation](https://git-scm.com/docs/SubmittingPatches)
 - [ ] [Git - gittutorial Documentation](https://git-scm.com/docs/gittutorial)

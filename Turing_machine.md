@@ -57,7 +57,7 @@ read/write-device overwrites the character with a new one or moves one cell to
 the left or to the right. Furthermore, the current state of the machine can be
 switched.
 
-## Resources
+## References
 
 - [ ] [Turing Machines Explained - Computerphile - YouTube](https://www.youtube.com/watch?v=dNRDvLACg5Q)
 - [ ] Turing machines that decide languages

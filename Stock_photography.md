@@ -18,7 +18,7 @@ sr-ease: 270
 > amateur photographers through online submission.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Stock_photography)</cite>
 
-## Resources
+## References
 
 - [Unsplash](https://unsplash.com/)
 - [List of online image archives - Wikipedia](https://en.wikipedia.org/wiki/List_of_online_image_archives)

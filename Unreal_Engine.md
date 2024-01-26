@@ -38,7 +38,7 @@ sr-ease: 222
   /games/unreal-samples/`
 
 
-## Resources
+## References
 
 - [[3D_computer_graphics#Assets]]
 - [ ] [[research/Sensei-Unreal_Engine_5_Beginner_Tutorial]]

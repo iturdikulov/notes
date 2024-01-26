@@ -93,7 +93,7 @@ the goods from the merchant, then press `Enter` to finalize the deal.
 If you want to climb something, stand close to it and hold down the jump button
 `Alt` and `↑`.
 
-## Resources
+## References
 
 - [Gothic - Неолурк](https://neolurk.org/wiki/Gothic)
 - [StrategyWiki](https://strategywiki.org/wiki/Gothic)

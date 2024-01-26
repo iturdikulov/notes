@@ -85,7 +85,7 @@ TODO: select all directories.
 TODO: invert the selection.
 TODO: switch between files and directories
 
-## Resources
+## References
 
 - `:h netrw`
 - `:h netrw-quickmap`

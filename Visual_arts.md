@@ -22,6 +22,6 @@ sr-ease: 248
 Currently, I am working on [[30_day_drawing_challenge|my drawing challenge]] and
 [[research/Drawbox_Community-Drawbox]] course.
 
-## Resources
+## References
 
 - [ArtStation - All Channels](https://www.artstation.com/?sort_by=community&dimension=all)

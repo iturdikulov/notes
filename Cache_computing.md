@@ -20,7 +20,7 @@ sr-ease: 246
 > faster the system performs.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Cache_\(computing\))</cite>
 
-## Resources
+## References
 
 - [ ] [Different Types of Caching: Server Cache vs Browser Cache vs Page (Site) Cache](https://wp-rocket.me/wordpress-cache/different-types-of-caching/)
 - [ ] [Redis in 100 Seconds - YouTube](https://www.youtube.com/watch?v=G1rOthIU-uo)

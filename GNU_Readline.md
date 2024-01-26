@@ -115,7 +115,7 @@ current line.
 
 - [ ] sync with zsh/vi/neovim/ssh host `h rsi`
 
-## Resources
+## References
 
 - [GNU Readline Library](https://tiswww.case.edu/php/chet/readline/readline.html)
 

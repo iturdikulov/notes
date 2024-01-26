@@ -31,7 +31,7 @@ What main purpose of debugger program?
 ?
 Inspect how your program running, modify it's state.
 
-## Resources
+## References
 
 - [ ] [Debugger FAQ](http://websites.umich.edu/~eecs381/generalFAQ/Debugging.html)
 - [ ] [introduction to GDB a tutorial - Harvard CS50 - YouTube](https://www.youtube.com/watch?v=sCtY--xRUyI)

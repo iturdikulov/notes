@@ -53,7 +53,7 @@ libretro-mupen64plus-next # Nintendo 64 core
 libretro-ppsspp # Sony PlayStation Portable core
 ```
 
-## Resources
+## References
 
 - [Emulation General Wiki](https://emulation.gametechwiki.com/index.php/Main_Page)
 - [Retro - /r/Roms Megathread](https://r-roms.github.io/megathread/retro/)

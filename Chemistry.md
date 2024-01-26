@@ -12,6 +12,6 @@ sr-ease: 267
 TODO: add term
 TODO: add periodic table note
 
-## Resources
+## References
 
 - [PTable - interactive periodic table](http://www.ptable.com/)

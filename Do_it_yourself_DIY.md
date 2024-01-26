@@ -23,7 +23,7 @@ sr-ease: 250
 
 For me DIY is important part of my [[In_real_life_IRL|life]].
 
-## Resources
+## References
 
 - [ ] [Instructables](https://www.instructables.com/)
 - [ ] [Woodworking machinery books | CRAFTSMANSPACE](http://www.craftsmanspace.com/free-patterns/band-patterns.html)

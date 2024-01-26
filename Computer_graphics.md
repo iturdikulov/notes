@@ -26,7 +26,7 @@ sr-ease: 225
 ![](https://www.youtube.com/watch?v=hTpcOmlvCEQ)\
 _Excellent example of computer graphics (rendered video) from branch education_
 
-## Resources
+## References
 
 - [ ] [Shadertoy BETA](https://www.shadertoy.com/)
 

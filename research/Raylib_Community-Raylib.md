@@ -15,7 +15,7 @@ sr-ease: 271
 
 # Raylib
 
-## Resources
+## References
 
 - [GitHub - raysan5/raylib](https://github.com/raysan5/raylib)
 - [Curated list of awesome stuff for raylib.](https://github.com/Rabios/awesome-raylib)

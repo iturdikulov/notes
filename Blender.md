@@ -18,7 +18,7 @@ freedom.
 effects, [[Art|art]], 3D-printed models, motion graphics, interactive 3D
 applications, virtual reality, and, formerly, video [[Game|games]].
 
-## Resources
+## References
 
 - [Blender Manual](https://docs.blender.org/manual/en/latest/index.html)
 - [Blender Market | A Unique Market for Creators that love Blender](https://blendermarket.com/)

@@ -32,7 +32,7 @@ ways to sync data which I usually use:
    [[DWM]]. And rsync data: `rsync -r <source> <destination>`. It's rare case.
 2. Complex setup, using [[Syncthing]].
 
-## Resources
+## References
 
 - [Android Debug Bridge (adb)](https://developer.android.com/tools/adb)
 - [XDA Portal & Forums](https://www.xda-developers.com/)
