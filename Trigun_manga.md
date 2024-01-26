@@ -5,6 +5,9 @@ tags:
   - inbox
   - SR_art
 directory: ~/Arts_and_Entertainment/literature/Yasuhiro Nightow/
+sr-due: 2024-01-30
+sr-interval: 4
+sr-ease: 270
 ---
 
 # Trigun

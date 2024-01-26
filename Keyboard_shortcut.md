@@ -3,6 +3,9 @@ date: 2023-02-21
 tags:
   - inbox
   - outline
+sr-due: 2024-01-27
+sr-interval: 1
+sr-ease: 225
 ---
 
 # Keyboard shortcut

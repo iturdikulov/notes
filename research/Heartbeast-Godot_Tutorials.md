@@ -5,6 +5,9 @@ tags:
   - SR_computer_graphics
   - SR_game
 directory: ~/Computer/graphics/Heartbeast-Godot_Tutorials/
+sr-due: 2024-01-29
+sr-interval: 3
+sr-ease: 269
 ---
 
 ## Galaxy Defiance

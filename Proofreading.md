@@ -3,6 +3,9 @@ date: 2024-01-23
 tags:
   - inbox
   - SR_english
+sr-due: 2024-01-29
+sr-interval: 3
+sr-ease: 261
 ---
 
 # Proofreading

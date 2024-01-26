@@ -2,6 +2,9 @@
 date: 2023-09-22
 tags:
   - inbox
+sr-due: 2024-01-29
+sr-interval: 3
+sr-ease: 265
 ---
 # No tags or empty files?
 

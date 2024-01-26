@@ -3,6 +3,9 @@ date: 2023-04-15
 tags:
   - inbox
   - SR_computer_science
+sr-due: 2024-01-27
+sr-interval: 1
+sr-ease: 227
 ---
 
 # Search algorithm

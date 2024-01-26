@@ -4,9 +4,9 @@ tags:
   - inbox
 external: iturdikulov.com
 directory: ~/Computer/web/iturdikulov.com/
-sr-due: 2024-01-26
+sr-due: 2024-01-27
 sr-interval: 1
-sr-ease: 229
+sr-ease: 209
 ---
 
 # Iturdikulov.com

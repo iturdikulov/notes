@@ -6,6 +6,9 @@ tags:
   - inbox
   - SR_programming
   - research
+sr-due: 2024-01-27
+sr-interval: 1
+sr-ease: 225
 ---
 
 # Learn JavaScript in Y minutes

@@ -3,6 +3,9 @@ date: 2023-07-15
 tags:
   - inbox
   - SR_productivity
+sr-due: 2024-01-28
+sr-interval: 2
+sr-ease: 244
 ---
 
 # How do I sync my data (and use it)

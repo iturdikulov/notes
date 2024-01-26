@@ -3,6 +3,9 @@ date: 2023-04-08
 tags:
   - inbox
   - SR_software
+sr-due: 2024-01-27
+sr-interval: 1
+sr-ease: 232
 ---
 
 # sc-im

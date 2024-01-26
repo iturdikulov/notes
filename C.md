@@ -3,9 +3,9 @@ date: 2022-12-29
 tags:
   - inbox
   - SR_programming
-sr-due: 2024-01-26
+sr-due: 2024-01-27
 sr-interval: 1
-sr-ease: 143
+sr-ease: 130
 ---
 
 # C (programming language)

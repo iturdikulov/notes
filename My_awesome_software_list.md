@@ -18,33 +18,35 @@ other notes.
 Check also [[My_shell_scripts|my scripts]] and
 [[Hidden_file_and_hidden_directory_dotfiles|dotfiles]].
 
+TODO: restructure, instead more_info, use linking to notes!
+
 Table Of Contents:
 
 - [Audio](#audio)
 - [Chat Clients](#Chat\ Clients)
-- [Data Backup and Recovery](#data-backup-and-recovery)
-- [Desktop](#desktop--window-manager--customization)
-- [Development](#development)
-- [Books](#books)
-- [Education](#education)
-- [Email](#email)
-- [File Manager](#file-manager)
-- [Games](#games)
-- [Gaming Applications](#gaming-applications)
-- [Machine Emulators](#machine-emulators)
-- [Graphics](#graphics)
-- [Internet](#internet)
-- [Office](#office)
-- [Productivity](#productivity)
-- [Proxy & VPN](#proxy--vpn)
-- [Security](#security)
-- [Sharing Files](#sharing-files)
-- [Terminal](#terminal)
-- [Text Editors](#text-editors)
-- [Utilities](#utilities)
-- [Video](#video)
-- [Wiki Software](#wiki-software)
-- [Others](#others)
+- [Data Backup and Recovery](#Data\ Backup\ and\ Recovery)
+- [Desktop](#Desktop)
+- [Development](#Development)
+- [Books](#Books)
+- [Education](#Education)
+- [Email](#Email)
+- [File Manager](#File\ Manager)
+- [Games](#Games)
+- [Gaming Applications](#Gaming\ Applications)
+- [Machine Emulators](#Machine\ Emulators)
+- [Graphics](#Graphics)
+- [Internet](#Internet)
+- [Office](#Office)
+- [Productivity](#Productivity)
+- [Proxy & VPN](#Proxy\ &\ VPN)
+- [Security](#Security)
+- [Sharing Files](#Sharing\ Files)
+- [Terminal](#Terminal)
+- [Text Editors](#Text\ Editors)
+- [Utilities](#Utilities)
+- [Video](#Video)
+- [Wiki Software](#Wiki\ Software)
+- [Others](#Others)
 
 ## Audio
 
@@ -75,50 +77,93 @@ Table Of Contents:
 
 - [[Calibre]] - e-book management software.
 
-## RND
+
+## Education
+
+## Email
+
+## File Manager
+
+## Games
+
+## Gaming Applications
+
+## Machine Emulators & Circuit Design
+
+- [QEMU](https://www.qemu.org/) - virtualization/emulation
+- [quickemu](https://github.com/quickemu-project/quickemu) - Quickly create and
+  run optimized virtual machines (use QEMU)
+- [wine](https://www.winehq.org/) - compatibility layer capable of running
+  Windows applications
+
+- Qucs-s - circuit simulator with graphical user interface
+- Fritzing - is an electronics design and prototyping platform for makers,
+  hobbyists, and educators.
+
+## Graphics
+
+- Adobe Photoshop - raster graphics editor
+- [[Unreal_Engine|Unreal Engine]] - open-source 3D game engine
+- [[Inkscape]] - open-source vector graphics editor,
+- [[Darktable]] - photography workflow application and raw developer
+- [[Godot]] - free and open source 2D and 3D game engine
+- [[Blender]] - open-source 3D computer graphics software tool set
+- [[Krita]] - open-source painting program
+- [[Natron]] - open source compositing software
+
+- [SolveSpace](https://solvespace.com/index.pl) - 3D parametric/interactive CAD
+- [Nomad Sculpt](https://nomadsculpt.com/), 3D sculpting software,
+  [[Nomad_sculpt|more_info]]
+
+- [maim](https://github.com/naelstrof/maim) - take screenshots of your desktop
+- [imagemagic](https://imagemagick.org/index.php) - create, edit, compose, or
+  convert digital images
+
+## Internet
+
+- [Firefox](https://www.mozilla.org/en-US/firefox/new/) - web browser,
+  [[Firefox|more_info]]
+- Thunderbird - Email client
+- [Brave](https://brave.com/) - modern, fast and private browser, based on
+  Chromium, [[Brave]]
+- [NeoMutt](https://neomutt.org/) - message user agent (MUA),
+  [[Neomutt|more_info]], not use anymore
+- [[Surfingkeys]] - keyboard-based navigation in web browser
+- [lynx](https://lynx.invisible-island.net/) - text-based web browser
+- [[Miniflux]] - RSS reader, web application, not use anymore
+- [[Newsboat]] - CLI RSS reader, console application
+
+## Office
+## Productivity
+## Proxy & VPN
+## Security
+## Sharing Files
+## Terminal
+## Text Editors
+## Utilities
+## Video
+
+## Wiki Software
 
 - [[Telekasten.nvim]] - personal [[Zettelkasten]]
 - [[Obsidian]] - a knowledge base that works on local Markdown files. Used
   mostly to render markdown notes and to organize [[Spaced_repetition|spaced
   repetition]] system.
-- [Firefox](https://www.mozilla.org/en-US/firefox/new/) - web browser,
-  [[Firefox|more_info]]
+
+## Others
+
+
 - [[Taskwarrior]] - command-line to-do list manager
 
-### Tier 2
-
-- [[Godot]] - free and open source 2D and 3D game engine
-- [[Blender]] - open-source 3D computer graphics software tool set
-- [[Krita]] - open source painting program
-
-### Tier 3
-
-- Qucs-s - circuit simulator with graphical user interface
-- Fritzing - is an electronics design and prototyping platform for makers,
-  hobbyists, and educators.
-- [[Inkscape]] - open source vector graphics editor,
-- [[Darktable]] - photography workflow application and raw developer
-- [[Natron]] - open source compositing software
-
-### Tier 4 (proprietary)
-
-- Adobe Photoshop
 
 ## Programming
 
-- [[GNU_Compiler_Collection_GCC|GCC]] - GNU Compiler Collection,
+- [[GNU_Compiler_Collection_GCC|GCC]] - GNU Compiler Collection
+- [[GNU_Debugger]] - GNU Project debugger
+- [[Git]] - distributed version control system
+- [[Docker]] - set of platform as service products that use OS-level virtualization to deliver software in packages called containers
 
-TODO: restructure, instead more_info, use linking to notes!
-
-- [GDB](https://www.gnu.org/software/gdb/) - GNU Project debugger,
-  [[GNU_Debugger|more_info]]
-- [Git](https://git-scm.com/) - distributed version control system,
-  [[Git|more_info]]
-- [Docker](https://www.docker.com/) - set of platform as service products that
-  use OS-level virtualization to deliver software in packages called containers,
-  [[Docker|more_info]]
-- [sc-im](https://github.com/andmarti1424/sc-im) - vim-like spreadsheet
-  calculator/editor, [[Sc-im|more_info]]
+- [[Sc-im]] - vim-like spreadsheet calculator/editor
 
 - [locust](https://locust.io/) - An open source load testing tool
 - [jq](https://stedolan.github.io/jq/) - jq is like sed for JSON data,
@@ -126,12 +171,11 @@ TODO: restructure, instead more_info, use linking to notes!
 - [xsv](https://github.com/BurntSushi/xsv) - indexing, slicing, analyzing,
   splitting and joining CSV files
 
-- [tmux](https://github.com/tmux/tmux/wiki) - tmux is a terminal multiplexer,
+- [[Tmux]] - tmux is a terminal multiplexer,
   switch between several programs in one terminal
-- [ZSH](https://www.zsh.org/) - Unix shell that can be used as an interactive
-  login shell and as a command interpreter for shell scripting
-- [fzf](https://github.com/junegunn/fzf) - general-purpose command-line fuzzy
-  finder, [[Fzf]]
+- [[Z_shell]] - Unix shell that can be used as an interactive login shell and
+as a command interpreter for shell scripting
+- [[Fzf]] - general-purpose command-line fuzzy finder
 
 - [fd](https://github.com/sharkdp/fd) - A simple, fast and user-friendly
   alternative to \'find\', [[Fd|more_info]]
@@ -159,25 +203,6 @@ TODO: restructure, instead more_info, use linking to notes!
 - [[leetcode-cli]] - command line tool to solve [[LeetCode]] problems from
   terminal
 
-## Internet
-
-- [Brave](https://brave.com/) - modern, fast and private browser, based on
-  Chromium, [[Brave]]
-- [NeoMutt](https://neomutt.org/) - message user agent (MUA),
-  [[Neomutt|more_info]], not use anymore
-- [[Surfingkeys]] - keyboard-based navigation in web browser
-- [lynx](https://lynx.invisible-island.net/) - text-based web browser
-- [[Miniflux]] - RSS reader, web application, not use anymore
-- [[Newsboat]] - CLI RSS reader, console application
-
-## Graphics
-
-- [maim](https://github.com/naelstrof/maim) - take screenshots of your desktop
-- [imagemagic](https://imagemagick.org/index.php) - create, edit, compose, or
-  convert digital images
-- [SolveSpace](https://solvespace.com/index.pl) - 3D parametric/interactive CAD
-- [Nomad Sculpt](https://nomadsculpt.com/), 3D sculpting software,
-  [[Nomad_sculpt|more_info]]
 
 ## Utilities
 
@@ -309,11 +334,6 @@ TODO: restructure, instead more_info, use linking to notes!
 
 ## Emu
 
-- [QEMU](https://www.qemu.org/) - virtualization/emulation
-- [quickemu](https://github.com/quickemu-project/quickemu) - Quickly create and
-  run optimized virtual machines (use QEMU)
-- [wine](https://www.winehq.org/) - compatibility layer capable of running
-  Windows applications
 
 ## Utilities
 
@@ -408,7 +428,8 @@ TODO: actualize this list
 
 ## Archive
 
-- [[Papis]], not use anymore, I switched to [[Zotero]]
+- [[Papis]]
+- [[Zotero]]
 - [MiniGlome/Archive.org-Downloader: Python3 script to download archive.org books in PDF format](https://github.com/MiniGlome/Archive.org-Downloader)
 
 ## TODO:

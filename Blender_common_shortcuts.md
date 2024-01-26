@@ -3,6 +3,9 @@ date: 2023-03-13
 tags:
   - inbox
   - SR_computer_graphics
+sr-due: 2024-01-27
+sr-interval: 1
+sr-ease: 224
 ---
 
 # Blender Common Shortcuts

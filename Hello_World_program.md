@@ -3,6 +3,9 @@ date: 2023-10-06
 tags:
   - inbox
   - SR_programming
+sr-due: 2024-01-27
+sr-interval: 1
+sr-ease: 228
 ---
 
 # "Hello, World!" program

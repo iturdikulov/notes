@@ -4,6 +4,9 @@ date: 2023-07-12
 tags:
   - inbox
   - SR_art
+sr-due: 2024-01-28
+sr-interval: 2
+sr-ease: 249
 ---
 # Film (Movie)
 

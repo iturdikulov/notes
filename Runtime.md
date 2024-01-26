@@ -3,6 +3,9 @@ date: 2023-05-18
 tags:
   - inbox
   - SR_computer_science
+sr-due: 2024-01-28
+sr-interval: 2
+sr-ease: 244
 ---
 
 # Runtime or execution time (program lifecycle phase)

@@ -2,6 +2,9 @@
 date: 2023-06-24
 tags:
   - inbox
+sr-due: 2024-01-27
+sr-interval: 1
+sr-ease: 228
 ---
 
 # Computer performance

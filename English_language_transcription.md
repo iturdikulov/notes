@@ -3,6 +3,9 @@ date: 2023-02-20
 tags:
   - inbox
   - SR_english
+sr-due: 2024-01-27
+sr-interval: 1
+sr-ease: 226
 ---
 
 # English transcription

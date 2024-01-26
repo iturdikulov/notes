@@ -3,6 +3,9 @@ date: 2022-12-29
 tags:
   - inbox
 directory: ~/Computer/graphics/fonts/
+sr-due: 2024-01-29
+sr-interval: 3
+sr-ease: 262
 ---
 
 # Font

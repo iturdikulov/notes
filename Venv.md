@@ -3,6 +3,9 @@ date: 2023-06-18
 tags:
   - inbox
   - SR_software
+sr-due: 2024-01-28
+sr-interval: 2
+sr-ease: 245
 ---
 
 # venv — Creation of virtual environments

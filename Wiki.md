@@ -3,6 +3,9 @@ external: https://en.wikipedia.org/wiki/Wiki
 date: 2023-03-28
 tags:
   - inbox
+sr-due: 2024-01-29
+sr-interval: 3
+sr-ease: 251
 ---
 
 # Wiki (encyclopedia)

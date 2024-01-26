@@ -2,6 +2,9 @@
 date: 2022-12-29
 tags:
   - inbox
+sr-due: 2024-01-27
+sr-interval: 1
+sr-ease: 225
 ---
 
 # [[Python]] Input/output

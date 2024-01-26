@@ -4,9 +4,9 @@ tags:
   - outline
   - SR_productivity
   - inbox
-sr-due: 2024-01-26
+sr-due: 2024-01-27
 sr-interval: 1
-sr-ease: 228
+sr-ease: 208
 ---
 
 # Now
@@ -44,6 +44,8 @@ are moved into archive section.
 - [[Neovim]], require global refactoring
 - [[Taskwarrior]], start to use it and "clean" my task list (especially RNR)
 
+- [[Gothic]] game playing
+- [[My_awesome_software_list]] - update and refactor
 - [[research/Ulibarri-Unreal_Engine_5_C++_The_Ultimate_Game_Developer]]
 - Try to port [org-media-note](https://github.com/yuchen-lea/org-media-note)
 

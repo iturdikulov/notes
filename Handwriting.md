@@ -2,6 +2,9 @@
 date: 2023-05-06
 tags:
   - inbox
+sr-due: 2024-01-28
+sr-interval: 2
+sr-ease: 246
 ---
 
 # Handwriting

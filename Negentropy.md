@@ -2,6 +2,9 @@
 date: 2022-12-28
 tags:
   - inbox
+sr-due: 2024-01-27
+sr-interval: 1
+sr-ease: 228
 ---
 
 # Negentropy
@@ -14,6 +17,8 @@ tags:
 
 I store tasks, which I need to check constantly, in this file. This helps me to
 reduce chaos in my life (at least digital).
+
+TODO: merge with [[Maintenance]] ?
 
 ## My process of negentropy
 

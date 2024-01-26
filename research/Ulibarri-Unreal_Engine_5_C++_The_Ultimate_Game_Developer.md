@@ -8,6 +8,9 @@ tags:
   - research
   - SR_computer_graphics
   - SR_game
+sr-due: 2024-01-27
+sr-interval: 1
+sr-ease: 228
 ---
 
 # Stephen Ulibarri - Unreal Engine 5 C++ The Ultimate Game Developer Course

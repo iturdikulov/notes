@@ -3,9 +3,9 @@ date: 2022-12-29
 tags:
   - inbox
   - SR_IRL
-sr-due: 2024-01-26
+sr-due: 2024-01-27
 sr-interval: 1
-sr-ease: 225
+sr-ease: 205
 ---
 
 # How to study or learn

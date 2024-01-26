@@ -3,6 +3,9 @@ date: 2024-01-15
 tags:
   - inbox
   - SR_productivity
+sr-due: 2024-01-28
+sr-interval: 2
+sr-ease: 239
 ---
 
 # My productivity workflow

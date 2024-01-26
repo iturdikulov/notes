@@ -2,9 +2,12 @@
 date: 2023-10-03
 tags:
   - inbox
+sr-due: 2024-01-28
+sr-interval: 2
+sr-ease: 244
 ---
 
-# Instruction_cycle
+# Instruction cycle
 
 > The instruction cycle (also known as the fetch–decode–execute cycle, or simply
 > the fetch-execute cycle) is the cycle that the central processing unit (CPU)

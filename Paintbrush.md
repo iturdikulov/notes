@@ -3,6 +3,9 @@ date: 2023-09-15
 tags:
   - inbox
 directory: ~/Computer/graphics/paintbrush/
+sr-due: 2024-01-28
+sr-interval: 2
+sr-ease: 246
 ---
 
 # Paintbrush

@@ -3,9 +3,9 @@ date: 2022-12-29
 tags:
   - inbox
   - bridge
-sr-due: 2024-01-26
+sr-due: 2024-01-27
 sr-interval: 1
-sr-ease: 222
+sr-ease: 202
 ---
 
 # Python

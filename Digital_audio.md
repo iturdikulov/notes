@@ -2,6 +2,9 @@
 date: 2023-04-17
 tags:
   - inbox
+sr-due: 2024-01-29
+sr-interval: 3
+sr-ease: 268
 ---
 
 # Digital audio

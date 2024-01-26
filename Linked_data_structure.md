@@ -3,6 +3,9 @@ date: 2023-10-05
 tags:
   - inbox
   - SR_computer_science
+sr-due: 2024-01-27
+sr-interval: 1
+sr-ease: 224
 ---
 
 # Linked data structure

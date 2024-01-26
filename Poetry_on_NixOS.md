@@ -2,6 +2,9 @@
 date: 2023-09-01
 tags:
   - inbox
+sr-due: 2024-01-29
+sr-interval: 3
+sr-ease: 266
 ---
 
 # [[Poetry]] on [[NixOS]]

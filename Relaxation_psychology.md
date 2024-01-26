@@ -3,6 +3,9 @@ date: 2023-09-21
 tags:
   - inbox
   - SR_IRL
+sr-due: 2024-01-29
+sr-interval: 3
+sr-ease: 254
 ---
 
 # Relaxation (psychology)

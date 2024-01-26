@@ -3,6 +3,9 @@ date: 2022-12-29
 tags:
   - inbox
   - SR_productivity
+sr-due: 2024-01-27
+sr-interval: 1
+sr-ease: 224
 ---
 
 # Exercise
@@ -18,3 +21,5 @@ tags:
 > — <cite>[Exercise - Wikipedia](https://en.wikipedia.org/wiki/Exercise)</cite>
 
 I have my own plan to do [[My_Physical_exercise_plan|daily exercises]].
+
+TODO: merge with my daily exercises?

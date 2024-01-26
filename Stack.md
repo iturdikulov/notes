@@ -3,6 +3,9 @@ date: 2023-05-18
 tags:
   - inbox
   - SR_computer_science
+sr-due: 2024-01-27
+sr-interval: 1
+sr-ease: 222
 ---
 
 # Stack (abstract data type)

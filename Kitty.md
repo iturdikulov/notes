@@ -6,6 +6,9 @@ tags:
   - inbox
   - archive
   - SR_productivity
+sr-due: 2024-01-29
+sr-interval: 3
+sr-ease: 254
 ---
 
 # Kitty (terminal emulator)

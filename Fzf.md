@@ -2,8 +2,10 @@
 date: 2023-03-03
 tags:
   - inbox
-  - SR_development
-  - SR_software
+  - SR_productivity
+sr-due: 2024-02-03
+sr-interval: 8
+sr-ease: 253
 ---
 
 # fzf

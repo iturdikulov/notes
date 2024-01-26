@@ -3,6 +3,9 @@ date: 2023-09-15
 tags:
   - inbox
 directory: ~/Arts_and_Entertainment/audiovisual/
+sr-due: 2024-01-29
+sr-interval: 3
+sr-ease: 250
 ---
 
 # Audiovisual

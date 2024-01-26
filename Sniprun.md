@@ -3,6 +3,9 @@ date: 2022-12-29
 tags:
   - inbox
   - SR_vim
+sr-due: 2024-01-29
+sr-interval: 3
+sr-ease: 267
 ---
 
 # Sniprun

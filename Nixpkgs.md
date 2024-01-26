@@ -4,6 +4,9 @@ tags:
   - inbox
 external: https://github.com/NixOS/nixpkgs
 directory: ~/Computer/unix/nixpkgs/
+sr-due: 2024-01-28
+sr-interval: 2
+sr-ease: 248
 ---
 
 # Nixpkgs

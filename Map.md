@@ -3,6 +3,9 @@ date: 2023-04-29
 tags:
   - inbox
   - SR_programming
+sr-due: 2024-01-27
+sr-interval: 1
+sr-ease: 223
 ---
 
 # Map (higher-order function, aka apply-to-all)

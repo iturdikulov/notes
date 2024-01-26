@@ -3,9 +3,9 @@ date: 2023-03-12
 tags:
   - inbox
   - SR_productivity
-sr-due: 2024-01-26
+sr-due: 2024-01-27
 sr-interval: 1
-sr-ease: 230
+sr-ease: 210
 ---
 
 # Spaced repetition

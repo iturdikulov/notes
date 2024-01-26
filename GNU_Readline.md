@@ -4,6 +4,9 @@ tags:
   - inbox
   - research
   - SR_development
+sr-due: 2024-01-27
+sr-interval: 1
+sr-ease: 228
 ---
 
 # GNU Readline

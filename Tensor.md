@@ -2,6 +2,9 @@
 date: 2023-05-18
 tags:
   - inbox
+sr-due: 2024-01-27
+sr-interval: 1
+sr-ease: 220
 ---
 
 # Tensor

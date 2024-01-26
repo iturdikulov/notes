@@ -4,6 +4,9 @@ external: https://www.darktable.org/
 tags:
   - inbox
   - SR_software
+sr-due: 2024-01-29
+sr-interval: 3
+sr-ease: 269
 ---
 
 # Darktable

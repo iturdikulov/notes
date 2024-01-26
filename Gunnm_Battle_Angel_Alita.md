@@ -5,6 +5,9 @@ directory: ~/Arts_and_Entertainment/literature/Yukito Kishiro/
 tags:
   - inbox
   - SR_art
+sr-due: 2024-01-30
+sr-interval: 4
+sr-ease: 270
 ---
 
 # Gunnm aka Battle Angel Alita

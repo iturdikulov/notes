@@ -8,6 +8,9 @@ tags:
   - research
   - SR_programming
   - inbox
+sr-due: 2024-01-27
+sr-interval: 1
+sr-ease: 226
 ---
 
 # Getting Started Testing - PyCon 2014

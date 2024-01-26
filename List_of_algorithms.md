@@ -4,6 +4,9 @@ tags:
   - inbox
   - outline
   - SR_computer_science
+sr-due: 2024-01-27
+sr-interval: 1
+sr-ease: 223
 ---
 
 # List of algorithms

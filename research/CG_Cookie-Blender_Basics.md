@@ -8,6 +8,9 @@ date: 2023-12-12
 external:
   - https://cgcookie.com/courses/blender-basics-an-introduction-to-blender-4-x
 directory: ~/Computer/graphics/CG_Cookie-Blender_Basics
+sr-due: 2024-01-28
+sr-interval: 2
+sr-ease: 246
 ---
 
 # An introduction to Blender 4.x

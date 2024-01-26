@@ -4,6 +4,9 @@ tags:
   - inbox
   - outline
   - SR_software
+sr-due: 2024-01-27
+sr-interval: 1
+sr-ease: 228
 ---
 
 # Unix commands

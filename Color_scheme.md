@@ -2,6 +2,9 @@
 date: 2023-08-26
 tags:
   - inbox
+sr-due: 2024-01-30
+sr-interval: 4
+sr-ease: 274
 ---
 
 # Color scheme

@@ -6,6 +6,9 @@ tags:
   - research
   - SR_productivity
 directory: ~/Arts_and_Entertainment/literature/Frederick Brooks/Mythical Man-Month, The_ Essays on Software Engineering, Anniversary Edition (1830)/
+sr-due: 2024-01-28
+sr-interval: 2
+sr-ease: 245
 ---
 
 # Mythical Man-Month, The: Essays on Software Engineering, Anniversary Edition

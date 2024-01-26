@@ -4,6 +4,9 @@ tags:
   - inbox
   - SR_software
   - SR_vim
+sr-due: 2024-01-28
+sr-interval: 2
+sr-ease: 246
 ---
 
 # Ropevim, rope in vim

@@ -4,6 +4,9 @@ tags:
   - inbox
   - SR_development
   - SR_software
+sr-due: 2024-01-28
+sr-interval: 2
+sr-ease: 249
 ---
 
 # Nnn file manager

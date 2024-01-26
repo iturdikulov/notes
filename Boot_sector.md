@@ -2,6 +2,9 @@
 date: 2023-06-17
 tags:
   - inbox
+sr-due: 2024-01-28
+sr-interval: 2
+sr-ease: 245
 ---
 
 # Boot sector

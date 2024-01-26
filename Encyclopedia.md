@@ -3,6 +3,9 @@ date: 2023-09-15
 tags:
   - inbox
 directory: ~/Reference/encyclopedia/
+sr-due: 2024-01-29
+sr-interval: 3
+sr-ease: 251
 ---
 
 # Encyclopedia
@@ -21,3 +24,5 @@ directory: ~/Reference/encyclopedia/
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Encyclopedia)</cite>
 
 I store some encyclopedias in `.zim` format, which can be opened in [[Kiwix]].
+
+TODO: merge with wiki?

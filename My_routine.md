@@ -4,6 +4,9 @@ tags:
   - outline
   - SR_IRL
   - inbox
+sr-due: 2024-01-28
+sr-interval: 2
+sr-ease: 241
 ---
 
 # My everyday life (routine)

@@ -2,6 +2,9 @@
 date: 2023-07-16
 tags:
   - inbox
+sr-due: 2024-01-29
+sr-interval: 3
+sr-ease: 266
 ---
 
 # Nix OS pre-install guide

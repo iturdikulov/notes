@@ -2,6 +2,9 @@
 date: 2023-03-23
 tags:
   - inbox
+sr-due: 2024-01-29
+sr-interval: 3
+sr-ease: 250
 ---
 
 # Signed number representations

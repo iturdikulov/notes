@@ -3,6 +3,9 @@ date: 2023-04-13
 tags:
   - inbox
   - SR_computer_graphics
+sr-due: 2024-01-28
+sr-interval: 2
+sr-ease: 244
 ---
 
 # Blender Tutorials

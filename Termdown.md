@@ -3,6 +3,9 @@ date: 2023-08-05
 tags:
   - inbox
   - SR_productivity
+sr-due: 2024-01-30
+sr-interval: 4
+sr-ease: 272
 ---
 
 # Termdown

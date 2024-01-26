@@ -2,9 +2,9 @@
 date: 2023-04-17
 tags:
   - inbox
-sr-due: 2024-01-26
+sr-due: 2024-01-27
 sr-interval: 1
-sr-ease: 221
+sr-ease: 201
 ---
 
 # Computing

@@ -4,6 +4,9 @@ date: 2023-04-15
 tags:
   - inbox
   - SR_software
+sr-due: 2024-01-30
+sr-interval: 4
+sr-ease: 272
 ---
 
 # Nomad Sculpt

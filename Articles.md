@@ -3,6 +3,9 @@ date: 2023-04-18
 tags:
   - inbox
   - outline
+sr-due: 2024-01-28
+sr-interval: 2
+sr-ease: 246
 ---
 
 # Articles (publishing)

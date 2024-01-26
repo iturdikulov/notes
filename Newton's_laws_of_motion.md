@@ -3,6 +3,9 @@ date: 2023-03-19
 tags:
   - inbox
   - SR_physics
+sr-due: 2024-01-27
+sr-interval: 1
+sr-ease: 232
 ---
 
 # Newton's laws of motion

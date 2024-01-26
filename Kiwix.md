@@ -3,6 +3,9 @@ date: 2023-09-15
 tags:
   - inbox
 external: https://kiwix.org/en/
+sr-due: 2024-01-30
+sr-interval: 4
+sr-ease: 270
 ---
 
 # Kiwix

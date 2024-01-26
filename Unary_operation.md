@@ -3,6 +3,9 @@ external: https://en.wikipedia.org/wiki/Unary_operation
 date: 2023-03-18
 tags:
   - inbox
+sr-due: 2024-01-27
+sr-interval: 1
+sr-ease: 221
 ---
 
 # Unary operation

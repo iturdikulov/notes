@@ -6,6 +6,9 @@ tags:
   - inbox
   - SR_programming
   - research
+sr-due: 2024-01-28
+sr-interval: 2
+sr-ease: 248
 ---
 
 # Learn Lua in Y minutes

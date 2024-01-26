@@ -3,6 +3,9 @@ date: 2023-03-19
 tags:
   - inbox
   - SR_computer_science
+sr-due: 2024-01-28
+sr-interval: 2
+sr-ease: 245
 ---
 
 # Analysis of algorithms
