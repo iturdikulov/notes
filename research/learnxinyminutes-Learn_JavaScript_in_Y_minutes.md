@@ -8,7 +8,7 @@ tags:
   - research
 sr-due: 2024-01-27
 sr-interval: 1
-sr-ease: 225
+sr-ease: 130
 ---
 
 # Learn JavaScript in Y minutes

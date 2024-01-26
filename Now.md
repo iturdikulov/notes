@@ -31,7 +31,7 @@ are moved into archive section.
 ## Current activities
 
 - [[My_Physical_exercise_plan|Slowly start doing physical exercises]]
-- [[Duolingo|Learn basic English]]
+- [[Duolingo|Learn basic English with Duolingo]]
 - [[Social_networking_service|Social Networking]] working project
 
 - [[research/Wengrow-Data_structures_and_algorithms]]

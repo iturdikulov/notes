@@ -9,9 +9,9 @@ tags:
   - research
   - inbox
   - SR_programming
-sr-due: 2024-02-08
-sr-interval: 14
-sr-ease: 220
+sr-due: 2024-01-27
+sr-interval: 1
+sr-ease: 130
 ---
 
 # [The Python Tutorial](https://docs.python.org/3/tutorial/index.html)

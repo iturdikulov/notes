@@ -2,9 +2,9 @@
 date: 2022-12-29
 tags:
   - inbox
-sr-due: 2024-01-27
-sr-interval: 2
-sr-ease: 246
+sr-due: 2024-02-02
+sr-interval: 7
+sr-ease: 266
 ---
 
 # Number
