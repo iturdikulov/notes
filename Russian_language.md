@@ -4,9 +4,9 @@ tags:
   - inbox
   - bridge
 directory: ~/Arts_and_Entertainment/russian/
-sr-due: 2024-01-26
-sr-interval: 1
-sr-ease: 223
+sr-due: 2024-01-29
+sr-interval: 3
+sr-ease: 243
 ---
 
 # Russian language

@@ -4,9 +4,9 @@ tags:
   - inbox
   - outline
   - bridge
-sr-due: 2024-01-26
+sr-due: 2024-01-27
 sr-interval: 1
-sr-ease: 201
+sr-ease: 181
 ---
 
 # How I learn programming and software development

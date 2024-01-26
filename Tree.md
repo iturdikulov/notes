@@ -2,9 +2,9 @@
 date: 2023-09-22
 tags:
   - inbox
-sr-due: 2024-01-26
+sr-due: 2024-01-27
 sr-interval: 1
-sr-ease: 223
+sr-ease: 203
 ---
 
 # Tree (data structure)

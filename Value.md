@@ -3,9 +3,9 @@ date: 2023-05-18
 tags:
   - inbox
   - SR_computer_science
-sr-due: 2024-01-26
+sr-due: 2024-01-27
 sr-interval: 1
-sr-ease: 223
+sr-ease: 203
 ---
 
 # Value (computer science)
