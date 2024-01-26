@@ -4,9 +4,9 @@ tags:
   - outline
   - SR_mathematics
   - inbox
-sr-due: 2024-01-26
+sr-due: 2024-01-27
 sr-interval: 1
-sr-ease: 220
+sr-ease: 200
 ---
 
 # Multiplication table

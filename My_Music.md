@@ -4,8 +4,8 @@ directory: ~/Music/
 tags:
   - inbox
   - outline
-sr-due: 2024-01-27
-sr-interval: 1
+sr-due: 2024-02-12
+sr-interval: 17
 sr-ease: 212
 ---
 

@@ -4,9 +4,9 @@ tags:
   - inbox
   - SR_computer_science
   - SR_mathematics
-sr-due: 2024-01-26
+sr-due: 2024-01-27
 sr-interval: 1
-sr-ease: 224
+sr-ease: 204
 ---
 
 # Algorithm

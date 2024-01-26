@@ -2,8 +2,8 @@
 date: 2023-03-12
 tags:
   - inbox
-sr-due: 2024-01-27
-sr-interval: 1
+sr-due: 2024-03-11
+sr-interval: 45
 sr-ease: 214
 ---
 

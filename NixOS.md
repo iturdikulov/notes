@@ -4,8 +4,8 @@ external: https://nixos.org/
 tags:
   - inbox
   - SR_software
-sr-due: 2024-01-27
-sr-interval: 2
+sr-due: 2024-02-07
+sr-interval: 12
 sr-ease: 230
 ---
 

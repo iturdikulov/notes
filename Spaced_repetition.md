@@ -3,9 +3,9 @@ date: 2023-03-12
 tags:
   - inbox
   - SR_productivity
-sr-due: 2024-01-27
-sr-interval: 1
-sr-ease: 210
+sr-due: 2024-01-29
+sr-interval: 3
+sr-ease: 230
 ---
 
 # Spaced repetition
@@ -27,26 +27,29 @@ notes to work.
 
 Spaced repetition obsidian plugin custom hotkeys.
 
-Review flashcards in this note::`C-A-f`
-Review flashcards from all notes::`C-A-a`
-Review note as easy::`C-A-1`
-Review note as good::`C-A-2`
-Review note as hard::`C-A-3`
-
-Open a note for review::``C-A-` ``
-View statistics::`A-c`
+- Review flashcards in this note::`C-A-f`
+<!--SR:!2024-01-27,1,211-->
+- Review flashcards from all notes::`C-A-a`
+<!--SR:!2024-01-29,3,251-->
+- Review note as easy::`C-A-1`
+- Review note as good::`C-A-2`
+- Review note as hard::`C-A-3`
+<!--SR:!2024-01-27,1,211-->
+- Open a note for review::``C-A-` ``
+- View statistics::`A-c`
+<!--SR:!2024-01-27,1,211-->
 
 
 ## Test spaced repetition plugin
 
 Simple ==highlight==.
-<!--SR:!2023-11-27,3,250-->
+<!--SR:!2024-02-04,9,270-->
 
 Highlight ==with
 new line== Is not working.
 
 Double::colon.
-<!--SR:!2023-11-27,3,250-->
+<!--SR:!2024-02-05,10,270-->
 
 Double colon with::
 new line not working.
@@ -61,6 +64,7 @@ Simple question
 With new
 \
 Lines
+<!--SR:!2024-01-29,3,251-->
 
 Simple question
 ?
