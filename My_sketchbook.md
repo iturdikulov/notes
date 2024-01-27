@@ -3,9 +3,9 @@ date: 2024-01-15
 tags:
   - inbox
   - outline
-sr-due: 2024-01-27
-sr-interval: 1
-sr-ease: 229
+sr-due: 2024-01-30
+sr-interval: 3
+sr-ease: 249
 ---
 
 # My sketchbook

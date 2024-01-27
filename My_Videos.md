@@ -4,9 +4,9 @@ directory: ~/Videos/
 tags:
   - inbox
   - outline
-sr-due: 2024-01-27
-sr-interval: 1
-sr-ease: 212
+sr-due: 2024-02-05
+sr-interval: 9
+sr-ease: 252
 ---
 
 # My Videos
