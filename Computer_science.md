@@ -4,8 +4,8 @@ tags:
   - inbox
   - bridge
   - SR_computer_science
-sr-due: 2024-01-27
-sr-interval: 1
+sr-due: 2024-01-31
+sr-interval: 4
 sr-ease: 209
 ---
 
@@ -22,6 +22,9 @@ sr-ease: 209
 > computer science.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Computer_science)</cite>
 
+The fundamental concern of computer science is determining what ==can and cannot
+be automated==.
+
 I think knowing computer science help to write effective [[Code|code]] (goal of
 good [[Programmer|programmer]], which I want to be). I described how I
 [[Learning|learn]] computer science [[How_I_learn_computer_science|here]].
@@ -35,38 +38,61 @@ Computer science closely related to
 In computer science central role plays
 ==[[Algorithm|algorithms]] and [[Data_structure|data_structures]]==.
 
-The theory of computation concerns abstract models of computation and general
-classes of problems that can be solved using them.
+## Core concepts in computer science [^1]
 
-The fields of cryptography and computer security involve studying the means for
-secure communication and for preventing security vulnerabilities.
+The theory of computation helping to create **theoretical models (abstract
+models)** of how computers work (==computation==) and understanding the **types
+of problems (general classes of problems)** these computers can solve. So it's
+about creating abstract computing models and understand which general classes of
+problems these models can solve.
 
-Computer graphics and computational geometry address the generation of images.
+Cryptography and computer security fields is needed to study (and practice) how
+prevent security vulnerabilities and how to communicate securely (secure data
+transmission).
+
+Computer graphics and computational geometry address the generation of
+==images==.
 
 Programming language theory considers different ways to describe computational
-processes, and database theory concerns the management of repositories of data.
+processes.
+Different programming languages can implement computational processes
+in different ways and can be used to solve different classes of problems.
 
-Human–computer interaction investigates the interfaces through which humans and
-computers interact, and software engineering focuses on the design and
-principles behind developing software.
+Database theory concerns the management of repositories of ==data==. For
+example, you have a bunch of messy data (desktop shortcuts), and you can
+organize them in some structures (group, sort, etc.) to manage them more
+effectively.
 
-Areas such as operating systems, networks and embedded systems investigate the
-principles and design behind complex systems.
+==Human–computer interaction== investigates the interfaces through which humans
+and computers interact. There many UI specialists, which usually haven't
+developing software skills, but they know how to create effective UI.
 
-Computer architecture describes the construction of computer components and
-computer-operated equipment.
+Software engineering focuses on the design and principles behind ==developing
+software==. And usually software engineers solving problems in real world with
+requirements from customers.
 
-Artificial intelligence and machine learning aim to synthesize goal-orientated
-processes such as problem-solving, decision-making, environmental adaptation,
-planning and learning found in humans and animals.
+There are many areas (complex systems), which investigate the principles and
+design in their own area. Main areas are: [[Operating_system|operating
+systems]], [[Computer_network|networks]] and embedded systems.
+
+What describes Computer Architecture?
+?
+[[Computer_architecture|Computer architecture]] describes the construction of
+computer components and computer-operated equipment (Input, Output, CPU, RAM).
+
+Goal of Artificial intelligence?
+?
+[[Artificial_intelligence|Artificial intelligence]] and machine learning aim to
+synthesize goal-orientated processes such as problem-solving, decision-making,
+environmental adaptation, planning and learning found in humans and animals.
+In other words replicate humans and animals processes/behavior.
 
 Within artificial intelligence, computer vision aims to understand and process
-image and video data, while natural language processing aims to understand and
-process textual and linguistic data.
+**image and video data**, while natural language processing aims to understand
+and process **textual and linguistic data**.
 
-The fundamental concern of computer science is determining what can and cannot
-be automated. The Turing Award is generally recognized as the highest
-distinction in computer science.
+The Turing Award is generally recognized as the highest distinction in computer
+science.
 
 ## References
 
