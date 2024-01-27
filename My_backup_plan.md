@@ -2,9 +2,9 @@
 date: 2023-02-22
 tags:
   - inbox
-sr-due: 2024-01-27
+sr-due: 2024-01-28
 sr-interval: 1
-sr-ease: 210
+sr-ease: 190
 ---
 
 # My backup plan

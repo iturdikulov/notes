@@ -2,9 +2,9 @@
 date: 2023-03-12
 tags:
   - inbox
-sr-due: 2024-01-27
+sr-due: 2024-01-28
 sr-interval: 1
-sr-ease: 168
+sr-ease: 148
 ---
 
 # Social networking service (SNS)

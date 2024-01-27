@@ -2,9 +2,9 @@
 date: 2023-10-03
 tags:
   - inbox
-sr-due: 2024-01-27
-sr-interval: 2
-sr-ease: 249
+sr-due: 2024-01-28
+sr-interval: 1
+sr-ease: 229
 ---
 
 # Rendering (computer graphics)

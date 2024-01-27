@@ -2,9 +2,9 @@
 date: 2023-09-24
 tags:
   - inbox
-sr-due: 2024-01-27
-sr-interval: 2
-sr-ease: 247
+sr-due: 2024-02-03
+sr-interval: 7
+sr-ease: 267
 ---
 
 # Poetry

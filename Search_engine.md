@@ -3,9 +3,9 @@ date: 2023-04-03
 tags:
   - inbox
   - SR_development
-sr-due: 2024-01-28
-sr-interval: 2
-sr-ease: 247
+sr-due: 2024-01-27
+sr-interval: 1
+sr-ease: 227
 ---
 
 # Search engine

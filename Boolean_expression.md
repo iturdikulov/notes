@@ -2,9 +2,9 @@
 date: 2023-05-24
 tags:
   - inbox
-sr-due: 2024-01-27
-sr-interval: 2
-sr-ease: 248
+sr-due: 2024-01-28
+sr-interval: 1
+sr-ease: 228
 ---
 
 # Boolean expression

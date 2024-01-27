@@ -237,3 +237,6 @@ meaning of words.
 - along
 - запас
 - 
+- consider
+- consider
+- conscern

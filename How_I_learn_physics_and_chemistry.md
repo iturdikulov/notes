@@ -3,9 +3,9 @@ date: 2023-05-18
 tags:
   - inbox
   - outline
-sr-due: 2024-01-27
+sr-due: 2024-01-28
 sr-interval: 1
-sr-ease: 188
+sr-ease: 168
 ---
 
 # How I learn physics and chemistry

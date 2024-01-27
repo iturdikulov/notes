@@ -3,9 +3,9 @@ date: 2023-10-05
 tags:
   - inbox
   - SR_computer_science
-sr-due: 2024-01-27
+sr-due: 2024-01-28
 sr-interval: 1
-sr-ease: 203
+sr-ease: 183
 ---
 
 # Graph (abstract data type)

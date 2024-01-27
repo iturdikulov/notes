@@ -9,7 +9,7 @@ tags:
   - SR_computer_science
   - inbox
 directory: ~/Computer/science/Wengrow-Data_structures_and_algorithms/
-sr-due: 2024-01-27
+sr-due: 2024-01-28
 sr-interval: 1
 sr-ease: 130
 ---

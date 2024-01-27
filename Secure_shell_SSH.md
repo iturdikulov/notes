@@ -3,9 +3,9 @@ date: 2023-08-16
 tags:
   - inbox
   - SR_software
-sr-due: 2024-01-27
-sr-interval: 2
-sr-ease: 248
+sr-due: 2024-01-28
+sr-interval: 1
+sr-ease: 228
 ---
 
 # Secure Shell (SSH)

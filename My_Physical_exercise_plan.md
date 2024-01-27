@@ -5,9 +5,9 @@ tags:
   - outline
   - research
   - SR_IRL
-sr-due: 2024-01-27
+sr-due: 2024-01-28
 sr-interval: 1
-sr-ease: 183
+sr-ease: 163
 ---
 
 # Physical exercise plan

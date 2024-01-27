@@ -3,9 +3,9 @@ date: 2024-01-15
 tags:
   - inbox
   - outline
-sr-due: 2024-01-27
+sr-due: 2024-01-28
 sr-interval: 1
-sr-ease: 199
+sr-ease: 179
 ---
 
 # How I learn computer science

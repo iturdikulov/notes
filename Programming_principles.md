@@ -3,9 +3,9 @@ date: 2022-12-29
 tags:
   - inbox
   - SR_programming
-sr-due: 2024-01-27
+sr-due: 2024-01-28
 sr-interval: 1
-sr-ease: 208
+sr-ease: 188
 ---
 
 # Programming principles

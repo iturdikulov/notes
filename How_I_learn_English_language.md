@@ -3,9 +3,9 @@ date: 2023-03-13
 tags:
   - inbox
   - outline
-sr-due: 2024-01-27
+sr-due: 2024-01-28
 sr-interval: 1
-sr-ease: 192
+sr-ease: 172
 ---
 
 # How I learn English language
