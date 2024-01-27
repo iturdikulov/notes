@@ -3,9 +3,9 @@ date: 2024-01-23
 tags:
   - inbox
   - SR_physics
-sr-due: 2024-01-27
-sr-interval: 1
-sr-ease: 226
+sr-due: 2024-01-30
+sr-interval: 3
+sr-ease: 246
 ---
 
 # Space exploration

@@ -3,8 +3,8 @@ date: 2023-05-18
 tags:
   - inbox
   - SR_mathematics
-sr-due: 2024-01-27
-sr-interval: 1
+sr-due: 2024-01-29
+sr-interval: 2
 sr-ease: 218
 ---
 

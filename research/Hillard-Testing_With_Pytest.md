@@ -8,8 +8,8 @@ tags:
   - SR_programming
   - inbox
 directory: ~/Computer/programming/Hillard-Testing_With_Pytest
-sr-due: 2024-01-27
-sr-interval: 1
+sr-due: 2024-02-11
+sr-interval: 15
 sr-ease: 226
 ---
 

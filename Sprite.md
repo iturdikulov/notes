@@ -4,9 +4,9 @@ directory: ~/Computer/graphics/sprite/
 tags:
   - inbox
   - SR_computer_graphics
-sr-due: 2024-01-27
-sr-interval: 1
-sr-ease: 224
+sr-due: 2024-01-30
+sr-interval: 3
+sr-ease: 244
 ---
 
 # Sprite (computer graphics)

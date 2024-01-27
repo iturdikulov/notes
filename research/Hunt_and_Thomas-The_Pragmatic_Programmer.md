@@ -9,8 +9,8 @@ external:
   - https://pragprog.com/titles/tpp20/the-pragmatic-programmer-20th-anniversary-edition/
 date: 2019
 diretory: ~/Computer/programming/Hunt_and_Thomas-The_Pragmatic_Programmer
-sr-due: 2024-01-27
-sr-interval: 1
+sr-due: 2024-01-31
+sr-interval: 4
 sr-ease: 216
 ---
 

@@ -3,9 +3,9 @@ date: 2023-10-06
 tags:
   - inbox
   - SR_mathematics
-sr-due: 2024-01-27
-sr-interval: 1
-sr-ease: 201
+sr-due: 2024-01-30
+sr-interval: 3
+sr-ease: 221
 ---
 
 # Arithmetic

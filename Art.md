@@ -4,8 +4,8 @@ tags:
   - inbox
   - SR_art
   - bridge
-sr-due: 2024-01-28
-sr-interval: 3
+sr-due: 2024-02-04
+sr-interval: 8
 sr-ease: 250
 ---
 
