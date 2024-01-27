@@ -3,8 +3,9 @@ date: 2023-06-24
 tags:
   - inbox
   - SR_english
-directory: ~/Reference/dictionary/
-sr-due: 2024-01-27
+directory:
+  - ~/Reference/dictionary/
+sr-due: 2024-02-14
 sr-interval: 2
 sr-ease: 252
 ---

@@ -1,10 +1,11 @@
 ---
 date: 2023-03-06
-directory: ~/Science/math/
+directory:
+  - ~/Science/math/
 tags:
   - inbox
   - SR_mathematics
-sr-due: 2024-01-27
+sr-due: 2024-02-10
 sr-interval: 2
 sr-ease: 209
 ---

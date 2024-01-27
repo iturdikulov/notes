@@ -3,8 +3,9 @@ date: 2023-05-18
 tags:
   - inbox
   - SR_mathematics
-external: https://www.mathsisfun.com/associative-commutative-distributive.html
-sr-due: 2024-01-27
+external:
+  - https://www.mathsisfun.com/associative-commutative-distributive.html
+sr-due: 2024-01-28
 sr-interval: 1
 sr-ease: 227
 ---

@@ -1,9 +1,10 @@
 ---
 date: 2023-03-08
-directory: ~/Pictures/photos/
+directory:
+  - ~/Pictures/photos/
 tags:
   - inbox
-sr-due: 2024-01-28
+sr-due: 2024-01-31
 sr-interval: 3
 sr-ease: 250
 ---

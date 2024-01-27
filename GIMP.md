@@ -4,9 +4,9 @@ tags:
   - inbox
   - SR_computer_graphics
   - SR_software
-sr-due: 2024-01-28
-sr-interval: 2
-sr-ease: 246
+sr-due: 2024-02-05
+sr-interval: 9
+sr-ease: 266
 ---
 
 # GIMP - GNU Image Manipulation Program
