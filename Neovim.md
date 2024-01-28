@@ -3,15 +3,20 @@ date: 2023-02-20
 tags:
   - inbox
   - SR_vim
-  - SR_software
-external: https://neovim.io/
-directory: ~/Computer/software/nvim/
-sr-due: 2024-01-27
+  - SR_poductivity
+external:
+  - https://neovim.io/
+directory:
+  - ~/Computer/software/nvim/
+sr-due: 2024-01-26
 sr-interval: 1
 sr-ease: 130
 ---
 
 TODO: global cleanup and organize resources
+TODO: import solutions from [[My_editing_workflow]]
+TODO: import solutions from [[neovim-emacs-workflow]]
+TODO: keybindings in command mode using plugin
 
 # Neovim (text editor)
 
@@ -21,38 +26,33 @@ TODO: global cleanup and organize resources
 > (especially editor and Vimscript features) is maintained where possible.\
 > — <cite>`:help nvim`</cite>
 
-Enable logs - `nvim -V10nvim.log`
+Hyperextensible Vim-based text editor. Your personal Editor Development
+Environment.
 
-Get variable value - `:verbose set conceallevel`
+I keep my learning resources and learning plan in
+[[How_I_learn_neovim|this]] note.
 
-Hide line numbers - `:set nonu nornu`
-
-## Features
-
-# General
-
-# Basic editing
-
-# Advanced editing
-
-# API
-
-To start with different config use `NVIM_APPNAME` env variable.
-
-# Programming language support
-
-# UI
-
-Hyperextensible Vim-based text editor.
-
-NEXT: issue with very long lines, how to deal with it?
-
-## What I handle by it
+## What I handle by Neovim
 
 - Notes, Weekly calendar - telekasten.nvim together with [[Obsidian]]
 - File management - [[Netrw]]
 - Code editing (highly customized setup)
-- Code blocks running
+- Code blocks, projects running and debugging
+- Video notes with timestamps using MPV IPC integration
+
+## Command line
+
+Enable logs - `nvim -V10nvim.log`.
+
+To start with different config use ==`$NVIM_APPNAME`== env variable. For
+example, setting it to "neovim" before running Neovim will result in Neovim
+looking for configuration files in `$XDG_CONFIG_HOME/neovim` instead of
+`$XDG_CONFIG_HOME/nvim`.
+
+## Useful commands
+
+Hide line numbers::`:set nonu nornu` or `:set nonumber norelativenumber`.
+Get variable value - `:set nonu?`.
 
 ## Basics
 
@@ -88,7 +88,6 @@ change something (can be used with black hole register)::`c[register][num][motio
 
 `:`::command mode
 
-TODO: keybindings in command mode
 
 How to split line (a/i/r)
 ?
@@ -113,7 +112,7 @@ this Vim feature.
 `C-t` in insert mode::indent
 `C-d` in insert mode::unindent
 
-### Search & replace
+## Search & replace
 
 `/`::search mode
 
@@ -121,17 +120,15 @@ this Vim feature.
 
 `//`::repeat last search
 
-`/search\c`::case insensitive search
+`/search\c`::case-insensitive search
 
-`/search\C`::case sensitive search
+`/search\C`::case-sensitive search
 
-`set ignorecase`
-?
-case insensitive search
+`set ignorecase`::case-insensitive search
 
 `set smartcase`
 ?
-case insensitive search, unless there is a capital letter in the search, but `ignorecase` needs to be on
+Case-insensitive search, unless there is a capital letter in the search, but `ignorecase` needs to be on
 
 `vim[grep][!] /{pattern}/[g][j][f] {file} ...`
 ?
@@ -172,6 +169,8 @@ The replacement will check each line in the buffer, but will only match within t
 
 `:s#pat/tern#replace#g`::Use another character as separator to match "pat/tern".
 
+Replace single quotes to double::`:s/\'\(.*\)\'/\"\1\"`
+
 `:%s/\(^ *\)\@<! \/ /g`
 ?
 Replace multiple spaces with one, This says find 2 or more spaces (` \`)
@@ -196,20 +195,21 @@ How to do granular find and replace in the whole file
 ?
 1. Search something with `/`
 2. Type `cgn` and `word` to replace, or run some command, where `gn` is a
-   motion that selects the next match of the last used search pattern. Of course
+   motion that selects the next match of the last used search pattern. Of course,
    you can use `cgN` and `dgn` to delete, etc.
 3. Find next `n/N` and repeat `.`
 
 Find and Replace in Multiple Files using `argslist`
 ?
-1. Initialize the argslist with `:args *.ext` from CWD.
-2. Optionaly add more files with `:argadd *.ext`. You can also use `**/*.ext`
+1. Initialize the `argslist` with `:args *.ext` from CWD.
+2. Optionally add more files with `:argadd *.ext`. You can also use `**/*.ext`
    to search recursively.
-3. Optionally remove some files with `:argdelete *.ext`, to delet all use `*`
-4. Do search and replace: `:argdo %s/foo/bar/[g][e][c] | update`. `e` here prevents
-   error messages when there is no match, `c` is for confirmation.
+3. Optionally remove some files with `:argdelete *.ext`, to delete all use `*`
+4. Do search and replace: `:argdo %s/foo/bar/[g][e][c] | update`. `e` here
+   prevents error messages when there is no match, `c` is for confirmation.
+\
 You can also use `:bufdo` to do the same thing in all open buffers.
-To use argslist in vimgrep use `:vimgrep // ##`. `//` is last search pattern.
+To use `argslist` in `vimgrep` use `:vimgrep // ##`. `//` is last search pattern.
 Use `:cdo` to do something with the quickfix list.
 
 Search with telescope and quickfix
@@ -218,7 +218,7 @@ Search with telescope and quickfix
 2. `<C-q>` to add all results to the quickfix list
 3. `:cdo s/StringOne/StringTwo/g | update` to make the change and save all the files.
 
-### Navigation
+## Navigation
 
 Scrolling up, cursor staying on the same line `C-e`
 
@@ -325,7 +325,11 @@ Jump to previous position you were at::`C-o`
 
 Jump to more recent position you were a::`C-i`
 
-### Clipboard
+### Custom keybindings and commands
+
+Recent locations::`<leader>o`, `<leader>i`. TODO: which plugin is used?
+
+## Clipboard
 
 `ysiw[char]`:::change the surrounding of inner word
 <!--SR:!2023-06-06,1,191-->
@@ -366,7 +370,7 @@ Jump to more recent position you were a::`C-i`
 
 `:[line]put`::x put the text from register x after `[line]`
 
-### Changing text
+## Changing text
 
 `cs[char][char or <tag>]`:::change the surrounding char to char or <tag>
 
@@ -432,7 +436,11 @@ Duplicate line and stay on same line::`yyP`
 
 Fix spaces / tabs issues in whole file::`:%retab`
 
-### Deleting text
+### Custom keybindings and commands
+
+Insert new line above/below::`[<space>`, `]<space>`
+
+## Deleting text
 
 `ds[char or t]`:::deletes the surrounding char or HTML element
 <!--SR:!2023-06-06,1,208-->
@@ -452,7 +460,9 @@ Delete from cursor to end of line::`D`
 
 Delete \[range\] lines::`:[range]d`
 
-### Formatting
+## Formatting
+
+TODO: Markdown plugin
 
 `>>`::indent line one column to right
 
@@ -469,7 +479,14 @@ Delete \[range\] lines::`:[range]d`
 `<`::shift left in visual mode (v)
 <!--SR:!2023-06-06,1,208-->
 
-### Visual Mode
+### [antonk52/markdowny.nvim](https://github.com/antonk52/markdowny.nvim) plugin
+
+Make visual selection bold::`<C-b>`
+Make visual selection italic::`<C-i>`
+Make visual selection code::`<C-e>`
+Make visual selection link::`<C-k>`
+
+## Visual Mode
 
 `S[text object]`:::in visual state will surround a text object
 
@@ -516,7 +533,7 @@ Delete \[range\] lines::`:[range]d`
 `vt|vT|vf|VF`:::select and search
 <!--SR:!2023-06-07,2,209-->
 
-### Fold
+## Fold
 
 TODO: need test
 
@@ -562,7 +579,7 @@ Fold text object ...<motion>
 `zO|zC`:::open all nested folds, close all nested folds
 <!--SR:!2023-06-06,1,208-->
 
-### Bookmarks
+## Bookmarks
 
 List all the current marks::`:marks`
 <!--SR:!2023-06-06,3,250-->
@@ -575,7 +592,7 @@ Go to the line with bookmark `a`::`'[a]`
 
 Go to the line that you last edited::`` `. ``
 
-### Files
+## Files
 
 Switch to previous file, the best alternative to `c-o`
 Useful to check `harpoon`
@@ -610,7 +627,13 @@ write/force write and exit `:wq! [file]`
 
 write/force write and exit, but only write the lines in \[range\] `:[range]wq[!]`
 
-### Macro
+## Custom keybindings and commands
+
+- Close all buffers except current and stay on original cursor position
+?
+`<leader>bD`, command - `:%bd\|e#\|bd#<cr>\|'"`
+
+## Macro
 
 record macro / stop recording macro::`q<register>`
 
@@ -618,7 +641,7 @@ play macro::`@<register>`
 
 replay last command::`@:`
 
-### Vim Text objects (motions)
+## Vim Text objects (motions)
 
 outer::`a`
 
@@ -631,6 +654,7 @@ sentence::`s`
 
 paragraph::`p`
 
+TODO: need check
 argument (require plugin, works inside brackets)::`a`
 
 single and double quote::`❜` `"`
@@ -646,11 +670,12 @@ a single tag::`>`
 
 entire content::`e`
 
-#### Advanced text objects (`nvim-treesitter-textobjects`)
+### [nvim-treesitter/nvim-treesitter-textobjects](https://github.com/nvim-treesitter/nvim-treesitter-textobjects) plugin
 
 TODO: add more examples
 
 `B`::code block
+`iB`::inner code block
 
 ## Advanced
 
@@ -668,28 +693,27 @@ List previous commands in command mode::`C-f`
 
 ### Spell checking
 
-`]d`:::next diagnostic
+`]d`::next diagnostic
 
-`[d`:::previous diagnostic
+`[d`::previous diagnostic
 
-`]s`:::next misspelled word
+`z=`::suggest word
 
-`[s`:::previous misspelled word
-<!--SR:!2023-06-07,3,248-->
+TODO: not working with ltex
+`]s` next misspelled word
+`[s` previous misspelled word
+`zg` add word to wordlists
 
-`zg`:::add word to wordlists TODO: merge wordlists with ltex plugin
-
-`z=`:::suggest word
-
-### Vim registers
+## Vim registers
 
 What is vim register?
 ?
-It's sort of space in memory to store text. Every register can be accessed using double quote `"`.
-For example `r` register, copy/paste will be like this `"ry` / `"rp`.
-You can access register in insert/command mode by `C-r[register name]`.
-You can use the `:reg[a|b|c]` command to see all the registers and their content.
-If you use `qw` to record a macro, the register `"w` will have all actions which you have done.
+It's sort of space in memory to store text. Every register can be accessed using
+double quote `"`. For example `r` register, copy/paste will be like this `"ry` /
+`"rp`. You can access register in insert/command mode by `C-r[register name]`.
+You can use the `:reg[a|b|c]` command to see all the registers and their
+content. If you use `qw` to record a macro, the register `"w` will have all
+actions which you have done.
 
 The unnamed register (yank, delete)::`""`
 
@@ -717,7 +741,7 @@ The small delete register::`"-`
 
 The expression register, useful for calculation::`C-r =...` `"=`
 
-### Paths and history
+## Paths and history
 
 Print directory/name of file
 ?
@@ -763,7 +787,7 @@ How quickly close command history window?
 ?
 `<C-c><C-c>`
 
-### Buffers
+## Buffers
 
 List buffers
 ?
@@ -776,7 +800,7 @@ Switch to buffer
 
 Create new scratch buffer::`:enew`
 
-### Windows
+## Windows
 
 You can use vim motion keys to navigate between open windows, for example to navigate to left window?
 ?
@@ -829,14 +853,14 @@ jumps to the last window you used \*::`C-w C-p`
 
 Create a new window and start editing an empty file in it::`:new` or `C-w n`
 
-### Workspaces
+## Workspaces
 
 Workspaces: Neovim doesn't have native workspace support like Emacs.
 However, you can achieve similar functionality using tabs or different
 instances of Neovim. Personally I use [[Tmux]] with sessionizer script
 (bind to `Tmux prefix + f`).
 
-### Sessions
+## Sessions
 
 `:h shada`::opens shada help, viminfo analog, store various settings
 
@@ -858,28 +882,33 @@ Load view
 `:loadview [N]`, N is a view name (1-9)
 <!--SR:!2023-06-06,1,208-->
 
-### Netrw
+## Netrw and file management
 
-Go up a directory::`-`
+I described all netrw related stuff in [[Netrw]] note.
 
-Go back to the previous directory in the history::`u`
+`cd` to parent directory (2 levels)::`:cd ../..`
 
-Jump to the most recent directory saved on the "Bookmarks". To create a bookmark we use `mb`::`gb`
+`cd` to current file directory::`:cd %:h`
 
-Open a preview window::`p`
-<!--SR:!2023-06-07,2,228-->
+`cd` to home directory::`:cd`
 
-Close the preview window::`<C-w>z`
+`cd` to previous directory::`:cd -`
 
-Toggle hidden files::`gh`
+### Custom keybinding and commands
 
-Create a new file::`%`
+`cd` to current file path::`<leader>z%`
 
-Create a new directory::`d`
+grep content in current project and open find toolbar::`<leader>fs`
 
-Rename a file::`R`
+### Telescope and telescope plugins
 
-Delete a file::`D`
+Locate file in telescope file manager::`<leader>pV`
+
+Recent files (telescope old files)::`<M-e>`
+
+- [x] find file, with history and fuzzy search::`M-p`
+- [x] telescope resume::`<m-P>` n\*
+
 
 ## Customization
 
@@ -907,11 +936,15 @@ TODO: not working
 
 TODO: need to review this (more examples)
 
+TODO: comment plugin describe
+
 comment line::`gcc`
 
 comment motion::`gc[motion,a]`
 
 ### Markdown Snippets
+
+TODO: which plugin used?
 
 `codeblock`::insert code block
 
@@ -996,1934 +1029,452 @@ Rename note::`<leader>zr`
 
 ## Lua in neovim
 
-`:lua =vim.lsp.buf_get_clients()`::list lsp clients
+`:lua =vim.lsp.buf_get_clients()`::list LSP clients
 
 ## Scripts
 
 If you need markdown links, use ==`url_to_markdown.sh`== script. TODO: automate
-this.
+this better! (Mapped to `S-v`).
 <!--SR:!2023-06-06,2,228-->
 
 
-## Cheat sheet
+----
 
-![](Vim_Cheat_Sheet_for_Programmers.pdf)
+
+## Code navigation
+
+- [x] go to definition::`gd`
+
+- [x] go to declaration::`gD`
+
+- [x] find symbol, based on grep:`<leader>vws[S]`\*
+
+- [ ] find usages/references::`gr`
+
+- [x] go to older/newer position::`<c-o>/<c-i>`
+
+- [x] hover help::`K`
+
+- [x] zeavim word under cursor or selection::`<leader>zh` In pycharm works only
+      selection.
+
+- [x] zeavim search motion::`gz[motion]` n\*
+
+- [x] zeavim select doc-set and query::`<leader><leader>z` n\*
+
+- [x] go to previous/current file::`c-^`
+
+### Markdown
+
+- [x] go to previous/next function hunk::`[[/]]`
+- [x] go to link::`gx`
+- [x] selection bold::`<C-b>`
+- [x] selection italic::`<C-i>`
+- [x] selection code::`<C-e>`
+- [x] selection link::`<C-k>`
+- [x] renumber list items::`gN`, using `bullets.vim` n\*
+- [x] toggle checkbox::`<leader>zt` n\*
+- [x] bullet demote::`<C-t>` or `>>` or `>` in visual mode
+- [x] bullet promote::`<C-d>` or `<<` or `<` in visual mode
+- [x] URL to markdown > clipboard > paste::`<leader>pl` n\*
+- [x] HTML to markdown > clipboard > paste::`<leader>ph` n\*
+
+### Harpoon n\*
+
+- [ ] quick switch to terminal
+      Ctrl-Z while editing in vim to send it to background, do your thing on the terminal and use fg at any time to bring up vim again.
+      C-\ switch to terminal
+
+- [x] add file into harpoon list::`leader-a`
+
+- [x] show harpoon menu::`c-e`
+
+- [x] close harpoon menu::`q or esc`
+
+- [x] switch harpoon items::`c-t c-n c-m-t c-m-n`\*
+
+## Code editing
+
+- [x] mark modified files
+?
+In neovim it's `[+]` in the status line, in pycharm it's mark in tab (requires
+enabling `Mark modified`).
+
+- [x] code folding::`zo/zc/zr`
+
+- [x] comment line::`gcc`
+
+- [x] comment block`gc<motion>`
+
+- [x] code formatting::`<leader>F`
+
+- [x] code actions::`<leader>vaa`
+
+- [x] macro record/replay::`q<letter>/@<letter>`
+
+## Vim surround
+
+- [x] `surr*ound_words ysiw)` (surround_words)
+- [x] `*make strings ys$"` "make strings"
+- [x] `[delete ar*ound me!] ds]` delete around me!
+- [x] remove `<b>HTML t*ags</b> dst` remove HTML tags
+- [x] change `quot*es' cs'"` "change quotes"
+- [x] `<b>or tag* types</b> csth1<CR>` `<h1>or tag types</h1>` n\*
+- [x] `delete(functi*on calls) dsf` function calls n\*
+
+## Code refactoring
+
+- [x] list document trouble::`<leader>xq`
+
+- [x] list workspace trouble::`<leader>xQ`
+
+- [x] from the quick-menu, open a file in splits
+      ?
+      a vertical split with `C-v`, a horizontal split with `C-x`, a new tab with `C-t`
+
+- [x] black integration, for neovim using `efm` and `vim.lsp.buf.format()`. For
+      pycharm using plugin.
+
+- [x] linter integration, [GitHub - astral-sh/ruff-lsp: A Language Server Protocol implementation for Ruff.](https://github.com/astral-sh/ruff-lsp)
+      Added but with zero configuration. n\*
+
+### Rope
+
+- [ ] [GitHub - python-rope/ropevim: vim mode that uses rope library to provide features like python refactorings and code-assists](https://github.com/python-rope/ropevim#keybinding)
+
+| Key               | Command                                                  |
+| ----------------- | -------------------------------------------------------- | --------------------------------- |
+| C-x p o           | RopeOpenProject                                          | Synchronize                       |
+| C-x p k           | RopeCloseProject                                         | CloseProject                      |
+| C-x p f           | NOT USING RopeFindFile                                   |
+| C-x p 4 f         | NOT USING RopeFindFileOtherWindow                        |
+| C-x p u           | RopeUndo                                                 | NOT used, works with builtin undo |
+| C-x p r           | RopeRedo                                                 | NOT used, works with builtin redo |
+| C-x p c           | RopeProjectConfig                                        | NOT USED                          |
+| C-x p n \[mpfd\]  | RopeCreate(Module\|Package\|File\|Directory)             | Same                              |
+|                   | RopeWriteProject                                         |
+|                   |                                                          |
+| C-c r r           | RopeRename                                               | Rename                            |
+| C-c r l           | RopeExtractVariable                                      | IntroduceVariable                 |
+| C-c r m           | RopeExtractMethod                                        | ExtractMethod                     |
+| C-c r i           | RopeInline                                               | Inline                            |
+| C-c r v           | RopeMove                                                 | Move                              |
+| C-c r x           | RopeRestructure                                          |
+| C-c r u           | RopeUseFunction                                          |
+| C-c r f           | RopeIntroduceFactory                                     |
+| C-c r s           | RopeChangeSignature                                      |
+| C-c r 1 r         | RopeRenameCurrentModule                                  |
+| C-c r 1 v         | RopeMoveCurrentModule                                    |
+| C-c r 1 p         | RopeModuleToPackage                                      |
+|                   |                                                          |
+| C-c r o           | RopeOrganizeImports                                      | OrganizeImports                   |
+| C-c r n \[vfcmp\] | RopeGenerate(Variable\|Function\|Class\|Module\|Package) |
+|                   |                                                          |
+| C-c r a /         | RopeCodeAssist                                           |
+| C-c r a g         | RopeGotoDefinition                                       |
+| C-c r a d         | RopeShowDoc                                              |
+| C-c r a f         | RopeFindOccurrences                                      |
+| C-c r a ?         | RopeLuckyAssist                                          |
+| C-c r a j         | RopeJumpToGlobal                                         |
+| C-c r a c         | RopeShowCalltip                                          |
+|                   | RopeAnalyzeModule                                        |
+|                   | RopeAutoImport                                           |
+|                   | RopeGenerateAutoimportCache                              |
+
+## Code autocompletion
+
+- [x] confirm autocomplete::`<c-y>`
+
+- [x] confirm copilot::`<tab>`
+
+- [x] snippets in autocomplete
+
+## Code run/debugging/testing
+
+- [x] auto-import:
+      neovim: autocomplete or insert mode and press `<c-space>`
+      pycharm: type and press `<c-space><c-space>`
+
+- [x] Review and pick something from [tjdervis-dap config](https://github.com/tjdevries/config_manager/blob/master/xdg_config/nvim/after/plugin/dap.lua)
+
+- [x] telescope-dap.nvim prefix::`<leader>dl`
+- [x] view breakpoints::`<leader>dlb`
+
+- [x] run debugger configuration::`<F5>`
+
+- [x] continue debugger::`<F6>`, not required in neovim
+
+- [x] restart debugger::`<leader>dR`
+
+- [x] toggle breakpoint::`<leader>db[B]`
+
+- [x] stop debugger::`<leader>dx`
+
+- [x] step back::`<F1>` n\*
+
+- [x] step over::`<F3>`
+
+- [x] step into::`<F2>`
+
+- [x] step out::`<F4>`
+
+- [ ] jump to cursor::`<S-F1>` \*
+
+- [ ] run to cursor::`<leader>dC`
+
+- [ ] evaluate expression
+
+- [ ] run current test file::`<leader>dnf` \*
+
+- [ ] coverage test
+
+- [ ] generate test, AI-test generate?
+
+- [x] run current file using [[Sniprun]]
+
+- [ ] run group of tests, pytest cwd?
+
+- [ ] CI/Reporting workflow
+
+- [x] run the nearest test::`<leader>dnn`
+
+- [x] rerun the last test
+
+- [x] debug the nearest test::`<leader>ddc`
+
+- [x] open test results::`<leader>dno`
+
+- [x] show summary::`<leader>dns`
+
+- [x] toggle output panel::`<leader>dnt`
+
+- [x] [neotest](https://github.com/harrisoncramer/nvim/blob/main/lua/plugins/neotest.lua)
+
+## Errors and warnings navigation
+
+- [x] go to next/previous error::`[d` `]d`
+
+- [x] go to file with error (under cursor)::`gf` or `gF` n\*
+
+## VCS n\*
+
+NOTE: I just won't deeply integrate VCS keybindings into pycharm (and it's maybe
+even not easy to implement same workflow like in neovim/vim-fugitive). So I
+decided use only neovim/vim-fugitive for VCS work. Also, this will help me to
+switch into Neovim/Vim easily.
+
+### Fugitive
+
+- [x] import fugitive.lua keybindings
+
+- [x] Control size of git status window and allow toggle it n\*
+
+- [x] `:diffoff[!]`::Close diff window, can be used in combination with `:q[!]` to close
+
+- [x] `:diffupdate`::update diff window, can help with highlighting issues
+
+Index file represent ==last committed== version of file.
+
+Checkout branch::`<leader>go`
+
+Grep in branch, `:Git grep`, but I prefer telescope `<leader>fs`::`<leader>gp`
+
+Move current file to another location `:Git move`::`<leader>gm`
+
+- [x] `:Gwrite` or `<leader>gw`
+?
+Stage current file if it's working copy, or checkout if it's index file
+
+- [x] `:Gwrite` on working copy will ==stage file==.
+- [x] `:Gwrite` on index file will ==checkout file==.
+- [x] `:diffput` its like ==`:Gwrite`== but for diff window and works with hunks.
+- [x] `:diffput` on working copy will ==stage hunk==.
+- [x] `:diffput` on index file will ==checkout hunk==.
+- [x] `dp` is hotkey for ==`:diffput`==. `p` is stays for "put".
+
+- [x] `:Gread` or `<leader>gR`
+?
+Checkout current file if it's working copy, or stage if it's index file
+
+- [x] `:Gread` on working copy will ==checkout file==.
+- [x] `:Gread` on index file will ==stage file==.
+- [x] `:diffget` its like ==`:Gread`== but for diff window and works with hunks.
+- [x] `:diffget` on working copy will ==checkout hunk==.
+- [x] `:diffget` on index file will ==stage hunk==.
+- [x] `do` is hotkey for ==`:diffget`==. `o` is stays for "obtain".
+
+
+`:Gremove`::Remove current file
+
+`:Gmove <relative_path>`::Move current file
+
+Open autocomplete in commit buffer::`C-n`
+
+`:G blame::`Open split window with blame buffer
+
+`:G commit`::Open split window with commit buffer
+
+`:Gedit :<path>` or `Gedit :0` or `<leader>ge`::Open index file
+
+`:Gdiffsplit` or `<leader>gd`::vimdiff against the index version of the file
+
+`:Git diff` or `<leader>gD`::git diff against the last committed version of the file.
+
+`:Git commit --ammend` or `<leader>ga`::amend last commit
+
+`:Git add -p` or `<leader>gA`::run git add with patch
+
+- [x] to use `:diffget` on deleted lines, place cursor position ==after== that
+lines
+
+- [x] list branches `<leader>gb` and then press =`<tab>`=.
+
+- [x] log git history of current file::`<leader>gl`
+
+- [x] `dv`::Perform a `:Gvdiffsplit` on the file under the cursor
+
+- [x] `ds`::Perform a `:Ghdiffsplit` on the file under the cursor
+
+- [ ] Perform a `:Gdiffsplit` on the file under the cursor.::`dd`
+
+- [ ] 2/5 http://vimcasts.org/blog/2011/05/the-fugitive-series/
+
+- [-] [GitHub - lewis6991/gitsigns.nvim: Git integration for
+buffers](https://github.com/lewis6991/gitsigns.nvim). Stopped using it, generate
+some errors in my setup, don't really used it.
+
+- [ ] [Vim Git Plugins : r/vim](https://www.reddit.com/r/vim/comments/8h044y/comment/dym4eax/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
+
+- [ ] diff branches. Working tree diff.
+
+- [ ] compare working tree with branch
+      git-diff or :Merginal
+
+- [ ] `gt` - accept left side of diff
+
+- [ ] `gn` - accept right side of diff
+
+- [ ] accept left/right hunk in 3-way diff/merge conflict
+
+- [ ] grep in VCS repo history
+
+- [ ] cherry-picking commit [If you could chose only one, would you choose "vim-fugitive" or "lazygit", and why? : r/neovim](      https://www.reddit.com/r/neovim/comments/tuhs7u/comment/i35571l/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
+
+- [ ] [Newest 'plugin-fugitive' Questions - Vi and Vim Stack Exchange](https://vi.stackexchange.com/questions/tagged/plugin-fugitive)
+
+- [x] stash the changes::`czz`, require staging changes before
+
+- [x] Apply topmost stash::`cza`
+
+- [ ] push and create merge request::`<leader>T` in vim-fugitive buffer
+
+- [x] get file local history/undotree::`<leader>u`
+
+- [x] open diff/git for current file::`=`
+
+- [x] stage/unstage (add/reset) file, works in visual mode too (multiple files)
+      ?
+      `-`
+
+- [x] open file in the window below (git status)::`<cr>`
+
+- [x] commit chunk or selection of chunk::`s`
+
+- [x] run `git add –patch` for current file::`P`
+
+- [x] commit staged changes::`cc`
+
+- [x] next/previous hunk::`(`, `)`
+
+- [x] stage hunk::`s`
+
+- [x] unstage hunk::`u`
+
+- [x] Push changes::`<leader>p` (in fugitive mode for nvim) n\*
+
+- [x] pull & rebase::`<leader>P` (in fugitive mode for nvim) n\*
+
+### Git Signs
+
+- [ ] `:h gitsigns.txt`
+
+## Custom
+
+- [x] telescope command_history::`<leader>fc` n\*
+
+- [x] telescope builtin's, super search, `:h telescope.builtin` ::`<leader>fF` n\*
+
+- [x] find hotkey/action::`<leader>fk` in vim to find action use `<leader>fK`
+
+- [x] open git commit UI, git status::`<Leader>gg`
+
+- [x] show diff from git history::`Return`, in `Pycharm` it's `Ctrl+D` \*
+
+- [x] open fugitive object in new split::`o` or `O` n\*
+
+- [x] diagnostics `<Leader>vd`
+
+- [x] rename object (using LSP):`<Leader>vrn`
+
+- [ ] close all windows except current::`<C-w>o`
+
+- [x] add/remove/list workspace folders
+?
+`<Leader>wa`, `<Leader>wr`, `<Leader>wl`. Pycharm alternative is project
+structure. n\*
+
+- [x] telescope list active buffers::`<M-b>`
+
+- [x] parsed syntax-tree view::`:TSPlaygroundToggle` n\*
+
+## [[Netrw]]
+
+Main file manager
+
+## SQL
+
+- [x] toggle DB UI::`<leader>qt`
+- [x] toggle last query info::`<leader>qi` n\*
+- [x] execute query::`<leader>S`
+- [ ] [GitHub - kristijanhusak/vim-dadbod-completion: Database autocompletion powered by https://github.com/tpope/vim-dadbod](https://github.com/kristijanhusak/vim-dadbod-completion)
+- [x] connect and open database console
+- [x] copy all results/row/column::`y[motion]`, `yic` n\*
+
+- [ ] [vim-dadbod-ui/doc/dadbod-ui.txt at master · kristijanhusak/vim-dadbod-ui · GitHub](https://github.com/kristijanhusak/vim-dadbod-ui/blob/master/doc/dadbod-ui.txt)
+- [ ] vim-dadbod-ui [GitHub - kristijanhusak/vim-dadbod-ui: Simple UI for https://github.com/tpope/vim-dadbod](https://github.com/kristijanhusak/vim-dadbod-ui#mappings) full-featured database client, possible set values, load values from files, query, work with multiple databases
+
+## JS debugging (browser)
+
+- [ ] Probably easily just use chrome built-in debugger/sourcemaps
+- [x] [How to configure the DAP debugger under neovim for typescript? - Stack Overflow](https://stackoverflow.com/questions/71810002/how-to-configure-the-dap-debugger-under-neovim-for-typescript)
+- [ ] [Break points do not work · Issue #14 · mxsdev/nvim-dap-vscode-js · GitHub](https://github.com/mxsdev/nvim-dap-vscode-js/issues/14)
+
+## Learn
+
+- [x] [How to: Create a git Merge Conflict](https://jonathanmh.com/how-to-create-a-git-merge-conflict/)
+- [ ] `:h terminal`
+- [ ] `:h fugitive.txt`
+- [ ] `:h lua-guide`
+- [ ] `:h`
+
+
+- [ ] vim-shell output actions... `:h redir`, `!...|grep`, `r!...`, etc.
+- [ ] [GitHub - tpope/vim-unimpaired: unimpaired.vim: Pairs of handy bracket mappings](https://github.com/tpope/vim-unimpaired)
+- [ ] new scratch file `:enew`
+- [ ] execute scratch file
+- [ ] execute current file (open externally) leader o or leader O (run using xdg-open)
+- [ ] [GitHub - stevearc/aerial.nvim: Neovim plugin for a code outline window](https://github.com/stevearc/aerial.nvim)
+- [ ] [Fold](https://learnvim.irian.to/basics/fold)
+
+## Custom
+
+
+map specific insert key in specific terminal: CTRL-K CTRL-F1 to get key code,
+then map it...
 
 ## References
 
-- [neovimcraft, plugins](https://neovimcraft.com/)
-- [Vim Tips Wiki | Fandom](https://vim.fandom.com/wiki/Vim_Tips_Wiki)
-- [VimGolf - real Vim ninjas count every keystroke!](https://www.vimgolf.com/)
-- [Vim Awesome](https://vimawesome.com/)
-- [[research/Neil-Modern_Vim]]
-- [[research/Neil-Practical_Vim]]
-- [Interactive Vim tutorial](http://www.openvim.com/)
-- [VimGolf](https://www.vimgolf.com/)
-- [Vim Tips Wiki | Fandom](https://vim.fandom.com/wiki/Vim_Tips_Wiki)
-- [Neovim Discourse](https://neovim.discourse.group/categories)
-- [.] 1/7 [Изучаем Vim - YouTube](https://www.youtube.com/playlist?list=PLcjongJGYetkY4RFSVftH43F91vgzqB7U)
-
-- [ ] [How to Do 90% of What Plugins Do (With Just Vim) - YouTube](https://www.youtube.com/watch?v=XA2WjJbmmoM)
-- [ ] [7 Habits For Effective Text Editing 2.0 - YouTube](https://www.youtube.com/watch?v=eX9m3g5J-XA)
-- [ ] Current main goal: [[My_editing_workflow]]
-- [ ] [Harpoon : Vim Conference 2021 - YouTube](https://youtu.be/Qnos8aApa9g)
-- [ ] [Learning Vim and Vimscript](https://github.com/iggredible/Learn-Vim)
-- [x] [How to Vim in 2023: Tips and Tricks - YouTube](https://www.youtube.com/watch?v=FrMRyXtiJkc)
-- [x] [Setup nvim-lspconfig + nvim-cmp | Devlog](https://vonheikemen.github.io/devlog/tools/setup-nvim-lspconfig-plus-nvim-cmp/)
-- [x] [@DebuggingInNe] Debugging In Neovim (ft BashBunni and TJ DeVries) - YouTube
-
-
-- [ ] [Resolve Git Merge Conflicts with Neovim and Fugitive! - YouTube](https://www.youtube.com/watch?v=vpwJ7fqD1CE)
-- [ ] [Vim Cheat Sheet](http://jrmiii.com/attachments/Vim.pdf)
-- [ ] [How can you list the matches of Vim's search? - Stack Overflow](https://stackoverflow.com/questions/509690/how-can-you-list-the-matches-of-vims-search)
-- [ ] [GitHub - tpope/vim-surround: surround.vim: Delete/change/add parentheses/quotes/XML-tags/much more with ease](https://github.com/tpope/vim-surround)
-- [ ] [Debugging Javascript applications with Neovim](https://miguelcrespo.co/posts/debugging-javascript-applications-with-neovim/)
-- [ ] [How to paste yanked text into the Vim command line - Stack Overflow](https://stackoverflow.com/questions/3997078/how-to-paste-yanked-text-into-the-vim-command-line)
-
-- [ ] [GitHub - nvim-treesitter/nvim-treesitter-textobjects](https://github.com/nvim-treesitter/nvim-treesitter-textobjects)
-- [ ] [Language of VIM/NEOVIM – allsyed's blog](https://allsyed.com/posts/language-of-vim-neovim/)
-- [ ] [Debugging Neovim with Neovim and nvim-dap](https://zignar.net/2023/02/17/debugging-neovim-with-neovim-and-nvim-dap/)
-  - [Neovim Plugin: nvim-dap - YouTube](https://www.youtube.com/watch?v=ga3Cas7vNCk)
-  - [How to debug like a PRO using Neovim 🔥](https://miguelcrespo.co/how-to-debug-like-a-pro-using-neovim)
-- [ ] [GitHub - mfussenegger/nvim-lint: An asynchronous linter plugin for Neovim complementary to the built-in Language Server Protocol support.](https://github.com/mfussenegger/nvim-lint)
-
-
-- [ ] [vim - How do I yank all matching lines into one buffer? - Stack Overflow](https://stackoverflow.com/questions/1474966/how-do-i-yank-all-matching-lines-into-one-buffer)
-- [ ] [GitHub - kosayoda/nvim-lightbulb: VSCode 💡 for neovim's built-in LSP.](https://github.com/kosayoda/nvim-lightbulb)
-
-- [ ] [GitHub - ThePrimeagen/refactoring.nvim: The Refactoring library based off the Refactoring book by Martin Fowler](https://github.com/ThePrimeagen/refactoring.nvim)
-- [ ] [GitHub - lsyncd/lsyncd: Lsyncd (Live Syncing Daemon) synchronizes local directories with remote targets](https://github.com/lsyncd/lsyncd)
-- [-] [GitHub - chrishrb/gx.nvim: Implementation of gx without the need of netrw](https://github.com/chrishrb/gx.nvim), not useful for me
-- [ ] [How can I make the Neovim terminal run the current file in Python? - Vi and Vim Stack Exchange](https://vi.stackexchange.com/questions/15431/how-can-i-make-the-neovim-terminal-run-the-current-file-in-python)
-- [ ] [Using vimdiff as your git diff tool. - YouTube](https://www.youtube.com/watch?v=hb5RVnOda2o)
-- [ ] [Nvim autocmd](https://www.reddit.com/r/neovim/comments/xhtr1p/nvim_autocmd_filetype_option/)
-- [ ] [Using netrw](https://vonheikemen.github.io/devlog/tools/using-netrw-vim-builtin-file-explorer/)
-- [ ] [How to switch from Pycharm to Vim? : r/vim](https://www.reddit.com/r/vim/comments/qdgnid/how_to_switch_from_pycharm_to_vim/)
-- [ ] [GitHub - christoomey/vim-tmux-navigator: Seamless navigation between tmux panes and vim splits](https://github.com/christoomey/vim-tmux-navigator)
-- [ ] [Using (neo)vim for C++ development](https://idie.ru/posts/vim-modern-cpp/)
-- [ ] [Testing Your Code — The Hitchhiker's Guide to Python](https://docs.python-guide.org/writing/tests/)
-- [ ] [GitHub - hari-rangarajan/CCTree: Vim CCTree plugin](https://github.com/hari-rangarajan/CCTree)
-- [ ] [GitHub - chipsenkbeil/distant.nvim: 🚧 (Alpha stage software) Edit files, run programs, and work with LSP on a remote machine from the comfort of your local environment 🚧](https://github.com/chipsenkbeil/distant.nvim)
-- [ ] [GitHub - Weissle/persistent-breakpoints.nvim: Neovim plugin for persistent breakpoints.](https://github.com/Weissle/persistent-breakpoints.nvim)
-- [ ] [Does anyone actually use EasyMotion? : r/vim](https://www.reddit.com/r/vim/comments/1yfzg2/does_anyone_actually_use_easymotion/)
-
-
-- [ ] [Magically format embedded languages in Neovim - YouTube](https://www.youtube.com/watch?v=v3o9YaHBM4Q)
-- [ ] [Automatically Execute *Anything* in Nvim - YouTube](https://www.youtube.com/watch?v=9gUatBHuXE0)
-- [ ] [Execute **anything** in neovim (now customizable) - YouTube](https://www.youtube.com/watch?v=HlfjpstqXwE)
-
-TODO: emc review
-
-## Installing Packages, using Telekasten as example
-
-TODO: nixos based configuration
-
-- `SPC f p` to open the config.
-- To add a package, add the package to `.doom.d/package.el`
-- Then close and `doom refresh`
-- Then go to `.doom.d/config.el` to configure the package
-- `def-package!` is a macro you can use to configure packages
-  - `space h help` you can look up method man pages
-  - `:init` is used for setting the package up
-  - `:config` to set configuration after the package has been
-    initialized
-  - `:after` lets you set which package it should load after
-- You can use `:after!` to configure packages that are already there
-
-### Inline navigation
-
-- `f` and then the letter you want to navigate to.
-  - `,` will go backward
-  - `;` will go forward after that "find"
-- `t` to find and move cursor to the character before what you've searched.
-- `v` puts you in vi mode. You can select text by with `v t some-char-you-navigate-to` or `v f some-char-you-navigate-to`
-- `;` to jump to the next find
-- `,` to jump to the previous one
-- `s` to snipe
-
-### Long distance navigation inside the file
-
-- Evil-snipe lets you go to all the occuranses in your document
-- `g s SPC` to use avy and going to a certain word in file.
-- `t` is the same thing except for a character you want to jump to before the one you insert
-- `s` to do a double character search
-- Evil-snipe will remember your last search so `,` and `;` will navigate
-- `F` or `T` to go backwards
-- `g s SPC` and then select the letter that avy gives you to navigate to that spot
-  - These letters are on your home row so they are easy to click
-- `SPC h v` for variable, to set the avy variable to search all open
-  windows
-  - `avy-all-windows` lets you search in all windows open.
-- You can remove a word with
-  `g s SPC select-one-letter x select-the-removal-spot`
-  - You can use `X` to stay in your original spot of search
-- You can go `g s space select-one-letter i select-the-correction-spot`
-  to correct the spelling of the search
-  - Install ispell on your OS first
-- You can `yank` a word from one place to another with
-  `g s SPC select-one-letter y select-the-correction-spot-to-paste`
-- Use `t` to "teleport" the word from one place to another
-  `g s SPC select-one-letter t select-the-correction-spot-to-teleport`
-
-## Multiple cursor in Emacs with Evil-multiedit
-
-- Make selections and then edit those selections interactively
-- `M d` will select the current word, and again will find another
-  occurance
-- `M D` will find the occurence upward
-- You can use a visual selection to select multiple words.
-- `R` will select all occurances
-- `C-n` for next selection `C-p` for previous
-- Exclude matches with `RET`
-- You can make an edit and the changes will be reflected in all the
-  selection
-
-
-
-Multiple Cursors
-
-    Multiple Cursors: Neovim also supports multiple cursors, although not natively.
-        Plugins like vim-multiple-cursors or vim-visual-multi offer similar functionality, allowing you to select multiple instances of a word and edit them simultaneously.
-
-# Special Thanks
-
-- [Link to youtube video series -
-  org-mode](https://www.youtube.com/watch?v=BRqjaN4-gGQ&list=PLhXZp00uXBk4np17N39WvB80zgxlZfVwj&index=10)
-
-- [Three HUGE Mistakes New Emacs Users
-  Make](https://www.youtube.com/watch?v=s0ed8Da3mjE)
-
-- [notes by
-  ianjones.us](https://www.ianjones.us/zaiste-programming-doom-emacs-tutorial/#org7ad2452)
-
-- [Manage your life in plain
-  text](https://www.udemy.com/course/getting-yourself-organized-with-org-mode/learn/lecture/21946276#overview)
-  (also exist
-  [youtube](https://www.youtube.com/watch?v=sQS06Qjnkcc&list=PLVtKhBrRV_ZkPnBtt_TD1Cs9PJlU0IIdE)
-  video series).
-
-- https://docs.doomemacs.org/latest/ \*
-
-- https://emacs-lsp.github.io/lsp-mode/page/main-features/ (LSP
-  starting point) \*
-
-- https://github.com/niyumard/Doom-Emacs-Cheat-Sheet \*
-
-- https://raw.githubusercontent.com/hackjutsu/vim-cheatsheet/master/README.md
-
-- https://raw.githubusercontent.com/LeCoupa/awesome-cheatsheets/master/tools/vim.txt
-
-- https://thingsfittogether.com/wp-content/uploads/2021/03/Vim-Cheatsheet-2-Final-Draft.png
-
-- https://github.com/rstacruz/cheatsheets/blob/master/vim.md
-
-- https://imgur.com/gallery/YLInLlY
-
-- https://emacs-lsp.github.io/lsp-mode/page/keybindings/
-
-- https://resources.jetbrains.com/storage/products/pycharm/docs/PyCharm_ReferenceCard.pdf
-
-- https://vimsheet.com/
-
-- https://vim.fandom.com/
-
-- https://vim.fandom.com/wiki/Best_Vim_Tips#Really_useful
-
-- https://vimhelp.org/vim_faq.txt.html
-
-- [Link to youtube video
-  series](https://www.youtube.com/watch?v=BRqjaN4-gGQ&list=PLhXZp00uXBk4np17N39WvB80zgxlZfVwj&index=10)
-
-- http://vimcasts.org/
-
-- https://vim.fandom.com
-
-- https://www.vimgolf.com/
-
-- https://www.emacswiki.org/emacs/SiteMap \*
-
-- https://hungyi.net/
-
-- https://www.emacswiki.org/emacs/PythonProgrammingInEmacs
-
-- https://wikemacs.org/wiki/Python
-
-# [TODO]
-
-- Replace multiple spaces with one \`:%s/$^ *$\\@\<! \\/ /g\` This
-  says \"find 2 or more spaces (\' \\\\\') that are NOT preceded
-  by \'the start of the line followed by zero or more spaces\'\"
-
-https://github.com/tpope/vim-surround/blob/master/doc/surround.txt
-
-# [TODO]
-
-# [TODO]
-
-- org-make-toc
-
-- download image from clipboard, save attach...
-
-- make line headline
-
-- quickly add sub-headline
-
-- org-roam subnode find
-
-- increment in emacs (org-shift... can handle this in org-mode)
-
-- splitted text to autofill
-
-- autoindent, based on previous line (as I remember exists specific
-  plugin)
-
-- https://www.reddit.com/r/emacs/comments/a3rajh/chrome_bookmarks_sync_to_org/
-
-- https://noonker.github.io/posts/2020-04-22-elfeed/
-
-\`C-r+0\` - in insert mode inserts the last yanked text, working in
-command mode \`C-r+\"\` - in insert mode inserts clipboard, working in
-command mode
-
-\`gr\[motion\] grr\` replace with register (yanked) motion / line
-
-\`\[s \]s\` - MoveStatementUp MoveStatementDown
-
-M-x +snippets
-
-bookmarks
-https://www.gnu.org/software/emacs/manual/html_node/emacs/Bookmarks.html#:\~:text=Bookmarks%20are%20somewhat%20like%20registers,were%20reading%20in%20various%20files.
-
-Goto Test FindUsages SelectIn GotoFile GotoClass FileStructurePopup
-JumpToLastWindow \`~yp~ ~yl~\` QuickListPopupAction / Log \`~yd~ ~ya~\`
-Compare.LastVersion / Annotate \`\[q \]q\` PreviousOccurence /
-NextOccurence \`\[m \]m\` MethodUp / MethodDown \`\[c \]c\`
-PrevChangeMarker / NextChangeMarker \`,c ,r\` - CompileDirty / Run \`,R
-,b\` - RunAnything Debug \`,c ,d\` - RunClass / DebugClass \`,t ,T\` -
-RerunTests / RerunFailedTests add char before link/after link wrap chars
-into `xxx` make line list item hunspell dictonary with
-Computer Science terms... all tabs to spaces (existi somewhere in github
-configurations) search in hidden org-mode blocks elfeed read it later or
-favorites find in org-roam files org-attch dir function
-
-https://www.gnu.org/software/emacs/manual/html_node/emacs/Keyboard-Macro-Counter.html
-generate row, column number-ranges
-
----
-
-You might be looking for the bookmark feature. On vanilla emacs, C-x r m
-will bookmark the current file, and C-x r b will let you choose from a
-list of bookmarked files. It\'s amazingly useful
-
----
-
-# Emacs & Evil Commands
-
-```example
-M-x Find Any Action (execute extended command)
-M-` text-mode emulation of menubar *
-C-c C-c run... *
-C-g Quit popup/dialog or cancel operation *
-C-[ Close popup or Escape key alternative (evil)
-C-+ C-- Zoom plus Zoom minus
-M-x for entering a command *
-SPC q q Quit Emacs
-SPC f p to open the config
-SPC h v describe variable
-SPC o t for opening vterm in a popup window
-SPC o T for opening vterm in fullscreen
-SPC t varius commands (toggle)
-SPC t l toggle line numbers (useful on small screen)
-
-C-SPC company autocomplete (insert mode)
-C-S-SPC company autocomplete common (insert mode)
-
-:jumps list jumps
-:![command] exec command in active window (generated new shell output buffer)
-```
-# Emacs Build & Run
-
-```example
-SPC ; eval
-SPC c e evaluate buffer or region
-SPC c E evaluate & replace region
-SPC c s Send to repl
-
-SPC c lsp code actions
-SPC c c compile
-SPC c C recompile
-SPC c d jump to defention *
-SPC c D jump to referencesg *
-SPC c f format buffer/region
-SPC c i find implementations *
-SPC c j jump to symbol in current workspace
-SPC c J jump to symbol in any workspace
-SPC c k jump to documentation
-
-SPC c l = LSP formatting
-SPC c l a LSP code actons (a - code actions, h - higlight symbol, l - lens)
-SPC c l F LSP fodlers (a - add, b - unblacklist, r - remove)
-SPC c l g LSP goto menu
-SPC c l g d LSP goto declaration (alternative - gd)
-SPC c l G LSP peek menu
-SPC c l h LSP help menu
-SPC c l r LSP refactor menu
-SPC c l T LSP toggle menu
-SPC c l w LSP workspaces menu
-
-SPC c o Organize Imports
-SPC c r LSP rename
-SPC c t Find type defention
-SPC c x List errors
-
-unbinded
-lsp-find-declaration
-```
-
-# Emacs debug (dap-mode)
-
-You need configure a keys:
-https://docs.doomemacs.org/latest/#/usage/keybindings
-
-```example
-SPC o d open debug chooser
-
-SPC d s dap-debug
-SPC d h dap-hydra (q - quit)
-SPC d n dap-next
-SPC d i dap-step-in
-SPC d o dap-step-out
-SPC d c dap-continue
-SPC d r dap-debug-restart
-
-SPC d r dap-debug-recent
-SPC d l dap-debug-last
-
-SPC e dap-eval
-SPC r dap-eval-region
-SPC s dap-eval-thing-at-point
-SPC a dap-ui-expressions-add
-SPC d dap-ui
-
-SPC b dap-breakpoint-toggle
-SPC c dap-breakpoint-condition
-SPC h dap-breakpoint-hit-condition
-SPC l dap-breakpoint-log-message
-```
-
-## Emacs clipboard
-
-```example
-SPC f y yank file path
-SPC f Y yank file path from project
-SPC i y insert text from kill-ring (clipboard)
-SPC n y org export to clipboard
-SPC n Y org export to clipboard as rich text
-```
-
-# Emacs Version Control (magit)
-
-```example
-SPC g g shows Magit status page, tab to expand/collapse headlines
-SPC g magit menu
-SPC g l g list gists
-
-Aviable in magit status:
-? list of available commands and help, q to close this help page
-
-TAB expand headlines in the status page
-s under "Unstaged changes” to stage a change
-u undo a stage
-c to commit, you can press q to quit the commit screen
-b s branch and spinoff to create another branch, rewinding the commits you made to master
-b b switch branches
-
-t t to create a tag, default place is the commit you are currently selecting
-V to select a change in a diff and x to discard that change (revert).
-P to push and then =p= to your remote or =u= to a another remote
-
-@ for forge, configure it with M-x forge-pull
-@ c p to create a pull request with forge
- - select the base branch
- - then select the target branch
- - then provide a short description
- - C-c C-c to finish the pull request
- - now there will be a pull requests tab
-
-C-x v vc menu
-C-x v = vc diff
-
-```
-
-See also - https://magit.vc/manual/magit-refcard.pdf
-
-
-# Additional Emacs Packages
-
-## Org Mode
-
-Sure, here are Neovim alternatives for the provided Emacs and Evil commands:
-Emacs & Evil Commands
-
-    SPC-u alternative to C-u: Neovim doesn't have a direct equivalent, as C-u is a specific Emacs prefix key. Neovim doesn't use prefixes like this in its default mappings.
-    M-x Find Any Action (execute extended command): Neovim doesn't have an equivalent command as it doesn't have the same extensive command execution functionality out of the box. Neovim primarily relies on its modes and key combinations for functionalities.
-    C-[ Close popup or Escape key alternative (evil): In Neovim, the Escape key serves a similar role to exit insert mode and return to normal mode, which is the equivalent of closing or canceling operations.
-    SPC f p to open the config: In Neovim, you'd typically edit the init.vim or init.lua file directly, often found at ~/.config/nvim/.
-    SPC h v describe variable: Neovim doesn't have a direct equivalent to describe a variable within the editor. You might need to refer to documentation or comments within the code.
-    SPC o t for opening vterm in a popup window / SPC o T for opening vterm in fullscreen: Neovim has various terminal integration plugins like nvim-terminal-emulator that allow opening a terminal inside Neovim splits or tabs.
-
-Emacs Build & Run
-
-    SPC c e evaluate buffer or region: In Neovim, you might use a terminal within Neovim to execute commands related to your code or use specific plugins that offer evaluation of code snippets within the editor.
-    SPC c d jump to definition / SPC c D jump to references: Neovim has LSP (Language Server Protocol) support, and jumping to definitions and references is often integrated through LSP plugins like nvim-lsp.
-    SPC c l a LSP code actions: Similar LSP code actions can be triggered using LSP plugins like nvim-lspconfig.
-    SPC c o Organize Imports: Organizing imports might depend on the language and associated plugin configurations within Neovim.
-
-Emacs debug (dap-mode)
-
-    Neovim has debugging support through plugins like nvim-dap, which provides similar debugging functionalities with different key bindings and configurations.
-    Commands like SPC d s dap-debug could be replaced with corresponding nvim-dap commands configured in your Neovim setup.
-
-Emacs Clipboard
-
-    Neovim doesn't have direct alternatives for these Emacs clipboard commands. However, yanking and pasting operations can be performed using the standard Vim motions (y, p, P) within normal mode.
-
-Emacs Version Control (magit)
-
-    SPC g g shows Magit status page: Neovim doesn't have a built-in version control system like Magit. Git operations are typically performed via the terminal within Neovim, or through plugins like fugitive.vim.
-    @ c p to create a pull request with forge: Creating pull requests or interacting with Git forges like GitHub is usually done through the browser or dedicated Git client tools.
-
-Additional Emacs Packages
-
-    Org Mode: Neovim doesn't have a direct equivalent to Org Mode, which is a comprehensive tool in Emacs for organizing notes, tasks, and documents. Neovim users might employ other Markdown-based note-taking plugins or task management systems for similar functionalities.
-
-For Neovim, the functionalities and key mappings often rely on plugins and specific configurations tailored to the user's workflow and preferences.
-
-### General
-
-```example
-TAB a section to fold a subtree (hide it)
-S-TAB to cycle through folded states
-
-C-c C-z to insert a note for a heading in org mode.
-C-c C-c to insert a tag for a heading in org mode.
-
-SPC m org menu
-SPC X to capture
-SPC m r r to refile
-
-SPC m i org toggle item, convert to plain-text list or numbered list
-SPC m t to change a status of a todo
-SPC m o setting a property.
-SPC m q add tag a headline
-SPC m + org-ctrl-c-minus, insert separator in table or modify bullet state of line
-
-C-S-hjkl org shift left,down,up,
-
-S-left|S-right change the status of a todo as well (loop over statuses).
-
-C-Return to create a headline of the same type
-M-up lets you shift the position of the section
-M-h|l promotes, demotes a headline to the next level
-S-up|down will toggle the priority of tasks
-
-SPC m x org toggle checkbox
-SPC o a org agenda menu
- a - agenda, m - tag search, t - todo list
-```
-
-### Links, Hyperlinks and more
-
-```example
-SPC m l add a link menu
-SPC m l l add a link to an org page, :: to specify a heading or a line number
-SPC n l stores a link to a particular headline (available when you add a link)
-```
-
-Examples: You can paste [http](https://example.com) links as well You
-can \"link\" some text with specific code `SPC m l l` elisp:
-[(+ 2 2)](elisp:(+ 2 2)), when you click the link, emacs will evaluate
-the expression Show [My Agenda](elisp:org-agenda) [List Files](shell:ls)
-in directory
-
-Defining custom Link Types - [Whatch the video about custom
-links](https://youtube.com/watch?v=Febe4lUK5G4)
-
-### Custom
-
-```example
-C-u C-c C-l in an org-buffer insert svg, png images directly from cliboard, save with human-readable name.
-```
-
-### [Org Roam](https://orgroam.com)
-
-These keybinding only work after installing org-roam. To install org
-roam edit your \`init.el\` file and add \`(org +roam2)\` in its
-designated place. Watch https://www.youtube.com/watch?v=AyhPmypHDEw to
-understand what org-roam is.
-
-```example
-SPC n r f Find an existing node or create a new one.
-SPC n r i Insert a link to another node.
-SPC n r r Toggle backlinks pane
-SPC m m o t Add a roam tag.
-SPC m m o a Add a roam alias.
-```
-
-### Babel
-
-```example
-SPC m ' edit inside the babel in another buffer.
-SPC m k org babel remove results
-```
-
-1. Python code with mathplotlib graph
-
-```
-import matplotlib
-import matplotlib.pyplot as plt
-fig=plt.figure(figsize=(3,2))
-plt.plot([1,3,2])
-fig.tight_layout()
-
-fname = 'images/myfig.svg'
-plt.savefig(fname)
-fname # return this to org-mode
-```
-
-2. ob-spice
-
-```
-*Virtual Ground Test: opamp gain = 1000
-vin in 0 dc 0V sin(0 0.1 100Hz)
-r1 in inn 10k
-r2 in inn 10k
-EOpamp out 0 0 inn 1000
-.tran 0.1ms 0.05s
-.print tran v(in)
-.meas tran vtest find v(in) at=0.04e-3
-.end
-.control
-run
-set gnuplot_terminal=png
-gnuplot images/spice.png v(in) v(out) v(inn)
-.endc
-```
-## [TODO]
-
-## Evil Lion
-
-## [TODO]
-
-- You can remove a word with \`g s SPC select-one-letter x
-  select-the-removal-spot\`
-- You can use \`X\` to stay in your original spot of search
-- You can go \`g s space select-one-letter i
-  select-the-correction-spot\` to correct the spelling of the search
-- Install ispell on your OS first
-- You can \`yank\` a word from one place to another with \`g s SPC
-  select-one-letter y select-the-correction-spot-to-paste\`
-- Use \`t\` to \"teleport\" the word from one place to another \`g s
-  SPC select-one-letter t select-the-correction-spot-to-teleport\`
-
-## Notmuch
-
-```example
-SPC o m open notmuch
-
-# notmuch workspace
-SPC m c compose email
-SPC m d mark as deleted
-SPC m s mark as spam
-SPC m u notmuch update
-q quick
-```
-
-## Elfeed
-
-## Abbrev-mode
-
-## Ropemacs
-
-## tree-sitter
-
-## TRAMP
-
-## ReBuilder
-
----
-# Special Thanks
-
-- [Link to youtube video series -
-  org-mode](https://www.youtube.com/watch?v=BRqjaN4-gGQ&list=PLhXZp00uXBk4np17N39WvB80zgxlZfVwj&index=10)
-
-- [Three HUGE Mistakes New Emacs Users
-  Make](https://www.youtube.com/watch?v=s0ed8Da3mjE)
-
-- [notes by
-  ianjones.us](https://www.ianjones.us/zaiste-programming-doom-emacs-tutorial/#org7ad2452)
-
-- [Manage your life in plain
-  text](https://www.udemy.com/course/getting-yourself-organized-with-org-mode/learn/lecture/21946276#overview)
-  (also exist
-  [youtube](https://www.youtube.com/watch?v=sQS06Qjnkcc&list=PLVtKhBrRV_ZkPnBtt_TD1Cs9PJlU0IIdE)
-  video series).
-
-- https://docs.doomemacs.org/latest/ \*
-
-- https://emacs-lsp.github.io/lsp-mode/page/main-features/ (LSP
-  starting point) \*
-
-- https://github.com/niyumard/Doom-Emacs-Cheat-Sheet \*
-
-- https://raw.githubusercontent.com/hackjutsu/vim-cheatsheet/master/README.md
-
-- https://raw.githubusercontent.com/LeCoupa/awesome-cheatsheets/master/tools/vim.txt
-
-- https://thingsfittogether.com/wp-content/uploads/2021/03/Vim-Cheatsheet-2-Final-Draft.png
-
-- https://github.com/rstacruz/cheatsheets/blob/master/vim.md
-
-- https://imgur.com/gallery/YLInLlY
-
-- https://emacs-lsp.github.io/lsp-mode/page/keybindings/
-
-- https://resources.jetbrains.com/storage/products/pycharm/docs/PyCharm_ReferenceCard.pdf
-
-- https://vimsheet.com/
-
-- https://vim.fandom.com/
-
-- https://vim.fandom.com/wiki/Best_Vim_Tips#Really_useful
-
-- https://vimhelp.org/vim_faq.txt.html
-
-- [Link to youtube video
-  series](https://www.youtube.com/watch?v=BRqjaN4-gGQ&list=PLhXZp00uXBk4np17N39WvB80zgxlZfVwj&index=10)
-
-- http://vimcasts.org/
-
-- https://vim.fandom.com
-
-- https://www.vimgolf.com/
-
-- https://www.emacswiki.org/emacs/SiteMap \*
-
-- https://hungyi.net/
-
-- https://www.emacswiki.org/emacs/PythonProgrammingInEmacs
-
-- https://wikemacs.org/wiki/Python
-
-# [TODO]
-
-- Replace multiple spaces with one \`:%s/$^ *$\\@\<! \\/ /g\` This
-  says \"find 2 or more spaces (\' \\\\\') that are NOT preceded
-  by \'the start of the line followed by zero or more spaces\'\"
-
-https://github.com/tpope/vim-surround/blob/master/doc/surround.txt
-
-# [TODO]
-
-# [TODO]
-
-- org-make-toc
-
-- download image from clipboard, save attach...
-
-- make line headline
-
-- quickly add sub-headline
-
-- org-roam subnode find
-
-- increment in emacs (org-shift... can handle this in org-mode)
-
-- splitted text to autofill
-
-- autoindent, based on previous line (as I remember exists specific
-  plugin)
-
-- https://www.reddit.com/r/emacs/comments/a3rajh/chrome_bookmarks_sync_to_org/
-
-- https://noonker.github.io/posts/2020-04-22-elfeed/
-
-\`C-r+0\` - in insert mode inserts the last yanked text, working in
-command mode \`C-r+\"\` - in insert mode inserts clipboard, working in
-command mode
-
-\`gr\[motion\] grr\` replace with register (yanked) motion / line
-
-\`\[s \]s\` - MoveStatementUp MoveStatementDown
-
-M-x +snippets
-
-bookmarks
-https://www.gnu.org/software/emacs/manual/html_node/emacs/Bookmarks.html#:\~:text=Bookmarks%20are%20somewhat%20like%20registers,were%20reading%20in%20various%20files.
-
-Goto Test FindUsages SelectIn GotoFile GotoClass FileStructurePopup
-JumpToLastWindow \`~yp~ ~yl~\` QuickListPopupAction / Log \`~yd~ ~ya~\`
-Compare.LastVersion / Annotate \`\[q \]q\` PreviousOccurence /
-NextOccurence \`\[m \]m\` MethodUp / MethodDown \`\[c \]c\`
-PrevChangeMarker / NextChangeMarker \`,c ,r\` - CompileDirty / Run \`,R
-,b\` - RunAnything Debug \`,c ,d\` - RunClass / DebugClass \`,t ,T\` -
-RerunTests / RerunFailedTests add char before link/after link wrap chars
-into `xxx` make line list item hunspell dictonary with
-Computer Science terms... all tabs to spaces (existi somewhere in github
-configurations) search in hidden org-mode blocks elfeed read it later or
-favorites find in org-roam files org-attch dir function
-
-https://www.gnu.org/software/emacs/manual/html_node/emacs/Keyboard-Macro-Counter.html
-generate row, column number-ranges
-
-## Org Mode
-
-### Basics
-
-- Org mode gives you structure to your document
-- `*` for a h1 `**` for an h2 and so on
-- You can `TAB` a section to fold a subtree (hide it)
-- You can use `SHIFT TAB` to cycle through folded states
-- `C-return` to create a headline of the same type
-- `M arrow up` lets you shift the position of the section
-- `M h` promotes a headline to the next level
-- `M l` demotes
-- You can create lists
-  1.  onw
-  2.  2
-  3.  wooo
-  4.  3
-
-### Links, Hyperlinks and more
-
-- `SPC m l` to add a link to an org page
-- You can add `::` to specify a heading or a line number
-- You can paste http links as well
-
-### Defining custoom Link Types
-
-- [Whatch the video about custom links](https://youtube.com/watch?v=Febe4lUK5G4)
-
-### Linking to words &amp; Bookmarks
-
-- `SPC n l` stores a link to a particular headline
-
-### Code Snippets &amp; Babel
-
-- `SPC i s` for inserting code snippets
-
-  - Example:
-
-    ```emacs-lisp
-    (+ 2 3 4 5)
-    ```
-
-- `C-c C-c` to execute the code.
-- `SPC m '` to edit inside the babel in another buffer.
-- Results will show up in a `##+RESULTS` header
-- This feature is called Babel
-- One snippet can consume the output of another snippet
-- You can create your own snippets in the following directory: `~/.doom.d/snippets/`
-
-### Task Management
-
-- Create a task by prefixing any heading with `TODO`
-- `DONE` means the task is done
-- You can create your custom key words by changing this variable: `org-todo-keywords`
-
-  - remember you can get to your variables through `SPC h v` (M-x counsel-describe-variable)
-  - These values are already set in Doom:
-
-    ```text
-    ((sequence "TODO(t)" "PROJ(p)" "STRT(s)" "WAIT(w)" "HOLD(h)" "|" "DONE(d)" "KILL(k)")
-    (sequence "[ ](T)" "[-](S)" "[?](W)" "|" "[X](D)"))
-    ```
-
-- `SPC m t` to change a status of a todo
-- `SHIFT left` and `SHIFT right` can be used to change the status of a todo as well.
-- If you finish a task with a command, org mode will add a date that you "closed" the task.
-- `SPC o a t` to open the agenda -&gt; todo list
-- `q` to quit
-- `org-agenda-files` is a variable you can set to filter which files agenda searches for todos in.
-
-#### Priorities for Tasks
-
-- `SHIFT up` and `SHIFT down` will toggle the priority of tasks
-- `org-fancy-priorities` gives you fancy looking priorities
-
-#### Marking Tasks with Tags
-
-- Tags can be attached to any headlines
-- `SPC m q` to tag a headline
-- Example:
-  - TODO play more games :fun:
-- Tags are hierarchical so nested headings will be tagged with the
-  parent header tag
-- `org-tag-sparce-tree` will search for headings that only have a specific
-  tag
-
-#### Setting a poperty for a task/headline
-
-- `SPC m o` is used for setting a property.
-
-<!--list-separator-->
-
-- Marking Headlines with Categories
-
-  - You can use [categories](https://orgmode.org/manual/Categories.html) to change the label in agenda view.
-
-<!--list-separator-->
-
-- Org-Habits
-
-  - If you want to [keep track of your habits](https://orgmode.org/manual/Tracking-your-habits.html) using org mode, you can set the `STYLE` property to habit.
-    - If you want to set a category (for chani
-
-### Lists
-
-- Two types of lists, ordered and unordered lists
-  - `SHIFT right` and `SHIFT left` can be used to change the type of lists.
-- You can also change an unorded list by changing the first item to 1. and then typing `C-c C-c` and vice verca.
-
-### Checkboxes
-
-- [ ] This is still todo
-- [-] This is in progress
-- [x] This is a done task
-
-#### You can see how many are done with a "cookie" <code>[1/2]</code>
-
-- [-] Task 1
-- [x] Task 2
-- You can do this by adding <code>[/]</code> to the heading and pressing `C-c C-c`
-- You can't assign a tag or a priority
-
-## Magit
-
-- Magit is enabled by default in Doom Emacs's init.el
-- `SPC g g` shows Magit status page
-  - Most commands are done from the status page
-  - Use tab to expand headlines in the status page
-- `?` in Magit's status page for a nice list of available commands and help, `q` to close this help page
-- Open diff view for a file with `TAB`
-- Press `s` under "Unstaged changes" to stage a change
-  - `u` to undo a change
-  - `c` to commit
-- `b s` for branch and spinoff to create another branch, rewinding the
-  commits you made to master
-- `b b` to switch branches
-
-### Git Commit Flow in More Detail
-
-- `t t` to create a tag, default place is the commit you are currently
-  selecting
-- `V` to select a change in a diff and `x` to discard that change.
-- `s` to stage
-- `c` to commit, you can `q` to quit the commit screen
-- `P` to push and then `p` to your remote or `u` to a another remote
-
-### Magit with Forge for Issuing Pull Requests - Emacs
-
-- Forge is installed in emacs doom
-- `@` for forge
-- Set up forge with `M x forge-pull`
-  - the first time you will get a token from github
-- `@ c p` to create a pull request with forge
-  - select the base branch
-  - then select the target branch
-  - then provide a short description
-  - `C-c C-c` to finish the pull request
-- Now there will be a `pull requests` tab
-
-## Terminal
-
-- Set up vterm in your init.el file.
-- `SPC o T` for opening vterm
-- `SPC o t` for opening vterm in a popup window
-
-## File Tree
-
-- Set up neotree or treemacs in your init.el file.
-- `SPC o p` for opening neotree or treemacs
-
-## Others
-
-- `C-c C-z` to insert a note for a heading in org mode.
-
-<!--listend-->
-
-- `C-c C-c` to insert a tag for a heading in org mode.
-
-## Capturing
-
-- `SPC X` to capture (the new thing gets caputured to a single file but that's fine since we can easily refile it.)
-- `SPC m r r` to refile
-
-## Org Roam
-
-These keybinding only work after installing org-roam. To install org roam edit your `init.el` file and add `(org +roam2)` in its designated place. Watch [this video](https://www.youtube.com/watch?v=AyhPmypHDEw) to understand what org-roam is.
-
-- `SPC n r f` Find an existing node or create a new one.
-- `SPC n r i` Insert a link to another node.
-- `SPC n r r` Toggle backlinks pane
-- `SPC m m o t` Add a roam tag.
-- `SPC m m o a` Add a roam alias.
-## Sources
-
-- [Link to youtube video series](https://www.youtube.com/watch?v=BRqjaN4-gGQ&list=PLhXZp00uXBk4np17N39WvB80zgxlZfVwj&index=10)
-- [This org file is mostly from the notes taken from the series above by ianjones.us](https://www.ianjones.us/zaiste-programming-doom-emacs-tutorial/#org7ad2452)
-- [Three HUGE Mistakes New Emacs Users Make](https://www.youtube.com/watch?v=s0ed8Da3mjE) (they are included in the tips above)
-
-## What to learn <code>[0/2]</code>
-
-### Dired
-
-## Base Emacs keybindings, useful in `M-x` extend command menu, mini buffers, etc
-
-jump to mark `SPC s r`
----
-
-scroll Down `C-n` or `C-j`
-scroll Up `C-p` or `C-k`
-scroll Left `C-b`
-scroll Right `C-f`
-
-scroll to top `M-<`
-scroll to bottom `M->`
-beginning of line `C-a`
-end of line `C-e`
-
-kill next char `C-d`
-kill word \* `C-w`
-kill whole line \* `C-S-BSPC`
-kill to end of sentence (kill-sentence) `M-k`
-Delete spaces and tabs around point `M-\`
-
-History (also work in evil command input) \* `C-s`
-Go to previous group (like page down) `C-S-k`
-Go to next group (like page up) `C-S-j`
-Open an embark-act menu to chose a useful action `C-;`, `SPC a`
-
----
-## Emacs files
-
----
-
-for saving the current file \[customized command\] `C-s`
-
-open project sidebar `SPC o p`
-find file in project sidebar (locate) \* `SPC o P`
-
-to open a project (also FAST switch to project) \* `SPC p p`
-to open a file in a project `SPC SPC`
-
-search or create new file \* `SPC . [file]`
-find file from here `SPC f F`
-to delete this file `SPC f D`
-recently visited files `SPC f r`
-rename file `SPC f R`
-Save file \* `C-s`
-save file as `SPC f S`
-recently visited files in a project `SPC p r`
-find file in other project `SPC p f`
-locate file `SPC f l`
-projectile discover commands `M-x projectile-disco*`
-
----
-
-### Treemacs
-
----
-
-Project Keybinds `C-c C-p`
-Collapse project at point. `TAB`
-Collapse all projects. `S-TAB`
-Remove project at point from the workspace `C-c C-p r`
-Select a new project to add to the workspace `C-c C-p a`
-Collapse menu `C-c C-p c`
-Collapse project `C-c C-p c c`
-
-Workspaces Keybinds `C-c C-w`
-
-Open current file or tag in vertical split `ov`
-Open current file or tag in horizontal split `oh`
-Open current item `RET`
-Open current file or tag and close treemacs (no split) `oc`
-Open current file or tag, using ace-window `oaa`
-Open current file or tag in horizontal split (ace-window) `oah`
-Open current file or tag in vertical split, (ace-window) `oav`
-Open current file or tag in most recent window `or`
-Open current file externally `ox`
-
-Toggle the hiding and displaying of dotfiles `th`
-Toggle the hiding and displaying gitignored files `ti`
-Toggle whether the treemacs window should have a fixed width. `tw`
-Toggle treemacs-follow-mode. `tf`
-Toggle treemacs-filewatch-mode. `ta`
-Toggle treemacs-fringe-indicator-mode. `tv`
-Toggle treemacs-git-commit-diff-mode. `td`
-
-Copy the absolute path of the node at point. `ya`
-Copy the path of the node at point relative to the project root. `yr`
-Copy the absolute path of the project root for the node at point. `yp`
-Copy the file at point. `yf`
-
-Hydra to show you treemacs' most commonly used keybindings `?`
-Hydra to show you treemacs' rarely used, advanced keybindings `C-?`
-
-Go to the next same-level neighbour of the current node. `M-j`
-Go to the previous same-level neighbour of the current node. `M-k`
-Go to parent of node at point, if possible. `u`
-Switch positions of project at point and the one above it. `<M-Up>`
-Switch positions of project at point and the one below it. `<M-Down>`
-
-page up `C-b`
-page down `C-f`
-back up 1/2 screen `C-u`
-page down 1/2 screen `C-d`
-
-Set a new value for the width of the treemacs window. `w`
-Decrease the width of the treemacs window. `<`
-Increase the width of the treemacs window. `>`
-Refresh the project at point. \* `r`
-
-new file `cf`
-new dir `cd`
-
-Delete node at point. \* `d`
-Rename node at point. `R`
-Create a file `cf`
-Create a directory. `cd`
-
-Hide the treemacs window. `q`
-Delete the treemacs buffer. `Q`
-Peek at the files at point without fully opening them (peek mode). `P`
-
-Copy the absolute path of the node at point `ya`
-Copy the relative to the project root. `yr`
-Copy the absolute path of the project root at point. `yp`
-Copy the file at point. `yf`
-Move the file at point. `m`
-
-Set a new value for treemacs-sorting. `s`
-Bookmark the currently selected files's, dir's or tag's location. `b`
-Run the action defined in treemacs-COLLAPSE-actions-config (usually close). `M-h`
-Run the action defined in treemacs-RET-actions-config (usually open content). `M-l`
-
-Move treemacs' root one level upward, into the directory at point. `M-H`
-Move treemacs' root one level downwards, into the directory at point. `M-L`
-
-Collapse the parent of the node at point. `H`
-Run an asynchronous shell command on the current node. `\!`
-Run an asynchronous shell command in the root of the current project. `M-!`
-Close all directories matching any of treemacs-litter-directories. `C`
-Adjust the width of the treemacs window to that of the longsest line. `=`
-Toggle between normal and extra wide display for the treemacs window. `W`
-
----
----
-
-Dired (directory), alternative is C-x d or SPC . `SPC f d`
-going one folder back `-`
-creating a new directory `+`
-mark the files for deletion, press x to delete. `d`
-change permissions `M`
-sort by modes. `o`
-change the owner. `O`
-mark files or directories. `m`
-unmark files or directories `u`
-unmark all `U`
-invert the selection, to switch between files and directories `t`
-copy `C`
-move (and rename) `R`
-simple view `(`
-to invoke mark dialog `\*`
-to select all directories `\* /`
-to select all files `\* ?`
-copy to another window `C`
-move to another window `R`
-to edit file/dir name `i`
-### Buffers
-
----
-
-switch to another buffer (alternative is SPC b b) `SPC ,`
-switch to all buffers (alternative is SPC b B) `SPC <`
-pop up scratch buffer (alternative is SPC b x) `SPC x`
-pop up scratch buffer (alternative is SPC b X) `SPC X`
-to save and name it `SPC b s`
-kill buffer (^w^ alternative) `SPC b k`
-kill all buffer (^+w^ alternative) `SPC b K`
-list all buffers `SPC b i`
-go to next buffer (alternative is \]b) `SPC b n`
-go to previous buffer (alternative is \[b) `SPC b p`
-delete a buffer (close a file) `SPC b d`
-last buffer `SPC b l`
-maximize buffer `SPC w m`
-maximize vertically `SPC w m v`
-maximize horizontally `SPC w m s`
-## Emacs windows
-
-You can use vim motion keys to navigate between open windows, kill
-windows, resize windows for example SPC w H moves the window to the
-left.
-
-### Workspaces
-
-```
- ------------------------------------- ---------------------------------------------
- create a new workspace `C-t`
- Switch to workspace `SPC TAB .`
- new workspace `SPC TAB n`
- new named workspace `SPC TAB N`
- Previous workspace `SPC TAB [`
- Next workspace `SPC TAB ]`
- Previous workspace as alternative `[w`
- Next workspace as alternative `]w`
- Remove workspace `SPC TAB d`
- Restore last session `SPC TAB R`
- Switch to workspace 1 `M-1`
- Switch to workspace 2 and so forth. `M-2`
- go to N tab `SPC Tab [num]`
- Move Tab Forward/Backward `M-x workspace/swap-left[right]`
- ------------------------------------- ---------------------------------------------
-```
-## Emacs editing text
-
-```example
-C-M-o Split lines (join by J)
-SPC i s Insert snippet *
-SPC i e|U Insert Emoji, Unicode symbol *
-SPC i f|F Current filename, path
-SPC i p Evil ex path (insert output of $PATH for example)
-SPC i r Insert from evil register
-SPC i y Insert from clipboard
-```
-- [ ] [Org Roam](https://orgroam.com)
-- [ ] abbrev-mode
-
-## Emacs files
-
----
-
-for saving the current file \[customized command\] `C-s`
-
-open project sidebar `SPC o p`
-find file in project sidebar (locate) \* `SPC o P`
-
-to open a project (also FAST switch to project) \* `SPC p p`
-to open a file in a project `SPC SPC`
-
-search or create new file \* `SPC . [file]`
-find file from here `SPC f F`
-to delete this file `SPC f D`
-recently visited files `SPC f r`
-rename file `SPC f R`
-Save file \* `C-s`
-save file as `SPC f S`
-recently visited files in a project `SPC p r`
-find file in other project `SPC p f`
-locate file `SPC f l`
-projectile discover commands `M-x projectile-disco*`
-
-## Other notes
-
-### Treemacs
-
----
-
-Project Keybinds `C-c C-p`
-Collapse project at point. `TAB`
-Collapse all projects. `S-TAB`
-Remove project at point from the workspace `C-c C-p r`
-Select a new project to add to the workspace `C-c C-p a`
-Collapse menu `C-c C-p c`
-Collapse project `C-c C-p c c`
-
-Workspaces Keybinds `C-c C-w`
-
-Open current file or tag in vertical split `ov`
-Open current file or tag in horizontal split `oh`
-Open current item `RET`
-Open current file or tag and close treemacs (no split) `oc`
-Open current file or tag, using ace-window `oaa`
-Open current file or tag in horizontal split (ace-window) `oah`
-Open current file or tag in vertical split, (ace-window) `oav`
-Open current file or tag in most recent window `or`
-Open current file externally `ox`
-
-Toggle the hiding and displaying of dotfiles `th`
-Toggle the hiding and displaying gitignored files `ti`
-Toggle whether the treemacs window should have a fixed width. `tw`
-Toggle treemacs-follow-mode. `tf`
-Toggle treemacs-filewatch-mode. `ta`
-Toggle treemacs-fringe-indicator-mode. `tv`
-Toggle treemacs-git-commit-diff-mode. `td`
-
-Copy the absolute path of the node at point. `ya`
-Copy the path of the node at point relative to the project root. `yr`
-Copy the absolute path of the project root for the node at point. `yp`
-Copy the file at point. `yf`
-
-Hydra to show you treemacs' most commonly used keybindings `?`
-Hydra to show you treemacs' rarely used, advanced keybindings `C-?`
-
-Go to the next same-level neighbour of the current node. `M-j`
-Go to the previous same-level neighbour of the current node. `M-k`
-Go to parent of node at point, if possible. `u`
-Switch positions of project at point and the one above it. `<M-Up>`
-Switch positions of project at point and the one below it. `<M-Down>`
-
-page up `C-b`
-page down `C-f`
-back up 1/2 screen `C-u`
-page down 1/2 screen `C-d`
-
-Set a new value for the width of the treemacs window. `w`
-Decrease the width of the treemacs window. `<`
-Increase the width of the treemacs window. `>`
-Refresh the project at point. \* `r`
-
-new file `cf`
-new dir `cd`
-
-Delete node at point. \* `d`
-Rename node at point. `R`
-Create a file `cf`
-Create a directory. `cd`
-
-Hide the treemacs window. `q`
-Delete the treemacs buffer. `Q`
-Peek at the files at point without fully opening them (peek mode). `P`
-
-Copy the absolute path of the node at point `ya`
-Copy the relative to the project root. `yr`
-Copy the absolute path of the project root at point. `yp`
-Copy the file at point. `yf`
-Move the file at point. `m`
-
-Set a new value for treemacs-sorting. `s`
-Bookmark the currently selected files's, dir's or tag's location. `b`
-Run the action defined in treemacs-COLLAPSE-actions-config (usually close). `M-h`
-Run the action defined in treemacs-RET-actions-config (usually open content). `M-l`
-
-Move treemacs' root one level upward, into the directory at point. `M-H`
-Move treemacs' root one level downwards, into the directory at point. `M-L`
-
-Collapse the parent of the node at point. `H`
-Run an asynchronous shell command on the current node. `\!`
-Run an asynchronous shell command in the root of the current project. `M-!`
-Close all directories matching any of treemacs-litter-directories. `C`
-Adjust the width of the treemacs window to that of the longsest line. `=`
-Toggle between normal and extra wide display for the treemacs window. `W`
-
-
----
-
-### Dired
-
----
-
-Dired (directory), alternative is C-x d or SPC . `SPC f d`
-going one folder back `-`
-creating a new directory `+`
-mark the files for deletion, press x to delete. `d`
-change permissions `M`
-sort by modes. `o`
-change the owner. `O`
-mark files or directories. `m`
-unmark files or directories `u`
-unmark all `U`
-invert the selection, to switch between files and directories `t`
-copy `C`
-move (and rename) `R`
-simple view `(`
-to invoke mark dialog `\*`
-to select all directories `\* /`
-to select all files `\* ?`
-copy to another window `C`
-move to another window `R`
-to edit file/dir name `i`
-
----
-
-### Buffers
-
----
-
-switch to another buffer (alternative is SPC b b) `SPC ,`
-switch to all buffers (alternative is SPC b B) `SPC <`
-pop up scratch buffer (alternative is SPC b x) `SPC x`
-pop up scratch buffer (alternative is SPC b X) `SPC X`
-to save and name it `SPC b s`
-kill buffer (^w^ alternative) `SPC b k`
-kill all buffer (^+w^ alternative) `SPC b K`
-list all buffers `SPC b i`
-go to next buffer (alternative is \]b) `SPC b n`
-go to previous buffer (alternative is \[b) `SPC b p`
-delete a buffer (close a file) `SPC b d`
-last buffer `SPC b l`
-maximize buffer `SPC w m`
-maximize vertically `SPC w m v`
-maximize horizontally `SPC w m s`
----
-
-# Emacs Build & Run
-
-```example
-SPC ; eval
-SPC c e evaluate buffer or region
-SPC c E evaluate & replace region
-SPC c s Send to repl
-
-SPC c lsp code actions
-SPC c c compile
-SPC c C recompile
-SPC c d jump to defention *
-SPC c D jump to referencesg *
-SPC c f format buffer/region
-SPC c i find implementations *
-SPC c j jump to symbol in current workspace
-SPC c J jump to symbol in any workspace
-SPC c k jump to documentation
-
-SPC c l = LSP formatting
-SPC c l a LSP code actons (a - code actions, h - higlight symbol, l - lens)
-SPC c l F LSP fodlers (a - add, b - unblacklist, r - remove)
-SPC c l g LSP goto menu
-SPC c l g d LSP goto declaration (alternative - gd)
-SPC c l G LSP peek menu
-SPC c l h LSP help menu
-SPC c l r LSP refactor menu
-SPC c l T LSP toggle menu
-SPC c l w LSP workspaces menu
-
-SPC c o Organize Imports
-SPC c r LSP rename
-SPC c t Find type defention
-SPC c x List errors
-
-unbinded
-lsp-find-declaration
-```
-
-# Emacs debug (dap-mode)
-
-You need configure a keys:
-https://docs.doomemacs.org/latest/#/usage/keybindings
-
-```example
-SPC o d open debug chooser
-
-SPC d s dap-debug
-SPC d h dap-hydra (q - quit)
-SPC d n dap-next
-SPC d i dap-step-in
-SPC d o dap-step-out
-SPC d c dap-continue
-SPC d r dap-debug-restart
-
-SPC d r dap-debug-recent
-SPC d l dap-debug-last
-
-SPC e dap-eval
-SPC r dap-eval-region
-SPC s dap-eval-thing-at-point
-SPC a dap-ui-expressions-add
-SPC d dap-ui
-
-SPC b dap-breakpoint-toggle
-SPC c dap-breakpoint-condition
-SPC h dap-breakpoint-hit-condition
-SPC l dap-breakpoint-log-message
-```
-## Emacs search & replace
-
-```example
-M-% query replace
-C-M-% query replace regex
-
-SPC s b|B search buffer, all buffers (go to line)
-SPC s s|S search buffer, search for thing at cursor positon *
-SPC s d|D search in current directory, other directory
-SPC s f locate file
-SPC s i jump to symbol *
-SPC s j jump list
-SPC s l|L jump to visible links, all links
-SPC s r jump to mark
-
-SPC s p|P search in project, other project *
-
-Project-wide Search & Replace (vertico, details https://hungyi.net/posts/doom-emacs-search-replace-project/)
-SPC s p foo C-; E C-c C-p :%s/foo/bar/g RET Z Z
-
-SPC ? commands help *
-SPC h b show help bindings help menu *
-SPC s e search in .emacs.d
-SPC s t|T dictonary, thesaurus
-SPC s k|K lookup in local docsets, all docsets
-SPC s o|O lookup online, online with prompt
-C-c z Zeal Documentation
-```
-## Emacs editing text
-
-```example
-C-M-o Split lines (join by J)
-SPC i s Insert snippet *
-SPC i e|U Insert Emoji, Unicode symbol *
-SPC i f|F Current filename, path
-SPC i p Evil ex path (insert output of $PATH for example)
-SPC i r Insert from evil register
-SPC i y Insert from clipboard
-```
-## Emacs formatting
-
-```example
-SPC c f format buffer/region
-SPC c w Delete trailing whitespace
-SPC c W Delete trailing new lines
-SPC c l = LSP formatting
-M-s h Higlight menu
-```
-
-## Emacs refactor and clean up
-
-```example
-C-, flyspell next error
-SPC t s toggle flyspell
-```
-
-# Emacs & Evil Commands
-
-```example
-SPC-u alternative to C-u
-M-x Find Any Action (execute extended command)
-M-` text-mode emulation of menubar *
-C-c C-c run... *
-C-g Quit popup/dialog or cancel operation *
-C-[ Close popup or Escape key alternative (evil)
-C-+ C-- Zoom plus Zoom minus
-M-x for entering a command *
-SPC q q Quit Emacs
-SPC f p to open the config
-SPC h v describe variable
-SPC o t for opening vterm in a popup window
-SPC o T for opening vterm in fullscreen
-SPC t varius commands (toggle)
-SPC t l toggle line numbers (useful on small screen)
-
-C-SPC company autocomplete (insert mode)
-C-S-SPC company autocomplete common (insert mode)
-
-:jumps list jumps
-:![command] exec command in active window (generated new shell output buffer)
-```
-
-## Emacs clipboard
-
-```example
-SPC f y yank file path
-SPC f Y yank file path from project
-SPC i y insert text from kill-ring (clipboard)
-SPC n y org export to clipboard
-SPC n Y org export to clipboard as rich text
-```
-
-# Emacs Version Control (magit)
-
-```example
-SPC g g shows Magit status page, tab to expand/collapse headlines
-SPC g magit menu
-SPC g l g list gists
-
-Aviable in magit status:
-? list of available commands and help, q to close this help page
-
-TAB expand headlines in the status page
-s under "Unstaged changes” to stage a change
-u undo a stage
-c to commit, you can press q to quit the commit screen
-b s branch and spinoff to create another branch, rewinding the commits you made to master
-b b switch branches
-
-t t to create a tag, default place is the commit you are currently selecting
-V to select a change in a diff and x to discard that change (revert).
-P to push and then =p= to your remote or =u= to a another remote
-
-@ for forge, configure it with M-x forge-pull
-@ c p to create a pull request with forge
- - select the base branch
- - then select the target branch
- - then provide a short description
- - C-c C-c to finish the pull request
- - now there will be a pull requests tab
-
-C-x v vc menu
-C-x v = vc diff
-
-```
-
-## Org Mode
-
-### General
-
-```example
-TAB a section to fold a subtree (hide it)
-S-TAB to cycle through folded states
-
-C-c C-z to insert a note for a heading in org mode.
-C-c C-c to insert a tag for a heading in org mode.
-
-SPC m org menu
-SPC X to capture
-SPC m r r to refile
-
-SPC m i org toggle item, convert to plain-text list or numbered list
-SPC m t to change a status of a todo
-SPC m o setting a property.
-SPC m q add tag a headline
-SPC m + org-ctrl-c-minus, insert separator in table or modify bullet state of line
-
-C-S-hjkl org shift left,down,up,
-
-S-left|S-right change the status of a todo as well (loop over statuses).
-
-C-Return to create a headline of the same type
-M-up lets you shift the position of the section
-M-h|l promotes, demotes a headline to the next level
-S-up|down will toggle the priority of tasks
-
-SPC m x org toggle checkbox
-SPC o a org agenda menu
- a - agenda, m - tag search, t - todo list
-```
-
-### Links, Hyperlinks and more
-
-```example
-SPC m l add a link menu
-SPC m l l add a link to an org page, :: to specify a heading or a line number
-SPC n l stores a link to a particular headline (available when you add a link)
-```
-
-Examples: You can paste [http](https://example.com) links as well You
-can \"link\" some text with specific code `SPC m l l` elisp:
-[(+ 2 2)](elisp:(+ 2 2)), when you click the link, emacs will evaluate
-the expression Show [My Agenda](elisp:org-agenda) [List Files](shell:ls)
-in directory
-
-Defining custom Link Types - [Whatch the video about custom
-links](https://youtube.com/watch?v=Febe4lUK5G4)
-
-### Custom
-
-```example
-C-u C-c C-l in an org-buffer insert svg, png images directly from cliboard, save with human-readable name.
-```
-
-### [Org Roam](https://orgroam.com)
-
-These keybinding only work after installing org-roam. To install org
-roam edit your \`init.el\` file and add \`(org +roam2)\` in its
-designated place. Watch https://www.youtube.com/watch?v=AyhPmypHDEw to
-understand what org-roam is.
-
-```example
-SPC n r f Find an existing node or create a new one.
-SPC n r i Insert a link to another node.
-SPC n r r Toggle backlinks pane
-SPC m m o t Add a roam tag.
-SPC m m o a Add a roam alias.
-```
-
-### Babel
-
-```example
-SPC m ' edit inside the babel in another buffer.
-SPC m k org babel remove results
-```
-
-1. Python code with mathplotlib graph
-
-```
-import matplotlib
-import matplotlib.pyplot as plt
-fig=plt.figure(figsize=(3,2))
-plt.plot([1,3,2])
-fig.tight_layout()
-
-fname = 'images/myfig.svg'
-plt.savefig(fname)
-fname # return this to org-mode
-```
-
-2. ob-spice
-
-```
-*Virtual Ground Test: opamp gain = 1000
-vin in 0 dc 0V sin(0 0.1 100Hz)
-r1 in inn 10k
-r2 in inn 10k
-EOpamp out 0 0 inn 1000
-.tran 0.1ms 0.05s
-.print tran v(in)
-.meas tran vtest find v(in) at=0.04e-3
-.end
-.control
-run
-set gnuplot_terminal=png
-gnuplot images/spice.png v(in) v(out) v(inn)
-.endc
-```
-
-## Notmuch
-
-```example
-SPC o m open notmuch
-
-# notmuch workspace
-SPC m c compose email
-SPC m d mark as deleted
-SPC m s mark as spam
-SPC m u notmuch update
-q quick
-```
-
-jump to mark `SPC s r`
-## ToDo
-
-- `SPC o T` to open the vterm in fullscreen
-- `SPC o t` to open the vterm in a popup window
-- `SPC f r` recently visited files
-- `SPC f R` recently visited files in a project
-- `M-x projectile-discover-projects-in-directory` to find projects
-  within given folder using Projectile
-- `M-x projectile-discover-projects-in-search-path` to find projects in
-  the folder defined by the `projectile-project-search-path` variable
-  using Projectile
-## Emacs formatting
-
-```example
-SPC c f format buffer/region
-SPC c w Delete trailing whitespace
-SPC c W Delete trailing new lines
-SPC c l = LSP formatting
-M-s h Higlight menu
-```
-## Emacs refactor and clean up
-
-```example
-C-, flyspell next error
-SPC t s toggle flyspell
-```
-
-## Emacs search & replace
-
-```example
-M-% query replace
-C-M-% query replace regex
-
-SPC s b|B search buffer, all buffers (go to line)
-SPC s s|S search buffer, search for thing at cursor positon *
-SPC s d|D search in current directory, other directory
-SPC s f locate file
-SPC s i jump to symbol *
-SPC s j jump list
-SPC s l|L jump to visible links, all links
-SPC s r jump to mark
-
-SPC s p|P search in project, other project *
-
-Project-wide Search & Replace (vertico, details https://hungyi.net/posts/doom-emacs-search-replace-project/)
-SPC s p foo C-; E C-c C-p :%s/foo/bar/g RET Z Z
-
-SPC ? commands help *
-SPC h b show help bindings help menu *
-SPC s e search in .emacs.d
-SPC s t|T dictonary, thesaurus
-SPC s k|K lookup in local docsets, all docsets
-SPC s o|O lookup online, online with prompt
-C-c z Zeal Documentation
-```
-
-# MKDX
-
-mkdx italic::<PREFIX>/
-mkdx bold::<PREFIX>b
-mkdx inline code::<PREFIX>`
-mkdx strikethrough::<PREFIX>s
-mkdx backticks::<PREFIX>`
-mkdx autocomplet heading in link block::#
-mkdx insert ` shortcut::<<Tab>
-mkdx toggle checkbox forward::<PREFIX>-
-mkdx toggle checkbox backward::<PREFIX>=
-mkdx wrap text in link::<PREFIX>ln
-mkdx increment header level::<PREFIX>[
-mkdx decrement header level::<PREFIX>]
-mkdx convert CSV to markdown table (toggle)::<PREFIX>,
-mkdx toggle quote::<PREFIX>'
-
-
-## What to learn <code>[0/2]</code>
-
-- [ ] [Org Roam](https://orgroam.com)
-- [ ] abbrev-mode
-
-- `C-c C-z` to insert a note for a heading in org mode.
-<!--listend-->
-- `C-c C-c` to insert a tag for a heading in org mode.
-
-## Capturing
-
-- `SPC X` to capture (the new thing gets caputured to a single file but that's fine since we can easily refile it.)
-- `SPC m r r` to refile
-
-## Org Roam
-
-These keybinding only work after installing org-roam. To install org roam edit
-your `init.el` file and add `(org +roam2)` in its designated place. Watch [this
-video](https://www.youtube.com/watch?v=AyhPmypHDEw) to understand what org-roam
-is.
-
-- `SPC n r f` Find an existing node or create a new one.
-- `SPC n r i` Insert a link to another node.
-- `SPC n r r` Toggle backlinks pane
-- `SPC m m o t` Add a roam tag.
-- `SPC m m o a` Add a roam alias.
-
-
-## Org Mode
-
-### Basics
-
-- Org mode gives you structure to your document
-- `*` for a h1 `**` for an h2 and so on
-- You can `TAB` a section to fold a subtree (hide it)
-- You can use `SHIFT TAB` to cycle through folded states
-- `C-return` to create a headline of the same type
-- `M arrow up` lets you shift the position of the section
-- `M h` promotes a headline to the next level
-- `M l` demotes
-- You can create lists
-  1.  onw
-  2.  2
-  3.  wooo
-  4.  3
-
-### Links, Hyperlinks and more
-
-- `SPC m l` to add a link to an org page
-- You can add `::` to specify a heading or a line number
-- You can paste http links as well
-
-### Defining custoom Link Types
-
-- [Whatch the video about custom links](https://youtube.com/watch?v=Febe4lUK5G4)
-
-### Linking to words &amp; Bookmarks
-
-- `SPC n l` stores a link to a particular headline
-
-### Code Snippets &amp; Babel
-
-- `SPC i s` for inserting code snippets
-
-  - Example:
-
-    ```emacs-lisp
-    (+ 2 3 4 5)
-    ```
-
-- `C-c C-c` to execute the code.
-- `SPC m '` to edit inside the babel in another buffer.
-- Results will show up in a `##+RESULTS` header
-- This feature is called Babel
-- One snippet can consume the output of another snippet
-- You can create your own snippets in the following directory: `~/.doom.d/snippets/`
-
-### Task Management
-
-- Create a task by prefixing any heading with `TODO`
-- `DONE` means the task is done
-- You can create your custom key words by changing this variable: `org-todo-keywords`
-
-  - remember you can get to your variables through `SPC h v` (M-x counsel-describe-variable)
-  - These values are already set in Doom:
-
-    ```text
-    ((sequence "TODO(t)" "PROJ(p)" "STRT(s)" "WAIT(w)" "HOLD(h)" "|" "DONE(d)" "KILL(k)")
-    (sequence "[ ](T)" "[-](S)" "[?](W)" "|" "[X](D)"))
-    ```
-
-- `SPC m t` to change a status of a todo
-- `SHIFT left` and `SHIFT right` can be used to change the status of a todo as well.
-- If you finish a task with a command, org mode will add a date that you "closed" the task.
-- `SPC o a t` to open the agenda -&gt; todo list
-- `q` to quit
-- `org-agenda-files` is a variable you can set to filter which files agenda searches for todos in.
-
-#### Priorities for Tasks
-
-- `SHIFT up` and `SHIFT down` will toggle the priority of tasks
-- `org-fancy-priorities` gives you fancy looking priorities
-
-#### Marking Tasks with Tags
-
-- Tags can be attached to any headlines
-- `SPC m q` to tag a headline
-- Example:
-  - TODO play more games :fun:
-- Tags are hierarchical so nested headings will be tagged with the
-  parent header tag
-- `org-tag-sparce-tree` will search for headings that only have a specific
-  tag
-
-#### Setting a poperty for a task/headline
-
-- `SPC m o` is used for setting a property.
-
-<!--list-separator-->
-
-- Marking Headlines with Categories
-
-  - You can use [categories](https://orgmode.org/manual/Categories.html) to change the label in agenda view.
-
-<!--list-separator-->
-
-- Org-Habits
-
-  - If you want to [keep track of your habits](https://orgmode.org/manual/Tracking-your-habits.html) using org mode, you can set the `STYLE` property to habit.
-    - If you want to set a category (for chani
-
-### Lists
-
-- Two types of lists, ordered and unordered lists
-  - `SHIFT right` and `SHIFT left` can be used to change the type of lists.
-- You can also change an unorded list by changing the first item to 1. and then typing `C-c C-c` and vice verca.
-
-### Checkboxes
-
-- [ ] This is still todo
-- [-] This is in progress
-- [x] This is a done task
-
-#### You can see how many are done with a "cookie" <code>[1/2]</code>
-
-- [-] Task 1
-- [x] Task 2
-- You can do this by adding <code>[/]</code> to the heading and pressing `C-c C-c`
-- You can't assign a tag or a priority
-
-## Magit
-
-- Magit is enabled by default in Doom Emacs's init.el
-- `SPC g g` shows Magit status page
-  - Most commands are done from the status page
-  - Use tab to expand headlines in the status page
-- `?` in Magit's status page for a nice list of available commands and help, `q` to close this help page
-- Open diff view for a file with `TAB`
-- Press `s` under "Unstaged changes" to stage a change
-  - `u` to undo a change
-  - `c` to commit
-- `b s` for branch and spinoff to create another branch, rewinding the
-  commits you made to master
-- `b b` to switch branches
-
-### Git Commit Flow in More Detail
-
-- `t t` to create a tag, default place is the commit you are currently
-  selecting
-- `V` to select a change in a diff and `x` to discard that change.
-- `s` to stage
-- `c` to commit, you can `q` to quit the commit screen
-- `P` to push and then `p` to your remote or `u` to a another remote
-
-### Magit with Forge for Issuing Pull Requests - Emacs
-
-- Forge is installed in emacs doom
-- `@` for forge
-- Set up forge with `M x forge-pull`
-  - the first time you will get a token from github
-- `@ c p` to create a pull request with forge
-  - select the base branch
-  - then select the target branch
-  - then provide a short description
-  - `C-c C-c` to finish the pull request
-- Now there will be a `pull requests` tab
-
-
-## Projects with Projectile (tested)
-
-- `SPC p p` to open a project
-- `SPC SPC` to open a file in a project
-- `SPC o p` to open the file explorer
-- `SPC o T` to open the vterm in fullscreen
-- `SPC o t` to open the vterm in a popup window
-- `SPC f r` recently visited files
-- `SPC f R` recently visited files in a project
-- `M-x projectile-discover-projects-in-directory` to find projects
-  within given folder using Projectile
-- `M-x projectile-discover-projects-in-search-path` to find projects in
-  the folder defined by the `projectile-project-search-path` variable
-  using Projectile
-
+- [ ] [[research/Irianto-Learn_Vim]]
+- [ ] [[research/Neil-Modern_Vim]]
+- [ ] [[research/Neil-Practical_Vim]]
+- [ ] [[research/Osipov-Mastering_Vim]]

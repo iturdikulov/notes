@@ -33,7 +33,7 @@ Toggle hidden files::`gh`
 
 Create file::`%`
 
-Create directory::`d`
+Create a new directory::`d`
 
 Clear marks in current buffer::`mF`
 
@@ -85,9 +85,12 @@ TODO: select all directories.
 TODO: invert the selection.
 TODO: switch between files and directories
 
-## References
+## Help
 
 - `:h netrw`
 - `:h netrw-quickmap`
+
+## References
+
 - [x] [Using Netrw, vim's builtin file explorer](https://vonheikemen.github.io/devlog/tools/using-netrw-vim-builtin-file-explorer/)
 
