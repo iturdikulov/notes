@@ -17,30 +17,39 @@ sr-ease: 130
 # A Common-sense Guide to Data Structures and Algorithms: Level Up Your Core Programming Skills
 
 If you thought that data structures and algorithms were all just theory, you're
-missing out on what they can do for your code. Learn to use Big O Notation to
-make your code run faster by orders of magnitude. Choose from data structures
-such as hash tables, trees, and graphs to increase your code's efficiency
-exponentially. With simple language and clear diagrams, this book makes this
-complex topic accessible, no matter your background. This new edition features
-practice exercises in every chapter, and new chapters on topics such as dynamic
-programming and heaps and tries. Get the hands-on info you need to master data
-structures and algorithms for your day-to-day work. Algorithms and data
-structures are much more than abstract concepts. Mastering them enables you to
-write code that runs faster and more efficiently, which is particularly
-important for today's web and mobile apps. Take a practical approach to data
-structures and algorithms, with techniques and real-world scenarios that you can
-use in your daily production code, with examples in JavaScript, Python, and
-Ruby. This new and revised second edition features new chapters on recursion,
-dynamic programming, and using Big O in your daily work. Use Big O notation to
-measure and articulate the efficiency of your code, and modify your algorithm to
-make it faster. Find out how your choice of arrays, linked lists, and hash
-tables can dramatically affect the code you write. Use recursion to solve tricky
-problems and create algorithms that run exponentially faster than the
-alternatives. Dig into advanced data structures such as binary trees and graphs
+missing out on what they can do for your code.
+
+Learn to use Big O Notation to make your code run faster by orders of magnitude.
+Choose from data structures such as hash tables, trees, and graphs to increase
+your code's efficiency exponentially.
+
+With simple language and clear diagrams, this book makes this complex topic
+accessible, no matter your background.
+
+This new edition features practice exercises in every chapter, and new chapters
+on topics such as dynamic programming and heaps and tries.
+
+Get the hands-on info you need to master data structures and algorithms for your
+day-to-day work.
+
+Algorithms and data structures are much more than abstract concepts. Mastering
+them enables you to write code that runs faster and more efficiently, which is
+particularly important for today's web and mobile apps.
+
+Find out how your choice of arrays, linked lists, and hash tables can
+dramatically affect the code you write.
+
+Use recursion to solve tricky problems and create algorithms that run
+exponentially faster than the alternatives.
+
+Dig into advanced data structures such as binary trees and graphs
 to help scale specialized applications such as social networks and mapping
-software. You'll even encounter a single keyword that can give your code a turbo
-boost. Practice your new skills with exercises in every chapter, along with
-detailed solutions. Use these techniques today to make your code faster and more
+software.
+
+You'll even encounter a single keyword that can give your code a turbo boost.
+
+Practice your new skills with exercises in every chapter, along with detailed
+solutions. Use these techniques today to make your code faster and more
 scalable.
 
 # Cover /1
