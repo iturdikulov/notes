@@ -315,8 +315,6 @@ Start typing on the last inserting point you can type. TODO: conflict with LSP k
 
 Re-select and jump to the last visual selection with::`gv`
 
-Jump to function/variable definition::`gd`
-
 Goes to the older cursor position on the change list::`g;`
 
 Goes to the newer cursor position on the change list::`g,`
@@ -324,6 +322,33 @@ Goes to the newer cursor position on the change list::`g,`
 Jump to previous position you were at::`C-o`
 
 Jump to more recent position you were a::`C-i`
+
+### Code navigation
+
+Jump to function/variable definition::`gd`
+
+Jump to function/variable declaration::`gD`
+
+Find symbol, find symbol based on grep:`<leader>vws[S]`
+
+Find usages/references::`gr`
+
+Go to previous/current file::`C-^`
+
+### Help
+
+Hover help::`K`
+
+Dashit related documentation / ... in all docsets
+`<leader>dk`, `<leader>dK`
+
+Dashit related documentation for visual selection / ... in all docsets
+?
+`<leader>ds`, `<leader>dS`
+
+Dashit related documentation under cursor / ... in all docsets
+?
+`<leader>ds`, `<leader>dW`
 
 ### Custom keybindings and commands
 
@@ -478,6 +503,26 @@ TODO: Markdown plugin
 
 `<`::shift left in visual mode (v)
 <!--SR:!2023-06-06,1,208-->
+
+### Markdown
+
+Go to previous/next function hunk::`[[/]]`
+
+Go to link::`gx`
+
+TODO toggle, search, mark (plugin?)
+
+TODO: [Automatic list continuation and formatting for neovim, powered by lua](https://github.com/gaoDean/autolist.nvim), renumber automatically?
+
+TODO: broken, bullet promote::`<C-d>` or `<<` or `<` in visual mode
+
+TODO: HTML to markdown > clipboard > paste
+
+Toggle checkbox::`<leader>tT`
+
+Bullet demote::`<C-t>` or `>>` or `>` in visual mode
+
+URL to markdown > clipboard > paste::`<S-v>`
 
 ### [antonk52/markdowny.nvim](https://github.com/antonk52/markdowny.nvim) plugin
 
@@ -1040,45 +1085,6 @@ this better! (Mapped to `S-v`).
 
 ----
 
-
-## Code navigation
-
-- [x] go to definition::`gd`
-
-- [x] go to declaration::`gD`
-
-- [x] find symbol, based on grep:`<leader>vws[S]`\*
-
-- [ ] find usages/references::`gr`
-
-- [x] go to older/newer position::`<c-o>/<c-i>`
-
-- [x] hover help::`K`
-
-- [x] zeavim word under cursor or selection::`<leader>zh` In pycharm works only
-      selection.
-
-- [x] zeavim search motion::`gz[motion]` n\*
-
-- [x] zeavim select doc-set and query::`<leader><leader>z` n\*
-
-- [x] go to previous/current file::`c-^`
-
-### Markdown
-
-- [x] go to previous/next function hunk::`[[/]]`
-- [x] go to link::`gx`
-- [x] selection bold::`<C-b>`
-- [x] selection italic::`<C-i>`
-- [x] selection code::`<C-e>`
-- [x] selection link::`<C-k>`
-- [x] renumber list items::`gN`, using `bullets.vim` n\*
-- [x] toggle checkbox::`<leader>zt` n\*
-- [x] bullet demote::`<C-t>` or `>>` or `>` in visual mode
-- [x] bullet promote::`<C-d>` or `<<` or `<` in visual mode
-- [x] URL to markdown > clipboard > paste::`<leader>pl` n\*
-- [x] HTML to markdown > clipboard > paste::`<leader>ph` n\*
-
 ### Harpoon n\*
 
 - [ ] quick switch to terminal
@@ -1426,10 +1432,6 @@ structure. n\*
 - [x] telescope list active buffers::`<M-b>`
 
 - [x] parsed syntax-tree view::`:TSPlaygroundToggle` n\*
-
-## [[Netrw]]
-
-Main file manager
 
 ## SQL
 
