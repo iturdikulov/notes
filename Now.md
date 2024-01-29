@@ -20,8 +20,8 @@ are moved into archive section.
    failed multiple times to keep it, but I'm still trying.
 2. [[Work]]. Doing for living and for fun (ideally). This is complicated process
    which deeply integrated with all aspects of my life.
-3. [[Learning]]. To keep my knowledge and skills up to date. I'm trying to
-   learn something new every day, according to specific **goals** and plan.
+3. [[Learning]]. To keep my knowledge and skills up to date. I'm trying to learn
+   something new every day, according to specific **goals** and plan.
 4. [[My_pet_projects|Pet Projects]]. Pet projects can be used to show results of
    my education and something which I like to do.
 5. [[In_real_life_IRL|IRL]]. Since human are inherently social creatures, I
@@ -30,23 +30,38 @@ are moved into archive section.
 
 ## Current activities
 
-- [[My_Physical_exercise_plan|Slowly start doing physical exercises]]
+### IRL, routine, habits
+
+- 10% [[My_Physical_exercise_plan|Slowly start doing physical exercises]]
 - [[Duolingo|Learn basic English with Duolingo]]
+- [[Taskwarrior]], start to use it and "clean" my task list (especially RNR)
+
+### Full-time job
+
 - [[Social_networking_service|Social Networking]] working project
+
+### Learning
 
 - [[research/Wengrow-Data_structures_and_algorithms]]
 - [[research/Python_Community-Python_Tutorial]]
 - [[research/learnxinyminutes-Learn_Python_in_Y_minutes]]
-- [[research/learnxinyminutes-Learn_Lua_in_Y_minutes]]
-- [[research/learnxinyminutes-Learn_C_in_Y_minutes]]
-- [[research/learnxinyminutes-Learn_Rust_In_Y_minutes]]
-- [[research/learnxinyminutes-Learn_JavaScript_in_Y_minutes]]
 - [[Neovim]], require global refactoring
-- [[Taskwarrior]], start to use it and "clean" my task list (especially RNR)
+
+### Fun
 
 - [[Gothic]] game playing
 - [[My_awesome_software_list]] - update and refactor
 - [[research/Ulibarri-Unreal_Engine_5_C++_The_Ultimate_Game_Developer]]
-- Try to port [org-media-note](https://github.com/yuchen-lea/org-media-note)
+
+### Near future
+
+- [[research/learnxinyminutes-Learn_Lua_in_Y_minutes]]
+- [[research/learnxinyminutes-Learn_C_in_Y_minutes]]
+- [[research/learnxinyminutes-Learn_Rust_In_Y_minutes]]
+- [[research/learnxinyminutes-Learn_JavaScript_in_Y_minutes]]
 
 ## Archive
+
+- [x] Try to port
+  [org-media-note](https://github.com/yuchen-lea/org-media-note). Ported as
+  scratch keymap LUA functions. Maybe I'll convert it into plugin later.
