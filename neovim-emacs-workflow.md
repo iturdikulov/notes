@@ -2,6 +2,9 @@
 date: 2024-01-28
 tags:
   - inbox
+sr-due: 2024-01-29
+sr-interval: 1
+sr-ease: 223
 ---
 
 # Neovim-emacs-workflow

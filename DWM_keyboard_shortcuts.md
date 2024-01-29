@@ -4,8 +4,8 @@ tags:
   - inbox
   - SR_software
   - SR_productivity
-sr-due: 2024-01-28
-sr-interval: 3
+sr-due: 2024-02-07
+sr-interval: 10
 sr-ease: 252
 ---
 

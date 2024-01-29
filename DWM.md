@@ -6,8 +6,8 @@ tags:
 external:
   - https://github.com/bakkeby/dwm-flexipatch
 directory: ~/Computer/software/dwm-flexipatch/
-sr-due: 2024-01-28
-sr-interval: 3
+sr-due: 2024-02-07
+sr-interval: 10
 sr-ease: 257
 ---
 

@@ -4,8 +4,8 @@ tags:
   - inbox
   - SR_development
 sr-due: 2024-01-29
-sr-interval: 2
-sr-ease: 227
+sr-interval: 1
+sr-ease: 130
 ---
 
 # Search engine

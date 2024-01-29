@@ -6,8 +6,8 @@ tags:
   - research
   - SR_development
 directory: "~/Arts_and_Entertainment/literature/Edward Yourdon/Death march_ the complete software developer's guide to surviving _mission impossible_ projects (2375)/"
-sr-due: 2024-01-28
-sr-interval: 2
+sr-due: 2024-02-01
+sr-interval: 4
 sr-ease: 245
 ---
 

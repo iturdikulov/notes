@@ -1,17 +1,14 @@
 ---
 date: 2022-12-29
-sr-due: 2023-11-28
-sr-ease: 267
-sr-interval: 195
+sr-due: 2024-01-26
+sr-ease: 130
+sr-interval: 1
 external:
   - https://learnxinyminutes.com/docs/python/
 tags:
   - inbox
   - SR_programming
   - research
-sr-due: 2024-01-28
-sr-interval: 1
-sr-ease: 130
 ---
 
 # Learn Python in Y minutes

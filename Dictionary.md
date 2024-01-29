@@ -241,3 +241,5 @@ meaning of words.
 - consider
 - consider
 - conscern
+- efficiency
+- cell

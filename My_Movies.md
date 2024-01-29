@@ -3,8 +3,8 @@ date: 2023-03-11
 tags:
   - inbox
   - outline
-sr-due: 2024-01-28
-sr-interval: 3
+sr-due: 2024-02-07
+sr-interval: 10
 sr-ease: 252
 ---
 

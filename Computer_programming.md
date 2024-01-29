@@ -3,8 +3,8 @@ date: 2023-03-12
 tags:
   - inbox
   - bridge
-sr-due: 2024-01-27
-sr-interval: 1
+sr-due: 2024-01-31
+sr-interval: 3
 sr-ease: 208
 ---
 

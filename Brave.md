@@ -19,7 +19,7 @@ Key features for me:
   which I use.
 - Support for extensions.
 - [[Video_acceleration_API]] support on [[GNU_Linux]]
-- [[Chrome_devtools]] support.
+- [[Browser_devtools]] support.
 - Built-in browser sync, and it's available for all platforms which I use.
 
 ## Useful URL's

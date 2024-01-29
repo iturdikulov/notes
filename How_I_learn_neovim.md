@@ -2,6 +2,10 @@
 date: 2024-01-28
 tags:
   - inbox
+  - SR_vim
+sr-due: 2024-01-29
+sr-interval: 1
+sr-ease: 194
 ---
 
 # How_I_learn_neovim

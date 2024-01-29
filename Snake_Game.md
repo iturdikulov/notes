@@ -4,9 +4,9 @@ tags:
   - inbox
   - SR_game
 directory: ~/Computer/graphics/Snake_Game/
-sr-due: 2024-01-28
-sr-interval: 3
-sr-ease: 253
+sr-due: 2024-02-09
+sr-interval: 12
+sr-ease: 273
 ---
 
 # Snake Game

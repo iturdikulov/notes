@@ -113,14 +113,17 @@ Play clipboard URL: M-q-p
 Global pause: s-Play
 mpv fzf history: s-S-Play
 
-# Learning
+## Learning
 
+- [Get property using IPC](https://stackoverflow.com/questions/62582594/get-full-path-of-currently-playing-file-in-mpv)
+- [A collection of bash scripts to allow easier and programmatic interaction with mpv sockets](https://github.com/seanbreckenridge/mpv-sockets)
 - [ ] `man mpv`
 - [x] [mpv keyboard shortcuts · GitHub](https://gist.github.com/flatlinebb/07caa79fd3b9f3770788df21756a4611)
 
 ## Plugins
 
 TODO: add scripts from my nix dotfiles
+
 - [GitHub - jonniek/mpv-playlistmanager: Mpv lua script to create and manage playlists](https://github.com/jonniek/mpv-playlistmanager)
 - [ ] [GitHub - NurioHin/mpv-bookmarker: A bookmarker menu to manage all your bookmarks in mpv](https://github.com/NurioHin/mpv-bookmarker/)
 - [ ] [GitHub - zenyd/mpv-scripts: Scripts for the mpv media player](https://github.com/zenyd/mpv-scripts)

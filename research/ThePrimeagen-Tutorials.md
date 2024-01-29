@@ -9,8 +9,8 @@ tags:
   - SR_vim
   - inbox
 directory: ~/Computer/programming/ThePrimeagen-Tutorials/
-sr-due: 2024-01-28
-sr-interval: 2
+sr-due: 2024-02-02
+sr-interval: 5
 sr-ease: 245
 ---
 
