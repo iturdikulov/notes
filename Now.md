@@ -35,6 +35,7 @@ are moved into archive section.
 - 10% [[My_Physical_exercise_plan|Slowly start doing physical exercises]]
 - [[Duolingo|Learn basic English with Duolingo]]
 - [[Taskwarrior]], start to use it and "clean" my task list (especially RNR)
+- Review notes using [[Spaced_repetition|spaced repetition]] algorithm
 
 ### Full-time job
 
@@ -59,6 +60,7 @@ are moved into archive section.
 - [[research/learnxinyminutes-Learn_C_in_Y_minutes]]
 - [[research/learnxinyminutes-Learn_Rust_In_Y_minutes]]
 - [[research/learnxinyminutes-Learn_JavaScript_in_Y_minutes]]
+- [[research/Drawbox_Community-Drawbox]]
 
 ## Archive
 
