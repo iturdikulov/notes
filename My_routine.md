@@ -2,8 +2,8 @@
 date: 2022-12-28
 tags:
   - outline
-  - SR_IRL
   - inbox
+  - SR_IRL
 sr-due: 2024-01-28
 sr-interval: 2
 sr-ease: 241
@@ -14,7 +14,7 @@ sr-ease: 241
 Routine is a recommendation not a strict law. But without routine you can skip
 many important things and lose your discipline and motivation.
 
-## 1. Wake-up
+## Chunk #1. Wake-up
 
 Initialization, want to do good wake-up, care about my body, warm-up and walk.
 Wake-up with good moon, make your day better. I feel better if I wake up from
