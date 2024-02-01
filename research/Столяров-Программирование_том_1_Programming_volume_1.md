@@ -50,7 +50,7 @@ opportunities and customization of OS (hobby programming).
 
 Reasons why Unix is the most suitable OS for learning programming:
 
-### Mathematical (Математическая причина)
+### Mathematical reason (Математическая причина)
 
 Any [[Computer_programming|программа]] is a record of ==algorithm== on some
 programming language.
@@ -69,14 +69,70 @@ For this transformation can exist more than one algorithm (countless) or not
 exist.
 
 Algorithm is such a "thing" which read input word, do something **constructive**
-and return another word. The same way works many programs from Unix family.
-STDIN → transformations → STDOUT (filters).
+and return another word.
 
-### Психологическая причина
+The same way works many programs from Unix family. STDIN → transformations →
+STDOUT (filters) and you can combine them using pipes.
 
-### Эргономическая причина
+### Psychological reason (Психологическая причина)
 
-### Педагогическая причина
+Programming can't be learned in traditional ways, it's more craft and need you
+do a lot of practice which solve real world problems (not just write code to
+learn some algorithm or theory). This is why pet projects are important, some
+pet projects can be transformed into very useful projects (GNU/Linux,
+open-source projects, etc.). And when you get real users of your software you
+are established as programmer and can congratulate yourself.
+
+### Ergonomic reason (Эргономическая причина)
+
+You can't replace CLI usability with any graphical UI. And you must learn CLI
+as soon as possible (I use it every day, but still not very effective).
+
+### Pedagogical reason (Педагогическая причина)
+
+Bad teachers can mislead a newbie student, for example start learning
+programming with making GUI (focusing on UI, not a program logic), which is bad
+idea. It can traumatize student mindset, and he will have many problems to
+relearn programming in future (if he can do it) and think programming is boring
+process (will not know what he lost).
+
+### Language determines thinking (Язык определяет мышления)
+
+Stating learning programming from complex programming languages (like Java, C++
+and even C) is bad idea, newbie learners will have hard been understanding their
+concepts and not really will learn programming.
+
+Don't need to learn someone programming if you don't know what is in fundamental
+level. And if you really want to learn someone find good proven education path.
+
+Knowing [[Data_structure|data structures]] is important, if you're not
+understanding difference (and in result where they can be used) between `vector`
+and `list` in C++ and you won't understand it this is bad sign.
+
+Mixing C and C++ is bad idea (maintainability).
+
+C as first programming language is not suitable, you need to understand pointers
+first and work with them (and it's hard).
+
+Understanding code as "magic commands" is not good for good programmers, you
+need to understand code on very low level to create truly effective programs.
+
+In C you haven't procedures, only functions. Even assignment, increment are
+arithmetic operations. And in C formally any actions (which is core of C) are
+creating [[Side_effect|side effect]].
+
+> Side effect can be appeared only occur when evaluating expression.
+Side effect this is arbitrary change, which occurring when evaluating expression
+and then can be somehow ==detected==.
+
+Unlike C, C++ and functional programming languages, in [[Pascal]] there mostly
+no side effects.
+
+```c
+while((dest++ = * src++));
+```
+Why you should not write code like this? To avoid side effects.
+Yes in C you can't avoid side effects anyway, but in other languages you can.
 
 ## Предисловие 3, напутственное
 
