@@ -29,15 +29,17 @@ dd if=/dev/zero bs=1M count=100 of=encrypted_change_name.img
 # Initialize luks partition inside container
 cryptsetup luksFormat encrypted_change_name.img  # set passpharse and conifm it
 
+# Next commands require root access
+
 # Open luks partition
-sudo cryptsetup open --type luks /path/to/dump desired-name
+cryptsetup open --type luks /path/to/dump desired-name
 
 # Make filesystem on it, optional step
-sudo mke2fs -t ext4 -O ^has_journal /dev/mapper/encrypted_change_name
+mkfs.ext4 /dev/mapper/encrypted_change_name
 
-sudo mount /dev/mapper/encrypted_change_name my-mount-point
+mount /dev/mapper/encrypted_change_name my-mount-point
 
 # Umount and luksClose
-sudo umount my-mount-point
-sudo cryptsetup luksClose /dev/mapper/encrypted_change_name
+umount my-mount-point
+cryptsetup luksClose /dev/mapper/encrypted_change_name
 ```
