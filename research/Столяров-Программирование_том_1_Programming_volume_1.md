@@ -131,54 +131,70 @@ no side effects.
 ```c
 while((dest++ = * src++));
 ```
-Why you should not write code like this? To avoid side effects.
+Why you should not write code like this? To avoid side effects and make this
+less cryptic.
 Yes in C you can't avoid side effects anyway, but in other languages you can.
 
-## Предисловие 3, напутственное
+Writing in C is requirement, you need to understand how computer and operating
+system is working on subconscious level to write really quality programs.
+But to learn C, here are some requirements in understanding pointers and
+recursion, which can help some another language ([[Pascal]]):
+
+- language fully support pointers
+- you can use language without pointers
+- using pointers you can extend your capabilities (real necessity)
+
+You learn not Pascal, you learn programming by using Pascal, and you can omit
+some Pascal specific features.
+
+Big role in understanding programming is taking [[Assembly_language|Assembly
+language]]. You can never write programs in it (prefer C), but you must
+understand how it works to understand what you are really doing, understand OS
+kernel, how to interact with it, understand system calls, deeply understand data
+structures, etc. And you need usually also learn it before C (but after Pascal).
+You can use any assembly to learn, need to get understanding how to work with
+registers and memory areas, understand stack frame, interrupts, etc.
+
+So chain to learn programming is: Pascal → Assembly → C → C++ (special author's
+vision), OS, I/O, processes, sockets, multithreading, mutex objects and
+semaphores, critical sections, etc.
+
+## Introduction 3, parting words (Предисловие 3, напутственное)
+
+First who created things which works on their own (automatically) are watch
+mechanics. XVIII century - Jaquet-Droz automata (most complex is penman,
+containing 6000 details).
+
+![Jaquet Droz The Writer Automaton From 1774 In Action](https://www.youtube.com/watch?v=ux2KW20nqHU)
+
+He not only invented these automata machines, hi also spent a lot of time to
+make required tools and details, so making some complex automation system was
+combination of many different skills, finances and physical labor.
+
+With programmable computers you can avoid material requirements to make
+something useful and great. Program itself is finished product. Programming is
+the most creative profession in engineering and technical professions.
+
+Self-education and practice is requirement to be programmer.
+
+Author also tells you need to use CLI to learn something from this book (I use
+it daily), which give you abilities to write simple programs and find program
+users.
+
+Programming requires maximum intellectual tension and not everyone can withstand
+it!
+
+## Book structure (Структура книги и соглашения, используемые в тексте).
+
+Here mostly general information about books and volumes.
 
 ---
 
-## Введение
+# Part 1 (Часть 1)
 
-## Об учебнике
+# Preliminary information (Предварительные сведения)
 
-Учебник состоит из 3 частей:
-
-- вводные сведения
-- основы программирования на примере Pascal
-- возможности ЦП и программирование на языке Assambler
-
-## Ручной труд
-
-Кроме гениальности конструктора, необходимо очень много человеческого труда,
-причем необязательно творческого, чтобы создать что-то удивительное...
-
-Повсюду технический гений натыкается на материальную прозу жизни.
-
-## Роль компьютеров
-
-С появлением программируемых компьютеров стало возможно создать нечто,
-действующее само по себе, избежав сложностей с материальным воплощением.
-
-Компьютерная программа - это формальное описание того, что должно произойти. В
-отличие от технических проектов (проект дома, самолета), программа сама по себе
-есть готовое изделие. Программирование самая творческая из инженерно-технических
-профессий. Программиста нельзя выучить, человек может стать программистом только
-сам - или не стать им вовсе.
-
-## Unix
-
-Командная строка UNIX, должна стать вашим основным средством повседневной работы
-с машиной.
-
-### Программирование это работа
-
-Программирование требует предельного интеллектуального напряжения и выдержать ее
-может не каждый человек!
-
-# Предварительные сведения
-
-## 1.1. Компьютер: что это такое?
+## 1.1. Computer: what is it? (Компьютер: что это такое?)
 
 Исходная функция компьютеров - **считать**. В наше время компьютеры
 (вычислители) тратят миллионы операций на представление информации, чем
