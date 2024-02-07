@@ -1,5 +1,6 @@
 ---
-author: Андрей Викторович Столяров
+author:
+  - Андрей Викторович Столяров
 date: 2021
 external:
   - http://www.stolyarov.info/books/programming_intro/vol1
@@ -10,7 +11,8 @@ tags:
 sr-due: 2024-05-03
 sr-interval: 99
 sr-ease: 227
-directory: ~/Computer/programming/Столяров-Программирование
+directory:
+  - ~/Computer/programming/Столяров-Программирование
 ---
 
 # Программирование - Введение в профессию. Том 1.
@@ -196,96 +198,114 @@ Here mostly general information about books and volumes.
 
 ## 1.1. Computer: what is it? (Компьютер: что это такое?)
 
-Исходная функция компьютеров - **считать**. В наше время компьютеры
-(вычислители) тратят миллионы операций на представление информации, чем
-непосредственно на расчеты (бытовой уровень), эффективность крайне мала.
+Main [[Computer|computer]] function is ==to compute==. In our time millions
+computing operations are wasted on information representation, then on actual
+calculations (low efficiency).
 
-### 1.1.1 Немного истории
+### 1.1.1 Some history (1.1.1 Немного истории)
 
-Первой вычислительной машиной называют механический арифмометр Вильгельма
-Шиккарда, 1623 г.
+First computing machine is mechanical adding machine of Wilhelm Schickard, 1623.
+But before it Leonardo da Vinci created some sketches of computing mechanism.
 
-Машина блеза Паскаля 1642 год
+Most old working computing machine is Pascal's adding machine (pascaline), 1642.
 
-Допустим есть 5 разрядов, перенос и заем в 6 теряется. Это позволяте при
-вычитании использовать прибавление некоторого другого числа. 00500 - 00134 =
-00500 + 99866
+![Additionner avec la réplique de la Pascaline 1645 - YouTube](https://www.youtube.com/watch?v=GX4RQK__fQc)
+![How the Pascaline Works - YouTube](https://www.youtube.com/watch?v=3h71HAJWnVU)
 
-Магическое число 99866 получено путем вычитаня вычитаемого из 100000.
+Basic operation is addition, you input first number, then input second number,
+and you will see sum.
 
-x-y = x + (100000 - y) - 100000, последнее вычитание происхдит автоматически, за
-счет переноса в несуществующий 6 разряд.
+To subtract number you need to use special method - nines' complement
+arithmetic, which allows doing subtraction using summation.
 
-y в правой части определяется следующим образом: 100000 - y = 99999 - y + 1 Т.к.
-число y 4 разрядное, нужно просто заменить каждую цифру y числом дополняющую ее
-до девятки.
+Main steps to use it:
+1. Input first number: `00500`
+2. Calculate nines' complement from second number: `99866 = 100000 - 134`, here
+  exist trick, you can use `100000 - 134 = 99999 - 134 + 1 = 99866`
+3. Input nines' complement: `99866`
+4. Calculate sum: `00500 + 99866 = 100366`
+5. Subtract `100000` from sum and get result: `100366 - 100000 = 00366`
 
-00134 = 99865 + 1 = 99866
+On pascaline it was little different (check video and description in book),
+`99999 - x + y`.
 
-В самом арифмометере было 2 ряда чисел. Для вычитаемого мы набираем 99999-x (но
-видим просто число) Затем мы набираем вычитаемое Арифмометер сложит их К примеру
-вводд 99499 (99999 - x), ввод вычитаемого 00134, результат 99633 (нижний ряд),
-но оператор видит 00366 (верхний ряд).
+In 1673 Gottfried Wilhelm Leibniz created calculating machine, with supported
+sum, subtraction, multiplication and division.
 
-### Другие счетные машины
+General property of arithmometer is it can't do calculations without human
+help, if you need to do more than one operation.
 
-В 1673 году был создан арфимометр Лейбницем. Арфмометр способен выполнять
-сложение, вычитание, умножение и деление. Причем умножение и деление выполнялись
-примерно так-же как мы производим оперции в столбик (последовательность сложений
-и вычитаний).
+1823 Charles Babbage started working on difference engine, which can do
+calculations using method of divided differences, but he failed to finish it.
+George Scheutz created working difference engine in 1843, by using Babbage's
+ideas.
 
-Минус арфимометра в том что они не моги выполнять расчеты без участия человека,
-если расчеты состояли из более чем одного действия.
+But Babbage's main idea was analytical engine, which can do any calculations.
+So he invited idea of programmable machines, data transferring from one data
+storage into another and actions depending on analyze results (compare for
+example).
 
-1822 г. (1823 начата практическая часть) Чарльз Беббидж начинает проект
-разностной машины. Машина должна была интерполировать полиномы методом конечных
-разностей, для автоматизации построения таблиц разнообразных функций. Проект не
-был закончен и в 1842 г. остановлен. Но в 1843 г. Георг Шутц на основе принципов
-Беббиджа завершил построение работающей разностной машины.
+Ada Lovelace - translated Babbage's analytical machine notes and added detailed
+comments. In one of these comments she provided full set of commands to
+calculate Bernoulli numbers on analytical machine - this set of commands is
+considered as first in history computer program, and Ada Lovelace is often
+called first programmer.
 
-Беббидж так-же задумал проект аналитической машины (частично реализована в
-чертежах), была очень сложной, поэтому не была реализована в то время
-(превосходило возможности техники и возможности Беббиджа). Благодоря этому
-проекту возникла идея программного управления - выполнения действий (операций)
-предписанных программой, так-же появились действия не имеющего прямого отношения
-к арифметике (перенос данных, сравнение данных и т.д.).
+> The Analytical Engine might act upon other things besides number, were
+> objects found whose mutual fundamental relations could be expressed by those
+> of the abstract science of operations, and which should be also susceptible of
+> adaptations to the action of the operating notation and mechanism of the
+> engine...Supposing, for instance, that the fundamental relations of pitched
+> sounds in the science of harmony and of musical composition were susceptible
+> of such expression and adaptations, the engine might compose elaborate and
+> scientific pieces of music of any degree of complexity or extent. [^1]\
+> — <cite>Ada Lovelace</cite>
 
-Ада Лавлейс - переводила конспект Беббиджа по аналитической машины, снабдив
-перевод подробными комментариями, превышающими по размерам сам конспект. В дном
-из разделов этих комментариев приводится полный набор команд для вычисления
-чисел Бернулли на аналитической машине - этот набор команд считается первой в
-истории компьютерной программой, а саму Аду Лавлейс часто называют первым
-программистом.
+1938 Konrad Zuse created Z1, first full mechanical programmable computer
+(electricity used only in motor). Z1 used [[Binary_number|binary]] logic.
 
-Цитата Ады Лавлейс:
+Z2 used same mechanics but used electrical relay circuits for computational
+operating. As Z1 it used perforated tape to execute program (instructions).
+They can't do rewind tape and cycle operations was not supported.
 
-> Суть и предназначеие машины изменятся от того, кукую информацию мы в неё
-> вложим. Машина сможет писать музыку, рисовать картины и покажет науке такие
-> пути, которые мы никогда и нигде не видели. -- Ада Лавлейс.
+Z3 used only relay circuits and used plastic tape to store program. This machine
+supported cycle operations, but not conditional jumps.
 
-<!--list-separator-->
+Z4 was like Z3, but supported conditional jumps.
 
-- Машина Z серии
+TODO: explain diode, triode, trigger
 
-  Хронологически первой программируемой машиной считается Z1 - построенная
-  Конардом Цузе в Германии в 1938 г. Машина полностью механическая с
-  электрическим приводом. Z1 - использует двоичную логику в своей работе. Z2
-  1939 г. - использовл ту-же механику для хранения данных но операции
-  осуществлялись при помощи электромагнитных реле. Обе машины выполняли
-  инструкции получаемые с перфоленты (без отмотки ленты назад). Z3 - использует
-  только реле и хранившую программу на пластиковой перфоленте (возможно
-  кинопленка). Z3 1941 г. - позволяла организовывать циклы (поддерживалась
-  отмотка перфоленты), условные переходы не поддерживались. Z4 1944 г. -
-  позволяла организоывывать условные переходы (ветвление)
+Vacuum tube next element to use in computers, it's glass bulb with electrodes
+and electric vacuum inside. Using 2 triodes you can build trigger, which can be
+used to store information and as base block to build logic gates.
 
-<!--list-separator-->
+One of first programmable computers was ENIAC, which used 17,468 vacuum tubes.
+ENIAC was created by John Mauchly and J. Presper Eckert in 1946.
 
-- Радиолампа
+Colossus Mark I/II was a set of computers developed by British codebreakers in
+the years 1943–1945 to help in the cryptanalysis of the Lorenz cipher. But they
+are was destroyed after war (by Tommy Flowers, creator of these machines).
 
-  Прибор выполненный в виде запаянной стеклянной колбы с электродами, с
-  откаченным из него воздухом.
+A vacuum-tube computer, now termed a ==first-generation computer==, is a
+computer that uses vacuum tubes for logic circuitry.
 
-  Простейшая радиолампа - диод (2 рабочих электрода анод и катод и спираль
-  разогревающая катод до термоэлектронной эмиссии).
+Distinguishing by generation only electronic computers, not mechanical ones.
 
-  {{< figure src="/ox-hugo/20220318-120902_screenshot.png" >}}
+First generation computers have one very important principle, principle of
+==stored-program==.
+
+Program stored in sequences of commands codes in the same memory same as data,
+memory is interchangeable or uniform, commands codes don't differ fundamentally.
+Machines which meet this requirement are called ==Von Neumann architecture
+machines==.
+
+Compilers and interpreters are programs which can execute other programs and
+without Vonn Neumann architecture they can't exist (here used principle when
+program can be interpreted as data and another program can execute it).
+
+## References
+
+[^1]: Lovelace, Ada; Menabrea, Luigi (1842). "Sketch of the Analytical Engine
+    invented by Charles Babbage Esq". _[Scientific Memoirs][]_. Richard Taylor:
+1. [Scientific Memoirs]: https://en.wikipedia.org/wiki/Scientific_Memoirs
+"Scientific Memoirs"
