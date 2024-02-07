@@ -54,8 +54,9 @@ Reasons why Unix is the most suitable OS for learning programming:
 
 ### Mathematical reason (Математическая причина)
 
-Any [[Computer_programming|программа]] is a record of ==algorithm== on some
+Any [[Computer_programming|program]] is a record of ==algorithm== on some
 programming language.
+<!--SR:!2024-02-10,2,227-->
 
 Что такое алгоритм (фундаментальный уровень, конструктив) на самом деле никто в
 реальности не знает, поэтому и существуют теория вычислимости, теоретические
@@ -64,8 +65,9 @@ programming language.
 On very fundamental level algorithm no-one knows what it is, that's why we have
 [[Computational_problem|computational problems]], theoretical [[Computer_science]]
 
-Algorithm make transformation from set of [[Word|words]](chains of symbols over
-some alphabet) into the ==same set==.
+Algorithm make transformation from set of [[Word|words]] (chains of symbols over
+some alphabet) into the same ==set==.
+<!--SR:!2024-02-10,2,227-->
 
 For this transformation can exist more than one algorithm (countless) or not
 exist.
@@ -123,9 +125,10 @@ In C you haven't procedures, only functions. Even assignment, increment are
 arithmetic operations. And in C formally any actions (which is core of C) are
 creating [[Side_effect|side effect]].
 
-> Side effect can be appeared only occur when evaluating expression.
+> Side effect can be appeared only when evaluating expression.
 Side effect this is arbitrary change, which occurring when evaluating expression
 and then can be somehow ==detected==.
+<!--SR:!2024-02-10,2,227-->
 
 Unlike C, C++ and functional programming languages, in [[Pascal]] there mostly
 no side effects.
@@ -201,6 +204,7 @@ Here mostly general information about books and volumes.
 Main [[Computer|computer]] function is ==to compute==. In our time millions
 computing operations are wasted on information representation, then on actual
 calculations (low efficiency).
+<!--SR:!2024-02-10,2,227-->
 
 ### 1.1.1 Some history (1.1.1 Немного истории)
 
@@ -286,13 +290,15 @@ Colossus Mark I/II was a set of computers developed by British codebreakers in
 the years 1943–1945 to help in the cryptanalysis of the Lorenz cipher. But they
 are was destroyed after war (by Tommy Flowers, creator of these machines).
 
-A vacuum-tube computer, now termed a ==first-generation computer==, is a
+A vacuum-tube computer is a ==first==-generation computer, is a
 computer that uses vacuum tubes for logic circuitry.
+<!--SR:!2024-02-10,2,227-->
 
 Distinguishing by generation only electronic computers, not mechanical ones.
 
 First generation computers have one very important principle, principle of
 ==stored-program==.
+<!--SR:!2024-02-10,2,227-->
 
 Program stored in sequences of commands codes in the same memory same as data,
 memory is interchangeable or uniform, commands codes don't differ fundamentally.
