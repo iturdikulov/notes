@@ -278,6 +278,7 @@ supported cycle operations, but not conditional jumps.
 Z4 was like Z3, but supported conditional jumps.
 
 TODO: explain diode, triode, trigger
+https://www.youtube.com/playlist?list=PLnw98JPyObn1i3yJ2Q7A62cl2eVXoIPP0
 
 Vacuum tube next element to use in computers, it's glass bulb with electrodes
 and electric vacuum inside. Using 2 triodes you can build trigger, which can be
