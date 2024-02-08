@@ -59,6 +59,10 @@ Here I collect various inbox directories and services, which I need to check
 regularly. Main goal is get rid of entropy and use only 3 inboxes. But currently
 it's what I have:
 
+- TODO: validate how much data writing daily
+- Firefox profiles settings (about:config), at least `browser.sessionstore.interval`
+- Github and YouTube likes, subscriptions
+- Cloud storage (Google Drive, Yandex.Disk, etc...)
 - Review [[Dataview_maintenance_queries|dataview]] note.
 - Telegram saved messages, need to replace with something else. Can be replaced
 with Firefox bookmarks.
@@ -68,7 +72,7 @@ with Firefox bookmarks.
 - Downloads directory (mobile/desktop/tablet).
 - My old literature inbox: `~/Arts_and_Entertainment/literature/inbox/` need to
 clean-up.
-- Audion notes (mobile/tablet). Maybe I find some plugin in obsidian, which
+- Audio notes (mobile/tablet). Maybe I find some plugin in obsidian, which
 support audio to text conversion or build some workflow.
 - RNR tasks in [[Taskwarrior|taskwarrior]] and `project:inbox` tasks. Handled by
 taskwarrior CLI.
