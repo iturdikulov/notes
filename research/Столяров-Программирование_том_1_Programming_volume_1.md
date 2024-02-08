@@ -306,7 +306,7 @@ memory is interchangeable or uniform, commands codes don't differ fundamentally.
 Machines which meet this requirement are called ==Von Neumann architecture
 machines==.
 
-Compilers and interpreters are programs which can execute other programs and
+Compilers and interpreters are programs which can ==execute other programs== and
 without Vonn Neumann architecture (not invented by Vonn Neumann only) they can't
 exist (here used principle when program can be interpreted as data and another
 program can execute it).
@@ -359,7 +359,60 @@ of computer generation.
 > Magnetic-core memory was the predominant form of random-access computer memory
 > for 20 years between about 1955 and 1975. Such memory is often just called
 > core memory, or, informally, core.\
+>
+> Core memory uses toroids (rings) of a hard magnetic material (usually a
+> semi-hard ferrite). Each core stores one bit of information.
 > — <cite>[Magnetic-core memory - Wikipedia](https://en.wikipedia.org/wiki/Magnetic-core_memory)</cite>
+
+Computers which used solid electronic components (mainly transistors) called
+==second==-generation computers. They provide more possibilities, consume less
+electricity, are much smaller and mainly have more memory (since use different
+memory type).
+
+They are also much cheaper and can be used for commercial purposes.
+
+In 1953 created first full transistor machines and in 1954 IBM created first
+commercial computer - IBM 608 Transistor Calculator.
+
+Next third-generation computers used ==integrated circuits (ICs)== and at this
+point computers started producing massively, size was like small closet and
+aviability of computers was much higher.
+
+In 1971 Intel created one of first microprocessor (instead multiple ICs used
+only one for microprocessor) - Intel 4004, which was aviable on market.
+
+> The World's First Microprocessor was designed and developed from 1968-1970.
+> This site describes the design work for a MOS-LSI, highly integrated,
+> microprocessor chip set designed starting June 1968 and completed by June
+> 1970. This highly integrated computer chip set was designed for the US Navy
+> F14A “TomCat” fighter jet by Mr. Steve Geller and Mr. Ray Holt as part of a
+> design team while working for Garrett AiResearch Corp under contract from
+> Grumman Aircraft, the prime contractor for the US Navy. The MOS-LSI chips,
+> called the MP944, were manufactured by American Microsystems, Inc of Santa
+> Clara, California.\
+> — <cite>[First Microprocessor](https://firstmicroprocessor.com/)</cite>
+
+Microprocessors are start history of ==fourth==-generation of computers, which
+are current generation of computers.
+
+Modern computers used to processing any information, which possible to write
+and read in digital form (databases, text, sound, images, videos, tactile
+information, etc.).
+
+Supercomputers used for ==computationally intensive tasks==, mainly scientific
+calculations, simulations, etc.
+
+In mathematics, a function is a mathematical object that produces an ==output,
+when given an input== (which could be a number, a vector, or **anything** that
+can exist inside a set of things).
+
+Do computers compute any information?
+?
+Yes. They can compute numbers and any other information. Computers can process
+data (information) in specific determined form (binary code, chains of symbols
+in some alphabet or "text"). In this approach any information transformations
+are **functions** from one set of text into another set of text (sets have equal
+alphabet). And any information processing is function computing.
 
 ## References
 
