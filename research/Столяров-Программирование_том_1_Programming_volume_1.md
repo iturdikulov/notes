@@ -307,8 +307,59 @@ Machines which meet this requirement are called ==Von Neumann architecture
 machines==.
 
 Compilers and interpreters are programs which can execute other programs and
-without Vonn Neumann architecture they can't exist (here used principle when
-program can be interpreted as data and another program can execute it).
+without Vonn Neumann architecture (not invented by Vonn Neumann only) they can't
+exist (here used principle when program can be interpreted as data and another
+program can execute it).
+
+If you want to be programmer you need to play with it, this give you infinite
+motivation to learn programming and more importantly it's fun!
+
+Storing program in memory as instructions, saving a lot of time to change
+programs, you can load another one from external storage (tapes or cards) and
+storing data and program in same memory allowing interpreting data as ==another
+program== (allows creating compilers, OS, etc.).
+
+In same time in Great Britain was developed one of first computer to deal not
+only with calculations, LEO I (J. Lyons & Co.).
+
+> The LEO (Lyons Electronic Office) was a series of early computer systems
+> created by J. Lyons and Co. The first in the series, the LEO I, was the first
+> computer used for commercial business applications.\
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/LEO_\(computer\))</cite>
+
+Quotes of Ada Lovelace start become prophetic, object of computer programs can
+be information and mathematical field is not only field where computer can be
+used.
+
+Next revolution was inventing transistor (invented in 1947 by physicists John
+Bardeen, Walter Brattain, and William Shockley at Bell Labs), which much
+smaller, cheaper and working very similar (schematically) to vacuum triode.
+Transistor (like triode) has three contacts:
+
+TODO: review this after lamps section (above)
+- A bipolar junction transistor (BJT) has terminals labeled base, collector and
+emitter. A small current at the base terminal, flowing between the base and the
+emitter, can control or switch a much larger current between the collector and
+emitter.
+
+- A field-effect transistor (FET) has terminals labeled gate, source and drain.
+A voltage at the gate can control a current between source and drain.
+
+In analog electronics transistors and vacuum triodes used to signal
+amplification. TODO: explain effect.
+
+In digital circuits more important is ==control== effect of transistors than
+amplification, two transistors allowing you to build trigger (the current
+flowing through one transistor closes the second and vice versa).
+TODO: check https://en.wikipedia.org/wiki/Flip-flop_(electronics)
+
+Magnetic-core memory is second serious invention, which determineted the shift
+of computer generation.
+
+> Magnetic-core memory was the predominant form of random-access computer memory
+> for 20 years between about 1955 and 1975. Such memory is often just called
+> core memory, or, informally, core.\
+> — <cite>[Magnetic-core memory - Wikipedia](https://en.wikipedia.org/wiki/Magnetic-core_memory)</cite>
 
 ## References
 
