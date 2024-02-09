@@ -8,9 +8,9 @@ tags:
   - research
   - inbox
   - SR_programming
-sr-due: 2024-05-03
-sr-interval: 99
-sr-ease: 227
+sr-due: 2024-01-26
+sr-interval: 1
+sr-ease: 130
 directory:
   - ~/Computer/programming/Столяров-Программирование
 ---
@@ -413,6 +413,35 @@ data (information) in specific determined form (binary code, chains of symbols
 in some alphabet or "text"). In this approach any information transformations
 are **functions** from one set of text into another set of text (sets have equal
 alphabet). And any information processing is function computing.
+
+### 1.1.2 Processor, memory, bus (Процессор, память, шина)
+
+In [[Computer_architecture|computer architecture]] system bus (historically also
+called data highway or databus) is a communication system that ==transfers
+data== between components inside a computer, or between computers.
+
+Physically bus is many (tens) parallel wires.
+
+Main 3 components which connected to bus (computing) are:
+?
+To the bus connecting central processor unit (CPU), random access memory (RAM)
+and controllers.
+
+Main controllers work is to control computer devices.
+
+CPU through bus interact with other computer components.
+
+RAM and controllers is designed to ignore any information, which go through bus,
+except ==addressed== especially to specific RAM data bank or controller.
+
+Three main parts of system bus:
+?
+> A system bus is a single computer bus that connects the major components of a
+> computer system, combining the functions of a **data bus** to carry
+> information, an **address bus** to determine where it should be sent or read
+> from, and a **control bus** to determine its operation.\
+> — <cite>[System bus - Wikipedia](https://en.wikipedia.org/wiki/System_bus)</cite>
+![[System_bus.excalidraw]]
 
 ## References
 
