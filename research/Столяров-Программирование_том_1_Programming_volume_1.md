@@ -443,7 +443,7 @@ Three main parts of system bus:
 > information, an **address bus** to determine where it should be sent or read
 > from, and a **control bus** to determine its operation.\
 > — <cite>[System bus - Wikipedia](https://en.wikipedia.org/wiki/System_bus)</cite>
-![[System_bus.excalidraw]]
+![[img/System_bus.excalidraw]]
 
 Here my notes about how RAM is working:
 [[research/How_does_Computer_Memory_Work]]
@@ -486,11 +486,34 @@ CPU writing operations, usually need to use some interface, for example I²C
 ==persistent== memory.
 
 Usually EEPROM used to store special BIOS/UEFI (Unified Extensible Firmware
-Interface) program, which used to prepare and test computer hardware.
-This program is starting to execute when you power on computer, main task of it
-find where to boot operating system (OS), load it and give it control. All other
-tasks are concern of OS (run subprograms, virtual memory management, hardware
-access (internal/external) through drivers, etc.).
+Interface) program, which used to ==prepare (initialize) and test computer==
+hardware. This program is starting to execute when you power on computer, main
+task of it find where to boot operating system (OS), load it and give it
+control. All other tasks are concern of OS (run subprograms, virtual memory
+management, hardware access (internal/external) through drivers, etc.).
+
+Computer files is one of method to organize information (OS using filesystem
+organize it), usually computer files has filenames (which humans can understand).
+
+
+CPU is electrical scheme (in microprocessor form), the only work of it is to
+perform ==simple steps==.
+
+Main work with information carried out with ==registers==, each of them can
+store up to tens of bits.
+
+Processor can do following operations (==instruction set==):
+- read and write memory locations
+- arithmetic operations (`+`, `-`, `*`, `/`).
+- copy data between registers
+- service actions (for example jump to location and code execution)
+
+### 1.1.3 Operations principles of Central Processor (Принципы работы центрального процессора)
+
+![[img/computer_system.excalidraw]]
+
+Each elementary instruction, which CPU is performing has operation code or
+==machine code==.
 
 ## References
 
