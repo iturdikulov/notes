@@ -352,6 +352,7 @@ In digital circuits more important is ==control== effect of transistors than
 amplification, two transistors allowing you to build trigger (the current
 flowing through one transistor closes the second and vice versa).
 TODO: check https://en.wikipedia.org/wiki/Flip-flop_(electronics)
+<!--SR:!2024-02-11,2,185-->
 
 Magnetic-core memory is second serious invention, which determineted the shift
 of computer generation.
@@ -374,7 +375,7 @@ They are also much cheaper and can be used for commercial purposes.
 In 1953 created first full transistor machines and in 1954 IBM created first
 commercial computer - IBM 608 Transistor Calculator.
 
-Next third-generation computers used ==integrated circuits (ICs)== and at this
+Next third-generation computers used ==integrated circuits (IC's)== and at this
 point computers started producing massively, size was like small closet and
 aviability of computers was much higher.
 
@@ -394,6 +395,7 @@ only one for microprocessor) - Intel 4004, which was aviable on market.
 
 Microprocessors are start history of ==fourth==-generation of computers, which
 are current generation of computers.
+<!--SR:!2024-02-11,2,185-->
 
 Modern computers used to processing any information, which possible to write
 and read in digital form (databases, text, sound, images, videos, tactile
@@ -443,9 +445,57 @@ Three main parts of system bus:
 > — <cite>[System bus - Wikipedia](https://en.wikipedia.org/wiki/System_bus)</cite>
 ![[System_bus.excalidraw]]
 
+Here my notes about how RAM is working:
+[[research/How_does_Computer_Memory_Work]]
+
+From schematic perspective each wire can be in 2 positions, logical ==1 or 0==.
+Combinations of 0 and 1 make an address, and all devices except CPU working with
+bus only address bus equal to their address.
+
+Memory (RAM) consist of identical memory addressable locations, which constitute
+an addressable space. Which is $$2^{N}$$ addresses, where N is ==number of
+wires==.
+
+Modern hardware operates virtual addressing (virtual memory), it's different
+from physical addressing.
+
+Through data bus memory values usually transferred in parallel, for example we
+can read/write 32 bits of information from RAM in parallel (utilize multiple
+memory locations).
+
+DRAM can't work without electricity (power) and data lost without it (not
+completely, especially if RAM will be frozen at -60°С [^2]).
+
+Difference between persistent memory and volatile memory?
+?
+Opposite to Volatile memory (SRAM - CPU cache/registers, DRAM), persistent
+memory (SSD/HDD) is differnt, it can store data long time, without power. CPU
+can't work directly with it, required to use special controllers and computer
+programs (drives).
+
+Does CPU differentiate between persistent and volatile memory locations?
+?
+The CPU does not differentiate between persistent and volatile memory locations.
+The CPU interacts with different levels of memory hierarchy, which include both
+volatile and persistent memory components.
+
+Some memory blocks can be physically read-only, they're not supporting direct
+CPU writing operations, usually need to use some interface, for example I²C
+(Inter-Integrated Circuit) and SPI (Serial Peripheral Interface) for EEPROM
+(electrically erasable programmable read-only memory). Main advantage is
+==persistent== memory.
+
+Usually EEPROM used to store special BIOS/UEFI (Unified Extensible Firmware
+Interface) program, which used to prepare and test computer hardware.
+This program is starting to execute when you power on computer, main task of it
+find where to boot operating system (OS), load it and give it control. All other
+tasks are concern of OS (run subprograms, virtual memory management, hardware
+access (internal/external) through drivers, etc.).
+
 ## References
 
 [^1]: Lovelace, Ada; Menabrea, Luigi (1842). "Sketch of the Analytical Engine
     invented by Charles Babbage Esq". _[Scientific Memoirs][]_. Richard Taylor:
 1. [Scientific Memoirs]: https://en.wikipedia.org/wiki/Scientific_Memoirs
 "Scientific Memoirs"
+[^2]: Section 7. [Secure Deletion of Data from Magnetic and Solid-State Memory](https://www.cs.auckland.ac.nz/~pgut001/pubs/secure_del.html)
