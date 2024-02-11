@@ -4,7 +4,7 @@ tags:
   - inbox
   - SR_computer_science
   - SR_mathematics
-sr-due: 2024-01-28
+sr-due: 2024-01-26
 sr-interval: 1
 sr-ease: 184
 ---
