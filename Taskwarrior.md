@@ -28,6 +28,22 @@ Features:
 
 Some general notes available in @DiveIntoTaskwarriorTomasBabej.
 
+NixOS task service provide good command to generate script, which can be used to
+import required credentials [^1]:
+
+```
+nixos-taskserver user export organization user > user_config.sh
+# import this somewhere
+sh user_config.sh
+
+# adjust server settings
+taskd.server=your-server.com:53589
+
+# initialize sync and sync
+task init sync
+task sync
+```
+
 ## References
 
 - [ ] `man task`
@@ -37,3 +53,6 @@ Some general notes available in @DiveIntoTaskwarriorTomasBabej.
 - [ ] [Taskwarrior - 30-Second Tutorial](https://taskwarrior.org/docs/30second.html)
 - [ ] [Taskwarrior - Usage Examples](https://taskwarrior.org/docs/examples/)
 - [ ] [Taskwarrior - Best Practices](https://taskwarrior.org/docs/best-practices/)
+
+[^1]: [Taskwarrior - Kunzelma Wiki](https://wiki.kunzelma.de/taskwarrior/)
+
