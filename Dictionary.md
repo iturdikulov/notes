@@ -25,14 +25,17 @@ meaning of words.
 
 ## Words which I search through Sdcv (inbox for future flashcards)
 
-- Computer::`[kəmˈpjuːtə]` компьютер, расчетчик, вычислительный
-- R&D::research and development - исследования и разработки, научно-исследовательский и опытно-конструкторский
-- research
+- computer::`[kəmˈpjuːtə]` компьютер, расчетчик, вычислительный; Our sales information is processed by computer.
+- R&D::research and development - исследования и разработки, научно-исследовательский и опытно-конструкторский; Imagine that your company has two departments: Research and Development.
+- research::`[ɹəˈsɜːtʃ]` (научное) исследование, изыскание, изучение, анализ; "The student researched the history of that word".
 - development
-- abnormal::`[æbˈnɔːməl]` ненормальный, неправильный, аномальный, анормальный, непредусмотренный (comp.)
+- abnormal::`[æbˈnɔːməl]` ненормальный, неправильный, аномальный, анормальный, непредусмотренный (comp.);
 - actor::`[ˈæktər]` актёр, деятель, участник, личность, действующий субъект (comp.)
+<!--SR:!2024-02-13,1,232-->
 - adequate::`[ˈæd.ʌ.kwɪt]` адекватный, соответствующий, достаточный (The food was adequate for all of us).
+<!--SR:!2024-02-13,1,232-->
 - admission::`[ədˈmɪʃ(ə)n]` допущение (an acknowledgment of the truth of something), принятие; приём (в учебное заведение, клуб, общество), вход, доступ
+<!--SR:!2024-02-13,1,232-->
 - afternoon
 - agnostic
 - aims
@@ -237,7 +240,7 @@ meaning of words.
 - ramp
 - along
 - запас
-- 
+-
 - consider
 - consider
 - conscern
@@ -274,3 +277,6 @@ meaning of words.
 - осуществляется
 - тонкости
 - cons
+- обособленная
+- research
+- computer
