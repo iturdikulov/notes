@@ -54,19 +54,19 @@ scalable.
 
 # Cover /1
 
-Not superior, but looks good enough.
+Not superior, but looks good enough. Font little inaccuracy, but it's ok.
 
 # Table of Contents /7
 
 In this book it's actually Contents.
 
 Data structures (which make me more happy, haha), intro to algorithms, big O
-with logarithms!), speed-up and optimize, big O in everyday code, blazing fast
+(with logarithms!), speed-up and optimize, big O in everyday code, blazing fast
 lookup, elegant stack/queues, recursion, dynamic programming, recursive
 algorithms, node-based data structures, binary search trees, heaps, tries?,
 graphs, space constraints, code optimizations.
 
-WOW this looks great. Unfortunately, I have no idea what about half of these,
+This looks great. Unfortunately, I have no idea what about third of these,
 but I WILL UNDERSTAND it ☕.
 
 # Preface /14
@@ -84,34 +84,28 @@ about them and what you will learn.
 
 This book is for me, self-taught programmer, who want to make his work better.
 
--   write better software (reduce entropy)
--   this book help to understand how to write better software and not use a lot of
-    math jargon, use common-sense language + a lot of diagrams
--   with this knowledge you will to be able to write fast, efficient and elegant
-    code
--   this book for me!
--   this book is updated and revisited (2nd edition)
--   this book blends theory with practice
--   knowledge of data structures and algorithms can reduce entropy in your code
--   explain recursion and dynamic programming (?)
--   book contains exercises and solutions
+- this book help to understand how to write better software and not use a lot of
+  math jargon, use common-sense language + a lot of diagrams
+- with this knowledge you will to be able to write fast, efficient and elegant
+  code
+- this book blends theory with practice, exercises in every chapter
+- knowledge of data structures and algorithms can reduce entropy in your code
+- explain recursion and dynamic programming
 
 This book give answers to questions like:
 
--   why data structures matter?
--   why algorithms matter?
--   Big O notation? ...
+- why data structures matter?
+- why algorithms matter?
+- Big O notation? ...
 
 I need to read this book in order.
 
 Some definitions are simplified, but they can be explained in more detail at the
 end.
 
-This book use mix of languages: JavaScript, Python, Ruby and pseudocode. Which
-is good 😀.
+This book use mix of languages: JavaScript, Python, Ruby and pseudocode.
 
 Contacts:
-
 ```
 Jay Wengrow
 jay@actualize.co
@@ -126,23 +120,19 @@ Why?
 
 Because **efficiency**, you can write efficient or inefficient code. sort of
 productive or unproductive code... For me unproductive means increase entropy of
-system. Which I hate. Because programs must run fast... Efficient code looks even
-better, easily to maintain and use in every-day life.
+system. Which I hate. Because programs must run fast... Efficient code looks
+even better, easily to maintain and use in every-day life.
 
 First step in writing fast code is to understand what data structures are and
 how different data structures can affect to speed of our code.
 
-Array? Data structure operations? Measuring speed? Reading
-operation? Searching operation? Insertion operation? Deletion operation? Sets?
-And why single rule can affect efficiency? Exercises.
-
 ## Data Structures /23
 
-Notes leaved here [[Data_structure]].
+Notes leaved here [[Data_structure|data structure]].
 
 ## The Array: The Foundational Data Structure /24
 
-Some information about arrays: [[Array]]
+Some information about [[Array|arrays]]
 
 ## Measuring Speed /25
 
