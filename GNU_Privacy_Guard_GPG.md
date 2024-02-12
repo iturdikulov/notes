@@ -34,6 +34,13 @@ sr-ease: 232
 You can generate GPG key with `gpg --generate-key` command.
 Or `gpg --full-generate-key --expert` for more options.
 
+If you use NixOS installer, you may need to temporarily install GnuPG and
+`pinentry-curses`:
+```
+nix-shell -p gnupg pinentry-curses
+gpg --pinentry-mode loopback ...
+```
+
 To check GPG keys, installed on your system run `gpg --list-key`.
 
 To export public key with specific email,
@@ -60,8 +67,13 @@ a machine with a subkey is harmed, you can easily revoke the subkey without
 all the hassles of revoking your primary key (sharing a new key, getting
 new signatures, ...).
 
-Usually master key can have only this access rights: `C` (Certify), `S`
-(Sign) and subkeys can have `E` (Encrypt), `A` (Authenticate).
+Usually master key can have only this access rights:
+ - `C` (Certify)
+ - `S` (Sign)
+
+Subkeys can have:
+ - `E` (Encrypt)
+ - `A` (Authenticate)
 
 Having different subkeys on different machines, for example a signing
 subkey on a build server. Again, revoking single keys is easy.
@@ -312,8 +324,7 @@ use the same as your GPG master password.
 
 ## Offline master key strategy
 
-Credits (used as inspiration): [Using an offline GnuPG master
-key](https://incenp.org/notes/2015/using-an-offline-gnupg-master-key.html).
+Based on guide, how to manage primary GnuPG key offline [^1].
 
 1. Store your master key on some offline resources, such as USB stick (for
 example in encrypted container). To achieve this you can export your keys
@@ -357,6 +368,7 @@ cp sub-key.asc /media/storage/ # copy sub-key to storage
 
 ## References
 
+- [^1]: [Using an offline GnuPG master key](https://incenp.org/notes/2015/using-an-offline-gnupg-master-key.html).
 - [Keybase is secure messaging and file-sharing.](https://keybase.io)
 - [An abridged guide to using ed25519 PGP keys with GnuPG and SSH](https://musigma.blog/2021/05/09/gpg-ssh-ed25519.html)
 - [GPG Keys - Create & Use](https://thanoskoutr.com/posts/gpg-keys-configure/)
