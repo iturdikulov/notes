@@ -564,26 +564,134 @@ What is used to organize information storing (on storage for humans)?
 Computer files is one of method to organize information (OS using filesystem
 organize it), usually computer files has filenames (which humans can understand).
 
+### 1.1.3 Operations principles of Central Processor (Принципы работы центрального процессора)
+
 CPU is electrical scheme (in microprocessor form), the only work of it is to
 perform ==simple steps, instructions==.
 
-Main work with information (for CPU) carried out with ==registers==, each of
-them can store up to tens of bits.
+Main work with information (for CPU) carried out with
+==registers, fast storage==, each of them can store up to tens of bits.
 <!--SR:!2024-02-14,2,182-->
 
 Processor can do following operations (==instruction set==):
 - read and write memory locations
-- arithmetic operations (`+`, `-`, `*`, `/`).
+- arithmetic operations (`+`, `-`, `*`, `/`) through Arithmetic logic unit
+(ALU).
 - copy data between registers
 - service actions (for example jump to location and code execution)
 
-### 1.1.3 Operations principles of Central Processor (Принципы работы центрального процессора)
+![[img/Computer_system.excalidraw]]
 
-![[img/computer_system.excalidraw]]
-
-Each elementary instruction, which CPU is performing has operation code or
-==machine code==.
+Each elementary instruction, which CPU is performing (it also CPU main goal) has
+operation code or ==machine code==.
 <!--SR:!2024-02-14,2,182-->
+
+How basically CPU instruction cycle is working?
+?
+Main parts of CPU instructions cycle (fetch-decode-execute cycle):
+- Instruction pointer or program counter (IP/PC, special register) store address
+(memory location) of next instruction to execute (by default usually program
+start location).
+- We get address from PC and read instruction from this address (memory
+location(s))
+- CPU increment PC value, which depends on command size (for example +3)
+- CPU decode instruction code and execute it
+- Goto cycle start
+
+Some machine codes can change the instruction sequence, for example jump to
+specific program place. This machine codes are called ==branch== instructions.
+
+==Branch== instructions are used to implement control flow in program loops and
+conditionals (i.e., executing a particular sequence of instructions only if
+certain conditions are satisfied).
+
+A branch instruction can be either an unconditional branch, which always results
+in branching (CPU continue to execute instructions from specific address), or a
+==conditional== branch, which may or may not cause branching depending on some
+condition.
+
+CPU also support branch instruction which remembers ==return point==, which used
+to cal subroutines (RET).
+
+### 1.1.4. Peripheral devices (Внешние устройства)
+
+CPU and memory is core of computer, but without peripheral devices computer is
+not usable.
+
+In early times all devices connected directly into CPU, but this is not easy to
+maintain (almost impossible), each day here new devices, and you need somehow
+support them and physically change your processor. To solve this issues,
+invented ==system bus== (which described above).
+
+External peripheral devices connecting into system bus through ==controllers==.
+This is electronic circuit which can interact through system bus with CPU.
+
+Typical scheme of controller interaction with CPU:
+?
+```plantuml
+@startuml
+
+class Device
+class Controller
+class System_Bus
+class CPU
+
+Device <-> Controller: Data flow
+
+Controller <-> System_Bus: Data flow
+
+System_Bus <-> CPU: Data flow
+
+@enduml
+```
+
+From CPU perspective all controllers are same, they interact in same way
+(==read/write== commands).
+
+Sometimes (on certain architectures) controllers and memory locations (DRAM for
+example) use same address space, this means for CPU no any difference between
+controller and memory location (Memory-mapped I/O, MMIO), but usually controllers has own address space,
+in this case talking about port-mapped I/O (PMIO).
+
+> Port-mapped I/O often uses a special class of CPU instructions designed
+> specifically for performing I/O, such as the in and out instructions found on
+> microprocessors based on the x86 architecture.\
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Memory-mapped_I/O_and_port-mapped_I/O)</cite>
+
+One controller can use multiple I/O ports, so it can respond from different I/O
+addresses.
+
+Difference of Read/Write operations for memory and controllers.
+?
+Controllers Read/Write operations is almost working same as memory Read/Write
+operations, but controllers not actually reading/writing information, instead
+on write operation they interpret it as some action and on read operation they
+provide some controller state (is operation complete, is controller ready to
+execute next operation, is here any errors, etc.).
+
+What instructions and their code's controller supporting, how many ports it's
+supporting, CPU doesn't know, and to work with controller need to use special
+program, which called ==driver==.
+
+When CPU executes ==driver== program, it gives I/O (write/read) commands of its
+controller, to solve assigned tasks.
+
+Usually drivers are part of OS, or can be loaded by OS.
+
+How program actually write data on disk (detailed answer)?
+?
+For example user started some program and this program need to write some data
+into some file on drive, in this case will be executed following sequence:
+- program refer to the OS, with writing data into some file request
+- OS compute address of file on disk
+- OS will interact with driver (which is isolated part of OS), and will request
+to write some data into some place on disk
+- After that driver, which knows possibilities of disk controller, will do few
+writing operations into I/O ports, controller will start writing operations
+- Then driver after doing reading operations from ports will get writing
+operations results and return them to OS.
+
+### 1.1.5. Hierarchy of storage devices (Иерарахия запоминающих устройств)
 
 ## References
 
