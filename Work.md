@@ -42,9 +42,12 @@ In my work significantly help my [[Development_Environment]], [[Backup]]
 plan and daily [[Maintenance]], with attention to [[Computer_security]]
 practices.
 
-Currently, I'm working now as a software engineer in a small company
+Currently, I'm working now as a full-stack software engineer in a small company
 (remote, full-stack position, but moving into [[Backend|backend]]
 position).
+
+I also use various [[My_awesome_software_list|software]] and
+[[My_awesome_web_services_list|services]] in my work.
 
 ## Goals
 
