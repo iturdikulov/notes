@@ -29,5 +29,6 @@ List of awesome [[Python]] frameworks, libraries, software and resources.
 
 ## References
 
+- [awesome-python-typing](https://github.com/typeddjango/awesome-python-typing)
 - [A curated list of awesome Python frameworks, libraries, software and resources](https://github.com/vinta/awesome-python)
 
