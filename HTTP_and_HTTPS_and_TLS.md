@@ -41,6 +41,7 @@ sr-ease: 248
 
 ## References
 
+- [ ] [A declaration of war on the HTTP of Shit «  The Tar Pit](http://thetarpit.org/2017/https-war-declaration)
 - [ ] [Как мы TLS Fingerprint обходили… / Habr](https://habr.com/en/articles/596411/)
 - [ ] [HTTP Crash Course & Exploration - YouTube](https://www.youtube.com/watch?v=iYM2zFP3Zn0)
 - [ ] [HTTP | MDN](https://developer.mozilla.org/en-US/docs/Web/HTTP)
