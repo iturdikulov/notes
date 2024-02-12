@@ -49,6 +49,9 @@ My outline for learning [[Computer_graphics|computer graphics]].
 - [[research/Trammell-HUMAN_Realistic_Portrait_With_Blender]]
 - [[research/Tuytel_and_Rahman-Creating_3D_Environments]]
 
+- [Creating Realistic 3D Water in Blender](https://www.youtube.com/watch?v=vr7mkSiKRLM)
+
+
 ## Web graphics
 
 - [Build a 3D Portfolio Website with Three.js](https://youtu.be/Q7AOvWpIVHU)
