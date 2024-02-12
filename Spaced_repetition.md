@@ -22,6 +22,7 @@ Right now I'm using [[Obsidian]] plugin
 [spaced repetition](https://www.stephenmwangi.com/obsidian-spaced-repetition/)
 and various note types to generate flashcards. I also use it to select current
 notes to work.
+TODO: describe how I use it (reviewing notes)
 
 ## Hotkeys
 
