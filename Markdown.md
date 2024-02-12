@@ -85,19 +85,19 @@ Formatting:
 
 | foo | bar |
 | --- | --- |
-| baz | bim |
+| bar | foo |
 
 ```markdown
 | foo | bar |
 | --- | --- |
-| baz | bim |
+| bar | foo |
 ```
 
 Minimal syntax:
 
 | foo | bar |
 | --- | --- |
-| baz | bim |
+| bar | foo |
 
 ```markdown
 |foo|bar|
