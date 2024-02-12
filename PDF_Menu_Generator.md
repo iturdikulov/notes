@@ -10,7 +10,7 @@ sr-ease: 248
 
 # PDF Menu Generator
 
-My personal project, client-side PDF generator from HTML table with some inputs
-and other controls.
+My personal project, client-side [[PDF_Menu_Generator|PFD]] generator from HTML
+table with some inputs and other controls.
 
 
