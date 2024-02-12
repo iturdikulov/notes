@@ -10,6 +10,8 @@ sr-ease: 217
 
 # My editing workflow
 
+TODO: remove when I merge it with [[[Neovim]]
+
 p* - pycharm only
 n* - neovim only
 
