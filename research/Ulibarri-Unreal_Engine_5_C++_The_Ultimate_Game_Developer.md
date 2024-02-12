@@ -737,3 +737,7 @@ Information about discord and QA:
 - [0:19:52](<file:///home/inom/Computer/graphics/Ulibarri-Unreal_Engine_5_C++_The_Ultimate_Game_Developer/2. Realistic Landscapes/5. 11 - Landscape Material.mp4>)
   Adjust brush size, select layer and try to paint, adjust `Brush Falloff` if
   required.
+
+## Landscape Painting
+
+
