@@ -57,7 +57,7 @@ Reasons why Unix is the most suitable OS for learning programming:
 
 Any [[Computer_programming|program]] is a record of ==algorithm== on some
 programming language.
-<!--SR:!2024-02-10,2,227-->
+<!--SR:!2024-02-13,1,207-->
 
 On very fundamental level no-one knows what algorithm it is, that's why we have
 [[Computational_problem|computational problems]], and theoretical
@@ -67,7 +67,7 @@ Algorithm make transformation from set of [[Word|words]] (chains of symbols over
 some alphabet) into the same ==set==.
 For this transformation can exist more than one algorithm (countless) or not
 exist.
-<!--SR:!2024-02-10,2,227-->
+<!--SR:!2024-02-18,6,227-->
 
 Algorithm is such a "thing" which read input word, do something **constructive**
 and return another word.
@@ -101,6 +101,7 @@ programming with making GUI (focusing on UI, not a program logic), which is bad
 idea. It can traumatize student mindset, and he will have many problems to
 relearn programming in future (if he can do it) and think programming is boring
 process (will not know what he lost).
+<!--SR:!2024-02-13,1,162-->
 
 ### Language determines thinking (Язык определяет мышления)
 
@@ -121,11 +122,13 @@ Why learning C as first programming language is not so good?
 ?
 C as first programming language is not suitable, you need to understand pointers
 first and work with them (and it's hard).
+<!--SR:!2024-02-13,1,162-->
 
 Why knowing language on fundamental level is important?
 ?
 Understanding code as "magic commands" is not good for good programmers, you
 need to understand code on very low level to create truly effective programs.
+<!--SR:!2024-02-13,1,162-->
 
 In C you haven't procedures, only functions. Even assignment, increment are
 arithmetic operations. And in C formally any actions (which is core of C) are
@@ -134,7 +137,7 @@ creating [[Side_effect|side effect]].
 > Side effect can be appeared only when evaluating expression.
 Side effect this is arbitrary change, which occurring when evaluating expression
 and then can be somehow ==detected==.
-<!--SR:!2024-02-10,2,227-->
+<!--SR:!2024-02-17,5,227-->
 
 Unlike C, C++ and functional programming languages, in [[Pascal]] there mostly
 no side effects.
@@ -162,6 +165,7 @@ programming?
 ?
 Not really. You learn not Pascal, you learn programming by using Pascal, and you
 can omit some Pascal specific features.
+<!--SR:!2024-02-14,2,182-->
 
 Why need to learning Assembly language (at least basics)?
 ?
@@ -183,6 +187,7 @@ semaphores, critical sections, etc.
 First who created things which works on their own (automatically) are watch
 mechanics. XVIII century - Jaquet-Droz ==automata== (most complex is penman,
 containing 6000 details).
+<!--SR:!2024-02-14,2,182-->
 
 ![Jaquet Droz The Writer Automaton From 1774 In Action](https://www.youtube.com/watch?v=ux2KW20nqHU)
 _Jaquet Droz The Writer Automaton From 1774 In Action_
@@ -194,6 +199,7 @@ combination of many different skills, finances and physical labor.
 With programmable computers you can avoid ==material== requirements to make
 something useful and great. Program itself is finished product. Programming is
 the most creative profession in engineering and technical professions.
+<!--SR:!2024-02-14,2,182-->
 
 What is 2 main things which are important for programmer?
 ?
@@ -221,16 +227,17 @@ Here mostly general information about books and volumes.
 Main [[Computer|computer]] function is ==to compute==. In our time millions
 computing operations are wasted on information representation, then on actual
 calculations (low efficiency).
-<!--SR:!2024-02-10,2,227-->
+<!--SR:!2024-02-17,5,227-->
 
 ### 1.1.1 Some history (1.1.1 Немного истории)
 
-First computing machine is mechanical ==adding machine== of Wilhelm Schickard,
-1623. But before it Leonardo da Vinci created some sketches of computing
-mechanism.
+First computing machine is mechanical ==calculating clock== of Wilhelm
+Schickard, 1623. But before it Leonardo da Vinci created some sketches of
+computing mechanism.
 
 Most old working computing machine is Pascal's ==adding machine== (pascaline),
 1642.
+<!--SR:!2024-02-13,1,162-->
 
 ![Additionner avec la réplique de la Pascaline 1645 - YouTube](https://www.youtube.com/watch?v=GX4RQK__fQc)
 ![How the Pascaline Works - YouTube](https://www.youtube.com/watch?v=3h71HAJWnVU)
@@ -257,11 +264,13 @@ In 1673 Gottfried Wilhelm Leibniz created calculating machine, with supported
 
 General property (disadvantage) of arithmometer is it can't do calculations
 without ==human help==, if you need to do more than one operation.
+<!--SR:!2024-02-14,2,182-->
 
 1823 Charles Babbage started working on difference engine, which can do
 calculations using method of ==divided differences==, but he failed to finish
 it. George Scheutz created working difference engine in 1843, by using Babbage's
 ideas.
+<!--SR:!2024-02-13,1,162-->
 
 But Babbage's main idea was ==analytical== engine, which can do any
 calculations. So he invited idea of programmable machines, data transferring
@@ -269,7 +278,7 @@ from one data storage into another and actions depending on analyze results
 (compare for example).
 
 Ada Lovelace - translated Babbage's analytical machine notes and added detailed
-comments. In one of these comments she provided full set of commands to
+comments. In one of these comments (Note G) she provided full set of commands to
 calculate Bernoulli numbers on analytical machine - this set of commands is
 considered as first in history computer program, and Ada Lovelace is often
 called ==first programmer==.
@@ -289,6 +298,7 @@ First full mechanical programmable computer?
 ?
 1938 Konrad Zuse created Z1, first full mechanical programmable computer
 (electricity used only in motor). Z1 used [[Binary_number|binary]] logic.
+<!--SR:!2024-02-14,2,182-->
 
 Z2 used same mechanics but used electrical relay circuits for computational
 operating. As Z1 it used perforated tape to execute program (instructions).
@@ -308,15 +318,18 @@ Vacuum tube is next element after mechanics to use in computers, it's glass bulb
 with electrodes and electric vacuum inside. Using 2 triodes you can build
 trigger, which can be used to store information and as base block to build logic
 gates.
+<!--SR:!2024-02-14,2,182-->
 
 One of first programmable computers (electrical) was ==ENIAC==, which used
 17,468 vacuum tubes. It was created by John Mauchly and J. Presper Eckert in
 1946.
+<!--SR:!2024-02-15,3,202-->
 
 Colossus Mark I/II was a set of computers developed by ==British== codebreakers
 in the years 1943–1945 to help in the cryptanalysis of the Lorenz cipher. But
 they are was destroyed after war (by Tommy Flowers, creator of these machines)
 on Winston Churchill's order.
+<!--SR:!2024-02-15,3,202-->
 
 
 #### Computer generations
@@ -325,25 +338,28 @@ Distinguishing by generation only electronic computers, not mechanical ones.
 
 A vacuum-tube computer is a ==first==-generation computer, is a
 computer that uses vacuum tubes for logic circuitry.
-<!--SR:!2024-02-10,2,227-->
+<!--SR:!2024-02-17,5,227-->
 
 First generation computers have one very important principle, principle of
 ==stored-program==.
-<!--SR:!2024-02-10,2,227-->
+<!--SR:!2024-02-17,5,227-->
 
 Program stored in sequences of commands codes in the same memory same as data,
 memory is interchangeable or uniform, commands codes don't differ fundamentally.
 Machines which meet this requirement are called
 ==Von Neumann architecture machines (not invented by Vonn Neumann only)==.
+<!--SR:!2024-02-14,2,182-->
 
 Compilers and interpreters are programs which can ==execute other programs== and
 without Vonn Neumann architecture they can't exist (here used principle when
 program can be interpreted as data and another program can execute it).
+<!--SR:!2024-02-14,2,182-->
 
 What useful computer illness is?
 ?
 If you want to be programmer you need to play with computers, this give you
 infinite motivation to learn programming and more importantly it's fun!
+<!--SR:!2024-02-14,2,182-->
 
 Storing program in memory as instructions, saving a lot of time to change
 programs, you can load another one from external storage (tapes or cards) and
@@ -362,6 +378,7 @@ Co.).
 Quotes of Ada Lovelace start become prophetic, object of computer programs can
 be information and mathematical field is not only field where computer can be
 used.
+<!--SR:!2024-02-14,2,182-->
 
 Next revolution after vacuum tubes was inventing ==transistor== (invented in
 1947 by physicists John Bardeen, Walter Brattain, and William Shockley at Bell
@@ -384,7 +401,7 @@ In digital circuits more important is ==control== effect of transistors than
 amplification, two transistors allowing you to build trigger (the current
 flowing through one transistor closes the second and vice versa).
 TODO: check https://en.wikipedia.org/wiki/Flip-flop_(electronics)
-<!--SR:!2024-02-11,2,185-->
+<!--SR:!2024-02-16,4,185-->
 
 Magnetic-core memory is second serious invention, which determineted the shift
 of computer generation (with transistors).
@@ -428,7 +445,7 @@ only one for microprocessor) - Intel 4004, which was aviable on market.
 
 Microprocessors are start history of ==fourth==-generation of computers, which
 are current generation of computers.
-<!--SR:!2024-02-11,2,185-->
+<!--SR:!2024-02-18,6,205-->
 
 What information modern computers can process?
 ?
@@ -450,12 +467,14 @@ data (information) in specific determined form (binary code, chains of symbols
 in some alphabet or "text"). In this approach any information transformations
 are **functions** from one set of text into another set of text (sets have equal
 alphabet). And any information processing is function computing.
+<!--SR:!2024-02-13,1,162-->
 
 ### 1.1.2 Processor, memory, bus (Процессор, память, шина)
 
 In [[Computer_architecture|computer architecture]] system bus (historically also
 called data highway or databus) is a communication system that
 ==transfers data== between components inside a computer, or between computers.
+<!--SR:!2024-02-13,1,162-->
 
 Physically bus is many (tens) ==parallel wires==.
 
@@ -465,11 +484,13 @@ To the bus connecting central processor unit (CPU), random access memory (RAM)
 and controllers.
 
 Main controllers work is to control computer ==devices==.
+<!--SR:!2024-02-14,2,182-->
 
 CPU through ==bus== interact with other computer components.
 
 RAM and controllers is designed to ignore any information, which go through bus,
 except ==addressed== especially to specific RAM data bank or controller.
+<!--SR:!2024-02-14,2,182-->
 
 Three main parts of system bus:
 ?
@@ -484,13 +505,15 @@ Here my notes about how RAM is working:
 [[research/How_does_Computer_Memory_Work]]
 
 From schematic perspective each wire can be in 2 positions, logical ==1 or 0==.
+<!--SR:!2024-02-14,2,182-->
 
 Combinations of 0 and 1 make an address, and all devices except CPU working with
 bus only when address from bus ==equal to their address==.
+<!--SR:!2024-02-14,2,182-->
 
 Memory (RAM) consist of identical memory addressable locations, which constitute
 an addressable space. Which is $$2^{N}$$ addresses, where N is
-==number of wires==.
+==number of wires or bus size==.
 
 Modern hardware operates by using virtual addressing memory (virtual memory),
 it's different from physical addressing.
@@ -500,9 +523,11 @@ Is data is transferring in data bus in parallel?
 Through data bus memory values usually transferred in parallel, for example we
 can read/write 32 bits of information from RAM in parallel (utilize multiple
 memory locations).
+<!--SR:!2024-02-14,2,182-->
 
 DRAM can't work without ==electricity (power)== and data lost without it (not
 completely, especially if RAM will be frozen at -60°С [^2]).
+<!--SR:!2024-02-14,2,182-->
 
 Difference between persistent memory and volatile memory?
 ?
@@ -510,18 +535,21 @@ Opposite to Volatile memory (SRAM - CPU cache/registers, DRAM), persistent
 memory (SSD/HDD) is differnt, it can store data long time, without power. CPU
 can't work directly with it, required to use special controllers and computer
 programs (drives).
+<!--SR:!2024-02-13,1,162-->
 
 Does CPU differentiate between persistent and volatile memory locations?
 ?
 The CPU does not differentiate between persistent and volatile memory locations.
 The CPU interacts with different levels of memory hierarchy, which include both
 volatile and persistent memory components.
+<!--SR:!2024-02-14,2,182-->
 
 Some memory blocks can be physically read-only, they're not supporting direct
 CPU writing operations, usually need to use some interface, for example I²C
 (Inter-Integrated Circuit) and SPI (Serial Peripheral Interface) for EEPROM
 (electrically erasable programmable read-only memory). Main advantage is
 ==persistent== memory.
+<!--SR:!2024-02-14,2,182-->
 
 Usually EEPROM used to store special BIOS/UEFI (Unified Extensible Firmware
 Interface) program, which used to ==prepare (initialize) and test computer==
@@ -529,8 +557,9 @@ hardware. This program is starting to execute when you power on computer, main
 task of it find where to boot operating system (OS), load it and give it
 control. All other tasks are concern of OS (run subprograms, virtual memory
 management, hardware access (internal/external) through drivers, etc.).
+<!--SR:!2024-02-14,2,182-->
 
-What is used to organize information storing?
+What is used to organize information storing (on storage for humans)?
 ?
 Computer files is one of method to organize information (OS using filesystem
 organize it), usually computer files has filenames (which humans can understand).
@@ -540,6 +569,7 @@ perform ==simple steps, instructions==.
 
 Main work with information (for CPU) carried out with ==registers==, each of
 them can store up to tens of bits.
+<!--SR:!2024-02-14,2,182-->
 
 Processor can do following operations (==instruction set==):
 - read and write memory locations
@@ -553,6 +583,7 @@ Processor can do following operations (==instruction set==):
 
 Each elementary instruction, which CPU is performing has operation code or
 ==machine code==.
+<!--SR:!2024-02-14,2,182-->
 
 ## References
 
