@@ -11,7 +11,8 @@ sr-ease: 263
 
 # Sioyek
 
-> Sioyek is a PDF viewer with a focus on technical books and research papers.\
+> Sioyek is a [[Portable_document_format_PDF|PDF]] viewer with a focus on
+> technical books and research papers.\
 > — <cite>[Sioyek](https://sioyek.info/)</cite>
 
 Key features for me:
