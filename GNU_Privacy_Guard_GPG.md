@@ -251,6 +251,12 @@ Note that keyserver.ubuntu.com is only reachable via IPv4.
 
 ## Test GnuPG
 
+You can quickly test encrypt/decrypt commands with this command:
+```
+echo "test"|gpg -r example@domain.tld --encrypt|gpg --decrypt --no-comment -q --no-verbose
+# output should be "test"
+```
+
 A useful gpg option to experiment is `--homedir`:
 
 ```sh
