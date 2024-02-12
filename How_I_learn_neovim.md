@@ -46,8 +46,8 @@ TODO: broken link
 - [ ] [Harpoon : Vim Conference 2021 - YouTube](https://youtu.be/Qnos8aApa9g)
 - [ ] [Learning Vim and Vimscript](https://github.com/iggredible/Learn-Vim)
 - [x] [How to Vim in 2023: Tips and Tricks - YouTube](https://www.youtube.com/watch?v=FrMRyXtiJkc)
-- [x] [Setup nvim-lspconfig + nvim-cmp | Devlog](https://vonheikemen.github.io/devlog/tools/setup-nvim-lspconfig-plus-nvim-cmp/)
-- [x] [@DebuggingInNe] Debugging In Neovim (ft BashBunni and TJ DeVries) - YouTube
+- [ ] [Setup nvim-lspconfig + nvim-cmp | Devlog](https://vonheikemen.github.io/devlog/tools/setup-nvim-lspconfig-plus-nvim-cmp/)
+- [ ] [@DebuggingInNe] Debugging In Neovim (ft BashBunni and TJ DeVries) - YouTube
 
 
 - [ ] [Vim Cheat Sheet](http://jrmiii.com/attachments/Vim.pdf)
@@ -69,7 +69,7 @@ TODO: broken link
 
 - [ ] [GitHub - ThePrimeagen/refactoring.nvim: The Refactoring library based off the Refactoring book by Martin Fowler](https://github.com/ThePrimeagen/refactoring.nvim)
 - [ ] [GitHub - lsyncd/lsyncd: Lsyncd (Live Syncing Daemon) synchronizes local directories with remote targets](https://github.com/lsyncd/lsyncd)
-- [-] [GitHub - chrishrb/gx.nvim: Implementation of gx without the need of netrw](https://github.com/chrishrb/gx.nvim), not useful for me
+- [ ] [GitHub - chrishrb/gx.nvim: Implementation of gx without the need of netrw](https://github.com/chrishrb/gx.nvim), not useful for me
 - [ ] [How can I make the Neovim terminal run the current file in Python? - Vi and Vim Stack Exchange](https://vi.stackexchange.com/questions/15431/how-can-i-make-the-neovim-terminal-run-the-current-file-in-python)
 - [ ] [Using vimdiff as your git diff tool. - YouTube](https://www.youtube.com/watch?v=hb5RVnOda2o)
 - [ ] [Nvim autocmd](https://www.reddit.com/r/neovim/comments/xhtr1p/nvim_autocmd_filetype_option/)

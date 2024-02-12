@@ -25,8 +25,8 @@ operations) and format for some data. Each data structure has own efficiency and
 optimizations.
 
 Analyzing the number of steps an operation takes is the heart of understanding
-the performance of data structures. Choose right data structure can greatly
-impact on performance of your program.
+the ==performance== of data structures. Choose right data structure can greatly
+impact on it of your program.
 
 Data itself is just basically numbers and strings (in computers all data finally
 stored as [[Bit|bit]] sequences).
@@ -76,7 +76,7 @@ fixed-length or resizable.
 elements of any type, called nodes, where each node has itself a value, and
 points to the next node in the linked list. The principal advantage of a linked
 list over an array is that values can always be efficiently inserted and removed
-==without relocating the rest of the list==. Certain other operations, such as
+without ==relocating the rest of the list==. Certain other operations, such as
 random access to a certain element, are however slower on lists than on arrays.
 
 - A [[Record|record ]] (also called tuple or struct) is an aggregate data

@@ -8,8 +8,7 @@ sr-interval: 1
 sr-ease: 207
 ---
 
-# Big O notation in [[Mathematics|mathematics]] and
-[[Computer_science|computer science]]
+# Big O notation in [[Mathematics|mathematics]] and [[Computer_science|computer science]]
 
 > Way of comparing ==rates of growth== of different functions. It is often used
 > to compare the efficiency of different algorithms, which is done by
@@ -78,10 +77,10 @@ def is_prime(number):
 It's $\mathcal{O}(N)$.
 
 
-## References
+## To learn
 
-- [ ] [CSE 373 -- Lecture 2, Fall 2020 - YouTube](https://www.youtube.com/watch?v=z1mkCe3kVUA&t=3039s)
 - [ ] [Big-O notation in 5 minutes - YouTube](https://www.youtube.com/watch?v=__vX2sjlpXU)
+- [ ] [CSE 373 -- Lecture 2, Fall 2020 - YouTube](https://www.youtube.com/watch?v=z1mkCe3kVUA&t=3039s)
 - [ ] [Big Oh Notation (and Omega and Theta) - YouTube](https://www.youtube.com/watch?v=ei-A_wy5Yxw)
 - [ ] [Asymptotic Notation - YouTube](https://www.youtube.com/watch?v=iOq5kSKqeR4)
 - [ ] [Binary Search - YouTube](https://www.youtube.com/watch?v=D5SrAga1pno)

@@ -63,7 +63,7 @@ TODO: add info, [[Computer_programming|Programming]]
 - [[research/korfuri-Nixos_on_an_Oracle_Free_Tier_Ampere_machine]]
 
 - [[My_python_developer_roadmap]]
-- Learn fundamentals of programming with [[research/Столяров-Программирование_том_1|Программирование]], серия книг.
+- Learn fundamentals of programming with [[research/Столяров-Программирование_том_1_Programming_volume_1|Программирование]], серия книг.
 
 - TODO: my C developer roadmap
     - [[research/learnxinyminutes-Learn_C_in_Y_minutes]]

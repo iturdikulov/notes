@@ -25,9 +25,10 @@ sr-ease: 209
 The fundamental concern of computer science is determining what ==can and cannot
 be automated==.
 
-I think knowing computer science help to write effective [[Code|code]] (goal of
-good [[Programmer|programmer]], which I want to be). I described how I
-[[Learning|learn]] computer science [[How_I_learn_computer_science|here]].
+I think knowing computer science help to write effective and scalable
+[[Code|code]] (goal of good [[Programmer|programmer]], which I want to be). I
+described how I [[Learning|learn]] computer science
+[[How_I_learn_computer_science|here]].
 
 Computer science connect theory (computation, automation, information) with real
 world practice (software and hardware). In Russian, it's known as Информа́тика.
