@@ -17,7 +17,7 @@ sr-ease: 270
 > information needed to display it.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Portable_Document_Format)</cite>
 
-TODO: PostScript -> PDF conversion example. TODO: review PDF libraries.
+TODO: PostScript → PDF conversion example. TODO: review PDF libraries.
 
 ## Tools
 
