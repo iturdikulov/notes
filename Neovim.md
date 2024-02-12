@@ -395,7 +395,7 @@ Recent locations::`<leader>o`, `<leader>i`. TODO: which plugin is used?
 
 `:[line]put`::x put the text from register x after `[line]`
 
-## Changing text
+## Changing text (editing)
 
 `cs[char][char or <tag>]`:::change the surrounding char to char or <tag>
 
@@ -460,6 +460,16 @@ Swap current line with previous (line up)::`ddkP`
 Duplicate line and stay on same line::`yyP`
 
 Fix spaces / tabs issues in whole file::`:%retab`
+
+### Code editing
+
+How to check file was changed
+?
+In neovim it's `[+]` in the status line (after filename)
+
+Code formatting (using LSP), custom binding::`<leader>f`
+
+Code actions (inline action)::`<leader>vaa`
 
 ### Custom keybindings and commands
 
@@ -1099,24 +1109,6 @@ this better! (Mapped to `S-v`).
 
 - [x] switch harpoon items::`c-t c-n c-m-t c-m-n`\*
 
-## Code editing
-
-- [x] mark modified files
-?
-In neovim it's `[+]` in the status line, in pycharm it's mark in tab (requires
-enabling `Mark modified`).
-
-- [x] code folding::`zo/zc/zr`
-
-- [x] comment line::`gcc`
-
-- [x] comment block`gc<motion>`
-
-- [x] code formatting::`<leader>F`
-
-- [x] code actions::`<leader>vaa`
-
-- [x] macro record/replay::`q<letter>/@<letter>`
 
 ## Vim surround
 
@@ -1474,9 +1466,12 @@ structure. n\*
 map specific insert key in specific terminal: CTRL-K CTRL-F1 to get key code,
 then map it...
 
-## References
+## TODO
 
+- [ ] [Как подружить Neovim c русской раскладкой](https://habr.com/ru/articles/726400/)
 - [ ] [[research/Irianto-Learn_Vim]]
 - [ ] [[research/Neil-Modern_Vim]]
 - [ ] [[research/Neil-Practical_Vim]]
 - [ ] [[research/Osipov-Mastering_Vim]]
+
+## References
