@@ -516,7 +516,7 @@ TODO: Markdown plugin
 
 ### Markdown
 
-Go to previous/next function hunk::`[[/]]`
+Go to previous/next heading::`[[` / `]]`
 
 Go to link::`gx`
 
@@ -534,7 +534,7 @@ Bullet demote::`<C-t>` or `>>` or `>` in visual mode
 
 URL to markdown > clipboard > paste::`<S-v>`
 
-### [antonk52/markdowny.nvim](https://github.com/antonk52/markdowny.nvim) plugin
+### [markdowny.nvim](https://github.com/antonk52/markdowny.nvim)
 
 Make visual selection bold::`<C-b>`
 Make visual selection italic::`<C-i>`
@@ -885,9 +885,9 @@ Delete current buffer::`<leader>bd` or `:bd`
 
 Close all buffers except current one::`<leader>bD`
 
-maximize buffer::`C-w \_`
+Maximize buffer height::`C-w _`
 
-maximize buffer width::`C-w |`
+Maximize buffer width::`C-w |`
 
 `C-w >` and `C-w <`:::Increase and decrease window width
 
@@ -910,10 +910,12 @@ Create a new window and start editing an empty file in it::`:new` or `C-w n`
 
 ## Workspaces
 
-Workspaces: Neovim doesn't have native workspace support like Emacs.
-However, you can achieve similar functionality using tabs or different
-instances of Neovim. Personally I use [[Tmux]] with sessionizer script
-(bind to `Tmux prefix + f`).
+Workspaces: Neovim doesn't have native workspace support like Emacs. However,
+you can achieve similar functionality using tabs or different instances of
+Neovim. Personally I use [[Tmux]] with sessionizer script (bind to `Tmux prefix
++ f`).
+
+TODO: tab commands and hotkeys?
 
 ## Sessions
 
@@ -1105,9 +1107,9 @@ this better! (Mapped to `S-v`).
 
 - [x] show harpoon menu::`c-e`
 
-- [x] close harpoon menu::`q or esc`
+- [x] close harpoon menu::`q`, `Esc`
 
-- [x] switch harpoon items::`c-t c-n c-m-t c-m-n`\*
+- [x] switch harpoon items::`c-t`, `c-n c-m-t c-m-n`\*
 
 
 ## Vim surround
@@ -1136,107 +1138,56 @@ this better! (Mapped to `S-v`).
 - [x] linter integration, [GitHub - astral-sh/ruff-lsp: A Language Server Protocol implementation for Ruff.](https://github.com/astral-sh/ruff-lsp)
       Added but with zero configuration. n\*
 
-### Rope
-
-- [ ] [GitHub - python-rope/ropevim: vim mode that uses rope library to provide features like python refactorings and code-assists](https://github.com/python-rope/ropevim#keybinding)
-
-| Key               | Command                                                  |
-| ----------------- | -------------------------------------------------------- | --------------------------------- |
-| C-x p o           | RopeOpenProject                                          | Synchronize                       |
-| C-x p k           | RopeCloseProject                                         | CloseProject                      |
-| C-x p f           | NOT USING RopeFindFile                                   |
-| C-x p 4 f         | NOT USING RopeFindFileOtherWindow                        |
-| C-x p u           | RopeUndo                                                 | NOT used, works with builtin undo |
-| C-x p r           | RopeRedo                                                 | NOT used, works with builtin redo |
-| C-x p c           | RopeProjectConfig                                        | NOT USED                          |
-| C-x p n \[mpfd\]  | RopeCreate(Module\|Package\|File\|Directory)             | Same                              |
-|                   | RopeWriteProject                                         |
-|                   |                                                          |
-| C-c r r           | RopeRename                                               | Rename                            |
-| C-c r l           | RopeExtractVariable                                      | IntroduceVariable                 |
-| C-c r m           | RopeExtractMethod                                        | ExtractMethod                     |
-| C-c r i           | RopeInline                                               | Inline                            |
-| C-c r v           | RopeMove                                                 | Move                              |
-| C-c r x           | RopeRestructure                                          |
-| C-c r u           | RopeUseFunction                                          |
-| C-c r f           | RopeIntroduceFactory                                     |
-| C-c r s           | RopeChangeSignature                                      |
-| C-c r 1 r         | RopeRenameCurrentModule                                  |
-| C-c r 1 v         | RopeMoveCurrentModule                                    |
-| C-c r 1 p         | RopeModuleToPackage                                      |
-|                   |                                                          |
-| C-c r o           | RopeOrganizeImports                                      | OrganizeImports                   |
-| C-c r n \[vfcmp\] | RopeGenerate(Variable\|Function\|Class\|Module\|Package) |
-|                   |                                                          |
-| C-c r a /         | RopeCodeAssist                                           |
-| C-c r a g         | RopeGotoDefinition                                       |
-| C-c r a d         | RopeShowDoc                                              |
-| C-c r a f         | RopeFindOccurrences                                      |
-| C-c r a ?         | RopeLuckyAssist                                          |
-| C-c r a j         | RopeJumpToGlobal                                         |
-| C-c r a c         | RopeShowCalltip                                          |
-|                   | RopeAnalyzeModule                                        |
-|                   | RopeAutoImport                                           |
-|                   | RopeGenerateAutoimportCache                              |
-
 ## Code autocompletion
 
-- [x] confirm autocomplete::`<c-y>`
-
-- [x] confirm copilot::`<tab>`
-
-- [x] snippets in autocomplete
+- confirm autocomplete::`RET`
+- snippets in autocomplete by using [GitHub - [L3MON4D3/LuaSnip](https://github.com/L3MON4D3/LuaSnip)
 
 ## Code run/debugging/testing
 
-- [x] auto-import:
-      neovim: autocomplete or insert mode and press `<c-space>`
-      pycharm: type and press `<c-space><c-space>`
+- auto-import with LSP
 
-- [x] Review and pick something from [tjdervis-dap config](https://github.com/tjdevries/config_manager/blob/master/xdg_config/nvim/after/plugin/dap.lua)
+- telescope-dap.nvim prefix::`<leader>dl?`
 
-- [x] telescope-dap.nvim prefix::`<leader>dl`
-- [x] view breakpoints::`<leader>dlb`
+- view breakpoints::`<leader>dlb`
 
-- [x] run debugger configuration::`<F5>`
+- run debugger configuration/continue::`<F5>`
 
-- [x] continue debugger::`<F6>`, not required in neovim
+- run last debug configuration::`<leader>dr`
 
-- [x] restart debugger::`<leader>dR`
+- toggle breakpoint::`<leader>db[B]`
 
-- [x] toggle breakpoint::`<leader>db[B]`
+- stop debugger::`<leader>dx`
 
-- [x] stop debugger::`<leader>dx`
+- step back::`<F1>`
 
-- [x] step back::`<F1>` n\*
+- step into::`<F2>`
 
-- [x] step over::`<F3>`
+- step over::`<F3>`
 
-- [x] step into::`<F2>`
+- step out::`<F4>`
 
-- [x] step out::`<F4>`
+- jump to cursor::`<S-F1>` \*
 
-- [ ] jump to cursor::`<S-F1>` \*
+- run to cursor::`<leader>dC`
 
-- [ ] run to cursor::`<leader>dC`
+- evaluate expression
 
-- [ ] evaluate expression
+- run current test file::`<leader>dnf`
 
-- [ ] run current test file::`<leader>dnf` \*
+- run current test::`<leader>dnn`
 
-- [ ] coverage test
+- [ ] coverage test, [andythigpen/nvim-coverage](https://github.com/andythigpen/nvim-coverage)?
 
-- [ ] generate test, AI-test generate?
+- [ ] generate test, AI-test generate? [jackMort/ChatGPT.nvim](https://github.com/jackMort/ChatGPT.nvim)
 
-- [x] run current file using [[Sniprun]]
+- `<leader>zee`::run current file using [[Sniprun]]
 
-- [ ] run group of tests, pytest cwd?
+- [ ] run group of tests (directory), pytest cwd?
 
 - [ ] CI/Reporting workflow
 
-- [x] run the nearest test::`<leader>dnn`
-
-- [x] rerun the last test
+- `<leader>dnl`::rerun the last test
 
 - [x] debug the nearest test::`<leader>ddc`
 
@@ -1314,7 +1265,7 @@ Open autocomplete in commit buffer::`C-n`
 
 `:Gedit :<path>` or `Gedit :0` or `<leader>ge`::Open index file
 
-`:Gdiffsplit` or `<leader>gd`::vimdiff against the index version of the file
+`:Gdiffsplit` or `<leader>gd`::vimdiff against the index version of the file, quit from this mode by `:q`
 
 `:Git diff` or `<leader>gD`::git diff against the last committed version of the file.
 
@@ -1462,13 +1413,12 @@ structure. n\*
 
 ## Custom
 
-
 map specific insert key in specific terminal: CTRL-K CTRL-F1 to get key code,
 then map it...
 
 ## TODO
 
-- [ ] [Как подружить Neovim c русской раскладкой](https://habr.com/ru/articles/726400/)
+- [-] [Как подружить Neovim c русской раскладкой](https://habr.com/ru/articles/726400/)
 - [ ] [[research/Irianto-Learn_Vim]]
 - [ ] [[research/Neil-Modern_Vim]]
 - [ ] [[research/Neil-Practical_Vim]]
