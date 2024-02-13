@@ -108,9 +108,9 @@ and more important how to stay healthy. I have
 This is place where I store programming applied learning materials, related
 outline notes (like frontend/backend) and some management stuff.
 
-**[[My_editing_workflow|My editing workflow]]** is heavily related to
-[[Neovim]], but it can be replicated in some advanced code editor (like
-[[Pycharm]]), here I store my main editing practices, tricks, etc.
+**My editing workflow** is heavily related to [[Neovim]], but it can be
+replicated in some advanced code editor (like [[Pycharm]]), here I store my main
+editing practices, tricks, etc.
 
 **[[My_productivity_workflow|My productivity workflow]]** is about how I manage
 my time, tasks, etc. It's not only about software development, but also about my life.

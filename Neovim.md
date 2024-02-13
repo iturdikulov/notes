@@ -13,9 +13,8 @@ sr-interval: 1
 sr-ease: 130
 ---
 
-TODO: global cleanup and organize resources
-TODO: import solutions from [[My_editing_workflow]]
 TODO: import solutions from [[neovim-emacs-workflow]]
+TODO: global cleanup and organize resources
 TODO: keybindings in command mode using plugin
 
 # Neovim (text editor)
@@ -1418,10 +1417,13 @@ then map it...
 
 ## TODO
 
-- [-] [Как подружить Neovim c русской раскладкой](https://habr.com/ru/articles/726400/)
+- [ ] Commit style
+- [ ] Code style
+- [ ] CLI tools
 - [ ] [[research/Irianto-Learn_Vim]]
 - [ ] [[research/Neil-Modern_Vim]]
 - [ ] [[research/Neil-Practical_Vim]]
 - [ ] [[research/Osipov-Mastering_Vim]]
+- [-] [Как подружить Neovim c русской раскладкой](https://habr.com/ru/articles/726400/)
 
 ## References
