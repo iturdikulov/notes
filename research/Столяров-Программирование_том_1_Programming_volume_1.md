@@ -701,7 +701,7 @@ and it's size (check hierarchy above).
 ![[img/hierarchy_of_storage_devices.excalidraw]]
 _Hierarchy of storage devices_
 
-### 1.1.6 Summary (Резюме)
+### 1.1.6. Summary (Резюме)
 
 Computer is central bus based (multiple buses).
 Into central bus connected RAM and CPU; peripheral devices (drives, keyboard,
@@ -720,6 +720,12 @@ modification/read of allocated memory) programs forced refer to the OS.
 
 If you don't understand these principles, try to re-read this chapter again,
 they are very important in build computing systems for programmers.
+
+## 1.2. How to use computer properly (Как правильно использовать компьютер)
+
+### 1.2.1. Operational Systems and types of user interface
+
+
 
 ## References
 
