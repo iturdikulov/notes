@@ -693,6 +693,34 @@ operations results and return them to OS.
 
 ### 1.1.5. Hierarchy of storage devices (Иерарахия запоминающих устройств)
 
+Can you explain hierarchy of storage devices (speed, price, size)?
+?
+Information in computing system can be stored on different storage devices,
+depending on how fast it should be accessed, how long time it can be stored,
+and it's size (check hierarchy above).
+![[img/hierarchy_of_storage_devices.excalidraw]]
+_Hierarchy of storage devices_
+
+### 1.1.6 Summary (Резюме)
+
+Computer is central bus based (multiple buses).
+Into central bus connected RAM and CPU; peripheral devices (drives, keyboard,
+monitor, sound devices, etc.), which connected through controllers.
+
+With memory CPU can work itself, with other devices required special programs
+(drivers).
+
+For long-term data storage used disk storage devices, where information
+organized by using files; in file can be stored data, programs, but to run
+program or process data required to load them into RAM.
+
+OS is special program, it loaded first and receives full hardware control,
+other programs haven't direct access to hardware, to make some actions (except
+modification/read of allocated memory) programs forced refer to the OS.
+
+If you don't understand these principles, try to re-read this chapter again,
+they are very important in build computing systems for programmers.
+
 ## References
 
 [^1]: Lovelace, Ada; Menabrea, Luigi (1842). "Sketch of the Analytical Engine
