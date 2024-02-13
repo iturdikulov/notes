@@ -280,3 +280,6 @@ meaning of words.
 - обособленная
 - research
 - computer
+- оперативная память
+- обьем
+- persistent
