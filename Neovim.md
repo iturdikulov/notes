@@ -33,11 +33,11 @@ I keep my learning resources and learning plan in
 
 ## What I handle by Neovim
 
-- Notes, Weekly calendar - telekasten.nvim together with [[Obsidian]]
-- File management - [[Netrw]]
-- Code editing (highly customized setup)
+- Notes, Calendar, Tracking - [[Telekasten.nvim]] together with [[Obsidian]]
+- File management - [[Netrw]] and [[Command-line_interface_CLI|CLI]]
+- Code editing - (highly customized setup)
 - Code blocks, projects running and debugging
-- Video notes with timestamps using MPV IPC integration
+- Video notes with timestamps using MPV's IPC integration
 
 ## Command line
 
@@ -52,38 +52,36 @@ looking for configuration files in `$XDG_CONFIG_HOME/neovim` instead of
 
 Hide line numbers::`:set nonu nornu` or `:set nonumber norelativenumber`.
 Get variable value - `:set nonu?`.
+Find keybinding by using `what-key`::`<leader>fk`, TODO: need to change, conflict with auto-format
 
 ## Basics
 
-up::`k`
-down::`j`
-left::`h`
-right::`l`
+Up, Down, Left, Right::`k`,`j`,`h`,`l`, but prefer other navigation keys
 
-normal mode, for navigation and manipulation of text::`ESC` or `C-[` or `C-c` or `C-S` (custom)
+Normal mode, for navigation and manipulation of text::`ESC` or `C-[` or `C-c`
 
-insert mode, for inserting new text.::`iIaAoO`
+Insert mode, for inserting new text.::`iIaAoO`
 
-visual, for navigation and manipulation of text selections::`v` or `V` or `C-v`
+Visual, for navigation and manipulation of text selections::`v` or `V` or `C-v`
 <!--SR:!2023-06-06,2,228-->
 
-command-line, for entering editor commands::`:`
+Command-line mode, for entering editor commands (Ex commands)::`:`
 
-replace mode, replace existing text by directly typing over it.::`R`
+Replace mode, replace existing text by directly typing over it::`R`
 
-mode similar to visual, but with a more MS Windows-like behavior::`select`
+Mode similar to visual, but with a more MS Windows-like behavior::select mode, `gh`, `gH`
 
-similar to the command-line mode but optimized for batch processing::`ex-mode` TODO: check
+Similar to the command-line mode but optimized for batch processing::ex-mode, `gQ`
 
-select something::`v[motion]`
+Select something::`v[motion]`
 
-copy something::`y[register][num][motion]`
+Copy something::`y[register][num][motion]`
 
-copy something into system clipboard::`"<SPC>y[motion]`
+Copy something into system clipboard::`"<SPC>y[motion]`, I have own mapping - `<leader>y`
 
-delete something (can be used with black hole register)::`d[register][num][motion]`
+Delete something (can be used with black hole register)::`d[register][num][motion]`
 
-change something (can be used with black hole register)::`c[register][num][motion]`
+Change something (can be used with black hole register)::`c[register][num][motion]`
 
 `:`::command mode
 
