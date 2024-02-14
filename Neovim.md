@@ -85,29 +85,12 @@ Change something (can be used with black hole register)::`c[register][num][motio
 
 `:`::command mode
 
-
-How to split line (a/i/r)
+How to split line
 ?
-
+Use (a/i/r) keys:
+- `i<cr><esc>`
 - `a<cr><esc>`
 - `r<cr>`
-- `i<cr><esc>`
-
-`:!`
-?
-external filter, used in command mode to execute something
-
-`:r!`
-?
-Redirect output of external command to current buffer
-
-You could also use ==`w !python`== to run your python program (no need to save,
-it will pass the content as stdin, that's what w ! is for). That way you don't
-to support multiple languages in your plugin. Just instruct the users to use
-this Vim feature.
-
-`C-t` in insert mode::indent
-`C-d` in insert mode::unindent
 
 ## Search & replace
 
@@ -121,23 +104,31 @@ this Vim feature.
 
 `/search\C`::case-sensitive search
 
-`set ignorecase`::case-insensitive search
+`fx|Fx`::search in current line forward for 'x', backward for 'x'
 
-`set smartcase`
+`tx|Tx`::search in current line forward before 'x', backward before 'x'
+
+`,`, `;`
 ?
-Case-insensitive search, unless there is a capital letter in the search, but `ignorecase` needs to be on
+Backward, forward after that "finds", works for `s`, `f` and `t`.
 
-`vim[grep][!] /{pattern}/[g][j][f] {file} ...`
-?
-Search pattern across files pattern.
+`n|N`::repeat search in same direction and opposite direction, support multiline search.
 
-`grep {pattern} {file} ...`::Search pattern across files pattern.
+`/ ESC`::clear search highlights or `:noh`
 
-`:copen`::Open quickfix window
+`set ignorecase` or `set ic`::Enable ignore case in search patterns
 
-`C-k`::`:cnext`
+`set smartcase` or `set scs`::Case-insensitive search, unless there is a capital letter in the search, but `ignorecase` needs to be on
 
-`C-j`::`:cprev`
+`:grep {pattern} {file} ...`::Search pattern across files pattern.
+
+`:vim[grep][!] /{pattern}/[g][j][f] {file} ...`::Search pattern across files pattern.
+
+`:copen`::Open quickfix window, but better to use Trouble.nvim (`<leader>xx`)
+
+`C-k`::`:cnext`, next file from quickfix
+
+`C-j`::`:cprev`, previous file from quickfix
 
 `@:`::repeat last command
 
@@ -149,10 +140,12 @@ Find each occurrence of 'foo' (in all lines), and replace it with 'bar'
 `%` - all lines.
 `s` - substitute.
 `g` - global (all occurrences in the line not only the first one).
-`[c]` - confirmations.
+`[c]` - enable confirmations.
 
-The replacement will check each line in the buffer, but will only match within the last visual selection
+The replacement will check each line in the buffer, but will only match within
+the last visual selection
 ?
+Same as find each occurrence, but need to add `%V` suffix to the search pattern.
 `:%s/\%Vfoo/bar/g[c]`
 `[c]` - confirmations.
 
@@ -162,7 +155,7 @@ The replacement will check each line in the buffer, but will only match within t
 
 `:s/\[foo\]//g`::Escape the square brackets with a backslash, to replace `[foo]`
 
-`:s/pat\/tern/replace/g`::Escape the `/` to match "pat/tern"
+`:s/pat\/tern/replace/g`::Escape the `/` to match `pat/tern`
 
 `:s#pat/tern#replace#g`::Use another character as separator to match "pat/tern".
 
@@ -174,21 +167,11 @@ Replace multiple spaces with one, This says find 2 or more spaces (` \`)
 that are NOT preceded by 'the start of the line followed by zero or more
 spaces'.
 
-`f[x]|Fx`::search line forward for 'x', backward for 'x'
-
-`t[x]|Tx`::search line forward before 'x', backward before 'x'
-
-`,|;`::backward, forward after that "finds", works for s, f and t
-
-You can also just press f/t/F/T ==again== to continue search
-
-`/ ESC`::clear search highlights or `:noh`
-
-`n|N`::repeat search in same direction, in opposite direction
-
 `*|#` or `g*|g#`::search forward word under cursor, search backward word under cursor
 
-How to do granular find and replace in the whole file
+### Search and replace tips
+
+How to do granular find and replace something in the whole file (3 steps)?
 ?
 1. Search something with `/`
 2. Type `cgn` and `word` to replace, or run some command, where `gn` is a
@@ -206,8 +189,8 @@ Find and Replace in Multiple Files using `argslist`
    prevents error messages when there is no match, `c` is for confirmation.
 \
 You can also use `:bufdo` to do the same thing in all open buffers.
-To use `argslist` in `vimgrep` use `:vimgrep // ##`. `//` is last search pattern.
-Use `:cdo` to do something with the quickfix list.
+To use `argslist` in `vimgrep` use `:vimgrep // ##`. `//` is last search
+pattern. Use `:cdo` to do something with the quickfix list.
 
 Search with telescope and quickfix
 ?
@@ -393,6 +376,10 @@ Recent locations::`<leader>o`, `<leader>i`. TODO: which plugin is used?
 `:[line]put`::x put the text from register x after `[line]`
 
 ## Changing text (editing)
+
+`C-t` in insert mode::indent, other's editors `<tab>` alternative
+
+`C-d` in insert mode::unindent, other's editors `<S-tab>` alternative
 
 `cs[char][char or <tag>]`:::change the surrounding char to char or <tag>
 
@@ -1141,6 +1128,13 @@ this better! (Mapped to `S-v`).
 - snippets in autocomplete by using [GitHub - [L3MON4D3/LuaSnip](https://github.com/L3MON4D3/LuaSnip)
 
 ## Code run/debugging/testing
+
+`:!`::external filter, used in command mode to execute something
+
+`:r!`redirect external filter into current buffer
+
+You could also use ==`w !python`== to run your python program (no need to save,
+it will pass the content as stdin, that's what w ! is for).
 
 - auto-import with LSP
 
