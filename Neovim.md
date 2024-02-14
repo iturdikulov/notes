@@ -200,32 +200,31 @@ Search with telescope and quickfix
 
 ## Navigation
 
-Scrolling up, cursor staying on the same line `C-e`
+Scrolling up, cursor staying on the same line::`C-e`
 
-Up to # line, works with relative line numbers::`#k`
+Scrolling down, cursor staying on the same line::`C-y`
+<!--SR:!2023-06-05,2,233-->
 
-Down to # line, works with relative numbers::`#j`
+Go to line n::`:n`
 
-Move left, down, up, right `hjkll`
+Go to first line::`gg`
 
-Move the cursor forward by a screen of text::`C-f`
+Go to last line of document::`G`
+<!--SR:!2023-06-07,3,249-->
 
-Move the cursor backward by a screen of text::`C-b`
+Go to line n::`[n]gg`, or `[n]G`
+
+Up to #line (relative)::`#k`
+
+Down to #line (relative)::`#j`
+
+Move the cursor forward by a **screen** of text::`C-f`, cursor position lose
+
+Move the cursor backward by a **screen** of text::`C-b`, cursor position lose
 
 Move the cursor up by half a screen::`C-u`
 
 Move the cursor down by half a screen::`C-d`
-
-go To line n `:n`
-
-go to first line::`gg`
-
-go to last line of document::`G`
-<!--SR:!2023-06-07,3,249-->
-
-go to line n::`[n]gg`
-
-go To line n::`[n]G`
 
 Puts the current line at the top::`zt`
 
@@ -233,15 +232,14 @@ Puts the current line at the middle (and scroll to middle)::`zz`
 
 Puts the current line at the bottom::`zb`
 
-Scrolling down, cursor staying on the same line::`C-y`
-<!--SR:!2023-06-05,2,233-->
-
-Jump by **s**tart of words (punctuation considered words)::`w`
+Jump by **s**tart of words (punctuation considered words)
+?
+`w`, alternative is `f_` skips to the next underscore (useful for Python code)
 
 Jump by **s**tart words (words determined only by spaces, no punctuation)::`W`
 <!--SR:!2023-06-07,3,249-->
 
-Jump to en**d** of words (punctuation considered words)::`e`
+Jump to en**d** of words (punctuation considered words)::`e`, more useful to select/change words
 
 Jump to en**d** of words (no punctuation)::`E`
 <!--SR:!2023-06-05,1,193-->
@@ -263,17 +261,17 @@ Jump to end of lin**e**::`$`
 
 Jump to the last non-blank character of the lin**e** ::`g_`
 
-Move to the current line (useful for making commands line-based)::`_`
+Move to the current line (useful for making line-based commands)::`_`
 
-Move line upwards, on the first not blank character::`-`
+Move line upwards, on the first not blank character (ignore cursor position)::`-`
 <!--SR:!2023-06-05,1,209-->
 
-Move line downwards, on the first not blank character::`+`
+Move line downwards, on the first not blank character (ignore cursor position)::`+`
 
-Move the cursor forward to the next sentence (or table cell)::`)`
+Move the cursor forward to the next sentence, top right corner (or table cell)::`)`
 <!--SR:!2023-06-07,2,208-->
 
-Move backward by a sentence (or table cell)::`(`
+Move backward by a sentence, top right corner (or table cell)::`(`
 
 Move the cursor a paragraph backwards::`{`
 
@@ -291,7 +289,7 @@ Jump to matching brace, bracket, or parentheses::`%`
 
 Return to the line where the cursor was before the latest jump::`''`
 
-Start typing on the last inserting point you can type. TODO: conflict with LSP key::`gi`
+Start typing on the last inserting point you can type.::`gi`
 
 Re-select and jump to the last visual selection with::`gv`
 
