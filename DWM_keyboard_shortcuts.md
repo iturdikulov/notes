@@ -59,7 +59,8 @@ Resize window to left::`<D-S-l>`
 Increase / decrease number of windows on master
 ?
 `<D-i>`, `<D-d>`. I see here user-case when you need multiple horizontal windows
-on master.
+on master. This also helpful if you need two side-by side windows (vertical
+layout).
 
 Push active window from stack to master (toggle)::`<D-CR>`
 
