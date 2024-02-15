@@ -165,7 +165,7 @@ programming?
 ?
 Not really. You learn not Pascal, you learn programming by using Pascal, and you
 can omit some Pascal specific features.
-<!--SR:!2024-02-14,2,182-->
+<!--SR:!2024-02-18,4,182-->
 
 Why need to learning Assembly language (at least basics)?
 ?
@@ -237,7 +237,7 @@ computing mechanism.
 
 Most old working computing machine is Pascal's ==adding machine== (pascaline),
 1642.
-<!--SR:!2024-02-13,1,162-->
+<!--SR:!2024-02-16,2,162-->
 
 ![Additionner avec la réplique de la Pascaline 1645 - YouTube](https://www.youtube.com/watch?v=GX4RQK__fQc)
 ![How the Pascaline Works - YouTube](https://www.youtube.com/watch?v=3h71HAJWnVU)
@@ -264,13 +264,13 @@ In 1673 Gottfried Wilhelm Leibniz created calculating machine, with supported
 
 General property (disadvantage) of arithmometer is it can't do calculations
 without ==human help==, if you need to do more than one operation.
-<!--SR:!2024-02-14,2,182-->
+<!--SR:!2024-02-19,4,182-->
 
 1823 Charles Babbage started working on difference engine, which can do
 calculations using method of ==divided differences==, but he failed to finish
 it. George Scheutz created working difference engine in 1843, by using Babbage's
 ideas.
-<!--SR:!2024-02-13,1,162-->
+<!--SR:!2024-02-17,2,162-->
 
 But Babbage's main idea was ==analytical== engine, which can do any
 calculations. So he invited idea of programmable machines, data transferring
@@ -298,7 +298,7 @@ First full mechanical programmable computer?
 ?
 1938 Konrad Zuse created Z1, first full mechanical programmable computer
 (electricity used only in motor). Z1 used [[Binary_number|binary]] logic.
-<!--SR:!2024-02-14,2,182-->
+<!--SR:!2024-02-17,2,162-->
 
 Z2 used same mechanics but used electrical relay circuits for computational
 operating. As Z1 it used perforated tape to execute program (instructions).
@@ -509,7 +509,7 @@ From schematic perspective each wire can be in 2 positions, logical ==1 or 0==.
 
 Combinations of 0 and 1 make an address, and all devices except CPU working with
 bus only when address from bus ==equal to their address==.
-<!--SR:!2024-02-14,2,182-->
+<!--SR:!2024-02-18,4,182-->
 
 Memory (RAM) consist of identical memory addressable locations, which constitute
 an addressable space. Which is $$2^{N}$$ addresses, where N is
@@ -527,7 +527,7 @@ memory locations).
 
 DRAM can't work without ==electricity (power)== and data lost without it (not
 completely, especially if RAM will be frozen at -60°С [^2]).
-<!--SR:!2024-02-14,2,182-->
+<!--SR:!2024-02-19,4,182-->
 
 Difference between persistent memory and volatile memory?
 ?
@@ -549,7 +549,7 @@ CPU writing operations, usually need to use some interface, for example I²C
 (Inter-Integrated Circuit) and SPI (Serial Peripheral Interface) for EEPROM
 (electrically erasable programmable read-only memory). Main advantage is
 ==persistent== memory.
-<!--SR:!2024-02-14,2,182-->
+<!--SR:!2024-02-19,4,182-->
 
 Usually EEPROM used to store special BIOS/UEFI (Unified Extensible Firmware
 Interface) program, which used to ==prepare (initialize) and test computer==
@@ -724,6 +724,89 @@ they are very important in build computing systems for programmers.
 ## 1.2. How to use computer properly (Как правильно использовать компьютер)
 
 ### 1.2.1. Operational Systems and types of user interface
+
+Main tasks of OS?
+?
+Main tasks of OS, is starting/stopping other programs and control peripheral
+devices.
+
+How typically user program opens files?
+?
+User program can "ask" OS to read some files, providing only filenames, program
+doesn't care about which devices and controllers will be used, all this work
+will be done by OS (read data from device and place it into program memory
+space). Program will use this data and close file (stop working with it), then
+OS decides what to do with allocated data.
+
+First OSes appeared in ==1960s==. Nowadays, there few of them (types) used,
+mostly 2 family: ==Windows and Unix==.
+
+An operating system (OS) distribution is a copy of the OS distribution and
+service levels that are obtained from the operating system files (usually ISO).
+Most used are (order is not matter here):
+
+[[Microsoft_Windows|Microsoft Windows]] and Unix family:
+- Linux based: [[NixOS]], [[Arch_Linux]], Debian, Ubuntu, Fedora, Slackware, Gentoo, etc.
+- BSD family: FreeBSD, OpenBSD and other;
+- [[Android]]: based on linux kernel;
+- macOS
+
+Do operating system require components which providing user interaction (UI)?
+?
+For Unix-like OS, main tasks are not including user interaction (user interface), since OS is
+very complex, these tasks are solved by different OS add-ons (special programs,
+which controlled by OS, but not their part).
+For Windows its most likely yes (this included in core of Windows OS).
+
+Modern graphical UI use special ==widgets or controls==, which can replicate some
+real world objects (buttons, checkboxes, radiobuttons, inputs, sliders, labels,
+notifications, icons, indicators, windows etc.).
+
+Professional programmers (and system administrators), mostly prefer
+==command-line interface==. In this mode user enter commands to execute some actions, computer execute
+these commands and return results (show them on display).
+This is dialog mode to interact with computers (there is also batch mode).
+Initially dialog mode was created by using **teleprinters**.
+
+> Computers used ==teleprinters== for input and output from the early days of
+> computing. Punched card readers and fast printers replaced teleprinters for
+> most purposes, but teleprinters continued to be used as interactive
+> time-sharing terminals until video displays became widely available in the
+> late 1970s.
+>
+> Users typed commands after a prompt character was printed. Printing was
+> unidirectional; if the user wanted to delete what had been typed, further
+> characters were printed to indicate that previous text had been cancelled.
+> When video displays first became available the user interface was initially
+> exactly the same as for an electromechanical printer; expensive and scarce
+> **video terminals** could be used interchangeably with teleprinters. This was
+> the origin of the text terminal and the command-line interface.\
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Teleprinter#Teleprinters_in_computing)</cite>
+
+Why [[Escape_sequence|escape-sequences]] are needed for terminals (Terminal
+emulator)?
+?
+They allow control how text will be rendered (colors, style, etc.), change cursor
+positions, etc.
+
+Can user work without graphical interface with some OS on some computer?
+?
+Yes, you can use for example some device with serial port (USB-serial,
+laptop and special software), connect it to server and receive command-line
+interface. You can do initial setup, load/install OS from external device, setup
+local network, setup remote access (like SSH), and then switch to control
+through network (usually much more comfortable).
+
+Command-line interpreter, or command language interpreter, is a blanket term
+for a certain class of programs designed to read lines of text entered by a
+user, thus implementing a ==command-line interface==.
+
+What command-line interpreter do?
+?
+This program usually outputs command line **prompt** and wait when user types
+some text and press `Enter`. After that program execute users commands. This
+commands can be linked together, executed with some conditions, etc. (usually
+[[Turing_complete|Turing complete]]).
 
 
 
