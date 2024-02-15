@@ -15,12 +15,11 @@ sr-ease: 223
 > background) and reattach them to a different terminal.\
 > — <cite>[tmux Wiki](https://github.com/tmux/tmux/wiki)</cite>
 
-New tmux session::`tmux` from command line or `<leader>:new<CR>`
+New tmux session::`tmux` from command line (but not from tmux session) or `<leader>:new<CR>`
 
 New tmux session with name:;`tmux new -s myname`
 
-Attach::`tmux a  #  (or at, or attach)` or use `tma` alias. Optionally you
-can use session name (`tma -t myname`).
+Attach::`tmux a` (or at, or attach) or use `tma` alias. Optionally you can use session name (`tma -t myname`).
 
 List sessions::`tmux ls` or use `tml` alias.
 
@@ -29,50 +28,60 @@ Kill specific session::`tmux kill-session -t myname`.
 You can use ==`tmux kill-server`== to _cleanly and gracefully_ kill all
 tmux open sessions (and server).
 
-If you are inside a tmux session you would like to keep, use ==`tmux
-kill-session -a`== to close all other sessions.
+Also, you can force kill all tmux processes with ==`pkill -f tmux`==.
 
-Also, you can _grossly_ kill all tmux processes with ==`pkill -f tmux`==.
+If you are inside a tmux session you would like to keep, use
+==`tmux kill-session -a`== to close all other sessions.
 
 ## Shortcuts (`<leader> ...`)
 
+Create window (tab) with current path if configured::`c`
+
+Next window (tab)::`n`
+
+Previous window (custom binding, last-window)::`C-6`
+
 List shortcuts::`?`
-Split horizontally::`s`
-Split vertically::`v`
+
+Split horizontally/vertically::`s`, `v`
+
+Make panes vertical, select layout even-vertical::`+`
+
+Make panes horizontal, select layout even-horizontal::`=`
+
 Rename session::`$`
 
 Rename window (tab)::`,` (comma)
+
 Kill window (tab)::`X`
+
 Kill server::`q`
+
 Kill pane::`x`
 
-Create window (tab) with current path if configured::`c`
-Interactive window list::`w`
-Interactive session list::`S`
+Interactive window/session list::`w`, `S`
+
 Copycat search::`/`
 
-Next window (tab)::`n`
-Previous window (tab)::`p`
-Last pane::`C-w`
+Last pane (back and forth)::`C-w`
 
 Find window (changed to tmux-sessionizer)::`f`
+
 Toggle pane zoom (maximize current pane, other panes are hidden)::`o` or `z`
 
-Make panes vertical, select layout even-vertical::`=`
-Make panes horizontal, select layout even-horizontal::`+`
 Toggle between layouts::`space`
+
 Move the current pane left::`{`
+
 Move the current pane right::`}`
 
-Select left pane::`C-h`
-Select down pane::`C-j`
-Select up pane::`C-k`
-Select right pane::`C-l`
+Select up, right, left, down pane::`C-k`, `C-l`, `C-h`, `C-j`
 
-Swap pane up::`K`
-Swap pane left::`H`
-Swap pane right::`L`
-Swap pane down::`J`
+Swap pane up, right, left, down::`K`, `L`, `H`, `J`
+
+Do I need always use prefix to resize panes?
+?
+No, if you strike key fast enough (to hold you need to configure `repeat-time` option).
 
 Resize pane up (by 5)::`M-Up`
 Resize pane down (by 5)::`M-Down`
@@ -84,26 +93,28 @@ Resize pane down (by 1)::`C-Down`
 Resize pane left (by 1)::`C-Left`
 Resize pane right (by 1)::`C-Right`
 
-Do I need always use prefix to resize panes?
-?
-No, if you strike key fast enough (to hold you need to configure
-`repeat-time` option).
-
 Break pane into a window::`-`
+
 Join pane::`_` TODO: not actually working, need to investigate
 
 Reload config (without killing server)::`r`
+
 Refresh client:`^r`
 
 List paster buffers::`b`
+
 Choose which buffer to paste from::`B`
+
 Paste from the top paste buffer::`p`
-Paste into current buffer from clipboard::`P` or `C-v` (without prefix)
+
+Paste into current buffer from clipboard::`P` or `C-S-v` (without prefix)
 
 Documentation search (cheat.sh)::`i`
 
 Detach::`d`
+
 Big clock::`t`
+
 Prompt for command::`:`
 
 ## Commands
@@ -151,4 +162,3 @@ Tmux copy mode - Start selection::`Space`
 ## References
 
 - [ ] [tmux 2: Productive Mouse-Free Development by Brian P. Hogan](https://pragprog.com/titles/bhtmux2/tmux-2/)
-
