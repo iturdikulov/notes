@@ -271,7 +271,7 @@ Move line downwards, on the first not blank character (ignore cursor position)::
 Move the cursor forward to the next sentence, top right corner (or table cell)::`)`
 <!--SR:!2023-06-07,2,208-->
 
-Move backward by a sentence, top right corner (or table cell)::`(`
+Move backward by a sentence, top right corner (or table cell)::`h`
 
 Move the cursor a paragraph backwards::`{`
 
@@ -301,49 +301,64 @@ Jump to previous position you were at::`C-o`
 
 Jump to more recent position you were a::`C-i`
 
-### Code navigation
+### Code navigation (usually aviable with some LSP server)
 
-Jump to function/variable definition::`gd`
+Search LSP symbols::`<leader>vws`, `<leader>vwS` for query
 
-Jump to function/variable declaration::`gD`
+Jump to function/variable declaration (head of function)::`gD`
+
+Jump to function/variable definition (body of function)::`gd`
+
+Go to type definition (object class for example)::`go`
+
+Jump to function/variable implementation::`gI`, TODO: not sure what this means
 
 Find symbol, find symbol based on grep:`<leader>vws[S]`
 
-Find usages/references::`gr`
+Find usages/references (where function/variable is used)::`gr`
 
-Go to previous/current file::`C-^`
+### Harpoon
+
+Quick switch to terminal and back workflow
+?
+Ctrl-Z while editing in vim to send it to background, do your thing on the
+terminal and use `fg` command at any time to bring up vim again.
+
+Add file into harpoon list::`<leader>a`
+
+Show harpoon menu::`C-M-e`
+
+Close harpoon menu::`q`, `Esc`
+
+Navigate to harpoon files:1 - `<C-s>`, 2 - `<C-t>`, 3 - `<C-m>`, 4 - `<C-n>`
 
 ### Help
 
 Hover help::`K`
 
-Dashit related documentation / ... in all docsets
-`<leader>dk`, `<leader>dK`
+Signature help (arguments information)::`C-F1`
 
-Dashit related documentation for visual selection / ... in all docsets
+Search related documentation in current/all docsets (dashit)::`<leader>dk`, `<leader>dK`
+
+Search related documentation for visual selection in current/all docsets (dashit)
 ?
 `<leader>ds`, `<leader>dS`
 
-Dashit related documentation under cursor / ... in all docsets
+Search related documentation under cursor in current/all docsets (dashit)
 ?
 `<leader>ds`, `<leader>dW`
 
-### Custom keybindings and commands
-
-Recent locations::`<leader>o`, `<leader>i`. TODO: which plugin is used?
+Recent locations by `cbochs/portal.nvim`::`<leader>o`, `<leader>i`
 
 ## Clipboard
 
-`ysiw[char]`:::change the surrounding of inner word
-<!--SR:!2023-06-06,1,191-->
+`yw`::yank up to end of word
 
-`ysWf ysWF`:::wrap text/word with function example
-
-`yw`::yank word
+`yiw`::yank inner word
 
 `yy`::yank (copy) a line
 
-`2yy`::yank 2 lines
+`2yy`::yank next 2 lines
 
 `y$`::yank to end of line
 
@@ -352,7 +367,7 @@ Recent locations::`<leader>o`, `<leader>i`. TODO: which plugin is used?
 `P`::put (paste) before cursor/current line
 <!--SR:!2023-06-06,2,228-->
 
-`:set`::paste avoid unexpected effects in pasting
+`:set paste`::avoid unexpected effects in pasting
 
 `:registers`::display the contents of all registers
 
@@ -360,7 +375,7 @@ Recent locations::`<leader>o`, `<leader>i`. TODO: which plugin is used?
 
 `"xyy`::yank line into register x
 
-`:[range]y`::x yank `[range]` lines into register x
+`:[range]y`, for example `:1,12y`::x yank `[range]` lines into register x
 
 `"xp`::put the text from register x after the cursor
 
@@ -375,25 +390,25 @@ Recent locations::`<leader>o`, `<leader>i`. TODO: which plugin is used?
 
 ## Changing text (editing)
 
+`<tab>`::by using `nvim-cmp` heavy autocomplete menu, support snippets if here not visible `cmp` menu
+
 `C-t` in insert mode::indent, other's editors `<tab>` alternative
 
 `C-d` in insert mode::unindent, other's editors `<S-tab>` alternative
 
-`cs[char][char or <tag>]`:::change the surrounding char to char or <tag>
+Run `normal mode` command in `insert mode` (i → n → i)::`C-o[command]`
 
-Run `normal mode` command in `insert mode`::`C-o[motion]`
+Read input character and insert it (useful to insert TAB character for example)::`C-q`
 
-Read input character and insert it (useful to insert TAB for example)::`C-q`
+Replace a single character::`r`
 
-Replace a single character (does not use insert mode)::`r`
-
-Enter `insert mode`, but replacing characters rather than inserting::`R`
+Enter sort of `insert mode`, but replacing characters rather than inserting::`R`
 
 Join line below to the current one::`J`
 
-Change (replace) an entire line::`cc`
+Change (replace) an entire line::`cc` or `S`
 
-(replace) to the end of word::`cw`
+Replace to the end of word::`cw`
 
 Change (replace) to the end of line::`C`
 
@@ -401,18 +416,16 @@ Change until \' character (or for any character)::`ct'` or `ct{char}`
 
 Delete character at cursor and substitute text::`s`
 
-Delete line at cursor and substitute text (same as cc)::`S`
+Transpose two letters (delete and paste, actually)::`xp`
 
-Transpose two letters (delete and paste, technically)::`xp`
-
-Reverse two letters (delete and paste, technically)::`Xp`
+Reverse two letters (delete and paste, actually)::`Xp`
 
 Undo changes::`u`
 
 Redo changes::`C-r`
 <!--SR:!2023-06-05,1,209-->
 
-Insert content of register r (`in insert mode`)::`C-rr`
+Insert content of register x (`in insert mode`)::`C-r` then `x`
 
 Repeat last command::`.`
 
@@ -431,7 +444,9 @@ Make lowercase until end of line::`gu$`
 
 Change line to UPPER::`gUU`
 
-Fill text::`gw`
+Change line to lower::`guu`
+
+Fill text (format)::`gw[motion]` (save cursor position) or `gx[motion]`
 <!--SR:!2023-06-06,1,208-->
 
 Swap current line with next (line down)::`ddp`
@@ -443,30 +458,25 @@ Duplicate line and stay on same line::`yyP`
 
 Fix spaces / tabs issues in whole file::`:%retab`
 
-### Code editing
+Insert new line above/below (custom keybinding and command)::`[<space>`, `]<space>`, TODO: delete line above/below?
 
-How to check file was changed
-?
-In neovim it's `[+]` in the status line (after filename)
+### kylechui/nvim-surround
 
-Code formatting (using LSP), custom binding::`<leader>f`
-
-Code actions (inline action)::`<leader>vaa`
-
-### Custom keybindings and commands
-
-Insert new line above/below::`[<space>`, `]<space>`
+- Surround word with \" character::`ysiw"`, surround_words
+- Make strings, insert double quote from position to end of line::`ys$"`, *make strings
+- Delete around two `[` `]` characters::`ds]` [delete *around me!]
+- Remove surround HTML tags::`dst` <b>HTML *tags</b>
+- Change single quotes to double::`cs'"`, 'change *quotes'
+- Change the surrounding char to char or tag::`cs[char][t]`, '*surround char'
+- Change surround HTML tags::`csth1<CR>` `<b>or tag* types</b>`
+- Delete function calls, like `foo(bar)`::`dsf`, `foo(bar)`
+- Wrap text/word with function example::`ysWf ysWF`, *bar
 
 ## Deleting text
 
-`ds[char or t]`:::deletes the surrounding char or HTML element
-<!--SR:!2023-06-06,1,208-->
+Delete current character, previous character::`x`, `X`
 
-Delete current character, previous character::`x`
-
-Delete previous character::`X`
-
-Delete the current word::`dw`
+Delete the current word (from current position)::`dw`
 
 Delete (cut) a line::`dd`
 
@@ -478,8 +488,6 @@ Delete from cursor to end of line::`D`
 Delete \[range\] lines::`:[range]d`
 
 ## Formatting
-
-TODO: Markdown plugin
 
 `>>`::indent line one column to right
 
@@ -496,27 +504,29 @@ TODO: Markdown plugin
 `<`::shift left in visual mode (v)
 <!--SR:!2023-06-06,1,208-->
 
+Code formatting (using LSP), custom binding::`<leader>f`
+
 ### Markdown
 
 Go to previous/next heading::`[[` / `]]`
 
-Go to link::`gx`
+Go to link text::`gx`
 
-TODO toggle, search, mark (plugin?)
+Go to link file::`gf`
 
-TODO: [Automatic list continuation and formatting for neovim, powered by lua](https://github.com/gaoDean/autolist.nvim), renumber automatically?
+Toggle checkbox:`<leader>tt`
 
-TODO: broken, bullet promote::`<C-d>` or `<<` or `<` in visual mode
+Renumber numbered list::`gN`
 
-TODO: HTML to markdown > clipboard > paste
-
-Toggle checkbox::`<leader>tT`
+Bullet promote::`<C-d>` or `<<` or `<` in visual mode
 
 Bullet demote::`<C-t>` or `>>` or `>` in visual mode
 
-URL to markdown > clipboard > paste::`<S-v>`
+URL to markdown → clipboard → paste::<S-v>
 
-### [markdowny.nvim](https://github.com/antonk52/markdowny.nvim)
+TODO: HTML/other? to Markdown → clipboard → paste
+
+### antonk52/markdowny.nvim
 
 Make visual selection bold::`<C-b>`
 Make visual selection italic::`<C-i>`
@@ -538,36 +548,34 @@ Make visual selection link::`<C-k>`
 
 `C-v`:::start visual block mode
 
-`aw`:::mark a word
+`vaw`:::mark a word
 
-`ab`:::mark a () block (with braces)
+`vab`:::mark a () block (with braces)
 
-`ib`:::mark inner () block
+`vib`:::mark inner () block
 
 `ggVG`:::Select All
 <!--SR:!2023-06-08,3,228-->
 
-`vc`:::change (replace) marked text
+`c` in visual mode:::change (replace) marked text
 
-`y`:::yank (copy) marked text
+`y` in visual mode:::yank (copy) marked text
 
-`vd`:::delete marked text
+`d` in visual mode:::delete marked text
 
-`v~`:::switch case
+`~` in visual mode:::switch case
 `
-`v%`:::selects matching parenthesis
+`v%`:::selects matching (parenthesis)
 <!--SR:!2023-06-06,1,208-->
 
-`vi{`:::selects matching curly brace
+`vi{`:::selects matching {curly brace}
 
-`vi"`:::selects text between double quotes
+`vi"`:::selects text between "double quotes"
 <!--SR:!2023-06-06,2,229-->
-
-`vi'`:::selects text between single quotes
 
 `viW|vis|vip|viB`:::select word, sentence, paragraph, innermost brackets
 
-`vt|vT|vf|VF`:::select and search
+`vt[motion]|vT[motion]|vf[motion]|VF[motion]`:::select and search
 <!--SR:!2023-06-07,2,209-->
 
 ## Fold
@@ -1079,32 +1087,16 @@ this better! (Mapped to `S-v`).
 
 ----
 
-### Harpoon n\*
-
-- [ ] quick switch to terminal
-      Ctrl-Z while editing in vim to send it to background, do your thing on the terminal and use fg at any time to bring up vim again.
-      C-\ switch to terminal
-
-- [x] add file into harpoon list::`leader-a`
-
-- [x] show harpoon menu::`c-e`
-
-- [x] close harpoon menu::`q`, `Esc`
-
-- [x] switch harpoon items::`c-t`, `c-n c-m-t c-m-n`\*
-
-
-## Vim surround
-
-- [x] `surr*ound_words ysiw)` (surround_words)
-- [x] `*make strings ys$"` "make strings"
-- [x] `[delete ar*ound me!] ds]` delete around me!
-- [x] remove `<b>HTML t*ags</b> dst` remove HTML tags
-- [x] change `quot*es' cs'"` "change quotes"
-- [x] `<b>or tag* types</b> csth1<CR>` `<h1>or tag types</h1>` n\*
-- [x] `delete(functi*on calls) dsf` function calls n\*
 
 ## Code refactoring
+
+- Code actions (inline action)::`<leader>vaa`
+
+- Open diagnostic (typo/error/warning information) in floating window::`gl`
+
+- Go to previous diagnostic::`[d`
+
+- Go to next diagnostic::`]d`
 
 - [x] list document trouble::`<leader>xq`
 
@@ -1352,7 +1344,7 @@ some errors in my setup, don't really used it.
 
 - [x] diagnostics `<Leader>vd`
 
-- [x] rename object (using LSP):`<Leader>vrn`
+- Rename object (using LSP)::`<Leader>vrn`
 
 - [ ] close all windows except current::`<C-w>o`
 
@@ -1401,6 +1393,10 @@ structure. n\*
 - [ ] [Fold](https://learnvim.irian.to/basics/fold)
 
 ## Custom
+
+How to check file was changed ("tjdevries/express_line.nvim" status line plugin)
+?
+In neovim it's `[+]` in the status line (after filename)
 
 map specific insert key in specific terminal: CTRL-K CTRL-F1 to get key code,
 then map it...
