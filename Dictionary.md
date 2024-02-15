@@ -283,3 +283,5 @@ meaning of words.
 - оперативная память
 - обьем
 - persistent
+- tedious
+- surround
