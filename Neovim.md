@@ -94,6 +94,8 @@ Use (a/i/r) keys:
 
 ## Search & replace
 
+Grep content in current project and open find toolbar (custom)::`<leader>fs`
+
 `/`::search mode
 
 `?`::backward search mode
@@ -301,6 +303,22 @@ Jump to previous position you were at::`C-o`
 
 Jump to more recent position you were a::`C-i`
 
+Find link under cursor::`gx` - open URL under cursor (`netrw-gx`)
+<!--SR:!2023-06-05,1,211-->
+
+### Marks
+
+List all the current marks::`:marks`
+<!--SR:!2023-06-06,3,250-->
+
+Make a bookmark named `a` at the current cursor position::`m[a]`
+
+Go to position of bookmark `a`::`` `[a] ``
+
+Go to the line with bookmark `a`::`'[a]`
+
+Go to the line that you last edited::`` `. ``
+
 ### Code navigation (usually aviable with some LSP server)
 
 Search LSP symbols::`<leader>vws`, `<leader>vwS` for query
@@ -316,21 +334,6 @@ Jump to function/variable implementation::`gI`, TODO: not sure what this means
 Find symbol, find symbol based on grep:`<leader>vws[S]`
 
 Find usages/references (where function/variable is used)::`gr`
-
-### Harpoon
-
-Quick switch to terminal and back workflow
-?
-Ctrl-Z while editing in vim to send it to background, do your thing on the
-terminal and use `fg` command at any time to bring up vim again.
-
-Add file into harpoon list::`<leader>a`
-
-Show harpoon menu::`C-M-e`
-
-Close harpoon menu::`q`, `Esc`
-
-Navigate to harpoon files:1 - `<C-s>`, 2 - `<C-t>`, 3 - `<C-m>`, 4 - `<C-n>`
 
 ### Help
 
@@ -472,7 +475,15 @@ Insert new line above/below (custom keybinding and command)::`[<space>`, `]<spac
 - Delete function calls, like `foo(bar)`::`dsf`, `foo(bar)`
 - Wrap text/word with function example::`ysWf ysWF`, *bar
 
-## Deleting text
+### Macro
+
+record macro / stop recording macro::`q<register>`
+
+play macro::`@<register>`
+
+replay last command (from command line)::`@:`
+
+### Deleting text
 
 Delete current character, previous character::`x`, `X`
 
@@ -487,6 +498,18 @@ Delete from cursor to end of line::`D`
 
 Delete \[range\] lines::`:[range]d`
 
+### `numToStr/Comment.nvim`
+
+Line-comment::`gc[motion]`, `gc` in visual mode
+
+Block-comment::`gb[motion]`, `gb` in visual mode
+
+Add comment on the line above::`gcO`
+
+Add comment on the line below::`gco`
+
+Add comment at the end of line::`gcA`
+
 ## Formatting
 
 `>>`::indent line one column to right
@@ -499,12 +522,28 @@ Delete \[range\] lines::`:[range]d`
 
 `=`::indent text, works with visual selection
 
-`>`::shift right in visual mode (v)
+`>`::shift right in visual mode <!-- (v) -->
 
 `<`::shift left in visual mode (v)
 <!--SR:!2023-06-06,1,208-->
 
 Code formatting (using LSP), custom binding::`<leader>f`
+
+### Code refactoring and diagnostic
+
+Code actions (inline action)::`<leader>vaa`
+
+Open diagnostic (typo/error/warning information) in floating window::`gl`
+
+Go to previous diagnostic::`[d`
+
+Go to next diagnostic::`]d`
+
+List document trouble::`<leader>xd`
+
+List workspace trouble::`<leader>xw`
+
+Suggest word (spell check)::`z=`
 
 ### Markdown
 
@@ -525,6 +564,30 @@ Bullet demote::`<C-t>` or `>>` or `>` in visual mode
 URL to markdown → clipboard → paste::<S-v>
 
 TODO: HTML/other? to Markdown → clipboard → paste
+
+### Markdown Snippets
+
+`codeblock`::insert code block
+`code`::insert inline code
+
+`pyc`::insert python code block
+`javac`::insert java code block
+`clc`::insert c code block
+<!--SR:!2023-06-05,2,230-->
+`cppc`::insert CPP code block
+`jsc`::insert JavaScript code block
+`phpc`::insert PHP code block
+<!--SR:!2023-06-05,2,233-->
+`sqlc`::insert SQL code block
+`tsc`::insert typescript code block
+`rubyc`::insert ruby code block
+`goc`::insert go code block
+<!--SR:!2023-06-06,2,210-->
+`rustc`::insert rust code block
+`lua`::insert Lua code block
+<!--SR:!2023-06-06,2,231-->
+`shc`::insert bash code block
+<!--SR:!2023-06-05,2,233-->
 
 ### antonk52/markdowny.nvim
 
@@ -550,7 +613,7 @@ Make visual selection link::`<C-k>`
 
 `vaw`:::mark a word
 
-`vab`:::mark a () block (with braces)
+`vab`:::mark a block (with braces)
 
 `vib`:::mark inner () block
 
@@ -580,16 +643,12 @@ Make visual selection link::`<C-k>`
 
 ## Fold
 
-TODO: need test
-
-Fold text object ...<motion>
-?
-`zf`
+Fold text object (motion)::`zf[motion]`
 
 `zf#j`:::creates a fold from the cursor down # lines.
 <!--SR:!2023-06-06,1,208-->
 
-`zf/`:::string creates a fold from the cursor to string.
+`zf/[string]`:::string creates a fold from the cursor to string.
 
 `zj`:::moves the cursor to the next fold.
 
@@ -616,7 +675,7 @@ Fold text object ...<motion>
 
 `]z`:::move to end of open fold.
 
-`za`:::toggle fold *
+`za`:::toggle fold
 <!--SR:!2023-06-06,2,228-->
 
 `zo|zc`:::Fold/Unfold
@@ -624,32 +683,20 @@ Fold text object ...<motion>
 `zO|zC`:::open all nested folds, close all nested folds
 <!--SR:!2023-06-06,1,208-->
 
-## Bookmarks
-
-List all the current marks::`:marks`
-<!--SR:!2023-06-06,3,250-->
-
-Make a bookmark named `a` at the current cursor position::`m[a]`
-
-Go to position of bookmark `a`::`` `[a] ``
-
-Go to the line with bookmark `a`::`'[a]`
-
-Go to the line that you last edited::`` `. ``
-
 ## Files
 
-Switch to previous file, the best alternative to `c-o`
-Useful to check `harpoon`
+Quick switch to terminal and back workflow
+?
+Ctrl-Z while editing in vim to send it to background, do your thing on the
+terminal and use `fg` command at any time to bring up vim again.
+
+Switch to previous file, the best alternative
 ?
 `c-^`
 
 `:e [filename]` or `:edit [filename]`
 ?
 Edit file, support `tab` completion. Can be used instead touch and edit files.
-Also works outside vim (with my alias `e`)
-
-Switch to buffer whose filename begins with "vimrc"::`:b vimrc[tab]`
 
 Edit the file whose name is under or after the cursor::`gf`
 <!--SR:!2023-06-06,1,208-->
@@ -658,39 +705,63 @@ Edit the file whose name is under or after the cursor::`gf`
 
 `:q!` or `ZQ`::quit without saving and ignore changes
 
-quit without saving and exit with error code::`:cq`
+Quit without saving and exit with error code::`:cq`
 
-exit::`:q`
+Exit::`:q`
 
-save without exiting::`:w` or custom keybinding `C-s`
+Save without exiting::`:w`
 
 Save with some name (save as)::`:w [filename]`
 
-write the current file and exit `:wq [file]`
+Write the current file and exit::`:wq [file]`
 
-write/force write and exit `:wq! [file]`
+Write/force write and exit::`:wq! [file]`
 
-write/force write and exit, but only write the lines in \[range\] `:[range]wq[!]`
+Write/force write and exit, but only write the lines in \[range\] `::[range]wq[!]`
 
-## Custom keybindings and commands
+### Netrw and file management
 
-- Close all buffers except current and stay on original cursor position
-?
-`<leader>bD`, command - `:%bd\|e#\|bd#<cr>\|'"`
+I described all netrw related stuff in [[Netrw]] note.
 
-## Macro
+`cd` to parent directory (2 levels)::`:cd ../..`
 
-record macro / stop recording macro::`q<register>`
+`cd` to current file directory::`:cd %:h`
 
-play macro::`@<register>`
+`cd` to home directory::`:cd`
 
-replay last command::`@:`
+`cd` to previous directory::`:cd -`
+
+Print current directory and file path:`:pwd`, `:pw`
+
+`cd` to current file path (custom)::`<leader>z%`
+
+File browser plugin in CWD::`<SPC>pv` or `:Ex`
+
+### Harpoon
+
+Add file into harpoon list::`<leader>a`
+
+Show harpoon menu::`C-e`
+
+Close harpoon menu::`q`, `Esc`
+
+Navigate to harpoon files:1 - `<C-s>`, 2 - `<C-t>`, 3 - `<C-m>`, 4 - `<C-n>`
+
+Toggle Next/Previous buffer::`C-M-N`, `C-M-P`
+
+### Telescope
+
+Find file, with history and fuzzy search::`M-p`
+
+Locate file in telescope file manager::`<leader>pV`
+
+Recent files (telescope old files)::`<M-e>`
 
 ## Vim Text objects (motions)
 
-outer::`a`
+outer::`[command]a[motion]`
 
-inner::`i`
+inner::`[command]i[motion]`
 
 word::`w`
 
@@ -699,55 +770,34 @@ sentence::`s`
 
 paragraph::`p`
 
-TODO: need check
-argument (require plugin, works inside brackets)::`a`
+around::`a`
 
-single and double quote::`❜` `"`
+single and double quote::`'` `"`
 
 back quote::`` ` ``
 
 a parenthesized block::`)` `}`
 
-a tag::`t`
+a tag::`t`, <div>test</div>
 <!--SR:!2023-06-06,2,231-->
 
 a single tag::`>`
 
 entire content::`e`
 
-### [nvim-treesitter/nvim-treesitter-textobjects](https://github.com/nvim-treesitter/nvim-treesitter-textobjects) plugin
-
-TODO: add more examples
+### nvim-treesitter/nvim-treesitter-textobjects
 
 `B`::code block
-`iB`::inner code block
 
-## Advanced
+`iB`::inner code block (function definition)
 
-`zf`::fold text object
-<!--SR:!2023-06-06,2,228--> (can create fold)
+`aB`::outer block (function definition and declaration)
 
-Find link under cursor::`gx` - open URL under cursor (`netrw-gx`)
-<!--SR:!2023-06-05,1,211-->
+`ac`::Class outer
 
-Type ==`tab`== to complete a command
+`ic`::Inner part of a class region
 
-Open list of possible commands in command mode::`C-d`
-
-List previous commands in command mode::`C-f`
-
-### Spell checking
-
-`]d`::next diagnostic
-
-`[d`::previous diagnostic
-
-`z=`::suggest word
-
-TODO: not working with ltex
-`]s` next misspelled word
-`[s` previous misspelled word
-`zg` add word to wordlists
+`as`::Language scope
 
 ## Vim registers
 
@@ -760,7 +810,7 @@ You can use the `:reg[a|b|c]` command to see all the registers and their
 content. If you use `qw` to record a macro, the register `"w` will have all
 actions which you have done.
 
-The unnamed register (yank, delete)::`""`
+The unnamed register (yank, delete)::`""`, TODO: need review
 
 10 numbered registers (latest yank, newest, ..., oldest)::`"0` to `"9`
 
@@ -784,7 +834,7 @@ Last search pattern register::`"/`
 
 The small delete register::`"-`
 
-The expression register, useful for calculation::`C-r =...` `"=`
+The expression register, useful for calculation::`"=`, `C-r =...`
 
 ## Paths and history
 
@@ -804,61 +854,43 @@ Get directory containing file ('head')
 
 How to paste yanked text into the Vim command line?
 ?
-Hit `<C-r>"`. If you have literal control characters in what you have yanked, use `<C-r><Ctrl-o>"`.
-[Source](https://stackoverflow.com/questions/3997078/how-to-paste-yanked-text-into-the-vim-command-line)
+Hit `<C-r>"`. If you have literal control characters in what you have yanked,
+use `<C-r><Ctrl-o>"`.
 
 How to paste system clipboard into the Vim command line?
 ?
-I use `C-S-v`, it's working in my terminal. Or use `<C-r>"`.
-
-How to open terminal?
-?
-You can use this shortcut `C-\`. To go back, exit from insert mode (`C-\\`)
-and use `C-^`.
-
-TODO: Open term in popup window?
+I use `C-S-v`, it's working in my terminal. Or use `<C-r>+`.
 
 How to open terminal in vertical split?
 ?
-`:vsplit term://some command`
+`:vsplit term://zsh` to run Z-shell
 
 How do you search through Vim's command history?
 ?
-Use `q:` or `q/` in normal mode and then press `/`.
+I use telescope commands history (`<leader>fc`).
+You can also use `q:` or `q/` in normal mode and then press `/`.
 Press `C-f` in command mode to open the command history window.
 For more about the command history window, see `:h cmdwin`.
 
 How quickly close command history window?
 ?
-`<C-c><C-c>`
-
-## Buffers
-
-List buffers
-?
-`:buffers` - built-in command
-`:Telescope buffers` - telescope command, or `M-b` hotkey.
-
-Switch to buffer
-?
-`:b <buffer name>` or `:b <buffer number>`
-
-Create new scratch buffer::`:enew`
+`<C-c>[<C-c>]`
 
 ## Windows
 
-You can use vim motion keys to navigate between open windows, for example to navigate to left window?
+You can use vim motion keys to navigate between open windows, for example to
+navigate to left window?
 ?
 `C-w h`
 So moving between windows can be done with `C-w` followed by `h/j/k/l` for
 left/down/up/right navigation respectively.
 
-split open file::`:sp f`
+Split open file::`:sp <file path>`
 
-vertical split open file::`:vsp f`
+Vertical split open file::`:vsp <file path>`
 <!--SR:!2023-06-05,1,193-->
 
-next/previous tab::`gt gT`
+Next/previous tab::`gt gT`
 
 `C-w v`::window split vertically
 <!--SR:!2023-06-06,2,213-->
@@ -870,14 +902,6 @@ next/previous tab::`gt gT`
 
 `C-w q`::to kill windows (quit window). Better `bd` replacement
 <!--SR:!2023-06-06,3,250-->
-
-Delete current buffer::`<leader>bd` or `:bd`
-
-Close all buffers except current one::`<leader>bD`
-
-Maximize buffer height::`C-w _`
-
-Maximize buffer width::`C-w |`
 
 `C-w >` and `C-w <`:::Increase and decrease window width
 
@@ -894,24 +918,42 @@ Swap windows::`C-w x`
 
 Open current window in new tab::`C-w T`
 
-jumps to the last window you used \*::`C-w C-p`
+Jump to N (1-9) buffer::`C-w N`, where N is 1-9
+
+Jumps to the last window you used::`C-w C-p`
 
 Create a new window and start editing an empty file in it::`:new` or `C-w n`
 
-## Workspaces
+### Buffers
 
-Workspaces: Neovim doesn't have native workspace support like Emacs. However,
-you can achieve similar functionality using tabs or different instances of
-Neovim. Personally I use [[Tmux]] with sessionizer script (bind to `Tmux prefix
-+ f`).
+Switch to buffer whose filename begins with "vimrc"::`:b vimrc[tab]`
 
-TODO: tab commands and hotkeys?
+List buffers
+?
+`:buffers` - built-in command
+`:Telescope buffers` - telescope command, or `M-b` hotkey.
+
+Switch to buffer
+?
+`:b <buffer name>` or `:b <buffer number>`
+
+Create new scratch buffer::`:enew`
+
+Close all buffers except current and stay on original cursor position (custom)
+?
+`<leader>bD`, command - `:%bd\|e#\|bd#<cr>\|'"`
+
+Delete current buffer::`<leader>bd` or `:bd`
+
+Maximize buffer height::`C-w _`
+
+Maximize buffer width::`C-w |`
 
 ## Sessions
 
 `:h shada`::opens shada help, viminfo analog, store various settings
 
-Save current session
+Save current session (vim script)
 ?
 `:mksession`, more info: `:h mksession`
 
@@ -929,193 +971,40 @@ Load view
 `:loadview [N]`, N is a view name (1-9)
 <!--SR:!2023-06-06,1,208-->
 
-## Netrw and file management
-
-I described all netrw related stuff in [[Netrw]] note.
-
-`cd` to parent directory (2 levels)::`:cd ../..`
-
-`cd` to current file directory::`:cd %:h`
-
-`cd` to home directory::`:cd`
-
-`cd` to previous directory::`:cd -`
-
-### Custom keybinding and commands
-
-`cd` to current file path::`<leader>z%`
-
-grep content in current project and open find toolbar::`<leader>fs`
-
-### Telescope and telescope plugins
-
-Locate file in telescope file manager::`<leader>pV`
-
-Recent files (telescope old files)::`<M-e>`
-
-- [x] find file, with history and fuzzy search::`M-p`
-- [x] telescope resume::`<m-P>` n\*
-
-
-## Customization
-
-`C-s`::save current buffer
-
-`M-\`::toggle copilot
-
-TODO: not working
-`M-S-del`::delete current file, warning deleting without confirmation. TODO: use trash-cli
-<!--SR:!2023-06-06,2,228-->
-
-## Plugins
-
-`SPC v p p`::open the packer config
-
-`C-p`::open file in project (`Telescope find_files`)
-
-`SPC SPC`::open file in project using `Telescope frecency` (recently used files). TODO: I'm not using this need review.
-
-`<SPC>pv`::to open the file browser plugin in CWD
-
-`:Explore`::open file browser (native) in CWD
-
-## Commenting
-
-TODO: need to review this (more examples)
-
-TODO: comment plugin describe
-
-comment line::`gcc`
-
-comment motion::`gc[motion,a]`
-
-### Markdown Snippets
-
-TODO: which plugin used?
-
-`codeblock`::insert code block
-
-`code`::insert inline code
-
-`pyc`::insert python code block
-
-`javac`::insert java code block
-
-`clc`::insert c code block
-<!--SR:!2023-06-05,2,230-->
-
-`cppc`::insert CPP code block
-
-`jsc`::insert JavaScript code block
-
-`phpc`::insert PHP code block
-<!--SR:!2023-06-05,2,233-->
-
-`sqlc`::insert SQL code block
-
-`tsc`::insert typescript code block
-
-`rubyc`::insert ruby code block
-
-`goc`::insert go code block
-<!--SR:!2023-06-06,2,210-->
-
-`rustc`::insert rust code block
-
-`lua`::insert Lua code block
-<!--SR:!2023-06-06,2,231-->
-
-`shc`::insert bash code block
-<!--SR:!2023-06-05,2,233-->
-
 ### Telekasten
 
-TODO: need review
+Find notes::`<leader>tf`
 
-Find notes::`<leader>zf`
+Search word under cursor in notes::`<leader>tg`
 
-Search **in** notes::`<leader>zg`
+Follow link::`<M-CR>`
 
-Follow link::`<leader>zz`
+Create new note::`<leader>tn`
 
-Find weekly notes::`<leader>zw`
-
-List weeks::`<leader>zW`
-<!--SR:!2023-06-08,3,248-->
-
-Create new note::`<leader>zn`
-
-Create new note from template::`<leader>zN`
+Create new note from template::`<leader>tN`
 <!--SR:!2023-06-06,2,213-->
 
-Yank note link::`<leader>zy`
+Yank note link::`<leader>ty`
 <!--SR:!2023-06-07,2,228-->
 
-Show calendar::`<leader>zc`
+Paste link::`<leader>ti`
 
-Full Calendar::`<leader>zC`
+Paste image and link::`<leader>tI`
 
-Paste link::`<leader>zi`
+Toggle TODO (including visual)::`<leader>tt`
 
-Paste image and link::`<leader>zI`
+Show tags::`<leader>t#`
 
-Toggle TODO (including visual)::`<leader>zt`
+Show backlinks::`<leader>tb`
 
-Show tags::`<leader>z#`
+Find friends (works when cursor in a link)::`<leader>tF`
 
-Show backlinks::`<leader>zb`
-
-Find friends::`<leader>zF`
-
-Preview image::`<leader>zp`
+Preview image::`<leader>tp`
 <!--SR:!2023-06-06,2,210-->
 
-Browse media::`<leader>zm`
+Browse media::`<leader>tm`
 
-Rename note::`<leader>zr`
-
-## Lua in neovim
-
-`:lua =vim.lsp.buf_get_clients()`::list LSP clients
-
-## Scripts
-
-If you need markdown links, use ==`url_to_markdown.sh`== script. TODO: automate
-this better! (Mapped to `S-v`).
-<!--SR:!2023-06-06,2,228-->
-
-
-----
-
-
-## Code refactoring
-
-- Code actions (inline action)::`<leader>vaa`
-
-- Open diagnostic (typo/error/warning information) in floating window::`gl`
-
-- Go to previous diagnostic::`[d`
-
-- Go to next diagnostic::`]d`
-
-- [x] list document trouble::`<leader>xq`
-
-- [x] list workspace trouble::`<leader>xQ`
-
-- [x] from the quick-menu, open a file in splits
-      ?
-      a vertical split with `C-v`, a horizontal split with `C-x`, a new tab with `C-t`
-
-- [x] black integration, for neovim using `efm` and `vim.lsp.buf.format()`. For
-      pycharm using plugin.
-
-- [x] linter integration, [GitHub - astral-sh/ruff-lsp: A Language Server Protocol implementation for Ruff.](https://github.com/astral-sh/ruff-lsp)
-      Added but with zero configuration. n\*
-
-## Code autocompletion
-
-- confirm autocomplete::`RET`
-- snippets in autocomplete by using [GitHub - [L3MON4D3/LuaSnip](https://github.com/L3MON4D3/LuaSnip)
+Rename note::`<leader>tr`
 
 ## Code run/debugging/testing
 
@@ -1125,8 +1014,6 @@ this better! (Mapped to `S-v`).
 
 You could also use ==`w !python`== to run your python program (no need to save,
 it will pass the content as stdin, that's what w ! is for).
-
-- auto-import with LSP
 
 - telescope-dap.nvim prefix::`<leader>dl?`
 
@@ -1180,20 +1067,15 @@ it will pass the content as stdin, that's what w ! is for).
 
 - [x] [neotest](https://github.com/harrisoncramer/nvim/blob/main/lua/plugins/neotest.lua)
 
-## Errors and warnings navigation
+### JS debugging (browser)
 
-- [x] go to next/previous error::`[d` `]d`
+- [ ] Probably easily just use chrome built-in debugger/sourcemaps
+- [x] [How to configure the DAP debugger under neovim for typescript? - Stack Overflow](https://stackoverflow.com/questions/71810002/how-to-configure-the-dap-debugger-under-neovim-for-typescript)
+- [ ] [Break points do not work · Issue #14 · mxsdev/nvim-dap-vscode-js · GitHub](https://github.com/mxsdev/nvim-dap-vscode-js/issues/14)
 
-- [x] go to file with error (under cursor)::`gf` or `gF` n\*
+### VCS (Fugitive)
 
-## VCS n\*
-
-NOTE: I just won't deeply integrate VCS keybindings into pycharm (and it's maybe
-even not easy to implement same workflow like in neovim/vim-fugitive). So I
-decided use only neovim/vim-fugitive for VCS work. Also, this will help me to
-switch into Neovim/Vim easily.
-
-### Fugitive
+- [x] open git commit UI, git status::`<Leader>gg`
 
 - [x] import fugitive.lua keybindings
 
@@ -1336,8 +1218,6 @@ some errors in my setup, don't really used it.
 
 - [x] find hotkey/action::`<leader>fk` in vim to find action use `<leader>fK`
 
-- [x] open git commit UI, git status::`<Leader>gg`
-
 - [x] show diff from git history::`Return`, in `Pycharm` it's `Ctrl+D` \*
 
 - [x] open fugitive object in new split::`o` or `O` n\*
@@ -1369,12 +1249,6 @@ structure. n\*
 - [ ] [vim-dadbod-ui/doc/dadbod-ui.txt at master · kristijanhusak/vim-dadbod-ui · GitHub](https://github.com/kristijanhusak/vim-dadbod-ui/blob/master/doc/dadbod-ui.txt)
 - [ ] vim-dadbod-ui [GitHub - kristijanhusak/vim-dadbod-ui: Simple UI for https://github.com/tpope/vim-dadbod](https://github.com/kristijanhusak/vim-dadbod-ui#mappings) full-featured database client, possible set values, load values from files, query, work with multiple databases
 
-## JS debugging (browser)
-
-- [ ] Probably easily just use chrome built-in debugger/sourcemaps
-- [x] [How to configure the DAP debugger under neovim for typescript? - Stack Overflow](https://stackoverflow.com/questions/71810002/how-to-configure-the-dap-debugger-under-neovim-for-typescript)
-- [ ] [Break points do not work · Issue #14 · mxsdev/nvim-dap-vscode-js · GitHub](https://github.com/mxsdev/nvim-dap-vscode-js/issues/14)
-
 ## Learn
 
 - [x] [How to: Create a git Merge Conflict](https://jonathanmh.com/how-to-create-a-git-merge-conflict/)
@@ -1392,7 +1266,16 @@ structure. n\*
 - [ ] [GitHub - stevearc/aerial.nvim: Neovim plugin for a code outline window](https://github.com/stevearc/aerial.nvim)
 - [ ] [Fold](https://learnvim.irian.to/basics/fold)
 
-## Custom
+## Scripts and custom notes
+
+`SPC v p p`::open the packer config
+
+Type ==`tab`== to complete a command
+
+Open list of possible commands in command mode::`C-d`
+
+List previous commands in command mode::`C-f`
+
 
 How to check file was changed ("tjdevries/express_line.nvim" status line plugin)
 ?
@@ -1400,6 +1283,12 @@ In neovim it's `[+]` in the status line (after filename)
 
 map specific insert key in specific terminal: CTRL-K CTRL-F1 to get key code,
 then map it...
+
+list LSP clients::`:lua =vim.lsp.buf_get_clients()`
+
+If you need markdown links, use ==`url_to_markdown.sh`== script. TODO: automate
+this better! (Mapped to `S-v`).
+<!--SR:!2023-06-06,2,228-->
 
 ## TODO
 
