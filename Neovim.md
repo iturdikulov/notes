@@ -52,7 +52,6 @@ looking for configuration files in `$XDG_CONFIG_HOME/neovim` instead of
 
 Hide line numbers::`:set nonu nornu` or `:set nonumber norelativenumber`.
 Get variable value - `:set nonu?`.
-Find keybinding by using `what-key`::`<leader>fk`, TODO: need to change, conflict with auto-format
 
 ## Basics
 
@@ -897,6 +896,8 @@ Next/previous tab::`gt gT`
 
 `C-w s`::window split horizontal
 
+Jumps to the last window you used::`C-w C-p`
+
 `C-w C-w`::to switch windows
 <!--SR:!2023-06-07,2,228-->
 
@@ -919,8 +920,6 @@ Swap windows::`C-w x`
 Open current window in new tab::`C-w T`
 
 Jump to N (1-9) buffer::`C-w N`, where N is 1-9
-
-Jumps to the last window you used::`C-w C-p`
 
 Create a new window and start editing an empty file in it::`:new` or `C-w n`
 
@@ -1015,87 +1014,82 @@ Rename note::`<leader>tr`
 You could also use ==`w !python`== to run your python program (no need to save,
 it will pass the content as stdin, that's what w ! is for).
 
-- telescope-dap.nvim prefix::`<leader>dl?`
+Run debugger configuration/continue::`<F5>`
 
-- view breakpoints::`<leader>dlb`
+Run last debug configuration::`<leader>dr`
 
-- run debugger configuration/continue::`<F5>`
+Toggle breakpoint::`<leader>db[B]`
 
-- run last debug configuration::`<leader>dr`
+Stop debugger::`<leader>dx`
 
-- toggle breakpoint::`<leader>db[B]`
+Step back::`<F1>`
 
-- stop debugger::`<leader>dx`
+Step into (line-by-line)::`<F2>`
 
-- step back::`<F1>`
+Step over (less detailed debug)::`<F3>`
 
-- step into::`<F2>`
+Step out (return to caller)::`<F4>`
 
-- step over::`<F3>`
+Jump to cursor::`<F7>`
 
-- step out::`<F4>`
+Run to cursor::`<leader>dC`
 
-- jump to cursor::`<S-F1>` \*
+Evaluate expression::`<leader>due`
 
-- run to cursor::`<leader>dC`
+Run line/block/object using [[Sniprun]]::`<leader>ze[motion]`
 
-- evaluate expression
+### Neotest
 
-- run current test file::`<leader>dnf`
+Rerun the last test::`<leader>dnl`::
 
-- run current test::`<leader>dnn`
+Run current test file::`<leader>dnf`
 
-- [ ] coverage test, [andythigpen/nvim-coverage](https://github.com/andythigpen/nvim-coverage)?
+Run current test::`<leader>dnn`
 
-- [ ] generate test, AI-test generate? [jackMort/ChatGPT.nvim](https://github.com/jackMort/ChatGPT.nvim)
+Debug the nearest test::`<leader>dnc`
 
-- `<leader>zee`::run current file using [[Sniprun]]
+Open test results::`<leader>dno`
 
-- [ ] run group of tests (directory), pytest cwd?
+Stop nearest test:`<leader>dns`
 
-- [ ] CI/Reporting workflow
+Show summary::`<leader>dnS`, in summary here custom keys, search `(Neotest Summary)`
 
-- `<leader>dnl`::rerun the last test
+Toggle output panel::`<leader>dnt`
 
-- [x] debug the nearest test::`<leader>ddc`
+### Telescope DAP
 
-- [x] open test results::`<leader>dno`
+Telescope DAP Commands::`<leader>dlk`
 
-- [x] show summary::`<leader>dns`
+Telescope DAP List Breakpoints::`<leader>dlb`
 
-- [x] toggle output panel::`<leader>dnt`
+Telescope DAP Configurations::`<leader>dlc`
 
-- [x] [neotest](https://github.com/harrisoncramer/nvim/blob/main/lua/plugins/neotest.lua)
+Telescope DAP Variables::`<leader>dlv`
 
-### JS debugging (browser)
+Telescope DAP Frames::`<leader>dlf`
 
-- [ ] Probably easily just use chrome built-in debugger/sourcemaps
-- [x] [How to configure the DAP debugger under neovim for typescript? - Stack Overflow](https://stackoverflow.com/questions/71810002/how-to-configure-the-dap-debugger-under-neovim-for-typescript)
-- [ ] [Break points do not work · Issue #14 · mxsdev/nvim-dap-vscode-js · GitHub](https://github.com/mxsdev/nvim-dap-vscode-js/issues/14)
+### VCS and Fugitive
 
-### VCS (Fugitive)
+Open git commit UI, git status::`<Leader>gg`
 
-- [x] open git commit UI, git status::`<Leader>gg`
+Fugitive menu::`<leader>g`
 
-- [x] import fugitive.lua keybindings
+`:diffoff[!]`::Close diff window, can be used in combination with `:q[!]` to close
 
-- [x] Control size of git status window and allow toggle it n\*
-
-- [x] `:diffoff[!]`::Close diff window, can be used in combination with `:q[!]` to close
-
-- [x] `:diffupdate`::update diff window, can help with highlighting issues
+`:diffupdate`::update diff window, can help with highlighting issues
 
 Index file represent ==last committed== version of file.
 
 Checkout branch::`<leader>go`
 
-Grep in branch, `:Git grep`, but I prefer telescope `<leader>fs`::`<leader>gp`
+Grep in branch::`:G grep`, but I prefer telescope `<leader>fs`
 
 Move current file to another location `:Git move`::`<leader>gm`
 
-- [x] `:Gwrite` or `<leader>gw`
-?
 Stage current file if it's working copy, or checkout if it's index file
+?
+`:Gwrite` or `<leader>gw`
+?
 
 - [x] `:Gwrite` on working copy will ==stage file==.
 - [x] `:Gwrite` on index file will ==checkout file==.
@@ -1217,6 +1211,8 @@ some errors in my setup, don't really used it.
 - [x] telescope builtin's, super search, `:h telescope.builtin` ::`<leader>fF` n\*
 
 - [x] find hotkey/action::`<leader>fk` in vim to find action use `<leader>fK`
+- Find keybinding by using `which-key`::`<leader>fk`, TODO: need to change, conflict with auto-format
+- List keymaps of current buffer::`WhichKey`
 
 - [x] show diff from git history::`Return`, in `Pycharm` it's `Ctrl+D` \*
 
@@ -1300,5 +1296,7 @@ this better! (Mapped to `S-v`).
 - [ ] [[research/Neil-Practical_Vim]]
 - [ ] [[research/Osipov-Mastering_Vim]]
 - [-] [Как подружить Neovim c русской раскладкой](https://habr.com/ru/articles/726400/)
+- [ ] coverage test, [andythigpen/nvim-coverage](https://github.com/andythigpen/nvim-coverage)?
+- [ ] generate test, AI-test generate? [jackMort/ChatGPT.nvim](https://github.com/jackMort/ChatGPT.nvim)
 
 ## References
