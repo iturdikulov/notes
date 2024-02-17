@@ -84,6 +84,8 @@ Change something (can be used with black hole register)::`c[register][num][motio
 
 `:`::command mode
 
+Telescope command history::`<leader>fc`
+
 How to split line
 ?
 Use (a/i/r) keys:
@@ -93,7 +95,9 @@ Use (a/i/r) keys:
 
 ## Search & replace
 
-Grep content in current project and open find toolbar (custom)::`<leader>fs`
+Grep content in current project and open find toolbar (custom)::`<leader>fs`, TODO: remap
+
+Telescope builtin's search::`<leader>fF`, `:h telescope.builtin`, TODO: remap
 
 `/`::search mode
 
@@ -394,6 +398,8 @@ Recent locations by `cbochs/portal.nvim`::`<leader>o`, `<leader>i`
 
 `<tab>`::by using `nvim-cmp` heavy autocomplete menu, support snippets if here not visible `cmp` menu
 
+Keyword completion::`C-n`
+
 `C-t` in insert mode::indent, other's editors `<tab>` alternative
 
 `C-d` in insert mode::unindent, other's editors `<S-tab>` alternative
@@ -530,6 +536,16 @@ Code formatting (using LSP), custom binding::`<leader>f`
 
 ### Code refactoring and diagnostic
 
+Add/remove/list LSP workspace directories
+?
+`<Leader>wa`, `<Leader>wr`, `<Leader>wl`.
+
+Parsed syntax-tree view (tresitter)::`:InspectTree`
+
+Refactoring menu::`<leader>r[key]`
+
+Rename object (using LSP)::`<Leader>vrn`
+
 Code actions (inline action)::`<leader>vaa`
 
 Open diagnostic (typo/error/warning information) in floating window::`gl`
@@ -538,9 +554,9 @@ Go to previous diagnostic::`[d`
 
 Go to next diagnostic::`]d`
 
-List document trouble::`<leader>xd`
+List document trouble (diagnostic)::`<leader>xd`
 
-List workspace trouble::`<leader>xw`
+List workspace trouble (diagnostic)::`<leader>xw`
 
 Suggest word (spell check)::`z=`
 
@@ -912,7 +928,7 @@ Jumps to the last window you used::`C-w C-p`
 Equal window::`C-w =`
 <!--SR:!2023-06-05,2,230-->
 
-Close other windows::`C-w o`
+Close all windows except current::`<C-w>o`
 
 Swap windows::`C-w x`
 <!--SR:!2023-06-06,2,213-->
@@ -1070,7 +1086,11 @@ Telescope DAP Frames::`<leader>dlf`
 
 ### VCS and Fugitive
 
+Get file local history/undotree::`<leader>u`
+
 Open git commit UI, git status::`<Leader>gg`
+
+Open git commit UI vertically::`:vert G`
 
 Fugitive menu::`<leader>g`
 
@@ -1082,39 +1102,45 @@ Index file represent ==last committed== version of file.
 
 Checkout branch::`<leader>go`
 
-Grep in branch::`:G grep`, but I prefer telescope `<leader>fs`
+Grep in branch::`<leader>gp`, `<leader>gP` (quickfix list)
 
 Move current file to another location `:Git move`::`<leader>gm`
 
 Stage current file if it's working copy, or checkout if it's index file
 ?
-`:Gwrite` or `<leader>gw`
-?
+`:Gwrite` or `<leader>gW`
 
-- [x] `:Gwrite` on working copy will ==stage file==.
-- [x] `:Gwrite` on index file will ==checkout file==.
-- [x] `:diffput` its like ==`:Gwrite`== but for diff window and works with hunks.
-- [x] `:diffput` on working copy will ==stage hunk==.
-- [x] `:diffput` on index file will ==checkout hunk==.
-- [x] `dp` is hotkey for ==`:diffput`==. `p` is stays for "put".
+`:Gwrite` on index file will ==checkout file==.
 
-- [x] `:Gread` or `<leader>gR`
-?
+`:Gwrite` on working copy will ==stage file==.
+
+`:diffput` its like ==`:Gwrite`== but for diff window and works with hunks.
+
+`:diffput` on working copy will ==stage hunk==.
+
+`:diffput` on index file will ==checkout hunk==.
+
+`dp` is hotkey for ==`:diffput`==. `p` is stays for "put".
+
 Checkout current file if it's working copy, or stage if it's index file
+?
+`:Gread` or `<leader>gR`
 
-- [x] `:Gread` on working copy will ==checkout file==.
-- [x] `:Gread` on index file will ==stage file==.
-- [x] `:diffget` its like ==`:Gread`== but for diff window and works with hunks.
-- [x] `:diffget` on working copy will ==checkout hunk==.
-- [x] `:diffget` on index file will ==stage hunk==.
-- [x] `do` is hotkey for ==`:diffget`==. `o` is stays for "obtain".
+`:Gread` on index file will ==stage file==.
 
+`:Gread` on working copy will ==checkout file==.
+
+`:diffget` its like ==`:Gread`== but for diff window and works with hunks.
+
+`:diffget` on working copy will ==checkout hunk==.
+
+`:diffget` on index file will ==stage hunk==.
+
+`do` is hotkey for ==`:diffget`==. `o` is stays for "obtain".
 
 `:Gremove`::Remove current file
 
 `:Gmove <relative_path>`::Move current file
-
-Open autocomplete in commit buffer::`C-n`
 
 `:G blame::`Open split window with blame buffer
 
@@ -1130,130 +1156,108 @@ Open autocomplete in commit buffer::`C-n`
 
 `:Git add -p` or `<leader>gA`::run git add with patch
 
-- [x] to use `:diffget` on deleted lines, place cursor position ==after== that
-lines
+To use `:diffget` on deleted lines, place cursor position ==after== that lines.
 
-- [x] list branches `<leader>gb` and then press =`<tab>`=.
+List branches `<leader>gb` and then press =`<tab>`=.
 
-- [x] log git history of current file::`<leader>gl`
+Log git history of current file::`<leader>gl`
 
-- [x] `dv`::Perform a `:Gvdiffsplit` on the file under the cursor
+Search in git history (`git log -S...`)::`<leader>gL`
 
-- [x] `ds`::Perform a `:Ghdiffsplit` on the file under the cursor
+Open fugitive object in new split/tab::`o` or `O`
 
-- [ ] Perform a `:Gdiffsplit` on the file under the cursor.::`dd`
+Perform a `:Gdiffsplit` on the file under the cursor.::`dd`
 
-- [ ] 2/5 http://vimcasts.org/blog/2011/05/the-fugitive-series/
+Perform a `:Gvdiffsplit` on the file under the cursor::`dv`
 
-- [-] [GitHub - lewis6991/gitsigns.nvim: Git integration for
-buffers](https://github.com/lewis6991/gitsigns.nvim). Stopped using it, generate
-some errors in my setup, don't really used it.
+Perform a `:Ghdiffsplit` on the file under the cursor::`ds`
 
-- [ ] [Vim Git Plugins : r/vim](https://www.reddit.com/r/vim/comments/8h044y/comment/dym4eax/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
+Open diff/git for current file::`=`
 
-- [ ] diff branches. Working tree diff.
+Stage/Unstage (add/reset) file, works in visual mode too (multiple files)::`-`
 
-- [ ] compare working tree with branch
-      git-diff or :Merginal
+Next/previous hunk::`(`, `)`
 
-- [ ] `gt` - accept left side of diff
+Stage hunk::`s`
 
-- [ ] `gn` - accept right side of diff
+Unstage hunk::`u`
 
-- [ ] accept left/right hunk in 3-way diff/merge conflict
+Stash the changes::`czz`
 
-- [ ] grep in VCS repo history
+Apply topmost stash::`cza`
 
-- [ ] cherry-picking commit [If you could chose only one, would you choose "vim-fugitive" or "lazygit", and why? : r/neovim](      https://www.reddit.com/r/neovim/comments/tuhs7u/comment/i35571l/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
+Commit staged changes::`cc`
 
-- [ ] [Newest 'plugin-fugitive' Questions - Vi and Vim Stack Exchange](https://vi.stackexchange.com/questions/tagged/plugin-fugitive)
+Run `git add –patch` for current file (interactive stage)::`P`
 
-- [x] stash the changes::`czz`, require staging changes before
+Push changes::`<leader>pp` (in fugitive mode for nvim)
 
-- [x] Apply topmost stash::`cza`
+Push and create merge request::`<leader>pT` (in fugitive mode for nvim)
 
-- [ ] push and create merge request::`<leader>T` in vim-fugitive buffer
+Pull::`<leader>pP` (in fugitive mode for nvim)
 
-- [x] get file local history/undotree::`<leader>u`
+During a merge conflict, this is a three-way diff against the "ours" and
+"theirs" ancestors. Additional ==d2o and d3o== maps are provided by vim-fugitive
+to obtain the hunk from the "ours" or "theirs" ancestor, respectively.
 
-- [x] open diff/git for current file::`=`
+Git signs menu::`<leader>h[key]`
 
-- [x] stage/unstage (add/reset) file, works in visual mode too (multiple files)
-      ?
-      `-`
+TODO: cherry-pick file/changes
 
-- [x] open file in the window below (git status)::`<cr>`
+## SQL (vim-dadbod-ui)
 
-- [x] commit chunk or selection of chunk::`s`
+Toggle DB UI::`<leader>qt`
 
-- [x] run `git add –patch` for current file::`P`
+Toggle last query info::`<leader>qi` n\*
 
-- [x] commit staged changes::`cc`
+Execute query (DB SQL buffer)::`<leader>S`
 
-- [x] next/previous hunk::`(`, `)`
+Save currently opened query::`<leader>W`
 
-- [x] stage hunk::`s`
+Yank DB query results::`y[motion]`, `yic`
 
-- [x] unstage hunk::`u`
+Show keys::`?` in DB UI buffer.
 
-- [x] Push changes::`<leader>p` (in fugitive mode for nvim) n\*
+## Scripts and custom notes
 
-- [x] pull & rebase::`<leader>P` (in fugitive mode for nvim) n\*
+Open the package-manager config::`<leader>vpp`
 
-### Git Signs
+Type ==`tab`== to complete a command.
 
-- [ ] `:h gitsigns.txt`
+Open list of possible commands in command mode::[filter]`C-d`
 
-## Custom
+List previous commands in command mode::`C-f`
 
-- [x] telescope command_history::`<leader>fc` n\*
-
-- [x] telescope builtin's, super search, `:h telescope.builtin` ::`<leader>fF` n\*
-
-- [x] find hotkey/action::`<leader>fk` in vim to find action use `<leader>fK`
-- Find keybinding by using `which-key`::`<leader>fk`, TODO: need to change, conflict with auto-format
-- List keymaps of current buffer::`WhichKey`
-
-- [x] show diff from git history::`Return`, in `Pycharm` it's `Ctrl+D` \*
-
-- [x] open fugitive object in new split::`o` or `O` n\*
-
-- [x] diagnostics `<Leader>vd`
-
-- Rename object (using LSP)::`<Leader>vrn`
-
-- [ ] close all windows except current::`<C-w>o`
-
-- [x] add/remove/list workspace folders
+How to check file was changed ("tjdevries/express_line.nvim" status line plugin)
 ?
-`<Leader>wa`, `<Leader>wr`, `<Leader>wl`. Pycharm alternative is project
-structure. n\*
+In neovim it's `[+]` in the status line (after filename)
 
-- [x] telescope list active buffers::`<M-b>`
+List keybindings of current buffer::`WhichKey`
 
-- [x] parsed syntax-tree view::`:TSPlaygroundToggle` n\*
+Find keybinding by using `which-key`::`<leader>fk`, TODO: need to change, conflict with auto-format
 
-## SQL
+Find action::`<leader>fK`, TODO: need to change, conflict with auto-format
 
-- [x] toggle DB UI::`<leader>qt`
-- [x] toggle last query info::`<leader>qi` n\*
-- [x] execute query::`<leader>S`
-- [ ] [GitHub - kristijanhusak/vim-dadbod-completion: Database autocompletion powered by https://github.com/tpope/vim-dadbod](https://github.com/kristijanhusak/vim-dadbod-completion)
-- [x] connect and open database console
-- [x] copy all results/row/column::`y[motion]`, `yic` n\*
+### Tips
 
-- [ ] [vim-dadbod-ui/doc/dadbod-ui.txt at master · kristijanhusak/vim-dadbod-ui · GitHub](https://github.com/kristijanhusak/vim-dadbod-ui/blob/master/doc/dadbod-ui.txt)
-- [ ] vim-dadbod-ui [GitHub - kristijanhusak/vim-dadbod-ui: Simple UI for https://github.com/tpope/vim-dadbod](https://github.com/kristijanhusak/vim-dadbod-ui#mappings) full-featured database client, possible set values, load values from files, query, work with multiple databases
+Map specific insert key in terminal: CTRL-K CTRL-F1 to get key code,
+then map it.
 
-## Learn
+List LSP clients `:lua =vim.lsp.buf_get_clients()`.
 
-- [x] [How to: Create a git Merge Conflict](https://jonathanmh.com/how-to-create-a-git-merge-conflict/)
+If you need to insert Markdown link from clipboard, use `S-v` key.
+
+## TODO
+
+- [ ] `:h`
 - [ ] `:h terminal`
 - [ ] `:h fugitive.txt`
 - [ ] `:h lua-guide`
-- [ ] `:h`
-
-
+- [x] [How to: Create a git Merge Conflict](https://jonathanmh.com/how-to-create-a-git-merge-conflict/)
+- [ ] 2/5 http://vimcasts.org/blog/2011/05/the-fugitive-series/
+- [ ] https://www.youtube.com/watch?v=5XNozONLCXc
+- [ ] http://vimcasts.org/episodes/fugitive-vim-resolving-merge-conflicts-with-vimdiff/
+- [ ] [Vim Git Plugins : r/vim](https://www.reddit.com/r/vim/comments/8h044y/comment/dym4eax/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
 - [ ] vim-shell output actions... `:h redir`, `!...|grep`, `r!...`, etc.
 - [ ] [GitHub - tpope/vim-unimpaired: unimpaired.vim: Pairs of handy bracket mappings](https://github.com/tpope/vim-unimpaired)
 - [ ] new scratch file `:enew`
@@ -1261,33 +1265,6 @@ structure. n\*
 - [ ] execute current file (open externally) leader o or leader O (run using xdg-open)
 - [ ] [GitHub - stevearc/aerial.nvim: Neovim plugin for a code outline window](https://github.com/stevearc/aerial.nvim)
 - [ ] [Fold](https://learnvim.irian.to/basics/fold)
-
-## Scripts and custom notes
-
-`SPC v p p`::open the packer config
-
-Type ==`tab`== to complete a command
-
-Open list of possible commands in command mode::`C-d`
-
-List previous commands in command mode::`C-f`
-
-
-How to check file was changed ("tjdevries/express_line.nvim" status line plugin)
-?
-In neovim it's `[+]` in the status line (after filename)
-
-map specific insert key in specific terminal: CTRL-K CTRL-F1 to get key code,
-then map it...
-
-list LSP clients::`:lua =vim.lsp.buf_get_clients()`
-
-If you need markdown links, use ==`url_to_markdown.sh`== script. TODO: automate
-this better! (Mapped to `S-v`).
-<!--SR:!2023-06-06,2,228-->
-
-## TODO
-
 - [ ] Commit style
 - [ ] Code style
 - [ ] CLI tools
