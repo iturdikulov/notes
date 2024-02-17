@@ -13,10 +13,6 @@ sr-interval: 1
 sr-ease: 130
 ---
 
-TODO: import solutions from [[neovim-emacs-workflow]]
-TODO: global cleanup and organize resources
-TODO: keybindings in command mode using plugin
-
 # Neovim (text editor)
 
 > Neovim is based on Vim by Bram Moolenaar.
@@ -1249,6 +1245,9 @@ If you need to insert Markdown link from clipboard, use `S-v` key.
 
 ## TODO
 
+- [ ] import solutions from [[neovim-emacs-workflow]]
+- [ ] global cleanup and organize resources
+- [ ] keybindings in command mode using plugin
 - [ ] `:h`
 - [ ] `:h terminal`
 - [ ] `:h fugitive.txt`
