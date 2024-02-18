@@ -808,7 +808,183 @@ some text and press `Enter`. After that program execute users commands. This
 commands can be linked together, executed with some conditions, etc. (usually
 [[Turing_complete|Turing complete]]).
 
+Command line interpreter identify first word as command (can be **built-in** or
+some program) and second as ==command parameters==, they are just string passed
+into command.
 
+Working with files from command line can be much easier and faster than using
+any file manager program (they are has limits).
+
+Term folder is abstract object of graphical interface. They can be not
+represented actually in disk (virtual objects). And correct term is directory.
+
+What this command in sh interpreter will do: `cp !:1/dcim/* .`?
+?
+!:1 will be transformed into argument of previous command, and we will copy
+files from generated path into current directory.
+
+Let's say you typed command `mount /mnt/flash`, what will be happening when you
+type `u!m`?
+?
+`u!m` will be transformed into `u` + `!m -> get last command started with m ->
+mount /mnt/flash`
+
+How to test first argument is exists, if not exit (`$1`, Bourne shell interpreter)?
+?
+```sh
+[ "$1" = "" ] && { echo "No argument"; exit 1 } # { block of commands }
+```
+
+You can combine multiple commands into chains (link inputs/outputs) which are
+called ==pipeline==. Unlike graphical interface, CLI capabilities (which are
+worth to learn) are limited only by computers capabilities.
+
+For professional in information technology industry fluency in working with CLI
+are almost strict requirement.
+
+### 1.2.2. History of Unix OS (Истори ОС Unix)
+
+1960s - General Electrics, MIT, Bell Labs (AT&T) developed OS MULTICS, one of
+member was Ken Thompson.
+
+Ken Thompson wrote OS for PDP-7 machine in Bell Labs, by using his experience
+form MULTICS, initially it was dual-tasking (allowed to run 2 processes).
+Brian Kernighan as a joke named it UNICS, and then this name was stuck, but CS
+was replaced with X, so this OS was named ==Unix==.
+
+Ken Thompson and Brian Kernighan started porting this OS to PDP-11, and they
+also had new idea, use high-level programming language for new OS. They
+initially tried to use limited BCPL language, but it has too primitive, and they
+improved it and named [[C]] (next letter in alphabet). This work finished in
+1973.
+
+In 1977 Unix was ported to different computer architecture (Interdata 8/32) by
+Stephen C. Johnson and Brian Kernighan. In this project Stephan developed
+first portable C compiler.
+
+In 1977 Bill Joy created first Unix BSD. BSD also has issues with license of
+Unix, which slowed down BSD development. In this situation other OS was take a
+lot of attention.
+
+In 1991 Linus Torvalds started work on Unix-like OS kernel for new i386 platform
+(one of the first cheap Intel CPU, potentially compatible with Unix). Initially
+he wanted to write terminal emulator, which working without OS, but at some
+point he realized that he's writing OS (it was included CPU time scheduler,
+floppy drive driver, etc.). He published results in [[Internet]], and he had
+many contributors (right now it's thousands). Linux use GNU GPL license (creator
+is Richard Stallman).
+
+When you use GNU GPL licensed code, you need to ==share== results of your work
+within GPL conditions.
+
+A Unix-like (sometimes referred to as UN\*X or \*nix) operating system is one
+that behaves in a manner similar to a Unix system, although not necessarily
+conforming to or being certified to any version of the Single UNIX
+Specification.
+
+
+### 1.2.3. Unix on home machine (Unix на домашней машине)
+
+I'm already experienced enough user of Unix-like OS, right now it's [[NixOS]].
+
+Desktop metaphor is not native for Unix, Unix in first is CLI oriented OS, and
+you should use lightweight GUIs, main OS task is run program and not spend too
+many resources for UI.
+
+First program in Unix-like OS which you should to learn is
+==Terminal emulator==.
+
+Comfort in using OS is important factor for study process in Unix.
+
+Some programs suggestions:
+
+- Browser (Firefox)
+- LibreOffice to work with "office" files formats
+- atril to read PDF files (I use [[Sioyek]])
+- eog to view images (I use nsxiv)
+- mplayer or vlc to play audio and video (I use [[mpv]])
+- vim, joe and nano to edit code (I use [[Neovim]])
+- Free Pascal compiler (fpc or fp-compiler)
+- NASM assembler (nasm)
+- C/C++ compiler ([[GNU_Compiler_Collection_GCC|GCC]])
+- make task runner
+- GNU debugger ([[GNU_Debugger|gdb]])
+- find other programs alternatives
+
+You need to work under unprivileged user, working with root are not safe, and
+you must use root access only when it's required (install programs, maintenance
+system, etc.).
+
+Also, highly undesirable to use `sudo` command, much better approach is login as
+root from text console (`C-M-F1`, go back with `M-F7` or `M-F8` or `M-F9`,
+depending on system configuration). Experienced user even not installing sudo on
+their system (potential security risks, potential bugs, human-factor).
+
+### 1.2.4 First session in computer class (Первый сеанс в компьютерном классе)
+
+To work with remote connection, you usually need to use some program for remote
+terminal access, for example [[Secure_shell_SSH|SSH]].
+
+To start X Window system type `startx` (after you log in for example).
+
+Then you can start terminal emulator, for example `xterm` (I use suckless st
+fork - `xst`).
+
+Very first action when you log in into OS first time is change your password.
+Use `passwd` program for it.
+
+Password requirements:
+- minimum 8 characters
+- must contain at least 1 uppercase/lowercase letter, digit, special character
+- NEWER share your password with others, and don't allow working with your
+user account, even if you trust someone.
+- one method to generate password is taking some phrase which has numerals and
+punctuation characters, and by using some technique (template) you can generate
+password.
+
+### 1.2.5 Directory tree. Working with files. (Дерево каталогов. Работа с файлами.)
+
+`$` in command-line prompt means we are working under some unprivileged user
+(normal user), `#` under root user.
+
+Unlike Windows in Unix path is separated by ==`/` (slash)== character.
+
+After login in system default path is user's ==home== directory.
+
+`pwd` used to find ==current directory path==.
+
+`ls` used to list ==directory content==.
+
+Names which started with ==`.`== character are "invisible" (not visible when you
+use some commands, `ls` for example).
+
+Unix filenames can contain any number of dot characters in any position,
+`a.b..c...d....e` is valid filename.
+
+To list "invisible" files by using `ls` command need to use ==`-a`== command
+option.
+
+To classify files with using `ls` use ==`-F`== option.
+
+Using `cd` without options (target directory) go home directory, to go into
+specific user directory use ==`cd ~username`== command.
+
+If I started process with from some directory, can it change it?
+?
+Yes. In Unix OS each running program (process) has own current directory (CWD)
+and each program can change it independently.
+
+Check [[Unix_commands|Unix commands]] note to learn some of them (main are `cp,
+mv, rm, mkdir, rmdir, touch, less`).
+
+Which type of file path is used in Unix?
+?
+Unix OS allowing to use two main types of file paths:
+- Absolute (not depending on CWD, starting with `/` character, which indicate
+root directory).
+- Relative, you can use relative file paths, and omit full path to it, for
+example: `ls relative/path/filename.jpg` or `ls
+../../relative/path/filename.jpg`
 
 ## References
 
