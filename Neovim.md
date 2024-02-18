@@ -1216,6 +1216,10 @@ Show keys::`?` in DB UI buffer.
 
 ## Scripts and custom notes
 
+Execute current file (open externally)::`<leader>O`
+
+Open file in Obsidian (for wiles in ~/Wiki directory)::`<leader>to`
+
 Open the package-manager config::`<leader>vpp`
 
 Type ==`tab`== to complete a command.
@@ -1245,23 +1249,19 @@ If you need to insert Markdown link from clipboard, use `S-v` key.
 
 ## TODO
 
-- [ ] import solutions from [[neovim-emacs-workflow]]
-- [ ] global cleanup and organize resources
-- [ ] keybindings in command mode using plugin
-- [ ] `:h`
+- [ ] `:h usr_01.txt`, [I Read the Entire Neovim User Manual - YouTube](https://www.youtube.com/watch?v=rT-fbLFOCy0)
 - [ ] `:h terminal`
 - [ ] `:h fugitive.txt`
 - [ ] `:h lua-guide`
-- [x] [How to: Create a git Merge Conflict](https://jonathanmh.com/how-to-create-a-git-merge-conflict/)
-- [ ] 2/5 http://vimcasts.org/blog/2011/05/the-fugitive-series/
-- [ ] https://www.youtube.com/watch?v=5XNozONLCXc
-- [ ] http://vimcasts.org/episodes/fugitive-vim-resolving-merge-conflicts-with-vimdiff/
+- [ ] global cleanup and organize resources
+- [ ] import solutions from [[neovim-emacs-workflow]]
+- [ ] keybindings in command mode using plugin
+- [ ] [The Fugitive Series - a retrospective](http://vimcasts.org/blog/2011/05/the-fugitive-series/)
+- [ ] [Resolve a Git Merge Conflict within Vim | Vim 🔥 Tips and Tricks - YouTube](https://www.youtube.com/watch?v=5XNozONLCXc)
+- [ ] [Fugitive.vim - resolving merge conflicts with vimdiff](http://vimcasts.org/episodes/fugitive-vim-resolving-merge-conflicts-with-vimdiff/)
 - [ ] [Vim Git Plugins : r/vim](https://www.reddit.com/r/vim/comments/8h044y/comment/dym4eax/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
 - [ ] vim-shell output actions... `:h redir`, `!...|grep`, `r!...`, etc.
 - [ ] [GitHub - tpope/vim-unimpaired: unimpaired.vim: Pairs of handy bracket mappings](https://github.com/tpope/vim-unimpaired)
-- [ ] new scratch file `:enew`
-- [ ] execute scratch file
-- [ ] execute current file (open externally) leader o or leader O (run using xdg-open)
 - [ ] [GitHub - stevearc/aerial.nvim: Neovim plugin for a code outline window](https://github.com/stevearc/aerial.nvim)
 - [ ] [Fold](https://learnvim.irian.to/basics/fold)
 - [ ] Commit style
@@ -1271,8 +1271,8 @@ If you need to insert Markdown link from clipboard, use `S-v` key.
 - [ ] [[research/Neil-Modern_Vim]]
 - [ ] [[research/Neil-Practical_Vim]]
 - [ ] [[research/Osipov-Mastering_Vim]]
-- [-] [Как подружить Neovim c русской раскладкой](https://habr.com/ru/articles/726400/)
 - [ ] coverage test, [andythigpen/nvim-coverage](https://github.com/andythigpen/nvim-coverage)?
 - [ ] generate test, AI-test generate? [jackMort/ChatGPT.nvim](https://github.com/jackMort/ChatGPT.nvim)
+- [-] [Как подружить Neovim c русской раскладкой](https://habr.com/ru/articles/726400/)
 
 ## References
