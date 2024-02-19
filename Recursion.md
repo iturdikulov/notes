@@ -18,7 +18,7 @@ sr-ease: 225
 > [[Computer_science|computer science]].\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Recursion_\(computer_science\))</cite>
 
-![Recursive Tree](./img/RecursiveTree.JPG)\
+![Recursive Tree](img/recursive_tree.jpg)\
 _Tree created using the Logo
 programming language and relying heavily on recursion. Each branch can be seen
 as a smaller version of a tree._
