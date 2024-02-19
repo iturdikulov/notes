@@ -57,7 +57,7 @@ Reasons why Unix is the most suitable OS for learning programming:
 
 Any [[Computer_programming|program]] is a record of ==algorithm== on some
 programming language.
-<!--SR:!2024-02-13,1,207-->
+<!--SR:!2024-02-21,2,187-->
 
 On very fundamental level no-one knows what algorithm it is, that's why we have
 [[Computational_problem|computational problems]], and theoretical
@@ -67,7 +67,7 @@ Algorithm make transformation from set of [[Word|words]] (chains of symbols over
 some alphabet) into the same ==set==.
 For this transformation can exist more than one algorithm (countless) or not
 exist.
-<!--SR:!2024-02-18,6,227-->
+<!--SR:!2024-03-04,15,227-->
 
 Algorithm is such a "thing" which read input word, do something **constructive**
 and return another word.
@@ -101,7 +101,7 @@ programming with making GUI (focusing on UI, not a program logic), which is bad
 idea. It can traumatize student mindset, and he will have many problems to
 relearn programming in future (if he can do it) and think programming is boring
 process (will not know what he lost).
-<!--SR:!2024-02-13,1,162-->
+<!--SR:!2024-02-20,2,182-->
 
 ### Language determines thinking (Язык определяет мышления)
 
@@ -122,13 +122,13 @@ Why learning C as first programming language is not so good?
 ?
 C as first programming language is not suitable, you need to understand pointers
 first and work with them (and it's hard).
-<!--SR:!2024-02-13,1,162-->
+<!--SR:!2024-02-20,2,162-->
 
 Why knowing language on fundamental level is important?
 ?
 Understanding code as "magic commands" is not good for good programmers, you
 need to understand code on very low level to create truly effective programs.
-<!--SR:!2024-02-13,1,162-->
+<!--SR:!2024-02-20,2,162-->
 
 In C you haven't procedures, only functions. Even assignment, increment are
 arithmetic operations. And in C formally any actions (which is core of C) are
@@ -137,7 +137,7 @@ creating [[Side_effect|side effect]].
 > Side effect can be appeared only when evaluating expression.
 Side effect this is arbitrary change, which occurring when evaluating expression
 and then can be somehow ==detected==.
-<!--SR:!2024-02-17,5,227-->
+<!--SR:!2024-02-28,10,227-->
 
 Unlike C, C++ and functional programming languages, in [[Pascal]] there mostly
 no side effects.
@@ -165,7 +165,7 @@ programming?
 ?
 Not really. You learn not Pascal, you learn programming by using Pascal, and you
 can omit some Pascal specific features.
-<!--SR:!2024-02-18,4,182-->
+<!--SR:!2024-02-23,5,182-->
 
 Why need to learning Assembly language (at least basics)?
 ?
@@ -181,13 +181,14 @@ etc.
 So chain to learn programming is: ==Pascal → Assembly → C → C++== (special
 author's vision), OS, I/O, processes, sockets, multithreading, mutex objects and
 semaphores, critical sections, etc.
+<!--SR:!2024-02-21,2,162-->
 
 ## Introduction 3, parting words (Предисловие 3, напутственное)
 
 First who created things which works on their own (automatically) are watch
 mechanics. XVIII century - Jaquet-Droz ==automata== (most complex is penman,
 containing 6000 details).
-<!--SR:!2024-02-14,2,182-->
+<!--SR:!2024-02-23,5,202-->
 
 ![Jaquet Droz The Writer Automaton From 1774 In Action](https://www.youtube.com/watch?v=ux2KW20nqHU)
 _Jaquet Droz The Writer Automaton From 1774 In Action_
@@ -199,7 +200,7 @@ combination of many different skills, finances and physical labor.
 With programmable computers you can avoid ==material== requirements to make
 something useful and great. Program itself is finished product. Programming is
 the most creative profession in engineering and technical professions.
-<!--SR:!2024-02-14,2,182-->
+<!--SR:!2024-02-22,4,182-->
 
 What is 2 main things which are important for programmer?
 ?
@@ -227,17 +228,18 @@ Here mostly general information about books and volumes.
 Main [[Computer|computer]] function is ==to compute==. In our time millions
 computing operations are wasted on information representation, then on actual
 calculations (low efficiency).
-<!--SR:!2024-02-17,5,227-->
+<!--SR:!2024-02-27,9,227-->
 
 ### 1.1.1 Some history (1.1.1 Немного истории)
 
 First computing machine is mechanical ==calculating clock== of Wilhelm
 Schickard, 1623. But before it Leonardo da Vinci created some sketches of
 computing mechanism.
+<!--SR:!2024-02-20,2,162-->
 
 Most old working computing machine is Pascal's ==adding machine== (pascaline),
 1642.
-<!--SR:!2024-02-16,2,162-->
+<!--SR:!2024-02-22,4,182-->
 
 ![Additionner avec la réplique de la Pascaline 1645 - YouTube](https://www.youtube.com/watch?v=GX4RQK__fQc)
 ![How the Pascaline Works - YouTube](https://www.youtube.com/watch?v=3h71HAJWnVU)
@@ -264,13 +266,13 @@ In 1673 Gottfried Wilhelm Leibniz created calculating machine, with supported
 
 General property (disadvantage) of arithmometer is it can't do calculations
 without ==human help==, if you need to do more than one operation.
-<!--SR:!2024-02-19,4,182-->
+<!--SR:!2024-02-24,5,182-->
 
 1823 Charles Babbage started working on difference engine, which can do
 calculations using method of ==divided differences==, but he failed to finish
 it. George Scheutz created working difference engine in 1843, by using Babbage's
 ideas.
-<!--SR:!2024-02-17,2,162-->
+<!--SR:!2024-02-20,1,130-->
 
 But Babbage's main idea was ==analytical== engine, which can do any
 calculations. So he invited idea of programmable machines, data transferring
@@ -282,6 +284,7 @@ comments. In one of these comments (Note G) she provided full set of commands to
 calculate Bernoulli numbers on analytical machine - this set of commands is
 considered as first in history computer program, and Ada Lovelace is often
 called ==first programmer==.
+<!--SR:!2024-02-20,2,162-->
 
 Also, she predicted future of programmable computers.
 > The Analytical Engine might act upon other things besides number, were
@@ -298,7 +301,7 @@ First full mechanical programmable computer?
 ?
 1938 Konrad Zuse created Z1, first full mechanical programmable computer
 (electricity used only in motor). Z1 used [[Binary_number|binary]] logic.
-<!--SR:!2024-02-17,2,162-->
+<!--SR:!2024-02-21,3,162-->
 
 Z2 used same mechanics but used electrical relay circuits for computational
 operating. As Z1 it used perforated tape to execute program (instructions).
@@ -318,18 +321,18 @@ Vacuum tube is next element after mechanics to use in computers, it's glass bulb
 with electrodes and electric vacuum inside. Using 2 triodes you can build
 trigger, which can be used to store information and as base block to build logic
 gates.
-<!--SR:!2024-02-14,2,182-->
+<!--SR:!2024-02-22,4,182-->
 
 One of first programmable computers (electrical) was ==ENIAC==, which used
 17,468 vacuum tubes. It was created by John Mauchly and J. Presper Eckert in
 1946.
-<!--SR:!2024-02-15,3,202-->
+<!--SR:!2024-02-24,6,202-->
 
 Colossus Mark I/II was a set of computers developed by ==British== codebreakers
 in the years 1943–1945 to help in the cryptanalysis of the Lorenz cipher. But
 they are was destroyed after war (by Tommy Flowers, creator of these machines)
 on Winston Churchill's order.
-<!--SR:!2024-02-15,3,202-->
+<!--SR:!2024-02-23,5,202-->
 
 
 #### Computer generations
@@ -338,33 +341,34 @@ Distinguishing by generation only electronic computers, not mechanical ones.
 
 A vacuum-tube computer is a ==first==-generation computer, is a
 computer that uses vacuum tubes for logic circuitry.
-<!--SR:!2024-02-17,5,227-->
+<!--SR:!2024-03-01,12,227-->
 
 First generation computers have one very important principle, principle of
 ==stored-program==.
-<!--SR:!2024-02-17,5,227-->
+<!--SR:!2024-02-21,3,207-->
 
 Program stored in sequences of commands codes in the same memory same as data,
 memory is interchangeable or uniform, commands codes don't differ fundamentally.
 Machines which meet this requirement are called
 ==Von Neumann architecture machines (not invented by Vonn Neumann only)==.
-<!--SR:!2024-02-14,2,182-->
+<!--SR:!2024-02-22,4,182-->
 
 Compilers and interpreters are programs which can ==execute other programs== and
 without Vonn Neumann architecture they can't exist (here used principle when
 program can be interpreted as data and another program can execute it).
-<!--SR:!2024-02-14,2,182-->
+<!--SR:!2024-02-21,2,162-->
 
 What useful computer illness is?
 ?
 If you want to be programmer you need to play with computers, this give you
 infinite motivation to learn programming and more importantly it's fun!
-<!--SR:!2024-02-14,2,182-->
+<!--SR:!2024-02-22,4,182-->
 
 Storing program in memory as instructions, saving a lot of time to change
 programs, you can load another one from external storage (tapes or cards) and
 storing data and program in same memory allowing interpreting data as
 ==another program== (allows creating compilers, OS, etc.).
+<!--SR:!2024-02-21,2,162-->
 
 One of first computer to deal not only with calculations.
 ?
@@ -378,7 +382,7 @@ Co.).
 Quotes of Ada Lovelace start become prophetic, object of computer programs can
 be information and mathematical field is not only field where computer can be
 used.
-<!--SR:!2024-02-14,2,182-->
+<!--SR:!2024-02-22,4,182-->
 
 Next revolution after vacuum tubes was inventing ==transistor== (invented in
 1947 by physicists John Bardeen, Walter Brattain, and William Shockley at Bell
@@ -401,7 +405,7 @@ In digital circuits more important is ==control== effect of transistors than
 amplification, two transistors allowing you to build trigger (the current
 flowing through one transistor closes the second and vice versa).
 TODO: check https://en.wikipedia.org/wiki/Flip-flop_(electronics)
-<!--SR:!2024-02-16,4,185-->
+<!--SR:!2024-02-25,7,185-->
 
 Magnetic-core memory is second serious invention, which determineted the shift
 of computer generation (with transistors).
@@ -428,6 +432,7 @@ commercial computer - IBM 608 Transistor Calculator.
 Next third-generation computers used ==integrated circuits (IC's)== and at this
 point computers started producing massively, size was like small closet and
 aviability of computers was much higher.
+<!--SR:!2024-02-20,1,142-->
 
 In 1971 Intel created one of first microprocessor (instead multiple IC's used
 only one for microprocessor) - Intel 4004, which was aviable on market.
@@ -445,7 +450,7 @@ only one for microprocessor) - Intel 4004, which was aviable on market.
 
 Microprocessors are start history of ==fourth==-generation of computers, which
 are current generation of computers.
-<!--SR:!2024-02-18,6,205-->
+<!--SR:!2024-03-02,13,205-->
 
 What information modern computers can process?
 ?
@@ -467,14 +472,14 @@ data (information) in specific determined form (binary code, chains of symbols
 in some alphabet or "text"). In this approach any information transformations
 are **functions** from one set of text into another set of text (sets have equal
 alphabet). And any information processing is function computing.
-<!--SR:!2024-02-13,1,162-->
+<!--SR:!2024-02-20,2,162-->
 
 ### 1.1.2 Processor, memory, bus (Процессор, память, шина)
 
 In [[Computer_architecture|computer architecture]] system bus (historically also
 called data highway or databus) is a communication system that
 ==transfers data== between components inside a computer, or between computers.
-<!--SR:!2024-02-13,1,162-->
+<!--SR:!2024-02-20,2,162-->
 
 Physically bus is many (tens) ==parallel wires==.
 
@@ -482,15 +487,17 @@ Main 3 components which connected to bus (computing) are:
 ?
 To the bus connecting central processor unit (CPU), random access memory (RAM)
 and controllers.
+<!--SR:!2024-02-20,1,142-->
 
 Main controllers work is to control computer ==devices==.
-<!--SR:!2024-02-14,2,182-->
+<!--SR:!2024-02-21,2,162-->
 
 CPU through ==bus== interact with other computer components.
+<!--SR:!2024-02-21,2,162-->
 
 RAM and controllers is designed to ignore any information, which go through bus,
 except ==addressed== especially to specific RAM data bank or controller.
-<!--SR:!2024-02-14,2,182-->
+<!--SR:!2024-02-22,4,182-->
 
 Three main parts of system bus:
 ?
@@ -505,11 +512,11 @@ Here my notes about how RAM is working:
 [[research/How_does_Computer_Memory_Work]]
 
 From schematic perspective each wire can be in 2 positions, logical ==1 or 0==.
-<!--SR:!2024-02-14,2,182-->
+<!--SR:!2024-02-22,4,182-->
 
 Combinations of 0 and 1 make an address, and all devices except CPU working with
 bus only when address from bus ==equal to their address==.
-<!--SR:!2024-02-18,4,182-->
+<!--SR:!2024-02-25,7,182-->
 
 Memory (RAM) consist of identical memory addressable locations, which constitute
 an addressable space. Which is $$2^{N}$$ addresses, where N is
@@ -523,11 +530,11 @@ Is data is transferring in data bus in parallel?
 Through data bus memory values usually transferred in parallel, for example we
 can read/write 32 bits of information from RAM in parallel (utilize multiple
 memory locations).
-<!--SR:!2024-02-14,2,182-->
+<!--SR:!2024-02-22,4,182-->
 
 DRAM can't work without ==electricity (power)== and data lost without it (not
 completely, especially if RAM will be frozen at -60°С [^2]).
-<!--SR:!2024-02-19,4,182-->
+<!--SR:!2024-02-26,7,182-->
 
 Difference between persistent memory and volatile memory?
 ?
@@ -535,21 +542,21 @@ Opposite to Volatile memory (SRAM - CPU cache/registers, DRAM), persistent
 memory (SSD/HDD) is differnt, it can store data long time, without power. CPU
 can't work directly with it, required to use special controllers and computer
 programs (drives).
-<!--SR:!2024-02-13,1,162-->
+<!--SR:!2024-02-20,2,162-->
 
 Does CPU differentiate between persistent and volatile memory locations?
 ?
 The CPU does not differentiate between persistent and volatile memory locations.
 The CPU interacts with different levels of memory hierarchy, which include both
 volatile and persistent memory components.
-<!--SR:!2024-02-14,2,182-->
+<!--SR:!2024-02-22,4,182-->
 
 Some memory blocks can be physically read-only, they're not supporting direct
 CPU writing operations, usually need to use some interface, for example I²C
 (Inter-Integrated Circuit) and SPI (Serial Peripheral Interface) for EEPROM
 (electrically erasable programmable read-only memory). Main advantage is
 ==persistent== memory.
-<!--SR:!2024-02-19,4,182-->
+<!--SR:!2024-02-25,6,182-->
 
 Usually EEPROM used to store special BIOS/UEFI (Unified Extensible Firmware
 Interface) program, which used to ==prepare (initialize) and test computer==
@@ -557,12 +564,13 @@ hardware. This program is starting to execute when you power on computer, main
 task of it find where to boot operating system (OS), load it and give it
 control. All other tasks are concern of OS (run subprograms, virtual memory
 management, hardware access (internal/external) through drivers, etc.).
-<!--SR:!2024-02-14,2,182-->
+<!--SR:!2024-02-22,4,182-->
 
 What is used to organize information storing (on storage for humans)?
 ?
 Computer files is one of method to organize information (OS using filesystem
 organize it), usually computer files has filenames (which humans can understand).
+<!--SR:!2024-02-21,2,162-->
 
 ### 1.1.3 Operations principles of Central Processor (Принципы работы центрального процессора)
 
@@ -571,7 +579,7 @@ perform ==simple steps, instructions==.
 
 Main work with information (for CPU) carried out with
 ==registers, fast storage==, each of them can store up to tens of bits.
-<!--SR:!2024-02-14,2,182-->
+<!--SR:!2024-02-21,2,162-->
 
 Processor can do following operations (==instruction set==):
 - read and write memory locations
@@ -579,12 +587,13 @@ Processor can do following operations (==instruction set==):
 (ALU).
 - copy data between registers
 - service actions (for example jump to location and code execution)
+<!--SR:!2024-02-21,2,162-->
 
 ![[img/Computer_system.excalidraw]]
 
 Each elementary instruction, which CPU is performing (it also CPU main goal) has
 operation code or ==machine code==.
-<!--SR:!2024-02-14,2,182-->
+<!--SR:!2024-02-22,4,182-->
 
 How basically CPU instruction cycle is working?
 ?
@@ -600,10 +609,12 @@ location(s))
 
 Some machine codes can change the instruction sequence, for example jump to
 specific program place. This machine codes are called ==branch== instructions.
+<!--SR:!2024-02-20,2,162-->
 
 ==Branch== instructions are used to implement control flow in program loops and
 conditionals (i.e., executing a particular sequence of instructions only if
 certain conditions are satisfied).
+<!--SR:!2024-02-20,1,142-->
 
 A branch instruction can be either an unconditional branch, which always results
 in branching (CPU continue to execute instructions from specific address), or a
@@ -612,6 +623,7 @@ condition.
 
 CPU also support branch instruction which remembers ==return point==, which used
 to cal subroutines (RET).
+<!--SR:!2024-02-20,1,142-->
 
 ### 1.1.4. Peripheral devices (Внешние устройства)
 
@@ -622,9 +634,11 @@ In early times all devices connected directly into CPU, but this is not easy to
 maintain (almost impossible), each day here new devices, and you need somehow
 support them and physically change your processor. To solve this issues,
 invented ==system bus== (which described above).
+<!--SR:!2024-02-21,2,162-->
 
 External peripheral devices connecting into system bus through ==controllers==.
 This is electronic circuit which can interact through system bus with CPU.
+<!--SR:!2024-02-21,2,162-->
 
 Typical scheme of controller interaction with CPU:
 ?
@@ -737,6 +751,7 @@ doesn't care about which devices and controllers will be used, all this work
 will be done by OS (read data from device and place it into program memory
 space). Program will use this data and close file (stop working with it), then
 OS decides what to do with allocated data.
+<!--SR:!2024-02-21,2,162-->
 
 First OSes appeared in ==1960s==. Nowadays, there few of them (types) used,
 mostly 2 family: ==Windows and Unix==.
@@ -767,6 +782,7 @@ Professional programmers (and system administrators), mostly prefer
 these commands and return results (show them on display).
 This is dialog mode to interact with computers (there is also batch mode).
 Initially dialog mode was created by using **teleprinters**.
+<!--SR:!2024-02-21,2,162-->
 
 > Computers used ==teleprinters== for input and output from the early days of
 > computing. Punched card readers and fast printers replaced teleprinters for
@@ -788,6 +804,7 @@ emulator)?
 ?
 They allow control how text will be rendered (colors, style, etc.), change cursor
 positions, etc.
+<!--SR:!2024-02-20,2,162-->
 
 Can user work without graphical interface with some OS on some computer?
 ?
@@ -807,6 +824,7 @@ This program usually outputs command line **prompt** and wait when user types
 some text and press `Enter`. After that program execute users commands. This
 commands can be linked together, executed with some conditions, etc. (usually
 [[Turing_complete|Turing complete]]).
+<!--SR:!2024-02-21,2,162-->
 
 Command line interpreter identify first word as command (can be **built-in** or
 some program) and second as ==command parameters==, they are just string passed
@@ -822,6 +840,7 @@ What this command in sh interpreter will do: `cp !:1/dcim/* .`?
 ?
 !:1 will be transformed into argument of previous command, and we will copy
 files from generated path into current directory.
+<!--SR:!2024-02-21,2,162-->
 
 Let's say you typed command `mount /mnt/flash`, what will be happening when you
 type `u!m`?
@@ -834,10 +853,12 @@ How to test first argument is exists, if not exit (`$1`, Bourne shell interprete
 ```sh
 [ "$1" = "" ] && { echo "No argument"; exit 1 } # { block of commands }
 ```
+<!--SR:!2024-02-20,1,142-->
 
 You can combine multiple commands into chains (link inputs/outputs) which are
 called ==pipeline==. Unlike graphical interface, CLI capabilities (which are
 worth to learn) are limited only by computers capabilities.
+<!--SR:!2024-02-21,2,162-->
 
 For professional in information technology industry fluency in working with CLI
 are almost strict requirement.
@@ -957,6 +978,7 @@ After login in system default path is user's ==home== directory.
 
 Names which started with ==`.`== character are "invisible" (not visible when you
 use some commands, `ls` for example).
+<!--SR:!2024-02-21,2,162-->
 
 Unix filenames can contain any number of dot characters in any position,
 `a.b..c...d....e` is valid filename.
@@ -973,6 +995,7 @@ If I started process with from some directory, can it change it?
 ?
 Yes. In Unix OS each running program (process) has own current directory (CWD)
 and each program can change it independently.
+<!--SR:!2024-02-21,2,162-->
 
 Check [[Unix_commands|Unix commands]] note to learn some of them (main are `cp,
 mv, rm, mkdir, rmdir, touch, less`).
