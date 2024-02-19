@@ -25,7 +25,7 @@ Good inspiration for watching movies.
 > cinephiles of every sort.\
 > — <cite>[popchart](https://popchart.co/products/the-fill-in-filmography)</cite>
 
-![The Fill-In Filmography](./img/The_Fill-In_Filmography.webp)
+![The Fill-In Filmography](img/The_Fill-In_Filmography.webp)
 
 ## To watch/rewatch
 

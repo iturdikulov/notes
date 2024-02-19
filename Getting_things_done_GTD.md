@@ -67,7 +67,7 @@ using `task list all`.
 calculate how long task is blocked, and maybe you need to remind someone about
 it.
 
-![Workflow](./img/GTD_workflow.excalidraw.svg)
+![Workflow](img/GTD_workflow.excalidraw.svg)
 _GTD workflow_
 
 ## Projects

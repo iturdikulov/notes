@@ -38,4 +38,4 @@ Below, you can see a view of each step of the mapping process for a list of
 integers `X = [0, 5, 8, 3, 2, 1]` that we want to map into a new list `X'`
 according to the function $f(x) = x + 1$
 
-![Map function visual example](./img/map_function_visual_example.gif)
+![Map function visual example](img/map_function_visual_example.gif)

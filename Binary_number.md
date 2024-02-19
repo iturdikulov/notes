@@ -28,5 +28,5 @@ TODO: add two's complement explanation
 
 Great cheatcheet for binary numbers:
 
-![](./img/Binary_fundamentals.pdf)
+![](img/Binary_fundamentals.pdf)
 _[Eric Lengyel binary fundamentals chart](https://twitter.com/EricLengyel/status/1624506604266852352)_

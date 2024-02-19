@@ -24,7 +24,7 @@ sr-ease: 255
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Inkscape)</cite>
 
 Keybindings cheat sheet:
-![](./img/Inkscape_keyboard_layout_cheat_sheet.svg)
+![](img/Inkscape_keyboard_layout_cheat_sheet.svg)
 _[Inkscape Keyboard Layout v0.48.4 - Openclipart](https://openclipart.org/detail/188861/inkscape-keyboard-layout-v0484)_
 
 ## References

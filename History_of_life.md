@@ -21,6 +21,6 @@ sr-ease: 252
 
 ## History of Life Art by [juanchit](https://www.behance.net/gallery/10901127/History-of-Life)
 
-![History of life](./img/history_of_life.png)
+![History of life](img/history_of_life.png)
 
 

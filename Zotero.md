@@ -16,7 +16,7 @@ sr-ease: 264
 
 TODO: add term
 
-![](./img/Zotero-5-macOS-Screenshot@2x.png)
+![](img/Zotero-5-macOS-Screenshot@2x.png)
 _Zotero main window_
 
 I find zotero too complicated for me, and I just use my [[Telekasten.nvim]] with

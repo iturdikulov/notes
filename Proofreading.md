@@ -34,4 +34,4 @@ correct text in [[English_language|English]] and [[Russian_language|Russian]].
 > anyone who knows the joy of telling other people that they’re wrong.\
 > — <cite>[Popchart](https://popchart.co/products/a-pop-culture-guide-to-proofreading-marks)</cite>
 
-![A Pop Culture Guide to Proofreading Marks](./img/P2-Proofreading_Zoom4.webp)
+![A Pop Culture Guide to Proofreading Marks](img/P2-Proofreading_Zoom4.webp)

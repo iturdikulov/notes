@@ -20,4 +20,4 @@ sr-ease: 285
 > orthogonal to the projection plane.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Orthographic_projection)</cite>
 
-![Axonometric projection](./img/Axonometric_projection.svg)
+![Axonometric projection](img/Axonometric_projection.svg)

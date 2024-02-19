@@ -11,7 +11,7 @@ sr-ease: 268
 
 # Cutlets
 
-![Pozharsky cutlet](./img/Pozharskaya_kotleta.jpg)
+![Pozharsky cutlet](img/Pozharskaya_kotleta.jpg)
 _Pozharsky cutlet_
 
 ## Cuisines of Russia, Ukraine and other countries of former Soviet Union

@@ -17,5 +17,5 @@ sr-ease: 244
 > composited together, by hardware, with a background. Use of the term has since
 > become more general.
 
-![](./img/SuperMario_Bros_sprite-Miscellaneous-Item_and_Brick_Blocks.png)
+![](img/SuperMario_Bros_sprite-Miscellaneous-Item_and_Brick_Blocks.png)
 _SuperMario Bros sprite - Miscellaneous - Item and Brick Blocks_

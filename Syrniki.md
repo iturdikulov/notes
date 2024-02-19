@@ -19,7 +19,7 @@ sr-ease: 268
 > русской кухнях.\
 > — <cite>[Википедия](https://ru.wikipedia.org/wiki/%D0%A1%D1%8B%D1%80%D0%BD%D0%B8%D0%BA%D0%B8)</cite>
 
-![Currd pankekes](./img/curd_pancakes.jpg)
+![Currd pankekes](img/curd_pancakes.jpg)
 
 ## Learn how to [[Cooking|cook]] them
 

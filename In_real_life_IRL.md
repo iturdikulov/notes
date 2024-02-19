@@ -55,7 +55,7 @@ the arm relaxed down the side of your body. Measure from the top of the shoulder
 seam, let the tape measure follow the outside of the sleeve to the desired
 length of the sleeve.
 
-![Size chart for men uniforms](./img/Body-measurement-cm-to-size-male-drawing.jpg)
+![Size chart for men uniforms](img/Body-measurement-cm-to-size-male-drawing.jpg)
 
 ## References
 

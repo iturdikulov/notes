@@ -34,7 +34,7 @@ sr-ease: 250
 ## Gear and Settings
 
 Cheatsheet, which explain what can be used for Low Light Photography:
-![Cheat sheet](./img/Photography_Gear_and_Settings.webp) and
+![Cheat sheet](img/Photography_Gear_and_Settings.webp) and
 [Source](https://digital-photography-school.com/cheat-sheet-gear-settings-low-light-photography/)
 
 ## References

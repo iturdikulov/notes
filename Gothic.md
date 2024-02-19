@@ -12,7 +12,7 @@ sr-ease: 194
 
 # Gothic
 
-> ![Gothic Cover|320](./img/Gothiccover.png)
+> ![Gothic Cover|320](img/Gothiccover.png)
 > Gothic is a 2001 fantasy-themed action role-playing video game for Microsoft
 > Windows and Nintendo Switch developed by the German company Piranha Bytes.
 >

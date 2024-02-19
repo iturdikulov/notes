@@ -21,5 +21,5 @@ sr-ease: 206
 Abstract syntax trees are used in program analysis and program
 transformation systems. As example Euclidean algorithm is shown below.
 
-![AST](./img/AST.excalidraw.svg)
+![AST](img/AST.excalidraw.svg)
 _An abstract syntax tree for the Euclidean algorithm_

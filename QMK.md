@@ -65,7 +65,7 @@ my case I need to hold `ESC` and plug USB cable.
 
 ## My keymap variant
 
-![Colemak-DH ANSI](./img/Colemak-DH_ANSI.png)
+![Colemak-DH ANSI](img/Colemak-DH_ANSI.png)
 
 
 ## Keys (VIM like)

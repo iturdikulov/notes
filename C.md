@@ -22,7 +22,7 @@ databases, game development, utilities, etc.
 
 Great cheat sheet with core language syntax:
 
-![](./img/C_Reference_Card_ANSI.v2.2.pdf)
+![](img/C_Reference_Card_ANSI.v2.2.pdf)
 _[C Reference Card (ANSI)](https://www.math.brown.edu/johsilve/ReferenceCards/CRefCard.v2.2.pdf)_
 
 ## References

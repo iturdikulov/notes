@@ -15,7 +15,7 @@ sr-ease: 250
 > with the new C programming language.\
 > — <cite>[Wikipedia](https://simple.wikipedia.org/wiki/Unix)</cite>
 
-![Unix timeline](./img/Unix_timeline.svg) _The history of UNIX and its variants_
+![Unix timeline](img/Unix_timeline.svg) _The history of UNIX and its variants_
 
 ## References
 

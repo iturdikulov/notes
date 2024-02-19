@@ -22,7 +22,7 @@ sr-ease: 250
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Camera)</cite>
 
 Cheatsheet, a visual compendium of cameras, history of photography:
-[Cheat sheet](./img/A_Visual_Compendium_of_Cameras.webp) and
+[Cheat sheet](img/A_Visual_Compendium_of_Cameras.webp) and
 [Source](https://popchart.co/products/a-visual-compendium-of-cameras)
 
 ## References

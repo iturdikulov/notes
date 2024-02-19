@@ -32,7 +32,7 @@ Here I store various information about animals.
 > diagrammatic dream, this chirpy chart is sure to make your walls sing.\
 > — <cite>[Popchart](https://popchart.co/products/birds-of-the-world)</cite>
 
-![Birds of the World](./img/P5-BirdsoftheWorld_Zoom.webp)
+![Birds of the World](img/P5-BirdsoftheWorld_Zoom.webp)
 
 ## Cats, Categorized
 
@@ -40,7 +40,7 @@ Here I store various information about animals.
 > expert examination, which maps out a multitude of mousers.\
 > — <cite>[Popchart](https://popchart.co/products/cats-categorized)</cite>
 
-![Cats, Categorized](./img/P-DomesticCats_Zoom.webp)
+![Cats, Categorized](img/P-DomesticCats_Zoom.webp)
 
 ## Dinosauria
 
@@ -51,7 +51,7 @@ Here I store various information about animals.
 > paleontological research as of October 2022!.\
 > — <cite>[Popchart](https://popchart.co/products/dinosauria)</cite>
 
-![Dinosauria](./img/Dinosauria_92399D43-F496-4620-B387-0CCF698EF01B.webp)
+![Dinosauria](img/Dinosauria_92399D43-F496-4620-B387-0CCF698EF01B.webp)
 
 ## The Horticultural Chart of Houseplants
 
@@ -61,5 +61,5 @@ Here I store various information about animals.
 > scientific.\
 > — <cite>[Popchart](https://popchart.co/products/the-horticultural-chart-of-houseplants)</cite>
 
-![The Horticultural Chart of Houseplants](./img/P2-Houseplants_Zoom_44feb4fb-caea-49b6-95b2-25c00fb0ac18.webp)
+![The Horticultural Chart of Houseplants](img/P2-Houseplants_Zoom_44feb4fb-caea-49b6-95b2-25c00fb0ac18.webp)
 

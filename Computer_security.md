@@ -43,7 +43,7 @@ Great list of hacking tools provided by [Compass Security Blog](https://blog.com
 - Active Directory (BloodHound & PingCastle)
 - Online References
 
-![Hacking Tools Cheat Sheet](./img/Hacking_Tools_CheatSheet.png)
+![Hacking Tools Cheat Sheet](img/Hacking_Tools_CheatSheet.png)
 
 ## References
 

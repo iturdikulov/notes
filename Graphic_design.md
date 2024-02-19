@@ -28,7 +28,7 @@ Here good examples of graphic design, from popchart.
 > Victorian era into the modern digital age.\
 > — <cite>[popchart](https://popchart.co/products/a-stylistic-survey-of-graphic-design)</cite>
 
-![A Stylistic Survey of Graphic Design](./img/A_Stylistic_Survey_of_Graphic_Design.webp)
+![A Stylistic Survey of Graphic Design](img/A_Stylistic_Survey_of_Graphic_Design.webp)
 _A Stylistic Survey of Graphic Design_
 
 
@@ -38,5 +38,5 @@ Another example, The ABC Of Design.
 > every visual design has in common? All that will be answered.\
 > — <cite>[Designmatic](https://www.designmantic.com/blog/infographics/abc-of-design/)</cite>
 
-![The APC Of Design](./img/The_ABC_of_Design.png)
+![The APC Of Design](img/The_ABC_of_Design.png)
 _The ABC Of Design_

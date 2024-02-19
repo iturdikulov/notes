@@ -11,7 +11,7 @@ sr-ease: 268
 
 # Pan Pizza
 
-![Pan Pizza](./img/Pizza_pan.jpg)
+![Pan Pizza](img/Pizza_pan.jpg)
 _Pan Pizza_
 
 - ⏲️ Prep time: 30 min

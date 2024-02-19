@@ -30,7 +30,7 @@ TODO: not really fully understand what is Turing machine.
 > loop which will never halt.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Turing_machine)</cite>
 
-![Universal Turing machine](./img/Universal_Turing_machine.svg)
+![Universal Turing machine](img/Universal_Turing_machine.svg)
 _Universal Turing machine_
 
 System of rules, states and transitions rather than a real machine.

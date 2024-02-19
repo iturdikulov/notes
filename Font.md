@@ -28,12 +28,12 @@ graphically related glyphs. They are widely used in modern
 
 Here great list of various typefaces:
 
-![](./img/So_You_Need_A_Typeface.jpg)
+![So you need a Typeface](img/So_You_Need_A_Typeface.jpg)
 _[So You Need A Typeface — Julian Sonne Hansen](https://julianhansen.com/soyouneedatypeface)_
 
 Critical elements of typesetting:
 
-![](./img/Alphabet_of_Typography.webp)
+![](img/Alphabet_of_Typography.webp)
 _[Alphabet of Typography – Pop Chart](https://popchart.co/products/alphabet-of-typography)_
 
 ## TODO

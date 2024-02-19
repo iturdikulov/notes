@@ -17,7 +17,7 @@ sr-ease: 207
 > — <cite>[SE Wikipedia](https://simple.wikipedia.org/wiki/Big_O_notation)</cite>
 <!--SR:!2024-01-21,1,230-->
 
-![Big O notation](./img/Big-O-notation.png)
+![Big O notation](img/Big-O-notation.png)
 _Big O notation_
 
 Big O Notation allows us to easily categorize the efficiency of a given
