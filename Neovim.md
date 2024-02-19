@@ -1249,7 +1249,6 @@ If you need to insert Markdown link from clipboard, use `S-v` key.
 
 ## TODO
 
-- [ ] import solutions from [[neovim-emacs-workflow]]
 - [ ] `:h usr_01.txt`, [I Read the Entire Neovim User Manual - YouTube](https://www.youtube.com/watch?v=rT-fbLFOCy0)
 - [ ] `:h terminal`
 - [ ] `:h fugitive.txt`

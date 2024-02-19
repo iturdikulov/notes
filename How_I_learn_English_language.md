@@ -22,8 +22,8 @@ etc.).
 Fundamentals of English grammar:
 
 - [ ] [](img/Spelling_punctuation_and_grammar_SPAG.svg), need to lean concepts
-- [ ] [[research/Петров-Полиглот]]
-- [[research/Черниховская-English_Start-up]]
+- [ ] [[research/Petrov-Poliglot]]
+- [[research/CHernixovskaya-English_Start-up]]
 - [[research/Murphy_Essential_Grammar_in_Use_Elementary]]
 - [[research/Murphy_Essential_Grammar_in_Use_Intermediate]]
 

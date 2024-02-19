@@ -545,4 +545,4 @@ by /u/BaronMyrtle
 
 ## References
 
-- [[research/Волков-Биохимия_мышечной_деятельности]]
+- [[research/Volkov-Bioximiya_myshechnoj_deyatelnosti]]

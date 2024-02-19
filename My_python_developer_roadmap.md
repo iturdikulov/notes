@@ -71,7 +71,7 @@ of [[Python]].
 - [ ] [PEP 8 – Style Guide for Python Code](https://peps.python.org/pep-0008/)
 - [ ] [Скучный Python: повышаем качество кода / Хабр](https://habr.com/ru/company/otus/blog/713992/)
 - [ ] [Ned Batchelder - Facts and Myths about Python names and values - PyCon 2015 - YouTube](https://www.youtube.com/watch?v=\_AEJHKGk9ns)
-- [ ] Learn more python programming with [[research/Хирьянов-Практика_программирования_на_Python|Практика программирования на Python]].
+- [ ] Learn more python programming with [[research/Xiryanov-Praktika_programmirovaniya_na_Python|Практика программирования на Python]].
 - [ ] [А как в питоне пайпать? — Development — Форум](https://www.linux.org.ru/forum/development/17025364)
 - [Ultimate Python study guide for newcomers and professionals alike.](https://github.com/huangsam/ultimate-python)
 - [Blog - Full Stack Python](https://www.fullstackpython.com/blog.html)

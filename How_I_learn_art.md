@@ -26,7 +26,7 @@ I also like to practice [[Handwriting|handwriting]].
 
 ## Photography
 
-- [[research/Килпатрик-Свет_и_освещение]], good book about light and lighting.
+- [[research/Kilpatrik-Svet_i_osveshhenie]], good book about light and lighting.
 
 ## Software
 

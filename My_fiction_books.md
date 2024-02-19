@@ -17,7 +17,7 @@ review for each book.
 
 ### [[Russian_language|In Russian]]
 
-- [x] [[research/Экзюпери-Маленький_Принц]]
+- [x] [[research/Ekzyuperi-Malenkij_Princz]]
 - [ ] Review [The Little Prince - Wikipedia](https://en.wikipedia.org/wiki/The_Little_Prince)
 - [ ] Божественная комедия. Данте Алигьери
 - [ ] Я робот
@@ -32,8 +32,8 @@ review for each book.
 - [ ] Азимов
 - [ ] Ружья, микробы и сталь. История человеческих сообществ
 - [ ] Территория — роман Олега Куваева
-- [ ] [[research/Детская_литература-Библиотека_мировой_литературы_для_детей]]
-- [ ] [[research/Экзюпери-Цитадель]]
+- [ ] [[research/Detskaya_literatura-Biblioteka_mirovoj_literatury_dlya_detej]]
+- [ ] [[research/Ekzyuperi-CZitadel]]
 
 ### [[English_language|In English]]
 

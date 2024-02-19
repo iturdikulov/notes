@@ -67,7 +67,7 @@ TODO: add info, [[Computer_programming|Programming]]
 
 - TODO: my C developer roadmap
     - [[research/learnxinyminutes-Learn_C_in_Y_minutes]]
-    - [[research/Хирьянов-Курс_молодого_бойца_МФТИ_язык_С|Курс молодого бойца на языке С]], to learn basics of [[C]].
+    - [[research/Xiryanov-Kurs_molodogo_bojcza_MFTI_yazyk_S]], to learn basics of [[C]].
     - [[research/Kernighan_and_Ritchie-The_C_programming_language|The C programming language]], to understand most of [[C]].
     - [[research/Costrasel-The_C_Programming_Language_Solutions]]
     - [[research/Muratori-Handmade_Hero|Handmade Hero]], my initial steps

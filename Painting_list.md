@@ -11,7 +11,7 @@ sr-ease: 230
 
 Interesting paintings to research, essential of [[Visual_arts|visual art]].
 
-![](img/Семирадский–По_примеру_богов_2.jpg)
+![](img/Semiradskij–Po_primeru_bogov_2.jpg)
 _[По примеру богов 2 (картина) — Генрих Ипполитович Семирадский](https://gallerix.ru/album/Semiradsky/pic/glrx-518946986)_
 
 
