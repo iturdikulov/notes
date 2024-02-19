@@ -36,5 +36,5 @@ _Pan Pizza_
 5. Cover the skillet and let the dough rest for minimum 30 min.
 6. Press the dough to cover the whole bottom of the skillet.
 7. Add pizza sauce, cheese, and whatever you like on your pizza
-8. Put in the middle of the oven, and cook for 15-20 minutes.
+8. Put in the middle of the oven, and cook for 15–20 minutes.
 
