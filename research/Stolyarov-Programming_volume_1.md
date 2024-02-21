@@ -101,7 +101,7 @@ programming with making GUI (focusing on UI, not a program logic), which is bad
 idea. It can traumatize student mindset, and he will have many problems to
 relearn programming in future (if he can do it) and think programming is boring
 process (will not know what he lost).
-<!--SR:!2024-02-20,2,182-->
+<!--SR:!2024-02-24,4,182-->
 
 ### Language determines thinking (Язык определяет мышления)
 
@@ -122,13 +122,13 @@ Why learning C as first programming language is not so good?
 ?
 C as first programming language is not suitable, you need to understand pointers
 first and work with them (and it's hard).
-<!--SR:!2024-02-20,2,162-->
+<!--SR:!2024-02-23,3,162-->
 
 Why knowing language on fundamental level is important?
 ?
 Understanding code as "magic commands" is not good for good programmers, you
 need to understand code on very low level to create truly effective programs.
-<!--SR:!2024-02-20,2,162-->
+<!--SR:!2024-02-23,3,162-->
 
 In C you haven't procedures, only functions. Even assignment, increment are
 arithmetic operations. And in C formally any actions (which is core of C) are
@@ -153,6 +153,7 @@ When knowledge of C can be useful?
 ?
 Writing in C is requirement, you need to understand how computer and operating
 system is working on subconscious level to write really **quality programs**.
+<!--SR:!2024-02-22,2,152-->
 
 Learning C, here are some requirements in understanding pointers and
 recursion, which can help some another language ([[Pascal]]):
@@ -205,6 +206,7 @@ the most creative profession in engineering and technical professions.
 What is 2 main things which are important for programmer?
 ?
 Self-education and practice is requirement to be programmer.
+<!--SR:!2024-02-21,1,132-->
 
 Author also tells you need to use CLI to learn something from this book (I use
 it daily), which give you abilities to write simple programs and find program
@@ -235,7 +237,7 @@ calculations (low efficiency).
 First computing machine is mechanical ==calculating clock== of Wilhelm
 Schickard, 1623. But before it Leonardo da Vinci created some sketches of
 computing mechanism.
-<!--SR:!2024-02-20,2,162-->
+<!--SR:!2024-02-23,3,162-->
 
 Most old working computing machine is Pascal's ==adding machine== (pascaline),
 1642.
@@ -263,6 +265,7 @@ On pascaline it was little different (check video and description in book),
 
 In 1673 Gottfried Wilhelm Leibniz created calculating machine, with supported
 ==sum, subtraction, multiplication and division==.
+<!--SR:!2024-02-22,2,152-->
 
 General property (disadvantage) of arithmometer is it can't do calculations
 without ==human help==, if you need to do more than one operation.
@@ -284,7 +287,7 @@ comments. In one of these comments (Note G) she provided full set of commands to
 calculate Bernoulli numbers on analytical machine - this set of commands is
 considered as first in history computer program, and Ada Lovelace is often
 called ==first programmer==.
-<!--SR:!2024-02-20,2,162-->
+<!--SR:!2024-02-23,3,162-->
 
 Also, she predicted future of programmable computers.
 > The Analytical Engine might act upon other things besides number, were
@@ -432,7 +435,7 @@ commercial computer - IBM 608 Transistor Calculator.
 Next third-generation computers used ==integrated circuits (IC's)== and at this
 point computers started producing massively, size was like small closet and
 aviability of computers was much higher.
-<!--SR:!2024-02-20,1,142-->
+<!--SR:!2024-02-21,1,130-->
 
 In 1971 Intel created one of first microprocessor (instead multiple IC's used
 only one for microprocessor) - Intel 4004, which was aviable on market.
@@ -479,7 +482,7 @@ alphabet). And any information processing is function computing.
 In [[Computer_architecture|computer architecture]] system bus (historically also
 called data highway or databus) is a communication system that
 ==transfers data== between components inside a computer, or between computers.
-<!--SR:!2024-02-20,2,162-->
+<!--SR:!2024-02-23,3,162-->
 
 Physically bus is many (tens) ==parallel wires==.
 
@@ -487,7 +490,7 @@ Main 3 components which connected to bus (computing) are:
 ?
 To the bus connecting central processor unit (CPU), random access memory (RAM)
 and controllers.
-<!--SR:!2024-02-20,1,142-->
+<!--SR:!2024-02-21,1,142-->
 
 Main controllers work is to control computer ==devices==.
 <!--SR:!2024-02-21,2,162-->
@@ -521,6 +524,7 @@ bus only when address from bus ==equal to their address==.
 Memory (RAM) consist of identical memory addressable locations, which constitute
 an addressable space. Which is $$2^{N}$$ addresses, where N is
 ==number of wires or bus size==.
+<!--SR:!2024-02-22,2,152-->
 
 Modern hardware operates by using virtual addressing memory (virtual memory),
 it's different from physical addressing.
@@ -576,6 +580,7 @@ organize it), usually computer files has filenames (which humans can understand)
 
 CPU is electrical scheme (in microprocessor form), the only work of it is to
 perform ==simple steps, instructions==.
+<!--SR:!2024-02-22,2,152-->
 
 Main work with information (for CPU) carried out with
 ==registers, fast storage==, each of them can store up to tens of bits.
@@ -606,24 +611,26 @@ location(s))
 - CPU increment PC value, which depends on command size (for example +3)
 - CPU decode instruction code and execute it
 - Goto cycle start
+<!--SR:!2024-02-21,1,132-->
 
 Some machine codes can change the instruction sequence, for example jump to
 specific program place. This machine codes are called ==branch== instructions.
-<!--SR:!2024-02-20,2,162-->
+<!--SR:!2024-02-23,3,162-->
 
 ==Branch== instructions are used to implement control flow in program loops and
 conditionals (i.e., executing a particular sequence of instructions only if
 certain conditions are satisfied).
-<!--SR:!2024-02-20,1,142-->
+<!--SR:!2024-02-21,1,142-->
 
 A branch instruction can be either an unconditional branch, which always results
 in branching (CPU continue to execute instructions from specific address), or a
 ==conditional== branch, which may or may not cause branching depending on some
 condition.
+<!--SR:!2024-02-22,2,152-->
 
 CPU also support branch instruction which remembers ==return point==, which used
 to cal subroutines (RET).
-<!--SR:!2024-02-20,1,142-->
+<!--SR:!2024-02-21,1,142-->
 
 ### 1.1.4. Peripheral devices (Внешние устройства)
 
@@ -804,7 +811,7 @@ emulator)?
 ?
 They allow control how text will be rendered (colors, style, etc.), change cursor
 positions, etc.
-<!--SR:!2024-02-20,2,162-->
+<!--SR:!2024-02-23,3,162-->
 
 Can user work without graphical interface with some OS on some computer?
 ?
@@ -847,13 +854,14 @@ type `u!m`?
 ?
 `u!m` will be transformed into `u` + `!m -> get last command started with m ->
 mount /mnt/flash`
+<!--SR:!2024-02-22,2,152-->
 
 How to test first argument is exists, if not exit (`$1`, Bourne shell interpreter)?
 ?
 ```sh
 [ "$1" = "" ] && { echo "No argument"; exit 1 } # { block of commands }
 ```
-<!--SR:!2024-02-20,1,142-->
+<!--SR:!2024-02-21,1,130-->
 
 You can combine multiple commands into chains (link inputs/outputs) which are
 called ==pipeline==. Unlike graphical interface, CLI capabilities (which are
