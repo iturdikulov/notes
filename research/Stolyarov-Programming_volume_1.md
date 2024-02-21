@@ -540,13 +540,13 @@ DRAM can't work without ==electricity (power)== and data lost without it (not
 completely, especially if RAM will be frozen at -60°С [^2]).
 <!--SR:!2024-02-26,7,182-->
 
-Difference between persistent memory and volatile memory?
+Difference between persistent memory and volatile memory (two differences)?
 ?
 Opposite to Volatile memory (SRAM - CPU cache/registers, DRAM), persistent
 memory (SSD/HDD) is differnt, it can store data long time, without power. CPU
 can't work directly with it, required to use special controllers and computer
 programs (drives).
-<!--SR:!2024-02-20,2,162-->
+<!--SR:!2024-02-23,3,162-->
 
 Does CPU differentiate between persistent and volatile memory locations?
 ?
@@ -911,7 +911,6 @@ that behaves in a manner similar to a Unix system, although not necessarily
 conforming to or being certified to any version of the Single UNIX
 Specification.
 
-
 ### 1.2.3. Unix on home machine (Unix на домашней машине)
 
 I'm already experienced enough user of Unix-like OS, right now it's [[NixOS]].
@@ -1016,6 +1015,153 @@ root directory).
 - Relative, you can use relative file paths, and omit full path to it, for
 example: `ls relative/path/filename.jpg` or `ls
 ../../relative/path/filename.jpg`
+
+Let's say you have this path: `/home/inom/photos/Mars.jpg`, in which level of
+directories hierarchy is `Mars.jpg` file, how to go into root by using `..`
+based path?
+?
+In 4 level (here 4 slash characters).
+`cd ../../../..`
+
+Use filenames only with ==alphanumeric, dot, underline and rarely minus
+characters==.
+
+### 1.2.6. Command and its options (Команда и её параметры)
+
+What `;` is used for?
+?
+You can execute commands in sequence with `;` character (error code is ignored).
+<!--SR:!2024-02-22,2,152-->
+
+Each command consist of words, where first word is ==command== and other
+commands options.
+
+Any command options are just ==strings== type. Which include one or more words.
+
+Is A number of spaces are affects somehow (command options)?
+?
+No, you can use any number of spaces, for example `echo abra     kadabra` will
+generate same output as `echo abra kadabra`.
+
+Let say you need to remove file with spaces, you need somehow remove special
+role from space, and delete this file, how you can do it? How they work?
+?
+Use one of these variants:
+1. `rm File\ with\ spaces.md`, here you escape spaces with `\` character.
+2. `rm 'File\ with\ spaces.md'`, escaping almost any character, except apostrophe
+3. `rm "File\ with\ spaces.md"`, escaping not any character (`\`, ````, `$`, `!`
+   are not escaped).
+You can escape any other character with these variants.
+<!--SR:!2024-02-22,2,152-->
+
+Quotes and apostrophes not splitting words, they just change special characters
+special meaning and become "invisible" for commands.
+They also can be used to create empty words ('', "").
+`echo "abra"shvabra'kadabra'` is equal to ==`echo abrashvabrakadabra`==.
+
+### 1.2.7 Filenames templates (Шаблоны имён файлов).
+
+Command-line interpreter support ==substitution file names== using a specific
+template. This substitution method can be used with any commands.
+
+As template can be used these characters: `*` - all files, `?` file with one
+character, but they must be not enclosed in ==double quotes and apostrophes==.
+
+You can combine template characters with other filename characters, they denote
+==itself==.
+
+What difference between `???`, `???*` and `*` template?
+?
+`???` - filename length is equal to 3 characters, `???*` - filename minimum
+length is 3 characters, `*` - no filename length restrictions.
+
+For this template `img_????.jpg` will be fit these filenames: `img_256.jpg`,
+`img_cool.jpg`, `img_1112.jpg`?
+?
+Almost yes, except first file: `img_256.jpg`, it must contain 4 characters after
+`img_` prefix.
+
+How to remove all files, with `~` suffix?
+?
+`rm *~`, but I'm use moving files to trash directory.
+
+Is filename templates used only in file operations?
+?
+No, you can use them for example with `echo *` command, which usually only
+prints their arguments, but in this case it will print all files in current
+directory.
+
+Square brackets mean substitute any symbols within ==specified set==, for
+example this template `img_27[234][0123456789].jpg` will be equal to these
+files: `img_2720.jpg`, `img_2721.jpg`, `...`, `img_2734.jpg`, `...`,
+`img_2749.jpg`. Some like this: `img_27[2-4][1-9]`, total 4 digits.
+
+Exclamation mark allows you to mark any files except files matching pattern, for
+example this template `[!_]*.c` will substitute to any files with `.c` suffix,
+except files ==starting with `_` character==.
+
+Curly brackets in template means any chain of symbols from explicitly enumerated
+in some set, for example this template `*.{jpg,png,gif,webp}` will select all
+files with ==`jpg, png, gif, webp` suffixes`==.
+
+If there are no files which fit to template, interpreter will ==leave template
+as is== and send it into command. Usually this means you need to validate
+templates substitution.
+
+### 1.2.8. Commands history and filenames autocompletion (История команд и автодописывание имён файлов).
+
+Modern command-line interpreters supporting autocompletion of commands (with
+parameters) and filenames, usually you need to type some part of file/command
+and press `<Tab>` key to trigger autocomplete command (in some cases need press
+it two times, for example if here multiple ==filenames/commands/options==
+matches).
+
+You can find previous entered command from history, use ==`history|less`==
+commands pipeline to list history of commands with `less` pager.
+
+You can substitute specific templates to transform them into commands form
+history, for example:
+- `!!`::last entered command
+- `!:0`, `!:1`::last entered command options (command and second option)
+- `!:*`::last entered command all options
+- `!28`::command with number 28 from history
+- `!28:1`::first option from command number 28
+
+Most useful is search command by substring (reverse search), use this key
+combination: `C-R`, if you press it twice, you get next command which contains
+==same substring== (if it was entered). Press `C-c` to stop search.
+
+By using these opportunities you can potentially save hours of your time.
+
+### 1.2.9. Jobs management (Управление выполнением задач).
+
+In Unix programs usually execute until they not reach end
+==of file/stream (EOF)==, if it's working with standard streams. With keyboard
+and command-line interpreter you can create this situation with `C-d` keybinding
+(create EOF condition to active program or interpreter itself).
+
+Sometimes programs ignoring EOF (not working with standard streams, or it was
+hangs up). In that case you need to send special signals by pressing one of two
+keys combination, ==C-c, `SIGINT` or C-\, `SIGQUIT`==.
+
+Sometimes you can temporarily pause input stream and active program execution
+(`C-S`), in that case to resume it use ==`C-Q`== keybinding.
+
+Is closing window with terminal is good idea?
+?
+Killing application by closing window is HIGHLY not recommended, this program
+can continue working in background and consume computer resources. Use `C-d` and
+`C-c` keybindings to gracefully close your terminal windows.
+
+Process it is a program which are ==executed and running currently== in system.
+It can be also stopped (process will be gone), start sub-processes, etc.
+
+Each process has own number ==PID, process id==. To list processes in current
+session use `ps` command.
+
+To list all processes and all processes with owners use these commands:
+==`ps ax` and `ps axu`==. Check `man` documentation if you need to understand
+these options.
 
 ## References
 
