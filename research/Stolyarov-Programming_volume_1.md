@@ -57,7 +57,7 @@ Reasons why Unix is the most suitable OS for learning programming:
 
 Any [[Computer_programming|program]] is a record of ==algorithm== on some
 programming language.
-<!--SR:!2024-02-21,2,187-->
+<!--SR:!2024-02-25,4,187-->
 
 On very fundamental level no-one knows what algorithm it is, that's why we have
 [[Computational_problem|computational problems]], and theoretical
@@ -182,7 +182,7 @@ etc.
 So chain to learn programming is: ==Pascal → Assembly → C → C++== (special
 author's vision), OS, I/O, processes, sockets, multithreading, mutex objects and
 semaphores, critical sections, etc.
-<!--SR:!2024-02-21,2,162-->
+<!--SR:!2024-02-24,3,162-->
 
 ## Introduction 3, parting words (Предисловие 3, напутственное)
 
@@ -304,7 +304,8 @@ First full mechanical programmable computer?
 ?
 1938 Konrad Zuse created Z1, first full mechanical programmable computer
 (electricity used only in motor). Z1 used [[Binary_number|binary]] logic.
-<!--SR:!2024-02-21,3,162-->
+![](../img/Z1_replica_German_Museum_of_Technology_Berlin_2017_024.jpg)
+<!--SR:!2024-02-25,4,162-->
 
 Z2 used same mechanics but used electrical relay circuits for computational
 operating. As Z1 it used perforated tape to execute program (instructions).
@@ -347,8 +348,8 @@ computer that uses vacuum tubes for logic circuitry.
 <!--SR:!2024-03-01,12,227-->
 
 First generation computers have one very important principle, principle of
-==stored-program==.
-<!--SR:!2024-02-21,3,207-->
+==stored-program in some memory==, (nowadays mostly electronically).
+<!--SR:!2024-02-26,5,207-->
 
 Program stored in sequences of commands codes in the same memory same as data,
 memory is interchangeable or uniform, commands codes don't differ fundamentally.
@@ -359,7 +360,7 @@ Machines which meet this requirement are called
 Compilers and interpreters are programs which can ==execute other programs== and
 without Vonn Neumann architecture they can't exist (here used principle when
 program can be interpreted as data and another program can execute it).
-<!--SR:!2024-02-21,2,162-->
+<!--SR:!2024-02-24,3,162-->
 
 What useful computer illness is?
 ?
@@ -475,7 +476,7 @@ data (information) in specific determined form (binary code, chains of symbols
 in some alphabet or "text"). In this approach any information transformations
 are **functions** from one set of text into another set of text (sets have equal
 alphabet). And any information processing is function computing.
-<!--SR:!2024-02-20,2,162-->
+<!--SR:!2024-02-22,1,142-->
 
 ### 1.1.2 Processor, memory, bus (Процессор, память, шина)
 
@@ -486,18 +487,18 @@ called data highway or databus) is a communication system that
 
 Physically bus is many (tens) ==parallel wires==.
 
-Main 3 components which connected to bus (computing) are:
+Main 3 components (computer devices) which connected to bus (computing) are:
 ?
 To the bus connecting central processor unit (CPU), random access memory (RAM)
 and controllers.
-<!--SR:!2024-02-21,1,142-->
+<!--SR:!2024-02-22,1,142-->
 
 Main controllers work is to control computer ==devices, yes all devices==.
-<!--SR:!2024-02-21,2,162-->
+<!--SR:!2024-02-24,3,162-->
 
 CPU through ==bus== (communication, like send/receive data) interact with other
 computer components.
-<!--SR:!2024-02-21,2,162-->
+<!--SR:!2024-02-24,3,162-->
 
 RAM and controllers is designed to ignore any information, which go through bus,
 except ==addressed== especially to specific RAM data bank or controller.
@@ -583,9 +584,9 @@ CPU is electrical scheme (in microprocessor form), the only work of it is to
 perform ==simple steps, instructions==.
 <!--SR:!2024-02-22,2,152-->
 
-Main work with information (for CPU) carried out with
+Main work with information (for CPU, first place for data) carried out with
 ==registers, fast storage==, each of them can store up to tens of bits.
-<!--SR:!2024-02-21,2,162-->
+<!--SR:!2024-02-24,3,162-->
 
 Processor can do following operations (==instruction set==):
 - read and write memory locations
@@ -593,7 +594,7 @@ Processor can do following operations (==instruction set==):
 (ALU).
 - copy data between registers
 - service actions (for example jump to location and code execution)
-<!--SR:!2024-02-21,2,162-->
+<!--SR:!2024-02-24,3,162-->
 
 ![[img/Computer_system.excalidraw]]
 
@@ -621,7 +622,7 @@ specific program place. This machine codes are called ==branch== instructions.
 ==Branch== instructions are used to implement control flow in program loops and
 conditionals (i.e., executing a particular sequence of instructions only if
 certain conditions are satisfied).
-<!--SR:!2024-02-21,1,142-->
+<!--SR:!2024-02-22,1,142-->
 
 A branch instruction can be either an unconditional branch, which always results
 in branching (CPU continue to execute instructions from specific address), or a
@@ -631,7 +632,7 @@ condition.
 
 CPU also support branch instruction which remembers ==return point==, which used
 to cal subroutines (RET).
-<!--SR:!2024-02-21,1,142-->
+<!--SR:!2024-02-22,1,142-->
 
 ### 1.1.4. Peripheral devices (Внешние устройства)
 
@@ -646,7 +647,7 @@ invented ==system bus== (which described above).
 
 External peripheral devices connecting into system bus through ==controllers==.
 This is electronic circuit which can interact through system bus with CPU.
-<!--SR:!2024-02-21,2,162-->
+<!--SR:!2024-02-24,3,162-->
 
 Typical scheme of controller interaction with CPU:
 ?
@@ -790,7 +791,7 @@ Professional programmers (and system administrators), mostly prefer
 these commands and return results (show them on display).
 This is dialog mode to interact with computers (there is also batch mode).
 Initially dialog mode was created by using **teleprinters**.
-<!--SR:!2024-02-21,2,162-->
+<!--SR:!2024-02-24,3,162-->
 
 > Computers used ==teleprinters== for input and output from the early days of
 > computing. Punched card readers and fast printers replaced teleprinters for
@@ -848,7 +849,7 @@ What this command in sh interpreter will do: `cp !:1/dcim/* .`?
 ?
 !:1 will be transformed into **first** option of previous command, and we will
 copy files from generated path into current directory.
-<!--SR:!2024-02-21,2,162-->
+<!--SR:!2024-02-24,3,162-->
 
 Let's say you typed command `mount /mnt/flash`, what will be happening when you
 type `u!m`?
@@ -863,7 +864,7 @@ How to test first argument is not exists, and if true execute set of commands
 ```sh
 [ "$1" = "" ] && { echo "No argument"; exit 1; } # { block of commands }
 ```
-<!--SR:!2024-02-21,1,130-->
+<!--SR:!2024-02-23,2,150-->
 
 You can combine multiple commands into chains (link inputs/outputs) which are
 called ==pipeline==. Unlike graphical interface, CLI capabilities (which are
@@ -1092,6 +1093,7 @@ Is filename templates used only in file operations?
 No, you can use them for example with `echo *` command, which usually only
 prints their arguments, but in this case it will print all files in current
 directory.
+<!--SR:!2024-02-23,2,151-->
 
 Square brackets mean substitute any symbols within ==specified set==, for
 example this template `img_27[234][0123456789].jpg` will be equal to these
@@ -1141,6 +1143,7 @@ In Unix programs usually execute until they not reach end
 ==of file/stream (EOF)==, if it's working with standard streams. With keyboard
 and command-line interpreter you can create this situation with `C-d` keybinding
 (create EOF condition to active program or interpreter itself).
+<!--SR:!2024-02-23,2,151-->
 
 Sometimes programs ignoring EOF (not working with standard streams, or it was
 hangs up). In that case you need to send special signals by pressing one of two
