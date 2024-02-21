@@ -11,6 +11,17 @@
   }
 }
 
+/* TODO: Maybe need to remove in future, spaced-repetiton buttons fix */
+.modal-container.mod-dim .modal{
+  max-width: 768px;
+}
+#sr-flashcard-view {
+  height: auto;
+}
+.sr-flashcard-response {
+  position: relative;
+}
+
 .markdown-preview-view ul > li.task-list-item.is-checked {
   text-decoration:none;
   color:var(--text-normal);
