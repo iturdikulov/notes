@@ -206,7 +206,7 @@ the most creative profession in engineering and technical professions.
 What is 2 main things which are important for programmer?
 ?
 Self-education and practice is requirement to be programmer.
-<!--SR:!2024-02-21,1,132-->
+<!--SR:!2024-02-22,1,132-->
 
 Author also tells you need to use CLI to learn something from this book (I use
 it daily), which give you abilities to write simple programs and find program
@@ -275,7 +275,7 @@ without ==human help==, if you need to do more than one operation.
 calculations using method of ==divided differences==, but he failed to finish
 it. George Scheutz created working difference engine in 1843, by using Babbage's
 ideas.
-<!--SR:!2024-02-20,1,130-->
+<!--SR:!2024-02-23,2,150-->
 
 But Babbage's main idea was ==analytical== engine, which can do any
 calculations. So he invited idea of programmable machines, data transferring
@@ -371,7 +371,7 @@ Storing program in memory as instructions, saving a lot of time to change
 programs, you can load another one from external storage (tapes or cards) and
 storing data and program in same memory allowing interpreting data as
 ==another program== (allows creating compilers, OS, etc.).
-<!--SR:!2024-02-21,2,162-->
+<!--SR:!2024-02-24,3,162-->
 
 One of first computer to deal not only with calculations.
 ?
@@ -435,7 +435,7 @@ commercial computer - IBM 608 Transistor Calculator.
 Next third-generation computers used ==integrated circuits (IC's)== and at this
 point computers started producing massively, size was like small closet and
 aviability of computers was much higher.
-<!--SR:!2024-02-21,1,130-->
+<!--SR:!2024-02-23,2,150-->
 
 In 1971 Intel created one of first microprocessor (instead multiple IC's used
 only one for microprocessor) - Intel 4004, which was aviable on market.
@@ -492,10 +492,11 @@ To the bus connecting central processor unit (CPU), random access memory (RAM)
 and controllers.
 <!--SR:!2024-02-21,1,142-->
 
-Main controllers work is to control computer ==devices==.
+Main controllers work is to control computer ==devices, yes all devices==.
 <!--SR:!2024-02-21,2,162-->
 
-CPU through ==bus== interact with other computer components.
+CPU through ==bus== (communication, like send/receive data) interact with other
+computer components.
 <!--SR:!2024-02-21,2,162-->
 
 RAM and controllers is designed to ignore any information, which go through bus,
@@ -574,7 +575,7 @@ What is used to organize information storing (on storage for humans)?
 ?
 Computer files is one of method to organize information (OS using filesystem
 organize it), usually computer files has filenames (which humans can understand).
-<!--SR:!2024-02-21,2,162-->
+<!--SR:!2024-02-24,3,162-->
 
 ### 1.1.3 Operations principles of Central Processor (Принципы работы центрального процессора)
 
@@ -611,7 +612,7 @@ location(s))
 - CPU increment PC value, which depends on command size (for example +3)
 - CPU decode instruction code and execute it
 - Goto cycle start
-<!--SR:!2024-02-21,1,132-->
+<!--SR:!2024-02-22,1,132-->
 
 Some machine codes can change the instruction sequence, for example jump to
 specific program place. This machine codes are called ==branch== instructions.
@@ -641,7 +642,7 @@ In early times all devices connected directly into CPU, but this is not easy to
 maintain (almost impossible), each day here new devices, and you need somehow
 support them and physically change your processor. To solve this issues,
 invented ==system bus== (which described above).
-<!--SR:!2024-02-21,2,162-->
+<!--SR:!2024-02-25,4,182-->
 
 External peripheral devices connecting into system bus through ==controllers==.
 This is electronic circuit which can interact through system bus with CPU.
@@ -758,7 +759,7 @@ doesn't care about which devices and controllers will be used, all this work
 will be done by OS (read data from device and place it into program memory
 space). Program will use this data and close file (stop working with it), then
 OS decides what to do with allocated data.
-<!--SR:!2024-02-21,2,162-->
+<!--SR:!2024-02-24,3,162-->
 
 First OSes appeared in ==1960s==. Nowadays, there few of them (types) used,
 mostly 2 family: ==Windows and Unix==.
@@ -831,7 +832,7 @@ This program usually outputs command line **prompt** and wait when user types
 some text and press `Enter`. After that program execute users commands. This
 commands can be linked together, executed with some conditions, etc. (usually
 [[Turing_complete|Turing complete]]).
-<!--SR:!2024-02-21,2,162-->
+<!--SR:!2024-02-24,3,162-->
 
 Command line interpreter identify first word as command (can be **built-in** or
 some program) and second as ==command parameters==, they are just string passed
@@ -845,8 +846,8 @@ represented actually in disk (virtual objects). And correct term is directory.
 
 What this command in sh interpreter will do: `cp !:1/dcim/* .`?
 ?
-!:1 will be transformed into argument of previous command, and we will copy
-files from generated path into current directory.
+!:1 will be transformed into **first** option of previous command, and we will
+copy files from generated path into current directory.
 <!--SR:!2024-02-21,2,162-->
 
 Let's say you typed command `mount /mnt/flash`, what will be happening when you
@@ -856,17 +857,18 @@ type `u!m`?
 mount /mnt/flash`
 <!--SR:!2024-02-22,2,152-->
 
-How to test first argument is exists, if not exit (`$1`, Bourne shell interpreter)?
+How to test first argument is not exists, and if true execute set of commands
+(`$1`, Bourne shell interpreter)?
 ?
 ```sh
-[ "$1" = "" ] && { echo "No argument"; exit 1 } # { block of commands }
+[ "$1" = "" ] && { echo "No argument"; exit 1; } # { block of commands }
 ```
 <!--SR:!2024-02-21,1,130-->
 
 You can combine multiple commands into chains (link inputs/outputs) which are
 called ==pipeline==. Unlike graphical interface, CLI capabilities (which are
 worth to learn) are limited only by computers capabilities.
-<!--SR:!2024-02-21,2,162-->
+<!--SR:!2024-02-24,3,162-->
 
 For professional in information technology industry fluency in working with CLI
 are almost strict requirement.
@@ -985,7 +987,7 @@ After login in system default path is user's ==home== directory.
 
 Names which started with ==`.`== character are "invisible" (not visible when you
 use some commands, `ls` for example).
-<!--SR:!2024-02-21,2,162-->
+<!--SR:!2024-02-24,3,162-->
 
 Unix filenames can contain any number of dot characters in any position,
 `a.b..c...d....e` is valid filename.
@@ -1002,7 +1004,7 @@ If I started process with from some directory, can it change it?
 ?
 Yes. In Unix OS each running program (process) has own current directory (CWD)
 and each program can change it independently.
-<!--SR:!2024-02-21,2,162-->
+<!--SR:!2024-02-24,3,162-->
 
 Check [[Unix_commands|Unix commands]] note to learn some of them (main are `cp,
 mv, rm, mkdir, rmdir, touch, less`).
