@@ -962,7 +962,117 @@ these options.
 
 To list most active processes interactively use ==`top`== command (`q` to quit).
 
+You can kill process with special signal. Each signal has own number (name),
+process can ignore some signals, some signals can't be ignored, for example
+==SIGKILL, #9==.
 
+To kill process with `SIGKILL` signal, use this commands (one of the two):
+==`kill -9 2763` or `kill -KILL 2763`==. To get process number use `ps ax`
+command (some command-line interpreters can expand process name into number).
+
+Sometimes you can't kill process, usually it means process in two states:
+- ==zombie, Z in stat column== (need to delete parent process)
+- issues with hardware, D in stat column (for example unsafe removing flash
+drive and `cp` process).
+
+### 1.2.10. Running in background (Выполнение в фоновом режиме)
+
+To start program in background use ==`&`== symbol. After running in background
+system will notify that task was started in background (`[1] 1234 ...`).
+
+To list background tasks use ==`jobs`== command (`[1]+ Running ...`). When job
+will be completed, command-line interpreter will notify with message (`[1]+ Done
+...`). Here can be different messages, if program was terminated, finished with
+error, etc.
+
+You can control background jobs with `%n` suffix (n - number of job), for
+example, bring forward `fg %1`, kill `kill %1`, etc.
+
+`C-z` used to ==temporarily pause process and its moves into background==.
+
+### 1.2.1. Redirecting I/O streams (Перенаправление потоков ввода-вывода)
+
+In Unix all programs interacts with external world through standard streams
+(I/O), each stream can get or send ==bytes sequences (data)==.
+Input data - through various devices, communication channel with other program, network.
+Output data - into display, file on storage, into communication channel, network.
+
+Program can work with multiple streams, each of them has own number, these
+number are named ==descriptors==.
+
+Which standard streams you know, which number they have?
+?
+In UNIX here convention for give numbers of descriptors, 0 - standard input
+(stdin), 1 - standard output (stdout), 2 - standard error (stderr).
+
+To view some long output (for example `ls -lR` command output) you can use pager
+command, for example `ls -lR | less`.
+
+Many programs output errors messages into `stderr` stream, to view them page by
+page need use special ==stream merge command, `>&`, merge stderr with stdout==
+and send output to pager, for example: `gcc -Wall -g myprog.c -o myprog 2>&1 |
+less`.
+
+If you want to ignore some output, you can redirect it into `/dev/null` pseudo-device.
+For example this command will list all files and write into list.txt file,
+except directories which we can't read (no access rights) all errors will be
+ignored: `ls -lR / > list.txt 2> /dev/null`
+
+### 1.2.12 Text editors (Редакторы текстов)
+
+#### Vim editor (Редактор Vim)
+
+I'm big fan of [[Neovim]], and use it every day. Author describes some basic
+information about vim, I manage my own notes, so some useful information moved
+into my note.
+
+### GNU nano editor (Редактор Nano)
+
+Nano emulates the Pico text editor, part of the Pine email client, and also
+provides additional functionality.
+
+How to navigate in Nano?
+?
+Nano support standard arrows and navigation keys (PgUp/PgDn, Home, End,
+Backspace and Del). Each have one-byte alternative to work on slow network, for
+example `C-f`, `C-b`, `C-p` and `C-n` are forward (left), backward (right),
+previous (up) and next (down) navigation keys.
+
+In bottom place here useful ==help== section, nano also can interactively ask
+some questins, so check them carefully.
+
+Do you know some useful nano keybindings?
+?
+Most useful commands are:
+- `F1` or `C-g` open help
+- `C-o` save current file
+- `C-x` exit from editor and optionaly save it's content
+- `C-_` go to specific line and optionaly line, for example `3,1`.
+- `C-k, C-u` (cut + uncut) copy text
+
+### Joe editor
+
+JOE is a full-featured terminal-based screen editor which is distributed under
+the GNU General Public License (GPL). JOE has been around since 1988 and comes
+standard with many Linux distributions.
+
+Main Joe keybindings?
+?
+| Key | description |
+|-----|-------------|
+|`C-k d`|save file|
+|`C-k x`|save file and exit|
+|`C-c`|exit without saving|
+|`C-y`|delete current line|
+|`C-k `| |
+|`C-k `| |
+|`C-k `| |
+|`C-k `| |
+|`C-k `| |
+|`C-k `| |
+|`C-k `| |
+|`C-k `| |
+|`C-k `| |
 
 ## References
 
