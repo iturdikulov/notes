@@ -13,6 +13,11 @@ sr-ease: 161
 
 TODO: better group resources
 
+## Stolyarov
+
+- [ ] [[research/Stolyarov-Programming_volume_1_0_introduction]]
+- [ ] [[research/Stolyarov-Programming_volume_1_1_preliminary_information]]
+
 ## Frontend
 
 - [ ] [Mini projects built with HTML5, CSS & JavaScript](https://github.com/bradtraversy/vanillawebprojects)
@@ -63,8 +68,6 @@ TODO: add info, [[Computer_programming|Programming]]
 - [[research/korfuri-Nixos_on_an_Oracle_Free_Tier_Ampere_machine]]
 
 - [[My_python_developer_roadmap]]
-- Learn fundamentals of programming with [[research/Stolyarov-Programming_volume_1|Программирование]], серия книг.
-
 - TODO: my C developer roadmap
     - [[research/learnxinyminutes-Learn_C_in_Y_minutes]]
     - [[research/Xiryanov-Kurs_molodogo_bojcza_MFTI_yazyk_S]], to learn basics of [[C]].
