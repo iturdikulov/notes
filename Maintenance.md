@@ -61,8 +61,10 @@ it's what I have:
 
 - TODO: validate how much data writing daily
 - Firefox profiles settings (about:config), at least `browser.sessionstore.interval`
-- Github and YouTube likes, subscriptions
-- Cloud storage (Google Drive, Yandex.Disk, etc...)
+- docker system prune; docker volume prune (be careful with this, backup
+DB/important, keep running important containers)
+- GitHub and YouTube likes, subscriptions
+- Cloud storage (Google Drive, Yandex Disk, etc...)
 - Review [[Dataview_maintenance_queries|dataview]] note.
 - Telegram saved messages, need to replace with something else. Can be replaced
 with Firefox bookmarks.
