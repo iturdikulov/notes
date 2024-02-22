@@ -17,6 +17,3 @@ _[По примеру богов 2 (картина) — Генрих Иппол�
 
 ![](img/Caravaggio-the_lute_player.jpg)
 _[The Lute Player (Caravaggio) - Wikipedia](https://en.wikipedia.org/wiki/The_Lute_Player_(Caravaggio))_
-
-
-

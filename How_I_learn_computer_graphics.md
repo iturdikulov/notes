@@ -46,9 +46,8 @@ My outline for learning [[Computer_graphics|computer graphics]].
 - [[research/Price-Donut_Tutorial_in_Blender]]
 - [[research/Creative_Shrimp-Hard_Surface_Modeling_In_Blender]]
 - [[research/Gumster-Blender_for_dummies]]
-- [[research/Trammell-HUMAN_Realistic_Portrait_With_Blender]]
-- [[research/Tuytel_and_Rahman-Creating_3D_Environments]]
-
+- Trammell HUMAN Realistic Portrait With Blender?
+- Tuytel and Rahman Creating 3D Environments?
 - [Creating Realistic 3D Water in Blender](https://www.youtube.com/watch?v=vr7mkSiKRLM)
 
 

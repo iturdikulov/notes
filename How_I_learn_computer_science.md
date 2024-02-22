@@ -43,7 +43,6 @@ this engine, and it can be even used as [[Art]] tool.
 - [[research/Martin-Interactive_Coding_Challenges]]
 - [[research/Martin-System_Design_Primer]]
 - [[research/Cormen-Algorithms_unlocked]]
-- [[research/HarvardX-CS50x]]
 - [[research/San_Diego_University-Algorithmic_Toolbox]]
 - [[research/Sedgewick_and_Wayne-Algorithms_Part_1]]
 - [[research/Sedgewick_and_Wayne-Algorithms_Part_2]]
