@@ -51,6 +51,10 @@ Get variable value - `:set nonu?`.
 
 ## Basics
 
+Neovim like Vim has two main modes (and some additional), insert mode and command mode.
+
+Quit and ignore changes in ALL files (be careful with this, `:q` is much safer)::Press `Esc` and type `:qa!`
+
 Up, Down, Left, Right::`k`,`j`,`h`,`l`, but prefer other navigation keys
 
 Normal mode, for navigation and manipulation of text::`ESC` or `C-[` or `C-c`
@@ -729,11 +733,13 @@ Exit::`:q`
 
 Save without exiting::`:w`
 
+Save without exiting and ignore read-only flag if possible::`:w`
+
 Save with some name (save as)::`:w [filename]`
 
 Write the current file and exit::`:wq [file]`
 
-Write/force write and exit::`:wq! [file]`
+Write force (try to ignore read-only flag) and exit::`:wq! [file]`
 
 Write/force write and exit, but only write the lines in \[range\] `::[range]wq[!]`
 
@@ -951,7 +957,7 @@ List buffers
 `:buffers` - built-in command
 `:Telescope buffers` - telescope command, or `M-b` hotkey.
 
-Switch to buffer
+Switch to buffer by name or number
 ?
 `:b <buffer name>` or `:b <buffer number>`
 
@@ -1028,7 +1034,11 @@ Rename note::`<leader>tr`
 
 `:!`::external filter, used in command mode to execute something
 
+`:ls`::list active buffers
+
 `:r!`redirect external filter into current buffer
+
+`:r [name]`::Read file and insert it's content into current buffer
 
 You could also use ==`w !python`== to run your python program (no need to save,
 it will pass the content as stdin, that's what w ! is for).
