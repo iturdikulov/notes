@@ -30,11 +30,18 @@ shell (`~/.inputrc`, `~/.ipython/profile_default/ipython_config.py`).
 
 ## Bare essentials
 
+`C-n`::Scroll up
+`C-p`::Scroll down
+
 `C-b`::Move back one character.
 `C-f`::Move forward one character.
 
+`M-\`::Delete spaces and tabs around point
+`M-k`::kill to end of sentence (kill-sentence)
 `DEL or Backspace`::Delete the character to the left of the cursor.
-`C-d`::Delete the character underneath the cursor.
+`M-Backspace`::Delete the word to the left of the cursor.
+`C-d`::Delete (kill) the character underneath the cursor.
+`M-d`::Delete (kill) the word underneath the cursor.
 `C-_` or `C-x C-u`::Undo the last editing command. You can undo all the way back to an empty line.
 
 ## Readline Movement Commands
@@ -56,7 +63,7 @@ shell (`~/.inputrc`, `~/.ipython/profile_default/ipython_config.py`).
 
 `C-w`
 ?
-Kill from the cursor to the previous whitespace. This is different than `M-DEL`
+Kill from the cursor to the previous whitespace. This is different from `M-DEL`
 because the word boundaries differ.
 
 `C-k`::Kill the text from the current cursor position to the end of the line.
