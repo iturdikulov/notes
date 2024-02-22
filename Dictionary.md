@@ -25,6 +25,8 @@ meaning of words.
 
 ## Words which I search through Sdcv (inbox for future flashcards)
 
+### English
+
 - computer::`[kəmˈpjuːtə]` компьютер, расчетчик, вычислительный; Our sales information is processed by computer.
 - R&D::research and development - исследования и разработки, научно-исследовательский и опытно-конструкторский; Imagine that your company has two departments: Research and Development.
 - research::`[ɹəˈsɜːtʃ]` (научное) исследование, изыскание, изучение, анализ; "The student researched the history of that word".
@@ -36,9 +38,11 @@ meaning of words.
 <!--SR:!2024-02-13,1,232-->
 - admission::`[ədˈmɪʃ(ə)n]` допущение (an acknowledgment of the truth of something), принятие; приём (в учебное заведение, клуб, общество), вход, доступ
 <!--SR:!2024-02-13,1,232-->
+- action
 - afternoon
 - agnostic
 - aims
+- along
 - altitude
 - animus
 - anxiety
@@ -56,6 +60,7 @@ meaning of words.
 - borrowed
 - cat
 - caterpillar
+- cell
 - certain
 - clause
 - clay
@@ -66,7 +71,8 @@ meaning of words.
 - computer
 - concern
 - confidence
-- considering
+- cons
+- consider
 - convince
 - crease::`[kriːs]` складка; загиб; отутюженная стрелка (на брюках)
 - curiosity
@@ -74,23 +80,30 @@ meaning of words.
 - deprecated
 - dime
 - discrepant
+- dismiss
 - doom
 - dwelling
+- efficiency
 - elaborate
 - elevation
+- eminent
 - emission
-- enclosing
+- enclosed
 - encounter
+- enormous
 - enrich
 - entertainment
 - escape
 - excessive
 - exhausted
+- falloff
 - fascinate
-- fascinated
 - floppy
 - further
 - glory
+- gracefully
+- grossly
+- ham
 - handily
 - hesitation
 - house
@@ -102,12 +115,14 @@ meaning of words.
 - influence
 - inheritance
 - instantiated
+- integrated circuits -p
 - intersection
 - labor
 - lineage
 - literal
 - local expert
 - lump
+- maintainability
 - mallard
 - mammal
 - medicine
@@ -121,6 +136,7 @@ meaning of words.
 - osprey
 - outsource
 - pan
+- persistent
 - pivot
 - point of ponder
 - prefetch
@@ -128,9 +144,11 @@ meaning of words.
 - prime number
 - proficient
 - quarter
+- ramp
 - rat
 - redundant
 - remainder
+- research
 - resembling
 - retention
 - robust
@@ -146,7 +164,11 @@ meaning of words.
 - strength
 - subject
 - substitute
+- suffix
+- surround
 - tackle
+- tedious
+- thicker
 - tickle
 - trait
 - treat
@@ -157,13 +179,20 @@ meaning of words.
 - violate
 - zoom
 - zooma
-- або
+
+### Russian
+
+<!-- LTeX: language=ru-RU -->
+- эскиз
+- эффективность
 - абы
 - авиация
+- арифмометр
 - арфа
 - аспект
 - баланда
-- вап
+- возможности
+- восклицательный
 - восьмушка
 - выпуклсть
 - говядина
@@ -174,14 +203,18 @@ meaning of words.
 - дон
 - дорожка
 - досада
-- друг
 - живодер
-- жопа
+- запас
 - зона
 - изба
+- изделие
 - как проехать
+- каллиграф
+- карантин
+- каталог
 - кино
 - компьютер
+- коннотация
 - корыто
 - косовранка
 - кошка
@@ -195,24 +228,38 @@ meaning of words.
 - матрасы
 - матрац
 - музыка
+- мьютексы
 - напитки
 - напиток
 - натрий
+- обозначают
+- обособленная
 - обсидиан
+- объем
+- оперативная память
 - оператор
 - орех
-- осьмий
+- осуществляется
+- осмий
+- отстойник
 - парашют
+- передаст
+- перечисленны
 - петух
 - пистолет
 - поклёп
 - попрошайка
+- прерывание
 - пресс
+- примитивный
 - принтер
 - приседания
 - приседать
 - произведения
 - пропустить
+- радиолампа
+- расширить
+- реле
 - роман
 - ромашка
 - румыния
@@ -221,12 +268,21 @@ meaning of words.
 - сантиметр
 - сладости
 - случайный
+- соответствовать
+- составляет
 - старушка
 - старче
+- суммирование
+- считать
 - сырник
 - сырники
 - тапочки
 - творожник
+- творческие
+- ток
+- том
+- тонкости
+- триод
 - убийца
 - удлинить
 - удлинять
@@ -234,54 +290,6 @@ meaning of words.
 - шилка
 - шутка
 - щетка
+- явно
 
-- thicker
-- falloff
-- ramp
-- along
-- запас
--
-- consider
-- consider
-- conscern
-- efficiency
-- cell
-- doom
-- maintablitiy
-- maintainability
-- action
-- том
-- коннотация
-- enreach
-- возможности
-- мьютексы
-- прерывани
-- прерывание
-- каллиграф
-- labour
-- изделие
-- творческие
-- считать
-- Эффективность
-- Эскизы
-- суммировани
-- dismiss
-- арифмометр
-- реле
-- триод
-- радиолампа
-- ham
-- ток
-- дорожка
-- состовляет
-- осуществляется
-- тонкости
-- cons
-- обособленная
-- research
-- computer
-- оперативная память
-- обьем
-- persistent
-- tedious
-- surround
+### Inbox
