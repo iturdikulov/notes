@@ -55,7 +55,10 @@ Up, Down, Left, Right::`k`,`j`,`h`,`l`, but prefer other navigation keys
 
 Normal mode, for navigation and manipulation of text::`ESC` or `C-[` or `C-c`
 
-Insert mode, for inserting new text.::`iIaAoO`
+Insert mode, for inserting new text.
+?
+`iIaAoO`, `i` start input before the current symbol (insert or prepend), `a` ...
+after current symbol (append).
 
 Visual, for navigation and manipulation of text selections::`v` or `V` or `C-v`
 <!--SR:!2023-06-06,2,228-->
@@ -408,7 +411,7 @@ Replace a single character::`r`
 
 Enter sort of `insert mode`, but replacing characters rather than inserting::`R`
 
-Join line below to the current one::`J`
+Join line below to the current one (delete carriage return)::`J`
 
 Change (replace) an entire line::`cc` or `S`
 
@@ -425,6 +428,8 @@ Transpose two letters (delete and paste, actually)::`xp`
 Reverse two letters (delete and paste, actually)::`Xp`
 
 Undo changes::`u`
+
+Undo all changes in current line::`U`
 
 Redo changes::`C-r`
 <!--SR:!2023-06-05,1,209-->
@@ -491,6 +496,8 @@ Delete current character, previous character::`x`, `X`
 Delete the current word (from current position)::`dw`
 
 Delete (cut) a line::`dd`
+
+Delete (cut) from cursor to end of line::`d$`
 
 Delete until the next \' character on the line (or any character)::`dt'` or `dt{char}`
 
