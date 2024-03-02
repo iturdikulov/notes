@@ -49,18 +49,25 @@ looking for configuration files in `$XDG_CONFIG_HOME/neovim` instead of
 Hide line numbers::`:set nonu nornu` or `:set nonumber norelativenumber`.
 Get variable value - `:set nonu?`.
 
+`:h vimtutor` is quick getting started guide, same command aviable in CLI.
+
 ## Basics
 
 Neovim like Vim has two main modes (and some additional), insert mode and command mode.
 
 Quit and ignore changes in ALL files (be careful with this, `:q` is much safer)::Press `Esc` and type `:qa!`
 
-Up, Down, Left, Right::`k`,`j`,`h`,`l`, but prefer other navigation keys
+Up, Down, Left, Right
+&#10;
+`k`,`j`,`h`,`l`, but prefer other navigation keys. These keys have one important
+advantage, they are not generated escape codes unlike arrows keys, and since
+only one method to detect escape code is calculating delays (user can enter
+escape sequence much slower), it can sometimes help on slow connections.
 
 Normal mode, for navigation and manipulation of text::`ESC` or `C-[` or `C-c`
 
 Insert mode, for inserting new text.
-?
+&#10;
 `iIaAoO`, `i` start input before the current symbol (insert or prepend), `a` ...
 after current symbol (append).
 
@@ -87,8 +94,6 @@ Change something (can be used with black hole register)::`c[register][num][motio
 
 `:`::command mode
 
-Telescope command history::`<leader>fc`
-
 How to split line
 &#10;
 Use (a/i/r) keys:
@@ -99,8 +104,6 @@ Use (a/i/r) keys:
 ## Search & replace
 
 Grep content in current project and open find toolbar (custom)::`<leader>fs`, TODO: remap
-
-Telescope builtin's search::`<leader>fF`, `:h telescope.builtin`, TODO: remap
 
 `/`::search mode
 
@@ -269,7 +272,7 @@ Jump to end of lin**e**::`$`
 
 Jump to the last non-blank character of the lin**e** ::`g_`
 
-Move to the current line (useful for making line-based commands)::`_`
+Move to the current line (useful for making line-based commands) *::`_`
 
 Move line upwards, on the first not blank character (ignore cursor position)::`-`
 <!--SR:!2023-06-05,1,209-->
@@ -293,7 +296,7 @@ Move the cursor a section backwards or the previous `{`::`]]`
 Move the cursor to the top, middle, bottom of the screen.::`HML`
 <!--SR:!2023-06-05,1,209-->
 
-Jump to matching brace, bracket, or parentheses::`%`
+Jump to matching brace, bracket, or parentheses *::`%`
 
 Return to the line where the cursor was before the latest jump::`''`
 
@@ -324,6 +327,12 @@ Go to position of bookmark `a`::`` `[a] ``
 Go to the line with bookmark `a`::`'[a]`
 
 Go to the line that you last edited::`` `. ``
+
+### QuickFix/Location list
+
+Next quickfix item::`<C-k>`, `<leader>k` next item for current window
+
+Previous quickfix item::`<C-j>`, `<leader>j` previous item for current window
 
 ### Code navigation (usually aviable with some LSP server)
 
@@ -707,17 +716,21 @@ Fold text object (motion)::`zf[motion]`
 
 ## Files
 
+Switch to normal mode in terminal
+&#10;
+By default, `<C-\><C-n>`, but I have custom keybinding `<Esc><Esc>`
+
 Quick switch to terminal and back workflow
-?
+&#10;
 Ctrl-Z while editing in vim to send it to background, do your thing on the
 terminal and use `fg` command at any time to bring up vim again.
 
 Switch to previous file, the best alternative
-?
+&#10;
 `c-^`
 
 `:e [filename]` or `:edit [filename]`
-?
+&#10;
 Edit file, support `tab` completion. Can be used instead touch and edit files.
 
 Edit the file whose name is under or after the cursor::`gf`
@@ -759,7 +772,9 @@ Print current directory and file path:`:pwd`, `:pw`
 
 `cd` to current file path (custom)::`<leader>z%`
 
-File browser plugin in CWD::`<SPC>pv` or `:Ex`
+File browser plugin in CWD::`<leader>pv` or `:Ex`
+
+File browse plugin left tree::`<leader>pV`
 
 ### Harpoon
 
@@ -775,9 +790,11 @@ Toggle Next/Previous buffer::`C-M-N`, `C-M-P`
 
 ### Telescope
 
-Find file, with history and fuzzy search::`M-p`
+Telescope builtin's search::`<leader>fb`, `:h telescope.builtin`
 
-Locate file in telescope file manager::`<leader>pV`
+Find file, git repo::`M-p`
+
+Find file, directory::`<leader>ff`
 
 Recent files (telescope old files)::`<M-e>`
 
@@ -955,16 +972,16 @@ Switch to buffer whose filename begins with "vimrc"::`:b vimrc[tab]`
 List buffers
 &#10;
 `:buffers` - built-in command
-`:Telescope buffers` - telescope command, or `M-b` hotkey.
+`:Telescope buffers` - telescope command
 
 Switch to buffer by name or number
-?
+&#10;
 `:b <buffer name>` or `:b <buffer number>`
 
 Create new scratch buffer::`:enew`
 
 Close all buffers except current and stay on original cursor position (custom)
-?
+&#10;
 `<leader>bD`, command - `:%bd\|e#\|bd#<cr>\|'"`
 
 Delete current buffer::`<leader>bd` or `:bd`
@@ -978,20 +995,20 @@ Maximize buffer width::`C-w |`
 `:h shada`::opens shada help, viminfo analog, store various settings
 
 Save current session (vim script)
-?
+&#10;
 `:mksession`, more info: `:h mksession`
 
 Source file, which can be session
-?
+&#10;
 `:source` `file` or `:so` `file`
 
 Save view
-?
+&#10;
 `:mkview [N]` - N is a view name (1-9).
 This use `shada` file, which is a viminfo analog. Check `:h shada` for more info.
 
 Load view
-?
+&#10;
 `:loadview [N]`, N is a view name (1-9)
 <!--SR:!2023-06-06,1,208-->
 
@@ -1037,6 +1054,8 @@ Rename note::`<leader>tr`
 `:ls`::list active buffers
 
 `:r!`redirect external filter into current buffer
+
+`!!`::quick open menu to insert command
 
 `:r [name]`::Read file and insert it's content into current buffer
 
@@ -1120,7 +1139,7 @@ Grep in branch::`<leader>gp`, `<leader>gP` (quickfix list)
 Move current file to another location `:Git move`::`<leader>gm`
 
 Stage current file if it's working copy, or checkout if it's index file
-?
+&#10;
 `:Gwrite` or `<leader>gW`
 
 `:Gwrite` on index file will ==checkout file==.
@@ -1136,7 +1155,7 @@ Stage current file if it's working copy, or checkout if it's index file
 `dp` is hotkey for ==`:diffput`==. `p` is stays for "put".
 
 Checkout current file if it's working copy, or stage if it's index file
-?
+&#10;
 `:Gread` or `<leader>gR`
 
 `:Gread` on index file will ==stage file==.
@@ -1239,6 +1258,8 @@ Open file in Obsidian (for wiles in ~/Wiki directory)::`<leader>to`
 
 Open the package-manager config::`<leader>vpp`
 
+Find neovim config file::`<leader>vpP`
+
 Type ==`tab`== to complete a command.
 
 Open list of possible commands in command mode::[filter]`C-d`
@@ -1246,7 +1267,7 @@ Open list of possible commands in command mode::[filter]`C-d`
 List previous commands in command mode::`C-f`
 
 How to check file was changed ("tjdevries/express_line.nvim" status line plugin)
-?
+&#10;
 In neovim it's `[+]` in the status line (after filename)
 
 List keybindings of current buffer::`WhichKey`
@@ -1254,6 +1275,10 @@ List keybindings of current buffer::`WhichKey`
 Find keybinding by using `which-key`::`<leader>fk`, TODO: need to change, conflict with auto-format
 
 Find action::`<leader>fK`, TODO: need to change, conflict with auto-format
+
+Help tags::`<leader>fh`
+
+Command history::`<leader>fc`
 
 ### Tips
 
@@ -1296,6 +1321,7 @@ If you need to insert Markdown link from clipboard, use `S-v` key.
 
 ## TREEMACS_WORKFLOW_NEED_IMPORT
 
+prettire range: %!prettier --stdin-filepath %<CR>
 going to a certain word in file, / and ?.
 select all occurrences of search query
 make-toc
@@ -1351,13 +1377,13 @@ markdown add headline link/anchor
 markdown toggle item, convert to plain-text list or numbered list
 markdown selection to link::^k
 markdown insert tag
-insert svg, png images directly from cliboard, save with human-readable name.
+insert SVG, PNG images directly from clipboard, save with human-readable name.
 TODO.md capturing?
 find file in netrw PV+
 
 ### Sniprun
 
-1. Python code with mathplotlib graph
+1. Python code with Matplotlib graph
 
 ```
 import matplotlib
