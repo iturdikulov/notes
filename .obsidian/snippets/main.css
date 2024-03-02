@@ -20,6 +20,7 @@
 }
 .sr-flashcard-response {
   position: relative;
+  padding-top: 100px;
 }
 
 .markdown-preview-view ul > li.task-list-item.is-checked {
