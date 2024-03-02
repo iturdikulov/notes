@@ -35,6 +35,10 @@ Toggle sticky on active window (topmost)::`<D-S>`
 
 ## Programs specific shortcuts
 
+Open `$TERMINAL` in scratchpad::`D-'`
+
+Open calculator scratchpad::`D-"`
+
 Actual programs shortcuts/specific hardware control, etc. located in
 `config.h`.
 Check `SHCMD()` functions.
