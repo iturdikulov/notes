@@ -3,7 +3,6 @@ date: 2023-02-20
 tags:
   - inbox
   - SR_vim
-  - SR_poductivity
 external:
   - https://neovim.io/
 directory:
@@ -225,9 +224,9 @@ Go to last line of document::`G`
 
 Go to line n::`[n]gg`, or `[n]G`
 
-Up to #line (relative)::`#k`
+Up to `#line` (relative)::`#k`
 
-Down to #line (relative)::`#j`
+Down to `#line` (relative)::`#j`
 
 Move the cursor forward by a **screen** of text::`C-f`, cursor position lose
 
