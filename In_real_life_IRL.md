@@ -39,23 +39,39 @@ Measure checklist:
 
 - Use a tape measure with cm (metric system).
 - Wear underwear or very thin clothes for accurate measurements and appropriate
-shoes for correct length of trousers.
+  shoes for correct length of trousers.
 - Neck: Measure around the fullest part of our neck, keeping tape level. Allow
-for your index finger to fit between the tape and your neck for a comfortable
-fit.
+  for your index finger to fit between the tape and your neck for a comfortable
+  fit.
 - Chest: Measure your chest under your arms, holding tape level. Be sure to
-cross over the shoulder blades and the fullest part of your chest.
+  cross over the shoulder blades and the fullest part of your chest.
 - Waist: Measure your waist where the waistband normally sits.
 - Hip: Measure your hip around the fullest part
 - In seam length: Measure from the crotch to your desired trouser length. Or use
-a pair of trousers that fits you well, measure from the top of the inner leg
-seam to the hem at the bottom of the leg.
+  a pair of trousers that fits you well, measure from the top of the inner leg
+  seam to the hem at the bottom of the leg.
 - Sleeve length: Use a jacket that fits well around the shoulders. Stand with
-the arm relaxed down the side of your body. Measure from the top of the shoulder
-seam, let the tape measure follow the outside of the sleeve to the desired
-length of the sleeve.
+  the arm relaxed down the side of your body. Measure from the top of the
+  shoulder seam, let the tape measure follow the outside of the sleeve to the
+  desired length of the sleeve.
 
 ![Size chart for men uniforms](img/Body-measurement-cm-to-size-male-drawing.jpg)
+
+## Apartment cleaning plan
+
+1. Garbage collection, also collect old, unnecessary and broken things that are
+   not repairable.
+2. Washing fabric coverings, curtains, drapes, tablecloths, etc.
+3. On the free space is made arrangement of things
+4. Dishes and sanitary ware are washed.
+5. Next in line are floor coverings, which should be treated with detergents and
+   left to dry.
+6. Dust and dirt is removed from walls and other surfaces
+
+Principles:
+
+- divide and conquer
+- schedule (clean zone or part of zone per day)
 
 ## References
 
