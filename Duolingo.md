@@ -4,7 +4,7 @@ external:
 date: 2023-05-06
 tags:
   - inbox
-  - outline
+  - bridge
   - SR_english
 sr-due: 2024-01-28
 sr-interval: 1

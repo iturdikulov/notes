@@ -1,9 +1,9 @@
 ---
-external: https://www.ventoy.net/en/index.html
+external:
+  - https://www.ventoy.net/en/index.html
 date: 2023-05-20
 tags:
   - inbox
-  - SR_software
 sr-due: 2024-01-29
 sr-interval: 4
 sr-ease: 276

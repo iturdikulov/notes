@@ -1,7 +1,7 @@
 ---
 date: 2023-06-04
 tags:
-  - outline
+  - bridge
   - SR_vim
   - inbox
 sr-due: 2024-02-21

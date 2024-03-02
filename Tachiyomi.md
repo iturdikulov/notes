@@ -2,8 +2,7 @@
 date: 2023-06-18
 tags:
   - inbox
-  - research
-  - SR_software
+  - archive
 sr-due: 2024-01-30
 sr-interval: 4
 sr-ease: 272
@@ -11,9 +10,10 @@ sr-ease: 272
 
 # Tachiyomi
 
-> Tachiyomi is a free and open source manga reader for Android 6.0 and above. --
-> [Tachiyomi](https://tachiyomi.org/)
+> Tachiyomi is a free and open source manga reader for Android 6.0 and above.\
+> — <cite>[Tachiyomi](https://tachiyomi.org/)</cite>
 
+Currently, I just use [[Calibre|calibre]].
 ## Local manga
 
 Follow the steps below to create local manga.

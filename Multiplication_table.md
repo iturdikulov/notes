@@ -1,7 +1,7 @@
 ---
 date: 2022-01-01
 tags:
-  - outline
+  - bridge
   - SR_mathematics
   - inbox
 sr-due: 2024-01-28

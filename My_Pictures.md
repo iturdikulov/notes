@@ -3,7 +3,7 @@ date: 2022-12-29
 directory: ~/Pictures/
 tags:
   - inbox
-  - outline
+  - bridge
 sr-due: 2024-02-05
 sr-interval: 8
 sr-ease: 253

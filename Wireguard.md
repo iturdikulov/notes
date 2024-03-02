@@ -1,8 +1,8 @@
 ---
-external: https://www.wireguard.com/
+external:
+  - https://www.wireguard.com/
 tags:
   - inbox
-  - SR_software
 sr-due: 2024-01-29
 sr-interval: 4
 sr-ease: 270

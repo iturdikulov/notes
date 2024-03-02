@@ -2,7 +2,7 @@
 date: 2023-03-19
 tags:
   - inbox
-  - outline
+  - bridge
   - SR_computer_science
 sr-due: 2024-01-29
 sr-interval: 2

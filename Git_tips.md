@@ -1,7 +1,7 @@
 ---
 date: 2023-03-31
 tags:
-  - outline
+  - bridge
   - SR_development
   - inbox
 sr-due: 2024-02-06

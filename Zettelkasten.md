@@ -2,7 +2,7 @@
 date: 2023-03-10
 tags:
   - inbox
-  - outline
+  - bridge
   - SR_productivity
 directory: ~/Wiki/
 sr-due: 2024-02-25

@@ -2,20 +2,21 @@
 date: 2023-04-02
 tags:
   - inbox
-  - SR_development
-  - SR_software
+  - archive
 sr-due: 2024-02-03
 sr-interval: 6
 sr-ease: 249
 ---
 
-# Nnn file manager
+# NNN file manager
 
-## Configuration, using environment variables
+Currently I switched to [[Netrw]].
+
+Configuration, using environment variables
 ```bash
 NNN_TRASH=1  # enable trash
 ```
-## Core shortcuts
+# Core shortcuts
 `q` quit
 `/` search filter
 `tab` creates and/or cycles contexts

@@ -1,7 +1,7 @@
 ---
 date: 2022-12-28
 tags:
-  - outline
+  - bridge
   - inbox
   - SR_IRL
 sr-due: 2024-01-28

@@ -2,8 +2,6 @@
 date: 2024-01-17
 tags:
   - inbox
-  - SR_computer_graphics
-  - SR_software
 sr-due: 2024-02-05
 sr-interval: 9
 sr-ease: 266

@@ -2,7 +2,7 @@
 date: 2023-03-13
 external: https://daringfireball.net/projects/markdown/syntax
 tags:
-  - outline
+  - bridge
   - SR_productivity
   - inbox
 sr-due: 2024-01-29

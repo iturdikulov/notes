@@ -1,9 +1,9 @@
 ---
 date: 2023-04-02
-external: https://gcc.gnu.org/
+external:
+  - https://gcc.gnu.org/
 tags:
   - inbox
-  - SR_software
 sr-due: 2024-01-29
 sr-interval: 2
 sr-ease: 233

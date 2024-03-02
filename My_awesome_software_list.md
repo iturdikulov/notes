@@ -1,7 +1,7 @@
 ---
 date: 2023-03-12
 tags:
-  - outline
+  - bridge
   - SR_software
   - inbox
   - bridge

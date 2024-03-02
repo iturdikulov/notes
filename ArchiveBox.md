@@ -3,7 +3,6 @@ date: 2023-08-26
 external:
   - https://archivebox.io/
 tags:
-  - SR_software
   - inbox
 sr-due: 2024-02-12
 sr-interval: 17

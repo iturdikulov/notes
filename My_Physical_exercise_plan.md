@@ -2,7 +2,7 @@
 date: 2023-03-12
 tags:
   - inbox
-  - outline
+  - bridge
   - research
   - SR_IRL
 sr-due: 2024-01-28

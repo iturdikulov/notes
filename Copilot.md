@@ -1,9 +1,9 @@
 ---
-external: https://github.com/features/copilot/
+external:
+  - https://github.com/features/copilot/
 date: 2023-03-28
 tags:
   - inbox
-  - SR_software
 sr-due: 2024-01-29
 sr-interval: 3
 sr-ease: 263

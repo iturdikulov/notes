@@ -1,9 +1,9 @@
 ---
-external: https://www.blender.org/
+external:
+  - https://www.blender.org/
 date: 2023-03-04
 tags:
   - inbox
-  - SR_software
 sr-due: 2024-02-01
 sr-interval: 4
 sr-ease: 224

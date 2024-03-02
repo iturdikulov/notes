@@ -14,3 +14,5 @@ sr-ease: 273
 > — <cite>`man xxd`</cite>
 
 `xxd -l 32 -p <filename>` - prints first 32 bytes of file in hex format.
+
+TODO: add vim note, how to change few bytes

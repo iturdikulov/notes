@@ -1,9 +1,9 @@
 ---
-external: https://termux.dev/
+external:
+  - https://termux.dev/
 date: 2023-04-10
 tags:
   - inbox
-  - SR_software
 sr-due: 2024-01-28
 sr-interval: 3
 sr-ease: 253

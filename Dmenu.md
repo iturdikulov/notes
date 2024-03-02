@@ -11,6 +11,8 @@ sr-ease: 270
 
 # dmenu (dynamic menu for X)
 
+TODO: move notes into rofi
+
 > dmenu is a dynamic menu for X, originally designed for dwm. It manages large
 > numbers of user-defined menu items efficiently.\
 > — <cite>[dmenu](https://tools.suckless.org/dmenu/)</cite>

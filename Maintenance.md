@@ -2,7 +2,7 @@
 date: 2023-03-12
 tags:
   - inbox
-  - outline
+  - bridge
   - SR_productivity
 sr-due: 2024-02-04
 sr-interval: 9

@@ -1,9 +1,9 @@
 ---
-external: https://gohugo.io/
+external:
+  - https://gohugo.io/
 date: 2023-01-02
 tags:
   - inbox
-  - SR_software
   - archive
 sr-due: 2024-01-28
 sr-interval: 3

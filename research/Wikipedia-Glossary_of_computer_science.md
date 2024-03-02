@@ -2,16 +2,12 @@
 date: 2023-06-05
 tags:
   - inbox
-  - outline
-  - research
-sr-due: 2023-08-25
-sr-interval: 1
-sr-ease: 222
-external:
-  - https://en.wikipedia.org/wiki/Glossary_of_computer_science
+  - bridge
 sr-due: 2024-02-13
 sr-interval: 19
 sr-ease: 202
+external:
+  - https://en.wikipedia.org/wiki/Glossary_of_computer_science
 ---
 
 # Glossary of [[Computer_science|Computer Science]]

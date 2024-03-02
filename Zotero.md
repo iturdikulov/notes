@@ -4,7 +4,6 @@ external:
 date: 2023-01-27
 archive: true
 tags:
-  - SR_software
   - archive
   - inbox
 sr-due: 2024-01-28

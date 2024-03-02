@@ -4,8 +4,7 @@ external:
   - https://www.unrealengine.com/en-US/linux
 tags:
   - inbox
-  - SR_software
-  - SR_game
+  - archive
 sr-due: 2024-02-28
 sr-interval: 32
 sr-ease: 282

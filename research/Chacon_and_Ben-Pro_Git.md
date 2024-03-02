@@ -1,17 +1,18 @@
 ---
-author: Scott Chacon; Ben Straub
+author:
+  - Scott Chacon; Ben Straub
 date: 2022
 external:
   - https://git-scm.com/book/en/v2
 tags:
   - research
   - inbox
-  - SR_software
   - SR_programming
 sr-due: 2025-05-27
 sr-interval: 488
 sr-ease: 230
-directory: ~/Computer/software/Chacon_and_Ben-Pro_Git
+directory:
+  - ~/Computer/software/Chacon_and_Ben-Pro_Git
 ---
 
 # Pro Git
