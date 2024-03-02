@@ -23,9 +23,7 @@ sr-ease: 252
 I use [[Sdcv|electronic dictionaries]] to translations and understand the
 meaning of words.
 
-## Words which I search through Sdcv (inbox for future flashcards)
-
-### English
+## English
 
 - computer::`[kəmˈpjuːtə]` компьютер, расчетчик, вычислительный; Our sales information is processed by computer.
 - R&D::research and development - исследования и разработки, научно-исследовательский и опытно-конструкторский; Imagine that your company has two departments: Research and Development.
@@ -180,7 +178,7 @@ meaning of words.
 - zoom
 - zooma
 
-### Russian
+## Russian
 
 <!-- LTeX: language=ru-RU -->
 - эскиз
