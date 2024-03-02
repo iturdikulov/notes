@@ -2,7 +2,6 @@
 date: 2023-04-15
 tags:
   - inbox
-  - SR_game
 sr-due: 2024-02-15
 sr-interval: 21
 sr-ease: 250
