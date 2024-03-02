@@ -7,7 +7,7 @@ tags:
   - research
   - inbox
   - SR_computer_graphics
-directory: ~/Computer/graphics/Raylib_Community-Raylib
+directory: ~/Computer/graphics/stash/Raylib_Community-Raylib
 sr-due: 2024-07-04
 sr-interval: 161
 sr-ease: 271

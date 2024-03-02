@@ -119,7 +119,7 @@ print(2 ** 7)  # 2 to the power of 7
 ```
 
 What is floor division (or div), what are value of `(-11) // 4` ?
-?
+&#10;
 Mathematical division that rounds down to **nearest** integer. The floor
 division operator is `//`.  `(-11) // 4` is -3 (yes it's correct)
 because that is `-2.75` rounded downward.
@@ -267,7 +267,7 @@ print(sentence[-6:])  # World!, offest 6 from end
 ```
 
 What you see if you use this slice `word[0:2]`, where word is "Python"
-?
+&#10;
 ```python
 print("Python"[0:2])
 ```
@@ -275,7 +275,7 @@ Characters from position 0 (included) to 2 (excluded), `'Py'`
 <!--SR:!2024-01-02,4,220-->
 
 What you see if you use this slice `word[2:5]`, where word is "Python"
-?
+&#10;
 Characters from position 2 (included) to 5 (excluded). `'tho'`
 <!--SR:!2023-12-31,4,240-->
 
@@ -288,7 +288,7 @@ print(sentence[:5] + sentence[5:] == sentence)  # True
 ```
 
 Attempting to use invalid index in range slice handled (with/without exception)?
-?
+&#10;
 Gracefully, without raising an exception.
 <!--SR:!2023-12-31,4,240-->
 
@@ -301,7 +301,7 @@ print(word[4:42])
 To remember how slices work, you can use this table. Think indices are pointing
 between characters. How do you think this table is constructed, header is "hello,",
 row 1 and row 2 are?
-?
+&#10;
 ```
   +---+---+---+---+---+---+
   | H | e | l | l | o | , |
@@ -314,7 +314,7 @@ indices, if both are within bounds. For example, the length of word[1:3] is 2.
 <!--SR:!2023-12-28,1,200-->
 
 Is it possible to use index outside of string bounds?
-?
+&#10;
 No, it will raise `IndexError` exception.
 <!--SR:!2024-01-01,5,240-->
 
@@ -430,7 +430,7 @@ print(x) # [['a', 'b', 'c'], [1, 2, 3]]
 [[Fibonacci_sequence|Fibonacci sequence example]]:
 
 Can you write Fibonacci algorithm?
-?
+&#10;
 Each number is the sum of the two preceding ones.
 The sequence commonly starts from 0 and 1.
 \
@@ -475,7 +475,7 @@ while a < 10:
 TODO: review [A Python Guide to the Fibonacci Sequence – Real Python](https://realpython.com/fibonacci-sequence-python/).
 
 Order of Evaluation in Python expression (operand)?
-?
+&#10;
 In Python, the left operand is always evaluated before the right operand
 (if they has same priority).
 <!--SR:!2023-12-30,1,180-->
@@ -485,12 +485,12 @@ Non-zero, zero or [[Null_pointer|None]] values in Python (and C) considered as
 <!--SR:!2024-01-01,5,240-->
 
 Non-zero and zero length values considered as (xxx and xxx)?
-?
+&#10;
 True and False. Length also True and False.
 <!--SR:!2023-12-31,2,220-->
 
 `-3**2` in Python is?
-?
+&#10;
 Since `**` has higher precedence than -, `-3**2` will be interpreted as
 `-(3**2)` and thus result is -9. To avoid this and get 9, you can use `(-3)**2`.
 <!--SR:!2023-12-30,1,200-->
@@ -571,7 +571,7 @@ print(list(range(5, 10))[4]) # 9
 
 What you will see in interactive python session if you enter this:
 `list(range(0, 10))`
-?
+&#10;
 ```python
 [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 ```
@@ -618,7 +618,7 @@ print(range(10))  # range(0, 10)
 ```
 
 What you will see with this code: `sum(range(4))`?
-?
+&#10;
 # 0 + 1 + 2 + 3 = 6
 <!--SR:!2023-12-31,4,240-->
 
@@ -643,7 +643,7 @@ for n in range(2, 10):
 <!--SR:!2024-01-02,4,220-->
 
 When `else` runs in `try-except` statement?
-?
+&#10;
 In `try-except` statement, `else` runs if no exception was raised.
 <!--SR:!2024-01-01,2,238-->
 
@@ -730,7 +730,7 @@ match point:
 
 Can I use classes in pattern matching, can I bind class attributes to
 variables?
-?
+&#10;
 Yes, you can use classes (in case blocks), place them with arguments (like
 a constructor), capturing class attributes also supported.
 ```python
@@ -755,7 +755,7 @@ def where_is(point):
 <!--SR:!2023-12-31,2,238-->
 
 Can I use arguments with different order (not same as in class) for class in pattern matching?
-?
+&#10;
 Yes, by setting the `__match_args__` special attribute in your classes. If
 it's set to ("x", "y"), the following patterns are all equivalent (and all
 bind the `y` attribute to the `var` variable):
@@ -768,7 +768,7 @@ Point(y=var, x=1)
 
 Which variable names can be assigned (bind variable to value) to in a match
 statement?
-?
+&#10;
 Only standalone names (like `var`) are assigned to by a match statement.
 Dotted names (like `foo.bar`), attribute names (the `x=` and `y=`) or class
 names (recognized by the "(...)" next to them like `Point` above) are never
@@ -776,7 +776,7 @@ assigned to.
 <!--SR:!2023-12-31,2,238-->
 
 Can patterns be nested?
-?
+&#10;
 Yes, patterns can be arbitrarily nested. For example, if we have a short list
 of Points, with `__match_args__` added, we could match it like this:
 ```python
@@ -801,7 +801,7 @@ match points:
 <!--SR:!2024-01-01,2,238-->
 
 Can I use `if` statements in patterns?
-?
+&#10;
 Yes, `if` clause in pattern known as a "guard". If the guard
 is false, `match` goes on to try the next case block. Note that value
 capture happens **before** the guard is evaluated:
@@ -898,7 +898,7 @@ match none_item:
 <!--SR:!2023-12-31,2,238-->
 
 How to use named constants (Enum) in pattern matching and why?
-?
+&#10;
 -   Patterns may use named constants. These must be dotted names to
     prevent them from being interpreted as capture variable:
 ```python
@@ -927,7 +927,7 @@ TODO: Here more info about pattern matching
 
 We can create a function that writes the Fibonacci series to an
 arbitrary boundary, can you explain how?
-?
+&#10;
 ```python
 def fib(n):    # write Fibonacci series up to n
     """Print a Fibonacci series up to n."""
@@ -952,7 +952,7 @@ literal; this string literal is the function's documentation string, or
 <!--SR:!2024-01-01,2,238-->
 
 Why include docstring is recommended to make a habit?
-?
+&#10;
 There some tools, which produce online or printed documentation, or to let
 the user interactively browse through code. Also, many IDEs and editors
 support showing documentation based on this docstrings.
@@ -963,7 +963,7 @@ the local variables of the function.
 <!--SR:!2023-12-30,1,218-->
 
 Order of variable references looking (tables)?
-?
+&#10;
 - Local symbol table
 - Local symbol table of enclosing functions (parents)
 - Global symbol table
@@ -971,7 +971,7 @@ Order of variable references looking (tables)?
 
 When you can change variables from global scope or enclosing functions in
 "current" function?
-?
+&#10;
 Use `global` statement to assign some value for global function or
 `nonlocal` statement to assign some value for variable from enclosing
 functions.

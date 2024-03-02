@@ -68,7 +68,7 @@ on beginner level!
 > rule, without exception.
 
 What is 50% rule about?
-?
+&#10;
 1. Improving your skills, first `50%`. Coursework, exercises, studies,
    tutorials, etc.
 2. Second `50%` is drawing done for the sake of drawing. In other words, play.
@@ -79,7 +79,7 @@ This is general rule, every minute you spend on learning must be followed by
 practice (play). You can do it in various time sessions (day/day or any other).
 
 Why ignoring 50% rule is critical mistake?
-?
+&#10;
 > It'll help develop skills that do need to be developed at some point, and
 > doing it now will help you avoid some stinging disappointment later on.
 So it's sort of learning mathematics, if you don't understand one theorem, you

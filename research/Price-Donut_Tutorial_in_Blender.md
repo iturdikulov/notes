@@ -5,7 +5,7 @@ sr-interval: 1
 sr-ease: 230
 external:
   - https://www.youtube.com/playlist?list=PLjEaoINr3zgEPv5y--4MKpciLaoQYZB1Z
-directory: ~/Computer/graphics/Price-Donut_Tutorial
+directory: ~/Computer/graphics/archive/Price-Donut_Tutorial
 tags:
   - inbox
   - research
@@ -24,27 +24,27 @@ Probably better to place `subdivision modifier` on bottom of the stack
 (depends on the situation).
 
 To change world units need change properties, how do it?
-?
+&#10;
 Scene Properties (properties sidebar) > Units > Metric.
 
 How to apply subdivision modifier (or any modifier)?
-?
+&#10;
 Modifier tab > Modifiers Properties > Add Modifier.
 <!--SR:!2023-12-12,4,270-->
 
 How to move siblings points in edit mode?
-?
+&#10;
 You need to select point(s) enable proportional editing (`O`) and move
 (`G`) To increase/decrease proportional editing radius use mouse wheel.
 <!--SR:!2023-12-31,7,250-->
 
 How select random points in edit mode?
-?
+&#10;
 Select > **S**elect Random.
 <!--SR:!2024-01-02,10,270-->
 
 Orthographic mode basically means:
-?
+&#10;
 That you can't see perspective, only
 [[Orthographic_projection|orthographic]] view (no depth, objects same size
 regardless of distance).
@@ -208,7 +208,7 @@ In Texture Paint to preview texture, you need to select assigned texture in
 top left dropdown (Browse image to be linked).
 
 To apply 2d texture into 3d object you need to?
-?
+&#10;
 ![christmas chocolate](../img/Christmas_chocolate_uvmapping.jpg)
 UV unwrap (UV mapping) your 3d object.
 
@@ -255,7 +255,7 @@ You can drag objects from `Outliner` into `Geometry Nodes`, and this will
 automatically add ==`Object Info`== node.
 
 What is weight painting?
-?
+&#10;
 Weight Painting is a method to maintain large amounts of weight
 information in a very intuitive way.
 It is primarily used for rigging meshes, where the vertex groups are used
@@ -269,7 +269,7 @@ red (hot). And all in-between values are displayed as rainbow colors (blue,
 green, yellow, orange, red).
 
 Is here any indication of weight painting mode?
-?
+&#10;
 When weight paint activated, selected object became blue (color), and
 you can start draw on it.
 Here weight color code:
@@ -277,7 +277,7 @@ Here weight color code:
 <!--SR:!2023-12-12,4,270-->
 
 Where Blender store weight paint data (structure name)?
-?
+&#10;
 When you start weight painting it automatically create Vertex group (green
 icon in right properties window to access it). Vertex groups are mainly
 used to tag the vertices belonging to parts of a mesh object or Lattice.
@@ -292,13 +292,13 @@ If you clicked with `C-RMB` in weight paint mode will ==pick weight from
 cursor==.
 
 How to expose custom property in Geometry Nodes?
-?
+&#10;
 If you want to make some property independent per object, drag it into
 `Group Input` to expose, you can set custom name in right interface menu (N →
 Group).
 
 Which dimensions rule (size) prefer to use in Blender or 3d, real or any other?
-?
+&#10;
 Just use real world dimensions (meters, centimeters, etc.).
 Modelling in real size allows you to enter actual real life dimensions for
 an object while modelling enabling you to make objects that are more
@@ -313,7 +313,7 @@ After scaling object, when you sure, apply it (`C-A` → Scale).
 
 I have very big numbers to expose as property, how to make it easier to
 edit?
-?
+&#10;
 You can make values easier to edit using Math node (Multiply/Divide/Etc).
 It's useful to control density for example.
 <!--SR:!2023-12-12,4,270-->
@@ -380,7 +380,7 @@ connect it into `Instance points` node. It allows applying normal vectors
 from some faces for each instance point (like get correct rotation values)?
 
 How to link collection into `Instance on Points` node?
-?
+&#10;
 You can use collection as `Instance source` in `Instance on Points node` (drag
 it into nodes editor), and usually you need to set these properties:
 - Separate Children (collection).
@@ -433,7 +433,7 @@ Roughness` for example. ==Black== color values will be non-metallic,
 ==white== values metallic.
 
 How precisely control `Color Ramp` values?
-?
+&#10;
 `Color Ramp` support absolute positions for gradients, you can type them on
 bottom. Useful if you have multiple linked `Color Ramps` and need to maintain
 same gradient points across multiple nodes.
@@ -449,7 +449,7 @@ better to use ==Cycles== engine (more accurate).
 
 What if you have tiny objects in scene, which render options need
 to be adjusted?
-?
+&#10;
 If you use small object in scene, you might need adjust `Render shadows`
 (increase cube size in shadows options of render) and `Lamp Bias` in shadow
 options of lamp (available in EEVEE render mode).
@@ -459,12 +459,12 @@ TODO: render samples note
 TODO: denoise note
 
 My viewport render looks noisy, is it possible to make it better?
-?
+&#10;
 You can also denoise options in viewport, check render properties.
 
 How to validate my rendering device and enable GPU compute method in
 Cycles?
-?
+&#10;
 Before you able to enable GPU compute method for Cycles engine go to System
 settings and setup Cycles render devices.
 
@@ -493,7 +493,7 @@ are no ==opposite windows== and merge if there are (exception, dragging
 from top to bottom always create new window).
 
 Which basic shape is better to create a plate?
-?
+&#10;
 To model plate better shape is circle, since cylinder have unnecessary
 parts and his normal's back-flipped (you can validate this in `Overlays` →
 `Normals` while you in `Edit` mode), etc.
@@ -504,7 +504,7 @@ where they were are created (to scale later for example), just extrude
 
 Hold `Z` key and move mouse in specific direction to quickly change
 render shading mode in viewport. How they are placed?
-?
+&#10;
 ```
            rendered
 wireframe            solid
@@ -518,7 +518,7 @@ To quickly add bevels for multiple edges/vertices, select them and press
 with edges (`S-M-LMB` to select multiple edges).
 
 How check what shortcuts are available for specific tool?
-?
+&#10;
 When you work with some tool, like bevel tool you see on status panel
 (bottom of window) available current shortcuts, for example - bevel tool to
 prevent clamp need press `C`: Clamp Overlap ON/OFF.
@@ -574,35 +574,35 @@ Inset (`I`) can help you to create ==inner square== on some face (shrink
 face into itself).
 
 Can I add multiple materials to object?
-?
+&#10;
 You can add multiple materials to object, check `+` icon in material list
 (top right).
 
 Can I assign material to specific face?
-?
+&#10;
 You can assign material to face, just select it in edit mode, select
 material and press `Assign` button (below materials list).
 
 How to control light intensity in scene using `Sky Texture`?
-?
+&#10;
 Exposure and Sun Intensity can make you light softer, and you can maintain
 sky texture lighting (you usually don't need to change strength).
 
 How to import blend model?
-?
+&#10;
 To import blend model, don't use File → Import (it's for different model
 formats), use `File` → `Link` → Select what you want to Link. And usually
 you want to `Link Collection`.
 
 How to install add-on?
-?
+&#10;
 To install add-on select Zip file with add-on (don't unzip it), then
 `Preferences` → `Add-ons` → `Install` → locate file and click install →
 enable it (checkbox).
 
 I can't select multiple objects using `LMB`, what's wrong (this is my
 personal issue)?
-?
+&#10;
 If you can't select multiple object, check maybe you have some issues with
 linked objects (issues after duplicate for example).
 
@@ -618,7 +618,7 @@ a grid the size of which is defined by the user. This is in direct contrast
 to point-like artificial lights which produce sharp borders.
 
 How to set size of area lamp?
-?
+&#10;
 Don't use scaling, just use size of lamp.
 
 Use `MMB` to =="scroll"== in node editor.
@@ -660,7 +660,7 @@ required.
 
 Usually if you want to combine glare with other effect (for example fog
 glow) you need to follow these steps:
-?
+&#10;
 - You need to set `Mix` property to 1.0 (see only effect) for all effects, then connect
 them with `Mix` node (color → Mix → Mix color), change type to add (ignore
 black values) and adjust `Fac` property of Mix color (define how bright
@@ -716,7 +716,7 @@ You can validate keyframe hotkeys by hovering on ==animation playback==
 controls (in center/top above timeline).
 
 How to properly add keyframe?
-?
+&#10;
 If you want to change some object animation property (animate from/to)
 don't forget move to specific frame first, change property and insert
 keyframe, otherwise if you change current frame, you lose any changes.
@@ -726,7 +726,7 @@ animation. Here you see ==long horizontal lines==, which means these
 properties are not animated.
 
 What is graph editor?
-?
+&#10;
 In graph Editor you edit animation/keyframes and interpolation, they are
 displayed as 2D curves. You can use here `Home`, `MMB` keys. You can select
 keyframes here and adjust them using `LMB` or `R/S` keys.
@@ -767,7 +767,7 @@ You can Enable motion blur in ==`Render properties`==. And you can adjust
 `Shutter` value.
 
 What you usually need to check before rendering?
-?
+&#10;
 - Validate Face Orientation: `Show overlays` on top left toolbar → `Toggle
 Face Orientation`. If needed, recalculate normals (`S-N`/`C-S-N` in Edit
 mode).
@@ -791,7 +791,7 @@ Usually you want to create new blend file especially for video: `File` →
 `New` → ==`Video Editing`==.
 
 How to load image sequence in Sequencer panel?
-?
+&#10;
 `S-A` → `Image Sequence`, navigate to files, sort them by filename select
 all (`A` key) and press Add Image Strip.
 
@@ -800,12 +800,12 @@ You can resize sequencer timeline using `C-MMB` or mouse scroll.
 Set correct frame-rate: ==`Scene` → `Format`== in right sidebar.
 
 How extend last frame in sequencer?
-?
+&#10;
 You can extend last frame by selecting it and move with `G` key or holding
 `LMB`.
 
 How to add fade-out?
-?
+&#10;
 - Add color block: `S-A` → `Color`.
 - Drag it into the end of scene.
 - Select this block and add fading (`S-A` → `Fade-In`).
@@ -813,7 +813,7 @@ How to add fade-out?
 save video.
 
 Good setup for video (`Output` → `Encoding`)?
-?
+&#10;
 - Type: FFmpeg.
 - Container: MPEG-4/WebM/Matroska.
 - Codec: H.264.

@@ -28,7 +28,7 @@ Slides can be found at:
 ## Features
 
 Features of unit-testing?
-?
+&#10;
 - Know if your code works
 - Save time
 - Better code
@@ -45,7 +45,7 @@ Features of unit-testing?
 ## Growing tests
 
 How tests must be written?
-?
+&#10;
 - automated (low effort and repeatable)
 - tests must be repeatable with low effort (run independently, fast)
 - explicit expected results

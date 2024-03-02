@@ -143,7 +143,7 @@ How to add space padding for each + sign here (dot method)?
 ```javascript
 var foo = "method("+argument1+","+argument2+")";
 ```
-?
+&#10;
 1. search first `+` sign - `f+` or `/+<CR>`
 2. insert space before and after - `s + <Esc>`
 3. seach all next `+` signs and repeat - `;.` or `n.`
@@ -168,7 +168,7 @@ Pefrom substitution, repeat, undo::`:s/old/new/`, `&`, `u`
 Execute a sequence of changes (record & execute macro), repeat, undo::`qx{changes}q`, `@x`, `u`
 
 Difference between `:s` and `:%s`
-?
+&#10;
 `%` is the range over which the `:s` command (short for `:substitute`) will be run. `%` itself is short for the range `:1,$`, which means Line 1 to the last line in the buffer.
 The Vim help has a couple topics (user manual - `:help 10.3`, reference manual - `:help cmdline-ranges`) describing the forms that ranges can take.
 *[Source](https://stackoverflow.com/a/22327877)*

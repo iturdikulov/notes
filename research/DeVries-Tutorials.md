@@ -39,7 +39,7 @@ You can set up `dap-u` to use different tabs/windows.
 One of useful plugin is `nvim-dap-virtual-text`
 
 Breakpoint condition how to use them?
-?
+&#10;
 For example: `i == 1` - only trigger breakpoint when `i` is equal to `1`
 
 Dap-ui can be start automatically on starting debug session, nvim-dap trigger

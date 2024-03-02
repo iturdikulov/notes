@@ -8,7 +8,7 @@ tags:
 sr-due: 2024-02-06
 sr-interval: 12
 sr-ease: 170
-directory: ~/Computer/graphics/Gumster-Blender_for_dummies
+directory: ~/Computer/graphics/stash/Gumster-Blender_for_dummies
 ---
 
 # Blender® for dummies, 4th edition

@@ -8,7 +8,7 @@ tags:
   - SR_game
 external:
   - https://github.com/HK-SHAO/Godot-RayTracing-Demo
-directory: ~/Computer/graphics/HK-SHAO-Godot_Raytracing_Demo/
+directory: ~/Computer/graphics/stash/HK-SHAO-Godot_Raytracing_Demo/
 sr-due: 2024-02-09
 sr-interval: 15
 sr-ease: 212
