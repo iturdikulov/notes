@@ -23,7 +23,7 @@ sr-ease: 201
 
 What actually $log_{2}(1024)$ means? Try to use multiplication and division to
 describe it in simple words.
-?
+&#10;
 - How many times need to multiply **2** to get 1024 as result
   $2 \times 2 \times 2 \times 2 \times 2 \times 2 \times 2 \times 2 \times 2 \times 2 = 1024$. So answer is 10.
 - How many times need to divide **2** to get 1 as result

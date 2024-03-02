@@ -62,28 +62,28 @@ Start search/next/previous::`/`/`[num]n`/`[num]N`
 Create persistent mark with `u` letter/go to this mark::`mu` / `` `u``
 
 What different between lowercase and uppercase marks?
-?
+&#10;
 lowercase are local to each file, but upper case marks are global (persistent)
 
 Create visual mark to highlight current line, sort of paper bookmark
-?
+&#10;
 `<RightMouse>`
 
 Transform visual mark to line mark and move to the next/previous line?
-?
+&#10;
 `j`/`k`
 
 Quick go-to visual mark (created by right mouse click) and back::`` ` ``
 
 How to enable visual scroll mode, which automatically move visual scroll mark by
 wheel mouse?
-?
+&#10;
 `F7`
 
 ## Bookmarks and highlights
 
 Create bookmark in current location
-?
+&#10;
 `b<letter>`, to auto-set text as bookmark title, select text and press `b`
 
 Search bookmark in the current file and all the bookmarks::`gb` and `gB`
@@ -95,7 +95,7 @@ Create highlight::select text and press `h<letter>`
 Search highlight in the current file and all the highlights::`gh` and `gH`
 
 Delete the closest highlight
-?
+&#10;
 `<LeftMouse>` on highlight, and press `dh`
 
 ## Smart Jump and Portals
@@ -107,25 +107,25 @@ Search line in Google Scholar or in library genesis::`<MiddleClick>`
 Open portal helper (it'll load the closest portal)::`F12`
 
 How to create portal?
-?
+&#10;
 `p` to use current location as source (select source), go to destination, and
 press `p` again. You can even create portals between different files!
 
 How to create portal using mouse and link as destination?
-?
+&#10;
 `p` to select source, then click on link (or middle click using smart jumps).
 
 How to delete the closest portal?
-?
+&#10;
 `dp`, this will delete the closest portal to current location (which displayed
 in helper window)
 
 How to adjust portal position?
-?
+&#10;
 press `P` while portal active, adjust destination (position) and press `<BCK>`
 
 How to adjust portal position and other parameters, using mouse?
-?
+&#10;
 `wheel` to adjust position, mouse drag to pan and `<C-wheel>` to zoom in/zoom
 out
 

@@ -11,7 +11,7 @@ sr-ease: 185
 # Operator
 
 How you can describe operator purpose in computing?
-?
+&#10;
 Operator is generally like functions (with different syntax) with specific
 purpose and used very often. Usually operators defined by programming language
 itself.

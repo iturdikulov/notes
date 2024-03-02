@@ -57,7 +57,7 @@ Resize window to right::`<D-S-h>`, you can also "prefire" changing width
 Resize window to left::`<D-S-l>`
 
 Increase / decrease number of windows on master
-?
+&#10;
 `<D-i>`, `<D-d>`. I see here user-case when you need multiple horizontal windows
 on master. This also helpful if you need two side-by side windows (vertical
 layout).
@@ -76,17 +76,17 @@ View all windows on screen (reset - apply tag)::`<D-S-0>`
 
 Toggle tag 2 on focused window (add/remove to workspace)
 You can see same window on multiple tags, on active and on tag #2!
-?
+&#10;
 `<D-S-C-2>`
 
 Apply tag to all (window appear on all tags), to reset apply some tag.
-?
+&#10;
 `<D-S-0>`
 
 Banish tags (add/remove all windows from #2 tag)
 It's sort of moving all windows from tag #2 to current tag. To reset press
 again.
-?
+&#10;
 `<D-C-2>`
 
 ## Toggle workspace layout
@@ -116,7 +116,7 @@ These directions:
 ← . →
 ↙ ↓ ↘
 ```
-?
+&#10;
 q f p
 r c t
 x s d
@@ -129,21 +129,21 @@ To enable mod3 key I run this command in [[DWM]] autostart script:
 `xmodmap -e "clear mod3" -e "add mod3 = XF86Tools"`
 
 Move floating window using grid
-?
+&#10;
 `Mod3Mask-qfprtxsd`
 
 Move floating window (more precise)
-?
+&#10;
 `Mod3Mask-M-qfprtxsd`
 
 Resize client, client is positioned in a floating grid, movement is relative to
 client's current position (center include)
-?
+&#10;
 `Mod3Mask-S-qfprtxsdc`
 
 Move floating window, absolute positioning (allows moving windows between
 monitors)?
-?
+&#10;
 `Mod3Mask-C-qfprtxsd`, but it's probably useless for me.
 
 

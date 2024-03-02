@@ -10,7 +10,7 @@ sr-ease: 243
 ---
 
 # Computer network
-?
+&#10;
 Set of [[Computer|computers]] sharing resources located on or provided by
 [[Node|network_nodes]].
 

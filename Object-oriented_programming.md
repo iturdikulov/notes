@@ -9,7 +9,7 @@ sr-ease: 198
 ---
 
 # Object-oriented programming (OOP)
-?
+&#10;
 > Way of writing computer programs using "objects" to stand for data and
 > methods. Often, computer programs that are not object-oriented are a list of
 > instructions for the computer, telling it to do certain things in a certain

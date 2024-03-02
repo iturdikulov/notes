@@ -117,11 +117,11 @@ Manipulating tabs:
 `ma, mA`::set local mark "a" (global mark "A")
 
 Jump to local mark "a" (global mark "A")
-?
+&#10;
 `\`a, \`A`
 
 "\`\`"
-?
+&#10;
 jump back to the position before the previous jump, that is, before the previous
 `gg, G, n, N, /` or `\`a`
 
@@ -132,7 +132,7 @@ jump back to the position before the previous jump, that is, before the previous
 `<a-f>`::open multiple links in a new tab
 
 `gi`
-?
+&#10;
 focus the first (or n-th) text input box on the page. Use <tab> to cycle through
 options.
 

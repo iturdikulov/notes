@@ -39,7 +39,7 @@ size_of_array = last_index ==+ 1==
 |     | `7`   |     |     | `11`  |     |
 *Graphical representation of array in memory*\
 How many total items in this array? Is empty items has address in memory?
-?
+&#10;
 6*5 = 30
 yes, empty items has address in memory
 <!--SR:!2023-07-21,2,239-->

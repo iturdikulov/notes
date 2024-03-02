@@ -110,7 +110,7 @@ x x ? ?            # we eliminated 2 items, because 7 is more than 4
 ## Insertion
 
 Array insertion is operation of?
-?
+&#10;
 Adding a new value to an additional slot within the array.
 <!--SR:!2024-01-27,2,230-->
 
@@ -134,7 +134,7 @@ that index and shift all elements to the right.
 _Array insertion operation in memory_
 
 How many steps will take insertion in the worst case?
-?
+&#10;
 $N+1$ steps, where $N$ is a number of items in array required to shift and 1 is
 insert operation.
 <!--SR:!2023-07-22,3,250-->
@@ -143,7 +143,7 @@ insert operation.
 ## Deletion
 
 Deletion is operation of?
-?
+&#10;
 Removing a value from the array. In other words process of eliminating the
 value at a particular index.
 <!--SR:!2023-07-22,3,250-->
@@ -152,7 +152,7 @@ value at a particular index.
 _Array deletion operation in memory_
 
 In worst case deletion operation will take ?
-?
+&#10;
 $N$ steps, where $N$ is a number of items in array. One step to delete value,
 and $N-1$ (we don't need to shift deleted value) steps to shift data.
 <!--SR:!2023-07-20,1,230-->

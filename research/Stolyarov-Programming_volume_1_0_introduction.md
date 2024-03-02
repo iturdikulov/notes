@@ -91,7 +91,7 @@ as soon as possible (I use it every day, but still not very effective).
 
 Is good idea to educate someone, when you haven't enough experience and when
 you're even not trying to use proven learning materials?
-?
+&#10;
 Don't need to learn someone programming if you don't know what is in fundamental
 level. And if you really want to learn someone find good proven education path.
 Bad teachers can mislead a newbie student, for example start learning
@@ -105,7 +105,7 @@ process (will not know what he lost).
 
 Why need to learn form "simple" languages, which providing basic concepts and
 not too complicated?
-?
+&#10;
 Stating learning programming from complex programming languages (like Java, C++
 and even C) is bad idea, newbie learners will have hard been understanding their
 concepts and not really will learn programming.
@@ -117,13 +117,13 @@ and `list` in C++ and you **won't understand it** this is bad sign.
 Mixing C and C++ is bad idea (maintainability reason).
 
 Why learning C as first programming language is not so good?
-?
+&#10;
 C as first programming language is not suitable, you need to understand pointers
 first and work with them (and it's hard).
 <!--SR:!2024-02-23,3,162-->
 
 Why knowing language on fundamental level is important?
-?
+&#10;
 Understanding code as "magic commands" is not good for good programmers, you
 need to understand code on very low level to create truly effective programs.
 <!--SR:!2024-02-23,3,162-->
@@ -148,7 +148,7 @@ less cryptic.
 Yes in C you can't avoid side effects anyway, but in other languages you can.
 
 When knowledge of C can be useful?
-?
+&#10;
 Writing in C is requirement, you need to understand how computer and operating
 system is working on subconscious level to write really **quality programs**.
 <!--SR:!2024-02-22,2,152-->
@@ -161,13 +161,13 @@ recursion, which can help some another language ([[Pascal]]):
 
 Is deep learning Pascal (in details) is needed when you learn general
 programming?
-?
+&#10;
 Not really. You learn not Pascal, you learn programming by using Pascal, and you
 can omit some Pascal specific features.
 <!--SR:!2024-02-23,5,182-->
 
 Why need to learning Assembly language (at least basics)?
-?
+&#10;
 Big role in understanding programming is taking [[Assembly_language|Assembly
 language]]. You can never write programs in it (prefer C is recommended), but
 you must understand how it works to understand what you are really doing,
@@ -202,7 +202,7 @@ the most creative profession in engineering and technical professions.
 <!--SR:!2024-02-22,4,182-->
 
 What is 2 main things which are important for programmer?
-?
+&#10;
 Self-education and practice is requirement to be programmer.
 <!--SR:!2024-02-22,1,132-->
 

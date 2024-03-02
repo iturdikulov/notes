@@ -90,7 +90,7 @@ Change something (can be used with black hole register)::`c[register][num][motio
 Telescope command history::`<leader>fc`
 
 How to split line
-?
+&#10;
 Use (a/i/r) keys:
 - `i<cr><esc>`
 - `a<cr><esc>`
@@ -117,7 +117,7 @@ Telescope builtin's search::`<leader>fF`, `:h telescope.builtin`, TODO: remap
 `tx|Tx`::search in current line forward before 'x', backward before 'x'
 
 `,`, `;`
-?
+&#10;
 Backward, forward after that "finds", works for `s`, `f` and `t`.
 
 `n|N`::repeat search in same direction and opposite direction, support multiline search.
@@ -143,7 +143,7 @@ Backward, forward after that "finds", works for `s`, `f` and `t`.
 `@@`::repeat last `@<whatever>`
 
 Find each occurrence of 'foo' (in all lines), and replace it with 'bar'
-?
+&#10;
 `:%s/foo/bar/g[c]`
 `%` - all lines.
 `s` - substitute.
@@ -152,7 +152,7 @@ Find each occurrence of 'foo' (in all lines), and replace it with 'bar'
 
 The replacement will check each line in the buffer, but will only match within
 the last visual selection
-?
+&#10;
 Same as find each occurrence, but need to add `%V` suffix to the search pattern.
 `:%s/\%Vfoo/bar/g[c]`
 `[c]` - confirmations.
@@ -170,7 +170,7 @@ Same as find each occurrence, but need to add `%V` suffix to the search pattern.
 Replace single quotes to double::`:s/\'\(.*\)\'/\"\1\"`
 
 `:%s/\(^ *\)\@<! \/ /g`
-?
+&#10;
 Replace multiple spaces with one, This says find 2 or more spaces (` \`)
 that are NOT preceded by 'the start of the line followed by zero or more
 spaces'.
@@ -180,7 +180,7 @@ spaces'.
 ### Search and replace tips
 
 How to do granular find and replace something in the whole file (3 steps)?
-?
+&#10;
 1. Search something with `/`
 2. Type `cgn` and `word` to replace, or run some command, where `gn` is a
    motion that selects the next match of the last used search pattern. Of course,
@@ -188,7 +188,7 @@ How to do granular find and replace something in the whole file (3 steps)?
 3. Find next `n/N` and repeat `.`
 
 Find and Replace in Multiple Files using `argslist`
-?
+&#10;
 1. Initialize the `argslist` with `:args *.ext` from CWD.
 2. Optionally add more files with `:argadd *.ext`. You can also use `**/*.ext`
    to search recursively.
@@ -201,7 +201,7 @@ To use `argslist` in `vimgrep` use `:vimgrep // ##`. `//` is last search
 pattern. Use `:cdo` to do something with the quickfix list.
 
 Search with telescope and quickfix
-?
+&#10;
 1. `<leader>fs` to grep results
 2. `<C-q>` to add all results to the quickfix list
 3. `:cdo s/StringOne/StringTwo/g | update` to make the change and save all the files.
@@ -241,7 +241,7 @@ Puts the current line at the middle (and scroll to middle)::`zz`
 Puts the current line at the bottom::`zb`
 
 Jump by **s**tart of words (punctuation considered words)
-?
+&#10;
 `w`, alternative is `f_` skips to the next underscore (useful for Python code)
 
 Jump by **s**tart words (words determined only by spaces, no punctuation)::`W`
@@ -350,11 +350,11 @@ Signature help (arguments information)::`C-F1`
 Search related documentation in current/all docsets (dashit)::`<leader>dk`, `<leader>dK`
 
 Search related documentation for visual selection in current/all docsets (dashit)
-?
+&#10;
 `<leader>ds`, `<leader>dS`
 
 Search related documentation under cursor in current/all docsets (dashit)
-?
+&#10;
 `<leader>ds`, `<leader>dW`
 
 Recent locations by `cbochs/portal.nvim`::`<leader>o`, `<leader>i`
@@ -544,7 +544,7 @@ Code formatting (using LSP), custom binding::`<leader>f`
 ### Code refactoring and diagnostic
 
 Add/remove/list LSP workspace directories
-?
+&#10;
 `<Leader>wa`, `<Leader>wr`, `<Leader>wl`.
 
 Parsed syntax-tree view (tresitter)::`:InspectTree`
@@ -826,7 +826,7 @@ entire content::`e`
 ## Vim registers
 
 What is vim register?
-?
+&#10;
 It's sort of space in memory to store text. Every register can be accessed using
 double quote `"`. For example `r` register, copy/paste will be like this `"ry` /
 `"rp`. You can access register in insert/command mode by `C-r[register name]`.
@@ -863,11 +863,11 @@ The expression register, useful for calculation::`"=`, `C-r =...`
 ## Paths and history
 
 Print directory/name of file
-?
+&#10;
 `:echo @%`
 
 Get name of file ('tail')
-?
+&#10;
 `:echo expand('%:t')`
 
 Get full path of file
@@ -877,34 +877,34 @@ Get directory containing file ('head')
 `:echo expand('%:p:h')`
 
 How to paste yanked text into the Vim command line?
-?
+&#10;
 Hit `<C-r>"`. If you have literal control characters in what you have yanked,
 use `<C-r><Ctrl-o>"`.
 
 How to paste system clipboard into the Vim command line?
-?
+&#10;
 I use `C-S-v`, it's working in my terminal. Or use `<C-r>+`.
 
 How to open terminal in vertical split?
-?
+&#10;
 `:vsplit term://zsh` to run Z-shell
 
 How do you search through Vim's command history?
-?
+&#10;
 I use telescope commands history (`<leader>fc`).
 You can also use `q:` or `q/` in normal mode and then press `/`.
 Press `C-f` in command mode to open the command history window.
 For more about the command history window, see `:h cmdwin`.
 
 How quickly close command history window?
-?
+&#10;
 `<C-c>[<C-c>]`
 
 ## Windows
 
 You can use vim motion keys to navigate between open windows, for example to
 navigate to left window?
-?
+&#10;
 `C-w h`
 So moving between windows can be done with `C-w` followed by `h/j/k/l` for
 left/down/up/right navigation respectively.
@@ -953,7 +953,7 @@ Create a new window and start editing an empty file in it::`:new` or `C-w n`
 Switch to buffer whose filename begins with "vimrc"::`:b vimrc[tab]`
 
 List buffers
-?
+&#10;
 `:buffers` - built-in command
 `:Telescope buffers` - telescope command, or `M-b` hotkey.
 

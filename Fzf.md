@@ -35,15 +35,15 @@ existing ones), and they are very handy:
 - Select Telent::`telnet **<TAB>`
 
 - Select Directories under `~/.config` that match `nvim`
-?
+&#10;
 `cd ~/.config/nvim**<TAB>`
 
 - Select Process IDs. Can select multiple processes with `TAB` or `S-TAB`
-?
+&#10;
 `kill -9 **<TAB>`
 
 Select Environment variables / aliases
-?
+&#10;
 - `unset **<TAB>`
 - `export **<TAB>`
 - `unalias **<TAB>`

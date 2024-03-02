@@ -29,7 +29,7 @@ them. This will reduce stress and free up your brain time.
 
 General ideas/concepts, which you write in lists, which provide proven system to
 work with tasks:
-?
+&#10;
 - **Inbox** list.
 - **Next** actions list.
 - Waiting list for, aka blocked tasks

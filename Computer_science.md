@@ -77,12 +77,12 @@ design in their own area. Main areas are: [[Operating_system|operating
 systems]], [[Computer_network|networks]] and embedded systems.
 
 What describes Computer Architecture?
-?
+&#10;
 [[Computer_architecture|Computer architecture]] describes the construction of
 computer components and computer-operated equipment (Input, Output, CPU, RAM).
 
 Goal of Artificial intelligence?
-?
+&#10;
 [[Artificial_intelligence|Artificial intelligence]] and machine learning aim to
 synthesize goal-orientated processes such as problem-solving, decision-making,
 environmental adaptation, planning and learning found in humans and animals.

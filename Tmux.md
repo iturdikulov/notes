@@ -80,7 +80,7 @@ Select up, right, left, down pane::`C-k`, `C-l`, `C-h`, `C-j`
 Swap pane up, right, left, down::`K`, `L`, `H`, `J`
 
 Do I need always use prefix to resize panes?
-?
+&#10;
 No, if you strike key fast enough (to hold you need to configure `repeat-time` option).
 
 Resize pane up (by 5)::`M-Up`

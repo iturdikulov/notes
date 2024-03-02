@@ -18,19 +18,19 @@ Start a stopwatch::`termdown`
 Start a 1 minute and 30 seconds countdown::`termdown 1m30s`
 
 Start a 1 minute 30 seconds countdown with blinking the terminal at the end
-?
+&#10;
 `termdown 1m30s --blink`, `-b` is short for `--blink`
 
 Show a title above countdown:
-?
+&#10;
 `termdown 1m30s --title "Interesting title"`, `-T` is short for `--title`
 
 Display current time
-?
+&#10;
 `termdown --time`, `-z` is short for `--time`
 
 Start a 1 minute and speak something when 5 seconds left.
-?
+&#10;
 I use custom `piper_speak` program, you may need change `then/fi` part for your
 system.
 `termdown 10s --exec-cmd "if [ '{0}' == '5' ]; then piper_speak '{1} left, Row! Row! Fight the Power!'; fi"`

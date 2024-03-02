@@ -40,7 +40,7 @@ describe relationship between input data and the algorithm efficiency.
 Let’s say we have an algorithm that always takes three steps no matter how
 much data there is. That is, for N elements, the algorithm always takes three
 steps. How would you express that in terms of Big O?
-?
+&#10;
 The algorithm is $\mathcal{O}(1)$. Because the number of steps is constant.
 <!--SR:!2023-12-26,2,250-->
 
@@ -73,7 +73,7 @@ def is_prime(number):
             return False
     return True
 ```
-?
+&#10;
 It's $\mathcal{O}(N)$.
 
 

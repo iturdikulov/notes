@@ -56,19 +56,19 @@ Double colon with::
 new line not working.
 
 Simple
-?
+&#10;
 Question
 <!--SR:!2024-01-30,10,270-->
 
 Simple question
-?
+&#10;
 With new
 \
 Lines
 <!--SR:!2024-01-29,3,251-->
 
 Simple question
-?
+&#10;
 With
 
 Newlines not working

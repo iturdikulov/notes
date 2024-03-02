@@ -19,7 +19,7 @@ sr-ease: 221
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Data_structure)</cite>
 
 What is data structures in computer science?
-?
+&#10;
 Data structures providing organization (relationships), management (functions or
 operations) and format for some data. Each data structure has own efficiency and
 optimizations.
@@ -142,7 +142,7 @@ simultaneously.
 ## Data structure operations
 
 Which data structure operations are important?
-?
+&#10;
 Here is a list of the most common operations and how they can be used with an
 array.
 - Read, lookup a value in array at a particular index.

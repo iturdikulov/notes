@@ -18,16 +18,16 @@ TODO: move shortcuts into own note
 ## Mouse shortcuts
 
 Right-click
-?
+&#10;
 Show a palette of brushes, color history and other tools.
 Right-click again to hide it.
 
 S-left mouse drag in Brush mode
-?
+&#10;
 resize brush (large when dragging to right, small when dragging to left).
 
 Space+left mouse button
-?
+&#10;
 pan the canvas. Also with middle button (mouse wheel)
 click and drag.
 
@@ -39,16 +39,16 @@ C-M-click::idem, but only if on current layer.
 
 Select Layer Mode. Hold this key, click on a pixel, you select the layer
 holding this pixel.
-?
+&#10;
 R
 
 S-R
-?
+&#10;
 Idem, but add the layer to the selection of layers. You can hit C-G to
 group the selected layers, for example…
 
 V
-?
+&#10;
 Hold this key, press mouse and hold it, it will trace a straight line between
 the press point and the release point.
 
@@ -91,16 +91,16 @@ C-Backspace::Fill selection with BG color (opacity).
 C-S-Backspace::Fill selection with FG color (opacity).
 
 U
-?
+&#10;
 Show common colors (on the left of the palette; allows quick selection;
 alternative: right-click…)
 
 H
-?
+&#10;
 Show color history (below the palette; colors used in the current picture)
 
 S-I
-?
+&#10;
 Show color selector.
 
 ## Toolbar
@@ -110,7 +110,7 @@ B::Freehand Brush Tool
 T::Move Tool: move the current layer out the selection, depending on options
 
 C-T
-?
+&#10;
 Transform a layer or selection: beside rotating, inverting or deforming
 capabilities, allows moving the selection.
 Moreover, if you select a group of layers, it will move the whole group at once.
@@ -124,7 +124,7 @@ G::Gradient tool, between FG and BG colors. Better use with a selection…
 P::Color Select Tool. I rather use the Ctrl key to go into color picking mode.
 
 F
-?
+&#10;
 Fill Tool. Fill the selection and / or the current color with the FG color.
 Play with options for tolerance, growth, feathering, etc.
 
@@ -162,16 +162,16 @@ C-PageDown::Move current layer down.
 C-PageUp::Move current layer up.
 
 C-G
-?
+&#10;
 Move the current layer, or selected layers, into a group. If all layers of
 a group are selected, the group disappears.
 
 C-M-G
-?
+&#10;
 Move the current layer out and above the current group.
 
 C-E
-?
+&#10;
 Merge current layer on layer below (in list), which keeps its name.
 Useful after pasting, when you don’t want to keep too many layers.
 Warning! Destructive, don’t do it by mistake. But of course, C-Z (undo) fixes
@@ -189,7 +189,7 @@ F3::Show layer properties.
 ## Filters
 
 C-U
-?
+&#10;
 Hue / Saturation / Lightness filter.
 Move Saturation to zero to get gray-level image.
 
@@ -206,11 +206,11 @@ Keyboard Shortcuts tab.
 ~/.local/share/krita/shortcuts/Inomoz.shortcuts
 
 InteractionTool - M-S-S
-?
+&#10;
 In vector layer, choose the Select Shapes Tool (fat arrow)
 
 PathTool - M-S-E
-?
+&#10;
 In vector layer, choose the Edit Shapes Tool (thin arrow on path)
 
 The Outline Selection Tool::KisToolSelectOutline - S
@@ -218,11 +218,11 @@ The Outline Selection Tool::KisToolSelectOutline - S
 SvgTextTool - C-S-T::The name is clear
 
 Also clear, useful to check if we painted on right layer
-?
+&#10;
 toggle_layer_visibility - C-S-W
 
 Quickly export that PNG or JPEG file
-?
+&#10;
 file_export_file - C-S-E
 
 TODO: file_close_all tablet_debugger selection_tool_mode_subtract Select Difference

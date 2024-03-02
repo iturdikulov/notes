@@ -93,7 +93,7 @@ Also, she predicted future of programmable computers.
 > — <cite>Ada Lovelace</cite>
 
 First full mechanical programmable computer?
-?
+&#10;
 1938 Konrad Zuse created Z1, first full mechanical programmable computer
 (electricity used only in motor). Z1 used [[Binary_number|binary]] logic.
 ![](../img/Z1_replica_German_Museum_of_Technology_Berlin_2017_024.jpg)
@@ -112,7 +112,7 @@ TODO: explain diode, triode, trigger
 https://www.youtube.com/playlist?list=PLnw98JPyObn1i3yJ2Q7A62cl2eVXoIPP0
 
 How to build trigger using vacuum tube?
-?
+&#10;
 Vacuum tube is next element after mechanics to use in computers, it's glass bulb
 with electrodes and electric vacuum inside. Using 2 triodes you can build
 trigger, which can be used to store information and as base block to build logic
@@ -155,7 +155,7 @@ program can be interpreted as data and another program can execute it).
 <!--SR:!2024-02-24,3,162-->
 
 What useful computer illness is?
-?
+&#10;
 If you want to be programmer you need to play with computers, this give you
 infinite motivation to learn programming and more importantly it's fun!
 <!--SR:!2024-02-22,4,182-->
@@ -167,7 +167,7 @@ storing data and program in same memory allowing interpreting data as
 <!--SR:!2024-02-24,3,162-->
 
 One of first computer to deal not only with calculations.
-?
+&#10;
 1951, in Great Britain was developed one of first computer to deal not only with
 calculations, LEO I, first application is Lyons Electronic Office(J. Lyons &
 Co.).
@@ -249,7 +249,7 @@ are current generation of computers.
 <!--SR:!2024-03-02,13,205-->
 
 What information modern computers can process?
-?
+&#10;
 Modern computers used to processing any information, which possible to write
 and read in digital form (databases, text, sound, images, videos, tactile
 information, etc.).
@@ -262,7 +262,7 @@ In mathematics, a function is a mathematical object that produces an
 **anything** that can exist inside a set of things).
 
 Do computers compute any information?
-?
+&#10;
 Yes. They can compute numbers and any other information. Computers can process
 data (information) in specific determined form (binary code, chains of symbols
 in some alphabet or "text"). In this approach any information transformations
@@ -280,7 +280,7 @@ called data highway or databus) is a communication system that
 Physically bus is many (tens) ==parallel wires==.
 
 Main 3 components (computer devices) which connected to bus (computing) are:
-?
+&#10;
 To the bus connecting central processor unit (CPU), random access memory (RAM)
 and controllers.
 <!--SR:!2024-02-22,1,142-->
@@ -297,7 +297,7 @@ except ==addressed== especially to specific RAM data bank or controller.
 <!--SR:!2024-02-22,4,182-->
 
 Three main parts of system bus:
-?
+&#10;
 > A system bus is a single computer bus that connects the major components of a
 > computer system, combining the functions of a **data bus** to carry
 > information, an **address bus** to determine where it should be sent or read
@@ -324,7 +324,7 @@ Modern hardware operates by using virtual addressing memory (virtual memory),
 it's different from physical addressing.
 
 Is data is transferring in data bus in parallel?
-?
+&#10;
 Through data bus memory values usually transferred in parallel, for example we
 can read/write 32 bits of information from RAM in parallel (utilize multiple
 memory locations).
@@ -335,7 +335,7 @@ completely, especially if RAM will be frozen at -60°С [^2]).
 <!--SR:!2024-02-26,7,182-->
 
 Difference between persistent memory and volatile memory (two differences)?
-?
+&#10;
 Opposite to Volatile memory (SRAM - CPU cache/registers, DRAM), persistent
 memory (SSD/HDD) is differnt, it can store data long time, without power. CPU
 can't work directly with it, required to use special controllers and computer
@@ -343,7 +343,7 @@ programs (drives).
 <!--SR:!2024-02-23,3,162-->
 
 Does CPU differentiate between persistent and volatile memory locations?
-?
+&#10;
 The CPU does not differentiate between persistent and volatile memory locations.
 The CPU interacts with different levels of memory hierarchy, which include both
 volatile and persistent memory components.
@@ -365,7 +365,7 @@ management, hardware access (internal/external) through drivers, etc.).
 <!--SR:!2024-02-22,4,182-->
 
 What is used to organize information storing (on storage for humans)?
-?
+&#10;
 Computer files is one of method to organize information (OS using filesystem
 organize it), usually computer files has filenames (which humans can understand).
 <!--SR:!2024-02-24,3,162-->
@@ -395,7 +395,7 @@ operation code or ==machine code==.
 <!--SR:!2024-02-22,4,182-->
 
 How basically CPU instruction cycle is working?
-?
+&#10;
 Main parts of CPU instructions cycle (fetch-decode-execute cycle):
 - Instruction pointer or program counter (IP/PC, special register) store address
 (memory location) of next instruction to execute (by default usually program
@@ -442,7 +442,7 @@ This is electronic circuit which can interact through system bus with CPU.
 <!--SR:!2024-02-24,3,162-->
 
 Typical scheme of controller interaction with CPU:
-?
+&#10;
 ```plantuml
 @startuml
 
@@ -477,7 +477,7 @@ One controller can use multiple I/O ports, so it can respond from different I/O
 addresses.
 
 Difference of Read/Write operations for memory and controllers.
-?
+&#10;
 Controllers Read/Write operations is almost working same as memory Read/Write
 operations, but controllers not actually reading/writing information, instead
 on write operation they interpret it as some action and on read operation they
@@ -494,7 +494,7 @@ controller, to solve assigned tasks.
 Usually drivers are part of OS, or can be loaded by OS.
 
 How program actually write data on disk (detailed answer)?
-?
+&#10;
 For example user started some program and this program need to write some data
 into some file on drive, in this case will be executed following sequence:
 - program refer to the OS, with writing data into some file request
@@ -509,7 +509,7 @@ operations results and return them to OS.
 ### 1.1.5. Hierarchy of storage devices (Иерарахия запоминающих устройств)
 
 Can you explain hierarchy of storage devices (speed, price, size)?
-?
+&#10;
 Information in computing system can be stored on different storage devices,
 depending on how fast it should be accessed, how long time it can be stored,
 and it's size (check hierarchy above).
@@ -541,12 +541,12 @@ they are very important in build computing systems for programmers.
 ### 1.2.1. Operational Systems and types of user interface
 
 Main tasks of OS?
-?
+&#10;
 Main tasks of OS, is starting/stopping other programs and control peripheral
 devices.
 
 How typically user program opens files?
-?
+&#10;
 User program can "ask" OS to read some files, providing only filenames, program
 doesn't care about which devices and controllers will be used, all this work
 will be done by OS (read data from device and place it into program memory
@@ -568,7 +568,7 @@ Most used are (order is not matter here):
 - macOS
 
 Do operating system require components which providing user interaction (UI)?
-?
+&#10;
 For Unix-like OS, main tasks are not including user interaction (user interface), since OS is
 very complex, these tasks are solved by different OS add-ons (special programs,
 which controlled by OS, but not their part).
@@ -602,13 +602,13 @@ Initially dialog mode was created by using **teleprinters**.
 
 Why [[Escape_sequence|escape-sequences]] are needed for terminals (Terminal
 emulator)?
-?
+&#10;
 They allow control how text will be rendered (colors, style, etc.), change cursor
 positions, etc.
 <!--SR:!2024-02-23,3,162-->
 
 Can user work without graphical interface with some OS on some computer?
-?
+&#10;
 Yes, you can use for example some device with serial port (USB-serial,
 laptop and special software), connect it to server and receive command-line
 interface. You can do initial setup, load/install OS from external device, setup
@@ -620,7 +620,7 @@ for a certain class of programs designed to read lines of text entered by a
 user, thus implementing a ==command-line interface==.
 
 What command-line interpreter do?
-?
+&#10;
 This program usually outputs command line **prompt** and wait when user types
 some text and press `Enter`. After that program execute users commands. This
 commands can be linked together, executed with some conditions, etc. (usually
@@ -638,21 +638,21 @@ Term folder is abstract object of graphical interface. They can be not
 represented actually in disk (virtual objects). And correct term is directory.
 
 What this command in sh interpreter will do: `cp !:1/dcim/* .`?
-?
+&#10;
 !:1 will be transformed into **first** option of previous command, and we will
 copy files from generated path into current directory.
 <!--SR:!2024-02-24,3,162-->
 
 Let's say you typed command `mount /mnt/flash`, what will be happening when you
 type `u!m`?
-?
+&#10;
 `u!m` will be transformed into `u` + `!m -> get last command started with m ->
 mount /mnt/flash`
 <!--SR:!2024-02-22,2,152-->
 
 How to test first argument is not exists, and if true execute set of commands
 (`$1`, Bourne shell interpreter)?
-?
+&#10;
 ```sh
 [ "$1" = "" ] && { echo "No argument"; exit 1; } # { block of commands }
 ```
@@ -687,7 +687,7 @@ Stephen C. Johnson and Brian Kernighan. In this project Stephan developed
 first portable C compiler.
 
 In 1977 Bill Joy created first Unix BSD. BSD also has issues with license of
-Unix, which slowed down BSD development. In this situation other OS was take a
+Unix, which slowed down BSD development. In this situation other OS was taking a
 lot of attention.
 
 In 1991 Linus Torvalds started work on Unix-like OS kernel for new i386 platform
@@ -794,7 +794,7 @@ Using `cd` without options (target directory) go home directory, to go into
 specific user directory use ==`cd ~username`== command.
 
 If I started process with from some directory, can it change it?
-?
+&#10;
 Yes. In Unix OS each running program (process) has own current directory (CWD)
 and each program can change it independently.
 <!--SR:!2024-02-24,3,162-->
@@ -803,7 +803,7 @@ Check [[Unix_commands|Unix commands]] note to learn some of them (main are `cp,
 mv, rm, mkdir, rmdir, touch, less`).
 
 Which type of file path is used in Unix?
-?
+&#10;
 Unix OS allowing to use two main types of file paths:
 - Absolute (not depending on CWD, starting with `/` character, which indicate
 root directory).
@@ -814,7 +814,7 @@ example: `ls relative/path/filename.jpg` or `ls
 Let's say you have this path: `/home/inom/photos/Mars.jpg`, in which level of
 directories hierarchy is `Mars.jpg` file, how to go into root by using `..`
 based path?
-?
+&#10;
 In 4 level (here 4 slash characters).
 `cd ../../../..`
 
@@ -824,7 +824,7 @@ characters==.
 ### 1.2.6. Command and its options (Команда и её параметры)
 
 What `;` is used for?
-?
+&#10;
 You can execute commands in sequence with `;` character (error code is ignored).
 <!--SR:!2024-02-22,2,152-->
 
@@ -834,13 +834,13 @@ commands options.
 Any command options are just ==strings== type. Which include one or more words.
 
 Is A number of spaces are affects somehow (command options)?
-?
+&#10;
 No, you can use any number of spaces, for example `echo abra     kadabra` will
 generate same output as `echo abra kadabra`.
 
 Let say you need to remove file with spaces, you need somehow remove special
 role from space, and delete this file, how you can do it? How they work?
-?
+&#10;
 Use one of these variants:
 1. `rm File\ with\ spaces.md`, here you escape spaces with `\` character.
 2. `rm 'File\ with\ spaces.md'`, escaping almost any character, except apostrophe
@@ -866,22 +866,22 @@ You can combine template characters with other filename characters, they denote
 ==itself==.
 
 What difference between `???`, `???*` and `*` template?
-?
+&#10;
 `???` - filename length is equal to 3 characters, `???*` - filename minimum
 length is 3 characters, `*` - no filename length restrictions.
 
 For this template `img_????.jpg` will be fit these filenames: `img_256.jpg`,
 `img_cool.jpg`, `img_1112.jpg`?
-?
+&#10;
 Almost yes, except first file: `img_256.jpg`, it must contain 4 characters after
 `img_` prefix.
 
 How to remove all files, with `~` suffix?
-?
+&#10;
 `rm *~`, but I'm use moving files to trash directory.
 
 Is filename templates used only in file operations?
-?
+&#10;
 No, you can use them for example with `echo *` command, which usually only
 prints their arguments, but in this case it will print all files in current
 directory.
@@ -945,7 +945,7 @@ Sometimes you can temporarily pause input stream and active program execution
 (`C-S`), in that case to resume it use ==`C-Q`== keybinding.
 
 Is closing window with terminal is good idea?
-?
+&#10;
 Killing application by closing window is HIGHLY not recommended, this program
 can continue working in background and consume computer resources. Use `C-d` and
 `C-c` keybindings to gracefully close your terminal windows.
@@ -1001,7 +1001,7 @@ Program can work with multiple streams, each of them has own number, these
 number are named ==descriptors==.
 
 Which standard streams you know, which number they have?
-?
+&#10;
 In UNIX here convention for give numbers of descriptors, 0 - standard input
 (stdin), 1 - standard output (stdout), 2 - standard error (stderr).
 
@@ -1032,7 +1032,7 @@ Nano emulates the Pico text editor, part of the Pine email client, and also
 provides additional functionality.
 
 How to navigate in Nano?
-?
+&#10;
 Nano support standard arrows and navigation keys (PgUp/PgDn, Home, End,
 Backspace and Del). Each have one-byte alternative to work on slow network, for
 example `C-f`, `C-b`, `C-p` and `C-n` are forward (left), backward (right),
@@ -1042,7 +1042,7 @@ In bottom place here useful ==help== section, nano also can interactively ask
 some questins, so check them carefully.
 
 Do you know some useful nano keybindings?
-?
+&#10;
 Most useful commands are:
 - `F1` or `C-g` open help
 - `C-o` save current file
@@ -1056,23 +1056,154 @@ JOE is a full-featured terminal-based screen editor which is distributed under
 the GNU General Public License (GPL). JOE has been around since 1988 and comes
 standard with many Linux distributions.
 
-Main Joe keybindings?
-?
-| Key | description |
-|-----|-------------|
-|`C-k d`|save file|
-|`C-k x`|save file and exit|
-|`C-c`|exit without saving|
-|`C-y`|delete current line|
-|`C-k `| |
-|`C-k `| |
-|`C-k `| |
-|`C-k `| |
-|`C-k `| |
-|`C-k `| |
-|`C-k `| |
-|`C-k `| |
-|`C-k `| |
+| Key       | description          |
+| --------- | -------------------- |
+| `C-k h`   | help                 |
+| `C-k d`   | save file            |
+| `C-k x`   | save file and exit   |
+| `C-c`     | exit without saving  |
+| `C-y`     | delete current line  |
+| `C-k b`   | init block selection |
+| `C-k k`   | end block selection  |
+| `C-k c`   | copy selected block  |
+| `C-k m`   | move selected block  |
+| `C-k y`   | delete selection     |
+| `C-k l`   | find line number     |
+| `C-S-'-'` | undo                 |
+| `C-^`     | redo                 |
+| `C-k F`   | search word          |
+| `C-l`     | repeat search        |
+
+### Midnight Commander file manager editor (Встроенный редактор оболочки Midnight Commander)
+
+MC is clone of Norton Commander file manager (popular in MS-DOS).
+To start MC enter ==`mc`== command.
+
+To edit file use ==`S-F4`== key, `F4` will create new file.
+
+Sometimes you want to disable `Fill tabs with spaces` in **editor** option, use
+`F9` → `Options` → `General` settings to change it.
+
+## 1.2.13 Files access rights (Права доступа к файлам)
+
+<!-- NEXT: repeat this section -->
+
+Each file in Unix has special 12-bit word, File-system ==permissions== (how it
+stored depends on filesystem).
+
+9 low-order bits are grouped into 3 groups, 3 bits each. These 3 bits set
+following access rights: ==**r**ead, **w**rite, e**x**ecute==. First group set
+access rights for file owner, second for group and last for others users.
+
+To list files with access rights use ==`ls -l`== command. Currently I use eza
+with following alias `alias l=eza -blF`.
+```sh
+$ ls -l /etc/subgid
+# "-" is file
+# rw- owner with read/write access
+# r-- group with read only access
+# r-- others with read only access
+# also possible "x" flag (execute access)
+-rw-r--r-- 1 root root 18 Feb 24 18:39 /etc/subgid
+```
+Since 3-bit number group are equal to one octal number, usually access writing
+using three or four-digit octal number.
+```
+r-- rw- rwx
+-----------
+100 110 111
+  4   6   7
+-wx -w- r-x
+-----------
+011 010 101
+  3   2   5
+```
+
+Usually in Unix has 0644/0640 (zero indicate octal number) access rights for
+files (`rw r r`) (0644 for web) and ==0755== access rights for directories.
+
+Is same access number for file and directory working differently?
+&#10;
+Yes, there specific rules for directories.
+- `r` - list filenames (no anything else)
+- `w` - allow changing directory (create and delete files), you can even delete
+  file from different user
+- `x` - main difference with files, this bit allowing you fully to use directory
+files, for example read files. If you have only `r` access you can list files in
+directory but can't read, with `rx` (05) you can actually read/execute files in
+a. Sometimes you can set only `x` flag (01), with this flag you can open this
+file if you know its filename.
+
+For access rights used 9 bits, here also 3 high-order bits of access rights
+word.
+&#10;
+- SUID, SetUid Bit (0400)
+- SGID, SetGid Bit (0200)
+- Sticky Bit (0100)
+
+If you set SUID bit for executable file (usually `passwd`), when you execute it, this file will
+have ==owner (usually ROOT)== access rights, even if it was executed by different user.
+
+If you set SGID bit for executable file, when you execute it, this file will
+have ==group== access rights, even if it was executed by different group user.
+
+On modern systems Sticky Bit on files usually ==ignored==. On directories, it
+set behavior when you create some file in that directory, as group owner of
+this file will be used directory group regardless of who created this file (lock
+group).
+
+To change files access rights use ==`chmod`== command.
+
+`chmod` can use special ==mnemonic== string, to set access rights:
+```sh
+# [ugoa][+-=][rwxsXtugo]
+# [ugoa] - [u]ser, [g]roup, [o]thers, [a]ll, this is first optional option group
+chmod ugo+x test_file; chmod a-x test_file
+# [+-=] - [+] add new rights, [-] remove rights, [=] set rights
+chmod ug=x test_file; chmod a=rwx test_file
+# [rwxsXtugo] [r]ead, [w]rite, [e]xecute;
+# [X] set execution bit on directory and files with somebody execution access
+# rights # (ugo), file s[t]icky bit, use [u]ser, use [g]roup, use [o]thers
+# rights to set
+chmod g=Xx test_file; chmod u=g test_file
+chmod -R u+rwX,go=rX ~  # restore home directory access rights (DON'T try to
+                        # execute it, only in very rarely situation)
+                        # toggle user r,w,x(if someone has x flag),
+                        # set group/other r,x(if someone has x flag)
+                        # other access rights will be removed
+```
+
+## 1.2.14. Electronic documentation (man command). Электронная документация (команда man)
+
+Unix distribution usually containing many documentation for internal parts
+(kernel, system calls, library functions of programming languages), file
+formats, some general terms, commands, etc. This documentation (manuals) usually
+use ==`man`== - format and display manual pages.
+
+For example, you can get `waitpid` system call manual by using
+==`man 2 waitpid`== command. 2 here is man section number.
+
+You can close `man` pager program with ==`q`== key. Here also aviable some
+additional vi-like keybindings, use `h` key to list them.
+
+Which man sections do you know?
+&#10;
+- 1 — users commands, like `ls`, `rm`, `mv`, etc.
+- 2 — kernel system calls
+- 3 — library functions of C, like `printf`
+- 4 — devices files information, like `null`, `stdin`, etc.
+- 5 — system configuration file formats, like `passwd`, `fstab`, etc.
+- 6 — games programs, like `BSOD` (require xscreensaver)
+- 7 — general terms, like `ip`, `tcp`,
+- 8 — system administration commands, like `mount`
+- other sections
+
+## 1.2.15 Shell scripts in Bourne Shell (Командные файлы в Bourne Shell)
+
+In Unix kernel can work (two types of executables) with binary files and shell
+==scripts==. In shell script you place special character sequence of beginning
+of your script ([[Shebang]], kernel search 2 bytes `#!` to detect shell script),
+this will tell and toggle executable bit (`x`).
 
 ## References
 

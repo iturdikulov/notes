@@ -32,21 +32,21 @@ sr-ease: 164
 
 Я девочка.
 I am a girl. Question:
-?
+&#10;
 Am I a girl
 Я девочка?
 
 
 He is a boy.
 Он мальчик. Question:
-?
+&#10;
 Is he a boy
 Он мальчик?
 
 
 She is a woman
 Она женщина. Question:
-?
+&#10;
 Is she a woman?
 Она женщина?
 
@@ -63,7 +63,7 @@ Is she a woman?
 В английском языке форма таких слов, как моя, твой, ..., не меняется в
 зависимости от **рода** и **числа**, приведите примеры с my, your, his, her, its, our,
 their.
-?
+&#10;
 ```
 моя кошка - my cat
 твоя / ваша кошка - your cat
@@ -80,7 +80,7 @@ their.
 
 
 The cat drink's its milk.
-?
+&#10;
 (Эта) кошка пьёт своё (её) молоко.
 
 
@@ -89,19 +89,19 @@ The cat drink's its milk.
 
 
 I drink my tea.
-?
+&#10;
 Я пью свой чай.
 
 
 We eat our sandwiches.
-?
+&#10;
 Мы едим свои бутерброды.
 
 
 ### Глаголы
 
 Глагол выражает?
-?
+&#10;
 Действие (“Антон читает каждый день”) или состояние (“Я был в отпуске”).
 Отвечает на вопрос “что делать?/ что сделать?”
 
@@ -129,7 +129,7 @@ We eat our sandwiches.
 настоящем!
 По‑русски мы скажем Я студент или Он мальчик, а по‑английски нужно сказать,
 приведите примеры для студена, мальчика и девочки.
-?
+&#10;
 I am a student (я студент). He is a boy (он мальчик). I am a boy (я мальчик).
 She is a girl (она девочка).
 
@@ -151,15 +151,15 @@ She is a girl (она девочка).
 He loves you!
 
 По‑русски мы скажем Ей нравятся животные, а по‑английски нужно сказать?
-?
+&#10;
 She likes animals.
 
 Он мне нравится.
-?
+&#10;
 I like him.
 
 Ей нравится вино.
-?
+&#10;
 She likes the wine.
 
 В английском языке слово ==like== используется, когда вы говорите о чём‑то, что
@@ -167,37 +167,37 @@ She likes the wine.
 можете сказать love.
 
 Он любит тебя.
-?
+&#10;
 He loves you.
 
 Я люблю Париж!
-?
+&#10;
 I love Paris!
 
 ## Справочник раздела 6
 
 Извините, вы наша официантка?
-?
+&#10;
 Excuse me, are you our server?
 
 Я бы хотел пиццу.
-?
+&#10;
 I would like a pizza.
 
 Вот ваша пицца!
-?
+&#10;
 Here is your pizza!
 
 Я бы хотела одну газировку и два гамбургера.
-?
+&#10;
 I would like one soda and two hamburgers.
 
 Приятного аппетита!
-?
+&#10;
 Enjoy your meal!
 
 За ваше здоровье!
-?
+&#10;
 Cheers!
 
 Не считайте меня!
@@ -206,51 +206,51 @@ Cheers!
 этих слов входят жидкости, мясо, приправы, хлеб,
 
 Мы пьём сок.
-?
+&#10;
 We drink juice. Uncountable.
 
 Это хлеб.
-?
+&#10;
 It is bread. Uncountable.
 
 We eat beef.
-?
+&#10;
 Мы едим говядину. Uncountable.
 
 У нас есть сахар.
-?
+&#10;
 We have sugar. Uncountable.
 
 Но ==a / an== использовать обязательно, когда речь идёт об исчисляемых предметах в единственном числе!
 
 Я ем яйцо.
-?
+&#10;
 I eat an egg.
 
 ## Справочник раздела 7
 
 У тебя есть кошка или собака?
-?
+&#10;
 Do you have a cat or a dog?
 
 У меня есть две собаки и кошка.
-?
+&#10;
 I have two dogs and a cat.
 
 Моя старая птица очень славная.
-?
+&#10;
 My old bird is really cute.
 
 Не волнуйся, моя собака маленькая.
-?
+&#10;
 Don't worry, my dog is small.
 
 Конечно, моя кошка спит много.
-?
+&#10;
 Of course my cat sleeps a lot.
 
 У меня есть четыре красных змеи.
-?
+&#10;
 I have four red snakes.
 
 Множественное число существительных это::больше чем один/одна/одно
@@ -261,14 +261,14 @@ I have four red snakes.
 — нужно просто добавить ==‑s==!
 
 Примеры с единственным и множественным числом (boy, apple, newspaper)
-?
+&#10;
 - boy, boys
 - apple, apples
 - newspaper, newspapers
 
 Однако, существуют исключения, в которых для множетсвенного числа не нужно
 добавлять **-s**. Какие вы знаете?
-?
+&#10;
 - man, men
 - woman, women
 - child, children
@@ -276,98 +276,98 @@ I have four red snakes.
 ## Справочник раздела 8
 
 Ты хочешь бублик на завтрак?
-?
+&#10;
 Do you want a bagel for breakfast?
 
 Нет, спасибо, я редко ем завтрак.
-?
+&#10;
 No, thanks, I rarely eat breakfast.
 
 Я хотел бы чашку чая и яйцо, пожалуйста.
-?
+&#10;
 I would like a cup of tea and an egg, please.
 
 Я голодный.
-?
+&#10;
 I am hungry.
 
 Вы хотите итальянскую еду?
-?
+&#10;
 Do you want Italian food?
 
 Нет, я хочу руссую еду.
-?
+&#10;
 No, I want Russian food.
 
 Да, я замужем, а ты?
-?
+&#10;
 Yes, I am married, and you?
 
 Нет, я не женат.
-?
+&#10;
 No, I am not married.
 
 Моя девушка – известный юрист.
-?
+&#10;
 My girlfriend is a famous lawyer.
 
 У твоего парня приятная улыбка.
-?
+&#10;
 Your boyfriend has a nice smile.
 
 Да, мой парень любит моё чувство юмора.
-?
+&#10;
 Yes, my boyfriend likes my sense of humor.
 
 Я скучаю по моей девушке так сильно!
-?
+&#10;
 I miss my girlfriend so much!
 
 Порядок слов В английском, как и в русском, прилагательные ставятся перед
 словами, которые они описывают (но после слов a и the !).
 
 У меня есть **коричневая** шапка.
-?
+&#10;
 I have a brown hat.
 
 The woman has a ==white== dress.
-?
+&#10;
 У (этой) женщины есть ==белое== платье.
 
 Если вы хотите сказать Юбки чёрные, то прилагательное ставится ==после глагола to be==!
 
 (Эти) юбки чёрные.
-?
+&#10;
 The skirts are black.
 
 Моё платье чёрное.
-?
+&#10;
 My dress is black.
 
 ## Справочник раздела 9
 
 Извините, вы говорите по-русски?
-?
+&#10;
 Excuse me, do you speak Russian?
 
 Я потерялся, и мне нужна помощь.
-?
+&#10;
 I'm lost and I need help.
 
 Есть ли автобусная остановка поблизости?
-?
+&#10;
 Is there a bus stop nearby?
 
 Да, есть автобусная остановка справа.
-?
+&#10;
 Yes, there is a bus stop on the right.
 
 Спасибо за вашу помощь.
-?
+&#10;
 Thank you for your help.
 
 У вас есть туалет?
-?
+&#10;
 Do you have a bathroom?
 
 ### Что вам нужно?
@@ -376,41 +376,41 @@ Do you have a bathroom?
 ==I need, she needs==.
 
 Если тебе нужны мои брюки, возьми их.
-?
+&#10;
 If you need my pants, take them.
 
 Нам нужен врач.
-?
+&#10;
 We need a doctor.
 
 (Этой) Кошке нужна еда.
-?
+&#10;
 The cat needs food.
 
 ## Справочник раздела 10
 
 Я иногда играю в шахматы.
-?
+&#10;
 I sometimes play chess.
 
 София часто плавает одна.
-?
+&#10;
 Sofia often swims alone.
 
 Я везучая, мой партнёр готовит и убирается!
-?
+&#10;
 I am lucky, my partner cooks and cleans!
 
 О, я убираюсь каждый понедельник!
-?
+&#10;
 Oh, I clean every Monday!
 
 Мой парень убирается каждый день.
-?
+&#10;
 My boyfriend cleans every day.
 
 Maksim works at home every Tuesday.
-?
+&#10;
 Максим работает дома каждый вторник.
 
 По‑русски мы говорим У меня (есть) яблоко, а по‑английски следует говорить
@@ -418,58 +418,58 @@ Maksim works at home every Tuesday.
 по‑русски, но совершенно правильно по‑английски!
 
 У меня есть вода. Буквально:
-?
+&#10;
 Я имею воду. I have water.
 
 
 У нас есть дети. Буквально:
-?
+&#10;
 Мы имеем детей. We have children.
 
 Со словами he или she надо использовать ==has== для обозначения что у него или
 ее есть что-либо!
 
 У него есть яблоко. Буквально:
-?
+&#10;
 He has an apple. Он имеет яблоко.
 
 У нее есть книга. Буквально:
 She has a book.  Она имеет книгу.
 
 Тебе нужно платье или новое пальто?
-?
+&#10;
 Do you need a dress or a new coat?
 
 Конечно, мне нравится это пальто, но мне нужно платье.
-?
+&#10;
 Of course I like this coat, but I need a dress.
 
 Красная рубашка выглядит хорошо.
-?
+&#10;
 The red shirt looks good.
 
 Спасибо, но мне нравится чёрное платье больше.
-?
+&#10;
 Thank you, but I like the black dress more.
 
 Мне нравятся эти платья, особенно чёрное платье.
-?
+&#10;
 I like these dresses, especially the black dress.
 
 Простите, эта рубашка слишком большая.
-?
+&#10;
 Sorry, this shirt is too big.
 
 
 Does he know Maria?
 Мы уже говорили о том, что в вопросах со словом to be нужно всегда
-?
+&#10;
 менять порядок слов
 Ты Мария?
 Are you Maria?
 
 Если вы употребляете вопросительное слово, например, how или where, то оно
-?
+&#10;
 ставится в самое начало предложения!
 Как они?
 How are they?
