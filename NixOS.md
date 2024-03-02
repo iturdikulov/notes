@@ -44,6 +44,7 @@ sudo nixos-rebuild switch
 
 ```sh
 hey gc; sudo hey gc
+sudo /run/current-system/bin/switch-to-configuration boot
 ```
 
 ## Get revision/hash for fetchFromGitHub/fetchit
@@ -64,6 +65,29 @@ nix-shell -p nix-prefetch-git jq --run "nix-prefetch-git --url https://github.co
 
 # HASH
 nix-shell -p nix-prefetch-git jq --run "nix-prefetch-git --url https://github.com/Inom-Turdikulov/dwm-flexipatch --quiet | jq -r '.hash'"
+```
+
+## LD_LIBRARY_PATH issues
+
+This can happen when importing python libraries: Solution: add ${stdenv.cc.cc.lib}/lib/libstdc++.so.6 to the LD_LIBRARY_PATH.
+
+A sample shell.nix:
+```
+{ pkgs ? (import <nixpkgs> {}).pkgs }:
+with pkgs;
+mkShell {
+  buildInputs = [
+    python3Packages.virtualenv # run virtualenv .
+    python3Packages.pyqt5 # avoid installing via pip
+    python3Packages.pyusb # fixes the pyusb 'No backend available' when installed directly via pip
+  ];
+  shellHook = ''
+    # fixes libstdc++ issues and libgl.so issues
+    LD_LIBRARY_PATH=${stdenv.cc.cc.lib}/lib/:/run/opengl-driver/lib/
+    # fixes xcb issues :
+    QT_PLUGIN_PATH=${qt5.qtbase}/${qt5.qtbase.qtPluginPrefix}
+  '';
+}
 ```
 
 ## PCI passthrough
