@@ -29,7 +29,7 @@ calculations (low efficiency).
 First computing machine is mechanical ==calculating clock== of Wilhelm
 Schickard, 1623. But before it Leonardo da Vinci created some sketches of
 computing mechanism.
-<!--SR:!2024-02-23,3,162-->
+<!--SR:!2024-03-09,4,162-->
 
 Most old working computing machine is Pascal's ==adding machine== (pascaline),
 1642.
