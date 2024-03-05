@@ -1173,6 +1173,9 @@ chmod -R u+rwX,go=rX ~  # restore home directory access rights (DON'T try to
                         # other access rights will be removed
 ```
 
+Here good infographic cheatcheet which describing Unix files permissions:
+![](../img/Unix_permissions.webp)
+
 ## 1.2.14. Electronic documentation (man command). Электронная документация (команда man)
 
 Unix distribution usually containing many documentation for internal parts
@@ -1204,6 +1207,267 @@ In Unix kernel can work (two types of executables) with binary files and shell
 ==scripts==. In shell script you place special character sequence of beginning
 of your script ([[Shebang]], kernel search 2 bytes `#!` to detect shell script),
 this will tell and toggle executable bit (`x`).
+This shebang has length limit (`man execeve`, 127 or 255 bytes).
+
+Process of creating shell script, firs create file with this data:
+
+```sh
+#!/bin/sh
+echo "Humpty Dumpty sat on a wall,"
+echo "Humpty Dumpty had a great fall."
+echo "All the king's horses and all the king's men"
+echo "Couldn't put Humpty together again."
+```
+
+Give executable rights to file with `chmod +x filename` command and run it
+`./filename`. To execute file there should be at least ==one slash==, otherwise
+command-line interpreter will search file (program) in `PATH` environment
+variable or run built-in command.
+
+In bash variables are contains only alphanumeric characters, underscore
+character to split words starting with ==some letter== (declaration).
+
+Variable assignment (no ==spaces== around equal, otherwise assignment will be
+interpreted as usual command): `I=10`, `MYFILE=/tmp/the_file_name`,
+`MYSTRING="Hello, world, with spaces!"`
+
+To variable access, need to place ==`$`== character before variable name.
+
+To combine variables with some strings without spaces, use
+==curly brackets `${I}_item`==.
+
+To make arithmetic operations, use ==`$(( ... ))`, `I=$(( $I + 7 ))`== construction.
+
+Do these constructions are equal: `I=$((I+1))` and `I=$(( $I+1 ))`?
+&#10;
+Yes, you can omit spaces and `$` character in this construction.
+
+Which output this script will generate with this command:
+`./argdemo.sh abra schwabra kadabra`
+```sh
+#!/bin/sh
+# argdemo.sh
+echo "My name is" $0
+echo "I'v got" $# "parameters"
+echo "Here are the first three of them, in reverse order:"
+echo "" "$3 $2 $1"
+```
+&#10;
+```
+My name is ./argdemo.sh
+I'v got 3 parameters
+Here are the first three of them, in reverse order:
+kadabra schwabra abra
+```
+Last "" in `echo` command used to prevent `echo` command interpreting options
+starting with `-` character.
+
+Bourne Shell (and ZSH) also supporting subroutines, where $1, $2, $3, ... are subroutine
+options, and $# is a number of options.
+
+In Unix any commands are completed with some exit code (from 0 to 255), where
+==0== is success, and other numbers are errors. You can get last command exit
+code by using `$?` variable.
+
+In Bourne Shell conditions and loops are implemented by using special command
+`test` (alias is `[`), as True used command exit code ==0==, and False used any
+other exit code.
+
+Some examples of conditions, are they correct?:
+```sh
+[ -f "file.txt" ] && echo "File exists" || echo "File not exists"
+[ "$I" -lt 10 ] && echo "I less than 10" || echo "I more than 10"
+[ "$A" = "abc" ] && echo "A equals abc" || echo "A not equals abc"
+[ "$A" != "abc" ] && echo "A not equals abc" || echo "A equals abc"
+```
+&#10;
+Yes they are correct, but you can use `[[` (upgraded `test`) command instead of
+`[` command, which support wildcard patterns.
+
+Are these constructions are equal?
+```sh
+if [ -f "file.txt" ]; then
+  cat "file.txt"
+else
+  echo "File file.txt not found"
+fi
+
+if test -f "file.txt"; then
+  cat "file.txt"
+else
+  echo "File file.txt not found"
+fi
+
+if mkdir new_dir; then
+  echo "Directory dir created"
+else
+  echo "Directory dir not created"
+fi
+```
+&#10;
+First two constructions are equal, but third is not equal, because `mkdir` will
+create directory, and will not check file existence.
+
+Print numbers from 1 to 100 in Bourne Shell.
+&#10;
+```sh
+#!/bin/sh
+I=1
+while [ $I -le 100 ]; do
+  echo $I
+  I=$(( I + 1 ))
+done
+```
+
+Print all colors of rainbow in Bourne Shell (for loop).
+&#10;
+```sh
+for color in red orange yellow green blue indigo violet; do
+  printf "%s " $color
+done
+```
+
+Compare operators in Bourne Shell:
+&#10;
+- `-eq` - equal
+- `-ne` - not equal
+- `-lt` - less than
+- `-le` - less or equal
+- `-gt` - greater than
+- `-ge` - greater or equal
+
+"Conditional execution" command separators in Bourne Shell?
+&#10;
+`&&` and `||`, logical `AND`, and logical `OR` used to combine commands (their
+exit codes, 0 - True any other False).
+
+In which cases next operands can be skipped for conjunction (`&&`) and
+disjunction (`||`)?
+&#10;
+If first command in conjunction (`&&`) is False, or first command in disjunction
+(`||`) is True, next command(s) will be skipped.
+
+Priorities of execution this construction: `cmd1 && cmd2 | cmd3 || cmd4`?
+&#10;
+Pipe operations have higher priority than conjunction and disjunction, so first
+will be executed `cmd2 | cmd3` (as boolean value used status from last command
+of pipe), and then `cmd1 && ...` and `cmd4` will be executed. You can change
+priorities by using `(` and `)` characters.
+Example: `echo1 "Incorrect command" && ls | sort || echo "Last Line"`
+
+## 1.2.16. Environment variables (Переменные окружения)
+
+Environment are many strings like ==`VAR=VALUE`==, each process (including
+command-line interpreter) has own environment, process can change it, and child
+process usually inherit it from parent process.
+
+Which important environment variables do you know? How to list them?
+&#10;
+Use `export` or `env` command without options to list environment variables.
+You can review each env variable by using `echo $VAR` command.
+```sh
+echo $PATH
+echo $HOME
+echo $LANG
+```
+- `PATH` - list of directories where command-line interpreter will search
+programs to execute (if you typed command without slash in path, short name).
+- `HOME` - user home directory
+- `LANG` - language (program can use it to select language for output)
+- `EDITOR` - default text editor
+
+You can export variables back to environment by using `export` command. Local
+assignments are not exported to environment.
+&#10;
+```sh
+export MYVAR="Hello, world!"
+PATH=$PATH:/etc/dotfiles/bin
+export PATH
+```
+Unset command.
+&#10;
+```sh
+unset MYVAR
+unset -v MYVAR
+```
+
+Set variable only for one command.
+&#10;
+```sh
+EDITOR=nano chfn  # change real user information
+```
+
+## 1.2.17. Logging working session (Протоколирование сеанса работы)
+
+How to log all commands and their output into file?
+&#10;
+```sh
+script my_protocol.log
+ls
+echo "Hello, world!"
+[Ctrl-D]
+```
+Better to use `cat`/`less` programs to view this protocol file, because it
+usually contains control characters.
+
+## 1.2.18. Graphical subsystem in Unix OS (Графическая подсистема в ОС Unix)
+
+The X Window System (X11, or simply X) is a windowing system for ==**bit**map==
+displays, common on Unix-like operating systems (currently it's my main GUI
+software package to work in Unix OS).
+
+Central role in X Window System play ==X server==, which is responsible for
+displaying graphical information on user's display. Each program, which interact
+with X server, called X client.
+
+Most used X client usually is ==window manager==, which is responsible for
+windows placement, their appearance (decorations like titles, borders), size,
+etc. Other X applications responsible for drawing windows content. You can even
+switch window manager on the fly, without restarting X server if it supports it
+(usually used `--replace` option). You can also connect into remote X server
+(XDM based) by `X -broadcast` command,
+[more info](http://www.fifi.org/doc/HOWTO/en-html/mini/XDM-Xterm/index.html).
+
+To start locally X server, you can use `startx` command, but usually it's
+started automatically by display manager (like `xdm`, `gdm`, `kdm`, `lightdm`,
+etc.).
+
+Traditional way to configure X server (`~/.xinitrc` + `startx`) can be checked
+in ArchWiki - [xinit - ArchWiki](https://wiki.archlinux.org/title/xinit),
+[xprofile - ArchWiki](https://wiki.archlinux.org/title/Xprofile).
+
+Modern window managers can not only manage windows, but also can implement
+desktop ==metaphor== functionality, they are known as desktop environment, DE
+(Gnome, KDE, xfce, MATE, Cinnamon, Unity, etc.). Some DE are not really window
+mangers, but they can't be used without window manager and include some default
+one (like Gnome).
+
+The desktop metaphor was first introduced by Alan Kay, David C. Smith, and
+others at Xerox PARC in ==1970==. The first computer to use an early version of
+the desktop metaphor was the experimental Xerox Alto.
+
+In ==1983== was released first mass-market computer with desktop metaphor,
+Commodore 64 (GUI was optional). Apple Macintosh was released in 1984. Windows
+1.0 in 1985.
+
+Usually all DE have high resources' consumption (overhead) with questionable
+features and behavior (like automatic creating directories in `$HOME`, too much
+"bloatware", etc.). I'm like author, preferred to use lightweight window manager
+(like [[DWM]]). Graphical shell it's ==auxiliary== tool, to run programs and
+related tasks, and not to spend too many resources for UI.
+
+First thing when you use some new window manager is to learn how to start
+terminal and global menu (for example hotkey or mouse click on desktop).
+
+On Linux used 2 clipboard buffers (also exist 3rd, SECONDARY):
+- **PRIMARY** selection is typically used by e.g. terminals when selecting text
+and pasting it by pressing middle mouse button (click, or use Shift+Insert). As
+in selected text is in Primary Clipboard without any explicit copy action taking
+place. Quick-Copy is a good name for it. Not limited to terminal emulators, but
+as an example.
+- ==**CLIPBOARD**== "modern" clipboard operations (like in other OS).
+Select+Copy. The data resides in the buffer.
+
 
 ## References
 
