@@ -69,8 +69,7 @@ my case I need to hold `ESC` and plug USB cable.
 
 ## Keys
 
-Check [QMK keymap](file:///home/inom/Computer/hardware/QMK/keymap.c) file to get
-actual keys map.
+Check [QMK keymap](external/keymap.c) file to get actual keys map.
 
 ## References
 
