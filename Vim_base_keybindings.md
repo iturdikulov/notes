@@ -2,6 +2,7 @@
 date: 2024-03-03
 tags:
   - inbox
+  - SR_vim
 ---
 
 # Vim base keybindings
@@ -9,122 +10,151 @@ tags:
 I inspired by ThePirmeagen video [^1] to create this note, this cover small
 subset of [[Neovim]] keybindings.
 
-
-
 ## 1. Movement/editing/writing Hotkeys:
 
 `h word-motions`
 
-h::move left ← (shot arrow left)
-j::move down ↓ (shot arrow down)
-k::move up ↑ (shot arrow up)
-l::move right → (shot arrow right)
+`h`::move left ← (shot arrow left)
+`j`::move down ↓ (shot arrow down)
+`k`::move up ↑ (shot arrow up)
+`l`::move right → (shot arrow right)
 
-)::jump by sentence forward, next bed 🛏️ (top/in)
-(::jump by sentence backward, previous bed 🛏️ (top/in)
+All jumps support motions::`d[ia]`, `c[ia]`, `y[ia]`, `v[ia]`!
 
-}::jump by paragraphs (downward), next house floor roof 𓉩
-{::jump by paragraphs (upward), previous house roof roof 𓉩
+`)`::jump by sentence forward, next bed 🛏️ (top/in)
+`(`::jump by sentence backward, previous bed 🛏️ (top/in)
 
-]]::jump by section (downward), next house roof 🏘️
-[[::jump by section (upward), previous house roof 🏘️
+`}`::jump by paragraphs (downward), next house level roof 𓉩
+`{`::jump by paragraphs (upward), previous house level roof 𓉩
 
-w/W::jump by start of words, next snake head 🐍
-b/B::jump backward by words, previous snake head 🐍
+`]]`::jump by section (downward), next house roof 🏘️
+`[[`::jump by section (upward), previous house roof 🏘️
 
-e/E::jump to end of words, next peacock tail 🦚
-ge/gE::jump backward to end of words, previous peacock tail 🦚
+`w/W`::jump by start of words, next snake head 🐍
+`b/B`::jump backward by words, previous snake head 🐍
 
-0::start of line, start of the track with reserve 🛣️
+`e/E`::jump to end of words, next peacock tail 🦚
+`ge/gE`::jump backward to end of words, previous peacock tail 🦚
 
-^::first non-blank character of line, start of the track 🛣️
+`={motion}`::filter (equalprog) / indent text, filter text 🧹
 
-_::first non-blank character of line, in motions linewise, whole line
+`gi`::jump to last insert position, last time writing place 📚
 
-$::end of line, finish line 🏁
+`gv`::re-select last visual selection, re-select last visual selection 🖍️
 
-G::End (prefix with number), basement ⬇
+`gw`::format lines to text width, format lines to text width (cursor stay) 📏
+`gq`::format lines to text width, format lines to text width (cursor reset) 📏
 
-i::start insert mode at cursor, put a stamp before ✔️
+`0`::start of line, start of the track with reserve 🛣️
 
-a::append after the cursor, put a stamp after ✔️
-I::insert at the beginning of the line, put a stamp on left document side (after padding) `[| ]`
-A::append at the end of the line, put a stamp on right document side (after padding) `[ ]|`
+`^`::first non-blank character of line, start of the track 🛣️
 
-o::open (append) blank line below current line, add a new line below current line 📝
-O::open blank line above current line, add a new line above current line 📝
+`_`::first non-blank character of line, in motions linewise, whole line
 
-ea::append at end of word, add char after peacock tail 🦚
+`$`::end of line, finish line 🏁
 
-r::replace a single character (does not use insert mode), toggle a single character 🔄
+`G`::End (prefix with number), basement ⬇
 
-J::join line below to the current one, remove bed legs 🛏️
+`i`::start insert mode at cursor, put a stamp before ✔️
 
-cc::change (replace) an entire line, replace bed mattress 🛏️
+`a`::append after the cursor, put a stamp after ✔️
+`I`::insert at the beginning of the line, put a stamp on left document side (after padding) `[| ]`
+`A`::append at the end of the line, put a stamp on right document side (after padding) `[ ]|`
 
-cw::change (replace) to the end of word, cut peacock until tail 🦚
+`o`::open (append) blank line below current line, add a new line below current line 📝
+`O`::open blank line above current line, add a new line above current line 📝
 
-c$::change (replace) to the end of line, cut until finish line 🏁
+`ea`::append at end of word, add char after peacock tail 🦚
 
-s::delete character at cursor and substitute text
+`r`::replace a single character (does not use insert mode), toggle a single character 🔄
 
-S::delete line at cursor and substitute text (same as cc)
+`J`::join line below to the current one, remove bed legs 🛏️
 
-yy::yank (copy) a line
+`cc`::change (replace) an entire line, replace bed mattress 🛏️
 
-2yy::yank 2 lines
+`cw`::change (replace) to the end of word, cut peacock until tail 🦚
 
-yw::yank word
+`c$`::change (replace) to the end of line, cut until finish line 🏁
 
-y$::yank to end of line
+`ss*`::delete character at cursor and substitute text, originally used `s`, remove stamp and put a new one ✔️
 
-p::put (paste) the clipboard after cursor
+`S`::delete line at cursor and substitute text (same as cc), cut whole line and place a new one 📝
 
-P::put (paste) before cursor
+`yy`::yank (copy) a line
+`2yy`::yank 2 lines
 
-dd::delete (cut) a line
+`yw`::yank word, yank until peacock tail 🦚
 
-dw::delete (cut) the current word
+`y$`::yank to end of line, yank until finish line 🏁
 
-x::delete (cut) current character
+`p`::put (paste) the clipboard after cursor, put a stamp after ✔️
 
-:w::write (save) the file, but don't exit
+`p`::put (paste) before cursor, put a stamp before ✔️
 
-:wq::write (save) and quit
+`dd`::delete (cut) a line
 
-:q::quit (fails if anything has changed)
+`dw`::delete (cut) the current word, delete until peacock tail 🦚
 
-:q!::quit and throw away changes
+`x`::delete (cut) current character, remove a stamp ✔️
 
+`:w`::write (save) the file, but don't exit, 💾
+
+`:wq`::write (save) and quit, 💾 and 🚪
+
+`:q`::quit (fails if anything has changed), quit, but check all stuff 🚪
+
+`:q!`::quit and throw away changes, quit and throw away all stuff 🚪
+
+`~`::case toggle (also useful `gU...`), grow a beard 🧔
 
 
 ## 2. File/window hotkeys:
 
-/pattern::search for pattern
+`%`::find matching bracket (or other items, you can also combine `va%`), find matching bracket 🧲
 
-?pattern::search backward for pattern
+`f`::search forward for character, search ? forward 🔍
 
-n::	repeat search in same direction
+`F`::search backward for character, search ? backward 🔎
 
-N::	repeat search in opposite direction
+`t`::search forward for space before character, search _? forward 🔍
 
-:e filename::Edit a file in a new buffer
+`T`::search backward for space after character, search ?_ backward 🔎
 
-:bnext (or :bn)::go to next buffer
+`/pattern`::search for pattern, search forward (left-right each line) 🔍
 
-:bprev (of :bp)::go to previous buffer
+`?pattern`::search backward for pattern, search backward (right-left each line) 🔎
 
-:bd::	delete a buffer (close a file)
+`n`::	repeat search in same direction, search again 🔍
 
-:sp filename::Open a file in a new buffer and split window
+`N`::	repeat search in opposite direction, search again 🔎
 
-ctrl+ws::	Split windows
+`:e filename`::Edit a file in a new buffer, create a new file 📝
 
-ctrl+ww::	switch between windows
+`:bnext (or :bn)`::go to next buffer, next page → 📄
 
-ctrl+wq::	Quit a window
+`:bprev (of :bp)`::go to previous buffer, previous page ← 📄
 
-ctrl+wv::	Split windows vertically
+`:bd`::	delete a buffer (close a file), cut a page ✂️ 📄
+
+`:sp filename`::Open a file in a new buffer and split window, cut a page in half ✂️ 📄
+
+`:Ex`::Open file explorer, open file explorer 📂
+
+`ctrl+wv`::	Split windows vertically, cut a page in half vertically ✂️ 📄
+
+`ctrl+ws`::Split windows, cut a page in half ✂️ 📄
+
+`ctrl+ww`::switch between windows, switch between pages 📄 🔄 📄
+
+`ctrl+wq`::	Quit a window, cut a part of page or whole page ✂️ 📄
+
+`c-w+hjkl`
+&#10;
+                                                          📄
+Move to window in direction, move to page in direction 📄 🔄 📄
+                                                          📄
+
+`C-w o`::Close other windows, cut other pages ✂️ 📄
 
 ## References
 
