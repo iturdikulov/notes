@@ -108,7 +108,7 @@ supported cycle operations, but not conditional jumps.
 
 Z4 was like Z3, but supported conditional jumps.
 
-TODO: explain diode, triode, trigger
+<!-- TODO: explain diode, triode, trigger -->
 https://www.youtube.com/playlist?list=PLnw98JPyObn1i3yJ2Q7A62cl2eVXoIPP0
 
 How to build trigger using vacuum tube?
@@ -185,7 +185,7 @@ Next revolution after vacuum tubes was inventing ==transistor== (invented in
 Labs), which much smaller, cheaper and working very similar (schematically) to
 vacuum triode.
 
-TODO: review this after lamps section (above)
+<!-- TODO: review this after lamps section (above) -->
 - A bipolar junction transistor (BJT) has terminals labeled base, collector and
 emitter. A small current at the base terminal, flowing between the base and the
 emitter, can control or switch a much larger current between the collector and
@@ -194,13 +194,14 @@ emitter.
 - A field-effect transistor (FET) has terminals labeled gate, source and drain.
 A voltage at the gate can control a current between source and drain.
 
+<!-- TODO: explain effect. -->
 In analog electronics transistors and vacuum triodes used to signal
-amplification. TODO: explain effect.
+amplification.
 
 In digital circuits more important is ==control== effect of transistors than
 amplification, two transistors allowing you to build trigger (the current
 flowing through one transistor closes the second and vice versa).
-TODO: check https://en.wikipedia.org/wiki/Flip-flop_(electronics)
+<!-- TODO: check https://en.wikipedia.org/wiki/Flip-flop_(electronics) -->
 <!--SR:!2024-02-25,7,185-->
 
 Magnetic-core memory is second serious invention, which determineted the shift
@@ -420,7 +421,7 @@ A branch instruction can be either an unconditional branch, which always results
 in branching (CPU continue to execute instructions from specific address), or a
 ==conditional== branch, which may or may not cause branching depending on some
 condition.
-<!--SR:!2024-02-22,2,152-->
+<!--SR:!2024-03-08,3,152-->
 
 CPU also support branch instruction which remembers ==return point==, which used
 to cal subroutines (RET).
@@ -1176,7 +1177,7 @@ chmod -R u+rwX,go=rX ~  # restore home directory access rights (DON'T try to
 Here good infographic cheatcheet which describing Unix files permissions:
 ![](../img/Unix_permissions.webp)
 
-## 1.2.14. Electronic documentation (man command). Электронная документация (команда man)
+### 1.2.14. Electronic documentation (man command). Электронная документация (команда man)
 
 Unix distribution usually containing many documentation for internal parts
 (kernel, system calls, library functions of programming languages), file
@@ -1201,7 +1202,7 @@ Which man sections do you know?
 - 8 — system administration commands, like `mount`
 - other sections
 
-## 1.2.15 Shell scripts in Bourne Shell (Командные файлы в Bourne Shell)
+### 1.2.15 Shell scripts in Bourne Shell (Командные файлы в Bourne Shell)
 
 In Unix kernel can work (two types of executables) with binary files and shell
 ==scripts==. In shell script you place special character sequence of beginning
@@ -1308,7 +1309,7 @@ fi
 First two constructions are equal, but third is not equal, because `mkdir` will
 create directory, and will not check file existence.
 
-Print numbers from 1 to 100 in Bourne Shell.
+Print numbers from 1 to 100 in Bourne Shell (while loop).
 &#10;
 ```sh
 #!/bin/sh
@@ -1355,7 +1356,7 @@ of pipe), and then `cmd1 && ...` and `cmd4` will be executed. You can change
 priorities by using `(` and `)` characters.
 Example: `echo1 "Incorrect command" && ls | sort || echo "Last Line"`
 
-## 1.2.16. Environment variables (Переменные окружения)
+### 1.2.16. Environment variables (Переменные окружения)
 
 Environment are many strings like ==`VAR=VALUE`==, each process (including
 command-line interpreter) has own environment, process can change it, and child
@@ -1397,7 +1398,7 @@ Set variable only for one command.
 EDITOR=nano chfn  # change real user information
 ```
 
-## 1.2.17. Logging working session (Протоколирование сеанса работы)
+### 1.2.17. Logging working session (Протоколирование сеанса работы)
 
 How to log all commands and their output into file?
 &#10;
@@ -1410,7 +1411,7 @@ echo "Hello, world!"
 Better to use `cat`/`less` programs to view this protocol file, because it
 usually contains control characters.
 
-## 1.2.18. Graphical subsystem in Unix OS (Графическая подсистема в ОС Unix)
+### 1.2.18. Graphical subsystem in Unix OS (Графическая подсистема в ОС Unix)
 
 The X Window System (X11, or simply X) is a windowing system for ==**bit**map==
 displays, common on Unix-like operating systems (currently it's my main GUI
@@ -1468,6 +1469,12 @@ as an example.
 - ==**CLIPBOARD**== "modern" clipboard operations (like in other OS).
 Select+Copy. The data resides in the buffer.
 
+## 1.3 Now a little mathematics (Теперь немного математики)
+
+In this section author describes some basic discrete mathematics, which is
+required to understand next parts of this book.
+
+### 1.3.1. Basics of Combinatorics (Элементы комбинаторики)
 
 ## References
 
