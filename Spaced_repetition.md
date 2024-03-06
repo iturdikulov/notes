@@ -29,7 +29,7 @@ TODO: describe how I use it (reviewing notes)
 Spaced repetition obsidian plugin custom hotkeys.
 
 - Review flashcards in this note::`C-A-f`
-<!--SR:!2024-01-27,1,211-->
+<!--SR:!2024-03-04,2,211-->
 - Review flashcards from all notes::`C-A-a`
 <!--SR:!2024-01-29,3,251-->
 - Review note as easy::`C-A-1`
@@ -50,7 +50,7 @@ Highlight ==with
 new line== Is not working.
 
 Double::colon.
-<!--SR:!2024-02-05,10,270-->
+<!--SR:!2024-04-08,37,290-->
 
 Double colon with::
 new line not working.
