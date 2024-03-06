@@ -15,4 +15,5 @@ sr-ease: 273
 
 `xxd -l 32 -p <filename>` - prints first 32 bytes of file in hex format.
 
-TODO: add vim note, how to change few bytes
+TODO: add vim note, how to change few bytes (`:h hex-editing`).
+For example zero the 8th bit in KOI8-R file.
