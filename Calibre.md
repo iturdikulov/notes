@@ -18,5 +18,16 @@ sr-ease: 277
 > converted to those formats, if they are to be edited.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Calibre_\(software\))</cite>
 
-I use calibre to convert books into required formats and to host
+I use Calibre to convert books into required formats and to host
 [[Open_Publication_Distribution_System_OPDS|OPDS]] server.
+
+Calibre providing special ebook converting tool, you can for example convert
+EPUB files into [[Portable_document_format_PDF]] file:
+
+```bash
+ebook-convert input.epub output.pdf
+# ebook-convert also have recipes (news, websites, etc.), which can be used to
+# convert websites into ebooks.
+ebook-convert --list-recipes
+ebook-convert "NASA.recipe" "NASA.epub"
+```
