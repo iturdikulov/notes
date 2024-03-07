@@ -1476,6 +1476,43 @@ required to understand next parts of this book.
 
 ### 1.3.1. Basics of Combinatorics (Элементы комбинаторики)
 
+Combinatorics operates with finite ==sets== (various operations, modify,
+grouping, sorting, etc.).
+
+We have 2 lamps, 1 lamp can handle 2 states (on, off), how many states can be
+treated by 2 lamps?
+&#10;
+Lets say we have one lamp, we can send these signals:
+```
+0
+1
+```
+If we add additional lamp, we can double number of signals (new lamp off,
+previous signals set, new lamp on, previous signals set), so we can send 4
+signals:
+```
+0 0 ← dec 0
+0 1 ← dec 1
+---
+1 0 ← dec 2
+1 1 ← dec 3
+```
+
+Each time when we are adding new lamp, which represent signals, we are
+==doubling== number of states. new lamp 0 → some states, new lamp 1 → some
+states.
+
+If with n lamps we can send N signals, each new lamp will double number of
+possible signals ==2N==.
+
+If we have 0 lamps (n=0), how many signals can we send. If we have 1 lamp we can
+describe for example two situations (from set of situations)?
+&#10;
+One, we are merged all possible situations into one.
+When we add new lamp it doubles number of possible signals, so with 0 lamps we
+have 1 signal, with 1 lamps we have 2 signals, etc.
+
+
 ## References
 
 [^1]: Lovelace, Ada; Menabrea, Luigi (1842). "Sketch of the Analytical Engine
