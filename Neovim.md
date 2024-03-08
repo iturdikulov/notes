@@ -24,7 +24,7 @@ Hyperextensible Vim-based text editor. Your personal Editor Development
 Environment.
 
 I keep my learning resources and learning plan in
-[[How_I_learn_neovim|this]] note.
+[[How_I_learn_neovim|this]] note. I also have a "[[Vim_base_keybindings]]" note.
 
 ## What I handle by Neovim
 
