@@ -28,6 +28,12 @@ Documentation available [here](https://tiswww.case.edu/php/chet/readline/readlin
 Basically I use `vi` mode in readline, including python and ipython interactive
 shell (`~/.inputrc`, `~/.ipython/profile_default/ipython_config.py`).
 
+## Tmux, nvim cmdline
+
+`C-w`::Delete the word before the cursor.
+`C-h`::Delete the character before the cursor.
+`C-c`::Cancel the command line.
+
 ## Bare essentials
 
 `C-n`::Scroll up
