@@ -2,6 +2,7 @@
 date: 2022-12-29
 tags:
   - inbox
+  - SR_mathematics
 sr-due: 2024-02-02
 sr-interval: 7
 sr-ease: 266
@@ -35,18 +36,46 @@ TODO: add source
 
 ## Types of numbers
 
-TODO: check each type and add examples
-
-- Natural numbers
-- Negative numbers
-- Integers
-- Rational numbers
-- Irrational numbers
-- Real numbers
-- Imaginary numbers
-- Complex numbers
+- Natural numbers $\mathbb{N}$ https://simple.wikipedia.org/wiki/Natural_number
+- Negative numbers https://simple.wikipedia.org/wiki/Negative_number
+- Integers https://simple.wikipedia.org/wiki/Integer
+- Rational numbers https://simple.wikipedia.org/wiki/Rational_number
+- Irrational numbers https://simple.wikipedia.org/wiki/Irrational_number
+- Real numbers https://simple.wikipedia.org/wiki/Real_number
+- Imaginary numbers https://simple.wikipedia.org/wiki/Imaginary_number
+- Complex numbers https://simple.wikipedia.org/wiki/Complex_number
 
 TODO: convert into excalidraw
 ![Number](img/NumberSetinC.svg)
 
 ![Number](img/Diagramma_di_Venn_dei_numeri.svg)
+
+## Basic concepts
+
+Counting
+
+English words from 1 to 10
+&#10;\
+```
+| one | two | three | four | five | six | seven | eight | nine | ten |
+```
+
+English words from 11 to 20
+&#10;\
+```
+| eleven | twelve | thirteen | fourteen | fifteen | sixteen | seventeen | eighteen | nineteen | twenty |
+```
+
+English words from 21 to 99
+&#10;\
+The Pattern for 20 to 99 For numbers from 20 to 99: join these:\
+```
+| twenty | thirty | forty  | fifty | sixty | seventy | eighty | ninety |
+| -one   | -two   | -three | -four | -five | -six    | -seven | -eight | -nine |
+```
+
+English words from 100 to 999
+&#10;\
+Hundreds: -one to -nine + hundred + previous patterns
+
+## Arithmetic operations
