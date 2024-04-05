@@ -49,6 +49,23 @@ position).
 I also use various [[My_awesome_software_list|software]] and
 [[My_awesome_web_services_list|services]] in my work.
 
+## Productivity tips
+
+- Write down daily priorities, at least 3
+- Divide working day into blocks and assign task for each block
+- Rest can help to increase productivity
+- Don't forget about [[How_do_I_work_with_the_calendar|calendar]] and [[Taskwarrior|task]] management
+- Take feedback without taking it personally
+- If you don't plan your day, someone else will
+- Source of your energy is quality of your sleep, diet, exercise, outdoor walk
+- If you procrastinate on something, work on it for 5 minutes
+- 4 hours of deep work is better than 12 hours of distracted work
+- Rest is not a reward, it's a right
+- 1% of improvement every day will make you 37 times better in a year
+- Slow is not bad, slow is good, slow is sustainable
+- If you want to change your life - track it
+- Productivity is about making space for what matters most in your life
+
 ## Goals
 
 - High proficient Software Engineer.
