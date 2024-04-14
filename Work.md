@@ -49,6 +49,18 @@ position).
 I also use various [[My_awesome_software_list|software]] and
 [[My_awesome_web_services_list|services]] in my work.
 
+## Goals
+
+- High proficient Software Engineer, technical and teamwork, professional
+network.
+- [[Backend]] professional specialist.
+- [[Computer_graphics|Computer graphics]] skills set for artistic and
+  technical purposes.
+- Software development understanding, fundamentals, architecture, design
+  patterns, and best practices.
+- Solid knowledge of [[Computer_science|computer science]] and basic
+understanding of [[Mathematics]].
+
 ## Productivity tips
 
 - Write down daily priorities, at least 3
@@ -65,13 +77,6 @@ I also use various [[My_awesome_software_list|software]] and
 - Slow is not bad, slow is good, slow is sustainable
 - If you want to change your life - track it
 - Productivity is about making space for what matters most in your life
-
-## Goals
-
-- High proficient Software Engineer.
-- [[Backend]] specialist.
-- Business problem solver.
-- Game developer.
 
 ## References
 
