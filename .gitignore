@@ -6,6 +6,6 @@ inbox/
 dailies/
 .trash/
 !inbox/**/*.md
-Inbox.md
-My_buy_list.md
 external/salesloop
+
+My_buy_list.md
