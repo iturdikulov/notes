@@ -20,11 +20,11 @@ sr-ease: 250
 
 ## My Media
 
+- [[My_Fiction_Books]]
 - [[My_Videos]]
 - [[My_Music]]
-- [[My_Games]]
-- [[My_fiction_books]]
 - [[My_Movies]]
+- [[My_Games]]
 - [[My_Pictures]]
 - [[Comics]]
 - TODO: link to software
