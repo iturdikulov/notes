@@ -24,7 +24,7 @@ Recommended books:
 Set in combinatorics - `A = {a1, a2, a3, ..., n}`
 
 Number of elements in set (power) [0:07:42](<file:///home/inom/Computer/science/Raigorodsky-Combinatorics/Raigorodsky-Combinatorics-Introduction_to_combinatorics_part_1_aohFil0ioJg.mp4>)?
-?
+&#10;
 Number of elements in set - A = |A| = n
 
 ## Addition principle [0:08:11](<file:///home/inom/Computer/science/Raigorodsky-Combinatorics/Raigorodsky-Combinatorics-Introduction_to_combinatorics_part_1_aohFil0ioJg.mp4>)
