@@ -2,7 +2,7 @@
 date: 2023-02-21
 tags:
   - inbox
-  - bridge
+  - SR_software
 sr-due: 2024-01-29
 sr-interval: 2
 sr-ease: 225
@@ -19,11 +19,9 @@ sr-ease: 225
 > differs.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Keyboard_shortcut)</cite>
 
-Keyboard shortcuts are main driver of mouseless workflow.
-In this note I describe the most used shortcuts in my workflow, each section
-except "Universal" is linked to a more detailed note.
-
-- TODO: mousless development book?
+[[Touch_typing|Touch typing]] and keyboard shortcuts are main driver of
+mouseless workflow. In this note I describe the most used shortcuts in my
+workflow, each section except "Universal" is linked to a more detailed note.
 
 ## Universal
 
@@ -103,14 +101,11 @@ I use `ZZ`, and `:q` :-).
 - [ ] [[Z_shell]]
 - [ ] [[Obsidian]]
 - [ ] [[Firefox]]
+- [ ] visidata
 
 # [[Vimium]]
 
 # Netrw
-
-# Zathura
-
-# sc-im
 
 # Sioyek
 
@@ -124,7 +119,7 @@ I use `ZZ`, and `:q` :-).
 
 # Audacity
 
-# nsxiv
+# Qview
 
 ## References
 
