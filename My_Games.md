@@ -11,20 +11,25 @@ sr-ease: 285
 
 # My Games
 
-I play [[Game|games]] (but not too much) usually on my [[Computer|computer]]or
+I play [[Game|games]] (but not too much) usually on my [[Computer|computer]] or
 on my [[Smartphone|smartphone]].
+
+## Now
+
+- [ ] [[research/Obuz_Game_Development_with_Blender_and_Godot|Game development with
+  Blender and Godot]]
+- [ ] [[Gothic]]
+- [ ] [[Turing_Complete_(game)|Turing Complete]]
+
+## Active games
 
 - [[OpenCV_L2_Bot]]
 - [[Snake_Game]]
-
-## Active games
 
 - [ ] [The Python Challenge](http://www.pythonchallenge.com/)
 - [ ] [Elevator Saga - the elevator programming game](https://play.elevatorsaga.com/)
 - [ ] [CodinGame](https://www.codingame.com/start/)
 
-- [ ] [[Gothic]]
-- [ ] [[Turing_Complete_(game)|Turing Complete]]
 - [ ] Portal 2
 - [ ] [[Castlevania]]
 - Half-Life
