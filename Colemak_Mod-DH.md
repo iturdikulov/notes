@@ -21,3 +21,7 @@ physical keyboard: [ColemakMods/mod-dh](https://github.com/ColemakMods/mod-dh/tr
 
 To temporarily switch into Colemak-DH layout use this commands (require xorg):
 `setxkbmap us,ru -variant colemak_dh`.
+
+It's also possible to use `loadkeys` command to load Colemak-DH layout on TTY.
+Find the layout in `/usr/share/kbd/keymaps/i386/colemak/` and load it with
+`loadkeys colemak_dh` command.
