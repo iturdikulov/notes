@@ -41,6 +41,15 @@ It's not enough to study only, need continuously practice (use your knowledge)
 and test yourself, to solve this problem I implement my [[My_pet_projects|pet
 projects]] and [[Work|working projects]] to strengthen my studies.
 
+## Now
+
+- [[Social_networking_service|Social Networking]] working project
+- [[research/spacemath-Matematika_s_nulya|Математика с нуля]] and
+  [[research/Math_is_Fun_Team-Math_is_Fun]], basic math
+- [[research/Stolyarov-Programming_volume_1_1_preliminary_information]], "basic"
+  programming
+
+<!-- Need review -->
 
 TODO: understand how to learn better:
 - [ ] [[How_to_study_or_learn]]
@@ -79,7 +88,7 @@ it. My [[How_I_learn_physics_and_chemistry|learning path]].
 **[[History]]** and **[[Literature]]**, many works in literature are related to
 history. Knowing history is improving your understanding of current world.
 Literature for me is great solution to fun and relax. My
-[[My_fiction_books|read and to read books]].
+[[My_Fiction_Books|read and to read books]]
 TODO: add history/literature learning path note.
 
 **[[English_language|English language]]** is great to reveal huge part of
