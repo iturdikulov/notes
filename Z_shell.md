@@ -21,6 +21,21 @@ sr-ease: 250
 > globbing, improved variable/array handling, and themeable prompts.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Z_shell)</cite>
 
+Shell is the interface between a user and the system itself. Which parts it
+consists of:
+?
+```
++----------------+
+|  Program/User  |
++----------------+
+|  Shell         |
++----------------+
+|  Kernel        |
++----------------+
+|  Hardware      |
++----------------+
+```
+
 ## Keybindings
 
 I think it's very similar to [[GNU_Readline]].
