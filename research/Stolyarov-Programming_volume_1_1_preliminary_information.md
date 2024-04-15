@@ -1364,7 +1364,8 @@ process usually inherit it from parent process.
 
 Which important environment variables do you know? How to list them?
 &#10;
-Use `export` or `env` command without options to list environment variables.
+Use `export`, `printenv`, or `env` command without options to list environment
+variables.
 You can review each env variable by using `echo $VAR` command.
 ```sh
 echo $PATH
@@ -1474,6 +1475,8 @@ Select+Copy. The data resides in the buffer.
 In this section author describes some basic discrete mathematics, which is
 required to understand next parts of this book.
 
+TODO: need re-read this section, and add some notes.
+
 ### 1.3.1. Basics of Combinatorics (Элементы комбинаторики)
 
 Combinatorics operates with finite ==sets== (various operations, modify,
@@ -1511,6 +1514,119 @@ describe for example two situations (from set of situations)?
 One, we are merged all possible situations into one.
 When we add new lamp it doubles number of possible signals, so with 0 lamps we
 have 1 signal, with 1 lamps we have 2 signals, etc.
+
+Usually in combinatorics some task is formulated as:
+
+> Given a set of n elements. How many different subsets of this set are there?
+
+You have 4 colored cubes (red, green, blue, yellow), how many different towers
+you can build from these cubes, height of tower can be from 1 to 4 cubes (not
+zero)?
+&#10;
+64, TODO: why?
+
+You have 3 lamps, each lamp can handle 2 states, how many signals can be
+treated, what if we add special lamp which can handle 3 states?
+&#10;
+With 3 lamps we can send 8 signals, with additional lamp with 3 states we can
+send 24 signals (8 + 8 + 8 = 3 * 8 = 24).
+
+Masha has 5 accessories (brooch, ring, bracelet, earring, necklace), she decides
+which she will wear today and which she will not, how many different variants
+she can create?
+&#10;
+Each accessory can be in 2 states (wear, not wear), since we have 5 accessories,
+we can create 2^5 = 32 different variants.
+```
+brooch, ring, bracelet, earring, necklace
+0      0      0         0        0
+0      0      0         0        1
+0      0      0         1        0
+...
+1      1      1         1        1
+```
+
+Is remember formulas is good idea in combinatorics?
+&#10;
+In combinatorics remember formulas is bad, you need to understand how to derive
+them. Because you can easily forget them or use them incorrectly.
+
+Olga has 3 different templates for flags, and 4 different stripes, how many
+combinations of flags she can create?
+&#10;
+Here no any positions specified, so we can use multiplication rule, 3 * 4 = 12
+4 variants for each flag template, and 3 templates = 12.
+```
+  | [ ] | [ > | I >
+-------------------
+A | [A] | [A> | IA>
+B | [B] | [B> | IB>
+C | [C] | [C> | IC>
+D | [D] | [D> | ID>
+```
+
+n colored cubes (4 colors), towers 1 - 4 cubes, how many towers can be built?
+&#10;
+340, TODO: why?
+
+Kolya have 7 billiard balls, each has number from 1 to 7, how many different
+combinations of balls he can put on the table (2, 236, 24567, etc.)?
+&#10;
+1. Let's say we have 1 ball, with number 3, we can place it on table with 1
+way (you will see only number 3).
+2. If we add additional ball, for example with number 5, we can place it on
+   table with 2 ways:
+   1. `3 5`, sorted method (direct order)
+   2. `5 3`, reverse sorted method
+3. If you add 3rd ball, for example with number 7, we can place it on table with
+   6 ways:
+   Far left balls will be used on order, `3, 5, 7`, then we add additional 2
+balls with sorted/reverse sorted method, so we have 6 ways.
+   ```
+       |   --→
+       ↓   ←--
+   ```
+   1. `3 5 7`
+   2. `3 7 5`
+   3. `5 3 7`
+   4. `5 7 3`
+   5. `7 3 5`
+   6. `7 5 3`
+4. If you add 4th ball, for example with number 2, we can place it on table with
+   24 ways (4 leading + 6 variants for each leading ball).\
+   ${M_{k}} = {k}\cdot{M_{k-1}}$, where ${k}$ is a number of balls and ${M}$
+possible permutations. ${M_1} = 1$, ${M_2} = 2$\
+   Group 1, no `2` and `3, 5, 7` combinations:
+   1. `2 3 5 7`
+   2. `2 3 7 5`
+   3. `2 5 3 7`
+   4. `2 5 7 3`
+   5. `2 7 3 5`
+   6. `2 7 5 3`\
+   Group 2, no `3`, and `2, 5, 7` combinations:
+   7. `3 2 5 7`
+   8. `3 2 7 5`
+   9. `3 5 2 7`
+   10. `3 5 7 2`
+   11. `3 7 2 5`
+   12. `3 7 5 2`\
+   Group 3, no `5`, and `2, 3, 7` combinations:
+   13. `5 2 3 7`
+   14. `5 2 7 3`
+   15. `5 3 2 7`
+   16. `5 3 7 2`
+   17. `5 7 2 3`
+   18. `5 7 3 2`\
+   Group 4, no `7`, and `2, 3, 5` combinations:
+   19. `7 2 3 5`
+   20. `7 2 5 3`
+   21. `7 3 2 5`
+   22. `7 3 5 2`
+   23. `7 5 2 3`
+   24. `7 5 3 2`
+
+
+
 
 
 ## References
