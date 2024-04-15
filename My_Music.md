@@ -23,6 +23,18 @@ sr-ease: 212
 - [x] [Katana Zero (Original Soundtrack)](https://open.spotify.com/album/23KCp1w3aJeKdMrqcyodWK)
 - [ ] Mulan soundtrack
 - [ ] Stellaris soundtrack
+- [ ] https://news.ycombinator.com/item?id=32009440
+- Otographic Arts
+- Synthwave | Retro 80's Electronic
+- xKito Music
+- Music for the Jilted Generation
+- 20 Years of Hardcore
+- TRON: Legacy
+- Lofi  & Chill
+- The Four Seasons & Concertos for Bassoon and Violin "in tromba marina"
+- O Fortuna - Carmina Burana
+- Oblivion - Original Motion Picture Soundtrack
+- Kurt Stewart
 - TODO: [Spotify tracks collection](https://open.spotify.com/collection/tracks)
 - Deep Purple - Smoke on the Water
 - Это всё, что останется после меня...
