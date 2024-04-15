@@ -8,7 +8,7 @@ sr-interval: 4
 sr-ease: 270
 ---
 
-TODO: merge with [[Browser_shortucts]]
+TODO: merge with [[Browser_shortcuts]]
 
 # Firefox
 

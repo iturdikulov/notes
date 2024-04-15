@@ -63,7 +63,7 @@ Notepad based shortcuts, work mostly in all "classic" GUI program.
 Since my most used program is Neovim, I have a lot of shortcuts for it. To quit
 I use `ZZ`, and `:q` :-).
 
-## [[Browser_shortucts|Browser shortcuts]].
+## [[Browser_shortcuts|Browser shortcuts]].
 
 - Search in active tab::`C-l` → Type something → `<cr>`
 - Search in new tab::`C-l` → Type something → `M-<cr>`
