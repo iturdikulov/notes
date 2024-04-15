@@ -12,58 +12,41 @@ sr-ease: 148
 # Now
 
 This note help me build my daily plan and track what I'm doing, completed items
-are moved into archive section.
+are moved into archive section. [[Taskwarrior]] with
+[[Getting_things_done_GTD|GTD]] helps me to manage my tasks and projects.
+Check related `# Now` section in my notes for more details.
 
-## Global activities
+I have some global tasks, which allow choosing what to do next:
 
-1. [[My_routine|Routine]]. Goals are to keep my mood predictable and stable. I
-   failed multiple times to keep it, but I'm still trying.
-2. [[Work]]. Doing for living and for fun (ideally). This is complicated process
-   which deeply integrated with all aspects of my life.
-3. [[Learning]]. To keep my knowledge and skills up to date. I'm trying to learn
-   something new every day, according to specific **goals** and plan.
-4. [[My_pet_projects|Pet Projects]]. Pet projects can be used to show results of
-   my education and something which I like to do.
-5. [[In_real_life_IRL|IRL]]. Since human are inherently social creatures, I
-   should maintain some social connections and interact with other people, solve
-   household tasks and so on.
+- [[Work]] as main activity, which I'm doing for living and for fun (ideally).
+  Check it for global tasks and projects first.
+- [[My_routine|Daily routine]], for more predictable life, if you haven't own
+  routine someone's else will give you one.
+- [[Learning]], for inspiration and self-improvement, source of pet projects
+- [[My_pet_projects|Pet Projects]] to do something interesting and useful, also
+  this is useful to practice what I learn.
+- [[In_real_life_IRL|IRL]] for social activities and socializing.
+- [[My_Physical_exercise_plan|physical exercises]] to increase quality of life.
 
-## Current activities
+Something for fun and relaxation
 
-### IRL, routine, habits
+- [[Handwriting]]
+- [[My_Art]]
+- [[My_Games]]
 
-- 10% [[My_Physical_exercise_plan|Slowly start doing physical exercises]]
-- [[Duolingo|Learn basic English with Duolingo]]
-- [[Taskwarrior]], start to use it and "clean" my task list (especially RNR)
-- Review notes using [[Spaced_repetition|spaced repetition]] algorithm
-
-### Full-time job
-
-- [[Social_networking_service|Social Networking]] working project
-
-### Learning
+## Quarantine
 
 - [[research/Wengrow-Data_structures_and_algorithms]]
 - [[research/Python_Community-Python_Tutorial]]
 - [[research/learnxinyminutes-Learn_Python_in_Y_minutes]]
 - [[Neovim]], require global refactoring
 
-### Fun
-
 - [[Gothic]] game playing
 - [[My_awesome_software_list]] - update and refactor
 - [[research/Ulibarri-Unreal_Engine_5_C++_The_Ultimate_Game_Developer]]
-
-### Near future
 
 - [[research/learnxinyminutes-Learn_Lua_in_Y_minutes]]
 - [[research/learnxinyminutes-Learn_C_in_Y_minutes]]
 - [[research/learnxinyminutes-Learn_Rust_In_Y_minutes]]
 - [[research/learnxinyminutes-Learn_JavaScript_in_Y_minutes]]
 - [[research/Drawbox_Community-Drawbox]]
-
-## Archive
-
-- [x] Try to port
-  [org-media-note](https://github.com/yuchen-lea/org-media-note). Ported as
-  scratch keymap LUA functions. Maybe I'll convert it into plugin later.
