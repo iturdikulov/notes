@@ -63,7 +63,7 @@ it's what I have:
 - Emails (all my inboxes)
 - Passwords
 - SSH/GPG keys
-
+- System logs with this command `journalctl -p warning -b`
 - Videos and pictures workflow
 - Optimize /etc/dotfiles
 - Optimize configurations NOT stored in /etc/dotfiles (very few)
