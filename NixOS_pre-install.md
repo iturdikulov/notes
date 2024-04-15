@@ -17,6 +17,12 @@ Entry point:
 - [NixOS manual](https://nixos.org/manual/nixos/stable/index.html#sec-installation-manual)
 - [Bootloader - NixOS Wiki](https://nixos.wiki/wiki/Bootloader)
 
+Typical boot process looks like this:
+```
+Motherboard firmware (UEFI) -> FS with Bootloader -> Kernel -> Init... -> ...
+```
+And we need to prepare the first 2 steps.
+
 ## 0. Prepare
 
 Boot from the USB stick and setup networking. (optionally setup SSH if you want
@@ -39,6 +45,7 @@ ssh -o PubkeyAuthentication=no -o PreferredAuthentications=password root@192.168
 
 Identify devices
 ```sh
+# List block devices (physical drives)
 lsblk
 
 # in my case disks are: nvme0n1 nvme1n1, which located at:
@@ -145,6 +152,8 @@ mount|grep /mnt/
 
 ## 4. Install NixOS
 
+### Typical installation
+
 Generate configuration:
 ```sh
 nixos-generate-config --root /mnt
@@ -178,6 +187,10 @@ mount $BOOT_BACKUP /tmp/boot
 cp -r /mnt/boot/efi/* /tmp/boot
 umount /tmp/boot
 ```
+
+### My custom installation
+
+Check [this README.md](file:///etc/dotfiles/README.md) file.
 
 ## Reinstall bootloader
 https://nixos.wiki/wiki/Bootloader
