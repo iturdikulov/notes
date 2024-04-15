@@ -435,6 +435,7 @@ TODO: actualize this list
 ## TODO:
 
 - cloc
+- flacon
 - dmidecode
 - lshw
 - geekbench
