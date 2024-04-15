@@ -25,18 +25,12 @@ meaning of words.
 
 ## English
 
-- computer::`[kəmˈpjuːtə]` компьютер, расчетчик, вычислительный; Our sales information is processed by computer.
 - R&D::research and development - исследования и разработки, научно-исследовательский и опытно-конструкторский; Imagine that your company has two departments: Research and Development.
-- research::`[ɹəˈsɜːtʃ]` (научное) исследование, изыскание, изучение, анализ; "The student researched the history of that word".
-- development
 - abnormal::`[æbˈnɔːməl]` ненормальный, неправильный, аномальный, анормальный, непредусмотренный (comp.);
-- actor::`[ˈæktər]` актёр, деятель, участник, личность, действующий субъект (comp.)
-<!--SR:!2024-02-13,1,232-->
-- adequate::`[ˈæd.ʌ.kwɪt]` адекватный, соответствующий, достаточный (The food was adequate for all of us).
-<!--SR:!2024-02-13,1,232-->
-- admission::`[ədˈmɪʃ(ə)n]` допущение (an acknowledgment of the truth of something), принятие; приём (в учебное заведение, клуб, общество), вход, доступ
-<!--SR:!2024-02-13,1,232-->
 - action
+- actor::`[ˈæktər]` актёр, деятель, участник, личность, действующий субъект (comp.)
+- adequate::`[ˈæd.ʌ.kwɪt]` адекватный, соответствующий, достаточный (The food was adequate for all of us).
+- admission::`[ədˈmɪʃ(ə)n]` допущение (an acknowledgment of the truth of something), принятие; приём (в учебное заведение, клуб, общество), вход, доступ
 - afternoon
 - agnostic
 - aims
@@ -56,6 +50,7 @@ meaning of words.
 - binds
 - board
 - borrowed
+- bummer
 - cat
 - caterpillar
 - cell
@@ -67,6 +62,7 @@ meaning of words.
 - compound
 - comprehension
 - computer
+- computer::`[kəmˈpjuːtə]` компьютер, расчетчик, вычислительный; Our sales information is processed by computer.
 - concern
 - confidence
 - cons
@@ -76,6 +72,7 @@ meaning of words.
 - curiosity
 - definition
 - deprecated
+- development
 - dime
 - discrepant
 - dismiss
@@ -92,6 +89,8 @@ meaning of words.
 - enrich
 - entertainment
 - escape
+- evict
+- example
 - excessive
 - exhausted
 - falloff
@@ -126,6 +125,7 @@ meaning of words.
 - medicine
 - memento
 - minus
+- mutex
 - nested
 - occupation
 - operand
@@ -147,17 +147,21 @@ meaning of words.
 - redundant
 - remainder
 - research
+- research::`[ɹəˈsɜːtʃ]` (научное) исследование, изыскание, изучение, анализ; "The student researched the history of that word".
 - resembling
 - retention
 - robust
 - satisfactory
 - saturate
+- shell
 - singleton
 - sit-up
 - slacker
 - squat
 - squeeze
+- staging
 - standalone
+- stash
 - statement
 - strength
 - subject
@@ -181,8 +185,6 @@ meaning of words.
 ## Russian
 
 <!-- LTeX: language=ru-RU -->
-- эскиз
-- эффективность
 - абы
 - авиация
 - арифмометр
@@ -225,6 +227,7 @@ meaning of words.
 - матрас
 - матрасы
 - матрац
+- меценат
 - музыка
 - мьютексы
 - напитки
@@ -237,14 +240,15 @@ meaning of words.
 - оперативная память
 - оператор
 - орех
-- осуществляется
 - осмий
+- осуществляется
 - отстойник
 - парашют
 - передаст
 - перечисленны
 - петух
 - пистолет
+- подсказка
 - поклёп
 - попрошайка
 - прерывание
@@ -272,7 +276,6 @@ meaning of words.
 - старче
 - суммирование
 - считать
-- сырник
 - сырники
 - тапочки
 - творожник
@@ -288,6 +291,8 @@ meaning of words.
 - шилка
 - шутка
 - щетка
+- эскиз
+- эффективность
 - явно
 
 ### Inbox
