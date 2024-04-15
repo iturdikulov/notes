@@ -21,6 +21,13 @@ sr-ease: 210
 [[Mathematics|Math]] explained in easy language, plus puzzles, [[Game|games]],
 worksheets and an illustrated dictionary. For K-12 kids, teachers and parents.
 
+Start from this section:
+[Index by Year and Subject](https://www.mathsisfun.com/links/index.html)
+
+## Trainers
+
+- [Math Trainer - Addition](https://www.mathsisfun.com/numbers/math-trainer-addition.html)
+
 ## References
 
 - [ ] [Math Games - Puzzle, Number, Strategy, Logic and Multiplayer Math Games](https://www.mathsisfun.com/games/index.html)
