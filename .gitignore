@@ -1,11 +1,15 @@
+# Temprory files
 .stversions/
-.obsidian/
-.venv
-private/
-inbox/
-dailies/
 .trash/
-!inbox/**/*.md
-external/salesloop
+.venv/
+.obsidian/
 
+# Personal
+external/salesloop
+private/
+
+# Inbox files
+inbox/
+!inbox/**/*.md
+Inbox.md
 My_buy_list.md
