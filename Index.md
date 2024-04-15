@@ -42,7 +42,7 @@ for example:
 
 - Watching [[My_Movies|movies]], [[Twitch]], [[YouTube]]
 - Playing [[My_Games|games]], mostly video games
-- Reading [[My_fiction_books|books]] and [[News|news]]
+- Reading [[My_Fiction_Books|books]] and [[News|news]]
 - Listening [[My_Music|music]]
 - Improve my [[My_art|art]] skills
 
