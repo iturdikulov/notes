@@ -16,3 +16,14 @@ sr-ease: 208
 > well. It is maintained by the Linux Foundation. The latest version is 3.0
 > (`man hier`), released on 3 June 2015.
 > - [Wikipedia](https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard)
+
+Root directory in FHS is ==`/`==, and it contains some standard children
+directories. Every `/` which is not the first character of a path is a directory
+separator.
+
+In Unix OS each running program (process) has own current directory (CWD) and
+each program can change it independently. You can for example type `cd ...`
+command into some directory in terminal, and it becomes CWD for shell.
+To find out what is the current directory, you can use
+==`pwd` (**p**rint **w**orking **d**irectory)== command.
+
