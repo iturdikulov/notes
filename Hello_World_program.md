@@ -21,11 +21,9 @@ sr-ease: 228
 > understands how to use it.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/%22Hello,_World!%22_program)</cite>
 
-## Languages
-
 Languages which I have experience with (very different levels of experience).
 
-### [x86 assembly language](./external/hello_world/assembly.asm)
+## x86 assembly language
 
 ```asm
 global _start
@@ -47,7 +45,7 @@ section .rodata
   msglen: equ $ - msg
 ```
 
-### [C](./external/hello_world/c.c)
+## C
 
 ```c
 #include <stdio.h>
@@ -58,12 +56,12 @@ int main() {
 }
 ```
 
-### [Clojure](./external/hello_world/clojure.clj)
+## Clojure
 ```clojure
 (println "Hello World")
 ```
 
-### [CPP](./external/hello_world/c++.cpp)
+## CPP
 
 ```cpp
 #include <iostream>
@@ -74,7 +72,7 @@ int main() {
 }
 ```
 
-### [GDScript](./external/hello_world/GDScript.gd)
+## GDScript
 ```gdscript
 extends Node2D
 
@@ -82,7 +80,7 @@ func _ready():
     print("Hello World")
 ```
 
-### [Go](./external/hello_world/golang.go)
+## Go
 
 ```go
 package main
@@ -94,7 +92,7 @@ func main() {
 }
 ```
 
-### [Haxe](./external/hello_world/haxe.hx)
+## Haxe
 ```haxe
 class HelloWorld {
     static function main() {
@@ -103,7 +101,7 @@ class HelloWorld {
 }
 ```
 
-### [Java](./external/hello_world/java.java)
+## Java
 
 ```java
 public class Main {
@@ -113,13 +111,13 @@ public class Main {
 }
 ```
 
-### [JavaScript](./external/hello_world/javascript.js)
+## JavaScript
 
 ```javascript
 console.log("Hello, World!");
 ```
 
-### [Lisp](./external/hello_world/lisp.lsp)
+## Lisp
 
 ```lisp
 ; LISP
@@ -130,7 +128,7 @@ console.log("Hello, World!");
 (hello)
 ```
 
-### [Pascal](./external/hello_world/pascal.pas)
+## Pascal
 
 ```pascal
 program HelloWorld(output);
@@ -139,38 +137,38 @@ begin
 end.
 ```
 
-### [Perl](./external/hello_world/perl.pl)
+## Perl
 
 ```perl
 #!/usr/bin/env perl
 print "Hello World\n";
 ```
 
-### [PHP](./external/hello_world/PHP.php)
+## PHP
 ```php
 <?php
 echo 'Hello World';
 ```
 
-### [Python](./external/hello_world/python.py)
+## Python
 
 ```python
 print("Hello, World!")
 ```
 
-### [R](./external/hello_world/R.r)
+## R
 
 ```r
 cat("Hello, World!\n")
 ```
 
-### [Ruby](./external/hello_world/ruby.rb)
+## Ruby
 
 ```ruby
 puts "Hello, World!"
 ```
 
-### [Rust](./external/hello_world/rust.rs)
+## Rust
 
 ```rust
 fn main() {
@@ -178,20 +176,20 @@ fn main() {
 }
 ```
 
-### [TypeScript](./external/hello_world/typescript.ts)
+## TypeScript
 
 ```typescript
 console.log("Hello World");
 ```
 
-### [Scala](./external/hello_world/scala.scala)
+## Scala
 ```scala
 object HelloWorld extends App {
   println("Hello World")
 }
 ```
 
-### [Shell](./external/hello_world/shell.sh)
+## Shell
 
 ```sh
 echo "Hello, World!"
