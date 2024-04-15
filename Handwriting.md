@@ -22,3 +22,7 @@ I like to write beautiful and readable handwriting, but I prefer calligraphy
 style.
 
 TODO: add my own font!
+
+## Now
+
+- Fill sheets with my handwriting, practice calligraphy.
