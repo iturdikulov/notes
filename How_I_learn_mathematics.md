@@ -10,16 +10,14 @@ sr-ease: 161
 
 # How I learn [[Mathematics|mathematics]]
 
-## Chat rooms, forums, etc
+- [ ] [[research/Vilenkin-populryanaya_kombinatorika]]
+- [ ] [[research/Math_is_Fun_Team-Math_is_Fun|Math is fun]]
+- [ ] [[research/Kiselyov-Elementy_algebry_i_analiza_chast_1]]
 
-- [artofproblemsolving](https://artofproblemsolving.com/community)
-- [reddit math](https://old.reddit.com/r/math)
-- [Discord Mathematics](https://discord.com/channels/268882317391429632/)
-- [nforum](https://nforum.ncatlab.org/)
-- [math.stackexchange](https://math.stackexchange.com/)
-- [mathoverflow](https://mathoverflow.net/)
-- [category theory](https://categorytheory.zulipchat.com)
-- [hott](https://hott.zulipchat.com)
+- [ ] [Книга «Математика для гуманитариев» | savva4](https://savvateev.xyz/book/)
+- [ ] Курант, Роббинс: Что такое математика?
+- [ ] - [[research/Emelin-Kratchajshij_kurs_shkolnoj_matematiki]]
+- [ ] - [[research/Xendli-Schitajte_v_ume_kak_kompyuter]]
 
 ## Challenges
 
@@ -38,13 +36,6 @@ sr-ease: 161
 
 ## Basics
 
-- Курант, Роббинс: Что такое математика?
-- [[research/Math_is_Fun_Team-Math_is_Fun|Math is fun]]
-- [[research/Emelin-Kratchajshij_kurs_shkolnoj_matematiki]]
-- [[research/Kiselyov-Elementy_algebry_i_analiza_chast_1]],
-- [[research/Xendli-Schitajte_v_ume_kak_kompyuter]]
-
-- [Math is Fun, Learn Numbers](https://www.mathsisfun.com/numbers/).
 - [math-prosto.ru](https://math-prosto.ru/)
 - [Life Tensor](https://www.youtube.com/playlist?list=PLC2pBQ7lPOZCu0cehs7tPmnoeK2BjUiSk)
 - [Математическая продлёнка. Квадратные уравнения во всей красе](https://habr.com/ru/post/714660/)
@@ -85,3 +76,15 @@ sr-ease: 161
 
 - [Projective Geometric Algebra](https://projectivegeometricalgebra.org/),
 - [Eric Cornwell Education Videos](https://vimeo.com/user543333)
+
+## Chat rooms, forums, etc
+
+- [artofproblemsolving](https://artofproblemsolving.com/community)
+- [reddit math](https://old.reddit.com/r/math)
+- [Discord Mathematics](https://discord.com/channels/268882317391429632/)
+- [nforum](https://nforum.ncatlab.org/)
+- [math.stackexchange](https://math.stackexchange.com/)
+- [mathoverflow](https://mathoverflow.net/)
+- [category theory](https://categorytheory.zulipchat.com)
+- [hott](https://hott.zulipchat.com)
+
