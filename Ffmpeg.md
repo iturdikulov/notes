@@ -47,7 +47,7 @@ chapters.txt example:
 
 Run the helper script to append chapters to `FFMETADATAFILE`.
 
-[ffmpeg_chapters_generate](./external/ffmpeg_chapters_generate)
+`ffmpeg_chapters_generate`
 
 Create a new video, copying the video and audio from the original without re-encoding.
 
