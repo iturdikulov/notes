@@ -18,7 +18,7 @@ many important things and lose your discipline and motivation.
 
 Initialization, want to do good wake-up, care about my body, warm-up and walk.
 Wake-up with good moon, make your day better. I feel better if I wake up from
-9:00 to 10:00 am.
+7:30 to 8:00 am.
 
 Good checklist for wake-up:
 
