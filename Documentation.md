@@ -23,6 +23,14 @@ sr-ease: 270
 
 I use [[dasht]] to search through offline dash documentation files.
 
+For Unix commands and programs documentation I'm using `man` and `tldr`
+(community-driven man pages client) programs.
+
+Man usage: `man [OPTION...] [SECTION] PAGE...`
+
+Tldr usage: `tldr [OPTIONS] [COMMAND]...`, one of useful option is `-L` to
+change language.
+
 ## References
 
 - [ ] [A practical guide to writing technical specs - Stack Overflow](https://stackoverflow.blog/2020/04/06/a-practical-guide-to-writing-technical-specs/)
