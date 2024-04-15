@@ -1,7 +1,7 @@
 #include QMK_KEYBOARD_H
 
-#define LA_SYM TT(SYM)
-#define LA_NAV TT(NAV)
+#define LA_SYM MO(SYM)
+#define LA_NAV MO(NAV)
 #define _SYM 1
 #define _NAV 2
 
@@ -31,9 +31,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [DEF] = LAYOUT(
         KC_TRNS, KC_F1,   KC_F2,  KC_F3,  KC_F4,  KC_F5,  KC_F6,  KC_F7,   KC_F8,   KC_F9,   KC_F10,  KC_F11,  KC_F12,  KC_PSCR, KC_SCRL, KC_PAUS,
         KC_GRV,  KC_1,    KC_2,   KC_3,   KC_4,   KC_5,   KC_6,   KC_7,    KC_8,    KC_9,    KC_0,    KC_MINS, KC_EQL,  KC_BSPC, KC_BSPC, KC_DEL,
-        KC_TAB,  KC_Q,    KC_W,   KC_E,   KC_R,   KC_T,   KC_Y,   KC_U,    KC_I,    KC_O,    KC_P,    KC_LBRC, KC_RBRC, KC_BSLS, KC_TRNS,
-        KC_LCTL, KC_A,    KC_S,   KC_D,   KC_F,   KC_G,   KC_H,   KC_J,    KC_K,    KC_L,    KC_SCLN, KC_QUOT, KC_ENT,  KC_TRNS,
-        KC_LSFT, SC_LSPO, KC_Z,   KC_X,   KC_C,   KC_V,   KC_B,   KC_N,    KC_M,    KC_COMM, KC_DOT,  KC_SLSH, KC_RSFT, KC_RSFT, KC_TRNS,
+        KC_TAB,  KC_Q,    KC_W,   KC_E,   KC_R,   KC_T,   KC_Y,   KC_U,    KC_I,    KC_O,    KC_P,    KC_LBRC, KC_RBRC, KC_BSLS,          KC_TRNS,
+        KC_LCTL, KC_A,    KC_S,   KC_D,   KC_F,   KC_G,   KC_H,   KC_J,    KC_K,    KC_L,    KC_SCLN, KC_TRNS, KC_ENT,                    KC_TRNS,
+        KC_LSFT, SC_LSPO, KC_Z,   KC_X,   KC_C,   KC_V,   KC_B,   KC_N,    KC_M,    KC_COMM, KC_DOT,  KC_QUOT, KC_RSFT, KC_RSFT,          KC_TRNS,
         KC_APP,  KC_LGUI, LA_NAV, KC_SPC, KC_SPC, KC_SPC, LA_SYM, KC_LALT, KC_RCTL, KC_RALT, KC_F13,  KC_RGUI),
 
     /*
@@ -44,19 +44,19 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
      * ├───┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─────┼───┤
      * │ TRN │ 1 │ 2 │ 3 │ 4 │ 5 │ 6 │ 7 │ 8 │ 9 │ 0 │TRN│TRN│ TRN │TRN│
      * ├─────┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴─────┼───┤
-     * │ TRN  │ < │ { │ [ │ ( │ = │CMS│ESC│ : │ ; │TRN│TRN│  TRN   │TRN│
+     * │ TRN  │ { │ } │ ( │ ) │ = │CMS│ESC│ : │ ; │TRN│TRN│  TRN   │TRN│
      * ├──────┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴────────┼───┤
-     * │ TRN    │ > │ } │ ] │ ) │ $ │ ! │ " │ ' │ - │ + │   TRN    │TRN│
+     * │ TRN    │ < │ > │ [ │ ] │ $ │ ! │ " │ ' │ - │ + │   TRN    │TRN│
      * ├────┬───┴┬──┴─┬─┴───┴───┴───┴───┴───┴──┬┴──┬┴──┬┴──┬───────┼───┤
      * │TRN │TRN │TRN │                        │TRN│TRN│TRN│TRN│TRN│TRN│
      * └────┴────┴────┴────────────────────────┴───┴───┴───┴───┴───┴───┘
      */
     [SYM] = LAYOUT(
-        KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,    KC_TRNS, KC_TRNS, KC_TRNS,      KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
-        KC_TRNS, KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,   KC_F6,   KC_F7,   KC_F8,      KC_F9,   KC_F10,  KC_F11,       KC_F12,  KC_TRNS, KC_TRNS, KC_TRNS,
-        KC_TRNS, KC_1,    KC_2,    KC_3,    KC_4,    KC_5,    KC_6,    KC_7,    KC_8,       KC_9,    KC_0,    KC_TRNS,      KC_TRNS, KC_TRNS, KC_TRNS,
-        KC_TRNS, KC_LT,   KC_LBRC, KC_LCBR, KC_LPRN, KC_EQL,  KC_RGUI, KC_ESC,  LSFT(KC_P), KC_P,    KC_TRNS, KC_TRNS,      KC_TRNS, KC_TRNS,
-        KC_TRNS, KC_TRNS, KC_GT,  KC_RBRC,  KC_RCBR, KC_RPRN, KC_DLR,  KC_EXLM, KC_DQUO,    KC_QUOT, KC_MINS, LSFT(KC_EQL), KC_TRNS, KC_TRNS, KC_TRNS,
+        KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
+        KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
+        KC_TRNS, KC_ESC,  KC_LBRC, KC_LCBR, KC_LPRN, KC_TILD, KC_CIRC, KC_RPRN, KC_RCBR, KC_RBRC, KC_GRV,  KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
+        KC_TRNS, KC_MINS, KC_ASTR, KC_EQL, KC_UNDS,  KC_DLR,  KC_HASH, OSM(MOD_LGUI), OSM(MOD_RALT), OSM(MOD_RCTL), OSM(MOD_RSFT),  KC_TRNS,    KC_TRNS, KC_TRNS,
+        KC_TRNS, KC_TRNS, KC_PLUS, KC_PIPE, KC_AT,  KC_SLSH,  KC_PERC, KC_BSLS, KC_AMPR, KC_QUES, KC_EXLM, KC_DQUO, KC_TRNS, KC_TRNS, KC_TRNS,
         KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,    KC_TRNS, KC_TRNS, TG(1)),
     /*
      * ┌───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┐
@@ -66,9 +66,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
      * ├───┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─────┼───┤
      * │ TRN │TRN│HOM│ UP│END│TRN│PGU│BT1│MSU│BT2│TRN│TRN│TRN│ TRN │TRN│
      * ├─────┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴─────┼───┤
-     * │ NEXT │LFT│DWN│RGH│TRN│PGD│MSL│MSD│MSR│TRN│TRN│  TRN   │TRN│
+     * │ NEXT │LFT│DWN│RGH│TRN│PGD│MSL│MSD│MSR│TRN│TRN│      TRN   │TRN│
      * ├──────┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴────────┼───┤
-     * │ PREV   │MAL│MCT│MST│TRN│TRN│TRN│TRN│TRN│TRN│   TRN    │TRN│
+     * │ PREV   │MAL│MCT│MST│TRN│TRN│TRN│TRN│TRN│TRN│       TRN    │TRN│
      * ├────┬───┴┬──┴─┬─┴───┴───┴───┴───┴───┴──┬┴──┬┴──┬┴──┬───────┼───┤
      * │TRN │TRN │TRN │    PLAY                │V+ │V- │TRN│TRN│TRN│TRN│
      * └────┴────┴────┴────────────────────────┴───┴───┴───┴───┴───┴───┘
@@ -76,10 +76,10 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [NAV] = LAYOUT(
         KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,  KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
         KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,  KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
-        KC_TRNS, KC_HOME, KC_UP,   KC_END,   KC_PGUP, KC_TRNS, KC_TRNS, KC_BTN1, KC_MS_U, KC_BTN2, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
-        KC_MNXT, KC_LEFT, KC_DOWN, KC_RIGHT, KC_PGDN, KC_TRNS, KC_TRNS, KC_MS_L, KC_MS_D, KC_MS_R, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
-        KC_MPRV, KC_TRNS, OSM(MOD_LCTL), OSM(MOD_LALT), OSM(MOD_LSFT),  KC_TRNS, RGB_TOG, RGB_MOD, RGB_RMOD, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
-        KC_TRNS, KC_TRNS, KC_TRNS, KC_MPLY, KC_MPLY,  KC_MPLY, KC_VOLU, KC_VOLD, KC_TRNS, KC_TRNS, KC_TRNS, TG(1)),
+        KC_TRNS, KC_HOME, KC_UP,   KC_END,  KC_PGUP,  KC_VOLU, KC_TRNS, KC_HOME, KC_UP, KC_BTN2, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
+KC_TRNS, OSM(MOD_LSFT), OSM(MOD_LCTL), OSM(MOD_LALT), OSM(MOD_LGUI), KC_VOLD,    KC_TRNS, KC_LEFT, KC_DOWN, KC_RIGHT, KC_TRNS, KC_TRNS, KC_TRNS,          KC_TRNS,
+        KC_TRNS, KC_TRNS, RGB_TOG, KC_TRNS, KC_MPRV, KC_MNXT, KC_MPLY,  RGB_MOD, RGB_RMOD, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
+        KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,  KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, TG(1)),
     /*
      * ┌───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┐
      * │TRN│TRN│TRN│TRN│TRN│TRN│TRN│TRN│TRN│TRN│TRN│TRN│TRN│TRN│TRN│TRN│
