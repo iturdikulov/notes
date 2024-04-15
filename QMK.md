@@ -73,6 +73,7 @@ Check [QMK keymap](external/keymap.c) file to get actual keys map.
 
 ## References
 
+- [qmk_firmware/users/callum](https://github.com/callum-oakley/qmk_firmware/tree/master/users/callum)
 - [QMK Firmware - An open source firmware for AVR and ARM based keyboards](https://qmk.fm/)
 - [QMK Configurator](https://config.qmk.fm/#/kbdfans/kbd75/rev2/LAYOUT)
 - [QMK JSON converter](https://jhelvy.shinyapps.io/qmkjsonconverter/)
