@@ -106,6 +106,14 @@ is part of the IP address.
 | a.0.0.0/1      | +127.255.255.255           | 128.0.0.0       | 2147483648 |                                     |
 | 0.0.0.0/0      | +255.255.255.255           | 0.0.0.0         | 4294967296 | Entire IPv4 Internet                |
 
+## IP utility
+
+Universal network utility, which can be used to many network tasks.
+
+- Check network interfaces::`ip [-brief] link` or `ip [-brief] address`
+- Find neighbors::`ip neighbor`
+- Up/down network interface::`ip link set dev eth0 up` or `ip link set dev eth0 down`
+
 ## Online tools
 
 - [Online IP CIDR / VLSM Supernet Calculator](https://www.subnet-calculator.com/cidr.php)
