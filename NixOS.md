@@ -20,6 +20,26 @@ sr-ease: 230
 > expressions.\
 > — <cite>[NixOS Wiki](https://nixos.wiki/wiki/Overview_of_the_NixOS_Linux_distribution)</cite>
 
+NixOS is my current favorite Linux distribution. I like their features and
+trying to use it everywhere where it's possible. [[Arch_Linux|Arch Linux]] is
+also good (minimal), but I like the NixOS approach more.
+
+## Features
+
+- Declarative configuration model (Nix language, global configuration file).
+- Reliable and atomic upgrades (same result on different machines, atomic.
+  upgrades which are resistant to power failures).
+- Rollbacks (boot menu with previous configurations).
+- Reproducible system configurations (easily clone system across many machines).
+- Source-based model with binary cache (flexible build configuration, change
+  package options)
+- Consistency (rebuild all dependencies when core packages are updated).
+- Multi-user package management (users can install packages without root).
+- > 80,000 official packages (Nixpkgs), special packages with easily
+configurable options (NixOS options, > 10000 options).
+- Documentation and community (Guides and Tutorials, NixOS wiki, Discourse,
+Matrix, GitHub).
+
 ## Cleanup old generations
 
 Native nix commands:
