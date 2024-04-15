@@ -1,9 +1,4 @@
 .git/
-!.obsidian/plugins/obsidian-excalidraw-plugin
-!.obsidian/plugins/obsidian-spaced-repetition
-!.obsidian/plugins/obsidian-excalidraw-repetition
-!.obsidian/plugins/dataview
-.obsidian/plugins
 .obsidian/tmp
 .trash/
 private/
