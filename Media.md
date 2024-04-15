@@ -18,14 +18,16 @@ sr-ease: 250
 > media, and advertising.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Media_\(communication\))</cite>
 
-## My Media
+## My Art and Media
 
+- [[My_Art]]
 - [[My_Fiction_Books]]
-- [[My_Videos]]
+- [[My_Videos]], including [[YouTube]] and [[Twitch]]
 - [[My_Music]]
 - [[My_Movies]]
 - [[My_Games]]
 - [[My_Pictures]]
+- [[Handwriting]]
 - [[Comics]]
 - TODO: link to software
 
