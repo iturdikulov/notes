@@ -11,7 +11,7 @@ sr-ease: 248
 
 # My 30-Day Drawing Challenge
 
-My first steps in [[My_art|my art]] creation.
+My first steps in [[My_Art|my art]] creation.
 
 The drawing challenge is a fun and creative way to improve your drawing skills
 and explore different art styles and techniques. Here are the 30 prompts for the
