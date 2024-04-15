@@ -14,13 +14,6 @@ sr-ease: 285
 I play [[Game|games]] (but not too much) usually on my [[Computer|computer]] or
 on my [[Smartphone|smartphone]].
 
-## Now
-
-- [ ] [[research/Obuz_Game_Development_with_Blender_and_Godot|Game development with
-  Blender and Godot]]
-- [ ] [[Gothic]]
-- [ ] [[Turing_Complete_(game)|Turing Complete]]
-
 ## Active games
 
 - [[OpenCV_L2_Bot]]

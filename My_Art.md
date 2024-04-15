@@ -13,8 +13,3 @@ sr-ease: 206
 
 TODO: organize art
 
-## Now
-
-- [[research/Loomis-Fun_With_A_Pencil]]
-- [[research/Drawbox_Community-Drawbox|Drawbox]] to learn drawing
-
