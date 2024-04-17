@@ -3,10 +3,6 @@ date: 2023-05-14
 tags:
   - bridge
   - SR_productivity
-  - inbox
-sr-due: 2024-02-05
-sr-interval: 10
-sr-ease: 148
 ---
 
 # My [[Zettelkasten]] notes.
