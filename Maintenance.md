@@ -58,7 +58,13 @@ it's what I have:
 
 - [ ] validate how much data writing daily
 
-- Calendar events
+- Telegram saved messages, need to replace with something else. Can be replaced
+with Firefox bookmarks.
+- [[Calendar]] events
+- Stars in GitHub and Github Gist
+- Stars in RSS feed reader
+- Likes in YouTube
+
 - Contacts
 - Emails (all my inboxes)
 - Passwords
@@ -76,11 +82,8 @@ it's what I have:
 - Firefox profiles settings (about:config), at least `browser.sessionstore.interval`
 - docker system prune; docker volume prune (be careful with this, backup
 DB/important, keep running important containers)
-- GitHub and YouTube likes, subscriptions
 - Cloud storage (Google Drive, Yandex Disk, etc...)
 - Review [[Dataview_maintenance_queries|dataview]] note.
-- Telegram saved messages, need to replace with something else. Can be replaced
-with Firefox bookmarks.
 - [[Firefox]] bookmarks (mobile/desktop).
 - Cloud storage directories (need to do initial clean).
 - Downloads directory (mobile/desktop/tablet).
