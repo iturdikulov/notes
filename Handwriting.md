@@ -23,6 +23,3 @@ style.
 
 TODO: add my own font!
 
-## Now
-
-- Fill sheets with my handwriting, practice calligraphy.
