@@ -41,18 +41,7 @@ It's not enough to study only, need continuously practice (use your knowledge)
 and test yourself, to solve this problem I implement my [[My_pet_projects|pet
 projects]] and [[Work|working projects]] to strengthen my studies.
 
-<!-- Need review -->
-
-TODO: understand how to learn better:
-- [ ] [[How_to_study_or_learn]]
-- [ ] [The Feynman Technique: The Best Way to Learn Anything](https://fs.blog/feynman-technique/)
-- [ ] [How To Acquire The Tacit Knowledge of Experts](https://commoncog.com/how-to-learn-tacit-knowledge/)
-- [ ] [20 rules of knowledge formulation - supermemo.guru](https://supermemo.guru/wiki/20_rules_of_knowledge_formulation)
-- [ ] [20 rules of formulating knowledge in learning](https://super-memory.com/articles/20rules.htm)
-- [ ] [SuperMemo: Incremental learning](https://www.super-memory.com/help/il.htm)
-
 Generally I want to focus on 2 parts of my education:
-
 
 ## Fundamentals of science
 
