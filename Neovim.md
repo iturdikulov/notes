@@ -1313,6 +1313,7 @@ If you need to insert Markdown link from clipboard, use `S-v` key.
 - [ ] [[research/Osipov-Mastering_Vim]]
 - [ ] coverage test, [andythigpen/nvim-coverage](https://github.com/andythigpen/nvim-coverage)?
 - [ ] generate test, AI-test generate? [jackMort/ChatGPT.nvim](https://github.com/jackMort/ChatGPT.nvim)
+- [ ] [VimGolf - real Vim ninjas count every keystroke!](https://www.vimgolf.com/)
 - [-] [Как подружить Neovim c русской раскладкой](https://habr.com/ru/articles/726400/)
 
 ## References
