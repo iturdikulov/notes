@@ -23,6 +23,9 @@ sr-ease: 225
 mouseless workflow. In this note I describe the most used shortcuts in my
 workflow, each section except "Universal" is linked to a more detailed note.
 
+In this file I place basic keybindings list for each my most used program, with
+link to detailed keybindings in separate note.
+
 ## Universal
 
 Notepad based shortcuts, work mostly in all "classic" GUI program.
@@ -59,13 +62,17 @@ Notepad based shortcuts, work mostly in all "classic" GUI program.
 ## [[Vim_base_keybindings|Base keybindings]] and [[Neovim]]
 
 Since my most used program is Neovim, I have a lot of shortcuts for it. To quit
-I use `ZZ`, and `:q` :-).
+I use `ZZ`, `:x`, `:q` and `:qa` ☺.
+
+## [[Obsidian]]
+
+Obsidian is my [[Telekasten.nvim]] companion, main task is to render markdown
+and process [[Spaced_repetition|space repetition]] notes.
 
 ## [[Browser_shortcuts|Browser shortcuts]].
 
-- Search in active tab::`C-l` → Type something → `<cr>`
-- Search in new tab::`C-l` → Type something → `M-<cr>`
-- Search in default engine::`C-k`, useful to search links
+- Search in active tab::`C-k` → Type something → `<cr>`
+- Search in new tab::`C-k` → Type something → `M-<cr>`
 - Open a link in current tab::`LMB` or `:` → `keys` (requires Vimium)
 - Open link in new tab and switch to it::`C-S-LMB` or `C-:` → `keys` (requires Vimium)
 - Focus item in search dialog (next/previous)::`F3`/`S-F3`
@@ -89,42 +96,45 @@ I use `ZZ`, and `:q` :-).
 - List Active Windows::`D-a`
 - Pass menu::`D-p`
 
-# [[mpv]]
+## [[mpv]]
 
-- [ ] [[GNU_Readline]]
-- [ ] [[Blender_common_shortcuts|Blender]]
-- [ ] [[Krita]]
-- [ ] [[Neovim]]
-- [ ] [[Telescope.nvim]], TODO: add link to config?
-- [ ] [[Telekasten.nvim]], TODO: add link to config?
-- [ ] [[Fzf]]
-- [ ] [[Z_shell]]
-- [ ] [[Obsidian]]
-- [ ] [[Firefox]]
-- [ ] visidata
+- Play/Pause::`space`
+- Play next file::`>`
+- Play previous file::`<`
+- Quit::`q`
 
-# [[Vimium]]
+# [[GNU_Readline]]
 
-# Netrw
+`C-w`::Delete the word before the cursor.
+`C-h`::Delete the character before the cursor.
+`C-c`::Cancel the command line.
+`C-d`::Delete (kill) the character underneath the cursor.
+`C-b`::Move back one character.
+`C-f`::Move forward one character.
 
-# Sioyek
+## [[Z_shell]]
 
-# Slack
+Some keybindings from GNU readline are available in Z shell, but I mostly use
+Vi-mode in Zsh, and it has its own keybindings.
 
-# Krita
+To enter Vi-mode in Zsh type `Esc`, to back to insert mode type `i`.
 
-# Inkscape
+## [[Fzf]]
 
-# Blender
+## [[Vimium]]
 
-# Audacity
+## [[Sioyek]]
 
-# Qview
+## [[Slack]]
+
+## [[Blender_common_shortcuts|Blender]]
+
+## [[Krita]]
+
+## [[Inkscape]]
 
 ## References
 
 - [[QMK]]
 - [Monkeytype | A minimalistic, customizable typing test](https://monkeytype.com/)
-- [ ] [[research/Cneude-Building_Your_Mouseless_Development_Environment|book]] make more relevant
-- [ ] [VimGolf - real Vim ninjas count every keystroke!](https://www.vimgolf.com/)
 - [ ] [ShortcutFoo](https://www.shortcutfoo.com/)
