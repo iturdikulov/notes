@@ -23,8 +23,8 @@ sr-ease: 225
 mouseless workflow. In this note I describe the most used shortcuts in my
 workflow, each section except "Universal" is linked to a more detailed note.
 
-In this file I place basic keybindings list for each my most used program, with
-link to detailed keybindings in separate note.
+In this file I place **basic** keybindings list for each my most used program,
+with link to detailed keybindings in separate note.
 
 ## Universal
 
@@ -58,6 +58,8 @@ Notepad based shortcuts, work mostly in all "classic" GUI program.
 - End, Select to End::`SYM-f`, `SYM-S-f`
 - Top, Select to Top::`SYM-C-q`, `SYM-C-S-q`
 - Bottom, Select to bottom::`SYM-C-f`, `SYM-C-S-f`
+
+## [[QMK]]
 
 ## [[Vim_base_keybindings|Base keybindings]] and [[Neovim]]
 
@@ -105,12 +107,12 @@ and process [[Spaced_repetition|space repetition]] notes.
 
 # [[GNU_Readline]]
 
-`C-w`::Delete the word before the cursor.
-`C-h`::Delete the character before the cursor.
-`C-c`::Cancel the command line.
-`C-d`::Delete (kill) the character underneath the cursor.
-`C-b`::Move back one character.
-`C-f`::Move forward one character.
+`C-w` - Delete the word before the cursor.
+`C-h` - Delete the character before the cursor.
+`C-c` - Cancel the command line.
+`C-d` - Delete (kill) the character underneath the cursor.
+`C-b` - Move back one character.
+`C-f` - Move forward one character.
 
 ## [[Z_shell]]
 
@@ -121,11 +123,35 @@ To enter Vi-mode in Zsh type `Esc`, to back to insert mode type `i`.
 
 ## [[Fzf]]
 
+- `ls -l|fzf` - select and print a path
+- `C-t` - paste path into command line
+- `M-C` - cd into the selected directory
+
 ## [[Vimium]]
+
+I use limited subset of Vimium keybindings, mostly for navigation. Other ones
+are disabled.
+
+- `:` - Search and click on link
+- `gi` - Focus input
+- `<C-6>` - Visit previous page
 
 ## [[Sioyek]]
 
+- `O` - open recent documents list
+- `F9`/`F8` - fit document to screen ignore margins/with margins
+- `t` - open table of contents
+- `ss`/`sl` - with selection - search in Google Scholar and library genesis
+- `:` - open command palette, useful to find functional
+
 ## [[Slack]]
+
+`C-k` - Jump to a conversation
+`C-n` - Compose a new message
+`C-S-l` - Open channel browser
+`C-S-t` - Open the Threads view
+`C-S-m` - Mentions & reactions
+`C-f` - Search current channel or conversation
 
 ## [[Blender_common_shortcuts|Blender]]
 
@@ -137,4 +163,4 @@ To enter Vi-mode in Zsh type `Esc`, to back to insert mode type `i`.
 
 - [[QMK]]
 - [Monkeytype | A minimalistic, customizable typing test](https://monkeytype.com/)
-- [ ] [ShortcutFoo](https://www.shortcutfoo.com/)
+- [ShortcutFoo](https://www.shortcutfoo.com/)
