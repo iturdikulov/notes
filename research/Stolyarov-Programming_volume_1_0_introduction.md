@@ -36,12 +36,12 @@ who helped author and other aspects of writing process.
 
 # Introduction 2, methodical (Предисловие 2, методическое)
 
-You can study programming only by yourself (maybe too categorical).
+You can study programming only by ==yourself== (maybe too categorical).
 
-Learning programming by writing GUI applications (event-driven approach) is bad
-idea.
+Learning programming by writing GUI applications first (event-driven approach)
+is bad idea.
 
-Main tool of professional Unix user is **organized** command line
+Main tool of professional Unix user is **organized**
 ([[Command-line_interface_CLI|CLI]]).
 
 Command line interface is more powerful and flexible than GUI, you can work with
@@ -50,9 +50,10 @@ it faster, less stress on hands, operations are easier to remember and so on.
 You can write CLI program much easier than GUI program. This open new learning
 opportunities and customization of OS (hobby programming).
 
-Reasons why Unix is the most suitable OS for learning programming:
+Reasons why Unix is the most suitable OS for learning programming are described
+in next sections.
 
-### Mathematical reason (Математическая причина)
+## Mathematical reason (Математическая причина)
 
 Any [[Computer_programming|program]] is a record of ==algorithm== on some
 programming language.
@@ -74,21 +75,22 @@ and return another word.
 The same way works many programs from Unix family. STDIN → transformations →
 STDOUT (filters) and you can combine them using pipes.
 
-### Psychological reason (Психологическая причина)
+## Psychological reason (Психологическая причина)
 
-Programming can't be learned in traditional ways, it's more craft and need you
-do a lot of practice which solve real world problems (not just write code to
-learn some algorithm or theory). This is why pet projects are important, some
-pet projects can be transformed into very useful projects (GNU/Linux,
-open-source projects, etc.). And when you get real users of your software you
-are established as programmer and can congratulate yourself.
+Programming can't be learned in traditional ways, it's more craft than knowledge
+and need you do a lot of practice which solve real world problems (not just
+write code to learn some algorithm or theory). This is why pet projects are
+important, some pet projects can be transformed into very useful projects
+(GNU/Linux, open-source projects, etc.). And when you get real users of your
+software you are established as programmer and can congratulate yourself.
 
-### Ergonomic reason (Эргономическая причина)
+## Ergonomic reason (Эргономическая причина)
 
-You can't replace CLI usability with any graphical UI. And you must learn CLI
-as soon as possible (I use it every day, but still not very effective).
+You can't replace CLI usability and flexibility with any graphical UI. And you
+must learn CLI as soon as possible (I use it every day, but still not very
+effective).
 
-### Pedagogical reason (Педагогическая причина)
+## Pedagogical reason (Педагогическая причина)
 
 Is good idea to educate someone, when you haven't enough experience and when
 you're even not trying to use proven learning materials?
@@ -97,12 +99,12 @@ Don't need to learn someone programming if you don't know what is in fundamental
 level. And if you really want to learn someone find good proven education path.
 Bad teachers can mislead a newbie student, for example start learning
 programming with making GUI (focusing on UI, not a program logic), which is bad
-idea. It can traumatize student mindset, and he will have many problems to
-relearn programming in future (if he can do it) and think programming is boring
-process (will not know what he lost).
+idea. It can traumatize student mindset (brain damage), and he will have many
+problems to relearn programming in future (if he can do it) and think
+programming is boring process (actually not, he will not know what he lost).
 <!--SR:!2024-02-24,4,182-->
 
-### Language determines thinking (Язык определяет мышления)
+## Language determines thinking (Язык определяет мышления)
 
 Why need to learn form "simple" languages, which providing basic concepts and
 not too complicated?
@@ -129,9 +131,9 @@ Understanding code as "magic commands" is not good for good programmers, you
 need to understand code on very low level to create truly effective programs.
 <!--SR:!2024-02-23,3,162-->
 
-In C you haven't procedures, only functions. Even assignment, increment are
-arithmetic operations. And in C formally any actions (which is core of C) are
-creating [[Side_effect|side effect]].
+In C you haven't ==procedures==, only functions. For example even assignment,
+increment are arithmetic operations. And in C formally any actions (which is
+core of C) are creating [[Side_effect|side effect]].
 
 > Side effect can be appeared only when evaluating expression.
 Side effect this is arbitrary change, which occurring when evaluating expression
@@ -139,12 +141,14 @@ and then can be somehow ==detected==.
 <!--SR:!2024-02-28,10,227-->
 
 Unlike C, C++ and functional programming languages, in [[Pascal]] there mostly
-no side effects.
+no side effects (questionable).
 
+Why you should not write code like this?
 ```c
 while((dest++ = * src++));
 ```
-Why you should not write code like this? To avoid side effects and make this
+&#10;
+To avoid side effects and make this
 less cryptic.
 Yes in C you can't avoid side effects anyway, but in other languages you can.
 
@@ -178,9 +182,9 @@ understand data structures, etc. And you need usually also learn it before C
 how to work with registers and memory areas, understand stack frame, interrupts,
 etc.
 
-So chain to learn programming is: ==Pascal → Assembly → C → C++== (special
-author's vision), OS, I/O, processes, sockets, multithreading, mutex objects and
-semaphores, critical sections, etc.
+So authors chain to learn programming is: ==Pascal → Assembly → C → C++==
+(special author's vision), OS, I/O, processes, sockets, multithreading, mutex
+objects and semaphores, critical sections, etc.
 <!--SR:!2024-02-24,3,162-->
 
 # Introduction 3, parting words (Предисловие 3, напутственное)
@@ -208,8 +212,8 @@ Self-education and practice is requirement to be programmer.
 <!--SR:!2024-02-22,1,132-->
 
 Author also tells you need to use CLI to learn something from this book (I use
-it daily), which give you abilities to write simple programs and find program
-users.
+it daily), which give you abilities to write simple programs and find users for
+your program.
 
 Programming requires maximum intellectual tension and not everyone can withstand
 it!
