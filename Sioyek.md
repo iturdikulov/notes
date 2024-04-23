@@ -26,7 +26,6 @@ Key features for me:
 - Extensible
 - Portals (preview multiple places of document in same time)
 
-
 ## Shortcuts
 
 Open a new document::`o`
