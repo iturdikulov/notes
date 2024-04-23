@@ -25,5 +25,5 @@ This is the best way to practice learning new technologies and tools.
 - Architectural lighting, right now stair lighting.
 - Software 3D engine.
 - RPG?/Farming? game in [[Godot]] (as simplest starting point in game development).
-- [[OpenCV_L2_Bot|OpenCV PvP bot]] for the [[Lineage_2_tools|L2]] game.
+- [[OpenCV_L2_Bot|OpenCV PvP bot]] for the [[Lineage_2_tools|L2]] game, [[L2bot]]?
 - [[iturdikulov.com]] website
