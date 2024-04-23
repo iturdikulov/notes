@@ -13,8 +13,6 @@ sr-ease: 228
 
 # Krita
 
-TODO: move shortcuts into own note
-
 ## Mouse shortcuts
 
 Right-click
