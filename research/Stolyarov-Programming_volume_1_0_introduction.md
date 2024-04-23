@@ -18,15 +18,16 @@ directory:
 # Introduction 1, philosophical (Предисловие 1, философское)
 
 Author tell how he wrote this book, what difficulties he had and how
-crowdfunding project helped him to write this book.
+**crowdfunding project** helped him to write this book.
 
 With crowdfunding project author can live and write book, without spending time
 on other jobs. In total author spend 2200 hours (he tracks time somehow) to
 write 3 volumes, books wasn't written from scratch (previous works and lectures
-was used).
+was used). Later author refer to this situation, any great work can't be done
+without some financial and moral support.
 
 Author also doesn't like current situation with publishers, which make money on
-books.
+books, seems with bad support of author.
 
 I think this preface is like historical reference, how he wrote this book. Also
 was told which topics was touched ([[Pascal]], `NASM`, [[C]],
