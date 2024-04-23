@@ -10,17 +10,14 @@ sr-ease: 253
 
 # fzf
 
-- [ ] review [Vim universe. fzf - command line fuzzy finder](https://www.youtube.com/watch?v=qgG5Jhi_Els)
-
 It's a general purpose fuzzy finder written in Golang that can be used with any
 list of things: files, processes, command history, git branches, etc.
 
 For [[Z_shell|Z shell]], it provides the following key bindings (overwrite
 existing ones), and they are very handy:
 
-- `C-r`::History search, paste the selected command from history into the command line
-- `M-C`::Directory search, `cd` into the selected directory
 - `C-t`::Paste the selected file path(s) into the command line. Useful to insert paths into arguments of commands.
+- `M-C`::Directory search, `cd` into the selected directory
 - `vi $(fd \.yaml|fzf)`::run a command with the selected item from `fzf` as argument
 - `mv $(fd -t directory|fzf) ~/Temp/`, DANGER::move a directory from selected path to `~/Temp/`
 
@@ -52,6 +49,10 @@ Select Environment variables / aliases
 
 `rg . | fzf`::Fuzzy search every line in every file
 `rg . | fzf | cut -d ":" -f 1`::Fuzzy search every line, in every file, and return the file location
+
+## TODO
+
+- [ ] review [Vim universe. fzf - command line fuzzy finder](https://www.youtube.com/watch?v=qgG5Jhi_Els)
 
 ## References
 
