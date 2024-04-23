@@ -164,6 +164,7 @@ meaning of words.
 - stash
 - statement
 - strength
+- subconscious
 - subject
 - substitute
 - suffix
