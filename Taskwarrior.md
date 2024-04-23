@@ -44,6 +44,8 @@ task init sync
 task sync
 ```
 
+You can run `task diagnostics` to check if everything is set up correctly.
+
 ## References
 
 - [ ] `man task`
