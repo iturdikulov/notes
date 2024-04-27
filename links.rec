@@ -1,0 +1,3902 @@
+%rec: Bookmark
+%key: URL
+%mandatory: Title URL
+%allowed: Category Feed Note
+%unique: Title URL Note
+%type: Category enum
++ Aerospace
++ Aggregator
++ Audiobook
++ Crypto
++ DNS
++ DynLinking
++ Filesharing
++ Fun
++ Games
++ Gemini
++ Go
++ Hardening
++ IT
++ Keyswitch
++ Mail
++ Maillist
++ Minimalistic
++ Music
++ Networking
++ NoHello
++ NTP
++ Oldies
++ Personal
++ Podcast
++ Redo
++ Russian
++ Systemd
++ Vlog
++ WWW
++ Yggdrasil
++ Zsh
+
+Title: Abin Simon's blog
+URL: https://blog.meain.io/
+Category: IT
+Category: Personal
+Feed: https://blog.meain.io/feed.xml
+
+Title: Andrew Ayer's blog
+URL: https://www.agwa.name/blog/
+Category: IT
+Category: Personal
+Feed: https://www.agwa.name/blog/feed
+
+Title: Andrew Plotkin's blog
+URL: https://blog.zarfhome.com/
+Category: Games
+Category: IT
+Category: Personal
+Feed: https://blog.zarfhome.com/feeds/posts/default
+
+Title: antirez's blog
+URL: http://antirez.com/
+Category: IT
+Category: Personal
+Feed: http://antirez.com/rss
+
+Title: apenwarr's blog
+URL: https://apenwarr.ca/log/
+Category: IT
+Category: Personal
+Feed: https://apenwarr.ca/log/rss.php
+
+Title: APNIC blog
+Category: Networking
+URL: https://blog.apnic.net/
+Feed: https://blog.apnic.net/feed/
+
+Title: Benjojo's blog
+URL: https://blog.benjojo.co.uk/
+Category: Networking
+Category: Personal
+Feed: https://blog.benjojo.co.uk/rss.xml
+
+Title: Big Mess o' Wires blog
+URL: https://www.bigmessowires.com/
+Category: IT
+Feed: https://www.bigmessowires.com/feed/atom/
+
+Title: Boston Diaries
+URL: http://boston.conman.org/
+Category: IT
+Category: Personal
+Feed: http://boston.conman.org/index.atom
+
+Title: Brendan Gregg's blog
+URL: https://www.brendangregg.com/blog/
+Category: IT
+Category: Personal
+Feed: https://www.brendangregg.com/blog/rss.xml
+
+Title: Carl Svensson's blog
+URL: https://datagubbe.se/
+Category: IT
+Category: Personal
+Feed: https://datagubbe.se/atom.xml
+
+Title: Causal Agency blog
+URL: https://text.causal.agency/
+Category: IT
+Category: Personal
+Feed: https://text.causal.agency/feed.atom
+
+Title: Chris Wellons's blog
+URL: https://nullprogram.com/
+Category: IT
+Category: Personal
+Feed: https://nullprogram.com/feed/
+
+Title: Christian Neukirchen's blog
+URL: https://leahneukirchen.org/blog/
+Category: IT
+Category: Personal
+Feed: http://leahneukirchen.org/blog/index.atom
+
+Title: Codemadness'es blog
+URL: https://codemadness.nl/
+Category: IT
+Category: Personal
+Feed: http://codemadness.nl/atom.xml
+
+Title: Computers Are Bad
+URL: https://computer.rip/
+Category: IT
+Category: Personal
+Feed: https://computer.rip/rss.xml
+
+Title: Coon Cave's blog
+URL: https://raccoon.onyxbits.de/blog/
+Category: IT
+Category: Personal
+Feed: https://raccoon.onyxbits.de/blog/index.xml
+
+Title: CPUSHACK museum
+URL: https://www.cpushack.com/
+Category: Oldies
+Feed: https://www.cpushack.com/feed/
+
+Title: cr.yp.to
+Note: D. J. Bernstein's blog
+URL: http://blog.cr.yp.to/
+Category: Crypto
+Category: IT
+Category: Personal
+Feed: http://blog.cr.yp.to/feed.application=xml
+
+Title: Crypto discussion list
+URL: https://lists.randombit.net/mailman/listinfo/cryptography
+Category: Crypto
+Category: Maillist
+
+Title: Crypto forum research group
+URL: https://www.irtf.org/mailman/listinfo/cfrg
+Category: Crypto
+Category: Maillist
+
+Title: Cryptography and Cryptography Policy Mailing List
+URL: https://www.metzdowd.com/mailman/listinfo/cryptography
+Category: Crypto
+Category: Maillist
+
+Title: Cryptologie blog
+Note: David Wong's blog
+Category: Crypto
+URL: https://www.cryptologie.net/
+Feed: https://www.cryptologie.net/feed/index/html
+
+Title: Cryptology ePrint archive
+URL: https://eprint.iacr.org/
+Category: Crypto
+
+Title: Dan Langille's Other Diary
+URL: https://dan.langille.org/
+Category: IT
+Category: Personal
+Feed: https://dan.langille.org/feed/
+
+Title: Daniel Stenberg's blog
+URL: https://daniel.haxx.se/blog/
+Category: IT
+Category: Personal
+Feed: https://daniel.haxx.se/blog/feed/
+
+Title: Dante Catalfamo's blog
+URL: https://blog.lambda.cx/
+Category: IT
+Category: Personal
+Feed: https://blog.lambda.cx/index.xml
+
+Title: David Anderson's blog
+URL: https://blog.dave.tf/
+Category: IT
+Category: Personal
+Feed: https://blog.dave.tf/index.xml
+
+Title: Discussion of elliptic curve cryptography
+URL: https://moderncrypto.org/mailman/listinfo/curves
+Category: Crypto
+Category: Maillist
+
+Title: Discussion of secure messaging protocols
+URL: https://moderncrypto.org/mailman/listinfo/messaging
+Category: Crypto
+Category: Maillist
+
+Title: Dmitry Belyavsky's blog
+URL: https://beldmit.dreamwidth.org/
+Category: IT
+Category: Russian
+Category: Personal
+Feed: https://beldmit.dreamwidth.org/data/atom
+
+Title: Dmitry's notes
+URL: https://dmitrysnotes.ru/
+Category: IT
+Category: Russian
+Category: Personal
+Feed: https://dmitrysnotes.ru/feed
+
+Title: Drew DeVault's Blog
+URL: https://drewdevault.com/
+Category: IT
+Category: Personal
+Feed: https://drewdevault.com/blog/index.xml
+
+Title: dxdt занимательный интернет-журнал
+URL: https://dxdt.ru/
+Category: IT
+Category: Russian
+Feed: https://dxdt.ru/feed/
+
+Title: Eli Bendersky's blog
+URL: https://eli.thegreenplace.net/
+Category: IT
+Category: Personal
+Feed: https://eli.thegreenplace.net/feeds/all.atom.xml
+
+Title: ENOSUCHBLOG
+URL: https://blog.yossarian.net/
+Category: IT
+Category: Personal
+Feed: https://blog.yossarian.net/feed.xml
+
+Title: Eric Raymond's blog
+URL: http://esr.ibiblio.org/
+Category: IT
+Category: Personal
+Feed: http://esr.ibiblio.org/?feed=rss2
+
+Title: Errata Security
+URL: https://blog.erratasec.com/
+Category: IT
+Feed: https://blog.erratasec.com/feeds/posts/default
+
+Title: Few thoughts of cryptographic engineering
+Note: Matthew Green's blog
+URL: https://blog.cryptographyengineering.com/
+Category: Crypto
+Feed: https://blog.cryptographyengineering.com/feed/
+
+Title: flak blog
+URL: https://flak.tedunangst.com/flak/
+Category: IT
+Category: Personal
+Feed: https://flak.tedunangst.com/rss
+
+Title: Frederic Cambus'es blog
+URL: https://www.cambus.net/
+Category: IT
+Category: Personal
+Feed: https://www.cambus.net/atom.xml
+
+Title: Gentle introduction to elliptic-curve cryptography
+URL: https://media.ccc.de/v/31c3_-_6369_-_en_-_saal_1_-_201412272145_-_ecchacks_-_djb_-_tanja_lange
+Category: Crypto
+
+Title: Hillel Wayne's blog
+URL: https://www.hillelwayne.com/
+Category: IT
+Category: Personal
+Feed: https://www.hillelwayne.com/index.xml
+
+Title: Hugo Landau's blog
+URL: https://www.devever.net/~hl/
+Category: IT
+Category: Personal
+Feed: https://www.devever.net/~hl/index.feed
+
+Title: ImperialViolet
+Note: Adam Langley's blog
+URL: https://www.imperialviolet.org/
+Category: Crypto
+Category: IT
+Category: Personal
+Feed: https://www.imperialviolet.org/iv-rss.xml
+
+Title: Internet Archive blog
+URL: https://blog.archive.org/
+Category: IT
+Feed: https://blog.archive.org/feed/
+
+Title: Irreal blog
+URL: https://irreal.org/blog/
+Category: IT
+Category: Personal
+Feed: https://irreal.org/blog/?feed=rss2
+
+Title: iXsystems blog
+URL: https://www.ixsystems.com/blog/
+Category: IT
+Feed: https://www.ixsystems.com/feed/
+
+Title: Jan-Piet Mens'es blog
+URL: https://jpmens.net/
+Category: IT
+Category: Personal
+Feed: https://jpmens.net/atom.xml
+
+Title: Jason Scott's blog
+URL: http://ascii.textfiles.com/
+Category: IT
+Category: Personal
+Feed: http://ascii.textfiles.com/feed
+
+Title: Joe "begriffs" Nelson's blog
+URL: https://begriffs.com/
+Category: IT
+Category: Personal
+Feed: https://begriffs.com/atom.xml
+
+Title: John Goerzen blog
+URL: https://changelog.complete.org/
+Category: IT
+Category: Personal
+Feed: https://changelog.complete.org/feed
+
+Title: JRS Systems blog
+URL: https://jrs-s.net/
+Category: IT
+Feed: https://jrs-s.net/feed/
+
+Title: Kai Hendry's blog
+URL: https://natalian.org/
+Category: IT
+Category: Personal
+Feed: https://natalian.org/index.atom
+
+Title: Karl Voit's blog
+URL: https://karl-voit.at/
+Category: IT
+Category: Personal
+Feed: https://karl-voit.at/feeds/lazyblorg-all.atom_1.0.links-and-teaser.xml
+
+Title: linkmeup
+URL: https://linkmeup.ru/
+Category: Networking
+Category: Russian
+Feed: https://linkmeup.ru/feed/
+
+Title: linkmeup podcasts
+URL: https://linkmeup.ru/podcasts/
+Category: Networking
+Category: Russian
+Category: Podcast
+Feed: https://linkmeup.ru/podcasts/feed/
+
+Title: Luke Plant's blog
+URL: https://lukeplant.me.uk/blog/
+Category: IT
+Category: Personal
+Feed: https://lukeplant.me.uk/blog/atom/index.xml
+
+Title: M.J. Fransen's blog
+URL: https://box.matto.nl/
+Category: IT
+Category: Personal
+Feed: https://box.matto.nl/index.rss
+Feed: https://box.matto.nl/gopherindex.rss
+
+Title: Martin Tournoij's blog
+URL: https://www.arp242.net/
+Category: IT
+Category: Personal
+Feed: https://www.arp242.net/feed.xml
+
+Title: Matt Blaze's blog
+URL: https://www.mattblaze.org/blog/
+Category: IT
+Category: Personal
+Feed: https://www.mattblaze.org/blog/rss20.xml
+
+Title: Matt's Tech Pages
+URL: https://www.mattmillman.com/
+Category: IT
+Category: Personal
+Feed: https://www.mattmillman.com/feed/
+
+Title: Matthew Garrett's blog
+URL: https://mjg59.dreamwidth.org/
+Category: IT
+Category: Personal
+Feed: https://mjg59.dreamwidth.org/data/atom
+
+Title: Michael Stapelberg'es blog
+URL: https://michael.stapelberg.ch/posts/
+Category: IT
+Category: Personal
+Feed: https://michael.stapelberg.ch/feed.xml
+
+Title: Mike Gerwitz blog
+URL: https://mikegerwitz.com/
+Category: IT
+Category: Personal
+Feed: https://mikegerwitz.com/rss.xml
+
+Title: Moritz Systems's blog
+URL: https://www.moritz.systems/blog/
+Category: IT
+Category: Personal
+Feed: https://www.moritz.systems/blog/index.xml
+
+Title: Nelson's log
+URL: https://nelsonslog.wordpress.com/
+Category: IT
+Category: Personal
+Feed: https://nelsonslog.wordpress.com/feed/
+
+Title: Nicolás Ortega Froysa's blog
+URL: https://themusicinnoise.net/blog/
+Category: IT
+Category: Personal
+Feed: https://themusicinnoise.net/blog/atom.xml
+
+Title: nobody-reads-it blog
+URL: http://www.borg.org/
+Category: IT
+Category: Personal
+Feed: http://www.borg.org/index.html/?feed=rss2
+
+Title: Noise protocol discussiog
+URL: https://moderncrypto.org/mailman/listinfo/noise/
+Category: Crypto
+Category: Maillist
+
+Title: Old Vintage Computing Research
+URL: https://oldvcr.blogspot.com/
+Category: IT
+Feed: https://www.blogger.com/feeds/8349470052336612452/posts/default
+
+Title: OpenBSD journal
+URL: https://undeadly.org/
+Category: IT
+Feed: http://undeadly.org/cgi?action=rss
+
+Title: Orib's blog
+URL: https://orib.dev/
+Category: IT
+Category: Personal
+Feed: https://orib.dev/feed.rss
+
+Title: oshogbo//vx's blog
+URL: https://oshogbo.vexillium.org/blog/
+Category: IT
+Category: Personal
+Feed: https://feeds.feedburner.com/oshogbo
+
+Title: paritybit.ca blog
+URL: https://www.paritybit.ca/blog/
+Category: IT
+Category: Personal
+Feed: https://www.paritybit.ca/feed.xml
+
+Title: Patrick Bucher's blog
+URL: https://blog.paedubucher.ch/
+Category: IT
+Category: Personal
+Feed: https://blog.paedubucher.ch/index.xml
+
+Title: phd's blog
+URL: https://phd-ru.dreamwidth.org/
+Category: IT
+Category: Russian
+Category: Personal
+Feed: https://phd-ru.dreamwidth.org/data/atom
+
+Title: Post-quantum cryptography
+URL: http://pqcrypto.org/index.html
+Category: Crypto
+
+Title: rachelbythebay blog
+URL: https://rachelbythebay.com/w/
+Category: IT
+Category: Personal
+Feed: https://rachelbythebay.com/w/atom.xml
+
+Title: Renga in Blue
+Note: Interactive fiction and the All the Adventures project
+URL: https://bluerenga.blog/
+Category: Games
+Category: Personal
+Feed: https://bluerenga.blog/feed/
+
+Title: Richard Stallman's Personal Site
+URL: https://www.stallman.org/
+Category: IT
+Category: Personal
+
+Title: Rob Pike's blog
+URL: https://commandcenter.blogspot.com/
+Category: IT
+Category: Personal
+Feed: https://commandcenter.blogspot.com/feeds/posts/default
+
+Title: Russ Cox's blog
+URL: https://research.swtch.com/
+Category: IT
+Category: Personal
+Feed: https://research.swtch.com/feed.atom
+
+Title: Schneier on security
+URL: https://www.schneier.com/
+Category: Crypto
+Feed: https://www.schneier.com/feed/atom/
+
+Title: Sheogorath's Blog
+URL: https://shivering-isles.com/
+Category: IT
+Category: Personal
+Feed: https://shivering-isles.com/feed.xml
+
+Title: Signal blog
+URL: https://signal.org/blog/
+Category: Crypto
+Feed: https://signal.org/blog/rss.xml
+
+Title: Slembcke's site
+URL: https://slembcke.github.io/
+Category: IT
+Category: Personal
+Feed: https://slembcke.github.io/feed.xml
+
+Title: Soatok's blog
+URL: https://soatok.blog/
+Category: IT
+Category: Personal
+Feed: https://soatok.blog/feed/
+
+Title: Software is Crap blog
+URL: https://davmac.wordpress.com/
+Category: IT
+Category: Personal
+Feed: https://davmac.wordpress.com/feed/
+
+Title: Solène Rapenne's blog
+Category: IT
+Category: Personal
+URL: https://dataswamp.org/~solene/
+Feed: https://dataswamp.org/~solene/rss.xml
+
+Title: Stefan Hajnoczi's blog
+URL: http://blog.vmsplice.net/
+Category: IT
+Category: Personal
+Feed: http://blog.vmsplice.net/feeds/posts/default
+
+Title: Steinar H. Gunderson's blog
+URL: https://blog.sesse.net/blog/
+Category: IT
+Category: Personal
+Feed: https://blog.sesse.net/blog/?flav=rss
+
+Title: Susam Pal's blog
+URL: https://susam.net/
+Category: IT
+Category: Personal
+Feed: https://susam.net/blog/feed.xml
+
+Title: Tao Bojlén's blog
+URL: https://btao.org/
+Category: IT
+Category: Personal
+Feed: https://btao.org/feed.xml
+
+Title: Uses This
+URL: https://usesthis.com/
+Category: IT
+Feed: https://usesthis.com/feed.atom
+
+Title: Tomek Cedro's blog
+URL: https://www.tomek.cedro.info/
+Category: IT
+Category: Personal
+Feed: https://www.tomek.cedro.info/feed/atom/
+
+Title: Tony Finch's blog
+URL: https://fanf.dreamwidth.org/
+Category: IT
+Category: Personal
+Feed: https://fanf.dreamwidth.org/data/atom
+
+Title: Two-Bit History blog
+URL: https://twobithistory.org/
+Category: IT
+Category: Personal
+Feed: https://twobithistory.org/feed.xml
+
+Title: unixsheikh's blog
+URL: https://unixdigest.com/
+Category: IT
+Category: Personal
+Feed: https://unixdigest.com/feed.rss
+
+Title: vanitasvitae's blog
+URL: https://jabberhead.tk/
+Category: IT
+Category: Personal
+Feed: https://blog.jabberhead.tk/feed/
+
+Title: vermaden's blog
+URL: https://vermaden.wordpress.com/
+Category: IT
+Category: Personal
+Feed: https://vermaden.wordpress.com/feed/
+
+Title: Vidar's Blog
+URL: https://www.vidarholen.net/contents/blog/
+Category: IT
+Category: Personal
+Feed: https://www.vidarholen.net/contents/blog/?feed=rss2
+
+Title: Wandering Thoughts
+Note: Chris Siebenmann's blog
+URL: https://utcc.utoronto.ca/~cks/space/blog/
+Category: IT
+Category: Personal
+Feed: https://utcc.utoronto.ca/~cks/space/blog/?atom
+
+Title: Warner's Random Hacking Blog
+URL: https://bsdimp.blogspot.com/
+Category: IT
+Category: Personal
+Feed: https://bsdimp.blogspot.com/feeds/posts/default
+
+Title: Xah keyboard blog
+URL: http://xahlee.info/kbd/keyboard_blog.html
+Category: IT
+Category: Personal
+Feed: http://xahlee.info/kbd/keyboard_blog.xml
+Feed: http://xahlee.info/comp/blog.xml
+
+Title: Yakov Galka's blog
+URL: https://stannum.io/blog/
+Category: IT
+Category: Personal
+Feed: https://stannum.io/blog/rss.xml
+
+Title: Админ в маленьком городе
+URL: https://mdex-nn.ru/
+Category: IT
+Category: Russian
+Category: Personal
+Feed: https://mdex-nn.ru/feed
+
+Title: Блог Виктора Судакова
+URL: https://victor-sudakov.dreamwidth.org/
+Category: IT
+Category: Russian
+Category: Personal
+Feed: https://victor-sudakov.dreamwidth.org/data/atom
+
+Title: Шоу "16-бит тому назад"
+URL: https://16-bits.ru/myvideo/16bit/
+Category: Games
+Category: Russian
+Category: Podcast
+Category: Oldies
+Category: Vlog
+
+Title: Шоу "Кремниевые Титаны"
+Category: Russian
+Category: Podcast
+Category: Oldies
+Category: Vlog
+URL: https://16-bits.ru/myvideo/siti/
+Feed: https://16-bits.ru/feed/
+
+Title: Журнал Downgrade
+Category: Russian
+Category: Oldies
+URL: http://dgmag.in/
+Feed: http://dgmag.in/rss.xml
+
+Title: Записки программиста
+URL: https://eax.me/
+Category: IT
+Category: Russian
+Category: Personal
+Feed: https://eax.me/feed/
+
+Title: Крупнейший в Рунете архив старых программ
+URL: http://old-dos.ru/
+Category: Russian
+Category: Oldies
+
+Title: 9P protocol implementations
+URL: http://9p.cat-v.org/implementations
+Category: Networking
+
+Title: Against DNSSEC
+URL: https://sockpuppet.org/blog/2015/01/15/against-dnssec/
+Category: DNS
+
+Title: DNSCurve: Usable security for DNS
+URL: http://dnscurve.org/
+Category: DNS
+
+Title: Differences between DNSCurve and DNSSEC
+URL: https://dnscurve.io/faq/differences-between-dnscurve-and-dnssec.html
+Category: DNS
+
+Title: All software sucks
+URL: http://harmful.cat-v.org/software/
+Category: IT
+
+Title: Anonymous offline peer to peer file-sharing network in public space
+URL: http://deaddrops.com/
+Category: IT
+
+Title: BBS: The Documentary
+URL: http://www.bbsdocumentary.com/
+Category: IT
+
+Title: Bit Twiddling Hacks
+URL: https://graphics.stanford.edu/~seander/bithacks.html
+Category: IT
+
+Title: Cap'n Proto, FlatBuffers, and SBE
+URL: https://capnproto.org/news/2014-06-17-capnproto-flatbuffers-sbe.html
+Category: IT
+
+Title: Comparison of C/POSIX standard library implementations for Linux
+URL: http://www.etalabs.net/compare_libcs.html
+Category: IT
+
+Title: DANE common mistakes
+URL: https://dane.sys4.de/common_mistakes
+Category: DNS
+
+Title: Diceware Passphrase Home Page
+URL: https://theworld.com/~reinhold/diceware.html
+Category: IT
+Category: Crypto
+
+Title: Diceware Passphrase FAQ
+URL: https://theworld.com/~reinhold/dicewarefaq.html
+Category: IT
+Category: Crypto
+
+Title: ESR's tactile keyboard FAQ
+URL: http://www.catb.org/~esr/faqs/tactile-keyboard-faq.html
+Category: IT
+
+Title: Git from bottom up
+URL: http://ftp.newartisans.com/pub/git.from.bottom.up.pdf
+Category: IT
+
+Title: GNU ethical repository criteria
+URL: https://www.gnu.org/software/repo-criteria.html
+Category: IT
+
+Title: GNUnet Bibliography
+URL: https://bib.gnunet.org/
+Category: IT
+Category: Filesharing
+Note: @url{git://gnunet.org/bibliography.git}
+
+Title: Going NoPhone
+URL: https://libreplanet.org/wiki/Going_NoPhone
+Category: IT
+
+Title: High performance browser networking
+URL: https://hpbn.co/
+Category: IT
+
+Title: How to learn hacking
+URL: http://www.catb.org/esr/faqs/hacking-howto.html
+Category: IT
+
+Title: IANIX: Various cryptography/DNS/UNIX related things
+URL: https://ianix.com/
+Category: IT
+
+Title: Lightweight unbloated software alternatives
+URL: https://wiki.musl-libc.org/alternatives.html
+Category: Minimalistic
+
+Title: Netiquette Guidelines
+URL: https://tools.ietf.org/html/rfc1855
+Category: NoHello
+
+Title: No hello 0
+URL: https://www.nohello.com/
+Category: NoHello
+
+Title: No hello 1
+URL: https://nohello.club/
+Category: NoHello
+
+Title: No hello 2
+URL: https://nohello.net/
+Category: NoHello
+
+Title: No hello 3
+URL: https://no-hello.com/
+Category: NoHello
+
+Title: No hello 4
+URL: https://nohello.info/
+Category: NoHello
+
+Title: Don't ask to ask, just ask
+URL: https://dontasktoask.com/
+Category: NoHello
+
+Title: How To Ask Questions The Smart Way
+URL: http://catb.org/~esr/faqs/smart-questions.html
+Category: NoHello
+
+Title: No YAML
+URL: https://noyaml.com/
+Category: IT
+
+Title: slashpackage
+URL: https://cr.yp.to/slashpackage.html
+Category: IT
+
+Title: Storage subsystem performance: analysis and recipes
+URL: https://gudok.xyz/sspar/
+Category: IT
+
+Title: Suckless stuff that rocks
+URL: https://suckless.org/rocks/
+Category: Minimalistic
+
+Title: Suckless stuff that sucks
+URL: https://suckless.org/sucks/
+Category: Minimalistic
+
+Title: DJB Way
+URL: http://thedjbway.b0llix.net/
+Category: IT
+
+Title: Things Every Hacker Once Knew
+URL: http://www.catb.org/esr/faqs/things-every-hacker-once-knew/
+Category: IT
+
+Title: This is a better motherfucking website
+URL: http://bettermotherfuckingwebsite.com/
+Category: WWW
+
+Title: This is a motherfucking website
+URL: http://motherfuckingwebsite.com/
+Category: WWW
+
+Title: This is the best motherfucking website
+URL: https://bestmotherfucking.website/
+Category: WWW
+
+Title: The best motherfucking website
+URL: https://thebestmotherfucking.website/
+Category: WWW
+
+Title: www. is not deprecated
+URL: https://www.yes-www.org/
+Category: WWW
+
+Title: You should drop WWW
+URL: https://dropwww.com/why
+Category: WWW
+
+Title: Torvalds about Github's pull request
+URL: https://github.com/torvalds/linux/pull/17
+Category: IT
+
+Title: Unbloated resources in C
+URL: http://bashismal.blogspot.com/2011/10/unbloated-resources-in-c.html
+Category: Minimalistic
+
+Title: UTF-8 Everywhere mafifesto
+URL: http://utf8everywhere.org/
+Category: IT
+
+Title: What every programmer should know about floating point numbers
+URL: https://docs.oracle.com/cd/E19957-01/806-3568/ncg_goldberg.html
+Category: IT
+
+Title: What is wrong with Web crypto
+URL: https://tonyarcieri.com/whats-wrong-with-webcrypto
+Category: IT
+Category: Crypto
+
+Title: Web-based cryptography is always snake oil
+URL: https://www.devever.net/~hl/webcrypto
+Category: IT
+Category: Crypto
+
+Title: Who does not respect Free System Distribution Guidelines
+URL: https://libreplanet.org/wiki/List_of_software_that_does_not_respect_the_Free_System_Distribution_Guidelines
+Category: IT
+
+Title: WhyTheName
+URL: https://wiki.debian.org/WhyTheName
+Category: IT
+Category: Fun
+
+Title: XZ inadequate for long-term archiving
+URL: http://www.nongnu.org/lzip/xz_inadequate.html
+Category: IT
+
+Title: Как грамотно задавать технические вопросы чтобы эффективно общаться и получать ответы
+URL: https://valdikss.org.ru/smart-questions.html
+Category: Russian
+Category: NoHello
+
+Title: Мир Jabber
+URL: https://jabberworld.info/
+Category: Networking
+Category: Russian
+
+Title: Моё разочарование в софте
+URL: https://tonsky.me/blog/disenchantment/ru/
+Category: IT
+Category: Russian
+
+Title: Не привет
+URL: https://neprivet.com/
+Category: Russian
+Category: NoHello
+
+Title: Сайт для любителей ходить босиком и сторонников босоногого образа жизни
+URL: http://www.barefooters.ru/
+Category: Russian
+
+Title: Systemd invasion into Linux Server space
+URL: https://softpanorama.org/Commercial_linuxes/Startup_and_shutdown/Systemd/index.shtml
+Category: Systemd
+
+Title: Arguments against systemd
+URL: https://without-systemd.org/wiki/index_php/Arguments_against_systemd/
+Category: Systemd
+
+Title: SystemD -- it keeps getting worse
+URL: https://chiefio.wordpress.com/2016/05/18/systemd-it-keeps-getting-worse/
+Category: Systemd
+
+Title: Awesome Anti-systemd
+URL: https://awesome-anti-systemd.netlify.app/
+Category: Systemd
+
+Title: I Hate Systemd
+URL: https://ihatesystemd.com/
+Category: Systemd
+
+Title: No systemd
+URL: https://nosystemd.org/
+Category: Systemd
+
+Title: systemd extremely sucks
+URL: https://suckless.org/sucks/systemd/
+Category: Systemd
+
+Title: Наиболее частые заблуждения про Systemd
+URL: https://www.opennet.ru/base/sys/systemd_myth.txt.html
+Category: Systemd
+Category: Russian
+
+Title: systemd, 10 years later: a historical and technical retrospective
+URL: https://blog.darknedgy.net/technology/2020/05/02/0/index.html
+Category: Systemd
+
+Title: systemd-free linux community
+URL: https://sysdfree.wordpress.com/
+Category: Systemd
+
+Title: skarnet's word about systemd
+URL: https://skarnet.org/software/systemd.html
+Category: Systemd
+
+Title: Broken by design: systemd
+URL: http://ewontfix.com/14/
+Category: Systemd
+
+Title: Hyperbola's systemd denial
+URL: https://wiki.hyperbola.info/doku.php?id=en:philosophy:systemd_denial
+Category: Systemd
+
+Title: Adventure Gamer
+URL: https://advgamer.blogspot.com/
+Category: Games
+Feed: https://advgamer.blogspot.com/feeds/posts/default
+
+Title: Emily Short's Interactive Storytelling
+URL: https://emshort.blog/
+Category: Games
+
+Title: Gaming After 40
+URL: http://gamingafter40.blogspot.com/
+Category: Games
+Feed: https://feeds.feedburner.com/GamingAfter40
+
+Title: GET LAMP
+URL: http://www.getlamp.com/
+Category: Games
+
+Title: Hardcore Gaming 101
+URL: http://www.hardcoregaming101.net/
+Category: Games
+
+Title: History of computer entertainment and digital culture by Jimmy Maher
+URL: https://www.filfre.net/
+Category: Games
+Feed: https://www.filfre.net/feed/
+
+Title: Interactive fiction database
+URL: https://ifdb.tads.org/
+Category: Games
+
+Title: Whole IF archive
+URL: https://ifarchive.org/misc/whole-archive.html
+Category: Games
+Category: Filesharing
+
+Title: IFTF's blog
+URL: https://blog.iftechfoundation.org/
+Category: Games
+Feed: https://blog.iftechfoundation.org/atom.xml
+
+Title: Obsessively complete Infocom catalog
+URL: https://eblong.com/infocom/
+Category: Games
+
+Title: Old-Games.RU
+URL: https://www.old-games.ru/
+Category: Games
+Category: Russian
+Category: Oldies
+Category: Podcast
+Category: Vlog
+Feed: https://feeds.feedburner.com/Old-games-ru-news
+Feed: https://feeds.feedburner.com/Old-games-ru
+Feed: https://feeds.feedburner.com/Old-games-ru-files
+Feed: https://feeds.feedburner.com/Old-games-ru-articles
+Feed: http://podcast.old-games.ru/
+
+Title: Ron Gilbert's blog
+URL: https://grumpygamer.com/
+Category: Games
+Feed: https://grumpygamer.com/rss2.0
+
+Title: Society for the Promotion of Adventure Games
+URL: http://www.spagmag.org/
+Category: Games
+
+Title: Super punk-hardcore группа Козий Начёс
+URL: http://koz-naches.narod.ru/
+Category: Music
+Category: Russian
+Category: Fun
+
+Title: Unix Heritage Society mailing list
+URL: https://www.tuhs.org/mailman/listinfo/tuhs
+Category: Maillist
+Category: Oldies
+
+Title: Unix Heritage Society
+URL: https://www.tuhs.org/
+Category: Oldies
+
+Title: Каталог передач "Модель для сборки"
+URL: http://mds-club.ru/cgi-bin/index.cgi?r=84&lang=rus
+Feed: http://www.mds-club.ru/rssxml
+Category: Audiobook
+Category: Russian
+
+Title: Клуб любителей хрюш
+URL: https://www.babai.ru/
+Category: Russian
+Feed: https://www.babai.ru/blog/rss/atom/
+
+Title: Научно-популярно о космосе и астрономии
+URL: https://lozga.livejournal.com/
+Feed: https://lozga.livejournal.com/data/atom/
+Category: Russian
+Category: Aerospace
+
+Title: Новости космоса астрономии и космонавтики
+URL: https://www.astronews.ru/
+Feed: https://www.astronews.ru/astronews.xml
+Category: Russian
+Category: Aerospace
+
+Title: Провайдеры с IPv6
+URL: https://version6.ru/isp
+Category: Russian
+Category: Networking
+
+Title: Bruce Schneier Facts
+URL: https://www.schneierfacts.com/
+Category: Fun
+
+Title: Classic Programmer Paintings
+URL: https://classicprogrammerpaintings.com/
+Category: Fun
+Category: IT
+Feed: https://classicprogrammerpaintings.com/rss
+
+Title: People telling people to execute arbitrary code over the network
+URL: https://curlpipesh.tumblr.com/
+Category: Fun
+Category: IT
+
+Title: turnoff.us
+Note: Geek comic site
+URL: https://turnoff.us/
+Category: Fun
+Category: IT
+Feed: https://turnoff.us/feed.xml
+
+Title: Typeset in the future
+URL: https://typesetinthefuture.com/
+Category: Fun
+
+Title: Yet another Perl hacks
+URL: japhs.txt
+Category: Fun
+Category: IT
+
+Title: Darkside
+URL: https://www.darkside.ru/
+Category: Music
+Category: Russian
+Feed: https://www.darkside.ru/news/rss/
+Feed: https://www.darkside.ru/reviews/rss/
+
+Title: Сводная афиша московских рок-концертов
+URL: https://rockgig.net/
+Category: Music
+Category: Russian
+Category: Aggregator
+
+Title: Jason Scott Talks His Way Out of It
+URL: http://ascii.textfiles.com/podcast
+Category: Personal
+Category: Podcast
+Feed: https://textfiles.libsyn.com/rss
+
+Title: Eaten By A Grue the Infocom podcast
+URL: https://monsterfeet.com/grue/
+Category: Games
+Category: Podcast
+Feed: https://feeds.libsyn.com/91191/rss
+
+Title: Links As A Service
+URL: https://inks.tedunangst.com/
+Category: Aggregator
+Category: IT
+Feed: https://inks.tedunangst.com/rss
+
+Title: linux.org.ru
+URL: https://www.linux.org.ru/
+Category: IT
+Category: Aggregator
+Category: Russian
+Feed: https://www.linux.org.ru/section-rss.jsp
+
+Title: Lobsters link-aggregator
+URL: https://lobste.rs/
+Category: IT
+Category: Aggregator
+Feed: https://lobste.rs/rss
+
+Title: n-gate blog
+URL: http://n-gate.com/
+Category: IT
+Category: Aggregator
+Feed: http://n-gate.com/index.atom
+
+Title: OpenNet
+URL: https://www.opennet.ru/
+Category: IT
+Category: Aggregator
+Category: Russian
+Feed: https://www.opennet.ru/opennews/opennews_all.rss
+Feed: https://www.opennet.ru/rss.shtml?last_tips
+
+Title: Хабр
+URL: https://habr.com/
+Category: IT
+Category: Aggregator
+Category: Russian
+Feed: https://habr.com/ru/rss/interesting/
+Feed: https://habr.com/ru/rss/news/
+Feed: https://habr.com/en/rss/articles/all/
+
+Title: Go blog
+URL: https://blog.golang.org/
+Category: Go
+Feed: https://go.dev/blog/feed.atom
+
+Title: FSF news
+URL: https://www.fsf.org/news
+Category: IT
+Feed: https://static.fsf.org/fsforg/rss/news.xml
+
+Title: FSF blogs
+URL: https://www.fsf.org/blogs
+Category: Aggregator
+Category: IT
+Feed: https://static.fsf.org/fsforg/rss/blogs.xml
+
+Title: Technical Death Metal
+URL: http://technicaldeathmetal.org/
+Category: Music
+Feed: http://technicaldeathmetal.org/feed/
+
+Title: Harmful stuff blog
+URL: http://harmful.cat-v.org/Blog/
+Category: IT
+Feed: http://harmful.cat-v.org/Blog/index.atom
+
+Title: Daemonic Dispatches
+Note: Musings from Colin Percival
+URL: http://www.daemonology.net/blog/
+Category: IT
+Category: Personal
+Feed: http://www.daemonology.net/blog/index.rss
+
+Title: FreeBSD news
+URL: https://www.freebsd.org/news/
+Category: IT
+Feed: https://www.freebsd.org/press/feed.xml
+Feed: https://www.freebsd.org/news/feed.xml
+
+Title: ScummVM news
+URL: https://www.scummvm.org/
+Category: Games
+Feed: https://www.scummvm.org/feeds/rss/
+
+Title: Interactive Fiction Archive
+URL: http://www.ifarchive.org/
+Category: Games
+Feed: http://www.ifarchive.org/indexes/archive.rss
+
+Title: XKCD
+URL: https://xkcd.com/
+Category: Fun
+Feed: https://xkcd.com/atom.xml
+
+Title: Allbackup
+Note: системы резервного копирования
+URL: https://www.allbackup.ru/
+Category: IT
+Category: Russian
+Feed: https://www.allbackup.ru/rss/
+
+Title: Michael Warren Lucas blog
+URL: https://mwl.io/
+Category: IT
+Feed: https://mwl.io/feed
+
+Title: John R. Levine's blog
+URL: https://jl.ly/
+Category: IT
+Category: Personal
+Feed: https://jl.ly/index.rss
+
+Title: Новости и аналитика телекоммуникаций
+URL: https://nag.ru/
+Category: Networking
+Category: Russian
+Feed: https://nag.ru/rss/all
+
+Title: Новости из мира тяжелой музыки
+URL: http://www.heavymusic.ru/
+Category: Music
+Category: Russian
+Feed: http://www.heavymusic.ru/rss.php
+Feed: http://www.heavymusic.ru/mskrss.php
+
+Title: Nikita Prokopov's blog
+Category: IT
+Category: Russian
+URL: https://tonsky.me/
+Feed: https://tonsky.me/atom.xml
+
+Title: Martin Matuška's blog
+URL: https://blog.vx.sk/
+Category: IT
+Category: Personal
+Feed: https://blog.vx.sk/feed
+
+Title: Журнал Владимира И.
+URL: https://vgiv.livejournal.com/
+Category: IT
+Category: Russian
+Category: Personal
+Feed: https://vgiv.livejournal.com/data/atom
+
+Title: Random bits from Greg Kroah-Hartman
+URL: http://www.kroah.com/log/
+Category: IT
+Category: Personal
+Feed: http://www.kroah.com/log/index.rss
+
+Title: Мой блог
+URL: http://blog.stargrave.org/
+Category: IT
+Category: Russian
+Category: Personal
+Feed: http://blog.stargrave.org/russian/feed.atom
+Feed: http://blog.stargrave.org/russian/comments.atom
+
+Title: Christian Rebischke's blog
+URL: https://shibumi.dev/posts/
+Category: IT
+Category: Personal
+Feed: https://shibumi.dev/posts/index.xml
+
+Title: nasse's blog
+URL: https://nasse.livejournal.com/
+Feed: https://nasse.livejournal.com/data/atom
+Category: Russian
+Category: Personal
+
+Title: Fabien Sanglard's blog
+URL: https://fabiensanglard.net/
+Category: IT
+Category: Personal
+Feed: https://fabiensanglard.net/rss.xml
+
+Title: Suckless project
+URL: https://suckless.org/
+Category: IT
+Feed: https://suckless.org/atom.xml
+
+Title: Old-Hard
+URL: https://old-hard.ru/
+Category: Games
+Category: Russian
+Category: Oldies
+Feed: https://old-hard.ru/rss/
+
+Title: Jeffrey Paul's blog
+URL: https://sneak.berlin/
+Category: IT
+Category: Personal
+Feed: https://sneak.berlin/feed.xml
+
+Title: time-nuts
+Note: Discussion of precise time and frequency measurement
+URL: http://lists.febo.com/mailman/listinfo/time-nuts_lists.febo.com
+Category: IT
+Category: Maillist
+
+Title: Taylor UUCP discussion
+URL: https://mail.gnu.org/mailman/listinfo/uucp-general
+Category: IT
+Category: Maillist
+
+Title: Debian russian discussion
+URL: https://lists.debian.org/debian-russian/
+Category: IT
+Category: Maillist
+
+Title: Suckless community
+URL: https://suckless.org/community/
+Category: IT
+Category: Maillist
+
+Title: Gopher protocol discussion
+URL: https://lists.debian.org/gopher-project/
+Category: IT
+Category: Maillist
+
+Title: PKI clean room discussion
+URL: https://alioth-lists.debian.net/cgi-bin/mailman/listinfo/pki-clean-room-devel
+Category: IT
+Category: Maillist
+
+Title: Sijmen J. Mulder's textonly websites collection
+URL: https://sjmulder.nl/en/textonly.html
+Category: IT
+Category: Aggregator
+
+Title: acha.ninja's blog
+URL: https://acha.ninja/
+Category: IT
+Category: Personal
+Feed: https://acha.ninja/index.xml
+
+Title: Make на мыло, redo сила
+Category: Redo
+Category: Russian
+URL: https://habr.com/ru/post/517490/
+
+Title: My love letter to redo
+Category: Redo
+URL: https://fzakaria.com/2020/06/08/my-love-letter-to-redo.html
+
+Title: apenwarr/redo documentation
+Category: Redo
+URL: https://redo.readthedocs.io/en/latest/
+
+Title: Only build system that might someday replace make... is djb redo
+Category: Redo
+URL: https://apenwarr.ca/log/20101214
+
+Title: redo implementation comparison
+Category: Redo
+URL: http://news.dieweltistgarnichtso.net/bin/redo-sh.html#implementation-comparison
+
+Title: Introduction to redo
+Category: Redo
+URL: https://jdebp.uk/FGA/introduction-to-redo.html
+
+Title: daemontools family
+Category: Systemd
+URL: https://jdebp.uk/FGA/daemontools-family.html
+
+Title: zsh tips and tricks
+Category: Zsh
+URL: https://strcat.de/zsh/
+
+Title: zsh-lovers
+Category: Zsh
+URL: https://grml.org/zsh/zsh-lovers.html
+
+Title: zshexamples.1
+Category: Zsh
+URL: http://www.strcat.de/eigenes/zshexamples.1
+
+Title: User's Guide to the Z-Shell
+Category: Zsh
+URL: https://zsh.sourceforge.net/Guide/zshguide.html
+
+Title: ZSH Tips by ZZapper
+Category: Zsh
+URL: http://zzapper.co.uk/zshtips.html
+
+Title: Библиотека Либрусек
+Category: Filesharing
+Category: Russian
+URL: https://rutracker.org/forum/viewtopic.php?t=5096338
+
+Title: Библиотека Либрусек, не только FictionBook2
+Category: Filesharing
+Category: Russian
+URL: https://rutracker.org/forum/viewtopic.php?t=5993900
+
+Title: Библиотека Флибуста
+Category: Filesharing
+Category: Russian
+URL: https://rutracker.org/forum/viewtopic.php?t=5462398
+
+Title: Библиотека Флибуста (полная)
+Category: Filesharing
+Category: Russian
+URL: https://rutracker.org/forum/viewtopic.php?t=5649566
+
+Title: RetroPie
+Note: Retro-gaming on the Raspberry Pi
+Category: Games
+URL: https://retropie.org.uk/
+
+Title: Информационная система "Ёшкин Кот"
+Category: Filesharing
+Category: Russian
+URL: https://rutracker.org/forum/viewtopic.php?t=745296
+
+Title: ArjLover фильмы и мультики
+Category: Filesharing
+Category: Russian
+URL: http://multiki.arjlover.net/
+
+Title: PirateBay mirror
+Category: Filesharing
+URL: https://www1.thepiratebay3.to/
+
+Title: Pirate Proxy List
+Category: Filesharing
+URL: https://pirateproxy.readthedocs.io/
+
+Title: FreeBSD ISOs
+Category: IT
+Category: Filesharing
+URL: https://wiki.freebsd.org/Torrents
+
+Title: Stack Exchange Data Dump
+Category: Filesharing
+URL: https://archive.org/details/stackexchange
+
+Title: Сборник передач "Модель для сборки"
+Category: Audiobook
+Category: Russian
+URL: http://www.mds.cypherpunks.ru/
+
+Title: Total DOS Collection #21
+Category: Games
+Category: Filesharing
+URL: https://rutracker.org/forum/viewtopic.php?t=6400135
+
+Title: OpenDNS
+Category: DNS
+URL: https://www.opendns.com/
+Note:
++ @code{2620:0:ccc::2},
++ @code{2620:0:ccd::2},
++ @code{208.67.222.2},
++ @code{208.67.220.2}
+
+Title: Yandex
+Category: DNS
+URL: https://dns.yandex.ru/
+Note:
++ @code{2a02:6b8::feed:0ff},
++ @code{2a02:6b8:0:1::feed:0ff},
++ @code{77.88.8.8},
++ @code{77.88.8.1}
+
+Title: Google
+Category: DNS
+URL: https://en.wikipedia.org/wiki/Google_Public_DNS
+Note:
++ @code{2001:4860:4860::8888},
++ @code{2001:4860:4860::8844},
++ @code{8.8.8.8},
++ @code{8.8.4.4}
+
+Title: DNSSEC Resolver Test
+Category: DNS
+URL: http://verteiltesysteme.net/
+Note: sigok.verteiltesysteme.net, sigfail.verteiltesysteme.net
+
+Title: НСДИ
+Category: DNS
+Category: Russian
+URL: https://labs.ripe.net/media/documents/Утвержденная_инструкция_по_НСДИ_1.pdf
+Note:
++ a.res-nsdi.ru (@code{195.208.4.1}, @code{2a0c:a9c7:8::1}),
++ b.res-nsdi.ru (@code{195.208.5.1}, @code{2a0c:a9c7:9::1}),
++ a.auth-nsdi.ru (@code{195.208.6.1}, @code{2a0c:a9c7:a::1}),
++ b.auth-nsdi.ru (@code{195.208.7.1}, @code{2a0c:a9c7:b::1})
+
+Title: Google's public NTP
+Category: NTP
+URL: https://developers.google.com/time/
+Note:
++ @code{time.google.com},
++ @code{time1.google.com},
++ @code{time2.google.com},
++ @code{time3.google.com},
++ @code{time4.google.com}
+
+Title: ФГУП "ВНИИФТРИ"
+Category: NTP
+URL: https://vniiftri.ru/catalog/services/sinkhronizatsiya-vremeni-cherez-ntp-servera/
+Note:
++ @code{ntp1.vniiftri.ru},
++ @code{ntp2.vniiftri.ru},
++ @code{ntp3.vniiftri.ru},
++ @code{ntp4.vniiftri.ru},
++ @code{ntp1.niiftri.irkutsk.ru},
++ @code{ntp2.niiftri.irkutsk.ru},
++ @code{vniiftri.khv.ru},
++ @code{vniiftri2.khv.ru},
++ @code{ntp.sstf.nsk.ru}
+
+Title: HSDN NTP серверы
+Category: NTP
+URL: https://www.ntp-servers.net/servers.html
+Note:
++ Stratum 1:
++ @code{ntp0.ntp-servers.net},
++ @code{ntp1.ntp-servers.net},
++ @code{ntp2.ntp-servers.net},
++ @code{ntp3.ntp-servers.net},
++ Stratum 2:
++ @code{ntp4.ntp-servers.net},
++ @code{ntp5.ntp-servers.net},
++ @code{ntp6.ntp-servers.net},
++ @code{ntp7.ntp-servers.net}
+
+Title: IETF's leap seconds database
+Category: NTP
+URL: https://www.ietf.org/timezones/data/leap-seconds.list
+
+Title: List of public NTP servers
+Category: NTP
+URL: https://gist.github.com/mutin-sa/eea1c396b1e610a2da1e5550d94b0453
+
+Title: Russian pool.ntp.org servers
+Category: NTP
+URL: https://www.pool.ntp.org/zone/ru
+Note:
++ @code{0.ru.pool.ntp.org},
++ @code{1.ru.pool.ntp.org},
++ @code{2.ru.pool.ntp.org},
++ @code{3.ru.pool.ntp.org}
+
+Title: Email authentication validness check
+Category: Mail
+URL: mailto:check-auth@verifier.port25.com
+Note: @code{check-auth-jsmith=yourdomain.com@@verifier.port25.com}
+
+Title: Mail blacklist check
+Category: Mail
+URL: https://mxtoolbox.com/blacklists.aspx
+
+Title: Project Gutenberg mirroring
+Category: Filesharing
+URL: http://gutenberg.org/help/mirroring.html
+
+Title: golang.org/x/tools/cmd/stringer
+Note: fmt.Stringer interface code generator
+Category: Go
+URL: https://pkg.go.dev/golang.org/x/tools/cmd/stringer
+
+Title: github.com/tim-st/go-zim
+Note: @url{https://en.wikipedia.org/wiki/ZIM_(file_format), ZIM} viewer
+Category: Go
+URL: https://github.com/tim-st/go-zim
+
+Title: golang.org/x/tools/cmd/goimports
+Note: @command{go fmt} with imports autofixing
+Category: Go
+URL: https://pkg.go.dev/golang.org/x/tools/cmd/goimports
+
+Title: golang.org/x/tools/gopls
+Note: @url{https://en.wikipedia.org/wiki/Language_Server_Protocol, LSP} server
+Category: Go
+URL: https://pkg.go.dev/golang.org/x/tools/gopls
+
+Title: golang.org/x/tools/cmd/godoc
+Note: Web-based documentation
+Category: Go
+URL: https://pkg.go.dev/golang.org/x/tools/cmd/godoc
+
+Title: github.com/zmb3/gogetdoc
+Note: Utility for querying documentation
+Category: Go
+URL: https://github.com/zmb3/gogetdoc
+
+Title: github.com/viktomas/godu
+Note: What directories take much space
+Category: Go
+URL: https://github.com/viktomas/godu
+
+Title: github.com/goware/modvendor
+Note: Copy additional files to @file{vendor} directory
+Category: Go
+URL: https://github.com/goware/modvendor
+
+Title: github.com/securego/gosec/cmd/gosec
+Note: Go security checker
+Category: Go
+URL: https://github.com/securego/gosec
+
+Title: github.com/davecgh/go-spew/spew
+Note: Deep pretty printer
+Category: Go
+URL: https://github.com/davecgh/go-spew
+
+Title: Text-Based User Interfaces
+Category: Go
+URL: https://appliedgo.net/tui/
+
+Title: github.com/itchyny/gojq/cmd/gojq
+Note: JSON CLI processor
+Category: Go
+URL: https://github.com/itchyny/gojq
+
+Title: github.com/skanehira/gjo
+Note: JSON CLI creator
+Category: Go
+URL: https://github.com/skanehira/gjo
+
+Title: github.com/goproxy/goproxy
+Note: GOPROXY protocol server
+Category: Go
+URL: https://github.com/goproxy/goproxy
+
+Title: github.com/golangci/golangci-lint/cmd/golangci-lint
+Note: Linters aggregator
+Category: Go
+URL: https://github.com/golangci/golangci-lint
+
+Title: honnef.co/go/tools/cmd/staticcheck
+Note: Static checker
+Category: Go
+URL: https://staticcheck.dev/docs/
+
+Title: Farid Zakaria's blog
+Category: IT
+Category: Personal
+URL: https://fzakaria.com/
+Feed: https://fzakaria.com/feed.xml
+
+Title: Eugeny Grosbein's blog
+Category: IT
+Category: Personal
+Category: Russian
+URL: https://dadv.livejournal.com/
+Feed: https://dadv.livejournal.com/data/rss
+
+Title: Klara Systems FreeBSD related articles
+Category: IT
+URL: https://klarasystems.com/articles/
+Feed: https://klarasystems.com/feed/
+
+Title: Webring
+Category: Aggregator
+Category: Personal
+URL: https://webring.xxiivv.com/
+
+Title: Michael Wolf's blog
+Category: IT
+Category: Personal
+URL: https://wolfmd.me/
+Feed: https://wolfmd.me/feed.xml
+
+Title: github.com/go-delve/delve/cmd/dlv
+Note: Delve debugger
+Category: Go
+URL: https://github.com/go-delve/delve
+
+Title: github.com/gabstv/go-bsdiff
+Note: Pure Go implementation of bsdiff/bspatch
+Category: Go
+URL: https://github.com/gabstv/go-bsdiff
+
+Title: Hisham H. Muhammad's blog
+Category: IT
+Category: Personal
+URL: https://hisham.hm/category/en_us/
+Feed: https://hisham.hm/feed/atom/
+
+Title: github.com/edi9999/path-extractor/path-extractor
+Note: Path extractor from stdin data
+Category: Go
+URL: https://github.com/edi9999/path-extractor
+
+Title: Jacek Fedoryński's blog
+Category: IT
+Category: Personal
+URL: https://blog.jfedor.org/
+Feed: https://blog.jfedor.org/feeds/posts/default
+
+Title: Mike Stone's blog
+Category: IT
+Category: Personal
+URL: https://mikestone.me/
+Feed: https://mikestone.me/feed.xml
+
+Title: Karl Bartel's blog
+Category: IT
+Category: Personal
+URL: https://www.karl.berlin/
+Feed: https://www.karl.berlin/atom.xml
+
+Title: Jeff Atwood's blog
+Category: IT
+Category: Personal
+URL: https://blog.codinghorror.com/
+Feed: https://blog.codinghorror.com/rss/
+
+Title: jlelse's blog
+Category: IT
+Category: Personal
+URL: https://jlelse.blog/
+Feed: https://jlelse.blog/.atom
+
+Title: Big list of personal websites
+Category: IT
+Category: Aggregator
+URL: http://biglist.terraaeon.com/
+
+Title: Filippo Valsorda's blog
+Category: IT
+Category: Crypto
+URL: https://words.filippo.io/
+Feed: https://words.filippo.io/rss/
+
+Title: Bulletproof TLS Newsletter
+Category: IT
+Category: Crypto
+URL: https://www.feistyduck.com/newsletter/
+Feed: https://www.feistyduck.com/newsletter/feed
+
+Title: NetHackWiki
+Category: Games
+URL: https://nethackwiki.com/wiki/Main_Page
+
+Title: NetHack wikia download
+Category: Games
+Category: Filesharing
+URL: https://nethackwiki.com/wiki/NetHackWiki:Download
+
+Title: NetHack 4 blog
+Category: IT
+Category: Games
+URL: http://nethack4.org/blog/
+
+Title: Miguel de Icaza's blog
+Category: IT
+Category: Personal
+URL: https://tirania.org/blog/
+Feed: https://tirania.org/blog/miguel.rss2
+
+Title: Rodrigo Copetti's blog
+Category: IT
+Category: Personal
+URL: https://www.copetti.org/
+Feed: https://www.copetti.org/index.xml
+
+Title: Blain Smith's blog
+Category: IT
+Category: Personal
+URL: https://blainsmith.com/
+Feed: https://blainsmith.com/rss.xml
+
+Title: Krishna Sundarram's blog
+Category: IT
+Category: Personal
+URL: https://blog.nindalf.com/
+Feed: https://blog.nindalf.com/index.xml
+
+Title: Mechanical keyboard overview
+Category: Keyswitch
+URL: https://wiki.installgentoo.com/wiki/Mechanical_keyboards
+
+Title: List of keyboard switches
+Category: Keyswitch
+URL: https://en.wikipedia.org/wiki/List_of_keyboard_switches
+
+Title: DKIM and maillists
+Category: Mail
+URL: https://wiki.list.org/DEV/DKIM
+
+Title: Data-Oriented Design
+Category: IT
+URL: https://www.dataorienteddesign.com/dodbook/
+
+Title: Naked Science -- новости науки
+Category: Russian
+URL: https://naked-science.ru/
+Feed: https://naked-science.ru/?yandex_feed=news
+
+Title: Книги А.В.Столярова
+Category: IT
+Category: Russian
+URL: http://www.stolyarov.info/books
+
+Title: Hitchhiker's Guide to Online Anonymity
+Category: IT
+URL: https://anonymousplanet.org/guide.html
+Note: @url{https://github.com/AnonymousPlanet/thgtoa.git, git repository}
+
+Title: Ben Hoyt's technical writings
+Category: IT
+Category: Personal
+URL: https://benhoyt.com/writings/
+Feed: https://benhoyt.com/writings/rss.xml
+
+Title: Сети для самых маленьких
+Category: Networking
+Category: Russian
+URL: https://linkmeup.ru/sdsm/
+
+Title: Tubsta's blog
+Category: IT
+Category: Personal
+URL: https://www.tubsta.com/
+Feed: https://www.tubsta.com/feed/
+
+Title: Nan Xiao's blog
+Category: IT
+Category: Personal
+URL: https://nanxiao.me/en/
+Feed: https://nanxiao.me/en/feed/
+
+Title: Flatpak -- a security nightmare
+Category: Systemd
+URL: http://flatkill.org/
+
+Title: Konstantin Ryabitsev's blog
+Category: IT
+Category: Personal
+URL: https://people.kernel.org/monsieuricon/
+Feed: https://people.kernel.org/monsieuricon/feed/
+
+Title: Norway problem (StrictYAML)
+Category: IT
+Category: Fun
+URL: https://hitchdev.com/strictyaml/why/implicit-typing-removed/
+
+Title: Michael Prokop's blog
+Category: IT
+Category: Personal
+URL: https://michael-prokop.at/blog/
+Feed: https://michael-prokop.at/blog/feed/atom/
+
+Title: RetroAhoy playlist
+Category: Games
+Category: Vlog
+URL: https://www.youtube.com/playlist?list=PLOQZmjD6P2Hk9m-sEG_fouQrtzjOC3-pQ
+
+Title: Lars Wirzenius'es blog
+Category: IT
+Category: Personal
+URL: https://blog.liw.fi/
+Feed: https://blog.liw.fi/index.atom
+
+Title: Danila Kutenin's blog
+Category: IT
+Category: Personal
+URL: https://danlark.org/
+Feed: https://danlark.org/feed/
+
+Title: Sane software manifesto
+Category: IT
+URL: https://sane-software.globalcode.info/
+
+Title: Блог "Электронный миссионер"
+Category: IT
+Category: Personal
+Category: Russian
+URL: https://dlinyj.livejournal.com/
+Feed: https://dlinyj.livejournal.com/data/atom
+
+Title: Library Genesis torrents
+Category: Filesharing
+URL: http://libgen.rs/scimag/repository_torrent/
+
+Title: 0 pointer blog
+Category: IT
+Category: Personal
+URL: http://0pointer.net/blog/
+Feed: http://0pointer.net/blog/index.atom
+
+Title: A brief introduction to esoteric languages
+Category: IT
+URL: https://www.hillelwayne.com/talks/esolangs/
+
+Title: Wojciech Siewierski's blog
+Category: IT
+Category: Personal
+URL: https://blog.einval.eu/
+Feed: https://blog.einval.eu/index.xml
+
+Title: List of JSON tools for command line
+Category: IT
+URL: https://ilya-sher.org/2018/04/10/list-of-json-tools-for-command-line/
+
+Title: Ilya Sher's blog
+Category: IT
+Category: Personal
+URL: https://ilya-sher.org/
+Feed: https://ilya-sher.org/feed/
+
+Title: Soviet digital electronics museum
+Category: Oldies
+URL: http://www.leningrad.su/museum/
+
+Title: Pizza Box Computer blog
+Category: IT
+Category: Personal
+URL: https://blog.pizzabox.computer/
+
+Title: Daniel Lemire's blog
+Category: IT
+Category: Personal
+URL: https://lemire.me/blog/
+Feed: https://lemire.me/blog/feed/
+
+Title: NO_COLOR
+Category: IT
+URL: http://no-color.org/
+
+Title: Surprisingly Turing-Complete
+Category: IT
+URL: https://gwern.net/turing-complete
+
+Title: IPv6 operators forum
+URL: http://lists.cluenet.de/mailman/listinfo/ipv6-ops
+Category: Networking
+Category: Maillist
+
+Title: Компьютерная ностальгия
+Note: Старое железо, старый софт и прочее
+Category: Russian
+Category: Oldies
+URL: http://nostalgy.net.ru/
+
+Title: Bastian Venthur's blog
+Category: IT
+Category: Personal
+URL: https://venthur.de/
+Feed: https://venthur.de/atom.xml
+
+Title: Dynamic Linking sucks
+Category: DynLinking
+URL: http://harmful.cat-v.org/software/dynamic-linking/
+
+Title: static linux FAQ
+Category: DynLinking
+URL: https://sta.li/faq/
+
+Title: ldd arbitrary code execution
+Category: DynLinking
+URL: https://catonmat.net/ldd-arbitrary-code-execution
+
+Title: Static Linking Considered Harmful
+Category: DynLinking
+URL: https://akkadia.org/drepper/no_static_linking.html
+
+Title: Versioned Symbols -- A New Level of Hell
+Category: DynLinking
+URL: http://harmful.cat-v.org/software/dynamic-linking/versioned-symbols
+
+Title: On the Effectiveness of Address-Space Randomization
+Category: DynLinking
+URL: https://benpfaff.org/papers/asrandom.pdf
+
+Title: Breaking the links: Exploiting the linker
+Category: DynLinking
+URL: http://www.nth-dimension.org.uk/pub/BTL.pdf
+
+Title: "Static Linking Considered Harmful" Considered Harmful
+Category: DynLinking
+URL: https://gavinhoward.com/2021/10/static-linking-considered-harmful-considered-harmful/
+
+Title: Dynamic linking
+Category: DynLinking
+URL: https://drewdevault.com/dynlib.html
+
+Title: Shared libraries diamond problem
+Category: DynLinking
+URL: https://blog.habets.se/2012/05/Shared-libraries-diamond-problem.html
+
+Title: Shared libraries and dynamic linking
+Category: DynLinking
+URL: http://port70.net/~nsz/32_dynlink.html
+
+Title: Carlos Alexandro Becker's blog
+Category: IT
+Category: Personal
+URL: https://carlosbecker.com/posts/
+Feed: https://carlosbecker.com/posts/index.xml
+
+Title: Andrew Kelley's blog
+Category: IT
+Category: Personal
+URL: https://andrewkelley.me/
+Feed: https://andrewkelley.me/rss.xml
+
+Title: Rare and Old computers blog
+Category: Oldies
+URL: https://randoc.wordpress.com/
+Feed: https://randoc.wordpress.com/feed/
+
+Title: Jay R. Jaeger's computer collection
+Category: Oldies
+URL: https://www.computercollection.net/index.php/the-computer-collection/
+Feed: https://www.computercollection.net/index.php/feed/
+
+Title: Brian Robert Callahan's blog
+Category: IT
+Category: Personal
+URL: https://briancallahan.net/blog/
+Feed: https://briancallahan.net/blog/feed.xml
+
+Title: UCSPI related links
+Category: IT
+URL: https://jdebp.uk/FGA/UCSPI.html
+
+Title: Unix history
+Category: Oldies
+URL: https://www.levenez.com/unix/
+
+Title: Ctrl blog by Daniel Aleksandersen
+Category: IT
+Category: Personal
+URL: https://www.ctrl.blog/
+Feed: https://feed.ctrl.blog/latest.atom
+
+Title: Titans of Text
+Note: Titans from the text gaming community
+Category: Games
+Category: Podcast
+URL: https://www.titansoftext.com/
+
+Title: Planet interactive fiction
+Category: Aggregator
+Category: Games
+URL: https://planet-if.com/
+Feed: https://planet-if.com/atom.xml
+
+Title: GitHub blog
+Category: IT
+URL: https://github.blog/
+Feed: https://github.blog/feed/
+
+Title: Kelly Brazil's blog
+Category: IT
+Category: Personal
+URL: https://blog.kellybrazil.com/category/all-posts/
+Feed: https://blog.kellybrazil.com/feed/
+
+Title: Chips and Cheese blog
+Category: IT
+URL: https://chipsandcheese.com/
+
+Title: Ariadne Conill's blog
+Category: IT
+Category: Personal
+URL: https://ariadne.space/
+Feed: https://ariadne.space/atom.xml
+
+Title: In Support of Richard Stallman
+Category: IT
+URL: https://stallmansupport.org/
+
+Title: Сообщество любителей интерактивной литературы
+Category: Games
+Category: Russian
+URL: https://ifhub.club/
+Feed: https://ifhub.club/rss/index/
+
+Title: Блог hugeping'а
+Category: IT
+Category: Personal
+Category: Russian
+URL: https://hugeping.ru/
+Feed: https://hugeping.ru/atom.xml
+
+Title: Микроблог hugeping'а
+Category: IT
+Category: Personal
+Category: Russian
+URL: https://club.hugeping.ru/blog/std.hugeping.micro
+Feed: https://club.hugeping.ru/blog/echo+topics/std.hugeping.micro/rss
+
+Title: Starring the computer
+Note: Computers in movies and television
+Category: IT
+Category: Fun
+URL: http://www.starringthecomputer.com/
+Feed: http://www.starringthecomputer.com/stc.rss
+
+Title: ZIM files for Kiwix
+Category: Filesharing
+URL: http://download.kiwix.org/zim/
+
+Title: Jim Nielsen's blog
+Category: IT
+Category: Personal
+URL: https://blog.jim-nielsen.com/
+Feed: https://blog.jim-nielsen.com/feed.xml
+
+Title: Noah Bailey's blog
+Category: IT
+Category: Personal
+URL: https://nbailey.ca/
+Feed: https://nbailey.ca/post/index.xml
+
+Title: Nils M Holm's homepage
+Category: IT
+Category: Personal
+URL: https://t3x.org/
+
+Title: Kevin Cox's blog
+Category: IT
+Category: Personal
+URL: https://kevincox.ca/posts/
+Feed: https://kevincox.ca/feed.atom
+
+Title: InvisibleUp's blog
+Category: IT
+Category: Personal
+URL: http://invisibleup.com/articles/
+Feed: http://invisibleup.com/atom.xml
+
+Title: Sites with /now page
+Category: Aggregator
+URL: https://nownownow.com/
+
+Title: Netflix TechBlog
+Category: IT
+URL: https://netflixtechblog.com/
+Feed: https://netflixtechblog.com/feed
+
+Title: Блог Сергея Бронникова
+Category: IT
+Category: Personal
+Category: Russian
+URL: https://bronevichok.ru/posts.html
+Feed: https://feeds.feedburner.com/bronevichok
+
+Title: Stephen Marz'es blog
+Category: IT
+Category: Personal
+URL: https://blog.stephenmarz.com/archives/
+Feed: https://blog.stephenmarz.com/feed/
+
+Title: Richard Geldreich's blog
+Category: IT
+Category: Personal
+URL: https://richg42.blogspot.com/
+Feed: https://richg42.blogspot.com/feeds/posts/default
+
+Title: Goran Mekić's blog
+Category: IT
+Category: Personal
+URL: https://meka.rs/
+Feed: https://meka.rs/feeds/atom.xml
+
+Title: Use plaintext email
+Category: Mail
+URL: https://useplaintext.email/
+
+Title: Jan Schaumann's blog
+Category: Networking
+Category: Personal
+URL: https://www.netmeister.org/blog/
+Feed: https://www.netmeister.org/blog/rss.xml
+
+Title: Си должен умереть
+Category: IT
+Category: Russian
+URL: http://cmustdie.com/
+
+Title: Rust: не дайте себе заржаветь
+Category: IT
+Category: Russian
+URL: http://rustmustdie.com/
+
+Title: Benny Siegert's blog
+Category: IT
+Category: Personal
+URL: https://bentsukun.ch/
+Feed: https://bentsukun.ch/index.xml
+
+Title: LLVM project's blog
+Category: IT
+URL: https://blog.llvm.org/
+Feed: https://blog.llvm.org/index.xml
+
+Title: John Regehr's blog
+Category: IT
+Category: Personal
+URL: https://blog.regehr.org/
+Feed: https://blog.regehr.org/feed
+
+Title: Nigel Tao's blog
+Category: IT
+Category: Personal
+URL: https://nigeltao.github.io/
+Feed: https://nigeltao.github.io/feed.xml
+
+Title: Новая реальность -- информационный игровой портал
+Category: Games
+URL: http://tv-games.ru/
+Feed: http://tv-games.ru/rss
+
+Title: Francesco Mazzoli's blog
+Category: IT
+Category: Personal
+URL: https://mazzo.li/archive.html
+Feed: https://mazzo.li/rss.xml
+
+Title: Книги кодов и описаний игр
+URL: https://rutracker.org/forum/viewtopic.php?t=3758536
+Category: Games
+Category: Filesharing
+Note: Sega, Dendy (NES), PlayStation, Panasonic 3DO, IBM PC, ZX Spectrum, ...
+
+Title: Andrew Healey's blog
+Category: IT
+Category: Personal
+URL: https://healeycodes.com/
+Feed: https://healeycodes.com/feed.xml
+
+Title: Yarmo Mackenbach's blog
+Category: IT
+Category: Personal
+URL: https://yarmo.eu/blog/
+Feed: https://yarmo.eu/blog/atom.xml
+
+Title: madflex'es blog
+Category: IT
+Category: Personal
+URL: https://madflex.de/
+Feed: https://madflex.de/rss.xml
+
+Title: Armin Ronacher's blog
+Category: IT
+Category: Personal
+URL: https://lucumr.pocoo.org/
+Feed: https://lucumr.pocoo.org/feed.atom
+
+Title: Beto Dealmeida's blog
+Category: IT
+Category: Personal
+URL: https://blog.taoetc.org/
+Feed: https://blog.taoetc.org/atom.xml
+
+Title: Rev Adrian Kennard's blog
+Category: IT
+Category: Personal
+URL: https://www.revk.uk/
+Feed: https://www.revk.uk/feeds/posts/default
+
+Title: Marginalia's blog
+Category: IT
+Category: Personal
+URL: https://www.marginalia.nu/log/
+Feed: https://www.marginalia.nu/index.xml
+
+Title: Кремниевые титаны
+Category: Oldies
+Category: Russian
+Category: Vlog
+URL: https://www.youtube.com/playlist?list=PL5FMLPRj1j6KNnS37Tmf6gBXx4CQXvv59
+
+Title: 16-бит тому назад
+Category: Oldies
+Category: Russian
+Category: Vlog
+URL: https://www.youtube.com/playlist?list=PLBA68328887456395
+
+Title: Neel Chauhan's blog
+Category: IT
+Category: Personal
+URL: https://www.neelc.org/posts/
+Feed: https://www.neelc.org/index.xml
+
+Title: Daniel Estévez's blog
+Category: IT
+Category: Personal
+URL: https://destevez.net/
+Feed: https://destevez.net/feed/
+
+Title: Agnessa Bukowska's blog
+Category: IT
+Category: Personal
+Category: Russian
+URL: http://agnessa.pp.ru/
+Feed: http://agnessa.pp.ru/rss.xml
+
+Title: Fangrui Song's blog
+Category: IT
+Category: Personal
+URL: https://maskray.me/blog/
+Feed: https://maskray.me/blog/atom.xml
+
+Title: Carl M. Johnson's blog
+Category: IT
+Category: Personal
+URL: https://blog.carlana.net/
+Feed: https://blog.carlana.net/index.xml
+
+Title: Matthieu Cneude's blog
+Category: IT
+Category: Personal
+URL: https://thevaluable.dev/
+Feed: https://thevaluable.dev/index.xml
+
+Title: Wesley Aptekar-Cassels'es blog
+Category: IT
+Category: Personal
+URL: https://blog.wesleyac.com/
+Feed: https://blog.wesleyac.com/feed.xml
+
+Title: Yggdrasil network blog
+Category: Yggdrasil
+URL: https://yggdrasil-network.github.io/blog.html
+Feed: https://yggdrasil-network.github.io/feed.xml
+
+Title: Project Gemini news feed
+Category: Gemini
+URL: https://geminiprotocol.net/news/
+Feed: https://geminiprotocol.net/news/atom.xml
+
+Title: Stefano Marinelli's blog
+Category: IT
+Category: Personal
+URL: https://it-notes.dragas.net/
+Feed: https://it-notes.dragas.net/index.xml
+
+Title: Random *NIX Fix blog
+Category: IT
+Category: Personal
+URL: https://randomnixfix.wordpress.com/
+Feed: https://randomnixfix.wordpress.com/feed/
+
+Title: Marius'es blog
+Category: IT
+Category: Personal
+URL: https://xn--gckvb8fzb.com/
+Feed: https://xn--gckvb8fzb.com/index.xml
+
+Title: yanmaani's blog
+Category: IT
+Category: Personal
+URL: https://yanmaani.github.io/
+Feed: https://yanmaani.github.io/index.xml
+
+Title: Alyssa Rosenzweig's blog
+Category: IT
+Category: Personal
+URL: https://rosenzweig.io/
+Feed: https://rosenzweig.io/feed.xml
+
+Title: Jason Eckert's blog
+Category: IT
+Category: Personal
+URL: https://jasoneckert.github.io/archive/
+
+Title: Daniel Jakots'es blog
+Category: IT
+Category: Networking
+Category: Personal
+URL: https://chown.me/
+Feed: https://chown.me/blog/feeds/atom.xml
+
+Title: Zork library
+Category: Games
+URL: https://www.thezorklibrary.com/
+
+Title: Martin Kleppmann's blog
+Category: IT
+Category: Personal
+URL: https://martin.kleppmann.com/
+Feed: https://feeds.feedburner.com/martinkl
+
+Title: Mataroa's blogroll
+Category: Aggregator
+Category: IT
+URL: https://collection.mataroa.blog/
+
+Title: adnano.co's blog
+Category: IT
+Category: Personal
+URL: https://adnano.co/
+Feed: https://adnano.co/atom.xml
+
+Title: DS Log
+Category: IT
+Category: Personal
+URL: https://sidhion.com/blog/
+Feed: https://sidhion.com/blog/index.xml
+
+Title: Cal Paterson's blog
+Category: IT
+Category: Personal
+URL: https://calpaterson.com/
+Feed: https://calpaterson.com/calpaterson.rss
+
+Title: Ayende Rahien's blog
+Category: IT
+Category: Personal
+URL: https://ayende.com/blog/
+Feed: https://feeds.feedburner.com/AyendeRahien
+
+Title: Ketan Singh's blog
+Category: IT
+Category: Personal
+URL: https://ketansingh.me/
+Feed: https://ketansingh.me/index.xml
+
+Title: Craft of Coding blog
+Category: IT
+URL: https://craftofcoding.wordpress.com/
+Feed: https://craftofcoding.wordpress.com/feed/
+
+Title: Sylvain Gauthier's blog
+Category: IT
+Category: Personal
+URL: https://sgauthier.fr/blog/
+Feed: https://sgauthier.fr/blog/atom.xml
+
+Title: bash pitfalls
+Category: IT
+URL: http://mywiki.wooledge.org/BashPitfalls
+
+Title: Why no IPv6?
+Note: Wall of shame
+Category: Networking
+URL: https://whynoipv6.com/
+
+Title: Relational pipes'es blog
+Category: IT
+URL: https://relational-pipes.globalcode.info/v_0/
+Feed: https://relational-pipes.globalcode.info/v_0/atom.xml
+
+Title: Ashlen's blog
+Category: IT
+Category: Personal
+URL: https://www.anthes.is/
+Feed: https://www.anthes.is/rss.xml
+
+Title: OpenBSD's innovations
+Category: IT
+URL: https://www.openbsd.org/innovations.html
+
+Title: Technology connections
+Category: Vlog
+URL: https://www.youtube.com/channel/UCy0tKL1T7wFoYcxCe0xjN6Q
+Feed: https://www.youtube.com/feeds/videos.xml?channel_id=UCy0tKL1T7wFoYcxCe0xjN6Q
+
+Title: Grumpy website
+Note: UIs awfulness
+Category: IT
+Category: Fun
+URL: https://grumpy.website/
+Feed: https://grumpy.website/feed.xml
+
+Title: Mark Dominus'es blog
+Category: IT
+Category: Personal
+URL: https://blog.plover.com/
+Feed: https://blog.plover.com/index.atom
+
+Title: DNS BL database lookup
+Category: WWW
+URL: https://www.dnsbl.info/
+
+Title: NetBSD's blog
+Category: IT
+URL: https://blog.netbsd.org/
+Feed: https://blog.netbsd.org/tnf/feed/entries/atom
+
+Title: BSDSec
+Category: IT
+URL: https://bsdsec.net/
+Feed: https://bsdsec.net/articles.atom
+
+Title: FreeBSD foundation journal
+Category: IT
+URL: https://freebsdfoundation.org/our-work/journal/
+Feed: https://freebsdfoundation.org/feed/
+
+Title: Wikimedia downloads
+URL: https://dumps.wikimedia.org/backup-index.html
+Category: Filesharing
+
+Title: OpenStreetMap planet
+URL: https://planet.openstreetmap.org/planet/
+Category: Filesharing
+
+Title: Robert Heaton's blog
+Category: IT
+Category: Personal
+URL: https://robertheaton.com/archive/
+Feed: https://robertheaton.com/feed.xml
+
+Title: Alex Plaskett's blog
+Note: Random Security Research
+Category: IT
+Category: Personal
+URL: https://alexplaskett.github.io/
+Feed: https://alexplaskett.github.io/feed.xml
+
+Title: Josh Michael Karamuth's blog
+Category: IT
+Category: Personal
+URL: https://confuzeus.com/posts/
+Feed: https://confuzeus.com/posts/index.xml
+
+Title: Всероссийский портал о Unix-системах
+Category: IT
+Category: Russian
+Category: Aggregator
+URL: https://allunix.ru/
+
+Title: Nixers newsletter
+Category: IT
+URL: https://newsletter.nixers.net/entries.php
+
+Title: RandomNixFix'es blog
+Category: IT
+Category: Personal
+URL: https://blog.passwordclass.xyz/
+Feed: https://blog.passwordclass.xyz/posts/index.xml
+
+Title: Ian Henry's blog
+Category: IT
+Category: Personal
+URL: https://ianthehenry.com/posts/
+Feed: https://ianthehenry.com/feed.xml
+
+Title: Heidar Bernhardsson's blog
+Category: IT
+Category: Personal
+URL: https://heidarb.com/
+Feed: https://heidarb.com/rss.xml
+
+Title: PCG, A Family of Better Random Number Generators blog
+Category: Crypto
+URL: https://www.pcg-random.org/
+
+Title: Artemis Everfree's blog
+Category: IT
+Category: Personal
+URL: https://artemis.sh/
+Feed: https://artemis.sh/feed.xml
+
+Title: Marcin Juszkiewicz's blog
+Category: IT
+Category: Personal
+URL: https://marcin.juszkiewicz.com.pl/
+Feed: https://marcin.juszkiewicz.com.pl/feed/
+
+Title: Cendyne's blog
+Category: IT
+Category: Personal
+URL: https://cendyne.dev/posts/
+Feed: https://cendyne.dev/feed.xml
+
+Title: Switch from Shapefile
+Category: IT
+URL: http://switchfromshapefile.org/
+
+Title: Dougall J's blog
+Category: IT
+Category: Personal
+URL: https://dougallj.wordpress.com/
+Feed: https://dougallj.wordpress.com/feed/
+
+Title: Perl's blog
+Category: IT
+URL: https://blogs.perl.org/
+Feed: https://blogs.perl.org/atom.xml
+
+Title: Matt Keeter's blog
+Category: IT
+Category: Personal
+URL: https://www.mattkeeter.com/blog/
+Feed: https://www.mattkeeter.com/atom.xml
+
+Title: Scali's blog
+Category: IT
+Category: Personal
+URL: https://scalibq.wordpress.com/
+Feed: https://scalibq.wordpress.com/feed/
+
+Title: NomadBSD's news
+Category: IT
+URL: https://nomadbsd.org/index.html
+Feed: https://nomadbsd.org/rss.xml
+
+Title: Timing attacks
+Category: Crypto
+URL: https://timing.attacks.cr.yp.to/
+
+Title: Metal album covers
+URL: https://rutracker.org/forum/viewtopic.php?t=5324823
+Category: Music
+Category: Filesharing
+
+Title: Huge number of utilities tips
+Category: IT
+URL: https://calomel.org/
+
+Title: Matt Fuller's rants
+Category: IT
+Category: Personal
+URL: https://www.over-yonder.net/~fullermd/rants
+
+Title: Terminals wiki
+Category: IT
+URL: http://terminals-wiki.org/wiki/index.php/Main_Page
+
+Title: Git Rev News
+Category: IT
+URL: https://git.github.io/rev_news/rev_news/
+Feed: https://git.github.io/feed.xml
+
+Title: OpenPGP RFCs
+Category: Crypto
+URL: https://www.openpgp.org/about/standard/
+
+Title: Eaton Phil's blog
+Category: IT
+Category: Personal
+URL: https://notes.eatonphil.com/
+Feed: https://notes.eatonphil.com/rss.xml
+
+Title: CD-Recordable FAQ
+Category: IT
+URL: https://www.cdrfaq.org/
+
+Title: Сайт NoZDRа
+Category: Personal
+Category: Russian
+Category: Aggregator
+URL: http://nzdr.ru/
+
+Title: Bri Hefele's blog
+Category: IT
+Category: Personal
+URL: https://brhfl.com/
+
+Title: Martin Dørum's blog
+Category: IT
+Category: Personal
+URL: https://mort.coffee/
+Feed: https://mort.coffee/home/feed.rss
+
+Title: Log Mirror's blog
+Category: IT
+Category: Personal
+URL: https://blog.legoktm.com/
+Feed: https://blog.legoktm.com/feeds/all.atom.xml
+
+Title: Kees Cook's blog
+Category: IT
+Category: Personal
+URL: https://outflux.net/blog/
+Feed: https://outflux.net/blog/feed/
+
+Title: Ryan Kavanagh's blog
+Category: IT
+Category: Personal
+URL: https://rak.ac/blog/
+Feed: https://rak.ac/blog/index.xml
+
+Title: Steve Kemp's blog
+Category: IT
+Category: Personal
+URL: https://blog.steve.fi/
+Feed: https://blog.steve.fi/index.rss
+
+Title: Laurence Tratt's blog
+Category: IT
+Category: Personal
+URL: https://tratt.net/laurie/blog/
+Feed: https://tratt.net/laurie/blog/blog.rss
+
+Title: Moritz Bunkus's blog
+Category: IT
+Category: Personal
+URL: https://www.bunkus.org/blog/
+Feed: https://www.bunkus.org/blog/feed/
+
+Title: Dr.Drang's blog
+Category: IT
+Category: Personal
+URL: https://leancrew.com/all-this/
+Feed: https://leancrew.com/all-this/feed/
+
+Title: Kevin Galligan's blog
+Category: IT
+Category: Personal
+URL: https://kevingal.com/blog.html
+Feed: https://kevingal.com/feed.xml
+
+Title: Brain Baking's blog
+Category: IT
+Category: Personal
+URL: https://brainbaking.com/archives
+Feed: https://brainbaking.com/index.xml
+
+Title: Tigersharke's blog
+Category: IT
+Category: Personal
+URL: https://daemondesktop.blogspot.com/
+Feed: https://daemondesktop.blogspot.com/feeds/posts/default
+
+Title: Bruce Dawson's blog
+Category: IT
+Category: Personal
+URL: https://randomascii.wordpress.com/
+Feed: https://randomascii.wordpress.com/feed/
+
+Title: Carlos Fenollosa's blog
+Category: IT
+Category: Personal
+URL: https://cfenollosa.com/blog/index.html
+Feed: https://feeds.feedburner.com/WaitingForTheJobsToFinish
+
+Title: Зеркало rutracker.org
+Category: Yggdrasil
+URL: http://[321:c99a:91a1:cd2c::18]/forum/index.php
+
+Title: Зеркало rutor
+Category: Yggdrasil
+URL: http://[321:c99a:91a1:cd2c::16]/
+
+Title: Yggdrasil directory service
+Category: Yggdrasil
+URL: http://[21e:a51c:885b:7db0:166e:927:98cd:d186]/
+
+Title: Don P. Mitchell homepage
+Category: Aerospace
+URL: http://mentallandscape.com/
+
+Title: Hare programming language blog
+Category: IT
+URL: https://harelang.org/blog/
+Feed: https://harelang.org/blog/index.xml
+
+Title: lmemsm'es blog
+Category: IT
+Category: Personal
+URL: https://lmemsm.dreamwidth.org/
+Feed: https://lmemsm.dreamwidth.org/data/atom
+
+Title: Anna's archive
+Category: Filesharing
+URL: https://annas-archive.org/
+
+Title: Nicole Express'es blog
+Category: Games
+URL: https://nicole.express/
+Feed: https://nicole.express/feed.xml
+
+Title: github.com/hjson/hjson-go/hjson-cli
+Note: Hjson utility
+Category: Go
+URL: https://github.com/hjson/hjson-go/
+
+Title: Jesse Li's blog
+URL: https://blog.jse.li/
+Category: IT
+Category: Personal
+Feed: https://blog.jse.li/index.xml
+
+Title: github.com/jeanralphaviles/dhtcli
+Note: Query and interact with the BitTorrent DHT
+Category: Go
+URL: https://github.com/jeanralphaviles/dhtcli
+
+Title: Чтение удалённых статей Хабра
+Category: Russian
+URL: https://savepearlharbor.com/
+
+Title: github.com/gortc/stun/cmd/stun-client
+Note: STUN client
+Category: Go
+URL: https://github.com/gortc/stun
+
+Title: github.com/gortc/stund
+Note: STUN server
+Category: Go
+URL: https://github.com/gortc/stund
+
+Title: IPv6 capable pinger
+Category: Networking
+URL: http://www.ipv6now.com.au/pingme.php
+
+Title: Переводы FSF лицензий
+Category: IT
+Category: Russian
+URL: https://antirao.ru/fsflicenses
+
+Title: Neil Madden's blog
+Category: Crypto
+URL: https://neilmadden.blog/
+Feed: https://neilmadden.blog/feed/
+
+Title: Tomas Vik's blog
+Category: IT
+Category: Personal
+URL: https://blog.viktomas.com/
+Feed: https://blog.viktomas.com/index.xml
+
+Title: Michael Harley's blog
+Category: IT
+Category: Personal
+URL: https://michaelharley.net/
+Feed: https://michaelharley.net/feed/feed.xml
+
+Title: Winnie Lim's blog
+Category: IT
+Category: Personal
+URL: https://winnielim.org/
+Feed: https://winnielim.org/feed/
+
+Title: blog dot information dash superhighway dot net
+Category: IT
+Category: Personal
+URL: https://blog.information-superhighway.net/
+Feed: https://blog.information-superhighway.net/feed/
+
+Title: That grumpy BSD guy
+Category: IT
+Category: Personal
+URL: https://bsdly.blogspot.com/
+Feed: https://bsdly.blogspot.com/feeds/posts/default
+
+Title: Bunnie's blog
+Category: IT
+Category: Personal
+URL: https://www.bunniestudios.com/blog/
+Feed: https://www.bunniestudios.com/blog/feed/
+
+Title: Waleed Khan's blog
+Category: IT
+Category: Personal
+URL: https://blog.waleedkhan.name/
+Feed: https://blog.waleedkhan.name/feed.xml
+
+Title: Jes Olson's blog
+Category: IT
+Category: Personal
+URL: https://j3s.sh/thoughts.html
+Feed: https://j3s.sh/feed.atom
+
+Title: Serapheim Dimitropoulos's blog
+Category: IT
+Category: Personal
+URL: https://sdimitro.github.io/
+
+Title: Openwall-hosted lists
+Category: IT
+Category: Maillist
+URL: https://www.openwall.com/lists/
+
+Title: Reproducible builds
+Category: IT
+URL: https://reproducible-builds.org/
+
+Title: R.L. Dane's blog
+Category: IT
+Category: Personal
+URL: https://rldane.space/
+Feed: https://rldane.space/feeds/all.atom.xml
+
+Title: Simon Josefsson's blog
+Category: IT
+Category: Personal
+URL: https://blog.josefsson.org/
+Feed: https://blog.josefsson.org/feed/
+
+Title: Linux ate my RAM!
+Category: IT
+URL: https://www.linuxatemyram.com/
+
+Title: Andrei Pechkurov's blog
+Category: IT
+Category: Personal
+URL: https://puzpuzpuz.dev/
+Feed: https://puzpuzpuz.dev/rss.xml
+
+Title: sabi computing notes
+Category: IT
+Category: Personal
+URL: http://www.sabi.co.uk/blog/
+Feed: http://www.sabi.co.uk/changed.xml
+
+Title: Maxime Chevalier-Boisvert's blog
+Category: IT
+Category: Personal
+URL: https://pointersgonewild.com/
+Feed: https://pointersgonewild.com/feed/
+
+Title: trurl URLs manipulation
+Category: IT
+URL: https://curl.se/trurl/
+
+Title: Jean-Marc Valin's blog
+Category: IT
+Category: Personal
+URL: https://jmvalin.dreamwidth.org/
+Feed: https://jmvalin.dreamwidth.org/data/atom
+
+Title: Phil Pearl's blog
+Category: IT
+Category: Personal
+URL: https://philpearl.github.io/
+Feed: https://philpearl.github.io/index.xml
+
+Title: Planet GNU
+Category: IT
+Category: Aggregator
+URL: https://planet.gnu.org/
+Feed: https://planet.gnu.org/atom.xml
+
+Title: Блог Резы Саджади
+Note: Бывший посол Ирана в РФ
+Category: Russian
+URL: https://sajjadi.livejournal.com/
+
+Title: Блог Мехди Санаи
+Note: Бывший посол Ирана в РФ
+Category: Russian
+URL: https://sanaei.livejournal.com/
+
+Title: Блог Казема Джалали
+Note: Бывший посол Ирана в РФ
+Category: Russian
+URL: https://kazemjalali.livejournal.com/
+
+Title: Gopher Times
+Category: IT
+Category: Aggregator
+URL: gopher://bitreich.org/1/tgtimes/
+
+Title: SDF phlogosphere
+Category: Aggregator
+URL: gopher://gopher.club/1/phlogs/
+
+Title: Planet Debian
+Category: IT
+Category: Aggregator
+URL: https://planet.debian.org/
+Feed: https://planet.debian.org/atom.xml
+
+Title: Jonathan Dowland's blog
+Category: IT
+Category: Personal
+URL: https://jmtd.net/log/
+Feed: https://jmtd.net/log/index.atom
+
+Title: Jonathan McDowell's blog
+Category: IT
+Category: Personal
+URL: https://www.earth.li/~noodles/blog/
+Feed: https://www.earth.li/~noodles/blog/feed.xml
+
+Title: Elena Grandi's blog
+Category: IT
+Category: Personal
+URL: https://blog.trueelena.org/
+Feed: https://blog.trueelena.org/atom.xml
+
+Title: Marek's idea of the day
+URL: https://idea.popcount.org/
+Category: IT
+Category: Networking
+Category: Personal
+Feed: https://idea.popcount.org/rss.xml
+
+Title: Косплей журнала Игромания
+Category: Games
+Category: Russian
+URL: https://www.igromania.ru/kosplej/
+
+Title: Pavel's blog about underlying Internet technologies
+Category: IT
+Category: Personal
+URL: https://pavel.network/
+Feed: https://pavel.network/rss/
+
+Title: Michael Kjörling's blog
+Category: IT
+Category: Personal
+URL: https://michael.kjorling.se/
+Feed: https://michael.kjorling.se/feed/
+
+Title: GNU Guix'es blog
+Category: IT
+URL: https://guix.gnu.org/en/blog/
+Feed: https://guix.gnu.org/feeds/blog.atom
+
+Title: Journal of Craptology
+Category: Crypto
+URL: http://www.anagram.com/jcrap/
+
+Title: IPng networks'es blog
+Category: Networking
+URL: https://ipng.ch/s/articles/
+Feed: https://ipng.ch/feed.xml
+
+Title: Emily M. Stark's blog
+Category: IT
+Category: Personal
+URL: https://emilymstark.com/
+Feed: https://emilymstark.com/feed.xml
+
+Title: James Lu's blog
+Category: IT
+Category: Personal
+URL: https://jlu5.com/blog
+
+Title: Kristian Köhntopp's blog
+Category: IT
+Category: Personal
+URL: https://blog.koehntopp.info/
+Feed: https://blog.koehntopp.info/feed.xml
+
+Title: Matt Rickard's blog
+Category: IT
+Category: Personal
+URL: https://matt-rickard.com/archive
+Feed: https://matt-rickard.com/rss
+
+Title: Old FreeBSD releases
+Category: IT
+URL: http://ftp-archive.freebsd.org/pub/FreeBSD-Archive/old-releases/
+
+Title: Metal Over Russia
+Category: Music
+URL: https://metaloverrussia.ru/
+
+Title: The Hacker's Choice blog
+Category: IT
+URL: https://blog.thc.org/
+Feed: https://blog.thc.org/rss.xml
+
+Title: Dimitri Sabadie's blog
+Category: IT
+Category: Personal
+URL: https://phaazon.net/blog
+Feed: https://phaazon.net/blog/feed
+
+Title: Adriaan de Groot's blog
+Category: IT
+Category: Personal
+URL: https://euroquis.nl/bobulate/
+Feed: https://euroquis.nl/feed.xml
+
+Title: Ctrl-ZINE
+Note: Collaborative, celebrating tech and the Smol Web
+Category: Personal
+URL: https://ctrl-c.club/~loghead/ctrl-zine.html
+
+Title: Funny man pages
+Category: Fun
+URL: https://github.com/ltworf/funny-manpages
+
+Title: Memory safe, blazing fast, configurable, minimal hello world written in Rust
+Category: Fun
+URL: https://github.com/mTvare6/hello-world.rs
+
+Title: Retrotechnology research lab
+Category: Oldies
+URL: http://www.typewritten.org/Articles/
+
+Title: dsr's blog
+Category: IT
+Category: Personal
+URL: https://blog.randomstring.org/
+Feed: https://blog.randomstring.org/feeds/atom.xml
+
+Title: Reddit comments archive
+Category: Filesharing
+URL: https://academictorrents.com/userdetails.php?id=9863
+
+Title: Вредители
+Category: Russian
+URL: https://vreditelisos.ru/
+
+Title: Vasudeva Kamath's blog
+Category: IT
+Category: Personal
+URL: https://copyninja.in/
+Feed: https://copyninja.in/feeds/all.atom.xml
+
+Title: Jeff Geerling's blog
+Category: IT
+Category: Personal
+URL: https://www.jeffgeerling.com/blog
+Feed: https://www.jeffgeerling.com/blog.xml
+
+Title: Erik Rigtorp's blog
+Category: IT
+Category: Personal
+URL: https://rigtorp.se/
+Feed: https://rigtorp.se/index.xml
+
+Title: Bitsavers
+Category: Oldies
+URL: http://bitsavers.org/
+
+Title: A large archive of various mirror sites and consolidated information on retro computers
+Category: Oldies
+Category: Filesharing
+URL: http://mirrors.pdp-11.ru/
+
+Title: CD-ROM Journal
+Category: Games
+Category: Oldies
+URL: http://cdrom.ca/
+Feed: http://cdrom.ca/feed.xml
+
+Title: ntk148v's blog
+Category: IT
+Category: Personal
+URL: https://ntk148v.github.io/posts/
+Feed: https://ntk148v.github.io/index.xml
+
+Title: William H. Grover's blog
+Category: IT
+Category: Personal
+URL: https://groverlab.org/hnbfpr/
+Feed: https://groverlab.org/feed.xml
+
+Title: Nik Kantar's blog
+Category: IT
+Category: Personal
+URL: https://nkantar.com/blog/
+Feed: https://nkantar.com/blog/feed
+
+Title: Herman Õunapuu's blog
+Category: IT
+Category: Personal
+URL: https://ounapuu.ee/posts/
+Feed: https://ounapuu.ee/index.xml
+
+Title: Hacker News Blogroll
+Category: IT
+Category: Aggregator
+URL: https://dm.hn/
+
+Title: dima's blog
+Category: IT
+Category: Personal
+URL: https://developer.run/
+Feed: https://developer.run/feed.rss
+
+Title: DusteDs's blog
+Category: IT
+Category: Personal
+URL: http://dusted.dk/pages/phlog/
+
+Title: Alexander Gromnitsky's blog
+Category: IT
+Category: Personal
+URL: https://sigwait.org/~alex/blog/
+Feed: https://sigwait.org/~alex/blog/rss.xml
+
+Title: 56k-modem
+Category: Oldies
+URL: https://56k-modem.online/
+
+Title: Quentin Santos'es blog
+Category: IT
+Category: Personal
+URL: https://qsantos.fr/
+Feed: https://qsantos.fr/feed/
+
+Title: diff x weyl's blog
+Category: Personal
+URL: https://diffxweyl.wordpress.com/
+Feed: https://diffxweyl.wordpress.com/feed/
+
+Title: Wouter's Eclectic Blog
+Category: IT
+Category: Personal
+URL: https://grep.be/blog/
+Feed: https://grep.be/blog/index.atom
+
+Title: Imran's blog
+Category: IT
+Category: Personal
+URL: https://blog.imraniqbal.org/
+Feed: https://blog.imraniqbal.org/atom.xml
+
+Title: Dorota dcz's blog
+Category: IT
+Category: Personal
+URL: https://dorotac.eu/
+Feed: https://dorotac.eu/atom.xml
+
+Title: Bill Mill's blog
+Category: IT
+Category: Personal
+URL: https://notes.billmill.org/
+Feed: https://notes.billmill.org/atom.xml
+
+Title: Bruce Ediger's blog
+Category: IT
+Category: Personal
+URL: https://bruceediger.com/
+Feed: https://bruceediger.com/index.xml
+
+Title: William Brown's blog
+Category: IT
+Category: Personal
+URL: https://fy.blackhats.net.au/
+Feed: https://fy.blackhats.net.au/rss.xml
+
+Title: Aurélien Jarno's blog
+Category: IT
+Category: Personal
+URL: https://aurel32.net/
+Feed: https://blog.aurel32.net/feed
+
+Title: Comedy Pet Photography Awards
+Category: Fun
+URL: https://www.comedypetphoto.com/
+
+Title: No CSS Club
+Category: Aggregator
+Category: WWW
+URL: https://nocss.club/
+
+Title: No-JS Club
+Category: Aggregator
+Category: WWW
+URL: https://no-js.club/
+
+Title: 250KB club
+Category: Aggregator
+Category: WWW
+URL: https://250kb.club/
+
+Title: 512KB club
+Category: Aggregator
+Category: WWW
+URL: https://512kb.club/
+
+Title: 1MB club
+Category: Aggregator
+Category: WWW
+URL: https://1mb.club/
+
+Title: Sébastien's blog
+Category: IT
+Category: Personal
+URL: https://sebastien-mouchet.fr/blog/en/
+Feed: https://sebastien-mouchet.fr/blog/en/index.atom
+
+Title: Schemescape's blog
+Category: IT
+Category: Personal
+URL: https://log.schemescape.com/
+Feed: https://log.schemescape.com/feed.xml
+
+Title: Artemis Lena's blog
+Category: IT
+Category: Personal
+URL: https://artemislena.eu/
+Feed: https://artemislena.eu/rss.xml
+
+Title: Ersei 'n Stuff
+Category: IT
+Category: Personal
+URL: https://ersei.net/en/blog
+Feed: https://ersei.net/en/blog.atom
+
+Title: Joost van der Schee's blog
+Category: IT
+Category: Personal
+URL: https://www.usecue.com/blog/
+Feed: https://www.usecue.com/blog/index.xml
+
+Title: ononoki's blog
+Category: IT
+Category: Personal
+URL: https://blog.ononoki.org/
+Feed: https://blog.ononoki.org/atom.xml
+
+Title: Amolith's blog
+Category: IT
+Category: Personal
+URL: https://secluded.site/posts/
+Feed: https://secluded.site/posts/index.xml
+
+Title: Luke Harris'es blog
+Category: IT
+Category: Personal
+URL: https://www.lkhrs.com/blog/
+Feed: https://www.lkhrs.com/blog/index.xml
+
+Title: planet.kernel.org blogs
+Category: IT
+URL: https://planet.kernel.org/
+Feed: https://planet.kernel.org/rss20.xml
+
+Title: planet.fsfe.org blogs
+Category: IT
+URL: https://planet.fsfe.org/
+Feed: https://planet.fsfe.org/atom.xml
+
+Title: Forth: The programming language that writes itself
+Category: IT
+URL: http://ratfactor.com/forth/the_programming_language_that_writes_itself.html
+
+Title: Dave Gauer's blog
+Category: IT
+Category: Personal
+URL: http://ratfactor.com/
+Feed: http://ratfactor.com/atom.xml
+
+Title: Raphael Sprenger's blog
+Category: IT
+Category: Personal
+URL: https://raphting.dev/
+Feed: https://raphting.dev/index.xml
+
+Title: DNSCrypt vs DoH
+Category: DNS
+URL: https://dnscrypt.info/faq/
+
+Title: Comprehensive Body of Knowledge
+Category: Crypto
+URL: https://www.cybok.org/
+
+Title: Catskull's blog
+Category: IT
+Category: Personal
+URL: https://catskull.net/
+Feed: https://catskull.net/feed.xml
+
+Title: rlwinm's blog
+Category: IT
+Category: Personal
+URL: https://blog.rlwinm.de/
+Feed: https://blog.rlwinm.de/feed/
+
+Title: MirBSD's blog
+Category: IT
+URL: http://www.mirbsd.org/
+Feed: http://www.mirbsd.org/announce.rss
+
+Title: eXoDOS
+Category: Games
+Category: Filesharing
+URL: https://www.retro-exo.com/exodos.html
+
+Title: eXoWin3x
+Category: Games
+Category: Filesharing
+URL: https://www.retro-exo.com/win3x.html
+
+Title: eXoScummVM
+Category: Games
+Category: Filesharing
+URL: https://www.retro-exo.com/scummvm.html
+
+Title: Русское сообщество "Точка G"
+Category: Aggregator
+Category: Russian
+Category: Gemini
+URL: gemini://topotun.dynu.com/russian.gmi
+
+Title: Offpunk's gems
+Category: Aggregator
+Category: Russian
+Category: Gemini
+URL: gemini://offpunk.com/sphere.gmi
+
+Title: Ежедневные обновления русскоязычной гемисферы
+Category: Aggregator
+Category: Russian
+Category: Gemini
+URL: gemini://stalker.shpakovsky.ru/
+
+Title: Скрижали Аэлиты
+Category: Aggregator
+Category: Russian
+Category: Gemini
+URL: gemini://geddit.phreedom.club/
+
+Title: Phreedom - gmisub
+Category: Aggregator
+Category: Gemini
+URL: gemini://phreedom.club/gmisub/
+
+Title: Antenna
+Category: Aggregator
+Category: Gemini
+URL: gemini://warmedal.se/~antenna/
+
+Title: Cosmos
+Category: Aggregator
+Category: Gemini
+URL: gemini://skyjake.fi/~Cosmos/
+
+Title: Anisse Astier's blog
+Category: IT
+Category: Personal
+URL: https://anisse.astier.eu/
+Feed: https://anisse.astier.eu/feed/
+
+Title: Mathew Duggan's blog
+Category: IT
+Category: Personal
+URL: https://matduggan.com/
+Feed: https://matduggan.com/rss/
+
+Title: Блог tat-ti
+Category: Russian
+Category: Personal
+URL: https://tat-ti.livejournal.com/
+Feed: https://tat-ti.livejournal.com/data/atom
+
+Title: Блог хоббиста-самоучки
+Category: Russian
+Category: Personal
+URL: https://littlehobby.livejournal.com/
+Feed: https://littlehobby.livejournal.com/data/atom
+
+Title: A Blog about Security and Cryptography
+Category: Crypto
+URL: https://keymaterial.net/
+Feed: https://keymaterial.net/feed/
+
+Title: Neil Fraser's news
+Category: Personal
+URL: https://neil.fraser.name/news/
+Feed: https://neil.fraser.name/scripts/atom.py
+
+Title: Gynvael Coldwind's blog
+Category: IT
+Category: Personal
+URL: https://gynvael.coldwind.pl/
+Feed: https://gynvael.coldwind.pl/rss_en.php
+
+Title: /dev/nonsense blog
+Category: IT
+Category: Personal
+URL: https://devnonsense.com/
+Feed: https://devnonsense.com/index.xml
+
+Title: Internet History
+URL: https://elists.isoc.org/mailman/listinfo/internet-history
+Category: IT
+Category: Maillist
+Category: Oldies
+
+Title: Delightly Linux blog
+Category: IT
+Category: Personal
+URL: https://delightlylinux.wordpress.com/
+Feed: https://delightlylinux.wordpress.com/feed/
+
+Title: Tyblog's blog
+URL: https://blog.tjll.net/
+Category: IT
+Category: Personal
+Feed: https://blog.tjll.net/feed.xml
+
+Title: Kellan Clark's blog
+URL: https://kellanclark.github.io/
+Category: IT
+Category: Personal
+Feed: https://kellanclark.github.io/feed.xml
+
+Title: Sebastien Marie's blog
+URL: https://kapouay.eu.org/notes/
+Category: IT
+Category: Personal
+Feed: https://kapouay.eu.org/atom.xml
+
+Title: Олег Бартунов's blog
+URL: https://obartunov.livejournal.com/
+Category: IT
+Category: Personal
+Category: Russian
+Feed: https://obartunov.livejournal.com/data/atom
+
+Title: Олег Бартунов's blog
+URL: https://diziet.dreamwidth.org/
+Category: IT
+Category: Personal
+Feed: https://diziet.dreamwidth.org/data/atom
+
+Title: RkBlog
+URL: https://rkblog.dev/
+Category: IT
+Feed: https://rkblog.dev/rss.xml
+
+Title: Frederick Anthony Nicholas Finch's blog
+URL: https://dotat.at/
+Category: IT
+Category: Personal
+Feed: https://dotat.at/@/blog.atom
+
+Title: Aminda Suomalainen's blog
+URL: https://mikaela.info/blog/
+Category: IT
+Category: Personal
+Feed: https://aminda.eu/blog/feed.en.xml
+
+Title: Три правила про вы
+URL: https://www.artlebedev.ru/kovodstvo/sections/165/
+Category: Russian
+
+Title: Goodness Duru's blog
+URL: https://goodyduru.github.io/
+Category: IT
+Category: Personal
+Feed: https://goodyduru.github.io/feed.xml
+
+Title: Amber Screen's blog
+URL: http://phala.isatty.net/~amber/
+Category: IT
+Category: Personal
+Feed: http://phala.isatty.net/~amber/hacks/index.atom
+
+Title: Hector Canizales's blog
+URL: https://blog.thetrevor.tech/
+Category: IT
+Category: Personal
+Feed: https://blog.thetrevor.tech/rss.xml
+
+Title: David Leadbeater's blog
+URL: https://dgl.cx/
+Category: IT
+Category: Personal
+Feed: https://dgl.cx/feed
+
+Title: Guanzhong Chen's blog
+URL: https://quantum5.ca/
+Category: IT
+Category: Personal
+Feed: https://quantum5.ca/feed.xml
+
+Title: Ergo IRC server
+URL: https://ergo.chat/
+Category: IT
+
+Title: Varun Priolkar's blog
+URL: https://varunpriolkar.com/
+Category: IT
+Category: Personal
+Feed: https://varunpriolkar.com/feed/
+
+Title: Maria Matějka's blog
+URL: https://en.blog.nic.cz/
+Category: IT
+Category: Personal
+Feed: https://en.blog.nic.cz/feed/
+
+Title: Блог Анатолия Вассермана
+URL: https://awas1952.livejournal.com/
+Category: Personal
+Category: Russian
+Feed: https://awas1952.livejournal.com/data/atom
+
+Title: Garrit Franke's blog
+URL: https://garrit.xyz/posts
+Category: IT
+Category: Personal
+Feed: https://garrit.xyz/rss.xml
+
+Title: Zibaldone's blog
+URL: https://tommi.space/zibenglish/
+Category: IT
+Category: Personal
+Feed: https://tommi.space/zibaldone.xml
+
+Title: The New Oil's blog
+Note: Data privacy & cybesecurity for normal people
+URL: https://blog.thenewoil.org/
+Category: IT
+Category: Personal
+Feed: https://blog.thenewoil.org/feed/
+
+Title: Eric Radman's blog
+URL: https://eradman.com/
+Category: IT
+Category: Personal
+Feed: https://eradman.com/atom.xml
+
+Title: Christophe Meneboeuf's blog
+URL: https://www.xtof.info/
+Category: IT
+Category: Personal
+Feed: https://xtof.info/feed.xml
+
+Title: Scott Helme's blog
+URL: https://scotthelme.co.uk/
+Category: IT
+Category: Personal
+Feed: https://scotthelme.co.uk/rss/
+
+Title: Bufferbloat
+URL: https://www.bufferbloat.net/projects/
+Category: Networking
+
+Title: Make Linux fast again
+Note: noibrs noibpb nopti nospectre_v2 nospectre_v1 l1tf=off nospec_store_bypass_disable no_stf_barrier mds=off tsx=on tsx_async_abort=off mitigations=off
+URL: https://make-linux-fast-again.com/
+Category: IT
+
+Title: tmp.out
+URL: https://tmpout.sh/
+Category: IT
+
+Title: Puffin Cafe
+URL: https://rutracker.org/forum/viewtopic.php?t=6073319
+Category: Audiobook
+Category: Russian
+
+Title: Тайны Блэквуда
+URL: https://rutracker.org/forum/viewtopic.php?t=6071812
+Category: Audiobook
+Category: Russian
+
+Title: Проект Послесловие...
+URL: https://rutracker.org/forum/viewtopic.php?t=5325369
+Category: Audiobook
+Category: Russian
+
+Title: OpenPGP for application developers
+URL: https://openpgp.dev/book/
+Category: Crypto
+
+Title: SecurityLab.ru
+URL: https://www.securitylab.ru/
+Category: IT
+Category: Russian
+Feed: https://www.securitylab.ru/_services/export/rss/news/
+Feed: https://www.securitylab.ru/_services/export/rss/analytics/
+
+Title: Despair Labs'es blog
+URL: https://despairlabs.com/blog/
+Category: IT
+Feed: https://despairlabs.com/blog/index.xml
+
+Title: kdave's blog
+URL: https://kdave.github.io/
+Category: IT
+Category: Personal
+Feed: https://kdave.github.io/rss-all.xml
+
+Title: Dmitry Chestnykh's blog
+URL: https://zine.dev/archive/
+Category: IT
+Feed: https://zine.dev/feed/
+
+Title: "Defaults" collection
+URL: https://defaults.rknight.me/
+Category: Aggregator
+Category: Personal
+
+Title: Quarkslab's blog
+Category: Crypto
+URL: https://blog.quarkslab.com/
+Feed: https://blog.quarkslab.com/feeds/all.rss.xml
+
+Title: Blog System/5
+Category: IT
+URL: https://blogsystem5.substack.com/
+Feed: https://blogsystem5.substack.com/feed
+
+Title: Thomas Letan's blog
+Category: IT
+Category: Personal
+URL: https://soap.coffee/~lthms/
+Feed: https://soap.coffee/~lthms/posts/index.xml
+
+Title: Phillip Tennen's blog
+Category: IT
+Category: Personal
+URL: https://axleos.com/blog/
+Feed: https://axleos.com/blog/index.xml
+
+Title: Pekka's blog
+Category: IT
+Category: Personal
+URL: https://30fps.net/pages/
+
+Title: Pekka's blog
+Category: IT
+Category: Personal
+URL: https://www.da.vidbuchanan.co.uk/blog/
+Feed: https://www.da.vidbuchanan.co.uk/blog/rss.xml
+
+Title: Rahul Gopinath's blog
+Category: IT
+Category: Personal
+URL: https://rahul.gopinath.org/posts/
+Feed: https://rahul.gopinath.org/feed.xml
+
+Title: Christian Haschek's blog
+Category: IT
+Category: Personal
+URL: https://blog.haschek.at/
+Feed: https://blog.haschek.at/rss.xml
+
+Title: Clang Hardening Cheat Sheet
+URL: https://blog.quarkslab.com/clang-hardening-cheat-sheet.html
+Category: Hardening
+
+Title: HardenedBSD easy feature comparison
+URL: https://hardenedbsd.org/content/easy-feature-comparison
+Category: Hardening
+
+Title: Is OpenBSD secure?
+URL: https://isopenbsdsecu.re/
+Category: Hardening
+
+Title: Debian's hardening page
+URL: https://wiki.debian.org/Hardening
+Category: Hardening
+
+Title: Gentoo's GCC optimisations
+URL: https://wiki.gentoo.org/wiki/GCC_optimization
+Category: Hardening
+
+Title: Gentoo's hardened toolchain
+URL: https://wiki.gentoo.org/wiki/Hardened/Toolchain
+Category: Hardening
+
+Title: Ubuntu's security features
+URL: https://wiki.ubuntu.com/Security/Features
+Category: Hardening
+
+Title: NetBSD's security hardening
+URL: http://www.netbsd.org/docs/pkgsrc/hardening.html
+Category: Hardening
+
+Title: Posixcafe blogs
+URL: https://posixcafe.org/blogs/
+Category: IT
+Feed: https://posixcafe.org/blogs/index.atom
+
+Title: DNS operations
+URL: https://lists.dns-oarc.net/mailman/listinfo/dns-operations
+Category: DNS
+Category: Maillist
+
+Title: Mail operators
+URL: https://list.mailop.org/listinfo/mailop
+Category: Maillist
+Category: Mail
+
+Title: Cliff L. Biffle's blog
+Category: IT
+Category: Personal
+URL: https://cliffle.com/blog/
+Feed: https://cliffle.com/rss.xml
+
+Title: Dejan Štrbac's blog
+Category: Mail
+Category: Personal
+URL: https://dejanstrbac.com/
+
+Title: Matt Palmer's blog
+Category: IT
+Category: Personal
+URL: https://www.hezmatt.org/~mpalmer/blog/
+Feed: https://www.hezmatt.org/~mpalmer/blog/atom.xml
+
+Title: Glyph Lefkowitz's blog
+Category: IT
+Category: Personal
+URL: https://blog.glyph.im/
+Feed: https://feeds.feedburner.com/glyph
+
+Title: Word to the Wise's blog
+Category: Mail
+URL: https://wordtothewise.com/
+Feed: https://wordtothewise.com/feed/
+
+Title: s/bash/zsh/g
+Category: Zsh
+URL: https://www.arp242.net/why-zsh.html
+
+Title: Виртуальный компьютерный музей
+Category: Oldies
+Category: Russian
+URL: https://computer-museum.ru/
+
+Title: Rene Kita's blog
+Category: IT
+Category: Personal
+URL: http://rkta.de/
+Feed: http://rkta.de/feed.xml
+
+Title: DragonFly BSD digest
+Category: IT
+URL: https://www.dragonflydigest.com/
+Feed: https://www.dragonflydigest.com/feed/
+
+Title: Jaz's blog
+Category: IT
+Category: Personal
+URL: https://jazco.dev/
+Feed: https://jazco.dev/atom.xml
+
+Title: brr's Antarctica blog
+Category: Personal
+URL: https://brr.fyi/
+Feed: https://brr.fyi/feed.xml
+
+Title: Retro Game Mechanics Explained
+Category: Games
+Category: Vlog
+URL: https://www.youtube.com/channel/UCwRqWnW5ZkVaP_lZF7caZ-g
+Feed: https://www.youtube.com/feeds/videos.xml?channel_id=UCwRqWnW5ZkVaP_lZF7caZ-g
+
+Title: A collaborative IPv6 book
+Category: Networking
+URL: https://github.com/becarpenter/book6
+
+Title: Daryll Swer's blog
+Category: Networking
+URL: https://www.daryllswer.com/
+Feed: https://www.daryllswer.com/feed/
