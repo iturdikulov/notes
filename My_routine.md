@@ -94,8 +94,8 @@ eyes and mind and fuel your body and give time to food digestion.
 
 ## Chunk #4. Finish Working/Project
 
-Complete main tasks, connect with people, help them. Mark completed tasks.
-And give you time to learn something new.
+Complete main tasks, connect with people, help them. Mark completed tasks. And
+give you time to learn something new.
 
 ## Chunk #5. Relax and Exercise a little bit
 
@@ -120,4 +120,3 @@ Be helpful but don't forget about yourself and your family.
 Rest, to be ready for tomorrow, don't try to make longer your day. Try to start
 sleep maximum at 00:00 am. Take a shower, drink something (glass of water or
 something else). Read a book or do something relaxing.
-
