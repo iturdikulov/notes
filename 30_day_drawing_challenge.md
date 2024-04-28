@@ -9,19 +9,24 @@ sr-interval: 12
 sr-ease: 248
 ---
 
-# My 30-Day Drawing Challenge
+# My X-Day Drawing Challenge
 
 My first steps in [[My_Art|my art]] creation.
+
+For this challenge, I will use the following tools:
+
+- A4 paper
+- Fineliner Pens
 
 The drawing challenge is a fun and creative way to improve your drawing skills
 and explore different art styles and techniques. Here are the 30 prompts for the
 challenge:
 
-- [ ] Draw your favorite animal
-- [ ] Draw your favorite food
-- [ ] Draw your favorite place
-- [ ] Draw your favorite outfit
-- [ ] Draw a scene from your favorite book or movie
+- [ ] Draw your favorite animal: cat
+- [ ] Draw your favorite food: manti
+- [ ] Draw your favorite place: Penza
+- [ ] Draw your favorite outfit: devotion set
+- [ ] Draw a scene from your favorite book or movie: lighting
 - [ ] Draw a still life of objects on your desk
 - [ ] Draw a landscape
 - [ ] Draw a cityscape
@@ -51,8 +56,8 @@ challenge:
 Remember to have fun and experiment with different styles and techniques as you
 complete the challenge!
 
-## To-do
+## TODO
 
-- TODO: [Drawabox](https://drawabox.com/)
-- TODO: @FunWithAPencLoomis2013
-- TODO: artist PDF files...
+- [ ] [Drawabox](https://drawabox.com/)
+- [ ] [[research/Loomis-Fun_With_A_Pencil]]
+- [ ] artist PDF files...
