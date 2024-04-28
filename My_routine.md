@@ -14,6 +14,53 @@ sr-ease: 241
 Routine is a recommendation not a strict law. But without routine you can skip
 many important things and lose your discipline and motivation.
 
+## Take care of yourself
+
+1. Brushing Teeth, twice daily:
+
+- Wet the toothbrush and apply a pea-sized amount of toothpaste.
+- Brush teeth in a circular motion for 2 minutes, covering all surfaces.
+- Use a toothbrush with soft bristles to avoid damaging the gums.
+- Rinse mouth thoroughly with water after brushing.
+- Floss between teeth to remove food particles and plaque.
+- Rinse with mouthwash for fresh breath and added protection against cavities.
+
+2. Shaving, as needed:
+
+- Wet the face with warm water to soften the hair.
+- Apply shaving cream or gel to the face.
+- Use a sharp razor to shave in the direction of hair growth.
+- Rinse the razor frequently to remove hair and shaving cream.
+- Rinse the face with cool water and pat dry.
+- Apply aftershave or moisturizer to soothe the skin.
+
+3. Manicure, every 2 weeks:
+
+- Trim nails to desired length using nail clippers.
+- Use a nail file to shape the nails and smooth any rough edges.
+- Soak hands in warm, soapy water to soften the cuticles.
+- Gently push back cuticles using a cuticle pusher or orangewood stick.
+- Moisturize hands and nails with hand cream or cuticle oil.
+- Apply nail polish if desired.
+
+4. Washing Head (Hair), 2–3 times per week:
+
+- Wet hair thoroughly with warm water.
+- Apply a small amount of shampoo to the scalp and massage gently to lather.
+- Rinse hair thoroughly with warm water until all shampoo is removed.
+- Apply conditioner from mid-length to the ends of the hair.
+- Leave conditioner on for a few minutes, then rinse thoroughly with cool water.
+- Gently towel dry hair and style as desired.
+
+5. Haircut, every 4–6 weeks:
+
+- Visit a professional hair salon or barber shop.
+- Communicate desired haircut style with the stylist or barber.
+- Sit comfortably and allow the stylist or barber to trim and style your hair.
+- Optionally, request additional services such as hair coloring or treatments.
+- Pay attention to hygiene practices at the salon, ensuring clean tools and
+  equipment are used.
+
 ## Chunk #1. Wake-up
 
 Initialization, want to do good wake-up, care about my body, warm-up and walk.
