@@ -103,16 +103,14 @@ and process [[Spaced_repetition|space repetition]] notes.
 
 # [[DWM_keyboard_shortcuts]]
 
-- First virtual desktop, primary::`D-1`
-- Second virtual desktop, Internet::`D-2`
-- Third virtual desktop, secondary::`D-3`
-- Fourth virtual desktop, IM::`D-4`
-- Launch terminal::`D-S-RET`
-- Menu for running programs like::`D-space`
-- Kill active window.::`D-S-c`
-- Toggle the top bar.::`Pause` temporarily, `D-b` permanently
-- List Active Windows::`D-a`
-- Pass menu::`D-p`
+- First virtual desktop, primary::`s-1`
+- Launch terminal::`s-S-RET`
+- Menu for running programs like::`s-space`
+- Kill active window.::`s-S-c`
+- Make window full-screen.::`s-f`
+- Toggle the top bar.::`s-b`
+- List Active Windows::`s-a`
+- Pass menu::`s-p`
 
 ## [[mpv]]
 
