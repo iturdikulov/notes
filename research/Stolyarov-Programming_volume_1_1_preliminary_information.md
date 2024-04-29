@@ -26,8 +26,8 @@ calculations (low efficiency).
 
 ### 1.1.1 Some history (1.1.1 Немного истории)
 
-First computing machine is mechanical ==calculating clock== of Wilhelm
-Schickard, 1623. But before it Leonardo da Vinci created some sketches of
+First computing machine is mechanical calculating clock of Wilhelm
+Schickard, 1623. But before it ==Leonardo da Vinci== created some sketches of
 computing mechanism.
 <!--SR:!2024-03-09,4,162-->
 
@@ -36,6 +36,7 @@ Most old working computing machine is Pascal's ==adding machine== (pascaline),
 <!--SR:!2024-02-22,4,182-->
 
 ![Additionner avec la réplique de la Pascaline 1645 - YouTube](https://www.youtube.com/watch?v=GX4RQK__fQc)
+
 ![How the Pascaline Works - YouTube](https://www.youtube.com/watch?v=3h71HAJWnVU)
 
 Basic operation is addition, you input first number, then input second number,
@@ -1624,10 +1625,6 @@ possible permutations. ${M_1} = 1$, ${M_2} = 2$\
    22. `7 3 5 2`
    23. `7 5 2 3`
    24. `7 5 3 2`
-
-
-
-
 
 ## References
 
