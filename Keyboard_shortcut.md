@@ -26,6 +26,23 @@ workflow, each section except "Universal" is linked to a more detailed note.
 In this file I place **basic** keybindings list for each my most used program,
 with link to detailed keybindings in separate note.
 
+## [[QMK]]
+
+I use [[Colemak_Mod-DH|Colemak Mod-DH]] layout (not hardware, I use system
+layout) and my own navigation and symbols layers.
+
+### Details
+
+Hold `sym` to activate the symbols layer.
+Hold `nav` to activate the navigation layer.
+Hold `sym` and `nav` to activate the numbers layers.
+The home row modifiers are oneshot so that it's possible to modify the keys on
+the base layer, where there are no dedicated modifiers.
+
+Sometimes you need to use qwerty layout (games for example), I created special
+layer in QMK for that, which activate qwerty layout over the Colemak-DH layout
+when I press special `QWE` default layer switch button (toggle logic).
+
 ## Universal
 
 Notepad based shortcuts, work mostly in all "classic" GUI program.
