@@ -1,3 +1,5 @@
+// This config inspired by https://github.com/qmk/qmk_firmware/tree/user-keymaps-still-present/users/callum
+
 #include QMK_KEYBOARD_H
 
 #define LA_SYM MO(SYM)
@@ -53,11 +55,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   ),
 
   [NAV] = LAYOUT(
-    ____,       ____, ____, ____, ____,  ____, ____, ____, ____, ____, ____, ____, ____, ____, ____, ____,
-    ____,       ____, ____, ____, ____,  ____, ____, ____, ____, ____, ____, ____, ____, ____, ____, ____,
-    ____,        KC_HOME, KC_UP,   KC_END,  KC_PGUP,  KC_VOLU, ____, KC_HOME, KC_UP, KC_BTN2, ____, ____, ____, ____, ____,
-    ____,         ORSHT, OSM(MOD_LCTL), OSM(MOD_LALT), OSM(MOD_LGUI), KC_VOLD,    ____, KC_LEFT, KC_DOWN, KC_RIGHT, ____, ____, ____,          ____,
-    ____, ____,    RGB_TOG, ____, KC_MPRV, KC_MNXT, KC_MPLY,  RGB_MOD, RGB_RMOD, ____, ____, ____, ____, ____, ____,
+    ____,       ____,    ____,    ____,    ____,     ____, ____, ____, ____, ____, ____, ____, ____, ____, ____, ____,
+    ____,       ____,    ____,    ____,    ____,     ____, ____, ____, ____, ____, ____, ____, ____, ____, ____, ____,
+    ____,        KC_HOME, KC_UP,   KC_END,  KC_PGUP,  KC_VOLU, EE_CLR, KC_HOME, KC_UP, KC_END, KC_DEL, ____, ____, ____, ____,
+    ____,         OLSHT,   OLCTL,   OLALT,   OLGUI,    KC_VOLD,    ____, KC_LEFT, KC_DOWN, KC_RIGHT, KC_BSPC, ____, ____,          ____,
+    ____, ____,    RGB_TOG, ____,    KC_MPRV, KC_MNXT,  KC_MPLY,    ____, KC_PGDN, KC_PGUP, ____,      KC_ENT, ____, ____, ____,
     ____, ____, ____, ____, ____,  ____, ____, ____, ____, ____, ____, ____
   ),
 
