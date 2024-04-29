@@ -297,3 +297,4 @@ meaning of words.
 - явно
 
 ### Inbox
+- делимое
