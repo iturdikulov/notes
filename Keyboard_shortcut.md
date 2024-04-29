@@ -33,9 +33,10 @@ layout) and my own navigation and symbols layers.
 
 ### Details
 
-Hold `sym` to activate the symbols layer.
-Hold `nav` to activate the navigation layer.
-Hold `sym` and `nav` to activate the numbers layers.
+Hold `SYM` to activate the symbols layer.
+Hold `NAV` to activate the navigation layer.
+Hold `SYM` and `NAV` to activate the numbers layers.
+
 The home row modifiers are oneshot so that it's possible to modify the keys on
 the base layer, where there are no dedicated modifiers.
 
