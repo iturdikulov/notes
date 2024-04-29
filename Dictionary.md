@@ -31,7 +31,7 @@ meaning of words.
 - actor::`[ˈæktər]` актёр, деятель, участник, личность, действующий субъект (comp.)
 - adequate::`[ˈæd.ʌ.kwɪt]` адекватный, соответствующий, достаточный (The food was adequate for all of us).
 - admission::`[ədˈmɪʃ(ə)n]` допущение (an acknowledgment of the truth of something), принятие; приём (в учебное заведение, клуб, общество), вход, доступ
-- afternoon
+- afternoon::`[ˌɑːftəˈnuːn]` время после полудня, дневное время, вторая половина дня
 - agnostic
 - aims
 - along
