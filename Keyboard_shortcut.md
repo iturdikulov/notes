@@ -48,7 +48,7 @@ when I press special `QWE` default layer switch button (toggle logic).
 
 Notepad based shortcuts, work mostly in all "classic" GUI program.
 
-- Close an open dialog box::`ESC`
+- Close an open dialog box::`ESC`, sometimes `q` or even `M-F4`
 - Open the help::`F1`
 - Switch tabs forward::`C-tab`
 - Switch tabs backward::`C-S-tab`
@@ -61,23 +61,21 @@ Notepad based shortcuts, work mostly in all "classic" GUI program.
 - Open the Print dialog box::`C-p`
 - Undo::`C-z`
 - Redo::`C-y`
-- Refresh::`C-r`
-- PgUp, Select PgUp::`SYM-p`, `SYM-S-p`
-- PgDown, Select PgDown::`SYM-t`, `SYM-S-t`
-- Left, Select Left::`SYM-a`, `SYM-S-a`
-- Right, Select Right::`SYM-s`, `SYM-S-s`
-- Word Left, Select Word Left::`SYM-C-a`, `SYM-C-S-a`
-- Word Right, Select Word Right::`SYM-C-s`, `SYM-C-S-s`
-- Up, Select Up::`SYM-w`, `SYM-S-w`
-- Down, Select Down::`SYM-r`, `SYM-S-r`
+- Refresh::`C-r`l
+- PgDn, Select PgDn::`NAV-h`, `NAV-S-h`
+- PgUp, Select PgUp::`NAV-,`, `NAV-S-,`
+- Left, Select Left::`NAV-n`, `NAV-S-n`
+- Right, Select Right::`NAV-i`, `NAV-S-i`
+- Word Left, Select Word Left::`NAV-C-n`, `NAV-C-S-n`
+- Word Right, Select Word Right::`NAV-C-i`, `NAV-C-S-i`
+- Up, Select Up::`NAV-u`, `NAV-S-u`
+- Down, Select Down::`NAV-e`, `NAV-S-e`
 - Delete Word Left::`C-BCK`
 - Delete Word Right::`C-DEL`
-- Home, Select to Home::`SYM-q`, `SYM-S-q`
-- End, Select to End::`SYM-f`, `SYM-S-f`
-- Top, Select to Top::`SYM-C-q`, `SYM-C-S-q`
-- Bottom, Select to bottom::`SYM-C-f`, `SYM-C-S-f`
-
-## [[QMK]]
+- Home, Select to Home::`NAV-l`, `NAV-S-l`
+- End, Select to End::`NAV-y`, `NAV-S-y`
+- Top, Select to Top::`NAV-C-l`, `NAV-C-S-l`
+- Bottom, Select to bottom::`NAV-C-y`, `NAV-C-S-y`
 
 ## [[Vim_base_keybindings|Base keybindings]] and [[Neovim]]
 
