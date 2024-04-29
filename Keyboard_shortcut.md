@@ -94,12 +94,20 @@ and process [[Spaced_repetition|space repetition]] notes.
 - Open a link in current tab::`LMB` or `C-;` → `keys` (requires Vimium)
 - Open link in new tab and switch to it::`C-S-LMB` or `C-:` → `keys` (requires Vimium)
 - Focus item in search dialog (next/previous)::`F3`/`S-F3`
-- Search in tabs (vimium)::`T`
-- Go back in history (vimium)::`H`
-- Go forward in history (vimium)::`L`
 - Toggle history::`C-H`
 - Restore closed tab::`C-S-T`
 - Focus page content (useful to use from address bar)::`F6`
+
+I also use limited subset of Vimium keybindings, mostly for navigation. Other
+ones are disabled.
+
+- Search in tabs (vimium)::`T`
+- Go back in history (vimium)::`H`
+- Go forward in history (vimium)::`L`
+
+- Search and click on link::`:`
+- Focus input::`gi`
+- Visit previous page::`<C-6>`
 
 # [[DWM_keyboard_shortcuts]]
 
@@ -119,14 +127,16 @@ and process [[Spaced_repetition|space repetition]] notes.
 - Play previous file::`<`
 - Quit::`q`
 
-# [[GNU_Readline]]
+## [[cmus]]
 
-`C-w` - Delete the word before the cursor.
-`C-h` - Delete the character before the cursor.
-`C-c` - Cancel the command line.
-`C-d` - Delete (kill) the character underneath the cursor.
-`C-b` - Move back one character.
-`C-f` - Move forward one character.
+## [[GNU_Readline]]
+
+- Move back one character.::`C-b`
+- Move forward one character.::`C-f`
+- Delete the word before the cursor.::`C-w`
+- Delete the character before the cursor.::`C-h`
+- Cancel the command line.::`C-c`
+- Delete (kill) the character underneath the cursor.::`C-d`
 
 ## [[Z_shell]]
 
@@ -137,44 +147,51 @@ To enter Vi-mode in Zsh type `Esc`, to back to insert mode type `i`.
 
 ## [[Fzf]]
 
-- `ls -l|fzf` - select and print a path
-- `C-t` - paste path into command line
-- `M-C` - cd into the selected directory
-
-## [[Vimium]]
-
-I use limited subset of Vimium keybindings, mostly for navigation. Other ones
-are disabled.
-
-- `:` - Search and click on link
-- `gi` - Focus input
-- `<C-6>` - Visit previous page
+- Select and print a path::`ls -l|fzf`
+- Paste path into command line::`C-t`
+- Change directory into selected path::`M-C`
 
 ## [[Sioyek]]
 
-- `O` - open recent documents list
-- `F9`/`F8` - fit document to screen ignore margins/with margins
-- `t` - open table of contents
-- `ss`/`sl` - with selection - search in Google Scholar and library genesis
-- `:` - open command palette, useful to find functional
+- `O` - Open recent documents list
+- `F9`/`F8` - Fit document to screen ignore margins/with margins
+- `t` - Open table of contents
+- `ss`/`sl` - With selection - search in Google Scholar and library genesis
+- `:` - Open command palette, useful to find functional
 
 ## [[Slack]]
 
-`C-k` - Jump to a conversation
-`C-n` - Compose a new message
-`C-S-l` - Open channel browser
-`C-S-t` - Open the Threads view
-`C-S-m` - Mentions & reactions
-`C-f` - Search current channel or conversation
+- `C-k` - Jump to a conversation
+- `C-n` - Compose a new message
+- `C-S-l` - Open channel browser
+- `C-S-t` - Open the Threads view
+- `C-S-m` - Mentions & reactions
+- `C-f` - Search current channel or conversation
 
 ## [[Blender_common_shortcuts|Blender]]
 
+- `Tab` - Switch between Edit and Object mode
+- `F3` - Search operation
+- `F12` - Render image
+- `~` - Toggle Fly/Walk mode
+
 ## [[Krita]]
+
+- RMB - Show a palette of brushes, color history and other tools
+- LMB+Space - pan the canvas. Also with middle button drag
+- B - Freehand Brush Tool
+- T - Move Tool
 
 ## [[Inkscape]]
 
+- S - Select and transform objects
+- P - Pen Tool
+- C-S-l - Layers and Objects
+- S-M-b - Trace Bitmap
+
 ## References
 
-- [[QMK]]
 - [Monkeytype | A minimalistic, customizable typing test](https://monkeytype.com/)
 - [ShortcutFoo](https://www.shortcutfoo.com/)
+- [KeyCombiner](https://keycombiner.com/)
+
