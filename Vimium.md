@@ -15,6 +15,8 @@ sr-ease: 287
 > control of the web in the spirit of the Vim editor.\
 > — <cite>[Vimium](https://vimium.github.io/)</cite>
 
+<!-- NEXT: outdated -->
+
 **Installation instructions:**
 
 Install via the [Chrome web store](https://chrome.google.com/extensions/detail/dbepggeogbaibhgnhhndojpepiihcmeb) or the [Firefox Add-ons site](https://addons.mozilla.org/en-GB/firefox/addon/vimium-ff/).
