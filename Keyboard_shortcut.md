@@ -91,15 +91,15 @@ and process [[Spaced_repetition|space repetition]] notes.
 
 - Search in active tab::`C-k` → Type something → `<cr>`
 - Search in new tab::`C-k` → Type something → `M-<cr>`
-- Open a link in current tab::`LMB` or `:` → `keys` (requires Vimium)
+- Open a link in current tab::`LMB` or `C-;` → `keys` (requires Vimium)
 - Open link in new tab and switch to it::`C-S-LMB` or `C-:` → `keys` (requires Vimium)
 - Focus item in search dialog (next/previous)::`F3`/`S-F3`
-- Search in tabs::`T`
-- Go back in history::`H`
-- Go forward in history::`L`
+- Search in tabs (vimium)::`T`
+- Go back in history (vimium)::`H`
+- Go forward in history (vimium)::`L`
 - Toggle history::`C-H`
 - Restore closed tab::`C-S-T`
-- Focus page content::`F6`
+- Focus page content (useful to use from address bar)::`F6`
 
 # [[DWM_keyboard_shortcuts]]
 
