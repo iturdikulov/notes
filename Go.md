@@ -20,7 +20,17 @@ sr-ease: 265
 > is Go.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Go_(programming_language))</cite>
 
+## Notes from A tour from Go [^1]
+
+Every Go program is made up of ==packages==.
+
+```go
+package main
+```
+
 ## References
 
 - [Get Started - The Go Programming Language](https://go.dev/learn/)
+
+[^1]: [A Tour of Go](https://go.dev/tour/)
 
