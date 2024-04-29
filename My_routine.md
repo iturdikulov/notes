@@ -34,7 +34,7 @@ many important things and lose your discipline and motivation.
 - Rinse the face with cool water and pat dry.
 - Apply aftershave or moisturizer to soothe the skin.
 
-3. Manicure, every 2 weeks:
+3. Manicure, every 2 weeks hands, 3 weeks feet:
 
 - Trim nails to desired length using nail clippers.
 - Use a nail file to shape the nails and smooth any rough edges.
