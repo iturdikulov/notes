@@ -18,7 +18,8 @@ sr-ease: 150
 
 Generally Taskwarrior is CLI To-Do list manager.
 
-Features:
+## Features
+
 - plain text format (avoid proprietary formats)
 - cross-platform
 - [[Open-source]]
@@ -26,7 +27,25 @@ Features:
 - many extensions and integrations, like Taskwarrior Server and Taskwarrior TUI
 - integrations, most popular Timewarrior and Taskserver, TODO: add note/use it
 
-Some general notes available in @DiveIntoTaskwarriorTomasBabej.
+## Quickstart
+
+You can run `task diagnostics` to check if everything is set up correctly.
+
+Add task, need to finish tomorrow, which recurs each 10 days:
+`task add test_description due:tomorrow recur:10d`
+
+Update a task's priority:
+`task task_id modify priority:H|M|L`
+
+Complete or delete a task:
+`task task_id done`, `task task_id delete`
+
+List open tasks due before the end of the week with tag `next`:
+`task list due.before:eow +next`
+
+List all reports: `task reports`
+
+Some general notes available in Babej taskwarrior tutorial [^2].
 
 NixOS task service provide good command to generate script, which can be used to
 import required credentials [^1]:
@@ -44,17 +63,13 @@ task init sync
 task sync
 ```
 
-You can run `task diagnostics` to check if everything is set up correctly.
-
 ## References
 
 - [ ] `man task`
-- [ ] [[research/Babej-A_dive_into_taskwarrior_ecosystem]]
-- [x] [[research/Syd-GTD_with_taskwarrior]]
 - [ ] [poor man's recurrence Discussion #2846 · GitHub](https://github.com/GothenburgBitFactory/taskwarrior/discussions/2846)
 - [ ] [Taskwarrior - 30-Second Tutorial](https://taskwarrior.org/docs/30second.html)
 - [ ] [Taskwarrior - Usage Examples](https://taskwarrior.org/docs/examples/)
 - [ ] [Taskwarrior - Best Practices](https://taskwarrior.org/docs/best-practices/)
 
 [^1]: [Taskwarrior - Kunzelma Wiki](https://wiki.kunzelma.de/taskwarrior/)
-
+[^2]: [[research/Babej-A_dive_into_taskwarrior_ecosystem]]
