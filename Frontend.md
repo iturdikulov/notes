@@ -22,14 +22,12 @@ sr-ease: 223
 
 I get some fundamentals articles from [Frontend Developer Roadmap](https://roadmap.sh/frontend)
 
-### Frontend
+I also have own
+[[How_I_learn_programming_and_software_development#Frontend|plan]] to learn
+frontend development.
 
 Source of articles and materials:
-- [[HTML]]
-- [[CSS]]
-- [[JavaScript]]
 
-## References
-
-- [[How_I_learn_programming_and_software_development#Frontend]]
-
+- [[HTML]], note with collection of articles and materials about HTML.
+- [[CSS]], about CSS.
+- [[JavaScript]], about JavaScript.
