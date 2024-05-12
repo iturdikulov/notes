@@ -10,6 +10,9 @@ sr-ease: 206
 
 # English language
 
+English is a West Germanic language in the Indo-European
+[[Language_family|language family]].
+
 > English is a language that started in Anglo-Saxon England. It is originally
 > from Anglo-Frisian and Old Saxon dialects. English is now used as a global
 > language. There are about 375 million native speakers (people who use it as
