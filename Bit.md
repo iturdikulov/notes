@@ -18,4 +18,4 @@ sr-ease: 204
 
 ## TODO
 
-- [ ] binary fundamentals pdf check
+- [ ] binary fundamentals PDF check
