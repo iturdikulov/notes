@@ -26,18 +26,21 @@ workflow, each section except "Universal" is linked to a more detailed note.
 In this file I place **basic** keybindings list for each my most used program,
 with link to detailed keybindings in separate note.
 
-## [[QMK]]
+## QMK
+
+I have a keyboard with [[QMK]] firmware, which allows me to create custom
+keyboard layers, macros and other features.
 
 I use [[Colemak_Mod-DH|Colemak Mod-DH]] layout (not hardware, I use system
 layout) and my own navigation and symbols layers.
 
-### Details
+My layers and modifiers:
 
 Hold `SYM` to activate the symbols layer.
 Hold `NAV` to activate the navigation layer.
 Hold `SYM` and `NAV` to activate the numbers layers.
 
-The home row modifiers are oneshot so that it's possible to modify the keys on
+The home row modifiers are `oneshot` so that it's possible to modify the keys on
 the base layer, where there are no dedicated modifiers.
 
 Sometimes you need to use qwerty layout (games for example), I created special
@@ -48,19 +51,19 @@ when I press special `QWE` default layer switch button (toggle logic).
 
 Notepad based shortcuts, work mostly in all "classic" GUI program.
 
-- Close an open dialog box::`ESC`, sometimes `q` or even `M-F4`
+- Close an open dialog box::`ESC`, sometimes `q` or even `M-F4` <!--SR:!2024-05-01,2,225-->
 - Open the help::`F1`
 - Switch tabs forward::`C-tab`
 - Switch tabs backward::`C-S-tab`
-- Close tab::`C-w`
+- Close tab::`C-w` <!--SR:!2024-05-02,3,245-->
 - Zoom in, zoom out, reset zoom of the page::`C-+`, `C--`, `C-0`
 - Select all the text::`C-a`
 - Search text::`C-f`, `/`
 - Create new tab::`C-t`
-- Create new window::`C-n`
+- Create new window::`C-n` <!--SR:!2024-05-01,2,225-->
 - Open the Print dialog box::`C-p`
-- Undo::`C-z`
-- Redo::`C-y`
+- Undo::`C-z` <!--SR:!2024-04-30,1,205-->
+- Redo::`C-y` or C-S-z
 - Refresh::`C-r`l
 - PgDn, Select PgDn::`NAV-h`, `NAV-S-h`
 - PgUp, Select PgUp::`NAV-,`, `NAV-S-,`
@@ -69,37 +72,55 @@ Notepad based shortcuts, work mostly in all "classic" GUI program.
 - Word Left, Select Word Left::`NAV-C-n`, `NAV-C-S-n`
 - Word Right, Select Word Right::`NAV-C-i`, `NAV-C-S-i`
 - Up, Select Up::`NAV-u`, `NAV-S-u`
-- Down, Select Down::`NAV-e`, `NAV-S-e`
-- Delete Word Left::`C-BCK`
+- Down, Select Down::`NAV-e`, `NAV-S-e` <!--SR:!2024-04-30,1,205-->
+- Delete Word Left::`C-BCK` <!--SR:!2024-05-01,2,225-->
 - Delete Word Right::`C-DEL`
-- Home, Select to Home::`NAV-l`, `NAV-S-l`
+- Home, Select to Home::`NAV-l`, `NAV-S-l` <!--SR:!2024-04-30,1,205-->
 - End, Select to End::`NAV-y`, `NAV-S-y`
 - Top, Select to Top::`NAV-C-l`, `NAV-C-S-l`
-- Bottom, Select to bottom::`NAV-C-y`, `NAV-C-S-y`
+- Bottom, Select to bottom::`NAV-C-y`, `NAV-C-S-y` <!--SR:!2024-04-30,1,205-->
 
-## [[Vim_base_keybindings|Base keybindings]] and [[Neovim]]
+## Vim
 
 Since my most used program is Neovim, I have a lot of shortcuts for it. To quit
-I use `ZZ`, `:x`, `:q` and `:qa` ☺.
+I use `ZZ`, `:x`, `:q` and `:qa` ☺. I store basic keybindings in my
+[[Vim_base_keybindings|Base keybindings]] note and more advanced in [[Neovim]].
 
-## [[Obsidian]]
+## GNU Readline
 
-Obsidian is my [[Telekasten.nvim]] companion, main task is to render markdown
-and process [[Spaced_repetition|space repetition]] notes.
+[[GNU_Readline|GNU readline]] used in many programs like Bash, Python, etc. So I
+need to know some basic keybindings to work with it.
 
-## [[Browser_shortcuts|Browser shortcuts]].
+- Move back one character.::`C-b`
+- Move forward one character.::`C-f`
+- Delete the word before the cursor.::`C-w`
+- Delete the character before the cursor.::`C-h`
+- Cancel the command line.::`C-c`
+- Delete (kill) the character underneath the cursor.::`C-d` <!--SR:!2024-04-30,1,205-->
+
+## Obsidian
+
+[[Obsidian]] is my [[Telekasten.nvim|Zettelkasten system]] companion, main task
+is to render markdown, process [[Spaced_repetition|space repetition]] notes and
+work with [[Excalidraw]] diagrams.
+
+## Web Browser
+
+I store my shortcuts (advanced list) in [[Browser_shortcuts|Browser shortcuts]]
+note. Currently, I'm using [[Brave]] browser and sometimes [[Firefox]].
+
+Here are some universal shortcuts:
 
 - Search in active tab::`C-k` → Type something → `<cr>`
-- Search in new tab::`C-k` → Type something → `M-<cr>`
+- Search in new tab::`C-k` → Type something → `M-<cr>` <!--SR:!2024-04-30,1,205-->
 - Open a link in current tab::`LMB` or `C-;` → `keys` (requires Vimium)
 - Open link in new tab and switch to it::`C-S-LMB` or `C-:` → `keys` (requires Vimium)
 - Focus item in search dialog (next/previous)::`F3`/`S-F3`
-- Toggle history::`C-H`
-- Restore closed tab::`C-S-T`
+- Toggle history::`C-H` <!--SR:!2024-05-01,2,225-->
+- Restore closed tab::`C-S-T` <!--SR:!2024-05-02,3,245-->
 - Focus page content (useful to use from address bar)::`F6`
 
-I also use limited subset of Vimium keybindings, mostly for navigation. Other
-ones are disabled.
+I also use limited subset of Vimium keybindings:
 
 - Search in tabs (vimium)::`T`
 - Go back in history (vimium)::`H`
@@ -109,34 +130,35 @@ ones are disabled.
 - Focus input::`gi`
 - Visit previous page::`<C-6>`
 
-# [[DWM_keyboard_shortcuts]]
+## DWM
+
+My main window manager is [[DWM]].
+
+Here is a list of the most used shortcuts:
 
 - First virtual desktop, primary::`s-1`
 - Launch terminal::`s-S-RET`
 - Menu for running programs like::`s-space`
 - Kill active window.::`s-S-c`
-- Make window full-screen.::`s-f`
+- Make window full-screen.::`s-f` <!--SR:!2024-05-02,3,245-->
 - Toggle the top bar.::`s-b`
-- List Active Windows::`s-a`
+- List Active Windows::`s-a` <!--SR:!2024-05-02,3,245-->
 - Pass menu::`s-p`
 
-## [[mpv]]
+## MPV
+
+I use [[MPV]] as my main multimedia player.
+
+Basic keybindings:
 
 - Play/Pause::`space`
 - Play next file::`>`
 - Play previous file::`<`
-- Quit::`q`
+- Quit::`q` <!--SR:!2024-05-02,3,245-->
+
+<!-- NEXT: Continue with other programs -->
 
 ## [[cmus]]
-
-## [[GNU_Readline]]
-
-- Move back one character.::`C-b`
-- Move forward one character.::`C-f`
-- Delete the word before the cursor.::`C-w`
-- Delete the character before the cursor.::`C-h`
-- Cancel the command line.::`C-c`
-- Delete (kill) the character underneath the cursor.::`C-d`
 
 ## [[Z_shell]]
 
@@ -147,7 +169,7 @@ To enter Vi-mode in Zsh type `Esc`, to back to insert mode type `i`.
 
 ## [[Fzf]]
 
-- Select and print a path::`ls -l|fzf`
+- Select and print a path::`ls -l|fzf` <!--SR:!2024-05-02,3,245-->
 - Paste path into command line::`C-t`
 - Change directory into selected path::`M-C`
 
@@ -189,7 +211,7 @@ To enter Vi-mode in Zsh type `Esc`, to back to insert mode type `i`.
 - C-S-l - Layers and Objects
 - S-M-b - Trace Bitmap
 
-## References
+## External links
 
 - [Monkeytype | A minimalistic, customizable typing test](https://monkeytype.com/)
 - [ShortcutFoo](https://www.shortcutfoo.com/)
