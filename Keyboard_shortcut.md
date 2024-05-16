@@ -83,7 +83,7 @@ Notepad based shortcuts, work mostly in all "classic" GUI program.
 ## Vim
 
 Since my most used program is Neovim, I have a lot of shortcuts for it. To quit
-I use `ZZ`, `:x`, `:q` and `:qa` ☺. I store basic keybindings in my
+I use `ZZ`, `:x`, `:q` and `:qa` 😼. I store basic keybindings in my
 [[Vim_base_keybindings|Base keybindings]] note and more advanced in [[Neovim]].
 
 ## GNU Readline
@@ -103,6 +103,18 @@ need to know some basic keybindings to work with it.
 [[Obsidian]] is my [[Telekasten.nvim|Zettelkasten system]] companion, main task
 is to render markdown, process [[Spaced_repetition|space repetition]] notes and
 work with [[Excalidraw]] diagrams.
+
+Core keybindings:
+
+- Switch between edit and read mode::`C-e`
+- Focus on last note::`M-n`
+- Open quick switcher::`M-p`
+- Open command palette::`C-:`
+- Open graph view::`C-g`
+- Open backlinks for the current file::`M-b`
+- Follow link under cursor::`M-RET`
+- Navigate back::`C-M-left`
+- Navigate forward::`C-M-right`
 
 ## Web Browser
 
@@ -156,60 +168,112 @@ Basic keybindings:
 - Play previous file::`<`
 - Quit::`q` <!--SR:!2024-05-02,3,245-->
 
-<!-- NEXT: Continue with other programs -->
+## cmus
 
-## [[cmus]]
+[[cmus]] is my favorite audio-player, near to zero setup, and keyboard driven.
 
-## [[Z_shell]]
+Basic keybindings:
 
-Some keybindings from GNU readline are available in Z shell, but I mostly use
-Vi-mode in Zsh, and it has its own keybindings.
+- Up/Down::`k`/`j`
+- Seek -5/+5 seconds::`h`/`l`>`
+- Seek -1/+1 minutes::`,`/`.`
+- Switch views::`1-7`
+- Pause playback::`c`
+- Next track::`b`
+- Previous track::`z`
+- Toggle shuffle::`s`
+- Restart track::`x`
+- Jump to the currently playing track::`i`
+- Searching::`/`
+- Reduce the volume by 10%::`-`
+- Increase the volume by 10%::`+`
+
+## Z shell
+
+I use [[Z shell|Z_shell]] as my main interactive command interpreter.
+
+Some keybindings from GNU readline are available in Z shell, but I
+usually use Vi-mode in Zsh, and it has its own keybindings.
 
 To enter Vi-mode in Zsh type `Esc`, to back to insert mode type `i`.
 
-## [[Fzf]]
+## fzf
+
+I use [[fzf]] as main UI provider for list of anything, for mine shell scripts
+and commands.
+
+Some keybindings, which integrated with Zsh:
 
 - Select and print a path::`ls -l|fzf` <!--SR:!2024-05-02,3,245-->
 - Paste path into command line::`C-t`
 - Change directory into selected path::`M-C`
 
-## [[Sioyek]]
+For reverse search in history ==(`C-r`)== I use different tool -
+[atuin](https://github.com/atuinsh/atuin).
 
-- `O` - Open recent documents list
-- `F9`/`F8` - Fit document to screen ignore margins/with margins
-- `t` - Open table of contents
-- `ss`/`sl` - With selection - search in Google Scholar and library genesis
-- `:` - Open command palette, useful to find functional
+## Sioyek
 
-## [[Slack]]
+I use [[Sioyek]] to read and annotate PDFs. It's optimized for research and
+reading scientific papers.
 
-- `C-k` - Jump to a conversation
-- `C-n` - Compose a new message
-- `C-S-l` - Open channel browser
-- `C-S-t` - Open the Threads view
-- `C-S-m` - Mentions & reactions
-- `C-f` - Search current channel or conversation
+Basic keybindings:
 
-## [[Blender_common_shortcuts|Blender]]
+- Open recent documents list::`O`
+- Fit document to screen ignore margins/with margins::`F9`/`F8`
+- Open table of contents::`t`
+- With selection - search in Google Scholar and library genesis::`ss`/`sl`
+- Open command palette, useful to find functional::`:`
+- Search bookmark in the current file and all the bookmarks::`gb` and `gB`
 
-- `Tab` - Switch between Edit and Object mode
-- `F3` - Search operation
-- `F12` - Render image
-- `~` - Toggle Fly/Walk mode
+## Slack
 
-## [[Krita]]
+[[Slack]] is my team communication tool.
 
-- RMB - Show a palette of brushes, color history and other tools
-- LMB+Space - pan the canvas. Also with middle button drag
-- B - Freehand Brush Tool
-- T - Move Tool
+Basic keybindings:
 
-## [[Inkscape]]
+Jump to a conversation::`C-k`
+Open direct message's menu::`C-S-k`
+Compose a new message::`C-n`
+Open channel browser::`C-S-l`
+Open the Threads view::`C-S-t`
+Mentions & reactions::`C-S-m`
+Search current channel or conversation::`C-f`
 
-- S - Select and transform objects
-- P - Pen Tool
-- C-S-l - Layers and Objects
-- S-M-b - Trace Bitmap
+## Blender
+
+[[Blender]] is my favorite 3D modeling software.
+
+Some keys to navigate and quick actions:
+
+- Switch between Edit and Object mode::`Tab`
+- Change Mode Pie Menu::`C-TAB`
+- Shading Pie Menu::`Z`
+- Navigation Pie Menu::`` ` ``
+- Focus::`.`
+- Isolate::`/`
+- Search operation::`F3`
+- Render image::`F12`
+- Toggle Fly/Walk mode::`~`
+- Zoom to region::`S-B`
+
+## Krita
+
+I use [[Krita]] as my board and drawing tool.
+
+- Show a palette of brushes, color history and other tools::`RMB`
+- Pan the canvas. Also with middle button drag::`LMB+Space`
+- Freehand Brush Tool::`B`
+- Move Tool::`T`
+
+## Inkscape
+
+[[Inkscape]] is a vector graphics editor. I use it rarely, but it's very
+powerful, and I'm planning to learn it more.
+
+- Select and transform objects::`S`
+- Pen Tool::`P`
+- Layers and Objects::`C-S-l`
+- Trace Bitmap::`S-M-b`
 
 ## External links
 
