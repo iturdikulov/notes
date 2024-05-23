@@ -16,25 +16,20 @@ sr-ease: 130
 
 # [The Python Tutorial](https://docs.python.org/3/tutorial/index.html)
 
-Python powerful, [[High-level_programming_language|high level]]
+Core Python language advantages:
+&#10;
+Python powerful, [[High-level_programming_language|high level]],
 [[Object-oriented_programming|object-oriented]]
-[[Programming_language|programming language]].
-
-Python tutorial cover basic concepts of Python, to learn more recommended to
-check also these materials:
-
-- [[research/Python_Community-Python_Standard_Library|Standard library]]
-- [[research/Python_Community-Python_FAQ|FAQ]]
-- [[research/Šorn-Comprehensive_python_cheatsheet|Cheatsheet]]
-- [[research/Python_Community-Python_Glossary|Glossary]]
+[[Programming_language|programming language]], very useful for rapid development
+and connect various components of programming system.
 
 My notes taken from the Python Tutorial. This tutorial is cover basic concepts
 of Python, most noteworthy features and language elements.
 
 # [1. Whetting Your Appetite](https://docs.python.org/3/tutorial/appetite.html)
 
-In this section described when Python usable. For example scripting, simple GUI,
-etc.
+In this section described when Python can be usable. For example scripting,
+simple GUI, etc.
 
 Also described strong points of Python, such as rapid development (simplify
 write/compile/test/re-compile cycle), interactivity, extensibility, splitting
@@ -1615,3 +1610,10 @@ important points extracted for you:
 ## [15. Floating Point Arithmetic: Issues and Limitations](https://docs.python.org/3/tutorial/floatingpoint.html)
 
 ## [16. Appendix](https://docs.python.org/3/tutorial/appendix.html)
+
+## References
+
+- [[research/Python_Community-Python_Standard_Library|Standard library]]
+- [[research/Python_Community-Python_FAQ|FAQ]]
+- [[research/Šorn-Comprehensive_python_cheatsheet|Cheatsheet]]
+- [[research/Python_Community-Python_Glossary|Glossary]]
