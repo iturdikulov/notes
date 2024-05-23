@@ -10,6 +10,12 @@ tags:
 I keep my notes, mostly to improve my [[Learning|education process]], store
 important information (for me) and share it with others.
 
+## Super global tasks
+
+1. Programming;
+2. Promote;
+3. Care.
+
 ## Activities
 
 To build my daily plan and track what I'm doing I use [[Taskwarrior]] with
