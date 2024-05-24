@@ -31,7 +31,7 @@ NEXT: review this
   - [[Microsoft_Windows]]
   - [[Zotero]]
   - [[Git]]
-  - [[Fzf]]
+  - [[fzf]]
 - Office
   - [[Zathura]]
   - [[Latex]]
