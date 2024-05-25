@@ -36,7 +36,7 @@ who helped author and other aspects of writing process.
 
 # Introduction 2, methodical (Предисловие 2, методическое)
 
-You can study programming only by ==yourself== (maybe too categorical).
+You can study programming only by ==yourself== (maybe too categorical). <!--SR:!2024-05-27,2,169-->
 
 Learning programming by writing GUI applications first (event-driven approach)
 is bad idea.
@@ -56,8 +56,7 @@ in next sections.
 ## Mathematical reason (Математическая причина)
 
 Any [[Computer_programming|program]] is a record of ==algorithm== on some
-programming language.
-<!--SR:!2024-02-25,4,187-->
+programming language. <!--SR:!2024-06-03,9,187-->
 
 On very fundamental level no-one knows what algorithm it is, that's why we have
 [[Computational_problem|computational problems]], and theoretical
@@ -66,8 +65,7 @@ On very fundamental level no-one knows what algorithm it is, that's why we have
 Algorithm make transformation from set of [[Word|words]] (chains of symbols over
 some alphabet) into the same ==set==.
 For this transformation can exist more than one algorithm (countless) or not
-exist.
-<!--SR:!2024-03-04,15,227-->
+exist. <!--SR:!2024-06-27,33,227-->
 
 Algorithm is such a "thing" which read input word, do something **constructive**
 and return another word.
@@ -101,17 +99,17 @@ Bad teachers can mislead a newbie student, for example start learning
 programming with making GUI (focusing on UI, not a program logic), which is bad
 idea. It can traumatize student mindset (brain damage), and he will have many
 problems to relearn programming in future (if he can do it) and think
-programming is boring process (actually not, he will not know what he lost).
-<!--SR:!2024-02-24,4,182-->
+programming is boring process (actually not, he will not know what he lost). <!--SR:!2024-05-31,6,182-->
 
 ## Language determines thinking (Язык определяет мышления)
 
-Why need to learn form "simple" languages, which providing basic concepts and
+Why need to learn form "simple" languages,
+instead complex one, which providing basic concepts and
 not too complicated?
 &#10;
 Stating learning programming from complex programming languages (like Java, C++
 and even C) is bad idea, newbie learners will have hard been understanding their
-concepts and not really will learn programming.
+concepts and not really will learn programming. <!--SR:!2024-05-27,2,169-->
 
 Knowing [[Data_structure|data structures]] is important, if you're not
 understanding difference (and in result where they can be used) between `vector`
@@ -122,23 +120,20 @@ Mixing C and C++ is bad idea (maintainability reason).
 Why learning C as first programming language is not so good?
 &#10;
 C as first programming language is not suitable, you need to understand pointers
-first and work with them (and it's hard).
-<!--SR:!2024-02-23,3,162-->
+first and work with them (and it's hard). <!--SR:!2024-05-30,5,162-->
 
 Why knowing language on fundamental level is important?
 &#10;
 Understanding code as "magic commands" is not good for good programmers, you
-need to understand code on very low level to create truly effective programs.
-<!--SR:!2024-02-23,3,162-->
+need to understand code on very low level to create truly effective programs. <!--SR:!2024-05-29,4,162-->
 
 In C you haven't ==procedures==, only functions. For example even assignment,
 increment are arithmetic operations. And in C formally any actions (which is
-core of C) are creating [[Side_effect|side effect]].
+core of C) are creating [[Side_effect|side effect]]. <!--SR:!2024-05-27,2,169-->
 
 > Side effect can be appeared only when evaluating expression.
 Side effect this is arbitrary change, which occurring when evaluating expression
-and then can be somehow ==detected==.
-<!--SR:!2024-02-28,10,227-->
+and then can be somehow ==detected==. <!--SR:!2024-06-16,22,227-->
 
 Unlike C, C++ and functional programming languages, in [[Pascal]] there mostly
 no side effects (questionable).
@@ -150,13 +145,12 @@ while((dest++ = * src++));
 &#10;
 To avoid side effects and make this
 less cryptic.
-Yes in C you can't avoid side effects anyway, but in other languages you can.
+Yes in C you can't avoid side effects anyway, but in other languages you can. <!--SR:!2024-05-26,1,149-->
 
 When knowledge of C can be useful?
 &#10;
 Writing in C is requirement, you need to understand how computer and operating
-system is working on subconscious level to write really **quality programs**.
-<!--SR:!2024-02-22,2,152-->
+system is working on subconscious level to write really **quality programs**. <!--SR:!2024-05-28,3,152-->
 
 Learning C, here are some requirements in understanding pointers and
 recursion, which can help some another language ([[Pascal]]):
@@ -168,8 +162,7 @@ Is deep learning Pascal (in details) is needed when you learn general
 programming?
 &#10;
 Not really. You learn not Pascal, you learn programming by using Pascal, and you
-can omit some Pascal specific features.
-<!--SR:!2024-02-23,5,182-->
+can omit some Pascal specific features. <!--SR:!2024-06-05,11,182-->
 
 Why need to learning Assembly language (at least basics)?
 &#10;
@@ -180,21 +173,19 @@ understand OS kernel, how to interact with it, understand system calls, deeply
 understand data structures, etc. And you need usually also learn it before C
 (but after Pascal). You can use any assembly to learn, need to get understanding
 how to work with registers and memory areas, understand stack frame, interrupts,
-etc.
+etc. <!--SR:!2024-05-26,1,149-->
 
 So authors chain to learn programming is: ==Pascal → Assembly → C → C++==
 (special author's vision), OS, I/O, processes, sockets, multithreading, mutex
-objects and semaphores, critical sections, etc.
-<!--SR:!2024-02-24,3,162-->
+objects and semaphores, critical sections, etc. <!--SR:!2024-05-29,4,162-->
 
 # Introduction 3, parting words (Предисловие 3, напутственное)
 
 First who created things which works on their own (automatically) are watch
 mechanics. XVIII century - Jaquet-Droz ==automata== (most complex is penman,
-containing 6000 details).
-<!--SR:!2024-02-23,5,202-->
+containing 6000 details). <!--SR:!2024-06-04,10,202-->
 
-![Jaquet-Droz The Writer Automaton From 1774 In Action](https://www.youtube.com/watch?v=ux2KW20nqHU)
+![Jaquet-Droz The Writer Automaton From 1774 In Action](https://www.youtube.com/watch?v=ux2KW20nqHU)\
 _Jaquet-Droz The Writer Automaton From 1774 In Action_
 
 He not only invented these automata machines, hi also spent a lot of time to
@@ -203,13 +194,11 @@ combination of many different skills, finances and physical labor.
 
 With programmable computers you can avoid ==material== requirements to make
 something useful and great. Program itself is finished product. Programming is
-the most creative profession in engineering and technical professions.
-<!--SR:!2024-02-22,4,182-->
+the most creative profession in engineering and technical professions. <!--SR:!2024-06-01,7,182-->
 
-What is 2 main things which are important for programmer?
+What is 2 main things which are important for programmer (to improve as programmer)?
 &#10;
-Self-education and practice is requirement to be programmer.
-<!--SR:!2024-02-22,1,132-->
+Self-education and practice is requirement to be programmer. <!--SR:!2024-05-26,1,132-->
 
 Author also tells you need to use CLI to learn something from this book (I use
 it daily), which give you abilities to write simple programs and find users for
