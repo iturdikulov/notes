@@ -15,7 +15,7 @@ Currently, I'm focusing on learning [[Visual_arts|visual art]] and
 [[How_I_learn_computer_graphics|computer graphics]] which is for me very close
 field.
 
-I also like to practice [[Handwriting|handwriting]].
+I also like to practice [[My_Handwriting|handwriting]].
 
 ## Drawing
 
