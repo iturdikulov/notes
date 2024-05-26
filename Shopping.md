@@ -20,8 +20,8 @@ sr-ease: 250
 
 I rarely go shopping. I prefer to buy things online.
 
-I have [[My_buy_list|buy list]] where I store things I want to buy or what
-required to buy (food, clothes, etc.).
+I have [[My_inventory|inventory list]] where I store things I want to buy or
+what required to buy (food, clothes, etc.).
 
 ## Online shopping sites
 
