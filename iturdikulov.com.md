@@ -14,3 +14,8 @@ sr-ease: 209
 My personal website, which contains various
 [[My_awesome_web_services_list|services]], [[Zettelkasten|notes]], etc.
 
+## Inspiration
+
+- [The Interactive Fiction Archive](https://ifarchive.org/)
+- [PocketBase - Open Source backend in 1 file](https://pocketbase.io/)
+
