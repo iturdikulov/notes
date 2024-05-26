@@ -24,7 +24,7 @@ sr-ease: 250
 IRL is abbreviation for "in real life". I use it to describe my real life
 activities.
 
-For life support I need [[My_buy_list|buy some things]], [[Cooking|cook]] food
+For life support I need [[My_inventory|buy some things]], [[Cooking|cook]] food
 and [[My_inventory|keep inventory]] (which require [[Maintenance|maintenance]]).
 
 Sometimes I do some [[Do_it_yourself_DIY|cool things]] or spent time for
