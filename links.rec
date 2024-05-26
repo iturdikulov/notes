@@ -214,12 +214,14 @@ URL: https://beldmit.dreamwidth.org/
 Category: IT
 Category: Russian
 Category: Personal
+Checked: True
 Feed: https://beldmit.dreamwidth.org/data/atom
 
 Title: Dmitry's notes
 URL: https://dmitrysnotes.ru/
 Category: IT
 Category: Russian
+Checked: True
 Category: Personal
 Feed: https://dmitrysnotes.ru/feed
 
@@ -231,6 +233,7 @@ Feed: https://drewdevault.com/blog/index.xml
 
 Title: dxdt занимательный интернет-журнал
 URL: https://dxdt.ru/
+Checked: True
 Category: IT
 Category: Russian
 Feed: https://dxdt.ru/feed/
@@ -359,12 +362,14 @@ Feed: https://karl-voit.at/feeds/lazyblorg-all.atom_1.0.links-and-teaser.xml
 
 Title: linkmeup
 URL: https://linkmeup.ru/
+Checked: True
 Category: Networking
 Category: Russian
 Feed: https://linkmeup.ru/feed/
 
 Title: linkmeup podcasts
 URL: https://linkmeup.ru/podcasts/
+Checked: True
 Category: Networking
 Category: Russian
 Category: Podcast
@@ -485,6 +490,7 @@ Feed: https://blog.paedubucher.ch/index.xml
 Title: phd's blog
 URL: https://phd-ru.dreamwidth.org/
 Category: IT
+Checked: True
 Category: Russian
 Category: Personal
 Feed: https://phd-ru.dreamwidth.org/data/atom
@@ -662,6 +668,7 @@ Feed: https://stannum.io/blog/rss.xml
 
 Title: Админ в маленьком городе
 URL: https://mdex-nn.ru/
+Checked: True
 Category: IT
 Category: Russian
 Category: Personal
@@ -669,6 +676,7 @@ Feed: https://mdex-nn.ru/feed
 
 Title: Блог Виктора Судакова
 URL: https://victor-sudakov.dreamwidth.org/
+Checked: True
 Category: IT
 Category: Russian
 Category: Personal
@@ -676,6 +684,7 @@ Feed: https://victor-sudakov.dreamwidth.org/data/atom
 
 Title: Шоу "16-бит тому назад"
 URL: https://16-bits.ru/myvideo/16bit/
+Checked: True
 Category: Games
 Category: Russian
 Category: Podcast
@@ -688,11 +697,13 @@ Category: Podcast
 Category: Oldies
 Category: Vlog
 URL: https://16-bits.ru/myvideo/siti/
+Checked: True
 Feed: https://16-bits.ru/feed/
 
 Title: Журнал Downgrade
 Category: Russian
 Category: Oldies
+Checked: True
 URL: http://dgmag.in/
 Feed: http://dgmag.in/rss.xml
 
@@ -705,6 +716,7 @@ Feed: https://eax.me/feed/
 
 Title: Крупнейший в Рунете архив старых программ
 URL: http://old-dos.ru/
+Checked: True
 Category: Russian
 Category: Oldies
 
