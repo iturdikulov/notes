@@ -59,3 +59,8 @@ Here they are:
 5::File Browser
 6::Filters, a list of user-defined filters for the library
 7::Settings, which displays key bindings and commands
+
+## External links
+
+- [ ] [cmus, a really quick guide](https://www.increasinglyadequate.com/cmus.html)
+
