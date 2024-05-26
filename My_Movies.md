@@ -112,7 +112,6 @@ Good inspiration for watching movies.
 - [ ] Вечное сияние чистого разума (2004)
 - [ ] Побудь в моей шкуре (2013)
 - [ ] Вторжение динозавра (2006)
-- [ ] Дитя человеческое (2006)
 
 ## Anime 🙃
 
@@ -140,3 +139,9 @@ Good inspiration for watching movies.
       Humor also good. 9.1/10
 - [x] Кунг-фу Панда 2 / Kung Fu Panda 2 (2011). Probably a little bit weaker
       than previous movie. But very sensitive. 9/10
+
+## External links
+
+- [Мультики by ArjLover](https://multiki.arjlover.net/)
+- [Кинопоиск](https://www.kinopoisk.ru/)
+
