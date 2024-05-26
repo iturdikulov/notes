@@ -38,6 +38,8 @@ on my [[Smartphone|smartphone]].
 
 ## Smartphone games
 
+- [ ] [Euclidea games](https://www.euclidea.xyz/)
+
 ## All Games list
 
 TODO: fix links
