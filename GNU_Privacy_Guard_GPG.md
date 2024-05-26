@@ -375,6 +375,7 @@ cp sub-key.asc /media/storage/ # copy sub-key to storage
 ## References
 
 - [^1]: [Using an offline GnuPG master key](https://incenp.org/notes/2015/using-an-offline-gnupg-master-key.html).
+- [OpenPGP for application developers](https://openpgp.dev/book/)
 - [Keybase is secure messaging and file-sharing.](https://keybase.io)
 - [An abridged guide to using ed25519 PGP keys with GnuPG and SSH](https://musigma.blog/2021/05/09/gpg-ssh-ed25519.html)
 - [GPG Keys - Create & Use](https://thanoskoutr.com/posts/gpg-keys-configure/)
