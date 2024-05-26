@@ -20,6 +20,7 @@ TODO: better group resources
 
 ## Frontend
 
+- [ ] [The Valley of Code](https://thevalleyofcode.com/)
 - [ ] [Mini projects built with HTML5, CSS & JavaScript](https://github.com/bradtraversy/vanillawebprojects)
 - [ ] [Как правильно верстать в 2022 году. Часть 1 / Habr](https://habr.com/en/articles/655009/)
 - [ ] [The Odin Project, web development](https://www.theodinproject.com/)
