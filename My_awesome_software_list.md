@@ -18,7 +18,8 @@ other notes.
 Check also [[My_shell_scripts|my scripts]] and
 [[Hidden_file_and_hidden_directory_dotfiles|dotfiles]].
 
-TODO: restructure, instead more_info, use linking to notes!
+TODO: restructure, instead more_info, use linking to notes! Merge with similar
+notes.
 
 Table Of Contents:
 
@@ -175,7 +176,7 @@ Table Of Contents:
   switch between several programs in one terminal
 - [[Z_shell]] - Unix shell that can be used as an interactive login shell and
 as a command interpreter for shell scripting
-- [[Fzf]] - general-purpose command-line fuzzy finder
+- [[fzf]] - general-purpose command-line fuzzy finder
 
 - [fd](https://github.com/sharkdp/fd) - A simple, fast and user-friendly
   alternative to \'find\', [[Fd|more_info]]
@@ -445,6 +446,10 @@ TODO: actualize this list
   [antimicrox-profiles/applications](https://github.com/AntiMicroX/antimicrox-profiles/tree/master/applications)
 
 - REVIEW this list, add ncspot, termdown, etc (check nixos modules)
+
+- libation - audible library download
+
+- detox normalize filenames
 
 ## References
 
