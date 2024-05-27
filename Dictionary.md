@@ -23,6 +23,13 @@ sr-ease: 252
 I use [[Sdcv|electronic dictionaries]] to translations and understand the
 meaning of words.
 
+## External links
+
+- [Wiktionary](https://www.wiktionary.org/)
+- [FOLDOC - Computing Dictionary](https://foldoc.org/)
+- [Computer Hope's Free Computer Help](https://www.computerhope.com/)
+- [NetLingo The Internet Dictionary](https://www.netlingo.com/)
+
 ## English
 
 - R&D::research and development - исследования и разработки, научно-исследовательский и опытно-конструкторский; Imagine that your company has two departments: Research and Development.
@@ -298,3 +305,6 @@ meaning of words.
 
 ### Inbox
 - делимое
+- инвентаризация
+- tired
+- subconscious
