@@ -25,6 +25,8 @@ And we need to prepare the first 2 steps.
 
 ## 0. Prepare
 
+<!-- NEXT: need review [[My_Arch_Linux_enviroment]] iso/pre-install section -->
+
 Boot from the USB stick and setup networking. (optionally setup SSH if you want
 to complete the installation from another computer)
 ```sh
