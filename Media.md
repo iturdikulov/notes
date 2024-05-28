@@ -20,6 +20,8 @@ sr-ease: 250
 
 ## My Art and Media
 
+TODO: remove my, merge with similar notes.
+
 - [[My_Art]]
 - [[My_Fiction_Books]]
 - [[My_Videos]], including [[YouTube]] and [[Twitch]]
@@ -27,9 +29,9 @@ sr-ease: 250
 - [[My_Movies]]
 - [[My_Games]]
 - [[My_Pictures]]
-- [[Handwriting]]
+- [[My_Handwriting]]
 - [[Comics]]
-- TODO: link to software
+- [[My_awesome_software_list]]
 
 ## Multimedia formats
 
