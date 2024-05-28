@@ -21,13 +21,13 @@ sr-ease: 130
 
 ## My search engines list
 
+Google search::`@g`
+
 Browser bookmarks::`@b`
 
-Browser Tabs::`@t`
+Browser Tabs::In chrome-based browsers use `C-S-a` to search tabs.
 
 Browser History::`@h`
-
-Google search::`!g`
 
 ## DuckDuckGo bangs
 
