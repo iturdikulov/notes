@@ -26,7 +26,10 @@ sr-ease: 274
 
 Currently, I use [[Firefox]] and [[Brave]].
 
-## References
+I also recommended to check and integrate [[Search_engine|search engines]] into
+your browser.
+
+## External links
 
 - [ ] [How browsers work](https://web.dev/howbrowserswork/)
 - [ ] [Populating the page: how browsers work - Web performance | MDN](https://developer.mozilla.org/en-US/docs/Web/Performance/How_browsers_work)
