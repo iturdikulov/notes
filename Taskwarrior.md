@@ -29,6 +29,8 @@ Generally Taskwarrior is CLI To-Do list manager.
 
 ## Quickstart
 
+NEXT: convert into flashcards
+
 You can run `task diagnostics` to check if everything is set up correctly.
 
 Add task, need to finish tomorrow, which recurs each 10 days:
@@ -44,6 +46,8 @@ List open tasks due before the end of the week with tag `next`:
 `task list due.before:eow +next`
 
 List all reports: `task reports`
+
+List all projects: `task projects`
 
 Some general notes available in Babej taskwarrior tutorial [^2].
 
