@@ -14,6 +14,10 @@ sr-ease: 209
 My personal website, which contains various
 [[My_awesome_web_services_list|services]], [[Zettelkasten|notes]], etc.
 
+Website information:
+
+- URL: [iturdikulov.com](https://iturdikulov.com)
+
 ## Inspiration
 
 - [The Interactive Fiction Archive](https://ifarchive.org/)
