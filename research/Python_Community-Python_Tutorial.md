@@ -147,8 +147,7 @@ a = n + 1  # NameError: name 'n' is not defined
 ```
 
 In interactive mode, the last printed expression is assigned to the variable
-==`_`==, and it should be read-only (please avoid assign values to it).
-<!--SR:!2024-01-02,6,240-->
+==`_`==, and it should be read-only (please avoid using it as real variable). <!--SR:!2024-01-02,6,240-->
 
 ```python
 tax = 12.5 / 100  # tax coefficient
@@ -420,9 +419,11 @@ cubes.append(7 ** 3)  # and the cube of 7
 print(cubes)
 ```
 
+<!-- NEXT: need to practice more -->
+Is it possible to change multiple elements in list at once?
+&#10;
 You can also do assignments to lists (inserting/replace), which can change their
 size or clear them entirely.
-
 ```python
 letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g']
 # replace some values
@@ -436,14 +437,15 @@ letters[:] = []
 print(letters)
 ```
 
-List also support built-in functions `len()` and `+`.
+List also support [built-in](https://docs.python.org/3/library/functions.html)
+functions `len()` and `+`.
 
 ```python
 print(len(["Hello", "World"]))  # 2
 ```
 
-You can also use nested lists (list containing other lists).
-
+You can also use nested lists (list containing other lists, and other data
+types).
 ```python
 a = ['a', 'b', 'c']
 n = [1, 2, 3]
@@ -453,6 +455,7 @@ print(x) # [['a', 'b', 'c'], [1, 2, 3]]
 
 [[Fibonacci_sequence|Fibonacci sequence example]]:
 
+<!-- NEXT: need to review this -->
 Can you write Fibonacci algorithm?
 &#10;
 Each number is the sum of the two preceding ones.
@@ -496,27 +499,22 @@ while a < 10:
     b = a + b
 ```
 
-TODO: review [A Python Guide to the Fibonacci Sequence – Real Python](https://realpython.com/fibonacci-sequence-python/).
+<!-- NEXT: review [A Python Guide to the Fibonacci Sequence – Real Python](https://realpython.com/fibonacci-sequence-python/). -->
 
 Order of Evaluation in Python expression (operand)?
 &#10;
-In Python, the left operand is always evaluated before the right operand
-(if they has same priority).
-<!--SR:!2023-12-30,1,180-->
+In Python, the left operand evaluated before the right operand (if they have
+same priority). <!--SR:!2024-06-01,2,180-->
 
-Non-zero, zero or [[Null_pointer|None]] values in Python (and C) considered as
-==[[Boolean_data_type|boolean]]==.
-<!--SR:!2024-01-01,5,240-->
-
-Non-zero and zero length values considered as (xxx and xxx)?
-&#10;
-True and False. Length also True and False.
-<!--SR:!2023-12-31,2,220-->
+Non-zero, zero, zero length or [[Null_pointer|None]] values in Python (and C)
+considered as ==[[Boolean_data_type|boolean]]== (at least in if/else
+statements). <!--SR:!2024-01-01,5,240-->
 
 `-3**2` in Python is?
 &#10;
-Since `**` has higher precedence than -, `-3**2` will be interpreted as
-`-(3**2)` and thus result is -9. To avoid this and get 9, you can use `(-3)**2`.
+Since `**` operator has higher precedence than -, `-3**2` will be interpreted as
+`-(3**2)` and thus result is -9, not 9. To avoid this and get 9, you can use
+`(-3)**2`.
 <!--SR:!2023-12-30,1,200-->
 
 ## [4. More Control Flow Tools](https://docs.python.org/3/tutorial/controlflow.html)
@@ -541,20 +539,24 @@ For statement in Python iterates over the sequence items, in the order that they
 appear. And finish when sequence is exhausted.
 
 ```python
-[print(x, end="😮") for x in list("Inomoz")]  # H😮n😮r😮
+[print(x, end="😮") for x in list("Inomoz")]  # I😮n😮o😮m😮o😮z😮
+
+for item in [1, 2, 3, 4, 5]:
+    print(item)
+else:
+    print("Done!")  # if no break, this will be printed
 ```
 
 > Code that modifies a collection while iterating over that same collection can
 > be tricky to get right. Instead, it is usually more straight-forward to loop
 > over a ==copy== of the collection or to create a new collection:
-<!--SR:!2024-01-01,5,240-->
-
 ```python
 # Create a sample collection
 users = {'Hans': 'active', 'Éléonore': 'inactive', '景太郎': 'active'}
 
 # Strategy:  Iterate over a copy
 # this looks interesting, it's avoid dict size changing during iteration
+# how effective it is?
 for user, status in users.copy().items():
     if status == 'inactive':
         del users[user]
@@ -572,16 +574,15 @@ print(active_users)
 generates (math) ==arithmetic progression==.
 <!--SR:!2024-01-02,6,240-->
 
-Last index of `range(10)`?::`9`
-<!--SR:!2024-01-01,5,240-->
-
+Last index of `range(10)`?::`9`, from 0 to 9
 ```python
 print(list(range(10))) # [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
                        # ten isn't included in the generated sequence.
+                       # because in that case we generate 11 items
 
-# Multiplication table
-for i in range(2, 12):
-  for j in range(12):
+# Multiplication table 2x2 to 9*9
+for i in range(2, 10):
+  for j in range(2, 10):
     print(f"{i} * {j} = {i*j}")
 ```
 
@@ -593,20 +594,20 @@ print(list(range(5, 10)))  # [5, 6, 7, 8, 9]
 print(list(range(5, 10))[4]) # 9
 ```
 
-What you will see in interactive python session if you enter this:
-`list(range(0, 10))`
+How to generate numbers form 1 to 100 using `range()`?
 &#10;
 ```python
-[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+print(list(range(1, 101)))
 ```
-<!--SR:!2024-01-01,5,240-->
 
 And you can also specify [[Increment_and_decrement_operators|increment]] for
-step size. Which can be positive or negative.
+step size. Which can be positive or negative. Positive step size will generate
+sequence in increasing order and negative step size will generate sequence in
+decreasing order (alternative to `reversed()` function).
 
 ```python
 print(list(range(0, 10, 1)))  # [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], default
-print(list(range(0, 10, 2)))  # [0, 2, 4, 6, 8], 0 + 2, 2 + 2, 4 + 2, ...
+print(list(range(0, 10, 2)))  # [0, 2, 4, 6, 8], 0 + 2, 2 + 2, 4 + 2, ..., two here is next number after 0, then 2 + 2, 4 + 2, ...
 print(list(range(0, 10, 3)))  # [0, 3, 6, 9]
 
 # Negative step size will generate sequence in reverse order.
@@ -617,6 +618,17 @@ print(list(range(-10, 10, 30))) # [-10], first item only
 print(list(range(-10, 40, 30))) # [-10, -20], -10 + 30
 ```
 
+What you will see in interactive python session if you enter this:
+`list(range(10, 0))`, `list(range(10, 0, -1)) and this `list(range(10, 0, -1))`.
+&#10;
+```python
+list(range(10, 0))  # [] empty list, because start is greater than stop
+list(range(10, 0, -1))  # [10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
+list(range(10, -1, -1))  # [10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0]
+```
+<!--SR:!2024-01-01,5,240-->
+
+
 To iterate over the indices of a sequence, you can combine `range()` and `len()`
 as follows:
 
@@ -626,8 +638,8 @@ for i in range(len(a)):
     print(i, a[i])
 ```
 
-But better just use `enumerate()` function.
-
+But better just use `enumerate()` function when you want to repeatedly access to
+iterable items (more suited for this).
 ```python
 a = ['Mary', 'had', 'a', 'little', 'lamb']
 for i, item in enumerate(a):
@@ -635,8 +647,8 @@ for i, item in enumerate(a):
 ```
 
 If we don't iterate over range and just print it, we will get object reference.
-Because range return [[Iterator|iterable]] object.
-
+Because range return [[Iterator|iterable]] object, to get list we need to use
+==`list()`== function.
 ```python
 print(range(10))  # range(0, 10)
 ```
@@ -650,6 +662,7 @@ What you will see with this code: `sum(range(4))`?
 > ==`for` or `while` loop==.
 <!--SR:!2024-01-01,2,238-->
 
+<!-- NEXT: Review prime number detection algorithm, rewrite with `while` -->
 In python `for` and `while` statements may have a `else` clause.
 It is executed if loop ==wasn't `break`ed== (we iterated over all items in `for` or
 `while` condition become `False`).
@@ -669,10 +682,13 @@ for n in range(2, 10):
 When `else` runs in `try-except` statement?
 &#10;
 In `try-except` statement, `else` runs if no exception was raised.
+If you worked on something (try, for, while) and you aren't interrupt
+(break/exception), we call else method as this is likely unusual?
 <!--SR:!2024-01-01,2,238-->
 
+<!-- NEXT: Review even/odd number detection algorithm -->
 The `continue` statement - continue loop with the ==next== iteration of the
-loop (current skipped):
+loop (skip anything from current place to end of loop body).
 ```python
 for num in range(2, 10):
     if num % 2 == 0:
@@ -705,7 +721,7 @@ print(c)
 try:
     import platform
 except ImportError:
-    pass  # this is bad pracitce DO NOT DO THIS
+    pass  # this is bad pracitce DO NOT DO THIS IN REAL CODE
 ```
 
 A `match` statement comparing expression with ==successive== patterns (case
@@ -967,8 +983,7 @@ fib(2000)
 ```
 <!--SR:!2023-12-31,1,218-->
 
-The keyword `def` introduces a function ==definition==.
-<!--SR:!2023-12-31,2,238-->
+The keyword `def` introduces a function ==definition==. <!--SR:!2024-06-03,4,238-->
 
 The first statement of the function body can optionally be a string
 literal; this string literal is the function's documentation string, or
