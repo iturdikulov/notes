@@ -747,11 +747,40 @@ def http_error(status):
 
 > Only the first pattern that matches gets executed, and it can also
 > ==extract components== (sequence elements or object attributes) from the
-> value into variables.
+> value into variables in case block.
 <!--SR:!2023-12-31,2,238-->
 
-Patterns can look like ==unpacking assignments== (like tuple), and can be used to bind
-variables into case block:
+Can I use objects (classes for example) in pattern matching, can I bind class
+attributes to variables?
+&#10;
+Yes, you can use objects (in case blocks), place them with arguments (like
+a constructor), capturing class attributes also supported.
+```python
+class Point:
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
+
+def where_is(point):
+    match point:
+        case Point(x=0, y=0):
+            print("Origin, coordinates are 0, 0")
+        case Point(x=0, y=y_exctracted):
+            print(f"Y coordinate: {y_exctracted}")
+        case Point(x=x_exctracted, y=0):
+            print(f"X coordinate: {x_exctracted}")
+        case Point():
+            print("Somewhere else")
+        case _:
+            print("Not a point")
+
+for point in [Point(0, 0), Point(0, 1), Point(1, 0), Point(1, 1), None]:
+    where_is(point)
+```
+<!--SR:!2023-12-31,2,238-->
+
+Patterns can look like ==unpacking assignments== (like tuple), and can be used
+to bind variables into case block:
 ```python
 point = (0, 100)
 
@@ -768,33 +797,7 @@ match point:
         raise ValueError("Not a point")
 ```
 
-Can I use classes in pattern matching, can I bind class attributes to
-variables?
-&#10;
-Yes, you can use classes (in case blocks), place them with arguments (like
-a constructor), capturing class attributes also supported.
-```python
-class Point:
-    def __init__(self, x, y):
-        self.x = x
-        self.y = y
-
-def where_is(point):
-    match point:
-        case Point(x=0, y=0):
-            print("Origin")
-        case Point(x=0, y=y):
-            print(f"Y={y}")
-        case Point(x=x, y=0):
-            print(f"X={x}")
-        case Point():
-            print("Somewhere else")
-        case _:
-            print("Not a point")
-```
-<!--SR:!2023-12-31,2,238-->
-
-Can I use arguments with different order (not same as in class) for class in pattern matching?
+Can I customize class arguments order with pattern matching?
 &#10;
 Yes, by setting the `__match_args__` special attribute in your classes. If
 it's set to ("x", "y"), the following patterns are all equivalent (and all
@@ -821,36 +824,46 @@ Yes, patterns can be arbitrarily nested. For example, if we have a short list
 of Points, with `__match_args__` added, we could match it like this:
 ```python
 class Point:
-    __match_args__ = ('x', 'y')
+    __match_args__ = ("x", "y")
     def __init__(self, x, y):
         self.x = x
         self.y = y
 
-match points:
-    case []:
-        print("No points")
-    case [Point(0, 0)]:
-        print("The origin")
-    case [Point(x, y)]:
-        print(f"Single point {x}, {y}")
-    case [Point(0, y1), Point(0, y2)]:
-        print(f"Two on the Y axis at {y1}, {y2}")
-    case _:
-        print("Something else")
+for points in [
+  [],
+  [Point(0, 0)],
+  [Point(1, 2)],
+  [Point(0, 1), Point(0, 2)],
+  [[Point(0, 1), Point(0, 2)], None]
+]:
+  match points:
+      case []:
+          print("No points")
+      case [Point(0, 0)]:
+          print("The origin")
+      case [Point(x, y)]:
+          print(f"Single point {x}, {y}")
+      case [Point(0, y1), Point(0, y2)]:
+          print(f"Two on the Y axis at {y1}, {y2}")
+      case [[Point(0, y1), Point(0, y2)], None]:
+          print("Inner list on the Y axis at {y1}, {y2}")
+      case _:
+          print("Something else")
 ```
 <!--SR:!2024-01-01,2,238-->
 
-Can I use `if` statements in patterns?
+Can I use `if` statements in patterns, why it can be useful?
 &#10;
 Yes, `if` clause in pattern known as a "guard". If the guard
 is false, `match` goes on to try the next case block. Note that value
 capture happens **before** the guard is evaluated:
 ```python
-match point:
-    case Point(x, y) if x == y:
-        print(f"Y=X at {x}")
-    case Point(x, y):
-        print(f"Not on the diagonal")
+for point in [Point(0, 0), Point(0, 1), Point(1, 0), Point(1, 1)]:
+  match point:
+      case Point(x, y) if x == y:
+          print(f"Y=X at {x}")
+      case Point(x, y):
+          print(f"Not on the diagonal")
 ```
 <!--SR:!2023-12-31,2,238-->
 
@@ -893,10 +906,11 @@ match data:
 ```
 <!--SR:!2024-01-01,2,238-->
 
--   Mapping patterns: `{"bandwidth": b, "latency": l}` captures the
-    `"bandwidth"` and `"latency"` values from a dictionary. Unlike sequence
-    patterns, extra keys are ignored. An unpacking like `**rest` is also
-    supported. But `**_` would be redundant, so it is not allowed.
+- Mapping patterns: `{"bandwidth": b, "latency": l}` captures the `"bandwidth"`
+and `"latency"` values from a dictionary and save them into `b` and `l`
+variables. Unlike sequence patterns, extra keys are ignored. An unpacking like
+`**rest` is also supported. But ==`**_`== would be redundant, so it is not
+allowed.
 ```python
 ages = {"mike": 1, "kelly": 2, "ivan": 3, "petr": 4}
 match ages:
@@ -904,7 +918,8 @@ match ages:
         print(mike, kelly, ivan, rest)  # 1 2 3 {'petr': 4}
 ```
 
--   Subpatterns may be captured using the ==`as`== keyword:
+- Subpatterns may be captured using the ==`as`== keyword, sort of alternative
+name:
 ```python
 class Point:
     __match_args__ = ('x', 'y')
@@ -925,8 +940,8 @@ test_match((Point(0, 1), Point(2, 3)))
 test_match((Point(0, 1)))
 ```
 
--   Most literals are compared by equality, however the singletons
-    `True`, `False` and `None` are compared by ==identity==.
+- Most literals are compared by equality, however the singletons
+ ==`True`, `False` and `None`== are compared by identity
 ```python
 none_item = None
 match none_item:
@@ -937,10 +952,10 @@ match none_item:
 ```
 <!--SR:!2023-12-31,2,238-->
 
-How to use named constants (Enum) in pattern matching and why?
+How to use named constants (`Enum`) in pattern matching?
 &#10;
--   Patterns may use named constants. These must be dotted names to
-    prevent them from being interpreted as capture variable:
+- Patterns may use named constants. These must be dotted names to prevent them
+from being interpreted as capture variable:
 ```python
 from enum import Enum
 class Color(Enum):
@@ -960,11 +975,12 @@ match color:
 ```
 <!--SR:!2023-12-31,1,218-->
 
-TODO: Here more info about pattern matching
+<!-- NEXT: Here more info about pattern matching -->
 [PEP 636 – Structural Pattern Matching: Tutorial](https://peps.python.org/pep-0636/).
 
 ## Defining Functions
 
+<!-- NEXT: review this fibonaci algorithm -->
 We can create a function that writes the Fibonacci series to an
 arbitrary boundary, can you explain how?
 &#10;
@@ -978,17 +994,22 @@ def fib(n):    # write Fibonacci series up to n
     print()
 
 # Now call the function we just defined:
-fib(2000)
-0 1 1 2 3 5 8 13 21 34 55 89 144 233 377 610 987 1597
+fib(2000) # 0 1 1 2 3 5 8 13 21 34 55 89 144 233 377 610 987 1597
 ```
 <!--SR:!2023-12-31,1,218-->
 
-The keyword `def` introduces a function ==definition==. <!--SR:!2024-06-03,4,238-->
+How to define a function in Python?
+&#10;
+The keyword `def` introduces a function definition. <!--SR:!2024-06-03,4,238-->
+Example of function definition:
+```python
+def hello():
+    print("Hello, World!")
+```
 
-The first statement of the function body can optionally be a string
-literal; this string literal is the function's documentation string, or
-==`docstring`==.
-<!--SR:!2024-01-01,2,238-->
+The first statement of the function body can optionally be a string literal
+(usually in triple quotes); this string literal is the function's documentation
+string, or ==`docstring`==.
 
 Why include docstring is recommended to make a habit?
 &#10;
@@ -997,8 +1018,8 @@ the user interactively browse through code. Also, many IDEs and editors
 support showing documentation based on this docstrings.
 <!--SR:!2024-01-01,2,238-->
 
-The *execution* of a function introduces a new ==symbol table== used for
-the local variables of the function.
+The *execution* of a function introduces a new ==symbol== table used for the
+local variables of the function.
 <!--SR:!2023-12-30,1,218-->
 
 Order of variable references looking (tables)?
@@ -1008,17 +1029,43 @@ Order of variable references looking (tables)?
 - Global symbol table
 - Built-in names table
 
-When you can change variables from global scope or enclosing functions in
-"current" function?
+How to change (or use) variable from global scope in some function, when you
+trying to assign value to it, python create new local variable with the same
+name?
 &#10;
-Use `global` statement to assign some value for global function or
-`nonlocal` statement to assign some value for variable from enclosing
-functions.
-<!--SR:!2023-12-31,2,238-->
+Use `global` statement.
+```python
+x = 0
+print(x)
+def f():
+    global x # if you don't use this, parent x will be not changed
+    x = 1
+f()
+print(x)
+```
 
-> The nonlocal statement causes the listed identifiers to refer to
+> The `nonlocal` statement causes the listed identifiers to refer to
 > previously bound variables in the nearest ==enclosing== scope excluding
 > globals.
+
+Closures in nested functions: we can use the `nonlocal` keyword to work with
+variables in nested scope which shouldn't be declared in the inner functions.
+```python
+def create_avg():
+    total = 0
+    count = 0
+    def avg(n):  # Closure
+        nonlocal total, count  # closure use variables defined in outer scope
+        total += n
+        count += 1
+        return total/count
+    return avg
+avg = create_avg()
+avg(3)  # => 3.0
+avg(5)  # (3 + 5) / 2 => 8 / 2  => 4.0
+avg(7)  # (8 + 7) / 3 => 15 / 3 => 5.0
+avg(5)  #
+```
 
 The actual parameters (arguments) to a function call are introduced in
 the local symbol table of the called function when it is called; thus,
