@@ -619,7 +619,7 @@ print(list(range(-10, 40, 30))) # [-10, -20], -10 + 30
 ```
 
 What you will see in interactive python session if you enter this:
-`list(range(10, 0))`, `list(range(10, 0, -1)) and this `list(range(10, 0, -1))`.
+`list(range(10, 0))`, `list(range(10, 0, -1))` and this `list(range(10, 0, -1))`.
 &#10;
 ```python
 list(range(10, 0))  # [] empty list, because start is greater than stop
