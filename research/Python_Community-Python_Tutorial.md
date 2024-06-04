@@ -395,7 +395,7 @@ the requested elements.
 squares = [1, 4, 9, 16, 25]
 print(squares[:])  # [1, 4, 9, 16, 25]
 ```
-<!--SR:!2023-12-31,2,220-->
+<!--SR:!2024-06-04,1,200-->
 
 Lists also support operations like concatenation.
 
@@ -655,8 +655,7 @@ print(range(10))  # range(0, 10)
 
 What you will see with this code: `sum(range(4))`?
 &#10;
-# 0 + 1 + 2 + 3 = 6
-<!--SR:!2023-12-31,4,240-->
+# 0 + 1 + 2 + 3 = 6 <!--SR:!2024-06-12,9,240-->
 
 > The `break` statement, like in C, `breaks out` of the innermost enclosing
 > ==`for` or `while` loop==.
@@ -815,8 +814,7 @@ statement?
 Only standalone names (like `var`) are assigned to by a match statement.
 Dotted names (like `foo.bar`), attribute names (the `x=` and `y=`) or class
 names (recognized by the "(...)" next to them like `Point` above) are never
-assigned to.
-<!--SR:!2023-12-31,2,238-->
+assigned to. <!--SR:!2024-06-09,6,238-->
 
 Can patterns be nested?
 &#10;
@@ -950,7 +948,7 @@ match none_item:
     case None:
         print("None")  # <- None
 ```
-<!--SR:!2023-12-31,2,238-->
+<!--SR:!2024-06-07,4,238-->
 
 How to use named constants (`Enum`) in pattern matching?
 &#10;
@@ -1018,18 +1016,15 @@ the user interactively browse through code. Also, many IDEs and editors
 support showing documentation based on this docstrings.
 <!--SR:!2024-01-01,2,238-->
 
-The *execution* of a function introduces a new ==symbol== table used for the
-local variables of the function.
-<!--SR:!2023-12-30,1,218-->
-
 Order of variable references looking (tables)?
 &#10;
 - Local symbol table
 - Local symbol table of enclosing functions (parents)
 - Global symbol table
 - Built-in names table
+These priorities also reason why `global` and `nonlocal` statements are needed.
 
-How to change (or use) variable from global scope in some function, when you
+How to change (or use) variable from global scope in some function, when are you
 trying to assign value to it, python create new local variable with the same
 name?
 &#10;
@@ -1064,413 +1059,260 @@ avg = create_avg()
 avg(3)  # => 3.0
 avg(5)  # (3 + 5) / 2 => 8 / 2  => 4.0
 avg(7)  # (8 + 7) / 3 => 15 / 3 => 5.0
-avg(5)  #
 ```
 
-The actual parameters (arguments) to a function call are introduced in
-the local symbol table of the called function when it is called; thus,
-arguments are passed using *call by value* (where the *value* is always
-an object *reference*, not the value of the object).[^1] When a function
-calls another function, or calls itself recursively, a new local symbol
-table is created for that call.
+When a function calls another function, or calls itself recursively, a new local
+==symbol table== is created for that call (related to arguments/variables).
 
-A function definition associates the function name with the function
-object in the current symbol table. The interpreter recognizes the
-object pointed to by that name as a user-defined function. Other names
-can also point to that same function object and can also be used to
-access the function:
+<!-- NEXT: need to review -->
+The actual parameters (arguments) to a function call are introduced in the local
+symbol table of the called function when it is called; thus, arguments are
+passed using ==call by value==, true for immutable objects (where the value is
+always an object reference, not the value of the object). Actually, *call by
+object reference* would be a better description, since if a mutable object is
+passed, the caller will see any changes the callee makes to it (items inserted
+into a list).
 
-    >>> fib
-    <function fib at 10042ed0>
-    >>> f = fib
-    >>> f(100)
-    0 1 1 2 3 5 8 13 21 34 55 89
+A function definition associates the function name with the function object in
+the current ==symbol table==.
+```python
+a = 0
+print(locals())
+def hello():
+    a = 1
+    print("Hello, World!")
+    print(locals())
+print(locals())
+f = hello
+f()
+```
 
-Coming from other languages, you might object that `fib` is not a
-function but a procedure since it doesn't return a value. In fact, even
-functions without a `return` statement do return a value, albeit a
-rather boring one. This value is called `None` (it's a built-in name).
-Writing the value `None` is normally suppressed by the interpreter if it
-would be the only value written. You can see it if you really want to
-using `print`:
+Is there procedures in Python?
+&#10;
+In Python there no procedures, only functions. Functions without a `return`
+statement do return a value. This value is called `None` (it's a built-in name).
 
-    >>> fib(0)
-    >>> print(fib(0))
-    None
-
-It is simple to write a function that returns a list of the numbers of
-the Fibonacci series, instead of printing it:
-
-    >>> def fib2(n):  # return Fibonacci series up to n
-    ...     """Return a list containing the Fibonacci series up to n."""
-    ...     result = []
-    ...     a, b = 0, 1
-    ...     while a < n:
-    ...         result.append(a)    # see below
-    ...         a, b = b, a+b
-    ...     return result
-    ...
-    >>> f100 = fib2(100)    # call it
-    >>> f100                # write the result
-    [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
-
-This example, as usual, demonstrates some new Python features:
-
--   The `return` statement returns with a value from a function.
-    `!return` without an expression argument returns `None`. Falling off
-    the end of a function also returns `None`.
--   The statement `result.append(a)` calls a *method* of the list object
-    `result`. A method is a function that 'belongs' to an object and is
-    named `obj.methodname`, where `obj` is some object (this may be an
-    expression), and `methodname` is the name of a method that is
-    defined by the object's type. Different types define different
-    methods. Methods of different types may have the same name without
-    causing ambiguity. (It is possible to define your own object types
-    and methods, using *classes*, see `tut-classes`) The method
-    `!append` shown in the example is defined for list objects; it adds
-    a new element at the end of the list. In this example it is
-    equivalent to `result = result + [a]`, but more efficient.
+What is object method in Python?
+&#10;
+A method is a function that 'belongs' to an object and is named
+`obj.methodname`, where `obj` is some object (this may be an expression), and
+`methodname` is the name of a method that is defined by the object's **type**.
 
 ## More on Defining Functions
 
-It is also possible to define functions with a variable number of
-arguments. There are three forms, which can be combined.
+You can define default values for arguments in a function, when it can be
+required?
+&#10;
+This allows to omit some arguments when calling the function, sort of default
+settings.
+```python
+def ask_ok(prompt, retries=4, reminder="Please try again, I don't understand you!"):
+    while True:
+        reply = input(prompt)
+        if reply in {"y", "ye", "yes"}:
+            return True
+        if reply in {"n", "no", "nop", "nope"}:
+            return False
+        retries = retries - 1
+        if retries < 0:
+            raise ValueError("invalid user response")
+        print(reminder)
+ask_ok("Do you really want to quit?\n")
+ask_ok("OK to overwrite the file?\n", 2)  # 2 retries
+ask_ok("OK to overwrite the file?\n", 2, "Come on, only yes or no!")  # 2 retries, custom reminder
+```
+`in` keyword tests that a sequence ==contains a certain value==.
 
-### Default Argument Values
+What this code will print (question about default value behavior and
+evaluation)?
+```python
+# Example 1
+i = 5
 
-The most useful form is to specify a default value for one or more
-arguments. This creates a function that can be called with fewer
-arguments than it is defined to allow. For example:
+def f(arg=i):
+    print(arg)
 
-    def ask_ok(prompt, retries=4, reminder='Please try again!'):
-        while True:
-            reply = input(prompt)
-            if reply in {'y', 'ye', 'yes'}:
-                return True
-            if reply in {'n', 'no', 'nop', 'nope'}:
-                return False
-            retries = retries - 1
-            if retries < 0:
-                raise ValueError('invalid user response')
-            print(reminder)
+i = 6
+f()
 
-This function can be called in several ways:
+# Example 2
+def f2(a, L=[]):
+    L.append(a)
+    return L
 
--   giving only the mandatory argument:
-    `ask_ok('Do you really want to quit?')`
--   giving one of the optional arguments:
-    `ask_ok('OK to overwrite the file?', 2)`
--   or even giving all arguments:
-    `ask_ok('OK to overwrite the file?', 2, 'Come on, only yes or no!')`
+print(f2(1))
+print(f2(2))
+print(f2(3))
 
-This example also introduces the `in` keyword. This tests whether or not
-a sequence contains a certain value.
-
+# Example 3
+def f3(a, L=None):
+    if L is None:  # You can pass not None value to L
+        L = []
+    L.append(a)
+    return L
+print(f3(1))
+print(f3(2))
+print(f3(3))
+```
+&#10;
 The default values are evaluated at the point of function definition in
-the *defining* scope, so that :
+the *defining* scope, so that code will print `5`, so order of evaluation is
+important, and default value evaluated only once if it's not mutable object
+(list, dictionary, or instances of most classes). Last example if you want
+default to be not shared between subsequent calls.
 
-    i = 5
+Functions can also be called using ==keyword== arguments, `kwarg=value`.
+```python
+def parrot(voltage, state='a stiff', action='voom', type='Norwegian Blue'):
+    print("-- This parrot wouldn't", action, end=' ')
+    print("if you put", voltage, "volts through it.")
+    print("-- Lovely plumage, the", type)
+    print("-- It's", state, "!")
 
-    def f(arg=i):
-        print(arg)
+# Valid function calls:
+parrot(1000)                                          # 1 positional argument
+parrot(voltage=1000)                                  # 1 keyword argument
+parrot(voltage=1000000, action="VOOOOOM")             # 2 keyword arguments, order 1
+parrot(action="VOOOOOM", voltage=1000000)             # 2 keyword arguments, order 2
+parrot("a million", "bereft of life", "jump")         # 3 positional arguments
+parrot("a thousand", state="pushing up the daisies")  # 1 positional, 1 keyword
 
-    i = 6
-    f()
-
-will print `5`.
-
-**Important warning:** The default value is evaluated only once. This
-makes a difference when the default is a mutable object such as a list,
-dictionary, or instances of most classes. For example, the following
-function accumulates the arguments passed to it on subsequent calls:
-
-    def f(a, L=[]):
-        L.append(a)
-        return L
-
-    print(f(1))
-    print(f(2))
-    print(f(3))
-
-This will print :
-
-    [1]
-    [1, 2]
-    [1, 2, 3]
-
-If you don't want the default to be shared between subsequent calls, you
-can write the function like this instead:
-
-    def f(a, L=None):
-        if L is None:
-            L = []
-        L.append(a)
-        return L
-
-### Keyword Arguments
-
-Functions can also be called using
-`keyword arguments <keyword argument>` of the form `kwarg=value`. For
-instance, the following function:
-
-    def parrot(voltage, state='a stiff', action='voom', type='Norwegian Blue'):
-        print("-- This parrot wouldn't", action, end=' ')
-        print("if you put", voltage, "volts through it.")
-        print("-- Lovely plumage, the", type)
-        print("-- It's", state, "!")
-
-accepts one required argument (`voltage`) and three optional arguments
-(`state`, `action`, and `type`). This function can be called in any of
-the following ways:
-
-    parrot(1000)                                          # 1 positional argument
-    parrot(voltage=1000)                                  # 1 keyword argument
-    parrot(voltage=1000000, action='VOOOOOM')             # 2 keyword arguments
-    parrot(action='VOOOOOM', voltage=1000000)             # 2 keyword arguments
-    parrot('a million', 'bereft of life', 'jump')         # 3 positional arguments
-    parrot('a thousand', state='pushing up the daisies')  # 1 positional, 1 keyword
-
-but all the following calls would be invalid:
-
-    parrot()                     # required argument missing
-    parrot(voltage=5.0, 'dead')  # non-keyword argument after a keyword argument
-    parrot(110, voltage=220)     # duplicate value for the same argument
-    parrot(actor='John Cleese')  # unknown keyword argument
-
-In a function call, keyword arguments must follow positional arguments.
-All the keyword arguments passed must match one of the arguments
-accepted by the function (e.g. `actor` is not a valid argument for the
-`parrot` function), and their order is not important. This also includes
-non-optional arguments (e.g. `parrot(voltage=1000)` is valid too). No
-argument may receive a value more than once. Here's an example that
-fails due to this restriction:
-
-    >>> def function(a):
-    ...     pass
-    ...
-    >>> function(0, a=0)
-    Traceback (most recent call last):
-      File "<stdin>", line 1, in <module>
-    TypeError: function() got multiple values for argument 'a'
+# Invalid function calls:
+parrot()                     # required argument missing
+parrot(voltage=5.0, "dead")  # non-keyword argument after a keyword argument
+parrot(110, voltage=220)     # duplicate value for the same argument
+parrot(actor="John Cleese")  # unknown keyword argument
+```
 
 When a final formal parameter of the form `**name` is present, it
 receives a dictionary (see `typesmapping`) containing all keyword
-arguments except for those corresponding to a formal parameter. This may
-be combined with a formal parameter of the form `*name` (described in
+arguments except for those corresponding to a formal parameter.
+
+This may be combined with a formal parameter of the form `*name` (described in
 the next subsection) which receives a `tuple <tut-tuples>` containing
 the positional arguments beyond the formal parameter list. (`*name` must
 occur before `**name`.) For example, if we define a function like this:
 
-    def cheeseshop(kind, *arguments, **keywords):
-        print("-- Do you have any", kind, "?")
-        print("-- I'm sorry, we're all out of", kind)
-        for arg in arguments:
-            print(arg)
-        print("-" * 40)
-        for kw in keywords:
-            print(kw, ":", keywords[kw])
+Length of tuple with positional arguments and dictionary with keyword arguments?
+Check `cheeseshop` function call.
+```python
+def cheeseshop(kind, *arguments, **keywords):
+    """
+    *arguments, formal parmater which recieves a tuple with positional arguments
+    beyond the formal parameter list.
+    --
+    **keywords, final formal parameter, receives a dictionary.
+    """
+    print("Arguments length: ", len(arguments))
+    print("Keywords length: ", len(keywords))
+    print("-- Do you have any", kind, "?")
+    print("-- I'm sorry, we're all out of", kind)
+    # NOTE: keyword arguments are printed how they were provided in the function
+    # call.
+    for arg in arguments:
+        print(arg)
+    print("-" * 40)
+    for kw in keywords:
+        print(kw, ":", keywords[kw])
 
-It could be called like this:
-
-    cheeseshop("Limburger", "It's very runny, sir.",
-               "It's really very, VERY runny, sir.",
-               shopkeeper="Michael Palin",
-               client="John Cleese",
-               sketch="Cheese Shop Sketch")
-
-and of course it would print:
-
-``` none
--- Do you have any Limburger ?
--- I'm sorry, we're all out of Limburger
-It's very runny, sir.
-It's really very, VERY runny, sir.
-----------------------------------------
-shopkeeper : Michael Palin
-client : John Cleese
-sketch : Cheese Shop Sketch
+cheeseshop("Limburger", "It's very runny, sir.",
+           "It's really very, VERY runny, sir.",
+           shopkeeper="Michael Palin",
+           client="John Cleese",
+           sketch="Cheese Shop Sketch")
 ```
+&#10;
+Two positional arguments and three keyword arguments.
 
-Note that the order in which the keyword arguments are printed is
-guaranteed to match the order in which they were provided in the
-function call.
-
-### Special parameters
-
-By default, arguments may be passed to a Python function either by
-position or explicitly by keyword. For readability and performance, it
-makes sense to restrict the way arguments can be passed so that a
-developer need only look at the function definition to determine if
-items are passed by position, by position or keyword, or by keyword.
-
-A function definition may look like:
-
-``` none
-def f(pos1, pos2, /, pos_or_kwd, *, kwd1, kwd2):
+Positional-only, positional-or-keyword, and keyword-only parameters can be
+combined in a single function definition, how to do this?
+&#10;
+A function definition may look like this:
+```python
+# If `/` and `*` are not present, arguments may be passed
+# by position (`f(1, 2, 3, 4, 5)) or by keyword (`f(pos1=1, pos2=2, pos_or_kwd=3, kwd1=4, kwd2=5)`).
+#
+# `/` and `*` are optional. If used, these symbols indicate the kind of
+# parameter by how the arguments may be passed to the function:
+# positional-only, positional-or-keyword, and keyword-only.
+#
+# first [] block is positional-only, second [] block is keyword-only
+# in the middle is positional-or-keyword
+def f([pos1, pos2], /, pos_or_kwd, *, [kwd1, kwd2]):
       -----------    ----------     ----------
         |             |                  |
         |        Positional or keyword   |
         |                                - Keyword only
          -- Positional only
+
+def standard_arg(arg):  # position or keyword
+    print(arg)
+standard_arg(2)
+standard_arg(arg=2)
+
+def pos_only_arg(arg, /):  # only positional parameters
+    print(arg)
+pos_only_arg(1)
+pos_only_arg(arg=1)  # TypeError: pos_only_arg() got some positional-only arguments passed as keyword arguments: 'arg'
+
+def kwd_only_arg(*, arg):  # only keyword arguments
+    print(arg)
+kwd_only_arg(arg=3)
+kwd_only_arg(3)  # TypeError: kwd_only_arg() takes 0 positional arguments but 1 was given
+
+
+def combined_example(pos_only, /, standard, *, kwd_only): # all three calling conventions
+    print(pos_only, standard, kwd_only)
+combined_example(1, 2, kwd_only=3)
+combined_example(1, standard=2, kwd_only=3)
+combined_example(1, 2, 3)  # TypeError: combined_example() takes 2 positional arguments but 3 were given
+combined_example(pos_only=1, standard=2, kwd_only=3)  # TypeError: combined_example() got some positional-only arguments passed as keyword arguments: 'pos_only'
 ```
 
-where `/` and `*` are optional. If used, these symbols indicate the kind
-of parameter by how the arguments may be passed to the function:
-positional-only, positional-or-keyword, and keyword-only. Keyword
-parameters are also referred to as named parameters.
-
-#### Positional-or-Keyword Arguments
-
-If `/` and `*` are not present in the function definition, arguments may
-be passed to a function by position or by keyword.
-
-#### Positional-Only Parameters
-
-Looking at this in a bit more detail, it is possible to mark certain
-parameters as *positional-only*. If *positional-only*, the parameters'
-order matters, and the parameters cannot be passed by keyword.
-Positional-only parameters are placed before a `/` (forward-slash). The
-`/` is used to logically separate the positional-only parameters from
-the rest of the parameters. If there is no `/` in the function
-definition, there are no positional-only parameters.
-
-Parameters following the `/` may be *positional-or-keyword* or
-*keyword-only*.
-
-#### Keyword-Only Arguments
-
-To mark parameters as *keyword-only*, indicating the parameters must be
-passed by keyword argument, place an `*` in the arguments list just
-before the first *keyword-only* parameter.
-
-#### Function Examples
-
-Consider the following example function definitions paying close
-attention to the markers `/` and `*`:
-
-    >>> def standard_arg(arg):
-    ...     print(arg)
-    ...
-    >>> def pos_only_arg(arg, /):
-    ...     print(arg)
-    ...
-    >>> def kwd_only_arg(*, arg):
-    ...     print(arg)
-    ...
-    >>> def combined_example(pos_only, /, standard, *, kwd_only):
-    ...     print(pos_only, standard, kwd_only)
-
-The first function definition, `standard_arg`, the most familiar form,
-places no restrictions on the calling convention and arguments may be
-passed by position or keyword:
-
-    >>> standard_arg(2)
-    2
-
-    >>> standard_arg(arg=2)
-    2
-
-The second function `pos_only_arg` is restricted to only use positional
-parameters as there is a `/` in the function definition:
-
-    >>> pos_only_arg(1)
-    1
-
-    >>> pos_only_arg(arg=1)
-    Traceback (most recent call last):
-      File "<stdin>", line 1, in <module>
-    TypeError: pos_only_arg() got some positional-only arguments passed as keyword arguments: 'arg'
-
-The third function `kwd_only_args` only allows keyword arguments as
-indicated by a `*` in the function definition:
-
-    >>> kwd_only_arg(3)
-    Traceback (most recent call last):
-      File "<stdin>", line 1, in <module>
-    TypeError: kwd_only_arg() takes 0 positional arguments but 1 was given
-
-    >>> kwd_only_arg(arg=3)
-    3
-
-And the last uses all three calling conventions in the same function
-definition:
-
-    >>> combined_example(1, 2, 3)
-    Traceback (most recent call last):
-      File "<stdin>", line 1, in <module>
-    TypeError: combined_example() takes 2 positional arguments but 3 were given
-
-    >>> combined_example(1, 2, kwd_only=3)
-    1 2 3
-
-    >>> combined_example(1, standard=2, kwd_only=3)
-    1 2 3
-
-    >>> combined_example(pos_only=1, standard=2, kwd_only=3)
-    Traceback (most recent call last):
-      File "<stdin>", line 1, in <module>
-    TypeError: combined_example() got some positional-only arguments passed as keyword arguments: 'pos_only'
-
-Finally, consider this function definition which has a potential
-collision between the positional argument `name` and `**kwds` which has
-`name` as a key:
-
-    def foo(name, **kwds):
-        return 'name' in kwds
-
-There is no possible call that will make it return `True` as the keyword
-`'name'` will always bind to the first parameter. For example:
-
-    >>> foo(1, **{'name': 2})
-    Traceback (most recent call last):
-      File "<stdin>", line 1, in <module>
-    TypeError: foo() got multiple values for argument 'name'
-    >>>
-
-But using `/` (positional only arguments), it is possible since it
-allows `name` as a positional argument and `'name'` as a key in the
-keyword arguments:
-
-    >>> def foo(name, /, **kwds):
-    ...     return 'name' in kwds
-    ...
-    >>> foo(1, **{'name': 2})
-    True
-
-In other words, the names of positional-only parameters can be used in
+Will this code work, if not why and how to fix it?
+```python
+def foo(name, **kwds):
+    return 'name' in kwds
+foo(1, **{'name': 2})
+```
+&#10;
+Since the `name` parameter is a positional and keyword argument, it will always
+bind to the first parameter (name). So, the code will raise a `TypeError`:
+foo() got multiple values for argument 'name'.
+You can fix this by using `/` (positional-only arguments) to allow `name` as a
+positional argument only, the names of positional-only parameters can be used in
 `**kwds` without ambiguity.
+```python
+def foo(name, /, **kwds):
+    return 'name' in kwds
+foo(1, **{'name': 2})  # True
+```
 
-#### Recap
+When positional-only arguments are useful in function definition?
+&#10;
+Use positional-only if you want the **name** of the parameters to not be
+available to the user. This is useful when parameter names have no real meaning,
+if you want to enforce the order of the arguments when the function is called or
+if you need to take some positional parameters and arbitrary keywords.
 
-The use case will determine which parameters to use in the function
-definition:
+When keyword-only arguments in function definition are useful?
+&#10;
+Use keyword-only when names have meaning and the function definition is more
+understandable by being explicit with names or you want to prevent users relying
+on the position of the argument being passed.
 
-    def f(pos1, pos2, /, pos_or_kwd, *, kwd1, kwd2):
+For an API, use positional-only to prevent ==breaking API changes== if the
+parameter's name is modified in the future. But don't forget about too many
+positional-only parameters, it can make the function hard to understand.
 
-As guidance:
-
--   Use positional-only if you want the name of the parameters to not be
-    available to the user. This is useful when parameter names have no
-    real meaning, if you want to enforce the order of the arguments when
-    the function is called or if you need to take some positional
-    parameters and arbitrary keywords.
--   Use keyword-only when names have meaning and the function definition
-    is more understandable by being explicit with names or you want to
-    prevent users relying on the position of the argument being passed.
--   For an API, use positional-only to prevent breaking API changes if
-    the parameter's name is modified in the future.
-
-### Arbitrary Argument Lists
-
-single: \* (asterisk); in function calls
-
-Finally, the least frequently used option is to specify that a function
-can be called with an arbitrary number of arguments. These arguments
-will be wrapped up in a tuple (see `tut-tuples`). Before the variable
-number of arguments, zero or more normal arguments may occur. :
-
-    def write_multiple_items(file, separator, *args):
-        file.write(separator.join(args))
+You can specify that a function can be called with an **arbitrary** number of
+arguments. These arguments will be wrapped up in a ==tuple==.
+Before the variable number of arguments, zero or more normal arguments may
+occur.
+```python
+def write_multiple_items(file, separator, *args):
+    file.write(separator.join(args))
+```
 
 Normally, these *variadic* arguments will be last in the list of formal
 parameters, because they scoop up all remaining input arguments that are
@@ -1486,8 +1328,6 @@ only be used as keywords rather than positional arguments. :
     >>> concat("earth", "mars", "venus", sep=".")
     'earth.mars.venus'
 
-### Unpacking Argument Lists
-
 The reverse situation occurs when the arguments are already in a list or
 tuple but need to be unpacked for a function call requiring separate
 positional arguments. For instance, the built-in `range` function
@@ -1495,188 +1335,189 @@ expects separate *start* and *stop* arguments. If they are not available
 separately, write the function call with the `*`-operator to unpack the
 arguments out of a list or tuple:
 
-    >>> list(range(3, 6))            # normal call with separate arguments
-    [3, 4, 5]
-    >>> args = [3, 6]
-    >>> list(range(*args))            # call with arguments unpacked from a list
-    [3, 4, 5]
+Sometimes you need to unpack data from list or tuple for a function call,
+which require separate positional arguments, for example `range` function
+expects `start` and `stop` arguments separately. You can write the function
+call with the ==`*`-operator, `list(range(*args))` to unpack the arguments out
+of a list or tuple.
 
-single: \*\*; in function calls
+Dictionaries can deliver keyword arguments with the ==`**`==-operator.
 
-In the same fashion, dictionaries can deliver keyword arguments with the
-`**`-operator:
+```python
+def parrot(voltage, state='a stiff', action='voom'):
+    print("-- This parrot wouldn't", action, end=' ')
+    print("if you put", voltage, "volts through it.", end=' ')
+    print("E's", state, "!")
 
-    >>> def parrot(voltage, state='a stiff', action='voom'):
-    ...     print("-- This parrot wouldn't", action, end=' ')
-    ...     print("if you put", voltage, "volts through it.", end=' ')
-    ...     print("E's", state, "!")
-    ...
-    >>> d = {"voltage": "four million", "state": "bleedin' demised", "action": "VOOM"}
-    >>> parrot(**d)
-    -- This parrot wouldn't VOOM if you put four million volts through it. E's bleedin' demised !
+# Default method to provide keyword arguments
+parrot(voltage="four million", state="bleedin' demised", action="VOOM")
 
-### Lambda Expressions
+# Pass kwargs with all keyword argmunts
+d = {"voltage": "four million", "state": "bleedin' demised", "action": "VOOM"}
+parrot(**d)
+```
 
-Small anonymous functions can be created with the `lambda` keyword. This
-function returns the sum of its two arguments: `lambda a, b: a+b`.
-Lambda functions can be used wherever function objects are required.
-They are syntactically restricted to a single expression. Semantically,
-they are just syntactic sugar for a normal function definition. Like
-nested function definitions, lambda functions can reference variables
-from the containing scope:
+Small anonymous functions can be created with the ==`lambda`== keyword.
+They can be used wherever function objects are required. Syntactically
+restricted to a single expression, semantically they are just syntactic sugar
+for a normal function definition.
 
-    >>> def make_incrementor(n):
-    ...     return lambda x: x + n
-    ...
-    >>> f = make_incrementor(42)
-    >>> f(0)
-    42
-    >>> f(1)
-    43
+Lambda function format?
+&#10;
+`lambda arguments : expression`
+```python
+x = lambda a : a + 10
+print(x(5))
 
-The above example uses a lambda expression to return a function. Another
-use is to pass a small function as an argument:
+x = lambda a, b : a * b
+print(x(5, 6))
 
-    >>> pairs = [(1, 'one'), (2, 'two'), (3, 'three'), (4, 'four')]
-    >>> pairs.sort(key=lambda pair: pair[1])
-    >>> pairs
-    [(4, 'four'), (1, 'one'), (3, 'three'), (2, 'two')]
+x = lambda a, b, c : a + b + c
+print(x(5, 6, 2))
+```
 
-### Documentation Strings
+Like nested function definitions, lambda functions can reference variables
+from the ==containing scope==.
+```python
+def make_incrementor(n):
+    # Use a lambda expression to return a function.
+    return lambda x: x + n
 
-single: docstrings single: documentation strings single: strings,
-documentation
+f = make_incrementor(42)
+f(0) # 42
+f(1) # 43
+```
 
-Here are some conventions about the content and formatting of
-documentation strings.
+How to use function/lambda function with list and sort method?
+&#10;
+```python
+# Lambda function as an argument, to sort method
+pairs = [(1, 'one'), (2, 'two'), (3, 'three'), (4, 'four')]
+pairs.sort(key=lambda pair: pair[1])
+pairs # [(4, 'four'), (1, 'one'), (3, 'three'), (2, 'two')]
 
+def sort_pairs_func(pair):
+    return pair[1]
+pairs = [(1, 'one'), (2, 'two'), (3, 'three'), (4, 'four')]
+pairs.sort(key=sort_pairs_func)
+pairs # [(4, 'four'), (1, 'one'), (3, 'three'), (2, 'two')]
+```
+
+Documentation Strings used to document
+==functions, methods, classes, and modules==.
+
+Docstring code style, at least basic information?
+&#10;
 The first line should always be a short, concise summary of the object's
-purpose. For brevity, it should not explicitly state the object's name
-or type, since these are available by other means (except if the name
-happens to be a verb describing a function's operation). This line
-should begin with a capital letter and end with a period.
-
-If there are more lines in the documentation string, the second line
-should be blank, visually separating the summary from the rest of the
-description. The following lines should be one or more paragraphs
-describing the object's calling conventions, its side effects, etc.
-
-The Python parser does not strip indentation from multi-line string
-literals in Python, so tools that process documentation have to strip
-indentation if desired. This is done using the following convention. The
-first non-blank line *after* the first line of the string determines the
-amount of indentation for the entire documentation string. (We can't use
-the first line since it is generally adjacent to the string's opening
-quotes so its indentation is not apparent in the string literal.)
-Whitespace "equivalent" to this indentation is then stripped from the
-start of all lines of the string. Lines that are indented less should
-not occur, but if they occur all their leading whitespace should be
-stripped. Equivalence of whitespace should be tested after expansion of
-tabs (to 8 spaces, normally).
-
+purpose. For brevity, it should not explicitly state the object's name or type,
+since these are available by other means (except if the name happens to be a
+verb describing a function's operation). This line should begin with a capital
+letter and end with a period.
+\
+If there are more lines in the documentation string, the second line should be
+blank, visually separating the summary from the rest of the description. The
+following lines should be one or more paragraphs describing the object's calling
+conventions, its side effects, etc.
+\
+The Python parser does not strip indentation from multi-line string literals in
+Python, so tools that process documentation have to strip indentation if
+desired. This is done using the following convention. The first **non-blank line
+after the first line** (third) of the string determines the amount of
+indentation for the entire documentation string. (We can't use the first line
+since it is generally adjacent to the string's opening quotes so its indentation
+is not apparent in the string literal.) Whitespace "equivalent" to this
+indentation is then stripped from the start of all lines of the string. Lines
+that are indented less should not occur, but if they occur all their leading
+whitespace should be stripped. Equivalence of whitespace should be tested after
+expansion of tabs (to 8 spaces, normally).
+\
 Here is an example of a multi-line docstring:
+\
+```python
+def my_function():
+    """Do nothing, but document it.
 
-    >>> def my_function():
-    ...     """Do nothing, but document it.
-    ...
-    ...     No, really, it doesn't do anything.
-    ...     """
-    ...     pass
-    ...
-    >>> print(my_function.__doc__)
-    Do nothing, but document it.
+    No, really, it doesn't do anything.
+    """
+    pass
 
-        No, really, it doesn't do anything.
+print(my_function.__doc__)
+Do nothing, but document it.
 
-### Function Annotations
+No, really, it doesn't do anything.
+```
 
-Zachary Ware \<<zachary.ware@gmail.com>\>
+`Function annotations <function>` are completely **optional metadata**
+information about the ==types== used by user-defined functions
+(see [PEP 3107 - Function Annotations](https://peps.python.org/pep-3107/) and
+[PEP 484 - Type hints](https://peps.python.org/pep-0484/)).
+<!-- NEXT: need review PEP's -->
 
-pair: function; annotations single: -\>; function annotations single: :
-(colon); function annotations
+Function annotation are stored in the ==`__annotations__`== attribute of the
+function as a dictionary and have no effect on any other part of the function.
 
-`Function annotations <function>` are completely optional metadata
-information about the types used by user-defined functions (see `3107`
-and `484` for more information).
+Parameter annotations are defined by ==a colon== after the parameter name,
+followed by an expression evaluating to the value of the annotation.
 
-`Annotations <function annotation>` are stored in the `!__annotations__`
-attribute of the function as a dictionary and have no effect on any
-other part of the function. Parameter annotations are defined by a colon
-after the parameter name, followed by an expression evaluating to the
-value of the annotation. Return annotations are defined by a literal
-`->`, followed by an expression, between the parameter list and the
-colon denoting the end of the `def` statement. The following example has
-a required argument, an optional argument, and the return value
-annotated:
+Return annotations are defined by a literal ==`->`==, followed by an expression.
 
-    >>> def f(ham: str, eggs: str = 'eggs') -> str:
-    ...     print("Annotations:", f.__annotations__)
-    ...     print("Arguments:", ham, eggs)
-    ...     return ham + ' and ' + eggs
-    ...
-    >>> f('spam')
-    Annotations: {'ham': <class 'str'>, 'return': <class 'str'>, 'eggs': <class 'str'>}
-    Arguments: spam eggs
-    'spam and eggs'
+The following example has a required argument, an optional argument, and the
+return value annotated:
 
-## Intermezzo: Coding Style
+```python
+def f(ham: str, eggs: str = 'eggs') -> str:
+    print("Annotations:", f.__annotations__)
+    print("Arguments:", ham, eggs)
+    return ham + ' and ' + eggs
 
-Georg Brandl \<<georg@python.org>\>
+f('spam')
+"""
+Annotations: {'ham': <class 'str'>, 'return': <class 'str'>, 'eggs': <class 'str'>}
+Arguments: spam eggs
+'spam and eggs'
+"""
+```
 
-pair: coding; style
+## Python Coding Style
 
-Now that you are about to write longer, more complex pieces of Python,
-it is a good time to talk about *coding style*. Most languages can be
-written (or more concise, *formatted*) in different styles; some are
-more readable than others. Making it easy for others to read your code
-is always a good idea, and adopting a nice coding style helps
+Most languages can be written (or more concise, *formatted*) in different
+styles; some are more readable than others. Making it easy for others to read
+your code is always a good idea, and adopting a nice coding style helps
 tremendously for that.
 
-For Python, `8` has emerged as the style guide that most projects adhere
-to; it promotes a very readable and eye-pleasing coding style. Every
-Python developer should read it at some point; here are the most
-important points extracted for you:
+<!-- NEXT: read PEP8 -->
+[PEP 8 – Style Guide for Python Code](https://peps.python.org/pep-0008/)
+core information:
 
--   Use 4-space indentation, and no tabs.
+Use ==4-space== indentation, and no tabs (compromise between small and large
+indentation).
 
-    4 spaces are a good compromise between small indentation (allows
-    greater nesting depth) and large indentation (easier to read). Tabs
-    introduce confusion, and are best left out.
+Wrap lines so that they don't exceed ==79 characters==. Useful for small
+displays and also prevent you writing complex code.
 
--   Wrap lines so that they don't exceed 79 characters.
+Use ==blank lines== to separate functions and classes, and larger blocks of code
+inside functions, sort of grouping.
 
-    This helps users with small displays and makes it possible to have
-    several code files side-by-side on larger displays.
+When possible, put comments on a line ==of their own (separate line)==.
 
--   Use blank lines to separate functions and classes, and larger blocks
-    of code inside functions.
+How to document code in Python?
+&#10;
+Use docstrings, which follow docstrings rules.
 
--   When possible, put comments on a line of their own.
+Use spaces around operators and after commas, but not directly inside
+==bracketing constructs: `a = f(1, 2) + g(3, 4)`==.
 
--   Use docstrings.
+Name your classes and functions ==consistently==; the convention is to use
+`UpperCamelCase` for classes and `lowercase_with_underscores` for functions and
+methods. Always use `self` as the name for the first method argument.
 
--   Use spaces around operators and after commas, but not directly
-    inside bracketing constructs: `a = f(1, 2) + g(3, 4)`.
+Don't use fancy encodings if your code is meant to be used in international
+environments. Python's default, ==UTF-8==, or even plain ASCII (subset) work
+best in any case.
 
--   Name your classes and functions consistently; the convention is to
-    use `UpperCamelCase` for classes and `lowercase_with_underscores`
-    for functions and methods. Always use `self` as the name for the
-    first method argument (see `tut-firstclasses` for more on classes
-    and methods).
-
--   Don't use fancy encodings if your code is meant to be used in
-    international environments. Python's default, UTF-8, or even plain
-    ASCII work best in any case.
-
--   Likewise, don't use non-ASCII characters in identifiers if there is
-    only the slightest chance people speaking a different language will
-    read or maintain the code.
-
-**Footnotes**
-
-[^1]: Actually, *call by object reference* would be a better
-    description, since if a mutable object is passed, the caller will
-    see any changes the callee makes to it (items inserted into a list).
+Likewise, don't use ==non-ASCII== characters in identifiers if there is only the
+slightest chance people speaking a different language will read or maintain the
+code.
 
 ## [5. Data Structures](https://docs.python.org/3/tutorial/datastructures.html)
 
