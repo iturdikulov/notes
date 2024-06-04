@@ -28,44 +28,36 @@ TODO: describe how I use it (reviewing notes)
 
 Spaced repetition obsidian plugin custom hotkeys.
 
-- Review flashcards in this note::`C-A-f`
-<!--SR:!2024-03-04,2,211-->
-- Review flashcards from all notes::`C-A-a`
-<!--SR:!2024-01-29,3,251-->
-- Review note as easy::`C-A-1`
-- Review note as good::`C-A-2`
-- Review note as hard::`C-A-3`
-<!--SR:!2024-01-27,1,211-->
+- Review flashcards in this note::`C-A-f` <!--SR:!2024-06-06,2,241-->
+- Review flashcards from all notes::`C-A-a` <!--SR:!2024-06-06,2,240-->
+- Review note as easy::`C-A-1` for file, `1` for current flashcard <!--SR:!2024-06-06,2,241-->
+- Review note as good::`C-A-2` for file, `2`/`space` for current flashcard <!--SR:!2024-06-06,2,241-->
+- Review note as hard::`C-A-3` for file, `3` for current flashcard <!--SR:!2024-06-06,2,241-->
 - Open a note for review::``C-A-` ``
-- View statistics::`A-c`
-<!--SR:!2024-01-27,1,211-->
+- View statistics::`A-c` <!--SR:!2024-06-07,3,260-->
 
 
 ## Test spaced repetition plugin
 
-Simple ==highlight==.
-<!--SR:!2024-02-04,9,270-->
+Simple ==highlight==. <!--SR:!2024-06-07,3,259-->
 
 Highlight ==with
 new line== Is not working.
 
-Double::colon.
-<!--SR:!2024-04-08,37,290-->
+Double::colon. <!--SR:!2024-06-07,3,261-->
 
-Double colon with::
-new line not working.
+Double colon with:: <!--SR:!2024-06-07,3,259-->
+new line not working correctly (empty).
 
 Simple
 &#10;
-Question
-<!--SR:!2024-01-30,10,270-->
+Question <!--SR:!2024-06-07,3,260-->
 
 Simple question
 &#10;
-With new
+With <!--SR:!2024-06-07,3,260-->  new
 \
-Lines
-<!--SR:!2024-01-29,3,251-->
+Lines <!--SR:!2024-06-07,3,260-->
 
 Simple question
 &#10;
