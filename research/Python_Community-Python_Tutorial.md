@@ -14,7 +14,7 @@ sr-interval: 1
 sr-ease: 130
 ---
 
-# [The Python Tutorial](https://docs.python.org/3/tutorial/index.html)
+# The Python Tutorial
 
 Core Python language advantages?
 &#10;
@@ -26,7 +26,7 @@ and connect various components of programming system.
 My notes taken from the Python Tutorial. This tutorial is cover basic concepts
 of Python, most noteworthy features and language elements.
 
-## [1. Whetting Your Appetite](https://docs.python.org/3/tutorial/appetite.html)
+## 1. Whetting Your Appetite
 
 In this section described when Python can be usable. For example scripting,
 simple GUI, etc.
@@ -48,7 +48,7 @@ statement;
 brackets;
 - no variable or argument declarations are necessary.
 
-## [2. Using the Python Interpreter](https://docs.python.org/3/tutorial/interpreter.html)
+## 2. Using the Python Interpreter
 
 - Start interactive interpreter mode: `python3` or better `ipython`. On my
   machines also aviable `ipy` and `py` aliases.
@@ -86,7 +86,7 @@ comment as first line or after [[Shebang]]:
 print("Здесь можно использовать кодировку cp1251")
 ```
 
-## [3. An Informal Introduction to Python](https://docs.python.org/3/tutorial/introduction.html)
+## 3. An Informal Introduction to Python
 
 ```python
 # this is the first comment, which continue until EOL
@@ -119,11 +119,9 @@ What is floor division (or div), what are value of `(-11) // 4` ?
 &#10;
 Mathematical division that rounds ==down to **nearest**== integer. The floor
 division operator is `//`.  `-11 // 4` is -3, `-11 // 3.5` is -4.0.
-because that is `-2.75` and `-3.14` rounded downward.
-<!--SR:!2023-12-30,1,200-->
+because that is `-2.75` and `-3.14` rounded downward. <!--SR:!2024-06-06,1,180-->
 
-The `%` operator returns the ==remainder== of the division.
-<!--SR:!2023-12-31,4,240-->
+The `%` operator returns the ==remainder== of the division. <!--SR:!2024-06-13,9,240-->
 
 [[Operator|Operators]] with mixed type [[Operand|operand]]'s convert the integer
 operand to ==floating point, int → float==.
@@ -293,13 +291,11 @@ What you see if you use this slice `word[0:2]`, where word is "Python"
 ```python
 print("Python"[0:2])
 ```
-Characters from position 0 (included) to 2 (excluded), `'Py'`
-<!--SR:!2024-01-02,4,220-->
+Characters from position 0 (included) to 2 (excluded), `'Py'` <!--SR:!2024-06-12,8,220-->
 
 What you see if you use this slice `word[2:5]`, where word is "Python"
 &#10;
-Characters from position 2 (included) to 5 (excluded). `'tho'`
-<!--SR:!2023-12-31,4,240-->
+Characters from position 2 (included) to 5 (excluded). `'tho'` <!--SR:!2024-06-06,2,220-->
 
 Note: `s[:i] + s[i:] == ==s==`, start is always included, and the end always
 excluded.
@@ -514,10 +510,9 @@ statements). <!--SR:!2024-01-01,5,240-->
 &#10;
 Since `**` operator has higher precedence than -, `-3**2` will be interpreted as
 `-(3**2)` and thus result is -9, not 9. To avoid this and get 9, you can use
-`(-3)**2`.
-<!--SR:!2023-12-30,1,200-->
+`(-3)**2`. <!--SR:!2024-06-06,2,200-->
 
-## [4. More Control Flow Tools](https://docs.python.org/3/tutorial/controlflow.html)
+## 4. More Control Flow Tools
 
 [[Control_flow|Control flow]].
 
@@ -655,7 +650,7 @@ print(range(10))  # range(0, 10)
 
 What you will see with this code: `sum(range(4))`?
 &#10;
-# 0 + 1 + 2 + 3 = 6 <!--SR:!2024-06-12,9,240-->
+0 + 1 + 2 + 3 = 6 <!--SR:!2024-06-12,9,240-->
 
 > The `break` statement, like in C, `breaks out` of the innermost enclosing
 > ==`for` or `while` loop==.
@@ -816,7 +811,7 @@ Dotted names (like `foo.bar`), attribute names (the `x=` and `y=`) or class
 names (recognized by the "(...)" next to them like `Point` above) are never
 assigned to. <!--SR:!2024-06-09,6,238-->
 
-Can patterns be nested?
+Can patterns in match case be nested?
 &#10;
 Yes, patterns can be arbitrarily nested. For example, if we have a short list
 of Points, with `__match_args__` added, we could match it like this:
@@ -850,7 +845,7 @@ for points in [
 ```
 <!--SR:!2024-01-01,2,238-->
 
-Can I use `if` statements in patterns, why it can be useful?
+Can I use `if` statements in pattern matching, why it can be useful?
 &#10;
 Yes, `if` clause in pattern known as a "guard". If the guard
 is false, `match` goes on to try the next case block. Note that value
@@ -976,8 +971,6 @@ match color:
 <!-- NEXT: Here more info about pattern matching -->
 [PEP 636 – Structural Pattern Matching: Tutorial](https://peps.python.org/pep-0636/).
 
-## Defining Functions
-
 <!-- NEXT: review this fibonaci algorithm -->
 We can create a function that writes the Fibonacci series to an
 arbitrary boundary, can you explain how?
@@ -1097,8 +1090,6 @@ What is object method in Python?
 A method is a function that 'belongs' to an object and is named
 `obj.methodname`, where `obj` is some object (this may be an expression), and
 `methodname` is the name of a method that is defined by the object's **type**.
-
-## More on Defining Functions
 
 You can define default values for arguments in a function, when it can be
 required?
@@ -1478,7 +1469,7 @@ Arguments: spam eggs
 """
 ```
 
-## Python Coding Style
+### Python Coding Style
 
 Most languages can be written (or more concise, *formatted*) in different
 styles; some are more readable than others. Making it easy for others to read
