@@ -29,6 +29,37 @@ sr-ease: 220
 > work mainly during the day.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Work_(human_activity))</cite>
 
+## Goals
+
+- High proficient Software Engineer, technical and teamwork, professional
+network.
+- Solid knowledge of [[Computer_science|computer science]] and basic
+understanding of [[Mathematics]].
+- [[Backend]] professional specialist.
+- [[Computer_graphics|Computer graphics]] skills set for artistic and
+  technical purposes.
+- Software development understanding, fundamentals, architecture, design
+  patterns, and best practices.
+
+## Productivity tips
+
+- Write down daily priorities, at least 3
+- Divide working day into blocks and assign task for each block
+- Rest can help to increase productivity
+- Don't forget about [[How_do_I_work_with_the_calendar|calendar]] and [[Taskwarrior|task]] management
+- Take feedback without taking it personally
+- If you don't plan your day, someone else will
+- Source of your energy is quality of your sleep, diet, exercise, outdoor walk
+- If you procrastinate on something, work on it for 5 minutes
+- 4 hours of deep work is better than 12 hours of distracted work
+- Rest is not a reward, it's a right
+- 1% of improvement every day will make you 37 times better in a year
+- Slow is not bad, slow is good, slow is sustainable
+- If you want to change your life - track it
+- Productivity is about making space for what matters most in your life
+
+## Organize
+
 I organize my work using, [[Getting_things_done_GTD|GTD]] mainly using
 Inbox, Tasks (TODO and NEXT), Daily and Weekly notes with [[Taskwarrior]].
 
@@ -48,35 +79,6 @@ position).
 
 I also use various [[My_awesome_software_list|software]] and
 [[My_awesome_web_services_list|services]] in my work.
-
-## Goals
-
-- High proficient Software Engineer, technical and teamwork, professional
-network.
-- [[Backend]] professional specialist.
-- [[Computer_graphics|Computer graphics]] skills set for artistic and
-  technical purposes.
-- Software development understanding, fundamentals, architecture, design
-  patterns, and best practices.
-- Solid knowledge of [[Computer_science|computer science]] and basic
-understanding of [[Mathematics]].
-
-## Productivity tips
-
-- Write down daily priorities, at least 3
-- Divide working day into blocks and assign task for each block
-- Rest can help to increase productivity
-- Don't forget about [[How_do_I_work_with_the_calendar|calendar]] and [[Taskwarrior|task]] management
-- Take feedback without taking it personally
-- If you don't plan your day, someone else will
-- Source of your energy is quality of your sleep, diet, exercise, outdoor walk
-- If you procrastinate on something, work on it for 5 minutes
-- 4 hours of deep work is better than 12 hours of distracted work
-- Rest is not a reward, it's a right
-- 1% of improvement every day will make you 37 times better in a year
-- Slow is not bad, slow is good, slow is sustainable
-- If you want to change your life - track it
-- Productivity is about making space for what matters most in your life
 
 ## References
 
