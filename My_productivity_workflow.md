@@ -15,3 +15,6 @@ sr-ease: 239
 - [[research/Babej-A_dive_into_taskwarrior_ecosystem]]
 - [[research/Dan-How_to_type_fast]]
 - [[research/Cneude-Building_Your_Mouseless_Development_Environment]]
+- [[Calendar]]
+- [[How_do_I_work_with_contacts]]
+
