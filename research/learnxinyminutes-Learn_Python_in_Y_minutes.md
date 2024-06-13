@@ -16,26 +16,26 @@ tags:
 ## 1. Primitive Datatypes and Operators
 
 ```python
-# Single line comments start with a number symbol.
+# Single line comments start with a number symbol (#).
 
-""" Multiline strings can be written
-    using three "s, and are often used
-    as documentation.
+"""Multiline strings can be written using three "s
+
+   And are often used as documentation.
 """
 
 # You have numbers
 3  # => 3
 
-# Math is what you would expect
+# Math is what you would expect, add spaces before and after operators
 1 + 1   # => 2
 8 - 1   # => 7
 10 * 2  # => 20
 35 / 5  # => 7.0
 
-# Integer division rounds down for both positive and negative numbers.
+# Integer division rounds towards zero for both positive and negative numbers.
 5 // 3       # => 1
--5 // 3::    # => -2, rounds down
-5.0 // 3.0   # => 1.0 # works on floats too
+-5 // 3      # => -2
+5.0 // 3.0   # => 1.0  # works on floats too
 -5.0 // 3.0  # => -2.0
 
 # The result of division is always a float
@@ -44,7 +44,7 @@ tags:
 # Modulo operation
 7 % 3   # => 1
 # i % j have the same sign as j, unlike C
--7 % 3::  # => 2, same sign + rounds down
+-7 % 3  # => 2
 
 # Exponentiation (x**y, x to the yth power)
 2**3  # => 8
@@ -52,7 +52,6 @@ tags:
 # Enforce precedence with parentheses
 1 + 3 * 2    # => 7
 (1 + 3) * 2  # => 8
-2 + 2 * 2    # => 6
 
 # Boolean values are primitives (Note: the capitalization)
 True   # => True
@@ -67,38 +66,37 @@ not False  # => True
 True and False  # => False
 False or True   # => True
 
-# True and False are actually ==1 and 0== but with different keywords
-True + True # => 2
-True * 8    # => 8
-False - 5   # => -5
+# True and False are actually 1 and 0 but with different keywords
+True + True  # => 2
+True * 8     # => 8
+False - 5    # => -5
 
 # Comparison operators look at the numerical value of True and False
-0 == False  # => True
-2 > True    # => True
-2 == True   # => False
--5 != False # => True
+0 == False   # => True
+2 > True     # => True
+2 == True    # => False
+-5 != False  # => True
 
 # None, 0, and empty strings/lists/dicts/tuples/sets all evaluate to False.
 # All other values are True
-bool(0)     # => False
-bool("")    # => False
-bool([])    # => False
-bool({})    # => False
-bool(())    # => False
-# Empty set type is::set()
-bool(set()) # => False
-bool(4)     # => True
-bool(-6)    # => True
+bool(0)      # => False
+bool("")     # => False
+bool([])     # => False
+bool({})     # => False
+bool(())     # => False
+bool(set())  # => False
+bool(4)      # => True
+bool(-6)     # => True
 
 # Using boolean logical operators on ints casts them to booleans for evaluation,
 # but their non-cast value is returned. Don't mix up with bool(ints) and bitwise
 # and/or (&,|)
-bool(0)     # => False
-bool(2)     # => True
-0 and 2::   # => 0, non-cast value is returned
-bool(-5)::  # => True
-bool(2)     # => True
--5 or 0     # => -5
+bool(0)   # => False
+bool(2)   # => True
+0 and 2   # => 0
+bool(-5)  # => True
+bool(2)   # => True
+-5 or 0   # => -5
 
 # Equality is ==
 1 == 1  # => True
@@ -115,7 +113,7 @@ bool(2)     # => True
 2 >= 2  # => True
 
 # Seeing whether a value is in a range
-1 < 2 and 2 < 3  # => True, equal to::1 < X < 3, where X is 2
+1 < 2 and 2 < 3  # => True
 2 < 3 and 3 < 2  # => False
 # Chaining makes this look nicer
 1 < 2 < 3  # => True
@@ -130,16 +128,6 @@ b == a            # => True, a's and b's objects are equal
 b = [1, 2, 3, 4]  # Point b at a new list, [1, 2, 3, 4]
 b is a            # => False, a and b do not refer to the same object
 b == a            # => True, a's and b's objects are equal
-[1, 2] is [1, 2]:: # False, do not refer to the same object (memory place)
-None is None::    # True, value None in one place in memory
-
-a = 256
-b = 256
-a is b            # True,  integer between -5 and 256... since these integers are used often, they are always stored in memory
-
-a = 257
-b = 257
-a is b            # False
 
 # Strings are created with " or '
 "This is a string."
@@ -158,9 +146,9 @@ len("This is a string")  # => 16
 
 # Since Python 3.6, you can use f-strings or formatted string literals.
 name = "Reiko"
-f"She said her name is {name}." # => "She said her name is Reiko"
+f"She said her name is {name}."  # => "She said her name is Reiko"
 # Any valid Python expression inside these braces is returned to the string.
-f"{name} is {len(name)} characters long." # => "Reiko is 5 characters long."
+f"{name} is {len(name)} characters long."  # => "Reiko is 5 characters long."
 
 # None is an object
 None  # => None
@@ -169,7 +157,7 @@ None  # => None
 # Use "is" instead. This checks for equality of object identity.
 "etc" is None  # => False
 None is None   # => True
-```
+````
 
 # 2. Variables and Collections
 
