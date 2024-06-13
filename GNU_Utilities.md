@@ -111,7 +111,7 @@ A lot of these commands also usually exist in this
 - `printenv` - Prints environment variables
 - `printf` - Formats and prints data
 - `pwd` - Prints the current working directory
-- `readlink` - Displays value of a symbolic link
+- `readlink` - Displays value of a symbolic link, very useful to copy file path: `readlink -f file.txt`
 - `runcon` - Run command with specified security context
 - `seq` - Prints a sequence of numbers
 - `sleep` - Delays for a specified amount of time
