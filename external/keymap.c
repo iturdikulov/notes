@@ -22,15 +22,15 @@
 #define KCOM KC_COMM
 #define ____ KC_TRNS
 
-#define _SYM 1
-#define _NAV 2
+#define _NAV 1
+#define _SYM 2
 #define _NUM 3
 #define _QWE 4
 
 enum layers {
     DEF,
-    SYM,
     NAV,
+    SYM,
     NUM,
     QWE,
 };
@@ -57,9 +57,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   [NAV] = LAYOUT(
     ____,     ____,    ____,   ____,   ____,    ____,      ____, ____, ____, ____, ____, ____, ____, ____, ____, ____,
     ____,     ____,    ____,   ____,   ____,    ____,      ____, ____, ____, ____, ____, ____, ____, ____, ____, ____,
-    ____,      KC_TAB, ____,   ____,   ____, KC_VOLU,    EE_CLR, KC_HOME, KC_UP, KC_END, KC_DEL, ____, ____, ____, ____,
-    ____,       OLSHT,   OLCTL,  OLALT,  OLGUI,   KC_VOLD,    ____,   KC_LEFT, KC_DOWN, KC_RIGHT, KC_BSPC, ____, ____,          ____,
-    ____, ____,  RGB_TOG, ____,   KC_MPRV, KC_MNXT,  KC_MPLY,  ____, KC_PGDN, KC_PGUP, APP,      KC_ENT, ____, ____, ____,
+    ____,      KC_TAB, KC_MS_L, KC_MS_D,   KC_MS_U, KC_MS_R,    KC_BTN1, KC_HOME, KC_UP, KC_END, KC_DEL, ____, ____, ____, ____,
+    ____,       OLSHT,   OLCTL,  OLALT,  OLGUI,   KC_VOLU,    KC_BTN2,   KC_LEFT, KC_DOWN, KC_RIGHT, KC_BSPC, ____, ____,          ____,
+    ____, ____,  RGB_TOG, ____,   KC_MPRV,  KC_MNXT,  KC_VOLD,  KC_MPLY, KC_PGDN, KC_PGUP, APP,      KC_ENT, ____, ____, ____,
     ____, ____, ____, ____, ____,  ____, ____, ____, ____, ____, ____, ____
   ),
 
@@ -78,7 +78,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     ____, ____, ____, KC_F,    KC_P,    KC_B,    KC_J,       KC_L,       KC_U,       KC_Y,       KC_SCLN,    ____,    ____,         ____,          DF(DEF),
     ____, ____, KC_R,    KC_S,    KC_T,    KC_G,    KC_M,       KC_N,       KC_E,       KC_I,       KC_O,       ____,    ____,         ____,
     ____, ____, KC_X,    KC_C,    KC_D,    KC_V,    KC_Z,       KC_K,       KC_H,       ____,    ____,    ____,    ____,         ____, ____,
-    ____, ____, ____, ____, ____, ____, ____,    ____,    KC_RCTL,    ____,    ____,    ____
+    ____, ____, KC_LALT, ____, ____, ____, ____,    ____,    KC_RCTL,    ____,    ____,    ____
   ),
 };
 
