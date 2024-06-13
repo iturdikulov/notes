@@ -400,6 +400,11 @@ Open popup menu for last action::`F9`
 _[Learn Blender with a poster
 infographic](https://www.giudansky.com/illustration/infographics/blender-map)_
 
+## Learning
+
+- [x] [[research/Price-Donut_Tutorial_in_Blender]]
+- [x] [[research/CG_Cookie-Blender_Basics]]
+
 ## References
 
 - [Blender Manual](https://docs.blender.org/manual/en/latest/index.html)
