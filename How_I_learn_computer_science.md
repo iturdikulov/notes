@@ -32,7 +32,7 @@ this engine, and it can be even used as [[Art]] tool.
 
 - [AlgoList - алгоритмы, методы, исходники](http://algolist.manual.ru/)
 - [[research/Wikipedia-Glossary_of_computer_science]]
-- [[research/Petzold-Code]]
+- [[research/Petzold-Kod]]
 - [[research/Cormen_et_al-Introduction_to_algorithms]]
 - [[research/Warren_Hackers_Delight]]
 - [[research/Polya-How_to_solve_it]]
