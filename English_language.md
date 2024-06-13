@@ -33,7 +33,7 @@ English is a West Germanic language in the Indo-European
 >
 > [Simple English Wikipedia](https://simple.wikipedia.org/wiki/English_language)
 
-I have English language [[How_I_learn_English_language|learning plan]],
+I have English language [[How_I_learn_English|learning plan]],
 which can help me to understand English materials, media and people.
 
 ## Tools
