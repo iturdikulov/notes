@@ -24,7 +24,7 @@ stay a human being at the same time ;-).
 [[Taskwarrior]] with [[Getting_things_done_GTD|GTD methodology]] helps me to
 manage my life.
 
-I have some global notes, which allow choosing what to do next:
+I have some global notes, which allow choosing what to do **next**:
 
 - [[My_routine|Daily routine]], for more predictable life.
 - [[Work]] as main activity, [[Finance|finance]] source.
