@@ -14,6 +14,7 @@ This is the best way to practice learning new technologies and tools.
 
 ## In progress
 
+- awesome-to-rec
 - [[Social_networking_service|Social network]] automation service.
 - [[Zettelkasten]] wiki.
 - Nix, dotfiles + scripts, my custom [[NixOS]] configuration and scripts.
