@@ -23,3 +23,4 @@ sr-ease: 272
 - TODO: describe my setup
 - TODO: describe configuration
 - TODO: bind IP to my domain
+- TODO: proxy to avoid AdGuard?
