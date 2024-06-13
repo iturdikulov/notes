@@ -140,6 +140,8 @@ Good inspiration for watching movies.
 - [x] Кунг-фу Панда 2 / Kung Fu Panda 2 (2011). Probably a little bit weaker
       than previous movie. But very sensitive. 9/10
 
+- маленькая смерть
+
 ## External links
 
 - [Мультики by ArjLover](https://multiki.arjlover.net/)
