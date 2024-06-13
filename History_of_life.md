@@ -10,7 +10,7 @@ sr-ease: 252
 
 # History of life
 
-> The [[History|history ]] of life on Earth traces the processes by which living
+> The [[History|history]] of life on Earth traces the processes by which living
 > and fossil organisms evolved, from the earliest emergence of life to present
 > day. Earth formed about ==4.5 billion== years ago (abbreviated as Ga, for
 > gigaannum) and evidence suggests that life emerged prior to 3.7 Ga. Although
