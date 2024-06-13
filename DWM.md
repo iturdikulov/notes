@@ -124,6 +124,14 @@ Unicode and [[Nerd_fonts|Nerdfonts]] menu::`<D-u>`
 
 Toggle sticky on active window (topmost)::`<D-S>`
 
+Focus next monitor::`<D-.>` +1
+
+Focus previous monitor::`<D-,>` -1
+
+Apply next monitor tag to current window (like move it to next monitor)::`<D-S-.>`
+
+Apply previous monitor tag to current window (like move it to previous monitor)::`<D-S-,>`
+
 ### Programs specific shortcuts
 
 Open `$TERMINAL` in scratchpad::`D-'`
