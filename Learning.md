@@ -99,6 +99,12 @@ express my thoughts in easy to understand form.
 large software list, which I use for my work and personal life. In fact this is
 sort of my tools list.
 
+## Other
+
+[[My_productivity_workflow|My productivity workflow]] is about how I manage my
+time, tasks, etc. It's very useful to learn how to manage your time and tasks
+better.
+
 ## Art
 
 [[Art]] is a great way to express my thoughts in easy to understand form. Art
@@ -110,12 +116,6 @@ I organize all **my** art related stuff in [[My_Art|my art]] note.
 
 [[Literature]] for me is great solution to fun and relax. I collect my reading
 list and favorite books in [[My_Fiction_Books|my fiction books]] note.
-
-## Other
-
-[[My_productivity_workflow|My productivity workflow]] is about how I manage my
-time, tasks, etc. It's very useful to learn how to manage your time and tasks
-better.
 
 ## Learning resources
 
