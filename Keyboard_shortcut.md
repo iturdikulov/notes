@@ -280,4 +280,4 @@ powerful, and I'm planning to learn it more.
 - [Monkeytype | A minimalistic, customizable typing test](https://monkeytype.com/)
 - [ShortcutFoo](https://www.shortcutfoo.com/)
 - [KeyCombiner](https://keycombiner.com/)
-
+- [VimGolf - real Vim ninjas count every keystroke!](https://www.vimgolf.com/)
