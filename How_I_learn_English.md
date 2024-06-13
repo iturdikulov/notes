@@ -8,7 +8,7 @@ sr-interval: 1
 sr-ease: 172
 ---
 
-# How I learn English language
+# How I learn English
 
 TODO: better group resources
 
