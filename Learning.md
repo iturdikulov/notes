@@ -20,10 +20,9 @@ sr-ease: 195
 > last a lifetime, and it is hard to distinguish learned material that seems to
 > be "lost" from that which cannot be retrieved.\
 > — <cite>[Learning - Wikipedia](https://en.wikipedia.org/wiki/Learning)</cite>
-TODO: add ML note and link
 
-Important place in choosing what to learn is my [[Work#Goals|work goals]]
-and my [[My_pet_projects|pet projects]] required skills.
+This is my important place in choosing what to learn for my [[Work#Goals|work
+goals]] and my [[My_pet_projects|pet projects]] required skills.
 
 Since I'm use [[Zettelkasten]], I can create new notes based on education
 materials and extend them with different sources, my experience, etc. That
@@ -38,89 +37,93 @@ of [[Spaced_repetition|spaced repetition]], [[SQ3R_method|Sq3R]],
 > — <cite>[[research/Kernighan_and_Ritchie-The_C_programming_language|K&R book]]</cite>
 
 It's not enough to study only, need continuously practice (use your knowledge)
-and test yourself, to solve this problem I implement my [[My_pet_projects|pet
-projects]] and [[Work|working projects]] to strengthen my studies.
+and test yourself, to solve this problem I implement my
+[[My_pet_projects|pet projects]] and [[Work|working projects]] to strengthen my
+studies.
 
-Generally I want to focus on 2 parts of my education:
+Generally I want to focus on these fields:
 
-## Fundamentals of science
+And below I describe my learning paths for each field.
 
-### Theory (priority is matter)
+## Fundamentals of science and computer science
 
-**[[Computer_science|Computer science]]** combination of many science fields.
-My [[How_I_learn_computer_science|learning path]].
+[[Science]] is source of knowledge and predictions about the world, and I want
+to learn it better. My main focus is on fundamental sciences and especially
+[[Computer_science|computer science]]. I'll describe my learning paths for each
+field in this section.
 
-**[[Computer_graphics|Computer graphics]]** I very impressed by it, and I like
-to learn more about it. My [[How_I_learn_computer_graphics|learning path]].
+**[[How_I_learn_computer_science|How I learn computer science]]**.
+Computer science help me to understand my profession (software engineer) better
+and break my barriers in software development.
 
-**[[Art]]** is a great way to express my thoughts in easy to understand form.
-Art for me is also deeply integrated into computer graphics, because it provides
-many opportunities to create something beautiful.
-My [[How_I_learn_art|learning path]].
+[[How_I_learn_mathematics|How I learn mathematics]]. Mathematics is a "clean"
+fundamental science, and part of many others, and I want to learn it better, at
+least on some beginner/medium level.
 
-**[[Mathematics]]** is a fundamental science, and part of many others, and I
-want to learn it better, at least on some beginner/advanced level.
-My [[How_I_learn_mathematics|learning path]].
+[[How_I_learn_physics_and_chemistry|How I learn physics and chemistry]].
+[[Physics]] and [[Chemistry]] go after mathematics in my learning priority. I
+want to understand world better, and this fields can help me with it.
 
-**[[Physics]]** and **[[Chemistry]]** go after mathematics in my learning
-priority. I want to understand world better, and this fields can help me with
-it. My [[How_I_learn_physics_and_chemistry|learning path]].
+Linguistics, my primary focus is [[Russian_language|Russian]] and [[English_language|English]]
+languages. English is great to reveal huge part of world, new knowledge and
+opportunities, I'm native [[Russian_language|Russian]] speaker, currently I
+spent more time to learn English. [[How_I_learn_English|How I learn English]].
 
-**[[History]]** and **[[Literature]]**, many works in literature are related to
-history. Knowing history is improving your understanding of current world.
-Literature for me is great solution to fun and relax. My
-[[My_Fiction_Books|read and to read books]]
-TODO: add history/literature learning path note.
-
-**[[English_language|English language]]** is great to reveal huge part of
-world, new knowledge and opportunities. My
-[[How_I_learn_English_language|learning plan]].
-
-**[[Health]]** required for all humans, and I want to learn how to be healthy
-and more important how to stay healthy. I have
-[[My_Physical_exercise_plan|exercise plan]], which I follow.
-
-### Practice
-
-- [[My_pet_projects|My pet projects]]
-- [[LeetCode]]
-- [PhET simulations](https://phet.colorado.edu/)
-- [[My_sketchbook|My sketchbook]]
-- [[My_Physical_exercise_plan|My physical exercise plan]]
-
----
+Knowing [[History|history]] is improving your understanding of current world
+events and help to avoid mistakes from past.
 
 ## Programming and software development
 
-### Theory
+Programming and software development are very deeply linked with science, and
+computer science in particular. It's a little bit different from
+science/computer science, because it's more practical and applied, but in fact
+it uses all from them. This is also my current [[Work|work]] and main source of
+[[My_pet_projects|pet projects]].
 
-**[[How_I_learn_programming_and_software_development|Programming and software development]]**
+[[How_I_learn_programming_and_software_development|How I learn programming and software development]].
 This is place where I store programming applied learning materials, related
 outline notes (like frontend/backend) and some management stuff.
 
-**My editing workflow** is heavily related to [[Neovim]], but it can be
-replicated in some advanced code editor (like [[Pycharm]]), here I store my main
-editing practices, tricks, etc.
+My editing workflow, including [[Code|code]], is heavily related to [[Neovim]],
+but it can be replicated in some advanced code editor (like [[Pycharm]]), check
+these notes for more information. I also keep collecting various useful
+information, which can be related to various software, like
+[[Keyboard_shortcut|keyboard shortcuts]], [[Blender]], [[Krita]],
+[[GNU_Utilities]], [[Linux]], [[NixOS]], etc.
 
-**[[My_productivity_workflow|My productivity workflow]]** is about how I manage
-my time, tasks, etc. It's not only about software development, but also about my life.
+[[How_I_learn_computer_graphics|How I learn computer graphics]]. Computer
+graphics impress me, and I want to learn more about it. It's a great way to
+express my thoughts in easy to understand form.
 
-**[[My_awesome_software_list|My awesome software list]]** is subset of endlessly
-large software list, which I use for my work and personal life.
+[[My_awesome_software_list|My awesome software list]] is subset of endlessly
+large software list, which I use for my work and personal life. In fact this is
+sort of my tools list.
 
-### Practice
+## Art
 
-- [[My_pet_projects|pet projects]]
-- [Monkeytype | A minimalistic, customizable typing test](https://monkeytype.com/)
-- [VimGolf - real Vim ninjas count every keystroke!](https://www.vimgolf.com/)
-- [KeyCombiner](https://keycombiner.com/)
-- [[Work|working projects]]
-- [[My_awesome_software_list|software list]].
+[[Art]] is a great way to express my thoughts in easy to understand form. Art
+for me is also deeply integrated into computer graphics, because it provides
+many opportunities to create something beautiful. Here is my
+[[How_I_learn_art|learning path]].
 
-## References
+I organize all **my** art related stuff in [[My_Art|my art]] note.
 
+[[Literature]] for me is great solution to fun and relax. I collect my reading
+list and favorite books in [[My_Fiction_Books|my fiction books]] note.
+
+## Other
+
+[[My_productivity_workflow|My productivity workflow]] is about how I manage my
+time, tasks, etc. It's very useful to learn how to manage your time and tasks
+better.
+
+## Learning resources
+
+- [[Wikipedia]]
+- [[Khan_Academy]]
+- [[LeetCode]]
 - [Wikiversity](https://www.wikiversity.org/)
 - [Udemy](https://www.udemy.com/)
 - [edX](https://www.edx.org/)
 - [Coursera](https://www.coursera.org/)
-- [Super Memory: Forget about forgetting](https://www.super-memory.com/)
+- [Super Memory](https://www.super-memory.com/)
