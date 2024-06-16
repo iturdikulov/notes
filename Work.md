@@ -35,7 +35,7 @@ sr-ease: 220
 network.
 - Solid knowledge of [[Computer_science|computer science]] and basic
 understanding of [[Mathematics]].
-- [[Backend]] professional specialist.
+- [[backend]] professional specialist.
 - [[Computer_graphics|Computer graphics]] skills set for artistic and
   technical purposes.
 - Software development understanding, fundamentals, architecture, design
@@ -74,7 +74,7 @@ plan and daily [[Maintenance]], with attention to [[Computer_security]]
 practices.
 
 Currently, I'm working now as a full-stack software engineer in a small company
-(remote, full-stack position, but moving into [[Backend|backend]]
+(remote, full-stack position, but moving into [[backend]]
 position).
 
 I also use various [[My_awesome_software_list|software]] and
