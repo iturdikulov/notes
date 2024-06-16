@@ -38,7 +38,7 @@ Next/Previous screen navigation::`<Space>`/`<S-Space>`
 
 Zoom in/Zoom out/Reset::`+`/`-`/`=`
 
-Full screen::`F11`, but I use [[DWM_keyboard_shortcuts|DWM]] full-screen,`<D-y>`
+Full screen::`F11`, but I use [[DWM#Keyboard shortcuts]] full-screen,`<D-y>`
 
 Fit document to screen ignore margins/with margins::`F9`/`F8`
 

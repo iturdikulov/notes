@@ -10,8 +10,9 @@ sr-ease: 252
 
 # Development Environment
 
-NEXT: review this
+<!-- NEXT: review this -->
 
+- [[My_productivity_workflow]]
 - [[Unix|unix_as_a_philosophy]]
 - Windows manager: [[DWM]]
 - Terminal: [[Kitty]]
@@ -35,4 +36,5 @@ NEXT: review this
 - Office
   - [[Zathura]]
   - [[Latex]]
-- [[Mouseless_workflow]]
+- Mouseless_workflow
+- [[Keyboard_shortcut]]

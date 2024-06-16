@@ -27,7 +27,7 @@ solvable. Especially if you use something like `DWM flexipatch`.
 Right now I use various patches, with my dwm-flexipatch fork:
 [Inom-Turdikulov/dwm-flexipatch](https://github.com/Inom-Turdikulov/dwm-flexipatch).
 
-To use dwm effectively, I use my own [[DWM_keyboard_shortcuts|dwm shortcuts]].
+To use dwm effectively, I use my own [[#Keyboard shortcuts]]
 
 ## Launching
 
@@ -68,7 +68,7 @@ _Tiled layout_
 By default, dwm in ==tiled== layout. But you can switch between ==tiled==,
 ==monocle==, ==floating== layouts.
 
-For additional information, see [[DWM_keyboard_shortcuts]].
+For additional information, see [[#Keyboard shortcuts]]
 
 ## Additional functional
 
@@ -83,11 +83,9 @@ I also created custom modules, `dnd`.
 (Do Not Disturb), key <kbd>s-C-n</kbd>.
 It's toggling notifications pause mode, in status bar displayed ⛔ icon.
 
-## Keyboard shortcuts
-
-Keyboard shortcuts are described in [[DWM_keyboard_shortcuts]] note.
-
 ## Workspaces (beta)
+
+<!-- NEXT: outdated -->
 
 - 1. My main working workspace. Usually tmux session in pair with terminal.
 - 2. Browser workspace, also can contains [[Newsboat]] tmux session.
@@ -98,7 +96,6 @@ Keyboard shortcuts are described in [[DWM_keyboard_shortcuts]] note.
 - 7. Email/Contacts workspaces
 - 8. Working Chat workspace, usually [[Slack]]
 - 9. Stream and music workspace
-
 
 ## Keyboard shortcuts
 

@@ -52,7 +52,7 @@ sr-ease: 182
 [[Zen_of_python|Zen of python]] describes the philosophy of Python.
 
 This is most prioritized language for me. I learn it according to my
-[[My_python_developer_roadmap|roadmap]].
+[[How_I_learn_programming_and_software_development#Python|roadmap]].
 
 **Python** is a [[High-level_programming_language|high-level]],
 [[General-purpose_programming_language|general-purpose]] programming language.
@@ -71,9 +71,6 @@ It supports any popular [[Programming_paradigm|programming paradigm]]:
 
 Rich [[research/Python_Community-Python_Standard_Library|standard library]] make
 it's "batteries included" language.
-
-Personally I learn python with
-**[[My_python_developer_roadmap|my python developer roadmap]]**.
 
 ## Libraries, Frameworks, Templates
 

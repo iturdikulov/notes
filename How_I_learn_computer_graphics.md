@@ -36,7 +36,6 @@ My outline for learning [[Computer_graphics|computer graphics]].
 - [[research/Obuz_Game_Development_with_Blender_and_Godot]]
 - [[research/Sensei-Unreal_Engine_5_Beginner_Tutorial|beginner course]], I like
 this engine, and it can be even used as [[Art]] tool.
-- [[research/GDQuest_Team-Godot_Courses]]
 - [[research/Godot_Community-Godot_demo_projects]]
 - [[research/Manzur_and_Marques-Godot_Engine_Game_Development]]
 

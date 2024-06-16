@@ -20,7 +20,7 @@ applications, virtual reality, and, formerly, video [[Game|games]].
 
 ## Blender Common Shortcuts
 
-Shortcuts for [[Blender]] which I use often.
+Shortcuts for Blender which I use often.
 
 ### General (most window types)
 
@@ -401,8 +401,6 @@ _[Learn Blender with a poster
 infographic](https://www.giudansky.com/illustration/infographics/blender-map)_
 
 ## Learning
-
-Very helpful to practice blender is to learn it's [[Blender_common_shortcuts|shortcuts]].
 
 Repeat the tutorial from memory, notes can help. Experiment, do something new,
 based on tutorials. Make something dirty but get experience.

@@ -66,11 +66,11 @@ Check also related
     - [[Queue]]
     - [[Hash_table|Hash table]]
 - More Knowledge
-    - [[Binary search|Binary_search_algorithm]]
+    - Binary search
     - Bitwise operations
 - Trees
     - [[Tree]]
-    - [[Binary search tree: BST|Binary_search_tree]]
+    - Binary search tree: BST
     - [[Heap]] / Priority Queue / Binary Heap
     - balanced search trees (general concept, not details)
     - traversals: preorder, inorder, postorder, BFS, DFS

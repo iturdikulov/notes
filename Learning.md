@@ -89,7 +89,7 @@ but it can be replicated in some advanced code editor (like [[Pycharm]]), check
 these notes for more information. I also keep collecting various useful
 information, which can be related to various software, like
 [[Keyboard_shortcut|keyboard shortcuts]], [[Blender]], [[Krita]],
-[[GNU_Utilities]], [[Linux]], [[NixOS]], etc.
+[[GNU_Utilities]], [[GNU_Linux]], [[NixOS]], etc.
 
 [[How_I_learn_computer_graphics|How I learn computer graphics]]. Computer
 graphics impress me, and I want to learn more about it. It's a great way to

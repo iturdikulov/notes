@@ -32,6 +32,5 @@ prototypes.
 - [ ] [Godot 3 Tutorial Series - YouTube](https://www.youtube.com/playlist?list=PLda3VoSoc_TSBBOBYwcmlamF1UrjVtccZ)
 - [ ] [[research/Heartbeast-Godot_Tutorials]]
 - [ ] [[research/HK-SHAO-Godot_Raytracing_Demo]]
-- [ ] [[research/GDQuest_Team-Godot_Courses]]
 - [ ] [[research/Manzur_and_Marques-Godot_Engine_Game_Development]]
 - [ ] [[research/Godot_Community-Godot_demo_projects]]
