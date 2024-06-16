@@ -17,7 +17,7 @@ sr-ease: 242
 > many varieties of programming languages and platforms\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Programmer)</cite>
 
-I usually program in [[Pascal]], [[C]], [[Assembly_language]], [[Python]],
+I usually program in [[Pascal]], [[C]], [[assembly_language]], [[Python]],
 [[Go]], [[Rust]] and [[JavaScript]].
 
 I think main goal as programmer is able to solve problems and break any

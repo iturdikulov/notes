@@ -10,7 +10,7 @@ sr-ease: 225
 
 # Keyboard shortcut
 
-> In [[Computing|computing]], a keyboard shortcut also known as hotkey is a
+> In [[computing]], a keyboard shortcut also known as hotkey is a
 > series of one or several keys to quickly invoke a software program or perform
 > a preprogrammed action. This action may be part of the standard functionality
 > of the operating system or application program, or it may have been written by

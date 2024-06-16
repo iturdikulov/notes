@@ -8,7 +8,7 @@ sr-interval: 1
 sr-ease: 161
 ---
 
-# How I learn [[Mathematics|mathematics]]
+# How I learn [[mathematics]]
 
 - [ ] [[research/Vilenkin-populryanaya_kombinatorika]]
 - [ ] [[research/Math_is_Fun_Team-Math_is_Fun|Math is fun]]

@@ -23,7 +23,7 @@ models as good and bad programming style.
 At the end of each topic, places summary and list of rules.
 
 The principles of style, applicable in all languages, including
-[[Assembly_language|assembly]] codes.
+[[assembly_language|assembly]] codes.
 
 # Chapter 1. Introduction
 

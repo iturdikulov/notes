@@ -15,7 +15,7 @@ The words 'algorithm' and 'algorism' come from the name of a Persian
 mathematician called 'Al-Khwārizmī' (he is practically from my **homeland**)
 (Persian: خوارزمی, c. 780–850).
 
-> In [[Mathematics]] and [[Computer_science|computer science]], an algorithm
+> In [[mathematics]] and [[Computer_science|computer science]], an algorithm
 > (/ˈælɡərɪðəm/ is a ==finite sequence of rigorous instructions==, typically
 > used to solve a class of specific problems or to perform a computation.
 > Algorithms are used as specifications for performing **calculations** and
@@ -29,7 +29,7 @@ mathematician called 'Al-Khwārizmī' (he is practically from my **homeland**)
 <!--SR:!2023-07-20,1,230-->
 
 In general, it's, set of finite step-by-step instructions for solving some
-problem ([[Logic|logical]] or [[Mathematics|mathematical]]), or to perform some
+problem ([[Logic|logical]] or [[mathematics|mathematical]]), or to perform some
 other **task** (for example something from real world, like
 problem/computation). In other words a set of instructions for completing a
 specific task.

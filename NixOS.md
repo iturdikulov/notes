@@ -21,7 +21,7 @@ sr-ease: 230
 > — <cite>[NixOS Wiki](https://nixos.wiki/wiki/Overview_of_the_NixOS_Linux_distribution)</cite>
 
 NixOS is my current favorite Linux distribution. I like their features and
-trying to use it everywhere where it's possible. [[Arch_Linux|Arch Linux]] is
+trying to use it everywhere where it's possible. [[archlinux|Arch Linux]] is
 also good (minimal), but I like the NixOS approach more.
 
 ## Features

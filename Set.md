@@ -20,7 +20,7 @@ So main set feature is that it can store ==only unique values==.
 <!--SR:!2023-07-22,3,259-->
 
 Set seems so similar (especially array-based set) to the
-[[Array|array]] but operations performed on the set are
+[[array]] but operations performed on the set are
 different, mainly on **insert operation**. It has different efficiency, because
 we have non-duplicating constraint. But it perfectly replaces array, when you
 need unique data.

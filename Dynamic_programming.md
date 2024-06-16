@@ -10,7 +10,7 @@ sr-ease: 221
 # Dynamic programming
 
 > Dynamic [[Computer_programming|programming]] is both a
-> [[Mathematics|mathematical]] optimization method and a computer programming
+> [[mathematics|mathematical]] optimization method and a computer programming
 > method. The method was developed by Richard Bellman in the 1950s and has found
 > applications in numerous fields, from aerospace engineering to economics.
 >

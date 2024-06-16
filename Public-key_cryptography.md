@@ -13,7 +13,7 @@ sr-ease: 239
 > field of cryptographic systems that use pairs of related keys. Each key pair
 > consists of a public key and a corresponding private key. Key pairs are
 > generated with cryptographic [[algorithm|algorithms]] based on
-> [[Mathematics|mathematical]] problems termed one-way functions.
+> [[mathematics|mathematical]] problems termed one-way functions.
 > [[Computer_security|security]] of public-key cryptography depends on keeping
 > the private key secret; the public key can be openly distributed without
 > compromising security.\

@@ -11,12 +11,12 @@ sr-ease: 180
 
 # Multiplication table
 
-> In [[Mathematics|mathematics]], a multiplication table (sometimes, less
-> formally, a times table) is a mathematical table used to define a
-> multiplication operation for an algebraic system.
+> In [[mathematics]], a multiplication table (sometimes, less formally, a times
+> table) is a mathematical table used to define a multiplication operation for
+> an algebraic system.
 >
 > The decimal multiplication table was traditionally taught as an essential part
-> of elementary [[Arithmetic|arithmetic ]] around the world, as it lays the
+> of elementary [[arithmetic|arithmetic ]] around the world, as it lays the
 > foundation for arithmetic operations with base-ten numbers. Many educators
 > believe it is necessary to memorize the table up to 9 × 9.
 >

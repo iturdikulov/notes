@@ -10,10 +10,10 @@ sr-ease: 245
 
 # Temporary directory
 
-> In [[Computing|computing]], a temporary folder or temporary directory is a
-> directory used to hold temporary files. Many operating systems and some
-> software automatically delete the contents of this directory at bootup or at
-> regular intervals, leaving the directory itself intact.
+> In [[computing]], a temporary folder or temporary directory is a directory
+> used to hold temporary files. Many operating systems and some software
+> automatically delete the contents of this directory at bootup or at regular
+> intervals, leaving the directory itself intact.
 >
 > For security reasons, it is best for each user to have their own temporary
 > directory, since there has been a history of security vulnerabilities with

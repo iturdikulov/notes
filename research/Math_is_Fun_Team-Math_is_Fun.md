@@ -18,7 +18,7 @@ sr-ease: 210
 
 # Math is Fun
 
-[[Mathematics|Math]] explained in easy language, plus puzzles, [[Game|games]],
+[[mathematics|Math]] explained in easy language, plus puzzles, [[Game|games]],
 worksheets and an illustrated dictionary. For K-12 kids, teachers and parents.
 
 Start from this section:

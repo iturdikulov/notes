@@ -19,7 +19,7 @@ sr-ease: 245
 I think it's sort of text representation of [[algorithm]], written in
 programming language.
 
-> Source code is often transformed by an [[Assembly_language|assembler]] or
+> Source code is often transformed by an [[assembly_language|assembler]] or
 > [[Compiler]] into binary [[Machine_code]], which can be executed by computer.
 
 In other words program (which now executed from machine code) translate source

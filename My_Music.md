@@ -11,7 +11,7 @@ sr-ease: 212
 
 # My Music
 
-> Music is generally defined as the [[Art]] of arranging sound to create some
+> Music is generally defined as the [[art]] of arranging sound to create some
 > combination of form, harmony, melody, rhythm or otherwise expressive content.
 > Definitions of music vary depending on culture, though it is an aspect of all
 > human societies, a cultural universal.\

@@ -11,7 +11,7 @@ sr-ease: 250
 
 # Photography
 
-> Photography is the [[Art|art]], application, and practice of creating durable
+> Photography is the [[art]], application, and practice of creating durable
 > images by recording light, either electronically by means of an image sensor,
 > or chemically by means of a light-sensitive material such as photographic
 > film. It is employed in many fields of science, manufacturing (e.g.,

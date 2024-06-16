@@ -10,7 +10,7 @@ sr-ease: 220
 
 # List (abstract data type)
 
-List are not [[Array|array]].
+List are not [[array]].
 
 ## Linked list
 

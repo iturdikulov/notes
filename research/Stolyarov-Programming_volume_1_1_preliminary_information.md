@@ -564,7 +564,7 @@ service levels that are obtained from the operating system files (usually ISO).
 Most used are (order is not matter here):
 
 [[Microsoft_Windows|Microsoft Windows]] and Unix family:
-- Linux based: [[NixOS]], [[Arch_Linux]], Debian, Ubuntu, Fedora, Slackware, Gentoo, etc.
+- Linux based: [[NixOS]], [[archlinux]], Debian, Ubuntu, Fedora, Slackware, Gentoo, etc.
 - BSD family: FreeBSD, OpenBSD and other;
 - [[android]]: based on linux kernel;
 - macOS

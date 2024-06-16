@@ -88,7 +88,7 @@ My editing workflow, including [[Code|code]], is heavily related to [[Neovim]],
 but it can be replicated in some advanced code editor (like [[Pycharm]]), check
 these notes for more information. I also keep collecting various useful
 information, which can be related to various software, like
-[[Keyboard_shortcut|keyboard shortcuts]], [[Blender]], [[Krita]],
+[[Keyboard_shortcut|keyboard shortcuts]], [[blender]], [[Krita]],
 [[GNU_Utilities]], [[GNU_Linux]], [[NixOS]], etc.
 
 [[How_I_learn_computer_graphics|How I learn computer graphics]]. Computer
@@ -107,8 +107,8 @@ better.
 
 ## Art
 
-[[Art]] is a great way to express my thoughts in easy to understand form. Art
-for me is also deeply integrated into computer graphics, because it provides
+[[art|Art]] is a great way to express my thoughts in easy to understand form.
+Art for me is also deeply integrated into computer graphics, because it provides
 many opportunities to create something beautiful. Here is my
 [[How_I_learn_art|learning path]].
 

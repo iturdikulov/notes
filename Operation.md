@@ -10,7 +10,7 @@ sr-ease: 219
 
 # Operation (mathematics)
 
-> In [[Mathematics|mathematics]], an operation is a [[Function|function]]
+> In [[mathematics]], an operation is a [[Function|function]]
 > which takes zero or more input values (also called "[[Operand|operands]]" or
 > "arguments") to a well-defined output value. The number of operands is the
 > ==arity of the operation==.

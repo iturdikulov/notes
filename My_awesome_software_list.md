@@ -61,7 +61,7 @@ Table Of Contents:
 - [slack-desktop](https://slack.com/) - Slack Desktop for Linux
 - [discord](https://discord.com/) - Discord Instant Messenger
 - [Telegram Desktop](https://desktop.telegram.org/) - Telegram Desktop
-- [bitlbee](https://www.bitlbee.org/) - IRC to other chat networks gateway, [[Bitlbee|more_info]]
+- [bitlbee](https://www.bitlbee.org/) - IRC to other chat networks gateway, [[bitlbee|more_info]]
 
 ## Data Backup and Recovery
 
@@ -108,7 +108,7 @@ Table Of Contents:
 - [[Inkscape]] - open-source vector graphics editor,
 - [[Darktable]] - photography workflow application and raw developer
 - [[Godot]] - free and open source 2D and 3D game engine
-- [[Blender]] - open-source 3D computer graphics software tool set
+- [[blender]] - open-source 3D computer graphics software tool set
 - [[Krita]] - open-source painting program
 - [[Natron]] - open source compositing software
 

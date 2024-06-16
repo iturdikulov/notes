@@ -10,7 +10,7 @@ sr-ease: 238
 
 # Mathematical model
 
-> A [[Mathematics|mathematical]] model is an abstract description of a
+> A [[mathematics|mathematical]] model is an abstract description of a
 > concrete system using mathematical concepts and language. The process of
 > developing a mathematical model is termed mathematical modeling.
 >

@@ -9,7 +9,7 @@ sr-ease: 280
 
 # Hexadecimal
 
-> In [[Mathematics|mathematics ]] and [[Computing|computing]], the hexadecimal
+> In [[mathematics]] and [[computing]], the hexadecimal
 > (also base-16 or simply hex) [[Number|numeral]] system is a positional numeral
 > system that represents numbers using a radix (base) of sixteen. Unlike the
 > decimal system representing numbers using ten symbols, hexadecimal uses

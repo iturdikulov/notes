@@ -10,7 +10,7 @@ sr-ease: 233
 
 # Virtual machine
 
-> In [[Computing|computing]], a virtual machine (VM) is the virtualization or
+> In [[computing]], a virtual machine (VM) is the virtualization or
 > emulation of a computer system. Virtual machines are based on
 > [[Computer_architecture|computer architectures]] and provide the functionality
 > of a physical [[Computer]]. Their implementations may involve specialized

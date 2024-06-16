@@ -30,7 +30,7 @@ Kick butt at coding interviews. Be the candidate employers fight over.
 
 ## 1. Array and string manipulation
 
-- [[Array|array]]
+- [[array]]
 - Array Slicing
 - In-Place Algorithms
 - Dynamic Array

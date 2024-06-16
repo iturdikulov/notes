@@ -9,7 +9,7 @@ sr-ease: 241
 
 # Graph theory
 
-> In [[Mathematics|mathematics]], graph theory is the study of [[Graph|graphs]],
+> In [[mathematics]], graph theory is the study of [[Graph|graphs]],
 > which are mathematical structures used to model pairwise relations between
 > objects. A graph in this context is made up of vertices (also called nodes or
 > points) which are connected by edges (also called links or lines). A

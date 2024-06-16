@@ -10,7 +10,7 @@ sr-ease: 266
 
 # Number
 
-> Concept from [[Mathematics|mathematics]], used to count or measure. Depending
+> Concept from [[mathematics]], used to count or measure. Depending
 > on the field of mathematics, where numbers are used, there are different
 > definitions:
 >

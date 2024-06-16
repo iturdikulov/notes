@@ -14,7 +14,7 @@ The Useless Web was an example of early web humor. Original site you can find in
 [https://web.archive.org/web/20010616081433/http://www.go2net.com/useless/index.html](https://web.archive.org/web/20010616081433/http://www.go2net.com/useless/index.html).
 
 I find them sometimes interesting and fun. Some of them can be source of
-[[Artistic_inspiration|inspiration]] and
+[[artistic_inspiration|inspiration]] and
 [[Idea|ideas]].
 
 Here you can find random useless page:

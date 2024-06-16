@@ -10,7 +10,7 @@ sr-ease: 201
 
 # Logarithm
 
-> Part of [[Mathematics|mathematics]]. They are related to exponential
+> Part of [[mathematics]]. They are related to exponential
 > functions. A logarithm tells what exponent (or power) is needed to make a
 > certain number, so logarithms are the inverse (opposite) of exponentiation.
 > Historically, they were useful in multiplying or dividing large numbers.

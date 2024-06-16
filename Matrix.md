@@ -10,11 +10,10 @@ sr-ease: 218
 
 # Matrix (mathematics)
 
-> In [[Mathematics]], a **matrix** (plural **matrices**) is a rectangular
-> [[Array|array*]] or table of [[Number]], symbol, or
-> [[Expression|expression*]], arranged in rows and columns,
-> which is used to represent mathematical object or a property of such an
-> object.\
+> In [[mathematics]], a **matrix** (plural **matrices**) is a rectangular
+> [[array]] or table of [[Number]], symbol, or [[Expression]], arranged in rows
+> and columns, which is used to represent mathematical object or a property of
+> such an object.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Matrix_\(mathematics\))</cite>
 
 For example, $$\begin{bmatrix}1 & 9 & -13 \\20 & 5 & -6 \end{bmatrix}$$

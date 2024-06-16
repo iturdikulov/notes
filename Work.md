@@ -34,7 +34,7 @@ sr-ease: 220
 - High proficient Software Engineer, technical and teamwork, professional
 network.
 - Solid knowledge of [[Computer_science|computer science]] and basic
-understanding of [[Mathematics]].
+understanding of [[mathematics]].
 - [[backend]] professional specialist.
 - [[Computer_graphics|Computer graphics]] skills set for artistic and
   technical purposes.
