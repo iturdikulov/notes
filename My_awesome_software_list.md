@@ -208,7 +208,7 @@ as a command interpreter for shell scripting
 ## Utilities
 
 - [[Sdcv]] - console version of StarDict dictionary
-- [[Termdown]] - Countdown timer and stopwatch in your terminal
+- [[termdown]] - Countdown timer and stopwatch in your terminal
 - [kitty](https://sw.kovidgoyal.net/kitty/) - The fast, feature-rich, GPU based
   terminal emulator
 - [wmctrl](https://sites.google.com/site/tstyblo/wmctrl) - command line tool to
@@ -423,7 +423,7 @@ as a command interpreter for shell scripting
 
 TODO: actualize this list
 
-- [[Termux]]
+- [[termux]]
 - [[Tachiyomi]]
 - [[KOReader]], manual - [[research/KOReader_Community-KOReader_user_guide]].
 

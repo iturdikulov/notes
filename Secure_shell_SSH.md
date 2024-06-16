@@ -27,7 +27,7 @@ sr-ease: 228
 ## X11 forwarding on Android
 
 - Start XSDL.
-- Open [[Termux]] and type: `export DISPLAY=127.0.0.1:0`
+- Open [[termux]] and type: `export DISPLAY=127.0.0.1:0`
 - SSH to remote host: `ssh -Y user@hostname`
 
 ## Generate ed25519 ssh key

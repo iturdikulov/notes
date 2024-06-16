@@ -52,7 +52,7 @@ yes, empty items has address in memory
 > [[Matrix|matrix]], array types with one and two indices are
 > often called **vector type** and **matrix type**, respectively. More
 > generally, a multidimensional array type can be called a **tensor type**, by
-> analogy with the physical concept, [[Tensor]].
+> analogy with the physical concept, [[tensor]].
 >
 So in general array is a 1 way storing several items (such as integers). Usually
 array store the same type of items (this depending on language). Every item in
@@ -104,7 +104,7 @@ Read value at index 3:
 
 Examples, how to use [[Array_in_programming_languages|array in programming languages]].
 
-Array operations explained in [[Array_operations|array operations]].
+Array operations explained in [[array_operations|array operations]].
 
 ## Ordered array
 
