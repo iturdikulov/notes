@@ -44,6 +44,7 @@ meaning of words.
 - aims
 - along
 - altitude
+- although
 - ambiguity
 - animus
 - anxiety
