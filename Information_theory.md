@@ -9,7 +9,7 @@ sr-ease: 260
 
 # Information theory
 
-> Branch of applied [[mathematic]] and electrical engineering.
+> Branch of applied [[mathematics]] and electrical engineering.
 > Information theory measures the amount of information in data that could have
 > more than one value. In its most common use, information theory finds
 > [[Physics|physical]] and mathematical limits on the amounts of data in data
