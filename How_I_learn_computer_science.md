@@ -60,7 +60,7 @@ Check also related
 
 - Algorithmic complexity / Big-O / Asymptotic analysis
 - Data Structures
-    - [[Array|Arrays]]
+    - [[array|Arrays]]
     - Linked Lists
     - [[Stack]]
     - [[Queue]]

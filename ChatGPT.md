@@ -21,7 +21,7 @@ sr-ease: 247
 
 Live demo is [here](https://chat.openai.com/).
 
-GPT-3 (GPT-4, etc.) [[Artificial_intelligence|AI]] chatbot developed by OpenAI.
+GPT-3 (GPT-4, etc.) [[artificial_intelligence|AI]] chatbot developed by OpenAI.
 
 Currently, very hyped.
 

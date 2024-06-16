@@ -35,7 +35,7 @@ My outline for learning [[Computer_graphics|computer graphics]].
 - [[research/HK-SHAO-Godot_Raytracing_Demo]]
 - [[research/Obuz_Game_Development_with_Blender_and_Godot]]
 - [[research/Sensei-Unreal_Engine_5_Beginner_Tutorial|beginner course]], I like
-this engine, and it can be even used as [[Art]] tool.
+this engine, and it can be even used as [[art]] tool.
 - [[research/Godot_Community-Godot_demo_projects]]
 - [[research/Manzur_and_Marques-Godot_Engine_Game_Development]]
 
@@ -45,7 +45,7 @@ this engine, and it can be even used as [[Art]] tool.
 
 ## 3D modeling and animation
 
-- [[Blender#Learning]]
+- [[blender#Learning]]
 - [mister chad](https://mister-chad.com/welcome)
 - [[research/Muratori-Handmade_Hero|Handmade Hero]]
 - [[research/Price-Donut_Tutorial_in_Blender]]

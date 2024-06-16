@@ -12,7 +12,7 @@ sr-ease: 205
 
 > Deals with generating images and art with the aid of computers. Today,
 > computer graphics is a core technology in digital [[Photography|photography]]
-> film, video [[Game|games]], digital [[Art|art]], cell phone and computer
+> film, video [[Game|games]], digital [[art]], cell phone and computer
 > displays, and many specialized applications. A great deal of specialized
 > hardware and software has been developed, with the displays of most devices
 > being driven by computer graphics hardware. It is a vast and recently

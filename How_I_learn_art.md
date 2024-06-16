@@ -30,7 +30,7 @@ I also like to practice [[My_Handwriting|handwriting]].
 
 ## Software
 
-- [[Blender]]
+- [[blender]]
 - [[Unreal_Engine]]
 - [[Godot]]
 - [[GIMP]]
@@ -39,7 +39,7 @@ I also like to practice [[My_Handwriting|handwriting]].
 
 ## References
 
-Here are some resources for [[Artistic_inspiration|inspiration]]:
+Here are some resources for [[artistic_inspiration|inspiration]]:
 
 - [ArtStation - showcase platform](https://www.artstation.com/)
 - [DeviantArt - Art Gallery and Community](https://www.deviantart.com/)

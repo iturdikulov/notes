@@ -31,7 +31,7 @@ impact on it of your program.
 Data itself is just basically numbers and strings (in computers all data finally
 stored as [[bit]] sequences).
 
-Basic data structure is [[Array|array]].
+Basic data structure is [[array]].
 
 Data structures refer to ==how== data is organized. But data organization can be
 highly impact on **performance**. Your program can run fast and efficient or
@@ -66,7 +66,7 @@ manipulate instances of that structure (insert, delete, search, etc.).
 
 ## Examples
 
-- An [[Array|array]] is a number of elements in ==a specific order==, typically
+- An [[array]] is a number of elements in ==a specific order==, typically
 all of the same type (depending on the language). Elements are accessed using an
 integer index to specify which element is required. Typical implementations
 allocate contiguous memory words for the elements of arrays. Arrays may be

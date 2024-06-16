@@ -11,7 +11,7 @@ sr-ease: 226
 # Array operations
 
 There are four basic operations that can be performed on an
-[[Array]].
+[[array]].
 
 ## Reading
 

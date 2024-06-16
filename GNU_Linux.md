@@ -21,7 +21,7 @@ sr-ease: 248
 > why many people like to use Linux.\
 > — <cite>[Simple English Wikipedia](https://simple.wikipedia.org/wiki/Linux)</cite>
 
-Personally I use [[Arch_Linux|Arch Linux]] and [[NixOS]] distributions.
+Personally I use [[archlinux|Arch Linux]] and [[NixOS]] distributions.
 
 One of Unix/Linux important idea is everything is ==a file==, with some
 exceptions (semaphores, processes and threads).

@@ -13,7 +13,7 @@ sr-ease: 251
 > An encyclopedia (American English) or `encyclopædia` (British English) is a
 > [[Reference|reference ]] work or compendium providing summaries of knowledge
 > either general or special to a particular field or discipline. Encyclopedias
-> are divided into [[Articles|articles ]] or entries that are arranged
+> are divided into [[articles]] or entries that are arranged
 > alphabetically by article name or by thematic categories, or else are
 > hyperlinked and searchable. Encyclopedia entries are longer and more detailed
 > than those in most [[Dictionary|dictionaries]]. Generally speaking,
