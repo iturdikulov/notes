@@ -12,7 +12,7 @@ sr-ease: 273
 # Template
 
 Template files have many different uses. I store some for
-[[Document|documents]], text [[Evergreen_notes|notes]] ([[Markdown|markdown ]]
-for example), graphics, web pages, boilerplate texts and other purposes.
+[[Document|documents]], text [[Evergreen_notes|notes]] ([[markdown]] for
+example), graphics, web pages, boilerplate texts and other purposes.
 
 [Here](file://home/inom/Templates/) I'm collecting my templates.

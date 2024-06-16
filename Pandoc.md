@@ -60,11 +60,11 @@ pandoc input.md -s -o output.html
 ## How I use pandoc
 
 Generally I use shell script (check `pandoc-convert-example.sh`) to convert my
-notes from [[Markdown]] to Markdown, to support [[Bibtex]] [[Citation]], like
+notes from [[markdown]] to something, to support [[bibtex]] [[Citation]], like
 `@JohnMacFarlanePandocUserGuide2023`.
 
 In results pandoc using various flags (BibTeX file, citation style, etc.)
-generate markdown file with integrated citations, and [[Bibliography]]. Later I
+generate markdown file with integrated citations, and [[bibliography]]. Later I
 use this to generate my static site, using [[Hugo]].
 
 Here is the core part of the script:
@@ -82,7 +82,7 @@ pandoc -C \
        "$file" && \
 ```
 
-- `-t` - input format [[Markdown#gfm]] TODO: add this heading/note
+- `-t` - input format [[markdown#gfm]] TODO: add this heading/note
 - `-f` - output format (markdown+raw_html)
 - `--wrap=preserve` - preserve line breaks
 - `--csl=books/research-institute-for-nature-and-forest.csl` - citation style

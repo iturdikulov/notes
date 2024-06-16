@@ -13,7 +13,7 @@ sr-ease: 252
 # mkdx.vim
 
 > mkdx.vim is a Markdown plugin that aims to reduce the time you spend
-> formatting your [[Markdown|markdown]] documents.\
+> formatting your [[markdown]] documents.\
 > — <cite>[GitHub](https://github.com/SidOfc/mkdx)</cite>
 
 Not use it's right now, I think it's too complicated for me, maybe in the

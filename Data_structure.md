@@ -29,7 +29,7 @@ the ==performance== of data structures. Choose right data structure can greatly
 impact on it of your program.
 
 Data itself is just basically numbers and strings (in computers all data finally
-stored as [[Bit|bit]] sequences).
+stored as [[bit]] sequences).
 
 Basic data structure is [[Array|array]].
 

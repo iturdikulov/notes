@@ -69,7 +69,7 @@ but it's secondary task planner.
 To connect with colleagues I use [[Instant_messaging|IM]] and
 [[Email|email]] clients.
 
-In my work significantly help my [[Development_Environment]], [[Backup]]
+In my work significantly help my [[Development_Environment]], [[backup]]
 plan and daily [[Maintenance]], with attention to [[Computer_security]]
 practices.
 
