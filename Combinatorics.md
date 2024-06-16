@@ -10,11 +10,15 @@ What is combinatorics (in simple terms)?
 &#10;
 Combinatorics is the science of how to combine different objects.
 
-## [Бином Ньютона. Игра в слова. Числа сочетаний | Борис Трушин](https://www.youtube.com/watch?v=OSb146CwYqA)
 
 <!-- NEXT: move into research -->
+# Binomial theorem
 
-## [Raigorodsky Combinatorics lecture](/home/inom/Computer/science/Raigorodsky-Combinatorics/Raigorodsky-Combinatorics-Introduction_to_combinatorics_part_1_aohFil0ioJg.mp4)
+![Борис Трушин - Бином Ньютона. Игра в слова. Числа сочетаний](https://www.youtube.com/watch?v=OSb146CwYqA)
+
+# Raidgorodsky Combinatorics lecture
+
+[Raigorodsky Combinatorics lecture](file:///home/inom/Computer/science/Raigorodsky-Combinatorics/Raigorodsky-Combinatorics-Introduction_to_combinatorics_part_1_aohFil0ioJg.mp4)
 
 Recommended books:
 
@@ -72,6 +76,3 @@ We can select k items sequentially, with or without removing items from set:
 We can select k items simultaneously, with or without removing items from set:
 3. k-combinations without repetition
 4. k-combinations with repetition (can be without repetition)
-
-
-
