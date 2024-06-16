@@ -15,9 +15,35 @@ sr-ease: 223
 > background) and reattach them to a different terminal.\
 > — <cite>[tmux Wiki](https://github.com/tmux/tmux/wiki)</cite>
 
-New tmux session::`tmux` from command line (but not from tmux session) or `<leader>:new<CR>`
+List shortcuts::`?`
 
-New tmux session with name:;`tmux new -s myname`
+Copycat search::`/`
+
+Reload config (without killing server)::`r`
+
+Refresh client:`^r`
+
+List paster buffers::`b`
+
+Choose which buffer to paste from::`B`
+
+Paste from the top paste buffer::`p`
+
+Paste into current buffer from clipboard::`P` or `C-S-v` (without prefix)
+
+Documentation search (cheat.sh)::`i`
+
+Big clock::`t`
+
+Prompt for command::`:`
+
+## Sessions and windows
+
+Sessions are the independent workspaces of Tmux.
+
+New tmux session::`tmux` from command line (but not from tmux session) or `:new<CR>` from tmux session.
+
+New tmux session with name::`tmux new -s myname`
 
 Attach::`tmux a` (or at, or attach) or use `tma` alias. Optionally you can use session name (`tma -t myname`).
 
@@ -26,30 +52,28 @@ List sessions::`tmux ls` or use `tml` alias.
 Kill specific session::`tmux kill-session -t myname`.
 
 You can use ==`tmux kill-server`== to _cleanly and gracefully_ kill all
-tmux open sessions (and server).
+tmux open sessions (and server). Alternative is `Q` keybinding.
 
 Also, you can force kill all tmux processes with ==`pkill -f tmux`==.
 
 If you are inside a tmux session you would like to keep, use
 ==`tmux kill-session -a`== to close all other sessions.
 
-## Shortcuts (`<leader> ...`)
+Rename session::`$`
+
+Jump next and previous session::`)`, `(`
+
+Interactive window/session list.
+&#10;
+`w`, `S`. Use `j` and `k` to navigate, and switch by hitting `RET`.
+
+Find window (changed to tmux-sessionizer)::`a`
 
 Create window (tab) with current path if configured::`c`
 
-Next window (tab)::`n`
-
 Previous window (custom binding, last-window)::`C-6`
 
-List shortcuts::`?`
-
-Split horizontally/vertically::`s`, `v`
-
-Make panes vertical, select layout even-vertical::`+`
-
-Make panes horizontal, select layout even-horizontal::`=`
-
-Rename session::`$`
+Next window (tab)::`n`
 
 Rename window (tab)::`,` (comma)
 
@@ -57,15 +81,19 @@ Kill window (tab)::`X`
 
 Kill server::`q`
 
-Kill pane::`x`
+Detach::`d`
 
-Interactive window/session list::`w`, `S`
+List and terminate clients::`:list-clients`, to terminate select and press `q`
 
-Copycat search::`/`
+## Panes
+
+Split horizontally/vertically::`s`, `v`
+
+Make panes vertical, select layout even-vertical::`+`
+
+Make panes horizontal, select layout even-horizontal::`=`
 
 Last pane (back and forth)::`C-w`
-
-Find window (changed to tmux-sessionizer)::`f`
 
 Toggle pane zoom (maximize current pane, other panes are hidden)::`o` or `z`
 
@@ -93,29 +121,11 @@ Resize pane down (by 1)::`C-Down`
 Resize pane left (by 1)::`C-Left`
 Resize pane right (by 1)::`C-Right`
 
-Break pane into a window::`-`
-
 Join pane::`_` TODO: not actually working, need to investigate
 
-Reload config (without killing server)::`r`
+Kill pane::`x`
 
-Refresh client:`^r`
-
-List paster buffers::`b`
-
-Choose which buffer to paste from::`B`
-
-Paste from the top paste buffer::`p`
-
-Paste into current buffer from clipboard::`P` or `C-S-v` (without prefix)
-
-Documentation search (cheat.sh)::`i`
-
-Detach::`d`
-
-Big clock::`t`
-
-Prompt for command::`:`
+Break pane into a window::`-`
 
 ## Commands
 
