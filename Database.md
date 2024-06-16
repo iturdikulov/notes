@@ -9,15 +9,14 @@ sr-ease: 240
 
 # Database
 
->  In [[Computing|computing]], a database is an organized collection of data
->  (also known as a data store) stored and accessed electronically through the
->  use of a database management system. Small databases can be stored on a file
->  system, while large databases are hosted on computer clusters or cloud
->  storage. The design of databases spans formal techniques and practical
->  considerations, including data modeling, efficient data representation and
->  storage, query languages, security and privacy of sensitive data, and
->  distributed computing issues, including supporting concurrent access and
->  fault tolerance.\
+> In [[computing]], a database is an organized collection of data (also known
+> as a data store) stored and accessed electronically through the use of a
+> database management system. Small databases can be stored on a file system,
+> while large databases are hosted on computer clusters or cloud storage. The
+> design of databases spans formal techniques and practical considerations,
+> including data modeling, efficient data representation and storage, query
+> languages, security and privacy of sensitive data, and distributed computing
+> issues, including supporting concurrent access and fault tolerance.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Database)</cite>
 
 Databases which I use or want to try:

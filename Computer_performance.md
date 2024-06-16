@@ -9,7 +9,7 @@ sr-ease: 228
 
 # Computer performance
 
-> In [[Computing|computing]], computer performance is the amount of useful work
+> In [[computing]], computer performance is the amount of useful work
 > accomplished by a computer system. Outside of specific contexts, computer
 > performance is estimated in terms of accuracy, efficiency and speed of
 > executing [[Computer_program|computer program]]instructions. When it comes to
