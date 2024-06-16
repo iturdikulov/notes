@@ -16,7 +16,7 @@ sr-ease: 245
 > computer programmers, who specify the actions to be performed by a computer
 > mostly by writing source code.
 
-I think it's sort of text representation of [[Algorithm]], written in
+I think it's sort of text representation of [[algorithm]], written in
 programming language.
 
 > Source code is often transformed by an [[Assembly_language|assembler]] or

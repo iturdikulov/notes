@@ -11,7 +11,7 @@ sr-ease: 268
 
 > Vector graphics is a form of [[Computer_graphics|computer graphics ]] in which
 > visual images are created directly from geometric shapes defined on a
-> Cartesian plane, such as points, lines, curves and [[Polygon|polygons]]. The
+> Cartesian plane, such as points, lines, curves and [[polygon|polygons]]. The
 > associated mechanisms may include vector display and printing hardware, vector
 > data models and file formats, as well as the [[Inkscape|software ]] based on
 > these data models (especially graphic design software, computer-aided design,

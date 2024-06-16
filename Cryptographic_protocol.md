@@ -13,7 +13,7 @@ sr-ease: 247
 > performs a [[Computer_security|security]]-related function and applies
 > [[Cryptography|cryptographic]] methods, often as sequences of
 > cryptographic primitives. A protocol describes how the
-> [[Algorithm|algorithms]] should be used and includes details about data
+> [[algorithm|algorithms]] should be used and includes details about data
 > structures and representations, at which point it can be used to
 > implement multiple, interoperable versions of a program.
 >

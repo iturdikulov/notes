@@ -10,7 +10,7 @@ sr-ease: 234
 
 # Computer animation
 
-> [[Computer]] [[Animation|animation]] is the process used for digitally
+> [[Computer]] [[animation|animation]] is the process used for digitally
 > generating animations. The more general term computer-generated imagery (CGI)
 > encompasses both static scenes (still images) and dynamic images (moving
 > images), while computer animation only refers to moving images. Modern

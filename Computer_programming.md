@@ -14,7 +14,7 @@ sr-ease: 208
 > [[Computation|computations ]] (or more generally, accomplishing specific
 > computing results), usually by designing and building executable
 > [[Computer_program|computer programs]]. Programming involves tasks such as
-> analysis, generating [[Algorithm|algorithms]], profiling algorithms' accuracy
+> analysis, generating [[algorithm|algorithms]], profiling algorithms' accuracy
 > and resource consumption, and the implementation of algorithms (usually in a
 > particular programming language, commonly referred to as coding).\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Computer_programming)</cite>

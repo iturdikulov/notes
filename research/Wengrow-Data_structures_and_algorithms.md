@@ -213,7 +213,7 @@ Analyze data structure before use them. Choose most suitable.
 
 # 2. Why Algorithms Matter /41
 
-Placed some notes here [[Algorithm]].
+Placed some notes here [[algorithm]].
 
 
 ## Ordered Arrays /42

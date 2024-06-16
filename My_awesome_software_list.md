@@ -172,7 +172,7 @@ Table Of Contents:
 - [xsv](https://github.com/BurntSushi/xsv) - indexing, slicing, analyzing,
   splitting and joining CSV files
 
-- [[Tmux]] - tmux is a terminal multiplexer,
+- [[tmux]] - tmux is a terminal multiplexer,
   switch between several programs in one terminal
 - [[Z_shell]] - Unix shell that can be used as an interactive login shell and
 as a command interpreter for shell scripting

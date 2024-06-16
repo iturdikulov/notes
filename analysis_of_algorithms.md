@@ -10,7 +10,7 @@ sr-ease: 245
 
 # Analysis of algorithms
 
-> In [[Computer_science]], the analysis of [[Algorithm]]s is the
+> In [[Computer_science]], the analysis of [[algorithm]]s is the
 > process of finding the computational complexity of algorithms—the amount of
 > time, storage, or other resources needed to execute them.
 > Usually, this involves determining a function that relates the size of an

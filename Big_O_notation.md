@@ -21,7 +21,7 @@ sr-ease: 207
 _Big O notation_
 
 Big O Notation allows us to easily categorize the efficiency of a given
-[[Algorithm]], which focus on the number of operations an algorithm requires to
+[[algorithm]], which focus on the number of operations an algorithm requires to
 complete.
 
 An algorithm that is $\mathcal{O}(N)$ is also known as having ==linear== time.

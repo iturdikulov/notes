@@ -59,7 +59,7 @@ TODO: use anchors links to sections
   - Book: _Computer Systems: A Programmer's Perspective_
   - Videos: Berkeley CS 61C
 
-- [[Algorithm|Algorithms]] and [[Data_structure|Data_Structures]]
+- [[algorithm|Algorithms]] and [[Data_structure|data structures]]
 
   - Why study? If you don’t know how to use ubiquitous data structures like
     stacks, queues, trees, and graphs, you won’t be able to solve challenging

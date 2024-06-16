@@ -566,7 +566,7 @@ Most used are (order is not matter here):
 [[Microsoft_Windows|Microsoft Windows]] and Unix family:
 - Linux based: [[NixOS]], [[Arch_Linux]], Debian, Ubuntu, Fedora, Slackware, Gentoo, etc.
 - BSD family: FreeBSD, OpenBSD and other;
-- [[Android]]: based on linux kernel;
+- [[android]]: based on linux kernel;
 - macOS
 
 Do operating system require components which providing user interaction (UI)?

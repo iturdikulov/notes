@@ -15,7 +15,7 @@ Check also related
 
 ## Resources
 
-- [[Algorithm]]
+- [[algorithm]]
 
 ---
 
