@@ -392,7 +392,7 @@ Dope Sheet::`S-F12`
 
 ### Other
 
-Open popup menu for last action::`F9`
+Open popup menu for last action (Adjust Last Operation)::`F9`
 
 ## More keybindings
 
