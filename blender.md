@@ -15,7 +15,7 @@ Free and open source [[3D_computer_graphics|3D]] creation suite. Free as in
 freedom.
 
 [[Computer_graphics]] software tool set used for creating animated films, visual
-effects, [[Art|art]], 3D-printed models, motion graphics, interactive 3D
+effects, [[art|art]], 3D-printed models, motion graphics, interactive 3D
 applications, virtual reality, and, formerly, video [[Game|games]].
 
 ## Blender Common Shortcuts
