@@ -13,6 +13,8 @@ sr-ease: 223
 
 <!-- NEXT: Algoritms from python tutor and The C lang -->
 - [[Search_algorithm]]
+- [[Round-robin_scheduling]]
+- [[Search_algorithm]]
 - [[Greedy_algorithm]]
 - [[Quicksort]]
 - [[Binary_search_algorithm]]
