@@ -14,7 +14,6 @@ sr-ease: 239
 - Improve my [[Getting_things_done_GTD|GTD]] workflow with [[research/Syd-GTD_with_taskwarrior]].
 - [[research/Babej-A_dive_into_taskwarrior_ecosystem]]
 - [[research/Dan-How_to_type_fast]]
-- [[research/Cneude-Building_Your_Mouseless_Development_Environment]]
 - [[Calendar]]
 - [[How_do_I_work_with_contacts]]
 
