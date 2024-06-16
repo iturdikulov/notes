@@ -32,6 +32,7 @@ meaning of words.
 
 ## English
 
+- Engineer
 - R&D::research and development - исследования и разработки, научно-исследовательский и опытно-конструкторский; Imagine that your company has two departments: Research and Development.
 - abnormal::`[æbˈnɔːməl]` ненормальный, неправильный, аномальный, анормальный, непредусмотренный (comp.);
 - action
@@ -43,6 +44,7 @@ meaning of words.
 - aims
 - along
 - altitude
+- ambiguity
 - animus
 - anxiety
 - applied
@@ -53,6 +55,7 @@ meaning of words.
 - assignment
 - azimuth
 - beans
+- bereft
 - bevel
 - binds
 - board
@@ -71,9 +74,11 @@ meaning of words.
 - computer
 - computer::`[kəmˈpjuːtə]` компьютер, расчетчик, вычислительный; Our sales information is processed by computer.
 - concern
+- concise
 - confidence
 - cons
 - consider
+- containing
 - convince
 - crease::`[kriːs]` складка; загиб; отутюженная стрелка (на брюках)
 - curiosity
@@ -141,6 +146,8 @@ meaning of words.
 - osprey
 - outsource
 - pan
+- parrot
+- period
 - persistent
 - pivot
 - point of ponder
@@ -153,7 +160,6 @@ meaning of words.
 - rat
 - redundant
 - remainder
-- research
 - research::`[ɹəˈsɜːtʃ]` (научное) исследование, изыскание, изучение, анализ; "The student researched the history of that word".
 - resembling
 - retention
@@ -170,6 +176,7 @@ meaning of words.
 - standalone
 - stash
 - statement
+- stiff
 - strength
 - subconscious
 - subject
@@ -180,6 +187,7 @@ meaning of words.
 - tedious
 - thicker
 - tickle
+- tired
 - trait
 - treat
 - vapor
@@ -187,18 +195,21 @@ meaning of words.
 - velocity
 - versatile
 - violate
+- wise
 - zoom
 - zooma
 
 ## Russian
 
 <!-- LTeX: language=ru-RU -->
+- абзац
 - абы
 - авиация
 - арифмометр
 - арфа
 - аспект
 - баланда
+- винт
 - возможности
 - восклицательный
 - восьмушка
@@ -206,16 +217,20 @@ meaning of words.
 - говядина
 - голова
 - дейтерий
+- делимое
 - дискета
+- добрый
 - дом
 - дон
 - дорожка
 - досада
+- ёмкость
 - живодер
 - запас
 - зона
 - изба
 - изделие
+- инвентаризация
 - как проехать
 - каллиграф
 - карантин
@@ -237,7 +252,7 @@ meaning of words.
 - матрац
 - меценат
 - музыка
-- мьютексы
+- мьютекс
 - напитки
 - напиток
 - натрий
@@ -297,6 +312,7 @@ meaning of words.
 - удлинять
 - человек
 - шилка
+- шуруп
 - шутка
 - щетка
 - эскиз
@@ -304,7 +320,3 @@ meaning of words.
 - явно
 
 ### Inbox
-- делимое
-- инвентаризация
-- tired
-- subconscious
