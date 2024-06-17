@@ -28,7 +28,7 @@ I keep my learning resources and learning plan in
 
 ## What I handle by Neovim
 
-- Notes, Calendar, Tracking - [[Telekasten.nvim]] together with [[Obsidian]]
+- Notes, Calendar, Tracking - [[Telekasten.nvim]] together with [[obsidian]]
 - File management - [[Netrw]] and [[Command-line_interface_CLI|CLI]]
 - Code editing - (highly customized setup)
 - Code blocks, projects running and debugging

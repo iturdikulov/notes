@@ -100,7 +100,7 @@ need to know some basic keybindings to work with it.
 
 ## Obsidian
 
-[[Obsidian]] is my [[Telekasten.nvim|Zettelkasten system]] companion, main task
+[[obsidian]] is my [[Telekasten.nvim|Zettelkasten system]] companion, main task
 is to render markdown, process [[Spaced_repetition|space repetition]] notes and
 work with [[Excalidraw]] diagrams.
 

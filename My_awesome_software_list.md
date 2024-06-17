@@ -147,7 +147,7 @@ Table Of Contents:
 ## Wiki Software
 
 - [[Telekasten.nvim]] - personal [[Zettelkasten]]
-- [[Obsidian]] - a knowledge base that works on local Markdown files. Used
+- [[obsidian]] - a knowledge base that works on local Markdown files. Used
   mostly to render markdown notes and to organize [[Spaced_repetition|spaced
   repetition]] system.
 
