@@ -18,11 +18,26 @@ sr-ease: 230
 > and quicker way to learn and keep information.\
 > — <cite>[Simple English Wikipedia](https://simple.wikipedia.org/wiki/Spaced_repetition)</cite>
 
-Right now I'm using [[Obsidian]] plugin
+Great thing with spaced repetition is **remembering** things, which can be sort
+of foundation to quickly do other things. For example, you need to understand
+some high level concept to be able to do some task. If you don't remember
+required information, you need to look it up, which can take time and break your
+flow. Or sometimes it's not possible to look up information, because you don't
+have enough time or resources.
+
+Human brains learn best when information is reviewed at gradually increasing
+intervals. This is "spacing effect".
+
+To implement the spaced repetition strategy, you can use tools such as flash
+cards or specialized software that can adapt the timing of review intervals
+based on your performance.
+
+Right now I'm using [[obsidian]] plugin
 [spaced repetition](https://www.stephenmwangi.com/obsidian-spaced-repetition/)
 and various note types to generate flashcards. I also use it to select current
 notes to work.
-TODO: describe how I use it (reviewing notes)
+
+<!-- TODO: describe how I use it (reviewing notes) -->
 
 ## Hotkeys
 
