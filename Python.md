@@ -10,8 +10,8 @@ sr-ease: 182
 
 # Python
 
-> Python is a [[High-level_programming_language|high-level]], general-purpose
-> [[Programming_language|programming_language]]. Its design philosophy
+> Python is a [[high-level_programming_language|high-level]], general-purpose
+> [[programming_language|programming_language]]. Its design philosophy
 > emphasizes code readability with the use of significant indentation via the
 > off-side rule.
 >
@@ -29,10 +29,10 @@ sr-ease: 182
 > [most popular programming languages](https://www.tiobe.com/tiobe-index/).
 >
 > Python is a multi-paradigm programming language.
-> [[Object-oriented_programming|object-oriented]] programming and
-> [[Structured_programming|structured_programming]] are fully supported, and
+> [[object-oriented_programming|object-oriented]] programming and
+> [[structured_programming|structured_programming]] are fully supported, and
 > many of their features support
-> [[Functional_programming|functional_programming]] and aspect-oriented
+> [[functional_programming|functional_programming]] and aspect-oriented
 > programming (including metaprogramming and metaobjects). Many other paradigms
 > are supported via extensions, including design by contract and logic
 > programming.
@@ -49,25 +49,25 @@ sr-ease: 182
 > from Haskell and Standard ML.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Python_\(programming_language\))</cite>
 
-[[Zen_of_python|Zen of python]] describes the philosophy of Python.
+[[zen_of_python|Zen of python]] describes the philosophy of Python.
 
 This is most prioritized language for me. I learn it according to my
-[[How_I_learn_programming_and_software_development#Python|roadmap]].
+[[how_I_learn_programming_and_software_development#Python|roadmap]].
 
-**Python** is a [[High-level_programming_language|high-level]],
-[[General-purpose_programming_language|general-purpose]] programming language.
+**Python** is a [[high-level_programming_language|high-level]],
+[[general-purpose_programming_language|general-purpose]] programming language.
 
-One of key features of Python is attention to [[Readability]], by using
+One of key features of Python is attention to [[readability]], by using
 indentation to delimit code blocks, rather than curly brackets or keywords.
 
 Python is [dynamically typed] and [garbage-collected].
 
-It supports any popular [[Programming_paradigm|programming paradigm]]:
+It supports any popular [[programming_paradigm|programming paradigm]]:
 
-- [[Structured_programming|structured]]
-- [[Procedural_programming|procedural]]
-- [[Object-oriented_programming|object-oriented]]
-- [[Functional_programming|functional]]
+- [[structured_programming|structured]]
+- [[procedural_programming|procedural]]
+- [[object-oriented_programming|object-oriented]]
+- [[functional_programming|functional]]
 
 Rich [[research/Python_Community-Python_Standard_Library|standard library]] make
 it's "batteries included" language.
