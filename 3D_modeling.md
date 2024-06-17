@@ -10,7 +10,7 @@ sr-ease: 248
 
 # 3D modeling
 
-> In 3D [[Computer_graphics|computer graphics]], 3D modeling is the process of
+> In 3D [[computer_graphics|computer graphics]], 3D modeling is the process of
 > developing a mathematical coordinate-based representation of any surface of an
 > object (inanimate or living) in three dimensions via specialized software by
 > manipulating edges, vertices, and polygons in a simulated 3D space.

@@ -9,7 +9,7 @@ sr-ease: 221
 
 # Dynamic programming
 
-> Dynamic [[Computer_programming|programming]] is both a
+> Dynamic [[computer_programming|programming]] is both a
 > [[mathematics|mathematical]] optimization method and a computer programming
 > method. The method was developed by Richard Bellman in the 1950s and has found
 > applications in numerous fields, from aerospace engineering to economics.
@@ -18,7 +18,7 @@ sr-ease: 221
 > down into simpler sub-problems in a recursive manner. While some decision
 > problems cannot be taken apart this way, decisions that span several points in
 > time do often break apart recursively. Likewise, in
-> [[Computer_science|computer_science]], if a problem can be solved optimally by
+> [[computer_science|computer science]], if a problem can be solved optimally by
 > breaking it into sub-problems and then recursively finding the optimal
 > solutions to the sub-problems, then it is said to have optimal substructure.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Dynamic_programming)</cite>

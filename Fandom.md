@@ -27,7 +27,7 @@ Related to [[Neovim]]:
 
 - [Vim Tips Wiki](https://vim.fandom.com/wiki/Vim_Tips_Wiki)
 
-Related to [[Cooking]]:
+Related to [[cooking]]:
 
 - [Recipes Wiki | Fandom](https://recipes.fandom.com/wiki/Recipes_Wiki)
 - [Cocktails Wiki | Fandom](https://cocktails.fandom.com/wiki/Cocktails_Wiki)

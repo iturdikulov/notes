@@ -11,7 +11,7 @@ sr-ease: 249
 
 > Hierarchical and distributed naming system for computers, services, and other
 > resources in the [[Internet|internet]] or other Internet Protocol (IP)
-> [[Computer_network|networks]]. It associates various information with domain
+> [[computer_network|networks]]. It associates various information with domain
 > names assigned to each of the associated entities. Most prominently, it
 > translates readily memorized domain names to the numerical IP addresses needed
 > for locating and identifying computer services and devices with the underlying

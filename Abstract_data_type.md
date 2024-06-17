@@ -9,7 +9,7 @@ sr-ease: 203
 
 # Abstract data type (ADT)
 
-> In [[Computer_science|computer_science]], an abstract data type (ADT) is a
+> In [[computer_science|computer science]], an abstract data type (ADT) is a
 > [[Mathematical_model|mathematical_model]] for [[Data_type|data_type]]. An abstract data type is
 > defined by its behavior (semantics) from the point of view of a user, of the
 > data, specifically in terms of possible values, possible operations on data of

@@ -11,12 +11,12 @@ sr-ease: 248
 # GNU/Linux
 
 > Linux or **GNU/Linux** is a [[Unix]]-like [[Operating_system]] (or family of)
-> for [[Computer|computers]].
+> for [[computer|computers]].
 >
 > The Linux kernel (the basis of the operating system) is free software, meaning
 > everyone has the freedom to use it, see how it works, change it, or share it.
 >
-> There is a lot of [[Computer_software|software]] for Linux and—like Linux
+> There is a lot of [[computer_software|software]] for Linux and—like Linux
 > itself—a lot of the software for Linux is free software. This is one reason
 > why many people like to use Linux.\
 > — <cite>[Simple English Wikipedia](https://simple.wikipedia.org/wiki/Linux)</cite>

@@ -10,7 +10,7 @@ sr-ease: 230
 
 # Event (computing)
 
-> Action or occurrence recognized by [[Computer_program|software]], often
+> Action or occurrence recognized by [[computer_program|software]], often
 > originating asynchronously from the external environment, that may be handled
 > by the software. Computer events can be generated or triggered by the
 > [[Operating_system|system]], by the user, or in other ways. Typically, events

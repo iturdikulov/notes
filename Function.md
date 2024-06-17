@@ -11,7 +11,7 @@ sr-ease: 209
 
 # Function (computer programming)
 
-> In [[Computer_programming|computer programming]], a function or subroutine is
+> In [[computer_programming|computer programming]], a function or subroutine is
 > a sequence of program instructions that performs a specific task, packaged as
 > a unit. This unit can then be used in programs wherever that particular task
 > should be performed.

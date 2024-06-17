@@ -10,7 +10,7 @@ sr-ease: 208
 
 # 3D computer graphics
 
-> 3D [[Computer_graphics|computer graphics]], sometimes called CGI, 3D-CGI or
+> 3D [[computer_graphics|computer graphics]], sometimes called CGI, 3D-CGI or
 > three-dimensional computer graphics are graphics that use a three-dimensional
 > representation of geometric data (often Cartesian) that is stored in the
 > computer for the purposes of performing calculations and rendering digital

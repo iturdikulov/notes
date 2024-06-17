@@ -9,7 +9,7 @@ sr-ease: 226
 
 # Enumerated type
 
-> In [[Computer_programming|computer programming]], an enumerated type (also
+> In [[computer_programming|computer programming]], an enumerated type (also
 > called enumeration, enum, or factor in the R programming language, and a
 > categorical variable in statistics) is a data type consisting of a set of
 > named values called elements, members, enumeral, or enumerators of the type.
