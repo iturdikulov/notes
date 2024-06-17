@@ -30,7 +30,7 @@ TODO: remove my, merge with similar notes.
 - [[My_Games]]
 - [[My_Pictures]]
 - [[My_Handwriting]]
-- [[Comics]]
+- [[comics]]
 - [[My_awesome_software_list]]
 
 ## Multimedia formats

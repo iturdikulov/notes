@@ -548,7 +548,7 @@ ip a|grep enp
 
 ## References
 
-- [[Btrfs]]
+- [[btrfs]]
 - [Improving performance - ArchWiki](https://wiki.archlinux.org/title/improving_performance)
 - [System maintenance - ArchWiki](https://wiki.archlinux.org/title/System_maintenance)
 - [General recommendations - ArchWiki](https://wiki.archlinux.org/title/General_recommendations)

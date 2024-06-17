@@ -60,7 +60,7 @@ pandoc input.md -s -o output.html
 ## How I use pandoc
 
 Generally I use shell script (check `pandoc-convert-example.sh`) to convert my
-notes from [[markdown]] to something, to support [[bibtex]] [[Citation]], like
+notes from [[markdown]] to something, to support [[bibtex]] [[citation]], like
 `@JohnMacFarlanePandocUserGuide2023`.
 
 In results pandoc using various flags (BibTeX file, citation style, etc.)

@@ -12,7 +12,7 @@ sr-ease: 223
 
 > map is the name of a higher-order [[Function|function]] that applies a given
 > **function** to **each** element of a collection, e.g. a [[List|list ]] or
-> [[Set|set]], returning the results in a ==[[Collection|collection]]== of the
+> [[Set|set]], returning the results in a ==[[collection]]== of the
 > same type. It is often called apply-to-all when considered in functional form.
 >
 > The concept of a map is not limited to lists: it works for sequential

@@ -9,7 +9,7 @@ sr-ease: 230
 
 # Podcast
 
-> A podcast is a [[Computer_program|program]] made available in digital format
+> A podcast is a [[computer_program|program]] made available in digital format
 > for download over the [[Internet]]. For example, an episodic series of
 > [[Digital_audio|digital audio]] files that a user can download to a personal
 > device to listen to at a time of their choosing. Podcasts are primarily an

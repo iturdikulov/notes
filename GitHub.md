@@ -13,14 +13,14 @@ sr-ease: 231
 # GitHub
 
 Internet hosting service for software development and version control using
-[[Git]].
+[[git]].
 
 Like [[GitLab]] it provides the distributed version control of Git
 plus access control, bug tracking, software feature requests, task management,
 continuous integration, and wikis for every project.
 
 You can optimize working with GitHub by using next described tips/shortcuts (like
-[[Git_tips|git tips]]).
+[[git_tips|git tips]]).
 
 ## Site wide shortcuts
 

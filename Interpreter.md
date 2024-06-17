@@ -21,7 +21,7 @@ sr-ease: 222
 > - Parse the source code and perform its behavior directly;
 > - Translate source code into some efficient intermediate representation or
 >   object code and immediately execute that;
-> - Explicitly execute stored precompiled [[Bytecode]] made by a compiler and
+> - Explicitly execute stored precompiled [[bytecode]] made by a compiler and
 >   matched with the interpreter Virtual Machine.
 
 Here example how [[Python]] does it:

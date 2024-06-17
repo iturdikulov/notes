@@ -10,8 +10,8 @@ sr-ease: 224
 
 # Linked data structure
 
-> In [[Computer_science|computer science]], a linked data structure is a
-> [[Data_structure|data structure]] which consists of a set of data records
+> In [[computer_science|computer science]], a linked data structure is a
+> [[data_structure|data structure]] which consists of a set of data records
 > ([[Node|nodes]]) linked together and organized by references (links or
 > pointers). The link between data can also be called a connector.
 >

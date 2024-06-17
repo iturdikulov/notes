@@ -19,7 +19,7 @@ sr-ease: 245
 > referent may be anything – a material object, a person, an event, an activity,
 > or an abstract concept.\
 >
-> In [[Computer_science|computer science]], references are data types that refer
+> In [[computer_science|computer science]], references are data types that refer
 > to an object elsewhere in memory and are used to construct a wide variety of
 > data structures, such as linked lists. Generally, a reference is a value that
 > enables a program to directly access the particular data item. Most

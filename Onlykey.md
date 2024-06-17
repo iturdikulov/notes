@@ -10,7 +10,7 @@ sr-ease: 250
 
 # Onlykey
 
-> OnlyKey was developed by a team of [[Computer_security|security]] experts and
+> OnlyKey was developed by a team of [[computer_security|security]] experts and
 > white hat hackers to stop malicious hackers. One thing hackers and malware on
 > a computer cannot do is physically touch something.
 >

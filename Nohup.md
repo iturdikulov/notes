@@ -13,7 +13,7 @@ sr-ease: 252
 > — <cite>`man nohup`</cite>
 
 Nohup allow running a command immune to hangups, with output to a non-tty. It's
-useful when I want to "[[Daemon|daemonize]]" a process.
+useful when I want to "[[daemon|daemonize]]" a process.
 
 ## How I use it
 

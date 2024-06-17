@@ -21,9 +21,10 @@ sr-ease: 225
 > search probabilities for each element vary.
 >
 > Linear search is rarely practical because other
-> [[Search_algorithm|search_algorithms]] and schemes, such as the
-> [[Binary_search_algorithm]] and [[Hash_table]], allow significantly faster
-> searching for all but short lists.\
+> [[Search_algorithm|search algorithms]] and schemes, such as the
+> [[binary_search_algorithm|binary search algorithm]] and
+> [[Hash_table|hash table]], allow significantly faster searching for all but
+> short lists.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Linear_search)</cite>
 
 Linear search usually inefficient. For example, if we have a list of 1000

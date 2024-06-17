@@ -352,7 +352,7 @@ Ensure that the private master key has been removed, `gpg2
 `adduid` for validation.
 
 3. Use the offline master key
-Follow [[Dm-crypt#Create/mount encrypted file container]] guide to open
+Follow [[dm-crypt#Create/mount encrypted file container]] guide to open
 storage with master key with specific directory.
 
 And work with master key in this directory.

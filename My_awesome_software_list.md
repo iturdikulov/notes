@@ -76,7 +76,7 @@ Table Of Contents:
 
 ## Books
 
-- [[Calibre]] - e-book management software.
+- [[calibre]] - e-book management software.
 
 
 ## Education
@@ -126,7 +126,7 @@ Table Of Contents:
   [[Firefox|more_info]]
 - Thunderbird - Email client
 - [Brave](https://brave.com/) - modern, fast and private browser, based on
-  Chromium, [[Brave]]
+  Chromium, [[brave]]
 - [NeoMutt](https://neomutt.org/) - message user agent (MUA),
   [[Neomutt|more_info]], not use anymore
 - [[Surfingkeys]] - keyboard-based navigation in web browser
@@ -344,7 +344,7 @@ as a command interpreter for shell scripting
 - [trash-cli](https://github.com/andreafrancia/trash-cli) - Command Line
   Interface to FreeDesktop.org Trash
 - [borgbackup](https://borgbackup.github.io/) - deduplicating archiver with
-  compression and encryption, [[Borg|more_info]]
+  compression and encryption, [[borg|more_info]]
 - [fdupes](https://github.com/adrianlopezroche/fdupes) - identifying or deleting
   duplicate files
 - [ventoy](https://www.ventoy.net/en/isolist.html) - tool to create bootable USB

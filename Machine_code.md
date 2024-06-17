@@ -12,8 +12,8 @@ sr-ease: 244
 
 Machine code is the ==set of numbers== that the CPU actually executes.
 
-> In [[Computer_programming|computer programming]], machine code is computer
-> [[Code|code]] consisting of machine language instructions, which are used to
+> In [[computer_programming|computer programming]], machine code is computer
+> [[code]] consisting of machine language instructions, which are used to
 > control a computer's central processing unit (CPU). Although decimal computers
 > were once common, the contemporary marketplace is dominated by binary
 > computers; for those computers, machine code is "the binary representation of

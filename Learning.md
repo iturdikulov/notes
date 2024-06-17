@@ -49,7 +49,7 @@ And below I describe my learning paths for each field.
 
 [[Science]] is source of knowledge and predictions about the world, and I want
 to learn it better. My main focus is on fundamental sciences and especially
-[[Computer_science|computer science]]. I'll describe my learning paths for each
+[[computer_science|computer science]]. I'll describe my learning paths for each
 field in this section.
 
 **[[How_I_learn_computer_science|How I learn computer science]]**.
@@ -61,7 +61,7 @@ fundamental science, and part of many others, and I want to learn it better, at
 least on some beginner/medium level.
 
 [[How_I_learn_physics_and_chemistry|How I learn physics and chemistry]].
-[[Physics]] and [[Chemistry]] go after mathematics in my learning priority. I
+[[Physics]] and [[chemistry]] go after mathematics in my learning priority. I
 want to understand world better, and this fields can help me with it.
 
 Linguistics, my primary focus is [[Russian_language|Russian]] and [[English_language|English]]
@@ -84,7 +84,7 @@ it uses all from them. This is also my current [[Work|work]] and main source of
 This is place where I store programming applied learning materials, related
 outline notes (like frontend/backend) and some management stuff.
 
-My editing workflow, including [[Code|code]], is heavily related to [[Neovim]],
+My editing workflow, including [[code]], is heavily related to [[Neovim]],
 but it can be replicated in some advanced code editor (like [[Pycharm]]), check
 these notes for more information. I also keep collecting various useful
 information, which can be related to various software, like

@@ -19,7 +19,7 @@ sr-ease: 250
 > and video production, recreational purposes, hobby, and mass communication.
 >
 > Typically, a lens is used to focus the light reflected or emitted from objects
-> into a real image on the light-sensitive surface inside a [[Camera|camera ]]
+> into a real image on the light-sensitive surface inside a [[camera]
 > during a timed exposure. With an electronic image sensor, this produces an
 > electrical charge at each pixel, which is electronically processed and stored
 > in a digital image file for subsequent display or processing. The result with

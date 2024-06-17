@@ -21,7 +21,7 @@ Check main types here:
 
 ## References
 
-- [[Data_type]].
+- [[data_type|Data type]].
 - [cstdint](https://www.cplusplus.com/reference/cstdint/)
 - [C Programming/stdint.h](https://en.wikibooks.org/wiki/C_Programming/stdint.h)
 

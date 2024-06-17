@@ -16,7 +16,7 @@ Operator is generally like functions (with different syntax) with specific
 purpose and used very often. Usually operators defined by programming language
 itself.
 
-> In [[Computer_programming|computer programming]], operators are **constructs**
+> In [[computer_programming|computer programming]], operators are **constructs**
 > defined within programming languages which behave generally like
 > ==functions==, but which differ syntactically or semantically.
 >

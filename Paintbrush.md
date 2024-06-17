@@ -18,7 +18,7 @@ sr-ease: 246
 > [[Visual_arts|visual art]].\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Paintbrush)</cite>
 
-[[Computer_graphics|Computer graphics]] software, like [[Krita]] provides
+[[computer_graphics|Computer graphics]] software, like [[Krita]] provides
 several tools for painting and editing image color. The Brush tool and the
 Pencil tool work like traditional drawing tools applying color with brush
 strokes.

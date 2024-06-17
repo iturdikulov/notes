@@ -9,9 +9,9 @@ sr-ease: 226
 
 # Programming language
 
-> System of notation for writing [[Computer_program]]'s. Most programming
-> languages are text-based formal languages, but they may also be graphical.
-> They are a kind of [[Computer]] language.\
+> System of notation for writing [[computer_program|programs]]'s. Most
+> programming languages are text-based formal languages, but they may also be
+> graphical. They are a kind of [[computer]] language.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Programming_language)</cite>
 
 ## Programming language which I interested in

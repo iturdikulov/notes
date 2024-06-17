@@ -20,16 +20,16 @@ sr-ease: 248
 
 > Hypertext Transfer Protocol Secure (HTTPS) is an extension of the Hypertext
 > Transfer Protocol (HTTP). It uses encryption for secure communication over a
-> [[Computer_network|computer network]], and is widely used on the [[Internet]].
+> [[computer_network|computer network]], and is widely used on the [[internet]].
 > In HTTPS, the communication protocol is encrypted using Transport Layer
 > Security (TLS) or, formerly, Secure Sockets Layer (SSL). The protocol is
 > therefore also referred to as HTTP over TLS, or HTTP over SSL.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/HTTPS)</cite>
 
-> Transport Layer Security (TLS) is a [[Cryptography|cryptographic]] protocol
+> Transport Layer Security (TLS) is a [[cryptography|cryptographic]] protocol
 > designed to provide communications security over a computer network. The
-> protocol is widely used in applications such as [[Email|email]],
-> [[Instant_messaging|instant messaging]], and voice over IP, but its use in
+> protocol is widely used in applications such as [[email]],
+> [[instant_messaging|instant messaging]], and voice over IP, but its use in
 > securing HTTPS remains the most publicly visible.
 >
 > The TLS protocol aims primarily to provide security, including privacy

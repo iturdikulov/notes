@@ -21,5 +21,5 @@ is a matrix with two rows and three columns. This is often referred to as a
 "two by three matrix", a "$2\times 3$ matrix", or a matrix of dimension
 $2\times 3$.
 
-Links to array and expression are from [[Computer_science|computer science]],
+Links to array and expression are from [[computer_science|computer science]],
 but better to check corresponding definitions in mathematics.

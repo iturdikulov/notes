@@ -118,8 +118,8 @@ Core keybindings:
 
 ## Web Browser
 
-I store my shortcuts (advanced list) in [[Browser_shortcuts|Browser shortcuts]]
-note. Currently, I'm using [[Brave]] browser and sometimes [[Firefox]].
+I store my shortcuts (advanced list) in [[browser_shortcuts|browser shortcuts]]
+note. Currently, I'm using [[brave]] browser and sometimes [[Firefox]].
 
 Here are some universal shortcuts:
 

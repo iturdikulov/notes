@@ -319,7 +319,7 @@ sr-ease: 212
 
 ## References
 
-- [[Brain.fm]]
+- [[brain.fm]]
 - [Spotify - Web Player: Music for everyone](https://open.spotify.com/)
 - [Yandex Music](https://music.yandex.ru/home)
 - [MusicBrainz - The Open Music Encyclopedia](https://musicbrainz.org/), useful

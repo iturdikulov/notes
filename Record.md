@@ -10,8 +10,8 @@ sr-ease: 203
 
 # Record
 
-> In [[Computer_science|computer science]], a record (also called a structure,
-> struct, or compound data) is a basic [[Data_structure|data structure]].
+> In [[computer_science|computer science]], a record (also called a structure,
+> struct, or compound data) is a basic [[data_structure|data structure]].
 > Records in a database or spreadsheet are usually called "rows".
 >
 > A record is a ==collection of fields==, possibly of different data types,

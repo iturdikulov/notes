@@ -10,5 +10,5 @@ sr-ease: 224
 # Iterator
 
 Iterator is an object that can be used to traverse a
-[[Collection]], practically
+[[collection]], practically
 [[List|lists]].

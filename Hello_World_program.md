@@ -11,7 +11,7 @@ sr-ease: 228
 # "Hello, World!" program
 
 > A "Hello, World!" program is generally a
-[[Computer_program|computer program]] that ignores any input, and outputs or
+[[computer_program|computer program]] that ignores any input, and outputs or
 > displays a message similar to "Hello, World!". A small piece of code in most
 > general-purpose [[Programming_language|programming languages]], this program
 > is used to illustrate a language's basic syntax. "Hello, World!" programs are

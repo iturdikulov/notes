@@ -13,7 +13,7 @@ sr-ease: 254
 List of web services which I often use, or can use in the future.
 
 - [[ChatGPT]]
-- [[Brain.fm]]
+- [[brain.fm]]
 - [[GitHub]]
 - [[GitLab]]
 - [IMDb](https://www.imdb.com/)

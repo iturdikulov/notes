@@ -17,4 +17,4 @@ sr-ease: 223
 - [[Search_algorithm]]
 - [[Greedy_algorithm]]
 - [[Quicksort]]
-- [[Binary_search_algorithm]]
+- [[binary_search_algorithm]]

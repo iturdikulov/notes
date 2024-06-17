@@ -36,7 +36,7 @@ done;
 
 ## References
 
-- [[Hidden_file_and_hidden_directory_dotfiles|Dotfiles]]
+- [[hidden_file_and_hidden_directory_dotfiles|Dotfiles]]
 - [ ] [GitHub - fliptheweb/bash-shortcuts-cheat-sheet: Useful shortcuts for bash/zsh](https://github.com/fliptheweb/bash-shortcuts-cheat-sheet/tree/master)
 - [ ] [The Bash Hackers Wiki](https://wiki.bash-hackers.org/doku.php)
 - [ ] [Command Challenge!](https://cmdchallenge.com/)

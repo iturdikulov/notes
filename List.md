@@ -14,10 +14,10 @@ List are not [[array]].
 
 ## Linked list
 
-> In [[Computer_science|computer science]], a linked list is a linear collection
+> In [[computer_science|computer science]], a linked list is a linear collection
 > of data elements whose order is not given by their physical placement in
 > memory. Instead, each element points to the next. It is a
-> [[Data_structure|data structure]] consisting of a collection of nodes which
+> [[data_structure|data structure]] consisting of a collection of nodes which
 > together represent a sequence. In its most basic form, each node contains
 > data, and a reference (in other words, a link) to the next node in the
 > sequence. This structure allows for

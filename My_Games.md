@@ -11,7 +11,7 @@ sr-ease: 285
 
 # My Games
 
-I play [[Game|games]] (but not too much) usually on my [[Computer|computer]] or
+I play [[Game|games]] (but not too much) usually on my [[computer]] or
 on my [[Smartphone|smartphone]].
 
 ## Active games
@@ -24,7 +24,7 @@ on my [[Smartphone|smartphone]].
 - [ ] [CodinGame](https://www.codingame.com/start/)
 
 - [ ] Portal 2
-- [ ] [[Castlevania]]
+- [ ] [[castlevania]]
 - Half-Life
 - Half-Life 2
 - Detroit: Become Human
