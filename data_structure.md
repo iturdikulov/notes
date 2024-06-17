@@ -10,7 +10,7 @@ sr-ease: 221
 
 # Data structures
 
-> In [[Computer_science|computer science]], a data structure is a data
+> In [[computer_science|computer science]], a data structure is a data
 > organization, management, and storage format that is usually chosen for
 > efficient access to data. More precisely, a data structure is a collection of
 > data values, the relationships among them, and the functions or operations
@@ -96,7 +96,7 @@ employed to handle collisions.
 
 - [[Graph|Graphs]] are collections of nodes connected by edges, representing
 relationships between entities. Graphs can be used to model social networks,
-[[Computer_network|computer networks]], and transportation networks, among other
+[[computer_network|computer networks]], and transportation networks, among other
 things. They consist of vertices (nodes) and edges (connections between nodes).
 Graphs can be directed or undirected, and they can have cycles or be acyclic.
 Graph traversal algorithms include breadth-first search and depth-first search.
@@ -114,7 +114,7 @@ follow the **First In, First Out (FIFO)** principle. So stack and queues follows
 consists of nodes connected by edges, with one node being the root and all other
 nodes forming subtrees. Trees are widely used in various algorithms and data
 storage scenarios. Binary trees (particularly heaps, for example
-[[Binary_search_tree|binary search tree]]), AVL trees, and [[B-tree|B-trees]]
+[[binary_search_tree|binary search tree]]), AVL trees, and [[B-tree|B-trees]]
 are some popular types of trees. They enable efficient and optimal searching,
 sorting, and hierarchical representation of data.
 

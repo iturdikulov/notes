@@ -9,9 +9,9 @@ sr-ease: 266
 
 # Computer-aided design (CAD, CADD)
 
-> Use of [[Computer|computers]] (or workstations) to aid in the creation,
+> Use of [[computer|computers]] (or workstations) to aid in the creation,
 > modification, analysis, or optimization of a design. This
-> [[Computer_program|software]] is used to increase the productivity of the
+> [[computer_program|software]] is used to increase the productivity of the
 > designer, improve the quality of design, improve communications through
 > documentation, and to create a database for manufacturing. Designs made
 > through CAD software are helpful in protecting products and inventions when
@@ -24,6 +24,6 @@ sr-ease: 266
 > curves, surfaces, and solids in three-dimensional (3D) space.
 >
 > CAD has been a major driving force for research in computational geometry,
-> [[Computer_graphics|computer graphics]] (both hardware and software), and discrete differential
+> [[computer_graphics|computer graphics]] (both hardware and software), and discrete differential
 > geometry.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Computer-aided_design)</cite>

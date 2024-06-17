@@ -16,7 +16,7 @@ sr-ease: 240
 > cryptography is about constructing and analyzing protocols that prevent third
 > parties or the public from reading private messages. Modern cryptography
 > exists at the intersection of the disciplines of [[mathematics]],
-> [[Computer_science|computer science]], information security (also
-> [[Computer_security|computer security]]), electrical engineering, digital
+> [[computer_science|computer science]], information security (also
+> [[computer_security|computer security]]), electrical engineering, digital
 > signal processing, [[Physics|physics]], and others.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Cryptography)</cite>

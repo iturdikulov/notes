@@ -15,11 +15,11 @@ Free open source browser.
 
 Key features for me:
 
-- Rich ad blocking (Shield), and it's available for all [[Computing_platform]]
+- Rich ad blocking (Shield), and it's available for all [[computing_platform]]
   which I use.
 - Support for extensions.
 - [[Video_acceleration_API]] support on [[GNU_Linux]]
-- [[Browser_devtools]] support.
+- [[browser_devtools]] support.
 - Built-in browser sync, and it's available for all platforms which I use.
 
 ## Useful URL's

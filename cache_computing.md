@@ -10,7 +10,7 @@ sr-ease: 246
 # Cache (computing)
 
 > In computing, a cache (/kæʃ/ i KASH) is a hardware or
-> [[Computer_software|software ]] component that stores data so that future
+> [[computer_software|software ]] component that stores data so that future
 > requests for that data can be served faster; the data stored in a cache might
 > be the result of an earlier computation or a copy of data stored elsewhere. A
 > cache hit occurs when the requested data can be found in a cache, while a

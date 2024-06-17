@@ -16,10 +16,10 @@ Significant part of my [[In_real_life_IRL|life]] is cooking. I like to cook
 
 ## References
 
-- [[Cutlets]]
+- [[cutlets]]
 - [[Pan_Pizza|Pan Pizza]]
 - [[Semolina_porridge|Semolina porridge]]
-- [[Creamy_mashed_potatoes|Creamy mashed potatoes]]
+- [[creamy_mashed_potatoes|Creamy mashed potatoes]]
 - [Всегда Вкусно!](https://www.vsegdavkusno.ru/)
 - [Based Cooking](https://based.cooking/)
 - [CalorieKing](https://www.calorieking.com/us/en/)

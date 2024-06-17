@@ -9,7 +9,7 @@ sr-ease: 245
 
 # Computer hardware
 
-> Computer hardware includes the physical parts of a [[Computer|computer]], such
+> Computer hardware includes the physical parts of a [[computer|computer]], such
 > as the case, central processing unit (CPU), random access memory (RAM),
 > monitor, mouse, keyboard, computer data storage, graphics card, sound card,
 > speakers and motherboard.

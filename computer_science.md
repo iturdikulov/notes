@@ -11,14 +11,14 @@ sr-ease: 209
 
 # Computer Science
 
-> Study of ==[[Computation|computation]], automation, and information==.
+> Study of ==[[computation|computation]], automation, and information==.
 > Computer [[Science|science]] spans theoretical disciplines (such as
 > [[algorithm|algorithms]], theory of computation, information theory, and
 > automation) to practical disciplines (including the design and implementation
-> of [[Computer_hardware|hardware]] and [[Computer_software|software]]).
+> of [[computer_hardware|hardware]] and [[computer_software|software]]).
 > Computer science is generally considered an academic discipline and distinct
 > from computer programming which is considered to be a technical field.
-> [[algorithm|Algorithms]] and [[Data_structure|data_structure]] are central to
+> [[algorithm|Algorithms]] and [[data_structure|data_structure]] are central to
 > computer science.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Computer_science)</cite>
 
@@ -26,7 +26,7 @@ The fundamental concern of computer science is determining what ==can and cannot
 be automated==.
 
 I think knowing computer science help to write effective and scalable
-[[Code|code]] (goal of good [[Programmer|programmer]], which I want to be). I
+[[code|code]] (goal of good [[Programmer|programmer]], which I want to be). I
 described how I [[Learning|learn]] computer science
 [[How_I_learn_computer_science|here]].
 
@@ -34,10 +34,10 @@ Computer science connect theory (computation, automation, information) with real
 world practice (software and hardware). In Russian, it's known as Информа́тика.
 
 Computer science closely related to
-[[Computer_programming|computer programming]].
+[[computer_programming|computer programming]].
 
 In computer science central role plays
-==[[algorithm|algorithms]] and [[Data_structure|data_structures]]==.
+==[[algorithm|algorithms]] and [[data_structure|data_structures]]==.
 
 ## Core concepts in computer science [^1]
 
@@ -74,11 +74,11 @@ requirements from customers.
 
 There are many areas (complex systems), which investigate the principles and
 design in their own area. Main areas are: [[Operating_system|operating
-systems]], [[Computer_network|networks]] and embedded systems.
+systems]], [[computer_network|networks]] and embedded systems.
 
 What describes Computer Architecture?
 &#10;
-[[Computer_architecture|Computer architecture]] describes the construction of
+[[computer_architecture|Computer architecture]] describes the construction of
 computer components and computer-operated equipment (Input, Output, CPU, RAM).
 
 Goal of Artificial intelligence?

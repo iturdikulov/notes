@@ -9,11 +9,11 @@ sr-ease: 228
 
 # Data exchange
 
-> Data exchange is the process of taking [[Data_structure|data structured]]
+> Data exchange is the process of taking [[data_structure|data structured]]
 > under a source schema and transforming it into a target schema, so that the
 > target data is an accurate representation of the source data. Data exchange
 > allows data to be shared between different
-> [[Computer_program|computer programs]].
+> [[computer_program|computer programs]].
 >
 > It is similar to the related concept of data integration except that data is
 > actually restructured (with possible loss of content) in data exchange. There

@@ -10,7 +10,7 @@ sr-ease: 208
 # Competitive programming (sports programming)
 
 > Mind sport usually held over the Internet or a local network, involving
-> participants trying to [[Computer_programming|program]] according to provided
+> participants trying to [[computer_programming|program]] according to provided
 > specifications.
 >
 > Contestants are referred to as sport programmers. Competitive programming is

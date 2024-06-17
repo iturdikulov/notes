@@ -10,7 +10,7 @@ sr-ease: 245
 # Bytecode (portable code or p-code)
 
 > Form of instruction set designed for efficient execution by a software
-> interpreter. Unlike human-readable source [[Code]], bytecodes are compact
+> interpreter. Unlike human-readable source [[code]], bytecodes are compact
 > numeric codes, constants, and references (normally numeric addresses) that
 > encode the result of compiler parsing and performing semantic analysis of
 > things like type, scope, and nesting depths of program objects.

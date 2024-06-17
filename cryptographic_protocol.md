@@ -10,8 +10,8 @@ sr-ease: 247
 # Cryptographic protocol
 
 > A cryptographic protocol is an abstract or concrete protocol that
-> performs a [[Computer_security|security]]-related function and applies
-> [[Cryptography|cryptographic]] methods, often as sequences of
+> performs a [[computer_security|security]]-related function and applies
+> [[cryptography|cryptographic]] methods, often as sequences of
 > cryptographic primitives. A protocol describes how the
 > [[algorithm|algorithms]] should be used and includes details about data
 > structures and representations, at which point it can be used to

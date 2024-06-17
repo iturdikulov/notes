@@ -18,7 +18,7 @@ sr-ease: 266
 > potatoes are an ingredient in other dishes, such as dumplings and gnocchi.\
 > — <cite>[Mashed potato - Wikipedia](https://en.wikipedia.org/wiki/Mashed_potato)</cite>
 
-## [[Cooking]] creaming potatoes
+## [[cooking]] creaming potatoes
 
 TODO: add more info about potatoes, how to cook them, etc.
 

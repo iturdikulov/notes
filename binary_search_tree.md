@@ -9,7 +9,7 @@ sr-ease: 201
 
 # Binary search tree
 
-> In [[Computer_science]], a binary search [[Tree|tree]] (BST),
+> In [[computer_science]], a binary search [[Tree|tree]] (BST),
 > also called an ordered or sorted binary tree, is a rooted binary tree data
 > structure with the key of each internal node being greater than all the keys
 > in the respective node's left subtree and less than the ones in its right
@@ -19,7 +19,7 @@ sr-ease: 201
 > - <cite>[Wikipedia](https://en.wikipedia.org/wiki/Binary_search_tree)</cite>
 
 A binary search tree is a binary tree data structure that works based on the
-principle of [[Binary_search_algorithm|binary_search]].
+principle of [[binary_search_algorithm|binary_search]].
 
 |           |             |                |
 | --------- | ----------- | -------------- |

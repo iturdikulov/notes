@@ -9,7 +9,7 @@ sr-ease: 230
 
 # Data breach
 
-> A data breach is a [[Computer_security|security]] violation, in which
+> A data breach is a [[computer_security|security]] violation, in which
 > sensitive, protected or confidential data is copied, transmitted, viewed,
 > stolen, altered or used by an individual unauthorized to do so.
 

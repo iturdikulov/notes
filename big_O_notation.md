@@ -8,7 +8,7 @@ sr-interval: 1
 sr-ease: 207
 ---
 
-# Big O notation in [[mathematics]] and [[Computer_science|computer science]]
+# Big O notation in [[mathematics]] and [[computer_science|computer science]]
 
 > Way of comparing ==rates of growth== of different functions. It is often used
 > to compare the efficiency of different algorithms, which is done by

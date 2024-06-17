@@ -21,7 +21,7 @@ sr-ease: 225
 > communication across space and time.\
 >
 > In [[Information_theory|information theory]]
-> and [[Computer_science|computer science]], a code is usually considered as an
+> and [[computer_science|computer science]], a code is usually considered as an
 > algorithm that uniquely represents symbols from some source alphabet, by
 > encoded strings, which may be in some other target alphabet. An extension of
 > the code for representing sequences of symbols over the source alphabet is
