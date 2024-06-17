@@ -55,6 +55,7 @@ meaning of words.
 - as well
 - assignment
 - azimuth
+- barrel
 - beans
 - bereft
 - bevel
