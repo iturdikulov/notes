@@ -10,7 +10,7 @@ sr-ease: 228
 # Boolean expression
 
 Expression which produce a `Boolean` value when evaluated. Used in many
-[[Programming_language|programming_languages]] as built-in type.
+[[programming_language|programming languages]] as built-in type.
 
 In C you need to include `stdbool.h` to use `bool` type.
 

@@ -30,7 +30,7 @@ I have some global notes, which allow choosing what to do **next**:
 - [[work]] as main activity, [[finance|finance]] source.
 - [[learning]] is source of pet projects.
 - [[my_pet_projects|Pet Projects]] to do something interesting and useful.
-- [[in_real_life_IRL|IRL]] for social activities and socializing.
+- [[IRL]] for social activities and socializing.
 - [[my_physical_exercise_plan|physical exercises]] to increase quality of life
 - [[health]] control and improvement.
 - [[media]] collection, for relax and fun.
@@ -42,8 +42,7 @@ organize it. These notes are help me to do it.
 
 Social connections are important to me and probably to my family and friends.
 I'm connecting with them by voice calls, sometimes text messages and
-[[in_real_life_IRL|IRL]]. I also store my
-[[how_do_I_work_with_contacts|contacts]] workflow.
+[[IRL]]. I also store my [[how_do_I_work_with_contacts|contacts]] workflow.
 
 Mentoring, I'm trying to help colleagues, people on [[GitHub]] projects,
 [[Stack_Overflow]], etc.

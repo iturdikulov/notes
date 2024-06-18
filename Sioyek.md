@@ -11,13 +11,13 @@ sr-ease: 263
 
 # Sioyek
 
-> Sioyek is a [[Portable_document_format_PDF|PDF]] viewer with a focus on
-> technical books and research papers.\
+> Sioyek is a [[PDF]] viewer with a focus on technical books and research
+> papers.\
 > — <cite>[Sioyek](https://sioyek.info/)</cite>
 
 Key features for me:
 
-- Just good [[Portable_document_format_PDF|PDF]] viewer
+- Just good [[PDF|PDF]] viewer
 - [[Neovim|Vim]] like keybindings
 - Support highlighting and bookmarks
 - Anchor links support (marks)

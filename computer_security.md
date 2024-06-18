@@ -11,10 +11,10 @@ sr-ease: 250
 
 ## Software
 
-- [[Multi-factor_authentication_MFA]]
+- [[MFA]]
 - [[GNU_Privacy_Guard_GPG|GPG]]
-- [[Pass]]
-- [[Dm-crypt]]
+- [[pass]]
+- [[dm-crypt]]
 - [DroidFS](https://github.com/hardcore-sushi/DroidFS) - use encrypted virtual
   filesystems on Android
 

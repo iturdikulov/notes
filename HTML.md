@@ -16,8 +16,8 @@ sr-ease: 247
 > Cascading Style Sheets ([[CSS]]) and scripting languages such as
 > [[JavaScript]].
 >
-> [[Web_browser|Web browsers]] receive HTML documents from
-> a [[Web_server|web server]] or from local storage and render the documents
+> [[web_browser|Web browsers]] receive HTML documents from
+> a [[web_server|web server]] or from local storage and render the documents
 > into multimedia web pages. HTML describes the structure of a web page
 > semantically and originally included cues for its appearance.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/HTML)</cite>

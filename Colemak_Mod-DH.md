@@ -16,7 +16,7 @@ sr-ease: 274
 > known as Colemak-DH.\
 > — <cite>[Colemak Mod-DH](https://colemakmods.github.io/mod-dh/)</cite>
 
-On [[android]] you can use special application, which add new layout for
+On [[Android]] you can use special application, which add new layout for
 physical keyboard: [ColemakMods/mod-dh](https://github.com/ColemakMods/mod-dh/tree/master/android).
 
 To temporarily switch into Colemak-DH layout use this commands (require xorg):

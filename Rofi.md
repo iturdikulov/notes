@@ -10,4 +10,4 @@ sr-ease: 254
 
 # Rofi
 
-TODO: need same note as in [[Dmenu]]
+TODO: need same note as in [[dmenu]]

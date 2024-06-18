@@ -10,7 +10,7 @@ sr-ease: 228
 
 # SOLID
 
-> In [[Software_engineering|software engineering]], SOLID is a mnemonic acronym
+> In [[software_engineering|software engineering]], SOLID is a mnemonic acronym
 > for five design principles intended to make object-oriented designs more
 > understandable, flexible, and maintainable. The principles are a subset of
 > many principles promoted by American software engineer and instructor Robert
@@ -21,7 +21,7 @@ sr-ease: 228
 The SOLID acronym was introduced later, around 2004, by Michael Feathers.
 
 SOLID principles help build architecture with object-oriented design
-([[Object-oriented_design|OOD]]). This isn't simple process and challenge for
+([[object-oriented_design|OOD]]). This isn't simple process and challenge for
 your skills. Usually OOD is must be done before you start coding.
 
 Main purpose of SOLID principles is to make your classes more maintainable,

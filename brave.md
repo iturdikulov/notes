@@ -18,7 +18,7 @@ Key features for me:
 - Rich ad blocking (Shield), and it's available for all [[computing_platform]]
   which I use.
 - Support for extensions.
-- [[Video_acceleration_API]] support on [[GNU_Linux]]
+- [[VA-API]] support on [[GNU_Linux|GNU Linux]]
 - [[browser_devtools]] support.
 - Built-in browser sync, and it's available for all platforms which I use.
 

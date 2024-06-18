@@ -17,7 +17,7 @@ I lose some data in my life and some of it was important.
 Additionally, you can use backup to migrate data, do data versioning, and it
 will be your disaster recovery plan.
 
-I use [[Borg]] and [[Btrfs]], with [[My_backup_plan|my disaster recovery plan]].
+I use [[Borg]] and [[Btrfs]], with [[my_backup_plan|my disaster recovery plan]].
 
 Borg provide solution for incremental/full backup, encryption, compression, and
 de-duplication. It's also having data validation and integrity check.

@@ -11,11 +11,11 @@ sr-ease: 234
 # Khan Academy
 
 > Learn for free about [[mathematics]], [[art]],
-> [[computer_programming|programming]], economics, [[Physics]],
-> [[chemistry]], biology, medicine, [[Finance]], history, and more.\
+> [[computer_programming|programming]], economics, [[physics]],
+> [[chemistry]], biology, medicine, [[finance]], history, and more.\
 > — <cite>[Khan Academy](https://www.khanacademy.org/)</cite>
 
 Khan Academy is good place to polish foundation skills
-in various subjects. I'm mostly interested in [[mathematics]] and [[Physics]].
+in various subjects. I'm mostly interested in [[mathematics]] and [[physics]].
 
 - [My active courses](https://www.khanacademy.org/profile/me/courses)

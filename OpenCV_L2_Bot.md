@@ -10,7 +10,7 @@ sr-ease: 269
 
 # OpenCV L2 Bot
 
-My personal [[Lineage_2_tools|Lineage 2]] bot
+My personal [[lineage_2_tools|Lineage 2]] bot
 
 ## References
 

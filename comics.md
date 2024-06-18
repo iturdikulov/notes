@@ -9,7 +9,7 @@ sr-ease: 214
 
 # Comics
 
-[[Media|medium]] used to express ideas with images, often
+[[media|medium]] used to express ideas with images, often
 combined with text or other visual information. It typically takes the form of a
 sequence of panels of images. Textual devices such as speech balloons, captions,
 and onomatopoeia can indicate dialogue, narration, sound effects, or other

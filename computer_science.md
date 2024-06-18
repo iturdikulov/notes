@@ -11,24 +11,23 @@ sr-ease: 209
 
 # Computer Science
 
-> Study of ==[[computation|computation]], automation, and information==.
-> Computer [[Science|science]] spans theoretical disciplines (such as
-> [[algorithm|algorithms]], theory of computation, information theory, and
-> automation) to practical disciplines (including the design and implementation
-> of [[computer_hardware|hardware]] and [[computer_software|software]]).
-> Computer science is generally considered an academic discipline and distinct
-> from computer programming which is considered to be a technical field.
-> [[algorithm|Algorithms]] and [[data_structure|data_structure]] are central to
+> Study of ==[[computation]], automation, and information==. Computer
+> [[science]] spans theoretical disciplines (such as [[algorithm|algorithms]],
+> theory of computation, information theory, and automation) to practical
+> disciplines (including the design and implementation of
+> [[computer_hardware|hardware]] and [[computer_software|software]]). Computer
+> science is generally considered an academic discipline and distinct from
+> computer programming which is considered to be a technical field.
+> [[algorithm|Algorithms]] and [[data_structure|Data Structures]] are central to
 > computer science.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Computer_science)</cite>
 
 The fundamental concern of computer science is determining what ==can and cannot
 be automated==.
 
-I think knowing computer science help to write effective and scalable
-[[code|code]] (goal of good [[Programmer|programmer]], which I want to be). I
-described how I [[Learning|learn]] computer science
-[[How_I_learn_computer_science|here]].
+I think knowing computer science help to write effective and scalable [[code]]
+(goal of good [[programmer]], which I want to be). I described how I
+[[learning|learn]] computer science [[how_I_learn_computer_science|here]].
 
 Computer science connect theory (computation, automation, information) with real
 world practice (software and hardware). In Russian, it's known as Информа́тика.

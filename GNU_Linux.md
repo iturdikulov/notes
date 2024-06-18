@@ -10,8 +10,8 @@ sr-ease: 248
 
 # GNU/Linux
 
-> Linux or **GNU/Linux** is a [[Unix]]-like [[Operating_system]] (or family of)
-> for [[computer|computers]].
+> Linux or **GNU/Linux** is a [[Unix]]-like [[operating_system|operating
+> system]] (or family of) for [[computer|computers]].
 >
 > The Linux kernel (the basis of the operating system) is free software, meaning
 > everyone has the freedom to use it, see how it works, change it, or share it.
@@ -28,7 +28,7 @@ exceptions (semaphores, processes and threads).
 
 ## Linux features
 
-- [[Magic_sysrq_key|SYSRQ key]]
+- [[magic_sysrq_key|SYSRQ key]]
 - X11 forwarding
 - [Linux kernel features - Wikipedia](https://en.wikipedia.org/wiki/Category:Linux_kernel_features)
 

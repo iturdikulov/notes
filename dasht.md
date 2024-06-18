@@ -10,7 +10,7 @@ sr-ease: 274
 
 # Dasht
 
-> Search API [[Documentation|docs ]] offline, in terminal or browser. dasht is a
+> Search API [[documentation|docs]] offline, in terminal or browser. dasht is a
 > collection of shell scripts for searching, browsing, and managing API
 > documentation (in the form of 200+ offline documentation sets, courtesy of
 > Dash for macOS) all from the comfort of your own terminal!.\

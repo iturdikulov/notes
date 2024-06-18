@@ -89,12 +89,12 @@ It's toggling notifications pause mode, in status bar displayed ⛔ icon.
 
 - 1. My main working workspace. Usually tmux session in pair with terminal.
 - 2. Browser workspace, also can contains [[Newsboat]] tmux session.
-- 3. [[ChatGPT]] + and [[Translate-shell]] workspace
+- 3. [[ChatGPT]] + and [[translate-shell]] workspace
 - 4. My personal wiki/education workspace, neovim with wiki project
-- 5. My personal art/game_dev workspace, [[Krita]], [[godot]], etc.
+- 5. My personal art/game_dev workspace, [[Krita]], [[Godot]], etc.
 - 6. Free* workspace
 - 7. Email/Contacts workspaces
-- 8. Working Chat workspace, usually [[Slack]]
+- 8. Working Chat workspace, usually [[slack]]
 - 9. Stream and music workspace
 
 ## Keyboard shortcuts
@@ -117,7 +117,7 @@ Programs menu::`<D-space>`
 
 Active programs::`<D-a>`
 
-Unicode and [[Nerd_fonts|Nerdfonts]] menu::`<D-u>`
+Unicode and [[nerd_fonts|Nerdfonts]] menu::`<D-u>`
 
 Toggle sticky on active window (topmost)::`<D-S>`
 

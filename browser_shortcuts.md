@@ -10,9 +10,9 @@ sr-ease: 231
 
 # Browser shortcuts
 
-This is a list of keyboard shortcuts which I use in my [[Web_browser|web browser]].
+This is a list of keyboard shortcuts which I use in my [[web_browser|web browser]].
 
-Also, would be useful to check [[Vimium|vimium]] note.
+Also, would be useful to check [[Vimium|Vimium]] note.
 
 ## Tabs and Windows
 
@@ -28,7 +28,7 @@ Open a new tab, and jump to it
 &#10;
 <kbd>C-t</kbd>. You can also use <kbd>O</kbd>
 &#10;
-to open selected [[Uniform_resource_locator-URL|url]] or search term in a new tab.
+to open selected [[URL]] or search term in a new tab.
 
 Reopen the last closed tab, and jump to it. Works even after restarting Brave.
 &#10;

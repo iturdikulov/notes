@@ -9,11 +9,10 @@ sr-ease: 270
 
 # VR photography (virtual-reality photography)
 
-> VR [[Photography|photography]] is the interactive viewing of panoramic
-> photographs, generally encompassing a 360-degree circle or a spherical view.
-> The results is known as VR photograph (or VR photo), 360-degree photo, photo
-> sphere, or spherical photo, as well as interactive panorama or immersive
-> panorama.\
+> VR [[photography]] is the interactive viewing of panoramic photographs,
+> generally encompassing a 360-degree circle or a spherical view. The results is
+> known as VR photograph (or VR photo), 360-degree photo, photo sphere, or
+> spherical photo, as well as interactive panorama or immersive panorama.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/VR_photography)</cite>
 
 ## References

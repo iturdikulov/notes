@@ -10,7 +10,7 @@ sr-ease: 277
 
 # Calibre (software)
 
-> Calibre is a cross-platform free and [[Open-source|open-source]] suite of
+> Calibre is a cross-platform free and [[open-source|open-source]] suite of
 > e-book software. Calibre supports organizing existing e-books into virtual
 > libraries, displaying, editing, creating and converting e-books, as well as
 > syncing e-books with a variety of e-readers. Editing books is supported for
@@ -19,10 +19,10 @@ sr-ease: 277
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Calibre_\(software\))</cite>
 
 I use Calibre to convert books into required formats and to host
-[[Open_Publication_Distribution_System_OPDS|OPDS]] server.
+[[OPDS|OPDS]] server.
 
 Calibre providing special ebook converting tool, you can for example convert
-EPUB files into [[Portable_document_format_PDF]] file:
+EPUB files into [[PDF]] file:
 
 ```bash
 ebook-convert input.epub output.pdf

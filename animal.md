@@ -16,7 +16,7 @@ sr-ease: 270
 > from a hollow sphere of cells, the blastula, during embryonic development.\
 > — <cite>[Animal - Wikipedia](https://en.wikipedia.org/wiki/Animal)</cite>
 
-In my [[In_real_life_IRL|life]] I had some pets, cats and 1 dog. I like animals,
+In my [[IRL|life]] I had some pets, cats and dogs. I like animals,
 especially if they are cute 🐱.
 
 Here I store various information about animals.

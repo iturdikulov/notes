@@ -9,7 +9,7 @@ sr-ease: 268
 
 # Classical mechanics
 
-> [[Physics|physical]] theory describing the motion of macroscopic objects, from
+> [[physics|physical]] theory describing the motion of macroscopic objects, from
 > projectiles to parts of machinery and astronomical objects, such as
 > spacecraft, planets, stars, and galaxies. For objects governed by classical
 > mechanics, if the present state is known, it is possible to predict how it

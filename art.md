@@ -18,7 +18,7 @@ sr-ease: 250
 > There is no generally agreed definition of what constitutes art, and its
 > interpretation has varied greatly throughout history and across cultures. In
 > the Western tradition, the three classical branches of
-> [[Visual_arts|visual art]] are painting, sculpture, and architecture. Theatre,
+> [[visual_arts|visual art]] are painting, sculpture, and architecture. Theatre,
 > dance, and other performing arts, as well as literature, music, film and other
 > media such as interactive media, are included in a broader definition of the
 > arts. Until the 17th century, art referred to any skill or mastery and was not
@@ -37,6 +37,6 @@ ideas.
 For me Art is sort of self-expression, when I have a need to express my thoughts
 or just "creative copy" something beautiful.
 
-I'm fan of traditional [[Visual_arts|visual art]] and CGI art. I have my
-[[How_I_learn_art|study plan]] to understand art and their subfields better.
+I'm fan of traditional [[visual_arts|visual art]] and CGI art. I have my
+[[how_I_learn_art|study plan]] to understand art and their subfields better.
 

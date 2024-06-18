@@ -12,7 +12,7 @@ sr-ease: 248
 TODO: need review!
 
 How to use them in `printf` function described in
-[[Printf_format_string|printf format string]].
+[[printf_format_string|printf format string]].
 
 Check main types here:
 

@@ -31,6 +31,5 @@ if some presentation work is done on server for example.
 > ==persistent storage== of some kind, such as an entity-relational database.\
 > — <cite>[Data access layer](https://en.wikipedia.org/wiki/Data_access_layer)</cite>
 
-## References
-
-- [[How_I_learn_programming_and_software_development#Backend]]
+I have a [[how_I_learn_programming_and_software_development#Backend|learning]]
+plan to become a backend developer.

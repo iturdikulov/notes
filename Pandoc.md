@@ -21,7 +21,7 @@ use the `--from` and `--to` options to select formats interactively.
 Pandoc supports Markdown with various features like: syntax for tables,
 definition lists, metadata blocks, footnotes, citations, math, and much more.
 
-Program has modular design and use [[Abstract_syntax_tree_AST|AST]] to represent
+Program has modular design and use [[abstract_syntax_tree_AST|AST]] to represent
 documents. Reader modules - parse text in a given format and produce a native
 representation of the document (AST). Writer modules convert this AST into a
 target format. Using this design adding an input or output format requires only
@@ -88,7 +88,7 @@ pandoc -C \
 - `--csl=books/research-institute-for-nature-and-forest.csl` - citation style
 - `--bibliography=books/library.bib` - BibTeX file (exported from Zotero)
 - `-M reference-section-title=References` - title of the bibliography section
-- `--mathjax` - use [[Mathjax]] to render math
+- `--mathjax` - use [[MathJax]] to render math
 
 ## Tools
 

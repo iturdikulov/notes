@@ -14,7 +14,7 @@ sr-ease: 221
 > [[algorithm|algorithmic]] processes, and development of both hardware and
 > software. Computing has scientific, engineering, [[mathematics|mathematical]],
 > technological and social aspects. Major computing disciplines include computer
-> engineering, [[Computer_science|computer_science]], cybersecurity, data
+> engineering, [[computer_science|computer science]], cybersecurity, data
 > science, information systems, information technology and software
 > engineering.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Computing)</cite>

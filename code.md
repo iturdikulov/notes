@@ -20,7 +20,7 @@ sr-ease: 225
 > converted spoken language into visual symbols, extended the range of
 > communication across space and time.\
 >
-> In [[Information_theory|information theory]]
+> In [[information_theory|information theory]]
 > and [[computer_science|computer science]], a code is usually considered as an
 > algorithm that uniquely represents symbols from some source alphabet, by
 > encoded strings, which may be in some other target alphabet. An extension of

@@ -7,7 +7,7 @@ tags:
 
 # cmus
 
-My favorite [[My_Music|music]] player.
+My favorite [[my_music|music]] player.
 
 ## Useful keys
 

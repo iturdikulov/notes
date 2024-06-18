@@ -10,7 +10,7 @@ sr-ease: 270
 
 # Daemon_(computing)
 
-> In multitasking computer [[Operating_system|operating systems]], a daemon is
+> In multitasking computer [[operating_system|operating systems]], a daemon is
 > a computer program that runs as a background process, rather than being under
 > the direct control of an interactive user. Traditionally, the process names of
 > a daemon end with the letter d, for clarification that the process is in fact

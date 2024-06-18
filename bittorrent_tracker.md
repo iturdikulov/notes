@@ -20,7 +20,7 @@ sr-ease: 269
 > efficient transmission and reassembly of the copied file. Clients that have
 > already begun downloading a file communicate with the tracker periodically to
 > negotiate faster file transfer with new peers, and provide
-> [[Computer_network|network]] performance statistics; however, after the
+> [[computer_network|network]] performance statistics; however, after the
 > initial peer-to-peer file download is started, peer-to-peer communication can
 > continue without the connection to a tracker.
 >

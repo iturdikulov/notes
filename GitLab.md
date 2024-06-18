@@ -30,4 +30,4 @@ Includes:
 - Wiki
 - Pages for static sites / documentation
 - Container registry
-- Can be [[Self-hosting|self-hosted]]
+- Can be [[self-hosted]]

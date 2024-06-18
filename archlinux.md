@@ -11,7 +11,7 @@ sr-ease: 270
 
 # Arch Linux
 
-I described my environment here: [[My_Arch_Linux_enviroment|environment]].
+I described my environment here: [[my_archlinux_enviroment|environment]].
 
 ## References
 

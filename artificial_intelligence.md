@@ -9,7 +9,7 @@ sr-ease: 210
 
 # Artificial intelligence (AI)
 
-Sort of [[Computer_program|program]] which mimics human cognition.
+Sort of [[computer_program|program]] which mimics human cognition.
 
 > Artificial intelligence (AI) is intelligence demonstrated by machines, as
 > opposed to intelligence of humans and other animals. Example tasks in which

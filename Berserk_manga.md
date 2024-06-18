@@ -13,7 +13,7 @@ sr-ease: 270
 # Berserk
 
 > Berserk (Japanese: ベルセルク, Hepburn: Beruseruku) is a Japanese
-> [[Manga|manga ]] series written and illustrated by Kentaro Miura. Set in a
+> [[manga]] series written and illustrated by Kentaro Miura. Set in a
 > medieval Europe-inspired dark fantasy world, the story centers on the
 > characters of Guts, a lone swordsman, and Griffith, the leader of a mercenary
 > band called the "Band of the Hawk". The series follows Guts' journey seeking

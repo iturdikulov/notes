@@ -22,6 +22,8 @@ sr-ease: 208
 Computer programming is the process of performing a particular computation,
 usually by designing/building an executable computer program.
 
-- [[How_I_learn_computer_programming|How I learn computer programming]]
-- [[Programming_principles|Programming principles]]
+I collect resources about programming, software development in my
+[[how_I_learn_programming_and_software_development|note]]
+
+[[programming_principles|Programming principles]] allow me to write better code.
 

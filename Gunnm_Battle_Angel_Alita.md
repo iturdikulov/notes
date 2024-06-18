@@ -13,7 +13,7 @@ sr-ease: 270
 # Gunnm aka Battle Angel Alita
 
 > Gunnm (Japanese: 銃夢, romanized: Ganmu, lit. 'gun dream'), also known as
-> Battle Angel Alita in English, is a Japanese cyberpunk [[Manga|manga]] series
+> Battle Angel Alita in English, is a Japanese cyberpunk [[manga]] series
 > created by Yukito Kishiro and originally published in Shueisha's Business Jump
 > magazine from 1990 to 1995. The second of the comic's nine volumes was adapted
 > in 1993 into a two-part anime original video animation titled Battle Angel for

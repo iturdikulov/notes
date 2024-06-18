@@ -20,7 +20,7 @@ sr-ease: 208
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/3D_computer_graphics)</cite>
 
 I'm trying to [[how_I_learn_computer_graphics|learn]] 3D computer graphics.
-By developing various [[My_Games|games]] and modelling 3D models in [[blender]].
+By developing various [[my_games|games]] and modelling 3D models in [[blender]].
 
 ## Assets
 

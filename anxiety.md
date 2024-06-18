@@ -10,12 +10,12 @@ sr-ease: 250
 
 # Anxiety
 
-> Anxiety is an [[Emotion|emotion]] which is characterized by an unpleasant
-> state of inner turmoil and includes feelings of dread over anticipated events.
-> Anxiety is different than fear in that the former is defined as the
-> anticipation of a future threat whereas the latter is defined as the emotional
-> response to a real threat. It is often accompanied by nervous behavior such as
-> pacing back and forth, somatic complaints, and rumination.\
+> Anxiety is an [[emotion]] which is characterized by an unpleasant state of
+> inner turmoil and includes feelings of dread over anticipated events. Anxiety
+> is different than fear in that the former is defined as the anticipation of a
+> future threat whereas the latter is defined as the emotional response to a
+> real threat. It is often accompanied by nervous behavior such as pacing back
+> and forth, somatic complaints, and rumination.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Anxiety)</cite>
 
 > Anxiety is distress or uneasiness of mind caused by a fear of danger or

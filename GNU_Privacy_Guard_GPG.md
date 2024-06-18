@@ -20,7 +20,7 @@ sr-ease: 232
 >
 > GnuPG is a hybrid-encryption software program because it uses a
 > combination of conventional symmetric-key cryptography for speed, and
-> [[Public-key_cryptography|public-key cryptography]] for ease of secure
+> [[public-key_cryptography|public-key cryptography]] for ease of secure
 > key exchange, typically by using the recipient's public key to encrypt a
 > session key which is used only once. This mode of operation is part of
 > the OpenPGP standard and has been part of PGP from its first version.
@@ -295,7 +295,7 @@ Trust support).
 
 ## How to import an SSH ed25519 key to GPG?
 
-1. First you need [[Secure_shell_SSH#Generate ed25519 ssh key|generate]] or
+1. First you need [[SSH#Generate ed25519 ssh key|generate]] or
    use existing key.
 2. Setup gpg-agent with ssh support
 3. Add your SSH private key to GPG by `ssh-add ed25519-filename`. NOTE:

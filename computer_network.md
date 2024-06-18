@@ -12,7 +12,7 @@ sr-ease: 243
 # Computer network
 &#10;
 Set of [[computer|computers]] sharing resources located on or provided by
-[[Node|network_nodes]].
+[[node|network nodes]].
 
 Group of two or more [[computer|computers]] that are linked together. Networks
 are usually used to share resources, exchange files or communicate with other

@@ -9,7 +9,7 @@ sr-ease: 250
 
 # Cooking
 
-Significant part of my [[In_real_life_IRL|life]] is cooking. I like to cook
+Significant part of my [[IRL|life]] is cooking. I like to cook
 **sometimes**.
 
 - [ ] [Собираем ПП продукты на неделю! / Как питаться дёшево и полезно? - YouTube](https://www.youtube.com/watch?v=ONffRw8rxVA)
@@ -17,8 +17,8 @@ Significant part of my [[In_real_life_IRL|life]] is cooking. I like to cook
 ## References
 
 - [[cutlets]]
-- [[Pan_Pizza|Pan Pizza]]
-- [[Semolina_porridge|Semolina porridge]]
+- [[pan_pizza|Pan Pizza]]
+- [[semolina_porridge|Semolina porridge]]
 - [[creamy_mashed_potatoes|Creamy mashed potatoes]]
 - [Всегда Вкусно!](https://www.vsegdavkusno.ru/)
 - [Based Cooking](https://based.cooking/)

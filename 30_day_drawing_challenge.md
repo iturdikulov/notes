@@ -11,7 +11,7 @@ sr-ease: 248
 
 # My X-Day Drawing Challenge
 
-My first steps in [[My_Art|my art]] creation.
+My first steps in [[my_art|my art]] creation.
 
 For this challenge, I will use the following tools:
 

@@ -15,7 +15,7 @@ The words 'algorithm' and 'algorism' come from the name of a Persian
 mathematician called 'Al-Khwārizmī' (he is practically from my **homeland**)
 (Persian: خوارزمی, c. 780–850).
 
-> In [[mathematics]] and [[Computer_science|computer science]], an algorithm
+> In [[mathematics]] and [[computer_science|computer science]], an algorithm
 > (/ˈælɡərɪðəm/ is a ==finite sequence of rigorous instructions==, typically
 > used to solve a class of specific problems or to perform a computation.
 > Algorithms are used as specifications for performing **calculations** and
@@ -29,7 +29,7 @@ mathematician called 'Al-Khwārizmī' (he is practically from my **homeland**)
 <!--SR:!2023-07-20,1,230-->
 
 In general, it's, set of finite step-by-step instructions for solving some
-problem ([[Logic|logical]] or [[mathematics|mathematical]]), or to perform some
+problem ([[logic|logical]] or [[mathematics|mathematical]]), or to perform some
 other **task** (for example something from real world, like
 problem/computation). In other words a set of instructions for completing a
 specific task.
@@ -38,13 +38,13 @@ Algorithm are used as specifications for performing computation and data
 processing.
 
 In computing, an algorithm is a precise list of operations that could be done by
-a [[Turing_machine|Turing_machine]]. For the purpose of
-[[Computation|computing]], algorithms are written in [[Pseudocode]],
-[[Flowchart]], or [[Programming_language|programming_language]].
+a [[turing_machine|turing machine]]. For the purpose of
+[[computation|computing]], algorithms are written in [[pseudocode]],
+[[flowchart]], or [[programming_language|programming language]].
 
 Sometimes, it’s possible to have two different algorithms that accomplish the
-same task [[Computational_complexity]]. One algorithm can be faster than the
-other by *orders of magnitude*.
+same task [[computational_complexity|complexity]]. One algorithm can be faster
+than the other by **orders of magnitude**.
 
 Often there is more than one way to achieve a particular computing goal, and
 the algorithm you choose can seriously affect the speed of your code.

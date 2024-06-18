@@ -11,10 +11,10 @@ sr-ease: 269
 
 # Darktable
 
-> darktable is an open source [[Photography|photography]] workflow application
-> and raw developer. A virtual lighttable and darkroom for photographers. It
-> manages your digital negatives in a database (build personal
-> [[Stock_photography|photography stock]]), lets you view them through a
+> darktable is an open source [[photography]] workflow application and raw
+> developer. A virtual lighttable and darkroom for photographers. It manages
+> your digital negatives in a database (build personal
+> [[stock_photography|photography stock]]), lets you view them through a
 > zoomable lighttable and enables you to develop raw images and enhance them.\
 > — <cite>[darktable](https://www.darktable.org/)</cite>
 
