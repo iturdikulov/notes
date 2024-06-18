@@ -9,7 +9,7 @@ sr-ease: 272
 
 # Fdupes
 
-> FDUPES is a program for identifying duplicate [[File|files]] residing. within
+> FDUPES is a program for identifying duplicate [[file|files]] residing. within
 > specified directories.
 > — <cite>[GitHub](https://github.com/adrianlopezroche/fdupes)</cite>
 

@@ -22,7 +22,7 @@ sr-ease: 228
 
 I associate fiction with the non-technical literature as first priority.
 
-I'm store my reading and completed fiction literature [[My_Fiction_Books|here]].
+I'm store my reading and completed fiction literature [[my_fiction_books|here]].
 
 You can check various fiction genres on the following image:
 

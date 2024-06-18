@@ -11,7 +11,7 @@ sr-ease: 270
 
 # Discord
 
-> Discord is a VoIP and instant messaging [[Social_networking_service|social]]
+> Discord is a VoIP and instant messaging [[social_networking_service|social]]
 > platform. Users have the ability to communicate with voice calls, video calls,
 > text messaging, media and files in private chats or as part of communities
 > called "servers".\

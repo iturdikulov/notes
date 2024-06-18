@@ -29,7 +29,7 @@ sr-ease: 182
 > [most popular programming languages](https://www.tiobe.com/tiobe-index/).
 >
 > Python is a multi-paradigm programming language.
-> [[object-oriented_programming|object-oriented]] programming and
+> [[OOP|object-oriented]] programming and
 > [[structured_programming|structured_programming]] are fully supported, and
 > many of their features support
 > [[functional_programming|functional_programming]] and aspect-oriented
@@ -66,7 +66,7 @@ It supports any popular [[programming_paradigm|programming paradigm]]:
 
 - [[structured_programming|structured]]
 - [[procedural_programming|procedural]]
-- [[object-oriented_programming|object-oriented]]
+- [[OOP|object-oriented]]
 - [[functional_programming|functional]]
 
 Rich [[research/Python_Community-Python_Standard_Library|standard library]] make

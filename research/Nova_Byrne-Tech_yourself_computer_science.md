@@ -45,21 +45,21 @@ hours of study of each topic, then revisit favorites throughout your career 🚀
 
 TODO: use anchors links to sections
 
-- [[Computer_programming|Programming]]
+- [[computer_programming|Programming]]
 
   - Why study? Don’t be the person who “never quite understood” something like
     recursion.
   - Book: _Structure and Interpretation of Computer Programs_
   - Videos: Brian Harvey’s Berkeley CS 61A
 
-- [[Computer_architecture|Computer_Architecture]]
+- [[computer_architecture|Computer Architecture]]
 
   - Why study? If you don’t have a solid mental model of how a computer actually
     works, all of your higher-level abstractions will be brittle.
   - Book: _Computer Systems: A Programmer's Perspective_
   - Videos: Berkeley CS 61C
 
-- [[algorithm|Algorithms]] and [[Data_structure|data structures]]
+- [[algorithm|Algorithms]] and [[data_structure|data structures]]
 
   - Why study? If you don’t know how to use ubiquitous data structures like
     stacks, queues, trees, and graphs, you won’t be able to solve challenging
@@ -74,14 +74,14 @@ TODO: use anchors links to sections
   - Book: _Mathematics for Computer Science_
   - Videos: Tom Leighton’s MIT 6.042J
 
-- [[Operating_system|Operating_Systems]]
+- [[operating_system|Operating Systems]]
 
   - Why study? Most of the code you write is run by an operating system, so you
     should know how those interact.
   - Book: _Operating Systems: Three Easy Pieces_
   - Videos: Berkeley CS 162
 
-- [[Computer_network|Computer_Networking]]
+- [[computer_network|Computer Networking]]
 
   - Why study? The Internet turned out to be a big deal: understand how it works
     to unlock its full potential.

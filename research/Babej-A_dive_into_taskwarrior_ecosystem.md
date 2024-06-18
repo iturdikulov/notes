@@ -218,7 +218,7 @@ When a task is marked as deleted, it gets a new status, and an end attribute.
 The task is written back into the `pending.data` file, but it doesn't belong
 there - it belongs in the `completed.data` file.
 
-Garbage Collection ([[Garbage_collection|garbage collection]]) is operation
+Garbage Collection ([[garbage_collection|garbage collection]]) is operation
 automatically run by Taskwarrior to move tasks into the correct files.
 
 When moving tasks between the files, ID numbers are affected, because they are

@@ -24,7 +24,7 @@ sr-ease: 213
 ## [Intro to C](https://hero.handmade.network/episode/intro-to-c)
 
 In this intro Casey explains what is C, how to compile and run C program, and
-how to use Visual Studio [[Debugger]].
+how to use Visual Studio [[debugger]].
 
 Can you explain in simple words what is to **declare memory**?
 &#10;

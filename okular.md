@@ -18,4 +18,4 @@ sr-ease: 272
 > embedded in other applications.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Okular)</cite>
 
-I mostly use [[zathura]], which is less feature-rich, but much faster.
+I mostly use [[Zathura]], which is less feature-rich, but much faster.

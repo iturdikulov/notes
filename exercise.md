@@ -20,6 +20,6 @@ sr-ease: 224
 > socialize, and improve well-being as well as mental health.\
 > — <cite>[Exercise - Wikipedia](https://en.wikipedia.org/wiki/Exercise)</cite>
 
-I have my own plan to do [[My_Physical_exercise_plan|daily exercises]].
+I have my own plan to do [[my_physical_exercise_plan|daily exercises]].
 
 TODO: merge with my daily exercises?

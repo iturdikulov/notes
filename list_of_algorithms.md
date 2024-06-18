@@ -11,10 +11,9 @@ sr-ease: 223
 
 # List of algorithms
 
-<!-- NEXT: Algoritms from python tutor and The C lang -->
-- [[Search_algorithm]]
-- [[Round-robin_scheduling]]
-- [[Search_algorithm]]
-- [[greedy_algorithm]]
-- [[Quicksort]]
-- [[binary_search_algorithm]]
+<!-- NEXT: Algoritms from python tutor and The C lang, big-o cheatsheet -->
+- [[search_algorithm|Search algorithm]]
+- [[round-robin_scheduling|Round-robin scheduling]]
+- [[greedy_algorithm|Greedy algorithm]]
+- [[quicksort|Quicksort]]
+- [[binary_search_algorithm|Binary search algorithm]]

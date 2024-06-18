@@ -10,12 +10,12 @@ sr-ease: 187
 
 # How I learn art
 
-Currently, I'm focusing on learning [[Visual_arts|visual art]] and
-[[Photography|photography]], additionally I'm learning
+Currently, I'm focusing on learning [[visual_arts|visual art]] and
+[[photography]], additionally I'm learning
 [[how_I_learn_computer_graphics|computer graphics]] which is for me very close
 field.
 
-I also like to practice [[My_Handwriting|handwriting]].
+I also like to practice [[my_handwriting|handwriting]].
 
 ## Drawing
 
@@ -32,7 +32,7 @@ I also like to practice [[My_Handwriting|handwriting]].
 
 - [[blender]]
 - [[Unreal_Engine]]
-- [[godot]]
+- [[Godot]]
 - [[GIMP]]
 - [[Krita]]
 - [[darktable]]

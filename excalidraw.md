@@ -11,7 +11,7 @@ Zettelkasten Type
 Excalidraw is a free, open-source (offline and online) virtual whiteboard for
 sketching hand-drawn like diagrams (https://excalidraw.com/). While Zettelkasten
 traditionally relies on text-based notes, Excalidraw can be a useful addition
-for creating [[Visual_arts|visual representations]] of ideas, concepts, and
+for creating [[visual_arts|visual representations]] of ideas, concepts, and
 relationships between them.
 
 Excalidraw can be used to creating mind maps or concept maps to organize

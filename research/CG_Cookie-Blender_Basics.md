@@ -37,7 +37,7 @@ move by hand icon or just use mouse wheel (C-wheel for smooth zoom).
 
 What is basic concept of Orthographic view (perspective difference)?
 &#10;
-[[Orthographic_projection|Orthographic]] view remove our perspective
+[[orthographic_projection|Orthographic]] view remove our perspective
 distortion.
 <!--SR:!2024-01-22,1,210-->
 

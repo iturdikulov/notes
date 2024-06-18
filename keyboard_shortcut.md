@@ -19,7 +19,7 @@ sr-ease: 225
 > differs.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Keyboard_shortcut)</cite>
 
-[[Touch_typing|Touch typing]] and keyboard shortcuts are main driver of
+[[touch_typing|Touch typing]] and keyboard shortcuts are main driver of
 mouseless workflow. In this note I describe the most used shortcuts in my
 workflow, each section except "Universal" is linked to a more detailed note.
 
@@ -84,7 +84,7 @@ Notepad based shortcuts, work mostly in all "classic" GUI program.
 
 Since my most used program is Neovim, I have a lot of shortcuts for it. To quit
 I use `ZZ`, `:x`, `:q` and `:qa` 😼. I store basic keybindings in my
-[[Vim_base_keybindings|Base keybindings]] note and more advanced in [[neovim]].
+[[vim_base_keybindings|Base keybindings]] note and more advanced in [[Neovim]].
 
 ## GNU Readline
 
@@ -100,8 +100,8 @@ need to know some basic keybindings to work with it.
 
 ## Obsidian
 
-[[obsidian]] is my [[Telekasten.nvim|Zettelkasten system]] companion, main task
-is to render markdown, process [[Spaced_repetition|space repetition]] notes and
+[[Obsidian]] is my [[Telekasten|Zettelkasten system]] companion, main task
+is to render markdown, process [[spaced_repetition|space repetition]] notes and
 work with [[excalidraw]] diagrams.
 
 Core keybindings:
@@ -119,7 +119,7 @@ Core keybindings:
 ## Web Browser
 
 I store my shortcuts (advanced list) in [[browser_shortcuts|browser shortcuts]]
-note. Currently, I'm using [[brave]] browser and sometimes [[firefox]].
+note. Currently, I'm using [[Brave]] browser and sometimes [[Firefox]].
 
 Here are some universal shortcuts:
 
@@ -190,7 +190,7 @@ Basic keybindings:
 
 ## Z shell
 
-I use [[Z_shell|Z shell]] as my main interactive command interpreter.
+I use [[ZSH|Z shell]] as my main interactive command interpreter.
 
 Some keybindings from GNU readline are available in Z shell, but I
 usually use Vi-mode in Zsh, and it has its own keybindings.
@@ -258,7 +258,7 @@ Some keys to navigate and quick actions:
 
 ## Krita
 
-I use [[krita]] as my board and drawing tool.
+I use [[Krita]] as my board and drawing tool.
 
 - Show a palette of brushes, color history and other tools::`RMB`
 - Pan the canvas. Also with middle button drag::`LMB+Space`

@@ -10,7 +10,7 @@ external:
   - https://en.wikipedia.org/wiki/Glossary_of_computer_science
 ---
 
-# Glossary of [[Computer_science|Computer Science]]
+# Glossary of [[computer_science|Computer Science]]
 
 You can check also this resource: [Dictionary of Algorithms and Data Structures](https://xlinux.nist.gov/dads/)
 
@@ -25,7 +25,7 @@ You can check also this resource: [Dictionary of Algorithms and Data Structures]
 > structures, which are concrete representations of data from the point of view
 > of an implementer rather than a user.
 
-[[Abstract_data_type]] it's probably any type of [[Data_type]]. It's
+[[ADT]] it's probably any type of [[data_type|data type]]. It's
 mathematical model for data types. AST data type is defined by its behavior
 (semantic) from the point of view of a user of the data (not concrete
 implementation, I think it's abstract implementation). This model defined in
@@ -365,7 +365,7 @@ particular key
 > There, a small program is stored called firmware. It does power-on self-tests
 > and, most importantly, allows access to other types of memory like a hard disk
 > and main memory. The firmware loads bigger programs into the computer's main
-> memory and runs it. Check also [[Boot_sector]].
+> memory and runs it. Check also [[boot_sector|boot sector]].
 
 ## C
 

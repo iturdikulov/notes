@@ -21,12 +21,11 @@ use the `--from` and `--to` options to select formats interactively.
 Pandoc supports Markdown with various features like: syntax for tables,
 definition lists, metadata blocks, footnotes, citations, math, and much more.
 
-Program has modular design and use [[abstract_syntax_tree_AST|AST]] to represent
-documents. Reader modules - parse text in a given format and produce a native
-representation of the document (AST). Writer modules convert this AST into a
-target format. Using this design adding an input or output format requires only
-adding a reader or writer. Users also can run custom pandoc filters to modify
-the intermediate AST.
+Program has modular design and use [[AST]] to represent documents. Reader
+modules - parse text in a given format and produce a native representation of
+the document (AST). Writer modules convert this AST into a target format. Using
+this design adding an input or output format requires only adding a reader or
+writer. Users also can run custom pandoc filters to modify the intermediate AST.
 
 Pandoc limitations are happens because intermediate representation of a document
 is less expressive than many of the formats it converts between, and you can

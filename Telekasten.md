@@ -25,7 +25,7 @@ parentheses.
 ^xxxblkxx
 
 - Find notes by name (`f`), `#tag` (`#`) or by searching within note text (`g`)
-- Find daily, weekly notes by date. I not use it, handled by [[taskwarrior]].
+- Find daily, weekly notes by date. I not use it, handled by [[Taskwarrior]].
 - **Vaults**: Support for multiple separate note collections.
 - Place and follow links to your notes (`f`) or create new ones (`n`), with templates (`N`)
 - Find notes that link back to your notes (`b`)
@@ -45,6 +45,6 @@ or globally (`:h telekasten.link_notation`). Examples:
 - Paste images from clipboard (`L`), but I prefer insert links
 - Insert links to images (`I`)
 - Image previews, via `catimg`, `viu`, or extension
-- Calendar support (`c`), but I prefer to use [[taskwarrior]] and [[khal]]
+- Calendar support (`c`), but I prefer to use [[Taskwarrior]] and [[khal]]
 
 ## TODO: Plugins

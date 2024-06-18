@@ -10,7 +10,7 @@ sr-ease: 269
 # Hostname
 
 > In [[computer_network|computer networking]], a hostname (archaically
-> [[Node|nodename]]) is a label that is assigned to a device connected to a
+> [[node|nodename]]) is a label that is assigned to a device connected to a
 > computer network and that is used to identify the device in various forms of
 > electronic communication, such as the World Wide Web. Hostnames may be simple
 > names consisting of a single word or phrase, or they may be structured. Each

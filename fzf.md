@@ -13,7 +13,7 @@ sr-ease: 253
 It's a general purpose fuzzy finder written in Golang that can be used with any
 list of things: files, processes, command history, git branches, etc.
 
-For [[Z_shell|Z shell]], it provides the following key bindings (overwrite
+For [[ZSH|Z shell]], it provides the following key bindings (overwrite
 existing ones), and they are very handy:
 
 - `C-t`::Paste the selected file path(s) into the command line. Useful to insert paths into arguments of commands.

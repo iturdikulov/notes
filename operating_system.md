@@ -23,8 +23,8 @@ sr-ease: 249
 
 I use the following operating systems:
 - [[GNU_Linux|GNU/Linux]] kernel based operating systems
-- [[android]] linux kernel based operating system
-- [[ms_windows|MS Windows]] NT kernel based operating system
+- [[Android]] linux kernel based operating system
+- [[MS_Windows|MS Windows]] NT kernel based operating system
 
 ## References
 

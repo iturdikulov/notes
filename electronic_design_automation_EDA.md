@@ -12,7 +12,7 @@ sr-ease: 252
 
 > Electronic design automation (EDA), also referred to as electronic
 > computer-aided design (ECAD), is a category of
-> [[My_awesome_software_list#eda|software_tools]] for designing electronic
+> [[my_awesome_software_list#eda|software tools]] for designing electronic
 > systems such as integrated circuits and printed circuit boards. The tools work
 > together in a design flow that chip designers use to design and analyze entire
 > semiconductor chips. Since a modern semiconductor chip can have billions of

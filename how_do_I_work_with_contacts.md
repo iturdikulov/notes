@@ -12,7 +12,7 @@ sr-ease: 254
 
 - Email: `i |AT| inomoz . ru`, replace `|AT|` with `@` and remove spaces.
 - [ ] Form to send message directly to my email
-- [[About_Me|Some info]] about me
+- [[about_me|Some info]] about me
 
 # How do I work with contacts
 

@@ -12,12 +12,12 @@ sr-ease: 285
 # My Games
 
 I play [[game|games]] (but not too much) usually on my [[computer]] or
-on my [[Smartphone|smartphone]].
+on my [[smartphone]] (very rarely).
 
 ## Active games
 
 - [[OpenCV_L2_Bot]]
-- [[Snake_Game]]
+- [[snake_game]]
 
 - [ ] [The Python Challenge](http://www.pythonchallenge.com/)
 - [ ] [Elevator Saga - the elevator programming game](https://play.elevatorsaga.com/)
@@ -247,6 +247,6 @@ essential or "Highly recommended" mods.
 
 ## References
 
-- [[Useless_pages|Useless pages]]
+- [[useless_pages|Useless pages]]
 - [GitHub - michelpereira/awesome-games-of-coding: A curated list of games that can teach you how to learn a programming language.](https://github.com/michelpereira/awesome-games-of-coding)
 

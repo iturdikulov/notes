@@ -18,7 +18,7 @@ sr-ease: 271
 > paper, pencils, markers, and rulers. However, today they are more often
 > created using [[computer_program|computer software]], which is often both
 > faster and easier. They can be created with general
-> [[My_awesome_software_list#graphics|illustration software]].\
+> [[my_awesome_software_list#graphics|illustration software]].\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Infographic)</cite>
 
 TODO: add examples

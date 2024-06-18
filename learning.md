@@ -24,13 +24,13 @@ sr-ease: 195
 This is my important place in choosing what to learn for my [[Work#Goals|work
 goals]] and my [[my_pet_projects|pet projects]] required skills.
 
-Since I'm use [[zettelkasten]], I can create new notes based on education
+Since I'm use [[Zettelkasten]], I can create new notes based on education
 materials and extend them with different sources, my experience, etc. That
 materials have `research` tag.
 
 My current focus is on following things, order is not important. All with help
-of [[Spaced_repetition|spaced repetition]], [[SQ3R_method|Sq3R]],
-[[zettelkasten|zettelkasten]], [[how_to_study_or_learn|study techniques]], etc.
+of [[spaced_repetition|spaced repetition]], [[SQ3R_method|Sq3R]],
+[[Zettelkasten|Zettelkasten]], [[how_to_study_or_learn|study techniques]], etc.
 
 > The only way to learn a new programming language is by writing programs
 > in it.\
@@ -47,7 +47,7 @@ And below I describe my learning paths for each field.
 
 ## Fundamentals of science and computer science
 
-[[Science]] is source of knowledge and predictions about the world, and I want
+[[science]] is source of knowledge and predictions about the world, and I want
 to learn it better. My main focus is on fundamental sciences and especially
 [[computer_science|computer science]]. I'll describe my learning paths for each
 field in this section.
@@ -61,13 +61,13 @@ fundamental science, and part of many others, and I want to learn it better, at
 least on some beginner/medium level.
 
 [[how_I_learn_physics_and_chemistry|How I learn physics and chemistry]].
-[[Physics]] and [[chemistry]] go after mathematics in my learning priority. I
+[[physics]] and [[chemistry]] go after mathematics in my learning priority. I
 want to understand world better, and this fields can help me with it.
 
-Linguistics, my primary focus is [[Russian_language|Russian]] and [[english_language|English]]
-languages. English is great to reveal huge part of world, new knowledge and
-opportunities, I'm native [[Russian_language|Russian]] speaker, currently I
-spent more time to learn English. [[how_I_learn_English|How I learn English]].
+Linguistics, my primary focus is [[Russian]] and [[English]] languages. English
+is great to reveal huge part of world, new knowledge and opportunities, I'm
+native [[Russian|Russian]] speaker, currently I spent more time to learn
+English. [[how_I_learn_English|How I learn English]].
 
 Knowing [[history|history]] is improving your understanding of current world
 events and help to avoid mistakes from past.
@@ -84,11 +84,11 @@ it uses all from them. This is also my current [[work|work]] and main source of
 This is place where I store programming applied learning materials, related
 outline notes (like frontend/backend) and some management stuff.
 
-My editing workflow, including [[code]], is heavily related to [[neovim]],
+My editing workflow, including [[code]], is heavily related to [[Neovim]],
 but it can be replicated in some advanced code editor (like [[Pycharm]]), check
 these notes for more information. I also keep collecting various useful
 information, which can be related to various software, like
-[[keyboard_shortcut|keyboard shortcuts]], [[blender]], [[krita]],
+[[keyboard_shortcut|keyboard shortcuts]], [[blender]], [[Krita]],
 [[GNU_Utilities]], [[GNU_Linux]], [[NixOS]], etc.
 
 [[how_I_learn_computer_graphics|How I learn computer graphics]]. Computer

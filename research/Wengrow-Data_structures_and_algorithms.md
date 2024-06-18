@@ -128,7 +128,7 @@ how different data structures can affect to speed of our code.
 
 ## Data Structures /23
 
-Notes leaved here [[Data_structure|data structure]].
+Notes leaved here [[data_structure|data structure]].
 
 ## The Array: The Foundational Data Structure /24
 
@@ -157,7 +157,7 @@ I placed notes here: [[array]]
 
 ## Sets: How a Single Rule Can Affect Efficiency /36
 
-I placed notes here: [[Set]]
+I placed notes here: [[set]]
 
 ## Wrapping Up /39
 
@@ -221,7 +221,7 @@ Placed some notes here [[algorithm]].
 ## Binary Search /46
 ## Binary Search vs. Linear Search /51
 
-Placed some notes in [[Binary_search_algorithm]]
+Placed some notes in [[binary_search_algorithm|binary search algorithm]]
 
 ## Wrapping Up /54
 
@@ -253,15 +253,15 @@ search on an array of size 100,000?
 ## Big O: How Many Steps Relative to N Elements? /56
 ## The Soul of Big O /57
 ## An Algorithm of the Third Kind /60
-Some notes are placed in [[Big_O_notation]].
+Some notes are placed in [[big_O_notation|big O notation]].
 
 ## Logarithms /61
-Some notes are placed in [[Logarithm]].
+Some notes are placed in [[logarithm]].
 
 ## O(log N) Explained /62
 ## Practical Examples /63
 ## Wrapping Up /65
-Some notes are placed in [[Big_O_notation]].
+Some notes are placed in [[big_O_notation]].
 
 ## Exercises /65
 
@@ -315,7 +315,7 @@ that sums up all the numbers from a given array:
    }
    ```
    This looks like $\mathcal{O}(\log N)$, for example number of grains is 100,
-   and we do ~ 7 iterations, etc. Like in [[Binary_search_algorithm]].
+   and we do ~ 7 iterations, etc. Like in [[binary_search_algorithm]].
 4. The following function accepts an array of strings and returns a new array
 that only contains the strings that start with the character "a". Use Big O
 Notation to describe the time complexity of the function:

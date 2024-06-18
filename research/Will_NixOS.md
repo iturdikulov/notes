@@ -82,7 +82,7 @@ You can use `-I nixosconfig=/path/to/config` flag with `nixos-rebuild switch`
 and `-f /path/to/config` with `home-manager switch` to specify configuration
 file.
 
-## NixOS and [[Filesystem_Hierarchy_Standard_FHS|FHS]]
+## NixOS and [[filesystem_Hierarchy_Standard_FHS|FHS]]
 
 NixOS doesn't follow the FHS:
 

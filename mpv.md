@@ -10,9 +10,9 @@ sr-ease: 333
 
 # mpv
 
-mpv is a free (as in freedom) [[Media|media]] player for the
-command line (it has own pseudo-gui). It supports a wide variety of media file
-formats (including images), audio and video codecs, and subtitle types.
+mpv is a free (as in freedom) [[media]] player for the command line (it has own
+pseudo-gui). It supports a wide variety of media file formats (including
+images), audio and video codecs, and subtitle types.
 
 mpv also provide GPU video decoding, API, scripts, OSD, OSC, configurable
 keybinding and ton of other features.

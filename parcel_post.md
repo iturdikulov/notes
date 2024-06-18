@@ -17,7 +17,7 @@ sr-ease: 250
 > may travel by sea or airmail.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Parcel_post)</cite>
 
-I use it very often in my [[in_real_life_IRL|life]].
+I use it very often in my [[IRL|life]].
 
 ## References
 

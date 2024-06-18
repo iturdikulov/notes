@@ -20,15 +20,15 @@ sr-ease: 250
 
 ## My Art and Media
 
-TODO: remove my, merge with similar notes.
+<!-- TODO: remove my, merge with similar notes. -->
 
 - [[my_art]]
 - [[my_fiction_books]]
-- [[my_Videos]], including [[YouTube]] and [[Twitch]]
+- [[my_videos]], including [[YouTube]] and [[Twitch]]
 - [[my_music]]
 - [[my_movies]]
 - [[my_games]]
-- [[my_Pictures]]
+- [[my_pictures]]
 - [[my_handwriting]]
 - [[comics]]
 - [[my_awesome_software_list]]

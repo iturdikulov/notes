@@ -11,7 +11,7 @@ sr-ease: 249
 # Debugger
 
 > A debugger or debugging tool is a [[computer_program|computer program]] used
-> to [[Software_testing|test]] and debug other programs (the "target" program).
+> to [[software_testing|test]] and debug other programs (the "target" program).
 > The main use of a debugger is to run the target program under
 > ==controlled conditions== that permit the programmer to track its execution
 > and monitor changes in computer resources that may indicate malfunctioning

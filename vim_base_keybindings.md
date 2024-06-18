@@ -8,7 +8,7 @@ tags:
 # Vim base keybindings
 
 I inspired by ThePirmeagen video [^1] to create this note, this cover small
-subset of [[neovim]] keybindings.
+subset of [[Neovim]] keybindings.
 
 ## 1. Movement/editing/writing Hotkeys:
 

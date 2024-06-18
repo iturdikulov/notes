@@ -9,9 +9,10 @@ sr-ease: 222
 
 # General-purpose programming language (GPL)
 
-GPL - [[Programming_language]] for building [[computer_software]] in a wide
-variety of application domains. Conversely, a domain-specific programming
-language (DSL) is used within a specific area.
+GPL - [[programming_language|programming language]] for building
+[[computer_software|computer software]] in a wide variety of application
+domains. Conversely, a domain-specific programming language (DSL) is used within
+a specific area.
 
 TODO: add source
 

@@ -19,9 +19,9 @@ directory:
 
 ## 1.1. Computer: what is it? (Компьютер: что это такое?)
 
-Main [[Computer|computer]] function is ==to compute==. In our time millions
-computing operations are wasted on information representation, then on actual
-calculations (low efficiency).
+Main [[computer]] function is ==to compute==. In our time millions computing
+operations are wasted on information representation, then on actual calculations
+(low efficiency).
 <!--SR:!2024-02-27,9,227-->
 
 ### 1.1.1 Some history (1.1.1 Немного истории)
@@ -96,7 +96,7 @@ Also, she predicted future of programmable computers.
 First full mechanical programmable computer?
 &#10;
 1938 Konrad Zuse created Z1, first full mechanical programmable computer
-(electricity used only in motor). Z1 used [[Binary_number|binary]] logic.
+(electricity used only in motor). Z1 used [[binary_number|binary]] logic.
 ![](../img/Z1_replica_German_Museum_of_Technology_Berlin_2017_024.jpg)
 <!--SR:!2024-02-25,4,162-->
 
@@ -274,7 +274,7 @@ alphabet). And any information processing is function computing.
 
 ### 1.1.2 Processor, memory, bus (Процессор, память, шина)
 
-In [[Computer_architecture|computer architecture]] system bus (historically also
+In [[computer_architecture|computer architecture]] system bus (historically also
 called data highway or databus) is a communication system that
 ==transfers data== between components inside a computer, or between computers.
 <!--SR:!2024-02-23,3,162-->
@@ -563,10 +563,10 @@ An operating system (OS) distribution is a copy of the OS distribution and
 service levels that are obtained from the operating system files (usually ISO).
 Most used are (order is not matter here):
 
-[[Microsoft_Windows|Microsoft Windows]] and Unix family:
+[[MS_Windows|Microsoft Windows]] and Unix family:
 - Linux based: [[NixOS]], [[archlinux]], Debian, Ubuntu, Fedora, Slackware, Gentoo, etc.
 - BSD family: FreeBSD, OpenBSD and other;
-- [[android]]: based on linux kernel;
+- [[Android]]: based on linux kernel;
 - macOS
 
 Do operating system require components which providing user interaction (UI)?
@@ -602,7 +602,7 @@ Initially dialog mode was created by using **teleprinters**.
 > the origin of the text terminal and the command-line interface.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Teleprinter#Teleprinters_in_computing)</cite>
 
-Why [[Escape_sequence|escape-sequences]] are needed for terminals (Terminal
+Why [[escape_sequence|escape-sequences]] are needed for terminals (Terminal
 emulator)?
 &#10;
 They allow control how text will be rendered (colors, style, etc.), change cursor
@@ -626,7 +626,7 @@ What command-line interpreter do?
 This program usually outputs command line **prompt** and wait when user types
 some text and press `Enter`. After that program execute users commands. This
 commands can be linked together, executed with some conditions, etc. (usually
-[[Turing_complete|Turing complete]]).
+[[turing_complete|Turing complete]]).
 <!--SR:!2024-02-24,3,162-->
 
 Command line interpreter identify first word as command (can be **built-in** or
@@ -696,7 +696,7 @@ In 1991 Linus Torvalds started work on Unix-like OS kernel for new i386 platform
 (one of the first cheap Intel CPU, potentially compatible with Unix). Initially
 he wanted to write terminal emulator, which working without OS, but at some
 point he realized that he's writing OS (it was included CPU time scheduler,
-floppy drive driver, etc.). He published results in [[Internet]], and he had
+floppy drive driver, etc.). He published results in [[internet]], and he had
 many contributors (right now it's thousands). Linux use GNU GPL license (creator
 is Richard Stallman).
 
@@ -748,7 +748,7 @@ their system (potential security risks, potential bugs, human-factor).
 ### 1.2.4 First session in computer class (Первый сеанс в компьютерном классе)
 
 To work with remote connection, you usually need to use some program for remote
-terminal access, for example [[Secure_shell_SSH|SSH]].
+terminal access, for example [[SSH]].
 
 To start X Window system type `startx` (after you log in for example).
 
@@ -1207,7 +1207,7 @@ Which man sections do you know?
 
 In Unix kernel can work (two types of executables) with binary files and shell
 ==scripts==. In shell script you place special character sequence of beginning
-of your script ([[Shebang]], kernel search 2 bytes `#!` to detect shell script),
+of your script ([[shebang]], kernel search 2 bytes `#!` to detect shell script),
 this will tell and toggle executable bit (`x`).
 This shebang has length limit (`man execeve`, 127 or 255 bytes).
 

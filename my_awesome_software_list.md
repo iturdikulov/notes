@@ -71,12 +71,12 @@ Table Of Contents:
 
 ## Development
 
-- [[neovim]] - main PDE environment
+- [[Neovim]] - main PDE environment
 - [[Pycharm]] - IDE for Python
 
 ## Books
 
-- [[calibre]] - e-book management software.
+- [[Calibre]] - e-book management software.
 
 
 ## Education
@@ -107,9 +107,9 @@ Table Of Contents:
 - [[Unreal_Engine|Unreal Engine]] - open-source 3D game engine
 - [[inkscape]] - open-source vector graphics editor,
 - [[darktable]] - photography workflow application and raw developer
-- [[godot]] - free and open source 2D and 3D game engine
+- [[Godot]] - free and open source 2D and 3D game engine
 - [[blender]] - open-source 3D computer graphics software tool set
-- [[krita]] - open-source painting program
+- [[Krita]] - open-source painting program
 - [[natron]] - open source compositing software
 
 - [SolveSpace](https://solvespace.com/index.pl) - 3D parametric/interactive CAD
@@ -123,16 +123,16 @@ Table Of Contents:
 ## Internet
 
 - [Firefox](https://www.mozilla.org/en-US/firefox/new/) - web browser,
-  [[firefox|more_info]]
+  [[Firefox|more_info]]
 - Thunderbird - Email client
 - [Brave](https://brave.com/) - modern, fast and private browser, based on
-  Chromium, [[brave]]
+  Chromium, [[Brave]]
 - [NeoMutt](https://neomutt.org/) - message user agent (MUA),
   [[neomutt|more_info]], not use anymore
 - [[Surfingkeys]] - keyboard-based navigation in web browser
 - [lynx](https://lynx.invisible-island.net/) - text-based web browser
 - [[Miniflux]] - RSS reader, web application, not use anymore
-- [[newsboat]] - CLI RSS reader, console application
+- [[Newsboat]] - CLI RSS reader, console application
 
 ## Office
 ## Productivity
@@ -146,8 +146,8 @@ Table Of Contents:
 
 ## Wiki Software
 
-- [[Telekasten.nvim]] - personal [[zettelkasten]]
-- [[obsidian]] - a knowledge base that works on local Markdown files. Used
+- [[Telekasten]] - personal [[Zettelkasten]]
+- [[Obsidian]] - a knowledge base that works on local Markdown files. Used
   mostly to render markdown notes and to organize [[Spaced_repetition|spaced
   repetition]] system.
 
@@ -161,10 +161,10 @@ Table Of Contents:
 
 - [[GNU_Compiler_Collection_GCC|GCC]] - GNU Compiler Collection
 - [[GNU_Debugger]] - GNU Project debugger
-- [[git]] - distributed version control system
+- [[Git]] - distributed version control system
 - [[docker]] - set of platform as service products that use OS-level virtualization to deliver software in packages called containers
 
-- [[Sc-im]] - vim-like spreadsheet calculator/editor
+- [[sc-im]] - vim-like spreadsheet calculator/editor
 
 - [locust](https://locust.io/) - An open source load testing tool
 - [jq](https://stedolan.github.io/jq/) - jq is like sed for JSON data,
@@ -174,7 +174,7 @@ Table Of Contents:
 
 - [[tmux]] - tmux is a terminal multiplexer,
   switch between several programs in one terminal
-- [[Z_shell]] - Unix shell that can be used as an interactive login shell and
+- [[ZSH]] - Unix shell that can be used as an interactive login shell and
 as a command interpreter for shell scripting
 - [[fzf]] - general-purpose command-line fuzzy finder
 
@@ -207,7 +207,7 @@ as a command interpreter for shell scripting
 
 ## Utilities
 
-- [[Sdcv]] - console version of StarDict dictionary
+- [[sdcv]] - console version of StarDict dictionary
 - [[termdown]] - Countdown timer and stopwatch in your terminal
 - [kitty](https://sw.kovidgoyal.net/kitty/) - The fast, feature-rich, GPU based
   terminal emulator
@@ -249,7 +249,7 @@ as a command interpreter for shell scripting
 ## Multimedia
 
 - [zathrua](https://pwmt.org/projects/zathura/) - Document viewer,
-  [[zathura|more_info]]
+  [[Zathura|more_info]]
 - [zared](https://github.com/paoloap/zaread) - E-Book and Office document reader
 - [ffmpeg](https://ffmpeg.org/) - a complete, cross-platform solution to record,
   convert and stream audio and video, [[ffmpeg|more_info]]
@@ -284,7 +284,7 @@ as a command interpreter for shell scripting
 - [ledger](https://www.ledger-cli.org/) - Command-Line Accounting,
   [[Ledger|more_info]]
 - [pass](https://www.passwordstore.org/) - the standard Unix password manager,
-  [[Pass|more_info]]
+  [[pass|more_info]]
 - [GPG](https://gnupg.org/) - encrypt and sign your data and communications,
   [[GNU_Privacy_Guard_GPG|more_info]]
 - [firejail](https://firejail.wordpress.com) - SUID sandbox program that reduces
@@ -344,10 +344,10 @@ as a command interpreter for shell scripting
 - [trash-cli](https://github.com/andreafrancia/trash-cli) - Command Line
   Interface to FreeDesktop.org Trash
 - [borgbackup](https://borgbackup.github.io/) - deduplicating archiver with
-  compression and encryption, [[borg|more_info]]
+  compression and encryption, [[Borg|more_info]]
 - [fdupes](https://github.com/adrianlopezroche/fdupes) - identifying or deleting
   duplicate files
-- [ventoy](https://www.ventoy.net/en/isolist.html) - tool to create bootable USB
+- [Ventoy](https://www.ventoy.net/en/isolist.html) - tool to create bootable USB
   drive, [[Ventoy|more_info]]
 - [xclip](https://github.com/astrand/xclip) - command line interface to the X11
   clipboard
@@ -392,20 +392,20 @@ as a command interpreter for shell scripting
   [[DWM|dwm]]
 - [GIMP](https://www.gimp.org/) - GNU Image Manipulation Program, fine but krita
   good enough for me
-- [anki](https://apps.ankiweb.net/) - [[Spaced_repetition|spaced_repetition]]
+- [Anki](https://apps.ankiweb.net/) - [[spaced_repetition|spaced_repetition]]
   flashcards
-- [emacs](https://www.gnu.org/software/emacs/) - lisp-based text editor
-- [bash](https://www.gnu.org/software/bash/) - Unix shell and command language
-- [klavaro](https://klavaro.sourceforge.io/en/index.html) - Touch Typing Tutor
-- [alacritty](https://alacritty.org/) - A cross-platform, GPU-accelerated
+- [Emacs](https://www.gnu.org/software/emacs/) - lisp-based text editor
+- [Bash](https://www.gnu.org/software/bash/) - Unix shell and command language
+- [Klavaro](https://klavaro.sourceforge.io/en/index.html) - Touch Typing Tutor
+- [Alacritty](https://alacritty.org/) - A cross-platform, GPU-accelerated
   terminal emulator
 
 ## Databases
 
 - [MySQL](https://www.mysql.com/) - relational database management system,
-  [[mysql|more_info]]
+  [[MySQL|more_info]]
 - [PostgreSQL](https://www.postgresql.org/) - object-relational database
-  management system, [[Postgresql|more_info]]
+  management system, [[PostgreSQL|more_info]]
 
 ## EDA
 
@@ -415,7 +415,7 @@ as a command interpreter for shell scripting
 
 ## CLI
 
-- [[Patch]]
+- [[patch]]
 - [[file]]
 - [scrcpy](https://github.com/Genymobile/scrcpy)
 
@@ -430,7 +430,7 @@ TODO: actualize this list
 ## Archive
 
 - [[Papis]]
-- [[zotero]]
+- [[Zotero]]
 - [MiniGlome/Archive.org-Downloader: Python3 script to download archive.org books in PDF format](https://github.com/MiniGlome/Archive.org-Downloader)
 
 ## TODO:

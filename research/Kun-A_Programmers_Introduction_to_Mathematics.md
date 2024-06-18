@@ -16,7 +16,7 @@ sr-ease: 245
 # A Programmer's Introduction to Mathematics: Second Edition
 
 A Programmer's Introduction to [[mathematics]] uses your
-familiarity with ideas from [[Computer_programming|programming]]
+familiarity with ideas from [[computer_programming|programming]]
 and software to teach mathematics. You'll learn about the central objects and
 theorems of mathematics, covering graphs, calculus, linear algebra, eigenvalues,
 optimization, and more. You'll also be immersed in the often unspoken cultural

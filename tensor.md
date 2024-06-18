@@ -18,7 +18,7 @@ sr-ease: 220
 > Tensors are defined independent of any basis, although they are often referred
 > to by their components in a basis related to a particular coordinate system.
 >
-> Tensors have become important in [[Physics]] because they provide a concise
+> Tensors have become important in [[physics]] because they provide a concise
 > mathematical framework for formulating and solving physics problems in areas
 > such as mechanics (stress, elasticity, fluid mechanics, moment of inertia,
 > ...), electrodynamics (electromagnetic tensor, Maxwell tensor, permittivity,

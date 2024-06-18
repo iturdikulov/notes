@@ -12,10 +12,9 @@ sr-ease: 172
 
 TODO: better group resources
 
-I usually just read some content in [[english_language|English]]. I also consume
-[[Media|media]] content in English.
+I usually just read/consume some content in [[English]].
 
-I am a native speaker of [[Russian_language|Russian]], and I need to study
+I am a native speaker of [[Russian]], and I need to study
 English with Russian in same time (to understand grammar terms, differences,
 etc.).
 
@@ -42,7 +41,7 @@ Fundamentals of English grammar:
 
 ## References
 
-- [[Touch_typing|Touch typing]] greatly help me to memorize words and phrases.
+- [[touch_typing|Touch typing]] greatly help me to memorize words and phrases.
 - [ ] [9 часов английского](https://www.youtube.com/watch?v=PqBT7xpmZlE)
 - [General Writing Introduction - Purdue University](https://owl.purdue.edu/owl/general_writing/index.html)
 - [[english_language_transcription]]

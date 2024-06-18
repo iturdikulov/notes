@@ -24,7 +24,7 @@ sr-ease: 274
 > are referred to as user agents.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Web_browser)</cite>
 
-Currently, I use [[firefox]] and [[brave]].
+Currently, I use [[Firefox]] and [[Brave]].
 
 I also recommended to check and integrate [[search_engine|search engines]] into
 your browser.

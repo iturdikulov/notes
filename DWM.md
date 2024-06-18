@@ -89,12 +89,12 @@ It's toggling notifications pause mode, in status bar displayed ⛔ icon.
 
 - 1. My main working workspace. Usually tmux session in pair with terminal.
 - 2. Browser workspace, also can contains [[Newsboat]] tmux session.
-- 3. [[ChatGPT]] + and [[translate-shell]] workspace
+- 3. [[ChatGPT]] + and [[Translate_Shell|Translate Shell]] workspace
 - 4. My personal wiki/education workspace, neovim with wiki project
 - 5. My personal art/game_dev workspace, [[Krita]], [[Godot]], etc.
 - 6. Free* workspace
 - 7. Email/Contacts workspaces
-- 8. Working Chat workspace, usually [[slack]]
+- 8. Working Chat workspace, usually [[Slack]]
 - 9. Stream and music workspace
 
 ## Keyboard shortcuts

@@ -43,7 +43,7 @@ sr-ease: 226
 - Open daily note::`M-f`
 - Find broken links::`M-S-b`
 
-Check also [[Spaced_repetition#Hotkeys|Spaced repetition]].
+Check also [[spaced_repetition#Hotkeys|Spaced repetition]].
 
 ## Plugins
 

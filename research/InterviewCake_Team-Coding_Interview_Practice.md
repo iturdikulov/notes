@@ -19,7 +19,7 @@ Kick butt at coding interviews. Be the candidate employers fight over.
 
 ## Other terms
 
-- [[Heap|heap]]
+- [[heap]]
 - [[bytecode]]
 
 ## 0. Algorithmic thinking

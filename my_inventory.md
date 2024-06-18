@@ -10,7 +10,7 @@ sr-ease: 250
 # My Buy List
 
 Usually I buy things in bulk, so I don't need to buy them again for a long time.
-I'm trying to buy items [[Shopping|online]] or offline (everyday items).
+I'm trying to buy items [[shopping|online]] or offline (everyday items).
 
 I need to inventory my items and update this list, to understand what I need to
 buy.

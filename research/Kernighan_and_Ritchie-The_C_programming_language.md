@@ -40,7 +40,7 @@ C wears well as one's ==experience== with it grows.
 
 # Preface to the first edition /8
 
-Is C is a [[General-purpose_programming_language|general-purpose]] language?
+Is C is a [[general-purpose_programming_language|general-purpose]] language?
 &#10;
 Yes, general-purpose something like universal language, to use it in any domain,
 and not have limited functions to specific domain.
@@ -56,8 +56,8 @@ in hardware programming, embedded systems, kernel development, etc.
 
 # Chapter 1 - A Tutorial Introduction /9
 
-Basics of C (as language, like [[Variable|variable]] and arithmetic
-[[Expression|expression]]).
+Basics of C (as language, like [[variable]] and arithmetic
+[[expression|expression]]).
 &#10;
 - Declarations, `int x;`
 - Variables and constants, `x = 1;`
@@ -120,7 +120,7 @@ Steps to compile and run a C program
 3. Load it & Run it
 5. Find out where your output went
 
-Describe this [[Escape_sequence|escape sequences]]'s:
+Describe this [[escape_sequence|escape sequences]]'s:
 - `\n`
 - `\t`
 - `\b`
@@ -136,8 +136,8 @@ Describe this [[Escape_sequence|escape sequences]]'s:
 - `\'` - single quote
 <!--SR:!2023-11-24,206,268-->
 
-Function contains ==[[Statement|statements]] which specify its computing
-operations to be done, and [[Variable|variables]]== to store values used during
+Function contains ==[[statement|statements]] which specify its computing
+operations to be done, and [[variable|variables]]== to store values used during
 the computation.
 
 Main difference between statement and expression?
@@ -290,7 +290,7 @@ Including header file, main function, variables declaration, assignment
 statements, while loop, loop body statements.
 
 `printf("%d\t%d\n", fahr, celsius);` Each % construction in the first argument
-of [[Printf_format_string]] is paired with the:
+of [[printf_format_string|printf]] is paired with the:
 corresponding ==second argument==.
 
 Is printf part of C language, does it's unified?
@@ -322,7 +322,7 @@ If variable has floating-point nature, but can be written using integral values
 ==decimal points for human readers==.
 <!--SR:!2023-06-12,31,248-->
 
-[[Printf_format_string]] check this note for details how '%'
+[[printf_format_string|printif]] check this note for details how '%'
 placeholder in printf work.
 
 ## 1.3 The for statement /16
@@ -691,7 +691,7 @@ Passing arguments by value called ==call by value==, while some other languages
 use call by reference (FORTRAN as example).
 <!--SR:!2023-05-15,3,267-->
 
-Worth to check [[Evaluation_strategy]].
+Worth to check [[evaluation_strategy|evaluation strategy]].
 
 Call by value usually leads to more compact programs with fewer extraneous
 variables, because parameters can be treated as conveniently initialized local

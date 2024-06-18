@@ -180,8 +180,7 @@ of inbox list.
 It's containing some materials which I want to read when I have free time.
 Only the things you actually want to read when you have the time should be put
 in this folder. In this directory each note have links to external article or
-book, which I can read (outside of PC, they are available through
-[[Open_Publication_Distribution_System_OPDS|OPDS]]).
+book, which I can read (outside of PC, they are available through [[OPDS]]).
 
 ## Tickler file
 

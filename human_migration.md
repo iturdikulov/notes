@@ -18,7 +18,7 @@ sr-ease: 250
 >
 > Migration is often associated with better human capital at both individual and
 > household level, and with better access to migration networks, facilitating a
-> possible second move in their [[in_real_life_IRL|live]].\
+> possible second move in their [[IRL|live]].\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Human_migration)</cite>
 
 ## References

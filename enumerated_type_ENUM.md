@@ -30,7 +30,7 @@ sr-ease: 226
 > techniques assigned arbitrary values to strings containing the names of the
 > enumerators.
 >
-> These arbitrary values were sometimes referred to as magic [[Number|numbers]]
+> These arbitrary values were sometimes referred to as magic [[number|numbers]]
 > since there often was no explanation as to how the numbers were obtained or
 > whether their actual values were significant. These magic numbers could make
 > the source code harder for others to understand and maintain.\

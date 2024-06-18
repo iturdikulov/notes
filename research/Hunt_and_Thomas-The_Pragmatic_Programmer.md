@@ -17,7 +17,7 @@ sr-ease: 216
 # The Pragmatic Programmer: Your Journey to Mastery
 
 > Andy and Dave wrote this influential, classic book to help their clients
-> create better [[Computer_software|software]] and rediscover the
+> create better [[computer_software|software]] and rediscover the
 > joy of coding. Almost twenty years later, its advice is still spot on, and the
 > Pragmatic philosophy has spawned hundreds of books, screencasts, and audio
 > books, as well as thousands of careers and success stories.
@@ -30,18 +30,18 @@ sr-ease: 216
 > this book, and you’ll learn how to:
 >
 > - Fight software rot
-> - [[How_I_learn_computer_programming|learn]] continuously
+> - [[how_I_learn_computer_programming|learn]] continuously
 > - Avoid the trap of duplicating knowledge
 > - Write flexible, dynamic, and adaptable code
 > - Harness the power of basic tools
-> - Avoid [[Computer_programming|programming]] by coincidence
+> - Avoid [[computer_programming|programming]] by coincidence
 > - Learn real requirements
 > - Solve the underlying problems of concurrent code
 > - Guard against security vulnerabilities
 > - Build teams of pragmatic
->   [[Programmer|programmers]]
+>   [[programmer|programmers]]
 > - Take responsibility for your work and career
-> - [[Software_testing|Test]] ruthlessly and effectively, including
+> - [[software_testing|Test]] ruthlessly and effectively, including
 >   Property-based testing
 > - Implement the Pragmatic Starter Kit
 > - Delight your users

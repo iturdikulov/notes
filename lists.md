@@ -28,8 +28,7 @@ sr-ease: 226
    1. very organized
    2. easy to follow
 
-I use lists a lot, and good to know some [[english_language|English]] grammar
-rules to follow.
+I use lists a lot, and good to know some [[English]] grammar rules to follow.
 
 > ## Punctuation in bullet lists
 >

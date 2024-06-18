@@ -38,7 +38,7 @@ sr-ease: 242
 
 ## Games
 
-- [[My_Games]]
+- [[my_games|My games]]
 - [lichess.org](http://ru.lichess.org/)
 - [Xonotic - Wikipedia](https://en.m.wikipedia.org/wiki/Xonotic)
 - [Классика на свободных движках — Games — Форум](https://www.linux.org.ru/forum/games/11192801)
@@ -49,7 +49,7 @@ sr-ease: 242
 - [ ] [ASCII графика и PIXEL арт на Python - YouTube](https://www.youtube.com/watch?v=ww55ublLFq8)
 - [ ] [Red Blob Games](https://www.redblobgames.com/)
 - [[research/Muratori-Handmade_Hero]]
-- [[Lineage_2_tools]]
+- [[lineage_2_tools|Lineage 2 tools]]
 - [[L2bot]]
 - [[OpenCV_L2_Bot]]
 - [[L2jserver_lineage_2_java_server]]

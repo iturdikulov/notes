@@ -8,7 +8,7 @@ sr-interval: 7
 sr-ease: 267
 ---
 
-# Translate-shell
+# Translate Shell
 
 > Translate Shell (formerly Google Translate CLI) is a command-line translator
 > powered by Google Translate (default), Bing Translator, Yandex.Translate, and

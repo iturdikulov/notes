@@ -26,7 +26,7 @@ sr-ease: 209
 > (to replace its parameters or formal parameters). The calling program provides
 > actual values for these parameters, called arguments.
 >
-> A function call may also have [[Side_effect|side effects]]
+> A function call may also have [[side_effect|side effects]]
 > such as modifying data structures in a computer memory, reading from or
 > writing to a peripheral device, creating a file, halting the program or the
 > machine, or even delaying the program's execution for a specified time.

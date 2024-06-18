@@ -16,7 +16,7 @@ sr-ease: 250
 > Linux, alongside GCC.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Bash_\(Unix_shell\))</cite>
 
-Personally, I use [[Z_shell|ZSH]] as my default shell
+Personally, I use [[ZSH]] as my default shell
 
 Cheat sheet:
 

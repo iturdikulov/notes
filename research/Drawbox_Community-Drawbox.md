@@ -17,7 +17,7 @@ sr-ease: 208
 # Drawabox - learning the fundamentals of drawing
 
 Site looks well-done and well-organized. It's even contain read the text
-feature, which help me as [[English_language|English]] learner.
+feature, which help me as [[English]] learner.
 
 ## Lesson 0: Getting Started
 

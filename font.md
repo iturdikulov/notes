@@ -17,7 +17,7 @@ sr-ease: 262
 > typeface consists of various fonts that share an overall design.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Font)</cite>
 
-I keep storing [[My_favorite_fonts|fonts]], which I use daily or which looks
+I keep storing [[my_favorite_fonts|fonts]], which I use daily or which looks
 great for me.
 
 A computer font is implemented as a digital data file containing a set of

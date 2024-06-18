@@ -11,7 +11,7 @@ sr-ease: 273
 # Zathura document viewer
 
 Zathura is my favorite [[document|documents']] viewer. It's support many
-formats (for example [[Portable_document_format_PDF]]), lightweight and fast.
+formats (for example [[PDF]]), lightweight and fast.
 
 I use custom configuration to adjust colors/fonts and paddings.
 

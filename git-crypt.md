@@ -9,7 +9,7 @@ sr-ease: 268
 
 # Git-crypt
 
-Git crypt allow you to use transparent file encryption in [[git|git]] repository.
+Git crypt allow you to use transparent file encryption in [[Git]] repository.
 
 > git-crypt enables transparent encryption and decryption of files in a git
 > repository. Files which you choose to protect are encrypted when committed,

@@ -23,7 +23,7 @@ sr-ease: 268
 > Digital audio technologies are used in the recording, manipulation,
 > mass-production, and distribution of sound, including recordings of songs,
 > instrumental pieces, podcasts, sound effects, and other sounds. Modern online
-> [[My_Music|music]] distribution depends on digital recording and data
+> [[my_music|music]] distribution depends on digital recording and data
 > compression.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Digital_audio)</cite>
 

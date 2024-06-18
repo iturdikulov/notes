@@ -15,7 +15,7 @@ review for each book.
 
 ## Fiction books
 
-### [[Russian_language|In Russian]]
+### [[Russian|In Russian]]
 
 - [x] [[research/Ekzyuperi-Malenkij_Princz]]
 - [ ] Review [The Little Prince - Wikipedia](https://en.wikipedia.org/wiki/The_Little_Prince)
@@ -35,7 +35,7 @@ review for each book.
 - [ ] [[research/Detskaya_literatura-Biblioteka_mirovoj_literatury_dlya_detej]]
 - [ ] [[research/Ekzyuperi-CZitadel]]
 
-### [[english_language|In English]]
+### [[English|In English]]
 
 - [ ] Iliad and the Odyssey
 - [ ] [[research/Laozi-Tao_Te_Ching]],

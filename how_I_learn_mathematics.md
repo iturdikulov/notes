@@ -25,7 +25,7 @@ sr-ease: 161
 
 ## Theory and Interactive
 
-- [[Multiplication_table]]
+- [[multiplication_table|Multiplication table]]
 - [Math Games](https://www.mathsisfun.com/games/index.html)
 - [GeoGebra](https://www.geogebra.org/)
 - [Mathway | Algebra Problem Solver](https://www.mathway.com/Algebra)

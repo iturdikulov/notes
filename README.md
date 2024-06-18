@@ -5,7 +5,7 @@ tags:
   - SR_productivity
 ---
 
-# Me and my [[zettelkasten]] notes.
+# Me and my [[Zettelkasten]] notes.
 
 I keep my notes, mostly to improve my [[learning|education process]], store
 important information (for me) and share it with others.
@@ -21,7 +21,7 @@ important information (for me) and share it with others.
 I'm a software engineer, who is trying to be a professional in the field and
 stay a human being at the same time ;-).
 
-[[taskwarrior]] with [[getting_things_done_GTD|GTD methodology]] helps me to
+[[Taskwarrior]] with [[getting_things_done_GTD|GTD methodology]] helps me to
 manage my life.
 
 I have some global notes, which allow choosing what to do **next**:

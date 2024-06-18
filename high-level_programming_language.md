@@ -11,7 +11,7 @@ sr-ease: 239
 # High-level programming language
 
 > In [[computer_science|computer science]], a high-level
-> [[Programming_language|programming language]] is a programming language with
+> [[programming_language|programming language]] is a programming language with
 > strong ==abstraction from the details== of the computer. In contrast to
 > low-level programming languages, it may use natural language elements, be
 > easier to use, or may automate (or even hide entirely) significant areas of
@@ -39,7 +39,7 @@ Fortran, created in 1950s.
 > — <cite>[@HighlevelProgrammingLanguage2023]</cite>
 
 Instead, dealing with registers, memory addresses and call stacks
-([[Low-level_programming_language|low-level language]]), high-level languages
+([[low-level_programming_language|low-level language]]), high-level languages
 deals with:
 
 - variables
@@ -53,4 +53,4 @@ deals with:
 - other abstractions
 
 I learn some high-level languages, listed in
-[[Programming_language|programming languages]] note.
+[[programming_language|programming languages]] note.

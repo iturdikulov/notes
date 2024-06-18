@@ -20,7 +20,7 @@ sr-ease: 252
 > the data.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Dictionary)</cite>
 
-I use [[Sdcv|electronic dictionaries]] to translations and understand the
+I use [[sdcv|electronic dictionaries]] to translations and understand the
 meaning of words.
 
 ## External links

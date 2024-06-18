@@ -46,7 +46,7 @@ Select > **S**elect Random.
 Orthographic mode basically means:
 &#10;
 That you can't see perspective, only
-[[Orthographic_projection|orthographic]] view (no depth, objects same size
+[[orthographic_projection|orthographic]] view (no depth, objects same size
 regardless of distance).
 
 You can click on circles in axis control widget (top-right) to orbit or

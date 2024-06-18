@@ -20,9 +20,9 @@ sr-ease: 228
 
 The SOLID acronym was introduced later, around 2004, by Michael Feathers.
 
-SOLID principles help build architecture with object-oriented design
-([[object-oriented_design|OOD]]). This isn't simple process and challenge for
-your skills. Usually OOD is must be done before you start coding.
+SOLID principles help build architecture with object-oriented design ([[OOD]]).
+This isn't simple process and challenge for your skills. Usually OOD is must be
+done before you start coding.
 
 Main purpose of SOLID principles is to make your classes more maintainable,
 flexible, improve their structure and make scalable. But don't forget about

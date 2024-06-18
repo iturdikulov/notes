@@ -18,9 +18,9 @@ sr-ease: 130
 
 Core Python language advantages?
 &#10;
-Python powerful, [[High-level_programming_language|high level]],
-[[Object-oriented_programming|object-oriented]]
-[[Programming_language|programming language]], very useful for rapid development
+Python powerful, [[high-level_programming_language|high level]],
+[[OOP|object-oriented]]
+[[programming_language|programming language]], very useful for rapid development
 and connect various components of programming system.
 
 My notes taken from the Python Tutorial. This tutorial is cover basic concepts
@@ -78,7 +78,7 @@ but standard library only use [[ASCII]] characters for identifiers, this
 convention that any portable code should follow.
 
 If you need to set non UTF-8 encoding, use ==`# -*- coding: encoding -*-`==
-comment as first line or after [[Shebang]]:
+comment as first line or after [[shebang]]:
 
 ```python
 #!/usr/bin/env python3
@@ -123,8 +123,8 @@ because that is `-2.75` and `-3.14` rounded downward. <!--SR:!2024-06-06,1,180--
 
 The `%` operator returns the ==remainder== of the division. <!--SR:!2024-06-13,9,240-->
 
-[[Operator|Operators]] with mixed type [[Operand|operand]]'s convert the integer
-operand to ==floating point, int → float==.
+[[operator|Operators]] with mixed type [[operand]]'s convert the integer operand
+to ==floating point, int → float==.
 ```python
 print(4 * 3.75 - 1) # 14.0
 ```
@@ -155,8 +155,8 @@ price + _         # 113.0625
 round(_, 2)       # 113.06
 ```
 
-Python support various [[Data_type|types]] of numbers such as: Int, Float,
-Decimal, Fraction, [[Complex_number|Complex]] number's (complex using `j` or `J`
+Python support various [[data_type|types]] of numbers such as: Int, Float,
+Decimal, Fraction, [[complex_number|Complex]] number's (complex using `j` or `J`
 suffix - `3+5j`).
 
 In Python all these types are objects, so they have methods and attributes.
@@ -173,7 +173,7 @@ print("\"Yes,\" they said.")
 print('"Isn\'t", they said.')
 ```
 
-In interactive mode [[Escape_sequence|escape sequences]] are not recognized, so
+In interactive mode [[escape_sequence|escape sequences]] are not recognized, so
 use `print()` function if you want interpreter them.
 
 You can disable escaping by using raw strings:
@@ -190,7 +190,7 @@ escape last quote.
 > only difference between the two is that within single quotes you don’t need to
 > escape `"` (but you have to escape `'`) and vice versa.
 
-[[String_literal|Strings]] can be multiple lines, wrapped by triple double quotes
+[[string_literal|Strings]] can be multiple lines, wrapped by triple double quotes
 (`"""`) or triple single quotes (`'''`). You can use `\` character to prevent
 automatically inserting new line in output, in functions or methods at the top
 this usually using for documentation (docstrings).
@@ -335,7 +335,7 @@ Is it possible to use index outside of string bounds?
 No, it will raise `IndexError` exception. So it's good idea to check bounds
 before using index. `"Test string"[11]`. <!--SR:!2024-06-15,10,240-->
 
-Python strings are ==[[Immutable_object|immutable]]==. You can't assign new
+Python strings are ==[[immutable_object|immutable]]==. You can't assign new
 value to character in string.
 ```python
 word = "Python"
@@ -363,8 +363,8 @@ s = "😀😀😀😀😀😀😀😀😀😀" "😀😀😀😀😀😀😀😀
 print(len(s))  # 28
 ```
 
-Most versatile [[Data_type|data type]] is [[List|list]]. In Python list can
-contain elements of ==different== types, but usually used one type of elements.
+Most versatile [[data_type|data type]] is [[list]]. In Python list can contain
+elements of ==different== types, but usually used one type of elements.
 ```python
 squares = [1, 4, 9, 16, 25]
 print(squares)  # [1, 4, 9, 16, 25]
@@ -373,7 +373,7 @@ print(squares)
 ```
 <!--SR:!2023-12-31,4,240-->
 
-Lists almost like [[String_literal|string]] (but mutable) and
+Lists almost like [[string_literal|string]] (but mutable) and
 [[Iterator|iterators]] can be indexed and sliced.
 
 ```python
@@ -447,7 +447,7 @@ x = [a, n]
 print(x) # [['a', 'b', 'c'], [1, 2, 3]]
 ```
 
-[[Fibonacci_sequence|Fibonacci sequence example]]:
+[[fibonacci_sequence|Fibonacci sequence example]]:
 
 <!-- NEXT: need to review this -->
 Can you write Fibonacci algorithm?
@@ -500,8 +500,8 @@ Order of Evaluation in Python expression (operand)?
 In Python, the left operand evaluated before the right operand (if they have
 same priority). <!--SR:!2024-06-01,2,180-->
 
-Non-zero, zero, zero length or [[Null_pointer|None]] values in Python (and C)
-considered as ==[[Boolean_data_type|boolean]]== (at least in if/else
+Non-zero, zero, zero length or [[null_pointer|None]] values in Python (and C)
+considered as ==[[bolean_data_type|boolean]]== (at least in if/else
 statements). <!--SR:!2024-06-08,3,220-->
 
 `-3**2` in Python is?
@@ -512,7 +512,7 @@ Since `**` operator has higher precedence than -, `-3**2` will be interpreted as
 
 ## 4. More Control Flow Tools
 
-[[Control_flow|Control flow]].
+[[control_flow|Control flow]].
 
 ```python
 if x < 0:
@@ -592,7 +592,7 @@ How to generate numbers form 1 to 100 using `range()`?
 print(list(range(1, 101)))
 ```
 
-And you can also specify [[Increment_and_decrement_operators|increment]] for
+And you can also specify [[increment_and_decrement_operators|increment]] for
 step size. Which can be positive or negative. Positive step size will generate
 sequence in increasing order and negative step size will generate sequence in
 decreasing order (alternative to `reversed()` function).
@@ -692,7 +692,7 @@ for num in range(2, 10):
 ```
 <!--SR:!2024-01-01,2,238-->
 
-`pass` is a ==[[Null_function|null operation]]== (name, this is statement, while
+`pass` is a ==[[null_function|null operation]]== (name, this is statement, while
 `None` is an object). When it is executed, nothing happens. It is useful as
 a placeholder when a statement is required syntactically, but no code needs
 to be executed.
@@ -715,7 +715,7 @@ except ImportError:
 
 A `match` statement comparing expression with ==successive== patterns (case
 block) until one of them matches (first pattern that matches get elected).
-This is [[Pattern_matching|pattern matching]] like in Rust or Haskell.
+This is [[pattern_matching|pattern matching]] like in Rust or Haskell.
 ```python
 def http_error(status):
     match status:

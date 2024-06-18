@@ -15,7 +15,7 @@ sr-ease: 268
 > capabilities and extensive mobile operating systems, which facilitate wider
 > software, access to the internet (including web browsing over mobile
 > broadband), and multimedia functionality (including [[my_music|music]],
-> [[my_Videos|video]], [[camera|cameras]], and [[my_games|gaming#smartphone]]),
+> [[my_videos|video]], [[camera|cameras]], and [[my_games|gaming#smartphone]]),
 > alongside core phone functions such as voice calls and text messaging.
 >
 > Smartphones typically contain a number of metal–oxide–semiconductor (MOS)

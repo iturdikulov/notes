@@ -10,7 +10,7 @@ sr-ease: 203
 # Tree (data structure)
 
 > In [[computer_science|computer science]], a tree is a widely used
-> [[abstract_syntax_tree_AST|abstract data type]] that represents a hierarchical
+> [[AST|abstract data type]] that represents a hierarchical
 > tree structure with a set of connected nodes. Each node in the tree can be
 > connected to many children (depending on the type of tree), but must be
 > connected to exactly one parent, except for the root node, which has no parent

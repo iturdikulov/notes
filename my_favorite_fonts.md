@@ -14,7 +14,7 @@ sr-ease: 270
 
 ## Favorite fonts
 
-Significant part are from [[Programming_fonts_-_test_drive]].
+Significant part are from [[programming_fonts_-_test_drive|programming fonts]].
 
 - Terminus and Terminus TTF. They look good on 1080p monitors.
 - TerminesTTF Nerd Font \*

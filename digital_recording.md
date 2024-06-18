@@ -10,7 +10,7 @@ sr-ease: 263
 
 # Digital recording
 
-> In digital recording, an [[digital_audio|audio]] or [[My_Videos|video]]
+> In digital recording, an [[digital_audio|audio]] or [[my_videos|video]]
 > signal is converted into a stream of discrete numbers representing the changes
 > over time in air pressure for audio, or chroma and luminance values for video.
 > This number stream is saved to a storage device. To play back a digital

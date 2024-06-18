@@ -19,7 +19,7 @@ sr-ease: 210
 ---
 
 A series where author show how to use taskwarrior to implement GTD. This series
-requires some knowledge of [[Getting_things_done_GTD|GTD]].
+requires some knowledge of [[getting_things_done_GTD|GTD]].
 
 # Part 1: Intro
 
@@ -122,7 +122,7 @@ representation.
 # Part 3: Tickling
 
 This chapter explaining how to use
-[[Getting_things_done_GTD#Tickler file|tickler file]] with Taskwarrior.
+[[getting_things_done_GTD#Tickler file|tickler file]] with Taskwarrior.
 
 Adding `wait:` metadata to a task ensures that the task won't be visible
 until the date that you set this metadata to. For example, when you enter
@@ -160,7 +160,7 @@ I think it's useful, so I have this alias too.
 # Part 4: Processing
 
 You usually process items following
-[[Getting_things_done_GTD#Processing|GTD processing]] workflow.
+[[getting_things_done_GTD#Processing|GTD processing]] workflow.
 
 Processing requirements?
 &#10;
@@ -179,7 +179,7 @@ anymore.
 &#10;
 1. Item is actionable?
   - It's not: Decide whether to keep note of it in your
-  [[Telekasten.nvim|reference system]], whether you want `think` it over of just
+  [[Telekasten|reference system]], whether you want `think` it over of just
   delete it. (Remember, when using `think`, you should enter a simple yes/no
   question.) Then check off the task.
   - It is: go on.
@@ -218,7 +218,7 @@ you are working. Luckily, Taskwarrior makes it very easy to allow you to
 use your context to your advantage. For now, all you need to remember is to
 always add at least one context tag to a task. Common context tags are
 `+@office`, `+@phone`, `+@computer`, `@shop`, ... Check more contexts
-variants in [[Getting_things_done_GTD#Contexts|GTD contexts]].
+variants in [[getting_things_done_GTD#Contexts|GTD contexts]].
 
 ## Research
 
@@ -247,7 +247,7 @@ to quickly generate this type of task.
 
 TODO: dynamic include?
 To grab web page title I use complex `url2text` script,
-which utilize [[Brave|brave]] browser (to support dynamic rendered
+which utilize [[Brave]] browser (to support dynamic rendered
 web-pages, and avoid some false-positive web-sites protection issues).
 
 And here `rnr` function:

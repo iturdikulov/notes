@@ -104,8 +104,8 @@ print(list(a))
 print(a)
 ```
 
--   str instances -  [[unicode]] code points, that represent textual characters from human language
-    str instances don't have binary encoding
+- str instances - [[Unicode]] code points, that represent textual characters
+from human language str instances don't have binary encoding
 
 <!--listend-->
 

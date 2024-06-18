@@ -16,10 +16,10 @@ sr-ease: 263
 # Structure and Interpretation of Computer Programs
 
 > Structure and Interpretation of Computer Programs has had a dramatic impact on
-> [[Computer_science|computer science]] curricula over the past decade. This
+> [[computer_science|computer science]] curricula over the past decade. This
 > long-awaited revision contains changes throughout the text. There are new
 > implementations of most of the major programming systems in the book,
-> including the [[Interpreter|interpreters]] and [[Compiler|compilers]], and the
+> including the [[Interpreter|interpreters]] and [[compiler|compilers]], and the
 > authors have incorporated many small changes that reflect their experience
 > teaching the course at MIT since the first edition was published. A new theme
 > has been introduced that emphasizes the central role played by different

@@ -11,12 +11,12 @@ sr-ease: 226
 
 # Notes types which I use with Zettelkasten
 
-This is initial table of notes types which I use with [[zettelkasten]]. I will
+This is initial table of notes types which I use with [[Zettelkasten]]. I will
 update it as I improve my workflow. To set note type need just apple tag from
 left column to note.
 
 All new note have a `- inbox` tag, this allowing to use
-[[Spaced_repetition|spaced repetition]] system to review and work with notes.
+[[spaced_repetition|spaced repetition]] system to review and work with notes.
 
 Workflow:
 
@@ -87,7 +87,7 @@ similarity. For example [[my_awesome_software_list|my awesome software list]].
 Requirements:
 - Main index note, as entry point, like websete index page. For example
 [[README|now]] my current working projects, reflect my current interests.
-- Topic note, like [[my_art|art]], [[my_Videos|videos]], etc.
+- Topic note, like [[my_art|art]], [[my_videos|videos]], etc.
 
 ## Templates
 
@@ -100,7 +100,7 @@ Tags are used to define note type.
 - outline note, tags: outline
 
 I also have additional topics tags, mainly used for
-[[Spaced_repetition|spaced repetition]] system:
+[[spaced_repetition|spaced repetition]] system:
 - SR_development - software related topics, shortcuts, etc.
 - SR_computer_science
 - SR_computer_graphics

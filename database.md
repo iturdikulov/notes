@@ -21,8 +21,8 @@ sr-ease: 240
 
 Databases which I use or want to try:
 
-- [[Postgresql]]
-- [[Mysql]]
+- [[PostgreSQL]]
+- [[MySQL]]
 - [[SQLite]]
 - [[Redis]]
 

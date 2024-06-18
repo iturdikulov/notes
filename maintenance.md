@@ -53,7 +53,7 @@ tools information in this note.
 ## Wiki
 
 - [[dataview_maintenance_queries|Dataview maintenance]], maintenance my
-[[zettelkasten]] system.
+[[Zettelkasten]] system.
 - Wiki inbox directory.
 - Find broken links in Wiki, find broken symlinks
 - `rg --files-with-matches -U tags\:\\n-|xargs vi`, find incorrect formatting

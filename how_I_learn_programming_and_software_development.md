@@ -30,6 +30,9 @@ note.
 - [[research/DeVries-Tutorials]]
 - [[research/ThePrimeagen-Tutorials]]
 
+- [Sourcemaking](https://sourcemaking.com/)
+- [A collection of full-stack resources for programmers](https://github.com/charlax/professional-programming)
+
 ## Python
 
 My main programming language is [[Python]] (for now). Here I store list of
@@ -121,7 +124,7 @@ Probably good for beginners, but I not like too many inaccuracy/wrongness in thi
 ## Computer graphics and game development
 
 - [[research/Muratori-Handmade_Hero|Handmade Hero]], my initial steps, heavy
-  related to programming with [[Microsoft_Windows|Windows]] API and
+  related to programming with [[MS_Windows|Windows]] API and
   [[computer_graphics|computer graphics]].
 - [[research/Javidx9-Code_It_Yourself]]
 
@@ -202,3 +205,17 @@ web pages.
 - [[research/Kernighan_and_Plauger-The_Elements_of_Programming_Style]]
 - [[research/Kernighan_and_Pike-The_Practice_of_Programming]]
 - [[research/Abelson_and_Sussman-Structure_and_Interpretation_of_Computer_Programs_SICP|SICP]]
+
+- [Continually updated, interactive, and test-driven coding challenges, with Anki flashcards.](https://github.com/donnemartin/interactive-coding-challenges)
+- [karan/Projects: A list of practical projects that anyone can solve in any programming language.](https://github.com/karan/Projects)
+- [Programming Tasks](https://rosettacode.org/wiki/Category:Programming_Tasks)
+- [ ] [Energy Efficiency across Programming Languages](https://greenlab.di.uminho.pt/wp-content/uploads/2017/09/paperSLE.pdf)
+- [ ] [The Architecture of Open Source Applications](https://aosabook.org/en/)
+- [ ] [15 Years Writing C++ - Advice for new programmers - YouTube](https://www.youtube.com/watch?v=37VZu3b045k)
+- [ ] [6.00sc Основы программирования - YouTube](https://www.youtube.com/playlist?list=PLxZ7p55WWz1la38FHUrOqNEBCn7tZfKf3)
+- [ ] [Processing, flexible software sketchbook and a language for learning how to code](https://processing.org/)
+- [ ] [Comparison of programming languages - Wikipedia](https://en.wikipedia.org/wiki/Comparison_of_programming_languages)
+- [ ] [Exercism, become fluent in your chosen programming languages](https://exercism.org/tracks)
+- [ ] [Which Programming Language Should I Learn First?](https://carlcheo.com/startcoding)
+- [ ] [Классификация знаний в области программирования / Habr](https://habr.com/en/articles/249983/)
+- [Rosetta Code - Wikipedia](https://en.wikipedia.org/wiki/Rosetta_Code)

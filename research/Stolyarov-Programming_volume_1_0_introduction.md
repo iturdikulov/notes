@@ -31,7 +31,7 @@ books, seems with bad support of author.
 
 I think this preface is like historical reference, how he wrote this book. Also
 was told which topics was touched ([[Pascal]], `NASM`, [[C]],
-[[Operating_system|OS]], paradigms, etc.) and reworked during writing this book,
+[[operating_system|OS]], paradigms, etc.) and reworked during writing this book,
 who helped author and other aspects of writing process.
 
 # Introduction 2, methodical (Предисловие 2, методическое)
@@ -42,7 +42,7 @@ Learning programming by writing GUI applications first (event-driven approach)
 is bad idea.
 
 Main tool of professional Unix user is **organized**
-([[Command-line_interface_CLI|CLI]]).
+([[command-line_interface_CLI|CLI]]).
 
 Command line interface is more powerful and flexible than GUI, you can work with
 it faster, less stress on hands, operations are easier to remember and so on.
@@ -55,14 +55,14 @@ in next sections.
 
 ## Mathematical reason (Математическая причина)
 
-Any [[Computer_programming|program]] is a record of ==algorithm== on some
+Any [[computer_programming|program]] is a record of ==algorithm== on some
 programming language. <!--SR:!2024-06-03,9,187-->
 
 On very fundamental level no-one knows what algorithm it is, that's why we have
-[[Computational_problem|computational problems]], and theoretical
-[[Computer_science|computer science]].
+[[computational_problem|computational problems]], and theoretical
+[[computer_science|computer science]].
 
-Algorithm make transformation from set of [[Word|words]] (chains of symbols over
+Algorithm make transformation from set of [[word|words]] (chains of symbols over
 some alphabet) into the same ==set==.
 For this transformation can exist more than one algorithm (countless) or not
 exist. <!--SR:!2024-06-27,33,227-->
@@ -111,7 +111,7 @@ Stating learning programming from complex programming languages (like Java, C++
 and even C) is bad idea, newbie learners will have hard been understanding their
 concepts and not really will learn programming. <!--SR:!2024-05-27,2,169-->
 
-Knowing [[Data_structure|data structures]] is important, if you're not
+Knowing [[data_structure|data structures]] is important, if you're not
 understanding difference (and in result where they can be used) between `vector`
 and `list` in C++ and you **won't understand it** this is bad sign.
 
@@ -129,7 +129,7 @@ need to understand code on very low level to create truly effective programs. <!
 
 In C you haven't ==procedures==, only functions. For example even assignment,
 increment are arithmetic operations. And in C formally any actions (which is
-core of C) are creating [[Side_effect|side effect]]. <!--SR:!2024-05-27,2,169-->
+core of C) are creating [[side_effect|side effect]]. <!--SR:!2024-05-27,2,169-->
 
 > Side effect can be appeared only when evaluating expression.
 Side effect this is arbitrary change, which occurring when evaluating expression

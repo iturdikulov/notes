@@ -12,7 +12,7 @@ sr-ease: 209
 # Iturdikulov.com
 
 My personal website, which contains various
-[[My_awesome_web_services_list|services]], [[Zettelkasten|notes]], etc.
+[[my_awesome_web_services_list|services]], [[Zettelkasten|notes]], etc.
 
 Website information:
 

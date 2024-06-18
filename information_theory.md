@@ -12,7 +12,7 @@ sr-ease: 260
 > Branch of applied [[mathematics]] and electrical engineering.
 > Information theory measures the amount of information in data that could have
 > more than one value. In its most common use, information theory finds
-> [[Physics|physical]] and mathematical limits on the amounts of data in data
+> [[physics|physical]] and mathematical limits on the amounts of data in data
 > compression and data communication. Data compression and data communication
 > are statistical, because they guess unknown values. The amount of information
 > in data measures how easily it is guessed by a person who does not know its

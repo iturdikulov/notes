@@ -21,7 +21,7 @@ sr-ease: 225
 > search probabilities for each element vary.
 >
 > Linear search is rarely practical because other
-> [[Search_algorithm|search algorithms]] and schemes, such as the
+> [[search_algorithm|search algorithms]] and schemes, such as the
 > [[binary_search_algorithm|binary search algorithm]] and
 > [[hash_table|hash table]], allow significantly faster searching for all but
 > short lists.\

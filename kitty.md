@@ -33,7 +33,8 @@ sr-ease: 254
 > little effort.\
 > — <cite>[kitty](https://sw.kovidgoyal.net/kitty/overview)</cite>
 
-Personally, I just switched to [[Suckless.org#xst|xst]] and not use kitty right
+<!-- NEXT: link/note to wezterm -->
+Personally, I just switched to Wezterm and not use kitty right
 now.
 
 ## Shortcuts

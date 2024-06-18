@@ -25,7 +25,7 @@ sr-ease: 261
 I use digital tools for proofreading, such as
 [LanguageTool](https://languagetool.org/ru) (with
 [valentjn/ltex-ls](https://github.com/valentjn/ltex-ls)) to write grammatically
-correct text in [[english_language|English]] and [[Russian|Russian]].
+correct text in [[English]] and [[Russian]].
 
 ## A Pop Culture Guide to Proofreading Marks
 

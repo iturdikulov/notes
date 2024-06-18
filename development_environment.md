@@ -12,11 +12,11 @@ sr-ease: 252
 
 <!-- NEXT: review this -->
 
-- [[My_productivity_workflow]]
-- [[Unix|unix_as_a_philosophy]]
+- [[my_productivity_workflow|Productivity]]
+- [[Unix]]
 - Windows manager: [[DWM]]
-- Terminal: [[Kitty]]
-- Shell: [[Z_shell]]
+- Terminal: [[kitty]]
+- Shell: [[ZSH]]
 - Editor: [[Neovim]]
 - Browser:
   - vim keybindings
@@ -26,15 +26,15 @@ sr-ease: 252
   - adblocker
   - research
 - Other:
-  - [[Suckless.org]]
-  - [[Self-hosting]]
-  - [[hugo]]
-  - [[Microsoft_Windows]]
+  - [[suckless.org]]
+  - [[self-hosting]]
+  - [[Hugo]]
+  - [[MS_Windows]]
   - [[Zotero]]
-  - [[git]]
+  - [[Git]]
   - [[fzf]]
 - Office
   - [[Zathura]]
   - [[Latex]]
 - Mouseless_workflow
-- [[Keyboard_shortcut]]
+- [[keyboard_shortcut]]

@@ -11,7 +11,7 @@ sr-ease: 253
 
 # Git tips
 
-My personal [[git]] cheat sheet, tips and tricks.
+My personal [[Git]] cheat sheet, tips and tricks.
 
 ## General
 Check the Git version:

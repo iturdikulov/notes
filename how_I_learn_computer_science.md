@@ -62,19 +62,19 @@ Check also related
 - Data Structures
     - [[array|Arrays]]
     - Linked Lists
-    - [[Stack]]
-    - [[Queue]]
+    - [[stack]]
+    - [[queue]]
     - [[hash_table|Hash table]]
 - More Knowledge
     - Binary search
     - Bitwise operations
 - Trees
-    - [[Tree]]
+    - [[tree]]
     - Binary search tree: BST
     - [[heap]] / Priority Queue / Binary Heap
     - balanced search trees (general concept, not details)
     - traversals: preorder, inorder, postorder, BFS, DFS
-- [[Sorting_algorithm|Sorting]]
+- [[sorting_algorithm|Sorting]]
     - selection
     - insertion
     - heapsort
@@ -87,7 +87,7 @@ Check also related
     - adjacency list
     - traversals: BFS, DFS
 - Even More Knowledge
-    - [[Recursion]]
+    - [[recursion]]
     - [[dynamic_programming]]
     - Design Patterns
     - [[combinatorics|Combinatorics (n choose k) & Probability]]
@@ -95,7 +95,7 @@ Check also related
     - How computers process a program
     - [[cache_computing|Caches]]
     - Processes and Threads
-    - [[Software_testing|Testing]]
+    - [[software_testing|Testing]]
     - String searching & manipulations
     - Tries
     - [[floating-point_arithmetic|Floating Point Numbers]]
@@ -167,7 +167,7 @@ Check also related
 ## Cheat sheets, glossaries, outlines
 
 - [[research/Wikipedia-Glossary_of_computer_science]]
-- [[List_of_algorithms|List of algorithms]]
+- [[list_of_algorithms|List of algorithms]]
 - [Wikipedia - List of algorithms](https://en.wikipedia.org/wiki/List_of_algorithms)
 - [[research/Nova_Byrne-Tech_yourself_computer_science|Tech yourself computer science]]
 

@@ -10,7 +10,7 @@ sr-ease: 280
 # Hexadecimal
 
 > In [[mathematics]] and [[computing]], the hexadecimal
-> (also base-16 or simply hex) [[Number|numeral]] system is a positional numeral
+> (also base-16 or simply hex) [[number|numeral]] system is a positional numeral
 > system that represents numbers using a radix (base) of sixteen. Unlike the
 > decimal system representing numbers using ten symbols, hexadecimal uses
 > sixteen distinct symbols, most often the symbols "0"–"9" to represent values 0

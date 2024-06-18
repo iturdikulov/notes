@@ -32,7 +32,7 @@ To implement the spaced repetition strategy, you can use tools such as flash
 cards or specialized software that can adapt the timing of review intervals
 based on your performance.
 
-Right now I'm using [[obsidian]] plugin
+Right now I'm using [[Obsidian]] plugin
 [spaced repetition](https://www.stephenmwangi.com/obsidian-spaced-repetition/)
 and various note types to generate flashcards. I also use it to select current
 notes to work.

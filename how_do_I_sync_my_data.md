@@ -12,10 +12,10 @@ sr-ease: 244
 
 Mainly I have this data:
 - working projects, out of sync. It's very critical to avoid data loss. I
-use [[borg]] for daily backup.
+use [[Borg]] for daily backup.
 - wiki library, synced by syncthing, two-way (data storage ↔ phone and
-tablet). To avoid data loss, I am using [[git]] and 1-hours backup using
-[[borg]] + 5 versions managed by syncthing. Additionally, my syncthing server
+tablet). To avoid data loss, I am using [[Git]] and 1-hours backup using
+[[Borg]] + 5 versions managed by syncthing. Additionally, my syncthing server
 usually always online, to avoid sync conflicts.
 Ignored directories: `.obsidian`, `.git`. I also place here
 additional data:
@@ -36,4 +36,4 @@ mostly to listen music offline.
 sorted photos, journals, etc.
 - videos are manged by samba server.
 
-Check also [[Maintenance]].
+Check also [[maintenance]].
