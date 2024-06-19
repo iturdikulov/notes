@@ -21,4 +21,4 @@ works at a low level.
 I like high-level abstractions and simplicity and building things.
 I know some things about computers, how they work on low-level.
 
-My current interests available in [[README]] note.
+My current interests available in [[index]] note.
