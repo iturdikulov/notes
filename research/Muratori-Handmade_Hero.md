@@ -4,9 +4,6 @@ external:
   - https://hero.handmade.network/episode/code
 date: 2014
 directory: ~/Computer/graphics/Muratori-Handmade_Hero
-sr-due: 2023-10-04
-sr-interval: 1
-sr-ease: 233
 tags:
   - inbox
   - research

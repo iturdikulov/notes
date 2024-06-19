@@ -2,9 +2,6 @@
 external:
   - https://drawabox.com/
 date: 2023-05-29
-sr-due: 2023-10-10
-sr-ease: 208
-sr-interval: 6
 tags:
   - inbox
   - SR_art

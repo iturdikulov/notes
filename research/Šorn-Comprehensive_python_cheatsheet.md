@@ -1,9 +1,6 @@
 ---
 author: Jure Šorn
 date: 2023
-sr-due: 2023-09-06
-sr-interval: 13
-sr-ease: 228
 external:
   - https://github.com/gto76/python-cheatsheet
 tags:

@@ -1,9 +1,6 @@
 ---
 author: Drew Neil
 date: 2015
-sr-due: 2023-12-28
-sr-interval: 225
-sr-ease: 266
 directory: ~/Computer/software/Neil-Practical_Vim
 tags:
   - research

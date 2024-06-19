@@ -1,9 +1,6 @@
 ---
 author: TJ DeVries
 created: 2023-06-05
-sr-due: 2023-08-25
-sr-interval: 1
-sr-ease: 230
 external:
   - https://www.youtube.com/@teej_dv/videos
 directory: ~/Computer/programming/DeVries-Tutorials/

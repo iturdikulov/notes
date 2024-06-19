@@ -6,9 +6,6 @@ tags:
   - inbox
   - research
   - SR_mathematics
-sr-due: 2023-08-28
-sr-interval: 1
-sr-ease: 230
 author: Math is Fun Team
 directory: ~/Science/math/Math_is_Fun_Team-Math_is_Fun/
 sr-due: 2024-02-13

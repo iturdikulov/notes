@@ -3,9 +3,6 @@ author: Eмeлин Aлeксaндр
 date: 2021-9-31
 external:
   - https://mathter.pro/pesochnica/index.html
-sr-due: 2023-12-23
-sr-interval: 220
-sr-ease: 270
 directory: ~/Science/math/Емелин-Кратчайший_курс_школьной_математики
 tags:
   - research

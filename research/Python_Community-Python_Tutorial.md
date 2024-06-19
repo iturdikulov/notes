@@ -2,9 +2,6 @@
 external:
   - https://docs.python.org/3/tutorial/index.html
 date: 2023
-sr-due: 2023-10-04
-sr-interval: 1
-sr-ease: 240
 tags:
   - research
   - inbox

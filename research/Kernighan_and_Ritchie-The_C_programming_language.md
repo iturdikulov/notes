@@ -1,7 +1,4 @@
 ---
-sr-due: 2027-06-15
-sr-interval: 1348
-sr-ease: 256
 directory: ~/Computer/programming/Kernighan_and_Ritchie-The_C_programming_language
 tags:
   - research
