@@ -86,7 +86,7 @@ similarity. For example [[my_awesome_software_list|my awesome software list]].
 
 Requirements:
 - Main index note, as entry point, like websete index page. For example
-[[README|now]] my current working projects, reflect my current interests.
+[[index|now]] my current working projects, reflect my current interests.
 - Topic note, like [[my_art|art]], [[my_videos|videos]], etc.
 
 ## Templates
