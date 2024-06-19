@@ -73,7 +73,6 @@ meaning of words.
 - closure
 - compound
 - comprehension
-- computer
 - computer::`[kəmˈpjuːtə]` компьютер, расчетчик, вычислительный; Our sales information is processed by computer.
 - concern
 - concise
@@ -216,6 +215,7 @@ meaning of words.
 - восклицательный
 - восьмушка
 - выпуклсть
+- глубина
 - говядина
 - голова
 - дейтерий
