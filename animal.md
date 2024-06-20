@@ -55,6 +55,8 @@ Here I store various information about animals.
 
 ## The Horticultural Chart of Houseplants
 
+TODO: wrong place!
+
 > Make your house a little greener with this cheery chart of over a hundred
 > popular potted plants! A veritable horticultural who’s who, each leafy friend
 > has been lushly illustrated and labeled with nomenclature both common and
