@@ -18,7 +18,7 @@ This is the best way to practice learning new technologies and tools.
 - [[social_networking_service|Social network]] automation service.
 - [[Zettelkasten]] wiki.
 - Nix, dotfiles + scripts, my custom [[NixOS]] configuration and scripts.
-- Neovim setup, [remote](https://github.com/Inom-Turdikulov/nvim) and
+- Neovim setup, [remote](https://github.com/iturdikulov/nvim) and
 [local](file:///home/inom/.config/nvim).
 
 ## Initial state

@@ -29,7 +29,7 @@ Flash firmware steps:
 1. Go to directory with QMK firmware `cd qmk_firmware`
 
 2. Prepare environment, I have configured [[NixOS]] module:
-[qmk.nix](https://github.com/Inom-Turdikulov/dotfiles/blob/master/modules/hardware/qmk.nix).
+[qmk.nix](https://github.com/iturdikulov/dotfiles/blob/master/modules/hardware/qmk.nix).
 
 3. Run qmk setup, in most situations you will answer `y` to all questions
    `qmk setup`

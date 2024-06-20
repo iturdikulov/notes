@@ -204,7 +204,7 @@ HDGE -> geodata editor/converter
 Основано на базе гайда от Ulthar, 20 май 2011, [Devmode (режим разработчика) в клиенте Lineage
 | 4Game](https://4gameforum.com/threads/167651/).
 
-1. Download [L2 File Editor](https://github.com/Inom-Turdikulov/L2FileEdit)
+1. Download [L2 File Editor](https://github.com/iturdikulov/L2FileEdit)
 2. Decrypt and open `l2.ini`
 3. Save file as `l2pawn.ini` in same directory with this modifications:
 NOTE: set read-only flag on this file, otherwise client will rewrite it. If not

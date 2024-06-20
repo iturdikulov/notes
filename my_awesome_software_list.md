@@ -462,7 +462,7 @@ TODO: actualize this list
 - [ ] [Big Pile of Vim-like](https://vim.reversed.top/)
 - [ ] [terminal.sexy - Terminal Color Scheme Designer](https://terminal.sexy/)
 - [ ] [Set A Light 3D Review: Can you learn lighting in a computer? - YouTube](https://www.youtube.com/watch?v=YFlC6RL1MmM)
-- [ ] [GitHub - Inom-Turdikulov/diceware: Passphrases to remember](https://github.com/Inom-Turdikulov/diceware)
+- [ ] [GitHub - Inom-Turdikulov/diceware: Passphrases to remember](https://github.com/iturdikulov/diceware)
 - [ ] [GitHub - guancio/org-fit](https://github.com/guancio/org-fit)
 - [ ] [GitHub - LukeSmithxyz/emailwiz: Script that installs/configures a Dovecot, Postfix, Spam Assassin, OpenDKIM Debian web server](https://github.com/LukeSmithxyz/emailwiz)
 - [ ] [GitHub - LukeSmithxyz/mutt-wizard: A system for automatically configuring mutt and isync with a simple interface and safe passwords](https://github.com/LukeSmithxyz/mutt-wizard)

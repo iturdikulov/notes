@@ -25,7 +25,7 @@ maybe not clear logic if you use it first time, but It's all manageable and
 solvable. Especially if you use something like `DWM flexipatch`.
 
 Right now I use various patches, with my dwm-flexipatch fork:
-[Inom-Turdikulov/dwm-flexipatch](https://github.com/Inom-Turdikulov/dwm-flexipatch).
+[Inom-Turdikulov/dwm-flexipatch](https://github.com/iturdikulov/dwm-flexipatch).
 
 To use dwm effectively, I use my own [[#Keyboard shortcuts]]
 

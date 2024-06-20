@@ -42,7 +42,7 @@ sh <(curl -L https://nixos.org/nix/install) --daemon # details -> n, sudo -> y
 
 We’re now following [https://nixos.wiki/wiki/Install\_NixOS\_on\_a\_Server\_With\_a\_Different\_Filesystem](https://nixos.wiki/wiki/Install_NixOS_on_a_Server_With_a_Different_Filesystem) and it’s a little more advanced:
 
-    git clone https://github.com/Inom-Turdikulov/nix-tests
+    git clone https://github.com/iturdikulov/nix-tests
     cd nix-tests/kexec
     # edit configuration.nix to add your pub ssh key into authorizedKeys.keys
     vi configuration.nix
@@ -76,7 +76,7 @@ I have own guide to install NixOS, don't forget to enable SSH with your key!
 NOTE: if you see some message, like reboot scheduled, you can cancel it with
 this command `shutdown -c`.
 
-Guide: [GitHub - Inom-Turdikulov/dotfiles: And I say hey, what's going on?](https://github.com/Inom-Turdikulov/dotfiles)
+Guide: [GitHub - Inom-Turdikulov/dotfiles: And I say hey, what's going on?](https://github.com/iturdikulov/dotfiles)
 
 ## Alternative way (not tested)
 

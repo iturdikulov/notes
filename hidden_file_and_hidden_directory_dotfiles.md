@@ -17,7 +17,7 @@ They are commonly used for storing user configuration files.
 
 ## References
 
-- My personal dotfiles [GitHub](https://github.com/inom-Turdikulov/dotfiles)
+- My personal dotfiles [GitHub](https://github.com/iturdikulov/dotfiles)
 - [ ] [craftzdog dotfiles](https://github.com/craftzdog/dotfiles-public)
 - [ ] [hlissner dotfiles](https://github.com/hlissner/dotfiles)
 - [ ] [ThePrimeagen dotfiles](https://github.com/ThePrimeagen/.dotfiles)
