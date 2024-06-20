@@ -1,4 +1,5 @@
 ---
+title: iturdikulov.com
 date: 2023-05-14
 tags:
   - bridge
@@ -46,4 +47,8 @@ I'm connecting with them by voice calls, sometimes text messages and
 
 Mentoring, I'm trying to help colleagues, people on [[GitHub]] projects,
 [[Stack_Overflow|Stack Overflow]], etc.
+
+## Website
+
+Web version of my notes  made on [Quartz](https://quartz.jzhao.xyz/).
 
