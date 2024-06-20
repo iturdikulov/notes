@@ -27,7 +27,7 @@ activities.
 For life support I need [[my_inventory|buy some things]], [[cooking|cook]] food
 and [[my_inventory|keep inventory]] (which require [[maintenance|maintenance]]).
 
-Sometimes I do some [[Do_it_yourself_DIY|cool things]] or spent time for
+Sometimes I do some [[DIY|cool things]] or spent time for
 [[art]].
 
 Also, worth to mention this notes [[home_construction|home construction]] and

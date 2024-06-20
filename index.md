@@ -27,13 +27,13 @@ manage my life.
 I have some global notes, which allow choosing what to do **next**:
 
 - [[my_routine|Daily routine]], for more predictable life.
-- [[work]] as main activity, [[finance|finance]] source.
-- [[learning]] is source of pet projects.
-- [[my_pet_projects|Pet Projects]] to do something interesting and useful.
+- [[work|Work]] as main activity, [[finance]] source.
+- [[learning|Learning]] is source of pet projects.
+- [[my_pet_projects|Pet projects]] to do something interesting and useful.
 - [[IRL]] for social activities and socializing.
-- [[my_physical_exercise_plan|physical exercises]] to increase quality of life
-- [[health]] control and improvement.
-- [[media]] collection, for relax and fun.
+- [[my_physical_exercise_plan|Physical exercises]] to increase quality of life
+- [[health|Health]] control and improvement.
+- [[media|Media]] collection, for relax and fun.
 
 ## IRL
 
@@ -45,4 +45,5 @@ I'm connecting with them by voice calls, sometimes text messages and
 [[IRL]]. I also store my [[how_do_I_work_with_contacts|contacts]] workflow.
 
 Mentoring, I'm trying to help colleagues, people on [[GitHub]] projects,
-[[Stack_Overflow]], etc.
+[[Stack_Overflow|Stack Overflow]], etc.
+
