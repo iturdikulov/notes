@@ -19,5 +19,5 @@ tags:
 > the spatial size, if any, of the entire universe is unknown.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Universe)</cite>
 
-![Celestial Zoo infographic](img/The_Celestial_Zoo_infographic_wikimedia.png)
+![Celestial Zoo infographic](img/The_Celestial_Zoo_infographic_wikimedia.webp)
 _Celestial Zoo infographic_

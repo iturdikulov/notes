@@ -19,7 +19,7 @@ sr-ease: 221
 > engineering.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Computing)</cite>
 
-![Computer simulation, one of the main cross-computing methodologies.](GalvesLocherbach_-_High_Resolution.gif)
+![Computer simulation, one of the main cross-computing methodologies.](./img/GalvesLocherbach_-_High_Resolution_(360).gif)
 _Computer simulation, one of the main cross-computing methodologies._
 
 TODO: recreate in 3D using [[research/Raylib_Community-Raylib]]?
