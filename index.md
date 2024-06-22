@@ -6,7 +6,25 @@ tags:
   - SR_productivity
 ---
 
+# I’m Inom Turdikulov
+
+You are on my home page. I'm a programmer specialized in web development (mostly
+[[backend]]). I'm also interested in [[computer_graphics|computer graphics]],
+game development and [[art]].
+
+For press or business inquiries, you can contact me via [[email]], to get it
+please try to use **one** of these methods:
+
+- Combine my name in lowercase (`Inom`), the at sign (`@`), and current domain
+  (`iturdikulov.com`), and then you get full email address.
+
+- If you have modern [[web_browser|web browser]] you can read it from the
+  picture below.
+  ![my_email](./img/my_email.svg)
+
 # Me and my [[Zettelkasten]] notes.
+
+My site contains mainly my notes that are of interest of me (personal [[wiki]]).
 
 I keep my notes, mostly to improve my [[learning|education process]], store
 important information (for me) and share it with others.
