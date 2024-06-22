@@ -24,8 +24,9 @@ Wake-up with good moon, make your day better. I feel better if I wake up from
 
 Good checklist for wake-up:
 
-- Wash your face and brush your teeth.
+- Wash your face and brush your teeth, both are important.
 - Drink a glass of water.
+- Plan something important, at least 3 big tasks.
 - Do basic training, 20–35 minutes sessions (in my case run).
 - Walk outside for 10–20 minutes to get enough energy from sun (Vitamin D).
 - Prepare your workspace and start doing something important.
