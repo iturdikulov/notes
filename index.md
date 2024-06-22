@@ -70,3 +70,7 @@ Mentoring, I'm trying to help colleagues, people on [[GitHub]] projects,
 
 Web version of my notes  made on [Quartz](https://quartz.jzhao.xyz/).
 
+Use default browser search function (usually `Ctrl/CMD-F`) to find some note by
+filename, instead space use `_` character, they are available in left sidebar.
+
+Use search input (or `Ctrl/CMD-K` key) for full-text search.
