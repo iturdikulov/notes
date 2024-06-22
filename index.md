@@ -19,7 +19,7 @@ please try to use **one** of these methods:
   (`iturdikulov.com`), and then you get full email address.
 
 - If you have modern [[web_browser|web browser]] you can read it from the
-  picture below.
+  picture below.\
   ![my_email](./img/my_email.svg)
 
 # Me and my [[Zettelkasten]] notes.
