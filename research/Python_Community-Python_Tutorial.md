@@ -48,7 +48,7 @@ brackets;
 ## 2. Using the Python Interpreter
 
 - Start interactive interpreter mode: `python3` or better `ipython`. On my
-  machines also aviable `ipy` and `py` aliases.
+  machines also avaiable `ipy` and `py` aliases.
 - Exit: `C-d`, `C-z` or `quit()`
 - Interpreter support [[GNU_Readline|readline]] library (which is cool)
 - `python -c` - execute Python code, useful for one-liners scripts, if command
@@ -386,7 +386,7 @@ the requested elements.
 squares = [1, 4, 9, 16, 25]
 print(squares[:])  # [1, 4, 9, 16, 25]
 ```
-<!--SR:!2024-06-07,2,200-->
+<!--SR:!2024-06-26,4,200-->
 
 Lists also support operations like concatenation.
 
@@ -647,7 +647,7 @@ What you will see with this code: `sum(range(4))`?
 0 + 1 + 2 + 3 = 6 <!--SR:!2024-06-12,9,240-->
 
 > The `break` statement, like in C, `breaks out` of the innermost enclosing
-> ==`for` or `while` loop==. <!--SR:!2024-06-11,6,238-->
+> ==`for` or `while` loop==. <!--SR:!2024-07-05,13,238-->
 
 <!-- NEXT: Review prime number detection algorithm, rewrite with `while` -->
 In python `for` and `while` statements may have a `else` clause.
@@ -1304,12 +1304,12 @@ passed to the function. Any formal parameters which occur after the
 `*args` parameter are 'keyword-only' arguments, meaning that they can
 only be used as keywords rather than positional arguments. :
 
-    >>> def concat(*args, sep="/"):
+def concat(*args, sep="/"):
     ...     return sep.join(args)
     ...
-    >>> concat("earth", "mars", "venus")
+concat("earth", "mars", "venus")
     'earth/mars/venus'
-    >>> concat("earth", "mars", "venus", sep=".")
+concat("earth", "mars", "venus", sep=".")
     'earth.mars.venus'
 
 The reverse situation occurs when the arguments are already in a list or
@@ -1697,6 +1697,9 @@ not equal:
 # [(1, 3), (1, 4), (2, 3), (2, 1), (2, 4), (3, 1), (3, 4)]
 [(x, y) for x in [1,2,3] for y in [3,1,4] if x != y]
 
+# If the expression is a tuple (e.g. the `(x, y)` in the previous
+# example), it must be parenthesized.
+
 # [(1, 3), (1, 4), (2, 3), (2, 1), (2, 4), (3, 1), (3, 4)]
 combs = []
 for x in [1,2,3]:
@@ -1705,396 +1708,412 @@ for x in [1,2,3]:
             combs.append((x, y))
 ```
 
+Examples how list comprehensions can be used?
+&#10;
+```python
+vec = [-4, -2, 0, 2, 4]
 
-If the expression is a tuple (e.g. the `(x, y)` in the previous
-example), it must be parenthesized. :
+# create a new list with the values doubled
+[x*2 for x in vec]  # [-8, -4, 0, 4, 8]
 
-    >>> vec = [-4, -2, 0, 2, 4]
-    >>> # create a new list with the values doubled
-    >>> [x*2 for x in vec]
-    [-8, -4, 0, 4, 8]
-    >>> # filter the list to exclude negative numbers
-    >>> [x for x in vec if x >= 0]
-    [0, 2, 4]
-    >>> # apply a function to all the elements
-    >>> [abs(x) for x in vec]
-    [4, 2, 0, 2, 4]
-    >>> # call a method on each element
-    >>> freshfruit = ['  banana', '  loganberry ', 'passion fruit  ']
-    >>> [weapon.strip() for weapon in freshfruit]
-    ['banana', 'loganberry', 'passion fruit']
-    >>> # create a list of 2-tuples like (number, square)
-    >>> [(x, x**2) for x in range(6)]
-    [(0, 0), (1, 1), (2, 4), (3, 9), (4, 16), (5, 25)]
-    >>> # the tuple must be parenthesized, otherwise an error is raised
-    >>> [x, x**2 for x in range(6)]
-      File "<stdin>", line 1
-        [x, x**2 for x in range(6)]
-         ^^^^^^^
-    SyntaxError: did you forget parentheses around the comprehension target?
-    >>> # flatten a list using a listcomp with two 'for'
-    >>> vec = [[1,2,3], [4,5,6], [7,8,9]]
-    >>> [num for elem in vec for num in elem]
-    [1, 2, 3, 4, 5, 6, 7, 8, 9]
+# filter the list to exclude negative numbers
+[x for x in vec if x >= 0]  # [0, 2, 4]
 
-List comprehensions can contain complex expressions and nested
-functions:
+# apply a function to all the elements
+[abs(x) for x in vec]  # [4, 2, 0, 2, 4]
 
-    >>> from math import pi
-    >>> [str(round(pi, i)) for i in range(1, 6)]
-    ['3.1', '3.14', '3.142', '3.1416', '3.14159']
+# call a method on each element
+freshfruit = ['  banana', '  loganberry ', 'passion fruit  ']
+[weapon.strip() for weapon in freshfruit]  # ['banana', 'loganberry', 'passion fruit']
 
-### Nested List Comprehensions
+# create a list of 2-tuples like (number, square)
+[(x, x**2) for x in range(6)] # [(0, 0), (1, 1), (2, 4), (3, 9), (4, 16), (5, 25)]
+# the tuple must be parenthesized, otherwise an error is raised
+[x, x**2 for x in range(6)]
+  # File "<stdin>", line 1
+  #   [x, x**2 for x in range(6)]
+  #    ^^^^^^^
+  # SyntaxError: did you forget parentheses around the comprehension target?
 
-The initial expression in a list comprehension can be any arbitrary
-expression, including another list comprehension.
+# flatten a list using a listcomp with two 'for'
+vec = [[1,2,3], [4,5,6], [7,8,9]]
+[num for elem in vec for num in elem]  # [1, 2, 3, 4, 5, 6, 7, 8, 9]
+```
 
-Consider the following example of a 3x4 matrix implemented as a list of
-3 lists of length 4:
+Can I use complex expressions and nested functions in list comprehensions?
+&#10;
+Yes.
+The initial expression in a list comprehension can be any arbitrary expression,
+including another list comprehension.
+For example:
+```python
+from math import pi
+[str(round(pi, i)) for i in range(1, 6)]  # ['3.1', '3.14', '3.142', '3.1416', '3.14159']
 
-    >>> matrix = [
-    ...     [1, 2, 3, 4],
-    ...     [5, 6, 7, 8],
-    ...     [9, 10, 11, 12],
-    ... ]
+# the following list comprehension will transpose rows and columns:
+matrix = [
+    [1, 2, 3, 4],
+    [5, 6, 7, 8],
+    [9, 10, 11, 12],
+]
 
-The following list comprehension will transpose rows and columns:
+[[row[i] for row in matrix] for i in range(4)]  # [[1, 5, 9], [2, 6, 10], [3, 7, 11], [4, 8, 12]]
 
-    >>> [[row[i] for row in matrix] for i in range(4)]
-    [[1, 5, 9], [2, 6, 10], [3, 7, 11], [4, 8, 12]]
+# equivalent to previous example
+transposed = []
+for i in range(4):
+    transposed.append([row[i] for row in matrix])
+print(transposed)
 
-As we saw in the previous section, the inner list comprehension is
-evaluated in the context of the `for` that follows it, so this example
-is equivalent to:
+# another equivalent, without using list comprehension
+transposed = []
+for i in range(4):
+    # the following 3 lines implement the nested listcomp
+    transposed_row = []
+    for row in matrix:
+        transposed_row.append(row[i])
+    transposed.append(transposed_row)
 
-    >>> transposed = []
-    >>> for i in range(4):
-    ...     transposed.append([row[i] for row in matrix])
-    ...
-    >>> transposed
-    [[1, 5, 9], [2, 6, 10], [3, 7, 11], [4, 8, 12]]
+# In the real world, you should prefer built-in functions to complex flow
+# statements. The `zip` function would do a great job for this use case:
+list(zip(*matrix))
+```
 
-which, in turn, is the same as:
+To remove items from list by index you can use ==`del`== statement, unlike
+`.pop()` method it doesn't return value. It can also be used to remove slices
+from a list or clear the entire list (like assignment of an empty list to the
+slice)
+```python
+a = [-1, 1, 66.25, 333, 333, 1234.5]
+del a[0] # [1, 66.25, 333, 333, 1234.5]
+del a[2:4] # delete items from 2nd index to 4th index
+del a[:] # delete all items
 
-    >>> transposed = []
-    >>> for i in range(4):
-    ...     # the following 3 lines implement the nested listcomp
-    ...     transposed_row = []
-    ...     for row in matrix:
-    ...         transposed_row.append(row[i])
-    ...     transposed.append(transposed_row)
-    ...
-    >>> transposed
-    [[1, 5, 9], [2, 6, 10], [3, 7, 11], [4, 8, 12]]
+# Delete all items except the last one
+a = [-1, 1, 66.25, 333, 333, 1234.5]
+del a[:len(a)-1]
+```
 
-In the real world, you should prefer built-in functions to complex flow
-statements. The `zip` function would do a great job for this use case:
+How to delete entire variables with `del`?
+&#10;
+`del a`
+Referencing the name `a` hereafter is an error (at least until another value is
+assigned to it). We'll find other uses for `del` later.
 
-    >>> list(zip(*matrix))
-    [(1, 5, 9), (2, 6, 10), (3, 7, 11), (4, 8, 12)]
+What type of this data structures?
+```python
+t = 12345, 54321, 'hello!'
+u = t, (1, 2, 3, 4, 5)
+ ```
+&#10;
+A tuple, which consists of a number of values separated by commas.
+Tuples may be input with or without surrounding parentheses, although often
+parentheses are necessary anyway (if the tuple is part of a larger expression).
+```python
+t  # (12345, 54321, 'hello!')
+u  # ((12345, 54321, 'hello!'), (1, 2, 3, 4, 5))
 
-See `tut-unpacking-arguments` for details on the asterisk in this line.
+Can you change arbitrary item of the tuple with index assignment?
+&#10;
+No, tuples are immutable
+```python
+t[0] = 88888
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'tuple' object does not support item assignment
+```
+But they can contain mutable objects, which can be changed
+```python
+v = ([1, 2, 3], [3, 2, 1])  # ([1, 2, 3], [3, 2, 1])
+v[0][0] = 4  # ([4, 2, 3], [3, 2, 1])
+```
 
-## The `!del` statement
+To construct empty tuple need to use ==pair of parentheses, `empty = ()`==.
 
-There is a way to remove an item from a list given its index instead of
-its value: the `del` statement. This differs from the `~list.pop` method
-which returns a value. The `!del` statement can also be used to remove
-slices from a list or clear the entire list (which we did earlier by
-assignment of an empty list to the slice). For example:
+How to construct a tuple with one item?
+&#10;
+A tuple with one item is constructed by following a value with a comma (it is
+not sufficient to enclose a single value in parentheses). Ugly, but effective.
+```python
+singleton = 'hello',     # <-- note trailing comma
+singleton2 = ('hello',)  # <-- another way to create a singleton
+('hello',) == singleton == singleton2  # True
+```
 
-    >>> a = [-1, 1, 66.25, 333, 333, 1234.5]
-    >>> del a[0]
-    >>> a
-    [1, 66.25, 333, 333, 1234.5]
-    >>> del a[2:4]
-    >>> a
-    [1, 66.25, 1234.5]
-    >>> del a[:]
-    >>> a
-    []
+How to use tuple packing?
+&#10;
+You need to construct a tuple with multiple values separated by commas.
+```python
+t = 12345, 54321, 'hello!'
+```
 
-`del` can also be used to delete entire variables:
+How to use tuple unpacking (sequence unpacking)?
+&#10;
+You need to assign a tuple to a variable(s), the number of variables should be
+equal to the number of values in the tuple.
+Note that multiple assignment is really just a combination of tuple packing and
+sequence unpacking.
+```python
+t = 12345, 54321, 'hello!'
+x, y, z = t
+```
 
-    >>> del a
+A [[set]] is an unordered collection with no ==duplicate elements==.
 
-Referencing the name `a` hereafter is an error (at least until another
-value is assigned to it). We'll find other uses for `del` later.
+How to create empty and non-empty sets?
+&#10;
+You need to use `set()` to create an empty set (`{}` used to create empty
+dictionary), and curly braces `{1}, {1, 2}` to create a non-empty set.
+```python
+# Show that duplicates have been removed
+basket = {'apple', 'orange', 'apple', 'pear', 'orange', 'banana'}
+print(baskeа)  # {'orange', 'banana', 'pear', 'apple'}
 
-## Tuples and Sequences
+# Fast membership testing
+'orange'    in basket  # True
+'crabgrass' in basket  # False
+```
 
-We saw that lists and strings have many common properties, such as
-indexing and slicing operations. They are two examples of *sequence*
-data types (see `typesseq`). Since Python is an evolving language, other
-sequence data types may be added. There is also another standard
-sequence data type: the *tuple*.
+Set operations on unique letters from two words, lets we have two words,
+`abracadabra` and `alacazam`, what results you get for `-`, `|`, `&`, `^`
+operations?
+&#10;
+```python
+# You can get different results, a set is an abstract data type that can store
+# certain values, without any particular order
+a = set('abracadabra')  # {'a', 'r', 'b', 'c', 'd'}, unique letters
+b = set('alacazam')     # {'a', 'l', 'c', 'z', 'm'}, unique letters
+print(a)
+print(b)
 
-A tuple consists of a number of values separated by commas, for
-instance:
+print(a - b)
+# {'b', 'r', 'd'}, letters in a but not in b (only in a), logic difference
 
-    >>> t = 12345, 54321, 'hello!'
-    >>> t[0]
-    12345
-    >>> t
-    (12345, 54321, 'hello!')
-    >>> # Tuples may be nested:
-    ... u = t, (1, 2, 3, 4, 5)
-    >>> u
-    ((12345, 54321, 'hello!'), (1, 2, 3, 4, 5))
-    >>> # Tuples are immutable:
-    ... t[0] = 88888
-    Traceback (most recent call last):
-      File "<stdin>", line 1, in <module>
-    TypeError: 'tuple' object does not support item assignment
-    >>> # but they can contain mutable objects:
-    ... v = ([1, 2, 3], [3, 2, 1])
-    >>> v
-    ([1, 2, 3], [3, 2, 1])
+print(a | b)
+# {'a', 'c', 'r', 'd', 'b', 'm', 'z', 'l'}, letters in a or b or both, logical
+# union
 
-As you see, on output tuples are always enclosed in parentheses, so that
-nested tuples are interpreted correctly; they may be input with or
-without surrounding parentheses, although often parentheses are
-necessary anyway (if the tuple is part of a larger expression). It is
-not possible to assign to the individual items of a tuple, however it is
-possible to create tuples which contain mutable objects, such as lists.
+print(a & b)
+# {'a', 'c'}, letters in both a and b (only duplicates), logical intersection
 
-Though tuples may seem similar to lists, they are often used in
-different situations and for different purposes. Tuples are `immutable`,
-and usually contain a heterogeneous sequence of elements that are
-accessed via unpacking (see later in this section) or indexing (or even
-by attribute in the case of `namedtuples <collections.namedtuple>`).
-Lists are `mutable`, and their elements are usually homogeneous and are
-accessed by iterating over the list.
+print(a ^ b)
+# {'r', 'd', 'b', 'm', 'z', 'l'}, letters in a or b but not both, logical
+# "exclusive or" (XOR)
+```
+\
+*Results:*
+```
+{'r', 'c', 'a', 'b', 'd'}
+{'c', 'z', 'm', 'a', 'l'}
+{'r', 'b', 'd'}
+{'r', 'c', 'z', 'm', 'a', 'b', 'd', 'l'}
+{'c', 'a'}
+{'r', 'b', 'l', 'd', 'z', 'm'}
+```
 
-A special problem is the construction of tuples containing 0 or 1 items:
-the syntax has some extra quirks to accommodate these. Empty tuples are
-constructed by an empty pair of parentheses; a tuple with one item is
-constructed by following a value with a comma (it is not sufficient to
-enclose a single value in parentheses). Ugly, but effective. For
-example:
+Can we use comprehensions with sets?
+&#10;
+Yes, set comprehensions are also supported:
+```python
+a = {x for x in 'abracadabra' if x not in 'abc'}  # {'r', 'd'}
+print(a)
+```
 
-    >>> empty = ()
-    >>> singleton = 'hello',    # <-- note trailing comma
-    >>> len(empty)
-    0
-    >>> len(singleton)
-    1
-    >>> singleton
-    ('hello',)
+"Associative memories" or "associative arrays" in Python are implemented as
+==dictionaries==.
 
-The statement `t = 12345, 54321, 'hello!'` is an example of *tuple
-packing*: the values `12345`, `54321` and `'hello!'` are packed together
-in a tuple. The reverse operation is also possible:
+Which types of keys can be used in dictionaries?
+&#10;
+Dictionaries are indexed by keys which can be any immutable type and unique
+(within one dictionary). Tuples can be used as keys if they contain only
+strings, numbers, or tuples; if a tuple contains any mutable object either
+directly or indirectly, it cannot be used as a key. You can't use lists as keys,
+since lists can be modified in place using index assignments, slice assignments,
+or methods like `list.append` and `list.extend`.
 
-    >>> x, y, z = t
+How to create empty and non-empty dictionaries?
+&#10;
+A pair of braces creates an empty dictionary: `{}`.
+```python
+words = {}
+print(type(words))
+```
+\
+Placing a comma-separated list of key:value pairs within the braces adds initial
+key:value pairs to the dictionary; this is also the way dictionaries are written
+on output.
+```python
+words = {1: 'one', 2: 'two', 3: 'three'}
+print(words)
+```
 
-This is called, appropriately enough, *sequence unpacking* and works for
-any sequence on the right-hand side. Sequence unpacking requires that
-there are as many variables on the left side of the equals sign as there
-are elements in the sequence. Note that multiple assignment is really
-just a combination of tuple packing and sequence unpacking.
-
-## Sets
-
-Python also includes a data type for *sets*. A set is an unordered
-collection with no duplicate elements. Basic uses include membership
-testing and eliminating duplicate entries. Set objects also support
-mathematical operations like union, intersection, difference, and
-symmetric difference.
-
-Curly braces or the `set` function can be used to create sets. Note: to
-create an empty set you have to use `set()`, not `{}`; the latter
-creates an empty dictionary, a data structure that we discuss in the
-next section.
-
-Here is a brief demonstration:
-
-    >>> basket = {'apple', 'orange', 'apple', 'pear', 'orange', 'banana'}
-    >>> print(basket)                      # show that duplicates have been removed
-    {'orange', 'banana', 'pear', 'apple'}
-    >>> 'orange' in basket                 # fast membership testing
-    True
-    >>> 'crabgrass' in basket
-    False
-
-    >>> # Demonstrate set operations on unique letters from two words
-    ...
-    >>> a = set('abracadabra')
-    >>> b = set('alacazam')
-    >>> a                                  # unique letters in a
-    {'a', 'r', 'b', 'c', 'd'}
-    >>> a - b                              # letters in a but not in b
-    {'r', 'd', 'b'}
-    >>> a | b                              # letters in a or b or both
-    {'a', 'c', 'r', 'd', 'b', 'm', 'z', 'l'}
-    >>> a & b                              # letters in both a and b
-    {'a', 'c'}
-    >>> a ^ b                              # letters in a or b but not both
-    {'r', 'd', 'b', 'm', 'z', 'l'}
-
-Similarly to `list comprehensions <tut-listcomps>`, set comprehensions
-are also supported:
-
-    >>> a = {x for x in 'abracadabra' if x not in 'abc'}
-    >>> a
-    {'r', 'd'}
-
-## Dictionaries
-
-Another useful data type built into Python is the *dictionary* (see
-`typesmapping`). Dictionaries are sometimes found in other languages as
-"associative memories" or "associative arrays". Unlike sequences, which
-are indexed by a range of numbers, dictionaries are indexed by *keys*,
-which can be any immutable type; strings and numbers can always be keys.
-Tuples can be used as keys if they contain only strings, numbers, or
-tuples; if a tuple contains any mutable object either directly or
-indirectly, it cannot be used as a key. You can't use lists as keys,
-since lists can be modified in place using index assignments, slice
-assignments, or methods like `~list.append` and `~list.extend`.
-
-It is best to think of a dictionary as a set of *key: value* pairs, with
-the requirement that the keys are unique (within one dictionary). A pair
-of braces creates an empty dictionary: `{}`. Placing a comma-separated
-list of key:value pairs within the braces adds initial key:value pairs
-to the dictionary; this is also the way dictionaries are written on
-output.
-
+What is main operations on a dictionary?
+&#10;
 The main operations on a dictionary are storing a value with some key
-and extracting the value given the key. It is also possible to delete a
-key:value pair with `del`. If you store using a key that is already in
-use, the old value associated with that key is forgotten. It is an error
-to extract a value using a non-existent key.
+and extracting the value given the key.
 
+How to delete a key:value pair from a dictionary, overwrite key value?
+&#10;
+```python
+# It is possible to delete a key:value pair with `del`.
+animals = {'cat': 'cute', 'dog': 'furry', 'pig': 'pink'}
+del animals['pig']
+print(animals)
+
+# If you store using a key that is already in use, the old value associated with
+# that key is forgotten.
+animals['cat'] = 'cute and fluffy'
+print(animals)
+
+# It is an error to extract a value using a non-existent key.
+print(animals['monkey'])
+```
+
+How to get a list of all keys in a dictionary in insertion order and sorted
+order?
+&#10;
 Performing `list(d)` on a dictionary returns a list of all the keys used
 in the dictionary, in insertion order (if you want it sorted, just use
-`sorted(d)` instead). To check whether a single key is in the
-dictionary, use the `in` keyword.
+`sorted(d)` instead).
+```python
+animals = {'dog': 'furry', 'pig': 'pink', 'cat': 'cute'}
+print(list(animals))    # ['dog', 'pig', 'cat']
+print(sorted(animals))  # ['cat', 'dog', 'pig']
+```
 
-Here is a small example using a dictionary:
+To check whether a single key is in the dictionary, use the ==`in`== keyword.
 
-    >>> tel = {'jack': 4098, 'sape': 4139}
-    >>> tel['guido'] = 4127
-    >>> tel
-    {'jack': 4098, 'sape': 4139, 'guido': 4127}
-    >>> tel['jack']
-    4098
-    >>> del tel['sape']
-    >>> tel['irv'] = 4127
-    >>> tel
-    {'jack': 4098, 'guido': 4127, 'irv': 4127}
-    >>> list(tel)
-    ['jack', 'guido', 'irv']
-    >>> sorted(tel)
-    ['guido', 'irv', 'jack']
-    >>> 'guido' in tel
-    True
-    >>> 'jack' not in tel
-    False
+How to build dictionary from sequence like this `[('sape', 4139), ('guido',
+4127), ('jack', 4098)]` (key-value pairs)?
+&#10;
+The `dict` constructor builds dictionaries directly from sequences of key-value
+pairs:
+```python
+print(dict([('sape', 4139), ('guido', 4127), ('jack', 4098)]))
+# {'sape': 4139, 'guido': 4127, 'jack': 4098}
+```
 
-The `dict` constructor builds dictionaries directly from sequences of
-key-value pairs:
-
-    >>> dict([('sape', 4139), ('guido', 4127), ('jack', 4098)])
-    {'sape': 4139, 'guido': 4127, 'jack': 4098}
-
-In addition, dict comprehensions can be used to create dictionaries from
+How to generate dict using dictionary comprehensions and this sequence `(2, 4,
+6)`, key is `number`, value is `number**2`?
+&#10;
+Dict comprehensions can be used to create dictionaries from
 arbitrary key and value expressions:
+```python
+print({x: x**2 for x in (2, 4, 6)})  # {2: 4, 4: 16, 6: 36}
+```
 
-    >>> {x: x**2 for x in (2, 4, 6)}
-    {2: 4, 4: 16, 6: 36}
-
-When the keys are simple strings, it is sometimes easier to specify
+Is it possible to use keyword arguments to create a dictionary?
+&#10;
+Yes, when the keys are simple strings, it is sometimes easier to specify
 pairs using keyword arguments:
-
-    >>> dict(sape=4139, guido=4127, jack=4098)
-    {'sape': 4139, 'guido': 4127, 'jack': 4098}
-
-## Looping Techniques
+```python
+print(dict(sape=4139, guido=4127, jack=4098))  # {'sape': 4139, 'guido': 4127, 'jack': 4098}
+```
 
 When looping through dictionaries, the key and corresponding value can
-be retrieved at the same time using the `~dict.items` method. :
+be retrieved at the same time using the ??? method:
+&#10;
+`dict.items`
+```python
+knights = {'gallahad': 'the pure', 'robin': 'the brave'}
+for k, v in knights.items():
+    print(k, v)
 
-    >>> knights = {'gallahad': 'the pure', 'robin': 'the brave'}
-    >>> for k, v in knights.items():
-    ...     print(k, v)
-    ...
-    gallahad the pure
-    robin the brave
+# gallahad the pure
+# robin the brave
+```
 
 When looping through a sequence, the position index and corresponding
-value can be retrieved at the same time using the `enumerate` function.
-:
+value can be retrieved at the same time using the ??? function:
+&#10;
+`enumerate`
+```python
+for i, v in enumerate(['tic', 'tac', 'toe']):
+    print(i, v)
 
-    >>> for i, v in enumerate(['tic', 'tac', 'toe']):
-    ...     print(i, v)
-    ...
-    0 tic
-    1 tac
-    2 toe
+# 0 tic
+# 1 tac
+# 2 toe
+```
 
 To loop over two or more sequences at the same time, the entries can be
-paired with the `zip` function. :
+paired with the ??? function:
+&#10;
+`zip`
+```python
+questions = ['name', 'quest', 'favorite color']
+answers = ['lancelot', 'the holy grail', 'blue']
+for q, a in zip(questions, answers):
+    print(f"What is your {q}?  It is {a}.")
 
-    >>> questions = ['name', 'quest', 'favorite color']
-    >>> answers = ['lancelot', 'the holy grail', 'blue']
-    >>> for q, a in zip(questions, answers):
-    ...     print('What is your {0}?  It is {1}.'.format(q, a))
-    ...
-    What is your name?  It is lancelot.
-    What is your quest?  It is the holy grail.
-    What is your favorite color?  It is blue.
+# What is your name?  It is lancelot.
+# What is your quest?  It is the holy grail.
+# What is your favorite color?  It is blue.
+```
 
 To loop over a sequence in reverse, first specify the sequence in a
-forward direction and then call the `reversed` function. :
+forward direction and then call the ??? function:
+&#10;
+`reversed`
+```python
+for i in reversed(range(1, 10, 2)):
+     print(i)
 
-    >>> for i in reversed(range(1, 10, 2)):
-    ...     print(i)
-    ...
-    9
-    7
-    5
-    3
-    1
+# 9
+# 7
+# 5
+# 3
+# 1
+```
 
-To loop over a sequence in sorted order, use the `sorted` function which
-returns a new sorted list while leaving the source unaltered. :
+To loop over a sequence in sorted order, use the ??? function:
+&#10;
+`sorted`. Which returns a new sorted list while leaving the source unaltered.
+```python
+basket = ['apple', 'orange', 'apple', 'pear', 'orange', 'banana']
+for i in sorted(basket):
+    print(i)
 
-    >>> basket = ['apple', 'orange', 'apple', 'pear', 'orange', 'banana']
-    >>> for i in sorted(basket):
-    ...     print(i)
-    ...
-    apple
-    apple
-    banana
-    orange
-    orange
-    pear
+# apple
+# apple
+# banana
+# orange
+# orange
+# pear
+```
 
+How to loop over a sequence in sorted order while removing duplicates?
+&#10;
 Using `set` on a sequence eliminates duplicate elements. The use of
 `sorted` in combination with `set` over a sequence is an idiomatic way
-to loop over unique elements of the sequence in sorted order. :
+to loop over unique elements of the sequence in sorted order:
+```python
+# remove orange duplicate and sort
+basket = ['apple', 'orange', 'apple', 'pear', 'orange', 'banana']
+for f in sorted(set(basket)):
+         print(f)
 
-    >>> basket = ['apple', 'orange', 'apple', 'pear', 'orange', 'banana']
-    >>> for f in sorted(set(basket)):
-    ...     print(f)
-    ...
-    apple
-    banana
-    orange
-    pear
+# apple
+# banana
+# orange
+# pear
+```
 
+How to change a list while you are looping over it?
+&#10;
 It is sometimes tempting to change a list while you are looping over it;
-however, it is often simpler and safer to create a new list instead. :
+however, it is often simpler and safer to create a new list instead:
+```python
+import math
+raw_data = [56.2, float('NaN'), 51.7, 55.3, 52.5, float('NaN'), 47.8]
+filtered_data = []
+for value in raw_data:
+   if not math.isnan(value):
+       filtered_data.append(value)
 
-    >>> import math
-    >>> raw_data = [56.2, float('NaN'), 51.7, 55.3, 52.5, float('NaN'), 47.8]
-    >>> filtered_data = []
-    >>> for value in raw_data:
-    ...     if not math.isnan(value):
-    ...         filtered_data.append(value)
-    ...
-    >>> filtered_data
-    [56.2, 51.7, 55.3, 52.5, 47.8]
+print(filtered_data)
+# [56.2, 51.7, 55.3, 52.5, 47.8]
+```
 
 ## More on Conditions
 
@@ -2129,9 +2148,9 @@ argument.
 It is possible to assign the result of a comparison or other Boolean
 expression to a variable. For example, :
 
-    >>> string1, string2, string3 = '', 'Trondheim', 'Hammer Dance'
-    >>> non_null = string1 or string2 or string3
-    >>> non_null
+string1, string2, string3 = '', 'Trondheim', 'Hammer Dance'
+non_null = string1 or string2 or string3
+non_null
     'Trondheim'
 
 Note that in Python, unlike C, assignment inside expressions must be
