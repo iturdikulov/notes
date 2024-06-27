@@ -88,7 +88,7 @@ My editing workflow, including [[code]], is heavily related to [[Neovim]],
 but it can be replicated in some advanced code editor (like [[Pycharm]]), check
 these notes for more information. I also keep collecting various useful
 information, which can be related to various software, like
-[[keyboard_shortcut|keyboard shortcuts]], [[blender]], [[Krita]],
+[[keyboard_shortcut|keyboard shortcuts]], [[Blender]], [[Krita]],
 [[GNU_Utilities]], [[GNU_Linux]], [[NixOS]], etc.
 
 [[how_I_learn_computer_graphics|How I learn computer graphics]]. Computer

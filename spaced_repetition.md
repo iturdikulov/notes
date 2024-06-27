@@ -8,7 +8,7 @@ sr-interval: 3
 sr-ease: 230
 ---
 
-# Spaced repetition
+# Spaced repetition and test flashcards
 
 > Learning technique usually using flashcards, where information that is newer,
 > and harder to remember are shown more frequently, while information that is
@@ -43,39 +43,59 @@ notes to work.
 
 Spaced repetition obsidian plugin custom hotkeys.
 
-- Review flashcards in this note::`C-A-f` <!--SR:!2024-06-06,2,241-->
-- Review flashcards from all notes::`C-A-a` <!--SR:!2024-06-06,2,240-->
-- Review note as easy::`C-A-1` for file, `1` for current flashcard <!--SR:!2024-06-06,2,241-->
-- Review note as good::`C-A-2` for file, `2`/`space` for current flashcard <!--SR:!2024-06-06,2,241-->
-- Review note as hard::`C-A-3` for file, `3` for current flashcard <!--SR:!2024-06-06,2,241-->
+- Review flashcards in this note::`C-A-f` <!--SR:!2024-07-02,6,241-->
+- Review flashcards from all notes::`C-A-a` <!--SR:!2024-06-30,4,240-->
+- Review note as easy::`C-A-1` for file, `1` for current flashcard <!--SR:!2024-07-01,5,241-->
+- Review note as good::`C-A-2` for file, `2`/`space` for current flashcard <!--SR:!2024-07-01,5,241-->
+- Review note as hard::`C-A-3` for file, `3` for current flashcard <!--SR:!2024-06-30,4,241-->
 - Open a note for review::``C-A-` ``
-- View statistics::`A-c` <!--SR:!2024-06-07,3,260-->
+- View statistics::`A-c` <!--SR:!2024-06-28,2,240-->
 
 
 ## Test spaced repetition plugin
 
-Simple ==highlight==. <!--SR:!2024-06-07,3,259-->
+Simple ==highlight==. <!--SR:!2024-07-03,7,259-->
 
-Highlight ==with
-new line== Is not working.
+Simple ==highlight== with several ==highlights== show only first.
+[Cloze Update](https://github.com/st3v3nmw/obsidian-spaced-repetition/pull/943) <!--SR:!2000-01-01,1,250!2024-06-28,2,241-->
 
-Double::colon. <!--SR:!2024-06-07,3,261-->
+Highlight (Cloze) with new line inside it is not ==work
+ing==. Still?
 
-Double colon with:: <!--SR:!2024-06-07,3,259-->
-new line not working correctly (empty).
+Double::colon. <!--SR:!2024-07-06,10,261-->
+
+Double colon with new line is not:: <!--SR:!2024-07-03,7,259-->
+working correctly (empty).
 
 Simple
 &#10;
-Question <!--SR:!2024-06-07,3,260-->
+Question <!--SR:!2024-07-04,8,260-->
 
 Simple question
 &#10;
-With   new
+With a new
 \
-Lines <!--SR:!2024-06-07,3,260-->
+Lines <!--SR:!2024-07-05,9,260-->
+
+Simple question with new lines just before
+question separator `&#10;`
+&#10;
+Is working correctly <!--SR:!2024-06-28,2,241-->
+
+Simple question with code block, inside code blocks new lines
+&#10;
+Test sentence
+\
+Is good
+```python
+print(1)
+
+print(2)
+```
+<!--SR:!2024-06-28,2,241-->
 
 Simple question
 &#10;
-With
+With Newlines is not <!--SR:!2024-06-28,2,241-->
 
-Newlines not working
+working as expected

@@ -241,7 +241,7 @@ Search current channel or conversation::`C-f`
 
 ## Blender
 
-[[blender|Blender]] is my favorite 3D modeling software.
+[[Blender|Blender]] is my favorite 3D modeling software.
 
 Some keys to navigate and quick actions:
 

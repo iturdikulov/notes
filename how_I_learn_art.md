@@ -30,7 +30,7 @@ I also like to practice [[my_handwriting|handwriting]].
 
 ## Software
 
-- [[blender]]
+- [[Blender]]
 - [[Unreal_Engine]]
 - [[Godot]]
 - [[GIMP]]

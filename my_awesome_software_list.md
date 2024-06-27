@@ -108,7 +108,7 @@ Table Of Contents:
 - [[inkscape]] - open-source vector graphics editor,
 - [[darktable]] - photography workflow application and raw developer
 - [[Godot]] - free and open source 2D and 3D game engine
-- [[blender]] - open-source 3D computer graphics software tool set
+- [[Blender]] - open-source 3D computer graphics software tool set
 - [[Krita]] - open-source painting program
 - [[natron]] - open source compositing software
 

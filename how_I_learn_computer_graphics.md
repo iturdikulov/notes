@@ -45,7 +45,7 @@ this engine, and it can be even used as [[art]] tool.
 
 ## 3D modeling and animation
 
-- [[blender#Learning]]
+- [[Blender#Learning]]
 - [mister chad](https://mister-chad.com/welcome)
 - [[research/Muratori-Handmade_Hero|Handmade Hero]]
 - [[research/Price-Donut_Tutorial_in_Blender]]
