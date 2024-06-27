@@ -6,11 +6,62 @@ tags:
   - SR_mathematics
 ---
 
+# Математика с нуля
+
 «Математика с нуля. Пошаговое изучение математики для начинающих» – это новый
 проект, предназначенный для людей, которые хотят изучить математику
 самостоятельно с нуля.
 
-# Numbers
+Рекомендуемые материалы:
+
+- [WolframAlpha](wolframalpha.com/)
+- [LATEX cheat-sheet](../img/latexcheatsheet.pdf)
+- [Основные законы и формулы по математике и физике](../img/bulgakov_math_formula.pdf)
+- [Microsoft Math Solver](https://mathsolver.microsoft.com/)
+
+$$
+\begin{array}{r}
+-
+\begin{array}{r}
+10000011\\
+10000001\\
+\end{array} \\
+\hline
+\begin{array}{r}
+10
+\end{array}
+\end{array}
+$$
+
+$$
+\begin{array}{rrrrrrrr@{\,}r|l}
+8&3&8&1&0&2&0&5&&\,6789\\
+\hline
+6&7&8&9&&&&&&\,12345\\
+\hline
+1&5&9&2&0\\
+1&3&5&7&8\\
+\hline
+&2&3&4&2&2\\
+&2&0&3&6&7\\
+\hline
+&&3&0&5&5&0\\
+&&2&7&1&5&6\\
+\hline
+&&&3&3&9&4&5\\
+&&&3&3&9&4&5\\
+\hline
+&&&&&&&0
+\end{array}
+$$
+
+
+## Шаг 1. Числа.
+
+```python
+import numpy as np
+print(1)
+```
 
 Number - mathematical object that represents the quantity of some items (used to
 count them).
