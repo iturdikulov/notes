@@ -16,28 +16,17 @@ body {
 }
 
 /* TODO: Maybe need to remove in future, spaced-repetiton buttons fix */
-.modal-container.mod-dim .modal{
-  max-width: 768px;
+.modal {
+  max-width: 960px;
 }
-#sr-flashcard-view {
-  height: auto;
-}
-.sr-flashcard-response {
-  position: relative;
-  padding-top: 100px;
+.modal code[class*='language-'], .modal pre[class*='language-'] {
+  font-size: 1rem;
 }
 
-.markdown-preview-view ul > li.task-list-item.is-checked {
-  text-decoration:none;
-  color:var(--text-normal);
-}
-
-.markdown-preview-view ol > li.task-list-item.is-checked {
-  text-decoration:none;
-  color:var(--text-normal);
-}
-
-.markdown-source-view.mod-cm6 .HyperMD-task-line[data-task]:not([data-task=" "]) {
-    text-decoration:none;
-    color: var(--text-normal);
+.modal code{
+  color: var(--code-normal);
+  font-size: var(--code-size);
+  background-color: var(--code-background);
+  vertical-align: baseline;
+  -webkit-box-decoration-break: clone;
 }
