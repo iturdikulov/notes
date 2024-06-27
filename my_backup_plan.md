@@ -14,6 +14,8 @@ sr-ease: 190
 3. [ ] DB strategy?
 4. [ ] Ignore cache?
 
+- Mobile device backup
+
 ## My files structure
 
 Each directory must be backed up.
