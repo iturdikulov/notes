@@ -10,6 +10,7 @@ sr-ease: 161
 
 # How I learn [[mathematics]]
 
+- [ ] [[research/spacemath.xyz-Matematika_s_nulya]]
 - [ ] [[research/Vilenkin-populryanaya_kombinatorika]]
 - [ ] [[research/Math_is_Fun_Team-Math_is_Fun|Math is fun]]
 - [ ] [[research/Kiselyov-Elementy_algebry_i_analiza_chast_1]]
