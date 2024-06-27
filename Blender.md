@@ -190,7 +190,7 @@ Extrude::`e`, select at least few vertices, edges or faces.
 Inset, TODO: how its working?::`i`
 Bevel::`C-B`
 Bevel Vertices::`C-S-B`
-Loop cut::`C-R`
+Loop cut, this is context-sensitive operation::`C-R`
 Vertex/Edge Slide::`G,G`
 Knife::`K`
 Fill Face::`F`
