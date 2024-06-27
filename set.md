@@ -19,6 +19,10 @@ sr-ease: 229
 So main set feature is that it can store ==only unique values==.
 <!--SR:!2023-07-22,3,259-->
 
+Basic uses of set is ==membership testing and eliminating duplicate entries==.
+Set objects also support (at least in [[Python]]) mathematical operations like
+union, intersection, difference, and symmetric difference.
+
 Set seems so similar (especially array-based set) to the
 [[array]] but operations performed on the set are
 different, mainly on **insert operation**. It has different efficiency, because
