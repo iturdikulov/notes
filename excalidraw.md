@@ -45,7 +45,6 @@ Integration with Zettelkasten
 
 ## Drawing examples
 
-![[img/fronts.excalidraw|Fronts]]
+![front][./img/front.excalidraw.svg]
 
-![[img/excalidraw_examples.excalidraw|Excalidraw drawing example]]
-
+![img/fronts.excalidraw.svg](img/excalidraw_examples.excalidraw.svg)
