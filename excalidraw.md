@@ -45,6 +45,8 @@ Integration with Zettelkasten
 
 ## Drawing examples
 
-![front][./img/front.excalidraw.svg]
+![Cold and Warm fronts](./img/front.excalidraw.svg)
+_Cold and Warm fronts infographics_
 
-![img/fronts.excalidraw.svg](img/excalidraw_examples.excalidraw.svg)
+![Website Example](img/excalidraw_examples.excalidraw.svg)
+_Website Example infographics_
