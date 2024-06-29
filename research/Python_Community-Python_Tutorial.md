@@ -118,7 +118,7 @@ Mathematical division that rounds ==down to **nearest**== integer. The floor
 division operator is `//`.  `-11 // 4` is -3, `-11 // 3.5` is -4.0.
 because that is `-2.75` and `-3.14` rounded downward. <!--SR:!2024-06-27,1,160-->
 
-The `%` operator returns the ==remainder== of the division. <!--SR:!2024-06-13,9,240-->
+The `%` operator returns the ==remainder== of the division. <!--SR:!2024-07-20,21,240-->
 
 [[operator|Operators]] with mixed type [[operand]]'s convert the integer operand
 to ==floating point, int → float==.
@@ -386,7 +386,7 @@ the requested elements.
 squares = [1, 4, 9, 16, 25]
 print(squares[:])  # [1, 4, 9, 16, 25]
 ```
-<!--SR:!2024-06-28,2,180-->
+<!--SR:!2024-07-03,4,180-->
 
 Lists also support operations like concatenation.
 
@@ -493,7 +493,7 @@ while a < 10:
 
 <!-- NEXT: review [A Python Guide to the Fibonacci Sequence – Real Python](https://realpython.com/fibonacci-sequence-python/). -->
 
-Order of Evaluation in Python expression (operand)?
+Order of Evaluation in Python expression (operand position)?
 &#10;
 In Python, the left operand evaluated before the right operand (if they have
 same priority). <!--SR:!2024-06-27,4,180-->
@@ -676,7 +676,7 @@ If you worked on something (try, for, while) and you aren't interrupt
 
 <!-- NEXT: Review even/odd number detection algorithm -->
 
-The `continue` statement - continue loop with the ==next== iteration of the
+The ==`continue`== statement - continue loop with the next iteration of the
 loop (skip anything from current place to end of loop body).
 ```python
 for num in range(2, 10):
@@ -938,7 +938,7 @@ match none_item:
     case None:
         print("None")  # <- None
 ```
-<!--SR:!2024-06-28,2,218-->
+<!--SR:!2024-07-03,4,218-->
 
 How to use named constants (`Enum`) in pattern matching?
 &#10;
@@ -961,7 +961,7 @@ match color:
     case Color.BLUE:
         print("I'm feeling the blues :(")
 ```
-<!--SR:!2024-06-25,2,218-->
+<!--SR:!2024-07-03,4,218-->
 
 <!-- NEXT: Here more info about pattern matching -->
 
@@ -970,7 +970,7 @@ match color:
 <!-- NEXT: review this fibonaci algorithm -->
 
 We can create a function that writes the Fibonacci series to an arbitrary
-boundary, can you explain how?
+boundary, can you explain how (function code)?
 &#10;
 ```python
 def fib(n):    # write Fibonacci series up to n
