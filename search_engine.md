@@ -25,8 +25,6 @@ and search engine shortcuts. These search engine list are configured in my
 
 ## Site search in web-browser data
 
-[Brave search engines](brave://settings/searchEngines).
-
 My web browser configured to search sites from various sources, with these
 keywords (need type keyword in the address bar and then search term)
 
