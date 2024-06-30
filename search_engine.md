@@ -42,7 +42,7 @@ closed tabs.
 
 ## Search engines shortcuts
 
-### General purporse search engines
+### General purpose search engines
 
 Google search, force use. This is useful to avoid search query unnecessary
 parsing in the address bar.
@@ -79,9 +79,9 @@ websites, also good source for category names.
 - WolframAlpha - computational intelligence search engine::`@wa Turing machine 2506`
 - MathWorld - search for math definitions, formulas::`@math topology`
 
-- GitHub - code search, [[GitHub|more_info]]::`@gh linux`
+- [[GitHub]] - code search::`@gh linux`
 - SourceGraph - code search::`@sg linkedin api`
-- GitLab - code search, [[GitLab|more_info]]::`@glab alpine linux`
+- [[GitLab]] - code search::`@glab alpine linux`
 - GitHub Gist - code snippets::`@gist linux`
 - Your Github Stars::`@star linux`
 - DockerHub - search for [[docker|docker]] images::`@dh alpine linux`
