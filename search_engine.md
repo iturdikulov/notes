@@ -71,6 +71,7 @@ websites, also good source for category names.
 - Russian Wikipedia::`@wr штуццер`, `"цы пышка"`
 - Simple English Wikipedia::`@sw test`
 - ArchWiki - Arch Linux Wiki::`@a archwiki `
+- NixWiki - NixOS Wiki::`@n nixos`
 - Fandom - search for fandoms::`@fd skyrim`
 - Reddit - search for subreddits::`@r unixporn`
 
@@ -84,7 +85,9 @@ websites, also good source for category names.
 - [[GitLab]] - code search::`@glab alpine linux`
 - GitHub Gist - code snippets::`@gist linux`
 - Your Github Stars::`@star linux`
+
 - DockerHub - search for [[docker|docker]] images::`@dh alpine linux`
+- Nix Packages - search for nix packages::`@nix filezilla`
 
 - StackOverflow - search for programming questions and answers::`@so printf`
 - SuperUser - search for computer questions and answers::`@su install linux`
@@ -125,6 +128,8 @@ websites, also good source for category names.
 - Google Scholar - search for scientific articles, books::`@gsc programming`
 - BookFinder - search for books::`@bf computer science`
 - Project Gutenberg - search for free books::`@pg Alice's Adventures`
+- Project NN - search for free books::`@nn Alice's Adventures`
+- Project Lib - search for free books::`@lib Alice's Adventures`
 
 ### Translation services
 
@@ -138,6 +143,8 @@ websites, also good source for category names.
 - eBay - shopping::`@eb usb hub`
 - Amazon - shopping::`@am usb hub`
 - AliExpress - shopping::`@ali usb hub`
+- Wildberries - shopping::`@wb usb hub`
+- Ozon - shopping::`@oz usb hub`
 
 ## Google
 
