@@ -65,15 +65,19 @@ websites, also good source for category names.
 &#10;
 `@ya яша`
 
-### Wiki-based search engines
+### Wiki-based search engines, community-driven
 
 - Wikipedia - search in the largest encyclopedia::`@w Pi`
 - Russian Wikipedia::`@wr штуццер`, `"цы пышка"`
 - Simple English Wikipedia::`@sw test`
 - ArchWiki - Arch Linux Wiki::`@a archwiki `
 - Fandom - search for fandoms::`@fd skyrim`
+- Reddit - search for subreddits::`@r unixporn`
 
-### Programming, code and documentation, archive search engines
+### Science, programming, code and documentation, archive search engines
+
+- WolframAlpha - computational intelligence search engine::`@wa Turing machine 2506`
+- MathWorld - search for math definitions, formulas::`@math topology`
 
 - GitHub - code search, [[GitHub|more_info]]::`@gh linux`
 - SourceGraph - code search::`@sg linkedin api`
@@ -98,45 +102,42 @@ websites, also good source for category names.
 - OpenStreetMap - search for places::`@osm moscow`
 - Yandex Maps - search for places::`@ym moscow`
 
-### Images and Videos
+### Images, Music and Videos
 
 - Google Images - search for images::`@gi роспись`
 - Yandex Images - search for images::`@yi танкетки`
 - Google Videos - search for videos::`@gv stack`
 - Yandex Videos - search for videos::`@yv array`
 
+- Yandex Music - search for music, artists::`@music bethoven`
+- Last FM - search for music, artists::`@lastfm bethoven`
+- Music Brainz - search for music, artists::`@mb taisha`
+
 - YouTube - search for videos::`@yt rickroll`
 - Twitch - search for streams::`@tv software`
+- IMDb - search for movies, actors::`@imd titanic`
+- Kinopoisk - search for movies, actors::`@kino matrix`
+- Rotten Tomatoes - search for movies, actors::`@rt taxi driver`
 
 ### Books search engines
 
 - Google Books - search for books::`@gb programming`
 - Google Scholar - search for scientific articles, books::`@gsc programming`
 - BookFinder - search for books::`@bf computer science`
+- Project Gutenberg - search for free books::`@pg Alice's Adventures`
 
 ### Translation services
 
 - Google Translate - translate text::`@tr invictus`
 - Yandex Translate - translate text::`@ytr appearance`
 - DeepL Translate - translate text::`@dpl ASAP`
-
-### Entertainment search engines
-
-- Reddit - search for subreddits::`@r `
-- PinBoard - search for bookmarks::`@pb `
-- IMDb - search for movies, actors::`@imd `
+- Foldoc Dict - search for definitions, mostly technical::`@foldoc Inverse Address Resolution Protocol`
 
 ### Shopping
 
-- eBay - shopping::`@e usb hub`
-- Amazon - shopping::`@a usb hub`
-- AliExpress - shopping::`@ae usb hub`
-- Project Gutenberg - search for free books::`@pg `
-- WolframAlpha - computational intelligence search engine::`@wa`
-- MathWorld - search for math definitions, formulas::`@math`
-- Foldoc Dict - search for definitions, mostly technical::`@foldoc `
-- Rotten Tomatoes - search for movies, actors::`@rt `
-- Last FM - search for music, artists::`@lastfm `
+- eBay - shopping::`@eb usb hub`
+- Amazon - shopping::`@am usb hub`
+- AliExpress - shopping::`@ali usb hub`
 
 ## Google
 
