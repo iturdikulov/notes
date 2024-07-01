@@ -61,6 +61,7 @@ tags
 
 ## Hardware & Monitoring
 
+- [netdatanetdata The open-source observability platform everyone needs!](https://github.com/netdata/netdata)
 - [ ] base monitoring setup
 - [ ] how inform about problems? (email, telegram, etc...)
 - [ ] backup monitoring setup
