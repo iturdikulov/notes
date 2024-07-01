@@ -24,10 +24,30 @@ sr-ease: 274
 > are referred to as user agents.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Web_browser)</cite>
 
-Currently, I use [[Firefox]] and [[Brave]].
+Currently, I use and [[Brave]] and [[Firefox]] as fallback browser.
 
-I also recommended to check and integrate [[search_engine|search engines]] into
+I also recommend checking and integrate [[search_engine|search engines]] into
 your browser.
+
+## Development tools
+
+DevTools allowing you edit web pages in live mode, debug [[JavaScript]] code and
+examine page source and structure (DOM tree).
+
+Since my primary browser is Brave, I take more attention to Chrome DevTools
+details. [Chrome DevTools](https://developer.chrome.com/docs/devtools) are
+supported in Brave, so it's recommended to use them for debugging and testing
+when working with web development (frontend). Check link above for more
+information.
+
+To toggle DevTools press `C-S-i` or `F12`, it will open small window with
+previously opened component (specific tab on top). You can also toggle it by
+right-clicking on the page element and selecting "Inspect" from the context
+menu, or press `C-S-c` to enter into interactive selection mode.
+
+### Shortcuts
+
+Toggle Responsive Design Mode::`C-S-m`
 
 ## External links
 
