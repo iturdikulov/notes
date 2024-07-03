@@ -3,6 +3,9 @@ date: 2024-03-17
 tags:
  - inbox
  - SR_productivity
+sr-due: 2024-07-04
+sr-interval: 3
+sr-ease: 262
 ---
 
 # cmus

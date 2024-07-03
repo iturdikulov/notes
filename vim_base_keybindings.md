@@ -3,6 +3,9 @@ date: 2024-03-03
 tags:
   - inbox
   - SR_vim
+sr-due: 2024-07-04
+sr-interval: 3
+sr-ease: 249
 ---
 
 # Vim base keybindings

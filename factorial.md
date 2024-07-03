@@ -3,6 +3,9 @@ date: 2024-03-18
 tags:
   - inbox
   - SR_mathematics
+sr-due: 2024-07-02
+sr-interval: 1
+sr-ease: 230
 ---
 
 # Factorial

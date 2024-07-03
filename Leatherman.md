@@ -5,6 +5,9 @@ external:
  - https://en.wikipedia.org/wiki/Leatherman
 tags:
   - inbox
+sr-due: 2024-07-05
+sr-interval: 4
+sr-ease: 270
 ---
 
 # Leatherman

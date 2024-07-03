@@ -2,6 +2,9 @@
 date: 2024-06-28
 tags:
   - inbox
+sr-due: 2024-07-02
+sr-interval: 1
+sr-ease: 225
 ---
 
 # Class (computer programming)
