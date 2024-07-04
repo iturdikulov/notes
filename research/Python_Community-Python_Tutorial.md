@@ -4202,7 +4202,8 @@ e = Dog('Buddy')
 d.add_trick('roll over')
 e.add_trick('play dead')
 ```
-&#10;Shared data can have possibly surprising effects with involving mutable objects
+&#10;
+Shared data can have possibly surprising effects with involving mutable objects
 such as lists and dictionaries. For example, the *tricks* list in the following
 code should not be used as a class variable because just a single list would be
 shared by all *Dog* instances:
@@ -4305,9 +4306,9 @@ class C:
 # confuse the reader of a program.
 ```
 
-Methods may call other methods by using method attributes of the `self` argument:
-
-```
+Methods may call other methods by using method attributes of the ==`self`==
+argument:
+```python
 class Bag:
     def __init__(self):
         self.data = []
@@ -4320,36 +4321,35 @@ class Bag:
         self.add(x)
 ```
 
+<!-- https://stackoverflow.com/questions/68117207/how-do-modules-and-scope-interact-when-the-same-module-is-imported-into-the-same -->
+<!-- NEXT: need review this and next notes-->
+
 Methods may reference global names in the same way as ordinary functions. The
-global scope associated with a method is the module containing its definition.
-(A class is never used as a global scope.) While one rarely encounters a good
+global scope associated with a method is the ==module== containing its
+definition.
+
+A class is never used as a ==global== scope. While one rarely encounters a good
 reason for using global data in a method, there are many legitimate uses of the
 global scope: for one thing, functions and modules imported into the global
 scope can be used by methods, as well as functions and classes defined in it.
-Usually, the class containing the method is itself defined in this global scope,
-and in the next section we’ll find some good reasons why a method would want to
-reference its own class.
+Usually, the class containing the method is itself defined in this global scope.
 
 Each value is an object, and therefore has a *class* (also called its *type*).
-It is stored as `object.__class__`.
-
-## 9.5. Inheritance
+It is stored as `object.==__class__==`.
 
 Of course, a language feature would not be worthy of the name “class” without
 supporting inheritance. The syntax for a derived class definition looks like
 this:
-
+&#10;
 ```python
 class DerivedClassName(BaseClassName):
     <statement-1>
     <statement-N>
 ```
-
 The name `BaseClassName` must be defined in a namespace accessible from the
 scope containing the derived class definition. In place of a base class name,
 other arbitrary expressions are also allowed. This can be useful, for example,
 when the base class is defined in another module:
-
 ```python
 class DerivedClassName(modname.BaseClassName):
 ```
@@ -4357,30 +4357,31 @@ class DerivedClassName(modname.BaseClassName):
 Execution of a derived class definition proceeds the same as for a base class.
 When the class object is constructed, the base class is remembered. This is used
 for resolving attribute references: if a requested attribute is not found in the
-class, the search proceeds to look in the base class. This rule is applied
+class, the search proceeds to look in the ==base class==. This rule is applied
 recursively if the base class itself is derived from some other class.
 
 There’s nothing special about instantiation of derived classes:
 `DerivedClassName()` creates a new instance of the class. Method references are
 resolved as follows: the corresponding class attribute is searched, descending
-down the chain of base classes if necessary, and the method reference is valid
-if this yields a function object.
+down the chain of ==base== classes if necessary, and the method reference is
+valid if this yields a function object.
 
 Derived classes may override methods of their base classes. Because methods have
 no special privileges when calling other methods of the same object, a method of
 a base class that calls another method defined in the same base class may end up
-calling a method of a derived class that overrides it. (For C++ programmers: all
-methods in Python are effectively `virtual`.)
+calling a method of a derived class that ==overrides it.== (For C++ programmers:
+all methods in Python are effectively `virtual`.)
 
 An overriding method in a derived class may in fact want to extend rather than
 simply replace the base class method of the same name. There is a simple way to
-call the base class method directly: just call `BaseClassName.methodname(self,
-arguments)`. This is occasionally useful to clients as well. (Note that this
-only works if the base class is accessible as `BaseClassName` in the global
-scope.)
+call the base class method directly: just call
+==`BaseClassName.methodname(self, arguments)`==. This is occasionally useful to
+clients as well. Note: that this only works if the base class is accessible as
+`BaseClassName` in the global scope.
 
-Python has two built-in functions that work with inheritance:
-
+Python has two built-in functions that work with inheritance (check type of an
+object):
+&#10;
 - Use `isinstance()` to check an instance’s type: `isinstance(obj, int)` will be
 `True` only if `obj.__class__` is `int` or some class derived from `int`
 - Use `issubclass()` to check class inheritance: `issubclass(bool, int)` is
@@ -4388,28 +4389,27 @@ Python has two built-in functions that work with inheritance:
 `False` since `float` is not a subclass of `int`.
 
 
-### 9.5.1. Multiple Inheritance
-
 Python supports a form of multiple inheritance as well. A class definition with
 multiple base classes looks like this:
-
 ```python
 class DerivedClassName(Base1, Base2, Base3):
     <statement-1>
     <statement-N>
 ```
-
+\
 For most purposes, in the simplest cases, you can think of the search for
-attributes inherited from a parent class as depth-first, left-to-right, not
+attributes inherited from a parent class as depth-==first, left-to-right==, not
 searching twice in the same class where there is an overlap in the hierarchy.
 Thus, if an attribute is not found in `DerivedClassName`, it is searched for in
 `Base1`, then (recursively) in the base classes of `Base1`, and if it was not
-found there, it was searched for in `Base2`, and so on.
+found there, it was searched for in `Base2`, and so on (in fact more complex
+logic is used here).
 
-In fact, it is slightly more complex than that; the method resolution order
-changes dynamically to support cooperative calls to `super()`. This approach is
-known in some other multiple-inheritance languages as call-next-method and is
-more powerful than the super call found in single-inheritance languages.
+In fact, search for attributes from derived classes more complex than
+depth-first, left-to-right; the method resolution order changes dynamically to
+support cooperative calls to ==`super()`==. This approach is known in some other
+multiple-inheritance languages as call-next-method and is more powerful than the
+super call found in single-inheritance languages.
 
 Dynamic ordering is necessary because all cases of multiple inheritance exhibit
 one or more diamond relationships (where at least one of the parent classes can
@@ -4417,15 +4417,15 @@ be accessed through multiple paths from the bottommost class). For example, all
 classes inherit from `object`, so any case of multiple inheritance provides more
 than one path to reach `object`. To keep the base classes from being accessed
 more than once, the dynamic algorithm linearizes the search order in a way that
-preserves the left-to-right ordering specified in each class, that calls each
-parent only once, and that is monotonic (meaning that a class can be subclassed
-without affecting the precedence order of its parents). Taken together, these
-properties make it possible to design reliable and extensible classes with
-multiple inheritance. For more detail, see [The Python 2.3 Method Resolution
-Order](https://docs.python.org/3/howto/mro.html#python-2-3-mro).
+preserves the ==left-to-right== ordering specified in each class, that calls
+each parent only once, and that is monotonic (meaning that a class can be
+subclassed without affecting the precedence order of its parents). Taken
+together, these properties make it possible to design reliable and extensible
+classes with multiple inheritance. For more detail, see [The Python 2.3 Method
+Resolution Order](https://docs.python.org/3/howto/mro.html#python-2-3-mro).
 
-## 9.6. Private Variables
-
+Do “private” instance variables exist in Python?
+&#10;
 “Private” instance variables that cannot be accessed except from inside an
 object don’t exist in Python. However, there is a convention that is followed by
 most Python code: a name prefixed with an underscore (e.g. `_spam`) should be
@@ -4433,18 +4433,17 @@ treated as a non-public part of the API (whether it is a function, a method or a
 data member). It should be considered an implementation detail and subject to
 change without notice.
 
-Since there is a valid use-case for class-private members (namely to avoid name
-clashes of names with names defined by subclasses), there is limited support for
-such a mechanism, called *name mangling*. Any identifier of the form `__spam`
-(at least two leading underscores, at most one trailing underscore) is textually
-replaced with `_classname__spam`, where `classname` is the current class name
-with leading underscore(s) stripped. This mangling is done without regard to the
-syntactic position of the identifier, as long as it occurs within the definition
-of a class.
+Since there is a valid use-case for class-private members (namely to avoid
+**name clashes** of names with names defined by subclasses), there is limited
+support for such a mechanism, called ==*name mangling*==. Any identifier of the
+form `__spam` (at least two leading underscores, at most one trailing
+underscore) is textually replaced with `_classname__spam`, where `classname` is
+the current class name with leading underscore(s) stripped. This mangling is
+done without regard to the syntactic position of the identifier, as long as it
+occurs within the definition of a class.
 
 Name mangling is helpful for letting subclasses override methods without
 breaking intraclass method calls. For example:
-
 ```python
 class Mapping:
     def __init__(self, iterable):
@@ -4465,30 +4464,69 @@ class MappingSubclass(Mapping):
         for item in zip(keys, values):
             self.items_list.append(item)
 ```
-
-The above example would work even if `MappingSubclass` were to introduce a
+Will this example work if `MappingSubclass` introduces a `__update` identifier?
+&#10;
+Yes. The above example would work even if `MappingSubclass` were to introduce a
 `__update` identifier since it is replaced with `_Mapping__update` in the
 `Mapping` class and `_MappingSubclass__update` in the `MappingSubclass` class
-respectively.
+respectively. Example:
+```python
+class Mapping:
+    __update = "__update"
 
-Note that the mangling rules are designed mostly to avoid accidents; it still is
-possible to access or modify a variable that is considered private. This can
-even be useful in special circumstances, such as in the debugger.
+class MappingSubclass(Mapping):
+    __update = "__update"
+
+print(dir(Mapping))          # ['_Mapping__update', '__doc__', '__module__']
+print(dir(MappingSubclass))  # ['_MappingSubclass__update', '__doc__', '__module__']
+```
+
+Note that the mangling rules are designed mostly to avoid accidents; it
+==still is possible== to access or modify a variable that is considered private.
+This can even be useful in special circumstances, such as in the debugger.
+
+<!-- NEXT: need to understand why -->
 
 Notice that code passed to `exec()` or `eval()` does not consider the classname
 of the invoking class to be the current class; this is similar to the effect of
 the `global` statement, the effect of which is likewise restricted to code that
 is byte-compiled together. The same restriction applies to `getattr()`,
 `setattr()` and `delattr()`, as well as when referencing `__dict__` directly.
+\
+In other words "magic" of double-underscores will not work with exec or eval, so
+consider the following example:
+```python
+class Foo:
+    def __init__(self):
+        self.__bar = 42
+    def method0(self):
+        return self.__bar * 2
+    def method1(self):
+        return eval('self.__bar * 2')
 
-## 9.7. Odds and Ends
+f = Foo()
+f.method0()  # 84
+
+f.method1()
+# Traceback (most recent call last):
+#   File "<stdin>", line 1, in <module>
+#   File "<stdin>", line 7, in method1
+#   File "<string>", line 1, in <module>
+# AttributeError: 'Foo' object has no attribute '__bar'
+# Similarly, for getattr etc:
+
+getattr(f, '__bar')
+# Traceback (most recent call last):
+#   File "<stdin>", line 1, in <module>
+# AttributeError: 'Foo' object has no attribute '__bar'
+```
 
 Sometimes it is useful to have a data type similar to the Pascal “record” or C
 “struct”, bundling together a few named data items. The idiomatic approach is to
-use [`dataclasses`](https://docs.python.org/3/library/dataclasses.html#module-dataclasses):
-Generate special methods on user-defined classes.") for this
-purpose:
-
+use [`dataclasses`](https://docs.python.org/3/library/dataclasses.html#module-dataclasses).
+(generate special methods on user-defined classes) for this purpose, can you
+provide simple example?
+&#10;
 ```python
 from dataclasses import dataclass
 
@@ -4497,18 +4535,14 @@ class Employee:
     name: str
     dept: str
     salary: int
-```
 
-```python
->>> john = Employee('john', 'computer lab', 1000)
->>> john.dept
-'computer lab'
->>> john.salary
-1000
+john = Employee('john', 'computer lab', 1000)
+print(john.dept)    # 'computer lab'
+print(john.salary)  # 1000
 ```
 
 A piece of Python code that expects a particular abstract data type can often be
-passed a class that emulates the methods of that data type instead. For
+passed a ==class== that emulates the methods of that data type instead. For
 instance, if you have a function that formats some data from a file object, you
 can define a class with methods `read()`  and `readline()` that get the data
 from a string buffer instead, and pass it as an argument.
@@ -4516,14 +4550,12 @@ from a string buffer instead, and pass it as an argument.
 [Instance method
 objects](https://docs.python.org/3/reference/datamodel.html#instance-methods)
 have attributes, too: `m.__self__` is the instance object with the method `m()`,
-and `m.__func__`  is the function object corresponding to the method.
-
-## 9.8. Iterators
+and ==`m.__func__`==  is the function object corresponding to the method.
 
 By now you have probably noticed that most container objects can be looped over
 using a `for`
 statement:
-
+\
 ```python
 for element in [1, 2, 3]:
     print(element)
@@ -4536,35 +4568,37 @@ for char in "123":
 for line in open("myfile.txt"):
     print(line, end='')
 ```
-
+\
 This style of access is clear, concise, and convenient. The use of iterators
 pervades and unifies Python. Behind the scenes, the `for` statement calls
-`iter()` on the container object. The function returns an iterator object that
-defines the method `__next__()` which accesses elements in the container one at
-a time. When there are no more elements, `__next__()` raises a `StopIteration`
-exception which tells the `for` loop to terminate. You can call the `__next__()`
-method using the `next()` built-in function; this example shows how it all
-works:
-
+==`iter()`== on the container object. The function returns an iterator object
+that defines the method `__next__()` which accesses elements in the container
+one at a time. When there are no more elements, `__next__()` raises a
+`StopIteration` exception which tells the `for` loop to terminate. You can call
+the `__next__()` method using the `next()` built-in function; this example shows
+how it all works:
+\
 ```python
 s = 'abc'
 it = iter(s)
-it  # <str_iterator object at 0x10c90e650>
-next(it)  # 'a'
-next(it)  # 'b'
-next(it)  # 'c'
-next(it)
+print(it)  # <str_iterator object at 0x10c90e650>
+print(next(it))  # 'a'
+print(next(it))  # 'b'
+print(next(it))  # 'c'
+print(next(it))
 # Traceback (most recent call last):
 #   File "<stdin>", line 1, in <module>
 #     next(it)
 # StopIteration
 ```
 
+Can you provide an example of how to create an iterator class?
+&#10;
 Having seen the mechanics behind the iterator protocol, it is easy to add
 iterator behavior to your classes. Define an `__iter__()` method which returns
 an object with a `__next__()` method. If the class defines `__next__()`, then
 `__iter__()` can just return `self`:
-
+\
 ```python
 class Reverse:
     """Iterator for looping over a sequence backwards."""
@@ -4573,12 +4607,12 @@ class Reverse:
         self.index = len(data)
 
     def __iter__(self):
-        return self
+        return self  # Object with __next__ method
 
     def __next__(self):
         if self.index == 0:
-            raise StopIteration
-        self.index = self.index - 1
+            raise StopIteration  # Signal the end of iteration
+        self.index = self.index - 1  # Offset by -1
         return self.data[self.index]
 
 rev = Reverse('spam')
@@ -4592,8 +4626,8 @@ for char in rev:
 # s
 ```
 
-## 9.9. Generators
-
+What is a generator in Python?
+&#10;
 [Generators](https://docs.python.org/3/glossary.html#term-generator) are a
 simple and powerful tool for creating iterators. They are written like regular
 functions but use the
@@ -4603,15 +4637,17 @@ whenever they want to return data. Each time
 called on it, the generator resumes where it left off (it remembers all the data
 values and which statement was last executed). An example shows that generators
 can be trivially easy to create:
-
+&#10;
 ```python
-def reverse(data):
+def reverse(data):  # Generator function
     for index in range(len(data)-1, -1, -1):
-        yield data[index]
-```
+        yield data[index]  # Pause iterations here and return the value to func.
+        # Point of execution is saved here, we resume when external code calls
+        # the next() method
 
-```python
-for char in reverse('golf'):
+generator_object = reverse('golf')
+print(generator_object)  # <generator object reverse at 0x00A1DB50>
+for char in generator_object:
     print(char)
 
 # f
@@ -4621,857 +4657,777 @@ for char in reverse('golf'):
 ```
 
 Anything that can be done with generators can also be done with class-based
-iterators as described in the previous section. What makes generators so compact
-is that the `__iter__()` and `__next__()` methods are created automatically.
-
+==iterators==. What makes generators so compact is that the `__iter__()` and
+`__next__()` methods are created automatically.
+\
 Another key feature is that the local variables and execution state are
 automatically saved between calls. This made the function easier to write and
 much more clear than an approach using instance variables like `self.index` and
 `self.data`.
-
+\
 In addition to automatic method creation and saving program state, when
 generators terminate, they automatically raise `StopIteration`. In combination,
 these features make it easy to create iterators with no more effort than writing
 a regular function.
 
-## 9.10. Generator Expressions
-
+How to create Generator Expressions? Can you provide some examples?
+&#10;
 Some simple generators can be coded succinctly as expressions using a syntax
 similar to list comprehensions but with parentheses instead of square brackets.
 These expressions are designed for situations where the generator is used right
 away by an enclosing function. Generator expressions are more compact but less
 versatile than full generator definitions and tend to be more memory friendly
-than equivalent list comprehensions.
-
-Examples:
-
+than equivalent list comprehensions:
 ```python
-sum(i*i for i in range(10))                 # sum of squares
-285
+sum(i*i for i in range(10))                 # 285, sum of squares
 
 xvec = [10, 20, 30]
 yvec = [7, 5, 3]
-sum(x*y for x,y in zip(xvec, yvec))         # dot product
-260
+sum(x*y for x,y in zip(xvec, yvec))         # 260,  dot product
 
+page = "lorem ipsum dolor"
 unique_words = set(word for line in page  for word in line.split())
 
 valedictorian = max((student.gpa, student.name) for student in graduates)
 
 data = 'golf'
 list(data[i] for i in range(len(data)-1, -1, -1))
-['f', 'l', 'o', 'g']
+# ['f', 'l', 'o', 'g']
 ```
 
-Footnotes
+## 10. Brief Tour of the Standard Library
 
-[[1](https://docs.python.org/3/tutorial/classes.html#id1)]
+Which module from standard library is used to work with operating system?
+&#10;
+The `os` module provides dozens of functions for interacting with the
+operating system:
+```python
+import os
+os.getcwd()      # 'C:\\Python314', Return the current working directory
+os.chdir('/var/log')   # Change current working directory
+os.system('mkdir nginx')   # 0, Run the command mkdir in the system shell
+```
+\
+Be sure to use the `import os` style instead of `from os import *`.  This will
+keep `os.open` from shadowing the built-in `open` function which operates much
+differently.
 
-Except for one thing. Module objects have a secret read-only attribute called
-[`__dict__`](https://docs.python.org/3/tutorial/classes.html../library/stdtypes.html#object.__dict__
-"object.__dict__") which returns the dictionary used to implement the module’s
-namespace; the name
-[`__dict__`](https://docs.python.org/3/tutorial/classes.html../library/stdtypes.html#object.__dict__
-"object.__dict__") is an attribute but not a global name. Obviously, using this
-violates the abstraction of namespace implementation, and should be restricted
-to things like post-mortem debuggers.
+The built-in `dir` and `help` functions are useful as interactive
+aids for working with large modules like `os`. What `dir(os)` and `help(os)`
+will return?
+&#10;
+```python
+import os
+dir(os) # <returns a list of all module functions>
+help(os) # <returns an manual page created from the module's docstrings>
+```
 
-## [10. Brief Tour of the Standard Library](https://docs.python.org/3/tutorial/stdlib.html)
+For daily file and directory management tasks, the `shutil` module provides
+a higher level interface that is easier to use, how to copy or move files with
+`shutil`?
+&#10;
+```python
+import shutil
+shutil.copyfile('data.db', 'archive.db')  # 'archive.db'
+shutil.move('/build/executables', 'installdir')  # 'installdir'
+```
 
-.. _tut-brieftour:
-
-**********************************
-Brief Tour of the Standard Library
-**********************************
-
-
-.. _tut-os-interface:
-
-Operating System Interface
-==========================
-
-The :mod:`os` module provides dozens of functions for interacting with the
-operating system::
-
-   >>> import os
-   >>> os.getcwd()      # Return the current working directory
-   'C:\\Python314'
-   >>> os.chdir('/server/accesslogs')   # Change current working directory
-   >>> os.system('mkdir today')   # Run the command mkdir in the system shell
-   0
-
-Be sure to use the ``import os`` style instead of ``from os import *``.  This
-will keep :func:`os.open` from shadowing the built-in :func:`open` function which
-operates much differently.
-
-.. index:: pair: built-in function; help
-
-The built-in :func:`dir` and :func:`help` functions are useful as interactive
-aids for working with large modules like :mod:`os`::
-
-   >>> import os
-   >>> dir(os)
-   <returns a list of all module functions>
-   >>> help(os)
-   <returns an extensive manual page created from the module's docstrings>
-
-For daily file and directory management tasks, the :mod:`shutil` module provides
-a higher level interface that is easier to use::
-
-   >>> import shutil
-   >>> shutil.copyfile('data.db', 'archive.db')
-   'archive.db'
-   >>> shutil.move('/build/executables', 'installdir')
-   'installdir'
-
-
-.. _tut-file-wildcards:
-
-File Wildcards
-==============
-
-The :mod:`glob` module provides a function for making file lists from directory
-wildcard searches::
-
-   >>> import glob
-   >>> glob.glob('*.py')
-   ['primes.py', 'random.py', 'quote.py']
-
-
-.. _tut-command-line-arguments:
-
-Command Line Arguments
-======================
+The `glob` module provides a function for making file lists from directory
+wildcard searches, how to list all files in the current directory with `py`
+extension?
+&#10;
+```python
+import glob
+glob.glob('*.py')  # ['primes.py', 'random.py', 'quote.py']
+```
 
 Common utility scripts often need to process command line arguments. These
-arguments are stored in the :mod:`sys` module's *argv* attribute as a list.  For
-instance, let's take the following :file:`demo.py` file::
+arguments are stored in the `sys` module's *argv* attribute as a list.  For
+instance, let's take the following `demo.py` file:
+```python
+# File demo.py
+import sys
+print(sys.argv)
+```
+What this script will print if we run it with this command `python demo.py one two three`?
+&#10;
+# ['demo.py', 'one', 'two', 'three']
 
-   # File demo.py
-   import sys
-   print(sys.argv)
+The `argparse` module provides a more sophisticated mechanism to process
+command line arguments. The following script extracts one or more filenames
+and an optional number of lines to be displayed:
+```python
+import argparse
 
-Here is the output from running ``python demo.py one two three`` at the command
-line::
+parser = argparse.ArgumentParser(
+    prog='top',
+    description='Show top lines from each file')
+parser.add_argument('filenames', nargs='+')
+parser.add_argument('-l', '--lines', type=int, default=10)
+args = parser.parse_args()
 
-   ['demo.py', 'one', 'two', 'three']
+print(args)
+```
+When run at the command line with `python top.py --lines=5 alpha.txt beta.txt`,
+the script sets `args.lines` and `args.filenames` to?
+&#10;
+`args.lines` to `5` and `args.filenames` to `['alpha.txt', 'beta.txt']`.
 
-The :mod:`argparse` module provides a more sophisticated mechanism to process
-command line arguments.  The following script extracts one or more filenames
-and an optional number of lines to be displayed::
-
-    import argparse
-
-    parser = argparse.ArgumentParser(
-        prog='top',
-        description='Show top lines from each file')
-    parser.add_argument('filenames', nargs='+')
-    parser.add_argument('-l', '--lines', type=int, default=10)
-    args = parser.parse_args()
-    print(args)
-
-When run at the command line with ``python top.py --lines=5 alpha.txt
-beta.txt``, the script sets ``args.lines`` to ``5`` and ``args.filenames``
-to ``['alpha.txt', 'beta.txt']``.
-
-
-.. _tut-stderr:
-
-Error Output Redirection and Program Termination
-================================================
-
-The :mod:`sys` module also has attributes for *stdin*, *stdout*, and *stderr*.
+The `sys` module also has attributes for *stdin*, *stdout*, and *stderr*.
 The latter is useful for emitting warnings and error messages to make them
-visible even when *stdout* has been redirected::
+visible even when *stdout* has been redirected:
+```python
+sys.stderr.write('Warning, log file not found starting a new one\n')
+# Warning, log file not found starting a new one
+```
 
-   >>> sys.stderr.write('Warning, log file not found starting a new one\n')
-   Warning, log file not found starting a new one
+The most direct way to terminate a script (using `sys` module) is to use
+==`sys.exit()`==.
 
-The most direct way to terminate a script is to use ``sys.exit()``.
-
-
-.. _tut-string-pattern-matching:
-
-String Pattern Matching
-=======================
-
-The :mod:`re` module provides regular expression tools for advanced string
+Which python standard library module is used to work with regular expressions?
+&#10;
+The `re` module provides regular expression tools for advanced string
 processing. For complex matching and manipulation, regular expressions offer
-succinct, optimized solutions::
+succinct, optimized solutions:
+```python
+import re
 
-   >>> import re
-   >>> re.findall(r'\bf[a-z]*', 'which foot or hand fell fastest')
-   ['foot', 'fell', 'fastest']
-   >>> re.sub(r'(\b[a-z]+) \1', r'\1', 'cat in the the hat')
-   'cat in the hat'
+print(re.findall(r'\bf[a-z]*', 'which foot or hand fell fastest'))
+# ['foot', 'fell', 'fastest']
+print(re.sub(r'(\b[a-z]+) \1', r'\1', 'cat in the the hat'))
+# 'cat in the hat'
+```
 
-When only simple capabilities are needed, string methods are preferred because
-they are easier to read and debug::
+When only simple capabilities are needed, ==string== methods are preferred over
+`re` because they are easier to read and debug:
+```python
+print('tea for too'.replace('too', 'two'))
+# 'tea for two'
+```
 
-   >>> 'tea for too'.replace('too', 'two')
-   'tea for two'
+Which standard library module gives access to the underlying C library functions
+for floating point math:
+&#10;
+The `math` module.
+```python
+import math
+print(math.cos(math.pi / 4))  # 0.70710678118654757
+print(math.log(1024, 2))      # 10.0
+```
 
+Which standard library module is used to work with random numbers?
+&#10;
+The `random` module provides tools for making random selections:
+```python
+import random
+print(random.choice(['apple', 'pear', 'banana']))  # something from list
+print(random.sample(range(100), 10))               # sampling without replacement
+print(random.random())                             # random float from the interval [0.0, 1.0)
+print(random.uniform(1, 10))                       # random float from the interval [1, 10)
+print(random.randrange(6))                         # random integer chosen from range(6)
+```
 
-.. _tut-mathematics:
+Which standard library module is used to work with statistics?
+&#10;
+The `statistics` module calculates basic statistical properties
+(the mean, median, variance, etc.) of numeric data:
+```python
+import statistics
+data = [2.75, 1.75, 1.25, 0.25, 0.5, 1.25, 3.5]
+print(statistics.mean(data))     # 1.6071428571428572, mean is the average of the data
+print(statistics.median(data))   # 1.25, median is the middle value of the data
+print(statistics.variance(data)) # 1.3720238095238095, variance is the average of the squared differences from the mean
+# The SciPy project <https://scipy.org> has many other modules for numerical computations.
+# NEXT: what is actually variance?
+```
 
-Mathematics
-===========
-
-The :mod:`math` module gives access to the underlying C library functions for
-floating point math::
-
-   >>> import math
-   >>> math.cos(math.pi / 4)
-   0.70710678118654757
-   >>> math.log(1024, 2)
-   10.0
-
-The :mod:`random` module provides tools for making random selections::
-
-   >>> import random
-   >>> random.choice(['apple', 'pear', 'banana'])
-   'apple'
-   >>> random.sample(range(100), 10)   # sampling without replacement
-   [30, 83, 16, 4, 8, 81, 41, 50, 18, 33]
-   >>> random.random()    # random float from the interval [0.0, 1.0)
-   0.17970987693706186
-   >>> random.randrange(6)    # random integer chosen from range(6)
-   4
-
-The :mod:`statistics` module calculates basic statistical properties
-(the mean, median, variance, etc.) of numeric data::
-
-    >>> import statistics
-    >>> data = [2.75, 1.75, 1.25, 0.25, 0.5, 1.25, 3.5]
-    >>> statistics.mean(data)
-    1.6071428571428572
-    >>> statistics.median(data)
-    1.25
-    >>> statistics.variance(data)
-    1.3720238095238095
-
-The SciPy project <https://scipy.org> has many other modules for numerical
-computations.
-
-.. _tut-internet-access:
-
-Internet Access
-===============
-
+Which standard library module is used to work with retrieving data from URL's
+and sending mail?
+&#10;
 There are a number of modules for accessing the internet and processing internet
-protocols. Two of the simplest are :mod:`urllib.request` for retrieving data
-from URLs and :mod:`smtplib` for sending mail::
+protocols. Two of the simplest are `urllib.request` for retrieving data
+from URLs and `smtplib` for sending mail.
+&#10;
+```python
+from urllib.request import urlopen
+with urlopen('http://worldtimeapi.org/api/timezone/etc/UTC.txt') as response:
+    for line in response:
+        line = line.decode()             # Convert bytes to a str
+        if line.startswith('datetime'):
+            print(line.rstrip())         # Remove trailing newline
 
-   >>> from urllib.request import urlopen
-   >>> with urlopen('http://worldtimeapi.org/api/timezone/etc/UTC.txt') as response:
-   ...     for line in response:
-   ...         line = line.decode()             # Convert bytes to a str
-   ...         if line.startswith('datetime'):
-   ...             print(line.rstrip())         # Remove trailing newline
-   ...
-   datetime: 2022-01-01T01:36:47.689215+00:00
+# datetime: datetime: 2024-07-01T08:37:06.769787+00:00
+```
 
-   >>> import smtplib
-   >>> server = smtplib.SMTP('localhost')
-   >>> server.sendmail('soothsayer@example.org', 'jcaesar@example.org',
+```python
+# needs a mailserver running on localhost.
+import smtplib
+server = smtplib.SMTP('localhost')
+server.sendmail('soothsayer@example.org', 'jcaesar@example.org',
    ... """To: jcaesar@example.org
    ... From: soothsayer@example.org
    ...
    ... Beware the Ides of March.
    ... """)
-   >>> server.quit()
+server.quit()
+```
 
-(Note that the second example needs a mailserver running on localhost.)
-
-
-.. _tut-dates-and-times:
-
-Dates and Times
-===============
-
-The :mod:`datetime` module supplies classes for manipulating dates and times in
+Which standard library module is used to work with dates and times?
+&#10;
+The `datetime` module supplies classes for manipulating dates and times in
 both simple and complex ways. While date and time arithmetic is supported, the
 focus of the implementation is on efficient member extraction for output
 formatting and manipulation.  The module also supports objects that are timezone
-aware. ::
+aware.
+```python
+# dates are easily constructed and formatted
+from datetime import date
+now = date.today()
+print(now)
+# 2024-07-01
+print(now.strftime("%m-%d-%y. %d %b %Y is a %A on the %d day of %B."))
+# 07-01-24. 01 Jul 2024 is a Monday on the 01 day of July.
+```
+```python
+# dates support calendar arithmetic
+from datetime import date
+birthday = date(1964, 7, 31)
+now = date.today()
+age = now - birthday
+print(age.days) # 14368
+```
 
-   >>> # dates are easily constructed and formatted
-   >>> from datetime import date
-   >>> now = date.today()
-   >>> now
-   datetime.date(2003, 12, 2)
-   >>> now.strftime("%m-%d-%y. %d %b %Y is a %A on the %d day of %B.")
-   '12-02-03. 02 Dec 2003 is a Tuesday on the 02 day of December.'
-
-   >>> # dates support calendar arithmetic
-   >>> birthday = date(1964, 7, 31)
-   >>> age = now - birthday
-   >>> age.days
-   14368
-
-
-.. _tut-data-compression:
-
-Data Compression
-================
-
+Which Data Compression modules aviable in python standard library? How to use
+for example zlib?
+&#10;
 Common data archiving and compression formats are directly supported by modules
-including: :mod:`zlib`, :mod:`gzip`, :mod:`bz2`, :mod:`lzma`, :mod:`zipfile` and
-:mod:`tarfile`. ::
+including: `zlib`, `gzip`, `bz2`, `lzma`, `zipfile` and `tarfile`.
+```python
+import zlib
+s = b'witch which has which witches wrist watch'
+print(len(s)) # 41
+print(zlib.crc32(s)) # 226805979
 
-   >>> import zlib
-   >>> s = b'witch which has which witches wrist watch'
-   >>> len(s)
-   41
-   >>> t = zlib.compress(s)
-   >>> len(t)
-   37
-   >>> zlib.decompress(t)
-   b'witch which has which witches wrist watch'
-   >>> zlib.crc32(s)
-   226805979
+t = zlib.compress(s)
+print(len(t)) # 37, less than 41
+print(zlib.crc32(zlib.decompress(t))) # 226805979, same as above
+```
 
-
-.. _tut-performance-measurement:
-
-Performance Measurement
-=======================
-
+Which performance measurement module is available in python standard library?
+&#10;
 Some Python users develop a deep interest in knowing the relative performance of
 different approaches to the same problem. Python provides a measurement tool
 that answers those questions immediately.
-
+\
 For example, it may be tempting to use the tuple packing and unpacking feature
-instead of the traditional approach to swapping arguments. The :mod:`timeit`
-module quickly demonstrates a modest performance advantage::
+instead of the traditional approach to swapping arguments. The `timeit`
+module quickly demonstrates a modest performance advantage:
+```python
+from timeit import Timer
+print(Timer('t=a; a=b; b=t', 'a=1; b=2').timeit())  # 0.57535828626024577
+print(Timer('a,b = b,a', 'a=1; b=2').timeit())      # 0.54962537085770791
+```
+\
+In contrast to `timeit`'s fine level of granularity, the `profile` and `pstats`
+modules provide tools for identifying time critical sections in larger blocks of
+code.
 
-   >>> from timeit import Timer
-   >>> Timer('t=a; a=b; b=t', 'a=1; b=2').timeit()
-   0.57535828626024577
-   >>> Timer('a,b = b,a', 'a=1; b=2').timeit()
-   0.54962537085770791
-
-In contrast to :mod:`timeit`'s fine level of granularity, the :mod:`profile` and
-:mod:`pstats` modules provide tools for identifying time critical sections in
-larger blocks of code.
-
-
-.. _tut-quality-control:
-
-Quality Control
-===============
-
-One approach for developing high quality software is to write tests for each
-function as it is developed and to run those tests frequently during the
-development process.
-
-The :mod:`doctest` module provides a tool for scanning a module and validating
+Which quality control module is available in python standard library to provide
+automated docstring examples testing?
+&#10;
+The `doctest` module provides a tool for scanning a module and validating
 tests embedded in a program's docstrings.  Test construction is as simple as
 cutting-and-pasting a typical call along with its results into the docstring.
 This improves the documentation by providing the user with an example and it
 allows the doctest module to make sure the code remains true to the
-documentation::
+documentation:
+```python
+import doctest
 
-   def average(values):
-       """Computes the arithmetic mean of a list of numbers.
+def average(values):
+    """Computes the arithmetic mean of a list of numbers.
 
-       >>> print(average([20, 30, 70]))
-       40.0
-       """
-       return sum(values) / len(values)
+    >>> print(average([20, 30, 70]))
+    40.0
+    """
+    return sum(values) / len(values)
 
-   import doctest
-   doctest.testmod()   # automatically validate the embedded tests
+print(doctest.testmod()) # automatically validate the embedded tests
+# TestResults(failed=0, attempted=1)
+```
 
-The :mod:`unittest` module is not as effortless as the :mod:`doctest` module,
-but it allows a more comprehensive set of tests to be maintained in a separate
-file::
+Standard library module `unittest` is used for what purpose?
+&#10;
+The `unittest` module is not as effortless as the `doctest` module, but it
+allows a more comprehensive set of tests to be maintained in a separate file:
+```python
+# TODO: writhe actual tests functions
+import unittest
 
-   import unittest
+class TestStatisticalFunctions(unittest.TestCase):
 
-   class TestStatisticalFunctions(unittest.TestCase):
+   def test_average(self):
+       self.assertEqual(average([20, 30, 70]), 40.0)
+       self.assertEqual(round(average([1, 5, 7]), 1), 4.3)
+       with self.assertRaises(ZeroDivisionError):
+           average([])
+       with self.assertRaises(TypeError):
+           average(20, 30, 70)
 
-       def test_average(self):
-           self.assertEqual(average([20, 30, 70]), 40.0)
-           self.assertEqual(round(average([1, 5, 7]), 1), 4.3)
-           with self.assertRaises(ZeroDivisionError):
-               average([])
-           with self.assertRaises(TypeError):
-               average(20, 30, 70)
+unittest.main()  # Calling from the command line invokes all tests
+```
 
-   unittest.main()  # Calling from the command line invokes all tests
-
-
-.. _tut-batteries-included:
-
-Batteries Included
-==================
 
 Python has a "batteries included" philosophy.  This is best seen through the
 sophisticated and robust capabilities of its larger packages. For example:
 
-* The :mod:`xmlrpc.client` and :mod:`xmlrpc.server` modules make implementing
-  remote procedure calls into an almost trivial task.  Despite the modules'
+- The `xmlrpc.client` and `xmlrpc.server` modules make implementing
+  ==remote procedure calls== into an almost trivial task.  Despite the modules'
   names, no direct knowledge or handling of XML is needed.
 
-* The :mod:`email` package is a library for managing email messages, including
-  MIME and other :rfc:`2822`-based message documents. Unlike :mod:`smtplib` and
-  :mod:`poplib` which actually send and receive messages, the email package has
-  a complete toolset for building or decoding complex message structures
+- The `email` package is a library for managing email messages, including
+  MIME and other `2822`-based message documents. Unlike `smtplib` and
+  `poplib` which actually send and receive messages, the email package has
+  a complete toolset for building or decoding complex ==message== structures
   (including attachments) and for implementing internet encoding and header
   protocols.
 
-* The :mod:`json` package provides robust support for parsing this
-  popular data interchange format.  The :mod:`csv` module supports
+- The `json` package provides robust support for parsing ==this (JSON)==
+  popular data interchange format.  The `csv` module supports
   direct reading and writing of files in Comma-Separated Value format,
   commonly supported by databases and spreadsheets.  XML processing is
-  supported by the :mod:`xml.etree.ElementTree`, :mod:`xml.dom` and
-  :mod:`xml.sax` packages. Together, these modules and packages
+  supported by the `xml.etree.ElementTree`, `xml.dom` and
+  `xml.sax` packages. Together, these modules and packages
   greatly simplify data interchange between Python applications and
   other tools.
 
-* The :mod:`sqlite3` module is a wrapper for the SQLite database
+- The `sqlite3` module is a wrapper for the ==SQLite== database
   library, providing a persistent database that can be updated and
   accessed using slightly nonstandard SQL syntax.
 
-* Internationalization is supported by a number of modules including
-  :mod:`gettext`, :mod:`locale`, and the :mod:`codecs` package.
+- Internationalization is supported by a number of modules including
+  ==`gettext`, `locale`, and the `codecs`== package.
 
-## [11. Brief Tour of the Standard Library — Part II](https://docs.python.org/3/tutorial/stdlib2.html)
+## 11. Brief Tour of the Standard Library — Part II
 
-.. _tut-brieftourtwo:
+The `reprlib` module provides a version of `repr` customized for abbreviated
+displays of ==large or deeply nested containers==:
+```python
+import reprlib
+reprlib.repr(set('supercalifragilisticexpialidocious'))
+```
 
-**********************************************
-Brief Tour of the Standard Library --- Part II
-**********************************************
-
-This second tour covers more advanced modules that support professional
-programming needs.  These modules rarely occur in small scripts.
-
-
-.. _tut-output-formatting:
-
-Output Formatting
-=================
-
-The :mod:`reprlib` module provides a version of :func:`repr` customized for
-abbreviated displays of large or deeply nested containers::
-
-   >>> import reprlib
-   >>> reprlib.repr(set('supercalifragilisticexpialidocious'))
-   "{'a', 'c', 'd', 'e', 'f', 'g', ...}"
-
-The :mod:`pprint` module offers more sophisticated control over printing both
+The `pprint` module offers more sophisticated control over printing both
 built-in and user defined objects in a way that is readable by the interpreter.
-When the result is longer than one line, the "pretty printer" adds line breaks
-and indentation to more clearly reveal data structure::
+When the result is longer than one line, the "pretty printer" adds
+==line breaks and indentation== to more clearly reveal data structure::
+```python
+import pprint
+t = [[[['black', 'cyan'], 'white', ['green', 'red']], [['magenta',
+    'yellow'], 'blue']]]
 
-   >>> import pprint
-   >>> t = [[[['black', 'cyan'], 'white', ['green', 'red']], [['magenta',
-   ...     'yellow'], 'blue']]]
-   ...
-   >>> pprint.pprint(t, width=30)
-   [[[['black', 'cyan'],
-      'white',
-      ['green', 'red']],
-     [['magenta', 'yellow'],
-      'blue']]]
+pprint.pprint(t, width=30)
+# [[[['black', 'cyan'],
+#    'white',
+#    ['green', 'red']],
+#   [['magenta', 'yellow'],
+#    'blue']]]
+```
 
-The :mod:`textwrap` module formats paragraphs of text to fit a given screen
-width::
+The `textwrap` module formats ==paragraphs of text== to fit a given screen
+width:
+```python
+import textwrap
+doc = """The wrap() method is just like fill() except that it returns
+a list of strings instead of one big string with newlines to separate
+the wrapped lines."""
 
-   >>> import textwrap
-   >>> doc = """The wrap() method is just like fill() except that it returns
-   ... a list of strings instead of one big string with newlines to separate
-   ... the wrapped lines."""
-   ...
-   >>> print(textwrap.fill(doc, width=40))
-   The wrap() method is just like fill()
-   except that it returns a list of strings
-   instead of one big string with newlines
-   to separate the wrapped lines.
+print(textwrap.fill(doc, width=80))
+# The wrap() method is just like fill()
+# except that it returns a list of strings
+# instead of one big string with newlines
+# to separate the wrapped lines.
+```
 
-The :mod:`locale` module accesses a database of culture specific data formats.
+The `locale` module accesses a database of ==culture specific== data formats.
 The grouping attribute of locale's format function provides a direct way of
-formatting numbers with group separators::
+formatting numbers with group separators:
+&#10;
+```python
+import locale
+locale.setlocale(locale.LC_ALL, 'English_United States.1252')
+# 'English_United States.1252'
+conv = locale.localeconv()          # get a mapping of conventions
+x = 1234567.8
+x = locale.format_string("%d", x, grouping=True)
+   # '1,234,567'
+locale.format_string("%s%.*f", (conv['currency_symbol'],
+                                conv['frac_digits'], x), grouping=True)
+#   '$1,234,567.80'
+```
 
-   >>> import locale
-   >>> locale.setlocale(locale.LC_ALL, 'English_United States.1252')
-   'English_United States.1252'
-   >>> conv = locale.localeconv()          # get a mapping of conventions
-   >>> x = 1234567.8
-   >>> locale.format_string("%d", x, grouping=True)
-   '1,234,567'
-   >>> locale.format_string("%s%.*f", (conv['currency_symbol'],
-   ...                      conv['frac_digits'], x), grouping=True)
-   '$1,234,567.80'
-
-
-.. _tut-templating:
-
-Templating
-==========
-
-The :mod:`string` module includes a versatile :class:`~string.Template` class
-with a simplified syntax suitable for editing by end-users.  This allows users
-to customize their applications without having to alter the application.
-
-The format uses placeholder names formed by ``$`` with valid Python identifiers
+The `string` module includes a versatile `string.Template` class with a
+simplified syntax suitable for editing by end-users.  This allows users to
+customize their applications without having to alter the application.
+\
+The format uses placeholder names formed by `$` with valid Python identifiers
 (alphanumeric characters and underscores).  Surrounding the placeholder with
 braces allows it to be followed by more alphanumeric letters with no intervening
-spaces.  Writing ``$$`` creates a single escaped ``$``::
+spaces.  Writing `$$` creates a single escaped ==`$`==:
+```python
+from string import Template
+t = Template('${village}folk send $$10 to $cause.')
+print(t.substitute(village='Nottingham', cause='the ditch fund'))
+# 'Nottinghamfolk send $10 to the ditch fund.'
+```
 
-   >>> from string import Template
-   >>> t = Template('${village}folk send $$10 to $cause.')
-   >>> t.substitute(village='Nottingham', cause='the ditch fund')
-   'Nottinghamfolk send $10 to the ditch fund.'
-
-The :meth:`~string.Template.substitute` method raises a :exc:`KeyError` when a
+The `string.Template.substitute` method raises a ==`KeyError`== when a
 placeholder is not supplied in a dictionary or a keyword argument.  For
 mail-merge style applications, user supplied data may be incomplete and the
-:meth:`~string.Template.safe_substitute` method may be more appropriate ---
-it will leave placeholders unchanged if data is missing::
+`string.Template.safe_substitute` method may be more appropriate --- it will
+leave placeholders unchanged if data is missing:
+```python
+from string import Template
+t = Template('Return the $item to $owner.')
+d = dict(item='unladen swallow')
+t.substitute(d)
+# Traceback (most recent call last):
+#   ...
+# KeyError: 'owner'
+t.safe_substitute(d)
+# 'Return the unladen swallow to $owner.'
+```
 
-   >>> t = Template('Return the $item to $owner.')
-   >>> d = dict(item='unladen swallow')
-   >>> t.substitute(d)
-   Traceback (most recent call last):
-     ...
-   KeyError: 'owner'
-   >>> t.safe_substitute(d)
-   'Return the unladen swallow to $owner.'
-
+Can I use custom delimiters for `string.Template`?
+&#10;
 Template subclasses can specify a custom delimiter.  For example, a batch
 renaming utility for a photo browser may elect to use percent signs for
-placeholders such as the current date, image sequence number, or file format::
+placeholders such as the current date, image sequence number, or file format:
+```python
+import time, os.path
+from string import Template
 
-   >>> import time, os.path
-   >>> photofiles = ['img_1074.jpg', 'img_1076.jpg', 'img_1077.jpg']
-   >>> class BatchRename(Template):
-   ...     delimiter = '%'
-   ...
-   >>> fmt = input('Enter rename style (%d-date %n-seqnum %f-format):  ')
-   Enter rename style (%d-date %n-seqnum %f-format):  Ashley_%n%f
+photofiles = ['img_1074.jpg', 'img_1076.jpg', 'img_1077.jpg']
+class BatchRename(Template):
+    delimiter = '%'
 
-   >>> t = BatchRename(fmt)
-   >>> date = time.strftime('%d%b%y')
-   >>> for i, filename in enumerate(photofiles):
-   ...     base, ext = os.path.splitext(filename)
-   ...     newname = t.substitute(d=date, n=i, f=ext)
-   ...     print('{0} --> {1}'.format(filename, newname))
+fmt = input('Enter rename style (%d-date %n-seqnum %f-format):  ')
+# Enter rename style (%d-date %n-seqnum %f-format): Ashley_%n%f
 
-   img_1074.jpg --> Ashley_0.jpg
-   img_1076.jpg --> Ashley_1.jpg
-   img_1077.jpg --> Ashley_2.jpg
+t = BatchRename(fmt)
+date = time.strftime('%d%b%y')
+for i, filename in enumerate(photofiles):
+    base, ext = os.path.splitext(filename)
+    newname = t.substitute(d=date, n=i, f=ext)
+    print('{0} --> {1}'.format(filename, newname))
 
+# img_1074.jpg --> Ashley_0.jpg
+# img_1076.jpg --> Ashley_1.jpg
+# img_1077.jpg --> Ashley_2.jpg
+```
+\
 Another application for templating is separating program logic from the details
 of multiple output formats.  This makes it possible to substitute custom
 templates for XML files, plain text reports, and HTML web reports.
 
 
-.. _tut-binary-formats:
+Which standard library module is used to work with binary data?
+&#10;
+The `struct` module provides `struct.pack` and `struct.unpack` functions for
+working with variable length binary record formats.  The following example shows
+how to loop through header information in a ZIP file without using the `zipfile`
+module.  Pack codes `"H"` and `"I"` represent two and four byte unsigned numbers
+respectively.  The `"<"` indicates that they are standard size and in
+little-endian byte order:
+```python
+import struct
 
-Working with Binary Data Record Layouts
-=======================================
+with open('/tmp/myfile.zip', 'rb') as f:
+    data = f.read()
 
-The :mod:`struct` module provides :func:`~struct.pack` and
-:func:`~struct.unpack` functions for working with variable length binary
-record formats.  The following example shows
-how to loop through header information in a ZIP file without using the
-:mod:`zipfile` module.  Pack codes ``"H"`` and ``"I"`` represent two and four
-byte unsigned numbers respectively.  The ``"<"`` indicates that they are
-standard size and in little-endian byte order::
+start = 0
+for i in range(3):                      # show the first 3 file headers
+    start += 14                         # standard offset
+    fields = struct.unpack('<IIIHH', data[start:start+16])  # read first 16 bytes
+    crc32, comp_size, uncomp_size, filenamesize, extra_size = fields
 
-   import struct
+    start += 16
+    filename = data[start:start+filenamesize]
+    start += filenamesize
+    extra = data[start:start+extra_size]
+    print(filename, hex(crc32), comp_size, uncomp_size)
 
-   with open('myfile.zip', 'rb') as f:
-       data = f.read()
+    start += extra_size + comp_size     # skip to the next header
+```
 
-   start = 0
-   for i in range(3):                      # show the first 3 file headers
-       start += 14
-       fields = struct.unpack('<IIIHH', data[start:start+16])
-       crc32, comp_size, uncomp_size, filenamesize, extra_size = fields
-
-       start += 16
-       filename = data[start:start+filenamesize]
-       start += filenamesize
-       extra = data[start:start+extra_size]
-       print(filename, hex(crc32), comp_size, uncomp_size)
-
-       start += extra_size + comp_size     # skip to the next header
-
-
-.. _tut-multi-threading:
-
-Multi-threading
-===============
-
+When Threading is used in Python?
+&#10;
 Threading is a technique for decoupling tasks which are not sequentially
 dependent.  Threads can be used to improve the responsiveness of applications
 that accept user input while other tasks run in the background.  A related use
 case is running I/O in parallel with computations in another thread.
-
+\
 The following code shows how the high level :mod:`threading` module can run
-tasks in background while the main program continues to run::
+tasks in background while the main program continues to run:
+```python
+import threading, zipfile
 
-   import threading, zipfile
+class AsyncZip(threading.Thread):
+   def __init__(self, infile, outfile):
+       threading.Thread.__init__(self)
+       self.infile = infile
+       self.outfile = outfile
 
-   class AsyncZip(threading.Thread):
-       def __init__(self, infile, outfile):
-           threading.Thread.__init__(self)
-           self.infile = infile
-           self.outfile = outfile
+   def run(self):
+       f = zipfile.ZipFile(self.outfile, 'w', zipfile.ZIP_DEFLATED)
+       f.write(self.infile)
+       f.close()
+       print('Finished background zip of:', self.infile)
 
-       def run(self):
-           f = zipfile.ZipFile(self.outfile, 'w', zipfile.ZIP_DEFLATED)
-           f.write(self.infile)
-           f.close()
-           print('Finished background zip of:', self.infile)
+background = AsyncZip('mydata.txt', 'myarchive.zip')
+background.start()
+print('The main program continues to run in foreground.')
 
-   background = AsyncZip('mydata.txt', 'myarchive.zip')
-   background.start()
-   print('The main program continues to run in foreground.')
-
-   background.join()    # Wait for the background task to finish
-   print('Main program waited until background was done.')
+background.join()    # Wait for the background task to finish
+print('Main program waited until background was done.')
+```
 
 The principal challenge of multi-threaded applications is coordinating threads
 that share data or other resources.  To that end, the threading module provides
-a number of synchronization primitives including locks, events, condition
-variables, and semaphores.
-
+a number of synchronization primitives including
+==locks, events, condition variables, and semaphores==.
+\
 While those tools are powerful, minor design errors can result in problems that
 are difficult to reproduce.  So, the preferred approach to task coordination is
 to concentrate all access to a resource in a single thread and then use the
-:mod:`queue` module to feed that thread with requests from other threads.
-Applications using :class:`~queue.Queue` objects for inter-thread communication and
+`queue` module to feed that thread with requests from other threads.
+Applications using `queue.Queue` objects for inter-thread communication and
 coordination are easier to design, more readable, and more reliable.
 
+<!-- NEXT: queue-threaded app research -->
 
-.. _tut-logging:
-
-Logging
-=======
-
-The :mod:`logging` module offers a full featured and flexible logging system.
-At its simplest, log messages are sent to a file or to ``sys.stderr``::
-
-   import logging
-   logging.debug('Debugging information')
-   logging.info('Informational message')
-   logging.warning('Warning:config file %s not found', 'server.conf')
-   logging.error('Error occurred')
-   logging.critical('Critical error -- shutting down')
-
-This produces the following output:
-
-.. code-block:: none
-
-   WARNING:root:Warning:config file server.conf not found
-   ERROR:root:Error occurred
-   CRITICAL:root:Critical error -- shutting down
+The `logging` module offers a full featured and flexible logging system.
+At its simplest, log messages are sent to a file or to ==`sys.stderr`==:
+```python
+import logging
+logging.debug('Debugging information')
+logging.info('Informational message')
+logging.warning('Warning:config file %s not found', 'server.conf')
+logging.error('Error occurred')
+logging.critical('Critical error -- shutting down')
+# WARNING:root:Warning:config file server.conf not found
+# ERROR:root:Error occurred
+# CRITICAL:root:Critical error -- shutting down
+```
 
 By default, informational and debugging messages are suppressed and the output
-is sent to standard error.  Other output options include routing messages
-through email, datagrams, sockets, or to an HTTP Server.  New filters can select
-different routing based on message priority: :const:`~logging.DEBUG`,
-:const:`~logging.INFO`, :const:`~logging.WARNING`, :const:`~logging.ERROR`,
-and :const:`~logging.CRITICAL`.
+is sent to standard error. Other output options include routing messages through
+email, datagrams, sockets, or to an HTTP Server.  New filters can select
+different routing based on message priority: `logging.DEBUG`, `logging.INFO`,
+`logging.WARNING`, `logging.ERROR`, and ==`logging.CRITICAL`==.
 
 The logging system can be configured directly from Python or can be loaded from
-a user editable configuration file for customized logging without altering the
-application.
-
-
-.. _tut-weak-references:
-
-Weak References
-===============
+a user ==editable configuration file== for customized logging without altering
+the application.
 
 Python does automatic memory management (reference counting for most objects and
-:term:`garbage collection` to eliminate cycles).  The memory is freed shortly
-after the last reference to it has been eliminated.
+==`[[garbage_collection|garbage collection]]`== to eliminate cycles).  The
+memory is freed shortly after the last reference to it has been eliminated.
 
-This approach works fine for most applications but occasionally there is a need
-to track objects only as long as they are being used by something else.
-Unfortunately, just tracking them creates a reference that makes them permanent.
-The :mod:`weakref` module provides tools for tracking objects without creating a
-reference.  When the object is no longer needed, it is automatically removed
-from a weakref table and a callback is triggered for weakref objects.  Typical
-applications include caching objects that are expensive to create::
+Automatic memory management works fine for most applications but occasionally
+there is a need to track objects only as long as they are being used by
+something else. Unfortunately, just tracking them creates a reference that makes
+them permanent. The `weakref` module provides tools for tracking objects without
+creating a reference.  When the object is no longer needed, it is automatically
+==removed from a weakref table== and a callback is triggered for weakref
+objects. Typical applications include caching objects that are expensive to
+create:
+```python
+import weakref
+import gc
 
-   >>> import weakref, gc
-   >>> class A:
-   ...     def __init__(self, value):
-   ...         self.value = value
-   ...     def __repr__(self):
-   ...         return str(self.value)
-   ...
-   >>> a = A(10)                   # create a reference
-   >>> d = weakref.WeakValueDictionary()
-   >>> d['primary'] = a            # does not create a reference
-   >>> d['primary']                # fetch the object if it is still alive
-   10
-   >>> del a                       # remove the one reference
-   >>> gc.collect()                # run garbage collection right away
-   0
-   >>> d['primary']                # entry was automatically removed
-   Traceback (most recent call last):
-     File "<stdin>", line 1, in <module>
-       d['primary']                # entry was automatically removed
-     File "C:/python314/lib/weakref.py", line 46, in __getitem__
-       o = self.data[key]()
-   KeyError: 'primary'
+class A:
+    def __init__(self, value):
+        self.value = value
 
+    def __repr__(self):
+        return str(self.value)
 
-.. _tut-list-tools:
+a = A(10)  # create a reference
+d = weakref.WeakValueDictionary()
+d["primary"] = a  # does not create a reference
+d["primary"]      # 10, fetch the object if it is still alive
+del a             # remove the one reference
+gc.collect()      # 0, run garbage collection right away
+d["primary"]      # entry was automatically removed
 
-Tools for Working with Lists
-============================
+# Traceback (most recent call last):
+#   File "<stdin>", line 1, in <module>
+#     d['primary']                # entry was automatically removed
+#   File "C:/python314/lib/weakref.py", line 46, in __getitem__
+#     o = self.data[key]()
+# KeyError: 'primary'
+```
 
 Many data structure needs can be met with the built-in list type. However,
 sometimes there is a need for alternative implementations with different
-performance trade-offs.
+performance ==trade-offs==.
 
-The :mod:`array` module provides an :class:`~array.array` object that is like
-a list that stores only homogeneous data and stores it more compactly.  The
-following example shows an array of numbers stored as two byte unsigned binary
-numbers (typecode ``"H"``) rather than the usual 16 bytes per entry for regular
-lists of Python int objects::
+The `array` module provides an `array.array` object that is like a list that
+stores only homogeneous data and stores it more ==compactly==. The following
+example shows an array of numbers stored as two byte unsigned binary numbers
+(typecode `"H"`) rather than the usual 16 bytes per entry for regular lists of
+Python int objects:
+```python
+from array import array
+a = array('H', [4000, 10, 700, 22222])
+print(sum(a))  # 26932
+print(a[1:3])  # array('H', [10, 700])
+```
 
-   >>> from array import array
-   >>> a = array('H', [4000, 10, 700, 22222])
-   >>> sum(a)
-   26932
-   >>> a[1:3]
-   array('H', [10, 700])
+The `collections` module provides a `collections.deque` object that is like a
+list with faster appends and pops from the left side but slower lookups in the
+middle. These objects are well suited for implementing ==queues== and breadth
+first tree searches:
+```python
+from collections import deque
 
-The :mod:`collections` module provides a :class:`~collections.deque` object
-that is like a list with faster appends and pops from the left side but slower
-lookups in the middle. These objects are well suited for implementing queues
-and breadth first tree searches::
-
-   >>> from collections import deque
-   >>> d = deque(["task1", "task2", "task3"])
-   >>> d.append("task4")
-   >>> print("Handling", d.popleft())
-   Handling task1
-
-::
-
-   unsearched = deque([starting_node])
-   def breadth_first_search(unsearched):
-       node = unsearched.popleft()
-       for m in gen_moves(node):
-           if is_goal(m):
-               return m
-           unsearched.append(m)
+d = deque(["task1", "task2", "task3"])
+d.append("task4")
+print("Handling", d.popleft())
+# Handling task1
+```
+```python
+unsearched = deque([starting_node])
+def breadth_first_search(unsearched):
+    node = unsearched.popleft()
+    for m in gen_moves(node):
+        if is_goal(m):
+            return m
+        unsearched.append(m)
+```
 
 In addition to alternative list implementations, the library also offers other
-tools such as the :mod:`bisect` module with functions for manipulating sorted
-lists::
+tools such as the `bisect` module with functions for manipulating ==sorted==
+lists:
+```python
+import bisect
+scores = [(100, "perl"), (200, "tcl"), (400, "lua"), (500, "python")]
+bisect.insort(scores, (300, "ruby"))
+print(scores)
+# [(100, 'perl'), (200, 'tcl'), (300, 'ruby'), (400, 'lua'), (500, 'python')]
+```
 
-   >>> import bisect
-   >>> scores = [(100, 'perl'), (200, 'tcl'), (400, 'lua'), (500, 'python')]
-   >>> bisect.insort(scores, (300, 'ruby'))
-   >>> scores
-   [(100, 'perl'), (200, 'tcl'), (300, 'ruby'), (400, 'lua'), (500, 'python')]
+The `heapq` module provides functions for implementing ==heaps== based on regular
+lists.  The lowest valued entry is always kept at position zero.  This is useful
+for applications which repeatedly access the smallest element but do not want to
+run a full list sort:
+```python
+from heapq import heapify, heappop, heappush
+data = [1, 3, 5, 7, 9, 2, 4, 6, 8, 0]
+heapify(data)                              # rearrange the list into heap order
+heappush(data, -5)                         # add a new entry
+print([heappop(data) for i in range(3)] )  # fetch the three smallest entries
+# [-5, 0, 1]
+```
 
-The :mod:`heapq` module provides functions for implementing heaps based on
-regular lists.  The lowest valued entry is always kept at position zero.  This
-is useful for applications which repeatedly access the smallest element but do
-not want to run a full list sort::
-
-   >>> from heapq import heapify, heappop, heappush
-   >>> data = [1, 3, 5, 7, 9, 2, 4, 6, 8, 0]
-   >>> heapify(data)                      # rearrange the list into heap order
-   >>> heappush(data, -5)                 # add a new entry
-   >>> [heappop(data) for i in range(3)]  # fetch the three smallest entries
-   [-5, 0, 1]
-
-
-.. _tut-decimal-fp:
-
-Decimal Floating Point Arithmetic
-=================================
-
-The :mod:`decimal` module offers a :class:`~decimal.Decimal` datatype for
-decimal floating point arithmetic.  Compared to the built-in :class:`float`
+The `decimal` module offers a `decimal.Decimal` datatype for
+decimal floating point arithmetic. Compared to the built-in `float`
 implementation of binary floating point, the class is especially helpful for
+&#10;
+- financial applications and other uses which require exact decimal
+representation,
+- control over precision,
+- control over rounding to meet legal or regulatory requirements,
+- tracking of significant decimal places, or
+- applications where the user expects the results to match calculations done by
+hand.
 
-* financial applications and other uses which require exact decimal
-  representation,
-* control over precision,
-* control over rounding to meet legal or regulatory requirements,
-* tracking of significant decimal places, or
-* applications where the user expects the results to match calculations done by
-  hand.
+For example (decimal module), calculating a 5% tax on a 70 cent phone charge
+gives different results in decimal floating point and binary floating point. The
+difference becomes significant if the results are rounded to the nearest cent:
+```python
+from decimal import *
+print(round(Decimal('0.70') * Decimal('1.05'), 2) )
+print(round(.70 * 1.05, 2))
+```
+*Results:*
+&#10;
+```
+0.74
+0.73
+```
+\
+<!-- NEXT: why four place significance? -->
+The `decimal.Decimal` result keeps a trailing zero, automatically inferring four
+place significance from multiplicands with two place significance. Decimal
+reproduces mathematics as done by hand and avoids issues that can arise when
+binary floating point cannot exactly represent decimal quantities.
 
-For example, calculating a 5% tax on a 70 cent phone charge gives different
-results in decimal floating point and binary floating point. The difference
-becomes significant if the results are rounded to the nearest cent::
+Can you provide some examples of `Decimal` numbers expressions differences with
+`float` numbers?
+&#10;
+Exact representation enables the `decimal.Decimal` class to perform modulo
+calculations and equality tests that are unsuitable for binary floating point:
+```python
+from decimal import Decimal
 
-   >>> from decimal import *
-   >>> round(Decimal('0.70') * Decimal('1.05'), 2)
-   Decimal('0.74')
-   >>> round(.70 * 1.05, 2)
-   0.73
+# The modulo operator (`%`) calculates the remainder after division.
+print(Decimal('1.00') % Decimal('.10'))  # Output: 0.00, 0.10 * 10 = 1.00
+# However, due to limitations in floating-point representation, the actual result
+# might have slight rounding errors. The `decimal` module helps mitigate this.
+print(1.00 % 0.10)                       # 0.09999999999999995
+print('---')
 
-The :class:`~decimal.Decimal` result keeps a trailing zero, automatically
-inferring four place significance from multiplicands with two place
-significance.  Decimal reproduces mathematics as done by hand and avoids
-issues that can arise when binary floating point cannot exactly represent
-decimal quantities.
+# We create a list containing 10 `Decimal('0.1')` elements.
+# The `sum` function calculates the sum of the elements.
+# The comparison checks if the sum is exactly equal to `Decimal('1.0')`.
+print(sum([Decimal('0.1')]*10) == Decimal('1.0'))  # Output: True
+# Due to floating-point limitations, repeated addition of these values can lead
+# to slight inaccuracies that prevent an exact equality with 1.0.
+sum_result = 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1
+print(sum_result, sum_result == 1.0)  # Output: False
+print('---')
+print(0.2 + 0.1)                        # 0.30000000000000004
+print(Decimal('0.2') + Decimal('0.1'))  # 0.3
+```
 
-Exact representation enables the :class:`~decimal.Decimal` class to perform
-modulo calculations and equality tests that are unsuitable for binary floating
-point::
+The `decimal` module provides arithmetic with as much precision as needed, you
+can change the precision (number of significant digits) using the
+==`getcontext.prec`== function parameter:
+```python
+from decimal import Decimal, getcontext
 
-   >>> Decimal('1.00') % Decimal('.10')
-   Decimal('0.00')
-   >>> 1.00 % 0.10
-   0.09999999999999995
+print(f"Default precision: {getcontext().prec}")
+print(Decimal(1) / Decimal(7))
+# Decimal('0.1428571428571428571428571429')
+print('---')
+getcontext().prec = 36
+print(f"New precision: {getcontext().prec}")
+print(Decimal(1) / Decimal(7))
+# Decimal('0.142857142857142857142857142857142857')
+```
 
-   >>> sum([Decimal('0.1')]*10) == Decimal('1.0')
-   True
-   >>> 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 == 1.0
-   False
+## 12. Virtual Environments and Packages
 
-The :mod:`decimal` module provides arithmetic with as much precision as needed::
-
-   >>> getcontext().prec = 36
-   >>> Decimal(1) / Decimal(7)
-   Decimal('0.142857142857142857142857142857142857')
-
-## [12. Virtual Environments and Packages](https://docs.python.org/3/tutorial/venv.html)
-
-
-.. _tut-venv:
-
-*********************************
-Virtual Environments and Packages
-*********************************
-
-Introduction
-============
-
-Python applications will often use packages and modules that don't
-come as part of the standard library.  Applications will sometimes
-need a specific version of a library, because the application may
-require that a particular bug has been fixed or the application may be
-written using an obsolete version of the library's interface.
-
-This means it may not be possible for one Python installation to meet
+When is suitable to use a virtual environment?
+&#10;
+Python applications will often use packages and modules that don't come as part
+of the standard library.  Applications will sometimes need a **specific
+version** of a library, because the application may require that a particular
+bug has been fixed or the application may be written using an obsolete version
+of the library's interface.
+\
+This means it may **not** be possible for one Python installation to meet
 the requirements of every application.  If application A needs version
 1.0 of a particular module but application B needs version 2.0, then
 the requirements are in conflict and installing either version 1.0 or 2.0
 will leave one application unable to run.
-
-The solution for this problem is to create a :term:`virtual environment`, a
-self-contained directory tree that contains a Python installation for a
+\
+The solution for this problem is to create a `virtual environment`, a
+self-contained directory tree that contains a **Python installation** for a
 particular version of Python, plus a number of additional packages.
-
+\
 Different applications can then use different virtual environments.
 To resolve the earlier example of conflicting requirements,
 application A can have its own virtual environment with version 1.0
@@ -5480,188 +5436,186 @@ If application B requires a library be upgraded to version 3.0, this will
 not affect application A's environment.
 
 
-Creating Virtual Environments
-=============================
-
+Which standard python module used to create virtual environments? Which Python
+version will be installed in the virtual environment with this module?
+&#10;
 The module used to create and manage virtual environments is called
-:mod:`venv`.  :mod:`venv` will install the Python version from which
-the command was run (as reported by the :option:`--version` option).
+`venv`.  `venv` will install the Python version from which
+the command was run (as reported by the `--version` option).
 For instance, executing the command with ``python3.12`` will install
 version 3.12.
 
 To create a virtual environment, decide upon a directory where you want to
-place it, and run the :mod:`venv` module as a script with the directory path::
-
-   python -m venv tutorial-env
-
-This will create the ``tutorial-env`` directory if it doesn't exist,
-and also create directories inside it containing a copy of the Python
-interpreter and various supporting files.
-
-A common directory location for a virtual environment is ``.venv``.
-This name keeps the directory typically hidden in your shell and thus
-out of the way while giving it a name that explains why the directory
-exists. It also prevents clashing with ``.env`` environment variable
-definition files that some tooling supports.
+place it, and run the `venv` module as a script with the directory path:
+&#10;
+```python
+python -m venv .venv
+```
+\
+This will create the `.venv` directory if it doesn't exist, and also create
+directories inside it containing a copy of the Python interpreter and various
+supporting files. A common directory location for a virtual environment is
+`.venv`. This name keeps the directory typically hidden in your shell and thus
+out of the way while giving it a name that explains why the directory exists. It
+also prevents clashing with `.env` environment variable definition files that
+some tooling supports.
 
 Once you've created a virtual environment, you may activate it.
-
-On Windows, run::
-
-  tutorial-env\Scripts\activate
-
-On Unix or MacOS, run::
-
-  source tutorial-env/bin/activate
-
-(This script is written for the bash shell.  If you use the
-:program:`csh` or :program:`fish` shells, there are alternate
-``activate.csh`` and ``activate.fish`` scripts you should use
-instead.)
+&#10;
+On Unix or MacOS, run:
+```python
+source .venv/bin/activate
+```
+On Windows, run:
+```python
+.venv\Scripts\activate
+```
+\
+This script is written for the bash shell.  If you use the `csh` or `fish`
+shells, there are alternate `activate.csh` and `activate.fish` scripts you
+should use instead.
 
 Activating the virtual environment will change your shell's prompt to show what
 virtual environment you're using, and modify the environment so that running
-``python`` will get you that particular version and installation of Python.
+`python` will get you that particular version and installation of Python.
 For example:
-
-.. code-block:: bash
-
-  $ source ~/envs/tutorial-env/bin/activate
-  (tutorial-env) $ python
-  Python 3.5.1 (default, May  6 2016, 10:59:36)
-    ...
+&#10;
+```sh
+source .venv/bin/activate
+python
+# Python 3.11.8 (main, Feb  6 2024, 21:21:21) [GCC 13.2.0] on linux
   >>> import sys
   >>> sys.path
-  ['', '/usr/local/lib/python35.zip', ...,
-  '~/envs/tutorial-env/lib/python3.5/site-packages']
-  >>>
+# ['', '/nix/store/.../python311.zip', '/nix/store/.../python3.11',
+# '/nix/store/...python3.11/lib-dynload',
+# '/tmp/.venv/lib/python3.11/site-packages']
+```
 
-To deactivate a virtual environment, type::
+To deactivate a virtual environment, type:
+&#10;
+`deactivate` into the terminal.
 
-    deactivate
+How to install, upgrade, and remove packages using standard Python program?
+&#10;
+You can install, upgrade, and remove packages using a program called `pip`. By
+default `pip` will install packages from the `Python Package Index
+<https://pypi.org>`.  You can browse the Python Package Index by going to it in
+your [[web_browser|web browser]].
 
-into the terminal.
-
-Managing Packages with pip
-==========================
-
-You can install, upgrade, and remove packages using a program called
-:program:`pip`.  By default ``pip`` will install packages from the `Python
-Package Index <https://pypi.org>`_.  You can browse the Python
-Package Index by going to it in your web browser.
-
-``pip`` has a number of subcommands: "install", "uninstall",
-"freeze", etc.  (Consult the :ref:`installing-index` guide for
-complete documentation for ``pip``.)
+`pip` has a number of subcommands: =="install", "uninstall", "freeze", etc==.
+Consult the [Installing Python
+Modules](https://docs.python.org/3/installing/index.html#installing-index) guide
+for complete documentation for `pip`.
 
 You can install the latest version of a package by specifying a package's name:
+&#10;
+```sh
+$ python -m pip install novas
+# Collecting novas
+#   Downloading novas-3.1.1.3.tar.gz (136kB)
+# Installing collected packages: novas
+#   Running setup.py install for novas
+# Successfully installed novas-3.1.1.3
+```
 
-.. code-block:: bash
-
-  (tutorial-env) $ python -m pip install novas
-  Collecting novas
-    Downloading novas-3.1.1.3.tar.gz (136kB)
-  Installing collected packages: novas
-    Running setup.py install for novas
-  Successfully installed novas-3.1.1.3
-
+How to install specific version of a package, how to upgrade it?
+&#10;
 You can also install a specific version of a package by giving the
-package name  followed by ``==`` and the version number:
-
-.. code-block:: bash
-
-  (tutorial-env) $ python -m pip install requests==2.6.0
-  Collecting requests==2.6.0
-    Using cached requests-2.6.0-py2.py3-none-any.whl
-  Installing collected packages: requests
-  Successfully installed requests-2.6.0
-
-If you re-run this command, ``pip`` will notice that the requested
+package name  followed by `==` and the version number:
+```sh
+$ python -m pip install requests==2.6.0
+# Collecting requests==2.6.0
+#   Using cached requests-2.6.0-py2.py3-none-any.whl
+# Installing collected packages: requests
+# Successfully installed requests-2.6.0
+```
+\
+If you re-run this command, `pip` will notice that the requested
 version is already installed and do nothing.  You can supply a
-different version number to get that version, or you can run ``python
--m pip install --upgrade`` to upgrade the package to the latest version:
+different version number to get that version, or you can run `python
+-m pip install --upgrade` to upgrade the package to the latest version:
+```sh
+$ python -m pip install --upgrade requests
+# Collecting requests
+# Installing collected packages: requests
+#   Found existing installation: requests 2.6.0
+#     Uninstalling requests-2.6.0:
+#       Successfully uninstalled requests-2.6.0
+# Successfully installed requests-2.7.0
+```
 
-.. code-block:: bash
-
-  (tutorial-env) $ python -m pip install --upgrade requests
-  Collecting requests
-  Installing collected packages: requests
-    Found existing installation: requests 2.6.0
-      Uninstalling requests-2.6.0:
-        Successfully uninstalled requests-2.6.0
-  Successfully installed requests-2.7.0
-
-``python -m pip uninstall`` followed by one or more package names will
+How to uninstall specific package?
+&#10;
+`python -m pip uninstall` followed by one or more package names will
 remove the packages from the virtual environment.
 
-``python -m pip show`` will display information about a particular package:
+How to display information about particular package?
+&#10;
+`python -m pip show` will display information about a particular package:
+```sh
+$ python -m pip show requests
+# ---
+# Metadata-Version: 2.0
+# Name: requests
+# Version: 2.7.0
+# Summary: Python HTTP for Humans.
+# Home-page: http://python-requests.org
+# Author: Kenneth Reitz
+# Author-email: me@kennethreitz.com
+# License: Apache 2.0
+# Location: /Users/akuchling/envs/tutorial-env/lib/python3.4/site-packages
+# Requires:
+```
 
-.. code-block:: bash
+How to list all of the packages installed in the virtual environment?
+&#10;
+`python -m pip list` will display them.
+```sh
+$ python -m pip list
+  # novas (3.1.1.3)
+  # numpy (1.9.2)
+  # pip (7.0.3)
+  # requests (2.7.0)
+  # setuptools (16.0)
 
-  (tutorial-env) $ python -m pip show requests
-  ---
-  Metadata-Version: 2.0
-  Name: requests
-  Version: 2.7.0
-  Summary: Python HTTP for Humans.
-  Home-page: http://python-requests.org
-  Author: Kenneth Reitz
-  Author-email: me@kennethreitz.com
-  License: Apache 2.0
-  Location: /Users/akuchling/envs/tutorial-env/lib/python3.4/site-packages
-  Requires:
+```
 
-``python -m pip list`` will display all of the packages installed in
-the virtual environment:
-
-.. code-block:: bash
-
-  (tutorial-env) $ python -m pip list
-  novas (3.1.1.3)
-  numpy (1.9.2)
-  pip (7.0.3)
-  requests (2.7.0)
-  setuptools (16.0)
-
-``python -m pip freeze`` will produce a similar list of the installed packages,
-but the output uses the format that ``python -m pip install`` expects.
-A common convention is to put this list in a ``requirements.txt`` file:
-
-.. code-block:: bash
-
-  (tutorial-env) $ python -m pip freeze > requirements.txt
-  (tutorial-env) $ cat requirements.txt
-  novas==3.1.1.3
-  numpy==1.9.2
-  requests==2.7.0
-
-The ``requirements.txt`` can then be committed to version control and
+`python -m pip freeze` will produce a similar list of the installed packages,
+but the output uses the format that ==`python -m pip install`== (command)
+expects. A common convention is to put this list in a `requirements.txt` file:
+```sh
+$ python -m pip freeze > requirements.txt
+$ cat requirements.txt
+# novas==3.1.1.3
+# numpy==1.9.2
+# requests==2.7.0
+```
+\
+The `requirements.txt` can then be committed to version control and
 shipped as part of an application.  Users can then install all the
-necessary packages with ``install -r``:
+necessary packages with `install -r`:
+```sh
+$ python -m pip install -r requirements.txt
+# Collecting novas==3.1.1.3 (from -r requirements.txt (line 1))
+#   ...
+# Collecting numpy==1.9.2 (from -r requirements.txt (line 2))
+#   ...
+# Collecting requests==2.7.0 (from -r requirements.txt (line 3))
+#   ...
+# Installing collected packages: novas, numpy, requests
+#   Running setup.py install for novas
+# Successfully installed novas-3.1.1.3 numpy-1.9.2 requests-2.7.0
+```
 
-.. code-block:: bash
+When you've written a package and want to make it available on the Python,
+consult the [Python packaging user
+guide](https://packaging.python.org/en/latest/tutorials/packaging-projects/).
 
-  (tutorial-env) $ python -m pip install -r requirements.txt
-  Collecting novas==3.1.1.3 (from -r requirements.txt (line 1))
-    ...
-  Collecting numpy==1.9.2 (from -r requirements.txt (line 2))
-    ...
-  Collecting requests==2.7.0 (from -r requirements.txt (line 3))
-    ...
-  Installing collected packages: novas, numpy, requests
-    Running setup.py install for novas
-  Successfully installed novas-3.1.1.3 numpy-1.9.2 requests-2.7.0
+## 13. What Now?
 
-``pip`` has many more options.  Consult the :ref:`installing-index`
-guide for complete documentation for ``pip``.  When you've written
-a package and want to make it available on the Python Package Index,
-consult the `Python packaging user guide`_.
-
-.. _Python Packaging User Guide: https://packaging.python.org/en/latest/tutorials/packaging-projects/
-
-## [13. What Now?](https://docs.python.org/3/tutorial/whatnow.html)
-
-Reading this tutorial has probably reinforced your interest in using Python --- you should be eager to apply Python to solving your real-world problems. Where should you go to learn more?
+Reading this tutorial has probably reinforced your interest in using Python ---
+you should be eager to apply Python to solving your real-world problems. Where
+should you go to learn more?
 
 This tutorial is part of Python's documentation set. Some other documents in the set are:
 
@@ -5772,7 +5726,7 @@ value of the binary approximation stored by the machine.  On most machines, if
 Python were to print the true decimal value of the binary approximation stored
 for 0.1, it would have to display::
 
-   >>> 0.1
+0.1
    0.1000000000000000055511151231257827021181583404541015625
 
 That is more digits than most people find useful, so Python keeps the number
@@ -5780,7 +5734,7 @@ of digits manageable by displaying a rounded value instead:
 
 .. doctest::
 
-   >>> 1 / 10
+1 / 10
    0.1
 
 Just remember, even though the printed result looks like the exact value
@@ -5810,13 +5764,13 @@ limited number of significant digits:
 
 .. doctest::
 
-   >>> format(math.pi, '.12g')  # give 12 significant digits
+format(math.pi, '.12g')  # give 12 significant digits
    '3.14159265359'
 
-   >>> format(math.pi, '.2f')   # give 2 digits after the point
+format(math.pi, '.2f')   # give 2 digits after the point
    '3.14'
 
-   >>> repr(math.pi)
+repr(math.pi)
    '3.141592653589793'
 
 It's important to realize that this is, in a real sense, an illusion: you're
@@ -5827,7 +5781,7 @@ summing three values of 0.1 may not yield exactly 0.3, either:
 
 .. doctest::
 
-   >>> 0.1 + 0.1 + 0.1 == 0.3
+0.1 + 0.1 + 0.1 == 0.3
    False
 
 Also, since the 0.1 cannot get any closer to the exact value of 1/10 and
@@ -5836,7 +5790,7 @@ Also, since the 0.1 cannot get any closer to the exact value of 1/10 and
 
 .. doctest::
 
-   >>> round(0.1, 1) + round(0.1, 1) + round(0.1, 1) == round(0.3, 1)
+round(0.1, 1) + round(0.1, 1) + round(0.1, 1) == round(0.3, 1)
    False
 
 Though the numbers cannot be made closer to their intended exact values,
@@ -5844,7 +5798,7 @@ the :func:`math.isclose` function can be useful for comparing inexact values:
 
 .. doctest::
 
-   >>> math.isclose(0.1 + 0.1 + 0.1, 0.3)
+math.isclose(0.1 + 0.1 + 0.1, 0.3)
    True
 
 Alternatively, the :func:`round` function can be used to compare rough
@@ -5852,7 +5806,7 @@ approximations:
 
 .. doctest::
 
-   >>> round(math.pi, ndigits=2) == round(22 / 7, ndigits=2)
+round(math.pi, ndigits=2) == round(22 / 7, ndigits=2)
    True
 
 Binary floating-point arithmetic holds many surprises like this.  The problem
@@ -5896,8 +5850,8 @@ fraction:
 
 .. doctest::
 
-   >>> x = 3.14159
-   >>> x.as_integer_ratio()
+x = 3.14159
+x.as_integer_ratio()
    (3537115888337719, 1125899906842624)
 
 Since the ratio is exact, it can be used to losslessly recreate the
@@ -5905,7 +5859,7 @@ original value:
 
 .. doctest::
 
-    >>> x == 3537115888337719 / 1125899906842624
+ x == 3537115888337719 / 1125899906842624
     True
 
 The :meth:`float.hex` method expresses a float in hexadecimal (base
@@ -5913,7 +5867,7 @@ The :meth:`float.hex` method expresses a float in hexadecimal (base
 
 .. doctest::
 
-   >>> x.hex()
+x.hex()
    '0x1.921f9f01b866ep+1'
 
 This precise hexadecimal representation can be used to reconstruct
@@ -5921,7 +5875,7 @@ the float value exactly:
 
 .. doctest::
 
-    >>> x == float.fromhex('0x1.921f9f01b866ep+1')
+ x == float.fromhex('0x1.921f9f01b866ep+1')
     True
 
 Since the representation is exact, it is useful for reliably porting values
@@ -5936,9 +5890,9 @@ accumulate to the point where they affect the final total:
 
 .. doctest::
 
-   >>> 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 == 1.0
+0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 == 1.0
    False
-   >>> sum([0.1] * 10) == 1.0
+sum([0.1] * 10) == 1.0
    True
 
 The :func:`math.fsum()` goes further and tracks all of the "lost digits"
@@ -5949,19 +5903,19 @@ each other out leaving a final sum near zero:
 
 .. doctest::
 
-   >>> arr = [-0.10430216751806065, -266310978.67179024, 143401161448607.16,
+arr = [-0.10430216751806065, -266310978.67179024, 143401161448607.16,
    ...        -143401161400469.7, 266262841.31058735, -0.003244936839808227]
-   >>> float(sum(map(Fraction, arr)))   # Exact summation with single rounding
+float(sum(map(Fraction, arr)))   # Exact summation with single rounding
    8.042173697819788e-13
-   >>> math.fsum(arr)                   # Single rounding
+math.fsum(arr)                   # Single rounding
    8.042173697819788e-13
-   >>> sum(arr)                         # Multiple roundings in extended precision
+sum(arr)                         # Multiple roundings in extended precision
    8.042178034628478e-13
-   >>> total = 0.0
-   >>> for x in arr:
+total = 0.0
+for x in arr:
    ...     total += x                   # Multiple roundings in standard precision
    ...
-   >>> total                            # Straight addition has no correct digits!
+total                            # Straight addition has no correct digits!
    -0.0051575902860057365
 
 
@@ -5999,7 +5953,7 @@ the best value for *N* is 56:
 
 .. doctest::
 
-    >>> 2**52 <=  2**56 // 10  < 2**53
+ 2**52 <=  2**56 // 10  < 2**53
     True
 
 That is, 56 is the only value for *N* that leaves *J* with exactly 53 bits.  The
@@ -6007,8 +5961,8 @@ best possible value for *J* is then that quotient rounded:
 
 .. doctest::
 
-   >>> q, r = divmod(2**56, 10)
-   >>> r
+q, r = divmod(2**56, 10)
+r
    6
 
 Since the remainder is more than half of 10, the best approximation is obtained
@@ -6018,7 +5972,7 @@ by rounding up:
 
 
 
-   >>> q+1
+q+1
    7205759403792794
 
 Therefore the best possible approximation to 1/10 in IEEE 754 double precision
@@ -6039,7 +5993,7 @@ above, the best IEEE 754 double approximation it can get:
 
 .. doctest::
 
-   >>> 0.1 * 2 ** 55
+0.1 * 2 ** 55
    3602879701896397.0
 
 If we multiply that fraction by 10\*\*55, we can see the value out to
@@ -6047,7 +6001,7 @@ If we multiply that fraction by 10\*\*55, we can see the value out to
 
 .. doctest::
 
-   >>> 3602879701896397 * 10 ** 55 // 2 ** 55
+3602879701896397 * 10 ** 55 // 2 ** 55
    1000000000000000055511151231257827021181583404541015625
 
 meaning that the exact number stored in the computer is equal to
@@ -6057,7 +6011,7 @@ older versions of Python), round the result to 17 significant digits:
 
 .. doctest::
 
-   >>> format(0.1, '.17f')
+format(0.1, '.17f')
    '0.10000000000000001'
 
 The :mod:`fractions` and :mod:`decimal` modules make these calculations
@@ -6065,19 +6019,19 @@ easy:
 
 .. doctest::
 
-   >>> from decimal import Decimal
-   >>> from fractions import Fraction
+from decimal import Decimal
+from fractions import Fraction
 
-   >>> Fraction.from_float(0.1)
+Fraction.from_float(0.1)
    Fraction(3602879701896397, 36028797018963968)
 
-   >>> (0.1).as_integer_ratio()
+(0.1).as_integer_ratio()
    (3602879701896397, 36028797018963968)
 
-   >>> Decimal.from_float(0.1)
+Decimal.from_float(0.1)
    Decimal('0.1000000000000000055511151231257827021181583404541015625')
 
-   >>> format(Decimal.from_float(0.1), '.17')
+format(Decimal.from_float(0.1), '.17')
    '0.10000000000000001'
 
 ## [16. Appendix](https://docs.python.org/3/tutorial/appendix.html)
@@ -6211,8 +6165,8 @@ Python provides two hooks to let you customize it: :index:`sitecustomize` and
 :index:`usercustomize`.  To see how it works, you need first to find the location
 of your user site-packages directory.  Start Python and run this code::
 
-   >>> import site
-   >>> site.getusersitepackages()
+import site
+site.getusersitepackages()
    '/home/user/.local/lib/python3.x/site-packages'
 
 Now you can create a file named :file:`usercustomize.py` in that directory and
