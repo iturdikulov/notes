@@ -5613,55 +5613,106 @@ guide](https://packaging.python.org/en/latest/tutorials/packaging-projects/).
 
 ## 13. What Now?
 
-Reading this tutorial has probably reinforced your interest in using Python ---
-you should be eager to apply Python to solving your real-world problems. Where
-should you go to learn more?
+This tutorial is part of Python’s documentation set. Some other documents in the set are:
 
-This tutorial is part of Python's documentation set. Some other documents in the set are:
+- [The Python Standard Library](https://docs.python.org/3/library/index.html):
+You should browse through this manual, which gives complete (though terse)
+reference material about types, functions, and the modules in the standard
+library. The standard Python distribution includes a *lot* of additional code.
+There are modules to read Unix mailboxes, retrieve documents via HTTP, generate
+random numbers, parse command-line options, compress data, and many other tasks.
+Skimming through the Library Reference will give you an idea of what’s
+available.
 
--   [:ref:\`library-index\`](https://github.com/python/cpython/blob/main/Doc/tutorial/whatnow.rst#id1):
+- [Installing Python Modules](https://docs.python.org/3/installing/index.html)
+explains how to install additional modules written by other Python users.
 
-    You should browse through this manual, which gives complete (though terse) reference material about types, functions, and the modules in the standard library. The standard Python distribution includes a *lot* of additional code. There are modules to read Unix mailboxes, retrieve documents via HTTP, generate random numbers, parse command-line options, compress data, and many other tasks. Skimming through the Library Reference will give you an idea of what's available.
-
--   [:ref:\`installing-index\`](https://github.com/python/cpython/blob/main/Doc/tutorial/whatnow.rst#id3) explains how to install additional modules written by other Python users.
-
--   [:ref:\`reference-index\`](https://github.com/python/cpython/blob/main/Doc/tutorial/whatnow.rst#id5): A detailed explanation of Python's syntax and semantics. It's heavy reading, but is useful as a complete guide to the language itself.
+- [The Python Language
+Reference](https://docs.python.org/3/reference/index.html): A detailed
+explanation of Python’s syntax and semantics. It’s heavy reading, but is useful
+as a complete guide to the language itself.
 
 
 More Python resources:
 
--   [https://www.python.org](https://www.python.org): The major Python web site. It contains code, documentation, and pointers to Python-related pages around the web.
--   [https://docs.python.org](https://docs.python.org): Fast access to Python's documentation.
--   [https://pypi.org](https://pypi.org): The Python Package Index, previously also nicknamed the Cheese Shop [\[1\]](https://github.com/python/cpython/blob/main/Doc/tutorial/whatnow.rst#id12), is an index of user-created Python modules that are available for download. Once you begin releasing code, you can register it here so that others can find it.
--   [https://code.activestate.com/recipes/langs/python/](https://code.activestate.com/recipes/langs/python/): The Python Cookbook is a sizable collection of code examples, larger modules, and useful scripts. Particularly notable contributions are collected in a book also titled Python Cookbook (O'Reilly & Associates, ISBN 0-596-00797-3.)
--   [https://pyvideo.org](https://pyvideo.org) collects links to Python-related videos from conferences and user-group meetings.
--   [https://scipy.org](https://scipy.org): The Scientific Python project includes modules for fast array computations and manipulations plus a host of packages for such things as linear algebra, Fourier transforms, non-linear solvers, random number distributions, statistical analysis and the like.
+- [https://www.python.org](https://www.python.org): The major Python web site.
+It contains code, documentation, and pointers to Python-related pages around the
+web.
+- [https://docs.python.org](https://docs.python.org): Fast access to Python’s
+documentation.
+- [https://pypi.org](https://pypi.org): The Python Package Index, previously
+also nicknamed the Cheese Shop, is an index of user-created Python modules that
+are available for download. Once you begin releasing code, you can register it
+here so that others can find it. “Cheese Shop” is a Monty Python’s sketch: a
+customer enters a cheese shop, but whatever cheese he asks for, the clerk says
+it’s missing.
+- [https://code.activestate.com/recipes/langs/python/](https://code.activestate.com/recipes/langs/python/):
+The Python Cookbook is a sizable collection of code examples, larger modules,
+and useful scripts. Particularly notable contributions are collected in a book
+also titled Python Cookbook (O’Reilly & Associates, ISBN 0-596-00797-3.)
+- [https://pyvideo.org](https://pyvideo.org) collects links to Python-related
+videos from conferences and user-group meetings.
+- [https://scipy.org](https://scipy.org): The Scientific Python project includes
+modules for fast array computations and manipulations plus a host of packages
+for such things as linear algebra, Fourier transforms, non-linear solvers,
+random number distributions, statistical analysis and the like.
 
-For Python-related questions and problem reports, you can post to the newsgroup [:newsgroup:\`comp.lang.python\`](https://github.com/python/cpython/blob/main/Doc/tutorial/whatnow.rst#id8), or send them to the mailing list at [python-list@python.org](mailto:python-list@python.org). The newsgroup and mailing list are gatewayed, so messages posted to one will automatically be forwarded to the other. There are hundreds of postings a day, asking (and answering) questions, suggesting new features, and announcing new modules. Mailing list archives are available at [https://mail.python.org/pipermail/](https://mail.python.org/pipermail/).
+For Python-related questions and problem reports, you can post to the newsgroup
+*comp.lang.python*, or send them to the mailing list at
+[python-list@python.org](mailto:python-list%40python.org). The newsgroup and
+mailing list are gatewayed, so messages posted to one will automatically be
+forwarded to the other. There are hundreds of postings a day, asking (and
+answering) questions, suggesting new features, and announcing new modules.
+Mailing list archives are available at
+[https://mail.python.org/pipermail/](https://mail.python.org/pipermail/).
 
-Before posting, be sure to check the list of [:ref:\`Frequently Asked Questions <faq-index>\`](https://github.com/python/cpython/blob/main/Doc/tutorial/whatnow.rst#id10) (also called the FAQ). The FAQ answers many of the questions that come up again and again, and may already contain the solution for your problem.
+Before posting, be sure to check the list of [Frequently Asked
+Questions](https://docs.python.org/3/faq/index.html#faq-index) (also called the
+FAQ). The FAQ answers many of the questions that come up again and again, and
+may already contain the solution for your problem.
 
-Footnotes
+## 14. Interactive Input Editing and History Substitution
 
-<table frame="void" id="user-content-id12" rules="none"><tbody valign="top"><tr><td><a href="https://github.com/python/cpython/blob/main/Doc/tutorial/whatnow.rst#id7">[1]</a></td><td>"Cheese Shop" is a Monty Python's sketch: a customer enters a cheese shop, but whatever cheese he asks for, the clerk says it's missing.</td></tr></tbody></table>
+Some versions of the Python interpreter support editing of the current input
+line and history substitution, similar to facilities found in the Korn shell and
+the GNU Bash shell. This is implemented using the [[GNU_Readline|GNU Readline]]
+library, which supports various styles of editing. This library has its own
+documentation which we won’t duplicate here.
 
-## [14. Interactive Input Editing and History Substitution](https://docs.python.org/3/tutorial/interactive.html)
+## 14.1. Tab Completion and History Editing
 
-# 14\. Interactive Input Editing and History Substitution[¶](https://docs.python.org/3/tutorial/interactive.html#interactive-input-editing-and-history-substitution "Link to this heading")
+Completion of variable and module names is [automatically
+enabled](https://docs.python.org/3/library/site.html#rlcompleter-config)
+at interpreter startup so that the Tab key invokes the completion function; it
+looks at Python statement names, the current local variables, and the available
+module names. For dotted expressions such as `string.a`, it will evaluate the
+expression up to the final `'.'` and then suggest completions from the
+attributes of the resulting object. Note that this may execute
+application-defined code if an object with a
+[`__getattr__()`](https://docs.python.org/3/reference/datamodel.html#object.__getattr__
+"object.__getattr__") method is part of the expression. The default
+configuration also saves your history into a file named ==`.python_history`== in
+your user directory. The history will be available again during the next
+interactive interpreter session.
 
-Some versions of the Python interpreter support editing of the current input line and history substitution, similar to facilities found in the Korn shell and the GNU Bash shell. This is implemented using the [GNU Readline](https://tiswww.case.edu/php/chet/readline/rltop.html) library, which supports various styles of editing. This library has its own documentation which we won’t duplicate here.
+## 14.2. Alternatives to the Interactive Interpreter
 
-## 14.1. Tab Completion and History Editing[¶](https://docs.python.org/3/tutorial/interactive.html#tab-completion-and-history-editing "Link to this heading")
+Which alternative interactive interpreter you know? When they suitable to use?
+&#10;
+This facility is an enormous step forward compared to earlier versions of the
+interpreter; however, some wishes are left: It would be nice if the proper
+indentation were suggested on continuation lines (the parser knows if an indent
+token is required next). The completion mechanism might use the interpreter’s
+symbol table. A command to check (or even suggest) matching parentheses, quotes,
+etc., would also be useful.
+\
+One alternative enhanced interactive interpreter that has been around for quite
+some time is [IPython](https://ipython.org/), which features tab completion,
+object exploration and advanced history management. It can also be thoroughly
+customized and embedded into other applications. Another similar enhanced
+interactive environment is [bpython](https://bpython-interpreter.org/).
 
-Completion of variable and module names is [automatically enabled](https://docs.python.org/3/tutorial/interactive.html../library/site.html#rlcompleter-config) at interpreter startup so that the Tab key invokes the completion function; it looks at Python statement names, the current local variables, and the available module names. For dotted expressions such as `string.a`, it will evaluate the expression up to the final `'.'` and then suggest completions from the attributes of the resulting object. Note that this may execute application-defined code if an object with a [`__getattr__()`](https://docs.python.org/3/tutorial/interactive.html../reference/datamodel.html#object.__getattr__ "object.__getattr__") method is part of the expression. The default configuration also saves your history into a file named `.python_history` in your user directory. The history will be available again during the next interactive interpreter session.
-
-## 14.2. Alternatives to the Interactive Interpreter[¶](https://docs.python.org/3/tutorial/interactive.html#alternatives-to-the-interactive-interpreter "Link to this heading")
-
-This facility is an enormous step forward compared to earlier versions of the interpreter; however, some wishes are left: It would be nice if the proper indentation were suggested on continuation lines (the parser knows if an indent token is required next). The completion mechanism might use the interpreter’s symbol table. A command to check (or even suggest) matching parentheses, quotes, etc., would also be useful.
-
-One alternative enhanced interactive interpreter that has been around for quite some time is [IPython](https://ipython.org/), which features tab completion, object exploration and advanced history management. It can also be thoroughly customized and embedded into other applications. Another similar enhanced interactive environment is [bpython](https://bpython-interpreter.org/).
-
-## [15. Floating Point Arithmetic: Issues and Limitations](https://docs.python.org/3/tutorial/floatingpoint.html)
+## 15. Floating Point Arithmetic: Issues and Limitations
 
 .. testsetup::
 
