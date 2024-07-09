@@ -27,8 +27,6 @@ My special notation for books:
 
 ## [[Russian|In Russian]]
 
-- [ ] [Все книги из игр Morrowind и Skyrim! БИБЛИОТЕКА ТАМРИЭЛЯ. Аудиокнига. Том второй - YouTube](https://www.youtube.com/watch?v=kcp_ues5-CQ)
-- [ ] Review [The Little Prince - Wikipedia](https://en.wikipedia.org/wiki/The_Little_Prince)
 - [ ] Божественная комедия. Данте Алигьери
 - [ ] Война и мир
 - [ ] Приключения шерлока холмса
@@ -42,6 +40,7 @@ My special notation for books:
 - [ ] Территория — роман Олега Куваева
 - [ ] [[research/Detskaya_literatura-Biblioteka_mirovoj_literatury_dlya_detej|Библиотека мировой литературы для детей]]
 - [ ] [[research/Ekzyuperi-CZitadel|Цитадель]]
+- [/] [Все книги из игр Morrowind и Skyrim! БИБЛИОТЕКА ТАМРИЭЛЯ. Аудиокнига. Том 1](file:///home/inom/Arts_and_Entertainment/audiovisual/audiobook/morrowind_and_skyrim_audioknigi/tom_1_yt_BwHTYGtEnIw.m4a)
 - [/] Война миров
 - [/] Я робот
 - [!] [[research/Ekzyuperi-Malenkij_Princz|Маленький Принц (The Little Prince)]]
