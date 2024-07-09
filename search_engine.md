@@ -42,6 +42,8 @@ closed tabs.
 
 ### General purpose search engines
 
+RSS search, search trhoug my RSS feeds ([[Miniflux]])::`@rss`
+
 Google search, force use. This is useful to avoid search query unnecessary
 parsing in the address bar.
 &#10;
@@ -77,6 +79,7 @@ websites, also good source for category names.
 
 - WolframAlpha - computational intelligence search engine::`@wa Turing machine 2506`
 - MathWorld - search for math definitions, formulas::`@math topology`
+- [[research/Math_is_Fun_Team-Math_is_Fun|Math is Fun]]- search for math definitions, formulas::`@mathf Pi`
 
 - [[GitHub]] - code search::`@gh linux`
 - SourceGraph - code search::`@sg linkedin api`
@@ -114,7 +117,7 @@ websites, also good source for category names.
 - Last FM - search for music, artists::`@lastfm bethoven`
 - Music Brainz - search for music, artists::`@mb taisha`
 
-- YouTube - search for videos::`@yt rickroll`
+- YouTube - search for videos::`@y rickroll`
 - Twitch - search for streams::`@tv software`
 - IMDb - search for movies, actors::`@imd titanic`
 - Kinopoisk - search for movies, actors::`@kino matrix`
