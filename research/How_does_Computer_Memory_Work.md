@@ -5,6 +5,9 @@ author: Branch Education
 tags:
   - inbox
   - research
+sr-due: 2024-07-02
+sr-interval: 1
+sr-ease: 220
 ---
 
 # Branch Education - How does Computer Memory Work?

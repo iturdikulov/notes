@@ -6,6 +6,9 @@ tags:
   - inbox
   - SR_programming
   - research
+sr-due: 2024-07-02
+sr-interval: 1
+sr-ease: 221
 ---
 
 # Learn Python in Y minutes
