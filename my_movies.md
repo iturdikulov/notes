@@ -13,6 +13,13 @@ sr-ease: 252
 I started track of movies I watched in 2022. So this list is of course
 incomplete.
 
+My special notation for movies:
+
+- [ ] `[ ]` Haven't watched yet
+- [x] `[x]` Finished watching, liked it
+- [!] `[!]` ** Would recommend**
+- [-] `[-]` Cancelled
+
 ## The Fill-In Filmography
 
 Good inspiration for watching movies.
@@ -31,16 +38,12 @@ Good inspiration for watching movies.
 
 - [ ] The Never Ending Story
 - [ ] 9 дней одного года
-- [ ] Лесная братва (2006)
 - [ ] Гнев человеческий
 - [ ] Lord of the Rings: The Two Towers (2002)
 - [ ] Lord of the Rings: The Return of the King (2003)
-- [x] The Hobbit: An Unexpected Journey (2012)
 - [ ] The Hobbit: The Desolation of Smaug (2013)
 - [ ] The Hobbit: The Battle of the Five Armies (2014)
 - [ ] Большой и Добрый Великан
-- [ ] Castelvania
-- [ ] Ведьмина служба доставки
 - [ ] Нефть
 - [ ] Сериал метод
 - [ ] Учитель на замену
@@ -51,8 +54,43 @@ Good inspiration for watching movies.
 - [ ] Свинарка и пастух
 - [ ] Двенадцать месяцев. В яранге горит огонь
 - [ ] Дед Мороз и серый волк
+- [ ] Маленькая смерть, 2014
+- [ ] Штамм (сериал 2014 – 2017)
+- [ ] Матрица: Воскрешение (2021)
+- [x] The Hobbit: An Unexpected Journey (2012), 9.1/10
+- [x] Невероятный мир глазами Энцо, dramatic, family movie 9.2/10
+- [x] Sicario (2015), after second watch less emotional/interesting, 8.5/10
+- [x] Голый пистолет, after second watch less funny, but overall good, 8.1/10
+- [x] Опенгеймер, a lot of historical information, a little bit boring (for me), 7.8/10
+- [x] Lord of the Rings: The Fellowship of the Ring (2001) Medieval motifs,
+      fantasy, magic, RPG! 9.85/10
+- [x] Прогулка с Богами: Два мира / Along with the Gods: The Two Worlds
+      Sensitively and beautifully told story about the afterlife. 8.9/10
+- [!] Меланхолия (фильм, 2011), depressive a little, but not a lot for me. Make
+  me think about life. 9.1/10
+- [!] Интерстеллар (2014) 9/10
 
-### Questionable
+## Anime, Cartoons, Animated movies
+
+- [ ] Маги: Лабиринт магии
+- [ ] Castelvania
+- [ ] Ведьмина служба доставки
+- [ ] Лесная братва (2006)
+- [x] Кунг-фу Панда / Kung Fu Panda (2008). Tigress animations are very good.
+      Humor also good. 9.1/10
+- [x] Кунг-фу Панда 2 / Kung Fu Panda 2 (2011). Probably a little bit weaker
+      than previous movie. But very sensitive. 9/10
+- [x] Поднятие уровня в одиночку, Сезон 1, 8.9/10
+- [x] Другой мир не может противостоять силе мгновенной смерти, Сезон 1, 5/10
+- [x] ВАЛЛ·И (2008), sensitive, happy end, for children, 8/10
+
+## Inbox
+
+- [ ] Реинкарнация безработного
+- [ ] Этот замечательный мир!
+- [ ] Авантюрист стал бессмертным
+- [ ] Магия и мускулы
+- [ ] Читерский навык из другого мира сделал меня непобедимым
 
 - [ ] Экипаж 315
 - [ ] Создатель (2023)
@@ -65,7 +103,6 @@ Good inspiration for watching movies.
 - [ ] Безопасность не гарантируется (2012)
 - [ ] Исходный код (2011)
 - [ ] Идиократия (2005)
-- [ ] Матрица: Воскрешение (2021)
 - [ ] Бескрайний бассейн (2023)
 - [ ] Довод (2020)
 - [ ] Паранормальное (2017)
@@ -101,7 +138,6 @@ Good inspiration for watching movies.
 - [ ] Аннигиляция (2017)
 - [ ] Прибытие (2016)
 - [ ] Дюна (2021)
-- [ ] Меланхолия (2011)
 - [ ] Искусственный разум (2001)
 - [ ] Она (2013)
 - [ ] Бегущий по лезвию 2049 (2017)
@@ -120,34 +156,6 @@ Good inspiration for watching movies.
 - [ ] [Подборка советских мультфильмов - YouTube](https://www.youtube.com/playlist?list=PLVFin4-3-TaoVNWa52pLY1RMGIq6ufdjI)
 - [ ] [Фуриоса Хроники Безумного Макса фильм, 2024](https://www.kinopoisk.ru/film/1388409/?utm_referrer=www.google.com)
 
-## Anime 🙃
-
-- [ ] Реинкарнация безработного
-- [ ] Этот замечательный мир!
-- [ ] Авантюрист стал бессмертным
-- [ ] Магия и мускулы
-
-## Watched
-
-- [x] Интерстеллар (2014) 9/10
-- [x] Невероятный мир глазами Энцо, dramatic, family movie 9.2/10
-- [x] Другой мир не может противостоять силе мгновенной смерти, Сезон 1, 5/10
-- [x] ВАЛЛ·И (2008), sensitive, happy end, for children, 8/10
-- [x] Меланхолия (фильм, 2011), depressive a little, but not a lot for me. Make
-  me think about life. 9.1/10
-- [x] Sicario (2015), after second watch less emotional/interesting, 8.5/10
-- [x] Голый пистолет, after second watch less funny, but overall good, 8.1/10
-- [x] Опенгеймер, a lot of historical information, a little bit boring (for me), 7.8/10
-- [x] Lord of the Rings: The Fellowship of the Ring (2001) Medieval motifs,
-      fantasy, magic, RPG! 9.85/10
-- [x] Прогулка с Богами: Два мира / Along with the Gods: The Two Worlds
-      Sensitively and beautifully told story about the afterlife. 8.9/10
-- [x] Кунг-фу Панда / Kung Fu Panda (2008). Tigress animations are very good.
-      Humor also good. 9.1/10
-- [x] Кунг-фу Панда 2 / Kung Fu Panda 2 (2011). Probably a little bit weaker
-      than previous movie. But very sensitive. 9/10
-
-- маленькая смерть
 
 ## External links
 
