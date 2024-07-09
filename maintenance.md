@@ -55,7 +55,7 @@ tools information in this note.
 - [[dataview_maintenance_queries|Dataview maintenance]], maintenance my
 [[Zettelkasten]] system.
 - Wiki inbox directory.
-- Find broken links in Wiki, find broken symlinks
+- Find broken links in Wiki, find broken symlinks `fd -L -t l`
 - `rg --files-with-matches -U tags\:\\n-|xargs vi`, find incorrect formatting
 tags
 
