@@ -63,6 +63,25 @@ Here they are:
 6::Filters, a list of user-defined filters for the library
 7::Settings, which displays key bindings and commands
 
+## Playlist creation
+
+How to create a playlist in cmus?
+&#10;
+Press `3`, then use this command `:pl-create main`
+
+How to add a song to a playlist in cmus?
+&#10;
+Highlight playlist and press `space` to mark it.
+\
+Add songs using either of the following:
+- Use command `:add -p ~/Arts_and_Entertainment/music_raw/`
+- Use `y` key to add a song/album to the playlist from Library.
+- Go to the "Sorted library view" by pressing 2
+  * find artist / song / directory / etc. by searching with /
+  * select the desired songs with space
+  * press y to "copy tracks to the marked playlist"
+- Import from line-separated file with paths `:pl-import ~/Arts_and_Entertainment/music_raw/playlist.txt`
+
 ## External links
 
 - [ ] [cmus, a really quick guide](https://www.increasinglyadequate.com/cmus.html)
