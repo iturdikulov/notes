@@ -35,7 +35,7 @@ Good inspiration for watching movies.
 - [ ] Гнев человеческий
 - [ ] Lord of the Rings: The Two Towers (2002)
 - [ ] Lord of the Rings: The Return of the King (2003)
-- [ ] The Hobbit: An Unexpected Journey (2012)
+- [x] The Hobbit: An Unexpected Journey (2012)
 - [ ] The Hobbit: The Desolation of Smaug (2013)
 - [ ] The Hobbit: The Battle of the Five Armies (2014)
 - [ ] Большой и Добрый Великан
@@ -117,7 +117,8 @@ Good inspiration for watching movies.
 - [ ] Тысяча солнц, сериал, 2023
 - [ ] С меня хватит! (1993)
 - [ ] Кадкина всякий знает (1976)
-- [Подборка советских мультфильмов - YouTube](https://www.youtube.com/playlist?list=PLVFin4-3-TaoVNWa52pLY1RMGIq6ufdjI)
+- [ ] [Подборка советских мультфильмов - YouTube](https://www.youtube.com/playlist?list=PLVFin4-3-TaoVNWa52pLY1RMGIq6ufdjI)
+- [ ] [Фуриоса Хроники Безумного Макса фильм, 2024](https://www.kinopoisk.ru/film/1388409/?utm_referrer=www.google.com)
 
 ## Anime 🙃
 
@@ -150,6 +151,6 @@ Good inspiration for watching movies.
 
 ## External links
 
-- [Мультики by ArjLover](https://multiki.arjlover.net/)
 - [Кинопоиск](https://www.kinopoisk.ru/)
-
+- [Кино-театр.ru](https://www.kino-teatr.ru/)
+- [Мультики by ArjLover](https://multiki.arjlover.net/)
