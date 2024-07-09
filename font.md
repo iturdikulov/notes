@@ -36,6 +36,13 @@ Critical elements of typesetting:
 ![](img/Alphabet_of_Typography.webp)
 _[Alphabet of Typography – Pop Chart](https://popchart.co/products/alphabet-of-typography)_
 
+## External links
+
+- [Google Fonts](https://fonts.google.com/)
+- [Nerd Fonts - Iconic font aggregator, glyphs/icons collection, & fonts patcher](https://www.nerdfonts.com/)
+- [DaFont - Download fonts](https://www.dafont.com/)
+- [Paratype.ru — шрифты, которые работают](https://www.paratype.ru/)
+
 ## TODO
 
 - [ ] add here font properties, types, etc.
