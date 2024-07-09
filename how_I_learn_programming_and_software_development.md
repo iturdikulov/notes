@@ -21,6 +21,15 @@ but in same time learning materials should be understandable and easy to follow.
 Check also related [[how_I_learn_computer_science|how I learn computer science]]
 note.
 
+## Today I learned (TIL)
+
+TIL - Today I Learned, is a collection of notes about things I learned today.
+Here some useful TILs:
+
+- [jbranchaudtil memo Today I Learned](https://github.com/jbranchaud/til)
+- [Simon Willison TIL](https://til.simonwillison.net/)
+- [Hashrocket - Today I Learned](https://til.hashrocket.com/)
+
 ## General programming and software development
 
 - [ ] [[research/Stolyarov-Programming_volume_1_0_introduction]]
