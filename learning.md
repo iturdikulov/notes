@@ -41,9 +41,17 @@ and test yourself, to solve this problem I implement my
 [[my_pet_projects|pet projects]] and [[work|working projects]] to strengthen my
 studies.
 
-Generally I want to focus on these fields:
+## My focus in learning
 
-And below I describe my learning paths for each field.
+- [[how_I_learn_programming_and_software_development|Programming and Software development]]
+- [[how_I_learn_physics_and_chemistry|Physics and Chemistry]]
+- [[how_I_learn_computer_graphics|Computer graphics]]
+- [[how_I_learn_computer_science|Computer Science]]
+- [[how_I_learn_mathematics|Mathematics]]
+- [[how_I_learn_English|English]]
+- [[how_I_learn_art|Art]]
+
+And below I breafly describe them.
 
 ## Fundamentals of science and computer science
 
