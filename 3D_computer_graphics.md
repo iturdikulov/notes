@@ -24,6 +24,7 @@ By developing various [[my_games|games]] and modelling 3D models in [[Blender]].
 
 ## Assets
 
+- [Kenney Assets](https://www.kenney.nl/assets)
 - [The Models Resource](https://www.models-resource.com/)
 - [Quixel Megascans 3D asset library](https://quixel.com/megascans)
 - [Substance 3D Community Assets](https://substance3d.adobe.com/community-assets?assetType=substanceMaterial))
@@ -32,3 +33,4 @@ By developing various [[my_games|games]] and modelling 3D models in [[Blender]].
 - [Unreal Engine 5 Lumen vs Baked light scenes](https://unreal.shop/models/unreal-engine-5.-free-two-scenes.-lumen-vs-baked-light)
 - [Bonnibel's Graphic Collection](https://graphic.neocities.org/directory)
 - [Poly Pizza: Free 3D models for everyone](https://poly.pizza/)
+
