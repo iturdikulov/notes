@@ -8,23 +8,31 @@ sr-interval: 6
 sr-ease: 227
 ---
 
-# My read books
+# My fiction books
 
-TODO: add links to each book into ~/Arts_and_Entertainment/literature/ or create
-review for each book.
+<!-- TODO: add links to each book into ~/Arts_and_Entertainment/literature/ or create review for each book. -->
+<!-- TODO: MARK physical books -->
 
-## Fiction books
+This section contains a list of fiction books I'd like to read, and NOT include
+books related which I consider related to research or non-fiction
+(check [[learning#My focus in learning]] note).
 
-### [[Russian|In Russian]]
+My special notation for books:
 
-- [x] [[research/Ekzyuperi-Malenkij_Princz]]
+- [ ] `[ ]` Haven't read yet
+- [/] `[/]` Reading in progress
+- [x] `[x]` Finished reading, liked it
+- [!] `[!]` ** Would recommend**
+- [-] `[-]` Cancelled
+
+## [[Russian|In Russian]]
+
+- [ ] [Все книги из игр Morrowind и Skyrim! БИБЛИОТЕКА ТАМРИЭЛЯ. Аудиокнига. Том второй - YouTube](https://www.youtube.com/watch?v=kcp_ues5-CQ)
 - [ ] Review [The Little Prince - Wikipedia](https://en.wikipedia.org/wiki/The_Little_Prince)
 - [ ] Божественная комедия. Данте Алигьери
-- [ ] Я робот
 - [ ] Война и мир
 - [ ] Приключения шерлока холмса
 - [ ] Конец вечности
-- [ ] Война миров
 - [ ] Хайлайн
 - [ ] Роберт шекли
 - [ ] Рассказы Азимова
@@ -32,36 +40,27 @@ review for each book.
 - [ ] Азимов
 - [ ] Ружья, микробы и сталь. История человеческих сообществ
 - [ ] Территория — роман Олега Куваева
-- [ ] [[research/Detskaya_literatura-Biblioteka_mirovoj_literatury_dlya_detej]]
-- [ ] [[research/Ekzyuperi-CZitadel]]
+- [ ] [[research/Detskaya_literatura-Biblioteka_mirovoj_literatury_dlya_detej|Библиотека мировой литературы для детей]]
+- [ ] [[research/Ekzyuperi-CZitadel|Цитадель]]
+- [/] Война миров
+- [/] Я робот
+- [!] [[research/Ekzyuperi-Malenkij_Princz|Маленький Принц (The Little Prince)]]
 
-### [[English|In English]]
+## [[English|In English]]
 
+- [ ] xkcd: volume 0
 - [ ] Iliad and the Odyssey
-- [ ] [[research/Laozi-Tao_Te_Ching]],
+- [ ] [[research/Laozi-Tao_Te_Ching|Tao Te Ching]]
 
+<!-- NEXT: create MR template?, wishlist? -->
+If you have book recommendations for me, please [create a Pull
+Request]() adding a link at the end of
+[`inbox.markdown`](https://github.com/bevacqua/reads/blob/master/inbox.markdown).
 
-# V2 read list
+Books I would like to read but I haven't purchased yet can be found on my
+Wishlist.
 
-# Reads
-
-> :books: A list of physical books I own. Includes ratings!
-
-If you have book recommendations for me, please [create a Pull Request](https://github.com/bevacqua/reads/compare) adding a link at the end of [`inbox.markdown`](https://github.com/bevacqua/reads/blob/master/inbox.markdown).
-
-Books I would like to read but I haven't purchased yet can be found on my [Amazon wishlist](https://amzn.to/2k0GORJ).
-
-## Ratings
-
-- 🌑 Haven't read yet
-- 🌘 🌗 🌖 Reading progress
-- 🌕 Finished reading, liked it
-- 🌝 **Wouldn't recommend**
-- 🌟 **Loved it**
-
--------
-
-# Business
+## Need review
 
 ## Businesses / Decisionmaking
 
@@ -150,7 +149,6 @@ Books I would like to read but I haven't purchased yet can be found on my [Amazo
 
 ## Development Philosophy
 
-- 🌟 [The Pragmatic Programmer <sub>From Journeyman to Master</sub>](https://amzn.to/1S6WZdR)
 - 🌕 [Getting Real <sub>The Smarter, Faster, Easier Way to Build a Successful Web Application</sub>](https://amzn.to/1SD1FHK)
 - 🌕 [Refactoring: Improving the Design of Existing Code](https://amzn.to/1S6Z49J)
 - 🌕 [The Clean Coder <sub>A Code of Conduct for Professional Programmers</sub>](https://amzn.to/1S6YGrH)
@@ -308,6 +306,5 @@ Books I would like to read but I haven't purchased yet can be found on my [Amazo
 
 ## Comics / Casual Reads
 
-- 🌕 [xkcd: volume 0](https://amzn.to/1SD1PyG)
 - 🌑 [Thing Explainer <sub>Complicated Stuff in Simple Words</sub>](https://amzn.to/1PMIWqm)
 
