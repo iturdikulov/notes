@@ -15,8 +15,6 @@ sr-ease: 287
 > control of the web in the spirit of the Vim editor.\
 > — <cite>[Vimium](https://vimium.github.io/)</cite>
 
-<!-- NEXT: outdated -->
-
 **Installation instructions:**
 
 Install via the [Chrome web store](https://chrome.google.com/extensions/detail/dbepggeogbaibhgnhhndojpepiihcmeb) or the [Firefox Add-ons site](https://addons.mozilla.org/en-GB/firefox/addon/vimium-ff/).
@@ -29,92 +27,35 @@ customize these bindings.
 
 Once you have Vimium installed, you can see this list of key bindings at any time by typing `?`.
 
-## Navigating the current page
-
-`?`::show the help dialog for a list of all available keys
-
-`gg`::scroll to top of the page
-
-`G`::scroll to bottom of the page
-
-`d`::scroll down half a page
-
-`u`::scroll up half a page
-
-`C-'`::open a link in the current tab
-
-`C-"`::open a link in a new tab
-
-`r`::reload
-
-`gs`::view source
-
-`i`::enter insert mode -- all commands will be ignored until you hit Esc to exit
+`C-?`::show the help dialog for a list of all available keys
 
 `yy`::copy the current url to the clipboard
 <!--SR:!2024-01-27,7,265-->
 
-`yf`::copy a link url to the clipboard
+`H`::go back in history
 
-`gf`::cycle forward to the next frame
+`L`::go forward in history
 
-`gF`::focus the main/top frame
+`<C-6>`::Go to previously-visited tab (visitPreviousTab)
 
-## Navigating to new pages
+`gi`
+&#10;
+focus the first (or n-th) text input box on the page. Use <tab> to cycle through
+options.
 
-`C-h`::Open URL, bookmark, or history entry
+`i`::enter insert mode -- all commands will be ignored until you hit Esc to exit
 
-`C-H`::Open URL, bookmark, history entry in a new tab
-<!--SR:!2023-06-06,1,225-->
+`C-;`::open a link in the current tab
+
+`C-:`::open a link in a new tab
 
 `b`::Open bookmark
 
 `B`::Open bookmark in a new tab
 
-## Using find
+`C-S-1` (brave custom hotkey)::move current tab to new window. NOTE: this is sometimes very useful.
 
-`/`::enter find mode, `enter` to search, or `Esc` to cancel
-
-`n`::cycle forward to the next find match
-
-`N`::cycle backward to the previous find match
-
-For advanced usage, see [regular expressions](https://github.com/philc/vimium/wiki/Find-Mode) on the wiki.
-
-Navigating your history:
-
-`H`::go back in history
-`L`::go forward in history
-
-Manipulating tabs:
-
-`J, gT`::go one tab left
-
-`K, gt`::go one tab right
-
-`g0`::go to the first tab. Use ng0 to go to n-th tab
-<!--SR:!2023-06-06,1,225-->
-
-`g$`::go to the last tab
-
-`^`::visit the previously-visited tab
-
-`t`::create tab
-
-`yt`::duplicate current tab
-
-`x`::close current tab
-
-`X`::restore closed tab (i.e. unwind the 'x' command)
-<!--SR:!2023-06-07,2,245-->
-
-`T`::search through your open tabs
-
-`W`::move current tab to new window. NOTE: this is sometimes very useful.
-
-`<c-q>`::pin/unpin current tab
-
-## Using marks
+`C-S-A` (brave default hotkey)::search through your open tabs
 
 `ma, mA`::set local mark "a" (global mark "A")
 
@@ -127,43 +68,9 @@ Jump to local mark "a" (global mark "A")
 jump back to the position before the previous jump, that is, before the previous
 `gg, G, n, N, /` or `\`a`
 
-## Additional advanced browsing commands
-
 `]], [[`::Follow the link labeled 'next' or '>' ('previous' or '<')
 
 `<a-f>`::open multiple links in a new tab
-
-`gi`
-&#10;
-focus the first (or n-th) text input box on the page. Use <tab> to cycle through
-options.
-
-`gu`::go up one level in the URL hierarchy
-<!--SR:!2023-06-06,2,245-->
-
-`gU`::go up to root of the URL hierarchy
-
-`ge`::edit the current URL
-<!--SR:!2023-06-05,1,228-->
-
-`gE`::edit the current URL and open in a new tab
-<!--SR:!2024-01-21,1,225-->
-
-`zH`::scroll all the way left
-
-`zL`::scroll all the way right
-
-`v`::enter visual mode; use p/P to paste-and-go, use y to yank
-
-`V`::enter visual line mode
-
-Vimium supports command repetition so, for example, hitting ==`5t`== will open 5
-tabs in rapid succession. `<Esc>` (or `<c-[>`) will clear any partial commands
-in the queue and will also exit insert and find modes.
-
-There are some advanced commands which aren't documented here; refer to the help
-dialog (type ==`?`==) for a full list.
-<!--SR:!2023-06-05,1,230-->
 
 ## Custom Key Mappings
 
