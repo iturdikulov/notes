@@ -19,15 +19,15 @@ sr-ease: 229
 So main set feature is that it can store ==only unique values==.
 <!--SR:!2023-07-22,3,259-->
 
-Basic uses of set is ==membership testing and eliminating duplicate entries==.
-Set objects also support (at least in [[Python]]) mathematical operations like
-union, intersection, difference, and symmetric difference.
+Basic uses of set is membership testing and eliminating ==duplicate== entries.
+Set objects also support (at least in [[research/Python]]) mathematical
+operations like union, intersection, difference, and symmetric difference.
 
-Set seems so similar (especially array-based set) to the
-[[array]] but operations performed on the set are
-different, mainly on **insert operation**. It has different efficiency, because
-we have non-duplicating constraint. But it perfectly replaces array, when you
-need unique data.
+Set seems so similar (especially array-based set) to the [[array]] but
+operations performed on the set are different, mainly on
+==**insert operation (2N+1)**==. It has different efficiency, because we have
+non-duplicating constraint. But it perfectly replaces array, when you need
+unique data.
 
 Sets can be suitable for any lists of unique data (phone numbers, email
 addresses, etc.).
@@ -42,8 +42,8 @@ Deletion from set takes ==$N$ steps, delete and move data to the left to close
 gap==, like array.
 
 **Insertion** is different. You need to ensure that you don't have duplicate
-data and this means every insertion into a set
-first requires a ==search== operation.
+data and this means every insertion into a set first requires a ==search==
+operation.
 
 In best case insertion into set takes:
 &#10;
