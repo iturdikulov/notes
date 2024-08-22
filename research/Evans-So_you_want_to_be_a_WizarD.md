@@ -2,7 +2,7 @@
 date: 2024-08-18
 tags:
   - inbox
-  - SR_base
+  - SR_learn
 author:
   - Julian Evans
 file: ~/Wiki/books/Evans-want_to_be_a_wizard.pdf
@@ -84,13 +84,13 @@ mind.
 
 ## [[../books/Evans-want_to_be_a_wizard.pdf#page=12|Learning at work]]
 
-Sometimes you need to learn X to do Y, good strategy to do it?
+Sometimes you need to learn X to do Y, good strategy (practical steps) to do it?
 &#10;
 - Read source code
 - Ask questions
 - Watch talks
 - Read docs/blog posts
-- Do experiments <!--SR:!2024-08-21,1,230-->
+- Do experiments <!--SR:!2024-08-23,1,210-->
 
 More ways than debugging to work and learn "with bugs"?
 &#10;
