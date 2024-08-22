@@ -107,3 +107,64 @@ work. Need to discuss and take time to understand the new knowledge.
 <!--SR:!2024-08-23,3,250-->
 
 ## [[../books/Evans-want_to_be_a_wizard.pdf#page=13|Learning on my own]]
+
+Good strategy to learn something new?
+&#10;
+- Go to a conference, especially in area I don't know well.
+- Implement something that seems hard, I need some challenge!
+- Select concept and spend few hours on it (3+).
+- Try a new program, library, framework, etc.
+- Do some experiments, can X do Y?
+- Read a paper, Adrian "The morning Paper" is great?
+- Teach someone else, event through notes
+
+How to design software? Let's assume you worked hard on something, but at the
+end you just wasted your time?
+&#10;
+- Planning and proof of concepts are your friends.
+- You can't always predict how requirements will change, try yours best to solve
+current problems and try to avoid this in the future.
+- Sometimes "good enough" is really awesome and this is good starting point.
+
+## [[../books/Evans-want_to_be_a_wizard.pdf#page=15|Scenes from writing desing docs]]
+
+How to write design docs?
+&#10;
+Explain current working processes, maybe you not really understand them
+Ask questions and give your work for review
+If someone disagree, figure out a better plan together
+Design always change, this is evolving process. So try to actualize it.
+
+## [[../books/Evans-want_to_be_a_wizard.pdf#page=16|Build expertise]]
+
+How to get better at X, I know a little about it? What you can do?
+&#10;
+You need to continuously work with it, this is super fun to get better at
+something. Pick something and spent **significant** amount of time on it, after
+some time you'll see results. Check [[learning]] note for more information.
+Today is the best day to start learning!
+
+How to learn new skills, maybe some detailed plan to combine learning and
+practice?
+&#10;
+- First learn fundamental concepts, what is "system call" at all? At this step you
+need figure out which ideas are most important and learn them! Sometimes you
+need to dig in into things you don't understand.
+- Do experiments, what system call in THIS program using, what's in `/proc`,
+what happens if I do X or Y?
+- Read books (for me, it always better method to learn)
+- Do hard projects
+- Learning is marathon not a sprint, find time to it and don't waste it
+
+
+## [[../books/Evans-want_to_be_a_wizard.pdf#page=19|Take on hard projects]]
+
+How confidence helps you to learn?
+&#10;
+There always someone who "better" than you, but you have own advantages, be
+proud of you:
+- You learn fast in changing world
+- You work hard on projects, which really hard understand
+- You have years of experience
+- You are good at debugging
+- Someone's great gotta do this
