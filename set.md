@@ -3,6 +3,7 @@ date: 2023-04-14
 tags:
   - inbox
   - SR_computer_science
+  - SR_base
 sr-due: 2024-01-26
 sr-interval: 1
 sr-ease: 229
@@ -16,8 +17,7 @@ sr-ease: 229
 > from a set, one typically tests a value for membership in a set.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Set_\(abstract_data_type\))</cite>
 
-So main set feature is that it can store ==only unique values==.
-<!--SR:!2023-07-22,3,259-->
+So main set feature is that it can store ==only unique values==. <!--SR:!2024-08-26,7,259-->
 
 Basic uses of set is membership testing and eliminating ==duplicate== entries.
 Set objects also support (at least in [[research/Python]]) mathematical
@@ -25,15 +25,14 @@ operations like union, intersection, difference, and symmetric difference.
 
 Set seems so similar (especially array-based set) to the [[array]] but
 operations performed on the set are different, mainly on
-==**insert operation (2N+1)**==. It has different efficiency, because we have
-non-duplicating constraint. But it perfectly replaces array, when you need
-unique data.
+==**insert operation**==, in worst case 2N+1. It has different efficiency,
+because we have non-duplicating constraint. But it perfectly replaces array,
+when you need unique data. <!--SR:!2024-08-22,2,240-->
 
 Sets can be suitable for any lists of unique data (phone numbers, email
 addresses, etc.).
 
-Reading from a set take ==one step==, like array.
-<!--SR:!2023-08-01,13,266-->
+Reading from a set take ==one step==, like array. <!--SR:!2024-09-23,34,266-->
 
 Searching a set takes up to ==$N$ steps, where $N$ is a number of items in the
 set==, like array.
@@ -48,8 +47,7 @@ operation.
 In best case insertion into set takes:
 &#10;
 Insert into end of set. $N + 1$ steps. $N$ steps → search, 1 step to insert into
-end.
-<!--SR:!2023-07-28,9,246-->
+end. <!--SR:!2024-08-23,4,226-->
 
 In worst case insertion into set takes:
 &#10;
