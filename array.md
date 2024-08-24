@@ -3,6 +3,7 @@ date: 2022-12-29
 tags:
   - inbox
   - SR_computer_science
+  - SR_base
 sr-due: 2024-08-01
 sr-interval: 22
 sr-ease: 201
@@ -23,19 +24,19 @@ when you create it). Array usually at least has an **address** in memory and
 **size** (number of items in array). Each element of array has an index
 (location of elements or address), and first index is `0`.
 
-size_of_array = last_index ==+ 1==
+size_of_zero_indexed_array = last_index ==+ 1== <!--SR:!2024-08-25,2,221-->
 
-| 0   | 1   | 2   | 3   | 4   | 5   |
-| --- | --- | --- | --- | --- | --- |
-|     |     | `9` |     |     | `1` |
-|     | `5` |     |     |     |     |
-|     |     |     |`10` |     |     |
-|     |     |     |     |`6`  |     |
-|     | `7` |     |     |`11` |     |
-*Graphical representation of array in memory*\
+|     | 0   | 1   | 2   | 3    | 4    | 5   |
+| --- | --- | --- | --- | ---- | ---- | --- |
+| 0   |     |     | `9` |      |      | `1` |
+| 1   |     | `5` |     |      |      |     |
+| 2   |     |     |     | `10` |      |     |
+| 3   |     |     |     |      | `6`  |     |
+| 4   |     | `7` |     |      | `11` |     |
+_Graphical representation of array in memory (allocated space)_\
 How many total items in this array? Is empty items has address in memory?
 &#10;
-6*5 = 30
+6*5 = 30\
 yes, empty items has address in memory
 
 ## Array (data type)
@@ -61,16 +62,15 @@ to `n-1` where `n` is a number of items in array.
 
 Array is one of most basic data structure in computer science.
 
-In general array is list of ==data elements==.
+In general array is list of ==indexed== data elements. <!--SR:!2024-08-25,2,221-->
 
-Size of an array is how ==many== data elements the array holds.
+Size of an array is how many data elements the array holds.
 
-The index of an array is the number that identifies ==location== a piece of
-data.
+The **index** of an array is the number that identifies value ==location== <!--SR:!2024-08-25,2,161-->
 
 In most programming languages, arrays are ==zero-indexed==, meaning that the
 first element of the array is at index 0, the second element is at index 1, and
-so on.
+so on. <!--SR:!2024-08-25,2,221-->
 
 ```mermaid
 graph LR
@@ -98,17 +98,14 @@ Array operations explained in [[array_operations|array operations]].
 ## Ordered array
 
 Ordered array is same as array, but with one difference: elements in ordered
-array are sorted ==in some order== (usually ascending or descending), and when
+array are ==sorted in some order== (usually ascending or descending), and when
 you modify array, you must keep it sorted.
-
-Ordered array are identical to "classic" array, but here only one difference,
-whenever you modify the array, you must keep it in ==sorted order==.
-
+\
 And this brings some specific rules. For example, we want to add 75 into ordered
-array at some point
-
+array (3.17.80.202) at some point, we do following steps:
+&#10;
 ```
-3.17.80.202                 # initial array, we want to add 75
+3.17.80.202          # initial array, we want to add 75
 *.**.17<75<80.**.*** # 3 steps, we go through array, to find right place for 75
                      # this steps are called comparison
 
@@ -118,13 +115,16 @@ array at some point
 
 3.17.75.80.202       # new ordered array
 ```
+
 When inserting into an ordered array, we need to always conduct a ==search==
 before the actual insertion to determine the correct spot for the insertion.
+This is why ordered array usually slower than [[array]] for inserting operation. <!--SR:!2024-08-25,2,221-->
 
 In the worst case when using linear search, we spent ==$N+2$== steps to insert
-new value into ordered array. But with [[binary_search_algorithm|binary search]]
-we can insert elements more effectively.
+new value into ordered array (`75` into `[3.17.80.202]`). But with
+[[binary_search_algorithm|binary search]] we can insert elements more
+effectively, but still slower when we use classic array data structure.
 
 Main advantage of ordered array is that we can use
 ==[[binary_search_algorithm|binary search]]== algorithm to find elements in
-array very efficiently.
+array very efficiently. <!--SR:!2024-08-25,2,217-->
