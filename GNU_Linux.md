@@ -32,8 +32,9 @@ exceptions (semaphores, processes and threads).
 - X11 forwarding
 - [Linux kernel features - Wikipedia](https://en.wikipedia.org/wiki/Category:Linux_kernel_features)
 
-## References
+## External links
 
+- [ ] [Linux Inside](https://0xax.gitbooks.io/linux-insides/content/)
 - [ ] [Learn Enough Command Line to Be Dangerous | Learn Enough to Be Dangerous](https://www.learnenough.com/command-line-tutorial)
 - [ ] [Top 40 Linux Commands for All Users + Free Linux Cheat Sheet](https://www.hostinger.com/tutorials/linux-commands)
 - [ ] [The 50 Most Popular Linux & Terminal Commands - Full Course for Beginners - YouTube](https://www.youtube.com/watch?v=ZtqBQ68cfJc)
