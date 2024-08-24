@@ -18,7 +18,7 @@ sr-ease: 272
 > AdGuard DNS servers, and both share a lot of code.\
 > — <cite>[AdGuardHome](https://github.com/AdguardTeam/AdGuardHome)</cite>
 
-## To-Do
+## To-do
 
 - TODO: describe my setup
 - TODO: describe configuration
