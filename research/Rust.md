@@ -1,17 +1,27 @@
 ---
-date: 2024-01-01
-external:
-  - https://learnxinyminutes.com/docs/rust/
+date: 2023-03-19
 tags:
   - inbox
   - SR_programming
   - research
-sr-due: 2024-01-29
-sr-interval: 2
-sr-ease: 163
+sr-due: 2024-01-28
+sr-interval: 1
+sr-ease: 225
 ---
 
-# Learn Rust in Y minutes
+# Rust (programming language)
+
+> Rust is a multi-paradigm, general-purpose programming language that emphasizes
+> performance, type safety, and concurrency. It enforces memory safety—meaning
+> that all references point to valid memory—without a garbage collector. To
+> simultaneously enforce memory safety and prevent data races, its
+> =="borrow checker"== tracks the object lifetime of all references in a program
+> during compilation.\
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Rust_\(programming_language\))</cite>
+
+## Learn Rust in Y minutes
+
+Source: [Learn Rust in Y Minutes](https://learnxinyminutes.com/docs/rust/).
 
 ```rust
 // This is a comment. Line comments look like this...
@@ -26,8 +36,6 @@ sr-ease: 163
 /// ```
 /// let five = 5
 /// ```
-
-## 1. Basics
 
 ```rust
 // Functions
@@ -329,3 +337,12 @@ fn main() {
     ref_var2; // no-op, but counts as a use and keeps the borrow active until here
 }
 ```
+
+## External links
+
+- [ ] [Introduction - Rust By Example](https://doc.rust-lang.org/stable/rust-by-example/index.html)
+- [ ] [The Rust Programming Language - The Rust Programming Language](https://doc.rust-lang.org/book/)
+- [ ] [Rust Language Cheat Sheet](https://cheats.rs/)
+- [ ] [Rust by the Numbers: The Rust Programming Language in 2021 - The New Stack](https://thenewstack.io/rust-by-the-numbers-the-rust-programming-language-in-2021/)
+- [ ] [Rust vs. Go: Why They’re Better Together - The New Stack](https://thenewstack.io/rust-vs-go-why-theyre-better-together/)
+- [ ] [rust - How can I perform parallel asynchronous HTTP GET requests with reqwest? - Stack Overflow](https://stackoverflow.com/questions/51044467/how-can-i-perform-parallel-asynchronous-http-get-requests-with-reqwest)

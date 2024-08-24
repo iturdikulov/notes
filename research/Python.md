@@ -1,19 +1,83 @@
 ---
 date: 2022-12-29
-external:
-  - https://learnxinyminutes.com/docs/python/
 tags:
   - inbox
   - SR_programming
   - research
-sr-due: 2024-07-02
-sr-interval: 1
-sr-ease: 221
+sr-due: 2024-02-01
+sr-interval: 6
+sr-ease: 182
 ---
 
-# Learn Python in Y minutes
+# Python
 
-## 1. Primitive Datatypes and Operators
+> Python is a [[high-level_programming_language|high-level]], general-purpose
+> [[programming_language|programming_language]]. Its design philosophy
+> emphasizes code readability with the use of significant indentation via the
+> off-side rule.
+>
+> Python is dynamically typed and garbage-collected. It supports multiple
+> programming paradigms, including structured (particularly procedural),
+> object-oriented and functional programming. It is often described as a
+> "batteries included" language due to its comprehensive standard library.
+>
+> Guido_van_Rossum began working on Python in the late 1980s as a successor to
+> the ABC programming language and first released it in 1991 as Python 0.9.0.
+> Python 2.0 was released in 2000. Python 3.0, released in 2008, was a major
+> revision not completely backward-compatible with earlier versions.
+>
+> Python consistently ranks as one of the
+> [most popular programming languages](https://www.tiobe.com/tiobe-index/).
+>
+> Python is a multi-paradigm programming language.
+> [[OOP|object-oriented]] programming and
+> [[structured_programming|structured_programming]] are fully supported, and
+> many of their features support
+> [[functional_programming|functional_programming]] and aspect-oriented
+> programming (including metaprogramming and metaobjects). Many other paradigms
+> are supported via extensions, including design by contract and logic
+> programming.
+>
+> Python uses dynamic typing and a combination of reference counting and a
+> cycle-detecting garbage collector for memory management. It uses dynamic name
+> resolution (late binding), which binds method and variable names during
+> program execution.
+>
+> Its design offers some support for functional programming in the Lisp
+> tradition. It has `filter`, `map` and `reduce` functions; list comprehensions,
+> dictionaries, sets, and generator expressions. The standard library has two
+> modules (itertools and functools) that implement functional tools borrowed
+> from Haskell and Standard ML.\
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Python_\(programming_language\))</cite>
+
+[[zen_of_python|Zen of python]] describes the philosophy of Python.
+
+This is most prioritized language for me. I learn it according to my
+[[how_I_learn_programming_and_software_development#Python|roadmap]].
+
+**Python** is a [[high-level_programming_language|high-level]],
+[[general-purpose_programming_language|general-purpose]] programming language.
+
+One of key features of Python is attention to [[readability]], by using
+indentation to delimit code blocks, rather than curly brackets or keywords.
+
+Python is [dynamically typed] and [garbage-collected].
+
+It supports any popular [[programming_paradigm|programming paradigm]]:
+
+- [[structured_programming|structured]]
+- [[procedural_programming|procedural]]
+- [[OOP|object-oriented]]
+- [[functional_programming|functional]]
+
+Rich [[research/Python_Community-Python_Standard_Library|standard library]] make
+it's "batteries included" language.
+
+## Learn Python in Y minutes
+
+Source: [Learn Python in Y Minutes](https://learnxinyminutes.com/docs/python/).
+
+### 1. Primitive Datatypes and Operators
 
 ```python
 # Single line comments start with a number symbol (#).
@@ -159,7 +223,7 @@ None  # => None
 None is None   # => True
 ````
 
-# 2. Variables and Collections
+### 2. Variables and Collections
 
 ```python
 # Python has a print function
@@ -382,7 +446,7 @@ filled_set = some_set.copy()  # filled_set is {1, 2, 3, 4, 5}
 filled_set is some_set        # => False
 ```
 
-## 3. Control Flow and Iterables
+### 3. Control Flow and Iterables
 
 ```python
 # Let's just make a variable
@@ -552,7 +616,7 @@ list(our_iterable)  # => Returns ["one", "two", "three"]
 list(our_iterator)  # => Returns [] because state is saved
 ```
 
-## 4. Functions
+### 4. Functions
 
 ```python
 # Use "def" to create new functions
@@ -690,7 +754,7 @@ list(filter(lambda x: x > 5, [3, 4, 5, 6, 7]))  # => [6, 7]
 {x: x**2 for x in range(5)}  # => {0: 0, 1: 1, 2: 4, 3: 9, 4: 16}
 ```
 
-## 5. Modules
+### 5. Modules
 
 ```python
 # You can import modules
@@ -728,7 +792,7 @@ dir(math)
 # over Python's built-in libraries.
 ```
 
-## 6. Classes
+### 6. Classes
 
 ```python
 # We use the "class" statement to create a class
@@ -830,7 +894,7 @@ if __name__ == '__main__':
     # i.age                         # => this would raise an AttributeError
 ```
 
-## 6.1 Inheritance
+### 6.1 Inheritance
 
 ```python
 # Inheritance allows new child classes to be defined that inherit methods and
@@ -926,7 +990,7 @@ if __name__ == '__main__':
     print('Am I Oscar eligible? ' + str(sup.movie))
 ```
 
-## 6.2 Multiple Inheritance
+### 6.2 Multiple Inheritance
 
 ```python
 # Another class definition
@@ -1008,7 +1072,7 @@ if __name__ == '__main__':
     print('Can I fly? ' + str(sup.fly)) # => Can I fly? False
 ```
 
-## 7. Advanced
+### 7. Advanced
 
 ```python
 # Generators help you make lazy code.
@@ -1098,3 +1162,27 @@ my_function(1,2) # => "Entering function my_function"
 print(my_function.__name__) # => 'my_function'
 print(my_function.__code__.co_argcount) # => 2
 ```
+
+## External links
+
+Libraries, Frameworks, Templates:
+
+- [ ] [spectree: API spec validator and OpenAPI document generator](https://github.com/0b01001001/spectree#flask)
+- [ ] [rq-flask-sqlalchemy-template](https://github.com/edkrueger/rq-flask-sqlalchemy-template/tree/master)
+- [ ] [Лучшие open-source инструменты для Python проектов](https://habr.com/en/articles/708916/)
+
+- [ ] [python - Celery: log each task run to its own file?](https://stackoverflow.com/questions/25281612/celery-log-each-task-run-to-its-own-file)
+- [ ] [Using Celery: Python Task Management](https://www.toptal.com/python/orchestrating-celery-python-background-jobs)
+
+Refactoring:
+
+- [ ] [[research/Seporaitis-Large_Scale_Refactoring_With_PyBowler]]
+
+Documentation and tutorials:
+
+- [[research/Python_Community-Python_Tutorial]]
+- [[research/Python_Community-Python_Standard_Library|Standart Library]]
+- [[research/Python_Community-Python_FAQ]]
+- [Documentation](https://docs.python.org/3/)
+- [Python Tutorials](https://realpython.com/)
+- [Python Developer’s Guide](https://devguide.python.org/)

@@ -1,7 +1,5 @@
 ---
 date: 2024-01-16
-external:
-  - https://learnxinyminutes.com/docs/lua/
 tags:
   - inbox
   - SR_programming
@@ -11,7 +9,19 @@ sr-interval: 4
 sr-ease: 170
 ---
 
-# Learn Lua in Y minutes
+# Lua (programming language)
+
+> Lua (/ˈluːə/ LOO-ə; from Portuguese: lua [ˈlu(w)ɐ] meaning moon) is a
+> **lightweight**, high-level, multi-paradigm programming language designed
+> primarily for ==**embedded== use** in applications. Lua is cross-platform,
+> since the interpreter of compiled bytecode is written in ANSI C, and Lua has a
+> relatively simple C API to embed it into applications.\
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Lua_\(programming_language\))</cite>
+
+## Learn Lua in Y minutes
+
+Source: [Learn Lua in Y Minutes](https://learnxinyminutes.com/docs/lua/).
+
 
 ```lua
 -- Two dashes start a one-line comment.
@@ -394,9 +404,10 @@ g()  -- Prints out 343; nothing printed before now.
 --]]
 ```
 
-## References
+## External links
 
-- `:h lua-guide` in neovim
-- [Programming in Lua (first edition)](https://www.lua.org/pil/contents.html)
-- [Lua 5.4 Reference Manual - contents](https://www.lua.org/manual/5.4/),
-  - [Russian version](https://web.archive.org/web/20230415092320/https://lua.org.ru/contents_ru.html).
+- [ ] `:h lua-guide` in neovim
+- [ ] [A guide to using Lua in Neovim (lua guide in russian)](https://github.com/kuator/nvim-lua-guide-ru)
+- [ ] - [Programming in Lua (first edition)](https://www.lua.org/pil/contents.html)
+- [ ] - [Lua 5.4 Reference Manual - contents](https://www.lua.org/manual/5.4/),
+- [ ] - [Russian version](https://lua.org.ru/contents_ru.html).
