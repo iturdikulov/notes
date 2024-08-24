@@ -36,7 +36,17 @@ English is a West Germanic language in the Indo-European
 I have English language [[how_I_learn_English|learning plan]],
 which can help me to understand English materials, media and people.
 
+## Collactions (словосочетания)
+
+One method to learn English is learning collocations. They very useful to learn
+natural language. Collocations are words that are used together in a sentence.
+There are some types of collocations: Fixed, Strong, and Weak.
+
+## Grammar (грамматика)
+
+- [[English_Capitalization_Rules|English Capitalization Rules]]
+
 ## Tools
 
-- [[sdcv]] - console dictionary.
-- [[Translate_Shell]] - console translator.
+- [[sdcv]] - console dictionary, aliased to `dict`.
+- [[Translate_Shell]] - console translator, aliased to `trans`.
