@@ -32,6 +32,11 @@ configuration example, with my personal data:
 git config --global user.name "First Lastname"
 git config --global user.email "user@domain.tld"
 ```
+Main objects in Git is commits and branches, they can be presented as nodes
+graph:
+
+![_Git branching and committing graph_](./img/git-branching.excalidraw.svg)
+_Git branching and committing_
 
 Does Git store an entire snapshot of files per commit?
 &#10;
@@ -137,11 +142,26 @@ Show the file changes for a commit ID and/or file
 Show full change history
 &#10;
 `git log`
-`gl` - custom alias
+`gl` - custom alias, graph view of commits
+
+How customize output of `git log`, use less information or more information?
+&#10;
+A: decorate flags
+- `git log --decorate=full`, show full branch names
+- `git log --decorate=no`, hide branch names
+B: compact view of log
+- `git log --oneline`
+C: graph mode and all branches
+- `git log --oneline --graph --all`
 
 Get details of repository object (by commit hash)
 &#10;
 `git cat-file -p [commit hash]`
+
+What `.git/refs/heads/main` this file contains?
+&#10;
+It's a file which contain the `main` branch ref (commit hash that the branch
+points to).
 
 Git log, but limit to the last 10 commits and disable pager
 &#10;
@@ -158,7 +178,7 @@ View commits which would be pushed (commits in current local branch).
 View changes which are new on a feature branch.
 &#10;
 
-```bash
+```sh
 git log -p feature --not main
 git diff main...feature
 ```
@@ -169,7 +189,7 @@ Show change history for file/directory including diffs
 
 View differences of branches/stash with meld other tool?
 &#10;
-```bash
+```sh
 ## To get list of toolname runt this:
 ## git difftool --tool-help
 
@@ -181,7 +201,6 @@ git difftool -d stash -t toolname
 ```
 YOU CAN EDIT files in meld and save them!
 
-
 ### Branches
 
 Working With Branches List all local branches
@@ -192,9 +211,11 @@ List all branches, local and remote
 &#10;
 `git branch -a[v]`
 
-Create a new branch called new **branch**
+Create a new branch called new **branch**, how to create and switch in same
+time?
 &#10;
-`git branch new_branch`
+- `git branch new_branch`
+- `git switch -c new_branch`
 
 Delete the branch called my **branch**
 &#10;
@@ -204,10 +225,13 @@ Force Delete the branch "branch_name".
 &#10;
 `git branch -D [branch_name]`
 
-Branches: To delete a remote branch "branch_name":
+To delete a remote branch "branch_name":
 &#10;
 `git push --delete origin [branch_name]`
 
+How to rename (move) a branch?
+&#10;
+`git branch -m[--move] old_name new_name`
 
 Continue merge after resolving conflicts
 &#10;
@@ -223,9 +247,10 @@ Switch to a branch, my **branch**, and update working directory
 &#10;
 `git checkout my_branch`
 
-Merge branch **foo** into branch **bar**
+Merge branch **foo** into branch **bar**. First we need to find/switch to merge
+base (the best common ancestor?) of two branches, then we can merge them.
 &#10;
-`git checkout bar; git merge foo`
+`git switch bar; git merge foo`
 
 Create a bare branch; without any commits.
 &#10;
@@ -331,7 +356,7 @@ Change author of a commit.
 Commit in the past. Newer versions of Git allow `--date="2 days ago"` usage.
 &#10;
 
-```bash
+```sh
 ## more recent versions of Git also support --date="2 days ago" directly
 git commit --date="`date --date='2 day ago'`"
 git commit --date="Jun 13 18:30:25 IST 2015"
@@ -394,7 +419,7 @@ Get the latest changes from origin (no merge)
 Pull changes, while overwriting any local commits.
 &#10;
 
-```bash
+```sh
 git fetch --all
 git reset --hard origin/master
 ```
@@ -463,6 +488,68 @@ Prune all remotes at once.
 &#10;
 `git remote prune $(git remote | tr '\n' ' ')`
 
+### Configuration
+
+Set your identity with `git config` globally?
+&#10;
+```sh
+git config --global user.name "John Doe"
+git config --global user.email johndoe@example.com
+```
+
+List local or global configurations using `git config`?
+&#10;
+```sh
+git config --local --list
+git config --global --list
+```
+
+Actually you are able to store and retrieve custom configuration in git config
+file, how to do it?
+&#10;
+```sh
+git config --add --local foo.bar baz
+cat .git/config
+# [foo]
+#         bar = baz
+git config --get foo.bar
+```
+
+How to remove a configuration key/value pair, for example local `foo.bar`?
+&#10;
+```sh
+git config --unset --local foo.bar
+# or remove all if you have duplicated keys, git use latest key if there duplicates
+# soft "not-allowed" duplicates mode
+git config --unset-all --local foo.bar
+```
+
+How to complete remove configuration section?
+&#10;
+```sh
+git config --remove-section section
+```
+
+The GPG key used for signing your commits
+`git config --global user.signingkey 0A46826A`
+
+Set signing of commits globally
+`git config --global commit.gpgsign true`
+
+Set your editor.
+`git config --global core.editor nvim`
+
+Enable color support for commands like `git diff`.
+`git config --global color.ui true`
+
+Which git configuration locations you know? How they override each other?
+&#10;
+Here locations, priority from low to high:
+- System: `/etc/gitconfig`
+- Global for user: `~/.gitconfig`, overrides system
+- Local for repository: `.git/config`, overrides global
+- Worktree: `.git/config`, overrides local
+
 ### Other
 
 List files changed in a given commit.
@@ -502,7 +589,7 @@ Check any signatures it finds and list them in its output:
 
 Sync a fork with the master repo.
 
-```bash
+```sh
 git remote add upstream git@github.com:name/repo.git # <-- Set a new repo.
 git remote -v # <-- Confirm new remote repo.
 git fetch upstream # <-- Get branches.
@@ -517,28 +604,9 @@ git log # <-- Show all of the commits.
 git status # <-- Show the changes from the last commit.
 ```
 
-Set your identity.
-
-```bash
-git config --global user.name "John Doe"
-git config --global user.email johndoe@example.com
-```
-
-The GPG key used for signing your commits
-`git config --global user.signingkey 0A46826A`
-
-Set signing of commits globally
-`git config --global commit.gpgsign true`
-
-Set your editor.
-`git config --global core.editor nvim`
-
-Enable color support for commands like `git diff`.
-`git config --global color.ui true`
-
 Remove file from git after adding it into `.gitignore`
 
-```bash
+```sh
 ## Check, you committed all required changes before
 git rm -r --cached .
 git add .
@@ -547,7 +615,7 @@ git commit -m "Fix untracked files"
 
 Change the date of an existing commit.
 
-```bash
+```sh
 git filter-branch --env-filter \
     'if [ $GIT_COMMIT = 119f9ecf58069b265ab22f1f97d2b648faf932e0 ]
      then
@@ -561,7 +629,7 @@ Display the commit history of a set of files.
 
 Move your most recent commit from one branch, to stage it on [BRANCH].
 
-```bash
+```sh
 git reset HEAD~ --soft
 git stash
 git checkout [BRANCH]
@@ -572,6 +640,7 @@ git add .
 ## External links
 
 - [ ] [Learn Git - Boot.dev](https://www.boot.dev/courses/learn-git)
+- [ ] [Команда Git Rerere](https://medium.com/nuances-of-programming/%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D0%B0-git-rerere-%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D0%B7%D0%B8%D1%80%D1%83%D0%B9%D1%82%D0%B5-%D1%80%D0%B5%D1%88%D0%B5%D0%BD%D0%B8%D1%8F-%D0%B4%D0%BB%D1%8F-%D1%83%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B5%D0%BD%D0%B8%D1%8F-%D0%BA%D0%BE%D0%BD%D1%84%D0%BB%D0%B8%D0%BA%D1%82%D0%BE%D0%B2-%D1%81%D0%BB%D0%B8%D1%8F%D0%BD%D0%B8%D1%8F-5dac55edadcc)
 
 - [ ] [[research/Linux_Community-Submitting_patches]]
 - [ ] [GitHub - conventional-commits/conventionalcommits.org: The conventional commits specification](https://github.com/conventional-commits/conventionalcommits.org)
