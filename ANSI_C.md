@@ -11,7 +11,7 @@ sr-ease: 217
 # ANSI C
 
 > ANSI C, ISO C, and Standard C are successive standards for the
-> [[C]] programming language published by the American
+> [[research/C]] programming language published by the American
 > National Standards Institute (ANSI) and ISO/IEC JTC 1/SC 22/WG 14 of the
 > International Organization for Standardization (ISO) and the International
 > Electrotechnical Commission (IEC). Historically, the names referred
