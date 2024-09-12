@@ -2,7 +2,7 @@
 date: 2023-09-22
 tags:
   - inbox
-sr-due: 2024-01-29
+sr-due: 2023-01-28
 sr-interval: 3
 sr-ease: 250
 ---
@@ -23,7 +23,7 @@ Cheat sheet:
 ![](img/Bash_CheatSheet.pdf)
 _[obfusk/bash-cheatsheet: bash cheat sheet](https://github.com/obfusk/bash-cheatsheet/tree/master)_
 
-## Tips
+## Snippets
 
 Uppercase first letter of filenames:
 
@@ -34,9 +34,9 @@ for i in *;  # process every file in current directory
 done;
 ```
 
-## References
+## External links
 
-- [[hidden_file_and_hidden_directory_dotfiles|Dotfiles]]
+- [ ] [Bourne Shell Tutorial](https://www.grymoire.com/Unix/Bourne.html)
 - [ ] [GitHub - fliptheweb/bash-shortcuts-cheat-sheet: Useful shortcuts for bash/zsh](https://github.com/fliptheweb/bash-shortcuts-cheat-sheet/tree/master)
 - [ ] [The Bash Hackers Wiki](https://wiki.bash-hackers.org/doku.php)
 - [ ] [Command Challenge!](https://cmdchallenge.com/)
