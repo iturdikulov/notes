@@ -1,9 +1,7 @@
 ---
 date: 2022-12-28
 tags:
-  - bridge
   - inbox
-  - SR_IRL
 sr-due: 2024-01-28
 sr-interval: 2
 sr-ease: 241
@@ -30,11 +28,12 @@ Good checklist for wake-up:
 
 - Wash your face and brush your teeth, both are important.
 - Drink a glass of water (or coffee 😈).
-- Plan something important, for combinatorial explosion.
+- Plan something important (3 high-level tasks), for combinatorial explosion.
 - Review your calendar and tasks, maybe something has high-priority.
 - Do basic training, 35+ minutes sessions (in my case run).
 - Walk outside for 10–20 minutes to get enough energy from sun (vitamin D).
-- Prepare your workspace, fewer distractions.
+- Prepare your workspace, fewer distractions improve your productivity.
+- Put your devices on charger.
 
 ## Chunk 1.1 Big guy
 
@@ -43,8 +42,10 @@ deeply few minutes and start.
 
 Main goals:
 
+- Bring your mind to the task (5-minute meditation if needed).
 - Time amount about 3 hours.
 - Reduce distractions, let know everyone you will be busy.
+- Spent some time on [[spaced_repetition|spaced repetition]].
 - Focus on main tasks, go from hard to easy or important to less important.
 - Limit timing for tasks.
 - Take at least one 10–15 minutes break in this session.
@@ -65,11 +66,13 @@ This is good time to do something brainless, with low energy consumption. But
 Personally it's hard for me to do something brain-related after lunch some time,
 and I need about 1–2 hours to recover.
 
+If possible spend some time on [[spaced_repetition|spaced repetition]].
+
 ## Chunk 1.1 Big guy chunk completion
 
-Complete main tasks, connect with people, help them. Mark completed tasks. You
-can also work in this time on side projects, freelance, self-promotion or other
-tasks if you are not busy with working tasks.
+Complete main tasks, connect with people, help them. Mark completed tasks. I can
+also work in this time on side projects (fun projects), freelance,
+self-promotion or other tasks if you are not busy with working tasks.
 
 ## Workout
 
@@ -86,11 +89,18 @@ high-intensive workouts.
 This task can reuse information from [[#Chunk 1.1 Big guy]]. But I need to learn
 according to [[learning]] techniques.
 
+This chunk is starting in the evening.
+
+Depending on my mood I can spend on this chunk 2 or more hours. Minimal goal is
+2 ETA hours of learning.
+
 ## Chunk 3. Fun
 
 It's good time to practice learned information by working with
 [[my_pet_projects|pet projects]]. Sometimes you haven't energy for it, it's
 fine. You can do something else.
+
+If possible spend some time on [[spaced_repetition|spaced repetition]].
 
 ## Prepare for tomorrow
 
@@ -107,8 +117,8 @@ consuming.
 
 You need to give your bran and mind some time to relax. At this time I can
 consume some [[media]], read [[my_fiction_books|fiction books]], listen
-not-agressie music, etc.
+music, etc.
 
 Don't forget about yourself and don't try to make longer your day (this is bad
-idea). Try to start sleep maximum at 00:00, breath deeply and keep thinking
-about something good.
+idea). Try to start sleep maximum at 00:00 (with some preparations before),
+breath deeply and keep thinking about something good.
