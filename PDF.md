@@ -17,7 +17,34 @@ sr-ease: 270
 > information needed to display it.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Portable_Document_Format)</cite>
 
-TODO: PostScript → PDF conversion example. TODO: review PDF libraries.
+My E-library is consisting mostly of PDF files. This format not "flexible",
+unlike epub for example, so usually it's looking good on large screens, on phone
+there some zooming issues.
+
+Some [[vector_graphics|vector]] ([[inkscape]], Adobe Illustrator) and
+[[raster_graphics_editor|raster]] graphics editors (GIMP) can export to PDF,
+it's useful as intermediate format especially for vector graphics.
+
+I also have [resume](./CV/main.pdf) in this format.
+
+## Recipes
+
+Resize PDF pages, as dimensions used `pdfinfo` information:
+
+```sh
+input_file="./Evans-want_to_be_a_wizard.pdf"
+input_file_dimensions="$(LC_ALL=C pdfinfo $input_file| LC_ALL=C awk '/^Page size:/ {printf "{%fbp,%fbp}", $3, $5}')"
+echo $input_file_dimensions
+
+# Start acutual conversion after verification
+pdfjam --papersize "$input_file_dimensions" "$input_file" --outfile output.pdf
+```
+
+## To-do
+
+- [ ] PostScript → PDF conversion example.
+- [ ] PostScript's information
+- [ ] Review PDF libraries, client-side, JS-based, etc.
 
 ## Tools
 
