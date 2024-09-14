@@ -19,8 +19,11 @@ TODO: add source
 
 
 I use QMK on my keyboard (KBD75 rev2). I'have done some basic customizations to
-keymap. I use Colemak-DH layout, but on system level (because I use also Russian
-ЙЦУКЕН layout, so it's depends on qwerty layout).
+keymap. I use Colemak-DH layout (check image below), but on system level
+(because I use also Russian ЙЦУКЕН layout, so it's depends on qwerty layout).
+
+-![Colemak-DH ANSI](img/Colemak-DH_ANSI.png)
+_Colemak-DH ANSI_
 
 Key codes: [qmk_firmware/docs/keycodes.md](https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md)
 
@@ -41,7 +44,7 @@ Flash firmware steps:
 
 6. Create keymap and set it as default
 
-```sh
+```bash
 qmk new-keymap -km inomoz
 qmk config user.keymap=inomoz
 ```
@@ -65,13 +68,19 @@ my case I need to hold `ESC` and plug USB cable.
 
 ## My keymap variant
 
-![Colemak-DH ANSI](img/Colemak-DH_ANSI.png)
+I have [generated PDF file](./img/QMK_current_layout.pdf) with mine keymap,
+here is [QMK keymap](external/keymap.c) file. To generate it I followed these
+steps:
 
-## Keys
+1. Go to directory with QMK firmware `cd <path_to_dir>/QMK`
+2. Generate keymap.json file
+```bash
+qmk c2json --no-cpp keymap.c >keymap.json # without --no-cpp it might not work
+```
+3. Go to [QMK Configurator](https://config.qmk.fm/), upload here `keymap.json`
+   and print it to PDF ( icon and  icon).
 
-Check [QMK keymap](external/keymap.c) file to get actual keys map.
-
-## References
+## External links
 
 - [qmk_firmware/users/callum](https://github.com/callum-oakley/qmk_firmware/tree/master/users/callum)
 - [QMK Firmware - An open source firmware for AVR and ARM based keyboards](https://qmk.fm/)
