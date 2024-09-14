@@ -35,7 +35,7 @@ sr-ease: 220
 network.
 - Solid knowledge of [[computer_science|computer science]] and basic
 understanding of [[mathematics]].
-- [[backend]] professional specialist.
+- [[backend|Backend]] professional specialist.
 - [[computer_graphics|Computer graphics]] skills set for artistic and
   technical purposes.
 - Software development understanding, fundamentals, architecture, design
