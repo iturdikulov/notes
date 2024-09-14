@@ -27,9 +27,3 @@ sr-ease: 270
 > devices like [[smartphone|smartphones]] and fully loaded backbone routers.\
 > — <cite>[WireGuard](https://www.wireguard.com/)</cite>
 
-## Connecting to WireGuard
-
-TODO: review this
-I wrote special [script](file:///home/inom/.local/bin/wg-toggle.sh):
-`wg-toggle.sh` which allows me quickly toggle between WireGuard configuration
-(up/down).
