@@ -31,6 +31,10 @@ Man usage: `man [OPTION...] [SECTION] PAGE...`
 Tldr usage: `tldr [OPTIONS] [COMMAND]...`, one of useful option is `-L` to
 change language.
 
+One good source to inspiration, how documentation looks like, is
+[git/Documentation](https://github.com/git/git/tree/master/Documentation), in
+terms of format, style and grammar.
+
 ## References
 
 - [ ] [A practical guide to writing technical specs - Stack Overflow](https://stackoverflow.blog/2020/04/06/a-practical-guide-to-writing-technical-specs/)
