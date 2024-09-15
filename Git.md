@@ -3,7 +3,7 @@ date: 2022-12-29
 external: https://git-scm.com/
 tags:
   - inbox
-  - SR_development
+  - SR_VCS
 sr-due: 2023-01-28
 sr-interval: 8
 sr-ease: 252

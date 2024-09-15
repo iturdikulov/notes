@@ -4,7 +4,7 @@ external:
 date: 2023-03-12
 tags:
   - inbox
-  - SR_productivity
+  - SR_VCS
 sr-due: 2024-02-03
 sr-interval: 6
 sr-ease: 231
