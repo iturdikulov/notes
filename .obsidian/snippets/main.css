@@ -13,24 +13,11 @@ body {
     --font-monospace: monospace, "Fira Code", "Source Code Pro";
     --code-size: 20px;
   }
+  .sr-modal-content{
+    max-width: 800px;
+    margin: 0 auto;
+  }
 }
-
-/* TODO: Maybe need to remove in future, spaced-repetiton buttons fix */
-.modal {
-  max-width: 960px;
-}
-.modal code[class*='language-'], .modal pre[class*='language-'] {
-  font-size: 1rem;
-}
-
-.modal code{
-  color: var(--code-normal);
-  font-size: var(--code-size);
-  background-color: var(--code-background);
-  vertical-align: baseline;
-  -webkit-box-decoration-break: clone;
-}
-
 
 /* Save this as a CSS Snippet alternativeCheckboxes.css */
 
