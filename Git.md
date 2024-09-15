@@ -4,7 +4,7 @@ external: https://git-scm.com/
 tags:
   - inbox
   - SR_development
-sr-due: 2024-02-02
+sr-due: 2023-01-28
 sr-interval: 8
 sr-ease: 252
 ---
@@ -35,7 +35,7 @@ git config --global user.email "user@domain.tld"
 Main objects in Git is commits and branches, they can be presented as nodes
 graph:
 
-![_Git branching and committing graph_](./img/git-branching.excalidraw.svg)
+![_Git branching and committing graph_](img/git_branching.excalidraw.svg)
 _Git branching and committing_
 
 Does Git store an entire snapshot of files per commit?
@@ -65,7 +65,7 @@ Show help on a Git subcommand (like `clone`, `add`, `push`, `log`, etc.):
 
 Execute a some Git subcommand:
 &#10;
-`git subcommand` <!--SR:!2023-06-07,3,252-->
+`git subcommand` <!--SR:!2024-09-03,7,252-->
 
 Execute a Git subcommand on a custom repository root path:
 &#10;
@@ -79,8 +79,7 @@ Execute a Git subcommand with a given configuration set:
 
 Create a new local repository, _project_name_ is optional. If no project name specified you'll create git repository in current directory. You can also use non-existing **nested** directories, git automatically create needed structure.
 &#10;
-`git init [project_name]`
-<!--SR:!2024-06-21,153,312-->
+`git init [project_name]` <!--SR:!2025-12-16,476,312-->
 
 Download from an existing repository. URL can be `http[s]...` or `git@...` (require specific private ssh key). If project path specified, git will clone into this directory.
 &#10;
@@ -139,20 +138,63 @@ Show the file changes for a commit ID and/or file
 &#10;
 `git show [commit]:[file]`
 
-Show full change history
+Show full change history. Is possible to list remote changes?
 &#10;
-`git log`
-`gl` - custom alias, graph view of commits
+`git log`, `gl` is mine custom alias for graph view of commits.
+Yes, you can log the commits of a remote repo as well (remote/branch):
+`git log origin/main`
 
-How customize output of `git log`, use less information or more information?
+How customize output of `git log`, for example:
+- show full branch names
+- hide branch names
+- compact view of log, limit to 1 commit
+- graph mode and all branches
 &#10;
 A: decorate flags
 - `git log --decorate=full`, show full branch names
 - `git log --decorate=no`, hide branch names
-B: compact view of log
-- `git log --oneline`
+B: compact view of log, limit to 1 commit
+- `git log --oneline -n1`
 C: graph mode and all branches
 - `git log --oneline --graph --all`
+
+`git log --oneline --decorate --graph --parents`
+```
+ $ git log --oneline --decorate --graph --parents
+*   cb0280e a563a6a a3c16d4 (HEAD -> main) F: Merge branch 'add_classics', amend
+|\
+| * a3c16d4 a7bb5fe (add_classics) D:\ add classic
+* | a563a6a a7bb5fe E: update contents
+|/
+*   a7bb5fe ea61d81 a772d04 Merge branch 'remake'
+|\
+| * a772d04 a9333c8 (remake) Add remake
+| * a9333c8 1656f66 (develop) ad second commit
+| * 1656f66 1f7ea8a Test branch
+* | ea61d81 1f7ea8a add
+|/
+* 1f7ea8a d05a05c C: add EN quotes
+* d05a05c 351cadb B: add titles
+* 351cadb A: add contents.md
+```
+Can you explain output (only significant parts)?
+&#10;
+- `*` asterisk represent commit
+- `cb0280e a563a6a a3c16d4 (HEAD -> main)`, first hash it's merg-commit hash,
+second two are parent commits (merge from → to).
+- the next section is a visual representation of the branch structure. It shows
+the commits on the add_classics branch and the main branch before the merge.
+Notice that they both share a common parent.
+- etc.
+
+You have this git graph, which type of merge Git will do?
+```text
+`A--->B` # main
+     `C--->D--->E`  # featureq
+```
+&#10;
+Git will do a fast-forward merge, which means that it will simply move the HEAD
+pointer from B to E, and we don't need to create a new merge commit.
 
 Get details of repository object (by commit hash)
 &#10;
@@ -227,7 +269,8 @@ Force Delete the branch "branch_name".
 
 To delete a remote branch "branch_name":
 &#10;
-`git push --delete origin [branch_name]`
+`git push --delete origin [branch_name]` or
+`git push origin :<remotebranch>`
 
 How to rename (move) a branch?
 &#10;
@@ -311,7 +354,7 @@ Stages the file, ready for commit
 Stage all changed files or files which ready for commit
 &#10;
 - `git add .`
-- `git add [--all|-A]` <!--SR:!2024-08-30,7,232-->
+- `git add [--all|-A]` <!--SR:!2024-09-14,15,232-->
 
 Stop tracking the file completely (leave it on disk) and remove from repo!
 &#10;
@@ -349,12 +392,17 @@ Edit previous commit message.
 &#10;
 `git commit --amend`
 
+Change last commit message (one command).
+&#10;
+`git commit --amend -m "New commit message"`
+
 Change author of a commit.
 &#10;
 `git commit --amend --author="Author Name <email@address.com>"`
 
-Commit in the past. Newer versions of Git allow `--date="2 days ago"` usage.
+Commit in the past
 &#10;
+Newer versions of Git allow `--date="2 days ago"` usage for commit flag.
 
 ```sh
 ## more recent versions of Git also support --date="2 days ago" directly
@@ -378,24 +426,23 @@ Undo last commit but keep the changes
 &#10;
 `git reset --soft HEAD~1`
 
-Revert everything to the last commit.
-So it removes staged and working directory changes.
+Revert everything to the last commit. So it removes staged and working directory
+changes.
 &#10;
-`git reset --hard` but be careful, you can lose your changes. Maybe need stash them first.
+`git reset --hard` but be careful, you can lose your changes. Maybe need stash
+them first.
 
 Undo last commit. If you want to nuke commit C to never see it again:
-(F)
-A-B-C
-↑
-main
+```
+A-B-[C]
+  ↑
+  main
+```
 &#10;
-`git reset --hard HEAD~1`
+`git reset --hard HEAD~1`. Always be careful when using git reset --hard. It's a
+powerful tool, but it's also a dangerous one.
 
 Undo last commit. If you want to undo the commit, but keep your changes:
-(F)
-A-B-C
-↑
-main
 &#10;
 `git reset HEAD~1`
 
@@ -412,9 +459,16 @@ Apply only the changes made within a given commit. This is different to the `mer
 
 ### Synchronize changes
 
+"Authoritative source of truth" repo, we mean that it's the one you and your
+team treat as the "true" repo. It's the one that contains the most up-to-date
+version of the accepted code. In Git terminology this is ==`origin`== (single
+word).
+
 Get the latest changes from origin (no merge)
 &#10;
-`git fetch`
+`git fetch`. This downloads copies of all the contents of the `.git/objects`
+directory (and other bookkeeping information) from the remote repository into
+your current one.
 
 Pull changes, while overwriting any local commits.
 &#10;
@@ -426,12 +480,31 @@ git reset --hard origin/master
 
 Fetch the latest changes from origin and merge
 &#10;
-`git pull`
+`git pull [<remote>/<branch>]`
 
 Fetch the latest changes from origin and rebase
 &#10;
-`git pull --rebase`
-<!--SR:!2023-07-08,34,270-->
+`git pull --rebase` <!--SR:!2024-09-14,18,250-->
+
+Let's assume we have a branch `feature_branch` that we want to merge into `main`.
+```text
+A - B - C    main
+   \
+    D - E    feature_branch
+```
+How this graph looks like after we rebase `feature_branch` on top of `main`?
+&#10;
+```text
+A - B - C
+         \
+          D - E   main, feature_branch
+```
+
+Is rebase a public branch (like `main`) onto some other branch is good idea?
+&#10;
+You should never rebase a public branch (like `main`) onto anything else. Other
+developers have it checked out, and if you change its history, you'll cause a
+lot of problems for them.
 
 Pull down a remote branch, but rebase any locally differing commits onto the top of the incoming commits:
 &#10;
@@ -449,7 +522,9 @@ Push to the tracked main branch.
 &#10;
 `git push origin main`
 
-<!--SR:!2023-04-02,3,248-->
+Push a local branch to a remote with a different name.
+&#10;
+`git push origin <localbranch>:<remotebranch>`
 
 Push to a specified repository.
 &#10;
@@ -480,7 +555,22 @@ Apply stash from the stash list, but does not remove the stash from the list.
 
 ### Git remote
 
-Remove all stale branches; ones that have been deleted on remote. So if you have a lot of useless branches, delete them on GitHub and then run this.
+How add remote repo, can we use relative path?
+&#10;
+Use this command to add a remote repo:
+`git remote add <name> <uri>`
+Yes you can use relative path, like `../some_other_repo/`.
+
+How to list remote origin?
+&#10;
+`git ls-remote`
+
+How to merge remote repo into local repo?
+&#10;
+`git merge remote/branch`. For example: `git merge origin/main`.
+
+Remove all stale branches; ones that have been deleted on remote. So if you have
+a lot of useless branches, delete them on GitHub and then run this.
 &#10;
 `git remote prune origin`
 
@@ -550,6 +640,69 @@ Here locations, priority from low to high:
 - Local for repository: `.git/config`, overrides global
 - Worktree: `.git/config`, overrides local
 
+### gitignore
+
+What should you ignore in typical coding project?
+&#10;
+- Ignore things that can be generated (e.g. compiled code, minified files, etc.)
+- Ignore dependencies (e.g. node_modules, venv, packages, etc.)
+- Ignore things that are personal or specific to how you like to work (e.g.
+editor settings, but not code assignments config)
+- Ignore things that are sensitive or dangerous (e.g. .env files, passwords, API
+keys, etc.)
+
+`node_modules` vs `node_modules/` in `.gitignore` file, what is difference?
+&#10;
+First one ignore directory name or file name as a "section", second one ignore
+directory only
+```
+"node_modules"
+--------------
+node_modules/code.js
+src/node_modules/code.js
+src/node_modules
+
+"node_modules/"
+--------------
+node_modules/code.js
+a/node_modules/code.txt
+```
+
+A nested `.gitignore` file (in multiple directories) only applies to the
+directory ==it's in and its subdirectories==.
+
+Remove file from git after adding it into `.gitignore`
+&#10;
+```sh
+## Check: you committed all required changes before
+git rm -r --cached .
+git add .
+git commit -m "Fix untracked files"
+```
+
+You can add comments to your .gitignore file by starting a line with a ==`#`==.
+
+Ignoring single files
+&#10;
+```
+example.txt
+examples/example.txt
+```
+
+Keeping single files (pattern negation)::`bash !example.txt`
+
+Ignore multiple files with the same extension::`*.txt`, `*` wildcard pattern
+
+Ignoring files only in the root directory
+&#10;
+Must include a slash in the beginning `/example.txt`
+
+Ignore multiple files with the same name (prefix)::`example*`
+
+Ignoring files in every directory::`bash **/example.txt`
+
+Ignores files named `Example.txt` and `example.txt`::`[Ee]xample.txt`
+
 ### Other
 
 List files changed in a given commit.
@@ -588,7 +741,7 @@ Check any signatures it finds and list them in its output:
 `git log --pretty="format:%h %G? %aN %s"`
 
 Sync a fork with the master repo.
-
+&#10;
 ```sh
 git remote add upstream git@github.com:name/repo.git # <-- Set a new repo.
 git remote -v # <-- Confirm new remote repo.
@@ -602,15 +755,6 @@ git show 83fb499:path/to/file.ext # <-- Show the file as it was in 83fb499.
 git diff branch_1 branch_2 # <-- Check difference between branches.
 git log # <-- Show all of the commits.
 git status # <-- Show the changes from the last commit.
-```
-
-Remove file from git after adding it into `.gitignore`
-
-```sh
-## Check, you committed all required changes before
-git rm -r --cached .
-git add .
-git commit -m "Fix untracked files"
 ```
 
 Change the date of an existing commit.
@@ -637,9 +781,22 @@ git stash pop
 git add .
 ```
 
+How to implement typical and simple Git workflow with pull-requests and feature branches,
+main steps?
+&#10;
+1. Update my local main branch with `git pull [origin main]`
+2. Checkout a new branch for the changes I want to make with `git switch -c <branchname>`
+3. Make changes to files and commit
+4. Push feature branch with MR create flag `git push -o merge_request.create
+   origin <branchname>`, or just push and create MR through Web UI.
+5. Ask a team member to review my pull request
+6. Once approved, click the "Merge" button on GitHub to merge my changes into main
+7. Delete my feature branch, pull `main`, and repeat with a new branch for the
+   next set of changes
+
 ## External links
 
-- [ ] [Learn Git - Boot.dev](https://www.boot.dev/courses/learn-git)
+- [x] [Learn Git - Boot.dev](https://www.boot.dev/courses/learn-git)
 - [ ] [Команда Git Rerere](https://medium.com/nuances-of-programming/%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D0%B0-git-rerere-%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D0%B7%D0%B8%D1%80%D1%83%D0%B9%D1%82%D0%B5-%D1%80%D0%B5%D1%88%D0%B5%D0%BD%D0%B8%D1%8F-%D0%B4%D0%BB%D1%8F-%D1%83%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B5%D0%BD%D0%B8%D1%8F-%D0%BA%D0%BE%D0%BD%D1%84%D0%BB%D0%B8%D0%BA%D1%82%D0%BE%D0%B2-%D1%81%D0%BB%D0%B8%D1%8F%D0%BD%D0%B8%D1%8F-5dac55edadcc)
 
 - [ ] [[research/Linux_Community-Submitting_patches]]
