@@ -3,8 +3,8 @@ external:
   - https://obsidian.md/
 date: 2023-03-14
 tags:
-  - SR_productivity
   - inbox
+  - SR_productivity
 sr-due: 2024-02-01
 sr-interval: 5
 sr-ease: 226
@@ -19,37 +19,33 @@ sr-ease: 226
 
 ## Hotkeys
 
+- Toggle left sidebar::`C-l`
+- Focus on last note (set focus to content)::`M-n`
 - Switch between edit and read mode::`C-e`
-- Focus on last note::`M-n`
-- Open quick switcher::`M-p`
-- Open command palette::`C-:`
+- Find or create a note::`M-f`
+- Open command palette::`C-S-p`
 - Open graph view::`C-g`
 - Open backlinks for the current file::`M-b`
 - Follow link under cursor::`M-RET`
+- Back / Forward::`C-o`, `C-i` in vim mode
 - Open link under cursor in new pane::`C-M-RET`
+- Close tab, window::`C-w`, `C-S-w`
 - Open settings::`C-M-s`
 - Create new note::`C-n`
-- Close active pane::`C-w`
-- Search current file::`/`
+- Search in current file::`/`
 - Search & replace in current file::`C-h`
 - Search in all files::`C-S-f`
+
 - Toggle bold for selection::`C-b`
 - Toggle italics for selection::`C-i`
 - Insert link::`C-k`
-- Toggle edit/preview mode::`C-e`
+
 - Access developer console (useful to generate custom styles)::`C-S-I` (maybe need adjust keybinding)
-- Navigate back::`C-M-left`
-- Navigate forward::`C-M-right`
-- Open daily note::`M-f`
 - Find broken links::`M-S-b`
 
 Check also [[spaced_repetition#Hotkeys|Spaced repetition]].
 
 ## Custom checkbox (CSS)
-
-[Alternative Checkboxes (Icon Bullets) - Copy and paste - #15 by malhashemi -
-Share & showcase - Obsidian
-Forum](https://forum.obsidian.md/t/alternative-checkboxes-icon-bullets-copy-and-paste/35962/15)
 
 - [ ] `[ ]` Unchecked
 - [x] `[x]` Checked
@@ -69,6 +65,10 @@ Forum](https://forum.obsidian.md/t/alternative-checkboxes-icon-bullets-copy-and-
 - [c] `[c]` Con
 - [b] `[b]` Bookmark
 - ["] `["]` Quote
+
+[Alternative Checkboxes (Icon Bullets) - Copy and paste - #15 by malhashemi -
+Share & showcase - Obsidian
+Forum](https://forum.obsidian.md/t/alternative-checkboxes-icon-bullets-copy-and-paste/35962/15)
 
 ## Plugins
 
