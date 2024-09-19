@@ -313,6 +313,8 @@ ORDER BY City;
 INTERSECT set operator which is used to return the records that two SELECT
 statements have in common. Generally used the same way as **UNION** (both
 queries has same columns).
+Returns a list of cities that have both customers and suppliers.
+&#10;
 ```sql
 SELECT City FROM Customers
 INTERSECT
@@ -358,6 +360,8 @@ WHERE ProductID = ANY
   WHERE Quantity = 10);
 ```
 
+<!-- TODO: need review from here -->
+
 The `ALL` operator:
 - returns a boolean value as a result
 - returns TRUE if `ALL` of the subquery values meet the condition
@@ -386,7 +390,8 @@ FROM Products
 WHERE TRUE;
 ```
 
-TODO: very important to understand
+<!-- TODO: very important to understand -->
+
 The `GROUP BY` statement groups rows that have the same values into summary
 rows, like "find the number of customers in each country". The `GROUP BY`
 statement is often used with aggregate functions (`COUNT()`, `MAX()`, `MIN()`,
@@ -413,7 +418,8 @@ HAVING COUNT(CustomerID) > 5
 ORDER BY COUNT(CustomerID) DESC;
 ```
 
-TODO: example
+<!-- TODO: example -->
+
 `WITH` often used for retrieving hierarchical data or re-using temp result set
 several times in a query. Also referred to as `"Common Table Expression"`
  `WITH RECURSIVE` cte `AS` (<br/>
@@ -441,6 +447,7 @@ VALUES
 `UPDATE` used to modify the existing records in a table.
 How to update the `ContactName` to `"Juan"` for all `customers` records where
 country is `"Mexico"`:
+&#10;
 ```sql
 UPDATE Customers
 SET ContactName='Juan' -- place here additional ", column = value"
@@ -460,6 +467,7 @@ DELETE FROM Customers WHERE CustomerName='Alfreds Futterkiste';
 COUNT returns the number of occurrences.
 Use the `COUNT()` function and the `GROUP BY` clause, to return the number
 of records for each category in the `Products` table:
+&#10;
 ```sql
 SELECT COUNT(*) AS [Number of records], CategoryID
 FROM Products
@@ -575,6 +583,7 @@ the matched records from the left table (`table1`).
 The result is 0 records from the left side, if there is no match.
 Return all `employees` (`LastName`, `FirstName`), and any orders (`OrderID`)
 they might have placed:
+&#10;
 ```
 SELECT Orders.OrderID, Employees.LastName, Employees.FirstName
 FROM Orders
@@ -609,6 +618,7 @@ two or more joined tables. It's essentially a multiplication operation between
 the rows of the involved tables.
 Create a new result set that contains every possible combination of a `customer`
 (`CustomerName`) and `order` (`OrderId`).
+&#10;
 ```sql
 SELECT Customers.CustomerName, Orders.OrderID
 FROM Customers
