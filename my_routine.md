@@ -12,112 +12,106 @@ sr-ease: 241
 Routine is a recommendation not a strict law. But without routine you can skip
 many important things and lose your discipline and motivation.
 
-I split my working day into 8 chunks, and I'm trying to follow them every day.
+I split my working day into core chunks, and I'm trying to follow them every day.
 
-Here is diagram of my routine:
+Here is high-level diagram of my routine:
 
 ![[./img/daily_routine_chunks.excalidraw]]
+_My daily routine_
 
-## Prepare To-do. Wake-up, Plan and Run
-
-Initialization, want to do good wake-up, care about my body, warm-up and walk.
-Wake-up with good moon, make your day better. I feel better if I wake up at 8:00
-am.
+## 1. Wake up
 
 Good checklist for wake-up:
 
 - Wash your face and brush your teeth, both are important.
 - Drink a glass of water (or coffee 😈).
-- Plan something important (3 high-level tasks), for combinatorial explosion.
-- Review your calendar and tasks, maybe something has high-priority.
 - Do basic training, 35+ minutes sessions (in my case run).
 - Walk outside for 10–20 minutes to get enough energy from sun (vitamin D).
 - Prepare your workspace, fewer distractions improve your productivity.
 - Put your devices on charger.
 
-## Chunk 1.1 Big guy
+## 2. TODO
 
-Schedule anything unimportant and disable distractions, prepare water, breath
-deeply few minutes and start.
+Things-to-do (AKA to-do list), planning my day is my first chunk of the day.
+Here I prepare my day, week, month, etc.
+
+Priorities:
+
+- Schedule anything unimportant and which I not plan to do today, be honest.
+- Check your [[work#Goals|goals]], expertness, health, family tasks, etc.
+- Review your calendar and tasks, maybe something has high-priority.
+- Plan something important (3 high-level tasks), for combinatorial explosion.
+- Mark completed tasks.
+
+## 3. Chunk #1
+
+Disable distractions, prepare water, breath deeply few minutes and start.
 
 Main goals:
 
 - Bring your mind to the task (5-minute meditation if needed).
 - Time amount about 3 hours.
-- Reduce distractions, let know everyone you will be busy.
-- Spent some time on [[spaced_repetition|spaced repetition]].
-- Focus on main tasks, go from hard to easy or important to less important.
+- Reduce distractions, let know everyone you will be **busy**.
+- Focus on **main tasks**, go from hard to easy or important to less important.
 - Limit timing for tasks.
 - Take at least one 10–15 minutes break in this session.
 - Drink more water to stay hydrated.
 
 Completed important task give me emotional charge and motivation.
 
-## Lunch
+## 4. Chunk #2
 
-After main working time I give my mind some relax time.
-
-You can prepare your lunch in the morning or in the evening. Give rest to your
-eyes and mind and fuel your body and give time to food **digestion**.
+After main working time I give my mind some relax time. Give rest to your eyes
+and mind and fuel your body and give time to food **digestion**.
 
 This is good time to do something brainless, with low energy consumption. But
 **don't** sleep immediately after lunch and for long time.
 
-Personally it's hard for me to do something brain-related after lunch some time,
-and I need about 1–2 hours to recover.
+Complete main tasks or work on **alternative projects**, connect with people,
+help them if you can.
 
-If possible spend some time on [[spaced_repetition|spaced repetition]].
-
-## Chunk 1.1 Big guy chunk completion
-
-Complete main tasks, connect with people, help them. Mark completed tasks. I can
-also work in this time on side projects (fun projects), freelance,
-self-promotion or other tasks if you are not busy with working tasks.
-
-## Workout
+## 5. Workout
 
 Only morning physical activity is not enough for me. I need to do some
 additional physical activity. It's good to do it after work.
 
 Regular work-out are important for better energy and healthy mind. Better to do
 it according [[my_physical_exercise_plan|plan]] and track your progress and
-results. But I'm not trying to get Olympics medal, so I don't do very
-high-intensive workouts.
+results.
 
-## Chunk 2. Learn
+After workout, I get rest and recovery time. Maybe it's good time for tea or
+some other drink.
 
-This task can reuse information from [[#Chunk 1.1 Big guy]]. But I need to learn
-according to [[learning]] techniques.
+## 6. Learn
 
-This chunk is starting in the evening.
+This chunk is starting in the evening. I need to learn something new. Without
+this process I don't really do any progress, I think it's also interesting and
+fun sometimes. I learn according to [[learning]] techniques.
 
 Depending on my mood I can spend on this chunk 2 or more hours. Minimal goal is
 2 ETA hours of learning.
 
-## Chunk 3. Fun
+## 7. Fun
 
 It's good time to practice learned information by working with
 [[my_pet_projects|pet projects]]. Sometimes you haven't energy for it, it's
 fine. You can do something else.
 
-If possible spend some time on [[spaced_repetition|spaced repetition]].
+It's also good time for [[IRL]] activities.
 
-## Prepare for tomorrow
+## 8. Relax
 
-Starting somewhere in 22:00-23:00 pm. I stop doing anything heavy brain energy
-consuming.
+You need to give your bran and mind some time to relax. At this time I can
+consume some [[media]], read [[my_fiction_books|fiction books]], listen music,
+etc.
 
-- Plan your day, week, month, year, life.
-- Check your [[work#Goals|goals]], expertness, health, family and calendar.
+Some tasks before sleep:
+
 - Place E-devices on charger.
 - Review your working profiles, social networks.
 - Upload videos, photos, articles, etc.
 
-## Chunk 4. Relax
-
-You need to give your bran and mind some time to relax. At this time I can
-consume some [[media]], read [[my_fiction_books|fiction books]], listen
-music, etc.
+## 9. Sleep
 
 Don't forget about yourself and don't try to make longer your day (this is bad
 idea). Try to start sleep maximum at 00:00 (with some preparations before),
