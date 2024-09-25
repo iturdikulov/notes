@@ -14,10 +14,15 @@ sr-ease: 247
 > documents designed to be displayed in a web browser. It defines the meaning
 > and structure of web content. It is often assisted by technologies such as
 > Cascading Style Sheets ([[CSS]]) and scripting languages such as
-> [[JavaScript]].
+> [[research/JavaScript]].
 >
 > [[web_browser|Web browsers]] receive HTML documents from
 > a [[web_server|web server]] or from local storage and render the documents
 > into multimedia web pages. HTML describes the structure of a web page
 > semantically and originally included cues for its appearance.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/HTML)</cite>
+
+## External links
+
+- [HTML - MDN](https://developer.mozilla.org/en-US/docs/Web/HTML)
+
