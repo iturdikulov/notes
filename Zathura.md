@@ -64,7 +64,7 @@ Copy link target to clipboard (page number)::`c`
 
 Enter command-line mode::`:`
 
-Rotate by 90 degrees clockwise::`r`
+Rotate by 90 degrees clockwise::`r` <!--SR:!2024-09-24,3,273-->
 
 Recolor (grayscale and invert colors, sort of night mode)::`C-r`
 

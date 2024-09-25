@@ -2,7 +2,7 @@
 date: 2022-12-29
 tags:
   - inbox
-sr-due: 2024-01-28
+sr-due: 2023-01-28
 sr-interval: 1
 sr-ease: 227
 ---

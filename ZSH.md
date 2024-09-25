@@ -229,7 +229,7 @@ and then repeat the search in the same direction.
 
 
 <!--  NEED review -->
-## Keybindings
+## Keyboard bindings
 
 I think it's very similar to [[GNU_Readline]].
 

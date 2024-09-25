@@ -40,7 +40,9 @@ sr-ease: 288
 
 Ignore this keys in [[Vimium]]: `mjl.,><0123456789/cni`
 
-## References
+## External links
 
 - [Advanced Search for YouTube](https://playlists.at/youtube/search/)
 - [YouTube Subscriptions](https://www.youtube.com/feed/subscriptions)
+- [Youtube Video Downloader](https://yt5s.biz/ru/)
+

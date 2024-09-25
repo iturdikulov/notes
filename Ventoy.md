@@ -61,7 +61,7 @@ sr-ease: 276
 
 Checksums are verified, check this note [[windows_setup_script|Windows setup script]]
 
-```sh
+```bash
 export VENTOY_PATH="/media/Ventoy"
 export WIN_ISO_CHECKSUM="c90a6df8997bf49e56b9673982f3e80745058723a707aef8f22998ae6479597d"
 export ISO_FILE="en-us_windows_10_enterprise_ltsc_2021_x64_dvd_d289cf96.iso"
@@ -89,7 +89,7 @@ sha256sum -c "$VENTOY_PATH/$ISO_FILE.sha256.txt"
 
 To download, I use [this URL](https://geo.mirror.pkgbuild.com/iso/latest/)
 
-```sh
+```bash
 ## Step 1 prepare
 
 export ISO_FILE="archlinux-x86_64.iso"

@@ -191,6 +191,6 @@ object HelloWorld extends App {
 
 ## Shell
 
-```sh
+```bash
 echo "Hello, World!"
 ```

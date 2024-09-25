@@ -217,7 +217,7 @@ shell)
 
 ## Man Pages
 
-```sh
+```bash
 # tracepath - traces path to a network host discovering MTU along this path
 tracepath 1.1.1.1
 ```
