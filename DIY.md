@@ -23,7 +23,9 @@ sr-ease: 250
 
 For me DIY is important part of my [[IRL|life]].
 
-## References
+## External links
+
+- [POV Candle - mitxela.com](https://mitxela.com/projects/candle)
 
 - [ ] [Instructables](https://www.instructables.com/)
 - [ ] [Woodworking machinery books | CRAFTSMANSPACE](http://www.craftsmanspace.com/free-patterns/band-patterns.html)
