@@ -43,28 +43,28 @@ notes to work.
 
 Spaced repetition obsidian plugin custom hotkeys.
 
-- Review flashcards in this note::`C-A-f` <!--SR:!2024-07-02,6,241-->
-- Review flashcards from all notes::`C-A-a` <!--SR:!2024-06-30,4,240-->
-- Review note as easy::`C-A-1` for file, `1` for current flashcard <!--SR:!2024-07-01,5,241-->
+- Review flashcards in this note::`C-A-f` <!--SR:!2024-09-24,3,221-->
+- Review flashcards from all notes::`C-A-a` <!--SR:!2024-09-30,9,240-->
+- Review note as easy::`C-A-1` for file, `1` for current flashcard <!--SR:!2024-09-24,3,221-->
 - Review note as good::`C-A-2` for file, `2`/`space` for current flashcard <!--SR:!2024-09-27,11,241-->
 - Review note as hard::`C-A-3` for file, `3` for current flashcard <!--SR:!2024-09-29,13,261-->
-- Review notes with spaced repetition::``C-A-` ``
-- View statistics::`A-s` <!--SR:!2024-06-28,2,240-->
+- Review notes (not flashcards) with spaced repetition::``C-A-` `` <!--SR:!2024-09-22,1,222-->
+- View statistics::`A-S` <!--SR:!2024-09-22,1,220-->
 
 ## Test spaced repetition plugin
 
 Simple ==highlight==. <!--SR:!2024-10-10,24,279-->
 
 Simple ==highlight== with several ==highlights== show only first.
-[Cloze Update](https://github.com/st3v3nmw/obsidian-spaced-repetition/pull/943) <!--SR:!2000-01-01,1,250!2024-09-17,1,250-->
+[Cloze Update](https://github.com/st3v3nmw/obsidian-spaced-repetition/pull/943) <!--SR:!2024-09-24,3,262!2024-09-25,4,270-->
 
 Highlight (Cloze) with new line inside it is not ==work
 ing==. Still?
 
-Double::colon. <!--SR:!2024-07-06,10,261-->
+Double::colon. <!--SR:!2024-10-27,36,281-->
 
-Double colon with new line is not:: <!--SR:!2024-07-03,7,259-->
-working correctly (empty).
+Double colon with new line is not working:: <!--SR:!2024-10-08,17,259-->
+correctly (empty).
 
 Simple
 &#10;
@@ -74,7 +74,7 @@ Simple question
 &#10;
 With a new
 \
-Lines <!--SR:!2024-07-05,9,260-->
+Lines <!--SR:!2024-10-13,22,260-->
 
 Simple question with new lines just before
 question separator `&#10;`
@@ -91,10 +91,10 @@ print(1)
 
 print(2)
 ```
-<!--SR:!2024-06-28,2,241-->
+<!--SR:!2024-09-27,6,261-->
 
 Simple question
 &#10;
-With Newlines is not <!--SR:!2024-06-28,2,241-->
+With Newlines is not working <!--SR:!2024-09-27,6,261-->
 
-working as expected
+as expected
