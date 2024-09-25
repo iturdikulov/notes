@@ -40,9 +40,19 @@ My special notation for books:
 - [ ] Территория — роман Олега Куваева
 - [ ] [[research/Detskaya_literatura-Biblioteka_mirovoj_literatury_dlya_detej|Библиотека мировой литературы для детей]]
 - [ ] [[research/Ekzyuperi-CZitadel|Цитадель]]
+- [ ] Лабиринт отражений
+- [ ] [Таинственный остров](https://ru.wikipedia.org/wiki/%D0%A2%D0%B0%D0%B8%D0%BD%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9_%D0%BE%D1%81%D1%82%D1%80%D0%BE%D0%B2)
+- [ ] Лю Цысинь (Оробчук Сергей) – Задача трех тел (с музыкальным сопровождением)
+- [ ] Кафка?
+
+- [ ] Айзек Азимов – Место, где много воды
+- [ ] [Как закалялась сталь](https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D0%BA_%D0%B7%D0%B0%D0%BA%D0%B0%D0%BB%D1%8F%D0%BB%D0%B0%D1%81%D1%8C_%D1%81%D1%82%D0%B0%D0%BB%D1%8C)
+- [ ] [ADHD 2.0: New Science and Essential Strategies for Thriving with Distraction](https://www.amazon.com/ADHD-2-0-Essential-Strategies-Distraction/dp/B08775GG3K/)
 - [/] [Все книги из игр Morrowind и Skyrim! БИБЛИОТЕКА ТАМРИЭЛЯ. Аудиокнига. Том 1](file:///home/inom/Arts_and_Entertainment/audiovisual/audiobook/morrowind_and_skyrim_audioknigi/tom_1_yt_BwHTYGtEnIw.m4a)
 - [/] Война миров
 - [/] Я робот
+- [x] Джон Уиндем - День триффидов. Эмоциональное повествование про ослепший мир
+и выживание человечества. 8.5 из 10.
 - [!] [[research/Ekzyuperi-Malenkij_Princz|Маленький Принц (The Little Prince)]]
 
 ## [[English|In English]]
@@ -307,3 +317,13 @@ Wishlist.
 
 - 🌑 [Thing Explainer <sub>Complicated Stuff in Simple Words</sub>](https://amzn.to/1PMIWqm)
 
+# External links
+
+- [The New York Public Library - Digital Collections](https://digitalcollections.nypl.org/)
+- [LibriVox | free public domain audiobooks](https://librivox.org/)
+- [Лаборатория Фантастики](https://fantlab.ru/)
+- [Произведения — Ф-Навигатор](https://f-navigator.rgub.ru/?page_id=20)
+- [Project Gutenberg](https://www.gutenberg.org/)
+- [reading - FREEMEDIAHECKYEAH](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/reading/#wiki_.25B7_pdf_search)
+- Library G
+- Audiobookbay
