@@ -117,33 +117,33 @@ tmux open sessions (and server). Alternative is `Q` keybinding.
 - To get out of Copy mode, we just press the ==`Enter`== key (or `y` to yank
 - and exit).
 
-- Tmux copy mode - Jump to character on same line::`f`
-- Tmux copy mode - Back to indentation::`^`
-- Tmux copy mode - Clear selection::`Escape`
-- Tmux copy mode - Copy selection::`Enter`
-- Tmux copy mode - Cursor down::`j`
-- Tmux copy mode - Cursor left::`h`
-- Tmux copy mode - Cursor right::`l`
-- Tmux copy mode - Cursor to bottom line::`L`
-- Tmux copy mode - Cursor to middle line::`M`
-- Tmux copy mode - Cursor to top line::`H`
-- Tmux copy mode - Cursor up::`k`
-- Tmux copy mode - End of line::`$`
-- Tmux copy mode - Goto line::`:`
-- Tmux copy mode - Half page down::`C-d`
-- Tmux copy mode - Half page up::`C-u`
-- Tmux copy mode - Next page::`C-f`
-- Tmux copy mode - Next word::`w`
-- Tmux copy mode - Previous page::`C-b`
-- Tmux copy mode - Previous word::`b`
-- Tmux copy mode - Quit mode::`q`
-- Tmux copy mode - Scroll down::`C-Down or J`
-- Tmux copy mode - Scroll up::`C-Up or K`
-- Tmux copy mode - Search again::`n`
-- Tmux copy mode - Search backward::`?`
-- Tmux copy mode - Search forward::`/`
-- Tmux copy mode - Start of line::`0`
-- Tmux copy mode - Start selection::`Space`
+- Jump to character on same line::`f`
+- Back to indentation::`^`
+- Clear selection::`Escape`
+- Copy selection::`Enter`
+- Cursor down::`j`
+- Cursor left::`h`
+- Cursor right::`l`
+- Cursor to bottom line::`L`
+- Cursor to middle line::`M`
+- Cursor to top line::`H`
+- Cursor up::`k`
+- End of line::`$`
+- Goto line::`:`
+- Half page down::`C-d`
+- Half page up::`C-u`
+- Next page::`C-f`
+- Next word::`w`
+- Previous page::`C-b`
+- Previous word::`b`
+- Quit mode::`q`
+- Scroll down::`C-Down or J`
+- Scroll up::`C-Up or K`
+- Search again::`n`
+- Search backward::`?`
+- Search forward::`/`
+- Start of line::`0`
+- Start selection::`Space`
 
 ## References
 
