@@ -4,7 +4,7 @@ external: https://go.dev/
 tags:
   - inbox
   - SR_programming
-sr-due: 2024-02-29
+sr-due: 2023-01-28
 sr-interval: 34
 sr-ease: 265
 ---

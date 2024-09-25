@@ -44,7 +44,7 @@ Matrix, GitHub).
 
 Native nix commands:
 
-```sh
+```bash
 nix-env --list-generations
 
 nix-collect-garbage --delete-older-than 30d
@@ -62,7 +62,7 @@ sudo nixos-rebuild switch
 
 [[hey]] utility
 
-```sh
+```bash
 hey gc; sudo hey gc
 sudo /run/current-system/bin/switch-to-configuration boot
 ```
@@ -71,7 +71,7 @@ sudo /run/current-system/bin/switch-to-configuration boot
 
 For example this repo: [https://github.com/cli/cli](https://github.com/cli/cli)
 
-```sh
+```bash
 # SHA256
 nix-shell -p nix-prefetch-git jq --run \
   "nix hash to-sri sha256:\$(nix-prefetch-git --url https://github.com/cli/cli --quiet --rev v2.20.2 | jq -r '.sha256')"

@@ -29,7 +29,7 @@ And we need to prepare the first 2 steps.
 
 Boot from the USB stick and setup networking. (optionally setup SSH if you want
 to complete the installation from another computer)
-```sh
+```bash
 # Configure wifi:
 wpa_passphrase SSID 'PASSWORD' > /etc/wpa_supplicant.conf (optional)
 systemctl start wpa_supplicant
@@ -46,7 +46,7 @@ ssh -o PubkeyAuthentication=no -o PreferredAuthentications=password root@192.168
 ```
 
 Identify devices
-```sh
+```bash
 # List block devices (physical drives)
 lsblk
 
@@ -70,7 +70,7 @@ test -e "$DD2" && echo OK
 
 ## 1. Initialize GPT partitions
 
-```sh
+```bash
 # One pass secure delete all data,
 # with entropy from e.g. /dev/urandom,
 # and a final overwrite with zeros.
@@ -101,7 +101,7 @@ printf "label: gpt\n,550M,U\n,,L\n" | sfdisk $DD2
 
 ## 2. Create File Systems
 
-```sh
+```bash
 ls -l /dev/nvme0n1* /dev/nvme1n1*
 
 # Check sub-partitons
@@ -133,7 +133,7 @@ ls -lah $BOOT $ROOT $BOOT_BACKUP
 
 ## 3. Create and Mount sub-volumes
 
-```sh
+```bash
 mkdir -p /mnt
 mount $ROOT /mnt
 btrfs subvolume create /mnt/root
@@ -157,33 +157,33 @@ mount|grep /mnt/
 ### Typical installation
 
 Generate configuration:
-```sh
+```bash
 nixos-generate-config --root /mnt
 ```
 
 Adjust mount paths (if required)
-```sh
+```bash
 # /mnt/etc/nixos/hardware-configuration.nix
 ```
 
 
 Install NixOS
-```sh
+```bash
 nixos-install
 ```
 
-```sh
+```bash
 # /mnt/etc/nixos/hardware-configuration.nix
 # /mnt/etc/nixos/configuration.nix
 ```
 
 Set user password
-```sh
+```bash
 $ passwd username
 ```
 
 Mount and copy `$BOOT` to `$BOOT_BACKUP`
-```sh
+```bash
 mkdir -p /tmp/boot
 mount $BOOT_BACKUP /tmp/boot
 cp -r /mnt/boot/efi/* /tmp/boot
@@ -197,7 +197,7 @@ Check [this README.md](file:///etc/dotfiles/README.md) file.
 ## Reinstall bootloader
 https://nixos.wiki/wiki/Bootloader
 
-```sh
+```bash
 mount /dev/[root partition] /mnt
 mount /dev/[boot partition] /mnt/boot
 

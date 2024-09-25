@@ -189,6 +189,7 @@ How to do granular find and replace something in the whole file (3 steps)?
    you can use `cgN` and `dgn` to delete, etc.
 3. Find next `n/N` and repeat `.`
 
+<!-- WARNING: this is very useful -->
 Find and Replace in Multiple Files using `argslist`
 &#10;
 1. Initialize the `argslist` with `:args *.ext` from CWD.
@@ -202,6 +203,7 @@ You can also use `:bufdo` to do the same thing in all open buffers.
 To use `argslist` in `vimgrep` use `:vimgrep // ##`. `//` is last search
 pattern. Use `:cdo` to do something with the quickfix list.
 
+<!-- WARNING: this is very useful -->
 Search with telescope and quickfix
 &#10;
 1. `<leader>fs` to grep results

@@ -8,7 +8,7 @@ sr-interval: 5
 sr-ease: 242
 ---
 
-# Programmer (software developer, coder)
+# Programmer (software developer)
 
 > Person who creates [[computer_program|computer programs]]'s — often for larger
 > computer software. A programmer is someone who writes/creates computer
