@@ -4,7 +4,8 @@ external:
 date: 2023-03-04
 tags:
   - inbox
-sr-due: 2024-02-01
+  - SR_blender
+sr-due: 2023-01-28
 sr-interval: 4
 sr-ease: 224
 ---
@@ -397,51 +398,83 @@ Open popup menu for last action (Adjust Last Operation)::`F9`
 
 ## More keybindings
 
-![](img/blender-infographic-SM-2500.png).
-_[Learn Blender with a poster
-infographic](https://www.giudansky.com/illustration/infographics/blender-map)_
+![[./img/blender-infographic-SM-2500.png]]
+_[Learn Blender with a poster infographic](https://www.giudansky.com/illustration/infographics/blender-map)_
 
-## Learning
+---
 
-Repeat the tutorial from memory, notes can help. Experiment, do something new,
-based on tutorials. Make something dirty but get experience.
+![[./img/cgcookie_blender_hotkeys-4.1.pdf#page=2]]
+_[Blender Hotkey Cheat Sheet](https://cgcookie.com/downloads/blender-hotkey-cheat-sheet)_
 
-- [x] [[research/Price-Donut_Tutorial_in_Blender]]
-- [x] [[research/CG_Cookie-Blender_Basics]]
-- [ ] [Your Simple First Blender Project](https://cgcookie.com/courses/press-start-your-simple-first-blender-project)
-- [ ] [Learn Blender 3 for Complete Beginners - YouTube](https://www.youtube.com/playlist?list=PLn3ukorJv4vuU3ILv3g3xnUyEGOQR-D8J)
+## Tutorials
+
+- [ ] [Creating Realistic 3d Pencil model in Blender Tutorial](https://www.youtube.com/watch?v=dq7qUVHnN0M)
+
+- [ ] [Tutorial: Quick Smooth Camera Movements in Blender - YouTube](https://www.youtube.com/watch?v=a7qyW1G350g)
 - [ ] [Beginner Modelling Chair Tutorial - YouTube](https://www.youtube.com/playlist?list=PLjEaoINr3zgEL9UjPTLWQhLFAK7wVaRMR)
-- [ ] [Intermediate Blender Tutorial Series - YouTube](https://www.youtube.com/playlist?list=PLjEaoINr3zgHJVJF3T3CFUAZ6z11jKg6a)
-- [ ] [How to Learn 3D in 4 weeks (self-taught curriculum) - YouTube](https://www.youtube.com/watch?v=Nj_l6YHMj-c)
-- [ ] [How To Render This Cinematic Shot With EEVEE | Blender Tutorial - YouTube](https://www.youtube.com/watch?app=desktop&v=RB6Ytdfwy-0)
+- [ ] [Blender Tutorial - Creating a Stormy Ocean - YouTube](https://www.youtube.com/watch?v=oysCSbhXYBo)
+- [ ] [How To Render This Cinematic Shot With EEVEE - YouTube](https://www.youtube.com/watch?app=desktop&v=RB6Ytdfwy-0)
+- [ ] [Create a Realistic Forest in 30 Minutes - YouTube](https://www.youtube.com/watch?v=72LPW4S8bns)
+
+- [ ] [PRESS START: Your Simple First Blender Project](https://cgcookie.com/courses/press-start-your-simple-first-blender-project)
+- [ ] [Тропическая сцена в Blender](https://www.youtube.com/watch?v=CsNgljHnbhA)
+- [ ] [Blender Tutorial - Quick Rigid Body Fun](https://www.youtube.com/watch?v=nHVYYMG3QVY)
+- [ ] [How to Create Ghibli Trees in 3D - Blender Tutorial](https://www.youtube.com/watch?v=DEgzuMmJtu8)
+- [ ] [Create a Subway in Blender in 20 minutes](https://www.youtube.com/watch?v=nb6rSMAooDs)
+- [ ] [How to Create a Low Poly Tree in 1 Minute](https://www.youtube.com/watch?v=y7PdiGXbrD0)
+- [ ] [Blender Beginner Modelling Tutorial - Part 1](https://www.youtube.com/watch?v=Hf2esGA7vCc)
+
+- [ ] [Intermediate Blender Tutorial Series](https://www.youtube.com/playlist?list=PLjEaoINr3zgHJVJF3T3CFUAZ6z11jKg6a)
+- [ ] [How to Learn 3D in 4 weeks (self-taught curriculum)](https://www.youtube.com/watch?v=Nj_l6YHMj-c)
 - [ ] [The Complete "Game Development with Blender" Book](https://github.com/mikepan/GameEngineBook)
 - [ ] [BlenderText To 3D AI Generator](https://devbud.gumroad.com/l/Shap-e)
-- [ ] [Animate a Character in 15 Minutes in Blender - YouTube](https://www.youtube.com/watch?v=imbIsNAvUpM)
+- [ ] [Animate a Character in 15 Minutes in Blender](https://www.youtube.com/watch?v=imbIsNAvUpM)
 - [ ] [GitHub - ichlubna/blenderScripts: Random Python scripts for Blender](https://github.com/ichlubna/blenderScripts)
-- [ ] [Destroy Anything with Particles in Blender - Iridesium - YouTube](https://www.youtube.com/watch?v=mXnp_KIo8q8)
-- [ ] [Use Backface Culling To Make Objects Transparent Based On Perspective - Blender - YouTube](https://www.youtube.com/watch?v=vLPvUV--yN0)
-- [ ] [Easy Caustics in Blender! - YouTube](https://www.youtube.com/watch?v=j17dGVw3_gM)
-- [ ] [Sculpt January 2018 | no 9 | Tool | Blender - YouTube](https://www.youtube.com/watch?v=exAwCkuGHe4)
-- [ ] [Easy God Rays or Sun Rays in Blender - YouTube](https://www.youtube.com/watch?v=MQooOGayOQI)
-- [ ] [Ray Gun Beginners Tutorial | Blender 2.8 | Part 2 materials - YouTube](https://www.youtube.com/watch?v=ffcf8W-4guA)
+- [ ] [Destroy Anything with Particles in Blender - Iridesium](https://www.youtube.com/watch?v=mXnp_KIo8q8)
+- [ ] [Use Backface Culling To Make Objects Transparent Based On Perspective - Blender](https://www.youtube.com/watch?v=vLPvUV--yN0)
+- [ ] [Easy Caustics in Blender!](https://www.youtube.com/watch?v=j17dGVw3_gM)
+- [ ] [Sculpt January 2018 | no 9 | Tool | Blender](https://www.youtube.com/watch?v=exAwCkuGHe4)
+- [ ] [Easy God Rays or Sun Rays in Blender](https://www.youtube.com/watch?v=MQooOGayOQI)
+- [ ] [Ray Gun Beginners Tutorial | Blender 2.8 | Part 2 materials](https://www.youtube.com/watch?v=ffcf8W-4guA)
 - [ ] [Clipping or Alpha Inheritance](https://www.youtube.com/watch?v=HeCs-VdpzdI)
 - [ ] [Burning Embers, Leaves or Dust Particles](https://www.youtube.com/watch?v=Tg_gGLqDUqg)
-- [ ] [Creating Magic Portals | Transparent Textures in Blender 2.8 - YouTube](https://www.youtube.com/watch?v=pBIRKRmsDkA)
-- [ ] [Blender Tutorial - Particle trail in less than 5 minutes - YouTube](https://www.youtube.com/watch?v=7i0VwC5Jccc)
-- [ ] [How to Make Electricity FX in Blender - Iridesium - YouTube](https://www.youtube.com/watch?v=p4UWvg6ixho&list=PLYUS7Y8UYCN23HDQ3N7wqx64MQQfk3iRo)
-- [ ] [Magic spell symbol VFX animation tutorial Blender - Eevee - YouTube](https://www.youtube.com/watch?v=MwDF4iQtYTM)
-- [ ] [Glass Plasma Orb in Blender (Blender Tutorial) - YouTube](https://www.youtube.com/watch?v=rtPzXrZ23k0)
-- [ ] [Flaming Magic Sword - Blender Tutorial Part 2 - YouTube](https://www.youtube.com/watch?v=hdunwukqdCc)
-- [ ] [Making a Procedural Magical Blast | Blender Geometry Nodes | Part 1 - YouTube](https://www.youtube.com/watch?v=FaXCwbbN5co)
-- [ ] [Blender Energy FX Tutorial |Blender - YouTube](https://www.youtube.com/watch?v=9ehbb93atqo)
+- [ ] [Creating Magic Portals | Transparent Textures in Blender 2.8](https://www.youtube.com/watch?v=pBIRKRmsDkA)
+- [ ] [Blender Tutorial - Particle trail in less than 5 minutes](https://www.youtube.com/watch?v=7i0VwC5Jccc)
+- [ ] [How to Make Electricity FX in Blender - Iridesium](https://www.youtube.com/watch?v=p4UWvg6ixho&list=PLYUS7Y8UYCN23HDQ3N7wqx64MQQfk3iRo)
+- [ ] [Magic spell symbol VFX animation tutorial Blender - Eevee](https://www.youtube.com/watch?v=MwDF4iQtYTM)
+- [ ] [Glass Plasma Orb in Blender (Blender Tutorial)](https://www.youtube.com/watch?v=rtPzXrZ23k0)
+- [ ] [Flaming Magic Sword - Blender Tutorial Part 2](https://www.youtube.com/watch?v=hdunwukqdCc)
+- [ ] [Making a Procedural Magical Blast | Blender Geometry Nodes | Part 1](https://www.youtube.com/watch?v=FaXCwbbN5co)
+- [ ] [Blender Energy FX Tutorial |Blender](https://www.youtube.com/watch?v=9ehbb93atqo)
 - [ ] [Как сделать пружину](https://www.youtube.com/watch?v=f_tbE0Kn7KM)
 - [ ] [Glass Liquid Simulation Tutorial](https://www.youtube.com/watch?v=V_LEc4r9_a0)
 
+- [ ] Geometry Nodes from scratch (check your filesystem)
 - [x] [[research/Price-Donut_Tutorial_in_Blender]]
 - [x] [[research/CG_Cookie-Blender_Basics]]
 
-## References
+## External links
 
-- [Libraries — Blender Cloud](https://cloud.blender.org/libraries), great source of assets.
-- [Blender Manual](https://docs.blender.org/manual/en/latest/index.html)
-- [Blender Market | A Unique Market for Creators that love Blender](https://blendermarket.com/)
+- [Blender Guru](https://www.youtube.com/@blenderguru)
+- [Josh Gambrell](https://www.youtube.com/@JoshGambrell)
+- [Derek Elliott](https://www.youtube.com/@DerekElliott)
+- [SouthernShotty](https://www.youtube.com/@SouthernShotty)
+- [Grant Abbitt](https://www.youtube.com/@grabbitt)
+- [Ryan King Art](https://www.youtube.com/@RyanKingArt)
+- [Curtis Holt](https://www.youtube.com/@CurtisHolt)
+- [Polygon Runway](https://www.youtube.com/@polygonrunway)
+- [CG Geek](https://www.youtube.com/@CGGeek)
+- [Max Hay](https://www.youtube.com/@maxhay5426)
+- [Polyfjord](https://www.youtube.com/@Polyfjord)
+- [Smeaf](https://www.youtube.com/@Smeaf)
+- [CG Geek](https://www.youtube.com/@CGGeek)
+- [Max Hay](https://www.youtube.com/@maxhay5426)
+- [Polyfjord](https://www.youtube.com/@Polyfjord)
+- [Smeaf](https://www.youtube.com/@Smeaf)
+- [Cleverpoly](https://www.youtube.com/@cleverpoly)
+- [Default cube](https://www.youtube.com/@DefaultCube)
+- [Kaizen tutorials](https://www.youtube.com/@KaizenTutorials/featured)
+- [Bad normals](https://www.youtube.com/@BadNormals)
+- [Kev Binge](https://www.youtube.com/@KevBinge)
+- [intranetgirl](https://www.youtube.com/@intr4)
+- [RenderRides](https://www.youtube.com/@RenderRides)
