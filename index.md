@@ -18,9 +18,11 @@ please try to use **one** of these methods:
 - Combine my name in lowercase (`Inom`), the at sign (`@`), and current domain
   (`iturdikulov.com`), and then you get full email address.
 
-- If you have modern [[web_browser|web browser]] you can read it from the
+- If you have "modern" [[web_browser|web browser]] you can read it from the
   picture below.\
   ![my_email](./img/my_email.svg)
+
+Other ways to contact: **maybe** I'll share them in email, but I don't promise.
 
 # Me and my [[Zettelkasten]] notes.
 
@@ -37,8 +39,8 @@ important information (for me) and share it with others.
 
 ## whoami
 
-I'm a software engineer, who is trying to be a professional in the field and
-stay a human being at the same time ;-).
+I'm a programmer, who is trying to be a professional in the field and stay a
+human being at the same time ;-).
 
 [[Taskwarrior]] with [[getting_things_done_GTD|GTD methodology]] helps me to
 manage my life.
@@ -60,15 +62,15 @@ I have some global notes, which allow choosing what to do **next**:
 organize it. These notes are help me to do it.
 
 Social connections are important to me and probably to my family and friends.
-I'm connecting with them by voice calls, sometimes text messages and
-[[IRL]]. I also store my [[how_do_I_work_with_contacts|contacts]] workflow.
+I'm connecting with them by voice calls, sometimes text messages and [[IRL]]. I
+also store my [[how_do_I_work_with_contacts|contacts]] workflow.
 
 Mentoring, I'm trying to help colleagues, people on [[GitHub]] projects,
 [[Stack_Overflow|Stack Overflow]], etc.
 
 ## Website
 
-Web version of my notes  made on [Quartz](https://quartz.jzhao.xyz/).
+Web version of my notes made on [Quartz](https://quartz.jzhao.xyz/).
 
 Use default browser search function (usually `Ctrl/CMD-F`) to find some note by
 filename, instead space use `_` character, they are available in left sidebar.
