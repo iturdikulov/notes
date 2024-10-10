@@ -85,9 +85,10 @@ tmux open sessions (and server). Alternative is `Q` keybinding.
 - Swap window left::`C-S-h`, `:swap-window -t -1; select-window -t -1`
 - Swap window right::`:swap-window -t +1; select-window -t +1`
 
-- Do I need always use prefix to resize panes? &#10;
-- No, if you strike key fast enough (to hold you need to configure `repeat-time`
-  option).
+- Do I need always use prefix to resize panes?
+&#10;
+No, if you strike key fast enough (to hold you need to configure `repeat-time`
+option).
 
 - Resize pane up (by 5)::`M-Up`
 - Resize pane down (by 5)::`M-Down`
