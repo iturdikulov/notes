@@ -6,6 +6,7 @@ tags:
   - research
   - inbox
   - SR_programming
+  - SR_python
 sr-due: 2024-01-28
 sr-interval: 1
 sr-ease: 130
@@ -13,11 +14,24 @@ sr-ease: 130
 
 # The Python Tutorial
 
-Core Python language advantages?
+Core Python language properties:
+- Paradigm ...
+- Typing ...
+- Compilation vs. Interpretation ...
+- Memory Management ...
+- Readability ...
+- Performance ...
 &#10;
-Python powerful, [[high-level_programming_language|high level]],
-[[OOP|object-oriented]]
-[[programming_language|programming language]], very useful for rapid development
+- Paradigm	Object-oriented (primarily), but also supports imperative, functional, and procedural paradigms
+- Typing	Dynamically typed
+- Compilation vs. Interpretation	Interpreted language
+- Memory Management	Automatic garbage collection
+- Readability	Known for being clear and concise with readable syntax
+- Performance	Generally considered slower than compiled languages, but optimized for rapid development and readability
+
+- [[high-level_programming_language|high level]],
+- [[OOP|object-oriented]] [[programming_language|programming language]],
+- Rapid development
 and connect various components of programming system.
 
 My notes taken from the Python Tutorial. This tutorial is cover basic concepts
@@ -38,7 +52,7 @@ necessary (but possible).
 
 Python can be used as glue language, to connect components together.
 
-Difference between [[C]], [[Java]], etc.:
+Difference between [[research/C]], [[Java]], etc.:
 - the high-level data types allow you to express complex operations in a single
 statement;
 - statement grouping is done by indentation instead of beginning and ending
@@ -74,9 +88,8 @@ By default, Python 3 source files are treated as encoded in [[Unicode|UTF-8]],
 but standard library only use [[ASCII]] characters for identifiers, this
 convention that any portable code should follow.
 
-If you need to set non UTF-8 encoding, use ==`# -*- coding: encoding -*-`==
+If you need to set non UTF-8 encoding, use `# -*- coding: ==ENCODING_NAME== -*-`
 comment as first line or after [[shebang]]:
-
 ```python
 #!/usr/bin/env python3
 # -*- coding: cp1251 -*-
@@ -114,9 +127,18 @@ print(2 ** 7)  # 2 to the power of 7, result is::128
 
 What is floor division (or div), what are value of `(-11) // 4` ?
 &#10;
-Mathematical division that rounds ==down to **nearest**== integer. The floor
+Mathematical *division* that rounds ==down to **nearest**== integer. The floor
 division operator is `//`.  `-11 // 4` is -3, `-11 // 3.5` is -4.0.
-because that is `-2.75` and `-3.14` rounded downward. <!--SR:!2024-06-27,1,160-->
+because that is `-2.75` and `-3.14` rounded downward.
+```py
+# -5 -4 -3 -2 -1 0 1 2 3 4 5
+# <---- *-3*, original division result is -2.1
+result = 10 // 3    # 10 / 3 = 3.3333, 10 // 3 -> 3
+result = 11.9 // 3  # 11.9 / 3 = 3.9666, 11.9 // 3 -> 3.0
+result = 10 // -3   # 10 / -3 = -3.3333, 10 // -3 -> -4
+result = 11 // -3   # 11 / -3 = -3.6666, 11 // -3 -> -4
+```
+<!--SR:!2024-07-11,1,140-->
 
 The `%` operator returns the ==remainder== of the division. <!--SR:!2024-07-20,21,240-->
 
@@ -125,7 +147,7 @@ to ==floating point, int → float==.
 ```python
 print(4 * 3.75 - 1) # 14.0
 ```
-<!--SR:!2024-01-02,6,240-->
+<!--SR:!2024-07-21,13,240-->
 
 Use variables:
 
@@ -142,7 +164,7 @@ a = n + 1  # NameError: name 'n' is not defined
 ```
 
 In interactive mode, the last printed expression is assigned to the variable
-==`_`==, and it should be read-only (please avoid using it as real variable). <!--SR:!2024-01-02,6,240-->
+==`_`==, and it should be read-only (please avoid using it as real variable). <!--SR:!2024-09-19,37,240-->
 
 ```python
 tax = 12.5 / 100  # tax coefficient
@@ -206,7 +228,7 @@ Usage: thingy [OPTIONS]
 ```
 
 You can also concatenate strings with ==`+`== operator or concatenate by
-breaking them into new lines or space, but you need to quote each string.
+breaking them into new lines or space, but you need to quote each string. <!--SR:!2024-07-12,2,179-->
 
 `*` operator used for repeating string (multiplication).
 
@@ -226,7 +248,7 @@ print(text.__add__("?"))  # concatenation using __add__ method, bad practice
 ```
 
 Strings can be indexed (subscripted). In python no separate character type, a
-**character** is a string of ==size one==. <!--SR:!2024-07-21,25,240-->
+**character** is a string of ==size one==. <!--SR:!2024-10-11,59,240-->
 
 Positive indexing = length of string - 1
 
@@ -287,11 +309,11 @@ What you see if you use this slice `word[0:2]`, where word is "Python"
 ```python
 print("Python"[0:2])
 ```
-Characters from position 0 (included) to 2 (excluded), `'Py'` <!--SR:!2024-06-12,8,220-->
+Characters from position 0 (included) to 2 (excluded), `'Py'` <!--SR:!2024-07-27,18,220-->
 
 What you see if you use this slice `word[2:5]`, where word is "Python"
 &#10;
-Characters from position 2 (included) to 5 (excluded). `'tho'` <!--SR:!2024-06-30,4,220-->
+Characters from position 2 (included) to 5 (excluded). `'tho'` <!--SR:!2024-07-16,8,220-->
 
 Note: `s[:i] + s[i:] == ==s==`, start is always included, and the end always
 excluded.
@@ -303,8 +325,7 @@ print(sentence[:5] + sentence[5:] == sentence)  # True
 
 Attempting to use invalid index in range slice handled (with/without exception)?
 &#10;
-Gracefully, without raising an exception.
-<!--SR:!2023-12-31,4,240-->
+Gracefully, without raising an exception. <!--SR:!2024-08-15,2,200-->
 
 ```python
 word = 'Python'
@@ -313,9 +334,7 @@ print(word[4:42])
 ```
 
 To remember how slices work, you can use this table. Think indices are pointing
-between characters. How do you think this table is constructed, header is "hello,",
-row 1 and row 2 are?
-&#10;
+between characters.
 ```
   +---+---+---+---+---+---+
   | H | e | l | l | o | , |
@@ -323,14 +342,14 @@ row 1 and row 2 are?
  .0  .1  .2  .3  .4  .5   6  # positive indices, i-j chars between i and j
  -6. -5. -4. -3. -2. -1.     # negative indices
 ```
-For non-negative indices, the length of a slice is the difference of the
-indices, if both are within bounds. For example, the length of word[1:3] is 2.
-<!--SR:!2023-12-28,1,200-->
+For positive indices, the length of a slice is the difference of the
+==indices or range==, if both are within bounds. For example, the length of
+word[1:3] is 2.
 
 Is it possible to use index outside of string bounds?
 &#10;
 No, it will raise `IndexError` exception. So it's good idea to check bounds
-before using index. `"Test string"[11]`. <!--SR:!2024-07-19,23,240-->
+before using index. `"Test string"[11]`. <!--SR:!2024-08-26,11,220-->
 
 Python strings are ==[[immutable_object|immutable]]==. You can't assign new
 value to character in string.
@@ -368,7 +387,7 @@ print(squares)  # [1, 4, 9, 16, 25]
 squares = ["1", 4, "9", 16, "25"]
 print(squares)
 ```
-<!--SR:!2024-07-08,12,240-->
+<!--SR:!2024-08-06,28,240-->
 
 Lists almost like [[string_literal|string]] (but mutable) and
 [[Iterator|iterators]] can be indexed and sliced.
@@ -386,7 +405,7 @@ the requested elements.
 squares = [1, 4, 9, 16, 25]
 print(squares[:])  # [1, 4, 9, 16, 25]
 ```
-<!--SR:!2024-07-03,4,180-->
+<!--SR:!2024-08-23,10,180-->
 
 Lists also support operations like concatenation.
 
@@ -395,7 +414,7 @@ squares = [9, 8, 7, 6, 5]
 print(squares + [4, 3, 2, 1])  # [9, 8, 7, 6, 5, 4, 3, 2, 1]
 ```
 
-List are ==mutable==, unlike strings. <!--SR:!2024-07-02,9,240-->
+List are ==mutable==, unlike strings. <!--SR:!2024-10-04,52,240-->
 
 ```python
 cubes = [1, 8, 27, 65, 125]  # something's wrong here, let's check 4th element
@@ -408,8 +427,6 @@ cubes.append(216)  # add the cube of 6
 cubes.append(7 ** 3)  # and the cube of 7
 print(cubes)
 ```
-
-<!-- NEXT: need to practice more -->
 
 Is it possible to change multiple elements in list at once?
 &#10;
@@ -447,8 +464,11 @@ print(x) # [['a', 'b', 'c'], [1, 2, 3]]
 [[fibonacci_sequence|Fibonacci sequence example]]:
 
 <!-- NEXT: need to review this -->
+<!-- https://docs.python.org/3/tutorial/introduction.html#first-steps-towards-programming -->
 
 Can you write Fibonacci algorithm?
+We just print values in fibonacci sequence, not store them in list.
+Constraints: 0 - 21.
 &#10;
 Each number is the sum of the two preceding ones.
 The sequence commonly starts from 0 and 1.
@@ -462,8 +482,41 @@ So for example we need to build Fibonacci sequence with 7 elements.
 6. 5 → sum of 5. and 4.
 7. 8 → sum of 6. and 5.
 ```python
+# Incorrect version, since b updated before a printed
+a, b = 0, 1
+while a <= 21:
+    print(a)
+    a = b  # we need output it before b updated
+    b = a + b  # a automatically updated, but we need old value
+```
+\
+```python
+# The use of a temporary variable (`temp`) ensures that the correct value of `a`
+# is printed before it's overwritten in the next calculation.
+# The loop continues as long as `a` (the current sequence number) doesn't exceed
+# 21.
+
+# `a` is initialized to 0, which represents the first number in the Fibonacci sequence.
+# `b` is initialized to 1, which represents the second number.
+a, b = 0, 1
+
+while a <= 21:  # continues as long as `a` (the current sequence number) is less than or equal to 21.
+    print(a) # prints the current value of `a`, which is a number in the Fibonacci sequence.
+
+    # Calculates the next number in the sequence by adding the current values of
+    # `a` and `b`. However, it stores the result in a temporary variable `temp` to
+    # avoid overwriting `a` before it's printed.
+    temp = a + b
+
+    a = b  # updates `a` with the previous value of `b` (the second number in the current calculation).
+    b = temp  # updates `b` with the newly calculated next number in the sequence, which was previously stored in `temp`.
+```
+
+```python
+print("---")
+
 a, b = 0, 1  # multiple assignment, initialize variables
-while a < 10:
+while a <= 21:
     print(a)
     a, b = b, a+b # equal to a, b = (b, a+b)
     # <eval 2nd> = <eval 1st>
@@ -474,21 +527,29 @@ while a < 10:
     # 2, 3
     # 3, 5
 
-# Using the temporary variable (temp) prevents a conflict where one
-# variable gets updated using the new value of the other variable before the
-# other variable gets its intended updated value.
-a, b = 0, 1
-while a < 10:
-    print(a)
-    temp = a + b
-    a = b
-    b = temp
+```
 
-a, b = 0, 1
-while a < 10:
-    print(a)
-    a = b
-    b = a + b
+*Results:*
+```
+0
+1
+1
+2
+3
+5
+8
+13
+21
+---
+0
+1
+1
+2
+3
+5
+8
+13
+21
 ```
 
 <!-- NEXT: review [A Python Guide to the Fibonacci Sequence – Real Python](https://realpython.com/fibonacci-sequence-python/). -->
@@ -496,17 +557,17 @@ while a < 10:
 Order of Evaluation in Python expression (operand position)?
 &#10;
 In Python, the left operand evaluated before the right operand (if they have
-same priority). <!--SR:!2024-06-27,4,180-->
+same priority). <!--SR:!2024-10-05,13,180-->
 
 Non-zero, zero, zero length or [[null_pointer|None]] values in Python (and C)
 considered as ==[[bolean_data_type|boolean]]== (at least in if/else
-statements). <!--SR:!2024-07-02,6,220-->
+statements). <!--SR:!2024-07-21,12,220-->
 
 `-3**2` in Python is?
 &#10;
 Since `**` operator has higher precedence than -, `-3**2` will be interpreted as
 `-(3**2)` and thus result is -9, NOT correct 9. To avoid this and get 9, you can use
-`(-3)**2`. <!--SR:!2024-06-27,1,180-->
+`(-3)**2`. <!--SR:!2024-09-23,1,140-->
 
 ## 4. More Control Flow Tools
 
@@ -562,7 +623,10 @@ print(active_users)
 ```
 
 `range()` function is sort of converting given length input to known array
-(`0,1,...,X`). It generates mathematics ==arithmetic progression==. <!--SR:!2024-07-02,6,220-->
+(`0,1,...,X`). It generates mathematics ==arithmetic progression==. <!--SR:!2024-07-21,12,220-->
+
+If fact `range()` function generate ==equal== to argument number (if passed only
+one) elements, we just start from 0 and increment by 1.
 
 Last index of `range(10)`?::`9`, from 0 to 9
 ```python
@@ -616,7 +680,7 @@ list(range(10, 0))  # [] empty list, because start is greater than stop
 list(range(10, 0, -1))  # [10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
 list(range(10, -1, -1))  # [10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0]
 ```
-<!--SR:!2024-01-01,5,240-->
+<!--SR:!2024-08-24,5,200-->
 
 
 To iterate over the indices of a sequence, you can combine `range()` and `len()`
@@ -645,10 +709,10 @@ print(range(10))  # range(0, 10)
 
 What you will see with this code: `sum(range(4))`?
 &#10;
-0 + 1 + 2 + 3 = 6 <!--SR:!2024-07-01,5,220-->
+0 + 1 + 2 + 3 = 6 <!--SR:!2024-08-21,6,200-->
 
 > The `break` statement, like in C, `breaks out` of the innermost enclosing
-> ==`for` or `while` loop==. <!--SR:!2024-07-05,13,238-->
+> ==`for` or `while` loop==. <!--SR:!2024-08-08,30,238-->
 
 <!-- NEXT: Review prime number detection algorithm, rewrite with `while` -->
 
@@ -666,17 +730,17 @@ for n in range(2, 10):
         # loop fell through without finding a factor
         print(n, 'is a prime number')
 ```
-<!--SR:!2024-06-15,10,220-->
+<!--SR:!2024-10-02,50,220-->
 
 When `else` runs in `try-except` statement?
 &#10;
-In `try-except` statement, `else` runs if no exception was raised.
+In `try-except` statement, `else` runs if **no exception was raised**.
 If you worked on something (try, for, while) and you aren't interrupt
-(break/exception), we call else method as this is likely unusual? <!--SR:!2024-06-06,1,218-->
+(break/exception), we call else method as this is likely unusual? <!--SR:!2024-07-14,4,218-->
 
 <!-- NEXT: Review even/odd number detection algorithm -->
 
-The ==`continue`== statement - continue loop with the next iteration of the
+The ==`continue`== statement - continue loop with the next **iteration** of the
 loop (skip anything from current place to end of loop body).
 ```python
 for num in range(2, 10):
@@ -690,7 +754,7 @@ for num in range(2, 10):
     else:
         print("Found an odd number", num)
 ```
-<!--SR:!2024-01-01,2,238-->
+<!--SR:!2024-08-21,2,218-->
 
 `pass` is a ==[[null_function|null operation]]== (name, this is statement, while
 `None` is an object). When it is executed, nothing happens. It is useful as
@@ -714,8 +778,7 @@ except ImportError:
 ```
 
 A `match` statement comparing expression with ==successive== patterns (case
-block) until one of them matches (first pattern that matches get elected).
-This is [[pattern_matching|pattern matching]] like in Rust or Haskell.
+state). This is [[pattern_matching|pattern matching]] like in Rust or Haskell.
 ```python
 def http_error(status):
     match status:
@@ -732,14 +795,13 @@ def http_error(status):
         case _:  # _ is a wildcard pattern and never fails to match
             return "Something's wrong with the internet"
 ```
-<!--SR:!2023-12-31,2,238-->
+<!--SR:!2024-07-15,4,238-->
 
 > Only the first pattern that matches gets executed, and it can also
-> ==extract components== (sequence elements or object attributes) from the
-> value into variables in case block.
-<!--SR:!2023-12-31,2,238-->
+> extract components (sequence elements or object attributes) from the
+> value into ==variables== in case block. <!--SR:!2024-08-19,6,238-->
 
-Can I use objects (classes for example) in pattern matching, can I bind class
+TODO: need improve Can I use objects (classes for example) in pattern matching, can I bind class
 attributes to variables?
 &#10;
 Yes, you can use objects (in case blocks), place them with arguments (like
@@ -766,7 +828,7 @@ def where_is(point):
 for point in [Point(0, 0), Point(0, 1), Point(1, 0), Point(1, 1), None]:
     where_is(point)
 ```
-<!--SR:!2024-07-04,11,238-->
+<!--SR:!2024-07-15,5,218-->
 
 Patterns can look like ==unpacking assignments== (like tuple), and can be used
 to bind variables into case block:
@@ -789,7 +851,7 @@ match point:
 Can I customize class arguments order with pattern matching?
 &#10;
 Yes, by setting the `__match_args__` special attribute in your classes. If
-it's set to ("x", "y"), the following patterns are all equivalent (and all
+it's set to `("x", "y")` tuple, the following patterns are all equivalent (and all
 bind the `y` attribute to the `var` variable):
 ```python
 Point(1, var)
@@ -804,7 +866,7 @@ statement?
 Only standalone names (like `var`) are assigned to by a match statement.
 Dotted names (like `foo.bar`), attribute names (the `x=` and `y=`) or class
 names (recognized by the "(...)" next to them like `Point` above) are never
-assigned to. <!--SR:!2024-07-09,13,238-->
+assigned to. <!--SR:!2024-11-21,100,258-->
 
 Can patterns in match case be nested?
 &#10;
@@ -838,7 +900,7 @@ for points in [
       case _:
           print("Something else")
 ```
-<!--SR:!2024-01-01,2,238-->
+<!--SR:!2024-07-13,4,238-->
 
 Can I use `if` statements in pattern matching, why it can be useful?
 &#10;
@@ -853,13 +915,14 @@ for point in [Point(0, 0), Point(0, 1), Point(1, 0), Point(1, 1)]:
       case Point(x, y):
           print(f"Not on the diagonal")
 ```
-<!--SR:!2024-06-09,4,238-->
+<!--SR:!2024-07-17,8,238-->
 
 Several other key features of this statement:
 
-- Like unpacking assignments, tuple and list patterns have exactly the same
-  meaning and actually match arbitrary sequences. An important exception is
-  that they don't match (data type) ==iterators or strings==.
+- Like unpacking assignments, tuple and list match patterns (case block) have
+exactly the same meaning and actually match arbitrary sequences. An important
+exception is that they don't match iterators or ==strings==. In other words
+you can't unpack for example `"00"` value with `(x, y)` pattern.
 ```python
 def where_is(point):
     match point:
@@ -877,7 +940,7 @@ where_is(list(iter([0, 1])))  # X=0, Y=1
 ```
 <!--SR:!2023-12-31,2,238-->
 
--   Sequence patterns support extended unpacking: `[x, y, *rest]` and `(x,
+-   Sequence pattern matching support extended unpacking: `[x, y, *rest]` and `(x,
     y, *rest)` work similar to unpacking assignments. The name after `*`
     may also be `_`, so `(x, y, *_)` matches a sequence of at least two
     items without ==binding the remaining items==.
@@ -892,7 +955,7 @@ match data:
     case [a, b, *_]: # just igonore rest values
         print(a, b)
 ```
-<!--SR:!2024-01-01,2,238-->
+<!--SR:!2024-08-24,9,238-->
 
 - Mapping patterns: `{"bandwidth": b, "latency": l}` captures the `"bandwidth"`
 and `"latency"` values from a dictionary and save them into `b` and `l`
@@ -928,7 +991,7 @@ test_match((Point(0, 1), Point(2, 3)))
 test_match((Point(0, 1)))
 ```
 
-- Most literals are compared by equality, however the singletons (which one)
+- Most literals are compared by equality in pattern matching, however the singletons (which one)
  ==`True`, `False` and `None`== are compared by identity
 ```python
 none_item = None
@@ -938,7 +1001,7 @@ match none_item:
     case None:
         print("None")  # <- None
 ```
-<!--SR:!2024-07-03,4,218-->
+<!--SR:!2024-09-02,16,218-->
 
 How to use named constants (`Enum`) in pattern matching?
 &#10;
@@ -961,7 +1024,7 @@ match color:
     case Color.BLUE:
         print("I'm feeling the blues :(")
 ```
-<!--SR:!2024-07-03,4,218-->
+<!--SR:!2024-08-29,16,218-->
 
 <!-- NEXT: Here more info about pattern matching -->
 
@@ -984,7 +1047,7 @@ def fib(n):    # write Fibonacci series up to n
 # Now call the function we just defined:
 fib(2000) # 0 1 1 2 3 5 8 13 21 34 55 89 144 233 377 610 987 1597
 ```
-<!--SR:!2023-12-31,1,218-->
+<!--SR:!2024-08-19,4,218-->
 
 How to define a function in Python?
 &#10;
@@ -994,7 +1057,7 @@ Example of function definition:
 def hello():
     print("Hello, World!")
 ```
-<!--SR:!2024-06-14,9,238-->
+<!--SR:!2024-10-03,47,238-->
 
 The first statement of the function body can optionally be a string literal
 (usually in triple quotes); this string literal is the function's documentation
@@ -1004,8 +1067,7 @@ Why include docstring is recommended to make a habit?
 &#10;
 There some tools, which produce online or printed documentation, or to let
 the user interactively browse through code. Also, many IDEs and editors
-support showing documentation based on this docstrings.
-<!--SR:!2024-01-01,2,238-->
+support showing documentation based on this docstrings. <!--SR:!2024-07-15,5,238-->
 
 Order of variable references looking (tables)?
 &#10;
@@ -1357,24 +1419,25 @@ Lambda function format?
 `lambda arguments : expression`
 ```python
 x = lambda a : a + 10
-print(x(5))
+print(x(5))  # 15
 
 x = lambda a, b : a * b
-print(x(5, 6))
+print(x(5, 6))  # 30
 
 x = lambda a, b, c : a + b + c
-print(x(5, 6, 2))
+print(x(5, 6, 2))  # 13
 ```
+<!--SR:!2024-08-16,1,139-->
 
 Like nested function definitions, lambda functions can reference variables
-from the ==containing scope==.
+from the ==containing== scope.
 ```python
 def make_incrementor(n):
     # Use a lambda expression to return a function.
     return lambda x: x + n
 
 f = make_incrementor(42)
-f(0) # 42
+f(0) # 42, f holds 42 and retruns 42 + 0
 f(1) # 43
 ```
 
@@ -1394,7 +1457,7 @@ pairs # [(4, 'four'), (1, 'one'), (3, 'three'), (2, 'two')]
 ```
 
 Documentation Strings used to document
-==functions, methods, classes, and modules==.
+==functions, methods, classes, and modules==. <!--SR:!2024-08-19,4,179-->
 
 Docstring code style, at least basic information?
 &#10;
@@ -1482,9 +1545,9 @@ tremendously for that.
 core information:
 
 Use ==4-space== indentation, and no tabs (compromise between small and large
-indentation).
+indentation). <!--SR:!2024-08-17,4,179-->
 
-Wrap lines so that they don't exceed ==79 characters==. Useful for small
+Wrap lines so that they don't exceed ==79== characters. Useful for small
 displays and also prevent you writing complex code.
 
 Use ==blank lines== to separate functions and classes, and larger blocks of code
@@ -1513,7 +1576,7 @@ code.
 
 ## 5. Data Structures
 
-Add an item to the end of the list.
+How to add an item to the end of the list with a built-in method and equivalent slice assign method?
 &#10;
 `list.append(x)`. Equivalent to `a[len(a):] = [x]`.
 ```python
@@ -1931,14 +1994,14 @@ print(a)
 "Associative memories" or "associative arrays" in Python are implemented as
 ==dictionaries==.
 
-Which types of keys can be used in dictionaries?
+Which types of keys (general type) can be used in dictionaries?
 &#10;
 Dictionaries are indexed by keys which can be any immutable type and unique
 (within one dictionary). Tuples can be used as keys if they contain only
 strings, numbers, or tuples; if a tuple contains any mutable object either
 directly or indirectly, it cannot be used as a key. You can't use lists as keys,
 since lists can be modified in place using index assignments, slice assignments,
-or methods like `list.append` and `list.extend`.
+or methods like `list.append` and `list.extend`. <!--SR:!2024-07-11,1,159-->
 
 How to create empty and non-empty dictionaries?
 &#10;
@@ -1977,6 +2040,7 @@ print(animals)
 # It is an error to extract a value using a non-existent key.
 print(animals['monkey'])
 ```
+<!--SR:!2024-08-19,4,179-->
 
 How to get a list of all keys in a dictionary in insertion order and sorted
 order?
@@ -2648,7 +2712,7 @@ percentage = yes_votes / total_votes
 # 42572654 YES votes  49.67%'), yes_votes padded, percentage 2 decimal places
 print("{:-9} YES votes  {:2.2%}".format(yes_votes, percentage))
 ```
-Check also this note - [[Python_input_and_output|Python input and output]].
+Check also this note - [[input_output#Python input and output]].
 - Finally, you can do all the string handling yourself by using string
   slicing and concatenation operations to create any layout you can
   imagine. The string type has some methods that perform useful
@@ -4337,6 +4401,9 @@ Usually, the class containing the method is itself defined in this global scope.
 Each value is an object, and therefore has a *class* (also called its *type*).
 It is stored as `object.==__class__==`.
 
+To get parent class you can use this dunder variable:
+==`object.__class__.__bases__`==.
+
 Of course, a language feature would not be worthy of the name “class” without
 supporting inheritance. The syntax for a derived class definition looks like
 this:
@@ -5392,12 +5459,13 @@ print(0.2 + 0.1)                        # 0.30000000000000004
 print(Decimal('0.2') + Decimal('0.1'))  # 0.3
 ```
 
+How to change precision of `Decimal` numbers?
+&#10;
 The `decimal` module provides arithmetic with as much precision as needed, you
 can change the precision (number of significant digits) using the
-==`getcontext.prec`== function parameter:
+`getcontext.prec` function parameter:
 ```python
 from decimal import Decimal, getcontext
-
 print(f"Default precision: {getcontext().prec}")
 print(Decimal(1) / Decimal(7))
 # Decimal('0.1428571428571428571428571429')
@@ -5577,12 +5645,12 @@ $ python -m pip list
   # pip (7.0.3)
   # requests (2.7.0)
   # setuptools (16.0)
-
 ```
 
-`python -m pip freeze` will produce a similar list of the installed packages,
-but the output uses the format that ==`python -m pip install`== (command)
-expects. A common convention is to put this list in a `requirements.txt` file:
+Command `python -m pip freeze` will produce a similar list of the installed
+packages, but the output uses the format that ==`python -m pip install`==
+(command) expects. A common convention is to put this list in a
+`requirements.txt` file:
 ```sh
 $ python -m pip freeze > requirements.txt
 $ cat requirements.txt
@@ -5714,98 +5782,64 @@ interactive environment is [bpython](https://bpython-interpreter.org/).
 
 ## 15. Floating Point Arithmetic: Issues and Limitations
 
-.. testsetup::
+[[floating-point_arithmetic|Floating-point numbers ]] are represented in
+computer hardware as base 2 (binary) fractions. For example, the **decimal**
+fraction `0.625` has value 6/10 + 2/100 + 5/1000, and in the same way the
+**binary** fraction `0.101` has value 1/2 + 0/4 + 1/8. These two fractions
+have identical values, the only real difference being that the first is written
+in base ==10 fractional notation, and the second in base 2==.
 
-    import math
-    from fractions import Fraction
-
-.. _tut-fp-issues:
-
-**************************************************
-Floating Point Arithmetic:  Issues and Limitations
-**************************************************
-
-.. sectionauthor:: Tim Peters <tim_one@users.sourceforge.net>
-.. sectionauthor:: Raymond Hettinger <python at rcn dot com>
-
-
-Floating-point numbers are represented in computer hardware as base 2 (binary)
-fractions.  For example, the **decimal** fraction ``0.625``
-has value 6/10 + 2/100 + 5/1000, and in the same way the **binary** fraction ``0.101``
-has value 1/2 + 0/4 + 1/8. These two fractions have identical values, the only
-real difference being that the first is written in base 10 fractional notation,
-and the second in base 2.
-
-Unfortunately, most decimal fractions cannot be represented exactly as binary
-fractions.  A consequence is that, in general, the decimal floating-point
-numbers you enter are only approximated by the binary floating-point numbers
-actually stored in the machine.
-
+Most decimal fractions ==cannot== be represented exactly as binary fractions. A
+consequence is that, in general, the decimal floating-point numbers you enter
+are only approximated by the binary floating-point numbers actually stored in
+the machine.
+\
 The problem is easier to understand at first in base 10.  Consider the fraction
-1/3.  You can approximate that as a base 10 fraction::
+$1/3$.  You can approximate that as a base 10 fraction: $0.3$, or better,
+$0.33$, or better, $0.333$ and so on. No matter how many digits you're willing
+to write down, the result will never be exactly 1/3, but will be an increasingly
+better approximation of 1/3.
 
-   0.3
-
-or, better, ::
-
-   0.33
-
-or, better, ::
-
-   0.333
-
-and so on.  No matter how many digits you're willing to write down, the result
-will never be exactly 1/3, but will be an increasingly better approximation of
-1/3.
-
-In the same way, no matter how many base 2 digits you're willing to use, the
-decimal value 0.1 cannot be represented exactly as a base 2 fraction.  In base
-2, 1/10 is the infinitely repeating fraction ::
-
-   0.0001100110011001100110011001100110011001100110011...
-
+No matter how many base 2 digits you're willing to use, the decimal value 0.1
+cannot be represented exactly as a base 2 fraction.  In base 2, 1/10 is the
+infinitely repeating fraction
+==$0.0001100110011001100110011001100110011001100110011...$==
+\
 Stop at any finite number of bits, and you get an approximation.  On most
 machines today, floats are approximated using a binary fraction with
 the numerator using the first 53 bits starting with the most significant bit and
 with the denominator as a power of two.  In the case of 1/10, the binary fraction
-is ``3602879701896397 / 2 ** 55`` which is close to but not exactly
-equal to the true value of 1/10.
+is `3602879701896397 / 2 ** 55` which is close to but not exactly equal to the
+true value of 1/10.
 
 Many users are not aware of the approximation because of the way values are
 displayed.  Python only prints a decimal approximation to the true decimal
-value of the binary approximation stored by the machine.  On most machines, if
+value of the binary approximation stored by the machine. On most machines, if
 Python were to print the true decimal value of the binary approximation stored
-for 0.1, it would have to display::
-
-0.1
-   0.1000000000000000055511151231257827021181583404541015625
-
+for 0.1, it would have to display: ==$0.1$== instead
+$0.1000000000000000055511151231257827021181583404541015625$.
+\
 That is more digits than most people find useful, so Python keeps the number
-of digits manageable by displaying a rounded value instead:
-
-.. doctest::
-
-1 / 10
-   0.1
-
+of digits manageable by displaying a rounded value instead.
+\
 Just remember, even though the printed result looks like the exact value
 of 1/10, the actual stored value is the nearest representable binary fraction.
 
 Interestingly, there are many different decimal numbers that share the same
-nearest approximate binary fraction.  For example, the numbers ``0.1`` and
-``0.10000000000000001`` and
-``0.1000000000000000055511151231257827021181583404541015625`` are all
-approximated by ``3602879701896397 / 2 ** 55``.  Since all of these decimal
+nearest approximate binary fraction.  For example, the numbers `0.1` and
+`0.10000000000000001` and
+`0.1000000000000000055511151231257827021181583404541015625` are all
+approximated by `3602879701896397 / 2 ** 55`.  Since all of these decimal
 values share the same approximation, any one of them could be displayed
-while still preserving the invariant ``eval(repr(x)) == x``.
-
-Historically, the Python prompt and built-in :func:`repr` function would choose
-the one with 17 significant digits, ``0.10000000000000001``.   Starting with
+while still preserving the invariant `eval(repr(x)) == x`.
+\
+Historically, the Python prompt and built-in `repr` function would choose
+the one with ==17== significant digits, `0.10000000000000001`.  Starting with
 Python 3.1, Python (on most systems) is now able to choose the shortest of
-these and simply display ``0.1``.
-
+these and simply display `0.1`.
+\
 Note that this is in the very nature of binary floating-point: this is not a bug
-in Python, and it is not a bug in your code either.  You'll see the same kind of
+in Python, and it is not a bug in your code either. You'll see the same kind of
 thing in all languages that support your hardware's floating-point arithmetic
 (although some languages may not *display* the difference by default, or in all
 output modes).
@@ -5813,52 +5847,66 @@ output modes).
 For more pleasant output, you may wish to use string formatting to produce a
 limited number of significant digits:
 
-.. doctest::
+```python
+import math
+format(math.pi, '.12g')  # give 12 ==significant digits==
+# '3.14159265359'
+```
 
-format(math.pi, '.12g')  # give 12 significant digits
-   '3.14159265359'
+```python
+import math
+format(math.pi, '.2f')   # give ==2 digits after the== point
+# '3.14'
+```
 
-format(math.pi, '.2f')   # give 2 digits after the point
-   '3.14'
+```python
+import math
+repr(math.pi)  # gives more digits, ==17== significant digits
+# '3.141592653589793'
+```
 
-repr(math.pi)
-   '3.141592653589793'
-
-It's important to realize that this is, in a real sense, an illusion: you're
-simply rounding the *display* of the true machine value.
-
-One illusion may beget another.  For example, since 0.1 is not exactly 1/10,
-summing three values of 0.1 may not yield exactly 0.3, either:
-
-.. doctest::
-
-0.1 + 0.1 + 0.1 == 0.3
-   False
-
+What this code return?
+```python
+print(0.1 + 0.1 == 0.3)
+print(0.1 + 0.1 + 0.1 == 0.3)
+```
+&#10;
+*Results:*
+```
+False
+False
+```
+Since 0.1 is not exactly 1/10,
+summing two/three values of 0.1 may not yield exactly 0.3, either:
+\
 Also, since the 0.1 cannot get any closer to the exact value of 1/10 and
 0.3 cannot get any closer to the exact value of 3/10, then pre-rounding with
-:func:`round` function cannot help:
+`round` function cannot help:
+```python
+import math
+print(round(0.1, 1) + round(0.1, 1) + round(0.1, 1) == round(0.3, 1))
+# False
+```
 
-.. doctest::
-
-round(0.1, 1) + round(0.1, 1) + round(0.1, 1) == round(0.3, 1)
-   False
-
+When `math.isclose` function can be useful?
+&#10;
 Though the numbers cannot be made closer to their intended exact values,
-the :func:`math.isclose` function can be useful for comparing inexact values:
-
-.. doctest::
-
-math.isclose(0.1 + 0.1 + 0.1, 0.3)
-   True
-
-Alternatively, the :func:`round` function can be used to compare rough
+the `math.isclose` function can be useful for comparing inexact values:
+```python
+import math
+print(math.isclose(0.1 + 0.1 + 0.1, 0.3))
+# True
+```
+\
+Alternatively, the `round` function can be used to compare rough
 approximations:
+```python
+import math
+print(round(math.pi, ndigits=2) == round(22 / 7, ndigits=2))
+# True
+```
 
-.. doctest::
-
-round(math.pi, ndigits=2) == round(22 / 7, ndigits=2)
-   True
+<!-- NEXT: need review this -->
 
 Binary floating-point arithmetic holds many surprises like this.  The problem
 with "0.1" is explained in precise detail below, in the "Representation Error"
@@ -5869,171 +5917,143 @@ problems commonly encountered in practice.  Also see
 `The Perils of Floating Point <http://www.indowsway.com/floatingpoint.htm>`_
 for a more complete account of other common surprises.
 
-As that says near the end, "there are no easy answers."  Still, don't be unduly
-wary of floating-point!  The errors in Python float operations are inherited
-from the floating-point hardware, and on most machines are on the order of no
-more than 1 part in 2\*\*53 per operation.  That's more than adequate for most
-tasks, but you do need to keep in mind that it's not decimal arithmetic and
-that every float operation can suffer a new rounding error.
+Every float operation in python can suffer a new ==rounding== error.
 
 While pathological cases do exist, for most casual use of floating-point
 arithmetic you'll see the result you expect in the end if you simply round the
 display of your final results to the number of decimal digits you expect.
-:func:`str` usually suffices, and for finer control see the :meth:`str.format`
-method's format specifiers in :ref:`formatstrings`.
-
+`str` usually suffices, and for finer control see the `str.format`
+method's format specifiers in `formatstrings`.
+\
 For use cases which require exact decimal representation, try using the
-:mod:`decimal` module which implements decimal arithmetic suitable for
+==`decimal`== module which implements decimal arithmetic suitable for
 accounting applications and high-precision applications.
 
-Another form of exact arithmetic is supported by the :mod:`fractions` module
-which implements arithmetic based on rational numbers (so the numbers like
+Another form of exact arithmetic is supported by the `fractions` module
+which implements arithmetic based on ==rational== numbers (so the numbers like
 1/3 can be represented exactly).
 
 If you are a heavy user of floating-point operations you should take a look
 at the NumPy package and many other packages for mathematical and
 statistical operations supplied by the SciPy project. See <https://scipy.org>.
 
-Python provides tools that may help on those rare occasions when you really
-*do* want to know the exact value of a float.  The
-:meth:`float.as_integer_ratio` method expresses the value of a float as a
-fraction:
 
-.. doctest::
+How to display number value as ratio in python?
+&#10;
+Python provides tools that may help on those rare occasions when you really *do*
+want to know the exact value of a float. The `float.as_integer_ratio` method
+expresses the value of a float as a fraction:
 
+```python
 x = 3.14159
-x.as_integer_ratio()
-   (3537115888337719, 1125899906842624)
+print(x.as_integer_ratio())
+# (3537115888337719, 1125899906842624)
 
-Since the ratio is exact, it can be used to losslessly recreate the
-original value:
+# Since the ratio is exact, it can be used to losslessly recreate the original
+# value:
+print(x == 3537115888337719 / 1125899906842624)
+True
+```
 
-.. doctest::
+The `float.hex` method expresses a float in ==hexadecimal (base 16)==, again
+giving the exact value stored by your computer:
+```python
+print(x.hex())
+# 0x1.921f9f01b866ep+1
 
- x == 3537115888337719 / 1125899906842624
-    True
-
-The :meth:`float.hex` method expresses a float in hexadecimal (base
-16), again giving the exact value stored by your computer:
-
-.. doctest::
-
-x.hex()
-   '0x1.921f9f01b866ep+1'
-
-This precise hexadecimal representation can be used to reconstruct
-the float value exactly:
-
-.. doctest::
-
- x == float.fromhex('0x1.921f9f01b866ep+1')
-    True
-
+# This precise hexadecimal representation can be used to reconstruct
+# the float value exactly:
+print(x == float.fromhex('0x1.921f9f01b866ep+1'))
+# True
+```
+\
 Since the representation is exact, it is useful for reliably porting values
 across different versions of Python (platform independence) and exchanging
 data with other languages that support the same format (such as Java and C99).
 
-Another helpful tool is the :func:`sum` function which helps mitigate
-loss-of-precision during summation.  It uses extended precision for
-intermediate rounding steps as values are added onto a running total.
-That can make a difference in overall accuracy so that the errors do not
-accumulate to the point where they affect the final total:
+`sum` function helps mitigate loss-of-precision during summation. It uses
+==extended precision== for intermediate rounding steps as values are added onto a
+running total. That can make a difference in overall accuracy so that the errors
+do not accumulate to the point where they affect the final total:
+```python
+print(0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 == 1.0)
+# False
+print(sum([0.1] * 10) == 1.0)
+# True??? no actually false..., maybe some changes
+```
 
-.. doctest::
-
-0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 == 1.0
-   False
-sum([0.1] * 10) == 1.0
-   True
-
-The :func:`math.fsum()` goes further and tracks all of the "lost digits"
-as values are added onto a running total so that the result has only a
-single rounding.  This is slower than :func:`sum` but will be more
-accurate in uncommon cases where large magnitude inputs mostly cancel
-each other out leaving a final sum near zero:
-
-.. doctest::
+The `math.fsum()` goes further and ==tracks all of the "lost digits"== as values
+are added onto a running total so that the result has only a single rounding.
+This is slower than `sum` but will be more accurate in uncommon cases where
+large magnitude inputs mostly cancel each other out leaving a final sum near
+zero:
+```python
+import math
+from fractions import Fraction
 
 arr = [-0.10430216751806065, -266310978.67179024, 143401161448607.16,
-   ...        -143401161400469.7, 266262841.31058735, -0.003244936839808227]
-float(sum(map(Fraction, arr)))   # Exact summation with single rounding
-   8.042173697819788e-13
-math.fsum(arr)                   # Single rounding
-   8.042173697819788e-13
-sum(arr)                         # Multiple roundings in extended precision
-   8.042178034628478e-13
+       -143401161400469.7, 266262841.31058735, -0.003244936839808227]
+
+print(float(sum(map(Fraction, arr))))   # Exact summation with single rounding
+# 8.042173697819788e-13
+
+print(math.fsum(arr) )                  # Single rounding
+# 8.042173697819788e-13
+
+print('---')
+
+print(sum(arr))                         # Multiple roundings in extended precision
+# -0.0051575902860057365,               # may change in the future
+
 total = 0.0
 for x in arr:
-   ...     total += x                   # Multiple roundings in standard precision
-   ...
-total                            # Straight addition has no correct digits!
-   -0.0051575902860057365
+    total += x                   # Multiple roundings in standard precision
+print(total)                     # Straight addition has no correct digits!
+# -0.0051575902860057365
+```
 
-
-.. _tut-fp-error:
-
-Representation Error
-====================
-
-This section explains the "0.1" example in detail, and shows how you can perform
-an exact analysis of cases like this yourself.  Basic familiarity with binary
-floating-point representation is assumed.
-
-:dfn:`Representation error` refers to the fact that some (most, actually)
+==Representation== error refers to the fact that some (most, actually)
 decimal fractions cannot be represented exactly as binary (base 2) fractions.
 This is the chief reason why Python (or Perl, C, C++, Java, Fortran, and many
 others) often won't display the exact decimal number you expect.
 
-Why is that?  1/10 is not exactly representable as a binary fraction.  Since at
-least 2000, almost all machines use IEEE 754 binary floating-point arithmetic,
-and almost all platforms map Python floats to IEEE 754 binary64 "double
-precision" values.  IEEE 754 binary64 values contain 53 bits of precision, so
-on input the computer strives to convert 0.1 to the closest fraction it can of
-the form *J*/2**\ *N* where *J* is an integer containing exactly 53 bits.
-Rewriting
-::
+<!-- NEXT: need review -->
 
-   1 / 10 ~= J / (2**N)
-
-as ::
-
-   J ~= 2**N / 10
-
-and recalling that *J* has exactly 53 bits (is ``>= 2**52`` but ``< 2**53``),
+1/10 is not exactly representable as a binary fraction. Since at least 2000,
+almost all machines use IEEE 754 binary
+[[floating-point_arithmetic|floating-point arithmetic]], and almost all
+platforms map Python floats to IEEE 754 binary64 "double precision" values. IEEE
+754 binary64 values contain 53 bits of precision, so on input the computer
+strives to convert 0.1 to the closest fraction it can of the form ==`J / 2**N`==
+where *J* is an integer containing exactly 53 bits. Rewriting
+`1 / 10 ~= J / (2**N)` as `J ~= 2**N / 10` and recalling that *J* has exactly 53 bits (is `>= 2**52` but `< 2**53`),
 the best value for *N* is 56:
-
-.. doctest::
-
- 2**52 <=  2**56 // 10  < 2**53
-    True
-
+```python
+2**52 <= 2**56 // 10 < 2**53
+# True
+```
+\
 That is, 56 is the only value for *N* that leaves *J* with exactly 53 bits.  The
 best possible value for *J* is then that quotient rounded:
-
-.. doctest::
-
+```python
 q, r = divmod(2**56, 10)
-r
-   6
-
+r #  6
+```
 Since the remainder is more than half of 10, the best approximation is obtained
 by rounding up:
-
-.. doctest::
-
-
-
+```python
 q+1
-   7205759403792794
-
+#  7205759403792794
+```
 Therefore the best possible approximation to 1/10 in IEEE 754 double precision
-is::
-
-   7205759403792794 / 2 ** 56
-
+is:
+```python
+7205759403792794 / 2 ** 56
+```
 Dividing both the numerator and denominator by two reduces the fraction to::
-
-   3602879701896397 / 2 ** 55
+```python
+3602879701896397 / 2 ** 55
+```
 
 Note that since we rounded up, this is actually a little bit larger than 1/10;
 if we had not rounded up, the quotient would have been a little bit smaller than
@@ -6085,154 +6105,102 @@ Decimal.from_float(0.1)
 format(Decimal.from_float(0.1), '.17')
    '0.10000000000000001'
 
-## [16. Appendix](https://docs.python.org/3/tutorial/appendix.html)
-
-.. _tut-appendix:
-
-********
-Appendix
-********
-
-
-.. _tut-interac:
-
-Interactive Mode
-================
-
-There are two variants of the interactive :term:`REPL`.  The classic
-basic interpreter is supported on all platforms with minimal line
-control capabilities.
-
-On Unix-like systems (e.g. Linux or macOS) with :mod:`curses` and
-:mod:`readline` support, a new interactive shell is used by default.
-This one supports color, multiline editing, history browsing, and
-paste mode.  To disable color, see :ref:`using-on-controlling-color` for
-details.  Function keys provide some additional functionality.
-:kbd:`F1` enters the interactive help browser :mod:`pydoc`.
-:kbd:`F2` allows for browsing command-line history without output nor the
-:term:`>>>` and :term:`...` prompts. :kbd:`F3` enters "paste mode", which
-makes pasting larger blocks of code easier. Press :kbd:`F3` to return to
-the regular prompt.
-
-When using the new interactive shell, exit the shell by typing :kbd:`exit`
-or :kbd:`quit`. Adding call parentheses after those commands is not
-required.
-
-If the new interactive shell is not desired, it can be disabled via
-the :envvar:`PYTHON_BASIC_REPL` environment variable.
-
-.. _tut-error:
-
-Error Handling
---------------
+## 16. Appendix
 
 When an error occurs, the interpreter prints an error message and a stack trace.
-In interactive mode, it then returns to the primary prompt; when input came from
-a file, it exits with a nonzero exit status after printing the stack trace.
-(Exceptions handled by an :keyword:`except` clause in a :keyword:`try` statement
-are not errors in this context.)  Some errors are unconditionally fatal and
-cause an exit with a nonzero exit status; this applies to internal inconsistencies and
-some cases of running out of memory.  All error messages are written to the
-standard error stream; normal output from executed commands is written to
-standard output.
+In interactive mode, it then returns to the ==primary prompt==; when input came
+from a file, it exits with a nonzero exit status after printing the stack trace.
+Exceptions handled by an
+[`except`](https://docs.python.org/3/reference/compound_stmts.html#except)
+clause in a [`try`](https://docs.python.org/3/reference/compound_stmts.html#try)
+statement are not errors in this context. Some errors are unconditionally fatal
+and cause an exit with a nonzero exit status; this applies to internal
+inconsistencies and some cases of running out of memory. All error messages are
+written to the standard error stream; normal output from executed commands is
+written to standard output.
 
-Typing the interrupt character (usually :kbd:`Control-C` or :kbd:`Delete`) to the primary or
-secondary prompt cancels the input and returns to the primary prompt. [#]_
+Typing the interrupt character (usually `C-c` or `Delete`) to the primary or
+secondary prompt cancels the input and returns to the primary prompt.
 Typing an interrupt while a command is executing raises the
-:exc:`KeyboardInterrupt` exception, which may be handled by a :keyword:`try`
-statement.
+==[`KeyboardInterrupt`](https://docs.python.org/3/library/exceptions.html#KeyboardInterrupt)==
+exception, which may be handled by a
+[`try`](https://docs.python.org/3/reference/compound_stmts.html#try) statement.
 
+On BSD’ish Unix systems, Python scripts can be made directly executable, like
+shell scripts, by putting the line
+&#10;
+```sh
+#!/usr/bin/env python3
+```
+Assuming that the interpreter is on the user’s `PATH` at the beginning of the
+script and giving the file an executable mode. The `#!` must be the first two
+characters of the file. On some platforms, this first line must end with a
+Unix-style line ending (`'\n'`), not a Windows (`'\r\n'`) line ending. Note that
+the hash, or pound, character, `'#'`, is used to start a comment in Python.
 
-.. _tut-scripts:
+The script can be given an executable mode, or permission, using the **chmod**
+command.
+&#10;
+```sh
+$ chmod +x myscript.py
+```
 
-Executable Python Scripts
--------------------------
+On Windows systems, there is no notion of an “executable mode”. The Python
+installer automatically ==associates `.py` files with `python.exe`== so that a
+double-click on a Python file will run it as a script. The extension can also be
+`.pyw`, in that case, the console window that normally appears is suppressed.
 
-On BSD'ish Unix systems, Python scripts can be made directly executable, like
-shell scripts, by putting the line ::
-
-   #!/usr/bin/env python3
-
-(assuming that the interpreter is on the user's :envvar:`PATH`) at the beginning
-of the script and giving the file an executable mode.  The ``#!`` must be the
-first two characters of the file.  On some platforms, this first line must end
-with a Unix-style line ending (``'\n'``), not a Windows (``'\r\n'``) line
-ending.  Note that the hash, or pound, character, ``'#'``, is used to start a
-comment in Python.
-
-The script can be given an executable mode, or permission, using the
-:program:`chmod` command.
-
-.. code-block:: shell-session
-
-   $ chmod +x myscript.py
-
-On Windows systems, there is no notion of an "executable mode".  The Python
-installer automatically associates ``.py`` files with ``python.exe`` so that
-a double-click on a Python file will run it as a script.  The extension can
-also be ``.pyw``, in that case, the console window that normally appears is
-suppressed.
-
-
-.. _tut-startup:
-
-The Interactive Startup File
-----------------------------
-
-When you use Python interactively, it is frequently handy to have some standard
-commands executed every time the interpreter is started.  You can do this by
-setting an environment variable named :envvar:`PYTHONSTARTUP` to the name of a
-file containing your start-up commands.  This is similar to the :file:`.profile`
-feature of the Unix shells.
-
+When you use Python ==interactively==, it is frequently handy to have some
+standard commands executed every time the interpreter is started. You can do
+this by setting an environment variable named
+[`PYTHONSTARTUP`](https://docs.python.org/3/using/cmdline.html#envvar-PYTHONSTARTUP)
+to the name of a file containing your start-up commands. This is similar to the
+`.profile` feature of the Unix shells.
+\
 This file is only read in interactive sessions, not when Python reads commands
-from a script, and not when :file:`/dev/tty` is given as the explicit source of
-commands (which otherwise behaves like an interactive session).  It is executed
+from a script, and not when `/dev/tty` is given as the explicit source of
+commands (which otherwise behaves like an interactive session). It is executed
 in the same namespace where interactive commands are executed, so that objects
 that it defines or imports can be used without qualification in the interactive
-session. You can also change the prompts ``sys.ps1`` and ``sys.ps2`` in this
-file.
+session. You can also change the prompts `sys.ps1` and `sys.ps2` in this file.
 
 If you want to read an additional start-up file from the current directory, you
-can program this in the global start-up file using code like ``if
-os.path.isfile('.pythonrc.py'): exec(open('.pythonrc.py').read())``.
-If you want to use the startup file in a script, you must do this explicitly
-in the script::
+can program this in the global start-up file using code like `if
+os.path.isfile('.pythonrc.py'): exec(open('.pythonrc.py').read())`. If you want
+to use the startup file (`PYTHONSTARTUP`) in a script, you must do this
+explicitly in the script:
+&#10;
+```
+import os
+filename = os.environ.get('PYTHONSTARTUP')
+if filename and os.path.isfile(filename):
+    with open(filename) as fobj:
+        startup_file = fobj.read()
+    exec(startup_file)
+```
 
-   import os
-   filename = os.environ.get('PYTHONSTARTUP')
-   if filename and os.path.isfile(filename):
-       with open(filename) as fobj:
-           startup_file = fobj.read()
-       exec(startup_file)
+Python provides two hooks to let you customize it: sitecustomize and
+usercustomize. To see how it works, you need first to find the location of your
+user site-packages directory. Start Python and run this code:
+```python
+>>> import site
+>>> site.getusersitepackages()
+'/home/user/.local/lib/python3.x/site-packages'
+```
 
+Now you can create a file named `usercustomize.py` in that directory and put
+anything you want in it. It will affect every invocation of Python, unless it is
+started with the
+[`-s`](https://docs.python.org/3/tutorial/appendix.html../using/cmdline.html#cmdoption-s)
+option to disable the automatic import.
 
-.. _tut-customize:
+sitecustomize works in the same way, but is typically created by an administrator of the computer in the global site-packages directory, and is imported before usercustomize. See the documentation of the [`site`](https://docs.python.org/3/tutorial/appendix.html../library/site.html#module-site "site: Module responsible for site-specific configuration.") module for more details.
 
-The Customization Modules
--------------------------
+Footnotes
 
-Python provides two hooks to let you customize it: :index:`sitecustomize` and
-:index:`usercustomize`.  To see how it works, you need first to find the location
-of your user site-packages directory.  Start Python and run this code::
+\[[1](https://docs.python.org/3/tutorial/appendix.html#id1)\]
 
-import site
-site.getusersitepackages()
-   '/home/user/.local/lib/python3.x/site-packages'
-
-Now you can create a file named :file:`usercustomize.py` in that directory and
-put anything you want in it.  It will affect every invocation of Python, unless
-it is started with the :option:`-s` option to disable the automatic import.
-
-:index:`sitecustomize` works in the same way, but is typically created by an
-administrator of the computer in the global site-packages directory, and is
-imported before :index:`usercustomize`.  See the documentation of the :mod:`site`
-module for more details.
-
-
-.. rubric:: Footnotes
-
-.. [#] A problem with the GNU Readline package may prevent this.
+A problem with the GNU Readline package may prevent this.
 
 ## References
 

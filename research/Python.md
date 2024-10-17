@@ -53,7 +53,7 @@ sr-ease: 182
 [[zen_of_python|Zen of python]] describes the philosophy of Python.
 
 This is most prioritized language for me. I learn it according to my
-[[how_I_learn_programming_and_software_development#Python|roadmap]].
+[[../programming_learning_path#Python|roadmap]].
 
 **Python** is a [[high-level_programming_language|high-level]],
 [[general-purpose_programming_language|general-purpose]] programming language.
@@ -82,11 +82,15 @@ Source: [Learn Python in Y Minutes](https://learnxinyminutes.com/docs/python/).
 ```python
 # Single line comments start with a number symbol (#).
 
+def test():
 """Multiline strings can be written using three "s
 
    And are often used as documentation.
 """
+  pass
+```
 
+```python
 # You have numbers
 3  # => 3
 
@@ -1163,26 +1167,146 @@ print(my_function.__name__) # => 'my_function'
 print(my_function.__code__.co_argcount) # => 2
 ```
 
-## External links
+## Learning
 
-Libraries, Frameworks, Templates:
+Here I store list of resources to learn Python. [roadmap.sh
+materials](https://roadmap.sh/python) and
+[amaargiru/pyroad](https://github.com/amaargiru/pyroad) is sources of new Python
+learning materials.
 
+Let's go python is very cool language, you can do something very cool with haha, yeah what
+
+### Python input and output
+
+- [ ] [string — Common string operations — Python 3.13.0 documentation](https://docs.python.org/3/library/string.html#formatstrings)
+- [ ] [Python's F-String for String Interpolation and Formatting – Real Python](https://realpython.com/python-f-strings/)
+- [ ] [PEP 498 – Literal String Interpolation | peps.python.org](https://peps.python.org/pep-0498/)
+
+### Official resources
+
+- [Documentation](https://docs.python.org/3/)
+- [[research/Python_Community-Python_Tutorial|Python tutorial]], to learn essentials of Python.
+- [[research/Python_Community-Python_FAQ|FAQ]]
+- [[research/Python_Community-Python_Glossary|Glossary]]
+- [[research/Python_Community-Python_Standard_Library|Standart library]]
+
+### Articles & books
+
+- [!] [Пайтон Джуньор Плюс, или путеводитель начинающего Python-программиста / Хабр](https://habr.com/ru/articles/697760/)
+- [!] [Ядро планеты Python. Интерактивный учебник / Хабр](https://habr.com/ru/articles/728568/)
+- [!] [Architecture Patterns with Python](https://www.cosmicpython.com/book/preface.html)
+- [!] [Getting Started With Testing in Python – Real Python](https://realpython.com/python-testing/#writing-integration-tests)
+
+- [ ] [Python Developer’s Guide](https://devguide.python.org/)
+- [ ] [Python Tutorials](https://realpython.com/)
+- [ ] [Recursion in Python: An Introduction – Real Python](https://realpython.com/python-recursion/)
+
+- [ ] [Глобальная блокировка интерпретатора (GIL) и её воздействие на многопоточность в Python / Хабр](https://habr.com/ru/companies/wunderfund/articles/586360/)
+- [ ] [Асинхронный python без головной боли (часть 1) / Хабр](https://habr.com/ru/articles/667630/)
+
+- [ ] [Ускорение Python в 2 раза с помощью multiprocessing, async и MapReduce / Хабр](https://habr.com/ru/articles/825206/)
+- [ ] [python - How does asyncio actually work? - Stack Overflow](https://stackoverflow.com/questions/49005651/how-does-asyncio-actually-work)
+- [ ] [An Intro to Threading in Python – Real Python](https://realpython.com/intro-to-python-threading/)
+- [ ] [asyncio — Asynchronous I/O Python 3.12.5 documentation](https://docs.python.org/3/library/asyncio.html)
+- [ ] [Async IO in Python: A Complete Walkthrough – Real Python](https://realpython.com/async-io-python/)
+- [ ] [How Python Asyncio Works: Recreating it from Scratch](https://jacobpadilla.com/articles/recreating-asyncio)
+
+- [ ] [[research/Šorn-Comprehensive_python_cheatsheet|Python cheatsheet]], to dive in into language itself.
+- [ ] [[research/learnxinyminutes-Learn_Python_in_Y_minutes]]
+- [ ] [[research/Real_Python_Team-Python_Tutorials]]
+- [ ] [PEP 8 – Style Guide for Python Code](https://peps.python.org/pep-0008/)
+- [ ] [Python cheat sheets](https://www.datacamp.com/cheat-sheet)
+- [ ] [[research/Slatkin-Effective_Python|Effective python]], general tips to write good Python code
+- [ ] [[research/Xiryanov-Praktika_programmirovaniya_na_Python|Практика программирования на Python]].
+- [[research/Real_Python_Team-Python_Tutorials]] and [Real Python](https://realpython.com/account/purchases/)
+- [Ultimate Python study guide](https://github.com/huangsam/ultimate-python)
+- [ ] [[research/Matthes-Python_Crash_Course]]
+- [ ] [[research/Craig-Python_Examples]]
+- [ ] Learn object-orienting programming with [[research/Ramalho-Fluent_Python|Fluent_Python]]
+- [ ] [How to learn Python programming | Guido van Rossum and Lex Fridman - YouTube](https://www.youtube.com/watch?v=F2Mx-u7auUs)
+- [ ] [The Hitchhiker’s Guide to Python!](https://python-docs.readthedocs.io/en/latest/index.html)
+- [ ] [JIT-компилятор Python в 300 строк / Habr](https://habr.com/en/articles/674206/)
+- [ ] [A Python Guide to the Fibonacci Sequence](https://realpython.com/fibonacci-sequence-python/).
+- [ ] [Detailed Videos - PythonByteSize](https://www.pythonbytesize.com/detailed-videos.html)
+- [ ] [The origins of Python](https://inference-review.com/article/the-origins-of-python)
+- [ ] [Python dataclasses will save you HOURS, also featuring attrs - YouTube](https://youtu.be/vBH6GRJ1REM)
+- [ ] [Python Monorepo](https://www.tweag.io/blog/2023-04-04-python-monorepo-1/)
+- [ ] [Скучный Python: повышаем качество кода / Хабр](https://habr.com/ru/company/otus/blog/713992/)
+- [ ] [Ned Batchelder - Facts and Myths about Python names and values - PyCon 2015 - YouTube](https://www.youtube.com/watch?v=\_AEJHKGk9ns)
+- [ ] [А как в питоне пайпать? — Development — Форум](https://www.linux.org.ru/forum/development/17025364)
+- [Ultimate Python study guide for newcomers and professionals alike.](https://github.com/huangsam/ultimate-python)
+- [Blog - Full Stack Python](https://www.fullstackpython.com/blog.html)
+- [Python Cheatsheet - Python Cheatsheet](https://www.pythoncheatsheet.org/)
+- [Python Tutorials – Real Python](https://realpython.com/)
+- [Asyncio complete tutorial](https://superfastpython.com/python-asyncio/)
+- [Modern Python Projects Course ](https://training.talkpython.fm/courses/details/modern-python-projects)
+- [The Complete Python course](https://www.udemy.com/course/the-complete-python-course/)
+- [30 Days of Python](https://github.com/codingforentrepreneurs/30-Days-of-Python)
+- [python-patterns](https://github.com/faif/python-patterns)
+- [Python Wiki](https://wiki.python.org/moin/)
+- [Neural networks](https://stepik.org/course/50352/promo)
+- [python - Meaning of @classmethod and @staticmethod](https://stackoverflow.com/questions/12179271/meaning-of-classmethod-and-staticmethod-for-beginner)
+
+### Flask
+
+- [The Flask Mega-Tutorial](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world)
+
+### Django
+
+- [ ] Django framework [[research/Greenfelds-Two_Scoops_of_Django_3.x]]
+- [Руководство Django Girls](https://tutorial.djangogirls.org/ru/)
+- [Python Django - The Practical Guide](https://www.udemy.com/course/python-django-the-practical-guide/)
+
+### SQLAlchemy
+
+- [ ] [python - SQLAlchemy proper session handling in multi-thread applications - Stack Overflow](https://stackoverflow.com/questions/9619789/sqlalchemy-proper-session-handling-in-multi-thread-applications)
+- [ ] [Using Python SQLAlchemy session in multithreading](https://copdips.com/2019/05/using-python-sqlalchemy-session-in-multithreading.html#way-2-using-scoped_session-to-create-a-thread-local-variable)
+- [ ] [You can use Pydantic in SQLAlchemy fields - Roman Imankulov](https://roman.pt/posts/pydantic-in-sqlalchemy-fields/)
+
+### Testing and refactoring
+
+- [ ] [[research/Hillard-Testing_With_Pytest]]
+- [ ] [[research/Batchelder-Getting_started_testing]]
+- [ ] [[research/Seporaitis-Large_Scale_Refactoring_With_PyBowler]]
+- [ ] [Refactoring Python Applications for Simplicity – Real Python](https://realpython.com/python-refactoring/)
+- [ ] [Testing Flask Applications — Flask Documentation (2.2.x)](https://flask.palletsprojects.com/en/2.2.x/testing/)
+- [ ] [Simple mock server for testing using Flask · GitHub](https://gist.github.com/eruvanos/f6f62edb368a20aaa880e12976620db8)
+- [x] [Typical Directory structure for python tests · GitHub](https://gist.github.com/tasdikrahman/2bdb3fb31136a3768fac) not worked as expected?
+
+### Programs, Libraries, Frameworks, Templates:
+
+- [[Pycharm]] - Jetbrains Python IDE (in [[Java]])
+- [ipython](https://ipython.org/) - interactive python command shell
+- [scipy](https://scipy.org/) - Fundamental algorithms for scientific computing
+in Python
+- [jupyter](https://jupyter.org/) - interactive computing across all programming
+languages
+- [numpy](https://numpy.org/) - the fundamental package for scientific computing
+with Python
+- [ ] [Ruff: one Python linter to rule them all](https://blog.jerrycodes.com/ruff-the-python-linter/)
+- [ ] [GitHub - astral-sh/ruff-lsp: A Language Server Protocol implementation for Ruff.](https://github.com/charliermarsh/ruff-lsp)
+- [ ] [dosisod/refurb: A tool for refurbishing and modernizing Python codebases](https://github.com/dosisod/refurb)
+- [ ] [pallets/flask: The Python micro framework for building web applications.](https://github.com/pallets/flask)
+- [ ] [asottile/pyupgrade: A tool (and pre-commit hook) to automatically upgrade syntax for newer versions of the language.](https://github.com/asottile/pyupgrade)
+- [ ] [[research/Seporaitis-Large_Scale_Refactoring_With_PyBowler|PyBowler]]
 - [ ] [spectree: API spec validator and OpenAPI document generator](https://github.com/0b01001001/spectree#flask)
 - [ ] [rq-flask-sqlalchemy-template](https://github.com/edkrueger/rq-flask-sqlalchemy-template/tree/master)
 - [ ] [Лучшие open-source инструменты для Python проектов](https://habr.com/en/articles/708916/)
-
 - [ ] [python - Celery: log each task run to its own file?](https://stackoverflow.com/questions/25281612/celery-log-each-task-run-to-its-own-file)
 - [ ] [Using Celery: Python Task Management](https://www.toptal.com/python/orchestrating-celery-python-background-jobs)
 
-Refactoring:
+### Inbox
 
-- [ ] [[research/Seporaitis-Large_Scale_Refactoring_With_PyBowler]]
-
-Documentation and tutorials:
-
-- [[research/Python_Community-Python_Tutorial]]
-- [[research/Python_Community-Python_Standard_Library|Standart Library]]
-- [[research/Python_Community-Python_FAQ]]
-- [Documentation](https://docs.python.org/3/)
-- [Python Tutorials](https://realpython.com/)
-- [Python Developer’s Guide](https://devguide.python.org/)
+- [ ] [config_manager/xdg_config/pyenv/default-packages](https://github.com/tjdevries/config_manager/blob/master/xdg_config/pyenv/default-packages)
+- [A curated list of awesome Python frameworks, libraries, software and resources](https://github.com/vinta/awesome-python)
+- [awesome-python-typing](https://github.com/typeddjango/awesome-python-typing)
+- [GitHub - testcontainers/testcontainers-python: Testcontainers is a Python library that providing a friendly API to run Docker container. It is designed to create runtime environment to use during your automatic tests.](https://github.com/testcontainers/testcontainers-python)
+- [Using Testcontainers with Pytest: Isolate Data for Effective Testing](https://qxf2.com/blog/using-testcontainers-with-pytest/)
+- [Manim](https://www.manim.community/)
+- [GitHub - tox-dev/filelock: A platform-independent file lock for Python.](https://github.com/tox-dev/filelock)
+- [GitHub - miyuchina/mistletoe: A fast, extensible and spec-compliant Markdown parser in pure Python.](https://github.com/miyuchina/mistletoe)
+- [GitHub - zhanymkanov/fastapi-best-practices: FastAPI Best Practices and Conventions we used at our startup](https://github.com/zhanymkanov/fastapi-best-practices)
+- [SQLModel](https://sqlmodel.tiangolo.com/learn/)
+- [Learn - FastAPI](https://fastapi.tiangolo.com/learn/)
+- [Type hints cheat sheet - mypy 1.11.2 documentation](https://mypy.readthedocs.io/en/stable/cheat_sheet_py3.html)
+- [GitHub - nschloe/perfplot: :chart_with_upwards_trend: Performance analysis for Python snippets](https://github.com/nschloe/perfplot)
