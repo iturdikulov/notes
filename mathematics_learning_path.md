@@ -8,17 +8,20 @@ sr-interval: 1
 sr-ease: 161
 ---
 
-# How I learn [[mathematics]]
+# [[mathematics|Mathematics]] learning path
 
+- [/] [Life Tensor](https://www.youtube.com/playlist?list=PLC2pBQ7lPOZCu0cehs7tPmnoeK2BjUiSk)
+- [ ] Сканави
 - [ ] [[research/spacemath.xyz-Matematika_s_nulya]]
 - [ ] [[research/Vilenkin-populryanaya_kombinatorika]]
 - [ ] [[research/Math_is_Fun_Team-Math_is_Fun|Math is fun]]
 - [ ] [[research/Kiselyov-Elementy_algebry_i_analiza_chast_1]]
+- [ ] Intermediate Algebra, Miller et al
 
 - [ ] [Книга «Математика для гуманитариев» | savva4](https://savvateev.xyz/book/)
 - [ ] Курант, Роббинс: Что такое математика?
-- [ ] - [[research/Emelin-Kratchajshij_kurs_shkolnoj_matematiki]]
-- [ ] - [[research/Xendli-Schitajte_v_ume_kak_kompyuter]]
+- [ ] [[research/Emelin-Kratchajshij_kurs_shkolnoj_matematiki]]
+- [ ] [[research/Xendli-Schitajte_v_ume_kak_kompyuter]]
 
 ## Challenges
 
@@ -38,7 +41,6 @@ sr-ease: 161
 ## Basics
 
 - [math-prosto.ru](https://math-prosto.ru/)
-- [Life Tensor](https://www.youtube.com/playlist?list=PLC2pBQ7lPOZCu0cehs7tPmnoeK2BjUiSk)
 - [Математическая продлёнка. Квадратные уравнения во всей красе](https://habr.com/ru/post/714660/)
 - [Зачем нужны синусы и косинусы? - YouTube](https://youtu.be/hwpWTkdh-BA)
 - [Math Skills: How to find Factorial, Permutation and Combination (Choose)](https://www.youtube.com/watch?v=8RRo6Ti9d0U)

@@ -8,21 +8,21 @@ sr-interval: 9
 sr-ease: 187
 ---
 
-# How I learn art
+# Art learning path
 
 Currently, I'm focusing on learning [[visual_arts|visual art]] and
 [[photography]], additionally I'm learning
-[[how_I_learn_computer_graphics|computer graphics]] which is for me very close
+[[CG_learning_path|computer graphics]] which is for me very close
 field.
 
 I also like to practice [[my_handwriting|handwriting]].
 
 ## Drawing
 
-- [[30_day_drawing_challenge]]
+- [/] [[30_day_drawing_challenge|Drawing Challenge]]
+- [/] [[research/Loomis-Fun_With_A_Pencil|Loomis book]]
 - [[research/Drawbox_Community-Drawbox|Taking fundamental drawing exercises]].
 - [[research/Prokopenko-Figure_Drawing_Fundamentals]]
-- [[research/Loomis-Fun_With_A_Pencil]]
 
 ## Photography
 
@@ -31,10 +31,9 @@ I also like to practice [[my_handwriting|handwriting]].
 ## Software
 
 - [[Blender]]
-- [[Unreal_Engine]]
 - [[Godot]]
-- [[GIMP]]
 - [[Krita]]
+- [[GIMP]]
 - [[darktable]]
 
 ## References

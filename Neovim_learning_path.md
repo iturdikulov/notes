@@ -8,7 +8,7 @@ sr-interval: 1
 sr-ease: 194
 ---
 
-# How_I_learn_neovim
+# Neovim learning path
 
 TODO: global rewrite
 

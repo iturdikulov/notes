@@ -3,18 +3,19 @@ date: 2023-03-13
 tags:
   - inbox
   - bridge
-sr-due: 2024-01-28
+sr-due: 2023-01-28
 sr-interval: 1
 sr-ease: 172
 ---
 
-# How I learn English
+# English learning path
 
 TODO: better group resources
 
 I usually just read/consume some content in [[English]].
+[[touch_typing|Touch typing]] greatly help me to memorize words and phrases.
 
-I am a native speaker of [[Russian]], and I need to study
+I am a native speaker of [[Russian]], and sometimes I need to study
 English with Russian in same time (to understand grammar terms, differences,
 etc.).
 
@@ -39,10 +40,11 @@ Fundamentals of English grammar:
 
 ![A Prescriptivist's Guide to Common Issues in English Usage](img/P2-UsageFINAL_UPDATEDZOOM.webp)
 
-## References
+## External links
 
-- [[touch_typing|Touch typing]] greatly help me to memorize words and phrases.
+- [ ] [Grammarly Home](https://www.grammarly.com/blog/capitalization-rules/)
 - [ ] [9 часов английского](https://www.youtube.com/watch?v=PqBT7xpmZlE)
+- [ ] [5 минут, чтобы разобраться в предлогах на английском: метод треугольника - YouTube](https://www.youtube.com/watch?v=cgYMtuFa8Iw)
 - [General Writing Introduction - Purdue University](https://owl.purdue.edu/owl/general_writing/index.html)
 - [[english_language_transcription]]
 - [engVid](https://www.engvid.com/)

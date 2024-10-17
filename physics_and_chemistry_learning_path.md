@@ -8,11 +8,12 @@ sr-interval: 1
 sr-ease: 168
 ---
 
-# How I learn physics and chemistry
+# Physics and chemistry learning path
 
 TODO: better group resources
 TODO: add youtube channels, Бояршинов, etc.
 
+- [ ] Физика для любознательных
 - [ ] [The complete FUN TO IMAGINE with Richard Feynman - YouTube](https://www.youtube.com/watch?v=P1ww1IXRfTA)
 - [ ] [Metric prefix - Wikipedia](https://en.wikipedia.org/wiki/Metric_prefix)
 - [ ] [Physics Index](https://www.mathsisfun.com/physics/index.html)

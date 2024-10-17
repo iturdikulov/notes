@@ -28,8 +28,7 @@ effective try to understand, you're learning ==fact or concept==. Name of thing
 it's fact, what it does concept.
 
 ==Concepts== are more important than facts. Learning only facts it's waste of
-time. Try to understand the essence of thing and facts about it.
-<!--SR:!2024-01-26,1,230-->
+time. Try to understand the essence of thing and facts about it. <!--SR:!2024-08-04,1,210-->
 
 To test yourself try to put the concept in ==your own words==. If you can't do
 it, you probably really don't understand it, and you need spent time to make it
