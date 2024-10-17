@@ -159,7 +159,11 @@ gpg --gen-revoke --armor --output "${KEYGRIP}_revoke.asc" $KEYGRIP
 If you need to restore your keys and trust level (e.g., after reinstalling
 the system or on a new computer), use the following commands:
 
-```sh
+WARNING: import keys without ssh-agent, for example not through ssh connection
+(otherwise there possible issues if used NOT pinentry-curses) and set correct
+`~/.config/gnupg/` permissions (`700`).
+
+```bash
 gpg --import ..._public.pub
 gpg --import ..._private.asc
 gpg --import ..._private_sub.asc
@@ -200,8 +204,8 @@ gpg -k
 ```
 
 If you want to delete the Private Key file you created, you can use the
-[[Shred|Shred]] utility to delete the file permanently and make it harder
-to be recovered by overwriting it:
+[[Shred]] utility to delete the file permanently and make it harder to be
+recovered by overwriting it:
 
 ```bash
 # The shred options, do the following:
