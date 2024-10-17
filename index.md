@@ -22,9 +22,96 @@ please try to use **one** of these methods:
   picture below.\
   ![my_email](./img/my_email.svg)
 
-Other ways to contact: **maybe** I'll share them in email, but I don't promise.
+Other ways to contact me **maybe** I'll share through email contact channel.
 
-# Me and my [[Zettelkasten]] notes.
+## My projects, 5/10 published
+
+<nav aria-label="Top Links" class="central-featured">
+<div class="spinner-box">
+  <div class="blue-orbit ring">
+  </div>
+  <div class="green-orbit ring">
+  </div>
+  <div class="red-orbit ring">
+  </div>
+  <div class="white-orbit ring">
+  </div>
+</div>
+
+<div class="central-featured-project project1">
+  <a href="https://github.com/iturdikulov/sentry-rest" target="_blank" class="link-box">
+    <strong>Sentry Rest</strong>
+    <small>Sentry API integration</small>
+  </a>
+</div>
+
+<div class="central-featured-project project2">
+  <span class="link-box">
+    <strong>Twitch Tracker</strong>
+    <small>chats analyzing and manage</small
+    >
+  </span>
+</div>
+
+<div class="central-featured-project project3">
+  <a href="https://salesloop.io/" target="_blank" class="link-box">
+    <strong>Salesloop</strong>
+    <small>linkedin automation (private)</small>
+  </a>
+</div>
+
+<div class="central-featured-project project4">
+  <span class="link-box">
+    <strong>Spectrogram</strong>
+    <small>HTML/CSS/JS framework</small>
+  </span>
+</div>
+
+<div class="central-featured-project project5">
+  <span class="link-box">
+    <strong>mini-scripts</strong>
+    <small>learning sandbox</small>
+  </span>
+</div>
+
+<div class="central-featured-project project6">
+  <a href="https://github.com/iturdikulov/nvim" target="_blank" class="link-box localize-variant">
+    <strong>NeoVim PDE</strong>
+    <small>personal NeoVim setup</small>
+  </a>
+</div>
+
+<div class="central-featured-project project7">
+  <a href="https://github.com/iturdikulov/dotfiles" target="_blank" class="link-box localize-variant">
+    <strong>Nix dotfiles</strong>
+    <small>personal NixOS setup</small>
+  </a>
+</div>
+
+<div class="central-featured-project project8">
+  <a href="https://github.com/iturdikulov/notes" target="_blank" class="link-box localize-variant">
+    <strong>Wiki</strong>
+    <small>personal Zettelkasten</small>
+  </a>
+</div>
+
+<div class="central-featured-project project9">
+  <span class="link-box localize-variant">
+    <strong>OpenCV bot</strong>
+    <small>L2 game bot</small>
+  </span>
+</div>
+
+<div class="central-featured-project project10">
+  <span title="My old projects, which I'm not using anymore or decided to archive" class="link-box">
+    <strong>Projects Archive</strong>
+    <small>old projects</small>
+  </a>
+</div>
+</nav>
+
+
+## Me and my [[Zettelkasten]] notes.
 
 My site contains mainly my notes that are of interest of me (personal [[wiki]]).
 
