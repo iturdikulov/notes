@@ -17,22 +17,22 @@ sr-ease: 229
 > from a set, one typically tests a value for membership in a set.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Set_\(abstract_data_type\))</cite>
 
-So main set feature is that it can store ==only unique values==. <!--SR:!2024-08-26,7,259-->
+So main set feature is that it can store ==only unique values==. <!--SR:!2024-09-13,17,259-->
 
 Basic uses of set is membership testing and eliminating ==duplicate== entries.
-Set objects also support (at least in [[research/Python]]) mathematical
-operations like union, intersection, difference, and symmetric difference.
+Set objects also support (at least in [[research/Python|Python]]) mathematical
+operations like union, intersection, difference, and symmetric difference. <!--SR:!2024-10-12,28,239-->
 
 Set seems so similar (especially array-based set) to the [[array]] but
 operations performed on the set are different, mainly on
 ==**insert operation**==, in worst case 2N+1. It has different efficiency,
 because we have non-duplicating constraint. But it perfectly replaces array,
-when you need unique data. <!--SR:!2024-08-22,2,240-->
+when you need unique data. <!--SR:!2024-09-08,11,240-->
 
 Sets can be suitable for any lists of unique data (phone numbers, email
 addresses, etc.).
 
-Reading from a set take ==one step==, like array. <!--SR:!2024-09-23,34,266-->
+Reading (access) from a set take ==one step==, like array. <!--SR:!2024-09-23,34,266-->
 
 Searching a set takes up to ==$N$ steps, where $N$ is a number of items in the
 set==, like array.
@@ -42,16 +42,21 @@ gap==, like array.
 
 **Insertion** is different. You need to ensure that you don't have duplicate
 data and this means every insertion into a set first requires a ==search==
-operation.
+operation. <!--SR:!2024-09-07,5,237-->
 
 In best case insertion into set takes:
 &#10;
 Insert into end of set. $N + 1$ steps. $N$ steps → search, 1 step to insert into
-end. <!--SR:!2024-08-23,4,226-->
+end. <!--SR:!2024-09-19,7,206-->
 
-In worst case insertion into set takes:
+In worst case insertion into set takes (steps):
 &#10;
 Insert into beginning of set is worst case scenario. In contrast to insertion
 into the begging of a regular array ($N+1$), insertion can take $2N + 1$ steps.
 Formula: search $N$ steps + shift $N$ steps + insert 1 step. In other words we
-add search operation to insert value into set.
+add search operation to insert value into set. <!--SR:!2024-09-14,4,179-->
+
+## External links
+
+- [ ] [Sets in Python – Real Python](https://realpython.com/python-sets/)
+
