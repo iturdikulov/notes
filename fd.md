@@ -18,7 +18,7 @@ sr-ease: 252
 
 ## Commands
 
-```sh
+```bash
 # Simple search:
 fd <search query>
 

@@ -87,7 +87,7 @@ ElGamal.
 
 ### Adding subkey
 
-```sh
+```bash
 gpg --edit-key YOUR_KEYGRIP # find keygrip by `gpg -K --with-keygrip`
 > addkey
 > ECC ... # I prefer ECC keys (elliptic curve cryptography), such as ed25519
@@ -116,7 +116,7 @@ Run the following commands in your command line (Command Prompt for
 Windows, Terminal for macOS and Linux). Replace "your@id.here" with your
 GPG key ID:
 
-```sh
+```bash
 # First get your keys list with keygrips
 gpg -k
 
@@ -176,13 +176,13 @@ This step is needed to set the ultimate trust level for your keys. Run the
 following command, then type trust, then 5 (which means "ultimate trust")
 and hit Enter:
 
-```sh
+```bash
 gpg --edit-key your@id.here gpg> trust Your decision? 5 Note: If you're
 ```
 
 4. Import revocation certificate (optional, if you need revoke key):
 
-```sh
+```bash
 echo -n "-----BEGIN PGP PUBLIC KEY BLOCK-----
 Comment: This is a revocation certificate
 
@@ -192,7 +192,7 @@ Comment: This is a revocation certificate
 
 5. Delete keys (optional!)
 
-```sh
+```bash
 gpg -k
 gpg --delete-keys ...
 gpg --delete-secret-keys ...
@@ -203,7 +203,7 @@ If you want to delete the Private Key file you created, you can use the
 [[Shred|Shred]] utility to delete the file permanently and make it harder
 to be recovered by overwriting it:
 
-```sh
+```bash
 # The shred options, do the following:
 #
 # z: add a final overwrite with zeros to hide shredding
@@ -218,7 +218,7 @@ shred -zuv privatekey.asc
 1. Find fingerprint of your RSA key:
    `gpg --list-secret-keys --keyid-format short` or `gpg -K`
 2. Next, you can use openpgp2ssh tool distributed in with monkeyshpere project:
-```sh
+```bash
 # 01234567 must be fingerprint of a RSA key (or subkey)
 # gpg --export-secret-keys also accept finger print of global key  (in this
 # case, it exports all sub-keys). However, openpgp2ssh only accept finger
@@ -239,7 +239,7 @@ key to several keyservers.
 
 To upload the key, enter:
 
-```sh
+```bash
 # get key id
 gpg --list-keys --keyid-format short
 export GPGKEY=01234567
@@ -259,7 +259,7 @@ echo "test"|gpg -r example@domain.tld --encrypt|gpg --decrypt --no-comment -q --
 
 A useful gpg option to experiment is `--homedir`:
 
-```sh
+```bash
 gpg --homedir ~/tmp --list-keys
 # Or alternatively use GNUPGHOME
 export GNUPGHOME=~/tmp
@@ -274,7 +274,7 @@ successful.
 To fix the `gpg: WARNING: unsafe permissions on homedir
 '/home/path/to/user/.gnupg'` error
 
-```sh
+```bash
 chown -R $(whoami) ~/.gnupg/
 
 # Also correct the permissions and access rights on the directory
@@ -341,7 +341,7 @@ and validate them on another machine, which is not connected to internet.
 BEFORE DELETE MASTER KEY, CHECK THAT YOU HAVE A BACKUP OF IT!
 WHICH GENERATED IN PREVIOUS STEP!
 
-```sh
+```bash
 # usualy need to find key with uid/first one, `sec ... [SC]`
 gpg2 --list-secret-keys --with-keygrip
 gpg-connect-agent "DELETE_KEY MASTER_KEY_KEYGRIP" /bye
@@ -357,7 +357,7 @@ storage with master key with specific directory.
 
 And work with master key in this directory.
 
-```sh
+```bash
 # Import backup key
 mkdir ~/gpgtmp
 gpg2 --homedir ~/gpgtmp --import my-mount-point/key.asc

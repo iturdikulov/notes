@@ -26,7 +26,7 @@ pkgs.mkShell {
 
 Then I activate it and start my editor
 
-```sh
+```bash
 cd project_where_shell_nix_is_located
 nix-shell
 # optional initialize poetry configuration:

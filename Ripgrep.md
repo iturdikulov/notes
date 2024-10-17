@@ -21,7 +21,7 @@ sr-ease: 231
 
 ## Commands
 
-```sh
+```bash
 # Recursively search the current directory for a regular expression:
 rg regular_expression
 

@@ -38,5 +38,5 @@ For me Art is sort of self-expression, when I have a need to express my thoughts
 or just "creative copy" something beautiful.
 
 I'm fan of traditional [[visual_arts|visual art]] and CGI art. I have my
-[[how_I_learn_art|study plan]] to understand art and their subfields better.
+[[art_learning_path|study plan]] to understand art and their subfields better.
 

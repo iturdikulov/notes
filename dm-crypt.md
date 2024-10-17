@@ -21,7 +21,7 @@ sr-ease: 248
 
 ## Create/mount encrypted file container
 
-```sh
+```bash
 # Redirect output of /dev/zero to initialize container file, optional step
 dd if=/dev/zero bs=1M count=100 of=encrypted_change_name.img
 
