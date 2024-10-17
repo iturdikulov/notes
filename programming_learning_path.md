@@ -11,52 +11,22 @@ sr-ease: 161
 
 # Programming learning path
 
+My number #1 learning path.
+
 I place here my active learning resources, here is no strict grouping, but I'm
 trying to keep it organized by priority.
 
 [[computer_programming|Programming]] is a big part of my life, I'm trying to
 learn it in a structured way. Quality of learning resources is important for me,
 but in same time learning materials should be understandable and easy to follow.
+
 Initial point to start learning programming is development of your programming
-principles, like this one: [[programmer#How I programming]]. Also. worth to check
-some [[research/Evans-So_you_want_to_be_a_WizarD|learning strategies]].
+principles, like this [[##Programming principles|principles]]. Also. worth to
+check some [[research/Evans-So_you_want_to_be_a_WizarD|learning strategies]].
 
-Check also related [[CS_learning_path|how I learn computer science]]
-note.
+Programming is closely related to [[CS_learning_path|computer science]].
 
-- [/] Asyncio
-- [/] RabbitMQ tutorial for aio-pika
-- [/] [[research/Stolyarov-Programming_volume_1_0_introduction]]
-- [ ] [[research/Stolyarov-Programming_volume_1_1_preliminary_information]]
-- [ ] [Web development](https://web.dev/learn)
-- [ ] [is looping through an array easier on the memory than a long recursion](https://www.quora.com/In-computer-programming-is-looping-through-an-array-easier-on-the-memory-than-a-long-recursion)
-- [ ] python packaging
-- [ ] Concurrency primer - https://assets.bitbashing.io/papers/concurrency-primer.pdf
-- [ ] Chrome dev tools
-- [ ] https://github.com/goldbergyoni/nodebestpractices/blob/master/README.russian.md
-- [ ] [Как подружить веб-компоненты и JS-фреймворки / Хабр](https://habr.com/ru/companies/sberbank/articles/834998/)
-- [ ] [Nix Workflow Initialize](https://ayats.org/blog/nix-workflow/)
-- [ ] [nix.dev  documentation](https://nix.dev/)
-
-## High-level overview
-
-- [ ] cryptography
-- [ ] virtual memory
-- [ ] system call
-- [ ] cpu scheduling
-- [ ] file descriptor
-- [ ] tcp
-- [ ] interrupts
-- [ ] futex
-- [ ] mutex
-- [ ] semaphores
-- [ ] users/groups/cgroups (The linux programming interface)
-- [ ] union
-- [ ] intersection
-- [ ] difference
-- [ ] symmetric difference
-
-## My main principles in learning and practice programming
+## Programming principles
 
 - Gathering problems and requirements.
 - Architecture planning and discussion.
@@ -78,40 +48,61 @@ reviews).
 - I listen to the opinion of older comrades, experience is expensive.
 - I do refactor if something is unclear and needs to be improved.
 
-## General programming and software development
 
-- [[research/Aho_Lam_et_al-Compilers]]
-- [[research/McConnell-Code_complete]]
-- [[research/DeVries-Tutorials]]
-- [[research/ThePrimeagen-Tutorials]]
+## Now
 
-- [Sourcemaking](https://sourcemaking.com/)
-- [A collection of full-stack resources for programmers](https://github.com/charlax/professional-programming)
+What I'm currently learning, with [[queue]] order
 
-## Today I learned (TIL)
+- [/] Asyncio
+- [/] RabbitMQ tutorial for aio-pika
+- [/] [[research/Stolyarov-Programming_volume_1_0_introduction]]
+- [ ] [[research/Stolyarov-Programming_volume_1_1_preliminary_information]]
+- [ ] [Web development](https://web.dev/learn)
+- [ ] [is looping through an array easier on the memory than a long recursion](https://www.quora.com/In-computer-programming-is-looping-through-an-array-easier-on-the-memory-than-a-long-recursion)
+- [ ] python packaging
+- [ ] Concurrency primer - https://assets.bitbashing.io/papers/concurrency-primer.pdf
+- [ ] Chrome dev tools
+- [ ] https://github.com/goldbergyoni/nodebestpractices/blob/master/README.russian.md
+- [ ] [Как подружить веб-компоненты и JS-фреймворки / Хабр](https://habr.com/ru/companies/sberbank/articles/834998/)
+- [ ] [Nix Workflow Initialize](https://ayats.org/blog/nix-workflow/)
+- [ ] [nix.dev  documentation](https://nix.dev/)
+- [ ] cryptography
+- [ ] virtual memory
+- [ ] system call
+- [ ] cpu scheduling
+- [ ] file descriptor
+- [ ] tcp
+- [ ] interrupts
+- [ ] futex
+- [ ] mutex
+- [ ] semaphores
+- [ ] users/groups/cgroups (The linux programming interface)
+- [ ] union
+- [ ] intersection
+- [ ] difference
+- [ ] symmetric difference
 
-I think it's good source to find something useful to learn and some "life-hacks".
+## Learning materials
 
-- [jbranchaudtil memo Today I Learned](https://github.com/jbranchaud/til)
-- [Simon Willison TIL](https://til.simonwillison.net/)
-- [Hashrocket - Today I Learned](https://til.hashrocket.com/)
+Collections to pick something useful to learn, some items are hidden inside
+related notes (first sections, priority matters).
 
-## Code organization and version control, code quality
+### General purpose
 
-- [ ] [organize large projects](https://www.reddit.com/r/learnpython/comments/mxwdpj/are_there_any_books_or_videos_that_describe_how/)
-- [[research/Linux_Community-Submitting_patches|submit patches]] in right way.
-- [[research/Chacon_and_Ben-Pro_Git]]
-- [[research/Martin_Fowler-Refactoring]]
+- [[research/Python|Python]], my primary programming language
+- [[research/Go|Go]], my secondary programming language
+- [[research/JavaScript|JavaScript]], my tertiary programming language
+- [[research/Pascal]], my "old friend", my initial programming language
+- [[research/C|C]] is the lowest-level of the highest-level programming languages
+- [[research/lua|lua]], actively use it with [[Neovim]]
+- [[research/Rust]] practically unknown to me
 
-## Soft skills
+### Web development
 
-- [[research/Brooks-Mythical_Man-Month]]
-- [[research/Hunt_and_Thomas-The_Pragmatic_Programmer]]
-- [[research/Rainwater-Herding_Cats]]
-- [[research/Yourdon-Death_March]]
-- [x] [[research/Evans-So_you_want_to_be_a_WizarD]]
-
-## Web development
+- [[research/HTML]] is initial resource of web page, sort of bones of web-page,
+how information is structured on the web and more.
+- [[research/CSS]] allow you to stylize your web page, tool to represent your
+page in unique way.
 
 - [ ] [Backend Developer Roadmap](https://roadmap.sh/backend).
 - [ ] [The Valley of Code](https://thevalleyofcode.com/)
@@ -124,67 +115,59 @@ I think it's good source to find something useful to learn and some "life-hacks"
 - [ ] [What is a web server? | MDN](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_web_server)
 - [ ] [What is the difference between webpage, website, web server, and search engine? | MDN](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/Pages_sites_servers_and_search_engines)
 
-### JavaScript
+### Today I learned (TIL)
 
- [[research/JavaScript|JavaScript]] is core of web page interactivity and logic.
- It's allow to build interfaces and applications. It's important to understand
- it if you want to build some complex web pages.
+I think it's good source to find something useful to learn and some "life-hacks",
+snippets and more.
 
+- [jbranchaudtil memo Today I Learned](https://github.com/jbranchaud/til)
+- [Simon Willison TIL](https://til.simonwillison.net/)
+- [Hashrocket - Today I Learned](https://til.hashrocket.com/)
 
-## HTML & CSS
+### General programming and software development
 
-[[research/HTML]] is initial resource of web page, sort of bones of web-page, it's
-important to understand it. This is the way how information is structured on the
-web.
+- [[research/Aho_Lam_et_al-Compilers]]
+- [[research/McConnell-Code_complete]]
+- [[research/DeVries-Tutorials]]
+- [[research/ThePrimeagen-Tutorials]]
+- [Sourcemaking](https://sourcemaking.com/)
+- [A collection of full-stack resources for programmers](https://github.com/charlax/professional-programming)
 
-[[research/CSS]] allow you to stylize your web page, it's a tool to represent your page
-in unique way.
+### Code organization and version control, code quality
 
-## Python
+- [ ] [organize large projects](https://www.reddit.com/r/learnpython/comments/mxwdpj/are_there_any_books_or_videos_that_describe_how/)
+- [[research/Linux_Community-Submitting_patches|submit patches]] in right way.
+- [[research/Chacon_and_Ben-Pro_Git]]
+- [[research/Martin_Fowler-Refactoring]]
 
-My main programming language is [[research/Python]] (for now).
+### Soft skills
 
-## C
+- [[research/Brooks-Mythical_Man-Month]]
+- [[research/Hunt_and_Thomas-The_Pragmatic_Programmer]]
+- [[research/Rainwater-Herding_Cats]]
+- [[research/Yourdon-Death_March]]
+- [x] [[research/Evans-So_you_want_to_be_a_WizarD]]
 
-[[research/C]].
+### DevOps
 
-## Rust
+I really want to learn more about [[Nix]] language, maybe someday I'll start to
+learn it seriously.
 
-[[research/Rust]].
+- [[research/Will_NixOS]]
+- [[research/Henry_How_to_Learn_Nix]]
 
-## Go
-
-[[research/Go]].
-
-## Pascal
-
-[[research/Pascal]].
-
-## Lua
-
-[[research/lua]].
-
-## Computer graphics and game development
+### Computer graphics and game development
 
 - [[research/Javidx9-Code_It_Yourself]]
 - [[research/Muratori-Handmade_Hero|Handmade Hero]], my initial steps, heavy
   related to programming with [[MS_Windows|Windows]] API and
   [[computer_graphics|computer graphics]].
 
-## OS and kernel development
+### OS and kernel development
 
 - [[research/Tanenbaum_and_Bos-Modern_Operating_Systems]]
-- [[research/Will_NixOS]]
-- [[research/Henry_How_to_Learn_Nix]]
 
-## Archive
-
-- [-] [Writing The Matrix in Python: easy guide](https://habr.com/en/articles/720452/).
-Not really enjoyed (questions to structure and contains specific error), so skipped.
-- [-] [30-Days-of-Python - codingforentrepreneurs](https://www.youtube.com/playlist?list=PLEsfXFp6DpzQjDBvhNy5YbaBx9j-ZsUe6),
-Probably good for beginners, but I not like too many inaccuracy/wrongness in this course.
-
-## Someday
+### Other
 
 - [ ] [How to "think" (and design) like a Software Architect at Silicon Valley
 Code Camp 2019 - YouTube](https://www.youtube.com/watch?v=mCM6QVHD08c)
@@ -205,3 +188,10 @@ Code Camp 2019 - YouTube](https://www.youtube.com/watch?v=mCM6QVHD08c)
 - [ ] [Which Programming Language Should I Learn First?](https://carlcheo.com/startcoding)
 - [ ] [Классификация знаний в области программирования / Habr](https://habr.com/en/articles/249983/)
 - [Rosetta Code - Wikipedia](https://en.wikipedia.org/wiki/Rosetta_Code)
+
+## Archive
+
+- [-] [Writing The Matrix in Python: easy guide](https://habr.com/en/articles/720452/).
+Not really enjoyed (questions to structure and contains specific error), so skipped.
+- [-] [30-Days-of-Python - codingforentrepreneurs](https://www.youtube.com/playlist?list=PLEsfXFp6DpzQjDBvhNy5YbaBx9j-ZsUe6),
+Probably good for beginners, but I not like too many inaccuracy/wrongness in this course.
