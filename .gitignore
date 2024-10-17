@@ -3,6 +3,8 @@
 .trash/
 .venv/
 .obsidian/
+!.obsidian/snippets
+*.out
 
 # Personal
 external/salesloop
