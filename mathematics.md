@@ -31,5 +31,5 @@ sr-ease: 209
 >   mathematics.\
 > — <cite>[Simple English Wikipedia](https://simple.wikipedia.org/wiki/Mathematics)</cite>
 
-I have [[how_I_learn_mathematics|learning plan]] to understand mathematics
+I have [[mathematics_learning_path|learning plan]] to understand mathematics
 better and use in my life and work.

@@ -16,5 +16,5 @@ sr-ease: 208
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Physics)</cite>
 
 My physics learning plan is here:
-[[how_I_learn_physics_and_chemistry|how do I study physics and chemistry]].
+[[physics_and_chemistry_learning_path|how do I study physics and chemistry]].
 

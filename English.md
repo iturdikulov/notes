@@ -3,7 +3,7 @@ date: 2023-03-06
 tags:
   - inbox
   - bridge
-sr-due: 2024-01-31
+sr-due: 2023-01-28
 sr-interval: 3
 sr-ease: 206
 ---
@@ -33,7 +33,7 @@ English is a West Germanic language in the Indo-European
 >
 > [Simple English Wikipedia](https://simple.wikipedia.org/wiki/English_language)
 
-I have English language [[how_I_learn_English|learning plan]],
+I have English language [[English_learning_path|learning plan]],
 which can help me to understand English materials, media and people.
 
 ## Collactions (словосочетания)
