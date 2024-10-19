@@ -2,7 +2,7 @@
 date: 2023-06-24
 tags:
   - inbox
-  - SR_computer_science
+  - base
 sr-due: 2024-01-29
 sr-interval: 2
 sr-ease: 202
@@ -10,7 +10,7 @@ sr-ease: 202
 
 # Array in programming languages
 
-## Arrays in [[C]]:
+## Arrays in [[research/C]]:
 
 ```c
 int array[4];  // Initialize array with 4 items
@@ -35,7 +35,7 @@ array[3] = 33;
 array[4] = 50;
 ```
 
-## Arrays in [[Rust]]:
+## Arrays in [[research/Rust]]:
 
 ```rust
 let mut array: [i32; 3] = [0; 3];

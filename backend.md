@@ -2,8 +2,7 @@
 date: 2023-09-21
 tags:
   - inbox
-  - bridge
-  - SR_programming
+  - base
 sr-due: 2024-01-29
 sr-interval: 2
 sr-ease: 219

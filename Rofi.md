@@ -2,8 +2,7 @@
 date: 2023-08-05
 tags:
   - inbox
-  - SR_software
-  - SR_productivity
+  - productivity
 sr-due: 2024-02-04
 sr-interval: 7
 sr-ease: 254
@@ -31,7 +30,7 @@ picking with [[pass]], open bookmarks, favorite files open tool, etc.
 - Move word forward::`M-f`
 - Move word backward::`M-b`
 - Move character forward::`C-f`
-- Move character backward::`C-b`
+- Move character backward::`C-b` <!--SR:!2024-09-22,1,234-->
 - Remove word backward::`C-BCK`
 - Remove word forward::`C-A-d`
 - Remove char forward::`C-d` or `DEL`

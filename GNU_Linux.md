@@ -2,7 +2,7 @@
 date: 2023-03-17
 tags:
   - inbox
-  - SR_software
+  - Unix
 sr-due: 2024-02-01
 sr-interval: 6
 sr-ease: 248

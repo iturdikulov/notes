@@ -2,7 +2,7 @@
 date: 2022-12-03
 tags:
   - inbox
-  - SR_productivity
+  - productivity
 sr-due: 2024-02-06
 sr-interval: 9
 sr-ease: 250
@@ -327,9 +327,14 @@ kill %1
 
 Use `ESC` or `CTRL-[` to enter `Normal mode`.
 
-Check also [[GNU_Readline]] additional keybinding.
+## Check also
 
-## References
+[[hidden_file_and_hidden_directory_dotfiles|Dotfiles]] are usually source of
+interesting Bash snippets and scripts.
+
+[[GNU_Readline|Readline]] for additional keybindings.
+
+## External links
 
 - [ ] [Z Shell Keyboard Shortcuts - Copperlight Writes](https://copperlight.github.io/shell/zsh-keyboard-shortcuts/)
 - [ ] [config_manager/xdg_config/zsh/.zshrc at master · tjdevries/config_manager · GitHub](https://github.com/tjdevries/config_manager/blob/master/xdg_config/zsh/.zshrc)

@@ -1,9 +1,10 @@
 ---
 date: 2023-08-27
-external: https://sioyek.info/
+external:
+  - https://sioyek.info/
 tags:
   - inbox
-  - SR_development
+  - doc
 sr-due: 2024-01-29
 sr-interval: 3
 sr-ease: 263
@@ -46,7 +47,7 @@ Go to first/nth page::`gg`/`<num>gg`
 
 Go to last page::`S-g`
 
-Open table of contents::`t`
+Open table of contents::`t` <!--SR:!2024-09-06,7,263-->
 
 Back/forward in history::`<BS>`/`S-<BS>`
 

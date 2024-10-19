@@ -2,7 +2,8 @@
 date: 2023-03-11
 tags:
   - inbox
-sr-due: 2024-01-30
+  - base
+sr-due: 2023-01-28
 sr-interval: 4
 sr-ease: 210
 ---
@@ -45,12 +46,12 @@ Sort of [[computer_program|program]] which mimics human cognition.
 > computing.\
 > [Simple English Wikipedia](https://simple.wikipedia.org/wiki/Artificial_intelligence)
 
-## References
+## External links
 
 - [x] [Richard Feynman: Can Machines Think? - YouTube](https://www.youtube.com/watch?app=desktop&v=ipRvjS7q1DI)
 NO, in some ways yes and can demonstrate intelegence-like behavior. TODO: write
 own note?
-
+- [ ] [Заметки про искусственный интеллект](https://dxdt.ru/2024/07/25/13473/)
 - [ ] [Harvard CS50’s Artificial Intelligence with Python](https://www.youtube.com/watch?v=5NgNicANyqM)
 - [There's An AI For That - The Biggest AI Aggregator](https://theresanaiforthat.com/)
 - [Artificial intelligence | TED Talks](https://www.ted.com/playlists/310/artificial_intelligence)

@@ -4,7 +4,6 @@ external:
   - https://en.wikipedia.org/wiki/Gothic_(video_game)
 tags:
   - inbox
-  - SR_game
 sr-due: 2024-01-30
 sr-interval: 3
 sr-ease: 194
@@ -40,40 +39,25 @@ Information taken from
 
 I use this remaps (optimized for [[Colemak_Mod-DH|Colemak DH]] layout):
 
-Arrows are set to these keys:
-
-↑ - `w`
-← - `a`
-→ - `s`
-↓ - `r`
-straif left - `q`
-straif right - `e`
-
-Pick up an item?::`Mod + ↑`
-
-Attack with a melee weapon?::`Mod + ← →`
-
-Parry?::`Mod + ↓`
-
-Punch?::`Mod + ↑`
-
-Fire an arrow?::`Mod + ↑`
-
-Use magic? `Mod + ↑`
-
-Talk to an NPC? `Mod + ↑`
-
-Open a door? `Mod + ↑`
-
-Pick a lock on a door or chest? `Mod + ← →`
-
-Drop an item from inventory? `Mod + ↓`
-
-Move 1 item to/from inventory? `Mod + ← →`
-
-Move 10 items to/from inventory? `Mod+a d` ?
-
-Move 100 items to/from inventory? `Mod+Shift+a d` ?
+- ↑ - `w`
+- ← - `a`
+- → - `s`
+- ↓ - `r`
+- Straif left - `q`
+- Straif right - `e`
+- Pick up an item - `Mod + ↑`
+- Attack with a melee weapon - `Mod + ← →`
+- Parry - `Mod + ↓`
+- Punch - `Mod + ↑`
+- Fire an arrow - `Mod + ↑`
+- Use magic - `Mod + ↑`
+- Talk to an NPC - `Mod + ↑`
+- Open a door - `Mod + ↑`
+- Pick a lock on a door or chest - `Mod + ← →`
+- Drop an item from inventory - `Mod + ↓`
+- Move 1 item to/from inventory - `Mod + ← →`
+- Move 10 items to/from inventory - `Mod+a d`
+- Move 100 items to/from inventory - `Mod+Shift+a d`
 
 - To select items to equip, open your inventory Tab and use ← → to browse the
 categories. Can be equipped with `Mod + ↑`

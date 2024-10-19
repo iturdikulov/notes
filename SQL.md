@@ -2,7 +2,7 @@
 date: 2024-09-10
 tags:
   - inbox
-  - SR_sql
+  - DB
 ---
 
 # Structured Query Language (SQL)
@@ -11,7 +11,7 @@ tags:
 > ==manage data==, especially in a relational database management
 > system (RDBMS). It is particularly useful in handling structured data, i.e.,
 > data incorporating relations among entities and variables.\
-> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/SQL)</cite> <!--SR:!2024-09-14,3,250-->
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/SQL)</cite> <!--SR:!2024-09-26,7,250-->
 
 Query language used to manage data in a **relational** RDBMS. Queries
 ==create, read, update, and delete== (CRUD) the data based on specific criteria.
@@ -87,11 +87,11 @@ create table people (
   is_admin BOOLEAN
 );
 ```
-<!--SR:!2024-09-14,3,250-->
+<!--SR:!2024-09-26,7,250-->
 
 
 Select `CustomerName`, `CategoryName` from customers and categories (no extra
-filtering).
+filtering and join).
 &#10;
 ```sql
 SELECT CustomerName, CategoryName FROM customers, categories;
@@ -708,8 +708,8 @@ Methods to avoid SQL injection?
 &#10;
 1. First refer to language/library documentation, how to use placeholder for
    user's input. [Avoiding SQL injection risk - The Go Programming Language](https://go.dev/doc/database/sql-injection)
-2. Filter query elements from user's (or need just avoid this) with elements
-   allowlist. <!--SR:!2024-09-14,3,250-->
+2. Filter query elements from user's input (or need just avoid this) with elements
+   allowlist. <!--SR:!2024-09-25,6,250-->
 
 ## External links
 

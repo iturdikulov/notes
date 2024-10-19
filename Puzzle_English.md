@@ -3,7 +3,7 @@ external: https://puzzle-english.com/
 date: 2022-12-29
 tags:
   - inbox
-  - SR_english
+  - linguistic
 sr-due: 2024-10-26
 sr-interval: 275
 sr-ease: 330

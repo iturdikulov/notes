@@ -2,7 +2,7 @@
 date: 2022-12-29
 tags:
   - inbox
-  - SR_productivity
+  - productivity
 external:
   - https://github.com/bakkeby/dwm-flexipatch
 directory: ~/Computer/software/dwm-flexipatch/
@@ -24,7 +24,7 @@ switched to it and use it with maximum pleasure. It has some "disadvantages",
 maybe not clear logic if you use it first time, but It's all manageable and
 solvable. Especially if you use something like `DWM flexipatch`.
 
-Right now I use various patches, with my dwm-flexipatch fork:
+I use various patches, with my dwm-flexipatch fork:
 [Inom-Turdikulov/dwm-flexipatch](https://github.com/iturdikulov/dwm-flexipatch).
 
 I swapped meta key (ALT/META) to super key (WIN), which used in DWM by default
@@ -32,6 +32,8 @@ as modifier key, to reduce key conflicts in various programs.
 
 Key notation in flashcards - I usually use vim key notation (`:h key-notation`),
 with some exceptions.
+
+UPDATE: right now I switched to [[Hyprland]].
 
 ## Launching DWM
 
@@ -162,7 +164,7 @@ windows from tag #2 to current tag. To reset press again or switch to tag.
 
 - Toggle floating on active window::`<D-S-space>` or `Super+LeftMouse`
 - Drag floating window using mouse (with drag)::`<D-LeftMouse>`
-- Resize floating window using mouse (with drag)::`<D-RightMouse>`
+- Resize floating window using mouse (with drag)::`<D-RightMouse>` <!--SR:!2024-09-24,3,257-->
 
 To control floating windows I use
 [floatpos](https://github.com/bakkeby/patches/wiki/floatpos/) with configured
@@ -214,7 +216,7 @@ Actual programs shortcuts/specific hardware control, etc. are located in
 - Open `$TERMINAL` in scratchpad::`` D-` ``
 
 - Programs menu::`<D-space>`
-- Files menu::`<D-o>`
+- Files menu::`<D-o>` <!--SR:!2024-09-24,3,257-->
 - Mount menu::`<D-S-o>`
 - Browser history menu::`<D-r>`
 - Browser bookmarks menu::`<D-S-r>`

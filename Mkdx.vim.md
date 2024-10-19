@@ -4,7 +4,7 @@ external:
 date: 2023-04-05
 tags:
   - inbox
-  - SR_vim
+  - productivity
 sr-due: 2024-01-29
 sr-interval: 3
 sr-ease: 252

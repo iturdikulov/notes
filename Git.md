@@ -3,7 +3,7 @@ date: 2022-12-29
 external: https://git-scm.com/
 tags:
   - inbox
-  - SR_VCS
+  - VCS
 sr-due: 2023-01-28
 sr-interval: 8
 sr-ease: 252
@@ -57,7 +57,7 @@ Check the Git version:
 
 Show general help:
 &#10;
-`git --help`
+`git --help` <!--SR:!2024-09-19,3,251-->
 
 Show help on a Git subcommand (like `clone`, `add`, `push`, `log`, etc.):
 &#10;
@@ -65,7 +65,7 @@ Show help on a Git subcommand (like `clone`, `add`, `push`, `log`, etc.):
 
 Execute a some Git subcommand:
 &#10;
-`git subcommand` <!--SR:!2024-09-03,7,252-->
+`git subcommand` <!--SR:!2024-10-09,24,272-->
 
 Execute a Git subcommand on a custom repository root path:
 &#10;
@@ -134,15 +134,15 @@ List the change dates and authors (who committed) for a file
 &#10;
 `git blame [file]`
 
-Show the file changes for a commit ID and/or file
+Show the file changes (not a diff) for a commit ID and/or file
 &#10;
-`git show [commit]:[file]`
+`git show [commit]:[file]` <!--SR:!2024-09-17,1,231-->
 
 Show full change history. Is possible to list remote changes?
 &#10;
 `git log`, `gl` is mine custom alias for graph view of commits.
 Yes, you can log the commits of a remote repo as well (remote/branch):
-`git log origin/main`
+`git log origin/main` <!--SR:!2024-09-19,3,253-->
 
 How customize output of `git log`, for example:
 - show full branch names
@@ -229,7 +229,8 @@ Show change history for file/directory including diffs
 &#10;
 `git log -p [file/directory]`
 
-View differences of branches/stash with meld other tool?
+View differences of branches/stash with meld, other tool?
+TODO: review this
 &#10;
 ```sh
 ## To get list of toolname runt this:
@@ -257,7 +258,7 @@ Create a new branch called new **branch**, how to create and switch in same
 time?
 &#10;
 - `git branch new_branch`
-- `git switch -c new_branch`
+- `git switch -c new_branch` <!--SR:!2024-09-17,1,232-->
 
 Delete the branch called my **branch**
 &#10;
@@ -274,7 +275,7 @@ To delete a remote branch "branch_name":
 
 How to rename (move) a branch?
 &#10;
-`git branch -m[--move] old_name new_name`
+`git branch -m[--move] old_name new_name` <!--SR:!2024-09-17,1,232-->
 
 Continue merge after resolving conflicts
 &#10;
@@ -286,9 +287,9 @@ Branches: To delete all branches on remote that are already merged:
 &#10;
 `git branch --merged | egrep -v "(^*|main|dev)" | xargs git branch -d`
 
-Switch to a branch, my **branch**, and update working directory
+Switch to a **my_branch**
 &#10;
-`git checkout my_branch`
+`git switch my_branch` <!--SR:!2024-09-19,3,253-->
 
 Merge branch **foo** into branch **bar**. First we need to find/switch to merge
 base (the best common ancestor?) of two branches, then we can merge them.
@@ -303,9 +304,9 @@ Checkout a new branch from a different starting point.
 &#10;
 `git checkout -b main upstream/main`
 
-Reset local branch to upstream branch, then checkout it.
+Reset local branch to **origin** branch, then checkout it.
 &#10;
-`git checkout -B main upstream/main`
+`git checkout -B main origin/main`. If -B is given, <new-branch> is created if it doesn’t exist; otherwise, it is reset. <!--SR:!2024-09-17,1,232-->
 
 Undo parts of the last commit in a specific file.
 &#10;
@@ -338,7 +339,7 @@ Sign new tags:
 
 Delete a tag `<tagname>` on remote
 &#10;
-`git push --delete origin <tagname>`
+`git push --delete origin <tagname>` <!--SR:!2024-09-17,1,232-->
 
 Make an existing branch track a remote branch.
 &#10;
@@ -348,13 +349,12 @@ Make an existing branch track a remote branch.
 
 Stages the file, ready for commit
 &#10;
-`git add [file]`
-`git fza` - custom alias, interactive add
+`git add [file]` <!--SR:!2024-09-19,3,252-->
 
 Stage all changed files or files which ready for commit
 &#10;
 - `git add .`
-- `git add [--all|-A]` <!--SR:!2024-09-14,15,232-->
+- `git add [--all | -A]` <!--SR:!2024-10-19,34,232-->
 
 Stop tracking the file completely (leave it on disk) and remove from repo!
 &#10;
@@ -383,7 +383,7 @@ Use it with `-n` to see what will be removed.
 
 Commit all staged files (staged changes) to versioned history
 &#10;
-`git commit -m "Your commit message"`
+`git commit -m "Your commit message"` <!--SR:!2024-09-20,4,272-->
 
 ==7== digits are the Git default for a short SHA, so that's fine for most
 projects.
@@ -402,7 +402,8 @@ Change author of a commit.
 
 Commit in the past
 &#10;
-Newer versions of Git allow `--date="2 days ago"` usage for commit flag.
+Newer versions of Git allow `--date="2 day ago"` usage for commit flag.
+`git commit --date "2 day ago" -m "Your commit message"` <!--SR:!2024-09-17,1,231-->
 
 ```sh
 ## more recent versions of Git also support --date="2 days ago" directly
@@ -440,7 +441,7 @@ A-B-[C]
 ```
 &#10;
 `git reset --hard HEAD~1`. Always be careful when using git reset --hard. It's a
-powerful tool, but it's also a dangerous one.
+powerful tool, but it's also a dangerous one. <!--SR:!2024-09-19,3,253-->
 
 Undo last commit. If you want to undo the commit, but keep your changes:
 &#10;
@@ -462,7 +463,7 @@ Apply only the changes made within a given commit. This is different to the `mer
 "Authoritative source of truth" repo, we mean that it's the one you and your
 team treat as the "true" repo. It's the one that contains the most up-to-date
 version of the accepted code. In Git terminology this is ==`origin`== (single
-word).
+word). <!--SR:!2024-09-19,3,252-->
 
 Get the latest changes from origin (no merge)
 &#10;
@@ -484,7 +485,7 @@ Fetch the latest changes from origin and merge
 
 Fetch the latest changes from origin and rebase
 &#10;
-`git pull --rebase` <!--SR:!2024-09-14,18,250-->
+`git pull --rebase` <!--SR:!2024-10-29,44,250-->
 
 Let's assume we have a branch `feature_branch` that we want to merge into `main`.
 ```text
@@ -504,7 +505,7 @@ Is rebase a public branch (like `main`) onto some other branch is good idea?
 &#10;
 You should never rebase a public branch (like `main`) onto anything else. Other
 developers have it checked out, and if you change its history, you'll cause a
-lot of problems for them.
+lot of problems for them. In main we can make some updates, and if we rebase them into feature branch it can be completely broken (not expecting such changes). <!--SR:!2024-09-19,3,251-->
 
 Pull down a remote branch, but rebase any locally differing commits onto the top of the incoming commits:
 &#10;
@@ -593,6 +594,7 @@ List local or global configurations using `git config`?
 git config --local --list
 git config --global --list
 ```
+<!--SR:!2024-09-17,1,233-->
 
 Actually you are able to store and retrieve custom configuration in git config
 file, how to do it?
@@ -735,7 +737,7 @@ To import commits from another repo:
 
 Update all submodules.
 &#10;
-`git submodule update --init --recursive`
+`git submodule update --init --recursive` <!--SR:!2024-09-17,1,233-->
 
 Check any signatures it finds and list them in its output:
 `git log --pretty="format:%h %G? %aN %s"`

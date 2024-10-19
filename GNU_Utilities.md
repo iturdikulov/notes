@@ -2,8 +2,7 @@
 date: 2023-04-19
 tags:
   - inbox
-  - bridge
-  - SR_software
+  - productivity
 sr-due: 2024-01-29
 sr-interval: 2
 sr-ease: 208
@@ -170,6 +169,19 @@ A lot of these commands also usually exist in this
 - [[GNU_Readline|GNU Readline]]
 - [[GNU_Privacy_Guard_GPG|GNU Privacy Guard (GPG)]]
 - [[GNU_Debugger|GNU Debugger (GDB)]]
+
+## lsof (LiSt Open Files)
+
+lsof is a command for LiSting Open Files. You can use lsof for example to:
+
+- Find uses of a specific open file: lsof /path/to/file
+- Find an unlinked open file: lsof +L1
+- Find processes blocking umount: lsof /mnt
+- Find tcp/udp sockets: lsof -i
+- Find files open to a process with known PID: lsof -p 1234
+- Find files open to a named command: lsof -c bash
+- Find files open by a specific user: lsof -u somebody
+
 
 ## References
 

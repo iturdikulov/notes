@@ -1,9 +1,10 @@
 ---
-external: https://www.jetbrains.com/pycharm/
+external:
+  - https://www.jetbrains.com/pycharm/
 date: 2023-03-15
 tags:
   - inbox
-  - SR_software
+  - archive
 sr-due: 2024-01-28
 sr-interval: 3
 sr-ease: 266

@@ -2,7 +2,7 @@
 date: 2023-02-20
 tags:
   - inbox
-  - SR_vim
+  - productivity
 external:
   - https://neovim.io/
 directory:
@@ -24,14 +24,14 @@ Hyperextensible Vim-based text editor. Your personal Editor Development
 Environment.
 
 I keep my learning resources and learning plan in
-[[how_I_learn_neovim|this]] note. I also have a "[[vim_base_keybindings]]" note.
+[[Neovim_learning_path|this]] note. I also have a "[[vim_base_keybindings]]" note.
 
 ## What I handle by Neovim
 
-- Notes, Calendar, Tracking - [[Telekasten]] together with [[Obsidian]]
-- File management - [[netrw]] and [[command-line_interface_CLI|CLI]]
-- Code editing - (highly customized setup)
-- Code blocks, projects running and debugging
+- Code editing
+- Code version control with git and plugins
+- Projects running and debugging with plugins
+- Database management system with plugins
 - Video notes with timestamps using MPV's IPC integration
 
 ## Command line
@@ -628,6 +628,19 @@ Make visual selection italic::`<C-i>`
 Make visual selection code::`<C-e>`
 Make visual selection link::`<C-k>`
 
+### Mini Align
+
+Press `gaip` key sequence and then press `#`
+```
+rnd = 1 # Test
+a = 1 # test
+xa = 2 # untest
+```
+
+Get help `:h MiniAlign-examples`
+
+[Plugin config with some examples](~/Computer/software/nvim/after/plugin/mini.lua)
+
 ## Visual Mode
 
 `S[text object]`:::in visual state will surround a text object
@@ -884,6 +897,8 @@ Print directory/name of file
 &#10;
 `:echo @%`
 
+Execute current file::`!%`
+
 Get name of file ('tail')
 &#10;
 `:echo expand('%:t')`
@@ -1117,125 +1132,9 @@ Telescope DAP Variables::`<leader>dlv`
 
 Telescope DAP Frames::`<leader>dlf`
 
-### VCS and Fugitive
+## fugutive.vim
 
-Get file local history/undotree::`<leader>u`
-
-Open git commit UI, git status::`<Leader>gg`
-
-Open git commit UI vertically::`:vert G`
-
-Fugitive menu::`<leader>g`
-
-`:diffoff[!]`::Close diff window, can be used in combination with `:q[!]` to close
-
-`:diffupdate`::update diff window, can help with highlighting issues
-
-Index file represent ==last committed== version of file.
-
-Checkout branch::`<leader>go`
-
-Grep in branch::`<leader>gp`, `<leader>gP` (quickfix list)
-
-Move current file to another location `:Git move`::`<leader>gm`
-
-Stage current file if it's working copy, or checkout if it's index file
-&#10;
-`:Gwrite` or `<leader>gW`
-
-`:Gwrite` on index file will ==checkout file==.
-
-`:Gwrite` on working copy will ==stage file==.
-
-`:diffput` its like ==`:Gwrite`== but for diff window and works with hunks.
-
-`:diffput` on working copy will ==stage hunk==.
-
-`:diffput` on index file will ==checkout hunk==.
-
-`dp` is hotkey for ==`:diffput`==. `p` is stays for "put".
-
-Checkout current file if it's working copy, or stage if it's index file
-&#10;
-`:Gread` or `<leader>gR`
-
-`:Gread` on index file will ==stage file==.
-
-`:Gread` on working copy will ==checkout file==.
-
-`:diffget` its like ==`:Gread`== but for diff window and works with hunks.
-
-`:diffget` on working copy will ==checkout hunk==.
-
-`:diffget` on index file will ==stage hunk==.
-
-`do` is hotkey for ==`:diffget`==. `o` is stays for "obtain".
-
-`:Gremove`::Remove current file
-
-`:Gmove <relative_path>`::Move current file
-
-`:G blame::`Open split window with blame buffer
-
-`:G commit`::Open split window with commit buffer
-
-`:Gedit :<path>` or `Gedit :0` or `<leader>ge`::Open index file
-
-`:Gdiffsplit` or `<leader>gd`::vimdiff against the index version of the file, quit from this mode by `:q`
-
-`:Git diff` or `<leader>gD`::git diff against the last committed version of the file.
-
-`:Git commit --ammend` or `<leader>ga`::amend last commit
-
-`:Git add -p` or `<leader>gA`::run git add with patch
-
-To use `:diffget` on deleted lines, place cursor position ==after== that lines.
-
-List branches `<leader>gb` and then press =`<tab>`=.
-
-Log git history of current file::`<leader>gl`
-
-Search in git history (`git log -S...`)::`<leader>gL`
-
-Open fugitive object in new split/tab::`o` or `O`
-
-Perform a `:Gdiffsplit` on the file under the cursor.::`dd`
-
-Perform a `:Gvdiffsplit` on the file under the cursor::`dv`
-
-Perform a `:Ghdiffsplit` on the file under the cursor::`ds`
-
-Open diff/git for current file::`=`
-
-Stage/Unstage (add/reset) file, works in visual mode too (multiple files)::`-`
-
-Next/previous hunk::`(`, `)`
-
-Stage hunk::`s`
-
-Unstage hunk::`u`
-
-Stash the changes::`czz`
-
-Apply topmost stash::`cza`
-
-Commit staged changes::`cc`
-
-Run `git add –patch` for current file (interactive stage)::`P`
-
-Push changes::`<leader>pp` (in fugitive mode for nvim)
-
-Push and create merge request::`<leader>pT` (in fugitive mode for nvim)
-
-Pull::`<leader>pP` (in fugitive mode for nvim)
-
-During a merge conflict, this is a three-way diff against the "ours" and
-"theirs" ancestors. Additional ==d2o and d3o== maps are provided by vim-fugitive
-to obtain the hunk from the "ours" or "theirs" ancestor, respectively.
-
-Git signs menu::`<leader>h[key]`
-
-TODO: cherry-pick file/changes
+[[fugutive.vim]]: A Git wrapper so awesome, it should be illegal.
 
 ## SQL (vim-dadbod-ui)
 
@@ -1281,6 +1180,10 @@ Help tags::`<leader>fh`
 
 Command history::`<leader>fc`
 
+## Snippets (L3MON4D3/LuaSnip)
+
+Date and time::`date`, `time`
+
 ### Tips
 
 Map specific insert key in terminal: CTRL-K CTRL-F1 to get key code,
@@ -1289,6 +1192,12 @@ then map it.
 List LSP clients `:lua =vim.lsp.buf_get_clients()`.
 
 If you need to insert Markdown link from clipboard, use `S-v` key.
+
+Vim search wildcard match first occurrence, [source - Stack Overflow](https://stackoverflow.com/a/6284577)
+```
+# `\{-}` is used for non-greedy match in VIM
+rel=".\{-}"
+```
 
 ## TODO
 
@@ -1383,6 +1292,7 @@ insert SVG, PNG images directly from clipboard, save with human-readable name.
 TODO.md capturing?
 find file in netrw PV+
 
+<!-- NEXT: I'm not using sniprun anymore -->
 ### Sniprun
 
 1. Python code with Matplotlib graph
@@ -1399,3 +1309,111 @@ plt.savefig(fname)
 fname # return this to org-mode
 telescope marks command
 ---
+```
+
+
+## [Compile Code The Way Vim Intended](https://www.youtube.com/watch?v=vB3NT9QIXo8)
+
+```bash
+
+# Set current file as the makefile
+:set makeprg=%
+:setlocal makeprg=%
+
+# Execute command and output it's result
+:make
+:copen or `<leader>xq` # open quickfix window or trouble quickfix
+
+# Create new buffer for typing error format
+:new
+:h errorformat # help for error format
+# %f		file name (finds a string)
+# %l		line number (finds a number)
+# %m		error message (finds a string)
+
+# Set global errorformat, you need to escape spaces!
+# for this error message:
+# /tmp/tmp.sh: line 3: hello: command not found
+:set errorformat=%f:\ line\ %l:\ %m
+
+# Run make command and you can navigate to the error
+`:cnext` and `:cprevious` or `C-j` and `C-k`
+
+# Creating and set the shell compiler
+:e ~/.config/nvim/compiler/shell.vim
+# " avoid loading this file twice
+# if exists("current_compiler")
+#     finish
+# endif
+# let current_compiler = "shell"
+#
+# " Check if the compiler is available
+# " and add fallbacks
+# if exists(":CompilerSet") != 2
+#     command -nargs=* CompilerSet setlocal <args>
+# endif
+#
+# CompilerSet makeprg=%
+# CompilerSet errorformat=%f:\ line\ %l:\ %m
+:compiler shell # you can use :compiler gcc, go, etc.
+
+# Verify local variables after setting shell compiler
+:echo &makeprg # %
+:echo &errorformat # %f:\ line\ %l:\ %m
+
+# You can list all the compilers
+:ls $VIMRUNTIME/compiler/*
+:e $VIMRUNTIME/compiler/go.vim
+:e $VIMRUNTIME/compiler/gcc.vim
+
+# FTPlugin
+# Check filetype and create plugin for markdown (for example)
+echo &filetype
+:e ~/.config/nvim/ftplugin/markdown.vim
+# for example you can add line to set compiler
+:compiler pandoc  # echo &makeprg to verify
+```
+
+Place signs based on quickfix list
+https://gist.github.com/BoltsJ/5942ecac7f0b0e9811749ef6e19d2176
+
+## [dispatch.vim: Asynchronous build and test dispatcher](https://github.com/tpope/vim-dispatch)
+
+`cc`::go to next error?
+
+Dispatch.vim's :make wrapper :Make, seems initial abstraction.
+
+:Make - if you're in tmux, a small split will be opened at the bottom.
+
+When the task completes, the window closes, the errors are loaded and parsed,
+and the quickfix window automatically opens. At no point will your focus be
+stolen.
+
+Use :Make! for background tasks, window opening in the background.
+
+You can open background results in a split window with `:Copen`.
+
+`:Dispatch` is a wrapper around `:make` and `:compiler`, plus it do some
+additional work.
+
+`:Dispatch pytest test/models/user_test.py`
+
+`:Dispatch cd frontend && npm run build`
+
+`:Dispatch python tools/generate-docs.py`
+
+Default dispatch. With no arguments, :Dispatch looks for a b:dispatch variable.
+You can set it interactively, or in an autocommand:
+`autocmd FileType java let b:dispatch = 'javac %'`
+If no b:dispatch is found, it falls back to :Make.
+
+Check dispatch maps with `:h dispatch-maps`, or search them in keymaps
+(which-key).
+
+Use `:Focus` to o temporarily, globally override the default dispatch:
+`:Focus pytest tests`, use `:Focus!` to reset back to the default.
+
+`:Start` and `:Start!` just run process without parsing/capture output, focus
+will be switched.
+
+`:Start ping example.com`

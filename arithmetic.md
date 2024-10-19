@@ -2,7 +2,7 @@
 date: 2023-10-06
 tags:
   - inbox
-  - SR_mathematics
+  - mathematics
 sr-due: 2024-01-30
 sr-interval: 3
 sr-ease: 221

@@ -2,7 +2,7 @@
 date: 2024-09-18
 tags:
   - inbox
-  - SR_sql
+  - DB
 ---
 
 # SQLAlchemy
@@ -161,8 +161,24 @@ The `Session` doesn’t actually hold onto the Connection object after it ends t
 transaction. It gets a new Connection from the Engine the next time it needs to
 execute SQL against the database.
 
+The foundation for SQL queries in SQLAlchemy are Python objects that represent
+database concepts like tables and columns. These objects are known collectively
+as database ==metadata==.
+
 The most common foundational objects for database metadata in SQLAlchemy are
-known as ==MetaData, Table, and Column==.
+==MetaData, Table, and Column==.
+
+In SQLAlchemy, ==reflection== term refers to the feature of querying a
+database’s schema catalogs in order to load information about existing tables,
+columns, constraints, and other constructs.
+
+==MetaData==, a collection of `Table` objects and their associated schema
+constructs.
+
+MetaData is a thread-safe object for ==read== operations. Construction of new
+tables within a single MetaData object, either explicitly or via reflection, may
+not be completely thread-safe.
+
 
 
 ## https://docs.sqlalchemy.org/en/20/orm/session_basics.html#id1

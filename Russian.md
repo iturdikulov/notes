@@ -2,7 +2,7 @@
 date: 2023-03-06
 tags:
   - inbox
-  - bridge
+  - linguistic
 directory: ~/Arts_and_Entertainment/russian/
 sr-due: 2024-01-29
 sr-interval: 3

@@ -2,8 +2,7 @@
 date: 2023-06-09
 tags:
   - inbox
-  - SR_software
-  - SR_vim
+  - archive
 sr-due: 2024-02-01
 sr-interval: 4
 sr-ease: 246

@@ -2,8 +2,7 @@
 date: 2023-03-10
 tags:
   - inbox
-  - bridge
-  - SR_productivity
+  - productivity
 directory: ~/Wiki/
 sr-due: 2024-02-25
 sr-interval: 30

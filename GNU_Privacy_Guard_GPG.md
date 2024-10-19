@@ -2,7 +2,7 @@
 date: 2022-12-29
 tags:
   - inbox
-  - SR_software
+  - cryptography
 sr-due: 2024-02-05
 sr-interval: 11
 sr-ease: 232

@@ -4,8 +4,7 @@ external:
   - https://krita.org/en/
 tags:
   - inbox
-  - SR_computer_graphics
-  - SR_software
+  - computer_graphics
 sr-due: 2024-01-28
 sr-interval: 2
 sr-ease: 228

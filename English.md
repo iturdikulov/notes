@@ -2,7 +2,7 @@
 date: 2023-03-06
 tags:
   - inbox
-  - bridge
+  - linguistic
 sr-due: 2023-01-28
 sr-interval: 3
 sr-ease: 206

@@ -2,7 +2,7 @@
 date: 2023-04-03
 tags:
   - inbox
-  - SR_software
+  - DB
 external:
   - https://www.postgresql.org/
 sr-due: 2024-01-29

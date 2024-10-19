@@ -2,7 +2,7 @@
 date: 2023-03-14
 tags:
   - inbox
-  - SR_english
+  - linguistic
 sr-due: 2024-04-11
 sr-interval: 77
 sr-ease: 328

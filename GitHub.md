@@ -4,7 +4,7 @@ external:
 date: 2023-03-12
 tags:
   - inbox
-  - SR_VCS
+  - VCS
 sr-due: 2024-02-03
 sr-interval: 6
 sr-ease: 231
@@ -48,7 +48,7 @@ Auth through browser::`gh auth login`
 ## Source code editing
 
 - Opens a repository or pull request in the web-based editor.::`.`
-- Open source code file in the Edit file tab::`e`
+- Open source code file in the Edit file tab::`e` <!--SR:!2024-09-17,1,211-->
 - Start searching in file editor::`ctrl + f`
 - Find next::`ctrl + g`
 - Find previous::`ctrl + shift + g`
@@ -83,7 +83,7 @@ Auth through browser::`gh auth login`
 
 - Create an issue::`c`
 - Focus your cursor on the issues or pull requests search bar.::`ctrl + /`
-- Filter by author::`u`
+- Filter by author::`u` <!--SR:!2024-09-17,1,211-->
 - Filter by or edit labels.::`l`
 - While filtering by labels, exclude labels.::`alt`
 - Filter by or edit milestones.::`m`
@@ -100,7 +100,7 @@ Auth through browser::`gh auth login`
 
 ## Changes in pull requests
 
-- Open the list of commits in the pull request::`c`
+- Open the list of commits in the pull request (files changed tab)::`c` <!--SR:!2024-09-17,1,211-->
 - Open the list of changed files in the pull request::`t`
 - Move selection down in the list::`j`
 - Move selection up in the list::`k`
@@ -158,9 +158,9 @@ Auth through browser::`gh auth login`
 - Scroll up::`up`
 - Scroll down::`down`
 - Scroll all the way left::`shift + left`
-- Scroll all the way right::`shift + right`
-- Scroll all the way up::`shift + up`
-- Scroll all the way down::`shift + down`
+- Scroll all the way right::`shift + right` <!--SR:!2024-09-18,2,231-->
+- Scroll all the way up::`shift + up` <!--SR:!2024-09-18,2,231-->
+- Scroll all the way down::`shift + down` <!--SR:!2024-09-19,3,251-->
 
 ## References
 

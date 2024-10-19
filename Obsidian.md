@@ -4,7 +4,7 @@ external:
 date: 2023-03-14
 tags:
   - inbox
-  - SR_productivity
+  - productivity
 sr-due: 2024-02-01
 sr-interval: 5
 sr-ease: 226
@@ -36,7 +36,7 @@ sr-ease: 226
 - Search & replace in current file::`C-h`
 - Search in all files::`C-S-f`
 
-- Toggle bold for selection::`C-b`
+- Toggle bold for selection::`C-b` <!--SR:!2024-09-23,2,226-->
 - Toggle italics for selection::`C-i`
 - Insert link::`C-k`
 

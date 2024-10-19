@@ -2,7 +2,7 @@
 date: 2024-03-17
 tags:
  - inbox
- - SR_productivity
+ - productivity
 sr-due: 2024-07-04
 sr-interval: 3
 sr-ease: 262
@@ -24,7 +24,7 @@ jump to specific tracks (this view can be customized in view mode `6`)
 - **Play Queue**, key is ==`4`==, which displays the track queue
 - **File Browser**, key is ==`5`==
 - **Filters**, key is ==`6`==, a list of user-defined filters for the library
-- **Settings**, key is ==`7`==, which displays key bindings and commands
+- **Settings**, key is ==`7`==, which displays key bindings and commands <!--SR:!2000-01-01,1,250!2000-01-01,1,250!2024-09-24,3,262!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250-->
 
 ## Keyboard shortcuts
 

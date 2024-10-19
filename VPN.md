@@ -2,7 +2,7 @@
 date: 2023-03-11
 tags:
   - inbox
-  - SR_development
+  - network
 sr-due: 2024-01-28
 sr-interval: 3
 sr-ease: 269

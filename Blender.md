@@ -4,7 +4,7 @@ external:
 date: 2023-03-04
 tags:
   - inbox
-  - SR_blender
+  - computer_graphics
 sr-due: 2023-01-28
 sr-interval: 4
 sr-ease: 224

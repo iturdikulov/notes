@@ -1,9 +1,10 @@
 ---
-external: https://syncthing.net/
+external:
+  - https://syncthing.net/
 date: 2023-04-09
 tags:
   - inbox
-  - SR_software
+  - network
 sr-due: 2024-02-01
 sr-interval: 4
 sr-ease: 216

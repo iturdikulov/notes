@@ -1,10 +1,10 @@
 ---
 date: 2023-05-04
-external: https://www.godotengine.org/
+external:
+  - https://www.godotengine.org/
 tags:
   - inbox
-  - SR_game
-  - SR_software
+  - computer_graphics
 sr-due: 2023-01-28
 sr-interval: 5
 sr-ease: 244
@@ -28,19 +28,3 @@ prototypes.
 [List of features — Godot Engine (stable) documentation in
 English](https://docs.godotengine.org/en/stable/about/list_of_features.html).
 
-## External links
-
-- [ ] [Godot 4: 3D Pixel Art - YouTube](https://www.youtube.com/watch?v=Mg_V27arKdg)
-- [ ] [Tutemic - YouTube](https://www.youtube.com/@tutemic/videos)
-- [ ] [Crigz Vs Game Dev - YouTube](https://www.youtube.com/@crigz/videos)
-
-- [ ] [Godot recipes](https://kidscancode.org/godot_recipes/)
-- [ ] [Picster - YouTube](https://www.youtube.com/@picster/videos?app=desktop)
-- [ ] [Minimal plugin manager for Godot](https://github.com/imjp94/gd-plug)
-- [ ] [godotengine/godot-demo-projects: Demonstration and Template Projects](https://github.com/godotengine/godot-demo-projects)
-- [ ] [gdquest-demos/godot-4-3d-third-person-controller: Godot 4 demo with a plug-and-play 3D Third-Person Shooter (TPS) character controller inspired by games like Ratchet and Clank.](https://github.com/gdquest-demos/godot-4-3d-third-person-controller)
-- [ ] [Godot 3 Tutorial Series - YouTube](https://www.youtube.com/playlist?list=PLda3VoSoc_TSBBOBYwcmlamF1UrjVtccZ)
-- [ ] [[research/Heartbeast-Godot_Tutorials]]
-- [ ] [[research/HK-SHAO-Godot_Raytracing_Demo]]
-- [ ] [[research/Manzur_and_Marques-Godot_Engine_Game_Development]]
-- [ ] [[research/Godot_Community-Godot_demo_projects]]

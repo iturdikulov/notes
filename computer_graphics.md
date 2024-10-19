@@ -2,7 +2,7 @@
 date: 2023-03-08
 tags:
   - inbox
-  - bridge
+  - base
 sr-due: 2024-01-28
 sr-interval: 1
 sr-ease: 205
@@ -26,10 +26,3 @@ sr-ease: 205
 ![](https://www.youtube.com/watch?v=hTpcOmlvCEQ)\
 _Excellent example of computer graphics (rendered video) from branch education_
 
-## References
-
-- [ ] [Shadertoy BETA](https://www.shadertoy.com/)
-
-- [Компьютерная графика](http://compgraphics.info/)
-- [Real Time VFX](https://realtimevfx.com/)
-- [RenderDoc](https://renderdoc.org/)

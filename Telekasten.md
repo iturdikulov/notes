@@ -4,8 +4,7 @@ external:
 date: 2023-04-06
 tags:
   - inbox
-  - SR_software
-  - SR_vim
+  - productivity
 sr-due: 2024-05-20
 sr-interval: 115
 sr-ease: 286
@@ -45,6 +44,6 @@ or globally (`:h telekasten.link_notation`). Examples:
 - Paste images from clipboard (`L`), but I prefer insert links
 - Insert links to images (`I`)
 - Image previews, via `catimg`, `viu`, or extension
-- Calendar support (`c`), but I prefer to use [[Taskwarrior]] and [[khal]]
+- Calendar support (`c`), but I prefer to use [[Taskwarrior]] and [[Thunderbird]]
 
 ## TODO: Plugins

@@ -2,8 +2,7 @@
 date: 2023-03-18
 tags:
   - inbox
-  - SR_computer_science
-  - SR_base
+  - base
 sr-due: 2024-07-31
 sr-interval: 21
 sr-ease: 187
@@ -13,7 +12,6 @@ sr-ease: 187
 
 What's Big O notation?
 &#10;
-Способ сравнения темпов роста различных функций.
 > Way of comparing rates of ==growth== of different functions, which depending
 > on function argument size. It is often used to compare the efficiency of
 > different algorithms, which is done by calculating how much memory is needed
@@ -98,7 +96,7 @@ $\mathcal{O}(log_2 N)$ is the Big O way of describing an algorithm that increase
 ==one== step each time the data is doubled. <!--SR:!2024-10-09,25,217-->
 
 $\mathcal{O}(log N)$ means that for $N$ data elements, the algorithm would take
-==$\log_{2} N$ (omitting 2)== steps. <!--SR:!2024-09-22,12,211-->
+==$\log_{2} N$ (omitting 2)== steps. <!--SR:!2024-11-01,24,211-->
 
 $\mathcal{O}(log N)$ means the algorithm takes as many steps as it takes to
 keep halving the data elements until we remain with ==1==. <!--SR:!2024-09-10,8,217-->

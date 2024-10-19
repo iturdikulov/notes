@@ -3,8 +3,6 @@ external:
   - https://github.com/brookhong/Surfingkeys
 date: 2023-03-27
 tags:
-  - bridge
-  - SR_vim
   - archive
   - inbox
 sr-due: 2024-01-30

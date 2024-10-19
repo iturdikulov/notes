@@ -1,9 +1,10 @@
 ---
-external: https://www.l2jserver.com/
+external:
+  - https://www.l2jserver.com/
 date: 2023-04-18
 tags:
   - inbox
-  - SR_software
+  - Java
 sr-due: 2024-01-28
 sr-interval: 3
 sr-ease: 267

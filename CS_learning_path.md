@@ -2,13 +2,15 @@
 date: 2024-01-15
 tags:
   - inbox
-  - bridge
+  - base
 sr-due: 2024-01-28
 sr-interval: 1
 sr-ease: 179
 ---
 
 # Computer science learning path
+
+My number `#2` learning path.
 
 Learning goals:
 
@@ -17,14 +19,13 @@ Learning goals:
 program/computing system.
 - Make world better with efficient written programs, which solve human problems.
 
-Computer science and
-[[how_I_learn_programming_and_software_development|programming and software
-development]] learning plans are most important in my learning path.
+Computer science is closely related to
+[[programming_learning_path|programming learning path]].
 
-## Specific topics
+## High-level topics
 
-- [[computational_complexity]]
-- [[big_O_notation]]
+- [[computational_complexity|Computational complexity]]
+- [[big_O_notation|Big O notation]]
 - Asymptotic analysis
 - Data Structures
     - [[array]]
@@ -43,7 +44,7 @@ development]] learning plans are most important in my learning path.
     - [[heap]] / Priority Queue / Binary Heap
     - balanced search trees (general concept, not details)
     - traversals: preorder, inorder, postorder, BFS, DFS
-- [[sorting_algorithm|Sorting]]
+- [[sorting_algorithm|Sorting algorithm]]
     - [[selection_sort]]
     - [[insertion_sort]]
     - heapsort
@@ -126,6 +127,7 @@ development]] learning plans are most important in my learning path.
 - [ ] [Computerphile - Turing Machines Explained](https://www.youtube.com/watch?v=dNRDvLACg5Q)
 
 - [/] [[research/Wengrow-Data_structures_and_algorithms|Wengrow - Data structures and algorithms]]
+- [ ] https://education.yandex.ru/handbook/algorithms
 - [/] [The Last Algorithms Course You'll Need](https://frontendmasters.com/courses/algorithms/)
 - [/] [[research/Petzold-Kod|Чарльз Петцольд - Код Тайный Язык Информатики]]
 - [<] [[research/Polya-How_to_solve_it|Polya - How to solve it]]

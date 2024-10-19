@@ -2,7 +2,6 @@
 date: 2023-06-18
 tags:
   - inbox
-  - SR_software
 sr-due: 2024-01-30
 sr-interval: 4
 sr-ease: 270
@@ -16,7 +15,7 @@ sr-ease: 270
 > — <cite>[KOReader](http://koreader.rocks/)</cite>
 
 I frequently use it to read mostly fiction books on my
-[[my_inventory##Kindle paperwhite|kindle_paperwhite]].
+[[my_inventory##Kindle paperwhite|kindle paperwhite]].
 
 User guide wit my notes here:
 [[research/KOReader_Community-KOReader_user_guide|user guide]].

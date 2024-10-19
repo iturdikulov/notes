@@ -1,9 +1,10 @@
 ---
 date: 2023-07-23
-external: https://nixos.org/
+external:
+  - https://nixos.org/
 tags:
   - inbox
-  - SR_software
+  - Unix
 sr-due: 2024-02-07
 sr-interval: 12
 sr-ease: 230

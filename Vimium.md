@@ -1,9 +1,8 @@
 ---
 date: 2023-06-04
 tags:
-  - bridge
-  - SR_vim
   - inbox
+  - productivity
 sr-due: 2024-02-21
 sr-interval: 26
 sr-ease: 287
@@ -19,7 +18,7 @@ sr-ease: 287
 
 Install via the [Chrome web store](https://chrome.google.com/extensions/detail/dbepggeogbaibhgnhhndojpepiihcmeb) or the [Firefox Add-ons site](https://addons.mozilla.org/en-GB/firefox/addon/vimium-ff/).
 
-## Keyboard Bindings
+## Keyboard bindings
 
 Modifier keys are specified as `<c-x>`, `<m-x>`, and `<a-x>` for ctrl+x, meta+x, and alt+x
 respectively. For shift+x and ctrl-shift-x, just type `X` and `<c-X>`. See the next section for how to
