@@ -58,7 +58,7 @@ What I'm currently learning, with [[queue]] order.
 
 - [x] [[research/Python_Community-Python_Tutorial|Python tutorial]], to learn
 essentials of Python.
-- [/] [[Python]] langugage "basics" (own project)
+- [/] [[Python]] note improvements
 - [ ] [[asyncio]]
 - [ ] [[SQL]]
 - [ ] [Ядро планеты Python / Хабр](https://habr.com/ru/articles/728568/)
@@ -66,7 +66,6 @@ essentials of Python.
 - [ ] [Architecture Patterns with Python](https://www.cosmicpython.com/book/preface.html)
 - [ ] [Getting Started With Testing in Python – Real Python](https://realpython.com/python-testing/#writing-integration-tests)
 - [ ] [[aio-pika - Wrapper for the aiormq for asyncio and humans](https://aio-pika.readthedocs.io/en/latest/rabbitmq-tutorial/1-introduction.html)
-- [ ] [Addressing merge conflicts - GitHub Docs](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts)
 - [ ] [[research/Ramalho-Fluent_Python|Ramalho - Fluent_Python]]
 - [ ] [A Tour of Go](https://go.dev/tour/)
 - [ ] [[research/Stolyarov-Programming_volume_1_0_introduction|Stolyarov - intorudction]]
