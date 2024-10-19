@@ -142,20 +142,9 @@ I also use limited subset of Vimium keybindings:
 - Focus input::`gi`
 - Visit previous page::`<C-6>`
 
-## DWM
+## Hyprland
 
-My main window manager is [[DWM]].
-
-Here is a list of the most used shortcuts:
-
-- First virtual desktop, primary::`s-1`
-- Launch terminal::`s-S-RET`
-- Menu for running programs like::`s-space`
-- Kill active window.::`s-S-c`
-- Make window full-screen.::`s-f` <!--SR:!2024-05-02,3,245-->
-- Toggle the top bar.::`s-b`
-- List Active Windows::`s-a` <!--SR:!2024-05-02,3,245-->
-- Pass menu::`s-p`
+TODO: add
 
 ## MPV
 
