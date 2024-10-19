@@ -2,8 +2,7 @@
 date: 2024-01-01
 tags:
   - inbox
-  - SR_computer_graphics
-  - SR_game
+  - Godot
 directory: ~/Computer/graphics/Heartbeast-Godot_Tutorials/
 sr-due: 2024-01-29
 sr-interval: 3
@@ -81,3 +80,9 @@ You can select which frame will be auto-played on load by using AutoPlay button.
 You can drag & drop nodes into text editor. Before drop hold `Ctrl` (initially
 don't hold it) to create `onready` variable. If you want to automatically add
 types in this case, enable it in Text Editor -> Completion -> Add Type Hints.
+
+## External links
+
+- [Galaxy-Defiance](https://github.com/uheartbeast/Galaxy-Defiance)
+- [Heartbeast - YouTube](https://www.youtube.com/@uheartbeast/videos)
+

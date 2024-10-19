@@ -4,9 +4,8 @@ date: 2002
 external:
   - https://web.stanford.edu/class/msande91si/www-spr04/readings/week1/InternetWhitepaper.htm
 tags:
-  - research
   - inbox
-  - SR_development
+  - network
 sr-due: 2024-02-11
 sr-interval: 17
 sr-ease: 248

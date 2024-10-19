@@ -2,8 +2,7 @@
 date: 2023-09-21
 tags:
   - inbox
-  - bridge
-  - SR_programming
+  - base
 sr-due: 2024-01-29
 sr-interval: 2
 sr-ease: 223
@@ -28,6 +27,6 @@ frontend development.
 
 Source of articles and materials:
 
-- [[HTML]], note with collection of articles and materials about HTML.
-- [[CSS]], about CSS.
-- [[JavaScript]], about JavaScript.
+- [[research/HTML]], note with collection of articles and materials about HTML.
+- [[research/CSS]], about CSS.
+- [[research/JavaScript]], about JavaScript.

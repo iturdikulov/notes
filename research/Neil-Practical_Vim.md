@@ -3,9 +3,8 @@ author: Drew Neil
 date: 2015
 directory: ~/Computer/software/Neil-Practical_Vim
 tags:
-  - research
   - inbox
-  - SR_vim
+  - productivity
 sr-due: 2024-02-23
 sr-interval: 29
 sr-ease: 206
@@ -98,15 +97,29 @@ plugins?
 &#10;
 `:checkhealth`, but it can be slow!
 
+---
+
 # 1. The Vim Way \28
 
 If you know how to craft useful actions using vim, you can reuse them and repeat
 effectively.
 
+Big Vim brother is watching you.
+
 ## Tip 1. Meet the Dot Command \28
+
+Dot command is sort of "micro" macro.
 
 Dot command help::`:h .`.
 <!--SR:!2023-06-07,3,258-->
+
+Test snippet:
+```text
+Line one
+Line two
+Line three
+Line four
+```
 
 `x`::Delete character under cursor.
 
@@ -115,18 +128,21 @@ Dot command help::`:h .`.
 `dd`::Delete current line.
 <!--SR:!2023-06-07,3,266-->
 
-`.`::repeat last command.
+`.`::repeat last command, for example deletion
 
 `>{motion}`::Increase indentation depending on motion.
 
-`>G`::Increase indentation from the current line until the end of the file (in
-Markdown until section?).
+`>G`
+&#10;
+Increase indentation from the current line until the end of the file (in
+Markdown until section?). You can repeat this command, go down 1 line and press
+`.` key.
 
 `>}`::Increase indentation for paragraph forward.
 
 Do vim record keystrokes if we enter insert mode and type something?
 &#10;
-Yes, we can even repeat these keystrokes - `".p`
+Yes, we can even repeat or paste these keystrokes - `.`, `".p`
 <!--SR:!2023-06-08,3,258-->
 
 ## Tip 2. Don't Repeat Yourself \31
@@ -141,11 +157,13 @@ Difference between `i` and `a`?
 
 `a;`::Insert semicolon after cursor.
 
+Test snippet:
 ```javascript
-var foo = 1;
-var bar = "a";
-var foobar = foo + bar;
+var foo = 1
+var bar = "a"
+var foobar = foo + bar
 ```
+
 How run normal mode commands across a range?::use `:normal` command.
 <!--SR:!2023-06-05,1,238-->
 
@@ -236,6 +254,8 @@ Goal of this article search and replace interactive.
 `cw`::Change word from cursor to the end of the word.
 
 ## Tip 6. Meet the Dot Formula \38
+
+
 
 # Part I—Modes \40
 

@@ -2,7 +2,7 @@
 date: 2022-12-29
 tags:
   - inbox
-  - SR_programming
+  - base
 sr-due: 2024-01-28
 sr-interval: 1
 sr-ease: 188
@@ -13,7 +13,16 @@ sr-ease: 188
 TODO: add term
 https://en.wikipedia.org/wiki/Category:Programming_principles
 
-DRY::Don't Repeat Youself
+DRY
+&#10;
+Don't Repeat Youself. Avoid writing the same code in multiple places.
+This principle make your code more maintainable when you need to change it.
+
+Why repeating code is bad?
+&#10;
+- If you need to change it, you have to change it in multiple places
+- If you forget to change it in one place, you'll have a bug
+- It's more work to write it over and over again
 
 KISS::Keep It Simple, Stupid
 

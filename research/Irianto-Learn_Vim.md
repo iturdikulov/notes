@@ -2,9 +2,8 @@
 author: Igor Irianto
 date: 2021
 tags:
-  - research
   - inbox
-  - SR_vim
+  - productivity
 external:
   - https://learnvim.irian.to
 directory: ~/Computer/software/Irianto-Learn_Vim

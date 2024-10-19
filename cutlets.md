@@ -2,7 +2,7 @@
 date: 2023-03-11
 tags:
   - inbox
-  - SR_IRL
+  - IRL
 external: https://based.cooking/pozharskiye-cutlets/
 sr-due: 2024-01-28
 sr-interval: 3

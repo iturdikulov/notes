@@ -4,9 +4,8 @@ external:
   - https://www.raylib.com/index.html
 date: 2023
 tags:
-  - research
   - inbox
-  - SR_computer_graphics
+  - computer_graphics
 directory: ~/Computer/graphics/stash/Raylib_Community-Raylib
 sr-due: 2024-07-04
 sr-interval: 161

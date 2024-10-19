@@ -2,8 +2,7 @@
 date: 2023-09-14
 tags:
   - inbox
-  - research
-  - SR_computer_graphics
+  - computer_graphics
 directory: ~/Computer/graphics/OpenCV_Realtime_Angle_Calculation/
 sr-due: 2024-02-08
 sr-interval: 14

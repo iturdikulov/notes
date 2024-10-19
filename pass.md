@@ -2,7 +2,7 @@
 date: 2023-03-06
 tags:
   - inbox
-  - SR_software
+  - cryptography
 sr-due: 2024-02-05
 sr-interval: 8
 sr-ease: 250
@@ -51,6 +51,8 @@ Application passwords just haven't tld, like
 
 I also use passwords groups, like business, email, social, etc.
 
-## References
+## External links
 
 - [pass - ArchWiki](https://wiki.archlinux.org/title/Pass)
+- [Password store best practices](https://github.com/fpco/best-practices/blob/master/password-store.md)
+

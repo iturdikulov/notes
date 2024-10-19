@@ -1,9 +1,9 @@
 ---
 date: 2023-03-13
-external: https://daringfireball.net/projects/markdown/syntax
+external:
+  - https://daringfireball.net/projects/markdown/syntax
 tags:
-  - bridge
-  - SR_productivity
+  - doc
   - inbox
 sr-due: 2024-01-29
 sr-interval: 4
@@ -124,6 +124,8 @@ You can also use inline footnotes. ^[notice that the carat goes outside of the b
     `{ my code }`
 
     Add as many paragraphs as you like.
+
+
 
 ## TODO
 

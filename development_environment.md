@@ -2,7 +2,7 @@
 date: 2023-03-05
 tags:
   - inbox
-  - bridge
+  - productivity
 sr-due: 2024-01-29
 sr-interval: 3
 sr-ease: 252
@@ -35,6 +35,6 @@ sr-ease: 252
   - [[fzf]]
 - Office
   - [[Zathura]]
-  - [[Latex]]
+  - [[LaTex]]
 - Mouseless_workflow
 - [[keyboard_shortcut]]

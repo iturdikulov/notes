@@ -2,9 +2,7 @@
 author: Thomas H. Cormen
 date: 2013
 tags:
-  - research
   - inbox
-  - SR_computer_science
 sr-due: 2024-05-07
 sr-interval: 103
 sr-ease: 228

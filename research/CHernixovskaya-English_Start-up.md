@@ -2,8 +2,7 @@
 date: 2023-09-17
 tags:
   - inbox
-  - research
-  - SR_english
+  - linguistic
 author: Наталья Черниховская
 directory: ~/Arts_and_Entertainment/english/Черниховская-English_Start-up/
 sr-due: 2024-04-07

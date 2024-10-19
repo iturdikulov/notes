@@ -2,7 +2,7 @@
 date: 2023-04-02
 tags:
   - inbox
-  - archive
+  - productivity
 sr-due: 2024-02-03
 sr-interval: 6
 sr-ease: 249

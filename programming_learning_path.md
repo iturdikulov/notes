@@ -2,8 +2,7 @@
 date: 2024-01-15
 tags:
   - inbox
-  - bridge
-  - bridge
+  - base
 sr-due: 2023-01-28
 sr-interval: 1
 sr-ease: 161
@@ -57,14 +56,16 @@ useful.
 
 What I'm currently learning, with [[queue]] order.
 
-- [/] [[asyncio]]
-- [ ] [[Python]] "basics" (own project)
-- [ ] [Ядро планеты Python. Интерактивный учебник / Хабр](https://habr.com/ru/articles/728568/)
-- [ ] [Пайтон Джуньор Плюс, или путеводитель начинающего Python-программиста / Хабр](https://habr.com/ru/articles/697760/)
+- [x] [[research/Python_Community-Python_Tutorial|Python tutorial]], to learn
+essentials of Python.
+- [/] [[Python]] langugage "basics" (own project)
+- [ ] [[asyncio]]
+- [ ] [[SQL]]
+- [ ] [Ядро планеты Python / Хабр](https://habr.com/ru/articles/728568/)
+- [ ] [Python High-level essentials / Хабр](https://habr.com/ru/articles/697760/)
 - [ ] [Architecture Patterns with Python](https://www.cosmicpython.com/book/preface.html)
 - [ ] [Getting Started With Testing in Python – Real Python](https://realpython.com/python-testing/#writing-integration-tests)
 - [ ] [[aio-pika - Wrapper for the aiormq for asyncio and humans](https://aio-pika.readthedocs.io/en/latest/rabbitmq-tutorial/1-introduction.html)
-- [ ] [[SQL]]
 - [ ] [Addressing merge conflicts - GitHub Docs](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts)
 - [ ] [[research/Ramalho-Fluent_Python|Ramalho - Fluent_Python]]
 - [ ] [A Tour of Go](https://go.dev/tour/)
@@ -109,7 +110,6 @@ learning materials.
 - [[research/Real_Python_Team-Python_Tutorials|Real Python Tutorials]] and [Real Python Purchases](https://realpython.com/account/purchases/)
 
 - [Documentation](https://docs.python.org/3/)
-- [[research/Python_Community-Python_Tutorial|Python tutorial]], to learn essentials of Python.
 - [[research/Python_Community-Python_FAQ|FAQ]]
 - [[research/Python_Community-Python_Glossary|Glossary]]
 - [[research/Python_Community-Python_Standard_Library|Standart library]]
@@ -229,6 +229,7 @@ My secondary language, here stored collection of [[research/Go|Go]] learning
 materials.
 
 - [Lean the Go Programming Language](https://go.dev/learn/)
+- [[learn Go in Y minutes|research/learnxinyminutes-Learn_Go_in_Y_minutes]]
 
 ## JavaScript
 

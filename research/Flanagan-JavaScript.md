@@ -2,9 +2,8 @@
 author: David Flanagan
 date: 2020
 tags:
-  - research
   - inbox
-  - SR_programming
+  - JavaScript
 sr-due: 2024-04-12
 sr-interval: 78
 sr-ease: 228

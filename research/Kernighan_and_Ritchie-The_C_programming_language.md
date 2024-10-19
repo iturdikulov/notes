@@ -1,9 +1,8 @@
 ---
 directory: ~/Computer/programming/Kernighan_and_Ritchie-The_C_programming_language
 tags:
-  - research
   - inbox
-  - SR_programming
+  - C
 sr-due: 2025-11-29
 sr-interval: 674
 sr-ease: 236
@@ -101,7 +100,7 @@ main()
 C program, whatever its size, consists of ==functions and variables==.
 <!--SR:!2023-08-04,66,287-->
 
-Is this code valid in [[C]]?
+Is this code valid in [[research/C]]?
 ```c
 printf("hello, world
 ");

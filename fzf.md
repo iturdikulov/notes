@@ -2,7 +2,7 @@
 date: 2023-03-03
 tags:
   - inbox
-  - SR_productivity
+  - productivity
 sr-due: 2024-02-03
 sr-interval: 8
 sr-ease: 253
@@ -23,7 +23,7 @@ existing ones), and they are very handy:
 
 ## Fuzzy completion mode
 
-- Select multiple items with TAB key::`e **` and press `<TAB>`
+- Select multiple items in FZF::`e **` and press `<TAB>` <!--SR:!2024-09-22,1,233-->
 - Select Files under parent directory::`e ../**<TAB>`
 - Select Files under parent directory that match `fzf`::`e ../fzf**<TAB>`
 - Select Files under your home directory::`e ~/**<TAB>`

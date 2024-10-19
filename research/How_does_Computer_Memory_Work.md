@@ -4,7 +4,6 @@ external: https://www.youtube.com/watch?v=7J7X7aZvMXQ
 author: Branch Education
 tags:
   - inbox
-  - research
 sr-due: 2024-07-02
 sr-interval: 1
 sr-ease: 220

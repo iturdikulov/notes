@@ -3,8 +3,7 @@ author: Oz Nova; Myles Byrne
 date: 2023-03-08
 tags:
   - inbox
-  - research
-  - SR_computer_science
+  - base
 external:
   - https://teachyourselfcs.com/
 sr-due: 2024-01-31

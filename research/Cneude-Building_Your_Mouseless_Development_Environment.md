@@ -1,11 +1,10 @@
 ---
 author: Matthieu Cneude
 date: 2022
-external: 
+external:
 tags:
   - inbox
-  - research
-  - SR_productivity
+  - productivity
 directory: ~/Computer/software/Cneude-Building_Your_Mouseless_Development_Environment/
 sr-due: 2024-02-07
 sr-interval: 13

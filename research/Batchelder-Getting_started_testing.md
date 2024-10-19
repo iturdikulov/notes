@@ -5,9 +5,8 @@ date: 2014-04-24
 external:
   - https://www.youtube.com/watch?v=FxSsnHeWQBY
 tags:
-  - research
-  - SR_programming
   - inbox
+  - testing
 sr-due: 2024-01-29
 sr-interval: 2
 sr-ease: 226

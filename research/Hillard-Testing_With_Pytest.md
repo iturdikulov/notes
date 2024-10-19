@@ -4,11 +4,10 @@ author:
 external:
   - https://realpython.com/pytest-python-testing/
 tags:
-  - research
-  - SR_programming
   - inbox
+  - testing
 directory: ~/Computer/programming/Hillard-Testing_With_Pytest
-sr-due: 2024-02-11
+sr-due: 2023-01-28
 sr-interval: 15
 sr-ease: 226
 ---

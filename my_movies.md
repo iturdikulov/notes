@@ -2,7 +2,7 @@
 date: 2023-03-11
 tags:
   - inbox
-  - bridge
+  - IRL
 sr-due: 2024-02-07
 sr-interval: 10
 sr-ease: 252
@@ -36,7 +36,9 @@ Good inspiration for watching movies.
 
 ## To watch/rewatch
 
+- [ ] [Тихое место фильм, 2018](https://www.kinopoisk.ru/film/1044906/?utm_referrer=www.google.com))
 - [ ] The Never Ending Story
+- [ ] день курка
 - [ ] 9 дней одного года
 - [ ] Гнев человеческий
 - [ ] Lord of the Rings: The Two Towers (2002)
@@ -56,7 +58,12 @@ Good inspiration for watching movies.
 - [ ] Дед Мороз и серый волк
 - [ ] Маленькая смерть, 2014
 - [ ] Штамм (сериал 2014 – 2017)
-- [ ] Матрица: Воскрешение (2021)
+- [ ] [Воины света фильм, 2009](https://www.kinopoisk.ru/film/195718/)
+- [ ] [Человек дождя фильм, 1988](https://www.kinopoisk.ru/film/519/)
+- [ ] Остров Джованни (2014)
+
+- [x] [Гандахар: Световые годы (1988)](https://www.youtube.com/watch?v=njpeVDkE27Y)
+- [x] [Математик и черт](https://www.youtube.com/watch?v=52yhBkkulXw)
 - [x] The Hobbit: An Unexpected Journey (2012), 9.1/10
 - [x] Невероятный мир глазами Энцо, dramatic, family movie 9.2/10
 - [x] Sicario (2015), after second watch less emotional/interesting, 8.5/10
@@ -66,6 +73,7 @@ Good inspiration for watching movies.
       fantasy, magic, RPG! 9.85/10
 - [x] Прогулка с Богами: Два мира / Along with the Gods: The Two Worlds
       Sensitively and beautifully told story about the afterlife. 8.9/10
+- [!] Матрица (1999) 9.3/10, в целом отлично, некоторые моменты уже устарели
 - [!] Меланхолия (фильм, 2011), depressive a little, but not a lot for me. Make
   me think about life. 9.1/10
 - [!] Интерстеллар (2014) 9/10
@@ -76,6 +84,9 @@ Good inspiration for watching movies.
 - [ ] Castelvania
 - [ ] Ведьмина служба доставки
 - [ ] Лесная братва (2006)
+- [ ] [Лучший в мире ассасин переродился в другом мире аристократом](https://www.kinopoisk.ru/series/4525166/)
+
+- [x] [Доктор Стоун (сериал 2019)](https://www.kinopoisk.ru/series/1249511)
 - [x] Кунг-фу Панда / Kung Fu Panda (2008). Tigress animations are very good.
       Humor also good. 9.1/10
 - [x] Кунг-фу Панда 2 / Kung Fu Panda 2 (2011). Probably a little bit weaker
@@ -83,6 +94,11 @@ Good inspiration for watching movies.
 - [x] Поднятие уровня в одиночку, Сезон 1, 8.9/10
 - [x] Другой мир не может противостоять силе мгновенной смерти, Сезон 1, 5/10
 - [x] ВАЛЛ·И (2008), sensitive, happy end, for children, 8/10
+
+## Series
+
+- [x] Экипаж 314 (сериал, 1-2 сезоны), 2021, nice, but became boring at some
+point 7/10.
 
 ## Inbox
 
@@ -92,7 +108,6 @@ Good inspiration for watching movies.
 - [ ] Магия и мускулы
 - [ ] Читерский навык из другого мира сделал меня непобедимым
 
-- [ ] Экипаж 315
 - [ ] Создатель (2023)
 - [ ] Другая Земля (2011)
 - [ ] Армагеддец (2013)
@@ -130,6 +145,7 @@ Good inspiration for watching movies.
 - [ ] Начало (2010)
 - [ ] Трудно быть Богом (2013)
 - [ ] Фонтан (2006)
+- [ ] Феномен 1996
 - [ ] Мир будущего (2015)
 - [ ] Паприка (2006)
 - [ ] Грань будущего (2014)
@@ -155,6 +171,7 @@ Good inspiration for watching movies.
 - [ ] Кадкина всякий знает (1976)
 - [ ] [Подборка советских мультфильмов - YouTube](https://www.youtube.com/playlist?list=PLVFin4-3-TaoVNWa52pLY1RMGIq6ufdjI)
 - [ ] [Фуриоса Хроники Безумного Макса фильм, 2024](https://www.kinopoisk.ru/film/1388409/?utm_referrer=www.google.com)
+- [ ] спектральный 2016
 
 
 ## External links

@@ -4,7 +4,7 @@ directory:
   - ~/Science/math/
 tags:
   - inbox
-  - SR_mathematics
+  - mathematics
 sr-due: 2024-02-10
 sr-interval: 2
 sr-ease: 209
@@ -33,3 +33,10 @@ sr-ease: 209
 
 I have [[mathematics_learning_path|learning plan]] to understand mathematics
 better and use in my life and work.
+
+## Basics
+
+Pi = L / d ≈ 3.1415926535897932384626433832795028841971693993751058209749445923078164
+Отношение длины окружности к диаметру круглого объекта или круга.
+
+Пи иррационально, нет двух таких целых чисел чтобы получить число Pi.

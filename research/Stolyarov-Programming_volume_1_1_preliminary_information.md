@@ -5,14 +5,13 @@ date: 2021
 external:
   - http://www.stolyarov.info/books/programming_intro/vol1
 tags:
-  - research
   - inbox
-  - SR_programming
-sr-due: 2024-01-26
-sr-interval: 1
+  - base
+sr-due: 2024-07-30
+sr-interval: 20
 sr-ease: 130
 directory:
-  - ~/Computer/programming/Столяров-Программирование
+  - ~/Computer/programming/Stolyarov-Programmirovaniye/Tom_1_Azy_Programmirovaniya/
 ---
 
 # 1. Preliminary information (Предварительные сведения)
@@ -57,12 +56,10 @@ On pascaline it was little different (check video and description in book),
 `99999 - x + y`.
 
 In 1673 Gottfried Wilhelm Leibniz created calculating machine, with supported
-==sum, subtraction, multiplication and division==.
-<!--SR:!2024-02-22,2,152-->
+==sum, subtraction, multiplication and division==. <!--SR:!2024-08-18,1,132-->
 
 General property (disadvantage) of arithmometer is it can't do calculations
-without ==human help==, if you need to do more than one operation.
-<!--SR:!2024-02-24,5,182-->
+without ==human help==, if you need to do more than one operation. <!--SR:!2024-08-28,8,182-->
 
 1823 Charles Babbage started working on difference engine, which can do
 calculations using method of ==divided differences==, but he failed to finish
@@ -122,27 +119,22 @@ gates.
 
 One of first programmable computers (electrical) was ==ENIAC==, which used
 17,468 vacuum tubes. It was created by John Mauchly and J. Presper Eckert in
-1946.
-<!--SR:!2024-02-24,6,202-->
+1946. <!--SR:!2024-08-28,11,202-->
 
-Colossus Mark I/II was a set of computers developed by ==British== codebreakers
-in the years 1943–1945 to help in the cryptanalysis of the Lorenz cipher. But
-they are was destroyed after war (by Tommy Flowers, creator of these machines)
+Colossus Mark I/II was a set of computers developed by ==British== (country) codebreakers in the years 1943–1945 to help in the cryptanalysis of the Lorenz cipher. But they are was destroyed after war (by Tommy Flowers, creator of these machines)
 on Winston Churchill's order.
+_![Colossus Mark](https://upload.wikimedia.org/wikipedia/commons/e/e4/Frontal_view_of_the_reconstructed_Colossus_at_The_National_Museum_of_Computing%2C_Bletchley_Park.jpg)_
 <!--SR:!2024-02-23,5,202-->
-
 
 #### Computer generations
 
 Distinguishing by generation only electronic computers, not mechanical ones.
 
 A vacuum-tube computer is a ==first==-generation computer, is a
-computer that uses vacuum tubes for logic circuitry.
-<!--SR:!2024-03-01,12,227-->
+computer that uses vacuum tubes for logic circuitry. <!--SR:!2024-09-12,26,227-->
 
 First generation computers have one very important principle, principle of
-==stored-program in some memory==, (nowadays mostly electronically).
-<!--SR:!2024-02-26,5,207-->
+==stored-program== in some memory (even non-electronic). <!--SR:!2024-08-20,3,187-->
 
 Program stored in sequences of commands codes in the same memory same as data,
 memory is interchangeable or uniform, commands codes don't differ fundamentally.
@@ -158,8 +150,7 @@ program can be interpreted as data and another program can execute it).
 What useful computer illness is?
 &#10;
 If you want to be programmer you need to play with computers, this give you
-infinite motivation to learn programming and more importantly it's fun!
-<!--SR:!2024-02-22,4,182-->
+infinite motivation to learn programming and more importantly it's fun! <!--SR:!2024-08-25,5,182-->
 
 Storing program in memory as instructions, saving a lot of time to change
 programs, you can load another one from external storage (tapes or cards) and
@@ -227,10 +218,9 @@ commercial purposes.
 In 1953 created first full transistor machines and in 1954 IBM created first
 commercial computer - IBM 608 Transistor Calculator.
 
-Next third-generation computers used ==integrated circuits (IC's)== and at this
+Third-generation computers used ==integrated circuits (IC's)== and at this
 point computers started producing massively, size was like small closet and
-aviability of computers was much higher.
-<!--SR:!2024-02-23,2,150-->
+aviability of computers was much higher. <!--SR:!2024-08-28,1,130-->
 
 In 1971 Intel created one of first microprocessor (instead multiple IC's used
 only one for microprocessor) - Intel 4004, which was aviable on market.
@@ -276,23 +266,20 @@ alphabet). And any information processing is function computing.
 
 In [[computer_architecture|computer architecture]] system bus (historically also
 called data highway or databus) is a communication system that
-==transfers data== between components inside a computer, or between computers.
-<!--SR:!2024-02-23,3,162-->
+==transfers== data between components inside a computer, or between computers. <!--SR:!2024-02-23,3,162-->
 
 Physically bus is many (tens) ==parallel wires==.
 
 Main 3 components (computer devices) which connected to bus (computing) are:
 &#10;
 To the bus connecting central processor unit (CPU), random access memory (RAM)
-and controllers.
-<!--SR:!2024-02-22,1,142-->
+and controllers. <!--SR:!2024-08-28,1,142-->
 
 Main controllers work is to control computer ==devices, yes all devices==.
 <!--SR:!2024-02-24,3,162-->
 
 CPU through ==bus== (communication, like send/receive data) interact with other
-computer components.
-<!--SR:!2024-02-24,3,162-->
+computer components. <!--SR:!2024-08-24,5,162-->
 
 RAM and controllers is designed to ignore any information, which go through bus,
 except ==addressed== especially to specific RAM data bank or controller.
@@ -310,17 +297,14 @@ Three main parts of system bus:
 Here my notes about how RAM is working:
 [[research/How_does_Computer_Memory_Work]]
 
-From schematic perspective each wire can be in 2 positions, logical ==1 or 0==.
-<!--SR:!2024-02-22,4,182-->
+From schematic perspective each wire can be in 2 positions, logical ==1 or 0==. <!--SR:!2024-08-19,2,162-->
 
 Combinations of 0 and 1 make an address, and all devices except CPU working with
 bus only when address from bus ==equal to their address==.
 <!--SR:!2024-02-25,7,182-->
 
-Memory (RAM) consist of identical memory addressable locations, which constitute
-an addressable space. Which is $$2^{N}$$ addresses, where N is
-==number of wires or bus size==.
-<!--SR:!2024-02-22,2,152-->
+Physical Memory (RAM) consist of identical memory addressable locations, which constitute an addressable space. Which is $$2^{N}$$ addresses, where N is
+==number of wires or bus size==. <!--SR:!2024-08-23,3,152-->
 
 Modern hardware operates by using virtual addressing memory (virtual memory),
 it's different from physical addressing.
@@ -329,20 +313,17 @@ Is data is transferring in data bus in parallel?
 &#10;
 Through data bus memory values usually transferred in parallel, for example we
 can read/write 32 bits of information from RAM in parallel (utilize multiple
-memory locations).
-<!--SR:!2024-02-22,4,182-->
+memory locations). <!--SR:!2024-08-26,9,182-->
 
 DRAM can't work without ==electricity (power)== and data lost without it (not
-completely, especially if RAM will be frozen at -60°С [^2]).
-<!--SR:!2024-02-26,7,182-->
+completely, especially if RAM will be frozen at -60°С [^2]). <!--SR:!2024-08-29,12,182-->
 
-Difference between persistent memory and volatile memory (two differences)?
+Differences between persistent memory and volatile memory? Can CPU directly work with persistent memory?
 &#10;
 Opposite to Volatile memory (SRAM - CPU cache/registers, DRAM), persistent
 memory (SSD/HDD) is differnt, it can store data long time, without power. CPU
 can't work directly with it, required to use special controllers and computer
-programs (drives).
-<!--SR:!2024-02-23,3,162-->
+programs (drives). <!--SR:!2024-08-19,2,142-->
 
 Does CPU differentiate between persistent and volatile memory locations?
 &#10;
@@ -379,8 +360,7 @@ perform ==simple steps, instructions==.
 <!--SR:!2024-02-22,2,152-->
 
 Main work with information (for CPU, first place for data) carried out with
-==registers, fast storage==, each of them can store up to tens of bits.
-<!--SR:!2024-02-24,3,162-->
+==registers, fast storage==, each of them can store up to tens of bits. <!--SR:!2024-08-23,6,162-->
 
 Processor can do following operations (==instruction set==):
 - read and write memory locations
@@ -396,7 +376,7 @@ Each elementary instruction, which CPU is performing (it also CPU main goal) has
 operation code or ==machine code==.
 <!--SR:!2024-02-22,4,182-->
 
-How basically CPU instruction cycle is working?
+How basically CPU instruction cycle (fetch-decode-execute cycle) is working?
 &#10;
 Main parts of CPU instructions cycle (fetch-decode-execute cycle):
 - Instruction pointer or program counter (IP/PC, special register) store address
@@ -406,12 +386,10 @@ start location).
 location(s))
 - CPU increment PC value, which depends on command size (for example +3)
 - CPU decode instruction code and execute it
-- Goto cycle start
-<!--SR:!2024-02-22,1,132-->
+- Goto cycle start <!--SR:!2024-02-22,1,132-->
 
 Some machine codes can change the instruction sequence, for example jump to
-specific program place. This machine codes are called ==branch== instructions.
-<!--SR:!2024-02-23,3,162-->
+specific program place. This machine codes are called ==branch== instructions. <!--SR:!2024-08-30,3,142-->
 
 ==Branch== instructions are used to implement control flow in program loops and
 conditionals (i.e., executing a particular sequence of instructions only if
@@ -436,12 +414,10 @@ not usable.
 In early times all devices connected directly into CPU, but this is not easy to
 maintain (almost impossible), each day here new devices, and you need somehow
 support them and physically change your processor. To solve this issues,
-invented ==system bus== (which described above).
-<!--SR:!2024-02-25,4,182-->
+invented ==system bus== (which described above). <!--SR:!2024-08-25,6,182-->
 
 External peripheral devices connecting into system bus through ==controllers==.
-This is electronic circuit which can interact through system bus with CPU.
-<!--SR:!2024-02-24,3,162-->
+This is electronic circuit which can interact through system bus with CPU. <!--SR:!2024-08-21,2,142-->
 
 Typical scheme of controller interaction with CPU:
 &#10;
@@ -658,7 +634,7 @@ How to test first argument is not exists, and if true execute set of commands
 ```sh
 [ "$1" = "" ] && { echo "No argument"; exit 1; } # { block of commands }
 ```
-<!--SR:!2024-02-23,2,150-->
+<!--SR:!2024-08-20,1,130-->
 
 You can combine multiple commands into chains (link inputs/outputs) which are
 called ==pipeline==. Unlike graphical interface, CLI capabilities (which are
@@ -681,7 +657,7 @@ was replaced with X, so this OS was named ==Unix==.
 Ken Thompson and Brian Kernighan started porting this OS to PDP-11, and they
 also had new idea, use high-level programming language for new OS. They
 initially tried to use limited BCPL language, but it has too primitive, and they
-improved it and named [[C]] (next letter in alphabet). This work finished in
+improved it and named [[research/C]] (next letter in alphabet). This work finished in
 1973.
 
 In 1977 Unix was ported to different computer architecture (Interdata 8/32) by
@@ -781,8 +757,7 @@ After login in system default path is user's ==home== directory.
 `ls` used to list ==directory content==.
 
 Names which started with ==`.`== character are "invisible" (not visible when you
-use some commands, `ls` for example).
-<!--SR:!2024-02-24,3,162-->
+use some commands, `ls` for example). <!--SR:!2024-09-02,6,162-->
 
 Unix filenames can contain any number of dot characters in any position,
 `a.b..c...d....e` is valid filename.
@@ -798,8 +773,7 @@ specific user directory use ==`cd ~username`== command.
 If I started process with from some directory, can it change it?
 &#10;
 Yes. In Unix OS each running program (process) has own current directory (CWD)
-and each program can change it independently.
-<!--SR:!2024-02-24,3,162-->
+and each program can change it independently. <!--SR:!2024-08-24,4,162-->
 
 Check [[Unix_commands|Unix commands]] note to learn some of them (main are `cp,
 mv, rm, mkdir, rmdir, touch, less`).
@@ -841,15 +815,14 @@ No, you can use any number of spaces, for example `echo abra     kadabra` will
 generate same output as `echo abra kadabra`.
 
 Let say you need to remove file with spaces, you need somehow remove special
-role from space, and delete this file, how you can do it? How they work?
+role from space, and delete this file, which methods you can use (for filename)?
 &#10;
 Use one of these variants:
 1. `rm File\ with\ spaces.md`, here you escape spaces with `\` character.
 2. `rm 'File\ with\ spaces.md'`, escaping almost any character, except apostrophe
 3. `rm "File\ with\ spaces.md"`, escaping not any character (`\`, ````, `$`, `!`
    are not escaped).
-You can escape any other character with these variants.
-<!--SR:!2024-02-22,2,152-->
+You can escape any other character with these variants. <!--SR:!2024-08-18,1,132-->
 
 Quotes and apostrophes not splitting words, they just change special characters
 special meaning and become "invisible" for commands.
@@ -936,8 +909,7 @@ By using these opportunities you can potentially save hours of your time.
 In Unix programs usually execute until they not reach end
 ==of file/stream (EOF)==, if it's working with standard streams. With keyboard
 and command-line interpreter you can create this situation with `C-d` keybinding
-(create EOF condition to active program or interpreter itself).
-<!--SR:!2024-02-23,2,151-->
+(create EOF condition to active program or interpreter itself). <!--SR:!2024-08-18,1,131-->
 
 Sometimes programs ignoring EOF (not working with standard streams, or it was
 hangs up). In that case you need to send special signals by pressing one of two

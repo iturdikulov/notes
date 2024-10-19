@@ -2,7 +2,7 @@
 date: 2023-09-21
 tags:
   - inbox
-  - SR_IRL
+  - IRL
 external: https://based.cooking/pan-pizza/
 sr-due: 2024-01-28
 sr-interval: 3

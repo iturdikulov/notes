@@ -3,8 +3,7 @@ date: 2023-01-07
 directory: ~/Arts_and_Entertainment/literature/George Polya/How to solve it (2276)/
 tags:
   - inbox
-  - SR_programming
-  - research
+  - mathematics
 sr-due: 2024-05-12
 sr-interval: 108
 sr-ease: 250

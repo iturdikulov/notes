@@ -2,7 +2,7 @@
 date: 2024-08-18
 tags:
   - inbox
-  - SR_learn
+  - base
 author:
   - Julian Evans
 file: ~/Wiki/books/Evans-want_to_be_a_wizard.pdf
@@ -106,8 +106,7 @@ Is good idea to immediately integrate something which you want to learn (you
 haven't enough experience) into work?
 &#10;
 If you're learning something don't try to immediately integrate it into your
-work. Need to discuss and take time to understand the new knowledge.
-<!--SR:!2024-08-23,3,250-->
+work. Need to discuss and take time to understand the new knowledge. <!--SR:!2024-08-30,7,250-->
 
 ## [[../books/Evans-want_to_be_a_wizard.pdf#page=13|Learning on my own]]
 

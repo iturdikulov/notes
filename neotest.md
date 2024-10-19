@@ -4,8 +4,7 @@ external:
 date: 2023-03-19
 tags:
   - inbox
-  - SR_software
-  - SR_vim
+  - testing
 sr-due: 2024-01-29
 sr-interval: 2
 sr-ease: 223

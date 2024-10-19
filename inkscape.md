@@ -1,9 +1,10 @@
 ---
 date: 2023-03-28
-external: https://inkscape.org/
+external:
+  - https://inkscape.org/
 tags:
   - inbox
-  - SR_software
+  - computer_graphics
 sr-due: 2024-01-28
 sr-interval: 3
 sr-ease: 255

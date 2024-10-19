@@ -1,8 +1,8 @@
 ---
 tags:
-  - "research"
   - "inbox"
-  - "SR_vim"
+  - "inbox"
+  - "productivity"
 author: "Drew Neil"
 date: 2018
 sr-due: 1678809600

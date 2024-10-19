@@ -2,9 +2,7 @@
 date: 2023-03-12
 tags:
   - inbox
-  - bridge
-  - research
-  - SR_IRL
+  - IRL
 sr-due: 2024-01-28
 sr-interval: 1
 sr-ease: 163
@@ -20,140 +18,28 @@ Remember to always listen to your body and adjust the exercises or reps as
 needed. And don't forget to fuel your body with nutritious food and get plenty
 of rest and hydration to support your progress.
 
-## Initial steps
+Each workout session starting with stretching and preparation, I don't include
+it in the plan.
 
-- [ ] [50 Push-Ups Challenge](https://darebee.com/challenges/50-push-ups-challenge.html)
-- [ ] [Squat Challenge](https://darebee.com/challenges/squats-challenge.html)
-- [ ] [Ab Challenge](https://darebee.com/challenges/ab-challenge.html)
+## Learn
 
-### Wed 27 Dec 2023
+Before starting the plan, you need to learn how to do the exercises correctly.
+A good introduction about exercises:
+![We Need to Rethink Exercise](https://www.youtube.com/watch?v=lPrjP4A_X4s)
 
-- [x] 4/2/2 Push-ups
-- [x] 10/6/6 Squats, partially
-- [x] 30 sec plank
-- [ ] 10 sit-ups
-- [ ] 20 flutter kicks
+## Plan
 
----
+Feel levels:
 
-## Week 0. Prepare your body
+- Easy, maybe need to increase reps or sets
+- Good, keep going
+- Tired, maybe need to decrease reps or sets
 
-### [ ] Day 1
+| Date       | cm Lost | kg/10 Lost | Workout  | Reps | Weight | Feel |
+| ---------- | ------- | ---------- | -------- | ---- | ------ | ---- |
+| 2024-07-13 | 0       | 0          | Push-ups | 8x5  | own    |      |
 
-Morning:
-
-- [ ] 5 minutes of dynamic stretching (arm circles, leg swings, etc.)
-- [ ] 3 sets of 8 [bodyweight squats](https://darebee.com/exercises/squats-exercise.html)
-- [ ] 3 sets of 8 [push-ups](https://darebee.com/pushups-guide.html) (on knees or against a wall if necessary)
-
-
-### [ ] Day 2
-
-Morning:
-
-- [ ] 8 minutes of dynamic stretching (arm circles, leg swings, etc.)
-- [ ] 3 sets of 10 [bodyweight squats](https://darebee.com/exercises/squats-exercise.html)
-- [ ] 3 sets of 10 [push-ups](https://darebee.com/pushups-guide.html) (on knees or against a wall if necessary)
-
-Evening:
-
-- [ ] 5 minutes of dynamic stretching (arm circles, leg swings, etc.)
-
-## Week 1. Focus on building a foundation
-
-### Day 1
-
-- 5 minutes of dynamic stretching (arm circles, leg swings, etc.)
-- 3 sets of 10 bodyweight squats
-- 3 sets of 10 push-ups (on knees or against a wall if necessary)
-
-- 5 minutes of dynamic stretching (arm circles, leg swings, etc.)
-- 3 sets of 10 lunges (each leg)
-- 3 sets of 10 bench dips
-- 10-15 minutes of stretching and cool-down
-
-### Day 2
-
-- 10-15 minutes of dynamic stretching
-- 3 sets of 10 assisted pull-ups (using a sturdy table or bar)
-- 3 sets of 10 step-ups (each leg)
-- 3 sets of 10 tricep push-ups
-- 3 sets of 10 bodyweight rows (using a sturdy table or bar)
-- 10-15 minutes of stretching and cool-down
-
-### Day 3
-
-Rest or low-impact cardio (brisk walking, swimming, cycling, or yoga). Main idea
-of low-impact cardio is maintaining breathing (without shortness of breath)
-while performing it,
-
-### Days 4-6
-
-Repeat Days 1-3. You need to merge days 1-3 into one day.
-
-### Day 7 Rest or low-impact cardio
-
-## Week 2. Increase the intensity
-
-Days 8-10:
-- 10-15 minutes of dynamic stretching
-- 3 sets of 15 bodyweight squats
-- 3 sets of 15 push-ups
-- 3 sets of 15 lunges (each leg)
-- 3 sets of 15 bench dips
-- 3 sets of 10 assisted pull-ups (using a sturdy table or bar)
-- 10-15 minutes of stretching and cool-down
-
-Day 11: Rest or low-impact cardio
-
-Days 12-14: Repeat Days 8-10
-
-Day 15: Rest or low-impact cardio
-
-Week 3: Add in some plyometrics
-
-Days 16-18:
-- 10-15 minutes of dynamic stretching
-- 3 sets of 15 jump squats
-- 3 sets of 15 burpees
-- 3 sets of 10 jump lunges (each leg)
-- 3 sets of 15 tricep push-ups
-- 3 sets of 10 bodyweight rows (using a sturdy table or bar)
-- 10-15 minutes of stretching and cool-down
-
-Day 19: Rest or low-impact cardio
-
-Days 20-22: Repeat Days 16-18
-
-Day 23: Rest or low-impact cardio
-
-Week 4: Up the intensity even more
-
-Days 24-26:
-- 10-15 minutes of dynamic stretching
-- 3 sets of 20 jump squats
-- 3 sets of 20 burpees
-- 3 sets of 15 jump lunges (each leg)
-- 3 sets of 20 tricep push-ups
-- 3 sets of 15 bodyweight rows (using a sturdy table or bar)
-- 10-15 minutes of stretching and cool-down
-
-Day 27: Rest or low-impact cardio
-
-Days 28-29: Repeat Days 24-26
-
-Day 30: Rest or low-impact cardio
-
-TODO review:
-
-- [ ] [DAREBEE](https://darebee.com/)
-- [ ] [ExRx.net](https://www.exrx.net/)
-- [ ] [The Fitness Wiki](https://thefitness.wiki/)
-- [ ] Measure parameters (body, height)
-
-# Приветствуем в рекомендуемом тренировочном плане (Recommended Routine
-
-или RR)
+## Приветствуем в рекомендуемом тренировочном плане (Recommended Routine или RR)
 
 -   **Тренировочный план охватывает следующие цели:**
     -   Развитие силовых показателей
@@ -543,6 +429,9 @@ by /u/BaronMyrtle
 17. Руки в стороны - навстречу друг другу правый локоть и левое колено, и
     наоборот. 5-7 раз.
 
-## References
+## To-do
 
+- [ ] [50 Push-Ups Challenge](https://darebee.com/challenges/50-push-ups-challenge.html)
+- [ ] [Squat Challenge](https://darebee.com/challenges/squats-challenge.html)
+- [ ] [Ab Challenge](https://darebee.com/challenges/ab-challenge.html)
 - [[research/Volkov-Bioximiya_myshechnoj_deyatelnosti]]

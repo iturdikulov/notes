@@ -4,8 +4,7 @@ external:
 date: 2023-05-06
 tags:
   - inbox
-  - bridge
-  - SR_english
+  - linguistic
 sr-due: 2024-01-28
 sr-interval: 1
 sr-ease: 164

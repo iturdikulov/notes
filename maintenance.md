@@ -2,8 +2,7 @@
 date: 2023-03-12
 tags:
   - inbox
-  - bridge
-  - SR_productivity
+  - productivity
 sr-due: 2024-02-04
 sr-interval: 9
 sr-ease: 206
@@ -63,6 +62,7 @@ tags
 
 - [netdatanetdata The open-source observability platform everyone needs!](https://github.com/netdata/netdata)
 - [ ] base monitoring setup
+- [ ] monitoring, how much data writing daily
 - [ ] how inform about problems? (email, telegram, etc...)
 - [ ] backup monitoring setup
 - [ ] better arch maintenance script, add `iotop`?

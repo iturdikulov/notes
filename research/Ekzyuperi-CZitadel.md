@@ -2,10 +2,9 @@
 date: 2023-09-30
 tags:
   - inbox
-  - SR_fiction
-  - research
+  - IRL
 author: Antoine de Saint-Exupéry
-directory: "~/Arts_and_Entertainment/literature/Antoine de Saint Exupery/Malien'kii prints. Tsitadiel' (sbornik) (1002)/"
+directory: ~/Arts_and_Entertainment/literature/Antoine de Saint Exupery/Malien'kii prints. Tsitadiel' (sbornik) (1002)/
 sr-due: 2024-02-08
 sr-interval: 14
 sr-ease: 230

@@ -3,7 +3,7 @@ date: 2023-03-05
 author: David Allen
 tags:
   - inbox
-  - SR_productivity
+  - productivity
 sr-due: 2024-02-02
 sr-interval: 7
 sr-ease: 209
@@ -203,7 +203,7 @@ them.
 - For every tickle item, you should know when you put it in your tickler system.
 - The transaction cost of using a tickler system should be as low as possible.
 
-## To-do list
+## To-do
 
 - [ ] Джедайские техники, Максим Дорофеев
 

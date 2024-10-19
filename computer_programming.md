@@ -2,7 +2,7 @@
 date: 2023-03-12
 tags:
   - inbox
-  - bridge
+  - base
 sr-due: 2024-01-31
 sr-interval: 3
 sr-ease: 208
@@ -23,7 +23,7 @@ Computer programming is the process of performing a particular computation,
 usually by designing/building an executable computer program.
 
 I collect resources about programming, software development in my
-[[how_I_learn_programming_and_software_development|note]]
+[[programming_learning_path|note]]
 
 [[programming_principles|Programming principles]] allow me to write better code.
 

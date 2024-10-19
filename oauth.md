@@ -2,7 +2,7 @@
 date: 2024-09-26
 tags:
   - inbox
-  - SR_programming
+  - web
 ---
 
 # OAuth

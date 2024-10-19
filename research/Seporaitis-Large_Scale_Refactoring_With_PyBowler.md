@@ -6,8 +6,7 @@ directory: ~/Computer/programming/Seporaitis-Large_Scale_Refactoring_With_PyBowl
 archive: true
 tags:
   - inbox
-  - research
-  - SR_programming
+  - Python
 sr-due: 2024-06-16
 sr-interval: 143
 sr-ease: 246

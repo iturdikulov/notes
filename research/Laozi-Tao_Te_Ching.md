@@ -2,8 +2,7 @@
 date: 2023-09-16
 tags:
   - inbox
-  - SR_fiction
-  - research
+  - IRL
 author:
   - Laozi
   - Arthur Waley (Translator)

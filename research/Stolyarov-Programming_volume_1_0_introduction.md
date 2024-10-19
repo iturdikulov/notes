@@ -5,15 +5,11 @@ date: 2021
 external:
   - http://www.stolyarov.info/books/programming_intro/vol1
 tags:
-  - research
   - inbox
-  - SR_programming
-  - SR_computer_science
+  - base
 sr-due: 2024-01-26
 sr-interval: 1
 sr-ease: 130
-directory:
-  - ~/Computer/programming/Столяров-Программирование
 ---
 
 # Introduction 1, philosophical (Предисловие 1, философское)
@@ -31,7 +27,7 @@ Author also doesn't like current situation with publishers, which make money on
 books, seems with bad support of author.
 
 I think this preface is like historical reference, how he wrote this book. Also
-was told which topics was touched ([[Pascal]], `NASM`, [[C]],
+was told which topics was touched ([[research/Pascal]], `NASM`, [[research/C]],
 [[operating_system|OS]], paradigms, etc.) and reworked during writing this book,
 who helped author and other aspects of writing process.
 
@@ -100,7 +96,7 @@ Bad teachers can mislead a newbie student, for example start learning
 programming with making GUI (focusing on UI, not a program logic), which is bad
 idea. It can traumatize student mindset (brain damage), and he will have many
 problems to relearn programming in future (if he can do it) and think
-programming is boring process (actually not, he will not know what he lost). <!--SR:!2024-05-31,6,182-->
+programming is boring process (actually not, he will not know what he lost). <!--SR:!2024-09-06,10,182-->
 
 ## Language determines thinking (Язык определяет мышления)
 
@@ -133,9 +129,9 @@ increment are arithmetic operations and in C formally any actions (which is
 core of C) are creating [[side_effect|side effect]]. <!--SR:!2024-05-27,2,169-->
 
 > Side effect this is arbitrary change, which occurring only when evaluating
-expression and then can be somehow ==detected==. <!--SR:!2024-06-16,22,227-->
+expression and then can be somehow ==detected==. <!--SR:!2024-10-05,49,227-->
 
-Unlike C, C++ and functional programming languages, in [[Pascal]] there mostly
+Unlike C, C++ and functional programming languages, in [[research/Pascal]] there mostly
 no side effects (questionable).
 
 Why you should not write code like this?
@@ -153,7 +149,7 @@ system is working on subconscious level (closer to hardware) to write really
 **quality programs**. <!--SR:!2024-05-28,3,152-->
 
 Learning C, here are some requirements in understanding pointers and
-recursion, which can help some another language, we choice [[Pascal]]:
+recursion, which can help some another language, we choice [[research/Pascal]]:
 - language fully support pointers
 - you can use language without pointers
 - using pointers you can extend your capabilities (real necessity)
@@ -162,7 +158,7 @@ Is deep learning Pascal, in every details is needed when you learn general
 programming?
 &#10;
 Not really. You learn not Pascal, you learn programming by using Pascal, and you
-can omit some Pascal specific features. <!--SR:!2024-06-05,11,182-->
+can omit some Pascal specific features. <!--SR:!2024-09-17,28,202-->
 
 Why need to learning Assembly language (at least basics)?
 &#10;
@@ -193,11 +189,11 @@ combination of many different skills, finances and physical labor.
 
 With programmable computers you can avoid ==material== requirements to make
 something useful and great. Program itself is finished product. Programming is
-the most creative profession in engineering and technical professions. <!--SR:!2024-06-01,7,182-->
+the most creative profession in engineering and technical professions. <!--SR:!2024-09-03,15,182-->
 
 What is 2 main things which are important for programmer (to improve as programmer)?
 &#10;
-Self-education and practice is requirement to be programmer. <!--SR:!2024-05-26,1,132-->
+Self-education and practice is requirement to be programmer. <!--SR:!2024-08-20,1,132-->
 
 Author also tells you need to use CLI to learn something from this book (I use
 it daily), which give you abilities to write simple programs and find users for

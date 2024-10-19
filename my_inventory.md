@@ -7,6 +7,47 @@ sr-interval: 10
 sr-ease: 250
 ---
 
+Everyday Objects:
+
+Containers: boxes, bags, bottles, jars, cups
+Cleaning supplies: brooms, mops, sponges, vacuums, detergents
+Kitchenware: pots, pans, plates, cutlery, utensils
+Personal care items: toothbrush, toothpaste, soap, shampoo, razor
+Stationery: pens, pencils, paper, notebooks, staplers
+Communication devices: phones, radios, televisions
+Lighting: lamps, flashlights, candles
+Specialized Objects:
+
+Medical equipment: stethoscopes, syringes, thermometers, wheelchairs, x-ray machines
+Scientific instruments: microscopes, telescopes, beakers, test tubes, Bunsen burners
+Construction tools: hammers, saws, drills, ladders, nails
+Art supplies: paints, brushes, canvas, clay, easels
+Musical instruments: guitars, pianos, violins, drums, saxophones
+Sporting equipment: balls, bats, rackets, helmets, pads
+Agricultural tools: shovels, plows, seeds, fertilizers, tractors
+Machinery:
+
+Industrial robots: used in manufacturing and assembly lines
+Power tools: drills, saws, sanders, grinders
+Printing presses: used for creating books, newspapers, and other printed materials
+Textile machinery: used for spinning yarn, weaving fabric, and making clothes
+Construction equipment: bulldozers, cranes, excavators, dump trucks
+Tech & Entertainment:
+
+Cameras: capture photos and videos
+Computers: used for work, communication, and entertainment
+Video game consoles: used for playing video games
+Robots: used for various tasks, from entertainment to cleaning
+Drones: unmanned aerial vehicles used for photography, delivery, and more
+Miscellaneous:
+
+Toys: dolls, cars, board games, puzzles, building blocks
+Musical instruments: an endless variety beyond the basic examples
+Furniture: specialized pieces like ottomans, dressers, bookshelves, recliners
+Jewelry: rings, necklaces, bracelets, earrings
+Currency: bills and coins used for transactions
+Weapons: used for hunting, self-defense, or warfare (Note: Use caution with these items)
+
 # My Buy List
 
 Usually I buy things in bulk, so I don't need to buy them again for a long time.

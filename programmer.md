@@ -2,7 +2,7 @@
 date: 2023-04-15
 tags:
   - inbox
-  - SR_development
+  - base
 sr-due: 2024-01-31
 sr-interval: 5
 sr-ease: 242
@@ -17,14 +17,13 @@ sr-ease: 242
 > many varieties of programming languages and platforms\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Programmer)</cite>
 
-I usually program in [[Pascal]], [[C]], [[assembly_language]], [[Python]],
-[[Go]], [[Rust]] and [[JavaScript]].
+I usually program now in [[research/Python|Python]].
 
-I think main goal as programmer is able to solve problems and break any
-limitations in professional way (able to do anything possible in a various
-fields).
+I think [[programming_learning_path|main goal]] as
+programmer is able to solve problems and break any limitations in professional
+way (able to do anything possible in a various fields). And of course write
+programs with high efficiency, quality and space complexity ☺.
 
-## External links
+[[computer|Computers]] and programming give you opportunity to make something
+useful without shackles of material world.
 
-- [ ] [How to "think" (and design) like a Software Architect at Silicon Valley
-Code Camp 2019 - YouTube](https://www.youtube.com/watch?v=mCM6QVHD08c)

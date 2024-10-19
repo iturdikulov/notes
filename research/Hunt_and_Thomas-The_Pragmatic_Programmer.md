@@ -1,14 +1,13 @@
 ---
 tags:
-  - research
-  - SR_development
   - inbox
+  - IRL
 author:
   - Andrew Hunt; David Thomas
 external:
   - https://pragprog.com/titles/tpp20/the-pragmatic-programmer-20th-anniversary-edition/
 date: 2019
-diretory: ~/Computer/programming/Hunt_and_Thomas-The_Pragmatic_Programmer
+directory: ~/Computer/programming/Hunt_and_Thomas-The_Pragmatic_Programmer
 sr-due: 2024-01-31
 sr-interval: 4
 sr-ease: 216
@@ -30,7 +29,7 @@ sr-ease: 216
 > this book, and you’ll learn how to:
 >
 > - Fight software rot
-> - [[how_I_learn_programming_and_software_development|learn]] continuously
+> - [[../programming_learning_path|learn]] continuously
 > - Avoid the trap of duplicating knowledge
 > - Write flexible, dynamic, and adaptable code
 > - Harness the power of basic tools

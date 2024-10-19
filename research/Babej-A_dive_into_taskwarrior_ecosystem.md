@@ -5,8 +5,7 @@ external:
   - https://www.youtube.com/watch?v=tijnc65soEI
 tags:
   - inbox
-  - research
-  - SR_productivity
+  - productivity
 sr-due: 2025-06-04
 sr-interval: 496
 sr-ease: 248
@@ -25,7 +24,7 @@ sr-ease: 248
 ## Commands
 
 - show all tasks::`task all`
-- add task with tag::`task add +tag +tag2 <description>`
+- add task with tag::`task add +tag +tag2 <description>` <!--SR:!2024-09-22,1,228-->
 - remove tag from task::`task <task number> mod -tag`
 - add task with project::`task add project:name.sub_project <description>`
 - add task with priority::`task add pri:H <description>`. H, M, L are supported.

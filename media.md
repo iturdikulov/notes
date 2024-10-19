@@ -2,8 +2,6 @@
 date: 2022-12-29
 tags:
   - inbox
-  - SR_art
-  - bridge
 sr-due: 2024-02-01
 sr-interval: 6
 sr-ease: 250

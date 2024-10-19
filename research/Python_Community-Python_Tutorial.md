@@ -3,10 +3,8 @@ external:
   - https://docs.python.org/3/tutorial/index.html
 date: 2023
 tags:
-  - research
   - inbox
-  - SR_programming
-  - SR_python
+  - Python
 sr-due: 2024-01-28
 sr-interval: 1
 sr-ease: 130
@@ -138,7 +136,7 @@ result = 11.9 // 3  # 11.9 / 3 = 3.9666, 11.9 // 3 -> 3.0
 result = 10 // -3   # 10 / -3 = -3.3333, 10 // -3 -> -4
 result = 11 // -3   # 11 / -3 = -3.6666, 11 // -3 -> -4
 ```
-<!--SR:!2024-07-11,1,140-->
+<!--SR:!2024-10-19,1,130-->
 
 The `%` operator returns the ==remainder== of the division. <!--SR:!2024-07-20,21,240-->
 
@@ -147,7 +145,7 @@ to ==floating point, int → float==.
 ```python
 print(4 * 3.75 - 1) # 14.0
 ```
-<!--SR:!2024-07-21,13,240-->
+<!--SR:!2024-11-18,30,240-->
 
 Use variables:
 
@@ -164,7 +162,7 @@ a = n + 1  # NameError: name 'n' is not defined
 ```
 
 In interactive mode, the last printed expression is assigned to the variable
-==`_`==, and it should be read-only (please avoid using it as real variable). <!--SR:!2024-09-19,37,240-->
+==`_`==, and it should be read-only (please avoid using it as real variable). <!--SR:!2025-01-14,88,240-->
 
 ```python
 tax = 12.5 / 100  # tax coefficient
@@ -228,7 +226,7 @@ Usage: thingy [OPTIONS]
 ```
 
 You can also concatenate strings with ==`+`== operator or concatenate by
-breaking them into new lines or space, but you need to quote each string. <!--SR:!2024-07-12,2,179-->
+breaking them into new lines or space, but you need to quote each string. <!--SR:!2024-10-22,4,179-->
 
 `*` operator used for repeating string (multiplication).
 
@@ -414,7 +412,7 @@ squares = [9, 8, 7, 6, 5]
 print(squares + [4, 3, 2, 1])  # [9, 8, 7, 6, 5, 4, 3, 2, 1]
 ```
 
-List are ==mutable==, unlike strings. <!--SR:!2024-10-04,52,240-->
+List are ==mutable==, unlike strings. <!--SR:!2025-02-21,126,240-->
 
 ```python
 cubes = [1, 8, 27, 65, 125]  # something's wrong here, let's check 4th element
@@ -561,7 +559,7 @@ same priority). <!--SR:!2024-10-05,13,180-->
 
 Non-zero, zero, zero length or [[null_pointer|None]] values in Python (and C)
 considered as ==[[bolean_data_type|boolean]]== (at least in if/else
-statements). <!--SR:!2024-07-21,12,220-->
+statements). <!--SR:!2024-11-10,23,220-->
 
 `-3**2` in Python is?
 &#10;
@@ -622,8 +620,8 @@ for user, status in users.items():
 print(active_users)
 ```
 
-`range()` function is sort of converting given length input to known array
-(`0,1,...,X`). It generates mathematics ==arithmetic progression==. <!--SR:!2024-07-21,12,220-->
+`range(X)` function is sort of converting given length input to known array
+(`0,1,...,X-1`). It generates mathematics ==arithmetic progression==. <!--SR:!2024-11-14,27,220-->
 
 If fact `range()` function generate ==equal== to argument number (if passed only
 one) elements, we just start from 0 and increment by 1.
@@ -777,8 +775,7 @@ except ImportError:
     pass  # this is bad pracitce DO NOT DO THIS IN REAL CODE
 ```
 
-A `match` statement comparing expression with ==successive== patterns (case
-state). This is [[pattern_matching|pattern matching]] like in Rust or Haskell.
+A `match` statement comparing expression with ==successive== patterns (state). This is [[pattern_matching|pattern matching]] like in Rust or Haskell.
 ```python
 def http_error(status):
     match status:
@@ -795,7 +792,7 @@ def http_error(status):
         case _:  # _ is a wildcard pattern and never fails to match
             return "Something's wrong with the internet"
 ```
-<!--SR:!2024-07-15,4,238-->
+<!--SR:!2024-10-31,12,238-->
 
 > Only the first pattern that matches gets executed, and it can also
 > extract components (sequence elements or object attributes) from the
@@ -938,7 +935,7 @@ where_is("00")                # Somewhere else
 where_is(iter([0, 1]))        # Somewhere else
 where_is(list(iter([0, 1])))  # X=0, Y=1
 ```
-<!--SR:!2023-12-31,2,238-->
+<!--SR:!2024-10-20,1,218-->
 
 -   Sequence pattern matching support extended unpacking: `[x, y, *rest]` and `(x,
     y, *rest)` work similar to unpacking assignments. The name after `*`
@@ -1057,7 +1054,7 @@ Example of function definition:
 def hello():
     print("Hello, World!")
 ```
-<!--SR:!2024-10-03,47,238-->
+<!--SR:!2025-03-24,157,258-->
 
 The first statement of the function body can optionally be a string literal
 (usually in triple quotes); this string literal is the function's documentation
@@ -2040,7 +2037,7 @@ print(animals)
 # It is an error to extract a value using a non-existent key.
 print(animals['monkey'])
 ```
-<!--SR:!2024-08-19,4,179-->
+<!--SR:!2024-10-28,9,179-->
 
 How to get a list of all keys in a dictionary in insertion order and sorted
 order?

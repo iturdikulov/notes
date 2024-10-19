@@ -5,9 +5,8 @@ external:
   - https://mathter.pro/pesochnica/index.html
 directory: ~/Science/math/Емелин-Кратчайший_курс_школьной_математики
 tags:
-  - research
   - inbox
-  - SR_mathematics
+  - mathematics
 sr-due: 2024-02-01
 sr-interval: 7
 sr-ease: 170

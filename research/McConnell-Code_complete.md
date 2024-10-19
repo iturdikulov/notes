@@ -2,10 +2,7 @@
 author: Steve McConnell
 date: 2004
 tags:
-  - research
   - inbox
-  - SR_programming
-  - SR_development
 sr-due: 2024-02-01
 sr-interval: 7
 sr-ease: 148

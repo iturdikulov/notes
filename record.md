@@ -2,7 +2,7 @@
 date: 2023-10-05
 tags:
   - inbox
-  - SR_computer_science
+  - base
 sr-due: 2024-02-01
 sr-interval: 1
 sr-ease: 203

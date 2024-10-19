@@ -2,7 +2,7 @@
 date: 2022-12-29
 tags:
   - inbox
-  - SR_base
+  - base
 sr-due: 2024-01-26
 sr-interval: 4
 sr-ease: 221
@@ -26,7 +26,7 @@ What is data structures in computer science?
 &#10;
 Data structures providing organization (relationships), management (functions or
 operations) and format for some data. Each data structure has own efficiency and
-optimizations. <!--SR:!2024-09-29,2,221-->
+optimizations. <!--SR:!2024-10-09,1,201-->
 
 ## Notes from [[research/Wengrow-Data_structures_and_algorithms|Wengrow]] book
 
@@ -115,7 +115,7 @@ element from the stack), that follow the **Last In, First Out** (LIFO)
 principle. Queues have two main operations: enqueue (adds an element to the rear
 of the queue) and dequeue (removes an element from the front of the queue) that
 follow the **First In, First Out (FIFO)** principle. So stack and queues follows
-==LIFO and FIFO== principles. <!--SR:!2024-09-29,2,221!2024-09-29,2,221-->
+==LIFO and FIFO== principles. <!--SR:!2024-09-29,2,221-->
 
 - [[tree|Trees]] represent a hierarchical organization of elements. A tree
 consists of nodes connected by edges, with one node being the root and all other

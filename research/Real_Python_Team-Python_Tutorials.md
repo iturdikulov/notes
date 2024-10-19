@@ -3,8 +3,7 @@ auhtor: Real Python Team
 date: 2023-09-14
 tags:
   - inbox
-  - research
-  - SR_programming
+  - Python
 external:
   - https://realpython.com/
 directory: ~/Computer/programming/Real_Python_Team-Python_Tutorials/
@@ -13,6 +12,6 @@ sr-interval: 4
 sr-ease: 190
 ---
 
-# Python Tutorials
+# Real Python Tutorials
 
 

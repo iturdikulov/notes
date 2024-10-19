@@ -2,7 +2,7 @@
 date: 2022-12-28
 tags:
   - inbox
-  - bridge
+  - art
 sr-due: 2024-02-03
 sr-interval: 6
 sr-ease: 227
@@ -129,7 +129,7 @@ Wishlist.
 
 -------
 
-# Capital
+## Capital
 
 ## Economics / Capitalism / Money
 
@@ -154,7 +154,7 @@ Wishlist.
 
 -------
 
-# Software
+## Software
 
 ## Development Philosophy
 
@@ -209,7 +209,7 @@ Wishlist.
 
 -------
 
-# Experience / Design
+## Experience / Design
 
 ## User Experience / Interaction Design / Usability
 
@@ -238,7 +238,7 @@ Wishlist.
 
 -------
 
-# Broader Interests
+## Broader Interests
 
 ## On Thinking / Behavioralism / Way of Life
 
@@ -317,7 +317,7 @@ Wishlist.
 
 - 🌑 [Thing Explainer <sub>Complicated Stuff in Simple Words</sub>](https://amzn.to/1PMIWqm)
 
-# External links
+## External links
 
 - [The New York Public Library - Digital Collections](https://digitalcollections.nypl.org/)
 - [LibriVox | free public domain audiobooks](https://librivox.org/)

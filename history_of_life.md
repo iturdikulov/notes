@@ -2,7 +2,7 @@
 date: 2024-01-14
 tags:
   - inbox
-  - SR_science
+  - history
 sr-due: 2024-01-29
 sr-interval: 3
 sr-ease: 252

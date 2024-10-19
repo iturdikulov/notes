@@ -1,7 +1,7 @@
 ---
 tags:
   - inbox
-  - SR_art
+  - art
 external: https://www.ohmsha.co.jp/english/manga.htm
 sr-due: 2024-01-29
 sr-interval: 2

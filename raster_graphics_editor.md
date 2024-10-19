@@ -2,7 +2,7 @@
 date: 2023-12-29
 tags:
   - inbox
-  - SR_computer_graphics
+  - computer_graphics
 sr-due: 2024-02-02
 sr-interval: 5
 sr-ease: 248

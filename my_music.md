@@ -3,7 +3,7 @@ date: 2022-12-29
 directory: ~/Music/
 tags:
   - inbox
-  - bridge
+  - IRL
 sr-due: 2024-02-12
 sr-interval: 17
 sr-ease: 212
@@ -59,7 +59,9 @@ sr-ease: 212
 - Coolio - Gangsta's Paradise
 - Creedence Clearwater Revival - Fortunate Song
 - DMX - Party Up
-- Depeche Mode - Enjoy The Silence
+- [ ] Depeche Mode - Enjoy The Silence
+- [ ] Arthas my son
+- [ ] Requim for A Tower
 - Depeche Mode - Personal Jesus
 - Depeche Mode - Stripped (Official Video)
 - Die, Die My Darling - Metallica Lyrics
@@ -317,7 +319,7 @@ sr-ease: 212
 - Игорь Скляр - Комарово
 - dumb - nirvana
 
-## References
+## External links
 
 - [[brain.fm]]
 - [Spotify - Web Player: Music for everyone](https://open.spotify.com/)
@@ -326,4 +328,5 @@ sr-ease: 212
   for finding the correct artist and album name
 - [You are listening to](http://youarelistening.to/)
 - [Radio Record](https://www.radiorecord.ru/)
-- TODO: FL Studio
+- [Sounds of the Forest](https://timberfestival.org.uk/soundsoftheforest-soundmap/)
+- [AZLyrics - Song Lyrics from A to Z](https://www.azlyrics.com/)

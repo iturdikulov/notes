@@ -2,92 +2,93 @@
 date: 2024-08-26
 tags:
   - inbox
-  - SR_computer_science
-  - SR_base
+  - base
 ---
 
-# Selection_sort
+# Insertion sort
 
-> In [[computer_science|computer science]], selection sort is an in-place
-> comparison sorting algorithm. It has an ==$O(N^2)$== time complexity, which
-> makes it inefficient on large lists, and generally performs worse than the
-> similar insertion sort. Selection sort is noted for its simplicity and has
-> performance advantages over more complicated algorithms in certain situations,
-> particularly where auxiliary memory is limited.\
-> — <cite>[Selection sort - Wikipedia](https://en.wikipedia.org/wiki/Selection_sort)</cite> <!--SR:!2024-08-31,3,250-->
+## Insertion sort in action
 
-## Selection sort in action
-
-We compare each value with the lowest number we’ve encountered in each
-pass-through, and we swap the ==lowest number== into its correct position.
-```
-4.2.7.1.3
-...        -> find lowest value 1 at first pass-through
-1|2.7.4.3  -> swap 4 and 1, 1 now sorted area
-...        -> find lowest value 2 at second pass-through
-1.2|7.4.3  -> 2 already in correct positon, no need to swap, sorted area increased
-...        -> find lowest value 3 at third pass-through
-1.2.3|4.7  -> swap 3 and 7, sorted area increased
-...        -> find lowest value 4 at four pass-through
-1.2.3.4|7  -> 4 already in correct position, no need to swap, sorted area increased
-1.2.4.4.7  -> since 7 is last cell we can ignore it (already sorted)
-```
-
-For N elements, we make ==$(N - 1) + (N - 2) + (N - 3) … + 1$== comparisons with
-selection sort.
-
-Selection Sort takes about ==half== the number of steps
-[[bubble_sort_algorithm|Bubble Sort]] does, indicating that selection sort is
-much faster than bubble sort.
-
-## Code implementation: Selection sort
-
-Can you write selection sort, at least basic implementation?
+Can you describe the steps of insertion sort (graphically)?
 &#10;
-```js
-function selectionSort(array) {
-    // Usage: selectionSort([2, 3, 5, 1, 2, 6, 7, 8, 9, 10]);
-
-    // Pass-through's generation until **second-to-last** value (i current value)
-    // we assume array will be sorted after all N-1 pass-through operations
-    // (last item will be automatically sorted)
-    for(let i = 0; i < array.length - 1; i++) {
-        // Track index of lowest value in unsorted area
-        // on initialization we assume first array item is already sorted
-        // we need to track index and value of lowest array item, this is why used index here
-        let lowestNumberIndex = i;
-
-        // We start checking from 1 to 9 index (j = i + 1), comparasions steps
-        //  then from 2 to 9
-        //   then from 3 to 9, etc.
-        for(let j = i + 1; j < array.length; j++) {
-            if(array[j] < array[lowestNumberIndex]) {
-                // Store minimal value for current array range
-                lowestNumberIndex = j;
-            }
-        } // possible situation when lowestNumberIndex doesn't change at all
-
-        // If current index NOT already minimal value, we need to swap
-        // currentVal ⇄  minValue, swap step
-        if(lowestNumberIndex != i) {
-            let currentValTemp = array[i];
-            array[i] = array[lowestNumberIndex];
-            array[lowestNumberIndex] = currentValTemp;
-        }
-    }
-    return array;
-}
-
-console.log(selectionSort([2, 3, 5, 1, 2, 6, 7, 8, 9, 10]));
 ```
-*Results:*
-```
-[
-  1, 2, 2, 3,  5,
-  6, 7, 8, 9, 10
-]
+# First pass-through
+4._2_.7.1.3
+4.   .7.1.3    -> we begin at index 1 and remove it into temp_value
+2.*4*.7.1.3    -> 4 > 2, 4 shifted to the right, place temp_value into the gap
+# Second pass-through
+2.4._7_.1.3
+2.4.   .1.3    -> we begin at index 2 and remove it into temp_value
+2.4.*7*.1.3    -> 4 is less than 7, shift not required, 7 go back into the gap
+# Third pass-through
+2.4.7._1_.3
+2.4.7.   .3    -> we begin at index 3 and remove it into temp_value
+2.4.   .7.3    -> 7 > 1, so we shift 7 to the right
+2.    4.7.3    -> 4 > 1, so we shift 4 to the right
+    2.4.7.3    -> 2 > 1, so we shift 2 to the right
+*1*.2.4.7.3    -> since gap at array starting point, we can insert temp_value back into the gap
+# Fourth pass-through
+1.2.4.7._3_
+1.2.4.7.       -> we begin at index 4 and remove it into temp_value
+1.2.4.   .7    -> 7 > 3, so we shift 7 to the right
+1.2.   .4.7    -> 4 > 3, so we shift 4 to the right
+1.2.*3*.4.7    -> 3 is less than 4, shift not required, 3 go back into the gap
+# Our array is fully sorted
+1.2.3.4.7
 ```
 
-## The efficiency of selection sort
+## Code implementation: insertion sort
+
+Can you write the code for insertion sort, at least partially?
+&#10;
+```python
+def insertion_sort(array):
+    # Generate pass-through rounds, from 2nd to last
+    for index in range(1, len(array)):
+        temp_value = array[index]  # "Hidden" place to store extracted value
+        position = index - 1  # Start comparing values position, <<< pos
+
+        while position >= 0: # Bounds to compare
+            if array[position] > temp_value:
+                # Shift that left value to the right
+                array[position + 1] = array[position]
+                # Shift position to compare the next left value
+                position = position - 1
+            else:
+                # End pass-through shifting, since value at position that is
+                # greater or equal to the temp_value
+                break
+
+        # Pass-through final step, moving temp_value into the gap (new home)
+        array[position + 1] = temp_value
+
+    return array
+```
+
+## The efficiency of insertion sort
+
+Four types of steps occur in Insertion Sort, which ones with typical order of
+them?
+&#10;
+removals ("cut"), comparisons, shifts, and insertions, in total $N^2 + 2N - 2$ steps in worst case <!--SR:!2024-09-20,6,210-->
+
+If there are N elements, we make ==$1+2+3...(N - 1), \frac{N^2}{2}$==
+comparisons and shifts with insertion sort. <!--SR:!2024-09-06,1,228-->
+
+If there are N elements, we make ==$N-1$== pass-throughs and same amount of
+removals and insertions. <!--SR:!2024-09-10,1,208-->
+
+If Insertion Sort takes $N^2$ steps for the worst-case scenario, we’d say that
+it takes about ==$\frac{N^2}{2}$== steps for the average scenario, and in the
+best-case scenario it's about $N$ steps, both $\mathcal{O}(N^2)$.
+
+Selection sort takes fewer steps in best-case scenario because it has mechanism
+for ==ending a pass-through== early and any point.
+
+If you have reason to assume you’ll be dealing with data that is mostly sorted
+which sorting algorithm would you use, selection sort or insertion sort?
+&#10;
+Insertion sort, because it’s faster in best-case scenario when data is mostly
+sorted.
 
 

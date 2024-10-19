@@ -2,8 +2,8 @@
 date: 2022-12-29
 tags:
   - inbox
-  - SR_programming
-  - research
+  - Python
+  - inbox
 sr-due: 2022-01-28
 sr-interval: 6
 sr-ease: 182
@@ -73,44 +73,61 @@ It supports any popular [[programming_paradigm|programming paradigm]]:
 Rich [[research/Python_Community-Python_Standard_Library|standard library]] make
 it's "batteries included" language.
 
-## Learn Python in Y minutes
 
-Source: [Learn Python in Y Minutes](https://learnxinyminutes.com/docs/python/).
+Bellow is Q/A flashcards based on learnxinyminutes [^1] cheatsheet.
 
-### 1. Primitive Datatypes and Operators
+## 1. Primitive Datatypes and Operators
 
+How to write comments, their types and usage?
+&#10;
 ```python
-# Single line comments start with a number symbol (#).
+# Single line comments start with a number symbol.
 
-def test():
-"""Multiline strings can be written using three "s
-
-   And are often used as documentation.
 """
-  pass
+Multiline strings can be written
+using three "s, and are often used
+as documentation.
+"""
+
+####################################################
+## Some fancy styled comment
+####################################################
+
+Pi = 3.141592653589793  # need to place two spaces for same line comments
 ```
 
+Is it possible to use python as calculator?
+&#10;
+Definitely yes:
 ```python
 # You have numbers
 3  # => 3
 
-# Math is what you would expect, add spaces before and after operators
+# Math is what you would expect
 1 + 1   # => 2
 8 - 1   # => 7
 10 * 2  # => 20
 35 / 5  # => 7.0
 
-# Integer division rounds towards zero for both positive and negative numbers.
+# Floor division rounds towards negative infinity
 5 // 3       # => 1
 -5 // 3      # => -2
 5.0 // 3.0   # => 1.0  # works on floats too
 -5.0 // 3.0  # => -2.0
+```
 
-# The result of division is always a float
-10.0 / 3  # => 3.3333333333333335
+The result of division is always?
+&#10;
+a float number
+```python
+10.0 / 3  => 3.3333333333333335
+```
 
-# Modulo operation
+Modulo operation, mathematical operation that finds the remainder of an integer
+division, what are values of these operations?
+```python
 7 % 3   # => 1
+13 % 2
 # i % j have the same sign as j, unlike C
 -7 % 3  # => 2
 
@@ -225,11 +242,11 @@ None  # => None
 # Use "is" instead. This checks for equality of object identity.
 "etc" is None  # => False
 None is None   # => True
-````
 
-### 2. Variables and Collections
+####################################################
+## 2. Variables and Collections
+####################################################
 
-```python
 # Python has a print function
 print("I'm Python. Nice to meet you!")  # => I'm Python. Nice to meet you!
 
@@ -238,7 +255,7 @@ print("I'm Python. Nice to meet you!")  # => I'm Python. Nice to meet you!
 print("Hello, World", end="!")  # => Hello, World!
 
 # Simple way to get input data from console
-input_string_var = input("Enter some data: ") # Returns the data as a string
+input_string_var = input("Enter some data: ")  # Returns the data as a string
 
 # There are no declarations, only assignments.
 # Convention in naming variables is snake_case style
@@ -309,7 +326,7 @@ li.index(4)  # Raises a ValueError as 4 is not in the list
 li + other_li  # => [1, 2, 3, 4, 5, 6]
 
 # Concatenate lists with "extend()"
-li.extend(other_li)  # Now li is [1, 2, 3, 4, 5, 6], and it's modified!
+li.extend(other_li)  # Now li is [1, 2, 3, 4, 5, 6]
 
 # Check for existence in a list with "in"
 1 in li  # => True
@@ -325,7 +342,7 @@ tup[0] = 3  # Raises a TypeError
 
 # Note that a tuple of length one has to have a comma after the last element but
 # tuples of other lengths, even zero, do not.
-type((1)):: # => <class 'int'>
+type((1))   # => <class 'int'>
 type((1,))  # => <class 'tuple'>
 type(())    # => <class 'tuple'>
 
@@ -338,7 +355,7 @@ tup[:2]          # => (1, 2)
 # You can unpack tuples (or lists) into variables
 a, b, c = (1, 2, 3)  # a is now 1, b is now 2 and c is now 3
 # You can also do extended unpacking
-a, *b, c = (1, 2, 3, 4)::  # a is now 1, b is now [2, 3] and c is now 4
+a, *b, c = (1, 2, 3, 4)  # a is now 1, b is now [2, 3] and c is now 4
 # Tuples are created by default if you leave out the parentheses
 d, e, f = 4, 5, 6  # tuple 4, 5, 6 is unpacked into variables d, e and f
 # respectively such that d = 4, e = 5 and f = 6
@@ -351,9 +368,9 @@ empty_dict = {}
 # Here is a prefilled dictionary
 filled_dict = {"one": 1, "two": 2, "three": 3}
 
-# Note keys for dictionaries have to be ==immutable== types. This is to
-# ensure that the key can be converted to a constant hash value for quick
-# look-ups. Immutable types include ints, floats, strings, tuples.
+# Note keys for dictionaries have to be immutable types. This is to ensure that
+# the key can be converted to a constant hash value for quick look-ups.
+# Immutable types include ints, floats, strings, tuples.
 invalid_dict = {[1,2,3]: "123"}  # => Yield a TypeError: unhashable type: 'list'
 valid_dict = {(1,2,3):[1,2,3]}   # Values can be of any type, however.
 
@@ -389,7 +406,7 @@ filled_dict.get("four")     # => None
 filled_dict.get("one", 4)   # => 1
 filled_dict.get("four", 4)  # => 4
 
-# "setdefault()" ==inserts== into a dictionary only if the given key isn't present
+# "setdefault()" inserts into a dictionary only if the given key isn't present
 filled_dict.setdefault("five", 5)  # filled_dict["five"] is set to 5
 filled_dict.setdefault("five", 6)  # filled_dict["five"] is still 5
 
@@ -401,9 +418,8 @@ filled_dict["four"] = 4         # another way to add to dict
 del filled_dict["one"]  # Removes the key "one" from filled dict
 
 # From Python 3.5 you can also use the additional unpacking options
-{'a': 1, **{'b': 2}}  # => {'a': 1, 'b': 2}
-{'a': 1, **{'a': 2}}  # => {'a': 2}
-
+{"a": 1, **{"b": 2}}  # => {'a': 1, 'b': 2}
+{"a": 1, **{"a": 2}}  # => {'a': 2}
 
 
 # Sets store ... well sets
@@ -421,25 +437,24 @@ filled_set.add(5)  # filled_set is now {1, 2, 3, 4, 5}
 # Sets do not have duplicate elements
 filled_set.add(5)  # it remains as before {1, 2, 3, 4, 5}
 
-# Do set intersection with &, and, x in a and x in b
+# Do set intersection with &
 other_set = {3, 4, 5, 6}
 filled_set & other_set  # => {3, 4, 5}
 
-# Do set union with |, or, x in a or x in b
+# Do set union with |
 filled_set | other_set  # => {1, 2, 3, 4, 5, 6}
 
-# Do set difference with -, remove items which present in right set
+# Do set difference with -
 {1, 2, 3, 4} - {2, 3, 5}  # => {1, 4}
 
-# Do set symmetric difference with ^, remove items which present in right
-# set and add items which present in right set but not in left?
+# Do set symmetric difference with ^
 {1, 2, 3, 4} ^ {2, 3, 5}  # => {1, 4, 5}
 
 # Check if set on the left is a superset of set on the right
-{1, 2} >= {1, 2, 3} # => False
+{1, 2} >= {1, 2, 3}  # => False
 
 # Check if set on the left is a subset of set on the right
-{1, 2} <= {1, 2, 3} # => True
+{1, 2} <= {1, 2, 3}  # => True
 
 # Check for existence in a set with in
 2 in filled_set   # => True
@@ -448,11 +463,12 @@ filled_set | other_set  # => {1, 2, 3, 4, 5, 6}
 # Make a one layer deep copy
 filled_set = some_set.copy()  # filled_set is {1, 2, 3, 4, 5}
 filled_set is some_set        # => False
-```
 
-### 3. Control Flow and Iterables
 
-```python
+####################################################
+## 3. Control Flow and Iterables
+####################################################
+
 # Let's just make a variable
 some_var = 5
 
@@ -477,7 +493,6 @@ prints:
 for animal in ["dog", "cat", "mouse"]:
     # You can use format() to interpolate formatted strings
     print("{} is a mammal".format(animal))
-    print(f"Yes {animal} is a mammal")  # f-strings
 
 """
 "range(number)" returns an iterable of numbers
@@ -557,30 +572,28 @@ with open("myfile.txt") as f:
         print(line)
 
 # Writing to a file
-# additional information about modes is here:
-# https://docs.python.org/3.3/library/functions.html#open
 contents = {"aa": 12, "bb": 21}
-with open("/tmp/myfile1.txt", "w+") as file:
+with open("myfile1.txt", "w") as file:
     file.write(str(contents))        # writes a string to a file
 
 import json
-with open("myfile2.txt", "w+") as file:
-    file.write(json.dumps(contents)) # writes an object to a file
+with open("myfile2.txt", "w") as file:
+    file.write(json.dumps(contents))  # writes an object to a file
 
 # Reading from a file
-with open('myfile1.txt', "r+") as file:
+with open("myfile1.txt") as file:
     contents = file.read()           # reads a string from a file
 print(contents)
 # print: {"aa": 12, "bb": 21}
 
-with open('myfile2.txt', "r+") as file:
+with open("myfile2.txt", "r") as file:
     contents = json.load(file)       # reads a json object from a file
 print(contents)
 # print: {"aa": 12, "bb": 21}
 
 
 # Python offers a fundamental abstraction called the Iterable.
-# An iterable is an object that can be treated as a ==sequence==.
+# An iterable is an object that can be treated as a sequence.
 # The object returned by the range function, is an iterable.
 
 filled_dict = {"one": 1, "two": 2, "three": 3}
@@ -595,7 +608,7 @@ for i in our_iterable:
 # However we cannot address elements by index.
 our_iterable[1]  # Raises a TypeError
 
-# An iterable is an object that knows how to create an ==iterator==.
+# An iterable is an object that knows how to create an iterator.
 our_iterator = iter(our_iterable)
 
 # Our iterator is an object that can remember the state as we traverse through
@@ -618,11 +631,12 @@ for i in our_iterator:
 # You can grab all the elements of an iterable or iterator by call of list().
 list(our_iterable)  # => Returns ["one", "two", "three"]
 list(our_iterator)  # => Returns [] because state is saved
-```
 
-### 4. Functions
 
-```python
+####################################################
+## 4. Functions
+####################################################
+
 # Use "def" to create new functions
 def add(x, y):
     print("x is {} and y is {}".format(x, y))
@@ -666,7 +680,7 @@ args = (1, 2, 3, 4)
 kwargs = {"a": 3, "b": 4}
 all_the_args(*args)            # equivalent: all_the_args(1, 2, 3, 4)
 all_the_args(**kwargs)         # equivalent: all_the_args(a=3, b=4)
-all_the_args(*args, **kwargs)  # equivalent:: all_the_args(1, 2, 3, 4, a=3, b=4)
+all_the_args(*args, **kwargs)  # equivalent: all_the_args(1, 2, 3, 4, a=3, b=4)
 
 # Returning multiple values (with tuple assignments)
 def swap(x, y):
@@ -680,63 +694,54 @@ x, y = swap(x, y)     # => x = 2, y = 1
 
 # global scope
 x = 5
+
 def set_x(num):
     # local scope begins here
     # local var x not the same as global var x
     x = num    # => 43
     print(x)   # => 43
 
-set_x(43)
-print(x)
-
-x = 5
 def set_global_x(num):
     # global indicates that particular var lives in the global scope
-    global x   # extracts global var x
+    global x
     print(x)   # => 5
     x = num    # global var x is now set to 6
     print(x)   # => 6
 
+set_x(43)
 set_global_x(6)
-print(x)
 """
 prints:
     43
     5
-
-    5
-    6
     6
 """
 
+
 # Python has first class functions
 def create_adder(x):
-    def adder(y): # <- here we return a function!
+    def adder(y):
         return x + y
     return adder
 
-add_10 = create_adder(10) # add_10 now function!
-print(add_10(3))   # => 13
+add_10 = create_adder(10)
+add_10(3)   # => 13
 
 # Closures in nested functions:
-# We can use the nonlocal keyword to work with variables in nested scope
-# which shouldn't be declared in the inner functions.
-# TODO: learn python closure
+# We can use the nonlocal keyword to work with variables in nested scope which shouldn't be declared in the inner functions.
 def create_avg():
-    total = 0 # init total to 0
+    total = 0
     count = 0
-    def avg(n): # 3, 5, 7
-        nonlocal total, count # "get" total and count from outer scope
-        total += n # 3, 3+5, 8+7
-        count += 1 # 1, 2, 7
-        return total/count # 3/1
-    return avg # here we return just function, like in previous example
-
-# We can add multiple numbers and dynamically calculate the average
+    def avg(n):
+        nonlocal total, count
+        total += n
+        count += 1
+        return total/count
+    return avg
 avg = create_avg()
-avg(3) # => 3.0
-avg(5) # (3+5)/2 => 4.0
-avg(7) # (8+7)/3 => 5.0
+avg(3)  # => 3.0
+avg(5)  # (3+5)/2 => 4.0
+avg(7)  # (8+7)/3 => 5.0
 
 # There are also anonymous functions
 (lambda x: x > 2)(3)                  # => True
@@ -754,21 +759,22 @@ list(filter(lambda x: x > 5, [3, 4, 5, 6, 7]))  # => [6, 7]
 [x for x in [3, 4, 5, 6, 7] if x > 5]  # => [6, 7]
 
 # You can construct set and dict comprehensions as well.
-{x for x in 'abcddeef' if x not in 'abc'}  # => {'d', 'e', 'f'}
+{x for x in "abcddeef" if x not in "abc"}  # => {'d', 'e', 'f'}
 {x: x**2 for x in range(5)}  # => {0: 0, 1: 1, 2: 4, 3: 9, 4: 16}
-```
 
-### 5. Modules
 
-```python
+####################################################
+## 5. Modules
+####################################################
+
 # You can import modules
 import math
 print(math.sqrt(16))  # => 4.0
 
 # You can get specific functions from a module
 from math import ceil, floor
-print(floor(3.7))  #:: => 3, downward
-print(ceil(3.7))   #:: => 4, upward
+print(ceil(3.7))   # => 4
+print(floor(3.7))  # => 3
 
 # You can import all functions from a module.
 # Warning: this is not recommended
@@ -787,28 +793,27 @@ math.sqrt(16) == m.sqrt(16)  # => True
 import math
 dir(math)
 
-# Why naming files as module name is not recommended?
-&#10;
 # If you have a Python script named math.py in the same
 # folder as your current script, the file math.py will
 # be loaded instead of the built-in Python module.
 # This happens because the local folder has priority
 # over Python's built-in libraries.
-```
 
-### 6. Classes
 
-```python
+####################################################
+## 6. Classes
+####################################################
+
 # We use the "class" statement to create a class
 class Human:
 
     # A class attribute. It is shared by all instances of this class
     species = "H. sapiens"
 
-    # Basic initializer, this is called when this class is **instantiated**.
+    # Basic initializer, this is called when this class is instantiated.
     # Note that the double leading and trailing underscores denote objects
     # or attributes that are used by Python but that live in user-controlled
-    # namespaces. Methods (or objects or attributes) like: __init__, __str__,
+    # namespaces. Methods(or objects or attributes) like: __init__, __str__,
     # __repr__ etc. are called special methods (or sometimes called dunder
     # methods). You should not invent such names on your own.
     def __init__(self, name):
@@ -819,21 +824,17 @@ class Human:
         self._age = 0   # the leading underscore indicates the "age" property is
                         # intended to be used internally
                         # do not rely on this to be enforced: it's a hint to other devs
-                        # NOTE: I rarely use this, need to use it more often
 
     # An instance method. All methods take "self" as the first argument
     def say(self, msg):
         print("{name}: {message}".format(name=self.name, message=msg))
-        print(f"{self.name}: {msg}")  # f-strings
 
     # Another instance method
     def sing(self):
-        return 'yo... yo... microphone check... one two... one two...'
+        return "yo... yo... microphone check... one two... one two..."
 
-    # A class method is shared **among all** instances
+    # A class method is shared among all instances
     # They are called with the calling class as the first argument
-    # linking to class not to instance
-    # you can call classmethod **without** creating instance
     @classmethod
     def get_species(cls):
         return cls.species
@@ -843,10 +844,9 @@ class Human:
     def grunt():
         return "*grunt*"
 
-    # TODO: python property, deleter and setter check
     # A property is just like a getter.
-    # It turns the method age() into a **read-only attribute** of the same name.
-    # there's no need to write trivial getters and setters in python, though.
+    # It turns the method age() into a read-only attribute of the same name.
+    # There's no need to write trivial getters and setters in Python, though.
     @property
     def age(self):
         return self._age
@@ -862,12 +862,10 @@ class Human:
         del self._age
 
 
-
 # When a Python interpreter reads a source file it executes all its code.
 # This __name__ check makes sure this code block is only executed when this
-# module is the main program. If you import this module in another file,
-# the code is not executed.
-if __name__ == '__main__':
+# module is the main program.
+if __name__ == "__main__":
     # Instantiate a class
     i = Human(name="Ian")
     i.say("hi")                     # "Ian: hi"
@@ -877,7 +875,7 @@ if __name__ == '__main__':
 
     # Call our class method
     i.say(i.get_species())          # "Ian: H. sapiens"
-    # Change the shared attribute across all instances
+    # Change the shared attribute
     Human.species = "H. neanderthalensis"
     i.say(i.get_species())          # => "Ian: H. neanderthalensis"
     j.say(j.get_species())          # => "Joel: H. neanderthalensis"
@@ -896,17 +894,18 @@ if __name__ == '__main__':
     # Delete the property
     del i.age
     # i.age                         # => this would raise an AttributeError
-```
 
-### 6.1 Inheritance
 
-```python
+####################################################
+## 6.1 Inheritance
+####################################################
+
 # Inheritance allows new child classes to be defined that inherit methods and
 # variables from their parent class.
 
 # Using the Human class defined above as the base or parent class, we can
-# define a child class, Superhero, which inherits the class variables like
-# "species", "name", and "age", as well as methods, like "sing" and "grunt"
+# define a child class, Superhero, which inherits variables like "species",
+# "name", and "age", as well as methods, like "sing" and "grunt"
 # from the Human class, but can also have its own unique properties.
 
 # To take advantage of modularization by file you could place the classes above
@@ -927,7 +926,7 @@ class Superhero(Human):
     # pass
 
     # Child classes can override their parents' attributes
-    species = 'Superhuman'
+    species = "Superhuman"
 
     # Children automatically inherit their parent class's constructor including
     # its arguments, but can also define additional arguments or definitions
@@ -950,7 +949,7 @@ class Superhero(Human):
 
     # override the sing method
     def sing(self):
-        return 'Dun, dun, DUN!'
+        return "Dun, dun, DUN!"
 
     # add an additional instance method
     def boast(self):
@@ -958,14 +957,14 @@ class Superhero(Human):
             print("I wield the power of {pow}!".format(pow=power))
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     sup = Superhero(name="Tick")
 
     # Instance type checks
     if isinstance(sup, Human):
-        print('I am human')
+        print("I am human")
     if type(sup) is Superhero:
-        print('I am a superhero')
+        print("I am a superhero")
 
     # Get the "Method Resolution Order" used by both getattr() and super()
     # (the order in which classes are searched for an attribute or method)
@@ -980,7 +979,7 @@ if __name__ == '__main__':
     print(sup.sing())           # => Dun, dun, DUN!
 
     # Calls method from Human
-    sup.say('Spoon')            # => Tick: Spoon
+    sup.say("Spoon")            # => Tick: Spoon
 
     # Call method that exists only in Superhero
     sup.boast()                 # => I wield the power of super strength!
@@ -991,33 +990,35 @@ if __name__ == '__main__':
     print(sup.age)              # => 31
 
     # Attribute that only exists within Superhero
-    print('Am I Oscar eligible? ' + str(sup.movie))
-```
+    print("Am I Oscar eligible? " + str(sup.movie))
 
-### 6.2 Multiple Inheritance
+####################################################
+## 6.2 Multiple Inheritance
+####################################################
 
-```python
+
 # Another class definition
 # bat.py
 class Bat:
 
-    species = 'Baty'
+    species = "Baty"
 
     def __init__(self, can_fly=True):
         self.fly = can_fly
 
     # This class also has a say method
     def say(self, msg):
-        msg = '... ... ...'
+        msg = "... ... ..."
         return msg
 
     # And its own method as well
     def sonar(self):
-        return '))) ... ((('
+        return "))) ... ((("
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     b = Bat()
-    print(b.say('hello'))
+    print(b.say("hello"))
     print(b.fly)
 
 
@@ -1037,48 +1038,49 @@ class Batman(Superhero, Bat):
         # So instead we explicitly call __init__ for all ancestors.
         # The use of *args and **kwargs allows for a clean way to pass
         # arguments, with each parent "peeling a layer of the onion".
-        Superhero.__init__(self, 'anonymous', movie=True,
-                           superpowers=['Wealthy'], *args, **kwargs)
+        Superhero.__init__(self, "anonymous", movie=True,
+                           superpowers=["Wealthy"], *args, **kwargs)
         Bat.__init__(self, *args, can_fly=False, **kwargs)
         # override the value for the name attribute
-        self.name = 'Sad Affleck'
+        self.name = "Sad Affleck"
 
     def sing(self):
-        return 'nan nan nan nan nan batman!'
+        return "nan nan nan nan nan batman!"
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     sup = Batman()
 
     # The Method Resolution Order
-    print(Batman.__mro__)       # => (<class '__main__.Batman'>,
-                                # => <class 'superhero.Superhero'>,
-                                # => <class 'human.Human'>,
-                                # => <class 'bat.Bat'>, <class 'object'>)
+    print(Batman.__mro__)     # => (<class '__main__.Batman'>,
+                              # => <class 'superhero.Superhero'>,
+                              # => <class 'human.Human'>,
+                              # => <class 'bat.Bat'>, <class 'object'>)
 
     # Calls parent method but uses its own class attribute
-    print(sup.get_species())    # => Superhuman
+    print(sup.get_species())  # => Superhuman
 
     # Calls overridden method
-    print(sup.sing())           # => nan nan nan nan nan batman!
+    print(sup.sing())         # => nan nan nan nan nan batman!
 
     # Calls method from Human, because inheritance order matters
-    sup.say('I agree')          # => Sad Affleck: I agree
+    sup.say("I agree")        # => Sad Affleck: I agree
 
     # Call method that exists only in 2nd ancestor
-    print(sup.sonar())          # => ))) ... (((
+    print(sup.sonar())        # => ))) ... (((
 
     # Inherited class attribute
     sup.age = 100
-    print(sup.age)              # => 100
+    print(sup.age)            # => 100
 
     # Inherited attribute from 2nd ancestor whose default value was overridden.
-    print('Can I fly? ' + str(sup.fly)) # => Can I fly? False
-```
+    print("Can I fly? " + str(sup.fly))  # => Can I fly? False
 
-### 7. Advanced
 
-```python
+####################################################
+## 7. Advanced
+####################################################
+
 # Generators help you make lazy code.
 def double_numbers(iterable):
     for i in iterable:
@@ -1128,15 +1130,15 @@ def my_function(x,y):       # def my_function(x,y):
 # When function definitions are long, it can be hard to parse the non-decorated
 # assignment at the end of the definition.
 
-my_function(1,2) # => "Entering function my_function"
-                 # => "3"
-                 # => "Exiting function my_function"
+my_function(1,2)  # => "Entering function my_function"
+                  # => "3"
+                  # => "Exiting function my_function"
 
 # But there's a problem.
 # What happens if we try to get some information about my_function?
 
-print(my_function.__name__) # => 'wrapper'
-print(my_function.__code__.co_argcount) # => 0. The argcount is 0 because both arguments in wrapper()'s signature are optional.
+print(my_function.__name__)  # => 'wrapper'
+print(my_function.__code__.co_argcount)  # => 0. The argcount is 0 because both arguments in wrapper()'s signature are optional.
 
 # Because our decorator is equivalent to my_function = log_function(my_function)
 # we've replaced information about my_function with information from wrapper
@@ -1146,8 +1148,8 @@ print(my_function.__code__.co_argcount) # => 0. The argcount is 0 because both a
 from functools import wraps
 
 def log_function(func):
-    @wraps(func) # this ensures docstring, function name, arguments list, etc. are all copied
-                 # to the wrapped function - instead of being replaced with wrapper's info
+    @wraps(func)  # this ensures docstring, function name, arguments list, etc. are all copied
+                  # to the wrapped function - instead of being replaced with wrapper's info
     def wrapper(*args, **kwargs):
         print("Entering function", func.__name__)
         result = func(*args, **kwargs)
@@ -1159,11 +1161,14 @@ def log_function(func):
 def my_function(x,y):
     return x+y
 
-my_function(1,2) # => "Entering function my_function"
-                 # => "3"
-                 # => "Exiting function my_function"
+my_function(1,2)  # => "Entering function my_function"
+                  # => "3"
+                  # => "Exiting function my_function"
 
-print(my_function.__name__) # => 'my_function'
-print(my_function.__code__.co_argcount) # => 2
+print(my_function.__name__)  # => 'my_function'
+print(my_function.__code__.co_argcount)  # => 2
 ```
 
+## References
+
+[^1]: [Learn Python in Y Minutes](https://learnxinyminutes.com/docs/python/)

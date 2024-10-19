@@ -2,9 +2,8 @@
 author: Jason van Gumster
 date: 2020
 tags:
-  - research
   - inbox
-  - SR_computer_graphics
+  - computer_graphics
 sr-due: 2024-02-06
 sr-interval: 12
 sr-ease: 170

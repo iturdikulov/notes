@@ -2,9 +2,8 @@
 author: Charles Petzold
 date: 2000
 tags:
-  - research
   - inbox
-  - SR_computer_science
+  - base
 sr-due: 2024-04-30
 sr-interval: 96
 sr-ease: 210

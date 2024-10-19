@@ -3,8 +3,6 @@ date: 1988
 author: Анатолий Георгиевич Кушниренко & Геннадий Викторович Лебедев
 tags:
   - inbox
-  - research
-  - SR_computer_science
 directory: ~/Arts_and_Entertainment/literature/A. G. Kushnirenko/Proghrammirovaniie dlia matiematikov(1988) (2373)/
 sr-due: 2024-02-05
 sr-interval: 10

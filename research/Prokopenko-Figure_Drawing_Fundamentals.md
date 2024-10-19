@@ -5,8 +5,7 @@ external:
   - https://www.proko.com/course/figure-drawing-fundamentals/overview
 tags:
   - inbox
-  - research
-  - SR_art
+  - art
 directory: ~/Arts_and_Entertainment/visual_arts/Prokopenko-Figure_Drawing_Fundamentals/
 sr-due: 2024-06-19
 sr-interval: 146

@@ -8,8 +8,7 @@ external:
   - https://cs-syd.eu/posts/2015-07-12-gtd-with-taskwarrior-part-5-doing
 tags:
   - inbox
-  - research
-  - SR_productivity
+  - productivity
 sr-due: 2024-02-10
 sr-interval: 16
 sr-ease: 210

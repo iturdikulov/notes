@@ -2,8 +2,7 @@
 date: 2023-03-21
 tags:
   - inbox
-  - SR_computer_science
-  - SR_programming
+  - base
 sr-due: 2024-02-03
 sr-interval: 8
 sr-ease: 209

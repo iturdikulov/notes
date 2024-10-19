@@ -2,8 +2,8 @@
 date: 2023-02-03
 tags:
   - inbox
-  - SR_software
-sr-due: 2024-01-30
+  - productivity
+sr-due: 2023-01-28
 sr-interval: 4
 sr-ease: 272
 ---
@@ -18,4 +18,8 @@ kill them if necessary. It's also provide good information about the system load
 and memory usage, you can sort the processes by CPU or memory usage, and you can
 filter the processes.
 
-Htop keybindings:
+## Keyboard bindings
+
+Toggle tree view::`t`
+
+Search::`/`

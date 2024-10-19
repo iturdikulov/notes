@@ -4,8 +4,7 @@ external:
 date: 2023-08-26
 tags:
   - inbox
-  - research
-  - SR_mathematics
+  - mathematics
 author: Math is Fun Team
 directory: ~/Science/math/Math_is_Fun_Team-Math_is_Fun/
 sr-due: 2024-02-13

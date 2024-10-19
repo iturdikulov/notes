@@ -3,7 +3,7 @@ external: https://simple.wikipedia.org/wiki/Movie
 date: 2023-07-12
 tags:
   - inbox
-  - SR_art
+  - art
 sr-due: 2024-01-28
 sr-interval: 2
 sr-ease: 249

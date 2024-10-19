@@ -2,7 +2,7 @@
 date: 2023-03-18
 tags:
   - inbox
-  - SR_programming
+  - base
 sr-due: 2024-01-29
 sr-interval: 2
 sr-ease: 229
@@ -25,6 +25,11 @@ sr-ease: 229
 
 My first experience with code style was while I learned basics of web
 development and I mainly checked [Google Style Guides](https://google.github.io/styleguide/).
+
+Coding conventions are a set of guidelines for a specific programming language
+that recommend programming ==style, practices, and methods== for each aspect of
+a program written in that language. Coding conventions are not enforced by
+compilers (but may be enforced by static analysis tools).
 
 The elements of programming style are next what I will read.
 TODO: check in the future, did I read it?

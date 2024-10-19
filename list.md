@@ -2,7 +2,7 @@
 date: 2023-03-16
 tags:
   - inbox
-  - SR_computer_science
+  - base
 sr-due: 2024-01-28
 sr-interval: 1
 sr-ease: 220
@@ -10,7 +10,14 @@ sr-ease: 220
 
 # List (abstract data type)
 
-List are not [[array]].
+List are not necessary [[array]]. But in [[research/Python|Python]] list is
+array of references to other objects.
+
+> CPython’s lists are really ==variable-length arrays==, not Lisp-style linked
+> lists. The implementation uses a contiguous array of references to other
+> objects, and keeps a pointer to this array and the array’s length in a list
+> head structure.\
+> — <cite>[How are lists implemented in CPython?](https://docs.python.org/3/faq/design.html#how-are-lists-implemented-in-cpython).</cite>
 
 ## Linked list
 

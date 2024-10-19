@@ -1,8 +1,7 @@
 ---
 tags:
-  - research
   - inbox
-  - SR_art
+  - art
 author: Килпатрик Дэвид
 date: 1988
 sr-due: 1678896000

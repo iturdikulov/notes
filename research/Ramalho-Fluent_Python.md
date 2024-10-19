@@ -2,9 +2,8 @@
 author: Luciano Ramalho
 date: 2021
 tags:
-  - research
   - inbox
-  - SR_programming
+  - Python
 sr-due: 2025-09-20
 sr-interval: 604
 sr-ease: 268

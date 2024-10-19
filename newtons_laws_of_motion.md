@@ -2,7 +2,7 @@
 date: 2023-03-19
 tags:
   - inbox
-  - SR_physics
+  - physics
 sr-due: 2024-02-01
 sr-interval: 5
 sr-ease: 232

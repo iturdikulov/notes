@@ -2,8 +2,6 @@
 author: KOReader Community
 tags:
   - inbox
-  - research
-  - SR_software
 created: 2023-06-19
 sr-due: 2025-06-09
 sr-interval: 501

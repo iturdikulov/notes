@@ -5,9 +5,8 @@ date: 2022
 external:
   - https://git-scm.com/book/en/v2
 tags:
-  - research
   - inbox
-  - SR_programming
+  - VCS
 sr-due: 2025-05-27
 sr-interval: 488
 sr-ease: 230

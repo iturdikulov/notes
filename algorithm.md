@@ -2,21 +2,20 @@
 date: 2023-03-18
 tags:
   - inbox
-  - SR_computer_science
-  - SR_mathematics
-sr-due: 2024-01-26
-sr-interval: 1
-sr-ease: 184
+  - base
+sr-due: 2024-09-09
+sr-interval: 14
+sr-ease: 144
 ---
-
+****
 # Algorithm
 
 The words 'algorithm' and 'algorism' come from the name of a Persian
-mathematician called 'Al-Khwārizmī' (he is practically from my **homeland**)
+mathematician called 'Al-Khwārizmī', he is practically from my **homeland**.
 (Persian: خوارزمی, c. 780–850).
 
 > In [[mathematics]] and [[computer_science|computer science]], an algorithm
-> (/ˈælɡərɪðəm/ is a ==finite sequence of rigorous instructions==, typically
+> (/ˈælɡərɪðəm/ is a finite sequence of rigorous ==instructions==, typically
 > used to solve a class of specific problems or to perform a computation.
 > Algorithms are used as specifications for performing **calculations** and
 > **data processing**. More advanced algorithms can use conditionals to divert
@@ -25,14 +24,13 @@ mathematician called 'Al-Khwārizmī' (he is practically from my **homeland**)
 > reasoning), achieving automation eventually. Using human characteristics as
 > descriptors of machines in metaphorical ways was already practiced by Alan
 > Turing with terms such as "memory", "search" and "stimulus".\
-> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Algorithm)</cite>
-<!--SR:!2023-07-20,1,230-->
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Algorithm)</cite> <!--SR:!2024-09-28,18,210-->
 
 In general, it's, set of finite step-by-step instructions for solving some
 problem ([[logic|logical]] or [[mathematics|mathematical]]), or to perform some
-other **task** (for example something from real world, like
-problem/computation). In other words a set of instructions for completing a
-specific task.
+other **task**, for example something from real world, like problem solving and
+computation. In other words a strict set (sequence) of ==instructions== for
+completing a specific task. <!--SR:!2024-10-13,16,192-->
 
 Algorithm are used as specifications for performing computation and data
 processing.
@@ -43,8 +41,47 @@ a [[turing_machine|turing machine]]. For the purpose of
 [[flowchart]], or [[programming_language|programming language]].
 
 Sometimes, it’s possible to have two different algorithms that accomplish the
-same task [[computational_complexity|complexity]]. One algorithm can be faster
-than the other by **orders of magnitude**.
+same task [[computational_complexity|complexity]]. But one algorithm can be
+faster/slower than the other by orders of magnitude.
 
 Often there is more than one way to achieve a particular computing goal, and
 the algorithm you choose can seriously affect the speed of your code.
+
+Simple flowchart how I see programming and place of algorithms in it:
+```
+  +----------------+
+  |    Computer    |
+  +----------------+
+          |
+          v
+  +----------------+
+  |     Data       |
+  +----------------+
+          |
+          v
+  +----------------+
+  |   Algorithm    |
+  +----------------+
+          |
+          v
++--------------------+
+| Code & programming |
+| language           |
++--------------------+
+          |
+          v
+  +----------------+
+  |       Me       |
+  +----------------+
+```
+
+## Simplified terminology related to algorithms:
+
+Algorithm time complexity is?::How long does it take to run algorithm X with N data. <!--SR:!2024-09-15,13,232-->
+
+Algorithm space complexity::Amount of memory space required to solve algorithm X <!--SR:!2024-09-28,14,212-->
+with N input data.
+
+Formalized way to describe algorithm time and space complexity is ==Big O Notation==. <!--SR:!2024-10-01,18,192-->
+
+How many computations will be used in algorithm X is an algorithmic ==efficiency=. <!--SR:!2024-08-24,1,175-->

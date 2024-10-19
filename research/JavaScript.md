@@ -2,9 +2,8 @@
 date: 2023-10-06
 tags:
   - inbox
-  - SR_programming
-  - SR_js
-sr-due: 2024-02-03
+  - JavaScript
+sr-due: 2023-01-28
 sr-interval: 8
 sr-ease: 203
 ---
@@ -634,10 +633,10 @@ const add = (firstNumber, secondNumber) => {
 ## React
 
 A ==component== is a piece of reusable code that represents a part of a user
-interface. It used to render, manage, and update UI elements. <!--SR:!2024-08-25,2,203-->
+interface. It used to render, manage, and update UI elements. <!--SR:!2024-08-31,4,203-->
 
 Your own react components, like `Board` and `Square` must start with a
-==capital== letter.
+==capital== letter. <!--SR:!2024-09-03,4,222-->
 
 ```tsx
 export default function Square() {  // define main exportable function
@@ -645,20 +644,5 @@ export default function Square() {  // define main exportable function
 }
 ```
 
-To "remember" things, components use ==state, `useState`==. <!--SR:!2024-08-25,2,203-->
+To "remember" things, components use ==state, `useState`==. <!--SR:!2024-08-31,4,203-->
 
-## External links
-
-- [ ] [Современный учебник JavaScript](https://learn.javascript.ru/)
-- [ ] [[research/learnxinyminutes-Learn_JavaScript_in_Y_minutes]]
-- [ ] [[research/Flanagan-JavaScript]]
-- [ ] [Why async: JavaScript and the real world](https://frontarm.com/courses/async-javascript/promises/why-async/)
-- [ ] [React](https://react.dev/learn)
-- [ ] [JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-- [ ] [1000x FASTER JavaScript? - YouTube](https://www.youtube.com/watch?v=B76gFi43HvM)
-- [ ] [Examples of how to do query, style, dom, ajax, event etc like jQuery with plain javascript.](https://github.com/camsong/You-Dont-Need-jQuery)
-- [ ] [Cheatsheet for the JavaScript knowledge you will frequently encounter in modern projects.](https://github.com/mbeaudru/modern-js-cheatsheet)
-- [ ] [Infinitely Better UIs with Finite Automata - YouTube](https://www.youtube.com/watch?v=VU1NKX6Qkxc)
-- [ ] [XState Catalogue](https://xstate-catalogue.com/)
-
-- [ ] [Tutorial: Tic-Tac-Toe – React](https://react.dev/learn/tutorial-tic-tac-toe)

@@ -5,8 +5,7 @@ external:
 directory: ~/Computer/graphics/archive/Price-Donut_Tutorial
 tags:
   - inbox
-  - research
-  - SR_computer_graphics
+  - computer_graphics
 sr-due: 2025-06-09
 sr-interval: 501
 sr-ease: 250

@@ -2,9 +2,8 @@
 date: 2022-12-29
 tags:
   - inbox
-  - bridge
-  - SR_computer_science
-sr-due: 2024-01-31
+  - base
+sr-due: 2023-28-08
 sr-interval: 4
 sr-ease: 209
 ---
@@ -22,12 +21,12 @@ sr-ease: 209
 > computer science.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Computer_science)</cite>
 
-The fundamental concern of computer science is determining what ==can and cannot
-be automated==.
+The fundamental concern of computer science is determining what can and cannot
+be ==automated==.
 
 I think knowing computer science help to write effective and scalable [[code]]
 (goal of good [[programmer]], which I want to be). I described how I
-[[learning|learn]] computer science [[how_I_learn_computer_science|here]].
+[[learning|learn]] computer science [[CS_learning_path|here]].
 
 Computer science connect theory (computation, automation, information) with real
 world practice (software and hardware). In Russian, it's known as Информа́тика.

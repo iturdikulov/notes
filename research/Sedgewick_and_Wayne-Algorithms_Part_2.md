@@ -1,7 +1,5 @@
 ---
 tags:
-  - research
-  - SR_computer_science
   - inbox
 author:
   - Robert Sedgewick; Kevin Wayne

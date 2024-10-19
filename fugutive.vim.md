@@ -2,7 +2,7 @@
 date: 2024-09-07
 tags:
   - inbox
-  - SR_vim
+  - VCS
 ---
 
 # fugutive.vim

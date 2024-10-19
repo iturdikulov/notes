@@ -1,9 +1,10 @@
 ---
 date: 2023-03-19
-external: https://go.dev/
+external:
+  - https://go.dev/
 tags:
   - inbox
-  - SR_programming
+  - Go
 sr-due: 2023-01-28
 sr-interval: 34
 sr-ease: 265
@@ -20,13 +21,9 @@ sr-ease: 265
 > is Go.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Go_(programming_language))</cite>
 
-## A tour from Go [^1]
+## A Tour of Go
 
 Every Go program is made up of ==packages==.
-
-```go
-package main
-```
 
 ## Learn Go in Y minutes
 
@@ -58,6 +55,7 @@ Comments
 // A package clause starts every source file.
 // main is a special name declaring an executable rather than a library.
 package main
+```
 
 // Import declaration declares library packages referenced in this file.
 import (

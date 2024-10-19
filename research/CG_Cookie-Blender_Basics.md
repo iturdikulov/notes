@@ -2,8 +2,7 @@
 author: Jonathan Lampel
 tags:
   - inbox
-  - research
-  - SR_computer_graphics
+  - computer_graphics
 date: 2023-12-12
 external:
   - https://cgcookie.com/courses/blender-basics-an-introduction-to-blender-4-x

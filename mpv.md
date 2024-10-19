@@ -1,7 +1,7 @@
 ---
 date: 2022-12-29
 tags:
-  - SR_productivity
+  - productivity
   - inbox
 sr-due: 2026-02-26
 sr-interval: 763
@@ -19,7 +19,7 @@ keybinding and ton of other features.
 
 I use it as my main video player
 
-## Keybindings (keys are sensitive)
+## Keyboard bindings (keys are sensitive)
 
 Resize window::`M-0`, `M-1`, `M-2`
 
@@ -53,8 +53,8 @@ Toggle duration display::`O`
 
 Toggle subtitles::`v`
 Switch subtitles::`J` `S`
-Adjust subtitles delay +/-::`z`, `Z`
-Adjust subtitles font::`S-g`, `S-f`
+Adjust subtitles delay +/-::`z`, `Z` <!--SR:!2024-09-22,1,313-->
+Adjust subtitles font::`S-g`, `S-f` <!--SR:!2024-09-22,1,313-->
 
 Adjust audio delay::`C-+`, `C--`
 

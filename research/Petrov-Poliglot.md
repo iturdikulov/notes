@@ -4,8 +4,7 @@ external:
 archive:
 tags:
   - inbox
-  - research
-  - SR_english
+  - linguistic
 sr-due: 2024-02-04
 sr-interval: 10
 sr-ease: 190

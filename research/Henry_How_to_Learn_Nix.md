@@ -2,8 +2,7 @@
 author: Ian Henry
 tags:
   - inbox
-  - research
-  - SR_development
+  - Unix
 created: 2023-07-17
 external:
   - https://ianthehenry.com/posts/how-to-learn-nix/

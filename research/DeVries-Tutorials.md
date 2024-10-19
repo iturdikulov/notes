@@ -6,8 +6,7 @@ external:
 directory: ~/Computer/programming/DeVries-Tutorials/
 tags:
   - inbox
-  - research
-  - SR_vim
+  - productivity
 sr-due: 2024-02-14
 sr-interval: 20
 sr-ease: 210

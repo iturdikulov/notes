@@ -2,7 +2,7 @@
 date: 2023-10-06
 tags:
   - inbox
-  - SR_development
+  - web
 sr-due: 2024-01-28
 sr-interval: 3
 sr-ease: 263
@@ -25,15 +25,4 @@ sr-ease: 263
 > cached to improve the page load speed between the pages that share the file
 > and its formatting.
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/CSS)</cite>
-
-## External links
-
-- [CodePen trending](https://codepen.io/trending)
-- [ ] [Grid Garden - A game for learning CSS grid](https://cssgridgarden.com/)
-- [ ] Flexbox cheatsheet
-- [ ] [CSS: Cascading Style Sheets | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS)
-- [ ] [Основы и практика CSS Grid Layout | Habr](https://habr.com/en/articles/656245/)
-- [ ] [A collection of tips to help take your CSS skills pro](https://github.com/AllThingsSmitty/css-protips)
-- [ ] [CSS GPU Animation: Doing It Right | Smashing Magazine](https://www.smashingmagazine.com/2016/12/gpu-animation-doing-it-right/)
-- [ ] [CSS ::before and ::after for custom animations and transitions | LogRocket Blog](https://blog.logrocket.com/css-before-after-custom-animations-transitions/)
 

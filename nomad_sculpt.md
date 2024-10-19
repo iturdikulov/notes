@@ -1,9 +1,10 @@
 ---
-external: https://nomadsculpt.com/manual/
+external:
+  - https://nomadsculpt.com/manual/
 date: 2023-04-15
 tags:
   - inbox
-  - SR_software
+  - computer_graphics
 sr-due: 2024-01-30
 sr-interval: 4
 sr-ease: 272

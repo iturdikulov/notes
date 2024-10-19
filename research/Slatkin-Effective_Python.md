@@ -1,8 +1,7 @@
 ---
 tags:
-  - research
   - inbox
-  - SR_programming
+  - Python
 author: Brett Slatkin
 date: 2020
 sr-due: 1681833600

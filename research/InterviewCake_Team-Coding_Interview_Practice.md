@@ -1,8 +1,7 @@
 ---
 tags:
-  - research
-  - SR_computer_science
   - inbox
+  - base
 author:
   - InterviewCake Team
 external:

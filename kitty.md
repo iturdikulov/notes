@@ -5,7 +5,6 @@ date: 2023-04-05
 tags:
   - inbox
   - archive
-  - SR_productivity
 sr-due: 2024-01-29
 sr-interval: 3
 sr-ease: 254
@@ -19,10 +18,11 @@ sr-ease: 254
 > reproducibility (I like to store configuration in source control).
 >
 > The code in kitty is designed to be simple, modular and hackable. It is
-> written in a mix of [[C|c]] (for
-> performance sensitive parts) and [[Python]] (for easy hackability
-> of the UI). It does not depend on any large and complex UI toolkit, using only
-> OpenGL for rendering everything (NOTE: not perfect with specific fonts).
+> written in a mix of [[research/C|C]] (for
+> performance sensitive parts) and [[research/Python|Python]] (for easy
+> hackability of the UI). It does not depend on any large and complex UI
+> toolkit, using only OpenGL for rendering everything (NOTE: not perfect with
+> specific fonts).
 >
 > Finally, kitty is designed from the ground up to support all modern terminal
 > features, such as [[Unicode]], true color, bold/italic fonts,

@@ -2,6 +2,7 @@
 date: 2023-09-21
 tags:
   - inbox
+  - DB
 sr-due: 2024-02-02
 sr-interval: 5
 sr-ease: 240
@@ -25,6 +26,12 @@ Databases which I use or want to try:
 - [[MySQL]]
 - [[SQLite]]
 - [[Redis]]
+
+A relational database (RDB) is a database based on the relational model of
+data, as proposed by E. F. Codd in 1970.[2] A database management system used to
+maintain relational databases is a relational database management system
+(RDBMS). Many relational database systems are equipped with the option of using
+SQL (Structured Query Language) for querying and updating the database.
 
 ## References
 

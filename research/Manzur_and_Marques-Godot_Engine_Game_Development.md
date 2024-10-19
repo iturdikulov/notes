@@ -3,9 +3,7 @@ author: Ariel Manzur; George Marques
 date: 2023-09-14
 tags:
   - inbox
-  - research
-  - SR_computer_graphics
-  - SR_game
+  - Godot
 directory: ~/Computer/graphics/Manzur_and_Marques-Godot_Engine_Game_Development/
 sr-due: 2025-04-01
 sr-interval: 432

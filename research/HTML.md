@@ -2,7 +2,7 @@
 date: 2023-10-06
 tags:
   - inbox
-  - SR_development
+  - web
 sr-due: 2024-02-12
 sr-interval: 17
 sr-ease: 247
@@ -21,8 +21,4 @@ sr-ease: 247
 > into multimedia web pages. HTML describes the structure of a web page
 > semantically and originally included cues for its appearance.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/HTML)</cite>
-
-## External links
-
-- [HTML - MDN](https://developer.mozilla.org/en-US/docs/Web/HTML)
 

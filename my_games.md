@@ -2,8 +2,6 @@
 date: 2023-03-12
 tags:
   - inbox
-  - bridge
-  - SR_game
 sr-due: 2024-02-05
 sr-interval: 11
 sr-ease: 285
@@ -47,6 +45,7 @@ TODO: fix links
 - [x] [[lineage_2_tools|Lineage 2]], long story..., 9.7/10
 - [x] Portal
 - [x] Brotato, completed, too time-consuming, I 8/10
+- [ ] The Saboteur (2009)
 - Dark Souls Prepare to Die Edition, too time-consuming, 8/10 (bad port,
   but overall good game)
 - [Factorio](https://www.factorio.com/), completed, 9.5/10 sandbox experience

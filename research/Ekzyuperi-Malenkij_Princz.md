@@ -2,8 +2,7 @@
 date: 2023-09-30
 tags:
   - inbox
-  - SR_fiction
-  - research
+  - IRL
 author: Antoine de Saint-Exupéry
 directory: ~/Arts_and_Entertainment/literature/Antoine de Saint Exupery/The Little Prince (1009)/"
 sr-due: 2025-01-19

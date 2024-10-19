@@ -3,9 +3,8 @@ author: Andrei Petrovich Kiselyov
 date: 2006
 directory: ~/Science/math/Киселёв-Элементы_алгебры_и_анализа
 tags:
-  - research
   - inbox
-  - SR_mathematics
+  - mathematics
 sr-due: 2024-04-28
 sr-interval: 94
 sr-ease: 210

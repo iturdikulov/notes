@@ -3,9 +3,8 @@ author: Eric Matthes
 date: 2023
 directory: ~/Computer/programming/Matthes-Python_Crash_Course
 tags:
-  - research
   - inbox
-  - SR_programming
+  - Python
 sr-due: 2024-01-29
 sr-interval: 4
 sr-ease: 190

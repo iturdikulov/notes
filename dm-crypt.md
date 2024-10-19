@@ -2,12 +2,13 @@
 date: 2022-12-29
 tags:
   - inbox
+  - cryptography
 sr-due: 2024-02-07
 sr-interval: 13
 sr-ease: 248
 ---
 
-# dm-crypt
+# dm-crypt (cryptsetup)
 
 > dm-crypt is a transparent block device encryption subsystem in [[GNU_Linux]]
 > kernel versions 2.6 and later and in DragonFly BSD. It is part of the device
@@ -28,9 +29,9 @@ dd if=/dev/zero bs=1M count=100 of=encrypted_change_name.img
 # Initialize luks partition inside container
 cryptsetup luksFormat encrypted_change_name.img  # set passpharse and conifm it
 
-# Next commands require root access
+# NOTE: Next commands require ROOT access
+# ---------------------------------------
 
-# Open luks partition
 cryptsetup open --type luks /path/to/dump desired-name
 
 # Make filesystem on it, optional step

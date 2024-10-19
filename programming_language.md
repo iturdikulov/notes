@@ -18,11 +18,11 @@ sr-ease: 226
 
 TODO: mark high-level languages
 
-- [[Python]]
-- [[C]]
-- [[Go]]
-- [[Rust]]
-- [[JavaScript]]
+- [[research/Python]]
+- [[research/C]]
+- [[research/Go]]
+- [[research/Rust]]
+- [[research/JavaScript]]
 - Lua
 - [[Java]]
 - [[Haskell]]

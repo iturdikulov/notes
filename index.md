@@ -2,8 +2,8 @@
 title: iturdikulov.com
 date: 2023-05-14
 tags:
-  - bridge
-  - SR_productivity
+  - IRL
+  - inbox
 ---
 
 # I’m Inom Turdikulov

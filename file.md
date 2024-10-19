@@ -2,7 +2,7 @@
 date: 2023-03-22
 tags:
   - inbox
-  - SR_software
+  - base
 directory: ~/Computer/data/files_samples
 sr-due: 2024-01-29
 sr-interval: 4

@@ -2,8 +2,7 @@
 date: 1976
 tags:
   - inbox
-  - research
-  - SR_art
+  - art
 sr-due: 2024-02-08
 sr-interval: 14
 sr-ease: 230

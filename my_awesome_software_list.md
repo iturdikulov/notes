@@ -1,10 +1,8 @@
 ---
 date: 2023-03-12
 tags:
-  - bridge
-  - SR_software
   - inbox
-  - bridge
+  - productivity
 sr-due: 2023-02-28
 sr-interval: 3
 sr-ease: 226
@@ -18,43 +16,21 @@ other notes.
 Check also [[my_shell_scripts|my scripts]] and
 [[hidden_file_and_hidden_directory_dotfiles|dotfiles]].
 
+Also good list of software is cheat.sh pages (`curl cheat.sh/:list`),
+[Awesome-Linux-Software](https://github.com/luong-komorebi/Awesome-Linux-Software),
+[Awesome command-line](https://github.com/alebcay/awesome-shell),
+[awesome-nix](https://github.com/nix-community/awesome-nix).
+
 TODO: restructure, instead more_info, use linking to notes! Merge with similar
 notes.
 
-Table Of Contents:
+## Audio and video
 
-- [Audio](#audio)
-- [Chat Clients](#Chat\ Clients)
-- [Data Backup and Recovery](#Data\ Backup\ and\ Recovery)
-- [Desktop](#Desktop)
-- [Development](#Development)
-- [Books](#Books)
-- [Education](#Education)
-- [Email](#Email)
-- [File Manager](#File\ Manager)
-- [Games](#Games)
-- [Gaming Applications](#Gaming\ Applications)
-- [Machine Emulators](#Machine\ Emulators)
-- [Graphics](#Graphics)
-- [Internet](#Internet)
-- [Office](#Office)
-- [Productivity](#Productivity)
-- [Proxy & VPN](#Proxy\ &\ VPN)
-- [Security](#Security)
-- [Sharing Files](#Sharing\ Files)
-- [Terminal](#Terminal)
-- [Text Editors](#Text\ Editors)
-- [Utilities](#Utilities)
-- [Video](#Video)
-- [Wiki Software](#Wiki\ Software)
-- [Others](#Others)
-
-## Audio
-
+- [[Kdenlive]]
+- [[cmus]] - everydays music player
 - [Audacity](https://www.audacityteam.org/) - multi-track audio editor
-- [Spotity](https://www.spotify.com/) - music streaming service, with electron
-  client
-- [Brain.fm](https://www.brain.fm/) - music streaming service
+- MusicBrainz Picard - music tagger
+- Reaper - digital audio workstation
 
 ## Chat Clients
 
@@ -313,7 +289,7 @@ as a command interpreter for shell scripting
 - [surfraw](https://gitlab.com/surfraw/Surfraw/) - Shell Users\' Revolutionary
   Front Rage Against the Web
 - [TeX Live packages](https://tug.org/texlive/) typesetting system
-  [[Latex|more_info]]
+  [[LaTex|more_info]]
 - [ghostscript](https://www.ghostscript.com/) - An interpreter for the
   PostScript language
 - [pandoc](https://pandoc.org/) - Swiss-army knife to convert markup format
@@ -377,6 +353,7 @@ as a command interpreter for shell scripting
   monitor
 - [greenclip](https://github.com/erebe/greenclip) - Simple clipboard manager to
   be integrated with /dmenu (most stable which I found)
+- [ocornut/imgui: Bloat-free Graphical User interface for C++ with minimal dependencies](https://github.com/ocornut/imgui)
 
 ## Games
 
@@ -433,26 +410,22 @@ TODO: actualize this list
 - [[Zotero]]
 - [MiniGlome/Archive.org-Downloader: Python3 script to download archive.org books in PDF format](https://github.com/MiniGlome/Archive.org-Downloader)
 
-## TODO:
+## To-do
 
-- cloc
-- flacon
-- dmidecode
-- lshw
-- geekbench
-- `ipcalc` - simple IP network calculator
-- `faketime` - manipulate the system time for a given command
-- `antimicro` - bind keyboard and mouse actions to your gamepad or joystick
+- [ ] cloc
+- [ ] flacon
+- [ ] dmidecode
+- [ ] lshw
+- [ ] geekbench
+- [ ] `ipcalc` - simple IP network calculator
+- [ ] `faketime` - manipulate the system time for a given command
+- [ ] `antimicro` - bind keyboard and mouse actions to your gamepad or joystick
   [antimicrox-profiles/applications](https://github.com/AntiMicroX/antimicrox-profiles/tree/master/applications)
+- [ ] REVIEW this list, add ncspot, termdown, etc (check nixos modules)
+- [ ] libation - audible library download
+- [ ] detox normalize filenames
 
-- REVIEW this list, add ncspot, termdown, etc (check nixos modules)
-
-- libation - audible library download
-
-- detox normalize filenames
-
-## References
-
+- [ ] [Как реализовать свою идею, sketchup? - YouTube](https://youtube.com/shorts/bg0dt8ydAGo?si=sTbYLDkv23L8IksN)
 - [ ] [Programs and Equipment I Use | Luke's Webpage](https://lukesmith.xyz/programs/)
 - [ ] [List of applications - ArchWiki](https://wiki.archlinux.org/title/list_of_applications)
 - [ ] [erikw/vim-keybindings-everywhere-the-ultimate-list](https://github.com/erikw/vim-keybindings-everywhere-the-ultimate-list)
@@ -472,3 +445,4 @@ TODO: actualize this list
 - [ ] [Frece (dmenu stuff) examples](https://github.com/YodaEmbedding/frece/tree/master/examples)
 - [ ] [GitHub - NeoApplications/Neo-Backup: backup manager for android](https://github.com/NeoApplications/Neo-Backup)
 - [ ] [borgmatic](https://torsion.org/borgmatic/)
+- [ ] [Libation: Liberate your Library](https://github.com/rmcrackan/Libation)

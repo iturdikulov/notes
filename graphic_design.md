@@ -2,7 +2,7 @@
 date: 2023-09-21
 tags:
   - inbox
-  - SR_art
+  - art
 sr-due: 2024-01-29
 sr-interval: 3
 sr-ease: 250
