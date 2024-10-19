@@ -796,6 +796,36 @@ main steps?
 7. Delete my feature branch, pull `main`, and repeat with a new branch for the
    next set of changes
 
+## Merge Conflicts
+
+When merge conflicts happens?
+&#10;
+Merge conflicts happen when you merge branches that have competing commits, and
+Git needs **your help** to decide which changes to incorporate in the final
+merge. Often, merge conflicts happen when people make different changes to the
+same line of the same file, or when one person edits a file and another person
+deletes the same file.
+
+Merge conflict example, which lines are referring to remote changes?
+```
+If you have questions, please
+<<<<<<< HEAD
+open an issue
+=======
+ask your question in IRC.
+>>>>>>> branch-a
+```
+&#10;
+Second chunk (after `=======`).
+Conflict markers `<<<<<<<` - local changes from HEAD, `=======` changes divider,
+`>>>>>>>` remote changes from `branch-a`.
+
+What if there merge conflict with removed file, someone removed file, but you
+have done some changes to it, what to do?
+&#10;
+You can add this file with `git add` or remove with `git rm` and resolve merge
+conflict.
+
 ## External links
 
 - [x] [Learn Git - Boot.dev](https://www.boot.dev/courses/learn-git)

@@ -125,8 +125,16 @@ Push and create merge request::`<leader>pT` (in fugitive mode for nvim)
 Pull::`<leader>pP` (in fugitive mode for nvim)
 
 During a merge conflict, this is a three-way diff against the "ours" and
-"theirs" ancestors. Additional ==d2o and d3o== maps are provided by vim-fugitive
-to obtain the hunk from the "ours" or "theirs" ancestor, respectively.
+"theirs" ancestors (open with `dd`). Additional ==`d2o`, `d3o`, `dp`== maps are
+provided by vim-fugitive to obtain the hunk from the "ours" or "theirs"
+ancestor, respectively.
+
+What if I want to pick changes from `head` (target branch) or from `branch-name`
+(merge-branch) during merge conflict (ignore remote or local changes), how to do
+it with vim-fugitive?
+&#10;
+Need to use `Gwrite!`, `!` is required because this is dangerous command, and
+you can lose your changes. Be very careful with this strategy anyway.
 
 Git signs menu::`<leader>h[key]`
 
