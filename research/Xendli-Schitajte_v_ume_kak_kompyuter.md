@@ -3,8 +3,7 @@ date: 2023-09-15
 author: Билл Хэндли
 tags:
   - inbox
-  - research
-  - SR_mathematics
+  - mathematics
 directory: ~/Science/math/Хэндли_Считайте_в_уме_как_компьютер/
 sr-due: 2025-02-28
 sr-interval: 400

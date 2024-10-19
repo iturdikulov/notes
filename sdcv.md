@@ -1,9 +1,10 @@
 ---
 date: 2023-08-20
-external: https://github.com/Dushistov/sdcv
+external:
+  - https://github.com/Dushistov/sdcv
 tags:
   - inbox
-  - SR_software
+  - linguistic
 sr-due: 2024-07-10
 sr-interval: 167
 sr-ease: 329

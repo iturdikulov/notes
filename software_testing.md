@@ -14,7 +14,6 @@ sr-ease: 250
 > independent view of the software to allow the business to appreciate and
 > understand the risks of software implementation.
 
-
 ## References
 
 - [ ] [What is Software Testing? Definition](https://www.guru99.com/software-testing-introduction-importance.html)

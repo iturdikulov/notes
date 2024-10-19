@@ -2,7 +2,7 @@
 date: 2023-05-13
 tags:
   - inbox
-  - SR_software
+  - VM
 sr-due: 2024-01-28
 sr-interval: 2
 sr-ease: 233

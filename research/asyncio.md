@@ -2,7 +2,7 @@
 date: 2023-08-27
 tags:
   - inbox
-  - SR_python
+  - Python
 ---
 
 # asyncio

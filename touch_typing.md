@@ -1,9 +1,8 @@
 ---
 date: 2023-03-12
 tags:
-  - bridge
-  - SR_productivity
   - inbox
+  - productivity
 sr-due: 2024-01-28
 sr-interval: 3
 sr-ease: 265

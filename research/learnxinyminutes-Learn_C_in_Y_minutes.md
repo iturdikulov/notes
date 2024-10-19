@@ -4,8 +4,7 @@ external:
   - https://learnxinyminutes.com/docs/c/
 tags:
   - inbox
-  - SR_programming
-  - research
+  - C
 sr-due: 2024-01-31
 sr-interval: 3
 sr-ease: 224

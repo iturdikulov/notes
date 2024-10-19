@@ -1,9 +1,7 @@
 ---
 tags:
   - inbox
-  - research
-  - SR_development
-  - SR_software
+  - Unix
 created: 2023-07-17
 external:
   - https://www.youtube.com/playlist?list=PL-saUBvIJzOkjAw_vOac75v-x6EzNzZq-

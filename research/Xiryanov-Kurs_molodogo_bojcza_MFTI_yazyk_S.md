@@ -3,8 +3,7 @@ author: Тимофей Хирьянов
 date: 2023-09-14
 tags:
   - inbox
-  - research
-  - SR_programming
+  - C
 external:
   - https://www.youtube.com/playlist?list=PLRDzFCPr95fLjzcv6nNdjMu_9RcZgIM9U
 directory: ~/Computer/programming/Хирьянов-Курс_молодого_бойца_МФТИ_язык_С/

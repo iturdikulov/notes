@@ -2,8 +2,7 @@
 date: 2024-08-26
 tags:
   - inbox
-  - SR_computer_science
-  - SR_base
+  - base
 ---
 
 # Selection sort

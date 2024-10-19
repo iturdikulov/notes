@@ -3,9 +3,7 @@ date: 2019
 author: Зорич В.А.
 tags:
   - inbox
-  - research
-  - SR_mathematics
-  - SR_computer_science
+  - mathematics
 directory:
   - ~/Arts_and_Entertainment/literature/Vladimir Zorich/Matiematichieskii analiz (chast' 1), 10-ie izdaniie (2378)/
   - ~/Arts_and_Entertainment/literature/Vladimir Zorich/Matiematichieskii analiz (chast' 2), 9-ie izdaniie (2377)/

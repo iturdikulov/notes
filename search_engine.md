@@ -2,7 +2,7 @@
 date: 2023-04-03
 tags:
   - inbox
-  - SR_development
+  - productivity
 sr-due: 2024-01-29
 sr-interval: 1
 sr-ease: 130
@@ -28,13 +28,13 @@ and search engine shortcuts. These search engine list are configured in my
 My web browser configured to search sites from various sources, with these
 keywords (need type keyword in the address bar and then search term)
 
-Browser bookmarks::`@b`, `@b github`
+Browser bookmarks::`*`, `* github`
 
-Browser history::`@h`, `@h github`
+Browser history::`^`, `^ github`
 
 Search Tabs
 &#10;
-`@tabs`, `@tabs github`,
+`%`, `% github`,
 In chrome-based browsers you can also use `C-S-a` to search tabs and recently
 closed tabs.
 
@@ -47,12 +47,7 @@ RSS search, search trhoug my RSS feeds ([[Miniflux]])::`@rss`
 Google search, force use. This is useful to avoid search query unnecessary
 parsing in the address bar.
 &#10;
-`@g`
-
-Search in brave search engine. Own search index, privacy-focused, discussions,
-googles.
-&#10;
-@brave
+`@g http://example.com`
 
 DuckDuckGo, privacy-focused, instant answers, bangs, multiple sources (but not
 google?).
@@ -72,7 +67,7 @@ websites, also good source for category names.
 - Simple English Wikipedia::`@sw test`
 - ArchWiki - Arch Linux Wiki::`@a archwiki `
 - NixWiki - NixOS Wiki::`@n nixos`
-- Fandom - search for fandoms::`@fd skyrim`
+- Fandom - search for fandoms::`@f skyrim`
 - Reddit - search for subreddits::`@r unixporn`
 
 ### Science, programming, code and documentation, archive search engines
@@ -82,7 +77,7 @@ websites, also good source for category names.
 - [[research/Math_is_Fun_Team-Math_is_Fun|Math is Fun]]- search for math definitions, formulas::`@mathf Pi`
 
 - [[GitHub]] - code search::`@gh linux`
-- SourceGraph - code search::`@sg linkedin api`
+- SourceGraph - code search::`@s linkedin api`
 - [[GitLab]] - code search::`@glab alpine linux`
 - GitHub Gist - code snippets::`@gist linux`
 - Your Github Stars::`@star linux`
@@ -98,7 +93,6 @@ websites, also good source for category names.
 - MDN - Mozzila developer network docs::`@mdn flexbox`
 
 - Web Archive - search for archived pages, need pass [[URL|url]]::`@cache linux.org.ru`
-- Google Cache - search for cached pages, need pass [[URL|url]]::`@gcache linux.org.ru`
 
 ### Maps
 
@@ -119,24 +113,23 @@ websites, also good source for category names.
 
 - YouTube - search for videos::`@y rickroll`
 - Twitch - search for streams::`@tv software`
-- IMDb - search for movies, actors::`@imd titanic`
+- IMDb - search for movies, actors::`@imdb titanic`
 - Kinopoisk - search for movies, actors::`@kino matrix`
 - Rotten Tomatoes - search for movies, actors::`@rt taxi driver`
 
 ### Books search engines
 
 - Google Books - search for books::`@gb programming`
-- Google Scholar - search for scientific articles, books::`@gsc programming`
+- Google Scholar - search for scientific articles, books::`@scholar programming`
 - BookFinder - search for books::`@bf computer science`
-- Project Gutenberg - search for free books::`@pg Alice's Adventures`
-- Project NN - search for free books::`@nn Alice's Adventures`
-- Project Lib - search for free books::`@lib Alice's Adventures`
+- Project Gutenberg - search for free books::`@booksg Alice's Adventures`
+- Project NN - search for free books::`@anna Alice's Adventures`
 
 ### Translation services
 
 - Google Translate - translate text::`@tr invictus`
-- Yandex Translate - translate text::`@ytr appearance`
-- DeepL Translate - translate text::`@dpl ASAP`
+- Yandex Translate - translate text::`@try appearance`
+- DeepL Translate - translate text::`@trd ASAP`
 - Foldoc Dict - search for definitions, mostly technical::`@foldoc Inverse Address Resolution Protocol`
 
 ### Shopping

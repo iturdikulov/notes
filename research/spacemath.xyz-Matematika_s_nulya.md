@@ -2,8 +2,8 @@
 author: spacemath.xyz
 date: 2024
 tags:
-  - research
-  - SR_mathematics
+  - inbox
+  - mathematics
 ---
 
 # Математика с нуля
@@ -59,26 +59,46 @@ $$
 ## Шаг 1. Числа.
 
 ```python
-import numpy as np
-print(1)
+[print(i) for i in range(10)]
 ```
 
-Number - mathematical object that represents the quantity of some items (used to
-count them).
+*Results:*
+```
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+```
 
-One chocolate |, two glasses ||, ten eggs ||||||||||, a million rubles.
+Число – это математический объект обозначающий ==количество (такж измрение и
+идентификация) == каких-нибудь (любых) предметов и не только.
 
-Digits - characters set used to write numbers, ==0, 1, 2, 3, 4, 5, 6, 7, 8, 9==.
-<!--SR:!2024-03-27,3,250-->
+Изначально числа были изображены при помощи
+==палочек или зарубок (например на костях)==. Одна шоколдка 𝍷, два стакана 𝍷𝍷,
+пять яиц 𝍸.
 
-# Main operations
+Затем люди поняли, что большое число предметов палочками не изобразить и
+заменили эти палочки цифрами (египетские иероглифы).
 
-## Actions with numbers (operations)
+Сегодня в математике числа обозначаются с помощью цифр (индо-арабские). Это
+цифры 0, 1, 2, 3, 4, 5, 6, 7, 8, 9. Цифры это набор ==символов==, которые
+предназначены для обозначения чисел. Проще говоря, для обозначения количества
+предметов.
+
+## Основные операции
+
+Какие основные операции **действия** можно проводить с числами?
 &#10;
-- Addition (+) - combining two or more numbers into one.
-- Subtraction (-) - finding the difference between two numbers.
-- Multiplication (*) - repeated addition of the same number.
-- Division (/) - finding the number of times one number is contained in another.
+- Сложение (+) - combining two or more numbers into one.
+- Вычитание (-) - finding the difference between two numbers.
+- Умножение (*) - repeated addition of the same number.
+- Деление (/) - finding the number of times one number is contained in another.
 
 ## Comparison of numbers (operations)
 &#10;

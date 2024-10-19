@@ -2,8 +2,7 @@
 date: 2023-09-25
 tags:
   - inbox
-  - research
-  - SR_development
+  - Unix
 author:
   - korfuri
 external:

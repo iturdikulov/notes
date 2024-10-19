@@ -6,9 +6,7 @@ external:
   - https://pragprog.com/titles/jwdsal2
 tags:
   - inbox
-  - research
-  - SR_computer_science
-  - SR_base
+  - base
 directory: ~/Computer/science/Wengrow-Data_structures_and_algorithms/
 sr-due: 2022-01-28
 sr-interval: 1

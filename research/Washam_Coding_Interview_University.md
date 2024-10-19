@@ -4,10 +4,7 @@ external:
   - https://github.com/jwasham/coding-interview-university
 date: 2023-08-15
 tags:
-  - research
   - inbox
-  - SR_programming
-  - SR_computer_science
 directory: ~/Computer/science/Washam_Coding_Interview_University/
 sr-due: 2024-02-09
 sr-interval: 15

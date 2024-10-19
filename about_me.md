@@ -2,12 +2,10 @@
 date: 2023-07-17
 tags:
   - inbox
-  - bridge
 sr-due: 2024-02-07
 sr-interval: 13
 sr-ease: 290
 ---
-
 # About me
 TODO: very scratchy
 

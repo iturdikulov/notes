@@ -2,7 +2,7 @@
 date: 2024-01-18
 tags:
   - inbox
-  - SR_IRL
+  - IRL
 sr-due: 2024-01-29
 sr-interval: 3
 sr-ease: 268

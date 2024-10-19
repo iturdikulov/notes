@@ -2,7 +2,7 @@
 date: 2023-03-15
 tags:
   - inbox
-  - SR_vim
+  - productivity
 sr-due: 2024-02-03
 sr-interval: 6
 sr-ease: 267

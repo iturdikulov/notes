@@ -2,6 +2,7 @@
 date: 2023-09-21
 tags:
   - inbox
+  - DB
 sr-due: 2024-01-30
 sr-interval: 4
 sr-ease: 270
@@ -16,3 +17,30 @@ sr-ease: 270
 > as it is used by several of the top web browsers, operating systems, mobile
 > phones, and other embedded systems.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/SQLite)</cite>
+
+
+Is there strict typing in SQLite?
+&#10;
+SQLite has a loose type system, you can store any type of data in any field,
+regardless of how you defined it. Remember: just because you can do something,
+doesn't mean you should! <!--SR:!2024-09-14,3,270-->
+
+How import data from SQL, which is main command at least?
+&#10;
+```bash
+sqlite3 ./my_db.sqlite
+.read ./backup.sql  # CORE command
+.exit
+```
+
+How to dump data from SQLite to SQL, which is main command at least?
+&#10;
+```bash
+sqlite3 ./my_db.sqlite
+.mode csv     # set mode, optional
+.out dump.csv # main command
+
+# or as alternative use cli export
+sqlite3 my_db.sqlite .dump >dump.sql # main command
+sqlite3 my_db.sqlite .schema >schema.sql
+```

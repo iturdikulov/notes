@@ -2,7 +2,7 @@
 date: 2023-03-12
 tags:
   - inbox
-  - SR_IRL
+  - IRL
 directory: ~/Work/
 sr-due: 2024-01-28
 sr-interval: 2

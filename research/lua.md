@@ -2,8 +2,7 @@
 date: 2024-01-16
 tags:
   - inbox
-  - SR_programming
-  - research
+  - Lua
 sr-due: 2024-01-31
 sr-interval: 4
 sr-ease: 170
@@ -403,11 +402,3 @@ g()  -- Prints out 343; nothing printed before now.
 
 --]]
 ```
-
-## External links
-
-- [ ] `:h lua-guide` in neovim
-- [ ] [A guide to using Lua in Neovim (lua guide in russian)](https://github.com/kuator/nvim-lua-guide-ru)
-- [ ] - [Programming in Lua (first edition)](https://www.lua.org/pil/contents.html)
-- [ ] - [Lua 5.4 Reference Manual - contents](https://www.lua.org/manual/5.4/),
-- [ ] - [Russian version](https://lua.org.ru/contents_ru.html).

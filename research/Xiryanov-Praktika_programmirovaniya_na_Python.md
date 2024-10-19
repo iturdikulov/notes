@@ -2,8 +2,7 @@
 date: 2023-09-14
 tags:
   - inbox
-  - research
-  - SR_programming
+  - Python
 external:
   - https://www.youtube.com/playlist?list=PLRDzFCPr95fIDJUvFxvzWxg-V9BmZlMMe
 directory: ~/Computer/programming/Хирьянов-Практика_программирования_на_Python/

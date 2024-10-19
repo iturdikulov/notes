@@ -2,7 +2,7 @@
 date: 2023-09-22
 tags:
   - inbox
-  - SR_productivity
+  - productivity
 sr-due: 2024-01-29
 sr-interval: 4
 sr-ease: 274
@@ -169,7 +169,7 @@ All shortcuts aviable in `shortcuts` section in DevTools settings or on
 - Toggle Last Used Panel::`C-S-i`
 - Toggle console::`C-S-j`
 - Next/previous panel::`C-]` and `C-[`
-- Jump to panel #1-9::`C-#` where `#` is 1-9 key.
+- Jump to panel `#1-9`::`C-#` where `#` is 1-9 key.
 - Backward/forward in panel history::`C-M-]`, `C-M-[`
 - Toggle console::`Esc`
 - Text search across all sources::`C-S-f`
