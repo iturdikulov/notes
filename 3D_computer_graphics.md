@@ -2,7 +2,7 @@
 date: 2023-03-12
 tags:
   - inbox
-  - computer_graphics
+  - 3D
 sr-due: 2024-02-02
 sr-interval: 7
 sr-ease: 208

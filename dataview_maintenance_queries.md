@@ -41,9 +41,10 @@ sort file.name asc
 # Tags List
 
 ```dataview
-TABLE file.tags
+LIST WITHOUT ID tags
 SORT file.tags
-WHERE !contains(file.tags, "#inbox")
+FLATTEN tags
+GROUP BY tags
 ```
 
 # Directory properties

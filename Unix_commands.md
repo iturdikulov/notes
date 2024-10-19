@@ -2,7 +2,7 @@
 date: 2023-10-09
 tags:
   - inbox
-  - productivity
+  - Unix
 sr-due: 2024-01-29
 sr-interval: 2
 sr-ease: 228

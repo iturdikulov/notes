@@ -4,7 +4,7 @@ external:
   - https://www.godotengine.org/
 tags:
   - inbox
-  - computer_graphics
+  - gamedev
 sr-due: 2023-01-28
 sr-interval: 5
 sr-ease: 244

@@ -4,7 +4,7 @@ external:
 date: 2023-03-04
 tags:
   - inbox
-  - computer_graphics
+  - 3D
 sr-due: 2023-01-28
 sr-interval: 4
 sr-ease: 224

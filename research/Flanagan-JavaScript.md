@@ -3,7 +3,7 @@ author: David Flanagan
 date: 2020
 tags:
   - inbox
-  - JavaScript
+  - web
 sr-due: 2024-04-12
 sr-interval: 78
 sr-ease: 228

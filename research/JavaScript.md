@@ -2,7 +2,7 @@
 date: 2023-10-06
 tags:
   - inbox
-  - JavaScript
+  - web
 sr-due: 2023-01-28
 sr-interval: 8
 sr-ease: 203

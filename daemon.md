@@ -2,7 +2,7 @@
 date: 2023-08-26
 tags:
   - inbox
-  - base
+  - Unix
 sr-due: 2024-01-29
 sr-interval: 4
 sr-ease: 270
@@ -19,7 +19,7 @@ sr-ease: 270
 > facility, and sshd is a daemon that serves incoming SSH connections.\
 >
 > In a [[Unix]] environment, the parent process of a daemon is often, but not
-> always, the init process. A daemon is usually created either by a process
+> always, the init process. A daemon is usu[[debugger]]ally created either by a process
 > forking a child process and then immediately exiting, thus causing init to
 > adopt the child process, or by the init process directly launching the daemon.
 >

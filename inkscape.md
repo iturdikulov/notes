@@ -4,7 +4,7 @@ external:
   - https://inkscape.org/
 tags:
   - inbox
-  - computer_graphics
+  - 2D
 sr-due: 2024-01-28
 sr-interval: 3
 sr-ease: 255

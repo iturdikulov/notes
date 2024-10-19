@@ -3,7 +3,7 @@ author: Jason van Gumster
 date: 2020
 tags:
   - inbox
-  - computer_graphics
+  - 3D
 sr-due: 2024-02-06
 sr-interval: 12
 sr-ease: 170

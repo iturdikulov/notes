@@ -5,7 +5,7 @@ external:
   - https://web.stanford.edu/class/msande91si/www-spr04/readings/week1/InternetWhitepaper.htm
 tags:
   - inbox
-  - network
+  - web
 sr-due: 2024-02-11
 sr-interval: 17
 sr-ease: 248

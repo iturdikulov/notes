@@ -2,7 +2,7 @@
 date: 2022-12-29
 tags:
   - inbox
-  - productivity
+  - archive
 external:
   - https://github.com/bakkeby/dwm-flexipatch
 directory: ~/Computer/software/dwm-flexipatch/
