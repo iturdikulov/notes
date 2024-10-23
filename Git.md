@@ -209,7 +209,8 @@ Git log, but limit to the last 10 commits and disable pager
 &#10;
 `git --no-pager log -n 10`
 
-Find git commit that introduced a string in any branch
+Find git commit that introduced a string in any branch (search substring in any
+branch/history).
 &#10;
 `git log -S <string> --source --all`
 
