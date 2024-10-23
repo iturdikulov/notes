@@ -95,11 +95,11 @@ as documentation.
 
 Pi = 3.141592653589793  # need to place two spaces for same line comments
 ```
-<!--SR:!2024-10-22,2,182-->
+<!--SR:!2024-10-27,4,182-->
 
 What is the result of this division `10.0 / 3`?
 &#10;
-The result of division is always float, `10.0 / 3  => 3.3333333333333335` <!--SR:!2024-10-22,2,182-->
+The result of division is always float, `10.0 / 3  => 3.3333333333333335` <!--SR:!2024-10-27,4,182-->
 
 What is the modulo operation?
 &#10;
@@ -110,12 +110,12 @@ print(13 % 2) # => 1
 # i % j have the same sign as j, unlike C
 print(-7 % 3)  # => 2
 ```
-<!--SR:!2024-10-22,2,182-->
+<!--SR:!2024-10-24,1,162-->
 
 What is exponentiation and how to use it in Python?
 &#10;
 Raise a number to a power. In python exist special operator `**`, `2**3 => 8`,
-x**y, x to the y'th power. <!--SR:!2024-10-22,2,182-->
+x**y, x to the y'th power. <!--SR:!2024-10-27,4,182-->
 
 How to enforce custom precedence in Python?
 &#10;
@@ -151,7 +151,7 @@ With not.
 not True   # => False
 not False  # => True
 ```
-<!--SR:!2024-10-22,2,182-->
+<!--SR:!2024-10-27,4,182-->
 
 Boolean Operators in python?
 &#10;
@@ -160,7 +160,7 @@ Boolean Operators in python?
 True and False  # => False
 False or True   # => True
 ```
-<!--SR:!2024-10-22,2,182-->
+<!--SR:!2024-10-27,4,182-->
 
 How do True and False relate to numerical values?
 &#10;
@@ -215,7 +215,7 @@ bool(-5)  # => True
 bool(2)   # => True
 -5 or 0   # => -5
 ```
-<!--SR:!2024-10-21,1,162-->
+<!--SR:!2024-10-25,2,162-->
 
 How to use equality in Python?
 &#10;
@@ -232,17 +232,17 @@ Inequality is the `!=` operator.
 1 != 1  # => False
 2 != 1  # => True
 ```
-<!--SR:!2024-10-22,2,182-->
+<!--SR:!2024-10-27,4,182-->
 
 How to use more or less than operators in Python?
 &#10;
 ```python
-1 < 10  # => True
-1 > 10  # => False
-2 <= 2  # => True
-2 >= 2  # => True
+1 < 10  # => True,  1 is less than 10
+1 > 10  # => False, 1 is greater than 10
+2 <= 2  # => True, 2 is less or equal to 2
+2 >= 2  # => True, 2 is greater or equal to 2
 ```
-<!--SR:!2024-10-22,2,182-->
+<!--SR:!2024-10-27,4,182-->
 
 How do you see whether a value is in a numeric range (1..100)?
 &#10;
@@ -255,13 +255,14 @@ You can use following comparations:
 1 < 2 < 3  # => True
 2 < 3 < 2  # => False
 ```
-<!--SR:!2024-10-21,1,162-->
+<!--SR:!2024-10-25,2,162-->
 
 What is the difference between `is` and `==`?
 &#10;
-`Is` checks if two variables refer to the **same object**, but `==` checks
-if the objects pointed to have the **same values**.
 ```python
+# `Is` checks if two variables refer to the **same object**, but `==` checks
+# if the objects pointed to have the **same values**.
+
 a = [1, 2, 3, 4]  # Point a at a new list, [1, 2, 3, 4]
 b = a             # Point b at what a is pointing to
 b is a            # => True, a and b refer to the same object
@@ -280,7 +281,7 @@ Strings are created with " or '.
 name = "Inom"
 f"This is a formatted string with placeholders: Name - {name}."
 ```
-<!--SR:!2024-10-22,2,182-->
+<!--SR:!2024-10-27,4,182-->
 
 How do you add (concatenate) strings?
 &#10;
@@ -302,7 +303,7 @@ Can be string treated like a list of characters?
 # Yes, in python also no "char" type, type("s")
 "Hello world!"[0]  # => 'H'
 ```
-<!--SR:!2024-10-22,2,182-->
+<!--SR:!2024-10-27,4,182-->
 
 How do you find the length of a string or array?
 ```python
@@ -346,7 +347,7 @@ from types import FunctionType
 print(type(Person), isinstance(Person, type))
 print(type(test), isinstance(test, FunctionType))
 ```
-<!--SR:!2024-10-23,2,162-->
+<!--SR:!2024-10-26,3,162-->
 
 How do you compare objects to None and why?
 &#10;
@@ -369,7 +370,7 @@ a == None   # array([False, False, False])
 # compares object to object, outputs False
 a is None   # => False
 ```
-<!--SR:!2024-10-22,2,182-->
+<!--SR:!2024-10-27,4,182-->
 
 ## 2. Variables and Collections
 
@@ -391,7 +392,7 @@ input_string_var = input("Enter some data: ")  # Returns the data as a string
 
 Is there a declaration in Python (`cpython`)?
 &#10;
-There are no declarations (type hints are not declarations), only assignments. <!--SR:!2024-10-22,2,182-->
+There are no declarations (type hints are not declarations), only assignments. <!--SR:!2024-10-27,4,182-->
 
 Convention in naming variables is?
 &#10;
@@ -400,13 +401,12 @@ snake_case style and not starting with number
 some_var = 5
 some_var  # => 5
 ```
-<!--SR:!2024-10-22,2,182-->
+<!--SR:!2024-10-27,4,182-->
 
 What happens if you access an unassigned variable?
 &#10;
 Accessing a previously unassigned variable is an exception.
-<!-- TODO: link? -->
-See Control Flow to learn more about exception handling.
+See [[#3. Control Flow and Iterables]] to learn more about exception handling.
 ```python
 some_unknown_var  # Raises a NameError
 ```
@@ -428,7 +428,7 @@ li = []
 # You can start with a prefilled list
 other_li = [4, 5, 6]
 ```
-<!--SR:!2024-10-22,2,182-->
+<!--SR:!2024-10-27,4,182-->
 
 How do you add elements to a list and remove them?
 &#10;
@@ -463,6 +463,7 @@ index error:
 li = [1, 2, 3]
 li[4]  # Raises an IndexError
 ```
+<!--SR:!2024-10-25,2,187-->
 
 How do you look at ranges in a list?
 Fill this list:
@@ -487,13 +488,15 @@ li[::-1]  # Return list in reverse order => [3, 4, 2, 1]
 # Use any combination of these to make advanced slices
 # li[start:end:step]
 ```
+<!--SR:!2024-10-24,1,167-->
 
-How do you make a deep copy of a list?
+Can we use slicing to create copy of list?
 &#10;
-Make a one layer deep copy using slices.
-<!-- TODO: shallow copy? -->
+Yes. But be careful, we are creating shallow copy.
 ```python
-li = [1, 2, 4, 3]
+a = []
+b = []
+li = [a, b, 4, 3]
 li2 = li[:]  # => li2 = [1, 2, 4, 3] but (li2 is li) will result in false.
 ```
 
@@ -1164,11 +1167,26 @@ add_10 = create_adder(10)
 add_10(3)   # => 13
 ```
 
-How to use closures in nested functions:
+Closures captures the variables it needs from its ==surrounding environment==,
+allowing you to maintain state information in a way that's both elegant and
+efficient.
+```python
+def foo():
+   x = 3
+   def bar(n):
+      print(x + n) # x retains hook to the local var `x`
+   x = 5       # even though 'x' has gone out of scope and should be defunct
+   return bar
+
+bar = foo()
+bar(0)   # print 5
+bar(1)  # print 6
+```
+
+How we can modify variables out of closure function in python?
 &#10;
 We can use the `nonlocal` keyword to work with variables in nested scope which
 shouldn't be declared in the inner functions.
-<!-- TODO: more info about closures -->
 ```python
 def create_avg():
     total = 0
