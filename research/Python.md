@@ -107,10 +107,11 @@ Mathematical operation that finds the remainder of an integer division.
 ```python
 print(7 % 3)  # => 1
 print(13 % 2) # => 1
+print(8 % 3) # => 2
 # i % j have the same sign as j, unlike C
 print(-7 % 3)  # => 2
 ```
-<!--SR:!2024-10-24,1,162-->
+<!--SR:!2024-10-27,2,162-->
 
 What is exponentiation and how to use it in Python?
 &#10;
@@ -182,7 +183,7 @@ values.
 2 == True    # => False
 -5 != False  # => True
 ```
-<!--SR:!2024-10-24,2,162-->
+<!--SR:!2024-10-28,3,162-->
 
 How do you evaluate `None`, `0`, and empty
 `strings`/`lists`/`dicts`/`tuples`/`sets`?
@@ -480,11 +481,12 @@ You can look at ranges with slice syntax. The start index is included, the end
 index is not (it's a closed/open range for you mathy types).
 ```python
 li = [1, 2, 4, 3]
-li[1:3]   # Return list from index 1 to 3 => [2, 4]
-li[2:]    # Return list starting from index 2 => [4, 3]
-li[:3]    # Return list from beginning until index 3  => [1, 2, 4]
-li[::2]   # Return list selecting elements with a step size of 2 => [1, 4]
-li[::-1]  # Return list in reverse order => [3, 4, 2, 1]
+li[1:3]   # [2, 4], return list from index 1 to 3
+li[2:]    # [4, 3], return list starting from index 2 to end of list
+li[:3]    # [1, 2, 4], return list from beginning until index 3
+li[::2]   # [1, 4], return list selecting elements with a step size of 2
+li[::-1]  # [3, 4, 2, 1], return list in reverse order
+li[::-2]  # [3, 2], return list in reverse order with step size 2
 # Use any combination of these to make advanced slices
 # li[start:end:step]
 ```
@@ -957,19 +959,18 @@ with open("myfile2.txt", "w") as file:
     file.write(json.dumps(contents))  # writes an object to a file
 ```
 
-How do you read from a file (string or JSON)?
+How do you read from a file as string, parsed JSON into dictionary?
 &#10;
 ```python
 with open("myfile1.txt") as file:
     contents = file.read()           # reads a string from a file
-print(contents)
-# print: {"aa": 12, "bb": 21}
+print(contents)  # => '{"aa": 12, "bb": 21}'
 
 with open("myfile2.txt", "r") as file:
     contents = json.load(file)       # reads a json object from a file
-print(contents)
-# print: {"aa": 12, "bb": 21}
+print(contents)  # => {"aa": 12, "bb": 21}
 ```
+<!--SR:!2024-10-26,1,167-->
 
 What is an iterable?
 &#10;

@@ -19,13 +19,13 @@ Learn [[research/Python]] by examples.
 
 ### Main
 
-Runs `main()` if file wasn't imported (code snippet).
+Ho to run some code only if file wasn't imported (code snippet).
 &#10;
 ```python
 if __name__ == '__main__':
     pass
 ```
-<!--SR:!2023-08-04,63,270-->
+<!--SR:!2025-04-12,169,270-->
 
 
 ### List
@@ -127,9 +127,9 @@ Return sorted by both elements of list of tuples
 items = [(2, 2), (2, 1), (2, 3)]
 print(sorted(items, key=lambda el: (el[0], el[1])))  # [(2, 1), (2, 2), (2, 3)]
 ```
+<!--SR:!2024-10-26,1,208-->
 
-Flatter list (itertools)
-`['ABC', 'DEF'] -> ['A', 'B', 'C', 'D', 'E', 'F']`
+How to flatten list (itertools) `['ABC', 'DEF'] -> ['A', 'B', 'C', 'D', 'E', 'F']`?
 &#10;
 ```python
 # use itertools.chain.from_iterable()
@@ -138,7 +138,7 @@ items = ['ABC', 'DEF']
 flatter_list = list(itertools.chain.from_iterable(items))
 print(flatter_list)  # ['A', 'B', 'C', 'D', 'E', 'F']
 ```
-<!--SR:!2023-09-12,102,230-->
+<!--SR:!2025-06-16,234,230-->
 
 Generate product of list items, `functools.reduce`<br>
 `[1, 2, 3] -> 6 = (1 * 2) * 3` or `[1, 2, 3, 4] -> 24 = ((1 * 2) * 3) * 4`
@@ -420,7 +420,7 @@ print(set_example1)  # {'a', 'r', 'd', 'v', 'k'}
 print(set_example2)  # {'aardvark'}
 print(set_example3)  # {'aardvark'}
 ```
-<!--SR:!2023-06-08,6,230-->
+<!--SR:!2024-11-07,13,230-->
 
 How add items to `set()` (2 ways)?
 &#10;
@@ -519,6 +519,7 @@ set_example.discard(3) # Don't raise an error.
 set_example.discard(4) # Don't raise an error.
 print(set_example)     # set()
 ```
+<!--SR:!2024-10-26,1,208-->
 
 ### Frozen Set
 
