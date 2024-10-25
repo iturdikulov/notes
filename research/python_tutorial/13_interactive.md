@@ -1,3 +1,12 @@
+---
+external:
+  - https://docs.python.org/3/tutorial/interactive.html
+date: 2023
+tags:
+  - inbox
+  - Python
+---
+# 13. Interactive Input Editing and History Substitution
 
 Some versions of the Python interpreter support editing of the current input
 line and history substitution, similar to facilities found in the Korn shell and
@@ -5,7 +14,7 @@ the GNU Bash shell. This is implemented using the [[GNU_Readline|GNU Readline]]
 library, which supports various styles of editing. This library has its own
 documentation which we won’t duplicate here.
 
-## 14.1. Tab Completion and History Editing
+## Tab Completion and History Editing
 
 Completion of variable and module names is [automatically
 enabled](https://docs.python.org/3/library/site.html#rlcompleter-config)
@@ -21,7 +30,7 @@ configuration also saves your history into a file named ==`.python_history`== in
 your user directory. The history will be available again during the next
 interactive interpreter session.
 
-## 14.2. Alternatives to the Interactive Interpreter
+## Alternatives to the Interactive Interpreter
 
 Which alternative interactive interpreter you know? When they suitable to use?
 &#10;

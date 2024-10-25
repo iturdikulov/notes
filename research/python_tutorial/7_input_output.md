@@ -1,3 +1,12 @@
+---
+external:
+  - https://docs.python.org/3/tutorial/inputoutput.html
+date: 2023
+tags:
+  - inbox
+  - Python
+---
+# 7. Input and Output
 
 There are several ways to present the output of a program; data can be
 printed in a human-readable form, or written to a file for future use.
@@ -33,7 +42,7 @@ percentage = yes_votes / total_votes
 # 42572654 YES votes  49.67%'), yes_votes padded, percentage 2 decimal places
 print("{:-9} YES votes  {:2.2%}".format(yes_votes, percentage))
 ```
-Check also this note - [[input_output#Python input and output]].
+Check also this note - [[../../inputoutput#Python input and output]].
 - Finally, you can do all the string handling yourself by using string
   slicing and concatenation operations to create any layout you can
   imagine. The string type has some methods that perform useful

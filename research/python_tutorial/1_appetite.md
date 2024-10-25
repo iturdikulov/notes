@@ -16,12 +16,12 @@ write/compile/test/re-compile cycle), interactivity, extensibility, splitting
 into modules, simple integration, automatization, batteries-included, difference
 between Python and other languages, such as C, C++, Java, etc.
 
-Python is [[Interpreter|interpreted]] language, no compilation and linking is
-necessary (but possible).
+Python is ==[[Interpreter|interpreted]]== language, no compilation and linking
+is necessary (but possible).
 
 Python can be used as glue language, to connect components together.
 
-Difference between [[research/C]], [[Java]], etc.:
+Difference between [[research/C|C]], [[Java]], [[research/Go|Go]] etc.:
 - the high-level data types allow you to express complex operations in a single
 statement;
 - statement grouping is done by indentation instead of beginning and ending

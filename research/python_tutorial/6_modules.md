@@ -1,3 +1,12 @@
+---
+external:
+  - https://docs.python.org/3/tutorial/modules.html
+date: 2023
+tags:
+  - inbox
+  - Python
+---
+# 6. Modules
 
 Python has a way to put definitions in a file and use them in a
 script or in an interactive instance of the interpreter. Such a file is called a

@@ -1,3 +1,12 @@
+---
+external:
+  - https://docs.python.org/3/tutorial/errors.html
+date: 2023
+tags:
+  - inbox
+  - Python
+---
+# 8. Errors and Exceptions
 
 There are (at least) two distinguishable kinds of errors (general types):
 ==*syntax errors* and *exceptions*==.

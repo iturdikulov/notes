@@ -1,3 +1,12 @@
+---
+external:
+  - https://docs.python.org/3/tutorial/whatnow.html
+date: 2023
+tags:
+  - inbox
+  - Python
+---
+# 12. What Now?
 
 This tutorial is part of Python’s documentation set. Some other documents in the set are:
 

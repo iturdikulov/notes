@@ -1,3 +1,13 @@
+---
+external:
+  - https://docs.python.org/3/tutorial/stdlib.html
+  - https://docs.python.org/3/tutorial/stdlib2.html
+date: 2023
+tags:
+  - inbox
+  - Python
+---
+# 10. Brief Tour of the Standard Library
 
 Which module from standard library is used to work with operating system?
 &#10;

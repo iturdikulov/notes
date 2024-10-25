@@ -1,4 +1,12 @@
-
+---
+external:
+  - https://docs.python.org/3/tutorial/classes.html
+date: 2023
+tags:
+  - inbox
+  - Python
+---
+# 9. Classes
 
 <!-- NEXT: nedd re-read -->
 

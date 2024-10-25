@@ -1,3 +1,12 @@
+---
+external:
+  - https://docs.python.org/3/tutorial/venv.html
+date: 2023
+tags:
+  - inbox
+  - Python
+---
+# 11. Virtual Environments and Packages
 
 When is suitable to use a virtual environment?
 &#10;

@@ -1,3 +1,12 @@
+---
+external:
+  - https://docs.python.org/3/tutorial/appendix.html
+date: 2023
+tags:
+  - inbox
+  - Python
+---
+# 15. Appendix
 
 When an error occurs, the interpreter prints an error message and a stack trace.
 In interactive mode, it then returns to the ==primary prompt==; when input came

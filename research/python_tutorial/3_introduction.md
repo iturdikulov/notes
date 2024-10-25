@@ -1,6 +1,6 @@
 ---
 external:
-  - https://docs.python.org/3/tutorial/index.html
+  - https://docs.python.org/3/tutorial/introduction.html
 date: 2023
 tags:
   - inbox

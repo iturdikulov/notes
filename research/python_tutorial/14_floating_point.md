@@ -1,5 +1,14 @@
+---
+external:
+  - https://docs.python.org/3/tutorial/floatingpoint.html
+date: 2023
+tags:
+  - inbox
+  - Python
+---
+# 14. Floating Point Arithmetic: Issues and Limitations
 
-[[floating-point_arithmetic|Floating-point numbers ]] are represented in
+[[../../floatingpoint|Floating-point numbers]] are represented in
 computer hardware as base 2 (binary) fractions. For example, the **decimal**
 fraction `0.625` has value 6/10 + 2/100 + 5/1000, and in the same way the
 **binary** fraction `0.101` has value 1/2 + 0/4 + 1/8. These two fractions
@@ -238,7 +247,7 @@ others) often won't display the exact decimal number you expect.
 
 1/10 is not exactly representable as a binary fraction. Since at least 2000,
 almost all machines use IEEE 754 binary
-[[floating-point_arithmetic|floating-point arithmetic]], and almost all
+[[../../floatingpoint|floating-point arithmetic]], and almost all
 platforms map Python floats to IEEE 754 binary64 "double precision" values. IEEE
 754 binary64 values contain 53 bits of precision, so on input the computer
 strives to convert 0.1 to the closest fraction it can of the form ==`J / 2**N`==
