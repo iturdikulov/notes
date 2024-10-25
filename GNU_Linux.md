@@ -7,7 +7,6 @@ sr-due: 2024-02-01
 sr-interval: 6
 sr-ease: 248
 ---
-
 # GNU/Linux
 
 > Linux or **GNU/Linux** is a [[Unix]]-like [[operating_system|operating

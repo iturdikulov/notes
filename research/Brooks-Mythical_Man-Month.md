@@ -9,7 +9,6 @@ sr-due: 2024-02-01
 sr-interval: 4
 sr-ease: 245
 ---
-
 # Mythical Man-Month, The: Essays on Software Engineering, Anniversary Edition
 
 

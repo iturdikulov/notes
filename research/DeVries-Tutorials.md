@@ -11,7 +11,6 @@ sr-due: 2024-02-14
 sr-interval: 20
 sr-ease: 210
 ---
-
 # Debugging In Neovim (ft BashBunni)
 
 Indent paragraph::`>ip`

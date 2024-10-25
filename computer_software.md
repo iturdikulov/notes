@@ -6,7 +6,6 @@ sr-due: 2024-01-28
 sr-interval: 2
 sr-ease: 209
 ---
-
 # Computer software
 
 > Set of instructions and documentation that tells a computer what to do or how

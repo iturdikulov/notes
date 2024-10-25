@@ -6,7 +6,6 @@ sr-due: 2024-02-03
 sr-interval: 6
 sr-ease: 246
 ---
-
 # Cache (computing)
 
 > In computing, a cache (/kæʃ/ i KASH) is a hardware or

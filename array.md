@@ -7,7 +7,6 @@ sr-due: 2024-08-01
 sr-interval: 22
 sr-ease: 201
 ---
-
 # Array (computer science)
 
 > Array is a [[data_structure|data structure]] consisting of a collection of

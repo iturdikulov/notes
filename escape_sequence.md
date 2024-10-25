@@ -6,7 +6,6 @@ sr-due: 2024-01-28
 sr-interval: 2
 sr-ease: 248
 ---
-
 # Escape sequences
 
 Combination of characters, which meaning something other than the literal

@@ -7,7 +7,6 @@ sr-due: 2024-01-30
 sr-interval: 4
 sr-ease: 272
 ---
-
 # Twitch (service)
 
 > Twitch is an American video live streaming service that focuses on video game

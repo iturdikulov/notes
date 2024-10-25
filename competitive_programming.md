@@ -6,7 +6,6 @@ sr-due: 2024-01-29
 sr-interval: 2
 sr-ease: 208
 ---
-
 # Competitive programming (sports programming)
 
 > Mind sport usually held over the Internet or a local network, involving

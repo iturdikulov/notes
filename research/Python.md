@@ -8,7 +8,6 @@ sr-due: 2022-01-28
 sr-interval: 6
 sr-ease: 182
 ---
-
 # Python
 
 > Python is a [[high-level_programming_language|high-level]], general-purpose

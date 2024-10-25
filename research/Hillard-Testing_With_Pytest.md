@@ -11,7 +11,6 @@ sr-due: 2023-01-28
 sr-interval: 15
 sr-ease: 226
 ---
-
 # Effective Python Testing With Pytest
 
 ## Survey & Questions (need remove all after find answers)

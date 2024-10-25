@@ -11,7 +11,6 @@ sr-due: 2025-02-18
 sr-interval: 390
 sr-ease: 263
 ---
-
 # Structure and Interpretation of Computer Programs
 
 > Structure and Interpretation of Computer Programs has had a dramatic impact on

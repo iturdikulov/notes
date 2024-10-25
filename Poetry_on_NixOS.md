@@ -6,7 +6,6 @@ sr-due: 2024-01-29
 sr-interval: 3
 sr-ease: 266
 ---
-
 # [[Poetry]] on [[NixOS]]
 
 Basically I use `nix-shell` with some minimal configuration.

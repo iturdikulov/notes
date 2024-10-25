@@ -11,7 +11,6 @@ sr-due: 2024-06-19
 sr-interval: 146
 sr-ease: 250
 ---
-
 # Figure Drawing Fundamentals
 
 Get classical training on how to draw male and female figures. Course contains

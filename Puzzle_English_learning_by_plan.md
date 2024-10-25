@@ -7,7 +7,6 @@ sr-due: 2024-04-11
 sr-interval: 77
 sr-ease: 328
 ---
-
 # Puzzle English learning by plan
 
 This is my notes, taken from the [[Puzzle_English|Puzzle English]] website.

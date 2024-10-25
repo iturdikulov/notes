@@ -10,7 +10,6 @@ sr-due: 2024-02-11
 sr-interval: 17
 sr-ease: 248
 ---
-
 # How Does the Internet Work?
 
 How does the Internet work? Good question! The Internet's growth has become

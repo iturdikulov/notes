@@ -7,7 +7,6 @@ sr-due: 2024-01-30
 sr-interval: 3
 sr-ease: 221
 ---
-
 # Arithmetic
 
 > Arithmetic (from Ancient Greek ἀριθμός (arithmós) 'number', and τική (tikḗ)

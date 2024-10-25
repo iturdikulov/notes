@@ -7,7 +7,6 @@ sr-due: 2024-01-28
 sr-interval: 1
 sr-ease: 228
 ---
-
 # Secure Shell (SSH)
 
 > The Secure Shell Protocol (SSH) is a

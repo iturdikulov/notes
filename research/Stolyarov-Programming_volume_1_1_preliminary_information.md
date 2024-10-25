@@ -13,7 +13,6 @@ sr-ease: 130
 directory:
   - ~/Computer/programming/Stolyarov-Programmirovaniye/Tom_1_Azy_Programmirovaniya/
 ---
-
 # 1. Preliminary information (Предварительные сведения)
 
 ## 1.1. Computer: what is it? (Компьютер: что это такое?)

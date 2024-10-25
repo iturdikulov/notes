@@ -6,7 +6,6 @@ sr-due: 2024-01-31
 sr-interval: 5
 sr-ease: 245
 ---
-
 # Computer hardware
 
 > Computer hardware includes the physical parts of a [[computer|computer]], such

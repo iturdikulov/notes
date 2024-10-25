@@ -10,7 +10,6 @@ sr-due: 2024-01-31
 sr-interval: 4
 sr-ease: 130
 ---
-
 # Teach Yourself Computer Science
 
 If you’re a self-taught engineer or bootcamp grad, you owe it to yourself to

@@ -6,7 +6,6 @@ sr-due: 2024-01-29
 sr-interval: 4
 sr-ease: 270
 ---
-
 # VR photography (virtual-reality photography)
 
 > VR [[photography]] is the interactive viewing of panoramic photographs,

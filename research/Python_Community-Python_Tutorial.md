@@ -9,7 +9,6 @@ sr-due: 2024-01-28
 sr-interval: 1
 sr-ease: 130
 ---
-
 # The Python Tutorial
 
 My notes taken from the Python Tutorial. This tutorial is cover basic concepts

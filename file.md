@@ -8,7 +8,6 @@ sr-due: 2024-01-29
 sr-interval: 4
 sr-ease: 272
 ---
-
 # File
 
 Determines the type of file. Additional information: `man file`

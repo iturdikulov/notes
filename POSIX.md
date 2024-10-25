@@ -6,7 +6,6 @@ sr-due: 2024-01-29
 sr-interval: 3
 sr-ease: 250
 ---
-
 # POSIX
 
 > The Portable Operating System Interface (POSIX; IPA: /ˈpɒz.ɪks/) is a family

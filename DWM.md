@@ -10,7 +10,6 @@ sr-due: 2023-01-28
 sr-interval: 10
 sr-ease: 257
 ---
-
 # dwm (dynamic window manager)
 
 > dwm is a dynamic window manager for X. It manages windows in tiled, monocle

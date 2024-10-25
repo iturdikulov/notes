@@ -10,7 +10,6 @@ sr-due: 2024-01-31
 sr-interval: 5
 sr-ease: 242
 ---
-
 # The Elements of Programming Style
 
 > God programming cannot be taught by preaching generalities.

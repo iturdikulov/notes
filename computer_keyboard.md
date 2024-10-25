@@ -6,7 +6,6 @@ sr-due: 2024-01-30
 sr-interval: 4
 sr-ease: 270
 ---
-
 # Computer keyboard
 
 > Peripheral input device modeled after the typewriter keyboard (I even used it)

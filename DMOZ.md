@@ -7,7 +7,6 @@ sr-due: 2024-01-29
 sr-interval: 3
 sr-ease: 263
 ---
-
 # DMOZ
 
 > DMOZ (from directory.mozilla.org, an earlier domain name, stylized in

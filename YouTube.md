@@ -7,7 +7,6 @@ sr-due: 2024-09-13
 sr-interval: 232
 sr-ease: 288
 ---
-
 # YouTube
 
 > YouTube is an American online video sharing and social media platform

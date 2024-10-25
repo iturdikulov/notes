@@ -6,7 +6,6 @@ sr-due: 2024-01-28
 sr-interval: 3
 sr-ease: 250
 ---
-
 # Do it yourself (DIY)
 
 > "Do it yourself" ("DIY") is the method of building, modifying, or repairing

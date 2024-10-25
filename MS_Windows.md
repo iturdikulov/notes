@@ -6,7 +6,6 @@ sr-due: 2024-01-29
 sr-interval: 4
 sr-ease: 274
 ---
-
 # Microsoft Windows
 
 > Microsoft Windows is a group of several proprietary graphical operating system

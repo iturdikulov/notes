@@ -8,7 +8,6 @@ sr-due: 2024-01-30
 sr-interval: 4
 sr-ease: 270
 ---
-
 # Discord
 
 > Discord is a VoIP and instant messaging [[social_networking_service|social]]

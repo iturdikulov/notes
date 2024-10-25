@@ -7,7 +7,6 @@ sr-due: 2024-02-06
 sr-interval: 1
 sr-ease: 208
 ---
-
 # Filesystem Hierarchy Standard
 
 > The Filesystem Hierarchy Standard (FHS) is a reference describing the

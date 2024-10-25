@@ -6,7 +6,6 @@ sr-due: 2024-02-02
 sr-interval: 5
 sr-ease: 226
 ---
-
 # CI/CD
 
 > In software engineering, CI/CD or CICD is the combined practices of continuous

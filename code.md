@@ -6,7 +6,6 @@ sr-due: 2024-02-03
 sr-interval: 6
 sr-ease: 225
 ---
-
 # Code
 
 > In communications and information processing, code is a system of rules to

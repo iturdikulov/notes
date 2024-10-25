@@ -7,7 +7,6 @@ sr-due: 2025-11-29
 sr-interval: 674
 sr-ease: 236
 ---
-
 # The C Programming Language
 
 The authors of this book present the complete guide to ANSI standard C language

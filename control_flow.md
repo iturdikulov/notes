@@ -7,7 +7,6 @@ sr-due: 2024-01-29
 sr-interval: 2
 sr-ease: 228
 ---
-
 # Control flow
 
 Remember, you start loop from 0 and check condition by ==N== if you use `<`

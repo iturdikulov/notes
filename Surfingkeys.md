@@ -9,7 +9,6 @@ sr-due: 2024-01-30
 sr-interval: 4
 sr-ease: 271
 ---
-
 # Surfingkeys
 
 > Browser extension that provides keyboard-based navigation and control of the

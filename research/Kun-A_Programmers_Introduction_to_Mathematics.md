@@ -11,7 +11,6 @@ sr-due: 2024-02-09
 sr-interval: 15
 sr-ease: 245
 ---
-
 # A Programmer's Introduction to Mathematics: Second Edition
 
 A Programmer's Introduction to [[mathematics]] uses your

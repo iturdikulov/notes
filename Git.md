@@ -8,7 +8,6 @@ sr-due: 2023-01-28
 sr-interval: 8
 sr-ease: 252
 ---
-
 # Git Version Control System
 
 Distributed revision control system, [[computer_program|computer program]],

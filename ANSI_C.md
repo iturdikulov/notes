@@ -7,7 +7,6 @@ sr-due: 2024-01-29
 sr-interval: 2
 sr-ease: 217
 ---
-
 # ANSI C
 
 > ANSI C, ISO C, and Standard C are successive standards for the

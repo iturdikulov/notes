@@ -7,7 +7,6 @@ sr-due: 2024-01-29
 sr-interval: 3
 sr-ease: 263
 ---
-
 # Digital recording
 
 > In digital recording, an [[digital_audio|audio]] or [[my_videos|video]]

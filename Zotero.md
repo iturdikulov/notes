@@ -10,7 +10,6 @@ sr-due: 2024-01-28
 sr-interval: 3
 sr-ease: 264
 ---
-
 # Zotero Research Assistant
 
 TODO: add term

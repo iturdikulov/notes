@@ -6,7 +6,6 @@ sr-due: 2024-02-03
 sr-interval: 6
 sr-ease: 249
 ---
-
 # Generative adversarial network (GAN)
 
 > A generative adversarial network (GAN) is a class of machine learning

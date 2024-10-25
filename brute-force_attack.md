@@ -7,7 +7,6 @@ sr-due: 2024-01-28
 sr-interval: 1
 sr-ease: 229
 ---
-
 # Brute-force attack
 &#10;
 > In [[cryptography|cryptography]], a brute-force attack consists of an attacker

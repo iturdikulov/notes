@@ -7,7 +7,6 @@ sr-due: 2024-02-04
 sr-interval: 7
 sr-ease: 254
 ---
-
 # Rofi
 
 > Rofi started as a clone of simpleswitcher, written by Sean Pringle - a popup

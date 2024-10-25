@@ -9,7 +9,6 @@ sr-due: 2024-02-01
 sr-interval: 5
 sr-ease: 226
 ---
-
 # Obsidian
 
 > Obsidian is a powerful and extensible knowledge base that works on top of your

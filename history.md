@@ -6,7 +6,6 @@ sr-due: 2024-01-28
 sr-interval: 3
 sr-ease: 267
 ---
-
 # History
 
 > History (derived from Ancient Greek ἱστορία (historía) 'inquiry; knowledge

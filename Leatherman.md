@@ -9,7 +9,6 @@ sr-due: 2024-07-05
 sr-interval: 4
 sr-ease: 270
 ---
-
 # Leatherman
 
 > Leatherman is an American brand of **multi-tool** made by Leatherman Tool

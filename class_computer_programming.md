@@ -6,7 +6,6 @@ sr-due: 2024-07-02
 sr-interval: 1
 sr-ease: 225
 ---
-
 # Class (computer programming)
 
 > In [[OOP|object-oriented programming]], a class defines the structure, initial

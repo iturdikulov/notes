@@ -7,7 +7,6 @@ sr-due: 2024-01-29
 sr-interval: 2
 sr-ease: 226
 ---
-
 # Array operations
 
 There are 4 basic operations that can be performed on an [[array]]:

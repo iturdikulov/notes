@@ -6,7 +6,6 @@ sr-due: 2024-02-05
 sr-interval: 8
 sr-ease: 268
 ---
-
 # Digital electronics
 
 > Digital electronics is a field of electronics involving the study of digital

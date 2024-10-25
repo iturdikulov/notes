@@ -6,7 +6,6 @@ sr-due: 2024-01-29
 sr-interval: 3
 sr-ease: 268
 ---
-
 # Digital audio
 
 > Digital audio is a representation of sound recorded in, or converted into,

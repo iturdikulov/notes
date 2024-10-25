@@ -7,7 +7,6 @@ sr-due: 2024-01-29
 sr-interval: 3
 sr-ease: 252
 ---
-
 # History of life
 
 > The [[history|history]] of life on Earth traces the processes by which living

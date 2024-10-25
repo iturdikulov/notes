@@ -7,7 +7,6 @@ sr-due: 2024-07-31
 sr-interval: 21
 sr-ease: 187
 ---
-
 # Big O notation in [[mathematics]] and [[computer_science|computer science]]
 
 What's Big O notation?

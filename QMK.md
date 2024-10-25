@@ -8,7 +8,6 @@ sr-due: 2024-01-30
 sr-interval: 5
 sr-ease: 248
 ---
-
 # QMK Firmware
 
 > The goal of the QMK software project is to develop a completely customizable,

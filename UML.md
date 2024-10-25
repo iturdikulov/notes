@@ -6,7 +6,6 @@ sr-due: 2024-02-01
 sr-interval: 4
 sr-ease: 248
 ---
-
 # Unified Modeling Language (UML)
 
 > The unified modeling language (UML) is a general-purpose visual modeling

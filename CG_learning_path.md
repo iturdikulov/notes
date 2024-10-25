@@ -7,7 +7,6 @@ sr-due: 2024-02-06
 sr-interval: 9
 sr-ease: 179
 ---
-
 # Computer Graphics learning path
 
 My outline for learning [[computer_graphics|computer graphics]].

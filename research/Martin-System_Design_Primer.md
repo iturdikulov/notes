@@ -10,7 +10,6 @@ sr-due: 2024-02-08
 sr-interval: 14
 sr-ease: 230
 ---
-
 # The System Design Primer
 
 Learn how to design large-scale systems. Prep for the system design interview.

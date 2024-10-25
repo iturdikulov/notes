@@ -7,7 +7,6 @@ sr-due: 2024-02-06
 sr-interval: 9
 sr-ease: 250
 ---
-
 # Z shell (zsh)
 
 > The Z shell (Zsh) is a [[Unix]] shell that can be used as an interactive login

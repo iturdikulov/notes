@@ -7,7 +7,6 @@ sr-due: 2024-02-04
 sr-interval: 9
 sr-ease: 187
 ---
-
 # Art learning path
 
 Currently, I'm focusing on learning [[visual_arts|visual art]] and

@@ -6,7 +6,6 @@ sr-due: 2024-01-29
 sr-interval: 4
 sr-ease: 270
 ---
-
 # Open Publication Distribution System (OPDS)
 
 > The Open Publication Distribution System (OPDS) catalog format is a

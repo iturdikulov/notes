@@ -10,6 +10,5 @@ sr-due: 2024-02-03
 sr-interval: 6
 sr-ease: 245
 ---
-
 # Modern Operating Systems
 

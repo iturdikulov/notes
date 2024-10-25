@@ -6,7 +6,6 @@ sr-due: 2024-01-27
 sr-interval: 1
 sr-ease: 201
 ---
-
 # B-tree
 
 > In [[computer_science|computer science]], b-tree is a self-balancing [[tree]]

@@ -11,7 +11,6 @@ sr-due: 2024-06-16
 sr-interval: 143
 sr-ease: 246
 ---
-
 # Large Scale Refactoring With PyBowler
 
 

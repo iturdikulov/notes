@@ -6,7 +6,6 @@ sr-due: 2024-01-30
 sr-interval: 4
 sr-ease: 272
 ---
-
 # Bitlbee
 
 If you understand all of this and still wish to use it, see HowtoPurple and add

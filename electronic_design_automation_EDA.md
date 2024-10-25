@@ -7,7 +7,6 @@ sr-due: 2024-01-29
 sr-interval: 3
 sr-ease: 252
 ---
-
 # Electronic design automation (EDA)
 
 > Electronic design automation (EDA), also referred to as electronic

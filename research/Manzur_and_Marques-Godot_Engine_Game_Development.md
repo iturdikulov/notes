@@ -9,7 +9,6 @@ sr-due: 2025-04-01
 sr-interval: 432
 sr-ease: 272
 ---
-
 # Godot Engine Game Development in 24 Hours, Sams Teach Yourself: The Official Guide to Godot 3.0
 
 ## References

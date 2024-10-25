@@ -7,7 +7,6 @@ sr-due: 2024-02-21
 sr-interval: 26
 sr-ease: 287
 ---
-
 # Vimium - The Hacker's Browser
 
 > Vimium is a browser extension that provides keyboard-based navigation and

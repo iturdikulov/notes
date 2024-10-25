@@ -7,7 +7,6 @@ sr-due: 2024-01-30
 sr-interval: 4
 sr-ease: 272
 ---
-
 # Hacker News
 
 > Social news website focusing on computer science and entrepreneurship. It is

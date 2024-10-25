@@ -6,7 +6,6 @@ sr-due: 2024-02-01
 sr-interval: 4
 sr-ease: 249
 ---
-
 # Domain Name System (DNS)
 
 > Hierarchical and distributed naming system for computers, services, and other

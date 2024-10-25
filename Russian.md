@@ -8,7 +8,6 @@ sr-due: 2024-01-29
 sr-interval: 3
 sr-ease: 243
 ---
-
 # Russian language
 
 > Russian (русский язык, russkij jazyk, /ˈruskʲɪj jɪˈzɨk/) is an

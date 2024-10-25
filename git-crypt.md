@@ -6,7 +6,6 @@ sr-due: 2024-01-29
 sr-interval: 3
 sr-ease: 268
 ---
-
 # Git-crypt
 
 Git crypt allow you to use transparent file encryption in [[Git]] repository.

@@ -6,7 +6,6 @@ sr-due: 2024-01-30
 sr-interval: 4
 sr-ease: 272
 ---
-
 # AdGuard Home
 
 > AdGuard Home is a network-wide software for blocking ads and tracking. After

@@ -8,7 +8,6 @@ sr-due: 2024-01-30
 sr-interval: 3
 sr-ease: 194
 ---
-
 # Gothic
 
 > ![Gothic Cover|320](img/Gothiccover.png)

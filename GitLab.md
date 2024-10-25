@@ -7,7 +7,6 @@ sr-due: 2024-01-30
 sr-interval: 5
 sr-ease: 246
 ---
-
 # GitLab
 
 > GitLab Inc. is an open-core company that operates GitLab, a DevOps software

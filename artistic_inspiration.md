@@ -6,7 +6,6 @@ sr-due: 2024-01-28
 sr-interval: 3
 sr-ease: 268
 ---
-
 # Artistic inspiration
 
 > Inspiration (from the Latin inspirare, meaning "to breathe into") is an

@@ -6,7 +6,6 @@ sr-due: 2024-02-01
 sr-interval: 7
 sr-ease: 250
 ---
-
 # Computer security
 
 ## Software

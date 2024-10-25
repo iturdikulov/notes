@@ -7,7 +7,6 @@ sr-due: 2024-02-02
 sr-interval: 1
 sr-ease: 223
 ---
-
 # Health and "beauty"
 
 > In common usage and medicine, health, according to the World Health

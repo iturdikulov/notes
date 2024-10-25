@@ -11,7 +11,6 @@ sr-due: 2024-04-13
 sr-interval: 79
 sr-ease: 250
 ---
-
 # Hard Surface Modeling In Blender
 
 Bring your hard surface creations to life.

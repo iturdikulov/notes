@@ -9,7 +9,6 @@ sr-interval: 604
 sr-ease: 268
 directory: ~/Computer/programming/Ramalho-Fluent_Python
 ---
-
 # Fluent Python
 
 Python’s simplicity lets you become productive quickly, but this often means you

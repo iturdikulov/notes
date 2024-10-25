@@ -11,7 +11,6 @@ sr-due: 2024-01-26
 sr-interval: 1
 sr-ease: 130
 ---
-
 # Neovim (text editor)
 
 > Neovim is based on Vim by Bram Moolenaar.

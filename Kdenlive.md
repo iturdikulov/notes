@@ -7,7 +7,6 @@ sr-due: 2023-02-28
 sr-interval: 2
 sr-ease: 248
 ---
-
 # Kdenlive
 
 Lecture notes based on [kdenlive manual](https://docs.kdenlive.org/en/).

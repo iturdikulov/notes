@@ -7,7 +7,6 @@ sr-due: 2024-01-29
 sr-interval: 2
 sr-ease: 229
 ---
-
 # Function overloading (method overloading)
 &#10;
 > Ability to create multiple [[function|functions]] of

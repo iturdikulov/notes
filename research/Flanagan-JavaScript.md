@@ -9,7 +9,6 @@ sr-interval: 78
 sr-ease: 228
 directory: ~/Computer/programming/Flanagan-JavaScript
 ---
-
 # JavaScript: The definitive guide: Master the world's most-used programming language
 
 JavaScript is the programming language of the web and is used by more software

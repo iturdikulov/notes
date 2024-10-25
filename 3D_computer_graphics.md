@@ -7,7 +7,6 @@ sr-due: 2024-02-02
 sr-interval: 7
 sr-ease: 208
 ---
-
 # 3D computer graphics
 
 > 3D [[computer_graphics|computer graphics]], sometimes called CGI, 3D-CGI or

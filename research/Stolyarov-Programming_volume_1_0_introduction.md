@@ -11,7 +11,6 @@ sr-due: 2024-01-26
 sr-interval: 1
 sr-ease: 130
 ---
-
 # Introduction 1, philosophical (Предисловие 1, философское)
 
 Author tell how he wrote this book, what difficulties he had and how

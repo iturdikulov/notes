@@ -7,7 +7,6 @@ sr-due: 2024-01-30
 sr-interval: 4
 sr-ease: 270
 ---
-
 # Twitter
 
 From breaking news and entertainment to sports and politics, get the full story

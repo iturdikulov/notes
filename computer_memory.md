@@ -7,7 +7,6 @@ sr-due: 2024-01-28
 sr-interval: 3
 sr-ease: 250
 ---
-
 # Computer memory
 
 Memory can be viewed as a giant collection of cells. Each cell is a single byte

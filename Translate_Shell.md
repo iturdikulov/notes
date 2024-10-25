@@ -7,7 +7,6 @@ sr-due: 2024-02-02
 sr-interval: 7
 sr-ease: 267
 ---
-
 # Translate Shell
 
 > Translate Shell (formerly Google Translate CLI) is a command-line translator

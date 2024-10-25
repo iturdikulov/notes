@@ -6,7 +6,6 @@ sr-due: 2024-01-28
 sr-interval: 3
 sr-ease: 267
 ---
-
 # Lineage 2 bot
 
 - [Lineage II Packets](http://fursoffers.narod.ru/Packets.htm)

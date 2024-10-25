@@ -6,7 +6,6 @@ sr-due: 2024-01-28
 sr-interval: 3
 sr-ease: 252
 ---
-
 # Chromium browser
 
 > Chromium is an open-source browser project that aims to build a safer, faster,

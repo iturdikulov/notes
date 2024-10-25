@@ -8,6 +8,5 @@ sr-interval: 501
 sr-ease: 250
 directory: ~/Arts_and_Entertainment/literature/Koreader Community/Koreader User Guide (1600)/
 ---
-
 # KOReader User Guide
 

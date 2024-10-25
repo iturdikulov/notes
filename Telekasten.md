@@ -9,7 +9,6 @@ sr-due: 2024-05-20
 sr-interval: 115
 sr-ease: 286
 ---
-
 # Telekasten.nvim - working with a markdown zettelkasten / wiki and mixing it with a journal
 
 > A Neovim (lua) plugin for working with a text-based, markdown zettelkasten /

@@ -6,7 +6,6 @@ sr-due: 2024-01-29
 sr-interval: 2
 sr-ease: 201
 ---
-
 # Binary search tree
 
 > In [[computer_science|computer science]], a binary search [[tree]] (BST),

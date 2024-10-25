@@ -7,7 +7,6 @@ sr-due: 2024-01-29
 sr-interval: 3
 sr-ease: 250
 ---
-
 # Audiovisual
 
 > Audiovisual (AV) is electronic [[media]] possessing both a sound and a visual

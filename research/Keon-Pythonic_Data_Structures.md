@@ -11,7 +11,6 @@ sr-due: 2024-01-28
 sr-interval: 3
 sr-ease: 190
 ---
-
 # Pythonic Data Structures and Algorithms
 
 Minimal examples of data structures and algorithms in Python

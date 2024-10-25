@@ -6,7 +6,6 @@ sr-due: 2024-01-29
 sr-interval: 2
 sr-ease: 226
 ---
-
 # Enumerated type
 
 > In [[computer_programming|computer programming]], an enumerated type (also

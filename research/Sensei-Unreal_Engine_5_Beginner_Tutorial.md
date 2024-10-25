@@ -11,7 +11,6 @@ sr-due: 2024-02-11
 sr-interval: 17
 sr-ease: 210
 ---
-
 # Unreal Engine 5 Beginner Tutorial - UE5 Starter Course
 
 [Local video](file:///home/inom/Computer/graphics/Sensei-Unreal_Engine_5_Beginner_Tutorial/tutorial.mp4)

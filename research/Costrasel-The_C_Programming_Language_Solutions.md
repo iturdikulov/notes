@@ -11,7 +11,6 @@ sr-due: 2024-02-11
 sr-interval: 17
 sr-ease: 210
 ---
-
 # The C Programming Language 2nd Edition - Solutions
 
 Solutions to the exercises in the book "The C Programming Language" (2nd

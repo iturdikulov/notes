@@ -7,7 +7,6 @@ sr-due: 2024-01-28
 sr-interval: 1
 sr-ease: 205
 ---
-
 # Computer graphics
 
 > Deals with generating images and art with the aid of computers. Today,

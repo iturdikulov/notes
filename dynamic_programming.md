@@ -6,7 +6,6 @@ sr-due: 2024-01-31
 sr-interval: 4
 sr-ease: 221
 ---
-
 # Dynamic programming
 
 > Dynamic [[computer_programming|programming]] is both a

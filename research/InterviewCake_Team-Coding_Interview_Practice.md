@@ -11,7 +11,6 @@ sr-due: 2024-01-31
 sr-interval: 4
 sr-ease: 223
 ---
-
 # Coding Interview Practice
 
 Kick butt at coding interviews. Be the candidate employers fight over.

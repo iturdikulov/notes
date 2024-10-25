@@ -7,7 +7,6 @@ sr-due: 2024-02-07
 sr-interval: 11
 sr-ease: 246
 ---
-
 # Geometry
 
 > Geometry (from Ancient Greek γεωμετρία (geōmetría) 'land measurement'; from γῆ

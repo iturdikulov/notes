@@ -7,7 +7,6 @@ sr-due: 2024-02-02
 sr-interval: 6
 sr-ease: 248
 ---
-
 # IP address
 
 > An [[internet_protocol|internet protocol]] address (IP address) is a numerical

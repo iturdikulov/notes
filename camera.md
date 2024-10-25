@@ -6,7 +6,6 @@ sr-due: 2024-02-02
 sr-interval: 8
 sr-ease: 250
 ---
-
 # Camera
 
 > A camera is an optical instrument that captures [[my_pictures|images]]. Most

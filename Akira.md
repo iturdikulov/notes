@@ -9,7 +9,6 @@ sr-due: 2024-01-30
 sr-interval: 4
 sr-ease: 270
 ---
-
 # Akira (manga)
 
 > Akira (アキラ, stylized as AKIRA) is a Japanese cyberpunk post-apocalyptic

@@ -11,7 +11,6 @@ sr-due: 2024-02-13
 sr-interval: 19
 sr-ease: 210
 ---
-
 # Math is Fun
 
 [[mathematics|Math]] explained in easy language, plus puzzles, [[game|games]],

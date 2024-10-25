@@ -9,7 +9,6 @@ sr-due: 2024-01-29
 sr-interval: 3
 sr-ease: 252
 ---
-
 # mkdx.vim
 
 > mkdx.vim is a Markdown plugin that aims to reduce the time you spend

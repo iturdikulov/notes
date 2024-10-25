@@ -7,7 +7,6 @@ sr-due: 2024-01-28
 sr-interval: 1
 sr-ease: 225
 ---
-
 # Rust (programming language)
 
 > Rust is a multi-paradigm, general-purpose programming language that emphasizes

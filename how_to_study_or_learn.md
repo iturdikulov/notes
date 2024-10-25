@@ -7,7 +7,6 @@ sr-due: 2024-01-27
 sr-interval: 1
 sr-ease: 205
 ---
-
 # How to study or learn
 
 TODO: flashcards are not ideal, need to review

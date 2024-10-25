@@ -6,7 +6,6 @@ sr-due: 2024-01-28
 sr-interval: 2
 sr-ease: 202
 ---
-
 # Data type
 
 In modern language like Python, JavaScript you can even not working with data

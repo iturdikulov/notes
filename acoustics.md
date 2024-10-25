@@ -6,7 +6,6 @@ sr-due: 2024-01-29
 sr-interval: 3
 sr-ease: 266
 ---
-
 # Acoustics
 
 > Acoustics is a branch of [[physics]] that deals with the study of mechanical

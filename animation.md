@@ -6,7 +6,6 @@ sr-due: 2024-01-29
 sr-interval: 3
 sr-ease: 250
 ---
-
 # Animation
 
 > Animation is the method that encompasses myriad filmmaking techniques, by

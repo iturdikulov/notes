@@ -8,7 +8,6 @@ sr-due: 2024-03-30
 sr-interval: 64
 sr-ease: 247
 ---
-
 # ChatGPT, short for Chat Generative Pre-trained Transformer
 
 > ChatGPT is a sibling model to `InstructGPT`, which is trained to follow

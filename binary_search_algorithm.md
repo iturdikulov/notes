@@ -7,7 +7,6 @@ sr-due: 2024-01-28
 sr-interval: 2
 sr-ease: 202
 ---
-
 # Binary search algorithm (half-interval search, logarithmic search, binary chop)
 
 > In [[computer_science|computer science]], binary search [[algorithm]] that finds the position

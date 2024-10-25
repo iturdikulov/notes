@@ -9,7 +9,6 @@ sr-due: 2024-02-07
 sr-interval: 12
 sr-ease: 230
 ---
-
 # NixOS
 
 > NixOS is a [[GNU_Linux]] distribution based on the Nix package manager and

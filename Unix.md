@@ -6,7 +6,6 @@ sr-due: 2024-02-03
 sr-interval: 9
 sr-ease: 250
 ---
-
 # Unix
 
 > UNIX is a computer operating system. It was first developed in 1969 at Bell

@@ -6,7 +6,6 @@ sr-due: 2024-01-30
 sr-interval: 4
 sr-ease: 270
 ---
-
 # KOReader
 
 > A [[my_fiction_books|e-book]] reader application supporting

@@ -9,7 +9,6 @@ sr-due: 2023-01-28
 sr-interval: 4
 sr-ease: 224
 ---
-
 # Blender
 
 Free and open source [[3D_computer_graphics|3D]] creation suite. Free as in

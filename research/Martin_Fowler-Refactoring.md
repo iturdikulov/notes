@@ -8,6 +8,5 @@ sr-due: 2024-02-01
 sr-interval: 5
 sr-ease: 225
 ---
-
 # Refactoring: Improving the Design of Existing Code
 

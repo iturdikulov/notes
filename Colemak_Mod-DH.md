@@ -8,7 +8,6 @@ sr-due: 2024-01-29
 sr-interval: 4
 sr-ease: 274
 ---
-
 # Colemak Mod-DH
 
 > Colemak Mod-DH introduces a minor modification to the Colemak keyboard layout,

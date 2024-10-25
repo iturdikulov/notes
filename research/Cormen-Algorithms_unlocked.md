@@ -8,7 +8,6 @@ sr-interval: 103
 sr-ease: 228
 directory: ~/Computer/science/Cormen-Algorithms_unlocked
 ---
-
 # Algorithms unlocked
 
 For anyone who has ever wondered how computers solve problems, an engagingly

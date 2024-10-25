@@ -7,7 +7,6 @@ sr-due: 2024-01-28
 sr-interval: 2
 sr-ease: 231
 ---
-
 # ripgrep
 
 > ripgrep is a line-oriented search tool that **recursively** searches the

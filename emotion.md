@@ -6,7 +6,6 @@ sr-due: 2024-01-28
 sr-interval: 3
 sr-ease: 250
 ---
-
 # Emotion
 
 > Emotions are what people feel. They are very ancient, and can be seen in all

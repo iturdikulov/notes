@@ -8,6 +8,5 @@ sr-due: 2024-02-07
 sr-interval: 10
 sr-ease: 225
 ---
-
 # The Practice of Programming
 

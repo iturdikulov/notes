@@ -12,7 +12,6 @@ sr-due: 2024-01-31
 sr-interval: 4
 sr-ease: 216
 ---
-
 # The Pragmatic Programmer: Your Journey to Mastery
 
 > Andy and Dave wrote this influential, classic book to help their clients

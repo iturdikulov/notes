@@ -7,7 +7,6 @@ sr-due: 2024-01-29
 sr-interval: 3
 sr-ease: 252
 ---
-
 # SolveSpace
 
 Is a free (GPLv3) parametric 3d [[computer-aided_design|cad]] tool.

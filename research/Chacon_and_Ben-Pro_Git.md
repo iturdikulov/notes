@@ -13,7 +13,6 @@ sr-ease: 230
 directory:
   - ~/Computer/software/Chacon_and_Ben-Pro_Git
 ---
-
 # Pro Git
 
 A book about Git and [[version_control|version control]] in general.

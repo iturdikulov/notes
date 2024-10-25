@@ -6,7 +6,6 @@ sr-due: 2024-01-29
 sr-interval: 4
 sr-ease: 272
 ---
-
 # Finance
 
 > Finance is a study which figures out how people, businesses and groups make

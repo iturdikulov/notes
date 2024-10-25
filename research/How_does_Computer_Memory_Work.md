@@ -8,7 +8,6 @@ sr-due: 2024-07-02
 sr-interval: 1
 sr-ease: 220
 ---
-
 # Branch Education - How does Computer Memory Work?
 
 ![How does Computer Memory Work?](https://www.youtube.com/watch?v=7J7X7aZvMXQ)\

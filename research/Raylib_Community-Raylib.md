@@ -11,7 +11,6 @@ sr-due: 2024-07-04
 sr-interval: 161
 sr-ease: 271
 ---
-
 # Raylib
 
 ## References

@@ -6,7 +6,6 @@ sr-due: 2024-02-04
 sr-interval: 9
 sr-ease: 250
 ---
-
 # Cooking
 
 Significant part of my [[IRL|life]] is cooking. I like to cook

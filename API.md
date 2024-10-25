@@ -6,7 +6,6 @@ sr-due: 2024-02-03
 sr-interval: 6
 sr-ease: 248
 ---
-
 # API
 
 > An application programming interface (API) is a way for two or more

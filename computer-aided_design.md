@@ -6,7 +6,6 @@ sr-due: 2024-01-28
 sr-interval: 3
 sr-ease: 266
 ---
-
 # Computer-aided design (CAD, CADD)
 
 > Use of [[computer|computers]] (or workstations) to aid in the creation,

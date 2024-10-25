@@ -11,7 +11,6 @@ sr-due: 2024-06-21
 sr-interval: 148
 sr-ease: 250
 ---
-
 # Game Development with Blender and Godot
 
 This book is for game developers who are looking to make the transition from 2D

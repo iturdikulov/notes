@@ -7,7 +7,6 @@ sr-due: 2024-01-29
 sr-interval: 2
 sr-ease: 222
 ---
-
 # Interpreter (computing)
 
 > In computer science, an interpreter is a computer program that directly

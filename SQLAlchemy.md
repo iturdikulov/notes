@@ -4,7 +4,6 @@ tags:
   - inbox
   - DB
 ---
-
 # SQLAlchemy
 
 The SQLAlchemy ORM provides an additional configuration layer allowing

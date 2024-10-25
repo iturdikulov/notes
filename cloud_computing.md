@@ -6,7 +6,6 @@ sr-due: 2024-02-02
 sr-interval: 5
 sr-ease: 237
 ---
-
 # Cloud computing
 
 > Cloud computing is the on-demand availability of [[computer|computer]] system

@@ -6,7 +6,6 @@ sr-due: 2024-02-01
 sr-interval: 4
 sr-ease: 248
 ---
-
 # HTTP and HTTPS and TLS
 
 > The Hypertext Transfer Protocol (HTTP) is an application layer protocol in the

@@ -7,7 +7,6 @@ sr-due: 2024-01-29
 sr-interval: 3
 sr-ease: 250
 ---
-
 # Anxiety
 
 > Anxiety is an [[emotion]] which is characterized by an unpleasant state of
