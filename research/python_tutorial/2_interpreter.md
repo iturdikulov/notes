@@ -20,7 +20,7 @@ venv .venv`.
 
 Does Python interpreter support [[GNU_Readline|readline]] library?
 &#10;
-Yes, which provides command line editing and history.
+Yes, which provides command line editing and history. <!--SR:!2024-11-01,3,250-->
 
 Commands:
 
@@ -36,7 +36,7 @@ How I can get command line arguments in interactive interpreter?
 Python interpreter support argument parsing. You can use `import sys; sys.argv`
 to get current script name and arguments (list of strings). Minimal length of
 `sys.argv` is 1, it can be: empty, script name (`python -`, `-` is standard
-input) or module name (`python -m -i lzma`).
+input) or module name (`python -m -i lzma`). <!--SR:!2024-10-30,1,230-->
 
 In `sys.argv` also stored `-c` and `-m` (`sys.argv[0]`) and their arguments.
 Options found after `-c` command or `-m` module are not consumed by the Python
@@ -44,18 +44,19 @@ interpreter’s option processing but left in `sys.argv` for the command or modu
 to handle.
 
 In interactive prompt usually for next command used `>>>` sign, for continuation
-lines used secondary prompt ==`...`==.
+lines used secondary prompt ==`...`==. <!--SR:!2024-11-01,3,250-->
 
 By default, Python 3 source files are treated as encoded in
 ==[[Unicode|UTF-8]]==, but standard library only use [[ASCII]] characters for
-identifiers, this convention that any portable code should follow.
+identifiers, this convention that any portable code should follow. <!--SR:!2024-11-01,3,250-->
 
 Can I use non UTF-8 encoding?
 &#10;
-Yes, if you need to set non UTF-8 encoding, use `# -*- coding: ==ENCODING_NAME==
+Yes, if you need to set non UTF-8 encoding, use `# -*- coding: ENCODING_NAME
 -*-` comment as first line or after [[shebang]]:
 ```python
 #!/usr/bin/env python3
 # -*- coding: cp1251 -*-
 print("Здесь можно использовать кодировку cp1251")
 ```
+<!--SR:!2024-10-30,1,230-->
