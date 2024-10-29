@@ -25,10 +25,11 @@ Good checklist for wake-up:
 
 - Wash your face and brush your teeth, both are important.
 - Drink a glass of water (or coffee 😈).
-- Do basic training, 35+ minutes sessions (in my case run).
-- Walk outside for 10–20 minutes to get enough energy from sun (vitamin D).
 - Prepare your workspace, fewer distractions improve your productivity.
 - Put your devices on charger.
+- Learn something new.
+- Do basic training, 35+ minutes sessions (in my case run).
+- Walk outside for 10–20 minutes to get enough energy from sun (vitamin D).
 
 ## 2. TODO
 
@@ -43,7 +44,7 @@ Priorities:
 - Plan something important (3 high-level tasks), for combinatorial explosion.
 - Mark completed tasks.
 
-## 3. Chunk #1
+## 3. Chunk \#1. Deep work session, focusing on the most critical tasks
 
 Disable distractions, prepare water, breath deeply few minutes and start.
 
@@ -59,7 +60,7 @@ Main goals:
 
 Completed important task give me emotional charge and motivation.
 
-## 4. Chunk #2
+## 4. Chunk \#2. Less demanding tasks
 
 After main working time I give my mind some relax time. Give rest to your eyes
 and mind and fuel your body and give time to food **digestion**.
@@ -67,29 +68,27 @@ and mind and fuel your body and give time to food **digestion**.
 This is good time to do something brainless, with low energy consumption. But
 **don't** sleep immediately after lunch and for long time.
 
-Complete main tasks or work on **alternative projects**, connect with people,
-help them if you can.
+Finish started tasks, connect with people, help them if you can.
 
-## 5. Workout
+## 5. Workout and Dinner
 
 Only morning physical activity is not enough for me. I need to do some
-additional physical activity. It's good to do it after work.
+additional physical activity.
 
 Regular work-out are important for better energy and healthy mind. Better to do
-it according [[my_physical_exercise_plan|plan]] and track your progress and
-results.
+it according [[my_physical_exercise_plan#Physical exercise plan]] and track your
+progress and results.
 
-After workout, I get rest and recovery time. Maybe it's good time for tea or
-some other drink.
+Dinner time. After workout, I get rest and recovery time. Maybe it's good time
+for tea or some other drink with some food (not a lot).
 
-## 6. Learn
+## 6. Learn something new
 
 This chunk is starting in the evening. I need to learn something new. Without
 this process I don't really do any progress, I think it's also interesting and
-fun sometimes. I learn according to [[learning]] techniques.
-
-Depending on my mood I can spend on this chunk 2 or more hours. Minimal goal is
-2 ETA hours of learning.
+fun sometimes. I learn according to [[learning]] techniques. I usually spend
+some time to learn before this chunk, this is also good time to review learned
+information with [[spaced_repetition|spaced repetition]] technique.
 
 ## 7. Fun
 
