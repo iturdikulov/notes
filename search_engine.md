@@ -127,9 +127,7 @@ websites, also good source for category names.
 
 ### Translation services
 
-- Google Translate - translate text::`@tr invictus`
-- Yandex Translate - translate text::`@try appearance`
-- DeepL Translate - translate text::`@trd ASAP`
+- Yandex Translate - translate text::`@tn invictus`
 - Foldoc Dict - search for definitions, mostly technical::`@foldoc Inverse Address Resolution Protocol`
 
 ### Shopping
