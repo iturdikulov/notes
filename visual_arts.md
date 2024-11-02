@@ -20,8 +20,8 @@ sr-ease: 248
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Visual_arts)</cite>
 
 Currently, I am working on [[30_day_drawing_challenge|my drawing challenge]] and
-[[research/Drawbox_Community-Drawbox]] course.
+[[research/Drawbox_Community-Drawbox|Drawbox]] course.
 
-## References
+## External links
 
 - [ArtStation - All Channels](https://www.artstation.com/?sort_by=community&dimension=all)
