@@ -3,7 +3,7 @@ date: 2023-05-19
 tags:
   - inbox
   - base
-sr-due: 2024-01-26
+sr-due: 2023-01-26
 sr-interval: 1
 sr-ease: 205
 ---
@@ -44,7 +44,7 @@ sr-ease: 205
 | Insert    | O(1)    | O(1)       |
 | Delete    | O(1)    | O(1)       |
 
-![[img/queue.md]]
+![[img/queue.excalidraw]]
 _Representation of a FIFO queue_
 
 ## References
