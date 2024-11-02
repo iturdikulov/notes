@@ -18,6 +18,12 @@ sr-ease: 243
 > Similar methods developed subsequently include PQRST and KWL table.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/SQ3R)</cite>
 
+![[SQ3R.excalidraw]]
+
+General idea is repeating the process of reading, which helps to understand and
+remember material better. This isn't wasting time, actually if you want to
+understand some material in details this is usually required.
+
 What SQ3R stands for?::Survey, Question, Read, Recite, Review
 
 ## How I use it
