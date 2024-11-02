@@ -222,7 +222,7 @@ Actual programs shortcuts/specific hardware control, etc. are located in
 - Pass menu::`<D-p>`
 - Calculator menu::`<D-c>`
 - Active programs menu::`<D-a>`
-- Unicode and [[nerd_fonts|Nerdfonts]] characters menu::`<D-\>`
+- Unicode and Nerdfonts characters menu::`<D-\>`
 - Power menu::`<D-S-C-Del>`, (all modifiers + `Del`)
 
 - Convert clipboard to markdown URL and paste::`<D-v>`
