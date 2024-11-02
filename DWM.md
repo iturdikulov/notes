@@ -17,6 +17,8 @@ sr-ease: 257
 > optimizing the environment for the application in use and the task performed\
 > — <cite>[dwm](https://dwm.suckless.org/)</cite>
 
+UPDATE: right now I switched to [[Hyprland]].
+
 I used long time `i3wm`, `KWin`, `GNOME`, `Desktop Window Manager`, various
 status bars (like `polybar`), etc. But after that I discovered DWM, I just
 switched to it and use it with maximum pleasure. It has some "disadvantages",
@@ -31,8 +33,6 @@ as modifier key, to reduce key conflicts in various programs.
 
 Key notation in flashcards - I usually use vim key notation (`:h key-notation`),
 with some exceptions.
-
-UPDATE: right now I switched to [[Hyprland]].
 
 ## Launching DWM
 
