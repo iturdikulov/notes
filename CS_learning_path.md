@@ -67,7 +67,7 @@ Computer science is closely related to
     - [[software_testing]]
     - String searching & manipulations
     - Tries
-    - [[floatingpoint]]
+    - [[floating-point_arithmetic]]
     - [[Unicode]]
     - Endianness
     - Networking
@@ -84,7 +84,7 @@ Computer science is closely related to
     - Entropy
     - [[cryptography]]
     - Compression
-    - [[computer_securitySecurity]]
+    - [[computer_security]]
     - [[garbage_collection]]
     - Parallel Programming
     - Messaging, Serialization, and Queueing Systems
@@ -116,7 +116,7 @@ Computer science is closely related to
 ## Cheat sheets, glossaries, outlines
 
 - [[research/Wikipedia-Glossary_of_computer_science]]
-- [[list_of_algorithms|List of algorithms]]
+- [[algorithm|Algorithm]]
 - [Wikipedia - List of algorithms](https://en.wikipedia.org/wiki/List_of_algorithms)
 - [[research/Nova_Byrne-Tech_yourself_computer_science|Tech yourself computer science]]
 

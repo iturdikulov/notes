@@ -33,5 +33,5 @@ sr-ease: 250
 
 ## Multimedia formats
 
-- [[MP4]]
-- [[GIF]]
+- MP4
+- GIF

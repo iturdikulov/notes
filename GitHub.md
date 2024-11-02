@@ -18,8 +18,8 @@ Like [[GitLab]] it provides the distributed version control of Git
 plus access control, bug tracking, software feature requests, task management,
 continuous integration, and wikis for every project.
 
-You can optimize working with GitHub by using next described tips/shortcuts (like
-[[git_tips|git tips]]).
+You can optimize working with GitHub by using described tips/shortcuts in the
+next sections.
 
 ## GitHub CLI
 

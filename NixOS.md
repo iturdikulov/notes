@@ -60,7 +60,7 @@ sudo nix-collect-garbage --delete-older-than 30d
 sudo nixos-rebuild switch
 ```
 
-[[hey]] utility
+TODO: own hey utility?
 
 ```bash
 hey gc; sudo hey gc

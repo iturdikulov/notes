@@ -638,8 +638,6 @@ xa = 2 # untest
 
 Get help `:h MiniAlign-examples`
 
-[Plugin config with some examples](~/Computer/software/nvim/after/plugin/mini.lua)
-
 ## Visual Mode
 
 `S[text object]`:::in visual state will surround a text object

@@ -17,7 +17,9 @@ sr-ease: 229
 
 [Articles](https://leetcode.com/articles/)
 
-CLI tool to interact with the site - [[leetcode-cli]].
+CLI tool to interact with the site
+
+TODO: add more info
 
 Main factors and tips to use LeetCode effectively [^1]:
 &#10;

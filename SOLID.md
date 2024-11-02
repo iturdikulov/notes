@@ -9,7 +9,7 @@ sr-ease: 228
 ---
 # SOLID
 
-> In [[software_engineering|software engineering]], SOLID is a mnemonic acronym
+> In software engineering, SOLID is a mnemonic acronym
 > for five design principles intended to make object-oriented designs more
 > understandable, flexible, and maintainable. The principles are a subset of
 > many principles promoted by American software engineer and instructor Robert
