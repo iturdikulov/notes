@@ -3,9 +3,6 @@ date: 2024-01-23
 tags:
   - inbox
   - linguistic
-sr-due: 2024-01-29
-sr-interval: 3
-sr-ease: 261
 ---
 
 # Proofreading
@@ -23,15 +20,13 @@ sr-ease: 261
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Proofreading)</cite>
 
 I use digital tools for proofreading, such as
-[LanguageTool](https://languagetool.org/ru) (with
+[LanguageTool](https://languagetool.org/ru) with
 [valentjn/ltex-ls](https://github.com/valentjn/ltex-ls)) to write grammatically
 correct text in [[English]] and [[Russian]].
 
 ## A Pop Culture Guide to Proofreading Marks
 
-> Delete and close up any holes in your home decor with this pop cultural primer
-> on proofreading symbols! Perfect for any word nerd, pop culture junkie—or
-> anyone who knows the joy of telling other people that they’re wrong.\
-> — <cite>[Popchart](https://popchart.co/products/a-pop-culture-guide-to-proofreading-marks)</cite>
+Interesting cheat-sheet how to properly use proofreading marks, can be useful
+to visually proofreading my own texts.
 
-![A Pop Culture Guide to Proofreading Marks](img/P2-Proofreading_Zoom4.webp)
+[![A Pop Culture Guide to Proofreading Marks](./img/ref-Proofreading.webp)](https://popchart.co/products/a-pop-culture-guide-to-proofreading-marks)
