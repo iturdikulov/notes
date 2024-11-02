@@ -67,7 +67,7 @@ Computer science is closely related to
     - [[software_testing]]
     - String searching & manipulations
     - Tries
-    - [[floating-point_arithmetic]]
+    - [[floatingpoint]]
     - [[Unicode]]
     - Endianness
     - Networking

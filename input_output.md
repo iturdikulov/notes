@@ -8,6 +8,8 @@ sr-interval: 2
 sr-ease: 225
 ---
 
+# Input/Output
+
 > In computing, input/output (I/O, i/o, or informally io or IO) is the
 > communication between an information processing system, such as a computer,
 > and the outside world, such as another computer system, peripherals, or a

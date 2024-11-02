@@ -7,7 +7,6 @@ sr-due: 2024-01-29
 sr-interval: 2
 sr-ease: 223
 ---
-
 # Front-end
 
 > In software engineering, the terms frontend and backend (sometimes written as

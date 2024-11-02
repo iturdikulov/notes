@@ -1,9 +1,9 @@
 ---
 tags:
-  - "inbox"
-  - "inbox"
-  - "productivity"
-author: "Drew Neil"
+  - inbox
+  - inbox
+  - productivity
+author: Drew Neil
 date: 2018
 sr-due: 1678809600
 sr-ease: 246

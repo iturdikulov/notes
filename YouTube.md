@@ -39,6 +39,10 @@ sr-ease: 288
 
 Ignore this keys in [[Vimium]]: `mjl.,><0123456789/cni`
 
+## Programs
+
+- [yt-dlp - A feature-rich command-line audio/video downloader](https://github.com/yt-dlp/yt-dlp)
+
 ## External links
 
 - [Advanced Search for YouTube](https://playlists.at/youtube/search/)

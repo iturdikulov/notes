@@ -8,9 +8,7 @@ sr-due: 2024-01-29
 sr-interval: 3
 sr-ease: 269
 ---
-# Heartbeast Godot Tutorials
-
-## Galaxy Defiance
+# Galaxy Defiance
 
 Display → Window → Stretch → Mode: Canvas items. This mode optimized for pixel
 art games.

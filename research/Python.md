@@ -142,7 +142,7 @@ Boolean values, they are primitives (Note: the capitalization)
 True   # => True
 False  # => False
 ```
-` <!--SR:!2024-10-26,4,182-->
+` <!--SR:!2024-11-02,7,182-->
 
 How do you negate a Boolean value?
 &#10;
@@ -232,7 +232,7 @@ Inequality is the `!=` operator.
 1 != 1  # => False
 2 != 1  # => True
 ```
-<!--SR:!2024-10-27,4,182-->
+<!--SR:!2024-11-05,7,182-->
 
 How to use more or less than operators in Python?
 &#10;
@@ -295,7 +295,7 @@ print(
     "world"             # => "Hello world"
 )
 ```
-<!--SR:!2024-10-26,4,182-->
+<!--SR:!2024-11-02,7,182-->
 
 Can be string treated like a list of characters?
 &#10;
@@ -428,7 +428,7 @@ li = []
 # You can start with a prefilled list
 other_li = [4, 5, 6]
 ```
-<!--SR:!2024-10-27,4,182-->
+<!--SR:!2024-11-05,7,182-->
 
 How do you add elements to a list and remove them?
 &#10;
@@ -1032,6 +1032,7 @@ By call `list()` function:
 list(our_iterable)  # => Returns ["one", "two", "three"]
 list(our_iterator)  # => Returns [] because state is saved
 ```
+
 
 ## 4. Functions
 

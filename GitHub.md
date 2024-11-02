@@ -9,7 +9,6 @@ sr-due: 2024-02-03
 sr-interval: 6
 sr-ease: 231
 ---
-
 # GitHub
 
 Internet hosting service for software development and version control using

@@ -7,19 +7,21 @@ sr-due: 2024-01-29
 sr-interval: 3
 sr-ease: 254
 ---
-
 # My awesome web services list
 
-List of web services which I often use, or can use in the future.
+List of web services with some tools and resources which I often use, or can use
+in the future.
 
 - [[ChatGPT]]
-- [[brain.fm]]
-- [[GitHub]]
 - [[GitLab]]
 - [IMDb](https://www.imdb.com/)
-- [[YouTube]]
-- [[Twitch]]
 - [Time Converter and World Clock](https://www.worldtimebuddy.com/)
+- [[GitHub]]
+- [[Twitch]]
+- [[YouTube]]
+- [Internet Archive](https://archive.org/)
+  - [Archive.org-Downloader](https://github.com/MiniGlome/Archive.org-Downloader)
+
 TODO: add more services
 
 ## References
