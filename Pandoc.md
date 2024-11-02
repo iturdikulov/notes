@@ -55,19 +55,10 @@ pandoc input.docx --to gfm -o output.md
 pandoc input.md -s -o output.html
 ```
 
-## How I use pandoc
-
-Generally I use shell script (check `pandoc-convert-example.sh`) to convert my
-notes from [[markdown]] to something, to support [[bibtex]] [[citation]], like
-`@JohnMacFarlanePandocUserGuide2023`.
-
-In results pandoc using various flags (BibTeX file, citation style, etc.)
-generate markdown file with integrated citations, and [[bibliography]]. Later I
-use this to generate my static site, using [[Hugo]].
-
-Here is the core part of the script:
+## Usage example
 
 ```bash
+# Convert markdown with linked bibtex cites
 pandoc -C \
        -t gfm  \
        -f markdown+raw_html \
@@ -86,7 +77,7 @@ pandoc -C \
 - `--csl=books/research-institute-for-nature-and-forest.csl` - citation style
 - `--bibliography=books/library.bib` - BibTeX file (exported from Zotero)
 - `-M reference-section-title=References` - title of the bibliography section
-- `--mathjax` - use [[MathJax]] to render math
+- `--mathjax` - use MathJax to render math
 
 ## Tools
 
