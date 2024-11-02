@@ -19,6 +19,13 @@ body {
   }
 }
 
+.cm-contentContainer {
+  background: linear-gradient(90deg, #0000 calc(100% - 1ch), #31343a 0);
+  background-size: 1ch 100%;
+  background-repeat: no-repeat;
+  background-position: 79ch 0;
+}
+
 /* Save this as a CSS Snippet alternativeCheckboxes.css */
 
 
