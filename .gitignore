@@ -11,11 +11,8 @@ external/salesloop
 private/
 
 # Inbox files
-inbox/
 books/
-!inbox/**/*.md
 TODO.md
-My_buy_list.md
 
 # Original images, which I want to keep
 img_originals/
