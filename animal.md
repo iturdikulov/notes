@@ -18,9 +18,7 @@ sr-ease: 270
 In my [[IRL|life]] I had some pets, cats and dogs. I like animals,
 especially if they are cute 🐱.
 
-Here I store various information about animals.
-
-# Popchart posters
+Here I store various useful and interesting information about animals.
 
 ## Birds of the World
 
@@ -31,7 +29,7 @@ Here I store various information about animals.
 > diagrammatic dream, this chirpy chart is sure to make your walls sing.\
 > — <cite>[Popchart](https://popchart.co/products/birds-of-the-world)</cite>
 
-![Birds of the World](img/P5-BirdsoftheWorld_Zoom.webp)
+![Birds of the World](./img/ref-Birds_of_the_World.webp)
 
 ## Cats, Categorized
 
@@ -39,7 +37,7 @@ Here I store various information about animals.
 > expert examination, which maps out a multitude of mousers.\
 > — <cite>[Popchart](https://popchart.co/products/cats-categorized)</cite>
 
-![Cats, Categorized](img/P-DomesticCats_Zoom.webp)
+![Cats, Categorized](./img/ref-Domestic_Cats.webp)
 
 ## Dinosauria
 
@@ -50,17 +48,5 @@ Here I store various information about animals.
 > paleontological research as of October 2022!.\
 > — <cite>[Popchart](https://popchart.co/products/dinosauria)</cite>
 
-![Dinosauria](img/Dinosauria_92399D43-F496-4620-B387-0CCF698EF01B.webp)
-
-## The Horticultural Chart of Houseplants
-
-TODO: wrong place!
-
-> Make your house a little greener with this cheery chart of over a hundred
-> popular potted plants! A veritable horticultural who’s who, each leafy friend
-> has been lushly illustrated and labeled with nomenclature both common and
-> scientific.\
-> — <cite>[Popchart](https://popchart.co/products/the-horticultural-chart-of-houseplants)</cite>
-
-![The Horticultural Chart of Houseplants](img/P2-Houseplants_Zoom_44feb4fb-caea-49b6-95b2-25c00fb0ac18.webp)
+![Dinosauria](./img/ref-Dinosauria.webp)
 
