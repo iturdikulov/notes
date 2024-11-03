@@ -12,7 +12,7 @@ sr-ease: 208
 ---
 # Comprehensive Python Cheatsheet
 
-Learn [[research/Python]] by examples.
+Learn [[Python]] by examples.
 
 ## Core
 
