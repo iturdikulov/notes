@@ -77,11 +77,12 @@ content interesting/useful/relevant to you and/or your existence notes.
 
 Here are some rules:
 
-- Literature notes are stored in `research` directory.
+- Literature notes have `research` tag.
 - If required research note can have linked directory, sort of dependencies
 (`directory:` YAML frontmatter variable). This can be code, assets, etc.
-- Some research notes have `book` or `article` frontmatter variable, with link
-to related book/article file.
+- Some research notes have `file` frontmatter variable, with link
+to related book/article/other resource. Usually these notes haven't `directory`
+frontmatter variable.
 - Notes are taken specifically on the content. Usually I just use annotating
 viewer (such as [[Xournal++]] and [[Xodo]]) to generate initial notes.
 - Be selective, store useful information
@@ -120,7 +121,7 @@ Notes may have this frontmatter variables:
   [[iturdikulov.com]] site.
 - `sr*` - spaced repetition related variables
 
-## References
+## External links
 
 - [ ] [Types of ZT Notes](https://zk.zettel.page/types-of-notes)
 - [ ] [Taxonomy of note types](https://notes.andymatuschak.org/Taxonomy_of_note_types)
