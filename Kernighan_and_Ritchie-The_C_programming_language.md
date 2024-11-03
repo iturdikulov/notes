@@ -686,7 +686,7 @@ Passing arguments by value called ==call by value==, while some other languages
 use call by reference (FORTRAN as example).
 <!--SR:!2023-05-15,3,267-->
 
-Worth to check [[evaluation_strategy|evaluation strategy]].
+Worth to check strategy.
 
 Call by value usually leads to more compact programs with fewer extraneous
 variables, because parameters can be treated as conveniently initialized local
