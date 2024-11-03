@@ -3,27 +3,25 @@ date: 2023-03-09
 tags:
   - inbox
   - productivity
-sr-due: 2024-02-03
+sr-due: 2021-02-03
 sr-interval: 6
 sr-ease: 226
 ---
 
-# Notes types which I use with Zettelkasten
+# My Zettelkasten note types (AKA templates)
 
-This is initial table of notes types which I use with [[Zettelkasten]]. I will
-update it as I improve my workflow. To set note type need just apple tag from
-left column to note.
+I use some templates/note types with [[Zettelkasten]]. I will update it as I
+improve my workflow. To set note type need just to apply note type tag.
 
 All new note have a `- inbox` tag, this allowing to use
-[[spaced_repetition|spaced repetition]] system to review and work with notes.
+[[spaced_repetition|spaced repetition]] system to continuously review and work
+with notes.
 
-Workflow:
+I configured [SilentVoid13/Templater](https://github.com/SilentVoid13/Templater)
+plugin with some predefined templates. To create new note need to use `M-n`
+shortcut (create new note with template).
 
-- TODO: Any resource, such as video, article, web-page, picture archived using
-[[ArchiveBox|archivebox]] or directly downloaded into own directory.
-
- - Notes includes links to related notes and sources links. Rich linking
- essential in Zettelkasten system.
+The types will be described below.
 
 ## Fleeting notes
 
@@ -31,90 +29,99 @@ I not use fleeting notes, instead I used [[Taskwarrior]] tasks, which
 support many things which I like to have. And yes you can organize fleeting
 notes system using it.
 
-Need to avoid placing ideas in fleeting system, you can just create permanent
+> [!NOTE]
+> Need to avoid placing ideas in fleeting system, you can just create permanent
 note.
 
-## Literature notes
+## Permanent note
 
-I have "rich" system to manage my reference note. Some rules:
-- Notes are taken specifically on the content. Usually I just use annotating
-viewer (such as [[Sioyek]] and [[xodo]]) to
-generate initial notes. Then I can write additional literature notes in
-`reserach` directory.
-- Be selective, rewrite it in your own words and make sure you understand the
-concept (or follow up on it if you don’t at first).
-- Use direct quotes sparingly (don't overuse them).
-- Remember, you are not simply collecting resources you need to process them.
-- Answer Question: is the content useful/interesting/relevant to you and/or your
-research?
-
-## Permanent notes
-
-When I have some idea, and it's worth to store, I create permanent note.
+When I have some idea, and it's worth to store, I create permanent note. This is
+default note type.
 
 This note must meet some criteria:
-- Atomic, one idea per note. I need to extract essence of the idea and don't
-overcomplicate it.
+
+- Atomic, one general idea per note.
+- I need to extract essence of the idea and don't overcomplicate it.
 - Write it as if you are writing for someone else or for you in years future.
-Use minimal context to understand note.
-- When I add new Zettel note, I check my previous notes and answer to this
-questions:
-    * Is this relevant to my requirements/thoughts/interests?
-    * How I can use this to update my knowledge and existing notes?
-    * Is this information correct, solve some issue or follow my thoughts?
-    * Can I combine this idea?
-    * Will this idea generate additional questions?
-    * Is this missing from my knowledge, does this duplicate something?
-    * Do I want to explore this further?
+- Required minimal context to understand note.
+- When I add new Zettel note, I check my previous notes and answer to these
+questions and if many of them false, I delete or avoiding to create new note.
+  - Is this relevant to my requirements/thoughts/interests?
+  - How I can use this to update my knowledge and existing notes?
+  - Is this information correct, solve some issue or follow my thoughts?
+  - Can I combine this idea?
+  - Will this idea generate additional questions?
+  - Is this missing from my knowledge, does this duplicate something?
+  - Do I want to explore this further?
 
 ### Additional permanent notes types
 
+TODO: add examples.
+
 - Bridge note, to combine ideas, usually someone else and mine if they different
-  in terms, or even very different.
+  in terms, or even very different, notes have `bridge` tag.
 - Person note, to store someone contacts (public person), biography or some
-additional information.
+additional information, notes have `person` tag.
 - Personal term, something what very specific to limited amount of users, local
-  things, etc.
+  things, etc., notes have `term` tag.
 - Log note, to store some log information, such as time tracking. Good example
-is [[30_day_drawing_challenge|30 day draw challenge]].
+is [[30_day_drawing_challenge|30 day draw challenge]], notes have `log` tag.
+
+## Literature notes
+
+I have "rich" system to manage my literature notes.
+Remember, you are not simply collecting resources you need to process them.
+
+Before you have temptation to create new note, answer following question: Is the
+content interesting/useful/relevant to you and/or your existence notes.
+
+Here are some rules:
+
+- Literature notes are stored in `research` directory.
+- If required research note can have linked directory, sort of dependencies
+(`directory:` YAML frontmatter variable). This can be code, assets, etc.
+- Some research notes have `book` or `article` frontmatter variable, with link
+to related book/article file.
+- Notes are taken specifically on the content. Usually I just use annotating
+viewer (such as [[Xournal++]] and [[Xodo]]) to generate initial notes.
+- Be selective, store useful information
+- Rewrite information in your own words and make sure you understand the
+concept, imagine you explain it to someone else.
+- Use direct quotes sparingly, don't overuse them.
 
 ## Outline or structure notes
 
 Sort of index section from books, it's allow to group notes by topic, concept or
 similarity. For example [[my_awesome_software_list|my awesome software list]].
+These notes have `outline` tag.
 
-Requirements:
-- Main index note, as entry point, like websete index page. For example
-[[index|now]] my current working projects, reflect my current interests.
+Rules for outline notes:
+
+- Main index note, as entry point, like website index page. For example
+[[index|index]] note my current working projects, reflect my current interests,
+short biography.
 - Topic note, like [[my_art|art]], [[my_videos|videos]], etc.
 
-## Templates
+## Spaced repetition notes
 
-Tags are used to define note type.
+Have special topics tags, used to generate interactive flashcards with
+[[spaced_repetition|spaced repetition]] system: `base`, `productivity`, etc.
 
-- permanent note, default note, tags: bridge, person, term, log
-- literature note, tags: research
-- person note, tags: person
-- log note, tags: log
-- outline note, tags: outline
+## Frontmatter variables
 
-I also have additional topics tags, mainly used for
-[[spaced_repetition|spaced repetition]] system:
-- SR_development - software related topics, shortcuts, etc.
-- SR_computer_science
-- SR_computer_graphics
-- SR_programming
-- SR_vim
-- SR_English
-- SR_IRL
-- SR_mathematics
+Notes may have this frontmatter variables:
 
-Also, templates may have this frontamatter variables:
-- `external: https...` - link to external resource, such as web-page, video, etc.
-- `archive: 0000000000.000000` - [[ArchiveBox]] timestamp, used as unique id
 - `author: name` - author of resource, usually used in literature notes
+- `external: https...` - link to external resource, such as web-page, video, etc.
+- `book: <link>` - link to book file
+- `article: <link>` - link to article file
+- `archive: true` - archived note
+- `date: <date>` - date of creation/update, mainly used to organize my RSS with
+  [[iturdikulov.com]] site.
+- `sr*` - spaced repetition related variables
 
 ## References
 
 - [ ] [Types of ZT Notes](https://zk.zettel.page/types-of-notes)
 - [ ] [Taxonomy of note types](https://notes.andymatuschak.org/Taxonomy_of_note_types)
+
