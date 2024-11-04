@@ -3,7 +3,7 @@
 .trash/
 .venv/
 .obsidian/
-!.obsidian/snippets
+!.obsidian/snippets/
 *.out
 
 # Personal
