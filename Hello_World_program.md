@@ -140,6 +140,13 @@ puts "Hello, World!"
 echo "Hello, World!"
 ```
 
+## Nix
+
+```nix
+# nix-instantiate --eval --expr '"Hello world"'
+"Hello world"
+```
+
 ## x86 assembly language
 
 ```asm
