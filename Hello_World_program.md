@@ -22,6 +22,124 @@ sr-ease: 228
 
 Languages which I have experience with (very different levels of experience).
 
+## Python
+
+```python
+print("Hello, World!")
+```
+
+## Go
+
+```go
+package main
+
+import "fmt"
+
+func main() {
+  fmt.Println("Hello World")
+}
+```
+
+## JavaScript
+
+```javascript
+console.log("Hello, World!");
+```
+
+## C
+
+```c
+#include <stdio.h>
+
+int main() {
+    printf("Hello, World!\n");
+    return 0;
+}
+```
+
+## CPP
+
+```cpp
+#include <iostream>
+
+int main() {
+    std::cout << "Hello, World!" << std::endl;
+    return 0;
+}
+```
+
+## Rust
+
+```rust
+fn main() {
+    println!("Hello, World!");
+}
+```
+
+## Pascal
+
+```pascal
+program HelloWorld(output);
+begin
+  writeln('Hello World');
+end.
+```
+
+## Java
+
+```java
+public class Main {
+  public static void main(String[] args) {
+    System.out.println("Hello World");
+  }
+}
+```
+
+## GDScript
+```gdscript
+extends Node2D
+
+func _ready():
+    print("Hello World")
+```
+
+## TypeScript
+
+```typescript
+console.log("Hello World");
+```
+
+## Perl
+
+```perl
+#!/usr/bin/env perl
+print "Hello World\n";
+```
+
+## PHP
+```php
+<?php
+echo 'Hello World';
+```
+
+## R
+
+```r
+cat("Hello, World!\n")
+```
+
+## Ruby
+
+```ruby
+puts "Hello, World!"
+```
+
+## Shell
+
+```bash
+echo "Hello, World!"
+```
+
 ## x86 assembly language
 
 ```asm
@@ -42,154 +160,4 @@ _start:
 section .rodata
   msg: db "Hello, world!", 10
   msglen: equ $ - msg
-```
-
-## C
-
-```c
-#include <stdio.h>
-
-int main() {
-    printf("Hello, World!\n");
-    return 0;
-}
-```
-
-## Clojure
-```clojure
-(println "Hello World")
-```
-
-## CPP
-
-```cpp
-#include <iostream>
-
-int main() {
-    std::cout << "Hello, World!" << std::endl;
-    return 0;
-}
-```
-
-## GDScript
-```gdscript
-extends Node2D
-
-func _ready():
-    print("Hello World")
-```
-
-## Go
-
-```go
-package main
-
-import "fmt"
-
-func main() {
-  fmt.Println("Hello World")
-}
-```
-
-## Haxe
-```haxe
-class HelloWorld {
-    static function main() {
-        trace("Hello World");
-    }
-}
-```
-
-## Java
-
-```java
-public class Main {
-  public static void main(String[] args) {
-    System.out.println("Hello World");
-  }
-}
-```
-
-## JavaScript
-
-```javascript
-console.log("Hello, World!");
-```
-
-## Lisp
-
-```lisp
-; LISP
-(DEFUN hello ()
-  (PRINT (LIST 'HELLO 'WORLD))
-)
-
-(hello)
-```
-
-## Pascal
-
-```pascal
-program HelloWorld(output);
-begin
-  writeln('Hello World');
-end.
-```
-
-## Perl
-
-```perl
-#!/usr/bin/env perl
-print "Hello World\n";
-```
-
-## PHP
-```php
-<?php
-echo 'Hello World';
-```
-
-## Python
-
-```python
-print("Hello, World!")
-```
-
-## R
-
-```r
-cat("Hello, World!\n")
-```
-
-## Ruby
-
-```ruby
-puts "Hello, World!"
-```
-
-## Rust
-
-```rust
-fn main() {
-    println!("Hello, World!");
-}
-```
-
-## TypeScript
-
-```typescript
-console.log("Hello World");
-```
-
-## Scala
-```scala
-object HelloWorld extends App {
-  println("Hello World")
-}
-```
-
-## Shell
-
-```bash
-echo "Hello, World!"
 ```
