@@ -1,8 +1,7 @@
 ---
+date: 2024-11-04
 external:
   - https://docs.python.org/3/tutorial/appetite.html
-date_created: 2024-09-29
-date_modified: 2024-10-29
 tags:
   - inbox
   - Python
@@ -22,7 +21,7 @@ is necessary (but possible). <!--SR:!2024-11-01,3,250-->
 
 Python can be used as glue language, to connect components together.
 
-Difference between [[research/C|C]], [[Java]], [[research/Go|Go]] etc.:
+Difference between [[C]], [[Java]], [[Go]] etc.:
 - the high-level data types allow you to express complex operations in a single
 statement;
 - statement grouping is done by indentation instead of beginning and ending

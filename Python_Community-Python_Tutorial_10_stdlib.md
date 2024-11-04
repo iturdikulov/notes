@@ -2,7 +2,6 @@
 external:
   - https://docs.python.org/3/tutorial/stdlib.html
   - https://docs.python.org/3/tutorial/stdlib2.html
-date: 2023
 tags:
   - inbox
   - Python

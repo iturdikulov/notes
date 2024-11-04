@@ -1,7 +1,6 @@
 ---
 external:
   - https://docs.python.org/3/tutorial/floatingpoint.html
-date: 2023
 tags:
   - inbox
   - Python

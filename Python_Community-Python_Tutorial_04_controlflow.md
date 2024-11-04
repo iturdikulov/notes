@@ -1,12 +1,10 @@
 ---
 external:
   - https://docs.python.org/3/tutorial/controlflow.html
-date: 2023
 tags:
   - inbox
   - Python
 ---
-
 # 4. More Control Flow Tools
 
 [[control_flow|Control flow]] - some information about control flow.

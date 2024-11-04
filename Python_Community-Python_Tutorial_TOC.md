@@ -1,7 +1,7 @@
 ---
 external:
   - https://docs.python.org/3/tutorial/index.html
-date: 2023
+date: 2024-11-04
 tags:
   - inbox
   - Python
