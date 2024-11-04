@@ -26,6 +26,12 @@ body {
   background-position: 79ch 0;
 }
 
+/* Popup size */
+.theme-light, .theme-dark {
+    --popover-width: 500px;
+    --popover-height: 400px;
+}
+
 /* Save this as a CSS Snippet alternativeCheckboxes.css */
 
 
