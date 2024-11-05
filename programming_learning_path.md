@@ -21,7 +21,7 @@ materials should be understandable and easy to follow.
 
 Initial point to start learning programming is development of programming
 principles, like this [[##Programming principles|principles]]. Also, it's worth
-to check some [[research/Evans-So_you_want_to_be_a_WizarD|learning strategies]].
+to check some [[Evans-So_you_want_to_be_a_WizarD|learning strategies]].
 
 Programming is closely related to [[CS_learning_path|computer science]].
 

@@ -18,7 +18,7 @@ sr-ease: 229
 > introducing errors.
 >
 > A classic work on the subject was
-> [[research/Kernighan_and_Plauger-The_Elements_of_Programming_Style|The Elements of Programming Style]]
+> [[Kernighan_and_Plauger-The_Elements_of_Programming_Style|The Elements of Programming Style]]
 > , written in the 1970s, and illustrated with examples from the FORTRAN and
 > PL/I languages prevalent at the time.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Programming_style)</cite>

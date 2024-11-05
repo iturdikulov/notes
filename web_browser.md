@@ -147,7 +147,7 @@ Drag the tab into an existing window, Press `esc` while dragging to cancel.
 
 ## Development tools
 
-DevTools allowing you edit web pages in live mode, debug [[research/JavaScript]] code and
+DevTools allowing you edit web pages in live mode, debug [[JavaScript]] code and
 examine page source and structure (DOM tree).
 
 Since my primary browser is Brave, I take more attention to Chrome DevTools
