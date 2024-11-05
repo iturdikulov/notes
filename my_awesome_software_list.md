@@ -2,6 +2,7 @@
 date: 2023-03-12
 tags:
   - inbox
+  - outline
   - productivity
 sr-due: 2023-02-28
 sr-interval: 3
@@ -137,6 +138,7 @@ notes.
 
 - [[GNU_Compiler_Collection_GCC|GCC]] - GNU Compiler Collection
 - [[GNU_Debugger]] - GNU Project debugger
+- [[GNU_Utilities]] - GNU utilities
 - [[Git]] - distributed version control system
 - [[docker]] - set of platform as service products that use OS-level virtualization to deliver software in packages called containers
 
@@ -153,6 +155,7 @@ notes.
 - [[ZSH]] - Unix shell that can be used as an interactive login shell and
 as a command interpreter for shell scripting
 - [[fzf]] - general-purpose command-line fuzzy finder
+- [[7z]] - 7z is a high compression file archiver
 
 - [fd](https://github.com/sharkdp/fd) - A simple, fast and user-friendly
   alternative to \'find\', [[fd|more_info]]
