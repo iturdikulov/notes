@@ -24,11 +24,16 @@ Languages which I have experience with (very different levels of experience).
 
 ## Python
 
+[[Python]] is programming language that lets you work quickly and integrate
+systems more effectively.
+
 ```python
 print("Hello, World!")
 ```
 
 ## Go
+
+Build simple, secure, scalable systems with [[Go]].
 
 ```go
 package main
@@ -40,13 +45,27 @@ func main() {
 }
 ```
 
+## Lua
+
+[[Lua]] is a powerful, efficient, lightweight, embeddable scripting language.
+
+```lua
+print("Hello, World!")
+```
+
 ## JavaScript
+
+[[JavaScript]] is core technology of the Web, alongside HTML and CSS.
 
 ```javascript
 console.log("Hello, World!");
 ```
 
 ## C
+
+[[C]] designed to be compiled to provide low-level access to memory and language
+constructs that map efficiently to machine instructions, all with minimal
+runtime support.
 
 ```c
 #include <stdio.h>
@@ -57,7 +76,11 @@ int main() {
 }
 ```
 
-## CPP
+## C++
+
+[[CPP|C++]] designed with systems programming and embedded, resource-constrained
+software and large systems in mind, with performance, efficiency, and
+flexibility of use as its design highlights.
 
 ```cpp
 #include <iostream>
@@ -70,6 +93,9 @@ int main() {
 
 ## Rust
 
+[[Rust]] is a general-purpose programming language emphasizing performance, type
+safety, and concurrency.
+
 ```rust
 fn main() {
     println!("Hello, World!");
@@ -77,6 +103,9 @@ fn main() {
 ```
 
 ## Pascal
+
+[[Pascal]] is small, efficient language intended to encourage good programming
+practices using structured programming and data structuring.
 
 ```pascal
 program HelloWorld(output);
@@ -96,6 +125,10 @@ public class Main {
 ```
 
 ## GDScript
+
+[[GDScript]] langugage is optimized for and tightly integrated with [[Godot]]
+allowing great flexibility for content creation and integration.
+
 ```gdscript
 extends Node2D
 
@@ -103,13 +136,11 @@ func _ready():
     print("Hello World")
 ```
 
-## TypeScript
-
-```typescript
-console.log("Hello World");
-```
-
 ## Perl
+
+Perl borrows features from other programming languages including C, sh, AWK, and
+sed. It provides text processing facilities without the arbitrary data-length
+limits of many contemporary Unix command line tools.
 
 ```perl
 #!/usr/bin/env perl
@@ -117,30 +148,39 @@ print "Hello World\n";
 ```
 
 ## PHP
+
+[[PHP]] is general-purpose scripting language that is especially suited to web
+development.
+
 ```php
 <?php
 echo 'Hello World';
 ```
 
-## R
-
-```r
-cat("Hello, World!\n")
-```
-
 ## Ruby
+
+[[Ruby]] is dynamic, programming language with a focus on simplicity and
+productivity.
 
 ```ruby
 puts "Hello, World!"
 ```
 
-## Shell
+## Z-Shell
 
-```bash
+The Z shell ([[Zsh]]) is a Unix shell that can be used as an interactive login shell
+and as a **command interpreter** for shell scripting.
+
+```zsh
 echo "Hello, World!"
 ```
 
 ## Nix
+
+The [[Nix]] language is designed for conveniently creating and composing
+derivations – precise descriptions of how contents of existing files are used to
+derive new files. It is a domain-specific, purely functional, lazily evaluated,
+dynamically typed programming language.
 
 ```nix
 # nix-instantiate --eval --expr '"Hello world"'
@@ -149,22 +189,32 @@ echo "Hello, World!"
 
 ## x86 assembly language
 
-```asm
-global _start
+Regarded as a programming language, [[assembly_language|assembly]] is
+machine-specific and low-level. Like all assembly languages, x86 assembly uses
+mnemonics to represent fundamental CPU instructions, or machine code.
 
-section .text
+```asm
+; This code can be compiled with the NASM assembler
+; =================================================
+;
+; Define variables in the data section
+SECTION .DATA
+	hello:     db 'Hello world!',10
+	helloLen:  equ $-hello
+
+; Code goes in the text section
+SECTION .TEXT
+	GLOBAL _start
 
 _start:
-  mov rax, 1        ; write(
-  mov rdi, 1        ;   STDOUT_FILENO,
-  mov rsi, msg      ;   "Hello, world!\n",
-  mov rdx, msglen   ;   sizeof("Hello, world!\n")
-  syscall           ; );
-  mov rax, 60       ; exit(
-  mov rdi, 0        ;   EXIT_SUCCESS
-  syscall           ; );
+	mov eax,4            ; 'write' system call = 4
+	mov ebx,1            ; file descriptor 1 = STDOUT
+	mov ecx,hello        ; string to write
+	mov edx,helloLen     ; length of string to write
+	int 80h              ; call the kernel
 
-section .rodata
-  msg: db "Hello, world!", 10
-  msglen: equ $ - msg
+	; Terminate program
+	mov eax,1            ; 'exit' system call
+	mov ebx,0            ; exit with error code 0
+	int 80h              ; call the kernel
 ```
