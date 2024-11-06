@@ -152,7 +152,7 @@ notes.
 
 - [[tmux]] - tmux is a terminal multiplexer,
   switch between several programs in one terminal
-- [[ZSH]] - Unix shell that can be used as an interactive login shell and
+- [[Zsh]] - Unix shell that can be used as an interactive login shell and
 as a command interpreter for shell scripting
 - [[fzf]] - general-purpose command-line fuzzy finder
 - [[7z]] - 7z is a high compression file archiver
@@ -405,7 +405,7 @@ TODO: actualize this list
 
 - [[termux]]
 - [[Tachiyomi]]
-- [[KOReader]], manual - [[research/KOReader_Community-KOReader_user_guide]].
+- [[KOReader]], manual - [[KOReader_Community-KOReader_user_guide]].
 
 ## Archive
 

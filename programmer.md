@@ -17,7 +17,7 @@ sr-ease: 242
 > many varieties of programming languages and platforms\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Programmer)</cite>
 
-I usually program now in [[research/Python|Python]].
+I usually program now in [[Python]].
 
 I think [[programming_learning_path|main goal]] as
 programmer is able to solve problems and break any limitations in professional

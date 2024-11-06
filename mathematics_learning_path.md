@@ -12,16 +12,16 @@ sr-ease: 161
 
 - [/] [Life Tensor](https://www.youtube.com/playlist?list=PLC2pBQ7lPOZCu0cehs7tPmnoeK2BjUiSk)
 - [ ] Сканави
-- [ ] [[research/spacemath.xyz-Matematika_s_nulya]]
-- [ ] [[research/Vilenkin-populryanaya_kombinatorika]]
-- [ ] [[research/Math_is_Fun_Team-Math_is_Fun|Math is fun]]
-- [ ] [[research/Kiselyov-Elementy_algebry_i_analiza_chast_1]]
+- [ ] [[spacemath.xyz-Matematika_s_nulya]]
+- [ ] [[Vilenkin-populryanaya_kombinatorika]]
+- [ ] [[Math_is_Fun_Team-Math_is_Fun|Math is fun]]
+- [ ] [[Kiselyov-Elementy_algebry_i_analiza_chast_1]]
 - [ ] Intermediate Algebra, Miller et al
 
 - [ ] [Книга «Математика для гуманитариев» | savva4](https://savvateev.xyz/book/)
 - [ ] Курант, Роббинс: Что такое математика?
-- [ ] [[research/Emelin-Kratchajshij_kurs_shkolnoj_matematiki]]
-- [ ] [[research/Xendli-Schitajte_v_ume_kak_kompyuter]]
+- [ ] [[Emelin-Kratchajshij_kurs_shkolnoj_matematiki]]
+- [ ] [[Xendli-Schitajte_v_ume_kak_kompyuter]]
 
 ## Challenges
 
@@ -61,9 +61,9 @@ sr-ease: 161
 ### Algebra and Analysis
 
 - [ ] [Алгебра, уроки в свободном доступе](https://www.youtube.com/playlist?list=PLp1o4TiOetLxhCoq5ltCibkk0tlJua_z7)
-- [[research/Zorich-Matematicheskij_analiz]]
-- [[research/Schroder-Mathematical_Analysis]]
-- [[research/Demidovich-Sbornik_zadach_i_uprazhnenij_po_matematicheskomu_analizu]]
+- [[Zorich-Matematicheskij_analiz]]
+- [[Schroder-Mathematical_Analysis]]
+- [[Demidovich-Sbornik_zadach_i_uprazhnenij_po_matematicheskomu_analizu]]
 
 ### Discrete mathematics and programming related
 
@@ -71,9 +71,9 @@ sr-ease: 161
 - [Ликбез по дискретной математике](https://stepic.org/course/%D0%9B%D0%B8%D0%BA%D0%B1%D0%B5%D0%B7-%D0%BF%D0%BE-%D0%B4%D0%B8%D1%81%D0%BA%D1%80%D0%B5%D1%82%D0%BD%D0%BE%D0%B9-%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B5-91/)
 - [Introduction to Numerical Computing with NumPy](https://www.youtube.com/watch?v=ZB7BZMhfPgk)
 - Concrete Mathematics: A Foundation for Computer Science
-- [[research/Romanovskij-Diskretnyj_analiz]]
-- [[research/Kushnirenko-Programmirovanie_dlya_matematikov]]
-- [[research/Kun-A_Programmers_Introduction_to_Mathematics]]
+- [[Romanovskij-Diskretnyj_analiz]]
+- [[Kushnirenko-Programmirovanie_dlya_matematikov]]
+- [[Kun-A_Programmers_Introduction_to_Mathematics]]
 
 ### Computer Graphics related
 

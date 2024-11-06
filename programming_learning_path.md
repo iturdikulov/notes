@@ -56,9 +56,8 @@ useful.
 
 What I'm currently learning, with [[queue]] order.
 
-- [x] [[research/Python_Community-Python_Tutorial|Python tutorial]], to learn
-essentials of Python.
-- [/] [[Python]] note improvements
+- [x] [[Python]] note improvements
+- [ ] Revisited python tutorial
 - [ ] [[asyncio]]
 - [ ] [[SQL]]
 - [ ] [Ядро планеты Python / Хабр](https://habr.com/ru/articles/728568/)
@@ -66,10 +65,10 @@ essentials of Python.
 - [ ] [Architecture Patterns with Python](https://www.cosmicpython.com/book/preface.html)
 - [ ] [Getting Started With Testing in Python – Real Python](https://realpython.com/python-testing/#writing-integration-tests)
 - [ ] [[aio-pika - Wrapper for the aiormq for asyncio and humans](https://aio-pika.readthedocs.io/en/latest/rabbitmq-tutorial/1-introduction.html)
-- [ ] [[research/Ramalho-Fluent_Python|Ramalho - Fluent_Python]]
+- [ ] [[Ramalho-Fluent_Python|Ramalho - Fluent Python]]
 - [ ] [A Tour of Go](https://go.dev/tour/)
-- [ ] [[research/Stolyarov-Programming_volume_1_0_introduction|Stolyarov - intorudction]]
-- [ ] [[research/Stolyarov-Programming_volume_1_1_preliminary_information|Stolyarov - preliminary]]
+- [ ] [[Stolyarov-Programming_volume_1_0_introduction|Stolyarov - intorudction]]
+- [ ] [[Stolyarov-Programming_volume_1_1_preliminary_information|Stolyarov - preliminary]]
 - [ ] [[Wengrow-Data_structures_and_algorithms|Wengrow - data structures and algorithms]]
 - [ ] [Web development](https://web.dev/learn)
 - [ ] [What every systems programmer should know about concurrency](https://assets.bitbashing.io/papers/concurrency-primer.pdf)
@@ -101,17 +100,17 @@ essentials of Python.
 
 ## Python
 
-My primary language, here stored collection of [[research/Python|Python]]
+My primary language, here stored collection of [[Python]]
 learning materials.
 
 - [roadmap.sh materials](https://roadmap.sh/python)
 - [amaargiru/pyroad](https://github.com/amaargiru/pyroad)
-- [[research/Real_Python_Team-Python_Tutorials|Real Python Tutorials]] and [Real Python Purchases](https://realpython.com/account/purchases/)
+- [[Real_Python_Team-Python_Tutorials|Real Python Tutorials]] and [Real Python Purchases](https://realpython.com/account/purchases/)
 
 - [Documentation](https://docs.python.org/3/)
-- [[research/Python_Community-Python_FAQ|FAQ]]
-- [[research/Python_Community-Python_Glossary|Glossary]]
-- [[research/Python_Community-Python_Standard_Library|Standart library]]
+- [[Python_Community-Python_FAQ|FAQ]]
+- [[Python_Community-Python_Glossary|Glossary]]
+- [[Python_Community-Python_Standard_Library|Standart library]]
 
 - [ ] [Ultimate Python study guide for newcomers and professionals alike.](https://github.com/huangsam/ultimate-python)
 
@@ -130,15 +129,14 @@ learning materials.
 - [ ] [asyncio — Asynchronous I/O Python 3.12.5 documentation](https://docs.python.org/3/library/asyncio.html)
 - [ ] [Async IO in Python: A Complete Walkthrough – Real Python](https://realpython.com/async-io-python/)
 - [ ] [How Python Asyncio Works: Recreating it from Scratch](https://jacobpadilla.com/articles/recreating-asyncio)
-- [ ] [[research/Šorn-Comprehensive_python_cheatsheet|Python cheatsheet]], to dive in into language itself.
-- [ ] [[research/learnxinyminutes-Learn_Python_in_Y_minutes]]
-- [ ] [[research/Real_Python_Team-Python_Tutorials]]
+- [ ] [[Šorn-Comprehensive_python_cheatsheet|Python cheatsheet]], to dive in into language itself.
+- [ ] [[Real_Python_Team-Python_Tutorials]]
 - [ ] [PEP 8 – Style Guide for Python Code](https://peps.python.org/pep-0008/)
 - [ ] [Python cheat sheets](https://www.datacamp.com/cheat-sheet)
-- [ ] [[research/Slatkin-Effective_Python|Effective python]], general tips to write good Python code
-- [ ] [[research/Xiryanov-Praktika_programmirovaniya_na_Python|Практика программирования на Python]].
-- [ ] [[research/Matthes-Python_Crash_Course]]
-- [ ] [[research/Craig-Python_Examples]]
+- [ ] [[Slatkin-Effective_Python|Effective python]], general tips to write good Python code
+- [ ] [[Xiryanov-Praktika_programmirovaniya_na_Python|Практика программирования на Python]].
+- [ ] [[Matthes-Python_Crash_Course]]
+- [ ] [[Craig-Python_Examples]]
 - [ ] [How to learn Python programming | Guido van Rossum and Lex Fridman - YouTube](https://www.youtube.com/watch?v=F2Mx-u7auUs)
 - [ ] [The Hitchhiker’s Guide to Python!](https://python-docs.readthedocs.io/en/latest/index.html)
 - [ ] [JIT-компилятор Python в 300 строк / Habr](https://habr.com/en/articles/674206/)
@@ -165,7 +163,7 @@ learning materials.
 ### Web Frameworks
 
 - [The Flask Mega-Tutorial](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world)
-- [ ] Django framework [[research/Greenfelds-Two_Scoops_of_Django_3.x]]
+- [ ] Django framework [[Greenfelds-Two_Scoops_of_Django_3.x]]
 - [ ] [Learn - FastAPI](https://fastapi.tiangolo.com/learn/)
 - [Руководство Django Girls](https://tutorial.djangogirls.org/ru/)
 - [Python Django - The Practical Guide](https://www.udemy.com/course/python-django-the-practical-guide/)
@@ -180,9 +178,9 @@ learning materials.
 
 ### Testing and refactoring
 
-- [ ] [[research/Hillard-Testing_With_Pytest]]
-- [ ] [[research/Batchelder-Getting_started_testing]]
-- [ ] [[research/Seporaitis-Large_Scale_Refactoring_With_PyBowler]]
+- [ ] [[Hillard-Testing_With_Pytest]]
+- [ ] [[Batchelder-Getting_started_testing]]
+- [ ] [[Seporaitis-Large_Scale_Refactoring_With_PyBowler]]
 - [ ] [Refactoring Python Applications for Simplicity – Real Python](https://realpython.com/python-refactoring/)
 - [ ] [Testing Flask Applications — Flask Documentation (2.2.x)](https://flask.palletsprojects.com/en/2.2.x/testing/)
 - [ ] [Simple mock server for testing using Flask · GitHub](https://gist.github.com/eruvanos/f6f62edb368a20aaa880e12976620db8)
@@ -202,7 +200,7 @@ with Python
 - [ ] [dosisod/refurb: A tool for refurbishing and modernizing Python codebases](https://github.com/dosisod/refurb)
 - [ ] [pallets/flask: The Python micro framework for building web applications.](https://github.com/pallets/flask)
 - [ ] [asottile/pyupgrade: A tool (and pre-commit hook) to automatically upgrade syntax for newer versions of the language.](https://github.com/asottile/pyupgrade)
-- [ ] [[research/Seporaitis-Large_Scale_Refactoring_With_PyBowler|PyBowler]]
+- [ ] [[Seporaitis-Large_Scale_Refactoring_With_PyBowler|PyBowler]]
 - [ ] [spectree: API spec validator and OpenAPI document generator](https://github.com/0b01001001/spectree#flask)
 - [ ] [rq-flask-sqlalchemy-template](https://github.com/edkrueger/rq-flask-sqlalchemy-template/tree/master)
 - [ ] [Лучшие open-source инструменты для Python проектов](https://habr.com/en/articles/708916/)
@@ -224,19 +222,17 @@ with Python
 
 ## Go
 
-My secondary language, here stored collection of [[research/Go|Go]] learning
+My secondary language, here stored collection of [[Go]] learning
 materials.
 
 - [Lean the Go Programming Language](https://go.dev/learn/)
-- [[learn Go in Y minutes|research/learnxinyminutes-Learn_Go_in_Y_minutes]]
 
 ## JavaScript
 
-[[research/JavaScript|JavaScript]] is my tertiary programming language.
+[[JavaScript|JavaScript]] is my tertiary programming language.
 
-- [ ] [[research/learnxinyminutes-Learn_JavaScript_in_Y_minutes]]
 - [ ] [Современный учебник JavaScript](https://learn.javascript.ru/)
-- [ ] [[research/Flanagan-JavaScript]]
+- [ ] [[Flanagan-JavaScript]]
 - [ ] [Why async: JavaScript and the real world](https://frontarm.com/courses/async-javascript/promises/why-async/)
 - [ ] [React](https://react.dev/learn)
 - [ ] [JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
@@ -252,11 +248,11 @@ materials.
 
 ## Web development
 
-[[research/HTML|HTML]] is initial resource of web page, sort of bones of web-page,
+[[HTML]] is initial resource of web page, sort of bones of web-page,
 how information is structured on the web and more, some learning materials:
 - [HTML - MDN](https://developer.mozilla.org/en-US/docs/Web/HTML)
 
-[[research/CSS|CSS]] allow you to stylize your web page, tool to represent your
+[[CSS]] allow you to stylize your web page, tool to represent your
 page in unique way, some learning materials:
 - [CodePen trending](https://codepen.io/trending)
 - [ ] [Grid Garden - A game for learning CSS grid](https://cssgridgarden.com/)
@@ -273,11 +269,11 @@ Other related web-development resources:
 - [ ] [Как правильно верстать в 2022 году. Часть 1 / Habr](https://habr.com/en/articles/655009/)
 - [ ] [The Odin Project, web development](https://www.theodinproject.com/)
 - [ ] [Full stack open](https://fullstackopen.com/en/)
-- [ ] [[research/Shuler-How_Does_the_Internet_Work]]
+- [ ] [[Shuler-How_Does_the_Internet_Work]]
 
 ## C (and a little bit of C++)
 
-[[research/C|C]] is the lowest-level of the highest-level programming languages
+[[C|C]] is the lowest-level of the highest-level programming languages
 
 Great cheat sheet with core language syntax:
 
@@ -285,11 +281,11 @@ TODO: verify this
 [C Reference Card](img/C_Reference_Card_ANSI.v2.2.pdf)
 _[C Reference Card (ANSI)](https://www.math.brown.edu/johsilve/ReferenceCards/CRefCard.v2.2.pdf)_
 
-- [[research/learnxinyminutes-Learn_C_in_Y_minutes]]
-- [ ] [[research/Kernighan_and_Ritchie-The_C_programming_language]]
-- [ ] [[research/Muratori-Handmade_Hero]]
-- [[research/Xiryanov-Kurs_molodogo_bojcza_MFTI_yazyk_S]], to learn basics of [[C]].
-- [[research/Costrasel-The_C_Programming_Language_Solutions]]
+- [[learnxinyminutes-Learn_C_in_Y_minutes]]
+- [ ] [[Kernighan_and_Ritchie-The_C_programming_language]]
+- [ ] [[Muratori-Handmade_Hero]]
+- [[Xiryanov-Kurs_molodogo_bojcza_MFTI_yazyk_S]], to learn basics of [[C]].
+- [[Costrasel-The_C_Programming_Language_Solutions]]
 - [Learn C the Hard Way](https://learncodethehardway.org/c/)
 
 - [ ] [Comparing C to machine language - YouTube](https://www.youtube.com/watch?v=yOyaJXpAYZQ)
@@ -299,7 +295,7 @@ _[C Reference Card (ANSI)](https://www.math.brown.edu/johsilve/ReferenceCards/CR
 
 ## Lua
 
-[[research/lua|lua]], actively use it with [[Neovim]], learning materials:
+[[lua]], actively use it with [[Neovim]], learning materials:
 
 - [ ] `:h lua-guide` in neovim
 - [ ] [A guide to using Lua in Neovim (lua guide in russian)](https://github.com/kuator/nvim-lua-guide-ru)
@@ -309,7 +305,7 @@ _[C Reference Card (ANSI)](https://www.math.brown.edu/johsilve/ReferenceCards/CR
 
 ## Rust
 
-[[research/Rust|Rust]] is practically unknown to me, learning materials:
+[[Rust]] is practically unknown to me, learning materials:
 
 - [ ] [Implementing TCP in Rust](https://www.youtube.com/watch?v=bzja9fQWzdA)
 - [ ] [Introduction - Rust By Example](https://doc.rust-lang.org/stable/rust-by-example/index.html)
@@ -321,54 +317,54 @@ _[C Reference Card (ANSI)](https://www.math.brown.edu/johsilve/ReferenceCards/CR
 
 ## Pascal
 
-[[research/Pascal|Pascal]] is my "old friend", my initial programming language.
+[[Pascal]] is my "old friend", my initial programming language.
 
 ---
 
 ## General programming and software development
 
 - [ ] [Backend Developer Roadmap](https://roadmap.sh/backend).
-- [[research/Aho_Lam_et_al-Compilers]]
-- [[research/McConnell-Code_complete]]
-- [[research/DeVries-Tutorials]]
-- [[research/ThePrimeagen-Tutorials]]
+- [[Aho_Lam_et_al-Compilers]]
+- [[McConnell-Code_complete]]
+- [[DeVries-Tutorials]]
+- [[ThePrimeagen-Tutorials]]
 - [Sourcemaking](https://sourcemaking.com/)
 - [A collection of full-stack resources for programmers](https://github.com/charlax/professional-programming)
 
 ### Code organization and version control, code quality
 
 - [ ] [organize large projects](https://www.reddit.com/r/learnpython/comments/mxwdpj/are_there_any_books_or_videos_that_describe_how/)
-- [[research/Linux_Community-Submitting_patches|submit patches]] in right way.
-- [[research/Chacon_and_Ben-Pro_Git]]
-- [[research/Martin_Fowler-Refactoring]]
+- [[Linux_Community-Submitting_patches|submit patches]] in right way.
+- [[Chacon_and_Ben-Pro_Git]]
+- [[Martin_Fowler-Refactoring]]
 
 ### Soft skills
 
-- [[research/Brooks-Mythical_Man-Month]]
-- [[research/Hunt_and_Thomas-The_Pragmatic_Programmer]]
-- [[research/Rainwater-Herding_Cats]]
-- [[research/Yourdon-Death_March]]
-- [x] [[research/Evans-So_you_want_to_be_a_WizarD]]
+- [[Brooks-Mythical_Man-Month]]
+- [[Hunt_and_Thomas-The_Pragmatic_Programmer]]
+- [[Rainwater-Herding_Cats]]
+- [[Yourdon-Death_March]]
+- [x] [[Evans-So_you_want_to_be_a_WizarD]]
 
 ### DevOps
 
 I really want to learn more about [[Nix]] language, maybe someday I'll start to
 learn it seriously.
 
-- [[research/Will_NixOS]]
-- [[research/Henry_How_to_Learn_Nix]]
+- [[Will_NixOS]]
+- [[Henry_How_to_Learn_Nix]]
 
 ### OS and kernel development
 
-- [[research/Tanenbaum_and_Bos-Modern_Operating_Systems]]
+- [[Tanenbaum_and_Bos-Modern_Operating_Systems]]
 
 ### Other
 
 - [ ] [How to "think" (and design) like a Software Architect at Silicon Valley
 Code Camp 2019 - YouTube](https://www.youtube.com/watch?v=mCM6QVHD08c)
-- [[research/Kernighan_and_Plauger-The_Elements_of_Programming_Style]]
-- [[research/Kernighan_and_Pike-The_Practice_of_Programming]]
-- [[research/Abelson_and_Sussman-Structure_and_Interpretation_of_Computer_Programs_SICP|SICP]]
+- [[Kernighan_and_Plauger-The_Elements_of_Programming_Style]]
+- [[Kernighan_and_Pike-The_Practice_of_Programming]]
+- [[Abelson_and_Sussman-Structure_and_Interpretation_of_Computer_Programs_SICP|SICP]]
 
 - [Continually updated, interactive, and test-driven coding challenges, with Anki flashcards.](https://github.com/donnemartin/interactive-coding-challenges)
 - [karan/Projects: A list of practical projects that anyone can solve in any programming language.](https://github.com/karan/Projects)
@@ -385,8 +381,8 @@ Code Camp 2019 - YouTube](https://www.youtube.com/watch?v=mCM6QVHD08c)
 
 ## Computer graphics and game development
 
-- [[research/Javidx9-Code_It_Yourself]]
-- [[research/Muratori-Handmade_Hero|Handmade Hero]], my initial steps, heavy
+- [[Javidx9-Code_It_Yourself]]
+- [[Muratori-Handmade_Hero|Handmade Hero]], my initial steps, heavy
   related to programming with [[MS_Windows|Windows]] API and
   [[computer_graphics|computer graphics]].
 - [ ] [Shadertoy BETA](https://www.shadertoy.com/)
@@ -408,10 +404,10 @@ Good engine for fast prototyping and game development.
 - [ ] [godotengine/godot-demo-projects: Demonstration and Template Projects](https://github.com/godotengine/godot-demo-projects)
 - [ ] [gdquest-demos/godot-4-3d-third-person-controller: Godot 4 demo with a plug-and-play 3D Third-Person Shooter (TPS) character controller inspired by games like Ratchet and Clank.](https://github.com/gdquest-demos/godot-4-3d-third-person-controller)
 - [ ] [Godot 3 Tutorial Series - YouTube](https://www.youtube.com/playlist?list=PLda3VoSoc_TSBBOBYwcmlamF1UrjVtccZ)
-- [ ] [[research/Heartbeast-Godot_Tutorials]]
-- [ ] [[research/HK-SHAO-Godot_Raytracing_Demo]]
-- [ ] [[research/Manzur_and_Marques-Godot_Engine_Game_Development]]
-- [ ] [[research/Godot_Community-Godot_demo_projects]]
+- [ ] [[Heartbeast-Godot_Tutorials]]
+- [ ] [[HK-SHAO-Godot_Raytracing_Demo]]
+- [ ] [[Manzur_and_Marques-Godot_Engine_Game_Development]]
+- [ ] [[Godot_Community-Godot_demo_projects]]
 
 ## Archive
 

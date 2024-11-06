@@ -3,6 +3,7 @@ date: 2023-04-01
 tags:
   - inbox
   - art
+  - outline
 sr-due: 2024-02-06
 sr-interval: 11
 sr-ease: 206
@@ -13,4 +14,4 @@ sr-ease: 206
 TODO: organize art
 
 - [[my_sketchbook|My sketchbook]]
-- [[research/Price-Donut_Tutorial_in_Blender]]
+- [[Price-Donut_Tutorial_in_Blender]]

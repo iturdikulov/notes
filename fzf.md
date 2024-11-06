@@ -9,24 +9,25 @@ sr-ease: 253
 ---
 # fzf
 
-It's a general purpose fuzzy finder written in Golang that can be used with any
-list of things: files, processes, command history, git branches, etc.
+It's a general purpose fuzzy finder written in [[Go|Golang]] that can be used
+with any list of things: files, processes, command history, git branches, etc.
 
-For [[ZSH|Z shell]], it provides the following key bindings (overwrite
+For [[Zsh|Z shell]], it provides the following key bindings (overwrite
 existing ones), and they are very handy:
 
-- `C-t`::Paste the selected file path(s) into the command line. Useful to insert paths into arguments of commands.
+- `C-t`::Paste the selected file path(s) into the command line. Useful to insert
+quickly paths into arguments of commands.
 - `M-C`::Directory search, `cd` into the selected directory
 - `vi $(fd \.yaml|fzf)`::run a command with the selected item from `fzf` as argument
 - `mv $(fd -t directory|fzf) ~/Temp/`, DANGER::move a directory from selected path to `~/Temp/`
 
 ## Fuzzy completion mode
 
-- Select multiple items in FZF::`e **` and press `<TAB>` <!--SR:!2024-09-22,1,233-->
-- Select Files under parent directory::`e ../**<TAB>`
-- Select Files under parent directory that match `fzf`::`e ../fzf**<TAB>`
-- Select Files under your home directory::`e ~/**<TAB>`
-- Select Directories under current directory (single-selection)::`cd **<TAB>`
+- Select multiple items in FZF::`vi **` and press `<TAB>` <!--SR:!2024-09-22,1,233-->
+- Select Files under parent directory::`vi ../**<TAB>`
+- Select Files under parent directory that match `fzf`::`vi ../fzf**<TAB>`
+- Select Files under your home directory::`vi ~/**<TAB>`
+- Find/Change to some directory  under current directory (single-selection)::`cd **<TAB>`
 - Select Host names::`ssh **<TAB>`
 - Select Telent::`telnet **<TAB>`
 

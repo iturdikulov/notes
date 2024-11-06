@@ -10,8 +10,8 @@ sr-ease: 220
 
 # List (abstract data type)
 
-List are not necessary [[array]]. But in [[research/Python|Python]] list is
-array of references to other objects.
+List are not necessary [[array]]. But in [[Python]] list is array of references
+to other objects.
 
 > CPython’s lists are really ==variable-length arrays==, not Lisp-style linked
 > lists. The implementation uses a contiguous array of references to other
