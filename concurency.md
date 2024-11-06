@@ -6,8 +6,8 @@ tags:
 ---
 # Python concurrency
 
-Various notes on concurrency in Python. Main information source is realpython
-concurrency article [^1].
+Various notes on concurrency in [[Python]]. Main information source is
+realpython concurrency article [^1].
 
 The dictionary definition of concurrency is ==simultaneous== occurrence.
 
