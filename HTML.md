@@ -13,7 +13,7 @@ sr-ease: 247
 > documents designed to be displayed in a web browser. It defines the meaning
 > and structure of web content. It is often assisted by technologies such as
 > Cascading Style Sheets ([[CSS]]) and scripting languages such as
-> [[research/JavaScript]].
+> [[JavaScript]].
 >
 > [[web_browser|Web browsers]] receive HTML documents from a web server or from
 > local storage and render the documents > into multimedia web pages. HTML

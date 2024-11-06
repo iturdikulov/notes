@@ -33,13 +33,13 @@ The main software for this is [[Godot]], [[Blender]], [[Python]].
 - [Vulkan (c++) Game Engine Tutorials](https://www.youtube.com/playlist?list=PL8327DO66nu9qYVKLDmdLW_84-yE4auCR)
 - [Уроки по OpenGL с сайта OGLDev](https://triplepointfive.github.io/ogltutor/)
 
-- [[research/Raylib_Community-Raylib]]
-- [[research/HK-SHAO-Godot_Raytracing_Demo]]
-- [[research/Obuz_Game_Development_with_Blender_and_Godot]]
-- [[research/Sensei-Unreal_Engine_5_Beginner_Tutorial|beginner course]], I like
+- [[Raylib_Community-Raylib]]
+- [[HK-SHAO-Godot_Raytracing_Demo]]
+- [[Obuz_Game_Development_with_Blender_and_Godot]]
+- [[Sensei-Unreal_Engine_5_Beginner_Tutorial|beginner course]], I like
 this engine, and it can be even used as [[art]] tool.
-- [[research/Godot_Community-Godot_demo_projects]]
-- [[research/Manzur_and_Marques-Godot_Engine_Game_Development]]
+- [[Godot_Community-Godot_demo_projects]]
+- [[Manzur_and_Marques-Godot_Engine_Game_Development]]
 
 - [Physics of JellyCar: Soft Body Physics Explained](https://www.youtube.com/watch?v=3OmkehAJoyo)
 - [The code of several works on oimo.io/works](https://github.com/saharan/works)
@@ -49,10 +49,10 @@ this engine, and it can be even used as [[art]] tool.
 
 - [[Blender#Learning]]
 - [mister chad](https://mister-chad.com/welcome)
-- [[research/Muratori-Handmade_Hero|Handmade Hero]]
-- [[research/Price-Donut_Tutorial_in_Blender]]
-- [[research/Creative_Shrimp-Hard_Surface_Modeling_In_Blender]]
-- [[research/Gumster-Blender_for_dummies]]
+- [[Muratori-Handmade_Hero|Handmade Hero]]
+- [[Price-Donut_Tutorial_in_Blender]]
+- [[Creative_Shrimp-Hard_Surface_Modeling_In_Blender]]
+- [[Gumster-Blender_for_dummies]]
 - Trammell HUMAN Realistic Portrait With Blender?
 - Tuytel and Rahman Creating 3D Environments?
 - [Creating Realistic 3D Water in Blender](https://www.youtube.com/watch?v=vr7mkSiKRLM)

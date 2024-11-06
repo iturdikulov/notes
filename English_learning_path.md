@@ -20,24 +20,16 @@ etc.).
 
 Fundamentals of English grammar:
 
-- [ ] [](img/Spelling_punctuation_and_grammar_SPAG.svg), need to lean concepts
-- [ ] [[research/Petrov-Poliglot]]
-- [[research/CHernixovskaya-English_Start-up]]
-- [[research/Murphy_Essential_Grammar_in_Use_Elementary]]
-- [[research/Murphy_Essential_Grammar_in_Use_Intermediate]]
+- [[duolingo]]
+- [ ] Spelling punctuation and grammar SPAG
+- [ ] [[Petrov-Poliglot]]
+- [[CHernixovskaya-English_Start-up]]
+- [[Murphy_Essential_Grammar_in_Use_Elementary]]
+- [[Murphy_Essential_Grammar_in_Use_Intermediate]]
 
 - [[duolingo]]
 - [English Playlists](https://boosty.to/englishplaylists)
 - [[Puzzle_English|Puzzle English]], mostly not used anymore.
-
-## A Prescriptivist's Guide to Common Issues in English Usage
-
-> This prescriptive chart addresses 50 common issues plaguing writers of all
-> stripes and straits—providing succinct usage rules and fun,
-> pop-culture-centric example sentences for each entry.\
-> — <cite>[Popchart](https://popchart.co/products/a-prescriptivists-guide-to-common-issues-in-english-usage)</cite>
-
-![A Prescriptivist's Guide to Common Issues in English Usage](img/P2-UsageFINAL_UPDATEDZOOM.webp)
 
 ## External links
 

@@ -115,34 +115,34 @@ Computer science is closely related to
 
 ## Cheat sheets, glossaries, outlines
 
-- [[research/Wikipedia-Glossary_of_computer_science]]
+- [[Wikipedia-Glossary_of_computer_science]]
 - [[algorithm|Algorithm]]
 - [Wikipedia - List of algorithms](https://en.wikipedia.org/wiki/List_of_algorithms)
-- [[research/Nova_Byrne-Tech_yourself_computer_science|Tech yourself computer science]]
+- [[Nova_Byrne-Tech_yourself_computer_science|Tech yourself computer science]]
 
 ## Resources
 
 - [ ] [The Man Who Revolutionized Computer Science With Math - YouTube](https://www.youtube.com/watch?v=rkZzg7Vowao)
 - [ ] [Computerphile - Turing Machines Explained](https://www.youtube.com/watch?v=dNRDvLACg5Q)
 
-- [/] [[research/Wengrow-Data_structures_and_algorithms|Wengrow - Data structures and algorithms]]
+- [/] [[Wengrow-Data_structures_and_algorithms|Wengrow - Data structures and algorithms]]
 - [ ] https://education.yandex.ru/handbook/algorithms
 - [/] [The Last Algorithms Course You'll Need](https://frontendmasters.com/courses/algorithms/)
-- [/] [[research/Petzold-Kod|Чарльз Петцольд - Код Тайный Язык Информатики]]
-- [<] [[research/Polya-How_to_solve_it|Polya - How to solve it]]
-- [<] [[research/Warren_Hackers_Delight|Warren - Hacker's Delight]]
-- [?] [[research/Cormen-Algorithms_unlocked]]
-- [!] [[research/Cormen_et_al-Introduction_to_algorithms]]. In fact, I need to
+- [/] [[Petzold-Kod|Чарльз Петцольд - Код Тайный Язык Информатики]]
+- [<] [[Polya-How_to_solve_it|Polya - How to solve it]]
+- [<] [[Warren_Hackers_Delight|Warren - Hacker's Delight]]
+- [?] [[Cormen-Algorithms_unlocked]]
+- [!] [[Cormen_et_al-Introduction_to_algorithms]]. In fact, I need to
 improve my [[mathematics]] skills for this book.
 
-- [[research/Washam_Coding_Interview_University]]
-- [[research/InterviewCake_Team-Coding_Interview_Practice|InterviewCake Team - Coding Interview Practice]]
-- [[research/Martin-Interactive_Coding_Challenges]]
-- [[research/Martin-System_Design_Primer]]
-- [[research/Sedgewick_and_Wayne-Algorithms_Part_1]]
-- [[research/Sedgewick_and_Wayne-Algorithms_Part_2]]
-- [[research/Gusfield-Algorithms_on_Strings_Trees_and_Sequences]]
-- [[research/Hopcroft_and_Motwani_and_Ullman-Introduction_to_Automata_Theory_Languages_and_Computation]]
+- [[Washam_Coding_Interview_University]]
+- [[InterviewCake_Team-Coding_Interview_Practice|InterviewCake Team - Coding Interview Practice]]
+- [[Martin-Interactive_Coding_Challenges]]
+- [[Martin-System_Design_Primer]]
+- [[Sedgewick_and_Wayne-Algorithms_Part_1]]
+- [[Sedgewick_and_Wayne-Algorithms_Part_2]]
+- [[Gusfield-Algorithms_on_Strings_Trees_and_Sequences]]
+- [[Hopcroft_and_Motwani_and_Ullman-Introduction_to_Automata_Theory_Languages_and_Computation]]
 
 - [[LeetCode]]
 - [Data Structure Visualization](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html)
@@ -156,12 +156,12 @@ improve my [[mathematics]] skills for this book.
 - [Khan Academy - Computer science](https://www.khanacademy.org/computing/computer-science)
 - [OpenCourseWare - Introduction to Computer Science and Programming in Python](https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/)
 - [OpenCourseWare - Introduction to Computer Science and Programming](https://ocw.mit.edu/courses/6-00sc-introduction-to-computer-science-and-programming-spring-2011/)
-- [[research/San_Diego_University-Algorithmic_Toolbox]]
+- [[San_Diego_University-Algorithmic_Toolbox]]
 - [Stepic - computer science](https://stepik.org/lesson/28728/step/1?unit=9786)
 - [**Algorithms Specialization**](https://www.coursera.org/specializations/algorithms)
 - [Coursera - Algorithms on Graphs](https://www.coursera.org/learn/algorithms-on-graphs)
 - [AlgoList - алгоритмы, методы, исходники](http://algolist.manual.ru/)
-- [[research/Keon-Pythonic_Data_Structures]]
+- [[Keon-Pythonic_Data_Structures]]
 - [Introduction to Computer Science and Programming in Python](https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/)
 - [Python Data Structures/Algorithms Class](https://www.youtube.com/playlist?list=PLtbC5OfOR8aqA6CJwWTRUITgGpUy1Umr3)
 - [Problem Solving with Algorithms and Data Structures using Python](https://runestone.academy/ns/books/published/pythonds/index.html)
