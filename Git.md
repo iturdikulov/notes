@@ -273,6 +273,10 @@ To delete a remote branch "branch_name":
 `git push --delete origin [branch_name]` or
 `git push origin :<remotebranch>`
 
+How to change remote branch (`origin`) URL?
+&#10;
+`git config remote.origin.url <new_url>`
+
 How to rename (move) a branch?
 &#10;
 `git branch -m[--move] old_name new_name` <!--SR:!2024-09-17,1,232-->
