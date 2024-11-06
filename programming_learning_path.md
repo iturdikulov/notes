@@ -129,7 +129,7 @@ learning materials.
 - [ ] [asyncio — Asynchronous I/O Python 3.12.5 documentation](https://docs.python.org/3/library/asyncio.html)
 - [ ] [Async IO in Python: A Complete Walkthrough – Real Python](https://realpython.com/async-io-python/)
 - [ ] [How Python Asyncio Works: Recreating it from Scratch](https://jacobpadilla.com/articles/recreating-asyncio)
-- [ ] [[Šorn-Comprehensive_python_cheatsheet|Python cheatsheet]], to dive in into language itself.
+- [ ] [[Sorn-Comprehensive_python_cheatsheet|Python cheatsheet]], to dive in into language itself.
 - [ ] [[Real_Python_Team-Python_Tutorials]]
 - [ ] [PEP 8 – Style Guide for Python Code](https://peps.python.org/pep-0008/)
 - [ ] [Python cheat sheets](https://www.datacamp.com/cheat-sheet)

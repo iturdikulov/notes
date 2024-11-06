@@ -52,7 +52,6 @@ this engine, and it can be even used as [[art]] tool.
 - [[Muratori-Handmade_Hero|Handmade Hero]]
 - [[Price-Donut_Tutorial_in_Blender]]
 - [[Creative_Shrimp-Hard_Surface_Modeling_In_Blender]]
-- [[Gumster-Blender_for_dummies]]
 - Trammell HUMAN Realistic Portrait With Blender?
 - Tuytel and Rahman Creating 3D Environments?
 - [Creating Realistic 3D Water in Blender](https://www.youtube.com/watch?v=vr7mkSiKRLM)

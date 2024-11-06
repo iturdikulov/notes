@@ -99,8 +99,7 @@ These notes have `outline` tag.
 Rules for outline notes:
 
 - Main index note, as entry point, like website index page. For example
-[[my_pet_projects]] note my current working projects, reflect my current
-interests.
+[[projects]] note my current working projects, reflect my current interests.
 - Topic note, like [[my_art|art]], [[my_videos|videos]], etc.
 
 ## Spaced repetition notes

@@ -24,7 +24,8 @@ Some [[vector_graphics|vector]] ([[inkscape]], Adobe Illustrator) and
 [[raster_graphics_editor|raster]] graphics editors (GIMP) can export to PDF,
 it's useful as intermediate format especially for vector graphics.
 
-I also have [resume](./CV/main.pdf) in this format.
+<!-- NEXT: add link -->
+I also have resume in this format.
 
 ## Recipes
 
