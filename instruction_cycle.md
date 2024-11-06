@@ -18,8 +18,6 @@ sr-ease: 244
 > 3. The execute stage\
 > — <cite>[Instruction cycle - Wikipedia](https://en.wikipedia.org/wiki/Instruction_cycle)</cite>
 
-![Instruction cycle](./img/fetch_decode_execute_circle.excalidraw.svg)
-
-## References
+## External links
 
 - [ ] [Fetch-Decode-Execute Cycle - YouTube](https://www.youtube.com/watch?v=XM4lGflQFvA)
