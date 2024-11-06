@@ -434,4 +434,4 @@ by /u/BaronMyrtle
 - [ ] [50 Push-Ups Challenge](https://darebee.com/challenges/50-push-ups-challenge.html)
 - [ ] [Squat Challenge](https://darebee.com/challenges/squats-challenge.html)
 - [ ] [Ab Challenge](https://darebee.com/challenges/ab-challenge.html)
-- [[research/Volkov-Bioximiya_myshechnoj_deyatelnosti]]
+- [[Volkov-Bioximiya_myshechnoj_deyatelnosti]]

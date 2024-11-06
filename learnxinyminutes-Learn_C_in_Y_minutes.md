@@ -895,5 +895,5 @@ Node createLinkedList(int *vals, int len);
 
 ## References
 
-- [[research/Kernighan_and_Ritchie-The_C_programming_language]]
+- [[Kernighan_and_Ritchie-The_C_programming_language]]
 - TODO: [Learn C the Hard Way](https://learncodethehardway.org/c/)

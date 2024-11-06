@@ -2116,7 +2116,7 @@ unmarshalling).
 ### Service level agreement
 &#10;
 (SLA), is a commitment between a service provider and a client. Particular
-aspects of the service – quality, availability, responsibilities – are agreed
+aspects of the service – quality, availability, responsibilities – are agreed
 between the service provider and the service user. [196] The most common
 component of an SLA is that the services should be provided to the customer as
 agreed upon in the contract. As an example, Internet service providers and
@@ -2586,29 +2586,29 @@ pages are formulated.
    Science". _Minds and Machines_. **17** (2): 169–184.
    [doi](https://en.wikipedia.org/wiki/Doi_(identifier) "Doi (identifier)"):
    [10.1007/s11023-007-9061-7](https://doi.org/10.1007%2Fs11023-007-9061-7).
-   [ISSN](https://en.wikipedia.org/wiki/ISSN_(identifier) "ISSN (identifier)") 
+   [ISSN](https://en.wikipedia.org/wiki/ISSN_(identifier) "ISSN (identifier)")
    [0924-6495](https://www.worldcat.org/issn/0924-6495).
-   [S2CID](https://en.wikipedia.org/wiki/S2CID_(identifier) "S2CID (identifier)") 
+   [S2CID](https://en.wikipedia.org/wiki/S2CID_(identifier) "S2CID (identifier)")
    [5927969](https://api.semanticscholar.org/CorpusID:5927969).
 3. [Jump up to: <sup><i><b>a</b></i></sup>](https://en.wikipedia.org/wiki/Glossary_of_computer_science#cite_ref-abstraction_3-0)
    [<sup><i><b>b</b></i></sup>](https://en.wikipedia.org/wiki/Glossary_of_computer_science#cite_ref-abstraction_3-1)
    Kramer, Jeff (2007-04-01). "Is abstraction the key to computing?".
    _Communications of the ACM_. **50** (4): 36–42.
-   [CiteSeerX](https://en.wikipedia.org/wiki/CiteSeerX_(identifier) "CiteSeerX (identifier)") 
+   [CiteSeerX](https://en.wikipedia.org/wiki/CiteSeerX_(identifier) "CiteSeerX (identifier)")
    [10.1.1.120.6776](https://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.120.6776).
    [doi](https://en.wikipedia.org/wiki/Doi_(identifier) "Doi (identifier)"):
    [10.1145/1232743.1232745](https://doi.org/10.1145%2F1232743.1232745).
-   [ISSN](https://en.wikipedia.org/wiki/ISSN_(identifier) "ISSN (identifier)") 
+   [ISSN](https://en.wikipedia.org/wiki/ISSN_(identifier) "ISSN (identifier)")
    [0001-0782](https://www.worldcat.org/issn/0001-0782).
-   [S2CID](https://en.wikipedia.org/wiki/S2CID_(identifier) "S2CID (identifier)") 
+   [S2CID](https://en.wikipedia.org/wiki/S2CID_(identifier) "S2CID (identifier)")
    [12481509](https://api.semanticscholar.org/CorpusID:12481509).
 4. [Comparison of Agent Architectures](http://hri.cogs.indiana.edu/publications/aaai04ws.pdf)
    [Archived](https://web.archive.org/web/20080827222057/http://hri.cogs.indiana.edu/publications/aaai04ws.pdf)
    August 27, 2008, at the
    [Wayback Machine](https://en.wikipedia.org/wiki/Wayback_Machine "Wayback Machine")
 5. Collier, Ken W. (2011). _Agile Analytics: A Value-Driven Approach to Business
-   Intelligence and Data Warehousing_. Pearson Education. pp. 121 ff.
-   [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)") 
+   Intelligence and Data Warehousing_. Pearson Education. pp. 121 ff.
+   [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)")
    [9780321669544](https://en.wikipedia.org/wiki/Special:BookSources/9780321669544 "Special:BookSources/9780321669544").
    What is a self-organizing team?
 6. ["What is Agile Software Development?"](https://www.agilealliance.org/the-alliance/what-is-agile/).
@@ -2618,7 +2618,7 @@ pages are formulated.
    (2002),
    [_Algorithm Design: Foundations, Analysis, and Internet Examples_](http://ww3.algorithmdesign.net/ch00-front.html),
    John Wiley & Sons, Inc.,
-   [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)") 
+   [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)")
    [978-0-471-38365-9](https://en.wikipedia.org/wiki/Special:BookSources/978-0-471-38365-9 "Special:BookSources/978-0-471-38365-9")
 8. ["Application software"](https://www.pcmag.com/encyclopedia/term/37919/application-program).
    _ [PC Magazine](https://en.wikipedia.org/wiki/PC_Magazine "PC Magazine")_.
@@ -2638,9 +2638,9 @@ pages are formulated.
     **35** (2): 159–188.
     [doi](https://en.wikipedia.org/wiki/Doi_(identifier) "Doi (identifier)"):
     [10.1002/spe.630](https://doi.org/10.1002%2Fspe.630).
-    [ISSN](https://en.wikipedia.org/wiki/ISSN_(identifier) "ISSN (identifier)") 
+    [ISSN](https://en.wikipedia.org/wiki/ISSN_(identifier) "ISSN (identifier)")
     [0038-0644](https://www.worldcat.org/issn/0038-0644).
-    [S2CID](https://en.wikipedia.org/wiki/S2CID_(identifier) "S2CID (identifier)") 
+    [S2CID](https://en.wikipedia.org/wiki/S2CID_(identifier) "S2CID (identifier)")
     [10890293](https://api.semanticscholar.org/CorpusID:10890293).
 12. Definition of AI as the study of
     [intelligent agents](https://en.wikipedia.org/wiki/Intelligent_agents "Intelligent agents"):
@@ -2653,21 +2653,21 @@ pages are formulated.
   (who prefer the term "rational agent") and write "The whole-agent view is now
   widely accepted in the field" (
   [Russell & Norvig 2003](https://en.wikipedia.org/wiki/Glossary_of_computer_science#CITEREFRussellNorvig2003),
-  p. 55).
+  p. 55).
 - [Nilsson 1998](https://en.wikipedia.org/wiki/Glossary_of_computer_science#CITEREFNilsson1998)
 - [Legg & Hutter 2007](https://en.wikipedia.org/wiki/Glossary_of_computer_science#CITEREFLeggHutter2007).
 
 13. [Russell & Norvig 2009](https://en.wikipedia.org/wiki/Glossary_of_computer_science#CITEREFRussellNorvig2009),
-    p. 2.
+    p. 2.
 14. [Goodrich, Michael T.](https://en.wikipedia.org/wiki/Michael_T._Goodrich "Michael T. Goodrich");
     [Tamassia, Roberto](https://en.wikipedia.org/wiki/Roberto_Tamassia "Roberto Tamassia")
     (2006), "9.1 The Map Abstract Data Type", _Data Structures & Algorithms in
-    Java_ (4th ed.), Wiley, pp. 368–371
+    Java_ (4th ed.), Wiley, pp. 368–371
 15. [Mehlhorn, Kurt](https://en.wikipedia.org/wiki/Kurt_Mehlhorn "Kurt Mehlhorn");
     [Sanders, Peter](https://en.wikipedia.org/wiki/Peter_Sanders_(computer_scientist) "Peter Sanders (computer scientist)")
     (2008), "4 Hash Tables and Associative Arrays",
     [_Algorithms and Data Structures: The Basic Toolbox_](http://people.mpi-inf.mpg.de/~mehlhorn/ftp/Toolbox/HashTables.pdf)
-    (PDF), Springer, pp. 81–98
+    (PDF), Springer, pp. 81–98
 16. [Douglas Comer](https://en.wikipedia.org/wiki/Douglas_Comer "Douglas Comer"),
     [Computer Networks and Internets](https://books.google.com/books?id=tm-evHmOs3oC&dq=%22network+bandwidth%22+%22computer+networks%22&pg=PA99),
     page 99 ff, Prentice Hall 2008.
@@ -2682,29 +2682,29 @@ pages are formulated.
     of the ACM_. **29** (3): 218–221.
     [doi](https://en.wikipedia.org/wiki/Doi_(identifier) "Doi (identifier)"):
     [10.1145/5666.5673](https://doi.org/10.1145%2F5666.5673).
-    [ISSN](https://en.wikipedia.org/wiki/ISSN_(identifier) "ISSN (identifier)") 
+    [ISSN](https://en.wikipedia.org/wiki/ISSN_(identifier) "ISSN (identifier)")
     [0001-0782](https://www.worldcat.org/issn/0001-0782).
-    [S2CID](https://en.wikipedia.org/wiki/S2CID_(identifier) "S2CID (identifier)") 
+    [S2CID](https://en.wikipedia.org/wiki/S2CID_(identifier) "S2CID (identifier)")
     [1047380](https://api.semanticscholar.org/CorpusID:1047380).
 21. Breur, Tom (July 2016).
     ["Statistical Power Analysis and the contemporary "crisis" in social sciences"](https://doi.org/10.1057%2Fs41270-016-0001-3).
     _Journal of Marketing Analytics_. **4** (2–3): 61–65.
     [doi](https://en.wikipedia.org/wiki/Doi_(identifier) "Doi (identifier)"):
     [10.1057/s41270-016-0001-3](https://doi.org/10.1057%2Fs41270-016-0001-3).
-    [ISSN](https://en.wikipedia.org/wiki/ISSN_(identifier) "ISSN (identifier)") 
+    [ISSN](https://en.wikipedia.org/wiki/ISSN_(identifier) "ISSN (identifier)")
     [2050-3318](https://www.worldcat.org/issn/2050-3318).
 22. [Bachmann, Paul](https://en.wikipedia.org/wiki/Paul_Bachmann "Paul Bachmann")
     (1894).
     [_Analytische Zahlentheorie_](https://archive.org/stream/dieanalytischeza00bachuoft#page/402/mode/2up)
-    \ [_Analytic Number Theory_\] (in German). Vol. 2. Leipzig: Teubner.
+    \ [_Analytic Number Theory_\] (in German). Vol. 2. Leipzig: Teubner.
 23. [Landau, Edmund](https://en.wikipedia.org/wiki/Edmund_Landau "Edmund Landau")
     (1909).
     [_Handbuch der Lehre von der Verteilung der Primzahlen_](https://archive.org/details/handbuchderlehre01landuoft)
     \ [_Handbook on the theory of the distribution of the primes_\] (in German).
-    Leipzig: B. G. Teubner. p. 883.
+    Leipzig: B. G. Teubner. p. 883.
 24. Williams, Jr., Louis F. (22 April 1976).
     [_A modification to the half-interval search (binary search) method_](https://dl.acm.org/citation.cfm?doid=503561.503582).
-    Proceedings of the 14th ACM Southeast Conference. ACM. pp. 95–101.
+    Proceedings of the 14th ACM Southeast Conference. ACM. pp. 95–101.
     [doi](https://en.wikipedia.org/wiki/Doi_(identifier) "Doi (identifier)"):
     [10.1145/503561.503582](https://doi.org/10.1145%2F503561.503582).
     [Archived](https://web.archive.org/web/20170312215255/http://dl.acm.org/citation.cfm?doid=503561.503582)
@@ -2712,34 +2712,34 @@ pages are formulated.
 25. [Knuth 1998](https://en.wikipedia.org/wiki/Glossary_of_computer_science#CITEREFKnuth1998),
     §6.2.1 ("Searching an ordered table"), subsection "Binary search".
 26. [Butterfield & Ngondi 2016](https://en.wikipedia.org/wiki/Glossary_of_computer_science#CITEREFButterfieldNgondi2016),
-    p. 46.
+    p. 46.
 27. [Cormen, Thomas H.](https://en.wikipedia.org/wiki/Thomas_H._Cormen "Thomas H. Cormen");
     [Leiserson, Charles E.](https://en.wikipedia.org/wiki/Charles_E._Leiserson "Charles E. Leiserson");
     [Rivest, Ronald L.](https://en.wikipedia.org/wiki/Ron_Rivest "Ron Rivest");
     [Stein, Clifford](https://en.wikipedia.org/wiki/Clifford_Stein "Clifford Stein")
     (2009) \ [1990\].
     [_Introduction to Algorithms_](https://en.wikipedia.org/wiki/Introduction_to_Algorithms "Introduction to Algorithms")
-    (3rd ed.). MIT Press and McGraw-Hill. p. 39.
-    [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)") 
+    (3rd ed.). MIT Press and McGraw-Hill. p. 39.
+    [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)")
     [0-262-03384-4](https://en.wikipedia.org/wiki/Special:BookSources/0-262-03384-4 "Special:BookSources/0-262-03384-4").
 28. Rowan Garnier; John Taylor (2009).
     [_Discrete Mathematics: Proofs, Structures and Applications, Third Edition_](https://books.google.com/books?id=WnkZSSc4IkoC&pg=PA620).
-    CRC Press. p. 620.
-    [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)") 
+    CRC Press. p. 620.
+    [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)")
     [978-1-4398-1280-8](https://en.wikipedia.org/wiki/Special:BookSources/978-1-4398-1280-8 "Special:BookSources/978-1-4398-1280-8").
 29. Steven S Skiena (2009).
     [_The Algorithm Design Manual_](https://books.google.com/books?id=7XUSn0IKQEgC&pg=PA77).
-    Springer Science & Business Media. p. 77.
-    [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)") 
+    Springer Science & Business Media. p. 77.
+    [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)")
     [978-1-84800-070-4](https://en.wikipedia.org/wiki/Special:BookSources/978-1-84800-070-4 "Special:BookSources/978-1-84800-070-4").
 30. Mackenzie, Charles E. (1980).
     [_Coded Character Sets, History and Development_](https://books.google.com/books?id=6-tQAAAAMAAJ).
-    _The Systems Programming Series_ (1 ed.).
+    _The Systems Programming Series_ (1 ed.).
     [Addison-Wesley Publishing Company, Inc.](https://en.wikipedia.org/wiki/Addison-Wesley_Publishing_Company,_Inc. "Addison-Wesley Publishing Company, Inc.")
-    p. x.
-    [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)") 
+    p. x.
+    [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)")
     [978-0-201-14460-4](https://en.wikipedia.org/wiki/Special:BookSources/978-0-201-14460-4 "Special:BookSources/978-0-201-14460-4").
-    [LCCN](https://en.wikipedia.org/wiki/LCCN_(identifier) "LCCN (identifier)") 
+    [LCCN](https://en.wikipedia.org/wiki/LCCN_(identifier) "LCCN (identifier)")
     [77-90165](https://lccn.loc.gov/77-90165).
     [Archived](https://web.archive.org/web/20161118230039/https://books.google.com/books?id=6-tQAAAAMAAJ)
     from the original on 18 November 2016. Retrieved 22 May 2016. [\
@@ -2747,31 +2747,31 @@ pages are formulated.
 31. Gupta, Prakash C (2006).
     [_Data Communications and Computer Networks_](https://books.google.com/books?id=-kNn_p6WA38C&q=bit+%22rate+R%22&pg=PA21).
     PHI Learning.
-    [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)") 
+    [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)")
     [9788120328464](https://en.wikipedia.org/wiki/Special:BookSources/9788120328464 "Special:BookSources/9788120328464").
     Retrieved 10 July 2011.
 32. James D. Murray; William vanRyper (April 1996).
     [_Encyclopedia of Graphics File Formats_](https://archive.org/details/mac_Graphics_File_Formats_Second_Edition_1996)
-    (Second ed.).
+    (Second ed.).
     [O'Reilly](https://en.wikipedia.org/wiki/O%27Reilly_Media "O'Reilly Media").
     bmp.
-    [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)") 
+    [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)")
     [978-1-56592-161-0](https://en.wikipedia.org/wiki/Special:BookSources/978-1-56592-161-0 "Special:BookSources/978-1-56592-161-0").
     Retrieved 2014-03-07.
 33. James D. Murray; William vanRyper (April 1996).
     [_Encyclopedia of Graphics File Formats_](https://archive.org/details/mac_Graphics_File_Formats_Second_Edition_1996)
-    (Second ed.).
+    (Second ed.).
     [O'Reilly](https://en.wikipedia.org/wiki/O%27Reilly_Media "O'Reilly Media").
     os2bmp.
-    [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)") 
+    [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)")
     [978-1-56592-161-0](https://en.wikipedia.org/wiki/Special:BookSources/978-1-56592-161-0 "Special:BookSources/978-1-56592-161-0").
     Retrieved 2014-03-07.
 34. [Gries, David](https://en.wikipedia.org/wiki/David_Gries "David Gries");
     [Schneider, Fred B.](https://en.wikipedia.org/wiki/Fred_B._Schneider "Fred B. Schneider")
     (1993), "Chapter 2. Boolean Expressions",
     [_A Logical Approach to Discrete Math_](https://books.google.com/books?id=ZWTDQ6H6gsUC&pg=PA25),
-    Monographs in Computer Science, Springer, p. 25ff,
-    [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)") 
+    Monographs in Computer Science, Springer, p. 25ff,
+    [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)")
     [9780387941158](https://en.wikipedia.org/wiki/Special:BookSources/9780387941158 "Special:BookSources/9780387941158")
 35. [Blaauw, Gerrit Anne](https://en.wikipedia.org/wiki/Gerrit_Anne_Blaauw "Gerrit Anne Blaauw");
     [Brooks, Jr., Frederick Phillips](https://en.wikipedia.org/wiki/Frederick_Phillips_Brooks,_Jr. "Frederick Phillips Brooks, Jr.");
@@ -2782,8 +2782,8 @@ pages are formulated.
     [Buchholz, Werner](https://en.wikipedia.org/wiki/Werner_Buchholz "Werner Buchholz")
     (ed.), _Planning a Computer System – Project Stretch_,
     [McGraw-Hill Book Company, Inc.](https://en.wikipedia.org/wiki/McGraw-Hill_Book_Company,_Inc. "McGraw-Hill Book Company, Inc.")
-    / The Maple Press Company, York, PA., pp. 39–40,
-    [LCCN](https://en.wikipedia.org/wiki/LCCN_(identifier) "LCCN (identifier)") 
+    / The Maple Press Company, York, PA., pp. 39–40,
+    [LCCN](https://en.wikipedia.org/wiki/LCCN_(identifier) "LCCN (identifier)")
     [61-10466](https://lccn.loc.gov/61-10466),
     [archived](https://web.archive.org/web/20170403014651/http://archive.computerhistory.org/resources/text/IBM/Stretch/pdfs/Buchholz_102636426.pdf)
     (PDF) from the original on 2017-04-03, retrieved 2017-04-03, \ […\] Terms
@@ -2821,7 +2821,7 @@ pages are formulated.
     **2** (9): 19–23,
     [doi](https://en.wikipedia.org/wiki/Doi_(identifier) "Doi (identifier)"):
     [10.1145/368424.368435](https://doi.org/10.1145%2F368424.368435),
-    [S2CID](https://en.wikipedia.org/wiki/S2CID_(identifier) "S2CID (identifier)") 
+    [S2CID](https://en.wikipedia.org/wiki/S2CID_(identifier) "S2CID (identifier)")
     [36115735](https://api.semanticscholar.org/CorpusID:36115735)
 37. ["What is a callback function?"](https://stackoverflow.com/a/7549753/653708).
     _Stack Overflow_. Retrieved 2018-05-16.
@@ -2830,13 +2830,13 @@ pages are formulated.
     (Report).
     [Ballistic Research Laboratory](https://en.wikipedia.org/wiki/Ballistic_Research_Laboratory "Ballistic Research Laboratory").
 39. Kuck, David (1978). _Computers and Computations, Vol 1_. John Wiley & Sons,
-    Inc. p. 12.
-    [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)") 
+    Inc. p. 12.
+    [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)")
     [978-0471027164](https://en.wikipedia.org/wiki/Special:BookSources/978-0471027164 "Special:BookSources/978-0471027164").
 40. ["Definition of CHARACTER"](http://www.merriam-webster.com/dictionary/character).
     _www.merriam-webster.com_. Retrieved 1 April 2018.
 41. [Gamma et al. 1995](https://en.wikipedia.org/wiki/Glossary_of_computer_science#CITEREFGammaHelmJohnsonVlissides1995),
-    p. 14.
+    p. 14.
 42. ^
     [Jump up to: <sup><i><b>a</b></i></sup>](https://en.wikipedia.org/wiki/Glossary_of_computer_science#cite_ref-FOOTNOTEBruce20022.1_Objects,_classes,_and_object_types,_https://books.google.com/books?id=9NGWq3K1RwUC&pg=PA18_42-0)
     [<sup><i><b>b</b></i></sup>](https://en.wikipedia.org/wiki/Glossary_of_computer_science#cite_ref-FOOTNOTEBruce20022.1_Objects,_classes,_and_object_types,_https://books.google.com/books?id=9NGWq3K1RwUC&pg=PA18_42-1)
@@ -2848,11 +2848,11 @@ pages are formulated.
 44. [Mills, H.](https://en.wikipedia.org/wiki/Harlan_Mills "Harlan Mills"); M.
     Dyer; R. Linger (September 1987). "Cleanroom Software Engineering". _IEEE
     Software_. **4** (5): 19–25.
-    [CiteSeerX](https://en.wikipedia.org/wiki/CiteSeerX_(identifier) "CiteSeerX (identifier)") 
+    [CiteSeerX](https://en.wikipedia.org/wiki/CiteSeerX_(identifier) "CiteSeerX (identifier)")
     [10.1.1.467.2435](https://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.467.2435).
     [doi](https://en.wikipedia.org/wiki/Doi_(identifier) "Doi (identifier)"):
     [10.1109/MS.1987.231413](https://doi.org/10.1109%2FMS.1987.231413).
-    [S2CID](https://en.wikipedia.org/wiki/S2CID_(identifier) "S2CID (identifier)") 
+    [S2CID](https://en.wikipedia.org/wiki/S2CID_(identifier) "S2CID (identifier)")
     [383170](https://api.semanticscholar.org/CorpusID:383170).
 45. Sussman and Steele. "Scheme: An interpreter for extended lambda calculus".
     "... a data structure containing a lambda expression, and an environment to
@@ -2903,13 +2903,13 @@ pages are formulated.
 55. Melnik, Roderick, ed. (2015). _Mathematical and Computational Modeling: With
     Applications in Natural and Social Sciences, Engineering, and the Arts_.
     Wiley.
-    [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)") 
+    [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)")
     [978-1-118-85398-6](https://en.wikipedia.org/wiki/Special:BookSources/978-1-118-85398-6 "Special:BookSources/978-1-118-85398-6").
 56. Trappenberg, Thomas P. (2002).
     [_Fundamentals of Computational Neuroscience_](https://archive.org/details/fundamentalscomp00ttra).
-    United States: Oxford University Press Inc. p. 
+    United States: Oxford University Press Inc. p.
     [1](https://archive.org/details/fundamentalscomp00ttra/page/n16).
-    [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)") 
+    [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)")
     [978-0-19-851582-1](https://en.wikipedia.org/wiki/Special:BookSources/978-0-19-851582-1 "Special:BookSources/978-0-19-851582-1").
 57. What is computational neuroscience? Patricia S. Churchland, Christof Koch,
     Terrence J. Sejnowski. in Computational Neuroscience pp.46-55. Edited by
@@ -2926,18 +2926,18 @@ pages are formulated.
 59. Gerstner, W.; Kistler, W.; Naud, R.; Paninski, L. (2014). _Neuronal
     Dynamics_. Cambridge, UK:
     [Cambridge University Press](https://en.wikipedia.org/wiki/Cambridge_University_Press "Cambridge University Press").
-    [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)") 
+    [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)")
     [9781107447615](https://en.wikipedia.org/wiki/Special:BookSources/9781107447615 "Special:BookSources/9781107447615").
 60. Thijssen, Jos (2007). Computational Physics. Cambridge University Press.
-    [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)") 
+    [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)")
     [978-0521833462](https://en.wikipedia.org/wiki/Special:BookSources/978-0521833462 "Special:BookSources/978-0521833462").
-61. Clements, Alan. _Principles of Computer Hardware_ (Fourth ed.). p. 1.
+61. Clements, Alan. _Principles of Computer Hardware_ (Fourth ed.). p. 1.
     Architecture describes the internal organization of a computer in an
     abstract way; that is, it defines the capabilities of the computer and its
     programming model. You can have two computers that have been constructed in
     different ways with different technologies but with the same architecture.
 62. Hennessy, John; Patterson, David. _Computer Architecture: A Quantitative
-    Approach_ (Fifth ed.). p. 11. This task has many aspects, including
+    Approach_ (Fifth ed.). p. 11. This task has many aspects, including
     instruction set design, functional organization, logic design, and
     implementation.
 63. ^
@@ -2946,11 +2946,11 @@ pages are formulated.
     [<sup><i><b>c</b></i></sup>](https://en.wikipedia.org/wiki/Glossary_of_computer_science#cite_ref-Patterson_64-2)
     Patterson, David A.; Hennessy, John L. (2005).
     [_Computer Organization and Design: The Hardware/Software Interface_](https://archive.org/details/isbn_9781558606043)
-    (3rd ed.). [Amsterdam](https://en.wikipedia.org/wiki/Amsterdam "Amsterdam"):
+    (3rd ed.). [Amsterdam](https://en.wikipedia.org/wiki/Amsterdam "Amsterdam"):
     [Morgan Kaufmann Publishers](https://en.wikipedia.org/wiki/Morgan_Kaufmann_Publishers "Morgan Kaufmann Publishers").
-    [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)") 
+    [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)")
     [1-55860-604-1](https://en.wikipedia.org/wiki/Special:BookSources/1-55860-604-1 "Special:BookSources/1-55860-604-1").
-    [OCLC](https://en.wikipedia.org/wiki/OCLC_(identifier) "OCLC (identifier)") 
+    [OCLC](https://en.wikipedia.org/wiki/OCLC_(identifier) "OCLC (identifier)")
     [56213091](https://www.worldcat.org/oclc/56213091).
 64. Bynum, Terrell Ward.
     ["A Very Short History of Computer Ethics"](https://web.archive.org/web/20080418122849/http://www.southernct.edu/organizations/rccs/resources/research/introduction/bynum_shrt_hist.html).
@@ -2958,40 +2958,40 @@ pages are formulated.
     [the original](http://www.southernct.edu/organizations/rccs/resources/research/introduction/bynum_shrt_hist.html#maner)
     on 2008-04-18. Retrieved 2011-01-05.
 65. Rochkind, Marc J. (2004). _Advanced Unix Programming, Second Edition_.
-    Addison-Wesley. p. 1.1.2.
+    Addison-Wesley. p. 1.1.2.
 66. ["WordNet Search—3.1"](http://wordnetweb.princeton.edu/perl/webwn?s=computer%20scientist).
     Wordnetweb.princeton.edu. Retrieved 14 May 2012.
 67. Orsucci, Franco F.; Sala, Nicoletta (2008).
     [_Reflexing Interfaces: The Complex Coevolution of Information Technology Ecosystems, Information Science Reference_](https://archive.org/details/reflexinginterfa00orsu_453).
-    p.  [335](https://archive.org/details/reflexinginterfa00orsu_453/page/n359).
+    p.  [335](https://archive.org/details/reflexinginterfa00orsu_453/page/n359).
 68. Schatz, Daniel; Bashroush, Rabih; Wall, Julie (2017).
     ["Towards a More Representative Definition of Cyber Security"](https://commons.erau.edu/jdfsl/vol12/iss2/8/).
     _Journal of Digital Forensics, Security and Law_. **12** (2).
-    [ISSN](https://en.wikipedia.org/wiki/ISSN_(identifier) "ISSN (identifier)") 
+    [ISSN](https://en.wikipedia.org/wiki/ISSN_(identifier) "ISSN (identifier)")
     [1558-7215](https://www.worldcat.org/issn/1558-7215).
 69. Dana H. Ballard; Christopher M. Brown (1982). Computer Vision. Prentice
     Hall.
-    [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)") 
+    [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)")
     [0-13-165316-4](https://en.wikipedia.org/wiki/Special:BookSources/0-13-165316-4 "Special:BookSources/0-13-165316-4").
-70. Huang, T. (1996-11-19). Vandoni, Carlo, E, ed. Computer Vision : Evolution
+70. Huang, T. (1996-11-19). Vandoni, Carlo, E, ed. Computer Vision : Evolution
     And Promise (PDF). 19th CERN School of Computing. Geneva: CERN. pp. 21–25.
     doi:10.5170/CERN-1996-008.21.
-    [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)") 
+    [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)")
     [978-9290830955](https://en.wikipedia.org/wiki/Special:BookSources/978-9290830955 "Special:BookSources/978-9290830955").
 71. Milan Sonka; Vaclav Hlavac; Roger Boyle (2008). Image Processing, Analysis,
     and Machine Vision. Thomson.
-    [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)") 
+    [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)")
     [0-495-08252-X](https://en.wikipedia.org/wiki/Special:BookSources/0-495-08252-X "Special:BookSources/0-495-08252-X").
 72. ["Computing Curriculum 2020"](https://cc2020.nsparc.msstate.edu/wp-content/uploads/2020/11/15September2020-CC2020-Report-v43.pdf)
     (PDF).
 73. Lamport, Leslie (July 1978).
     ["Time, Clocks, and the Ordering of Events in a Distributed System"](http://research.microsoft.com/en-us/um/people/lamport/pubs/time-clocks.pdf)
     (PDF). _Communications of the ACM_. **21** (7): 558–565.
-    [CiteSeerX](https://en.wikipedia.org/wiki/CiteSeerX_(identifier) "CiteSeerX (identifier)") 
+    [CiteSeerX](https://en.wikipedia.org/wiki/CiteSeerX_(identifier) "CiteSeerX (identifier)")
     [10.1.1.142.3682](https://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.142.3682).
     [doi](https://en.wikipedia.org/wiki/Doi_(identifier) "Doi (identifier)"):
     [10.1145/359545.359563](https://doi.org/10.1145%2F359545.359563).
-    [S2CID](https://en.wikipedia.org/wiki/S2CID_(identifier) "S2CID (identifier)") 
+    [S2CID](https://en.wikipedia.org/wiki/S2CID_(identifier) "S2CID (identifier)")
     [215822405](https://api.semanticscholar.org/CorpusID:215822405). Retrieved 4
     February 2016.
 74. Paul E. Black (ed.), entry for _data structure_ in _
@@ -3019,7 +3019,7 @@ pages are formulated.
     (reprint). _Higher-Order and Symbolic Computation_. **11** (4): 405–439.
     [doi](https://en.wikipedia.org/wiki/Doi_(identifier) "Doi (identifier)"):
     [10.1023/A:1010035624696](https://doi.org/10.1023%2FA%3A1010035624696).
-    [S2CID](https://en.wikipedia.org/wiki/S2CID_(identifier) "S2CID (identifier)") 
+    [S2CID](https://en.wikipedia.org/wiki/S2CID_(identifier) "S2CID (identifier)")
     [18040106](https://api.semanticscholar.org/CorpusID:18040106). We believe
     that this was the first occurrence of the term "**continuation-passing
     style**" in the literature. It has turned out to be an important concept in
@@ -3030,12 +3030,12 @@ pages are formulated.
     Commons. 4 August 2016. Retrieved 20 December 2011.
 79. [Rivest, Ronald L.](https://en.wikipedia.org/wiki/Ron_Rivest "Ron Rivest")
     (1990). "Cryptography". In J. Van Leeuwen (ed.). _Handbook of Theoretical
-    Computer Science_. Vol. 1. Elsevier.
+    Computer Science_. Vol. 1. Elsevier.
 80. Bellare, Mihir; Rogaway, Phillip (21 September 2005). "Introduction".
-    _Introduction to Modern Cryptography_. p. 10.
+    _Introduction to Modern Cryptography_. p. 10.
 81. Menezes, A.J.; van Oorschot, P.C.; Vanstone, S.A. (1997).
     [_Handbook of Applied Cryptography_](https://archive.org/details/handbookofapplie0000mene).
-    [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)") 
+    [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)")
     [978-0-8493-8523-0](https://en.wikipedia.org/wiki/Special:BookSources/978-0-8493-8523-0 "Special:BookSources/978-0-8493-8523-0").
 82. [Eric S. Raymond](https://en.wikipedia.org/wiki/Eric_S._Raymond "Eric S. Raymond").
     ["daemon"](http://catb.org/~esr/jargon/html/D/daemon.html). _
@@ -3064,8 +3064,8 @@ pages are formulated.
     [the original](http://www-stat.stanford.edu/~tibs/ElemStatLearn/) on
     2009-11-10. Retrieved 2012-08-07.
 87. Han, Jaiwei; Kamber, Micheline; Pei, Jian (2011). _Data Mining: Concepts and
-    Techniques_ (3rd ed.). Morgan Kaufmann.
-    [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)") 
+    Techniques_ (3rd ed.). Morgan Kaufmann.
+    [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)")
     [978-0-12-381479-1](https://en.wikipedia.org/wiki/Special:BookSources/978-0-12-381479-1 "Special:BookSources/978-0-12-381479-1").
 88. Fayyad, Usama; Piatetsky-Shapiro, Gregory; Smyth, Padhraic (1996). "From
     Data Mining to Knowledge Discovery in Databases" (PDF). Retrieved 17
@@ -3075,7 +3075,7 @@ pages are formulated.
     _Communications of the ACM_. **56** (12): 64–73.
     [doi](https://en.wikipedia.org/wiki/Doi_(identifier) "Doi (identifier)"):
     [10.1145/2500499](https://doi.org/10.1145%2F2500499).
-    [S2CID](https://en.wikipedia.org/wiki/S2CID_(identifier) "S2CID (identifier)") 
+    [S2CID](https://en.wikipedia.org/wiki/S2CID_(identifier) "S2CID (identifier)")
     [6107147](https://api.semanticscholar.org/CorpusID:6107147).
 90. [Jeff Leek](https://en.wikipedia.org/wiki/Jeffrey_T._Leek "Jeffrey T. Leek")
     (2013-12-12).
@@ -3088,10 +3088,10 @@ pages are formulated.
     In Hayashi, Chikio; Yajima, Keiji; Bock, Hans-Hermann; Ohsumi, Noboru;
     Tanaka, Yutaka; Baba, Yasumasa (eds.). _Data Science, Classification, and
     Related Methods_. Studies in Classification, Data Analysis, and Knowledge
-    Organization. Springer Japan. pp. 40–51.
+    Organization. Springer Japan. pp. 40–51.
     [doi](https://en.wikipedia.org/wiki/Doi_(identifier) "Doi (identifier)"):
     [10.1007/978-4-431-65950-1_3](https://doi.org/10.1007%2F978-4-431-65950-1_3).
-    [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)") 
+    [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)")
     [9784431702085](https://en.wikipedia.org/wiki/Special:BookSources/9784431702085 "Special:BookSources/9784431702085").
 92. [Cormen, Thomas H.](https://en.wikipedia.org/wiki/Thomas_H._Cormen "Thomas H. Cormen");
     [Leiserson, Charles E.](https://en.wikipedia.org/wiki/Charles_E._Leiserson "Charles E. Leiserson");
@@ -3099,8 +3099,8 @@ pages are formulated.
     [Stein, Clifford](https://en.wikipedia.org/wiki/Clifford_Stein "Clifford Stein")
     (2009) \ [1990\].
     [_Introduction to Algorithms_](https://en.wikipedia.org/wiki/Introduction_to_Algorithms "Introduction to Algorithms")
-    (3rd ed.). MIT Press and McGraw-Hill.
-    [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)") 
+    (3rd ed.). MIT Press and McGraw-Hill.
+    [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)")
     [0-262-03384-4](https://en.wikipedia.org/wiki/Special:BookSources/0-262-03384-4 "Special:BookSources/0-262-03384-4").
 93. Black, Paul E. (15 December 2004).
     ["data structure"](https://xlinux.nist.gov/dads/HTML/datastructur.html). In
@@ -3112,16 +3112,16 @@ pages are formulated.
     _Encyclopaedia Britannica_. 17 April 2017. Retrieved 2018-11-06.
 95. Wegner, Peter; Reilly, Edwin D. (2003-08-29).
     [_Encyclopedia of Computer Science_](http://dl.acm.org/citation.cfm?id=1074100.1074312).
-    Chichester, UK: John Wiley and Sons. pp. 507–512.
-    [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)") 
+    Chichester, UK: John Wiley and Sons. pp. 507–512.
+    [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)")
     [978-0470864128](https://en.wikipedia.org/wiki/Special:BookSources/978-0470864128 "Special:BookSources/978-0470864128").
 96. .mw-parser-output .citation{word-wrap:break-word}.mw-parser-output
     .citation:target{background-color:rgba(0,127,255,0.133)}
     [type](https://foldoc.org/type) at the _
     [Free On-line Dictionary of Computing](https://en.wikipedia.org/wiki/Free_On-line_Dictionary_of_Computing "Free On-line Dictionary of Computing")_
 97. Shaffer, C. A. (2011). _Data Structures & Algorithm Analysis in C++_
-    (3rd ed.). Mineola, NY: Dover. 1.2.
-    [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)") 
+    (3rd ed.). Mineola, NY: Dover. 1.2.
+    [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)")
     [978-0-486-48582-9](https://en.wikipedia.org/wiki/Special:BookSources/978-0-486-48582-9 "Special:BookSources/978-0-486-48582-9").
 98. ^
     [Jump up to: <sup><i><b>a</b></i></sup>](https://en.wikipedia.org/wiki/Glossary_of_computer_science#cite_ref-c11_99-0)
@@ -3151,13 +3151,13 @@ C11 specification, 6.7: Declarations, paragraph 5.
      Coulouris, George;
      [Jean Dollimore](https://en.wikipedia.org/wiki/Jean_Dollimore "Jean Dollimore");
      Tim Kindberg; Gordon Blair (2011). _Distributed Systems: Concepts and
-     Design_ (5th ed.). Boston: Addison-Wesley.
-     [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)") 
+     Design_ (5th ed.). Boston: Addison-Wesley.
+     [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)")
      [978-0-132-14301-1](https://en.wikipedia.org/wiki/Special:BookSources/978-0-132-14301-1 "Special:BookSources/978-0-132-14301-1").
 102. Bjørner, Dines (2006). "The Tryptych of Software Engineering".
      [_Software Engineering 3 – Domains, Requirements, and Software Design_](https://www.springer.com/us/book/9783540211518)
-     (book). Vol. I. Springer Verlag. p. 9.
-     [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)") 
+     (book). Vol. I. Springer Verlag. p. 9.
+     [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)")
      [978-3-540-33653-2](https://en.wikipedia.org/wiki/Special:BookSources/978-3-540-33653-2 "Special:BookSources/978-3-540-33653-2").
      Retrieved 2016-12-19.
 103. ["What is downloading? - Definition from WhatIs.com"](https://web.archive.org/web/20190905142601/https://searchnetworking.techtarget.com/definition/downloading).
@@ -3201,7 +3201,7 @@ C11 specification, 6.7: Declarations, paragraph 5.
 114. [Myerson, Roger B.](https://en.wikipedia.org/wiki/Roger_B._Myerson "Roger B. Myerson")
      (1991). _Game Theory: Analysis of Conflict,_
      [Harvard University Press](https://en.wikipedia.org/wiki/Harvard_University_Press "Harvard University Press"),
-     p.  [1](https://books.google.com/books?id=E8WQFRCsNr0C&pg=PA1).
+     p.  [1](https://books.google.com/books?id=E8WQFRCsNr0C&pg=PA1).
      Chapter-preview links, pp.
      [vii–xi](https://books.google.com/books?id=E8WQFRCsNr0C&pg=PR7).
 115. [Cormen, Thomas H.](https://en.wikipedia.org/wiki/Thomas_H._Cormen "Thomas H. Cormen");
@@ -3210,8 +3210,8 @@ C11 specification, 6.7: Declarations, paragraph 5.
      [Stein, Clifford](https://en.wikipedia.org/wiki/Clifford_Stein "Clifford Stein")
      (2009) \ [1990\].
      [_Introduction to Algorithms_](https://en.wikipedia.org/wiki/Introduction_to_Algorithms "Introduction to Algorithms")
-     (3rd ed.). MIT Press and McGraw-Hill. pp. 151–152.
-     [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)") 
+     (3rd ed.). MIT Press and McGraw-Hill. pp. 151–152.
+     [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)")
      [0-262-03384-4](https://en.wikipedia.org/wiki/Special:BookSources/0-262-03384-4 "Special:BookSources/0-262-03384-4").
 116. Black (ed.), Paul E. (2004-12-14). Entry for _heap_ in _
      [Dictionary of Algorithms and Data Structures](https://en.wikipedia.org/wiki/Dictionary_of_Algorithms_and_Data_Structures "Dictionary of Algorithms and Data Structures")_.
@@ -3222,16 +3222,16 @@ C11 specification, 6.7: Declarations, paragraph 5.
 117. [Skiena, Steven](https://en.wikipedia.org/wiki/Steven_Skiena "Steven Skiena")
      (2008). "Searching and Sorting".
      [_The Algorithm Design Manual_](https://archive.org/details/algorithmdesignm00skie_772).
-     Springer. p. 
+     Springer. p.
      [109](https://archive.org/details/algorithmdesignm00skie_772/page/n120).
      [doi](https://en.wikipedia.org/wiki/Doi_(identifier) "Doi (identifier)"):
      [10.1007/978-1-84800-070-4_4](https://doi.org/10.1007%2F978-1-84800-070-4_4).
-     [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)") 
+     [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)")
      [978-1-84800-069-8](https://en.wikipedia.org/wiki/Special:BookSources/978-1-84800-069-8 "Special:BookSources/978-1-84800-069-8").
      \ [H\]eapsort is nothing but an implementation of selection sort using the
      right data structure.
 118. _ISO/IEC/IEEE International Standard - Systems and software engineering_.
-     ISO/IEC/IEEE 24765:2010(E). 2010. pp. vol., no., pp.1–418, 15 Dec. 2010.
+     ISO/IEC/IEEE 24765:2010(E). 2010. pp. vol., no., pp.1–418, 15 Dec. 2010.
 119. [Martyn A Ould & Charles Unwin (ed), _Testing in Software Development_, BCS (1986), p71](https://books.google.com/books?id=utFCImZOTEIC&dq=integration+test&pg=PA73).
      Accessed 31 Oct 2014
 120. World Intellectual Property Organization (WIPO) (2016).
@@ -3239,7 +3239,7 @@ C11 specification, 6.7: Declarations, paragraph 5.
      World Intellectual Property Organization.
      [doi](https://en.wikipedia.org/wiki/Doi_(identifier) "Doi (identifier)"):
      [10.34667/tind.28945](https://doi.org/10.34667%2Ftind.28945).
-     [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)") 
+     [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)")
      [9789280525885](https://en.wikipedia.org/wiki/Special:BookSources/9789280525885 "Special:BookSources/9789280525885").
      Retrieved 2018-12-06.
 121. ["Intellectual, industrial and commercial property | Fact Sheets on the European Union"](http://www.europarl.europa.eu/factsheets/en/sheet/36/intellectual-industrial-and-commercial-property).
@@ -3248,7 +3248,7 @@ C11 specification, 6.7: Declarations, paragraph 5.
      _World Trade Organization_. World Trade Organization. Retrieved 2016-05-23.
 123. "Intellectual property", _Black's Law Dictionary_, 10th ed. (2014).
 124. ["Understanding Copyright and Related Rights"](https://www.wipo.int/edocs/pubdocs/en/wipo_pub_909_2016.pdf)
-     (PDF). World Intellectual Property Organization. p. 4. Retrieved
+     (PDF). World Intellectual Property Organization. p. 4. Retrieved
      2018-12-06.
 125. ["What is Intellectual Property?"](https://www.wipo.int/edocs/pubdocs/en/intproperty/450/wipo_pub_450.pdf)
      (PDF). World Intellectual Property Organization (WIPO). Retrieved
@@ -3261,29 +3261,29 @@ C11 specification, 6.7: Declarations, paragraph 5.
      _AI Magazine_. **28** (4): 15.
      [doi](https://en.wikipedia.org/wiki/Doi_(identifier) "Doi (identifier)"):
      [10.1609/aimag.v28i4.2065](https://doi.org/10.1609%2Faimag.v28i4.2065).
-     [ISSN](https://en.wikipedia.org/wiki/ISSN_(identifier) "ISSN (identifier)") 
+     [ISSN](https://en.wikipedia.org/wiki/ISSN_(identifier) "ISSN (identifier)")
      [2371-9621](https://www.worldcat.org/issn/2371-9621).
-     [S2CID](https://en.wikipedia.org/wiki/S2CID_(identifier) "S2CID (identifier)") 
+     [S2CID](https://en.wikipedia.org/wiki/S2CID_(identifier) "S2CID (identifier)")
      [17033332](https://api.semanticscholar.org/CorpusID:17033332).
 128. According to the definition given by
      [Russell & Norvig (2003](https://en.wikipedia.org/wiki/Glossary_of_computer_science#CITEREFRussellNorvig2003),
      chpt. 2)
 129. Hookway, B. (2014). "Chapter 1: The Subject of the Interface".
      [_Interface_](https://books.google.com/books?id=BQM_AwAAQBAJ). MIT Press.
-     pp. 1–58.
-     [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)") 
+     pp. 1–58.
+     [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)")
      [9780262525503](https://en.wikipedia.org/wiki/Special:BookSources/9780262525503 "Special:BookSources/9780262525503").
 130. _IEEE 100 - The Authoritative Dictionary Of IEEE Standards Terms_. NYC, NY,
-     USA: IEEE Press. 2000. pp. 574–575.
-     [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)") 
+     USA: IEEE Press. 2000. pp. 574–575.
+     [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)")
      [9780738126012](https://en.wikipedia.org/wiki/Special:BookSources/9780738126012 "Special:BookSources/9780738126012").
 131. Dunham, Ken; Melnick, Jim (2008).
      [_Malicious Bots: An Inside Look into the Cyber-Criminal Underground of the Internet_](https://archive.org/details/malicio_dun_2009_00_4004).
      CRC Press.
-     [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)") 
+     [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)")
      [9781420069068](https://en.wikipedia.org/wiki/Special:BookSources/9781420069068 "Special:BookSources/9781420069068").
 132. [Gosling et al. 2014](https://en.wikipedia.org/wiki/Glossary_of_computer_science#CITEREFGoslingJoySteeleBracha2014),
-     p. 1.
+     p. 1.
 133. ["Java is pure object oriented or not?"](https://stackoverflow.com/questions/12836522/java-is-pure-object-oriented-or-not).
      _Stack Overflow_. Retrieved 2019-05-24.
 134. ["Write once, run anywhere?"](http://www.computerweekly.com/Articles/2002/05/02/186793/write-once-run-anywhere.htm).
@@ -3311,11 +3311,11 @@ C11 specification, 6.7: Declarations, paragraph 5.
      programmed?" in Koza, John R.; Bennett, Forrest H.; Andre, David; Keane,
      Martin A. (1996). _Automated Design of Both the Topology and Sizing of
      Analog Electrical Circuits Using Genetic Programming_. Artificial
-     Intelligence in Design '96. Springer, Dordrecht. pp. 151–170.
+     Intelligence in Design '96. Springer, Dordrecht. pp. 151–170.
      [doi](https://en.wikipedia.org/wiki/Doi_(identifier) "Doi (identifier)"):
      [10.1007/978-94-009-0279-4_9](https://doi.org/10.1007%2F978-94-009-0279-4_9).
 140. < Bishop, C. M. (2006), Pattern Recognition and Machine Learning, Springer,
-     [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)") 
+     [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)")
      [978-0-387-31073-2](https://en.wikipedia.org/wiki/Special:BookSources/978-0-387-31073-2 "Special:BookSources/978-0-387-31073-2")
 141. Undergraduate texts include Boolos, Burgess, and Jeffrey
      [(2002)](https://en.wikipedia.org/wiki/Glossary_of_computer_science#CITEREFBoolosBurgessJeffrey2002),
@@ -3329,17 +3329,17 @@ C11 specification, 6.7: Declarations, paragraph 5.
 142. Equivalently, _
      [table](https://en.wiktionary.org/wiki/table "wikt:table")_.
 143. [Anton (1987](https://en.wikipedia.org/wiki/Glossary_of_computer_science#CITEREFAnton1987),
-     p. 23)
+     p. 23)
 144. [Beauregard & Fraleigh (1973](https://en.wikipedia.org/wiki/Glossary_of_computer_science#CITEREFBeauregardFraleigh1973),
-     p. 56)
+     p. 56)
 145. [Knuth (1998](https://en.wikipedia.org/wiki/Glossary_of_computer_science#CITEREFKnuth1998),
-     p. 158)
+     p. 158)
 146. Katajainen, Jyrki; Träff, Jesper Larsson (March 1997).
      ["A meticulous analysis of mergesort programs"](http://hjemmesider.diku.dk/~jyrki/Paper/CIAC97.pdf)
      (PDF). _Proceedings of the 3rd Italian Conference on Algorithms and
      Complexity_. Italian Conference on Algorithms and Complexity. Rome.
-     pp. 217–228.
-     [CiteSeerX](https://en.wikipedia.org/wiki/CiteSeerX_(identifier) "CiteSeerX (identifier)") 
+     pp. 217–228.
+     [CiteSeerX](https://en.wikipedia.org/wiki/CiteSeerX_(identifier) "CiteSeerX (identifier)")
      [10.1.1.86.3154](https://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.86.3154).
      [doi](https://en.wikipedia.org/wiki/Doi_(identifier) "Doi (identifier)"):
      [10.1007/3-540-62592-5_74](https://doi.org/10.1007%2F3-540-62592-5_74).
@@ -3353,8 +3353,8 @@ C11 specification, 6.7: Declarations, paragraph 5.
      Service (2008). Selecting a development approach. Webarticle. United States
      Department of Health and Human Services (HHS). Re-validated: March
      27, 2008. Retrieved 27 Oct 2008.
-149. Oppel, Andy (2005). _SQL Demystified_. McGraw Hill. p. 7.
-     [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)") 
+149. Oppel, Andy (2005). _SQL Demystified_. McGraw Hill. p. 7.
+     [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)")
      [0-07-226224-9](https://en.wikipedia.org/wiki/Special:BookSources/0-07-226224-9 "Special:BookSources/0-07-226224-9").
 150. ["Compiler"](http://whatis.techtarget.com/definition/0,,sid9_gci211824,00.html).
      TechTarget. Retrieved 1 September 2011. Traditionally, the output of the
@@ -3363,25 +3363,25 @@ C11 specification, 6.7: Declarations, paragraph 5.
      [Sethi, Ravi](https://en.wikipedia.org/wiki/Ravi_Sethi "Ravi Sethi");
      [Ullman, Jeffrey D.](https://en.wikipedia.org/wiki/Jeffrey_Ullman "Jeffrey Ullman")
      (1986). "10 Code Optimization". _Compilers: principles, techniques, and
-     tools_. Computer Science. Mark S. Dalton. p. 704.
-     [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)") 
+     tools_. Computer Science. Mark S. Dalton. p. 704.
+     [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)")
      [0-201-10194-7](https://en.wikipedia.org/wiki/Special:BookSources/0-201-10194-7 "Special:BookSources/0-201-10194-7").
 152. Kindler, E.; Krivy, I. (2011). "Object-Oriented Simulation of systems with
      sophisticated control". _International Journal of General Systems_. **40**
      (3): 313–343.
      [doi](https://en.wikipedia.org/wiki/Doi_(identifier) "Doi (identifier)"):
      [10.1080/03081079.2010.539975](https://doi.org/10.1080%2F03081079.2010.539975).
-     [S2CID](https://en.wikipedia.org/wiki/S2CID_(identifier) "S2CID (identifier)") 
+     [S2CID](https://en.wikipedia.org/wiki/S2CID_(identifier) "S2CID (identifier)")
      [205549734](https://api.semanticscholar.org/CorpusID:205549734).
 153. Lewis, John; Loftus, William (2008). _Java Software Solutions Foundations
      of Programming Design 6th ed_. Pearson Education Inc.
-     [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)") 
+     [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)")
      [978-0-321-53205-3](https://en.wikipedia.org/wiki/Special:BookSources/978-0-321-53205-3 "Special:BookSources/978-0-321-53205-3").,
      section 1.6 "Object-Oriented Programming"
 154. St. Laurent, Andrew M. (2008).
      [_Understanding Open Source and Free Software Licensing_](https://books.google.com/books?id=04jG7TTLujoC&pg=PA4).
-     O'Reilly Media. p. 4.
-     [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)") 
+     O'Reilly Media. p. 4.
+     [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)")
      [9780596553951](https://en.wikipedia.org/wiki/Special:BookSources/9780596553951 "Special:BookSources/9780596553951").
 155. Levine, Sheen S.; Prietula, Michael J. (2013-12-30). "Open Collaboration
      for Innovation: Principles and Performance". _Organization Science_. **25**
@@ -3390,25 +3390,25 @@ C11 specification, 6.7: Declarations, paragraph 5.
      [1406.7541](https://arxiv.org/abs/1406.7541).
      [doi](https://en.wikipedia.org/wiki/Doi_(identifier) "Doi (identifier)"):
      [10.1287/orsc.2013.0872](https://doi.org/10.1287%2Forsc.2013.0872).
-     [ISSN](https://en.wikipedia.org/wiki/ISSN_(identifier) "ISSN (identifier)") 
+     [ISSN](https://en.wikipedia.org/wiki/ISSN_(identifier) "ISSN (identifier)")
      [1047-7039](https://www.worldcat.org/issn/1047-7039).
-     [S2CID](https://en.wikipedia.org/wiki/S2CID_(identifier) "S2CID (identifier)") 
+     [S2CID](https://en.wikipedia.org/wiki/S2CID_(identifier) "S2CID (identifier)")
      [6583883](https://api.semanticscholar.org/CorpusID:6583883).
 156. ["Optical Fiber"](http://www.thefoa.org/tech/ref/basic/fiber.html).
      _www.thefoa.org_.
      [The Fiber Optic Association](https://en.wikipedia.org/wiki/The_Fiber_Optic_Association "The Fiber Optic Association").
      Retrieved 17 April 2015.
 157. Senior, John M.; Jamro, M. Yousif (2009). _Optical fiber communications:
-     principles and practice_. Pearson Education. pp. 7–9.
-     [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)") 
+     principles and practice_. Pearson Education. pp. 7–9.
+     [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)")
      [978-0130326812](https://en.wikipedia.org/wiki/Special:BookSources/978-0130326812 "Special:BookSources/978-0130326812").
 158. [Williams, Laurie](https://en.wikipedia.org/wiki/Laurie_Williams_(software_engineer) "Laurie Williams (software engineer)")
      (February 19–20, 2001). _Integrating pair programming into a software
      development process_. 14th Conference on Software Engineering Education and
-     Training. Charlotte. pp. 27–36.
+     Training. Charlotte. pp. 27–36.
      [doi](https://en.wikipedia.org/wiki/Doi_(identifier) "Doi (identifier)"):
      [10.1109/CSEE.2001.913816](https://doi.org/10.1109%2FCSEE.2001.913816).
-     [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)") 
+     [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)")
      [0-7695-1059-0](https://en.wikipedia.org/wiki/Special:BookSources/0-7695-1059-0 "Special:BookSources/0-7695-1059-0").
      One of the programmers, the driver, has control of the keyboard/mouse and
      actively implements the program. The other programmer, the observer,
@@ -3418,10 +3418,10 @@ C11 specification, 6.7: Declarations, paragraph 5.
 159. Gottlieb, Allan; Almasi, George S. (1989).
      [_Highly parallel computing_](http://dl.acm.org/citation.cfm?id=160438).
      Redwood City, Calif.: Benjamin/Cummings.
-     [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)") 
+     [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)")
      [978-0-8053-0177-9](https://en.wikipedia.org/wiki/Special:BookSources/978-0-8053-0177-9 "Special:BookSources/978-0-8053-0177-9").
-160. Prata, Stephen (2004). _C primer plus_ (5th ed.). Sams. pp. 276–277.
-     [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)") 
+160. Prata, Stephen (2004). _C primer plus_ (5th ed.). Sams. pp. 276–277.
+     [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)")
      [978-0-672-32696-7](https://en.wikipedia.org/wiki/Special:BookSources/978-0-672-32696-7 "Special:BookSources/978-0-672-32696-7").
 161. ["Working Draft, Standard for Programming Language C++"](http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2005/n1905.pdf)
      (PDF). _www.open-std.org_. Retrieved 1 January 2018.
@@ -3442,39 +3442,39 @@ C11 specification, 6.7: Declarations, paragraph 5.
      2012-12-08. Retrieved 2013-01-14.
 164. Ranta, Aarne (9 May 2012).
      [_Implementing Programming Languages_](http://www.cse.chalmers.se/edu/year/2012/course/DAT150/lectures/plt-book.pdf#page=16)
-     (PDF). College Publications. pp. 16–18.
-     [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)") 
+     (PDF). College Publications. pp. 16–18.
+     [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)")
      [9781848900646](https://en.wikipedia.org/wiki/Special:BookSources/9781848900646 "Special:BookSources/9781848900646").
      Retrieved 22 March 2020.
 165. Clocksin, William F.; Mellish, Christopher S. (2003). _Programming in
-     Prolog_. Berlin ; New York: Springer-Verlag.
-     [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)") 
+     Prolog_. Berlin ; New York: Springer-Verlag.
+     [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)")
      [978-3-540-00678-7](https://en.wikipedia.org/wiki/Special:BookSources/978-3-540-00678-7 "Special:BookSources/978-3-540-00678-7").
 166. Bratko, Ivan (2012). _Prolog programming for artificial intelligence_
-     (4th ed.). Harlow, England ; New York: Addison Wesley.
-     [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)") 
+     (4th ed.). Harlow, England ; New York: Addison Wesley.
+     [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)")
      [978-0-321-41746-6](https://en.wikipedia.org/wiki/Special:BookSources/978-0-321-41746-6 "Special:BookSources/978-0-321-41746-6").
 167. Covington, Michael A. (1994). _Natural language processing for Prolog
      programmers_. Englewood Cliffs, N.J.: Prentice Hall.
-     [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)") 
+     [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)")
      [978-0-13-629213-5](https://en.wikipedia.org/wiki/Special:BookSources/978-0-13-629213-5 "Special:BookSources/978-0-13-629213-5").
 168. Lloyd, J. W. (1984). Foundations of logic programming. Berlin:
      Springer-Verlag.
-     [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)") 
+     [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)")
      [978-3-540-13299-8](https://en.wikipedia.org/wiki/Special:BookSources/978-3-540-13299-8 "Special:BookSources/978-3-540-13299-8").
 169. Kuhlman, Dave. "A Python Book: Beginning Python, Advanced Python, and
      Python Exercises". Section 1.1. Archived from the original (PDF) on 23
      June 2012.
 170. The National Academies of Sciences, Engineering, and Medicine (2019).
-     Grumbling, Emily; Horowitz, Mark (eds.). _Quantum Computing : Progress and
-     Prospects (2018)_. Washington, D.C.: National Academies Press. p. I-5.
+     Grumbling, Emily; Horowitz, Mark (eds.). _Quantum Computing : Progress and
+     Prospects (2018)_. Washington, D.C.: National Academies Press. p. I-5.
      [doi](https://en.wikipedia.org/wiki/Doi_(identifier) "Doi (identifier)"):
      [10.17226/25196](https://doi.org/10.17226%2F25196).
-     [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)") 
+     [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)")
      [978-0-309-47969-1](https://en.wikipedia.org/wiki/Special:BookSources/978-0-309-47969-1 "Special:BookSources/978-0-309-47969-1").
-     [OCLC](https://en.wikipedia.org/wiki/OCLC_(identifier) "OCLC (identifier)") 
+     [OCLC](https://en.wikipedia.org/wiki/OCLC_(identifier) "OCLC (identifier)")
      [1081001288](https://www.worldcat.org/oclc/1081001288).
-     [S2CID](https://en.wikipedia.org/wiki/S2CID_(identifier) "S2CID (identifier)") 
+     [S2CID](https://en.wikipedia.org/wiki/S2CID_(identifier) "S2CID (identifier)")
      [125635007](https://api.semanticscholar.org/CorpusID:125635007).
 171. R language and environment
 
@@ -3521,18 +3521,18 @@ to cite the software using:
      _Computing Students_. Retrieved Jan 22, 2018.
 175. Radványi, Tibor (2014).
      [_Database Management Systems_](https://www.tankonyvtar.hu/en/tartalom/tamop412A/2011-0038_49_radvanyi_en/index.html).
-     Eszterházy Károly College. p. 19. Retrieved 23 September 2018.
+     Eszterházy Károly College. p. 19. Retrieved 23 September 2018.
 176. Kahate, Atul (2006).
      [_Introduction to Database Management Systems_](https://books.google.com/books?id=mxYESolfLfoC).
-     Pearson. p. 3.
-     [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)") 
+     Pearson. p. 3.
+     [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)")
      [978-81-317-0078-5](https://en.wikipedia.org/wiki/Special:BookSources/978-81-317-0078-5 "Special:BookSources/978-81-317-0078-5").
      Retrieved 23 September 2018.
 177. Connolly, Thomas (2004).
      [_Database Solutions: A Step by Step Guide to Building Databases_](https://archive.org/details/databasesolution00conn_535)
-     (2nd ed.). Pearson. p. 
+     (2nd ed.). Pearson. p.
      [7](https://archive.org/details/databasesolution00conn_535/page/n19).
-     [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)") 
+     [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)")
      [978-0-321-17350-8](https://en.wikipedia.org/wiki/Special:BookSources/978-0-321-17350-8 "Special:BookSources/978-0-321-17350-8").
 178. Codd, E. F. (1970). "A Relational Model of Data for Large Shared Data
      Banks". Communications of the ACM. 13 (6): 377–387.
@@ -3542,7 +3542,7 @@ to cite the software using:
 180. Institute of Electrical and Electronics Engineers (1990) IEEE Standard
      Computer Dictionary: A Compilation of IEEE Standard Computer Glossaries.
      New York, NY
-     [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)") 
+     [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)")
      [1-55937-079-3](https://en.wikipedia.org/wiki/Special:BookSources/1-55937-079-3 "Special:BookSources/1-55937-079-3")
 181. Pezzè, Mauro; Young, Michal (2008).
      [_Software testing and analysis: process, principles, and techniques_](https://www.google.com/search?q=Mauro+%22non-regression%22+%22regression+testing%22).
@@ -3551,7 +3551,7 @@ to cite the software using:
 182. Basu, Anirban (2015).
      [_Software Quality Assurance, Testing and Metrics_](https://books.google.com/books?id=aNTiCQAAQBAJ&pg=PA150).
      PHI Learning.
-     [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)") 
+     [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)")
      [978-81-203-5068-7](https://en.wikipedia.org/wiki/Special:BookSources/978-81-203-5068-7 "Special:BookSources/978-81-203-5068-7").
 183. [National Research Council](https://en.wikipedia.org/wiki/National_Academies_of_Sciences,_Engineering,_and_Medicine "National Academies of Sciences, Engineering, and Medicine")
      Committee on Aging Avionics in Military Aircraft:
@@ -3561,34 +3561,34 @@ to cite the software using:
 184. Boulanger, Jean-Louis (2015).
      [_CENELEC 50128 and IEC 62279 Standards_](https://books.google.com/books?id=IbZNCAAAQBAJ&pg=PA149).
      Wiley.
-     [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)") 
+     [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)")
      [978-1119122487](https://en.wikipedia.org/wiki/Special:BookSources/978-1119122487 "Special:BookSources/978-1119122487").
 185. Kotonya, Gerald; Sommerville, Ian (1998).
      [_Requirements Engineering: Processes and Techniques_](https://archive.org/details/requirementsengi1998koto).
      Chichester, UK: John Wiley and Sons.
-     [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)") 
+     [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)")
      [9780471972082](https://en.wikipedia.org/wiki/Special:BookSources/9780471972082 "Special:BookSources/9780471972082").
 186. Ueberhuber, Christoph W. (1997),
      [_Numerical Computation 1: Methods, Software, and Analysis_](https://books.google.com/books?id=JH9I7EJh3JUC&pg=PA139),
-     Springer, pp. 139–146,
-     [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)") 
+     Springer, pp. 139–146,
+     [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)")
      [978-3-54062058-7](https://en.wikipedia.org/wiki/Special:BookSources/978-3-54062058-7 "Special:BookSources/978-3-54062058-7")
 187. Forrester, Dick (2018). _Math/Comp241 Numerical Methods (lecture notes)_.
      [Dickinson College](https://en.wikipedia.org/wiki/Dickinson_College "Dickinson College").
 188. Aksoy, Pelin; DeNardis, Laura (2007),
      [_Information Technology in Theory_](https://books.google.com/books?id=KGS5IcixljwC&pg=PA134),
-     Cengage Learning, p. 134,
-     [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)") 
+     Cengage Learning, p. 134,
+     [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)")
      [978-1-42390140-2](https://en.wikipedia.org/wiki/Special:BookSources/978-1-42390140-2 "Special:BookSources/978-1-42390140-2")
 189. Ralston, Anthony; Rabinowitz, Philip (2012),
      [_A First Course in Numerical Analysis_](https://books.google.com/books?id=TVq8AQAAQBAJ&pg=PA2),
-     Dover Books on Mathematics (2nd ed.), Courier Dover Publications, pp. 2–4,
-     [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)") 
+     Dover Books on Mathematics (2nd ed.), Courier Dover Publications, pp. 2–4,
+     [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)")
      [978-0-48614029-2](https://en.wikipedia.org/wiki/Special:BookSources/978-0-48614029-2 "Special:BookSources/978-0-48614029-2")
 190. Butt, Rizwan (2009),
      [_Introduction to Numerical Analysis Using MATLAB_](https://books.google.com/books?id=QWub-UVGxqkC&pg=PA11),
-     Jones & Bartlett Learning, pp. 11–18,
-     [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)") 
+     Jones & Bartlett Learning, pp. 11–18,
+     [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)")
      [978-0-76377376-2](https://en.wikipedia.org/wiki/Special:BookSources/978-0-76377376-2 "Special:BookSources/978-0-76377376-2")
 191. ["Overview Of Key Routing Protocol Concepts: Architectures, Protocol Types, Algorithms and Metrics"](http://www.tcpipguide.com/free/t_OverviewOfKeyRoutingProtocolConceptsArchitecturesP.htm).
      Tcpipguide.com.
@@ -3598,13 +3598,13 @@ to cite the software using:
      Vassos Hadzilacos, Nathan Goodman (1987):
      [_Concurrency Control and Recovery in Database Systems_](http://research.microsoft.com/en-us/people/philbe/ccontrol.aspx)
      (free PDF download), Addison Wesley Publishing Company,
-     [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)") 
+     [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)")
      [0-201-10715-5](https://en.wikipedia.org/wiki/Special:BookSources/0-201-10715-5 "Special:BookSources/0-201-10715-5")
 193. [Gerhard Weikum](https://en.wikipedia.org/wiki/Gerhard_Weikum "Gerhard Weikum"),
      Gottfried Vossen (2001):
      [_Transactional Information Systems_](http://www.elsevier.com/wps/find/bookdescription.cws_home/677937/description#description),
      Elsevier,
-     [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)") 
+     [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)")
      [1-55860-508-8](https://en.wikipedia.org/wiki/Special:BookSources/1-55860-508-8 "Special:BookSources/1-55860-508-8")
 194. [Maurice Herlihy](https://en.wikipedia.org/wiki/Maurice_Herlihy "Maurice Herlihy")
      and J. Eliot B. Moss. _Transactional memory: architectural support for
@@ -3624,25 +3624,25 @@ to cite the software using:
 196. Kearney, K.T.; Torelli, F. (2011). "The SLA Model". In Wieder, P.; Butler,
      J.M.; Theilmann, W.; Yahyapour, R. (eds.).
      [_Service Level Agreements for Cloud Computing_](https://books.google.com/books?id=z306GUfFL5gC).
-     Springer Science+Business Media, LLC. pp. 43–68.
-     [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)") 
+     Springer Science+Business Media, LLC. pp. 43–68.
+     [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)")
      [9781461416142](https://en.wikipedia.org/wiki/Special:BookSources/9781461416142 "Special:BookSources/9781461416142").
-197. Nwana, H. S. (1996). "Software Agents: An Overview". _Knowledge Engineering
+197. Nwana, H. S. (1996). "Software Agents: An Overview". _Knowledge Engineering
      Review_. **21** (3): 205–244.
-     [CiteSeerX](https://en.wikipedia.org/wiki/CiteSeerX_(identifier) "CiteSeerX (identifier)") 
+     [CiteSeerX](https://en.wikipedia.org/wiki/CiteSeerX_(identifier) "CiteSeerX (identifier)")
      [10.1.1.50.660](https://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.50.660).
      [doi](https://en.wikipedia.org/wiki/Doi_(identifier) "Doi (identifier)"):
      [10.1017/s026988890000789x](https://doi.org/10.1017%2Fs026988890000789x).
-     [S2CID](https://en.wikipedia.org/wiki/S2CID_(identifier) "S2CID (identifier)") 
+     [S2CID](https://en.wikipedia.org/wiki/S2CID_(identifier) "S2CID (identifier)")
      [7839197](https://api.semanticscholar.org/CorpusID:7839197).
-198. Schermer, B. W. (2007).
+198. Schermer, B. W. (2007).
      [_Software agents, surveillance, and the right to privacy: A legislative framework for agent-enabled surveillance_](https://openaccess.leidenuniv.nl/handle/1887/11951)
-     (paperback). Vol. 21.
+     (paperback). Vol. 21.
      [Leiden University Press](https://en.wikipedia.org/wiki/Leiden_University_Press "Leiden University Press").
-     pp. 140, 205–244.
+     pp. 140, 205–244.
      [hdl](https://en.wikipedia.org/wiki/Hdl_(identifier) "Hdl (identifier)"):
      [1887/11951](https://hdl.handle.net/1887%2F11951).
-     [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)") 
+     [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)")
      [978-0-596-00712-6](https://en.wikipedia.org/wiki/Special:BookSources/978-0-596-00712-6 "Special:BookSources/978-0-596-00712-6").
      Retrieved 2012-10-30.
 199. [SWEBOK](https://en.wikipedia.org/wiki/Software_Engineering_Body_of_Knowledge "Software Engineering Body of Knowledge")
@@ -3650,8 +3650,8 @@ to cite the software using:
      "Chapter 4: Software Construction".
      [_Guide to the Software Engineering Body of Knowledge_](https://web.archive.org/web/20140714183208/http://www.computer.org/portal/web/swebok/html/ch4#Ref2).
      [IEEE Computer Society](https://en.wikipedia.org/wiki/IEEE_Computer_Society "IEEE Computer Society").
-     pp. 4–1–4–5.
-     [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)") 
+     pp. 4–1–4–5.
+     [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)")
      [0-7695-2330-7](https://en.wikipedia.org/wiki/Special:BookSources/0-7695-2330-7 "Special:BookSources/0-7695-2330-7").
      Archived from
      [the original](http://www.computer.org/portal/web/swebok/html/ch4#Ref2) on
@@ -3670,7 +3670,7 @@ to cite the software using:
      \ [20\].
      [doi](https://en.wikipedia.org/wiki/Doi_(identifier) "Doi (identifier)"):
      [10.1145/1012037.1012054](https://doi.org/10.1145%2F1012037.1012054).
-     [S2CID](https://en.wikipedia.org/wiki/S2CID_(identifier) "S2CID (identifier)") 
+     [S2CID](https://en.wikipedia.org/wiki/S2CID_(identifier) "S2CID (identifier)")
      [14331332](https://api.semanticscholar.org/CorpusID:14331332).
 203. ["Application Development (AppDev) Defined and Explained"](http://www.bestpricecomputers.co.uk/glossary/application-development.htm).
      Bestpricecomputers.co.uk. 2007-08-13. Retrieved 2012-08-05.
@@ -3678,7 +3678,7 @@ to cite the software using:
      ["New Product Development Glossary"](http://www.npd-solutions.com/glossary.html).
      Retrieved 2006-10-29.
 205. [Abran et al. 2004](https://en.wikipedia.org/wiki/Glossary_of_computer_science#CITEREFAbranMooreBourqueDupuis2004),
-     pp. 1–1
+     pp. 1–1
 206. ACM (2007).
      ["Computing Degrees & Careers"](https://web.archive.org/web/20110617053818/http://computingcareers.acm.org/?page_id=12).
      ACM. Archived from
@@ -3687,7 +3687,7 @@ to cite the software using:
 207. Laplante, Phillip (2007).
      [_What Every Engineer Should Know about Software Engineering_](https://books.google.com/books?id=pFHYk0KWAEgC&q=What%20Every%20Engineer%20Should%20Know%20about%20Software%20Engineering.&pg=PA1).
      Boca Raton: CRC.
-     [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)") 
+     [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)")
      [978-0-8493-7228-5](https://en.wikipedia.org/wiki/Special:BookSources/978-0-8493-7228-5 "Special:BookSources/978-0-8493-7228-5").
      Retrieved 2011-01-21.
 208. ["The Joint Task Force for Computing Curricula 2005"](http://www.acm.org/education/curric_vols/CC2005-March06Final.pdf)
@@ -3710,15 +3710,15 @@ to cite the software using:
      [Stein, Clifford](https://en.wikipedia.org/wiki/Clifford_Stein "Clifford Stein")
      (2009) \ [1990\].
      [_Introduction to Algorithms_](https://en.wikipedia.org/wiki/Introduction_to_Algorithms "Introduction to Algorithms")
-     (3rd ed.). MIT Press and McGraw-Hill. pp. 232–233.
-     [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)") 
+     (3rd ed.). MIT Press and McGraw-Hill. pp. 232–233.
+     [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)")
      [0-262-03384-4](https://en.wikipedia.org/wiki/Special:BookSources/0-262-03384-4 "Special:BookSources/0-262-03384-4").
 214. ["What is stateless? - Definition from WhatIs.com"](http://whatis.techtarget.com/definition/stateless).
      _techtarget.com_.
 215. ["statement"](http://www.webopedia.com/TERM/S/statement.html). webopedia.
      September 1996. Retrieved 2015-03-03.
 216. [http://nosql-database.org/](http://nosql-database.org/) "NoSQL DEFINITION:
-     Next Generation Databases mostly addressing some of the points : being
+     Next Generation Databases mostly addressing some of the points : being
      non-relational, distributed, open-source and horizontally scalable".
 217. Leavitt, Neal (2010). "Will NoSQL Databases Live Up to Their Promise?"
      (PDF). IEEE Computer. 43 (2): 12–14. doi:10.1109/MC.2010.58.
@@ -3769,12 +3769,12 @@ to cite the software using:
      www.w3.org. 16 June 2011. Retrieved 2018-10-20.
 239. Aho, Alfred V.; Sethi, Ravi; Ullman, Jeffrey D. (1986),
      [_Compilers: Principles, Techniques, and Tools_](https://en.wikipedia.org/wiki/Compilers:_Principles,_Techniques,_and_Tools "Compilers: Principles, Techniques, and Tools"),
-     pp. 26–28,
+     pp. 26–28,
      [Bibcode](https://en.wikipedia.org/wiki/Bibcode_(identifier) "Bibcode (identifier)"):
      [1986cptt.book.....A](https://ui.adsabs.harvard.edu/abs/1986cptt.book.....A)
-240. Knuth, Donald (1997). _The Art of Computer Programming_. Vol. 1 (3rd ed.).
-     Reading, Massachusetts: Addison-Wesley. pp. 3–4.
-     [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)") 
+240. Knuth, Donald (1997). _The Art of Computer Programming_. Vol. 1 (3rd ed.).
+     Reading, Massachusetts: Addison-Wesley. pp. 3–4.
+     [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)")
      [0-201-89683-4](https://en.wikipedia.org/wiki/Special:BookSources/0-201-89683-4 "Special:BookSources/0-201-89683-4").
 241. [Kevin Forsberg](https://en.wikipedia.org/wiki/Kevin_Forsberg "Kevin Forsberg")
      and [Harold Mooz](https://en.wikipedia.org/wiki/Harold_Mooz), "The

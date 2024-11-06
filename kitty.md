@@ -18,10 +18,9 @@ sr-ease: 254
 > reproducibility (I like to store configuration in source control).
 >
 > The code in kitty is designed to be simple, modular and hackable. It is
-> written in a mix of [[research/C|C]] (for
-> performance sensitive parts) and [[research/Python|Python]] (for easy
-> hackability of the UI). It does not depend on any large and complex UI
-> toolkit, using only OpenGL for rendering everything (NOTE: not perfect with
+> written in a mix of [[C]] (for performance sensitive parts) and [[Python]]
+> (for easy hackability of the UI). It does not depend on any large and complex
+> UI toolkit, using only OpenGL for rendering everything (NOTE: not perfect with
 > specific fonts).
 >
 > Finally, kitty is designed from the ground up to support all modern terminal

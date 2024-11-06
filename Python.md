@@ -3,7 +3,6 @@ date: 2022-12-29
 tags:
   - inbox
   - Python
-  - inbox
 sr-due: 2022-01-28
 sr-interval: 6
 sr-ease: 182
@@ -52,7 +51,7 @@ sr-ease: 182
 [[zen_of_python|Zen of python]] describes the philosophy of Python.
 
 This is most prioritized language for me. I learn it according to my
-[[../programming_learning_path#Python|roadmap]].
+[[programming_learning_path#Python|roadmap]].
 
 **Python** is a [[high-level_programming_language|high-level]],
 [[general-purpose_programming_language|general-purpose]] programming language.
@@ -69,11 +68,11 @@ It supports any popular [[programming_paradigm|programming paradigm]]:
 - [[OOP|object-oriented]]
 - [[functional_programming|functional]]
 
-Rich [[research/Python_Community-Python_Standard_Library|standard library]] make
+Rich [[Python_Community-Python_Standard_Library|standard library]] make
 it's "batteries included" language.
 
-
-Bellow is Q/A flashcards based on learnxinyminutes [^1] cheatsheet.
+In next sections I cover basics of Python language with Q/A flashcards based on
+learnxinyminutes [^1] cheatsheet.
 
 ## 1. Primitive Datatypes and Operators
 

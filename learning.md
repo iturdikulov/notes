@@ -29,12 +29,12 @@ learn you are interested in and what is the most important for you.
 
 Learning is very tightly connected with practice and repetition, so after you
 learn something the best method to consolidate your knowledge is to practice it
-and test yourself. Personally I implement my [[my_pet_projects|pet projects]]
-and [[work|working projects]] to strengthen my studies.
+and test yourself. Personally I implement my [[projects]] and [[work|working
+projects]] to strengthen my studies.
 
 > The only way to learn a new programming language is by writing programs
 > in it.\
-> — <cite>[[research/Kernighan_and_Ritchie-The_C_programming_language|K&R book]]</cite>
+> — <cite>[[Kernighan_and_Ritchie-The_C_programming_language|K&R book]]</cite>
 
 > Repeat the tutorial from memory, notes can help. Experiment, do something new,
 > based on tutorials. Make something dirty but get experience.
@@ -42,7 +42,7 @@ and [[work|working projects]] to strengthen my studies.
 ## My learning path
 
 This is my important place in choosing what to learn for my [[Work#Goals|work
-goals]] and my [[my_pet_projects|pet projects]] required skills.
+goals]] and my [[projects|pet projects]] required skills.
 
 Since I'm use [[Zettelkasten]], I can create new notes based on education
 materials and extend them with different sources, my experience, etc.
@@ -156,7 +156,7 @@ Programming and software development are very deeply linked with science, and
 computer science in particular. It's a little bit different from
 science/computer science, because it's more practical and applied, but in fact
 it uses all from them. This is also my current [[work|work]] and main source of
-[[my_pet_projects|pet projects]].
+[[projects]].
 
 [[programming_learning_path|How I learn programming and software development]].
 This is place where I store programming applied learning materials, related
@@ -198,7 +198,7 @@ list and favorite books in [[my_fiction_books|my fiction books]] note.
 ## External links
 
 - [ ] [Copying Better: How To Acquire The Tacit Knowledge of Experts](https://commoncog.com/how-to-learn-tacit-knowledge/)
-- [ ] [[research/Evans-So_you_want_to_be_a_WizarD]]
+- [ ] [[Evans-So_you_want_to_be_a_WizarD]]
 
 - [[Khan_Academy]]
 

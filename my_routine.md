@@ -92,9 +92,8 @@ information with [[spaced_repetition|spaced repetition]] technique.
 
 ## 7. Fun
 
-It's good time to practice learned information by working with
-[[my_pet_projects|pet projects]]. Sometimes you haven't energy for it, it's
-fine. You can do something else.
+It's good time to practice learned information by working with [[projects]].
+Sometimes you haven't energy for it, it's fine. You can do something else.
 
 It's also good time for [[IRL]] activities.
 
