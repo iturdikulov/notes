@@ -99,7 +99,7 @@ main()
 C program, whatever its size, consists of ==functions and variables==.
 <!--SR:!2023-08-04,66,287-->
 
-Is this code valid in [[research/C]]?
+Is this code valid in [[C]]?
 ```c
 printf("hello, world
 ");

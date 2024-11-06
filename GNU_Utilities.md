@@ -18,6 +18,9 @@ Here I store basic coreutils and similar tools that I use on a daily basis.
 A lot of these commands also usually exist in this
 [[Unix_commands|Unix commands]] list.
 
+Source code of coreutils can be found at gnu.org website:
+[coreutils.git](http://git.savannah.gnu.org/gitweb/?p=coreutils.git)
+
 ### File utilities
 
 - `chcon` - Changes file security context (SELinux)

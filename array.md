@@ -56,7 +56,7 @@ array indexed (by integer number starting from 0) and you can access array item
 by index (key in array). As rule index starting from [[zero-based_numbering|0]]
 to `n-1` where `n` is a number of items in array.
 
-## Notes from [[research/Wengrow-Data_structures_and_algorithms|Wengrow]] book
+## Notes from [[Wengrow-Data_structures_and_algorithms|Wengrow]] book
 
 Array is one of most basic data structure in computer science.
 
@@ -78,7 +78,7 @@ graph LR
     A --- |Index 3| E(4)
 ```
 
-![[img/shopping_list_array.excalidraw]]
+![[img/shopping_list_array_insert.excalidraw.md]]
 
 When you create array ([[initialization|initialize]]) you must set array size
 (number of items stored in the array). Size of array is fixed. Also, computer

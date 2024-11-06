@@ -144,7 +144,7 @@ Efficiency depends on where we insert the value:
 worst case (begging of array) it's $N+1$ steps, where $N$ is a number of
 items in array.
 
-![shopping list array insert](img/shopping_list_array_insert.svg)
+![[img/shopping_list_array_insert.excalidraw.md]]
 _Array insertion operation in memory_
 
 How many steps will take array insertion in the worst case?

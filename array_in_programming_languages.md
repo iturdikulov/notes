@@ -9,7 +9,7 @@ sr-ease: 202
 ---
 # Array in programming languages
 
-## Arrays in [[research/C]]:
+## Arrays in [[C]]:
 
 ```c
 int array[4];  // Initialize array with 4 items
@@ -34,7 +34,7 @@ array[3] = 33;
 array[4] = 50;
 ```
 
-## Arrays in [[research/Rust]]:
+## Arrays in [[Rust]]:
 
 ```rust
 let mut array: [i32; 3] = [0; 3];

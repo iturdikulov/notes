@@ -2075,7 +2075,7 @@ the sequence of all even positive integers (2, 4, 6, ...). In computing and
 computer science, finite sequences are sometimes called strings, words or lists,
 the different names commonly corresponding to different ways to represent them
 in computer memory; infinite sequences are called streams. The empty
-sequence ( ) is included in most notions of sequence, but may be excluded
+sequence ( ) is included in most notions of sequence, but may be excluded
 depending on the context.
 
 ### Serializability

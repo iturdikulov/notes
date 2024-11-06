@@ -14,4 +14,4 @@ sr-ease: 246
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Article)</cite>
 
 I use system to read articles, check related section in
-[[research/Syd-GTD_with_taskwarrior#Read and review]].
+[[Syd-GTD_with_taskwarrior#Read and review]].

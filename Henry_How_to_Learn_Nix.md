@@ -3,7 +3,7 @@ author: Ian Henry
 tags:
   - inbox
   - Unix
-created: 2023-07-17
+date: 2023-07-17
 external:
   - https://ianthehenry.com/posts/how-to-learn-nix/
 sr-due: 2024-07-21

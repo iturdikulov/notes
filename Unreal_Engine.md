@@ -39,7 +39,7 @@ sr-ease: 282
 ## References
 
 - [[3D_computer_graphics#Assets]]
-- [ ] [[research/Sensei-Unreal_Engine_5_Beginner_Tutorial]]
+- [ ] [[Sensei-Unreal_Engine_5_Beginner_Tutorial]]
 - [ ] Unreal Engine 5 Game Development with C++ Scripting
 - [ ] [Unreal Engine C++ Survival Game Tutorials](https://www.tomlooman.com/unreal-engine-cpp-survival-sample-game/)
 

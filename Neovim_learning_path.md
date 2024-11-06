@@ -37,8 +37,8 @@ TODO: broken link
 - [Vim Tips Wiki](https://vim.fandom.com/wiki/Vim_Tips_Wiki)
 - [Изучаем Vim - YouTube](https://www.youtube.com/playlist?list=PLcjongJGYetkY4RFSVftH43F91vgzqB7U)
 
-- [[research/Neil-Modern_Vim]]
-- [[research/Neil-Practical_Vim]]
+- [[Neil-Modern_Vim]]
+- [[Neil-Practical_Vim]]
 
 
 - [ ] [Resolve Git Merge Conflicts with Neovim and Fugitive! - YouTube](https://www.youtube.com/watch?v=vpwJ7fqD1CE)

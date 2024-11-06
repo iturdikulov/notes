@@ -22,5 +22,5 @@ OAuth - protocol to share ==sensitive data== across systems.
 OAuth's protocol gives ability one service (my) access rights to read user's
 data from another service (his) without sharing user's password.
 
-![[./img/oauth.excalidraw.md]]
+![[img/oauth.excalidraw]]
 _Oauth flow_

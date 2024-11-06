@@ -72,7 +72,7 @@ is part of the IP address.
 | Address format | Difference to last address | Mask            | Addreses   | Typical use                         |
 | :------------- | :------------------------- | :-------------- | :--------- | :---------------------------------- |
 | a.b.c.d/32     | +0.0.0.0                   | 255.255.255.255 | 1          | Host route                          |
-| a.b.c.d/31     | +0.0.0.1                   | 255.255.255.254 | 2          | Point-to-point links (RFC 3021)     |
+| a.b.c.d/31     | +0.0.0.1                   | 255.255.255.254 | 2          | Point-to-point links (RFC 3021)     |
 | a.b.c.d/30     | +0.0.0.3                   | 255.255.255.252 | 4          | Point-to-point links (glue network) |
 | a.b.c.d/29     | +0.0.0.7                   | 255.255.255.248 | 8          | Smallest multi-host network         |
 | a.b.c.d/28     | +0.0.0.15                  | 255.255.255.240 | 16         | Small LAN                           |

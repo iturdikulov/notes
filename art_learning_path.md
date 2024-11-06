@@ -19,13 +19,13 @@ I also like to practice [[my_handwriting|handwriting]].
 ## Drawing
 
 - [/] [[30_day_drawing_challenge|Drawing Challenge]]
-- [/] [[research/Loomis-Fun_With_A_Pencil|Loomis book]]
-- [[research/Drawbox_Community-Drawbox|Taking fundamental drawing exercises]].
-- [[research/Prokopenko-Figure_Drawing_Fundamentals]]
+- [/] [[Loomis-Fun_With_A_Pencil|Loomis book]]
+- [[Drawbox_Community-Drawbox|Taking fundamental drawing exercises]].
+- [[Prokopenko-Figure_Drawing_Fundamentals]]
 
 ## Photography
 
-- [[research/Kilpatrik-Svet_i_osveshhenie]], good book about light and lighting.
+- [[Kilpatrik-Svet_i_osveshhenie]], good book about light and lighting.
 
 ## Software
 

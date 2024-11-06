@@ -26,7 +26,7 @@ Author also doesn't like current situation with publishers, which make money on
 books, seems with bad support of author.
 
 I think this preface is like historical reference, how he wrote this book. Also
-was told which topics was touched ([[research/Pascal]], `NASM`, [[research/C]],
+was told which topics was touched ([[Pascal]], `NASM`, [[C]],
 [[operating_system|OS]], paradigms, etc.) and reworked during writing this book,
 who helped author and other aspects of writing process.
 
@@ -130,7 +130,7 @@ core of C) are creating [[side_effect|side effect]]. <!--SR:!2024-05-27,2,169-->
 > Side effect this is arbitrary change, which occurring only when evaluating
 expression and then can be somehow ==detected==. <!--SR:!2024-10-05,49,227-->
 
-Unlike C, C++ and functional programming languages, in [[research/Pascal]] there mostly
+Unlike C, C++ and functional programming languages, in [[Pascal]] there mostly
 no side effects (questionable).
 
 Why you should not write code like this?
@@ -148,7 +148,7 @@ system is working on subconscious level (closer to hardware) to write really
 **quality programs**. <!--SR:!2024-05-28,3,152-->
 
 Learning C, here are some requirements in understanding pointers and
-recursion, which can help some another language, we choice [[research/Pascal]]:
+recursion, which can help some another language, we choice [[Pascal]]:
 - language fully support pointers
 - you can use language without pointers
 - using pointers you can extend your capabilities (real necessity)

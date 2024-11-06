@@ -4,6 +4,7 @@ date: 2024-11-05
 tags:
   - inbox
   - base
+lang: ru
 sr-due: 2024-04-30
 sr-interval: 96
 sr-ease: 210

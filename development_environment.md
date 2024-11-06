@@ -15,7 +15,7 @@ sr-ease: 252
 - [[Unix]]
 - Windows manager: [[DWM]]
 - Terminal: [[kitty]]
-- Shell: [[ZSH]]
+- Shell: [[Zsh]]
 - Editor: [[Neovim]]
 - Browser:
   - vim keybindings

@@ -1,6 +1,6 @@
 ---
 author: TJ DeVries
-created: 2023-06-05
+date: 2023-06-05
 external:
   - https://www.youtube.com/@teej_dv/videos
 directory: ~/Computer/programming/DeVries-Tutorials/

@@ -22,10 +22,12 @@ dependencies, rich documentation and a good community.
 I use it a lot, and know how to work with it.
 
 ## Fix problems
+
 - [[magic_sysrq_key]]
 
 ## Update packages
-- [[Pacman]]
+
+- Pacman
 
 ## Before start
 - check [hostnames](file:///home/inom/Computer/data/word_list/etc-hosts) and

@@ -294,7 +294,7 @@ Three main parts of system bus:
 ![[img/System_bus.excalidraw]]
 
 Here my notes about how RAM is working:
-[[research/How_does_Computer_Memory_Work]]
+[[How_does_Computer_Memory_Work]]
 
 From schematic perspective each wire can be in 2 positions, logical ==1 or 0==. <!--SR:!2024-08-19,2,162-->
 
@@ -656,7 +656,7 @@ was replaced with X, so this OS was named ==Unix==.
 Ken Thompson and Brian Kernighan started porting this OS to PDP-11, and they
 also had new idea, use high-level programming language for new OS. They
 initially tried to use limited BCPL language, but it has too primitive, and they
-improved it and named [[research/C]] (next letter in alphabet). This work finished in
+improved it and named [[C]] (next letter in alphabet). This work finished in
 1973.
 
 In 1977 Unix was ported to different computer architecture (Interdata 8/32) by

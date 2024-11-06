@@ -137,6 +137,6 @@ You can expect the next occurrence to be created at the due date of the previous
 ## References
 
 [^1]: [Taskwarrior - Kunzelma Wiki](https://wiki.kunzelma.de/taskwarrior/)
-[^2]: [[research/Babej-A_dive_into_taskwarrior_ecosystem]]
+[^2]: [[Babej-A_dive_into_taskwarrior_ecosystem]]
 [^3]: [How to manage recurring tasks in taskwarrior? - Unix & Linux Stack Exchange](https://unix.stackexchange.com/a/636312)
 

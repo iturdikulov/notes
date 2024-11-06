@@ -1215,10 +1215,10 @@ rel=".\{-}"
 - [ ] Commit style
 - [ ] Code style
 - [ ] CLI tools
-- [ ] [[research/Irianto-Learn_Vim]]
-- [ ] [[research/Neil-Modern_Vim]]
-- [ ] [[research/Neil-Practical_Vim]]
-- [ ] [[research/Osipov-Mastering_Vim]]
+- [ ] [[Irianto-Learn_Vim]]
+- [ ] [[Neil-Modern_Vim]]
+- [ ] [[Neil-Practical_Vim]]
+- [ ] [[Osipov-Mastering_Vim]]
 - [ ] coverage test, [andythigpen/nvim-coverage](https://github.com/andythigpen/nvim-coverage)?
 - [ ] generate test, AI-test generate? [jackMort/ChatGPT.nvim](https://github.com/jackMort/ChatGPT.nvim)
 - [ ] [VimGolf - real Vim ninjas count every keystroke!](https://www.vimgolf.com/)

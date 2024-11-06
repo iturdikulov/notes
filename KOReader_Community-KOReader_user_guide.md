@@ -2,7 +2,7 @@
 author: KOReader Community
 tags:
   - inbox
-created: 2023-06-19
+date: 2023-06-19
 sr-due: 2025-06-09
 sr-interval: 501
 sr-ease: 250

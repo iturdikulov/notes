@@ -13,7 +13,7 @@ tags:
 
 Рекомендуемые материалы:
 
-- [WolframAlpha](wolframalpha.com/)
+- [WolframAlpha](https://wolframalpha.com/)
 - [LATEX cheat-sheet](../img/latexcheatsheet.pdf)
 - [Основные законы и формулы по математике и физике](../img/bulgakov_math_formula.pdf)
 - [Microsoft Math Solver](https://mathsolver.microsoft.com/)
