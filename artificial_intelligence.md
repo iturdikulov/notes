@@ -35,7 +35,7 @@ Sort of [[computer_program|program]] which mimics human cognition.
 > - Perception
 > - Social intelligence
 > - General intelligence
-> — <cite>[Artificial intelligence](https://en.wikipedia.org/wiki/Artificial_intelligence)</cite>
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Artificial_intelligence)</cite>
 
 > An extreme goal of AI research is to create computer programs that can learn,
 > solve problems, and think logically. In practice, however, most applications
@@ -44,6 +44,10 @@ Sort of [[computer_program|program]] which mimics human cognition.
 > hand, "perceiving its environment" in any real sense is way beyond present-day
 > computing.\
 > [Simple English Wikipedia](https://simple.wikipedia.org/wiki/Artificial_intelligence)
+
+Generative pre-trained transformers (GPT) are large language models
+([[large_language_model|LLMs]]) that generate text based on the semantic
+relationships between words in sentences.
 
 ## External links
 
