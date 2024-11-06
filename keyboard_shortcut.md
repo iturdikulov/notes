@@ -179,7 +179,7 @@ Basic keybindings:
 
 ## Z shell
 
-I use [[ZSH|Z shell]] as my main interactive command interpreter.
+I use [[Zsh|Z shell]] as my main interactive command interpreter.
 
 Some keybindings from GNU readline are available in Z shell, but I
 usually use Vi-mode in Zsh, and it has its own keybindings.

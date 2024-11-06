@@ -26,6 +26,6 @@ frontend development.
 
 Source of articles and materials:
 
-- [[research/HTML]], note with collection of articles and materials about HTML.
-- [[research/CSS]], about CSS.
-- [[research/JavaScript]], about JavaScript.
+- [[HTML]], note with collection of articles and materials about HTML.
+- [[CSS]], about CSS.
+- [[JavaScript]], about JavaScript.
