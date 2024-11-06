@@ -16,9 +16,4 @@ sr-ease: 272
 > AdGuard DNS servers, and both share a lot of code.\
 > — <cite>[AdGuardHome](https://github.com/AdguardTeam/AdGuardHome)</cite>
 
-## To-do
-
-- TODO: describe my setup
-- TODO: describe configuration
-- TODO: bind IP to my domain
-- TODO: proxy to avoid AdGuard?
+Currently, (2024-11-03), not used anymore.
