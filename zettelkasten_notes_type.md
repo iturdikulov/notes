@@ -84,7 +84,7 @@ Here are some rules:
 to related book/article/other resource. Usually these notes haven't `directory`
 frontmatter variable.
 - Notes are taken specifically on the content. Usually I just use annotating
-viewer (such as [[Xournal++]] and [[Xodo]]) to generate initial notes.
+viewer (such as [[XournalPP|Xournal++]] and [[Xodo]]) to generate initial notes.
 - Be selective, store useful information
 - Rewrite information in your own words and make sure you understand the
 concept, imagine you explain it to someone else.
