@@ -9,21 +9,22 @@ body {
 }
 
 @media only screen and (min-width: 768px) {
-  body {
-    --font-monospace: monospace, "Fira Code", "Source Code Pro";
-    --code-size: 20px;
-  }
   .sr-modal-content{
     max-width: 800px;
     margin: 0 auto;
   }
 }
 
+
+/* Color column ruller */
+body {
+  --code-size: 1em;  /* unify inline code elements size */
+}
 .cm-contentContainer {
   background: linear-gradient(90deg, #0000 calc(100% - 1ch), #31343a 0);
   background-size: 1ch 100%;
   background-repeat: no-repeat;
-  background-position: 79ch 0;
+  background-position: 80ch 0;
 }
 
 /* Popup size */
