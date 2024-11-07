@@ -30,9 +30,9 @@ learn "tools".
 Almost [all notes](https://github.com/iturdikulov/notes) written in [[English]]
 language, which isn't my primary one, so be ready for grammar mistakes.
 
-Use default browser search function (usually aviable with `Ctrl/CMD-F` shortcut
-key) to locate some note by filename in left sidebar, instead space use `_`
-character.
+Use default browser search function (usually available with `Ctrl/CMD-F`
+shortcut key) to locate some note by filename in left sidebar, instead space use
+`_` character.
 
 Use website search functional in left sidebar (or use `Ctrl/CMD-K` shortcut key)
 for full-text search.
