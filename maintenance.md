@@ -57,6 +57,8 @@ tools information in this note.
 - Find broken links in Wiki, find broken symlinks `fd -L -t l`
 - `rg --files-with-matches -U tags\:\\n-|xargs vi`, find incorrect formatting
 tags
+- Verify all `file` and `directory` variables in wiki are correct
+- Verify all projects has associated note or README file
 
 ## Hardware & Monitoring
 
