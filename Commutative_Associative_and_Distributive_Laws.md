@@ -10,95 +10,83 @@ sr-interval: 1
 sr-ease: 227
 ---
 
-TODO: scratch, need to rewrite
-
 # Commutative, Associative and Distributive Laws
 
-[![Video][img1]](javascript:vidDo('H1zsWdHC_V8','video0'))
+The "Commutative Laws" say we can ==swap numbers== over and still get the same
+answer.
 
-## Commutative Laws
+Why "commutative", because the numbers can travel back and forth like a
+commuter.
 
-The "Commutative Laws" say we can **swap numbers** over and still get the same answer ...
+When we add:
 
-... when we **add**:
+```py
+a = 10
+b = 20
+print(a + b == b + a)
+```
 
-a + b **=** b + a
+When we multiply:
 
-### Example:
+```py
+a = 3
+b = 21.42
+print(a * b == b * a)
+```
 
-![Commutative Law Addition][img2]
+When we do percentages:
 
-... or when we **multiply**:
-
-a × b **=** b × a
-
-### Example:
-
-![Commutative Law multiplication][img3]
-
-### Percentages too!
-
-Because a × b **=** b × a it is also true that:
-
-a% of b **=** b% of a
-
-### Example: what is 8% of 50 ?
-
-8% of 50 = 50% of 8
-  = 4
-
-![commute][img4]
-
-Why **"commutative**" ... ?
-
-Because the numbers can travel back and forth like a **commuter**.
-
-Mathopolis:[Q1](javascript:doQ(4591,'4591_4599_4615_4639_4647_4592_4600_4616')) [Q2](javascript:doQ(4599,'4591_4599_4615_4639_4647_4592_4600_4616')) [Q3](javascript:doQ(4615,'4591_4599_4615_4639_4647_4592_4600_4616')) [Q4](javascript:doQ(4639,'4591_4599_4615_4639_4647_4592_4600_4616')) [Q5](javascript:doQ(4647,'4591_4599_4615_4639_4647_4592_4600_4616')) [Q6](javascript:doQ(4592,'4591_4599_4615_4639_4647_4592_4600_4616')) [Q7](javascript:doQ(4600,'4591_4599_4615_4639_4647_4592_4600_4616')) [Q8](javascript:doQ(4616,'4591_4599_4615_4639_4647_4592_4600_4616'))
-
-[![Video][img5]](javascript:vidDo('KBfnkUGeMvI','video1'))
+```py
+# 8% of 50 = 50% of 8 = 4
+percent = lambda part, whole:float(whole) / 100 * float(part)
+a = 8
+b = 50
+print(percent(a, b) == percent(b, a))
+```
 
 ## Associative Laws
 
-The "Associative Laws" say that it doesn't matter how we group the numbers (i.e. which we calculate first) ...
+The "Associative Laws" say that it doesn't matter how we ==group the numbers==
+(i.e. which we calculate first).
 
-... when we **add**:
+When we add:
 
-(a + b) + c **=** a + (b + c)
+```py
+a = 1.1
+b = 2.1
+c = 3.1
+print((a + b) + c == a + (b + c))
+```
 
-![Associative Law addition][img6]
+This: $(2 + 4) + 5  =  6 + 5  = 11$, has the same answer as this: $2 + (4 + 5)
+=  2 + 9  = 11$
 
-... or when we **multiply**:
+When we multiply:
 
-(a × b) × c **=** a × (b × c)
+```py
+a = 3.18
+b = 5
+c = 3.1
+print((a * b) * c == a * (b * c))
+```
 
-### ![Associative Law multiplication][img7]
+This: $(3 × 4) × 5  =  12 × 5  = 60$, has the same answer as this: $3 × (4 × 5)
+=  3 × 20  = 60$
 
-### Examples:
-
-<table style="border: 0; margin:auto;"><tbody><tr><td>This:</td><td nowrap="nowrap"><b>(2 + 4)</b> + 5<b> &nbsp;=&nbsp; 6</b> + 5<b> &nbsp;=&nbsp; 11</b></td></tr><tr><td>Has the same answer as this:</td><td nowrap="nowrap">2 +<b> (4 + 5)</b> &nbsp;=&nbsp; 2 +<b> 9 &nbsp;=&nbsp; 11</b></td></tr></tbody></table>
-
-
-
-<table style="border: 0; margin:auto;"><tbody><tr><td>This:</td><td nowrap="nowrap"><b>(3 × 4)</b> × 5 &nbsp;=&nbsp; <b>12</b> × 5 &nbsp;=&nbsp; <b>60</b></td></tr><tr><td>Has the same answer as this:</td><td nowrap="nowrap">3 ×<b> (4 × 5)</b> &nbsp;=&nbsp; 3 × <b>20</b> &nbsp;=&nbsp; <b>60</b></td></tr></tbody></table>
-
-### Uses:
+## Uses:
 
 Sometimes it is easier to add or multiply in a different order:
 
 ### What is 19 + 36 + 4?
 
-19 + 36 + 4  =  19 + **(36 + 4)**  
-=  19 + **40** = 59
+19 + 36 + 4  =  19 + **(36 + 4)**
+=  19 + **40** = 59
 
 Or to rearrange a little:
 
 ### What is 2 × 16 × 5?
 
-2 × 16 × 5 **=  (2 × 5)** × 16 **=  10** × 16 = 160
-
-Mathopolis:[Q1](javascript:doQ(4603,'4603_4610_4627_4631_4643_4654_4606_4612')) [Q2](javascript:doQ(4610,'4603_4610_4627_4631_4643_4654_4606_4612')) [Q3](javascript:doQ(4627,'4603_4610_4627_4631_4643_4654_4606_4612')) [Q4](javascript:doQ(4631,'4603_4610_4627_4631_4643_4654_4606_4612')) [Q5](javascript:doQ(4643,'4603_4610_4627_4631_4643_4654_4606_4612')) [Q6](javascript:doQ(4654,'4603_4610_4627_4631_4643_4654_4606_4612')) [Q7](javascript:doQ(4606,'4603_4610_4627_4631_4643_4654_4606_4612')) [Q8](javascript:doQ(4612,'4603_4610_4627_4631_4643_4654_4606_4612'))
-
-[![Video][img8]](javascript:vidDo('0v-G6OwcKmU','video2'))
+2 × 16 × 5 **=  (2 × 5)** × 16 **=  10** × 16 = 160
 
 ## Distributive Law
 
@@ -114,12 +102,12 @@ So, the **3×** can be "distributed" across the **2+4**, into **3×2** and **3×
 
 And we write it like this:
 
-a × (b + c)  =  a × b  +  a × c
+a × (b + c)  =  a × b  +  a × c
 
 Try the calculations yourself:
 
-- 3 × (**2 + 4**)  =  3 × **6**  =  18
-- 3×2 + 3×4  =  6 + 12  =  18
+- 3 × (**2 + 4**)  =  3 × **6**  =  18
+- 3×2 + 3×4  =  6 + 12  =  18
 
 Either way gets the same answer.
 
@@ -136,25 +124,25 @@ Sometimes it is easier to break up a difficult multiplication:
 
 ### Example: What is 6 × 204 ?
 
-6 × 204  =  6×200 + 6×4  
-=  1,200 + 24  
-=  1,224
+6 × 204  =  6×200 + 6×4
+=  1,200 + 24
+=  1,224
 
 Or to combine:
 
 ### Example: What is 16 × 6 + 16 × 4?
 
-16 × 6 + 16 × 4  =  16 × **(6+4)** 
-= 16 × **10** 
-=  160
+16 × 6 + 16 × 4  =  16 × **(6+4)**
+= 16 × **10**
+=  160
 
 We can use it in subtraction too:
 
 ### Example: 26×3 - 24×3
 
-26×3 - 24×3 = **(26 - 24)** × 3  
-=  2 × 3  
-=  6
+26×3 - 24×3 = **(26 - 24)** × 3
+=  2 × 3
+=  6
 
 We could use it for a long list of additions, too:
 
@@ -169,7 +157,7 @@ Mathopolis:[Q1](javascript:doQ(5656,'5656_5657_5658_5659_5660_5661_3172')) [Q2](
 
 ## And those are the Laws . . .
 
-##                   . . . but don't go too far!
+##                   . . . but don't go too far!
 
 The Commutative Law does **not** work for subtraction or division:
 
@@ -178,14 +166,14 @@ The Commutative Law does **not** work for subtraction or division:
 - 12 / 3 = **4**, but
 - 3 / 12 = **¼**
 
- The Associative Law does **not** work for subtraction or division:
+ The Associative Law does **not** work for subtraction or division:
 
 ### Example:
 
 - (9 – 4) – 3 = 5 – 3 = **2**, but
 - 9 – (4 – 3) = 9 – 1 = **8**
 
- The Distributive Law does **not** work for division:
+ The Distributive Law does **not** work for division:
 
 ### Example:
 
@@ -203,5 +191,3 @@ The Commutative Law does **not** work for subtraction or division:
 [img5]: https://www.mathsisfun.com/images/style/video.svg
 [img6]: https://www.mathsisfun.com/numbers/images/associative-add.svg
 [img7]: https://www.mathsisfun.com/numbers/images/associative-multiply.svg
-[img8]: https://www.mathsisfun.com/images/style/video.svg
-[img9]: https://www.mathsisfun.com/numbers/images/distributive-law.svg
