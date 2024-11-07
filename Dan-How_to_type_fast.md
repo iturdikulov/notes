@@ -69,7 +69,7 @@ He recommends buying a mechanical keyboard, which I already have, and I like it.
 
 I created fingers relative positions map to help me with this.
 
-![Colemak finger positions](../img/ColemakDH_ANSI_fingers_positions.excalidraw.svg)
+![Colemak finger positions](./img/ColemakDH_ANSI_fingers_positions.excalidraw.svg)
 _Colemak finger positions_
 
 11. "Use a typing trainer to re-enforce the mental model"

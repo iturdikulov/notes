@@ -28,7 +28,7 @@ sr-ease: 216
 > this book, and you’ll learn how to:
 >
 > - Fight software rot
-> - [[../programming_learning_path|learn]] continuously
+> - [[programming_learning_path|learn]] continuously
 > - Avoid the trap of duplicating knowledge
 > - Write flexible, dynamic, and adaptable code
 > - Harness the power of basic tools

@@ -93,7 +93,7 @@ First full mechanical programmable computer?
 &#10;
 1938 Konrad Zuse created Z1, first full mechanical programmable computer
 (electricity used only in motor). Z1 used [[binary_number|binary]] logic.
-![](../img/Z1_replica_German_Museum_of_Technology_Berlin_2017_024.jpg)
+![](./img/Z1_replica_German_Museum_of_Technology_Berlin_2017_024.jpg)
 <!--SR:!2024-02-25,4,162-->
 
 Z2 used same mechanics but used electrical relay circuits for computational
@@ -1147,7 +1147,7 @@ chmod -R u+rwX,go=rX ~  # restore home directory access rights (DON'T try to
 ```
 
 Here good infographic cheatcheet which describing Unix files permissions:
-![](../img/Unix_permissions.webp)
+![](./img/Unix_permissions.webp)
 
 ### 1.2.14. Electronic documentation (man command). Электронная документация (команда man)
 

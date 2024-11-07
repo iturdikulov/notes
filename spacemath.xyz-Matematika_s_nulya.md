@@ -14,8 +14,8 @@ tags:
 Рекомендуемые материалы:
 
 - [WolframAlpha](https://wolframalpha.com/)
-- [LATEX cheat-sheet](../img/latexcheatsheet.pdf)
-- [Основные законы и формулы по математике и физике](../img/bulgakov_math_formula.pdf)
+- [LATEX cheat-sheet](./img/latexcheatsheet.pdf)
+- [Основные законы и формулы по математике и физике](./img/bulgakov_math_formula.pdf)
 - [Microsoft Math Solver](https://mathsolver.microsoft.com/)
 
 $$

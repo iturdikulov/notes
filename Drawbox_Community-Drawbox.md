@@ -111,7 +111,7 @@ techniques).
 Main idea is drawing from shoulder more effective (straight lines) and allow you
 to draw longer sessions than from wrist.
 
-![The pivots of the arm](../img/drawbox_pivots.jpg)
+![The pivots of the arm](./img/drawbox_pivots.jpg)
 
 > Drawing only with your wrist, where your hand moves, but the wrist remains
 > pinned in place. This allows us to have very tight, stiff control, and it's
@@ -133,7 +133,7 @@ allows creating marks from tool edges, better for drawing on canvas, etc. In
 drawbox course we use pen and using tripod grip-type is more suitable than
 "overhand" grip type.
 
-![Drawing hand positions](../img/drawing_hand_positions.jpg)
+![Drawing hand positions](./img/drawing_hand_positions.jpg)
 _Drawing hand positions_
 
 ### Lines: Markmaking
@@ -159,7 +159,7 @@ Exercises:
 - [x] Two filled pages of the
 [Superimposed Lines](https://drawabox.com/lesson/1/superimposedlines) exercise.
 
-![Superimposed Lines](../img/drawbox_lesson_1_superimposed_lines.jpg)
+![Superimposed Lines](./img/drawbox_lesson_1_superimposed_lines.jpg)
 _Superimposed Lines Homework_
 
 Start out with a simple straight line with a ruler and repeat it 8 times.
@@ -225,7 +225,7 @@ these lessons, just a bunch of lines on a flat page.
 
 Fill page with planes with various of sizes, avoid empty space.
 
-> This exercise is especially good for warmups, and I'd generally recommend
+> This exercise is especially good for warm-ups, and I'd generally recommend
 > doing it over the simpler ghosted lines exercise for obvious reasons - it's
 > the same thing, but with more purpose to it. On top of that however, it's a
 > particularly versatile exercise that can be modified to start incorporating

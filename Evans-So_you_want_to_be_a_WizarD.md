@@ -12,12 +12,12 @@ sr-ease: 216
 ---
 # So you want to be a Wizard [^1]
 
-## [[../books/Evans-want_to_be_a_wizard.pdf#page=2|About zhis zine]]
+## [[./books/Evans-want_to_be_a_wizard.pdf#page=2|About zhis zine]]
 
 Tips from Julian, looks like mix of team-work and self-productive tips.
 
 
-## [[../books/Evans-want_to_be_a_wizard.pdf#page=3|Table of Contents]]
+## [[./books/Evans-want_to_be_a_wizard.pdf#page=3|Table of Contents]]
 
 - asking questions is good
 - reading the source code which knows more than you
@@ -26,7 +26,7 @@ Tips from Julian, looks like mix of team-work and self-productive tips.
 - building expertise, how to learn something that takes years to master?
 - strategies for learning, wow I learned SO MUCH
 
-## [[../books/Evans-want_to_be_a_wizard.pdf#page=6|Asking good questions]]
+## [[./books/Evans-want_to_be_a_wizard.pdf#page=6|Asking good questions]]
 
 You are working in team, do I need to ask a question?
 &#10;
@@ -53,7 +53,7 @@ depending on the question.
 - Find a good time, be respectful of other people's time.
 - Ask yes/no questions when possible.
 
-## [[../books/Evans-want_to_be_a_wizard.pdf#page=9|Read the source code]]
+## [[./books/Evans-want_to_be_a_wizard.pdf#page=9|Read the source code]]
 
 What if their no one knows the answer, documentation provide misinformation,
 coworkers are busy, etc.? What to do?
@@ -69,7 +69,7 @@ Strategy to read source code?
 - Read the whole code if possible (less than few thousand lines, use `cloc`)
 - Edit the code 🙊, debug, test, experiment.
 
-## [[../books/Evans-want_to_be_a_wizard.pdf#page=10|♥ Debugging: love your bugs]]
+## [[./books/Evans-want_to_be_a_wizard.pdf#page=10|♥ Debugging: love your bugs]]
 
 I got a bug, is this end of the world, how to deal with it?
 &#10;
@@ -84,7 +84,7 @@ Can I ignore bugs and think this is normal and this is some mystery?
 No, bugs happened by logical reason, there are no mysteries, keep this in the
 mind.
 
-## [[../books/Evans-want_to_be_a_wizard.pdf#page=12|Learning at work]]
+## [[./books/Evans-want_to_be_a_wizard.pdf#page=12|Learning at work]]
 
 Sometimes you need to learn X to do Y, good strategy (practical steps) to do it?
 &#10;
@@ -107,7 +107,7 @@ haven't enough experience) into work?
 If you're learning something don't try to immediately integrate it into your
 work. Need to discuss and take time to understand the new knowledge. <!--SR:!2024-08-30,7,250-->
 
-## [[../books/Evans-want_to_be_a_wizard.pdf#page=13|Learning on my own]]
+## [[./books/Evans-want_to_be_a_wizard.pdf#page=13|Learning on my own]]
 
 Good strategy to learn something new?
 &#10;
@@ -127,7 +127,7 @@ end you just wasted your time?
 current problems and try to avoid this in the future.
 - Sometimes "good enough" is really awesome and this is good starting point.
 
-## [[../books/Evans-want_to_be_a_wizard.pdf#page=15|Scenes from writing desing docs]]
+## [[./books/Evans-want_to_be_a_wizard.pdf#page=15|Scenes from writing desing docs]]
 
 How to write design docs?
 &#10;
@@ -136,7 +136,7 @@ Ask questions and give your work for review
 If someone disagree, figure out a better plan together
 Design always change, this is evolving process. So try to actualize it.
 
-## [[../books/Evans-want_to_be_a_wizard.pdf#page=16|Build expertise]]
+## [[./books/Evans-want_to_be_a_wizard.pdf#page=16|Build expertise]]
 
 How to get better at X, I know a little about it? What you can do?
 &#10;
@@ -158,7 +158,7 @@ what happens if I do X or Y?
 - Learning is marathon not a sprint, find time to it and don't waste it
 
 
-## [[../books/Evans-want_to_be_a_wizard.pdf#page=19|Take on hard projects]]
+## [[./books/Evans-want_to_be_a_wizard.pdf#page=19|Take on hard projects]]
 
 How confidence helps you to learn?
 &#10;

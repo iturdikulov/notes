@@ -204,7 +204,7 @@ top left dropdown (Browse image to be linked).
 
 To apply 2d texture into 3d object you need to?
 &#10;
-![christmas chocolate](../img/Christmas_chocolate_uvmapping.jpg)
+![christmas chocolate](./img/Christmas_chocolate_uvmapping.jpg)
 UV unwrap (UV mapping) your 3d object.
 
 If you use eyedropper in texture paint, usually need to select ==Texture==
@@ -268,7 +268,7 @@ Is here any indication of weight painting mode?
 When weight paint activated, selected object became blue (color), and
 you can start draw on it.
 Here weight color code:
-![Weight color code](../img/sculpt-paint_weight-paint_introduction_color-code.png)
+![Weight color code](./img/sculpt-paint_weight-paint_introduction_color-code.png)
 <!--SR:!2023-12-12,4,270-->
 
 Where Blender store weight paint data (structure name)?
@@ -749,7 +749,7 @@ it's not working well with `Denoiser`. NOTE: this maybe not actual.
 To render Animation press ==`C-F12`==, to play `C-F11`.
 
 You can change output directory for animation in ==`Output`== panel
-(`Output group` → `Output path`) (for example .../frames/001/).
+(`Output group` → `Output path`) (for example `.../frames/001/`).
 
 File format for animation, usually used ==TIFF, PNG and OpenEXR==. Be
 careful to use video formats, if you will have some issues with render you
