@@ -2,7 +2,7 @@
 date: 2024-01-15
 tags:
   - inbox
-  - base
+  - outline
 sr-due: 2023-01-28
 sr-interval: 1
 sr-ease: 161

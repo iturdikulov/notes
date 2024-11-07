@@ -2,7 +2,7 @@
 date: 2024-01-28
 tags:
   - inbox
-  - productivity
+  - outline
 sr-due: 2024-01-29
 sr-interval: 1
 sr-ease: 194

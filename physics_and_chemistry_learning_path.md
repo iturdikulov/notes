@@ -3,6 +3,7 @@ date: 2023-05-18
 tags:
   - inbox
   - physics
+  - outline
 sr-due: 2024-01-28
 sr-interval: 1
 sr-ease: 168
