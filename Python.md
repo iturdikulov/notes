@@ -1776,6 +1776,13 @@ print(my_function.__name__)  # => 'my_function'
 print(my_function.__code__.co_argcount)  # => 2
 ```
 
+## High-level overview
+
+Here is high-level overview of Python language, built-in data structures, data
+management, etc.
+
+![[./img/python_high_level_overview.excalidraw|100%|Python high-level overview]]
+
 ## References
 
 [^1]: [Learn Python in Y Minutes](https://learnxinyminutes.com/docs/python/)
