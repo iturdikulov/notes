@@ -22,7 +22,7 @@ sr-ease: 265
 
 ## A Tour of Go
 
-Some notes which I made during the Go Tour [^1].
+Some notes which I made during the [a Tour of Go](https://go.dev/tour/).
 
 Every Go program is made up of ==packages==.
 
@@ -320,8 +320,3 @@ func main() {
 	fmt.Printf("v is of type %T\n", v)
 }
 ```
-
-## References
-
-[^1]: [A Tour of Go](https://go.dev/tour/)
-
