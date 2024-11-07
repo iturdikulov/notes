@@ -112,7 +112,11 @@ Source code of coreutils can be found at gnu.org website:
 - `printenv` - Prints environment variables
 - `printf` - Formats and prints data
 - `pwd` - Prints the current working directory
-- `readlink` - Displays value of a symbolic link, very useful to copy file path: `readlink -f file.txt`
+- `readlink` - Displays value of a symbolic link, very useful to copy file path
+    - The `realpath` command without options, operates like `readlink` in
+    `canonicalize` mode.
+    - Get the actual file to which symlink points::`readlink path/to/file/`
+    - Get absolute path of file::`readlink -f/--canonicalize path/to/file/`
 - `runcon` - Run command with specified security context
 - `seq` - Prints a sequence of numbers
 - `sleep` - Delays for a specified amount of time
