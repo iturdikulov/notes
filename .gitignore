@@ -5,6 +5,7 @@
 .obsidian/
 !.obsidian/snippets/
 *.out
+_*.txt
 
 # Personal
 external/salesloop
