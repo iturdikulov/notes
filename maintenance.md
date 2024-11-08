@@ -49,6 +49,38 @@ tools information in this note.
 - Maintenance downloads (remove old files, etc...)
 - Maintenance [[my_backup_plan|backups]] (weekly check)
 
+- Flash cards optimization/review
+- Organize files in $HOME
+- Videos and pictures workflow
+- System logs with this command `journalctl -p warning -b`
+- Persistant system logs
+- Backup state: `journalctl -u borgbackup-job-home-inom.service`
+- Failed units: `systemctl list-units --failed && systemctl --user list-units --failed`
+- Passwords
+- SSH/GPG keys
+- Backup with [[my_backup_plan|plan]]
+- My [[calendar]]
+- [[how_do_I_work_with_contacts|My contacts]]
+- Hardware and other specific [[maintenance]] tasks
+
+- docker system prune; docker volume prune (be careful with this, backup
+DB/important, keep running important containers)
+- Sync dotfiles, nvim config and check it
+- Optimize configurations NOT stored in /etc/dotfiles (very few)
+
+- Review search engines
+- Firefox profiles settings (about:config), at least `browser.sessionstore.interval`
+- Review [[dataview_maintenance_queries|dataview]] note.
+- Audio notes (mobile/tablet). Maybe I find some plugin in obsidian, which
+support audio to text conversion or build some workflow.
+- [[how_do_I_sync_my_data|Sync my data]].
+
+## Tips
+
+You can use [[Obsidian#Custom checkbox \(CSS\)|custom checkboxes]] to mark items,
+across your notes.
+
+
 ## Wiki
 
 - [[dataview_maintenance_queries|Dataview maintenance]], maintenance my
