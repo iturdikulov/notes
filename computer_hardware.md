@@ -24,7 +24,7 @@ sr-ease: 245
 
 Great cheap computer hardware:
 
-[Computer Hardware Chart 2.0 by Sonic840](img/Computer_hardware_chart.webp)
+[Computer Hardware Chart 2.0 by Sonic840](img/ref-Computer_hardware_chart.webp)
 [Source](https://www.deviantart.com/sonic840/art/Computer-Hardware-Chart-2-0-587798335)
 
 ## References

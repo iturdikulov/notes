@@ -402,7 +402,7 @@ _[Learn Blender with a poster infographic](https://www.giudansky.com/illustratio
 
 ---
 
-![[./img/CGCookie-blender_hotkeys_4.1.pdf#page=2]]
+![[img/ref-CGCookie-blender_hotkeys_4.1.pdf#page=2]]
 _[Blender Hotkey Cheat Sheet](https://cgcookie.com/downloads/blender-hotkey-cheat-sheet)_
 
 ## Tutorials

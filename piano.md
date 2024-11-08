@@ -24,7 +24,7 @@ sr-ease: 222
 > the symbols and ideograms of classical sheet music across a sextet of staff
 > lines.\
 > — <cite>[Popchart](https://popchart.co/products/a-visual-guide-to-musical-notation)</cite>
-![A Visual Guide to Musical Notation](./img/MusicNotes.webp)
+![A Visual Guide to Musical Notation](img/ref-MusicNotes.webp)
 
 ## References
 

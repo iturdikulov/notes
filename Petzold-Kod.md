@@ -31,5 +31,5 @@ directory: ~/Computer/science/Petzold-Code
 
 Словарь тоже можно представить как своеобразный код.
 
-![[img/International_Morse_Code.svg]]
+![[img/ref-International_Morse_Code.svg]]
 

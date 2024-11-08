@@ -25,4 +25,4 @@ sr-ease: 246
 > complete its mission. Newly updated to include the James Webb Space Telescope
 > and the DART Impactor!.\
 > — <cite>[Popchart](https://popchart.co/products/the-chart-of-cosmic-exploration)</cite>
-![The Chart of Cosmic Exploration](img/Cosmic_Space.webp)
+![The Chart of Cosmic Exploration](img/ref-Cosmic_Space.webp)
