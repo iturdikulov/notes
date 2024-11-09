@@ -12,8 +12,27 @@ tags:
 > data incorporating relations among entities and variables.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/SQL)</cite> <!--SR:!2024-09-26,7,250-->
 
-Query language used to manage data in a **relational** RDBMS. Queries
-==create, read, update, and delete== (CRUD) the data based on specific criteria.
+> [!NOTE]
+> Follow-up information mostly added from Ben Forta's SQL book [^1] and
+quick-SQL-cheatsheet [^2]. In examples, I use [[sqlite]] databases from [w3school
+DB](https://www.w3schools.com/sql/trysql.asp?filename=trysql_select_all) and Ben
+Forta's book.
+
+SQL is a language of structured queries, created to interaction with databases.
+
+SQL is almost universal language, mostly all databases support it (with some
+dialect specific differences for non `ANSI SQL` features).
+
+SQL is relatively simple but powerful language, it's consist of limited set of
+==English keywords==. It's possible to make very complex operations on databases
+with it.
+
+Never use SQL reserved keywords as table or column name.
+
+Query language used to manage data in a **relational** RDBMS ([[database]]).
+
+CRUD term is short name of ==Create, Read, Update, Delete== operations (queries)
+of data, based on specific criteria.
 
 High-level overview of SQL language:
 
@@ -64,8 +83,6 @@ The Transaction Control Language (TCL) is used in conjunction with the Data
 Manipulation Language to control the processing and exposure of changes, in
 other words control the ==transactions==.
 
-## Flashcards for [w3school DB, sqlite3 dialect](https://www.w3schools.com/sql/trysql.asp?filename=trysql_select_all)
-
 How to create the people table with the following fields (sqlite):
 ```sql
 id - Integer
@@ -88,6 +105,10 @@ create table people (
 ```
 <!--SR:!2024-09-26,7,250-->
 
+## The SQL SELECT Statement
+
+`SELECT` is used to extract data from one or multiple tables, usually with
+specific conditions.
 
 Select `CustomerName`, `CategoryName` from customers and categories (no extra
 filtering and join).
@@ -714,4 +735,6 @@ Methods to avoid SQL injection?
 
 - [Интерактивный курс по SQL](https://sql-academy.org/)
 - [smarteist - SQL cheat sheet](https://gist.github.com/smarteist/dc19be1101c0041e5963eba3772c3f67)
-- [enochtangg/quick-SQL-cheatsheet](https://github.com/enochtangg/quick-SQL-cheatsheet)
+
+[^1]: [SQL in 10 Minutes a Day](https://www.amazon.com/gp/product/0135182794/)
+[^2]: [enochtangg/quick-SQL-cheatsheet](https://github.com/enochtangg/quick-SQL-cheatsheet)
