@@ -11,130 +11,108 @@ sr-ease: 226
 
 # My awesome software list
 
-This is a list my daily-used software. Some of them described in more details in
-other notes.
+This is a list my software, aka toolkit. Some of them described in more details
+in separate notes.
 
-Check also [[my_shell_scripts|my scripts]] and
-[[hidden_file_and_hidden_directory_dotfiles|dotfiles]].
+Check also [[my_shell_scripts|my scripts]] and [[dotfiles]].
 
-Also good list of software is cheat.sh pages (`curl cheat.sh/:list`),
-[Awesome-Linux-Software](https://github.com/luong-komorebi/Awesome-Linux-Software),
-[Awesome command-line](https://github.com/alebcay/awesome-shell),
-[awesome-nix](https://github.com/nix-community/awesome-nix).
+## Arts and entertainment
 
-TODO: restructure, instead more_info, use linking to notes! Merge with similar
-notes.
+### [[book|Books]] and [[document|documents]]
 
-## Audio and video
+- [[Calibre]] - e-book management software
+- [[Zathura]] - documents viewer
+- [[XournalPP]] - note-taking software
+- [[KOReader]] - e-book reader
 
-- [[Kdenlive]]
-- [[cmus]] - everydays music player
+Archive:
+
+- [[Tachiyomi]] - manga reader for Android
+- [[Zotero]] - Research Assistant
+- [[Papis]] - CLI bibliography manager
+
+### [[audiovisual|Audiovisual]]
+
+- [[cmus]] - every day using music player
+- [[Kdenlive]] - video editing program
 - [Audacity](https://www.audacityteam.org/) - multi-track audio editor
 - MusicBrainz Picard - music tagger
 - Reaper - digital audio workstation
+- flacon - audio file encoder
 
-## Chat Clients
+<!-- NEED review -->
 
-- [slack-desktop](https://slack.com/) - Slack Desktop for Linux
-- [discord](https://discord.com/) - Discord Instant Messenger
-- [Telegram Desktop](https://desktop.telegram.org/) - Telegram Desktop
-- [bitlbee](https://www.bitlbee.org/) - IRC to other chat networks gateway, [[bitlbee|more_info]]
+- [ffmpeg](https://ffmpeg.org/) - a complete, cross-platform solution to record,
+  convert and stream audio and video, [[ffmpeg|more_info]]
+- [strawberry](https://www.strawberrymusicplayer.org/) - cross-platform music
+  player and music collection organizer
+- [imv](https://sr.ht/~exec64/imv/) - command line image viewer intended for use
+  with tiling window managers. Support SVG!
+- [mpv](https://mpv.io/) - a free, open source, and cross-platform media player,
+  [[mpv|more_info]]
+- [wtwitch](https://github.com/krathalan/wtwitch) - a terminal program for
+  Twitch, check also [wtwitch-check](file://$HOME/.local/bin/wtwitch-check)
+- [yt-dlp](https://github.com/yt-dlp/yt-dlp), download videos from YouTube or
+  other video platforms
+- [ytfzf](https://github.com/pystardust/ytfzf) - POSIX script that helps you
+  find and download YouTube videos
 
-## Data Backup and Recovery
+### [[news|News]]
 
-## Desktop
+- [[Miniflux]] - RSS reader, web application
+- [[Newsboat]] - CLI RSS reader, console application
 
-- [i3](https://i3wm.org/) tiling window manager, used a lot, but now I use DWM.
+### Internet
 
-## Development
-
-- [[Neovim]] - main PDE environment
-- [[Pycharm]] - IDE for Python
-
-## Books
-
-- [[Calibre]] - e-book management software.
-
-
-## Education
-
-## Email
-
-## File Manager
-
-## Games
-
-## Gaming Applications
-
-## Machine Emulators & Circuit Design
-
-- [QEMU](https://www.qemu.org/) - virtualization/emulation
-- [quickemu](https://github.com/quickemu-project/quickemu) - Quickly create and
-  run optimized virtual machines (use QEMU)
-- [wine](https://www.winehq.org/) - compatibility layer capable of running
-  Windows applications
-
-- Qucs-s - circuit simulator with graphical user interface
-- Fritzing - is an electronics design and prototyping platform for makers,
-  hobbyists, and educators.
-
-## Graphics
-
-- Adobe Photoshop - raster graphics editor
-- [[Unreal_Engine|Unreal Engine]] - open-source 3D game engine
-- [[inkscape]] - open-source vector graphics editor,
-- [[darktable]] - photography workflow application and raw developer
-- [[Godot]] - free and open source 2D and 3D game engine
-- [[Blender]] - open-source 3D computer graphics software tool set
-- [[Krita]] - open-source painting program
-- [[natron]] - open source compositing software
-
-- [SolveSpace](https://solvespace.com/index.pl) - 3D parametric/interactive CAD
-- [Nomad Sculpt](https://nomadsculpt.com/), 3D sculpting software,
-  [[nomad_sculpt|more_info]]
-
-- [maim](https://github.com/naelstrof/maim) - take screenshots of your desktop
-- [imagemagic](https://imagemagick.org/index.php) - create, edit, compose, or
-  convert digital images
-
-## Internet
-
+- [Slack IM](https://slack.com/)
+- [Telegram IM](https://desktop.telegram.org/)
+- [[bitlbee|Bitlbee Gateway]]
+- Thunderbird - Email client
 - [Firefox](https://www.mozilla.org/en-US/firefox/new/) - web browser,
   [[Firefox|more_info]]
-- Thunderbird - Email client
 - [Brave](https://brave.com/) - modern, fast and private browser, based on
   Chromium, [[Brave]]
 - [NeoMutt](https://neomutt.org/) - message user agent (MUA),
   [[neomutt|more_info]], not use anymore
 - [[Surfingkeys]] - keyboard-based navigation in web browser
 - [lynx](https://lynx.invisible-island.net/) - text-based web browser
-- [[Miniflux]] - RSS reader, web application, not use anymore
-- [[Newsboat]] - CLI RSS reader, console application
+- [AdGuardHome](https://github.com/AdguardTeam/AdGuardHome) - network-wide
+  software for blocking ads & tracking, [[AdGuardHome|more_info]]
 
-## Office
-## Productivity
-## Proxy & VPN
-## Security
-## Sharing Files
-## Terminal
-## Text Editors
-## Utilities
-## Video
+## Computer Graphics
 
-## Wiki Software
+- [[Inkscape]] - open-source vector graphics editor,
+- [[darktable]] - photography workflow application and raw developer
+- [[Krita]] - open-source painting program
 
-- [[Telekasten]] - personal [[Zettelkasten]]
-- [[Obsidian]] - a knowledge base that works on local Markdown files. Used
-  mostly to render markdown notes and to organize [[Spaced_repetition|spaced
-  repetition]] system.
+- [[Godot]] - free and open source 2D and 3D game engine
+- [[Blender]] - open-source 3D computer graphics software tool set
+- [[Natron]] - open source compositing software
+- [SolveSpace](https://solvespace.com/index.pl) - 3D parametric/interactive CAD
+  [[nomad_sculpt|more_info]]
 
-## Others
+- [maim](https://github.com/naelstrof/maim) - take screenshots of your desktop
+- [imagemagic](https://imagemagick.org/index.php) - create, edit, compose, or
+  convert digital images
 
+- [GIMP](https://www.gimp.org/) - GNU Image Manipulation Program, fine but krita
+  good enough for me
 
-- [[Taskwarrior]] - command-line to-do list manager
+- [ ] [Как реализовать свою идею, sketchup? - YouTube](https://youtube.com/shorts/bg0dt8ydAGo?si=sTbYLDkv23L8IksN)
 
+## Computer Hardware
 
-## Programming
+- Qucs-s - circuit simulator with graphical user interface
+- Fritzing - is an electronics design and prototyping platform for makers,
+  hobbyists, and educators.
+- [KiCad](https://kicad.org/) - Electronic Design Automation suite
+- [Arduino](https://www.arduino.cc/) - open-source electronics platform based on
+  easy-to-use hardware and software
+
+## Computer Programming
+
+- [[Neovim]] - main [[PDE]] environment
+- [[Pycharm]] - IDE for Python
 
 - [[GNU_Compiler_Collection_GCC|GCC]] - GNU Compiler Collection
 - [[GNU_Debugger]] - GNU Project debugger
@@ -154,6 +132,7 @@ notes.
   switch between several programs in one terminal
 - [[Zsh]] - Unix shell that can be used as an interactive login shell and
 as a command interpreter for shell scripting
+- [Bash](https://www.gnu.org/software/bash/) - Unix shell and command language
 - [[fzf]] - general-purpose command-line fuzzy finder
 - [[7z]] - 7z is a high compression file archiver
 
@@ -182,16 +161,10 @@ as a command interpreter for shell scripting
   terminal file manager, [[nnn|more_info]]
 - [[leetcode-cli]] - command line tool to solve [[LeetCode]] problems from
   terminal
-
-
-## Utilities
-
 - [[sdcv]] - console version of StarDict dictionary
 - [[termdown]] - Countdown timer and stopwatch in your terminal
 - [kitty](https://sw.kovidgoyal.net/kitty/) - The fast, feature-rich, GPU based
   terminal emulator
-- [wmctrl](https://sites.google.com/site/tstyblo/wmctrl) - command line tool to
-  interact with an EWMH/NetWM compatible X Window Manager
 - [aria2c](https://aria2.github.io/) - download utility (optimized for files)
 - [barrier](https://github.com/debauchee/barrier) - Open-source KVM software
 - [gio](https://wiki.gnome.org/Projects/GIO) - GIO is a library providing core
@@ -225,98 +198,6 @@ as a command interpreter for shell scripting
 - `ldd` - print shared library dependencies, useful for debugging and find
   required libraries
 
-## Multimedia
-
-- [zathrua](https://pwmt.org/projects/zathura/) - Document viewer,
-  [[Zathura|more_info]]
-- [zared](https://github.com/paoloap/zaread) - E-Book and Office document reader
-- [ffmpeg](https://ffmpeg.org/) - a complete, cross-platform solution to record,
-  convert and stream audio and video, [[ffmpeg|more_info]]
-- [strawberry](https://www.strawberrymusicplayer.org/) - cross-platform music
-  player and music collection organizer
-- [imv](https://sr.ht/~exec64/imv/) - command line image viewer intended for use
-  with tiling window managers. Support SVG!
-- [mpv](https://mpv.io/) - a free, open source, and cross-platform media player,
-  [[mpv|more_info]]
-- [wtwitch](https://github.com/krathalan/wtwitch) - a terminal program for
-  Twitch, check also [wtwitch-check](file://$HOME/.local/bin/wtwitch-check)
-- [yt-dlp](https://github.com/yt-dlp/yt-dlp), download videos from YouTube or
-  other video platforms
-- [ytfzf](https://github.com/pystardust/ytfzf) - POSIX script that helps you
-  find and download YouTube videos
-- [RetroArch](https://www.retroarch.com/) - frontend for emulators, game engines
-  and media players, [[Retroarch|more_info]]
-
-## Services
-
-- [cht.sh](https://cht.sh/:help) community driven documentation repositories,
-  integration [cht.sh](file://$HOME/.local/bin/cht.sh)
-- [caniuse](https://caniuse.com/) support tables for HTML5, CSS3, etc.
-- [crontab guru](https://crontab.guru/) - the quick and simple editor for
-  crontab schedule expressions
-- [healthchecks](https://healthchecks.io/) - cron job monitoring
-- [AdGuardHome](https://github.com/AdguardTeam/AdGuardHome) - network-wide
-  software for blocking ads & tracking, [[AdGuardHome|more_info]]
-
-## Security
-
-- [ledger](https://www.ledger-cli.org/) - Command-Line Accounting,
-  [[Ledger|more_info]]
-- [pass](https://www.passwordstore.org/) - the standard Unix password manager,
-  [[pass|more_info]]
-- [GPG](https://gnupg.org/) - encrypt and sign your data and communications,
-  [[GNU_Privacy_Guard_GPG|more_info]]
-- [firejail](https://firejail.wordpress.com) - SUID sandbox program that reduces
-  the risk of security breaches
-
-## Data transferring
-
-- [curl](https://curl.se/) - command line tool and library for transferring data
-  with URLs
-- [qbittorent-nox](https://www.qbittorrent.org/) - command line BitTorrent
-  client written in C++ / Qt
-- [rclone](https://rclone.org/) - command-line program to manage files on cloud
-  storage
-- [rsync](https://rsync.samba.org/) - fast and extraordinarily versatile file
-  copying tool
-- [syncthing](https://syncthing.net/) - is a continuous file synchronization
-  program, [[Syncthing|more_info]]
-- [wireguard](https://www.wireguard.com/) - simple yet fast and modern VPN
-- [wireshark](https://www.wireshark.org/) - network protocol analyzer
-- [nmap](https://nmap.org/) - network scanner
-
-## Documents, books and documentation
-
-- [howdoi](https://github.com/gleitz/howdoi) - Instant coding answers via the
-  command line
-- [surfraw](https://gitlab.com/surfraw/Surfraw/) - Shell Users\' Revolutionary
-  Front Rage Against the Web
-- [TeX Live packages](https://tug.org/texlive/) typesetting system
-  [[LaTex|more_info]]
-- [ghostscript](https://www.ghostscript.com/) - An interpreter for the
-  PostScript language
-- [pandoc](https://pandoc.org/) - Swiss-army knife to convert markup format
-  files, [[Pandoc|more_info]]
-- [translate-shell](https://www.soimort.org/translate-shell/) - command line
-  translator
-- [abiword](https://www.abisource.com/) - Fully-featured word processor
-- [libreoffice](https://www.libreoffice.org/) - office productivity software
-  suite
-
-## Core
-
-- [linux](https://kernel.org/) - monolithic, modular, multitasking, Unix-like
-  operating system kernel, [[GNU_Linux|more_info]]
-- [btrfs](https://btrfs.wiki.kernel.org/index.php/Main_Page) - modern copy on
-  write (CoW) filesystem for Linux
-- [nfs-utils](http://nfs.sourceforge.net/) - Support programs for Network File
-  Systems
-
-## Emu
-
-
-## Utilities
-
 - [[Piper]] - a fast and local text to speech system
 - [pavucontrol](https://freedesktop.org/software/pulseaudio/pavucontrol/) -
   PulseAudio Volume Control
@@ -334,8 +215,38 @@ as a command interpreter for shell scripting
   automation tool
 - [ncdu](https://dev.yorhel.nl/ncdu) - disk usage analyzer with a ncurses
   interface
+- [[patch]]
+- [[file]]
+- [scrcpy](https://github.com/Genymobile/scrcpy)
 
-## UI
+- cloc
+- `ipcalc` - simple IP network calculator
+- `faketime` - manipulate the system time for a given command
+- detox normalize filenames
+
+## IRL
+
+- [[Taskwarrior]] - command-line to-do list manager
+- [ledger](https://www.ledger-cli.org/) - Command-Line Accounting, [[Ledger|more_info]]
+
+## OS
+
+- [linux](https://kernel.org/) - monolithic, modular, multitasking, Unix-like
+  operating system kernel, [[GNU_Linux|more_info]]
+- [btrfs](https://btrfs.wiki.kernel.org/index.php/Main_Page) - modern copy on
+  write (CoW) filesystem for Linux
+- [nfs-utils](http://nfs.sourceforge.net/) - Support programs for Network File
+  Systems
+
+- [[Hyprland]]
+- [[DWM|dwm]]
+- [QEMU](https://www.qemu.org/) - virtualization/emulation
+- [quickemu](https://github.com/quickemu-project/quickemu) - Quickly create and
+  run optimized virtual machines (use QEMU)
+- [wine](https://www.winehq.org/) - compatibility layer capable of running
+  Windows applications
+- [wmctrl](https://sites.google.com/site/tstyblo/wmctrl) - command line tool to
+  interact with an EWMH/NetWM compatible X Window Manager
 
 - [[Rofi]] - window switcher, application launcher and dmenu replacement
 - [slock](https://tools.suckless.org/slock/) - simple X display locker
@@ -358,27 +269,82 @@ as a command interpreter for shell scripting
   be integrated with /dmenu (most stable which I found)
 - [ocornut/imgui: Bloat-free Graphical User interface for C++ with minimal dependencies](https://github.com/ocornut/imgui)
 
+- [ ] dmidecode
+- [ ] lshw
+- [ ] geekbench
+
+## Reference
+
+- [[Telekasten]] - personal [[Zettelkasten]]
+- [[Obsidian]] - a knowledge base that works on local Markdown files. Used
+  mostly to render markdown notes and to organize [[Spaced_repetition|spaced
+  repetition]] system.
+
+
+
 ## Games
 
+- [RetroArch](https://www.retroarch.com/) - frontend for emulators, game engines
+  and media players, [[Retroarch|more_info]]
 - [steam](https://store.steampowered.com/) - Steam is a digital distribution
   platform (game store)
 - [lutris](https://lutris.net/) - game manager for Linux-based operating systems
 - [epic games](https://store.epicgames.com/en-US/) - Epic Games Store is a
   digital video game storefront for PC and Mac (game store)
 
-## Archive
-
-
-  [[DWM|dwm]]
-- [GIMP](https://www.gimp.org/) - GNU Image Manipulation Program, fine but krita
-  good enough for me
 - [Anki](https://apps.ankiweb.net/) - [[spaced_repetition|spaced_repetition]]
   flashcards
 - [Emacs](https://www.gnu.org/software/emacs/) - lisp-based text editor
-- [Bash](https://www.gnu.org/software/bash/) - Unix shell and command language
 - [Klavaro](https://klavaro.sourceforge.io/en/index.html) - Touch Typing Tutor
 - [Alacritty](https://alacritty.org/) - A cross-platform, GPU-accelerated
   terminal emulator
+
+
+## To-do
+
+- [cht.sh](https://cht.sh/:help) community driven documentation repositories,
+  integration [cht.sh](file://$HOME/.local/bin/cht.sh)
+- [caniuse](https://caniuse.com/) support tables for HTML5, CSS3, etc.
+
+- [crontab guru](https://crontab.guru/) - the quick and simple editor for
+  crontab schedule expressions
+- [healthchecks](https://healthchecks.io/) - cron job monitoring
+
+- [pass](https://www.passwordstore.org/) - the standard Unix password manager,
+  [[pass|more_info]]
+- [GPG](https://gnupg.org/) - encrypt and sign your data and communications,
+  [[GNU_Privacy_Guard_GPG|more_info]]
+- [firejail](https://firejail.wordpress.com) - SUID sandbox program that reduces
+  the risk of security breaches
+
+- [curl](https://curl.se/) - command line tool and library for transferring data
+  with URLs
+- [qbittorent-nox](https://www.qbittorrent.org/) - command line BitTorrent
+  client written in C++ / Qt
+- [rclone](https://rclone.org/) - command-line program to manage files on cloud
+  storage
+- [rsync](https://rsync.samba.org/) - fast and extraordinarily versatile file
+  copying tool
+- [syncthing](https://syncthing.net/) - is a continuous file synchronization
+  program, [[Syncthing|more_info]]
+- [wireguard](https://www.wireguard.com/) - simple yet fast and modern VPN
+- [wireshark](https://www.wireshark.org/) - network protocol analyzer
+- [nmap](https://nmap.org/) - network scanner
+- [howdoi](https://github.com/gleitz/howdoi) - Instant coding answers via the
+  command line
+- [surfraw](https://gitlab.com/surfraw/Surfraw/) - Shell Users\' Revolutionary
+  Front Rage Against the Web
+- [TeX Live packages](https://tug.org/texlive/) typesetting system
+  [[LaTex|more_info]]
+- [ghostscript](https://www.ghostscript.com/) - An interpreter for the
+  PostScript language
+- [pandoc](https://pandoc.org/) - Swiss-army knife to convert markup format
+  files, [[Pandoc|more_info]]
+- [translate-shell](https://www.soimort.org/translate-shell/) - command line
+  translator
+- [abiword](https://www.abisource.com/) - Fully-featured word processor
+- [libreoffice](https://www.libreoffice.org/) - office productivity software
+  suite
 
 ## Databases
 
@@ -387,53 +353,19 @@ as a command interpreter for shell scripting
 - [PostgreSQL](https://www.postgresql.org/) - object-relational database
   management system, [[PostgreSQL|more_info]]
 
-## EDA
-
-- [KiCad](https://kicad.org/) - Electronic Design Automation suite
-- [Arduino](https://www.arduino.cc/) - open-source electronics platform based on
-  easy-to-use hardware and software
-
-## CLI
-
-- [[patch]]
-- [[file]]
-- [scrcpy](https://github.com/Genymobile/scrcpy)
-
 ## Android
 
-TODO: actualize this list
-
 - [[termux]]
-- [[Tachiyomi]]
-- [[KOReader]], manual - [[KOReader_Community-KOReader_user_guide]].
-
-## Archive
-
-- [[Papis]]
-- [[Zotero]]
 - [MiniGlome/Archive.org-Downloader: Python3 script to download archive.org books in PDF format](https://github.com/MiniGlome/Archive.org-Downloader)
 
-## To-do
-
-- [ ] cloc
-- [ ] flacon
-- [ ] dmidecode
-- [ ] lshw
-- [ ] geekbench
-- [ ] `ipcalc` - simple IP network calculator
-- [ ] `faketime` - manipulate the system time for a given command
 - [ ] `antimicro` - bind keyboard and mouse actions to your gamepad or joystick
   [antimicrox-profiles/applications](https://github.com/AntiMicroX/antimicrox-profiles/tree/master/applications)
 - [ ] REVIEW this list, add ncspot, termdown, etc (check nixos modules)
 - [ ] libation - audible library download
-- [ ] detox normalize filenames
 
-- [ ] [Как реализовать свою идею, sketchup? - YouTube](https://youtube.com/shorts/bg0dt8ydAGo?si=sTbYLDkv23L8IksN)
 - [ ] [Programs and Equipment I Use | Luke's Webpage](https://lukesmith.xyz/programs/)
-- [ ] [List of applications - ArchWiki](https://wiki.archlinux.org/title/list_of_applications)
 - [ ] [erikw/vim-keybindings-everywhere-the-ultimate-list](https://github.com/erikw/vim-keybindings-everywhere-the-ultimate-list)
 - [ ] [ibraheemdev/modern-unix: A collection of modern/faster/saner alternatives to common unix commands.](https://github.com/ibraheemdev/modern-unix)
-- [ ] [luong-komorebi/Awesome-Linux-Software: 🐧 A list of awesome Linux softwares](https://github.com/luong-komorebi/Awesome-Linux-Software)
 - [ ] [rothgar/awesome-tuis: List of projects that provide terminal user interfaces](https://github.com/rothgar/awesome-tuis)
 - [ ] [Big Pile of Vim-like](https://vim.reversed.top/)
 - [ ] [terminal.sexy - Terminal Color Scheme Designer](https://terminal.sexy/)
@@ -449,3 +381,11 @@ TODO: actualize this list
 - [ ] [GitHub - NeoApplications/Neo-Backup: backup manager for android](https://github.com/NeoApplications/Neo-Backup)
 - [ ] [borgmatic](https://torsion.org/borgmatic/)
 - [ ] [Libation: Liberate your Library](https://github.com/rmcrackan/Libation)
+
+## External links
+
+- cheat.sh pages (`curl cheat.sh/:list`),
+- [List of applications - ArchWiki](https://wiki.archlinux.org/title/list_of_applications)
+- [Awesome-Linux-Software](https://github.com/luong-komorebi/Awesome-Linux-Software),
+- [Awesome command-line](https://github.com/alebcay/awesome-shell),
+- [Awesome-nix](https://github.com/nix-community/awesome-nix).
