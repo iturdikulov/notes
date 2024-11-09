@@ -2,60 +2,74 @@
 date: 2022-12-29
 tags:
   - inbox
+external: https://www.bitlbee.org
 sr-due: 2024-01-30
 sr-interval: 4
 sr-ease: 272
 ---
 # Bitlbee
 
-If you understand all of this and still wish to use it, see HowtoPurple and add
-the account like this in &bitlbee:
+> BitlBee brings [[IM]] (instant messaging) to IRC clients. It's a great
+> solution for people who have an IRC client running all the time and don't want
+> to run an additional XMPP/Facebook/discord/whatever client.\
+> — <cite>https://www.bitlbee.org/</cite>
+
+Install the program and connect to the BitlBee server with your favorite
+[[IRC]]-client. You will be force-joined into the control channel where root (the
+bot, your assistant, the bee) will try to help you to get the program working.
+
+Adding new account:
 
 `account add irc nickname@irc.example.net`
 
-# Joining channels
-
-Do this in &bitlbee:
+Joining channels:
 
 `chat add irc #channel` Then `/join #channel`
 
-# Sending private messages to users who are not in a channel
-
-Do this in &bitlbee:
+Sending private messages to users who are not in a channel:
 
 `add irc nickname` Then `/query nickname`
 
-# Plugins
+## Using Plugins
 
-Plugin adds \'xxxx\' protocol to bitlbee, add your account as usual:
-`account add xxxx <email> <password>` `account xxx on`
+Plugin adds custom protocol support to bitlbee, you can add account as usual:
+```
+account add plugin_name <email> <password>
+account xxx on
+```
 
-List & add, !1 here is channel list generated from `chat list xxxx`
+List & add:
 
-```example
+```
 chat list xxxx
 ```
 
-Add chat with one of this commands:
+Add chat with one of these commands, `!1` here is channel id generated from
+`chat list xxxx`
 
-```example
-chat add xxxx !1 #mydchannel
+```
+chat add plugin_name !1 #mydchannel
 chat add <channel-name from list>
 ```
 
 Configure channel and join
 
-```example
+```
 chan #mydchannel set auto_join true
 save
 /join #mychannel
 ```
 
-# Auto join example
+## Auto join example
 
-    chan #python set auto_join true
-    chan ##programming set auto_join true
-    chan #c set auto_join true
-    chan #linux set auto_join true
-    chan #archlinux set auto_join true
-    chan #emacs set auto_join true
+You can set auto join for all channels you want to join automatically.
+
+```
+chan #python set auto_join true
+chan ##programming set auto_join true
+chan #c set auto_join true
+chan #linux set auto_join true
+chan #archlinux set auto_join true
+chan #emacs set auto_join true
+save
+```
