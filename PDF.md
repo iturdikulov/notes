@@ -20,7 +20,7 @@ My E-library is consisting mostly of PDF files. This format not "flexible",
 unlike epub for example, so usually it's looking good on large screens, on phone
 there some zooming issues.
 
-Some [[vector_graphics|vector]] ([[inkscape]], Adobe Illustrator) and
+Some [[vector_graphics|vector]] ([[Inkscape]], Adobe Illustrator) and
 [[raster_graphics_editor|raster]] graphics editors (GIMP) can export to PDF,
 it's useful as intermediate format especially for vector graphics.
 

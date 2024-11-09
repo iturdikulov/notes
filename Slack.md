@@ -9,13 +9,13 @@ sr-ease: 273
 ---
 # Slack
 
-> Slack is an [[instant_messaging]] program designed by
-> [Slack Technologies](https://slack.com/) and owned by Salesforce. Although
+> Slack is an [[IM]] program designed by [Slack
+> Technologies](https://slack.com/) and owned by Salesforce. Although
 > Slack was developed for professional and organizational communications, it has
 > also been adopted as a community platform. Users can communicate with **voice
 > calls**, **video calls**, text messaging, media, and files in private chats or
 > as part of communities called "workspaces." Slack also uses
-> [[Internet_Relay_Chat-IRC|IRC-style]] features such as persistent chat rooms
+> [[IRC|IRC-style]] features such as persistent chat rooms
 > (channels) organized by topic, private groups, and direct messaging. In
 > addition to these online communication features, Slack can integrate with
 > other software.\

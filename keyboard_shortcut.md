@@ -256,7 +256,7 @@ I use [[Krita]] as my board and drawing tool.
 
 ## Inkscape
 
-[[inkscape]] is a vector graphics editor. I use it rarely, but it's very
+[[Inkscape]] is a vector graphics editor. I use it rarely, but it's very
 powerful, and I'm planning to learn it more.
 
 - Select and transform objects::`S`

@@ -28,8 +28,8 @@ sr-ease: 248
 > Transport Layer Security (TLS) is a [[cryptography|cryptographic]] protocol
 > designed to provide communications security over a computer network. The
 > protocol is widely used in applications such as [[email]],
-> [[instant_messaging|instant messaging]], and voice over IP, but its use in
-> securing HTTPS remains the most publicly visible.
+> [[IM|instant messaging]], and voice over IP, but its use in securing HTTPS
+> remains the most publicly visible.
 >
 > The TLS protocol aims primarily to provide security, including privacy
 > (confidentiality), integrity, and authenticity through the use of

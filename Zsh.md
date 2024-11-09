@@ -328,8 +328,8 @@ Use `ESC` or `CTRL-[` to enter `Normal mode`.
 
 ## Check also
 
-[[hidden_file_and_hidden_directory_dotfiles|Dotfiles]] are usually source of
-interesting Bash snippets and scripts.
+[[dotfiles|Dotfiles]] are usually source of interesting Bash snippets and
+scripts.
 
 [[GNU_Readline|Readline]] for additional keybindings.
 

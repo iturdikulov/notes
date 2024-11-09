@@ -13,7 +13,7 @@ sr-ease: 268
 > visual images are created directly from geometric shapes defined on a
 > Cartesian plane, such as points, lines, curves and [[polygon|polygons]]. The
 > associated mechanisms may include vector display and printing hardware, vector
-> data models and file formats, as well as the [[inkscape|software ]] based on
+> data models and file formats, as well as the [[Inkscape|software]] based on
 > these data models (especially graphic design software, computer-aided design,
 > and geographic information systems). Vector graphics is an alternative to
 > raster or bitmap graphics, with each having advantages and disadvantages in

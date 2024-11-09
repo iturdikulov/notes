@@ -63,7 +63,7 @@ this engine, and it can be even used as [[art]] tool.
 ## Raster and vector graphics
 
 - [Logos By Nick Academy](https://logosbynick.teachable.com/courses), 2D graphics tutorials
-- [[inkscape#Learning]]
+- [[Inkscape#Learning]]
 - [[Krita#Learning]]
 - [[GIMP#Learning]]
 

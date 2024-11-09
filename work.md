@@ -66,8 +66,7 @@ Inbox, Tasks (TODO and NEXT), Daily and Weekly notes with [[Taskwarrior]].
 To follow external timelines I sometimes use [[calendar|calendar]] events,
 but it's secondary task planner.
 
-To connect with colleagues I use [[instant_messaging|IM]] and
-[[email|email]] clients.
+To connect with colleagues I use [[IM]] and [[email]] clients.
 
 In my work significantly help my [[development_environment]], [[backup]]
 plan and daily [[maintenance]], with attention to [[computer_security]]
