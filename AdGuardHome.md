@@ -2,6 +2,8 @@
 date: 2023-06-18
 tags:
   - inbox
+external:
+  - https://github.com/AdguardTeam/AdGuardHome
 sr-due: 2024-01-30
 sr-interval: 4
 sr-ease: 272

@@ -2,6 +2,8 @@
 date: 2024-01-17
 tags:
   - inbox
+external:
+  - https://www.gimp.org/
 sr-due: 2024-02-05
 sr-interval: 9
 sr-ease: 266

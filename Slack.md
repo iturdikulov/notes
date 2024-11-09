@@ -3,6 +3,8 @@ date: 2023-06-04
 tags:
   - inbox
   - productivity
+external:
+  - https://slack.com/
 sr-due: 2024-01-30
 sr-interval: 4
 sr-ease: 273

@@ -3,6 +3,8 @@ date: 2023-03-05
 tags:
   - inbox
   - productivity
+external:
+  - https://www.mozilla.org/en-US/firefox
 sr-due: 2024-01-29
 sr-interval: 4
 sr-ease: 270

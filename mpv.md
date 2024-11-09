@@ -3,6 +3,8 @@ date: 2022-12-29
 tags:
   - productivity
   - inbox
+external:
+  - https://mpv.io/
 sr-due: 2026-02-26
 sr-interval: 763
 sr-ease: 333

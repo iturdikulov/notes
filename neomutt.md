@@ -3,6 +3,8 @@ date: 2023-04-19
 tags:
   - inbox
   - archive
+external:
+  - https://neomutt.org/
 sr-due: 2024-01-30
 sr-interval: 4
 sr-ease: 272

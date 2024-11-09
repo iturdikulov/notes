@@ -2,6 +2,8 @@
 date: 2024-11-03 00:12
 tags:
   - inbox
+external:
+  - https://www.thunderbird.net/
 ---
 # Mozilla Thunderbird
 
