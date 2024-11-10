@@ -71,7 +71,7 @@ Looking up a value in a hash table has an efficiency of (big O)
 _A small phone book as a hash table_
 
 Which other names of hash table you knowing?
-&#10;
+&#10;<br>
 Hash maps, dictionaries and associative arrays.
 
 Trying to add data to a cell that is already filled (when used different keys,
@@ -91,7 +91,7 @@ index | value
 2     | None
 3     | None
 ```
-&#10;
+&#10;<br>
 ```
 index    | value
 ---------|------
@@ -107,7 +107,7 @@ Let's assume we want to get value by key `ni`:
 - we found index at second `subbarray[0]` and value is `subbarray[1] = zomon`
 
 Hash table’s efficiency depends on three factors:
-&#10;
+&#10;<br>
 - How much data we’re storing in the hash table → increase collisions
 - How many cells are available in the hash table → increase collisions
 - Which hash function we’re using
@@ -120,7 +120,7 @@ $(\alpha )={\frac {n}{m}},$ where $n$ is the number of entries occupied in the
 hash table. $m$ is the number of buckets (slots aviable).
 
 When hash table is useful (some real-world scenarios)?
-&#10;
+&#10;<br>
 - Attribute-value pairs storing, dictionary, item_name/price pairs, dictionary
 app, phone book, anything with $\mathcal{O}(1)$ operations speed.
 - Optimizing conditional logic, which can be represented as key/value pairs
@@ -128,7 +128,7 @@ app, phone book, anything with $\mathcal{O}(1)$ operations speed.
 hash tables from $\mathcal{O}(n^2)$ to $\mathcal{O}(n)$.
 
 Which analogy of hash table you can apply to a book?
-&#10;
+&#10;<br>
 Book has TOC (we can say index) and in fact it's already hash table, we are able
 to jump to required topic (search value) by this TOC. Search index in TOC, get
 position and jump to page.

@@ -22,7 +22,7 @@ Questions and answers formatted as flashcards.
 Any popular language changes over the time, and C is not an exception.
 
 Goal of the [[ANSI_C]] standard
-&#10;
+&#10;<br>
 Produce an unambiguous and machine-independent definition of the language C. In
 my words - universal, clear and easy to understand language because it can only
 mean one thing.
@@ -36,12 +36,12 @@ C wears well as one's ==experience== with it grows.
 # Preface to the first edition /8
 
 Is C is a [[general-purpose_programming_language]] language?
-&#10;
+&#10;<br>
 Yes, general-purpose something like universal language, to use it in any domain,
 and not have limited functions to specific domain. <!--SR:!2023-08-07,69,287-->
 
 Is C is high-level language?
-&#10;
+&#10;<br>
 Yes, but it not a "very high-level" language, nor a "big" one. But its absence
 of restrictions and its generality make it more convenient and effective for
 many tasks than supposedly more powerful languages. For example, it's used a lot
@@ -51,7 +51,7 @@ in hardware programming, embedded systems, kernel development, etc.
 # Chapter 1 - A Tutorial Introduction /9
 
 Basics of C (as language, like [[variable]] and arithmetic [[expression]]).
-&#10;
+&#10;<br>
 - Declarations, `int x;`
 - Variables and constants, `x = 1;`
 - Arithmetic expressions, `x = 1 + 2;`
@@ -72,7 +72,7 @@ it.
 Here [[Hello_World_program]], can you in details describe it, each
 parts?
 ```c #include <stdio.h> main() { printf("hello, world\n"); } ```
-&#10;
+&#10;<br>
 ```c // include standart input/output library (this is commentary) #include
 <stdio.h>
 
@@ -95,11 +95,11 @@ Is this code valid in [[C]]?
 printf("hello, world
 ");
 ```
-&#10;
+&#10;<br>
 No, C compiler will produce error, missing terminating `"` character.
 
 Steps to compile and run a C program
-&#10;
+&#10;<br>
 1. Create the program text somewhere (file whose name ends in ".c")
 2. Compile it successfully (multiple steps), usually with `gcc` command or
    `clang` or `cc`. Nowadays, you usually need to use some build system.
@@ -112,7 +112,7 @@ Describe this [[escape_sequence]]'s:
 - `\b`
 - `\\`
 - `\"`
-- `\'` &#10;
+- `\'` &#10;<br>
 - `\n` - newline, it's a single character
 - `\t` - tab
 - `\b` - backspace
@@ -125,7 +125,7 @@ operations to be done, and [[variable|variables]]== to store values used during
 the computation.
 
 Main difference between statement and expression?
-&#10;
+&#10;<br>
 An expression evaluates to a value and expression is part of statement. A
 statement does something.
 <!--SR:!2023-06-02,3,214-->
@@ -135,7 +135,7 @@ Your program begins executing at the beginning of this function.
 <!--SR:!2023-06-18,37,288-->
 
 One method (simplest) to communicate data between functions is?
-&#10;
+&#10;<br>
 Use arguments between calling function and called function.
 <!--SR:!2023-08-05,67,287-->
 
@@ -162,7 +162,7 @@ Formula to convert Fahrenheit to Celsius is
 ==$$^\circ C = \frac{5}{9} \times (^\circ F - 32)$$==
 
 How to define single and block comments?
-&#10;
+&#10;<br>
 - `// <text>` - single line comment
 - `/* <text> */` - block comment
 - Multiline comment from kernel.org code style, [](https://www.kernel.org/doc/Documentation/process/coding-style.rst)
@@ -194,7 +194,7 @@ What this code can output?
 printf("Int size: %d byte sizeof(int)", sizeof(int));
 printf("Float size: %d byte sizeof(float)", sizeof(float));
 ```
-&#10;
+&#10;<br>
 Now days it will output (of course, depends on your system, machine, compiler,
 etc.):
 ```
@@ -204,7 +204,7 @@ Float size: 4 byte sizeof(float)
 <!--SR:!2023-05-26,14,248-->
 
 Which [[C_data_types]] you know, for example 7 basic data types?
-&#10;
+&#10;<br>
 - `char` - Character
 - `int` - Integer (signed or unsigned, short, long, long long)
 - `float` - Floating point number
@@ -223,7 +223,7 @@ while (c = getchar() != EOF) {
     printf("%d\n", c);
 }
 ```
-&#10;
+&#10;<br>
 When we press `Ctrl+D` (EOF) or `Ctrl+C` (SIGINT).
 If we in loop body, we execute all statements, and then check condition, so we
 will get `1` or `0` (true or false). If false, we will break loop.
@@ -233,14 +233,14 @@ SIGINT - terminate process by signal (Ctrl+C), so we break program itself.
 The indentation emphasizes the ==logical structure== of the program.
 
 Why in C we need to-use proper indentation, with some style?
-&#10;
+&#10;<br>
 Because it's critical in making programs easy for people to read.
 
 What you receive if execute this code?
 ```c
 printf("%d", 5/9);
 ```
-&#10;
+&#10;<br>
 ```c
 // C truncates any fractional part of an integer result.
 printf("%d", 5/9); // 0
@@ -269,7 +269,7 @@ int main() {
     }
 }
 ```
-&#10;
+&#10;<br>
 Including header file, main function, variables declaration, assignment
 statements, while loop, loop body statements.
 
@@ -278,7 +278,7 @@ of [[printf_format_string|printf]] is paired with the:
 corresponding ==second argument==.
 
 Is printf part of C language, does it's unified?
-&#10;
+&#10;<br>
 No it's part of standard library, and the behavior of `printf` is defined in the
 ANSI standard, so its properties should be the same with any compiler.
 <!--SR:!2024-09-04,300,267-->
@@ -288,7 +288,7 @@ ANSI standard, so its properties should be the same with any compiler.
 
 Print the first number `fahr` in a field three digits wide, and the second
 `celsius` in a field six digits wide. Write statement.
-&#10;
+&#10;<br>
 ```c
 printf("%3d %6d\n", fahr, celsius);
 ```
@@ -323,7 +323,7 @@ for (fahr = 0; fahr <= 300; fahr = fahr + 20) {
     printf("%3d %6.1f\n", fahr, (5.0/9.0)*(fahr-32));
 }
 ```
-&#10;
+&#10;<br>
 - `fahr = 0` - **initialization**, done once before loop starts
 - `fahr <= 300` - **condition** (test), controls the loop (execute if true),
 runs before each iteration
@@ -332,7 +332,7 @@ executed condition will be revalidated.
 
 The initialization, condition and increment can be any expressions, is that
 true?
-&#10;
+&#10;<br>
 Yes, any **valid** expressions. TODO: test it.
 
 ## 1.4 Symbolic Constants /17
@@ -343,7 +343,7 @@ directive defines a **macro**.
 <!--SR:!2023-06-24,25,247-->
 
 How to define symbolic name or symbolic constant?
-&#10;
+&#10;<br>
 Need use `#define name replacement list` statement.
 
 Why we used here `#define` here? Why not just place this definitions in for loop
@@ -362,7 +362,7 @@ int main() {
     return 0;
 }
 ```
-&#10;
+&#10;<br>
 Its bad practice to bury **magic numbers** like 300 and 20 in program.
 
 ## 1.5 Character Input and Output /18
@@ -380,7 +380,7 @@ putchar('H');
 printf("ello, world!\n");
 putchar('G');
 ```
-&#10;
+&#10;<br>
 ```
 Hello, world!
 G
@@ -398,7 +398,7 @@ while (c != EOF) {
     c = getchar();
 }
 ```
-&#10;
+&#10;<br>
 ```
 Read character from input stream
     while (character is not EOF)
@@ -418,7 +418,7 @@ while (getchar() != EOF) {
 }
 printf("%ld\n", nc);
 ```
-&#10;
+&#10;<br>
 Yes, we can use `for` loop instead of `while` loop. And additionally we can use
 double to count characters.
 ```c
@@ -434,7 +434,7 @@ Programs should act intelligently when given ==zero==-length input.
 <!--SR:!2023-08-08,70,287-->
 
 Difference between `++nc` and `nc++`
-&#10;
+&#10;<br>
 `++nc` - increment `nc` before use it, and return incremented value.
 `nc++` - return `nc` value and then increment it.
 <!--SR:!2023-06-28,29,267-->
@@ -444,7 +444,7 @@ Difference between `++nc` and `nc++`
 `%.0f` how this placeholder format this value: `3.14159` - ==`3`==
 
 `%6.1f` what this placeholder means?
-&#10;
+&#10;<br>
 `6` - minimum field width, `1` - precision, `f` - floating point number.
 
 ### 1.5.3 Line Counting /21
@@ -513,7 +513,7 @@ Expressions connected by && or || are evaluated (direction) ==left to right==.
 ## 1.6 Arrays /23
 
 White space characters are
-&#10;
+&#10;<br>
 -  ` ` Space
 - `\t` Tab
 - `\n` Newline, or line feed
@@ -582,11 +582,11 @@ $2^5$ is ==32==.
 <!--SR:!2024-01-04,56,228-->
 
 `pow(x,y)` is equal to?
-&#10;
+&#10;<br>
 $X^y$
 
 Where better to put function comment description?
-&#10;
+&#10;<br>
 Above function declaration.
 <!--SR:!2023-05-17,4,274-->
 
@@ -617,7 +617,7 @@ int power(int base, int n) {
 ```
 
 Can you describe form of function definition?
-&#10;
+&#10;<br>
 ```
 return type function_name (parameter declarations, if any) {
     declarations
@@ -626,7 +626,7 @@ return type function_name (parameter declarations, if any) {
 ```
 
 Where functions arguments (parameters) and local variables available.
-&#10;
+&#10;<br>
 This is functions scope, and it's local to function.
 <!--SR:!2023-12-28,49,208-->
 
@@ -635,7 +635,7 @@ ends.
 <!--SR:!2023-12-22,224,250-->
 
 Can you write formal and actual parameters for power function?
-&#10;
+&#10;<br>
 ```c
 int power(int base, int n); // formal parameters
 power(1, 2); // actual parameters
@@ -643,13 +643,13 @@ power(1, 2); // actual parameters
 <!--SR:!2023-07-26,57,248-->
 
 Describe this return values of **main** function: 0, 1
-&#10;
+&#10;<br>
 0 - usually this means normal termination
 1 - some signal, unusual or erroneous termination condition
 <!--SR:!2023-07-30,61,267-->
 
 How/where declare function prototype?
-&#10;
+&#10;<br>
 You need to write function prototype, before it will be used.
 It can be declared like this:
 ```c
@@ -850,7 +850,7 @@ external.
 <!--SR:!2023-06-03,17,267-->
 
 Keyword `extern` used to?
-&#10;
+&#10;<br>
 Before a function can use an external variable, the name of the variable must be
 made known to the function. And write `extern` keyword in declaration is the way
 to do that. So it's used to declare external declaration, for global variable,
@@ -858,7 +858,7 @@ function, or template declaration.
 
 In fact, common practice is to place definitions of all external variables at
 the beginning of the source file to?
-&#10;
+&#10;<br>
 To omit all `extern` declarations. Since definitions of external variables
 occurs before any function, the `extern` keyword is not necessary.
 
@@ -870,7 +870,7 @@ more than one source file, so the declarations need to be written only once
 <!--SR:!2023-05-15,3,267-->
 
 Does need to heavily use `extern` variables?
-&#10;
+&#10;<br>
 It's complicate things, if you have a lot of `extern` variables, it's hard to
 keep track of them (their values can be change unexpectably) and hard to modify
 program.
@@ -880,7 +880,7 @@ program.
 # Chapter 2 - Types, Operators and Expressions /35
 
 Which core language parts usually program consists of?
-&#10;
+&#10;<br>
 1. variables and constants
 2. declaration lists for those variables and constants (type, size, initial
    values)
@@ -890,13 +890,13 @@ Which core language parts usually program consists of?
 <!--SR:!2023-06-02,3,194-->
 
 The type of object determines (variable, expression...)?
-&#10;
+&#10;<br>
 The set of values it can have and what operations can be performed on it.
 
 ## 2.1 Variable Names /35
 
 Which variable names rules you should follow?
-&#10;
+&#10;<br>
 - begin with a letter, `aA-zZ`
 - underscore counts as a letter, but don't use it as first character, since
   library routines often use such names
@@ -913,13 +913,13 @@ characters and single case.
 <!--SR:!2023-07-30,61,274-->
 
 Which reserved keywords in C you know, can they be used as variable names?
-&#10;
+&#10;<br>
 `if, else, int, float, char, for, while, do, return, switch`, no they can't be
 used as variable names.
 <!--SR:!2023-06-26,27,254-->
 
 If you choose variable name, how you choose its name?
-&#10;
+&#10;<br>
 lowercase, `_` as word separator, can be short for local variables (especially
 loop indices), for external can be longer, but in limit's range.
 
@@ -927,33 +927,33 @@ loop indices), for external can be longer, but in limit's range.
 ## 2.2 Data Types and Sizes /35
 
 Can we omit `int` in `short` and `long` declarations?
-&#10;
+&#10;<br>
 Yes, `int` is assumed if not specified and typically omitted.
 
 Which number bigger `float` or `double`?
-&#10;
+&#10;<br>
 `double` is bigger than `float`.
 
 Can `float` and `double` have `short` and `long` modifiers?
-&#10;
+&#10;<br>
 No, only `int` can have `short` and `long` modifiers.
 
 Can `signed` and `unsigned` be used with `float` and `double`?
-&#10;
+&#10;<br>
 No, only `int` and `char` can have `signed` and `unsigned` modifiers.
 
 Min size of `short` and `int` is ==16== bits. But `int` usually ==32== bits.
 
 What value range have `unsigned char`?
-&#10;
+&#10;<br>
 `0` to `255`.
 
 What value range have `signed char`?
-&#10;
+&#10;<br>
 `-128` to `127`.
 
 Default `char` is `signed` or `unsigned`?
-&#10;
+&#10;<br>
 It's implementation-defined, so it's better to specify explicitly. But printable
 characters are always positive.
 
@@ -963,59 +963,59 @@ Plain `int` is equivalent to ==`signed int`==.
 ## 2.3 Constants /36
 
 `1234` as is in code it's?
-&#10;
+&#10;<br>
 `int` constant.
 
 `123456789L` as is in code it's?
-&#10;
+&#10;<br>
 `long` constant.
 <!--SR:!2023-05-16,3,254-->
 
 `123456789U` as is in code it's?
-&#10;
+&#10;<br>
 `unsigned int` constant.
 
 `123456789UL` as is in code it's?
-&#10;
+&#10;<br>
 `unsigned long` constant.
 
 `037` as is in code it's?
-&#10;
+&#10;<br>
 `int` constant in octal.
 
 `0xdeadbeef` as is in code it's?
-&#10;
+&#10;<br>
 `int` constant in hexadecimal.
 
 `0XDEADBEEFUL` as is in code it's?
-&#10;
+&#10;<br>
 `unsigned long` constant in hexadecimal.
 
 `'x'` as is in code it's?
-&#10;
+&#10;<br>
 a character constant, integer, written as one character within single quotes.
 
 `'0'` has the value ==48== in the ASCII character set, which is unrelated to the
 numeric 0 value.
 
 Can we use numeric operators with `char`?
-&#10;
+&#10;<br>
 Yes, `char` is just small integer. But often `char` used in comparisons with
 other characters.
 
 Is escape sequences like `'\n'` represent two characters or one?
-&#10;
+&#10;<br>
 One, it's single character.
 <!--SR:!2023-08-03,65,294-->
 
 Is `'\000'` represent one character or three?
-&#10;
+&#10;<br>
 One, it's single character. `000` is one to three octal digits.
 ASCII vertical tab is `'\013'`.
 ASCII bell character is `'\007'`.
 
 Is `'\xhh'` represent one character or two?
-&#10;
+&#10;<br>
 One, it's single character. `hh` is one or more hexadecimal digits.
 ASCII vertical tab is `'\xb'`.
 ASCII bell character is `'\x7'`.
@@ -1034,28 +1034,28 @@ and can be used in any place that a ==constant can==.
 
 Is this constant expression - `int days[31+28+LEAP+31]` where `LEAP` = `#define
 LEAP 1`?
-&#10;
+&#10;<br>
 Yes, it's constant expression.
 
 Is `string constant` different from `string literal`?
-&#10;
+&#10;<br>
 No, they are the same. `"hello, world\n"` is a string constant, or string
 literal, is a sequence of characters surrounded by double quotes.
 <!--SR:!2023-06-22,23,254-->
 
 How concatenation of string literals works?
-&#10;
+&#10;<br>
 Adjacent string literals are concatenated into a single string.
 
 `"hello, " "world"` is equivalent to `"hello, world"`.
 String constants can be concatenated at compile time.
 
 Is `array of characters` different from `string`?
-&#10;
+&#10;<br>
 No, they are the same. A string is an array of characters terminated by `\0`.
 
 `strlen` function (from `string.h`) equivalent core logic is?
-&#10;
+&#10;<br>
 You need scan array of characters until `\0` is found, and increment counter
 during this scan.
 ```c
@@ -1072,7 +1072,7 @@ printf("%d\n", strlen("hello, world")); /* 12 */
 ```
 
 Is `'x'` is same as `"x"`?
-&#10;
+&#10;<br>
 No, `'x'` is a single character, `"x"` is a string constant (contains 2
 entities).
 <!--SR:!2023-06-30,31,274-->
@@ -1082,17 +1082,17 @@ boolean { NO, YES };`.
 
 `enum months { JAN = 1, FEB, MAR, APR, MAY, JUN, JUL, AUG, SEP, OCT, NOV, DEC
 };`, where `JAN` = `1`, `FEB` = ?, ...
-&#10;
+&#10;<br>
 `FEB` = `2`, `MAR` = `3`, ..., `DEC` = `12`.
 <!--SR:!2023-05-17,4,274-->
 
 Can we use identical names in different enumerations in same enumeration
 constant?
-&#10;
+&#10;<br>
 No, names in different enumerations must be distinct. But values can be same.
 
 Is enumeration usually better than `#define`?
-&#10;
+&#10;<br>
 Yes, enumeration is usually better than `#define` because enumeration offer the
 chance of checking and debugger may print enumeration values in their symbolic
 form.
@@ -1109,7 +1109,7 @@ line[3] = 't';
 printf("%s\n", line); /* test */
 ```
 What is `c` and `line`?
-&#10;
+&#10;<br>
 `c` is a `char` variable, `line` is an array of `char`.
 <!--SR:!2023-05-16,3,254-->
 
@@ -1120,13 +1120,13 @@ printf("%d\n", limit); /* 1001 */
 ```
 ```
 Is this declaration valid?
-&#10;
+&#10;<br>
 Yes, it's valid, you can use expressions in initializers.
 ```
 
 Difference between automatic and non-automatic variables in terms of
 initialization?
-&#10;
+&#10;<br>
 Not-automatic initialized once, before program starts execution. Explicitly
 initialized automatic variables are initialized each time the function or block
 it is in is entered.
@@ -1138,12 +1138,12 @@ Automatic variables for which there is no explicit initializer have
 ==undefined or garbage== values.
 
 How to define constant in declaration?
-&#10;
+&#10;<br>
 Use `const` keyword, like `const double e = 2.71828182845905;` or `const char
 msg[] = "warning: ";`.
 
 Is here allowed to use `const` keyword `int strlen(const char[]);`, if yes why?
-&#10;
+&#10;<br>
 Yes, it can be used with array arguments to indicate that the function does not
 change that array. Result is implementation dependent if an attempt is made to
 change a `const` object.
@@ -1152,11 +1152,11 @@ change a `const` object.
 ## 2.5 Arithmetic Operators /40
 
 Which arithmetic operations you know (5 operations)?
-&#10;
+&#10;<br>
 `+`, `-`, `*`, `/`, `%` (modulus, truncating any fractional part)
 
 What values you get from 100 % 3, 21 % 5, 1 % 3, 20 % 4?
-&#10;
+&#10;<br>
 ```c
 printf("%f\n", 100.0 % 3); /* 1 */
 printf("%f\n", 21.0 % 5); /* 1 */
@@ -1165,11 +1165,11 @@ printf("%f\n", 20 % 4); /* 0 */
 ```
 
 Can `%` used with `float` or `double`?
-&#10;
+&#10;<br>
 No, `%` can be used only with `int` operands.
 
 Oder of precedence of arithmetic operators (higher first)?
-&#10;
+&#10;<br>
 1. Unary operators: `+`, `-`
 2. Multiplicative operators: `*`, `/`, `%`
 3. Additive operators: `+`, `-`
@@ -1178,36 +1178,36 @@ Oder of precedence of arithmetic operators (higher first)?
 
 `>`, `>=`, `<`, `<=`, `==`, `!=` are relational and equality operators. Which
 precedence they have?
-&#10;
+&#10;<br>
 1. Relational operators: `>`, `>=`, `<`, `<=`
 2. Equality operators: `==`, `!=`
 
 Is relational operators has higher precedence than arithmetic operators?
-&#10;
+&#10;<br>
 No, arithmetic operators has higher precedence than relational operators.
 `i < lim - 1` is equivalent to `i < (lim - 1)`.
 
 How expression with `&&` and `||` is evaluated?
-&#10;
+&#10;<br>
 `&&` and `||` are evaluated left to right, and evaluation stops as soon as the
 truth or falsehood of the result is known.
 
 Which precedence has `&&` and `||`?
-&#10;
+&#10;<br>
 1. Logical AND: `&&`
 2. Logical OR: `||`
 
 Is `&&` and `||` has higher precedence than relational or equality
 operations?
-&#10;
+&#10;<br>
 No, relational and equality operations has higher precedence than `&&` and `||`.
 
 The numeric value of a relational or logical expression are?
-&#10;
+&#10;<br>
 `0` if ==false==, `1` if ==true==.
 
 Unary negation operator `!` converts non-zero operand and zero operand to?
-&#10;
+&#10;<br>
 `0` and `1` respectively.
 ```c
 printf("%d\n", !0); /* 1 */
@@ -1220,7 +1220,7 @@ printf("%d\n", !'\0'); /* 1 */
 ## 2.7 Type Conversions /41
 
 Which one is operand, operator and operation in `a = b + c;`?
-&#10;
+&#10;<br>
 `b` and `c` are operands, `+` is operator, `b + c` is operation.
 
 ```c
@@ -1248,29 +1248,29 @@ int lower(int c)
 ```
 
 Which header file is needed for `tolower` and `isdigit`?
-&#10;
+&#10;<br>
 `ctype.h`
 
 Why need to specify `signed` or `unsigned` if non-character data is to be stored
 in `char` variables?
-&#10;
+&#10;<br>
 If you're relaying on `char` numeric value, and you store non-character data,
 you need explicitly specify `signed` or `unsigned` to avoid undefined behavior.
 
 Which value `d` have if `c` is a digit or not in `if` test part?
 `if d = c >= '0' && c <= '9';`
-&#10;
+&#10;<br>
 `d` is `1` if `c` is a digit, otherwise `0`.
 In `if, while, for, etc.`, "true" just means "non-zero".
 
 General rule in implicit conversions?
-&#10;
+&#10;<br>
 "Lower" type is converted to "higher" type. The result is of the "higher" type.
 Check section 6 of appendix A for more details.
 
 Can you describe 5 steps of conversion of different types if there are no
 unsigned operands (some expression with multiple operands)?
-&#10;
+&#10;<br>
 1. If either operand is `long double`, convert the other to `long double`.
 2. Otherwise, if either operand is `double`, convert the other to `double`.
 3. Otherwise, if either operand is `float`, convert the other to `float`.
@@ -1278,7 +1278,7 @@ unsigned operands (some expression with multiple operands)?
 5. Then, if either operand is `long`, convert the other to `long`.
 
 Will we convert value of right side to left, on assignment?
-&#10;
+&#10;<br>
 Yes, the value of the right side is converted to the type of the left side.
 
 ## 2.8 Increment and Decrement Operators /44

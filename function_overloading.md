@@ -8,7 +8,7 @@ sr-interval: 2
 sr-ease: 229
 ---
 # Function overloading (method overloading)
-&#10;
+&#10;<br>
 > Ability to create multiple [[function|functions]] of
 > the same name with different implementations. Calls to an overloaded function
 > will run a specific implementation of that function appropriate to the context

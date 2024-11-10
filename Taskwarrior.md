@@ -69,7 +69,7 @@ task sync
 ```
 
 Create blocked task (depends on)
-&#10;
+&#10;<br>
 `... depends:id`. To list task which blocking everything use this command:
 `... +BLOCKING -BLOCKED`
 

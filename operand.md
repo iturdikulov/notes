@@ -28,6 +28,6 @@ sr-ease: 225
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Operand#Computer_science)</cite>
 
 How you can describe operand purpose in computing?
-&#10;
+&#10;<br>
 Generally operand is some data on which we do some [[operator|operations]].
 Operand can be for example variable, which pointing to some data in memory.

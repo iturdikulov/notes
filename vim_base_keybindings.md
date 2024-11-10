@@ -151,7 +151,7 @@ All jumps support motions::`d[ia]`, `c[ia]`, `y[ia]`, `v[ia]`!
 `ctrl+wq`::Quit a window, cut a part of page or whole page ✂️ 📄
 
 `c-w+hjkl`
-&#10;
+&#10;<br>
                                                           📄
 Move to window in direction, move to page in direction 📄 🔄 📄
                                                           📄

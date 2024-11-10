@@ -22,7 +22,7 @@ CLI tool to interact with the site
 TODO: add more info
 
 Main factors and tips to use LeetCode effectively [^1]:
-&#10;
+&#10;<br>
 - Consistency
 - if you're not focusing, it's OK to just stop and come back later (active
   improvement). But don't forget about consistency.

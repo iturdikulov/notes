@@ -10,7 +10,7 @@ sr-ease: 230
 # Factorial
 
 What is factorial?
-&#10;
+&#10;<br>
 Product (multiplication) of all positive integers
 (including 0) less than or equal to n. In other words, multiply all numbers from
 ${n}$ to 1.
@@ -39,7 +39,7 @@ Examples:
 
 10! = 10 × 9!, ... and 125! = 125 × 124!, etc. How this can be described in a
 formula?
-&#10;
+&#10;<br>
 $$
 {n!} = n \times (n-1)!
 $$

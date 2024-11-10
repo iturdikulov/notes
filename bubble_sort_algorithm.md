@@ -26,7 +26,7 @@ Bubble sort, it's because the ==highest unsorted== value "bubbles" up to its cor
 position, starting from right boundary of the array. <!--SR:!2024-09-08,4,216-->
 
 How to sort `2135` using bubble sort (graphical answer allowed)? How many pass-through's are used here?
-&#10;
+&#10;<br>
 ```
 2.1.3.5
 2 > 1, start with first 2 values and compare them, swap, result: 1.2.3.5
@@ -46,7 +46,7 @@ array is sorted: 1.2.3.5
 
 Code implementation of bubble sort (at least basic concepts), input data
 unsorted list, output sorted list:
-&#10;
+&#10;<br>
 ```python
 def bubble_sort(array_items):
     # rightmost index of the array that has not yet been sorted
@@ -83,7 +83,7 @@ print(bubble_sort([65, 55, 45, 35, 25, 15, 10]))
 *Results:* `[10, 15, 25, 35, 45, 55, 65]`
 
 What is the efficiency of bubble sort?
-&#10;
+&#10;<br>
 The efficiency of Bubble Sort (in terms of Big O) is approximately (will close
 to it with big numbers) $\mathcal{O}(N^2)$, quadratic time, grows exponentially.
 In worst case array of 5 items we need to compare 10 times and make 10 swaps,

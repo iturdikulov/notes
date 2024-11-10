@@ -73,7 +73,7 @@ This is a list of keyboard shortcuts which I use in my web browser.
 - Open the Task Manager::`S-Esc`
 - Set focus on the last item in the toolbar::`F10`
 - Switch focus to unfocused dialog (if showing)
-&#10;
+&#10;<br>
 `F6`. If you press `F6` 2 times in focused address bar, you restore focus to the
 page, this is useful to use with extensions like vimium.
 - Open the Find Bar to search the current page::`C-f` or `F3`
@@ -81,7 +81,7 @@ page, this is useful to use with extensions like vimium.
 - Jump to the previous match to your Find Bar search::`C-S-g`
 - Open Developer Tools::`C-S-j` or `F12` or `C-S-c` (this also allow selecting elements).
 - Open the Clear Browsing Data options
-&#10;
+&#10;<br>
 `C-S-Delete`. This is dangerous. Much safer just clear this data in `Devtools ->
 Application -> Storage`.
 - Open the Help Center in a new tab::`F1`
@@ -91,13 +91,13 @@ Application -> Storage`.
 
 - Search with your default search engine in current tab::Type a search term `CR`
 - Search with custom search engine
-&#10;
+&#10;<br>
 Type a search engine name (`@nix`) and press `tab` or `space`.
 - Add .com to a site name, and open it::Type a site name and press `C-CR` <!--SR:!2024-09-24,3,274-->
 - Open a new tab, focus it and perform a search::Type a search term `M-CR`
 - Jump to the address bar::`C-l` or `meta-d` or `f6`
 - Remove predictions from your address bar
-&#10;
+&#10;<br>
 `down` arrow to highlight, `S-delete`. Useful if you have annoying items.
 
 ### Webpage
@@ -129,7 +129,7 @@ Type a search engine name (`@nix`) and press `tab` or `space`.
 ### Mouse
 
 - Open a link in a current tab (mouse only)
-&#10;
+&#10;<br>
 Drag a link to a tab. Also, useful to drag links into search input on page
 - Open a link in new background tab::`C-click` a link
 - Open a link, and jump to it::`C-S-click` a link
@@ -137,7 +137,7 @@ Drag a link to a tab. Also, useful to drag links into search input on page
 - Open a link in a new window::S-Click a link
 - Open a tab in a new window (mouse only)::Drag the tab out of the tab strip
 - Move a tab to a current window (mouse only)
-&#10;
+&#10;<br>
 Drag the tab into an existing window, Press `esc` while dragging to cancel.
 - Save the current webpage as a bookmark with mouse::Drag the web address to the Bookmarks Bar
 - Display your browsing history::`right-click` on `back` and `next` buttons or hold them

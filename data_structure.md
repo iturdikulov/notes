@@ -21,7 +21,7 @@ Solid knowledge in data structures allows you to write scalable, fast and
 efficient software, increase your software expertise and make you happy 🙂.
 
 What is data structures in computer science?
-&#10;
+&#10;<br>
 Data structures providing organization (relationships), management (functions or
 operations) and format for some data. Each data structure has own efficiency and
 optimizations. <!--SR:!2024-10-09,1,201-->
@@ -40,7 +40,7 @@ An ==[[array]]== is the simplest and most widely used data structure. <!--SR:!20
 
 Data structures refer to how data is **organized**. Does this data organization
 is matter for something?
-&#10;
+&#10;<br>
 Data organization can be highly impact on **performance**. Your program can run
 fast and efficient or even not run at all (out of memory as example). <!--SR:!2024-09-29,2,221-->
 
@@ -67,7 +67,7 @@ that may be performed on it, and the mathematical properties of those operations
 
 Data structure efficiency analyzing with their procedures which create and
 manipulate instances of that structure, which manipulations you know?
-&#10;
+&#10;<br>
 insert, delete, search, etc. <!--SR:!2024-09-29,2,221-->
 
 ## Data structures examples
@@ -138,7 +138,7 @@ Queue follow ==FIFO== principle (data manipulation and organization). <!--SR:!20
 
 Do low-level and high-level programming languages have built-in support for data
 structures?
-&#10;
+&#10;<br>
 Low-level languages don't have built-in support for data structures (or have
 very basic support). High-level languages have special syntax or have standard
 libraries with data structures implementations. <!--SR:!2024-09-29,2,221-->
@@ -154,7 +154,7 @@ structure simultaneously.
 ## Data structure operations
 
 Which data structure operations (for array) are important?
-&#10;
+&#10;<br>
 Here is a list of the most common operations:
 - Read, lookup a value in array at a particular index.
 - Search, if value exist in array, return index.

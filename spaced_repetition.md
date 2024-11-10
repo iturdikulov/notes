@@ -65,22 +65,22 @@ Double colon with new line is not working:: <!--SR:!2024-10-08,17,259-->
 correctly (empty).
 
 Simple
-&#10;
+&#10;<br>
 Question <!--SR:!2024-10-14,28,280-->
 
 Simple question
-&#10;
+&#10;<br>
 With a new
 \
 Lines <!--SR:!2024-10-13,22,260-->
 
 Simple question with new lines just before
-question separator `&#10;`
-&#10;
+question separator `&#10;<br>`
+&#10;<br>
 Is working correctly <!--SR:!2024-09-25,9,261-->
 
 Simple question with code block, inside code blocks new lines
-&#10;
+&#10;<br>
 Test sentence
 \
 Is good
@@ -92,7 +92,7 @@ print(2)
 <!--SR:!2024-09-27,6,261-->
 
 Simple question
-&#10;
+&#10;<br>
 With Newlines is not working <!--SR:!2024-09-27,6,261-->
 
 as expected

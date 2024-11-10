@@ -32,7 +32,7 @@ Grep in branch::`<leader>gp`, `<leader>gP` (quickfix list)
 
 Move current file to another location `:Git move`::`<leader>gm`
 
-Stage current file if it's working copy, or checkout if it's index file &#10;
+Stage current file if it's working copy, or checkout if it's index file &#10;<br>
 `:Gwrite` or `<leader>gW`
 
 `:Gwrite` on index file will ==checkout file==.
@@ -47,7 +47,7 @@ Stage current file if it's working copy, or checkout if it's index file &#10;
 
 `dp` is hotkey for ==`:diffput`==. `p` is stays for "put".
 
-Checkout current file if it's working copy, or stage if it's index file &#10;
+Checkout current file if it's working copy, or stage if it's index file &#10;<br>
 `:Gread` or `<leader>gR`
 
 `:Gread` on index file will ==stage file==.
@@ -131,7 +131,7 @@ ancestor, respectively.
 What if I want to pick changes from `head` (target branch) or from `branch-name`
 (merge-branch) during merge conflict (ignore remote or local changes), how to do
 it with vim-fugitive?
-&#10;
+&#10;<br>
 Need to use `Gwrite!`, `!` is required because this is dangerous command, and
 you can lose your changes. Be very careful with this strategy anyway.
 

@@ -16,7 +16,7 @@ started from p.130
 ## Functions
 
 Docstring
-&#10;
+&#10;<br>
 Usually placed at top of function/program
 ```python
 """Describe what the function does"""

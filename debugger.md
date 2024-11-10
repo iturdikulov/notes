@@ -27,7 +27,7 @@ programs, mainly to solve programming bugs. Debug process can be deep integrated
 with development process.
 
 What main purpose of debugger program?
-&#10;
+&#10;<br>
 Inspect how your program running, modify it's state.
 
 ## References

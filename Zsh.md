@@ -22,7 +22,7 @@ sr-ease: 250
 
 Shell is the interface between a user and the system itself. Which parts it
 consists of:
-&#10;
+&#10;<br>
 ```
 +----------------+
 |  Program/User  |

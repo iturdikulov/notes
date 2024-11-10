@@ -39,7 +39,7 @@ value at any index by performing simple addition.
 
 Read value from an array, at index 3, array begins from memory address 10,
 Which value address is?
-&#10;
+&#10;<br>
 1. Array begins from memory address 10
 2. Index 3 will be exactly 3 positions after address 10
 3. So, memory address for index 3 is 13
@@ -65,7 +65,7 @@ Basic search operation is "==linear==" search. We check each cell one at time
 until we find the value we are looking for (or until we read all cells). <!--SR:!2024-09-11,8,235-->
 
 What advantages linear search has with ordered array?
-&#10;
+&#10;<br>
 With [[array#Ordered array|ordered array]] we can stop search early in certain
 situations, even if the value isn't contained within the array. Iterate while
 element < search value, return index if found or break if element > search value. <!--SR:!2024-10-04,25,236-->
@@ -74,7 +74,7 @@ Search in array is much slower than read (less efficient). Maximum steps are
 `N` ($\mathcal{O}(n)$), where `N` is a number of ==cells== in array. <!--SR:!2024-09-22,23,250-->
 
 Linear search algorithm code for sorted array, basic ideas at lest:
-&#10;
+&#10;<br>
 ```ruby
 # WARNING: this example designed for sorted array.
 # We iterate through every element in the array:
@@ -148,14 +148,14 @@ items in array.
 _Array insertion operation in memory_
 
 How many steps will take array insertion in the worst case?
-&#10;
+&#10;<br>
 $N+1$ steps, where $N$ is a number of items in array required to shift and 1 is
 insert operation. <!--SR:!2024-09-13,16,230-->
 
 ## Deletion
 
 Deletion from array is operation of?
-&#10;
+&#10;<br>
 Removing a value from the array. In other words process of eliminating the
 value at a particular index.
 This is sort of reverse of insertion.
@@ -165,6 +165,6 @@ Get index, jump to position, **delete value**, move all values to the left. <!--
 _Array deletion operation in memory_
 
 In worst case deletion from array operation will take (steps)?
-&#10;
+&#10;<br>
 $N$ steps, where $N$ is a number of items in array. One step to delete value,
 and $N-1$ (we don't need to shift deleted value) steps to shift data. <!--SR:!2024-12-01,54,230-->

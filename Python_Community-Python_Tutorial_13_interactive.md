@@ -32,7 +32,7 @@ interactive interpreter session.
 ## Alternatives to the Interactive Interpreter
 
 Which alternative interactive interpreter you know? When they suitable to use?
-&#10;
+&#10;<br>
 This facility is an enormous step forward compared to earlier versions of the
 interpreter; however, some wishes are left: It would be nice if the proper
 indentation were suggested on continuation lines (the parser knows if an indent

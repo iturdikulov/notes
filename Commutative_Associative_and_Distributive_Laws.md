@@ -89,13 +89,13 @@ This: $(3 * 4) * 5  =  12 * 5  = 60$, has the same answer as this: $3 * (4 * 5)
 Sometimes it is easier to add or multiply in a different order:
 
 What is 19 + 36 + 4? Try to use associative law.
-&#10;
+&#10;<br>
 $19 + 36 + 4 = 19 + (36 + 4) = 19 + 40 = 59$
 
 Or to rearrange a little:
 
 What is 2 * 16 * 5? Try to use associative law.
-&#10;
+&#10;<br>
 $2 * 16 * 5 = (2 * 5) * 16 = 10 * 16 = 160$
 
 > [!NOTE]
@@ -125,21 +125,21 @@ With distributive law we get the same answer when we:
 - do each multiply separately then add them
 
 What is 6 * 204? Try to use distributive law to simplify.
-&#10;
+&#10;<br>
 $6 * 204 = 6*200 + 6*4 = 1,200 + 24 = 1,224$
 
 What is 16 * 6 + 16 * 4? Try to use distributive law with combining.
-&#10;
+&#10;<br>
 $16 * 6 + 16 * 4  =  16 * (6+4) = 16 * 10 =  160$
 
 We can use it in subtraction too:
 
 What is 26*3 - 24*3? Try to use distributive law.
-&#10;
+&#10;<br>
 $26*3 - 24*3 = **(26 - 24)** * 3 = 2 * 3 = 6$
 
 What is 6*7 + 2*7 + 3*7 + 5*7 + 4*7?
-&#10;
+&#10;<br>
 $$
 6*7 + 2*7 + 3*7 + 5*7 + 4*7
 = (6+2+3+5+4) * 7

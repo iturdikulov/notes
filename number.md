@@ -54,19 +54,19 @@ TODO: convert into excalidraw
 Counting
 
 English words from 1 to 10
-&#10;\
+&#10;<br>
 ```
 | one | two | three | four | five | six | seven | eight | nine | ten |
 ```
 
 English words from 11 to 20
-&#10;\
+&#10;<br>
 ```
 | eleven | twelve | thirteen | fourteen | fifteen | sixteen | seventeen | eighteen | nineteen | twenty |
 ```
 
 English words from 21 to 99
-&#10;\
+&#10;<br>
 The Pattern for 20 to 99 For numbers from 20 to 99: join these:\
 ```
 | twenty | thirty | forty  | fifty | sixty | seventy | eighty | ninety |
@@ -74,7 +74,7 @@ The Pattern for 20 to 99 For numbers from 20 to 99: join these:\
 ```
 
 English words from 100 to 999
-&#10;\
+&#10;<br>
 Hundreds: -one to -nine + hundred + previous patterns
 
 ## Arithmetic operations

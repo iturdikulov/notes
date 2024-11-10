@@ -31,13 +31,13 @@ meaning of words.
 ## English
 
 R&D
-&#10;
+&#10;<br>
 research and development - исследования и разработки, научно-исследовательский и
 опытно-конструкторский; Imagine that your company has two departments: Research
 and Development.
 
 abnormal [æbˈnɔːməl] прил
-&#10;
+&#10;<br>
 1. прил.
 ненормальный crazy
 аномальный анормальный патологический anomalous, pathological
@@ -49,19 +49,19 @@ abnormal [æbˈnɔːməl] прил
 action
 
 actor
-&#10;
+&#10;<br>
 `[ˈæktər]` актёр, деятель, участник, личность, действующий субъект (comp.)
 
 adequate
-&#10;
+&#10;<br>
 `[ˈæd.ʌ.kwɪt]` адекватный, соответствующий, достаточный (The food was adequate for all of us).
 
 admission
-&#10;
+&#10;<br>
 `[ədˈmɪʃ(ə)n]` допущение (an acknowledgment of the truth of something), принятие; приём (в учебное заведение, клуб, общество), вход, доступ
 
 afternoon
-&#10;
+&#10;<br>
 `[ˌɑːftəˈnuːn]` время после полудня, дневное время, вторая половина дня
 
 agnostic
@@ -131,7 +131,7 @@ compound
 comprehension
 
 computer
-&#10;
+&#10;<br>
 `[kəmˈpjuːtə]` компьютер, расчетчик, вычислительный; Our sales information is processed by computer.
 
 concern
@@ -149,7 +149,7 @@ containing
 convince
 
 crease
-&#10;
+&#10;<br>
 `[kriːs]` складка; загиб; отутюженная стрелка (на брюках)
 
 curiosity
@@ -315,7 +315,7 @@ regards
 remainder
 
 research
-&#10;
+&#10;<br>
 `[ɹəˈsɜːtʃ]` (научное) исследование, изыскание, изучение, анализ; "The student researched the history of that word".
 
 resembling

@@ -32,7 +32,7 @@ Delete::`X` or `Delete` (single object deleting without confirmation)
 Search for Function::`F3`
 
 Initiate Move, move along axis
-&#10;
+&#10;<br>
 `G`, `X`, `Y`, `Z` move along axis or move using `MiddleMouse` hold with
 snapping to axis. Along local axis - `X,X`/`Y,Y`/`Z,Z`. Alternative drag `MMB`
 while moving to snap/move object to axis.
@@ -41,13 +41,13 @@ circle around object.
 To cancel move press `ESC` or `RMB`.
 
 Scale
-&#10;
+&#10;<br>
 `S`, along axis - `X/Y/Z` or scale using `MiddleMouse` hold with
 snapping to axis. Along local axis - `X,X`/`Y,Y`/`Z,Z`.
 Or scale button in left panel.
 
 Rotate
-&#10;
+&#10;<br>
 `R`, along axis - `X/Y/Z` or rotate using `MiddleMouse` hold with
 snapping to axis. Along local axis - `X,X`/`Y,Y`/`Z,Z`. Or rotate button in left
 panel.
@@ -55,15 +55,15 @@ panel.
 Trackball Rotate::`R, R`
 
 Precise movement
-&#10;
+&#10;<br>
 `S-` (*hold*). Allow to drag/set value more precisely.
 
 Incremental movement
-&#10;
+&#10;<br>
 `C-(*hold*)`. Allow to drag/set value incrementally or enable snapping.
 
 Duplicate verticies/mesh.
-&#10;
+&#10;<br>
 `S-D`, or `Mesh -> Duplicate`. `LMB` to confirm, `Esc` to cancel.
 When you duplicate vertices, you can press `p` to separate them into a new mesh.
 Duplicate Linked TODO: linked?::`M-D`
@@ -75,7 +75,7 @@ Erase Annotation::`D (*hold*) + RMB (*drag*)`
 Quick favs menu::`Q`
 
 Rename object
-&#10;
+&#10;<br>
 You can rename selected object by double-clicking on it in outliner. Or select object and press F2.
 
 
@@ -147,12 +147,12 @@ Select from many TODO: what is this?::`M-LMB`
 ### Shading (3D viewport)
 
 Shading Pie Menu
-&#10;
+&#10;<br>
 `Z`. You can also change/check current view-port shading in top right corner,
 layout mode
 
 Toggle X-Ray (to select through mesh)
-&#10;
+&#10;<br>
 `M-Z` or button in top right (2 squares).
 
 ### Pie Menus

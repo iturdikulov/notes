@@ -29,7 +29,7 @@ exponent. <!--SR:!2024-09-08,4,161-->
 
 One method of finding logarithm is dividing number until we get a 1 as result,
 for example, how to find $log_{2}(2048)$ with this method?
-&#10;
+&#10;<br>
 How many times need to divide **2** to get 1 as result $2048 \div 2 \div 2 \div
 2 \div 2 \div 2 \div 2 \div 2 \div 2 \div 2 \div 2 \div 2 = 1$. So answer is 11. <!--SR:!2024-09-14,11,218-->
 

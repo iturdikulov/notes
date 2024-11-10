@@ -78,19 +78,19 @@ shell (`~/.inputrc`, `~/.ipython/profile_default/ipython_config.py`).
 `M-\`::Delete all spaces and tabs around point.
 
 `C-w`
-&#10;
+&#10;<br>
 Kill from the cursor to the previous whitespace. This is different from `M-DEL`
 because the word boundaries differ.
 
 `C-k`::Kill the text from the current cursor position to the end of the line.
 
 `M-d`
-&#10;
+&#10;<br>
 Kill from the cursor to the end of the current word, or, if between words, to
 the end of the next word. Word boundaries are the same as those used by `M-f`.
 
 `M-DEL`
-&#10;
+&#10;<br>
 Kill from the cursor to the start of the current word, or, if between words, to
 the start of the previous word. Word boundaries are the same as those used by
 `M-b`.

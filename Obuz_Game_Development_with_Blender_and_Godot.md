@@ -82,7 +82,7 @@ In the Blender you can rename material by ==`LMB,LMB` / `C-LMB`== in material
 name title.
 
 Can I create new material based on existing one in Blender?
-&#10;
+&#10;<br>
 You can create new material based on existing one by clicking on the two sheets
 icon in the material properties (toolbar below material list).
 

@@ -88,7 +88,7 @@ effective).
 
 Is good idea to educate someone, when you haven't enough experience and when
 you're even not trying to use proven learning materials?
-&#10;
+&#10;<br>
 Don't need to learn someone programming if you don't know what is in fundamental
 level. And if you really want to educate someone find good proven education path.
 Bad teachers can mislead a newbie student, for example start learning
@@ -101,7 +101,7 @@ programming is boring process (actually not, he will not know what he lost). <!-
 
 Why need to learn form "simple" languages, instead complex one, which providing
 basic concepts and not too complicated?
-&#10;
+&#10;<br>
 Start to learning programming from complex programming languages (like Java, C++
 and even C) is bad idea, newbie learners will have hard been understanding their
 concepts and not really will learn programming. <!--SR:!2024-05-27,2,169-->
@@ -113,13 +113,13 @@ understanding difference (and in result where they need to be used) between
 Mixing C and C++ is bad idea (maintainability reason).
 
 Why learning C as first programming language is not so good and can be hard?
-&#10;
+&#10;<br>
 C as first programming language is not suitable, you need to understand pointers
 first and work with them (and it's hard). <!--SR:!2024-05-30,5,162-->
 
 Why knowing programming language on fundamental level (how it's really works) is
 important?
-&#10;
+&#10;<br>
 Understanding code as "magic commands" is not good for good programmers, you
 need to understand code on very low level to create truly effective programs. <!--SR:!2024-05-29,4,162-->
 
@@ -137,12 +137,12 @@ Why you should not write code like this?
 ```c
 while((dest++ = * src++));
 ```
-&#10;
+&#10;<br>
 To avoid side effects and make this less cryptic. Yes in C you can't avoid side
 effects anyway, but in other languages you can. <!--SR:!2024-05-26,1,149-->
 
 When knowledge of C can be useful?
-&#10;
+&#10;<br>
 Writing in C is requirement, you need to understand how computer and operating
 system is working on subconscious level (closer to hardware) to write really
 **quality programs**. <!--SR:!2024-05-28,3,152-->
@@ -155,12 +155,12 @@ recursion, which can help some another language, we choice [[Pascal]]:
 
 Is deep learning Pascal, in every details is needed when you learn general
 programming?
-&#10;
+&#10;<br>
 Not really. You learn not Pascal, you learn programming by using Pascal, and you
 can omit some Pascal specific features. <!--SR:!2024-09-17,28,202-->
 
 Why need to learning Assembly language (at least basics)?
-&#10;
+&#10;<br>
 Big role in understanding programming is taking [[Assembly_language]]. You can
 never write programs in it (prefer C), but you must understand how it works to
 understand what you are really doing, understand OS kernel, how to interact with
@@ -191,7 +191,7 @@ something useful and great. Program itself is finished product. Programming is
 the most creative profession in engineering and technical professions. <!--SR:!2024-09-03,15,182-->
 
 What is 2 main things which are important for programmer (to improve as programmer)?
-&#10;
+&#10;<br>
 Self-education and practice is requirement to be programmer. <!--SR:!2024-08-20,1,132-->
 
 Author also tells you need to use CLI to learn something from this book (I use

@@ -152,11 +152,11 @@ Toggle between tiled and monocle layout::`<D-C-S-space>`.
 - Toggle previous window (sort of common Alt-Tab behavior)::`<D-Tab>`
 - Toggle tag 2 on focused window (window on multiple workspaces)::`<D-S-C-2>`
 - Apply tag to all (window on all workspaces), to reset apply some specific tag.
-&#10;
+&#10;<br>
 `<D-S-0>`
 - Banish tags (add/remove all windows from #2 tag). It's sort of moving all
 windows from tag #2 to current tag. To reset press again or switch to tag.
-&#10;
+&#10;<br>
 `<D-C-2>`
 
 ## Floating windows control
@@ -180,7 +180,7 @@ These directions:
 ← . →
 ↙ ↓ ↘
 ```
-&#10;
+&#10;<br>
 ```text
 ↖l ↑u ↗y
 ←n , →i
@@ -195,12 +195,12 @@ movement is relative to client's current position (center include).
 |        |
 .--------* <- pivot point
 ```
-&#10;
+&#10;<br>
 `S-`
 
 Move floating window modifier, absolute positioning (allows moving windows between
 monitors)?
-&#10;
+&#10;<br>
 `C-`
 
 ## Programs control, other functional

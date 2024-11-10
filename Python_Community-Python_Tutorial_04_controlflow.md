@@ -85,7 +85,7 @@ print(list(range(5, 10))[4]) # 9
 ```
 
 How to generate numbers form 1 to 100 using `range()`?
-&#10;
+&#10;<br>
 ```python
 print(list(range(1, 101)))
 ```
@@ -110,7 +110,7 @@ print(list(range(-10, 40, 30))) # [-10, -20], -10 + 30
 
 What you will see in interactive python session if you enter this:
 `list(range(10, 0))`, `list(range(10, 0, -1))` and this `list(range(10, -1, -1))`.
-&#10;
+&#10;<br>
 ```python
 list(range(10, 0))  # [] empty list, because start is greater than stop
 list(range(10, 0, -1))  # [10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
@@ -144,7 +144,7 @@ print(range(10))  # range(0, 10)
 ```
 
 What you will see with this code: `sum(range(4))`?
-&#10;
+&#10;<br>
 0 + 1 + 2 + 3 = 6 <!--SR:!2024-08-21,6,200-->
 
 > The `break` statement, like in C, `breaks out` of the innermost enclosing
@@ -169,7 +169,7 @@ for n in range(2, 10):
 <!--SR:!2025-02-25,110,220-->
 
 When `else` runs in `try-except` statement?
-&#10;
+&#10;<br>
 In `try-except` statement, `else` runs if **no exception was raised**.
 If you worked on something (try, for, while) and you aren't interrupt
 (break/exception), we call else method as this is likely unusual? <!--SR:!2024-07-14,4,218-->
@@ -239,7 +239,7 @@ def http_error(status):
 
 TODO: need improve Can I use objects (classes for example) in pattern matching, can I bind class
 attributes to variables?
-&#10;
+&#10;<br>
 Yes, you can use objects (in case blocks), place them with arguments (like
 a constructor), capturing class attributes also supported.
 ```python
@@ -285,7 +285,7 @@ match point:
 ```
 
 Can I customize class arguments order with pattern matching?
-&#10;
+&#10;<br>
 Yes, by setting the `__match_args__` special attribute in your classes. If
 it's set to `("x", "y")` tuple, the following patterns are all equivalent (and all
 bind the `y` attribute to the `var` variable):
@@ -298,14 +298,14 @@ Point(y=var, x=1)
 
 Which variable names can be assigned (bind variable to value) to in a match
 statement?
-&#10;
+&#10;<br>
 Only standalone names (like `var`) are assigned to by a match statement.
 Dotted names (like `foo.bar`), attribute names (the `x=` and `y=`) or class
 names (recognized by the "(...)" next to them like `Point` above) are never
 assigned to. <!--SR:!2024-11-21,100,258-->
 
 Can patterns in match case be nested?
-&#10;
+&#10;<br>
 <!-- TODO: add real nested example -->
 Yes, patterns can be arbitrarily nested. For example, if we have a short list
 of Points, with `__match_args__` added, we could match it like this:
@@ -340,7 +340,7 @@ for points in [
 <!--SR:!2024-07-13,4,238-->
 
 Can I use `if` statements in pattern matching, why it can be useful?
-&#10;
+&#10;<br>
 Yes, `if` clause in pattern known as a "guard". If the guard
 is false, `match` goes on to try the next case block. Note that value
 capture happens **before** the guard is evaluated:
@@ -441,7 +441,7 @@ match none_item:
 <!--SR:!2024-11-16,9,198-->
 
 How to use named constants (`Enum`) in pattern matching?
-&#10;
+&#10;<br>
 - Patterns may use named constants. These must be dotted names to prevent them
 from being interpreted as capture variable:
 ```python
@@ -471,7 +471,7 @@ match color:
 
 We can create a function that writes the Fibonacci series to an arbitrary
 boundary, can you explain how (function code)?
-&#10;
+&#10;<br>
 ```python
 def fib(n):    # write Fibonacci series up to n
     """Print a Fibonacci series up to n."""
@@ -487,7 +487,7 @@ fib(2000) # 0 1 1 2 3 5 8 13 21 34 55 89 144 233 377 610 987 1597
 <!--SR:!2024-08-19,4,218-->
 
 How to define a function in Python?
-&#10;
+&#10;<br>
 The keyword `def` introduces a function definition.
 Example of function definition:
 ```python
@@ -501,13 +501,13 @@ The first statement of the function body can optionally be a string literal
 string, or ==`docstring`==.
 
 Why include docstring is recommended to make a habit?
-&#10;
+&#10;<br>
 There some tools, which produce online or printed documentation, or to let
 the user interactively browse through code. Also, many IDEs and editors
 support showing documentation based on this docstrings. <!--SR:!2024-07-15,5,238-->
 
 Order of variable references looking (tables)?
-&#10;
+&#10;<br>
 - Local symbol table
 - Local symbol table of enclosing functions (parents)
 - Global symbol table
@@ -517,7 +517,7 @@ These priorities also reason why `global` and `nonlocal` statements are needed.
 How to change (or use) variable from global scope in some function, when are you
 trying to assign value to it, python create new local variable with the same
 name?
-&#10;
+&#10;<br>
 Use `global` statement.
 ```python
 x = 0
@@ -579,19 +579,19 @@ f()
 ```
 
 Is there procedures in Python?
-&#10;
+&#10;<br>
 In Python there no procedures, only functions. Functions without a `return`
 statement do return a value. This value is called `None` (it's a built-in name).
 
 What is object method in Python?
-&#10;
+&#10;<br>
 A method is a function that 'belongs' to an object and is named
 `obj.methodname`, where `obj` is some object (this may be an expression), and
 `methodname` is the name of a method that is defined by the object's **type**.
 
 You can define default values for arguments in a function, when it can be
 required?
-&#10;
+&#10;<br>
 This allows to omit some arguments when calling the function, sort of default
 settings.
 ```python
@@ -643,7 +643,7 @@ print(f3(1))
 print(f3(2))
 print(f3(3))
 ```
-&#10;
+&#10;<br>
 The default values are evaluated at the point of function definition in
 the *defining* scope, so that code will print `5`, so order of evaluation is
 important, and default value evaluated only once if it's not mutable object
@@ -710,12 +710,12 @@ cheeseshop("Limburger", "It's very runny, sir.",
            client="John Cleese",
            sketch="Cheese Shop Sketch")
 ```
-&#10;
+&#10;<br>
 Two positional arguments and three keyword arguments.
 
 Positional-only, positional-or-keyword, and keyword-only parameters can be
 combined in a single function definition, how to do this?
-&#10;
+&#10;<br>
 A function definition may look like this:
 ```python
 # If `/` and `*` are not present, arguments may be passed
@@ -764,7 +764,7 @@ def foo(name, **kwds):
     return 'name' in kwds
 foo(1, **{'name': 2})
 ```
-&#10;
+&#10;<br>
 Since the `name` parameter is a positional and keyword argument, it will always
 bind to the first parameter (name). So, the code will raise a `TypeError`:
 foo() got multiple values for argument 'name'.
@@ -778,14 +778,14 @@ foo(1, **{'name': 2})  # True
 ```
 
 When positional-only arguments are useful in function definition?
-&#10;
+&#10;<br>
 Use positional-only if you want the **name** of the parameters to not be
 available to the user. This is useful when parameter names have no real meaning,
 if you want to enforce the order of the arguments when the function is called or
 if you need to take some positional parameters and arbitrary keywords.
 
 When keyword-only arguments in function definition are useful?
-&#10;
+&#10;<br>
 Use keyword-only when names have meaning and the function definition is more
 understandable by being explicit with names or you want to prevent users relying
 on the position of the argument being passed.
@@ -852,7 +852,7 @@ restricted to a single expression, semantically they are just syntactic sugar
 for a normal function definition.
 
 Lambda function format?
-&#10;
+&#10;<br>
 `lambda arguments : expression`
 ```python
 x = lambda a : a + 10
@@ -879,7 +879,7 @@ f(1) # 43
 ```
 
 How to use function/lambda function with list and sort method?
-&#10;
+&#10;<br>
 ```python
 # Lambda function as an argument, to sort method
 pairs = [(1, 'one'), (2, 'two'), (3, 'three'), (4, 'four')]
@@ -897,7 +897,7 @@ Documentation Strings used to document
 ==functions, methods, classes, and modules==. <!--SR:!2024-10-27,6,179-->
 
 Docstring code style, at least basic information?
-&#10;
+&#10;<br>
 The first line should always be a short, concise summary of the object's
 purpose. For brevity, it should not explicitly state the object's name or type,
 since these are available by other means (except if the name happens to be a
@@ -993,7 +993,7 @@ inside functions, sort of grouping.
 When possible, put comments on a line ==of their own (separate line)==.
 
 How to document code in Python?
-&#10;
+&#10;<br>
 Use docstrings, which follow docstrings rules.
 
 Use spaces around operators and after commas, but not directly inside

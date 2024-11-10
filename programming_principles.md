@@ -13,12 +13,12 @@ TODO: add term
 https://en.wikipedia.org/wiki/Category:Programming_principles
 
 DRY
-&#10;
+&#10;<br>
 Don't Repeat Youself. Avoid writing the same code in multiple places.
 This principle make your code more maintainable when you need to change it.
 
 Why repeating code is bad?
-&#10;
+&#10;<br>
 - If you need to change it, you have to change it in multiple places
 - If you forget to change it in one place, you'll have a bug
 - It's more work to write it over and over again

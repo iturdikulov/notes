@@ -36,5 +36,5 @@ sr-ease: 272
 > — <cite>[NeoMutt Manual](https://neomutt.org/guide/)</cite>
 
 Show key bindings
-&#10;
+&#10;<br>
 <kbd>?</kbd>

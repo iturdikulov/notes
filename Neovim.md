@@ -56,7 +56,7 @@ Neovim like Vim has two main modes (and some additional), insert mode and comman
 Quit and ignore changes in ALL files (be careful with this, `:q` is much safer)::Press `Esc` and type `:qa!`
 
 Up, Down, Left, Right
-&#10;
+&#10;<br>
 `k`,`j`,`h`,`l`, but prefer other navigation keys. These keys have one important
 advantage, they are not generated escape codes unlike arrows keys, and since
 only one method to detect escape code is calculating delays (user can enter
@@ -65,7 +65,7 @@ escape sequence much slower), it can sometimes help on slow connections.
 Normal mode, for navigation and manipulation of text::`ESC` or `C-[` or `C-c`
 
 Insert mode, for inserting new text.
-&#10;
+&#10;<br>
 `iIaAoO`, `i` start input before the current symbol (insert or prepend), `a` ...
 after current symbol (append).
 
@@ -93,7 +93,7 @@ Change something (can be used with black hole register)::`c[register][num][motio
 `:`::command mode
 
 How to split line
-&#10;
+&#10;<br>
 Use (a/i/r) keys:
 - `i<cr><esc>`
 - `a<cr><esc>`
@@ -118,7 +118,7 @@ Grep content in current project and open find toolbar (custom)::`<leader>fs`, TO
 `tx|Tx`::search in current line forward before 'x', backward before 'x'
 
 `,`, `;`
-&#10;
+&#10;<br>
 Backward, forward after that "finds", works for `s`, `f` and `t`.
 
 `n|N`::repeat search in same direction and opposite direction, support multiline search.
@@ -144,7 +144,7 @@ Backward, forward after that "finds", works for `s`, `f` and `t`.
 `@@`::repeat last `@<whatever>`
 
 Find each occurrence of 'foo' (in all lines), and replace it with 'bar'
-&#10;
+&#10;<br>
 `:%s/foo/bar/g[c]`
 `%` - all lines.
 `s` - substitute.
@@ -153,7 +153,7 @@ Find each occurrence of 'foo' (in all lines), and replace it with 'bar'
 
 The replacement will check each line in the buffer, but will only match within
 the last visual selection
-&#10;
+&#10;<br>
 Same as find each occurrence, but need to add `%V` suffix to the search pattern.
 `:%s/\%Vfoo/bar/g[c]`
 `[c]` - confirmations.
@@ -171,7 +171,7 @@ Same as find each occurrence, but need to add `%V` suffix to the search pattern.
 Replace single quotes to double::`:s/\'\(.*\)\'/\"\1\"`
 
 `:%s/\(^ *\)\@<! \/ /g`
-&#10;
+&#10;<br>
 Replace multiple spaces with one, This says find 2 or more spaces (` \`)
 that are NOT preceded by 'the start of the line followed by zero or more
 spaces'.
@@ -181,7 +181,7 @@ spaces'.
 ### Search and replace tips
 
 How to do granular find and replace something in the whole file (3 steps)?
-&#10;
+&#10;<br>
 1. Search something with `/`
 2. Type `cgn` and `word` to replace, or run some command, where `gn` is a
    motion that selects the next match of the last used search pattern. Of course,
@@ -190,7 +190,7 @@ How to do granular find and replace something in the whole file (3 steps)?
 
 <!-- WARNING: this is very useful -->
 Find and Replace in Multiple Files using `argslist`
-&#10;
+&#10;<br>
 1. Initialize the `argslist` with `:args *.ext` from CWD.
 2. Optionally add more files with `:argadd *.ext`. You can also use `**/*.ext`
    to search recursively.
@@ -204,7 +204,7 @@ pattern. Use `:cdo` to do something with the quickfix list.
 
 <!-- WARNING: this is very useful -->
 Search with telescope and quickfix
-&#10;
+&#10;<br>
 1. `<leader>fs` to grep results
 2. `<C-q>` to add all results to the quickfix list
 3. `:cdo s/StringOne/StringTwo/g | update` to make the change and save all the files.
@@ -244,7 +244,7 @@ Puts the current line at the middle (and scroll to middle)::`zz`
 Puts the current line at the bottom::`zb`
 
 Jump by **s**tart of words (punctuation considered words)
-&#10;
+&#10;<br>
 `w`, alternative is `f_` skips to the next underscore (useful for Python code)
 
 Jump by **s**tart words (words determined only by spaces, no punctuation)::`W`
@@ -359,11 +359,11 @@ Signature help (arguments information)::`C-F1`
 Search related documentation in current/all docsets (dashit)::`<leader>dk`, `<leader>dK`
 
 Search related documentation for visual selection in current/all docsets (dashit)
-&#10;
+&#10;<br>
 `<leader>ds`, `<leader>dS`
 
 Search related documentation under cursor in current/all docsets (dashit)
-&#10;
+&#10;<br>
 `<leader>ds`, `<leader>dW`
 
 Recent locations by `cbochs/portal.nvim`::`<leader>o`, `<leader>i`
@@ -553,7 +553,7 @@ Code formatting (using LSP), custom binding::`<leader>f`
 ### Code refactoring and diagnostic
 
 Add/remove/list LSP workspace directories
-&#10;
+&#10;<br>
 `<Leader>wa`, `<Leader>wr`, `<Leader>wl`.
 
 Parsed syntax-tree view (tresitter)::`:InspectTree`
@@ -728,20 +728,20 @@ Fold text object (motion)::`zf[motion]`
 ## Files
 
 Switch to normal mode in terminal
-&#10;
+&#10;<br>
 By default, `<C-\><C-n>`, but I have custom keybinding `<Esc><Esc>`
 
 Quick switch to terminal and back workflow
-&#10;
+&#10;<br>
 Ctrl-Z while editing in vim to send it to background, do your thing on the
 terminal and use `fg` command at any time to bring up vim again.
 
 Switch to previous file, the best alternative
-&#10;
+&#10;<br>
 `c-^`
 
 `:e [filename]` or `:edit [filename]`
-&#10;
+&#10;<br>
 Edit file, support `tab` completion. Can be used instead touch and edit files.
 
 Edit the file whose name is under or after the cursor::`gf`
@@ -854,7 +854,7 @@ entire content::`e`
 ## Vim registers
 
 What is vim register?
-&#10;
+&#10;<br>
 It's sort of space in memory to store text. Every register can be accessed using
 double quote `"`. For example `r` register, copy/paste will be like this `"ry` /
 `"rp`. You can access register in insert/command mode by `C-r[register name]`.
@@ -891,13 +891,13 @@ The expression register, useful for calculation::`"=`, `C-r =...`
 ## Paths and history
 
 Print directory/name of file
-&#10;
+&#10;<br>
 `:echo @%`
 
 Execute current file::`!%`
 
 Get name of file ('tail')
-&#10;
+&#10;<br>
 `:echo expand('%:t')`
 
 Get full path of file
@@ -907,34 +907,34 @@ Get directory containing file ('head')
 `:echo expand('%:p:h')`
 
 How to paste yanked text into the Vim command line?
-&#10;
+&#10;<br>
 Hit `<C-r>"`. If you have literal control characters in what you have yanked,
 use `<C-r><Ctrl-o>"`.
 
 How to paste system clipboard into the Vim command line?
-&#10;
+&#10;<br>
 I use `C-S-v`, it's working in my terminal. Or use `<C-r>+`.
 
 How to open terminal in vertical split?
-&#10;
+&#10;<br>
 `:vsplit term://zsh` to run Z-shell
 
 How do you search through Vim's command history?
-&#10;
+&#10;<br>
 I use telescope commands history (`<leader>fc`).
 You can also use `q:` or `q/` in normal mode and then press `/`.
 Press `C-f` in command mode to open the command history window.
 For more about the command history window, see `:h cmdwin`.
 
 How quickly close command history window?
-&#10;
+&#10;<br>
 `<C-c>[<C-c>]`
 
 ## Windows
 
 You can use vim motion keys to navigate between open windows, for example to
 navigate to left window?
-&#10;
+&#10;<br>
 `C-w h`
 So moving between windows can be done with `C-w` followed by `h/j/k/l` for
 left/down/up/right navigation respectively.
@@ -983,18 +983,18 @@ Create a new window and start editing an empty file in it::`:new` or `C-w n`
 Switch to buffer whose filename begins with "vimrc"::`:b vimrc[tab]`
 
 List buffers
-&#10;
+&#10;<br>
 `:buffers` - built-in command
 `:Telescope buffers` - telescope command
 
 Switch to buffer by name or number
-&#10;
+&#10;<br>
 `:b <buffer name>` or `:b <buffer number>`
 
 Create new scratch buffer::`:enew`
 
 Close all buffers except current and stay on original cursor position (custom)
-&#10;
+&#10;<br>
 `<leader>bD`, command - `:%bd\|e#\|bd#<cr>\|'"`
 
 Delete current buffer::`<leader>bd` or `:bd`
@@ -1008,20 +1008,20 @@ Maximize buffer width::`C-w |`
 `:h shada`::opens shada help, viminfo analog, store various settings
 
 Save current session (vim script)
-&#10;
+&#10;<br>
 `:mksession`, more info: `:h mksession`
 
 Source file, which can be session
-&#10;
+&#10;<br>
 `:source` `file` or `:so` `file`
 
 Save view
-&#10;
+&#10;<br>
 `:mkview [N]` - N is a view name (1-9).
 This use `shada` file, which is a viminfo analog. Check `:h shada` for more info.
 
 Load view
-&#10;
+&#10;<br>
 `:loadview [N]`, N is a view name (1-9)
 <!--SR:!2023-06-06,1,208-->
 
@@ -1164,7 +1164,7 @@ Open list of possible commands in command mode::[filter]`C-d`
 List previous commands in command mode::`C-f`
 
 How to check file was changed ("tjdevries/express_line.nvim" status line plugin)
-&#10;
+&#10;<br>
 In neovim it's `[+]` in the status line (after filename)
 
 List keybindings of current buffer::`WhichKey`

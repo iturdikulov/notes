@@ -32,7 +32,7 @@ Browser bookmarks::`*`, `* github`
 Browser history::`^`, `^ github`
 
 Search Tabs
-&#10;
+&#10;<br>
 `%`, `% github`,
 In chrome-based browsers you can also use `C-S-a` to search tabs and recently
 closed tabs.
@@ -45,18 +45,18 @@ RSS search, search trhoug my RSS feeds ([[Miniflux]])::`@rss`
 
 Google search, force use. This is useful to avoid search query unnecessary
 parsing in the address bar.
-&#10;
+&#10;<br>
 `@g http://example.com`
 
 DuckDuckGo, privacy-focused, instant answers, bangs, multiple sources (but not
 google?).
-&#10;
+&#10;<br>
 `@d`
 [DuckDuckGo !Bangs](https://duckduckgo.com/bangs) to search in different
 websites, also good source for category names.
 
 @yandex, own search index, [[Russian]] search results oriented.
-&#10;
+&#10;<br>
 `@ya яша`
 
 ### Wiki-based search engines, community-driven
@@ -180,39 +180,39 @@ search engine results.
 Used to separate search terms and define how the search should be carried out.
 
 OR operator searches for a given search term OR an equivalent term.
-&#10;
+&#10;<br>
 ```
 site:facebook.com | site:twitter.com
 ```
 
 AND operator searches for a given search term AND another search term.
-&#10;
+&#10;<br>
 ```
 site:facebook.com & site:twitter.com
 ```
 
 Operators combination.
-&#10;
+&#10;<br>
 ```
 (site:facebook.com | site:twitter.com) & intext:"login"
 (site:facebook.com | site:twitter.com) (intext:"login")
 ```
 
 Include results.
-&#10;
+&#10;<br>
 This will order results by the number of occurrence of the keyword.
 ```
 -site:facebook.com +site:facebook.*
 ```
 
 Exclude results.
-&#10;
+&#10;<br>
 ```
 site:facebook.* -site:facebook.com
 ```
 
 Synonyms.
-&#10;
+&#10;<br>
 Adding a tilde to a search word tells Google that you want it to bring back
 synonyms for the term as well. For example, entering "~set" will bring back
 results that include words like "configure", "collection" and "change" which are
@@ -223,7 +223,7 @@ the dictionary.
 ```
 
 Glob pattern (*).
-&#10;
+&#10;<br>
 Putting an asterisk in a search tells Google ‘I don’t
 know what goes here’. Basically, it’s really good for finding half remembered
 song lyrics or names of things.
@@ -234,14 +234,14 @@ site:*.com
 #### Examples
 
 intext:"index of /" linux
-&#10;
+&#10;<br>
 Search for the term "index of /" in the body of the SERPs. Usually open
 `http/ftp` servers.
 
 `Nina Simone intitle:"index.of" "parent directory" "size" "last modified"
 "description" I Put A Spell On You (mp4|mp3|avi|flac|aac|ape|ogg)
 -inurl:(jsp|php|html|aspx|htm|cf|shtml|lyrics-realm|mp3-collection) -site:.info`
-&#10;
+&#10;<br>
 Search for Nina Simone's album "I Put A Spell On You" in the body of the SERPs.
 "parent directory" "size" "last modified" "description" are common strings
 (patterns) found on open `http/ftp` servers.
@@ -254,7 +254,7 @@ the `.info` TLD.
 `Bill Gates intitle:"index.of" "parent directory" "size" "last modified"
 "description" Microsoft (pdf|txt|epub|doc|docx)
 -inurl:(jsp|php|html|aspx|htm|cf|shtml|ebooks|ebook) -site:.info`
-&#10;
+&#10;<br>
 Search for Bill Gates documents, "parent directory" "size" "last modified"
 "description" are common strings (patterns) found on open `http/ftp` servers.
 Filter file types to `pdf`, `txt`, `epub`, `doc`, `docx` with OR operator.
@@ -262,7 +262,7 @@ Exclude URL's with `jsp`, `php`, `html`, `aspx`, `htm`, `cf`, `shtml`, `ebooks`,
 `ebook` and exclude all the results from the site with the `.info` TLD.
 
 `parent directory Mandriva  -xxx -html -htm -php -shtml -opendivx -md5 -md5sums`
-&#10;
+&#10;<br>
 Search for open directories (`parent directory` pattern) with `Mandriva` text.
 Exclude results from unnecessary pages (URL's containing `xxx`, `html`, `htm`,
 `php`, `shtml`, `opendivx`, `md5`, `md5sums`).
@@ -274,13 +274,13 @@ Search for `web.config` files that contain the word `config` and are located in
 ftp directories.
 
 `"Windows XP Professional" 94FBR`
-&#10;
+&#10;<br>
 Search for serial keys for Windows XP Professional (search education purpose
 only, don't pirate anything).
 
 `ext:(doc | pdf | xls | txt | ps | rtf | odt | sxw | psw | ppt | pps | xml)
 (intext:confidential salary | intext:"budget approved") inurl:confidential`
-&#10;
+&#10;<br>
 Find documents (doc, xls, ...) that contain the phrase "confidential salary" and
 "budget approved" in the body of the document. The documents are located in
 directories or at URL's named "confidential".

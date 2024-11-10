@@ -8,7 +8,7 @@ sr-interval: 1
 sr-ease: 229
 ---
 # Brute-force attack
-&#10;
+&#10;<br>
 > In [[cryptography]], a brute-force attack consists of an attacker
 > submitting many passwords or passphrases with the hope of eventually guessing
 > correctly. The attacker systematically checks all possible passwords and

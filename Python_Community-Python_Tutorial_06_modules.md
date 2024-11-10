@@ -50,7 +50,7 @@ def fib2(n):   # return Fibonacci series up to n
 ```
 
 When module functions definitions are executed?
-&#10;
+&#10;<br>
 A module can contain executable statements as well as function definitions.
 These statements are intended to initialize the module. They are executed only
 the *first* time the module name is encountered in an import statement.
@@ -60,7 +60,7 @@ execution of a module-level function definition adds the function name to the
 module's global namespace.
 
 Module namespace in Python (scope information)?
-&#10;
+&#10;<br>
 Each module has its own private namespace, which is used as the global namespace
 by all functions defined in the module.
 Thus, the author of a module can
@@ -106,7 +106,7 @@ the `__name__` set to ==`"__main__"`==.
 
 
 How to make the module file usable as a script as well as an importable module?
-&#10;
+&#10;<br>
 You can make the file usable as a script as well as an importable module,
 because the code that parses the command line only runs if the module is
 executed as the "main" file:
@@ -130,7 +130,7 @@ This is often used either to provide a convenient user interface to a module, or
 for testing purposes (running the module as a script executes a test suite).
 
 Python module search path?
-&#10;
+&#10;<br>
 When a module named `spam` is imported, the interpreter first searches for
 a built-in module with that name. These module names are listed in
 `sys.builtin_module_names`. If not found, it then searches for a file named
@@ -166,14 +166,14 @@ convention allows compiled modules from different releases and different
 versions of Python to coexist.
 
 How python determines module recompilation is required?
-&#10;
+&#10;<br>
 Python checks the modification date of the source against the compiled version
 to see if it's out of date and needs to be recompiled. This is a completely
 automatic process. Also, the compiled modules are platform-independent, so the
 same library can be shared among systems with different architectures.
 
 When Python does not check the module cache?
-&#10;
+&#10;<br>
 In two circumstances. First, it always recompiles and does not store the result
 for the module that's loaded directly from the command line. Second, it does not
 check the cache if there is no source module. To support a non-source (compiled
@@ -302,12 +302,12 @@ such as `string`, from unintentionally hiding valid modules that occur later
 on the module search path.
 
 Is `__init__.py` package file must be empty?
-&#10;
+&#10;<br>
 No, in the simplest case, `__init__.py` can just be an empty file, but it can
 also execute initialization code for the package or set the `__all__` variable.
 
 How to import individual modules from the package?
-&#10;
+&#10;<br>
 Users of the package can import individual modules from the package, for
 example:
 ```python
@@ -330,7 +330,7 @@ echo.echofilter(input, output, delay=0.7, atten=4)
 ```
 
 How `from package import item` is find required object and load it?
-&#10;
+&#10;<br>
 When using `from package import item`, the item can be either a
 submodule (or subpackage) of the package, or some other name defined in the
 package, like a function, class or variable. The `import` statement first
@@ -345,7 +345,7 @@ item.
 
 What happens when the user writes `from sound.effects import *`, we have some
 `sound` package with sub-modules and `__all__` is defined?
-&#10;
+&#10;<br>
 Ideally, one would hope that this somehow goes out to the filesystem, finds
 which submodules are present in the package, and imports them all. This could
 take a long time and importing sub-modules might have unwanted side-effects that
@@ -370,7 +370,7 @@ Be aware that imported submodules from package might become
 ==shadowed (used local object)== by locally defined names.
 
 What if package have no `__all__` defined?
-&#10;
+&#10;<br>
 If `__all__` is not defined, the statement `from package.name import *`
 does *not* import all submodules from the package it only ensures that the package has
 been imported and then imports whatever names are defined in the package.
@@ -383,13 +383,13 @@ from sound.effects import *
 ```
 
 Is `from package import specific_submodule` notation recommended?
-&#10;
+&#10;<br>
 There is nothing wrong with using `from package import specific_submodule` In
 fact, this is the recommended notation unless the importing module needs to use
 submodules with the same name from different packages.
 
 How to import a module with relative import (useful for package code)?
-&#10;
+&#10;<br>
 You can also write relative imports to import modules/packages, with the `from
 module import name` form of import statement. These imports use leading dots to
 indicate the current and parent packages involved in the relative import.
@@ -401,14 +401,14 @@ from ..filters import equalizer
 
 What if I want to use in main namespace, how I need to import it (absolute or
 relative)?
-&#10;
+&#10;<br>
 Note that relative imports are based on the name of the current module. Since
 the name of the main module is always `"__main__"`, modules intended for use
 as the main module of a Python application must always use **absolute imports**.
 
 What if you want to customize package modules search paths (add your own paths
 with some conditions), how to do it?
-&#10;
+&#10;<br>
 Packages support one more special attribute, `__path__`. This is
 initialized to be a list containing the name of the directory holding the
 package's `__init__.py` before the code in that file is executed. This

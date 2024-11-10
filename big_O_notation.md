@@ -10,7 +10,7 @@ sr-ease: 187
 # Big O notation in [[mathematics]] and [[computer_science|computer science]]
 
 What's Big O notation?
-&#10;
+&#10;<br>
 > Way of comparing rates of ==growth== of different functions, which depending
 > on function argument size. It is often used to compare the efficiency of
 > different algorithms, which is done by calculating how much memory is needed
@@ -25,13 +25,13 @@ efficiency? Is this fast or slow algorithm as fast as algorithms generally go?
 <!--SR:!2024-09-13,11,217-->
 
 Big O key concepts:
-&#10;
+&#10;<br>
 1. Growth is with respect of input
 2. Constants and lower order terms are ignored
 3. Worst case is _usually_ the way we measure
 
 Key question which describe Big $\mathcal{O}$?
-&#10;
+&#10;<br>
 If there are N data elements, how many steps will the algorithm take? <!--SR:!2024-09-22,13,177-->
 
 Big O is about how will an algorithm's performance (efficiency) change as the
@@ -51,7 +51,7 @@ complete. <!--SR:!2024-09-22,17,220-->
 An algorithm that is $\mathcal{O}(N)$ is also known as having ==linear== time. <!--SR:!2024-09-13,17,270-->
 
 If there are $N$ data elements, how many steps will linear search take?
-&#10;
+&#10;<br>
 $N$ steps, $\mathcal{O}(N)$ <!--SR:!2024-10-01,21,220-->
 
 $\mathcal{O}(1)$ algorithm can also be referred to as having ==constant== time.
@@ -69,20 +69,20 @@ it's describe relationship between input data and the algorithm ==efficiency==. 
 Let’s say we have an algorithm that always takes three steps no matter how
 much data there is. That is, for N elements, the algorithm always takes three
 steps. How would you express that in terms of Big O?
-&#10;
+&#10;<br>
 The algorithm is $\mathcal{O}(1)$. Because the number of steps is constant. Even
 if algorithms taking a lot of steps, at some point it will be faster than
 $\mathcal{O}N)$. <!--SR:!2024-09-27,22,250-->
 
 Let's say you have $N^2 + 2N - 2$ steps in your algorithm, how to express that
 with Big O?
-&#10;
+&#10;<br>
 At first glance you can simplify this to $O(N^2 + N)$, but Big O Notation only
 takes into account the **highest order** of N when we have multiple orders added
 together and we reducing it to $O(N^2)$.
 
 Is $\mathcal{O}(N)$ more efficient than $\mathcal{O}(1)$?
-&#10;
+&#10;<br>
 $\mathcal{O}(N)$ is less efficient than $\mathcal{O}(1)$, no matter how many
 steps (N) the $\mathcal{O}(1)$ algorithm always takes 1 step  or constant number. Even
 if $\mathcal{O}(1)$ takes a lot steps at some point it well be more efficient. <!--SR:!2024-11-05,53,270-->
@@ -105,7 +105,7 @@ steps. <!--SR:!2024-09-17,7,189-->
 
 [[bubble_sort_algorithm|Bubble sort]] taking about $N^2$ steps,
 [[selection_sort]] about $N^2/2$ steps, what is complexity of these algorithms?
-&#10;
+&#10;<br>
 $\mathcal{O}(N^2)$, yes it's correct, there major rule of Big O: _Big O
 notation ignores constants_. Big O Notation never includes regular numbers that
 aren't an exponent (except for $\mathcal{O}(1)$). <!--SR:!2024-09-06,4,210-->
@@ -116,7 +116,7 @@ Which Big O notation need to use in these cases?
 - $N^2 + 10$
 - $2N$
 - $100N$
-&#10;
+&#10;<br>
 - $\mathcal{O}(N^2)$
 - $\mathcal{O}(N)$
 - $\mathcal{O}(N^2)$
@@ -151,7 +151,7 @@ prime: Number 61 is prime
 NOT prime: Found factor 2 for number 66
 prime: Number 67 is prime
 ```
-&#10;
+&#10;<br>
 It's $\mathcal{O}(N)$. When passing the number N, how many steps will the
 algorithm take, for 7 is 5, for 101 about 101, etc. So it's taking linear time,
 we generate $N$ steps depending on number. <!--SR:!2024-09-26,13,177-->
@@ -177,7 +177,7 @@ def print_even_numbers_v2(upper_bound):
 ```
 What's complexity of two algorithms, how many significant steps has first
 version? Is second version faster?
-&#10;
+&#10;<br>
 Complexity of both algorithms is $\mathcal{O}(N)$.
 Significant steps for first version: $N$ comparisons, $N/2$ printing and $N$
 incrementing, in total $2.5N$ steps (practically can be more).
@@ -191,7 +191,7 @@ for (int i = 0; i < n; i++) {
     }
 }
 ```
-&#10;
+&#10;<br>
 If it **doesn't get optimized** out by the compiler, the complexity will still
 be $\mathcal{O}(n^2)$ - even though the loops bodies are empty, the condition
 checks and implementation of both counters are still valid operations which have

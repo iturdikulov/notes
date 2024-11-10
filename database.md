@@ -69,12 +69,12 @@ Primary key is a column (or set of columns, composite primary key), whose values
 used to ==identify each record in the table, to access them==.
 
 Is primary keys are strictly required?
-&#10;
+&#10;<br>
 They are not, but highly recommended. Even if today you don't need them, they can
 be useful in the future.
 
 Primary keys requirements?
-&#10;
+&#10;<br>
 - Unique, two or more rows can't have the same primary key values.
 - Primary key values can't be `NULL`.
 - Primary key values usually can't be changed (not recommended).

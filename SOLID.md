@@ -31,7 +31,7 @@ to** use them.
 ## Single-Responsibility Principle (SRP)
 
 - The **S**ingle-responsibility principle (SRP):
-&#10;
+&#10;<br>
 "There should **never** be more than **one** reason for a class to change."
 Every class should have only one responsibility.\
 One soldier one job.
@@ -39,27 +39,27 @@ One soldier one job.
 ## The Open–closed principle (OCP)
 
 - The Open–closed principle:
-&#10;
+&#10;<br>
 "Software entities ... should be open for extension, but closed for
 modification."
 
 ## The Liskov substitution principle (LSP)
 
 - The Liskov substitution principle:
-&#10;
+&#10;<br>
 "Functions that use pointers or references to base classes must be able to use
 objects of derived classes without knowing it." See also design by contract.
 
 ## The Interface segregation principle (ISP)
 
 - The Interface segregation principle:
-&#10;
+&#10;<br>
 "Clients should not be forced to depend upon interfaces that they do not use."
 
 ## The Dependency inversion principle (DIP)
 
 - The Dependency inversion principle:
-&#10;
+&#10;<br>
 "Depend upon abstractions, not concretes."
 
 

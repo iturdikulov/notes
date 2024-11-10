@@ -16,12 +16,12 @@ tags:
 Series of articles.
 
 What is a coroutine in general, how it's modify function behavior?
-&#10;
+&#10;<br>
 A coroutine gives the **interpreter** the ability to resume a base function that
 was suspended at the location where the await keyword was placed.
 
 If function contains `await` keyword it can be called as a coroutine.
-&#10;
+&#10;<br>
 Strictly speaking no, it's what function with await returning (coroutine
 object).
 `async def f` is asynchronous function, `f()` is coroutine object.

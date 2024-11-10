@@ -21,13 +21,13 @@ sr-ease: 270
 
 
 Is there strict typing in SQLite?
-&#10;
+&#10;<br>
 SQLite has a loose type system, you can store any type of data in any field,
 regardless of how you defined it. Remember: just because you can do something,
 doesn't mean you should! <!--SR:!2024-11-11,2,250-->
 
 How import data from SQL, which is main command at least?
-&#10;
+&#10;<br>
 ```bash
 sqlite3 ./my_db.sqlite
 .read ./backup.sql  # CORE command
@@ -35,7 +35,7 @@ sqlite3 ./my_db.sqlite
 ```
 
 How to dump data from SQLite to SQL, which is main command at least?
-&#10;
+&#10;<br>
 ```bash
 sqlite3 ./my_db.sqlite
 .mode csv     # set mode, optional

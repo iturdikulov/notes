@@ -74,7 +74,7 @@ learnxinyminutes [^1] cheatsheet.
 ## 1. Primitive Datatypes and Operators
 
 How to write comments, their types and usage?
-&#10;
+&#10;<br>
 ```python
 # Single line comments start with a number symbol.
 
@@ -93,11 +93,11 @@ Pi = 3.141592653589793  # need to place two spaces for same line comments
 <!--SR:!2024-10-27,4,182-->
 
 What is the result of this division `10.0 / 3`?
-&#10;
+&#10;<br>
 The result of division is always float, `10.0 / 3  => 3.3333333333333335` <!--SR:!2024-10-27,4,182-->
 
 What is the modulo operation?
-&#10;
+&#10;<br>
 Mathematical operation that finds the remainder of an integer division.
 ```python
 print(7 % 3)  # => 1
@@ -109,12 +109,12 @@ print(-7 % 3)  # => 2
 <!--SR:!2024-10-27,2,162-->
 
 What is exponentiation and how to use it in Python?
-&#10;
+&#10;<br>
 Raise a number to a power. In python exist special operator `**`, `2**3 => 8`,
 x**y, x to the y'th power. <!--SR:!2024-10-27,4,182-->
 
 How to enforce custom precedence in Python?
-&#10;
+&#10;<br>
 Need to use parentheses:
 ```python
 1 + 3 * 2    #  => 7
@@ -132,7 +132,7 @@ Need to use parentheses:
 ```
 
 Most basic and efficient data type in Python (and other languages) is?
-&#10;
+&#10;<br>
 Boolean values, they are primitives (Note: the capitalization)
 ```python
 True   # => True
@@ -141,7 +141,7 @@ False  # => False
 ` <!--SR:!2024-11-02,7,182-->
 
 How do you negate a Boolean value?
-&#10;
+&#10;<br>
 With not.
 ```python
 not True   # => False
@@ -150,7 +150,7 @@ not False  # => True
 <!--SR:!2024-10-27,4,182-->
 
 Boolean Operators in python?
-&#10;
+&#10;<br>
 "and" and "or", case-sensitive
 ```python
 True and False  # => False
@@ -159,7 +159,7 @@ False or True   # => True
 <!--SR:!2024-10-27,4,182-->
 
 How do True and False relate to numerical values?
-&#10;
+&#10;<br>
 True and False are actually 1 and 0 but with different keywords.
 ```python
 True + True  # => 2
@@ -169,7 +169,7 @@ False - 5    # => -5
 <!--SR:!2024-10-26,4,182-->
 
 How do comparison operators actually work?
-&#10;
+&#10;<br>
 Look at the numerical value of True and False or boolean representations of
 values.
 ```python
@@ -182,7 +182,7 @@ values.
 
 How do you evaluate `None`, `0`, and empty
 `strings`/`lists`/`dicts`/`tuples`/`sets`?
-&#10;
+&#10;<br>
 None, 0, and empty strings/lists/dicts/tuples/sets all evaluate to False. All
 other values are True.
 ```python
@@ -198,11 +198,11 @@ bool(-6)     # => True
 <!--SR:!2024-10-26,4,182-->
 
 How do boolean logical operators (and, or) on ints work (casting), bool(X)?
-&#10;
+&#10;<br>
 Using boolean logical operators (and/or) on ints casts them to booleans for evaluation,
 but their non-cast value is returned. Don't mix up with bool(ints) and bitwise
 and/or (&,|).
-&#10;
+&#10;<br>
 ```python
 bool(0)   # => False, boolean value!
 bool(2)   # => True
@@ -214,7 +214,7 @@ bool(2)   # => True
 <!--SR:!2024-10-25,2,162-->
 
 How to use equality in Python?
-&#10;
+&#10;<br>
 Equality is the `==` operator.
 ```python
 1 == 1  # => True
@@ -222,7 +222,7 @@ Equality is the `==` operator.
 ```
 
 How to use inequality in Python?
-&#10;
+&#10;<br>
 Inequality is the `!=` operator.
 ```python
 1 != 1  # => False
@@ -231,7 +231,7 @@ Inequality is the `!=` operator.
 <!--SR:!2024-11-05,7,182-->
 
 How to use more or less than operators in Python?
-&#10;
+&#10;<br>
 ```python
 1 < 10  # => True,  1 is less than 10
 1 > 10  # => False, 1 is greater than 10
@@ -241,7 +241,7 @@ How to use more or less than operators in Python?
 <!--SR:!2024-10-27,4,182-->
 
 How do you see whether a value is in a numeric range (1..100)?
-&#10;
+&#10;<br>
 You can use following comparations:
 ```python
 # Seeing whether a value is in a range
@@ -254,7 +254,7 @@ You can use following comparations:
 <!--SR:!2024-10-25,2,162-->
 
 What is the difference between `is` and `==`?
-&#10;
+&#10;<br>
 ```python
 # `Is` checks if two variables refer to the **same object**, but `==` checks
 # if the objects pointed to have the **same values**.
@@ -269,7 +269,7 @@ b == a            # => True, a's and b's objects are equal
 ```
 
 How do you create strings?
-&#10;
+&#10;<br>
 Strings are created with " or '.
 ```python
 "This is a string."
@@ -280,7 +280,7 @@ f"This is a formatted string with placeholders: Name - {name}."
 <!--SR:!2024-10-27,4,182-->
 
 How do you add (concatenate) strings?
-&#10;
+&#10;<br>
 ```python
 # Strings can be added with "+"
 "Hello " + "world!"  # => "Hello world!"
@@ -294,7 +294,7 @@ print(
 <!--SR:!2024-11-11,4,162-->
 
 Can be string treated like a list of characters?
-&#10;
+&#10;<br>
 ```python
 # Yes, in python also no "char" type, type("s")
 "Hello world!"[0]  # => 'H'
@@ -308,7 +308,7 @@ len([1, 2, 3])           # => 3
 ```
 
 What are f-strings?
-&#10;
+&#10;<br>
  Since Python 3.6, you can use f-strings or formatted string literals, to place
 variables inside a string (sort of template).
 ```python
@@ -320,7 +320,7 @@ f"{name} is {len(name)} characters long."  # => "Reiko is 5 characters long."
 <!--SR:!2024-10-26,4,182-->
 
 Is `None` an object?
-&#10;
+&#10;<br>
 Yes, like any other data.
 ```python
 isinstance(None, object)  # => True
@@ -346,7 +346,7 @@ print(type(test), isinstance(test, FunctionType))
 <!--SR:!2024-11-12,5,162-->
 
 How do you compare objects to None and why?
-&#10;
+&#10;<br>
 `is` checks to see if the object is the same object, while `==` just checks if
 they are equivalent, some classes have custom comparison methods that treat `==
 None` differently from `is None`.
@@ -371,7 +371,7 @@ a is None   # => False
 ## 2. Variables and Collections
 
 What is the `print` function?
-&#10;
+&#10;<br>
 Prints text to the console
 ```python
 print("I'm Python. Nice to meet you!")  # => I'm Python. Nice to meet you!
@@ -380,18 +380,18 @@ print("Hello, World", end="!")  # => Hello, World!
 <!--SR:!2024-10-26,4,182-->
 
 How do you get input from the console?
-&#10;
+&#10;<br>
 ```python
 input_string_var = input("Enter some data: ")  # Returns the data as a string
 ```
 <!--SR:!2024-10-26,4,182-->
 
 Is there a declaration in Python (`cpython`)?
-&#10;
+&#10;<br>
 There are no declarations (type hints are not declarations), only assignments. <!--SR:!2024-10-27,4,182-->
 
 Convention in naming variables is?
-&#10;
+&#10;<br>
 snake_case style and not starting with number
 ```python
 some_var = 5
@@ -400,7 +400,7 @@ some_var  # => 5
 <!--SR:!2024-10-27,4,182-->
 
 What happens if you access an unassigned variable?
-&#10;
+&#10;<br>
 Accessing a previously unassigned variable is an exception.
 See [[#3. Control Flow and Iterables]] to learn more about exception handling.
 ```python
@@ -408,7 +408,7 @@ some_unknown_var  # Raises a NameError
 ```
 
 How can you use if as an expression (like ternary operator)?
-&#10;
+&#10;<br>
 Equivalent of C's `?:` ternary operator.
 ```python
 "yay!" if 0 > 1 else "nay!"  # => "nay!"
@@ -417,7 +417,7 @@ Equivalent of C's `?:` ternary operator.
 <!--SR:!2024-10-26,4,182-->
 
 What are lists, how to create them?
-&#10;
+&#10;<br>
 Data structure which store sequences.
 ```python
 li = []
@@ -427,7 +427,7 @@ other_li = [4, 5, 6]
 <!--SR:!2024-11-05,7,182-->
 
 How do you add elements to a list and remove them?
-&#10;
+&#10;<br>
 ```python
 li = []
 # Add stuff to the end of a list with append
@@ -443,7 +443,7 @@ li.append(3)    # li is now [1, 2, 4, 3] again.
 <!--SR:!2024-10-26,4,182-->
 
 How do you access elements in a list?
-&#10;
+&#10;<br>
 ```python
 # Access a list like you would any array
 li[0]   # => 1
@@ -453,7 +453,7 @@ li[-1]  # => 3
 <!--SR:!2024-10-26,4,182-->
 
 Looking out of list bounds (accessing) is an?
-&#10;
+&#10;<br>
 index error:
 ```python
 li = [1, 2, 3]
@@ -471,7 +471,7 @@ li[:3]    # Return list ...
 li[::2]   # Return list ...
 li[::-1]  # Return list ...
 ```
-&#10;
+&#10;<br>
 You can look at ranges with slice syntax. The start index is included, the end
 index is not (it's a closed/open range for you mathy types).
 ```python
@@ -488,7 +488,7 @@ li[::-2]  # [3, 2], return list in reverse order with step size 2
 <!--SR:!2024-10-24,1,167-->
 
 Can we use slicing to create copy of list?
-&#10;
+&#10;<br>
 Yes. But be careful, we are creating shallow copy.
 ```python
 a = []
@@ -498,7 +498,7 @@ li2 = li[:]  # => li2 = [1, 2, 4, 3] but (li2 is li) will result in false.
 ```
 
 How do you remove arbitrary elements from a list?
-&#10;
+&#10;<br>
 Remove arbitrary elements from a list with "del"
 ```python
 li = [1, 2, 4, 3]
@@ -507,7 +507,7 @@ del li[2]  # li is now [1, 2, 3]
 
 How do you remove the first occurrence of a value in a list, what if we are
 trying to remove a value that is not in the list or remove it two times?
-&#10;
+&#10;<br>
 Remove first occurrence of a value
 ```python
 li = [1, 2, 3]
@@ -517,7 +517,7 @@ li.remove(2)  # Raises a ValueError as 2 is not in the list
 ```
 
 How do you insert an element at a specific index in a list?
-&#10;
+&#10;<br>
 Need to use `insert` method.
 ```python
 li = [1, 3]
@@ -533,7 +533,7 @@ li.index(4)  # Raises a ValueError as 4 is not in the list
 ```
 
 How do you add lists (concatenate lists)?
-&#10;
+&#10;<br>
 You can concatenate lists with `+` operator or with `extend(l)` method.
 ```python
 # Note: values for li and for other_li are not modified.
@@ -549,7 +549,7 @@ li_2.extend(other_li)  # Now li is [1, 2, 3, 4, 5, 6]
 li == li_2  # => True
 ```
 How do you check for existence in a list?
-&#10;
+&#10;<br>
 With `in` operator.
 ```python
 li = [1, 2, 3]
@@ -557,16 +557,16 @@ li = [1, 2, 3]
 ```
 
 How do you examine the length of a list? |
-&#10;
+&#10;<br>
 Examine the length with universal "len()" method (working for any iterable).
-&#10;
+&#10;<br>
 ```python
 li = [3, 1, 4]
 len(li)  # => 3
 ```
 
 Tuples are like lists, but they are (main property)?
-&#10;
+&#10;<br>
 But they are immutable.
 ```python
 tup = (1, 2, 3)
@@ -575,7 +575,7 @@ tup[0] = 3  # Raises a TypeError
 ```
 
 How do you create a tuple of length one, zero?
-&#10;
+&#10;<br>
 Note that a tuple of length one has to have a comma after the last element but
 tuples of other lengths, even zero, do not.
 ```python
@@ -592,7 +592,7 @@ len(b)   # => 0
 
 Can do you perform list operations (get length, concatenate, slice, existence
 check) on tuples?
-&#10;
+&#10;<br>
 Yes, you can do most of the list operations on tuples too
 ```python
 len(tup)         # => 3
@@ -603,7 +603,7 @@ tup[:2]          # => (1, 2)
 
 How do you unpack tuples (`(1, 2, 3)`), is it possible to unpack
 arbitrary-lenght tuple into few variables, nested unpacking?
-&#10;
+&#10;<br>
 You can unpack tuples (or lists) into variables
 ```python
 a, b, c = (1, 2, 3)  # a is now 1, b is now 2 and c is now 3
@@ -628,7 +628,7 @@ e, d = d, e  # d is now 5 and e is now 4
 ```
 
 What are dictionaries?
-&#10;
+&#10;<br>
 Dictionaries ([[hash_table]]) store mappings from keys to values.
 ```python
 empty_dict = {}
@@ -637,7 +637,7 @@ filled_dict = {"one": 1, "two": 2, "three": 3}
 ```
 
 What are the requirements for keys in dictionaries?
-&#10;
+&#10;<br>
 Keys for dictionaries have to be immutable types. This is to ensure that
 the key can be converted to a constant hash value for quick look-ups.
 Immutable types include ints, floats, strings, tuples.
@@ -647,7 +647,7 @@ valid_dict = {(1,2,3):[1,2,3]}   # Values can be of any type, however.
 ```
 
 How do you look up values in a dictionary?
-&#10;
+&#10;<br>
 Look up values with `[]`
 ```python
 filled_dict = {"one": 1, "two": 2, "three": 3}
@@ -655,7 +655,7 @@ filled_dict["one"]  # => 1
 ```
 
 How do you get all keys and values from a dictionary?
-&#10;
+&#10;<br>
 Get all keys as an iterable with "keys()". We need to wrap the call in list() to
 turn it into a list. Note - for Python versions <3.7, dictionary key ordering is
 not guaranteed. Your results might not match the example below exactly. However,
@@ -676,7 +676,7 @@ list(filled_dict.values())  # => [1, 2, 3] in Python 3.7+
 ```
 
 How do you check for existence of keys in a dictionary?
-&#10;
+&#10;<br>
 Check for existence of keys in a dictionary with "in"
 ```python
 filled_dict = {"one": 1, "two": 2, "three": 3}
@@ -686,7 +686,7 @@ filled_dict = {"one": 1, "two": 2, "three": 3}
 
 Looking up a non-existing key is a `KeyError`: `filled_dict["four"]  # KeyError`,
 how to avoid getting a `KeyError` and return a default value?
-&#10;
+&#10;<br>
 Use "get()" method to avoid the KeyError
 ```python
 filled_dict = {"one": 1, "two": 2, "three": 3}
@@ -699,7 +699,7 @@ filled_dict.get("four", 4)  # => 4
 ```
 
 How do you insert into a dictionary only if the given key **isn't** present?
-&#10;
+&#10;<br>
 Need to use `"setdefault()"` method:
 ```python
 filled_dict = {"one": 1, "two": 2, "three": 3}
@@ -716,7 +716,7 @@ filled_dict["four"] = 4         # another way to add to dict
 ```
 
 How do you remove keys from a dictionary?
-&#10;
+&#10;<br>
 With `del`:
 ```python
 filled_dict = {"one": 1, "two": 2, "three": 3}
@@ -724,7 +724,7 @@ del filled_dict["one"]  # Removes the key "one" from filled dict
 ```
 
 How do you use additional unpacking options in dictionaries?
-&#10;
+&#10;<br>
 From Python 3.5 you can also use the additional unpacking options:
 ```python
 {"a": 1, **{"b": 2}}  # => {'a': 1, 'b': 2}
@@ -732,7 +732,7 @@ From Python 3.5 you can also use the additional unpacking options:
 ```
 
 What sets store?
-&#10;
+&#10;<br>
 Sets store unique values of sequences.
 ```python
 empty_set = set()
@@ -741,7 +741,7 @@ some_set = {1, 1, 2, 2, 3, 4}  # some_set is now {1, 2, 3, 4}
 ```
 
 Similar to keys of a dictionary, elements of a set have to be (requirements)?
-&#10;
+&#10;<br>
 Immutable:
 ```python
 invalid_set = {[1], 1}  # => Raises a TypeError: unhashable type: 'list'
@@ -749,7 +749,7 @@ valid_set = {(1,), 1}
 ```
 
 How do you add elements to a set?
-&#10;
+&#10;<br>
 By using `add` method.
 ```python
 some_set = {1, 1, 2, 2, 3, 4}  # some_set is now {1, 2, 3, 4}
@@ -764,7 +764,7 @@ filled_set.add(5)  # it remains as before {1, 2, 3, 4, 5}
 
 How do you perform set operations like intersection, union, difference and
 symmetric difference?
-&#10;
+&#10;<br>
 ```python
 filled_set = {1, 2, 3, 4, 5}
 other_set = {3, 4, 5, 6}
@@ -783,7 +783,7 @@ filled_set | other_set  # => {1, 2, 3, 4, 5, 6}
 ```
 
 How to check if a set is a superset of another set:
-&#10;
+&#10;<br>
 ```python
 # Check if set on the left is a superset of set on the right
 {1, 2} >= {1, 2, 3}  # => False
@@ -793,7 +793,7 @@ How to check if a set is a superset of another set:
 ```
 
 How do you check for existence in a set?
-&#10;
+&#10;<br>
 By using `is` operator:
 ```python
 2 in filled_set   # => True
@@ -801,7 +801,7 @@ By using `is` operator:
 ```
 
 How do you make a copy (one layer deep copy) of a set?
-&#10;
+&#10;<br>
 ```python
 filled_set = some_set.copy()  # filled_set is {1, 2, 3, 4, 5}
 filled_set is some_set        # => False
@@ -810,7 +810,7 @@ filled_set is some_set        # => False
 ## 3. Control Flow and Iterables
 
 How to use control flow in Python?
-&#10;
+&#10;<br>
 ```python
 # Let's just make a variable
 some_var = 5
@@ -827,7 +827,7 @@ else:                  # This is optional too.
 ```
 
 What are the for loops do?
-&#10;
+&#10;<br>
 For loops iterate over lists/sequences/iterables:
 ```python
 """
@@ -842,7 +842,7 @@ for animal in ["dog", "cat", "mouse"]:
 ```
 
 What is the range function?
-&#10;
+&#10;<br>
 `range(number)` returns an `iterable` of numbers from zero up to (but excluding)
 the given number, how to use it?
 ```python
@@ -882,7 +882,7 @@ for i in range(4, 8, 2):
 
 How do you loop over a list to retrieve both the index and the value of each
 list item?
-&#10;
+&#10;<br>
 ```python
 """
 Loop over a list to retrieve both the index and the value of each list item:
@@ -896,7 +896,7 @@ for i, value in enumerate(animals):
 ```
 
 How a `while` loops are working?
-&#10;
+&#10;<br>
 While loops go until a condition is no longer met `True`, even "infinitely" if
 the condition is never met.
 ```python
@@ -915,7 +915,7 @@ while x < 4:
 
 How do you handle exceptions with a try/except block, how else and finnaly in
 try/except block is working?
-&#10;
+&#10;<br>
 Handle exceptions with a try/except block
 ```python
 try:
@@ -933,7 +933,7 @@ finally:                 # Execute under all circumstances
 ```
 
 How do you clean up resources without try/finally (with closing)?
-&#10;
+&#10;<br>
 Instead of try/finally to clean up resources you can use a with statement:
 ```python
 with open("myfile.txt") as f:
@@ -942,7 +942,7 @@ with open("myfile.txt") as f:
 ```
 
 How do you write to a file (string or JSON)?
-&#10;
+&#10;<br>
 Writing to a file:
 ```python
 contents = {"aa": 12, "bb": 21}
@@ -955,7 +955,7 @@ with open("myfile2.txt", "w") as file:
 ```
 
 How do you read from a file as string, parsed JSON into dictionary?
-&#10;
+&#10;<br>
 ```python
 with open("myfile1.txt") as file:
     contents = file.read()           # reads a string from a file
@@ -968,7 +968,7 @@ print(contents)  # => {"aa": 12, "bb": 21}
 <!--SR:!2024-10-26,1,167-->
 
 What is an iterable?
-&#10;
+&#10;<br>
 Python offers a fundamental abstraction called the Iterable. An iterable, is an
 object that can be treated as a sequence. The object returned by the range
 function, is an iterable.
@@ -983,7 +983,7 @@ our_iterator = iter(our_iterable)
 ```
 
 How do you loop over an iterable?
-&#10;
+&#10;<br>
 We can loop over it with `for` loop:
 ```python
 filled_dict = {"one": 1, "two": 2, "three": 3}
@@ -997,7 +997,7 @@ our_iterable[1]  # Raises a TypeError
 
 How do you get the next object from an iterator, what if we grabbed all data
 from iterable?
-&#10;
+&#10;<br>
 Our iterator is an object that can remember the state as we traverse through
 it. We get the next object with `next()`.
 ```python
@@ -1013,7 +1013,7 @@ next(our_iterator)  # Raises StopIteration
 ```
 
 How to loop over an iterable without using `next`?
-&#10;
+&#10;<br>
 We can loop over it with `for`, in fact, "for" automatically call `next` for us:
 ```python
 our_iterator = iter({"one": 1, "two": 2, "three": 3}.keys())
@@ -1022,7 +1022,7 @@ for i in our_iterator:
 ```
 
 How to grab all the elements of an iterable or iterator?
-&#10;
+&#10;<br>
 By call `list()` function:
 ```python
 list(our_iterable)  # => Returns ["one", "two", "three"]
@@ -1033,7 +1033,7 @@ list(our_iterator)  # => Returns [] because state is saved
 ## 4. Functions
 
 How to create Python function?
-&#10;
+&#10;<br>
 Use `def` to create new functions:
 ```python
 def add(x, y):
@@ -1042,7 +1042,7 @@ def add(x, y):
 ```
 
 How do you call functions with parameters, keyword arguments?
-&#10;
+&#10;<br>
 Need to pass arguments/parameters in parentheses:
 ```python
 def add(x, y):
@@ -1057,7 +1057,7 @@ add(y=6, x=5)  # Keyword arguments can arrive in any order.
 
 How do you define functions that take a variable number of positional arguments,
 keyword argmunts?
-&#10;
+&#10;<br>
 Need to use `*args` or `**kwargs`, conventional, but not strict variable names
 with prefixes:
 ```python
@@ -1085,7 +1085,7 @@ all_the_args(1, 2, a=3, b=4)
 
 How to call function with `args` and `kwargs` from some variables (expand
 tuple/dict)?
-&#10;
+&#10;<br>
 Use * to expand `args` (tuples) and use `**` to expand `kwargs` (dictionaries).
 ```python
 def all_the_args(*args, **kwargs):
@@ -1100,7 +1100,7 @@ all_the_args(*args, **kwargs)  # equivalent: all_the_args(1, 2, 3, 4, a=3, b=4)
 ```
 
 How do you return multiple values from a function?
-&#10;
+&#10;<br>
 Returning multiple values is can be made with tuple assignments:
 ```python
 def swap(x, y):
@@ -1115,7 +1115,7 @@ x, y = swap(x, y)     # => x = 2, y = 1
 
 What is the difference between local and global scope, how to override variable
 from global scope?
-&#10;
+&#10;<br>
 Global Scope: Variables declared outside of functions are accessible everywhere
 in your program. They're like things you've placed in the room, anyone can see
 them.
@@ -1152,7 +1152,7 @@ prints:
 ```
 
 Does python support first-class functions?
-&#10;
+&#10;<br>
 Yes, python has first class functions
 ```python
 def create_adder(x):
@@ -1181,7 +1181,7 @@ bar(1)  # print 6
 ```
 
 How we can modify variables out of closure function in python?
-&#10;
+&#10;<br>
 We can use the `nonlocal` keyword to work with variables in nested scope which
 shouldn't be declared in the inner functions.
 ```python
@@ -1201,7 +1201,7 @@ avg(7)  # (8+7)/3 => 5.0
 ```
 
 How to use anonymous functions?
-&#10;
+&#10;<br>
 <!-- TODO: more info about anonymous functions -->
 We can define anonymous functions with `lambda` keyword.
 ```python
@@ -1211,7 +1211,7 @@ We can define anonymous functions with `lambda` keyword.
 
 Is Python has built-in higher order functions?
 <!-- TODO: more info about higher order functions -->
-&#10;
+&#10;<br>
 There are built-in higher order functions
 ```python
 list(map(add_10, [1, 2, 3]))          # => [11, 12, 13]
@@ -1221,7 +1221,7 @@ list(filter(lambda x: x > 5, [3, 4, 5, 6, 7]))  # => [6, 7]
 ```
 
 Is there alternative to maps and filters?
-&#10;
+&#10;<br>
 Yes, we can use list comprehensions for nice maps and filters
 List comprehension stores the output as a list (which itself may be nested).
 This structures are very "Pythonic" and can be used to make code more readable.
@@ -1244,7 +1244,7 @@ add_10 = create_adder(10)
 
 How to import module, specific function from module, all from module (not
 recommended)?
-&#10;
+&#10;<br>
 ```python
 # You can import modules
 import math
@@ -1261,7 +1261,7 @@ from math import *
 ```
 
 How do you shorten module names while importing them?
-&#10;
+&#10;<br>
 You can shorten module names with `as` keyword:
 ```python
 import math as m
@@ -1269,12 +1269,12 @@ math.sqrt(16) == m.sqrt(16)  # => True
 ```
 
 What are really Python modules?
-&#10;
+&#10;<br>
 Python modules are just ordinary Python files. You can write your own, and
 import them. The name of the module is the same as the name of the file.
 
 How do you find out which functions and attributes are defined in a module?
-&#10;
+&#10;<br>
 Need to use `dir()` function:
 ```python
 import math
@@ -1283,7 +1283,7 @@ dir(math)
 
 What happens if you have a Python script named `math.py` in the same directory
 as your current script?
-&#10;
+&#10;<br>
 The file `math.py` will be loaded instead of the built-in Python module when you
 import `math` module. This happens because the local directory has priority over
 Python's built-in libraries.
@@ -1292,7 +1292,7 @@ Python's built-in libraries.
 ## 6. Classes
 
 What is a class, how to create it, class basic structure?
-&#10;
+&#10;<br>
 We use the "class" statement to create a class, this is some standard class
 example:
 ```python
@@ -1359,7 +1359,7 @@ class Human:
 When a Python interpreter reads a source file (import module) it executes all
 its code. How to avoid execute some code when we import module and execute it if
 we run module as a script?
-&#10;
+&#10;<br>
 Need to use `__name__` variable checking, this check makes sure this code block
 is only executed when this module is the main program:
 ```python
@@ -1368,7 +1368,7 @@ if __name__ == "__main__":
 ```
 
 How do you instantiate a class and use class methods?
-&#10;
+&#10;<br>
 ```python
 i = Human(name="Ian")
 i.say("hi")                     # "Ian: hi"
@@ -1381,7 +1381,7 @@ i.say(i.get_species())          # "Ian: H. sapiens"
 ```
 
 How to change the class shared attribute?
-&#10;
+&#10;<br>
 With dot notation:
 ```python
 Human.species = "H. neanderthalensis"
@@ -1390,7 +1390,7 @@ j.say(j.get_species())          # => "Joel: H. neanderthalensis"
 ```
 
 How do you call class static methods with or without instantiating a class?
-&#10;
+&#10;<br>
 ```python
 # Call the static method without instantiating a class
 print(Human.grunt())            # => "*grunt*"
@@ -1400,7 +1400,7 @@ print(i.grunt())                # => "*grunt*"
 ```
 
 How do you get/update/delete properties of the class instance?
-&#10;
+&#10;<br>
 Need to use dot notation:
 ```python
 i.age = 42
@@ -1416,7 +1416,7 @@ del i.age
 ## 6.1 Inheritance
 
 What is inheritance for classes?
-&#10;
+&#10;<br>
 Inheritance allows new child classes to be defined that inherit methods and
 variables from their parent class. Syntax is:
 ```python
@@ -1425,7 +1425,7 @@ class ChildClass(ParentClass):
 ```
 
 What is the `super` function inside `__init__` method?
-&#10;
+&#10;<br>
 The `super` function lets you access the parent class's methods
 that are overridden by the child, in this case, the __init__ method.
 This calls the parent class constructor: `super().__init__(name)`.
@@ -1453,7 +1453,7 @@ b = Car()     # => "Driving..."
 
 How to get the class instance "Method Resolution Order" attribute used by both
 `getattr()` and `super()` and why it's needed?
-&#10;
+&#10;<br>
 This needed to get/check the order in which classes are searched for an
 attribute or method. This attribute is dynamic and can be updated:
 ```python
@@ -1463,7 +1463,7 @@ print(Superhero.__mro__)    # => (<class '__main__.Superhero'>,
 
 How do you define a child `Superhero` class inherited from `Human` class?
 How to import this classes?
-&#10;
+&#10;<br>
 Using the Human class as the base or parent class, we can
 define a child class, Superhero, which inherits variables like "species",
 "name", and "age", as well as methods, like "sing" and "grunt"
@@ -1616,7 +1616,7 @@ sup = Batman()
 ```
 What `print(Batman.__mro__)`, `print(sup.get_species()`, `print(sup.fly)` will
 print?
-&#10;
+&#10;<br>
 ```python
 if __name__ == "__main__":
     sup = Batman()
@@ -1652,7 +1652,7 @@ if __name__ == "__main__":
 Sometimes you need to get values in chunks/by one, and you also don't want to
 get all of them for example (stop iteration early). This known as `lazy code`,
 is python supported way to do it?
-&#10;
+&#10;<br>
 Yes, Python generators help you make lazy code.
 Generators are memory-efficient because they only load the data needed to
 process the next value in the iterable. This allows them to perform
@@ -1670,7 +1670,7 @@ for i in double_numbers(range(1, 900000000)):  # `range` is a generator.
 ```
 
 How to create a generator comprehension?
-&#10;
+&#10;<br>
 Just as you can create a list comprehension, you can create generator
 comprehensions as well.
 ```python
@@ -1681,7 +1681,7 @@ for x in values:
 ```
 
 How to cast a generator comprehension directly to a list?
-&#10;
+&#10;<br>
 Need to use `list()` function:
 ```python
 values = (-x for x in [1,2,3,4,5])
@@ -1690,7 +1690,7 @@ print(gen_to_list)  # => [-1, -2, -3, -4, -5]
 ```
 
 What is a decorator, how wrapper works?
-&#10;
+&#10;<br>
 Decorators are a form of syntactic sugar. They make code easier to read while
 accomplishing clunky syntax. Wrappers are one type of decorator. They're really
 useful for adding logging to existing functions without needing to modify them.
@@ -1724,7 +1724,7 @@ my_function(1,2)  # => "Entering function my_function"
 
 Which problems with code inspection (`.__name__`, `.__code__.co_argcount`) for
 decorated functions you know and how to solve them?
-&#10;
+&#10;<br>
 ```python
 def log_function(func):  # we pass function into wrapper
     def wrapper(*args, **kwargs):  # "wrapper" name is requirement

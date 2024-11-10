@@ -42,7 +42,7 @@ Move backward and forward through the jump list::`C-o` / `i`
 
 Bisect forward and backward between the last two jump points. Generate new
 jump point and go to it.
-&#10;
+&#10;<br>
 `C-j` / `^k`
 
 Abort (for example from command-line mode)::`Esc` / `C-c`

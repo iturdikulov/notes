@@ -43,7 +43,7 @@ end
 ```
 How many steps this algorithm take for $N$ data elements in the worst case?
 Please take into account all operations such as assignment, arithmetic, etc.
-&#10;
+&#10;<br>
 For $N$ data elements this code will take $3N$ steps.
 
 ## World builder
@@ -72,7 +72,7 @@ function wordBuilder(array) {
 }
 console.log(wordBuilder(['a', 'b', 'c', 'd']));
 ```
-&#10;
+&#10;<br>
 Time complexity of this algorithm is $\mathcal{O}(N^2)$.
 
 What is the time complexity of this algorithm?
@@ -94,7 +94,7 @@ function wordBuilder(array) {
 }
 console.log(wordBuilder(['a', 'b', 'c', 'd']));
 ```
-&#10;
+&#10;<br>
 Time complexity of this algorithm is $\mathcal{O}(N^3)$.
 
 ## Array sample
@@ -108,7 +108,7 @@ def sample(sample_array):
 
     return [first, middle, last]
 ```
-&#10;
+&#10;<br>
 Function ends up taking the same number of steps (~3) no matter what N is
 (number of elements in the array).
 So complexity is $\mathcal{O}(1)$. <!--SR:!2024-09-19,10,250-->
@@ -139,7 +139,7 @@ def average_celsius(fahrenheit_readings)
   return sum / celsius_numbers.length
 end
 ```
-&#10;
+&#10;<br>
 $\mathcal{O}(N)$, we have 2 loops, first loop generate about $N$ steps (if we
 ignore insertion), second $N$ steps (and few constant steps), and by using Big O
 notation this will be reduced from $2N$ into $\mathcal{O}(N)$.
@@ -176,7 +176,7 @@ print(mark_inventor(["Purple Shirt", "Green Shirt"]))
     "Green Shirt Size: 5",
 ]
 ```
-&#10;
+&#10;<br>
 This code runs around $5N$ times, the inner loop will always run five times no
 matter what N is. This is reduced to $O(N)$, since Big O notation ignores
 constants.
@@ -198,7 +198,7 @@ def count_ones(outer_array):
 
 count_ones([[0, 1, 1, 1, 0], [0, 1, 0, 1, 0, 1], [1, 0]])
 ```
-&#10;
+&#10;<br>
 The outer loop is iterating over the inner arrays, and the inner loop is
 iterating over the actual numbers. At the end of the day, our inner loop only
 runs for as many numbers as there are in **total**. Because of this, we can say
@@ -244,7 +244,7 @@ console.log(isPalindrome("дед"));
 console.log(isPalindrome("наворован"));
 console.log(isPalindrome("люк"));
 ```
-&#10;
+&#10;<br>
 The guts of the algorithm takes place within the while loop. Now, this loop is
 somewhat interesting because it only runs until it reaches the midpoint of the
 string. That would mean that the loop runs $N/2$ steps (if we ignore some
@@ -277,7 +277,7 @@ function twoNumberProducts(array) {
     return products;
 }
 ```
-&#10;
+&#10;<br>
 About $(\frac{N^2}{2})$.
 ```text
 N is 8, so there are 8^2, or 64, squares, steps number is N^2/2
@@ -313,7 +313,7 @@ function twoNumberProducts(array1, array2) {
 }
 console.log(twoNumberProducts([1, 2, 3], [10, 100, 1000]));
 ```
-&#10;
+&#10;<br>
 $\mathcal{O}(N*M)$, can be construed as a range between $O(N)$ and $O(N^2)$.
 Here’s a tale of two scenarios:\
 In Scenario 1, there are two arrays of size 5, total steps is $25$.\
@@ -335,7 +335,7 @@ def every_password(n)
 end
 print every_password(2)  # be careful with values ~3
 ```
-&#10;
+&#10;<br>
 `a-z` ~ 26 steps, number of character in alphabet.
 We can express this algorithm steps as $26^n$.\
 if $n = 2$, $26 * 26 = 676$ steps,
@@ -375,7 +375,7 @@ end
 
 print(one_hundred_sum?([50, 50, 50, 50, 50, 50, 50, 50, 50, 50]))
 ```
-&#10;
+&#10;<br>
 Here, $N$ is the size of the array.
 $\mathcal{O}(N)$, here we do about $4N/2$ steps. In worst keys all array numbers
 are 50.
@@ -419,7 +419,7 @@ def merge(array_1, array_2)
   return new_array
 end
 ```
-&#10;
+&#10;<br>
 First you need to determine the size of the array, which is $N$, suppress the
 desire to guess the complexity, you need to analyze.\
 It’s slightly tricky to define N in this case, since we are dealing with two
@@ -441,7 +441,7 @@ haystack, as `"def"` is a substring of `"abcdefghi"`. However, if the needle is
 This function returns `true` or `false`, depending on whether the needle can be
 found in the haystack:
 
-&#10;
+&#10;<br>
 ```ruby
 def find_needle(needle, haystack)
   needle_index = 0
@@ -466,7 +466,7 @@ end
 print(find_needle("abc", "abcabcabcabc"), "\n")
 print find_needle("doom", "loremipsumdolomitdoslum")
 ```
-&#10;
+&#10;<br>
 In a worst-case scenario, this algorithm runs for the number of characters in
 the “needle” multiplied by the number of characters in the “haystack.” Since the
 needle and haystack may have different numbers of characters, this is
@@ -499,7 +499,7 @@ end
 
 print largest_product([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
 ```
-&#10;
+&#10;<br>
 N is the size of the array, and the time complexity is O(N3), as it’s processed
 through triply-nested loops. Really, the middle loop runs $N/2$ times, and the
 innermost loop runs $N/4$ times, so this is $N*(N/2)*(N/4)$, which is $N^3/8$
@@ -523,7 +523,7 @@ end
 print(pick_resume(["a", "b", "c", "d"]))
 print(pick_resume(["a", "b", "c", "d", "e"]))
 ```
-&#10;
+&#10;<br>
 $N$ is the size of the resumes array. Since in each round of the loop we
 eliminate half of the resumes, we have an algorithm of $\mathcal{O}(\log n)$.
 

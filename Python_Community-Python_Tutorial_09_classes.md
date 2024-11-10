@@ -78,19 +78,19 @@ using this violates the abstraction of namespace implementation, and should be
 restricted to things like post-mortem debuggers.
 
 Can we read/write attributes of an object?
-&#10;
+&#10;<br>
 Attributes may be read-only or writable. In the latter case, assignment to
 attributes is possible. Module attributes are writable: you can write
 `modname.the_answer = 42`.
 
 How to delete an attribute of an object?
-&#10;
+&#10;<br>
 Writable attributes may also be deleted with the `del` statement. For example,
 `del modname.the_answer` will remove the attribute `the_answer` from the object
 named by `modname`.
 
 When namespace with built-in names is created/deleted?
-&#10;
+&#10;<br>
 The namespace containing the built-in names is created when the Python
 interpreter starts up, and is never deleted.
 
@@ -109,7 +109,7 @@ namespace.
 <!-- TODO: Need to research -->
 
 How local namespace for a function is created/deleted?
-&#10;
+&#10;<br>
 The local namespace for a function is created when the function is called, and
 deleted when the function returns or raises an exception that is not handled
 within the function. (Actually, forgetting would be a better way to describe
@@ -132,7 +132,7 @@ nearest enclosing scope, contain non-local, but also ==non-global== names
    names==
 
 What's the scope of a variable initialized in an if statement in Python?
-&#10;
+&#10;<br>
 Python variables are scoped to the innermost function, class, or module in
 which they're assigned. Control blocks like `if` and `while` blocks don't count,
 so a variable assigned inside an if is still scoped to a function, class, or
@@ -159,7 +159,7 @@ class C:
         print(a)
     f()
 ```
-&#10;
+&#10;<br>
 The code will print `global`. The `a` in the `print` statement is not qualified
 by a namespace, so it refers to the global `a` rather than the class `a`.
 If you remove `a` from the global scope, the code will raise a `NameError`.
@@ -223,7 +223,7 @@ scope_test()
 print("In global scope:", spam)
 ```
 The output of the example code is:
-&#10;
+&#10;<br>
 ```
 After local assignment: test spam
 After nonlocal assignment: nonlocal spam
@@ -239,7 +239,7 @@ You can also see that there was no previous binding for *spam* before the
 `global` assignment.
 
 The simplest form of class definition looks like this:
-&#10;
+&#10;<br>
 ```python
 class ClassName:
     <statement-1>
@@ -290,7 +290,7 @@ is also a valid attribute, returning the docstring belonging to the class: `"A
 simple example class"`.
 
 How to create new instance of class?
-&#10;
+&#10;<br>
 Class *instantiation* uses function notation. Just pretend that the class object
 is a parameterless function that returns a new instance of the class. For
 example (assuming the above class):
@@ -312,7 +312,7 @@ instance objects are ==attribute== references.
 There are two kinds of valid attribute names: ==data attributes and methods==.
 
 Do we need to declare data attributes in Python?
-&#10;
+&#10;<br>
 *data attributes* correspond to “instance variables” in Smalltalk, and to “data
 members” in C++. Data attributes need **not be** declared; like local variables,
 they spring into existence when they are first assigned to. For example, if `x`
@@ -364,7 +364,7 @@ inserting the method’s ==instance object== before the first argument.
 
 How Python class methods are working if we are reference non-data attribute of
 a class instance with some arguments?
-&#10;
+&#10;<br>
 When a non-data attribute of an instance is referenced, the instance’s class is
 searched.
 \
@@ -412,7 +412,7 @@ e = Dog('Buddy')
 d.add_trick('roll over')
 e.add_trick('play dead')
 ```
-&#10;
+&#10;<br>
 Shared data can have possibly surprising effects with involving mutable objects
 such as lists and dictionaries. For example, the *tricks* list in the following
 code should not be used as a class variable because just a single list would be
@@ -553,7 +553,7 @@ To get parent class you can use this dunder variable:
 Of course, a language feature would not be worthy of the name “class” without
 supporting inheritance. The syntax for a derived class definition looks like
 this:
-&#10;
+&#10;<br>
 ```python
 class DerivedClassName(BaseClassName):
     <statement-1>
@@ -594,7 +594,7 @@ clients as well. Note: that this only works if the base class is accessible as
 
 Python has two built-in functions that work with inheritance (check type of an
 object):
-&#10;
+&#10;<br>
 - Use `isinstance()` to check an instance’s type: `isinstance(obj, int)` will be
 `True` only if `obj.__class__` is `int` or some class derived from `int`
 - Use `issubclass()` to check class inheritance: `issubclass(bool, int)` is
@@ -638,7 +638,7 @@ classes with multiple inheritance. For more detail, see [The Python 2.3 Method
 Resolution Order](https://docs.python.org/3/howto/mro.html#python-2-3-mro).
 
 Do “private” instance variables exist in Python?
-&#10;
+&#10;<br>
 “Private” instance variables that cannot be accessed except from inside an
 object don’t exist in Python. However, there is a convention that is followed by
 most Python code: a name prefixed with an underscore (e.g. `_spam`) should be
@@ -678,7 +678,7 @@ class MappingSubclass(Mapping):
             self.items_list.append(item)
 ```
 Will this example work if `MappingSubclass` introduces a `__update` identifier?
-&#10;
+&#10;<br>
 Yes. The above example would work even if `MappingSubclass` were to introduce a
 `__update` identifier since it is replaced with `_Mapping__update` in the
 `Mapping` class and `_MappingSubclass__update` in the `MappingSubclass` class
@@ -739,7 +739,7 @@ Sometimes it is useful to have a data type similar to the Pascal “record” or
 use [`dataclasses`](https://docs.python.org/3/library/dataclasses.html#module-dataclasses).
 (generate special methods on user-defined classes) for this purpose, can you
 provide simple example?
-&#10;
+&#10;<br>
 ```python
 from dataclasses import dataclass
 
@@ -806,7 +806,7 @@ print(next(it))
 ```
 
 Can you provide an example of how to create an iterator class?
-&#10;
+&#10;<br>
 Having seen the mechanics behind the iterator protocol, it is easy to add
 iterator behavior to your classes. Define an `__iter__()` method which returns
 an object with a `__next__()` method. If the class defines `__next__()`, then
@@ -840,7 +840,7 @@ for char in rev:
 ```
 
 What is a generator in Python?
-&#10;
+&#10;<br>
 [Generators](https://docs.python.org/3/glossary.html#term-generator) are a
 simple and powerful tool for creating iterators. They are written like regular
 functions but use the
@@ -850,7 +850,7 @@ whenever they want to return data. Each time
 called on it, the generator resumes where it left off (it remembers all the data
 values and which statement was last executed). An example shows that generators
 can be trivially easy to create:
-&#10;
+&#10;<br>
 ```python
 def reverse(data):  # Generator function
     for index in range(len(data)-1, -1, -1):
@@ -884,7 +884,7 @@ these features make it easy to create iterators with no more effort than writing
 a regular function.
 
 How to create Generator Expressions? Can you provide some examples?
-&#10;
+&#10;<br>
 Some simple generators can be coded succinctly as expressions using a syntax
 similar to list comprehensions but with parentheses instead of square brackets.
 These expressions are designed for situations where the generator is used right

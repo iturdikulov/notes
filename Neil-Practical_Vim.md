@@ -93,7 +93,7 @@ This book not about `Vim Script`, but it's used widely across the material.
 
 How get vim version and health status of current neovim instance, including
 plugins?
-&#10;
+&#10;<br>
 `:checkhealth`, but it can be slow!
 
 ---
@@ -131,7 +131,7 @@ Line four
 `>{motion}`::Increase indentation depending on motion.
 
 `>G`
-&#10;
+&#10;<br>
 Increase indentation from the current line until the end of the file (in
 Markdown until section?). You can repeat this command, go down 1 line and press
 `.` key.
@@ -139,7 +139,7 @@ Markdown until section?). You can repeat this command, go down 1 line and press
 `>}`::Increase indentation for paragraph forward.
 
 Do vim record keystrokes if we enter insert mode and type something?
-&#10;
+&#10;<br>
 Yes, we can even repeat or paste these keystrokes - `.`, `".p`
 <!--SR:!2023-06-08,3,258-->
 
@@ -148,7 +148,7 @@ Yes, we can even repeat or paste these keystrokes - `.`, `".p`
 DRY - ==Don't Repeat Yourself==.
 
 Difference between `i` and `a`?
-&#10;
+&#10;<br>
 `i` insert before cursor, `a` insert after cursor.
 
 `$`::Move to the end of the line.
@@ -186,7 +186,7 @@ How to add space padding for each `+` sign here (dot method)?
 ```javascript
 var foo = "method("+argument1+","+argument2+")";
 ```
-&#10;
+&#10;<br>
 1. search first `+` sign - `f+` or `/+<CR>`
 2. insert space before and after - `s + <Esc>`
 3. search all next `+` signs and repeat - `;.` or `n.`
@@ -224,7 +224,7 @@ Execute a sequence of changes (record & execute macro), repeat,
 undo::`qx{changes}q`, `@x`, `u`
 
 Difference between `:s` and `:%s`
-&#10;
+&#10;<br>
 `%` is the range over which the `:s` command (short for `:substitute`) will be
 run. `%` itself is short for the range `:1,$`, which means Line 1 to the last
 line in the buffer. The Vim help has a couple topics (user manual - `:help

@@ -10,7 +10,7 @@ sr-ease: 219
 # Backend
 
 Main difference between frontend and backend?
-&#10;
+&#10;<br>
 Fronted is data representation layer, backend is data access layer. And
 this term includes not only software, but also hardware, physical
 infrastructure, etc. Usually client is frontend and server is backend. Even

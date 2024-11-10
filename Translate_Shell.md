@@ -29,6 +29,6 @@ Available REPL modes:
 To exit REPL mode, type `C-d`.
 
 Set the source language and the target language in translate-shell repl?
-&#10;
+&#10;<br>
 Russian → English - `ru:en`
 English → Russian - ` en:ru`

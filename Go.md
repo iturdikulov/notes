@@ -32,7 +32,7 @@ path. For instance, the `math/rand` package comprises files that begin with the
 statement ==`package rand`==.
 
 How to import packages?
-&#10;
+&#10;<br>
 Better to use "factored" import statement (good style):
 ```go
 package main
@@ -57,7 +57,7 @@ import "math"
 ```
 
 Which names can be exported in Go?
-&#10;
+&#10;<br>
 In Go, a name is exported if it begins with a capital letter. For example,
 Pizza is an exported name, as is Pi, which is exported from the math package.
 ```go
@@ -75,7 +75,7 @@ func main() {
 ```
 
 Write the simplest Go function which return sum of two arguments (x, y)
-&#10;
+&#10;<br>
 ```go
 package main
 
@@ -95,7 +95,7 @@ func main() {
 How to shorten this declaration `x int, y int`?::`x, y int`
 
 How many results function in Go can return?
-&#10;
+&#10;<br>
 A function can return any number of results.
 ```go
 package main
@@ -113,7 +113,7 @@ func main() {
 ```
 
 Can we use named return values in Go?
-&#10;
+&#10;<br>
 Yes, if so, they are treated as variables defined at the top of the function.
 These names should be used to document the meaning of the return values.
 A return statement without arguments returns the named return values. This is
@@ -137,7 +137,7 @@ func main() {
 ```
 
 How to declare list of variables in Go?
-&#10;
+&#10;<br>
 Need to use the `var` statement (as in function argument lists), the type is
 last. A `var` statement can be at package or function level.
 ```go
@@ -155,7 +155,7 @@ func main() {
 ```
 
 Can we initialize variable values and declare them in same time?
-&#10;
+&#10;<br>
 Yes, a var declaration can include initializers, one per variable.
 If an initializer is present, the type can be omitted; the variable will take
 the type of the initializer.
@@ -173,7 +173,7 @@ func main() {
 ```
 
 What `:=` is used for?
-&#10;
+&#10;<br>
 This is short assignment statement. Can be used in place of a var declaration
 with implicit type.
 ```go
@@ -192,11 +192,11 @@ func main() {
 
 Where every statement begins with a keyword (`var`, `func`, and so on) and so
 the `:=` construct is not available?
-&#10;
+&#10;<br>
 Outside a function.
 
 Which basic types are available in Go?
-&#10;
+&#10;<br>
 ```
 bool
 string
@@ -240,7 +240,7 @@ specific reason to use a sized or unsigned integer type.
 
 If variables declared without an explicit initial value, which values they will
 have?
-&#10;
+&#10;<br>
 Zero values:
 - `0` - for numeric types,
 - `false` - for the boolean type, and
@@ -260,7 +260,7 @@ func main() {
 ```
 
 How to convert values between different types?
-&#10;
+&#10;<br>
 The expression `T(v)` converts the value `v` to the type `T`.
 ```go
 package main
@@ -280,7 +280,7 @@ func main() {
 ```
 
 Is non-explicit conversion between numeric types in assignments allowed?
-&#10;
+&#10;<br>
 Unlike in C, in Go assignment between items of different type requires an
 explicit conversion.
 
@@ -299,14 +299,14 @@ func main() {
 	fmt.Printf("j is of type %T\n", j)
 }
 ```
-&#10;
+&#10;<br>
 When declaring a variable without specifying an explicit type (either by using
 the `:=` syntax or `var = expression` syntax), the variable's type is inferred
 from the value on the right-hand side.
 
 When the right-hand side contains an untyped numeric constant, the new variable
 may be a which type?
-&#10;
+&#10;<br>
 It can be `int`, `float64`, `complex128`, etc., depending on the precision of the
 constant:
 ```go

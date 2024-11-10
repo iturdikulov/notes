@@ -32,7 +32,7 @@ size_of_zero_indexed_array = last_index ==+ 1== <!--SR:!2024-10-18,21,221-->
 | 4   |     | `7` |     |      | `11` |     |
 _Graphical representation of array in memory (allocated space)_\
 How many total items in this array? Is empty items has address in memory?
-&#10;
+&#10;<br>
 6*5 = 30\
 yes, empty items has address in memory <!--SR:!2024-09-07,4,196-->
 
@@ -99,7 +99,7 @@ you modify array, you must keep it sorted.
 \
 And this brings some specific rules. For example, we want to add 75 into ordered
 array (3.17.80.202) at some point, we do following steps:
-&#10;
+&#10;<br>
 ```
 3.17.80.202          # initial array, we want to add 75
 *.**.17<75<80.**.*** # 3 steps, we go through array, to find right place for 75

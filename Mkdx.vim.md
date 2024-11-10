@@ -44,11 +44,11 @@ Toggle task item (support visual mode)::`<leader>t`
 
 Toggling lines from / to checklist items (alternative to telekasten
 `<leader>zt`)
-&#10;
+&#10;<br>
 `<leader>lt`
 
 Completing Checkboxes / Checklists (support visual mode, can be combined)
-&#10;
+&#10;<br>
 `<leader>=` and `<leader>-` Sort of `+/-`
 
 Dead link detection::`<leader>L`
@@ -63,7 +63,7 @@ Toggle links::`<leader>ln`
 
 Toggle as bold / italic / inline-code / strike-through, where n is a number of
 words
-&#10;
+&#10;<br>
 - `n<leader>/` → italic
 - `n<leader>b` → bold
 - ``n<leader>` `` → inline code

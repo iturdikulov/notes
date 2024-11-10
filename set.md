@@ -43,12 +43,12 @@ data and this means every insertion into a set first requires a ==search==
 operation. <!--SR:!2024-09-07,5,237-->
 
 In best case insertion into set takes:
-&#10;
+&#10;<br>
 Insert into end of set. $N + 1$ steps. $N$ steps → search, 1 step to insert into
 end. <!--SR:!2024-09-19,7,206-->
 
 In worst case insertion into set takes (steps):
-&#10;
+&#10;<br>
 Insert into beginning of set is worst case scenario. In contrast to insertion
 into the begging of a regular array ($N+1$), insertion can take $2N + 1$ steps.
 Formula: search $N$ steps + shift $N$ steps + insert 1 step. In other words we

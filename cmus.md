@@ -56,11 +56,11 @@ Check also `man cmus` or use view #7 in cmus.
 ## Playlist creation
 
 How to create a playlist in cmus?
-&#10;
+&#10;<br>
 Press `3`, then use this command `:pl-create main`
 
 How to add a song to a playlist in cmus?
-&#10;
+&#10;<br>
 Highlight playlist (view `#3`) and press `space` to mark it.\
 Add songs using either of the following:
 - Use command `:add -p ~/Arts_and_Entertainment/music_raw/`

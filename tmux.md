@@ -50,7 +50,7 @@ tmux open sessions (and server). Alternative is `Q` keybinding.
   ==`tmux kill-session -a`== to close all other sessions.
 - Jump next and previous session::`)`, `(`
 - Interactive window/session list.
-&#10;
+&#10;<br>
 `w`, `S`. Use `j` and `k` to navigate, and switch by hitting `<CR>`.
 - Find window (changed to tmux-sessionizer)::`^a`
 - Create window (tab) with current path if configured::`c`
@@ -84,7 +84,7 @@ tmux open sessions (and server). Alternative is `Q` keybinding.
 - Swap window right::`:swap-window -t +1; select-window -t +1`
 
 - Do I need always use prefix to resize panes?
-&#10;
+&#10;<br>
 No, if you strike key fast enough (to hold you need to configure `repeat-time`
 option).
 

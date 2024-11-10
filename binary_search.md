@@ -49,7 +49,7 @@ Simple example of binary search algorithm:
 <!-- NEXT: in python? -->
 
 Code implementation, binary search in Ruby, can you guess some basic concepts?
-&#10;
+&#10;<br>
 ```ruby
 def binary_search(array, search_value)
 

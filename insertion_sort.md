@@ -9,7 +9,7 @@ tags:
 ## Insertion sort in action
 
 Can you describe the steps of insertion sort (graphically)?
-&#10;
+&#10;<br>
 ```
 # First pass-through
 4._2_.7.1.3
@@ -39,7 +39,7 @@ Can you describe the steps of insertion sort (graphically)?
 ## Code implementation: insertion sort
 
 Can you write the code for insertion sort, at least partially?
-&#10;
+&#10;<br>
 ```python
 def insertion_sort(array):
     # Generate pass-through rounds, from 2nd to last
@@ -68,7 +68,7 @@ def insertion_sort(array):
 
 Four types of steps occur in Insertion Sort, which ones with typical order of
 them?
-&#10;
+&#10;<br>
 removals ("cut"), comparisons, shifts, and insertions, in total $N^2 + 2N - 2$ steps in worst case <!--SR:!2024-09-20,6,210-->
 
 If there are N elements, we make ==$1+2+3...(N - 1), \frac{N^2}{2}$==
@@ -86,7 +86,7 @@ for ==ending a pass-through== early and any point.
 
 If you have reason to assume you’ll be dealing with data that is mostly sorted
 which sorting algorithm would you use, selection sort or insertion sort?
-&#10;
+&#10;<br>
 Insertion sort, because it’s faster in best-case scenario when data is mostly
 sorted.
 

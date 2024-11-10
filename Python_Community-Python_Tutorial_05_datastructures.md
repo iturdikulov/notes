@@ -8,7 +8,7 @@ tags:
 # 5. Data Structures
 
 How to add an item to the end of the list with a built-in method and equivalent slice assign method?
-&#10;
+&#10;<br>
 `list.append(x)`. Equivalent to `a[len(a):] = [x]`.
 ```python
 fruits = ['orange', 'apple', 'pear', 'banana', 'kiwi', 'apple', 'banana']
@@ -17,23 +17,23 @@ print(fruits)  # ['orange', 'apple', 'pear', 'banana', 'kiwi', 'apple', 'banana'
 ```
 
 Extend the list by appending all the items from the iterable.
-&#10;
+&#10;<br>
 `list.extend(iterable)`. Equivalent to `a[len(a):] = iterable`.
 
 Insert an item into list at a given position.
-&#10;
+&#10;<br>
 `list.insert(i, x)`. The first argument is the index of the element before which
 to insert. so `a.insert(0, x)` inserts at the front of the list, and
 `a.insert(len(a), x)` is equivalent to `a.append(x)`.
 
 List method to remove the first item from the list whose value is equal to
 **x**. What if there is no such item?
-&#10;
+&#10;<br>
 `list.remove(x)`. It raises a `ValueError` if there is no such item.
 
 Remove the item at the given position in the list, and return it.
 What if the list is empty or the index is outside the list range.
-&#10;
+&#10;<br>
 list.pop([i])
 If no index is specified, `a.pop()` removes and returns the last item in the
 list. It raises an `IndexError` if the list is empty or the index is
@@ -45,12 +45,12 @@ print(fruits)  # ['orange', 'apple', 'pear', 'banana', 'kiwi', 'apple']
 ```
 
 Remove all items from the list.
-&#10;
+&#10;<br>
 `list.clear()`. Equivalent to `del a[:]`.
 
 Return zero-based index in the list of the first item whose value is equal to
 **x**. Can we limit somehow the search to a particular subsequence of the list?
-&#10;
+&#10;<br>
 `list.index(x[, start[, end]])`
 Raises a `ValueError` if there is no such item.
 The optional arguments *start* and *end* are interpreted as in the slice
@@ -64,7 +64,7 @@ print(fruits.index('banana', 4))  # Find next banana starting at position 4
 ```
 
 Return the number of times **x** appears in the list.
-&#10;
+&#10;<br>
 `list.count(x)`
 ```python
 fruits = ['orange', 'apple', 'pear', 'banana', 'kiwi', 'apple', 'banana']
@@ -73,7 +73,7 @@ print(fruits.count('tangerine'))  # 0
 ```
 
 Sort the items of the list in place
-&#10;
+&#10;<br>
 `list.sort(*, key=None, reverse=False)`
 ```python
 fruits = ['orange', 'apple', 'pear', 'banana', 'kiwi', 'apple', 'banana']
@@ -82,7 +82,7 @@ print(fruits)  # ['apple', 'apple', 'banana', 'banana', 'kiwi', 'orange', 'pear'
 ```
 
 Reverse the elements of the list in place.
-&#10;
+&#10;<br>
 list.reverse()
 ```python
 fruits = ['orange', 'apple', 'pear', 'banana', 'kiwi', 'apple', 'banana']
@@ -91,7 +91,7 @@ print(fruits)  # ['banana', 'apple', 'kiwi', 'banana', 'pear', 'apple', 'orange'
 ```
 
 Return a shallow copy of the list.
-&#10;
+&#10;<br>
 `list.copy()`. Equivalent to `a[:]`.
 
 You might have noticed that list methods like `insert`, `remove` or `sort` that
@@ -101,7 +101,7 @@ Other languages may return the mutated object, which allows method chaining,
 such as `d->insert("a")->remove("b")->sort();`.
 
 When data in list can't be sorted?
-&#10;
+&#10;<br>
 Not all data can be sorted or compared. For instance, `[None, 'hello', 10]`
 doesn't sort because integers can't be compared to strings and `None` can't be
 compared to other types. Also, there are some types that don't have a defined
@@ -113,7 +113,7 @@ list.sort()  # Raises a TypeError, '<' not supported between instances of 'str' 
 
 Order of adding/retrieving items from the stack?
 How stack can be implemented using list?
-&#10;
+&#10;<br>
 Here used LIFO (last-in, first-out) data manipulation. For example, you have
 list of cards, if you add a card to the top of the stack, it will be the first
 card you can retrieve.
@@ -136,7 +136,7 @@ print(stack)  # [3, 4]
 
 Order of adding/retrieving items from the queue?
 How to better implement a queue and which data structure to use?
-&#10;
+&#10;<br>
 Here used FIFO ("first-in, first-out") data manipulation.
 Who come first, will be served first. For example, you have a list of people
 waiting in line, the first person added to the list will be the first person
@@ -172,7 +172,7 @@ for x in range(10):
 
 print(squares) # [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
 ```
-&#10;
+&#10;<br>
 That this creates (or overwrites) a variable named `x` that still
 exists after the loop completes. We can calculate the list of squares
 without any side effects using:
@@ -186,7 +186,7 @@ squares = [x**2 for x in range(10)]
 ```
 
 How I can use multiple list comprehensions in one expression?
-&#10;
+&#10;<br>
 A list comprehension consists of brackets containing an expression
 followed by a `for` clause, then zero or more `for` or `if` clauses.
 The result will be a new list resulting from evaluating the expression
@@ -212,7 +212,7 @@ for x in [1,2,3]:
 ```
 
 Examples how list comprehensions can be used?
-&#10;
+&#10;<br>
 ```python
 vec = [-4, -2, 0, 2, 4]
 
@@ -244,7 +244,7 @@ vec = [[1,2,3], [4,5,6], [7,8,9]]
 ```
 
 Can I use complex expressions and nested functions in list comprehensions?
-&#10;
+&#10;<br>
 Yes.
 The initial expression in a list comprehension can be any arbitrary expression,
 including another list comprehension.
@@ -298,7 +298,7 @@ del a[:len(a)-1]
 ```
 
 How to delete entire variables with `del`?
-&#10;
+&#10;<br>
 `del a`
 Referencing the name `a` hereafter is an error (at least until another value is
 assigned to it). We'll find other uses for `del` later.
@@ -308,7 +308,7 @@ What type of this data structures?
 t = 12345, 54321, 'hello!'
 u = t, (1, 2, 3, 4, 5)
  ```
-&#10;
+&#10;<br>
 A tuple, which consists of a number of values separated by commas.
 Tuples may be input with or without surrounding parentheses, although often
 parentheses are necessary anyway (if the tuple is part of a larger expression).
@@ -317,7 +317,7 @@ t  # (12345, 54321, 'hello!')
 u  # ((12345, 54321, 'hello!'), (1, 2, 3, 4, 5))
 
 Can you change arbitrary item of the tuple with index assignment?
-&#10;
+&#10;<br>
 No, tuples are immutable
 ```python
 t[0] = 88888
@@ -334,7 +334,7 @@ v[0][0] = 4  # ([4, 2, 3], [3, 2, 1])
 To construct empty tuple need to use ==pair of parentheses, `empty = ()`==.
 
 How to construct a tuple with one item?
-&#10;
+&#10;<br>
 A tuple with one item is constructed by following a value with a comma (it is
 not sufficient to enclose a single value in parentheses). Ugly, but effective.
 ```python
@@ -344,14 +344,14 @@ singleton2 = ('hello',)  # <-- another way to create a singleton
 ```
 
 How to use tuple packing?
-&#10;
+&#10;<br>
 You need to construct a tuple with multiple values separated by commas.
 ```python
 t = 12345, 54321, 'hello!'
 ```
 
 How to use tuple unpacking (sequence unpacking)?
-&#10;
+&#10;<br>
 You need to assign a tuple to a variable(s), the number of variables should be
 equal to the number of values in the tuple.
 Note that multiple assignment is really just a combination of tuple packing and
@@ -364,7 +364,7 @@ x, y, z = t
 A [[set]] is an unordered collection with no ==duplicate elements==.
 
 How to create empty and non-empty sets?
-&#10;
+&#10;<br>
 You need to use `set()` to create an empty set (`{}` used to create empty
 dictionary), and curly braces `{1}, {1, 2}` to create a non-empty set.
 ```python
@@ -380,7 +380,7 @@ print(baskeа)  # {'orange', 'banana', 'pear', 'apple'}
 Set operations on unique letters from two words, lets we have two words,
 `abracadabra` and `alacazam`, what results you get for `-`, `|`, `&`, `^`
 operations?
-&#10;
+&#10;<br>
 ```python
 # You can get different results, a set is an abstract data type that can store
 # certain values, without any particular order
@@ -415,7 +415,7 @@ print(a ^ b)
 ```
 
 Can we use comprehensions with sets?
-&#10;
+&#10;<br>
 Yes, set comprehensions are also supported:
 ```python
 a = {x for x in 'abracadabra' if x not in 'abc'}  # {'r', 'd'}
@@ -426,7 +426,7 @@ print(a)
 ==dictionaries==.
 
 Which types of keys (general type) can be used in dictionaries?
-&#10;
+&#10;<br>
 Dictionaries are indexed by keys which can be any immutable type and unique
 (within one dictionary). Tuples can be used as keys if they contain only
 strings, numbers, or tuples; if a tuple contains any mutable object either
@@ -435,7 +435,7 @@ since lists can be modified in place using index assignments, slice assignments,
 or methods like `list.append` and `list.extend`. <!--SR:!2024-07-11,1,159-->
 
 How to create empty and non-empty dictionaries?
-&#10;
+&#10;<br>
 A pair of braces creates an empty dictionary: `{}`.
 ```python
 words = {}
@@ -451,12 +451,12 @@ print(words)
 ```
 
 What is main operations on a dictionary?
-&#10;
+&#10;<br>
 The main operations on a dictionary are storing a value with some key
 and extracting the value given the key.
 
 How to delete a key:value pair from a dictionary, overwrite key value?
-&#10;
+&#10;<br>
 ```python
 # It is possible to delete a key:value pair with `del`.
 animals = {'cat': 'cute', 'dog': 'furry', 'pig': 'pink'}
@@ -475,7 +475,7 @@ print(animals['monkey'])
 
 How to get a list of all keys in a dictionary in insertion order and sorted
 order?
-&#10;
+&#10;<br>
 Performing `list(d)` on a dictionary returns a list of all the keys used
 in the dictionary, in insertion order (if you want it sorted, just use
 `sorted(d)` instead).
@@ -489,7 +489,7 @@ To check whether a single key is in the dictionary, use the ==`in`== keyword.
 
 How to build dictionary from sequence like this `[('sape', 4139), ('guido',
 4127), ('jack', 4098)]` (key-value pairs)?
-&#10;
+&#10;<br>
 The `dict` constructor builds dictionaries directly from sequences of key-value
 pairs:
 ```python
@@ -499,7 +499,7 @@ print(dict([('sape', 4139), ('guido', 4127), ('jack', 4098)]))
 
 How to generate dict using dictionary comprehensions and this sequence `(2, 4,
 6)`, key is `number`, value is `number**2`?
-&#10;
+&#10;<br>
 Dict comprehensions can be used to create dictionaries from
 arbitrary key and value expressions:
 ```python
@@ -507,7 +507,7 @@ print({x: x**2 for x in (2, 4, 6)})  # {2: 4, 4: 16, 6: 36}
 ```
 
 Is it possible to use keyword arguments to create a dictionary?
-&#10;
+&#10;<br>
 Yes, when the keys are simple strings, it is sometimes easier to specify
 pairs using keyword arguments:
 ```python
@@ -516,7 +516,7 @@ print(dict(sape=4139, guido=4127, jack=4098))  # {'sape': 4139, 'guido': 4127, '
 
 When looping through dictionaries, the key and corresponding value can
 be retrieved at the same time using the ??? method:
-&#10;
+&#10;<br>
 `dict.items`
 ```python
 knights = {'gallahad': 'the pure', 'robin': 'the brave'}
@@ -529,7 +529,7 @@ for k, v in knights.items():
 
 When looping through a sequence, the position index and corresponding
 value can be retrieved at the same time using the ??? function:
-&#10;
+&#10;<br>
 `enumerate`
 ```python
 for i, v in enumerate(['tic', 'tac', 'toe']):
@@ -542,7 +542,7 @@ for i, v in enumerate(['tic', 'tac', 'toe']):
 
 To loop over two or more sequences at the same time, the entries can be
 paired with the ??? function:
-&#10;
+&#10;<br>
 `zip`
 ```python
 questions = ['name', 'quest', 'favorite color']
@@ -557,7 +557,7 @@ for q, a in zip(questions, answers):
 
 To loop over a sequence in reverse, first specify the sequence in a
 forward direction and then call the ??? function:
-&#10;
+&#10;<br>
 `reversed`
 ```python
 for i in reversed(range(1, 10, 2)):
@@ -571,7 +571,7 @@ for i in reversed(range(1, 10, 2)):
 ```
 
 To loop over a sequence in sorted order, use the ??? function:
-&#10;
+&#10;<br>
 `sorted`. Which returns a new sorted list while leaving the source unaltered.
 ```python
 basket = ['apple', 'orange', 'apple', 'pear', 'orange', 'banana']
@@ -587,7 +587,7 @@ for i in sorted(basket):
 ```
 
 How to loop over a sequence in sorted order while removing duplicates?
-&#10;
+&#10;<br>
 Using `set` on a sequence eliminates duplicate elements. The use of
 `sorted` in combination with `set` over a sequence is an idiomatic way
 to loop over unique elements of the sequence in sorted order:
@@ -604,7 +604,7 @@ for f in sorted(set(basket)):
 ```
 
 How to change a list while you are looping over it?
-&#10;
+&#10;<br>
 It is sometimes tempting to change a list while you are looping over it;
 however, it is often simpler and safer to create a new list instead:
 ```python
@@ -620,7 +620,7 @@ print(filtered_data)
 ```
 
 Which operators can contain the conditions used in `while` and `if` statements
-&#10;
+&#10;<br>
 They can contain any operators, not just comparisons. For example:
 - `in` and `not in`, membership (in container?) tests
 - `is` and `is not`, compare objects is the same object
@@ -632,7 +632,7 @@ All comparison operators have the same priority, which is lower than that of all
 ==numerical== operators.
 
 Who have more priority comparison operators or Boolean operators?
-&#10;
+&#10;<br>
 Boolean operators have lower priority than comparison operators.
 
 `A and not B or C` is equivalent to (place parentheses) ==`(A and (not B)) or C`==.

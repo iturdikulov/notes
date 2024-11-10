@@ -58,7 +58,7 @@ comic-book issues, etc. — requires capitalization, but only certain words in t
 title are capitalized.
 
 What words need to be capitalized in titles?
-&#10;
+&#10;<br>
 For starters, the first word in a title is always capitalized. Nouns, pronouns,
 verbs, adjectives, and adverbs all need to be capitalized in titles as well.
 \

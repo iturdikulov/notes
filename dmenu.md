@@ -33,7 +33,7 @@ dmenu is completely controlled by the keyboard.
 `<cr>`::Confirm selection and exit (execute)
 
 `C-<cr>`
-&#10;
+&#10;<br>
 Confirm selection and continue (multi-run). Useful for running multiple instances of the same program.
 
 `S-<cr>`::Confirm input and run (run exactly what is typed in the input field)

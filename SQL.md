@@ -92,7 +92,7 @@ age - Integer
 balance - Integer
 is_admin - boolean
 ```
-&#10;
+&#10;<br>
 ```sql
 create table people (
   id INTEGER,
@@ -112,7 +112,7 @@ specific conditions.
 
 Select `CustomerName`, `CategoryName` from customers and categories (no extra
 filtering and join).
-&#10;
+&#10;<br>
 ```sql
 SELECT CustomerName, CategoryName FROM customers, categories;
 ```
@@ -126,7 +126,7 @@ Alfreds Futterkiste                   Confections
 
 Select unique `CustomerName` from `customers` (filters away duplicate values and
 returns rows of specified column).
-&#10;
+&#10;<br>
 ```sql
 SELECT DISTINCT CustomerName FROM customers;
 ```
@@ -143,7 +143,7 @@ evaluation proceeds ==left to right==, with the exception that assignments
 evaluate right to left.
 
 Select `CustomerID`, `CustomerName` from users where `CustomerId` != 3 and 1 < `id` < 10
-&#10;
+&#10;<br>
 `AND` has precedence over `OR`
 ```sql
 SELECT
@@ -168,7 +168,7 @@ ProductID	ProductName	SupplierID	CategoryID	Unit	Price
 SupplierID	SupplierName	ContactName	Address	City	PostalCode	Country
 1	Exotic Liquid	Charlotte Cooper	49 Gilbert St.	London	EC1 4SD	UK
 ```
-&#10;
+&#10;<br>
 ```sql
 SELECT SupplierName
 FROM Suppliers
@@ -192,7 +192,7 @@ records.
 ORDER BY: used to sort the result-set in ascending or descending order.
 Select `OrderDetailID`, `OrderID`, from `order_details`, sort by `OrderID` in
 ascending order and `ProductID` in descending order.
-&#10;
+&#10;<br>
 ```sql
 SELECT OrderDetailID, OrderID
 FROM order_details
@@ -210,7 +210,7 @@ OrderDetailID  OrderID
 The LIMIT clause is used to place an upper bound on the number of rows returned
 by the entire SELECT statement.
 How to select the `10-20` rows from `orders`?
-&#10;
+&#10;<br>
 Some databases support `SELECT TOP` clause, but not all.
 I'll use `LIMIT` clause instead.
 ```sql
@@ -229,7 +229,7 @@ column.
 How to find all `customers`, where `CustomerName` contains `an` and
 their address start with “a” and are at least 3 characters in length, and
 address starting have `a` in second position.
-&#10;
+&#10;<br>
 ```sql
 SELECT * FROM customers
 WHERE CustomerName LIKE '%an%' AND Address LIKE '_a%';
@@ -258,7 +258,7 @@ Search for all `customers` where their country is one of the following:
 - Germany
 - France
 - UK
-&#10;
+&#10;<br>
 ```sql
 SELECT * FROM Customers
 WHERE Country IN ('Germany', 'France', 'UK');
@@ -270,7 +270,7 @@ BETWEEN operator selects values within a given range inclusive (begin and end
 values are included).
 Selects all orders with an `OrderDate` between `'1996-07-04'` and
 `'1996-07-31'`:
-&#10;
+&#10;<br>
 ```sql
 SELECT * FROM Orders
 WHERE OrderDate BETWEEN '1996-07-04' AND '1996-07-31';
@@ -288,7 +288,7 @@ If a field in a table is optional, it is possible to insert a new record or
 update a record without adding a value to this field. Then, the field will be
 saved with a `NULL` value.
 How to list all `customers` with a `NULL` value in the `Address` field:
-&#10;
+&#10;<br>
 ```sql
 SELECT *
 FROM Customers
@@ -304,7 +304,7 @@ no rows in result set
 An alias only exists for the duration of the query.
 Create an alias named "Address" that combine four columns (Address, PostalCode,
 City and Country):
-&#10;
+&#10;<br>
 ```
 SELECT CustomerName, Address + ', ' + PostalCode + ' ' + City + ', ' + Country AS Address
 FROM Customers;
@@ -322,7 +322,7 @@ statement must also be in the same order. `UNION` operator only selects distinct
 values, `UNION ALL` will allow duplicates.
 Return the cities (duplicate values also) from both the `"Customers"` and the
 `"Suppliers"` table:
-&#10;
+&#10;<br>
 ```sql
 SELECT City FROM Customers
 UNION ALL
@@ -335,7 +335,7 @@ INTERSECT set operator which is used to return the records that two SELECT
 statements have in common. Generally used the same way as **UNION** (both
 queries has same columns).
 Returns a list of cities that have both customers and suppliers.
-&#10;
+&#10;<br>
 ```sql
 SELECT City FROM Customers
 INTERSECT
@@ -348,7 +348,7 @@ EXCEPT set operator used to return all the records in the first SELECT statement
 that are not found in the second SELECT statement. Generally used the same way
 as **UNION**.
 Select `CustomerID` from customers without any orders:
-&#10;
+&#10;<br>
 ```sql
 SELECT CustomerID
 FROM customers
@@ -367,11 +367,11 @@ the values in the range. The `ANY` operator:
 - returns `TRUE` if ANY of the subquery values meet the condition
 `ANY` means that the condition will be true if the operation is true for any of
 the values in the range.
-&#10;
+&#10;<br>
 List the `ProductName` if it finds `ANY` records in the `OrderDetails` table has
 `Quantity` equal to 10 (this will return TRUE because the `Quantity` column has
 some values of 10). SQLite does not support the `ANY` operator.
-&#10;
+&#10;<br>
 ```sql
 SELECT ProductName
 FROM Products
@@ -402,7 +402,7 @@ WHERE ProductID = ALL
 ```
 
 Lists `ALL` the product names, including duplicates (using `ALL`).
-&#10;
+&#10;<br>
 `ALL` is the default, and most people write just `SELECT` instead of `SELECT
 ALL`.
 ```sql
@@ -419,7 +419,7 @@ statement is often used with aggregate functions (`COUNT()`, `MAX()`, `MIN()`,
 `SUM()`, `AVG()`) to group the result-set by one or more columns.
 List the number of orders (`Orders.OrderID`) sent by each shipper
 (`Shippers.ShipperName`):
-&#10;
+&#10;<br>
 ```sql
 SELECT Shippers.ShipperName, COUNT(Orders.OrderID) AS NumberOfOrders FROM Orders
 LEFT JOIN Shippers ON Orders.ShipperID = Shippers.ShipperID
@@ -430,7 +430,7 @@ GROUP BY ShipperName;
 used with aggregate functions.
 How lists the number of customers in each country, sorted `high to low` (Only
 include countries with more than 5 customers)?
-&#10;
+&#10;<br>
 ```sql
 SELECT COUNT(CustomerID), Country
 FROM Customers
@@ -455,7 +455,7 @@ several times in a query. Also referred to as `"Common Table Expression"`
 
 `INSERT INTO` used to insert new records/rows in a table
 How to insert multiple rows of data with `INSERT`?
-&#10;
+&#10;<br>
 We use the `INSERT INTO` statement, but with multiple values:
 ```sql
 INSERT INTO Customers (CustomerID, CustomerName, ContactName, Address, City, PostalCode, Country)
@@ -468,7 +468,7 @@ VALUES
 `UPDATE` used to modify the existing records in a table.
 How to update the `ContactName` to `"Juan"` for all `customers` records where
 country is `"Mexico"`:
-&#10;
+&#10;<br>
 ```sql
 UPDATE Customers
 SET ContactName='Juan' -- place here additional ", column = value"
@@ -478,7 +478,7 @@ WHERE Country='Mexico';
 `DELETE` used to delete existing records/rows in a table
 Recommended using it with `WHERE` clause.
 How to delete the customer `"Alfreds Futterkiste"` from the `"Customers"` table:
-&#10;
+&#10;<br>
 ```sql
 DELETE FROM Customers WHERE CustomerName='Alfreds Futterkiste';
 ```
@@ -489,7 +489,7 @@ DELETE FROM Customers WHERE CustomerName='Alfreds Futterkiste';
 COUNT returns the number of occurrences.
 Use the `COUNT()` function and the `GROUP BY` clause, to return the number
 of records for each category in the `Products` table:
-&#10;
+&#10;<br>
 ```sql
 SELECT COUNT(*) AS [Number of records], CategoryID
 FROM Products
@@ -499,7 +499,7 @@ GROUP BY CategoryID;
 `MIN()` and `MAX()` returns the smallest/largest value of the selected column.
 Use the `MIN()` function and the `GROUP BY` clause, to return the smallest price
 for each category in the `Products` table:
-&#10;
+&#10;<br>
 ```sql
 SELECT MIN(Price) AS SmallestPrice, CategoryID
 FROM Products
@@ -509,7 +509,7 @@ GROUP BY CategoryID;
 `AVG()` returns the average value of a numeric column.
 List all records with a higher price than average, we can use the `AVG()`
 function in a sub query:
-&#10;
+&#10;<br>
 ```sql
 SELECT * FROM Products
 WHERE price > (SELECT AVG(price) FROM Products);
@@ -518,7 +518,7 @@ WHERE price > (SELECT AVG(price) FROM Products);
 `SUM()` returns the total sum of a numeric column.
 Use the `SUM()` function and the `GROUP BY` clause, to return the `Quantity` for
 each `OrderID` in the `OrderDetails` table:
-&#10;
+&#10;<br>
 ```sql
 SELECT OrderID, SUM(Quantity) AS [Total Quantity]
 FROM order_details
@@ -537,7 +537,7 @@ The joined table will contain all records from both the tables and fill in
 Create the following SQL statement (that contains a `INNER JOIN`), that selects
 records that have matching values in `orders` and `customers` tables,
 `CustomerID` is less than 10:
-&#10;
+&#10;<br>
 ```sql
 -- Orders                                -- Customers
 SELECT CustomerID, OrderID, OrderDate    SELECT CustomerID, CustomerName
@@ -605,7 +605,7 @@ the matched records from the left table (`table1`).
 The result is 0 records from the left side, if there is no match.
 Return all `employees` (`LastName`, `FirstName`), and any orders (`OrderID`)
 they might have placed:
-&#10;
+&#10;<br>
 ```
 SELECT Orders.OrderID, Employees.LastName, Employees.FirstName
 FROM Orders
@@ -615,7 +615,7 @@ ORDER BY Orders.OrderID;
 
 `FULL (OUTER)` JOIN returns all records when there is a match in either left or right table
 Selects all `customers` (`CustomerName`), and all orders (`OrderID`):
-&#10;
+&#10;<br>
 ```sql
 SELECT Customers.CustomerName, Orders.OrderID
 FROM Customers
@@ -626,7 +626,7 @@ ORDER BY Customers.CustomerName;
 Self JOIN a regular join, but the table is joined with itself, as if the table
 were two tables, temporarily renaming at least one table in the SQL statement.
 Match `customers` (`CustomerName`) that are from the same `city` (`City`):
-&#10;
+&#10;<br>
 ```sql
 SELECT A.CustomerName AS CustomerName1, B.CustomerName AS CustomerName2, A.City
 FROM Customers A, Customers B
@@ -640,7 +640,7 @@ two or more joined tables. It's essentially a multiplication operation between
 the rows of the involved tables.
 Create a new result set that contains every possible combination of a `customer`
 (`CustomerName`) and `order` (`OrderId`).
-&#10;
+&#10;<br>
 ```sql
 SELECT Customers.CustomerName, Orders.OrderID
 FROM Customers
@@ -651,7 +651,7 @@ CROSS JOIN Orders;
 
 What is a view?
 Creates a view that shows all `customers` from Brazil:
-&#10;
+&#10;<br>
 In SQL, a view is a virtual table based on the result-set of an SQL statement.
 ```sql
 CREATE VIEW [Brazil Customers] AS
@@ -663,7 +663,7 @@ SELECT * FROM [Brazil Customers];
 ```
 
 Is it possible to overwrite a view?
-&#10;
+&#10;<br>
 Yes, by using `CREATE OR REPLACE VIEW`:
 ```sql
 CREATE OR REPLACE VIEW [Brazil Customers] AS
@@ -673,7 +673,7 @@ WHERE Country = 'Brazil';
 ```
 
 How to drop the "Brazil Customers" view:
-&#10;
+&#10;<br>
 ```sql
 DROP VIEW [Brazil Customers];
 ```
@@ -682,21 +682,21 @@ DROP VIEW [Brazil Customers];
 ## Altering Table Queries
 
 How to add a `"Email"` column to the `"Customers"` table?
-&#10;
+&#10;<br>
 ```sql
 ALTER TABLE Customers
 ADD Email varchar(255);
 ```
 
 How to delete the `"Email"` column from the `"Customers"` table?
-&#10;
+&#10;<br>
 ```sql
 ALTER TABLE Customers
 DROP COLUMN Email;
 ```
 
 How to rename the `"City"` column to `"Location"`?
-&#10;
+&#10;<br>
 ```sql
 ALTER TABLE Customers
 RENAME COLUMN City TO Location;
@@ -704,7 +704,7 @@ RENAME COLUMN City TO Location;
 
 How to change the data type of the `"City"` column to `"varchar(100)"` in
 `Customers` table?
-&#10;
+&#10;<br>
 ```sql
 # MySQL dialect
 ALTER TABLE Customers
@@ -728,7 +728,7 @@ CREATE TABLE Persons (
 ## Security
 
 Methods to avoid SQL injection?
-&#10;
+&#10;<br>
 1. First refer to language/library documentation, how to use placeholder for
    user's input. [Avoiding SQL injection risk - The Go Programming Language](https://go.dev/doc/database/sql-injection)
 2. Filter query elements from user's input (or need just avoid this) with elements

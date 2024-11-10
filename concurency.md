@@ -14,15 +14,20 @@ The dictionary definition of concurrency is ==simultaneous== occurrence.
 Concurrency types:
 
 - Pre-emptive multitasking (`threading`), single process/processors. Switch
-  decision - &#10; the operating system decides when to switch tasks external to
-  Python.
+decision:
+&#10;<br>
+The operating system decides when to switch tasks external to Python.
 
 - Cooperative multitasking (`asyncio`), single process/processors. Switch
-  decision &#10; the tasks decide when to switch tasks.
+decision:
+&#10;<br>
+The tasks decide when to switch tasks.
 
 - Multiprocessing (`multiprocessing`), multiple processes/processors. Difference
-  between `threading` and `asyncio` - &#10; The processes all run at the same
-  time on different processors. Number of processes/processors many.
+between `threading` and `asyncio`?
+&#10;<br>
+The processes all run at the same time on different processors. Number of
+processes/processors many.
 
 ## When concurrency is useful
 
@@ -39,7 +44,6 @@ same amount of time (solving the problem with more physical cores).
 ## How to Speed Up an I/O-Bound Program
 
 Let's say you have synchronous version of program that do I/O bound task.
-
 ```python
 import requests
 import logging
@@ -69,10 +73,10 @@ if __name__ == "__main__":
     duration = time.time() - start_time
     print(f"Downloaded {len(sites)} sites in {duration} seconds")
 ```
-
-Why we used `requests.Session` here? &#10; Creating a Session object allows
-requests to do some fancy networking tricks and really speed things up, we can
-reuse connection between requests.
+Why we used `requests.Session` here?
+&#10;<br>
+Creating a Session object allows requests to do some fancy networking tricks and
+really speed things up, we can reuse connection between requests.
 
 In my case I/O bound task is downloading a bunch of websites, and it takes less
 than a minute to download each website with mine internet connection.
@@ -150,7 +154,7 @@ if __name__ == "__main__":
     print(counter)
 ```
 Can you explain problems with this code?
-&#10;
+&#10;<br>
 In order to increment counter, each of the threads needs to read the current
 value, add one to it, and the save that value back to the variable. That happens
 in this line: `counter += 1`.\
@@ -167,7 +171,7 @@ Since this is rare situation, this type of problem quite difficult to debug.
 Detailed explanation available in [[asyncio]] note.
 
 General concept of event loop?
-&#10;
+&#10;<br>
 The event loop object is aware of each task and knows what state it’s in.
 
 An important point of `asyncio` is that the tasks never give up control without

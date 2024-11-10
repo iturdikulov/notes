@@ -22,28 +22,28 @@ requires some knowledge of [[GTD]].
 [[Taskwarrior]] is very efficient list manager.
 
 Taskwarrior base command format?
-&#10;
+&#10;<br>
 Taskwarrior usage:
 `task <filter> <command-name> <arguments>`
 
 What is a filter in Taskwarrior?
-&#10;
+&#10;<br>
 Task command by default run on all your tasks. So filter is used to select
 specific tasks. For example: `task +next` will show all tasks with `+next`
 tag.
 
 Which command names you can use in Taskwarrior?
-&#10;
+&#10;<br>
 Command name can be `next`, `add`, `done`, `list`, etc.
 
 What is an argument in Taskwarrior?
-&#10;
+&#10;<br>
 Argument is used to pass additional arguments to command. For `add` command
 it is task description, `task add <description>` will add new task with
 given description. It's one of the most basic command.
 
 How to specify task "group" when you add it?
-&#10;
+&#10;<br>
 When you add any new task you can also specify project (`proj:xxx`) and
 tags. We use project because we usually split big tasks into projects of
 tasks. Also, you can specify tags by adding `+<tag>` to task description.
@@ -51,12 +51,12 @@ Example:\
 `task add Read chapter 1 of GTD pro:read.gtd +read +@home`
 
 What `task` command do?
-&#10;
+&#10;<br>
 Running `task` itself is equivalent to `task next` command. It's shows most
 important of your tasks, based on pre-configured filter (priority sorting).
 
 How to change specific task/tasks?
-&#10;
+&#10;<br>
 Each task had own ID. You can use it to refer to specific task. For example
 to mark task as done, you can use `task done <ID>`. You can find required
 task by `task <keyword>` command.
@@ -72,7 +72,7 @@ tasks, this allows free your mind from remembering all this tasks. Items in
 inbox can be represented as tasks which needs to be processed.
 
 Can you describe basic GTD collection requirements?
-&#10;
+&#10;<br>
 Usual GTD's collection requirements:
 - The inbox is where you capture ideas and tasks as they occur to you.
 - The transaction cost of putting something in your inbox should be as low as possible.
@@ -159,7 +159,7 @@ You usually process items following
 [[GTD#Processing|GTD processing]] workflow.
 
 Processing requirements?
-&#10;
+&#10;<br>
 - Processing your inbox should be very easy to start with.
 - Processing is about making decisions, not about starting or finishing
 tasks.
@@ -172,7 +172,7 @@ Processing inbox algorithm?
 When you get into the habit of asking yourself all these questions/steps,
 there should come a point where you don't need this detailed answer
 anymore.
-&#10;
+&#10;<br>
 1. Item is actionable?
   - It's not: Decide whether to keep note of it in your
   [[Telekasten|reference system]], whether you want `think` it over of just
@@ -207,7 +207,7 @@ into it at this moment.
 ## Contexts
 
 How to group tasks by physical place, where are you doing tasks?
-&#10;
+&#10;<br>
 When you finally get around to _doing_, it will be **very
 important** for your mental health to keep in mind the _context_ in which
 you are working. Luckily, Taskwarrior makes it very easy to allow you to
@@ -276,7 +276,7 @@ context.home=+@home -@online
 ```
 
 How to use contexts?
-&#10;
+&#10;<br>
 To enable contexts filtering (show only context-specific tasks), use
 `context` command:
 ```sh
@@ -295,7 +295,7 @@ paper on monoids in the category of endofunctors` (wink). A task like
 task list.
 
 Can I create custom attributes for tasks?
-&#10;
+&#10;<br>
 You can use Taskwarrior's [user defined
 attributes](https://taskwarrior.org/docs/udas/) (UDA) to accomplish this.
 > Taskwarrior supports a set of standard attributes for a task, known as
@@ -329,7 +329,7 @@ This will sort the tasks on your list in a decreasing order by brainpower first.
 ## Estimate
 
 How I can organize tasks by time estimate?
-&#10;
+&#10;<br>
 Estimate useful to soft limit time on given task.
 Similar to the way we define the `brainpower` UDA, you can also define a
 UDA for the time estimated to complete the task:
@@ -341,7 +341,7 @@ uda.estimate.label=Estimate
 ## Using your UDA's
 
 How to create and list task with UDA (estimate)?
-&#10;
+&#10;<br>
 Same as standard attributes, but with own prefix.
 To create a new task or list them, you now specify a custom UDA:
 ```sh

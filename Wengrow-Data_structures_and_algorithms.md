@@ -200,7 +200,7 @@ Analyze data structure before use them. Choose most suitable.
 - d. Insertion at the end of the array
 - e. Deletion at the beginning of the array
 - f. Deletion at the end of the array
-&#10;
+&#10;<br>
 - a. 1 step
 - b. 100 steps
 - c. 100 to shift right and 1 to insert = 101
@@ -216,7 +216,7 @@ Analyze data structure before use them. Choose most suitable.
 - d. Insertion of a new value at the end of the set
 - e. Deletion at the beginning of the set
 - f. Deletion at the end of the set
-&#10;
+&#10;<br>
 - a. 1 step
 - b. 100 steps
 - c. 100 to search, 100 to shift right and 1 to insert = 201
@@ -229,7 +229,7 @@ given value. But sometimes we may want to look for every instance of a given
 value. For example, say we want to count how many times the value “apple” is
 found inside an array. How many steps would it take to find all the “apples”?
 Give your answer in terms of N. Don't overthink here.
-&#10;
+&#10;<br>
 In classic search, we can do 1 step in best case it can take 1 step. But if you
 need search all occurrence, you need to do N steps. If the array contains N
 elements, searching for all instances of the string “apple” in an array will
@@ -258,20 +258,20 @@ Placed some notes in [[binary_search]]
 
 1. How many steps would it take to perform a **linear search** for the number
 8 in the ordered array: `[2, 4, 6, 8, 10, 12, 13]`
-&#10;
+&#10;<br>
 Linear search on this array would take **four steps**. We start at the beginning
 of the array and check each element from left to right, we stop when the desired value will exceed the current one. Because the 8 is the fourth number and we stopped searching on it we’ll find it in four steps <!--SR:!2024-09-19,5,152-->
 
 2. How many steps would binary search take for the number 8 in the ordered array
    with 7 elements, `[2, 4, 6, 8, 10, 12, 13]`
 ?
-&#10;
+&#10;<br>
 Binary search would take just **one step** (if we ignore some steps) in this case. We start the binary search at the middlemost element, and the 8 just happens to be the
 middlemost element (integer division)! <!--SR:!2024-09-19,15,184-->
 
 3. What is the maximum number of steps it would take to perform a binary
 search on an array of size 100,000?
-&#10;
+&#10;<br>
 To solve this, we need to count how many times we halve 100,000 until we get
 down to 1. If we keep dividing 100,000 by 2, we see that it takes us about 16-17 steps. <!--SR:!2024-09-21,16,184-->
 
@@ -302,7 +302,7 @@ function isLeapYear(year) {
 }
 console.log(isLeapYear(1988));
 ```
-&#10;
+&#10;<br>
 $\mathcal{O}(1)$, because we do only 3 operations (pass year, compare
 expression, return expression). And since 3 is finite number time complexity is
 constant. <!--SR:!2024-09-21,7,169-->
@@ -318,7 +318,7 @@ function arraySum(array) {
    return sum;
 }
 ```
-&#10;
+&#10;<br>
 $\mathcal{O}(N)$, for $N$ elements in the array, the loop will run $N$ times,
 linear function. <!--SR:!2024-09-26,12,169-->
 
@@ -375,7 +375,7 @@ console.log(
     selectAStrings(["america", "apple", "banana", "cherry", "ampher"])
 );
 ```
-&#10;
+&#10;<br>
 This is $\mathcal{O}(N)$, for $N$ elements in the array, the loop will takes
 $N$ steps (technically more). <!--SR:!2024-09-28,14,184-->
 
@@ -402,7 +402,7 @@ console.log(median([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]));
 5
 5.5
 ```
-&#10;
+&#10;<br>
 This is $\mathcal{O}(1)$, no matter how many elements in array, we do fixed
 number of steps. <!--SR:!2024-09-10,8,175-->
 
@@ -440,7 +440,7 @@ function hasDuplicates(array) {
 console.log(hasDuplicates([1, 4, 5, 2, 9, 8, 7, 6, 11, 55, 21, 33, 44]));
 ```
 How many steps would our algorithm take in a worst-case scenario? When worst-case scenario comes?
-&#10;
+&#10;<br>
 In worst-case scenario, when array doesn't contain duplicates we iterate over
 each loop with comparisons, and number of steps is $\mathcal{O}(N^2)$.
 \
@@ -475,7 +475,7 @@ console.log(hasDuplicateValue([1, 4, 5, 2, 9, 8, 7, 6, 11, 55, 21, 33, 44]));
 ```
 How many steps would our algorithm take in a worst-case scenario (ignore
 insertion steps complexity)?
-&#10;
+&#10;<br>
 In worst-case scenario, when array doesn't contain duplicates we iterate $N$
 times (we can consider insertion steps as trivial) loop with comparisons, and
 number of steps is $\mathcal{O}(N)$. But this type of algorithms can consume a
@@ -488,7 +488,7 @@ lot of memory. <!--SR:!2024-09-13,4,166-->
 \
 Replace the question marks in the following table to describe how many steps
 occur for a given number of data elements across various types of Big O:
-&#10;
+&#10;<br>
 ```
 |100     | 100  |  about 7 | 10000  |
 |2000    | 2000 |  about 11| 4000000|
@@ -497,7 +497,7 @@ occur for a given number of data elements across various types of Big O:
 
 If we have a $\mathcal{O}(N^2)$, algorithm that processes an array and find
 that it takes 256 steps, what is the size of the array?
-&#10;
+&#10;<br>
 $\sqrt{256} = 16$ <!--SR:!2024-09-24,10,166-->
 
 Use Big O Notation to describe the time complexity of the following function. It
@@ -515,7 +515,7 @@ def greatestProduct(array):
 
 print(greatestProduct([10, 2, 3, 4, 5, 6, 7, 8, 9, 10]))
 ```
-&#10;
+&#10;<br>
 The algorithm has a time complexity of $\mathcal{O}(N^2)$, in this case, $N$ is the
 size of the array. We have an outer loop that iterates over the array $N$ times,
 and for each of those times, an inner loop iterates over the same array $N$
@@ -552,13 +552,13 @@ Some notes placed in [[big_O_notation]].
 
 Use Big O Notation to describe the time complexity of an algorithm that takes
 $4N + 16$ steps.
-&#10;
+&#10;<br>
 $\mathcal{O}(N)$, since Big O ignores constants, but algorithm slower than $1N$
 for example. <!--SR:!2024-09-13,6,166-->
 
 Use Big O Notation to describe the time complexity of an algorithm that takes
 $\mathcal{O}(2N^2)$.
-&#10;
+&#10;<br>
 After dropping the constant, we can reduce the expression to $\mathcal{O}(N^2)$. <!--SR:!2024-09-11,6,166-->
 
 Use Big O Notation to describe the time complexity of the following function,
@@ -582,7 +582,7 @@ end
 
 print(double_then_sum([1,2,3]))
 ```
-&#10;
+&#10;<br>
 $\mathcal{O}(N)$, in fact we do there about $2N$ steps $N$ - size of the
 array, but using Big O notation we omit $2$ constant.
 
@@ -599,7 +599,7 @@ end
 
 print(multiple_cases(["l", "o", "r", "e", "m"]))
 ```
-&#10;
+&#10;<br>
 $\mathcal{O}(N)$, in fact we do there about $3N$ steps, $N$ - size of the
 array, but using Big O notation we omit $3$ constant. <!--SR:!2024-09-20,6,166-->
 
@@ -629,7 +629,7 @@ Notes placed in [[insertion_sort]].
 
 Can you write algorithm (at least basic concepts) to find intersection of two
 array, which optimization you can use (and how it affects to best/worst cases)?
-&#10;
+&#10;<br>
 ```js
 // In the best-case scenario, where the two arrays are identical, we only have to
 // perform N comparisons, in average case from N to N^2
@@ -654,12 +654,12 @@ function intersection(firstArray, secondArray){
 
 Use Big O Notation to describe the efficiency of an algorithm that takes $3N^2 +
 2N + 1$ steps.
-&#10;
+&#10;<br>
 $N^2$, Big O takes into account the **highest order** of N.
 
 Use Big O Notation to describe the efficiency of an algorithm that takes $N +
 log(N)$ steps.
-&#10;
+&#10;<br>
 $N$, since $N$ > $log(N)$
 
 The following function checks whether an array of numbers contains a pair of two
@@ -679,7 +679,7 @@ function twoSum(array) {
 ```
 What are the best-, average-, and worst-case scenarios? Then, express the
 worst-case scenario in terms of Big O Notation.
-&#10;
+&#10;<br>
 Best-case scenario is when first two numbers add up to 10
 Average-case scenario $\frac{N^2}{2}$, two numbers somewhere in the middle
 Worst-case scenarios are when there aren't any two numbers that add up to 10, we
@@ -703,7 +703,7 @@ function containsX(string) {
 What is this function’s time complexity in terms of Big O Notation? Then, modify
 the code to improve the algorithm’s efficiency for best- and average-case
 scenarios.
-&#10;
+&#10;<br>
 In all cases this function take N steps, algorithm complexity is
 $\mathcal{O}(N)$. As the size of the array is N, and the loop iterates through
 all N elements. This algorithm continues the loop even if it finds an "X" before

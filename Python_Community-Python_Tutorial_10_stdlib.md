@@ -9,7 +9,7 @@ tags:
 # 10. Brief Tour of the Standard Library
 
 Which module from standard library is used to work with operating system?
-&#10;
+&#10;<br>
 The `os` module provides dozens of functions for interacting with the
 operating system:
 ```python
@@ -26,7 +26,7 @@ differently.
 The built-in `dir` and `help` functions are useful as interactive
 aids for working with large modules like `os`. What `dir(os)` and `help(os)`
 will return?
-&#10;
+&#10;<br>
 ```python
 import os
 dir(os) # <returns a list of all module functions>
@@ -36,7 +36,7 @@ help(os) # <returns an manual page created from the module's docstrings>
 For daily file and directory management tasks, the `shutil` module provides
 a higher level interface that is easier to use, how to copy or move files with
 `shutil`?
-&#10;
+&#10;<br>
 ```python
 import shutil
 shutil.copyfile('data.db', 'archive.db')  # 'archive.db'
@@ -46,7 +46,7 @@ shutil.move('/build/executables', 'installdir')  # 'installdir'
 The `glob` module provides a function for making file lists from directory
 wildcard searches, how to list all files in the current directory with `py`
 extension?
-&#10;
+&#10;<br>
 ```python
 import glob
 glob.glob('*.py')  # ['primes.py', 'random.py', 'quote.py']
@@ -61,7 +61,7 @@ import sys
 print(sys.argv)
 ```
 What this script will print if we run it with this command `python demo.py one two three`?
-&#10;
+&#10;<br>
 `['demo.py', 'one', 'two', 'three']`
 
 The `argparse` module provides a more sophisticated mechanism to process
@@ -81,7 +81,7 @@ print(args)
 ```
 When run at the command line with `python top.py --lines=5 alpha.txt beta.txt`,
 the script sets `args.lines` and `args.filenames` to?
-&#10;
+&#10;<br>
 `args.lines` to `5` and `args.filenames` to `['alpha.txt', 'beta.txt']`.
 
 The `sys` module also has attributes for *stdin*, *stdout*, and *stderr*.
@@ -96,7 +96,7 @@ The most direct way to terminate a script (using `sys` module) is to use
 ==`sys.exit()`==.
 
 Which python standard library module is used to work with regular expressions?
-&#10;
+&#10;<br>
 The `re` module provides regular expression tools for advanced string
 processing. For complex matching and manipulation, regular expressions offer
 succinct, optimized solutions:
@@ -118,7 +118,7 @@ print('tea for too'.replace('too', 'two'))
 
 Which standard library module gives access to the underlying C library functions
 for floating point math:
-&#10;
+&#10;<br>
 The `math` module.
 ```python
 import math
@@ -127,7 +127,7 @@ print(math.log(1024, 2))      # 10.0
 ```
 
 Which standard library module is used to work with random numbers?
-&#10;
+&#10;<br>
 The `random` module provides tools for making random selections:
 ```python
 import random
@@ -139,7 +139,7 @@ print(random.randrange(6))                         # random integer chosen from 
 ```
 
 Which standard library module is used to work with statistics?
-&#10;
+&#10;<br>
 The `statistics` module calculates basic statistical properties
 (the mean, median, variance, etc.) of numeric data:
 ```python
@@ -154,11 +154,11 @@ print(statistics.variance(data)) # 1.3720238095238095, variance is the average o
 
 Which standard library module is used to work with retrieving data from URL's
 and sending mail?
-&#10;
+&#10;<br>
 There are a number of modules for accessing the internet and processing internet
 protocols. Two of the simplest are `urllib.request` for retrieving data
 from URLs and `smtplib` for sending mail.
-&#10;
+&#10;<br>
 ```python
 from urllib.request import urlopen
 with urlopen('http://worldtimeapi.org/api/timezone/etc/UTC.txt') as response:
@@ -184,7 +184,7 @@ server.quit()
 ```
 
 Which standard library module is used to work with dates and times?
-&#10;
+&#10;<br>
 The `datetime` module supplies classes for manipulating dates and times in
 both simple and complex ways. While date and time arithmetic is supported, the
 focus of the implementation is on efficient member extraction for output
@@ -210,7 +210,7 @@ print(age.days) # 14368
 
 Which Data Compression modules aviable in python standard library? How to use
 for example zlib?
-&#10;
+&#10;<br>
 Common data archiving and compression formats are directly supported by modules
 including: `zlib`, `gzip`, `bz2`, `lzma`, `zipfile` and `tarfile`.
 ```python
@@ -225,7 +225,7 @@ print(zlib.crc32(zlib.decompress(t))) # 226805979, same as above
 ```
 
 Which performance measurement module is available in python standard library?
-&#10;
+&#10;<br>
 Some Python users develop a deep interest in knowing the relative performance of
 different approaches to the same problem. Python provides a measurement tool
 that answers those questions immediately.
@@ -245,7 +245,7 @@ code.
 
 Which quality control module is available in python standard library to provide
 automated docstring examples testing?
-&#10;
+&#10;<br>
 The `doctest` module provides a tool for scanning a module and validating
 tests embedded in a program's docstrings.  Test construction is as simple as
 cutting-and-pasting a typical call along with its results into the docstring.
@@ -268,7 +268,7 @@ print(doctest.testmod()) # automatically validate the embedded tests
 ```
 
 Standard library module `unittest` is used for what purpose?
-&#10;
+&#10;<br>
 The `unittest` module is not as effortless as the `doctest` module, but it
 allows a more comprehensive set of tests to be maintained in a separate file:
 ```python
@@ -362,7 +362,7 @@ print(textwrap.fill(doc, width=80))
 The `locale` module accesses a database of ==culture specific== data formats.
 The grouping attribute of locale's format function provides a direct way of
 formatting numbers with group separators:
-&#10;
+&#10;<br>
 ```python
 import locale
 locale.setlocale(locale.LC_ALL, 'English_United States.1252')
@@ -409,7 +409,7 @@ t.safe_substitute(d)
 ```
 
 Can I use custom delimiters for `string.Template`?
-&#10;
+&#10;<br>
 Template subclasses can specify a custom delimiter.  For example, a batch
 renaming utility for a photo browser may elect to use percent signs for
 placeholders such as the current date, image sequence number, or file format:
@@ -442,7 +442,7 @@ templates for XML files, plain text reports, and HTML web reports.
 
 
 Which standard library module is used to work with binary data?
-&#10;
+&#10;<br>
 The `struct` module provides `struct.pack` and `struct.unpack` functions for
 working with variable length binary record formats.  The following example shows
 how to loop through header information in a ZIP file without using the `zipfile`
@@ -471,7 +471,7 @@ for i in range(3):                      # show the first 3 file headers
 ```
 
 When Threading is used in Python?
-&#10;
+&#10;<br>
 Threading is a technique for decoupling tasks which are not sequentially
 dependent.  Threads can be used to improve the responsiveness of applications
 that accept user input while other tasks run in the background.  A related use
@@ -644,7 +644,7 @@ print([heappop(data) for i in range(3)] )  # fetch the three smallest entries
 The `decimal` module offers a `decimal.Decimal` datatype for
 decimal floating point arithmetic. Compared to the built-in `float`
 implementation of binary floating point, the class is especially helpful for
-&#10;
+&#10;<br>
 - financial applications and other uses which require exact decimal
 representation,
 - control over precision,
@@ -662,7 +662,7 @@ print(round(Decimal('0.70') * Decimal('1.05'), 2) )
 print(round(.70 * 1.05, 2))
 ```
 *Results:*
-&#10;
+&#10;<br>
 ```
 0.74
 0.73
@@ -676,7 +676,7 @@ binary floating point cannot exactly represent decimal quantities.
 
 Can you provide some examples of `Decimal` numbers expressions differences with
 `float` numbers?
-&#10;
+&#10;<br>
 Exact representation enables the `decimal.Decimal` class to perform modulo
 calculations and equality tests that are unsuitable for binary floating point:
 ```python
@@ -703,7 +703,7 @@ print(Decimal('0.2') + Decimal('0.1'))  # 0.3
 ```
 
 How to change precision of `Decimal` numbers?
-&#10;
+&#10;<br>
 The `decimal` module provides arithmetic with as much precision as needed, you
 can change the precision (number of significant digits) using the
 `getcontext.prec` function parameter:

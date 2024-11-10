@@ -32,15 +32,15 @@ quickly paths into arguments of commands.
 - Select Telent::`telnet **<TAB>`
 
 - Select Directories under `~/.config` that match `nvim`
-&#10;
+&#10;<br>
 `cd ~/.config/nvim**<TAB>`
 
 - Select Process IDs. Can select multiple processes with `TAB` or `S-TAB`
-&#10;
+&#10;<br>
 `kill -9 **<TAB>`
 
 Select Environment variables / aliases
-&#10;
+&#10;<br>
 - `unset **<TAB>`
 - `export **<TAB>`
 - `unalias **<TAB>`

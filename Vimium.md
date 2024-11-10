@@ -37,7 +37,7 @@ Once you have Vimium installed, you can see this list of key bindings at any tim
 `<C-6>`::Go to previously-visited tab (visitPreviousTab)
 
 `gi`
-&#10;
+&#10;<br>
 focus the first (or n-th) text input box on the page. Use <tab> to cycle through
 options.
 
@@ -58,11 +58,11 @@ options.
 `ma, mA`::set local mark "a" (global mark "A")
 
 Jump to local mark "a" (global mark "A")
-&#10;
+&#10;<br>
 `\`a, \`A`
 
 "\`\`"
-&#10;
+&#10;<br>
 jump back to the position before the previous jump, that is, before the previous
 `gg, G, n, N, /` or `\`a`
 

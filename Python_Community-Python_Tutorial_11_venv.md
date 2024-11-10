@@ -8,7 +8,7 @@ tags:
 # 11. Virtual Environments and Packages
 
 When is suitable to use a virtual environment?
-&#10;
+&#10;<br>
 Python applications will often use packages and modules that don't come as part
 of the standard library.  Applications will sometimes need a **specific
 version** of a library, because the application may require that a particular
@@ -35,7 +35,7 @@ not affect application A's environment.
 
 Which standard python module used to create virtual environments? Which Python
 version will be installed in the virtual environment with this module?
-&#10;
+&#10;<br>
 The module used to create and manage virtual environments is called
 `venv`.  `venv` will install the Python version from which
 the command was run (as reported by the `--version` option).
@@ -44,7 +44,7 @@ version 3.12.
 
 To create a virtual environment, decide upon a directory where you want to
 place it, and run the `venv` module as a script with the directory path:
-&#10;
+&#10;<br>
 ```python
 python -m venv .venv
 ```
@@ -58,7 +58,7 @@ also prevents clashing with `.env` environment variable definition files that
 some tooling supports.
 
 Once you've created a virtual environment, you may activate it.
-&#10;
+&#10;<br>
 On Unix or MacOS, run:
 ```python
 source .venv/bin/activate
@@ -76,7 +76,7 @@ Activating the virtual environment will change your shell's prompt to show what
 virtual environment you're using, and modify the environment so that running
 `python` will get you that particular version and installation of Python.
 For example:
-&#10;
+&#10;<br>
 ```sh
 source .venv/bin/activate
 python
@@ -89,12 +89,13 @@ python
 ```
 
 To deactivate a virtual environment, type:
-&#10;
+&#10;<br>
 `deactivate` into the terminal.
 
 How to install, upgrade, and remove packages using standard Python program?
-&#10; You can install, upgrade, and remove packages using a program called
-`pip`. By default `pip` will install packages from the `Python Package Index
+&#10;<br>
+You can install, upgrade, and remove packages using a program called `pip`. By
+default `pip` will install packages from the `Python Package Index
 <https://pypi.org>`.  You can browse the Python Package Index by going to it in
 your [[web_browser]].
 
@@ -104,7 +105,7 @@ Modules](https://docs.python.org/3/installing/index.html#installing-index) guide
 for complete documentation for `pip`.
 
 You can install the latest version of a package by specifying a package's name:
-&#10;
+&#10;<br>
 ```sh
 $ python -m pip install novas
 # Collecting novas
@@ -115,7 +116,7 @@ $ python -m pip install novas
 ```
 
 How to install specific version of a package, how to upgrade it?
-&#10;
+&#10;<br>
 You can also install a specific version of a package by giving the
 package name  followed by `==` and the version number:
 ```sh
@@ -141,12 +142,12 @@ $ python -m pip install --upgrade requests
 ```
 
 How to uninstall specific package?
-&#10;
+&#10;<br>
 `python -m pip uninstall` followed by one or more package names will
 remove the packages from the virtual environment.
 
 How to display information about particular package?
-&#10;
+&#10;<br>
 `python -m pip show` will display information about a particular package:
 ```sh
 $ python -m pip show requests
@@ -164,7 +165,7 @@ $ python -m pip show requests
 ```
 
 How to list all of the packages installed in the virtual environment?
-&#10;
+&#10;<br>
 `python -m pip list` will display them.
 ```sh
 $ python -m pip list
