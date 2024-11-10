@@ -2,6 +2,8 @@
 date: 2023-09-22
 tags:
   - inbox
+external:
+  - https://www.gnu.org/software/bash/
 sr-due: 2023-01-28
 sr-interval: 3
 sr-ease: 250
@@ -15,12 +17,14 @@ sr-ease: 250
 > Linux, alongside GCC.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Bash_\(Unix_shell\))</cite>
 
-Personally, I use [[Zsh]] as my default shell
+Personally, I use [[Zsh]] as my default shell and interactive command
+interpreter, but sometimes I use and write scripts written in Bash (for
+portability).
 
 Cheat sheet:
 
-![](img/Bash_CheatSheet.pdf)
-_[obfusk/bash-cheatsheet: bash cheat sheet](https://github.com/obfusk/bash-cheatsheet/tree/master)_
+![[./img/ref-Bash_cheatsheeet.pdf]]
+_[bash cheat sheet](https://github.com/obfusk/bash-cheatsheet/tree/master)_
 
 ## Snippets
 

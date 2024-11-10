@@ -17,5 +17,16 @@ sr-ease: 228
 > logging, is called a wrapper.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Shell_script)</cite>
 
-I personally [[my_shell_scripts|use]] a lot of shell scripts, mainly for simple
-tasks or use some of them as wrappers for other programs.
+Personally I use a lot of shell scrips, mainly for simple tasks or use some of
+them as wrappers for other programs.
+
+## My shell scripts
+
+- [ ] dmenu record, from lukesmith
+- [ ] Well, there is "gio mount sftp://USER@XYZ" after which you can access the
+      files under "/run/user/1000/gvfs/sftp:host=XYZ,user=USER/SOME_PATH/…"
+
+## External links
+
+- [ ] [alexanderepstein/Bash-Snippets: A collection of small bash scripts for heavy terminal users](https://github.com/alexanderepstein/Bash-Snippets)
+- [ ] [Useful scripts and configs for Linux users](https://github.com/dmi3/bin)
