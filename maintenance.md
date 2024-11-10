@@ -1,8 +1,7 @@
 ---
-date: 2023-03-12
+date: 2024-11-10
 tags:
   - inbox
-  - productivity
 sr-due: 2024-02-04
 sr-interval: 9
 sr-ease: 206
@@ -10,31 +9,17 @@ sr-ease: 206
 
 # Maintenance
 
-> Functional checks, servicing, repairing or replacing of necessary devices,
-> equipment, machinery, building infrastructure, and supporting utilities in
-> industrial, business, and residential installations. Over time, this has come
-> to include multiple wordings that describe various cost-effective practices to
-> keep equipment operational; these activities occur either before or after a
-> failure.
->
-> Any activity—such as tests, measurements, replacements, adjustments, and
-> repairs—intended to retain or restore a functional unit in or to a specified
-> state in which the unit can perform its required functions.
->
-> All action taken to retain material in a serviceable condition or to restore
-> it to serviceability. It includes inspections, testing, servicing,
-> classification as to serviceability, repair, rebuilding, and reclamation.
->
-> All supply and repair action taken to keep a force in condition to carry out
-> its mission.
->
-> The routine recurring work required to keep a facility (plant, building,
-> structure, ground facility, utility system, or other real property) in such
-> condition that it may be continuously used, at its original or designed
-> capacity and efficiency for its intended purpose.\
+> The routine recurring work required to keep a facility in such condition that
+> it may be continuously used, at its original or designed capacity and
+> efficiency for its intended purpose.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Maintenance)</cite>
 
-I like term Negentropy, which can describe my maintenance process.
+I store tasks, which I need to check constantly, in this file. This helps me to
+reduce chaos in my life (at least digital) with this maintenance tasks, I also
+collect all my techniques and tools information in this note.
+
+Main goal for maintenance is keep my stuff in some organized state and reduce
+entropy with Negentropy.
 
 > Negentropy is reverse entropy. It means things becoming more in order. By
 > 'order' is meant organization, structure and function: the opposite of
@@ -42,71 +27,70 @@ I like term Negentropy, which can describe my maintenance process.
 > Solar System. Another example is life.\
 > — <cite>[Simple English Wikipedia](https://simple.wikipedia.org/wiki/Negentropy)</cite>
 
-I store tasks, which I need to check constantly, in this file. This helps me to
-reduce chaos in my life (at least digital), I also collect all my techniques and
-tools information in this note.
+## Files and directories
 
-- Maintenance downloads (remove old files, etc...)
-- Maintenance [[my_backup_plan|backups]] (weekly check)
+Check existence, remove not required files (into Trash first), optimize
+filenames, etc.
 
-- Flash cards optimization/review
-- Organize files in $HOME
+- Directories - `~/Downloads`, `~/*`
+- Maintenance [[my_backup_plan|backups]] - mount and test.
+- SSH/GPG keys, [[pass]] and agenix files.
+- `external`, `file`, `directory` frontmatter variables in [[Zettelkasten]]
+  files are isn't broken.
+- [[datavew|Dataview]] - maintenance my [[Zettelkasten]] system.
+- My projects have `README.md` file.
+
+## [[OS]]
+
+Need to verify some loges, units, etc...
+
+- Backup state - `journalctl -u borgbackup-job-home-inom.service`
+- System logs - `journalctl -p warning -b`
+- Failed units - `systemctl list-units --failed && systemctl --user list-units --failed`
+- Kernel messages - `journalctl --list-boots`, `journalctl --boot=0 --priority=4`
+- Clean-up [[Docker]] containers (carefully, maybe something will be lost!) -
+`docker system prune; docker volume prune`.
+- Broken symlinks `fd -L -t l`.
+
+## Programs and services
+
+- [[spaced_repetition|Spaced repetition]] - review flashcards tags, notes with
+  this system.
+- [[Calibre]] - optimize tags, fill books metadata.
+- [[my_awesome_software_list|Software]] - review and update.
+- [[search_engine|Search engines]] - review and update.
+
+- [[dotfiles]] configuration - save configuration not stored in dotfiles, commit
+  all changes, push to remote.
+- [[Neovim]] configuration - commit all changes, push to remote.
+
+- Firefox profiles settings verify (`about:config`), at least
+`browser.sessionstore.interval`.
+
+## IRL
+
 - Videos and pictures workflow
-- System logs with this command `journalctl -p warning -b`
-- Persistant system logs
-- Backup state: `journalctl -u borgbackup-job-home-inom.service`
-- Failed units: `systemctl list-units --failed && systemctl --user list-units --failed`
-- Passwords
-- SSH/GPG keys
-- Backup with [[my_backup_plan|plan]]
-- My [[calendar]]
-- [[how_do_I_work_with_contacts|My contacts]]
-- Hardware and other specific [[maintenance]] tasks
 
-- docker system prune; docker volume prune (be careful with this, backup
-DB/important, keep running important containers)
-- Sync dotfiles, nvim config and check it
-- Optimize configurations NOT stored in /etc/dotfiles (very few)
+- [[calendar|Calendar]] - check completed events, save some information.
+- [[contacts|Contacts]] - remove old contacts, update entries if required.
 
-- Review search engines
-- Firefox profiles settings (about:config), at least `browser.sessionstore.interval`
-- Review [[dataview_maintenance_queries|dataview]] note.
 - Audio notes (mobile/tablet). Maybe I find some plugin in obsidian, which
 support audio to text conversion or build some workflow.
 - [[how_do_I_sync_my_data|Sync my data]].
 
-## Tips
+## Hardware
 
-You can use [[Obsidian#Custom checkbox \(CSS\)|custom checkboxes]] to mark items,
-across your notes.
-
-
-## Wiki
-
-- [[dataview_maintenance_queries|Dataview maintenance]], maintenance my
-[[Zettelkasten]] system.
-- Wiki inbox directory.
-- Find broken links in Wiki, find broken symlinks `fd -L -t l`
-- `rg --files-with-matches -U tags\:\\n-|xargs vi`, find incorrect formatting
-tags
-- Verify all `file` and `directory` variables in wiki are correct
-- Verify all projects has associated note or README file
-
-## Hardware & Monitoring
-
-- [netdatanetdata The open-source observability platform everyone needs!](https://github.com/netdata/netdata)
-- [ ] base monitoring setup
-- [ ] monitoring, how much data writing daily
-- [ ] how inform about problems? (email, telegram, etc...)
-- [ ] backup monitoring setup
-- [ ] better arch maintenance script, add `iotop`?
-
-- [EIZO monitor test](https://www.eizo.be/monitor-test/)
-- [UFO Test: Vertical Scrolling Text](https://www.testufo.com/framerates-text)
-- [Atrise Lutcurve - Визуальная калибровка дисплея](http://www.atrise.com/lutcurve/ru/)
-- [Keyboard Tester](https://www.keyboardtester.com/tester.html)
+- [EIZO ](https://www.eizo.be/monitor-test/) - Online monitor quality test,
+  including tests to detect broken pixels, brightness and contrast test, etc.
 - [Dead-pixel check](http://lcdtech.info/en/tests/dead.pixel.htm)
-- [iFixit](https://www.ifixit.com/)
+- [UFO Test](https://www.testufo.com/framerates-text) - Vertical scrolling text,
+  useful to test FPS.
+- [Keyboard Tester](https://www.keyboardtester.com/tester.html)
 - [Free Online Audio Tests, Test Tones and Tone Generators](https://www.audiocheck.net/)
 
-- [This to That, how glue things to other things](http://www.thistothat.com/)
+## Monitoring
+
+- [ ] Automatic problems informing via [[email]]
+- [ ] How much data writing daily
+- [ ] Backup problems' detection
+- [ ] Verify monitoring is really working
