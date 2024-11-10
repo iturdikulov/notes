@@ -17,10 +17,10 @@ sr-ease: 265
 I use dataview mainly to maintenance my [[Zettelkasten]] system. Below some
 useful queries which help me with that.
 
-## No tags or empty files?
+## No tags or small files?
 
 ```dataview
-list where length(file.tags) = 0
+list where length(file.tags) = 0 or file.size < 512
 sort file.name asc
 ```
 
