@@ -18,13 +18,12 @@ Learning goals:
 program/computing system.
 - Make world better with efficient written programs, which solve human problems.
 
-Computer science is closely related to
-[[programming_learning_path|programming learning path]].
+Computer science is closely related to [[programming_learning_path]].
 
 ## High-level topics
 
-- [[computational_complexity|Computational complexity]]
-- [[big_O_notation|Big O notation]]
+- [[computational_complexity]]
+- [[big_O_notation]]
 - Asymptotic analysis
 - Data Structures
     - [[array]]
@@ -35,7 +34,7 @@ Computer science is closely related to
     - [[hash_table]]
 - More Knowledge
     - [[linear_search]]
-    - [[binary_search_algorithm]]
+    - [[binary_search]]
     - Bitwise operations
 - Trees
     - [[tree]]
@@ -43,7 +42,7 @@ Computer science is closely related to
     - [[heap]] / Priority Queue / Binary Heap
     - balanced search trees (general concept, not details)
     - traversals: preorder, inorder, postorder, BFS, DFS
-- [[sorting_algorithm|Sorting algorithm]]
+- [[sorting_algorithm]]
     - [[selection_sort]]
     - [[insertion_sort]]
     - heapsort
@@ -118,7 +117,7 @@ Computer science is closely related to
 - [[Wikipedia-Glossary_of_computer_science]]
 - [[algorithm|Algorithm]]
 - [Wikipedia - List of algorithms](https://en.wikipedia.org/wiki/List_of_algorithms)
-- [[Nova_Byrne-Tech_yourself_computer_science|Tech yourself computer science]]
+- [[Nova_Byrne-Tech_yourself_computer_science]]
 
 ## Resources
 

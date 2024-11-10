@@ -20,7 +20,7 @@ sr-ease: 250
 > uniqueness).\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Do_it_yourself)</cite>
 
-For me DIY is important part of my [[IRL|life]].
+For me DIY is important part of my [[life]].
 
 ## External links
 

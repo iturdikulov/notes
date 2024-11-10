@@ -32,8 +32,8 @@ English is a West Germanic language in the Indo-European
 >
 > [Simple English Wikipedia](https://simple.wikipedia.org/wiki/English_language)
 
-I have English language [[English_learning_path|learning plan]],
-which can help me to understand English materials, media and people.
+I have own [[English_learning_path]], which can help me to understand English
+materials, media and people.
 
 ## Collactions (словосочетания)
 
@@ -43,7 +43,7 @@ There are some types of collocations: Fixed, Strong, and Weak.
 
 ## Grammar (грамматика)
 
-- [[English_Capitalization_Rules|English Capitalization Rules]]
+- [[English_Capitalization_Rules]]
 
 ## Tools
 

@@ -45,6 +45,3 @@ done;
 - [ ] [Command Challenge!](https://cmdchallenge.com/)
 - [ ] [Bash Guide for Beginners](https://tldp.org/LDP/Bash-Beginners-Guide/html/)
 - [ ] [The Bash Guide](https://guide.bash.academy/)
-- [ ] [alexanderepstein/Bash-Snippets: A collection of small bash scripts for heavy terminal users](https://github.com/alexanderepstein/Bash-Snippets)
-- [ ] [Useful scripts and configs for Linux users](https://github.com/dmi3/bin)
-

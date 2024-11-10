@@ -10,8 +10,7 @@ sr-ease: 248
 
 TODO: need review!
 
-How to use them in `printf` function described in
-[[printf_format_string|printf format string]].
+How to use them in `printf` function described in [[printf_format_string]].
 
 Check main types here:
 
@@ -20,7 +19,7 @@ Check main types here:
 
 ## References
 
-- [[data_type|Data type]].
+- [[data_type]].
 - [cstdint](https://www.cplusplus.com/reference/cstdint/)
 - [C Programming/stdint.h](https://en.wikibooks.org/wiki/C_Programming/stdint.h)
 

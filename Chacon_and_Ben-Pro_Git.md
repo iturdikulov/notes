@@ -15,7 +15,7 @@ directory:
 ---
 # Pro Git
 
-A book about Git and [[version_control|version control]] in general.
+A book about Git and [[version_control]] in general.
 
 ## Pro Git /2
 

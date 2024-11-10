@@ -11,7 +11,7 @@ sr-ease: 291
 > Android is an operating system for mobile devices. It is mostly used for
 > smartphones, like Google's own Google Pixel, as well as by other phone
 > manufacturers like **OnePlus**, HTC and Samsung. It has also been used for
-> tablets such as the **Samsung**, Motorola, etc. A modified [[GNU_Linux]]
+> tablets such as the **Samsung**, Motorola, etc. A modified [[Linux]]
 > kernel is used as Android's kernel.
 >
 > Programs for Android, also called "apps" (short for applications), usually
@@ -22,7 +22,7 @@ sr-ease: 291
 I use android on daily-basis with smartphone and tablet. But I'm trying to keep
 it simple and minimalistic.
 
-I store list of useful software in [[my_awesome_software_list#Android|my software list]].
+I store list of useful software in [[my_awesome_software_list#Android]].
 
 I also need sync data between my working machine and android devices. There 2
 ways to sync data which I usually use:

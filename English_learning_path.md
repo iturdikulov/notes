@@ -29,7 +29,7 @@ Fundamentals of English grammar:
 
 - [[duolingo]]
 - [English Playlists](https://boosty.to/englishplaylists)
-- [[Puzzle_English|Puzzle English]], mostly not used anymore.
+- [[Puzzle_English]], mostly not used anymore.
 
 ## External links
 

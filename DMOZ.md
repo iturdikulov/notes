@@ -21,8 +21,7 @@ sr-ease: 263
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/DMOZ)</cite>
 
 Personally I have DMOZ categories data files, which I use as inspiration to
-organize my files. It's sort of [[filesystem_Hierarchy_Standard_FHS|FHS]] but
-for my local files.
+organize my files. It's sort of [[FHS]] but for my local files.
 
 Usually use [[Ripgrep]] to find required categories.
 

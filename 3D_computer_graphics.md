@@ -9,13 +9,12 @@ sr-ease: 208
 ---
 # 3D computer graphics
 
-> 3D [[computer_graphics|computer graphics]], sometimes called CGI, 3D-CGI or
-> three-dimensional computer graphics are graphics that use a three-dimensional
-> representation of geometric data (often Cartesian) that is stored in the
-> computer for the purposes of performing calculations and rendering digital
-> images, usually 2D images but sometimes 3D images. The resulting images may be
-> stored for viewing later (possibly as an animation) or displayed in real
-> time.\
+> 3D [[computer_graphics]], sometimes called CGI, 3D-CGI or three-dimensional
+> computer graphics are graphics that use a three-dimensional representation of
+> geometric data (often Cartesian) that is stored in the computer for the
+> purposes of performing calculations and rendering digital images, usually 2D
+> images but sometimes 3D images. The resulting images may be stored for viewing
+> later (possibly as an animation) or displayed in real time.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/3D_computer_graphics)</cite>
 
 I'm trying to [[CG_learning_path|learn]] 3D computer graphics.

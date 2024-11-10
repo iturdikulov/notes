@@ -36,7 +36,7 @@ He recommends buying a mechanical keyboard, which I already have, and I like it.
 
 1. "Proper posture is important as minor discomforts get amplified over time." I
    agree, and definitely need to improve my posture. And combine it with
-[[my_physical_exercise_plan|my exercises]].
+[[my_physical_exercise_plan]].
 
 2. "Measure your progress often" If I use training tools, I'll measure my
    progress often.
@@ -46,8 +46,8 @@ He recommends buying a mechanical keyboard, which I already have, and I like it.
 4. "Take one step at a time" I need stay calm, don't rush and progress slowly,
    as needed
 
-5. "Prefer short and frequent sessions" [[spaced_repetition|spaced repetition]] also
-   can be applied here
+5. "Prefer short and frequent sessions" [[spaced_repetition]] also can be
+   applied here
 
 6. "Pressing keys" Use chords for typing (I think its native method). Prefer
    light-typing. Practice double-typing each finger for light-typing.
@@ -74,7 +74,7 @@ _Colemak finger positions_
 
 11. "Use a typing trainer to re-enforce the mental model"
 
-Refer to [[touch_typing|touch typing]] for more details.
+Refer to [[touch_typing]] for more details.
 
 11. "Don’t look at the keyboard"
 

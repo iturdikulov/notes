@@ -9,10 +9,10 @@ sr-ease: 206
 ---
 # Abstract syntax tree
 
-> In [[computer_science|computer science]], an abstract syntax [[tree]] (AST),
-> or just syntax tree, is a tree representation of the abstract
-> ==syntactic structure of text== (often source code) written in a formal
-> language. Each node of the tree denotes a construct occurring in the text.\
+> In [[computer_science]], an abstract syntax [[tree]] (AST), or just syntax
+> tree, is a tree representation of the abstract ==syntactic structure of text==
+> (often source code) written in a formal language. Each node of the tree
+> denotes a construct occurring in the text.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Abstract_syntax_tree)</cite>
 <!--SR:!2024-01-26,1,230-->
 

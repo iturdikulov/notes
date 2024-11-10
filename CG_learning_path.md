@@ -9,8 +9,8 @@ sr-ease: 179
 ---
 # Computer Graphics learning path
 
-My outline for learning [[computer_graphics|computer graphics]].
-The main software for this is [[Godot]], [[Blender]], [[Python]].
+My outline for learning [[computer_graphics]]. The main software for this is
+[[Godot]], [[Blender]], [[Python]].
 
 - [/] [Rendering isometric sprites using Godot · Kenney](https://kenney.nl/knowledge-base/learning/rendering-isometric-sprites-using-godot)
 - [Terrain3D for Godot 4 - C++ Editable Terrain System - YouTube](https://www.youtube.com/watch?v=Aj9vWIEaFXg)
@@ -36,8 +36,8 @@ The main software for this is [[Godot]], [[Blender]], [[Python]].
 - [[Raylib_Community-Raylib]]
 - [[HK-SHAO-Godot_Raytracing_Demo]]
 - [[Obuz_Game_Development_with_Blender_and_Godot]]
-- [[Sensei-Unreal_Engine_5_Beginner_Tutorial|beginner course]], I like
-this engine, and it can be even used as [[art]] tool.
+- [[Sensei-Unreal_Engine_5_Beginner_Tutorial]], I like this engine, and it can
+be even used as [[art]] tool.
 - [[Godot_Community-Godot_demo_projects]]
 - [[Manzur_and_Marques-Godot_Engine_Game_Development]]
 
@@ -49,12 +49,13 @@ this engine, and it can be even used as [[art]] tool.
 
 - [[Blender#Learning]]
 - [mister chad](https://mister-chad.com/welcome)
-- [[Muratori-Handmade_Hero|Handmade Hero]]
+- [[Muratori-Handmade_Hero]]
 - [[Price-Donut_Tutorial_in_Blender]]
 - [[Creative_Shrimp-Hard_Surface_Modeling_In_Blender]]
 - Trammell HUMAN Realistic Portrait With Blender?
 - Tuytel and Rahman Creating 3D Environments?
-- [Creating Realistic 3D Water in Blender](https://www.youtube.com/watch?v=vr7mkSiKRLM)
+- [Creating Realistic 3D Water in
+Blender](https://www.youtube.com/watch?v=vr7mkSiKRLM)
 
 ## Web graphics
 

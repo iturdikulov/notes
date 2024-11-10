@@ -3,6 +3,8 @@ date: 2023-04-19
 tags:
   - inbox
   - Unix
+external:
+  - https://www.gnu.org/software/coreutils/
 sr-due: 2024-01-29
 sr-interval: 2
 sr-ease: 208
@@ -11,12 +13,11 @@ sr-ease: 208
 
 > The GNU Core Utilities or coreutils is a package of GNU software containing
 > implementations for many of the basic tools, such as cat, ls, and rm, which
-> are used on [[Unix|unix]]-like operating systems.\
+> are used on [[Unix]]-like operating systems.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/GNU_Core_Utilities)</cite>
 
-Here I store basic coreutils and similar tools that I use on a daily basis.
-A lot of these commands also usually exist in this
-[[Unix_commands|Unix commands]] list.
+Here I store basic coreutils and similar tools that I use on a daily basis. A
+lot of these commands also usually exist in this [[Unix_commands]] list.
 
 Source code of coreutils can be found at gnu.org website:
 [coreutils.git](http://git.savannah.gnu.org/gitweb/?p=coreutils.git)
@@ -171,10 +172,10 @@ Source code of coreutils can be found at gnu.org website:
 
 ## Other
 
-- [[GNU_Sed|GNU Sed]]
-- [[GNU_Readline|GNU Readline]]
-- [[GNU_Privacy_Guard_GPG|GNU Privacy Guard (GPG)]]
-- [[GNU_Debugger|GNU Debugger (GDB)]]
+- [[GNU_Sed]]
+- [[GNU_Readline]]
+- [[GPG]]
+- [[GNU_Debugger]]
 
 ## lsof (LiSt Open Files)
 
@@ -192,4 +193,4 @@ lsof is a command for LiSting Open Files. You can use lsof for example to:
 ## References
 
 - [ ] [GNU Coreutils Cheat Sheet](https://catonmat.net/gnu-coreutils-cheat-sheet)
-- [ ] [[GNU_Compiler_Collection_GCC]]
+- [ ] [[GCC]]

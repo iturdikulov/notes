@@ -15,7 +15,7 @@ Free and open source [[3D_computer_graphics|3D]] creation suite. Free as in
 freedom.
 
 [[computer_graphics|Computer graphics]] software tool set used for creating
-animated films, visual effects, [[art|art]], 3D-printed models, motion graphics,
+animated films, visual effects, [[art]], 3D-printed models, motion graphics,
 interactive 3D applications, virtual reality, and, formerly, video
 [[game|games]].
 

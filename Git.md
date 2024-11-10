@@ -1,17 +1,17 @@
 ---
 date: 2022-12-29
-external: https://git-scm.com/
 tags:
   - inbox
   - VCS
+external: https://git-scm.com/
 sr-due: 2023-01-28
 sr-interval: 8
 sr-ease: 252
 ---
 # Git Version Control System
 
-Distributed revision control system, [[computer_program|computer program]],
-designed to help people create other computer program together.
+Distributed revision control system, [[computer_program]], designed to help
+people create other computer program together.
 
 > Git is a free and open source distributed version control system designed to
 > handle everything from small to very large projects with speed and efficiency.
