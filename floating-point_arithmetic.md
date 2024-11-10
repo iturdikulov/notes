@@ -12,12 +12,16 @@ sr-ease: 228
 > approximately, using an integer with a fixed precision, called the
 > `significand`, scaled by an integer exponent of a fixed base.
 >
-> Example:
-> $12.345 = \underbrace{12345}_\text{significand} \times \underbrace{10}_\text{base}\!\!\!\!\!\!^{\overbrace{-3}^\text{exponent}}$
->
 > In practice, most floating-point systems use base two, though base ten
 > (decimal floating point) is also common.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Floating-point_arithmetic)</cite>
+
+Example of floating-point number:
+
+$$$
+12.345 = \underbrace{12345}_\text{significand}
+\times \underbrace{10}_\text{base}\!\!\!\!\!\!^{\overbrace{-3}^\text{exponent}}
+$$$
 
 Base two floating pointing is used by default and can produce rounding errors.
 
