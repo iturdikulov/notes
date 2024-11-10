@@ -7,7 +7,6 @@ sr-due: 2024-07-02
 sr-interval: 1
 sr-ease: 230
 ---
-
 # Universe
 
 > The universe is all of space and **time** and their contents. It comprises all

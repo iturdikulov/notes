@@ -7,7 +7,6 @@ sr-due: 2024-01-29
 sr-interval: 2
 sr-ease: 225
 ---
-
 # Linear search (sequential search)
 
 > Method for finding an element within a list. It sequentially checks each

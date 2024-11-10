@@ -7,7 +7,6 @@ sr-due: 2024-02-27
 sr-interval: 1
 sr-ease: 161
 ---
-
 # [[mathematics|Mathematics]] learning path
 
 - [/] [Life Tensor](https://www.youtube.com/playlist?list=PLC2pBQ7lPOZCu0cehs7tPmnoeK2BjUiSk)

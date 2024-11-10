@@ -6,7 +6,6 @@ sr-due: 2024-01-30
 sr-interval: 2
 sr-ease: 226
 ---
-
 # Version control
 
 > In [[software_engineering]], version control (also known as revision control,

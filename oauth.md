@@ -4,7 +4,6 @@ tags:
   - inbox
   - web
 ---
-
 # OAuth
 
 > OAuth (short for open authorization) is an open standard for

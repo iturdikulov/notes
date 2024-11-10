@@ -6,7 +6,6 @@ sr-due: 2024-01-29
 sr-interval: 3
 sr-ease: 250
 ---
-
 # Runtime error detection
 
 > Runtime error detection is a software verification method that analyzes a

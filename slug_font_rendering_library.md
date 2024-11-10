@@ -6,7 +6,6 @@ sr-due: 2024-01-29
 sr-interval: 3
 sr-ease: 250
 ---
-
 # Slug Font Rendering Library
 
 > Slug is a software library that has become the professional standard for

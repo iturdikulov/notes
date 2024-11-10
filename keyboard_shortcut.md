@@ -7,7 +7,6 @@ sr-due: 2024-01-29
 sr-interval: 2
 sr-ease: 225
 ---
-
 # Keyboard shortcut
 
 > In [[computing]], a keyboard shortcut also known as hotkey is a

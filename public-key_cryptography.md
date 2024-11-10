@@ -6,7 +6,6 @@ sr-due: 2024-02-08
 sr-interval: 13
 sr-ease: 239
 ---
-
 # Public-key cryptography
 
 > Public-key [[cryptography]], or asymmetric cryptography, is the field of

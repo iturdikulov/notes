@@ -7,7 +7,6 @@ sr-due: 2024-02-05
 sr-interval: 8
 sr-ease: 250
 ---
-
 # Pass (software)
 
 > Password management should be simple and follow Unix philosophy. With pass,

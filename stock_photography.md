@@ -6,7 +6,6 @@ sr-due: 2024-01-29
 sr-interval: 4
 sr-ease: 270
 ---
-
 # Stock photography
 
 > Supply of photographs which are often licensed for specific uses. The stock

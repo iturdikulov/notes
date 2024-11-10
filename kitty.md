@@ -9,7 +9,6 @@ sr-due: 2024-01-29
 sr-interval: 3
 sr-ease: 254
 ---
-
 # Kitty (terminal emulator)
 
 > `kitty` is designed for power **keyboard** users. To that end all its controls

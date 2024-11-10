@@ -7,7 +7,6 @@ sr-due: 2024-01-29
 sr-interval: 1
 sr-ease: 130
 ---
-
 # Search engine
 
 > Software system designed to carry out web searches. They search the World Wide

@@ -7,7 +7,6 @@ sr-due: 2024-02-04
 sr-interval: 7
 sr-ease: 265
 ---
-
 # venv — Creation of virtual environments
 
 > The `venv` [[Python]] module supports creating lightweight “virtual

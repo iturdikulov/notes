@@ -6,7 +6,6 @@ sr-due: 2023-01-28
 sr-interval: 96
 sr-ease: 308
 ---
-
 # Psychology
 
 > Psychology is the [[science|scientific]] study of mind and behavior in humans

@@ -6,7 +6,6 @@ sr-due: 2024-01-29
 sr-interval: 2
 sr-ease: 228
 ---
-
 # Shell script
 
 > Computer program designed to be run by a Unix shell, a command-line

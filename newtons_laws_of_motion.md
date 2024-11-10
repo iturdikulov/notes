@@ -7,7 +7,6 @@ sr-due: 2024-02-01
 sr-interval: 5
 sr-ease: 232
 ---
-
 # Newton's laws of motion
 
 Explain Newton's laws of motion.

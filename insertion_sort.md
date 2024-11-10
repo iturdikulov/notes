@@ -4,7 +4,6 @@ tags:
   - inbox
   - base
 ---
-
 # Insertion sort
 
 ## Insertion sort in action

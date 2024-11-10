@@ -7,7 +7,6 @@ sr-due: 2024-01-29
 sr-interval: 2
 sr-ease: 228
 ---
-
 # Regular expression (regex, regexp, rational expression)
 &#10;
 > Sequence of characters that specifies a match pattern in text. Usually such

@@ -7,7 +7,6 @@ sr-due: 2024-01-31
 sr-interval: 4
 sr-ease: 219
 ---
-
 # Operation (mathematics)
 
 > In [[mathematics]], an operation is a [[function]] which takes zero or more

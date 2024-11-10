@@ -6,7 +6,6 @@ sr-due: 2024-01-29
 sr-interval: 3
 sr-ease: 250
 ---
-
 # Parcel post
 
 > Parcel post is a postal service for mail that is too heavy for normal letter

@@ -7,7 +7,6 @@ sr-due: 2024-01-30
 sr-interval: 4
 sr-ease: 272
 ---
-
 # Okular
 
 > Okular is a multiplatform [[document]] viewer developed by the KDE community

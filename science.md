@@ -7,7 +7,6 @@ sr-due: 2024-01-31
 sr-interval: 6
 sr-ease: 228
 ---
-
 # Science
 
 > **Systematic endeavor** that builds and organizes **knowledge** in the form of

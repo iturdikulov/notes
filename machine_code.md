@@ -7,7 +7,6 @@ sr-due: 2024-01-28
 sr-interval: 2
 sr-ease: 244
 ---
-
 # Machine code
 
 Machine code is the ==set of numbers== that the CPU actually executes.

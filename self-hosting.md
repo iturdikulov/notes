@@ -6,7 +6,6 @@ sr-due: 2024-02-04
 sr-interval: 7
 sr-ease: 250
 ---
-
 # Self-hosting (web services)
 
 > The practice of running and maintaining a website or service using a private

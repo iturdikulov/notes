@@ -7,7 +7,6 @@ sr-due: 2024-01-29
 sr-interval: 4
 sr-ease: 274
 ---
-
 # Web browser
 
 > A web browser is an application for accessing websites. When a user requests a

@@ -7,7 +7,6 @@ sr-due: 2024-01-28
 sr-interval: 1
 sr-ease: 163
 ---
-
 # Physical exercise plan
 
 If you're completely new to physical training and want to use only your own body
@@ -102,7 +101,6 @@ Feel levels:
     например) выберите альтернативный вариант развития.
 
 ------------------------------------------------------------------------
-
 # Тренировка началась:
 
 ## Разминка, разогрев (5-10 минут)
@@ -205,7 +203,6 @@ Feel levels:
 ## На этом все! У тебя все получилось! Так держать!
 
 ------------------------------------------------------------------------
-
 # Часто задаваемые вопросы (FAQ)
 
 ### **У меня не хватает времени на тренировку**
@@ -386,7 +383,6 @@ Wednesday)](https://www.reddit.com/r/bodyweightfitness/wiki/weekly/conceptwednes
 ```
 
 ------------------------------------------------------------------------
-
 # Дополнительные материалы
 
 [Шпаргалка](https://drive.google.com/file/d/1IdrvTC4IqJ4Wn4GIgOWWncHhSstUoTrL/view?usp=sharing),

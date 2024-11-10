@@ -6,7 +6,6 @@ sr-due: 2024-01-28
 sr-interval: 1
 sr-ease: 180
 ---
-
 # Multiplication table
 
 > In [[mathematics]], a multiplication table (sometimes, less formally, a times

@@ -7,7 +7,6 @@ sr-due: 2024-01-28
 sr-interval: 3
 sr-ease: 269
 ---
-
 # Printf format in C
 
 Where the _specifier character_ at the end is the most significant component,

@@ -7,7 +7,6 @@ sr-due: 2024-01-29
 sr-interval: 3
 sr-ease: 250
 ---
-
 # Signal (IPC)
 
 > Signals are standardized messages sent to a running program to trigger

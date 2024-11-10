@@ -7,7 +7,6 @@ sr-due: 2024-01-28
 sr-interval: 2
 sr-ease: 245
 ---
-
 # Source code (or code)
 
 > Any collection of text, with or without comments, written using a

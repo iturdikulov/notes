@@ -7,7 +7,6 @@ sr-due: 2024-01-28
 sr-interval: 1
 sr-ease: 212
 ---
-
 # My shell scripts
 
 - [ ] dmenu record, from lukesmith

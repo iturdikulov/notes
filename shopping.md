@@ -7,7 +7,6 @@ sr-due: 2024-02-07
 sr-interval: 10
 sr-ease: 250
 ---
-
 # Shopping
 
 > Shopping is an activity in which a customer browses the available goods or

@@ -8,7 +8,6 @@ sr-due: 2024-02-09
 sr-interval: 1
 sr-ease: 201
 ---
-
 # Logarithm
 
 > Part of [[mathematics]]. They are related to exponential

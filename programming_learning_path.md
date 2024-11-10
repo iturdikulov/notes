@@ -7,7 +7,6 @@ sr-due: 2023-01-28
 sr-interval: 1
 sr-ease: 161
 ---
-
 # Programming learning path
 
 My number `#1` learning path.
@@ -320,7 +319,6 @@ _[C Reference Card (ANSI)](https://www.math.brown.edu/johsilve/ReferenceCards/CR
 [[Pascal]] is my "old friend", my initial programming language.
 
 ---
-
 ## General programming and software development
 
 - [ ] [Backend Developer Roadmap](https://roadmap.sh/backend).

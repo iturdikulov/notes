@@ -6,7 +6,6 @@ sr-due: 2024-07-02
 sr-interval: 1
 sr-ease: 222
 ---
-
 # Language family
 
 Group of languages which related to some parental language, called the

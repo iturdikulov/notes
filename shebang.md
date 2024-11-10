@@ -7,7 +7,6 @@ sr-due: 2024-02-06
 sr-interval: 9
 sr-ease: 268
 ---
-
 # Shebang (Unix)
 
 > In computing, a shebang is the character sequence consisting of the characters

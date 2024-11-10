@@ -7,7 +7,6 @@ sr-due: 2024-02-20
 sr-interval: 25
 sr-ease: 285
 ---
-
 # Orthographic projection
 
 > Orthographic projection (also orthogonal projection and analemma) is a means

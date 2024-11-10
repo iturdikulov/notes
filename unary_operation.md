@@ -7,7 +7,6 @@ sr-due: 2024-01-29
 sr-interval: 2
 sr-ease: 221
 ---
-
 # Unary operation
 
 In [[mathematics]] operation with only one [[operand]].

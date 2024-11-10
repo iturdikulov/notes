@@ -6,7 +6,6 @@ sr-due: 2024-02-03
 sr-interval: 6
 sr-ease: 244
 ---
-
 # Instruction cycle
 
 > The instruction cycle (also known as the fetch–decode–execute cycle, or simply

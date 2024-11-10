@@ -8,7 +8,6 @@ sr-due: 2023-02-28
 sr-interval: 3
 sr-ease: 226
 ---
-
 # My awesome software list
 
 This is a list my software, aka toolkit. Some of them described in more details

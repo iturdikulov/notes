@@ -8,7 +8,6 @@ sr-due: 2024-01-30
 sr-interval: 3
 sr-ease: 244
 ---
-
 # Sprite (computer graphics)
 
 > In [[computer_graphics]], a sprite is a two-dimensional bitmap that is

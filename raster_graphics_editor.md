@@ -7,7 +7,6 @@ sr-due: 2024-02-02
 sr-interval: 5
 sr-ease: 248
 ---
-
 # Raster graphics editor (graphics editor)
 
 > A raster graphics editor (also called bitmap graphics editor) is a

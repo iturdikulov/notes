@@ -6,7 +6,6 @@ sr-due: 2024-01-28
 sr-interval: 2
 sr-ease: 226
 ---
-
 # Programming language
 
 > System of notation for writing [[computer_program|programs]]'s. Most

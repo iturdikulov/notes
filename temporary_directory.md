@@ -7,7 +7,6 @@ sr-due: 2024-02-02
 sr-interval: 5
 sr-ease: 245
 ---
-
 # Temporary directory
 
 > In [[computing]], a temporary folder or temporary directory is a directory

@@ -7,7 +7,6 @@ sr-due: 2024-01-26
 sr-interval: 1
 sr-ease: 229
 ---
-
 # Set (abstract data type)
 
 > Abstract data type that can store unique values, without any particular order.

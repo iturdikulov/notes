@@ -8,7 +8,6 @@ sr-due: 2024-01-29
 sr-interval: 2
 sr-ease: 209
 ---
-
 # Iturdikulov.com
 
 My personal website, which contains various

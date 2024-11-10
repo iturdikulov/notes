@@ -7,7 +7,6 @@ sr-due: 2024-01-28
 sr-interval: 2
 sr-ease: 208
 ---
-
 # Physics
 
 > Natural [[science]] of matter, involving the study of matter, its fundamental

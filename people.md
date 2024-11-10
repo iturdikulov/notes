@@ -7,7 +7,6 @@ sr-due: 2024-01-29
 sr-interval: 2
 sr-ease: 230
 ---
-
 # People
 
 > A people is any plurality of persons considered as a whole. Used in politics

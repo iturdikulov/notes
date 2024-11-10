@@ -6,7 +6,6 @@ sr-due: 2024-01-29
 sr-interval: 2
 sr-ease: 226
 ---
-
 # Lists
 
 > There are **three types** of lists: unordered lists, ordered lists, and

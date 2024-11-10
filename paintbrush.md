@@ -7,7 +7,6 @@ sr-due: 2024-02-03
 sr-interval: 6
 sr-ease: 246
 ---
-
 # Paintbrush
 
 > A paintbrush is a brush used to apply paint or ink. A paintbrush is usually

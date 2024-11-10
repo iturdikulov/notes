@@ -8,7 +8,6 @@ sr-due: 2024-02-12
 sr-interval: 17
 sr-ease: 212
 ---
-
 # My Music
 
 > Music is generally defined as the [[art]] of arranging sound to create some

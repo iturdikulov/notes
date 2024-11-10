@@ -6,7 +6,6 @@ sr-due: 2024-01-28
 sr-interval: 2
 sr-ease: 246
 ---
-
 # Handwriting
 
 > Handwriting is the writing done with a **writing instrument**, such as a pen

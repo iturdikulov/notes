@@ -7,7 +7,6 @@ sr-due: 2021-02-03
 sr-interval: 6
 sr-ease: 226
 ---
-
 # My Zettelkasten note types (AKA templates)
 
 I use some templates/note types with [[Zettelkasten]]. I will update it as I

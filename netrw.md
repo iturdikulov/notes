@@ -7,7 +7,6 @@ sr-due: 2024-02-24
 sr-interval: 29
 sr-ease: 283
 ---
-
 ## netrw
 
 > Netrw makes reading files, writing files, browsing over a network, and

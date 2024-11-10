@@ -9,7 +9,6 @@ sr-due: 2024-01-30
 sr-interval: 4
 sr-ease: 272
 ---
-
 # Patch (Unix)
 
 Patch - apply a diff file to an original file.

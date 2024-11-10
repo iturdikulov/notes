@@ -7,7 +7,6 @@ sr-due: 2023-01-26
 sr-interval: 1
 sr-ease: 205
 ---
-
 # Queue (abstract data type)
 
 > In [[computer_science]], a queue is a **collection of entities** that are

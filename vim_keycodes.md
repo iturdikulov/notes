@@ -7,7 +7,6 @@ sr-due: 2024-02-03
 sr-interval: 6
 sr-ease: 267
 ---
-
 # Vim keycodes
 
 You can find keycodes using this command in [[Neovim]]:

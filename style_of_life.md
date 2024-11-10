@@ -6,7 +6,6 @@ sr-due: 2024-01-29
 sr-interval: 3
 sr-ease: 251
 ---
-
 # Style of life
 
 > The term style of [[life]] (German: "Lebensstil") was used by

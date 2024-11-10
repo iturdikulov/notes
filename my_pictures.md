@@ -8,7 +8,6 @@ sr-due: 2024-02-05
 sr-interval: 8
 sr-ease: 253
 ---
-
 # My Pictures
 
 TODO: picture definition

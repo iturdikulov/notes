@@ -7,7 +7,6 @@ sr-due: 2024-01-28
 sr-interval: 2
 sr-ease: 245
 ---
-
 # Reference
 
 > A reference is a relationship between objects in which one object designates,

@@ -7,7 +7,6 @@ sr-due: 2024-02-02
 sr-interval: 7
 sr-ease: 266
 ---
-
 # Number
 
 > Concept from [[mathematics]], used to count or measure. Depending

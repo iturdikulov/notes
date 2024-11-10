@@ -7,7 +7,6 @@ sr-due: 2024-01-30
 sr-interval: 4
 sr-ease: 270
 ---
-
 # Kiwix
 
 > Kiwix is a free and open-source offline web browser created by Emmanuel

@@ -7,7 +7,6 @@ sr-due: 2024-01-30
 sr-interval: 5
 sr-ease: 248
 ---
-
 # Manga
 
 > Manga (漫画) are [[comics]] or graphic novels originating from
