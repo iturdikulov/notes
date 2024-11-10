@@ -79,7 +79,7 @@ Gamma::`5`, `6`
 Saturation::`7`, `8`
 
 
-# mpv playlist manager
+## mpv playlist manager
 
 Show playlist::`S-Return`
 

@@ -9,8 +9,8 @@ tags:
 
 [[about_me|I'm]] a programmer, who is trying to be a professional in the field
 and stay a human being at the same time. My primary specialization is
-[[backend]] web development, but I'm also interested in
-[[computer_graphics|computer graphics]], game development and [[art]].
+[[backend]] web development, but I'm also interested in [[computer_graphics]],
+game development and [[art]].
 
 My site contains mainly my notes that are of interest of me, they are managed
 with [[Zettelkasten]] methodology. I use them mostly to improve my
@@ -45,9 +45,8 @@ something related to notes published on this site.
 
 To get email address please try to use **one** of these methods:
 
-1. If you have "modern" [[web_browser|web browser]] you can read it from the
-  picture below.\
-  ![my_email](./img/my_email.svg)
+1. If you have "modern" [[web_browser]] you can read it from the picture below.\
+   ![my_email](./img/my_email.svg)
 
 2. Combine my name in lowercase (`Inom`), the at sign (`@`), and current domain
   (`iturdikulov.com`), and you'll get full email address.

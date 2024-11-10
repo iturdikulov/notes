@@ -9,8 +9,8 @@ tags:
 # 2. Using the Python Interpreter
 
 Python interpreter can be used in interactive mode or in scrips. In interactive
-mode Python interpreter support [[GNU_Readline|readline]] library, which provide
-rich keybinding system.
+mode Python interpreter support [[GNU_Readline]] library, which provide rich
+keybinding system.
 
 Personally I have `py` command-line alias to run `python` in interactive mode
 and `ipy` to run `ipython` (custom interactive shell).

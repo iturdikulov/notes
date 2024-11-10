@@ -3,6 +3,8 @@ date: 2023-09-21
 tags:
   - inbox
   - DB
+external:
+  - https://www.sqlite.org/
 sr-due: 2024-01-30
 sr-interval: 4
 sr-ease: 270
@@ -22,7 +24,7 @@ Is there strict typing in SQLite?
 &#10;
 SQLite has a loose type system, you can store any type of data in any field,
 regardless of how you defined it. Remember: just because you can do something,
-doesn't mean you should! <!--SR:!2024-09-14,3,270-->
+doesn't mean you should! <!--SR:!2024-11-11,2,250-->
 
 How import data from SQL, which is main command at least?
 &#10;

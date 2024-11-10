@@ -33,13 +33,13 @@ sr-ease: 220
 
 - High proficient Software Engineer, technical and teamwork, professional
 network.
-- Solid knowledge of [[computer_science|computer science]] and basic
-understanding of [[mathematics]].
+- Solid knowledge of [[computer_science]] and basic understanding of
+[[mathematics]].
 - [[backend|Backend]] professional specialist.
-- [[computer_graphics|Computer graphics]] skills set for artistic and
-  technical purposes.
+- [[computer_graphics|Computer graphics]] skills set for artistic and technical
+purposes.
 - Software development understanding, fundamentals, architecture, design
-  patterns, and best practices.
+patterns, and best practices.
 
 ## Productivity tips
 
@@ -60,11 +60,11 @@ understanding of [[mathematics]].
 
 ## Organize
 
-I organize my work using, [[getting_things_done_GTD|GTD]] mainly using
-Inbox, Tasks (TODO and NEXT), Daily and Weekly notes with [[Taskwarrior]].
+I organize my work using, [[GTD]] mainly using Inbox, Tasks (TODO and NEXT),
+Daily and Weekly notes with [[Taskwarrior]].
 
-To follow external timelines I sometimes use [[calendar|calendar]] events,
-but it's secondary task planner.
+To follow external timelines I sometimes use [[calendar]] events, but it's
+secondary task planner.
 
 To connect with colleagues I use [[IM]] and [[email]] clients.
 

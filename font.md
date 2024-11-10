@@ -21,7 +21,7 @@ great for me.
 
 A computer font is implemented as a digital data file containing a set of
 graphically related glyphs. They are widely used in modern
-[[computer_software|software]].
+[[computer_software]].
 
 [[Unicode]] fonts like GNU Unifont can contain thousands glyphs.
 

@@ -10,7 +10,7 @@ The SQLAlchemy ORM provides an additional configuration layer allowing
 user-defined ==Python classes== to be mapped to database tables and other
 constructs, as well as an object persistence mechanism known as the Session. It
 then extends the Core-level SQL Expression Language to allow SQL queries to be
-composed and invoked in terms of user-defined objects.
+composed and invoked in terms of user-defined objects. <!--SR:!2024-11-10,1,230-->
 
 The start of any SQLAlchemy application is an object called the ==`Engine`==.
 

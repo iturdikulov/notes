@@ -10,11 +10,10 @@ sr-ease: 247
 # Internet
 
 > The Internet (or internet) is the global system of interconnected computer
-> networks that uses the Internet protocol suite
-> ([[Internet_protocol_suite-TCP_IP|TCP/IP]]) to communicate between
-> [[computer_network|networks]] and [[computer|devices]]. It is a **network of
-> networks** that consists of private, public, academic, business, and
-> government networks of local to global scope, linked by a broad array of
+> networks that uses the Internet protocol suite ([[TCP_IP|TCP/IP]]) to
+> communicate between [[computer_network]] and [[computer|devices]]. It is a
+> **network of networks** that consists of private, public, academic, business,
+> and government networks of local to global scope, linked by a broad array of
 > electronic, wireless, and optical networking technologies. The Internet
 > carries a vast range of information resources and services, such as the
 > interlinked hypertext documents and applications of the World Wide Web (WWW),

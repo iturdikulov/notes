@@ -39,7 +39,7 @@ NixOS main website is [https://nixos.org/](https://nixos.org/).
 
 I download minimal image and copy it into USB drive with [[Ventoy]].
 
-My guide to install NixOS described in own note: [[NixOS_pre-install|NixOS pre-install]].
+My guide to install NixOS described in own note: [[NixOS_pre-install]].
 
 # Home manager
 
@@ -76,7 +76,7 @@ You can use `-I nixosconfig=/path/to/config` flag with `nixos-rebuild switch`
 and `-f /path/to/config` with `home-manager switch` to specify configuration
 file.
 
-## NixOS and [[filesystem_Hierarchy_Standard_FHS|FHS]]
+## NixOS and [[FHS]]
 
 NixOS doesn't follow the FHS:
 

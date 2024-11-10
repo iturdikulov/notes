@@ -11,16 +11,14 @@ sr-ease: 229
 # Programming style (code style)
 
 > Set of rules or guidelines used when writing the source code for a
-> [[computer_program|computer program]]. It is often claimed that following a
-> particular programming style will help
-> [[programmer|programmers]] read and understand
-> [[source_code|source_code]] conforming to the style, and help to avoid
-> introducing errors.
+> [[computer_program]]. It is often claimed that following a particular
+> programming style will help [[programmer|programmers]] read and understand
+> [[source_code]] conforming to the style, and help to avoid introducing errors.
 >
 > A classic work on the subject was
-> [[Kernighan_and_Plauger-The_Elements_of_Programming_Style|The Elements of Programming Style]]
-> , written in the 1970s, and illustrated with examples from the FORTRAN and
-> PL/I languages prevalent at the time.\
+> [[Kernighan_and_Plauger-The_Elements_of_Programming_Style|The Elements of
+> Programming Style]] , written in the 1970s, and illustrated with examples from
+> the FORTRAN and PL/I languages prevalent at the time.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Programming_style)</cite>
 
 My first experience with code style was while I learned basics of web

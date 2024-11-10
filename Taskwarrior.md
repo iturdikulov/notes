@@ -3,6 +3,8 @@ date: 2023-06-25
 tags:
   - inbox
   - productivity
+external:
+  - https://taskwarrior.org/
 directory: ~/.task
 sr-due: 2024-01-31
 sr-interval: 3
@@ -22,7 +24,7 @@ Generally Taskwarrior is CLI To-Do list manager.
 - plain text format (avoid proprietary formats)
 - cross-platform
 - [[open-source]]
-- [[command-line_interface_CLI]]
+- [[CLI]]
 - many extensions and integrations, like Taskwarrior Server and Taskwarrior TUI
 - integrations, most popular Timewarrior and Taskserver, TODO: add note/use it
 

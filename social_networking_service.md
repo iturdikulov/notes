@@ -11,8 +11,7 @@ sr-ease: 148
 
 > Online platform which people use to build social networks or social
 > relationships with other people who share similar personal or career content,
-> interests, activities, backgrounds or real-life
-> [[how_do_I_work_with_contacts|contacts]].\
+> interests, activities, backgrounds or real-life [[contacts]].\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Social_networking_service)</cite>
 
 ## References

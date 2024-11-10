@@ -93,11 +93,10 @@ To deactivate a virtual environment, type:
 `deactivate` into the terminal.
 
 How to install, upgrade, and remove packages using standard Python program?
-&#10;
-You can install, upgrade, and remove packages using a program called `pip`. By
-default `pip` will install packages from the `Python Package Index
+&#10; You can install, upgrade, and remove packages using a program called
+`pip`. By default `pip` will install packages from the `Python Package Index
 <https://pypi.org>`.  You can browse the Python Package Index by going to it in
-your [[web_browser|web browser]].
+your [[web_browser]].
 
 `pip` has a number of subcommands: =="install", "uninstall", "freeze", etc==.
 Consult the [Installing Python

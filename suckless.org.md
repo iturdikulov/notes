@@ -33,8 +33,8 @@ Features:
 
 ## DWM
 
-Fully described in [[DWM|own note]].
+Fully described in [[DWM]].
 
 ## Dmenu
 
-Fully described in [[dmenu|own note]].
+Fully described in [[dmenu]].

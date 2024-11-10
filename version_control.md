@@ -9,11 +9,11 @@ sr-ease: 226
 
 # Version control
 
-> In [[software_engineering|software engineering]], version control (also known
-> as revision control, source control, or source code management) is a class of
-> systems responsible for managing changes to computer programs, documents,
-> large web-sites, or other collections of information. Version control is a
-> component of software configuration management.\
+> In [[software_engineering]], version control (also known as revision control,
+> source control, or source code management) is a class of systems responsible
+> for managing changes to computer programs, documents, large web-sites, or
+> other collections of information. Version control is a component of software
+> configuration management.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Version_control)</cite>
 
 Version control system track changes over the files and allow recalling a

@@ -8,7 +8,7 @@ sr-ease: 237
 ---
 # Cloud computing
 
-> Cloud computing is the on-demand availability of [[computer|computer]] system
+> Cloud computing is the on-demand availability of [[computer]] system
 > resources, especially data storage (cloud storage) and [[computing]] power,
 > without direct active management by the user. Large clouds often have
 > functions distributed over multiple locations, each of which is a data center.

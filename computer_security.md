@@ -11,7 +11,7 @@ sr-ease: 250
 ## Software
 
 - [[MFA]]
-- [[GNU_Privacy_Guard_GPG|GPG]]
+- [[GPG]]
 - [[pass]]
 - [[dm-crypt]]
 - [DroidFS](https://github.com/hardcore-sushi/DroidFS) - use encrypted virtual

@@ -12,12 +12,11 @@ sr-ease: 209
 > Study of ==[[computation]], automation, and information==. Computer
 > [[science]] spans theoretical disciplines (such as [[algorithm|algorithms]],
 > theory of computation, information theory, and automation) to practical
-> disciplines (including the design and implementation of
-> [[computer_hardware|hardware]] and [[computer_software|software]]). Computer
-> science is generally considered an academic discipline and distinct from
-> computer programming which is considered to be a technical field.
-> [[algorithm|Algorithms]] and [[data_structure|Data Structures]] are central to
-> computer science.\
+> disciplines (including the design and implementation of [[computer_hardware]]
+> and [[computer_software]]). Computer science is generally considered an
+> academic discipline and distinct from computer programming which is considered
+> to be a technical field. [[algorithm|Algorithms]] and [[data_structure|Data
+> Structures]] are central to computer science.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Computer_science)</cite>
 
 The fundamental concern of computer science is determining what can and cannot
@@ -30,8 +29,7 @@ I think knowing computer science help to write effective and scalable [[code]]
 Computer science connect theory (computation, automation, information) with real
 world practice (software and hardware). In Russian, it's known as Информа́тика.
 
-Computer science closely related to
-[[computer_programming|computer programming]].
+Computer science closely related to [[computer_programming]].
 
 In computer science central role plays
 ==[[algorithm|algorithms]] and [[data_structure|data_structures]]==.
@@ -70,8 +68,8 @@ software==. And usually software engineers solving problems in real world with
 requirements from customers.
 
 There are many areas (complex systems), which investigate the principles and
-design in their own area. Main areas are: [[Operating_system|operating
-systems]], [[computer_network|networks]] and embedded systems.
+design in their own area. Main areas are: [[OS|operating systems]],
+[[computer_network]] and embedded systems.
 
 What describes Computer Architecture?
 &#10;

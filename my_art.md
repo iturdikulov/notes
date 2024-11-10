@@ -13,5 +13,5 @@ sr-ease: 206
 
 TODO: organize art
 
-- [[my_sketchbook|My sketchbook]]
+- [[my_sketchbook]]
 - [[Price-Donut_Tutorial_in_Blender]]

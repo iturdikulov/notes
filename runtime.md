@@ -15,7 +15,7 @@ sr-ease: 244
 > executed** on the computer's central processing unit (CPU) as machine code. In
 > other words, "runtime" is the running phase of a program.
 >
-> A [[runtime_error_detection|runtime_error]] is detected after or during the
+> A [[runtime_error_detection|runtime error]] is detected after or during the
 > execution (running state) of a program, whereas a compile-time error is
 > detected by the compiler before the program is ever executed
 >

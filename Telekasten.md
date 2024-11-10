@@ -12,7 +12,7 @@ sr-ease: 286
 # Telekasten.nvim - working with a markdown zettelkasten / wiki and mixing it with a journal
 
 > A Neovim (lua) plugin for working with a text-based, markdown zettelkasten /
-> wiki and mixing it with a journal, based on [[telescope.nvim|Telescope]]
+> wiki and mixing it with a journal, based on [[Telescope]].
 
 Current prefix for all mappings is `<leader>t`.
 

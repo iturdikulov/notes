@@ -6,7 +6,6 @@ sr-due: 2024-02-02
 sr-interval: 6
 sr-ease: 249
 ---
-
 # Operating system
 
 > Group of computer programs, including device drivers, kernels, and other
@@ -22,9 +21,9 @@ sr-ease: 249
 > — <cite>[Simple English Wikipedia](https://simple.wikipedia.org/wiki/Operating_system)</cite>
 
 I use the following operating systems:
-- [[GNU_Linux|GNU/Linux]] kernel based operating systems
+- [[Linux]] kernel based operating systems
 - [[Android]] linux kernel based operating system
-- [[MS_Windows|MS Windows]] NT kernel based operating system
+- [[MS_Windows]] NT kernel based operating system
 
 ## References
 

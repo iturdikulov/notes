@@ -1,15 +1,15 @@
 ---
-external: 
 date: 2023-04-06
 tags:
   - inbox
   - productivity
+external:
+  - https://github.com/nvim-telescope/telescope.nvim
 sr-due: 2024-01-28
 sr-interval: 2
 sr-ease: 228
 ---
-
-# telescope.nvim
+# Telescope - [[Neovim]] plugin
 
 Highly extendable fuzzy finder over lists. Telescope is centered around
 modularity, allowing for easy customization.

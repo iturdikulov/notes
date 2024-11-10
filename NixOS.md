@@ -11,7 +11,7 @@ sr-ease: 230
 ---
 # NixOS
 
-> NixOS is a [[GNU_Linux]] distribution based on the Nix package manager and
+> NixOS is a [[Linux]] distribution based on the Nix package manager and
 > build system. It supports reproducible and declarative system-wide
 > configuration management as well as atomic upgrades and rollbacks, although it
 > can additionally support imperative package and user management. In NixOS, all

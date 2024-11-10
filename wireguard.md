@@ -22,8 +22,8 @@ sr-ease: 270
 > industry.
 >
 > A combination of extremely high-speed cryptographic primitives and the fact
-> that WireGuard lives inside the [[GNU_Linux|linux]] kernel means that secure
-> networking can be very high-speed. It is suitable for both small embedded
-> devices like [[smartphone|smartphones]] and fully loaded backbone routers.\
+> that WireGuard lives inside the [[Linux]] kernel means that secure networking
+> can be very high-speed. It is suitable for both small embedded devices like
+> [[smartphone|smartphones]] and fully loaded backbone routers.\
 > — <cite>[WireGuard](https://www.wireguard.com/)</cite>
 

@@ -166,7 +166,7 @@ for n in range(2, 10):
         # loop fell through without finding a factor
         print(n, 'is a prime number')
 ```
-<!--SR:!2024-10-02,50,220-->
+<!--SR:!2025-02-25,110,220-->
 
 When `else` runs in `try-except` statement?
 &#10;
@@ -213,7 +213,8 @@ except ImportError:
     pass  # this is bad pracitce DO NOT DO THIS IN REAL CODE
 ```
 
-A `match` statement comparing expression with ==successive== patterns (state). This is [[pattern_matching|pattern matching]] like in Rust or Haskell.
+A `match` statement comparig expression with ==successive== patterns (state).
+This is [[pattern_matching]] like in Rust or Haskell.
 ```python
 def http_error(status):
     match status:
@@ -437,7 +438,7 @@ match none_item:
     case None:
         print("None")  # <- None
 ```
-<!--SR:!2024-09-02,16,218-->
+<!--SR:!2024-11-16,9,198-->
 
 How to use named constants (`Enum`) in pattern matching?
 &#10;

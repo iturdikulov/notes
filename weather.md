@@ -19,11 +19,10 @@ sr-ease: 270
 > mean the weather of Earth.
 >
 > There are a variety of end users to weather forecasts. Weather warnings are
-> important forecasts because they are used to protecting
-> [[IRL|life]] and property. Forecasts based on temperature and
-> precipitation are important to agriculture, and therefore to commodity traders
-> within stock markets. Temperature forecasts are used by utility companies to
-> estimate demand over coming days.\
+> important forecasts because they are used to protecting [[life]] and property.
+> Forecasts based on temperature and precipitation are important to agriculture,
+> and therefore to commodity traders within stock markets. Temperature forecasts
+> are used by utility companies to estimate demand over coming days.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Weather)</cite>
 
 ## References

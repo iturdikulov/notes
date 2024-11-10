@@ -7,12 +7,6 @@ sr-due: 2024-01-28
 sr-interval: 3
 sr-ease: 254
 ---
-## Contacts
-
-- Email: `i |AT| inomoz . ru`, replace `|AT|` with `@` and remove spaces.
-- [ ] Form to send message directly to my email
-- [[about_me|Some info]] about me
-
 # How do I work with contacts
 
 TODO: Info how I organize contact note type, need implement

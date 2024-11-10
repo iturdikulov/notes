@@ -850,11 +850,11 @@ conflict.
 - [ ] [git index - Git - Difference Between 'assume-unchanged' and 'skip-worktree' - Stack Overflow](https://stackoverflow.com/questions/13630849/git-difference-between-assume-unchanged-and-skip-worktree)
 - [ ] [bennadel/git-cheat-sheet: A small git cheat sheet of common use-cases for my future self.](https://github.com/bennadel/git-cheat-sheet)
 - [ ] [github - How to remove file from Git history? - Stack Overflow](https://stackoverflow.com/questions/43762338/how-to-remove-file-from-git-history)
-  `git filter-repo --invert-paths --path <path to the file or directory>`
+- [ ] `git filter-repo --invert-paths --path <path to the file or directory>`
 - [ ] [cirosantilli/test-git-conflict: Generate various kinds of Git conflicts, including conflicts suitable to interactively test a merge resolution tool. More fun stuff at: https://github.com/cirosantilli/test-git-web-interface](https://github.com/cirosantilli/test-git-conflict)
 - [ ] [Git - SubmittingPatches Documentation](https://git-scm.com/docs/SubmittingPatches)
 - [ ] [Git - gittutorial Documentation](https://git-scm.com/docs/gittutorial)
-- [ ] [[Chacon_and_Ben-Pro_Git|Pro Git]]
+- [ ] [[Chacon_and_Ben-Pro_Git]]
 - [ ] [[diff]]
 - [A collection of useful .gitattributes templates](https://github.com/gitattributes/gitattributes)
 - [A collection of useful .gitignore templates](https://github.com/github/gitignore)

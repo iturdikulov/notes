@@ -103,12 +103,12 @@ keep halving the data elements until we remain with ==1==. <!--SR:!2024-09-10,8,
 If there are 8 elements, the $\mathcal{O}(log N)$ algorithm would take ==3==
 steps. <!--SR:!2024-09-17,7,189-->
 
-[[bubble_sort_algorithm|Bubble sort]] taking about $N^2$ steps, [[selection_sort|seliction sort]]
-about $N^2/2$ steps, what is complexity of these algorithms?
+[[bubble_sort_algorithm|Bubble sort]] taking about $N^2$ steps,
+[[selection_sort]] about $N^2/2$ steps, what is complexity of these algorithms?
 &#10;
-$\mathcal{O}(N^2)$, yes it's correct, there major rule of Big O:
-_Big O notation ignores constants_. Big O Notation never includes regular
-numbers that aren't an exponent (except for $\mathcal{O}(1)$). <!--SR:!2024-09-06,4,210-->
+$\mathcal{O}(N^2)$, yes it's correct, there major rule of Big O: _Big O
+notation ignores constants_. Big O Notation never includes regular numbers that
+aren't an exponent (except for $\mathcal{O}(1)$). <!--SR:!2024-09-06,4,210-->
 
 Which Big O notation need to use in these cases?
 - $N^2 / 2$

@@ -88,14 +88,14 @@ This chunk is starting in the evening. I need to learn something new. Without
 this process I don't really do any progress, I think it's also interesting and
 fun sometimes. I learn according to [[learning]] techniques. I usually spend
 some time to learn before this chunk, this is also good time to review learned
-information with [[spaced_repetition|spaced repetition]] technique.
+information with [[spaced_repetition]] technique.
 
 ## 7. Fun
 
 It's good time to practice learned information by working with [[projects]].
 Sometimes you haven't energy for it, it's fine. You can do something else.
 
-It's also good time for [[IRL]] activities.
+It's also good time for [[life]] activities.
 
 ## 8. Relax
 

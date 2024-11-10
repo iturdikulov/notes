@@ -11,15 +11,14 @@ sr-ease: 252
 
 <!-- NEXT: review this -->
 
-- [[my_productivity_workflow|Productivity]]
+- [[my_productivity_workflow]]
 - [[Unix]]
 - Windows manager: [[DWM]]
 - Terminal: [[kitty]]
 - Shell: [[Zsh]]
 - Editor: [[Neovim]]
 - Browser:
-  - vim keybindings
-  <!-- TODO: add materials -->
+  - vim keybindings <!-- TODO: add materials -->
   - session manager:
   - password manager:
   - adblocker

@@ -10,8 +10,8 @@ sr-ease: 222
 
 # Variable (computer science)
 
-> In [[computer_programming|computer programming]], a variable is an abstract
-> ==storage location paired with an associated symbolic name==, which contains
+> In [[computer_programming]], a variable is an abstract
+> ==storage location== paired with an associated symbolic name, which contains
 > some known or unknown quantity of data or object referred to as a value; or in
 > simpler terms, a variable is a named container for a particular set of bits or
 > type of data (like integer, float, string etc...). A variable can eventually
@@ -24,4 +24,4 @@ sr-ease: 222
 > course of program execution.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Variable_\(computer_science\))</cite>
 
-Variables store [[value|values]] used during [[computation|computation]].
+Variables store [[value|values]] used during [[computation]].

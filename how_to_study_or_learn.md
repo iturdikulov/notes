@@ -53,18 +53,17 @@ after finishing studying.
 1. Read the ==whole chunk of material== and then get back and read and
    understand the 1st paragraph again, one by one.
 1. Sleep well, have a good rest for your memory, your brain do
-   ==sort of garbage== cleaning during the sleep.
+   sort of ==garbage cleaning (toxin removing)== during the sleep.
 4. Write ==notes== during the reading, and right after the reading; sit down
    with your notes and expand on everything you wrote down, dive into it deeply.
-   If you want to do it after 2 hours you will have forgotten some of your own
-   notes.
+If you want to do it after 2 hours you will have forgotten some of your own
+notes.
 5. Look for classmates and ask them for ==help or help== them.
 6. Active Recitation: The best way to learn is to ==teach somebody== else. If
    there's no one, teach an empty chair, teach virtual public, record video, or
-   write it out.
-7. How to use textbooks? Use "==[[SQ3R_method]]==": Survey, Question,
-   Read, Recall, Repetition.
+write it out.
+7. How to use textbooks? Use "==[[SQ3R_method]]==": Survey, Question, Read,
+   Recall, Repetition.
 8. ==Acronyms== and interacting images can help you remember and memorize facts,
    terms, and idioms.
-9. Use ==[[spaced_repetition|spaced repetition]]==, research software like
-   [[Zotero]] and [[Zettelkasten]] method.
+9. Use ==[[spaced_repetition]] and [[Zettelkasten]] method.

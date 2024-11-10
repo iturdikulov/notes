@@ -22,9 +22,8 @@ I use it to secure delete files, directories and block devices.
 Bellow some useful and tested commands. But be aware, double check what you are
 trying to do, because shred is very powerful and can be destructive.
 
-Delete data from block device, useful on [[operating_system|OS]] installation or
-work with [[GNU_Privacy_Guard_GPG|GPG]] keys and files:
-    `shred --verbose --random-source=/dev/urandom -n1 --zero /dev/sdX`
+Delete data from block device, useful on [[OS]] installation or work with
+[[GPG]] keys and files: `shred --verbose --random-source=/dev/urandom -n1 --zero /dev/sdX`
 
 Overwrite file with zeros (final overwrite) and change permissions if required:
     `shred -zf pat/to/file`

@@ -10,10 +10,10 @@ sr-ease: 239
 
 # My productivity workflow
 
-- [ ] [[Polya-How_to_solve_it|how to solve it]]
-- Improve my [[getting_things_done_GTD|GTD]] workflow with [[Syd-GTD_with_taskwarrior]].
+- [ ] [[Polya-How_to_solve_it]]
+- Improve my [[GTD|GTD]] workflow with [[Syd-GTD_with_taskwarrior]].
 - [[Babej-A_dive_into_taskwarrior_ecosystem]]
 - [[Dan-How_to_type_fast]]
 - [[calendar]]
-- [[how_do_I_work_with_contacts]]
+- [[contacts]]
 

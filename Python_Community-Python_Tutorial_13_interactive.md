@@ -9,9 +9,9 @@ tags:
 
 Some versions of the Python interpreter support editing of the current input
 line and history substitution, similar to facilities found in the Korn shell and
-the GNU Bash shell. This is implemented using the [[GNU_Readline|GNU Readline]]
-library, which supports various styles of editing. This library has its own
-documentation which we won’t duplicate here.
+the GNU Bash shell. This is implemented using the [[GNU_Readline]] library,
+which supports various styles of editing. This library has its own documentation
+which we won’t duplicate here.
 
 ## Tab Completion and History Editing
 

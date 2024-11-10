@@ -11,9 +11,9 @@ sr-ease: 244
 ---
 # Godot Engine (game engine)
 
-> Godot (/ˈɡɒdoʊ/) is a cross-platform, free and open-source [[game|game]]
-> engine released under the permissive MIT license. It was initially developed
-> by Argentine software developers Juan Linietsky and Ariel Manzur for several
+> Godot (/ˈɡɒdoʊ/) is a cross-platform, free and open-source [[game]] engine
+> released under the permissive MIT license. It was initially developed by
+> Argentine software developers Juan Linietsky and Ariel Manzur for several
 > companies in Latin America prior to its public release in 2014. The
 > development environment runs on many platforms, and can export to several
 > more. It is designed to create both 2D and 3D games targeting PC, mobile, and

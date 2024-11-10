@@ -19,12 +19,11 @@ sr-ease: 225
 > converted spoken language into visual symbols, extended the range of
 > communication across space and time.\
 >
-> In [[information_theory|information theory]]
-> and [[computer_science|computer science]], a code is usually considered as an
-> algorithm that uniquely represents symbols from some source alphabet, by
-> encoded strings, which may be in some other target alphabet. An extension of
-> the code for representing sequences of symbols over the source alphabet is
-> obtained by concatenating the encoded strings.
+> In [[information_theory]] and [[computer_science]], a code is usually
+> considered as an algorithm that uniquely represents symbols from some source
+> alphabet, by encoded strings, which may be in some other target alphabet. An
+> extension of the code for representing sequences of symbols over the source
+> alphabet is obtained by concatenating the encoded strings.
 > — <cite>[Wiki](https://en.wikipedia.org/wiki/Code)</cite>
 
 ## References

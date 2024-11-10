@@ -30,8 +30,8 @@ brackets;
 
 Primary Python paradigm is?
 &#10;
-Python is primarily [[OOP|object-oriented]] [[programming_language|programming
-language]], but also supports imperative, functional, and procedural paradigms. <!--SR:!2024-11-06,2,230-->
+Python is primarily [[OOP|object-oriented]] [[programming_language]],
+but also supports imperative, functional, and procedural paradigms. <!--SR:!2024-11-06,2,230-->
 
 Python typing is?
 &#10;
@@ -58,7 +58,7 @@ improvements. <!--SR:!2024-11-06,2,230-->
 
 Is Python high-level or low-level language?
 &#10;
-Python is [[high-level_programming_language|high level]] programming language. <!--SR:!2024-11-13,9,250-->
+Python is [[high-level_programming_language]]. <!--SR:!2024-11-13,9,250-->
 
 Can I create some product usually faster with Python?
 &#10;

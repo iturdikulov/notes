@@ -15,8 +15,7 @@ sr-ease: 223
 > and reattach them to a different terminal.\
 > — <cite> [tmux Wiki](https://github.com/tmux/tmux/wiki)</cite>
 
-Tmux is my daily driver for terminals, [[command-line_interface_CLI|CLI]] and
-code [[Neovim|editors]].
+Tmux is my daily driver for terminals, [[CLI]] and code [[Neovim|editors].
 
 ## Cheat sheet
 

@@ -3,20 +3,20 @@ date: 2023-04-02
 tags:
   - inbox
   - productivity
+external:
+  - https://github.com/jarun/nnn
 sr-due: 2024-02-03
 sr-interval: 6
 sr-ease: 249
 ---
-
 # NNN file manager
-
-Currently I switched to [[netrw]].
 
 Configuration, using environment variables
 ```bash
 NNN_TRASH=1  # enable trash
 ```
-# Core shortcuts
+## Shortcuts
+
 `q` quit
 `/` search filter
 `tab` creates and/or cycles contexts

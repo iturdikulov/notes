@@ -44,7 +44,7 @@ List & add:
 chat list xxxx
 ```
 
-Add chat with one of these commands, `!1` here is channel id generated from
+Add chat with one of these commands, `!1` here is channel ID generated from
 `chat list xxxx`
 
 ```

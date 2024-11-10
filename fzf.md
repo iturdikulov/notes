@@ -9,11 +9,11 @@ sr-ease: 253
 ---
 # fzf
 
-It's a general purpose fuzzy finder written in [[Go|Golang]] that can be used
-with any list of things: files, processes, command history, git branches, etc.
+It's a general purpose fuzzy finder written in [[Go]] that can be used with any
+list of things: files, processes, command history, git branches, etc.
 
-For [[Zsh|Z shell]], it provides the following key bindings (overwrite
-existing ones), and they are very handy:
+For [[Zsh]], it provides the following key bindings (overwrite existing ones),
+and they are very handy:
 
 - `C-t`::Paste the selected file path(s) into the command line. Useful to insert
 quickly paths into arguments of commands.

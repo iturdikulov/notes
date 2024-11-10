@@ -263,9 +263,9 @@ alphabet). And any information processing is function computing.
 
 ### 1.1.2 Processor, memory, bus (Процессор, память, шина)
 
-In [[computer_architecture|computer architecture]] system bus (historically also
-called data highway or databus) is a communication system that
-==transfers== data between components inside a computer, or between computers. <!--SR:!2024-02-23,3,162-->
+In [[computer_architecture]] system bus (historically also called data highway
+or databus) is a communication system that ==transfers== data between components
+inside a computer, or between computers. <!--SR:!2024-02-23,3,162-->
 
 Physically bus is many (tens) ==parallel wires==.
 
@@ -538,8 +538,9 @@ An operating system (OS) distribution is a copy of the OS distribution and
 service levels that are obtained from the operating system files (usually ISO).
 Most used are (order is not matter here):
 
-[[MS_Windows|Microsoft Windows]] and Unix family:
-- Linux based: [[NixOS]], [[archlinux]], Debian, Ubuntu, Fedora, Slackware, Gentoo, etc.
+[[MS_Windows]] and Unix family:
+- Linux based: [[NixOS]], [[archlinux]], Debian, Ubuntu, Fedora, Slackware,
+Gentoo, etc.
 - BSD family: FreeBSD, OpenBSD and other;
 - [[Android]]: based on linux kernel;
 - macOS
@@ -577,12 +578,10 @@ Initially dialog mode was created by using **teleprinters**.
 > the origin of the text terminal and the command-line interface.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Teleprinter#Teleprinters_in_computing)</cite>
 
-Why [[escape_sequence|escape-sequences]] are needed for terminals (Terminal
-emulator)?
+Why [[escape_sequence]] are needed for terminals (Terminal emulator)?
 &#10;
 They allow control how text will be rendered (colors, style, etc.), change cursor
-positions, etc.
-<!--SR:!2024-02-23,3,162-->
+positions, etc. <!--SR:!2024-02-23,3,162-->
 
 Can user work without graphical interface with some OS on some computer?
 &#10;
@@ -601,7 +600,7 @@ What command-line interpreter do?
 This program usually outputs command line **prompt** and wait when user types
 some text and press `Enter`. After that program execute users commands. This
 commands can be linked together, executed with some conditions, etc. (usually
-[[turing_complete|Turing complete]]).
+[[Turing_complete]]).
 <!--SR:!2024-02-24,3,162-->
 
 Command line interpreter identify first word as command (can be **built-in** or
@@ -706,9 +705,9 @@ Some programs suggestions:
 - vim, joe and nano to edit code (I use [[Neovim]])
 - Free Pascal compiler (fpc or fp-compiler)
 - NASM assembler (nasm)
-- C/C++ compiler ([[GNU_Compiler_Collection_GCC|GCC]])
+- C/C++ compiler ([[GCC]])
 - make task runner
-- GNU debugger ([[GNU_Debugger|gdb]])
+- Debugger ([[GNU_Debugger|gdb]])
 - find other programs alternatives
 
 You need to work under unprivileged user, working with root are not safe, and

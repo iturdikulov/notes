@@ -3,6 +3,8 @@ date: 2023-02-03
 tags:
   - inbox
   - productivity
+external:
+  - https://htop.dev/
 sr-due: 2023-01-28
 sr-interval: 4
 sr-ease: 272

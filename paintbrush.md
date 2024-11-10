@@ -15,7 +15,7 @@ sr-ease: 246
 > various sizes, shapes, and materials. Thicker ones are used for filling in,
 > and thinner ones are used for details. They may be subdivided into decorators'
 > brushes used for painting and decorating and artists' brushes use for
-> [[visual_arts|visual art]].\
+> [[visual_arts].\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Paintbrush)</cite>
 
 [[computer_graphics|Computer graphics]] software, like [[Krita]] provides

@@ -9,12 +9,12 @@ sr-ease: 200
 # Hash table (hash map)
 
 > In [[computing]], a hash table, also known as hash map, is a
-> [[data_structure|data structure]] that implements an
-> [[array]] or dictionary. It is an abstract data type that
-> maps keys to values. A hash table uses a [[hash_function|hash function]] to
-> compute an index, also called a hash code, into an array of buckets or slots,
-> from which the desired value can be found. During lookup, the key is hashed
-> and the resulting hash indicates where the corresponding value is stored.
+> [[data_structure]] that implements an [[array]] or dictionary. It is an
+> abstract data type that maps keys to values. A hash table uses a
+> [[hash_function]] to compute an index, also called a hash code, into an array
+> of buckets or slots, from which the desired value can be found. During lookup,
+> the key is hashed and the resulting hash indicates where the corresponding
+> value is stored.
 >
 > Ideally, the hash function will assign each key to a unique bucket, but most
 > hash table designs employ an imperfect hash function, which might cause hash

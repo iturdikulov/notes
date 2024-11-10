@@ -126,7 +126,7 @@ Return sorted by both elements of list of tuples
 items = [(2, 2), (2, 1), (2, 3)]
 print(sorted(items, key=lambda el: (el[0], el[1])))  # [(2, 1), (2, 2), (2, 3)]
 ```
-<!--SR:!2024-10-26,1,208-->
+<!--SR:!2024-11-08,1,188-->
 
 How to flatten list (itertools) `['ABC', 'DEF'] -> ['A', 'B', 'C', 'D', 'E', 'F']`?
 &#10;

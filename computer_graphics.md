@@ -19,7 +19,7 @@ sr-ease: 205
 > Hudson and William Fetter of Boeing. It is often abbreviated as CG, or
 > typically in the context of film as computer generated imagery (CGI). The
 > non-artistic aspects of computer graphics are the subject of
-> [[computer_science|computer science]] research.\
+> [[computer_science]] research.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Computer_graphics)</cite>
 
 ![](https://www.youtube.com/watch?v=hTpcOmlvCEQ)\

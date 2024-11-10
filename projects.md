@@ -110,8 +110,9 @@ This note is important enough to link it with [[index]].
 
 - DIY Architectural lighting, right now stair lighting.
 - Software 3D engine.
-- RPG?/Farming? game in [[Godot]] (as simplest starting point in game development).
-- [[OpenCV_L2_Bot|OpenCV PvP bot]] for the [[lineage_2_tools|L2]] game, [[L2bot]]?
+- RPG?/Farming? game in [[Godot]] (as simplest starting point in game
+development).
+- [[OpenCV_L2_Bot]] for the [[lineage_2_tools|L2]] game, [[L2bot]]?
 - [[iturdikulov.com]] website
 
 ## Inspiration

@@ -34,7 +34,8 @@ filenames, etc.
 
 - Directories - `~/Downloads`, `~/*`
 - Maintenance [[my_backup_plan|backups]] - mount and test.
-- SSH/GPG keys, [[pass]] and agenix files.
+- SSH/GPG keys
+- [[pass]] 
 - `external`, `file`, `directory` frontmatter variables in [[Zettelkasten]]
   files are isn't broken.
 - [[datavew|Dataview]] - maintenance my [[Zettelkasten]] system.
@@ -61,7 +62,7 @@ Need to verify some loges, units, etc...
 - [[search_engine|Search engines]] - review and update.
 
 - [[dotfiles]] configuration - save configuration not stored in dotfiles, commit
-  all changes, push to remote.
+  all changes, verify agenix files, push to remote.
 - [[Neovim]] configuration - commit all changes, push to remote.
 
 - Firefox profiles settings verify (`about:config`), at least

@@ -9,7 +9,7 @@ sr-ease: 270
 ---
 # Daemon_(computing)
 
-> In multitasking computer [[operating_system|operating systems]], a daemon is
+> In multitasking computer [[OS|operating systems]], a daemon is
 > a computer program that runs as a background process, rather than being under
 > the direct control of an interactive user. Traditionally, the process names of
 > a daemon end with the letter d, for clarification that the process is in fact
@@ -18,7 +18,7 @@ sr-ease: 270
 > facility, and sshd is a daemon that serves incoming SSH connections.\
 >
 > In a [[Unix]] environment, the parent process of a daemon is often, but not
-> always, the init process. A daemon is usu[[debugger]]ally created either by a process
+> always, the init process. A daemon is usually created either by a process
 > forking a child process and then immediately exiting, thus causing init to
 > adopt the child process, or by the init process directly launching the daemon.
 >

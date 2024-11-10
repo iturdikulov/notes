@@ -26,5 +26,5 @@ sr-ease: 250
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Word_list)</cite>
 
 I store various word lists in text files, for experiments with chats, neural
-networks, [[diceware|diceware]], tests,
+networks, [[diceware]], tests,
 

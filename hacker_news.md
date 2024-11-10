@@ -15,7 +15,7 @@ sr-ease: 272
 > intellectual curiosity.".\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Hacker_News)</cite>
 
-I also added Hacker News into my [[Newsboat|RSS reader]].
+I also added Hacker News into my [[Miniflux|RSS reader]].
 
 ## References
 

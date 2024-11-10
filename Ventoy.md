@@ -1,9 +1,9 @@
 ---
-external:
-  - https://www.ventoy.net/en/index.html
 date: 2023-05-20
 tags:
   - inbox
+external:
+  - https://www.ventoy.net/en/index.html
 sr-due: 2024-01-29
 sr-interval: 4
 sr-ease: 276
@@ -58,7 +58,7 @@ sr-ease: 276
 
 ### Windows
 
-Checksums are verified, check this note [[windows_setup_script|Windows setup script]]
+Checksums are verified, check this note [[windows_setup_script]]
 
 ```bash
 export VENTOY_PATH="/media/Ventoy"

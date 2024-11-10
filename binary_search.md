@@ -7,9 +7,11 @@ sr-due: 2024-01-28
 sr-interval: 2
 sr-ease: 202
 ---
-# Binary search algorithm (half-interval search, logarithmic search, binary chop)
+# Binary search algorithm
 
-> In [[computer_science|computer science]], binary search [[algorithm]] that finds the position
+Also known as half-interval search, logarithmic search, binary chop.
+
+> In [[computer_science]], binary search [[algorithm]] that finds the position
 > of a target value within a ==sorted== [[array]].
 >
 > Binary search compares the target value to the middle element of the array. If
@@ -18,7 +20,8 @@ sr-ease: 202
 > compare to the target value, and repeating this until the target value is
 > found. If the search ends with the remaining half being empty, the target is
 > not in the array.\
-> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Binary_search_algorithm)</cite> <!--SR:!2024-09-28,15,202-->
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Binary_search_algorithm)</cite>
+> <!--SR:!2024-09-28,15,202-->
 
 Half-interval search perfectly explains what binary search is about. Binary
 search usable on ==ordered= array, and we can eliminate half not required

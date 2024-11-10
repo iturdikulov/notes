@@ -14,7 +14,7 @@ sr-ease: 239
 > of a public key and a corresponding private key. Key pairs are generated with
 > cryptographic [[algorithm|algorithms]] based on [[mathematics|mathematical]]
 > problems termed one-way functions.
-> [[computer_security|security]] of public-key cryptography depends on keeping
+> [[computer_security|Security]] of public-key cryptography depends on keeping
 > the private key secret; the public key can be openly distributed without
 > compromising security.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Public-key_cryptography)</cite>
@@ -36,6 +36,6 @@ Examples of protocols using asymmetric key algorithms include:
 
 ## References
 
-- [[GNU_Privacy_Guard_GPG]]
+- [[GPG]]
 - [ ] [Public Key Cryptography - Computerphile - YouTube](https://www.youtube.com/watch?v=GSIDS_lvRv4)
 - [ ] [A (relatively easy to understand) primer on elliptic curve cryptography | Ars Technica](https://arstechnica.com/information-technology/2013/10/a-relatively-easy-to-understand-primer-on-elliptic-curve-cryptography/)

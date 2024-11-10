@@ -7,12 +7,11 @@ sr-due: 2024-01-29
 sr-interval: 3
 sr-ease: 250
 ---
-
 # Onlykey
 
-> OnlyKey was developed by a team of [[computer_security|security]] experts and
-> white hat hackers to stop malicious hackers. One thing hackers and malware on
-> a computer cannot do is physically touch something.
+> OnlyKey was developed by a team of [[computer_security]] experts and white hat
+> hackers to stop malicious hackers. One thing hackers and malware on a computer
+> cannot do is physically touch something.
 >
 > In order to use OnlyKey to log in, physical touch is required. In order to
 > read a secure message, physical touch is required.
@@ -31,7 +30,7 @@ sr-ease: 250
 > your accounts with only one PIN to remember.\
 > — <cite>[Onlykey](https://onlykey.io/)</cite>
 
-## Onlykey setup (pam.d) in archlinux
+## OnlyKey setup (pam.d) in archlinux
 
 Be careful, pam rules applied immediately If you have issues, boot using
 live-iso usb drive, mount system (`mount /dev/.. /mnt`) and fix

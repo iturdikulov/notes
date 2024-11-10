@@ -36,7 +36,7 @@ Information taken from
 
 `Mod` key: `Ctrl` or hold left mouse button.
 
-I use this remaps (optimized for [[Colemak_Mod-DH|Colemak DH]] layout):
+I use this remaps (optimized for [[Colemak_Mod-DH]] layout):
 
 - ↑ - `w`
 - ← - `a`

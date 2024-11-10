@@ -7,7 +7,6 @@ sr-due: 2024-01-28
 sr-interval: 2
 sr-ease: 233
 ---
-
 # Virtual machine
 
 > In [[computing]], a virtual machine (VM) is the virtualization or

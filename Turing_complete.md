@@ -11,15 +11,14 @@ sr-ease: 225
 # Turing completeness
 
 > In computability theory, a system of data-manipulation rules (such as a model
-> of computation, a computer's instruction set, a
-> [[programming_language|programming language]], or a cellular automaton) is
-> said to be Turing-complete or computationally universal if it
-> ==can be used to simulate any [[turing_machine|Turing machine ]]==
-> (devised by English
-> mathematician and computer scientist Alan Turing). This means that this system
-> is able to recognize or decide other data-manipulation rule sets. Turing
-> completeness is used as a way to express the power of such a data-manipulation
-> rule set. Virtually all programming languages today are Turing-complete.
+> of computation, a computer's instruction set, a [[programming_language]], or a
+> cellular automaton) is said to be Turing-complete or computationally universal
+> if it ==can be used to simulate any [[Turing_machine]]==
+> (devised by English mathematician and computer scientist Alan Turing). This
+> means that this system is able to recognize or decide other data-manipulation
+> rule sets. Turing completeness is used as a way to express the power of such a
+> data-manipulation rule set. Virtually all programming languages today are
+> Turing-complete.
 >
 > A related concept is that of Turing equivalence – two computers P and Q are
 > called equivalent if P can simulate Q and Q can simulate P. The Church–Turing

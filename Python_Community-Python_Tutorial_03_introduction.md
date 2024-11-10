@@ -46,7 +46,7 @@ result = 11.9 // 3  # 11.9 / 3 = 3.9666, 11.9 // 3 -> 3.0
 result = 10 // -3   # 10 / -3 = -3.3333, 10 // -3 -> -4
 result = 11 // -3   # 11 / -3 = -3.6666, 11 // -3 -> -4
 ```
-<!--SR:!2024-10-30,1,130-->
+<!--SR:!2024-11-08,1,130-->
 
 The `%` operator returns the ==remainder== of the division. <!--SR:!2024-12-13,49,240-->
 
@@ -238,7 +238,7 @@ Gracefully, without raising an exception.
 a = "test"
 a[99:]  # => ''
 ```
-<!--SR:!2024-11-06,8,200-->
+<!--SR:!2024-11-23,16,200-->
 
 ```python
 word = 'Python'
@@ -291,15 +291,10 @@ s = "😀😀😀😀😀😀😀😀😀😀" "😀😀😀😀😀😀😀😀
 print(len(s))  # 28
 ```
 
-Most versatile [[data_type|data type]] is [[list]]. In Python list can contain
-elements of ==different== types, but usually used one type of elements.
-```python
-squares = [1, 4, 9, 16, 25]
-print(squares)  # [1, 4, 9, 16, 25]
-squares = ["1", 4, "9", 16, "25"]
-print(squares)
-```
-<!--SR:!2024-12-30,66,240-->
+Most versatile [[data_type]] is [[list]]. In Python list can contain elements of
+==different== types, but usually used one type of elements. ```python squares =
+[1, 4, 9, 16, 25] print(squares)  # [1, 4, 9, 16, 25] squares = ["1", 4, "9",
+16, "25"] print(squares) ``` <!--SR:!2024-12-30,66,240-->
 
 Lists almost like [[string_literal|string]] (but mutable) and
 [[Iterator|iterators]] can be indexed and sliced.

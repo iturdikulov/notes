@@ -10,7 +10,7 @@ sr-ease: 208
 # Computer programming
 
 > Computer programming is the process of performing particular
-> [[computation|computations ]] (or more generally, accomplishing specific
+> [[computation|computations]] (or more generally, accomplishing specific
 > computing results), usually by designing and building executable
 > [[computer_program|computer programs]]. Programming involves tasks such as
 > analysis, generating [[algorithm|algorithms]], profiling algorithms' accuracy
@@ -22,7 +22,7 @@ Computer programming is the process of performing a particular computation,
 usually by designing/building an executable computer program.
 
 I collect resources about programming, software development in my
-[[programming_learning_path|note]]
+[[programming_learning_path]].
 
 [[programming_principles|Programming principles]] allow me to write better code.
 

@@ -9,7 +9,7 @@ sr-ease: 328
 ---
 # Puzzle English learning by plan
 
-This is my notes, taken from the [[Puzzle_English|Puzzle English]] website.
+This is my notes, taken from the [[Puzzle_English]] website.
 
 ## Глаголы
 

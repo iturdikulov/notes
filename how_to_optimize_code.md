@@ -7,8 +7,8 @@ tags:
 # How to optimize code
 
 First step before you optimize code, is determining how fast your code is with
-help of [[big_O_notation|Big O notation]] (make a judgment call to our code).
-If your code is slow, you need to dig deeper and research for faster solutions.
+help of [[big_O_notation]] (make a judgment call to our code). If your code is
+slow, you need to dig deeper and research for faster solutions.
 
 ## Mean average of even numbers
 

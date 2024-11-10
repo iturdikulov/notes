@@ -10,8 +10,8 @@ sr-ease: 243
 
 # Polygon (computer graphics)
 
-> Polygons are used in [[computer_graphics|computer graphics]] to compose images
-> that are three-dimensional in [[polygon_mesh|appearance]].
+> Polygons are used in [[computer_graphics]] to compose images that are
+> three-dimensional in [[polygon_mesh|appearance]].
 >
 > Usually (but not always) triangular, polygons arise when an object's surface
 > is modeled, vertices are selected, and the object is rendered in a wire frame

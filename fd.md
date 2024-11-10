@@ -3,6 +3,8 @@ date: 2023-06-17
 tags:
   - inbox
   - productivity
+external:
+  - https://github.com/sharkdp/fd
 sr-due: 2024-01-29
 sr-interval: 3
 sr-ease: 252

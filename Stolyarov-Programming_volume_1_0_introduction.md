@@ -26,9 +26,9 @@ Author also doesn't like current situation with publishers, which make money on
 books, seems with bad support of author.
 
 I think this preface is like historical reference, how he wrote this book. Also
-was told which topics was touched ([[Pascal]], `NASM`, [[C]],
-[[operating_system|OS]], paradigms, etc.) and reworked during writing this book,
-who helped author and other aspects of writing process.
+was told which topics was touched ([[Pascal]], `NASM`, [[C]], [[OS]], paradigms,
+etc.) and reworked during writing this book, who helped author and other aspects
+of writing process.
 
 # Introduction 2, methodical (Предисловие 2, методическое)
 
@@ -37,7 +37,7 @@ You can study programming only by ==yourself== (maybe too categorical). <!--SR:!
 Learning programming by writing GUI applications first is bad idea.
 
 Main tool of professional Unix user is **organized** (like data structure?)
-[[command-line_interface_CLI|CLI]].
+[[CLI]].
 
 CLI is better than comlex GUI. Command line interface is more powerful and
 flexible than GUI, you can work with it faster (remembering commands as keywords
@@ -51,12 +51,12 @@ in next books sections.
 
 ## Mathematical reason (Математическая причина)
 
-Any [[computer_programming|program]] is a record of ==algorithm== on some
-programming language. <!--SR:!2024-06-03,9,187-->
+Any [[computer_programming]] is a record of ==algorithm== on some programming
+language. <!--SR:!2024-06-03,9,187-->
 
 On very fundamental level no-one knows what algorithm it is, that's why we have
 [[computational_problem|computational problems]], and theoretical
-[[computer_science|computer science]].
+[[computer_science]].
 
 Algorithm make transformation from set of [[word|words]] (chains of symbols over
 some alphabet) into the same ==set==.
@@ -124,8 +124,8 @@ Understanding code as "magic commands" is not good for good programmers, you
 need to understand code on very low level to create truly effective programs. <!--SR:!2024-05-29,4,162-->
 
 In C you haven't ==procedures==, only functions. For example assignment,
-increment are arithmetic operations and in C formally any actions (which is
-core of C) are creating [[side_effect|side effect]]. <!--SR:!2024-05-27,2,169-->
+increment are arithmetic operations and in C formally any actions (which is core
+of C) are creating [[side_effect]]. <!--SR:!2024-05-27,2,169-->
 
 > Side effect this is arbitrary change, which occurring only when evaluating
 expression and then can be somehow ==detected==. <!--SR:!2024-10-05,49,227-->
@@ -161,13 +161,13 @@ can omit some Pascal specific features. <!--SR:!2024-09-17,28,202-->
 
 Why need to learning Assembly language (at least basics)?
 &#10;
-Big role in understanding programming is taking [[Assembly_language|Assembly
-language]]. You can never write programs in it (prefer C), but you must
-understand how it works to understand what you are really doing, understand OS
-kernel, how to interact with it, understand system calls, deeply understand data
-structures, etc. And you need usually also learn it before C (but after Pascal).
-You can use any assembly to learn, need to get understanding how to work with
-registers and memory areas, understand stack frame, interrupts, etc. <!--SR:!2024-05-26,1,149-->
+Big role in understanding programming is taking [[Assembly_language]]. You can
+never write programs in it (prefer C), but you must understand how it works to
+understand what you are really doing, understand OS kernel, how to interact with
+it, understand system calls, deeply understand data structures, etc. And you
+need usually also learn it before C (but after Pascal). You can use any assembly
+to learn, need to get understanding how to work with registers and memory areas,
+understand stack frame, interrupts, etc. <!--SR:!2024-05-26,1,149-->
 
 So authors chain to learn programming is: Pascal (basics of programming) →
 ==Assembly== → C → C++. (special author's vision), OS, I/O, processes, sockets,

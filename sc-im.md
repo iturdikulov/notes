@@ -3,6 +3,8 @@ date: 2023-04-08
 tags:
   - inbox
   - mathematics
+external:
+  - https://github.com/andmarti1424/sc-im
 sr-due: 2024-01-30
 sr-interval: 3
 sr-ease: 252

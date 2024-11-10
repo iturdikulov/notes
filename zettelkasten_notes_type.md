@@ -13,9 +13,8 @@ sr-ease: 226
 I use some templates/note types with [[Zettelkasten]]. I will update it as I
 improve my workflow. To set note type need just to apply note type tag.
 
-All new note have a `- inbox` tag, this allowing to use
-[[spaced_repetition|spaced repetition]] system to continuously review and work
-with notes.
+All new note have a `- inbox` tag, this allowing to use [[spaced_repetition]]
+system to continuously review and work with notes.
 
 I configured [SilentVoid13/Templater](https://github.com/SilentVoid13/Templater)
 plugin with some predefined templates. To create new note need to use `M-n`
@@ -59,13 +58,13 @@ questions and if many of them false, I delete or avoiding to create new note.
 TODO: add examples.
 
 - Bridge note, to combine ideas, usually someone else and mine if they different
-  in terms, or even very different, notes have `bridge` tag.
+in terms, or even very different, notes have `bridge` tag.
 - Person note, to store someone contacts (public person), biography or some
 additional information, notes have `person` tag.
 - Personal term, something what very specific to limited amount of users, local
-  things, etc., notes have `term` tag.
+things, etc., notes have `term` tag.
 - Log note, to store some log information, such as time tracking. Good example
-is [[30_day_drawing_challenge|30 day draw challenge]], notes have `log` tag.
+is [[30_day_drawing_challenge]], notes have `log` tag.
 
 ## Literature notes
 
@@ -80,11 +79,11 @@ Here are some rules:
 - Literature notes have `research` tag.
 - If required research note can have linked directory, sort of dependencies
 (`directory:` YAML frontmatter variable). This can be code, assets, etc.
-- Some research notes have `file` frontmatter variable, with link
-to related book/article/other resource. Usually these notes haven't `directory`
-frontmatter variable.
+- Some research notes have `file` frontmatter variable, with link to related
+book/article/other resource. Usually these notes haven't `directory` frontmatter
+variable.
 - Notes are taken specifically on the content. Usually I just use annotating
-viewer (such as [[XournalPP|Xournal++]] and [[Xodo]]) to generate initial notes.
+viewer (such as [[XournalPP]] and [[Xodo]]) to generate initial notes.
 - Be selective, store useful information
 - Rewrite information in your own words and make sure you understand the
 concept, imagine you explain it to someone else.
@@ -93,19 +92,19 @@ concept, imagine you explain it to someone else.
 ## Outline or structure notes
 
 Sort of index section from books, it's allow to group notes by topic, concept or
-similarity. For example [[my_awesome_software_list|my awesome software list]].
-These notes have `outline` tag.
+similarity. For example [[my_awesome_software_list]]. These notes have `outline`
+tag.
 
 Rules for outline notes:
 
 - Main index note, as entry point, like website index page. For example
 [[projects]] note my current working projects, reflect my current interests.
-- Topic note, like [[my_art|art]], [[my_videos|videos]], etc.
+- Topic note, like [[my_art]], [[my_videos]], etc.
 
 ## Spaced repetition notes
 
 Have special topics tags, used to generate interactive flashcards with
-[[spaced_repetition|spaced repetition]] system: `base`, `productivity`, etc.
+[[spaced_repetition]] system: `base`, `productivity`, etc.
 
 ## Frontmatter variables
 

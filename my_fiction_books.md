@@ -50,7 +50,7 @@ My special notation for books:
 - [ ] [ADHD 2.0: New Science and Essential Strategies for Thriving with Distraction](https://www.amazon.com/ADHD-2-0-Essential-Strategies-Distraction/dp/B08775GG3K/)
 - [ ] xkcd: volume 0
 - [ ] Iliad and the Odyssey
-- [ ] [[Laozi-Tao_Te_Ching|Tao Te Ching]]
+- [ ] [[Laozi-Tao_Te_Ching]]
 
 ## Classic literature, history, detective
 

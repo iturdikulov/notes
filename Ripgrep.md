@@ -3,6 +3,8 @@ date: 2023-06-17
 tags:
   - inbox
   - productivity
+external:
+  - https://github.com/BurntSushi/ripgrep
 sr-due: 2024-01-28
 sr-interval: 2
 sr-ease: 231
@@ -44,6 +46,7 @@ rg --files | rg regular_expression
 
 # Only list matched files (useful when piping to other commands):
 rg --files-with-matches regular_expression
+rg --files-with-matches regular_expression|xargs vi
 
 # Show lines that do not match the given regular expression:
 rg --invert-match regular_expression

@@ -10,10 +10,10 @@ sr-ease: 250
 # Self-hosting (web services)
 
 > The practice of running and maintaining a website or service using a private
-> [[web_server|web server]], instead of using a service outside of someone's own
-> control. Self-hosting allows users to have more control over their data,
-> privacy, and computing infrastructure, as well as potentially saving costs and
-> improving skills.
+> [[web_server]], instead of using a service outside of someone's own control.
+> Self-hosting allows users to have more control over their data, privacy, and
+> computing infrastructure, as well as potentially saving costs and improving
+> skills.
 >
 > [Wikipedia](https://en.wikipedia.org/wiki/Self-hosting_\(web_services\))
 

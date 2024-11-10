@@ -17,4 +17,6 @@ sr-ease: 278
 
 I save screenshots into `Pictures/screenshot` directory using [[maim]] utility.
 
+<!-- TODO: outdated -->
+
 I also can save screenshots while watch video in [[mpv]], by pressing `s` key.

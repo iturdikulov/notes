@@ -38,7 +38,7 @@ result is just 2D image).
 Edge is what connects ==two vertices==.
 
 Face is a result of connecting edges in a certain pattern. Three edges is enough
-to form a face, it's also known as triangle or ==[[polygon]].
+to form a face, it's also known as triangle or ==[[polygon]]==.
 
 [Sketchfab](https://sketchfab.com/) is great resource to find 3D models for
 inspiration.

@@ -3,6 +3,8 @@ date: 2022-12-29
 tags:
   - inbox
   - IRL
+external:
+  - https://www.ledger-cli.org/
 sr-due: 2024-01-30
 sr-interval: 3
 sr-ease: 252

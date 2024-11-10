@@ -152,13 +152,13 @@ First step in writing fast code is to understand which and how different data
 
 ## Data Structures /23
 
-Notes leaved here [[data_structure|data structure]].
+Notes leaved here [[data_structure]].
 
 ## The Array: The Foundational Data Structure /24
 
 Notes leaved here [[array]].
 
-Array operations explained in [[array_operations|array operations]].
+Array operations explained in [[array_operations]].
 
 ## Measuring Speed /25
 
@@ -250,7 +250,7 @@ Placed some notes here: [[array#Ordered array]],
 ## Binary Search /46
 ## Binary Search vs. Linear Search /51
 
-Placed some notes in [[binary_search_algorithm|binary search algorithm]]
+Placed some notes in [[binary_search]]
 
 ## Wrapping Up /54
 
@@ -280,7 +280,7 @@ down to 1. If we keep dividing 100,000 by 2, we see that it takes us about 16-17
 ## Big O: How Many Steps Relative to N Elements? /56
 ## The Soul of Big O /57
 
-Some notes are placed in [[big_O_notation|big O notation]].
+Some notes are placed in [[big_O_notation]].
 
 ## An Algorithm of the Third Kind /60
 ## Logarithms /61
@@ -354,7 +354,7 @@ console.log(chessboardSpace(1000000));
 ```
 This is $\mathcal{O}(\log N)$, for example number of grains is 100,
 and we do ~ 7 iterations, etc. Sort of inverse of
-[[binary_search_algorithm|binary search]] logic, loop run only **one more** time
+[[binary_search]] logic, loop run only **one more** time
 each time N is doubled.
 
 4. The following function accepts an array of strings and returns a new array
@@ -411,7 +411,7 @@ number of steps. <!--SR:!2024-09-10,8,175-->
 
 ## Bubble Sort /68
 
-Some notes are placed in [[bubble_sort_algorithm|bubble sort algorithm]]
+Some notes are placed in [[bubble_sort_algorithm]]
 
 ## A Quadratic Problem /76
 

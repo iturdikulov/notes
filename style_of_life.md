@@ -9,7 +9,7 @@ sr-ease: 251
 
 # Style of life
 
-> The term style of [[IRL|life]] (German: "Lebensstil") was used by
+> The term style of [[life]] (German: "Lebensstil") was used by
 > psychiatrist Alfred Adler as one of several constructs describing the dynamics
 > of the personality.
 >

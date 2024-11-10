@@ -15,29 +15,28 @@ sr-ease: 216
 # The Pragmatic Programmer: Your Journey to Mastery
 
 > Andy and Dave wrote this influential, classic book to help their clients
-> create better [[computer_software|software]] and rediscover the
-> joy of coding. Almost twenty years later, its advice is still spot on, and the
-> Pragmatic philosophy has spawned hundreds of books, screencasts, and audio
-> books, as well as thousands of careers and success stories.
+> create better [[computer_software]] and rediscover the joy of coding. Almost
+> twenty years later, its advice is still spot on, and the Pragmatic philosophy
+> has spawned hundreds of books, screencasts, and audio books, as well as
+> thousands of careers and success stories.
 >
 > This new edition examines the core of modern software
 > development—understanding what is wanted and producing working, maintainable
-> [[code]] that delights its users. It covers topics ranging
-> from personal responsibility and career development to architectural
-> techniques for keeping your code flexible and easy to adapt and reuse. Read
-> this book, and you’ll learn how to:
+> [[code]] that delights its users. It covers topics ranging from personal
+> responsibility and career development to architectural techniques for keeping
+> your code flexible and easy to adapt and reuse. Read this book, and you’ll
+> learn how to:
 >
 > - Fight software rot
 > - [[programming_learning_path|learn]] continuously
 > - Avoid the trap of duplicating knowledge
 > - Write flexible, dynamic, and adaptable code
 > - Harness the power of basic tools
-> - Avoid [[computer_programming|programming]] by coincidence
+> - Avoid [[computer_programming]] by coincidence
 > - Learn real requirements
 > - Solve the underlying problems of concurrent code
 > - Guard against security vulnerabilities
-> - Build teams of pragmatic
->   [[programmer|programmers]]
+> - Build teams of pragmatic [[programmer|programmers]]
 > - Take responsibility for your work and career
 > - [[software_testing|Test]] ruthlessly and effectively, including
 >   Property-based testing

@@ -10,7 +10,7 @@ tags:
 > ==manage data==, especially in a relational database management
 > system (RDBMS). It is particularly useful in handling structured data, i.e.,
 > data incorporating relations among entities and variables.\
-> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/SQL)</cite> <!--SR:!2024-09-26,7,250-->
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/SQL)</cite> <!--SR:!2024-11-26,17,250-->
 
 > [!NOTE]
 > Follow-up information mostly added from Ben Forta's SQL book [^1] and
@@ -103,7 +103,7 @@ create table people (
   is_admin BOOLEAN
 );
 ```
-<!--SR:!2024-09-26,7,250-->
+<!--SR:!2024-11-27,18,250-->
 
 ## The SQL SELECT Statement
 
@@ -205,6 +205,7 @@ OrderDetailID  OrderID
 2              10248
 1              10248
 ```
+<!--SR:!2024-11-12,3,250-->
 
 The LIMIT clause is used to place an upper bound on the number of rows returned
 by the entire SELECT statement.
@@ -481,6 +482,7 @@ How to delete the customer `"Alfreds Futterkiste"` from the `"Customers"` table:
 ```sql
 DELETE FROM Customers WHERE CustomerName='Alfreds Futterkiste';
 ```
+<!--SR:!2024-11-12,3,250-->
 
 ## Reporting Queries
 
@@ -675,6 +677,7 @@ How to drop the "Brazil Customers" view:
 ```sql
 DROP VIEW [Brazil Customers];
 ```
+<!--SR:!2024-11-10,1,230-->
 
 ## Altering Table Queries
 
@@ -729,7 +732,7 @@ Methods to avoid SQL injection?
 1. First refer to language/library documentation, how to use placeholder for
    user's input. [Avoiding SQL injection risk - The Go Programming Language](https://go.dev/doc/database/sql-injection)
 2. Filter query elements from user's input (or need just avoid this) with elements
-   allowlist. <!--SR:!2024-09-25,6,250-->
+   allowlist. <!--SR:!2024-11-12,3,230-->
 
 ## External links
 

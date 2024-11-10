@@ -118,7 +118,7 @@ and see how much you can tighten your timings. I hope this helps.
 
 ## Throttling
 
-In [[GNU_Linux|Linux]] you can use these commands to detect CPU thorottling:
+In [[Linux]] you can use these commands to detect CPU thorottling:
 
 1. Get max frequency, for example 4464000 (4464 MHz).
 

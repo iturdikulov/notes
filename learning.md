@@ -34,7 +34,7 @@ projects]] to strengthen my studies.
 
 > The only way to learn a new programming language is by writing programs
 > in it.\
-> — <cite>[[Kernighan_and_Ritchie-The_C_programming_language|K&R book]]</cite>
+> — <cite>[[Kernighan_and_Ritchie-The_C_programming_language]]</cite>
 
 > Repeat the tutorial from memory, notes can help. Experiment, do something new,
 > based on tutorials. Make something dirty but get experience.
@@ -42,14 +42,14 @@ projects]] to strengthen my studies.
 ## My learning path
 
 This is my important place in choosing what to learn for my [[Work#Goals|work
-goals]] and my [[projects|pet projects]] required skills.
+goals]] and my [[projects]] required skills.
 
 Since I'm use [[Zettelkasten]], I can create new notes based on education
 materials and extend them with different sources, my experience, etc.
 
 My current focus is on following things, order is not important. All with help
-of [[spaced_repetition|spaced repetition]], [[SQ3R_method|Sq3R]],
-[[Zettelkasten|Zettelkasten]], [[how_to_study_or_learn|study techniques]], etc.
+of [[spaced_repetition]], [[SQ3R_method]], [[Zettelkasten]],
+[[how_to_study_or_learn|study techniques]], etc.
 
 I need spent at least 2 hours per day for learning, it's not so much, but it's
 enough to learn something new. My actual current learning list is aviable with
@@ -127,8 +127,8 @@ comprehension (or lack thereof).
 
 [[science|Science]] is source of knowledge and predictions about the world, and
 I want to learn it better. My main focus is on fundamental sciences and
-especially [[computer_science|computer science]]. I'll describe my learning
-paths for each field in this section.
+especially [[computer_science]]. I'll describe my learning paths for each field
+in this section.
 
 **[[CS_learning_path|How I learn computer science]]**.
 Computer science help me to understand my profession (software engineer) better
@@ -144,30 +144,30 @@ want to understand world better, and this fields can help me with it.
 
 Linguistics, my primary focus is [[Russian]] and [[English]] languages. English
 is great to reveal huge part of world, new knowledge and opportunities, I'm
-native [[Russian|Russian]] speaker, currently I spent more time to learn
-English. [[English_learning_path|How I learn English]].
+native [[Russian]] speaker, currently I spent more time to learn English.
+[[English_learning_path|How I learn English]].
 
-Knowing [[history|history]] is improving your understanding of current world
-events and help to avoid mistakes from past.
+Knowing [[history]] is improving your understanding of current world events and
+help to avoid mistakes from past.
 
 ## Programming and software development
 
 Programming and software development are very deeply linked with science, and
 computer science in particular. It's a little bit different from
 science/computer science, because it's more practical and applied, but in fact
-it uses all from them. This is also my current [[work|work]] and main source of
+it uses all from them. This is also my current [[work]] and main source of
 [[projects]].
 
 [[programming_learning_path|How I learn programming and software development]].
 This is place where I store programming applied learning materials, related
 outline notes (like frontend/backend) and some management stuff.
 
-My editing workflow, including [[code]], is heavily related to [[Neovim]],
-but it can be replicated in some advanced code editor (like [[Pycharm]]), check
+My editing workflow, including [[code]], is heavily related to [[Neovim]], but
+it can be replicated in some advanced code editor (like [[Pycharm]]), check
 these notes for more information. I also keep collecting various useful
 information, which can be related to various software, like
-[[keyboard_shortcut|keyboard shortcuts]], [[Blender]], [[Krita]],
-[[GNU_Utilities]], [[GNU_Linux]], [[NixOS]], etc.
+[[keyboard_shortcut]], [[Blender]], [[Krita]], [[GNU_Utilities]], [[Linux]],
+[[NixOS]], etc.
 
 [[CG_learning_path|How I learn computer graphics]]. Computer
 graphics impress me, and I want to learn more about it. It's a great way to
@@ -186,14 +186,14 @@ better.
 ## Art
 
 [[art|Art]] is a great way to express my thoughts in easy to understand form.
-Art for me is also deeply integrated into [[computer_graphics|computer
-graphics]], because it provides many opportunities to create something
-beautiful. Here is my [[art_learning_path|learning path]].
+Art for me is also deeply integrated into [[computer_graphics]], because it
+provides many opportunities to create something beautiful. Here is my
+[[art_learning_path]].
 
-I organize all **my** art related stuff in [[my_art|my art]] note.
+I organize all **my** art related stuff in [[my_art]] note.
 
-[[literature]] for me is great solution to fun and relax. I collect my reading
-list and favorite books in [[my_fiction_books|my fiction books]] note.
+For [[literature]] is great solution to fun and relax. I collect my reading list
+and favorite books in [[my_fiction_books]] note.
 
 ## External links
 

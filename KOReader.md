@@ -16,5 +16,5 @@ sr-ease: 270
 I frequently use it to read mostly fiction books on my
 [[my_inventory##Kindle paperwhite|kindle paperwhite]].
 
-User guide wit my notes here:
-[[KOReader_Community-KOReader_user_guide|user guide]].
+## Brief user guide
+

@@ -10,7 +10,7 @@ sr-ease: 276
 
 # maim
 
-> maim (make image) takes [[screenshot|screenshots ]] of your desktop. It has
+> maim (make image) takes [[screenshot|screenshots]] of your desktop. It has
 > options to take only a region, and relies on slop to query for regions. maim
 > is supposed to be an improved scrot.
 > [Github](https://github.com/naelstrof/maim)

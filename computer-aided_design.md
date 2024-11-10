@@ -23,6 +23,6 @@ sr-ease: 266
 > curves, surfaces, and solids in three-dimensional (3D) space.
 >
 > CAD has been a major driving force for research in computational geometry,
-> [[computer_graphics|computer graphics]] (both hardware and software), and discrete differential
+> [[computer_graphics]] (both hardware and software), and discrete differential
 > geometry.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Computer-aided_design)</cite>

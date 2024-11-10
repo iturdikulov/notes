@@ -10,7 +10,7 @@ sr-ease: 273
 
 # xxd
 
-> Make a `hexdump` ([[hexadecimal|hexadecimal]] data) or do the reverse.\
+> Make a `hexdump` ([[hexadecimal]] data) or do the reverse.\
 > — <cite>`man xxd`</cite>
 
 `xxd -l 32 -p <filename>` - prints first 32 bytes of file in hex format.

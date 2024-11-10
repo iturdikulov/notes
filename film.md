@@ -10,11 +10,10 @@ sr-ease: 249
 ---
 # Film (Movie)
 
-> A [[my_movies|movie]] or film is a type of [[visual_arts|visual art]] that
-> uses images and sounds to tell stories or teach [[people]] something. Most
-> people watch movies to entertain themselves or to have fun. Some movies can
-> make people laugh, but other movies can make them cry, or make them feel
-> afraid.
+> A [[my_movies|movie]] or film is a type of [[visual_art]] that uses images and
+> sounds to tell stories or teach [[people]] something. Most people watch movies
+> to entertain themselves or to have fun. Some movies can make people laugh, but
+> other movies can make them cry, or make them feel afraid.
 > — <cite>[Simple English Wikipedia](https://simple.wikipedia.org/wiki/Movie)</cite>
 
 Some movies can also make people teach something.

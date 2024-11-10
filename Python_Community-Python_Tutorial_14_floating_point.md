@@ -245,14 +245,15 @@ others) often won't display the exact decimal number you expect.
 <!-- NEXT: need review -->
 
 1/10 is not exactly representable as a binary fraction. Since at least 2000,
-almost all machines use IEEE 754 binary
-[[floating-point_arithmetic|floating-point arithmetic]], and almost all
-platforms map Python floats to IEEE 754 binary64 "double precision" values. IEEE
-754 binary64 values contain 53 bits of precision, so on input the computer
-strives to convert 0.1 to the closest fraction it can of the form ==`J / 2**N`==
-where *J* is an integer containing exactly 53 bits. Rewriting
-`1 / 10 ~= J / (2**N)` as `J ~= 2**N / 10` and recalling that *J* has exactly 53 bits (is `>= 2**52` but `< 2**53`),
-the best value for *N* is 56:
+almost all machines use IEEE 754 binary [[floating-point arithmetic]], and
+almost all platforms map Python floats to IEEE 754 binary64 "double precision"
+values. IEEE 754 binary64 values contain 53 bits of precision, so on input the
+computer strives to convert 0.1 to the closest fraction it can of the form
+==`J / 2**N`== where *J* is an integer containing exactly 53 bits.
+\
+Rewriting
+`1 / 10 ~= J / (2**N)` as `J ~= 2**N / 10` and recalling that *J* has exactly 53
+bits (is `>= 2**52` but `< 2**53`), the best value for *N* is 56:
 ```python
 2**52 <= 2**56 // 10 < 2**53
 # True

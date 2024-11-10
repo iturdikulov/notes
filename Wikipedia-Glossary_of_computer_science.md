@@ -9,28 +9,24 @@ sr-ease: 202
 external:
   - https://en.wikipedia.org/wiki/Glossary_of_computer_science
 ---
-# Glossary of [[computer_science|Computer Science]]
+# Glossary of [[computer_science]]
 
 You can check also this resource: [Dictionary of Algorithms and Data
 Structures](https://xlinux.nist.gov/dads/)
 
 ## A
 
-### Abstract data type (ADT)
-&#10;
-A mathematical model for data types in which a data type is defined by its
-behavior (semantics) from the point of view of a user of the data,
-specifically in terms of possible values, possible operations on data of this
-type, and the behavior of these operations. This contrasts with data
-structures, which are concrete representations of data from the point of view
-of an implementer rather than a user.
-\
-[[ADT]] it's probably any type of [[data_type|data type]]. It's
-mathematical model for data types. AST data type is defined by its behavior
-(semantic) from the point of view of a user of the data (not concrete
-implementation, I think it's abstract implementation). This model defined in
-terms of: possible values, possible operations on data of this type, and the
-behavior of these operations.
+### Abstract data type (ADT) &#10; A mathematical model for data types in which
+a data type is defined by its behavior (semantics) from the point of view of a
+user of the data, specifically in terms of possible values, possible operations
+on data of this type, and the behavior of these operations. This contrasts with
+data structures, which are concrete representations of data from the point of
+view of an implementer rather than a user. \ [[ADT]] it's probably any type of
+[[data_type]]. It's mathematical model for data types. AST data type is defined
+by its behavior (semantic) from the point of view of a user of the data (not
+concrete implementation, I think it's abstract implementation). This model
+defined in terms of: possible values, possible operations on data of this type,
+and the behavior of these operations.
 
 ### Abstract method
 &#10;
@@ -355,14 +351,14 @@ architectures.
 
 ### Booting
 &#10;
-The procedures implemented in starting up a computer or computer appliance
-until it can be used. It can be initiated by hardware such as a button press
-or by a software command. After the power is switched on, the computer is
-relatively dumb and can read only part of its storage called read-only memory.
-There, a small program is stored called firmware. It does power-on self-tests
-and, most importantly, allows access to other types of memory like a hard disk
-and main memory. The firmware loads bigger programs into the computer's main
-memory and runs it. Check also [[boot_sector|boot sector]].
+The procedures implemented in starting up a computer or
+computer appliance until it can be used. It can be initiated by hardware such as
+a button press or by a software command. After the power is switched on, the
+computer is relatively dumb and can read only part of its storage called
+read-only memory. There, a small program is stored called firmware. It does
+power-on self-tests and, most importantly, allows access to other types of
+memory like a hard disk and main memory. The firmware loads bigger programs into
+the computer's main memory and runs it. Check also [[boot_sector]].
 
 ## C
 

@@ -10,8 +10,8 @@ sr-ease: 250
 # Significant figures
 
 > Significant figures (also known as the significant digits, precision or
-> resolution) of a [[number|number]] in positional notation are digits in the
-> number that are reliable and necessary to indicate the quantity of something.
+> resolution) of a [[number]] in positional notation are digits in the number
+> that are reliable and necessary to indicate the quantity of something.
 >
 > If a number expressing the result of a measurement (e.g., length, pressure,
 > volume, or mass) has more digits than the number of digits allowed by the

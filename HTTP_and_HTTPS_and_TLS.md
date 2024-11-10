@@ -9,7 +9,7 @@ sr-ease: 248
 # HTTP and HTTPS and TLS
 
 > The Hypertext Transfer Protocol (HTTP) is an application layer protocol in the
-> [[Internet_protocol_suite-TCP_IP|Internet protocol suite ]] model for
+> [[TCP_IP|Internet protocol suite]] model for
 > distributed, collaborative, hypermedia information systems. HTTP is the
 > foundation of data communication for the World Wide Web, where hypertext
 > documents include hyperlinks to other resources that the user can easily
@@ -19,10 +19,10 @@ sr-ease: 248
 
 > Hypertext Transfer Protocol Secure (HTTPS) is an extension of the Hypertext
 > Transfer Protocol (HTTP). It uses encryption for secure communication over a
-> [[computer_network|computer network]], and is widely used on the [[internet]].
-> In HTTPS, the communication protocol is encrypted using Transport Layer
-> Security (TLS) or, formerly, Secure Sockets Layer (SSL). The protocol is
-> therefore also referred to as HTTP over TLS, or HTTP over SSL.\
+> [[computer_network]], and is widely used on the [[internet]]. In HTTPS, the
+> communication protocol is encrypted using Transport Layer Security (TLS) or,
+> formerly, Secure Sockets Layer (SSL). The protocol is therefore also referred
+> to as HTTP over TLS, or HTTP over SSL.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/HTTPS)</cite>
 
 > Transport Layer Security (TLS) is a [[cryptography|cryptographic]] protocol

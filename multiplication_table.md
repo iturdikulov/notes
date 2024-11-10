@@ -14,9 +14,9 @@ sr-ease: 180
 > an algebraic system.
 >
 > The decimal multiplication table was traditionally taught as an essential part
-> of elementary [[arithmetic|arithmetic ]] around the world, as it lays the
-> foundation for arithmetic operations with base-ten numbers. Many educators
-> believe it is necessary to memorize the table up to 9 × 9.
+> of elementary [[arithmetic]] around the world, as it lays the foundation for
+> arithmetic operations with base-ten numbers. Many educators believe it is
+> necessary to memorize the table up to 9 × 9.
 >
 > The oldest known multiplication tables were used by the Babylonians about 4000
 > years ago. However, they used a base of 60. The oldest known tables using a
@@ -43,9 +43,7 @@ sr-ease: 180
 
 Basically multiplication table is set of multiply operations between **two
 numbers**. And there no difference which number is first or second, because it's
-following
-[[Commutative_Associative_and_Distributive_Laws]]
-property.
+following [[Commutative_Associative_and_Distributive_Laws]] property.
 
 Half of the table is a mirror image of the other (diagonal line from top left to
 bottom right), and you can memorize first part (small number x big number).

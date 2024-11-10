@@ -8,7 +8,7 @@ sr-ease: 252
 ---
 # Docker
 
-Cleanup subvolumes, warning this is dangerous!
+Cleanup `subvolumes`, warning this is dangerous!
 
 `docker rmi $(docker images --quiet --filter "dangling=true")`
 

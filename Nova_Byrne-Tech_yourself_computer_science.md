@@ -69,7 +69,7 @@ TODO: use anchors links to sections
   - Book: _Mathematics for Computer Science_
   - Videos: Tom Leighton’s MIT 6.042J
 
-- [[operating_system|Operating Systems]]
+- [[OS|Operating Systems]]
 
   - Why study? Most of the code you write is run by an operating system, so you
     should know how those interact.

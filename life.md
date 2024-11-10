@@ -23,13 +23,11 @@ IRL is abbreviation for "in real life". I use it to describe my real life
 activities.
 
 For life support I need [[my_inventory|buy some things]], [[cooking|cook]] food
-and [[my_inventory|keep inventory]] (which require [[maintenance|maintenance]]).
+and [[my_inventory|keep inventory]] (which require [[maintenance]]).
 
-Sometimes I do some [[DIY|cool things]] or spent time for
-[[art]].
+Sometimes I do some [[DIY|cool things]] or spent time for [[art]].
 
-Also, worth to mention this notes [[home_construction|home construction]] and
-[[government|government]].
+Also, worth to mention this notes [[home_construction]] and [[government]].
 
 ## Size chart
 

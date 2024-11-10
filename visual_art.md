@@ -7,7 +7,6 @@ sr-due: 2024-02-01
 sr-interval: 6
 sr-ease: 248
 ---
-
 # Visual arts
 
 > The visual arts are art forms such as painting, drawing, printmaking,
@@ -19,8 +18,7 @@ sr-ease: 248
 > interior design, and decorative art.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Visual_arts)</cite>
 
-Currently, I am working on [[30_day_drawing_challenge|my drawing challenge]] and
-[[Drawbox_Community-Drawbox|Drawbox]] course.
+I practice visual arts with [[art_learning_path]].
 
 ## External links
 

@@ -1,8 +1,7 @@
 # TODO
 
 Here I collect various inbox directories and services, which I need to check
-regularly. Main goal is get rid of entropy and 
-[[getting_things_done_GTD|getting things done]].
+regularly. Main goal is get rid of entropy and [[GTD|getting things done]].
 
 Algorithm of daily review and daily plan generator:
 
@@ -36,7 +35,7 @@ command: task project:learn list
 command: task project:IRL list
 ```
 
-## [[operating_system|OS]] and [[PDE]]
+## [[OS]] and [[PDE]]
 
 ```task-table
 command: task project:sys list

@@ -541,8 +541,8 @@ a user ==editable configuration file== for customized logging without altering
 the application.
 
 Python does automatic memory management (reference counting for most objects and
-==`[[garbage_collection|garbage collection]]`== to eliminate cycles).  The
-memory is freed shortly after the last reference to it has been eliminated.
+==`[[garbage_collection]]`== to eliminate cycles).  The memory is freed shortly
+after the last reference to it has been eliminated.
 
 Automatic memory management works fine for most applications but occasionally
 there is a need to track objects only as long as they are being used by

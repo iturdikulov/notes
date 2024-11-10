@@ -10,10 +10,10 @@ sr-ease: 219
 
 # Operation (mathematics)
 
-> In [[mathematics]], an operation is a [[function|function]]
-> which takes zero or more input values (also called "[[operand|operands]]" or
-> "arguments") to a well-defined output value. The number of operands is the
-> ==arity of the operation==.
+> In [[mathematics]], an operation is a [[function]] which takes zero or more
+> input values (also called "[[operand|operands]]" or "arguments") to a
+> well-defined output value. The number of operands is the ==arity of the
+> operation==.
 >
 > The most commonly studied operations are binary operations (i.e., operations
 > of arity 2), such as addition and multiplication, and unary operations (i.e.,

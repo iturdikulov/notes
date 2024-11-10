@@ -30,8 +30,7 @@ If you forget to change it in one place, you'll have a bug
 It's more work to write it over and over again
 
 Usually object-oriented programming techniques using various
-[[programming_principles|programming principles]] and take advantage of
-[[software_quality|software quality]].
+[[programming_principles]] and take advantage of [[software_quality]].
 
 This is main point of =="clean code"==.
 > Any fool can write code that a computer can understand. Good programmers write

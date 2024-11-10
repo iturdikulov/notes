@@ -3,6 +3,8 @@ date: 2023-03-12
 tags:
   - inbox
   - VCS
+external:
+  - https://savannah.gnu.org/projects/patch/
 sr-due: 2024-01-30
 sr-interval: 4
 sr-ease: 272

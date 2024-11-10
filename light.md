@@ -22,7 +22,7 @@ sr-ease: 247
 > wavelength spectrum and polarization. Its speed in vacuum, $299792458\text{
 > m/s}$, is one of the fundamental constants of nature. Like all types of
 > electromagnetic radiation, visible light propagates by massless
-> [[elementary_particle|elementary_particles]] called photons that represents
+> [[elementary_particle|elementary particles]] called photons that represents
 > the quanta of electromagnetic field, and can be analyzed as both waves and
 > particles. The study of light, known as optics, is an important research area
 > in modern physics.\

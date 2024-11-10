@@ -18,7 +18,7 @@ Contains useful wikis which I'm interested in.
 
 I'm interested in these fandoms/wikis:
 
-Related to [[my_games|games]]:
+Related to [[my_games]]:
 
 - [Factorio Wiki](https://factorio.fandom.com/wiki/Main_Page)
 

@@ -200,7 +200,7 @@ buy.
 
 TODO: model
 
-## [[digital_electronics|electronics]] Devices
+## [[digital_electronics|Electronics]] Devices
 
 - TODO: mobile phone 1 model
 - TODO: mobile phone 2 model

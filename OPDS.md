@@ -19,6 +19,5 @@ sr-ease: 270
 > Feedbooks, OLPC, and others.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Open_Publication_Distribution_System)</cite>
 
-I have [[OPDS|OPDS]] OPDS server, to host
-my fiction books.
+I have [[OPDS]] OPDS server, to host my fiction books.
 

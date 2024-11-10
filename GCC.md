@@ -12,7 +12,7 @@ sr-ease: 233
 
 ## Tips
 
-> By default, gcc and clang are pretty quiet about compilation warnings and
+> By default, GCC and clang are pretty quiet about compilation warnings and
 > errors, which can be very useful information. Explicitly using stricter
 > compiler flags is recommended. Here are some recommended defaults:
 >

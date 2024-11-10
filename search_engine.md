@@ -21,7 +21,7 @@ sr-ease: 130
 
 I store in this note some search engines information, specific search operators,
 and search engine shortcuts. These search engine list are configured in my
-[[web_browser|web browser]].
+[[web_browser]].
 
 ## Site search in web-browser data
 
@@ -82,7 +82,7 @@ websites, also good source for category names.
 - GitHub Gist - code snippets::`@gist linux`
 - Your Github Stars::`@star linux`
 
-- DockerHub - search for [[docker|docker]] images::`@dh alpine linux`
+- DockerHub - search for [[Docker]] images::`@dh alpine linux`
 - Nix Packages - search for nix packages::`@nix filezilla`
 
 - StackOverflow - search for programming questions and answers::`@so printf`
@@ -92,7 +92,7 @@ websites, also good source for category names.
 - MSDN - Microsoft developer network docs::`@msdn WinMain`
 - MDN - Mozzila developer network docs::`@mdn flexbox`
 
-- Web Archive - search for archived pages, need pass [[URL|url]]::`@cache linux.org.ru`
+- Web Archive - search for archived pages, need pass [[URL]]::`@cache linux.org.ru`
 
 ### Maps
 

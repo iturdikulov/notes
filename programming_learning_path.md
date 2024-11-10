@@ -23,7 +23,7 @@ Initial point to start learning programming is development of programming
 principles, like this [[##Programming principles|principles]]. Also, it's worth
 to check some [[Evans-So_you_want_to_be_a_WizarD|learning strategies]].
 
-Programming is closely related to [[CS_learning_path|computer science]].
+Programming is closely related to [[computer_science]].
 
 ## Programming principles
 
@@ -229,7 +229,7 @@ materials.
 
 ## JavaScript
 
-[[JavaScript|JavaScript]] is my tertiary programming language.
+[[JavaScript]] is my tertiary programming language.
 
 - [ ] [Современный учебник JavaScript](https://learn.javascript.ru/)
 - [ ] [[Flanagan-JavaScript]]
@@ -273,7 +273,7 @@ Other related web-development resources:
 
 ## C (and a little bit of C++)
 
-[[C|C]] is the lowest-level of the highest-level programming languages
+[[C]] is the lowest-level of the highest-level programming languages
 
 Great cheat sheet with core language syntax:
 

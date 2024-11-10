@@ -9,14 +9,13 @@ sr-ease: 221
 ---
 # Data structures
 
-> In [[computer_science|computer science]], a data structure is a data
-> organization, management, and storage format that is usually chosen for
-> ==efficient== access to data.\
-> More precisely, a data structure is a collection
-> of data values, the relationships among them, and the functions or operations
-> that can be applied to the data, i.e., it is an algebraic structure about
-> data.\
-> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Data_structure)</cite> <!--SR:!2024-09-29,2,221-->
+> In [[computer_science]], a data structure is a data organization, management,
+> and storage format that is usually chosen for ==efficient== access to data.\
+> More precisely, a data structure is a collection of data values, the
+> relationships among them, and the functions or operations that can be applied
+> to the data, i.e., it is an algebraic structure about data.\
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Data_structure)</cite>
+> <!--SR:!2024-09-29,2,221-->
 
 Solid knowledge in data structures allows you to write scalable, fast and
 efficient software, increase your software expertise and make you happy 🙂.
@@ -92,15 +91,15 @@ sequence and typically indexed by names. The elements of records are usually
 called fields or members. In the context of object-oriented programming, records
 are known as plain old data structures to distinguish them from objects. <!--SR:!2024-09-29,2,221-->
 
-- [[hash_table|Hash tables]], also known as hash maps and dictionary, are data
-structures that provide fast retrieval of values based on ==keys==. They use a
-hashing function to map keys to indexes in an array, allowing for constant-time
-access in the average case. Hash tables are commonly used in
+- A [[hash_table]], also known as hash maps and dictionary, are data structures
+that provide fast retrieval of values based on ==keys==. They use a hashing
+function to map keys to indexes in an array, allowing for constant-time access
+in the average case. Hash tables are commonly used in
 [[dictionary|dictionaries]], caches, and database indexing. However, hash
 collisions can occur, which can impact their performance. Techniques like
 chaining and open addressing are employed to handle collisions. <!--SR:!2024-09-29,2,221-->
 
-- [[graph|Graphs]] are collections of nodes connected by ==edges==, representing
+- A [[graph]] is collection of nodes connected by ==edges==, representing
 relationships between entities. Graphs can be used to model social networks,
 [[computer_network|computer networks]], and transportation networks, among other
 things. They consist of vertices (nodes) and edges (connections between nodes).

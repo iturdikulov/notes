@@ -17,7 +17,7 @@ sr-ease: 263
 
 Key features for me:
 
-- Just good [[PDF|PDF]] viewer
+- Just good [[PDF]] viewer
 - [[Neovim|Vim]] like keybindings
 - Support highlighting and bookmarks
 - Anchor links support (marks)

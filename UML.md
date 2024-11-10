@@ -17,7 +17,7 @@ sr-ease: 248
 > and structure diagrams.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Unified_Modeling_Language)</cite>
 
-UML widely used in [[computer_programming|computer programming]].
+UML widely used in [[computer_programming]].
 
 ## References
 

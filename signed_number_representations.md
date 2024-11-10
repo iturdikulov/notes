@@ -10,8 +10,8 @@ sr-ease: 250
 # Signed number representations
 
 > Used to solve the problem of representing negative integers in binary. The
-> problem of trying to store the negative sign (−) of a binary [[number|number]]
-> is that there are no states left to use with which to represent the negative
+> problem of trying to store the negative sign (−) of a binary [[number]] is
+> that there are no states left to use with which to represent the negative
 > assignment. It is not possible to just use 'off' for minus and 'on' for plus
 > because the computer would have no way of knowing whether it was a digit or a
 > sign.\

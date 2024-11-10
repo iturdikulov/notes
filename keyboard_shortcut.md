@@ -31,8 +31,8 @@ with link to detailed keybindings in separate note.
 I have a keyboard with [[QMK]] firmware, which allows me to create custom
 keyboard layers, macros and other features.
 
-I use [[Colemak_Mod-DH|Colemak Mod-DH]] layout (not hardware, I use system
-layout) and my own navigation and symbols layers.
+I use [[Colemak_Mod-DH]] layout (not hardware, I use system layout) and my own
+navigation and symbols layers.
 
 My layers and modifiers:
 
@@ -88,8 +88,8 @@ I use `ZZ`, `:x`, `:q` and `:qa` 😼. I store basic keybindings in my
 
 ## GNU Readline
 
-[[GNU_Readline|GNU readline]] used in many programs like Bash, Python, etc. So I
-need to know some basic keybindings to work with it.
+[[GNU_Readline]] used in many programs like Bash, Python, etc. So I need to know
+some basic keybindings to work with it.
 
 - Move back one character.::`C-b`
 - Move forward one character.::`C-f`
@@ -101,7 +101,7 @@ need to know some basic keybindings to work with it.
 ## Obsidian
 
 [[Obsidian]] is my [[Telekasten|Zettelkasten system]] companion, main task
-is to render markdown, process [[spaced_repetition|space repetition]] notes and
+is to render markdown, process [[spaced_repetition]] notes and
 work with [[excalidraw]] diagrams.
 
 Core keybindings:
@@ -118,7 +118,7 @@ Core keybindings:
 
 ## Web Browser
 
-I store my shortcuts (advanced list) in [[browser_shortcuts|browser shortcuts]]
+I store my shortcuts (advanced list) in [[browser_shortcuts]]
 note. Currently, I'm using [[Brave]] browser and sometimes [[Firefox]].
 
 Here are some universal shortcuts:
@@ -179,7 +179,7 @@ Basic keybindings:
 
 ## Z shell
 
-I use [[Zsh|Z shell]] as my main interactive command interpreter.
+I use [[Zsh]] as my main interactive command interpreter.
 
 Some keybindings from GNU readline are available in Z shell, but I
 usually use Vi-mode in Zsh, and it has its own keybindings.
@@ -230,7 +230,7 @@ Search current channel or conversation::`C-f`
 
 ## Blender
 
-[[Blender|Blender]] is my favorite 3D modeling software.
+[[Blender]] is my favorite 3D modeling software.
 
 Some keys to navigate and quick actions:
 

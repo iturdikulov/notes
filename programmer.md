@@ -10,11 +10,11 @@ sr-ease: 242
 
 # Programmer (software developer)
 
-> Person who creates [[computer_program|computer programs]]'s — often for larger
-> computer software. A programmer is someone who writes/creates computer
-> software or applications by providing a specific programming language to the
-> computer. Most programmers have extensive computing and coding experience in
-> many varieties of programming languages and platforms\
+> Person who creates [[computer_program]]'s — often for larger computer
+> software. A programmer is someone who writes/creates computer software or
+> applications by providing a specific programming language to the computer.
+> Most programmers have extensive computing and coding experience in many
+> varieties of programming languages and platforms\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Programmer)</cite>
 
 I usually program now in [[Python]].

@@ -16,9 +16,9 @@ Operator is generally like functions (with different syntax) with specific
 purpose and used very often. Usually operators defined by programming language
 itself.
 
-> In [[computer_programming|computer programming]], operators are **constructs**
-> defined within programming languages which behave generally like
-> ==functions==, but which differ syntactically or semantically.
+> In [[computer_programming]], operators are **constructs** defined within
+> programming languages which behave generally like ==functions==, but which
+> differ syntactically or semantically.
 >
 > Common simple examples include arithmetic (e.g. addition with `+`), comparison
 > (e.g. "greater than" with `>`), and logical operations (e.g. AND, also written

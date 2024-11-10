@@ -10,9 +10,8 @@ sr-ease: 182
 # Python
 
 > Python is a [[high-level_programming_language|high-level]], general-purpose
-> [[programming_language|programming language]]. Its design philosophy
-> emphasizes code readability with the use of significant indentation via the
-> off-side rule.
+> [[programming_language]]. Its design philosophy emphasizes code readability
+> with the use of significant indentation via the off-side rule.
 >
 > Python is dynamically typed and garbage-collected. It supports multiple
 > programming paradigms, including structured (particularly procedural),
@@ -24,14 +23,12 @@ sr-ease: 182
 > Python 2.0 was released in 2000. Python 3.0, released in 2008, was a major
 > revision not completely backward-compatible with earlier versions.
 >
-> Python consistently ranks as one of the
-> [most popular programming languages](https://www.tiobe.com/tiobe-index/).
+> Python consistently ranks as one of the [most popular programming
+> languages](https://www.tiobe.com/tiobe-index/).
 >
-> Python is a multi-paradigm programming language.
-> [[OOP|object-oriented]] programming and
-> [[structured_programming|structured_programming]] are fully supported, and
-> many of their features support
-> [[functional_programming|functional_programming]] and aspect-oriented
+> Python is a multi-paradigm programming language. [[OOP|object-oriented]]
+> programming and [[structured_programming]] are fully supported, and many of
+> their features support [[functional_programming]] and aspect-oriented
 > programming (including metaprogramming and metaobjects). Many other paradigms
 > are supported via extensions, including design by contract and logic
 > programming.
@@ -61,7 +58,7 @@ indentation to delimit code blocks, rather than curly brackets or keywords.
 
 Python is [dynamically typed] and [garbage-collected].
 
-It supports any popular [[programming_paradigm|programming paradigm]]:
+It supports any popular [[programming_paradigm]]:
 
 - [[structured_programming|structured]]
 - [[procedural_programming|procedural]]
@@ -125,7 +122,7 @@ Need to use parentheses:
 2 + 2 * 2    #  => 6
 (2 + 2) * 2  #  => 8
 ```
-<!--SR:!2024-10-26,4,182-->
+<!--SR:!2024-11-14,7,182-->
 
 ```
 5 // 3       # => 1
@@ -294,7 +291,7 @@ print(
     "world"             # => "Hello world"
 )
 ```
-<!--SR:!2024-11-02,7,182-->
+<!--SR:!2024-11-11,4,162-->
 
 Can be string treated like a list of characters?
 &#10;
@@ -346,7 +343,7 @@ from types import FunctionType
 print(type(Person), isinstance(Person, type))
 print(type(test), isinstance(test, FunctionType))
 ```
-<!--SR:!2024-10-26,3,162-->
+<!--SR:!2024-11-12,5,162-->
 
 How do you compare objects to None and why?
 &#10;
@@ -632,7 +629,7 @@ e, d = d, e  # d is now 5 and e is now 4
 
 What are dictionaries?
 &#10;
-Dictionaries ([[hash_table|hash table]]) store mappings from keys to values.
+Dictionaries ([[hash_table]]) store mappings from keys to values.
 ```python
 empty_dict = {}
 # Here is a prefilled dictionary

@@ -22,8 +22,8 @@ sr-ease: 274
 > light blue creates an "Accented Analogous" color scheme.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Color_scheme)</cite>
 
-I use [[onedark_colors|onedark]] color scheme in configuration files of many used
-by me [[my_awesome_software_list|programs]].
+I use [[onedark_colors]] scheme in configuration files of many used by me
+[[my_awesome_software_list|programs]].
 
 ## References
 

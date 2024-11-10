@@ -22,8 +22,8 @@ sr-ease: 130
 Hyperextensible Vim-based text editor. Your personal Editor Development
 Environment.
 
-I keep my learning resources and learning plan in
-[[Neovim_learning_path|this]] note. I also have a "[[vim_base_keybindings]]" note.
+I keep my learning resources and learning plan in [[Neovim_learning_path]] note.
+I also have a "[[vim_base_keybindings]]" note.
 
 ## What I handle by Neovim
 

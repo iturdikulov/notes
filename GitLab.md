@@ -29,4 +29,4 @@ Includes:
 - Wiki
 - Pages for static sites / documentation
 - Container registry
-- Can be [[self-hosting|self-hosted]]
+- Can be [[self-hosting]]

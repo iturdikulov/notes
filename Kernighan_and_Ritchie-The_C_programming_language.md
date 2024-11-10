@@ -35,11 +35,10 @@ C wears well as one's ==experience== with it grows.
 
 # Preface to the first edition /8
 
-Is C is a [[general-purpose_programming_language|general-purpose]] language?
+Is C is a [[general-purpose_programming_language]] language?
 &#10;
 Yes, general-purpose something like universal language, to use it in any domain,
-and not have limited functions to specific domain.
-<!--SR:!2023-08-07,69,287-->
+and not have limited functions to specific domain. <!--SR:!2023-08-07,69,287-->
 
 Is C is high-level language?
 &#10;
@@ -51,8 +50,7 @@ in hardware programming, embedded systems, kernel development, etc.
 
 # Chapter 1 - A Tutorial Introduction /9
 
-Basics of C (as language, like [[variable]] and arithmetic
-[[expression|expression]]).
+Basics of C (as language, like [[variable]] and arithmetic [[expression]]).
 &#10;
 - Declarations, `int x;`
 - Variables and constants, `x = 1;`
@@ -71,19 +69,12 @@ The only way to learn a new programming language is by ==writing programs== in
 it.
 <!--SR:!2023-08-01,63,267-->
 
-Here [[Hello_World_program|Hello world]] program, can you in details describe
-it, each parts?
-```c
-#include <stdio.h>
-main()
-{
-    printf("hello, world\n");
-}
-```
+Here [[Hello_World_program]], can you in details describe it, each
+parts?
+```c #include <stdio.h> main() { printf("hello, world\n"); } ```
 &#10;
-```c
-// include standart input/output library (this is commentary)
-#include <stdio.h>
+```c // include standart input/output library (this is commentary) #include
+<stdio.h>
 
 // define a function called main (initiator), () surround arguments
 main()
@@ -115,21 +106,19 @@ Steps to compile and run a C program
 3. Load it & Run it
 5. Find out where your output went
 
-Describe this [[escape_sequence|escape sequences]]'s:
+Describe this [[escape_sequence]]'s:
 - `\n`
 - `\t`
 - `\b`
 - `\\`
 - `\"`
-- `\'`
-&#10;
+- `\'` &#10;
 - `\n` - newline, it's a single character
 - `\t` - tab
 - `\b` - backspace
 - `\\` - backslash itself
 - `\"` - double quote
-- `\'` - single quote
-<!--SR:!2023-11-24,206,268-->
+- `\'` - single quote <!--SR:!2023-11-24,206,268-->
 
 Function contains ==[[statement|statements]] which specify its computing
 operations to be done, and [[variable|variables]]== to store values used during

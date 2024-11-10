@@ -31,9 +31,9 @@ My current interests available in [[index]] note.
 organize it. These notes are help me to do it.
 
 Social connections are important to me and probably to my family and friends.
-I'm connecting with them by voice calls, sometimes text messages and [[IRL]]. I
-also store my [[how_do_I_work_with_contacts|contacts]] workflow.
+I'm connecting with them by voice calls, sometimes text messages and [[life]]. I
+also store my [[contacts]] workflow.
 
 Mentoring, I'm trying to help colleagues, people on [[GitHub]] projects,
-[[Stack_Overflow|Stack Overflow]], etc.
+[[Stack_Overflow]], etc.
 

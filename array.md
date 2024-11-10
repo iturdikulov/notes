@@ -9,9 +9,8 @@ sr-ease: 201
 ---
 # Array (computer science)
 
-> Array is a [[data_structure|data structure]] consisting of a collection of
-> elements (values or variables), each identified by at least one array index or
-> key.\
+> Array is a [[data_structure]] consisting of a collection of elements (values
+> or variables), each identified by at least one array index or key.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Array_\(data_structure\))</cite>
 
 > An assemblage of items that are randomly accessible by integers, the index.\
@@ -39,16 +38,15 @@ yes, empty items has address in memory <!--SR:!2024-09-07,4,196-->
 
 ## Array (data type)
 
-> In [[computer_science|computer science]], **array** is a
-> [[data_type|data type]] that represents a collection of _elements_,
-> [[value|values]] or [[variable|variables]], each selected by one or more
-> indices (identifying keys) that can be computed at [[runtime]] during program
-> execution. Such a collection is usually called an **array variable** or
-> **array value**. By analogy with the mathematical concepts [[vector]] and
-> [[matrix]], array types with one and two indices are often called **vector
-> type** and **matrix type**, respectively. More generally, a multidimensional
-> array type can be called a **tensor type**, by analogy with the physical
-> concept, [[tensor]].
+> In [[computer_science]], **array** is a [[data_type]] that represents a
+> collection of _elements_, [[value|values]] or [[variable|variables]], each
+> selected by one or more indices (identifying keys) that can be computed at
+> [[runtime]] during program execution. Such a collection is usually called an
+> **array variable** or **array value**. By analogy with the mathematical
+> concepts [[vector]] and [[matrix]], array types with one and two indices are
+> often called **vector type** and **matrix type**, respectively. More
+> generally, a multidimensional array type can be called a **tensor type**, by
+> analogy with the physical concept, [[tensor]].
 >
 So in general array is a 1 way storing several items (such as integers). Usually
 array store the same type of items (this depending on language). Every item in
@@ -82,16 +80,16 @@ graph LR
 
 When you create array ([[initialization|initialize]]) you must set array size
 (number of items stored in the array). Size of array is fixed. Also, computer
-==allocate some [[computer_memory|memory]]== to store array, during its
-initialization. <!--SR:!2024-09-19,10,216-->
+==allocate some [[computer_memory]]== to store array, during its initialization.
+<!--SR:!2024-09-19,10,216-->
 
 When allocating an array the computer always keeps track:
 ?
 Beginning address and array size
 
-Examples, how to use [[array_in_programming_languages|array in programming languages]].
+Examples, how to use [[array_in_programming_languages]].
 
-Array operations explained in [[array_operations|array operations]].
+Array operations explained in [[array_operations]].
 
 ## Ordered array
 
@@ -120,9 +118,9 @@ This is why ordered array usually slower than [[array]] for inserting operation.
 
 In the worst case when using linear search, we spent ==$N+2$== steps to insert
 new value into ordered array (`75` into `[3.17.80.202]`). But with
-[[binary_search_algorithm|binary search]] we can insert elements more
-effectively, but still slower when we use classic array data structure. <!--SR:!2024-09-06,4,198-->
+[[binary_search]] we can insert elements more effectively, but still slower when
+we use classic array data structure. <!--SR:!2024-09-06,4,198-->
 
-Main advantage of ordered array is that we can use
-==[[binary_search_algorithm|binary search]]== algorithm to find elements in
-array very efficiently. <!--SR:!2024-09-17,15,237-->
+Main advantage of ordered array is that we can use ==[[binary_search]]==
+algorithm to find elements in array very efficiently.
+<!--SR:!2024-09-17,15,237-->

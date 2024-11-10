@@ -8,7 +8,7 @@ sr-ease: 249
 ---
 # Multi-factor authentication (MFA)
 
-You can configure pamu2f Example ([[onlykey|onlykey]] working config)
+You can configure pamu2f Example ([[OnlyKey]] working config)
 
 [Universal 2nd Factor - ArchWiki](https://wiki.archlinux.org/title/Universal_2nd_Factor)
 

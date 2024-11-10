@@ -20,8 +20,8 @@ sr-ease: 230
 > employees, according to research studies.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Interview)</cite>
 
-I think good job is way to obtain better [[IRL|life]]. And of
-course you need to be ready for job interview to take it.
+I think good job is way to obtain better [[life]]. And of course you need to be
+ready for job interview to take it.
 
 ## References
 

@@ -9,15 +9,15 @@ sr-ease: 187
 ---
 # Art learning path
 
-Currently, I'm focusing on learning [[visual_arts|visual art]] and
-[[photography]], additionally I'm learning
-[[CG_learning_path|computer graphics]] which is for me very close
-field.
+Currently, I'm focusing on learning [[visual_art]] and [[photography]],
+additionally I'm learning [[CG_learning_path|computer graphics]] which is for me
+very close field.
 
 I also like to practice [[my_handwriting|handwriting]].
 
 ## Drawing
 
+- [/] [[my_sketchbook|Sketchbook]]
 - [/] [[30_day_drawing_challenge|Drawing Challenge]]
 - [/] [[Loomis-Fun_With_A_Pencil|Loomis book]]
 - [[Drawbox_Community-Drawbox|Taking fundamental drawing exercises]].
@@ -37,7 +37,7 @@ I also like to practice [[my_handwriting|handwriting]].
 
 ## References
 
-Here are some resources for [[artistic_inspiration|inspiration]]:
+Here are some resources for [[artistic_inspiration]]:
 
 - [ArtStation - showcase platform](https://www.artstation.com/)
 - [DeviantArt - Art Gallery and Community](https://www.deviantart.com/)

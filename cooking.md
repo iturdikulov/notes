@@ -8,7 +8,7 @@ sr-ease: 250
 ---
 # Cooking
 
-Significant part of my [[IRL|life]] is cooking. I like to cook
+Significant part of my [[life|life]] is cooking. I like to cook
 **sometimes**.
 
 - [ ] [Собираем ПП продукты на неделю! / Как питаться дёшево и полезно? - YouTube](https://www.youtube.com/watch?v=ONffRw8rxVA)

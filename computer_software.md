@@ -12,18 +12,16 @@ sr-ease: 209
 > to perform a task. Software includes all different programs on a computer,
 > such as applications and the operating system.
 >
-> Applications are [[computer_program|programs]] that are designed to perform a
-> specific operation, such as a [[Neovim|text editor]] game or a word processor.
-> The operating system (e.g. [[GNU_Linux|GNU Linux]], Mac OS,
-> [[MS_Windows|MS Windows]], [[Android]], and various Linux distributions) is a
-> type of software that is used as a platform for running the applications, and
-> controls all user interface tools including display and the keyboard.\
+> Applications are [[computer_program]] that are designed to perform a specific
+> operation, such as a [[Neovim|text editor]] game or a word processor. The
+> operating system (e.g. [[Linux|GNU Linux]], Mac OS, [[MS_Windows|MS Windows]],
+> [[Android]], and various Linux distributions) is a type of software that is
+> used as a platform for running the applications, and controls all user
+> interface tools including display and the keyboard.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Computer_program)</cite>
 
-A Software is a [[computer_program|program]] set, in which one or
-many programs are executed sequentially or simultaneously to perform a
-particular job.
+A Software is a [[computer_program]] set, in which one or many programs are
+executed sequentially or simultaneously to perform a particular job.
 
-I track and maintain
-[[my_awesome_software_list|my software list and categories]],
-to quickly find what I need and used before.
+I track and maintain [[my_awesome_software_list]], to quickly find what I need
+and used before.

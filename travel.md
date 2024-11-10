@@ -16,7 +16,7 @@ sr-ease: 270
 > movements, as in the case of tourism.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Travel)</cite>
 
-My general traveling notes (some [[IRL]] experience).
+My general traveling notes (some [[life]] experience).
 
 <!-- TODO: add some. -->
 

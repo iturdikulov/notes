@@ -6,7 +6,6 @@ sr-due: 2024-02-01
 sr-interval: 6
 sr-ease: 249
 ---
-
 # Turing machine
 
 TODO: not really fully understand what is Turing machine.
@@ -49,17 +48,17 @@ Turning machine consists of:
 - A set of rules, which define what to do when the machine is in a certain state
   and reads a certain symbol (a definition of a so-called transition function).
 
-When a Turing machine is started, a [[word]] (out of the
-working-alphabet) must be present on the infinite tape of the machine, initial
-input. The read/write-device on the first character now reads the first
-character and depending on the current state of Turing machine the
-read/write-device overwrites the character with a new one or moves one cell to
-the left or to the right. Furthermore, the current state of the machine can be
-switched.
+When a Turing machine is started, a [[word]] (out of the working-alphabet) must
+be present on the infinite tape of the machine, initial input. The
+read/write-device on the first character now reads the first character and
+depending on the current state of Turing machine the read/write-device
+overwrites the character with a new one or moves one cell to the left or to the
+right. Furthermore, the current state of the machine can be switched.
 
 ## References
 
-- [ ] [Turing Machines Explained - Computerphile - YouTube](https://www.youtube.com/watch?v=dNRDvLACg5Q)
+- [ ] [Turing Machines Explained - Computerphile -
+YouTube](https://www.youtube.com/watch?v=dNRDvLACg5Q)
 - [ ] Turing machines that decide languages
 - [ ] Turing machines that compute functions
-- [ ] Related video game [[turing_complete|Turning complete]]
+- [ ] Related video game [[Turing_complete]]

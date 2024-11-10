@@ -9,15 +9,14 @@ sr-ease: 228
 ---
 # "Hello, World!" program
 
-> A "Hello, World!" program is generally a
-[[computer_program|computer program]] that ignores any input, and outputs or
-> displays a message similar to "Hello, World!". A small piece of code in most
-> general-purpose [[programming_language|programming languages]], this program
-> is used to illustrate a language's basic syntax. "Hello, World!" programs are
-> often the first a student learns to write in a given language, and they can
-> also be used as a **sanity check** to ensure computer software intended to
-> compile or run source code is correctly installed, and that its operator
-> understands how to use it.\
+> A "Hello, World!" program is generally a [[computer_program]] that ignores any
+> input, and outputs or displays a message similar to "Hello, World!". A small
+> piece of code in most general-purpose [[programming_language|programming
+> languages]], this program is used to illustrate a language's basic syntax.
+> "Hello, World!" programs are often the first a student learns to write in a
+> given language, and they can also be used as a **sanity check** to ensure
+> computer software intended to compile or run source code is correctly
+> installed, and that its operator understands how to use it.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/%22Hello,_World!%22_program)</cite>
 
 Languages which I have experience with (very different levels of experience).
@@ -189,9 +188,9 @@ dynamically typed programming language.
 
 ## x86 assembly language
 
-Regarded as a programming language, [[assembly_language|assembly]] is
-machine-specific and low-level. Like all assembly languages, x86 assembly uses
-mnemonics to represent fundamental CPU instructions, or machine code.
+Regarded as a programming language, [[assembly_language]] is machine-specific
+and low-level. Like all assembly languages, x86 assembly uses mnemonics to
+represent fundamental CPU instructions, or machine code.
 
 ```asm
 ; This code can be compiled with the NASM assembler

@@ -8,7 +8,7 @@ sr-ease: 250
 ---
 # Color theory
 
-> In the [[visual_arts|visual arts]], color theory is the body of practical
+> In the [[visual_art|visual arts]], color theory is the body of practical
 > guidance for color mixing and the visual effects of a specific color
 > combination. Color terminology based on the **color wheel** and its geometry
 > separates colors into primary color, secondary color, and tertiary color.

@@ -15,7 +15,7 @@ sr-ease: 210
 ---
 
 A series where author show how to use taskwarrior to implement GTD. This series
-requires some knowledge of [[getting_things_done_GTD|GTD]].
+requires some knowledge of [[GTD]].
 
 # Part 1: Intro
 
@@ -118,7 +118,7 @@ representation.
 # Part 3: Tickling
 
 This chapter explaining how to use
-[[getting_things_done_GTD#Tickler file|tickler file]] with Taskwarrior.
+[[GTD#Tickler file|tickler file]] with Taskwarrior.
 
 Adding `wait:` metadata to a task ensures that the task won't be visible
 until the date that you set this metadata to. For example, when you enter
@@ -156,7 +156,7 @@ I think it's useful, so I have this alias too.
 # Part 4: Processing
 
 You usually process items following
-[[getting_things_done_GTD#Processing|GTD processing]] workflow.
+[[GTD#Processing|GTD processing]] workflow.
 
 Processing requirements?
 &#10;
@@ -214,7 +214,7 @@ you are working. Luckily, Taskwarrior makes it very easy to allow you to
 use your context to your advantage. For now, all you need to remember is to
 always add at least one context tag to a task. Common context tags are
 `+@office`, `+@phone`, `+@computer`, `@shop`, ... Check more contexts
-variants in [[getting_things_done_GTD#Contexts|GTD contexts]].
+variants in [[GTD#Contexts|GTD contexts]].
 
 ## Research
 

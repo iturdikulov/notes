@@ -8,7 +8,7 @@ tags:
 
 Ls used to display everything in some directory, by default `ls` doesn't show hidden (started with `.`) files and directories.
 
-`ls` is one of most popular [[GNU_Utilities|GNU Core Utilities]] tool.
+`ls` is one of most popular [[GNU_Utilities]] tool.
 
 List of common commands:
 

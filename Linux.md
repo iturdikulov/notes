@@ -9,8 +9,8 @@ sr-ease: 248
 ---
 # GNU/Linux
 
-> Linux or **GNU/Linux** is a [[Unix]]-like [[operating_system|operating
-> system]] (or family of) for [[computer|computers]].
+> Linux or **GNU/Linux** is a [[Unix]]-like [[operating_system]] (or family of)
+> for [[computer|computers]].
 >
 > The Linux kernel (the basis of the operating system) is free software, meaning
 > everyone has the freedom to use it, see how it works, change it, or share it.
@@ -20,7 +20,7 @@ sr-ease: 248
 > why many people like to use Linux.\
 > — <cite>[Simple English Wikipedia](https://simple.wikipedia.org/wiki/Linux)</cite>
 
-Personally I use [[archlinux|Arch Linux]] and [[NixOS]] distributions.
+Personally I use [[Linux]] with [[NixOS]] distributions.
 
 One of Unix/Linux important idea is everything is ==a file==, with some
 exceptions (semaphores, processes and threads).

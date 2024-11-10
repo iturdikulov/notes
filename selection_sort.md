@@ -7,12 +7,12 @@ tags:
 
 # Selection sort
 
-> In [[computer_science|computer science]], selection sort is an in-place
-> comparison sorting algorithm. It has an ==$O(N^2)$== time complexity, which
-> makes it inefficient on large lists, and generally performs worse than the
-> similar insertion sort. Selection sort is noted for its simplicity and has
-> performance advantages over more complicated algorithms in certain situations,
-> particularly where auxiliary memory is limited.\
+> In [[computer_science]], selection sort is an in-place comparison sorting
+> algorithm. It has an ==$O(N^2)$== time complexity, which makes it inefficient
+> on large lists, and generally performs worse than the similar insertion sort.
+> Selection sort is noted for its simplicity and has performance advantages over
+> more complicated algorithms in certain situations, particularly where
+> auxiliary memory is limited.\
 > — <cite>[Selection sort - Wikipedia](https://en.wikipedia.org/wiki/Selection_sort)</cite> <!--SR:!2024-09-10,8,250-->
 
 ## Selection sort in action

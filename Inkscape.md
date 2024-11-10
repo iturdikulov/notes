@@ -12,16 +12,15 @@ sr-ease: 255
 
 # Inkscape
 
-> Inkscape is a free and open-source [[vector_graphics|vector graphics]] for
-> GNU/Linux, Windows and macOS. It offers a rich set of features and is
-> widely used for both artistic and technical illustrations such as cartoons,
-> clip art, logos, typography, diagramming and flowcharting. It uses vector
-> graphics to allow for sharp printouts and renderings at unlimited resolution
-> and is not bound to a fixed number of pixels like raster graphics. Inkscape
-> uses the standardized Scalable Vector Graphics (SVG) file format as its main
-> format, which is supported by many other applications including web browsers.
-> It can import and export various other file formats, including SVG, AI, EPS,
-> PDF, PS and PNG.\
+> Inkscape is a free and open-source [[vector_graphics]] for GNU/Linux, Windows
+> and macOS. It offers a rich set of features and is widely used for both
+> artistic and technical illustrations such as cartoons, clip art, logos,
+> typography, diagramming and flowcharting. It uses vector graphics to allow for
+> sharp printouts and renderings at unlimited resolution and is not bound to a
+> fixed number of pixels like raster graphics. Inkscape uses the standardized
+> Scalable Vector Graphics (SVG) file format as its main format, which is
+> supported by many other applications including web browsers. It can import and
+> export various other file formats, including SVG, AI, EPS, PDF, PS and PNG.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Inkscape)</cite>
 
 ## Learning

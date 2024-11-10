@@ -9,7 +9,7 @@ sr-ease: 270
 
 # Windows Setup Script
 
-I have own quick-start script for [[MS_Windows|Windows]]. I tried to make it
+I have own quick-start script for [[MS_Windows]]. I tried to make it
 very simple and straightforward. To install Windows, I usually just use
 [[Ventoy]].
 

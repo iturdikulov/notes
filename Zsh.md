@@ -11,8 +11,8 @@ sr-ease: 250
 
 > The Z shell (Zsh) is a [[Unix]] shell that can be used as an interactive login
 > shell and as a command interpreter for shell scripting. Zsh is an extended
-> Bourne shell with many improvements, including some features of
-> [[Bash_Unix_Shell|Bash]], ksh, and tcsh.
+> Bourne shell with many improvements, including some features of [[Bash]], ksh,
+> and tcsh.
 >
 > Zsh was created by Paul Falstad in 1990 while he was a student at Princeton
 > University. It combines features from both ksh and tcsh, offering
@@ -328,10 +328,9 @@ Use `ESC` or `CTRL-[` to enter `Normal mode`.
 
 ## Check also
 
-[[dotfiles|Dotfiles]] are usually source of interesting Bash snippets and
-scripts.
+[[dotfiles]] are usually source of interesting Bash snippets and scripts.
 
-[[GNU_Readline|Readline]] for additional keybindings.
+[[GNU_Readline]] for additional keybindings.
 
 ## External links
 
