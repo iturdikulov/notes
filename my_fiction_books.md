@@ -13,19 +13,25 @@ sr-ease: 227
 <!-- TODO: add links to each book into ~/Arts_and_Entertainment/literature/ or create review for each book. -->
 <!-- TODO: MARK physical books -->
 
-This section contains a list of [[fiction]] books I'd like to read, and NOT include
-books related which I consider related to research or non-fiction.
+This section contains a list of [[fiction]] books I'd like to read, and NOT
+include books related which I consider related to research or non-fiction.
+This list isn't contain all what I have read, so I just start tracking my
+reading progress "recently".
 
 My special notation for books:
 
-- [ ] `[ ]` Haven't read yet
+- [ ] `[ ]` Scheduled
 - [/] `[/]` Reading in progress
-- [b] `[x]` Finished reading
+- [p] `[p]` Finished reading, good
+- [c] `[c]` Finished reading, bad
 - [!] `[!]` ** Would recommend**
 - [-] `[-]` Cancelled
 
 ## Sci-Fi and Fantasy
 
+- [/] Я робот
+- [ ] Война миров
+- [ ] [Все книги из игр Morrowind и Skyrim! БИБЛИОТЕКА ТАМРИЭЛЯ. Аудиокнига. Том 1](file:///home/inom/Arts_and_Entertainment/audiovisual/audiobook/morrowind_and_skyrim_audioknigi/tom_1_yt_BwHTYGtEnIw.m4a)
 - [ ] Конец вечности
 - [ ] Хайлайн
 - [ ] Роберт шекли
@@ -37,11 +43,8 @@ My special notation for books:
 - [ ] Лабиринт отражений
 - [ ] [Таинственный остров](https://ru.wikipedia.org/wiki/%D0%A2%D0%B0%D0%B8%D0%BD%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9_%D0%BE%D1%81%D1%82%D1%80%D0%BE%D0%B2)
 - [ ] Лю Цысинь (Оробчук Сергей) – Задача трех тел (с музыкальным сопровождением)
-- [/] [Все книги из игр Morrowind и Skyrim! БИБЛИОТЕКА ТАМРИЭЛЯ. Аудиокнига. Том 1](file:///home/inom/Arts_and_Entertainment/audiovisual/audiobook/morrowind_and_skyrim_audioknigi/tom_1_yt_BwHTYGtEnIw.m4a)
-- [/] Война миров
-- [/] Я робот
 - [!] [[Ekzyuperi-Malenkij_Princz|Маленький Принц (The Little Prince)]]
-- [b] Джон Уиндем - День триффидов. Эмоциональное повествование про ослепший мир и выживание человечества. 8.5 из 10.
+- [p] Джон Уиндем - День триффидов. Эмоциональное повествование про ослепший мир и выживание человечества. 8.5 из 10.
 
 ## Science, philosophy, psychology
 
@@ -69,6 +72,13 @@ My special notation for books:
 If you have book recommendations for me, please [create a Pull
 Request](https://github.com/iturdikulov/notes/edit/main/my_fiction_books.md)
 adding a link at the end of this note.
+
+![[./img/ref-Science_fiction_novel_flowchart.jpg]]
+_[A science fiction novel flowchart](https://x.com/future_is_meow/status/1043042205479395328)_
+
+![[./img/ref-NPR_science_and_fantasy_fiction_flowchart.jpg]]
+_[A Guide to Navigating NPR's Top 100 Science Fiction and Fantasy Books](https://archive.org/details/NPRFlowchart)_
+
 
 ### Businesses / Decision-making
 
