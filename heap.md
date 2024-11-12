@@ -7,6 +7,7 @@ sr-due: 2024-01-29
 sr-interval: 2
 sr-ease: 225
 ---
+
 # Heap (data structure)
 
 > In [[computer_science]], a heap is a specialized tree-based [[data_structure]]

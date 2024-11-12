@@ -7,6 +7,7 @@ sr-due: 2024-01-29
 sr-interval: 2
 sr-ease: 228
 ---
+
 # Sorting algorithm
 
 > Puts elements of a list into an ==order==. The most frequently used orders are

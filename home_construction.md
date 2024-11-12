@@ -6,6 +6,7 @@ sr-due: 2024-01-28
 sr-interval: 3
 sr-ease: 250
 ---
+
 # Home construction (residential construction)
 
 > Process of constructing a house, apartment building, or similar residential

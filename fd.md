@@ -9,6 +9,7 @@ sr-due: 2024-01-29
 sr-interval: 3
 sr-ease: 252
 ---
+
 # fd
 
 > fd is a program to **find** entries in your **filesystem**. It is a simple,

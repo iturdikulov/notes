@@ -4,6 +4,7 @@ tags:
   - inbox
   - base
 ---
+
 # Dijkstra's algorithm
 
 > Dijkstra's algorithm (/ˈdaɪkstrəz/ DYKE-strəz) is an algorithm for finding the

@@ -9,6 +9,7 @@ sr-due: 2024-02-03
 sr-interval: 6
 sr-ease: 249
 ---
+
 # NNN file manager
 
 Configuration, using environment variables

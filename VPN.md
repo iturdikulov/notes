@@ -7,6 +7,7 @@ sr-due: 2024-01-28
 sr-interval: 3
 sr-ease: 269
 ---
+
 # Virtual private network (VPN)
 
 > Mechanism for creating a secure connection between a computing device and a

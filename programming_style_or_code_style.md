@@ -7,6 +7,7 @@ sr-due: 2024-01-29
 sr-interval: 2
 sr-ease: 229
 ---
+
 # Programming style (code style)
 
 > Set of rules or guidelines used when writing the source code for a

@@ -9,5 +9,6 @@ sr-due: 2024-02-01
 sr-interval: 4
 sr-ease: 245
 ---
+
 # Death March: The Complete Software Developer's Guide to Surviving "Mission Impossible" Projects
 

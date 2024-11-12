@@ -7,6 +7,7 @@ sr-due: 2024-01-29
 sr-interval: 3
 sr-ease: 254
 ---
+
 # Relaxation (psychology)
 
 > In [[psychology]], relaxation is the emotional state of low tension, in which

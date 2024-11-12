@@ -8,6 +8,7 @@ sr-due: 2024-02-08
 sr-interval: 14
 sr-ease: 209
 ---
+
 # OpenCV Real-time Angle Calculation
 
 Project to calculate the angle of a radar marker on map in real time using OpenCV.

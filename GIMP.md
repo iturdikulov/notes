@@ -8,6 +8,7 @@ sr-due: 2024-02-05
 sr-interval: 9
 sr-ease: 266
 ---
+
 # GIMP - GNU Image Manipulation Program
 
 GIMP is a cross-platform, free, open-source image editor.

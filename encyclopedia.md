@@ -7,6 +7,7 @@ sr-due: 2024-01-29
 sr-interval: 3
 sr-ease: 251
 ---
+
 # Encyclopedia
 
 > An encyclopedia (American English) or `encyclopædia` (British English) is a

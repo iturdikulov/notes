@@ -7,6 +7,7 @@ sr-due: 2024-01-29
 sr-interval: 2
 sr-ease: 218
 ---
+
 # Matrix (mathematics)
 
 > In [[mathematics]], a **matrix** (plural **matrices**) is a rectangular

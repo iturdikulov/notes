@@ -8,6 +8,7 @@ sr-due: 2024-01-28
 sr-interval: 3
 sr-ease: 253
 ---
+
 # Termux
 
 > Android terminal emulator and Linux environment application that works

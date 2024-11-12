@@ -9,6 +9,7 @@ sr-due: 2023-01-28
 sr-interval: 4
 sr-ease: 272
 ---
+
 # htop
 
 > This is htop, a cross-platform interactive process viewer. It is a text-mode

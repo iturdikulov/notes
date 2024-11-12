@@ -7,6 +7,7 @@ sr-due: 2024-02-02
 sr-interval: 5
 sr-ease: 240
 ---
+
 # Database
 
 > In [[computing]], a database is an organized collection of data (also known

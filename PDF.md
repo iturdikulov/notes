@@ -6,6 +6,7 @@ sr-due: 2024-01-29
 sr-interval: 4
 sr-ease: 270
 ---
+
 # Portable Document Format (PDF)
 
 > File format developed by Adobe in 1992 to present documents, including text

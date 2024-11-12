@@ -6,6 +6,7 @@ sr-due: 2024-01-29
 sr-interval: 2
 sr-ease: 228
 ---
+
 # Truncation
 
 > Limiting the number of digits right of the decimal point by discarding the

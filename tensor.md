@@ -6,6 +6,7 @@ sr-due: 2024-01-29
 sr-interval: 2
 sr-ease: 220
 ---
+
 # Tensor
 
 > In [[mathematics]], a tensor is an algebraic object that describes a

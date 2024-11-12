@@ -7,6 +7,7 @@ sr-due: 2024-02-03
 sr-interval: 8
 sr-ease: 253
 ---
+
 # fzf
 
 It's a general purpose fuzzy finder written in [[Go]] that can be used with any

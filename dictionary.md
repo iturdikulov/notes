@@ -8,6 +8,7 @@ sr-due: 2024-02-14
 sr-interval: 2
 sr-ease: 252
 ---
+
 # Dictionary
 
 > A dictionary is a listing of lexemes from the lexicon of one or more specific

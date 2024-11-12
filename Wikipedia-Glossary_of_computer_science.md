@@ -9,6 +9,7 @@ sr-ease: 202
 external:
   - https://en.wikipedia.org/wiki/Glossary_of_computer_science
 ---
+
 # Glossary of [[computer_science]]
 
 You can check also this resource: [Dictionary of Algorithms and Data

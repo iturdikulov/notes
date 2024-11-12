@@ -6,6 +6,7 @@ sr-due: 2024-02-03
 sr-interval: 7
 sr-ease: 242
 ---
+
 # Game
 
 > A game is a structured form of play, usually undertaken for entertainment or

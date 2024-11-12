@@ -11,6 +11,7 @@ sr-due: 2024-03-21
 sr-interval: 56
 sr-ease: 168
 ---
+
 # [[NixOS]] on an Oracle Free Tier Ampere machine. Success!
 
 Oracle does not offer a NixOS image, so it's little complex to set up instance

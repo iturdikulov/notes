@@ -7,6 +7,7 @@ sr-due: 2024-01-30
 sr-interval: 4
 sr-ease: 274
 ---
+
 # suckless.org
 
 > Home of dwm, dmenu and other quality software with a focus on simplicity,

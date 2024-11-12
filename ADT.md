@@ -6,6 +6,7 @@ sr-due: 2024-02-08
 sr-interval: 1
 sr-ease: 203
 ---
+
 # Abstract data type (ADT)
 
 > In [[computer_science]], an abstract data type (ADT) is a

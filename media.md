@@ -6,6 +6,7 @@ sr-due: 2024-02-01
 sr-interval: 6
 sr-ease: 250
 ---
+
 # Media (communication)
 
 > In mass communication, media are the communication outlets or tools used to

@@ -7,6 +7,7 @@ sr-due: 2023-01-28
 sr-interval: 4
 sr-ease: 210
 ---
+
 # Artificial intelligence (AI)
 
 Sort of [[computer_program]] which mimics human cognition.

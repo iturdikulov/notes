@@ -7,6 +7,7 @@ sr-due: 2024-01-29
 sr-interval: 2
 sr-ease: 227
 ---
+
 # Search algorithm
 
 > Search [[algorithm]] designed to solve a search problem. Search algorithms

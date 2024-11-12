@@ -6,6 +6,7 @@ sr-due: 2024-01-29
 sr-interval: 3
 sr-ease: 221
 ---
+
 # Computing
 
 > Computing is any goal-oriented activity requiring, benefiting from, or

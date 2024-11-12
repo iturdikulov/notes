@@ -11,6 +11,7 @@ sr-due: 2024-07-24
 sr-interval: 181
 sr-ease: 234
 ---
+
 # Taylor Will series on NixOS
 
 His code repo: [GitHub - wiltaylor/dotfiles: My personal dotfiles](https://github.com/wiltaylor/dotfiles/tree/master)

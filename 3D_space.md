@@ -7,6 +7,7 @@ sr-due: 2024-01-31
 sr-interval: 4
 sr-ease: 221
 ---
+
 # Three-dimensional space (3D space, 3-space)
 
 > In [[geometry]], a three-dimensional space (3D space, 3-space or, rarely,

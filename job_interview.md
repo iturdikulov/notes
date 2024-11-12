@@ -6,6 +6,7 @@ sr-due: 2024-02-02
 sr-interval: 6
 sr-ease: 230
 ---
+
 # Job interview
 
 > Interview consisting of a conversation between a job applicant and a

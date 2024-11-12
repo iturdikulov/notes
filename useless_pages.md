@@ -6,6 +6,7 @@ sr-due: 2024-01-29
 sr-interval: 4
 sr-ease: 277
 ---
+
 # The Useless Pages
 
 The Useless Web was an example of early web humor. Original site you can find in

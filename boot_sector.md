@@ -6,6 +6,7 @@ sr-due: 2024-01-28
 sr-interval: 2
 sr-ease: 245
 ---
+
 # Boot sector
 
 > A boot sector is the sector of a persistent data storage device (e.g., hard

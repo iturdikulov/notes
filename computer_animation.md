@@ -7,6 +7,7 @@ sr-due: 2024-02-03
 sr-interval: 6
 sr-ease: 234
 ---
+
 # Computer animation
 
 > Computer [[animation]] is the process used for digitally generating

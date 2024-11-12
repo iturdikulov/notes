@@ -7,6 +7,7 @@ sr-due: 2024-01-29
 sr-interval: 4
 sr-ease: 270
 ---
+
 # WireGuard
 
 > WireGuard is an extremely simple yet fast and modern [[VPN]] that utilizes

@@ -6,6 +6,7 @@ sr-due: 2024-02-01
 sr-interval: 6
 sr-ease: 247
 ---
+
 # Light (visible light)
 
 > Electromagnetic radiation that can be perceived by the human eye. Visible

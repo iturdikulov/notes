@@ -7,6 +7,7 @@ sr-due: 2024-02-09
 sr-interval: 14
 sr-ease: 239
 ---
+
 # High-level programming language
 
 > In [[computer_science]], a high-level [[programming_language]] is a

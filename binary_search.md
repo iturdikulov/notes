@@ -7,6 +7,7 @@ sr-due: 2024-01-28
 sr-interval: 2
 sr-ease: 202
 ---
+
 # Binary search algorithm
 
 Also known as half-interval search, logarithmic search, binary chop.

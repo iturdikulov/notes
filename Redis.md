@@ -6,6 +6,7 @@ sr-due: 2024-01-28
 sr-interval: 3
 sr-ease: 250
 ---
+
 # Redis database
 
 > Redis (/ˈrɛdɪs/; Remote Dictionary Server) is an open-source in-memory

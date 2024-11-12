@@ -7,6 +7,7 @@ sr-due: 2024-01-28
 sr-interval: 2
 sr-ease: 248
 ---
+
 # PDF Menu Generator
 
 My personal project, client-side [[PDF_Menu_Generator|PFD]] generator from HTML

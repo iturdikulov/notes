@@ -6,6 +6,7 @@ sr-due: 2024-01-29
 sr-interval: 2
 sr-ease: 204
 ---
+
 # Bit
 
 > The bit is the most basic unit of information in [[computing]] and

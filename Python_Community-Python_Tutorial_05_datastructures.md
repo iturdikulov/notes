@@ -5,6 +5,7 @@ tags:
   - inbox
   - Python
 ---
+
 # 5. Data Structures
 
 How to add an item to the end of the list with a built-in method and equivalent slice assign method?

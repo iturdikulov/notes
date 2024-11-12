@@ -7,6 +7,7 @@ sr-due: 2024-01-28
 sr-interval: 2
 sr-ease: 225
 ---
+
 # Operand
 
 > In computing, an operand is the part of a computer instruction which specifies

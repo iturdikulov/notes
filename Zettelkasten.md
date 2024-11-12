@@ -8,6 +8,7 @@ sr-due: 2024-02-25
 sr-interval: 30
 sr-ease: 284
 ---
+
 # Zettelkasten Method
 
 My notes should be organized to evolve, save my time and bring benefits to me

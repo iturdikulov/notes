@@ -6,6 +6,7 @@ sr-due: 2024-02-11
 sr-interval: 16
 sr-ease: 230
 ---
+
 # Data breach
 
 > A data breach is a [[computer_security]] violation, in which sensitive,

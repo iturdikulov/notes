@@ -6,6 +6,7 @@ sr-due: 2024-01-30
 sr-interval: 4
 sr-ease: 270
 ---
+
 # Public utility
 
 > A public utility company (usually just utility) is an organization that

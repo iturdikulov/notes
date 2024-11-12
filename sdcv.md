@@ -9,6 +9,7 @@ sr-due: 2024-07-10
 sr-interval: 167
 sr-ease: 329
 ---
+
 # sdcv
 
 > sdcv is a simple, cross-platform, text-based utility for working with

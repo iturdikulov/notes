@@ -7,6 +7,7 @@ sr-due: 2024-01-29
 sr-interval: 3
 sr-ease: 250
 ---
+
 # Graphic design
 
 > Graphic design is a profession, academic discipline and applied [[art]]

@@ -9,6 +9,7 @@ sr-due: 2024-02-23
 sr-interval: 29
 sr-ease: 206
 ---
+
 # Practical Vim: Edit text at the speed of thought
 
 My notes are based on this book + Neovim.
@@ -97,6 +98,7 @@ plugins?
 `:checkhealth`, but it can be slow!
 
 ---
+
 # 1. The Vim Way \28
 
 If you know how to craft useful actions using vim, you can reuse them and repeat

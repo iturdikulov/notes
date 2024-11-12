@@ -7,6 +7,7 @@ external:
   - https://github.com/hyprwm/Hyprland
 sr-due: 2023-01-28
 ---
+
 # Hyprland
 
 > Hyprland is an independent, highly customizable, dynamic tiling Wayland

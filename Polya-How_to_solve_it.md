@@ -8,6 +8,7 @@ sr-due: 2024-05-12
 sr-interval: 108
 sr-ease: 250
 ---
+
 # How to solve it
 
 Describe how to solve general principles of solving problems.

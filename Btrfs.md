@@ -6,6 +6,7 @@ sr-due: 2024-01-29
 sr-interval: 4
 sr-ease: 272
 ---
+
 # Btrfs (better F S)
 
 Btrfs includes native optimizations for SSD media. To enable

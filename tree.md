@@ -6,6 +6,7 @@ sr-due: 2024-01-28
 sr-interval: 2
 sr-ease: 203
 ---
+
 # Tree (data structure)
 
 > In [[computer_science]], a tree is a widely used [[AST|abstract data type]]

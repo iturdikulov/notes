@@ -6,6 +6,7 @@ sr-due: 2024-01-29
 sr-interval: 1
 sr-ease: 148
 ---
+
 # Social networking service (SNS)
 
 > Online platform which people use to build social networks or social

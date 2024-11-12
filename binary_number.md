@@ -6,6 +6,7 @@ sr-due: 2024-01-29
 sr-interval: 3
 sr-ease: 250
 ---
+
 # Binary number
 
 > A binary [[number]] is a number expressed in the base-2 numeral system or

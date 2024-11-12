@@ -10,6 +10,7 @@ sr-due: 2024-08-26
 sr-interval: 1
 sr-ease: 216
 ---
+
 # So you want to be a Wizard [^1]
 
 ## [[./books/Evans-want_to_be_a_wizard.pdf#page=2|About zhis zine]]

@@ -4,6 +4,7 @@ tags:
   - inbox
   - DB
 ---
+
 # Structured Query Language (SQL)
 
 > Structured Query Language (SQL) is a domain-specific language used to

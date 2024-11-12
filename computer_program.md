@@ -6,6 +6,7 @@ sr-due: 2024-02-04
 sr-interval: 7
 sr-ease: 250
 ---
+
 # Computer program
 
 > Sequence or set of instructions in a programming language for a computer to

@@ -7,6 +7,7 @@ sr-due: 2024-02-01
 sr-interval: 5
 sr-ease: 228
 ---
+
 # Fibonacci sequence
 
 > In mathematics, the Fibonacci sequence is a sequence in which each number is

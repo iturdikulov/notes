@@ -7,6 +7,7 @@ sr-due: 2024-02-12
 sr-interval: 17
 sr-ease: 247
 ---
+
 # The HyperText Markup Language (HTML)
 
 > The HyperText Markup Language or HTML is the standard markup language for

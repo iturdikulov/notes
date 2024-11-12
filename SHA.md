@@ -6,6 +6,7 @@ sr-due: 2024-02-03
 sr-interval: 6
 sr-ease: 249
 ---
+
 # Secure Hash Algorithms (SHA)
 
 > The Secure Hash Algorithms are a family of [[cryptography]] hash functions

@@ -6,6 +6,7 @@ sr-due: 2024-02-01
 sr-interval: 5
 sr-ease: 228
 ---
+
 # Data exchange
 
 > Data exchange is the process of taking [[data_structure|data structured]]

@@ -7,6 +7,7 @@ sr-due: 2024-08-30
 sr-interval: 217
 sr-ease: 304
 ---
+
 # Java (programming language)
 
 TODO: add term

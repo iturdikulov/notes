@@ -7,6 +7,7 @@ sr-due: 2024-02-16
 sr-interval: 1
 sr-ease: 225
 ---
+
 # Statement (computer science)
 
 > In [[computer_programming]], a statement is a syntactic unit of an imperative

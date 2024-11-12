@@ -6,6 +6,7 @@ tags:
   - inbox
   - Python
 ---
+
 # 1. Whetting Your Appetite
 
 In this section described when Python can be usable. For example scripting,

@@ -3,6 +3,7 @@ date: 2024-11-10 10:10
 tags:
   - inbox
 ---
+
 # Repair
 
 Information for repairing my devices. I'm not really professional in repair, but

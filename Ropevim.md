@@ -7,6 +7,7 @@ sr-due: 2024-02-01
 sr-interval: 4
 sr-ease: 246
 ---
+
 # Ropevim, rope in vim
 
 > Ropevim is a [[Neovim|vim]] mode that uses

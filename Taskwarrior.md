@@ -10,6 +10,7 @@ sr-due: 2024-01-31
 sr-interval: 3
 sr-ease: 150
 ---
+
 # Taskwarrior
 
 > Taskwarrior is Free and Open Source Software that manages your TODO list from

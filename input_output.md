@@ -7,6 +7,7 @@ sr-due: 2024-01-29
 sr-interval: 2
 sr-ease: 225
 ---
+
 # Input/Output
 
 > In computing, input/output (I/O, i/o, or informally io or IO) is the

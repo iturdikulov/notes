@@ -6,6 +6,7 @@ sr-due: 2024-02-06
 sr-interval: 9
 sr-ease: 268
 ---
+
 # Vector graphics
 
 > Vector graphics is a form of [[computer_graphics]] in which visual images are

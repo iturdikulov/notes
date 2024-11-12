@@ -6,6 +6,7 @@ sr-due: 2024-02-06
 sr-interval: 9
 sr-ease: 250
 ---
+
 # Magic SysRq key
 
 The magic SysRq key is a key combination understood by the Linux kernel, which

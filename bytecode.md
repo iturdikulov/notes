@@ -6,6 +6,7 @@ sr-due: 2024-02-12
 sr-interval: 17
 sr-ease: 245
 ---
+
 # Bytecode (portable code or p-code)
 
 > Form of instruction set designed for efficient execution by a software

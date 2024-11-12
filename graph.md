@@ -7,6 +7,7 @@ sr-due: 2024-01-28
 sr-interval: 1
 sr-ease: 183
 ---
+
 # Graph (abstract data type)
 
 > In [[computer_science]], a graph is an abstract data type that is meant to

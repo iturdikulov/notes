@@ -6,6 +6,7 @@ sr-due: 2024-02-02
 sr-interval: 5
 sr-ease: 241
 ---
+
 # Graph theory
 
 > In [[mathematics]], graph theory is the study of [[graph|graphs]],

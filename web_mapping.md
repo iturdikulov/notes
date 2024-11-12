@@ -7,6 +7,7 @@ sr-due: 2024-01-30
 sr-interval: 4
 sr-ease: 270
 ---
+
 # Web mapping (online mapping)
 
 > Web mapping or an online mapping is the process of using maps, usually created

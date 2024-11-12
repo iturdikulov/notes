@@ -7,6 +7,7 @@ sr-due: 2024-02-08
 sr-interval: 2
 sr-ease: 245
 ---
+
 # Vertex (computer graphics)
 
 > A vertex (plural vertices) in [[computer_graphics]] is a data structure that

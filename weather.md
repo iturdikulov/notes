@@ -6,6 +6,7 @@ sr-due: 2024-01-30
 sr-interval: 4
 sr-ease: 270
 ---
+
 # Weather
 
 > The state of the atmosphere, describing for example the degree to which it is

@@ -7,6 +7,7 @@ sr-due: 2024-03-07
 sr-interval: 41
 sr-ease: 243
 ---
+
 # Polygon (computer graphics)
 
 > Polygons are used in [[computer_graphics]] to compose images that are

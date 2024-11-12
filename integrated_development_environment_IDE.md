@@ -7,6 +7,7 @@ sr-due: 2024-01-29
 sr-interval: 2
 sr-ease: 218
 ---
+
 # Integrated development environment (IDE)
 
 > An integrated development environment (IDE) is a [[computer_software]]

@@ -6,6 +6,7 @@ sr-due: 2024-01-29
 sr-interval: 2
 sr-ease: 227
 ---
+
 # Null function
 
 > Null [[function]] (or null operator) is a subroutine that leaves the program

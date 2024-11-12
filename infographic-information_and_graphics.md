@@ -6,6 +6,7 @@ sr-due: 2024-01-30
 sr-interval: 4
 sr-ease: 271
 ---
+
 # Infographic (information and graphics)
 
 > Graphic visual representations of information, data, or knowledge intended to

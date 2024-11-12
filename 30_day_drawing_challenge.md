@@ -7,6 +7,7 @@ sr-due: 2024-02-06
 sr-interval: 12
 sr-ease: 248
 ---
+
 # My X-Day Drawing Challenge
 
 My first steps in [[my_art]] creation.

@@ -6,6 +6,7 @@ sr-due: 2024-01-30
 sr-interval: 4
 sr-ease: 274
 ---
+
 # Color scheme
 
 > In color theory, a color scheme is the choice of colors used in various

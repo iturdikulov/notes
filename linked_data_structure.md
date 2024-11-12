@@ -7,6 +7,7 @@ sr-due: 2024-01-29
 sr-interval: 2
 sr-ease: 224
 ---
+
 # Linked data structure
 
 > In [[computer_science]], a linked data structure is a [[data_structure]] which

@@ -7,6 +7,7 @@ sr-due: 2024-01-28
 sr-interval: 1
 sr-ease: 223
 ---
+
 # Tmux
 
 > tmux is a terminal multiplexer. It lets you switch easily between several

@@ -9,6 +9,7 @@ sr-due: 2024-01-30
 sr-interval: 4
 sr-ease: 270
 ---
+
 # Trigun
 
 > Trigun (Japanese: トライガン, Hepburn: Toraigan) is a Japanese [[manga]]

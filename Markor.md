@@ -7,6 +7,7 @@ sr-due: 2024-01-28
 sr-interval: 3
 sr-ease: 268
 ---
+
 # Markor
 
 > Markor is a TextEditor for Android. This project aims to make an editor that

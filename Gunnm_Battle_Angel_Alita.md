@@ -9,6 +9,7 @@ sr-due: 2024-01-30
 sr-interval: 4
 sr-ease: 270
 ---
+
 # Gunnm aka Battle Angel Alita
 
 > Gunnm (Japanese: 銃夢, romanized: Ganmu, lit. 'gun dream'), also known as

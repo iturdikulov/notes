@@ -11,6 +11,7 @@ sr-due: 2024-01-28
 sr-interval: 2
 sr-ease: 246
 ---
+
 # An introduction to Blender 4.x
 
 At the end of this course, you will be able to comfortably navigate Blender

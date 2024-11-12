@@ -7,6 +7,7 @@ sr-due: 2024-01-28
 sr-interval: 1
 sr-ease: 185
 ---
+
 # Computational complexity
 
 > In [[computer_science]], the computational complexity or simply complexity of

@@ -6,6 +6,7 @@ sr-due: 2024-01-29
 sr-interval: 3
 sr-ease: 268
 ---
+
 # Proxy server
 
 In [[computer_network]], [[server]] application (program) that acts as middleman

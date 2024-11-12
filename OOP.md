@@ -7,6 +7,7 @@ sr-due: 2024-01-28
 sr-interval: 1
 sr-ease: 198
 ---
+
 # Object-oriented programming (OOP)
 
 > ==Object-Oriented Programming, or "OOP"= is way (pattern) of writing computer

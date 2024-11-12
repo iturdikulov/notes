@@ -3,6 +3,7 @@ date: 2024-11-02 23:18
 tags:
   - inbox
 ---
+
 # Plant
 
 > Plants are the eukaryotes that form the kingdom Plantae; they are

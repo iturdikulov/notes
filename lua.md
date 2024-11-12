@@ -7,6 +7,7 @@ sr-due: 2024-01-31
 sr-interval: 4
 sr-ease: 170
 ---
+
 # Lua (programming language)
 
 > Lua (/ˈluːə/ LOO-ə; from Portuguese: lua [ˈlu(w)ɐ] meaning moon) is a

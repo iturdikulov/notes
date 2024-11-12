@@ -7,6 +7,7 @@ sr-due: 2024-01-29
 sr-interval: 1
 sr-ease: 194
 ---
+
 # Neovim learning path
 
 TODO: global rewrite

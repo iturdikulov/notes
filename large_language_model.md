@@ -4,6 +4,7 @@ tags:
   - inbox
   - base
 ---
+
 # Large language model (LLM)
 
 [[computation|Computational]] model capable of language generation or other

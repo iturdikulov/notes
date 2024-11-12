@@ -5,6 +5,7 @@ tags:
   - inbox
   - Python
 ---
+
 # 8. Errors and Exceptions
 
 There are (at least) two distinguishable kinds of errors (general types):

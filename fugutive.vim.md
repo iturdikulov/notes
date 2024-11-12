@@ -4,6 +4,7 @@ tags:
   - inbox
   - VCS
 ---
+
 # fugutive.vim
 
 > Fugitive is the premier Vim plugin for [[Git]]. Or maybe it's the premier Git

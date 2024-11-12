@@ -7,6 +7,7 @@ sr-due: 2024-01-29
 sr-interval: 4
 sr-ease: 278
 ---
+
 # Screenshot
 
 > A screenshot (also known as screen capture or screen grab) is a digital image

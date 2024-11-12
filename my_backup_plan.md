@@ -6,6 +6,7 @@ sr-due: 2024-01-28
 sr-interval: 1
 sr-ease: 190
 ---
+
 # My backup plan
 
 1. [x] Raid 1 for all data

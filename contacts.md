@@ -7,6 +7,7 @@ sr-due: 2024-01-28
 sr-interval: 3
 sr-ease: 254
 ---
+
 # How do I work with contacts
 
 TODO: Info how I organize contact note type, need implement

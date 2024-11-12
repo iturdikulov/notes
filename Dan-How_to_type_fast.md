@@ -10,6 +10,7 @@ sr-due: 2025-01-27
 sr-interval: 368
 sr-ease: 248
 ---
+
 ## How to type 100 words per minute
 
 > I spent too much time trying to improve my typing speed by doing the wrong

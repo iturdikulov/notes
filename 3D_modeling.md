@@ -7,6 +7,7 @@ sr-due: 2024-02-03
 sr-interval: 6
 sr-ease: 248
 ---
+
 # 3D modeling
 
 > In 3D [[computer_graphics]], 3D modeling is the process of developing a

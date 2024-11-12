@@ -8,6 +8,7 @@ sr-due: 2024-02-05
 sr-interval: 9
 sr-ease: 252
 ---
+
 # My Videos
 
 - [[mpv]] as main media viewer.

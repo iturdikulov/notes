@@ -10,6 +10,7 @@ sr-interval: 96
 sr-ease: 210
 directory: ~/Computer/science/Petzold-Code
 ---
+
 # Код: тайный язык информатики
 
 Чем сильнее углубляться в прошлое тем проще становятся технологии.

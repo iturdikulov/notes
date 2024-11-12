@@ -6,6 +6,7 @@ sr-due: 2024-08-26
 sr-interval: 1
 sr-ease: 232
 ---
+
 # Excalidraw
 
 Zettelkasten Type

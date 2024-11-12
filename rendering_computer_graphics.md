@@ -6,6 +6,7 @@ sr-due: 2024-01-28
 sr-interval: 1
 sr-ease: 229
 ---
+
 # Rendering (computer graphics)
 
 > Rendering or image synthesis is the process of generating a photorealistic or

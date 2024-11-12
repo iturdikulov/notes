@@ -7,6 +7,7 @@ sr-due: 2024-01-29
 sr-interval: 2
 sr-ease: 222
 ---
+
 # Stack (abstract data type)
 
 > In [[computer_science]], a **stack** is an [[ADT]] that serves as a

@@ -6,6 +6,7 @@ sr-due: 2024-02-10
 sr-interval: 16
 sr-ease: 291
 ---
+
 # Android (operating system)
 
 > Android is an operating system for mobile devices. It is mostly used for

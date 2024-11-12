@@ -7,6 +7,7 @@ sr-due: 2024-01-31
 sr-interval: 5
 sr-ease: 249
 ---
+
 # Debugger
 
 > A debugger or debugging tool is a [[computer_program]] used

@@ -6,6 +6,7 @@ sr-due: 2024-01-29
 sr-interval: 3
 sr-ease: 252
 ---
+
 # Nohup
 
 > nohup - run a command immune to hangups, with output to a non-tty.\

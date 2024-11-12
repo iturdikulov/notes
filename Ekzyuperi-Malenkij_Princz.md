@@ -9,6 +9,7 @@ sr-due: 2025-01-19
 sr-interval: 369
 sr-ease: 270
 ---
+
 # Маленький Принц (The Little Prince)
 
 > The Little Prince (French: Le Petit Prince, pronounced [lə p(ə)ti pʁɛ̃s]) is a

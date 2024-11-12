@@ -7,6 +7,7 @@ sr-due: 2024-07-02
 sr-interval: 1
 sr-ease: 230
 ---
+
 # Pseudoterminal
 
 > In some operating systems, including [[Unix]]-like systems, a pseudoterminal,

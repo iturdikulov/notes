@@ -7,6 +7,7 @@ sr-due: 2024-01-29
 sr-interval: 4
 sr-ease: 270
 ---
+
 # My Arch Linux environment
 
 > Arch Linux is an independently developed, x86-64 general-purpose GNU/Linux

@@ -6,6 +6,7 @@ sr-due: 2024-01-29
 sr-interval: 3
 sr-ease: 266
 ---
+
 # Nix OS pre-install guide
 
 NOTE: The following tutorial is for EFI enabled systems.

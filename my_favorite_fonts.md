@@ -7,6 +7,7 @@ sr-due: 2024-01-30
 sr-interval: 4
 sr-ease: 270
 ---
+
 # My favorite fonts
 
 '\*' mark - [nerdfont](https://www.nerdfonts.com/|nerdfont) available.

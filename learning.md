@@ -7,6 +7,7 @@ sr-due: 2023-01-28
 sr-interval: 4
 sr-ease: 195
 ---
+
 # Learning
 
 > Learning is the process of acquiring new understanding, knowledge, behaviors,

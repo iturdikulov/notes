@@ -7,6 +7,7 @@ sr-due: 2024-01-28
 sr-interval: 1
 sr-ease: 183
 ---
+
 # Value (computer science)
 
 > In [[computer_science]] and [[computer_programming]], a value is the

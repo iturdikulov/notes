@@ -4,6 +4,7 @@ tags:
   - inbox
   - base
 ---
+
 # Selection sort
 
 > In [[computer_science]], selection sort is an in-place comparison sorting

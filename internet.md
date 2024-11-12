@@ -6,6 +6,7 @@ sr-due: 2024-02-22
 sr-interval: 27
 sr-ease: 247
 ---
+
 # Internet
 
 > The Internet (or internet) is the global system of interconnected computer

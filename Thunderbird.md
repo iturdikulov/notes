@@ -5,6 +5,7 @@ tags:
 external:
   - https://www.thunderbird.net/
 ---
+
 # Mozilla Thunderbird
 
 > Free and open-source [^1] email client that also functions as a personal

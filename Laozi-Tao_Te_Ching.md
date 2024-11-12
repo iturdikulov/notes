@@ -11,6 +11,7 @@ sr-due: 2024-01-31
 sr-interval: 15
 sr-ease: 230
 ---
+
 # Tao Te Ching
 
 > The Tao Te Ching (RU: Дао дэ цзин; UK: /ˌtaʊ tiː ˈtʃɪŋ/, US: /ˌdaʊ dɛ ˈdʒɪŋ/;

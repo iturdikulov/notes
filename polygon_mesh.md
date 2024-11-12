@@ -7,6 +7,7 @@ sr-due: 2024-01-28
 sr-interval: 1
 sr-ease: 228
 ---
+
 # Polygon mesh
 
 > In 3D [[computer_graphics]] and solid modeling, a polygon mesh is a collection

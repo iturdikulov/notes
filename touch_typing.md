@@ -7,6 +7,7 @@ sr-due: 2024-01-28
 sr-interval: 3
 sr-ease: 265
 ---
+
 # Touch typing
 
 > Touch typing (also called blind typing, or touch keyboarding) is a style of

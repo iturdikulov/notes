@@ -7,6 +7,7 @@ sr-due: 2023-01-28
 sr-interval: 4
 sr-ease: 190
 ---
+
 # Computer
 
 > A computer is a machine that can be ==programmed== to carry out sequences of

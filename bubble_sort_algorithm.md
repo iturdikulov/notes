@@ -7,6 +7,7 @@ sr-due: 2024-08-26
 sr-interval: 1
 sr-ease: 221
 ---
+
 # Bubble sort
 
 > Bubble sort, sometimes referred to as sinking sort, is a simple sorting

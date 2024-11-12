@@ -7,6 +7,7 @@ sr-due: 2024-07-04
 sr-interval: 3
 sr-ease: 249
 ---
+
 # Vim base keybindings
 
 I inspired by ThePirmeagen video [^1] to create this note, this cover small

@@ -9,6 +9,7 @@ sr-due: 2024-01-31
 sr-interval: 3
 sr-ease: 224
 ---
+
 # Learn C in Y minutes
 
 > C is the lowest-level language most programmers will ever use, but it more than

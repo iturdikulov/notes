@@ -10,6 +10,7 @@ sr-due: 2024-01-28
 sr-interval: 1
 sr-ease: 229
 ---
+
 # Diceware
 
 > Diceware is a method for creating passphrases, passwords, and other

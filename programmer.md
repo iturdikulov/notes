@@ -7,6 +7,7 @@ sr-due: 2024-01-31
 sr-interval: 5
 sr-ease: 242
 ---
+
 # Programmer (software developer)
 
 > Person who creates [[computer_program]]'s — often for larger computer

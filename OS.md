@@ -6,6 +6,7 @@ sr-due: 2024-02-02
 sr-interval: 6
 sr-ease: 249
 ---
+
 # Operating system
 
 > Group of computer programs, including device drivers, kernels, and other

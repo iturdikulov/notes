@@ -7,6 +7,7 @@ sr-due: 2024-02-12
 sr-interval: 17
 sr-ease: 248
 ---
+
 # Internet protocol suite (TCP/IP)
 
 > Is a framework for organizing the set of communication protocols used in the

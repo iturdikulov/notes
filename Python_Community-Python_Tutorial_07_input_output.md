@@ -5,6 +5,7 @@ tags:
   - inbox
   - Python
 ---
+
 # 7. Input and Output
 
 There are several ways to present the output of a program; data can be

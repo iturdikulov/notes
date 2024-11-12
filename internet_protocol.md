@@ -6,6 +6,7 @@ sr-due: 2024-02-02
 sr-interval: 6
 sr-ease: 249
 ---
+
 # Internet Protocol
 
 > The Internet Protocol (IP) is the [[computer_network]] layer communications

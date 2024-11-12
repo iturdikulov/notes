@@ -10,6 +10,7 @@ sr-due: 2025-06-09
 sr-interval: 501
 sr-ease: 250
 ---
+
 # Blender Beginner Donut Tutorial
 
 A big part of this tutorial is also in [[Blender_common_shortcuts]] note.

@@ -7,6 +7,7 @@ sr-due: 2024-01-29
 sr-interval: 3
 sr-ease: 250
 ---
+
 # Word list
 
 > A word list (or lexicon) is a list of a language's lexicon (generally sorted

@@ -6,6 +6,7 @@ sr-due: 2024-03-11
 sr-interval: 45
 sr-ease: 214
 ---
+
 # Comics
 
 [[media|Medium]] used to express ideas with images, often

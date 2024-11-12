@@ -7,6 +7,7 @@ sr-due: 2024-02-05
 sr-interval: 11
 sr-ease: 232
 ---
+
 # GNU Privacy Guard (GPG or GnuPG)
 
 > Free-software replacement for Symantec's PGP cryptographic software suite. The

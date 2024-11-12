@@ -9,6 +9,7 @@ sr-due: 2024-06-08
 sr-interval: 135
 sr-ease: 234
 ---
+
 # Fun With A Pencil: How Everybody Can Easily Learn to Draw
 
 Andrew Loomis (1892-1959) is revered amongst artists - including comics

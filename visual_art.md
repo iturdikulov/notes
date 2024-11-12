@@ -7,6 +7,7 @@ sr-due: 2024-02-01
 sr-interval: 6
 sr-ease: 248
 ---
+
 # Visual arts
 
 > The visual arts are art forms such as painting, drawing, printmaking,

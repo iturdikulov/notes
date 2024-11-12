@@ -6,6 +6,7 @@ sr-due: 2024-02-01
 sr-interval: 6
 sr-ease: 249
 ---
+
 # Turing machine
 
 TODO: not really fully understand what is Turing machine.

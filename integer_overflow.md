@@ -6,6 +6,7 @@ sr-due: 2024-01-29
 sr-interval: 2
 sr-ease: 230
 ---
+
 # Integer overflow
 
 > Number which is stored becomes larger than the capacity of the

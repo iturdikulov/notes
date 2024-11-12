@@ -8,6 +8,7 @@ sr-due: 2024-03-01
 sr-interval: 35
 sr-ease: 273
 ---
+
 # Castlevania
 
 > Castlevania (`/ˌkæsəlˈveɪniə/`), known in Japan as Akumajō Dracula, is a gothic

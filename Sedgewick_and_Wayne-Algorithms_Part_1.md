@@ -8,6 +8,7 @@ sr-due: 2024-01-28
 sr-interval: 2
 sr-ease: 246
 ---
+
 # Algorithms: Part 1
 
 This book is Part I of the fourth edition of Robert Sedgewick and Kevin Wayne’s

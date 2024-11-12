@@ -5,6 +5,7 @@ tags:
   - base
 directory: ~/Computer/science/Cormen_et_al-Introduction_to_algorithms
 ---
+
 # Introduction to Algorithms
 
 TODO: add authors

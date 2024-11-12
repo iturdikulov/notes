@@ -5,6 +5,7 @@ tags:
   - inbox
   - Python
 ---
+
 # 15. Appendix
 
 When an error occurs, the interpreter prints an error message and a stack trace.

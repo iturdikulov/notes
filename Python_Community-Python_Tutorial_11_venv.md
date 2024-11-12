@@ -5,6 +5,7 @@ tags:
   - inbox
   - Python
 ---
+
 # 11. Virtual Environments and Packages
 
 When is suitable to use a virtual environment?

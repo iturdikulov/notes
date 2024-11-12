@@ -6,6 +6,7 @@ sr-due: 2024-01-30
 sr-interval: 4
 sr-ease: 270
 ---
+
 # Fail2Ban
 
 Fail2ban is an intrusion prevention software framework. Written in the Python

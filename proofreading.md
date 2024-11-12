@@ -4,6 +4,7 @@ tags:
   - inbox
   - linguistic
 ---
+
 # Proofreading
 
 > Proofreading is an iterative process of comparing galley proofs against the

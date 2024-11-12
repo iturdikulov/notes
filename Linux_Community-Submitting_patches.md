@@ -10,6 +10,7 @@ sr-due: 2024-06-06
 sr-interval: 133
 sr-ease: 230
 ---
+
 # Submitting patches: the essential guide to getting your code into the kernel
 
 I think this is good material to build requirements for committing into VCS.

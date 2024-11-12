@@ -6,6 +6,7 @@ sr-due: 2024-01-29
 sr-interval: 3
 sr-ease: 250
 ---
+
 # Color theory
 
 > In the [[visual_art|visual arts]], color theory is the body of practical

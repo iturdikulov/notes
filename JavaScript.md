@@ -7,6 +7,7 @@ sr-due: 2023-01-28
 sr-interval: 8
 sr-ease: 203
 ---
+
 # JavaScript (dialect of ECMAScript), often abbreviated as JS
 
 > JavaScript (/ˈdʒɑːvəskrɪpt/), often abbreviated as JS, is a

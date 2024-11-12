@@ -7,6 +7,7 @@ sr-due: 2024-01-29
 sr-interval: 4
 sr-ease: 276
 ---
+
 # maim
 
 > maim (make image) takes [[screenshot|screenshots]] of your desktop. It has

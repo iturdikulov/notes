@@ -7,6 +7,7 @@ sr-due: 2024-02-07
 sr-interval: 1
 sr-ease: 207
 ---
+
 # Trie
 
 > In computer science, a trie (/ˈtriː/, /ˈtraɪ/), also called digital tree or

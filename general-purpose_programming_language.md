@@ -6,6 +6,7 @@ sr-due: 2024-02-06
 sr-interval: 1
 sr-ease: 222
 ---
+
 # General-purpose programming language (GPL)
 
 GPL - [[programming_language]] for building [[computer_software]] in a wide

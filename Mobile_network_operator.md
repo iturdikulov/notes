@@ -6,6 +6,7 @@ sr-due: 2024-02-02
 sr-interval: 5
 sr-ease: 249
 ---
+
 # Mobile network operator
 
 > A mobile [[computer_network]] operator, also known as a wireless service

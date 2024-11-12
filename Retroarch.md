@@ -6,6 +6,7 @@ sr-due: 2024-02-04
 sr-interval: 7
 sr-ease: 269
 ---
+
 # RetroArch
 
 Install & configure RetroArch on arch-based system!

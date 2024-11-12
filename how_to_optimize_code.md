@@ -4,6 +4,7 @@ tags:
   - inbox
   - base
 ---
+
 # How to optimize code
 
 First step before you optimize code, is determining how fast your code is with

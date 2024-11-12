@@ -7,6 +7,7 @@ sr-due: 2024-02-07
 sr-interval: 13
 sr-ease: 248
 ---
+
 # dm-crypt (cryptsetup)
 
 > dm-crypt is a transparent block device encryption subsystem in [[Linux]]

@@ -7,6 +7,7 @@ sr-due: 2024-01-29
 sr-interval: 2
 sr-ease: 228
 ---
+
 # "Hello, World!" program
 
 > A "Hello, World!" program is generally a [[computer_program]] that ignores any

@@ -7,6 +7,7 @@ sr-due: 2024-01-28
 sr-interval: 2
 sr-ease: 225
 ---
+
 # Turing completeness
 
 > In computability theory, a system of data-manipulation rules (such as a model

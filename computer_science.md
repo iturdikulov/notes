@@ -7,6 +7,7 @@ sr-due: 2023-28-08
 sr-interval: 4
 sr-ease: 209
 ---
+
 # Computer Science
 
 > Study of ==[[computation]], automation, and information==. Computer

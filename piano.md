@@ -6,6 +6,7 @@ sr-due: 2024-01-29
 sr-interval: 2
 sr-ease: 222
 ---
+
 # Piano
 
 > The piano is a **keyboard [[my_music|musical]] instrument** with strings

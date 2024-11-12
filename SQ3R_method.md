@@ -7,6 +7,7 @@ sr-due: 2024-01-28
 sr-interval: 2
 sr-ease: 243
 ---
+
 # SQ3R reading method
 
 > This is sort of optimization of the reading process.

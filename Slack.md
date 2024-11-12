@@ -9,6 +9,7 @@ sr-due: 2024-01-30
 sr-interval: 4
 sr-ease: 273
 ---
+
 # Slack
 
 > Slack is an [[IM]] program designed by [Slack

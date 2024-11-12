@@ -9,6 +9,7 @@ sr-due: 2024-01-28
 sr-interval: 2
 sr-ease: 228
 ---
+
 # Telescope - [[Neovim]] plugin
 
 Highly extendable fuzzy finder over lists. Telescope is centered around

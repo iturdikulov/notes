@@ -9,6 +9,7 @@ sr-due: 2024-02-10
 sr-interval: 2
 sr-ease: 209
 ---
+
 # Mathematics
 
 > Mathematics is the study of numbers, shapes, and patterns. The word comes from

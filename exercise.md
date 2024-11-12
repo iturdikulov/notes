@@ -7,6 +7,7 @@ sr-due: 2024-01-30
 sr-interval: 4
 sr-ease: 224
 ---
+
 # Exercise
 
 > Exercise is intentional physical activity to enhance or maintain fitness and

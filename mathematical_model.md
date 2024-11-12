@@ -7,6 +7,7 @@ sr-due: 2024-02-02
 sr-interval: 6
 sr-ease: 238
 ---
+
 # Mathematical model
 
 > A [[mathematics|mathematical]] model is an abstract description of a concrete

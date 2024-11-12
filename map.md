@@ -7,6 +7,7 @@ sr-due: 2024-01-31
 sr-interval: 4
 sr-ease: 223
 ---
+
 # Map (higher-order function, aka apply-to-all)
 
 > map is the name of a higher-order [[function]] that applies a given

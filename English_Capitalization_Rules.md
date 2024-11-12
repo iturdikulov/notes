@@ -9,6 +9,7 @@ sr-due: 2024-08-28
 sr-interval: 3
 sr-ease: 266
 ---
+
 # English Capitalization Rules
 
 Certain words, like proper nouns and the ==first== word in a sentence, start

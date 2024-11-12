@@ -8,6 +8,7 @@ sr-due: 2024-02-01
 sr-interval: 4
 sr-ease: 248
 ---
+
 # Nixpkgs
 
 Nixpkgs is a collection of over 80,000 software packages that can be installed

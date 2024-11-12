@@ -9,6 +9,7 @@ sr-due: 2026-02-26
 sr-interval: 763
 sr-ease: 333
 ---
+
 # mpv
 
 mpv is a free (as in freedom) [[media]] player for the command line (it has own

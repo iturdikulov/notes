@@ -7,7 +7,8 @@ sr-due: 2023-01-28
 sr-interval: 5
 sr-ease: 150
 ---
-# C (programming language)
+
+# C programming language
 
 C is multi-paradigm programming language (I started learn it later than needed
 😼). By design work efficiently with typical machine instructions.

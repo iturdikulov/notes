@@ -5,6 +5,7 @@ tags:
   - inbox
   - outline
 ---
+
 # My notes, my projects and my life
 
 [[about_me|I'm]] a programmer, who is trying to be a professional in the field

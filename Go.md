@@ -9,6 +9,7 @@ sr-due: 2023-01-28
 sr-interval: 34
 sr-ease: 265
 ---
+
 # Go (programming language), aka Golang
 
 > Go is a statically typed, compiled [[high-level_programming_language]]

@@ -8,6 +8,7 @@ sr-due: 2024-01-29
 sr-interval: 4
 sr-ease: 270
 ---
+
 # Brave (web browser)
 
 Free open source browser. Currently (11/24) I stopped to use it.

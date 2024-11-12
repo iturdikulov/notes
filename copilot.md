@@ -8,6 +8,7 @@ sr-due: 2024-01-29
 sr-interval: 3
 sr-ease: 263
 ---
+
 # Copilot
 
 > GitHub Copilot (not to be confused with, "Copilot X", the name of GitHub's

@@ -8,6 +8,7 @@ sr-interval: 7
 sr-ease: 148
 directory: ~/Computer/programming/McConnell-Code_complete
 ---
+
 # Code complete
 
 Widely considered one of the best practical guides to programming, Steve

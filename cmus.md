@@ -7,6 +7,7 @@ sr-due: 2024-07-04
 sr-interval: 3
 sr-ease: 262
 ---
+
 # cmus
 
 My favorite [[my_music|music]] player.

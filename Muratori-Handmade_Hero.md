@@ -11,6 +11,7 @@ sr-due: 2024-02-09
 sr-interval: 15
 sr-ease: 213
 ---
+
 # Handmade Hero
 
 > A limbless child receives a magical gift that allows him to set off on the

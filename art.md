@@ -7,6 +7,7 @@ sr-due: 2024-02-04
 sr-interval: 8
 sr-ease: 250
 ---
+
 # Art
 
 > Art is a diverse range of human activity, and resulting product, that involves

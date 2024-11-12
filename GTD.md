@@ -8,6 +8,7 @@ sr-due: 2024-02-02
 sr-interval: 7
 sr-ease: 209
 ---
+
 # Getting Things Done (GTD)
 
 > Getting Things Done (GTD) is a way of organizing all the things a person has

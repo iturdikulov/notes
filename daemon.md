@@ -7,6 +7,7 @@ sr-due: 2024-01-29
 sr-interval: 4
 sr-ease: 270
 ---
+
 # Daemon_(computing)
 
 > In multitasking computer [[OS|operating systems]], a daemon is

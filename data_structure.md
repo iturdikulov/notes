@@ -7,6 +7,7 @@ sr-due: 2024-01-26
 sr-interval: 4
 sr-ease: 221
 ---
+
 # Data structures
 
 > In [[computer_science]], a data structure is a data organization, management,

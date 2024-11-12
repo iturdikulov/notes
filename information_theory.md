@@ -6,6 +6,7 @@ sr-due: 2024-01-28
 sr-interval: 3
 sr-ease: 260
 ---
+
 # Information theory
 
 > Branch of applied [[mathematics]] and electrical engineering.

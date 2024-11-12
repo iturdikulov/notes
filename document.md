@@ -7,6 +7,7 @@ sr-due: 2024-02-06
 sr-interval: 9
 sr-ease: 254
 ---
+
 # Document
 
 > A document is a written, drawn, presented, or memorialized representation of

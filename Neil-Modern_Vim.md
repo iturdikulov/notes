@@ -10,6 +10,7 @@ sr-ease: 246
 sr-interval: 2
 directory: ~/Computer/software/Neil-Modern_Vim
 ---
+
 # Modern Vim: Craft your development environment with Vim 8 and Neovim
 
 Turn [[Neovim]] into a full-blown development

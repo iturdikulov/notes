@@ -8,6 +8,7 @@ sr-due: 2024-01-28
 sr-interval: 1
 sr-ease: 168
 ---
+
 # Physics and chemistry learning path
 
 TODO: better group resources

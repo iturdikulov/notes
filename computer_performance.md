@@ -6,6 +6,7 @@ sr-due: 2024-01-29
 sr-interval: 2
 sr-ease: 228
 ---
+
 # Computer performance
 
 > In [[computing]], computer performance is the amount of useful work

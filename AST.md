@@ -7,6 +7,7 @@ sr-due: 2024-01-30
 sr-interval: 4
 sr-ease: 206
 ---
+
 # Abstract syntax tree
 
 > In [[computer_science]], an abstract syntax [[tree]] (AST), or just syntax

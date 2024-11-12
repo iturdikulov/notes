@@ -7,6 +7,7 @@ sr-due: 2024-02-03
 sr-interval: 8
 sr-ease: 209
 ---
+
 # Function (computer programming)
 
 > In [[computer_programming]], a function or subroutine is a sequence of program

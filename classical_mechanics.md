@@ -6,6 +6,7 @@ sr-due: 2024-01-28
 sr-interval: 3
 sr-ease: 268
 ---
+
 # Classical mechanics
 
 > [[physics|Physical]] theory describing the motion of macroscopic objects, from

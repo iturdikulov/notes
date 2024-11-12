@@ -7,6 +7,7 @@ sr-due: 2024-01-28
 sr-interval: 1
 sr-ease: 208
 ---
+
 # GNU Readline
 
 > The GNU Readline library provides a set of functions for use by applications

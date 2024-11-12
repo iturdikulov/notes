@@ -6,6 +6,7 @@ sr-due: 2024-02-06
 sr-interval: 11
 sr-ease: 249
 ---
+
 # Multi-factor authentication (MFA)
 
 You can configure pamu2f Example ([[OnlyKey]] working config)

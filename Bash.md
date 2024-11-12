@@ -8,6 +8,7 @@ sr-due: 2023-01-28
 sr-interval: 3
 sr-ease: 250
 ---
+
 # Bash (Unix shell)
 
 > Bash is a [[Unix]] shell and command language written by Brian Fox for the GNU

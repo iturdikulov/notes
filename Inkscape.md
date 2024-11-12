@@ -9,6 +9,7 @@ sr-due: 2024-01-28
 sr-interval: 3
 sr-ease: 255
 ---
+
 # Inkscape
 
 > Inkscape is a free and open-source [[vector_graphics]] for GNU/Linux, Windows
