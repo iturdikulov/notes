@@ -12,6 +12,7 @@ external/salesloop
 private/
 
 # Inbox files
+inbox_mobile.md
 books/
 articles/
 
