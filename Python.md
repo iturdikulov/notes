@@ -389,7 +389,7 @@ input_string_var = input("Enter some data: ")  # Returns the data as a string
 
 Is there a declaration in Python (`cpython`)?
 &#10;<br>
-There are no declarations (type hints are not declarations), only assignments. <!--SR:!2024-10-27,4,182-->
+There are no declarations ([[Python_type_hints]] are not declarations), only assignments. <!--SR:!2024-10-27,4,182-->
 
 Convention in naming variables is?
 &#10;<br>
