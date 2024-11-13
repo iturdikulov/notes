@@ -2,6 +2,17 @@ body {
   --file-line-width: 960px
 }
 
+/* Body font for Editing and Reading views */
+.is-phone :is(.markdown-source-view, .markdown-preview-view) {
+    font-size: 0.9em;
+}
+
+/* Sidebar font and smaller font in search & backlinks results, etc */
+.is-phone {
+    --nav-item-size: 18px;
+    --font-ui-smaller: 15px;
+}
+
 @media only screen and (max-width: 767px) {
   .modal {
     max-height: 100vh !important;
