@@ -1,8 +1,7 @@
 ---
-date: 2022-12-28
+date: 2024-11-13
 tags:
   - inbox
-  - art
   - outline
 sr-due: 2024-02-03
 sr-interval: 6
@@ -13,10 +12,11 @@ sr-ease: 227
 
 <!-- TODO: add links to each book into ~/Arts_and_Entertainment/literature/ or create review for each book. -->
 <!-- TODO: MARK physical books -->
+<!-- TODO: verify originals, wiki links -->
 
 This section contains a list of [[fiction]] books I'd like to read, and NOT
 include books related which I consider related to research or non-fiction.
-This list isn't contain all what I have read, so I just start tracking my
+This list isn't contained all what I have read, so I just start tracking my
 reading progress "recently".
 
 My special notation for books:
@@ -28,9 +28,89 @@ My special notation for books:
 - [!] `[!]` ** Would recommend**
 - [-] `[-]` Cancelled
 
-## Sci-Fi and Fantasy
+If the title of the author and book in Cyrillic and there tag this means I read
+it in [[Russian]] language, I also place original book information.
 
-- [/] Я робот
+Sections like classic, and sci-fi contains books with my own criteria (not 100%
+accurate genre).
+
+Books in subsequent sections usually available in my
+[[my_inventory##Kindle paperwhite|kindle paperwhite]].
+
+## Sci-Fi
+
+- [/] #ru Айзек Азимов. Я, робот.
+      Original: Isaac Asimov - I, Robot.
+- [ ] #ru Тигр! Тигр! (сборник) Альфред Бестер
+      Original: Alfred Bester - The Stars My Destination and others
+- [ ] #ru Филип К. Дик - Убик
+      Original: Philip K. Dick - Ubik
+- [ ] #ru Филип К. Дик - Мечтают ли андроиды об электроовцах?
+      Original: Philip K. Dick - Do Androids Dream of Electric Sheep?
+- [ ] #ru Курт Воннегут - Сирены Титана
+      Original: Kurt Vonnegut Jr. - The Sirens of Titan
+- [ ] #ru Питер Уоттс - Ложная слепота (сборник)
+      Original: Peter Watts - Blindsight
+- [p] #ru Джон Уиндем - День триффидов
+      Original: John Wyndham - The Day of the Triffids
+- [!] #ru Антуан де Сент-Экзюпери - [[Ekzyuperi-Malenkij_Princz|Маленький Принц]]
+      Original: Antoine de Saint-Exupéry - Le Petit Prince
+
+## Classic
+
+- [/] #ru Михаил Юрьевич Лермонтов - Герой нашего времени
+
+## Fantasy
+
+- [/] Eliezer Yudkowsky - [Harry Potter and the Methods of Rationality](https://github.com/rrthomas/hpmor)
+      I read long time ago translation in [[Russian]] (maybe partially), I want
+      to read it again.
+
+- [/] Book 1. Harry Potter and the Sorcerer’s Stone (1997)
+- [ ] Book 2. Harry Potter and the Chamber of Secrets (1998)
+- [ ] Book 3. Harry Potter and the Prisoner of Azkaban (1999)
+- [ ] Book 4. Harry Potter and the Goblet of Fire (2000)
+- [ ] Book 5. Harry Potter and the Order of the Phoenix (2003)
+- [ ] Book 6. Harry Potter and the Half-Blood Prince (2005)
+- [ ] Book 7. Harry Potter and the Deathly Hallows (2007)
+- [ ] Book 8. Harry Potter and the Cursed Child (2016)
+
+## Recommendations and inbox
+
+- [Greater Books](http://www.greaterbooks.com/shortlist.html)
+- [The New York Public Library - Digital Collections](https://digitalcollections.nypl.org/)
+- [LibriVox | free public domain audiobooks](https://librivox.org/)
+- [Лаборатория Фантастики](https://fantlab.ru/)
+- [Произведения — Ф-Навигатор](https://f-navigator.rgub.ru/?page_id=20)
+- [Project Gutenberg](https://www.gutenberg.org/)
+- [reading - FREEMEDIAHECKYEAH](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/reading/#wiki_.25B7_pdf_search)
+- [A science fiction novel flowchart](https://x.com/future_is_meow/status/1043042205479395328)
+  ![[./img/ref-Science_fiction_novel_flowchart.jpg]]
+- [A Guide to Navigating NPR's Top 100 Science Fiction and Fantasy Books](https://archive.org/details/NPRFlowchart)
+  ![[./img/ref-NPR_science_and_fantasy_fiction_flowchart.jpg]]
+
+If you have book recommendations for me, please [create a Pull
+Request](https://github.com/iturdikulov/notes/edit/main/my_fiction_books.md)
+adding a link at the end of this note.
+
+### Classic books inbox
+
+- [ ] [Hitchhiker's Guide to the Galaxy](https://amzn.to/3fN2iiI), I read this
+- [ ] [A Confederacy of Dunces](https://amzn.to/1SCZ0xz)
+- [ ] [Animal Farm and 1984](https://amzn.to/1SCYYpr)
+- [ ] [Thing Explainer <sub>Complicated Stuff in Simple Words</sub>](https://amzn.to/1PMIWqm)
+
+- [ ] На Западном фронте без перемен
+- [ ] Божественная комедия. Данте Алигьери
+- [ ] Приключения шерлока холмса
+- [ ] Война и мир
+- [ ] [[Detskaya_literatura-Biblioteka_mirovoj_literatury_dlya_detej|Библиотека мировой литературы для детей]]
+- [ ] [[Ekzyuperi-CZitadel|Цитадель]]
+- [ ] Кафка?
+- [ ] [Как закалялась сталь](https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D0%BA_%D0%B7%D0%B0%D0%BA%D0%B0%D0%BB%D1%8F%D0%BB%D0%B0%D1%81%D1%8C_%D1%81%D1%82%D0%B0%D0%BB%D1%8C)
+
+- [ ] Iliad and the Odyssey
+- [ ] [[Laozi-Tao_Te_Ching]]
 - [ ] Война миров
 - [ ] [Все книги из игр Morrowind и Skyrim! БИБЛИОТЕКА ТАМРИЭЛЯ. Аудиокнига. Том 1](file:///home/inom/Arts_and_Entertainment/audiovisual/audiobook/morrowind_and_skyrim_audioknigi/tom_1_yt_BwHTYGtEnIw.m4a)
 - [ ] Конец вечности
@@ -44,44 +124,88 @@ My special notation for books:
 - [ ] Лабиринт отражений
 - [ ] [Таинственный остров](https://ru.wikipedia.org/wiki/%D0%A2%D0%B0%D0%B8%D0%BD%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9_%D0%BE%D1%81%D1%82%D1%80%D0%BE%D0%B2)
 - [ ] Лю Цысинь (Оробчук Сергей) – Задача трех тел (с музыкальным сопровождением)
-- [!] [[Ekzyuperi-Malenkij_Princz|Маленький Принц (The Little Prince)]]
-- [p] Джон Уиндем - День триффидов. Эмоциональное повествование про ослепший мир и выживание человечества. 8.5 из 10.
 
-## Science, philosophy, psychology
+- [ ] East of Eden
+- [ ] 100 Years of Solitude
+- [ ] Flowers for Algernon
+- [ ] The Picture of Dorian Gray
+- [ ] Mother Night
+- [ ] All Quiet on the Western Front
+
+### Science books inbox
 
 - [ ] Ружья, микробы и сталь. История человеческих сообществ
 - [ ] [ADHD 2.0: New Science and Essential Strategies for Thriving with Distraction](https://www.amazon.com/ADHD-2-0-Essential-Strategies-Distraction/dp/B08775GG3K/)
 - [ ] xkcd: volume 0
-- [ ] Iliad and the Odyssey
-- [ ] [[Laozi-Tao_Te_Ching]]
 
-## Classic literature, history, detective
+- [*] [A Brief History of Time](https://amzn.to/1PMITec)
+- [*] [Life's Edge <sub>The Search for What It Means to Be Alive</sub>](https://amzn.to/3xhG4xF)
+- [*] [The Selfish Gene](https://amzn.to/3lidNzN)
+- [ ] [Sapiens <sub>A Brief History of Humankind</sub>](https://amzn.to/37eIP6s)
+- [ ] [On the Origin of Species](https://amzn.to/37gCoQf)
+- [ ] [An Enquiry Concerning Human Understanding <sub>_and_ Hume's Abstract of A Treatise of Human Nature _and_ A Letter from a Gentleman to His Friend in Edinburgh</sub>](https://amzn.to/3dvk2PS)
+- [ ] [Entangled Life <sub>How Fungi Make Our Worlds, Change Our Minds & Shape Our Futures</sub>](https://amzn.to/33mPM47)
+- [ ] [Lifespan <sub>The Revolutionary Science of Why We Age – and Why We Don’t Have To</sub>](https://amzn.to/3q9u0KZ)
+- [ ] [Reality Is Not What It Seems <sub>The Journey to Quantum Gravity</sub>](https://amzn.to/3n2nCEb)
+- [ ] [Why We Sleep <sub>Unlocking the Power of Sleep and Dreams</sub>](https://amzn.to/2Vdhg7X)
 
-- [ ] Лермонтов - Герой нашего времени
-- [ ] На Западном фронте без перемен
-- [ ] Божественная комедия. Данте Алигьери
-- [ ] Приключения шерлока холмса
-- [ ] Война и мир
-- [ ] [[Detskaya_literatura-Biblioteka_mirovoj_literatury_dlya_detej|Библиотека мировой литературы для детей]]
-- [ ] [[Ekzyuperi-CZitadel|Цитадель]]
-- [ ] Кафка?
-- [ ] [Как закалялась сталь](https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D0%BA_%D0%B7%D0%B0%D0%BA%D0%B0%D0%BB%D1%8F%D0%BB%D0%B0%D1%81%D1%8C_%D1%81%D1%82%D0%B0%D0%BB%D1%8C)
+### Computer science and programming books inbox
 
+- [ ] [Getting Real <sub>The Smarter, Faster, Easier Way to Build a Successful Web Application</sub>](https://amzn.to/1SD1FHK)
+- [ ] [Refactoring: Improving the Design of Existing Code](https://amzn.to/1S6Z49J)
+- [ ] [The Clean Coder <sub>A Code of Conduct for Professional Programmers</sub>](https://amzn.to/1S6YGrH)
+- [ ] [Becoming a Technical Leader <sub>An Organic Problem-Solving Approach</sub>](https://amzn.to/1S6XLHD)
+- [ ] [Clean Code <sub>A Handbook of Agile Software Craftsmanship</sub>](https://amzn.to/1S6YFnH)
+- [ ] [Domain-Driven Design <sub>Tackling Complexity in the Heart of Software</sub>](https://amzn.to/1S6WwIL)
 
-## Recommendations
+- [*] [Programming Pearls](https://amzn.to/1SD1fRH)
+- [ ] [Hacker's Delight](https://amzn.to/1S6WsIQ)
+- [ ] [Head First Design Patterns](https://amzn.to/1S6XaGb)
+- [ ] [Code Complete <sub>A Practical Handbook of Software Construction</sub>](https://amzn.to/1PhS8R3)
 
-If you have book recommendations for me, please [create a Pull
-Request](https://github.com/iturdikulov/notes/edit/main/my_fiction_books.md)
-adding a link at the end of this note.
+- [*] [Programming Collective Intelligence <sub>Building Smart Web 2.0 Applications</sub>](https://amzn.to/1S6WH6L)
 
-![[./img/ref-Science_fiction_novel_flowchart.jpg]]
-_[A science fiction novel flowchart](https://x.com/future_is_meow/status/1043042205479395328)_
+- [*] [Elasticsearch <sub>The Definitive Guide</sub>](https://amzn.to/2a71l4z)
+- [ ] [Understanding MySQL Internals](https://amzn.to/1S6WT5P)
+- [ ] [NoSQL Distilled <sub>A Brief Guide to the Emerging World of Polyglot Persistence</sub>](https://amzn.to/1S6W5xP)
 
-![[./img/ref-NPR_science_and_fantasy_fiction_flowchart.jpg]]
-_[A Guide to Navigating NPR's Top 100 Science Fiction and Fantasy Books](https://archive.org/details/NPRFlowchart)_
+- [ ] [JavaScript: The Good Parts](https://amzn.to/1SD1gVz)
+- [ ] [Programming Elixir <sub>`Functional |> Concurrent |> Pragmatic |> Fun`</sub>](https://amzn.to/1PMIVmv)
+- [ ] [Advanced Programming in the UNIX Environment](https://amzn.to/1S6VLiD)
+- [ ] [Beginning Ruby <sub>From Novice to Professional</sub>](https://amzn.to/1S6WVee)
+- [ ] [Eloquent JavaScript <sub>A Modern Introduction to Programming</sub>](https://amzn.to/1S6VxrX)
+- [ ] [Learn You a Haskell for Great Good! <sub>A Beginner's Guide</sub>](https://amzn.to/1SD1koq)
+- [ ] [Learning Python](https://amzn.to/1S6XiFt)
+- [ ] [The Art of UNIX Programming](https://amzn.to/1PMISXS)
 
+- [ ] [CLR via C#](https://amzn.to/1PhSuHf)
+- [ ] [Mastering Regular Expressions](https://amzn.to/1SD0Ezx)
+- [ ] [Compilers: Principles, Techniques, and Tools](https://amzn.to/1SD1YCe)
 
-### Businesses / Decision-making
+- [*] [High Performance Browser Networking <sub>What every web developer should know about networking and web performance</sub>](https://amzn.to/1S6Vo7O)
+- [ ] [Designing for Performance <sub>Weighing Aesthetics and Speed</sub>](https://amzn.to/1SCZ0hj)
+- [ ] [Even Faster Web Sites <sub>Performance Best Practices for Web Developers</sub>](https://amzn.to/1SCYY9b)
+- [ ] [High Performance JavaScript <sub>Build Faster Web Application Interfaces</sub>](https://amzn.to/1PMIWXs)
+- [ ] [High Performance Web Sites <sub>Essential Knowledge for Front-End Engineers</sub>](https://amzn.to/1PMIVCQ)
+
+- [*] [About Face <sub>The Essentials of Interaction Design _(3rd edition)_</sub>](https://amzn.to/1SD0KXQ)
+- [*] [Don't Make Me Think <sub>A Common Sense Approach to Web Usability</sub>](https://amzn.to/1SD00SB)
+- [*] [The Design of Everyday Things](https://amzn.to/1SD0MyZ)
+- [*] [The Inmates Are Running the Asylum <sub>Why High Tech Products Drive Us Crazy and How to Restore the Sanity</sub>](https://amzn.to/1S6X80P)
+- [ ] [Defensive Design for the Web <sub>How to improve error messages, help, forms, and other crisis points</sub>](https://amzn.to/1S6XMeX)
+- [ ] [Lean UX <sub>Applying Lean Principles to Improve User Experience</sub>](https://amzn.to/1S6V4WA)
+- [ ] [The Visual Display of Quantitative Information](https://amzn.to/3arEcbw)
+
+- [ ] [CSS Secrets <sub>Better Solutions to Everyday Web Design Problems</sub>](https://amzn.to/1PMIVml)
+
+- [*] [Inspired <sub>How To Create Products Customers Love</sub>](https://amzn.to/1SD1EDE)
+- [ ] [Hooked <sub>How to Build Habit-Forming Products</sub>](https://amzn.to/1SCZ0h2)
+
+- [*] [The Accidental Masterpiece <sub>On the Art of Life and Vice Versa</sub>](https://amzn.to/1SCYXSE)
+- [*] [What Are You Looking At? <sub>The Surprising, Shocking, and Sometimes Strange Story of 150 Years of Modern Art</sub>](https://amzn.to/1SCYY90)
+- [ ] [How Buildings Learn <sub>What Happens After They're Built</sub>](https://amzn.to/1SCYQX0)
+
+### Management books inbox
 
 - [*] [Business Adventures <sub>Twelve Classic Tales from the World of Wall Street</sub>](https://amzn.to/2aaljeT)
 - [*] [Only the Paranoid Survive](https://amzn.to/33pV2nM)
@@ -108,8 +232,6 @@ _[A Guide to Navigating NPR's Top 100 Science Fiction and Fantasy Books](https:/
 - [ ] [The Everything Store <sub>Jeff Bezos and the Age of Amazon</sub>](https://amzn.to/3tVxwJy)
 - [ ] [The Undoing Project <sub>A Friendship That Changed Our Minds</sub>](https://amzn.to/396mPvK)
 
-### Leadership / Management
-
 - [*] [An Elegant Puzzle <sub>Systems of Engineering Management</sub>](https://amzn.to/3hnQd5y)
 - [*] [High Output Management](https://amzn.to/3mjrbVB)
 - [*] [The Manager's Path <sub>A Guide for Tech Leaders Navigating Growth and Change</sub>](https://amzn.to/3mvu31P)
@@ -123,21 +245,15 @@ _[A Guide to Navigating NPR's Top 100 Science Fiction and Fantasy Books](https:/
 - [ ] [The Effective Executive <sub>The Definitive Guide to Getting the Right Things Done</sub>](https://amzn.to/3ohyxdN)
 - [ ] [The Ride of a Lifetime <sub>Lessons Learned from 15 Years as CEO of the Walt Disney Company</sub>](https://amzn.to/2J8giHT)
 
-### Teamwork
-
 - [*] [The Five Dysfunctions of a Team <sub>A Leadership Fable</sub>](https://amzn.to/37jNF2b)
 - [*] [The Mythical Man-Month <sub>Essays on Software Engineering</sub>](https://amzn.to/1PhScjL)
 - [ ] [Peopleware <sub>Productive Projects and Teams</sub>](https://amzn.to/1SD1j3S)
 - [ ] [Rapid Development <sub>Taming Wild Software Schedules</sub>](https://amzn.to/1SD1rAv)
 
-### Marketing / Sales / Negotiation
-
 - [*] [How to Win Friends & Influence People](https://amzn.to/1SCZ0h6)
 - [ ] [Crossing the Chasm <sub>Marketing and Selling Disruptive Products to Mainstream Customers</sub>](https://amzn.to/1SCZnIs)
 - [ ] [Positioning <sub>The Battle for Your Mind</sub>](https://amzn.to/39jmibo)
 - [ ] [The Win Without Pitching Manifesto](https://amzn.to/1SD0k3G)
-
-### Economics / Capitalism / Money
 
 - [*] [A Random Walk Down Wall Street <sub>The Time-Tested Strategy for Successful Investing</sub>](https://amzn.to/2Vg33Hk)
 - [*] [Stubborn Attachments <sub>A Vision for a Society of Free, Prosperous, and Responsible Individuals</sub>](https://amzn.to/3ypmZtW)
@@ -156,83 +272,7 @@ _[A Guide to Navigating NPR's Top 100 Science Fiction and Fantasy Books](https:/
 - [ ] [The Internet of Money, Vol II <sub>A collection of talks by Andreas M. Antonopoulos</sub>](https://amzn.to/3bsFkw5)
 - [ ] [The Internet of Money, Vol III <sub>A collection of talks by Andreas M. Antonopoulos</sub>](https://amzn.to/3bu39nc)
 
-### Development Philosophy
-
-- [ ] [Getting Real <sub>The Smarter, Faster, Easier Way to Build a Successful Web Application</sub>](https://amzn.to/1SD1FHK)
-- [ ] [Refactoring: Improving the Design of Existing Code](https://amzn.to/1S6Z49J)
-- [ ] [The Clean Coder <sub>A Code of Conduct for Professional Programmers</sub>](https://amzn.to/1S6YGrH)
-- [ ] [Becoming a Technical Leader <sub>An Organic Problem-Solving Approach</sub>](https://amzn.to/1S6XLHD)
-- [ ] [Clean Code <sub>A Handbook of Agile Software Craftsmanship</sub>](https://amzn.to/1S6YFnH)
-- [ ] [Domain-Driven Design <sub>Tackling Complexity in the Heart of Software</sub>](https://amzn.to/1S6WwIL)
-
-### Algorithms
-
-- [*] [Programming Pearls](https://amzn.to/1SD1fRH)
-- [ ] [Hacker's Delight](https://amzn.to/1S6WsIQ)
-- [ ] [Head First Design Patterns](https://amzn.to/1S6XaGb)
-- [ ] [Code Complete <sub>A Practical Handbook of Software Construction</sub>](https://amzn.to/1PhS8R3)
-
-### AI
-
-- [*] [Programming Collective Intelligence <sub>Building Smart Web 2.0 Applications</sub>](https://amzn.to/1S6WH6L)
-
-### Databases / Search
-
-- [*] [Elasticsearch <sub>The Definitive Guide</sub>](https://amzn.to/2a71l4z)
-- [ ] [Understanding MySQL Internals](https://amzn.to/1S6WT5P)
-- [ ] [NoSQL Distilled <sub>A Brief Guide to the Emerging World of Polyglot Persistence</sub>](https://amzn.to/1S6W5xP)
-
-### Programming Languages
-
-- [ ] [JavaScript: The Good Parts](https://amzn.to/1SD1gVz)
-- [ ] [Programming Elixir <sub>`Functional |> Concurrent |> Pragmatic |> Fun`</sub>](https://amzn.to/1PMIVmv)
-- [ ] [Advanced Programming in the UNIX Environment](https://amzn.to/1S6VLiD)
-- [ ] [Beginning Ruby <sub>From Novice to Professional</sub>](https://amzn.to/1S6WVee)
-- [ ] [Eloquent JavaScript <sub>A Modern Introduction to Programming</sub>](https://amzn.to/1S6VxrX)
-- [ ] [Learn You a Haskell for Great Good! <sub>A Beginner's Guide</sub>](https://amzn.to/1SD1koq)
-- [ ] [Learning Python](https://amzn.to/1S6XiFt)
-- [ ] [The Art of UNIX Programming](https://amzn.to/1PMISXS)
-
-### Compilers
-
-- [ ] [CLR via C#](https://amzn.to/1PhSuHf)
-- [ ] [Mastering Regular Expressions](https://amzn.to/1SD0Ezx)
-- [ ] [Compilers: Principles, Techniques, and Tools](https://amzn.to/1SD1YCe)
-
-### Web Performance
-
-- [*] [High Performance Browser Networking <sub>What every web developer should know about networking and web performance</sub>](https://amzn.to/1S6Vo7O)
-- [ ] [Designing for Performance <sub>Weighing Aesthetics and Speed</sub>](https://amzn.to/1SCZ0hj)
-- [ ] [Even Faster Web Sites <sub>Performance Best Practices for Web Developers</sub>](https://amzn.to/1SCYY9b)
-- [ ] [High Performance JavaScript <sub>Build Faster Web Application Interfaces</sub>](https://amzn.to/1PMIWXs)
-- [ ] [High Performance Web Sites <sub>Essential Knowledge for Front-End Engineers</sub>](https://amzn.to/1PMIVCQ)
-
-### User Experience / Interaction Design / Usability
-
-- [*] [About Face <sub>The Essentials of Interaction Design _(3rd edition)_</sub>](https://amzn.to/1SD0KXQ)
-- [*] [Don't Make Me Think <sub>A Common Sense Approach to Web Usability</sub>](https://amzn.to/1SD00SB)
-- [*] [The Design of Everyday Things](https://amzn.to/1SD0MyZ)
-- [*] [The Inmates Are Running the Asylum <sub>Why High Tech Products Drive Us Crazy and How to Restore the Sanity</sub>](https://amzn.to/1S6X80P)
-- [ ] [Defensive Design for the Web <sub>How to improve error messages, help, forms, and other crisis points</sub>](https://amzn.to/1S6XMeX)
-- [ ] [Lean UX <sub>Applying Lean Principles to Improve User Experience</sub>](https://amzn.to/1S6V4WA)
-- [ ] [The Visual Display of Quantitative Information](https://amzn.to/3arEcbw)
-
-### Web Design
-
-- [ ] [CSS Secrets <sub>Better Solutions to Everyday Web Design Problems</sub>](https://amzn.to/1PMIVml)
-
-### Product Design
-
-- [*] [Inspired <sub>How To Create Products Customers Love</sub>](https://amzn.to/1SD1EDE)
-- [ ] [Hooked <sub>How to Build Habit-Forming Products</sub>](https://amzn.to/1SCZ0h2)
-
-### Art / Architecture / Design
-
-- [*] [The Accidental Masterpiece <sub>On the Art of Life and Vice Versa</sub>](https://amzn.to/1SCYXSE)
-- [*] [What Are You Looking At? <sub>The Surprising, Shocking, and Sometimes Strange Story of 150 Years of Modern Art</sub>](https://amzn.to/1SCYY90)
-- [ ] [How Buildings Learn <sub>What Happens After They're Built</sub>](https://amzn.to/1SCYQX0)
-
-### On Thinking / Behavioralism / Way of Life
+### IRL books inbox
 
 - [*] [Antifragile <sub>Things That Gain from Disorder</sub>](https://amzn.to/1PMIVmz)
 - [*] [Man's Search for Meaning](https://amzn.to/3hBnYkz)
@@ -249,13 +289,9 @@ _[A Guide to Navigating NPR's Top 100 Science Fiction and Fantasy Books](https:/
 - [ ] [The Happiness Hypothesis <sub>Finding Modern Truth in Ancient Wisdom</sub>](https://amzn.to/3oblTvX)
 - [ ] [The Upside of Stress <sub>Why Stress Is Good for You, and How to Get Good at It</sub>](https://amzn.to/3eRcdos)
 
-### On Writing
-
 - [*] [The Sense of Style <sub>The Thinking Person's Guide to Writing in the 21st Century</sub>](https://amzn.to/1PMIQz5)
 - [ ] [Nicely Said <sub>Writing for the Web with Style and Purpose</sub>](https://amzn.to/1PMIWXE)
 - [ ] [On Writing Well <sub>The Classic Guide to Writing Nonfiction</sub>](https://amzn.to/1PMIWqx)
-
-### Personalities / Inspiration
 
 - [*] [Countdown to Zero Day <sub>Stuxnet and the Launch of the World's First Digital Weapon</sub>](https://amzn.to/1SCZIv0)
 - [*] [Masters of Doom <sub>How Two Guys Created an Empire and Transformed Pop Culture</sub>](https://amzn.to/1PMISXI)
@@ -271,51 +307,13 @@ _[A Guide to Navigating NPR's Top 100 Science Fiction and Fantasy Books](https:/
 - [ ] [The Cathedral & the Bazaar <sub>Musings on Linux and Open Source by an Accidental Revolutionary</sub>](https://amzn.to/1SCYY93)
 - [ ] [The Dream Machine <sub>J.C.R. Licklider and the Revolution That Made Computing Personal</sub>](https://amzn.to/3liX5Af)
 
-### Sciences
-
-- [*] [A Brief History of Time](https://amzn.to/1PMITec)
-- [*] [Life's Edge <sub>The Search for What It Means to Be Alive</sub>](https://amzn.to/3xhG4xF)
-- [*] [The Selfish Gene](https://amzn.to/3lidNzN)
-- [ ] [Sapiens <sub>A Brief History of Humankind</sub>](https://amzn.to/37eIP6s)
-- [ ] [On the Origin of Species](https://amzn.to/37gCoQf)
-- [ ] [An Enquiry Concerning Human Understanding <sub>_and_ Hume's Abstract of A Treatise of Human Nature _and_ A Letter from a Gentleman to His Friend in Edinburgh</sub>](https://amzn.to/3dvk2PS)
-- [ ] [Entangled Life <sub>How Fungi Make Our Worlds, Change Our Minds & Shape Our Futures</sub>](https://amzn.to/33mPM47)
-- [ ] [Lifespan <sub>The Revolutionary Science of Why We Age – and Why We Don’t Have To</sub>](https://amzn.to/3q9u0KZ)
-- [ ] [Reality Is Not What It Seems <sub>The Journey to Quantum Gravity</sub>](https://amzn.to/3n2nCEb)
-- [ ] [Why We Sleep <sub>Unlocking the Power of Sleep and Dreams</sub>](https://amzn.to/2Vdhg7X)
-
-### Politics / History
-
 - [ ] [SPQR <sub>A History of Ancient Rome</sub>](https://amzn.to/3tzHtNJ)
 - [ ] [The Dictator's Handbook <sub>Why Bad Behavior Is Almost Always Good Politics</sub>](https://amzn.to/3xayd4Q)
 - [ ] [The Powerful and the Damned <subPrivate Diaries in Turbulent Times</sub>](https://amzn.to/3tKVUhK)
 - [ ] [The Wires of War <sub>Technology and the Global Struggle for Power</sub>](https://amzn.to/31XRqMj)
-
-### Education / Culture
 
 - [ ] [The Culture Map <sub>Breaking Through the Invisible Boundaries of Global Business</sub>](https://amzn.to/3q7BcHD)
 - [ ] [Difficult Conversations](https://amzn.to/3EQFbiK)
 - [ ] [How Children Fail](https://amzn.to/2Ji2RoH)
 - [ ] [Nonviolent Communication: A Language of Life <sub>Life-Changing Tools for Healthy Relationships</sub>](https://amzn.to/2KQhH6j)
 - [ ] [Prepared <sub>What Kids Need for a Fulfilled Life</sub>](https://amzn.to/2Vab9Bv)
-
-### Novels
-
-- [ ] [Hitchhiker's Guide to the Galaxy](https://amzn.to/3fN2iiI)
-- [ ] [A Confederacy of Dunces](https://amzn.to/1SCZ0xz)
-- [ ] [Animal Farm and 1984](https://amzn.to/1SCYYpr)
-
-### Comics / Casual Reads
-
-- [ ] [Thing Explainer <sub>Complicated Stuff in Simple Words</sub>](https://amzn.to/1PMIWqm)
-
-## External links
-
-- [The New York Public Library - Digital Collections](https://digitalcollections.nypl.org/)
-- [LibriVox | free public domain audiobooks](https://librivox.org/)
-- [Лаборатория Фантастики](https://fantlab.ru/)
-- [Произведения — Ф-Навигатор](https://f-navigator.rgub.ru/?page_id=20)
-- [Project Gutenberg](https://www.gutenberg.org/)
-- [reading - FREEMEDIAHECKYEAH](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/reading/#wiki_.25B7_pdf_search)
-- Library G
-- Audiobookbay
