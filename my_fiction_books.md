@@ -15,9 +15,9 @@ sr-ease: 227
 <!-- TODO: verify originals, wiki links -->
 
 This section contains a list of [[fiction]] books I'd like to read, and NOT
-include books related which I consider related to research or non-fiction.
-This list isn't contained all what I have read, so I just start tracking my
-reading progress "recently".
+include books related which I consider related to research or non-fiction. This
+list isn't contained all what I have read, so I just start tracking my reading
+progress "recently".
 
 My special notation for books:
 
@@ -34,27 +34,25 @@ it in [[Russian]] language, I also place original book information.
 Sections like classic, and sci-fi contains books with my own criteria (not 100%
 accurate genre).
 
-Books in subsequent sections usually available in my
-[[my_inventory##Kindle paperwhite|kindle paperwhite]].
+Books in subsequent sections usually available in my [[my_inventory##Kindle
+paperwhite|kindle paperwhite]].
 
 ## Sci-Fi
 
-- [/] #ru Айзек Азимов. Я, робот.
-      Original: Isaac Asimov - I, Robot.
-- [ ] #ru Тигр! Тигр! (сборник) Альфред Бестер
-      Original: Alfred Bester - The Stars My Destination and others
-- [ ] #ru Филип К. Дик - Убик
-      Original: Philip K. Dick - Ubik
-- [ ] #ru Филип К. Дик - Мечтают ли андроиды об электроовцах?
-      Original: Philip K. Dick - Do Androids Dream of Electric Sheep?
-- [ ] #ru Курт Воннегут - Сирены Титана
-      Original: Kurt Vonnegut Jr. - The Sirens of Titan
-- [ ] #ru Питер Уоттс - Ложная слепота (сборник)
-      Original: Peter Watts - Blindsight
-- [p] #ru Джон Уиндем - День триффидов
-      Original: John Wyndham - The Day of the Triffids
-- [!] #ru Антуан де Сент-Экзюпери - [[Ekzyuperi-Malenkij_Princz|Маленький Принц]]
-      Original: Antoine de Saint-Exupéry - Le Petit Prince
+- [/] #ru Айзек Азимов. Я, робот. Original: Isaac Asimov - I, Robot.
+- [ ] #ru Тигр! Тигр! (сборник) Альфред Бестер Original: Alfred Bester - The
+      Stars My Destination and others
+- [ ] #ru Филип К. Дик - Убик Original: Philip K. Dick - Ubik
+- [ ] #ru Филип К. Дик - Мечтают ли андроиды об электроовцах? Original: Philip
+      K. Dick - Do Androids Dream of Electric Sheep?
+- [ ] #ru Курт Воннегут - Сирены Титана Original: Kurt Vonnegut Jr. - The Sirens
+      of Titan
+- [ ] #ru Питер Уоттс - Ложная слепота (сборник) Original: Peter Watts -
+      Blindsight
+- [p] #ru Джон Уиндем - День триффидов Original: John Wyndham - The Day of the
+  Triffids
+- [!] #ru Антуан де Сент-Экзюпери - [[Ekzyuperi-Malenkij_Princz|Маленький
+  Принц]] Original: Antoine de Saint-Exupéry - Le Petit Prince
 
 ## Classic
 
@@ -62,9 +60,10 @@ Books in subsequent sections usually available in my
 
 ## Fantasy
 
-- [/] Eliezer Yudkowsky - [Harry Potter and the Methods of Rationality](https://github.com/rrthomas/hpmor)
-      I read long time ago translation in [[Russian]] (maybe partially), I want
-      to read it again.
+- [/] Eliezer Yudkowsky -
+  [Harry Potter and the Methods of Rationality](https://github.com/rrthomas/hpmor)
+  I read long time ago translation in [[Russian]] (maybe partially), I want to
+  read it again.
 
 - [/] Book 1. Harry Potter and the Sorcerer’s Stone (1997)
 - [ ] Book 2. Harry Potter and the Chamber of Secrets (1998)
@@ -89,8 +88,8 @@ Books in subsequent sections usually available in my
 - [A Guide to Navigating NPR's Top 100 Science Fiction and Fantasy Books](https://archive.org/details/NPRFlowchart)
   ![[./img/ref-NPR_science_and_fantasy_fiction_flowchart.jpg]]
 
-If you have book recommendations for me, please [create a Pull
-Request](https://github.com/iturdikulov/notes/edit/main/my_fiction_books.md)
+If you have book recommendations for me, please
+[create a Pull Request](https://github.com/iturdikulov/notes/edit/main/my_fiction_books.md)
 adding a link at the end of this note.
 
 ### Classic books inbox
@@ -104,7 +103,8 @@ adding a link at the end of this note.
 - [ ] Божественная комедия. Данте Алигьери
 - [ ] Приключения шерлока холмса
 - [ ] Война и мир
-- [ ] [[Detskaya_literatura-Biblioteka_mirovoj_literatury_dlya_detej|Библиотека мировой литературы для детей]]
+- [ ] [[Detskaya_literatura-Biblioteka_mirovoj_literatury_dlya_detej|Библиотека
+      мировой литературы для детей]]
 - [ ] [[Ekzyuperi-CZitadel|Цитадель]]
 - [ ] Кафка?
 - [ ] [Как закалялась сталь](https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D0%BA_%D0%B7%D0%B0%D0%BA%D0%B0%D0%BB%D1%8F%D0%BB%D0%B0%D1%81%D1%8C_%D1%81%D1%82%D0%B0%D0%BB%D1%8C)
@@ -123,7 +123,8 @@ adding a link at the end of this note.
 - [ ] Территория — роман Олега Куваева
 - [ ] Лабиринт отражений
 - [ ] [Таинственный остров](https://ru.wikipedia.org/wiki/%D0%A2%D0%B0%D0%B8%D0%BD%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9_%D0%BE%D1%81%D1%82%D1%80%D0%BE%D0%B2)
-- [ ] Лю Цысинь (Оробчук Сергей) – Задача трех тел (с музыкальным сопровождением)
+- [ ] Лю Цысинь (Оробчук Сергей) – Задача трех тел (с музыкальным
+      сопровождением)
 
 - [ ] East of Eden
 - [ ] 100 Years of Solitude
