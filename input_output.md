@@ -33,9 +33,9 @@ other computers (via a network) or the outside world. <!--SR:!2024-10-26,29,237-
 Some examples of I/O operations:
 &#10;<br>
 - [[HTTP_and_HTTPS_and_TLS|HTTP]] requests (sending/receiving data over network)
-- access to database
-- reading/writing files
-- printing to screen <!--SR:!2024-09-07,4,236-->
+- access to [[database]]
+- reading/writing [[file|files]]
+- [[printf_format_string|Printing]] to screen <!--SR:!2024-09-07,4,236-->
 
 Important aspects of I/O are ==throughput, latency==, and whether the
 communications are synchronous or asynchronous (using some kind of buffer). <!--SR:!2024-09-07,5,236-->
