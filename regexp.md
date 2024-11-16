@@ -277,133 +277,119 @@ Anchors are of two types:
 
 - Caret `^` that checks if the matching character is the first character of the
 input.
+    - `^a` match line start with `a`.
+    - `^(T|t)he` match line start with `The` or `the` (first char `t` or `T`,
+  then `he`).
 - Dollar sign `$` which checks if a matching character is the last character of
 the input string.
+    - `(at\.)$` matches `at.` in the end of the string.
 
-The caret symbol `^` is used to check if a matching character is the first character
-of the input string. If we apply the following regular expression `^a` (meaning 'a' must be
-the starting character) to the string `abc`, it will match `a`. But if we apply
-the regular expression `^b` to the above string, it will not match anything.
-Because in the string `abc`, the "b" is not the starting character. Let's take a look
-at another regular expression `^(T|t)he` which means: an uppercase `T` or
-a lowercase `t` must be the first character in the string, followed by a
-lowercase `h`, followed by a lowercase `e`.
 
-The caret symbol `^` is used to check if a matching character is the first
-character of the input string. If we apply the following regular expression `^a`
-(meaning 'a' must be the starting character) to the string `abc`, it will match
-`a`. But if we apply the regular expression `^b` to the above string, it will
-not match anything. Because in the string `abc`, the "b" is not the starting
-character. Let's take a look at another regular expression `^(T|t)he` which
-means: an uppercase `T` or a lowercase `t` must be the first character in the
-string, followed by a lowercase `h`, followed by a lowercase `e`.
-
-"(T|t)he" => The car is parked in the garage.
-
-[Test the regular expression](https://regex101.com/r/5ljjgB/1)
-
-"^(T|t)he" => The car is parked in the garage.
-
-[Test the regular expression](https://regex101.com/r/jXrKne/1)
-
-The dollar sign `$` is used to check if a matching character is the last
-character in the string. For example, the regular expression `(at\.)$` means: a
-lowercase `a`, followed by a lowercase `t`, followed by a `.` character and the
-matcher must be at the end of the string.
-
-"(at\.)" => The fat cat. sat. on the mat.
-
-[Test the regular expression](https://regex101.com/r/y4Au4D/1)
-
-"(at\.)$" => The fat cat. sat. on the mat.
-
-[Test the regular expression](https://regex101.com/r/t0AkOd/1)
+    /\(T\|t\)he
+    The car is parked in the garage.
+    /\(at\.\)$
+    The fat cat. sat. on the mat.
 
 ## 3. Shorthand character sets
 
-There are a number of convenient shorthands for commonly used character sets/
+There are a number of convenient shorthand's for commonly used character sets/
 regular expressions:
 
-| Shorthand | Description                                      |
-| :-------: | ------------------------------------------------ |
-|     .     | Any character except new line                    |
-|    \w     | Matches alphanumeric characters: `[a-zA-Z0-9_]`  |
-|    \W     | Matches non-alphanumeric characters: `[^\w]`     |
-|    \d     | Matches digits: `[0-9]`                          |
-|    \D     | Matches non-digits: `[^\d]`                      |
-|    \s     | Matches whitespace characters: `[\t\n\f\r\p{Z}]` |
-|    \S     | Matches non-whitespace characters: `[^\s]`       |
+- ` .`::Any character except new line
+- `\w`::Matches alphanumeric characters: `[a-zA-Z0-9_]`
+- `\W`::Matches non-alphanumeric characters: `[^\w]`
+- `\d`::Matches digits: `[0-9]`
+- `\D`::Matches non-digits: `[^\d]`
+- `\s`::Matches whitespace characters: `[\t\n\f\r\p{Z}]`
+- `\S`::Matches non-whitespace characters: `[^\s]`
+
+<!-- TODO: test with some regex test tool -->
 
 ## 4. Lookarounds
 
-Lookbehinds and lookaheads (also called lookarounds) are specific types of
-_**non-capturing groups**_ (used to match a pattern but without including it in
-the matching list). Lookarounds are used when a pattern must be preceded or
-followed by another pattern. For example, imagine we want to get all numbers
-that are preceded by the `$` character from the string `$4.44 and $10.88`. We
-will use the following regular expression `(?<=\$)[0-9\.]*` which means: get all
-the numbers which contain the `.` character and are preceded by the `$`
-character. These are the lookarounds that are used in regular expressions:
+`Lookbehinds` and `lookaheads` (also called `lookarounds`) are specific types of
+==non-capturing== groups, they are used to match a pattern but without including
+it in the matching list.
 
-| Symbol | Description         |
-| :----: | ------------------- |
-|   ?=   | Positive Lookahead  |
-|   ?!   | Negative Lookahead  |
-|  ?<=   | Positive Lookbehind |
-|  ?<!   | Negative Lookbehind |
+Lookarounds are used when a pattern must be preceded or followed by another
+pattern (something before or after your match).
+
+Example: get all numbers that are preceded by the `$` character from the string
+`$4.44 and $10.88`, we use `(?<=\$)[0-9\.]*` regular expression.
+Get all the numbers which contain the `.` character and are preceded by the `$`
+character.
+
+These are the lookarounds that are used in regular expressions:
+
+- `?=` lookahead::positive lookahead
+- `?!` lookahead::negative lookahead
+- `?<=` lookbehind::positive lookbehind
+- `?<!` lookbehind::negative lookbehind
 
 ### 4.1 Positive lookahead
 
-The positive lookahead asserts that the first part of the expression must be
-followed by the lookahead expression. The returned match only contains the text
-that is matched by the first part of the expression. To define a positive
-lookahead, parentheses are used. Within those parentheses, a question mark with
-an equals sign is used like this: `(?=...)`. The lookahead expressions is
-written after the equals sign inside parentheses. For example, the regular
-expression `(T|t)he(?=\sfat)` means: match either a lowercase `t` or an
-uppercase `T`, followed by the letter `h`, followed by the letter `e`. In
-parentheses we define a positive lookahead which tells the regular expression
-engine to match `The` or `the` only if it's followed by the word `fat`.
+The positive lookahead asserts that the ==first part== of the expression `A`,
+must be followed by the lookahead expression `B`, `A(?=B)`.
 
-"(T|t)he(?=\sfat)" => The fat cat sat on the mat.
+The returned match only contains the text that is matched by the first part of
+the expression. To define a positive lookahead, parentheses are used. Within
+those parentheses, a question mark with an equals sign is used like this:
+`(?=...)`.
 
-[Test the regular expression](https://regex101.com/r/IDDARt/1)
+The lookahead expressions is written after the equals sign inside parentheses.
+For example, the regular expression `(T|t)he(?=\sfat)` means: match either a
+lowercase `t` or an uppercase `T`, followed by the letter `h`, followed by the
+letter `e`. In parentheses, we define a positive lookahead which tells the
+regular expression engine to match `The` or `the` only if it's followed by the
+space character and word `fat`.
+
+```sh
+echo 'The fat cat sat on the mat.'|rg -Po '[T|t]he(?=\sfat)'
+# `The`
+```
 
 ### 4.2 Negative lookahead
 
 Negative lookaheads are used when we need to get all matches from an input
-string that are not followed by a certain pattern. A negative lookahead is
-written the same way as a positive lookahead. The only difference is, instead of
-an equals sign `=`, we use an exclamation mark `!` to indicate negation i.e.
-`(?!...)`. Let's take a look at the following regular expression
-`(T|t)he(?!\sfat)` which means: get all `The` or `the` words from the input
-string that are not followed by a space character and the word `fat`.
+string that are ==not followed by== a certain pattern.
 
-"(T|t)he(?!\sfat)" => The fat cat sat on the mat.
+A negative lookahead is written the same way as a positive lookahead. The only
+difference is, instead of an equals sign ==`=`==, we use an exclamation mark `!`
+to indicate negation i.e. `(?!...)`.
 
-[Test the regular expression](https://regex101.com/r/V32Npg/1)
+Let's take a look at the following regular expression `(T|t)he(?!\sfat)` which
+means: get all `The` or `the` words from the input string that are not followed
+by a space character and the word `fat`.
+
+```sh
+echo 'The fat cat sat on the mat.'|rg -Po '[T|t]he(?!\sfat)'
+```
 
 ### 4.3 Positive lookbehind
 
-Positive lookbehinds are used to get all the matches that are preceded by a
-specific pattern. Positive lookbehinds are written `(?<=...)`. For example, the
-regular expression `(?<=(T|t)he\s)(fat|mat)` means: get all `fat` or `mat` words
-from the input string that come after the word `The` or `the`.
+Positive lookbehind's are used to get ==all the matches== that are preceded by a
+specific pattern.
 
-"(? The fat cat sat on the mat.
+Positive lookbehind's are written `(?<=...)`. For example, the regular
+expression `(?<=(T|t)he\s)(fat|mat)` means: get all `fat` or `mat` words from
+the input string that come after the word `The` or `the`.
 
-[Test the regular expression](https://regex101.com/r/avH165/1)
+```sh
+echo 'The fat cat sat on the mat.'|rg -Po '(?<=[T|t]he\s)(fat|mat)'
+```
 
 ### 4.4 Negative lookbehind
 
-Negative lookbehinds are used to get all the matches that are not preceded by a
-specific pattern. Negative lookbehinds are written `(?<!...)`. For example, the
-regular expression `(?<!(T|t)he\s)(cat)` means: get all `cat` words from the
-input string that are not after the word `The` or `the`.
+Negative lookbehind's are used to get all the matches that are ==not preceded==
+by a specific pattern.
 
-"(?&lt;!(T|t)he\s)(cat)" => The cat sat on cat.
+Negative lookbehind's are written `(?<!...)`. For example, the regular
+expression `(?<!(T|t)he\s)(cat)` means: get all `cat` words from the input
+string that are not after the word `The` or `the`.
 
-[Test the regular expression](https://regex101.com/r/8Efx5G/1)
+```sh
+echo 'The cat sat on cat.'|rg -Po '(?<![T|t]he\s)(cat)'
+```
 
 ## 5. Flags
 
@@ -413,61 +399,62 @@ integral part of the RegExp.
 
 | Flag | Description                                             |
 | :--: | ------------------------------------------------------- |
-|  i   | Case insensitive: Match will be case-insensitive.       |
-|  g   | Global Search: Match all instances, not just the first. |
-|  m   | Multiline: Anchor meta characters work on each line.    |
+| `i`  | Case insensitive: Match will be case-insensitive.       |
+| `g`  | Global Search: Match all instances, not just the first. |
+| `m`  | Multiline: Anchor meta characters work on each line.    |
 
-### 5.1 Case insensitive
+### 5.1 Case insensitive flag
 
-The `i` modifier is used to perform case-insensitive matching. For example, the
-regular expression `/The/gi` means: an uppercase `T`, followed by a lowercase
-`h`, followed by an `e`. And at the end of regular expression the `i` flag tells
-the regular expression engine to ignore the case. As you can see, we also
-provided `g` flag because we want to search for the pattern in the whole input
-string.
+The `i` modifier is used to perform ==case-insensitive== matching.
 
-"The" => The fat cat sat on the mat.
+For example, the regular expression `/The/gi` means: an uppercase `T`, followed
+by a lowercase `h`, followed by a `e`. And at the end of regular expression the
+`i` flag tells the regular expression engine to **ignore the case**. As you can
+see, we also provided `g` flag because we want to search for the pattern in the
+whole input string.
 
-[Test the regular expression](https://regex101.com/r/dpQyf9/1)
+```sh
+# We use rigpgrep options for /gi flags
+echo 'The fat cat sat on the mat.'|rg --ignore-case -oP 'The'
+```
 
-"/The/gi" => The fat cat sat on the mat.
+### 5.2 Global search flag
 
-[Test the regular expression](https://regex101.com/r/ahfiuh/1)
+The `g` modifier is used to perform a ==global== match (finds all matches rather
+than stopping after the first match).
 
-### 5.2 Global search
+For example, the regular expression`/.(at)/g` means: any character except a new
+line, followed by a lowercase `a`, followed by a lowercase `t`. Because we
+provided the `g` flag at the end of the regular expression, it will now find all
+matches in the input string, not just the first one (which is the default
+behavior).
 
-The `g` modifier is used to perform a global match (finds all matches rather
-than stopping after the first match). For example, the regular
-expression`/.(at)/g` means: any character except a new line, followed by a
-lowercase `a`, followed by a lowercase `t`. Because we provided the `g` flag at
-the end of the regular expression, it will now find all matches in the input
-string, not just the first one (which is the default behavior).
+```sh
+printf "The fat cat sat on the mat."|rg -Po '.(at)'
+```
 
-"/.(at)/" => The fat cat sat on the mat.
+### 5.3 Multiline flag
 
-[Test the regular expression](https://regex101.com/r/jnk6gM/1)
+The `m` modifier is used to perform a ==multi-line== match.
 
-"/.(at)/g" => The fat cat sat on the mat.
-
-[Test the regular expression](https://regex101.com/r/dO1nef/1)
-
-### 5.3 Multiline
-
-The `m` modifier is used to perform a multi-line match. As we discussed earlier,
-anchors `(^, $)` are used to check if a pattern is at the beginning of the input
+Anchors `(^, $)` are used to check if a pattern is at the beginning of the input
 or the end. But if we want the anchors to work on each line, we use the `m`
-flag. For example, the regular expression `/at(.)?$/gm` means: a lowercase `a`,
+flag.
+
+For example, the regular expression `/at(.)?$/gm` means: a lowercase `a`,
 followed by a lowercase `t` and, optionally, anything except a new line. And
 because of the `m` flag, the regular expression engine now matches patterns at
 the end of each line in a string.
 
-"/.at(.)?$/" => The fat cat sat on the mat.
-
-[Test the regular expression](https://regex101.com/r/hoGMkP/1)
-
 "/.at(.)?$/gm" => The fat cat sat on the mat.
-
 [Test the regular expression](https://regex101.com/r/E88WE2/1)
+
+```sh
+output="The fat\n"
+output+="cat sat\n"
+output+="on the mat.\n"
+printf "$output"|rg --multiline -Po '.at(.)?$'
+```
 
 ## 6. Greedy vs lazy matching
 
@@ -475,13 +462,12 @@ By default, a regex will perform a greedy match, which means the match will be
 as long as possible. We can use `?` to match in a lazy way, which means the
 match should be as short as possible.
 
-"/(.*at)/" => The fat cat sat on the mat.
-
-[Test the regular expression](https://regex101.com/r/AyAdgJ/1)
-
-"/(.*?at)/" => The fat cat sat on the mat.
-
-[Test the regular expression](https://regex101.com/r/AyAdgJ/2)
+```sh
+echo 'The fat
+cat sat
+on the mat.' > /tmp/rgt
+cat /tmp/rgt|rg -Po '.at(.)?$'
+```
 
 ## External links
 
