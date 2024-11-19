@@ -3,15 +3,18 @@ date: 2023-04-17
 tags:
   - inbox
   - base
+external:
+  - https://github.com/ziishaned/learn-regex
 sr-due: 2024-01-29
 sr-interval: 2
 sr-ease: 228
 ---
 
-# Regular expression (regex, regexp, rational expression)
+# Regular expression (regex, RegExp, rational expression)
 
-What is a regular expression?
-&#10;<br>
+Group of characters used to find a specific pattern in a text. Search is done
+from left to right.
+
 > Sequence of characters that specifies a match pattern in text. Usually such
 > patterns are used by string-searching algorithms for "find" or "find and
 > replace" operations on strings, or for input validation. Regular expression
@@ -19,44 +22,45 @@ What is a regular expression?
 > language theory.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Regular_expression)</cite>
 
-Group of characters used to find a specific pattern in a text. Search is done
-from left to right.
+Typical use-case of regex is replacing text within a string, validate forms
+inputs, extract a substring from string, etc.
 
-The key information source of this note content taken from [Learn regex the easy
-way](https://github.com/ziishaned/learn-regex) repo.
+For example, the regular expression `^[a-z0-9_-]{3,15}$`, with it, we can accept
+the strings `john_doe`, `jo-hn_doe` and `john12_as`.
 
-Typical use-case of regex is replacing text within a string, validate forms,
-extract a substring from string, etc.
+It does not match `Jo` because that string contains an uppercase letter, and
+also it is too short. And it's one of problem with regex, you need to **know all
+edge cases** for name, `Jo` can be valid name! So need to use regex very
+carefully.
 
 ![[./img/regexp_example.excalidraw]]
 _Example of a regular expression_
 
-The regular expression above can accept the strings `john_doe`, `jo-hn_doe` and
-`john12_as`.
-
-It does not match `Jo` because that string contains an uppercase
-letter, and also it is too short. And it's one of problem with regex, you need
-to know all edge cases for name, `Jo` can be valid name! So need to use regex
-very carefully.
-
 Lines started with `/` in examples are inviting you to test regex expression in
 [[Neovim]] with search command. For improve interactivity experience need to
 configure some options (if they aren't default ones):
-```
-:setlocal noignorecase
-:setlocal nosmartcase
+
+```vim
 :setlocal hlsearch
 :nnoremap <silent> <cr> :noh<cr><cr>
+
+:setlocal noignorecase
+:setlocal nosmartcase
+
 ```
 
-Use `\%V` prefix to search in visual selection.
+If you need to search in Neovim visual selections, use `\%V` prefix:
+
+```vim
+/\%Vfoo
+```
 
 ## 1. Basic matchers
 
 A regular expression is just a pattern of characters that we use to perform a
 search in a text. For example, the regular expression `the` means:
 &#10;<br>
-the letter `t`, followed by the letter `h`, followed by the letter `e`.
+Search the letter `t`, followed by the letter `h`, followed by the letter `e`.
 
     /the or /The
     The fat cat sat on the mat.
@@ -72,31 +76,34 @@ instead are ==interpreted== in some special way. The meta characters are as
 follows:
 
 - `.` - Period matches any single character except a ==line break==.
-- `[a]` - Character class, matches ==any character== contained between the square
-brackets.
-- `[^a]` - Negated character class. Matches any character that is not contained
-between the square brackets.
-- `-` - Matches 0 or more repetitions of the preceding symbol.
-- `*` - Matches 1 or more repetitions of the preceding symbol.
-- `?` - Makes the preceding symbol optional.
-- `{n,m}` - Braces. Matches at least "n" but not more than "m" repetitions of the
-preceding symbol.
-- `(xyz)` - Character group. Matches the characters xyz in that exact order.
-- `|` - Alternation. Matches either the characters before or the characters
-  after the symbol.
-- `\` - Escapes the next character. This allows you to match reserved
+- `[a]` - Character class, matches ==any character== contained between the
+  square brackets.
+- `[^a]` - Negated character class. Matches any character that
+  ==is not contained== between the square brackets.
+- `-` - Matches 0 or more repetitions of the ==preceding== symbol, outside
+  certain contexts (character set for example, `[aA-zZ]`) have not special
+  meaning.
+- `*` - Matches 0 or more repetitions of the ==preceding== symbol (greedy).
+- `?` - Makes the preceding symbol ==optional==.
+- `{n,m}` - Braces. Matches at ==least `n` but not more than `m`== repetitions
+  of the preceding symbol.
+- `(xyz)` - Character group. Matches the characters `xyz` in that
+  ==exact order==.
+- `|` - Alternation. Matches either the characters ==before or the characters
+  after the symbol==.
+- `\` - ==Escapes== the next character. This allows you to match reserved
   characters `[ ] ( ) { } . * + ? ^ $ \ |`
-- `^` - Matches the beginning of the input.
-- `$` - Matches the end of the input.
+- `^` - Matches the ==beginning== of the input.
+- `$` - Matches the ==end== of the input.
 
 ### 2.1 The full stop meta character
 
-The meta character `.` matches any single character. It will not match return or
-newline characters. For example, the regular expression `.ar` means: any
-character, followed by the letter `a`, followed by the letter `r`.
+The meta character `.` matches any single character. It will not match
+==return or newline characters==. For example, the regular expression `.ar`
+means: any character, followed `ar` sequence.
 
     /.ar
-    ".ar" => The car parked in the garage.
+    The car parked in the garage.
 
 ### 2.2 Character sets
 
@@ -106,31 +113,34 @@ characters' range.
 
 The order of the character range inside the square brackets ==doesn't matter==.
 
-For example, the regular expression `[Tt]he` means: an uppercase
-`T` or lowercase `t`, followed by the letter `h`, followed by the letter `e`.
+For example, the regular expression `[Tt]he` means:
+&#10;<br>
+Find words that start with `T` or `t` followed by `he` sequence.
+
+The regular expression `ar[.]` means:
+&#10;<br>
+`ar` sequence followed by a period (`.`) character.
 
     /[Tt]he
+    /[ce.]
     The car parked in the garage.
-
-A period (`.`) inside a character set, however, means a ==literal period==.
-
-The regular expression `ar[.]` means: a lowercase character `a`, followed by the
-letter `r`, followed by a period `.` character.
 
     "ar[.]"
     A garage is a good place to park a car.
 
+A period (`.`) inside a character set, however, means a ==literal period==.
+
 Negated Character Sets in general, the caret symbol `^` represents the start of
-the string, but when it is typed after the opening square bracket it negates the
-character set. For example, the regular expression `[^c]ar` means: ==any==
-character except `c`, followed by the character `a`, followed by the letter `r`.
+the string, but when it is typed after the opening square bracket it ==negates==
+the character set.
+
+For example, the regular expression `[^c]ar` means: ==any==
+character except `c`, followed by `ar` sequence.
 
      /[^c]ar
      The car parked in the garage.
 
 ### 2.3 The star repetition
-
-<!-- TODO: not sure that I'm fully understand how is "*" really works -->
 
 The `*` symbol matches zero or more repetitions of the ==preceding== matcher.
 
@@ -468,6 +478,9 @@ cat sat
 on the mat.' > /tmp/rgt
 cat /tmp/rgt|rg -Po '.at(.)?$'
 ```
+
+The key information source of this note content taken from [Learn regex the easy
+way](https://github.com/ziishaned/learn-regex) repo.
 
 ## External links
 
