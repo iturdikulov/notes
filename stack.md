@@ -10,6 +10,8 @@ sr-ease: 222
 
 # Stack (abstract data type)
 
+What is a stack?
+&#10;<br>
 > In [[computer_science]], a **stack** is an [[ADT]] that serves as a
 > [[collection]] of elements, with two main operations:
 >
@@ -18,6 +20,19 @@ sr-ease: 222
 >   removed.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Stack_\(abstract_data_type\))</cite>
 
+Example of stack of layers:
+
+           ____________ precedence
+          / LIFO      / | high
+      31 /___________// |
+      30 /___________// |
+      29 /___________/  |
+       :   _:_:_:_:_:__ |
+       :  / : : : : : / |
+       2 /___________// |
+       1 /___________// |
+       0 /_FILO______/  V low
+
 ## References
 
-- [ ] [Stacks - Basic Data Structures | Coursera](https://www.coursera.org/lecture/data-structures/stacks-UdKzQ)
+- [ ] [Stacks - Coursera](https://www.coursera.org/lecture/data-structures/stacks-UdKzQ)
