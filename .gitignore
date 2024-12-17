@@ -1,5 +1,6 @@
 # Temprory files
 .stversions/
+.stfolder/
 .trash/
 .venv/
 .obsidian/
