@@ -19,6 +19,8 @@ Here is high-level diagram of my routine:
 ![[./img/daily_routine_chunks.excalidraw]]
 _My daily routine_
 
+TODO: review
+
 ## 1. Wake up
 
 Good checklist for wake-up:
@@ -100,7 +102,7 @@ It's also good time for [[life]] activities.
 ## 8. Relax
 
 You need to give your bran and mind some time to relax. At this time I can
-consume some [[media]], read [[my_fiction_books|fiction books]], listen music,
+consume some [[media]], read [[my_books|fiction books]], listen music,
 etc.
 
 Some tasks before sleep:
@@ -114,3 +116,14 @@ Some tasks before sleep:
 Don't forget about yourself and don't try to make longer your day (this is bad
 idea). Try to start sleep maximum at 00:00 (with some preparations before),
 breath deeply and keep thinking about something good.
+
+
+## Tips
+
+1. Sleep is key, synchronize with circadian rhytm clocks.
+2. Get (5-10mins) natural light in eyes within 1 hour of waking up.
+3. Try to increase Dophamine through your daily routine.
+4. Go easy after wake-up: hydrate, some light exercise, physical activities,
+   cold shower.
+5. Pain is rewareded with pleasure, don't be afraid to do something booring but
+   useful.

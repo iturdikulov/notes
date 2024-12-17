@@ -16,6 +16,8 @@ in separate notes.
 
 Check also [[shell_script#My shell scripts]] and [[dotfiles]].
 
+To understand custom bullet list types check [[my_notation]] note.
+
 ## Arts and entertainment
 
 ### [[book|Books]] and [[document|documents]]
@@ -24,6 +26,7 @@ Check also [[shell_script#My shell scripts]] and [[dotfiles]].
 - [[KOReader]] - E-book reader.
 - [[Zathura]] - E-book and documents viewer.
 - [[XournalPP]] - PDF annotations and note-taking.
+- [[xodo]] - PDF annotations and note-taking (I use it in mobile devices).
 
 Archive:
 
@@ -111,7 +114,7 @@ lightweight containers.
 - [[sc-im]] - Vim-like spreadsheet calculator/editor.
 
 - [locust](https://locust.io/) - Load testing tool.
-- [jq](https://stedolan.github.io/jq/) - like sed for JSON data.
+- [[jq]]
 - [xsv](https://github.com/BurntSushi/xsv) - Indexing, slicing, analyzing,
   splitting and joining CSV files.
 
@@ -132,6 +135,8 @@ lightweight containers.
 - [entr](https://github.com/eradman/entr) - Run arbitrary commands when files
   change.
 - [tesseract](https://tesseract-ocr.github.io/) - Command-line OCR engine.
+- [breezedeus/Pix2Text](https://github.com/breezedeus/pix2text) - recognizing
+  layouts, tables, math formulas (LaTeX), and text in images
 - [[SQLite]] - Full-featured, SQL database engine.
 - [parallel](https://www.gnu.org/software/parallel/) - Build and execute shell
   command lines from standard input in parallel.
@@ -193,6 +198,11 @@ calculations in command line and as a tool for scripts.
 time for a single application.
 - [detox](https://github.com/dharple/detox) - Tames problematic filenames.
 
+
+systemd-ihibit - Execute a program with an inhibition lock taken
+systemd-inhibit wodim foobar.iso
+This burns the ISO image foobar.iso on a CD using wodim(1), and inhibits system sleeping, shutdown and idle while doing so.
+
 Archive:
 
 - [[Pycharm]] - IDE for Python
@@ -245,6 +255,11 @@ dependencies](https://github.com/ocornut/imgui)
 - [ ] dmidecode.
 - [ ] lshw.
 - [ ] geekbench
+- [ ] bench
+- [ ] [Topaz Labs | Professional-grade photo and video editing powered by AI.](https://www.topazlabs.com/)
+- [ ] [Our New Nix Deployment Tool: deploy-rs](https://serokell.io/blog/deploy-rs)
+- [ ] [GitHub - FarisR99/IMLCGui: Intel Memory Latency Checker GUI](https://github.com/FarisR99/IMLCGui)
+- [ ] [mitmproxy - an interactive HTTPS proxy](https://mitmproxy.org/)
 
 ## Reference
 
@@ -270,6 +285,9 @@ dependencies](https://github.com/ocornut/imgui)
 - [Klavaro](https://klavaro.sourceforge.io/en/index.html) - Touch Typing Tutor.
 - [Alacritty](https://alacritty.org/) - A cross-platform, GPU-accelerated
   terminal emulator
+
+- [[MangoHud]]
+- [[gamescope]]
 
 ## To-do
 

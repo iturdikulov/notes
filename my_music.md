@@ -17,6 +17,10 @@ sr-ease: 212
 > human societies, a cultural universal.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Music)</cite>
 
+To understand custom bullet list types check [[my_notation]] note.
+
+TODO: group by album, genere.
+
 ## Tracks
 
 - [ ] ~~tidal & sound server~~

@@ -10,32 +10,58 @@ sr-ease: 252
 
 # My movies, which I watched and want to watch
 
+TODO: wrap in links.
+
 I started track of movies I watched in 2022. So this list is of course
 incomplete.
 
-My special notation for movies:
+To understand custom bullet list types check [[my_notation]] note.
 
-- [ ] `[ ]` Haven't watched yet
-- [x] `[x]` Finished watching, liked it
-- [!] `[!]` ** Would recommend**
-- [-] `[-]` Cancelled
+## Now
 
-## The Fill-In Filmography
 
-Good inspiration for watching movies.
+## Archive
 
-> A massive mapping of cinematic genres (with representative movies for each
-> category), this big-screen behemoth is fully customizable to reflect your
-> personal tastes—just grab a pencil and fill in the circle next to each film to
-> mark it as “Loved It,” “Liked It,” or merely “Watched It”! Whether your prefer
-> Period Pieces, Musicals, or tales of Haunted Dolls, there’s something here for
-> cinephiles of every sort.\
-> — <cite>[popchart](https://popchart.co/products/the-fill-in-filmography)</cite>
+### Movies
 
-![The Fill-In Filmography](img/The_Fill-In_Filmography.webp)
+- [x] ВАЛЛ·И (2008), sensitive, happy end, for children, 8/10
+- [x] [Гандахар: Световые годы
+  (1988)](https://www.youtube.com/watch?v=njpeVDkE27Y)
+- [x] Невероятный мир глазами Энцо, dramatic, family movie 9.2/10
+- [x] Sicario (2015), after second watch less emotional/interesting, 8.5/10
+- [x] Голый пистолет, after second watch less funny, but overall good, 8.1/10
+- [x] Опенгеймер, a lot of historical information, a little bit boring (for me),
+  7.8/10
+- [x] Прогулка с Богами: Два мира / Along with the Gods: The Two Worlds
+  Sensitively and beautifully told story about the afterlife. 8.9/10
+- [p] The Hobbit: An Unexpected Journey (2012), 9.1/10
+- [p] Lord of the Rings: The Fellowship of the Ring (2001) Medieval motifs,
+  fantasy, magic, RPG! 9.85/10.
+- [p] Кунг-фу Панда / Kung Fu Panda (2008). Tigress animations are very good.
+  Humor also good. 9.1/10
+- [p] Кунг-фу Панда 2 / Kung Fu Panda 2 (2011). Probably a little bit weaker
+  than previous movie. But very sensitive. 9/10
+- [p] Матрица (1999) 9.3/10, в целом отлично, некоторые моменты уже устарели
+- [p] Меланхолия (фильм, 2011), depressive a little, but not a lot for me. Make
+  me think about life. 9.1/10
+- [p] Интерстеллар (2014) 9/10
 
-## To watch/rewatch
+### Shows and series
 
+- [x] Моб Психо 8/10
+- [x] [Доктор Стоун (сериал 2019)](https://www.kinopoisk.ru/series/1249511)
+- [x] Поднятие уровня в одиночку, Сезон 1, 8.9/10
+- [c] Другой мир не может противостоять силе мгновенной смерти, Сезон 1, 5/10
+- [x] [Castlevania (TV Series 2017–2021) -
+  IMDb](https://www.imdb.com/title/tt6517102/), Seasons 1-2 are better than 3-4,
+  7/10
+- [x] Экипаж 314 (сериал, 1-2 сезоны), 2021, nice, but became boring at some
+  point 7/10.
+
+## Inbox
+
+- [ ] Джентльмены
+- [ ] Однажды, двадцать лет спустя (1980)
 - [ ] [Тихое место фильм, 2018](https://www.kinopoisk.ru/film/1044906/?utm_referrer=www.google.com))
 - [ ] The Never Ending Story
 - [ ] день курка
@@ -62,46 +88,10 @@ Good inspiration for watching movies.
 - [ ] [Человек дождя фильм, 1988](https://www.kinopoisk.ru/film/519/)
 - [ ] Остров Джованни (2014)
 
-- [x] [Гандахар: Световые годы (1988)](https://www.youtube.com/watch?v=njpeVDkE27Y)
-- [x] [Математик и черт](https://www.youtube.com/watch?v=52yhBkkulXw)
-- [x] The Hobbit: An Unexpected Journey (2012), 9.1/10
-- [x] Невероятный мир глазами Энцо, dramatic, family movie 9.2/10
-- [x] Sicario (2015), after second watch less emotional/interesting, 8.5/10
-- [x] Голый пистолет, after second watch less funny, but overall good, 8.1/10
-- [x] Опенгеймер, a lot of historical information, a little bit boring (for me), 7.8/10
-- [x] Lord of the Rings: The Fellowship of the Ring (2001) Medieval motifs,
-      fantasy, magic, RPG! 9.85/10
-- [x] Прогулка с Богами: Два мира / Along with the Gods: The Two Worlds
-      Sensitively and beautifully told story about the afterlife. 8.9/10
-- [!] Матрица (1999) 9.3/10, в целом отлично, некоторые моменты уже устарели
-- [!] Меланхолия (фильм, 2011), depressive a little, but not a lot for me. Make
-  me think about life. 9.1/10
-- [!] Интерстеллар (2014) 9/10
-
-## Anime, Cartoons, Animated movies
-
 - [ ] Маги: Лабиринт магии
-- [ ] Castelvania
 - [ ] Ведьмина служба доставки
 - [ ] Лесная братва (2006)
 - [ ] [Лучший в мире ассасин переродился в другом мире аристократом](https://www.kinopoisk.ru/series/4525166/)
-
-- [x] Моб Психо 8/10
-- [x] [Доктор Стоун (сериал 2019)](https://www.kinopoisk.ru/series/1249511)
-- [x] Кунг-фу Панда / Kung Fu Panda (2008). Tigress animations are very good.
-      Humor also good. 9.1/10
-- [x] Кунг-фу Панда 2 / Kung Fu Panda 2 (2011). Probably a little bit weaker
-      than previous movie. But very sensitive. 9/10
-- [x] Поднятие уровня в одиночку, Сезон 1, 8.9/10
-- [x] Другой мир не может противостоять силе мгновенной смерти, Сезон 1, 5/10
-- [x] ВАЛЛ·И (2008), sensitive, happy end, for children, 8/10
-
-## Series
-
-- [x] Экипаж 314 (сериал, 1-2 сезоны), 2021, nice, but became boring at some
-point 7/10.
-
-## Inbox
 
 - [ ] Реинкарнация безработного
 - [ ] Этот замечательный мир!
@@ -175,6 +165,22 @@ point 7/10.
 - [ ] [Фуриоса Хроники Безумного Макса фильм, 2024](https://www.kinopoisk.ru/film/1388409/?utm_referrer=www.google.com)
 - [ ] спектральный 2016
 
+The Fill-In Filmography:
+
+> A massive mapping of cinematic genres (with representative movies for each
+> category), this big-screen behemoth is fully customizable to reflect your
+> personal tastes—just grab a pencil and fill in the circle next to each film to
+> mark it as “Loved It,” “Liked It,” or merely “Watched It”! Whether your prefer
+> Period Pieces, Musicals, or tales of Haunted Dolls, there’s something here for
+> cinephiles of every sort.\
+> — <cite>[popchart](https://popchart.co/products/the-fill-in-filmography)</cite>
+
+![The Fill-In Filmography](img/The_Fill-In_Filmography.webp)
+
+User's ratings:
+
+- [lazutu's IMDb Rating list](https://www.imdb.com/user/ur22639893/ratings/?sort=top_rated%2Cdesc)
+- [NoZDR - ТОП-113 аниме от Реанимедиа](https://nzdr.ru/video/anime/top-113-anime-po-versii-reanimedia)
 
 ## External links
 
