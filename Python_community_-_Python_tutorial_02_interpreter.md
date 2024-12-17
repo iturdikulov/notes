@@ -50,4 +50,4 @@ Yes, if you need to set non UTF-8 encoding, use `# -*- coding: ENCODING_NAME
 # -*- coding: cp1251 -*-
 print("Здесь можно использовать кодировку cp1251")
 ```
-<!--SR:!2024-10-30,1,230-->
+<!--SR:!2024-11-21,5,230-->

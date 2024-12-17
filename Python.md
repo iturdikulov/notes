@@ -2,7 +2,7 @@
 date: 2022-12-29
 tags:
   - inbox
-  - Python
+  - SR-Python
 sr-due: 2022-01-28
 sr-interval: 6
 sr-ease: 182
@@ -13,19 +13,6 @@ sr-ease: 182
 > Python is a [[high-level_programming_language|high-level]], general-purpose
 > [[programming_language]]. Its design philosophy emphasizes code readability
 > with the use of significant indentation via the off-side rule.
->
-> Python is dynamically typed and garbage-collected. It supports multiple
-> programming paradigms, including structured (particularly procedural),
-> object-oriented and functional programming. It is often described as a
-> "batteries included" language due to its comprehensive standard library.
->
-> Guido_van_Rossum began working on Python in the late 1980s as a successor to
-> the ABC programming language and first released it in 1991 as Python 0.9.0.
-> Python 2.0 was released in 2000. Python 3.0, released in 2008, was a major
-> revision not completely backward-compatible with earlier versions.
->
-> Python consistently ranks as one of the [most popular programming
-> languages](https://www.tiobe.com/tiobe-index/).
 >
 > Python is a multi-paradigm programming language. [[OOP|object-oriented]]
 > programming and [[structured_programming]] are fully supported, and many of
@@ -66,13 +53,15 @@ It supports any popular [[programming_paradigm]]:
 - [[OOP|object-oriented]]
 - [[functional_programming|functional]]
 
-Rich [[Python_Community-Python_Standard_Library|standard library]] make
+Rich [[Python_community_-_Python_Standard_Library|standard library]] make
 it's "batteries included" language.
 
 In next sections I cover basics of Python language with Q/A flashcards based on
 learnxinyminutes [^1] cheatsheet.
 
-## 1. Primitive Datatypes and Operators
+## Learn Python in Y minutes
+
+### 1. Primitive Datatypes and Operators
 
 How to write comments, their types and usage?
 &#10;<br>
@@ -95,7 +84,7 @@ Pi = 3.141592653589793  # need to place two spaces for same line comments
 
 What is the result of this division `10.0 / 3`?
 &#10;<br>
-The result of division is always float, `10.0 / 3  => 3.3333333333333335` <!--SR:!2024-10-27,4,182-->
+The result of division is always float, `10.0 / 3  => 3.3333333333333335` <!--SR:!2024-11-27,12,202-->
 
 What is the modulo operation?
 &#10;<br>
@@ -107,7 +96,7 @@ print(8 % 3) # => 2
 # i % j have the same sign as j, unlike C
 print(-7 % 3)  # => 2
 ```
-<!--SR:!2024-10-27,2,162-->
+<!--SR:!2024-11-18,3,162-->
 
 What is exponentiation and how to use it in Python?
 &#10;<br>
@@ -123,7 +112,7 @@ Need to use parentheses:
 2 + 2 * 2    #  => 6
 (2 + 2) * 2  #  => 8
 ```
-<!--SR:!2024-11-14,7,182-->
+<!--SR:!2024-11-30,14,182-->
 
 ```
 5 // 3       # => 1
@@ -139,7 +128,7 @@ Boolean values, they are primitives (Note: the capitalization)
 True   # => True
 False  # => False
 ```
-` <!--SR:!2024-11-02,7,182-->
+` <!--SR:!2024-11-28,13,182-->
 
 How do you negate a Boolean value?
 &#10;<br>
@@ -148,7 +137,7 @@ With not.
 not True   # => False
 not False  # => True
 ```
-<!--SR:!2024-10-27,4,182-->
+<!--SR:!2024-11-27,11,202-->
 
 Boolean Operators in python?
 &#10;<br>
@@ -157,7 +146,7 @@ Boolean Operators in python?
 True and False  # => False
 False or True   # => True
 ```
-<!--SR:!2024-10-27,4,182-->
+<!--SR:!2024-11-25,11,202-->
 
 How do True and False relate to numerical values?
 &#10;<br>
@@ -196,8 +185,9 @@ bool(set())  # => False
 bool(4)      # => True
 bool(-6)     # => True
 ```
-<!--SR:!2024-10-26,4,182-->
+<!--SR:!2024-11-26,10,202-->
 
+TODO: need review
 How do boolean logical operators (and, or) on ints work (casting), bool(X)?
 &#10;<br>
 Using boolean logical operators (and/or) on ints casts them to booleans for evaluation,
@@ -229,7 +219,7 @@ Inequality is the `!=` operator.
 1 != 1  # => False
 2 != 1  # => True
 ```
-<!--SR:!2024-11-05,7,182-->
+<!--SR:!2024-11-28,14,182-->
 
 How to use more or less than operators in Python?
 &#10;<br>
@@ -239,7 +229,7 @@ How to use more or less than operators in Python?
 2 <= 2  # => True, 2 is less or equal to 2
 2 >= 2  # => True, 2 is greater or equal to 2
 ```
-<!--SR:!2024-10-27,4,182-->
+<!--SR:!2024-11-24,10,202-->
 
 How do you see whether a value is in a numeric range (1..100)?
 &#10;<br>
@@ -252,7 +242,7 @@ You can use following comparations:
 1 < 2 < 3  # => True
 2 < 3 < 2  # => False
 ```
-<!--SR:!2024-10-25,2,162-->
+<!--SR:!2024-11-21,5,182-->
 
 What is the difference between `is` and `==`?
 &#10;<br>
@@ -292,7 +282,7 @@ print(
     "world"             # => "Hello world"
 )
 ```
-<!--SR:!2024-11-11,4,162-->
+<!--SR:!2024-11-20,6,162-->
 
 Can be string treated like a list of characters?
 &#10;<br>
@@ -300,7 +290,7 @@ Can be string treated like a list of characters?
 # Yes, in python also no "char" type, type("s")
 "Hello world!"[0]  # => 'H'
 ```
-<!--SR:!2024-10-27,4,182-->
+<!--SR:!2024-11-22,7,182-->
 
 How do you find the length of a string or array?
 ```python
@@ -344,8 +334,9 @@ from types import FunctionType
 print(type(Person), isinstance(Person, type))
 print(type(test), isinstance(test, FunctionType))
 ```
-<!--SR:!2024-11-12,5,162-->
+<!--SR:!2024-11-24,8,162-->
 
+TODO: need review
 How do you compare objects to None and why?
 &#10;<br>
 `is` checks to see if the object is the same object, while `==` just checks if
@@ -369,7 +360,7 @@ a is None   # => False
 ```
 <!--SR:!2024-10-27,4,182-->
 
-## 2. Variables and Collections
+### 2. Variables and Collections
 
 What is the `print` function?
 &#10;<br>
@@ -385,7 +376,7 @@ How do you get input from the console?
 ```python
 input_string_var = input("Enter some data: ")  # Returns the data as a string
 ```
-<!--SR:!2024-10-26,4,182-->
+<!--SR:!2024-11-23,7,182-->
 
 Is there a declaration in Python (`cpython`)?
 &#10;<br>
@@ -398,7 +389,7 @@ snake_case style and not starting with number
 some_var = 5
 some_var  # => 5
 ```
-<!--SR:!2024-10-27,4,182-->
+<!--SR:!2024-11-25,10,202-->
 
 What happens if you access an unassigned variable?
 &#10;<br>
@@ -415,7 +406,7 @@ Equivalent of C's `?:` ternary operator.
 "yay!" if 0 > 1 else "nay!"  # => "nay!"
 "yay!" if 0 < 1 else "nay!"  # => "yay!"
 ```
-<!--SR:!2024-10-26,4,182-->
+<!--SR:!2024-11-23,7,182-->
 
 What are lists, how to create them?
 &#10;<br>
@@ -425,7 +416,7 @@ li = []
 # You can start with a prefilled list
 other_li = [4, 5, 6]
 ```
-<!--SR:!2024-11-05,7,182-->
+<!--SR:!2024-11-29,13,182-->
 
 How do you add elements to a list and remove them?
 &#10;<br>
@@ -460,7 +451,7 @@ index error:
 li = [1, 2, 3]
 li[4]  # Raises an IndexError
 ```
-<!--SR:!2024-10-25,2,187-->
+<!--SR:!2024-11-20,4,187-->
 
 How do you look at ranges in a list?
 Fill this list:
@@ -808,7 +799,7 @@ filled_set = some_set.copy()  # filled_set is {1, 2, 3, 4, 5}
 filled_set is some_set        # => False
 ```
 
-## 3. Control Flow and Iterables
+### 3. Control Flow and Iterables
 
 How to use control flow in Python?
 &#10;<br>
@@ -1030,8 +1021,7 @@ list(our_iterable)  # => Returns ["one", "two", "three"]
 list(our_iterator)  # => Returns [] because state is saved
 ```
 
-
-## 4. Functions
+### 4. Functions
 
 How to create Python function?
 &#10;<br>
@@ -1241,7 +1231,7 @@ add_10 = create_adder(10)
 {x: x**2 for x in range(5)}  # => {0: 0, 1: 1, 2: 4, 3: 9, 4: 16}
 ```
 
-## 5. Modules
+### 5. Modules
 
 How to import module, specific function from module, all from module (not
 recommended)?
@@ -1290,7 +1280,7 @@ import `math` module. This happens because the local directory has priority over
 Python's built-in libraries.
 
 
-## 6. Classes
+### 6. Classes
 
 What is a class, how to create it, class basic structure?
 &#10;<br>
@@ -1414,7 +1404,7 @@ del i.age
 ```
 
 
-## 6.1 Inheritance
+### 6.1 Inheritance
 
 What is inheritance for classes?
 &#10;<br>
@@ -1554,7 +1544,7 @@ if __name__ == "__main__":
     print("Am I Oscar eligible? " + str(sup.movie))
 ```
 
-## 6.2 Multiple Inheritance
+### 6.2 Multiple Inheritance
 
 ```python
 # Another class definition
@@ -1648,7 +1638,7 @@ if __name__ == "__main__":
     print("Can I fly? " + str(sup.fly))  # => Can I fly? False
 ```
 
-## 7. Advanced
+### 7. Advanced
 
 Sometimes you need to get values in chunks/by one, and you also don't want to
 get all of them for example (stop iteration early). This known as `lazy code`,
@@ -1692,9 +1682,11 @@ print(gen_to_list)  # => [-1, -2, -3, -4, -5]
 
 What is a decorator, how wrapper works?
 &#10;<br>
-Decorators are a form of syntactic sugar. They make code easier to read while
-accomplishing clunky syntax. Wrappers are one type of decorator. They're really
-useful for adding logging to existing functions without needing to modify them.
+Decorators are a form of syntactic sugar to make your code more concise,
+basically it's functions which modify the functionality of other functions. They
+make code easier to read while accomplishing clunky syntax. Wrappers are one
+type of decorator. For example, they're useful for adding logging to existing
+functions without needing to modify them. More info in [[Python_decorators]].
 ```python
 def log_function(func):  # we pass function into wrapper
     def wrapper(*args, **kwargs):

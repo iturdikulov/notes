@@ -60,7 +60,7 @@ print(active_users)
 ```
 
 `range(X)` function is sort of converting given length input to known array
-(`0,1,...,X-1`). It generates mathematics ==arithmetic progression==. <!--SR:!2024-11-14,27,220-->
+(`0,1,...,X-1`). It generates mathematics ==arithmetic progression==. <!--SR:!2025-02-07,84,240-->
 
 If fact `range()` function generate ==equal== to argument number (if passed only
 one) elements, we just start from 0 and increment by 1.
@@ -146,10 +146,10 @@ print(range(10))  # range(0, 10)
 
 What you will see with this code: `sum(range(4))`?
 &#10;<br>
-0 + 1 + 2 + 3 = 6 <!--SR:!2024-08-21,6,200-->
+0 + 1 + 2 + 3 = 6 <!--SR:!2024-11-28,12,200-->
 
 > The `break` statement, like in C, `breaks out` of the innermost enclosing
-> ==`for` or `while` loop==. <!--SR:!2024-08-08,30,238-->
+> ==`for` or `while` loop==. <!--SR:!2025-01-26,71,238-->
 
 <!-- NEXT: Review prime number detection algorithm, rewrite with `while` -->
 
@@ -439,7 +439,7 @@ match none_item:
     case None:
         print("None")  # <- None
 ```
-<!--SR:!2024-11-16,9,198-->
+<!--SR:!2024-11-21,5,178-->
 
 How to use named constants (`Enum`) in pattern matching?
 &#10;<br>
@@ -505,7 +505,7 @@ Why include docstring is recommended to make a habit?
 &#10;<br>
 There some tools, which produce online or printed documentation, or to let
 the user interactively browse through code. Also, many IDEs and editors
-support showing documentation based on this docstrings. <!--SR:!2024-07-15,5,238-->
+support showing documentation based on this docstrings. <!--SR:!2024-11-25,11,238-->
 
 Order of variable references looking (tables)?
 &#10;<br>
@@ -895,7 +895,7 @@ pairs # [(4, 'four'), (1, 'one'), (3, 'three'), (2, 'two')]
 ```
 
 Documentation Strings used to document
-==functions, methods, classes, and modules==. <!--SR:!2024-10-27,6,179-->
+==functions, methods, classes, and modules==. <!--SR:!2024-11-26,10,179-->
 
 Docstring code style, at least basic information?
 &#10;<br>
@@ -983,7 +983,7 @@ tremendously for that.
 core information:
 
 Python code style usually use 4-==space== indentation, and no tabs (compromise between small and large
-indentation). <!--SR:!2024-11-02,7,179-->
+indentation). <!--SR:!2024-12-03,18,199-->
 
 Wrap lines so that they don't exceed ==79== characters. Useful for small
 displays and also prevent you writing complex code.

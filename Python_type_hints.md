@@ -11,8 +11,12 @@ What is [[Python]] type hint?
 &#10;<br>
 Optional "type hints" (also called "type annotations"), special syntax that
 allow declaring the type of objects. By declaring types for your variables,
-editors and tools can give you better support and analyze your code. Type hints
-normally don't affect the runtime behavior of your code.
+editors and tools can give you better support and analyze your code.
+
+Do type hints affect the runtime behavior of your code?
+&#10;<br>
+Type hints normally don't affect the runtime behavior of your code. Think of
+type hints as similar to comments!
 
 Python has rich typing support, we can check related
 [Typing PEPs](https://peps.python.org/topic/typing/).
@@ -20,6 +24,17 @@ Python has rich typing support, we can check related
 In this note I collect some of the most important features, recipes related to
 type hints. Initial information is from [FastAPI python
 types](https://fastapi.tiangolo.com/python-types/) intro.
+
+I also have commented code with type hints examples and explanations:
+[python/type_hints.py](https://github.com/iturdikulov/python/blob/main/type_hints.py).
+
+## Type hints features
+
+- Editor provide additional support for type hints (autocomplete, analyze,
+etc.).
+- Type check for static analysis.
+- For libraries, type hints can be used to generate documentation, define
+requirements, convert data, validate data, document the API using OpenAPI.
 
 ## Basic examples
 
@@ -83,14 +98,95 @@ As Python advances, **newer versions** come with improved support for these type
 annotations and in many cases you won't even need to import and use the `typing`
 module to declare the type annotations.
 
-### List type
+### List and tuples type hints
 
 We can declare variable type as list of integers with following syntax:
 &#10;<br>
-`variable_name: list[int]`, in the brackets are type parameters. Usage in the
+`variable_name: list[str]`, in the brackets are type parameters. Usage in the
 function:
 ```python
-def process_items(items: list[str]):
+def process_items(items: list[str]):  # each list sequence item is a string
     for item in items:
-        print(item)
+        print(item)  # you can play with autocomplete here
+
+def process_items(items_t: tuple[int, int, str], items_s: set[bytes]):
+    """
+    Process items with type hints.
+
+    Args:
+        items_t: tuple with 3 items, an int, another int, and a str.
+        items_s: set of bytes.
+    """
+    return items_t, items_s
 ```
+
+### Dict type hints
+
+To define a `dict`, you pass ==2== type parameters, separated by commas (for key
+and value types).
+
+```python
+def process_items(prices: dict[str, float]):  # key/value type parameter
+    for item_name, item_price in prices.items():
+        print(item_name)
+        print(item_price)
+```
+
+### Union type hints
+
+You can declare that a variable can be any of several types, for example, a
+`int` or a `str`, `str` or `None`. In newer Python version we can use special
+union syntax, types separated by ==a vertical bar (`|`)==.
+
+```python
+def process_item(item: int | str):  # item could be an int or a str
+    print(item)
+
+def say_hi(name: str | None = None):  # item could be possible None
+  if name is not None:
+      print(f"Hey {name}!")
+  else:
+      print("Hello World")
+```
+
+## Classes as types
+
+You can also declare a class as the type of variable.
+
+```python
+class Person:
+    def __init__(self, name: str):
+        self.name = name
+
+
+def get_person_name(one_person: Person):
+    return one_person.name  # you can play with autocomplete here
+```
+
+## Metadata Annotations
+
+We can put additional metadata in type hints using `Annotated` (Python 3.9+).
+The first type parameter you pass to `Annotated` is the actual type. The rest,
+is just metadata for other tools.
+
+Python itself doesn't do anything with this `Annotated`. And for editors and
+other tools, the type is still ==`str`==. But you can use this space in
+`Annotated` to provide additional information for application for custom
+behavior.
+```python
+from typing import Annotated
+
+
+def say_hello(name: Annotated[str, "this is just metadata"]) -> str:
+    return f"Hello {name}"
+```
+
+## Custom libraries
+
+- [[Pydantic]]
+- [attrs](https://www.attrs.org/en/stable/)
+
+## External links
+
+- [ ] [typing — Support for type hints — Python documentation](https://docs.python.org/3/library/typing.html)
+- [ ] [mypy documentation](https://mypy.readthedocs.io/en/stable/index.html)

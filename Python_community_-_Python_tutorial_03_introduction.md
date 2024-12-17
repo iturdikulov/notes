@@ -35,6 +35,7 @@ print(5 ** 2)  # 5 squared, result is::25
 print(2 ** 7)  # 2 to the power of 7, result is::128
 ```
 
+TODO: need review
 What is floor division (or div), what are value of `(-11) // 4` ?
 &#10;<br>
 Mathematical *division* that rounds down to **nearest** integer. The floor
@@ -137,7 +138,7 @@ Usage: thingy [OPTIONS]
 ```
 
 You can also concatenate strings with ==`+`== operator or concatenate by
-breaking them into new lines or space with quoting each string. <!--SR:!2024-11-01,7,179-->
+breaking them into new lines or space with quoting each string. <!--SR:!2024-11-29,13,179-->
 
 `*` operator used for repeating string (multiplication).
 
@@ -313,7 +314,7 @@ the requested elements.
 squares = [1, 4, 9, 16, 25]
 print(squares[:])  # [1, 4, 9, 16, 25]
 ```
-<!--SR:!2024-11-11,17,180-->
+<!--SR:!2024-12-16,30,180-->
 
 Lists also support operations like concatenation.
 
@@ -474,4 +475,4 @@ statements). <!--SR:!2024-11-10,23,220-->
 `-3**2` in Python is?
 &#10;<br>
 Since `**` operator has higher precedence than -, `-3**2` will be interpreted as
-`-(3**2)` and thus result is -9 (expected 9). For correct calculation, you can use parenthesis `(-3)**2`. <!--SR:!2024-10-30,1,130-->
+`-(3**2)` and thus result is -9 (expected 9). For correct calculation, you can use parenthesis `(-3)**2`. <!--SR:!2024-11-17,1,130-->
