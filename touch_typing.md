@@ -25,21 +25,20 @@ sr-ease: 265
 > one-handed touch typing are possible.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Touch_typing)</cite>
 
-Useful article to improve typing speed:
-[[Dan-How_to_type_fast]]
+Currently, I have around 70-90 WPM [^1] in [[English]] ([[Colemak_Mod-DH]]) and
+60-70 in [[Russian]] (ИЙЦУКЕН, 😥 it's my native language).
 
-WPM - words per minute, CPM - characters per minute. WPM calculation:
-$$wpm = cpm / 5$$
+For training, I use [ttyper](https://github.com/max-niederman/ttyper). Which
+support custom lessons from text files, here is mine:
 
-## Training
+- [Special Characters](./touch_typing/special_characters.txt)
+- [Python Data Class source code](./touch_typing/dataclasses.txt)
 
-- My custom `typing` script. Which is just a wrapper around `tt` from
-  [lemnos/tt: A terminal based typing test.](https://github.com/lemnos/tt) I'm
-  trying to combine words learning with touch typing.
-- [Typing.com](https://www.typing.com/)
-- [Typing Practice](https://www.keybr.com/) - this can fix your bad habits
-- [Monkeytype](https://monkeytype.com/)
-- [10fastfingers](https://10fastfingers.com)
+I use following commands to train:
+
+```
+shuf touch_typing/<lesson_file_name>|ttyper -
+```
 
 ## Typing games
 
@@ -50,3 +49,6 @@ $$wpm = cpm / 5$$
 - [TypeRacer](https://play.typeracer.com/)
 - [ZTYPE](https://zty.pe/)
 - [Keyboard Jump](https://www.typing.com/student/game/keyboard-jump)
+
+[^1]: WPM - words per minute, CPM - characters per minute. WPM calculation:
+$wpm = cpm / 5$.
