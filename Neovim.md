@@ -261,11 +261,9 @@ Jump **b**ackward by words (punctuation considered words)::`b`
 
 Jump **b**ackward by words (no punctuation)::`B`
 
-Jump backwar**d** to end of words::`ge`
-<!--SR:!2023-06-06,1,170-->
+Jump backwar**d** to end of words::`ge` <!--SR:!2024-11-14,1,150-->
 
-**J**ump to zero symbol (start of line)::`0`
-<!--SR:!2023-06-05,2,233-->
+**J**ump to zero symbol (start of line)::`0` <!--SR:!2024-11-18,5,233-->
 
    **J**ump to first non-blank character of line::`^`
 
@@ -474,8 +472,7 @@ Fill text (format)::`gw[motion]` (save cursor position) or `gx[motion]`
 
 Swap current line with next (line down)::`ddp`
 
-Swap current line with previous (line up)::`ddkP`
-<!--SR:!2023-06-06,2,231-->
+Swap current line with previous (line up)::`ddP` <!--SR:!2024-11-18,5,231-->
 
 Duplicate line and stay on same line::`yyP`
 
@@ -671,8 +668,7 @@ Get help `:h MiniAlign-examples`
 
 `~` in visual mode:::switch case
 `
-`v%`:::selects matching (parenthesis)
-<!--SR:!2023-06-06,1,208-->
+`v%`:::selects matching (parenthesis) <!--SR:!2024-11-14,1,188!2000-01-01,1,250-->
 
 `vi{`:::selects matching {curly brace}
 

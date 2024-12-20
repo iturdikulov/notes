@@ -155,7 +155,7 @@ Basic keybindings:
 - Play/Pause::`space`
 - Play next file::`>`
 - Play previous file::`<`
-- Quit::`q` <!--SR:!2024-05-02,3,245-->
+- Quit::`q` <!--SR:!2024-11-20,7,245-->
 
 ## cmus
 

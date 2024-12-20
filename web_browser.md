@@ -203,7 +203,7 @@ All shortcuts aviable in `shortcuts` section in DevTools settings or on
 - Copy current tab's URL::`yy` <!--SR:!2024-09-24,3,274-->
 - Visit previous tab::`<C-6>`
 - Focus input::`gi`
-- Enter insert mode::`i` <!--SR:!2024-09-24,3,274-->
+- Enter insert mode::`i` <!--SR:!2024-11-20,7,274-->
 - Activate link hints::`<C-;>`
 - Activate link hints to open in new foreground tab::`<C-:>`
 
