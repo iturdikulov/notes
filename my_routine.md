@@ -9,121 +9,89 @@ sr-ease: 241
 
 # My everyday life (routine)
 
-Routine is a recommendation not a strict law. But without routine you can skip
-many important things and lose your discipline and motivation.
-
-I split my working day into core chunks, and I'm trying to follow them every day.
+Without routine, you can skip many important things and lose your discipline and
+motivation. I split my working day into core chunks, and I follow them every
+day.
 
 Here is high-level diagram of my routine:
 
-![[./img/daily_routine_chunks.excalidraw]]
-_My daily routine_
-
-TODO: review
-
 ## 1. Wake up
 
-Good checklist for wake-up:
+- Go easy after wake-up, get (5-10mins) natural light in eyes within 1 hour of
+  waking up.
+- Washing my face with cold water and brush teeth.
+- Drink a glass of coffee.
+- Prepare workspace, fewer distractions improve my productivity.
+- Put devices on charger - daily (phone, tablet, big headphones), weekly
+  (e-reader, small headphones).
+- **Planning** my day with [[Taskwarrior]].
+- 35 minutes of run session.
+- Take a shower with cold water (at least in the end).
 
-- Wash your face and brush your teeth, both are important.
-- Drink a glass of water (or coffee 😈).
-- Prepare your workspace, fewer distractions improve your productivity.
-- Put your devices on charger.
-- Learn something new.
-- Do basic training, 35+ minutes sessions (in my case run).
-- Walk outside for 10–20 minutes to get enough energy from sun (vitamin D).
+## 2. Work session, focusing on the most important tasks ~ 3 hours
 
-## 2. TODO
-
-Things-to-do (AKA to-do list), planning my day is my first chunk of the day.
-Here I prepare my day, week, month, etc.
-
-Priorities:
-
-- Schedule anything unimportant and which I not plan to do today, be honest.
-- Check your [[work#Goals|goals]], expertness, health, family tasks, etc.
-- Review your calendar and tasks, maybe something has high-priority.
-- Plan something important (3 high-level tasks), for combinatorial explosion.
-- Mark completed tasks.
-
-## 3. Chunk \#1. Deep work session, focusing on the most critical tasks
-
-Disable distractions, prepare water, breath deeply few minutes and start.
-
-Main goals:
-
-- Bring your mind to the task (5-minute meditation if needed).
-- Time amount about 3 hours.
-- Reduce distractions, let know everyone you will be **busy**.
+- Disable distractions (`dnd`), prepare water, breath deeply and start.
+- Warmup a little with easy to-do tasks, then go to most important ones.
 - Focus on **main tasks**, go from hard to easy or important to less important.
-- Limit timing for tasks.
+- Limit timing for tasks, to avoid go too deep, we can always go back and
+  refactor/improve features.
 - Take at least one 10–15 minutes break in this session.
 - Drink more water to stay hydrated.
+- Completeing this working session give me good emotional state.
+- Pain is rewareded with pleasure, don't be afraid to do something booring but
+  really useful.
 
-Completed important task give me emotional charge and motivation.
+## 3. Dinner
 
-## 4. Chunk \#2. Less demanding tasks
+- Slowly eat good meal, give time to food **digestion**.
+- Walk a little-bit.
+- This is brainless time, don't try to do something important.
+- After ~1.5 I'm usually falling into microsleep (max 30 minutes).
 
-After main working time I give my mind some relax time. Give rest to your eyes
-and mind and fuel your body and give time to food **digestion**.
+## 4. Post-work session
 
-This is good time to do something brainless, with low energy consumption. But
-**don't** sleep immediately after lunch and for long time.
+Closing gaps, review my work and commit it, connecting with my team, and prepare
+me to the next day.
 
-Finish started tasks, connect with people, help them if you can.
+## 5. After-work session
 
-## 5. Workout and Dinner
+Dinner time. I get some rest and recovery time. Maybe it's good time
+for tea or some other drink with small amount of food.
 
-Only morning physical activity is not enough for me. I need to do some
-additional physical activity.
+I like to get some "relax" time, to give my mind some time to recover. Maybe
+I'll watch something or read something.
 
-Regular work-out are important for better energy and healthy mind. Better to do
-it according [[my_physical_exercise_plan#Physical exercise plan]] and track your
-progress and results.
-
-Dinner time. After workout, I get rest and recovery time. Maybe it's good time
-for tea or some other drink with some food (not a lot).
+After relax its good time to [[my_physical_exercise_plan#Physical exercise
+plan]], with tracking my progress and results.
 
 ## 6. Learn something new
 
-This chunk is starting in the evening. I need to learn something new. Without
-this process I don't really do any progress, I think it's also interesting and
-fun sometimes. I learn according to [[learning]] techniques. I usually spend
-some time to learn before this chunk, this is also good time to review learned
-information with [[spaced_repetition]] technique.
+This chunk is starting somewhere in the evening, when I get second wind.
+I learn according to [[learning]] techniques. I also mix learning and practice
+in one session.
 
-## 7. Fun
+## 7. Relax
 
-It's good time to practice learned information by working with [[projects]].
-Sometimes you haven't energy for it, it's fine. You can do something else.
-
-It's also good time for [[life]] activities.
-
-## 8. Relax
-
-You need to give your bran and mind some time to relax. At this time I can
-consume some [[media]], read [[my_books|fiction books]], listen music,
-etc.
-
-Some tasks before sleep:
-
-- Place E-devices on charger.
-- Review your working profiles, social networks.
-- Upload videos, photos, articles, etc.
+Before sleeping, I may do full relax activity, like reading, watching movies,
+playing games, etc.
 
 ## 9. Sleep
+
+Sleep is key of productivity, synchronize with circadian rhytm clocks.
 
 Don't forget about yourself and don't try to make longer your day (this is bad
 idea). Try to start sleep maximum at 00:00 (with some preparations before),
 breath deeply and keep thinking about something good.
 
+## Dophamine
 
-## Tips
+Try to increase Dophamine through your daily routine.
 
-1. Sleep is key, synchronize with circadian rhytm clocks.
-2. Get (5-10mins) natural light in eyes within 1 hour of waking up.
-3. Try to increase Dophamine through your daily routine.
-4. Go easy after wake-up: hydrate, some light exercise, physical activities,
-   cold shower.
-5. Pain is rewareded with pleasure, don't be afraid to do something booring but
-   useful.
+- Exercise.
+- Protein.
+- Reduce saturated fat.
+- Support gut health.
+- Sunlight.
+- Regular sleep.
+- Meditation.
+- Music.
