@@ -16,10 +16,6 @@ improve my workflow. To set note type need just to apply note type tag.
 All new note have a `- inbox` tag, this allowing to use [[spaced_repetition]]
 system to continuously review and work with notes.
 
-I configured [SilentVoid13/Templater](https://github.com/SilentVoid13/Templater)
-plugin with some predefined templates. To create new note need to use `M-n`
-shortcut (create new note with template).
-
 The types will be described below.
 
 ## Fleeting notes
