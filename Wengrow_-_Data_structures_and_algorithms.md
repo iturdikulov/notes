@@ -1,7 +1,7 @@
 ---
 author:
   - Jay Wengrow
-date: 2020
+date: 2023
 external:
   - https://pragprog.com/titles/jwdsal2
 tags:
@@ -13,7 +13,9 @@ sr-interval: 1
 sr-ease: 130
 ---
 
-# A Common-sense Guide to Data Structures and Algorithms: Level Up Your Core Programming Skills
+TODO: outdated external/directory/content
+
+# A Common-sense Guide to Data Structures and Algorithms
 
 If you thought that data structures and algorithms were all just theory, you're
 missing out on what they can do for your code.
@@ -51,12 +53,12 @@ Practice your new skills with exercises in every chapter, along with detailed
 solutions. Use these techniques today to make your code faster and more
 scalable.
 
-# Cover /1
+## Cover /1
 
 Not superior, but looks good enough. Header font - here is little inaccuracy,
 but it's ok.
 
-# Table of Contents /7
+## Table of Contents /7
 
 In this book it's actually Contents.
 
@@ -69,7 +71,7 @@ graphs, space constraints, code optimizations.
 This looks great. Unfortunately, I have no idea what about third of these,
 but I WILL UNDERSTAND it ☕.
 
-# Preface /14
+## Preface /14
 
 Quite interesting overview of book. Contains main chapters, short information
 about them and what you will learn.
@@ -104,7 +106,7 @@ jay@actualize.co
 May, 2020
 ```
 
-# 1. Why Data Structures Matter /22
+## 1. Why Data Structures Matter /22
 
 When you start learning to program your main focus is to run code
 successfully and properly (do it what I expect), without errors, and you usually
@@ -238,7 +240,7 @@ elements, searching for all instances of the string “apple” in an array will
 short** as soon as we find it. But if we need to find all instances, we have no
 choice but inspect **each element** of the entire array. <!--SR:!2024-09-07,10,204-->
 
-# 2. Why Algorithms Matter /41
+## 2. Why Algorithms Matter /41
 
 Placed some notes here: [[algorithm]].
 
@@ -276,7 +278,7 @@ search on an array of size 100,000?
 To solve this, we need to count how many times we halve 100,000 until we get
 down to 1. If we keep dividing 100,000 by 2, we see that it takes us about 16-17 steps. <!--SR:!2024-09-21,16,184-->
 
-# 3. O Yes! Big O Notation /55
+## 3. O Yes! Big O Notation /55
 
 ## Big O: How Many Steps Relative to N Elements? /56
 ## The Soul of Big O /57
@@ -408,7 +410,7 @@ This is $\mathcal{O}(1)$, no matter how many elements in array, we do fixed
 number of steps. <!--SR:!2024-09-10,8,175-->
 
 
-# 4. Speeding Up Your Code with Big O /67
+## 4. Speeding Up Your Code with Big O /67
 
 ## Bubble Sort /68
 
@@ -539,7 +541,7 @@ def greatestNumber(array):
 print(greatestNumber([11, 2, 4, 5, 8, 11, 3, 111]))
 ```
 
-# 5. Optimizing code with and without Big O
+## 5. Optimizing code with and without Big O
 
 ## Selection sort /82
 TODO: place more chapters
@@ -623,7 +625,7 @@ run only half-time), with N being the size of the array. But using Big O
 notation we omit $2$ constant.
 
 
-# 6. Optimizing for optimistic scenarios /96
+## 6. Optimizing for optimistic scenarios /96
 
 Notes placed in [[insertion_sort]].
 ...
@@ -729,12 +731,10 @@ false
 true
 ```
 
-# 7. Big O in Everyday Code /113
+## 7. Big O in Everyday Code /113
 
 Notes placed in [[how_to_optimize_code]].
 
-# 8. Blazing Fast Lookup with Hash Tables
+## 8. Blazing Fast Lookup with Hash Tables
 
 Notes placed in [[hash_table]].
-
-

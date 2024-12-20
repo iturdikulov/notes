@@ -3,20 +3,17 @@ date: 2024-01-23
 tags:
   - inbox
   - physics
+external:
+  - https://en.wikipedia.org/wiki/Outer_space
 sr-due: 2024-01-30
 sr-interval: 3
 sr-ease: 246
 ---
 
-# Space exploration
+# Outer space
 
-> Space exploration is the use of astronomy and space technology to explore
-> outer space. While the exploration of space is currently carried out mainly by
-> astronomers with telescopes, its [[physics|physical]] exploration is conducted
-> both by uncrewed robotic space probes and human spaceflight. Space
-> exploration, like its classical form astronomy, is one of the main sources for
-> space science.\
-> — <cite>[Space exploration - Wikipedia](https://en.wikipedia.org/wiki/Space_exploration)</cite>
+Outer space or space - near-vacuum expance between celestial bodies. Place where
+all the planets, stars, galaxies and objects are existing.
 
 ## The Chart of Cosmic Exploration
 
@@ -26,3 +23,8 @@ sr-ease: 246
 > and the DART Impactor!.\
 > — <cite>[Popchart](https://popchart.co/products/the-chart-of-cosmic-exploration)</cite>
 ![The Chart of Cosmic Exploration](img/ref-Cosmic_Space.webp)
+
+## External links
+
+- [Roscosmos TV - YouTube](https://www.youtube.com/channel/UCOcpUgXosMCIlOsreUfNFiA)
+

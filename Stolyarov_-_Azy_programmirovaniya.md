@@ -3,16 +3,250 @@ author:
   - Андрей Викторович Столяров
 date: 2021
 external:
-  - http://www.stolyarov.info/books/programming_intro/vol1
+  - http://www.stolyarov.info/books/programming_intro/
+file: ~/Arts_and_Entertainment/literature/Andriei Stoliarov/Tom 1. Proghrammirovaniie - Vviedieniie v profiessiiu Azy proghrammirovaniia (1316)/Tom 1. Proghrammirovaniie - Vviedieniie v - Andriei Stoliarov.pdf
 tags:
   - inbox
   - base
-sr-due: 2024-07-30
-sr-interval: 20
+lang: ru
+sr-due: 2024-01-26
+sr-interval: 1
 sr-ease: 130
-directory:
-  - ~/Computer/programming/Stolyarov-Programmirovaniye/Tom_1_Azy_Programmirovaniya/
 ---
+
+# Программирование: введение в профессию. Том 1: азы программирования
+
+## Предисловие первое, философское:
+
+Автор сетует на то с какими сложностями писал эту книгу, какие у него были
+проблемы с издателем и как краудфандинг проект помог ему написать эту книгу.
+Ему не нравится ситуация с издателями, которые делают деньги на книгах, но
+при этом особо не заботясь обۚ авторах.
+
+При помощи краудфандинг проекта автор может жить и писать, без необходимости
+тратить время ну другую работу. В общей сложности автор потратил более 2200
+часов для написания 3-х томов "Программирования". Позже автор укажет на эту
+ситуацию снова, любая великая работа не может быть осуществлена без финансовой
+и моральной поддержки.
+
+Книги не были написаны с нуля, использовались наработки с лекций, ранее изданная
+литература (методички).
+
+Я думаю, что это предисловие можно рассматривать как историческую справку о том,
+как он написал эту книгу. Также было рассказано, какие темы были затронуты
+([[Pascal]], `NASM`, [[C]], [[OS]], парадигмы, и т.д.) и перерабатывались в
+процессе написания этой книги, кто помогал автору и другие аспекты процесса
+написания книг.
+
+## Предисловие 2, методическое
+
+Изучать программирование можно только ==самостоятельно== (возможно, слишком
+категорично). <!--SR:!2024-05-27,2,169-->
+
+Начинать изучение программирование с GUI-приложения - плохая идея. Основным
+инструментом профессионального пользователя Unix является **организованная**
+[[CLI|командная строка]]. Она лучше, чем комплексный графический интерфейс.
+Интерфейс командной строки более мощный и гибкий, чем GUI, вы можете работать с
+ним быстрее (запоминание команд как ключевых слов, меньше нагрузка на руки в
+определенных сценариях работы, операции легче запоминаются и так далее).
+
+Написать программу для CLI гораздо проще, чем для GUI. Это открывает новые
+возможности для обучения и кастомизации ОС (программирование как хобби).
+
+Причины, по которым Unix является наиболее подходящей ОС для изучения
+программирования, описаны в следующих разделах книги.
+
+Любая ==[[computer_program|компьютерная программа]]== - это запись
+[[algorithm|алгоритма]] алгоритма на некотором языке программирования.
+
+На самом фундаментальном уровне никто не знает, что такое алгоритм, поэтому у
+нас есть [[computability|теория вычислимости]] и
+[[computer_science|информатика]] необходимые для изучения, в том числе
+алгоритмов.
+
+Алгоритм - это преобразование множества [[word|слов]] (цепочки символов над
+некоторым алфавитом) в такое же ==множество==. Для такого преобразования может
+существовать от 0 до бесконечности эквивалентных алгоритмов (континуум).
+
+```mermaid
+graph TD
+    A[Множестов слов] --> B[Алгоритм/алгоритмы]
+    B --> C[Множество слов]
+```
+
+Алгоритм - это такая «штука», которая читает входное слово, делает что-то
+**конструктивное** и возвращает другое слово. Главная проблема в определении
+того что такое конструктивное. Точно так же работают многие программы из
+семейства Unix. STDIN → преобразования → STDOUT (фильтры), и вы можете
+объединять их с помощью пайпов (pipe).
+
+### Четыре причины использования Unix
+
+Операционные системы семейства [[Unix]] единственно возможный вариант обучения
+программированию, для этого выделено четыре причины:
+
+#### 1. Психологическая причина
+
+Программирование это ремесло, а ремесло выучить невозможно, ему можно только
+научиться. Практика важнейший элемент в освоении программирования.
+
+Недостаточно писать код, чтобы выучить какой-то алгоритм или теорию, необходимо
+решать реальные практические проблемы. Вот почему pet-[[projects|проекты]]
+необходимы, некоторые pet-проекты могут превратиться в очень полезные проекты
+([[Linux]]).
+
+Если пользователь "живет" под Unix, у него могут появиться практические задачи
+которые можно решить при помощи программирования в правильной среде (Unix).
+
+#### 2. Эргономическая причина
+
+Вы не сможете заменить удобство и гибкость (usability) CLI любым интерфейсом. Вы
+должны изучить CLI как можно раньше.
+
+Inom: Я его использую ежедневно!
+
+#### 3. Педагогическая причина
+
+Не нужно учить кого-то программированию, если вы не знаете, что находится на
+фундаментальном уровне. И если вы действительно хотите кого-то обучить, найдите
+хороший **проверенный** путь обучения.
+
+Плохие преподаватели могут ввести в заблуждение новичка, например, начать
+изучать программирование с создания графического интерфейса (с упором на
+пользовательский интерфейс, а не на логику программы), что является плохой
+идеей. Ученик начинает отдавать приоритет интерфейсам, а не архитектуре
+программ.
+
+Плохое обучение может травмировать мышление ученика, у него будет много проблем
+с повторным изучением программирования в будущем (если он сможет это сделать).
+Он будет заблуждаться в том, что программирование - это скучный процесс.
+
+### Язык определяет мышления
+
+Почему изначально необходимо изучать «простые» языки, которые дают базовые
+понятия и не слишком сложны для понимания?
+&#10;<br>
+Сложные для понимания языки программирования не подходят для начального
+обучения, они используют концепции которые начинающие не понимают
+(указатели, сложные структуры данных и т.д.).
+
+Понимать [[data_structure|структуры данных]] важно для написания эффективных
+программ.
+
+Почему изучение C как первого языка
+программирования не так хорошо и может оказаться трудным?
+<br> C как первый язык программирования не подходит, нужно сначала понять указатели и работать с ними (а это сложно). <!--SR:!2024-05-30,5,162--> Почему важно знать язык программирования на фундаментальном уровне (как он на самом деле работает)?
+<br> Понимание кода как «магических команд» нехорошо для хороших программистов: вам нужно понимать код на очень низком уровне, чтобы создавать по-настоящему эффективные программы. <!--SR:!2024-05-29,4,162--> В C нет ==процедур==, только функции. Например, присваивание, приращение — это арифметические операции, и в C формально любые действия (которые являются ядром C) создают [[side_effect]]. <!--SR:!2024-05-27,2,169--> > Побочный эффект — это произвольное изменение, которое происходит только при оценке выражения и затем может быть каким-то образом ==обнаружено==. <!--SR:!2024-10-05,49,227--> В отличие от C, C++ и языков функционального программирования, в [[Pascal]] практически нет побочных эффектов (сомнительно). Почему бы вам не написать такой код? ```c while((dest++ Arts_and_Entertainment Компьютерные загрузки IRL Media Science Wiki src++)); ```
+<br> Чтобы избежать побочных эффектов и сделать это менее загадочным. Да, в C побочных эффектов все равно не избежать, но в других языках можно. <!--SR:!2024-05-26,1,149--> Когда знание C может быть полезно?
+<br> Написание на C является обязательным требованием, вам нужно понимать, как работают компьютеры и операционные системы на подсознательном уровне (ближе к аппаратному обеспечению), чтобы писать действительно **качественные программы**. <!--SR:!2024-05-28,3,152--> Изучая C, вот некоторые требования к пониманию указателей и рекурсии, которые могут помочь в некоторых других языках, мы выбираем [[Pascal]]: язык полностью поддерживает указатели. можете использовать язык без указателей с помощью указателей вы можете расширить свои возможности (реальная необходимость) Необходимо ли глубокое изучение Паскаля во всех деталях, когда вы изучаете общее программирование?
+<br> Не совсем. Вы изучаете не Паскаль, вы изучаете программирование с использованием Паскаля и можете опустить некоторые специфические функции Паскаля. <!--SR:!2024-09-17,28,202--> Зачем нужно изучать язык Ассемблера (хотя бы основы)?
+<br> Большую роль в понимании программирования играет [[Assembly_language]]. Вы никогда не сможете писать программы на нем (предпочитаете C), но вы должны понимать, как он работает, чтобы понимать, что вы на самом деле делаете, понимать ядро ОС, как с ним взаимодействовать, понимать системные вызовы, глубоко понимать структуры данных и т. д. И обычно его тоже нужно выучить до C (но после Pascal). Для обучения можно использовать любую сборку, нужно понять, как работать с регистрами и областями памяти, разобраться со фреймом стека, прерываниями и т. д. <!--SR:!2024-05-26,1,149--> Итак, авторы цепляются за изучение программирования Pascal (основы программирования) → ==Assembly== → C → C++. (специальный авторский взгляд), ОС, ввод-вывод, процессы, сокеты, многопоточность, мьютексы и семафоры, критические секции и т.д. <!--SR:!2024-05-29,4,162-->
+
+Why need to learn form "simple" languages, instead complex one, which providing
+basic concepts and not too complicated?
+&#10;<br>
+Start to learning programming from complex programming languages (like Java, C++
+and even C) is bad idea, newbie learners will have hard been understanding their
+concepts and not really will learn programming. <!--SR:!2024-05-27,2,169-->
+
+Knowing [[data_structure|data structures]] is important, if you're not
+understanding difference (and in result where they need to be used) between
+`vector` and `list` in C++ and you **won't understand it** this is bad sign.
+
+Mixing C and C++ is bad idea (maintainability reason).
+
+Why learning C as first programming language is not so good and can be hard?
+&#10;<br>
+C as first programming language is not suitable, you need to understand pointers
+first and work with them (and it's hard). <!--SR:!2024-05-30,5,162-->
+
+Why knowing programming language on fundamental level (how it's really works) is
+important?
+&#10;<br>
+Understanding code as "magic commands" is not good for good programmers, you
+need to understand code on very low level to create truly effective programs. <!--SR:!2024-05-29,4,162-->
+
+In C you haven't ==procedures==, only functions. For example assignment,
+increment are arithmetic operations and in C formally any actions (which is core
+of C) are creating [[side_effect]]. <!--SR:!2024-05-27,2,169-->
+
+> Side effect this is arbitrary change, which occurring only when evaluating
+expression and then can be somehow ==detected==. <!--SR:!2024-10-05,49,227-->
+
+Unlike C, C++ and functional programming languages, in [[Pascal]] there mostly
+no side effects (questionable).
+
+Why you should not write code like this?
+```c
+while((dest++ = * src++));
+```
+&#10;<br>
+To avoid side effects and make this less cryptic. Yes in C you can't avoid side
+effects anyway, but in other languages you can. <!--SR:!2024-05-26,1,149-->
+
+When knowledge of C can be useful?
+&#10;<br>
+Writing in C is requirement, you need to understand how computer and operating
+system is working on subconscious level (closer to hardware) to write really
+**quality programs**. <!--SR:!2024-05-28,3,152-->
+
+Learning C, here are some requirements in understanding pointers and
+recursion, which can help some another language, we choice [[Pascal]]:
+- language fully support pointers
+- you can use language without pointers
+- using pointers you can extend your capabilities (real necessity)
+
+Is deep learning Pascal, in every details is needed when you learn general
+programming?
+&#10;<br>
+Not really. You learn not Pascal, you learn programming by using Pascal, and you
+can omit some Pascal specific features. <!--SR:!2024-09-17,28,202-->
+
+Why need to learning Assembly language (at least basics)?
+&#10;<br>
+Big role in understanding programming is taking [[Assembly_language]]. You can
+never write programs in it (prefer C), but you must understand how it works to
+understand what you are really doing, understand OS kernel, how to interact with
+it, understand system calls, deeply understand data structures, etc. And you
+need usually also learn it before C (but after Pascal). You can use any assembly
+to learn, need to get understanding how to work with registers and memory areas,
+understand stack frame, interrupts, etc. <!--SR:!2024-05-26,1,149-->
+
+So authors chain to learn programming is: Pascal (basics of programming) →
+==Assembly== → C → C++. (special author's vision), OS, I/O, processes, sockets,
+multithreading, mutex objects and semaphores, critical sections, etc. <!--SR:!2024-05-29,4,162-->
+
+# Introduction 3, parting words (Предисловие 3, напутственное)
+
+First who created things which works on their own (automatically) are watch
+mechanics. XVIII century - Jaquet-Droz ==automata== (most complex is penman,
+containing 6000 details). <!--SR:!2024-06-04,10,202-->
+
+![Jaquet-Droz The Writer Automaton From 1774 In Action](https://www.youtube.com/watch?v=ux2KW20nqHU)\
+_Jaquet-Droz The Writer Automaton From 1774 In Action_
+
+He not only invented these automata machines, hi also spent a lot of time to
+make required tools and details, so making some complex automation system was
+combination of many different skills, finances and physical labor.
+
+With programmable computers you can avoid ==material== requirements to make
+something useful and great. Program itself is finished product. Programming is
+the most creative profession in engineering and technical professions. <!--SR:!2024-09-03,15,182-->
+
+What is 2 main things which are important for programmer (to improve as programmer)?
+&#10;<br>
+Self-education and practice is requirement to be programmer. <!--SR:!2024-08-20,1,132-->
+
+Author also tells you need to use CLI to learn something from this book (I use
+it daily), which give you abilities to write simple programs and find users for
+your program.
+
+Programming requires maximum intellectual tension and not everyone can withstand
+it!
+
+# Book structure (Структура книги и соглашения, используемые в тексте).
+
+Here mostly general information about books and volumes.
 
 # 1. Preliminary information (Предварительные сведения)
 

@@ -125,8 +125,7 @@ Line four
 
 `u`::Undo.
 
-`dd`::Delete current line.
-<!--SR:!2023-06-07,3,266-->
+`dd`::Delete current line. <!--SR:!2024-11-22,9,266-->
 
 `.`::repeat last command, for example deletion
 

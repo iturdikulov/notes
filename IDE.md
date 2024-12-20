@@ -19,4 +19,4 @@ sr-ease: 218
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Integrated_development_environment)</cite>
 
 I use right now [[Pycharm]] as my main IDE, also I have my
-custom [[Neovim]] "[PDE](https://www.youtube.com/watch?v=QMVIJhC9Veg)".
+custom [[Neovim]] [[PDE]].

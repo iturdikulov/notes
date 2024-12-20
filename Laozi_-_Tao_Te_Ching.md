@@ -5,8 +5,6 @@ tags:
   - IRL
 author:
   - Laozi
-  - Arthur Waley (Translator)
-directory: ~/Arts_and_Entertainment/literature/Lao Tzu/The way and its power; a study of the Tao te ching and its place in Chinese thought (980)/
 sr-due: 2024-01-31
 sr-interval: 15
 sr-ease: 230

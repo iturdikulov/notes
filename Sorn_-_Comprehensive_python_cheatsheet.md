@@ -420,7 +420,7 @@ print(set_example1)  # {'a', 'r', 'd', 'v', 'k'}
 print(set_example2)  # {'aardvark'}
 print(set_example3)  # {'aardvark'}
 ```
-<!--SR:!2024-11-07,13,230-->
+<!--SR:!2024-12-15,29,230-->
 
 How add items to `set()` (2 ways)?
 &#10;<br>
@@ -509,15 +509,19 @@ How remove item from set (3 ways)?
 &#10;<br>
 ```python
 set_example = {1, 2, 3}
-el = set_example.pop() # Raise KeyError if empty.
+
+# Remove latest item from set, raise KeyError if empty.
+el = set_example.pop()
 print(el, set_example) # 1 {2, 3, 4}
-# ---
-set_example.remove(2)  # Raise KeyError if missing.
+
+# Remove item from set by value, raise KeyError if missing.
+set_example.remove(2)
 print(set_example)     # {3, 4}
-# ---
-set_example.discard(3) # Don't raise an error.
-set_example.discard(4) # Don't raise an error.
-print(set_example)     # set()
+
+# Remove item from set if it is present, don't raise an error.
+set_example.discard(3)
+set_example.discard(4)
+print(set_example)
 ```
 <!--SR:!2024-10-26,1,208-->
 

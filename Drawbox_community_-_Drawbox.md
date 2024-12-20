@@ -13,6 +13,9 @@ sr-ease: 208
 
 # Drawabox - learning the fundamentals of drawing
 
+My goal to follow Drawbox lessons is improving my [[visual_art]] and drawing
+skills.
+
 Site looks well-done and well-organized. It's even contain read the text
 feature, which help me as [[English]] learner.
 
