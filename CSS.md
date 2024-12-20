@@ -26,3 +26,6 @@ sr-ease: 263
 > and its formatting.
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/CSS)</cite>
 
+## External links
+
+- [Слова, часто используемые в CSS-классах](https://github.com/yoksel/common-words)
