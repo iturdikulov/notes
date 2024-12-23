@@ -9,9 +9,11 @@ sr-ease: 241
 
 # My everyday life (routine)
 
+Complience with the regime: 75%.
+
 Without routine, you can skip many important things and lose your discipline and
 motivation. I split my working day into core chunks, and I follow them every
-day.
+day. If you don't control routine someone will control it for you.
 
 Try to increase Dophamine through your daily routine, natural sources of
 dopamine:
@@ -67,28 +69,29 @@ Here is high-level diagram of my routine:
 Closing gaps, review my work and commit it, connecting with my team, and prepare
 me to the next day.
 
-## 5. After-work session. Supper
+## 5. After-work session and training
 
 Dinner time. I get some rest and recovery time. Maybe it's good time
 for tea or some other drink with small amount of food.
 
-I like to get some "relax" time session, to give my mind some time to recover.
-Maybe I'll watch something or read something. But I'm not spend too much time on
-it.
+I like to get some time to recover my mind. I'll watch something or read
+something. But I'm not spending too much time on it. Full relax activity will be
+later.
 
 After relax its good time to [[my_physical_exercise_plan]], with tracking my
 progress and results.
+
+## 7. Relax
+
+I may do full relax activity, like reading, watching movies, playing games, etc.
+Here important factor - I need to reset before additional braint activity, so
+don't do something really energy consuming here.
 
 ## 6. Learn something new
 
 This chunk is starting somewhere in the evening, when I get second wind.
 I learn according to [[learning]] techniques. I also mix learning and practice
 in one session.
-
-## 7. Relax
-
-Before sleeping, I may do full relax activity, like reading, watching movies,
-playing games, etc.
 
 ## 9. Sleep
 
