@@ -13,6 +13,18 @@ Without routine, you can skip many important things and lose your discipline and
 motivation. I split my working day into core chunks, and I follow them every
 day.
 
+Try to increase Dophamine through your daily routine, natural sources of
+dopamine:
+
+- exercise;
+- protein;
+- reduce saturated fat;
+- support gut health;
+- sunlight;
+- regular sleep;
+- meditation;
+- music.
+
 Here is high-level diagram of my routine:
 
 ## 1. Wake up
@@ -30,8 +42,10 @@ Here is high-level diagram of my routine:
 
 ## 2. Work session, focusing on the most important tasks ~ 3 hours
 
+- Remove devices from charging if required, connect tokens.
 - Disable distractions (`dnd`), prepare water, breath deeply and start.
-- Warmup a little with easy to-do tasks, then go to most important ones.
+- Set "Working" music playlist.
+- Warmup a little with easy tasks, then go to most important ones.
 - Focus on **main tasks**, go from hard to easy or important to less important.
 - Limit timing for tasks, to avoid go too deep, we can always go back and
   refactor/improve features.
@@ -53,16 +67,17 @@ Here is high-level diagram of my routine:
 Closing gaps, review my work and commit it, connecting with my team, and prepare
 me to the next day.
 
-## 5. After-work session
+## 5. After-work session. Supper
 
 Dinner time. I get some rest and recovery time. Maybe it's good time
 for tea or some other drink with small amount of food.
 
-I like to get some "relax" time, to give my mind some time to recover. Maybe
-I'll watch something or read something.
+I like to get some "relax" time session, to give my mind some time to recover.
+Maybe I'll watch something or read something. But I'm not spend too much time on
+it.
 
-After relax its good time to [[my_physical_exercise_plan#Physical exercise
-plan]], with tracking my progress and results.
+After relax its good time to [[my_physical_exercise_plan]], with tracking my
+progress and results.
 
 ## 6. Learn something new
 
@@ -82,16 +97,3 @@ Sleep is key of productivity, synchronize with circadian rhytm clocks.
 Don't forget about yourself and don't try to make longer your day (this is bad
 idea). Try to start sleep maximum at 00:00 (with some preparations before),
 breath deeply and keep thinking about something good.
-
-## Dophamine
-
-Try to increase Dophamine through your daily routine.
-
-- Exercise.
-- Protein.
-- Reduce saturated fat.
-- Support gut health.
-- Sunlight.
-- Regular sleep.
-- Meditation.
-- Music.
