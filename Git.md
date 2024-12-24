@@ -35,7 +35,7 @@ git config --global user.email "user@domain.tld"
 Main objects in Git is commits and branches, they can be presented as nodes
 graph:
 
-![_Git branching and committing graph_](img/git_branching.excalidraw.svg)
+![_Git branching and committing graph_](img/git_branching.excalidraw)
 _Git branching and committing_
 
 Does Git store an entire snapshot of files per commit?

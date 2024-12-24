@@ -67,8 +67,11 @@ using `task list all`.
 calculate how long task is blocked, and maybe you need to remind someone about
 it.
 
-![Workflow](img/GTD_workflow.excalidraw.svg)
+![Workflow](img/GTD_workflow.excalidraw)
 _GTD workflow_
+
+![[./img/eisenhower_matrix.excalidraw]]
+_My custom Eisenhower matrix_
 
 ## Projects
 

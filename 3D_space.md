@@ -20,4 +20,4 @@ sr-ease: 221
 > a solid figure.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Three-dimensional_space)</cite>
 
-![A Stylistic Survey of Graphic Design](img/Cartesian_coordinate_system.excalidraw.svg)
+![A Stylistic Survey of Graphic Design](img/Cartesian_coordinate_system.excalidraw)

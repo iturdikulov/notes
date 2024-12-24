@@ -42,7 +42,7 @@ Big O is about how will an algorithm's performance (efficiency) change as the
 Big O Notation categories, linear growing, quadratic growing, exponential grow,
 etc.:
 
-![Big O notation](img/Big_O_notation.excalidraw.svg)
+![[./img/Big_O_notation.excalidraw|Big O Notation]]
 _Big O notation_
 
 Big O Notation allows us to easily categorize the ==efficiency== of a given
