@@ -74,7 +74,7 @@ websites, also good source for category names.
 
 - WolframAlpha - computational intelligence search engine::`@wa Turing machine 2506`
 - MathWorld - search for math definitions, formulas::`@math topology`
-- [[Math_is_Fun_Team-Math_is_Fun|Math is Fun]]- search for math definitions, formulas::`@mathf Pi`
+- [[Math_is_fun_community_-_Math_is_fun|Math is Fun]]- search for math definitions, formulas::`@mathf Pi`
 
 - [[GitHub]] - code search::`@gh linux`
 - SourceGraph - code search::`@s linkedin api`
@@ -129,6 +129,7 @@ websites, also good source for category names.
 
 - Yandex Translate - translate text::`@tn invictus`
 - Foldoc Dict - search for definitions, mostly technical::`@foldoc Inverse Address Resolution Protocol`
+- Cambridge Dictionary - search for definitions::`@dict directory`
 
 ### Shopping
 
