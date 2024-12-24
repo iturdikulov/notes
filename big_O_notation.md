@@ -2,7 +2,7 @@
 date: 2023-03-18
 tags:
   - inbox
-  - base
+  - SR-base
 sr-due: 2024-07-31
 sr-interval: 21
 sr-ease: 187

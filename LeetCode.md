@@ -5,7 +5,7 @@ external:
 date: 2022-12-29
 tags:
   - inbox
-  - base
+  - SR-base
 directory: ~/Computer/science/LeetCode_Team-LeetCode/
 sr-due: 2024-01-29
 sr-interval: 2

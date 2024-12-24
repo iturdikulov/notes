@@ -1,7 +1,7 @@
 ---
 date: 2022-12-29
 tags:
-  - productivity
+  - SR-productivity
   - inbox
 external:
   - https://mpv.io/

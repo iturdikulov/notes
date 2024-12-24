@@ -4,7 +4,7 @@ external:
   - https://docs.python.org/3/tutorial/appetite.html
 tags:
   - inbox
-  - Python
+  - SR-Python
 ---
 
 # 1. Whetting Your Appetite

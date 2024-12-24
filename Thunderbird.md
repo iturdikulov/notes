@@ -2,6 +2,7 @@
 date: 2024-11-03 00:12
 tags:
   - inbox
+  - SR-productivity
 external:
   - https://www.thunderbird.net/
 ---

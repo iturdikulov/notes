@@ -4,13 +4,14 @@ directory:
   - ~/Science/math/
 tags:
   - inbox
-  - mathematics
+  - SR-Mathematics
+lang: ru
 sr-due: 2024-02-10
 sr-interval: 2
 sr-ease: 209
 ---
 
-# Mathematics
+# Математика
 
 > Mathematics is the study of numbers, shapes, and patterns. The word comes from
 > the Greek μάθημα (máthema), meaning "science, knowledge, or learning", and is
