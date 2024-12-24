@@ -370,6 +370,8 @@ class NewPrinter(Printer, Fax, Scanner):
 Abstractions should not depend upon details. Details should depend upon
 abstractions.
 
+Example which violate DIP:
+
 ```python
 # app_dip.py
 
@@ -379,7 +381,8 @@ Both classes are tightly coupled. This coupling can lead to scalability issues.
 
 class FrontEnd:
     def __init__(self, back_end):
-        self.back_end = back_end
+        self.back_end = back_end  # we depending on concrete backend
+                                  # what if we want to add additional backends?
 
     def display_data(self):
         data = self.back_end.get_data_from_database()
@@ -390,6 +393,48 @@ class BackEnd:
         return "Data from the database"
 ```
 
+Fixed example:
+
+```python
+# app_dip.py
+
+from abc import ABC, abstractmethod
+
+class FrontEnd:
+    def __init__(self, data_source):
+        self.data_source = data_source
+
+    def display_data(self):
+        data = self.data_source.get_data()
+        print("Display data:", data)
+
+class DataSource(ABC):
+    @abstractmethod
+    def get_data(self):
+        pass
+
+class Database(DataSource):
+    def get_data(self):
+        return "Data from the database"
+
+class API(DataSource):
+    def get_data(self):
+        return "Data from the API"
+```
+
+Usage:
+
+```python
+from app_dip import API, Database, FrontEnd
+
+db_front_end = FrontEnd(Database())
+db_front_end.display_data()
+# Display data: Data from the database
+
+api_front_end = FrontEnd(API())
+api_front_end.display_data()
+# Display data: Data from the API
+```
 
 ## TODO
 
