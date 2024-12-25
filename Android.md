@@ -32,6 +32,17 @@ ways to sync data which I usually use:
    [[DWM]]. And rsync data: `rsync -r <source> <destination>`. It's rare case.
 2. Complex setup, using [[Syncthing]].
 
+## Backup strategy
+
+1. List installed apps and save this list:
+
+```sh
+# Connect smartphone & tablet and run this commands (you might need to enable
+# USB debugging)
+adb shell cmd package list packages -e > /archive/backup/smartphone_installed_apps.txt
+adb she shell cmd package list packages -e > /archive/backup/tablet_installed_apps.txt
+```
+
 ## References
 
 - [Android Debug Bridge (adb)](https://developer.android.com/tools/adb)
