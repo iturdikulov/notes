@@ -15,7 +15,7 @@ sr-ease: 266
 > an acoustician while someone working in the field of acoustics technology may
 > be called an acoustical engineer. The application of acoustics is present in
 > almost all aspects of modern society with the most obvious being the audio and
-> noise control industries.\
+> noise control industries.
 >
 > Hearing is one of the most crucial means of survival in the animal world and
 > speech is one of the most distinctive characteristics of human development and
@@ -24,6 +24,9 @@ sr-ease: 266
 > and more.
 >
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Acoustics)</cite>
+
+![[./img/comsol_acoustics_module.webp]]
+_[Comsol Acoustics Module Visualization](https://www.comsol.com/acoustics-module)_
 
 ## References
 
