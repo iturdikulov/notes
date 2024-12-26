@@ -4,7 +4,7 @@ tags:
   - inbox
   - SR-programing
 file:
-  - ./articles/Real_Python_-_SOLID_Principles.pdf
+  - ./articles/Real_Python_-_SOLID_Principles.html
 sr-due: 2024-01-26
 sr-interval: 2
 sr-ease: 228
@@ -199,6 +199,10 @@ base class with any of their subclass, and nothing will be broken (other classes
 expecations).
 "Functions that use pointers or references to base classes must be able to use
 objects of derived classes without knowing it." See also design by contract.
+\
+![Liskov: The Liskov Substitution Principle - YouTube](https://www.youtube.com/watch?v=-Z-17h3jG0A)\
+_Subtypes behave like supertypes, explaning the principle first hand._
+
 
 Example which violate LSP:
 
@@ -376,24 +380,29 @@ Example which violate DIP:
 # app_dip.py
 
 """
+FrontEnd abstract class, which depends on specific sentry_backend class.
 Both classes are tightly coupled. This coupling can lead to scalability issues.
 """
 
 class FrontEnd:
-    def __init__(self, back_end):
-        self.back_end = back_end  # we depending on concrete backend
-                                  # what if we want to add additional backends?
+    def __init__(self, sentry_backend):
+        # We depending on concrete backend
+        # what if we want to add additional backends?
+        self.sentry_backend = sentry_backend
 
     def display_data(self):
         data = self.back_end.get_data_from_database()
         print("Display data:", data)
 
+
 class BackEnd:
     def get_data_from_database(self):
         return "Data from the database"
+    # add get_data_from_api() method?, but this will require to violate OCP
+    # principle in FrontEnd class
 ```
 
-Fixed example:
+Fixed example (apply the dependency inversion principle):
 
 ```python
 # app_dip.py
@@ -401,44 +410,53 @@ Fixed example:
 from abc import ABC, abstractmethod
 
 class FrontEnd:
+    """
+    FrontEnd abstract class.
+    """
     def __init__(self, data_source):
+        # Abstract data source object
         self.data_source = data_source
 
     def display_data(self):
+        # Get data from abstract data source object by using abstract method
         data = self.data_source.get_data()
+
         print("Display data:", data)
 
 class DataSource(ABC):
+    """
+    DataSource abstract class.
+    """
     @abstractmethod
     def get_data(self):
         pass
 
-class Database(DataSource):
+class PikaDatabase(DataSource):
+    """
+    PikaDatabase, concrete implementation of details class.
+    Inheritance from DataSource class.
+    """
     def get_data(self):
         return "Data from the database"
 
-class API(DataSource):
+class SentryAPI(DataSource):
+    """
+    SentryAPI, concrete implementation of details class.
+    Inheritance from DataSource class.
+    """
     def get_data(self):
         return "Data from the API"
-```
 
-Usage:
+db = PikaDatabase()
+api = SentryAPI()
 
-```python
-from app_dip import API, Database, FrontEnd
-
-db_front_end = FrontEnd(Database())
-db_front_end.display_data()
-# Display data: Data from the database
-
-api_front_end = FrontEnd(API())
-api_front_end.display_data()
-# Display data: Data from the API
+FrontEnd(db).display_data()
+FrontEnd(api).display_data()
 ```
 
 ## TODO
 
-- [ ] [SOLID Principles: Improve Object-Oriented Design in Python – Real
+- [x] [SOLID Principles: Improve Object-Oriented Design in Python – Real
       Python](https://realpython.com/solid-principles-python/), research
       article.
 - [ ] [A Solid Guide to SOLID Principles - Baeldung](https://www.baeldung.com/solid-principles)
