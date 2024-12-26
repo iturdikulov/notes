@@ -20,24 +20,28 @@ sr-ease: 203
 
 ## Learn JavaScript in Y minutes
 
-```javascript
+### Style
+
+```js
 // Single-line comments start with two slashes.
+
 /* Multiline comments start with slash-star,
    and end with star-slash */
+
+///////////////////////////////////
+// 1. Section comment example
 
 // Statements can be terminated by ;
 doStuff();
 
 // ... but they don't have to be, as semicolons are automatically inserted
-// wherever there's a newline, except in certain cases.
+// wherever there's a newline, except in UNEXPECTED certain cases.
+// those cases can cause unexpected results, we'll keep on using
 doStuff()
+```
 
-// Because those cases can cause unexpected results, we'll keep on using
-// semicolons in this guide.
-
-///////////////////////////////////
-// 1. Numbers, Strings and Operators
-
+### 1. Numbers, Strings and Operators
+```js
 // JavaScript has one number type (which is a 64-bit IEEE 754 double).
 // Doubles have a 52-bit mantissa, which is enough to store integers
 // up to about 9✕10¹⁵ precisely.
@@ -57,14 +61,14 @@ doStuff()
 // And modulo division.
 10 % 2; // = 0
 30 % 4; // = 2
-18.5 % 7; // = 4.5
+18.5 % 7; // = 4.5, 14 + 4.5
 
 // Bitwise operations also work; when you perform a bitwise operation your float
 // is converted to a signed int *up to* 32 bits.
-1 << 2; // = 4
+1 << 2; // = 4, 0 + 1 + 3
 
 // Precedence is enforced with parentheses.
-(1 + 3) * 2; // = 8
+(1 + 3) * 2; // = 8, 4 * 2
 
 // There are three special not-a-real-number values:
 Infinity; // result of e.g. 1/0
@@ -111,14 +115,17 @@ false;
 // and are compared with < and >
 "a" < "b"; // = true
 
-// Type coercion is performed for comparisons with double equals...
+// Type coercion (automatic type conversion) is performed for comparisons with
+// double equals...
 "5" == 5; // = true
 null == undefined; // = true
 
 // ...unless you use ===
 "5" === 5; // = false
 null === undefined; // = false
+```
 
+```
 // You can access characters in a string with `charAt`
 "This is a string".charAt(0);  // = 'T'
 
@@ -404,7 +411,7 @@ myObj = {
 };
 myObj.myFunc(); // = "Hello world!"
 
-// What this is set to has to do with how the function is called, not where
+// What `this` is set to has to do with how the function is called, not where
 // it's defined. So, our function doesn't work if it isn't called in the
 // context of the object.
 var myFunc = myObj.myFunc;
