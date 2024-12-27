@@ -9,4 +9,4 @@ sr-ease: 212
 
 # Pascal
 
-
+Add section from https://learnxinyminutes.com/pascal/.
