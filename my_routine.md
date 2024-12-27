@@ -2,6 +2,7 @@
 date: 2022-12-28
 tags:
   - inbox
+  - SR-productivity
 sr-due: 2024-01-28
 sr-interval: 2
 sr-ease: 241
@@ -9,7 +10,7 @@ sr-ease: 241
 
 # My everyday life (routine)
 
-Complience with the regime: 75%.
+Complience with the regime: 77%.
 
 Without routine, you can skip many important things and lose your discipline and
 motivation. I split my working day into core chunks, and I follow them every
@@ -42,10 +43,11 @@ Here is high-level diagram of my routine:
 - 35 minutes of run session.
 - Take a shower with cold water (at least in the end).
 
-## 2. Work session, focusing on the most important tasks ~ 3 hours
+## 2. Work session
 
 - Remove devices from charging if required, connect tokens.
-- Disable distractions (`dnd`), prepare water, breath deeply and start.
+- Disable distractions (`dnd`), prepare water, breath deeply and start. There
+  was numerious times when I get some notification, which I won't read now...
 - Set "Working" music playlist.
 - Warmup a little with easy tasks, then go to most important ones.
 - Focus on **main tasks**, go from hard to easy or important to less important.
@@ -79,13 +81,7 @@ something. But I'm not spending too much time on it. Full relax activity will be
 later.
 
 After relax its good time to [[my_physical_exercise_plan]], with tracking my
-progress and results.
-
-## 7. Relax
-
-I may do full relax activity, like reading, watching movies, playing games, etc.
-Here important factor - I need to reset before additional braint activity, so
-don't do something really energy consuming here.
+progress and results, and get rest some time to recover.
 
 ## 6. Learn something new
 
@@ -93,10 +89,50 @@ This chunk is starting somewhere in the evening, when I get second wind.
 I learn according to [[learning]] techniques. I also mix learning and practice
 in one session.
 
-## 9. Sleep
+One trick to get into learning mode is start and end this session with spaced
+repetition.
+
+## 7. Relax
+
+I may do full relax activity, like reading, watching movies, playing games, etc.
+Here important factor - I need to reset before additional braint activity, so
+don't do something really energy consuming here.
+
+## 8. Sleep
 
 Sleep is key of productivity, synchronize with circadian rhytm clocks.
 
-Don't forget about yourself and don't try to make longer your day (this is bad
-idea). Try to start sleep maximum at 00:00 (with some preparations before),
+Don't forget about yourself and **don't try to make longer** your day (this is
+bad idea). Try to start sleep maximum at 00:00 (with some preparations before),
 breath deeply and keep thinking about something good.
+
+## Flashcards
+
+Which natural dopamine boosters you know?
+&#10;<br>
+Exercise, protein, sunlight, sleep, meditation, music, gut health, less
+saturated fat.
+
+First 3 tasks after waking up?
+&#10;<br>
+Get natural light, wash face/teeth, drink water.
+
+Components of morning exercise?
+&#10;<br>
+35-min run + cold shower
+
+Key principles for productive work session?
+&#10;<br>
+Remove distractions with DND mode, hard tasks first, take breaks, stay hydrated.
+
+Main purpose of dinner break?
+&#10;<br>
+Proper digestion and mental reset.
+
+Best time to start sleep?
+&#10;<br>
+Before 00:00 (ideal before 23:00) with preparation time.
+
+How to start learning session?
+&#10;<br>
+Begin with spaced repetition when second wind hits.
