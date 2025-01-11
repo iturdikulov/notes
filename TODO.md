@@ -8,9 +8,10 @@ Algorithm of daily review and daily plan generator:
 Tasks processing:
 
 - Check your mood and energy level, think about 3 MIT's (most important tasks),
-add MIT's to [[#Today]] task list.
+  add MIT's to [[#Today]] task list.
 - Check generated task list, ask yourself what you can do today and re-schedule
-items if needed, I use `tm <numbers> wait:+days` custom [[Taskwarrior]] command.
+  items if needed, I use `tm <numbers> wait:+days` custom [[Taskwarrior]]
+  command.
 - Go through today tasks list, and schedule them too: `tm <number> wait:+hours`.
 
 In next sections I have
@@ -41,11 +42,10 @@ command: task project:IRL list
 command: task project:sys list
 ```
 
-
 ## Collect tasks and sync
 
 Best method is adding task ASAP into Taskwarrior. But sometimes I need to
 collect and sync inboxes. Here is list of inboxes:
 
 - [[web_browser|Browser]] bookmarks and tabs (mobile/desktop), including reading
-list.
+  list.
