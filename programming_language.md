@@ -30,3 +30,8 @@ TODO: mark high-level languages
 - PHP
 - Ruby
 - Nix
+
+## External links
+
+- [TIOBE index](https://www.tiobe.com/tiobe-index/) - indicator of the
+popularity of programming languages.

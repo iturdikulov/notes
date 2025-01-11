@@ -27,7 +27,7 @@ Data structures providing organization (relationships), management (functions or
 operations) and format for some data. Each data structure has own efficiency and
 optimizations. <!--SR:!2024-10-09,1,201-->
 
-## Notes from [[Wengrow-Data_structures_and_algorithms|Wengrow]] book
+## Notes from [[Wengrow_-_Data_structures_and_algorithms|Wengrow]] book
 
 Analyzing the number of ==steps== an operation takes is the heart of
 understanding the performance of data structures and your program which use

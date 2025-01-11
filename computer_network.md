@@ -11,6 +11,8 @@ sr-ease: 243
 ---
 
 # Computer network
+
+Computer network is?
 &#10;<br>
 Set of [[computer|computers]] sharing resources located on or provided by
 [[node|network nodes]].
@@ -22,6 +24,15 @@ users.
 - TODO: connection and protocols
 - TODO: network topology
 - TODO: OSI
+
+## TUN/TAP
+
+[[OS]] kernel virtual network devices (drivers).
+
+TAP used for bridging (emulating Eithernet devices), data link OSI layer, above
+physical layer, which is the lowest layer.
+
+TUN used for IP-packets routing, network layer, after data link layer.
 
 ## References
 

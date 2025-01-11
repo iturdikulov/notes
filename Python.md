@@ -1773,6 +1773,10 @@ management, etc.
 
 ![[./img/python_high_level_overview.excalidraw|100%|Python high-level overview]]
 
+## External links
+
+- [CS50's Introduction to Programming with Python | Harvard University](https://pll.harvard.edu/course/cs50s-introduction-programming-python)
+
 ## References
 
 [^1]: [Learn Python in Y Minutes](https://learnxinyminutes.com/docs/python/)

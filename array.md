@@ -55,7 +55,7 @@ array indexed (by integer number starting from 0) and you can access array item
 by index (key in array). As rule index starting from [[zero-based_numbering|0]]
 to `n-1` where `n` is a number of items in array.
 
-## Notes from [[Wengrow-Data_structures_and_algorithms|Wengrow]] book
+## Notes from [[Wengrow_-_Data_structures_and_algorithms|Wengrow]] book
 
 Array is one of most basic data structure in computer science.
 

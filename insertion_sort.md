@@ -2,7 +2,7 @@
 date: 2024-08-26
 tags:
   - inbox
-  - base
+  - SR-base
 ---
 
 # Insertion sort

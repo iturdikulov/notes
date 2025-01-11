@@ -21,4 +21,4 @@ sr-ease: 221
 ![Computer simulation, one of the main cross-computing methodologies.](./img/GalvesLocherbach_-_High_Resolution_(360).gif)
 _Computer simulation, one of the main cross-computing methodologies._
 
-TODO: recreate in 3D using [[Raylib_Community-Raylib]]?
+TODO: recreate in 3D using [[Raylib_community_-_Raylib]]?

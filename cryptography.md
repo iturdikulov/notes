@@ -19,3 +19,8 @@ sr-ease: 240
 > [[computer_science]], information security (also [[computer_security]]),
 > electrical engineering, digital signal processing, [[physics]], and others.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Cryptography)</cite>
+
+## External links
+
+- [7 Cryptography Concepts - YouTube](https://www.youtube.com/watch?v=NuyzuNBFWxQ)
+

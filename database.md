@@ -84,6 +84,10 @@ primary key value can't be assigned to another record.\
 That rules applying to composite primary keys too (unique by combination of
 columns, not `NULL`, etc.).
 
+## Database normalisation
+
+Some information from [Simple English Wikipedia, the free encyclopedia](https://simple.wikipedia.org/wiki/Database_normalisation).
+
 ## External links
 
 - [ ] [Interactive tutorial on SQL | SQL-tutorial.ru search](http://www.sql-tutorial.ru/en/content.html)

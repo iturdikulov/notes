@@ -10,3 +10,7 @@ sr-ease: 251
 # Compiler
 
 TODO: add term
+
+## External links
+
+- [Compiler Explorer](https://godbolt.org/)

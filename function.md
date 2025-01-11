@@ -23,10 +23,11 @@ subprogram, subroutine, method, or procedure.
 
 Usually function consist of these parts:
 &#10;<br>
-- Declaration: name, parameters (arguments) and return type
-- Definition: body of function (content), this is what executed when function
+- Declaration (or header): name, parameters (arguments) and return type.
+- Definition: body of function (statement), this is what executed when function
   called (or invoked).
-- Return value: function result (one or many)
+- Return value: function result (one or many).
+- Function call: call to function witn parenthesis `hello_world("Earth")`.
 
 A function call may also have ==[[side_effect|side effects]]== such as modifying
 data structures in a computer memory, reading from or writing to a peripheral

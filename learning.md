@@ -20,6 +20,12 @@ sr-ease: 195
 > seems to be "lost" from that which cannot be retrieved.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Learning)</cite>
 
+My learning goals:
+
+- Unlock potential to solve complex, challenging problems.
+- Give me the opportunity to solve engineering problems correctly.
+- Make world better with efficient and properly created products.
+
 Learning is the **process**, so don't need too much worry about how much time
 you need to learn something or how much time you already spend. Need just focus
 on process.
@@ -27,14 +33,15 @@ on process.
 There are tons of learning resources aviable, but you need to chose what to
 learn you are interested in and what is the most important for you.
 
-Learning is very tightly connected with practice and repetition, so after you
-learn something the best method to consolidate your knowledge is to practice it
-and test yourself. Personally I implement my [[projects]] and [[work|working
-projects]] to strengthen my studies.
+Learning is very tightly connected with practice and
+[[spaced_repetition|repetiton]] so after you learn something the best method to
+consolidate your knowledge is to practice it and test yourself. Personally I
+implement my [[projects]] and [[work|working projects]] to strengthen my
+studies.
 
 > The only way to learn a new programming language is by writing programs
 > in it.\
-> — <cite>[[Kernighan_and_Ritchie-The_C_programming_language]]</cite>
+> — <cite>[[Kernighan_and_Ritchie_-_The_C_programming_language]]</cite>
 
 > Repeat the tutorial from memory, notes can help. Experiment, do something new,
 > based on tutorials. Make something dirty but get experience.
@@ -130,7 +137,7 @@ I want to learn it better. My main focus is on fundamental sciences and
 especially [[computer_science]]. I'll describe my learning paths for each field
 in this section.
 
-**[[CS_learning_path|How I learn computer science]]**.
+**[[computer_science_learning_path|How I learn computer science]]**.
 Computer science help me to understand my profession (software engineer) better
 and break my barriers in software development.
 
@@ -169,7 +176,7 @@ information, which can be related to various software, like
 [[keyboard_shortcut]], [[Blender]], [[Krita]], [[GNU_Utilities]], [[Linux]],
 [[NixOS]], etc.
 
-[[CG_learning_path|How I learn computer graphics]]. Computer
+[[computer_graphics_learning_path|How I learn computer graphics]]. Computer
 graphics impress me, and I want to learn more about it. It's a great way to
 express my thoughts in easy to understand form.
 
@@ -193,12 +200,12 @@ provides many opportunities to create something beautiful. Here is my
 I organize all **my** art related stuff in [[my_art]] note.
 
 For [[literature]] is great solution to fun and relax. I collect my reading list
-and favorite books in [[my_fiction_books]] note.
+and favorite books in [[my_books]] note.
 
 ## External links
 
 - [ ] [Copying Better: How To Acquire The Tacit Knowledge of Experts](https://commoncog.com/how-to-learn-tacit-knowledge/)
-- [ ] [[Evans-So_you_want_to_be_a_WizarD]]
+- [ ] [[Evans_-_So_you_want_to_be_a_WizarD]]
 
 - [[Khan_Academy]]
 

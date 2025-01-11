@@ -103,9 +103,9 @@ puts i
 <!--SR:!2024-09-06,2,215-->
 
 For both kinds of arrays (sorted and unsorted), if they contain N elements,
-linear search can take up to ==N steps ($\mathcal{O}(n)$)==. But if you use a
+linear search can take up to ==N or $\mathcal{O}(n)$== steps. But if you use a
 binary search, which can be used with ordered arrays, effectiveness of search
-will raise dramatically ($\mathcal{O}(log n)$). <!--SR:!2024-10-17,42,250-->
+will raise dramatically to $\mathcal{O}(log n)$. <!--SR:!2024-10-17,42,250-->
 
 ### Binary search for ordered array
 
@@ -133,7 +133,7 @@ Get index, jump to index position, optionally shift data, **insert value**
 (usually before index position). <!--SR:!2024-09-27,18,210-->
 
 When computer allocating an array, the computer always keeps track of the
-array's ==size==. <!--SR:!2024-09-15,18,250-->
+array's ==size==. <!--SR:!2025-02-07,45,250-->
 
 Efficiency depends on where we insert the value:
 

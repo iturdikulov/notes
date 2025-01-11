@@ -8,41 +8,141 @@ tags:
 # Python concurrency
 
 Various notes on concurrency in [[Python]]. Main information source is
-realpython concurrency article [^1].
+FastAPI tutorial [^1], realpython concurrency article [^2] and official
+documentation [^3].
+
+TODO: check [^2] and [^3] in details.
 
 The dictionary definition of concurrency is ==simultaneous== occurrence.
+
+> In [[computer_science]] concurrency is the ability of different parts or units
+> of a [[computer]], [[algorithm]], or problem to be executed out-of-order or in
+> partial order, without affecting the outcome. This allows for parallel
+> execution of the concurrent units, which can significantly improve overall
+> speed of the execution in multi-processor and multi-core systems. In more
+> technical terms, concurrency refers to the decomposability of a program,
+> algorithm, or problem into order-independent or partially-ordered components
+> or units of computation.\
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Concurrency_\(computer_science\))</cite>
 
 Concurrency types:
 
 - Pre-emptive multitasking (`threading`), single process/processors. Switch
-decision:
-&#10;<br>
-The operating system decides when to switch tasks external to Python.
-
+  decision:
+  &#10;<br>
+  The operating system decides when to switch tasks external to Python.
 - Cooperative multitasking (`asyncio`), single process/processors. Switch
-decision:
-&#10;<br>
-The tasks decide when to switch tasks.
-
+  decision:
+  &#10;<br>
+  The tasks decide when to switch tasks.
 - Multiprocessing (`multiprocessing`), multiple processes/processors. Difference
-between `threading` and `asyncio`?
-&#10;<br>
-The processes all run at the same time on different processors. Number of
-processes/processors many.
+  between `threading` and `asyncio`?
+  &#10;<br>
+  The processes all run at the same time on different processors. Number of
+  processes/processors many.
 
 ## When concurrency is useful
 
 Main concurrency use cases are ==CPU bound and I/O bound== tasks.
 
-Your program spends most of its time talking to a slow device, like a network
-connection, a hard drive, or a printer, this is ==I/O bound== process. Speeding
-it up involves overlapping the times spent waiting for these devices.
+Your program spends most of its time talking to a slow device, like a
+[[computer_network]] connection, a hard drive, or a printer, this is
+==[[input_output|I/O]] bound== process. Speeding it up involves overlapping the
+times spent waiting for these devices.
 
 You program spends most of its time doing CPU operations, this is ==CPU bound==
 process. Speeding it up involves finding ways to do more computations in the
-same amount of time (solving the problem with more physical cores).
+same amount of time with concurrency (solving the problem with more physical
+cores).
 
-## How to Speed Up an I/O-Bound Program
+## Concurrency and async / await
+
+Coroutine (like [[Go#Goroutines]]) is just the term for the thing returned by an
+`async def` function. Python knows that it is something like a function, that it
+can **start** and that it will **end** at some point, but that it might be
+**paused** internally too, whenever there is an ==await== inside of it.
+
+Coroutines declared with the async/await syntax is the preferred way of writing
+asyncio applications. For example, the following snippet of code prints “hello”,
+waits 1 second, and then prints “world”:
+
+```python
+import asyncio
+
+async def main():
+    print('hello')
+    await asyncio.sleep(1)
+    print('world')
+
+asyncio.run(main())  # run main() coroutine
+```
+
+You can only use `await` inside of functions created with ==`async def`==.
+
+To actually run a coroutine, asyncio provides the following mechanisms:
+- The ==`asyncio.run()`== function to run the top-level entry point “main()”
+  function.
+- Awaiting on a coroutine. The following snippet of code will print “hello”
+  after waiting for 1 second, and then print “world” after waiting for another 2
+  seconds:
+  ```python
+  import asyncio
+  import time
+
+  async def say_after(delay, what):  # say_after coroutine
+      await asyncio.sleep(delay)
+      print(what)
+
+  async def main():
+      print(f"started at {time.strftime('%X')}")
+
+      await say_after(1, 'hello')  # await on say_after coroutine
+      await say_after(2, 'world')  # await on say_after coroutine
+
+      print(f"finished at {time.strftime('%X')}")
+
+  asyncio.run(main())
+  ```
+- The ==`asyncio.create_task()`== function to run `coroutines` concurrently as
+  `asyncio` Tasks.
+  ```python
+  async def main():
+      task1 = asyncio.create_task(say_after(1, "hello"))
+      task2 = asyncio.create_task(say_after(2, "world"))
+      print(f"started at {time.strftime('%X')}")
+
+      # Wait until both tasks are completed (should take
+      # around 2 seconds.)
+      await task1
+      await task2
+
+      print(f"finished at {time.strftime('%X')}")
+  ```
+- The `asyncio.TaskGroup` class provides a more modern alternative to
+  `create_task()`. Using this API, the last example becomes:
+  ```python
+  async def main():
+      async with asyncio.TaskGroup() as tg:
+          task1 = tg.create_task(say_after(1, 'hello'))
+          task2 = tg.create_task(say_after(2, 'world'))
+
+          print(f"started at {time.strftime('%X')}")
+
+      # The await is implicit when the context manager exits.
+      print(f"finished at {time.strftime('%X')}")
+  ```
+
+Awaitable object is an object if it can be used in an ==`await`== expression.
+
+There are three main types of awaitable objects:
+
+- Coroutines
+- Tasks
+- Futures, special low-level awaitable object that represents an eventual result
+  of an asynchronous operation (a good example of a low-level function that
+  returns a Future object is `loop.run_in_executor()`).
+
+## How to speed up an I/O bound program
 
 Let's say you have synchronous version of program that do I/O bound task.
 ```python
@@ -180,6 +280,7 @@ intentionally doing so. They never get interrupted in the middle of an
 operation. This allows us to share resources a bit more easily in `asyncio` than
 in threading. You don’t have to worry about making your code ==thread-safe==.
 
-## References
+[^1]: [Concurrency and async / await - FastAPI](https://fastapi.tiangolo.com/async/)
+[^2]: [Speed Up Your Python Program With Concurrency – Real Python](https://realpython.com/python-concurrency/)
+[^3]: [Coroutines and Tasks — Python documentation](https://docs.python.org/3/library/asyncio-task.html)
 
-[^1]: [Speed Up Your Python Program With Concurrency – Real Python](https://realpython.com/python-concurrency/)
