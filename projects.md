@@ -6,118 +6,82 @@ sr-due: 2024-01-28
 sr-interval: 2
 sr-ease: 226
 ---
-I've worked on many projects over the years, most of them was proprietary.
-In this note I store list of my active open-source "pet projects", this is
-important part of my [[learning]] and [[work|working]] process.
 
-<div class="central-featured">
-  <div class="spinner-box">
-    <div class="blue-orbit ring">
-    </div>
-    <div class="green-orbit ring">
-    </div>
-    <div class="red-orbit ring">
-    </div>
-    <div class="white-orbit ring">
-    </div>
-  </div>
+# My projects
 
-  <div class="central-featured-project project1">
-    <a href="https://github.com/iturdikulov/sentry-rest" target="_blank" class="link-box">
-      <strong>Sentry Rest</strong>
-      <small>Sentry API integration</small>
-    </a>
-  </div>
+I've worked on many projects over the years, most of them was proprietary. In
+this note I store list of my active projects, including open-source "pet
+projects", planned projects, etc.
 
-  <div class="central-featured-project project2">
-    <span class="link-box">
-      <strong>Twitch Tracker</strong>
-      <small>chats analyzing and manage</small
-      >
-    </span>
-  </div>
+These projects are important part of my [[learning]] and [[work]] activites, to
+understand custom bullet list types check [[my_notation]] note.
 
-  <div class="central-featured-project project3">
-    <a href="https://salesloop.io/" target="_blank" class="link-box">
-      <strong>Salesloop</strong>
-      <small>linkedin automation (private)</small>
-    </a>
-  </div>
+## Projects
 
-  <div class="central-featured-project project4">
-    <span class="link-box">
-      <strong>Spectrogram</strong>
-      <small>HTML/CSS/JS framework</small>
-    </span>
-  </div>
+- [/] [Salesloop](https://salesloop.io/), LinkedIn automation (proprietary).
 
-  <div class="central-featured-project project5">
-    <span class="link-box">
-      <strong>mini-scripts</strong>
-      <small>learning sandbox</small>
-    </span>
-  </div>
+## Open-source projects
 
-  <div class="central-featured-project project6">
-    <a href="https://github.com/iturdikulov/nvim" target="_blank" class="link-box localize-variant">
-      <strong>NeoVim PDE</strong>
-      <small>personal NeoVim setup</small>
-    </a>
-  </div>
+Large:
 
-  <div class="central-featured-project project7">
-    <a href="https://github.com/iturdikulov/dotfiles" target="_blank" class="link-box localize-variant">
-      <strong>Nix dotfiles</strong>
-      <small>personal NixOS setup</small>
-    </a>
-  </div>
+- [/] [Wiki](https://github.com/iturdikulov/notes), Personal [[Zettelkasten]]
+  and [[iturdikulov.com]] website.
+- [/] [Twitch Tracker](https://github.com/iturdikulov/twitch_tracker), twitch
+  chats analysis and management.
+  - [xenova/chat-downloader: Retrieve chat messages from livestreams, videos,
+    clips and past broadcasts. No authentication
+    needed!](https://github.com/xenova/chat-downloader).
 
-  <div class="central-featured-project project8">
-    <a href="https://github.com/iturdikulov/notes" target="_blank" class="link-box localize-variant">
-      <strong>Wiki</strong>
-      <small>personal Zettelkasten</small>
-    </a>
-  </div>
+Web:
 
-  <div class="central-featured-project project9">
-    <span class="link-box localize-variant">
-      <strong>OpenCV bot</strong>
-      <small>L2 game bot</small>
-    </span>
-  </div>
+- [ ] Spectrogram, HTML/CSS/JS framework.
+- [!] [Sentry Rest](https://github.com/iturdikulov/sentry-rest), error tracking
+  service API (sentry) interaction library.
+- [ ] IPRoyal API integration, inspired by
+      [A simple Python Pydantic model for
+      Honkai](https://github.com/MetaCubeX/mihomo/tree/main).
+- [ ] [GitHub -
+      vishyarjun/rate_limiter_fastapi](https://github.com/vishyarjun/rate_limiter_fastapi)
 
-  <div class="central-featured-project project10">
-    <span title="My old projects, which I'm not using anymore or decided to archive" class="link-box">
-      <strong>Projects Archive</strong>
-      <small>old projects</small>
-    </a>
-  </div>
-</div>
+Hardware:
 
-This note is important enough to link it with [[index]].
+- [ ] [Device to send eithernet packet](https://github.com/francisrstokes/githublog/blob/main/2024%2F11%2F1%2Fsending-an-ethernet-packet.md)
+- [ ] NixOS based router:
+  - [NixOS based router](https://www.reddit.com/r/Nix/comments/17d0rce/nixos_based_router_part_1_the_hardware/)
+  - [Using NixOS as a router](https://francis.begyn.be/blog/nixos-home-router)
+  - [GitHub - nakato/nixos-bpir3-example](https://github.com/nakato/nixos-bpir3-example)
 
-- [?] Tic-Tac-Toe game in react, partially done, wasn't too fun.
-- Stream Chat Manager
-- Snake V2
-- Spectre Inomoz
-- proxy checker
+Developer Tools:
 
-- awesome-to-rec
-- [[Zettelkasten]] wiki.
-- Nix, dotfiles + scripts, my custom [[NixOS]] configuration and scripts.
-- Neovim setup, [remote](https://github.com/iturdikulov/nvim) and
-[local](file:///home/inom/.config/nvim).
+- [ ] Async Proxy Checker.
+  - [constverum/ProxyBroker: Proxy finder, checker, server](https://github.com/constverum/ProxyBroker)
+- [/] [dotfiles](https://github.com/iturdikulov/dotfiles), personal [[NixOS]],
+  scripts and [[my_awesome_software_list|software]] configuration.
+- [/] [NeoVim](https://github.com/iturdikulov/nvim), personal [[PDE]]. setup.
 
-- DIY Architectural lighting, right now stair lighting.
-- Software 3D engine.
-- RPG?/Farming? game in [[Godot]] (as simplest starting point in game
-development).
-- [[OpenCV_L2_Bot]] for the [[lineage_2_tools|L2]] game, [[L2bot]]?
-- [[iturdikulov.com]] website
+Games:
+
+- [!] [[snake_game]] v1.
+- [ ] [[OpenCV_L2_Bot]] for the [[lineage_2_tools|L2]] game, [[L2bot]]?
+- [ ] [MicroPython Pinball game running on T-Display-S3 - YouTube](https://www.youtube.com/watch?v=y0B3i_UmEU8).
+- [ ] [GitHub - kgandhi09/AI-Plays-GTA-5](https://github.com/kgandhi09/AI-Plays-GTA-5)
+- [ ] Software 3D engine.
+  - [Code-It-Yourself! 3D Graphics Engine Part #1 - Triangles & Projection - YouTube](https://www.youtube.com/watch?v=ih20l3pJoeU).
+  - [Code-It-Yourself! 3D Graphics Engine Part #2 - Normals, Culling, Lighting & Object Files - YouTube](https://www.youtube.com/watch?v=XgMWc6LumG4).
+- [ ] RPG?/Farming? game in [[Godot]] (as simplest starting point in game
+      development).
+- [ ] [RubikGL - OpenGL Rubik's Cube Simulator - YouTube](https://www.youtube.com/watch?v=PY_HNv854KQ),
+      inspired project.
+
+IRL:
+
+- [ ] DIY Architectural lighting, right now stair lighting.
 
 ## Inspiration
 
-- [RubikGL - OpenGL Rubik's Cube Simulator - YouTube](https://www.youtube.com/watch?v=PY_HNv854KQ)
-- [constverum/ProxyBroker: Proxy finder, checker, server](https://github.com/constverum/ProxyBroker)
-- [xenova/chat-downloader: Retrieve chat messages from livestreams, videos, clips and past broadcasts. No authentication needed!](https://github.com/xenova/chat-downloader)
-
+- [seedit4.me](https://seedit4.me/)
+- [Sentence Case: automatically capitalize sentences](https://getreuer.info/posts/keyboards/sentence-case/#overview)
+- [The Interactive Fiction Archive](https://ifarchive.org/), mainly color scheme
+- [PocketBase - Open Source backend in 1 file](https://pocketbase.io/)
+- [the morning paper - Computer Science](https://blog.acolyer.org/)
+- [Essays · Gwern.net](https://gwern.net/)
