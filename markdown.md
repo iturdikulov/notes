@@ -125,6 +125,72 @@ You can also use inline footnotes. ^[notice that the carat goes outside of the b
 
     Add as many paragraphs as you like.
 
+## GitHub Flavored Markdown (GFM)
+
+### Alerts
+
+[Basic writing and formatting syntax, alerts - GitHub Docs](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#alerts)
+
+> [!NOTE]
+> Useful information that users should know, even when skimming content.
+
+> [!TIP]
+> Helpful advice for doing things better or more easily.
+
+> [!IMPORTANT]
+> Key information users need to know to achieve their goal.
+
+> [!WARNING]
+> Urgent info that needs immediate user attention to avoid problems.
+
+> [!CAUTION]
+> Advises about risks or negative outcomes of certain actions.
+
+## Obsidian-specific
+
+Some markdown features are specific to [[Obsidian]].
+
+### Spoilers
+
+> [!NOTE]-
+> Useful information that users should know, even when skimming content.
+
+> [!TIP]- custom text
+> Helpful advice for doing things better or more easily.
+
+> [!IMPORTANT]-
+> Key information users need to know to achieve their goal.
+
+> [!WARNING]-
+> Urgent info that needs immediate user attention to avoid problems.
+
+> [!CAUTION]-
+> Advises about risks or negative outcomes of certain actions.
+
+### Custom checkbox
+
+- [ ] `[ ]` Unchecked
+- [x] `[x]` Checked
+- [>] `[>]` Rescheduled
+- [<] `[<]` Scheduled
+- [!] `[!]` Important
+- [-] `[-]` Cancelled
+- [/] `[/]` In Progress
+- [?] `[?]` Question
+- [*] `[*]` Star
+- [n] `[n]` Note
+- [l] `[l]` Location
+- [i] `[i]` Information
+- [I] `[I]` Idea
+- [S] `[S]` Amount
+- [p] `[p]` Pro
+- [c] `[c]` Con
+- [b] `[b]` Bookmark
+- ["] `["]` Quote
+
+[Alternative Checkboxes (Icon Bullets) - Copy and paste - #15 by malhashemi -
+Share & showcase - Obsidian
+Forum](https://forum.obsidian.md/t/alternative-checkboxes-icon-bullets-copy-and-paste/35962/15)
 
 
 ## TODO
