@@ -20,3 +20,11 @@ sr-ease: 252
 - series
 - wtwitch
 
+## Inspirational videos
+
+These videos help me to get some motivation and inspiration or mood. They are
+from cinematics, movies, games trailers, etc.
+
+Local directory: `~/Arts_and_Entertainment/inspiration`
+
+- [Wrath of the Lich King Cinematic Remaster | World of Warcraft - YouTube](https://www.youtube.com/watch?v=HInmEcbFyF0)

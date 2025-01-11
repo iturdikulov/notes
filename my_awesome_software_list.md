@@ -345,6 +345,7 @@ dependencies](https://github.com/ocornut/imgui)
 ## Android
 
 - [[termux]]
+- network cell
 - [MiniGlome/Archive.org-Downloader: Python3 script to download archive.org books in PDF format](https://github.com/MiniGlome/Archive.org-Downloader)
 
 - [ ] [Как реализовать свою идею, sketchup? - YouTube](https://youtube.com/shorts/bg0dt8ydAGo?si=sTbYLDkv23L8IksN)

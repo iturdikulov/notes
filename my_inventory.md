@@ -135,3 +135,15 @@ Furniture: specialized pieces like ottomans, dressers, bookshelves, recliners
 Jewelry: rings, necklaces, bracelets, earrings
 Currency: bills and coins used for transactions
 Weapons: used for hunting, self-defense, or warfare (Note: Use caution with these items)
+
+## Smartphone & Tablet
+
+I synchronize settings and applications, so each device can replace the other.
+My ideology is to use minimum installed software to minimize backup (pain on
+android) and new phone setup.
+
+### 1. Syncting
+
+Heart of the syncing processs.
+
+### 2. Online syncing
