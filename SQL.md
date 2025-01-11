@@ -738,6 +738,7 @@ Methods to avoid SQL injection?
 ## External links
 
 - [Интерактивный курс по SQL](https://sql-academy.org/)
+- [Практическое владение языком SQL](https://sql-ex.ru/)
 - [smarteist - SQL cheat sheet](https://gist.github.com/smarteist/dc19be1101c0041e5963eba3772c3f67)
 
 [^1]: [SQL in 10 Minutes a Day](https://www.amazon.com/gp/product/0135182794/)
