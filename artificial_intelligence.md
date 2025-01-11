@@ -50,12 +50,15 @@ Generative pre-trained transformers (GPT) are large language models
 ([[large_language_model|LLMs]]) that generate text based on the semantic
 relationships between words in sentences.
 
-## External links
+To understand custom bullet list types check [[my_notation]] note.
 
-- [x] [Richard Feynman: Can Machines Think? - YouTube](https://www.youtube.com/watch?app=desktop&v=ipRvjS7q1DI)
+## Learning path
+
+- [!] [Richard Feynman: Can Machines Think? - YouTube](https://www.youtube.com/watch?app=desktop&v=ipRvjS7q1DI)
 NO, in some ways yes and can demonstrate intelegence-like behavior. TODO: write
 own note?
 - [ ] [Заметки про искусственный интеллект](https://dxdt.ru/2024/07/25/13473/)
+- [ ] [Knowledge graph](https://neo4j.com/blog/what-is-knowledge-graph/)
 - [ ] [Harvard CS50’s Artificial Intelligence with Python](https://www.youtube.com/watch?v=5NgNicANyqM)
 - [There's An AI For That - The Biggest AI Aggregator](https://theresanaiforthat.com/)
 - [Artificial intelligence | TED Talks](https://www.ted.com/playlists/310/artificial_intelligence)
