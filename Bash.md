@@ -22,7 +22,12 @@ Personally, I use [[Zsh]] as my default shell and interactive command
 interpreter, but sometimes I use and write scripts written in Bash (for
 portability).
 
-Cheat sheet:
+Since Zsh support POSIX compliant [Shell Command Language](
+https://pubs.opengroup.org/onlinepubs/9799919799/utilities/V3_chap02.html)
+I can learn Bash and in same time Zsh variants (POSIX compliant parts) of shell
+command languages.
+
+## Cheat sheet
 
 ![[./img/ref-Bash_cheatsheeet.pdf]]
 _[bash cheat sheet](https://github.com/obfusk/bash-cheatsheet/tree/master)_
