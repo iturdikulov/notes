@@ -12,7 +12,7 @@ sr-ease: 249
 
 # NNN file manager
 
-Configuration, using environment variables
+Enable deleting into trash with `NNN_TRASH` [[environment_variable]].
 ```bash
 NNN_TRASH=1  # enable trash
 ```

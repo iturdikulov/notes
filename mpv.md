@@ -21,99 +21,61 @@ keybinding and ton of other features.
 
 I use it as my main video player
 
+TODO: need to refactor this page
+
 ## Keyboard bindings (keys are sensitive)
 
-Resize window::`M-0`, `M-1`, `M-2`
-
-Half speed increase/decrease::`[`, `]`
-
-Double speed::`{`, `}`
-
-Reset speed::`BCK`
-
-Seek::`h`, `j`, `k`, `l`
-Undo last seek::`S-BCK`
-Frame forward/backward::`.`, `,`
-
-Next/Previous in playlist::`<`, `>`
-
-Pause/Resume::`SPC`
-
-Mute::`m`
-
-Quit::`q`
-
-Increase/decrease volume::`/`, `*`
-
-Switch video / audio tracks::`_`, `#`
-
-Toggle on top::`T`
-
-Show progression bar, elapsed time and total duration on the OSD.::`o`
-
-Toggle duration display::`O`
-
-Toggle subtitles::`v`
-Switch subtitles::`J` `S`
-Adjust subtitles delay +/-::`z`, `Z` <!--SR:!2024-09-22,1,313-->
-Adjust subtitles font::`S-g`, `S-f` <!--SR:!2024-09-22,1,313-->
-
-Adjust audio delay::`C-+`, `C--`
-
-Loop::`L`
-
-Take screenshot::`s`, `C-s`
-
-Show lists::`F8`, `F9`
-
-Show OSD state::`F1`
-
-Show stats::`i`, `I`
-
-Contrast::`1`, `2`
-
-Brightness::`3`, `4`
-
-Gamma::`5`, `6`
-
-Saturation::`7`, `8`
-
+- Show progression bar, elapsed time and total duration on the OSD.::`o`
+- Resize window::`M-0`, `M-1`, `M-2`
+- Half speed increase/decrease::`[`, `]`
+- Double speed::`{`, `}`
+- Reset speed::`BCK`
+- Seek::`h`, `j`, `k`, `l`
+- Undo last seek::`S-BCK`
+- Frame forward/backward::`.`, `,`
+- Next/Previous in playlist::`<`, `>`
+- Pause/Resume::`SPC`
+- Mute::`m`
+- Quit::`q`
+- Increase/decrease volume::`/`, `*`
+- Switch video / audio tracks::`_`, `#`
+- Toggle on top::`T`
+- Toggle duration display::`O`
+- Toggle subtitles::`v`
+- Switch subtitles::`J` `S`
+- Adjust subtitles delay +/-::`z`, `Z` <!--SR:!2024-09-22,1,313-->
+- Adjust subtitles font::`S-g`, `S-f` <!--SR:!2024-09-22,1,313-->
+- Adjust audio delay::`C-+`, `C--`
+- Loop::`L`
+- Take screenshot::`s`, `C-s`
+- Show lists::`F8`, `F9`
+- Show OSD state::`F1`
+- Show stats::`i`, `I`
+- Contrast::`1`, `2`
+- Brightness::`3`, `4`
+- Gamma::`5`, `6`
+- Saturation::`7`, `8`
 
 ## mpv playlist manager
 
-Show playlist::`S-Return`
-
-Sort playlist by filename::`C-p`
-
-Shuffle playlist::`C-P`
-
-Reverse playlist::`C-R`
-
-Save playlist::`p`
-
-Load all files from current directory::`P`
-
-Movement in playlist - up/down::`up`, `down`
-
-Movement in playlist - page up/page down::`PgUp`, `PgDown`
-
-Movement in playlist - first entry::`Home`
-
-Movement in playlist - last entry::`End`
-
-Remove selected entry from playlist::`BCK`
-
-Open selected entry (or next file is playing)::`Enter`
-
-Select or Unselect the file under cursor (to reorder)::`Left`, `Right`
-
-Close playlist::`Esc`
+- Show playlist::`S-Return`
+- Sort playlist by filename::`C-p`
+- Shuffle playlist::`C-P`
+- Reverse playlist::`C-R`
+- Save playlist::`p`
+- Load all files from current directory::`P`
+- Movement in playlist - up/down::`up`, `down`
+- Movement in playlist - page up/page down::`PgUp`, `PgDown`
+- Movement in playlist - first entry::`Home`
+- Movement in playlist - last entry::`End`
+- Remove selected entry from playlist::`BCK`
+- Open selected entry (or next file is playing)::`Enter`
+- Select or Unselect the file under cursor (to reorder)::`Left`, `Right`
+- Close playlist::`Esc`
 
 ## Custom hotkeys
 
-Play clipboard URL: M-q-p
-Global pause: s-Play
-mpv fzf history: s-S-Play
+- Recent menu::`` ` ``
 
 ## Learning
 

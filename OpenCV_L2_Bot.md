@@ -15,4 +15,4 @@ My personal [[lineage_2_tools|Lineage 2]] bot
 ## References
 
 - [ ] [Best approach for Grass Detection ? - OpenCV QA Forum](https://answers.opencv.org/question/103496/best-approach-for-grass-detection/)
-- [ ] [[Turdikulov-OpenCV_Realtime_Angle_Calculation]]
+- [ ] [[Turdikulov_-_OpenCV_realtime_angle_calculation]]

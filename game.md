@@ -49,7 +49,7 @@ sr-ease: 242
 - [ ] [ASCII графика и PIXEL арт на Python - YouTube](https://www.youtube.com/watch?v=ww55ublLFq8)
 - [ ] [Red Blob Games](https://www.redblobgames.com/)
 - [ ] [t3ssel8r - YouTube](https://www.youtube.com/@t3ssel8r/videos)
-- [[Muratori-Handmade_Hero]]
+- [[Muratori_-_Handmade_hero]]
 - [[lineage_2_tools]]
 - [[L2bot]]
 - [[OpenCV_L2_Bot]]

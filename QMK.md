@@ -68,7 +68,7 @@ my case I need to hold `ESC` and plug USB cable.
 
 ## My keymap variant
 
-I have [generated PDF file](./img/QMK_current_layout.pdf) with mine keymap,
+I have [generated PDF file](./img/ref-QMK_config.pdf) with mine keymap,
 here is [QMK keymap](external/keymap.c) file. To generate it I followed these
 steps:
 
