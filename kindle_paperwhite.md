@@ -8,9 +8,9 @@ tags:
 
 ## Syncting
 
-[Setup Syncthing on Kindle Touch](https://github.com/gutenye/syncthing-kindle)
+[Setup Syncthing on Kindle Touch](https://github.com/gutenye/syncthing-kindle).
 
-## Autostart
+Below some information how to start syncthing on startup.
 
 [From https://github.com/gutenye/syncthing-kindle/issues/3](https://github.com/gutenye/syncthing-kindle/issues/3)
 
@@ -40,3 +40,18 @@ mntroot ro
 ```
 
 Exit from Koreader, Reboot Kindle, Verify, remove `/mnt/us/extensions/syncthing/config`
+
+## Boot koreader on kindle startup
+
+Need to copy below config into `/etc/upstart`, like in tutorial above.
+
+```
+start on framework_ready and started kb and started pillow
+
+stop on (stopping system or ota-update)
+
+script
+    source /etc/upstart/env
+    [ -f /mnt/us/koreader/koreader.sh ] && exec /bin/bash /mnt/us/koreader/koreader.sh --kual --asap
+end script
+```
