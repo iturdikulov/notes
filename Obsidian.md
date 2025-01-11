@@ -45,31 +45,6 @@ sr-ease: 226
 
 Check also [[spaced_repetition#Hotkeys|Spaced repetition]].
 
-## Custom checkbox (CSS)
-
-- [ ] `[ ]` Unchecked
-- [x] `[x]` Checked
-- [>] `[>]` Rescheduled
-- [<] `[<]` Scheduled
-- [!] `[!]` Important
-- [-] `[-]` Cancelled
-- [/] `[/]` In Progress
-- [?] `[?]` Question
-- [*] `[*]` Star
-- [n] `[n]` Note
-- [l] `[l]` Location
-- [i] `[i]` Information
-- [I] `[I]` Idea
-- [S] `[S]` Amount
-- [p] `[p]` Pro
-- [c] `[c]` Con
-- [b] `[b]` Bookmark
-- ["] `["]` Quote
-
-[Alternative Checkboxes (Icon Bullets) - Copy and paste - #15 by malhashemi -
-Share & showcase - Obsidian
-Forum](https://forum.obsidian.md/t/alternative-checkboxes-icon-bullets-copy-and-paste/35962/15)
-
 ## Plugins
 
 - [ ] Review [Obsidian tracker](https://github.com/pyrochlore/obsidian-tracker)

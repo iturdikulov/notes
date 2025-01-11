@@ -12,35 +12,24 @@ sr-ease: 194
 
 TODO: global rewrite
 
-## Chat rooms, forums, etc
+To understand custom bullet list types check [[my_notation]] note.
 
-- [Neovim Discourse](https://neovim.discourse.group/categories)
+## Now
 
-## Cheat sheet
+- [ ] [[Neovim]], research a topic
+- [ ] [How to Do 90% of What Plugins Do (With Just Vim)](https://www.youtube.com/watch?v=XA2WjJbmmoM)
+- [ ] ![Vim cheatsheet](Vim_Cheat_Sheet_for_Programmers.pdf), check and practice
+- [ ] `:h`
+- [ ] [VimGolf](https://www.vimgolf.com/)
+- [ ] [Interactive Vim tutorial](http://www.openvim.com/)
+- [ ] [[Neil_-_Practical_Vim]]
+- [ ] [[Neil_-_Modern_Vim]]
 
-TODO: broken link
-![](Vim_Cheat_Sheet_for_Programmers.pdf)
+## Inbox
 
-### Plugins and configs
-
-- [neovimcraft](https://neovimcraft.com/)
-- [Vim Awesome](https://vimawesome.com/)
-
-### Practice
-
-- [VimGolf](https://www.vimgolf.com/)
-- [Interactive Vim tutorial](http://www.openvim.com/)
-
-### Learning
-
-- [How to Do 90% of What Plugins Do (With Just Vim)](https://www.youtube.com/watch?v=XA2WjJbmmoM)
 - [7 Habits For Effective Text Editing 2.0](https://www.youtube.com/watch?v=eX9m3g5J-XA)
 - [Vim Tips Wiki](https://vim.fandom.com/wiki/Vim_Tips_Wiki)
 - [Изучаем Vim - YouTube](https://www.youtube.com/playlist?list=PLcjongJGYetkY4RFSVftH43F91vgzqB7U)
-
-- [[Neil-Modern_Vim]]
-- [[Neil-Practical_Vim]]
-
 
 - [ ] [Resolve Git Merge Conflicts with Neovim and Fugitive! - YouTube](https://www.youtube.com/watch?v=vpwJ7fqD1CE)
 - [ ] [Harpoon : Vim Conference 2021 - YouTube](https://youtu.be/Qnos8aApa9g)
@@ -48,7 +37,6 @@ TODO: broken link
 - [x] [How to Vim in 2023: Tips and Tricks - YouTube](https://www.youtube.com/watch?v=FrMRyXtiJkc)
 - [ ] [Setup nvim-lspconfig + nvim-cmp | Devlog](https://vonheikemen.github.io/devlog/tools/setup-nvim-lspconfig-plus-nvim-cmp/)
 - [ ] [@DebuggingInNe] Debugging In Neovim (ft BashBunni and TJ DeVries) - YouTube
-
 
 - [ ] [Vim Cheat Sheet](http://jrmiii.com/attachments/Vim.pdf)
 - [ ] [How can you list the matches of Vim's search? - Stack Overflow](https://stackoverflow.com/questions/509690/how-can-you-list-the-matches-of-vims-search)
@@ -88,11 +76,10 @@ TODO: broken link
 - [ ] [Automatically Execute *Anything* in Nvim - YouTube](https://www.youtube.com/watch?v=9gUatBHuXE0)
 - [ ] [Execute **anything** in neovim (now customizable) - YouTube](https://www.youtube.com/watch?v=HlfjpstqXwE)
 
+- [Vimcasts - Free screencasts about the text editor Vim](http://vimcasts.org/)
+- [cheatsheets/vim.md](https://github.com/rstacruz/cheatsheets/blob/master/vim.md)
+- [vim cheatcheet](https://i.imgur.com/YLInLlY.png)
 
-- http://vimcasts.org/
-- https://github.com/rstacruz/cheatsheets/blob/master/vim.md
-- https://imgur.com/gallery/YLInLlY
-- https://noonker.github.io/posts/2020-04-22-elfeed/
 - https://raw.githubusercontent.com/LeCoupa/awesome-cheatsheets/master/tools/vim.txt
 - https://raw.githubusercontent.com/hackjutsu/vim-cheatsheet/master/README.md
 - https://resources.jetbrains.com/storage/products/pycharm/docs/PyCharm_ReferenceCard.pdf
@@ -102,5 +89,4 @@ TODO: broken link
 - https://vimsheet.com/
 - https://wikemacs.org/wiki/Python
 - https://www.reddit.com/r/emacs/comments/a3rajh/chrome_bookmarks_sync_to_org/
-- https://www.vimgolf.com/
 - https://github.com/tpope/vim-surround/blob/master/doc/surround.txt

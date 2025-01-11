@@ -837,7 +837,7 @@ conflict.
 - [x] [Resolving a merge conflict using the command line - GitHub Docs](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/resolving-a-merge-conflict-using-the-command-line)
 - [ ] [Команда Git Rerere](https://medium.com/nuances-of-programming/%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D0%B0-git-rerere-%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D0%B7%D0%B8%D1%80%D1%83%D0%B9%D1%82%D0%B5-%D1%80%D0%B5%D1%88%D0%B5%D0%BD%D0%B8%D1%8F-%D0%B4%D0%BB%D1%8F-%D1%83%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B5%D0%BD%D0%B8%D1%8F-%D0%BA%D0%BE%D0%BD%D1%84%D0%BB%D0%B8%D0%BA%D1%82%D0%BE%D0%B2-%D1%81%D0%BB%D0%B8%D1%8F%D0%BD%D0%B8%D1%8F-5dac55edadcc)
 
-- [ ] [[Linux_Community-Submitting_patches]]
+- [ ] [[Linux_community_-_Submitting_patches]]
 - [ ] [GitHub - conventional-commits/conventionalcommits.org: The conventional commits specification](https://github.com/conventional-commits/conventionalcommits.org)
 
 - [ ] [The ULTIMATE Git workflow using Neovim's Fugitive, Telescope & Git-Signs!](https://www.youtube.com/watch?v=IyBAuDPzdFY)
@@ -855,8 +855,7 @@ conflict.
 - [ ] [cirosantilli/test-git-conflict: Generate various kinds of Git conflicts, including conflicts suitable to interactively test a merge resolution tool. More fun stuff at: https://github.com/cirosantilli/test-git-web-interface](https://github.com/cirosantilli/test-git-conflict)
 - [ ] [Git - SubmittingPatches Documentation](https://git-scm.com/docs/SubmittingPatches)
 - [ ] [Git - gittutorial Documentation](https://git-scm.com/docs/gittutorial)
-- [ ] [[Chacon_and_Ben-Pro_Git]]
+- [ ] [[Chacon_and_Ben_-_Pro_git]]
 - [ ] [[diff]]
 - [A collection of useful .gitattributes templates](https://github.com/gitattributes/gitattributes)
 - [A collection of useful .gitignore templates](https://github.com/github/gitignore)
-

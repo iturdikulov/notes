@@ -21,7 +21,10 @@ sr-ease: 254
 Rofi is my primary UI for GUI windows manage (launch/activate), passwords
 picking with [[pass]], open bookmarks, favorite files open tool, etc.
 
-## Key bindings (not all)
+## Key bindings
+
+- Go to the previous page::`Page_Up`
+- Go to the next page::`Page_Down`
 
 - Paste clipboard::`C-v`
 - Clear line:`C-w`
@@ -51,8 +54,6 @@ picking with [[pass]], open bookmarks, favorite files open tool, etc.
 - Select next entry::`Down` or `C-n`
 - Go to next row::`Tab`
 - Go to previous row::`S-Tab`
-- Go to the previous page::`Page_Up`
-- Go to the next page::`Page_Down`
 - To the first entry::`Home`
 - Go to the last entry::`End`
 - Set selected item as input text::`C-space`

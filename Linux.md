@@ -10,7 +10,7 @@ sr-ease: 248
 
 # GNU/Linux
 
-> Linux or **GNU/Linux** is a [[Unix]]-like [[operating_system]] (or family of)
+> Linux or **GNU/Linux** is a [[Unix]]-like [[OS]] (or family of)
 > for [[computer|computers]].
 >
 > The Linux kernel (the basis of the operating system) is free software, meaning

@@ -94,6 +94,7 @@ Source code of coreutils can be found at gnu.org website:
 - `basename` - Removes the path prefix from a given pathname
 - `chroot` - Changes the root directory
 - `date` - Prints or sets the system date and time
+    - Prints the date and time in UTC::`date -u`
 - `dirname` - Strips non-directory suffix from file name
 - `du` - Shows disk usage on file systems
 - `echo` - Displays a specified line of text

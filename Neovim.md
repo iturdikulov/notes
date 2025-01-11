@@ -20,8 +20,10 @@ sr-ease: 130
 > (especially editor and Vimscript features) is maintained where possible.\
 > — <cite>`:help nvim`</cite>
 
-Hyperextensible Vim-based text editor. Your personal Editor Development
-Environment.
+Hyperextensible Vim-based text editor. My [[PDE]] (personal Editor Development
+Environment).
+
+TODO: merge with current note.
 
 I keep my learning resources and learning plan in [[Neovim_learning_path]] note.
 I also have a "[[vim_base_keybindings]]" note.
@@ -1212,10 +1214,10 @@ rel=".\{-}"
 - [ ] Commit style
 - [ ] Code style
 - [ ] CLI tools
-- [ ] [[Irianto-Learn_Vim]]
-- [ ] [[Neil-Modern_Vim]]
-- [ ] [[Neil-Practical_Vim]]
-- [ ] [[Osipov-Mastering_Vim]]
+- [ ] [[Irianto_-_Learn_Vim]]
+- [ ] [[Neil_-_Modern_Vim]]
+- [ ] [[Neil_-_Practical_Vim]]
+- [ ] [[Osipov_-_Mastering_Vim]]
 - [ ] coverage test, [andythigpen/nvim-coverage](https://github.com/andythigpen/nvim-coverage)?
 - [ ] generate test, AI-test generate? [jackMort/ChatGPT.nvim](https://github.com/jackMort/ChatGPT.nvim)
 - [ ] [VimGolf - real Vim ninjas count every keystroke!](https://www.vimgolf.com/)
@@ -1411,3 +1413,24 @@ Use `:Focus` to o temporarily, globally override the default dispatch:
 will be switched.
 
 `:Start ping example.com`
+
+## Vim/NeoVim swapfile
+
+Sometimes vim swap-file (temprorary file buffer) can save you from a data
+loosing. But it's usage a little-bi counterintuitive. So here is simple workflow
+/ test case:
+- Open in NeoVim some file, for example - `/tmp/random`.
+- Type someting and save it - `arst :w`.
+- Force close NeoVim, to emulate a crash - in my case I just kill pane in tmux,
+  `kill-pane`, but can be used someting like `pkill -9 nvim`.
+- Open NeoVim again, and open the file - `/tmp/random`.
+- You will see a warning message, that swap-file is used, I choose `[R]ecover`,
+  verify it (contains `arst`) and save `:w`.
+- Open `/tmp/random` file again (`:e` to reopen current), and choose `[D]elete`,
+  since swapfile is not needed anymore (we restored it in previus step).
+
+## External links
+
+- [Neovim Discourse](https://neovim.discourse.group/categories)
+- [neovimcraft](https://neovimcraft.com/), curated list of neovim plugins
+- [Vim Awesome](https://vimawesome.com/), awesome Vim plugins

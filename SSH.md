@@ -24,20 +24,37 @@ sr-ease: 228
 > the encrypted tunnel into multiple logical communication channels.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Secure_Shell_Protocol)</cite>
 
-## X11 forwarding on Android
+## Examples
+
+X11 forwarding on Android:
 
 - Start XSDL.
 - Open [[termux]] and type: `export DISPLAY=127.0.0.1:0`
 - SSH to remote host: `ssh -Y user@hostname`
 
-## Generate ed25519 ssh key
+Generate ed25519 ssh key:
 
 ```sh
 # -t type, -f file, -C comment
 ssh-keygen -t ed25519 -f ~/.ssh/id_ed25519 -C "Full Name <email>"
 ```
 
-## Upload an SSH Public Key
+Upload an SSH Public Key:
+
 ```sh
 ssh-copy-id -i path_to_file.pub user@host
+```
+
+Use SSH as a secure Proxy (tunnel traffic):
+
+```
+# Run proxy server at 1080 port and tunnel all trafic through remote server
+#   -D - bind port
+#   -N - don't execute any command
+#   -f - add this to run in background
+ssh -D 1080 -N user@remoteserver
+
+# Verify and test proxy
+netstat -pan | grep 1080
+brave --proxy-server="socks5://localhost:1080"
 ```

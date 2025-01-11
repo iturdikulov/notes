@@ -38,6 +38,9 @@ consists of:
 
 # ZSH vi mode
 
+=command - Locate path of executable or command, can be used to run some aliased
+program itself, `=watch`
+
 ## History
 
 - `ctrl-p` : Previous command in history
@@ -300,7 +303,7 @@ alt + n
 `~[TAB][TAB]`::List all users
 `$[TAB][TAB]`::List all system variables
 `@[TAB][TAB]`::List all entries in your /etc/hosts file
-`[TAB]`::Auto complete
+`[TAB]`::Auto complete, press `/` and then `TAB` if you want to list completion for directories
 `cd -`::change to PREVIOUS working directory
 History
 `command`::description
@@ -335,5 +338,6 @@ Use `ESC` or `CTRL-[` to enter `Normal mode`.
 
 ## External links
 
+- [ ] [Advanced topics to take advantage of zsh](https://github.com/rothgar/mastering-zsh)
 - [ ] [Z Shell Keyboard Shortcuts - Copperlight Writes](https://copperlight.github.io/shell/zsh-keyboard-shortcuts/)
 - [ ] [config_manager/xdg_config/zsh/.zshrc at master · tjdevries/config_manager · GitHub](https://github.com/tjdevries/config_manager/blob/master/xdg_config/zsh/.zshrc)
