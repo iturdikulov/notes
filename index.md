@@ -114,6 +114,7 @@ Some items will be moved into corresponding categories later.
 - [/] [[my_physical_exercise_plan]], research
 - [/] [[Sonmez_-_Soft_skills]]
 - [ ] [[C]], research note.
+- [ ] [[Go]], research note.
 - [ ] [[artificial_intelligence]], research note
 
 ### Projects
