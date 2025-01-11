@@ -95,7 +95,6 @@ Some items will be moved into corresponding categories later.
   - [ ] Move into [[Bash]] and document it.
 - [/] [[JavaScript]] note research.
   - [ ] Write flashcards.
-- [/] [[Godot]] note research (with documentation).
 - [/] Complete Intro to React.
 - [ ] [Build your own Interpreter](https://app.codecrafters.io/courses/interpreter/introduction)
   with [[Python]] and Crafting Interpreters book.
@@ -109,7 +108,11 @@ Some items will be moved into corresponding categories later.
 - [ ] [[my_psychology]] Laozi book research, part 2
 - [ ] [[solid]] note research, part 2.
 - [/] [[Stolyarov_-_Azy_programmirovaniya]], read and take notes.
+- [/] [[Khan_Academy]]
 - [/] cs50py (mainly to be more familiar with Engish voculary)
+- [/] [[Godot]] note research (with documentation).
+- [/] [[my_physical_exercise_plan]], research
+- [/] [[Sonmez_-_Soft_skills]]
 
 ### Projects
 
@@ -240,8 +243,6 @@ Some items will be moved into corresponding categories later.
 
 ### IRL
 
-- [/] [[my_physical_exercise_plan]], research
-- [/] [[Sonmez_-_Soft_skills]]
 - [[soldering]], research
 - [[Zettelkasten]], [[zettelkasten_notes_type]], research
 - [[Laozi_-_Tao_Te_Ching]]
