@@ -19,24 +19,25 @@ I am a native speaker of [[Russian]], and sometimes I need to study
 English with Russian in same time (to understand grammar terms, differences,
 etc.).
 
-Fundamentals of English grammar:
+To understand custom bullet list types check [[my_notation]] note.
 
-- [[duolingo]]
-- [ ] Spelling punctuation and grammar SPAG
-- [ ] [[Petrov-Poliglot]]
-- [[CHernixovskaya-English_Start-up]]
-- [[Murphy_Essential_Grammar_in_Use_Elementary]]
-- [[Murphy_Essential_Grammar_in_Use_Intermediate]]
+## Now
 
-- [[duolingo]]
-- [English Playlists](https://boosty.to/englishplaylists)
-- [[Puzzle_English]], mostly not used anymore.
-
-## External links
-
+- [!] Fundamentals of English grammar:
+      ![[./img/Spelling_punctuation_and_grammar_SPAG.excalidraw]]
+- [!] [[duolingo]]
+- [ ] [[Petrov_-_Poliglot]]
+- [ ] [[CHernixovskaya_-_English_start-up]]
+- [ ] [[Murphy_Essential_Grammar_in_Use_Elementary]]
+- [ ] [[Murphy_Essential_Grammar_in_Use_Intermediate]]
+- [ ] [English Playlists](https://boosty.to/englishplaylists)
+- [ ] [[Puzzle_English]]
 - [ ] [Grammarly Home](https://www.grammarly.com/blog/capitalization-rules/)
 - [ ] [9 часов английского](https://www.youtube.com/watch?v=PqBT7xpmZlE)
 - [ ] [5 минут, чтобы разобраться в предлогах на английском: метод треугольника - YouTube](https://www.youtube.com/watch?v=cgYMtuFa8Iw)
+
+## Inbox
+
 - [General Writing Introduction - Purdue University](https://owl.purdue.edu/owl/general_writing/index.html)
 - [[english_language_transcription]]
 - [engVid](https://www.engvid.com/)
