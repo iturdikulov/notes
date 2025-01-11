@@ -12,11 +12,14 @@ sr-ease: 225
 
 > In [[computing]], a keyboard shortcut also known as hotkey is a
 > series of one or several keys to quickly invoke a software program or perform
-> a preprogrammed action. This action may be part of the standard functionality
+> a preprogrammed action.
+>
+> This action may be part of the standard functionality
 > of the operating system or application program, or it may have been written by
-> the user in a scripting language. Some integrated keyboards also include
-> pointing devices; the definition of exactly what counts as a "key" sometimes
-> differs.\
+> the user in a scripting language.
+>
+> Some integrated keyboards also include pointing devices; the definition of
+> exactly what counts as a "key" sometimes differs.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Keyboard_shortcut)</cite>
 
 [[touch_typing|Touch typing]] and keyboard shortcuts are main driver of
@@ -37,8 +40,7 @@ navigation and symbols layers.
 My layers and modifiers:
 
 Hold `SYM` to activate the symbols layer.
-Hold `NAV` to activate the navigation layer.
-Hold `SYM` and `NAV` to activate the numbers layers.
+Hold `NAV` to activate the navigation layer
 
 The home row modifiers are `oneshot` so that it's possible to modify the keys on
 the base layer, where there are no dedicated modifiers.
