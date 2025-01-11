@@ -9,6 +9,7 @@ sr-due: 2023-01-28
 sr-interval: 4
 sr-ease: 224
 ---
+
 # Blender
 
 Free and open source [[3D_computer_graphics|3D]] creation suite. Free as in
@@ -19,32 +20,36 @@ animated films, visual effects, [[art]], 3D-printed models, motion graphics,
 interactive 3D applications, virtual reality, and, formerly, video
 [[game|games]].
 
+## Learning path
+
+- [ ] [Making 3D console](https://cgcookie.com/courses/press-start-your-simple-first-blender-project)
+- [ ] [Blender Panel to import Google Earth Studio, KML Routes, and 3D Masking](https://github.com/imagiscope/EarthStudioTools)
+
 ## General shortcuts
 
 - Toggle left toolbar::`t`
-- Properties, right toolbar (useful to set dimensions, position, etc.)::`n`
+- Properties (right side), useful to set dimensions, position, etc.::`n`
 - Add new object::`S-a`
-- Delete::`x` or `DEL` (single object deleting without confirmation)
+- Delete::`x` or `del` (single object deleting without confirmation)
 - Search for function, mode aware::`F3`
 - Initiate move, move along axis:
   &#10;<br>
-  `g`; then `x`, `y`, `z` move along axis or move using `MiddleMouse` hold with
-  snapping to axis. Along local axis - `x,x`/`y,y`/`z,z`. Alternative drag `MMB`
-  while moving to snap/move object to axis.
-  You can move object by Gizmo (local) in move mode (left toolbar) and white
-  circle around object.
-  To cancel move press `ESC` or `RMB`.
+  `g`; then `x`, `y`, `z` move along axis or move using `mmb` hold with snapping
+  to axis. Along local axis (rotate object first) - `x,x`/`y,y`/`z,z`.
+  Alternative drag `mmb` while moving to snap/move object to axis. You can move
+  object by Gizmo (local) in move mode (left toolbar) and white circle around
+  object. To cancel move press `esc` or `rmb`.
 - Scale:
   &#10;<br>
-  `S`, along axis - `X/Y/Z` or scale using `MiddleMouse` hold with
-  snapping to axis. Along local axis - `X,X`/`Y,Y`/`Z,Z`.
+  `s`, along axis - `x/y/z` or scale using `mmb` hold with
+  snapping to axis. Along local axis - `x,x`/`y,y`/`z,z`.
   Or scale button in left panel.
 - Rotate
   &#10;<br>
-  `R`, along axis - `X/Y/Z` or rotate using `MiddleMouse` hold with
+  `r`, along axis - `x/y/z` or rotate using `mmb` hold with
   snapping to axis. Along local axis - `X,X`/`Y,Y`/`Z,Z`. Or rotate button in left
   panel.
-- Trackball Rotate::`R, R`
+- Trackball Rotate::`r, r`
 - Precise movement
   &#10;<br>
   `S-` (*hold*). Allow to drag/set value more precisely.
@@ -53,40 +58,43 @@ interactive 3D applications, virtual reality, and, formerly, video
   `C-(*hold*)`. Allow to drag/set value incrementally or enable snapping.
 - Duplicate vertices/mesh.
   &#10;<br>
-  `S-D`, or `Mesh -> Duplicate`. `LMB` to confirm, `Esc` to cancel.
+  `S-d`, or `Mesh -> Duplicate`. `lmb` to confirm, `esc` to cancel.
   When you duplicate vertices, you can press `p` to separate them into a new mesh.
-- Duplicate Linked TODO: linked?::`M-D`
-- Hide selection (geometry/vertices)::`H`
-- Show All::`M-H`
-- Hide all Except Selected::`S-H`
+- Duplicate Linked::`M-d`
+
+<!-- TODO: need to review -->
+
+- Hide selection (geometry/vertices)::`h`
+- Show All::`M-h`
+- Hide all Except Selected::`S-h`
 - Annotate::`D (*hold*) + LMB (*drag*)`
 - Erase Annotation::`D (*hold*) + RMB (*drag*)`
-- Open quick favorite's menu::`Q`
+- Open quick favorite's menu::`q`
 - Rename object
   &#10;<br>
   You can rename selected object by double-clicking on it in outliner. Or select object and press F2.
 - Shading Pie Menu
   &#10;<br>
-  `Z`. You can also change/check current view-port shading in top right corner,
+  `z`. You can also change/check current view-port shading in top right corner,
   layout mode
 - Toggle X-Ray (to select through mesh)
   &#10;<br>
-  `M-Z` or button in top right (2 squares).
+  `M-z` or button in top right (2 squares).
 - Pivot point pie menu TODO: what is pivot?::`.`
-- Snap pie menu::`S-S`
+- Snap pie menu::`S-s`
 - Orientation pie menu::`,`
-- Maximise Area (but keep toolbar)::`C-Space`
-- Fullscreen Area::`C-M-Space`
-- Quad view::`C-M-Q`
+- Maximise Area (but keep toolbar)::`C-space`
+- Fullscreen Area::`C-M-space`
+- Quad view::`C-M-q`
 - Open popup menu for last action (Adjust Last Operation)::`F9`
 
 ## Navigation shortcuts
 
-- Orbit::`MMB`
-- Pan::`S-MMB`
-- Zoom In/Out::`Scroll` or `C-MMB`
-- Smooth zoom::`C-MMB` (*drag*)
-- Fly::`S-~`. `Scroll` to change speed.
+- Orbit::`mmb`
+- Pan::`S-mmb`
+- Zoom In/Out::`scroll` or `C-mmb`
+- Smooth zoom::`C-mmb` (*drag*)
+- Fly::`S-~`. `scroll` to change speed.
 
 - Pie Menu::`~`
 - Focus::`.`
@@ -104,8 +112,8 @@ interactive 3D applications, virtual reality, and, formerly, video
 - Rotate Up::`8`
 - Opposite::`9`
 
-- Show All Objects::`Home`
-- Zoom to region::`S-B`
+- Show All Objects::`home`
+- Zoom to region::`S-b`
 
 Change Window type (under Cursor):
 
@@ -124,49 +132,49 @@ Change Window type (under Cursor):
 
 ## Object mode shortcuts
 
-- Change Mode Pie Menu::`C-TAB`
-- Edit/Object mode toggle::`TAB`
-- Mirror::`C-M` *then* `X/Y/Z` (*or* `MMB` *(drag))*
-- Set Parent (to last selected)::`C-P`
-- Clear Parent::`M-P`
-- Toggle Snapping::`S-TAB`, or button in top right controls.
-- Clear Location::`M-G`
-- Clear Rotation::`M-R`
-- Clear Scale::`M-S`
-- Apply Menu - Location / Scale / Rotation::`C-A`
-- Join Selected Objects::`C-J`
-- Copy Attributes to New Objects TODO: what is this?::`C-L`
+- Change Mode Pie Menu::`C-tab`
+- Edit/Object mode toggle::`tab`
+- Mirror::`C-m` *then* `X/Y/Z` (*or* `mmb` *(drag))*
+- Set Parent (to last selected)::`C-p`
+- Clear Parent::`M-p`
+- Toggle Snapping::`S-tab`, or button in top right controls.
+- Clear Location::`M-g`
+- Clear Rotation::`M-r`
+- Clear Scale::`M-s`
+- Apply Menu - Location / Scale / Rotation::`C-a`
+- Join Selected Objects::`C-j`
+- Copy Attributes to New Objects TODO: what is this?::`C-l`
 - Add Subdivision level::`C-0/1/2/3/4/5`
-- Mask view to region / Clear mask::`M-B`
-- Center 3D cursor::`S-C`
-- Move active object to collection::`M`
-- Move Active Camera to view::`C-M-Numpad0`
-- Set as Active Camera::`C-Numpad0`
+- Mask view to region / Clear mask::`M-b`
+- Center 3D cursor::`S-c`
+- Move active object to collection::`m`
+- Move Active Camera to view::`C-M-numpad0`
+- Set as Active Camera::`C-numpad0`
 
 ## General selection shortcuts
 
-- Select::`LMB`
-- Select All::`A`
-- Deselect All::`M-A`
-- Marquee Box Select::`B` *or* `LMB (*drag*)`
-- Circle Select::`C`
-- Lasso Select::`C-RMB`
+- Select::`lmb`
+- Select All::`a`
+- Deselect All::`M-a`
+- Marquee Box Select::`b` *or* `LMB (*drag*)`
+- Circle Select::`c`
+- Lasso Select::`C-rmb`
 - Invert Selection::`C-i`
-- Select Linked::`S-L`
-- Select Similar::`S-G`
-- Select from many TODO: what is this?::`M-LMB`
+- Select Linked::`S-l`
+- Select Similar::`S-g`
+- Select from many TODO: what is this?::`M-lmb`
 
-- Select Connected Mesh::`C-L`, useful to restore selection.
-- Select Connected Mesh Under Cursor::`L`
-- Select Edge Loop::`M-LMB`
-- Select Edge Ring::`C-M-RMB`
+- Select Connected Mesh::`C-l`, useful to restore selection.
+- Select Connected Mesh Under Cursor::`l`
+- Select Edge Loop::`M-lmb`
+- Select Edge Ring::`C-M-rmb`
 - Vertex Select Mode::`1`
 - Edge Select Mode::`2`
 - Face Select Mode::`3`
-- Mirror current selection::`C-S-M`
-- Grow/Shrink Selection TODO: need to fix my keyboard::`C-Num+`/ `C-Num-`
-- Edge Crease::`C-E`
-- Shrink/fatten::`M-S`
+- Mirror current selection::`C-S-m`
+- Grow/Shrink Selection TODO: need to fix my keyboard::`C-Num+`/ `C-nuM-`
+- Edge Crease::`C-e`
+- Shrink/fatten::`M-s`
 
 ## Edit mode shortcuts
 
@@ -174,113 +182,113 @@ Modelling:
 
 - Extrude::`e`, select at least few vertices, edges or faces.
 - Inset, TODO: how its working?::`i`
-- Bevel::`C-B`
-- Bevel Vertices::`C-S-B`
-- Loop cut, this is context-sensitive operation::`C-R`
+- Bevel::`C-b`
+- Bevel Vertices::`C-S-b`
+- Loop cut, this is context-sensitive operation::`C-r`
 - Vertex/Edge Slide::`G,G`
-- Knife::`K`
+- Knife::`k`
 - Fill Face::`F`
-- Shear::`C-S-M-S`
-- Bend::`S-W`
-- Split::`Y`
-- Rip::`V`
-- Rip Fill::`M-V`
-- Merge::`M`
-- Recalculate Normals::`S-N`
-- Flip Normals: TODO: what it does?::`C-S-N`
-- Proportional Editing On/Off::`O`
-- Proportional Falloff Type::`S-O`
-- Separate to new object::`P`
+- Shear::`C-S-M-s`
+- Bend::`S-w`
+- Split::`y`
+- Rip::`v`
+- Rip Fill::`M-v`
+- Merge::`m`
+- Recalculate Normals::`S-n`
+- Flip Normals: TODO: what it does?::`C-S-n`
+- Proportional Editing On/Off::`o`
+- Proportional Falloff Type::`S-o`
+- Separate to new object::`p`
 
 Curve Editing:
 
-- Add new handle::`E` *or* `C-RMB`
-- Change handle type::`V`
-- Delete but maintain connection::`C-X`
-- Close curve::`M-C`
-- Tilt, TODO: what is this?::`C-T`
-- Clear Tilt::`M-T`
+- Add new handle::`e` *or* `C-rmb`
+- Change handle type::`v`
+- Delete but maintain connection::`C-x`
+- Close curve::`M-c`
+- Tilt, TODO: what is this?::`C-t`
+- Clear Tilt::`M-t`
 
 Texturing:
 
 - TODO: need review
-- Unwrap::`U`
-- Mark Seam::`C-E`
+- Unwrap::`u`
+- Mark Seam::`C-e`
 
 ## UV Editor shortcuts
 
 - TODO: need review
-- Select Island::`L` (*under cursor*) or `C-L`
-- Stitch::`V`
-- Weld::`S-W`
-- Pin::`P`
-- Unpin::`M-P`
-- Select Pinned::`S-P`
+- Select Island::`l` (*under cursor*) or `C-l`
+- Stitch::`v`
+- Weld::`S-w`
+- Pin::`p`
+- Unpin::`M-p`
+- Select Pinned::`S-p`
 
 ## Image editor shortcuts
 
 View:
 
-- Properties, Scopes, Slots and Metadata::`N`
+- Properties, Scopes, Slots and Metadata::`n`
 - View at 100%::`1 (Numpad)`
-- View to Fit::`S-Home`
-- Next Render Slot::`J`
-- Previous Render Slot::`M-J`
+- View to Fit::`S-home`
+- Next Render Slot::`j`
+- Previous Render Slot::`M-j`
 - Select Render Slot::`1-8`
-- Save Image::`M-S`
-- Save Image As TODO: need compare with pdf cheatsheet::`S-M-S`
+- Save Image::`M-s`
+- Save Image As TODO: need compare with pdf cheatsheet::`S-M-s`
 
 Paint:
 
-- Create New Blank Image::`M-N`
-- Open Image::`M-O`
-- Brush Properties::`N`
+- Create New Blank Image::`M-n`
+- Open Image::`M-o`
+- Brush Properties::`n`
 - Brush Size::`F`
 - Brush Strength::`S-F`
-- Sample Color::`S`
-- Flip Color::`X`
+- Sample Color::`s`
+- Flip Color::`x`
 
 ## Nodes shortcuts
 
 TODO: need review
 
-- Cut Connection::`C-RMB` (*drag*)
+- Cut Connection::`C-rmb` (*drag*)
 - Connect selected::`F`
-- Properties::`N`
-- Delete selected but maintain connection::`C-X`
-- Duplicate selected and maintain connection::`C-S-D`
-- Mute Selected::`M`
-- Group Selected::`C-G`
-- Ungroup Selected::`C-M-G`
-- Edit Group (Toggle)::`TAB`
-- Frame Selected Nodes::`C-J`
-- Show/Hide inactive node slots::`C-H`
+- Properties::`n`
+- Delete selected but maintain connection::`C-x`
+- Duplicate selected and maintain connection::`C-S-d`
+- Mute Selected::`m`
+- Group Selected::`C-g`
+- Ungroup Selected::`C-M-g`
+- Edit Group (Toggle)::`tab`
+- Frame Selected Nodes::`C-j`
+- Show/Hide inactive node slots::`C-h`
 
 Compositor:
 
 TODO: need review
 
-- Move backdrop::`M-MMB`
+- Move backdrop::`M-mmb`
 - Zoom backdrop::`V / M-V`
-- Properties and performance::`N`
+- Properties and performance::`n`
 
 ## Sculpting shortcuts
 
-- Inflate::`I`
-- Draw::`X`
-- Grab::`G`
-- Brush Selection::`S-Space`
+- Inflate::`i`
+- Draw::`x`
+- Grab::`g`
+- Brush Selection::`S-space`
 - Change Brush Size::`F`
 - Change Brush Strength::`S-F`
 - Brush Angle::`C-F`
-- Angle Control::`R`
-- Stroke Control::`E`
-- Mask (box)::`B`
-- Mask (brush)::`M`
-- Mask (brush) erase mode::Hold `C-`, while you in mask mode (`B`).
-- Clear Mask::`M-M`
+- Angle Control::`r`
+- Stroke Control::`e`
+- Mask (box)::`b`
+- Mask (brush)::`m`
+- Mask (brush) erase mode::Hold `C-`, while you in mask mode (`b`).
+- Clear Mask::`M-m`
 - Invert Mask::`C-i`
-- Hide (box)::`H`
+- Hide (box)::`h`
 - Toggle Isolate mode::`/`
 - Temporary toggle smooth tool::`S-`
 
@@ -289,14 +297,14 @@ TODO: need review
 - Render::`F12`
 - Render Animation::`C-F12`
 - Playback rendered animation::`C-F11`
-- Set Render Region, TODO: how it working?::`C-B`
-- Clear Render Region::`C-M-B`
+- Set Render Region, TODO: how it working?::`C-b`
+- Clear Render Region::`C-M-b`
 
 Animation general:
 
-- Play/Pause Playback::`Space`
-- Reverse Play::`C-S-Space`
-- Scroll through frames::`M-Scroll`
+- Play/Pause Playback::`space`
+- Reverse Play::`C-S-space`
+- Scroll through frames::`M-scroll`
 - Next/Previous Frame::`Left/Right arrow`
 - First/Last Frame::`S-Left/Right arrow`
 - Jump to Keyframe::`Up/Down arrow`
@@ -305,44 +313,44 @@ Animation general:
 
 Timeline / Dopesheet
 
-- Toggle Dopesheet::`C-TAB`
-- Toggle Frames/Seconds::`C-T`
-- Zoom to fit active keyframes::`Home` *or* `. (Numpad)`
-- Set Keyframe Interpolation::`T`
-- Set Keyframe Handle Type::`V`
-- Set Keyframe Extrapolation::`S-E`
-- Mirror Keyframes::`C-M`
-- Set Preview Range::`P` *then* `LMB` (*drag*)
-- Auto set preview range::`C-M-P`
-- Clear Preview::`M-P`
-- Marker::`M`
-- Rename Marker TODO: not working?::`C-M`
+- Toggle Dopesheet::`C-tab`
+- Toggle Frames/Seconds::`C-t`
+- Zoom to fit active keyframes::`home` *or* `. (Numpad)`
+- Set Keyframe Interpolation::`t`
+- Set Keyframe Handle Type::`v`
+- Set Keyframe Extrapolation::`S-e`
+- Mirror Keyframes::`C-m`
+- Set Preview Range::`p` *then* `lmb` (*drag*)
+- Auto set preview range::`C-M-p`
+- Clear Preview::`M-p`
+- Marker::`m`
+- Rename Marker TODO: not working?::`C-m`
 
-- Bind Selected Camera to Selected Marker, TODO: what it do?::`C-B`
+- Bind Selected Camera to Selected Marker, TODO: what it do?::`C-b`
 - Select keyframes before/after current frame::`[/]`
-- Select all keyframes on current frame, TODO: what it do?::`C-K`
+- Select all keyframes on current frame, TODO: what it do?::`C-k`
 
 Graph Editor:
 
 - TODO: need review
-- Add Keyframe at Cursor::`C-RMB`
-- Properties and Modifiers::`N`
-- Lock Selected Channel::`TAB`
+- Add Keyframe at Cursor::`C-rmb`
+- Properties and Modifiers::`n`
+- Lock Selected Channel::`tab`
 
 ## Rigging (armatures)
 
-- Add new bone::`E`
-- Duplicate bone::`S-D`
-- Bone Settings::`S-W`
-- Roll::`C-R`
-- Clear Roll::`M-R`
-- Recalculate Roll::`S-N`
-- Align bone::`C-M-A`
+- Add new bone::`e`
+- Duplicate bone::`S-d`
+- Bone Settings::`S-w`
+- Roll::`C-r`
+- Clear Roll::`M-r`
+- Recalculate Roll::`S-n`
+- Align bone::`C-M-a`
 - Switch bone direction::`M-F`
-- Dissolve Bone::`C-X`
-- Dissolve bones::`C-X`
-- Split::`Y`
-- Separate::`P`
+- Dissolve Bone::`C-x`
+- Dissolve bones::`C-x`
+- Split::`y`
+- Separate::`p`
 - Scroll Hierarchy::`]` *and* `[`
 
 Posing Mode:
@@ -350,24 +358,24 @@ Posing Mode:
 - TODO: need review
 
 - Add Keyframe::`i`
-- Clear Location::`M-G`
-- Clear Rotation::`M-R`
-- Clear Scale::`M-S`
-- Apply Pose::`C-A`
-- Propagate Pose::`M-P`
-- Push Pose from Breakdown::`C-E`
-- Relax Pose to Breakdown::`M-E`
-- Pose Breakdowner::`S-E`
-- Copy Pose::`C-C`
-- Paste Pose::`C-V`
+- Clear Location::`M-g`
+- Clear Rotation::`M-r`
+- Clear Scale::`M-s`
+- Apply Pose::`C-a`
+- Propagate Pose::`M-p`
+- Push Pose from Breakdown::`C-e`
+- Relax Pose to Breakdown::`M-e`
+- Pose Breakdowner::`S-e`
+- Copy Pose::`C-c`
+- Paste Pose::`C-v`
 - Add IK::`S-i`
-- Add Pose to Library::`S-L`
-- Paste Pose Flipped::`C-S-V`
-- Add Constraint::`C-S-C`
+- Add Pose to Library::`S-l`
+- Paste Pose Flipped::`C-S-v`
+- Add Constraint::`C-S-c`
 
 ## More keybindings
 
-![[./img/blender-infographic-SM-2500.png]]
+![[./img/blender-infographiC-SM-2500.png]]
 _[Learn Blender with a poster infographic](https://www.giudansky.com/illustration/infographics/blender-map)_
 
 ---
@@ -385,7 +393,7 @@ _[Blender Hotkey Cheat Sheet](https://cgcookie.com/downloads/blender-hotkey-chea
 - [ ] [How To Render This Cinematic Shot With EEVEE - YouTube](https://www.youtube.com/watch?app=desktop&v=RB6Ytdfwy-0)
 - [ ] [Create a Realistic Forest in 30 Minutes - YouTube](https://www.youtube.com/watch?v=72LPW4S8bns)
 
-- [ ] [PRESS START: Your Simple First Blender Project](https://cgcookie.com/courses/press-start-your-simple-first-blender-project)
+- [ ] [PRESS START: Your Simple First Blender Project](https://cgcookie.com/courses/presS-start-your-simple-First-blender-project)
 - [ ] [Тропическая сцена в Blender](https://www.youtube.com/watch?v=CsNgljHnbhA)
 - [ ] [Blender Tutorial - Quick Rigid Body Fun](https://www.youtube.com/watch?v=nHVYYMG3QVY)
 - [ ] [How to Create Ghibli Trees in 3D - Blender Tutorial](https://www.youtube.com/watch?v=DEgzuMmJtu8)
@@ -405,7 +413,7 @@ _[Blender Hotkey Cheat Sheet](https://cgcookie.com/downloads/blender-hotkey-chea
 - [ ] [Sculpt January 2018 | no 9 | Tool | Blender](https://www.youtube.com/watch?v=exAwCkuGHe4)
 - [ ] [Easy God Rays or Sun Rays in Blender](https://www.youtube.com/watch?v=MQooOGayOQI)
 - [ ] [Ray Gun Beginners Tutorial | Blender 2.8 | Part 2 materials](https://www.youtube.com/watch?v=ffcf8W-4guA)
-- [ ] [Clipping or Alpha Inheritance](https://www.youtube.com/watch?v=HeCs-VdpzdI)
+- [ ] [Clipping or Alpha Inheritance](https://www.youtube.com/watch?v=HeCS-VdpzdI)
 - [ ] [Burning Embers, Leaves or Dust Particles](https://www.youtube.com/watch?v=Tg_gGLqDUqg)
 - [ ] [Creating Magic Portals | Transparent Textures in Blender 2.8](https://www.youtube.com/watch?v=pBIRKRmsDkA)
 - [ ] [Blender Tutorial - Particle trail in less than 5 minutes](https://www.youtube.com/watch?v=7i0VwC5Jccc)
@@ -419,8 +427,8 @@ _[Blender Hotkey Cheat Sheet](https://cgcookie.com/downloads/blender-hotkey-chea
 - [ ] [Glass Liquid Simulation Tutorial](https://www.youtube.com/watch?v=V_LEc4r9_a0)
 
 - [ ] Geometry Nodes from scratch (check your filesystem)
-- [x] [[Price-Donut_Tutorial_in_Blender]]
-- [x] [[CG_Cookie-Blender_Basics]]
+- [x] [[Price_-_Donut_tutorial_in_Blender]]
+- [x] [[CG_Cookie_-_Blender_basics]]
 
 ## External links
 
