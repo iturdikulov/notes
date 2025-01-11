@@ -18,9 +18,3 @@ Website information:
 
 - URL: [iturdikulov.com](https://iturdikulov.com)
 
-## Inspiration
-
-- [The Interactive Fiction Archive](https://ifarchive.org/)
-- [PocketBase - Open Source backend in 1 file](https://pocketbase.io/)
-- [the morning paper - Computer Science](https://blog.acolyer.org/)
-- [Sentence Case: automatically capitalize sentences](https://getreuer.info/posts/keyboards/sentence-case/#overview)
