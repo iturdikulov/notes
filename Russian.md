@@ -22,9 +22,22 @@ sr-ease: 243
 > to a lesser extent in the Baltic states and Israel.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Russian_language)</cite>
 
-## References
+## Cyrillic script (Кириллица)
+
+Script was conceived and popularised by the followers of Cyril and Methodius in
+Bulgaria, its name denotes homage rather than authorship.
+
+The Russian alphabet (ру́сский алфави́т, ру́сская а́збука, more traditionally) is
+the script used to write the Russian language. It is derived from the Cyrillic
+script.
+
+![[./img/Russian_Cyrillic_alphabet.svg]]
+_The Russian alphabet_
+
+## External links
 
 - [Е. И. Литневская Русский язык: краткий теоретический курс для школьников](http://gramota.ru/book/litnevskaya.php)
+- [Russian National Corpus](https://ruscorpora.ru/en)
 - [gramota.ru book](http://gramota.ru/book/litnevskaya.php)
 - [gramota.ru](http://new.gramota.ru/)
 - [videotutor-rusyaz.ru](https://videotutor-rusyaz.ru/uchenikam/teoriya.html)
