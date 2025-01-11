@@ -8,37 +8,51 @@ sr-interval: 1
 sr-ease: 161
 ---
 
-# [[mathematics|Mathematics]] learning path
+# Mathematics learning path
 
-- [/] [Life Tensor](https://www.youtube.com/playlist?list=PLC2pBQ7lPOZCu0cehs7tPmnoeK2BjUiSk)
+I place here all my learning resources related to [[mathematics]], here is no
+strict grouping, but I'm trying to keep it organized by priority.
+
+To understand custom bullet list types check [[my_notation]] note.
+
+## Mathematics
+
+| Year | Title                                                                                                                           |
+| ---- | ------------------------------------------------------------------------------------------------------------------------------- |
+|      | [[Perelman_-_Zanimatelnaya_matematika\|Перельман - Занимательная математика]]                                                   |
+|      | [[Trushin_-_Kombinatorika\|Трушин - Комбинаторика]]                                                                             |
+|      | [[Zajcev_and_Ryzhkov_and_Skanavi_-_Elementarnaia matematika\|Зайцев и Рыжков и Сканави - Элементарная Математика]] |
+
+## Now
+
+- [!] [Life Tensor](https://www.youtube.com/playlist?list=PLC2pBQ7lPOZCu0cehs7tPmnoeK2BjUiSk)
 - [ ] Сканави
-- [ ] [[spacemath.xyz-Matematika_s_nulya]]
-- [ ] [[Vilenkin-populryanaya_kombinatorika]]
-- [ ] [[Math_is_Fun_Team-Math_is_Fun|Math is fun]]
-- [ ] [[Kiselyov-Elementy_algebry_i_analiza_chast_1]]
-- [ ] Intermediate Algebra, Miller et al
+- [ ] [Animation vs. Math - YouTube](https://www.youtube.com/watch?v=B1J6Ou4q8vE)
+- [ ] [Animation vs. Geometry - YouTube](https://www.youtube.com/watch?v=VEJWE6cpqw0)
+- [[spacemath.xyz_-_Matematika_s_nulya]]
+- [[Vilenkin_-_populryanaya_kombinatorika]]
+- [[Math_is_fun_community_-_Math_is_fun|Math is fun]]
+- [[Kiselyov_-_Elementy_algebry_i_analiza_chast_1]]
+- Intermediate Algebra, Miller et al
 
-- [ ] [Книга «Математика для гуманитариев» | savva4](https://savvateev.xyz/book/)
-- [ ] Курант, Роббинс: Что такое математика?
-- [ ] [[Emelin-Kratchajshij_kurs_shkolnoj_matematiki]]
-- [ ] [[Xendli-Schitajte_v_ume_kak_kompyuter]]
+- [!] Курант, Роббинс: Что такое математика?
+- [ ] [[Emelin_-_Kratchajshij_kurs_shkolnoj_matematiki]]
+- [ ] [[Xendli_-_Schitajte_v_ume_kak_kompyuter]]
+- [Книга «Математика для гуманитариев» | savva4](https://savvateev.xyz/book/)
 
-## Challenges
+## Inbox
 
 - [Project Euler](https://projecteuler.net/)
 
-## Theory and Interactive
+Theory and Interactive:
 
 - [[multiplication_table|Multiplication table]]
 - [Math Games](https://www.mathsisfun.com/games/index.html)
 - [GeoGebra](https://www.geogebra.org/)
 - [Mathway | Algebra Problem Solver](https://www.mathway.com/Algebra)
-
-## Wiki
-
 - [Mathematics - Wikiversity](https://en.wikiversity.org/wiki/Portal:Mathematics)
 
-## Basics
+Basics:
 
 - [math-prosto.ru](https://math-prosto.ru/)
 - [Математическая продлёнка. Квадратные уравнения во всей красе](https://habr.com/ru/post/714660/)
@@ -50,7 +64,7 @@ sr-ease: 161
 - [Все главные формулы по математике](https://educon.by/index.php/formuly/formmat)
 - [Cheat Sheets & Tables](https://tutorial.math.lamar.edu/Extras/CheatSheets_Tables.aspx)
 
-## Popular science and more
+Popular science and more:
 
 - [Introduction to Mathematical Thinking](https://www.coursera.org/learn/mathematical-thinking?utm_campaign=gotocourse&utm_medium=coursepage&utm_source=CourseTalk)
 - [Numberphile на русском](https://www.youtube.com/playlist?list=PLnL2HgHS7MDQhBx_gtn4gyLzGcjwYDAyJ)
@@ -58,24 +72,24 @@ sr-ease: 161
 - [Число Грэма Грехема(xkcdoff) - YouTube](https://www.youtube.com/watch?v=kOg-zDjA-0A)
 - [Задачи тысячелетия](https://www.youtube.com/playlist?list=PLzbL7FoiqpKboohozmqPpJXzO5m9iwHD-)
 
-### Algebra and Analysis
+Algebra and Analysis:
 
 - [ ] [Алгебра, уроки в свободном доступе](https://www.youtube.com/playlist?list=PLp1o4TiOetLxhCoq5ltCibkk0tlJua_z7)
-- [[Zorich-Matematicheskij_analiz]]
-- [[Schroder-Mathematical_Analysis]]
-- [[Demidovich-Sbornik_zadach_i_uprazhnenij_po_matematicheskomu_analizu]]
+- [[Zorich_-_Matematicheskij_analiz]]
+- [[Schroder_-_Mathematical_analysis]]
+- [[Demidovich_-_Sbornik_zadach_i_uprazhnenij_po_matematicheskomu_analizu]]
 
-### Discrete mathematics and programming related
+Discrete mathematics and programming related:
 
 - [A Programmer's Introduction to Mathematics](https://pimbook.org/)
 - [Ликбез по дискретной математике](https://stepic.org/course/%D0%9B%D0%B8%D0%BA%D0%B1%D0%B5%D0%B7-%D0%BF%D0%BE-%D0%B4%D0%B8%D1%81%D0%BA%D1%80%D0%B5%D1%82%D0%BD%D0%BE%D0%B9-%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B5-91/)
 - [Introduction to Numerical Computing with NumPy](https://www.youtube.com/watch?v=ZB7BZMhfPgk)
 - Concrete Mathematics: A Foundation for Computer Science
-- [[Romanovskij-Diskretnyj_analiz]]
-- [[Kushnirenko-Programmirovanie_dlya_matematikov]]
-- [[Kun-A_Programmers_Introduction_to_Mathematics]]
+- [[Romanovskij_-_Diskretnyj_analiz]]
+- [[Kushnirenko_-_Programmirovanie_dlya_matematikov]]
+- [[Kun_-_A_programmers_introduction_to_mathematics]]
 
-### Computer Graphics related
+Computer Graphics related:
 
 - [Projective Geometric Algebra](https://projectivegeometricalgebra.org/),
 - [Eric Cornwell Education Videos](https://vimeo.com/user543333)
