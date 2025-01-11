@@ -2,6 +2,10 @@ body {
   --file-line-width: 960px;
 }
 
+.cm-s-obsidian .HyperMD-codeblock {
+  font-size: 19px;
+}
+
 /* Body font for Editing and Reading views */
 .is-phone :is(.markdown-source-view, .markdown-preview-view) {
   font-size: 0.9em;
@@ -35,6 +39,16 @@ body {
   background-size: 1ch 100%;
   background-repeat: no-repeat;
   background-position: 80ch 0;
+}
+
+/* disable line wrap */
+.cm-contentContainer .cm-content {
+    white-space: nowrap;
+}
+
+/* code block line width */
+.cm-line {
+    max-width: 80ch;
 }
 
 /* Popup size */
