@@ -3,6 +3,8 @@ date: 2023-03-12
 tags:
   - inbox
   - productivity
+external:
+  - https://www.stephenmwangi.com/obsidian-spaced-repetition/
 sr-due: 2024-01-29
 sr-interval: 3
 sr-ease: 230
@@ -37,6 +39,9 @@ Right now I'm using [[Obsidian]] plugin
 and various note types to generate flashcards. I also use it to select current
 notes to work.
 
+Detailed documentation aviable at [Obsidian Spaced
+Repetition](https://www.stephenmwangi.com/obsidian-spaced-repetition/) website.
+
 <!-- TODO: describe how I use it (reviewing notes) -->
 
 ## Hotkeys
@@ -55,8 +60,7 @@ Spaced repetition obsidian plugin custom hotkeys.
 
 Simple ==highlight==. <!--SR:!2024-10-10,24,279-->
 
-Simple ==highlight== with several ==highlights== show only first.
-[Cloze Update](https://github.com/st3v3nmw/obsidian-spaced-repetition/pull/943) <!--SR:!2024-09-24,3,262!2024-09-25,4,270-->
+Simple ==highlight== with several ==highlights==, will generate multiple cards.
 
 Highlight (Cloze) with new line inside it is not ==work
 ing==. Still?
@@ -98,3 +102,11 @@ Simple question
 With Newlines is not working <!--SR:!2024-09-27,6,261-->
 
 as expected
+
+Multiple clozes ==1;;this== and ==1;;this==.
+
+Cloze with hint ==this;;hint==.
+
+TODO: review tags
+
+#SR-Python #SR-productivity #base #2D #3D #art #C #computer_graphics #cryptography #DB #doc #electronics #excalidraw #excalidraw inbox #gamedev #Go #Godot #history #IRL #Java #linguistic #log #Lua #mathematics #network #outline #Pascal #person #physics #productivity #Python #Rust #testing #Unix #VCS #web #SR-base
