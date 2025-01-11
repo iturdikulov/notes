@@ -20,6 +20,9 @@ sr-ease: 209
 > does not have to remember all the things he still has to do.\
 > — <cite>[Wikipedia in Simple English](https://simple.wikipedia.org/wiki/Getting_Things_Done)</cite>
 
+- TODO: Джедайские техники, Максим Дорофеев
+- TODO: Review this note
+
 I like ideas of GTD productivity system (or framework). I not read the book
 (TODO need read I think), but I use daily GTD method. This method allow getting
 things done **better way** than just allow things to happen.
@@ -70,6 +73,9 @@ it.
 ![Workflow](img/GTD_workflow.excalidraw)
 _GTD workflow_
 
+Also pretty useful Eisenhower matrix, which help to take a different view of
+tasks processing:
+
 ![[./img/eisenhower_matrix.excalidraw]]
 _My custom Eisenhower matrix_
 
@@ -96,12 +102,12 @@ Examples of contexts are `@home`, `@computer`, and `@office`.
 
 ### Examples of actions and their contexts
 
-| Action                             | Context         |
-| ---------------------------------- | --------------- |
-| Buy more rainbow-colored dog food  | @city or @store |
-| Play Gothic 1                      | @computer       |
-| Smile to a stranger                | @everywhere     |
-| Discuss with boss                  | @boss           |
+| Action                            | Context         |
+| --------------------------------- | --------------- |
+| Buy more rainbow-colored dog food | @city or @store |
+| Play Gothic 1                     | @computer       |
+| Smile to a stranger               | @everywhere     |
+| Discuss with boss                 | @boss           |
 
 ## The “some day/maybe” list
 
@@ -205,10 +211,6 @@ them.
 - For every tickle item, you should know why you get it in your inbox (again).
 - For every tickle item, you should know when you put it in your tickler system.
 - The transaction cost of using a tickler system should be as low as possible.
-
-## To-do
-
-- [ ] Джедайские техники, Максим Дорофеев
 
 ## References
 
