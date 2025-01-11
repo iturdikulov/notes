@@ -320,3 +320,5 @@ func main() {
 	fmt.Printf("v is of type %T\n", v)
 }
 ```
+
+## Goroutines

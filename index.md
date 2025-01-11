@@ -113,6 +113,7 @@ Some items will be moved into corresponding categories later.
 - [/] [[Godot]] note research (with documentation).
 - [/] [[my_physical_exercise_plan]], research
 - [/] [[Sonmez_-_Soft_skills]]
+- [ ] [[C]], research note.
 
 ### Projects
 
@@ -158,7 +159,6 @@ Some items will be moved into corresponding categories later.
 - [Data-Oriented Demo: SOA, composition - YouTube](https://www.youtube.com/watch?v=ZHqFrNyLlpA),
   research video.
 - [Handmade Hero](https://guide.handmadehero.org/), watch course and take notes.
-- [[C]], research note.
 - [plan9/sys/src/cmd/cat.c - GitHub](https://github.com/0intro/plan9/blob/main/sys/src/cmd/cat.c),
   research code.
 - [[Git]], need to research

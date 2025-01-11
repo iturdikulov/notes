@@ -3,6 +3,7 @@ date: 2023-10-06
 tags:
   - inbox
   - web
+  - SR-programming
 sr-due: 2023-01-28
 sr-interval: 8
 sr-ease: 203
@@ -41,6 +42,7 @@ doStuff()
 ```
 
 ### 1. Numbers, Strings and Operators
+
 ```js
 // JavaScript has one number type (which is a 64-bit IEEE 754 double).
 // Doubles have a 52-bit mantissa, which is enough to store integers
@@ -123,9 +125,7 @@ null == undefined; // = true
 // ...unless you use ===
 "5" === 5; // = false
 null === undefined; // = false
-```
 
-```
 // You can access characters in a string with `charAt`
 "This is a string".charAt(0);  // = 'T'
 
@@ -142,20 +142,20 @@ undefined; // used to indicate a value is not currently present (although
 
 // false, null, undefined, NaN, 0 and "" are falsy; everything else is truthy.
 // Note that 0 is falsy and "0" is truthy, even though 0 == "0".
+```
 
-///////////////////////////////////
-// 2. Variables, Arrays and Objects
+### 2. Variables, Arrays and Objects
 
+```js
 // Variables are declared with the `var` keyword. JavaScript is dynamically
 // typed, so you don't need to specify type. Assignment uses a single `=`
 // character.
 var someVar = 5;
 
 // If you leave the var keyword off, you won't get an error...
-someOtherVar = 10;
-
 // ...but your variable will be created in the global scope, not in the scope
 // you defined it in.
+someOtherVar = 10;
 
 // Variables declared without being assigned to are set to undefined.
 var someThirdVar; // = undefined
@@ -201,6 +201,7 @@ myArray0.slice(1,4); // = [false,"js",12]
 
 // Remove 4 elements starting from index 2, and insert there strings
 // "hi","wr" and "ld"; return removed subarray
+// array.splice(startIndex, deleteCount, item1, item2, ...)
 myArray0.splice(2,4,"hi","wr","ld"); // = ["js",12,56,90]
 // myArray0 === [32,false,"hi","wr","ld"]
 
@@ -223,9 +224,9 @@ myObj.myThirdKey = true;
 
 // If you try to access a value that's not yet set, you'll get undefined.
 myObj.myFourthKey; // = undefined
+```
 
-///////////////////////////////////
-// 3. Logic and Control Structures
+### 3. Logic and Control Structures
 
 // The `if` structure works as you'd expect.
 var count = 1;
@@ -310,11 +311,11 @@ switch (grade) {
     console.log("Oy vey");
     break;
 }
+```
 
+### 4. Functions, Scope and Closures
 
-///////////////////////////////////
-// 4. Functions, Scope and Closures
-
+```js
 // JavaScript functions are declared with the `function` keyword.
 function myFunction(thing){
     return thing.toUpperCase();
@@ -592,9 +593,11 @@ if (Object.create === undefined){ // don't overwrite it if it exists
         return new Constructor();
     };
 }
+```
 
-// ES6 Additions
+### ES6 Additions
 
+```js
 // The "let" keyword allows you to define variables in a lexical scope,
 // as opposed to a function scope like the var keyword does.
 let name = "Billy";
@@ -651,4 +654,8 @@ export default function Square() {  // define main exportable function
 ```
 
 To "remember" things, components use ==state, `useState`==. <!--SR:!2024-08-31,4,203-->
+
+## To-do
+
+- [ ] [JavaScript reference | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference)
 
