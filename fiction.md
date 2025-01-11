@@ -22,16 +22,14 @@ sr-ease: 228
 
 I associate fiction with the non-technical literature as first priority.
 
-I'm store my reading and completed fiction literature in [[my_fiction_books]].
+I'm store my reading and completed fiction literature in [[my_books]].
 
 You can check various fiction genres on the following image:
 
 ![Fiction genres](img/A_Plotting_of_Fiction_Genres.webp)
 _[A Plotting of Fiction Genres by popchart](https://popchart.co/products/a-plotting-of-fiction-genres)_
 
-## Genres
-
-### Science fiction
+## Science fiction
 
 > Science fiction (sometimes shortened to SF or sci-fi) is a genre of
 > speculative fiction, which typically deals with imaginative and futuristic
@@ -43,8 +41,3 @@ _[A Plotting of Fiction Genres by popchart](https://popchart.co/products/a-plott
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Science_fiction)</cite>
 
 My favorite genre.
-
-## References
-
-- [Лаборатория Фантастики](https://fantlab.ru/)
-

@@ -20,8 +20,12 @@ Significant part of my [[life|life]] is cooking. I like to cook
 - [[pan_pizza|Pan Pizza]]
 - [[semolina_porridge|Semolina porridge]]
 - [[creamy_mashed_potatoes|Creamy mashed potatoes]]
-- [Всегда Вкусно!](https://www.vsegdavkusno.ru/)
+
+## External links
+
 - [Based Cooking](https://based.cooking/)
+- [Всегда Вкусно!](https://www.vsegdavkusno.ru/)
+- [Кулинарный портал](http://ris-baza.ru/)
 - [CalorieKing](https://www.calorieking.com/us/en/)
 - [Based Cooking](https://based.cooking/)
 - [Cocktail Builder](https://www.cocktailbuilder.com/)

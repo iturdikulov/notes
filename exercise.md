@@ -11,7 +11,7 @@ sr-ease: 224
 # Exercise
 
 > Exercise is intentional physical activity to enhance or maintain fitness and
-> overall [[health]].
+> overall [[my_health]].
 >
 > It is performed for various reasons, including weight loss or maintenance, to
 > aid growth and improve strength, develop muscles and the cardiovascular

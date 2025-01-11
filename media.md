@@ -21,7 +21,7 @@ sr-ease: 250
 <!-- TODO: remove my, merge with similar notes. -->
 
 - [[my_art]]
-- [[my_fiction_books]]
+- [[my_books]]
 - [[my_videos]], including [[YouTube]] and [[Twitch]]
 - [[my_music]]
 - [[my_movies]]

@@ -11,22 +11,24 @@ sr-ease: 187
 # Art learning path
 
 Currently, I'm focusing on learning [[visual_art]] and [[photography]],
-additionally I'm learning [[CG_learning_path|computer graphics]] which is for me
+additionally I'm learning [[computer_graphics_learning_path|computer graphics]] which is for me
 very close field.
 
 I also like to practice [[my_handwriting|handwriting]].
+
+To understand custom bullet list types check [[my_notation]] note.
 
 ## Drawing
 
 - [/] [[my_sketchbook|Sketchbook]]
 - [/] [[30_day_drawing_challenge|Drawing Challenge]]
-- [/] [[Loomis-Fun_With_A_Pencil|Loomis book]]
-- [[Drawbox_Community-Drawbox|Taking fundamental drawing exercises]].
-- [[Prokopenko-Figure_Drawing_Fundamentals]]
+- [/] [[Loomis_-_Fun_with_a_pencil|Loomis book]]
+- [[Drawbox_community_-_Drawbox|Taking fundamental drawing exercises]].
+- [[Prokopenko_-_Figure_drawing_fundamentals]]
 
 ## Photography
 
-- [[Kilpatrik-Svet_i_osveshhenie]], good book about light and lighting.
+- [ ] [[Kilpatrik_-_Svet_i_osveshhenie]], good book about light and lighting.
 
 ## Software
 
@@ -36,7 +38,7 @@ I also like to practice [[my_handwriting|handwriting]].
 - [[GIMP]]
 - [[darktable]]
 
-## References
+## External links
 
 Here are some resources for [[artistic_inspiration]]:
 

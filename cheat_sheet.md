@@ -36,4 +36,4 @@ cheat-sheets, quick reference cards and other useful stuff.
 - [Wizard zines](https://wizardzines.com/comics/)
 - [C++ Cheat Sheets & Infographics](https://hackingcpp.com/cpp/cheat_sheets.html)
 - [CS 261](https://w3.cs.jmu.edu/lam2mo/cs261_2016_08/calendar.html), great
-source for [[CS_learning_path]].
+source for [[computer_science_learning_path]].
