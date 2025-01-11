@@ -18,6 +18,15 @@ sr-ease: 265
 I use dataview mainly to maintenance my [[Zettelkasten]] system. Below some
 useful queries which help me with that.
 
+## Recent files
+
+```dataview
+TABLE dateformat(file.mtime, "dd.MM.yyyy - HH:mm") AS "Last modified"
+FROM ""
+SORT file.mtime DESC
+LIMIT 25
+```
+
 ## No tags or small files?
 
 ```dataview
