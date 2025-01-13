@@ -246,7 +246,7 @@ others) often won't display the exact decimal number you expect.
 <!-- NEXT: need review -->
 
 1/10 is not exactly representable as a binary fraction. Since at least 2000,
-almost all machines use IEEE 754 binary [[floating-point arithmetic]], and
+almost all machines use IEEE 754 binary [[floating-point_arithmetic]], and
 almost all platforms map Python floats to IEEE 754 binary64 "double precision"
 values. IEEE 754 binary64 values contain 53 bits of precision, so on input the
 computer strives to convert 0.1 to the closest fraction it can of the form

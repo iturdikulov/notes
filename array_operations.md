@@ -26,7 +26,7 @@ When computer allocate an array, it makes note at which memory addresses the
 array begins, and knowing that address and index of any element, computer can
 calculate the memory address (simply addition) of that element in ==one== step. <!--SR:!2024-09-13,24,250-->
 
-![shopping list array](img/shopping_list_array.excalidraw.svg)
+![[./img/shopping_list_array_insert.excalidraw|shopping list array]]
 _Schematic array representation in memory_
 
 An array is stored such that the **position of each element** can be computed
@@ -162,7 +162,7 @@ value at a particular index.
 This is sort of reverse of insertion.
 Get index, jump to position, **delete value**, move all values to the left. <!--SR:!2024-09-12,15,230-->
 
-![shopping list array delete](img/shopping_list_array_delete.svg)
+![[./img/shopping_list_array_delete.excalidraw|shopping list array delete]]
 _Array deletion operation in memory_
 
 In worst case deletion from array operation will take (steps)?

@@ -15,7 +15,7 @@ sr-ease: 270
 > — <cite>[KOReader](http://koreader.rocks/)</cite>
 
 I frequently use it to read mostly fiction books on my
-[[my_inventory##Kindle paperwhite|kindle paperwhite]].
+kindle paperwhite.
 
 ## Brief user guide
 

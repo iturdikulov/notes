@@ -30,5 +30,5 @@ if some presentation work is done on server for example.
 > ==persistent storage== of some kind, such as an entity-relational database.\
 > — <cite>[Data access layer](https://en.wikipedia.org/wiki/Data_access_layer)</cite>
 
-I have a [[programming_learning_path#Backend|learning]]
+I have a [[computer_programming#Programming learning path|learning plan]]
 plan to become a backend developer.

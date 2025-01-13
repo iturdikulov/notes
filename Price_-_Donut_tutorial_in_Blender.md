@@ -13,7 +13,7 @@ sr-ease: 250
 
 # Blender Beginner Donut Tutorial
 
-A big part of this tutorial is also in [[Blender_common_shortcuts]] note.
+A big part of this tutorial is also in [[Blender]] note.
 
 Probably better to place `subdivision modifier` on bottom of the stack
 (depends on the situation).

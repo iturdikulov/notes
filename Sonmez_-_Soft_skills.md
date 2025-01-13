@@ -7,4 +7,6 @@ author: John Sonmez
 
 # Soft Skills: The Software Developer's Life Manual
 
+## Section 6. Fitness
+
 

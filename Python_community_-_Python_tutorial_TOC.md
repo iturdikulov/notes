@@ -27,7 +27,7 @@ of Python, most noteworthy features and language elements.
 8.  [[Python_community_-_Python_tutorial_08_errors|Errors and Exceptions]]
 9.  [[Python_community_-_Python_tutorial_09_classes|Classes]]
 10. [[Python_community_-_Python_tutorial_10_stdlib|Brief Tour of the Standard Library]]
-11. [[Python_community-Python_tutorial_11_venv|Virtual Environments and Packages]]
+11. [[venv|Virtual Environments and Packages]]
 12. [[Python_community_-_Python_tutorial_12_whatnow|What Now?]]
 13. [[Python_community_-_Python_tutorial_13_interactive|Interactive Input Editing and History Substitution]]
 14. [[Python_community_-_Python_tutorial_14_floating_point|Floating Point Arithmetic: Issues and Limitations]]

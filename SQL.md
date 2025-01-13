@@ -528,7 +528,7 @@ GROUP BY OrderID;
 
 ## Join Queries
 
-![SQL Join Queries](./img/SQL_joins.excalidraw.svg)
+![[./img/SQL_joins.excalidraw|SQL Join Queries]]
 _SQL Join Queries_
 
 The joined table will contain all records from both the tables and fill in
