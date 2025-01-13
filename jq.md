@@ -14,7 +14,8 @@ external:
 > — <cite>https://jqlang.github.io/jq/</cite>
 
 jq allows you to simplify ==[[JSON]]== data processing, it used to slice, filter
-and map and transform **structured data**, like [[sed]], [[awk]], [[grep]].
+and map and transform **structured data**, like [[GNU_sed]], [[GNU_awk]],
+[[GNU_grep]].
 
 Very detailed information aviable in jq manual: `man jq`, [jq
 Manual](https://jqlang.github.io/jq/manual/).
