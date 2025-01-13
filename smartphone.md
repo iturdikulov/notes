@@ -27,3 +27,15 @@ sr-ease: 268
 > satellite messaging connectivity and satellite emergency services into devices
 > for use in remote regions where there is no reliable cellular network.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Smartphone)</cite>
+
+I synchronize settings and applications, so each device can replace the other.
+My ideology is to use minimum installed software to minimize backup (pain on
+android) and new phone setup.
+
+TODO:
+
+- backup plan
+- resilo sync
+- obsidian
+- termux
+- etc.
