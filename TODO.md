@@ -1,5 +1,15 @@
 # TODO
 
+
+Resilo sync:
+sudo setfacl -R -m "u:rslsync:rwx" /home/inom/Wiki
+Directories in this list should be in the rslsync group, and that group must
+have write access to the directory. It is also recommended that chmod g+s is
+applied to the directory so that any sub directories created will also belong to
+the rslsync group. Also, setfacl -d -m group:rslsync:rwx and setfacl -m
+group:rslsync:rwx should also be applied so that the sub directories are
+writable by the group.
+
 Here I collect various inbox directories and services, which I need to check
 regularly. Main goal is get rid of entropy and [[GTD|getting things done]].
 
