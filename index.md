@@ -1,6 +1,6 @@
 ---
 title: iturdikulov.com
-date: 2024-12-03T23:07+03:00
+date: 2025-01-13T11:36+03:00
 tags:
   - inbox
   - outline
