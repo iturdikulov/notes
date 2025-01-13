@@ -24,7 +24,8 @@ programming language.
 
 In other words program (which now executed from machine code) translate source
 code written by human into machine code, which can be executed by computer to
-perform some actions (solve [[computational_problem]] as example).
+perform some actions (solve
+[[computation#Computational problem|computation problem]] as example).
 
 As example, you can write some compiler program (source code) for new
 programming language, by using one of existing compiler/programming language,
