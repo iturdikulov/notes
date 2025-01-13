@@ -47,34 +47,36 @@ To get email address please try to use **one** of these methods:
 
 Other ways to contact me **maybe** I'll share through email contact channel.
 
-## High-level topics
-
-In this section I store information about my current working and pet projects,
-what I'm currently learning, and other things that I'm interested in.
-
-Main activities, priority of list elements is matter:
+## My primary activities
 
 - [[projects]]
-
-- [[programming_learning_path]]
-- [[computer_science_learning_path]]
-- [[Neovim_learning_path]]
+- [[computer_programming]]
+- [[computer_science]]
 - [[computer_graphics_learning_path]]
+- [[Neovim_learning_path]], my [[PDE]]
 - [[artificial_intelligence#Learning path]]
 
-- [[art_learning_path]]
 - [[English_learning_path]]
 - [[mathematics_learning_path]]
 - [[physics_and_chemistry_learning_path]]
 
-Fun and relaxing activities:
+## IRL & Hobbies
+
+- [[my_psychology]]
+- [[my_health]]
+- [[art_learning_path]]
+
+- [[soldering]], research
+- [[Zettelkasten]], [[zettelkasten_notes_type]], research
+- [[Laozi_-_Tao_Te_Ching]]
+- [[Evans_-_So_you_want_to_be_a_WizarD]], research
+
+## Fun and relaxing activities
 
 - [[my_news]]
 - [[my_music]]
 - [[my_books]]
 - [[my_movies]]
-- [[my_psychology]]
-- [[my_health]]
 - [[my_games]]
 - [[my_sketchbook]]
 - [[my_awesome_software_list]]
@@ -91,41 +93,16 @@ Some items will be moved into corresponding categories later.
 
 ### MIT (most important things)
 
-- [/] codecrafters-shell_python at [Build your own Shell](https://app.codecrafters.io/courses/shell/introduction).
-  - [ ] Move into [[Bash]] and document it.
-- [/] [[JavaScript]] note research.
-  - [ ] Write flashcards.
-- [/] Complete Intro to React.
-- [ ] [Build your own Interpreter](https://app.codecrafters.io/courses/interpreter/introduction)
-  with [[Python]] and Crafting Interpreters book.
-  - [ ] [Welcome](https://craftinginterpreters.com/welcome.html) and prepare project.
-  - [ ] [Introduction](https://craftinginterpreters.com/introduction.html).
-  - [ ] [The Lox Language](https://craftinginterpreters.com/the-lox-language.html).
-- [/] [PostgreSQL Tutorial](https://neon.tech/postgresql/tutorial).
-- [ ] [[aio-pika_Community_-_rabbitmq_tutorial]].
-- [ ] [Common Gateway Interface - Wikipedia](https://en.wikipedia.org/wiki/Common_Gateway_Interface).
-- [ ] [[Python]] note research, part 2.
+- [ ] research blender
 - [ ] [[my_psychology]] Laozi book research, part 2
-- [ ] [[solid]] note research, part 2.
-- [/] [[Stolyarov_-_Azy_programmirovaniya]], read and take notes.
 - [/] [[Khan_Academy]]
-- [/] cs50py (mainly to be more familiar with Engish voculary)
 - [/] [[Godot]] note research (with documentation).
 - [/] [[my_physical_exercise_plan]], research
 - [/] [[Sonmez_-_Soft_skills]]
-- [ ] [[C]], research note.
-- [ ] [[Go]], research note.
 - [ ] [[artificial_intelligence]], research note
 
 ### Projects
 
-- iproxy_checker - Asyncio proxy checker.
-- [Twitch Tracker](https://github.com/iturdikulov/twitch_tracker), twitch fun
-  integrations.
-  - [Create a Flask Application With Google Login – Real Python](https://realpython.com/flask-google-login/)
-  - [[oauth]] note research, understand fundamentals
-  - initialize oauth flow
-- Sentry REST - Sentry API library.
 
 ### Computers science and programming
 
@@ -242,10 +219,3 @@ Some items will be moved into corresponding categories later.
 - [/] Futurama. Volume 1
 - [[my_games]], research
 - [Obra Dinn](https://forums.tigsource.com/index.php?topic=40832.0)
-
-### IRL
-
-- [[soldering]], research
-- [[Zettelkasten]], [[zettelkasten_notes_type]], research
-- [[Laozi_-_Tao_Te_Ching]]
-- [[Evans_-_So_you_want_to_be_a_WizarD]], research
