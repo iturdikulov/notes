@@ -20,7 +20,7 @@ Twelve-Factor application is metodology to build web apps (SaaS), required for
 - Minimal differences between development and production, enable continuous
   deployment.
 - Support easy scaling and maintenance.
-- Universal, can be used with any programming language. <!--SR:!2024-12-07,1,228-->
+- Universal, can be used with any programming language. <!--SR:!2025-01-13,1,208-->
 
 ## 1. Codebase
 
@@ -157,7 +157,7 @@ types are good). This is unix process model for running service daemons. <!--SR:
 
 Application can run many processes (process formation) in single runtime
 (==1;;vertical== scaling), but it must also be able to span multiple processes
-running on multiple physical machines (==1;;horizontal== scaling). <!--SR:!2024-12-09,3,268-->
+running on multiple physical machines (==1;;horizontal== scaling). <!--SR:!2025-01-20,8,268-->
 
 Twelve-factor app processes should never daemonize or write PID files. Instead,
 rely on the operating system's process manager (systemd?, distributed process
