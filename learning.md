@@ -137,7 +137,7 @@ I want to learn it better. My main focus is on fundamental sciences and
 especially [[computer_science]]. I'll describe my learning paths for each field
 in this section.
 
-**[[computer_science_learning_path|How I learn computer science]]**.
+**[[computer_science#Computer science learning path|How I learn computer science]]**.
 Computer science help me to understand my profession (software engineer) better
 and break my barriers in software development.
 
@@ -165,7 +165,7 @@ science/computer science, because it's more practical and applied, but in fact
 it uses all from them. This is also my current [[work]] and main source of
 [[projects]].
 
-[[programming_learning_path|How I learn programming and software development]].
+[[computer_programming#Programming learning path|Programming learning path]].
 This is place where I store programming applied learning materials, related
 outline notes (like frontend/backend) and some management stuff.
 

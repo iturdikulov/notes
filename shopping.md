@@ -20,7 +20,7 @@ sr-ease: 250
 
 I rarely go shopping. I prefer to buy things online.
 
-I have [[my_inventory]] list note, where I store things I want to buy or what
+I usually have special list note, where I store things I want to buy or what
 required to buy (food, clothes, etc.).
 
 ## Online shopping sites

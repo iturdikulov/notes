@@ -78,6 +78,8 @@ Archive:
 - [[Krita]] - Painting program.
 - [[GIMP]] - Image Manipulation Program.
 
+- [[PureRef]] - Reference images manager.
+
 - [[Godot]] - 2D and 3D game engine.
 - [[Blender]] - 3D computer graphics software tool set.
 - [[Natron]] - Compositing software.

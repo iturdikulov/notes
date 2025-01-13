@@ -47,8 +47,7 @@ TODO: add source
 
 TODO: convert into excalidraw
 ![Number](img/NumberSetinC.svg)
-
-![Number](img/Diagramma_di_Venn_dei_numeri.svg)
+_Venn diagram_
 
 ## Basic concepts
 

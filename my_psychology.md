@@ -18,8 +18,8 @@ sr-ease: 308
 
 ## Techniques for dealing with lack of motivation, malaise, depression [^1]
 
-[[Jonathan_Blow]] about ways to deal with lack of motivation, malaise, and
-depression. Particularly relevant to those in software development and other
+[[people#Jonathan_Blow]] about ways to deal with lack of motivation, malaise,
+and depression. Particularly relevant to those in software development and other
 fields requiring prolonged periods of focused computer work (which is not
 natural for humans). The speaker frames these issues as existing on a spectrum,
 ranging from mild lack of motivation to serious depression.
@@ -91,7 +91,7 @@ Methods of relaxation:
 
 - [ ] [[Laozi_-_Tao_Te_Ching]]
 - [ ] [[Sonmez_-_Soft_skills]]
-- [ ] [[Atomic Habits]]
+- [ ] [[Clear_-_Atomic_Habbits]]
 
 [^1]: [Techniques for dealing with lack of motivation, malaise,
     depression](file:///home/inom/Science/psychology/Blow-Dealing_with_depression/Blow-Dealing_with_depression_i7kh8pNRWOo.mp4),

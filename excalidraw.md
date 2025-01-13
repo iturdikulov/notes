@@ -48,8 +48,8 @@ Integration with Zettelkasten
 
 ## Drawing examples
 
-![Cold and Warm fronts](./img/front.excalidraw.svg)
+![Cold and Warm fronts](./img/front.excalidraw)
 _Cold and Warm fronts infographics_
 
-![Website Example](img/excalidraw_examples.excalidraw.svg)
+![Website Example](img/excalidraw_examples.excalidraw)
 _Website Example infographics_

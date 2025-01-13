@@ -22,18 +22,23 @@ understand custom bullet list types check [[my_notation]] note.
 
 ## Open-source projects
 
+
 Large:
 
 - [/] [Wiki](https://github.com/iturdikulov/notes), Personal [[Zettelkasten]]
   and [[iturdikulov.com]] website.
 - [/] [Twitch Tracker](https://github.com/iturdikulov/twitch_tracker), twitch
   chats analysis and management.
+  - [Create a Flask Application With Google Login – Real Python](https://realpython.com/flask-google-login/)
+  - [[oauth]] note research, understand fundamentals
+  - initialize oauth flow
   - [xenova/chat-downloader: Retrieve chat messages from livestreams, videos,
     clips and past broadcasts. No authentication
     needed!](https://github.com/xenova/chat-downloader).
 
 Web:
 
+- iproxy_checker - Asyncio proxy checker.
 - [ ] Spectrogram, HTML/CSS/JS framework.
 - [!] [Sentry Rest](https://github.com/iturdikulov/sentry-rest), error tracking
   service API (sentry) interaction library.

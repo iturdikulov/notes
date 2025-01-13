@@ -19,19 +19,16 @@ plan to play, and an archive of games I have completed.
 
 To understand custom bullet list types check [[my_notation]] note.
 
-## Now
+## I want to play games
 
-- [/] [Factorio](https://www.factorio.com/), Space Age DLC
+- [ ] TIS-100
+- [ ] [Factorio](https://www.factorio.com/), Space Age DLC
 - [ ] The Talos Principle
-- [ ] [[Skyrim]]
+- [ ] [[TES_Skyrim]]
 - [ ] Kerbal Space Program (KSP)
-- [!] TIS-100
 - [ ] [The Python Challenge](http://www.pythonchallenge.com/)
 - [ ] [Elevator Saga - the elevator programming game](https://play.elevatorsaga.com/)
 - [ ] [CodinGame](https://www.codingame.com/start/)
-
-## Inbox
-
 - [ ] Portal 2
 - [ ] [[castlevania]]
 - [ ] Half-Life

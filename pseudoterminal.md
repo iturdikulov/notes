@@ -16,8 +16,8 @@ sr-ease: 230
 > ports) between two or more processes.\
 > — <cite>[Pseudoterminal - Wikipedia](https://en.wikipedia.org/wiki/Pseudoterminal)</cite>
 
-![Termios script diagram](./img/termios-script-diagram.excalidraw.svg)
-_[[./img/termios-script-diagram.excalidraw|Termios script diagram]]_
+![[./img/termios-script-diagram.excalidraw|Termios script diagram]]
+_Termios script diagram_
 
 ## External links
 

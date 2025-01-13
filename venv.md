@@ -12,8 +12,8 @@ tags:
 
 This note explains how to create isolated Python environment and install
 [[Python]] packages. In these notes used mostly Python Virtual Environment
-[tutorial](https://docs.python.org/3/tutorial/venv.html) and [[FastAPI]]
-[tutorial](https://fastapi.tiangolo.com/virtual-environments/).
+[tutorial](https://docs.python.org/3/tutorial/venv.html) with
+[fastapi tutorial](https://fastapi.tiangolo.com/virtual-environments/).
 
 > The `venv` [[Python]] module supports creating lightweight “virtual
 > environments”, each with their own **independent set** of Python packages

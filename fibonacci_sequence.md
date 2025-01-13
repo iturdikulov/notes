@@ -18,7 +18,7 @@ sr-ease: 228
 > sequence begins `0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, ....`.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Fibonacci_sequence)</cite>
 
-![Fibonacci Spiral](./img/Fibonacci_spiral.excalidraw.svg)
+![[./img/Fibonacci_spiral.excalidraw|Fibonacci Spiral]]
 _Fiboancci Spiral_
 
 A Fibonacci spiral approximates the golden spiral using quarter-circle arcs

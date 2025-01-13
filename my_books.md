@@ -24,7 +24,7 @@ tracking my reading progress "recently".
 A lot of books are in the notes on a specific topic (learning paths), they are
 marked with 📕 emoji, they can be found in [[index#Now|index]] note.
 
-Usually I read books on the [[my_inventory#^kindle-paperwhite|reader]].
+Usually I read books on the kindle-paperwhite reader.
 
 If the title of the author and book in Cyrillic, this means I read it in
 [[Russian]] language. To understand custom bullet list types check
