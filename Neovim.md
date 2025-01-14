@@ -1,7 +1,7 @@
 ---
 date: 2023-02-20T00:00+03:00
 tags:
-  - inbox
+  - blog
   - productivity
 external:
   - https://neovim.io/
@@ -20,7 +20,7 @@ sr-ease: 130
 > (especially editor and Vimscript features) is maintained where possible.\
 > — <cite>`:help nvim`</cite>
 
-Hyperextensible Vim-based text editor. My [[PDE]] (personal Editor Development
+Hyperextensible Vim-based text editor. My [[PDE]] (Personal Development
 Environment).
 
 ## What I handle by Neovim

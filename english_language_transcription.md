@@ -1,7 +1,7 @@
 ---
 date: 2023-02-20T00:00+03:00
 tags:
-  - inbox
+  - blog
   - linguistic
 sr-due: 2024-01-29
 sr-interval: 2

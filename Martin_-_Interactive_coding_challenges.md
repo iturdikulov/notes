@@ -4,7 +4,7 @@ external:
   - https://github.com/donnemartin/interactive-coding-challenges
 date: 2023-08-19T00:00+03:00
 tags:
-  - inbox
+  - blog
 directory: ~/Computer/science/Martin-Interactive_Coding_Challenges/
 sr-due: 2024-02-10
 sr-interval: 16

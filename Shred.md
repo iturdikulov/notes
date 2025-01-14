@@ -5,7 +5,7 @@ author:
 external:
   - https://www.gnu.org/software/coreutils/manual/html_node/shred-invocation.html
 tags:
-  - inbox
+  - blog
   - productivity
 sr-due: 2024-01-28
 sr-interval: 3

@@ -3,7 +3,7 @@ external:
   - https://my.brain.fm/focus
 date: 2023-03-12T00:00+03:00
 tags:
-  - inbox
+  - blog
 sr-due: 2026-02-05
 sr-interval: 742
 sr-ease: 346

@@ -2,7 +2,7 @@
 author: David Flanagan
 date: 2025-01-14T11:41+03:00
 tags:
-  - inbox
+  - blog
   - web
 sr-due: 2024-04-12
 sr-interval: 78

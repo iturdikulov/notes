@@ -1,7 +1,7 @@
 ---
 date: 2023-09-16T00:00+03:00
 tags:
-  - inbox
+  - blog
   - IRL
 author:
   - Laozi

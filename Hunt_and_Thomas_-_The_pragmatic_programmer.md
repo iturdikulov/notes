@@ -1,6 +1,6 @@
 ---
 tags:
-  - inbox
+  - blog
   - IRL
 author:
   - Andrew Hunt; David Thomas

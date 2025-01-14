@@ -1,7 +1,7 @@
 ---
 date: 2023-04-08T00:00+03:00
 tags:
-  - inbox
+  - blog
   - mathematics
 external:
   - https://github.com/andmarti1424/sc-im

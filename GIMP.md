@@ -1,7 +1,7 @@
 ---
 date: 2024-01-17T00:00+03:00
 tags:
-  - inbox
+  - blog
 external:
   - https://www.gimp.org/
 sr-due: 2024-02-05

@@ -3,7 +3,7 @@ date: 2023-03-28T00:00+03:00
 external:
   - https://inkscape.org/
 tags:
-  - inbox
+  - blog
   - 2D
 sr-due: 2024-01-28
 sr-interval: 3

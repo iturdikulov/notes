@@ -1,7 +1,7 @@
 ---
 date: 2023-09-21T00:00+03:00
 tags:
-  - inbox
+  - blog
   - DB
 external:
   - https://www.sqlite.org/

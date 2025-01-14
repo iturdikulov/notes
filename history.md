@@ -1,7 +1,7 @@
 ---
 date: 2024-01-14T00:00+03:00
 tags:
-  - inbox
+  - blog
 sr-due: 2024-01-28
 sr-interval: 3
 sr-ease: 267

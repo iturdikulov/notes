@@ -1,7 +1,7 @@
 ---
 date: 2023-09-18T00:00+03:00
 tags:
-  - inbox
+  - blog
   - VCS
 external:
   - https://www.kernel.org/doc/html/latest/process/submitting-patches.html

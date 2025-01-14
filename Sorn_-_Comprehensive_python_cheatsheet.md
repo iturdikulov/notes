@@ -4,7 +4,7 @@ date: 2025-01-14T11:41+03:00
 external:
   - https://github.com/gto76/python-cheatsheet
 tags:
-  - inbox
+  - blog
   - Python
 sr-due: 2024-02-18
 sr-interval: 24

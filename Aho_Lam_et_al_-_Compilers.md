@@ -1,7 +1,7 @@
 ---
 date: 2024-01-14T11:41+03:00
 tags:
-  - inbox
+  - blog
 author:
   - Alfred V. Aho
   - Monica S. Lam

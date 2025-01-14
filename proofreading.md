@@ -1,7 +1,7 @@
 ---
 date: 2024-01-23T00:00+03:00
 tags:
-  - inbox
+  - blog
   - linguistic
 ---
 

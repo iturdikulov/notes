@@ -4,7 +4,7 @@ date: 2025-01-14T11:41+03:00
 external:
   - https://www.youtube.com/watch?v=tijnc65soEI
 tags:
-  - inbox
+  - blog
   - productivity
 sr-due: 2025-06-04
 sr-interval: 496

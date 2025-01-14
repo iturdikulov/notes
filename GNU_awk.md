@@ -1,7 +1,7 @@
 ---
 date: 2025-01-12T19:27+03:00
 tags:
-  - inbox
+  - blog
 external:
   - https://www.gnu.org/software/gawk/manual/gawk.html
 ---

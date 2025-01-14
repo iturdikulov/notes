@@ -1,7 +1,7 @@
 ---
 date: 2023-03-12T00:00+03:00
 tags:
-  - inbox
+  - blog
 external:
   - https://en.wikipedia.org/wiki/Psychology
 sr-due: 2023-01-28

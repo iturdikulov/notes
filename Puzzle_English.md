@@ -2,7 +2,7 @@
 external: https://puzzle-english.com/
 date: 2022-12-29T00:00+03:00
 tags:
-  - inbox
+  - blog
   - linguistic
 sr-due: 2024-10-26
 sr-interval: 275

@@ -3,7 +3,7 @@ date: 2023-08-27T00:00+03:00
 external:
   - https://itexmac.sourceforge.net/SyncTeX.html
 tags:
-  - inbox
+  - blog
   - doc
 sr-due: 2024-01-30
 sr-interval: 4

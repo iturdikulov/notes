@@ -2,7 +2,7 @@
 external: https://www.fandom.com/
 date: 2023-03-12T00:00+03:00
 tags:
-  - inbox
+  - blog
 sr-due: 2024-02-05
 sr-interval: 8
 sr-ease: 267

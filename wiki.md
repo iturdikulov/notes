@@ -2,7 +2,7 @@
 external: https://en.wikipedia.org/wiki/Wiki
 date: 2023-03-28T00:00+03:00
 tags:
-  - inbox
+  - blog
 sr-due: 2024-01-29
 sr-interval: 3
 sr-ease: 251

@@ -1,7 +1,7 @@
 ---
 date: 2023-09-14T00:00+03:00
 tags:
-  - inbox
+  - blog
 directory: ~/Computer/graphics/Snake_Game/
 sr-due: 2024-02-09
 sr-interval: 12

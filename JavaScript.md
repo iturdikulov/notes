@@ -1,7 +1,7 @@
 ---
 date: 2023-10-06T00:00+03:00
 tags:
-  - inbox
+  - blog
   - web
   - SR-programming
 sr-due: 2023-01-28

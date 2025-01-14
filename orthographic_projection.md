@@ -1,7 +1,7 @@
 ---
 date: 2023-07-20T00:00+03:00
 tags:
-  - inbox
+  - blog
   - 3D
 sr-due: 2024-02-20
 sr-interval: 25

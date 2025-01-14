@@ -3,7 +3,7 @@ external:
   - https://www.mathsisfun.com/
 date: 2023-08-26T00:00+03:00
 tags:
-  - inbox
+  - blog
   - mathematics
 author: Math is Fun Team
 directory: ~/Science/math/Math_is_Fun_Team-Math_is_Fun/

@@ -4,7 +4,7 @@ external:
   - http://leatherman.com/
   - https://en.wikipedia.org/wiki/Leatherman
 tags:
-  - inbox
+  - blog
 sr-due: 2024-07-05
 sr-interval: 4
 sr-ease: 270

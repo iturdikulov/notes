@@ -5,7 +5,7 @@ date: 2025-01-14T11:41+03:00
 external:
   - https://pragprog.com/titles/jwdsal2
 tags:
-  - inbox
+  - blog
   - base
 directory: ~/Computer/science/Wengrow-Data_structures_and_algorithms/
 sr-due: 2022-01-28

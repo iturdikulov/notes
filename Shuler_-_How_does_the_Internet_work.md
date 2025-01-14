@@ -4,7 +4,7 @@ date: 2025-01-14T11:41+03:00
 external:
   - https://web.stanford.edu/class/msande91si/www-spr04/readings/week1/InternetWhitepaper.htm
 tags:
-  - inbox
+  - blog
   - web
 sr-due: 2024-02-11
 sr-interval: 17

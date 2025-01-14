@@ -1,7 +1,7 @@
 ---
 date: 2023-10-06T00:00+03:00
 tags:
-  - inbox
+  - blog
   - web
 sr-due: 2024-02-12
 sr-interval: 17

@@ -1,7 +1,7 @@
 ---
 date: 2024-08-18T00:00+03:00
 tags:
-  - inbox
+  - blog
   - SR-base
 author: Julian Evans
 file: ./literature/Julia Evans/So you want to be a wizard (2436)/So you want to be a wizard - Julia Evans.pdf

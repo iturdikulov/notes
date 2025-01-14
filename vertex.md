@@ -1,7 +1,7 @@
 ---
 date: 2023-07-20T00:00+03:00
 tags:
-  - inbox
+  - blog
   - computer_graphics
 sr-due: 2024-02-08
 sr-interval: 2

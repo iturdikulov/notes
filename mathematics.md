@@ -3,7 +3,7 @@ date: 2023-03-06T00:00+03:00
 directory:
   - ~/Science/math/
 tags:
-  - inbox
+  - blog
   - SR-Mathematics
 lang: ru
 sr-due: 2024-02-10

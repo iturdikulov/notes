@@ -3,7 +3,7 @@ external:
   - https://www.l2jserver.com/
 date: 2023-04-18T00:00+03:00
 tags:
-  - inbox
+  - blog
   - Java
 sr-due: 2024-01-28
 sr-interval: 3

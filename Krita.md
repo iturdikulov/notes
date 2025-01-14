@@ -3,7 +3,7 @@ date: 2023-03-04T00:00+03:00
 external:
   - https://krita.org/en/
 tags:
-  - inbox
+  - blog
   - 2D
 sr-due: 2024-01-28
 sr-interval: 2

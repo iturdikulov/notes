@@ -3,7 +3,7 @@ external:
   - https://simple.wikipedia.org/wiki/Computer_network
 date: 2023-03-21T00:00+03:00
 tags:
-  - inbox
+  - blog
   - network
 sr-due: 2024-02-01
 sr-interval: 6

@@ -1,7 +1,7 @@
 ---
 date: 2023-06-24T00:00+03:00
 tags:
-  - inbox
+  - blog
   - linguistic
 directory: ~/Reference/dictionary/
 sr-due: 2024-02-14

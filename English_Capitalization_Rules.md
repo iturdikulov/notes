@@ -1,7 +1,7 @@
 ---
 date: 2024-07-14T00:00+03:00
 tags:
-  - inbox
+  - blog
   - linguistic
 external:
   - https://www.grammarly.com/blog/capitalization-rules/

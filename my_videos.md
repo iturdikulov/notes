@@ -2,7 +2,7 @@
 date: 2022-12-29T00:00+03:00
 directory: ~/Videos/
 tags:
-  - inbox
+  - blog
   - outline
 sr-due: 2024-02-05
 sr-interval: 9

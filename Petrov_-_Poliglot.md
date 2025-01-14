@@ -3,7 +3,7 @@ date: 2024-01-14T00:00+03:00
 external: null
 archive: null
 tags:
-  - inbox
+  - blog
   - linguistic
 sr-due: 2024-02-04
 sr-interval: 10

@@ -1,7 +1,7 @@
 ---
 date: 2024-11-13T21:24+03:00
 tags:
-  - inbox
+  - blog
 external: https://docs.pydantic.dev/latest/
 ---
 

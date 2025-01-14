@@ -1,8 +1,6 @@
 ---
-
 excalidraw-plugin: parsed
-tags: [excalidraw inbox]
-
+tags: [excalidraw blog]
 ---
 ==⚠  Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ⚠==
 

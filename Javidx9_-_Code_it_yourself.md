@@ -4,7 +4,7 @@ external:
   - https://www.youtube.com/playlist?list=PLrOv9FMX8xJE8NgepZR1etrsU63fDDGxO
 date: 2023-08-19T00:00+03:00
 tags:
-  - inbox
+  - blog
   - computer_graphics
 directory: ~/Computer/graphics/Javidx9-Code_It_Yourself/
 sr-due: 2024-01-30

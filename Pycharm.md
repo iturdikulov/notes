@@ -3,7 +3,7 @@ external:
   - https://www.jetbrains.com/pycharm/
 date: 2023-03-15T00:00+03:00
 tags:
-  - inbox
+  - blog
   - archive
 sr-due: 2024-01-28
 sr-interval: 3

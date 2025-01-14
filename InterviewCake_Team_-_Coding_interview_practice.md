@@ -1,6 +1,6 @@
 ---
 tags:
-  - inbox
+  - blog
   - base
 author:
   - InterviewCake Team

@@ -4,7 +4,7 @@ date: 2023-09-15T00:00+03:00
 external:
   - https://www.proko.com/course/figure-drawing-fundamentals/overview
 tags:
-  - inbox
+  - blog
   - art
 directory: ~/Arts_and_Entertainment/visual_arts/Prokopenko-Figure_Drawing_Fundamentals/
 sr-due: 2024-06-19

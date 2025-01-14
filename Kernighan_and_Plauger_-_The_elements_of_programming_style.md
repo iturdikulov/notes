@@ -4,7 +4,7 @@ author:
   - Brian W. Kernighan
   - P. J. Plauger
 tags:
-  - inbox
+  - blog
 directory: ~/Arts_and_Entertainment/literature/Brian Kernighan/The Elements of Programming Style, 2nd Edition (2083)/
 sr-due: 2024-01-31
 sr-interval: 5

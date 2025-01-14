@@ -3,7 +3,7 @@ date: 2023-08-28T00:00+03:00
 external:
   - https://en.wikipedia.org/wiki/Gothic_(video_game)
 tags:
-  - inbox
+  - blog
 sr-due: 2024-01-30
 sr-interval: 3
 sr-ease: 194

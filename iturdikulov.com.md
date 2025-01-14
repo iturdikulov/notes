@@ -1,7 +1,7 @@
 ---
 date: 2023-09-14T00:00+03:00
 tags:
-  - inbox
+  - blog
 external: iturdikulov.com
 directory: ~/Computer/web/iturdikulov.com/
 sr-due: 2024-01-29

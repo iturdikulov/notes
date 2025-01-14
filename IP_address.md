@@ -1,7 +1,7 @@
 ---
 date: 2022-12-29T00:00+03:00
 tags:
-  - inbox
+  - blog
   - network
 sr-due: 2024-02-02
 sr-interval: 6

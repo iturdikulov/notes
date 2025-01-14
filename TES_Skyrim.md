@@ -1,7 +1,7 @@
 ---
 date: 2024-11-22T11:21+03:00
 tags:
-  - inbox
+  - blog
 ---
 
 # Skyrim

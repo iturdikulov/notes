@@ -1,7 +1,7 @@
 ---
 date: 2024-11-02T23:18+03:00
 tags:
-  - inbox
+  - blog
 ---
 
 # Plant

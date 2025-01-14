@@ -1,6 +1,6 @@
 ---
 tags:
-  - inbox
+  - blog
   - Python
 author: Brett Slatkin
 date: 2025-01-14T11:41+03:00

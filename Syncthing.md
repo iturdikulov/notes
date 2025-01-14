@@ -3,7 +3,7 @@ external:
   - https://syncthing.net/
 date: 2023-04-09T00:00+03:00
 tags:
-  - inbox
+  - blog
   - network
 sr-due: 2024-02-01
 sr-interval: 4

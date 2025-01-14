@@ -2,7 +2,7 @@
 date: 2022-12-29T00:00+03:00
 tags:
   - SR-productivity
-  - inbox
+  - blog
 external:
   - https://mpv.io/
 sr-due: 2026-02-26

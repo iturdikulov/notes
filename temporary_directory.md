@@ -1,7 +1,7 @@
 ---
 date: 2023-09-15T00:00+03:00
 tags:
-  - inbox
+  - blog
 directory: ~/Temp
 sr-due: 2024-02-02
 sr-interval: 5

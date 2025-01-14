@@ -1,7 +1,7 @@
 ---
 date: 2024-03-17T00:00+03:00
 tags:
-  - inbox
+  - blog
   - productivity
 sr-due: 2024-07-04
 sr-interval: 3

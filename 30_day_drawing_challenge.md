@@ -1,7 +1,7 @@
 ---
 date: 2023-03-08T00:00+03:00
 tags:
-  - inbox
+  - blog
 directory: ~/Arts_and_Entertainment/visual_arts/30_days_draw_challenge/
 sr-due: 2024-02-06
 sr-interval: 12

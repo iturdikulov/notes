@@ -2,7 +2,7 @@
 author: Andrew Loomis
 date: 2025-01-14T11:41+03:00
 tags:
-  - inbox
+  - blog
   - art
 directory: ~/Arts_and_Entertainment/visual_arts/Loomis-Fun_With_A_Pencil
 sr-due: 2024-06-08

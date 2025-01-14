@@ -1,7 +1,7 @@
 ---
 date: 2023-08-26T00:00+03:00
 tags:
-  - inbox
+  - blog
   - Unix
 sr-due: 2024-01-29
 sr-interval: 4

@@ -1,7 +1,7 @@
 ---
 date: 2023-09-13T00:00+03:00
 tags:
-  - inbox
+  - blog
   - linguistic
 directory: ~/Arts_and_Entertainment/english/Murphy_Essential_Grammar_in_Use_Elementary
 sr-due: 2024-02-09

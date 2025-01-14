@@ -1,7 +1,7 @@
 ---
 date: 2023-09-15T00:00+03:00
 tags:
-  - inbox
+  - blog
 directory: ~/Computer/data/word_list/
 sr-due: 2024-01-29
 sr-interval: 3

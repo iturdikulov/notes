@@ -1,7 +1,7 @@
 ---
 date: 2023-03-18T00:00+03:00
 tags:
-  - inbox
+  - blog
   - SR-programing
 file:
   - ./articles/Real_Python_-_SOLID_Principles.html

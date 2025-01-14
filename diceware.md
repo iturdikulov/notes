@@ -3,7 +3,7 @@ external:
   - https://theworld.com/~reinhold/diceware.html
 date: 2023-08-15T00:00+03:00
 tags:
-  - inbox
+  - blog
   - cryptography
 directory: ~/Computer/data/word_list/
 sr-due: 2024-01-28

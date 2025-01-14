@@ -2,7 +2,7 @@
 date: 2023-03-21T00:00+03:00
 directory: ~/Computer/graphics/sprite/
 tags:
-  - inbox
+  - blog
   - 2D
 sr-due: 2024-01-30
 sr-interval: 3

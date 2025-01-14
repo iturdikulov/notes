@@ -3,7 +3,7 @@ date: 2023-05-04T00:00+03:00
 external:
   - https://www.godotengine.org/
 tags:
-  - inbox
+  - blog
   - gamedev
 sr-due: 2023-01-28
 sr-interval: 5

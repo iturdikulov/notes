@@ -4,7 +4,7 @@ external:
   - https://www.youtube.com/playlist?list=PLjEaoINr3zgEPv5y--4MKpciLaoQYZB1Z
 directory: ~/Computer/graphics/archive/Price-Donut_Tutorial
 tags:
-  - inbox
+  - blog
   - 3D
 sr-due: 2025-06-09
 sr-interval: 501

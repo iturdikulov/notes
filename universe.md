@@ -1,7 +1,7 @@
 ---
 date: 2024-03-06T00:00+03:00
 tags:
-  - inbox
+  - blog
   - physics
 sr-due: 2024-07-02
 sr-interval: 1

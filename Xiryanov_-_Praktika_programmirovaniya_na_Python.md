@@ -1,7 +1,7 @@
 ---
 date: 2023-09-14T00:00+03:00
 tags:
-  - inbox
+  - blog
   - Python
 external:
   - https://www.youtube.com/playlist?list=PLRDzFCPr95fIDJUvFxvzWxg-V9BmZlMMe

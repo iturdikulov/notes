@@ -1,7 +1,7 @@
 ---
 date: 2023-03-11T00:00+03:00
 tags:
-  - inbox
+  - blog
   - IRL
 external: https://based.cooking/pozharskiye-cutlets/
 sr-due: 2024-01-28

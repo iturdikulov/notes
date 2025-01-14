@@ -1,7 +1,7 @@
 ---
 date: 2024-09-06T00:00+03:00
 tags:
-  - inbox
+  - blog
   - Python
 directory: ~/Computer/software/rabbitmq
 ---

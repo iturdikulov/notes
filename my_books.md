@@ -1,7 +1,7 @@
 ---
 date: 2024-11-13T00:00+03:00
 tags:
-  - inbox
+  - blog
   - outline
 sr-due: 2024-02-03
 sr-interval: 6

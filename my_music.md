@@ -2,7 +2,7 @@
 date: 2022-12-29T00:00+03:00
 directory: ~/Music/
 tags:
-  - inbox
+  - blog
   - IRL
 sr-due: 2024-02-12
 sr-interval: 17

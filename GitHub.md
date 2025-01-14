@@ -3,7 +3,7 @@ external:
   - https://github.com/
 date: 2023-03-12T00:00+03:00
 tags:
-  - inbox
+  - blog
   - VCS
 sr-due: 2024-02-03
 sr-interval: 6

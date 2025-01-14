@@ -1,7 +1,7 @@
 ---
 date: 2023-09-22T00:00+03:00
 tags:
-  - inbox
+  - blog
 external:
   - https://www.gnu.org/software/bash/
 sr-due: 2023-01-28

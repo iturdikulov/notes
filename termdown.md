@@ -1,7 +1,7 @@
 ---
 date: 2023-08-05T00:00+03:00
 tags:
-  - inbox
+  - blog
   - productivity
 external:
   - https://github.com/trehn/termdown

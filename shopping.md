@@ -2,7 +2,7 @@
 date: 2023-03-12T00:00+03:00
 directory: ~/Shopping/
 tags:
-  - inbox
+  - blog
 sr-due: 2024-02-07
 sr-interval: 10
 sr-ease: 250

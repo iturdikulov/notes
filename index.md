@@ -2,7 +2,7 @@
 title: iturdikulov.com
 date: 2025-01-13T11:36+03:00
 tags:
-  - inbox
+  - blog
   - outline
 ---
 

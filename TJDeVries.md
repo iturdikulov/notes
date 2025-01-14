@@ -1,7 +1,7 @@
 ---
 date: 2024-11-19T23:28+03:00
 tags:
-  - inbox
+  - blog
   - person
 ---
 

@@ -4,7 +4,7 @@ external:
   - https://mathter.pro/pesochnica/index.html
 directory: ~/Science/math/Емелин-Кратчайший_курс_школьной_математики
 tags:
-  - inbox
+  - blog
   - mathematics
 sr-interval: 7
 sr-ease: 170

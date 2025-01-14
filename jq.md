@@ -1,7 +1,7 @@
 ---
 date: 2024-11-21T18:14+03:00
 tags:
-  - inbox
+  - blog
   - SR-productivity
 external:
   - https://jqlang.github.io/jq/

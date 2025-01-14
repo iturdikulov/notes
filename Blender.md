@@ -3,7 +3,7 @@ external:
   - https://www.blender.org/
 date: 2023-03-04T00:00+03:00
 tags:
-  - inbox
+  - blog
   - 3D
 sr-due: 2023-01-28
 sr-interval: 4

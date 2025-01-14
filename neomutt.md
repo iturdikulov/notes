@@ -1,7 +1,7 @@
 ---
 date: 2023-04-19T00:00+03:00
 tags:
-  - inbox
+  - blog
   - archive
 external:
   - https://neomutt.org/

@@ -1,6 +1,6 @@
 ---
 tags:
-  - inbox
+  - blog
   - art
 author: Килпатрик Дэвид
 date: 2025-01-14T11:41+03:00

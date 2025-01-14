@@ -4,7 +4,7 @@ external:
   - https://daringfireball.net/projects/markdown/syntax
 tags:
   - doc
-  - inbox
+  - blog
 sr-due: 2024-01-29
 sr-interval: 4
 sr-ease: 273

@@ -1,6 +1,6 @@
 ---
 tags:
-  - inbox
+  - blog
   - mathematics
 author: Jeremy Kun
 external:

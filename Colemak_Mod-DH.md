@@ -3,7 +3,7 @@ date: 2023-08-28T00:00+03:00
 external: https://colemakmods.github.io/mod-dh/
 archive: true
 tags:
-  - inbox
+  - blog
 sr-due: 2024-01-29
 sr-interval: 4
 sr-ease: 274

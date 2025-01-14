@@ -1,7 +1,7 @@
 ---
 date: 2024-10-30T00:00+03:00
 tags:
-  - inbox
+  - blog
   - base
 ---
 

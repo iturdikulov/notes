@@ -2,7 +2,7 @@
 author: Igor Irianto
 date: 2025-01-14T11:41+03:00
 tags:
-  - inbox
+  - blog
   - productivity
 external:
   - https://learnvim.irian.to

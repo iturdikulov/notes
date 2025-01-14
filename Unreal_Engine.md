@@ -3,7 +3,7 @@ date: 2023-04-19T00:00+03:00
 external:
   - https://www.unrealengine.com/en-US/linux
 tags:
-  - inbox
+  - blog
   - archive
 sr-due: 2024-02-28
 sr-interval: 32

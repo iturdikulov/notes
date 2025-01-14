@@ -2,7 +2,7 @@
 date: 2022-12-29T00:00+03:00
 directory: ~/Pictures/
 tags:
-  - inbox
+  - blog
   - art
 sr-due: 2024-02-05
 sr-interval: 8

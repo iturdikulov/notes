@@ -1,7 +1,7 @@
 ---
 date: 2023-09-17T00:00+03:00
 tags:
-  - inbox
+  - blog
   - linguistic
 author: Наталья Черниховская
 directory: ~/Arts_and_Entertainment/english/Черниховская-English_Start-up/

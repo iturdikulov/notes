@@ -3,7 +3,7 @@ date: 2023-07-23T00:00+03:00
 external:
   - https://nixos.org/
 tags:
-  - inbox
+  - blog
   - Unix
 sr-due: 2024-02-07
 sr-interval: 12

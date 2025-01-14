@@ -1,7 +1,7 @@
 ---
 date: 2023-03-10T00:00+03:00
 tags:
-  - inbox
+  - blog
   - productivity
 directory: ~/Wiki/
 sr-due: 2024-02-25

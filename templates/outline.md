@@ -1,7 +1,7 @@
 ---
 date: <% tp.date.now("yyyy-MM-DD HH:mm") %>
 tags:
-  - inbox
+  - blog
   - outline
 ---
 <%*

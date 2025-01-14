@@ -2,7 +2,7 @@
 author: Charles Petzold
 date: 2024-11-05T00:00+03:00
 tags:
-  - inbox
+  - blog
   - base
 lang: ru
 sr-due: 2024-04-30

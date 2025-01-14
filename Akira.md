@@ -2,7 +2,7 @@
 author: Katsuhiro Otomo
 date: 2025-01-14T11:41+03:00
 tags:
-  - inbox
+  - blog
   - art
 directory: ~/Arts_and_Entertainment/literature/Katsuhiro Otomo/
 sr-due: 2024-01-30

@@ -3,7 +3,7 @@ date: 2023-08-20T00:00+03:00
 external:
   - https://github.com/Dushistov/sdcv
 tags:
-  - inbox
+  - blog
   - linguistic
 sr-due: 2024-07-10
 sr-interval: 167

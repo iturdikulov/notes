@@ -5,7 +5,7 @@ external:
   - https://www.youtube.com/@teej_dv/videos
 directory: ~/Computer/programming/DeVries-Tutorials/
 tags:
-  - inbox
+  - blog
   - productivity
 sr-due: 2024-02-14
 sr-interval: 20

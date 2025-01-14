@@ -4,7 +4,7 @@ external:
   - https://github.com/donnemartin/system-design-primer
 date: 2023-08-19T00:00+03:00
 tags:
-  - inbox
+  - blog
 directory: ~/Computer/science/Martin-System_Design_Primer/
 sr-due: 2024-02-08
 sr-interval: 14

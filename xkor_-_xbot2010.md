@@ -1,7 +1,7 @@
 ---
 date: 2023-09-14T00:00+03:00
 tags:
-  - inbox
+  - blog
 external:
   - http://coderx.ru/showthread.php?t=9575&highlight=xBot2010
 archive: true

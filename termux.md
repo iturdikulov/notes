@@ -3,7 +3,7 @@ external:
   - https://termux.dev/
 date: 2023-04-10T00:00+03:00
 tags:
-  - inbox
+  - blog
 sr-due: 2024-01-28
 sr-interval: 3
 sr-ease: 253

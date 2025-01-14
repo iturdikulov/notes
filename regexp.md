@@ -1,7 +1,7 @@
 ---
 date: 2023-04-17T00:00+03:00
 tags:
-  - inbox
+  - blog
   - base
 external:
   - https://github.com/ziishaned/learn-regex

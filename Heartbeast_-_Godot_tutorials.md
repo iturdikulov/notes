@@ -1,7 +1,7 @@
 ---
 date: 2024-01-01T00:00+03:00
 tags:
-  - inbox
+  - blog
   - Godot
 directory: ~/Computer/graphics/Heartbeast-Godot_Tutorials/
 sr-due: 2024-01-29

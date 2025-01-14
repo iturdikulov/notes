@@ -2,7 +2,7 @@
 date: 2023-10-02T00:00+03:00
 author: Unreal Sensei
 tags:
-  - inbox
+  - blog
   - archive
 external:
   - https://www.youtube.com/watch?v=k-zMkzmduqI

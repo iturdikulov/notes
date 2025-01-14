@@ -1,7 +1,7 @@
 ---
 date: 2025-01-12T12:24+03:00
 tags:
-  - inbox
+  - blog
 external:
   - https://www.pureref.com/
 ---

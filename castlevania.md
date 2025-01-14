@@ -1,7 +1,7 @@
 ---
 date: 1986-09-26T00:00+03:00
 tags:
-  - inbox
+  - blog
 author: Hitoshi Akamatsu
 directory: ~/Arts_and_Entertainment/animation/Castlevania_TV_series/
 sr-due: 2024-03-01

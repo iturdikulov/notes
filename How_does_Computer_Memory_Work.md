@@ -3,7 +3,7 @@ date: 2024-02-11T00:00+03:00
 external: https://www.youtube.com/watch?v=7J7X7aZvMXQ
 author: Branch Education
 tags:
-  - inbox
+  - blog
 sr-due: 2024-07-02
 sr-interval: 1
 sr-ease: 220

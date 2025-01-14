@@ -2,7 +2,7 @@
 author: Yasuhiro Nightow
 date: 2025-01-14T11:41+03:00
 tags:
-  - inbox
+  - blog
   - art
 directory: ~/Arts_and_Entertainment/literature/Yasuhiro Nightow/
 sr-due: 2024-01-30

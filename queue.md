@@ -1,7 +1,7 @@
 ---
 date: 2023-05-19T00:00+03:00
 tags:
-  - inbox
+  - blog
   - base
 sr-due: 2023-01-26
 sr-interval: 1

@@ -1,7 +1,7 @@
 ---
 date: 2024-12-16T08:38+03:00
 tags:
-  - inbox
+  - blog
 external:
   - https://github.com/flightlessmango/MangoHud
 ---

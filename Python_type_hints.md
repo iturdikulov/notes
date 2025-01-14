@@ -1,7 +1,7 @@
 ---
 date: 2024-11-11T19:59+03:00
 tags:
-  - inbox
+  - blog
   - Python
 ---
 

@@ -3,7 +3,7 @@ external:
   - https://sw.kovidgoyal.net/kitty/
 date: 2023-04-05T00:00+03:00
 tags:
-  - inbox
+  - blog
   - archive
 sr-due: 2024-01-29
 sr-interval: 3

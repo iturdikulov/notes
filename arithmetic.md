@@ -1,7 +1,7 @@
 ---
 date: 2023-10-06T00:00+03:00
 tags:
-  - inbox
+  - blog
   - mathematics
 sr-due: 2024-01-30
 sr-interval: 3

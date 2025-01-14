@@ -1,7 +1,7 @@
 ---
 date: 2025-01-12T19:30+03:00
 tags:
-  - inbox
+  - blog
 external:
   - https://www.gnu.org/software/grep/
   - https://www.gnu.org/software/grep/manual/html_node/index.html

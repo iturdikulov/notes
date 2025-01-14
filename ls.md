@@ -1,7 +1,7 @@
 ---
 date: 2024-11-04T08:42+03:00
 tags:
-  - inbox
+  - blog
   - productivity
 ---
 

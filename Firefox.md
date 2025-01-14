@@ -1,7 +1,7 @@
 ---
 date: 2023-03-05T00:00+03:00
 tags:
-  - inbox
+  - blog
   - productivity
 external:
   - https://www.mozilla.org/en-US/firefox

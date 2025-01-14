@@ -3,7 +3,7 @@ external:
   - https://chat.openai.com/chat
 date: 2023-03-12T00:00+03:00
 tags:
-  - inbox
+  - blog
 sr-due: 2024-03-30
 sr-interval: 64
 sr-ease: 247

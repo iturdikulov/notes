@@ -1,7 +1,7 @@
 ---
 date: 2023-03-19T00:00+03:00
 tags:
-  - inbox
+  - blog
   - Java
 sr-due: 2024-08-30
 sr-interval: 217

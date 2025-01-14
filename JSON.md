@@ -1,7 +1,7 @@
 ---
 date: 2025-01-13T09:32+03:00
 tags:
-  - inbox
+  - blog
 ---
 
 # JSON (JavaScript Object Notation)

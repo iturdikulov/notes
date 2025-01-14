@@ -3,7 +3,7 @@ external:
   - https://docs.python.org/3/tutorial/index.html
 date: 2024-11-04T00:00+03:00
 tags:
-  - inbox
+  - blog
   - Python
 sr-due: 2024-01-28
 sr-interval: 1

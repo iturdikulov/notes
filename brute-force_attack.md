@@ -1,7 +1,7 @@
 ---
 date: 2023-11-09T00:00+03:00
 tags:
-  - inbox
+  - blog
   - cryptography
 sr-due: 2024-01-28
 sr-interval: 1

@@ -1,7 +1,7 @@
 ---
 date: 2024-12-08T22:41+03:00
 tags:
-  - inbox
+  - blog
 ---
 
 # Kindle paperwhite

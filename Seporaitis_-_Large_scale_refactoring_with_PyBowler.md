@@ -5,7 +5,7 @@ external:
 directory: ~/Computer/programming/Seporaitis-Large_Scale_Refactoring_With_PyBowler/
 archive: true
 tags:
-  - inbox
+  - blog
   - Python
 sr-due: 2024-06-16
 sr-interval: 143

@@ -1,7 +1,7 @@
 ---
 date: 2024-11-29T22:16+03:00
 tags:
-  - inbox
+  - blog
 ---
 
 # My notation

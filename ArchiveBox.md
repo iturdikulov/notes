@@ -3,7 +3,7 @@ date: 2023-08-26T00:00+03:00
 external:
   - https://archivebox.io/
 tags:
-  - inbox
+  - blog
 sr-due: 2024-02-12
 sr-interval: 17
 sr-ease: 245

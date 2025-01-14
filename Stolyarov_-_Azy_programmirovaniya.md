@@ -6,7 +6,7 @@ external:
   - http://www.stolyarov.info/books/programming_intro/
 file: ~/Arts_and_Entertainment/literature/Andriei Stoliarov/Tom 1. Proghrammirovaniie - Vviedieniie v profiessiiu Azy proghrammirovaniia (1316)/Tom 1. Proghrammirovaniie - Vviedieniie v - Andriei Stoliarov.pdf
 tags:
-  - inbox
+  - blog
   - base
 lang: ru
 sr-due: 2024-01-26

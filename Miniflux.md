@@ -3,7 +3,7 @@ external:
   - https://miniflux.app/
 date: 2023-03-27T00:00+03:00
 tags:
-  - inbox
+  - blog
   - SR-productivity
 sr-due: 2024-02-04
 sr-interval: 7

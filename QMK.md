@@ -2,7 +2,7 @@
 date: 2023-01-28T00:00+03:00
 directory: ~/Computer/hardware/QMK
 tags:
-  - inbox
+  - blog
   - electronics
 sr-due: 2024-01-30
 sr-interval: 5

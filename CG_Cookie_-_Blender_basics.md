@@ -1,7 +1,7 @@
 ---
 author: Jonathan Lampel
 tags:
-  - inbox
+  - blog
   - 3D
 date: 2023-12-12T00:00+03:00
 external:

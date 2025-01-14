@@ -1,7 +1,7 @@
 ---
 date: 2023-03-19T00:00+03:00
 tags:
-  - inbox
+  - blog
   - mathematics
   - SR-base
 sr-due: 2024-02-09

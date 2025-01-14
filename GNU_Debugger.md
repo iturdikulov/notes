@@ -1,7 +1,7 @@
 ---
 date: 2023-04-02T00:00+03:00
 tags:
-  - inbox
+  - blog
   - productivity
 external:
   - https://www.sourceware.org/gdb/

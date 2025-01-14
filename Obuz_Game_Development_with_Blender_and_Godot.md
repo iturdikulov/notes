@@ -4,7 +4,7 @@ date: 2023-09-14T00:00+03:00
 external:
   - https://github.com/PacktPublishing/Game-Development-with-Blender-and-Godot
 tags:
-  - inbox
+  - blog
   - gamedev
 directory: ~/Computer/graphics/Obuz_Game_Development_with_Blender_and_Godot/
 sr-due: 2024-06-21

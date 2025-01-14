@@ -1,7 +1,7 @@
 ---
 date: 2023-05-18T00:00+03:00
 tags:
-  - inbox
+  - blog
   - mathematics
 external:
   - https://www.mathsisfun.com/associative-commutative-distributive.html

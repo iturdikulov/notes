@@ -1,7 +1,7 @@
 ---
 date: 2023-03-06T00:00+03:00
 tags:
-  - inbox
+  - blog
   - linguistic
 directory: ~/Arts_and_Entertainment/russian/
 sr-due: 2024-01-29

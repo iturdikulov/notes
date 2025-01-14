@@ -2,7 +2,7 @@
 date: 2023-04-16T00:00+03:00
 directory: ~/Science/
 tags:
-  - inbox
+  - blog
 sr-due: 2024-01-31
 sr-interval: 6
 sr-ease: 228

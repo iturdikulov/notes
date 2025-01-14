@@ -3,7 +3,7 @@ external:
   - https://github.com/SidOfc/mkdx
 date: 2023-04-05T00:00+03:00
 tags:
-  - inbox
+  - blog
   - productivity
 sr-due: 2024-01-29
 sr-interval: 3

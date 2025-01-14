@@ -3,7 +3,7 @@ author: Andrei Petrovich Kiselyov
 date: 2025-01-14T11:41+03:00
 directory: ~/Science/math/Киселёв-Элементы_алгебры_и_анализа
 tags:
-  - inbox
+  - blog
   - mathematics
 sr-due: 2024-04-28
 sr-interval: 94

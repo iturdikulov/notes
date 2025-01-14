@@ -3,7 +3,7 @@ author: Eric Matthes
 date: 2025-01-14T11:41+03:00
 directory: ~/Computer/programming/Matthes-Python_Crash_Course
 tags:
-  - inbox
+  - blog
   - Python
 sr-due: 2024-01-29
 sr-interval: 4

@@ -3,7 +3,7 @@ external:
   - https://www.duolingo.com/
 date: 2023-05-06T00:00+03:00
 tags:
-  - inbox
+  - blog
   - linguistic
 sr-due: 2024-01-28
 sr-interval: 1

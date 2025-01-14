@@ -2,7 +2,7 @@
 date: 2023-03-05T00:00+03:00
 author: David Allen
 tags:
-  - inbox
+  - blog
   - productivity
 sr-due: 2024-02-02
 sr-interval: 7

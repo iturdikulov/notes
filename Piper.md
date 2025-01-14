@@ -1,7 +1,7 @@
 ---
 date: 2023-09-14T00:00+03:00
 tags:
-  - inbox
+  - blog
 external:
   - https://rhasspy.github.io/piper-samples/
 directory: ~/Computer/software/piper/

@@ -5,7 +5,7 @@ external:
 date: 2025-01-14T11:41+03:00
 directory: ~/Computer/graphics/Muratori-Handmade_Hero
 tags:
-  - inbox
+  - blog
   - computer_graphics
 sr-due: 2024-02-09
 sr-interval: 15

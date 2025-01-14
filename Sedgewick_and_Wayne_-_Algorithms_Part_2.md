@@ -1,6 +1,6 @@
 ---
 tags:
-  - inbox
+  - blog
 author:
   - Robert Sedgewick; Kevin Wayne
 directory: ~/Computer/science/Sedgewick_and_Wayne-Algorithms_Part_2/

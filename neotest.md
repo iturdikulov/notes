@@ -3,7 +3,7 @@ external:
   - https://github.com/nvim-neotest/neotest
 date: 2023-03-19T00:00+03:00
 tags:
-  - inbox
+  - blog
   - testing
 sr-due: 2024-01-29
 sr-interval: 2

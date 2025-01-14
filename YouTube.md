@@ -1,7 +1,7 @@
 ---
 date: 2022-12-29T00:00+03:00
 tags:
-  - inbox
+  - blog
   - art
 sr-due: 2024-09-13
 sr-interval: 232

@@ -1,7 +1,7 @@
 ---
 date: 2025-01-13T11:43+03:00
 tags:
-  - inbox
+  - blog
   - art
 external: https://www.ohmsha.co.jp/english/manga.htm
 sr-due: 2024-01-29

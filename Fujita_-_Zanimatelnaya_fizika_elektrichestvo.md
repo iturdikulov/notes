@@ -4,7 +4,7 @@ author: Kazuhiro  Fujita
 external: null
 archive: null
 tags:
-  - inbox
+  - blog
   - physics
 sr-due: 2024-07-02
 sr-interval: 1

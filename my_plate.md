@@ -1,7 +1,7 @@
 ---
 date: 2024-11-22T20:15+03:00
 tags:
-  - inbox
+  - blog
 ---
 
 # My plate

@@ -4,7 +4,7 @@ external:
   - https://blendermarket.com/products/hard-surface-modeling-in-blender
 date: 2023-08-19T00:00+03:00
 tags:
-  - inbox
+  - blog
   - 3D
 directory: ~/Computer/graphics/Creative_Shrimp-Hard_Surface_Modeling_In_Blender
 sr-due: 2024-04-13

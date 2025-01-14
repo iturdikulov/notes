@@ -4,7 +4,7 @@ external:
   - https://leetcode.com/
 date: 2022-12-29T00:00+03:00
 tags:
-  - inbox
+  - blog
   - SR-base
 directory: ~/Computer/science/LeetCode_Team-LeetCode/
 sr-due: 2024-01-29

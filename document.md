@@ -1,7 +1,7 @@
 ---
 date: 2023-09-15T00:00+03:00
 tags:
-  - inbox
+  - blog
 directory: ~/Documents/
 sr-due: 2024-02-06
 sr-interval: 9

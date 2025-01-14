@@ -3,7 +3,7 @@ external:
   - https://nomadsculpt.com/manual/
 date: 2023-04-15T00:00+03:00
 tags:
-  - inbox
+  - blog
   - 3D
 sr-due: 2024-01-30
 sr-interval: 4

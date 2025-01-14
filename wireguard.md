@@ -2,7 +2,7 @@
 external:
   - https://www.wireguard.com/
 tags:
-  - inbox
+  - blog
 sr-due: 2024-01-29
 sr-interval: 4
 sr-ease: 270

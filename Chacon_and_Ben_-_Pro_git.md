@@ -5,7 +5,7 @@ date: 2025-01-14T11:41+03:00
 external:
   - https://git-scm.com/book/en/v2
 tags:
-  - inbox
+  - blog
   - VCS
 sr-due: 2025-05-27
 sr-interval: 488

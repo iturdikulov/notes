@@ -4,7 +4,7 @@ external:
   - https://docs.python.org/3/tutorial/venv.html
   - https://fastapi.tiangolo.com/virtual-environments
 tags:
-  - inbox
+  - blog
   - Python
 ---
 

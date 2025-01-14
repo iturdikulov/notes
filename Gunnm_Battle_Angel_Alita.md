@@ -3,7 +3,7 @@ author: Yukito Kishiro
 date: 2025-01-14T11:41+03:00
 directory: ~/Arts_and_Entertainment/literature/Yukito Kishiro/
 tags:
-  - inbox
+  - blog
   - art
 sr-due: 2024-01-30
 sr-interval: 4

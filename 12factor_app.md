@@ -1,7 +1,7 @@
 ---
 date: 2024-12-02T15:37+03:00
 tags:
-  - inbox
+  - blog
   - SR-base
 external:
   - https://12factor.net/

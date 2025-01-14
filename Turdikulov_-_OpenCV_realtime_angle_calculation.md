@@ -1,7 +1,7 @@
 ---
 date: 2023-09-14T00:00+03:00
 tags:
-  - inbox
+  - blog
   - computer_graphics
 directory: ~/Computer/graphics/OpenCV_Realtime_Angle_Calculation/
 sr-due: 2024-02-08

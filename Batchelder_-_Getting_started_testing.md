@@ -5,7 +5,7 @@ date: 2024-04-24T00:00+03:00
 external:
   - https://www.youtube.com/watch?v=FxSsnHeWQBY
 tags:
-  - inbox
+  - blog
   - testing
 sr-due: 2024-01-29
 sr-interval: 2
