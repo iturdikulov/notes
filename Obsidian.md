@@ -1,7 +1,7 @@
 ---
+date: 2023-03-14
 external:
   - https://obsidian.md/
-date: 2023-03-14
 tags:
   - inbox
   - productivity

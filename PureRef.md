@@ -14,6 +14,6 @@ external:
 > focus on creating.\
 > — <cite>[PureRef](https://www.pureref.com/)</cite>
 
-I use it to store [[my_art]] reference images, it's pretty helpful for drawing.
+I use it to store [[art]] reference images, it's pretty helpful for drawing.
 
 TODO: add workflow notes.

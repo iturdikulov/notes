@@ -16,15 +16,9 @@ projects", planned projects, etc.
 These projects are important part of my [[learning]] and [[work]] activites, to
 understand custom bullet list types check [[my_notation]] note.
 
-## Projects
+## Pet projects
 
 - [/] [Salesloop](https://salesloop.io/), LinkedIn automation (proprietary).
-
-## Open-source projects
-
-
-Large:
-
 - [/] [Wiki](https://github.com/iturdikulov/notes), Personal [[Zettelkasten]]
   and [[iturdikulov.com]] website.
 - [/] [Twitch Tracker](https://github.com/iturdikulov/twitch_tracker), twitch
@@ -35,9 +29,6 @@ Large:
   - [xenova/chat-downloader: Retrieve chat messages from livestreams, videos,
     clips and past broadcasts. No authentication
     needed!](https://github.com/xenova/chat-downloader).
-
-Web:
-
 - iproxy_checker - Asyncio proxy checker.
 - [ ] Spectrogram, HTML/CSS/JS framework.
 - [!] [Sentry Rest](https://github.com/iturdikulov/sentry-rest), error tracking
@@ -45,18 +36,8 @@ Web:
 - [ ] IPRoyal API integration, inspired by
       [A simple Python Pydantic model for
       Honkai](https://github.com/MetaCubeX/mihomo/tree/main).
-- [ ] [GitHub -
-      vishyarjun/rate_limiter_fastapi](https://github.com/vishyarjun/rate_limiter_fastapi)
 
-Hardware:
-
-- [ ] [Device to send eithernet packet](https://github.com/francisrstokes/githublog/blob/main/2024%2F11%2F1%2Fsending-an-ethernet-packet.md)
-- [ ] NixOS based router:
-  - [NixOS based router](https://www.reddit.com/r/Nix/comments/17d0rce/nixos_based_router_part_1_the_hardware/)
-  - [Using NixOS as a router](https://francis.begyn.be/blog/nixos-home-router)
-  - [GitHub - nakato/nixos-bpir3-example](https://github.com/nakato/nixos-bpir3-example)
-
-Developer Tools:
+## Developer Tools
 
 - [ ] Async Proxy Checker.
   - [constverum/ProxyBroker: Proxy finder, checker, server](https://github.com/constverum/ProxyBroker)
@@ -64,7 +45,7 @@ Developer Tools:
   scripts and [[my_awesome_software_list|software]] configuration.
 - [/] [NeoVim](https://github.com/iturdikulov/nvim), personal [[PDE]]. setup.
 
-Games:
+## Games
 
 - [!] [[snake_game]] v1.
 - [ ] [[OpenCV_L2_Bot]] for the [[lineage_2_tools|L2]] game, [[L2bot]]?
@@ -78,7 +59,7 @@ Games:
 - [ ] [RubikGL - OpenGL Rubik's Cube Simulator - YouTube](https://www.youtube.com/watch?v=PY_HNv854KQ),
       inspired project.
 
-IRL:
+## DIY
 
 - [ ] DIY Architectural lighting, right now stair lighting.
 
@@ -90,3 +71,12 @@ IRL:
 - [PocketBase - Open Source backend in 1 file](https://pocketbase.io/)
 - [the morning paper - Computer Science](https://blog.acolyer.org/)
 - [Essays · Gwern.net](https://gwern.net/)
+
+## Inbox
+
+- [ ] [FastAPI rate limiter](https://github.com/vishyarjun/rate_limiter_fastapi), fork and test
+- [ ] [Device to send eithernet packet](https://github.com/francisrstokes/githublog/blob/main/2024%2F11%2F1%2Fsending-an-ethernet-packet.md)
+- [ ] NixOS based router:
+  - [NixOS based router](https://www.reddit.com/r/Nix/comments/17d0rce/nixos_based_router_part_1_the_hardware/)
+  - [Using NixOS as a router](https://francis.begyn.be/blog/nixos-home-router)
+  - [GitHub - nakato/nixos-bpir3-example](https://github.com/nakato/nixos-bpir3-example)

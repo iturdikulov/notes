@@ -18,7 +18,7 @@ sr-ease: 238
 > [[science]]s (such as [[physics]], [[biology]], earth science, [[chemistry]])
 > and engineering disciplines (such as [[computer_science]], electrical
 > engineering), as well as in non-physical systems such as the social sciences
-> (such as economics, [[my_psychology]], sociology, political science). It can also
+> (such as economics, [[psychology]], sociology, political science). It can also
 > be taught as a subject in its own right.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Mathematical_model)</cite>
 

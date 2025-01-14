@@ -54,6 +54,10 @@ To understand custom bullet list types check [[my_notation]] note.
 
 ## Learning path
 
+- [ ] research wiki note
+- [[large_language_model]]
+  - [Generating documentation from tests using files-to-prompt and LLM | Simon Willison’s TILs](https://til.simonwillison.net/llms/docs-from-tests)
+  - [What's your biggest Claude hack? : r/ClaudeAI](https://www.reddit.com/r/ClaudeAI/comments/1gg7211/whats_your_biggest_claude_hack/?chainedPosts=t3_1b7wh1i)
 - [!] [Richard Feynman: Can Machines Think? - YouTube](https://www.youtube.com/watch?app=desktop&v=ipRvjS7q1DI)
 NO, in some ways yes and can demonstrate intelegence-like behavior. TODO: write
 own note?

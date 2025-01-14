@@ -211,7 +211,7 @@ Archive:
 
 ## IRL
 
-- [[Taskwarrior]] - Command-line [[TODO]] list manager.
+- [[Taskwarrior]] - Command-line TODO list manager.
 - [[ledger]] - Command-Line Accounting.
 
 ## OS

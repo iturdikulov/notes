@@ -19,7 +19,7 @@ sr-ease: 248
 > interior design, and decorative art.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Visual_arts)</cite>
 
-I practice visual arts with [[art_learning_path]].
+I practice visual arts with [[art#Art learning path|learning materials]].
 
 ## External links
 

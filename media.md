@@ -16,22 +16,11 @@ sr-ease: 250
 > media, and advertising.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Media_\(communication\))</cite>
 
-## My Art and Media
-
-<!-- TODO: remove my, merge with similar notes. -->
-
-- [[my_art]]
-- [[my_books]]
-- [[my_videos]], including [[YouTube]] and [[Twitch]]
-- [[my_music]]
-- [[my_movies]]
-- [[my_games]]
-- [[my_pictures]]
-- [[my_handwriting]]
-- [[comics]]
-- [[my_awesome_software_list]]
-
 ## Multimedia formats
+
+TODO: research and review formats
 
 - MP4
 - GIF
+- M4B
+- JPEG XL

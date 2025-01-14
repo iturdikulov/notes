@@ -95,7 +95,7 @@ Rules for outline notes:
 
 - Main index note, as entry point, like website index page. For example
 [[projects]] note my current working projects, reflect my current interests.
-- Topic note, like [[my_art]], [[my_videos]], etc.
+- Topic note, like [[index]].
 
 ## Spaced repetition notes
 

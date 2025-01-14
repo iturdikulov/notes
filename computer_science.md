@@ -42,14 +42,14 @@ is no strict grouping, but I'm trying to keep it organized by priority.
 
 To understand custom bullet list types check [[my_notation]] note.
 
-### Books
-
 - [!] [[Petzold_-_Code]], recently (2022) was rewritten, contains many "base"
   information obout computers and some stuff related to
   [[computer_programming]].
 - [!] [[Wengrow_-_Data_structures_and_algorithms]], actually I'm revisiting this
   book (not fully finished in 2023). It was rewritten in 2023 and 2024 (volumes
   1 and 2), and I want to go through it again.
+- [[Cormen_et_al_-_Introduction_to_algorithms]], read and take notes.
+- [[LeetCode]] - research and solve problems.
 - [ ] Flake - The computational beauty of nature
 - [ ] [[Cormen_-_Algorithms_unlocked]]
 

@@ -60,6 +60,53 @@ To understand custom bullet list types check [[my_notation]] note.
 - [ ] [[C]], research note.
 - [ ] [[Go]], research note.
 
+
+- [ ] [Semantic Commit Messages · GitHub](https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716)
+- [/] [[Python]], research, re-read, adjust flashcards.
+- [Advent of Code 2024](https://adventofcode.com/2024) - intersting challenge.
+- [AOC: What would you say are the minimal skills for beginners?](https://www.reddit.com/r/adventofcode/comments/7kd8jt/comment/dre0uu3/),
+  research article.
+- [/] [[McConnell_-_Code_complete]], read and take notes.
+- [JavaScript on Exercism](https://exercism.org/tracks/javascript) - learn
+  [[JavaScript]] with practical lessons.
+
+- [/] [[concurency]] - research note.
+- [What every systems programmer should know about
+  concurrency](./articles/Kline_-_concurrency_primer.pdf), research article.
+- [[OOP]] - research note.
+- [/] [[asyncio]] - research note.
+- [Большой гайд по миграциям в Django: готовимся к миграциям и избегаем конфликтов / Хабр](https://habr.com/ru/companies/idaproject/articles/861386/)
+
+- Domain-Driven Design Distilled, read and take notes.
+- Refactoring: Improving the Design of Existing Code, read and take notes.
+- Beyond the Twelve-Factor App, read and take notes.
+- [[Git]], need to research
+- Evans How Git Works
+- [[Henry_How_to_Learn_Nix]]
+
+- [Sets in Python – Real Python](https://realpython.com/python-sets/), research
+  article.
+- [Data-Oriented Demo: SOA, composition - YouTube](https://www.youtube.com/watch?v=ZHqFrNyLlpA),
+  research video.
+- [plan9/sys/src/cmd/cat.c - GitHub](https://github.com/0intro/plan9/blob/main/sys/src/cmd/cat.c),
+  research code.
+- [Set Difference Python: Intersection, union and difference of Sets in Python. - DEV Community](https://dev.to/svinci/intersection-union-and-difference-of-sets-in-python-4gkn)
+- [[Ramalho_-_Fluent_Python]]
+- [Think Python — Think Python](https://allendowney.github.io/ThinkPython/)
+- [The Big Book of Small Python Projects](https://inventwithpython.com/bigbookpython/)
+- [FastAPI](https://fastapi.tiangolo.com/learn/)
+  - [[Pydantic]]
+- [CPython's Garbage Collector and its Impact on Application Performance](https://blog.codingconfessions.com/p/connecting-cpythons-gc-internals)
+
+- [Thinking in React]( https://react.dev/learn/thinking-in-react)
+
+- [[SQL]], research
+- [/] [[Forta_-_SQL_za_10_minut]]
+- [Database normalization - Wikipedia](https://en.m.wikipedia.org/wiki/Database_normalization )
+- [SQLModel](https://sqlmodel.tiangolo.com/learn/)
+- [Database normalization - Wikipedia](https://en.m.wikipedia.org/wiki/Database_normalization)
+
+
 ### High-level topics
 
 - [ ] [Web development](https://web.dev/learn).
@@ -327,6 +374,10 @@ with Python
 - [GitHub - miyuchina/mistletoe: A fast, extensible and spec-compliant Markdown parser in pure Python.](https://github.com/miyuchina/mistletoe)
 - [Type hints cheat sheet - mypy 1.11.2 documentation](https://mypy.readthedocs.io/en/stable/cheat_sheet_py3.html)
 - [GitHub - nschloe/perfplot: :chart_with_upwards_trend: Performance analysis for Python snippets](https://github.com/nschloe/perfplot)
+- [JupyterLite and pandas intro](https://jvns.github.io/pandas-cookbook/lab/index.html)
+- [Create text-based diagrams with Mermaid - YouTube](https://www.youtube.com/watch?v=4_LdV1cs2sA)
+- Rsync tutorial, [rsync(1) manpage](https://download.samba.org/pub/rsync/rsync.1) and [examples](https://rsync.samba.org/examples.html)
+- [Chrome DevTools](https://developer.chrome.com/docs/devtools)
 
 JavaScript:
 
@@ -509,75 +560,3 @@ Why repeating code is bad?
 KISS::Keep It Simple, Stupid
 
 YAGNI::You Ain't Going to Need It
-
-<!-- NEXT: review this -->
-
-## SOLID principles, to make object-oriented designs better
-
-The SOLID ideas are:
-
-- The Single-responsibility principle: "There should never be more than one
-reason for a class to change." In other words, every class should have only
-one responsibility.
-
-- The Open–closed principle: "Software entities ... should be open for
-extension, but closed for modification."
-
-- The Liskov substitution principle: "Functions that use pointers or references
-to base classes must be able to use objects of derived classes without knowing
-it." See also design by contract.
-
-- The Interface segregation principle: "Clients should not be forced to depend
-upon interfaces that they do not use."
-
-- The Dependency inversion principle: "Depend upon abstractions, not concretions."
-
-The SOLID acronym was introduced later, around 2004, by Michael Feathers.
-
-Although the SOLID principles apply to any object-oriented design, they can also
-form a core philosophy for methodologies such as agile development or adaptive
-software development.
-
-[S]ingle responsibility principle – принцип единственной обязанности на каждый
-класс должна быть возложена одна-единственная обязанность
-
-[O]pen/closed principle – принцип открытости/закрытости программные сущности
-должны быть закрыты для изменения но открыты для расширения
-
-[L]iskov substitution principle – принцип подстановки Барбары Лисков функции,
-которые используют базовый тип, должны иметь возможность использовать подтипы
-базового типа, не зная об этом.
-
-[I]nterface segregation principle – принцип разделения интерфейса много
-специализированных интерфейсов лучше, чем один универсальный
-
-[D]ependency inversion principle – принцип инверсии зависимостей зависимости
-внутри системы строятся на основе абстракций. Модули верхнего уровня не зависят
-от модулей нижнего уровня. Абстракции не должны зависеть от деталей. Детали
-должны зависеть от абстракций
-
-- Gathering problems and requirements is first step.
-- Architecture planning and discussion required to make decisions and deeply
-understand the problem.
-- Need to write maintainable code for people, DRY, KISS, YAGNI, need to avoid
-neurosis and excessive perfectionism.
-- Write **simple** self-documenting code that explains its logic, comments
-should be up-to-date and do not contain unnecessary information (explain what is
-not clear or why it was done that way):
-  - I avoid deep abstractions and always prefer composition to inheritance or
-  impurity.
-  - I prefer flat data structures whenever possible.
-  - I introduce external dependencies to a minimum (ideally without them at
-  all).
-  - I design modules with clear APIs, but almost never translate them into
-  microservices.
-  - To understand legacy code, I draw dependency graphs and sequence diagrams.
-  - I write examples - lots of examples. Some of them are even interactive.
-- Several levels of testing, with the help of "tools" (debugger, linter, etc.)
-and automatic testing greatly help to detect bugs and issues.
-- Working with team, helping others and myself (documentation, training,
-reviews) significantly improve quality of any project.
-- I listen to the opinion of older comrades, experience is very expensive and
-useful.
-- I do refactor my code if something is unclear and needs to be improved.
-

@@ -86,7 +86,7 @@ Is $\mathcal{O}(N)$ more efficient than $\mathcal{O}(1)$?
 &#10;<br>
 $\mathcal{O}(N)$ is less efficient than $\mathcal{O}(1)$, no matter how many
 steps (N) the $\mathcal{O}(1)$ algorithm always takes 1 step  or constant number. Even
-if $\mathcal{O}(1)$ takes a lot steps at some point it well be more efficient. <!--SR:!2024-11-05,53,270-->
+if $\mathcal{O}(1)$ takes a lot steps at some point it well be more efficient. <!--SR:!2025-06-05,143,270-->
 
 Big O can describe the best and worst case scenario of an algorithm. But Big O
 Notation generally refers to the ==worst case (pessimistic approach)== scenario,

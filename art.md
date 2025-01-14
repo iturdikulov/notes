@@ -35,5 +35,57 @@ ideas.
 For me Art is sort of self-expression, when I have a need to express my thoughts
 or just "creative copy" something beautiful.
 
-I'm fan of traditional [[visual_art]] and CGI art. I have my
-[[art_learning_path|study plan]] to understand art and their subfields better.
+I'm fan of traditional [[visual_art]] and CGI art.
+I have my  [[art#Art learning path|study plan]] to understand art and their
+subfields better.
+
+## Art learning path
+
+Currently, I'm focusing on learning [[visual_art]] and [[photography]],
+additionally I'm learning
+[[computer_graphics#Computer Graphics learning path|computer graphics]] which is
+for me very close field.
+
+I also like to practice [[my_handwriting|handwriting]].
+
+To understand custom bullet list types check [[my_notation]] note.
+
+- [[visual_art]], research
+- [/] [Beginner's Drawing Course – 40 Episodes! (2020) - YouTube](https://www.youtube.com/playlist?list=PLdIDMj3VSgBfRYygdixt6Msj2c5K8Kmfg)
+  - [p] Episode 1: Getting Started with simple drawings
+  - [p] Episode 2: Cubes, Cylinders & Cones! Free Basic Drawing Class
+- [/] [[my_sketchbook]] - draw things
+- [[Price_-_Donut_tutorial_in_Blender]]
+- redraw Russian_Cyrillic_alphabet
+- redraw International_Morse_Code
+- redraw https://miro.medium.com/v2/resize:fit:4800/format:webp/1*XzLlyZSuMyVCEOGaUh2hFg.png
+
+### Drawing
+
+- [/] [[my_sketchbook|Sketchbook]]
+- [/] [[30_day_drawing_challenge|Drawing Challenge]]
+- [/] [[Loomis_-_Fun_with_a_pencil|Loomis book]]
+- [[Drawbox_community_-_Drawbox|Taking fundamental drawing exercises]].
+- [[Prokopenko_-_Figure_drawing_fundamentals]]
+- [[my_handwriting]]
+
+### Photography
+
+- [ ] [[Kilpatrik_-_Svet_i_osveshhenie]], good book about light and lighting.
+
+### Software
+
+- [[Blender]]
+- [[Godot]]
+- [[Krita]]
+- [[GIMP]]
+- [[darktable]]
+
+### External links
+
+Here are some resources for [[artistic_inspiration]]:
+
+- [ArtStation - showcase platform](https://www.artstation.com/)
+- [DeviantArt - Art Gallery and Community](https://www.deviantart.com/)
+- [Arthive - Social network for artists and art connoisseurs](https://arthive.com/)
+- [Behance - Best of Behance](https://www.behance.net/)

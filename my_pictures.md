@@ -15,3 +15,4 @@ TODO: picture definition
 
 - Photos
 - Screenshot
+- [[comics]]

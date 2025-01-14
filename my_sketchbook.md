@@ -11,7 +11,7 @@ sr-ease: 249
 
 # My digital art sketchbook
 
-My first steps in [[my_art]] creation.
+My first steps in [[art]] creation.
 
 This is place where I store my drawings. Some are digital some are scanned from
 paper. I'll place here more [[art]] related stuff. I use [[PureRef]] to store my

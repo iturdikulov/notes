@@ -22,6 +22,15 @@ sr-ease: 243
 > to a lesser extent in the Baltic states and Israel.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Russian_language)</cite>
 
+## Russian learning path
+
+- [Е. И. Литневская Русский язык: краткий теоретический курс для школьников](http://gramota.ru/book/litnevskaya.php)
+- [Russian National Corpus](https://ruscorpora.ru/en)
+- [gramota.ru book](http://gramota.ru/book/litnevskaya.php)
+- [gramota.ru](http://new.gramota.ru/)
+- [videotutor-rusyaz.ru](https://videotutor-rusyaz.ru/uchenikam/teoriya.html)
+- [morphologyonline.ru](https://morphologyonline.ru/chasti-rechi.html)
+
 ## Cyrillic script (Кириллица)
 
 Script was conceived and popularised by the followers of Cyril and Methodius in
@@ -34,11 +43,3 @@ script.
 ![[./img/Russian_Cyrillic_alphabet.svg]]
 _The Russian alphabet_
 
-## External links
-
-- [Е. И. Литневская Русский язык: краткий теоретический курс для школьников](http://gramota.ru/book/litnevskaya.php)
-- [Russian National Corpus](https://ruscorpora.ru/en)
-- [gramota.ru book](http://gramota.ru/book/litnevskaya.php)
-- [gramota.ru](http://new.gramota.ru/)
-- [videotutor-rusyaz.ru](https://videotutor-rusyaz.ru/uchenikam/teoriya.html)
-- [morphologyonline.ru](https://morphologyonline.ru/chasti-rechi.html)

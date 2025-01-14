@@ -18,8 +18,9 @@ sr-ease: 208
 > later (possibly as an animation) or displayed in real time.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/3D_computer_graphics)</cite>
 
-I'm trying to [[computer_graphics_learning_path|learn]] 3D computer graphics.
-By developing various [[my_games|games]] and modelling 3D models in [[Blender]].
+I'm trying to [[computer_graphics#Computer Graphics learning path|learn]] 
+3D computer graphics. By developing various [[my_games|games]] and modelling 3D
+models in [[Blender]].
 
 ## Assets
 

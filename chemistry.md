@@ -12,6 +12,8 @@ sr-ease: 267
 TODO: add term
 TODO: add periodic table note
 
-## References
+## Chemistry learning path
+
+## External links
 
 - [PTable - interactive periodic table](http://www.ptable.com/)

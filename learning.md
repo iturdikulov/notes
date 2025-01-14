@@ -141,18 +141,19 @@ in this section.
 Computer science help me to understand my profession (software engineer) better
 and break my barriers in software development.
 
-[[mathematics_learning_path|How I learn mathematics]]. Mathematics is a "clean"
-fundamental science, and part of many others, and I want to learn it better, at
-least on some beginner/medium level.
+[[mathematics#Mathematics learning path|How I learn mathematics]]. Mathematics
+is a "clean" fundamental science, and part of many others, and I want to learn
+it better, at least on some beginner/medium level.
 
-[[physics_and_chemistry_learning_path|How I learn physics and chemistry]].
-[[physics]] and [[chemistry]] go after mathematics in my learning priority. I
-want to understand world better, and this fields can help me with it.
+[[physics#Physics learning path|physics]] and 
+[[chemistry#Chemistry learning path|chemistry]] go after mathematics in my
+learning priority. I want to understand world better, and this fields can help
+me with it.
 
-Linguistics, my primary focus is [[Russian]] and [[English]] languages. English
-is great to reveal huge part of world, new knowledge and opportunities, I'm
-native [[Russian]] speaker, currently I spent more time to learn English.
-[[English_learning_path|How I learn English]].
+Linguistics, my primary focus is [[Russian#Russian learning path|Russian]] and
+[[English#English learning path|English]] languages. English is great to reveal
+huge part of world, new knowledge and opportunities, I'm native Russian speaker,
+currently I spent more time to learn English.
 
 Knowing [[history]] is improving your understanding of current world events and
 help to avoid mistakes from past.
@@ -176,9 +177,9 @@ information, which can be related to various software, like
 [[keyboard_shortcut]], [[Blender]], [[Krita]], [[GNU_Utilities]], [[Linux]],
 [[NixOS]], etc.
 
-[[computer_graphics_learning_path|How I learn computer graphics]]. Computer
-graphics impress me, and I want to learn more about it. It's a great way to
-express my thoughts in easy to understand form.
+[[computer_graphics#Computer graphics learning path|Computer graphics]] impress
+me, and I want to learn more about it. It's a great way to express my thoughts
+in easy to understand form.
 
 [[my_awesome_software_list|My awesome software list]] is subset of endlessly
 large software list, which I use for my work and personal life. In fact this is
@@ -192,12 +193,11 @@ better.
 
 ## Art
 
-[[art|Art]] is a great way to express my thoughts in easy to understand form.
+[[art#Art learning path]] is a great way to express my thoughts in easy to understand form.
 Art for me is also deeply integrated into [[computer_graphics]], because it
-provides many opportunities to create something beautiful. Here is my
-[[art_learning_path]].
+provides many opportunities to create something beautiful.
 
-I organize all **my** art related stuff in [[my_art]] note.
+I organize all **my** art related stuff in [[art]] note.
 
 For [[literature]] is great solution to fun and relax. I collect my reading list
 and favorite books in [[my_books]] note.
