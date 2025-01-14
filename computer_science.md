@@ -3,9 +3,6 @@ date: 2022-12-29
 tags:
   - inbox
   - SR-computer_science
-sr-due: 2023-28-08
-sr-interval: 4
-sr-ease: 209
 ---
 
 # Computer Science

@@ -1,13 +1,11 @@
 ---
 author: Eмeлин Aлeксaндр
-date: 2021-9-31
 external:
   - https://mathter.pro/pesochnica/index.html
 directory: ~/Science/math/Емелин-Кратчайший_курс_школьной_математики
 tags:
   - inbox
   - mathematics
-sr-due: 2024-02-01
 sr-interval: 7
 sr-ease: 170
 ---
