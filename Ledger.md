@@ -108,7 +108,7 @@ $ ledger -f journal.txt register
 $ ledger -f journal.txt
 ```
 
-## References
+## External links
 
 - [ ] [Getting Started With Ledger - August 28, 2019 201f047](https://rolfschr.github.io/gswl-book/latest.html)
 - [ ] [Ledger: Command-Line Accounting](https://www.ledger-cli.org/3.0/doc/ledger3.html)

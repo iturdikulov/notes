@@ -966,7 +966,7 @@ Open vim editor for current input
 &#10;<br>
 Open neovim for current input
 
-## References
+## External links
 
 - [ ] [FAQ · brookhong/Surfingkeys Wiki · GitHub](https://github.com/brookhong/Surfingkeys/wiki/FAQ)
 - [ ] [Chrome Extension](https://chrome.google.com/webstore/detail/surfingkeys/gfbliohnnapiefjpjlpjnehglfpaknnc)

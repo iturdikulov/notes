@@ -56,6 +56,6 @@ rg --invert-match regular_expression
 rg --fixed-strings -- string
 ```
 
-## References
+## External links
 
 - [ ] [ripgrep/GUIDE.md](https://github.com/BurntSushi/ripgrep/blob/master/GUIDE.md)

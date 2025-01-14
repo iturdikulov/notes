@@ -55,7 +55,7 @@ Select [[environment_variable]] / aliases
 
 - [ ] review [Vim universe. fzf - command line fuzzy finder](https://www.youtube.com/watch?v=qgG5Jhi_Els)
 
-## References
+## External links
 
 - `man fzf`
 - [x] [So you've installed `fzf`. Now what?](https://andrew-quinn.me/fzf/)

@@ -29,7 +29,7 @@ List of sorting algorithms (which I know):
 - [[insertion_sort]]
 - [[quicksort]]
 
-## References
+## External links
 
 - [ ] [Visualising data structures and algorithms through animation](https://visualgo.net/en/sorting)
 - [ ] [Data Structure Visualization](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html)

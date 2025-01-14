@@ -178,7 +178,7 @@ Code will raise an error, when we try to access `armor`, if we really want to
 get it (not recommended), need to use `front_wall._Wall__armor`.
 
 
-## References
+## External links
 
 - [ ] [Composition over inheritance - Wikipedia](https://en.wikipedia.org/wiki/Composition_over_inheritance)
 - [ ] [Uncle Bob SOLID principles - YouTube](https://www.youtube.com/watch?v=zHiWqnTWsn4)

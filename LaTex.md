@@ -21,7 +21,7 @@ sr-ease: 273
   - texlive-bibtexextra - contains additional BibTeX and BibLaTeX styles and
     bibliography databases.
 
-## References
+## External links
 
 - [CTAN: Comprehensive TeX Archive Network](https://ctan.org/) The Comprehensive
   TEX Archive Network (CTAN) is the central place for all kinds of material

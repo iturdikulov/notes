@@ -30,7 +30,7 @@ sr-ease: 247
 > - Secure multi-party computation\
 > — <cite>[Cryptographic protocol](https://en.wikipedia.org/wiki/Cryptographic_protocol)</cite>
 
-## References
+## External links
 
 - [3X-UI: Shadowsocks-2022 XRay (XTLS) сервер с простой настройкой и приятным интерфейсом / Habr](https://habr.com/en/articles/735536/)
 

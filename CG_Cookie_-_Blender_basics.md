@@ -805,7 +805,7 @@ To avoid lumps, prefer to work with low-res mesh and then add more details.
 
 Learn basics, before you dive into some specific area.
 
-## References
+## External links
 
 - [ ] [Big Idea: Digital Tablets](https://cgcookie.com/posts/big-idea-digital-tablets?utm_source=youtube&utm_campaign=BASICS%204.0%20YT&utm_medium=video&utm_content=Lesson24)
 - [ ] [PRESS START: Your Simple First Blender Project](https://cgcookie.com/courses/press-start-your-simple-first-blender-project)

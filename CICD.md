@@ -15,7 +15,7 @@ sr-ease: 226
 > development or continuous [[computer_software]] development.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/CI/CD)</cite>
 
-## References
+## External links
 
 - [ ] [What is CI/CD? | GitLab](https://about.gitlab.com/topics/ci-cd/)
 - [ ] [DevOps CI/CD Explained in 100 Seconds - YouTube](https://www.youtube.com/watch?v=scEDHsr3APg)

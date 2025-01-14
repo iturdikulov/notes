@@ -25,6 +25,6 @@ a Professional Edition, released under a proprietary license and a Community
 Edition released under the Apache License. PyCharm Community Edition is less
 extensive than the Professional Edition.
 
-## References
+## External links
 
 - [ ] [03 Mouseless Driven Development](https://www.youtube.com/watch?v=UH6YVv9js3s)

@@ -19,7 +19,7 @@ sr-ease: 250
 
 I use it very often in my [[life]].
 
-## References
+## External links
 
 - [Shipper](https://shipper.space/)
 - [Pochta.ru](https://www.pochta.ru/)

@@ -24,6 +24,6 @@ Start from this section:
 
 - [Math Trainer - Addition](https://www.mathsisfun.com/numbers/math-trainer-addition.html)
 
-## References
+## External links
 
 - [ ] [Math Games - Puzzle, Number, Strategy, Logic and Multiplayer Math Games](https://www.mathsisfun.com/games/index.html)

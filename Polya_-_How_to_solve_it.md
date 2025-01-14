@@ -30,6 +30,6 @@ Describe how to solve general principles of solving problems.
 > accessible related problem?".\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/How_to_Solve_It)</cite>
 
-## References
+## External links
 
 - [ ] [Polya explains the problem solving technique - YouTube](https://www.youtube.com/watch?v=h0gbw-Ur_do)

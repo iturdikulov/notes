@@ -16,8 +16,6 @@ sr-ease: 253
 > automatically, additional packages are available using the package manager.\
 > — <cite>[Termux wiki](https://wiki.termux.com/wiki/Main_Page)</cite>
 
-## References
+## External links
 
 - [ ] [termux.sh is a shell script for termux terminal app in android to install and setup various packages like vim, zsh and their configuration files.](https://github.com/sahilsehwag/android-termux-setup-script)
-
-

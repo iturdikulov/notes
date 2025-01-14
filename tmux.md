@@ -145,6 +145,6 @@ option).
 - Start of line::`0`
 - Start selection::`Space`
 
-## References
+## External links
 
 - [ ] [tmux 2: Productive Mouse-Free Development by Brian P. Hogan](https://pragprog.com/titles/bhtmux2/tmux-2/)

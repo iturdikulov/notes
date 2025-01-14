@@ -57,7 +57,7 @@ borg check /path/to/repo
 borg check --verify-data /path/to/repo
 ```
 
-## References
+## External links
 
 - [ ] [Borg backup - NixOS Wiki](https://nixos.wiki/wiki/Borg_backup)
 

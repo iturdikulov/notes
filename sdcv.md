@@ -43,7 +43,7 @@ that's all, at the next run of sdcv, for example sdcv man you get at first
 translation from Merriam-Webster's Collegiate and after that from oxford
 dictionary and after that all other translations.
 
-## References
+## External links
 
 - [Index of /Recommend/ dictionaries](https://downloads.freemdict.com/Recommend/)
 - [Словариум — Словари для компьютеров и смартфонов](https://dic.1963.ru/)

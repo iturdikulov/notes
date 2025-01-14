@@ -14,7 +14,7 @@ sr-ease: 272
 
 A sculpting and painting mobile application.
 
-## References
+## External links
 
 - [ ] [Nomad Sculpt manual](https://nomadsculpt.com/manual/)
 - [ ] [Nomad Sculpt - YouTube](https://www.youtube.com/playlist?list=PLYgW0C-nQEFNSS2llnNjkx8NpN6MXhfdI)

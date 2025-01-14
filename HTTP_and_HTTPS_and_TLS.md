@@ -39,7 +39,7 @@ sr-ease: 248
 > itself composed of two layers: the TLS record and the TLS handshake protocols.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Transport_Layer_Security)</cite>
 
-## References
+## External links
 
 - [ ] [A declaration of war on the HTTP of Shit «  The Tar Pit](http://thetarpit.org/2017/https-war-declaration)
 - [ ] [Как мы TLS Fingerprint обходили… / Habr](https://habr.com/en/articles/596411/)

@@ -35,6 +35,6 @@ sr-ease: 228
 | REBOL             | Yes     | Yes      | No                    | Yes        | No                | Yes                   | Yes        | No           | Yes             | Yes         | Yes            |                        |
 | Gellish           | Yes     | Yes      | Yes                   | Yes        | No                | Yes                   | Yes        | ISO          | No              | Yes         | Partial        | SQL, RDF/XML, OWL      |
 
-## References
+## External links
 
 - [ ] [OpenDDL](https://openddl.org/openddl.pdf)

@@ -27,7 +27,7 @@ sr-ease: 269
 > Tracker can be public or private.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/BitTorrent_tracker)</cite>
 
-## References
+## External links
 
 I use content from torrent trackers when it's legal.
 

@@ -66,7 +66,7 @@ reboot
 
 TODO: need to ingerate with NixOS, 2 keys (backup).
 
-## References
+## External links
 
 - [ ] [GitHub - drduh/YubiKey-Guide: Guide to using YubiKey for GPG and SSH](https://github.com/drduh/YubiKey-Guide)
 - [OnlyKey User's Guide | Docs](https://docs.onlykey.io/usersguide.html)

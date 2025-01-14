@@ -32,7 +32,7 @@ compilers (but may be enforced by static analysis tools).
 The elements of programming style are next what I will read.
 TODO: check in the future, did I read it?
 
-## References
+## External links
 
 - [ ] [Linux kernel coding style](https://www.kernel.org/doc/Documentation/process/coding-style.rst)
 - [ ] [Google Style Guides](https://google.github.io/styleguide/)

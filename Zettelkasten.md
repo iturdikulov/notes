@@ -31,7 +31,7 @@ Notes can have various [[zettelkasten_notes_type|types]].
 
 I use [[Telekasten]] plugin to manage my notes with [[Zettelkasten]] method.
 
-## References
+## External links
 
 - [Andy Notes](https://notes.andymatuschak.org/About_these_notes)
 - [PKM Zettelkasten Wiki](https://zk.zettel.page/)

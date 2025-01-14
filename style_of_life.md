@@ -20,6 +20,6 @@ sr-ease: 251
 > psychotherapy.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Style_of_life)</cite>
 
-## References
+## External links
 
 - [The Art of Manliness](https://www.artofmanliness.com/)

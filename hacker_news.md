@@ -18,6 +18,6 @@ sr-ease: 272
 
 I also added Hacker News into my [[Miniflux|RSS reader]].
 
-## References
+## External links
 
 - [Hacker News best RSS feed](https://hnrss.org/best)

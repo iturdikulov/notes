@@ -376,9 +376,8 @@ cp sub-key.asc /media/storage/ # copy sub-key to storage
 # umount storage, buy following guide above
 ```
 
-## References
+## External links
 
-- [^1]: [Using an offline GnuPG master key](https://incenp.org/notes/2015/using-an-offline-gnupg-master-key.html).
 - [OpenPGP for application developers](https://openpgp.dev/book/)
 - [Keybase is secure messaging and file-sharing.](https://keybase.io)
 - [An abridged guide to using ed25519 PGP keys with GnuPG and SSH](https://musigma.blog/2021/05/09/gpg-ssh-ed25519.html)
@@ -389,3 +388,6 @@ cp sub-key.asc /media/storage/ # copy sub-key to storage
 - [Subkeys](https://wiki.debian.org/Subkeys)
 - [Using an offline GnuPG master key](https://incenp.org/notes/2015/using-an-offline-gnupg-master-key.html)
 
+## References
+
+- [^1]: [Using an offline GnuPG master key](https://incenp.org/notes/2015/using-an-offline-gnupg-master-key.html).

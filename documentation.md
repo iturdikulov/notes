@@ -35,7 +35,7 @@ One good source to inspiration, how documentation looks like, is
 [git/Documentation](https://github.com/git/git/tree/master/Documentation), in
 terms of format, style and grammar.
 
-## References
+## External links
 
 - [ ] [A practical guide to writing technical specs - Stack Overflow](https://stackoverflow.blog/2020/04/06/a-practical-guide-to-writing-technical-specs/)
 - [ ] [How to write Initial Draft of Proposal](https://jgu-dev.s3.ap-south-1.amazonaws.com/Initial+Draft+of+Proposal.pdf)

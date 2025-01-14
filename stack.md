@@ -33,6 +33,6 @@ Example of stack of layers:
        1 /___________// |
        0 /_FILO______/  V low
 
-## References
+## External links
 
 - [ ] [Stacks - Coursera](https://www.coursera.org/lecture/data-structures/stacks-UdKzQ)

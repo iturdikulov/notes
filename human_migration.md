@@ -21,6 +21,6 @@ sr-ease: 250
 > possible second move in their [[life]].\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Human_migration)</cite>
 
-## References
+## External links
 
 - [Cost of Living](https://www.numbeo.com/cost-of-living/)

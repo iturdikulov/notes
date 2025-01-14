@@ -24,7 +24,7 @@ sr-ease: 228
 > -   Short data transmission time.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Computer_performance)</cite>
 
-## References
+## External links
 
 - [ ] [Profiling and Analyzing Performance of Python Programs | Martin Heinz | Personal Website & Blog](https://martinheinz.dev/blog/64)
 - [ ] [Profiling in Python: How to Find Performance Bottlenecks – Real Python](https://realpython.com/python-profiling/)

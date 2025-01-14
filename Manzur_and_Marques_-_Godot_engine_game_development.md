@@ -12,7 +12,7 @@ sr-ease: 272
 
 # Godot Engine Game Development in 24 Hours, Sams Teach Yourself: The Official Guide to Godot 3.0
 
-## References
+## External links
 
 - [vnen/Godot-24-Hours: Examples and demo projects for the Godot Engine
 Game Development in 24 Hours book.](https://github.com/vnen/Godot-24-Hours)

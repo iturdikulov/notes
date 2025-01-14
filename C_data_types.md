@@ -18,7 +18,7 @@ Check main types here:
 - [ ] [C data types - Wikipedia](https://en.wikipedia.org/wiki/C_data_types#Main_types)
 - [ ] [C and C++ Integer Limits | Microsoft Learn](https://learn.microsoft.com/en-us/cpp/c-language/cpp-integer-limits?view=msvc-170)
 
-## References
+## External links
 
 - [[data_type]].
 - [cstdint](https://www.cplusplus.com/reference/cstdint/)

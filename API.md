@@ -40,7 +40,7 @@ API is way to communicate between two or more computer programs.
 API can be public or private, documented or undocumented, standardized or not,
 versioned or not, etc.
 
-## References
+## External links
 
 - [ ] [What is an API?](https://www.youtube.com/watch?v=s7wmiS2mSXY)
 - [ ] [What is an API? - Application Programming Interfaces Explained - AWS](https://aws.amazon.com/what-is/api/)

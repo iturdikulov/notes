@@ -19,7 +19,7 @@ sr-ease: 241
 > mathematics.\
 > — <cite>[Graph theory](https://en.wikipedia.org/wiki/Graph_theory)</cite>
 
-## References
+## External links
 
 - [ ] [CSE 373 -- Lecture 10, Fall 2020 - YouTube](https://www.youtube.com/watch?v=Sjk0xqWWPCc)
 - [ ] [9. Breadth-First Search - YouTube](https://www.youtube.com/watch?v=oFVYVzlvk9c)

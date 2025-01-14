@@ -37,7 +37,7 @@ Cheatsheet, which explain what can be used for Low Light Photography:
 ![Cheat sheet](img/Photography_Gear_and_Settings.webp) and
 [Source](https://digital-photography-school.com/cheat-sheet-gear-settings-low-light-photography/)
 
-## References
+## External links
 
 - [ ] [Вычислительная Фотография](https://vas3k.blog/blog/computational_photography/)
 - [ ] [Вычислительная фотография 2.0](https://jejeya.pictures/future_of_photography)

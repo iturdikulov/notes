@@ -25,7 +25,7 @@ a piece of hardware like a car, [[life|home]] appliance,
 > A compilation of reviews may itself be called a review.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Review)</cite>
 
-## References
+## External links
 
 - [IMDb](https://www.imdb.com/)
 - [Earth Reviews](https://neal.fun/earth-reviews/)

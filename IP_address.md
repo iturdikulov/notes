@@ -124,6 +124,6 @@ Universal network utility, which can be used to many network tasks.
 - [The Web's Largest Community Tracking Online Fraud &amp; Abuse | Project Honey Pot](http://www.projecthoneypot.org)
 - [VirusTotal url scan](https://www.virustotal.com/gui/home/url)
 
-## References
+## External links
 
 - [ ] [Classless Inter-Domain Routing - Wikipedia](https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing)

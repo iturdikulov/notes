@@ -29,7 +29,7 @@ principle of [[binary_search|binary_search]].
 | Delete    | O(log _n_)  | O(_n_)         |
 
 
-## References
+## External links
 
 - [ ] [CS50 2020 - Lecture 5 - Data Structures - YouTube](https://www.youtube.com/watch?v=2T-A_GFuoTo&t=4833s)
 - [ ] [Binary Search Tree Review - YouTube](https://www.youtube.com/watch?v=x6At0nzX92o)

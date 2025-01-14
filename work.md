@@ -79,7 +79,7 @@ position).
 I also use various [[my_awesome_software_list|software]] and
 [[my_awesome_web_services_list|services]] in my work.
 
-## References
+## External links
 
 - [salomonelli/best-resume-ever](https://github.com/salomonelli/best-resume-ever)
 - [Upwork](https://www.upwork.com/)

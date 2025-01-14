@@ -15,7 +15,7 @@ sr-ease: 269
 > medium such as the public [[internet]].\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Virtual_private_network)</cite>
 
-## References
+## External links
 
 - [[wireguard]]
 - [Business VPN For Secure Networking | OpenVPN](https://openvpn.net/)

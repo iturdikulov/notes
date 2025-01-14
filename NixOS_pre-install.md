@@ -227,6 +227,6 @@ nixos-enter NIXOS_INSTALL_BOOTLOADER=1 /nix/var/nix/profiles/system/bin/switch-t
 tmpfs 1618464 415764 1202700 26% /run/user/1000
 mount -o remount,size=2G /run/user/0
 
-## References
+## External links
 
 - [ ] [nix-community/nix-on-droid: Nix-enabled environment for your Android device.](https://github.com/nix-community/nix-on-droid)

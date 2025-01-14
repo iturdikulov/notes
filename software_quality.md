@@ -31,7 +31,7 @@ sr-ease: 230
 > Management Group (OMG).\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Software_engineering)</cite>
 
-## References
+## External links
 
 - [ ] [Casey and Uncle Bob](https://github.com/cmuratori/misc/blob/main/cleancodeqa.md)
 - [ ] [I don't love the single responsibility principle](https://sklivvz.com/posts/i-dont-love-the-single-responsibility-principle)

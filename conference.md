@@ -21,7 +21,7 @@ I prefer technical conferences, which I visit mostly online.
 My primary goal to visit conferences is to [[learning|learn]] something new
 and be inspired by other people.
 
-## References
+## External links
 
 - [Join us at PyCon](https://pycon.org/)
 - [Tech conferences | Confs.tech](https://confs.tech/)

@@ -58,9 +58,12 @@ Main factors and tips to use LeetCode effectively [^1]:
 - [Developer Training | Test Coding Skills Online - Codility](https://app.codility.com/programmers/)
 - [HackerRank - Online Coding Tests and Technical Interviews](https://www.hackerrank.com/)
 
-## References
+## External links
 
-- [^1]: [How to use LeetCode to help yourself efficiently and effectively (for beginners)](https://leetcode.com/discuss/career/450215/How-to-use-LeetCode-to-help-yourself-efficiently-and-effectively-\(for-beginners\)))
 - [MisterBooo/LeetCodeAnimation](https://github.com/MisterBooo/LeetCodeAnimation)
 - [Top 100 Liked Questions](https://leetcode.com/problemset/all/?listId=79h8rn6&page=1)
 - [Top Interview Questions](https://leetcode.com/problemset/all/?page=1&listId=wpwgkgt)
+
+## References
+
+- [^1]: [How to use LeetCode to help yourself efficiently and effectively (for beginners)](https://leetcode.com/discuss/career/450215/How-to-use-LeetCode-to-help-yourself-efficiently-and-effectively-\(for-beginners\)))

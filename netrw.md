@@ -89,7 +89,7 @@ TODO: switch between files and directories
 - `:h netrw`
 - `:h netrw-quickmap`
 
-## References
+## External links
 
 - [x] [Using Netrw, vim's builtin file explorer](https://vonheikemen.github.io/devlog/tools/using-netrw-vim-builtin-file-explorer/)
 

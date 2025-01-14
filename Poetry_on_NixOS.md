@@ -36,6 +36,6 @@ nix-shell
 nvim  # or (pycharm-community . &) to start pycharm and allow close terminal
 ```
 
-## References
+## External links
 
 - [x] [Developing Python and Rust projects on NixOS using IntelliJ IDEA and PyCharm — Olivier 'reivilibre'](https://o.librepush.net/solutions/nix/developing-python-rust-projects-on-nixos/)

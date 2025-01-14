@@ -12,6 +12,6 @@ sr-ease: 270
 
 TODO: add term
 
-## References
+## External links
 
 - [Paul Robertson GIFs - Find &amp; Share on GIPHY](https://giphy.com/paulrobertson)

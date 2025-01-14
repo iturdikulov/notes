@@ -46,6 +46,6 @@ sr-ease: 205
 ![[img/queue.excalidraw|FIFO queue diagram]]
 _Representation of a FIFO queue_
 
-## References
+## External links
 
 - [ ] [Queues - Basic Data Structures](https://www.coursera.org/lecture/data-structures/queues-EShpq)

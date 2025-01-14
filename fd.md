@@ -48,7 +48,7 @@ fd "string|regex" -x command {}
 fd -d 1 -e avi -x ffmpeg -i {} -vcodec libx264 -acodec aac {.}.mp4
 ```
 
-## References
+## External links
 
 - [ ] [How to use fd](https://github.com/sharkdp/fd#how-to-use)
 

@@ -14,6 +14,6 @@ sr-ease: 268
 
 TODO: add term
 
-## References
+## External links
 
 - [ ] [Hugo tutorials](https://mertbakir.gitlab.io/hugo/)

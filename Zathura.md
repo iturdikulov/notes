@@ -148,7 +148,7 @@ book begins counting its pages on the PDF's 17th page (so on page 17, the index
 is 1; on 18 it is 2, and so on). On setting :offset 16, 245G will jump to the
 261st page of the PDF rather than the 245th.
 
-## References
+## External links
 
 - `man zathura`
 - [Zathura - ArchWiki](https://wiki.archlinux.org/title/zathura)

@@ -37,7 +37,7 @@ How many times need to divide **2** to get 1 as result $2048 \div 2 \div 2 \div
 In computer science, unlike in math when we're saying $\mathcal{O}(\log N)$, we
 actually shorthand for saying ==$\mathcal{O}(\log_2 N)$==. <!--SR:!2024-09-20,10,215-->
 
-## References
+## External links
 
 - [ ] How logarithms interconnect with powers and exponents?
 - [ ] [Introduction to Logarithms](https://www.mathsisfun.com/algebra/logarithms.html)

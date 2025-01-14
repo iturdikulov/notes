@@ -19,6 +19,6 @@ sr-ease: 234
 > is film.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Computer_animation)</cite>
 
-## References
+## External links
 
 - [ ] [Easing Functions Cheat Sheet](https://easings.net/)

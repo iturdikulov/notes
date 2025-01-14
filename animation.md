@@ -20,7 +20,7 @@ sr-ease: 250
 > — <cite>[Animation - Wikipedia](https://en.wikipedia.org/wiki/Animation)</cite>
 
 
-## References
+## External links
 
 - [Сайт Алексея Кобелева про дисней](http://prodisney.ru/)
 

@@ -23,6 +23,6 @@ sr-ease: 203
 > (called edge or link between two adjacent nodes).\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Tree_(data_structure))</cite>
 
-## References
+## External links
 
 - [ ] [Trees - Basic Data Structures | Coursera](https://www.coursera.org/lecture/data-structures/trees-95qda)

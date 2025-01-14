@@ -46,7 +46,7 @@ $$
 $$
 Where ${n-1}!$ is just part of ${n!}$.
 
-## References
+## External links
 
 - [Factorial Function !](https://www.mathsisfun.com/numbers/factorial.html)
 

@@ -15,7 +15,7 @@ sr-ease: 270
 > spherical photo, as well as interactive panorama or immersive panorama.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/VR_photography)</cite>
 
-## References
+## External links
 
 - TODO: files examples?
 - [Explore World](https://www.explordle.com/map/wor)

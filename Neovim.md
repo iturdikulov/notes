@@ -1302,9 +1302,6 @@ rel=".\{-}"
 - [ ] [VimGolf - real Vim ninjas count every keystroke!](https://www.vimgolf.com/)
 - [-] [Как подружить Neovim c русской раскладкой](https://habr.com/ru/articles/726400/)
 
-## References
-
-
 ## TREEMACS_WORKFLOW_NEED_IMPORT
 
 prettire range: %!prettier --stdin-filepath %<CR>

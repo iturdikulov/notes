@@ -22,7 +22,7 @@ My general traveling notes (some [[life]] experience).
 
 Travel and me very different things 🙃.
 
-## References
+## External links
 
 - [Flightradar24](https://www.flightradar24.com/)
 - [RZD](http://www.rzd.ru/)

@@ -44,7 +44,7 @@ independently of the hardware they are run on.
 The way in which the amount of ==storage== space required by an algorithm varies
 with the size of the problem it is solving.
 
-## References
+## External links
 
 - [ ] [CSE 373 -- Lecture 2, Fall 2020 - YouTube](https://www.youtube.com/watch?v=z1mkCe3kVUA&t=2054s)
 - [ ] [Topcoder](https://www.topcoder.com/thrive/articles/Computational%20Complexity%20part%20one)

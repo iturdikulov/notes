@@ -21,7 +21,7 @@ sr-ease: 251
 > [[my_awesome_software_list#graphics|illustration software]].\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Infographic)</cite>
 
-## References
+## External links
 
 - [Animagraffs](https://animagraffs.com/)
 - [How a Car Works](https://www.howacarworks.com/)

@@ -34,6 +34,6 @@ physical layer, which is the lowest layer.
 
 TUN used for IP-packets routing, network layer, after data link layer.
 
-## References
+## External links
 
 - [Cloudflare - The Web Performance & Security Company | Cloudflare](https://www.cloudflare.com/)

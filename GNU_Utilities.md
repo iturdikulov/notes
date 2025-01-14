@@ -192,7 +192,7 @@ lsof is a command for LiSting Open Files. You can use lsof for example to:
 - Find files open by a specific user: lsof -u somebody
 
 
-## References
+## External links
 
 - [ ] [GNU Coreutils Cheat Sheet](https://catonmat.net/gnu-coreutils-cheat-sheet)
 - [ ] [[GCC]]

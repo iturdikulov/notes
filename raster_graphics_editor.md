@@ -21,7 +21,7 @@ My first raster graphics editor was [Microsoft
 Paint](https://en.wikipedia.org/wiki/Microsoft_Paint). It also aviable
 [online](https://paint.js.org/).
 
-## References
+## External links
 
 - [Comparison of raster graphics editors - Wikipedia](https://en.wikipedia.org/wiki/Comparison_of_raster_graphics_editors)
 - [Raster graphics editors - ArchWiki](https://wiki.archlinux.org/title/List_of_applications/Multimedia#Raster_graphics_editors)

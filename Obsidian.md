@@ -51,6 +51,6 @@ Check also [[spaced_repetition#Hotkeys|Spaced repetition]].
 - [Obsidian-html](https://obsidian-html.github.io/v4/index.html)
 - [Excalidraw](https://github.com/zsviczian/obsidian-excalidraw-plugin)
 
-## References
+## External links
 
 - [Obsidian Help](https://help.obsidian.md/)

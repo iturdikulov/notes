@@ -14,7 +14,7 @@ sr-ease: 250
 > independent view of the software to allow the business to appreciate and
 > understand the risks of software implementation.
 
-## References
+## External links
 
 - [ ] [What is Software Testing? Definition](https://www.guru99.com/software-testing-introduction-importance.html)
 - [ ] [Getting Started with the Test Automation Pyramid | BrowserStack](https://www.browserstack.com/guide/testing-pyramid-for-test-automation)

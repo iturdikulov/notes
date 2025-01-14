@@ -36,7 +36,7 @@ The corresponding argument must be a pointer to a signed int.
 The number of characters written so far is stored in the pointed location. |  |
 | % | A % followed by another % character will write a single % to the stream. | % |
 
-## References
+## External links
 
 - [printf](https://www.cplusplus.com/reference/cstdio/printf/)
 

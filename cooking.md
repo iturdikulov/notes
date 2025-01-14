@@ -14,8 +14,6 @@ Significant part of my [[life|life]] is cooking. I like to cook
 
 - [ ] [Собираем ПП продукты на неделю! / Как питаться дёшево и полезно? - YouTube](https://www.youtube.com/watch?v=ONffRw8rxVA)
 
-## References
-
 - [[cutlets]]
 - [[pan_pizza|Pan Pizza]]
 - [[semolina_porridge|Semolina porridge]]

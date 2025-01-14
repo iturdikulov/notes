@@ -144,7 +144,7 @@ keys:
 - Synctex
 - Extensions
 
-## References
+## External links
 
 - [Official documentation](https://sioyek-documentation.readthedocs.io/en/latest/)
 - [GitHub repository](https://github.com/ahrm/sioyek)

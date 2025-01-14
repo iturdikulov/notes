@@ -43,7 +43,7 @@ adb shell cmd package list packages -e > /archive/backup/smartphone_installed_ap
 adb she shell cmd package list packages -e > /archive/backup/tablet_installed_apps.txt
 ```
 
-## References
+## External links
 
 - [Android Debug Bridge (adb)](https://developer.android.com/tools/adb)
 - [XDA Portal & Forums](https://www.xda-developers.com/)

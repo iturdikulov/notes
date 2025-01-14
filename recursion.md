@@ -37,6 +37,6 @@ print(test_func(10))
 55 = 10 + 9 + 8 + 7 + 6 + 5 + 4 + 3 + 2 + 1
 ```
 
-## References
+## External links
 
 - [ ] [Lecture 8 | Programming Abstractions (Stanford) - YouTube](https://www.youtube.com/watch?v=gl3emqCuueQ)

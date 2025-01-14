@@ -24,6 +24,6 @@ Cheatsheet, a visual compendium of cameras, history of photography:
 [Cheat sheet](img/A_Visual_Compendium_of_Cameras.webp) and
 [Source](https://popchart.co/products/a-visual-compendium-of-cameras)
 
-## References
+## External links
 
 - [ ] [How does a camera work? - YouTube](https://www.youtube.com/watch?v=B7Dopv6kzJA)

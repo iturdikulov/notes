@@ -15,6 +15,6 @@ sr-ease: 270
 
 Currently, I use KBD75 V2 custom mechanical keyboard, support [[QMK]] firmware.
 
-## References
+## External links
 
 - [Keyboard Heatmap](https://www.patrick-wied.at/projects/heatmap-keyboard/)

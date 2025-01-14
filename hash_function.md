@@ -17,6 +17,6 @@ sr-ease: 227
 > a hash table is called hashing or scatter storage addressing.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Hash_function)</cite>
 
-## References
+## External links
 
 - [ ] [Lecture 8: Hashing with Chaining - YouTube](https://www.youtube.com/watch?v=0M_kIqhwbFo)

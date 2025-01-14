@@ -178,7 +178,7 @@ $\mathcal{O}(N)$ (but neither one of them). And its efficiency is ==$\mathcal{O}
 $\mathcal{O}(\log{n})$ algorithm efficiency is - increases ==one== step each
 time the data is doubled. <!--SR:!2024-09-06,4,221-->
 
-## References
+## External links
 
 - [ ] [Binary Search - YouTube](https://www.youtube.com/watch?v=D5SrAga1pno)
 - [ ] [Двоичный поиск — Википедия](https://ru.wikipedia.org/wiki/%D0%94%D0%B2%D0%BE%D0%B8%D1%87%D0%BD%D1%8B%D0%B9_%D0%BF%D0%BE%D0%B8%D1%81%D0%BA)

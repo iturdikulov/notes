@@ -263,7 +263,7 @@ dependencies](https://github.com/ocornut/imgui)
 - [ ] [GitHub - FarisR99/IMLCGui: Intel Memory Latency Checker GUI](https://github.com/FarisR99/IMLCGui)
 - [ ] [mitmproxy - an interactive HTTPS proxy](https://mitmproxy.org/)
 
-## Reference
+## External links
 
 - [[Telekasten]] - personal [[Zettelkasten]]
 - [[Obsidian]] - a knowledge base that works on local Markdown files. Used

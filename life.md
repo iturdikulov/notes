@@ -70,7 +70,7 @@ Principles:
 - divide and conquer
 - schedule (clean zone or part of zone per day)
 
-## References
+## External links
 
 - [Size chart for mens uniforms | Uniforms by Olino](https://webshop.olinouniforms.com/en-us/size-chart-men).
 - [This to That, how glue things to other things](http://www.thistothat.com/)

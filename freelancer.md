@@ -23,7 +23,7 @@ sr-ease: 265
 > consider central to the cognitive-cultural economy.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Freelancer)</cite>
 
-## References
+## External links
 
 - [Upwork](https://www.upwork.com/ab/find-work/)
 - [Фултайм удаленка на зарубежные компании](https://vas3k.club/post/11513/)

@@ -29,7 +29,7 @@ Here example how [[Python]] does it:
 ![[img/how_python_interpreter_works.excalidraw|Python interpreter virtual machine hand-drawn scheme]]
 _How python interpreter works_
 
-## References
+## External links
 
 - [ ] [Crafting Interpreters](http://craftinginterpreters.com/contents.html)
 

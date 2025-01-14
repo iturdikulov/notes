@@ -125,7 +125,7 @@ Alternative
 https://btrfs.wiki.kernel.org/index.php/Using_Btrfs_with_Multiple_Devices#Using_btrfs_replace
 
 
-## References
+## External links
 
 - [Welcome to BTRFS documentation! — BTRFS documentation](https://btrfs.readthedocs.io/en/latest/index.html)
 - [Use the BTRFS storage driver | Docker Docs](https://docs.docker.com/storage/storagedriver/btrfs-driver/)

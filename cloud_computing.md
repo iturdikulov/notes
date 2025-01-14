@@ -18,7 +18,7 @@ sr-ease: 237
 > expenses but may also lead to unexpected operating expenses for users.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Cloud_computing)</cite>
 
-## References
+## External links
 
 - [ ] [Where to Host a Fullstack Project on a Budget - YouTube](https://www.youtube.com/watch?v=Kx_1NYYJS7Q)
 - [What Is Web Hosting? Explained - YouTube](https://www.youtube.com/watch?v=htbY9-yggB0)

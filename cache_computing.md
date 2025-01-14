@@ -19,7 +19,7 @@ sr-ease: 246
 > requests that can be served from the cache, the faster the system performs.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Cache_\(computing\))</cite>
 
-## References
+## External links
 
 - [ ] [Different Types of Caching: Server Cache vs Browser Cache vs Page (Site) Cache](https://wp-rocket.me/wordpress-cache/different-types-of-caching/)
 - [ ] [Redis in 100 Seconds - YouTube](https://www.youtube.com/watch?v=G1rOthIU-uo)

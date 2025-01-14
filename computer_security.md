@@ -45,7 +45,7 @@ Great list of hacking tools provided by [Compass Security Blog](https://blog.com
 
 ![Hacking Tools Cheat Sheet](img/Hacking_Tools_CheatSheet.png)
 
-## References
+## External links
 
 - [ ] [0xRadi/OWASP-Web-Checklist: OWASP Web Application Security Testing Checklist](https://github.com/0xRadi/OWASP-Web-Checklist)
 - [ ] [Introduction - OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/index.html)

@@ -162,6 +162,6 @@ Auth through browser::`gh auth login`
 - Scroll all the way up::`shift + up` <!--SR:!2024-09-18,2,231-->
 - Scroll all the way down::`shift + down` <!--SR:!2024-09-19,3,251-->
 
-## References
+## External links
 
 - [GitHub Docs](https://docs.github.com/en)

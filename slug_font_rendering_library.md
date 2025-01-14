@@ -17,6 +17,6 @@ sr-ease: 250
 > environment.\
 > — <cite>[Slug Font Rendering Library](https://sluglibrary.com/)
 
-## References
+## External links
 
 - [ ] [Slug Algorithm](https://sluglibrary.com/slug_algorithm.pdf)

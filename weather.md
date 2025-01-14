@@ -25,6 +25,6 @@ sr-ease: 270
 > are used by utility companies to estimate demand over coming days.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Weather)</cite>
 
-## References
+## External links
 
 - [Accuweather](http://www.accuweather.com/)

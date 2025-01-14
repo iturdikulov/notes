@@ -14,6 +14,6 @@ sr-ease: 267
 > human past.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/History)</cite>
 
-## References
+## External links
 
 

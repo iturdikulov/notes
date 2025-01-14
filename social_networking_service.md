@@ -14,7 +14,7 @@ sr-ease: 148
 > interests, activities, backgrounds or real-life [[contacts]].\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Social_networking_service)</cite>
 
-## References
+## External links
 
 - [Collects direct links and deleting instructions to make account termination easy](https://www.accountkiller.com/en/popular)
 - [X. It’s what’s happening / X](https://twitter.com/)

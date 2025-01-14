@@ -212,7 +212,7 @@ them.
 - For every tickle item, you should know when you put it in your tickler system.
 - The transaction cost of using a tickler system should be as low as possible.
 
-## References
+## External links
 
 - [x] [GTD in 15 minutes](https://hamberg.no/gtd). Actually taken more than few
 hours from me 🙂. But this material is very good, and I filled this note mostly

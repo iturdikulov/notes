@@ -26,7 +26,7 @@ I use the following operating systems:
 - [[Android]] linux kernel based operating system
 - [[MS_Windows]] NT kernel based operating system
 
-## References
+## External links
 
 - [ ] [Operating Systems: Crash Course Computer Science #18](https://www.youtube.com/watch?v=26QPDBe-NB8)
 - [ ] [Computer Basics: Understanding Operating Systems](https://edu.gcfglobal.org/en/computerbasics/understanding-operating-systems/1/)

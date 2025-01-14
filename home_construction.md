@@ -17,6 +17,6 @@ sr-ease: 250
 My parents spent significant time and money to build a house. And my father do
 it professionally.
 
-## References
+## External links
 
 - [FORUMHOUSE](https://www.forumhouse.ru/)
