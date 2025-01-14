@@ -1,7 +1,7 @@
 ---
 external:
   - https://www.duolingo.com/
-date: 2023-05-06
+date: 2023-05-06T00:00+03:00
 tags:
   - inbox
   - linguistic

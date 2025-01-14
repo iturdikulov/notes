@@ -1,7 +1,7 @@
 ---
 external:
   - https://drawabox.com/
-date: 2023-05-29
+date: 2023-05-29T00:00+03:00
 tags:
   - inbox
   - art

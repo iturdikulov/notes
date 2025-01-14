@@ -1,5 +1,5 @@
 ---
-date: 2023-04-06
+date: 2023-04-06T00:00+03:00
 tags:
   - inbox
   - productivity
@@ -45,4 +45,3 @@ TODO: More info, format flashcards
     <S-Tab> - Toggle selection and move to prev selection
     <C-q> - Send all items not filtered to quickfixlist (qflist)
     <M-q> - Send all selected items to qflist
-

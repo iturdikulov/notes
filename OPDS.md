@@ -1,5 +1,5 @@
 ---
-date: 2023-09-15
+date: 2023-09-15T00:00+03:00
 tags:
   - inbox
 sr-due: 2024-01-29
@@ -21,4 +21,3 @@ sr-ease: 270
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Open_Publication_Distribution_System)</cite>
 
 I have [[OPDS]] OPDS server, to host my fiction books.
-

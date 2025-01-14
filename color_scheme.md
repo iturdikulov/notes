@@ -1,5 +1,5 @@
 ---
-date: 2023-08-26
+date: 2023-08-26T00:00+03:00
 tags:
   - inbox
 sr-due: 2024-01-30
@@ -30,5 +30,3 @@ I use [[onedark_colors]] scheme in configuration files of many used by me
 
 - [ColorScheme.Ru](https://colorscheme.ru/)
 - [terminal.sexy](https://terminal.sexy/)
-
-

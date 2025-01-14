@@ -8,6 +8,7 @@ tags:
   - mathematics
 sr-interval: 7
 sr-ease: 170
+date: 2025-01-14T11:41+03:00
 ---
 
 # Кратчайший курс школьной математики

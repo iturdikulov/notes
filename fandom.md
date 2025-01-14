@@ -1,6 +1,6 @@
 ---
 external: https://www.fandom.com/
-date: 2023-03-12
+date: 2023-03-12T00:00+03:00
 tags:
   - inbox
 sr-due: 2024-02-05

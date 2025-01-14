@@ -1,5 +1,5 @@
 ---
-date: 2023-08-28
+date: 2023-08-28T00:00+03:00
 external:
   - https://en.wikipedia.org/wiki/Gothic_(video_game)
 tags:
@@ -84,4 +84,3 @@ If you want to climb something, stand close to it and hold down the jump button
 - [World of Players RU](https://worldofplayers.ru/)
 - [Gothic 1 on Steam](https://store.steampowered.com/app/65540/Gothic_1/)
 - [Модостроение | World of Players RU](https://worldofplayers.ru/forums/353/)
-

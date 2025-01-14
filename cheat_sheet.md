@@ -1,5 +1,5 @@
 ---
-date: 2024-10-13
+date: 2024-10-13T00:00+03:00
 tags:
   - inbox
   - productivity

@@ -1,5 +1,5 @@
 ---
-date: 2024-11-13
+date: 2024-11-13T00:00+03:00
 tags:
   - inbox
   - outline

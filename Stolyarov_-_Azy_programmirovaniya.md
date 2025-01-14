@@ -1,7 +1,7 @@
 ---
 author:
   - Андрей Викторович Столяров
-date: 2021
+date: 2025-01-14T11:41+03:00
 external:
   - http://www.stolyarov.info/books/programming_intro/
 file: ~/Arts_and_Entertainment/literature/Andriei Stoliarov/Tom 1. Proghrammirovaniie - Vviedieniie v profiessiiu Azy proghrammirovaniia (1316)/Tom 1. Proghrammirovaniie - Vviedieniie v - Andriei Stoliarov.pdf

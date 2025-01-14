@@ -1,5 +1,5 @@
 ---
-date: 2024-01-18
+date: 2024-01-18T00:00+03:00
 tags:
   - inbox
   - IRL
@@ -25,4 +25,3 @@ sr-ease: 268
 
 - [ ] [Лучшие Сырники](https://www.youtube.com/watch?app=desktop&v=qg4D7NFtTeI#dialog)
 - [ ] [СЕКРЕТ СЫРНИКОВ ☆ Как в РЕСТОРАНЕ](https://www.youtube.com/watch?app=desktop&v=o-J33AkQja4)
-

@@ -1,7 +1,7 @@
 ---
 external:
   - https://sw.kovidgoyal.net/kitty/
-date: 2023-04-05
+date: 2023-04-05T00:00+03:00
 tags:
   - inbox
   - archive

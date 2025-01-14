@@ -1,5 +1,5 @@
 ---
-date: 2023-03-11
+date: 2023-03-11T00:00+03:00
 tags:
   - inbox
   - base
@@ -66,4 +66,3 @@ own note?
 - [ ] [Harvard CS50’s Artificial Intelligence with Python](https://www.youtube.com/watch?v=5NgNicANyqM)
 - [There's An AI For That - The Biggest AI Aggregator](https://theresanaiforthat.com/)
 - [Artificial intelligence | TED Talks](https://www.ted.com/playlists/310/artificial_intelligence)
-

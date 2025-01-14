@@ -1,5 +1,5 @@
 ---
-date: 2023-08-12
+date: 2023-08-12T00:00+03:00
 tags:
   - inbox
   - productivity

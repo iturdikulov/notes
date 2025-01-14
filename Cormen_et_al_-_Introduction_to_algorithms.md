@@ -4,6 +4,7 @@ tags:
   - inbox
   - base
 directory: ~/Computer/science/Cormen_et_al-Introduction_to_algorithms
+date: 2025-01-14T11:41+03:00
 ---
 
 # Introduction to Algorithms

@@ -1,7 +1,7 @@
 ---
 external:
   - https://nomadsculpt.com/manual/
-date: 2023-04-15
+date: 2023-04-15T00:00+03:00
 tags:
   - inbox
   - 3D

@@ -1,5 +1,5 @@
 ---
-date: 2023-10-03
+date: 2023-10-03T00:00+03:00
 tags:
   - inbox
 sr-due: 2024-01-29
@@ -35,4 +35,3 @@ sr-ease: 250
 
 - [ ] [Applying Color Theory to Digital Displays :: UXmatters](https://www.uxmatters.com/mt/archives/2007/01/applying-color-theory-to-digital-displays.php)
 - [ ] [Understanding Colors — Blender Guru](http://www.blenderguru.com/tutorials/understanding-colors)
-

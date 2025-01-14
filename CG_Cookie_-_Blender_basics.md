@@ -3,7 +3,7 @@ author: Jonathan Lampel
 tags:
   - inbox
   - 3D
-date: 2023-12-12
+date: 2023-12-12T00:00+03:00
 external:
   - https://cgcookie.com/courses/blender-basics-an-introduction-to-blender-4-x
 directory: ~/Computer/graphics/CG_Cookie-Blender_Basics
@@ -811,4 +811,3 @@ Learn basics, before you dive into some specific area.
 - [ ] [PRESS START: Your Simple First Blender Project](https://cgcookie.com/courses/press-start-your-simple-first-blender-project)
 - [ ] [TRACK: The Fundamentals to become a skilled Blender artist](https://cgcookie.com/playlists/15-track-the-fundamentals-to-become-a-skilled-blender-artist?utm_source=youtube&utm_campaign=BASICS%204.0%20YT&utm_medium=video&utm_content=Lesson24)
 - [Hotkeys](https://d1tq3fcx54x7ou.cloudfront.net/uploads/store/tenant_161/attachment/2107/file/e3e8067f4de47536246c8439f242ebc5.pdf)
-

@@ -1,7 +1,7 @@
 ---
 external:
   - https://simple.wikipedia.org/wiki/Computer_network
-date: 2023-03-21
+date: 2023-03-21T00:00+03:00
 tags:
   - inbox
   - network

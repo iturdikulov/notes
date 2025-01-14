@@ -1,5 +1,5 @@
 ---
-date: 2023-03-13
+date: 2023-03-13T00:00+03:00
 tags:
   - inbox
 sr-due: 2024-02-03
@@ -31,4 +31,3 @@ sr-ease: 225
 
 - [ ] [The Code Review Pyramid - Gunnar Morling](https://www.morling.dev/blog/the-code-review-pyramid/)
 - [ ] [Where Does Bad Code Come From? - YouTube](https://www.youtube.com/watch?v=7YpFGkG-u1w)
-

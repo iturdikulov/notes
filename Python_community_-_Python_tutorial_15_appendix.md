@@ -4,6 +4,7 @@ external:
 tags:
   - inbox
   - Python
+date: 2025-01-14T11:41+03:00
 ---
 
 # 15. Appendix
@@ -102,4 +103,3 @@ Footnotes
 \[[1](https://docs.python.org/3/tutorial/appendix.html#id1)\]
 
 A problem with the GNU Readline package may prevent this.
-

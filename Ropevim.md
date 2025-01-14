@@ -1,5 +1,5 @@
 ---
-date: 2023-06-09
+date: 2023-06-09T00:00+03:00
 tags:
   - inbox
   - archive

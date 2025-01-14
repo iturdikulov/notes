@@ -1,5 +1,5 @@
 ---
-date: 2023-10-03
+date: 2023-10-03T00:00+03:00
 tags:
   - inbox
 sr-due: 2024-01-28
@@ -28,5 +28,3 @@ sr-ease: 229
 > With the increasing sophistication of computer graphics since the 1970s, it
 > has become a more distinct subject.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Rendering_\(computer_graphics\))</cite>
-
-

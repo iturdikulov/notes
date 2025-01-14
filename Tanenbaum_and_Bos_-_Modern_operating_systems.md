@@ -1,5 +1,5 @@
 ---
-date: 2014
+date: 2025-01-14T11:41+03:00
 tags:
   - inbox
 author:
@@ -12,4 +12,3 @@ sr-ease: 245
 ---
 
 # Modern Operating Systems
-

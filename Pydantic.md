@@ -1,9 +1,10 @@
 ---
-date: 2024-11-13 21:24
+date: 2024-11-13T21:24+03:00
 tags:
   - inbox
 external: https://docs.pydantic.dev/latest/
 ---
+
 # Pydantic library
 
 Python library to perform data validation. Has great typing support.

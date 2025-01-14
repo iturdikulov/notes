@@ -1,5 +1,5 @@
 ---
-date: 2023-03-12
+date: 2023-03-12T00:00+03:00
 tags:
   - inbox
   - doc
@@ -31,4 +31,3 @@ sr-ease: 273
 - [ ] Interesting article how to integrate Inkscape with latex:
   [How I draw figures for my mathematical lecture notes using Inkscape](https://castel.dev/post/lecture-notes-2/).
 - [ ] [My auto-reload setup for writing LATEX documents in VIM](https://nikopj.github.io/blog/auto-reload-latex/#update_january_17th_2021)
-

@@ -1,5 +1,5 @@
 ---
-date: 2022-12-29
+date: 2022-12-29T00:00+03:00
 external:
   - https://archlinux.org/
 tags:
@@ -17,5 +17,3 @@ I described my environment here: [[my_archlinux_enviroment]].
 
 - [ArchWiki](https://wiki.archlinux.org/)
 - [Arch Linux](https://archlinux.org/)
-
-

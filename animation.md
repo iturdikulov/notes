@@ -1,5 +1,5 @@
 ---
-date: 2023-11-19
+date: 2023-11-19T00:00+03:00
 tags:
   - inbox
 sr-due: 2024-01-29
@@ -23,4 +23,3 @@ sr-ease: 250
 ## External links
 
 - [Сайт Алексея Кобелева про дисней](http://prodisney.ru/)
-

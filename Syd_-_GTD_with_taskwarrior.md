@@ -1,5 +1,5 @@
 ---
-date: 2023-07-14
+date: 2023-07-14T00:00+03:00
 external:
   - https://cs-syd.eu/posts/2015-06-14-gtd-with-taskwarrior-part-1-intro
   - https://cs-syd.eu/posts/2015-06-21-gtd-with-taskwarrior-part-2-collection

@@ -1,5 +1,5 @@
 ---
-date: 2023-09-14
+date: 2023-09-14T00:00+03:00
 tags:
   - inbox
 external: iturdikulov.com
@@ -17,4 +17,3 @@ My personal website, which contains various
 Website information:
 
 - URL: [iturdikulov.com](https://iturdikulov.com)
-

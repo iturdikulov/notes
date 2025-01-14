@@ -1,6 +1,6 @@
 ---
 author: Kentaro Miura
-date: 1989
+date: 2025-01-14T11:41+03:00
 tags:
   - inbox
   - art

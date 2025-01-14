@@ -1,6 +1,6 @@
 ---
 external: https://simple.wikipedia.org/wiki/Movie
-date: 2023-07-12
+date: 2023-07-12T00:00+03:00
 tags:
   - inbox
   - art

@@ -2,7 +2,7 @@
 author: Casey Muratori
 external:
   - https://hero.handmade.network/episode/code
-date: 2014
+date: 2025-01-14T11:41+03:00
 directory: ~/Computer/graphics/Muratori-Handmade_Hero
 tags:
   - inbox

@@ -1,5 +1,5 @@
 ---
-date: 2023-03-13
+date: 2023-03-13T00:00+03:00
 external:
   - https://daringfireball.net/projects/markdown/syntax
 tags:

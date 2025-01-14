@@ -1,7 +1,7 @@
 ---
 external:
   - https://termux.dev/
-date: 2023-04-10
+date: 2023-04-10T00:00+03:00
 tags:
   - inbox
 sr-due: 2024-01-28

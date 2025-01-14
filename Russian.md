@@ -1,5 +1,5 @@
 ---
-date: 2023-03-06
+date: 2023-03-06T00:00+03:00
 tags:
   - inbox
   - linguistic
@@ -42,4 +42,3 @@ script.
 
 ![[./img/Russian_Cyrillic_alphabet.svg]]
 _The Russian alphabet_
-

@@ -1,6 +1,6 @@
 ---
 author: Oz Nova; Myles Byrne
-date: 2023-03-08
+date: 2023-03-08T00:00+03:00
 tags:
   - inbox
   - base

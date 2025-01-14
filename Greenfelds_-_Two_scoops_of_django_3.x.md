@@ -1,5 +1,5 @@
 ---
-date: 2023-09-13
+date: 2023-09-13T00:00+03:00
 tags:
   - inbox
   - Python
@@ -12,5 +12,3 @@ sr-ease: 210
 ---
 
 # Two Scoops of Django 3.x
-
-

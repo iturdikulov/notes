@@ -1,5 +1,5 @@
 ---
-date: 2024-03-18
+date: 2024-03-18T00:00+03:00
 tags:
   - inbox
   - mathematics
@@ -49,4 +49,3 @@ Where ${n-1}!$ is just part of ${n!}$.
 ## External links
 
 - [Factorial Function !](https://www.mathsisfun.com/numbers/factorial.html)
-

@@ -2,7 +2,7 @@
 author: Creative Shrimp
 external:
   - https://blendermarket.com/products/hard-surface-modeling-in-blender
-date: 2023-08-19
+date: 2023-08-19T00:00+03:00
 tags:
   - inbox
   - 3D

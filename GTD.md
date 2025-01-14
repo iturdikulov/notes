@@ -1,5 +1,5 @@
 ---
-date: 2023-03-05
+date: 2023-03-05T00:00+03:00
 author: David Allen
 tags:
   - inbox
@@ -217,4 +217,3 @@ them.
 - [x] [GTD in 15 minutes](https://hamberg.no/gtd). Actually taken more than few
 hours from me 🙂. But this material is very good, and I filled this note mostly
 from this article.
-

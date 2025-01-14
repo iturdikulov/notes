@@ -2,7 +2,7 @@
 author: Donne Martin
 external:
   - https://github.com/donnemartin/interactive-coding-challenges
-date: 2023-08-19
+date: 2023-08-19T00:00+03:00
 tags:
   - inbox
 directory: ~/Computer/science/Martin-Interactive_Coding_Challenges/

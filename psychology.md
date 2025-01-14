@@ -1,5 +1,5 @@
 ---
-date: 2023-03-12
+date: 2023-03-12T00:00+03:00
 tags:
   - inbox
 external:
@@ -96,4 +96,3 @@ Methods of relaxation:
 [^1]: [Techniques for dealing with lack of motivation, malaise,
     depression](file:///home/inom/Science/psychology/Blow-Dealing_with_depression/Blow-Dealing_with_depression_i7kh8pNRWOo.mp4),
     [YouTube link](https://www.youtube.com/watch?v=i7kh8pNRWOo).
-

@@ -1,5 +1,5 @@
 ---
-date: 2023-08-20
+date: 2023-08-20T00:00+03:00
 external:
   - https://github.com/Dushistov/sdcv
 tags:

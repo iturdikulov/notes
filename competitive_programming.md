@@ -1,5 +1,5 @@
 ---
-date: 2023-04-03
+date: 2023-04-03T00:00+03:00
 tags:
   - inbox
 sr-due: 2024-01-29
@@ -25,4 +25,3 @@ sr-ease: 208
 
 I'm using right now [leetcode](https://leetcode.com/), my problem list stored in
 competitive project and [[leetcode-cli]] to quickly interact with leetcode.
-

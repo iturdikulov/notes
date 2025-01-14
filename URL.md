@@ -1,5 +1,5 @@
 ---
-date: 2023-03-17
+date: 2023-03-17T00:00+03:00
 tags:
   - inbox
   - network

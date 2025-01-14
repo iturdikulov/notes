@@ -1,5 +1,5 @@
 ---
-date: 2023-06-04
+date: 2023-06-04T00:00+03:00
 tags:
   - inbox
   - productivity
@@ -170,4 +170,3 @@ Toggle video on and off::`v`
 Show invite list::`a`
 
 View emoji reactions and select first::`e 1`
-

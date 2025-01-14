@@ -2,7 +2,7 @@
 author: Ray
 external:
   - https://www.raylib.com/index.html
-date: 2023
+date: 2025-01-14T11:41+03:00
 tags:
   - inbox
   - computer_graphics

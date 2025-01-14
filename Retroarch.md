@@ -1,5 +1,5 @@
 ---
-date: 2022-12-29
+date: 2022-12-29T00:00+03:00
 tags:
   - inbox
 sr-due: 2024-02-04
@@ -58,4 +58,3 @@ libretro-ppsspp # Sony PlayStation Portable core
 - [Retro - /r/Roms Megathread](https://r-roms.github.io/megathread/retro/)
 - [RetroarchSystemFiles directory listing](https://archive.org/download/RetroarchSystemFiles/Retroarch-System/)
 - [En-ROMs directory listing](https://archive.org/download/En-ROMs/En-ROMs/)
-

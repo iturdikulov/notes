@@ -1,6 +1,6 @@
 ---
 author: Thomas H. Cormen
-date: 2013
+date: 2025-01-14T11:41+03:00
 tags:
   - inbox
 sr-due: 2024-05-07

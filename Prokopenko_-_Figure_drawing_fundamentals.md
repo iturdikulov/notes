@@ -1,6 +1,6 @@
 ---
 author: Stan Prokopenko
-date: 2023-09-15
+date: 2023-09-15T00:00+03:00
 external:
   - https://www.proko.com/course/figure-drawing-fundamentals/overview
 tags:
@@ -16,4 +16,3 @@ sr-ease: 250
 
 Get classical training on how to draw male and female figures. Course contains
 several drawing fundamentals including gesture, measuring, and shading.
-

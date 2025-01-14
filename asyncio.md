@@ -1,5 +1,5 @@
 ---
-date: 2023-08-27
+date: 2023-08-27T00:00+03:00
 tags:
   - inbox
   - Python

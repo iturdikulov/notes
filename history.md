@@ -1,5 +1,5 @@
 ---
-date: 2024-01-14
+date: 2024-01-14T00:00+03:00
 tags:
   - inbox
 sr-due: 2024-01-28
@@ -15,5 +15,3 @@ sr-ease: 267
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/History)</cite>
 
 ## External links
-
-

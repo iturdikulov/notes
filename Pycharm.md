@@ -1,7 +1,7 @@
 ---
 external:
   - https://www.jetbrains.com/pycharm/
-date: 2023-03-15
+date: 2023-03-15T00:00+03:00
 tags:
   - inbox
   - archive

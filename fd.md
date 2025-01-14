@@ -1,5 +1,5 @@
 ---
-date: 2023-06-17
+date: 2023-06-17T00:00+03:00
 tags:
   - inbox
   - productivity
@@ -51,4 +51,3 @@ fd -d 1 -e avi -x ffmpeg -i {} -vcodec libx264 -acodec aac {.}.mp4
 ## External links
 
 - [ ] [How to use fd](https://github.com/sharkdp/fd#how-to-use)
-

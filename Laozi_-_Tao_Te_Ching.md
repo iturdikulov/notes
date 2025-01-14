@@ -1,5 +1,5 @@
 ---
-date: 2023-09-16
+date: 2023-09-16T00:00+03:00
 tags:
   - inbox
   - IRL
@@ -31,5 +31,3 @@ sr-ease: 230
 > globe's artistic and academic spheres. It is one of the most translated texts
 > in world literature.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Tao_Te_Ching)</cite>
-
-

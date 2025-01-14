@@ -1,5 +1,5 @@
 ---
-date: 2023-07-20
+date: 2023-07-20T00:00+03:00
 tags:
   - inbox
   - computer_graphics

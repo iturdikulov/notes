@@ -1,5 +1,5 @@
 ---
-date: 2024-09-06
+date: 2024-09-06T00:00+03:00
 tags:
   - inbox
   - Python

@@ -1,6 +1,6 @@
 ---
 author: Jure Šorn
-date: 2023
+date: 2025-01-14T11:41+03:00
 external:
   - https://github.com/gto76/python-cheatsheet
 tags:

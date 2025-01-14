@@ -1,5 +1,5 @@
 ---
-date: 2023-09-15
+date: 2023-09-15T00:00+03:00
 tags:
   - inbox
 directory: ~/Computer/graphics/paintbrush/
@@ -22,4 +22,3 @@ sr-ease: 246
 several tools for painting and editing image color. The Brush tool and the
 Pencil tool work like traditional drawing tools applying color with brush
 strokes.
-

@@ -7,6 +7,7 @@ directory: ~/Computer/science/Sedgewick_and_Wayne-Algorithms_Part_1
 sr-due: 2024-01-28
 sr-interval: 2
 sr-ease: 246
+date: 2025-01-14T11:41+03:00
 ---
 
 # Algorithms: Part 1
@@ -21,4 +22,3 @@ The fourth edition of Algorithms surveys the most important computer algorithms
 currently in use and provides a full treatment of data structures and algorithms
 for sorting, searching, graph processing, and string processing - including
 fifty algorithms every programmer should know.
-

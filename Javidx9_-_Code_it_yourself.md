@@ -2,7 +2,7 @@
 author: Javidx9
 external:
   - https://www.youtube.com/playlist?list=PLrOv9FMX8xJE8NgepZR1etrsU63fDDGxO
-date: 2023-08-19
+date: 2023-08-19T00:00+03:00
 tags:
   - inbox
   - computer_graphics

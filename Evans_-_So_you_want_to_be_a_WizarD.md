@@ -1,5 +1,5 @@
 ---
-date: 2024-08-18
+date: 2024-08-18T00:00+03:00
 tags:
   - inbox
   - SR-base

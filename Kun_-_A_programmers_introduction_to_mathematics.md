@@ -5,7 +5,7 @@ tags:
 author: Jeremy Kun
 external:
   - https://j2kun.gumroad.com/l/pim-book
-date: 2020
+date: 2025-01-14T11:41+03:00
 directory: ~/Science/math/Kun-A_Programmers_Introduction_to_Mathematics
 sr-due: 2024-02-09
 sr-interval: 15

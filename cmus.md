@@ -1,8 +1,8 @@
 ---
-date: 2024-03-17
+date: 2024-03-17T00:00+03:00
 tags:
- - inbox
- - productivity
+  - inbox
+  - productivity
 sr-due: 2024-07-04
 sr-interval: 3
 sr-ease: 262

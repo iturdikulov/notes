@@ -1,5 +1,5 @@
 ---
-date: 2023-08-27
+date: 2023-08-27T00:00+03:00
 external:
   - https://itexmac.sourceforge.net/SyncTeX.html
 tags:
@@ -22,5 +22,3 @@ necessary information to complete the **synchronization** process.\
 
 - [ ] [GitHub - jlaurens/synctex: Synchronization for TeX](https://github.com/jlaurens/synctex)
 - [ ] [Direct and reverse synchronization with SyncTEX](https://tug.org/TUGboat/tb29-3/tb93laurens.pdf)
-
-

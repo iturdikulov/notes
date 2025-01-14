@@ -1,5 +1,5 @@
 ---
-date: 2023-06-05
+date: 2023-06-05T00:00+03:00
 external:
   - https://www.youtube.com/playlist?list=PLjEaoINr3zgEPv5y--4MKpciLaoQYZB1Z
 directory: ~/Computer/graphics/archive/Price-Donut_Tutorial

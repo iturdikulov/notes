@@ -1,5 +1,5 @@
 ---
-date: 2022-12-29
+date: 2022-12-29T00:00+03:00
 tags:
   - inbox
   - C
@@ -39,4 +39,3 @@ The number of characters written so far is stored in the pointed location. |  |
 ## External links
 
 - [printf](https://www.cplusplus.com/reference/cstdio/printf/)
-

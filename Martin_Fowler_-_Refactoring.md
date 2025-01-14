@@ -1,5 +1,5 @@
 ---
-date: 2019
+date: 2025-01-14T11:41+03:00
 author: Martin Fowler
 tags:
   - inbox
@@ -10,4 +10,3 @@ sr-ease: 225
 ---
 
 # Refactoring: Improving the Design of Existing Code
-

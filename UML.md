@@ -1,5 +1,5 @@
 ---
-date: 2023-09-24
+date: 2023-09-24T00:00+03:00
 tags:
   - inbox
 sr-due: 2024-02-01
@@ -23,4 +23,3 @@ UML widely used in [[computer_programming]].
 ## External links
 
 - [ ] [UML 2.0 Class Diagrams - YouTube](https://www.youtube.com/watch?v=3cmzqZzwNDM&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc&index=5)
-

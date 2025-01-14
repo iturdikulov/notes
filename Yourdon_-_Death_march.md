@@ -1,5 +1,5 @@
 ---
-date: 1999
+date: 2025-01-14T11:41+03:00
 author: Edward Yourdon
 tags:
   - inbox
@@ -11,4 +11,3 @@ sr-ease: 245
 ---
 
 # Death March: The Complete Software Developer's Guide to Surviving "Mission Impossible" Projects
-

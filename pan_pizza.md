@@ -1,5 +1,5 @@
 ---
-date: 2023-09-21
+date: 2023-09-21T00:00+03:00
 tags:
   - inbox
   - IRL
@@ -37,4 +37,3 @@ _Pan Pizza_
 6. Press the dough to cover the whole bottom of the skillet.
 7. Add pizza sauce, cheese, and whatever you like on your pizza
 8. Put in the middle of the oven, and cook for 15–20 minutes.
-

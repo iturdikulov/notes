@@ -4,6 +4,7 @@ external:
 tags:
   - inbox
   - Python
+date: 2025-01-14T11:41+03:00
 ---
 
 # 8. Errors and Exceptions
@@ -666,4 +667,3 @@ raise ExceptionGroup('We have some problems', excs)
 #         +------------------------------------
 #     >>>
 ```
-

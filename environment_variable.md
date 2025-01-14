@@ -1,5 +1,5 @@
 ---
-date: 2024-11-14 20:16
+date: 2024-11-14T20:16+03:00
 tags:
   - inbox
   - SR-programming

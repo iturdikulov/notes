@@ -1,7 +1,7 @@
 ---
 external:
   - https://www.mathsisfun.com/
-date: 2023-08-26
+date: 2023-08-26T00:00+03:00
 tags:
   - inbox
   - mathematics

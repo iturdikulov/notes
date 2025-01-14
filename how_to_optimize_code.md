@@ -1,5 +1,5 @@
 ---
-date: 2024-09-02
+date: 2024-09-02T00:00+03:00
 tags:
   - inbox
   - base
@@ -533,4 +533,3 @@ eliminate half of the resumes, we have an algorithm of $\mathcal{O}(\log n)$.
 
 - [ ] [How to Optimize Code — principles-of-performance documentation](https://llllllllll.github.io/principles-of-performance/how-to-optimize-code.html)
 - [[Wengrow_-_Data_structures_and_algorithms#7. Big O in Everyday Code /113]]
-

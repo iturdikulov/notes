@@ -1,5 +1,5 @@
 ---
-date: 2023-09-14
+date: 2023-09-14T00:00+03:00
 tags:
   - inbox
 directory: ~/Computer/customization/wallpapers/

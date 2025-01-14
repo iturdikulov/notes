@@ -1,5 +1,5 @@
 ---
-date: 2023-03-09
+date: 2023-03-09T00:00+03:00
 tags:
   - inbox
   - productivity
@@ -119,4 +119,3 @@ Notes may have this frontmatter variables:
 
 - [ ] [Types of ZT Notes](https://zk.zettel.page/types-of-notes)
 - [ ] [Taxonomy of note types](https://notes.andymatuschak.org/Taxonomy_of_note_types)
-

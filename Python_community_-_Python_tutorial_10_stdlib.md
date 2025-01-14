@@ -5,6 +5,7 @@ external:
 tags:
   - inbox
   - Python
+date: 2025-01-14T11:41+03:00
 ---
 
 # 10. Brief Tour of the Standard Library
@@ -719,4 +720,3 @@ print(f"New precision: {getcontext().prec}")
 print(Decimal(1) / Decimal(7))
 # Decimal('0.142857142857142857142857142857142857')
 ```
-

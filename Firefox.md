@@ -1,5 +1,5 @@
 ---
-date: 2023-03-05
+date: 2023-03-05T00:00+03:00
 tags:
   - inbox
   - productivity
@@ -27,4 +27,3 @@ Check also [[Vimium]] extension keybindings.
 ## External links
 
 - [Firefox Keyboard shortcuts](https://support.mozilla.org/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly)
-

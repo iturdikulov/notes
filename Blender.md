@@ -1,7 +1,7 @@
 ---
 external:
   - https://www.blender.org/
-date: 2023-03-04
+date: 2023-03-04T00:00+03:00
 tags:
   - inbox
   - 3D

@@ -1,5 +1,5 @@
 ---
-date: 2024-11-25 23:02
+date: 2024-11-25T23:02+03:00
 tags:
   - inbox
 author: Яков Перельман
@@ -7,5 +7,3 @@ file: ~/Wiki/books/Perelman_-_Zanimatelnaya_matematika.xopp
 ---
 
 # Занимательная математика
-
-

@@ -1,5 +1,5 @@
 ---
-date: 2024-01-23
+date: 2024-01-23T00:00+03:00
 tags:
   - inbox
   - physics
@@ -27,4 +27,3 @@ all the planets, stars, galaxies and objects are existing.
 ## External links
 
 - [Roscosmos TV - YouTube](https://www.youtube.com/channel/UCOcpUgXosMCIlOsreUfNFiA)
-

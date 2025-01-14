@@ -1,7 +1,7 @@
 ---
 external:
   - https://www.l2jserver.com/
-date: 2023-04-18
+date: 2023-04-18T00:00+03:00
 tags:
   - inbox
   - Java

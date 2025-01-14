@@ -1,5 +1,5 @@
 ---
-date: 2023-09-22
+date: 2023-09-22T00:00+03:00
 tags:
   - inbox
 sr-due: 2024-02-03
@@ -35,4 +35,3 @@ sr-ease: 249
 >   SHA-2, and its internal structure differs significantly from the rest of the
 >   SHA family.\
 >   — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Secure_Hash_Algorithms)</cite>
-

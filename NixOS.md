@@ -1,5 +1,5 @@
 ---
-date: 2023-07-23
+date: 2023-07-23T00:00+03:00
 external:
   - https://nixos.org/
 tags:
@@ -120,4 +120,3 @@ mkShell {
  - linux kernel flake + le9ec
  - test Plasma/Wayland
  - pipewire low-latency + rtkit
-

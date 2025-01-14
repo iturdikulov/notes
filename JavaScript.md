@@ -1,5 +1,5 @@
 ---
-date: 2023-10-06
+date: 2023-10-06T00:00+03:00
 tags:
   - inbox
   - web
@@ -658,4 +658,3 @@ To "remember" things, components use ==state, `useState`==. <!--SR:!2024-08-31,4
 ## To-do
 
 - [ ] [JavaScript reference | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference)
-

@@ -1,5 +1,5 @@
 ---
-date: 2023-09-25
+date: 2023-09-25T00:00+03:00
 tags:
   - inbox
   - Unix
@@ -80,4 +80,3 @@ Guide: [GitHub - Inom-Turdikulov/dotfiles: And I say hey, what's going on?](http
 ## Alternative way (not tested)
 
 [GitHub - elitak/nixos-infect](https://github.com/elitak/nixos-infect)
-

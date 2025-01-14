@@ -1,5 +1,5 @@
 ---
-date: 2023-04-15
+date: 2023-04-15T00:00+03:00
 tags:
   - inbox
 sr-due: 2024-02-15
@@ -302,4 +302,3 @@ with mesh names, like `ostrich`
 - [ ] Unreal, lineage 2 [L2.rar - Google Диск](https://drive.google.com/file/d/1qCVqTfuZe_NQug8a2DhVePdomnN5WqaH/view?usp=sharing)
 проект не полностью рабочей версии под версию движка 4.23.0.
 - [ ] [Lineage 2 Wiki | Fandom](https://lineage2.fandom.com/wiki/Lineage_2_Wiki)
-

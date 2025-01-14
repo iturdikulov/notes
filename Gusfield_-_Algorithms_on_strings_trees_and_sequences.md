@@ -1,5 +1,5 @@
 ---
-date: 1997
+date: 2025-01-14T11:41+03:00
 tags:
   - inbox
 author: Dan Gusfield
@@ -10,4 +10,3 @@ sr-ease: 247
 ---
 
 # Algorithms on Strings, Trees, and Sequences
-

@@ -1,5 +1,5 @@
 ---
-date: 2022-12-29
+date: 2022-12-29T00:00+03:00
 tags:
   - inbox
 sr-due: 2024-01-28
@@ -33,4 +33,3 @@ sr-ease: 247
 ## External links
 
 - [3X-UI: Shadowsocks-2022 XRay (XTLS) сервер с простой настройкой и приятным интерфейсом / Habr](https://habr.com/en/articles/735536/)
-

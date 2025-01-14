@@ -1,5 +1,5 @@
 ---
-date: 2023-10-03
+date: 2023-10-03T00:00+03:00
 tags:
   - inbox
 sr-due: 2024-01-28
@@ -37,4 +37,3 @@ sr-ease: 230
 - [ ] [I don't love the single responsibility principle](https://sklivvz.com/posts/i-dont-love-the-single-responsibility-principle)
 - [ ] [Abstraction Bad? | Clean Code : Horrible Performance : (Clip) Interview - YouTube](https://www.youtube.com/watch?v=DsAclZbP_Us)
 - [ ] [Response to a Reporter Regarding "Clean Code, Horrible Performance" ](https://www.computerenhance.com/p/response-to-a-reporter-regarding?publication_id=865289&post_id=113333520&isFreemail=true%E2%86%B5)
-

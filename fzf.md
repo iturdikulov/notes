@@ -1,5 +1,5 @@
 ---
-date: 2023-03-03
+date: 2023-03-03T00:00+03:00
 tags:
   - inbox
   - SR-productivity

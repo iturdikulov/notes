@@ -1,5 +1,5 @@
 ---
-date: 2022-12-29
+date: 2022-12-29T00:00+03:00
 tags:
   - inbox
 sr-due: 2024-01-28
@@ -23,4 +23,3 @@ Check main types here:
 - [[data_type]].
 - [cstdint](https://www.cplusplus.com/reference/cstdint/)
 - [C Programming/stdint.h](https://en.wikibooks.org/wiki/C_Programming/stdint.h)
-

@@ -3,7 +3,7 @@ tags:
   - inbox
   - Python
 author: Brett Slatkin
-date: 2020
+date: 2025-01-14T11:41+03:00
 sr-due: 1681833600
 sr-ease: 250
 sr-interval: 29

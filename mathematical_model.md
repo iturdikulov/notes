@@ -1,5 +1,5 @@
 ---
-date: 2023-05-18
+date: 2023-05-18T00:00+03:00
 tags:
   - inbox
   - mathematics
@@ -21,4 +21,3 @@ sr-ease: 238
 > (such as economics, [[psychology]], sociology, political science). It can also
 > be taught as a subject in its own right.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Mathematical_model)</cite>
-

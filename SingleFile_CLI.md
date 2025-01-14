@@ -1,5 +1,5 @@
 ---
-date: 2023-08-27
+date: 2023-08-27T00:00+03:00
 external:
   - https://github.com/gildas-lormeau/single-file-cli
 tags:
@@ -11,5 +11,3 @@ sr-ease: 270
 ---
 
 # SingleFile CLI
-
-

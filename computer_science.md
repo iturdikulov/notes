@@ -1,5 +1,5 @@
 ---
-date: 2022-12-29
+date: 2022-12-29T00:00+03:00
 tags:
   - inbox
   - SR-computer_science
@@ -257,4 +257,3 @@ science.
 ## References
 
 [^1]: [Computer science - Wikipedia](https://en.wikipedia.org/wiki/Computer_science)
-

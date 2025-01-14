@@ -1,5 +1,5 @@
 ---
-date: 2023-06-25
+date: 2023-06-25T00:00+03:00
 tags:
   - inbox
   - productivity
@@ -142,4 +142,3 @@ You can expect the next occurrence to be created at the due date of the previous
 [^1]: [Taskwarrior - Kunzelma Wiki](https://wiki.kunzelma.de/taskwarrior/)
 [^2]: [[Babej_-_A_dive_into_taskwarrior_ecosystem]]
 [^3]: [How to manage recurring tasks in taskwarrior? - Unix & Linux Stack Exchange](https://unix.stackexchange.com/a/636312)
-

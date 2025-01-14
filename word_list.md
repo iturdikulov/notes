@@ -1,5 +1,5 @@
 ---
-date: 2023-09-15
+date: 2023-09-15T00:00+03:00
 tags:
   - inbox
 directory: ~/Computer/data/word_list/
@@ -27,4 +27,3 @@ sr-ease: 250
 
 I store various word lists in text files, for experiments with chats, neural
 networks, [[diceware]], tests,
-

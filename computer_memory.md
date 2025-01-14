@@ -1,5 +1,5 @@
 ---
-date: 2023-04-13
+date: 2023-04-13T00:00+03:00
 tags:
   - inbox
   - base
@@ -33,4 +33,3 @@ memory addresses the array begins==.
 ## External links
 
 - [ ] [What every programmer should know about memory, Part 1](https://lwn.net/Articles/250967/)
-

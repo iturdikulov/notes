@@ -1,5 +1,5 @@
 ---
-date: 2024-01-14
+date: 2024-01-14T00:00+03:00
 tags:
   - inbox
   - history
@@ -22,5 +22,3 @@ sr-ease: 252
 ## History of Life Art by [juanchit](https://www.behance.net/gallery/10901127/History-of-Life)
 
 ![History of life](img/history_of_life.png)
-
-

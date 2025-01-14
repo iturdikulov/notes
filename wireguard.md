@@ -6,6 +6,7 @@ tags:
 sr-due: 2024-01-29
 sr-interval: 4
 sr-ease: 270
+date: 2025-01-14T11:41+03:00
 ---
 
 # WireGuard
@@ -26,4 +27,3 @@ sr-ease: 270
 > can be very high-speed. It is suitable for both small embedded devices like
 > [[smartphone|smartphones]] and fully loaded backbone routers.\
 > — <cite>[WireGuard](https://www.wireguard.com/)</cite>
-

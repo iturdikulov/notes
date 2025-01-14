@@ -1,5 +1,5 @@
 ---
-date: 2023-05-06
+date: 2023-05-06T00:00+03:00
 tags:
   - inbox
 sr-due: 2024-01-28
@@ -22,4 +22,3 @@ I like to write beautiful and readable handwriting, but I prefer calligraphy
 style.
 
 TODO: add my own font!
-

@@ -1,7 +1,7 @@
 ---
 external:
   - https://github.com/
-date: 2023-03-12
+date: 2023-03-12T00:00+03:00
 tags:
   - inbox
   - VCS

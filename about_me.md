@@ -1,5 +1,5 @@
 ---
-date: 2023-07-17
+date: 2023-07-17T00:00+03:00
 tags:
   - inbox
 sr-due: 2024-02-07
@@ -37,4 +37,3 @@ also store my [[contacts]] workflow.
 
 Mentoring, I'm trying to help colleagues, people on [[GitHub]] projects,
 [[Stack_Overflow]], etc.
-

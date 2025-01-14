@@ -1,5 +1,5 @@
 ---
-date: 2024-01-01
+date: 2024-01-01T00:00+03:00
 tags:
   - inbox
   - Godot
@@ -85,4 +85,3 @@ types in this case, enable it in Text Editor -> Completion -> Add Type Hints.
 
 - [Galaxy-Defiance](https://github.com/uheartbeast/Galaxy-Defiance)
 - [Heartbeast - YouTube](https://www.youtube.com/@uheartbeast/videos)
-

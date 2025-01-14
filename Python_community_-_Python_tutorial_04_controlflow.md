@@ -4,6 +4,7 @@ external:
 tags:
   - inbox
   - Python
+date: 2025-01-14T11:41+03:00
 ---
 
 # 4. More Control Flow Tools
@@ -1011,4 +1012,3 @@ best in any case.
 Likewise, don't use ==non-ASCII== characters in identifiers if there is only the
 slightest chance people speaking a different language will read or maintain the
 code.
-

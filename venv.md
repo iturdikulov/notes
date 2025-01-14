@@ -1,5 +1,5 @@
 ---
-date: 2024-11-18
+date: 2024-11-18T00:00+03:00
 external:
   - https://docs.python.org/3/tutorial/venv.html
   - https://fastapi.tiangolo.com/virtual-environments

@@ -1,8 +1,8 @@
 ---
-date: 2024-02-06
+date: 2024-02-06T00:00+03:00
 author: Kazuhiro  Fujita
-external:
-archive:
+external: null
+archive: null
 tags:
   - inbox
   - physics

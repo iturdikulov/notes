@@ -1,5 +1,5 @@
 ---
-date: 2023-11-09
+date: 2023-11-09T00:00+03:00
 tags:
   - inbox
 sr-due: 2024-01-30
@@ -23,4 +23,3 @@ sr-ease: 240
 ## External links
 
 - [7 Cryptography Concepts - YouTube](https://www.youtube.com/watch?v=NuyzuNBFWxQ)
-

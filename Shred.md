@@ -1,5 +1,5 @@
 ---
-date: 2023-08-05
+date: 2023-08-05T00:00+03:00
 author:
   - Colin Plumb
 external:
@@ -34,4 +34,3 @@ Deallocate and remove file after overwriting:
 
 Overwrite file with garbage, 15 times (questionable if it is really needed)
     `shred -n15 path/to/file`
-

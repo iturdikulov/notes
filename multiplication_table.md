@@ -1,5 +1,5 @@
 ---
-date: 2022-01-01
+date: 2022-01-01T00:00+03:00
 tags:
   - mathematics
 sr-due: 2024-01-28
@@ -96,4 +96,3 @@ TODO: more patterns [Multiplication Tips and Tricks](https://www.mathsisfun.com/
 - Multiplication Quiz
   Interactive multiplication quiz written by me, very simple!
   Can be found [here](file:///home/inom/Computer/programming/Multiplication_Quiz/)
-

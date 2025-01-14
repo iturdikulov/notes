@@ -1,5 +1,5 @@
 ---
-date: 2023-04-19
+date: 2023-04-19T00:00+03:00
 external:
   - https://www.unrealengine.com/en-US/linux
 tags:
@@ -43,4 +43,3 @@ sr-ease: 282
 - [ ] [[Sensei_-_Unreal_Engine_5_beginner_tutorial]]
 - [ ] Unreal Engine 5 Game Development with C++ Scripting
 - [ ] [Unreal Engine C++ Survival Game Tutorials](https://www.tomlooman.com/unreal-engine-cpp-survival-sample-game/)
-

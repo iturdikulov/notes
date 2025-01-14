@@ -1,5 +1,5 @@
 ---
-date: 2024-08-26
+date: 2024-08-26T00:00+03:00
 tags:
   - inbox
   - SR-base
@@ -90,5 +90,3 @@ which sorting algorithm would you use, selection sort or insertion sort?
 &#10;<br>
 Insertion sort, because it’s faster in best-case scenario when data is mostly
 sorted.
-
-

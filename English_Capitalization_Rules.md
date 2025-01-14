@@ -1,5 +1,5 @@
 ---
-date: 2024-07-14
+date: 2024-07-14T00:00+03:00
 tags:
   - inbox
   - linguistic

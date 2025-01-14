@@ -1,5 +1,5 @@
 ---
-date: 2023-09-14
+date: 2023-09-14T00:00+03:00
 tags:
   - inbox
 directory: ~/Computer/web/PDF_Menu_Generator/
@@ -12,5 +12,3 @@ sr-ease: 248
 
 My personal project, client-side [[PDF_Menu_Generator|PFD]] generator from HTML
 table with some inputs and other controls.
-
-

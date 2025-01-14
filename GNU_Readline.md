@@ -1,5 +1,5 @@
 ---
-date: 2023-02-03
+date: 2023-02-03T00:00+03:00
 tags:
   - inbox
   - productivity
@@ -143,4 +143,3 @@ current line.
 ## External links
 
 - [GNU Readline Library](https://tiswww.case.edu/php/chet/readline/readline.html)
-

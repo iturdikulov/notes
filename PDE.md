@@ -1,5 +1,5 @@
 ---
-date: 2024-11-08 10:15
+date: 2024-11-08T10:15+03:00
 tags:
   - inbox
   - term
@@ -19,4 +19,3 @@ For me [[Neovim]] perfectly fits with all PDE requirements.
 ## To-do
 
 - [ ] Watch [PDE](https://www.youtube.com/watch?v=QMVIJhC9Veg) again.
-

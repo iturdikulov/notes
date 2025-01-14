@@ -2,7 +2,7 @@
 tags:
   - inbox
   - Unix
-date: 2023-07-17
+date: 2023-07-17T00:00+03:00
 external:
   - https://www.youtube.com/playlist?list=PL-saUBvIJzOkjAw_vOac75v-x6EzNzZq-
 author: Taylor Will
@@ -517,4 +517,3 @@ Lifesaver, custom DWM!
 https://raw.githubusercontent.com/dev-null-undefined/NixOs/master/modules/generated/nixos/de/dwm.nix
 
 https://www.linux.org.ru/news/linux-general/16881424#comments
-

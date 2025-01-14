@@ -1,7 +1,6 @@
 ---
 author: Matthieu Cneude
-date: 2022
-external:
+date: 2025-01-14T11:41+03:00
 tags:
   - inbox
   - productivity
@@ -12,5 +11,3 @@ sr-ease: 210
 ---
 
 # Building Your Mouseless Development Environment
-
-

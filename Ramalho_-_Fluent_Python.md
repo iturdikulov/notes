@@ -1,6 +1,6 @@
 ---
 author: Luciano Ramalho
-date: 2021
+date: 2025-01-14T11:41+03:00
 tags:
   - inbox
   - SR-Python

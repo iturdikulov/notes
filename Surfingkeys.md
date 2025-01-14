@@ -1,7 +1,7 @@
 ---
 external:
   - https://github.com/brookhong/Surfingkeys
-date: 2023-03-27
+date: 2023-03-27T00:00+03:00
 tags:
   - archive
   - inbox
@@ -970,4 +970,3 @@ Open neovim for current input
 
 - [ ] [FAQ · brookhong/Surfingkeys Wiki · GitHub](https://github.com/brookhong/Surfingkeys/wiki/FAQ)
 - [ ] [Chrome Extension](https://chrome.google.com/webstore/detail/surfingkeys/gfbliohnnapiefjpjlpjnehglfpaknnc)
-

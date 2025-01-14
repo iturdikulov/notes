@@ -1,5 +1,5 @@
 ---
-date: 2023-03-12
+date: 2023-03-12T00:00+03:00
 tags:
   - inbox
   - 3D
@@ -33,4 +33,3 @@ models in [[Blender]].
 - [Unreal Engine 5 Lumen vs Baked light scenes](https://unreal.shop/models/unreal-engine-5.-free-two-scenes.-lumen-vs-baked-light)
 - [Bonnibel's Graphic Collection](https://graphic.neocities.org/directory)
 - [Poly Pizza: Free 3D models for everyone](https://poly.pizza/)
-

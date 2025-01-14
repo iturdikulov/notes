@@ -1,5 +1,5 @@
 ---
-date: 2023-07-20
+date: 2023-07-20T00:00+03:00
 tags:
   - inbox
   - Unix
@@ -30,4 +30,3 @@ To find out what is the current directory, you can use
 Visualization of typical FHS layout:
 
 ![[./img/ref-Linux_Files_Structure.png]]
-

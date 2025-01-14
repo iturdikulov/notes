@@ -1,6 +1,6 @@
 ---
 author: Yasuhiro Nightow
-date: 1995
+date: 2025-01-14T11:41+03:00
 tags:
   - inbox
   - art
@@ -27,5 +27,3 @@ sr-ease: 270
 
 - [ ] read it.
 - [ ] add my opinion and rating.
-
-

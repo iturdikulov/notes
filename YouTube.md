@@ -1,5 +1,5 @@
 ---
-date: 2022-12-29
+date: 2022-12-29T00:00+03:00
 tags:
   - inbox
   - art
@@ -49,4 +49,3 @@ Ignore this keys in [[Vimium]]: `mjl.,><0123456789/cni`
 - [Advanced Search for YouTube](https://playlists.at/youtube/search/)
 - [YouTube Subscriptions](https://www.youtube.com/feed/subscriptions)
 - [Youtube Video Downloader](https://yt5s.biz/ru/)
-

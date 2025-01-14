@@ -1,5 +1,5 @@
 ---
-date: 2023-03-12
+date: 2023-03-12T00:00+03:00
 tags:
   - inbox
 sr-due: 2024-01-30
@@ -20,4 +20,3 @@ article.
 - [Википедия — свободная энциклопедия](https://ru.wikipedia.org/)
 - [Неолурк, народный Lurkmore](https://neolurk.org/wiki/)
 - [Internet Archive](https://archive.org/)
-

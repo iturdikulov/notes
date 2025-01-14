@@ -1,5 +1,5 @@
 ---
-date: 2023-04-14
+date: 2023-04-14T00:00+03:00
 tags:
   - inbox
   - base
@@ -58,4 +58,3 @@ add search operation to insert value into set. <!--SR:!2024-09-14,4,179-->
 ## External links
 
 - [ ] [Sets in Python – Real Python](https://realpython.com/python-sets/)
-

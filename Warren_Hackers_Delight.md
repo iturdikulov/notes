@@ -1,5 +1,5 @@
 ---
-date: 2012
+date: 2025-01-14T11:41+03:00
 author: Henry S. Warren Jr.
 tags:
   - inbox
@@ -10,4 +10,3 @@ sr-ease: 247
 ---
 
 # Hacker's Delight
-

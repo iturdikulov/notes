@@ -1,5 +1,5 @@
 ---
-date: 2006
+date: 2025-01-14T11:41+03:00
 tags:
   - inbox
 author:
@@ -13,4 +13,3 @@ sr-ease: 247
 ---
 
 # Introduction to Automata Theory, Languages, and Computation
-

@@ -4,6 +4,7 @@ external:
 tags:
   - inbox
   - Python
+date: 2025-01-14T11:41+03:00
 ---
 
 # 14. Floating Point Arithmetic: Issues and Limitations
@@ -331,4 +332,3 @@ Decimal.from_float(0.1)
 
 format(Decimal.from_float(0.1), '.17')
    '0.10000000000000001'
-

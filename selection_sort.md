@@ -1,5 +1,5 @@
 ---
-date: 2024-08-26
+date: 2024-08-26T00:00+03:00
 tags:
   - inbox
   - base
@@ -89,5 +89,3 @@ console.log(selectionSort([2, 3, 5, 1, 2, 6, 7, 8, 9, 10]));
 ```
 
 ## The efficiency of selection sort
-
-

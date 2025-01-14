@@ -1,6 +1,6 @@
 ---
 author: N. Y. Vilenkin
-date: 2024-03-10
+date: 2024-03-10T00:00+03:00
 tags:
   - inbox
   - mathematics
@@ -10,5 +10,3 @@ sr-ease: 210
 ---
 
 # Популярная комбинаторика
-
-

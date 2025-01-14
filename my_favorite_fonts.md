@@ -1,5 +1,5 @@
 ---
-date: 2023-03-13
+date: 2023-03-13T00:00+03:00
 tags:
   - inbox
   - art
@@ -56,4 +56,3 @@ Significant part are from [[programming_fonts_-_test_drive|programming fonts]].
 - [ ] Unifont
 - [ ] Terminus
 - [ ] Terminess
-

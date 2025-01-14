@@ -1,5 +1,5 @@
 ---
-date: 2023-03-12
+date: 2023-03-12T00:00+03:00
 tags:
   - inbox
 sr-due: 2024-02-04
@@ -38,4 +38,3 @@ Significant part of my [[life|life]] is cooking. I like to cook
 - [Peaceful Cuisine](https://www.youtube.com/@peacefulcuisine)
 - [Steve1989MREInfo](https://www.youtube.com/@Steve1989MRE/videos)
 - [Townsends](https://www.youtube.com/@townsends/videos)
-

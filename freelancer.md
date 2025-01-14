@@ -1,5 +1,5 @@
 ---
-date: 2023-03-12
+date: 2023-03-12T00:00+03:00
 tags:
   - inbox
 sr-due: 2024-01-29
@@ -31,4 +31,3 @@ sr-ease: 265
 - [Freelancer](https://www.freelancer.com/dashboard)
 - [Guru](https://www.guru.com/)
 - [How To Get Hired On Upwork](https://logosbynick.teachable.com/courses/enrolled/497397)
-

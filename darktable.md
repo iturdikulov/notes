@@ -1,5 +1,5 @@
 ---
-date: 2023-07-15
+date: 2023-07-15T00:00+03:00
 external:
   - https://www.darktable.org/
 tags:

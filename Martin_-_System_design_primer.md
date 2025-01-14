@@ -2,7 +2,7 @@
 author: Donne Martin
 external:
   - https://github.com/donnemartin/system-design-primer
-date: 2023-08-19
+date: 2023-08-19T00:00+03:00
 tags:
   - inbox
 directory: ~/Computer/science/Martin-System_Design_Primer/

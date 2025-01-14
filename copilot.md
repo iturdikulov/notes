@@ -1,7 +1,7 @@
 ---
 external:
   - https://github.com/features/copilot/
-date: 2023-03-28
+date: 2023-03-28T00:00+03:00
 tags:
   - inbox
 sr-due: 2024-01-29

@@ -1,5 +1,5 @@
 ---
-date: 2023-05-04
+date: 2023-05-04T00:00+03:00
 external:
   - https://www.godotengine.org/
 tags:

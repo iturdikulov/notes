@@ -1,5 +1,5 @@
 ---
-date: 2024-07-20
+date: 2024-07-20T00:00+03:00
 tags:
   - inbox
 sr-due: 2024-08-29
@@ -22,4 +22,3 @@ prompts.
 ## External links
 
 - [Stable Diffusion Docker image preconfigured for usage with AMD Radeon cards](https://github.com/l1na-forever/stable-diffusion-rocm-docker)
-

@@ -1,6 +1,6 @@
 ---
 author: Yukito Kishiro
-date: 1990
+date: 2025-01-14T11:41+03:00
 directory: ~/Arts_and_Entertainment/literature/Yukito Kishiro/
 tags:
   - inbox

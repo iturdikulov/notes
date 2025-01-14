@@ -24,4 +24,3 @@ JSON is built on two structures:
 
 - An ordered list of values. In most languages, this is realized as an
   [[array]], vector, list, or sequence.
-

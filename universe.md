@@ -1,5 +1,5 @@
 ---
-date: 2024-03-06
+date: 2024-03-06T00:00+03:00
 tags:
   - inbox
   - physics

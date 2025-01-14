@@ -1,5 +1,5 @@
 ---
-date: 2023-01-28
+date: 2023-01-28T00:00+03:00
 directory: ~/Computer/hardware/QMK
 tags:
   - inbox

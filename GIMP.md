@@ -1,5 +1,5 @@
 ---
-date: 2024-01-17
+date: 2024-01-17T00:00+03:00
 tags:
   - inbox
 external:

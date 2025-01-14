@@ -1,6 +1,6 @@
 ---
 author: Ariel Manzur; George Marques
-date: 2023-09-14
+date: 2023-09-14T00:00+03:00
 tags:
   - inbox
   - Godot
@@ -16,6 +16,3 @@ sr-ease: 272
 
 - [vnen/Godot-24-Hours: Examples and demo projects for the Godot Engine
 Game Development in 24 Hours book.](https://github.com/vnen/Godot-24-Hours)
-
-
-

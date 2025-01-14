@@ -1,5 +1,5 @@
 ---
-date: 2002
+date: 2025-01-14T11:41+03:00
 tags:
   - inbox
   - IRL
@@ -14,4 +14,3 @@ sr-ease: 225
 ---
 
 # Herding Cats: A Primer for Programmers Who Lead Programmers
-

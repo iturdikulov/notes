@@ -1,5 +1,5 @@
 ---
-date: 2007
+date: 2024-01-14T11:41+03:00
 tags:
   - inbox
 author:
@@ -14,4 +14,3 @@ sr-ease: 225
 ---
 
 # Compilers: Principles, Techniques, and Tools
-

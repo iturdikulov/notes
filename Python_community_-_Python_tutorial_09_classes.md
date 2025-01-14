@@ -4,6 +4,7 @@ external:
 tags:
   - inbox
   - Python
+date: 2025-01-14T11:41+03:00
 ---
 
 # 9. Classes
@@ -908,4 +909,3 @@ data = 'golf'
 list(data[i] for i in range(len(data)-1, -1, -1))
 # ['f', 'l', 'o', 'g']
 ```
-

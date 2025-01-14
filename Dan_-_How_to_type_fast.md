@@ -3,7 +3,7 @@ tags:
   - inbox
   - productivity
 author: Dan
-date: 2023
+date: 2025-01-14T11:41+03:00
 external:
   - https://roosterdan.medium.com/how-to-type-100-words-per-minute-a780fd80fd27
 sr-due: 2025-01-27

@@ -1,5 +1,5 @@
 ---
-date: 2023-10-02
+date: 2023-10-02T00:00+03:00
 author: Unreal Sensei
 tags:
   - inbox
@@ -80,4 +80,3 @@ sr-ease: 210
    World settings window
  - [0:11:52](<file:///home/inom/Computer/graphics/Sensei-Unreal_Engine_5_Beginner_Tutorial/tutorial.mp4>)
   Reset layout to default, Window -> Load Layout -> Default Editor Layout
-

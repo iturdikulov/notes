@@ -1,7 +1,7 @@
 ---
 external:
   - https://github.com/SidOfc/mkdx
-date: 2023-04-05
+date: 2023-04-05T00:00+03:00
 tags:
   - inbox
   - productivity
@@ -77,4 +77,3 @@ Jump to header::`<leader>j`*
 Generate or update TOC (you can also use details markup)::`<leader>i`
 
 Open TOC in quickfix window (you can use `:cn` to navigate)::`<leader>I`
-

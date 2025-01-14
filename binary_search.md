@@ -1,5 +1,5 @@
 ---
-date: 2023-03-19
+date: 2023-03-19T00:00+03:00
 tags:
   - inbox
   - SR-base
@@ -182,4 +182,3 @@ time the data is doubled. <!--SR:!2024-09-06,4,221-->
 
 - [ ] [Binary Search - YouTube](https://www.youtube.com/watch?v=D5SrAga1pno)
 - [ ] [Двоичный поиск — Википедия](https://ru.wikipedia.org/wiki/%D0%94%D0%B2%D0%BE%D0%B8%D1%87%D0%BD%D1%8B%D0%B9_%D0%BF%D0%BE%D0%B8%D1%81%D0%BA)
-

@@ -1,5 +1,5 @@
 ---
-date: 2023-08-29
+date: 2023-08-29T00:00+03:00
 external:
   - https://natrongithub.github.io/
 tags:
@@ -10,5 +10,3 @@ sr-ease: 272
 ---
 
 # Natron
-
-

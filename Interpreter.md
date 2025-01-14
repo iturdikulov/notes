@@ -1,5 +1,5 @@
 ---
-date: 2023-05-13
+date: 2023-05-13T00:00+03:00
 tags:
   - inbox
   - base
@@ -32,4 +32,3 @@ _How python interpreter works_
 ## External links
 
 - [ ] [Crafting Interpreters](http://craftinginterpreters.com/contents.html)
-

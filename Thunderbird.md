@@ -1,5 +1,5 @@
 ---
-date: 2024-11-03 00:12
+date: 2024-11-03T00:12+03:00
 tags:
   - inbox
   - SR-productivity
@@ -43,4 +43,3 @@ Modifier keys are the Ctrl-key on Windows and Linux, and the Cmd-key on Mac OS d
 
 [^1]: [Linux Build Prerequisites](https://developer.thunderbird.net/thunderbird-development/building-thunderbird/linux-build-prerequisites#getting-the-code)
 [^2]: [Keyboard shortcuts](https://support.mozilla.org/en-US/kb/keyboard-shortcuts-thunderbird#w_list-of-keyboard-shortcuts)
-

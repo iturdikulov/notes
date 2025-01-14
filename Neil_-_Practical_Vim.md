@@ -1,6 +1,6 @@
 ---
 author: Drew Neil
-date: 2015
+date: 2025-01-14T11:41+03:00
 directory: ~/Computer/software/Neil-Practical_Vim
 tags:
   - inbox

@@ -1,5 +1,5 @@
 ---
-date: 2023-08-14
+date: 2023-08-14T00:00+03:00
 tags:
   - inbox
   - productivity
@@ -92,4 +92,3 @@ TODO: switch between files and directories
 ## External links
 
 - [x] [Using Netrw, vim's builtin file explorer](https://vonheikemen.github.io/devlog/tools/using-netrw-vim-builtin-file-explorer/)
-

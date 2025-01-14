@@ -1,5 +1,5 @@
 ---
-date: 2024-07-12
+date: 2024-07-12T00:00+03:00
 tags:
   - inbox
 sr-due: 2024-08-26
@@ -151,4 +151,3 @@ sudo cat watch 'cat /proc/cpuinfo | grep "cpu MHz"'
 - [ ] [Identify damaged files - ArchWiki](https://wiki.archlinux.org/title/Identify_damaged_files)
 - [ ] [Overclocked ECC memory with a 5900X my results and other observations  rAmd](https://www.reddit.com/r/Amd/comments/lf3i6b/overclocked_ecc_memory_with_a_5900x_my_results/)
 - [ ] [Бенчмарки для Linux-серверов 5 открытых инструментов  Habr](https://habr.com/en/companies/1cloud/articles/455834/)
-

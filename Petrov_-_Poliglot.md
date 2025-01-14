@@ -1,7 +1,7 @@
 ---
-date: 2024-01-14
-external:
-archive:
+date: 2024-01-14T00:00+03:00
+external: null
+archive: null
 tags:
   - inbox
   - linguistic

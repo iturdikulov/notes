@@ -1,5 +1,5 @@
 ---
-date: 1995
+date: 2025-01-14T11:41+03:00
 author: Fred Brooks
 tags:
   - inbox
@@ -11,5 +11,3 @@ sr-ease: 245
 ---
 
 # Mythical Man-Month, The: Essays on Software Engineering, Anniversary Edition
-
-

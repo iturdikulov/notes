@@ -1,5 +1,5 @@
 ---
-date: 2024-01-23
+date: 2024-01-23T00:00+03:00
 tags:
   - inbox
   - IRL
@@ -50,4 +50,3 @@ Here I store various useful and interesting information about animals.
 > — <cite>[Popchart](https://popchart.co/products/dinosauria)</cite>
 
 ![Dinosauria](./img/ref-Dinosauria.webp)
-

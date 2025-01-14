@@ -1,5 +1,5 @@
 ---
-date: 2022-12-29
+date: 2022-12-29T00:00+03:00
 tags:
   - SR-productivity
   - inbox
@@ -94,4 +94,3 @@ TODO: add scripts from my nix dotfiles
 - [ ] [GitHub - occivink/mpv-scripts: Various scripts for mpv](https://github.com/occivink/mpv-scripts)
 - [umpv](https://github.com/mpv-player/mpv/blob/master/TOOLS/umpv), useful to
 add queue, use mpv as music player, emulates "single mpv instance"
-

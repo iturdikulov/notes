@@ -1,5 +1,5 @@
 ---
-date: 2024-01-15
+date: 2024-01-15T00:00+03:00
 tags:
   - inbox
   - productivity
@@ -16,4 +16,3 @@ sr-ease: 239
 - [[Dan_-_How_to_type_fast]]
 - [[calendar]]
 - [[contacts]]
-

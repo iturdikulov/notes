@@ -1,6 +1,6 @@
 ---
 external: https://www.khanacademy.org/
-date: 2023-04-16
+date: 2023-04-16T00:00+03:00
 tags:
   - inbox
 sr-due: 2024-02-11

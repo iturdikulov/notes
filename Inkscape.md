@@ -1,5 +1,5 @@
 ---
-date: 2023-03-28
+date: 2023-03-28T00:00+03:00
 external:
   - https://inkscape.org/
 tags:

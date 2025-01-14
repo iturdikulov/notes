@@ -1,6 +1,6 @@
 ---
 author: Katsuhiro Otomo
-date: 1982
+date: 2025-01-14T11:41+03:00
 tags:
   - inbox
   - art

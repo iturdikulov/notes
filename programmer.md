@@ -1,5 +1,5 @@
 ---
-date: 2023-04-15
+date: 2023-04-15T00:00+03:00
 tags:
   - inbox
   - base
@@ -26,4 +26,3 @@ programs with high efficiency, quality and space complexity ☺.
 
 [[computer|Computers]] and programming give you opportunity to make something
 useful without shackles of material world.
-

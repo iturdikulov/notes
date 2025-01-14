@@ -4,6 +4,7 @@ external:
 tags:
   - inbox
   - Python
+date: 2025-01-14T11:41+03:00
 ---
 
 # 7. Input and Output
@@ -527,4 +528,3 @@ specific to Python and cannot be used to communicate with applications
 written in other languages. It is also insecure by default:
 deserializing its data coming from an untrusted source can execute arbitrary
 code, if the data was crafted by a skilled attacker.
-

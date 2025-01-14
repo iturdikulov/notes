@@ -1,6 +1,6 @@
 ---
 author: spacemath.xyz
-date: 2024
+date: 2025-01-14T11:41+03:00
 tags:
   - inbox
   - mathematics
@@ -116,4 +116,3 @@ In mathematics comparison can be used to represent
 You can write one expression equal to another, or one expression is not equal
 for some object, number or rule.
 You "can't" divide $a$ by $b$, where $b$ is zero, $\frac{a}{b},b \neq 0$.
-

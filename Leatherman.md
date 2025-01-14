@@ -1,8 +1,8 @@
 ---
-date: 2024-06-16
+date: 2024-06-16T00:00+03:00
 external:
- - http://leatherman.com/
- - https://en.wikipedia.org/wiki/Leatherman
+  - http://leatherman.com/
+  - https://en.wikipedia.org/wiki/Leatherman
 tags:
   - inbox
 sr-due: 2024-07-05

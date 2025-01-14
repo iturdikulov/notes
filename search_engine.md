@@ -1,5 +1,5 @@
 ---
-date: 2023-04-03
+date: 2023-04-03T00:00+03:00
 tags:
   - inbox
   - productivity
@@ -286,4 +286,3 @@ only, don't pirate anything).
 Find documents (doc, xls, ...) that contain the phrase "confidential salary" and
 "budget approved" in the body of the document. The documents are located in
 directories or at URL's named "confidential".
-

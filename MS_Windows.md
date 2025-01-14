@@ -1,5 +1,5 @@
 ---
-date: 2022-12-29
+date: 2022-12-29T00:00+03:00
 tags:
   - inbox
 sr-due: 2024-01-29
@@ -126,4 +126,3 @@ post-installation tool.
 
 - [Microsoft Software Download Listing](https://msdl.gravesoft.dev/)
 - [Chris Titus Tech's Windows Utility - Install Programs, Tweaks, Fixes, and Updates](https://github.com/ChrisTitusTech/winutil)
-

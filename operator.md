@@ -1,5 +1,5 @@
 ---
-date: 2023-03-14
+date: 2023-03-14T00:00+03:00
 tags:
   - inbox
   - base
@@ -28,4 +28,3 @@ itself.
 > built-in operators, and in some cases allow users to add new meanings to
 > existing operators or even define completely new operators.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Operator_\(computer_programming\))</cite>
-

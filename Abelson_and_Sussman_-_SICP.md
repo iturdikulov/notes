@@ -1,5 +1,5 @@
 ---
-date: 2023-09-19
+date: 2023-09-19T00:00+03:00
 tags:
   - inbox
   - base
@@ -29,4 +29,3 @@ sr-ease: 263
 > and many new exercises. In addition, all the programs have been reworked to
 > run in any Scheme implementation that adheres to the IEEE standard.\
 > — <cite>[MIT Press](http://mitpress.mit.edu/9780262510875/structure-and-interpretation-of-computer-programs/)</cite>
-

@@ -1,7 +1,7 @@
 ---
 external:
   - https://github.com/nvim-neotest/neotest
-date: 2023-03-19
+date: 2023-03-19T00:00+03:00
 tags:
   - inbox
   - testing

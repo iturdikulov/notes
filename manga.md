@@ -1,5 +1,5 @@
 ---
-date: 2023-09-15
+date: 2023-09-15T00:00+03:00
 tags:
   - inbox
 directory: ~/Arts_and_Entertainment/manga/
@@ -17,4 +17,3 @@ sr-ease: 248
 > Outside of Japan, the word is typically used to refer to comics
 > originally published in the country.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Manga)</cite>
-

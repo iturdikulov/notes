@@ -4,6 +4,7 @@ external:
 tags:
   - inbox
   - Python
+date: 2025-01-14T11:41+03:00
 ---
 
 # 13. Interactive Input Editing and History Substitution
@@ -46,4 +47,3 @@ some time is [IPython](https://ipython.org/), which features tab completion,
 object exploration and advanced history management. It can also be thoroughly
 customized and embedded into other applications. Another similar enhanced
 interactive environment is [bpython](https://bpython-interpreter.org/).
-

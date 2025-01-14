@@ -1,5 +1,5 @@
 ---
-date: 2023-04-02
+date: 2023-04-02T00:00+03:00
 external:
   - https://gcc.gnu.org/
 tags:

@@ -1,5 +1,5 @@
 ---
-date: 2024-06-29
+date: 2024-06-29T00:00+03:00
 tags:
   - inbox
   - Unix
@@ -23,4 +23,3 @@ _Termios script diagram_
 
 - [ ] [Устройство подсистемы TTY](https://wandrien.github.io/articles/tty/)
 - [ ] [Pseudoterminal](https://en.wikipedia.org/wiki/Pseudoterminal)
-

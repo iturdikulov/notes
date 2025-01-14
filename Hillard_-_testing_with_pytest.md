@@ -10,6 +10,7 @@ directory: ~/Computer/programming/Hillard-Testing_With_Pytest
 sr-due: 2023-01-28
 sr-interval: 15
 sr-ease: 226
+date: 2025-01-14T11:41+03:00
 ---
 
 # Effective Python Testing With Pytest

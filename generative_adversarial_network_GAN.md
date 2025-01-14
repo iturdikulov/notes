@@ -1,5 +1,5 @@
 ---
-date: 2023-10-03
+date: 2023-10-03T00:00+03:00
 tags:
   - inbox
 sr-due: 2024-02-03
@@ -43,7 +43,3 @@ sr-ease: 249
 Stable Diffusion (SD), Analog Diffusion.
 - [DALL-E](https://labs.openai.com/)
 - [Midjourney](https://www.midjourney.com/home/)
-
-
-
-

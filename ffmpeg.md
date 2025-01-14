@@ -1,5 +1,5 @@
 ---
-date: 2023-06-16
+date: 2023-06-16T00:00+03:00
 tags:
   - inbox
   - productivity
@@ -66,4 +66,3 @@ Combine ffmpeg with fd, convert into specific video/audio codec
 Compine ffmpeg with fd, convert into h264_vaapi with hardware acceleration, vaapi, custom device:
 
     fd -d 1 -e avi -x ffmpeg -hwaccel vaapi -hwaccel_output_format vaapi -hwaccel_device /dev/dri/renderD128 -i {} -c:v h264_vaapi {.}_.mp4
-

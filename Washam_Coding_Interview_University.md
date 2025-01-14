@@ -2,7 +2,7 @@
 auhtor: John Washam
 external:
   - https://github.com/jwasham/coding-interview-university
-date: 2023-08-15
+date: 2023-08-15T00:00+03:00
 tags:
   - inbox
 directory: ~/Computer/science/Washam_Coding_Interview_University/

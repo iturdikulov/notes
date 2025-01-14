@@ -1,5 +1,5 @@
 ---
-date: 1999
+date: 2025-01-14T11:41+03:00
 author: Brian W. Kernighan & Rob Pike
 tags:
   - inbox
@@ -10,4 +10,3 @@ sr-ease: 225
 ---
 
 # The Practice of Programming
-

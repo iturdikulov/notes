@@ -1,5 +1,5 @@
 ---
-date: 2023-01-07
+date: 2023-01-07T00:00+03:00
 directory: ~/Arts_and_Entertainment/literature/George Polya/How to solve it (2276)/
 tags:
   - inbox

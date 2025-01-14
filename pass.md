@@ -1,5 +1,5 @@
 ---
-date: 2023-03-06
+date: 2023-03-06T00:00+03:00
 tags:
   - inbox
   - cryptography
@@ -55,4 +55,3 @@ I also use passwords groups, like business, email, social, etc.
 
 - [pass - ArchWiki](https://wiki.archlinux.org/title/Pass)
 - [Password store best practices](https://github.com/fpco/best-practices/blob/master/password-store.md)
-

@@ -1,5 +1,5 @@
 ---
-date: 2023-03-18
+date: 2023-03-18T00:00+03:00
 tags:
   - inbox
   - base
@@ -36,4 +36,3 @@ TODO: check in the future, did I read it?
 
 - [ ] [Linux kernel coding style](https://www.kernel.org/doc/Documentation/process/coding-style.rst)
 - [ ] [Google Style Guides](https://google.github.io/styleguide/)
-

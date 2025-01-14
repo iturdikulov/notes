@@ -1,6 +1,6 @@
 ---
 author: Charles Petzold
-date: 2024-11-05
+date: 2024-11-05T00:00+03:00
 tags:
   - inbox
   - base
@@ -33,4 +33,3 @@ directory: ~/Computer/science/Petzold-Code
 Словарь тоже можно представить как своеобразный код.
 
 ![[img/ref-International_Morse_Code.svg]]
-

@@ -1,6 +1,6 @@
 ---
 author: Kumsal Obuz
-date: 2023-09-14
+date: 2023-09-14T00:00+03:00
 external:
   - https://github.com/PacktPublishing/Game-Development-with-Blender-and-Godot
 tags:
@@ -89,5 +89,3 @@ icon in the material properties (toolbar below material list).
 
 In the Blender you can assign materials to specific faces, but need to use
 ==slots== for this.
-
-

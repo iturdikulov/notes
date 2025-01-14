@@ -1,5 +1,5 @@
 ---
-date: 2023-03-08
+date: 2023-03-08T00:00+03:00
 tags:
   - inbox
 directory: ~/Arts_and_Entertainment/visual_arts/30_days_draw_challenge/

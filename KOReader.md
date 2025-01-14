@@ -1,5 +1,5 @@
 ---
-date: 2023-06-18
+date: 2023-06-18T00:00+03:00
 tags:
   - inbox
 sr-due: 2024-01-30
@@ -18,4 +18,3 @@ I frequently use it to read mostly fiction books on my
 kindle paperwhite.
 
 ## Brief user guide
-

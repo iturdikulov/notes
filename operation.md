@@ -1,5 +1,5 @@
 ---
-date: 2023-03-18
+date: 2023-03-18T00:00+03:00
 tags:
   - inbox
   - mathematics
@@ -29,4 +29,3 @@ sr-ease: 219
 > A partial operation is defined similarly to an operation, but with a partial
 > function in place of a function.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Operation_\(mathematics\))</cite>
-

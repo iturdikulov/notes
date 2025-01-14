@@ -1,5 +1,5 @@
 ---
-date: 2023-04-08
+date: 2023-04-08T00:00+03:00
 tags:
   - inbox
   - mathematics

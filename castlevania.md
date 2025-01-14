@@ -1,5 +1,5 @@
 ---
-date: 1986-09-26
+date: 1986-09-26T00:00+03:00
 tags:
   - inbox
 author: Hitoshi Akamatsu

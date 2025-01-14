@@ -1,7 +1,7 @@
 ---
 author:
   - Jay Wengrow
-date: 2023
+date: 2025-01-14T11:41+03:00
 external:
   - https://pragprog.com/titles/jwdsal2
 tags:

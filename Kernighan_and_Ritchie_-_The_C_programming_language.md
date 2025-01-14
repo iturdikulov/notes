@@ -6,6 +6,7 @@ tags:
 sr-due: 2025-11-29
 sr-interval: 674
 sr-ease: 236
+date: 2025-01-14T11:41+03:00
 ---
 
 # The C Programming Language

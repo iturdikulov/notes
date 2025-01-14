@@ -1,7 +1,7 @@
 ---
 external:
   - https://miniflux.app/
-date: 2023-03-27
+date: 2023-03-27T00:00+03:00
 tags:
   - inbox
   - SR-productivity

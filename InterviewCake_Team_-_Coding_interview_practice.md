@@ -10,6 +10,7 @@ directory: ~/Computer/science/InterviewCake_Team-Coding_Interview_Practice
 sr-due: 2024-01-31
 sr-interval: 4
 sr-ease: 223
+date: 2025-01-14T11:41+03:00
 ---
 
 # Coding Interview Practice
@@ -214,6 +215,3 @@ Kick butt at coding interviews. Be the candidate employers fight over.
     * The 24 Hours Before Your Interview
     * Beating Behavioral Questions
     * Managing Your Interview Timeline
-
-
-

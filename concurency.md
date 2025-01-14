@@ -1,5 +1,5 @@
 ---
-date: 2024-09-26
+date: 2024-09-26T00:00+03:00
 tags:
   - inbox
   - Python
@@ -283,4 +283,3 @@ in threading. You don’t have to worry about making your code ==thread-safe==.
 [^1]: [Concurrency and async / await - FastAPI](https://fastapi.tiangolo.com/async/)
 [^2]: [Speed Up Your Python Program With Concurrency – Real Python](https://realpython.com/python-concurrency/)
 [^3]: [Coroutines and Tasks — Python documentation](https://docs.python.org/3/library/asyncio-task.html)
-

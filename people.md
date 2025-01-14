@@ -1,5 +1,5 @@
 ---
-date: 2023-09-15
+date: 2023-09-15T00:00+03:00
 tags:
   - inbox
 directory: ~/People/
