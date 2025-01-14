@@ -77,7 +77,8 @@ graph LR
     A --- |Index 3| E(4)
 ```
 
-![[img/shopping_list_array_insert.excalidraw.md]]
+![[img/shopping_list_array_insert.excalidraw.md|Shopping list array, insert operation example]]
+_Array with insert operation example_
 
 When you create array ([[initialization|initialize]]) you must set array size
 (number of items stored in the array). Size of array is fixed. Also, computer

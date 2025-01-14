@@ -52,7 +52,7 @@ To understand custom bullet list types check [[my_notation]] note.
 ### Now
 
 - [!] Fundamentals of English grammar:
-      ![[./img/Spelling_punctuation_and_grammar_SPAG.excalidraw]]
+      ![[img/Spelling_punctuation_and_grammar_SPAG.excalidraw|Spelling punctuation and grammar scheme]]
 - [!] [[duolingo]]
 - [ ] [[Petrov_-_Poliglot]]
 - [ ] [[CHernixovskaya_-_English_start-up]]

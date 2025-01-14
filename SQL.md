@@ -37,7 +37,7 @@ of data, based on specific criteria.
 
 High-level overview of SQL language:
 
-![[./img/SQL_overview.excalidraw]]
+![[img/SQL_overview.excalidraw|SQL components diagram]]
 _SQL components diagram_
 
 ## DDL, DQL, DML, DCL and TCL Commands
@@ -528,7 +528,7 @@ GROUP BY OrderID;
 
 ## Join Queries
 
-![[./img/SQL_joins.excalidraw|SQL Join Queries]]
+![[img/SQL_joins.excalidraw|SQL Join Queries diagram]]
 _SQL Join Queries_
 
 The joined table will contain all records from both the tables and fill in

@@ -70,13 +70,13 @@ using `task list all`.
 calculate how long task is blocked, and maybe you need to remind someone about
 it.
 
-![Workflow](img/GTD_workflow.excalidraw)
+![[img/GTD_workflow.excalidraw|hand-drawn GTD workflow diagram]]
 _GTD workflow_
 
 Also pretty useful Eisenhower matrix, which help to take a different view of
 tasks processing:
 
-![[./img/eisenhower_matrix.excalidraw]]
+![[img/eisenhower_matrix.excalidraw|hand-drawn Eisenhower matrix diagram]]
 _My custom Eisenhower matrix_
 
 ## Projects

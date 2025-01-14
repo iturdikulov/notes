@@ -70,7 +70,7 @@ He recommends buying a mechanical keyboard, which I already have, and I like it.
 
 I created fingers relative positions map to help me with this.
 
-![Colemak finger positions](./img/ColemakDH_ANSI_fingers_positions.excalidraw)
+![[img/ColemakDH_ANSI_fingers_positions.excalidraw|hand-drawn Colemak-DH keyboard layout, for air-typing practice]]
 _Colemak finger positions_
 
 11. "Use a typing trainer to re-enforce the mental model"

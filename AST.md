@@ -22,5 +22,5 @@ transformation systems. As example Euclidean algorithm is shown below.
 
 To produce an AST need to use ==parser==.
 
-![[img/AST.excalidraw]]
+![[img/AST.excalidraw|Abstract syntax tree flowchart diagram for the Euclidean algorithm]]
 _An abstract syntax tree for the Euclidean algorithm_

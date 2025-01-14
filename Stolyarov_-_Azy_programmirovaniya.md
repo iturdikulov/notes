@@ -525,7 +525,8 @@ Three main parts of system bus:
 > information, an **address bus** to determine where it should be sent or read
 > from, and a **control bus** to determine its operation.\
 > — <cite>[System bus - Wikipedia](https://en.wikipedia.org/wiki/System_bus)</cite>
-![[img/System_bus.excalidraw]]
+![[img/System_bus.excalidraw|System bus diagram]]
+_System bus_
 
 Here my notes about how RAM is working:
 [[How_does_Computer_Memory_Work]]
@@ -603,7 +604,8 @@ Processor can do following operations (==instruction set==):
 - service actions (for example jump to location and code execution)
 <!--SR:!2024-02-24,3,162-->
 
-![[img/Computer_system.excalidraw]]
+![[img/Computer_system.excalidraw|Computer system diagram]]
+_Computer system_
 
 Each elementary instruction, which CPU is performing (it also CPU main goal) has
 operation code or ==machine code==.
@@ -724,7 +726,7 @@ Can you explain hierarchy of storage devices (speed, price, size)?
 Information in computing system can be stored on different storage devices,
 depending on how fast it should be accessed, how long time it can be stored,
 and it's size (check hierarchy above).
-![[img/hierarchy_of_storage_devices.excalidraw]]
+![[img/hierarchy_of_storage_devices.excalidraw|Hierarchy of storage devices diagram]]
 _Hierarchy of storage devices_
 
 ### 1.1.6. Summary (Резюме)

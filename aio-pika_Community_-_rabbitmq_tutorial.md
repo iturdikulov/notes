@@ -8,4 +8,5 @@ directory: ~/Computer/software/rabbitmq
 
 # Rabbitmq tutorial (adopted for aio-pika)
 
-![[./img/RabbitMQ.excalidraw|Rabbitmq high-level overview]]
+![[img/RabbitMQ.excalidraw|Rabbitmq high-level overview diagram]]
+_Rabbitmq high-level overview_

@@ -68,7 +68,7 @@ original message from the hash value alone.
 Looking up a value in a hash table has an efficiency of (big O)
 ==$\mathcal{O}(1)$==.
 
-![[img/hash_table.excalidraw.md]]
+![[img/hash_table.excalidraw.md|Hand-drawn phone book as a hash table]]
 _A small phone book as a hash table_
 
 Which other names of hash table you knowing?

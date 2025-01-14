@@ -26,7 +26,8 @@ sr-ease: 222
 
 Here example how [[Python]] does it:
 
-![How python interpreter works](img/how_python_interpreter_works.excalidraw)
+![[img/how_python_interpreter_works.excalidraw|Python interpreter virtual machine hand-drawn scheme]]
+_How python interpreter works_
 
 ## References
 

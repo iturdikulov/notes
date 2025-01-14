@@ -1771,7 +1771,8 @@ print(my_function.__code__.co_argcount)  # => 2
 Here is high-level overview of Python language, built-in data structures, data
 management, etc.
 
-![[./img/python_high_level_overview.excalidraw|100%|Python high-level overview]]
+![[img/python_high_level_overview.excalidraw|100%|Python high-level overview scheme]]
+_Python high-level overview_
 
 ## External links
 

@@ -37,7 +37,8 @@ func()
 print(func.__name__)  # inner_function
 ```
 
-![[./img/Python_simple_function_wrap.excalidraw]]
+![[img/Python_simple_function_wrap.excalidraw|Python function wrap diagram]]
+_Function wrap_
 
 Simplify decoration with `@` decorator:
 

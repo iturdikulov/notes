@@ -33,7 +33,7 @@ also it is too short. And it's one of problem with regex, you need to **know all
 edge cases** for name, `Jo` can be valid name! So need to use regex very
 carefully.
 
-![[./img/regexp_example.excalidraw]]
+![[img/regexp_example.excalidraw|Username regular expression example]]
 _Example of a regular expression_
 
 Lines started with `/` in examples are inviting you to test regex expression in
@@ -46,7 +46,6 @@ configure some options (if they aren't default ones):
 
 :setlocal noignorecase
 :setlocal nosmartcase
-
 ```
 
 If you need to search in Neovim visual selections, use `\%V` prefix:

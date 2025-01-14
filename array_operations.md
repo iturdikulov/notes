@@ -26,7 +26,7 @@ When computer allocate an array, it makes note at which memory addresses the
 array begins, and knowing that address and index of any element, computer can
 calculate the memory address (simply addition) of that element in ==one== step. <!--SR:!2024-09-13,24,250-->
 
-![[./img/shopping_list_array_insert.excalidraw|shopping list array]]
+![[img/shopping_list_array_insert.excalidraw|shopping list array diagram, insert operation]]
 _Schematic array representation in memory_
 
 An array is stored such that the **position of each element** can be computed
@@ -145,7 +145,7 @@ Efficiency depends on where we insert the value:
 worst case (begging of array) it's $N+1$ steps, where $N$ is a number of
 items in array.
 
-![[img/shopping_list_array_insert.excalidraw.md]]
+![[img/shopping_list_array_insert.excalidraw.md|shopping list array diagram, insert operation]]
 _Array insertion operation in memory_
 
 How many steps will take array insertion in the worst case?
@@ -162,7 +162,7 @@ value at a particular index.
 This is sort of reverse of insertion.
 Get index, jump to position, **delete value**, move all values to the left. <!--SR:!2024-09-12,15,230-->
 
-![[./img/shopping_list_array_delete.excalidraw|shopping list array delete]]
+![[img/shopping_list_array_delete.excalidraw|shopping list array diagram, delete operation]]
 _Array deletion operation in memory_
 
 In worst case deletion from array operation will take (steps)?
