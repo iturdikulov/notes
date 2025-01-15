@@ -3,9 +3,9 @@ date: 2023-03-09T00:00+03:00
 tags:
   - blog
   - productivity
-sr-due: 2021-02-03
-sr-interval: 6
-sr-ease: 226
+sr-due: 2025-07-17
+sr-interval: 183
+sr-ease: 206
 ---
 
 # My Zettelkasten note types (AKA templates)
