@@ -16,6 +16,8 @@ sr-ease: 270
 
 Significant part are from [[programming_fonts_-_test_drive|programming fonts]].
 
+TODO: add images.
+
 - Terminus and Terminus TTF. They look good on 1080p monitors.
 - TerminesTTF Nerd Font \*
 - Binchotan Sharp
