@@ -39,8 +39,8 @@ ways to sync data which I usually use:
 ```sh
 # Connect smartphone & tablet and run this commands (you might need to enable
 # USB debugging)
-adb shell cmd package list packages -e > /archive/backup/smartphone_installed_apps.txt
-adb she shell cmd package list packages -e > /archive/backup/tablet_installed_apps.txt
+adb shell cmd package list packages -e > private/smartphone_installed_apps.txt
+adb she shell cmd package list packages -e > private/tablet_installed_apps.txt
 ```
 
 ## External links
