@@ -25,110 +25,170 @@ way. Quality of learning resources is very important, but in same time learning
 materials should be understandable and easy to follow. I collect resources about
 programming, software development in my learning path.
 
+## Programming principles
+
+List of programming principles aviable at Wikipedia [^1].
+
+Programming principles are required to write "good code". If you follow them
+usually you receive good codebase which can be easily maintained and extended.
+
+High-level principles:
+
+- Gathering problems and requirements is first step, and it's important.
+- Architecture planning and discussion required to make decisions and deeply
+understand the problem.
+- Need to write maintainable code for people, DRY, KISS, YAGNI, need to avoid
+neurosis and excessive perfectionism.
+- Write **simple** self-documenting code that explains its logic, comments
+should be up-to-date and do not contain unnecessary information (explain what is
+not clear or why it was done that way):
+  - I avoid deep abstractions and always prefer composition to inheritance or
+  impurity.
+  - I prefer flat data structures whenever possible.
+  - I introduce external dependencies to a minimum (ideally without them at
+  all).
+  - I design modules with clear APIs, but almost never translate them into
+  microservices.
+  - To understand legacy code, I draw dependency graphs and sequence diagrams.
+  - I write examples - lots of examples. Some of them are even interactive.
+- Several levels of testing, with the help of "tools" (debugger, linter, etc.)
+and automatic testing greatly help to detect bugs and issues.
+- Working with team, helping others and myself (documentation, training,
+reviews) significantly improve quality of any project.
+- I listen to the opinion of older comrades, experience is very expensive and
+useful.
+- I do refactor my code if something is unclear and needs to be improved.
+
+DRY
+&#10;<br>
+Don't Repeat Youself. Avoid writing the same code in multiple places.
+This principle make your code more maintainable when you need to change it.
+
+Why repeating code is bad or can be bad?
+&#10;<br>
+- If you need to change it, you have to change it in multiple places.
+- If you forget to change it in one place, you'll have a new bug.
+- It's more work to write it over and over again and maintain it.
+
+KISS::Keep It Simple, Stupid
+
+YAGNI::You Ain't Going to Need It
+
 ## Programming learning path
 
 Programming lerning path is closely related to
 [[computer_science#Computer science learning path|computer science learning path]].
 
-Initial point to start learning programming is development of
-[[#Programming principles|programming principles]]. Also, it's worth
-to check some [[Evans_-_So_you_want_to_be_a_WizarD|learning strategies]].
-
 To understand custom bullet list types check [[my_notation]] note.
 
-- [x] [[12factor_app]] - methodology for building software-as-a-service.
+### How to be programmer
+
+- [x] [[Evans_-_So_you_want_to_be_a_WizarD]]
+- [ ] [[Sonmez_-_Soft_skills]]
+
+### Foundations
+
+- [ ] [Backend Developer Roadmap](https://roadmap.sh/backend).
+- [!] [[Stolyarov_-_Azy_programmirovaniya\|Столяров - Азы программирования]]
+- [ ] cs50py (mainly to be more familiar with Engish voculary)
+- loop
+- [[conditional]]
+- Virtual memory
+- Cryptography
+- System call
+- Cpu scheduling
+- File descriptor
+- [[TCP_IP]]
+- Interrupts
+- Futex
+- Mutex
+- Semaphore
+
+### Projects to learn, frameworks, libraries
+
 - [/] codecrafters-shell_python at [Build your own Shell](https://app.codecrafters.io/courses/shell/introduction).
   - [ ] Move into [[Bash]] and document it.
-- [/] [[JavaScript]] note research.
-  - [ ] Write flashcards.
-- [/] Complete Intro to React.
+- [Advent of Code 2024](https://adventofcode.com/2024) - intersting challenge.
+- [AOC: What would you say are the minimal skills for beginners?](https://www.reddit.com/r/adventofcode/comments/7kd8jt/comment/dre0uu3/),
+  research article.
+- [ ] Complete Intro to React.
+- [Thinking in React]( https://react.dev/learn/thinking-in-react)
 - [ ] [Build your own Interpreter](https://app.codecrafters.io/courses/interpreter/introduction)
   with [[Python]] and Crafting Interpreters book.
   - [ ] [Welcome](https://craftinginterpreters.com/welcome.html) and prepare project.
   - [ ] [Introduction](https://craftinginterpreters.com/introduction.html).
   - [ ] [The Lox Language](https://craftinginterpreters.com/the-lox-language.html).
-- [/] [PostgreSQL Tutorial](https://neon.tech/postgresql/tutorial).
 - [ ] [[aio-pika_Community_-_rabbitmq_tutorial]].
-- [ ] [Common Gateway Interface - Wikipedia](https://en.wikipedia.org/wiki/Common_Gateway_Interface).
-- [ ] [[Python]] note research, part 2.
-- [ ] [[solid]] note research, part 2.
-- [/] [[Stolyarov_-_Azy_programmirovaniya]], read and take notes.
-- [/] cs50py (mainly to be more familiar with Engish voculary)
-- [ ] [[C]], research note.
-- [ ] [[Go]], research note.
-
-
-- [ ] [Semantic Commit Messages · GitHub](https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716)
-- [/] [[Python]], research, re-read, adjust flashcards.
-- [Advent of Code 2024](https://adventofcode.com/2024) - intersting challenge.
-- [AOC: What would you say are the minimal skills for beginners?](https://www.reddit.com/r/adventofcode/comments/7kd8jt/comment/dre0uu3/),
-  research article.
-- [/] [[McConnell_-_Code_complete]], read and take notes.
 - [JavaScript on Exercism](https://exercism.org/tracks/javascript) - learn
   [[JavaScript]] with practical lessons.
+- [FastAPI](https://fastapi.tiangolo.com/learn/)
+  - [[Pydantic]]
+- [The Big Book of Small Python Projects](https://inventwithpython.com/bigbookpython/)
+- [Sending an ethernet packet](https://github.com/francisrstokes/githublog/blob/main/2024%2F11%2F1%2Fsending-an-ethernet-packet.md)
 
+### Architecture, patterns
+
+- [x] [[12factor_app]] - methodology for building software-as-a-service.
+- [ ] [[solid]] note research, part 2.
+- [/] [[McConnell_-_Code_complete]], read and take notes.
+- Domain-Driven Design Distilled, read and take notes.
+- [Data-Oriented Demo: SOA, composition - YouTube](https://www.youtube.com/watch?v=ZHqFrNyLlpA),
+  research video.
+- Refactoring: Improving the Design of Existing Code, read and take notes.
+- Beyond the Twelve-Factor App, read and take notes.
 - [/] [[concurency]] - research note.
 - [What every systems programmer should know about
   concurrency](./articles/Kline_-_concurrency_primer.pdf), research article.
 - [[OOP]] - research note.
-- [/] [[asyncio]] - research note.
 - [Большой гайд по миграциям в Django: готовимся к миграциям и избегаем конфликтов / Хабр](https://habr.com/ru/companies/idaproject/articles/861386/)
+- [/] [[asyncio]] - research note.
 
-- Domain-Driven Design Distilled, read and take notes.
-- Refactoring: Improving the Design of Existing Code, read and take notes.
-- Beyond the Twelve-Factor App, read and take notes.
-- [[Git]], need to research
-- Evans How Git Works
-- [[Henry_How_to_Learn_Nix]]
+### Programming languages
 
-- [Sets in Python – Real Python](https://realpython.com/python-sets/), research
-  article.
-- [Data-Oriented Demo: SOA, composition - YouTube](https://www.youtube.com/watch?v=ZHqFrNyLlpA),
-  research video.
-- [plan9/sys/src/cmd/cat.c - GitHub](https://github.com/0intro/plan9/blob/main/sys/src/cmd/cat.c),
-  research code.
-- [Set Difference Python: Intersection, union and difference of Sets in Python. - DEV Community](https://dev.to/svinci/intersection-union-and-difference-of-sets-in-python-4gkn)
+- [ ] [[Slatkin_-_Effective_Python]], general tips to write good Python code
+- [/] [[Python]], research, re-read, adjust flashcards.
+  - [Sets in Python – Real Python](https://realpython.com/python-sets/), research
+    article.
+  - [plan9/sys/src/cmd/cat.c - GitHub](https://github.com/0intro/plan9/blob/main/sys/src/cmd/cat.c),
+    research code.
+  - [Set Difference Python: Intersection, union and difference of Sets in Python. - DEV Community](https://dev.to/svinci/intersection-union-and-difference-of-sets-in-python-4gkn)
+  - [Think Python — Think Python](https://allendowney.github.io/ThinkPython/)
+  - [CPython's Garbage Collector and its Impact on Application Performance](https://blog.codingconfessions.com/p/connecting-cpythons-gc-internals)
+
+- [/] [[JavaScript]] note research.
 - [[Ramalho_-_Fluent_Python]]
-- [Think Python — Think Python](https://allendowney.github.io/ThinkPython/)
-- [The Big Book of Small Python Projects](https://inventwithpython.com/bigbookpython/)
-- [FastAPI](https://fastapi.tiangolo.com/learn/)
-  - [[Pydantic]]
-- [CPython's Garbage Collector and its Impact on Application Performance](https://blog.codingconfessions.com/p/connecting-cpythons-gc-internals)
+  - [ ] Write flashcards.
+- [ ] [[C]], research note.
+- [ ] [[Go]], research note.
 
-- [Thinking in React]( https://react.dev/learn/thinking-in-react)
+### Databases and SQL
 
+- [/] [PostgreSQL Tutorial](https://neon.tech/postgresql/tutorial).
 - [[SQL]], research
 - [/] [[Forta_-_SQL_za_10_minut]]
 - [Database normalization - Wikipedia](https://en.m.wikipedia.org/wiki/Database_normalization )
 - [SQLModel](https://sqlmodel.tiangolo.com/learn/)
 - [Database normalization - Wikipedia](https://en.m.wikipedia.org/wiki/Database_normalization)
 
+### Other
+
+- [ ] [Common Gateway Interface - Wikipedia](https://en.wikipedia.org/wiki/Common_Gateway_Interface).
+- [ ] [Semantic Commit Messages · GitHub](https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716)
+- [[Git]], need to research
+- Evans How Git Works
+- [[Henry_How_to_Learn_Nix]]
+
+## Inbox
 
 ### High-level topics
 
 - [ ] [Web development](https://web.dev/learn).
 - [ ] [The Path to Learn Web Development](https://flaviocopes.com/the-path-to-learn-web-development/)
-- [ ] [Backend Developer Roadmap](https://roadmap.sh/backend).
 - [ ] [Awesome Software Architecture](https://awesome-architecture.com/)
 - [ ] [A curated list of data oriented design resources](https://github.com/dbartolini/data-oriented-design)
 
-- loop
-- [[conditional]]
-- cryptography
-- virtual memory
-- system call
-- cpu scheduling
-- file descriptor
-- [[TCP_IP]], demo project?
-- interrupts
-- futex
-- mutex
-- semaphores
-
 ### Books
 
-- [!] [[Stolyarov_-_Azy_programmirovaniya\|Столяров - Азы программирования]]
-- [!] [[Slatkin_-_Effective_Python]], general tips to write good Python code
 - [ ] [[Hunt_and_Thomas_-_The_pragmatic_programmer]]
 - [ ] [[Freeman_etal_-_Head_first_design_patterns]]
 - [ ] [[Kernighan_and_Ritchie_-_The_C_programming_language]]
@@ -145,7 +205,6 @@ To understand custom bullet list types check [[my_notation]] note.
 - [ ] [[Hunt_and_Thomas_-_The_pragmatic_programmer]]
 - [ ] [[Rainwater_-_Herding_cats]]
 - [ ] [[Yourdon_-_Death_march]]
-- [x] [[Evans_-_So_you_want_to_be_a_WizarD]]
 
 ### Video courses
 
@@ -508,52 +567,4 @@ Not really enjoyed (questions to structure and contains specific error), so skip
 Probably good for beginners, but I not like too many inaccuracy/wrongness in this course.
 - [x] [[Pycharm]] - Jetbrains Python IDE (in [[Java]]), stopped using
 
-## Programming principles
-
-TODO: add term
-https://en.wikipedia.org/wiki/Category:Programming_principles
-
-Programming principles are required to write "good code". If you follow them
-usually you receive good codebase which can be easily maintained and extended.
-
-High-level principles:
-
-- Gathering problems and requirements is first step, and it's important.
-- Architecture planning and discussion required to make decisions and deeply
-understand the problem.
-- Need to write maintainable code for people, DRY, KISS, YAGNI, need to avoid
-neurosis and excessive perfectionism.
-- Write **simple** self-documenting code that explains its logic, comments
-should be up-to-date and do not contain unnecessary information (explain what is
-not clear or why it was done that way):
-  - I avoid deep abstractions and always prefer composition to inheritance or
-  impurity.
-  - I prefer flat data structures whenever possible.
-  - I introduce external dependencies to a minimum (ideally without them at
-  all).
-  - I design modules with clear APIs, but almost never translate them into
-  microservices.
-  - To understand legacy code, I draw dependency graphs and sequence diagrams.
-  - I write examples - lots of examples. Some of them are even interactive.
-- Several levels of testing, with the help of "tools" (debugger, linter, etc.)
-and automatic testing greatly help to detect bugs and issues.
-- Working with team, helping others and myself (documentation, training,
-reviews) significantly improve quality of any project.
-- I listen to the opinion of older comrades, experience is very expensive and
-useful.
-- I do refactor my code if something is unclear and needs to be improved.
-
-DRY
-&#10;<br>
-Don't Repeat Youself. Avoid writing the same code in multiple places.
-This principle make your code more maintainable when you need to change it.
-
-Why repeating code is bad?
-&#10;<br>
-- If you need to change it, you have to change it in multiple places
-- If you forget to change it in one place, you'll have a bug
-- It's more work to write it over and over again
-
-KISS::Keep It Simple, Stupid
-
-YAGNI::You Ain't Going to Need It
+[^1]: [Category:Programming principles - Wikipedia](https://en.wikipedia.org/wiki/Category:Programming_principles)
