@@ -9,9 +9,6 @@ tags:
 This note outlines a system for tagging [[learning]] materials and
 [[index#Now|other]] stuff.
 
-Custom notations allowing me for quick assessment of learning materials based
-on personal experience and priorities, informing future learning decisions.
-
 - [ ] Scheduled for future.
 - [!] Scheduled, but has high priority.
 - [/] In progress, currently consuming it.
@@ -20,3 +17,6 @@ on personal experience and priorities, informing future learning decisions.
 - [c] Canceled or completed and not liked.
 - [-] Stopped at some point, maybe I'll revisit it later, or I don't interest in
   it right now.
+
+Custom notations allowing me for quick assessment of learning materials based
+on personal experience and priorities, informing future learning decisions.
