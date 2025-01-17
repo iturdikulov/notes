@@ -19,7 +19,7 @@ sr-ease: 273
 You can also convert markdown to tons of other formats, including PDF, using
 [[Pandoc]].
 
-I use Markdown as my primary format for all my [[zettelkasten_notes_type|notes]],
+I use Markdown as my primary format for all my [[Zettelkasten|notes]],
 [[documentation]] and in various [[my_awesome_web_services_list|services]].
 
 ## Basics (which I use)
