@@ -30,6 +30,10 @@ If the title of the author and book in Cyrillic, this means I read it in
 [[Russian]] language. To understand custom bullet list types check
 [[my_notation]] note.
 
+## Phylosophy and psychology
+
+- [ ] [Laozi_-_Tao_Te_Ching]
+
 ## Classic, famous books and stories
 
 - [ ] [[Lermontov_-_Geroj_nashego_vremeni\|Лермонтов - Герой нашего времени]]

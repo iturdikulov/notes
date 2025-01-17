@@ -59,6 +59,7 @@ To understand custom bullet list types check [[my_notation]] note.
 - redraw Russian_Cyrillic_alphabet
 - redraw International_Morse_Code
 - redraw https://miro.medium.com/v2/resize:fit:4800/format:webp/1*XzLlyZSuMyVCEOGaUh2hFg.png
+- [США начала XX-го века в высоком разрешении - История и современность — LiveJournal](https://visualhistory.livejournal.com/456619.html)
 
 ### Drawing
 

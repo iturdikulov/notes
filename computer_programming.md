@@ -83,7 +83,7 @@ To understand custom bullet list types check [[my_notation]] note.
 
 ### How to be programmer
 
-- [x] [[Evans_-_So_you_want_to_be_a_WizarD]]
+- [ ] [[Evans_-_So_you_want_to_be_a_WizarD]]
 - [ ] [[Sonmez_-_Soft_skills]]
 
 ### Foundations
@@ -91,8 +91,10 @@ To understand custom bullet list types check [[my_notation]] note.
 - [ ] [Backend Developer Roadmap](https://roadmap.sh/backend).
 - [!] [[Stolyarov_-_Azy_programmirovaniya\|Столяров - Азы программирования]]
 - [ ] cs50py (mainly to be more familiar with Engish voculary)
+- [Programming Bottom-Up](https://www.paulgraham.com/progbot.html)
 - loop
 - [[conditional]]
+- pseudoterminal
 - Virtual memory
 - Cryptography
 - System call
@@ -103,6 +105,7 @@ To understand custom bullet list types check [[my_notation]] note.
 - Futex
 - Mutex
 - Semaphore
+- Evans, float numbers book init
 
 ### Projects to learn, frameworks, libraries
 
@@ -119,12 +122,24 @@ To understand custom bullet list types check [[my_notation]] note.
   - [ ] [Introduction](https://craftinginterpreters.com/introduction.html).
   - [ ] [The Lox Language](https://craftinginterpreters.com/the-lox-language.html).
 - [ ] [[aio-pika_Community_-_rabbitmq_tutorial]].
+- [ ] [LLVM Tutorial](https://llvm.org/docs/tutorial/)
 - [JavaScript on Exercism](https://exercism.org/tracks/javascript) - learn
   [[JavaScript]] with practical lessons.
+- [Debounce на примере формы поиска — JavaScript — Дока](https://doka.guide/js/debounce/ )
+- [Большой гайд по миграциям в Django: готовимся к миграциям и избегаем конфликтов / Хабр](https://habr.com/ru/companies/idaproject/articles/861386/)
+- [Превращаем любой фреймворк в FastAPI. На прицеле Flask / Habr](https://habr.com/en/articles/748618/)
+- [Гайд по межсетевому экранированию (nftables)](https://habr.com/ru/articles/684524/))
+- [/] [[asyncio]] - research note.
+
 - [FastAPI](https://fastapi.tiangolo.com/learn/)
   - [[Pydantic]]
 - [The Big Book of Small Python Projects](https://inventwithpython.com/bigbookpython/)
 - [Sending an ethernet packet](https://github.com/francisrstokes/githublog/blob/main/2024%2F11%2F1%2Fsending-an-ethernet-packet.md)
+- Research shlex split source code
+- Django in action
+- [Novice Nix: Flake Templates · peppe.rs](https://oppi.li/posts/novice_nix:_flake_templates/ )
+- [Бэкендеры | Вызов Хабр Карьеры и Хекслета](https://drive.google.com/drive/folders/1iW5Fgax0A1DTjt6URUhKYBoZ1A-AAZpZ)
+- [TIC-80 is a fantasy computer for making, playing and sharing tiny games.](https://github.com/nesbox/TIC-80 )
 
 ### Architecture, patterns
 
@@ -140,13 +155,17 @@ To understand custom bullet list types check [[my_notation]] note.
 - [What every systems programmer should know about
   concurrency](./articles/Kline_-_concurrency_primer.pdf), research article.
 - [[OOP]] - research note.
-- [Большой гайд по миграциям в Django: готовимся к миграциям и избегаем конфликтов / Хабр](https://habr.com/ru/companies/idaproject/articles/861386/)
-- [/] [[asyncio]] - research note.
+- [GitHub - pgorecki/python-ddd: Python DDD example](https://github.com/pgorecki/python-ddd)
+- [Как сменить технологию и не закопаться в рефакторинге: опыт внедрения DDD в проект на FastAPI — Часть 1 / Хабр](https://habr.com/ru/articles/833720/)
 
 ### Programming languages
 
 - [ ] [[Slatkin_-_Effective_Python]], general tips to write good Python code
 - [/] [[Python]], research, re-read, adjust flashcards.
+  - [Python Debugging With Pdb – Real Python](https://realpython.com/python-debugging-pdb/ )
+  - [Traditional Face Detection Using Python – Real Python](https://realpython.com/courses/traditional-face-detection-python/ )
+  - [Refactoring Python Applications for Simplicity – Real Python](https://realpython.com/python-refactoring/ )
+  - [Python Classes: The Power of Object-Oriented Programming – Real Python]( https://realpython.com/python-classes/)
   - [Sets in Python – Real Python](https://realpython.com/python-sets/), research
     article.
   - [plan9/sys/src/cmd/cat.c - GitHub](https://github.com/0intro/plan9/blob/main/sys/src/cmd/cat.c),
@@ -160,6 +179,10 @@ To understand custom bullet list types check [[my_notation]] note.
   - [ ] Write flashcards.
 - [ ] [[C]], research note.
 - [ ] [[Go]], research note.
+- [ ] [[lua]], research note.
+- [ ] :h lua-guide
+- [ ] [Everything You Need To Start Writing Lua - YouTube](https://www.youtube.com/watch?v=CuWfgiwI73Q )
+
 
 ### Databases and SQL
 
@@ -169,11 +192,15 @@ To understand custom bullet list types check [[my_notation]] note.
 - [Database normalization - Wikipedia](https://en.m.wikipedia.org/wiki/Database_normalization )
 - [SQLModel](https://sqlmodel.tiangolo.com/learn/)
 - [Database normalization - Wikipedia](https://en.m.wikipedia.org/wiki/Database_normalization)
+- [Безумные и забавные факты о SQLite / Хабр](https://habr.com/ru/companies/ruvds/articles/873816/)
+
 
 ### Other
 
 - [ ] [Common Gateway Interface - Wikipedia](https://en.wikipedia.org/wiki/Common_Gateway_Interface).
 - [ ] [Semantic Commit Messages · GitHub](https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716)
+- [ ] [I hate Conventional Commits — musicmatzes blog](https://beyermatthias.de/i-hate-conventional-commits )
+- [Capt. Grace Hopper on Future Possibilities: Data, Hardware, Software, and People (Part One, 1982) - YouTube](https://www.youtube.com/watch?v=si9iqF5uTFk )
 - [[Git]], need to research
 - Evans How Git Works
 - [[Henry_How_to_Learn_Nix]]

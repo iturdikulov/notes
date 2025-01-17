@@ -50,6 +50,7 @@ Other ways to contact me **maybe** I'll share through email contact channel.
 ## My primary activities list
 
 - [[projects]]
+- [[learning]]
 - [[computer_programming]]
 - [[computer_science]]
 - [[computer_graphics]]
@@ -64,6 +65,7 @@ Other ways to contact me **maybe** I'll share through email contact channel.
 - [[English]]
 - [[Russian]]
 - [[digital_electronics]]
+
 - [[my_health]]
 - [[my_news]]
 - [[my_music]]

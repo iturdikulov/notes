@@ -19,6 +19,7 @@ To understand custom bullet list types check [[my_notation]] note.
 
 ## Now
 
+- [ ] Futurama. Volume 1
 
 ## Archive
 

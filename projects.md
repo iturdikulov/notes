@@ -71,6 +71,7 @@ understand custom bullet list types check [[my_notation]] note.
 - [PocketBase - Open Source backend in 1 file](https://pocketbase.io/)
 - [the morning paper - Computer Science](https://blog.acolyer.org/)
 - [Essays · Gwern.net](https://gwern.net/)
+- [tek256](https://tek256.com/faq/)
 
 ## Inbox
 

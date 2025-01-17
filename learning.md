@@ -62,6 +62,11 @@ I need spent at least 2 hours per day for learning, it's not so much, but it's
 enough to learn something new. My actual current learning list is aviable with
 `t project:learn` command ([[Taskwarrior]]).
 
+- [ ] [Effective Spaced Repetition](https://borretti.me/article/effective-spaced-repetition )
+- [ ] [Using spaced repetition for learning facts, forming habits, and re-reading quotes](https://andrewtmckenzie.com/spaced_repetition#)
+- [ ] [Copying Better: How To Acquire The Tacit Knowledge of Experts](https://commoncog.com/how-to-learn-tacit-knowledge/)
+- [ ] [[Evans_-_So_you_want_to_be_a_WizarD]]
+
 ## [The Feynman Technique: Master the Art of Learning](https://fs.blog/feynman-technique/)
 
 Some of concepts of Feynman Learning technique.
@@ -145,7 +150,7 @@ and break my barriers in software development.
 is a "clean" fundamental science, and part of many others, and I want to learn
 it better, at least on some beginner/medium level.
 
-[[physics#Physics learning path|physics]] and 
+[[physics#Physics learning path|physics]] and
 [[chemistry#Chemistry learning path|chemistry]] go after mathematics in my
 learning priority. I want to understand world better, and this fields can help
 me with it.
@@ -204,8 +209,6 @@ and favorite books in [[my_books]] note.
 
 ## External links
 
-- [ ] [Copying Better: How To Acquire The Tacit Knowledge of Experts](https://commoncog.com/how-to-learn-tacit-knowledge/)
-- [ ] [[Evans_-_So_you_want_to_be_a_WizarD]]
 
 - [[Khan_Academy]]
 

@@ -42,8 +42,8 @@ strict grouping, but I'm trying to keep it organized by priority.
 
 To understand custom bullet list types check [[my_notation]] note.
 
-- [/] [[Khan_Academy]]
 - [/] [LifeTensor - YouTube](https://www.youtube.com/@LifeTensor/videos)
+- [/] [[Khan_Academy]]
 - [Деконструкция – Математик и чёрт (рассказывает Алексей Савватеев) - YouTube](https://www.youtube.com/watch?v=DA9fuIumryg)
 - [Чудесное совпадение или ожидаемая связь: почему π²≈g / Хабр](https://habr.com/ru/articles/812903/)
 - [Закон обратных квадратов](https://photo-monster.ru/books/read/pakon-obratnyih-kvadratov.html)
@@ -52,6 +52,8 @@ To understand custom bullet list types check [[my_notation]] note.
 - [[Perelman_-_Zanimatelnaya_matematika]]
 - Курант, Роббинс: Что такое математика?
 - [[Trushin_-_Kombinatorika]]
+- [Linear Algebra](https://linear.axler.net/ )
+
 
 | Year | Title                                                                                                                           |
 | ---- | ------------------------------------------------------------------------------------------------------------------------------- |

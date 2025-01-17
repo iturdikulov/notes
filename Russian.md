@@ -24,6 +24,7 @@ sr-ease: 243
 
 ## Russian learning path
 
+- [Слово живое и мёртвое — Википедия](https://ru.wikipedia.org/wiki/%D0%A1%D0%BB%D0%BE%D0%B2%D0%BE_%D0%B6%D0%B8%D0%B2%D0%BE%D0%B5_%D0%B8_%D0%BC%D1%91%D1%80%D1%82%D0%B2%D0%BE%D0%B5)
 - [Е. И. Литневская Русский язык: краткий теоретический курс для школьников](http://gramota.ru/book/litnevskaya.php)
 - [Russian National Corpus](https://ruscorpora.ru/en)
 - [gramota.ru book](http://gramota.ru/book/litnevskaya.php)
