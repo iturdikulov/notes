@@ -2,5 +2,4 @@
 img/
 !books/
 node_modules/
-!inbox_mobile.md
-!inbox_tablet.md
+!inbox.md
