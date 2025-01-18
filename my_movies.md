@@ -61,6 +61,7 @@ To understand custom bullet list types check [[my_notation]] note.
 
 ## Inbox
 
+- [ ] Аннигиляция
 - [ ] Джентльмены
 - [ ] Однажды, двадцать лет спустя (1980)
 - [ ] [Тихое место фильм, 2018](https://www.kinopoisk.ru/film/1044906/?utm_referrer=www.google.com))

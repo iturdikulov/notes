@@ -138,7 +138,9 @@ Additional Skills:
 
 - [ ] [Backend Developer Roadmap](https://roadmap.sh/backend).
 - [[Abelson_and_Sussman_-_SICP|SICP]]
+- How to Design Programs. Как проектировать программы: Фелляйзен, Финдлер, Флэтт
 - [!] [[Stolyarov_-_Azy_programmirovaniya\|Столяров - Азы программирования]]
+- [ ] [Техносфера - Мир программирования](https://www.technosphera.ru/lib/8)
 - [ ] cs50py (mainly to be more familiar with Engish voculary)
 - [Programming Bottom-Up](https://www.paulgraham.com/progbot.html)
 - loop
@@ -158,18 +160,22 @@ Additional Skills:
 - Evans, float numbers book init
 - Immediately Invoked Function Expressions (IIFE)
 - [How to Convert from Binary to Decimal: 2 Simple Ways](https://www.wikihow.com/Convert-from-Binary-to-Decimal )
+- [Обобщённое программирование — Википедия](https://ru.wikipedia.org/wiki/%D0%9E%D0%B1%D0%BE%D0%B1%D1%89%D1%91%D0%BD%D0%BD%D0%BE%D0%B5_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5)
 
+### Projects to learn, frameworks, libraries, software
 
-### Projects to learn, frameworks, libraries
+- [Modified Preorder Tree Traversal](https://gist.github.com/tmilos/f2f999b5839e2d42d751)
+- [Как хранить в БД древовидные структуры](https://github.com/codedokode/pasta/blob/master/db/trees.md)
 
 - [Scripts to import data into blender for use with testing/benchmarking renderers](https://github.com/aclysma/rendering-demo-scenes)
 - [/] codecrafters-shell_python at [Build your own Shell](https://app.codecrafters.io/courses/shell/introduction).
   - [ ] Move into [[Bash]] and document it.
+- Complete Intro to React.
+- [From 0 to Production - The Modern React Tutorial (RSCs, Next.js, Shadui, Drizzle, TS and more) - YouTube](https://www.youtube.com/watch?v=d5x0JCZbAJs)
 - [Advent of Code 2024](https://adventofcode.com/2024) - intersting challenge.
   - [AOC: What would you say are the minimal skills for beginners?](https://www.reddit.com/r/adventofcode/comments/7kd8jt/comment/dre0uu3/),
     research article.
 - [Writing a simple JSON parser | notes.eatonphil.com](https://notes.eatonphil.com/writing-a-simple-json-parser.html)
-- [ ] Complete Intro to React.
 - [Thinking in React]( https://react.dev/learn/thinking-in-react)
 - [ ] [Build your own Interpreter](https://app.codecrafters.io/courses/interpreter/introduction)
   with [[Python]] and Crafting Interpreters book.
@@ -188,11 +194,13 @@ Additional Skills:
 - [Гайд по межсетевому экранированию (nftables)](https://habr.com/ru/articles/684524/))
 - [/] [[asyncio]] - research note.
 - [Как выполнять скрейпинг LinkedIn — полное руководство (обновлено в 2025 г.)]( https://ru-brightdata.com/blog/how-tos-ru/linkedin-scraping-guide)
+- [How to Scrape LinkedIn & 7 Best LinkedIn Scrapers ['25]](https://research.aimultiple.com/linkedin-scrapers/)
 - [PageDot - Визуальная админка для Сайты](https://pagedot.ru/)
 - [A simple two column CSS grid | Simon Willison’s TILs](https://til.simonwillison.net/css/simple-two-column-grid)
 - [Python Module Dependency graphs](https://github.com/thebjorn/pydeps)
 - [An Introduction to VisiData — An Introduction to VisiData](https://jsvine.github.io/intro-to-visidata/ )
 - [Simple.css is a CSS template that allows you to make a good looking website really quickly.](https://github.com/kevquirk/simple.css)
+- [Сборка Django-приложения при помощи Nuitka в onefile / Хабр](https://habr.com/ru/companies/astralinux/articles/872510/)
 
 - [FastAPI](https://fastapi.tiangolo.com/learn/)
   - [[Pydantic]]
@@ -207,6 +215,12 @@ Additional Skills:
 - [PathPicker accepts a wide range of input -- output from git commands, grep results, searches -- pretty much anything. After parsing the input, PathPicker presents you with a nice UI to select which files you're interested in. After that you can open them in your favorite editor or execute arbitrary commands.](https://github.com/facebook/PathPicker)
 - [WireGuard in NetworkManager – Thomas Haller's Blog](https://blogs.gnome.org/thaller/2019/03/15/wireguard-in-networkmanager/ )
 - [libfaketime modifies the system time for a single application](https://github.com/wolfcw/libfaketime/)
+- [Удобная схема временного чата на PHP (шпаргалка) — Admin — Форум](https://www.linux.org.ru/forum/admin/17834631?lastmod=0)
+- [EasyEffects не нужно, или PipeWire для продвинутых: часть 1 — Desktop — Статьи](https://www.linux.org.ru/articles/desktop/17829071)
+
+- [ ] [How to use Celery Pytest Fixtures ](https://medium.com/@scythargon/how-to-use-celery-pytest-fixtures-for-celery-intergration-testing-6d61c91775d9)
+- [ ] [python - Celery: log each task run to its own file? - Stack Overflow](https://stackoverflow.com/questions/25281612/celery-log-each-task-run-to-its-own-file)
+- [ ] [First Steps with Celery — Celery 5.4.0 documentation](https://docs.celeryq.dev/en/stable/getting-started/first-steps-with-celery.html)
 
 ### Architecture, patterns
 
@@ -246,6 +260,8 @@ Additional Skills:
 - [/] [[JavaScript]] note research.
 - [[Ramalho_-_Fluent_Python]]
   - [ ] Write flashcards.
+- [ ] [Собрал в одном большом гайде всё, что хотел бы знать, когда изучал язык C / Хабр](https://habr.com/ru/companies/ncloudtech/articles/871748/)
+- [ ] [[Rust]], research note.
 - [ ] [[C]], research note.
 - [ ] [[Go]], research note.
 - [ ] [[lua]], research note.
@@ -254,6 +270,7 @@ Additional Skills:
 
 ### Databases and SQL
 
+- [SQL Squid Game](https://datalemur.com/sql-game)
 - [SQLite: How it works, by Richard Hipp - YouTube](https://www.youtube.com/watch?v=ZSKLA81tBis)
 - [/] [PostgreSQL Tutorial](https://neon.tech/postgresql/tutorial).
 - [[SQL]], research
@@ -265,9 +282,11 @@ Additional Skills:
 
 ### Other
 
+- [ ] [ByteByteGo - YouTube](https://www.youtube.com/@ByteByteGo/videos)
 - [ ] [Common Gateway Interface - Wikipedia](https://en.wikipedia.org/wiki/Common_Gateway_Interface).
 - [ ] [Semantic Commit Messages · GitHub](https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716)
 - [ ] [I hate Conventional Commits — musicmatzes blog](https://beyermatthias.de/i-hate-conventional-commits )
+- [ ] [How I Automated My Job Application Process. (Part 1)](https://blog.daviddodda.com/how-i-automated-my-job-application-process-part-1)
 - [Capt. Grace Hopper on Future Possibilities: Data, Hardware, Software, and People (Part One, 1982) - YouTube](https://www.youtube.com/watch?v=si9iqF5uTFk )
 - [[Git]], need to research
 - Evans How Git Works
@@ -357,8 +376,6 @@ Additional Skills:
 - [ ] Review [[software_testing]] note
 - [ ] [Getting Started With Testing in Python – Real Python](https://realpython.com/python-testing/#writing-integration-tests)
 - [ ] [Using Testcontainers with Pytest: Isolate Data for Effective Testing](https://qxf2.com/blog/using-testcontainers-with-pytest/)
-- [ ] [How to use Celery Pytest Fixtures ](https://medium.com/@scythargon/how-to-use-celery-pytest-fixtures-for-celery-intergration-testing-6d61c91775d9)
-- [ ] [First Steps with Celery — Celery 5.4.0 documentation](https://docs.celeryq.dev/en/stable/getting-started/first-steps-with-celery.html)
 
 #### Developer tools
 
@@ -392,6 +409,7 @@ Additional Skills:
 - [[Docker]], research a topic, add info from [Multi-stage](https://docs.docker.com/build/building/multi-stage/)
 - [How To Deploy A Docker Image To A Server Using GitHub Actions](https://www.programonaut.com/how-to-deploy-a-docker-image-to-a-server-using-github-actions/)
 - [[Linux_community_-_Submitting_patches|submit patches]] in right way.
+- [Introduction · Linux Inside](https://0xax.gitbooks.io/linux-insides/content/)
 - [Bash Debugging Hub](https://sentry.io/answers/bash)
 - [Advanced Bash-Scripting Guide RUS](https://www.opennet.ru/docs/RUS/bash_scripting_guide/)
 - [Vim Tips I Wish I Knew Earlier - YouTube](https://www.youtube.com/watch?v=5BU2gBOe9RU)

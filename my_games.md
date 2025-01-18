@@ -139,10 +139,15 @@ To understand custom bullet list types check [[my_notation]] note.
 
 ## Development & software
 
+- [ ] [[Godot]]
 - [ ] [Game Development](https://develop.games/)
 - [ ] [ASCII графика и PIXEL арт на Python - YouTube](https://www.youtube.com/watch?v=ww55ublLFq8)
 - [ ] [Red Blob Games](https://www.redblobgames.com/)
 - [ ] [t3ssel8r - YouTube](https://www.youtube.com/@t3ssel8r/videos)
+- [ ] [Learn Bevy Engine 0.10 Beginner Tutorial Series - YouTube](https://www.youtube.com/playlist?list=PLVnntJRoP85JHGX7rGDu6LaF3fmDDbqyd)
+- [ ] [bevy_sponza_scene: Sponza](https://github.com/DGriffin91/bevy_sponza_scene)
+- [ ] [Bevy & Rust Star Wars Scene - How it Works - YouTube](https://www.youtube.com/watch?v=jnyOkcn0_KI)
+- [ ] [Starting a new 2d platformer with ECS - YouTube](https://www.youtube.com/watch?v=gjeEYntkvoY)
 - [[Muratori_-_Handmade_hero]]
 - [[lineage_2_tools]]
 - [[L2bot]]
