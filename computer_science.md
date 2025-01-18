@@ -47,6 +47,7 @@ To understand custom bullet list types check [[my_notation]] note.
   1 and 2), and I want to go through it again.
 - [[Cormen_et_al_-_Introduction_to_algorithms]], read and take notes.
 - [[LeetCode]] - research and solve problems.
+- [ ] [Understanding the formal definition of Big-O](https://justin.abrah.ms/computer-science/understanding-big-o-formal-definition.html )
 - [ ] Flake - The computational beauty of nature
 - [ ] [[Cormen_-_Algorithms_unlocked]]
 

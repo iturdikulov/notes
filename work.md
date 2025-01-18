@@ -81,6 +81,7 @@ I also use various [[my_awesome_software_list|software]] and
 
 ## External links
 
+- [xmoonlight: Как узнать стоимость вёрстки шаблона при его создании?](https://sitecoder.blogspot.com/2017/05/website-template-price-calculation.html)
 - [salomonelli/best-resume-ever](https://github.com/salomonelli/best-resume-ever)
 - [Upwork](https://www.upwork.com/)
 - [Freelancer](https://www.freelancer.com/)

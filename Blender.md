@@ -385,7 +385,10 @@ _[Blender Hotkey Cheat Sheet](https://cgcookie.com/downloads/blender-hotkey-chea
 
 ## Tutorials
 
+- [ ] [How to Create 3D Terrain with Google Maps and Blender! - YouTube](https://www.youtube.com/watch?v=Mj7Z1P2hUWk )
 - [ ] [Creating Realistic 3d Pencil model in Blender Tutorial](https://www.youtube.com/watch?v=dq7qUVHnN0M)
+- [ ] [Part 1: Ball Tube Slide - Satisfying Animation Loop (Blender Tutorial) - YouTube](https://www.youtube.com/watch?v=sWPXIgIL1dM)
+- [ ] [Blender Tutorial: Hologram - YouTube](https://www.youtube.com/watch?v=0OsgS2JpM8k)
 
 - [ ] [Tutorial: Quick Smooth Camera Movements in Blender - YouTube](https://www.youtube.com/watch?v=a7qyW1G350g)
 - [ ] [Beginner Modelling Chair Tutorial - YouTube](https://www.youtube.com/playlist?list=PLjEaoINr3zgEL9UjPTLWQhLFAK7wVaRMR)

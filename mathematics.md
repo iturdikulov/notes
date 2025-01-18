@@ -84,6 +84,7 @@ To understand custom bullet list types check [[my_notation]] note.
 
 Theory and Interactive:
 
+- [Fast inverse square root - Wikipedia](https://en.wikipedia.org/w/index.php?title=Fast_inverse_square_root )
 - [[multiplication_table|Multiplication table]]
 - [Math Games](https://www.mathsisfun.com/games/index.html)
 - [GeoGebra](https://www.geogebra.org/)

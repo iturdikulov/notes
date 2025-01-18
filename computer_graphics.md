@@ -42,6 +42,8 @@ To understand custom bullet list types check [[my_notation]] note.
 - [[computer_graphics]]
 - [Introduction to Computer Graphics](https://www.youtube.com/playlist?list=PLplnkTzzqsZTfYh4UbhLGpI5kGd5oW_Hh)
 - [!] [Ten Minute Physics](https://matthias-research.github.io/pages/tenMinutePhysics/)
+- [Mavor's Rants: Total Annihilation Graphics Engine](https://mavorsrants.blogspot.com/2012/04/total-annihilation-graphics-engine.html)
+
 
 ### Demo projects
 

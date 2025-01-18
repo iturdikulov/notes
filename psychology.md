@@ -92,6 +92,8 @@ Methods of relaxation:
 - [ ] [[Laozi_-_Tao_Te_Ching]]
 - [ ] [[Sonmez_-_Soft_skills]]
 - [ ] [[Clear_-_Atomic_Habbits]]
+- [ ] [5X Your BRAIN CELLS - YouTube](https://www.youtube.com/watch?v=lSwHXE9LohA)
+- [ ] [Stoicism: 10 LESSONS Men Learn Too Late In LIFE (Might Hurt Your Feelings) - YouTube](https://www.youtube.com/watch?v=CrhJBvGgwpg)
 
 [^1]: [Techniques for dealing with lack of motivation, malaise,
     depression](file:///home/inom/Science/psychology/Blow-Dealing_with_depression/Blow-Dealing_with_depression_i7kh8pNRWOo.mp4),

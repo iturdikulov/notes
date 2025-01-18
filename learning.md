@@ -62,10 +62,12 @@ I need spent at least 2 hours per day for learning, it's not so much, but it's
 enough to learn something new. My actual current learning list is aviable with
 `t project:learn` command ([[Taskwarrior]]).
 
+- [ ] [20 rules of knowledge formulation - supermemo.guru](https://supermemo.guru/wiki/20_rules_of_knowledge_formulation)
 - [ ] [Effective Spaced Repetition](https://borretti.me/article/effective-spaced-repetition )
 - [ ] [Using spaced repetition for learning facts, forming habits, and re-reading quotes](https://andrewtmckenzie.com/spaced_repetition#)
 - [ ] [Copying Better: How To Acquire The Tacit Knowledge of Experts](https://commoncog.com/how-to-learn-tacit-knowledge/)
 - [ ] [[Evans_-_So_you_want_to_be_a_WizarD]]
+- [ ] [[Syd_-_GTD_with_taskwarrior]]
 
 ## [The Feynman Technique: Master the Art of Learning](https://fs.blog/feynman-technique/)
 

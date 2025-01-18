@@ -94,6 +94,7 @@ To understand custom bullet list types check [[my_notation]] note.
 - [Programming Bottom-Up](https://www.paulgraham.com/progbot.html)
 - loop
 - [[conditional]]
+- [[round-robin_scheduling]]
 - pseudoterminal
 - Virtual memory
 - Cryptography
@@ -106,14 +107,19 @@ To understand custom bullet list types check [[my_notation]] note.
 - Mutex
 - Semaphore
 - Evans, float numbers book init
+- Immediately Invoked Function Expressions (IIFE)
+- [How to Convert from Binary to Decimal: 2 Simple Ways](https://www.wikihow.com/Convert-from-Binary-to-Decimal )
+
 
 ### Projects to learn, frameworks, libraries
 
+- [Scripts to import data into blender for use with testing/benchmarking renderers](https://github.com/aclysma/rendering-demo-scenes)
 - [/] codecrafters-shell_python at [Build your own Shell](https://app.codecrafters.io/courses/shell/introduction).
   - [ ] Move into [[Bash]] and document it.
 - [Advent of Code 2024](https://adventofcode.com/2024) - intersting challenge.
-- [AOC: What would you say are the minimal skills for beginners?](https://www.reddit.com/r/adventofcode/comments/7kd8jt/comment/dre0uu3/),
-  research article.
+  - [AOC: What would you say are the minimal skills for beginners?](https://www.reddit.com/r/adventofcode/comments/7kd8jt/comment/dre0uu3/),
+    research article.
+- [Writing a simple JSON parser | notes.eatonphil.com](https://notes.eatonphil.com/writing-a-simple-json-parser.html)
 - [ ] Complete Intro to React.
 - [Thinking in React]( https://react.dev/learn/thinking-in-react)
 - [ ] [Build your own Interpreter](https://app.codecrafters.io/courses/interpreter/introduction)
@@ -125,11 +131,19 @@ To understand custom bullet list types check [[my_notation]] note.
 - [ ] [LLVM Tutorial](https://llvm.org/docs/tutorial/)
 - [JavaScript on Exercism](https://exercism.org/tracks/javascript) - learn
   [[JavaScript]] with practical lessons.
+- initialize FastAPI note, [Learn - FastAPI](https://fastapi.tiangolo.com/learn/)
 - [Debounce на примере формы поиска — JavaScript — Дока](https://doka.guide/js/debounce/ )
 - [Большой гайд по миграциям в Django: готовимся к миграциям и избегаем конфликтов / Хабр](https://habr.com/ru/companies/idaproject/articles/861386/)
 - [Превращаем любой фреймворк в FastAPI. На прицеле Flask / Habr](https://habr.com/en/articles/748618/)
+- [GitHub - vishyarjun/rate_limiter_fastapi: API Rate Limiter built in FastAPI Python Framework](https://github.com/vishyarjun/rate_limiter_fastapi )
 - [Гайд по межсетевому экранированию (nftables)](https://habr.com/ru/articles/684524/))
 - [/] [[asyncio]] - research note.
+- [Как выполнять скрейпинг LinkedIn — полное руководство (обновлено в 2025 г.)]( https://ru-brightdata.com/blog/how-tos-ru/linkedin-scraping-guide)
+- [PageDot - Визуальная админка для Сайты](https://pagedot.ru/)
+- [A simple two column CSS grid | Simon Willison’s TILs](https://til.simonwillison.net/css/simple-two-column-grid)
+- [Python Module Dependency graphs](https://github.com/thebjorn/pydeps)
+- [An Introduction to VisiData — An Introduction to VisiData](https://jsvine.github.io/intro-to-visidata/ )
+- [Simple.css is a CSS template that allows you to make a good looking website really quickly.](https://github.com/kevquirk/simple.css)
 
 - [FastAPI](https://fastapi.tiangolo.com/learn/)
   - [[Pydantic]]
@@ -140,6 +154,10 @@ To understand custom bullet list types check [[my_notation]] note.
 - [Novice Nix: Flake Templates · peppe.rs](https://oppi.li/posts/novice_nix:_flake_templates/ )
 - [Бэкендеры | Вызов Хабр Карьеры и Хекслета](https://drive.google.com/drive/folders/1iW5Fgax0A1DTjt6URUhKYBoZ1A-AAZpZ)
 - [TIC-80 is a fantasy computer for making, playing and sharing tiny games.](https://github.com/nesbox/TIC-80 )
+
+- [PathPicker accepts a wide range of input -- output from git commands, grep results, searches -- pretty much anything. After parsing the input, PathPicker presents you with a nice UI to select which files you're interested in. After that you can open them in your favorite editor or execute arbitrary commands.](https://github.com/facebook/PathPicker)
+- [WireGuard in NetworkManager – Thomas Haller's Blog](https://blogs.gnome.org/thaller/2019/03/15/wireguard-in-networkmanager/ )
+- [libfaketime modifies the system time for a single application](https://github.com/wolfcw/libfaketime/)
 
 ### Architecture, patterns
 
@@ -173,6 +191,8 @@ To understand custom bullet list types check [[my_notation]] note.
   - [Set Difference Python: Intersection, union and difference of Sets in Python. - DEV Community](https://dev.to/svinci/intersection-union-and-difference-of-sets-in-python-4gkn)
   - [Think Python — Think Python](https://allendowney.github.io/ThinkPython/)
   - [CPython's Garbage Collector and its Impact on Application Performance](https://blog.codingconfessions.com/p/connecting-cpythons-gc-internals)
+  - [python - Meaning of @classmethod and @staticmethod](https://stackoverflow.com/questions/12179271/meaning-of-classmethod-and-staticmethod-for-beginner)
+  - [Thoughts On @staticmethod Usage In Python - Julius Seporaitis](https://www.seporaitis.net/posts/2020/05/05/python-staticmethod-usage/)
 
 - [/] [[JavaScript]] note research.
 - [[Ramalho_-_Fluent_Python]]
@@ -183,9 +203,9 @@ To understand custom bullet list types check [[my_notation]] note.
 - [ ] :h lua-guide
 - [ ] [Everything You Need To Start Writing Lua - YouTube](https://www.youtube.com/watch?v=CuWfgiwI73Q )
 
-
 ### Databases and SQL
 
+- [SQLite: How it works, by Richard Hipp - YouTube](https://www.youtube.com/watch?v=ZSKLA81tBis)
 - [/] [PostgreSQL Tutorial](https://neon.tech/postgresql/tutorial).
 - [[SQL]], research
 - [/] [[Forta_-_SQL_za_10_minut]]
@@ -193,7 +213,6 @@ To understand custom bullet list types check [[my_notation]] note.
 - [SQLModel](https://sqlmodel.tiangolo.com/learn/)
 - [Database normalization - Wikipedia](https://en.m.wikipedia.org/wiki/Database_normalization)
 - [Безумные и забавные факты о SQLite / Хабр](https://habr.com/ru/companies/ruvds/articles/873816/)
-
 
 ### Other
 
@@ -204,6 +223,9 @@ To understand custom bullet list types check [[my_notation]] note.
 - [[Git]], need to research
 - Evans How Git Works
 - [[Henry_How_to_Learn_Nix]]
+- [Архитектура микропроцессоров и изоляция уровней исполнения](https://dxdt.ru/2024/03/29/12651/)
+
+- Competitive Programmer’s Handbook
 
 ## Inbox
 
@@ -310,20 +332,21 @@ To understand custom bullet list types check [[my_notation]] note.
 - [ ] [Table of Contents - Practical Python Projects](https://practicalpython.yasoob.me/toc#)
 - [ ] Decomposition of [igorbenav/FastAPI-boilerplate](https://github.com/igorbenav/FastAPI-boilerplate)
 - [ ] [HTTPX](https://www.python-httpx.org/quickstart/)
+- [Website monitoring | Grafana Labs](https://grafana.com/grafana/dashboards/13041-website-monitoring/)
+- HTMX and Go, ThePrimeagen
 
 ### Other
 
-- initialize FastAPI note, [Learn - FastAPI](https://fastapi.tiangolo.com/learn/)
 - [Python Packaging User Guide](https://packaging.python.org/en/latest/)
 - [Learn - SQLModel](https://sqlmodel.tiangolo.com/learn/)
 - [[aio-pika_Community_-_rabbitmq_tutorial]], research a topic
 - [[Docker]], research a topic, add info from [Multi-stage](https://docs.docker.com/build/building/multi-stage/)
 - [How To Deploy A Docker Image To A Server Using GitHub Actions](https://www.programonaut.com/how-to-deploy-a-docker-image-to-a-server-using-github-actions/)
-
+- [[Linux_community_-_Submitting_patches|submit patches]] in right way.
 - [Bash Debugging Hub](https://sentry.io/answers/bash)
 - [Advanced Bash-Scripting Guide RUS](https://www.opennet.ru/docs/RUS/bash_scripting_guide/)
 - [Vim Tips I Wish I Knew Earlier - YouTube](https://www.youtube.com/watch?v=5BU2gBOe9RU)
-
+- [Kunzelma Wiki](https://wiki.kunzelma.de/)
 
 - [Как подружить веб-компоненты и JS-фреймворки / Хабр](https://habr.com/ru/companies/sberbank/articles/834998/)
 - [goldbergyoni/nodebestpractices](https://github.com/goldbergyoni/nodebestpractices/blob/master/README.russian.md)
@@ -399,7 +422,6 @@ To understand custom bullet list types check [[my_notation]] note.
 - [python-patterns](https://github.com/faif/python-patterns)
 - [Python Wiki](https://wiki.python.org/moin/)
 - [Neural networks](https://stepik.org/course/50352/promo)
-- [python - Meaning of @classmethod and @staticmethod](https://stackoverflow.com/questions/12179271/meaning-of-classmethod-and-staticmethod-for-beginner)
 
 Web Frameworks:
 
@@ -553,7 +575,6 @@ Rust:
 Code organization and version control, code quality:
 
 - [organize large projects](https://www.reddit.com/r/learnpython/comments/mxwdpj/are_there_any_books_or_videos_that_describe_how/)
-- [[Linux_community_-_Submitting_patches|submit patches]] in right way.
 - [[Chacon_and_Ben_-_Pro_git]]
 - [[Martin_Fowler_-_Refactoring]]
 

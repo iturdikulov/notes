@@ -39,7 +39,11 @@ To understand custom bullet list types check [[my_notation]] note.
 
 ### Now
 
-- [[vim_base_keybindings]]
+- [ ] [[vim_base_keybindings]]
+- [ ] [My neovim autocomplete setup: explained - YouTube](https://www.youtube.com/watch?v=22mrSjknDHI)
+- [ ] [Vim Dadbod - My Favorite SQL Plugin - YouTube](https://www.youtube.com/watch?v=ALGBuFLzDSA)
+- [ ] [simple neovim debugging setup (in 10 minutes) - YouTube](https://www.youtube.com/watch?v=lyNfnI-B640)
+- [ ] [Magically format embedded languages in Neovim - YouTube](https://www.youtube.com/watch?v=v3o9YaHBM4Q)
 - [ ] [[Neovim]], research a topic
 - [ ] [How to Do 90% of What Plugins Do (With Just Vim)](https://www.youtube.com/watch?v=XA2WjJbmmoM)
 - [ ] ![Vim cheatsheet](Vim_Cheat_Sheet_for_Programmers.pdf), check and practice
@@ -48,6 +52,7 @@ To understand custom bullet list types check [[my_notation]] note.
 - [ ] [Interactive Vim tutorial](http://www.openvim.com/)
 - [ ] [[Neil_-_Practical_Vim]]
 - [ ] [[Neil_-_Modern_Vim]]
+- [ ] [Neovim as a LaTex Development Environment](https://blog.epheme.re/software/nvim-latex.html )
 
 ### Inbox
 
@@ -55,6 +60,7 @@ To understand custom bullet list types check [[my_notation]] note.
 - [Vim Tips Wiki](https://vim.fandom.com/wiki/Vim_Tips_Wiki)
 - [Изучаем Vim - YouTube](https://www.youtube.com/playlist?list=PLcjongJGYetkY4RFSVftH43F91vgzqB7U)
 
+- [ ] [Vim Tips I Wish I Knew Earlier - YouTube](https://www.youtube.com/watch?v=5BU2gBOe9RU)
 - [ ] [Resolve Git Merge Conflicts with Neovim and Fugitive! - YouTube](https://www.youtube.com/watch?v=vpwJ7fqD1CE)
 - [ ] [Harpoon : Vim Conference 2021 - YouTube](https://youtu.be/Qnos8aApa9g)
 - [ ] [Learning Vim and Vimscript](https://github.com/iggredible/Learn-Vim)

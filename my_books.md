@@ -57,6 +57,12 @@ If you have book recommendations for me, please
 [create a Pull Request](https://github.com/iturdikulov/notes/edit/main/my_fiction_books.md)
 adding a link at the end of [[#Inbox]] section.
 
+- [Обломов (роман) — Википедия](https://ru.wikipedia.org/wiki/%D0%9E%D0%B1%D0%BB%D0%BE%D0%BC%D0%BE%D0%B2_(%D1%80%D0%BE%D0%BC%D0%B0%D0%BD))
+- [Повесть о том, как один мужик двух генералов прокормил — Википедия](https://ru.wikipedia.org/wiki/%D0%9F%D0%BE%D0%B2%D0%B5%D1%81%D1%82%D1%8C_%D0%BE_%D1%82%D0%BE%D0%BC,_%D0%BA%D0%B0%D0%BA_%D0%BE%D0%B4%D0%B8%D0%BD_%D0%BC%D1%83%D0%B6%D0%B8%D0%BA_%D0%B4%D0%B2%D1%83%D1%85_%D0%B3%D0%B5%D0%BD%D0%B5%D1%80%D0%B0%D0%BB%D0%BE%D0%B2_%D0%BF%D1%80%D0%BE%D0%BA%D0%BE%D1%80%D0%BC%D0%B8%D0%BB)
+- [Мастер и Маргарита — Википедия](https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D1%81%D1%82%D0%B5%D1%80_%D0%B8_%D0%9C%D0%B0%D1%80%D0%B3%D0%B0%D1%80%D0%B8%D1%82%D0%B0)
+- [Собачье сердце — Википедия](https://ru.wikipedia.org/wiki/%D0%A1%D0%BE%D0%B1%D0%B0%D1%87%D1%8C%D0%B5_%D1%81%D0%B5%D1%80%D0%B4%D1%86%D0%B5)
+- [Божественная комедия — Википедия](https://ru.wikipedia.org/wiki/%D0%91%D0%BE%D0%B6%D0%B5%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F_%D0%BA%D0%BE%D0%BC%D0%B5%D0%B4%D0%B8%D1%8F)
+
 - [[Batchelder_-_Getting_started_testing]]
 - Okken - python testing with pytest
 - [[Hillard_-_testing_with_pytest]]
@@ -199,7 +205,6 @@ adding a link at the end of [[#Inbox]] section.
 - Mother Night
 - All Quiet on the Western Front
 - На Западном фронте без перемен
-- Божественная комедия. Данте Алигьери
 - Приключения шерлока холмса
 - Война и мир
 - Цветы для элжерона
