@@ -46,6 +46,9 @@ English](https://docs.godotengine.org/en/stable/about/list_of_features.html).
 
 ## Inbox
 
+- [Picster - YouTube](https://www.youtube.com/@picster/videos)
+- [Redwood MMO template](https://redwoodmmo.com/docs/getting-started/overview)
+- [GitHub - TokisanGames/Terrain3D: A high performance, editable terrain system for Godot 4.](https://github.com/TokisanGames/Terrain3D)
 - [Godot 4: 3D Pixel Art - YouTube](https://www.youtube.com/watch?v=Mg_V27arKdg)
 - [Tutemic - YouTube](https://www.youtube.com/@tutemic/videos)
 - [Crigz Vs Game Dev - YouTube](https://www.youtube.com/@crigz/videos)

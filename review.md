@@ -16,7 +16,7 @@ sr-ease: 229
 >
 > Reviews can apply to a [[my_movies|movie]] (a movie review), video
 > [[my_games|games]](video game review), [[my_music|musical]] composition (music
-> review of a composition or recording), [[my_books|books]](book review);
+> review of a composition or recording), [[my_literature|books]](book review);
 a piece of hardware like a car, [[life|home]] appliance,
 > or computer; or [[my_awesome_software_list|software]] such as business
 > software, sales software; or an event or performance, such as a live music

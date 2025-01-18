@@ -9,7 +9,7 @@ sr-ease: 270
 
 # KOReader
 
-> A [[my_books|e-book]] reader application supporting
+> A [[my_literature|e-book]] reader application supporting
 > [[PDF]], DjVu, EPUB, FB2 and many more formats,
 > running on Cervantes, **Kindle**, Kobo, PocketBook and Android devices.\
 > — <cite>[KOReader](http://koreader.rocks/)</cite>

@@ -66,6 +66,8 @@ To understand custom bullet list types check [[my_notation]] note.
 - [/] [[my_sketchbook|Sketchbook]]
 - [/] [[30_day_drawing_challenge|Drawing Challenge]]
 - [/] [[Loomis_-_Fun_with_a_pencil|Loomis book]]
+- Make https://aleeodom.wordpress.com/wp-content/uploads/2010/10/gradient.png,
+  Gimp, Inkscape, Krita, Hand-drawn.
 - [[Drawbox_community_-_Drawbox|Taking fundamental drawing exercises]].
 - [[Prokopenko_-_Figure_drawing_fundamentals]]
 - [[my_handwriting]]

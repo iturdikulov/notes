@@ -207,7 +207,7 @@ provides many opportunities to create something beautiful.
 I organize all **my** art related stuff in [[art]] note.
 
 For [[literature]] is great solution to fun and relax. I collect my reading list
-and favorite books in [[my_books]] note.
+and favorite books in [[my_literature]] note.
 
 ## External links
 

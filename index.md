@@ -69,7 +69,7 @@ Other ways to contact me **maybe** I'll share through email contact channel.
 - [[my_health]]
 - [[my_news]]
 - [[my_music]]
-- [[my_books]]
+- [[my_literature]]
 - [[my_videos]]
 - [[my_movies]]
 - [[my_pictures]]

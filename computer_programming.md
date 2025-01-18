@@ -89,6 +89,7 @@ To understand custom bullet list types check [[my_notation]] note.
 ### Foundations
 
 - [ ] [Backend Developer Roadmap](https://roadmap.sh/backend).
+- [[Abelson_and_Sussman_-_SICP|SICP]]
 - [!] [[Stolyarov_-_Azy_programmirovaniya\|Столяров - Азы программирования]]
 - [ ] cs50py (mainly to be more familiar with Engish voculary)
 - [Programming Bottom-Up](https://www.paulgraham.com/progbot.html)
@@ -592,7 +593,6 @@ Other:
 Code Camp 2019 - YouTube](https://www.youtube.com/watch?v=mCM6QVHD08c)
 - [[Kernighan_and_Plauger_-_The_elements_of_programming_style]]
 - [[Kernighan_and_Pike_-_The_practice_of_programming]]
-- [[Abelson_and_Sussman_-_SICP|SICP]]
 
 - [Continually updated, interactive, and test-driven coding challenges, with Anki flashcards.](https://github.com/donnemartin/interactive-coding-challenges)
 - [karan/Projects: A list of practical projects that anyone can solve in any programming language.](https://github.com/karan/Projects)
