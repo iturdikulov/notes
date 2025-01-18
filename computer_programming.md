@@ -3,6 +3,7 @@ date: 2023-03-12T00:00+03:00
 tags:
   - blog
   - base
+  - bridge
 ---
 
 # Computer programming
