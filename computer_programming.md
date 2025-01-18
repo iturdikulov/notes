@@ -81,6 +81,54 @@ Programming lerning path is closely related to
 
 To understand custom bullet list types check [[my_notation]] note.
 
+## Career Experience Goals
+
+Programming Languages & Development:
+
+- Experimental research programming experience in Lisp, Scheme, Pascal, etc.
+- Development of complex software systems using Python, C, Go
+- Microcontroller programming (ESP32)
+- Proficiency in scripting languages: Bourne Shell, Lua
+- Reading-level understanding of Rust, Ruby, Perl
+- Experience with assembly languages.
+
+Python Ecosystem:
+
+- Python with modern asyncio, libraries and frameworks.
+- Strong focus on asynchronous programming.
+- Advanced typing system utilization (protocols, generics)
+- Experience with aiohttp, FastAPI, pytest/unittest.
+
+Software Engineering & Architecture:
+
+- Extensive experience in object-oriented analysis, design, and programming
+- Multi-paradigm programming and design
+- Extreme Programming (XP) methodology
+- Clean Architecture, DDD, SOLID principles, and OOP expertise.
+
+Databases & Infrastructure:
+
+- Relational database theory and practice, particularly PostgreSQL and SQLite
+- SQL optimization and database expert knowledge
+- Experience with Redis, ElasticCache
+- AWS services expertise (EC2, Lambda, AuroraDB, API Gateway)
+- Infrastructure as Code (Terraform).
+
+System Administration & Security:
+
+- Docker, Docker Compose, and Kubernetes practical experience
+- UNIX services configuration (sendmail, ngnix, etc.)
+- Information and network security knowledge
+- Cryptography expertise
+- Networks with firewall, VPN and routing.
+
+Additional Skills:
+
+- Web development proficiency, HTML, JavaScript, CSS, and web frameworks
+- LaTeX, Markdown proficiency and semi-professional typesetting
+- Advanced English language proficiency
+- Experience with Internet registration organizations.
+
 ### How to be programmer
 
 - [ ] [[Evans_-_So_you_want_to_be_a_WizarD]]
