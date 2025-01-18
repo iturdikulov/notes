@@ -13,14 +13,12 @@ sr-ease: 150
 
 # Taskwarrior
 
-> Taskwarrior is Free and Open Source Software that manages your TODO list from
-> the command line. It is flexible, fast, and unobtrusive. It does its job then
-> gets out of your way.\
-> — <cite>[Taskwarrior](https://taskwarrior.org/)</cite>
+Generally Taskwarrior is CLI To-Do list manager. I'm using small subset of its
+task managing features, mainly to not lose some tasks and able to track what I
+need and will do. If I'll not do it, someone or something will do it for me
+(this is usually bad).
 
-Generally Taskwarrior is CLI To-Do list manager.
-
-Some general notes available in
+Some good introductin into Taskwarrior available in
 [[Babej_-_A_dive_into_taskwarrior_ecosystem|Babej taskwarrior tutorial]].
 
 Features:

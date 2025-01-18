@@ -5,7 +5,7 @@ external:
   - https://www.youtube.com/watch?v=tijnc65soEI
 tags:
   - blog
-  - productivity
+  - SR-productivity
 sr-due: 2025-06-04
 sr-interval: 496
 sr-ease: 248
