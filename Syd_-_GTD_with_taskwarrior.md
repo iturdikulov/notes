@@ -14,10 +14,12 @@ sr-interval: 16
 sr-ease: 210
 ---
 
+# GTD with Taskwarrior
+
 A series where author show how to use taskwarrior to implement GTD. This series
 requires some knowledge of [[GTD]].
 
-# Part 1: Intro
+## Part 1: Intro
 
 [[Taskwarrior]] is very efficient list manager.
 
@@ -65,7 +67,7 @@ of IDs: `task 1,3,5 done` or `task 1-5 done`.
 NOTE: I have alias `t=task` to make it shorter, so I can run commands by `t
 ...`.
 
-# Part 2: Collection
+## Part 2: Collection
 
 Collection is a capture process. Where you can save all your incoming
 tasks, this allows free your mind from remembering all this tasks. Items in
@@ -85,7 +87,7 @@ any new task will be added to "Inbox" project.
 
 My `task add` command aliased to ==`ta`==.
 
-## Urgency
+### Urgency
 
 To add urgency to a `inbox` task, we modify its urgency coefficient. You can do
 this by putting the following line in your `~/.taskrc` file:
@@ -94,11 +96,11 @@ this by putting the following line in your `~/.taskrc` file:
 
 But usually it's can be useful with different tags (not inbox).
 
-## Inbox in terminal's prompt
+### Inbox in terminal's prompt
 
 Inbox in terminal's prompt, skipped. I think it's generate a lot of clutter.
 
-## Report
+### Report
 
 Custom report can be configured through `~/.taskrc` file.
 
@@ -115,7 +117,7 @@ To see this report, just type ==`ti` (my alias to `task in`)==. You can use
 this ad mental habit to quickly check your inbox in plain list
 representation.
 
-# Part 3: Tickling
+## Part 3: Tickling
 
 This chapter explaining how to use
 [[GTD#Tickler file|tickler file]] with Taskwarrior.
@@ -137,7 +139,7 @@ course, you can also use full dates like `2023-09-24`.
 
 To review tickle tasks use this command: ==`t +tickle all`==
 
-## Thinking it over
+### Thinking it over
 
 > Personally, I often encounter a situation where I need to think something
 > over and decide what to do with it later. This really doesn't have to end
@@ -153,7 +155,7 @@ I think it's useful, so I have this alias too.
 
     alias think='tat +1d'
 
-# Part 4: Processing
+## Part 4: Processing
 
 You usually process items following
 [[GTD#Processing|GTD processing]] workflow.
@@ -204,7 +206,7 @@ must be something that you can start doing ==**immediately**== without
 thinking about "how?", "where?" or "why?" thanks to the thought you put
 into it at this moment.
 
-## Contexts
+### Contexts
 
 How to group tasks by physical place, where are you doing tasks?
 &#10;<br>
@@ -216,7 +218,7 @@ always add at least one context tag to a task. Common context tags are
 `+@office`, `+@phone`, `+@computer`, `@shop`, ... Check more contexts
 variants in [[GTD#Contexts|GTD contexts]].
 
-## Research
+### Research
 
 Often the very next task for a project is just a lot of 'looking into
 something'. For that reason, here is the
@@ -230,7 +232,7 @@ something'. For that reason, here is the
     alias rnd='ta +rnd +@computer'
 ```
 
-## Read and review
+### Read and review
 
 Reading something later, when you know very well what it is you want to
 read is called 'read and review'. Ideally, you know exactly what you need
@@ -258,9 +260,9 @@ rnr (){
 }
 ```
 
-# Part 5: Doing
+## Part 5: Doing
 
-## Context
+### Context
 
 > The most important step in choosing what task to work on is to realize that
 > there are tasks you don't even need to consider. If you're on an airplane, and
@@ -284,7 +286,7 @@ task context home # At home
 task context work # At work
 ```
 
-## Brain power
+### Brain power
 
 Currently, I don't use this feature, but it's interesting.
 
@@ -326,7 +328,7 @@ report.next.sort            = brainpower-,priority-,urgency-
 
 This will sort the tasks on your list in a decreasing order by brainpower first.
 
-## Estimate
+### Estimate
 
 How I can organize tasks by time estimate?
 &#10;<br>
@@ -338,7 +340,7 @@ uda.estimate.type=numeric
 uda.estimate.label=Estimate
 ```
 
-## Using your UDA's
+### Using your UDA's
 
 How to create and list task with UDA (estimate)?
 &#10;<br>
