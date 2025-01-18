@@ -12,7 +12,7 @@ external/salesloop
 private/
 
 # Inbox files
-inbox_*.md
+inbox.md
 books/
 articles/
 
