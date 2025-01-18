@@ -2,7 +2,7 @@
 date: 2023-06-25T00:00+03:00
 tags:
   - blog
-  - productivity
+  - SR-productivity
 external:
   - https://taskwarrior.org/
 directory: ~/.task
@@ -20,38 +20,56 @@ sr-ease: 150
 
 Generally Taskwarrior is CLI To-Do list manager.
 
-## Features
+Some general notes available in
+[[Babej_-_A_dive_into_taskwarrior_ecosystem|Babej taskwarrior tutorial]].
+
+Features:
 
 - plain text format (avoid proprietary formats)
 - cross-platform
 - [[open-source]]
 - [[CLI]]
 - many extensions and integrations, like Taskwarrior Server and Taskwarrior TUI
-- integrations, most popular Timewarrior and Taskserver, TODO: add note/use it
+- integrations, most popular Timewarrior and Taskserver, TODO: add note/use it.
 
 ## Quickstart
 
-NEXT: convert into flashcards
+Algorithm of daily review and daily plan generator:
 
-You can run `task diagnostics` to check if everything is set up correctly.
+- Check your mood and energy level, think about 3 MIT's (most important tasks).
+- Check generated task list (`t`), ask yourself what you can do today and re-schedule
+  items if needed, I use `tm <numbers> wait:+days` custom [[Taskwarrior]]
+  command.
+- Set priorities if needed (`tm <numbers> priority:H|M|L`).
+- Pick task, work on it and complete it (`fin <numbers>`).
+
+You can execute ==`task diagnostics`== command to check if everything is set up
+correctly.
 
 Add task, need to finish tomorrow, which recurs each 10 days:
-`task add test_description due:tomorrow recur:10d`
+&#10;<br>
+`task add test_description due:tomorrow recur:10d`.
 
 Update a task's priority:
-`task task_id modify priority:H|M|L`
+&#10;<br>
+`task task_id modify priority:H|M|L`.
 
 Complete or delete a task:
-`task task_id done`, `task task_id delete`
+&#10;<br>
+`task task_id done`, `task task_id delete`.
 
-List open tasks due before the end of the week with tag `next`:
-`task list due.before:eow +next`
+List open tasks due before the end of the week with tag `inbox`:
+&#10;<br>
+`task list due.before:eow +inbox`.
 
-List all reports: `task reports`
+List all reports::`task reports`.
 
-List all projects: `task projects`
+List all projects::`task projects`.
 
-Some general notes available in Babej taskwarrior tutorial [^2].
+Create blocked task (depends on)
+&#10;<br>
+`... depends:id`. To list task which blocking everything use this command:
+`... +BLOCKING -BLOCKED`.
 
 NixOS task service provide good command to generate script, which can be used to
 import required credentials [^1]:
@@ -69,12 +87,12 @@ task init sync
 task sync
 ```
 
-Create blocked task (depends on)
-&#10;<br>
-`... depends:id`. To list task which blocking everything use this command:
-`... +BLOCKING -BLOCKED`
+## How do I use and make sense of recurrence
 
-## How do I use and make sense of recurrence [^3]
+Great information about managing recurring tasks in taskwarrior from Stack
+Exchange [^2].
+
+TODO: test.
 
 ```bash
 task add recur:<duration> due:<first task due date> until:<delete first task by date> wait:<date when task will appear> "my task"
@@ -137,8 +155,5 @@ You can expect the next occurrence to be created at the due date of the previous
 - [ ] [Taskwarrior - Best Practices](https://taskwarrior.org/docs/best-practices/)
 - [ ] [Reddit - Dive into anything](https://www.reddit.com/r/commandline/comments/ssyuzj/my_taskwarrior_workflow_the_captains_log/)
 
-## References
-
 [^1]: [Taskwarrior - Kunzelma Wiki](https://wiki.kunzelma.de/taskwarrior/)
-[^2]: [[Babej_-_A_dive_into_taskwarrior_ecosystem]]
-[^3]: [How to manage recurring tasks in taskwarrior? - Unix & Linux Stack Exchange](https://unix.stackexchange.com/a/636312)
+[^2]: [How to manage recurring tasks in taskwarrior? - Unix & Linux Stack Exchange](https://unix.stackexchange.com/a/636312)
