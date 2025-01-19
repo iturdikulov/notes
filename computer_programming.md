@@ -75,13 +75,6 @@ KISS::Keep It Simple, Stupid
 
 YAGNI::You Ain't Going to Need It
 
-## Programming learning path
-
-Programming lerning path is closely related to
-[[computer_science#Computer science learning path|computer science learning path]].
-
-To understand custom bullet list types check [[my_notation]] note.
-
 ## Career Experience Goals
 
 Programming Languages & Development:
@@ -130,17 +123,31 @@ Additional Skills:
 - Advanced English language proficiency
 - Experience with Internet registration organizations.
 
-### How to be programmer
+## Programming learning path
 
-- [ ] [[Evans_-_So_you_want_to_be_a_WizarD]]
-- [ ] [[Sonmez_-_Soft_skills]]
+Programming lerning path is closely related to
+[[computer_science#Computer science learning path|computer science learning path]].
+
+To understand custom bullet list types check [[my_notation]] note.
+
+- [/] [[Evans_-_So_you_want_to_be_a_WizarD]]
+- [/] [[Python]], research, re-read, adjust flashcards.
+- [/] [[JavaScript]] note research.
+- [/] [[Sonmez_-_Soft_skills]]
+- [/] [SQL Squid Game](https://datalemur.com/sql-game)
+- [/] [[Abelson_and_Sussman_-_SICP|SICP]]
+- [/] [[Stolyarov_-_Azy_programmirovaniya|Столяров - Азы программирования]]
+- [/] codecrafters-shell_python at [Build your own Shell](https://app.codecrafters.io/courses/shell/introduction).
+  - [ ] Move into [[Bash]] and document it.
+- [/] [[Rust]], research note.
+- [/] [[C]], research note.
+- [/] [[Go]], research note.
+- [/] [[lua]], research note.
 
 ### Foundations
 
 - [ ] [Backend Developer Roadmap](https://roadmap.sh/backend).
-- [[Abelson_and_Sussman_-_SICP|SICP]]
 - How to Design Programs. Как проектировать программы: Фелляйзен, Финдлер, Флэтт
-- [!] [[Stolyarov_-_Azy_programmirovaniya\|Столяров - Азы программирования]]
 - [ ] [Техносфера - Мир программирования](https://www.technosphera.ru/lib/8)
 - [ ] cs50py (mainly to be more familiar with Engish voculary)
 - [Programming Bottom-Up](https://www.paulgraham.com/progbot.html)
@@ -169,16 +176,12 @@ Additional Skills:
 - [Как хранить в БД древовидные структуры](https://github.com/codedokode/pasta/blob/master/db/trees.md)
 
 - [Scripts to import data into blender for use with testing/benchmarking renderers](https://github.com/aclysma/rendering-demo-scenes)
-- [/] codecrafters-shell_python at [Build your own Shell](https://app.codecrafters.io/courses/shell/introduction).
-  - [ ] Move into [[Bash]] and document it.
-- Complete Intro to React.
-- Master Modern CSS with Kevin Powell
-- [From 0 to Production - The Modern React Tutorial (RSCs, Next.js, Shadui, Drizzle, TS and more) - YouTube](https://www.youtube.com/watch?v=d5x0JCZbAJs)
+
+
 - [Advent of Code 2024](https://adventofcode.com/2024) - intersting challenge.
   - [AOC: What would you say are the minimal skills for beginners?](https://www.reddit.com/r/adventofcode/comments/7kd8jt/comment/dre0uu3/),
     research article.
 - [Writing a simple JSON parser | notes.eatonphil.com](https://notes.eatonphil.com/writing-a-simple-json-parser.html)
-- [Thinking in React]( https://react.dev/learn/thinking-in-react)
 - [ ] [Build your own Interpreter](https://app.codecrafters.io/courses/interpreter/introduction)
   with [[Python]] and Crafting Interpreters book.
   - [ ] [Welcome](https://craftinginterpreters.com/welcome.html) and prepare project.
@@ -224,6 +227,11 @@ Additional Skills:
 - [ ] [python - Celery: log each task run to its own file? - Stack Overflow](https://stackoverflow.com/questions/25281612/celery-log-each-task-run-to-its-own-file)
 - [ ] [First Steps with Celery — Celery 5.4.0 documentation](https://docs.celeryq.dev/en/stable/getting-started/first-steps-with-celery.html)
 
+- [Thinking in React](https://react.dev/learn/thinking-in-react)
+- Complete Intro to React.
+- Master Modern CSS with Kevin Powell
+- [From 0 to Production - The Modern React Tutorial (RSCs, Next.js, Shadui, Drizzle, TS and more) - YouTube](https://www.youtube.com/watch?v=d5x0JCZbAJs)
+
 ### Architecture, patterns
 
 - [x] [[12factor_app]] - methodology for building software-as-a-service.
@@ -244,7 +252,6 @@ Additional Skills:
 ### Programming languages
 
 - [ ] [[Slatkin_-_Effective_Python]], general tips to write good Python code
-- [/] [[Python]], research, re-read, adjust flashcards.
   - [Python Debugging With Pdb – Real Python](https://realpython.com/python-debugging-pdb/ )
   - [Traditional Face Detection Using Python – Real Python](https://realpython.com/courses/traditional-face-detection-python/ )
   - [Refactoring Python Applications for Simplicity – Real Python](https://realpython.com/python-refactoring/ )
@@ -259,20 +266,14 @@ Additional Skills:
   - [python - Meaning of @classmethod and @staticmethod](https://stackoverflow.com/questions/12179271/meaning-of-classmethod-and-staticmethod-for-beginner)
   - [Thoughts On @staticmethod Usage In Python - Julius Seporaitis](https://www.seporaitis.net/posts/2020/05/05/python-staticmethod-usage/)
 
-- [/] [[JavaScript]] note research.
 - [[Ramalho_-_Fluent_Python]]
   - [ ] Write flashcards.
 - [ ] [Собрал в одном большом гайде всё, что хотел бы знать, когда изучал язык C / Хабр](https://habr.com/ru/companies/ncloudtech/articles/871748/)
-- [ ] [[Rust]], research note.
-- [ ] [[C]], research note.
-- [ ] [[Go]], research note.
-- [ ] [[lua]], research note.
 - [ ] :h lua-guide
 - [ ] [Everything You Need To Start Writing Lua - YouTube](https://www.youtube.com/watch?v=CuWfgiwI73Q )
 
 ### Databases and SQL
 
-- [SQL Squid Game](https://datalemur.com/sql-game)
 - [SQLite: How it works, by Richard Hipp - YouTube](https://www.youtube.com/watch?v=ZSKLA81tBis)
 - [/] [PostgreSQL Tutorial](https://neon.tech/postgresql/tutorial).
 - [[SQL]], research
