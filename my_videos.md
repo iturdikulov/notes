@@ -11,14 +11,13 @@ sr-ease: 252
 
 # My Videos
 
-- [[mpv]] as main media viewer.
-- [[YouTube]]
-- selfhosted
-- short
-- learn, CS, gamedev, irl
-- movies
-- series
-- wtwitch
+Videos which I like to watch, watching them is a way to learn something new or
+get fun.
+
+## Watchlist
+
+- [ ] [Штерн Борис Евгеньевич  Реален ли межзвездный перелет в обозримое время - YouTube](https://www.youtube.com/watch?v=gcNVVNMc5Nc)
+- [ ] [ВСЁ, ЧТО МЫ НЕ ЗНАЛИ О СНЕ. Семихатов, Сурдин и Полуэктов. - YouTube](https://www.youtube.com/watch?v=w-XGG22_WoU)
 
 ## Inspirational videos
 
