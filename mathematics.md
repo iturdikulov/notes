@@ -59,7 +59,7 @@ To understand custom bullet list types check [[my_notation]] note.
 | ---- | ------------------------------------------------------------------------------------------------------------------------------- |
 |      | [[Perelman_-_Zanimatelnaya_matematika\|Перельман - Занимательная математика]]                                                   |
 |      | [[Trushin_-_Kombinatorika\|Трушин - Комбинаторика]]                                                                             |
-|      | [[Zajcev_and_Ryzhkov_and_Skanavi_-_Elementarnaia matematika\|Зайцев и Рыжков и Сканави - Элементарная Математика]] |
+|      | [[Zajcev_and_Ryzhkov_and_Skanavi_-_Elementarnaia_matematika\|Зайцев и Рыжков и Сканави - Элементарная Математика]] |
 
 ### Now
 
