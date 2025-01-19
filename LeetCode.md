@@ -2,6 +2,7 @@
 author: LeetCode Team
 external:
   - https://leetcode.com/
+  - https://leetcode.com/articles/
 date: 2022-12-29T00:00+03:00
 tags:
   - blog
@@ -14,13 +15,9 @@ sr-ease: 229
 
 # LeetCode
 
-[Site](https://leetcode.com/)
-
-[Articles](https://leetcode.com/articles/)
-
-CLI tool to interact with the site
-
-TODO: add more info
+> Platform to help you enhance your skills, expand your knowledge and prepare
+> for technical interviews.\
+> — <cite>[LeetCode](https://leetcode.com/)</cite>
 
 Main factors and tips to use LeetCode effectively [^1]:
 &#10;<br>
@@ -51,12 +48,24 @@ Main factors and tips to use LeetCode effectively [^1]:
   recommend starting by going through the book, even before doing LeetCode
   full-time.
 
+## Interacting with the site
+
+I'm using CLI [^2] tool to interact with the site. Basic workflow:
+
+```sh
+leetcode list
+leetcode pick 1
+leetcode edit 1
+leetcode test 1
+leetcode exec 1
+```
+
 ## Alternatives
 
 - [Project Euler](https://projecteuler.net/)
 - [Codewars - Achieve mastery through coding practice and developer mentorship](https://www.codewars.com/)
-- [Developer Training | Test Coding Skills Online - Codility](https://app.codility.com/programmers/)
 - [HackerRank - Online Coding Tests and Technical Interviews](https://www.hackerrank.com/)
+- [Developer Training | Test Coding Skills Online - Codility](https://app.codility.com/programmers/)
 
 ## External links
 
@@ -67,3 +76,4 @@ Main factors and tips to use LeetCode effectively [^1]:
 ## References
 
 - [^1]: [How to use LeetCode to help yourself efficiently and effectively (for beginners)](https://leetcode.com/discuss/career/450215/How-to-use-LeetCode-to-help-yourself-efficiently-and-effectively-\(for-beginners\)))
+- [^2]: [leetcode-cli: May the code be with you](https://github.com/clearloop/leetcode-cli)
