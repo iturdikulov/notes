@@ -87,5 +87,6 @@ qmk c2json --no-cpp keymap.c >keymap.json # without --no-cpp it might not work
 - [QMK Configurator](https://config.qmk.fm/#/kbdfans/kbd75/rev2/LAYOUT)
 - [QMK JSON converter](https://jhelvy.shinyapps.io/qmkjsonconverter/)
 - [Inom-Turdikulov/qmk_firmware: Open-source keyboard firmware for Atmel AVR and Arm USB families](https://github.com/inomoz/qmk_firmware)
+- [x] [QMK: Mouse Turbo Click](https://getreuer.info/posts/keyboards/mouse-turbo-click/index.html)
 - [x] [My current keyboard layout :: Eli Rodríguez Pérez — Personal blog](https://eli-rodriguez.com/en/posts/my-current-keyboard-layout/)
 - [ ] [QMK Basics – Thomas Baart](https://thomasbaart.nl/category/mechanical-keyboards/firmware/qmk/qmk-basics/)

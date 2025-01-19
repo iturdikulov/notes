@@ -172,6 +172,7 @@ Additional Skills:
 - [/] codecrafters-shell_python at [Build your own Shell](https://app.codecrafters.io/courses/shell/introduction).
   - [ ] Move into [[Bash]] and document it.
 - Complete Intro to React.
+- Master Modern CSS with Kevin Powell
 - [From 0 to Production - The Modern React Tutorial (RSCs, Next.js, Shadui, Drizzle, TS and more) - YouTube](https://www.youtube.com/watch?v=d5x0JCZbAJs)
 - [Advent of Code 2024](https://adventofcode.com/2024) - intersting challenge.
   - [AOC: What would you say are the minimal skills for beginners?](https://www.reddit.com/r/adventofcode/comments/7kd8jt/comment/dre0uu3/),
@@ -290,6 +291,8 @@ Additional Skills:
 - [ ] [How I Automated My Job Application Process. (Part 1)](https://blog.daviddodda.com/how-i-automated-my-job-application-process-part-1)
 - [Capt. Grace Hopper on Future Possibilities: Data, Hardware, Software, and People (Part One, 1982) - YouTube](https://www.youtube.com/watch?v=si9iqF5uTFk )
 - [[Git]], need to research
+- [Bash Scriptng Guide](https://www.opennet.ru/docs/RUS/bash_scripting_guide/)
+- git bisect
 - Evans How Git Works
 - [[Henry_How_to_Learn_Nix]]
 - [Архитектура микропроцессоров и изоляция уровней исполнения](https://dxdt.ru/2024/03/29/12651/)
@@ -371,6 +374,7 @@ Additional Skills:
 - [ ] [Неочевидные для начинающих тонкости Postgres / Хабр](https://habr.com/ru/companies/ruvds/articles/859422/)
 - [ ] [What I Wish Someone Told Me About Postgres | ChallahScript](https://challahscript.com/what_i_wish_someone_told_me_about_postgres)
 - [ ] [Don't Do This - PostgreSQL wiki](https://wiki.postgresql.org/wiki/Don%27t_Do_This)
+- [ ] [Оптимизация SQL запросов / Хабр](https://habr.com/ru/articles/861604/)
 
 #### Testing
 
@@ -417,6 +421,7 @@ Additional Skills:
 - [Kunzelma Wiki](https://wiki.kunzelma.de/)
 
 - [Как подружить веб-компоненты и JS-фреймворки / Хабр](https://habr.com/ru/companies/sberbank/articles/834998/)
+- [CRDT: Conflict-free Replicated Data Types / Хабр](https://habr.com/ru/articles/418897/)
 - [goldbergyoni/nodebestpractices](https://github.com/goldbergyoni/nodebestpractices/blob/master/README.russian.md)
 
 - [Nix Workflow Initialize](https://ayats.org/blog/nix-workflow/)

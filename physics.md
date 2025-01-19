@@ -29,6 +29,7 @@ To understand custom bullet list types check [[my_notation]] note.
 - [!] [The complete FUN TO IMAGINE with Richard Feynman - YouTube](https://www.youtube.com/watch?v=P1ww1IXRfTA)
 - [Физика. Волны - YouTube](https://www.youtube.com/playlist?list=PLxGo9dxQkqWB7xCLfpO3ec6sOUkaVIWyn)
 - Занимательная физика: книги первая и вторая. Занимательная механика
+- дисперсия
 
 ### Inbox
 
