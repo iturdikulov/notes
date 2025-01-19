@@ -27,7 +27,6 @@ Usage in my case very simple. I go into directory with conflicted files and run
 `syncthing-resolve-conflicts -d . -f`. It will show me conflicted files and ask
 me what to do with them.
 
-
 ## Setup Syncthing on Kindle Touch
 
 Original source - [Magically format embedded languages in Neovim - YouTube](https://www.youtube.com/watch?v=v3o9YaHBM4Q).
