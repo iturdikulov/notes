@@ -64,6 +64,7 @@ not really concurrent, since it's using same model's.
 
 ## External links
 
+- [ ] [What's your biggest Claude hack  rClaudeAI](https://www.reddit.com/r/ClaudeAI/comments/1gg7211/whats_your_biggest_claude_hack/?chainedPosts=t3_1b7wh1i)
 - [ChatGPT провалил тест на ручник](https://habr.com/ru/articles/724460/#habracut)
 - [ChatGPT | OpenAI Help Center](https://help.openai.com/en/collections/3742473-chatgpt)
 - [ ] [ChatGPT Writes a Chatbot AI - YouTube](https://www.youtube.com/watch?v=QumfkMQr47M)

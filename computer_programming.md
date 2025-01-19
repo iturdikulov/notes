@@ -209,6 +209,7 @@ To understand custom bullet list types check [[my_notation]] note.
 
 - [FastAPI](https://fastapi.tiangolo.com/learn/)
   - [[Pydantic]]
+- [FastStream](https://faststream.airt.ai/latest/faststream)
 - [The Big Book of Small Python Projects](https://inventwithpython.com/bigbookpython/)
 - [Sending an ethernet packet](https://github.com/francisrstokes/githublog/blob/main/2024%2F11%2F1%2Fsending-an-ethernet-packet.md)
 - Research shlex split source code
