@@ -1,0 +1,40 @@
+---
+date: 2025-01-18T23:07+03:00
+tags:
+  - blog
+external:
+  - https://www.resilio.com/sync/
+---
+
+# Resilo Sync
+
+I was long time [[Syncthing]] user, but I have some problems with it in my
+[[Android]] smartphone. So I switched to [[Resilo_Sync]].
+
+Resilo sync allow to synchronize data between my mobile and desktop devices, and
+it's intuitive and easy to use. I'm no need paid plan for selective sync, in my
+case `.sync/IgnoreList` and sharing few directories is enough.
+
+There is non-intuitive setup on [[Linux]] if I want to share directory from
+somewhere from my home directory in [[NixOS]], here are some tips to make it
+work for my Wiki directory.
+
+```sh
+setfacl -d -m group:rslsync:rwx /home/inom
+setfacl -m group:rslsync:rwx /home/inom
+
+# Warning, this is recursive, so it will apply to all sub directories.
+sudo setfacl -R -d -m group:rslsync:rwx /home/inom/Wiki
+sudo setfacl -R -m group:rslsync:rwx /home/inom/Wiki
+
+# Any sub directories created will also belong to the rslsync group
+chmod g+s /home/inom/Wiki
+```
+
+## Directories which I sync
+
+- Root directory from smartphone and tablet, 1 way sync to avoid possibility
+  loss of files, all file operatons are done on smartphone. I have configured
+  ignore list `.sync/IgnoreList` to avoid syncing some files/directories.
+- Zettelkasten, two-way sync, with extra sub-directores not related to
+  zettelkasten, ths simplify resilo sync setup.
