@@ -9,10 +9,42 @@ sr-ease: 250
 
 # Cooking
 
-Significant part of my [[life|life]] is cooking. I like to cook
+Significant part of my [[life|life]] is cooking. I like to cook food
 **sometimes**.
 
 - [ ] [Собираем ПП продукты на неделю! / Как питаться дёшево и полезно? - YouTube](https://www.youtube.com/watch?v=ONffRw8rxVA)
+
+## Cooking equipment
+
+- Good fry pan (non-stick, 30 cm), workhorse for eggs, vegetables and meat.
+- Silcon turner (or nylon) and wooden spoon.
+- Good saucepan with lid.
+- Good-sized cutting board (preferably plastic).
+- Box grater (aka cheese grater).
+- 8" Chef's knife, Victorinox Fibroxi.
+- 25 cm iron pan for steak, pizza, roasted checkent and more.
+- measuring cups and spoons, a few bowls of various sizes, a few cookie/baking
+  trays, and a few oven safe containers made of glass or ceramic
+
+## Learning how to cook
+
+Best way to start learning cooking is how to fry eggs, partially cooked,
+overcooked, etc.
+
+- [French Omelette - YouTube](https://www.youtube.com/watch?v=_Wb5Crj917I), you
+  can experiment with different fillings.
+- Salad.
+- Cooking dried spaghetti, jar of sauce.
+- Pasta dinner.
+- Pan over medium heat and fry up some Italian sausage, onions, and green
+  peppers then, when it's almost cooked, dump in your jar of store bought sauce.
+- Julia Child's "The French chef".
+- Jaques Pepin "Fast food, my way".
+- [Good Eats](https://www.imdb.com/title/tt0344651/)
+- [Julia Child on PBS - YouTube](https://www.youtube.com/@JuliaChildonPBS)
+- Gordon Ramsay's Complete Cooking Course
+
+## Recipes
 
 - [[cutlets]]
 - [[pan_pizza|Pan Pizza]]
