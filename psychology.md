@@ -16,6 +16,21 @@ sr-ease: 308
 > works. It also looks at how our actions relate to how we think.\
 > — <cite>[Simple English Wikipedia](https://simple.wikipedia.org/wiki/Psychology)</cite>
 
+Many psychology problems (which I define as such) can be solved by continuous
+work on them. Many of them imposed by society, some are imposed by nature. For
+example:
+
+- Programming enthusiast → learn and work on projects → Experienced programmer.
+- Newbie to natural science → learn and experiment → educated in natural
+  science.
+- Not financially stable → learn and work on career → financially stable.
+- Not very well socialized → learn how and communicate with people → well
+  socialized.
+- Constantly looking for new hobby → stop jumping, try something long enough →
+  enjoy your hobby.
+- Overweight, physical and mental health promblems → exercise, eat healthy,
+  sleep enough → solve problems.
+
 ## Techniques for dealing with lack of motivation, malaise, depression [^1]
 
 [[people#Jonathan_Blow]] about ways to deal with lack of motivation, malaise,
