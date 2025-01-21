@@ -9,7 +9,7 @@ external:
 # Resilo Sync
 
 I was long time [[Syncthing]] user, but I have some problems with it in my
-[[Android]] smartphone. So I switched to [[Resilo_Sync]].
+[[Android]] smartphone. So I switched to [[Resilio_Sync]].
 
 Resilo sync allow to synchronize data between my mobile and desktop devices, and
 it's intuitive and easy to use. I'm no need paid plan for selective sync, in my
@@ -19,7 +19,7 @@ There is non-intuitive setup on [[Linux]] if I want to share directory from
 somewhere from my home directory in [[NixOS]], here are some tips to make it
 work for my Wiki directory.
 
-```sh
+```bash
 setfacl -d -m group:rslsync:rwx /home/inom
 setfacl -m group:rslsync:rwx /home/inom
 
@@ -29,6 +29,16 @@ sudo setfacl -R -m group:rslsync:rwx /home/inom/Wiki
 
 # Any sub directories created will also belong to the rslsync group
 chmod g+s /home/inom/Wiki
+```
+
+[$HOME facl is always reset in NixOS](https://discourse.nixos.org/t/home-facl-is-always-reset-in-21-05/13408).
+I have same issue, as workaround I use this `activationScripts` configuration:
+
+```nix
+system.activationScripts."resilio" = ''
+  ${getExe' pkgs.acl "setfacl"} -d -m group:rslsync:rwx ${config.user.home}
+  ${getExe' pkgs.acl "setfacl"} -m group:rslsync:rwx ${config.user.home}
+'';
 ```
 
 ## Directories which I sync
