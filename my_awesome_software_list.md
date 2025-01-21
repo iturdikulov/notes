@@ -254,7 +254,7 @@ be integrated with /dmenu (most stable which I found)
 - [ocornut/imgui: Bloat-free Graphical User interface for C++ with minimal
 dependencies](https://github.com/ocornut/imgui)
 
-- [ ] dmidecode.
+- [ ] dmidecode, sudo dmidecode -t 2 - get motherboard name
 - [ ] lshw.
 - [ ] geekbench
 - [ ] bench
