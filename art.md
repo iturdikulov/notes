@@ -56,6 +56,7 @@ To understand custom bullet list types check [[my_notation]] note.
   - [p] Episode 2: Cubes, Cylinders & Cones! Free Basic Drawing Class
 - [/] [[my_sketchbook]] - draw things
 - [[Price_-_Donut_tutorial_in_Blender]]
+- [Learn to Draw - YouTube](https://www.youtube.com/playlist?list=PL1HIh25sbqZnkA1T09UtVHoyjYaMJuK0a)
 - redraw Russian_Cyrillic_alphabet
 - redraw International_Morse_Code
 - redraw https://miro.medium.com/v2/resize:fit:4800/format:webp/1*XzLlyZSuMyVCEOGaUh2hFg.png

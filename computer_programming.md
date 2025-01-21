@@ -130,19 +130,22 @@ Programming lerning path is closely related to
 
 To understand custom bullet list types check [[my_notation]] note.
 
-- [/] [[Evans_-_So_you_want_to_be_a_WizarD]]
-- [/] [[Python]], research, re-read, adjust flashcards.
-- [/] [[JavaScript]] note research.
-- [/] [[Sonmez_-_Soft_skills]]
-- [/] [SQL Squid Game](https://datalemur.com/sql-game)
-- [/] [[Abelson_and_Sussman_-_SICP|SICP]]
-- [/] [[Stolyarov_-_Azy_programmirovaniya|Столяров - Азы программирования]]
-- [/] codecrafters-shell_python at [Build your own Shell](https://app.codecrafters.io/courses/shell/introduction).
+- [ ] [Программирование - вторая грамотность](./articles/Ershov_-_programmirovanie_vtoraya_gramotnost.pdf)
+- [ ] Основы информатики и вычислительной техники, book 1, 2 and 3
+- [ ] [[Evans_-_So_you_want_to_be_a_WizarD]]
+- [ ] [[Python]], research, re-read, adjust flashcards.
+- [ ] [[JavaScript]] note research.
+- [ ] [[Sonmez_-_Soft_skills]]
+- [ ] [SQL Squid Game](https://datalemur.com/sql-game)
+- [ ] [[Abelson_and_Sussman_-_SICP|SICP]]
+- [ ] [[Stolyarov_-_Azy_programmirovaniya|Столяров - Азы программирования]]
+- [ ] codecrafters-shell_python at [Build your own Shell](https://app.codecrafters.io/courses/shell/introduction).
   - [ ] Move into [[Bash]] and document it.
-- [/] [[Rust]], research note.
-- [/] [[C]], research note.
-- [/] [[Go]], research note.
-- [/] [[lua]], research note.
+- [ ] [[Pascal]], research note.
+- [ ] [[Rust]], research note.
+- [ ] [[C]], research note.
+- [ ] [[Go]], research note.
+- [ ] [[lua]], research note.
 
 ### Foundations
 

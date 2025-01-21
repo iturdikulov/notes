@@ -51,18 +51,20 @@ To understand custom bullet list types check [[my_notation]] note.
 
 ### Now
 
+- Алевтина Попова - От YESли бы к YESтественно. Как выучить английские времена с помощью мемов.
+- [!] [[duolingo]]
 - [!] Fundamentals of English grammar:
       ![[img/Spelling_punctuation_and_grammar_SPAG.excalidraw|Spelling punctuation and grammar scheme]]
-- [!] [[duolingo]]
-- [ ] [[Petrov_-_Poliglot]]
-- [ ] [[CHernixovskaya_-_English_start-up]]
-- [ ] [[Murphy_Essential_Grammar_in_Use_Elementary]]
-- [ ] [[Murphy_Essential_Grammar_in_Use_Intermediate]]
-- [ ] [English Playlists](https://boosty.to/englishplaylists)
-- [ ] [[Puzzle_English]]
-- [ ] [Grammarly Home](https://www.grammarly.com/blog/capitalization-rules/)
-- [ ] [9 часов английского](https://www.youtube.com/watch?v=PqBT7xpmZlE)
-- [ ] [5 минут, чтобы разобраться в предлогах на английском: метод треугольника - YouTube](https://www.youtube.com/watch?v=cgYMtuFa8Iw)
+- Some book from Ilia Frank series, [Метод чтения Ильи Франка](http://www.franklang.ru/)
+- [[Petrov_-_Poliglot]]
+- [[CHernixovskaya_-_English_start-up]]
+- [[Murphy_Essential_Grammar_in_Use_Elementary]]
+- [[Murphy_Essential_Grammar_in_Use_Intermediate]]
+- [English Playlists](https://boosty.to/englishplaylists)
+- [[Puzzle_English]]
+- [Grammarly Home](https://www.grammarly.com/blog/capitalization-rules/)
+- [9 часов английского](https://www.youtube.com/watch?v=PqBT7xpmZlE)
+- [5 минут, чтобы разобраться в предлогах на английском: метод треугольника - YouTube](https://www.youtube.com/watch?v=cgYMtuFa8Iw)
 - [structure - Parts, books, volumes, etc - Writing Stack Exchange](https://writing.stackexchange.com/questions/7083/parts-books-volumes-etc)
   - [Parts, chapters, sections, and subsections: how to organize your nonfiction book - Josh Bernoff](https://bernoff.com/blog/parts-chapters-sections-and-subsections-how-to-organize-your-nonfiction-book)
 

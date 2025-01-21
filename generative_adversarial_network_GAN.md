@@ -35,7 +35,11 @@ sr-ease: 249
 > race between both networks.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Generative_adversarial_network)</cite>
 
-## TODO: applications
+## Software
+
+- [flux-jupyter - Image Generation Jupyter Notebooks, working in Google Collab](https://github.com/camenduru/flux-jupyter)
+- [Stable Diffusion web UI- txt2img and img2img](https://github.com/AUTOMATIC1111/stable-diffusion-webui/)
+- [Navezjtsd-webui-reactor - face replacement for Stable Diffusion web UI](https://github.com/Navezjt/sd-webui-reactor)
 
 ## External links
 
