@@ -145,7 +145,8 @@ Programming lerning path is closely related to
 
 To understand custom bullet list types check [[my_notation]] note.
 
-- [ ] [Программирование - вторая грамотность](./articles/Ershov_-_programmirovanie_vtoraya_gramotnost.pdf)
+- [ ] [[Yershov_-_programmirovanie_vtoraya_gramotnost]]
+
 - [ ] Основы информатики и вычислительной техники, book 1, 2 and 3
 - [ ] [[Evans_-_So_you_want_to_be_a_WizarD]]
 - [ ] [[Python]], research, re-read, adjust flashcards.
