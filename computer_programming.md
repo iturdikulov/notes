@@ -98,21 +98,25 @@ Programming Languages & Development:
 
 Python Ecosystem:
 
-- Python with modern asyncio, libraries and frameworks.
+- Python with modern asyncio, libraries and frameworks, type hints.
 - Strong focus on asynchronous programming.
 - Advanced typing system utilization (protocols, generics)
-- Experience with aiohttp, FastAPI, pytest/unittest.
+- Experience with pydantic, aiohttp, FastAPI, Django, requests, pytest/unittest.
 
 Software Engineering & Architecture:
 
 - Extensive experience in object-oriented analysis, design, and programming
 - Multi-paradigm programming and design
 - Extreme Programming (XP) methodology
-- Clean Architecture, DDD, SOLID principles, and OOP expertise.
+- Clean Architecture, DDD, SOLID principles, and OOP expertise
+- Testing (unit, integration, and end-to-end) and CI/CD.
 
 Databases & Infrastructure:
 
-- Relational database theory and practice, particularly PostgreSQL and SQLite
+- SQL language expertise, particularly PostgreSQL and SQLite dialects, indexes,
+  transactinos, views, and triggers, procedures, functions, and stored
+  procedures
+- SQL ORM frameworks
 - SQL optimization and database expert knowledge
 - Experience with Redis, ElasticCache
 - AWS services expertise (EC2, Lambda, AuroraDB, API Gateway)
@@ -128,6 +132,7 @@ System Administration & Security:
 
 Additional Skills:
 
+- VCS tools proficiency, Git, GitHub, and GitLab
 - Web development proficiency, HTML, JavaScript, CSS, and web frameworks
 - LaTeX, Markdown proficiency and semi-professional typesetting
 - Advanced English language proficiency
