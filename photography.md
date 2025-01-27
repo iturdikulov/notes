@@ -37,7 +37,45 @@ Cheatsheet, which explain what can be used for Low Light Photography:
 ![Cheat sheet](img/Photography_Gear_and_Settings.webp) and
 [Source](https://digital-photography-school.com/cheat-sheet-gear-settings-low-light-photography/)
 
+## Soaking photographic film, straightening and stripping
+
+Based on great article (Russian language) [^1].
+
+1. Preparation:
+
+- Use a developing tank
+- Load film into the tank spiral
+- Trim perforation edges at 45°.
+
+2. Soaking:
+
+- Fill with water at temperature up to 25 °C MAX! (use thermometer)
+- Better to use distilled water
+- Can add a drop of stabilizer, CM200 (1.5ml to 300ml)
+- Soak for 10–15 minutes.
+
+3. Drying:
+
+- Carefully remove the film
+- Hang with weight at bottom
+- Dry in humid room (bathroom) in about 1 hour
+
+4. Straightening:
+
+- Roll dry film with emulsion side out
+- Roll diameter 10-15 cm
+- Leave for 2-3 days or more (2-4 weeks) in a dry environment (cardbox with
+  holes, etc.).
+
+5. Storage:
+
+- Cut into strips of 4-6 frames (6 better)
+- Place into sleeves
+- Store in special folders to protect from dust and scratches.
+
 ## External links
 
 - [ ] [Вычислительная Фотография](https://vas3k.blog/blog/computational_photography/)
 - [ ] [Вычислительная фотография 2.0](https://jejeya.pictures/future_of_photography)
+
+[^1]: [Размачивание фотопленки для выпрямления](http://xn--80atkeanlo.xn--80ahcc7avfgj.xn--p1ai/material/razmachivanie-foto.html). [Local copy](./articles/Razmachivanie_fotoplenki_dlya_vypryamleniya.html).
