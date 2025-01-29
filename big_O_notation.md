@@ -2,7 +2,7 @@
 date: 2023-03-18T00:00+03:00
 tags:
   - blog
-  - SR-base
+  - SR-computer_science
 sr-due: 2024-07-31
 sr-interval: 21
 sr-ease: 187
@@ -12,11 +12,13 @@ sr-ease: 187
 
 What's Big O notation?
 &#10;<br>
-> Way of comparing rates of ==growth== of different functions, which depending
+> Way of comparing rates of growth of different functions, which depending
 > on function argument size. It is often used to compare the efficiency of
 > different algorithms, which is done by calculating how much memory is needed
 > (space complexity), and how much time it takes to complete (time complexity).\
 > — <cite>[SE Wikipedia](https://simple.wikipedia.org/wiki/Big_O_notation)</cite> <!--SR:!2024-09-11,8,190-->
+![[./img/Big_O_illustration_AdobeStock_552748421-min.jpeg|Big O illustratin]]
+_Small amount of input information gtowth to big amount of output information_
 
 Consistent and concise way to analyze the efficiency of algorithms is a
 ==Big O notation==. It **gives answer** to questions like this: If there are
@@ -36,7 +38,7 @@ Key question which describe Big $\mathcal{O}$?
 If there are N data elements, how many steps will the algorithm take? <!--SR:!2024-09-22,13,177-->
 
 Big O is about how will an algorithm's performance (efficiency) change as the
-==data increases==? <!--SR:!2024-09-06,9,220-->
+==data increases==? <!--SR:!2025-02-13,20,220-->
 
 <!-- NEXT: excalidraw image -->
 Big O Notation categories, linear growing, quadratic growing, exponential grow,
@@ -96,7 +98,7 @@ $\mathcal{O}(log_2 N)$ is the Big O way of describing an algorithm that increase
 ==one== step each time the data is doubled. <!--SR:!2024-10-09,25,217-->
 
 $\mathcal{O}(log N)$ means that for $N$ data elements, the algorithm would take
-==$\log_{2} N$ (omitting 2)== steps. <!--SR:!2024-11-01,24,211-->
+==$\log_{2} N$ (omitting 2)== steps. <!--SR:!2025-03-16,51,211-->
 
 $\mathcal{O}(log N)$ means the algorithm takes as many steps as it takes to
 keep halving the data elements until we remain with ==1==. <!--SR:!2024-09-10,8,217-->
