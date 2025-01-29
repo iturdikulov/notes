@@ -46,11 +46,11 @@ imagemagik in your app if your app use it. <!--SR:!2024-12-13,8,250-->
 
 ## 3. Config
 
-Where to store environtment specific files?
+Where to store app environtment specific files?
 &#10;<br>
 Anything which have **different value** for different environment (dev, test,
 prod), should be stored in repository (schemas, config files, credentials,
-etc.). <!--SR:!2024-12-07,2,230-->
+etc.). <!--SR:!2025-01-25,1,210-->
 
 How to store config?
 &#10;<br>
@@ -75,11 +75,12 @@ to use same rules as for local resources.
 Resources are attacheble and detacheble, anytime you can replace broken resource
 with new one (restored from backup or re-initialized). <!--SR:!2024-12-08,2,248-->
 
-Is ther different between local and third party services (attacheble resources)?
+Is there difference for 12 factor app between local and third party services
+(attacheble resources)?
 &#10;<br>
 The code for a twelve-factor app makes no distinction between local and third
 party services, you can change local backing service with remote anytime by
-changing configuration. <!--SR:!2024-12-08,2,248-->
+changing configuration. <!--SR:!2025-01-29,5,248-->
 
 ## 5. Build, release, run
 
@@ -89,7 +90,7 @@ Non-develpoment deployment process go through three stages:
 2. Release stage - combine build with deploys current config and make release
    ready for immediate execution.
 3. Run stage - running the app in the execution environment (one or multiple
-   processes). <!--SR:!2024-12-08,2,248-->
+   processes). <!--SR:!2025-01-25,1,228-->
 
 The twelve-factor app uses strict separation between the build, release, and run
 stages.
@@ -103,7 +104,7 @@ v100).
 Can I change someting in release?
 &#10;<br>
 Release cannot be mutated once it is created. Any change must create a new
-release. <!--SR:!2024-12-08,2,248-->
+release. <!--SR:!2025-02-03,5,248-->
 
 Run stage should be kept to as few moving parts as possible and should be
 automatically restarted if it crashes.
@@ -117,7 +118,9 @@ What's stateless app?
 A stateless app is an application program that does not save client data
 generated in one session for use in the next session with that client.
 Twelve-factor processes are stateless and share-noting. Any data that needs to
-persist must be stored in a stateful backing service (typicaly a database). <!--SR:!2024-12-08,2,248-->
+persist must be stored in a stateful backing service (typicaly a database). No
+need to synchronize server states; new instances can handle requests
+immediately. <!--SR:!2025-01-30,1,228-->
 
 Can I assume that something is cached on disk and will be aviable on a future
 request or job?
@@ -128,7 +131,7 @@ will be available on a future request or job. <!--SR:!2024-12-09,3,268-->
 Can I compile assets at runtime with twelve-factor app?
 &#10;<br>
 No, twelve-factor prefer to compile assets during the build stage, rather than
-at runtime. <!--SR:!2024-12-08,2,248-->
+at runtime. <!--SR:!2025-02-03,5,248-->
 
 <!-- NOTE: I am not used them -->
 Sticky sessions are a violation of twelve-factor and should never be used
@@ -137,7 +140,7 @@ offers time-expiration, such as Memcached or Redis.
 
 ## 7. Port binding
 
-What's port binding in twelve-factor app?
+What's port binding in twelve-factor app, why it's useful?
 &#10;<br>
 The twelve-factor app is completely self-contaned (does not rely on runtime
 injection) and exports HTTP (maybe other protocol) as a service by binding to
@@ -188,7 +191,8 @@ between development and production environment small, which gap types you know?
 - Tools - developer use stack X, on production used gap Y, should be as similar
   as possible. <!--SR:!2024-12-07,1,228-->
 
-Can I use different backing services on deveopment and production?
+Can I use different backing services (MySQL/SQLite) on deveopment and
+production?
 &#10;<br>
 We should not use different backing services (Redis/RabbitMQ, MySQL/SQlite)
 on deveopment and production, even if possible to use adapaters to mix them with
@@ -200,7 +204,7 @@ Do twelve-factor app manage own logs?
 &#10;<br>
 Twelve-factor app never concerns itself with routing or storage of its output
 stream (logs data). It should not attempt to write to or manage logfiles. Each
-running process writes its event stream, unbuffered, to stdout. <!--SR:!2024-12-08,3,250-->
+running process writes its event stream, unbuffered, to stdout. <!--SR:!2025-02-05,7,250-->
 
 How logs are managed with twelve-factor app?
 &#10;<br>
