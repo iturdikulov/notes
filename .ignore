@@ -1,5 +1,4 @@
 # Exclude search
 img/
-!books/
 node_modules/
 !inbox.md
