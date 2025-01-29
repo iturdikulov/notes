@@ -6,6 +6,12 @@ body {
   font-size: 19px;
 }
 
+iframe[src*="youtu"] {
+  width: 100vw;
+  height: 56.25vh;
+  border-radius: 8px;
+}
+
 /* Body font for Editing and Reading views */
 .is-phone :is(.markdown-source-view, .markdown-preview-view) {
   font-size: 0.9em;
