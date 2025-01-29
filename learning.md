@@ -62,22 +62,32 @@ I need spent at least 2 hours per day for learning, it's not so much, but it's
 enough to learn something new. My actual current learning list is aviable with
 `t project:learn` command ([[Taskwarrior]]).
 
-- [ ] [20 rules of knowledge formulation - supermemo.guru](https://supermemo.guru/wiki/20_rules_of_knowledge_formulation)
-- [ ] [Effective Spaced Repetition](https://borretti.me/article/effective-spaced-repetition )
-- [ ] [Using spaced repetition for learning facts, forming habits, and re-reading quotes](https://andrewtmckenzie.com/spaced_repetition#)
 - [ ] [Copying Better: How To Acquire The Tacit Knowledge of Experts](https://commoncog.com/how-to-learn-tacit-knowledge/)
 - [ ] [[Evans_-_So_you_want_to_be_a_WizarD]]
 - [ ] [[Syd_-_GTD_with_taskwarrior]]
+- [ ] [Supermemo Wiki](https://supermemo.guru)
+- [ ] [[Sonmez_-_Gibkie_navyki]]
+- [ ] [[Clear_-_Atomic_Habbits]]
 
-## [The Feynman Technique: Master the Art of Learning](https://fs.blog/feynman-technique/)
+### Learning resources
 
-Some of concepts of Feynman Learning technique.
+- [[Khan_Academy]]
+- [Wikiversity](https://www.wikiversity.org/)
+- [Udemy](https://www.udemy.com/)
+- [edX](https://www.edx.org/)
+- [Coursera](https://www.coursera.org/)
 
-Also very motivational video about same topic (check part 6 on 55:00):
+## The Feynman Technique: Master the Art of Learning
+
+Concepts of Feynman Learning technique [^1].
+
+Additionaly I recommend to check very motivational video about same topic (check
+part 6 on 55:00):
+
+[local copy](file:///home/inom/Arts_and_Entertainment/audiovisual/interview/The_complete_FUN_TO_IMAGINE_with_Richard_Feynman_P1ww1IXRfTA.mp4)
 
 ![The complete FUN TO IMAGINE with Richard Feynman - YouTube](https://www.youtube.com/watch?v=P1ww1IXRfTA&t=761s)
-
-[Local copy](file:///home/inom/Arts_and_Entertainment/audiovisual/interview/The_complete_FUN_TO_IMAGINE_with_Richard_Feynman_P1ww1IXRfTA.mp4)
+_The complete FUN TO IMAGINE with Richard Feynman_
 
 Complexity and jargon often mask a lack of understanding.
 
@@ -209,13 +219,4 @@ I organize all **my** art related stuff in [[art]] note.
 For [[literature]] is great solution to fun and relax. I collect my reading list
 and favorite books in [[my_literature]] note.
 
-## External links
-
-
-- [[Khan_Academy]]
-
-- [Wikiversity](https://www.wikiversity.org/)
-- [Udemy](https://www.udemy.com/)
-- [edX](https://www.edx.org/)
-- [Coursera](https://www.coursera.org/)
-- [Super Memory](https://www.super-memory.com/)
+[^1]: [Feynman Technique: The Ultimate Guide to Learning Anything Faster](https://fs.blog/feynman-technique/)
