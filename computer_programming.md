@@ -426,6 +426,10 @@ To understand custom bullet list types check [[my_notation]] note.
 - [ ] [HTTPX](https://www.python-httpx.org/quickstart/)
 - [Website monitoring | Grafana Labs](https://grafana.com/grafana/dashboards/13041-website-monitoring/)
 - HTMX and Go, ThePrimeagen
+### Chapter 8: Profession
+
+- [x] [[Yershov_-_programmirovanie_vtoraya_gramotnost]]
+- [x] [[Grahm_-_Programming_Bottom-Up]]
 
 ### Other
 
