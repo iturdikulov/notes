@@ -2,7 +2,7 @@
 date: 2023-08-12T00:00+03:00
 tags:
   - blog
-  - productivity
+  - computer_programming_tools
 sr-due: 2024-01-30
 sr-interval: 4
 sr-ease: 273
@@ -13,7 +13,13 @@ sr-ease: 273
 > Make a `hexdump` ([[hexadecimal]] data) or do the reverse.\
 > — <cite>`man xxd`</cite>
 
-`xxd -l 32 -p <filename>` - prints first 32 bytes of file in hex format.
+How to print first 32 bytes of file in hex format.
+&#10;<br>
+`xxd -l 32 -p <filename>`
 
-TODO: add vim note, how to change few bytes (`:h hex-editing`).
-For example zero the 8th bit in KOI8-R file.
+How to revert a plaintext hexdump from xxd (`xxd -p input_file`) back into
+binary, and save it as a binary file?
+&#10;<br>
+`xxd -r -p input_file output_file`
+
+You can also able to integrate xxd with vim `:h hex-editing`.
