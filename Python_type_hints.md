@@ -16,7 +16,7 @@ editors and tools can give you better support and analyze your code.
 Do type hints affect the runtime behavior of your code?
 &#10;<br>
 Type hints normally don't affect the runtime behavior of your code. Think of
-type hints as similar to comments!
+type hints as similar to comments! <!--SR:!2025-02-09,3,250-->
 
 Python has rich typing support, we can check related
 [Typing PEPs](https://peps.python.org/topic/typing/).

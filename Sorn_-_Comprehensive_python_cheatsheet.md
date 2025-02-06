@@ -5,7 +5,7 @@ external:
   - https://github.com/gto76/python-cheatsheet
 tags:
   - blog
-  - Python
+  - zcheat-sheets
 sr-due: 2024-02-18
 sr-interval: 24
 sr-ease: 208

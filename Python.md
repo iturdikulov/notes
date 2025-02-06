@@ -58,7 +58,7 @@ included" language.
 
 ## Python learning path
 
-I learn Python according to customized amaargiru [^3] pyroad developer roadmap,
+I learn Python according to customized amaargiru [^1] pyroad developer roadmap,
 I place links to my notes related to Python in special [[excalidraw]]
 whiteboard, aviable in the spoiler below:
 
@@ -78,10 +78,11 @@ List of materials to review with [[my_notation]]:
 
 - [/] [Documentation](https://docs.python.org/3/)
 - [/] [[Python_cheat-sheet]]
+- [/] [[Python_community_-_Python_tutorial_TOC|Official Python tutorial]]
 
 ### Core
 
-- [x] Official Python tutorial [^2]
+- [CS50's Introduction to Programming with Python | Harvard University](https://pll.harvard.edu/course/cs50s-introduction-programming-python)
 - [[Python_community_-_Python_FAQ|FAQ]]
 - [[Python_community_-_Python_Glossary|Glossary]]
 - [[Python_community_-_Python_tutorial_10_stdlib|Standart library]]
@@ -186,13 +187,5 @@ List of materials to review with [[my_notation]]:
 
 - [Python CFFI bindings for Raylib](https://github.com/electronstudio/raylib-python-cffi)
 
-
-## External links
-
-- [CS50's Introduction to Programming with Python | Harvard University](https://pll.harvard.edu/course/cs50s-introduction-programming-python)
-
-## References
-
-[^2]: [[Python_community_-_Python_tutorial_TOC|Official Python tutorial]]
-[^3]: article - [Python High-level essentials / Хабр](https://habr.com/ru/articles/697760/),
+[^1]: article - [Python High-level essentials / Хабр](https://habr.com/ru/articles/697760/),
       repository - [Python developer roadmap](https://github.com/amaargiru/pyroad)

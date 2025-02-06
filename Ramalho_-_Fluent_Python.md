@@ -3,7 +3,7 @@ author: Luciano Ramalho
 date: 2025-01-14T11:41+03:00
 tags:
   - blog
-  - SR-Python
+  - Python
 sr-due: 2025-09-20
 sr-interval: 604
 sr-ease: 268

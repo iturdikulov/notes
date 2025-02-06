@@ -12,7 +12,7 @@ language with Q/A flashcards based on learnxinyminutes [^1] cheatsheet.
 
 ## 1. Primitive Datatypes and Operators
 
-How to write comments, their types and usage?
+How to write single-line comments and multi-line comments?
 &#10;<br>
 ```python
 # Single line comments start with a number symbol.
@@ -20,24 +20,24 @@ How to write comments, their types and usage?
 """
 Multiline strings can be written
 using three "s, and are often used
-as documentation.
+as documentation for functions, classes, modules.
 """
+```
 
-####################################################
-## Some fancy styled comment
-####################################################
-
+Is there rule for single-line comments which placed after the statement?
+```python
 Pi = 3.141592653589793  # need to place two spaces for same line comments
 ```
 <!--SR:!2024-10-27,4,182-->
 
-What is the result of this division `10.0 / 3`?
+What is the result type of this division `10.0 / 3`?
 &#10;<br>
 The result of division is always float, `10.0 / 3  => 3.3333333333333335` <!--SR:!2024-11-27,12,202-->
 
-What is the modulo operation?
+What modulo operation finds in Python?
 &#10;<br>
-Mathematical operation that finds the remainder of an integer division.
+Like in Mathematic, this is operation that finds the **remainder** of an integer
+division.
 ```python
 print(7 % 3)  # => 1
 print(13 % 2) # => 1
@@ -50,7 +50,11 @@ print(-7 % 3)  # => 2
 What is exponentiation and how to use it in Python?
 &#10;<br>
 Raise a number to a power. In python exist special operator `**`, `2**3 => 8`,
-x**y, x to the y'th power. <!--SR:!2024-10-27,4,182-->
+```python
+x = 2
+y = 16
+print(x**y) # => 65536, x to the y'th power
+```
 
 How to enforce custom precedence in Python?
 &#10;<br>
@@ -61,7 +65,7 @@ Need to use parentheses:
 2 + 2 * 2    #  => 6
 (2 + 2) * 2  #  => 8
 ```
-<!--SR:!2024-11-30,14,182-->
+<!--SR:!2025-03-03,25,182-->
 
 ```
 5 // 3       # => 1
@@ -70,14 +74,14 @@ Need to use parentheses:
 -5.0 // 3.0  # => -2.0
 ```
 
-Most basic and efficient data type in Python (and other languages) is?
+Most basic and efficient data type in Python (and many other languages) is?
 &#10;<br>
-Boolean values, they are primitives (Note: the capitalization)
+Boolean values, they are also called primitives.
 ```python
 True   # => True
 False  # => False
 ```
-` <!--SR:!2024-11-28,13,182-->
+<!--SR:!2025-03-02,24,182-->
 
 How do you negate a Boolean value?
 &#10;<br>
@@ -97,7 +101,7 @@ False or True   # => True
 ```
 <!--SR:!2024-11-25,11,202-->
 
-How do True and False relate to numerical values?
+How do `True` and `False` relate to numerical values (evaluate to)?
 &#10;<br>
 True and False are actually 1 and 0 but with different keywords.
 ```python
@@ -105,10 +109,12 @@ True + True  # => 2
 True * 8     # => 8
 False - 5    # => -5
 ```
-<!--SR:!2024-10-26,4,182-->
+<!--SR:!2025-02-13,7,182-->
 
-How do comparison operators actually work?
+How do comparison operators actually work, for boolean values?
 &#10;<br>
+First we get specific values of comparable objects, then we compare them and
+evaluate to True or False.
 Look at the numerical value of True and False or boolean representations of
 values.
 ```python
@@ -119,8 +125,8 @@ values.
 ```
 <!--SR:!2024-10-28,3,162-->
 
-How do you evaluate `None`, `0`, and empty
-`strings`/`lists`/`dicts`/`tuples`/`sets`?
+How do you evaluate `None`, `0`, and empty `strings`, empty `lists`, empty
+`dicts`, empty `tuples`, empty `sets`?
 &#10;<br>
 None, 0, and empty strings/lists/dicts/tuples/sets all evaluate to False. All
 other values are True.
@@ -134,15 +140,14 @@ bool(set())  # => False
 bool(4)      # => True
 bool(-6)     # => True
 ```
-<!--SR:!2024-11-26,10,202-->
+<!--SR:!2025-02-11,5,182-->
 
-TODO: need review
+<!-- TODO: need review -->
 How do boolean logical operators (and, or) on ints work (casting), bool(X)?
 &#10;<br>
-Using boolean logical operators (and/or) on ints casts them to booleans for evaluation,
-but their non-cast value is returned. Don't mix up with bool(ints) and bitwise
-and/or (&,|).
-&#10;<br>
+Using boolean logical operators (and/or) on ints casts them to booleans for
+evaluation, but their non-cast value is returned. Don't mix up with bool(ints)
+and bitwise and/or (&,|).
 ```python
 bool(0)   # => False, boolean value!
 bool(2)   # => True
@@ -180,13 +185,14 @@ How to use more or less than operators in Python?
 ```
 <!--SR:!2024-11-24,10,202-->
 
-How do you see whether a value is in a numeric range (1..100)?
+How do you vitrify that value is in a numeric range 1..2?
 &#10;<br>
 You can use following comparations:
 ```python
 # Seeing whether a value is in a range
 1 < 2 and 2 < 3  # => True
 2 < 3 and 3 < 2  # => False
+
 # Chaining makes this look nicer
 1 < 2 < 3  # => True
 2 < 3 < 2  # => False
@@ -217,15 +223,22 @@ Strings are created with " or '.
 name = "Inom"
 f"This is a formatted string with placeholders: Name - {name}."
 ```
-<!--SR:!2024-10-27,4,182-->
+<!--SR:!2025-02-17,11,202-->
 
 How do you add (concatenate) strings?
 &#10;<br>
 ```python
 # Strings can be added with "+"
 "Hello " + "world!"  # => "Hello world!"
+```
+
+How to concatenate strings without using `+`?
+&#10;<br>
+With whitespace characters:
+```python
 # String literals (but not variables) can be concatenated without using '+'
 "Hello " "world!"    # => "Hello world!"
+
 print(
     "Hello "
     "world"             # => "Hello world"
@@ -313,19 +326,19 @@ a is None   # => False
 
 What is the `print` function?
 &#10;<br>
-Prints text to the console
+Print objects to the text stream file.
 ```python
 print("I'm Python. Nice to meet you!")  # => I'm Python. Nice to meet you!
 print("Hello, World", end="!")  # => Hello, World!
 ```
-<!--SR:!2024-10-26,4,182-->
+<!--SR:!2025-02-13,7,182-->
 
 How do you get input from the console?
 &#10;<br>
 ```python
 input_string_var = input("Enter some data: ")  # Returns the data as a string
 ```
-<!--SR:!2024-11-23,7,182-->
+<!--SR:!2025-02-19,13,182-->
 
 Is there a declaration in Python (`cpython`)?
 &#10;<br>
@@ -338,7 +351,7 @@ snake_case style and not starting with number
 some_var = 5
 some_var  # => 5
 ```
-<!--SR:!2024-11-25,10,202-->
+<!--SR:!2025-03-07,29,222-->
 
 What happens if you access an unassigned variable?
 &#10;<br>
@@ -385,13 +398,14 @@ li.append(3)    # li is now [1, 2, 4, 3] again.
 
 How do you access elements in a list?
 &#10;<br>
+By index.
 ```python
 # Access a list like you would any array
 li[0]   # => 1
 # Look at the last element
 li[-1]  # => 3
 ```
-<!--SR:!2024-10-26,4,182-->
+<!--SR:!2025-02-13,7,182-->
 
 Looking out of list bounds (accessing) is an?
 &#10;<br>
