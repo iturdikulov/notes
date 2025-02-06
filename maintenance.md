@@ -38,12 +38,11 @@ filenames, etc.
 - [[pass]]
 - `external`, `file`, `directory` frontmatter variables in [[Zettelkasten]]
   files are isn't broken.
-- [[datavew|Dataview]] - maintenance my [[Zettelkasten]] system.
 - My projects have `README.md` file.
 
-## [[OS]]
+## OS
 
-Need to verify some loges, units, etc...
+Need to verify some loges, units, etc. for my [[OS]].
 
 - Backup state - `journalctl -u borgbackup-job-home-inom.service`
 - System logs - `journalctl -p warning -b`
@@ -52,6 +51,8 @@ Need to verify some loges, units, etc...
 - Clean-up [[Docker]] containers (carefully, maybe something will be lost!) -
 `docker system prune; docker volume prune`.
 - Broken symlinks `fd -L -t l`.
+- Enger to the BIOS: `systemctl reboot --firmware-setup` (`shutdown /r /t 0
+  /fw` in Windows).
 
 ## Programs and services
 
