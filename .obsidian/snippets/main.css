@@ -1,3 +1,7 @@
+:root {
+    font-variant-ligatures: none;
+}
+
 body {
   --file-line-width: 960px;
 }
