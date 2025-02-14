@@ -2,7 +2,7 @@
 date: 2023-02-21T00:00+03:00
 tags:
   - blog
-  - productivity
+  - cheat-sheets
 sr-due: 2024-01-29
 sr-interval: 2
 sr-ease: 225
@@ -53,34 +53,34 @@ when I press special `QWE` default layer switch button (toggle logic).
 
 Notepad based shortcuts, work mostly in all "classic" GUI program.
 
-- Close an open dialog box::`ESC`, sometimes `q` or even `M-F4` <!--SR:!2024-05-01,2,225-->
-- Open the help::`F1`
-- Switch tabs forward::`C-tab`
-- Switch tabs backward::`C-S-tab`
-- Close tab::`C-w` <!--SR:!2024-05-02,3,245-->
-- Zoom in, zoom out, reset zoom of the page::`C-+`, `C--`, `C-0`
-- Select all the text::`C-a`
-- Search text::`C-f`, `/`
-- Create new tab::`C-t`
-- Create new window::`C-n` <!--SR:!2024-05-01,2,225-->
-- Open the Print dialog box::`C-p`
-- Undo::`C-z` <!--SR:!2024-04-30,1,205-->
-- Redo::`C-y` or C-S-z
-- Refresh::`C-r`l
-- PgDn, Select PgDn::`NAV-h`, `NAV-S-h`
-- PgUp, Select PgUp::`NAV-,`, `NAV-S-,`
-- Left, Select Left::`NAV-n`, `NAV-S-n`
-- Right, Select Right::`NAV-i`, `NAV-S-i`
-- Word Left, Select Word Left::`NAV-C-n`, `NAV-C-S-n`
-- Word Right, Select Word Right::`NAV-C-i`, `NAV-C-S-i`
-- Up, Select Up::`NAV-u`, `NAV-S-u`
-- Down, Select Down::`NAV-e`, `NAV-S-e` <!--SR:!2024-04-30,1,205-->
-- Delete Word Left::`C-BCK` <!--SR:!2024-05-01,2,225-->
-- Delete Word Right::`C-DEL`
-- Home, Select to Home::`NAV-l`, `NAV-S-l` <!--SR:!2024-04-30,1,205-->
-- End, Select to End::`NAV-y`, `NAV-S-y`
-- Top, Select to Top::`NAV-C-l`, `NAV-C-S-l`
-- Bottom, Select to bottom::`NAV-C-y`, `NAV-C-S-y` <!--SR:!2024-04-30,1,205-->
+- Close an open dialog box:<wbr class="f"> `ESC`, sometimes `q` or even `M-F4` <!--SR:!2024-05-01,2,225-->
+- Open the help:<wbr class="f"> `F1`
+- Switch tabs forward:<wbr class="f"> `C-tab`
+- Switch tabs backward:<wbr class="f"> `C-S-tab`
+- Close tab:<wbr class="f"> `C-w` <!--SR:!2024-05-02,3,245-->
+- Zoom in, zoom out, reset zoom of the page:<wbr class="f"> `C-+`, `C--`, `C-0`
+- Select all the text:<wbr class="f"> `C-a`
+- Search text:<wbr class="f"> `C-f`, `/`
+- Create new tab:<wbr class="f"> `C-t`
+- Create new window:<wbr class="f"> `C-n` <!--SR:!2024-05-01,2,225-->
+- Open the Print dialog box:<wbr class="f"> `C-p`
+- Undo:<wbr class="f"> `C-z` <!--SR:!2024-04-30,1,205-->
+- Redo:<wbr class="f"> `C-y` or C-S-z
+- Refresh:<wbr class="f"> `C-r`l
+- PgDn, Select PgDn:<wbr class="f"> `NAV-h`, `NAV-S-h`
+- PgUp, Select PgUp:<wbr class="f"> `NAV-,`, `NAV-S-,`
+- Left, Select Left:<wbr class="f"> `NAV-n`, `NAV-S-n`
+- Right, Select Right:<wbr class="f"> `NAV-i`, `NAV-S-i`
+- Word Left, Select Word Left:<wbr class="f"> `NAV-C-n`, `NAV-C-S-n`
+- Word Right, Select Word Right:<wbr class="f"> `NAV-C-i`, `NAV-C-S-i`
+- Up, Select Up:<wbr class="f"> `NAV-u`, `NAV-S-u`
+- Down, Select Down:<wbr class="f"> `NAV-e`, `NAV-S-e` <!--SR:!2024-04-30,1,205-->
+- Delete Word Left:<wbr class="f"> `C-BCK` <!--SR:!2024-05-01,2,225-->
+- Delete Word Right:<wbr class="f"> `C-DEL`
+- Home, Select to Home:<wbr class="f"> `NAV-l`, `NAV-S-l` <!--SR:!2024-04-30,1,205-->
+- End, Select to End:<wbr class="f"> `NAV-y`, `NAV-S-y`
+- Top, Select to Top:<wbr class="f"> `NAV-C-l`, `NAV-C-S-l`
+- Bottom, Select to bottom:<wbr class="f"> `NAV-C-y`, `NAV-C-S-y` <!--SR:!2024-04-30,1,205-->
 
 ## Vim
 
@@ -93,12 +93,12 @@ I use `ZZ`, `:x`, `:q` and `:qa` 😼. I store basic keybindings in my
 [[GNU_Readline]] used in many programs like Bash, Python, etc. So I need to know
 some basic keybindings to work with it.
 
-- Move back one character.::`C-b`
-- Move forward one character.::`C-f`
-- Delete the word before the cursor.::`C-w`
-- Delete the character before the cursor.::`C-h`
-- Cancel the command line.::`C-c`
-- Delete (kill) the character underneath the cursor.::`C-d` <!--SR:!2024-04-30,1,205-->
+- Move back one character.:<wbr class="f"> `C-b`
+- Move forward one character.:<wbr class="f"> `C-f`
+- Delete the word before the cursor.:<wbr class="f"> `C-w`
+- Delete the character before the cursor.:<wbr class="f"> `C-h`
+- Cancel the command line.:<wbr class="f"> `C-c`
+- Delete (kill) the character underneath the cursor.:<wbr class="f"> `C-d` <!--SR:!2024-04-30,1,205-->
 
 ## Obsidian
 
@@ -108,15 +108,15 @@ work with [[excalidraw]] diagrams.
 
 Core keybindings:
 
-- Switch between edit and read mode::`C-e`
-- Focus on last note::`M-n`
-- Open quick switcher::`M-p`
-- Open command palette::`C-:`
-- Open graph view::`C-g`
-- Open backlinks for the current file::`M-b`
-- Follow link under cursor::`M-RET`
-- Navigate back::`C-M-left`
-- Navigate forward::`C-M-right`
+- Switch between edit and read mode:<wbr class="f"> `C-e`
+- Focus on last note:<wbr class="f"> `M-n`
+- Open quick switcher:<wbr class="f"> `M-p`
+- Open command palette:<wbr class="f"> `C-:`
+- Open graph view:<wbr class="f"> `C-g`
+- Open backlinks for the current file:<wbr class="f"> `M-b`
+- Follow link under cursor:<wbr class="f"> `M-RET`
+- Navigate back:<wbr class="f"> `C-M-left`
+- Navigate forward:<wbr class="f"> `C-M-right`
 
 ## Web Browser
 
@@ -125,24 +125,24 @@ note. Currently, I'm using [[Brave]] browser and sometimes [[Firefox]].
 
 Here are some universal shortcuts:
 
-- Search in active tab::`C-k` → Type something → `<cr>`
-- Search in new tab::`C-k` → Type something → `M-<cr>` <!--SR:!2024-04-30,1,205-->
-- Open a link in current tab::`LMB` or `C-;` → `keys` (requires Vimium)
-- Open link in new tab and switch to it::`C-S-LMB` or `C-:` → `keys` (requires Vimium)
-- Focus item in search dialog (next/previous)::`F3`/`S-F3`
-- Toggle history::`C-H` <!--SR:!2024-05-01,2,225-->
-- Restore closed tab::`C-S-T` <!--SR:!2024-05-02,3,245-->
-- Focus page content (useful to use from address bar)::`F6`
+- Search in active tab:<wbr class="f"> `C-k` → Type something → `<cr>`
+- Search in new tab:<wbr class="f"> `C-k` → Type something → `M-<cr>` <!--SR:!2024-04-30,1,205-->
+- Open a link in current tab:<wbr class="f"> `LMB` or `C-;` → `keys` (requires Vimium)
+- Open link in new tab and switch to it:<wbr class="f"> `C-S-LMB` or `C-:` → `keys` (requires Vimium)
+- Focus item in search dialog (next/previous):<wbr class="f"> `F3`/`S-F3`
+- Toggle history:<wbr class="f"> `C-H` <!--SR:!2024-05-01,2,225-->
+- Restore closed tab:<wbr class="f"> `C-S-T` <!--SR:!2024-05-02,3,245-->
+- Focus page content (useful to use from address bar):<wbr class="f"> `F6`
 
 I also use limited subset of Vimium keybindings:
 
-- Search in tabs (vimium)::`T`
-- Go back in history (vimium)::`H`
-- Go forward in history (vimium)::`L`
+- Search in tabs (vimium):<wbr class="f"> `T`
+- Go back in history (vimium):<wbr class="f"> `H`
+- Go forward in history (vimium):<wbr class="f"> `L`
 
-- Search and click on link::`:`
-- Focus input::`gi`
-- Visit previous page::`<C-6>`
+- Search and click on link:<wbr class="f"> `:`
+- Focus input:<wbr class="f"> `gi`
+- Visit previous page:<wbr class="f"> `<C-6>`
 
 ## Hyprland
 
@@ -154,10 +154,10 @@ I use [[MPV]] as my main multimedia player.
 
 Basic keybindings:
 
-- Play/Pause::`space`
-- Play next file::`>`
-- Play previous file::`<`
-- Quit::`q` <!--SR:!2024-11-20,7,245-->
+- Play/Pause:<wbr class="f"> `space`
+- Play next file:<wbr class="f"> `>`
+- Play previous file:<wbr class="f"> `<`
+- Quit:<wbr class="f"> `q` <!--SR:!2024-11-20,7,245-->
 
 ## cmus
 
@@ -165,19 +165,19 @@ Basic keybindings:
 
 Basic keybindings:
 
-- Up/Down::`k`/`j`
-- Seek -5/+5 seconds::`h`/`l`>`
-- Seek -1/+1 minutes::`,`/`.`
-- Switch views::`1-7`
-- Pause playback::`c`
-- Next track::`b`
-- Previous track::`z`
-- Toggle shuffle::`s`
-- Restart track::`x`
-- Jump to the currently playing track::`i`
-- Searching::`/`
-- Reduce the volume by 10%::`-`
-- Increase the volume by 10%::`+`
+- Up/Down:<wbr class="f"> `k`/`j`
+- Seek -5/+5 seconds:<wbr class="f"> `h`/`l`>`
+- Seek -1/+1 minutes:<wbr class="f"> `,`/`.`
+- Switch views:<wbr class="f"> `1-7`
+- Pause playback:<wbr class="f"> `c`
+- Next track:<wbr class="f"> `b`
+- Previous track:<wbr class="f"> `z`
+- Toggle shuffle:<wbr class="f"> `s`
+- Restart track:<wbr class="f"> `x`
+- Jump to the currently playing track:<wbr class="f"> `i`
+- Searching:<wbr class="f"> `/`
+- Reduce the volume by 10%:<wbr class="f"> `-`
+- Increase the volume by 10%:<wbr class="f"> `+`
 
 ## Z shell
 
@@ -195,12 +195,12 @@ and commands.
 
 Some keybindings, which integrated with Zsh:
 
-- Select and print a path::`ls -l|fzf` <!--SR:!2024-05-02,3,245-->
-- Paste path into command line::`C-t`
-- Change directory into selected path::`M-C`
+- Select and print a path:<wbr class="f"> `ls -l|fzf` <!--SR:!2024-05-02,3,245-->
+- Paste path into command line:<wbr class="f"> `C-t`
+- Change directory into selected path:<wbr class="f"> `M-C`
 
-For reverse search in history ==(`C-r`)== I use different tool -
-[atuin](https://github.com/atuinsh/atuin).
+For reverse search in history with ==`C-r`== hotkey and ==`Up`== key, I use
+different tool - [atuin](https://github.com/atuinsh/atuin).
 
 ## Sioyek
 
@@ -209,12 +209,12 @@ reading scientific papers.
 
 Basic keybindings:
 
-- Open recent documents list::`O`
-- Fit document to screen ignore margins/with margins::`F9`/`F8`
-- Open table of contents::`t`
-- With selection - search in Google Scholar and library genesis::`ss`/`sl`
-- Open command palette, useful to find functional::`:`
-- Search bookmark in the current file and all the bookmarks::`gb` and `gB`
+- Open recent documents list:<wbr class="f"> `O`
+- Fit document to screen ignore margins/with margins:<wbr class="f"> `F9`/`F8`
+- Open table of contents:<wbr class="f"> `t`
+- With selection - search in Google Scholar and library genesis:<wbr class="f"> `ss`/`sl`
+- Open command palette, useful to find functional:<wbr class="f"> `:`
+- Search bookmark in the current file and all the bookmarks:<wbr class="f"> `gb` and `gB`
 
 ## Slack
 
@@ -222,13 +222,13 @@ Basic keybindings:
 
 Basic keybindings:
 
-Jump to a conversation::`C-k`
-Open direct message's menu::`C-S-k`
-Compose a new message::`C-n`
-Open channel browser::`C-S-l`
-Open the Threads view::`C-S-t`
-Mentions & reactions::`C-S-m`
-Search current channel or conversation::`C-f`
+Jump to a conversation:<wbr class="f"> `C-k`
+Open direct message's menu:<wbr class="f"> `C-S-k`
+Compose a new message:<wbr class="f"> `C-n`
+Open channel browser:<wbr class="f"> `C-S-l`
+Open the Threads view:<wbr class="f"> `C-S-t`
+Mentions & reactions:<wbr class="f"> `C-S-m`
+Search current channel or conversation:<wbr class="f"> `C-f`
 
 ## Blender
 
@@ -236,35 +236,35 @@ Search current channel or conversation::`C-f`
 
 Some keys to navigate and quick actions:
 
-- Switch between Edit and Object mode::`Tab`
-- Change Mode Pie Menu::`C-TAB`
-- Shading Pie Menu::`Z`
-- Navigation Pie Menu::`` ` ``
-- Focus::`.`
-- Isolate::`/`
-- Search operation::`F3`
-- Render image::`F12`
-- Toggle Fly/Walk mode::`~`
-- Zoom to region::`S-B`
+- Switch between Edit and Object mode:<wbr class="f"> `Tab`
+- Change Mode Pie Menu:<wbr class="f"> `C-TAB`
+- Shading Pie Menu:<wbr class="f"> `Z`
+- Navigation Pie Menu:<wbr class="f"> `` ` ``
+- Focus:<wbr class="f"> `.`
+- Isolate:<wbr class="f"> `/`
+- Search operation:<wbr class="f"> `F3`
+- Render image:<wbr class="f"> `F12`
+- Toggle Fly/Walk mode:<wbr class="f"> `~`
+- Zoom to region:<wbr class="f"> `S-B`
 
 ## Krita
 
 I use [[Krita]] as my board and drawing tool.
 
-- Show a palette of brushes, color history and other tools::`RMB`
-- Pan the canvas. Also with middle button drag::`LMB+Space`
-- Freehand Brush Tool::`B`
-- Move Tool::`T`
+- Show a palette of brushes, color history and other tools:<wbr class="f"> `RMB`
+- Pan the canvas. Also with middle button drag:<wbr class="f"> `LMB+Space`
+- Freehand Brush Tool:<wbr class="f"> `B`
+- Move Tool:<wbr class="f"> `T`
 
 ## Inkscape
 
 [[Inkscape]] is a vector graphics editor. I use it rarely, but it's very
 powerful, and I'm planning to learn it more.
 
-- Select and transform objects::`S`
-- Pen Tool::`P`
-- Layers and Objects::`C-S-l`
-- Trace Bitmap::`S-M-b`
+- Select and transform objects:<wbr class="f"> `S`
+- Pen Tool:<wbr class="f"> `P`
+- Layers and Objects:<wbr class="f"> `C-S-l`
+- Trace Bitmap:<wbr class="f"> `S-M-b`
 
 ## External links
 

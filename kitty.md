@@ -48,102 +48,102 @@ shortcuts customization.
 These shortcuts are working only in terminal mode (not in any TUI/Full screen
 console application).
 
-Line up / Line down::`Mod+k` / `Mod+j`
+Line up / Line down:<wbr class="f"> `Mod+k` / `Mod+j`
 
-Page up / Page down::`Mod+u` / `Mod+d`
+Page up / Page down:<wbr class="f"> `Mod+u` / `Mod+d`
 
-Top / Bottom::`Mod+\` / `Mod+/`
+Top / Bottom:<wbr class="f"> `Mod+\` / `Mod+/`
 
-Previous / Next shell prompt vertical position::`Mod+z` / `Mod+x`
+Previous / Next shell prompt vertical position:<wbr class="f"> `Mod+z` / `Mod+x`
 
-Browse scrollback in less::`Mod+h`
+Browse scrollback in less:<wbr class="f"> `Mod+h`
 
-Browse last cmd output::`Mod+g`
+Browse last cmd output:<wbr class="f"> `Mod+g`
 
 ## Tabs
 
-New tab::`Mod-t`
+New tab:<wbr class="f"> `Mod-t`
 
-Close tab::`Mod-q`
+Close tab:<wbr class="f"> `Mod-q`
 
-Next tab / Previous tab::`C-<tab>` / `C-S-<tab>`
+Next tab / Previous tab:<wbr class="f"> `C-<tab>` / `C-S-<tab>`
 
-Switch layout::`Mod-l`
+Switch layout:<wbr class="f"> `Mod-l`
 
-Go to specific tab::`C-M-<tab number>`
+Go to specific tab:<wbr class="f"> `C-M-<tab number>`
 
-Close current tab::`Mod-q`
+Close current tab:<wbr class="f"> `Mod-q`
 
-Move tab forward / backward::`Mod-.` / `Mod-,`
+Move tab forward / backward:<wbr class="f"> `Mod-.` / `Mod-,`
 
-Set tab title::`C-S-M-t`
+Set tab title:<wbr class="f"> `C-S-M-t`
 
 ## Windows
 
-New window::`Mod-RET`
+New window:<wbr class="f"> `Mod-RET`
 
-New OS window::`M-S-RET`, it's my custom shortcut
+New OS window:<wbr class="f"> `M-S-RET`, it's my custom shortcut
 
-Close window::`s-S-c`, it's my custom shortcut
+Close window:<wbr class="f"> `s-S-c`, it's my custom shortcut
 
-Resize window::`Mod-r`
+Resize window:<wbr class="f"> `Mod-r`
 
-Next window / Previous window::`Mod+]` / `Mod+[` * TODO: need rebind
+Next window / Previous window:<wbr class="f"> `Mod+]` / `Mod+[` * TODO: need rebind
 
-Move window forward::`Mod+f`
+Move window forward:<wbr class="f"> `Mod+f`
 
-Move window backward::`Mod+b`
+Move window backward:<wbr class="f"> `Mod+b`
 
 Move window to top `Mod+\``
 
-Visually focus window (with number)::`Mod+F7`
+Visually focus window (with number):<wbr class="f"> `Mod+F7`
 
-Visually swap window (with number)::`Mod+F8`
+Visually swap window (with number):<wbr class="f"> `Mod+F8`
 
-Focus specific window::`Mod+<window number>` (1-9)
+Focus specific window:<wbr class="f"> `Mod+<window number>` (1-9)
 
 TODO: check other window shortcuts
 
 ## Other
 
-Increase font size::`Mod-equal`
-Decrease font size::`Mod-minus`
-Restore font size::`Mod-backspace`
+Increase font size:<wbr class="f"> `Mod-equal`
+Decrease font size:<wbr class="f"> `Mod-minus`
+Restore font size:<wbr class="f"> `Mod-backspace`
 
-Open URL in web browser::`Mod-e`
+Open URL in web browser:<wbr class="f"> `Mod-e`
 
-Edit kitty.conf::`Mod-F2`
+Edit kitty.conf:<wbr class="f"> `Mod-F2`
 
-Reload kitty.conf::`Mod-F5`
+Reload kitty.conf:<wbr class="f"> `Mod-F5`
 
-Show help::`Mod-F1`
+Show help:<wbr class="f"> `Mod-F1`
 
-Copy to clipboard::`Mod-c`
+Copy to clipboard:<wbr class="f"> `Mod-c`
 
-Paste from clipboard::`Mod-v`
+Paste from clipboard:<wbr class="f"> `Mod-v`
 
-Paste from selection::`Mod-s`
+Paste from selection:<wbr class="f"> `Mod-s`
 
-Pass selection to program::`Mod-o` ?
+Pass selection to program:<wbr class="f"> `Mod-o` ?
 
-Toggle full-screen::`Mod-F11`
+Toggle full-screen:<wbr class="f"> `Mod-F11`
 
-Input Unicode character::`C-M-u`, customized
+Input Unicode character:<wbr class="f"> `C-M-u`, customized
 
-Reset the terminal::`Mod-delete` ?
+Reset the terminal:<wbr class="f"> `Mod-delete` ?
 
-Edit kitty.conf::`Mod-f2`
-Reload kitty.conf::`Mod-f5`
-Debug kitty.conf::`Mod-f6`
+Edit kitty.conf:<wbr class="f"> `Mod-f2`
+Reload kitty.conf:<wbr class="f"> `Mod-f5`
+Debug kitty.conf:<wbr class="f"> `Mod-f6`
 
-Open a kitty shell::`Mod-escape`
+Open a kitty shell:<wbr class="f"> `Mod-escape`
 
 ## Custom shortcuts
 
-Switch project using sessionizer::`C-space`
+Switch project using sessionizer:<wbr class="f"> `C-space`
 
-Switch project using sessionizer and ignore duplicate tabs::`C-S-space`
+Switch project using sessionizer and ignore duplicate tabs:<wbr class="f"> `C-S-space`
 
-Find tab::`C-M-F`
+Find tab:<wbr class="f"> `C-M-F`
 
-Start keyboard-driven text selection as a kitten, using [kitty_grab](https://github.com/yurikhan/kitty_grab)::`C-M-c`
+Start keyboard-driven text selection as a kitten, using [kitty_grab](https://github.com/yurikhan/kitty_grab):<wbr class="f"> `C-M-c`

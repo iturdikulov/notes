@@ -2,7 +2,7 @@
 date: 2023-09-25T00:00+03:00
 tags:
   - blog
-  - Unix
+  - unix
 author:
   - korfuri
 external:
@@ -12,10 +12,10 @@ sr-interval: 56
 sr-ease: 168
 ---
 
-# [[NixOS]] on an Oracle Free Tier Ampere machine. Success!
+# NixOS on an Oracle Free Tier Ampere machine. Success!
 
-Oracle does not offer a NixOS image, so it's little complex to set up instance
-here.
+Oracle does not offer a [[NixOS]] image, so it's little complex to set up
+instance here.
 
 ## Create your machine
 
@@ -79,4 +79,5 @@ Guide: [GitHub - Inom-Turdikulov/dotfiles: And I say hey, what's going on?](http
 
 ## Alternative way (not tested)
 
-[GitHub - elitak/nixos-infect](https://github.com/elitak/nixos-infect)
+- [ ] [nixos-anywhere: install nixos everywhere via ssh](https://github.com/nix-community/nixos-anywhere)
+

@@ -2,14 +2,14 @@
 date: 2023-03-12T00:00+03:00
 tags:
   - blog
-  - base
+  - computer_programming
 sr-due: 2024-01-28
 sr-interval: 2
 sr-ease: 229
 ---
 
 # Low-level programming language
-&#10;<br>
+<br class="f">
 > Programming language that involves knowledge of both computer hardware and the
 > coding used to make the computer hardware do actions.
 >

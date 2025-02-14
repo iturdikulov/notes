@@ -2,7 +2,7 @@
 date: 2023-03-19T00:00+03:00
 tags:
   - blog
-  - base
+  - computer_science
 sr-due: 2024-01-29
 sr-interval: 2
 sr-ease: 225
@@ -38,6 +38,6 @@ $\mathcal{O}(N)$== in the array.
 
 If there are $N$ data elements, how many steps will linear search algorithm
 take in the worst case?
-&#10;<br>
+<br class="f">
 Algorithm will take $\mathcal{O}(N)$ steps in the worst case.
 <!--SR:!2024-01-28,8,260-->
