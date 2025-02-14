@@ -39,6 +39,9 @@ consolidate your knowledge is to practice it and test yourself. Personally I
 implement my [[projects]] and [[work|working projects]] to strengthen my
 studies.
 
+> What one fool can do, another can.\
+> — <cite> Richard P. Feynman</cite>
+
 > The only way to learn a new programming language is by writing programs
 > in it.\
 > — <cite>[[Kernighan_and_Ritchie_-_The_C_programming_language]]</cite>
