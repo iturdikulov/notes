@@ -2,10 +2,7 @@
 date: 2023-03-08T00:00+03:00
 tags:
   - blog
-  - base
-sr-due: 2024-01-28
-sr-interval: 1
-sr-ease: 205
+  - computer_graphics
 ---
 
 # Computer graphics
@@ -33,8 +30,11 @@ My outline for learning [[computer_graphics]]. The main software for this is
 
 To understand custom bullet list types check [[my_notation]] note.
 
+- [ ] [Ten Minute Physics](https://matthias-research.github.io/pages/tenMinutePhysics/)
+
+## Inbox
+
 - [Handmade Hero](https://guide.handmadehero.org/), watch course and take notes.
-- [Ten Minute Physics](https://matthias-research.github.io/pages/tenMinutePhysics/)
 - [[Godot]], TODO: own gamedev note
 - [Learn Godot's GDScript From Zero by GDQuest](https://gdquest.itch.io/learn-godot-gdscript)
 - [/] [[Godot]] note research (with documentation).
@@ -58,6 +58,9 @@ To understand custom bullet list types check [[my_notation]] note.
 - [[Godot#Learning path]]
 
 ### Inbox
+
+- [Mathematical animations - Manim](https://www.manim.community/)
+- [Processing, flexible software sketchbook and a language for learning how to code](https://processing.org/)
 
 Computer graphics and game development:
 

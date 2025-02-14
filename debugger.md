@@ -2,10 +2,7 @@
 date: 2023-03-11T00:00+03:00
 tags:
   - blog
-  - base
-sr-due: 2024-01-31
-sr-interval: 5
-sr-ease: 249
+  - computer_programming
 ---
 
 # Debugger
@@ -28,11 +25,13 @@ programs, mainly to solve programming bugs. Debug process can be deep integrated
 with development process.
 
 What main purpose of debugger program?
-&#10;<br>
+<br class="f">
 Inspect how your program running, modify it's state.
 
-## External links
+## Learning path
 
 - [ ] [Debugger FAQ](http://websites.umich.edu/~eecs381/generalFAQ/Debugging.html)
 - [ ] [introduction to GDB a tutorial - Harvard CS50 - YouTube](https://www.youtube.com/watch?v=sCtY--xRUyI)
 - [ ] [Top (Debugging with GDB)](https://sourceware.org/gdb/current/onlinedocs/gdb.html/)
+- [ ] [Guide to Faster, Less Frustrating Debugging](https://heather.cs.ucdavis.edu/matloff/public_html/UnixAndC/CLanguage/Debug.html)
+

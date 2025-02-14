@@ -3,20 +3,17 @@ date: 2025-02-06T11:36+03:00
 tags:
   - blog
   - computer_programming
-sr-due: 2024-01-28
-sr-interval: 2
-sr-ease: 226
 ---
 
 # Programming language
 
 Programming language is a system of?
-&#10;<br>
+<br class="f">
 System of notation for writing [[computer_program]]'s. They are a kind of
 [[computer]] language.
 
 Is there other than text-based programming languages?
-&#10;<br>
+<br class="f">
 Yes, for example visual programming languages.
 > Most programming languages are text-based formal languages, but they may also
 > be graphical [^1].
@@ -40,5 +37,13 @@ my level of interest.
 11. [[PHP]]
 12. [[Ruby]]
 13. [[Haskell]]
+
+## Learning path
+
+- [ ] [What Languages Fix](https://paulgraham.com/fix.html)
+- [ ] [[conditional]]
+- [ ] [[concurency]]
+- [ ] [Comparison of programming languages - Wikipedia](https://en.wikipedia.org/wiki/Comparison_of_programming_languages)
+- [Energy Efficiency across Programming Languages](https://greenlab.di.uminho.pt/wp-content/uploads/2017/09/paperSLE.pdf)
 
 [^1]: [Wikipedia](https://en.wikipedia.org/wiki/Programming_language)

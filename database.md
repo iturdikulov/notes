@@ -70,12 +70,12 @@ Primary key is a column (or set of columns, composite primary key), whose values
 used to ==identify each record in the table, to access them==.
 
 Is primary keys are strictly required?
-&#10;<br>
+<br class="f">
 They are not, but highly recommended. Even if today you don't need them, they can
 be useful in the future.
 
 Primary keys requirements?
-&#10;<br>
+<br class="f">
 - Unique, two or more rows can't have the same primary key values.
 - Primary key values can't be `NULL`.
 - Primary key values usually can't be changed (not recommended).
@@ -88,8 +88,11 @@ columns, not `NULL`, etc.).
 
 Some information from [Simple English Wikipedia, the free encyclopedia](https://simple.wikipedia.org/wiki/Database_normalisation).
 
-## External links
+## Learning path
 
+- [[SQL]], research note
+- [Как хранить в БД древовидные структуры](https://github.com/codedokode/pasta/blob/master/db/trees.md)
+- [Modified Preorder Tree Traversal](https://gist.github.com/tmilos/f2f999b5839e2d42d751)
 - [ ] [Interactive tutorial on SQL | SQL-tutorial.ru search](http://www.sql-tutorial.ru/en/content.html)
 - [ ] [SQL exercises](https://sql-ex.ru/)
 - [ ] [Try Redis](https://try.redis.io/)

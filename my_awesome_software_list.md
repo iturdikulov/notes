@@ -3,9 +3,6 @@ date: 2025-02-07T20:29+03:00
 tags:
   - blog
   - outline
-sr-due: 2023-02-28
-sr-interval: 3
-sr-ease: 226
 ---
 
 # My awesome software list
@@ -17,9 +14,12 @@ Check also [[shell_script#My shell scripts]] and [[dotfiles]].
 
 To understand custom bullet list types check [[my_notation]] note.
 
+- [/] [dotfiles](https://github.com/iturdikulov/dotfiles), personal [[NixOS]],
+  scripts and [[my_awesome_software_list|software]] configuration.
+
 ## Development Tools
 
-- [[patch]] - Apply diff files
+- [[dotfiles]]
 - [[GCC]] - GNU Compiler Collection
 - [[GNU_Debugger]] - Multi-language debugger
 - [[Pycharm]] - Python IDE
@@ -35,11 +35,51 @@ To understand custom bullet list types check [[my_notation]] note.
 - [TeX Live packages](https://tug.org/texlive/) - [[LaTex]] system
 - [ghostscript](https://www.ghostscript.com/) - PostScript interpreter
 - [imgui](https://github.com/ocornut/imgui) - GUI library
+- [Create text-based diagrams with Mermaid - YouTube](https://www.youtube.com/watch?v=4_LdV1cs2sA)
+- Rsync tutorial, [rsync(1) manpage](https://download.samba.org/pub/rsync/rsync.1) and [examples](https://rsync.samba.org/examples.html)
 
 - [T3 chat](https://t3.chat/) - Web wrapper around models
 - [[ChatGPT]] - AI language model
 - [[GitLab]] - Git repository management
 - [[GitHub]] - Code hosting platform
+
+### Text Processing & Search
+
+- [[fzf]] - Command-line fuzzy finder
+- [cloc](https://github.com/AlDanial/cloc) - Code line counter
+- [[jq]] - JSON processor
+- [[ripgrep]] - Regex search tool
+- [ripgrep-all](https://github.com/phiresky/ripgrep-all) - Enhanced ripgrep
+- [[Neovim]] - Text editor, my [[PDE]]
+- [[GNU_Sed]]
+- [[VisiData]]
+- [-] [Emacs](https://www.gnu.org/software/emacs/) - Lisp-based editor
+
+### For programming
+
+- [ipython](https://ipython.org/) - interactive python command shell
+- [jupyter](https://jupyter.org/) - interactive computing across all programming languages
+
+### Version Control
+
+- [[Git]] - Distributed version control system
+- [[fugutive.vim]] - [[Neovim|Vim]] Git wrapper
+- [github-cli](https://cli.github.com/) - GitHub CLI
+- [glab](https://gitlab.com/gitlab-org/cli/) - GitLab CLI
+- [[patch]] - Apply diff files
+
+### Shell & Terminal
+
+- [[Bash]] - Unix shell
+- [[Zsh]] - Unix shell
+- [[tmux]] - Terminal multiplexer
+- [PathPicker](https://github.com/facebook/PathPicker)
+- [-] [Alacritty](https://alacritty.org/) - GPU-accelerated terminal
+- [-] [kitty](https://sw.kovidgoyal.net/kitty/) - Terminal emulator
+
+### Time and Date
+
+- [libfaketime](https://github.com/wolfcw/libfaketime/)
 
 ## Web & Internet
 
@@ -47,6 +87,8 @@ To understand custom bullet list types check [[my_notation]] note.
 - [[Brave]] - Chromium-based browser
 - [[Miniflux]] - RSS reader
 - [lynx](https://lynx.invisible-island.net/) - Text browser
+- [Chrome DevTools](https://developer.chrome.com/docs/devtools)
+- [Firefox DevTools](https://firefox-source-docs.mozilla.org/devtools-user/)
 - [-] [[Newsboat]] - CLI RSS reader
 - [-] [w3m](https://tracker.debian.org/pkg/w3m) - Terminal-based web browser.
 - [-] [[AdGuardHome]] - Ad blocking
@@ -112,32 +154,6 @@ To understand custom bullet list types check [[my_notation]] note.
 - [Fritzing](https://fritzing.org/) - Electronics prototyping
 - [KiCad](https://kicad.org/) - EDA suite
 - [Arduino](https://www.arduino.cc/) - Electronics platform
-
-
-## Version Control
-
-- [[Git]] - Distributed version control system
-- [[fugutive.vim]] - [[Neovim|Vim]] Git wrapper
-- [github-cli](https://cli.github.com/) - GitHub CLI
-- [glab](https://gitlab.com/gitlab-org/cli/) - GitLab CLI
-
-## Shell & Terminal
-
-- [[Bash]] - Unix shell
-- [[Zsh]] - Unix shell
-- [[tmux]] - Terminal multiplexer
-- [-] [Alacritty](https://alacritty.org/) - GPU-accelerated terminal
-- [-] [kitty](https://sw.kovidgoyal.net/kitty/) - Terminal emulator
-
-## Text Processing & Search
-
-- [[fzf]] - Command-line fuzzy finder
-- [cloc](https://github.com/AlDanial/cloc) - Code line counter
-- [[jq]] - JSON processor
-- [[ripgrep]] - Regex search tool
-- [ripgrep-all](https://github.com/phiresky/ripgrep-all) - Enhanced ripgrep
-- [[Neovim]] - Text editor, my [[PDE]]
-- [-] [Emacs](https://www.gnu.org/software/emacs/) - Lisp-based editor
 
 ## Learning & Reference
 

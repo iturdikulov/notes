@@ -2,7 +2,7 @@
 date: 2022-12-29T00:00+03:00
 tags:
   - blog
-  - SR-computer_science
+  - computer_science
 ---
 
 # Computer Science
@@ -32,6 +32,64 @@ Computer science closely related to [[computer_programming]].
 In computer science central role plays
 ==[[algorithm|algorithms]] and [[data_structure|data_structures]]==.
 
+## Core concepts in computer science
+
+Core computer science concepts from Wikipedia [^1].
+
+The theory of computation helping to create **theoretical models (abstract
+models)** of how computers work (==computation==) and understanding the **types
+of problems (general classes of problems)** these computers can solve. So it's
+about creating abstract computing models and understand which general classes of
+problems these models can solve.
+
+Cryptography and computer security fields is needed to study (and practice) how
+prevent security vulnerabilities and how to communicate securely (secure data
+transmission).
+
+Computer graphics and computational geometry address the generation of
+==images==.
+
+Programming language theory considers different ways to describe computational
+processes.
+Different programming languages can implement computational processes
+in different ways and can be used to solve different classes of problems.
+
+Database theory concerns the management of repositories of ==data==. For
+example, you have a bunch of messy data (desktop shortcuts), and you can
+organize them in some structures (group, sort, etc.) to manage them more
+effectively.
+
+==Human–computer interaction== investigates the interfaces through which humans
+and computers interact. There many UI specialists, which usually haven't
+developing software skills, but they know how to create effective UI.
+
+Software engineering focuses on the design and principles behind ==developing
+software==. And usually software engineers solving problems in real world with
+requirements from customers.
+
+There are many areas (complex systems), which investigate the principles and
+design in their own area. Main areas are: [[OS|operating systems]],
+[[computer_network]] and embedded systems.
+
+What describes Computer Architecture?
+<br class="f">
+[[computer_architecture|Computer architecture]] describes the construction of
+computer components and computer-operated equipment (Input, Output, CPU, RAM).
+
+Goal of Artificial intelligence?
+<br class="f">
+[[artificial_intelligence|Artificial intelligence]] and machine learning aim to
+synthesize goal-orientated processes such as problem-solving, decision-making,
+environmental adaptation, planning and learning found in humans and animals.
+In other words replicate humans and animals processes/behavior.
+
+Within artificial intelligence, computer vision aims to understand and process
+**image and video data**, while natural language processing aims to understand
+and process **textual and linguistic data**.
+
+The Turing Award is generally recognized as the highest distinction in computer
+science.
+
 ## Computer science learning path
 
 I place here all my learning resources related to [[computer_programming]], here
@@ -39,49 +97,21 @@ is no strict grouping, but I'm trying to keep it organized by priority.
 
 To understand custom bullet list types check [[my_notation]] note.
 
-- [!] [[Petzold_-_Code]], recently (2022) was rewritten, contains many "base"
-  information obout computers and some stuff related to
-  [[computer_programming]].
-- [!] [[Wengrow_-_Data_structures_and_algorithms]], actually I'm revisiting this
-  book (not fully finished in 2023). It was rewritten in 2023 and 2024 (volumes
-  1 and 2), and I want to go through it again.
-- [[Cormen_et_al_-_Introduction_to_algorithms]], read and take notes.
+Active sources:
+
+- [[Wengrow_-_Data_structures_and_algorithms]]
 - [[LeetCode]] - research and solve problems.
-- [ ] [Understanding the formal definition of Big-O](https://justin.abrah.ms/computer-science/understanding-big-o-formal-definition.html )
-- [ ] Flake - The computational beauty of nature
-- [ ] [[Cormen_-_Algorithms_unlocked]]
+- Jay Vs. Leetcode
+- [Code Interview University](https://github.com/jwasham/coding-interview-university)
 
-### Articles, websites and notes
+### High-level
 
-- [!] [Реализация алгоритма Дейкстры на Python — Записки
-  преподавателя](https://waksoft.susu.ru/2021/10/21/realizacziya-algoritma-dejkstry-na-python/),
-  [html archive](./articles/Waksoft_-_alogirthm_dejkstry_na_Python.html)
-- [ ] [Основы алгоритмов — Хендбук от Яндекс
-  Образования](https://education.yandex.ru/handbook/algorithms)
-- [ ] [[LeetCode]], research a topic
-- [ ] [Jay Vs. LeetCode](https://www.commonsensedev.com/jay-vs-leetcode)
-- [ ] [Data Structure
-  Visualization](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html)
-- [ ] [Visualising data structures and algorithms through
-  animation](https://visualgo.net/en/sorting)
-- [ ] [Red Blob Games](https://www.redblobgames.com/)
-
-### Videos courses
-
-- [ ] [Algorithms Specialization (Stanford)
-  Coursera](https://www.coursera.org/specializations/algorithms#courses)
-- [ ] [The Last Algorithms Course You'll
-  Need](https://frontendmasters.com/courses/algorithms/). I'm planning to use it
-  as verification of Wengrow book.
-
-### High-level topics
-
-- [!] [[algorithm]]
-- [!] [[big_O_notation]]
-- [!] [[computational_complexity]]
+- [[algorithm]]
+- [[big_O_notation]]
+- [[computational_complexity]]
 - Asymptotic analysis
 - Data Structures
-    - [!] [[array]]
+    - [[array]]
     - [[set]]
     - Linked Lists
     - [[stack]]
@@ -167,7 +197,34 @@ To understand custom bullet list types check [[my_notation]] note.
     - Geometry, Convex hull
     - Discrete math
 
-### Inbox (Need review)
+### Inbox
+
+- [is looping through an array easier on the memory than a long recursion](https://www.quora.com/In-computer-programming-is-looping-through-an-array-easier-on-the-memory-than-a-long-recursion)
+- [CRDT: Conflict-free Replicated Data Types / Хабр](https://habr.com/ru/articles/418897/)
+- [[Cormen_et_al_-_Introduction_to_algorithms]], read and take notes.
+- [!] [Реализация алгоритма Дейкстры на Python — Записки
+  преподавателя](https://waksoft.susu.ru/2021/10/21/realizacziya-algoritma-dejkstry-na-python/),
+  [html archive](./articles/Waksoft_-_alogirthm_dejkstry_na_Python.html)
+- [ ] [Основы алгоритмов — Хендбук от Яндекс
+  Образования](https://education.yandex.ru/handbook/algorithms)
+- [ ] [[LeetCode]], research a topic
+- [ ] [Jay Vs. LeetCode](https://www.commonsensedev.com/jay-vs-leetcode)
+- [ ] [Data Structure
+  Visualization](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html)
+- [ ] [Visualising data structures and algorithms through
+  animation](https://visualgo.net/en/sorting)
+- [ ] [Red Blob Games](https://www.redblobgames.com/)
+
+- [ ] [Algorithms Specialization (Stanford)
+  Coursera](https://www.coursera.org/specializations/algorithms#courses)
+- [ ] [The Last Algorithms Course You'll
+  Need](https://frontendmasters.com/courses/algorithms/). I'm planning to use it
+  as verification of Wengrow book.
+
+- [ ] [Understanding the formal definition of Big-O](https://justin.abrah.ms/computer-science/understanding-big-o-formal-definition.html )
+- [ ] Flake - The computational beauty of nature
+- [ ] [[Cormen_-_Algorithms_unlocked]]
+- [ ] Competitive Programmer’s Handbook
 
 - [[Wikipedia_-_Glossary_of_computer_science]]
 - [[InterviewCake_Team_-_Coding_interview_practice|InterviewCake Team - Coding Interview Practice]]
@@ -178,7 +235,6 @@ To understand custom bullet list types check [[my_notation]] note.
 - [The Last Algorithms Course You'll Need](https://frontendmasters.com/courses/algorithms/)
 - [[Polya_-_How_to_solve_it|Polya - How to solve it]]
 - [[Warren_Hackers_Delight|Warren - Hacker's Delight]]
-- [[Washam_Coding_Interview_University]]
 - [[Martin_-_Interactive_coding_challenges]]
 - [[Martin_-_System_design_primer]]
 - [[Sedgewick_and_Wayne_-_Algorithms_Part_1]]
@@ -198,62 +254,7 @@ To understand custom bullet list types check [[my_notation]] note.
 - [Introduction to Computer Science and Programming in Python](https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/)
 - [Python Data Structures/Algorithms Class](https://www.youtube.com/playlist?list=PLtbC5OfOR8aqA6CJwWTRUITgGpUy1Umr3)
 - [Problem Solving with Algorithms and Data Structures using Python](https://runestone.academy/ns/books/published/pythonds/index.html)
-
-## Core concepts in computer science [^1]
-
-The theory of computation helping to create **theoretical models (abstract
-models)** of how computers work (==computation==) and understanding the **types
-of problems (general classes of problems)** these computers can solve. So it's
-about creating abstract computing models and understand which general classes of
-problems these models can solve.
-
-Cryptography and computer security fields is needed to study (and practice) how
-prevent security vulnerabilities and how to communicate securely (secure data
-transmission).
-
-Computer graphics and computational geometry address the generation of
-==images==.
-
-Programming language theory considers different ways to describe computational
-processes.
-Different programming languages can implement computational processes
-in different ways and can be used to solve different classes of problems.
-
-Database theory concerns the management of repositories of ==data==. For
-example, you have a bunch of messy data (desktop shortcuts), and you can
-organize them in some structures (group, sort, etc.) to manage them more
-effectively.
-
-==Human–computer interaction== investigates the interfaces through which humans
-and computers interact. There many UI specialists, which usually haven't
-developing software skills, but they know how to create effective UI.
-
-Software engineering focuses on the design and principles behind ==developing
-software==. And usually software engineers solving problems in real world with
-requirements from customers.
-
-There are many areas (complex systems), which investigate the principles and
-design in their own area. Main areas are: [[OS|operating systems]],
-[[computer_network]] and embedded systems.
-
-What describes Computer Architecture?
-&#10;<br>
-[[computer_architecture|Computer architecture]] describes the construction of
-computer components and computer-operated equipment (Input, Output, CPU, RAM).
-
-Goal of Artificial intelligence?
-&#10;<br>
-[[artificial_intelligence|Artificial intelligence]] and machine learning aim to
-synthesize goal-orientated processes such as problem-solving, decision-making,
-environmental adaptation, planning and learning found in humans and animals.
-In other words replicate humans and animals processes/behavior.
-
-Within artificial intelligence, computer vision aims to understand and process
-**image and video data**, while natural language processing aims to understand
-and process **textual and linguistic data**.
-
-The Turing Award is generally recognized as the highest distinction in computer
-science.
+- [Continually updated, interactive, and test-driven coding challenges, with Anki flashcards.](https://github.com/donnemartin/interactive-coding-challenges)
 
 ## References
 
