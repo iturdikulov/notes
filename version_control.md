@@ -33,9 +33,8 @@ source code, build artifacts and other files.
 - [ ] [Команда Git Rerere](https://medium.com/nuances-of-programming/%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D0%B0-git-rerere-%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D0%B7%D0%B8%D1%80%D1%83%D0%B9%D1%82%D0%B5-%D1%80%D0%B5%D1%88%D0%B5%D0%BD%D0%B8%D1%8F-%D0%B4%D0%BB%D1%8F-%D1%83%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B5%D0%BD%D0%B8%D1%8F-%D0%BA%D0%BE%D0%BD%D1%84%D0%BB%D0%B8%D0%BA%D1%82%D0%BE%D0%B2-%D1%81%D0%BB%D0%B8%D1%8F%D0%BD%D0%B8%D1%8F-5dac55edadcc)
 - [ ] [Semantic Commit Messages · GitHub](https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716)
 - [ ] [I hate Conventional Commits — musicmatzes blog](https://beyermatthias.de/i-hate-conventional-commits )
-
-- git bisect
-- Evans How Git Works
+- [ ] git bisect
+- [ ] Evans How Git Works
 
 - [ ] [GitHub - conventional-commits/conventionalcommits.org: The conventional commits specification](https://github.com/conventional-commits/conventionalcommits.org)
 

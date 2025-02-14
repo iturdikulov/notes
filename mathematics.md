@@ -46,6 +46,7 @@ To understand custom bullet list types check [[my_notation]] note.
 
 ### Inbox
 
+- Прелюдия к математике
 - [LifeTensor - YouTube](https://www.youtube.com/@LifeTensor/videos)
 - [[Khan_Academy]], mathematics
 - [Чудесное совпадение или ожидаемая связь: почему π²≈g / Хабр](https://habr.com/ru/articles/812903/)

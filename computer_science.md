@@ -199,6 +199,8 @@ Active sources:
 
 ### Inbox
 
+- [[InterviewCake_Team_-_Coding_interview_practice|InterviewCake Team - Coding Interview Practice]]
+
 - [is looping through an array easier on the memory than a long recursion](https://www.quora.com/In-computer-programming-is-looping-through-an-array-easier-on-the-memory-than-a-long-recursion)
 - [CRDT: Conflict-free Replicated Data Types / Хабр](https://habr.com/ru/articles/418897/)
 - [[Cormen_et_al_-_Introduction_to_algorithms]], read and take notes.
@@ -225,9 +227,9 @@ Active sources:
 - [ ] Flake - The computational beauty of nature
 - [ ] [[Cormen_-_Algorithms_unlocked]]
 - [ ] Competitive Programmer’s Handbook
+- [ ] Christian - Algorithms to Live By
 
 - [[Wikipedia_-_Glossary_of_computer_science]]
-- [[InterviewCake_Team_-_Coding_interview_practice|InterviewCake Team - Coding Interview Practice]]
 - [Wikipedia - List of algorithms](https://en.wikipedia.org/wiki/List_of_algorithms)
 - [[Nova_Byrne_-_Tech_yourself_computer_science]]
 - [The Man Who Revolutionized Computer Science With Math - YouTube](https://www.youtube.com/watch?v=rkZzg7Vowao)
@@ -255,6 +257,7 @@ Active sources:
 - [Python Data Structures/Algorithms Class](https://www.youtube.com/playlist?list=PLtbC5OfOR8aqA6CJwWTRUITgGpUy1Umr3)
 - [Problem Solving with Algorithms and Data Structures using Python](https://runestone.academy/ns/books/published/pythonds/index.html)
 - [Continually updated, interactive, and test-driven coding challenges, with Anki flashcards.](https://github.com/donnemartin/interactive-coding-challenges)
+
 
 ## References
 

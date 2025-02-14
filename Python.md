@@ -109,8 +109,6 @@ List of materials to review with [[my_notation]]:
 - [Recursion in Python: An Introduction – Real Python](https://realpython.com/python-recursion/)
 - [[Xiryanov_-_Praktika_programmirovaniya_na_Python|Практика программирования на Python]].
 
-- [[Real_Python_Community_-_Python_tutorials|Real Python Tutorials]] and [Real Python Purchases](https://realpython.com/account/purchases/)
-
 - [awesome-python-typing](https://github.com/typeddjango/awesome-python-typing)
 - [Python dataclasses will save you HOURS, also featuring attrs - YouTube](https://youtu.be/vBH6GRJ1REM)
 - [Python Decorators 101 – Real Python](https://realpython.com/courses/python-decorators-101/)

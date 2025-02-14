@@ -42,18 +42,20 @@ Latest standard:
 
 - [!] [[C]], create flashcards with Learn C in Y minutes
 - [[Kernighan_and_Ritchie_-_The_C]]
+    - [[Costrasel_-_The_C_programming_language_solutions]]
 - TODO: [Learn C the Hard Way](https://learncodethehardway.org/c/)
 - [Собрал в одном большом гайде всё, что хотел бы знать, когда изучал язык C / Хабр](https://habr.com/ru/companies/ncloudtech/articles/871748/)
 - [[Xiryanov_-_Kurs_molodogo_bojcza_MFTI_yazyk_S]], to learn basics of [[C]].
 - [C Reference Card](img/C_Reference_Card_ANSI.v2.2.pdf)
 
-- [[Kernighan_and_Ritchie_-_The_C]]
-- [[Costrasel_-_The_C_programming_language_solutions]]
 - [Learn C the Hard Way](https://learncodethehardway.org/c/)
 
 - [Comparing C to machine language - YouTube](https://www.youtube.com/watch?v=yOyaJXpAYZQ)
 - [Why C is so Influential - Computerphile - YouTube](https://www.youtube.com/watch?v=ci1PJexnfNE)
 - [The GNU C Library - GNU Project - Free Software Foundation (FSF)](https://www.gnu.org/software/libc/manual/)
 - [15 Years Writing C++ - Advice for new programmers - YouTube](https://www.youtube.com/watch?v=37VZu3b045k)
+
+- Copes - The C Handbook
+- Gustedt - modern C
 
 - [/] [[C_cheat-sheet]]

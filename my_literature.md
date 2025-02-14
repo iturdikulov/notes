@@ -14,6 +14,7 @@ sr-ease: 227
 <!-- TODO: MARK physical books -->
 <!-- TODO: verify originals, wiki links -->
 
+
 TODO: very scratchy, need to be rewritten and chaos fixed.
 TODO: sync with other notes, DRY (move books in related sections)
 
@@ -60,116 +61,8 @@ adding a link at the end of [[#Inbox]] section.
 - [Божественная комедия — Википедия](https://ru.wikipedia.org/wiki/%D0%91%D0%BE%D0%B6%D0%B5%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F_%D0%BA%D0%BE%D0%BC%D0%B5%D0%B4%D0%B8%D1%8F)
 - Александр Грин (Юлия Синелобова) – Вор в лесу
 
-- [[Batchelder_-_Getting_started_testing]]
-- Okken - python testing with pytest
-- [[Hillard_-_testing_with_pytest]]
-- [[Abelson_and_Sussman_-_SICP]]
-- [[Aho_Lam_et_al_-_Compilers]]
-- [[Brooks_-_Mythical_man-month]]
-- [[CHernixovskaya_-_English_start-up]]
-- [[Chacon_and_Ben_-_Pro_git]]
-- [[Cneude_-_Building_your_mouseless_development_environment]]
-- [[Cormen_-_Algorithms_unlocked]]
-- [[Cormen_et_al_-_Introduction_to_algorithms]]
-- [[Costrasel_-_The_C_programming_language_solutions]]
-- [[Craig_-_Python_examples]]
-- [[Demidovich_-_Sbornik_zadach_i_uprazhnenij_po_matematicheskomu_analizu]]
 - [[Detskaya_literatura_-_Biblioteka_mirovoj_literatury_dlya_detej]]
 - [[Ekzyuperi_-_CZitadel]]
-- [[Emelin_-_Kratchajshij_kurs_shkolnoj_matematiki]]
-- [[Evans_-_So_you_want_to_be_a_WizarD]]
-- [[Flanagan_-_JavaScript]]
-- Kantor - browser
-- Kantor - JavaScript
-- Kantor - thematic sections
-- [[Freeman_etal_-_Head_first_design_patterns]]
-- [[Fujita_-_Zanimatelnaya_fizika_elektrichestvo]]
-- [[Godot_community_-_Godot_demo_projects]]
-- [[Greenfelds_-_Two_scoops_of_django_3.x]]
-- [[Gusfield_-_Algorithms_on_strings_trees_and_sequences]]
-- [[HK-SHAO_-_Godot_raytracing_demo]]
-- [[Heartbeast_-_Godot_tutorials]]
-- [[Hopcroft_et_al_-_Introduction_to_automata_theory_languages_and_computation]]
-- [[InterviewCake_Team_-_Coding_interview_practice]]
-- [[Irianto_-_Learn_Vim]]
-- [[Javidx9_-_Code_it_yourself]]
-- [[Keon_-_Pythonic_data_structures]]
-- [[Kernighan_and_Pike_-_The_practice_of_programming]]
-- [[Kernighan_and_Plauger_-_The_elements_of_programming_style]]
-- [[Kernighan_and_Ritchie_-_The_C]]
-- [[Kiselyov_-_Elementy_algebry_i_analiza_chast_1]]
-- [[Kun_-_A_programmers_introduction_to_mathematics]]
-- [[Kushnirenko_-_Programmirovanie_dlya_matematikov]]
-- [[Manzur_and_Marques_-_Godot_engine_game_development]]
-- [[Martin_-_Interactive_coding_challenges]]
-- [[Martin_-_System_design_primer]]
-- [[Martin_Fowler_-_Refactoring]]
-- [[Math_is_fun_community_-_Math_is_fun]]
-- [[Matthes_-_Python_crash_course]]
-- [[McConnell_-_Code_complete]]
-- [[Neil_-_Modern_Vim]]
-- [[Neil_-_Practical_Vim]]
-- [[Nova_Byrne_-_Tech_yourself_computer_science]]
-- [[Polya_-_How_to_solve_it]]
-- [[Rainwater_-_Herding_cats]]
-- [[Ramalho_-_Fluent_Python]]
-- [[Raylib_community_-_Raylib]]
-- [[Real_Python_Community_-_Python_tutorials]]
-- [[Romanovskij_-_Diskretnyj_analiz]]
-- [[San_Diego_University_-_Algorithmic_toolbox]]
-- [[Schroder_-_Mathematical_analysis]]
-- [[Sedgewick_and_Wayne_-_Algorithms_Part_1]]
-- [[Sedgewick_and_Wayne_-_Algorithms_Part_2]]
-- [[Slatkin_-_Effective_Python]]
-- [[Tanenbaum_and_Bos_-_Modern_operating_systems]]
-- [[Vilenkin_-_populryanaya_kombinatorika]]
-- [[Xendli_-_Schitajte_v_ume_kak_kompyuter]]
-- [[Yourdon_-_Death_march]]
-- [[Zorich_-_Matematicheskij_analiz]]
-- Прелюдия к математике
-- Aziz and Lee and Prakash-Elements of Programming Interviews
-- Baechler and Greer-Blender 3D by Example
-- Bentley - Programming Pearls
-- Biancuzzi - Masterminds of Programming
-- Blandy - Programming Rust
-- Bodner - Learning Go
-- Bradfield - Godot 4 gamedev projects
-- Bryant - Computer Systems
-- Christian - Algorithms to Live By
-- Copes - The C Handbook
-- Dewdney - The New Turing Omnibus
-- Dromey - How to Solve It by Computer
-- Edwards - Lets Go
-- Evans - how git works
-- Gomel University - mikroprocessory i kompjutery
-- GOST R 60.0.7.1 - 2016 roboty
-- Gusfield - Algorithms on strings trees and sequences
-- Gustedt - modern C
-- Harsanyi - 100 Go Mistakes
-- Iliev - Introduction to SQL
-- Interview Cake - Coding Interview Practice
-- James - The Tao of Programming
-- Jan - Blender Secrets
-- Laaksonen - competitive programmers handbook
-- Laaksonen - Olimpiadnoie proghrammirovaniie
-- Litvak and Raygorodskiy - Komu nuzhna matiematika
-- Meeks and Dufour D3.js in Action
-- Miguel - React Mega Tutorial
-- Mike - sozdanie videoighr PyGame
-- Morgunov - PostgreSQL osnovy iazyka SQL
-- Murphy - Essential grammar in Use Elementary
-- Murphy - Essential grammar in Use Intermediate
-- Obi Inside The Python Virtual Machine
-- Obuz - gamedev with blender and godot
-- Savvateev - matiematika dlia ghumanitariiev
-- Savvateev - vviedieniie v nastoiashchuiu matiematiku
-- Silberschatz and Henry and Sudarshan - DB system concepts
-- Spolsky - The Best Software Writing I
-- Strogatz - The Joy of x
-- Tolkien - The Silmarillion
-- Vygodskij - Spravochnik po eliemientarnoi matiematikie
-- Winter and Manshreck and Wright - Software Engineering at Google
-- Worral - Proofs and Refutations
 
 - [Don't Panic by Neil Gaiman | Open Library](https://openlibrary.org/books/OL8914483M/Don't_Panic?mode=all)
 - [Айзек Азимов «Я, робот» | Лаборатория Фантастики](https://fantlab.ru/work688)
@@ -225,8 +118,45 @@ adding a link at the end of [[#Inbox]] section.
 - Территория — роман Олега Куваева
 - Лабиринт отражений
 - [Таинственный остров](https://ru.wikipedia.org/wiki/%D0%A2%D0%B0%D0%B8%D0%BD%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9_%D0%BE%D1%81%D1%82%D1%80%D0%BE%D0%B2)
-- Лю Цысинь (Оробчук Сергей) – Задача трех тел (с музыкальным
-  сопровождением)
+- Лю Цысинь (Оробчук Сергей) – Задача трех тел (с музыкальным сопровождением)
+
+- [Becoming a Technical Leader <sub>An Organic Problem-Solving Approach</sub>](https://amzn.to/1S6XLHD)
+- Winter and Manshreck and Wright - Software Engineering at Google
+- [The Clean Coder <sub>A Code of Conduct for Professional Programmers</sub>](https://amzn.to/1S6YGrH)
+- Aziz and Lee and Prakash-Elements of Programming Interviews
+- Baechler and Greer-Blender 3D by Example
+- Bentley - Programming Pearls
+- Biancuzzi - Masterminds of Programming
+- Blandy - Programming Rust
+- Bodner - Learning Go
+- Bryant - Computer Systems
+- Dewdney - The New Turing Omnibus
+- Dromey - How to Solve It by Computer
+- Gomel University - mikroprocessory i kompjutery
+- GOST R 60.0.7.1 - 2016 roboty
+- Gusfield - Algorithms on strings trees and sequences
+- Harsanyi - 100 Go Mistakes
+- James - The Tao of Programming
+- Jan - Blender Secrets
+- Laaksonen - competitive programmers handbook
+- Laaksonen - Olimpiadnoie proghrammirovaniie
+- Litvak and Raygorodskiy - Komu nuzhna matiematika
+- Meeks and Dufour D3.js in Action
+- Miguel - React Mega Tutorial
+- Mike - sozdanie videoighr PyGame
+- Morgunov - PostgreSQL osnovy iazyka SQL
+- Murphy - Essential grammar in Use Elementary
+- Murphy - Essential grammar in Use Intermediate
+- Obi Inside The Python Virtual Machine
+- Obuz - gamedev with blender and godot
+- Savvateev - matiematika dlia ghumanitariiev
+- Savvateev - vviedieniie v nastoiashchuiu matiematiku
+- Silberschatz and Henry and Sudarshan - DB system concepts
+- Spolsky - The Best Software Writing I
+- Strogatz - The Joy of x
+- Tolkien - The Silmarillion
+- Vygodskij - Spravochnik po eliemientarnoi matiematikie
+- Worral - Proofs and Refutations
 - Ружья, микробы и сталь. История человеческих сообществ
 - [ADHD 2.0: New Science and Essential Strategies for Thriving with Distraction](https://www.amazon.com/ADHD-2-0-Essential-Strategies-Distraction/dp/B08775GG3K/)
 - xkcd: volume 0
@@ -243,8 +173,6 @@ adding a link at the end of [[#Inbox]] section.
 
 - [Getting Real <sub>The Smarter, Faster, Easier Way to Build a Successful Web Application</sub>](https://amzn.to/1SD1FHK)
 - [Refactoring: Improving the Design of Existing Code](https://amzn.to/1S6Z49J)
-- [The Clean Coder <sub>A Code of Conduct for Professional Programmers</sub>](https://amzn.to/1S6YGrH)
-- [Becoming a Technical Leader <sub>An Organic Problem-Solving Approach</sub>](https://amzn.to/1S6XLHD)
 - [Clean Code <sub>A Handbook of Agile Software Craftsmanship</sub>](https://amzn.to/1S6YFnH)
 - [Domain-Driven Design <sub>Tackling Complexity in the Heart of Software</sub>](https://amzn.to/1S6WwIL)
 - [Hacker's Delight](https://amzn.to/1S6WsIQ)
@@ -390,8 +318,6 @@ adding a link at the end of [[#Inbox]] section.
   ![[./img/ref-Science_fiction_novel_flowchart.jpg]]
 - [A Guide to Navigating NPR's Top 100 Science Fiction and Fantasy Books](https://archive.org/details/NPRFlowchart)
   ![[./img/ref-NPR_science_and_fantasy_fiction_flowchart.jpg]]
-
-## External links
 
 - [Reddit - FREEMEDIAHECKYEAH](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/reading/)
 - [LiveLib](https://www.livelib.ru/)

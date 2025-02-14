@@ -66,7 +66,6 @@ enough to learn something new. My actual current learning list is aviable with
 `t project:learn` command ([[Taskwarrior]]).
 
 - [ ] [Copying Better: How To Acquire The Tacit Knowledge of Experts](https://commoncog.com/how-to-learn-tacit-knowledge/)
-- [ ] [[Evans_-_So_you_want_to_be_a_WizarD]]
 - [ ] [[Syd_-_GTD_with_taskwarrior]]
 - [ ] [Supermemo Wiki](https://supermemo.guru)
 - [ ] [[Sonmez_-_Gibkie_navyki]]

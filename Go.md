@@ -25,4 +25,5 @@ sr-ease: 265
 - [ ] [[Go_tour]]
 - [ ] [Lean the Go Programming Language](https://go.dev/learn/)
 - HTMX and Go, ThePrimeagen
+- Edwards - Lets Go
 - [/] [[Go_cheat-sheet]]

@@ -33,6 +33,7 @@ To understand custom bullet list types check [[my_notation]] note.
 
 ### Inbox
 
+- [[Fujita_-_Zanimatelnaya_fizika_elektrichestvo]]
 - [ ] [Metric prefix - Wikipedia](https://en.wikipedia.org/wiki/Metric_prefix)
 - [ ] [Physics Index](https://www.mathsisfun.com/physics/index.html)
 - [ ] [Electromagnetic radiation - Wikipedia](https://en.wikipedia.org/wiki/Electromagnetic_radiation)

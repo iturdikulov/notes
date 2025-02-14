@@ -55,6 +55,7 @@ _SQL components diagram_
 - [ ] [smarteist - SQL cheat sheet](https://gist.github.com/smarteist/dc19be1101c0041e5963eba3772c3f67)
 - [ ] [SQLite: How it works, by Richard Hipp - YouTube](https://www.youtube.com/watch?v=ZSKLA81tBis)
 - [/] [[Forta_-_SQL_za_10_minut]]
+- [ ] Iliev - Introduction to SQL
 - [ ] [Оптимизация SQL запросов / Хабр](https://habr.com/ru/articles/861604/)
 
 ### RDBMS

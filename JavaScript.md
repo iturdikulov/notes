@@ -26,9 +26,13 @@ tags:
 - [From 0 to Production - The Modern React Tutorial (RSCs, Next.js, Shadui, Drizzle, TS and more) - YouTube](https://www.youtube.com/watch?v=d5x0JCZbAJs)
 - [Thinking in React](https://react.dev/learn/thinking-in-react)
 - Complete Intro to React.
-- [ ] [Современный учебник JavaScript](https://learn.javascript.ru/)
 - [ ] [Thinking in React – React]( https://react.dev/learn/thinking-in-react)
 - [ ] [Essential Typescript for React](https://www.jacobparis.com/content/react-ts)
+
+- [ ] [Современный учебник JavaScript](https://learn.javascript.ru/)
+    - Kantor - browser
+    - Kantor - JavaScript
+    - Kantor - thematic sections
 
 - [[Flanagan_-_JavaScript]]
 - [Why async: JavaScript and the real world](https://frontarm.com/courses/async-javascript/promises/why-async/)
