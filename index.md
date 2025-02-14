@@ -48,37 +48,87 @@ To get email address please try to use **one** of these methods:
 
 Other ways to contact me **maybe** I'll share through email contact channel.
 
-## My primary activities list
+## My primary goals and related activities list
 
-I store here my primary activities, and in same time
-[[spaced_repetition#Flashcard|flashcards]] to review how I follow these
-activities as a habit, did I do it or not dayly/weekly/monthly?
+I store here my primary goals and related sub-goals here, they are in same time
+habits [[spaced_repetition#Flashcard|flashcards]], which allow me to track them.
 
-- Work on current projects **daily**::[[projects]] <!--SR:!2025-01-31,1,226-->
-- Learn something new **daily**::[[learning]] <!--SR:!2025-02-01,2,246-->
-- Study core computer science concepts **daily**::[[computer_science]] <!--SR:!2025-01-31,1,226-->
-- Code awesome programs **daily**::[[computer_programming]] <!--SR:!2025-01-31,1,226-->
-- Learn math concepts and solve math problems **daily**::[[mathematics]] <!--SR:!2025-01-31,1,226-->
+Do I'm making some progress dayly/weekly/monthly/quartaly/yearly,
+do I need to change something, these flashcards are helping to answer this.
 
-- Improve my code and text writing skills with Neovim every **week**::[[Neovim]] <!--SR:!2025-01-31,1,226-->
-- Learn concepts of Unix and Linux, CLI, automate tasks every **week**::[[Unix]] <!--SR:!2025-01-31,1,226-->
-- Work on computer graphics projects every **week**::[[computer_graphics]] <!--SR:!2025-01-31,1,226-->
-- Study core AI concepts every **week**::[[artificial_intelligence]] <!--SR:!2025-01-31,1,226-->
-- Sketch/Paint/Design something every **week**::[[art]] <!--SR:!2025-01-31,1,226-->
-- Learn physics concepts, solve physics problems and labwork every **week**::[[physics]] <!--SR:!2025-01-31,1,226-->
-- Learn chemistry concepts and labwork every **week**::[[chemistry]] <!--SR:!2025-01-31,1,226-->
-- Study psychology concepts and apply them every **week**::[[psychology]] <!--SR:!2025-02-01,2,246-->
-- Improve English language writing and speaking skills every **week**::[[English]] <!--SR:!2025-01-31,1,226-->
-- Improve Russian language writing and speaking skills every **week**::[[Russian]] <!--SR:!2025-01-31,1,226-->
-- Learn digital electronics and build circuits every **month**::[[digital_electronics]] <!--SR:!2025-01-31,1,226-->
+> [!NOTE]
+> Keep It Fun, otherwise you will never form habits with your activities.
 
-- Exercise, eat, sleep, meditate for better health, **each day**::[[my_health]] <!--SR:!2025-01-31,1,226-->
-- Socialize with friends, family, colleagues, **each day**::[[people]] <!--SR:!2025-01-31,1,226-->
-- Explore something new in the world and avoid doomscroll::[[my_news]] <!--SR:!2025-02-02,3,266-->
-- Listen and casually try to create music::[[my_music]] <!--SR:!2025-01-31,1,226-->
-- Read and casually try to create literature::[[my_literature]] <!--SR:!2025-01-31,1,226-->
-- Watch and record videos::[[my_videos]] <!--SR:!2025-01-31,1,226-->
-- Watch and analyze movies::[[my_movies]] <!--SR:!2025-01-31,1,226-->
-- Edit and organize my photos and pictures::[[my_pictures]] <!--SR:!2025-02-01,2,246-->
-- Play and analyze games::[[my_games]] <!--SR:!2025-01-31,1,226-->
-- Manage and organize my favorite software::[[my_awesome_software_list]] <!--SR:!2025-02-02,3,266-->
+### Goal 1: Become an effective programmer
+
+I want to become a very **effective** and simple programmer, to solve
+**important** problems and for my own pleasure. For this goal I need to create
+truely effective and simple programs. This requires natural sciences, computer
+science and deep programming knowledge. Thus, I define my sub-goals:
+
+- Learn math concepts and solve math problems every **week**, to
+  imporve my problems solving skills.
+  <br class="f">
+  [[mathematics]]
+
+- Learn physics, chemistry, philosophy and psychology every **week**, to
+  understand the world better, and discover effective solutions from nature.
+  <br class="f">
+  [[physics]], [[chemistry]], [[philosophy_and_psychology]]
+
+- Learn computer science, programming and AI **daily**, to progress in my goal.
+  <br class="f">
+  [[computer_science]], [[computer_programming]], [[artificial_intelligence]]
+
+- Improve my code and text writing skills, proficiency with development tools
+  every **week**, to improve my productivity.
+  <br class="f">
+  [[Neovim]], [[Unix]], [[my_awesome_software_list]]
+
+- Work on projects **daily**, to solve important problems and for my own
+  pleasure.
+  <br class="f">
+  [[projects]]
+
+- Update my website articles and posts in social platforms **weekly**, to share
+  my knowledge, self-promote and find opportunities to reach my main goal.
+  <br class="f">
+  [[iturdikulov.com]]
+
+- Learn digital electronics and build circuits every **month**, to understand
+  hardware better to solve my household problems and for my DIY projects.
+  <br class="f">
+  [[digital_electronics]]
+
+### Goal 2: Quench the desire to create visual art
+
+- Sketch/Paint/Design/Compose/Record/Write something every **week**, to quench
+  thirst for art and be creative.
+  <br class="f">
+  [[art]], [[my_music]], [[my_videos]], [[my_literature]]
+
+- Learn computer graphics and game development every **week**, to create amazing
+  visual content.
+  <br class="f">
+  [[computer_graphics]], [[computer_programming#Game Development|game development]]
+
+### Goal 3: Improve the quality of life and be happy
+
+- Socialize with family, friends and colleagues, **each day**, to feel happy.
+  <br class="f">
+  [[people]]
+
+- Exercise, eat, sleep, meditate **each day**, to feel better and imporve my
+  quality of life.
+  <br class="f">
+  [[my_health]]
+
+- Improve English and Russian language writing and speaking skills every
+  **week**, to communicate and understand people better.
+  <br class="f">
+  [[English]], [[Russian]]
+
+- Explore something new in the world from verified soruces, to obitain new
+  inspiration and be informed and prepared.
+  <br class="f">
+  [[my_news]]
