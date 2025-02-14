@@ -51,6 +51,7 @@ To understand custom bullet list types check [[my_notation]] note.
 
 ### Now
 
+- THE article fundamentals
 - Алевтина Попова - От YESли бы к YESтественно. Как выучить английские времена с помощью мемов.
 - [!] [[duolingo]]
 - [!] Fundamentals of English grammar:
