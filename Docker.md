@@ -17,9 +17,11 @@ Cleanup `subvolumes`, warning this is dangerous!
 
 `docker system prune` after image cleanup.
 
-## External links
+## Docker learning path
 
-- [ ] [Docker Tutorial for Beginners - YouTube](https://www.youtube.com/watch?v=b0HMimUb4f0)
-- [ ] [Docker Cheatsheet \[2023 Updated\] – Collabnix](https://collabnix.com/docker-cheatsheet/)
-- [ ] [Docker Hub Container Image Library | App Containerization](https://hub.docker.com/)
-- [ ] [LinuxServer.io, ready to use containers](https://docs.linuxserver.io/)
+- [Multi-stage](https://docs.docker.com/build/building/multi-stage/)
+- [How To Deploy A Docker Image To A Server Using GitHub Actions](https://www.programonaut.com/how-to-deploy-a-docker-image-to-a-server-using-github-actions/)
+- [Docker Tutorial for Beginners - YouTube](https://www.youtube.com/watch?v=b0HMimUb4f0)
+- [Docker Cheatsheet \[2023 Updated\] – Collabnix](https://collabnix.com/docker-cheatsheet/)
+- [Docker Hub Container Image Library | App Containerization](https://hub.docker.com/)
+- [LinuxServer.io, ready to use containers](https://docs.linuxserver.io/)
