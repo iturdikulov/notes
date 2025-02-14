@@ -76,8 +76,7 @@ Currently, I'm working now as a full-stack software engineer in a small company
 (remote, full-stack position, but moving into [[backend]]
 position).
 
-I also use various [[my_awesome_software_list|software]] and
-[[my_awesome_web_services_list|services]] in my work.
+I also use various [[my_awesome_software_list|software]].
 
 ## External links
 

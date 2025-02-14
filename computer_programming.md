@@ -40,7 +40,7 @@ To understand custom bullet list types check [[my_notation]] note.
 - [ ] [[Stolyarov_-_Azy_programmirovaniya|Столяров - Азы программирования]]
 - [ ] [Learn Memory Management in C: Welcome to Memory Management - Boot.dev](https://www.boot.dev/lessons/44a4421c-cc49-4472-bbad-a14f81f860b4)
   - [ ] [C Programming and Memory Management - YouTube](https://www.youtube.com/watch?v=rJrd2QMVbGM)
-- [ ] [[Brownlee_-_Python_Asyncio_Jump-Start]]
+- [ ] Brownlee_-_Python_Asyncio_Jump-Start
 
 ### High-level overview
 

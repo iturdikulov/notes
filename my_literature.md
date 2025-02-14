@@ -30,10 +30,6 @@ If the title of the author and book in Cyrillic, this means I read it in
 [[Russian]] language. To understand custom bullet list types check
 [[my_notation]] note.
 
-## Phylosophy and psychology
-
-- [ ] [Laozi_-_Tao_Te_Ching]
-
 ## Classic, famous books and stories
 
 - [ ] [[Lermontov_-_Geroj_nashego_vremeni\|Лермонтов - Герой нашего времени]]
@@ -100,7 +96,7 @@ adding a link at the end of [[#Inbox]] section.
 - [[Keon_-_Pythonic_data_structures]]
 - [[Kernighan_and_Pike_-_The_practice_of_programming]]
 - [[Kernighan_and_Plauger_-_The_elements_of_programming_style]]
-- [[Kernighan_and_Ritchie_-_The_C_programming_language]]
+- [[Kernighan_and_Ritchie_-_The_C]]
 - [[Kiselyov_-_Elementy_algebry_i_analiza_chast_1]]
 - [[Kun_-_A_programmers_introduction_to_mathematics]]
 - [[Kushnirenko_-_Programmirovanie_dlya_matematikov]]

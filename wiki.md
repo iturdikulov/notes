@@ -37,6 +37,7 @@ I'm use similar format to store my notes, with [[Zettelkasten]] method.
 - [Wikipedia best](https://en.wikipedia.org/wiki/Wikipedia:Best_articles)
 - [IFixit](https://www.ifixit.com/)
 - [Fandom](https://www.fandom.com/)
+- [Wikiversity](https://www.wikiversity.org/)
 
 ## User's wiki
 

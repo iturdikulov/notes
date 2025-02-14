@@ -11,8 +11,7 @@ sr-ease: 209
 
 # Iturdikulov.com
 
-My personal website, which contains various
-[[my_awesome_web_services_list|services]], [[Zettelkasten|notes]], etc.
+My personal website, which contains various [[Zettelkasten|notes]], etc.
 
 Website information:
 

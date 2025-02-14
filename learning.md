@@ -44,7 +44,7 @@ studies.
 
 > The only way to learn a new programming language is by writing programs
 > in it.\
-> — <cite>[[Kernighan_and_Ritchie_-_The_C_programming_language]]</cite>
+> — <cite>[[Kernighan_and_Ritchie_-_The_C]]</cite>
 
 > Repeat the tutorial from memory, notes can help. Experiment, do something new,
 > based on tutorials. Make something dirty but get experience.
@@ -74,8 +74,9 @@ enough to learn something new. My actual current learning list is aviable with
 
 ### Learning resources
 
+- [[index#My primary goals and related activities list]]
+- [[wiki]]
 - [[Khan_Academy]]
-- [Wikiversity](https://www.wikiversity.org/)
 - [Udemy](https://www.udemy.com/)
 - [edX](https://www.edx.org/)
 - [Coursera](https://www.coursera.org/)
@@ -218,8 +219,5 @@ Art for me is also deeply integrated into [[computer_graphics]], because it
 provides many opportunities to create something beautiful.
 
 I organize all **my** art related stuff in [[art]] note.
-
-For [[literature]] is great solution to fun and relax. I collect my reading list
-and favorite books in [[my_literature]] note.
 
 [^1]: [Feynman Technique: The Ultimate Guide to Learning Anything Faster](https://fs.blog/feynman-technique/)

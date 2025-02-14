@@ -31,7 +31,7 @@ Zotero - free citation manager, it's contains a lot of features, such as:
 - built-in PDF viewer and annotator;
 - API to extend Zotero's functional.
 
-I use it to store my [[literature]]: books, articles, education resources,
+I use it to store [[my_literature]]: books, articles, education resources,
 cheatsheets, feeds, etc.
 
 Zotero has advanced search capabilities, you can search by author, title, year,

@@ -20,7 +20,7 @@ You can also convert markdown to tons of other formats, including PDF, using
 [[Pandoc]].
 
 I use Markdown as my primary format for all my [[Zettelkasten|notes]],
-[[documentation]] and in various [[my_awesome_web_services_list|services]].
+[[documentation]], documentation, etc.
 
 ## Basics (which I use)
 
