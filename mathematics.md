@@ -42,14 +42,16 @@ strict grouping, but I'm trying to keep it organized by priority.
 
 To understand custom bullet list types check [[my_notation]] note.
 
-- [/] [LifeTensor - YouTube](https://www.youtube.com/@LifeTensor/videos)
-- [/] [[Khan_Academy]]
-- [Деконструкция – Математик и чёрт (рассказывает Алексей Савватеев) - YouTube](https://www.youtube.com/watch?v=DA9fuIumryg)
+- [[Perelman_-_Zanimatelnaya_matematika]]
+
+### Inbox
+
+- [LifeTensor - YouTube](https://www.youtube.com/@LifeTensor/videos)
+- [[Khan_Academy]], mathematics
 - [Чудесное совпадение или ожидаемая связь: почему π²≈g / Хабр](https://habr.com/ru/articles/812903/)
 - [Закон обратных квадратов](https://photo-monster.ru/books/read/pakon-obratnyih-kvadratov.html)
 - [Закон обратных квадратов — Википедия](https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%BA%D0%BE%D0%BD_%D0%BE%D0%B1%D1%80%D0%B0%D1%82%D0%BD%D1%8B%D1%85_%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%BE%D0%B2)
 - [Прямая и обратная пропорциональность. Формулы, обозначение, примеры](https://skysmart.ru/articles/mathematic/pryamaya-i-obratnaya-proporcionalnost)
-- [[Perelman_-_Zanimatelnaya_matematika]]
 - Курант, Роббинс: Что такое математика?
 - [[Trushin_-_Kombinatorika]]
 - [Linear Algebra](https://linear.axler.net/ )
@@ -60,10 +62,6 @@ To understand custom bullet list types check [[my_notation]] note.
 |      | [[Perelman_-_Zanimatelnaya_matematika\|Перельман - Занимательная математика]]                                                   |
 |      | [[Trushin_-_Kombinatorika\|Трушин - Комбинаторика]]                                                                             |
 |      | [[Zajcev_and_Ryzhkov_and_Skanavi_-_Elementarnaia_matematika\|Зайцев и Рыжков и Сканави - Элементарная Математика]] |
-
-### Now
-
-- [!] [Life Tensor](https://www.youtube.com/playlist?list=PLC2pBQ7lPOZCu0cehs7tPmnoeK2BjUiSk)
 - [ ] Сканави
 - [ ] [Animation vs. Math - YouTube](https://www.youtube.com/watch?v=B1J6Ou4q8vE)
 - [ ] [Animation vs. Geometry - YouTube](https://www.youtube.com/watch?v=VEJWE6cpqw0)
@@ -78,7 +76,6 @@ To understand custom bullet list types check [[my_notation]] note.
 - [ ] [[Xendli_-_Schitajte_v_ume_kak_kompyuter]]
 - [Книга «Математика для гуманитариев» | savva4](https://savvateev.xyz/book/)
 
-### Inbox
 
 - [Project Euler](https://projecteuler.net/)
 
@@ -144,17 +141,18 @@ Computer Graphics related:
 - [category theory](https://categorytheory.zulipchat.com)
 - [hott](https://hott.zulipchat.com)
 
-
-## Basics
-
-Pi = L / d ≈ 3.1415926535897932384626433832795028841971693993751058209749445923078164
-Отношение длины окружности к диаметру круглого объекта или круга.
-
-Пи иррационально, нет двух таких целых чисел чтобы получить число Pi.
-
-## Videos
+### Videos
 
 - [Математик и черт](https://www.youtube.com/watch?v=52yhBkkulXw) - теорема
   Ферма, научно-популярное.
+- [Деконструкция – Математик и чёрт (рассказывает Алексей Савватеев) - YouTube](https://www.youtube.com/watch?v=DA9fuIumryg).
 
-## External links
+## Число Пи
+
+Суть числа Пи?
+<br class="f">
+Отношение длины окружности к диаметру круглого объекта или круга.
+Pi = L / d ≈ 3.1415926535897932384626433832795028841971693993751058209749445923078164
+
+Пи иррационально, нет двух таких целых чисел, чтобы получить число Pi.
+
