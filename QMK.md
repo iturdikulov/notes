@@ -54,15 +54,13 @@ Now you have own keymap, you can edit it in
 [here](./external/keymap.c).
 
 7. Compile and flash Firmware `qmk compile -kb kbdfans/kbd75/rev2 -km inomoz`
-
 it's equivalent to `qmk compile` if keyboard and keymap are set in config.
 
-9. Flash Firmware `qmk flash -kb kbdfans/kbd75/rev2 -km inomoz`
+9. Flash QMK Firmware `qmk flash -kb kbdfans/kbd75/rev2 -km inomoz`
+it's equivalent to ==`qmk flash`== if keyboard and keymap are set in config.
 
-it's equivalent to `qmk flash` if keyboard and keymap are set in config.
-
-Put Your Keyboard into `DFU` (Bootloader) Mode, after entering command above. In
-my case I need to hold `ESC` and plug USB cable.
+When you flash QMK Keyboard, put it into `DFU` (Bootloader) Mode, In my case I
+need to hold ==`S-ESC`== keybinding and plug USB cable.
 
 [More info](https://docs.qmk.fm/#/newbs_flashing?id=put-your-keyboard-into-dfu-bootloader-mode).
 
@@ -88,5 +86,5 @@ qmk c2json --no-cpp keymap.c >keymap.json # without --no-cpp it might not work
 - [QMK JSON converter](https://jhelvy.shinyapps.io/qmkjsonconverter/)
 - [Inom-Turdikulov/qmk_firmware: Open-source keyboard firmware for Atmel AVR and Arm USB families](https://github.com/inomoz/qmk_firmware)
 - [x] [QMK: Mouse Turbo Click](https://getreuer.info/posts/keyboards/mouse-turbo-click/index.html)
-- [x] [My current keyboard layout :: Eli Rodríguez Pérez — Personal blog](https://eli-rodriguez.com/en/posts/my-current-keyboard-layout/)
+- [x] [My current keyboard layout - Eli Rodríguez Pérez — Personal blog](https://eli-rodriguez.com/en/posts/my-current-keyboard-layout/)
 - [ ] [QMK Basics – Thomas Baart](https://thomasbaart.nl/category/mechanical-keyboards/firmware/qmk/qmk-basics/)
