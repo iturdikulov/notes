@@ -34,13 +34,14 @@ example:
 - Overweight, physical and mental health promblems → exercise, eat healthy,
   sleep enough → solve problems.
 
-## Psychology learning path
+## Learning path
 
 - [ ] [IDRLabs Psychology Tests and Articles](https://www.idrlabs.com/)
 - [ ] [[Laozi_-_Tao_Te_Ching]]
 - [ ] [Общая психология, Петухов В.В., курс лекций МГУ - YouTube](https://www.youtube.com/playlist?list=PLWsL2KQ39BExodEpTCWHUtXxezWnGCPyW)
 - [ ] [5X Your BRAIN CELLS - YouTube](https://www.youtube.com/watch?v=lSwHXE9LohA)
 - [ ] [Stoicism: 10 LESSONS Men Learn Too Late In LIFE (Might Hurt Your Feelings) - YouTube](https://www.youtube.com/watch?v=CrhJBvGgwpg)
+- [ADHD 2.0: New Science and Essential Strategies for Thriving with Distraction](https://www.amazon.com/ADHD-2-0-Essential-Strategies-Distraction/dp/B08775GG3K/)
 
 ## Meditation
 

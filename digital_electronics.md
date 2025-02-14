@@ -18,7 +18,7 @@ sr-ease: 268
 > electronic representations of Boolean logic functions.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Digital_electronics)</cite>
 
-## Digital electronics learning path
+## Learning path
 
 - [Как работают обратные связи блока питания? Делаем обычный БП — регулируемым заменой одной детали! - YouTube](https://www.youtube.com/watch?v=CSk01o8KPgk)
 

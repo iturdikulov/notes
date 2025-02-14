@@ -10,6 +10,7 @@ tags:
 - [[HTML]]
 - [[JavaScript]]
 
+- Meeks and Dufour D3.js in Action
 - [Web technology for developers | MDN](https://developer.mozilla.org/en-US/docs/Web)
 - [web.dev - Learn](https://web.dev/learn).
 - [Как выполнять скрейпинг LinkedIn — полное руководство (обновлено в 2025 г.)]( https://ru-brightdata.com/blog/how-tos-ru/linkedin-scraping-guide)

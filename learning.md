@@ -49,7 +49,7 @@ studies.
 > Repeat the tutorial from memory, notes can help. Experiment, do something new,
 > based on tutorials. Make something dirty but get experience.
 
-## My learning path
+## Learning path
 
 This is my important place in choosing what to learn for my [[Work#Goals|work
 goals]] and my [[projects]] required skills.

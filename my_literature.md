@@ -80,6 +80,7 @@ adding a link at the end of [[#Inbox]] section.
 - [Тед Чан «История твоей жизни»](https://fantlab.ru/work18472)
 - [Урсула К. Ле Гуин «Волшебник Земноморья»](https://fantlab.ru/work152289)
 
+- Tolkien - The Silmarillion
 - Book 1. Harry Potter and the Sorcerer’s Stone (1997)
 - Book 2. Harry Potter and the Chamber of Secrets (1998)
 - Book 3. Harry Potter and the Prisoner of Azkaban (1999)
@@ -120,46 +121,6 @@ adding a link at the end of [[#Inbox]] section.
 - [Таинственный остров](https://ru.wikipedia.org/wiki/%D0%A2%D0%B0%D0%B8%D0%BD%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9_%D0%BE%D1%81%D1%82%D1%80%D0%BE%D0%B2)
 - Лю Цысинь (Оробчук Сергей) – Задача трех тел (с музыкальным сопровождением)
 
-- [Becoming a Technical Leader <sub>An Organic Problem-Solving Approach</sub>](https://amzn.to/1S6XLHD)
-- Winter and Manshreck and Wright - Software Engineering at Google
-- [The Clean Coder <sub>A Code of Conduct for Professional Programmers</sub>](https://amzn.to/1S6YGrH)
-- Aziz and Lee and Prakash-Elements of Programming Interviews
-- Baechler and Greer-Blender 3D by Example
-- Bentley - Programming Pearls
-- Biancuzzi - Masterminds of Programming
-- Blandy - Programming Rust
-- Bodner - Learning Go
-- Bryant - Computer Systems
-- Dewdney - The New Turing Omnibus
-- Dromey - How to Solve It by Computer
-- Gomel University - mikroprocessory i kompjutery
-- GOST R 60.0.7.1 - 2016 roboty
-- Gusfield - Algorithms on strings trees and sequences
-- Harsanyi - 100 Go Mistakes
-- James - The Tao of Programming
-- Jan - Blender Secrets
-- Laaksonen - competitive programmers handbook
-- Laaksonen - Olimpiadnoie proghrammirovaniie
-- Litvak and Raygorodskiy - Komu nuzhna matiematika
-- Meeks and Dufour D3.js in Action
-- Miguel - React Mega Tutorial
-- Mike - sozdanie videoighr PyGame
-- Morgunov - PostgreSQL osnovy iazyka SQL
-- Murphy - Essential grammar in Use Elementary
-- Murphy - Essential grammar in Use Intermediate
-- Obi Inside The Python Virtual Machine
-- Obuz - gamedev with blender and godot
-- Savvateev - matiematika dlia ghumanitariiev
-- Savvateev - vviedieniie v nastoiashchuiu matiematiku
-- Silberschatz and Henry and Sudarshan - DB system concepts
-- Spolsky - The Best Software Writing I
-- Strogatz - The Joy of x
-- Tolkien - The Silmarillion
-- Vygodskij - Spravochnik po eliemientarnoi matiematikie
-- Worral - Proofs and Refutations
-- Ружья, микробы и сталь. История человеческих сообществ
-- [ADHD 2.0: New Science and Essential Strategies for Thriving with Distraction](https://www.amazon.com/ADHD-2-0-Essential-Strategies-Distraction/dp/B08775GG3K/)
-- xkcd: volume 0
 - [A Brief History of Time](https://amzn.to/1PMITec)
 - [Life's Edge <sub>The Search for What It Means to Be Alive</sub>](https://amzn.to/3xhG4xF)
 - [The Selfish Gene](https://amzn.to/3lidNzN)
@@ -171,6 +132,7 @@ adding a link at the end of [[#Inbox]] section.
 - [Reality Is Not What It Seems <sub>The Journey to Quantum Gravity</sub>](https://amzn.to/3n2nCEb)
 - [Why We Sleep <sub>Unlocking the Power of Sleep and Dreams</sub>](https://amzn.to/2Vdhg7X)
 
+- [Becoming a Technical Leader <sub>An Organic Problem-Solving Approach</sub>](https://amzn.to/1S6XLHD)
 - [Getting Real <sub>The Smarter, Faster, Easier Way to Build a Successful Web Application</sub>](https://amzn.to/1SD1FHK)
 - [Refactoring: Improving the Design of Existing Code](https://amzn.to/1S6Z49J)
 - [Clean Code <sub>A Handbook of Agile Software Craftsmanship</sub>](https://amzn.to/1S6YFnH)

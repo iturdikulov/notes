@@ -17,7 +17,7 @@ Cleanup `subvolumes`, warning this is dangerous!
 
 `docker system prune` after image cleanup.
 
-## Docker learning path
+## Learning path
 
 - [Multi-stage](https://docs.docker.com/build/building/multi-stage/)
 - [How To Deploy A Docker Image To A Server Using GitHub Actions](https://www.programonaut.com/how-to-deploy-a-docker-image-to-a-server-using-github-actions/)

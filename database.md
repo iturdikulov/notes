@@ -90,6 +90,11 @@ Some information from [Simple English Wikipedia, the free encyclopedia](https://
 
 ## Learning path
 
+- [ ] [Database normalization - Wikipedia](https://en.m.wikipedia.org/wiki/Database_normalization )
+- Silberschatz and Henry and Sudarshan - DB system concepts
+- [[PostgreSQL]]
+- [[MySQL]]
+- [[SQLite]]
 - [[SQL]], research note
 - [Как хранить в БД древовидные структуры](https://github.com/codedokode/pasta/blob/master/db/trees.md)
 - [Modified Preorder Tree Traversal](https://gist.github.com/tmilos/f2f999b5839e2d42d751)
@@ -103,5 +108,42 @@ Some information from [Simple English Wikipedia, the free encyclopedia](https://
 - [ ] [Мигрируем БД в продакшене без даунтайма / Habr](https://habr.com/en/articles/664028/)
 - [ ] [SQL vs NoSQL Explained - YouTube](https://www.youtube.com/watch?v=ruz-vK8IesE)
 - [ ] [GitHub - mikeym88/key-value-database-python-interface: A Key-Value database interface for python using SQLAlchemy.](https://github.com/mikeym88/key-value-database-python-interface)
+
+### Raw SQL
+
+- [ ] [The SQL Murder Mystery: Detailed Walkthrough](https://mystery.knightlab.com/walkthrough.html)
+- [ ] [Select Star](https://selectstarsql.com/)
+- [ ] [The SQL Murder Mystery](https://mystery.knightlab.com/)
+- [ ] [SQL Squid Game](https://datalemur.com/sql-game)
+- [ ] [Интерактивный курс по SQL](https://sql-academy.org/)
+- [ ] [Практическое владение языком SQL](https://sql-ex.ru/)
+- [ ] [smarteist - SQL cheat sheet](https://gist.github.com/smarteist/dc19be1101c0041e5963eba3772c3f67)
+- [/] [[Forta_-_SQL_za_10_minut]]
+- [ ] Iliev - Introduction to SQL
+- [ ] [Оптимизация SQL запросов / Хабр](https://habr.com/ru/articles/861604/)
+
+### RDBMS
+
+- [ ] [SQLite: How it works, by Richard Hipp - YouTube](https://www.youtube.com/watch?v=ZSKLA81tBis)
+- [/] [PostgreSQL Tutorial](https://neon.tech/postgresql/tutorial).
+- Morgunov - PostgreSQL osnovy iazyka SQL
+- [ ] [Learn PostgreSQL Tutorial - Full Course for Beginners - YouTube](https://www.youtube.com/watch?v=qw--VYLpxG4)
+- [ ] [PostgreSQL Exercises](https://pgexercises.com/gettingstarted.html)
+- [ ] [Postgres: The Graph Database You Didn't Know You Had](https://www.dylanpaulus.com/posts/postgres-is-a-graph-database/)
+- [ ] [PostgreSQL Tutorial – Comprehensive Postgresql Tutorial](https://www.postgresqltutorial.com/)
+- [ ] [Postgres: The Graph Database You Didn't Know You Had](https://www.dylanpaulus.com/posts/postgres-is-a-graph-database/)
+- [ ] [Неочевидные для начинающих тонкости Postgres / Хабр](https://habr.com/ru/companies/ruvds/articles/859422/)
+- [ ] [Don't Do This - PostgreSQL wiki](https://wiki.postgresql.org/wiki/Don%27t_Do_This)
+- [ ] [What I Wish Someone Told Me About Postgres | ChallahScript](https://challahscript.com/what_i_wish_someone_told_me_about_postgres)
+- [ ] [Безумные и забавные факты о SQLite / Хабр](https://habr.com/ru/companies/ruvds/articles/873816/)
+
+### ORM
+
+- [ ] [What's New in SQLAlchemy 2.0? - miguelgrinberg.com](https://blog.miguelgrinberg.com/post/what-s-new-in-sqlalchemy-2-0)
+- [ ] [Асинхронный SQLAlchemy 2: простой пошаговый гайд по настройке, моделям, связям и миграциям с использованием Alembic / Хабр](https://habr.com/ru/companies/amvera/articles/849836/)
+- [ ] [SQLModel](https://sqlmodel.tiangolo.com/learn/)
+- [ ] [python - SQLAlchemy proper session handling in multi-thread applications - Stack Overflow](https://stackoverflow.com/questions/9619789/sqlalchemy-proper-session-handling-in-multi-thread-applications)
+- [ ] [Using Python SQLAlchemy session in multithreading](https://copdips.com/2019/05/using-python-sqlalchemy-session-in-multithreading.html#way-2-using-scoped_session-to-create-a-thread-local-variable)
+- [ ] [You can use Pydantic in SQLAlchemy fields - Roman Imankulov](https://roman.pt/posts/pydantic-in-sqlalchemy-fields/)
 
 [^1]: [SQL in 10 Minutes a Day](https://www.amazon.com/gp/product/0135182794/)

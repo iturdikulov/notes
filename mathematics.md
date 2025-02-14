@@ -35,7 +35,7 @@ sr-ease: 209
 I have learning path to understand mathematics better and use in my life and
 work.
 
-## Mathematics learning path
+## Learning path
 
 I place here all my learning resources related to [[mathematics]], here is no
 strict grouping, but I'm trying to keep it organized by priority.
@@ -46,6 +46,11 @@ To understand custom bullet list types check [[my_notation]] note.
 
 ### Inbox
 
+
+- Strogatz - The Joy of x
+- Worral - Proofs and Refutations
+- Vygodskij - Spravochnik po eliemientarnoi matiematikie
+- Litvak and Raygorodskiy - Komu nuzhna matiematika
 - Прелюдия к математике
 - [LifeTensor - YouTube](https://www.youtube.com/@LifeTensor/videos)
 - [[Khan_Academy]], mathematics
@@ -76,6 +81,7 @@ To understand custom bullet list types check [[my_notation]] note.
 - [ ] [[Emelin_-_Kratchajshij_kurs_shkolnoj_matematiki]]
 - [ ] [[Xendli_-_Schitajte_v_ume_kak_kompyuter]]
 - [Книга «Математика для гуманитариев» | savva4](https://savvateev.xyz/book/)
+- Savvateev - vviedieniie v nastoiashchuiu matiematiku
 
 
 - [Project Euler](https://projecteuler.net/)

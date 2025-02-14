@@ -35,7 +35,7 @@ databases, game development, utilities, etc.
 Latest standard:
 [ANSI C - Wikipedia#C2x](https://en.wikipedia.org/wiki/ANSI_C#C2x)
 
-## The C learning path
+## Learning path
 
 - [ ] [Learn Memory Management in C: Welcome to Memory Management - Boot.dev](https://www.boot.dev/lessons/44a4421c-cc49-4472-bbad-a14f81f860b4)
 - [ ] [C Programming and Memory Management - YouTube](https://www.youtube.com/watch?v=rJrd2QMVbGM)

@@ -90,7 +90,7 @@ and process **textual and linguistic data**.
 The Turing Award is generally recognized as the highest distinction in computer
 science.
 
-## Computer science learning path
+## Learning path
 
 I place here all my learning resources related to [[computer_programming]], here
 is no strict grouping, but I'm trying to keep it organized by priority.
@@ -103,6 +103,7 @@ Active sources:
 - [[LeetCode]] - research and solve problems.
 - Jay Vs. Leetcode
 - [Code Interview University](https://github.com/jwasham/coding-interview-university)
+
 
 ### High-level
 
@@ -199,8 +200,13 @@ Active sources:
 
 ### Inbox
 
+- Cracking the Coding Interview
 - [[InterviewCake_Team_-_Coding_interview_practice|InterviewCake Team - Coding Interview Practice]]
+- Aziz and Lee and Prakash-Elements of Programming Interviews
+- Dewdney - The New Turing Omnibus
 
+- Bentley - Programming Pearls
+- Dromey - How to Solve It by Computer
 - [is looping through an array easier on the memory than a long recursion](https://www.quora.com/In-computer-programming-is-looping-through-an-array-easier-on-the-memory-than-a-long-recursion)
 - [CRDT: Conflict-free Replicated Data Types / Хабр](https://habr.com/ru/articles/418897/)
 - [[Cormen_et_al_-_Introduction_to_algorithms]], read and take notes.
@@ -228,6 +234,7 @@ Active sources:
 - [ ] [[Cormen_-_Algorithms_unlocked]]
 - [ ] Competitive Programmer’s Handbook
 - [ ] Christian - Algorithms to Live By
+- Laaksonen - Olimpiadnoie proghrammirovaniie
 
 - [[Wikipedia_-_Glossary_of_computer_science]]
 - [Wikipedia - List of algorithms](https://en.wikipedia.org/wiki/List_of_algorithms)

@@ -73,6 +73,7 @@ Additional Skills:
 
 - [x] [[Yershov_-_programmirovanie_vtoraya_gramotnost]]
 - [x] [[Evans_-_So_you_want_to_be_a_WizarD]]
+- [ ] James - The Tao of Programming
 - [ ] [[job_interview]]
 - [ ] [[work]]
 - [ ] [[Sonmez_-_Gibkie_navyki]]

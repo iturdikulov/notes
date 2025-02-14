@@ -383,7 +383,33 @@ _[Learn Blender with a poster infographic](https://www.giudansky.com/illustratio
 ![[img/ref-CGCookie-blender_hotkeys_4.1.pdf#page=2]]
 _[Blender Hotkey Cheat Sheet](https://cgcookie.com/downloads/blender-hotkey-cheat-sheet)_
 
-## Tutorials
+## Learning path
+
+- Jan - Blender Secrets
+- Baechler and Greer-Blender 3D by Example
+- [Blender Guru](https://www.youtube.com/@blenderguru)
+- [Josh Gambrell](https://www.youtube.com/@JoshGambrell)
+- [Derek Elliott](https://www.youtube.com/@DerekElliott)
+- [SouthernShotty](https://www.youtube.com/@SouthernShotty)
+- [Grant Abbitt](https://www.youtube.com/@grabbitt)
+- [Ryan King Art](https://www.youtube.com/@RyanKingArt)
+- [Curtis Holt](https://www.youtube.com/@CurtisHolt)
+- [Polygon Runway](https://www.youtube.com/@polygonrunway)
+- [CG Geek](https://www.youtube.com/@CGGeek)
+- [Max Hay](https://www.youtube.com/@maxhay5426)
+- [Polyfjord](https://www.youtube.com/@Polyfjord)
+- [Smeaf](https://www.youtube.com/@Smeaf)
+- [CG Geek](https://www.youtube.com/@CGGeek)
+- [Max Hay](https://www.youtube.com/@maxhay5426)
+- [Polyfjord](https://www.youtube.com/@Polyfjord)
+- [Smeaf](https://www.youtube.com/@Smeaf)
+- [Cleverpoly](https://www.youtube.com/@cleverpoly)
+- [Default cube](https://www.youtube.com/@DefaultCube)
+- [Kaizen tutorials](https://www.youtube.com/@KaizenTutorials/featured)
+- [Bad normals](https://www.youtube.com/@BadNormals)
+- [Kev Binge](https://www.youtube.com/@KevBinge)
+- [intranetgirl](https://www.youtube.com/@intr4)
+- [RenderRides](https://www.youtube.com/@RenderRides)
 
 - [ ] [How to Create 3D Terrain with Google Maps and Blender! - YouTube](https://www.youtube.com/watch?v=Mj7Z1P2hUWk )
 - [ ] [Creating Realistic 3d Pencil model in Blender Tutorial](https://www.youtube.com/watch?v=dq7qUVHnN0M)
@@ -437,28 +463,3 @@ _[Blender Hotkey Cheat Sheet](https://cgcookie.com/downloads/blender-hotkey-chea
 
 - [Scripts to import data into blender for use with testing/benchmarking renderers](https://github.com/aclysma/rendering-demo-scenes)
 
-## External links
-
-- [Blender Guru](https://www.youtube.com/@blenderguru)
-- [Josh Gambrell](https://www.youtube.com/@JoshGambrell)
-- [Derek Elliott](https://www.youtube.com/@DerekElliott)
-- [SouthernShotty](https://www.youtube.com/@SouthernShotty)
-- [Grant Abbitt](https://www.youtube.com/@grabbitt)
-- [Ryan King Art](https://www.youtube.com/@RyanKingArt)
-- [Curtis Holt](https://www.youtube.com/@CurtisHolt)
-- [Polygon Runway](https://www.youtube.com/@polygonrunway)
-- [CG Geek](https://www.youtube.com/@CGGeek)
-- [Max Hay](https://www.youtube.com/@maxhay5426)
-- [Polyfjord](https://www.youtube.com/@Polyfjord)
-- [Smeaf](https://www.youtube.com/@Smeaf)
-- [CG Geek](https://www.youtube.com/@CGGeek)
-- [Max Hay](https://www.youtube.com/@maxhay5426)
-- [Polyfjord](https://www.youtube.com/@Polyfjord)
-- [Smeaf](https://www.youtube.com/@Smeaf)
-- [Cleverpoly](https://www.youtube.com/@cleverpoly)
-- [Default cube](https://www.youtube.com/@DefaultCube)
-- [Kaizen tutorials](https://www.youtube.com/@KaizenTutorials/featured)
-- [Bad normals](https://www.youtube.com/@BadNormals)
-- [Kev Binge](https://www.youtube.com/@KevBinge)
-- [intranetgirl](https://www.youtube.com/@intr4)
-- [RenderRides](https://www.youtube.com/@RenderRides)

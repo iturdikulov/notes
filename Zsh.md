@@ -36,7 +36,7 @@ it consists of, first layer is program:
 +----------------+
 ```
 
-## Zsh learning path
+## Learning path
 
 - [[GNU_Readline]] for additional keybindings.
 - [ ] [Advanced topics to take advantage of zsh](https://github.com/rothgar/mastering-zsh)

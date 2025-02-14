@@ -15,7 +15,7 @@ sr-ease: 208
 > entities of energy and force.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Physics)</cite>
 
-## Physics learning path
+## Learning path
 
 TODO: better group resources
 TODO: add YouTube channels, Бояршинов, etc.

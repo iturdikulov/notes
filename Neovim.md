@@ -31,7 +31,7 @@ Environment).
 - Database management system with plugins
 - Video notes with timestamps using MPV's IPC integration
 
-## Neovim learning path
+## Learning path
 
 TODO: global rewrite
 
@@ -1193,7 +1193,7 @@ Run line/block/object using [[Sniprun]]:<wbr class="f"> `<leader>ze[motion]`
 
 ### Neotest
 
-Rerun the last test:<wbr class="f"> `<leader>dnl`:<wbr class="f"> 
+Rerun the last test:<wbr class="f"> `<leader>dnl`:<wbr class="f">
 
 Run current test file:<wbr class="f"> `<leader>dnf`
 

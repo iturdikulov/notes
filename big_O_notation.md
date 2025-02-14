@@ -204,7 +204,7 @@ be $\mathcal{O}(n^2)$ - even though the loops bodies are empty, the condition
 checks and implementation of both counters are still valid operations which have
 to be performed.
 
-## Big O learning path
+## Learning path
 
 - [ ] [Big-O notation in 5 minutes - YouTube](https://www.youtube.com/watch?v=__vX2sjlpXU)
 - [ ] [CSE 373 -- Lecture 2, Fall 2020 - YouTube](https://www.youtube.com/watch?v=z1mkCe3kVUA&t=3039s)

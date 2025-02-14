@@ -15,3 +15,5 @@ sr-ease: 267
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/History)</cite>
 
 ## External links
+
+- Ружья, микробы и сталь. История человеческих сообществ

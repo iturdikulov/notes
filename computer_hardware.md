@@ -28,10 +28,11 @@ Great cheap computer hardware:
 [Computer Hardware Chart 2.0 by Sonic840](img/ref-Computer_hardware_chart.webp)
 [Source](https://www.deviantart.com/sonic840/art/Computer-Hardware-Chart-2-0-587798335)
 
-## Learning computer hardware
+## Learning path
 
 - [ ] [[Petzold_-_Code]], recently (2022) was rewritten, contains many "base"
 - [Архитектура микропроцессоров и изоляция уровней исполнения](https://dxdt.ru/2024/03/29/12651/)
+- Gomel University - mikroprocessory i kompjutery
 - [ ] [How does Computer Hardware Work?  - YouTube](https://www.youtube.com/watch?v=d86ws7mQYIg)
 - [ ] [PDP-11 - Wikipedia](https://en.wikipedia.org/wiki/PDP-11)
 - [ ] [Visual Transistor-level Simulation of the 6502 CPU](http://visual6502.org/)

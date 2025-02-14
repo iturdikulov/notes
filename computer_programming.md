@@ -25,7 +25,7 @@ way. Quality of learning resources is very important, but in same time learning
 materials should be understandable and easy to follow. I collect resources about
 programming, software development in my learning path.
 
-## Programming learning path
+## Learning path
 
 Programming lerning path is closely related to
 [[computer_science#Computer science learning path|computer science learning path]].

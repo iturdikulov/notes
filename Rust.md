@@ -18,7 +18,7 @@ sr-ease: 225
 > during compilation.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Rust_\(programming_language\))</cite>
 
-## Rust learning path
+## Learning path
 
 [[Rust]] is practically unknown to me, learning materials:
 
@@ -33,3 +33,4 @@ sr-ease: 225
 - [rust - How can I perform parallel asynchronous HTTP GET requests with reqwest? - Stack Overflow](https://stackoverflow.com/questions/51044467/how-can-i-perform-parallel-asynchronous-http-get-requests-with-reqwest)
 - [ ] [GUI in Rust that runs on both web and native](https://github.com/emilk/egui)
 - [/] [[Rust_cheat-sheet]]
+- Blandy - Programming Rust

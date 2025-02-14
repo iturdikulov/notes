@@ -15,7 +15,7 @@ tags:
 > execute the code on users' devices.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/JavaScript)</cite>
 
-## JavaScript learning path
+## Learning path
 
 - [JavaScript reference | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference)
 - [Современный учебник JavaScript](https://learn.javascript.ru/)
@@ -23,6 +23,7 @@ tags:
 - [Debounce на примере формы поиска — JavaScript — Дока](https://doka.guide/js/debounce/).
 - [JavaScript on Exercism](https://exercism.org/tracks/javascript)
 
+- Miguel - React Mega Tutorial
 - [From 0 to Production - The Modern React Tutorial (RSCs, Next.js, Shadui, Drizzle, TS and more) - YouTube](https://www.youtube.com/watch?v=d5x0JCZbAJs)
 - [Thinking in React](https://react.dev/learn/thinking-in-react)
 - Complete Intro to React.

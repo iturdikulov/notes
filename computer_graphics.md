@@ -23,7 +23,7 @@ tags:
 ![](https://www.youtube.com/watch?v=hTpcOmlvCEQ)\
 _Excellent example of computer graphics (rendered video) from branch education_
 
-## Computer graphics learning path
+## Learning path
 
 My outline for learning [[computer_graphics]]. The main software for this is
 [[Godot]], [[Blender]], [[Python]].

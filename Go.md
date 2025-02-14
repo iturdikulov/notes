@@ -20,10 +20,12 @@ sr-ease: 265
 > Go.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Go_(programming_language))</cite>
 
-## Go learning path
+## Learning path
 
+- [/] [[Go_cheat-sheet]]
 - [ ] [[Go_tour]]
 - [ ] [Lean the Go Programming Language](https://go.dev/learn/)
 - HTMX and Go, ThePrimeagen
 - Edwards - Lets Go
-- [/] [[Go_cheat-sheet]]
+- Bodner - Learning Go
+- Harsanyi - 100 Go Mistakes

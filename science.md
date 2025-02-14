@@ -36,3 +36,4 @@ sr-ease: 228
 ## Popular science
 
 - [ ] [What If Everyone JUMPED At Once? - YouTube](https://youtu.be/jHbyQ_AQP8c)
+- [ ] xkcd: volume 0

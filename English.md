@@ -36,7 +36,7 @@ English is a West Germanic language in the Indo-European
 I have own learning path, which can help me to understand English materials,
 media and people.
 
-## English learning path
+## Learning path
 
 TODO: better group resources
 

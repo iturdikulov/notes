@@ -53,6 +53,6 @@ _The ABC Of Design_
 - [seedit4.me](https://seedit4.me/)
 - [Thunderbird](https://www.thunderbird.net/en-US/thunderbird/115.0/holidayeoy/)
 
-## Graphic design learning path
+## Learning path
 
 - [ ] Refactoring UI (Thailwind CSS)

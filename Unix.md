@@ -17,7 +17,7 @@ sr-ease: 250
 
 ![Unix timeline](img/Unix_timeline.svg) _The history of UNIX and its variants_
 
-## Unix learning path
+## Learning path
 
 - [ ] unix permission (check zine!)
 - [ ] [AT&T Archives: The UNIX Operating System - YouTube](https://www.youtube.com/watch?v=tc4ROCJYbm0)

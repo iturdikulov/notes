@@ -31,9 +31,9 @@ sr-ease: 230
 > Management Group (OMG).\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Software_engineering)</cite>
 
-## External links
+## Learning path
 
 - [ ] [Casey and Uncle Bob](https://github.com/cmuratori/misc/blob/main/cleancodeqa.md)
-- [ ] [I don't love the single responsibility principle](https://sklivvz.com/posts/i-dont-love-the-single-responsibility-principle)
 - [ ] [Abstraction Bad? | Clean Code : Horrible Performance : (Clip) Interview - YouTube](https://www.youtube.com/watch?v=DsAclZbP_Us)
 - [ ] [Response to a Reporter Regarding "Clean Code, Horrible Performance" ](https://www.computerenhance.com/p/response-to-a-reporter-regarding?publication_id=865289&post_id=113333520&isFreemail=true%E2%86%B5)
+- The Clean Coder - A Code of Conduct for Professional Programmers

@@ -53,7 +53,7 @@ It supports any popular [[programming_paradigm]]:
 Rich [[Python_community_-_Python_tutorial_10_stdlib|stdlib]], it's "batteries
 included" language.
 
-## Python learning path
+## Learning path
 
 I learn Python according to customized amaargiru [^1] pyroad developer roadmap,
 I place links to my notes related to Python in special [[excalidraw]]
@@ -151,6 +151,7 @@ with Python
 
 ### Python internals
 
+- Obi - Inside The Python Virtual Machine
 - [JIT-компилятор Python в 300 строк / Habr](https://habr.com/en/articles/674206/)
 - [CPython's Garbage Collector and its Impact on Application Performance](https://blog.codingconfessions.com/p/connecting-cpythons-gc-internals)
 - [Глобальная блокировка интерпретатора (GIL) и её воздействие на многопоточность в Python / Хабр](https://habr.com/ru/companies/wunderfund/articles/586360/)

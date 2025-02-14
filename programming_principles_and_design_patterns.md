@@ -61,10 +61,13 @@ useful.
 
 ## Learning path
 
+- [[software_quality]]
 - [[Martin_Fowler_-_Refactoring]]
 - [[Kernighan_and_Pike_-_The_practice_of_programming]]
 - [[Kernighan_and_Plauger_-_The_elements_of_programming_style]]
 - [Sourcemaking](https://sourcemaking.com/)
+- Winter and Manshreck and Wright - Software Engineering at Google
+- Spolsky - The Best Software Writing I
 - How to Design Programs. Как проектировать программы: Фелляйзен, Финдлер, Флэтт
 - [ ] [Великая дидактика — Википедия](https://ru.wikipedia.org/wiki/%D0%92%D0%B5%D0%BB%D0%B8%D0%BA%D0%B0%D1%8F_%D0%B4%D0%B8%D0%B4%D0%B0%D0%BA%D1%82%D0%B8%D0%BA%D0%B0)
 - [Обобщённое программирование — Википедия](https://ru.wikipedia.org/wiki/%D0%9E%D0%B1%D0%BE%D0%B1%D1%89%D1%91%D0%BD%D0%BD%D0%BE%D0%B5_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5)

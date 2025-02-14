@@ -6,9 +6,13 @@ tags:
 
 # Programming foundations
 
+- [[computer_science]]
 - [[computer_hardware]]
+- Bryant - Computer Systems
 
+- Biancuzzi - Masterminds of Programming
 - [ ] Основы информатики и вычислительной техники
+- GOST R 60.0.7.1 - 2016 roboty
 - [ ] [[Abelson_and_Sussman_-_SICP|SICP]]
 - [ ] [[Stolyarov_-_Azy_programmirovaniya|Столяров - Азы программирования]]
 - [ ] [[Hunt_and_Thomas_-_The_pragmatic_programmer]]

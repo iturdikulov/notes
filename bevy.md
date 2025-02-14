@@ -10,7 +10,7 @@ external:
 
 # Bevy
 
-## Bevy learning path
+## Learning path
 
 - [ ] Install [bevy_sponza_scene](https://github.com/DGriffin91/bevy_sponza_scene)
 - [ ] [Bevy Introduction](https://bevyengine.org/learn/quick-start/introduction/)

@@ -27,7 +27,7 @@ https://pubs.opengroup.org/onlinepubs/9799919799/utilities/V3_chap02.html)
 I can learn Bash and in same time Zsh variants (POSIX compliant parts) of shell
 command languages.
 
-## Bash learning path
+## Learning path
 
 - [ ] [Bash Scriptng Guide](https://www.opennet.ru/docs/RUS/bash_scripting_guide/)
 - [ ] [Bash Debugging Hub](https://sentry.io/answers/bash)

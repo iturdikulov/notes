@@ -12,7 +12,7 @@ sr-ease: 267
 TODO: add term
 TODO: add periodic table note
 
-## Chemistry learning path
+## Learning path
 
 ## External links
 

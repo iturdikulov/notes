@@ -487,3 +487,4 @@ FrontEnd(api).display_data()
 - [ ] [Why SOLID principles are still the foundation for modern software
       architecture - Stack
       Overflow](https://stackoverflow.blog/2021/11/01/why-solid-principles-are-still-the-foundation-for-modern-software-architecture/),
+- [ ] [I don't love the single responsibility principle](https://sklivvz.com/posts/i-dont-love-the-single-responsibility-principle)

@@ -39,7 +39,7 @@ I'm fan of traditional [[visual_art]] and CGI art. I have my
 [[art#Art learning path|study plan]] to understand art and their subfields
 better.
 
-## Art learning path
+## Learning path
 
 Currently, I'm focusing on learning [[visual_art]] and [[photography]],
 additionally I'm learning
