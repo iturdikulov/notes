@@ -2,7 +2,7 @@
 date: 2023-03-19T00:00+03:00
 tags:
   - blog
-  - SR-base
+  - computer_science
 sr-due: 2024-01-28
 sr-interval: 2
 sr-ease: 202
@@ -50,7 +50,7 @@ Simple example of binary search algorithm:
 <!-- NEXT: in python? -->
 
 Code implementation, binary search in Ruby, can you guess some basic concepts?
-&#10;<br>
+<br class="f">
 ```ruby
 def binary_search(array, search_value)
 
@@ -153,7 +153,7 @@ lower_bound: 5, upper_bound: 5,
    binary search: 20 steps
 
 Each lookup step in **binary search** eliminates ==half== of the elements from the
-search. <!--SR:!2024-09-08,6,239-->
+search. <!--SR:!2025-02-06,13,239-->
 
 Each time when we double input data for binary-search algorithm, it just takes
 ==one== more step. For linear search we must double search steps each time. <!--SR:!2024-09-17,8,221-->

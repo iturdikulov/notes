@@ -2,7 +2,7 @@
 date: 2022-12-29T00:00+03:00
 tags:
   - blog
-  - base
+  - computer_programming
 sr-due: 2024-01-29
 sr-interval: 2
 sr-ease: 225
@@ -31,7 +31,7 @@ sr-ease: 225
 other computers (via a network) or the outside world. <!--SR:!2024-10-26,29,237-->
 
 Some examples of I/O operations:
-&#10;<br>
+<br class="f">
 - [[HTTP_and_HTTPS_and_TLS|HTTP]] requests (sending/receiving data over network)
 - access to [[database]]
 - reading/writing [[file|files]]

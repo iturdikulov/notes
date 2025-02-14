@@ -2,7 +2,7 @@
 date: 2022-12-29T00:00+03:00
 tags:
   - blog
-  - base
+  - computer_science
 sr-due: 2024-01-26
 sr-interval: 4
 sr-ease: 221
@@ -10,43 +10,286 @@ sr-ease: 221
 
 # Data structures
 
-> In [[computer_science]], a data structure is a data organization, management,
-> and storage format that is usually chosen for ==efficient== access to data.\
-> More precisely, a data structure is a collection of data values, the
-> relationships among them, and the functions or operations that can be applied
-> to the data, i.e., it is an algebraic structure about data.\
-> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Data_structure)</cite>
-> <!--SR:!2024-09-29,2,221-->
-
-Solid knowledge in data structures allows you to write scalable, fast and
-efficient software, increase your software expertise and make you happy 🙂.
-
 What is data structures in computer science?
-&#10;<br>
+<br class="f">
 Data structures providing organization (relationships), management (functions or
 operations) and format for some data. Each data structure has own efficiency and
 optimizations. <!--SR:!2024-10-09,1,201-->
 
-## Notes from [[Wengrow_-_Data_structures_and_algorithms|Wengrow]] book
+> Data structure is a collection of data values, the
+> relationships among them, and the functions or operations that can be applied
+> to the data, i.e., it is an algebraic structure about data.\
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Data_structure)</cite>
+
+Why data structures matter?
+<br class="f">
+Solid knowledge in data structures allows you to write scalable, fast and
+**efficient** software, increase your software expertise and make you happy 🙂.
 
 Analyzing the number of ==steps== an operation takes is the heart of
 understanding the performance of data structures and your program which use
 them. You **must** always analyze your application to see which data structure
 is a better fit. <!--SR:!2024-09-29,2,221-->
 
-Data itself is just basically numbers and strings (in computers all data finally
-stored as ==[[bit]]== sequences). <!--SR:!2024-09-29,2,221-->
-
-An ==[[array]]== is the simplest and most widely used data structure. <!--SR:!2024-09-29,2,221-->
-
 Data structures refer to how data is **organized**. Does this data organization
 is matter for something?
-&#10;<br>
-Data organization can be highly impact on **performance**. Your program can run
-fast and efficient or even not run at all (out of memory as example). <!--SR:!2024-09-29,2,221-->
+<br class="f">
+Data organization can be highly impact on **performance** and **efficiency**.
+Your program can run fast and efficient or even not run at all (out of memory as
+example). Depending on data organization program can run faster or slower by
+orders of magnitude. <!--SR:!2024-09-29,2,221-->
 
-Depending on data organization program can run faster or slower by orders of
-==magnitude==. <!--SR:!2024-09-29,2,221-->
+How computers store data, is there some diffirences between data types in their
+final form?
+<br class="f">
+Data itself is just basically numbers (including strings), in computers all data
+finally stored as [[bit]] sequences. <!--SR:!2024-09-29,2,221-->
+
+Most widely used data structure to store sequences?
+<br class="f">
+An [[array]].
+
+---
+
+[[data_type]]
+
+Linear data structures
+
+A data structure is said to be linear if its elements form a sequence.
+Arrays
+
+    Array
+    Associative array
+    Bit array
+    Bit field
+    Bitboard
+    Bitmap
+    Circular buffer
+    Control table
+    Image
+    Dope vector
+    Dynamic array
+    Gap buffer
+    Hashed array tree
+    Lookup table
+    Matrix
+    Parallel array
+    Sorted array
+    Sparse matrix
+    Iliffe vector
+    Variable-length array
+
+Lists
+
+    Doubly linked list
+    Array list
+    Linked list also known as a Singly linked list
+    Association list
+    Self-organizing list
+    Skip list
+    Unrolled linked list
+    VList
+    Conc-tree list
+    Xor linked list
+    Zipper
+    Doubly connected edge list also known as half-edge
+    Difference list
+    Free list
+
+Trees
+Main article: Tree (data structure)
+
+Trees are a subset of directed acyclic graphs.
+Binary trees
+
+    AA tree
+    AVL tree
+    Binary search tree
+    Binary tree
+    Cartesian tree
+    Conc-tree list
+    Left-child right-sibling binary tree
+    Order statistic tree
+    Pagoda
+    Randomized binary search tree
+    Red–black tree
+    Rope
+    Scapegoat tree
+    Self-balancing binary search tree
+    Splay tree
+    T-tree
+    Tango tree
+    Threaded binary tree
+    Top tree
+    Treap
+    WAVL tree
+    Weight-balanced tree
+    Zip tree
+
+B-trees
+
+    B-tree
+    B+ tree
+    B*-tree
+    Dancing tree
+    2–3 tree
+    2–3–4 tree
+    Queap
+    Fusion tree
+    Bx-tree
+
+Heaps
+
+    Heap
+    Min-max heap
+    Binary heap
+    B-heap
+    Weak heap
+    Binomial heap
+    Fibonacci heap
+    AF-heap
+    Leonardo heap
+    2–3 heap
+    Soft heap
+    Pairing heap
+    Leftist heap
+    Treap
+    Beap
+    Skew heap
+    Ternary heap
+    D-ary heap
+    Brodal queue
+
+Bit-slice trees
+
+In these data structures each tree node compares a bit slice of key values.
+
+    Radix tree
+    Suffix tree
+    Suffix array
+    Compressed suffix array
+    FM-index
+    Generalised suffix tree
+    B-tree
+    Judy array
+    Trie
+    X-fast trie
+    Y-fast trie
+    Merkle tree
+
+Multi-way trees
+
+    Ternary search tree
+    Ternary tree
+    K-ary tree
+    And–or tree
+    (a,b)-tree
+    Link/cut tree
+    SPQR-tree
+    Spaghetti stack
+    Disjoint-set data structure (Union-find data structure)
+    Fusion tree
+    Enfilade
+    Exponential tree
+    Fenwick tree
+    Van Emde Boas tree
+    Rose tree
+
+Space-partitioning trees
+
+These are data structures used for space partitioning or binary space partitioning.
+
+    Segment tree
+    Interval tree
+    Range tree
+    Bin
+    K-d tree
+    Implicit k-d tree
+    Min/max k-d tree
+    Relaxed k-d tree
+    Adaptive k-d tree
+    Quadtree
+    Octree
+    Linear octree
+    Z-order
+    UB-tree
+    R-tree
+    R+ tree
+    R* tree
+    Hilbert R-tree
+    X-tree
+    Metric tree
+    Cover tree
+    M-tree
+    VP-tree
+    BK-tree
+    Bounding interval hierarchy
+    Bounding volume hierarchy
+    BSP tree
+    Rapidly exploring random tree
+
+Application-specific trees
+
+    Abstract syntax tree
+    Parse tree
+    Decision tree
+    Alternating decision tree
+    Minimax tree
+    Expectiminimax tree
+    Finger tree
+    Expression tree
+    Log-structured merge-tree
+    PQ tree
+
+Hash-based structures
+
+    Approximate Membership Query Filter
+        Bloom filter
+        Cuckoo filter
+        Quotient filter
+    Count–min sketch
+    Distributed hash table
+    Double hashing
+    Dynamic perfect hash table
+    Hash array mapped trie
+    Hash list
+    Hash table
+    Hash tree
+    Hash trie
+    Koorde
+    Prefix hash tree
+    Rolling hash
+    MinHash
+    Ctrie
+
+Graphs
+
+Many graph-based data structures are used in computer science and related fields:
+
+    Graph
+    Adjacency list
+    Adjacency matrix
+    Graph-structured stack
+    Scene graph
+    Decision tree
+        Binary decision diagram
+    Zero-suppressed decision diagram
+    And-inverter graph
+    Directed graph
+    Directed acyclic graph
+    Propositional directed acyclic graph
+    Multigraph
+    Hypergraph
+
+Other
+
+    Lightmap
+    Winged edge
+    Quad-edge
+    Routing table
+    Symbol table
+    Piece table
+    E-graph
 
 ## Data structures implementation
 
@@ -68,7 +311,7 @@ that may be performed on it, and the mathematical properties of those operations
 
 Data structure efficiency analyzing with their procedures which create and
 manipulate instances of that structure, which manipulations you know?
-&#10;<br>
+<br class="f">
 insert, delete, search, etc. <!--SR:!2024-09-29,2,221-->
 
 ## Data structures examples
@@ -139,7 +382,7 @@ Queue follow ==FIFO== principle (data manipulation and organization). <!--SR:!20
 
 Do low-level and high-level programming languages have built-in support for data
 structures?
-&#10;<br>
+<br class="f">
 Low-level languages don't have built-in support for data structures (or have
 very basic support). High-level languages have special syntax or have standard
 libraries with data structures implementations. <!--SR:!2024-09-29,2,221-->
@@ -155,7 +398,7 @@ structure simultaneously.
 ## Data structure operations
 
 Which data structure operations (for array) are important?
-&#10;<br>
+<br class="f">
 Here is a list of the most common operations:
 - Read, lookup a value in array at a particular index.
 - Search, if value exist in array, return index.

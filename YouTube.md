@@ -2,7 +2,7 @@
 date: 2022-12-29T00:00+03:00
 tags:
   - blog
-  - art
+  - productivity_web
 sr-due: 2024-09-13
 sr-interval: 232
 sr-ease: 288

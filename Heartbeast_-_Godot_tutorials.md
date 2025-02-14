@@ -2,7 +2,7 @@
 date: 2024-01-01T00:00+03:00
 tags:
   - blog
-  - Godot
+  - gamedev
 directory: ~/Computer/graphics/Heartbeast-Godot_Tutorials/
 sr-due: 2024-01-29
 sr-interval: 3
@@ -26,7 +26,7 @@ optimized for pixel art.
 
 ## General
 
-Ctrl + F1:: Open 2D Editor
+Ctrl + F1:<wbr class="f">  Open 2D Editor
 
 Open 3D Editor Ctrl + F2
 

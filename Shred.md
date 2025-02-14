@@ -6,7 +6,7 @@ external:
   - https://www.gnu.org/software/coreutils/manual/html_node/shred-invocation.html
 tags:
   - blog
-  - productivity
+  - cryptography
 sr-due: 2024-01-28
 sr-interval: 3
 sr-ease: 267

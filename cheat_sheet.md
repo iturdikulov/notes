@@ -2,7 +2,7 @@
 date: 2024-10-13T00:00+03:00
 tags:
   - blog
-  - productivity
+  - cheat-sheets
 ---
 
 # Cheat sheet and reference card
@@ -15,20 +15,20 @@ Primary sources are [[computer]]-related subjects and [[computer_software]].
 I also have my own collections of images and PDF files with various
 cheat-sheets, quick reference cards and other useful stuff.
 
-## Built-in references in various software
+A lot of [[computer_software]] include built-in cheatsheets of hotkeys:
 
-- [[Neovim]]::`<leader>fk`, binding to search action/hotkeys in telescope
-- [[Slack]]::`C-/`, open list of keyboard shortcuts
-- [[cmus]]::`7`, open settings view with shortcuts list
-- [[Blender]]::`F3`, open menu search
-- [[Sioyek]]::`:`, open commands palette
-- [[Godot]] ::`C-S-p`
-- [[tmux]]::`C-b`, open list of shortcuts
-- [[NNN]]::`?`, open shortcuts list
-- [[GIMP]]::`shift+f1`, context help
-- [[obsidian]]::`C-S-p`
-- youtube.com and many other websites::`?`, open keyboard shortcuts
-- chrome web-tools::`?` → `shortctus`, `C-S-p`
+- [[Neovim]]:<wbr class="f"> `<leader>fk`, binding to search action/hotkeys in telescope
+- [[Slack]]:<wbr class="f"> `C-/`, open list of keyboard shortcuts
+- [[cmus]]:<wbr class="f"> `7`, open settings view with shortcuts list
+- [[Blender]]:<wbr class="f"> `F3`, open menu search
+- [[Sioyek]]:<wbr class="f"> `:`, open commands' palette
+- [[Godot]] :<wbr class="f"> `C-S-p`
+- [[tmux]]:<wbr class="f"> `C-b`, open list of shortcuts
+- [[NNN]]:<wbr class="f"> `?`, open shortcuts list
+- [[GIMP]]:<wbr class="f"> `shift+f1`, context help
+- [[obsidian]]:<wbr class="f"> `C-S-p`
+- youtube.com and many other websites:<wbr class="f"> `?`, open keyboard shortcuts
+- chrome web-tools:<wbr class="f"> `?` → `shortctus`, `C-S-p`
 
 ## External links
 

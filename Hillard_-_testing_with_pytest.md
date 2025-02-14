@@ -5,7 +5,7 @@ external:
   - https://realpython.com/pytest-python-testing/
 tags:
   - blog
-  - testing
+  - computer_testing
 directory: ~/Computer/programming/Hillard-Testing_With_Pytest
 sr-due: 2023-01-28
 sr-interval: 15

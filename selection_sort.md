@@ -2,7 +2,7 @@
 date: 2024-08-26T00:00+03:00
 tags:
   - blog
-  - base
+  - computer_science
 ---
 
 # Selection sort
@@ -43,7 +43,7 @@ much faster than bubble sort. <!--SR:!2024-09-11,9,250-->
 ## Code implementation: Selection sort
 
 Can you write selection sort, at least basic implementation?
-&#10;<br>
+<br class="f">
 ```js
 function selectionSort(array) {
     // Usage: selectionSort([2, 3, 5, 1, 2, 6, 7, 8, 9, 10]);

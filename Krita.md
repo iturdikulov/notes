@@ -4,7 +4,7 @@ external:
   - https://krita.org/en/
 tags:
   - blog
-  - 2D
+  - cheat-sheets
 sr-due: 2024-01-28
 sr-interval: 2
 sr-ease: 228
@@ -15,119 +15,119 @@ sr-ease: 228
 ## Mouse shortcuts
 
 Right-click
-&#10;<br>
+<br class="f">
 Show a palette of brushes, color history and other tools.
 Right-click again to hide it.
 
 S-left mouse drag in Brush mode
-&#10;<br>
+<br class="f">
 resize brush (large when dragging to right, small when dragging to left).
 
 Space+left mouse button
-&#10;<br>
+<br class="f">
 pan the canvas. Also with middle button (mouse wheel)
 click and drag.
 
 S-Space+left mouse button for ==fine canvas rotations==.
 
-C-click::Color pick the pixel under the cursor.
+C-click:<wbr class="f"> Color pick the pixel under the cursor.
 
-C-M-click::idem, but only if on current layer.
+C-M-click:<wbr class="f"> idem, but only if on current layer.
 
 Select Layer Mode. Hold this key, click on a pixel, you select the layer
 holding this pixel.
-&#10;<br>
+<br class="f">
 R
 
 S-R
-&#10;<br>
+<br class="f">
 Idem, but add the layer to the selection of layers. You can hit C-G to
 group the selected layers, for example…
 
 V
-&#10;<br>
+<br class="f">
 Hold this key, press mouse and hold it, it will trace a straight line between
 the press point and the release point.
 
 ## Default
 
-D::Default foreground (FG =black) and background (BG = white) colors.
+D:<wbr class="f"> Default foreground (FG =black) and background (BG = white) colors.
 
-X::Swap FG and BG colors.
+X:<wbr class="f"> Swap FG and BG colors.
 
-E::Set eraser mode
+E:<wbr class="f"> Set eraser mode
 
-M::Horizontal Mirror Tool.
+M:<wbr class="f"> Horizontal Mirror Tool.
 
-Num-4::Rotate canvas left of 15°
+Num-4:<wbr class="f"> Rotate canvas left of 15°
 
-Num-6::Rotate canvas right of 15°
+Num-6:<wbr class="f"> Rotate canvas right of 15°
 
-Num-5::Reset canvas rotation.
+Num-5:<wbr class="f"> Reset canvas rotation.
 
-+::Zoom in.
++:<wbr class="f"> Zoom in.
 
--::Zoom out.
+-:<wbr class="f"> Zoom out.
 
-Num-1::Zoom at 100 %.
+Num-1:<wbr class="f"> Zoom at 100 %.
 
-Num-2::Zoom at Fit Page.
+Num-2:<wbr class="f"> Zoom at Fit Page.
 
-Num-3::Zoom at Fit Page Width.
+Num-3:<wbr class="f"> Zoom at Fit Page Width.
 
-C-I::Invert colors on current layer(s).
+C-I:<wbr class="f"> Invert colors on current layer(s).
 
-Del::Erase everything in current layer.
+Del:<wbr class="f"> Erase everything in current layer.
 
-Backspace::Fill selection with BG color.
+Backspace:<wbr class="f"> Fill selection with BG color.
 
-S-Backspace::Fill selection with FG color.
+S-Backspace:<wbr class="f"> Fill selection with FG color.
 
-C-Backspace::Fill selection with BG color (opacity).
+C-Backspace:<wbr class="f"> Fill selection with BG color (opacity).
 
-C-S-Backspace::Fill selection with FG color (opacity).
+C-S-Backspace:<wbr class="f"> Fill selection with FG color (opacity).
 
 U
-&#10;<br>
+<br class="f">
 Show common colors (on the left of the palette; allows quick selection;
 alternative: right-click…)
 
 H
-&#10;<br>
+<br class="f">
 Show color history (below the palette; colors used in the current picture)
 
 S-I
-&#10;<br>
+<br class="f">
 Show color selector.
 
 ## Toolbar
 
-B::Freehand Brush Tool
+B:<wbr class="f"> Freehand Brush Tool
 
-T::Move Tool: move the current layer out the selection, depending on options
+T:<wbr class="f"> Move Tool: move the current layer out the selection, depending on options
 
 C-T
-&#10;<br>
+<br class="f">
 Transform a layer or selection: beside rotating, inverting or deforming
 capabilities, allows moving the selection.
 Moreover, if you select a group of layers, it will move the whole group at once.
 You can quickly group & ungroup layers to do that (or just keep these useful
 groups!)
 
-C::Crop Tool: cut the bounds of the image to what is selected. Keeps the layers.
+C:<wbr class="f"> Crop Tool: cut the bounds of the image to what is selected. Keeps the layers.
 
-G::Gradient tool, between FG and BG colors. Better use with a selection…
+G:<wbr class="f"> Gradient tool, between FG and BG colors. Better use with a selection…
 
-P::Color Select Tool. I rather use the Ctrl key to go into color picking mode.
+P:<wbr class="f"> Color Select Tool. I rather use the Ctrl key to go into color picking mode.
 
 F
-&#10;<br>
+<br class="f">
 Fill Tool. Fill the selection and / or the current color with the FG color.
 Play with options for tolerance, growth, feathering, etc.
 
-C-R::Rectangular Selection Tool.
+C-R:<wbr class="f"> Rectangular Selection Tool.
 
-J::Elliptical Selection Tool.
+J:<wbr class="f"> Elliptical Selection Tool.
 
 I mostly use the ==Outline Selection Tool (freehand)==, I assigned it the S
 shortcut.
@@ -143,32 +143,32 @@ the selection; with Alt pressed: it removes from selection.
 
 Note: when I write “current layer”, it often applies to a selection of layers.
 
-PageDown::Select next layer.
+PageDown:<wbr class="f"> Select next layer.
 
-PageUp::Select previous layer.
+PageUp:<wbr class="f"> Select previous layer.
 
 When focus is on layers, arrow works too. ==S-arrows== allows to select
 consecutive layers. So is Shift+click.
 
-Home::Go to first layer.
+Home:<wbr class="f"> Go to first layer.
 
-End::Go to last layer.
+End:<wbr class="f"> Go to last layer.
 
-C-PageDown::Move current layer down.
+C-PageDown:<wbr class="f"> Move current layer down.
 
-C-PageUp::Move current layer up.
+C-PageUp:<wbr class="f"> Move current layer up.
 
 C-G
-&#10;<br>
+<br class="f">
 Move the current layer, or selected layers, into a group. If all layers of
 a group are selected, the group disappears.
 
 C-M-G
-&#10;<br>
+<br class="f">
 Move the current layer out and above the current group.
 
 C-E
-&#10;<br>
+<br class="f">
 Merge current layer on layer below (in list), which keeps its name.
 Useful after pasting, when you don’t want to keep too many layers.
 Warning! Destructive, don’t do it by mistake. But of course, C-Z (undo) fixes
@@ -177,22 +177,22 @@ If the layer below is a group of layer, the group and the merged layer are
 flattened (making only one layer).
 If the layer is the last of its group, it does nothing.
 
-S-Del::Delete current layer.
+S-Del:<wbr class="f"> Delete current layer.
 
-C-J::Duplicate current layer.
+C-J:<wbr class="f"> Duplicate current layer.
 
-F3::Show layer properties.
+F3:<wbr class="f"> Show layer properties.
 
 ## Filters
 
 C-U
-&#10;<br>
+<br class="f">
 Hue / Saturation / Lightness filter.
 Move Saturation to zero to get gray-level image.
 
-C-L::Level filter; allows increasing contrast (move side arrows toward middle).
+C-L:<wbr class="f"> Level filter; allows increasing contrast (move side arrows toward middle).
 
-M-S::initial of blending mode: select the drawing mode.
+M-S:<wbr class="f"> initial of blending mode: select the drawing mode.
 
 ## Custom Shortcuts
 
@@ -203,23 +203,23 @@ Keyboard Shortcuts tab.
 ~/.local/share/krita/shortcuts/Inomoz.shortcuts
 
 InteractionTool - M-S-S
-&#10;<br>
+<br class="f">
 In vector layer, choose the Select Shapes Tool (fat arrow)
 
 PathTool - M-S-E
-&#10;<br>
+<br class="f">
 In vector layer, choose the Edit Shapes Tool (thin arrow on path)
 
-The Outline Selection Tool::KisToolSelectOutline - S
+The Outline Selection Tool:<wbr class="f"> KisToolSelectOutline - S
 
-SvgTextTool - C-S-T::The name is clear
+SvgTextTool - C-S-T:<wbr class="f"> The name is clear
 
 Also clear, useful to check if we painted on right layer
-&#10;<br>
+<br class="f">
 toggle_layer_visibility - C-S-W
 
 Quickly export that PNG or JPEG file
-&#10;<br>
+<br class="f">
 file_export_file - C-S-E
 
 TODO: file_close_all tablet_debugger selection_tool_mode_subtract Select Difference

@@ -2,7 +2,7 @@
 date: 2024-10-30T00:00+03:00
 tags:
   - blog
-  - base
+  - computer_science
 ---
 
 # Dijkstra's algorithm

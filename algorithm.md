@@ -2,7 +2,7 @@
 date: 2023-03-18T00:00+03:00
 tags:
   - blog
-  - SR-base
+  - computer_science
 sr-due: 2024-09-09
 sr-interval: 14
 sr-ease: 144
@@ -77,9 +77,9 @@ Simple flowchart how I see programming and place of algorithms in it:
 
 ## Simplified terminology related to algorithms:
 
-Algorithm time complexity is?::How long does it take to run algorithm X with N data. <!--SR:!2024-09-15,13,232-->
+Algorithm time complexity is?:<wbr class="f"> How long does it take to run algorithm X with N data. <!--SR:!2024-09-15,13,232-->
 
-Algorithm space complexity::Amount of memory space required to solve algorithm X <!--SR:!2024-09-28,14,212-->
+Algorithm space complexity:<wbr class="f"> Amount of memory space required to solve algorithm X <!--SR:!2024-09-28,14,212-->
 with N input data.
 
 Formalized way to describe algorithm time and space complexity is ==Big O Notation==. <!--SR:!2024-10-01,18,192-->

@@ -3,7 +3,6 @@ author: Kentaro Miura
 date: 2025-01-14T11:41+03:00
 tags:
   - blog
-  - art
 directory: ~/Arts_and_Entertainment/literature/Kentaro Miura/
 sr-due: 2024-01-30
 sr-interval: 4

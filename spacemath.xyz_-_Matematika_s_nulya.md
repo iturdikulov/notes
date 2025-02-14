@@ -94,14 +94,14 @@ $$
 ## Основные операции
 
 Какие основные операции **действия** можно проводить с числами?
-&#10;<br>
+<br class="f">
 - Сложение (+) - combining two or more numbers into one.
 - Вычитание (-) - finding the difference between two numbers.
 - Умножение (*) - repeated addition of the same number.
 - Деление (/) - finding the number of times one number is contained in another.
 
 ## Comparison of numbers (operations)
-&#10;<br>
+<br class="f">
 Main property here is relation between numbers.
 - Equality ($=$) - two numbers are equal.
 - Inequality ($\neq$) - two numbers are not equal.

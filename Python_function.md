@@ -23,7 +23,7 @@ print(my_function(1, 2))  # => 3
 
 In python functions (like any other objects) are first-class objects (1st class
 citizens), which means?
-&#10;<br>
+<br class="f">
 The language (Python) supports **passing** functions as arguments to other
 functions, **returning** them as the values from other functions, and
 **assigning** them to variables or storing them in data structures. This all
@@ -32,7 +32,7 @@ required for functional programming style ([[programming_paradigm]]).
 How to change (or use) variable from global scope in some function, when are you
 trying to assign value to it, python create new local variable with the same
 name?
-&#10;<br>
+<br class="f">
 Use `global` statement.
 ```python
 x = 0

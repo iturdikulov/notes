@@ -29,7 +29,7 @@ exception, which may be handled by a
 
 On BSD’ish Unix systems, Python scripts can be made directly executable, like
 shell scripts, by putting the line
-&#10;<br>
+<br class="f">
 ```sh
 #!/usr/bin/env python3
 ```
@@ -41,7 +41,7 @@ the hash, or pound, character, `'#'`, is used to start a comment in Python.
 
 The script can be given an executable mode, or permission, using the **chmod**
 command.
-&#10;<br>
+<br class="f">
 ```sh
 $ chmod +x myscript.py
 ```
@@ -70,7 +70,7 @@ can program this in the global start-up file using code like `if
 os.path.isfile('.pythonrc.py'): exec(open('.pythonrc.py').read())`. If you want
 to use the startup file (`PYTHONSTARTUP`) in a script, you must do this
 explicitly in the script:
-&#10;<br>
+<br class="f">
 ```
 import os
 filename = os.environ.get('PYTHONSTARTUP')

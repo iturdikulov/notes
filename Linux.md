@@ -2,7 +2,7 @@
 date: 2023-03-17T00:00+03:00
 tags:
   - blog
-  - Unix
+  - unix
 sr-due: 2024-02-01
 sr-interval: 6
 sr-ease: 248
@@ -31,6 +31,18 @@ exceptions (semaphores, processes and threads).
 - [[magic_sysrq_key|SYSRQ key]]
 - X11 forwarding
 - [Linux kernel features - Wikipedia](https://en.wikipedia.org/wiki/Category:Linux_kernel_features)
+
+## Printing
+
+Cups configuration web UI aviable at http://host:631.
+
+To get printer url use following command: `lpinfo -v`
+
+To get active printers list use following command: `lpstat -a`
+
+Printing with specific printer and option: `lpr -o landscape -o fit-to-page -P printer_name filename/filinames`
+
+Get printer status: `lpq -P printer_name`
 
 ## External links
 

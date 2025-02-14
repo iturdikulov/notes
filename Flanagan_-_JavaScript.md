@@ -3,7 +3,7 @@ author: David Flanagan
 date: 2025-01-14T11:41+03:00
 tags:
   - blog
-  - web
+  - computer_programming_web
 sr-due: 2024-04-12
 sr-interval: 78
 sr-ease: 228

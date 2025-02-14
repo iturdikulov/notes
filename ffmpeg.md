@@ -2,7 +2,7 @@
 date: 2023-06-16T00:00+03:00
 tags:
   - blog
-  - productivity
+  - multimedia
 external:
   - https://ffmpeg.org/
 sr-due: 2024-01-29

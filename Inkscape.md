@@ -4,7 +4,7 @@ external:
   - https://inkscape.org/
 tags:
   - blog
-  - 2D
+  - cheat-sheets
 sr-due: 2024-01-28
 sr-interval: 3
 sr-ease: 255

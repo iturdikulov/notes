@@ -35,9 +35,9 @@ ideas.
 For me Art is sort of self-expression, when I have a need to express my thoughts
 or just "creative copy" something beautiful.
 
-I'm fan of traditional [[visual_art]] and CGI art.
-I have my  [[art#Art learning path|study plan]] to understand art and their
-subfields better.
+I'm fan of traditional [[visual_art]] and CGI art. I have my
+[[art#Art learning path|study plan]] to understand art and their subfields
+better.
 
 ## Art learning path
 
@@ -55,6 +55,7 @@ To understand custom bullet list types check [[my_notation]] note.
   - [p] Episode 1: Getting Started with simple drawings
   - [p] Episode 2: Cubes, Cylinders & Cones! Free Basic Drawing Class
 - [/] [[my_sketchbook]] - draw things
+- [[graphic_design]]
 - [[Price_-_Donut_tutorial_in_Blender]]
 - [Learn to Draw - YouTube](https://www.youtube.com/playlist?list=PL1HIh25sbqZnkA1T09UtVHoyjYaMJuK0a)
 - redraw Russian_Cyrillic_alphabet
@@ -77,6 +78,7 @@ To understand custom bullet list types check [[my_notation]] note.
 
 ### Photography
 
+- [[photography]]
 - [ ] [[Kilpatrik_-_Svet_i_osveshhenie]], good book about light and lighting.
 
 ### Software

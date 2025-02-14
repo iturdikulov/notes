@@ -10,7 +10,7 @@ sr-ease: 223
 # Combinatorics
 
 What is combinatorics (in simple terms)?
-&#10;<br>
+<br class="f">
 Combinatorics is the science of how to combine different objects.
 
 
@@ -31,7 +31,7 @@ Recommended books:
 Set in combinatorics - `A = {a1, a2, a3, ..., n}`
 
 Number of elements in set (power) [0:07:42](<file:///home/inom/Computer/science/Raigorodsky-Combinatorics/Raigorodsky-Combinatorics-Introduction_to_combinatorics_part_1_aohFil0ioJg.mp4>)?
-&#10;<br>
+<br class="f">
 Number of elements in set - A = |A| = n
 
 ## Addition principle [0:08:11](<file:///home/inom/Computer/science/Raigorodsky-Combinatorics/Raigorodsky-Combinatorics-Introduction_to_combinatorics_part_1_aohFil0ioJg.mp4>)
@@ -41,7 +41,7 @@ A = {a1, a2, a3, ..., n}
 B = {b1, b2, b3, ..., m}, no duplicates, number of items can be other
 ```
 Number of ways to select 1 object from A or 1 object from B ?
-&#10;<br>
+<br class="f">
 |A| + |B| = n + m
 
 ## Multiplication principle [0:11:03](<file:///home/inom/Computer/science/Raigorodsky-Combinatorics/Raigorodsky-Combinatorics-Introduction_to_combinatorics_part_1_aohFil0ioJg.mp4>)
@@ -51,7 +51,7 @@ A = {a1, a2, a3, ..., n}
 B = {b1, b2, b3, ..., m}, can contain duplicates
 ```
 Number of ways to select 1 object from A and then 1 object from B (2 selection)?
-&#10;<br>
+<br class="f">
 |A| * |B| = n * m
 ```
 a1b1, a1b2, a1b3, a1bm
@@ -71,7 +71,7 @@ A = {a1, a2, a3, ..., n}
 k (natural numbers + 0) <= n
 ```
 How to select k items from A (possible ways)?
-&#10;<br>
+<br class="f">
 So here the list:
 We can select k items sequentially, with or without removing items from set:
 1. k-placements without repetition (cut, where k is number of items)

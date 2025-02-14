@@ -2,7 +2,7 @@
 date: 2023-03-12T00:00+03:00
 tags:
   - blog
-  - productivity
+  - education
 external:
   - https://www.stephenmwangi.com/obsidian-spaced-repetition/
 sr-due: 2024-01-29

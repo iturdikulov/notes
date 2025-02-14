@@ -1,7 +1,8 @@
 ---
 tags:
   - blog
-  - base
+  - computer_programming
+  - computer_science
 author:
   - InterviewCake Team
 external:

@@ -2,7 +2,7 @@
 date: 2023-03-18T00:00+03:00
 tags:
   - blog
-  - SR-programing
+  - computer_programming_patterns
 file:
   - ./articles/Real_Python_-_SOLID_Principles.html
 sr-due: 2024-01-26
@@ -27,7 +27,7 @@ This isn't simple process and challenge for your skills. Usually OOD is must be
 done before you start coding.
 
 Main purpose of SOLID principles?
-&#10;<br>
+<br class="f">
 Make your classes more maintainable, flexible, improve their structure and make
 scalable. But don't forget about overhead and over-engineering. You should use
 SOLID principles when you **need to** use them.

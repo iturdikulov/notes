@@ -2,7 +2,7 @@
 date: 2023-06-04T00:00+03:00
 tags:
   - blog
-  - SR-productivity
+  - cheat-sheets
 external:
   - https://slack.com/
 sr-due: 2024-01-30
@@ -18,24 +18,24 @@ calls, video calls and have many integrations with other software.
 
 ## Basic Hotkeys
 
-- Open shortcuts list::`C-/`
-- Jump to a conversation::`C-k`
-- Open direct message menu::`C-S-k`
-- Compose a new message::`C-n`
-- Move focus to the next section::`F6`
-- Move focus to the previous section::`S-F6`
-- Next unread channel or DM::`M-S-down`
-- Previous channel or DM visited::`M-left`
-- Mentions & reactions (Activity)::`C-S-m`
-- Mark all messages in current channel or DM as read::`esc`
-- Mark all messages as read::`S-Esc`
-- Set a message as your oldest unread message::`M-click`
-- Undo message sending/editing::`C-z`
-- Set status::`C-S-y`
-- Search current channel or conversation::`C-f`
-- Go to specific pane (left sidebar)::`C-S-1..4`
-- Open previous search::`C-g`
-- Open downloads::`C-S-j`
+- Open shortcuts list:<wbr class="f"> `C-/`
+- Jump to a conversation:<wbr class="f"> `C-k`
+- Open direct message menu:<wbr class="f"> `C-S-k`
+- Compose a new message:<wbr class="f"> `C-n`
+- Move focus to the next section:<wbr class="f"> `F6`
+- Move focus to the previous section:<wbr class="f"> `S-F6`
+- Next unread channel or DM:<wbr class="f"> `M-S-down`
+- Previous channel or DM visited:<wbr class="f"> `M-left`
+- Mentions & reactions (Activity):<wbr class="f"> `C-S-m`
+- Mark all messages in current channel or DM as read:<wbr class="f"> `esc`
+- Mark all messages as read:<wbr class="f"> `S-Esc`
+- Set a message as your oldest unread message:<wbr class="f"> `M-click`
+- Undo message sending/editing:<wbr class="f"> `C-z`
+- Set status:<wbr class="f"> `C-S-y`
+- Search current channel or conversation:<wbr class="f"> `C-f`
+- Go to specific pane (left sidebar):<wbr class="f"> `C-S-1..4`
+- Open previous search:<wbr class="f"> `C-g`
+- Open downloads:<wbr class="f"> `C-S-j`
 
 ### Navigation
 

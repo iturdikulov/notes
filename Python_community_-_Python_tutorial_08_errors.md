@@ -84,7 +84,7 @@ while True:
 ```
 
 The `try` statement works as follows (with/without exceptions occuring).
-&#10;<br>
+<br class="f">
 - First, the *try clause* (the statement(s) between the `try` and
   `except` keywords) is executed.
 - If no exception occurs, the *except clause* is skipped and execution
@@ -199,7 +199,7 @@ except Exception as inst:  # usually used as `e` or `err`
 
 What is the base class for all exceptions and difference between `Exception`
 subclass?
-&#10;<br>
+<br class="f">
 `BaseException` is the common base class of all exceptions. One of its
 subclasses, `Exception` (user-defined exceptions), is the base class of all the
 non-fatal exceptions. Exceptions which are not subclasses of `Exception` are not
@@ -208,7 +208,7 @@ terminate. They include `SystemExit` which is raised by `sys.exit` and
 `KeyboardInterrupt` which is raised when a user wishes to interrupt the program.
 
 Is possible to catch all exceptions with `Exception`?
-&#10;<br>
+<br class="f">
 `Exception` can be used as a wildcard that catches (almost) everything. However,
 it is good practice to be as specific as possible with the types of exceptions
 that we intend to handle, and to allow any unexpected exceptions to propagate
@@ -221,7 +221,7 @@ except Exception as e:
 ```
 
 How to use of `Exception` to print or log the exception?
-&#10;<br>
+<br class="f">
 The most common pattern for handling `Exception` is to print or log the
 exception and then re-raise it (allowing a caller to handle the
 exception as well):
@@ -270,13 +270,13 @@ for arg in argv:
 ```
 
 When `else` block of `try` ... `except` statement is better to use?
-&#10;<br>
+<br class="f">
 The use of the `else` clause is better than adding additional code to the `try`
 clause because it avoids **accidentally** catching an exception that must be
 trigger by the `try` ... `except` block.
 
 Can we catch exceptions in deeply nested code?
-&#10;<br>
+<br class="f">
 Yes. Exception handlers do not handle only exceptions that occur immediately
 in the *try clause*, but also those that occur inside functions that are
 called (even indirectly) in the *try clause*. For example:
@@ -291,7 +291,7 @@ except ZeroDivisionError as err:
 ```
 
 How to manually raise an exception?
-&#10;<br>
+<br class="f">
 The `raise` statement allows the programmer to force a specified
 exception to occur. For example:
 ```python
@@ -302,14 +302,14 @@ raise NameError('HiThere')  # raise argument is an exception instance/class
 ```
 
 If an exception class is passed to `raise` how it will be processed?
-&#10;<br>
+<br class="f">
 It will be implicitly instantiated by calling its constructor with no arguments:
 ```python
 raise ValueError  # shorthand for 'raise ValueError()'
 ```
 
 What if you need to catch exception do something and then re-raise it?
-&#10;<br>
+<br class="f">
 If you need to determine whether an exception was raised but don't
 intend to handle it, a simpler form of the `raise` statement allows you
 to re-raise the exception:
@@ -328,7 +328,7 @@ try:
 
 Exception Chaining, what if an unhandled exception occurs inside an `except`
 section?
-&#10;<br>
+<br class="f">
 If an unhandled exception occurs inside an `except` section, it will have the
 exception being handled attached to it and included in the error message:
 ```python
@@ -349,7 +349,7 @@ except OSError:
 ```
 
 How to indicate that an exception is a direct consequence of another,
-&#10;<br>
+<br class="f">
 The `raise` statement allows an optional `from` clause:
 ```python
 # exc must be exception instance or None.
@@ -483,7 +483,7 @@ divide("2", "1")
 ```
 
 When the `finnaly` clause (`try`) is useful in real world applications?
-&#10;<br>
+<br class="f">
 In real world applications, the `finally` clause is useful for releasing
 external resources (such as files or network connections), regardless of
 whether the use of the resource was successful.
@@ -495,7 +495,7 @@ for line in open("myfile.txt"):
     print(line, end="")
 ```
 What the problem with this code?
-&#10;<br>
+<br class="f">
 Is that it leaves the file open for an indeterminate amount of time after this
 part of the code has finished executing.
 

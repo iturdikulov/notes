@@ -6,7 +6,7 @@ external:
   - https://www.youtube.com/watch?v=FxSsnHeWQBY
 tags:
   - blog
-  - testing
+  - computer_testing
 sr-due: 2024-01-29
 sr-interval: 2
 sr-ease: 226
@@ -27,7 +27,7 @@ Slides can be found at:
 ## Features
 
 Features of unit-testing?
-&#10;<br>
+<br class="f">
 - Know if your code works
 - Save time
 - Better code
@@ -44,7 +44,7 @@ Features of unit-testing?
 ## Growing tests
 
 How tests must be written?
-&#10;<br>
+<br class="f">
 - automated (low effort and repeatable)
 - tests must be repeatable with low effort (run independently, fast)
 - explicit expected results

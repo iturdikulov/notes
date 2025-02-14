@@ -2,9 +2,6 @@
 date: 2023-04-02T00:00+03:00
 tags:
   - blog
-sr-due: 2024-01-29
-sr-interval: 3
-sr-ease: 253
 ---
 
 # dotfiles - Hidden file and hidden directory
@@ -21,6 +18,8 @@ contains almost everything related to software which I use.
 ## External links
 
 - [ ] [hlissner dotfiles](https://github.com/hlissner/dotfiles)
+- [ ] [tjdevries/config_manager](https://github.com/tjdevries/config_manager)
+- [ ] [ThePrimeagen/dev](https://github.com/ThePrimeagen/dev)
 - [ ] [craftzdog dotfiles](https://github.com/craftzdog/dotfiles-public)
 - [ ] [ThePrimeagen dotfiles](https://github.com/ThePrimeagen/.dotfiles)
 - [ ] [tjdevries dotfiles](https://github.com/tjdevries/config_manager)

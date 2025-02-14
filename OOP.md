@@ -2,7 +2,7 @@
 date: 2023-03-12T00:00+03:00
 tags:
   - blog
-  - base
+  - computer_programming_patterns
 sr-due: 2024-01-28
 sr-interval: 1
 sr-ease: 198
@@ -20,7 +20,7 @@ Paradigms like object-oriented programming and functional programming are all
 about making code easier to work with and understand, but need always keep
 balance and avoid over-engineering.
 
-[[programming_principles|Programming principles]] are commonly used to make
+[[programming_principles_and_design_patterns|Programming principles]] are commonly used to make
 object-oriented designs better.
 
 Be careful, OOP can produce a lot of boilerplate code. It's not always the best
@@ -31,7 +31,7 @@ If you forget to change it in one place, you'll have a bug
 It's more work to write it over and over again
 
 Usually object-oriented programming techniques using various
-[[programming_principles]] and take advantage of [[software_quality]].
+[[programming_principles_and_design_patterns]] and take advantage of [[software_quality]].
 
 This is main point of =="clean code"==.
 > Any fool can write code that a computer can understand. Good programmers write
@@ -39,7 +39,7 @@ This is main point of =="clean code"==.
 > — <cite>Martin Fowler</cite>
 
 Reason to write "clean code"?
-&#10;<br>
+<br class="f">
 - Make code easier to work with
 - Make it easier to find and fix bugs
 - Make the development process faster
@@ -50,7 +50,7 @@ like Python. It's similar to a ==dictionary== in that it usually stores other
 types inside itself.
 
 Difference between function and method (Python):
-&#10;<br>
+<br class="f">
 Method has all the same properties as a function, but it is tied directly to a
 class and has access to all its properties.
 A method can operate on data that is contained within the class. <!--SR:!2024-09-24,2,198-->
@@ -104,13 +104,13 @@ while True:
 ```
 
 Why `Class` methods often don't return anything explicitly?
-&#10;<br>
+<br class="f">
 Methods often don't return anything explicitly because they can mutate the
 properties of the object (class instance) instead, usually by modifying the
 instance's `self` parameter.
 
 Which programming style is better, functional or object-oriented?
-&#10;<br>
+<br class="f">
 Because functions are more explicit, some developers argue that functional
 programming is better than object-oriented programming. In reality, neither
 paradigm is "better", and the best developers learn and understand both styles
@@ -129,7 +129,7 @@ differences between instance and class variables in Python?
 class Wall:
     height = 10
 ```
-&#10;<br>
+<br class="f">
 ```python
 class Wall:
     height = 10
@@ -144,13 +144,13 @@ print(south_wall.height, north_wall.height)
 ```
 
 What is encapsulation?
-&#10;<br>
+<br class="f">
 Encapsulation is the practice of hiding complexity inside a "black box" so that
 it's easier to focus on the problem at hand. Encapsulation prevents external
 code from being concerned with the internal workings of an object.
 
 Is encapsulation a security feature?
-&#10;<br>
+<br class="f">
 Encapsulation is about organization, not security. <!--SR:!2024-10-22,4,198-->
 
 Private data members are how we encapsulate logic and data within a class. Which
@@ -171,7 +171,7 @@ front_wall = Wall(10, 20)
 print(front_wall.__armor)
 print(front_wall.get_defense())
 ```
-&#10;<br>
+<br class="f">
 In code above `get_defense()` is a public method, but `armor` and
 `magic_resistance` are private data members.
 Code will raise an error, when we try to access `armor`, if we really want to

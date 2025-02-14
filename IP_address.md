@@ -16,14 +16,14 @@ sr-ease: 248
 > [[computer_network]] interface identification and location addressing.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/IP_address)</cite>
 
-IP address is::unique address, used to identify each computer on the internet.
+IP address is:<wbr class="f"> unique address, used to identify each computer on the internet.
 
-IP address provided by::ICANN, and ensure that 2 organizations don't use the
+IP address provided by:<wbr class="f"> ICANN, and ensure that 2 organizations don't use the
 same address.
 
 ## IPv4 format, 32-bit
 
-IP address consist of::4 octets and 3 periods: `nnn.nnn.nnn.nnn nnn` - is octet,
+IP address consist of:<wbr class="f"> 4 octets and 3 periods: `nnn.nnn.nnn.nnn nnn` - is octet,
 decimal value `0-255` (256 total values). . - is period
 
 - `1.2.3.4`
@@ -109,9 +109,9 @@ is part of the IP address.
 
 Universal network utility, which can be used to many network tasks.
 
-- Check network interfaces::`ip [-brief] link` or `ip [-brief] address`
-- Find neighbors::`ip neighbor`
-- Up/down network interface::`ip link set dev eth0 up` or `ip link set dev eth0 down`
+- Check network interfaces:<wbr class="f"> `ip [-brief] link` or `ip [-brief] address`
+- Find neighbors:<wbr class="f"> `ip neighbor`
+- Up/down network interface:<wbr class="f"> `ip link set dev eth0 up` or `ip link set dev eth0 down`
 
 ## Online tools
 

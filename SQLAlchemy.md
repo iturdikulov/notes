@@ -60,7 +60,7 @@ COMMIT
 ```
 
 How to use "begin once"?
-&#10;<br>
+<br class="f">
 ```python
 with engine.begin() as conn:
     conn.execute(
@@ -113,7 +113,7 @@ with engine.connect() as conn:
 ```
 
 Are we able to execute multiple statements in a single `execute()` call?
-&#10;<br>
+<br class="f">
 Yes, this style of execution is known as execute many.
 ```python
 # A key behavioral difference between “execute” and “executemany” is that the
@@ -137,7 +137,7 @@ statements we give it and does not generally do things much differently from how
 the Connection does directly.
 
 How to use Session:
-&#10;<br>
+<br class="f">
 ```python
 from sqlalchemy.orm import Session
 
@@ -156,7 +156,7 @@ with Session(engine) as session:
 ```
 
 Does the Session object hold onto the Connection object?
-&#10;<br>
+<br class="f">
 The `Session` doesn’t actually hold onto the Connection object after it ends the
 transaction. It gets a new Connection from the Engine the next time it needs to
 execute SQL against the database.

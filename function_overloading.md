@@ -2,14 +2,14 @@
 date: 2023-04-01T00:00+03:00
 tags:
   - blog
-  - base
+  - computer_programming
 sr-due: 2024-01-29
 sr-interval: 2
 sr-ease: 229
 ---
 
 # Function overloading (method overloading)
-&#10;<br>
+<br class="f">
 > Ability to create multiple [[function|functions]] of
 > the same name with different implementations. Calls to an overloaded function
 > will run a specific implementation of that function appropriate to the context
@@ -35,8 +35,8 @@ long Volume(long l, int b, int h) {  // Volume of a cuboid.
 }
 
 int main() {
-  std::cout << Volume(10);
-  std::cout << Volume(2.5, 8);
-  std::cout << Volume(100l, 75, 15);
+  std:<wbr class="f"> cout << Volume(10);
+  std:<wbr class="f"> cout << Volume(2.5, 8);
+  std:<wbr class="f"> cout << Volume(100l, 75, 15);
 }
 ```

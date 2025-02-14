@@ -2,7 +2,7 @@
 date: 2023-06-04T00:00+03:00
 tags:
   - blog
-  - productivity
+  - cheat-sheets
 sr-due: 2024-02-21
 sr-interval: 26
 sr-ease: 287
@@ -26,50 +26,50 @@ customize these bindings.
 
 Once you have Vimium installed, you can see this list of key bindings at any time by typing `?`.
 
-`C-?`::show the help dialog for a list of all available keys
+`C-?`:<wbr class="f"> show the help dialog for a list of all available keys
 
-`yy`::copy the current url to the clipboard
+`yy`:<wbr class="f"> copy the current url to the clipboard
 <!--SR:!2024-01-27,7,265-->
 
-`H`::go back in history
+`H`:<wbr class="f"> go back in history
 
-`L`::go forward in history
+`L`:<wbr class="f"> go forward in history
 
-`<C-6>`::Go to previously-visited tab (visitPreviousTab)
+`<C-6>`:<wbr class="f"> Go to previously-visited tab (visitPreviousTab)
 
 `gi`
-&#10;<br>
+<br class="f">
 focus the first (or n-th) text input box on the page. Use <tab> to cycle through
 options.
 
-`i`::enter insert mode -- all commands will be ignored until you hit Esc to exit
+`i`:<wbr class="f"> enter insert mode -- all commands will be ignored until you hit Esc to exit
 
-`C-;`::open a link in the current tab
+`C-;`:<wbr class="f"> open a link in the current tab
 
-`C-:`::open a link in a new tab
+`C-:`:<wbr class="f"> open a link in a new tab
 
-`b`::Open bookmark
+`b`:<wbr class="f"> Open bookmark
 
-`B`::Open bookmark in a new tab
+`B`:<wbr class="f"> Open bookmark in a new tab
 
-`C-S-1` (brave custom hotkey)::move current tab to new window. NOTE: this is sometimes very useful.
+`C-S-1` (brave custom hotkey):<wbr class="f"> move current tab to new window. NOTE: this is sometimes very useful.
 
-`C-S-A` (brave default hotkey)::search through your open tabs
+`C-S-A` (brave default hotkey):<wbr class="f"> search through your open tabs
 
-`ma, mA`::set local mark "a" (global mark "A")
+`ma, mA`:<wbr class="f"> set local mark "a" (global mark "A")
 
 Jump to local mark "a" (global mark "A")
-&#10;<br>
+<br class="f">
 `\`a, \`A`
 
 "\`\`"
-&#10;<br>
+<br class="f">
 jump back to the position before the previous jump, that is, before the previous
 `gg, G, n, N, /` or `\`a`
 
-`]], [[`::Follow the link labeled 'next' or '>' ('previous' or '<')
+`]], [[`:<wbr class="f"> Follow the link labeled 'next' or '>' ('previous' or '<')
 
-`<a-f>`::open multiple links in a new tab
+`<a-f>`:<wbr class="f"> open multiple links in a new tab
 
 ## Custom Key Mappings
 

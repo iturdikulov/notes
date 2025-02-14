@@ -2,7 +2,7 @@
 date: 2022-12-03T00:00+03:00
 tags:
   - blog
-  - SR-Unix
+  - cheat-sheets
 sr-due: 2024-02-06
 sr-interval: 9
 sr-ease: 250
@@ -23,7 +23,7 @@ sr-ease: 250
 
 Shell is the interface between a user and the system itself. Which main layers
 it consists of, first layer is program:
-&#10;<br>
+<br class="f">
 ```
 +----------------+
 |  Program/User  |
@@ -45,17 +45,17 @@ it consists of, first layer is program:
 
 ## Basic keyboard bindings
 
-`bindkey -L`::List current shortcuts
+`bindkey -L`:<wbr class="f"> List current shortcuts
 
-- `C-r`::Reverse search history
-- `C-p`::Previous command in history
-- `C-n`::Next command in history
-- `/`::Search backward in history
-- `C-i`::command completion like Tab
-- `C-l`::Clear the screen (same as clear command)
-- `C-c`::kill whatever is running
-- `C-d`::Exit shell (same as exit command when cursor line is empty)
-- `C-z`::Place current process in background
+- `C-r`:<wbr class="f"> Reverse search history
+- `C-p`:<wbr class="f"> Previous command in history
+- `C-n`:<wbr class="f"> Next command in history
+- `/`:<wbr class="f"> Search backward in history
+- `C-i`:<wbr class="f"> command completion like Tab
+- `C-l`:<wbr class="f"> Clear the screen (same as clear command)
+- `C-c`:<wbr class="f"> kill whatever is running
+- `C-d`:<wbr class="f"> Exit shell (same as exit command when cursor line is empty)
+- `C-z`:<wbr class="f"> Place current process in background
 
 ## ZSH vi mode
 
@@ -71,30 +71,30 @@ You can change the editor by `ZVM_VI_EDITOR` option, by default it is
 
 ### Movement
 
-- `$`::To the end of the line
-- `^`::To the first non-blank character of the line
-- `0`::To the first character of the line
-- `w`::[count] words forward
-- `W`::[count] WORDS forward
-- `e`::Forward to the end of word [count] inclusive
-- `E`::Forward to the end of WORD [count] inclusive
-- `b`::[count] words backward
-- `B`::[count] WORDS backward
-- `t{char}`::Till before [count]'th occurrence of {char} to the right
-- `T{char}`::Till before [count]'th occurrence of {char} to the left
-- `f{char}`::To [count]'th occurrence of {char} to the right
-- `F{char}`::To [count]'th occurrence of {char} to the left
-- `;`::Repeat latest f, t, F or T [count] times
-- `,`::Repeat latest f, t, F or T in opposite direction
+- `$`:<wbr class="f"> To the end of the line
+- `^`:<wbr class="f"> To the first non-blank character of the line
+- `0`:<wbr class="f"> To the first character of the line
+- `w`:<wbr class="f"> [count] words forward
+- `W`:<wbr class="f"> [count] WORDS forward
+- `e`:<wbr class="f"> Forward to the end of word [count] inclusive
+- `E`:<wbr class="f"> Forward to the end of WORD [count] inclusive
+- `b`:<wbr class="f"> [count] words backward
+- `B`:<wbr class="f"> [count] WORDS backward
+- `t{char}`:<wbr class="f"> Till before [count]'th occurrence of {char} to the right
+- `T{char}`:<wbr class="f"> Till before [count]'th occurrence of {char} to the left
+- `f{char}`:<wbr class="f"> To [count]'th occurrence of {char} to the right
+- `F{char}`:<wbr class="f"> To [count]'th occurrence of {char} to the left
+- `;`:<wbr class="f"> Repeat latest f, t, F or T [count] times
+- `,`:<wbr class="f"> Repeat latest f, t, F or T in opposite direction
 
 ### Insertion
 
-- `i`::Insert text before the cursor
-- `I`::Insert text before the first character in the line
-- `a`::Append text after the cursor
-- `A`::Append text at the end of the line
-- `o`::Insert new command line below the current one
-- `O`::Insert new command line above the current one
+- `i`:<wbr class="f"> Insert text before the cursor
+- `I`:<wbr class="f"> Insert text before the first character in the line
+- `a`:<wbr class="f"> Append text after the cursor
+- `A`:<wbr class="f"> Append text at the end of the line
+- `o`:<wbr class="f"> Insert new command line below the current one
+- `O`:<wbr class="f"> Insert new command line above the current one
 
 ### Surround
 
@@ -104,23 +104,23 @@ option.
 
 1. Classic mode (verb->s->surround)
 
-- `S"`::Add `"` for visual selection
-- `ys"`::Add `"` for visual selection
-- `cs"'`::Change `"` to `'`
-- `ds"`::Delete `"`
+- `S"`:<wbr class="f"> Add `"` for visual selection
+- `ys"`:<wbr class="f"> Add `"` for visual selection
+- `cs"'`:<wbr class="f"> Change `"` to `'`
+- `ds"`:<wbr class="f"> Delete `"`
 
 2. S-prefix mode (s->verb->surround)
-- `sa"`::Add `"` for visual selection
-- `sd"`::Delete `"`
-- `sr"'`::Change `"` to `'`
+- `sa"`:<wbr class="f"> Add `"` for visual selection
+- `sd"`:<wbr class="f"> Delete `"`
+- `sr"'`:<wbr class="f"> Change `"` to `'`
 
 Note that key sequences must be pressed in fairly quick succession to avoid a
 timeout. You may extend this timeout with the `ZVM_KEYTIMEOUT` option
 
 ### How to select surround text object?
 
-- `vi"`::Select the text object inside the quotes
-- `va(`::Select the text object including the brackets
+- `vi"`:<wbr class="f"> Select the text object inside the quotes
+- `va(`:<wbr class="f"> Select the text object including the brackets
 
 Then you can do any operation for the selection:
 

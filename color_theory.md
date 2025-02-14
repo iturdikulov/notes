@@ -33,5 +33,5 @@ sr-ease: 250
 
 ## External links
 
-- [ ] [Applying Color Theory to Digital Displays :: UXmatters](https://www.uxmatters.com/mt/archives/2007/01/applying-color-theory-to-digital-displays.php)
+- [ ] [Applying Color Theory to Digital Displays :<wbr class="f">  UXmatters](https://www.uxmatters.com/mt/archives/2007/01/applying-color-theory-to-digital-displays.php)
 - [ ] [Understanding Colors — Blender Guru](http://www.blenderguru.com/tutorials/understanding-colors)

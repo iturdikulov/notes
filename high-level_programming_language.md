@@ -2,7 +2,7 @@
 date: 2023-03-11T00:00+03:00
 tags:
   - blog
-  - base
+  - computer_programming
 sr-due: 2024-02-09
 sr-interval: 14
 sr-ease: 239

@@ -4,7 +4,7 @@ external:
 date: 2023-04-05T00:00+03:00
 tags:
   - blog
-  - productivity
+  - markdown
 sr-due: 2024-01-29
 sr-interval: 3
 sr-ease: 252
@@ -35,45 +35,45 @@ This feature uses `tab` and `shift+tab` to indent and unindent respectively.
 
 ## Core hotkeys
 
-Wrap link::`<leader>ln`
+Wrap link:<wbr class="f"> `<leader>ln`
 
-Toggle checklist item::`<leader>t`
+Toggle checklist item:<wbr class="f"> `<leader>t`
 
-Toggle list item::`<leader>ll`
+Toggle list item:<wbr class="f"> `<leader>ll`
 
-Toggle task item (support visual mode)::`<leader>t`
+Toggle task item (support visual mode):<wbr class="f"> `<leader>t`
 
 Toggling lines from / to checklist items (alternative to telekasten
 `<leader>zt`)
-&#10;<br>
+<br class="f">
 `<leader>lt`
 
 Completing Checkboxes / Checklists (support visual mode, can be combined)
-&#10;<br>
+<br class="f">
 `<leader>=` and `<leader>-` Sort of `+/-`
 
-Dead link detection::`<leader>L`
+Dead link detection:<wbr class="f"> `<leader>L`
 
-Insert kbd shortcut::`<<tab>`
+Insert kbd shortcut:<wbr class="f"> `<<tab>`
 
-Toggling and promoting / demoting Headers::`<leader>]` and `<leader>[`
+Toggling and promoting / demoting Headers:<wbr class="f"> `<leader>]` and `<leader>[`
 
-Toggling Quotes::`<leader>'`
+Toggling Quotes:<wbr class="f"> `<leader>'`
 
-Toggle links::`<leader>ln`
+Toggle links:<wbr class="f"> `<leader>ln`
 
 Toggle as bold / italic / inline-code / strike-through, where n is a number of
 words
-&#10;<br>
+<br class="f">
 - `n<leader>/` → italic
 - `n<leader>b` → bold
 - ``n<leader>` `` → inline code
 - `n<leader>s` → strike-through
 
-Convert CSV to table and back::`<leader>,`
+Convert CSV to table and back:<wbr class="f"> `<leader>,`
 
-Jump to header::`<leader>j`*
+Jump to header:<wbr class="f"> `<leader>j`*
 
-Generate or update TOC (you can also use details markup)::`<leader>i`
+Generate or update TOC (you can also use details markup):<wbr class="f"> `<leader>i`
 
-Open TOC in quickfix window (you can use `:cn` to navigate)::`<leader>I`
+Open TOC in quickfix window (you can use `:cn` to navigate):<wbr class="f"> `<leader>I`

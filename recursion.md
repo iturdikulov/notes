@@ -2,7 +2,7 @@
 date: 2023-03-18T00:00+03:00
 tags:
   - blog
-  - base
+  - computer_science
 sr-due: 2024-01-29
 sr-interval: 2
 sr-ease: 225
@@ -32,7 +32,7 @@ def test_func(x):
 
 print(test_func(10))
 ```
-&#10;<br>
+<br class="f">
 ```
 55 = 10 + 9 + 8 + 7 + 6 + 5 + 4 + 3 + 2 + 1
 ```

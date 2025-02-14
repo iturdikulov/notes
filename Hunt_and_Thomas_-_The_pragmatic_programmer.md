@@ -1,7 +1,7 @@
 ---
 tags:
   - blog
-  - IRL
+  - computer_programming
 author:
   - Andrew Hunt; David Thomas
 external:

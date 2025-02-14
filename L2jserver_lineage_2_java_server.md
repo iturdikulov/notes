@@ -4,7 +4,7 @@ external:
 date: 2023-04-18T00:00+03:00
 tags:
   - blog
-  - Java
+  - gamedev
 sr-due: 2024-01-28
 sr-interval: 3
 sr-ease: 267

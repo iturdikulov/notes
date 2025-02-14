@@ -2,7 +2,7 @@
 date: 2024-01-18T00:00+03:00
 tags:
   - blog
-  - IRL
+  - cooking
 sr-due: 2024-01-29
 sr-interval: 3
 sr-ease: 268
@@ -21,7 +21,7 @@ sr-ease: 268
 
 ![Currd pankekes](img/curd_pancakes.jpg)
 
-## Learn how to [[cooking|cook]] them
+Learn how to [[cooking|cook]] them:
 
 - [ ] [Лучшие Сырники](https://www.youtube.com/watch?app=desktop&v=qg4D7NFtTeI#dialog)
 - [ ] [СЕКРЕТ СЫРНИКОВ ☆ Как в РЕСТОРАНЕ](https://www.youtube.com/watch?app=desktop&v=o-J33AkQja4)

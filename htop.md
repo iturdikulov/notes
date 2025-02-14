@@ -2,7 +2,7 @@
 date: 2023-02-03T00:00+03:00
 tags:
   - blog
-  - productivity
+  - computer_programming_tools
 external:
   - https://htop.dev/
 sr-due: 2023-01-28
@@ -22,6 +22,6 @@ filter the processes.
 
 ## Keyboard bindings
 
-Toggle tree view::`t`
+Toggle tree view:<wbr class="f"> `t`
 
-Search::`/`
+Search:<wbr class="f"> `/`

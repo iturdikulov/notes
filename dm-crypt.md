@@ -2,7 +2,6 @@
 date: 2022-12-29T00:00+03:00
 tags:
   - blog
-  - cryptography
 sr-due: 2024-02-07
 sr-interval: 13
 sr-ease: 248

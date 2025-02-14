@@ -6,7 +6,7 @@ external:
 date: 2022-12-29T00:00+03:00
 tags:
   - blog
-  - SR-base
+  - computer_science
 directory: ~/Computer/science/LeetCode_Team-LeetCode/
 sr-due: 2024-01-29
 sr-interval: 2
@@ -19,8 +19,10 @@ sr-ease: 229
 > for technical interviews.\
 > — <cite>[LeetCode](https://leetcode.com/)</cite>
 
-Main factors and tips to use LeetCode effectively [^1]:
-&#10;<br>
+## Main factors and tips to use LeetCode effectively
+
+Good tips from leetcode community discussion [^1].
+
 - Consistency
 - if you're not focusing, it's OK to just stop and come back later (active
   improvement). But don't forget about consistency.

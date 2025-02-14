@@ -2,7 +2,7 @@
 date: 2023-04-29T00:00+03:00
 tags:
   - blog
-  - IRL
+  - cooking
 sr-due: 2024-01-28
 sr-interval: 3
 sr-ease: 268

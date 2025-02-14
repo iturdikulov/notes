@@ -6,7 +6,7 @@ external:
 directory: ~/Computer/programming/DeVries-Tutorials/
 tags:
   - blog
-  - productivity
+  - computer_programming
 sr-due: 2024-02-14
 sr-interval: 20
 sr-ease: 210
@@ -14,17 +14,17 @@ sr-ease: 210
 
 # Debugging In Neovim (ft BashBunni)
 
-Indent paragraph::`>ip`
+Indent paragraph:<wbr class="f"> `>ip`
 
-Delete paragraph::`dip`
+Delete paragraph:<wbr class="f"> `dip`
 
-`:map`::List of all maps for all modes
+`:map`:<wbr class="f"> List of all maps for all modes
 
-`:nmap`::List of all maps for normal mode
+`:nmap`:<wbr class="f"> List of all maps for normal mode
 
-`:nmap <leader>`::List of all maps for normal + leader key
+`:nmap <leader>`:<wbr class="f"> List of all maps for normal + leader key
 
-`:verbose :nmap <leader>`::List of all maps for normal + leader key + source
+`:verbose :nmap <leader>`:<wbr class="f"> List of all maps for normal + leader key + source
 
 To debug, like `LSP`, dap-debug require debug server.
 
@@ -35,7 +35,7 @@ You can set up `dap-u` to use different tabs/windows.
 One of useful plugin is `nvim-dap-virtual-text`
 
 Breakpoint condition how to use them?
-&#10;<br>
+<br class="f">
 For example: `i == 1` - only trigger breakpoint when `i` is equal to `1`
 
 Dap-ui can be start automatically on starting debug session, nvim-dap trigger
@@ -49,8 +49,8 @@ Dap is created by Microsoft.
 
 You can use `ඞ` as symbol for breakpoint
 
-TODO::check remote debugging / attach to process.
+TODO:<wbr class="f"> check remote debugging / attach to process.
 
-TODO::check LSP-symbols and start really use them
+TODO:<wbr class="f"> check LSP-symbols and start really use them
 
-TODO::<leader>td to run test?
+TODO:<wbr class="f"> <leader>td to run test?

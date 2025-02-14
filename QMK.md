@@ -3,7 +3,7 @@ date: 2023-01-28T00:00+03:00
 directory: ~/Computer/hardware/QMK
 tags:
   - blog
-  - electronics
+  - keyboard
 sr-due: 2024-01-30
 sr-interval: 5
 sr-ease: 248
@@ -22,7 +22,7 @@ I use QMK on my keyboard (KBD75 rev2). I'have done some basic customizations to
 keymap. I use Colemak-DH layout (check image below), but on system level
 (because I use also Russian ЙЦУКЕН layout, so it's depends on qwerty layout).
 
--![Colemak-DH ANSI](img/Colemak-DH_ANSI.png)
+![Colemak-DH ANSI](img/Colemak-DH_ANSI.png)
 _Colemak-DH ANSI_
 
 Key codes: [qmk_firmware/docs/keycodes.md](https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md)

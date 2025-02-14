@@ -2,7 +2,7 @@
 date: 2023-04-19T00:00+03:00
 tags:
   - blog
-  - Unix
+  - computer_programming_tools
 external:
   - https://www.gnu.org/software/coreutils/
 sr-due: 2024-01-29
@@ -94,7 +94,7 @@ Source code of coreutils can be found at gnu.org website:
 - `basename` - Removes the path prefix from a given pathname
 - `chroot` - Changes the root directory
 - `date` - Prints or sets the system date and time
-    - Prints the date and time in UTC::`date -u`
+    - Prints the date and time in UTC:<wbr class="f"> `date -u`
 - `dirname` - Strips non-directory suffix from file name
 - `du` - Shows disk usage on file systems
 - `echo` - Displays a specified line of text
@@ -118,8 +118,8 @@ Source code of coreutils can be found at gnu.org website:
 - `readlink` - Displays value of a symbolic link, very useful to copy file path
     - The `realpath` command without options, operates like `readlink` in
     `canonicalize` mode.
-    - Get the actual file to which symlink points::`readlink path/to/file/`
-    - Get absolute path of file::`readlink -f/--canonicalize path/to/file/`
+    - Get the actual file to which symlink points:<wbr class="f"> `readlink path/to/file/`
+    - Get absolute path of file:<wbr class="f"> `readlink -f/--canonicalize path/to/file/`
 - `runcon` - Run command with specified security context
 - `seq` - Prints a sequence of numbers
 - `sleep` - Delays for a specified amount of time

@@ -5,7 +5,7 @@ external:
   - https://www.youtube.com/watch?v=tijnc65soEI
 tags:
   - blog
-  - SR-productivity
+  - productivity
 sr-due: 2025-06-04
 sr-interval: 496
 sr-ease: 248
@@ -15,20 +15,20 @@ sr-ease: 248
 
 ## Typical Workflow
 
-1. Add a simple task::`task add <description separated by spaces>`
+1. Add a simple task:<wbr class="f"> `task add <description separated by spaces>`
    Creating a task with due dates, recurrences, and tags
    `task add Mow the lawn project:Lawnwork due:tomorrow recur:biweekly +home`
-2. List tasks::`task list`
-3. Complete a task::`task <task number> done`
+2. List tasks:<wbr class="f"> `task list`
+3. Complete a task:<wbr class="f"> `task <task number> done`
 
 ## Commands
 
-- show all tasks::`task all`
-- add task with tag::`task add +tag +tag2 <description>` <!--SR:!2024-09-22,1,228-->
-- remove tag from task::`task <task number> mod -tag`
-- add task with project::`task add project:name.sub_project <description>`
-- add task with priority::`task add pri:H <description>`. H, M, L are supported.
-- annotate task::`task <task number> annotate <annotation>`
+- show all tasks:<wbr class="f"> `task all`
+- add task with tag:<wbr class="f"> `task add +tag +tag2 <description>` <!--SR:!2024-09-22,1,228-->
+- remove tag from task:<wbr class="f"> `task <task number> mod -tag`
+- add task with project:<wbr class="f"> `task add project:name.sub_project <description>`
+- add task with priority:<wbr class="f"> `task add pri:H <description>`. H, M, L are supported.
+- annotate task:<wbr class="f"> `task <task number> annotate <annotation>`
 
 TODO: default project, like inbox
 

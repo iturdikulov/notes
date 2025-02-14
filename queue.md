@@ -2,10 +2,7 @@
 date: 2023-05-19T00:00+03:00
 tags:
   - blog
-  - base
-sr-due: 2023-01-26
-sr-interval: 1
-sr-ease: 205
+  - computer_science
 ---
 
 # Queue (abstract data type)

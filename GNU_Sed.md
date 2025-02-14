@@ -2,7 +2,7 @@
 date: 2023-03-14T00:00+03:00
 tags:
   - blog
-  - productivity
+  - computer_programming_tools
 sr-due: 2024-01-29
 sr-interval: 3
 sr-ease: 268
@@ -22,7 +22,7 @@ sr-ease: 268
 
 Replace all `apple` occurrences with `mango` and print the result to `stdout`
 (don't do any file modifications):
-&#10;<br>
+<br class="f">
 ```sh
 echo "I have 1 apple and he has 2 apples." | sed 's/apple/mango/g'
 ```
@@ -46,7 +46,7 @@ cat /tmp/sed_test
 
 Replace all `apple` (extended regex) occurrences with `APPLE` (extended regex)
 in all input lines and print the result to `stdout`:
-&#10;<br>
+<br class="f">
 ```sh
 # -E, --regexp-extended
 #   use extended regular expressions.
@@ -264,6 +264,12 @@ Replace mulitline substrngs in multiple files:
 for i in ./appmanifest_*.acf; do
     sed -i 's/"AutoUpdateBehavior"\t\t"0"/"AutoUpdateBehavior"\t\t"1"/g' $i;
 done
+```
+
+Replace `&#10;<br>` with `<br>` in all *.md files in current directory:
+
+```sh
+find . -type f -name '*.md' -exec sed -i 's/&#10;<br>/<br>/g' {} \;
 ```
 
 ## External links

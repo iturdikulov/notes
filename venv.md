@@ -5,7 +5,6 @@ external:
   - https://fastapi.tiangolo.com/virtual-environments
 tags:
   - blog
-  - Python
 ---
 
 # Python virtual environments and packages
@@ -55,12 +54,12 @@ installation** for a particular version of Python, plus a number of additional
 packages. Each application can use own virtual environment.
 
 Which standard python module used to create virtual environments?
-&#10;<br>
+<br class="f">
 The module used to create and manage virtual environments is called `venv`.
 
 Which Python version will be installed in the virtual environment when you use
 `venv` module?
-&#10;<br>
+<br class="f">
 `venv` will install the Python version **from which** the command was run (as
 reported by the `--version` option). For instance, executing the command with
 ``python3.12`` will install Python 3.12.
@@ -108,7 +107,9 @@ python main.py
 deactivate
 ```
 
-## Configure your [[PDE]] / [[IDE]]
+## Configure your PDE and IDE
+
+How to configure [[PDE]] and [[IDE]] to work with virtual environment?
 
 Personally I use nix flakes, `direnv` (to activate virtual environment) and
 [[Neovim]] in terminal emulator.

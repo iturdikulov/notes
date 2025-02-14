@@ -40,3 +40,7 @@ print(user)
 print(user.id)
 # > 123
 ```
+
+## Learning path
+
+- [ ] [Advanced Pydantic Usage Guide · GitHub](https://gist.github.com/shiningflash/f17eabef18b38a70a38fb510130be58b)

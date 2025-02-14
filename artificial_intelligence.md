@@ -2,7 +2,7 @@
 date: 2023-03-11T00:00+03:00
 tags:
   - blog
-  - base
+  - AI
 sr-due: 2023-01-28
 sr-interval: 4
 sr-ease: 210
@@ -46,18 +46,17 @@ Sort of [[computer_program]] which mimics human cognition.
 > computing.\
 > [Simple English Wikipedia](https://simple.wikipedia.org/wiki/Artificial_intelligence)
 
-Generative pre-trained transformers (GPT) are large language models
-([[large_language_model|LLMs]]) that generate text based on the semantic
-relationships between words in sentences.
+Generative pre-trained transformers (GPT) are large language models ([[LLM]]s)
+that generate text based on the semantic relationships between words in
+sentences.
 
 To understand custom bullet list types check [[my_notation]] note.
 
 ## Learning path
 
-- [ ] research wiki note
-- [[large_language_model]]
-  - [Generating documentation from tests using files-to-prompt and LLM | Simon Willison’s TILs](https://til.simonwillison.net/llms/docs-from-tests)
-  - [What's your biggest Claude hack? : r/ClaudeAI](https://www.reddit.com/r/ClaudeAI/comments/1gg7211/whats_your_biggest_claude_hack/?chainedPosts=t3_1b7wh1i)
+- [Learn Python, Data Viz, Pandas & More | Tutorials | Kaggle](https://www.kaggle.com/learn)
+- [ ] [[LLM]]
+- [ ] [Practical Deep Learning for Coders - Practical Deep Learning](https://course.fast.ai/)
 - [!] [Richard Feynman: Can Machines Think? - YouTube](https://www.youtube.com/watch?app=desktop&v=ipRvjS7q1DI)
 NO, in some ways yes and can demonstrate intelegence-like behavior. TODO: write
 own note?
@@ -66,7 +65,5 @@ own note?
 - [ ] [Harvard CS50’s Artificial Intelligence with Python](https://www.youtube.com/watch?v=5NgNicANyqM)
 - [There's An AI For That - The Biggest AI Aggregator](https://theresanaiforthat.com/)
 - [Artificial intelligence | TED Talks](https://www.ted.com/playlists/310/artificial_intelligence)
+- [Neural networks](https://stepik.org/course/50352/promo)
 
-## External links
-
-- [Hugging Face – The AI community building the future.](https://huggingface.co/)

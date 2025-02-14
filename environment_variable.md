@@ -2,7 +2,7 @@
 date: 2024-11-14T20:16+03:00
 tags:
   - blog
-  - SR-programming
+  - unix
 ---
 
 # Environment variable (env-var)
@@ -13,7 +13,7 @@ tags:
 > — <cite>[Environment variable - Wikipedia](https://en.wikipedia.org/wiki/Environment_variable)</cite>
 
 Is each process has its own set of environment variables?
-&#10;<br>
+<br class="f">
 Yes, in all [[Unix]] and Unix-like systems, as well as on Windows, each process
 has its own separate set of environment variables. Useful to set program
 settings, pass information to child processes. They are widely used to store
@@ -55,7 +55,7 @@ SET VARIABLE=
 $env:VARIABLE = "VALUE"
 ```
 
-## Read env vars in [[Python]]
+Read env vars in [[Python]]:
 
 ```python
 import os

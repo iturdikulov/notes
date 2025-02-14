@@ -96,7 +96,7 @@ What this code return?
 print(0.1 + 0.1 == 0.3)
 print(0.1 + 0.1 + 0.1 == 0.3)
 ```
-&#10;<br>
+<br class="f">
 *Results:*
 ```
 False
@@ -115,7 +115,7 @@ print(round(0.1, 1) + round(0.1, 1) + round(0.1, 1) == round(0.3, 1))
 ```
 
 When `math.isclose` function can be useful?
-&#10;<br>
+<br class="f">
 Though the numbers cannot be made closer to their intended exact values,
 the `math.isclose` function can be useful for comparing inexact values:
 ```python
@@ -165,7 +165,7 @@ statistical operations supplied by the SciPy project. See <https://scipy.org>.
 
 
 How to display number value as ratio in python?
-&#10;<br>
+<br class="f">
 Python provides tools that may help on those rare occasions when you really *do*
 want to know the exact value of a float. The `float.as_integer_ratio` method
 expresses the value of a float as a fraction:
@@ -277,7 +277,7 @@ is:
 ```python
 7205759403792794 / 2 ** 56
 ```
-Dividing both the numerator and denominator by two reduces the fraction to::
+Dividing both the numerator and denominator by two reduces the fraction to:<wbr class="f"> 
 ```python
 3602879701896397 / 2 ** 55
 ```

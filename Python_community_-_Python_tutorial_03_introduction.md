@@ -28,16 +28,16 @@ print(8 / 5)  # division always returns a floating point number in Python!
 
 # in C - division will truncate result toward zero if both operands are integers
 # in Python you can use // operator for same result
-print(17 // 4)  # floor division discards the fractional part, result is::4
-print(17 % 4)  # the % operator returns the remainder of the division (5 * 3) + 2, 2 here is:: remainder
-print(17 / 3)  # result is::5.666666666666667
-print(5 ** 2)  # 5 squared, result is::25
-print(2 ** 7)  # 2 to the power of 7, result is::128
+print(17 // 4)  # floor division discards the fractional part, result is:<wbr class="f"> 4
+print(17 % 4)  # the % operator returns the remainder of the division (5 * 3) + 2, 2 here is:<wbr class="f">  remainder
+print(17 / 3)  # result is:<wbr class="f"> 5.666666666666667
+print(5 ** 2)  # 5 squared, result is:<wbr class="f"> 25
+print(2 ** 7)  # 2 to the power of 7, result is:<wbr class="f"> 128
 ```
 
 TODO: need review
 What is floor division (or div), what are value of `(-11) // 4` ?
-&#10;<br>
+<br class="f">
 Mathematical *division* that rounds down to **nearest** integer. The floor
 division operator is `//`.
 - `-11 // 4` is -3;
@@ -143,10 +143,10 @@ breaking them into new lines or space with quoting each string. <!--SR:!2024-11-
 `*` operator used for repeating string (multiplication).
 
 ```python
-print(3 * "un" + "ium")   # ::"unununium"
+print(3 * "un" + "ium")   # :<wbr class="f"> "unununium"
 print("Py"                # "Python"
       "thon")
-print("I" "n" r"O" f"m")  # ::"InOm"
+print("I" "n" r"O" f"m")  # :<wbr class="f"> "InOm"
 
 # This is useful for long strings.
 text = ("Put several strings within parentheses "
@@ -165,9 +165,9 @@ Positive indexing = length of string - 1
 ```python
 word = 'Python'
 
-print(word[0])  # character in position 0 ::<- P
-print(word[-0]) # character in position 0 ::<- P
-print(word[5])  # character in position 5 ::<- n
+print(word[0])  # character in position 0 :<wbr class="f"> <- P
+print(word[-0]) # character in position 0 :<wbr class="f"> <- P
+print(word[5])  # character in position 5 :<wbr class="f"> <- n
 print(word[6])  # IndexError: string index out of range
 ```
 
@@ -215,14 +215,14 @@ print(sentence[-6:])  # World!, offest 6 from end
 ```
 
 What you see if you use this slice `word[0:2]`, where word is "Python"
-&#10;<br>
+<br class="f">
 ```python
 print("Python"[0:2])
 ```
 Characters from position 0 (included) to 2 (excluded), `'Py'` <!--SR:!2024-12-03,39,220-->
 
 What you see if you use this slice `word[2:5]`, where word is "Python"
-&#10;<br>
+<br class="f">
 Characters from index 2 (included) to index 5 (excluded). `'tho'` <!--SR:!2024-11-06,8,200-->
 
 Note: `s[:i] + s[i:] == ==s==`, start is always included, and the end always
@@ -234,7 +234,7 @@ print(sentence[:5] + sentence[5:] == sentence)  # True
 ```
 
 Attempting to use invalid index in range slice handled with or without exception?
-&#10;<br>
+<br class="f">
 Gracefully, without raising an exception.
 ```python
 a = "test"
@@ -262,7 +262,7 @@ For positive indices, the length of a slice is the difference of the
 word[1:3] is 2.
 
 Is it possible to use index outside of string bounds?
-&#10;<br>
+<br class="f">
 No, it will raise `IndexError` exception. So it's good idea to check bounds
 before using index. `"Test string"[11]`. <!--SR:!2024-11-17,23,220-->
 
@@ -303,9 +303,9 @@ Lists almost like [[string_literal|string]] (but mutable) and
 
 ```python
 squares = [1, 4, 9, 16, 25]
-print(squares[0])  # indexing returns the item::1
-print(squares[-1]) # last item::25
-print(squares[-3:])  # slicing returns a new list::[9, 16, 25]
+print(squares[0])  # indexing returns the item:<wbr class="f"> 1
+print(squares[-1]) # last item:<wbr class="f"> 25
+print(squares[-3:])  # slicing returns a new list:<wbr class="f"> [9, 16, 25]
 ```
 
 All slice operations over list return a ==new list (shallow copy)== containing
@@ -338,7 +338,7 @@ print(cubes)
 ```
 
 Is it possible to change multiple elements in list at once?
-&#10;<br>
+<br class="f">
 You can also do assignments to lists (inserting/replace), which can change their
 size or clear them entirely.
 ```python
@@ -378,7 +378,7 @@ print(x) # [['a', 'b', 'c'], [1, 2, 3]]
 Can you write Fibonacci algorithm?
 We just print values in fibonacci sequence, not store them in list.
 Constraints: 0 - 21.
-&#10;<br>
+<br class="f">
 Each number is the sum of the two preceding ones.
 The sequence commonly starts from 0 and 1.
 \
@@ -464,15 +464,15 @@ while a <= 21:
 <!-- NEXT: review [A Python Guide to the Fibonacci Sequence – Real Python](https://realpython.com/fibonacci-sequence-python/). -->
 
 Order of Evaluation in Python expression for operands with same priority?
-&#10;<br>
+<br class="f">
 In Python, the left operand evaluated before the right operand if they have
 same priority. <!--SR:!2024-11-15,21,180-->
 
-Non-zero, zero, zero length or [[null_pointer|None]] values in Python (and C)
+Non-zero, zero, zero length or [[pointer#Null pointer|None]] values in Python (and C)
 considered as ==[[bolean_data_type|boolean]]== (at least in if/else
 statements). <!--SR:!2024-11-10,23,220-->
 
 `-3**2` in Python is?
-&#10;<br>
+<br class="f">
 Since `**` operator has higher precedence than -, `-3**2` will be interpreted as
 `-(3**2)` and thus result is -9 (expected 9). For correct calculation, you can use parenthesis `(-3)**2`. <!--SR:!2024-11-17,1,130-->

@@ -3,6 +3,7 @@ date: 2023-03-06T00:00+03:00
 tags:
   - blog
   - linguistic
+lang: ru
 directory: ~/Arts_and_Entertainment/russian/
 sr-due: 2024-01-29
 sr-interval: 3

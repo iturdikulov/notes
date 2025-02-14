@@ -2,7 +2,7 @@
 date: 2023-06-25T00:00+03:00
 tags:
   - blog
-  - SR-productivity
+  - productivity
 external:
   - https://taskwarrior.org/
 directory: ~/.task
@@ -45,27 +45,27 @@ You can execute ==`task diagnostics`== command to check if everything is set up
 correctly.
 
 Add task, need to finish tomorrow, which recurs each 10 days:
-&#10;<br>
+<br class="f">
 `task add test_description due:tomorrow recur:10d`.
 
 Update a task's priority:
-&#10;<br>
+<br class="f">
 `task task_id modify priority:H|M|L`.
 
 Complete or delete a task:
-&#10;<br>
+<br class="f">
 `task task_id done`, `task task_id delete`.
 
 List open tasks due before the end of the week with tag `inbox`:
-&#10;<br>
+<br class="f">
 `task list due.before:eow +inbox`.
 
-List all reports::`task reports`.
+List all reports:<wbr class="f"> `task reports`.
 
-List all projects::`task projects`.
+List all projects:<wbr class="f"> `task projects`.
 
 Create blocked task (depends on)
-&#10;<br>
+<br class="f">
 `... depends:id`. To list task which blocking everything use this command:
 `... +BLOCKING -BLOCKED`.
 

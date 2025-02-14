@@ -2,13 +2,14 @@
 date: 2023-03-21T00:00+03:00
 tags:
   - blog
-  - base
+  - computer_programming
+  - computer_science
 sr-due: 2024-02-03
 sr-interval: 8
 sr-ease: 209
 ---
 
-# Function (computer programming)
+# Function
 
 > In [[computer_programming]], a function or subroutine is a sequence of program
 > instructions that performs a specific task, packaged as a unit. This unit can
@@ -22,7 +23,7 @@ In different programming languages, a function may be called a routine,
 subprogram, subroutine, method, or procedure.
 
 Usually function consist of these parts:
-&#10;<br>
+<br class="f">
 - Declaration (or header): name, parameters (arguments) and return type.
 - Definition: body of function (statement), this is what executed when function
   called (or invoked).

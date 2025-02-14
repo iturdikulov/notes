@@ -2,7 +2,7 @@
 date: 2024-08-11T00:00+03:00
 tags:
   - blog
-  - productivity
+  - multimedia
 sr-due: 2023-02-28
 sr-interval: 2
 sr-ease: 248

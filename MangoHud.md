@@ -17,9 +17,9 @@ Useful to monitor perfomance of [[my_games]] and various
 
 ## Keybindings
 
-- Toggle MangoHud::`RShift-F12`
-- Toggle MangoHud position::`RShift+F11`
-- Cycle between Presets::`RShift+F10`
-- Reset MangoHud FPS metrics::`RShift-9`
+- Toggle MangoHud:<wbr class="f"> `RShift-F12`
+- Toggle MangoHud position:<wbr class="f"> `RShift+F11`
+- Cycle between Presets:<wbr class="f"> `RShift+F10`
+- Reset MangoHud FPS metrics:<wbr class="f"> `RShift-9`
 - Toggle MangoHud Logging - `LShift-F2`
 - Reload MangoHud Config - `RShift-F4`

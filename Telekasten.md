@@ -4,7 +4,7 @@ external:
 date: 2023-04-06T00:00+03:00
 tags:
   - blog
-  - productivity
+  - archive
 sr-due: 2024-05-20
 sr-interval: 115
 sr-ease: 286

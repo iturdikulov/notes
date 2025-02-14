@@ -2,7 +2,7 @@
 date: 2023-04-17T00:00+03:00
 tags:
   - blog
-  - base
+  - computer_programming
 external:
   - https://github.com/ziishaned/learn-regex
 sr-due: 2024-01-29
@@ -58,7 +58,7 @@ If you need to search in Neovim visual selections, use `\%V` prefix:
 
 A regular expression is just a pattern of characters that we use to perform a
 search in a text. For example, the regular expression `the` means:
-&#10;<br>
+<br class="f">
 Search the letter `t`, followed by the letter `h`, followed by the letter `e`.
 
     /the or /The
@@ -113,11 +113,11 @@ characters' range.
 The order of the character range inside the square brackets ==doesn't matter==.
 
 For example, the regular expression `[Tt]he` means:
-&#10;<br>
+<br class="f">
 Find words that start with `T` or `t` followed by `he` sequence.
 
 The regular expression `ar[.]` means:
-&#10;<br>
+<br class="f">
 `ar` sequence followed by a period (`.`) character.
 
     /[Tt]he
@@ -304,13 +304,13 @@ the input string.
 There are a number of convenient shorthand's for commonly used character sets/
 regular expressions:
 
-- ` .`::Any character except new line
-- `\w`::Matches alphanumeric characters: `[a-zA-Z0-9_]`
-- `\W`::Matches non-alphanumeric characters: `[^\w]`
-- `\d`::Matches digits: `[0-9]`
-- `\D`::Matches non-digits: `[^\d]`
-- `\s`::Matches whitespace characters: `[\t\n\f\r\p{Z}]`
-- `\S`::Matches non-whitespace characters: `[^\s]`
+- ` .`:<wbr class="f"> Any character except new line
+- `\w`:<wbr class="f"> Matches alphanumeric characters: `[a-zA-Z0-9_]`
+- `\W`:<wbr class="f"> Matches non-alphanumeric characters: `[^\w]`
+- `\d`:<wbr class="f"> Matches digits: `[0-9]`
+- `\D`:<wbr class="f"> Matches non-digits: `[^\d]`
+- `\s`:<wbr class="f"> Matches whitespace characters: `[\t\n\f\r\p{Z}]`
+- `\S`:<wbr class="f"> Matches non-whitespace characters: `[^\s]`
 
 <!-- TODO: test with some regex test tool -->
 
@@ -330,10 +330,10 @@ character.
 
 These are the lookarounds that are used in regular expressions:
 
-- `?=` lookahead::positive lookahead
-- `?!` lookahead::negative lookahead
-- `?<=` lookbehind::positive lookbehind
-- `?<!` lookbehind::negative lookbehind
+- `?=` lookahead:<wbr class="f"> positive lookahead
+- `?!` lookahead:<wbr class="f"> negative lookahead
+- `?<=` lookbehind:<wbr class="f"> positive lookbehind
+- `?<!` lookbehind:<wbr class="f"> negative lookbehind
 
 ### 4.1 Positive lookahead
 

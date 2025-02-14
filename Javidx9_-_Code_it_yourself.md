@@ -5,7 +5,7 @@ external:
 date: 2023-08-19T00:00+03:00
 tags:
   - blog
-  - computer_graphics
+  - computer_graphics_programming
 directory: ~/Computer/graphics/Javidx9-Code_It_Yourself/
 sr-due: 2024-01-30
 sr-interval: 5

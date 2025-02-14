@@ -2,7 +2,7 @@
 date: 2023-05-24T00:00+03:00
 tags:
   - blog
-  - productivity
+  - computer_programming_tools
 sr-due: 2024-01-29
 sr-interval: 2
 sr-ease: 218

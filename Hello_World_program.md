@@ -2,7 +2,7 @@
 date: 2023-10-06T00:00+03:00
 tags:
   - blog
-  - base
+  - computer_programming
 sr-due: 2024-01-29
 sr-interval: 2
 sr-ease: 228
@@ -86,7 +86,7 @@ flexibility of use as its design highlights.
 #include <iostream>
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    std:<wbr class="f"> cout << "Hello, World!" << std:<wbr class="f"> endl;
     return 0;
 }
 ```

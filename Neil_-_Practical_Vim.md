@@ -4,7 +4,7 @@ date: 2025-01-14T11:41+03:00
 directory: ~/Computer/software/Neil-Practical_Vim
 tags:
   - blog
-  - productivity
+  - cheat-sheets
 sr-due: 2024-02-23
 sr-interval: 29
 sr-ease: 206
@@ -59,7 +59,7 @@ This book more focusing on practices. So need to do examples, rather than read.
 
 ## Get to Know Vim's Built-in Documentation \19
 
-How to open vim tutor built-in documentation, interactive tutor?::`:h vimtutor`,
+How to open vim tutor built-in documentation, interactive tutor?:<wbr class="f"> `:h vimtutor`,
 `:Tutor`
 
 Built-in ℹ️ icons in this book are linked to documentation.
@@ -69,7 +69,7 @@ Built-in ℹ️ icons in this book are linked to documentation.
 Describe how keybindings working in Vim. Vim combine chords and keybindings with
 modifiers.
 
-Get help about key-notations::`:h key-notation`
+Get help about key-notations:<wbr class="f"> `:h key-notation`
 
 Here also good example how to represent keystrokes with ranges of keys,
 modifiers, etc. `f{char}`, `m{a-zA-Z}`, etc...
@@ -94,7 +94,7 @@ This book not about `Vim Script`, but it's used widely across the material.
 
 How get vim version and health status of current neovim instance, including
 plugins?
-&#10;<br>
+<br class="f">
 `:checkhealth`, but it can be slow!
 
 ---
@@ -110,7 +110,7 @@ Big Vim brother is watching you.
 
 Dot command is sort of "micro" macro.
 
-Dot command help::`:h .`.
+Dot command help:<wbr class="f"> `:h .`.
 <!--SR:!2023-06-07,3,258-->
 
 Test snippet:
@@ -121,26 +121,26 @@ Line three
 Line four
 ```
 
-`x`::Delete character under cursor.
+`x`:<wbr class="f"> Delete character under cursor.
 
-`u`::Undo.
+`u`:<wbr class="f"> Undo.
 
-`dd`::Delete current line. <!--SR:!2024-11-22,9,266-->
+`dd`:<wbr class="f"> Delete current line. <!--SR:!2024-11-22,9,266-->
 
-`.`::repeat last command, for example deletion
+`.`:<wbr class="f"> repeat last command, for example deletion
 
-`>{motion}`::Increase indentation depending on motion.
+`>{motion}`:<wbr class="f"> Increase indentation depending on motion.
 
 `>G`
-&#10;<br>
+<br class="f">
 Increase indentation from the current line until the end of the file (in
 Markdown until section?). You can repeat this command, go down 1 line and press
 `.` key.
 
-`>}`::Increase indentation for paragraph forward.
+`>}`:<wbr class="f"> Increase indentation for paragraph forward.
 
 Do vim record keystrokes if we enter insert mode and type something?
-&#10;<br>
+<br class="f">
 Yes, we can even repeat or paste these keystrokes - `.`, `".p`
 <!--SR:!2023-06-08,3,258-->
 
@@ -149,12 +149,12 @@ Yes, we can even repeat or paste these keystrokes - `.`, `".p`
 DRY - ==Don't Repeat Yourself==.
 
 Difference between `i` and `a`?
-&#10;<br>
+<br class="f">
 `i` insert before cursor, `a` insert after cursor.
 
-`$`::Move to the end of the line.
+`$`:<wbr class="f"> Move to the end of the line.
 
-`a;`::Insert semicolon after cursor.
+`a;`:<wbr class="f"> Insert semicolon after cursor.
 
 Test snippet:
 ```javascript
@@ -163,22 +163,22 @@ var bar = "a"
 var foobar = foo + bar
 ```
 
-How run normal mode commands across a range?::use `:normal` command.
+How run normal mode commands across a range?:<wbr class="f"> use `:normal` command.
 <!--SR:!2023-06-05,1,238-->
 
-`C`::Change to the end of the line and set insert mode.
+`C`:<wbr class="f"> Change to the end of the line and set insert mode.
 
-`s`::Delete character under cursor and set insert mode.
+`s`:<wbr class="f"> Delete character under cursor and set insert mode.
 
-`S`::Delete current line and set insert mode.
+`S`:<wbr class="f"> Delete current line and set insert mode.
 
-`I`::Insert at the beginning of the line.
+`I`:<wbr class="f"> Insert at the beginning of the line.
 
-`A`::Insert at the end of the line.
+`A`:<wbr class="f"> Insert at the end of the line.
 
-`o`::Insert new line below current line and set insert mode.
+`o`:<wbr class="f"> Insert new line below current line and set insert mode.
 
-`O`::Insert new line above current line and set insert mode.
+`O`:<wbr class="f"> Insert new line above current line and set insert mode.
 
 ## Tip 3. Take One Step Back, Then Three Forward \33
 
@@ -187,45 +187,45 @@ How to add space padding for each `+` sign here (dot method)?
 ```javascript
 var foo = "method("+argument1+","+argument2+")";
 ```
-&#10;<br>
+<br class="f">
 1. search first `+` sign - `f+` or `/+<CR>`
 2. insert space before and after - `s + <Esc>`
 3. search all next `+` signs and repeat - `;.` or `n.`
 
-`f{char}`::Find {char} forward in current line.
+`f{char}`:<wbr class="f"> Find {char} forward in current line.
 
-`;`::Repeat last `f`, `F`, `t`,
+`;`:<wbr class="f"> Repeat last `f`, `F`, `t`,
 
 `T` command.
 
 ## Tip 4. Act, Repeat, Reverse \35
 
-`@:`::Repeat last ex command.
+`@:`:<wbr class="f"> Repeat last ex command.
 
-`&`::Repeat last substitution (on the current line).
+`&`:<wbr class="f"> Repeat last substitution (on the current line).
 
-`u`::Undo.
+`u`:<wbr class="f"> Undo.
 
-`,`::Repeat last `f`, `F`, `t`, `T` command in reverse.
+`,`:<wbr class="f"> Repeat last `f`, `F`, `t`, `T` command in reverse.
 
-Make a change, repeat, undo::{edit}, `.`, `u`
+Make a change, repeat, undo:<wbr class="f"> {edit}, `.`, `u`
 
-Scan line for next character, repeat, undo::`f{char}/t{char}`, `;`, `,`
+Scan line for next character, repeat, undo:<wbr class="f"> `f{char}/t{char}`, `;`, `,`
 
-Scan line for previous character, repeat, undo::`F{char}/T{char}`, `;`, `,`
+Scan line for previous character, repeat, undo:<wbr class="f"> `F{char}/T{char}`, `;`, `,`
 
-Scan document for next match, repeat, undo::`/pattern<CR>`, `n`, `N`
+Scan document for next match, repeat, undo:<wbr class="f"> `/pattern<CR>`, `n`, `N`
 
-Scan document for previous match, repeat, undo::`?pattern<CR>`, `n`, `N`
+Scan document for previous match, repeat, undo:<wbr class="f"> `?pattern<CR>`, `n`, `N`
 
-Perform substitution, undoat, undo::`:s/old/new/`, `&`, `u`
+Perform substitution, undoat, undo:<wbr class="f"> `:s/old/new/`, `&`, `u`
 <!--SR:!2023-06-06,1,238-->
 
 Execute a sequence of changes (record & execute macro), repeat,
-undo::`qx{changes}q`, `@x`, `u`
+undo:<wbr class="f"> `qx{changes}q`, `@x`, `u`
 
 Difference between `:s` and `:%s`
-&#10;<br>
+<br class="f">
 `%` is the range over which the `:s` command (short for `:substitute`) will be
 run. `%` itself is short for the range `:1,$`, which means Line 1 to the last
 line in the buffer. The Vim help has a couple topics (user manual - `:help
@@ -244,13 +244,13 @@ Goal of this article search and replace interactive.
 ...We'll launch as soon as we have the copy...
 ```
 
-`*`::Search for word under cursor.
+`*`:<wbr class="f"> Search for word under cursor.
 
-`#`::Search for word under cursor in reverse.
+`#`:<wbr class="f"> Search for word under cursor in reverse.
 
-`ciw`::Change inner word.
+`ciw`:<wbr class="f"> Change inner word.
 
-`cw`::Change word from cursor to the end of the word.
+`cw`:<wbr class="f"> Change word from cursor to the end of the word.
 
 ## Tip 6. Meet the Dot Formula \38
 

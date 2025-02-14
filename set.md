@@ -2,10 +2,7 @@
 date: 2023-04-14T00:00+03:00
 tags:
   - blog
-  - base
-sr-due: 2024-01-26
-sr-interval: 1
-sr-ease: 229
+  - computer_science
 ---
 
 # Set (abstract data type)
@@ -44,16 +41,23 @@ data and this means every insertion into a set first requires a ==search==
 operation. <!--SR:!2024-09-07,5,237-->
 
 In best case insertion into set takes:
-&#10;<br>
+<br class="f">
 Insert into end of set. $N + 1$ steps. $N$ steps → search, 1 step to insert into
 end. <!--SR:!2024-09-19,7,206-->
 
 In worst case insertion into set takes (steps):
-&#10;<br>
+<br class="f">
 Insert into beginning of set is worst case scenario. In contrast to insertion
 into the begging of a regular array ($N+1$), insertion can take $2N + 1$ steps.
 Formula: search $N$ steps + shift $N$ steps + insert 1 step. In other words we
 add search operation to insert value into set. <!--SR:!2024-09-14,4,179-->
+
+TODO: check
+
+- union
+- intersection
+- difference
+- symmetric difference
 
 ## External links
 

@@ -7,11 +7,8 @@ external:
 file: ~/Arts_and_Entertainment/literature/Andriei Stoliarov/Tom 1. Proghrammirovaniie - Vviedieniie v profiessiiu Azy proghrammirovaniia (1316)/Tom 1. Proghrammirovaniie - Vviedieniie v - Andriei Stoliarov.pdf
 tags:
   - blog
-  - base
+  - computer_programming_fix
 lang: ru
-sr-due: 2024-01-26
-sr-interval: 1
-sr-ease: 130
 ---
 
 # Программирование: введение в профессию. Том 1: азы программирования

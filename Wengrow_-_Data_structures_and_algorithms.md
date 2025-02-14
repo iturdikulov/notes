@@ -3,60 +3,15 @@ author:
   - Jay Wengrow
 date: 2025-01-14T11:41+03:00
 external:
-  - https://pragprog.com/titles/jwdsal2
+  - https://pragprog.com/titles/jwpython/a-common-sense-guide-to-data-structures-and-algorithms-in-python-volume-1/
 tags:
   - blog
-  - base
+  - computer_programming
+  - computer_science
 directory: ~/Computer/science/Wengrow-Data_structures_and_algorithms/
-sr-due: 2022-01-28
-sr-interval: 1
-sr-ease: 130
 ---
 
-TODO: outdated external/directory/content
-
 # A Common-sense Guide to Data Structures and Algorithms
-
-If you thought that data structures and algorithms were all just theory, you're
-missing out on what they can do for your code.
-
-Learn to use Big O Notation to make your code run faster by orders of magnitude.
-Choose from data structures such as hash tables, trees, and graphs to increase
-your code's efficiency exponentially.
-
-With simple language and clear diagrams, this book makes this complex topic
-accessible, no matter your background.
-
-This new edition features practice exercises in every chapter, and new chapters
-on topics such as dynamic programming and heaps and tries.
-
-Get the hands-on info you need to master data structures and algorithms for your
-day-to-day work.
-
-Algorithms and data structures are much more than abstract concepts. Mastering
-them enables you to write code that runs faster and more efficiently, which is
-particularly important for today's web and mobile apps.
-
-Find out how your choice of arrays, linked lists, and hash tables can
-dramatically affect the code you write.
-
-Use recursion to solve tricky problems and create algorithms that run
-exponentially faster than the alternatives.
-
-Dig into advanced data structures such as binary trees and graphs
-to help scale specialized applications such as social networks and mapping
-software.
-
-You'll even encounter a single keyword that can give your code a turbo boost.
-
-Practice your new skills with exercises in every chapter, along with detailed
-solutions. Use these techniques today to make your code faster and more
-scalable.
-
-## Cover /1
-
-Not superior, but looks good enough. Header font - here is little inaccuracy,
-but it's ok.
 
 ## Table of Contents /7
 

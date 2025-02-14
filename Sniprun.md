@@ -2,7 +2,7 @@
 date: 2022-12-29T00:00+03:00
 tags:
   - blog
-  - productivity
+  - archive
 sr-due: 2024-01-29
 sr-interval: 3
 sr-ease: 267
@@ -10,9 +10,9 @@ sr-ease: 267
 
 # Sniprun
 
-SnipRun selection::<kbd>f</kbd>
-SnipRun initial mode::<kbd><leader>ze</kbd>
-SnipRun run::<kbd><leader>zee</kbd>
+SnipRun selection:<wbr class="f"> <kbd>f</kbd>
+SnipRun initial mode:<wbr class="f"> <kbd><leader>ze</kbd>
+SnipRun run:<wbr class="f"> <kbd><leader>zee</kbd>
 
 Get output from code blocks
 

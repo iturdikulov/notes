@@ -2,7 +2,7 @@
 date: 2023-03-03T00:00+03:00
 tags:
   - blog
-  - SR-productivity
+  - unix
 sr-due: 2024-02-03
 sr-interval: 8
 sr-ease: 253
@@ -16,40 +16,40 @@ any list of things: files, processes, command history, git branches, etc.
 For [[Zsh]], it provides the following key bindings (overwrite existing ones),
 and they are very handy:
 
-- `M-C`::Directory search, `cd` into the selected directory
-- `C-t`::Paste the selected file path(s) into the command line. Useful to insert
+- `M-C`:<wbr class="f"> Directory search, `cd` into the selected directory
+- `C-t`:<wbr class="f"> Paste the selected file path(s) into the command line. Useful to insert
 quickly paths into arguments of commands.
-- `vi $(fd \.yaml|fzf)`::run a command with the selected item from `fzf` as argument
-- `mv $(fd -t directory|fzf) ~/Temp/`, DANGER::move a directory from selected path to `~/Temp/`
+- `vi $(fd \.yaml|fzf)`:<wbr class="f"> run a command with the selected item from `fzf` as argument
+- `mv $(fd -t directory|fzf) ~/Temp/`, DANGER:<wbr class="f"> move a directory from selected path to `~/Temp/`
 
 ## Fuzzy completion mode
 
-- Select multiple items in FZF::`vi **` and press `<TAB>` <!--SR:!2024-09-22,1,233-->
-- Select Files under parent directory::`vi ../**<TAB>`
-- Select Files under parent directory that match `fzf`::`vi ../fzf**<TAB>`
-- Select Files under your home directory::`vi ~/**<TAB>`
-- Find/Change to some directory under current directory (single-selection)::`cd **<TAB>`
-- Select Host names::`ssh **<TAB>`
-- Select Telent::`telnet **<TAB>`
+- Select multiple items in FZF:<wbr class="f"> `vi **` and press `<TAB>` <!--SR:!2024-09-22,1,233-->
+- Select Files under parent directory:<wbr class="f"> `vi ../**<TAB>`
+- Select Files under parent directory that match `fzf`:<wbr class="f"> `vi ../fzf**<TAB>`
+- Select Files under your home directory:<wbr class="f"> `vi ~/**<TAB>`
+- Find/Change to some directory under current directory (single-selection):<wbr class="f"> `cd **<TAB>`
+- Select Host names:<wbr class="f"> `ssh **<TAB>`
+- Select Telent:<wbr class="f"> `telnet **<TAB>`
 
 - Select Directories under `~/.config` that match `nvim`
-&#10;<br>
+<br class="f">
 `cd ~/.config/nvim**<TAB>`
 
 - Select Process IDs. Can select multiple processes with `TAB` or `S-TAB`
-&#10;<br>
+<br class="f">
 `kill -9 **<TAB>`
 
 Select [[environment_variable]] / aliases
-&#10;<br>
+<br class="f">
 - `unset **<TAB>`
 - `export **<TAB>`
 - `unalias **<TAB>`
 
 ## Using fzf with ripgrep
 
-`rg . | fzf`::Fuzzy search every line in every file
-`rg . | fzf | cut -d ":" -f 1`::Fuzzy search every line, in every file, and return the file location
+`rg . | fzf`:<wbr class="f"> Fuzzy search every line in every file
+`rg . | fzf | cut -d ":" -f 1`:<wbr class="f"> Fuzzy search every line, in every file, and return the file location
 
 ## TODO
 

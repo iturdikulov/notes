@@ -6,6 +6,16 @@ body {
   --file-line-width: 960px;
 }
 
+/* Custom flashcard separator */
+br.f{
+    display: block;
+    max-width: 40ch;
+    content: '';
+    height: 1px;
+    background: repeating-linear-gradient(90deg, var(--code-normal) 0, var(--code-normal) 4px, transparent 4px, transparent 8px);
+    margin: .4rem 0;
+}
+
 .cm-s-obsidian .HyperMD-codeblock {
   font-size: 19px;
 }

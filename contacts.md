@@ -2,7 +2,7 @@
 date: 2023-03-12T00:00+03:00
 tags:
   - blog
-  - IRL
+  - productivity_social
 sr-due: 2024-01-28
 sr-interval: 3
 sr-ease: 254

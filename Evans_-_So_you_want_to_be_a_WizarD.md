@@ -2,7 +2,7 @@
 date: 2024-08-18T00:00+03:00
 tags:
   - blog
-  - SR-base
+  - psychology
 author: Julian Evans
 file: ./literature/Julia Evans/So you want to be a wizard (2436)/So you want to be a wizard - Julia Evans.pdf
 sr-due: 2024-08-26
@@ -28,19 +28,19 @@ in [[comics]] style.
 ## Asking good questions, page 6
 
 You are working in team, do I need to ask a question?
-&#10;<br>
+<br class="f">
 Ask questions, don't be afraid to ask for help. If no one knows the answer, try
 to figure it out anyway.
 
 What if I'm doing something non-standard and have issues? Or I don't really
 understand what I'm doing?
-&#10;<br>
+<br class="f">
 When you do something non-standard and have issues, you need to go deeper into
 details, to understand how things working under the hood. It can be software,
 hardware, or whatever.
 
 What's a good question, some rules?
-&#10;<br>
+<br class="f">
 - Are easy for the person to answer, choose right one
 - With answer you get **required** information
 - You provide some context and information when asking, tell what you know,
@@ -56,14 +56,14 @@ depending on the question.
 
 What if their no one knows the answer, documentation provide misinformation,
 coworkers are busy, etc.? What to do?
-&#10;<br>
+<br class="f">
 In that situation your friend is source code, it's newer lie and can provide
 required information. Sometimes you need to get your hands dirty and work with
 source code: debug, test, print statements, introduce bugs and experiment with
 it. Also don't always trust comments (especially yours ☺).
 
 Strategy to read source code?
-&#10;<br>
+<br class="f">
 - Grep for the error message
 - Read the whole code if possible (less than few thousand lines, use `cloc`)
 - Edit the code 🙊, debug, test, experiment.
@@ -71,7 +71,7 @@ Strategy to read source code?
 ## Debugging: love your bugs, page 10
 
 I got a bug, is this end of the world, how to deal with it?
-&#10;<br>
+<br class="f">
 Not really, debugging! **Love** your bugs. Debugging is a great way to learn and
 write more reliable code (don't break things). Be confident I can fix it, you
 already fixed a lot of hard bugs before. The harsh reality of bugs, they reveal
@@ -79,14 +79,14 @@ problems with your mental modal, maybe you don't know something or do it not the
 right way. Bugs give you opportunity to learn something with immediate feedback.
 
 Can I ignore bugs and think this is normal and this is some mystery?
-&#10;<br>
+<br class="f">
 No, bugs happened by logical reason, there are no mysteries, keep this in the
 mind.
 
 ## Learning at work, page 12
 
 Sometimes you need to learn X to do Y, good strategy (practical steps) to do it?
-&#10;<br>
+<br class="f">
 - Read source code
 - Ask questions
 - Watch talks
@@ -94,7 +94,7 @@ Sometimes you need to learn X to do Y, good strategy (practical steps) to do it?
 - Do experiments <!--SR:!2024-08-23,1,210-->
 
 More ways than debugging to work and learn "with bugs"?
-&#10;<br>
+<br class="f">
 - Follow up on bugs you couldn't figure out (issues)
 - Volunteer to do work that seems hard
 - Pay attention to other's code (PR)
@@ -102,14 +102,14 @@ More ways than debugging to work and learn "with bugs"?
 
 Is good idea to immediately integrate something which you want to learn (you
 haven't enough experience) into work?
-&#10;<br>
+<br class="f">
 If you're learning something don't try to immediately integrate it into your
 work. Need to discuss and take time to understand the new knowledge. <!--SR:!2024-08-30,7,250-->
 
 ## Learning on my own, page 13
 
 Good strategy to learn something new?
-&#10;<br>
+<br class="f">
 - Go to a conference, especially in area I don't know well.
 - Implement something that seems hard, I need some challenge!
 - Select concept and spend few hours on it (3+).
@@ -120,7 +120,7 @@ Good strategy to learn something new?
 
 How to design software? Let's assume you worked hard on something, but at the
 end you just wasted your time?
-&#10;<br>
+<br class="f">
 - Planning and proof of concepts are your friends.
 - You can't always predict how requirements will change, try yours best to solve
 current problems and try to avoid this in the future.
@@ -129,7 +129,7 @@ current problems and try to avoid this in the future.
 ## Scenes from writing desing docs, page 15
 
 How to write design docs?
-&#10;<br>
+<br class="f">
 Explain current working processes, maybe you not really understand them
 Ask questions and give your work for review
 If someone disagree, figure out a better plan together
@@ -138,7 +138,7 @@ Design always change, this is evolving process. So try to actualize it.
 ## Build expertise, page 16
 
 How to get better at X, I know a little about it? What you can do?
-&#10;<br>
+<br class="f">
 You need to continuously work with it, this is super fun to get better at
 something. Pick something and spent **significant** amount of time on it, after
 some time you'll see results. Check [[learning]] note for more information.
@@ -146,7 +146,7 @@ Today is the best day to start learning!
 
 How to learn new skills, maybe some detailed plan to combine learning and
 practice?
-&#10;<br>
+<br class="f">
 - First learn fundamental concepts, what is "system call" at all? At this step you
 need figure out which ideas are most important and learn them! Sometimes you
 need to dig in into things you don't understand.
@@ -159,7 +159,7 @@ what happens if I do X or Y?
 ## Take on hard projects, page 19
 
 How confidence helps you to learn?
-&#10;<br>
+<br class="f">
 There always someone who "better" than you, but you have own advantages, be
 proud of you:
 - You learn fast in changing world

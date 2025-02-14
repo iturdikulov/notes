@@ -12,28 +12,28 @@ tags:
 > why it's called Fugitive.\
 > — <cite>[tpope/vim-fugitive: A Git wrapper](https://github.com/tpope/vim-fugitive)</cite>
 
-Get file local history/undotree::`<leader>u`
+Get file local history/undotree:<wbr class="f"> `<leader>u`
 
-Open git commit UI, git status::`<Leader>gg`
+Open git commit UI, git status:<wbr class="f"> `<Leader>gg`
 
-Open git commit UI vertically::`:vert G`
+Open git commit UI vertically:<wbr class="f"> `:vert G`
 
-Fugitive menu::`<leader>g`
+Fugitive menu:<wbr class="f"> `<leader>g`
 
-`:diffoff[!]`::Close diff window, can be used in combination with `:q[!]` to
+`:diffoff[!]`:<wbr class="f"> Close diff window, can be used in combination with `:q[!]` to
 close
 
-`:diffupdate`::update diff window, can help with highlighting issues
+`:diffupdate`:<wbr class="f"> update diff window, can help with highlighting issues
 
 Index file represent ==last committed== version of file.
 
-Checkout branch::`<leader>go`
+Checkout branch:<wbr class="f"> `<leader>go`
 
-Grep in branch::`<leader>gp`, `<leader>gP` (quickfix list)
+Grep in branch:<wbr class="f"> `<leader>gp`, `<leader>gP` (quickfix list)
 
-Move current file to another location `:Git move`::`<leader>gm`
+Move current file to another location `:Git move`:<wbr class="f"> `<leader>gm`
 
-Stage current file if it's working copy, or checkout if it's index file &#10;<br>
+Stage current file if it's working copy, or checkout if it's index file <br class="f">
 `:Gwrite` or `<leader>gW`
 
 `:Gwrite` on index file will ==checkout file==.
@@ -48,7 +48,7 @@ Stage current file if it's working copy, or checkout if it's index file &#10;<br
 
 `dp` is hotkey for ==`:diffput`==. `p` is stays for "put".
 
-Checkout current file if it's working copy, or stage if it's index file &#10;<br>
+Checkout current file if it's working copy, or stage if it's index file <br class="f">
 `:Gread` or `<leader>gR`
 
 `:Gread` on index file will ==stage file==.
@@ -63,66 +63,66 @@ Checkout current file if it's working copy, or stage if it's index file &#10;<br
 
 `do` is hotkey for ==`:diffget`==. `o` is stays for "obtain".
 
-`:Gremove`::Remove current file
+`:Gremove`:<wbr class="f"> Remove current file
 
-`:Gmove <relative_path>`::Move current file, to append current file use
+`:Gmove <relative_path>`:<wbr class="f"> Move current file, to append current file use
 `<ctrl-r>%`
 
-`:G blame::`Open split window with blame buffer
+`:G blame:<wbr class="f"> `Open split window with blame buffer
 
-`:G commit`::Open split window with commit buffer
+`:G commit`:<wbr class="f"> Open split window with commit buffer
 
-`:Gedit :<path>` or `Gedit :0` or `<leader>ge`::Open index file
+`:Gedit :<path>` or `Gedit :0` or `<leader>ge`:<wbr class="f"> Open index file
 
-`:Gdiffsplit` or `<leader>gd`::vimdiff against the index version of the file,
+`:Gdiffsplit` or `<leader>gd`:<wbr class="f"> vimdiff against the index version of the file,
 quit from this mode by `:q`
 
-`:Git diff` or `<leader>gD`::git diff against the last committed version of the
+`:Git diff` or `<leader>gD`:<wbr class="f"> git diff against the last committed version of the
 file.
 
-`:Git commit --ammend` or `<leader>ga`::amend last commit
+`:Git commit --ammend` or `<leader>ga`:<wbr class="f"> amend last commit
 
-`:Git add -p` or `<leader>gA`::run git add with patch
+`:Git add -p` or `<leader>gA`:<wbr class="f"> run git add with patch
 
 To use `:diffget` on deleted lines, place cursor position ==after== that lines.
 
 List branches `<leader>gb` and then press =`<tab>`=.
 
-Log git history of current file::`<leader>gl`
+Log git history of current file:<wbr class="f"> `<leader>gl`
 
-Search in git history (`git log -S...`)::`<leader>gL`
+Search in git history (`git log -S...`):<wbr class="f"> `<leader>gL`
 
-Open fugitive object in new split/tab::`o` or `O`
+Open fugitive object in new split/tab:<wbr class="f"> `o` or `O`
 
-Perform a `:Gdiffsplit` on the file under the cursor.::`dd`
+Perform a `:Gdiffsplit` on the file under the cursor.:<wbr class="f"> `dd`
 
-Perform a `:Gvdiffsplit` on the file under the cursor::`dv`
+Perform a `:Gvdiffsplit` on the file under the cursor:<wbr class="f"> `dv`
 
-Perform a `:Ghdiffsplit` on the file under the cursor::`ds`
+Perform a `:Ghdiffsplit` on the file under the cursor:<wbr class="f"> `ds`
 
-Open diff/git for current file::`=`
+Open diff/git for current file:<wbr class="f"> `=`
 
-Stage/Unstage (add/reset) file, works in visual mode too (multiple files)::`-`
+Stage/Unstage (add/reset) file, works in visual mode too (multiple files):<wbr class="f"> `-`
 
-Next/previous hunk::`(`, `)`
+Next/previous hunk:<wbr class="f"> `(`, `)`
 
-Stage hunk::`s`
+Stage hunk:<wbr class="f"> `s`
 
-Unstage hunk::`u`
+Unstage hunk:<wbr class="f"> `u`
 
-Stash the changes::`czz`
+Stash the changes:<wbr class="f"> `czz`
 
-Apply topmost stash::`cza`
+Apply topmost stash:<wbr class="f"> `cza`
 
-Commit staged changes::`cc`
+Commit staged changes:<wbr class="f"> `cc`
 
-Run `git add –patch` for current file (interactive stage)::`P`
+Run `git add –patch` for current file (interactive stage):<wbr class="f"> `P`
 
-Push changes::`<leader>pp` (in fugitive mode for nvim)
+Push changes:<wbr class="f"> `<leader>pp` (in fugitive mode for nvim)
 
-Push and create merge request::`<leader>pT` (in fugitive mode for nvim)
+Push and create merge request:<wbr class="f"> `<leader>pT` (in fugitive mode for nvim)
 
-Pull::`<leader>pP` (in fugitive mode for nvim)
+Pull:<wbr class="f"> `<leader>pP` (in fugitive mode for nvim)
 
 During a merge conflict, this is a three-way diff against the "ours" and
 "theirs" ancestors (open with `dd`). Additional ==`d2o`, `d3o`, `dp`== maps are
@@ -132,12 +132,12 @@ ancestor, respectively.
 What if I want to pick changes from `head` (target branch) or from `branch-name`
 (merge-branch) during merge conflict (ignore remote or local changes), how to do
 it with vim-fugitive?
-&#10;<br>
+<br class="f">
 Need to use `Gwrite!`, `!` is required because this is dangerous command, and
 you can lose your changes. Be very careful with this strategy anyway.
 
-Git signs menu::`<leader>h[key]`
+Git signs menu:<wbr class="f"> `<leader>h[key]`
 
-`:Grename newname`::Full rename
+`:Grename newname`:<wbr class="f"> Full rename
 
 TODO: cherry-pick file/changes

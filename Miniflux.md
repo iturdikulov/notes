@@ -4,7 +4,7 @@ external:
 date: 2023-03-27T00:00+03:00
 tags:
   - blog
-  - SR-productivity
+  - cheat-sheets
 sr-due: 2024-02-04
 sr-interval: 7
 sr-ease: 252
@@ -29,38 +29,38 @@ news, tweets, posts, videos, etc. Something like News Inbox.
 
 ## Navigation
 
-- `?`::Show keyboard shortcuts help
-- `g u`::Go to unread page
-- `g b`::Go to bookmark page
-- `g h`::Go to the history page
-- `g f`::Go to feed page
-- `g c`::Go to categorize page
-- `g s`::Go to settings page
+- `?`:<wbr class="f"> Show keyboard shortcuts help
+- `g u`:<wbr class="f"> Go to unread page
+- `g b`:<wbr class="f"> Go to bookmark page
+- `g h`:<wbr class="f"> Go to the history page
+- `g f`:<wbr class="f"> Go to feed page
+- `g c`:<wbr class="f"> Go to categorize page
+- `g s`:<wbr class="f"> Go to settings page
 
 ## Items Navigation
 
-- `j`::Go to next item
-- `k`::Go to previous item
-- `F`::Go to feed page (upper)
+- `j`:<wbr class="f"> Go to next item
+- `k`:<wbr class="f"> Go to previous item
+- `F`:<wbr class="f"> Go to feed page (upper)
 
 ## Pages Navigation
 
-- `h`::Go to previous page
-- `l`:: Go to next page
+- `h`:<wbr class="f"> Go to previous page
+- `l`:<wbr class="f">  Go to next page
 
 ## Actions
 
-- `CR`::Open selected item
-- `v`::Open original link to a new tab
-- `m`::Toggle read/unread and focus next
-- `M`::Toggle read/unread and focus previous
-- `d`::Fetch original web page and apply scraper rules or readability
-- `f`::Star or Unstar the current entry (favorites)
-- `s`::Save article to configured third-party services
-- `a`::Toggle open/close entry attachments
-- `Space/S-Space`::Page down/up
-- `R`::Refresh all feeds in the background
-- `/`::Set focus on search form
+- `CR`:<wbr class="f"> Open selected item
+- `v`:<wbr class="f"> Open original link to a new tab
+- `m`:<wbr class="f"> Toggle read/unread and focus next
+- `M`:<wbr class="f"> Toggle read/unread and focus previous
+- `d`:<wbr class="f"> Fetch original web page and apply scraper rules or readability
+- `f`:<wbr class="f"> Star or Unstar the current entry (favorites)
+- `s`:<wbr class="f"> Save article to configured third-party services
+- `a`:<wbr class="f"> Toggle open/close entry attachments
+- `Space/S-Space`:<wbr class="f"> Page down/up
+- `R`:<wbr class="f"> Refresh all feeds in the background
+- `/`:<wbr class="f"> Set focus on search form
 
 ## Other
 

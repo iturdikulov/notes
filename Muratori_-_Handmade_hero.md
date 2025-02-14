@@ -6,7 +6,7 @@ date: 2025-01-14T11:41+03:00
 directory: ~/Computer/graphics/Muratori-Handmade_Hero
 tags:
   - blog
-  - computer_graphics
+  - gamedev
 sr-due: 2024-02-09
 sr-interval: 15
 sr-ease: 213
@@ -23,16 +23,16 @@ In this intro Casey explains what is C, how to compile and run C program, and
 how to use Visual Studio [[debugger]].
 
 Can you explain in simple words what is to **declare memory**?
-&#10;<br>
+<br class="f">
 Declare memory is sort of asking space for some data. Something like when you
 initialize array with some size, it's automatically allocating memory for that.
 
 What is Assembly commands?
-&#10;<br>
+<br class="f">
 Assembly commands is sort of mnemonics of actual processor commands.
 
 What fundamentally computer CPU is?
-&#10;<br>
+<br class="f">
 Fundamentally, a computer CPU is a group of electronic circuits that can perform
 a certain set of mathematical functions. These circuits fetch an instruction
 value from and (depending on the value), activate another set of circuits to
@@ -43,11 +43,11 @@ Mnemonics are words that represent ==machine code== in a more human-readable
 way, so that programmers can more easily write and understand programs.
 
 `al` in `mov` command means?
-&#10;<br>
+<br class="f">
 `%al` refers to the low byte of the `%ax` register.
 
 Can you explain what this code do `byte ptr[Test], 0FFh`
-&#10;<br>
+<br class="f">
 Instruction `byte ptr[Test], 0FFh` is telling the assembler to allocate one byte
 of memory at the address represented by the label Test. And this is variable
 declaration (TODO: test it).
@@ -57,21 +57,21 @@ What assembler mnemonic here will be used?
 Test = 255;
 00007FF785473A01 mov byte ptr[Test], 0FFh
 ```
-&#10;<br>
+<br class="f">
 Move constant to some place of memory.
 
 What 2 computer parts really matter in programming. One used to manipulate data,
 second used to process data.
-&#10;<br>
+<br class="f">
 CPU and Memory.
 
 What are we actually programming, when we write some code?
-&#10;<br>
+<br class="f">
 CPU itself is a
 thing, which we're actually programming.
 
 What is deterministic algorithm, in simple words?
-&#10;<br>
+<br class="f">
 **In computer science, a deterministic algorithm is an algorithm that, given a
 particular input, will always produce the same output**, with the underlying
 machine always passing through the same sequence of states. Deterministic
@@ -83,7 +83,7 @@ algorithm is a process that produces this particular value as output.
 <!--SR:!2023-10-25,1,230-->
 
 In computing, an **operand** is?
-&#10;<br>
+<br class="f">
 It's the part of a computer instruction which specifies what data is to be
 manipulated or operated on, while at the same time representing the data itself.
 A computer instruction describes an operation such as add or multiply X, while
@@ -97,7 +97,7 @@ register `DS`. Depending on the instruction, there may be zero, one, two, or
 more operands.
 
 Difference between little endian and big endian.
-&#10;<br>
+<br class="f">
 Endianness is the order of sequence of bytes in computer memory.
 - `little-endian` (LE) the **least significant** part of the number is stored
 first.
@@ -106,14 +106,14 @@ significant** part of the number is stored first. Now days LE order is
 **dominating** in various architectures.
 
 Is compiler always tries to compact data structures?
-&#10;<br>
+<br class="f">
 No, it can be wider than needed, reason optimizations.
 
 Compiler tries to reduce memory calls, etc.
 But you can use `#pragma` to customize packing optimizations.<!--SR:!2024-09-09,321,270-->
 
 What is Data structure alignment?
-&#10;<br>
+<br class="f">
 Data structure alignment is the way data is arranged and accessed in computer
 memory. It consists of three separate but related issues: data alignment, data
 structure padding, and packing. The CPU in modern computer hardware performs
@@ -136,7 +136,7 @@ Implicit Type Conversion example -
 Explicit Type Conversion (casting) - `==(data_type)expression;==`
 
 What is Page (computer memory)?
-&#10;<br>
+<br class="f">
 A **page**, **memory page**, or **virtual page** is a fixed-length contiguous
 block of virtual memory, described by a single entry in the page table. It is
 the smallest unit of data for memory management in a virtual memory operating
@@ -146,20 +146,20 @@ system. A transfer of pages between main memory and an auxiliary store, such as
 a hard disk drive, is referred to as paging or swapping.
 
 What is Page fault?
-&#10;<br>
+<br class="f">
 In computing, a **page fault** (sometimes called **PF** or **hard fault**) is an
 exception that the memory management unit (MMU) raises when a process accesses a
 memory page without proper preparations. Accessing the page requires a mapping
 to be added to the process's virtual address space.
 
 A **CPU cache** is
-&#10;<br>
+<br class="f">
 Hardware cache used by the central processing unit (CPU) of a computer to reduce
 the average cost (time or energy) to access data from the main memory.
 
 Many modern desktops, server, and industrial CPUs have at least three
 independent caches:
-&#10;<br>
+<br class="f">
 - **Instruction cache**, used to speed up executable instruction fetch
 - **Data cache**, used to speed up data fetch and store; the data cache is
 usually organized as a hierarchy of more cache levels (L1, L2, etc.; see also
@@ -171,12 +171,12 @@ TLB (ITLB) and data TLB (DTLB) can be provided. However, the TLB cache is part
 of the memory management unit (MMU) and not directly related to the CPU caches.
 
 Main difference between while-loop and do-while-loop?
-&#10;<br>
+<br class="f">
 Do-while loop execute at least once, because condition is checked after we
 execute loop body.
 
 How write do-while-loop using only while loop?
-&#10;<br>
+<br class="f">
 ```c
 while(1)
 {
@@ -211,13 +211,13 @@ What's wrong with this code (specific case logic)?
         OutputDebugStringA("default");
     }
 ```
-&#10;<br>
+<br class="f">
 Switch just jump to code, and continue execution blocks This logic usually is
 not expected. And you need place break; statements in each case!
 <!--SR:!2023-10-28,4,270-->
 
 What are `{}` blocks in C?
-&#10;<br>
+<br class="f">
 This blocks (`block` or `compound statement`) basically are base logical part of
 program, which used to group code.
 This block usually used in control statements and loops.
@@ -230,7 +230,7 @@ block-structured programming language. Blocks are fundamental to structured
 programming, where control structures are formed from blocks.
 
 What dereference operator (indirection operator) `*` do?
-&#10;<br>
+<br class="f">
 It's used to get value of variable at the pointer address. It can be used to
 output value of referencing or even set its value.
 <!--SR:!2023-10-25,1,230-->

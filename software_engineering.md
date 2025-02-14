@@ -2,7 +2,7 @@
 date: 2024-11-02T23:50+03:00
 tags:
   - blog
-  - base
+  - computer_programming
 ---
 
 # Software engineering

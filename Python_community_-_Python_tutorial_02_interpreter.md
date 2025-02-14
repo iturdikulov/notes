@@ -41,7 +41,7 @@ By default, Python 3 source files are treated as encoded in
 identifiers, this convention that any portable code **should follow**.
 
 Can I use non UTF-8 encoding?
-&#10;<br>
+<br class="f">
 Yes, if you need to set non UTF-8 encoding, use `# -*- coding: ENCODING_NAME
 -*-` comment as first line or after [[shebang]]:
 ```python

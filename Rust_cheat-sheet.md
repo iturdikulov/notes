@@ -3,9 +3,6 @@ date: 2025-02-11T21:39+03:00
 tags:
   - blog
   - cheat-sheets
-sr-due: 2023-01-28
-sr-interval: 5
-sr-ease: 150
 ---
 
 # Rust cheat-sheet

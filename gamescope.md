@@ -31,11 +31,11 @@ To use shortcuts need to enable keyboard passthrough, with `D-F1` hotkey
 (`D-S-F1` to disable). TODO: maybe something changed:
 [issue: Super key for shortcuts considered harmful](https://github.com/ValveSoftware/gamescope/issues/391).
 
-- Toggle fullscreen::`D-f`
-- Toggle nearest neighbour filtering::`D-n`
-- Toggle FSR upscaling::`D-u`
-- Toggle NIS upscaling::`D-y`
-- Increase FSR sharpness by 1::`D-i`
-- Decrease FSR sharpness by 1::`D-o`
-- Take screenshot (currently goes to /tmp/gamescope_$DATE.png)::`D-s`
-- Toggle keyboard grab::`D-g`
+- Toggle fullscreen:<wbr class="f"> `D-f`
+- Toggle nearest neighbour filtering:<wbr class="f"> `D-n`
+- Toggle FSR upscaling:<wbr class="f"> `D-u`
+- Toggle NIS upscaling:<wbr class="f"> `D-y`
+- Increase FSR sharpness by 1:<wbr class="f"> `D-i`
+- Decrease FSR sharpness by 1:<wbr class="f"> `D-o`
+- Take screenshot (currently goes to /tmp/gamescope_$DATE.png):<wbr class="f"> `D-s`
+- Toggle keyboard grab:<wbr class="f"> `D-g`

@@ -2,7 +2,7 @@
 date: 2024-11-03T00:12+03:00
 tags:
   - blog
-  - SR-productivity
+  - cheat-sheets
 external:
   - https://www.thunderbird.net/
 ---
@@ -22,22 +22,22 @@ Modifier keys are the Ctrl-key on Windows and Linux, and the Cmd-key on Mac OS d
 
 ## The most useful shortcuts
 
-- Get new messages::`F5/S-F5`
-- Send message::`C-CR/C-S-CR`
-- Create a new message::`C-n`
-- Forward a message::`C-l`
-- Reply to message::`C-r`
-- Add tags to messages::`[0..5]`
-- Remove tags::`0`
-- Mark as Junk::`j/s-j`
-- Go to next/prev unread message::`n/p`
-- Display the message source::`C-u`
-- Contacts tab::`C-2`
-- New contact::`C-n`
-- Calendar tab::`C-3`
-- Tasks tab::`C-4`
-- Create new event::`C-i`
-- Create new task::`C-d`
+- Get new messages:<wbr class="f"> `F5/S-F5`
+- Send message:<wbr class="f"> `C-CR/C-S-CR`
+- Create a new message:<wbr class="f"> `C-n`
+- Forward a message:<wbr class="f"> `C-l`
+- Reply to message:<wbr class="f"> `C-r`
+- Add tags to messages:<wbr class="f"> `[0..5]`
+- Remove tags:<wbr class="f"> `0`
+- Mark as Junk:<wbr class="f"> `j/s-j`
+- Go to next/prev unread message:<wbr class="f"> `n/p`
+- Display the message source:<wbr class="f"> `C-u`
+- Contacts tab:<wbr class="f"> `C-2`
+- New contact:<wbr class="f"> `C-n`
+- Calendar tab:<wbr class="f"> `C-3`
+- Tasks tab:<wbr class="f"> `C-4`
+- Create new event:<wbr class="f"> `C-i`
+- Create new task:<wbr class="f"> `C-d`
 
 ## References
 

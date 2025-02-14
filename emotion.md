@@ -25,7 +25,7 @@ sr-ease: 250
 > actions of the body ('physiological arousal') Here is one definition:
 >
 > "Emotion is a complex psychological phenomenon which occurs as animals or
-> people live their lives. Emotions involve [[psychology|physiological]]
+> people live their lives. Emotions involve [[philosophy_and_psychology|physiological]]
 > arousal, appraisal of the situation, expressive behaviours, and conscious
 > experience. Emotion is associated with feeling, mood, temperament,
 > personality, disposition, and motivation". In physical terms, emotions involve

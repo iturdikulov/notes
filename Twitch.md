@@ -2,7 +2,6 @@
 date: 2023-03-12T00:00+03:00
 tags:
   - blog
-  - art
 sr-due: 2024-01-30
 sr-interval: 4
 sr-ease: 272

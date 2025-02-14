@@ -2,7 +2,7 @@
 date: 2023-02-03T00:00+03:00
 tags:
   - blog
-  - productivity
+  - cheat-sheets
 sr-due: 2024-01-28
 sr-interval: 1
 sr-ease: 208
@@ -29,42 +29,42 @@ shell (`~/.inputrc`, `~/.ipython/profile_default/ipython_config.py`).
 
 ## Tmux, nvim cmdline
 
-`C-w`::Delete the word before the cursor.
-`C-h`::Delete the character before the cursor.
-`C-c`::Cancel the command line.
+`C-w`:<wbr class="f"> Delete the word before the cursor.
+`C-h`:<wbr class="f"> Delete the character before the cursor.
+`C-c`:<wbr class="f"> Cancel the command line.
 
 ## Bare essentials
 
-`C-n`::Scroll up
-`C-p`::Scroll down
+`C-n`:<wbr class="f"> Scroll up
+`C-p`:<wbr class="f"> Scroll down
 
-`C-b`::Move back one character.
-`C-f`::Move forward one character.
+`C-b`:<wbr class="f"> Move back one character.
+`C-f`:<wbr class="f"> Move forward one character.
 
-`M-\`::Delete spaces and tabs around point
-`M-k`::kill to end of sentence (kill-sentence)
-`DEL or Backspace`::Delete the character to the left of the cursor.
-`M-Backspace`::Delete the word to the left of the cursor.
-`C-d`::Delete (kill) the character underneath the cursor.
-`M-d`::Delete (kill) the word underneath the cursor.
-`C-_` or `C-x C-u`::Undo the last editing command. You can undo all the way back to an empty line.
+`M-\`:<wbr class="f"> Delete spaces and tabs around point
+`M-k`:<wbr class="f"> kill to end of sentence (kill-sentence)
+`DEL or Backspace`:<wbr class="f"> Delete the character to the left of the cursor.
+`M-Backspace`:<wbr class="f"> Delete the word to the left of the cursor.
+`C-d`:<wbr class="f"> Delete (kill) the character underneath the cursor.
+`M-d`:<wbr class="f"> Delete (kill) the word underneath the cursor.
+`C-_` or `C-x C-u`:<wbr class="f"> Undo the last editing command. You can undo all the way back to an empty line.
 
 ## Readline Movement Commands
 
-`M-f`::Move forward a word, where a word is composed of letters and digits.
-`M-b`::Move backward a word.
+`M-f`:<wbr class="f"> Move forward a word, where a word is composed of letters and digits.
+`M-b`:<wbr class="f"> Move backward a word.
 
-`C-a`::Move to the start of the line.
-`C-e`::Move to the end of the line.
-`C-l`::Clear the screen, reprinting the current line at the top.
+`C-a`:<wbr class="f"> Move to the start of the line.
+`C-e`:<wbr class="f"> Move to the end of the line.
+`C-l`:<wbr class="f"> Clear the screen, reprinting the current line at the top.
 
 ## Commands for Changing Text
 
-`C-t`::Exchange the char before cursor with the character at cursor.
-`M-t`::Exchange the word before cursor with the word at cursor.
-`M-u`::Uppercase the current word.
-`M-l`::Lowercase the current word.
-`M-c`::Capitalize the current word.
+`C-t`:<wbr class="f"> Exchange the char before cursor with the character at cursor.
+`M-t`:<wbr class="f"> Exchange the word before cursor with the word at cursor.
+`M-u`:<wbr class="f"> Uppercase the current word.
+`M-l`:<wbr class="f"> Lowercase the current word.
+`M-c`:<wbr class="f"> Capitalize the current word.
 
 ## Readline Killing Commands (aka Cut and Paste)
 
@@ -74,24 +74,24 @@ shell (`~/.inputrc`, `~/.ipython/profile_default/ipython_config.py`).
 > killed on a previously typed line is available to be yanked back later, when
 > you are typing another line.
 
-`C-u`::Kill backward from point to the beginning of the line.
-`M-BCK`::Kill the word behind point.
-`M-\`::Delete all spaces and tabs around point.
+`C-u`:<wbr class="f"> Kill backward from point to the beginning of the line.
+`M-BCK`:<wbr class="f"> Kill the word behind point.
+`M-\`:<wbr class="f"> Delete all spaces and tabs around point.
 
 `C-w`
-&#10;<br>
+<br class="f">
 Kill from the cursor to the previous whitespace. This is different from `M-DEL`
 because the word boundaries differ.
 
-`C-k`::Kill the text from the current cursor position to the end of the line.
+`C-k`:<wbr class="f"> Kill the text from the current cursor position to the end of the line.
 
 `M-d`
-&#10;<br>
+<br class="f">
 Kill from the cursor to the end of the current word, or, if between words, to
 the end of the next word. Word boundaries are the same as those used by `M-f`.
 
 `M-DEL`
-&#10;<br>
+<br class="f">
 Kill from the cursor to the start of the current word, or, if between words, to
 the start of the previous word. Word boundaries are the same as those used by
 `M-b`.
@@ -99,9 +99,9 @@ the start of the previous word. Word boundaries are the same as those used by
 Here is how to yank the text back into the line. Yanking means to copy the
 most-recently-killed text from the kill buffer.
 
-`C-y`::Yank the most recently killed text back into the buffer at the cursor.
+`C-y`:<wbr class="f"> Yank the most recently killed text back into the buffer at the cursor.
 
-`M-y`::Rotate the kill-ring, and yank the new top. You can only do this if the
+`M-y`:<wbr class="f"> Rotate the kill-ring, and yank the new top. You can only do this if the
 prior command is `C-y` or `M-y`.
 
 ## Readline Arguments
@@ -122,9 +122,9 @@ prior command is `C-y` or `M-y`.
 
 ## Searching for Commands in the History
 
-Return::Accept the line regardless of where the cursor is.
+Return:<wbr class="f"> Accept the line regardless of where the cursor is.
 
-To search backward in the history for a particular string, type::`C-r`.
+To search backward in the history for a particular string, type:<wbr class="f"> `C-r`.
 
 Typing ==C-s== searches forward through the history.
 

@@ -12,7 +12,7 @@ There are several ways to present the output of a program; data can be
 printed in a human-readable form, or written to a file for future use.
 
 Which methods you can to use to output data in Python?
-&#10;<br>
+<br class="f">
 - expression statements in interactive mode
 - `print` function and derivative functions
 - `io.TextIOBase.write` method of file objects
@@ -20,7 +20,7 @@ Which methods you can to use to output data in Python?
 
 
 Which methods you can use to format output data in Python?
-&#10;<br>
+<br class="f">
 - `f-strings`, begin a string with `f` or `F` before the opening quotation mark
 or triple quotation mark. Inside this string, you can write a Python expression
 between `{` and `}` characters that can refer to variables or literal values.
@@ -53,7 +53,7 @@ variables for debugging purposes, you can convert any value to a string
 with the ==`repr` or `str`== functions.
 
 What is difference between `str` and `repr` functions?
-&#10;<br>
+<br class="f">
 `str` - human-readable; `repr` - unambiguous (as is) representation of the
 object. The `str` function is meant to return representations of values which
 are fairly human-readable, while `repr` is meant to generate
@@ -97,7 +97,7 @@ you include the value of Python expressions inside a string by prefixing the
 string with ==`f` or `F`== and writing expressions as `{expression}`.
 
 Is it possible to adjust variable formatting with `f-strings`?
-&#10;<br>
+<br class="f">
 Yes. An optional format specifier can follow the expression. This allows
 greater control over how the value is formatted. The following example
 rounds pi to three places after the decimal:
@@ -108,7 +108,7 @@ print(f'The value of pi is approximately {math.pi:.3f}.')
 ```
 
 How to set minimum width for variable formatting with `f-strings`?
-&#10;<br>
+<br class="f">
 Passing an integer after the `':'` will cause that field to be a minimum
 number of characters wide. This is useful for making columns line up. :
 ```python
@@ -123,7 +123,7 @@ for name, phone in table.items():
 ```
 
 How to apply ascii, str and raw for variable in `f-strings`?
-&#10;<br>
+<br class="f">
 You can use these modifiers to convert the value before it is formatted.
 `'!a'` applies `ascii`, `'!s'` applies `str`, and `'!r'` applies `repr`:
 ```python
@@ -140,7 +140,7 @@ print(f'My hovercraft is full of {animals!r}.')
 ```
 
 What `=` specifier after expression in `f-strings` does?
-&#10;<br>
+<br class="f">
 This is self-documenting expressions.
 The `=` expand an expression to the text of the expression with equal sign and
 the representation of the evaluated expression:
@@ -154,7 +154,7 @@ print(f'Debugging {bugs=} {count=} {area=}')
 See also [What’s New In Python 3.8](https://docs.python.org/3/whatsnew/3.8.html#f-strings-support-for-self-documenting-expressions-and-debugging)
 
 How to use `str.format` method?
-&#10;<br>
+<br class="f">
 Basic usage of the `str.format` method looks like this:
 ```python
 print('We are the {} who say "{}!"'.format('knights', 'Ni'))
@@ -209,7 +209,7 @@ What this code will output?
 for x in range(1, 11):
     print('{0:2d} {1:3d} {2:4d}'.format(x, x*x, x*x*x))
 ```
-&#10;<br>
+<br class="f">
 The following lines produce a tidily aligned set of
 columns giving integers and their squares and cubes:
 \
@@ -255,7 +255,7 @@ for x in range(1, 11):
 
 How `rjust` (or similar string methods) is working in general, what if variable
 is longer than padding?
-&#10;<br>
+<br class="f">
 The `str.rjust` method of string objects right-justifies a string in a
 field of a given width by padding it with spaces on the left.
 \
@@ -269,7 +269,7 @@ the alternative, which would be lying about a value. (If you really want
 truncation you can always add a slice operation, as in `x.rjust(n)[:n]`.)
 
 How to pad a numeric string on the left with zeros (`str` method)?
-&#10;<br>
+<br class="f">
 `str.zfill`, which pads a numeric string on the
 left with zeros. It understands about plus and minus signs:
 ```python
@@ -279,7 +279,7 @@ left with zeros. It understands about plus and minus signs:
 ```
 
 How working old-string-formatting in Python (`%`)?
-&#10;<br>
+<br class="f">
 The `%` operator (modulo) can also be used for string formatting. Given
 `format % values` (where *format* is a string), `%` conversion
 specifications in *format* are replaced with zero or more elements of
@@ -293,7 +293,7 @@ print('The value of pi is approximately %5.3f.' % math.pi)
 
 `open` function returns a `file object`, and is most commonly used with two
 positional arguments and one keyword argument (which one):
-&#10;<br>
+<br class="f">
 `open(filename, mode, encoding=None)`
 ```python
 # filename, mode, encoding
@@ -303,7 +303,7 @@ print(f)
 ```
 
 Which text mode arguments can be used with `open` function?
-&#10;<br>
+<br class="f">
 *mode* argument (way in which the file be used) in built-in `open` file function
 can be (text mode):
 - `'r'` when the file will only be read (used by default, if mode omitted);
@@ -331,7 +331,7 @@ Be very careful to use binary mode when reading and writing any binary files.
 
 How to automatically close file after `open` function finishes or there was some
 exception during writing?
-&#10;<br>
+<br class="f">
 Use the `with` keyword when dealing with file objects. `with` is also much
 shorter than writing equivalent `try`-`finally` blocks.
 ```python
@@ -354,7 +354,7 @@ by it.
 > successfully.
 
 What if you try to use file object after it was closed?
-&#10;<br>
+<br class="f">
 After a file object is closed, either by a `with` statement or by
 calling `f.close()`, attempts to use the file object will
 automatically fail.
@@ -401,7 +401,7 @@ with open('/tmp/workfile') as f:
 ```
 
 How to read lines from file in more efficient way?
-&#10;<br>
+<br class="f">
 For reading lines from a file, you can loop over the file object. This
 is memory efficient, fast, and leads to simple code:
 ```python
@@ -432,7 +432,7 @@ Second line of the file.\
 ```
 
 How to write non-string data to file?
-&#10;<br>
+<br class="f">
 Other types of objects need to be converted -- either to a string (in
 text mode) or a bytes object (in binary mode) -- before writing them:
 ```python
@@ -466,7 +466,7 @@ f.close()
 ```
 
 Can be used `f.seek(offset)` with some random value in text files?
-&#10;<br>
+<br class="f">
 In text files (those opened without a `b` in the mode string), only
 seeks relative to the beginning of the file are allowed (the exception
 being seeking to the very file end with `seek(0, 2)`) and the only valid

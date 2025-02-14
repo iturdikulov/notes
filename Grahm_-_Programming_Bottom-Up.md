@@ -13,7 +13,7 @@ file: ./articles/Graham_-_Programming_Bottom_Up.html
 Paul Graham's article on programming bottom-up [^1].
 
 Why big programs (code-base) are not a good idea?
-&#10;<br>
+<br class="f">
 Fundamental elements of a program should not be too large, otherwise it's become
 a mass of complexity, will be hard to read, test and debug. <!--SR:!2025-02-08,3,250-->
 
@@ -27,7 +27,7 @@ A -> B
          -> F
 ```
 Can you explain this **top**-down porgram design diagram?
-&#10;<br>
+<br class="f">
 Hierarchical structure where higher-level are subroutines of program, that
 subroutines devided to own, etc. <!--SR:!2025-02-08,3,250-->
 
@@ -43,25 +43,25 @@ Changing the language to suit the problem.
 - With bottom-up design you have shorter programs, fewer components and
   connections between components, and thus ==less== chance for errors there
   (reduce complexity).
-- Bottom-up promote code reuse?::Yes. <!--SR:!2025-02-08,3,250-->
-- Bottom-up code easier to read?::Maybe, because it's less complex. <!--SR:!2025-02-08,3,250-->
+- Bottom-up promote code reuse?:<wbr class="f"> Yes. <!--SR:!2025-02-08,3,250-->
+- Bottom-up code easier to read?:<wbr class="f"> Maybe, because it's less complex. <!--SR:!2025-02-08,3,250-->
 - Bottom-up promote redisign more often, because you see ==similarity and patterns== in
   code. <!--SR:!2025-02-08,3,250-->
 
 Is it possible to do bottom-up design in programming languages other than Lisp?
-&#10;<br>
+<br class="f">
 > Bottom-up design is possible to a certain degree in languages other than Lisp.
 > Whenever you see library functions, bottom-up design is happening. <!--SR:!2025-02-08,3,250-->
 
 Is Bottom-up design in large teams fits better?
-&#10;<br>
+<br class="f">
 Propably not.
 > This style of development better suited to programs which can be
 written by small groups. <!--SR:!2025-02-08,3,250-->
 
 As the size of the group increases, the productivity of individual programmers
 goes up or down?
-&#10;<br>
+<br class="f">
 Actually, productivity goes down. <!--SR:!2025-02-08,3,250-->
 
 [^1]: [Programming Bottom-Up](https://www.paulgraham.com/progbot.html)

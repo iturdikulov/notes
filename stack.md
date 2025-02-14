@@ -2,7 +2,7 @@
 date: 2023-05-18T00:00+03:00
 tags:
   - blog
-  - base
+  - computer_science
 sr-due: 2024-01-29
 sr-interval: 2
 sr-ease: 222
@@ -11,7 +11,7 @@ sr-ease: 222
 # Stack (abstract data type)
 
 What is a stack?
-&#10;<br>
+<br class="f">
 > In [[computer_science]], a **stack** is an [[ADT]] that serves as a
 > [[collection]] of elements, with two main operations:
 >

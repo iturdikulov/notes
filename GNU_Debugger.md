@@ -2,7 +2,7 @@
 date: 2023-04-02T00:00+03:00
 tags:
   - blog
-  - productivity
+  - computer_programming_tools
 external:
   - https://www.sourceware.org/gdb/
 sr-due: 2024-01-29

@@ -2,7 +2,7 @@
 date: 2023-02-20T00:00+03:00
 tags:
   - blog
-  - productivity
+  - cheat-sheets
 external:
   - https://neovim.io/
 directory:
@@ -37,8 +37,10 @@ TODO: global rewrite
 
 To understand custom bullet list types check [[my_notation]] note.
 
-### Now
-
+- [ ] [[Osipov_-_Mastering_Vim]]
+- [ ] [Vim Tips I Wish I Knew Earlier - YouTube](https://www.youtube.com/watch?v=5BU2gBOe9RU)
+- [ ] [Diving Deeper in Vim Regular Expressions](https://thevaluable.dev/vim-regular-expressions-in-depth/)
+- [ ] [The Basics of Vim Regular Expressions](https://thevaluable.dev/regular-expression-basics-vim-grep/)
 - [ ] [[vim_base_keybindings]]
 - [ ] [My neovim autocomplete setup: explained - YouTube](https://www.youtube.com/watch?v=22mrSjknDHI)
 - [ ] [Vim Dadbod - My Favorite SQL Plugin - YouTube](https://www.youtube.com/watch?v=ALGBuFLzDSA)
@@ -132,7 +134,7 @@ looking for configuration files in `$XDG_CONFIG_HOME/neovim` instead of
 
 ## Useful commands
 
-Hide line numbers::`:set nonu nornu` or `:set nonumber norelativenumber`.
+Hide line numbers:<wbr class="f"> `:set nonu nornu` or `:set nonumber norelativenumber`.
 Get variable value - `:set nonu?`.
 
 `:h vimtutor` is quick getting started guide, same command aviable in CLI.
@@ -141,47 +143,47 @@ Get variable value - `:set nonu?`.
 
 Neovim like Vim has two main modes (and some additional), insert mode and command mode.
 
-Quit and ignore changes in ALL files (be careful with this, `:q` is much safer)::Press `Esc` and type `:qa!`
+Quit and ignore changes in ALL files (be careful with this, `:q` is much safer):<wbr class="f"> Press `Esc` and type `:qa!`
 
 Up, Down, Left, Right
-&#10;<br>
+<br class="f">
 `k`,`j`,`h`,`l`, but prefer other navigation keys. These keys have one important
 advantage, they are not generated escape codes unlike arrows keys, and since
 only one method to detect escape code is calculating delays (user can enter
 escape sequence much slower), it can sometimes help on slow connections.
 
-Normal mode, for navigation and manipulation of text::`ESC` or `C-[` or `C-c`
+Normal mode, for navigation and manipulation of text:<wbr class="f"> `ESC` or `C-[` or `C-c`
 
 Insert mode, for inserting new text.
-&#10;<br>
+<br class="f">
 `iIaAoO`, `i` start input before the current symbol (insert or prepend), `a` ...
 after current symbol (append).
 
-Visual, for navigation and manipulation of text selections::`v` or `V` or `C-v`
+Visual, for navigation and manipulation of text selections:<wbr class="f"> `v` or `V` or `C-v`
 <!--SR:!2023-06-06,2,228-->
 
-Command-line mode, for entering editor commands (Ex commands)::`:`
+Command-line mode, for entering editor commands (Ex commands):<wbr class="f"> `:`
 
-Replace mode, replace existing text by directly typing over it::`R`
+Replace mode, replace existing text by directly typing over it:<wbr class="f"> `R`
 
-Mode similar to visual, but with a more MS Windows-like behavior::select mode, `gh`, `gH`
+Mode similar to visual, but with a more MS Windows-like behavior:<wbr class="f"> select mode, `gh`, `gH`
 
-Similar to the command-line mode but optimized for batch processing::ex-mode, `gQ`
+Similar to the command-line mode but optimized for batch processing:<wbr class="f"> ex-mode, `gQ`
 
-Select something::`v[motion]`
+Select something:<wbr class="f"> `v[motion]`
 
-Copy something::`y[register][num][motion]`
+Copy something:<wbr class="f"> `y[register][num][motion]`
 
-Copy something into system clipboard::`"<SPC>y[motion]`, I have own mapping - `<leader>y`
+Copy something into system clipboard:<wbr class="f"> `"<SPC>y[motion]`, I have own mapping - `<leader>y`
 
-Delete something (can be used with black hole register)::`d[register][num][motion]`
+Delete something (can be used with black hole register):<wbr class="f"> `d[register][num][motion]`
 
-Change something (can be used with black hole register)::`c[register][num][motion]`
+Change something (can be used with black hole register):<wbr class="f"> `c[register][num][motion]`
 
-`:`::command mode
+`:`:<wbr class="f"> command mode
 
 How to split line
-&#10;<br>
+<br class="f">
 Use (a/i/r) keys:
 - `i<cr><esc>`
 - `a<cr><esc>`
@@ -189,50 +191,50 @@ Use (a/i/r) keys:
 
 ## Search & replace
 
-Grep content in current project and open find toolbar (custom)::`<leader>fs`, TODO: remap
+Grep content in current project and open find toolbar (custom):<wbr class="f"> `<leader>fs`, TODO: remap
 
-`/`::search mode
+`/`:<wbr class="f"> search mode
 
-`?`::backward search mode
+`?`:<wbr class="f"> backward search mode
 
-`//`::repeat last search
+`//`:<wbr class="f"> repeat last search
 
-`/search\c`::case-insensitive search
+`/search\c`:<wbr class="f"> case-insensitive search
 
-`/search\C`::case-sensitive search
+`/search\C`:<wbr class="f"> case-sensitive search
 
-`fx|Fx`::search in current line forward for 'x', backward for 'x'
+`fx|Fx`:<wbr class="f"> search in current line forward for 'x', backward for 'x'
 
-`tx|Tx`::search in current line forward before 'x', backward before 'x'
+`tx|Tx`:<wbr class="f"> search in current line forward before 'x', backward before 'x'
 
 `,`, `;`
-&#10;<br>
+<br class="f">
 Backward, forward after that "finds", works for `s`, `f` and `t`.
 
-`n|N`::repeat search in same direction and opposite direction, support multiline search.
+`n|N`:<wbr class="f"> repeat search in same direction and opposite direction, support multiline search.
 
-`/ ESC`::clear search highlights or `:noh`
+`/ ESC`:<wbr class="f"> clear search highlights or `:noh`
 
-`set ignorecase` or `set ic`::Enable ignore case in search patterns
+`set ignorecase` or `set ic`:<wbr class="f"> Enable ignore case in search patterns
 
-`set smartcase` or `set scs`::Case-insensitive search, unless there is a capital letter in the search, but `ignorecase` needs to be on
+`set smartcase` or `set scs`:<wbr class="f"> Case-insensitive search, unless there is a capital letter in the search, but `ignorecase` needs to be on
 
-`:grep {pattern} {file} ...`::Search pattern across files pattern.
+`:grep {pattern} {file} ...`:<wbr class="f"> Search pattern across files pattern.
 
-`:vim[grep][!] /{pattern}/[g][j][f] {file} ...`::Search pattern across files pattern.
+`:vim[grep][!] /{pattern}/[g][j][f] {file} ...`:<wbr class="f"> Search pattern across files pattern.
 
-`:copen`::Open quickfix window, but better to use Trouble.nvim (`<leader>xx`)
+`:copen`:<wbr class="f"> Open quickfix window, but better to use Trouble.nvim (`<leader>xx`)
 
-`C-k`::`:cnext`, next file from quickfix
+`C-k`:<wbr class="f"> `:cnext`, next file from quickfix
 
-`C-j`::`:cprev`, previous file from quickfix
+`C-j`:<wbr class="f"> `:cprev`, previous file from quickfix
 
-`@:`::repeat last command
+`@:`:<wbr class="f"> repeat last command
 
-`@@`::repeat last `@<whatever>`
+`@@`:<wbr class="f"> repeat last `@<whatever>`
 
 Find each occurrence of 'foo' (in all lines), and replace it with 'bar'
-&#10;<br>
+<br class="f">
 `:%s/foo/bar/g[c]`
 `%` - all lines.
 `s` - substitute.
@@ -241,35 +243,35 @@ Find each occurrence of 'foo' (in all lines), and replace it with 'bar'
 
 The replacement will check each line in the buffer, but will only match within
 the last visual selection
-&#10;<br>
+<br class="f">
 Same as find each occurrence, but need to add `%V` suffix to the search pattern.
 `:%s/\%Vfoo/bar/g[c]`
 `[c]` - confirmations.
 
-`:'<,'>s/old/new/g`::replace all old with new throughout visual selection
+`:'<,'>s/old/new/g`:<wbr class="f"> replace all old with new throughout visual selection
 
-`&`::repeat last substitute, equal to `:s//~/`
+`&`:<wbr class="f"> repeat last substitute, equal to `:s//~/`
 
-`:s/\[foo\]//g`::Escape the square brackets with a backslash, to replace `[foo]`
+`:s/\[foo\]//g`:<wbr class="f"> Escape the square brackets with a backslash, to replace `[foo]`
 
-`:s/pat\/tern/replace/g`::Escape the `/` to match `pat/tern`
+`:s/pat\/tern/replace/g`:<wbr class="f"> Escape the `/` to match `pat/tern`
 
-`:s#pat/tern#replace#g`::Use another character as separator to match "pat/tern".
+`:s#pat/tern#replace#g`:<wbr class="f"> Use another character as separator to match "pat/tern".
 
-Replace single quotes to double::`:s/\'\(.*\)\'/\"\1\"`
+Replace single quotes to double:<wbr class="f"> `:s/\'\(.*\)\'/\"\1\"`
 
 `:%s/\(^ *\)\@<! \/ /g`
-&#10;<br>
+<br class="f">
 Replace multiple spaces with one, This says find 2 or more spaces (` \`)
 that are NOT preceded by 'the start of the line followed by zero or more
 spaces'.
 
-`*|#` or `g*|g#`::search forward word under cursor, search backward word under cursor
+`*|#` or `g*|g#`:<wbr class="f"> search forward word under cursor, search backward word under cursor
 
 ### Search and replace tips
 
 How to do granular find and replace something in the whole file (3 steps)?
-&#10;<br>
+<br class="f">
 1. Search something with `/`
 2. Type `cgn` and `word` to replace, or run some command, where `gn` is a
    motion that selects the next match of the last used search pattern. Of course,
@@ -278,7 +280,7 @@ How to do granular find and replace something in the whole file (3 steps)?
 
 <!-- WARNING: this is very useful -->
 Find and Replace in Multiple Files using `argslist`
-&#10;<br>
+<br class="f">
 1. Initialize the `argslist` with `:args *.ext` from CWD.
 2. Optionally add more files with `:argadd *.ext`. You can also use `**/*.ext`
    to search recursively.
@@ -292,425 +294,425 @@ pattern. Use `:cdo` to do something with the quickfix list.
 
 <!-- WARNING: this is very useful -->
 Search with telescope and quickfix
-&#10;<br>
+<br class="f">
 1. `<leader>fs` to grep results
 2. `<C-q>` to add all results to the quickfix list
 3. `:cdo s/StringOne/StringTwo/g | update` to make the change and save all the files.
 
 ## Navigation
 
-Scrolling up, cursor staying on the same line::`C-e`
+Scrolling up, cursor staying on the same line:<wbr class="f"> `C-e`
 
-Scrolling down, cursor staying on the same line::`C-y`
+Scrolling down, cursor staying on the same line:<wbr class="f"> `C-y`
 <!--SR:!2023-06-05,2,233-->
 
-Go to line n::`:n`
+Go to line n:<wbr class="f"> `:n`
 
-Go to first line::`gg`
+Go to first line:<wbr class="f"> `gg`
 
-Go to last line of document::`G`
+Go to last line of document:<wbr class="f"> `G`
 <!--SR:!2023-06-07,3,249-->
 
-Go to line n::`[n]gg`, or `[n]G`
+Go to line n:<wbr class="f"> `[n]gg`, or `[n]G`
 
-Up to `#line` (relative)::`#k`
+Up to `#line` (relative):<wbr class="f"> `#k`
 
-Down to `#line` (relative)::`#j`
+Down to `#line` (relative):<wbr class="f"> `#j`
 
-Move the cursor forward by a **screen** of text::`C-f`, cursor position lose
+Move the cursor forward by a **screen** of text:<wbr class="f"> `C-f`, cursor position lose
 
-Move the cursor backward by a **screen** of text::`C-b`, cursor position lose
+Move the cursor backward by a **screen** of text:<wbr class="f"> `C-b`, cursor position lose
 
-Move the cursor up by half a screen::`C-u`
+Move the cursor up by half a screen:<wbr class="f"> `C-u`
 
-Move the cursor down by half a screen::`C-d`
+Move the cursor down by half a screen:<wbr class="f"> `C-d`
 
-Puts the current line at the top::`zt`
+Puts the current line at the top:<wbr class="f"> `zt`
 
-Puts the current line at the middle (and scroll to middle)::`zz`
+Puts the current line at the middle (and scroll to middle):<wbr class="f"> `zz`
 
-Puts the current line at the bottom::`zb`
+Puts the current line at the bottom:<wbr class="f"> `zb`
 
 Jump by **s**tart of words (punctuation considered words)
-&#10;<br>
+<br class="f">
 `w`, alternative is `f_` skips to the next underscore (useful for Python code)
 
-Jump by **s**tart words (words determined only by spaces, no punctuation)::`W`
+Jump by **s**tart words (words determined only by spaces, no punctuation):<wbr class="f"> `W`
 <!--SR:!2023-06-07,3,249-->
 
-Jump to en**d** of words (punctuation considered words)::`e`, more useful to select/change words
+Jump to en**d** of words (punctuation considered words):<wbr class="f"> `e`, more useful to select/change words
 
-Jump to en**d** of words (no punctuation)::`E`
+Jump to en**d** of words (no punctuation):<wbr class="f"> `E`
 <!--SR:!2023-06-05,1,193-->
 
-Jump **b**ackward by words (punctuation considered words)::`b`
+Jump **b**ackward by words (punctuation considered words):<wbr class="f"> `b`
 <!--SR:!2023-06-05,1,211-->
 
-Jump **b**ackward by words (no punctuation)::`B`
+Jump **b**ackward by words (no punctuation):<wbr class="f"> `B`
 
-Jump backwar**d** to end of words::`ge` <!--SR:!2024-11-14,1,150-->
+Jump backwar**d** to end of words:<wbr class="f"> `ge` <!--SR:!2024-11-14,1,150-->
 
-**J**ump to zero symbol (start of line)::`0` <!--SR:!2024-11-18,5,233-->
+**J**ump to zero symbol (start of line):<wbr class="f"> `0` <!--SR:!2024-11-18,5,233-->
 
-   **J**ump to first non-blank character of line::`^`
+   **J**ump to first non-blank character of line:<wbr class="f"> `^`
 
-Jump to end of lin**e**::`$`
+Jump to end of lin**e**:<wbr class="f"> `$`
 
-Jump to the last non-blank character of the lin**e** ::`g_`
+Jump to the last non-blank character of the lin**e** :<wbr class="f"> `g_`
 
-Move to the current line (useful for making line-based commands) *::`_`
+Move to the current line (useful for making line-based commands) *:<wbr class="f"> `_`
 
-Move line upwards, on the first not blank character (ignore cursor position)::`-`
+Move line upwards, on the first not blank character (ignore cursor position):<wbr class="f"> `-`
 <!--SR:!2023-06-05,1,209-->
 
-Move line downwards, on the first not blank character (ignore cursor position)::`+`
+Move line downwards, on the first not blank character (ignore cursor position):<wbr class="f"> `+`
 
-Move the cursor forward to the next sentence, top right corner (or table cell)::`)`
+Move the cursor forward to the next sentence, top right corner (or table cell):<wbr class="f"> `)`
 <!--SR:!2023-06-07,2,208-->
 
-Move backward by a sentence, top right corner (or table cell)::`h`
+Move backward by a sentence, top right corner (or table cell):<wbr class="f"> `h`
 
-Move the cursor a paragraph backwards::`{`
+Move the cursor a paragraph backwards:<wbr class="f"> `{`
 
-Move the cursor a paragraph forwards::`}`
+Move the cursor a paragraph forwards:<wbr class="f"> `}`
 
-Move the cursor a section forwards or to the next `{`::`]]`
+Move the cursor a section forwards or to the next `{`:<wbr class="f"> `]]`
 <!--SR:!2023-06-05,2,230-->
 
-Move the cursor a section backwards or the previous `{`::`]]`
+Move the cursor a section backwards or the previous `{`:<wbr class="f"> `]]`
 
-Move the cursor to the top, middle, bottom of the screen.::`HML`
+Move the cursor to the top, middle, bottom of the screen.:<wbr class="f"> `HML`
 <!--SR:!2023-06-05,1,209-->
 
-Jump to matching brace, bracket, or parentheses *::`%`
+Jump to matching brace, bracket, or parentheses *:<wbr class="f"> `%`
 
-Return to the line where the cursor was before the latest jump::`''`
+Return to the line where the cursor was before the latest jump:<wbr class="f"> `''`
 
-Start typing on the last inserting point you can type.::`gi`
+Start typing on the last inserting point you can type.:<wbr class="f"> `gi`
 
-Re-select and jump to the last visual selection with::`gv`
+Re-select and jump to the last visual selection with:<wbr class="f"> `gv`
 
-Goes to the older cursor position on the change list::`g;`
+Goes to the older cursor position on the change list:<wbr class="f"> `g;`
 
-Goes to the newer cursor position on the change list::`g,`
+Goes to the newer cursor position on the change list:<wbr class="f"> `g,`
 
-Jump to previous position you were at::`C-o`
+Jump to previous position you were at:<wbr class="f"> `C-o`
 
-Jump to more recent position you were a::`C-i`
+Jump to more recent position you were a:<wbr class="f"> `C-i`
 
-Find link under cursor::`gx` - open URL under cursor (`netrw-gx`)
+Find link under cursor:<wbr class="f"> `gx` - open URL under cursor (`netrw-gx`)
 <!--SR:!2023-06-05,1,211-->
 
 ### Marks
 
-List all the current marks::`:marks`
+List all the current marks:<wbr class="f"> `:marks`
 <!--SR:!2023-06-06,3,250-->
 
-Make a bookmark named `a` at the current cursor position::`m[a]`
+Make a bookmark named `a` at the current cursor position:<wbr class="f"> `m[a]`
 
-Go to position of bookmark `a`::`` `[a] ``
+Go to position of bookmark `a`:<wbr class="f"> `` `[a] ``
 
-Go to the line with bookmark `a`::`'[a]`
+Go to the line with bookmark `a`:<wbr class="f"> `'[a]`
 
-Go to the line that you last edited::`` `. ``
+Go to the line that you last edited:<wbr class="f"> `` `. ``
 
 ### QuickFix/Location list
 
-Next quickfix item::`<C-k>`, `<leader>k` next item for current window
+Next quickfix item:<wbr class="f"> `<C-k>`, `<leader>k` next item for current window
 
-Previous quickfix item::`<C-j>`, `<leader>j` previous item for current window
+Previous quickfix item:<wbr class="f"> `<C-j>`, `<leader>j` previous item for current window
 
 ### Code navigation (usually aviable with some LSP server)
 
-Search LSP symbols::`<leader>vws`, `<leader>vwS` for query
+Search LSP symbols:<wbr class="f"> `<leader>vws`, `<leader>vwS` for query
 
-Jump to function/variable declaration (head of function)::`gD`
+Jump to function/variable declaration (head of function):<wbr class="f"> `gD`
 
-Jump to function/variable definition (body of function)::`gd`
+Jump to function/variable definition (body of function):<wbr class="f"> `gd`
 
-Go to type definition (object class for example)::`go`
+Go to type definition (object class for example):<wbr class="f"> `go`
 
-Jump to function/variable implementation::`gI`, TODO: not sure what this means
+Jump to function/variable implementation:<wbr class="f"> `gI`, TODO: not sure what this means
 
 Find symbol, find symbol based on grep:`<leader>vws[S]`
 
-Find usages/references (where function/variable is used)::`gr`
+Find usages/references (where function/variable is used):<wbr class="f"> `gr`
 
 ### Help
 
-Hover help::`K`
+Hover help:<wbr class="f"> `K`
 
-Signature help (arguments information)::`C-F1`
+Signature help (arguments information):<wbr class="f"> `C-F1`
 
-Search related documentation in current/all docsets (dashit)::`<leader>dk`, `<leader>dK`
+Search related documentation in current/all docsets (dashit):<wbr class="f"> `<leader>dk`, `<leader>dK`
 
 Search related documentation for visual selection in current/all docsets (dashit)
-&#10;<br>
+<br class="f">
 `<leader>ds`, `<leader>dS`
 
 Search related documentation under cursor in current/all docsets (dashit)
-&#10;<br>
+<br class="f">
 `<leader>ds`, `<leader>dW`
 
-Recent locations by `cbochs/portal.nvim`::`<leader>o`, `<leader>i`
+Recent locations by `cbochs/portal.nvim`:<wbr class="f"> `<leader>o`, `<leader>i`
 
 ## Clipboard
 
-`yw`::yank up to end of word
+`yw`:<wbr class="f"> yank up to end of word
 
-`yiw`::yank inner word
+`yiw`:<wbr class="f"> yank inner word
 
-`yy`::yank (copy) a line
+`yy`:<wbr class="f"> yank (copy) a line
 
-`2yy`::yank next 2 lines
+`2yy`:<wbr class="f"> yank next 2 lines
 
-`y$`::yank to end of line
+`y$`:<wbr class="f"> yank to end of line
 
-`p`::put (paste) the clipboard after cursor/current line
+`p`:<wbr class="f"> put (paste) the clipboard after cursor/current line
 
-`P`::put (paste) before cursor/current line
+`P`:<wbr class="f"> put (paste) before cursor/current line
 <!--SR:!2023-06-06,2,228-->
 
-`:set paste`::avoid unexpected effects in pasting
+`:set paste`:<wbr class="f"> avoid unexpected effects in pasting
 
-`:registers`::display the contents of all registers
+`:registers`:<wbr class="f"> display the contents of all registers
 
-`"xyw`::yank word into register x
+`"xyw`:<wbr class="f"> yank word into register x
 
-`"xyy`::yank line into register x
+`"xyy`:<wbr class="f"> yank line into register x
 
-`:[range]y`, for example `:1,12y`::x yank `[range]` lines into register x
+`:[range]y`, for example `:1,12y`:<wbr class="f"> x yank `[range]` lines into register x
 
-`"xp`::put the text from register x after the cursor
+`"xp`:<wbr class="f"> put the text from register x after the cursor
 
-`"xP`::put the text from register x before the cursor
+`"xP`:<wbr class="f"> put the text from register x before the cursor
 
-`"xgp`::just like "p", but leave the cursor just after the new text
+`"xgp`:<wbr class="f"> just like "p", but leave the cursor just after the new text
 
-`"xgP`::just like "P", but leave the cursor just after the new text
+`"xgP`:<wbr class="f"> just like "P", but leave the cursor just after the new text
 <!--SR:!2023-06-05,1,209-->
 
-`:[line]put`::x put the text from register x after `[line]`
+`:[line]put`:<wbr class="f"> x put the text from register x after `[line]`
 
 ## Changing text (editing)
 
-`<tab>`::by using `nvim-cmp` heavy autocomplete menu, support snippets if here not visible `cmp` menu
+`<tab>`:<wbr class="f"> by using `nvim-cmp` heavy autocomplete menu, support snippets if here not visible `cmp` menu
 
-Keyword completion::`C-n`
+Keyword completion:<wbr class="f"> `C-n`
 
-`C-t` in insert mode::indent, other's editors `<tab>` alternative
+`C-t` in insert mode:<wbr class="f"> indent, other's editors `<tab>` alternative
 
-`C-d` in insert mode::unindent, other's editors `<S-tab>` alternative
+`C-d` in insert mode:<wbr class="f"> unindent, other's editors `<S-tab>` alternative
 
-Run `normal mode` command in `insert mode` (i → n → i)::`C-o[command]`
+Run `normal mode` command in `insert mode` (i → n → i):<wbr class="f"> `C-o[command]`
 
-Read input character and insert it (useful to insert TAB character for example)::`C-q`
+Read input character and insert it (useful to insert TAB character for example):<wbr class="f"> `C-q`
 
-Replace a single character::`r`
+Replace a single character:<wbr class="f"> `r`
 
-Enter sort of `insert mode`, but replacing characters rather than inserting::`R`
+Enter sort of `insert mode`, but replacing characters rather than inserting:<wbr class="f"> `R`
 
-Join line below to the current one (delete carriage return)::`J`
+Join line below to the current one (delete carriage return):<wbr class="f"> `J`
 
-Change (replace) an entire line::`cc` or `S`
+Change (replace) an entire line:<wbr class="f"> `cc` or `S`
 
-Replace to the end of word::`cw`
+Replace to the end of word:<wbr class="f"> `cw`
 
-Change (replace) to the end of line::`C`
+Change (replace) to the end of line:<wbr class="f"> `C`
 
-Change until \' character (or for any character)::`ct'` or `ct{char}`
+Change until \' character (or for any character):<wbr class="f"> `ct'` or `ct{char}`
 
-Delete character at cursor and substitute text::`s`
+Delete character at cursor and substitute text:<wbr class="f"> `s`
 
-Transpose two letters (delete and paste, actually)::`xp`
+Transpose two letters (delete and paste, actually):<wbr class="f"> `xp`
 
-Reverse two letters (delete and paste, actually)::`Xp`
+Reverse two letters (delete and paste, actually):<wbr class="f"> `Xp`
 
-Undo changes::`u`
+Undo changes:<wbr class="f"> `u`
 
-Undo all changes in current line::`U`
+Undo all changes in current line:<wbr class="f"> `U`
 
-Redo changes::`C-r`
+Redo changes:<wbr class="f"> `C-r`
 <!--SR:!2023-06-05,1,209-->
 
-Insert content of register x (`in insert mode`)::`C-r` then `x`
+Insert content of register x (`in insert mode`):<wbr class="f"> `C-r` then `x`
 
-Repeat last command::`.`
+Repeat last command:<wbr class="f"> `.`
 
-Switch case of current symbol or selection::`~`
+Switch case of current symbol or selection:<wbr class="f"> `~`
 
-Switch case of current word::`g~iw`
+Switch case of current word:<wbr class="f"> `g~iw`
 
-Make current word uppercase::`gUiw`
+Make current word uppercase:<wbr class="f"> `gUiw`
 
-Make current word lowercase::`guiw`
+Make current word lowercase:<wbr class="f"> `guiw`
 <!--SR:!2023-06-05,1,211-->
 
-Make uppercase until end of line::`gU$`
+Make uppercase until end of line:<wbr class="f"> `gU$`
 
-Make lowercase until end of line::`gu$`
+Make lowercase until end of line:<wbr class="f"> `gu$`
 
-Change line to UPPER::`gUU`
+Change line to UPPER:<wbr class="f"> `gUU`
 
-Change line to lower::`guu`
+Change line to lower:<wbr class="f"> `guu`
 
-Fill text (format)::`gw[motion]` (save cursor position) or `gx[motion]`
+Fill text (format):<wbr class="f"> `gw[motion]` (save cursor position) or `gx[motion]`
 <!--SR:!2023-06-06,1,208-->
 
-Swap current line with next (line down)::`ddp`
+Swap current line with next (line down):<wbr class="f"> `ddp`
 
-Swap current line with previous (line up)::`ddP` <!--SR:!2024-11-18,5,231-->
+Swap current line with previous (line up):<wbr class="f"> `ddP` <!--SR:!2024-11-18,5,231-->
 
-Duplicate line and stay on same line::`yyP`
+Duplicate line and stay on same line:<wbr class="f"> `yyP`
 
-Fix spaces / tabs issues in whole file::`:%retab`
+Fix spaces / tabs issues in whole file:<wbr class="f"> `:%retab`
 
-Insert new line above/below (custom keybinding and command)::`[<space>`, `]<space>`, TODO: delete line above/below?
+Insert new line above/below (custom keybinding and command):<wbr class="f"> `[<space>`, `]<space>`, TODO: delete line above/below?
 
 ### kylechui/nvim-surround
 
-- Surround word with \" character::`ysiw"`, surround_words
-- Make strings, insert double quote from position to end of line::`ys$"`, *make strings
-- Delete around two `[` `]` characters::`ds]` [delete *around me!]
-- Remove surround HTML tags::`dst` <b>HTML *tags</b>
-- Change single quotes to double::`cs'"`, 'change *quotes'
-- Change the surrounding char to char or tag::`cs[char][t]`, '*surround char'
-- Change surround HTML tags::`csth1<CR>` `<b>or tag* types</b>`
-- Delete function calls, like `foo(bar)`::`dsf`, `foo(bar)`
-- Wrap text/word with function example::`ysWf ysWF`, *bar
+- Surround word with \" character:<wbr class="f"> `ysiw"`, surround_words
+- Make strings, insert double quote from position to end of line:<wbr class="f"> `ys$"`, *make strings
+- Delete around two `[` `]` characters:<wbr class="f"> `ds]` [delete *around me!]
+- Remove surround HTML tags:<wbr class="f"> `dst` <b>HTML *tags</b>
+- Change single quotes to double:<wbr class="f"> `cs'"`, 'change *quotes'
+- Change the surrounding char to char or tag:<wbr class="f"> `cs[char][t]`, '*surround char'
+- Change surround HTML tags:<wbr class="f"> `csth1<CR>` `<b>or tag* types</b>`
+- Delete function calls, like `foo(bar)`:<wbr class="f"> `dsf`, `foo(bar)`
+- Wrap text/word with function example:<wbr class="f"> `ysWf ysWF`, *bar
 
 ### Macro
 
-record macro / stop recording macro::`q<register>`
+record macro / stop recording macro:<wbr class="f"> `q<register>`
 
-play macro::`@<register>`
+play macro:<wbr class="f"> `@<register>`
 
-replay last command (from command line)::`@:`
+replay last command (from command line):<wbr class="f"> `@:`
 
 ### Deleting text
 
-Delete current character, previous character::`x`, `X`
+Delete current character, previous character:<wbr class="f"> `x`, `X`
 
-Delete the current word (from current position)::`dw`
+Delete the current word (from current position):<wbr class="f"> `dw`
 
-Delete (cut) a line::`dd`
+Delete (cut) a line:<wbr class="f"> `dd`
 
-Delete (cut) from cursor to end of line::`d$`
+Delete (cut) from cursor to end of line:<wbr class="f"> `d$`
 
-Delete until the next \' character on the line (or any character)::`dt'` or `dt{char}`
+Delete until the next \' character on the line (or any character):<wbr class="f"> `dt'` or `dt{char}`
 
-Delete from cursor to end of line::`D`
+Delete from cursor to end of line:<wbr class="f"> `D`
 <!--SR:!2023-06-06,3,250-->
 
-Delete \[range\] lines::`:[range]d`
+Delete \[range\] lines:<wbr class="f"> `:[range]d`
 
 ### `numToStr/Comment.nvim`
 
-Line-comment::`gc[motion]`, `gc` in visual mode
+Line-comment:<wbr class="f"> `gc[motion]`, `gc` in visual mode
 
-Block-comment::`gb[motion]`, `gb` in visual mode
+Block-comment:<wbr class="f"> `gb[motion]`, `gb` in visual mode
 
-Add comment on the line above::`gcO`
+Add comment on the line above:<wbr class="f"> `gcO`
 
-Add comment on the line below::`gco`
+Add comment on the line below:<wbr class="f"> `gco`
 
-Add comment at the end of line::`gcA`
+Add comment at the end of line:<wbr class="f"> `gcA`
 
 ## Formatting
 
-`>>`::indent line one column to right
+`>>`:<wbr class="f"> indent line one column to right
 
-`<<'::indent line one column to left
+`<<':<wbr class="f"> indent line one column to left
 <!--SR:!2023-06-06,2,228-->
 
-`==`::auto-indent current line
+`==`:<wbr class="f"> auto-indent current line
 <!--SR:!2023-06-07,2,208-->
 
-`=`::indent text, works with visual selection
+`=`:<wbr class="f"> indent text, works with visual selection
 
-`>`::shift right in visual mode <!-- (v) -->
+`>`:<wbr class="f"> shift right in visual mode <!-- (v) -->
 
-`<`::shift left in visual mode (v)
+`<`:<wbr class="f"> shift left in visual mode (v)
 <!--SR:!2023-06-06,1,208-->
 
-Code formatting (using LSP), custom binding::`<leader>f`
+Code formatting (using LSP), custom binding:<wbr class="f"> `<leader>f`
 
 ### Code refactoring and diagnostic
 
 Add/remove/list LSP workspace directories
-&#10;<br>
+<br class="f">
 `<Leader>wa`, `<Leader>wr`, `<Leader>wl`.
 
-Parsed syntax-tree view (tresitter)::`:InspectTree`
+Parsed syntax-tree view (tresitter):<wbr class="f"> `:InspectTree`
 
-Refactoring menu::`<leader>r[key]`
+Refactoring menu:<wbr class="f"> `<leader>r[key]`
 
-Rename object (using LSP)::`<Leader>vrn`
+Rename object (using LSP):<wbr class="f"> `<Leader>vrn`
 
-Code actions (inline action)::`<leader>vaa`
+Code actions (inline action):<wbr class="f"> `<leader>vaa`
 
-Open diagnostic (typo/error/warning information) in floating window::`gl`
+Open diagnostic (typo/error/warning information) in floating window:<wbr class="f"> `gl`
 
-Go to previous diagnostic::`[d`
+Go to previous diagnostic:<wbr class="f"> `[d`
 
-Go to next diagnostic::`]d`
+Go to next diagnostic:<wbr class="f"> `]d`
 
-List document trouble (diagnostic)::`<leader>xd`
+List document trouble (diagnostic):<wbr class="f"> `<leader>xd`
 
-List workspace trouble (diagnostic)::`<leader>xw`
+List workspace trouble (diagnostic):<wbr class="f"> `<leader>xw`
 
-Suggest word (spell check)::`z=`
+Suggest word (spell check):<wbr class="f"> `z=`
 
 ### Markdown
 
-Go to previous/next heading::`[[` / `]]`
+Go to previous/next heading:<wbr class="f"> `[[` / `]]`
 
-Go to link text::`gx`
+Go to link text:<wbr class="f"> `gx`
 
-Go to link file::`gf`
+Go to link file:<wbr class="f"> `gf`
 
 Toggle checkbox:`<leader>tt`
 
-Renumber numbered list::`gN`
+Renumber numbered list:<wbr class="f"> `gN`
 
-Bullet promote::`<C-d>` or `<<` or `<` in visual mode
+Bullet promote:<wbr class="f"> `<C-d>` or `<<` or `<` in visual mode
 
-Bullet demote::`<C-t>` or `>>` or `>` in visual mode
+Bullet demote:<wbr class="f"> `<C-t>` or `>>` or `>` in visual mode
 
-URL to markdown → clipboard → paste::<S-v>
+URL to markdown → clipboard → paste:<wbr class="f"> <S-v>
 
 TODO: HTML/other? to Markdown → clipboard → paste
 
 ### Markdown Snippets
 
-`codeblock`::insert code block
-`code`::insert inline code
+`codeblock`:<wbr class="f"> insert code block
+`code`:<wbr class="f"> insert inline code
 
-`pyc`::insert python code block
-`javac`::insert java code block
-`clc`::insert c code block
+`pyc`:<wbr class="f"> insert python code block
+`javac`:<wbr class="f"> insert java code block
+`clc`:<wbr class="f"> insert c code block
 <!--SR:!2023-06-05,2,230-->
-`cppc`::insert CPP code block
-`jsc`::insert JavaScript code block
-`phpc`::insert PHP code block
+`cppc`:<wbr class="f"> insert CPP code block
+`jsc`:<wbr class="f"> insert JavaScript code block
+`phpc`:<wbr class="f"> insert PHP code block
 <!--SR:!2023-06-05,2,233-->
-`sqlc`::insert SQL code block
-`tsc`::insert typescript code block
-`rubyc`::insert ruby code block
-`goc`::insert go code block
+`sqlc`:<wbr class="f"> insert SQL code block
+`tsc`:<wbr class="f"> insert typescript code block
+`rubyc`:<wbr class="f"> insert ruby code block
+`goc`:<wbr class="f"> insert go code block
 <!--SR:!2023-06-06,2,210-->
-`rustc`::insert rust code block
-`lua`::insert Lua code block
+`rustc`:<wbr class="f"> insert rust code block
+`lua`:<wbr class="f"> insert Lua code block
 <!--SR:!2023-06-06,2,231-->
-`shc`::insert bash code block
+`shc`:<wbr class="f"> insert bash code block
 <!--SR:!2023-06-05,2,233-->
 
 ### antonk52/markdowny.nvim
 
-Make visual selection bold::`<C-b>`
-Make visual selection italic::`<C-i>`
-Make visual selection code::`<C-e>`
-Make visual selection link::`<C-k>`
+Make visual selection bold:<wbr class="f"> `<C-b>`
+Make visual selection italic:<wbr class="f"> `<C-i>`
+Make visual selection code:<wbr class="f"> `<C-e>`
+Make visual selection link:<wbr class="f"> `<C-k>`
 
 ### Mini Align
 
@@ -725,220 +727,227 @@ Get help `:h MiniAlign-examples`
 
 ## Visual Mode
 
-`S[text object]`:::in visual state will surround a text object
+`S[text object]`:<wbr class="f" /> in visual state will surround a text object
 
-`V`:::start linewise visual mode
+`V`:<wbr class="f" /> start linewise visual mode
 
-`o`:::move to other end of marked area
+`o`:<wbr class="f" /> move to other end of marked area
 
-`O`:::move to other corner of block
+`O`:<wbr class="f" /> move to other corner of block
 
-`U`:::upper case of marked area
+`U`:<wbr class="f" /> upper case of marked area
 <!--SR:!2023-06-08,3,228-->
 
-`C-v`:::start visual block mode
+`C-v`:<wbr class="f" /> start visual block mode
 
-`vaw`:::mark a word
+`vaw`:<wbr class="f" /> mark a word
 
-`vab`:::mark a block (with braces)
+`vab`:<wbr class="f" /> mark a block (with braces)
 
-`vib`:::mark inner () block
+`vib`:<wbr class="f" /> mark inner () block
 
-`ggVG`:::Select All
-<!--SR:!2023-06-08,3,228-->
+`ggVG`:<wbr class="f" /> Select All <!--SR:!2025-02-14,7,228!2000-01-01,1,250-->
 
-`c` in visual mode:::change (replace) marked text
+`c` in visual mode:<wbr class="f" /> change (replace) marked text
 
-`y` in visual mode:::yank (copy) marked text
+`y` in visual mode:<wbr class="f" /> yank (copy) marked text
 
-`d` in visual mode:::delete marked text
+`d` in visual mode:<wbr class="f" /> delete marked text
 
-`~` in visual mode:::switch case
+`~` in visual mode:<wbr class="f" /> switch case
 `
-`v%`:::selects matching (parenthesis) <!--SR:!2024-11-14,1,188!2000-01-01,1,250-->
+`v%`:<wbr class="f" /> selects matching (parenthesis) <!--SR:!2024-11-14,1,188-->
 
-`vi{`:::selects matching {curly brace}
+`vi{`:<wbr class="f" /> selects matching {curly brace}
 
-`vi"`:::selects text between "double quotes"
+`vi"`:<wbr class="f" /> selects text between "double quotes"
 <!--SR:!2023-06-06,2,229-->
 
-`viW|vis|vip|viB`:::select word, sentence, paragraph, innermost brackets
+`viW|vis|vip|viB`:<wbr class="f" /> select word, sentence, paragraph, innermost brackets
 
-`vt[motion]|vT[motion]|vf[motion]|VF[motion]`:::select and search
+`vt[motion]|vT[motion]|vf[motion]|VF[motion]`:<wbr class="f" /> select and search
 <!--SR:!2023-06-07,2,209-->
 
 ## Fold
 
-Fold text object (motion)::`zf[motion]`
+Fold text object (motion):<wbr class="f"> `zf[motion]`
 
-`zf#j`:::creates a fold from the cursor down # lines.
+`zf#j`:<wbr class="f" /> creates a fold from the cursor down # lines.
 <!--SR:!2023-06-06,1,208-->
 
-`zf/[string]`:::string creates a fold from the cursor to string.
+`zf/[string]`:<wbr class="f" /> string creates a fold from the cursor to string.
 
-`zj`:::moves the cursor to the next fold.
+`zj`:<wbr class="f" /> moves the cursor to the next fold.
 
-`zk`:::moves the cursor to the previous fold.
+`zk`:<wbr class="f" /> moves the cursor to the previous fold.
 
-`zo`:::opens a fold at the cursor.
+`zo`:<wbr class="f" /> opens a fold at the cursor.
 
-`zO`:::opens all folds at the cursor.
+`zO`:<wbr class="f" /> opens all folds at the cursor.
 
-`zm`:::increases the fold-level by one.
+`zm`:<wbr class="f" /> increases the fold-level by one.
 
-`zM`:::closes all open folds.
+`zM`:<wbr class="f" /> closes all open folds.
 <!--SR:!2023-06-06,1,208-->
 
-`zr`:::decreases the fold-level by one.
+`zr`:<wbr class="f" /> decreases the fold-level by one.
 
-`zR`:::decreases the fold-level to zero — all folds will be open.
+`zR`:<wbr class="f" /> decreases the fold-level to zero — all folds will be open.
 
-`zd`:::deletes the fold at the cursor.
+`zd`:<wbr class="f" /> deletes the fold at the cursor.
 
-`zE`:::deletes all folds.
+`zE`:<wbr class="f" /> deletes all folds.
 
-`[z`:::move to start of open fold.
+`[z`:<wbr class="f" /> move to start of open fold.
 
-`]z`:::move to end of open fold.
+`]z`:<wbr class="f" /> move to end of open fold.
 
-`za`:::toggle fold
+`za`:<wbr class="f" /> toggle fold
 <!--SR:!2023-06-06,2,228-->
 
-`zo|zc`:::Fold/Unfold
+`zo|zc`:<wbr class="f" /> Fold/Unfold
 
-`zO|zC`:::open all nested folds, close all nested folds
+`zO|zC`:<wbr class="f" /> open all nested folds, close all nested folds
 <!--SR:!2023-06-06,1,208-->
 
 ## Files
 
 Switch to normal mode in terminal
-&#10;<br>
+<br class="f">
 By default, `<C-\><C-n>`, but I have custom keybinding `<Esc><Esc>`
 
 Quick switch to terminal and back workflow
-&#10;<br>
+<br class="f">
 Ctrl-Z while editing in vim to send it to background, do your thing on the
 terminal and use `fg` command at any time to bring up vim again.
 
 Switch to previous file, the best alternative
-&#10;<br>
+<br class="f">
 `c-^`
 
 `:e [filename]` or `:edit [filename]`
-&#10;<br>
+<br class="f">
 Edit file, support `tab` completion. Can be used instead touch and edit files.
 
-Edit the file whose name is under or after the cursor::`gf`
+Edit the file whose name is under or after the cursor:<wbr class="f"> `gf`
 <!--SR:!2023-06-06,1,208-->
 
-`:x` or `ZZ`::quit and save
+`:x` or `ZZ`:<wbr class="f"> quit and save
 
-`:q!` or `ZQ`::quit without saving and ignore changes
+`:q!` or `ZQ`:<wbr class="f"> quit without saving and ignore changes
 
-Quit without saving and exit with error code::`:cq`
+Quit without saving and exit with error code:<wbr class="f"> `:cq`
 
-Exit::`:q`
+Exit:<wbr class="f"> `:q`
 
-Save without exiting::`:w`
+Save without exiting:<wbr class="f"> `:w`
 
-Save without exiting and ignore read-only flag if possible::`:w`
+Save without exiting and ignore read-only flag if possible:<wbr class="f"> `:w`
 
-Save with some name (save as)::`:w [filename]`
+Save with some name (save as):<wbr class="f"> `:w [filename]`
 
-Write the current file and exit::`:wq [file]`
+Write the current file and exit:<wbr class="f"> `:wq [file]`
 
-Write force (try to ignore read-only flag) and exit::`:wq! [file]`
+Write force (try to ignore read-only flag) and exit:<wbr class="f"> `:wq! [file]`
 
-Write/force write and exit, but only write the lines in \[range\] `::[range]wq[!]`
+Write/force write and exit, but only write the lines in \[range\] `:<wbr class="f"> [range]wq[!]`
 
 ### Netrw and file management
 
 I described all netrw related stuff in [[netrw]] note.
 
-`cd` to parent directory (2 levels)::`:cd ../..`
+`cd` to parent directory (2 levels):<wbr class="f"> `:cd ../..`
 
-`cd` to current file directory::`:cd %:h`
+`cd` to current file directory:<wbr class="f"> `:cd %:h`
 
-`cd` to home directory::`:cd`
+`cd` to home directory:<wbr class="f"> `:cd`
 
-`cd` to previous directory::`:cd -`
+`cd` to previous directory:<wbr class="f"> `:cd -`
 
 Print current directory and file path:`:pwd`, `:pw`
 
-`cd` to current file path (custom)::`<leader>z%`
+`cd` to current file path (custom):<wbr class="f"> `<leader>z%`
 
-File browser plugin in CWD::`<leader>pv` or `:Ex`
+File browser plugin in CWD:<wbr class="f"> `<leader>pv` or `:Ex`
 
-File browse plugin left tree::`<leader>pV`
+File browse plugin left tree:<wbr class="f"> `<leader>pV`
 
 ### Harpoon
 
-Add file into harpoon list::`<leader>a`
+Add file into harpoon list:<wbr class="f"> `<leader>a`
 
-Show harpoon menu::`C-e`
+Show harpoon menu:<wbr class="f"> `C-e`
 
-Close harpoon menu::`q`, `Esc`
+Close harpoon menu:<wbr class="f"> `q`, `Esc`
 
 Navigate to harpoon files:1 - `<C-s>`, 2 - `<C-t>`, 3 - `<C-m>`, 4 - `<C-n>`
 
-Toggle Next/Previous buffer::`C-M-N`, `C-M-P`
+Toggle Next/Previous buffer:<wbr class="f"> `C-M-N`, `C-M-P`
 
 ### Telescope
 
-Telescope builtin's search::`<leader>fb`, `:h telescope.builtin`
+Telescope builtin's search:<wbr class="f"> `<leader>fb`, `:h telescope.builtin`
 
-Find file, git repo::`M-p`
+Find file, git repo:<wbr class="f"> `M-p`
 
-Find file, directory::`<leader>ff`
+Find file, directory:<wbr class="f"> `<leader>ff`
 
-Recent files (telescope old files)::`<M-e>`
+Recent files (telescope old files):<wbr class="f"> `<M-e>`
 
 ## Vim Text objects (motions)
 
-outer::`[command]a[motion]`
+outer:<wbr class="f"> `[command]a[motion]`
 
-inner::`[command]i[motion]`
+inner:<wbr class="f"> `[command]i[motion]`
 
-word::`w`
+word:<wbr class="f"> `w`
 
-sentence::`s`
+sentence:<wbr class="f"> `s`
 <!--SR:!2023-06-06,1,208-->
 
-paragraph::`p`
+paragraph:<wbr class="f"> `p`
 
-around::`a`
+around:<wbr class="f"> `a`
 
-single and double quote::`'` `"`
+single and double quote:<wbr class="f"> `'` `"`
 
-back quote::`` ` ``
+back quote:<wbr class="f"> `` ` ``
 
-a parenthesized block::`)` `}`
+a parenthesized block:<wbr class="f"> `)` `}`
 
-a tag::`t`, <div>test</div>
+a tag:<wbr class="f"> `t`, <div>test</div>
 <!--SR:!2023-06-06,2,231-->
 
-a single tag::`>`
+a single tag:<wbr class="f"> `>`
 
-entire content::`e`
+entire content:<wbr class="f"> `e`
 
 ### nvim-treesitter/nvim-treesitter-textobjects
 
-`B`::code block
+How to start initial text object selection and increment node with treeseeter?
+<br class="f">
+`<M-space>`
 
-`iB`::inner code block (function definition)
+How to incrementally select a scope with treesitter?:<wbr class="f"> `<M-s>`
 
-`aB`::outer block (function definition and declaration)
+How to decrease a node selection with treesitter?:<wbr class="f"> `<M-q>`
 
-`ac`::Class outer
+`B`:<wbr class="f"> code block
 
-`ic`::Inner part of a class region
+`iB`:<wbr class="f"> inner code block (function definition)
 
-`as`::Language scope
+`aB`:<wbr class="f"> outer block (function definition and declaration)
+
+`ac`:<wbr class="f"> Class outer
+
+`ic`:<wbr class="f"> Inner part of a class region
+
+`as`:<wbr class="f"> Language scope
 
 ## Vim registers
 
 What is vim register?
-&#10;<br>
+<br class="f">
 It's sort of space in memory to store text. Every register can be accessed using
 double quote `"`. For example `r` register, copy/paste will be like this `"ry` /
 `"rp`. You can access register in insert/command mode by `C-r[register name]`.
@@ -946,42 +955,42 @@ You can use the `:reg[a|b|c]` command to see all the registers and their
 content. If you use `qw` to record a macro, the register `"w` will have all
 actions which you have done.
 
-The unnamed register (yank, delete)::`""`, TODO: need review
+The unnamed register (yank, delete):<wbr class="f"> `""`, TODO: need review
 
-10 numbered registers (latest yank, newest, ..., oldest)::`"0` to `"9`
+10 numbered registers (latest yank, newest, ..., oldest):<wbr class="f"> `"0` to `"9`
 
-The last entered text (read only)::`".`
+The last entered text (read only):<wbr class="f"> `".`
 
-Current file path (read only)::`"%`
+Current file path (read only):<wbr class="f"> `"%`
 
-Most recently used command (read only)::`":`
+Most recently used command (read only):<wbr class="f"> `":`
 
-The alternate file register (sort of last edited file)::`"#`
+The alternate file register (sort of last edited file):<wbr class="f"> `"#`
 
-The black hole register::`"_`
+The black hole register:<wbr class="f"> `"_`
 <!--SR:!2023-06-06,2,228-->
 
-Register AKA the selection (system clipboard)::`"*`, `"+`
+Register AKA the selection (system clipboard):<wbr class="f"> `"*`, `"+`
 <!--SR:!2023-06-06,2,213-->
 
-Last search pattern register::`"/`
+Last search pattern register:<wbr class="f"> `"/`
 
-26 Named registers \"a to \"z (or \"A to\"Z), sort of clipboards::`[a-z]`
+26 Named registers \"a to \"z (or \"A to\"Z), sort of clipboards:<wbr class="f"> `[a-z]`
 
-The small delete register::`"-`
+The small delete register:<wbr class="f"> `"-`
 
-The expression register, useful for calculation::`"=`, `C-r =...`
+The expression register, useful for calculation:<wbr class="f"> `"=`, `C-r =...`
 
 ## Paths and history
 
 Print directory/name of file
-&#10;<br>
+<br class="f">
 `:echo @%`
 
-Execute current file::`!%`
+Execute current file:<wbr class="f"> `!%`
 
 Get name of file ('tail')
-&#10;<br>
+<br class="f">
 `:echo expand('%:t')`
 
 Get full path of file
@@ -991,227 +1000,226 @@ Get directory containing file ('head')
 `:echo expand('%:p:h')`
 
 How to paste yanked text into the Vim command line?
-&#10;<br>
+<br class="f">
 Hit `<C-r>"`. If you have literal control characters in what you have yanked,
 use `<C-r><Ctrl-o>"`.
 
 How to paste system clipboard into the Vim command line?
-&#10;<br>
+<br class="f">
 I use `C-S-v`, it's working in my terminal. Or use `<C-r>+`.
 
 How to open terminal in vertical split?
-&#10;<br>
+<br class="f">
 `:vsplit term://zsh` to run Z-shell
 
 How do you search through Vim's command history?
-&#10;<br>
+<br class="f">
 I use telescope commands history (`<leader>fc`).
 You can also use `q:` or `q/` in normal mode and then press `/`.
 Press `C-f` in command mode to open the command history window.
 For more about the command history window, see `:h cmdwin`.
 
 How quickly close command history window?
-&#10;<br>
+<br class="f">
 `<C-c>[<C-c>]`
 
 ## Windows
 
 You can use vim motion keys to navigate between open windows, for example to
 navigate to left window?
-&#10;<br>
+<br class="f">
 `C-w h`
 So moving between windows can be done with `C-w` followed by `h/j/k/l` for
 left/down/up/right navigation respectively.
 
-Split open file::`:sp <file path>`
+Split open file:<wbr class="f"> `:sp <file path>`
 
-Vertical split open file::`:vsp <file path>`
+Vertical split open file:<wbr class="f"> `:vsp <file path>`
 <!--SR:!2023-06-05,1,193-->
 
-Next/previous tab::`gt gT`
+Next/previous tab:<wbr class="f"> `gt gT`
 
-`C-w v`::window split vertically
+`C-w v`:<wbr class="f"> window split vertically
 <!--SR:!2023-06-06,2,213-->
 
-`C-w s`::window split horizontal
+`C-w s`:<wbr class="f"> window split horizontal
 
-Jumps to the last window you used::`C-w C-p`
+Jumps to the last window you used:<wbr class="f"> `C-w C-p`
 
-`C-w C-w`::to switch windows
+`C-w C-w`:<wbr class="f"> to switch windows
 <!--SR:!2023-06-07,2,228-->
 
-`C-w q`::to kill windows (quit window). Better `bd` replacement
+`C-w q`:<wbr class="f"> to kill windows (quit window). Better `bd` replacement
 <!--SR:!2023-06-06,3,250-->
 
-`C-w >` and `C-w <`:::Increase and decrease window width
+`C-w >` and `C-w <`:<wbr class="f" /> Increase and decrease window width
 
-`C-w +` and `C-w -`:::Increase and decrease window height
-<!--SR:!2023-06-05,2,233!2023-06-06,2,228-->
+`C-w +` and `C-w -`:<wbr class="f" /> Increase and decrease window height <!--SR:!2023-06-05,2,233-->
 
-Equal window::`C-w =`
+Equal window:<wbr class="f"> `C-w =`
 <!--SR:!2023-06-05,2,230-->
 
-Close all windows except current::`<C-w>o`
+Close all windows except current:<wbr class="f"> `<C-w>o`
 
-Swap windows::`C-w x`
+Swap windows:<wbr class="f"> `C-w x`
 <!--SR:!2023-06-06,2,213-->
 
-Open current window in new tab::`C-w T`
+Open current window in new tab:<wbr class="f"> `C-w T`
 
-Jump to N (1-9) buffer::`C-w N`, where N is 1-9
+Jump to N (1-9) buffer:<wbr class="f"> `C-w N`, where N is 1-9
 
-Create a new window and start editing an empty file in it::`:new` or `C-w n`
+Create a new window and start editing an empty file in it:<wbr class="f"> `:new` or `C-w n`
 
 ### Buffers
 
-Switch to buffer whose filename begins with "vimrc"::`:b vimrc[tab]`
+Switch to buffer whose filename begins with "vimrc":<wbr class="f"> `:b vimrc[tab]`
 
 List buffers
-&#10;<br>
+<br class="f">
 `:buffers` - built-in command
 `:Telescope buffers` - telescope command
 
 Switch to buffer by name or number
-&#10;<br>
+<br class="f">
 `:b <buffer name>` or `:b <buffer number>`
 
-Create new scratch buffer::`:enew`
+Create new scratch buffer:<wbr class="f"> `:enew`
 
 Close all buffers except current and stay on original cursor position (custom)
-&#10;<br>
+<br class="f">
 `<leader>bD`, command - `:%bd\|e#\|bd#<cr>\|'"`
 
-Delete current buffer::`<leader>bd` or `:bd`
+Delete current buffer:<wbr class="f"> `<leader>bd` or `:bd`
 
-Maximize buffer height::`C-w _`
+Maximize buffer height:<wbr class="f"> `C-w _`
 
-Maximize buffer width::`C-w |`
+Maximize buffer width:<wbr class="f"> `C-w |`
 
 ## Sessions
 
-`:h shada`::opens shada help, viminfo analog, store various settings
+`:h shada`:<wbr class="f"> opens shada help, viminfo analog, store various settings
 
 Save current session (vim script)
-&#10;<br>
+<br class="f">
 `:mksession`, more info: `:h mksession`
 
 Source file, which can be session
-&#10;<br>
+<br class="f">
 `:source` `file` or `:so` `file`
 
 Save view
-&#10;<br>
+<br class="f">
 `:mkview [N]` - N is a view name (1-9).
 This use `shada` file, which is a viminfo analog. Check `:h shada` for more info.
 
 Load view
-&#10;<br>
+<br class="f">
 `:loadview [N]`, N is a view name (1-9)
 <!--SR:!2023-06-06,1,208-->
 
 ### Telekasten
 
-Find notes::`<leader>tf`
+Find notes:<wbr class="f"> `<leader>tf`
 
-Search word under cursor in notes::`<leader>tg`
+Search word under cursor in notes:<wbr class="f"> `<leader>tg`
 
-Follow link::`<M-CR>`
+Follow link:<wbr class="f"> `<M-CR>`
 
-Create new note::`<leader>tn`
+Create new note:<wbr class="f"> `<leader>tn`
 
-Create new note from template::`<leader>tN`
+Create new note from template:<wbr class="f"> `<leader>tN`
 <!--SR:!2023-06-06,2,213-->
 
-Yank note link::`<leader>ty`
+Yank note link:<wbr class="f"> `<leader>ty`
 <!--SR:!2023-06-07,2,228-->
 
-Paste link::`<leader>ti`
+Paste link:<wbr class="f"> `<leader>ti`
 
-Paste image and link::`<leader>tI`
+Paste image and link:<wbr class="f"> `<leader>tI`
 
-Toggle TODO (including visual)::`<leader>tt`
+Toggle TODO (including visual):<wbr class="f"> `<leader>tt`
 
-Show tags::`<leader>t#`
+Show tags:<wbr class="f"> `<leader>t#`
 
-Show backlinks::`<leader>tb`
+Show backlinks:<wbr class="f"> `<leader>tb`
 
-Find friends (works when cursor in a link)::`<leader>tF`
+Find friends (works when cursor in a link):<wbr class="f"> `<leader>tF`
 
-Preview image::`<leader>tp`
+Preview image:<wbr class="f"> `<leader>tp`
 <!--SR:!2023-06-06,2,210-->
 
-Browse media::`<leader>tm`
+Browse media:<wbr class="f"> `<leader>tm`
 
-Rename note::`<leader>tr`
+Rename note:<wbr class="f"> `<leader>tr`
 
 ## Code run/debugging/testing
 
-`:!`::external filter, used in command mode to execute something
+`:!`:<wbr class="f"> external filter, used in command mode to execute something
 
-`:ls`::list active buffers
+`:ls`:<wbr class="f"> list active buffers
 
 `:r!`redirect external filter into current buffer
 
-`!!`::quick open menu to insert command
+`!!`:<wbr class="f"> quick open menu to insert command
 
-`:r [name]`::Read file and insert it's content into current buffer
+`:r [name]`:<wbr class="f"> Read file and insert it's content into current buffer
 
 You could also use ==`w !python`== to run your python program (no need to save,
 it will pass the content as stdin, that's what w ! is for).
 
-Run debugger configuration/continue::`<F5>`
+Run debugger configuration/continue:<wbr class="f"> `<F5>`
 
-Run last debug configuration::`<leader>dr`
+Run last debug configuration:<wbr class="f"> `<leader>dr`
 
-Toggle breakpoint::`<leader>db[B]`
+Toggle breakpoint:<wbr class="f"> `<leader>db[B]`
 
-Stop debugger::`<leader>dx`
+Stop debugger:<wbr class="f"> `<leader>dx`
 
-Step back::`<F1>`
+Step back:<wbr class="f"> `<F1>`
 
-Step into (line-by-line)::`<F2>`
+Step into (line-by-line):<wbr class="f"> `<F2>`
 
-Step over (less detailed debug)::`<F3>`
+Step over (less detailed debug):<wbr class="f"> `<F3>`
 
-Step out (return to caller)::`<F4>`
+Step out (return to caller):<wbr class="f"> `<F4>`
 
-Jump to cursor::`<F7>`
+Jump to cursor:<wbr class="f"> `<F7>`
 
-Run to cursor::`<leader>dC`
+Run to cursor:<wbr class="f"> `<leader>dC`
 
-Evaluate expression::`<leader>due`
+Evaluate expression:<wbr class="f"> `<leader>due`
 
-Run line/block/object using [[Sniprun]]::`<leader>ze[motion]`
+Run line/block/object using [[Sniprun]]:<wbr class="f"> `<leader>ze[motion]`
 
 ### Neotest
 
-Rerun the last test::`<leader>dnl`::
+Rerun the last test:<wbr class="f"> `<leader>dnl`:<wbr class="f"> 
 
-Run current test file::`<leader>dnf`
+Run current test file:<wbr class="f"> `<leader>dnf`
 
-Run current test::`<leader>dnn`
+Run current test:<wbr class="f"> `<leader>dnn`
 
-Debug the nearest test::`<leader>dnc`
+Debug the nearest test:<wbr class="f"> `<leader>dnc`
 
-Open test results::`<leader>dno`
+Open test results:<wbr class="f"> `<leader>dno`
 
 Stop nearest test:`<leader>dns`
 
-Show summary::`<leader>dnS`, in summary here custom keys, search `(Neotest Summary)`
+Show summary:<wbr class="f"> `<leader>dnS`, in summary here custom keys, search `(Neotest Summary)`
 
-Toggle output panel::`<leader>dnt`
+Toggle output panel:<wbr class="f"> `<leader>dnt`
 
 ### Telescope DAP
 
-Telescope DAP Commands::`<leader>dlk`
+Telescope DAP Commands:<wbr class="f"> `<leader>dlk`
 
-Telescope DAP List Breakpoints::`<leader>dlb`
+Telescope DAP List Breakpoints:<wbr class="f"> `<leader>dlb`
 
-Telescope DAP Configurations::`<leader>dlc`
+Telescope DAP Configurations:<wbr class="f"> `<leader>dlc`
 
-Telescope DAP Variables::`<leader>dlv`
+Telescope DAP Variables:<wbr class="f"> `<leader>dlv`
 
-Telescope DAP Frames::`<leader>dlf`
+Telescope DAP Frames:<wbr class="f"> `<leader>dlf`
 
 ## fugutive.vim
 
@@ -1219,51 +1227,51 @@ Telescope DAP Frames::`<leader>dlf`
 
 ## SQL (vim-dadbod-ui)
 
-Toggle DB UI::`<leader>qt`
+Toggle DB UI:<wbr class="f"> `<leader>qt`
 
-Toggle last query info::`<leader>qi` n\*
+Toggle last query info:<wbr class="f"> `<leader>qi` n\*
 
-Execute query (DB SQL buffer)::`<leader>S`
+Execute query (DB SQL buffer):<wbr class="f"> `<leader>S`
 
-Save currently opened query::`<leader>W`
+Save currently opened query:<wbr class="f"> `<leader>W`
 
-Yank DB query results::`y[motion]`, `yic`
+Yank DB query results:<wbr class="f"> `y[motion]`, `yic`
 
-Show keys::`?` in DB UI buffer.
+Show keys:<wbr class="f"> `?` in DB UI buffer.
 
 ## Scripts and custom notes
 
-Execute current file (open externally)::`<leader>O`
+Execute current file (open externally):<wbr class="f"> `<leader>O`
 
-Open file in Obsidian (for wiles in ~/Wiki directory)::`<leader>to`
+Open file in Obsidian (for wiles in ~/Wiki directory):<wbr class="f"> `<leader>to`
 
-Open the package-manager config::`<leader>vpp`
+Open the package-manager config:<wbr class="f"> `<leader>vpp`
 
-Find neovim config file::`<leader>vpP`
+Find neovim config file:<wbr class="f"> `<leader>vpP`
 
 Type ==`tab`== to complete a command.
 
-Open list of possible commands in command mode::[filter]`C-d`
+Open list of possible commands in command mode:<wbr class="f"> [filter]`C-d`
 
-List previous commands in command mode::`C-f`
+List previous commands in command mode:<wbr class="f"> `C-f`
 
 How to check file was changed ("tjdevries/express_line.nvim" status line plugin)
-&#10;<br>
+<br class="f">
 In neovim it's `[+]` in the status line (after filename)
 
-List keybindings of current buffer::`WhichKey`
+List keybindings of current buffer:<wbr class="f"> `WhichKey`
 
-Find keybinding by using `which-key`::`<leader>fk`, TODO: need to change, conflict with auto-format
+Find keybinding by using `which-key`:<wbr class="f"> `<leader>fk`, TODO: need to change, conflict with auto-format
 
-Find action::`<leader>fK`, TODO: need to change, conflict with auto-format
+Find action:<wbr class="f"> `<leader>fK`, TODO: need to change, conflict with auto-format
 
-Help tags::`<leader>fh`
+Help tags:<wbr class="f"> `<leader>fh`
 
-Command history::`<leader>fc`
+Command history:<wbr class="f"> `<leader>fc`
 
 ## Snippets (L3MON4D3/LuaSnip)
 
-Date and time::`date`, `time`
+Date and time:<wbr class="f"> `date`, `time`
 
 ### Tips
 
@@ -1364,7 +1372,7 @@ SPC c l w LSP workspaces menu
 
 markdown add headline link/anchor
 markdown toggle item, convert to plain-text list or numbered list
-markdown selection to link::^k
+markdown selection to link:<wbr class="f"> ^k
 markdown insert tag
 insert SVG, PNG images directly from clipboard, save with human-readable name.
 TODO.md capturing?
@@ -1457,7 +1465,7 @@ https://gist.github.com/BoltsJ/5942ecac7f0b0e9811749ef6e19d2176
 
 ## [dispatch.vim: Asynchronous build and test dispatcher](https://github.com/tpope/vim-dispatch)
 
-`cc`::go to next error?
+`cc`:<wbr class="f"> go to next error?
 
 Dispatch.vim's :make wrapper :Make, seems initial abstraction.
 

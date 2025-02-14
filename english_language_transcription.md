@@ -11,7 +11,7 @@ sr-ease: 226
 # English transcription
 
 What is English transcription?
-&#10;<br>
+<br class="f">
 English transcription is a way to write English
 words using only English letters.
 

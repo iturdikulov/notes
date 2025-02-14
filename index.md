@@ -4,7 +4,7 @@ date: 2025-01-13T11:36+03:00
 tags:
   - blog
   - outline
-  - SR-habits
+  - habits
 ---
 
 # My notes, my projects and my life

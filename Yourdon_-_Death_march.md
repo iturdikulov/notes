@@ -3,7 +3,7 @@ date: 2025-01-14T11:41+03:00
 author: Edward Yourdon
 tags:
   - blog
-  - IRL
+  - psychology
 directory: ~/Arts_and_Entertainment/literature/Edward Yourdon/Death march_ the complete software developer's guide to surviving _mission impossible_ projects (2375)/
 sr-due: 2024-02-01
 sr-interval: 4

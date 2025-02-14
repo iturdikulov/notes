@@ -4,7 +4,7 @@ external:
   - https://nixos.org/
 tags:
   - blog
-  - Unix
+  - unix
 sr-due: 2024-02-07
 sr-interval: 12
 sr-ease: 230
@@ -117,6 +117,12 @@ mkShell {
 - Review and add notes [Virtiofs: Shared file system](https://github.com/virtio-win/kvm-guest-drivers-windows/wiki/Virtiofs:-Shared-file-system)
 
 ## TODO:
+
  - linux kernel flake + le9ec
  - test Plasma/Wayland
  - pipewire low-latency + rtkit
+
+## Configurations
+
+- [rake5k/nixcfg](https://github.com/rake5k/nixcfg)
+- [hlissner/dotfiles](https://github.com/hlissner/dotfiles)

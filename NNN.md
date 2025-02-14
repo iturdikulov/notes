@@ -2,7 +2,7 @@
 date: 2023-04-02T00:00+03:00
 tags:
   - blog
-  - productivity
+  - cheat-sheets
 external:
   - https://github.com/jarun/nnn
 sr-due: 2024-02-03
@@ -26,281 +26,281 @@ NNN_TRASH=1  # enable trash
 ## Navigation shortcuts
 
 up/down
-&#10;<br>
+<br class="f">
 <kbd>k</kbd><kbd>j</kbd>
 
 Parent
-&#10;<br>
+<br class="f">
 <kbd>h</kbd>
 
 Open
-&#10;<br>
+<br class="f">
 <kbd>l</kbd>
 
 Top
-&#10;<br>
+<br class="f">
 <kbd>g</kbd>
 
 End
-&#10;<br>
+<br class="f">
 <kbd>G</kbd>
 
 Book(mark)
-&#10;<br>
+<br class="f">
 <kbd>B</kbd>
 
 Switch Context
-&#10;<br>
+<br class="f">
 <kbd>1</kbd>-<kbd>4</kbd>
 
 Quit
-&#10;<br>
+<br class="f">
 <kbd>2</kbd><kbd>Esc</kbd> or <kbd>ctrl</kbd>+<kbd>q</kbd>
 
 QuitCD, preffered
-&#10;<br>
+<br class="f">
 <kbd>ctrl</kbd>+<kbd>g</kbd>
 
 page up/page down
-&#10;<br>
+<br class="f">
 <kbd>ctrl</kbd>+<kbd>u</kbd> / <kbd>ctrl</kbd>+<kbd>d</kbd>
 
 ~, /, start, prev
-&#10;<br>
+<br class="f">
 <kbd>\~</kbd> <kbd>`</kbd> <kbd>@</kbd> <kbd>-</kbd>
 
 First file/match
-&#10;<br>
+<br class="f">
 <kbd>'</kbd>
 
 Jump to entry/offset
-&#10;<br>
+<br class="f">
 <kbd>J</kbd>
 
 Toggle auto-advance on open
-&#10;<br>
+<br class="f">
 <kbd>ctrl</kbd>+<kbd>j</kbd>
 
 Select bookmark
-&#10;<br>
+<br class="f">
 <kbd>b</kbd>
 
 Cycle/new context
-&#10;<br>
+<br class="f">
 <kbd>tab</kbd> or <kbd>shift</kbd>+<kbd>tab</kbd>
 
 Quit context
-&#10;<br>
+<br class="f">
 <kbd>q</kbd>
 
 Pick/err, quit
-&#10;<br>
+<br class="f">
 <kbd>Q</kbd>
 
 ## Filter and prompt shortcuts
 Filter
-&#10;<br>
+<br class="f">
 <kbd>/</kbd>
 
 Exit prompt
-&#10;<br>
+<br class="f">
 <kbd>Esc</kbd>
 
 Toggle hidden
-&#10;<br>
+<br class="f">
 <kbd>.</kbd>
 
 Toggle type-to-nav
-&#10;<br>
+<br class="f">
 <kbd>ctrl</kbd>+<kbd>n</kbd>
 
 Toggle last filter
-&#10;<br>
+<br class="f">
 <kbd>ctrl</kbd>+<kbd>l</kbd>
 
 Unfilter, quit context
-&#10;<br>
+<br class="f">
 <kbd>Alt</kbd>+<kbd>Esc</kbd>
 
 ## Files shortcuts
 
 Open with
-&#10;<br>
+<br class="f">
 <kbd>o</kbd>
 
 File stats
-&#10;<br>
+<br class="f">
 <kbd>ctrl</kbd>+<kbd>f</kbd>
 
 Rename/dup
-&#10;<br>
+<br class="f">
 <kbd>ctrl</kbd>+<kbd>r</kbd>
 
 Archive
-&#10;<br>
+<br class="f">
 <kbd>z</kbd>
 
 Toggle exe
-&#10;<br>
+<br class="f">
 <kbd>*</kbd>
 
 (Un)select
-&#10;<br>
+<br class="f">
 <kbd>Space</kbd>
 
 Select all
-&#10;<br>
+<br class="f">
 <kbd>a</kbd>
 
 Copy here
-&#10;<br>
+<br class="f">
 <kbd>p</kbd>
 
 Move here
-&#10;<br>
+<br class="f">
 <kbd>v</kbd>
 
 Delete
-&#10;<br>
+<br class="f">
 <kbd>x</kbd>
 
 Create new/link
-&#10;<br>
+<br class="f">
 <kbd>n</kbd>
 
 Detail mode toggle
-&#10;<br>
+<br class="f">
 <kbd>d</kbd>
 
 Batch rename
-&#10;<br>
+<br class="f">
 <kbd>r</kbd>
 
 Edit file
-&#10;<br>
+<br class="f">
 <kbd>e</kbd>
 
 Export list
-&#10;<br>
+<br class="f">
 <kbd>></kbd>
 
 Select range/clear
-&#10;<br>
+<br class="f">
 <kbd>m</kbd>+<kbd>m</kbd>
 
 Invert sel
-&#10;<br>
+<br class="f">
 <kbd>A</kbd>
 
 Cp/mv sel as
-&#10;<br>
+<br class="f">
 <kbd>w</kbd>
 
 Edit sel list
-&#10;<br>
+<br class="f">
 <kbd>E</kbd>
 
 Send to FIFO
-&#10;<br>
+<br class="f">
 <kbd>Esc</kbd>
 
 ## Misc shortcuts
 Select plugin, ???
-&#10;<br>
+<br class="f">
 <kbd>;</kbd>
 
 Shell
-&#10;<br>
+<br class="f">
 <kbd>!</kbd>
 
 Connect remote
-&#10;<br>
+<br class="f">
 <kbd>c</kbd>
 
 Sort toggles
-&#10;<br>
+<br class="f">
 <kbd>t</kbd>
 
 Set time type
-&#10;<br>
+<br class="f">
 <kbd>T</kbd>
 
 Redraw
-&#10;<br>
+<br class="f">
 <kbd>ctrl</kbd>+<kbd>l</kbd>
 
 Launch app
-&#10;<br>
+<br class="f">
 <kbd>=</kbd>
 
 Cmd prompt
-&#10;<br>
+<br class="f">
 <kbd>]</kbd>
 
 Unmount remote/archive
-&#10;<br>
+<br class="f">
 <kbd>u</kbd>
 
 Manage session
-&#10;<br>
+<br class="f">
 <kbd>s</kbd>
 
 Lock
-&#10;<br>
+<br class="f">
 <kbd>0</kbd>
 
 Help, conf
-&#10;<br>
+<br class="f">
 <kbd>?</kbd>
 <!--SR:!2023-06-08,4,210-->
 
 ## type-to-nav mode shortcuts
 Go to first file/match
-&#10;<br>
+<br class="f">
 <kbd>'</kbd>
 
 Toggle file selection
-&#10;<br>
+<br class="f">
 <kbd>+</kbd>
 
 Mark CWD
-&#10;<br>
+<br class="f">
 <kbd>,</kbd>
 
 Go to last visited dir
-&#10;<br>
+<br class="f">
 <kbd>-</kbd>
 
 Show hidden files
-&#10;<br>
+<br class="f">
 <kbd>.</kbd>
 
 Run a plugin by its key
-&#10;<br>
+<br class="f">
 <kbd>;</kbd>
 
 Launch a GUI application
-&#10;<br>
+<br class="f">
 <kbd>=</kbd>
 
 Export file list
-&#10;<br>
+<br class="f">
 <kbd>></kbd>
 
 Visit start dir
-&#10;<br>
+<br class="f">
 <kbd>@</kbd>
 
 Show command prompt
-&#10;<br>
+<br class="f">
 <kbd>]</kbd>
 
 Visit /
-&#10;<br>
+<br class="f">
 <kbd>`</kbd>
 
 Go HOME
-&#10;<br>
+<br class="f">
 <kbd>~</kbd>
 
 TODO:

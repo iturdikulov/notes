@@ -12,7 +12,7 @@ sr-ease: 250
 # How to solve it
 
 Describe how to solve general principles of solving problems.
-&#10;<br>
+<br class="f">
 > How to Solve It (1945) is a small volume by mathematician George Pólya
 > describing methods of problem-solving.
 >

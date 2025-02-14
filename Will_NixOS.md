@@ -1,7 +1,7 @@
 ---
 tags:
   - blog
-  - Unix
+  - unix
 date: 2023-07-17T00:00+03:00
 external:
   - https://www.youtube.com/playlist?list=PL-saUBvIJzOkjAw_vOac75v-x6EzNzZq-
@@ -77,9 +77,9 @@ You can use `-I nixosconfig=/path/to/config` flag with `nixos-rebuild switch`
 and `-f /path/to/config` with `home-manager switch` to specify configuration
 file.
 
-## NixOS and [[FHS]]
+## NixOS and FHS
 
-NixOS doesn't follow the FHS:
+NixOS doesn't follow the [[FHS]]:
 
 - Missing directories or very few files.
 - Can't directly modify files in /etc (most thins here read-only).

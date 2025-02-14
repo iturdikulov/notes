@@ -2,9 +2,6 @@
 date: 2023-06-02T00:00+03:00
 tags:
   - blog
-sr-due: 2024-01-30
-sr-interval: 2
-sr-ease: 226
 ---
 
 # Version control

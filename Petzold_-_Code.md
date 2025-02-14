@@ -3,7 +3,7 @@ author: Charles Petzold
 date: 2024-11-05T00:00+03:00
 tags:
   - blog
-  - base
+  - computer_programming
 lang: ru
 sr-due: 2024-04-30
 sr-interval: 96

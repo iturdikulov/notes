@@ -5,7 +5,7 @@ external:
   - https://github.com/gto76/python-cheatsheet
 tags:
   - blog
-  - zcheat-sheets
+  - cheat-sheets
 sr-due: 2024-02-18
 sr-interval: 24
 sr-ease: 208
@@ -20,7 +20,7 @@ Learn [[Python]] by examples.
 ### Main
 
 Ho to run some code only if file wasn't imported (code snippet).
-&#10;<br>
+<br class="f">
 ```python
 if __name__ == '__main__':
     pass
@@ -35,18 +35,18 @@ Access list items of `[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]`:
 - `[9, 8, 7, 6, 5, 4, 3, 2, 1]`
 - `[9, 8, 7, 6, 5, 4, 3, 2, 1, 0]`
 - `[5, 6, 7, 8, 9]`
-&#10;<br>
+<br class="f">
 ```python
 list_example = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 print(list_example[0:9])
 print(list_example[0:10:2])
 print(list_example[10:0:-1])
-print(list_example[::-1])
+print(list_example[:<wbr class="f"> -1])
 print(list_example[5:])
 ```
 
 Add items to list, `[] -> [1,2,3]`
-&#10;<br>
+<br class="f">
 ```python
 items = []
 items.append(1)
@@ -55,7 +55,7 @@ print(items)  # [1]
 ```
 
 Extend items in list, `[1,2] -> [1,2,3,4]`
-&#10;<br>
+<br class="f">
 ```python
 items = [0, 1]
 items.extend([2, 3])
@@ -63,7 +63,7 @@ print(items)  # [0, 1, 2, 3]
 ```
 
 In-place sorts list, `[3, 2, 1] -> [1, 2, 3]`
-&#10;<br>
+<br class="f">
 ```python
 items = [3, 2, 1]
 items.sort()
@@ -71,7 +71,7 @@ print(items)  # [1, 2, 3]
 ```
 
 Reverse list, `[1, 2, 3] -> [3, 2, 1]`
-&#10;<br>
+<br class="f">
 ```python
 items = [1, 2, 3]
 items.reverse()
@@ -80,21 +80,21 @@ print(items)  # [3, 2, 1]
 
 
 Return a new sorted list
-&#10;<br>
+<br class="f">
 ```python
 items = [3, 2, 1]
 print(sorted(items))  # [1, 2, 3]
 ```
 
 Return a new reversed list
-&#10;<br>
+<br class="f">
 ```python
 items = [1, 2, 3]
 print(list(reversed(items)))  # [3, 2, 1]
 ```
 
 Return sum of list items (or collection)
-&#10;<br>
+<br class="f">
 ```python
 items = [1, 2, 3]
 print(sum(items))  # 6
@@ -105,7 +105,7 @@ Return element-wise sum of two lists
 items_a = [1, 2, 3]
 items_b = [4, 5, 6]
 ```
-&#10;<br>
+<br class="f">
 ```python
 items_a = [1, 2, 3]
 items_b = [4, 5, 6]
@@ -114,7 +114,7 @@ print([sum(pair) for pair in zip(items_a, items_b)])  # [5, 7, 9]
 
 Return sorted by second element of list of tuples
 `items = [(1, 2), (3, 1), (2, 3)]`
-&#10;<br>
+<br class="f">
 ```python
 items = [(1, 2), (3, 1), (2, 3)]
 print(sorted(items, key=lambda el: el[1]))  # [(3, 1), (1, 2), (2, 3)]
@@ -122,7 +122,7 @@ print(sorted(items, key=lambda el: el[1]))  # [(3, 1), (1, 2), (2, 3)]
 
 Return sorted by both elements of list of tuples
 `items = [(2, 2), (2, 1), (2, 3)]`
-&#10;<br>
+<br class="f">
 ```python
 items = [(2, 2), (2, 1), (2, 3)]
 print(sorted(items, key=lambda el: (el[0], el[1])))  # [(2, 1), (2, 2), (2, 3)]
@@ -130,7 +130,7 @@ print(sorted(items, key=lambda el: (el[0], el[1])))  # [(2, 1), (2, 2), (2, 3)]
 <!--SR:!2024-11-08,1,188-->
 
 How to flatten list (itertools) `['ABC', 'DEF'] -> ['A', 'B', 'C', 'D', 'E', 'F']`?
-&#10;<br>
+<br class="f">
 ```python
 # use itertools.chain.from_iterable()
 import itertools
@@ -142,7 +142,7 @@ print(flatter_list)  # ['A', 'B', 'C', 'D', 'E', 'F']
 
 Generate product of list items, `functools.reduce`<br>
 `[1, 2, 3] -> 6 = (1 * 2) * 3` or `[1, 2, 3, 4] -> 24 = ((1 * 2) * 3) * 4`
-&#10;<br>
+<br class="f">
 ```python
 import functools
 items = [1, 2, 3]
@@ -154,7 +154,7 @@ print(product)  # 24
 ```
 
 Generate list of chars from: "Hello World!"
-&#10;<br>
+<br class="f">
 ```python
 print(list("Hello World!"))  # ['H', 'e', 'l', 'l', 'o', ' ', 'W', 'o', 'r', 'l', 'd', '!']
 ```
@@ -163,7 +163,7 @@ print(list("Hello World!"))  # ['H', 'e', 'l', 'l', 'o', ' ', 'W', 'o', 'r', 'l'
   offer the same functionality as [lambda](#lambda) expressions above.**
 
 Insert new element to list at given index and move the rest to the right
-&#10;<br>
+<br class="f">
 ```python
 # <list>.insert(<int>, <el>)
 items = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
@@ -173,7 +173,7 @@ print(items)  # [0, 1, 2, 3, 4, 10, 5, 6, 7, 8, 9]
 
 Removes and returns item at index or from the end.
 Don't forget, indexing starts from 0.
-&#10;<br>
+<br class="f">
 ```python
 # <el>  = <list>.pop([<int>])
 items = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
@@ -185,7 +185,7 @@ print(items)        # [1, 2, 3, 4, 5, 6, 7, 8]
 
 Returns number of list occurrences. Also works on strings.
 `items = [0, 1, 0, 6, 0, 5, 6, 7, 0, 9]`
-&#10;<br>
+<br class="f">
 ```python
 # <int> = <list>.count(<el>)
 items = [0, 1, 0, 6, 0, 5, 6, 7, 0, 9]
@@ -198,7 +198,7 @@ print("Hello World!".count("l"))  # 3
 
 Return index of the first value occurrence or raise ValueError.
 `items = [0, 1, 0, 6, 0, 5, 6, 7, 0, 9]`
-&#10;<br>
+<br class="f">
 ```python
 # <int> = <list>.index(<el>)
 items = [0, 1, 0, 6, 0, 5, 6, 7, 0, 9]
@@ -213,7 +213,7 @@ print(10 in items)  # False
 
 Remove first occurrence of the item or raises ValueError.
 `items = [0, 1, 0, 6, 0, 5, 6, 7, 0, 9]`
-&#10;<br>
+<br class="f">
 ```python
 # <list>.remove(<el>)
 items = [0, 1, 0, 6, 0, 5, 6, 7, 0, 9]
@@ -229,7 +229,7 @@ if 10 in items:
 ```
 
 Remove all items. Also works on dictionary and set.
-&#10;<br>
+<br class="f">
 ```python
 # <list>.clear()
 items = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
@@ -248,7 +248,7 @@ print(set_items)  # set()
 ### Dictionary
 
 Get keys from dict
-&#10;<br>
+<br class="f">
 ```python
 # Collection of keys that reflects changes.
 collection = {"key1": 1, "key2": 2, "key3": 3}
@@ -256,7 +256,7 @@ print(collection.keys())  # dict_keys(['key1', 'key2', 'key3'])
 ```
 
 Get values from dict
-&#10;<br>
+<br class="f">
 ```python
 # Collection of values that reflects changes.
 collection = {"key1": 1, "key2": 2, "key3": 3}
@@ -264,7 +264,7 @@ print(collection.values())  # dict_values([1, 2, 3])
 ```
 
 Get key-value tuples from dict
-&#10;<br>
+<br class="f">
 ```python
 # Collection of key-value tuples that reflects changes.
 collection = {"key1": 1, "key2": 2, "key3": 3}
@@ -272,7 +272,7 @@ print(collection.items())  # dict_items([('key1', 1), ('key2', 2), ('key3', 3)])
 ```
 
 Get value from dict by key, return default value if key not in dict
-&#10;<br>
+<br class="f">
 ```python
 # <el> = <dict>.get(<key> [, <default>])
 collection = {"key1": 1, "key2": 2, "key3": 3}
@@ -283,7 +283,7 @@ print(collection.get("key4", ValueError("No key")))  # ValueError: No key
 ```
 
 Python dict, set key default value if key is not in dict
-&#10;<br>
+<br class="f">
 ```python
 item = {}
 print(item.setdefault("key1", "value"))  # value
@@ -293,7 +293,7 @@ print(item)  # {'key': 'value'}
 ```
 
 What is the syntax for creating a defaultdict in Python?
-&#10;<br>
+<br class="f">
 ```python
 # <dict> = collections.defaultdict(<type>)        # Returns a dict with default value of type.
 import collections
@@ -305,7 +305,7 @@ print(sorted(d.items()))
 ```
 
 What this code do `collections.defaultdict(lambda: 1)` ?
-&#10;<br>
+<br class="f">
 Returns a dict with default value 1.
 ```python
 dict_example = collections.defaultdict(lambda: 1)
@@ -317,7 +317,7 @@ print(dict_example["key"])  # []
 ```
 
 What this code do `dict(zip(keys, values))`
-&#10;<br>
+<br class="f">
 Creates a dict from two collections.
 ```python
 keys = ["key1", "key2", "key3"]
@@ -326,7 +326,7 @@ print(dict(zip(keys, values)))  # {'key1': 1, 'key2': 2, 'key3': 3}
 ```
 
 What this code do `dict.fromkeys(keys, value)` ?
-&#10;<br>
+<br class="f">
 Creates a dict from collection of keys with the same value.
 ```python
 keys = ["key1", "key2", "key3"]
@@ -334,7 +334,7 @@ print(dict.fromkeys(keys, 1))  # {'key1': 1, 'key2': 1, 'key3': 1}
 ```
 
 What this code do `<dict>.update(<dict>)`?
-&#10;<br>
+<br class="f">
 Adds items. Replaces ones with matching keys.
 ```python
 dict_example = {"key1": 1, "key2": 2}
@@ -343,7 +343,7 @@ print(dict_example)  # {'key1': 2, 'key2': 2, 'key3': 3}
 ```
 
 What this code do `<dict>.pop(<key>)`?
-&#10;<br>
+<br class="f">
 Removes item or raises KeyError.
 ```python
 dict_example = {"key1": 1, "key2": 2}
@@ -353,7 +353,7 @@ dict_example.pop("key3")  # KeyError: 'key3'
 ```
 
 What this code do `{k for k, v in <dict>.items() if v == value}`?
-&#10;<br>
+<br class="f">
 Returns set of keys that point to the value.
 ```python
 dict_example = {"key1": 1, "key2": 2, "key3": 1}
@@ -361,7 +361,7 @@ print({k for k, v in dict_example.items() if v == 1})  # {'key1', 'key3'}
 ```
 
 What this code do `{k: v for k, v in <dict>.items() if k in keys}`?
-&#10;<br>
+<br class="f">
 Returns a dictionary, filtered by keys.
 ```python
 keys = ["key1", "key2"]
@@ -381,7 +381,7 @@ print(counter)
 print(counter.most_common())
 print(counter.most_common()[0])
 ```
-&#10;<br>
+<br class="f">
 ```python
 Counter({'blue': 3, 'red': 2, 'yellow': 1})
 [('blue', 3), ('red', 2), ('yellow', 1)]
@@ -391,14 +391,14 @@ Counter({'blue': 3, 'red': 2, 'yellow': 1})
 ### Set
 
 How initialize set (2 ways)?
-&#10;<br>
+<br class="f">
 ```python
 set_example = {1, 2, 3}  # short
 set_example = set([1, 2, 3]) # long and slow?
 ```
 
 How create empty set?
-&#10;<br>
+<br class="f">
 ```python
 set_example = set()  # not {}, it's dict
 ```
@@ -408,7 +408,7 @@ Is these sets are the same?
 set_example1 = set("aardvark")
 set_example2 = {"aardvark"}
 ```
-&#10;<br>
+<br class="f">
 No, first is set of chars, second is set of string.
 ```python
 set_example1 = set("aardvark")
@@ -423,7 +423,7 @@ print(set_example3)  # {'aardvark'}
 <!--SR:!2024-12-15,29,230-->
 
 How add items to `set()` (2 ways)?
-&#10;<br>
+<br class="f">
 ```python
 set_example = {1, 2, 3}
 set_example.add(4)
@@ -433,7 +433,7 @@ print(set_example)  # {1, 2, 3, 4, 5}
 ```
 
 How update sets (2 ways)?
-&#10;<br>
+<br class="f">
 ```python
 set_example1 = {1, 2, 3}
 set_example2 = {3, 4, 5}
@@ -445,7 +445,7 @@ print(set_example1) # {1, 2, 3, 4, 5, 6, 7}
 ```
 
 How `union` 2 sets, what difference between set update?
-&#10;<br>
+<br class="f">
 ```python
 set_example1 = {1, 2, 3}
 set_example2 = {3, 4, 5}
@@ -456,7 +456,7 @@ print(set_example1 | set_example2)  # {1, 2, 3, 4, 5}
 ```
 
 How do `intersection` of 2 sets?
-&#10;<br>
+<br class="f">
 ```python
 set_example1 = {1, 2, 3}
 set_example2 = {3, 4, 5}
@@ -465,7 +465,7 @@ print(set_example1 & set_example2)  # {3}
 ```
 
 How do `difference` of 2 sets?
-&#10;<br>
+<br class="f">
 ```python
 set_example1 = {1, 2, 3, 4}
 set_example2 = {3, 4, 5}
@@ -475,7 +475,7 @@ print(set_example1 - set_example2)  # {1, 2}
 
 How do `symmetric_difference` of 2 sets?
 Return a new set with elements in either the set or other but not both.
-&#10;<br>
+<br class="f">
 ```python
 set_example1 = {1, 2, 3, 4}
 set_example2 = {3, 4, 5}
@@ -484,7 +484,7 @@ print(set_example1 ^ set_example2)  # {1, 2, 5}
 ```
 
 How do `issubset` (2 ways)?
-&#10;<br>
+<br class="f">
 ```python
 set_example1 = {1, 2, 3, 4}
 set_example2 = {3, 4, 5}
@@ -495,7 +495,7 @@ print(set_example3 <= set_example1)  # True
 ```
 
 How do `issuperset` (2 ways)?
-&#10;<br>
+<br class="f">
 ```python
 set_example1 = {1, 2, 3, 4}
 set_example2 = {3, 4, 5}
@@ -506,7 +506,7 @@ print(set_example1 >= set_example3)  # True
 ```
 
 How remove item from set (3 ways)?
-&#10;<br>
+<br class="f">
 ```python
 set_example = {1, 2, 3}
 
@@ -530,7 +530,7 @@ print(set_example)
 Frozen set is an immutable and hashable set.
 That means it can be used as a key in a dictionary or as an element in a set.
 How to use them as a key in a dictionary or as an element in a set?
-&#10;<br>
+<br class="f">
 ```python
 # <frozenset> = frozenset(<collection>)
 # Create a list of numbers
@@ -559,7 +559,7 @@ print(dict_example[frozen_numbers])
 Tuple is an immutable and hashable ==list==.
 
 How to create empty tuple or tuple with elements?
-&#10;<br>
+<br class="f">
 ```python
 tuple_example = (1, 2, 3)
 print(tuple_example)  # (1, 2, 3)
@@ -570,7 +570,7 @@ print(empty_tuple)    # ()
 ### Named Tuple
 
 Named tuple is tuple's subclass with?
-&#10;<br>
+<br class="f">
 named elements
 ```python
 from collections import namedtuple
@@ -598,7 +598,7 @@ print([i for i in range(0, 3, 1)])
 print([i for i in range(0, 3, 2)])
 print(list(range(0, 10)))
 ```
-&#10;<br>
+<br class="f">
 ```
 [0, 1, 2]
 [0, 2] # because 0 then 0+2=2 then 2+2=4, but it's not in range
@@ -612,7 +612,7 @@ Output of this block of code?
 for i, el in enumerate(['one', 'two', 'three']):
     print(i, el)
 ```
-&#10;<br>
+<br class="f">
 ```
 0 one
 1 two
@@ -623,7 +623,7 @@ for i, el in enumerate(['one', 'two', 'three']):
 ## Iterator
 
 How to create iterator from collection or function?
-&#10;<br>
+<br class="f">
 ```python
 <iter> = iter(<collection>)                 # `iter(<iter>)` returns unmodified iterator.
 <iter> = iter(<function>, to_exclusive)     # A sequence of return values until 'to_exclusive'.

@@ -2,7 +2,7 @@
 date: 2023-08-26T00:00+03:00
 tags:
   - blog
-  - Unix
+  - unix
 sr-due: 2024-01-29
 sr-interval: 4
 sr-ease: 270

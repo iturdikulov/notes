@@ -2,7 +2,7 @@
 date: 2024-12-02T15:37+03:00
 tags:
   - blog
-  - SR-base
+  - computer_programming_patterns
 external:
   - https://12factor.net/
 file: ./articles/12factor_-_12factor.epub
@@ -12,7 +12,7 @@ file: ./articles/12factor_-_12factor.epub
 
 Twelve-Factor application is metodology to build web apps (SaaS), required for
 (main concepts):
-&#10;<br>
+<br class="f">
 - Declartive automation configurations, to minimize time and cost fow new
   developers joining the project.
 - Provide portability between execution enviroments.
@@ -27,7 +27,7 @@ Twelve-Factor application is metodology to build web apps (SaaS), required for
 Application always tracked in [[version_control]] system.
 
 Can different applications share the same code?
-&#10;<br>
+<br class="f">
 There is only one codebase per app, multiple app's can't share same code (need
 to use libraries if needed). <!--SR:!2024-12-12,7,250-->
 
@@ -39,7 +39,7 @@ A twelve-factor app never relies on implicit existence of system-wide package,
 need to use dependency isolation tools (avoid "leak in").
 
 Do I need to isolate `curl` if it used somewhere in application?
-&#10;<br>
+<br class="f">
 Yes, always need to use dependency declaration and isolation, it also simplifies
 setup for new developers. This is actual for system tools too, you need to ship
 imagemagik in your app if your app use it. <!--SR:!2024-12-13,8,250-->
@@ -47,19 +47,19 @@ imagemagik in your app if your app use it. <!--SR:!2024-12-13,8,250-->
 ## 3. Config
 
 Where to store app environtment specific files?
-&#10;<br>
+<br class="f">
 Anything which have **different value** for different environment (dev, test,
 prod), should be stored in repository (schemas, config files, credentials,
 etc.). <!--SR:!2025-01-25,1,210-->
 
 How to store config?
-&#10;<br>
+<br class="f">
 Need strict separation of config from code. Validation rule: app could be made
 open source at any moment, without compromising security.
 <!--SR:!2024-12-14,9,250-->
 
 Where to store config (various parameters)?
-&#10;<br>
+<br class="f">
 The twelve-factor app stores config in environment variables, which have
 granular (change only specific config of component). Need to avoid "production",
 "staging" and "development" like group-based configurations/variables, instead
@@ -68,7 +68,7 @@ we can use DEBUG=True, DISABLED_TASK=xxxx, etc. <!--SR:!2024-12-13,8,250-->
 ## 4. Backing services
 
 What's an attacheble resource?
-&#10;<br>
+<br class="f">
 External services (consumed over network) used as part of normal operation -
 MySQL, RabbitMQ, Redis, SMTP, etc. They are attacheble resources, and need
 to use same rules as for local resources.
@@ -77,7 +77,7 @@ with new one (restored from backup or re-initialized). <!--SR:!2024-12-08,2,248-
 
 Is there difference for 12 factor app between local and third party services
 (attacheble resources)?
-&#10;<br>
+<br class="f">
 The code for a twelve-factor app makes no distinction between local and third
 party services, you can change local backing service with remote anytime by
 changing configuration. <!--SR:!2025-01-29,5,248-->
@@ -85,7 +85,7 @@ changing configuration. <!--SR:!2025-01-29,5,248-->
 ## 5. Build, release, run
 
 Non-develpoment deployment process go through three stages:
-&#10;<br>
+<br class="f">
 1. Build stage - transform specific code virsion (fixed commit) into build.
 2. Release stage - combine build with deploys current config and make release
    ready for immediate execution.
@@ -102,7 +102,7 @@ the release (such as 2011-04-06-20:32:17) or an incrementing number (such as
 v100).
 
 Can I change someting in release?
-&#10;<br>
+<br class="f">
 Release cannot be mutated once it is created. Any change must create a new
 release. <!--SR:!2025-02-03,5,248-->
 
@@ -114,7 +114,7 @@ automatically restarted if it crashes.
 The app is executed in the execution environment as one or more processes.
 
 What's stateless app?
-&#10;<br>
+<br class="f">
 A stateless app is an application program that does not save client data
 generated in one session for use in the next session with that client.
 Twelve-factor processes are stateless and share-noting. Any data that needs to
@@ -124,12 +124,12 @@ immediately. <!--SR:!2025-01-30,1,228-->
 
 Can I assume that something is cached on disk and will be aviable on a future
 request or job?
-&#10;<br>
+<br class="f">
 The twelve-factor app never assumes that anything cached in memory or on disk
 will be available on a future request or job. <!--SR:!2024-12-09,3,268-->
 
 Can I compile assets at runtime with twelve-factor app?
-&#10;<br>
+<br class="f">
 No, twelve-factor prefer to compile assets during the build stage, rather than
 at runtime. <!--SR:!2025-02-03,5,248-->
 
@@ -141,7 +141,7 @@ offers time-expiration, such as Memcached or Redis.
 ## 7. Port binding
 
 What's port binding in twelve-factor app, why it's useful?
-&#10;<br>
+<br class="f">
 The twelve-factor app is completely self-contaned (does not rely on runtime
 injection) and exports HTTP (maybe other protocol) as a service by binding to
 a port and listening to requests coming in on that port. This is usually
@@ -153,7 +153,7 @@ config for the consuming app. <!--SR:!2024-12-08,2,248-->
 ## 8. Concurrency
 
 How we work with processes with twelve-factor app?
-&#10;<br>
+<br class="f">
 In the twelve-factor app, processes are a first class citizen. Each application
 task type can be executed with own process (diverse workloads, many process
 types are good). This is unix process model for running service daemons. <!--SR:!2024-12-08,2,248-->
@@ -170,7 +170,7 @@ processes and handle user-intiated restarts and shutdowns.
 ## 9. Disposability
 
 What is process disposability (sort of one-time processes) in twelve-factor app?
-&#10;<br>
+<br class="f">
 Processes should be disposable, they can be started or stopped a moment's
 notice, have a minimal startup time, shut down gracefully with SIGTERM event and
 be ready to sudden death (hardware failures).
@@ -183,7 +183,7 @@ transaction or idempotent jobs, etc.). <!--SR:!2024-12-08,2,248-->
 
 Twelve-factor app is designed for continuous deployment by keeping the gap
 between development and production environment small, which gap types you know?
-&#10;<br>
+<br class="f">
 - Time - changes ready to go from local to prod, should be minimal (hours).
 - Personnel - developer write code, ops engineer deploy it (ship app),
   developers closely involved in ops and able to watch thier work in production
@@ -193,7 +193,7 @@ between development and production environment small, which gap types you know?
 
 Can I use different backing services (MySQL/SQLite) on deveopment and
 production?
-&#10;<br>
+<br class="f">
 We should not use different backing services (Redis/RabbitMQ, MySQL/SQlite)
 on deveopment and production, even if possible to use adapaters to mix them with
 some abstractions (Celery, SQLAlchemy). <!--SR:!2024-12-08,2,248-->
@@ -201,13 +201,13 @@ some abstractions (Celery, SQLAlchemy). <!--SR:!2024-12-08,2,248-->
 ## 11. Logs
 
 Do twelve-factor app manage own logs?
-&#10;<br>
+<br class="f">
 Twelve-factor app never concerns itself with routing or storage of its output
 stream (logs data). It should not attempt to write to or manage logfiles. Each
 running process writes its event stream, unbuffered, to stdout. <!--SR:!2025-02-05,7,250-->
 
 How logs are managed with twelve-factor app?
-&#10;<br>
+<br class="f">
 In staging or production deploys, each process’ stream will be captured by the
 execution environment, collated together with all other streams from the app,
 and routed to one or more final destinations for viewing and long-term archival
@@ -217,7 +217,7 @@ logs destinations. <!--SR:!2024-12-08,2,248-->
 ## 12. Admin processes
 
 How to execute one-time admin processes with twelve-factor app?
-&#10;<br>
+<br class="f">
 One-off admin processes should be run in an identical environment as the
 regular long-running processes of the app. They run against a release, using the
 same codebase and config (equal enviroment) as any process run against that
@@ -229,7 +229,7 @@ run admin processes. Python program using Virtualenv should use the vendored
 bin/python for running both the `webserver` and any `manage.py` admin processes. <!--SR:!2024-12-07,1,228-->
 
 Is REPL shell required for twelve-factor app?
-&#10;<br>
+<br class="f">
 Twelve-factor strongly favors languages which provide a REPL shell out of the
 box, and which make it easy to run one-off scripts. In a local deploy,
 developers invoke one-off admin processes by a direct shell command inside the

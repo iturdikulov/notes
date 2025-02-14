@@ -8,15 +8,15 @@ tags:
 # Python type hints
 
 What is [[Python]] type hint?
-&#10;<br>
+<br class="f">
 Optional "type hints" (also called "type annotations"), special syntax that
 allow declaring the type of objects. By declaring types for your variables,
 editors and tools can give you better support and analyze your code.
 
 Do type hints affect the runtime behavior of your code?
-&#10;<br>
+<br class="f">
 Type hints normally don't affect the runtime behavior of your code. Think of
-type hints as similar to comments! <!--SR:!2025-02-09,3,250-->
+type hints as similar to comments! <!--SR:!2025-02-22,9,250-->
 
 Python has rich typing support, we can check related
 [Typing PEPs](https://peps.python.org/topic/typing/).
@@ -101,7 +101,7 @@ module to declare the type annotations.
 ### List and tuples type hints
 
 We can declare variable type as list of integers with following syntax:
-&#10;<br>
+<br class="f">
 `variable_name: list[str]`, in the brackets are type parameters. Usage in the
 function:
 ```python

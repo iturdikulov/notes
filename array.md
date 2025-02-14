@@ -2,7 +2,7 @@
 date: 2022-12-29T00:00+03:00
 tags:
   - blog
-  - SR-base
+  - computer_science
 sr-due: 2024-08-01
 sr-interval: 22
 sr-ease: 201
@@ -33,7 +33,7 @@ size_of_zero_indexed_array = last_index ==+ 1== <!--SR:!2024-10-18,21,221-->
 | 4   |     | `7` |     |      | `11` |     |
 _Graphical representation of array in memory (allocated space)_\
 How many total items in this array? Is empty items has address in memory?
-&#10;<br>
+<br class="f">
 6*5 = 30\
 yes, empty items has address in memory <!--SR:!2024-09-07,4,196-->
 
@@ -55,11 +55,8 @@ array indexed (by integer number starting from 0) and you can access array item
 by index (key in array). As rule index starting from [[zero-based_numbering|0]]
 to `n-1` where `n` is a number of items in array.
 
-## Notes from [[Wengrow_-_Data_structures_and_algorithms|Wengrow]] book
-
-Array is one of most basic data structure in computer science.
-
-In general ==array== is list of indexed data elements. <!--SR:!2024-09-27,17,221-->
+Array is one of most basic data structure in computer science. In general
+==array== is list of indexed data elements. <!--SR:!2024-09-27,17,221-->
 
 Size of an array is how many data elements the array holds.
 
@@ -101,7 +98,7 @@ you modify array, you must keep it sorted.
 \
 And this brings some specific rules. For example, we want to add 75 into ordered
 array (3.17.80.202) at some point, we do following steps:
-&#10;<br>
+<br class="f">
 ```
 3.17.80.202          # initial array, we want to add 75
 *.**.17<75<80.**.*** # 3 steps, we go through array, to find right place for 75

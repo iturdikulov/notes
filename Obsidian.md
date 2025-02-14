@@ -4,7 +4,7 @@ external:
   - https://obsidian.md/
 tags:
   - blog
-  - productivity
+  - cheat-sheets
 sr-due: 2024-02-01
 sr-interval: 5
 sr-ease: 226
@@ -19,29 +19,29 @@ sr-ease: 226
 
 ## Hotkeys
 
-- Toggle left sidebar::`C-l`
-- Focus on last note (set focus to content)::`M-n`
-- Switch between edit and read mode::`C-e`
-- Find or create a note::`M-f`
-- Open command palette::`C-S-p`
-- Open graph view::`C-g`
-- Open backlinks for the current file::`M-b`
-- Follow link under cursor::`M-RET`
-- Back / Forward::`C-o`, `C-i` in vim mode
-- Open link under cursor in new pane::`C-M-RET`
-- Close tab, window::`C-w`, `C-S-w`
-- Open settings::`C-M-s`
-- Create new note::`C-n`
-- Search in current file::`/`
-- Search & replace in current file::`C-h`
-- Search in all files::`C-S-f`
+- Toggle left sidebar:<wbr class="f"> `C-l`
+- Focus on last note (set focus to content):<wbr class="f"> `M-n`
+- Switch between edit and read mode:<wbr class="f"> `C-e`
+- Find or create a note:<wbr class="f"> `M-f`
+- Open command palette:<wbr class="f"> `C-S-p`
+- Open graph view:<wbr class="f"> `C-g`
+- Open backlinks for the current file:<wbr class="f"> `M-b`
+- Follow link under cursor:<wbr class="f"> `M-RET`
+- Back / Forward:<wbr class="f"> `C-o`, `C-i` in vim mode
+- Open link under cursor in new pane:<wbr class="f"> `C-M-RET`
+- Close tab, window:<wbr class="f"> `C-w`, `C-S-w`
+- Open settings:<wbr class="f"> `C-M-s`
+- Create new note:<wbr class="f"> `C-n`
+- Search in current file:<wbr class="f"> `/`
+- Search & replace in current file:<wbr class="f"> `C-h`
+- Search in all files:<wbr class="f"> `C-S-f`
 
-- Toggle bold for selection::`C-b` <!--SR:!2024-09-23,2,226-->
-- Toggle italics for selection::`C-i`
-- Insert link::`C-k`
+- Toggle bold for selection:<wbr class="f"> `C-b` <!--SR:!2024-09-23,2,226-->
+- Toggle italics for selection:<wbr class="f"> `C-i`
+- Insert link:<wbr class="f"> `C-k`
 
-- Access developer console (useful to generate custom styles)::`C-S-I` (maybe need adjust keybinding)
-- Find broken links::`M-S-b`
+- Access developer console (useful to generate custom styles):<wbr class="f"> `C-S-I` (maybe need adjust keybinding)
+- Find broken links:<wbr class="f"> `M-S-b`
 
 Check also [[spaced_repetition#Hotkeys|Spaced repetition]].
 

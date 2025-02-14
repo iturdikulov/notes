@@ -2,7 +2,7 @@
 date: 2022-12-28T00:00+03:00
 tags:
   - blog
-  - IRL
+  - education
 sr-due: 2024-01-28
 sr-interval: 2
 sr-ease: 243
@@ -26,7 +26,7 @@ General idea is repeating the process of reading, which helps to understand and
 remember material better. This isn't wasting time, actually if you want to
 understand some material in details this is usually required.
 
-What SQ3R stands for?::Survey, Question, Read, Recite, Review.
+What SQ3R stands for?:<wbr class="f"> Survey, Question, Read, Recite, Review.
 
 ## How I use it
 

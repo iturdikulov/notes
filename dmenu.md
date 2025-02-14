@@ -29,51 +29,51 @@ dmenu is completely controlled by the keyboard.
 
 - NEXT: shift+enter and dmenu term wait?
 
-`TAB`, `C-i`::Copy selection to the input field (to run with arguments)
+`TAB`, `C-i`:<wbr class="f"> Copy selection to the input field (to run with arguments)
 
-`<cr>`::Confirm selection and exit (execute)
+`<cr>`:<wbr class="f"> Confirm selection and exit (execute)
 
 `C-<cr>`
-&#10;<br>
+<br class="f">
 Confirm selection and continue (multi-run). Useful for running multiple instances of the same program.
 
-`S-<cr>`::Confirm input and run (run exactly what is typed in the input field)
+`S-<cr>`:<wbr class="f"> Confirm input and run (run exactly what is typed in the input field)
 
-`ESC`, `C-c`, `C-g`::Exit without selecting an item
+`ESC`, `C-c`, `C-g`:<wbr class="f"> Exit without selecting an item
 
-`C-a`, `M-g`::Home in input and menu
+`C-a`, `M-g`:<wbr class="f"> Home in input and menu
 
-`C-e`, `M-G`::End in input and menu
+`C-e`, `M-G`:<wbr class="f"> End in input and menu
 
-`left`, `C-b`::Left in input and menu
+`left`, `C-b`:<wbr class="f"> Left in input and menu
 
-`right`, `C-f`::Right in input and menu
+`right`, `C-f`:<wbr class="f"> Right in input and menu
 
-`M-b`::Move to start word in input
+`M-b`:<wbr class="f"> Move to start word in input
 
-`M-f`::Move to the end word in input
+`M-f`:<wbr class="f"> Move to the end word in input
 
-`C-n`, `M-h`::Down (or left) in menu
+`C-n`, `M-h`:<wbr class="f"> Down (or left) in menu
 
-`C-p`, `M-l`::Up (or right) in menu
+`C-p`, `M-l`:<wbr class="f"> Up (or right) in menu
 
-`M-j`::Page down
+`M-j`:<wbr class="f"> Page down
 
-`M-k`::Page up
+`M-k`:<wbr class="f"> Page up
 
-`BS`, `C-h`::Backspace in input
+`BS`, `C-h`:<wbr class="f"> Backspace in input
 
-`DEL`, `C-d`::Delete in input
+`DEL`, `C-d`:<wbr class="f"> Delete in input
 
-`C-w`::Delete word left
+`C-w`:<wbr class="f"> Delete word left
 
-`C-u`::Delete line left
+`C-u`:<wbr class="f"> Delete line left
 
-`C-k`::Delete line right
+`C-k`:<wbr class="f"> Delete line right
 
-`C-y`::Paste from primary X selection
+`C-y`:<wbr class="f"> Paste from primary X selection
 
-`C-Y`::Paste from X clipboard
+`C-Y`:<wbr class="f"> Paste from X clipboard
 
 ## External links
 

@@ -2,7 +2,7 @@
 date: 2023-09-30T00:00+03:00
 tags:
   - blog
-  - IRL
+  - fiction
 author: Antoine de Saint-Exupéry
 directory: ~/Arts_and_Entertainment/literature/Antoine de Saint Exupery/The Little Prince (1009)/"
 sr-due: 2025-01-19
@@ -53,7 +53,7 @@ I like takes about important stuff are hidden deeply in humans.
 <!--SR:!2024-03-08,6,270-->
 
 Странные взрослыe которых встречает Маленький принц:
-&#10;<br>
+<br class="f">
  - короля, которому кажется, что он правит звёздами
  - честолюбеца, который хочет, чтобы окружающие им восхищались
  - пьяницу (который пьёт, чтобы забыть, что ему совестно пить)
@@ -63,7 +63,7 @@ I like takes about important stuff are hidden deeply in humans.
 <!--SR:!2024-03-03,1,230-->
 
 Интересно цифры которые использовались в произведении реальны?
-&#10;<br>
+<br class="f">
 Нет в основном выдуманные или не актуальные (нужно проверить).
 <!--SR:!2024-03-09,7,270-->
 

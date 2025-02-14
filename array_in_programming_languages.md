@@ -2,7 +2,8 @@
 date: 2023-06-24T00:00+03:00
 tags:
   - blog
-  - base
+  - computer_programming
+  - computer_science
 sr-due: 2024-01-29
 sr-interval: 2
 sr-ease: 202
@@ -10,7 +11,7 @@ sr-ease: 202
 
 # Array in programming languages
 
-## Arrays in [[C]]:
+Arrays in [[C]]:
 
 ```c
 int array[4];  // Initialize array with 4 items
@@ -24,7 +25,7 @@ for (int i = 0; i < 4; i++) {
 printf("%f", 2.14 + array[0]);  // Error: index out of range
 ```
 
-## Arrays in [[Java]]:
+Arrays in [[Java]]:
 
 ```java
 int[] array = new int[5];
@@ -35,7 +36,7 @@ array[3] = 33;
 array[4] = 50;
 ```
 
-## Arrays in [[Rust]]:
+Arrays in [[Rust]]:
 
 ```rust
 let mut array: [i32; 3] = [0; 3];

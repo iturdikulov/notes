@@ -115,7 +115,7 @@ Floating layout will be familiar to Windows users (`D-y`, customized).
 _Floating layout_
 ```
 
-Toggle between tiled and monocle layout::`<D-C-S-space>`.
+Toggle between tiled and monocle layout:<wbr class="f"> `<D-C-S-space>`.
 
 ## Workspaces
 
@@ -131,40 +131,40 @@ Toggle between tiled and monocle layout::`<D-C-S-space>`.
 
 ## Window's management
 
-- Toggle top bar (all workspaces go into sort of full-screen mode)::`D-b`
-- Toggle full screen mode for current window (fake full-screen)::`<D-f>`
-- Focus left window (test with 3 windows)::`<D-h>`
-- Focus right window (test with 3 windows)::`<D-l>`
-- Increase number of horizontal windows on master::`<D-i>`
-- Decrease number of horizontal windows on master::`<D-S-i>` (customized)
-- Push active window from stack to master (swap)::`<D-CR>`
+- Toggle top bar (all workspaces go into sort of full-screen mode):<wbr class="f"> `D-b`
+- Toggle full screen mode for current window (fake full-screen):<wbr class="f"> `<D-f>`
+- Focus left window (test with 3 windows):<wbr class="f"> `<D-h>`
+- Focus right window (test with 3 windows):<wbr class="f"> `<D-l>`
+- Increase number of horizontal windows on master:<wbr class="f"> `<D-i>`
+- Decrease number of horizontal windows on master:<wbr class="f"> `<D-S-i>` (customized)
+- Push active window from stack to master (swap):<wbr class="f"> `<D-CR>`
 
 ### Resize windows with [cfacts](https://dwm.suckless.org/patches/cfacts/)
 
-- Increase width of left window::`<D-S-h>`, hold to increase width dynamically
-- Resize window to left::`<D-S-l>`, hold to increase width dynamically
-- Reset window size::`<D-S-o>`
+- Increase width of left window:<wbr class="f"> `<D-S-h>`, hold to increase width dynamically
+- Resize window to left:<wbr class="f"> `<D-S-l>`, hold to increase width dynamically
+- Reset window size:<wbr class="f"> `<D-S-o>`
 
 ## Tags adding/removing (windows move/switch)
 
-- View tag (or switch to workspace)::`<D-1>`, ..., `<D-9>`
-- View all windows on screen (to reset use view tag)::`<D-0>`
-- Apply tag to active window (like move window to tag)::`<D-S-1>`, ..., `<D-S-9>`
-- Toggle previous window (sort of common Alt-Tab behavior)::`<D-Tab>`
-- Toggle tag 2 on focused window (window on multiple workspaces)::`<D-S-C-2>`
+- View tag (or switch to workspace):<wbr class="f"> `<D-1>`, ..., `<D-9>`
+- View all windows on screen (to reset use view tag):<wbr class="f"> `<D-0>`
+- Apply tag to active window (like move window to tag):<wbr class="f"> `<D-S-1>`, ..., `<D-S-9>`
+- Toggle previous window (sort of common Alt-Tab behavior):<wbr class="f"> `<D-Tab>`
+- Toggle tag 2 on focused window (window on multiple workspaces):<wbr class="f"> `<D-S-C-2>`
 - Apply tag to all (window on all workspaces), to reset apply some specific tag.
-&#10;<br>
+<br class="f">
 `<D-S-0>`
 - Banish tags (add/remove all windows from #2 tag). It's sort of moving all
 windows from tag #2 to current tag. To reset press again or switch to tag.
-&#10;<br>
+<br class="f">
 `<D-C-2>`
 
 ## Floating windows control
 
-- Toggle floating on active window::`<D-S-space>` or `Super+LeftMouse`
-- Drag floating window using mouse (with drag)::`<D-LeftMouse>`
-- Resize floating window using mouse (with drag)::`<D-RightMouse>` <!--SR:!2024-09-24,3,257-->
+- Toggle floating on active window:<wbr class="f"> `<D-S-space>` or `Super+LeftMouse`
+- Drag floating window using mouse (with drag):<wbr class="f"> `<D-LeftMouse>`
+- Resize floating window using mouse (with drag):<wbr class="f"> `<D-RightMouse>` <!--SR:!2024-09-24,3,257-->
 
 To control floating windows I use
 [floatpos](https://github.com/bakkeby/patches/wiki/floatpos/) with configured
@@ -181,7 +181,7 @@ These directions:
 ← . →
 ↙ ↓ ↘
 ```
-&#10;<br>
+<br class="f">
 ```text
 ↖l ↑u ↗y
 ←n , →i
@@ -196,12 +196,12 @@ movement is relative to client's current position (center include).
 |        |
 .--------* <- pivot point
 ```
-&#10;<br>
+<br class="f">
 `S-`
 
 Move floating window modifier, absolute positioning (allows moving windows between
 monitors)?
-&#10;<br>
+<br class="f">
 `C-`
 
 ## Programs control, other functional
@@ -211,53 +211,53 @@ Here core shortcuts, which I use in DWM, my primary launcher is [[Rofi]]:
 Actual programs shortcuts/specific hardware control, etc. are located in
 `config.h`. Check `SHCMD()` functions.
 
-- Toggle sticky mode on active window (topmost)::`<D-S>`
-- Kill active window::`D-S-c`
-- Open `$TERMINAL` in scratchpad::`` D-` ``
+- Toggle sticky mode on active window (topmost):<wbr class="f"> `<D-S>`
+- Kill active window:<wbr class="f"> `D-S-c`
+- Open `$TERMINAL` in scratchpad:<wbr class="f"> `` D-` ``
 
-- Programs menu::`<D-space>`
-- Files menu::`<D-o>` <!--SR:!2024-09-24,3,257-->
-- Mount menu::`<D-S-o>`
-- Browser history menu::`<D-r>`
-- Browser bookmarks menu::`<D-S-r>`
-- Pass menu::`<D-p>`
-- Calculator menu::`<D-c>`
-- Active programs menu::`<D-a>`
-- Unicode and Nerdfonts characters menu::`<D-\>`
-- Power menu::`<D-S-C-Del>`, (all modifiers + `Del`)
+- Programs menu:<wbr class="f"> `<D-space>`
+- Files menu:<wbr class="f"> `<D-o>` <!--SR:!2024-09-24,3,257-->
+- Mount menu:<wbr class="f"> `<D-S-o>`
+- Browser history menu:<wbr class="f"> `<D-r>`
+- Browser bookmarks menu:<wbr class="f"> `<D-S-r>`
+- Pass menu:<wbr class="f"> `<D-p>`
+- Calculator menu:<wbr class="f"> `<D-c>`
+- Active programs menu:<wbr class="f"> `<D-a>`
+- Unicode and Nerdfonts characters menu:<wbr class="f"> `<D-\>`
+- Power menu:<wbr class="f"> `<D-S-C-Del>`, (all modifiers + `Del`)
 
-- Convert clipboard to markdown URL and paste::`<D-v>`
-- Hide all notifications::`<D-n>`
-- Show 10 notifications from history::`<D-S-n>`
-- Trigger `entr` instance #1 - #2::`<D-F1>` - `<D-F4>`
-- Capture part of screen (screenshot) into clipboard::`Print`
-- Starts a silent MP4 screencast and saves it in `~/Videos/record/`::`<D-Print>`
-- Launches OBS Studio for screen recording::`<D-C-Print>`
-- Pick HEX color from screen into clipboard::`<D-S-Print>`
-- Speak selected text::`<D-AudioPlay>`
+- Convert clipboard to markdown URL and paste:<wbr class="f"> `<D-v>`
+- Hide all notifications:<wbr class="f"> `<D-n>`
+- Show 10 notifications from history:<wbr class="f"> `<D-S-n>`
+- Trigger `entr` instance #1 - #2:<wbr class="f"> `<D-F1>` - `<D-F4>`
+- Capture part of screen (screenshot) into clipboard:<wbr class="f"> `Print`
+- Starts a silent MP4 screencast and saves it in `~/Videos/record/`:<wbr class="f"> `<D-Print>`
+- Launches OBS Studio for screen recording:<wbr class="f"> `<D-C-Print>`
+- Pick HEX color from screen into clipboard:<wbr class="f"> `<D-S-Print>`
+- Speak selected text:<wbr class="f"> `<D-AudioPlay>`
 
-- Increase volume::`<D-AudioRaiseVolume>`
-- Decrease volume::`<D-AudioLowerVolume>`
-- Toggle play/pause for the audio player using `playerctl`::`<D-AudioPlay>`
-- Next track in the audio player using `playerctl`::`<D-AudioNext>`
-- Previous track in the audio player using `playerctl`::`<D-AudioPrev>`
+- Increase volume:<wbr class="f"> `<D-AudioRaiseVolume>`
+- Decrease volume:<wbr class="f"> `<D-AudioLowerVolume>`
+- Toggle play/pause for the audio player using `playerctl`:<wbr class="f"> `<D-AudioPlay>`
+- Next track in the audio player using `playerctl`:<wbr class="f"> `<D-AudioNext>`
+- Previous track in the audio player using `playerctl`:<wbr class="f"> `<D-AudioPrev>`
 
-- Play/Pause for MPV::`<D-C-AudioPlay>`
-- Skip 10 seconds forward in MPV::`<D-C-AudioRaiseVolume>`
-- Rewind 10 seconds in MPV::`<D-C-AudioLowerVolume>`
-- Play next item in MPV::`<C-Next>`
-- Play previous item in MPV::`<C-Previous>`
+- Play/Pause for MPV:<wbr class="f"> `<D-C-AudioPlay>`
+- Skip 10 seconds forward in MPV:<wbr class="f"> `<D-C-AudioRaiseVolume>`
+- Rewind 10 seconds in MPV:<wbr class="f"> `<D-C-AudioLowerVolume>`
+- Play next item in MPV:<wbr class="f"> `<C-Next>`
+- Play previous item in MPV:<wbr class="f"> `<C-Previous>`
 
-- Play/Pause for Brave::`<Shift-AudioPlay>`
-- Rewind 10 seconds in Brave::`<Shift-AudioLowerVolume>`
-- Skip 10 seconds forward in Brave::`<Shift-AudioRaiseVolume>`
-- Next track in Brave::`<Shift-AudioNext>`
-- Previous track in Brave::`<Shift-AudioPrev>`
+- Play/Pause for Brave:<wbr class="f"> `<Shift-AudioPlay>`
+- Rewind 10 seconds in Brave:<wbr class="f"> `<Shift-AudioLowerVolume>`
+- Skip 10 seconds forward in Brave:<wbr class="f"> `<Shift-AudioRaiseVolume>`
+- Next track in Brave:<wbr class="f"> `<Shift-AudioNext>`
+- Previous track in Brave:<wbr class="f"> `<Shift-AudioPrev>`
 
-- Focus next monitor::`<D-.>` +1
-- Focus previous monitor::`<D-,>` -1
-- Apply next monitor tag to current window (like move it to next monitor)::`<D-S-.>`
-- Apply previous monitor tag to current window (like move it to previous monitor)::`<D-S-,>`
+- Focus next monitor:<wbr class="f"> `<D-.>` +1
+- Focus previous monitor:<wbr class="f"> `<D-,>` -1
+- Apply next monitor tag to current window (like move it to next monitor):<wbr class="f"> `<D-S-.>`
+- Apply previous monitor tag to current window (like move it to previous monitor):<wbr class="f"> `<D-S-,>`
 
 ## Dwmblocks DND (not used anymore, maybe in future)
 

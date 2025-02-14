@@ -13,7 +13,7 @@ sr-ease: 243
 # Computer network
 
 Computer network is?
-&#10;<br>
+<br class="f">
 Set of [[computer|computers]] sharing resources located on or provided by
 [[node|network nodes]].
 

@@ -9,4 +9,6 @@ sr-ease: 212
 
 # Pascal
 
-Add section from https://learnxinyminutes.com/pascal/.
+- [Pascal user manual](http://pascal.hansotten.com/uploads/books/Pascal_User_Manual_and_Report_Fourth_Edition.pdf)
+- [/] [[Pascal_cheat-sheet]]
+

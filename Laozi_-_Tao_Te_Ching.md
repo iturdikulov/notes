@@ -2,7 +2,7 @@
 date: 2023-09-16T00:00+03:00
 tags:
   - blog
-  - IRL
+  - psychology
 author:
   - Laozi
 sr-due: 2024-01-31

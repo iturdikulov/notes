@@ -14,12 +14,12 @@ sr-ease: 273
 > — <cite>`man xxd`</cite>
 
 How to print first 32 bytes of file in hex format.
-&#10;<br>
+<br class="f">
 `xxd -l 32 -p <filename>`
 
 How to revert a plaintext hexdump from xxd (`xxd -p input_file`) back into
 binary, and save it as a binary file?
-&#10;<br>
+<br class="f">
 `xxd -r -p input_file output_file`
 
 You can also able to integrate xxd with vim `:h hex-editing`.
