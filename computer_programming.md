@@ -50,7 +50,7 @@ To understand custom bullet list types check [[my_notation]] note.
 - [[projects]]
 - [[programming_language]]
 - [[programming_principles_and_design_patterns]]
-- [[concurency]]
+- [[concurency_and_parallel_computing]]
 - [[software_testing]]
 - [[database]]
 - [[OS]]

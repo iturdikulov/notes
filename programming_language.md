@@ -42,7 +42,7 @@ my level of interest.
 
 - [ ] [What Languages Fix](https://paulgraham.com/fix.html)
 - [ ] [[conditional]]
-- [ ] [[concurency]]
+- [ ] [[concurency_and_parallel_computing]]
 - [ ] [Comparison of programming languages - Wikipedia](https://en.wikipedia.org/wiki/Comparison_of_programming_languages)
 - [Energy Efficiency across Programming Languages](https://greenlab.di.uminho.pt/wp-content/uploads/2017/09/paperSLE.pdf)
 

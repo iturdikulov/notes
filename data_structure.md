@@ -39,6 +39,18 @@ Your program can run fast and efficient or even not run at all (out of memory as
 example). Depending on data organization program can run faster or slower by
 orders of magnitude. <!--SR:!2024-09-29,2,221-->
 
+What is data type?
+<br class="f">
+Data type is possible values + operations on them + representation as machine
+types.
+Data type (or simply type) is a **collection** or grouping of **data values**,
+usually specified by a set of **possible values**, a set of allowed operations
+on these values, and/or a representation of these values as machine types.
+
+Modern programming languages offer ways to work with data without directly
+dealing with explicit types, you usually work through interfaces or abstract
+data.
+
 How computers store data, is there some diffirences between data types in their
 final form?
 <br class="f">
@@ -48,248 +60,6 @@ finally stored as [[bit]] sequences. <!--SR:!2024-09-29,2,221-->
 Most widely used data structure to store sequences?
 <br class="f">
 An [[array]].
-
----
-
-[[data_type]]
-
-Linear data structures
-
-A data structure is said to be linear if its elements form a sequence.
-Arrays
-
-    Array
-    Associative array
-    Bit array
-    Bit field
-    Bitboard
-    Bitmap
-    Circular buffer
-    Control table
-    Image
-    Dope vector
-    Dynamic array
-    Gap buffer
-    Hashed array tree
-    Lookup table
-    Matrix
-    Parallel array
-    Sorted array
-    Sparse matrix
-    Iliffe vector
-    Variable-length array
-
-Lists
-
-    Doubly linked list
-    Array list
-    Linked list also known as a Singly linked list
-    Association list
-    Self-organizing list
-    Skip list
-    Unrolled linked list
-    VList
-    Conc-tree list
-    Xor linked list
-    Zipper
-    Doubly connected edge list also known as half-edge
-    Difference list
-    Free list
-
-Trees
-Main article: Tree (data structure)
-
-Trees are a subset of directed acyclic graphs.
-Binary trees
-
-    AA tree
-    AVL tree
-    Binary search tree
-    Binary tree
-    Cartesian tree
-    Conc-tree list
-    Left-child right-sibling binary tree
-    Order statistic tree
-    Pagoda
-    Randomized binary search tree
-    Red–black tree
-    Rope
-    Scapegoat tree
-    Self-balancing binary search tree
-    Splay tree
-    T-tree
-    Tango tree
-    Threaded binary tree
-    Top tree
-    Treap
-    WAVL tree
-    Weight-balanced tree
-    Zip tree
-
-B-trees
-
-    B-tree
-    B+ tree
-    B*-tree
-    Dancing tree
-    2–3 tree
-    2–3–4 tree
-    Queap
-    Fusion tree
-    Bx-tree
-
-Heaps
-
-    Heap
-    Min-max heap
-    Binary heap
-    B-heap
-    Weak heap
-    Binomial heap
-    Fibonacci heap
-    AF-heap
-    Leonardo heap
-    2–3 heap
-    Soft heap
-    Pairing heap
-    Leftist heap
-    Treap
-    Beap
-    Skew heap
-    Ternary heap
-    D-ary heap
-    Brodal queue
-
-Bit-slice trees
-
-In these data structures each tree node compares a bit slice of key values.
-
-    Radix tree
-    Suffix tree
-    Suffix array
-    Compressed suffix array
-    FM-index
-    Generalised suffix tree
-    B-tree
-    Judy array
-    Trie
-    X-fast trie
-    Y-fast trie
-    Merkle tree
-
-Multi-way trees
-
-    Ternary search tree
-    Ternary tree
-    K-ary tree
-    And–or tree
-    (a,b)-tree
-    Link/cut tree
-    SPQR-tree
-    Spaghetti stack
-    Disjoint-set data structure (Union-find data structure)
-    Fusion tree
-    Enfilade
-    Exponential tree
-    Fenwick tree
-    Van Emde Boas tree
-    Rose tree
-
-Space-partitioning trees
-
-These are data structures used for space partitioning or binary space partitioning.
-
-    Segment tree
-    Interval tree
-    Range tree
-    Bin
-    K-d tree
-    Implicit k-d tree
-    Min/max k-d tree
-    Relaxed k-d tree
-    Adaptive k-d tree
-    Quadtree
-    Octree
-    Linear octree
-    Z-order
-    UB-tree
-    R-tree
-    R+ tree
-    R* tree
-    Hilbert R-tree
-    X-tree
-    Metric tree
-    Cover tree
-    M-tree
-    VP-tree
-    BK-tree
-    Bounding interval hierarchy
-    Bounding volume hierarchy
-    BSP tree
-    Rapidly exploring random tree
-
-Application-specific trees
-
-    Abstract syntax tree
-    Parse tree
-    Decision tree
-    Alternating decision tree
-    Minimax tree
-    Expectiminimax tree
-    Finger tree
-    Expression tree
-    Log-structured merge-tree
-    PQ tree
-
-Hash-based structures
-
-    Approximate Membership Query Filter
-        Bloom filter
-        Cuckoo filter
-        Quotient filter
-    Count–min sketch
-    Distributed hash table
-    Double hashing
-    Dynamic perfect hash table
-    Hash array mapped trie
-    Hash list
-    Hash table
-    Hash tree
-    Hash trie
-    Koorde
-    Prefix hash tree
-    Rolling hash
-    MinHash
-    Ctrie
-
-Graphs
-
-Many graph-based data structures are used in computer science and related fields:
-
-    Graph
-    Adjacency list
-    Adjacency matrix
-    Graph-structured stack
-    Scene graph
-    Decision tree
-        Binary decision diagram
-    Zero-suppressed decision diagram
-    And-inverter graph
-    Directed graph
-    Directed acyclic graph
-    Propositional directed acyclic graph
-    Multigraph
-    Hypergraph
-
-Other
-
-    Lightmap
-    Winged edge
-    Quad-edge
-    Routing table
-    Symbol table
-    Piece table
-    E-graph
 
 ## Data structures implementation
 
@@ -313,6 +83,67 @@ Data structure efficiency analyzing with their procedures which create and
 manipulate instances of that structure, which manipulations you know?
 <br class="f">
 insert, delete, search, etc. <!--SR:!2024-09-29,2,221-->
+
+## List of data structures
+
+- [[array]]
+- [[set]]
+- Linked Lists
+- [[stack]]
+- [[queue]]
+- [[hash_table]]
+
+- [[tree]]
+- Binary search tree: BST
+- [[heap]] / Priority Queue / Binary Heap
+- balanced search trees (general concept, not details)
+- traversals: preorder, inorder, postorder, BFS, DFS
+
+- [[graph]]
+- directed
+- undirected
+- adjacency matrix
+- adjacency list
+- traversals: BFS, DFS
+
+- Tries
+
+Extra topics:
+
+    - Balanced search trees
+        - AVL trees
+        - Splay trees
+        - Red/black trees
+        - 2-3 search trees
+        - 2-3-4 Trees (aka 2-4 trees)
+        - N-ary (K-ary, M-ary) trees
+        - B-Trees
+    - k-D Trees
+
+### Data types
+
+#### Primitive types
+
+- Boolean, true or false.
+- Character
+- Floating-point representation of a finite subset of the rationals.
+    - Including single-precision and double-precision IEEE 754 floats, among others
+- Fixed-point representation of the rationals
+- Integer, a direct representation of either the integers or the non-negative integers
+- Reference, sometimes erroneously referred to as a pointer or handle, is a value that refers to another value, possibly including itself
+- Symbol, a unique identifier
+- Enumerated type, a set of symbols
+- Complex, representation of complex numbers
+
+### Linear data structures
+
+### Trees
+
+### Hash-based structures
+
+### Graphs
+
+### Other
 
 ## Data structures examples
 
@@ -391,7 +222,7 @@ Some languages allow defining opaque data types, which allows hiding
 ==implementation details== (in [[OOP]] languages typically used classes for this
 purpose). <!--SR:!2024-09-28,1,201-->
 
-Many known data structures have [[concurency|concurrent]] versions which allow
+Many known data structures have [[concurency_and_parallel_computing|concurrent]] versions which allow
 multiple computing threads to access a single concrete instance of a data
 structure simultaneously.
 
