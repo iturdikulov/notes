@@ -11,7 +11,7 @@ This note outlines a system for tagging [[learning]] materials and
 
 - [ ] Scheduled for future.
 - [!] Scheduled, but has high priority.
-- [/] In progress, currently consuming it.
+- [/] In progress, currently consuming or constantly re-read something.
 - [x] Completed, it was good.
 - [p] Completed, it was very good or perfect.
 - [c] Canceled or completed and not liked.

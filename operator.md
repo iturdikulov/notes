@@ -2,7 +2,7 @@
 date: 2023-03-14T00:00+03:00
 tags:
   - blog
-  - base
+  - computer_programming
 sr-due: 2024-01-28
 sr-interval: 1
 sr-ease: 185
@@ -11,7 +11,7 @@ sr-ease: 185
 # Operator
 
 How you can describe operator purpose in computing?
-&#10;<br>
+<br class="f">
 Operator is generally like functions (with different syntax) with specific
 purpose and used very often. Usually operators defined by programming language
 itself.

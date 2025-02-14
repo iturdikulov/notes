@@ -32,5 +32,8 @@ contacts, biography, and other information.
 - [ ] [Dmitry V. Sokolov (ssloy)](https://github.com/ssloy)
 - [ ] [Sergey Leschev - Team Lead](https://sergeyleschev.github.io/)
 
+## Jay Wengrow
+jay@actualize.co
+
 
 ## [Jonathan Blow](https://en.wikipedia.org/wiki/Jonathan_Blow)

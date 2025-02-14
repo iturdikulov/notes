@@ -4,7 +4,7 @@ directory:
   - ~/Science/math/
 tags:
   - blog
-  - SR-Mathematics
+  - mathematics
 lang: ru
 sr-due: 2024-02-10
 sr-interval: 2

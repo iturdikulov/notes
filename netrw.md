@@ -2,7 +2,7 @@
 date: 2023-08-14T00:00+03:00
 tags:
   - blog
-  - productivity
+  - computer_programming_tools
 sr-due: 2024-02-24
 sr-interval: 29
 sr-ease: 283
@@ -16,27 +16,27 @@ sr-ease: 283
 
 ## Flashcards
 
-List key mappings::`F1` or `:WhichKey` if available
+List key mappings:<wbr class="f"> `F1` or `:WhichKey` if available
 
-Toggle banner::`I`
+Toggle banner:<wbr class="f"> `I`
 
-Locate file in file manager::`:Explore` or `:Ex`, keybinding is `<leader>pv`
+Locate file in file manager:<wbr class="f"> `:Explore` or `:Ex`, keybinding is `<leader>pv`
 
-netrw explore variants::`:Vexplore`, `:Hexplore`, `:Texplore`, `:Sexplore`
+netrw explore variants:<wbr class="f"> `:Vexplore`, `:Hexplore`, `:Texplore`, `:Sexplore`
 
-Open directory, parent directory::`<cr>`, `-` or `u`
+Open directory, parent directory:<wbr class="f"> `<cr>`, `-` or `u`
 
-Preview window (press again to update), close preview window::`p`, `<C-w>z`
+Preview window (press again to update), close preview window:<wbr class="f"> `p`, `<C-w>z`
 
-Toggle hidden files::`gh`
+Toggle hidden files:<wbr class="f"> `gh`
 
-Create file::`%`
+Create file:<wbr class="f"> `%`
 
-Create a new directory::`d`
+Create a new directory:<wbr class="f"> `d`
 
-Clear marks in current buffer::`mF`
+Clear marks in current buffer:<wbr class="f"> `mF`
 
-Clear all marks::`mu`
+Clear all marks:<wbr class="f"> `mu`
 
 ### Operation on files
 
@@ -46,39 +46,39 @@ directories (or use `cd` keybinding to change current directory).
 NOTE: to support recursive copy need to customize copy directories command:
 `let g:netrw_localcopydircmd = 'cp -r'`
 
-Assign the "target directory" used by the move and copy commands.::`mt`
+Assign the "target directory" used by the move and copy commands.:<wbr class="f"> `mt`
 
-Assign target directory and copy in one command::`mtmc`
+Assign target directory and copy in one command:<wbr class="f"> `mtmc`
 
-**Copy/move** the marked files in the target directory.::`mc`, `mm`
+**Copy/move** the marked files in the target directory.:<wbr class="f"> `mc`, `mm`
 
-Runs an external command on the marked files.::`mx`
+Runs an external command on the marked files.:<wbr class="f"> `mx`
 
-Rename (move) file::`R`
+Rename (move) file:<wbr class="f"> `R`
 
-Marks a file or directory::`mf`
+Marks a file or directory:<wbr class="f"> `mf`
 
-Delete a file or an empty directory::`D`
+Delete a file or an empty directory:<wbr class="f"> `D`
 
-Delete a file or directory recursively::`mx` then `trash.sh` (my custom script)
+Delete a file or directory recursively:<wbr class="f"> `mx` then `trash.sh` (my custom script)
 
 ### Bookmarks
 
-Add bookmark, most recent bookmark::`mb`, `{num}gb`
+Add bookmark, most recent bookmark:<wbr class="f"> `mb`, `{num}gb`
 
-List bookmarks and history::`qb`
+List bookmarks and history:<wbr class="f"> `qb`
 
-Remove the most recent bookmark::`mB`
+Remove the most recent bookmark:<wbr class="f"> `mB`
 
-Mark visual selection::`:normal mf`, which transforms to `:'<,'>normal mf`.
+Mark visual selection:<wbr class="f"> `:normal mf`, which transforms to `:'<,'>normal mf`.
 
 ## Uncategorized
 
-Change permissions::`gp`
+Change permissions:<wbr class="f"> `gp`
 
-Select sorting style::`s`, by name, time, or file size
+Select sorting style:<wbr class="f"> `s`, by name, time, or file size
 
-Change the owner::`mf` to select files, `mx` then `chown ...`
+Change the owner:<wbr class="f"> `mf` to select files, `mx` then `chown ...`
 
 TODO: select all directories.
 TODO: invert the selection.

@@ -3,8 +3,8 @@ date: 2023-03-13T00:00+03:00
 external:
   - https://daringfireball.net/projects/markdown/syntax
 tags:
-  - doc
   - blog
+  - markdown
 sr-due: 2024-01-29
 sr-interval: 4
 sr-ease: 273
@@ -152,10 +152,10 @@ Some markdown features are specific to [[Obsidian]].
 
 ### Spoilers
 
-> [!NOTE]-
+> [!NOTE]- Note: this is custom label
 > Useful information that users should know, even when skimming content.
 
-> [!TIP]- custom text
+> [!TIP]-
 > Helpful advice for doing things better or more easily.
 
 > [!IMPORTANT]-

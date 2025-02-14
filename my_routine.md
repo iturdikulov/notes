@@ -2,7 +2,7 @@
 date: 2022-12-28T00:00+03:00
 tags:
   - blog
-  - SR-productivity
+  - productivity
 sr-due: 2024-01-28
 sr-interval: 2
 sr-ease: 241
@@ -109,30 +109,30 @@ breath deeply and keep thinking about something good.
 ## Flashcards
 
 Which natural dopamine boosters you know?
-&#10;<br>
+<br class="f">
 Exercise, protein, sunlight, sleep, meditation, music, gut health, less
 saturated fat.
 
 First 3 tasks after waking up?
-&#10;<br>
+<br class="f">
 Get natural light, wash face/teeth, drink water.
 
 Components of morning exercise?
-&#10;<br>
+<br class="f">
 35-min run + cold shower
 
 Key principles for productive work session?
-&#10;<br>
+<br class="f">
 Remove distractions with DND mode, hard tasks first, take breaks, stay hydrated.
 
 Main purpose of dinner break?
-&#10;<br>
+<br class="f">
 Proper digestion and mental reset.
 
 Best time to start sleep?
-&#10;<br>
+<br class="f">
 Before 00:00 (ideal before 23:00) with preparation time.
 
 How to start learning session?
-&#10;<br>
+<br class="f">
 Begin with spaced repetition when second wind hits.

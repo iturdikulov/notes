@@ -2,8 +2,8 @@
 date: 2025-01-13T11:43+03:00
 tags:
   - blog
-  - art
-external: https://www.ohmsha.co.jp/english/manga.htm
+external:
+  - https://www.ohmsha.co.jp/english/manga.htm
 sr-due: 2024-01-29
 sr-interval: 2
 sr-ease: 230

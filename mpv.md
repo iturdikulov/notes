@@ -1,8 +1,8 @@
 ---
 date: 2022-12-29T00:00+03:00
 tags:
-  - SR-productivity
   - blog
+  - cheat-sheets
 external:
   - https://mpv.io/
 sr-due: 2026-02-26
@@ -25,57 +25,57 @@ TODO: need to refactor this page
 
 ## Keyboard bindings (keys are sensitive)
 
-- Show progression bar, elapsed time and total duration on the OSD.::`o`
-- Resize window::`M-0`, `M-1`, `M-2`
-- Half speed increase/decrease::`[`, `]`
-- Double speed::`{`, `}`
-- Reset speed::`BCK`
-- Seek::`h`, `j`, `k`, `l`
-- Undo last seek::`S-BCK`
-- Frame forward/backward::`.`, `,`
-- Next/Previous in playlist::`<`, `>`
-- Pause/Resume::`SPC`
-- Mute::`m`
-- Quit::`q`
-- Increase/decrease volume::`/`, `*`
-- Switch video / audio tracks::`_`, `#`
-- Toggle on top::`T`
-- Toggle duration display::`O`
-- Toggle subtitles::`v`
-- Switch subtitles::`J` `S`
-- Adjust subtitles delay +/-::`z`, `Z` <!--SR:!2024-09-22,1,313-->
-- Adjust subtitles font::`S-g`, `S-f` <!--SR:!2024-09-22,1,313-->
-- Adjust audio delay::`C-+`, `C--`
-- Loop::`L`
-- Take screenshot::`s`, `C-s`
-- Show lists::`F8`, `F9`
-- Show OSD state::`F1`
-- Show stats::`i`, `I`
-- Contrast::`1`, `2`
-- Brightness::`3`, `4`
-- Gamma::`5`, `6`
-- Saturation::`7`, `8`
+- Show progression bar, elapsed time and total duration on the OSD.:<wbr class="f"> `o`
+- Resize window:<wbr class="f"> `M-0`, `M-1`, `M-2`
+- Half speed increase/decrease:<wbr class="f"> `[`, `]`
+- Double speed:<wbr class="f"> `{`, `}`
+- Reset speed:<wbr class="f"> `BCK`
+- Seek:<wbr class="f"> `h`, `j`, `k`, `l`
+- Undo last seek:<wbr class="f"> `S-BCK`
+- Frame forward/backward:<wbr class="f"> `.`, `,`
+- Next/Previous in playlist:<wbr class="f"> `<`, `>`
+- Pause/Resume:<wbr class="f"> `SPC`
+- Mute:<wbr class="f"> `m`
+- Quit:<wbr class="f"> `q`
+- Increase/decrease volume:<wbr class="f"> `/`, `*`
+- Switch video / audio tracks:<wbr class="f"> `_`, `#`
+- Toggle on top:<wbr class="f"> `T`
+- Toggle duration display:<wbr class="f"> `O`
+- Toggle subtitles:<wbr class="f"> `v`
+- Switch subtitles:<wbr class="f"> `J` `S`
+- Adjust subtitles delay +/-:<wbr class="f"> `z`, `Z` <!--SR:!2024-09-22,1,313-->
+- Adjust subtitles font:<wbr class="f"> `S-g`, `S-f` <!--SR:!2024-09-22,1,313-->
+- Adjust audio delay:<wbr class="f"> `C-+`, `C--`
+- Loop:<wbr class="f"> `L`
+- Take screenshot:<wbr class="f"> `s`, `C-s`
+- Show lists:<wbr class="f"> `F8`, `F9`
+- Show OSD state:<wbr class="f"> `F1`
+- Show stats:<wbr class="f"> `i`, `I`
+- Contrast:<wbr class="f"> `1`, `2`
+- Brightness:<wbr class="f"> `3`, `4`
+- Gamma:<wbr class="f"> `5`, `6`
+- Saturation:<wbr class="f"> `7`, `8`
 
 ## mpv playlist manager
 
-- Show playlist::`S-Return`
-- Sort playlist by filename::`C-p`
-- Shuffle playlist::`C-P`
-- Reverse playlist::`C-R`
-- Save playlist::`p`
-- Load all files from current directory::`P`
-- Movement in playlist - up/down::`up`, `down`
-- Movement in playlist - page up/page down::`PgUp`, `PgDown`
-- Movement in playlist - first entry::`Home`
-- Movement in playlist - last entry::`End`
-- Remove selected entry from playlist::`BCK`
-- Open selected entry (or next file is playing)::`Enter`
-- Select or Unselect the file under cursor (to reorder)::`Left`, `Right`
-- Close playlist::`Esc`
+- Show playlist:<wbr class="f"> `S-Return`
+- Sort playlist by filename:<wbr class="f"> `C-p`
+- Shuffle playlist:<wbr class="f"> `C-P`
+- Reverse playlist:<wbr class="f"> `C-R`
+- Save playlist:<wbr class="f"> `p`
+- Load all files from current directory:<wbr class="f"> `P`
+- Movement in playlist - up/down:<wbr class="f"> `up`, `down`
+- Movement in playlist - page up/page down:<wbr class="f"> `PgUp`, `PgDown`
+- Movement in playlist - first entry:<wbr class="f"> `Home`
+- Movement in playlist - last entry:<wbr class="f"> `End`
+- Remove selected entry from playlist:<wbr class="f"> `BCK`
+- Open selected entry (or next file is playing):<wbr class="f"> `Enter`
+- Select or Unselect the file under cursor (to reorder):<wbr class="f"> `Left`, `Right`
+- Close playlist:<wbr class="f"> `Esc`
 
 ## Custom hotkeys
 
-- Recent menu::`` ` ``
+- Recent menu:<wbr class="f"> `` ` ``
 
 ## Learning
 

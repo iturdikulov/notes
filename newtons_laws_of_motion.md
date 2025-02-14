@@ -11,7 +11,7 @@ sr-ease: 232
 # Newton's laws of motion
 
 Explain Newton's laws of motion.
-&#10;<br>
+<br class="f">
 > Three basic laws of [[classical_mechanics]] that describe the relationship
 > between the motion of an object and the forces acting on it. These laws can be
 > paraphrased as follows:

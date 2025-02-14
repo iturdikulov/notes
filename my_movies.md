@@ -2,7 +2,6 @@
 date: 2023-03-11T00:00+03:00
 tags:
   - blog
-  - IRL
 sr-due: 2024-02-07
 sr-interval: 10
 sr-ease: 252

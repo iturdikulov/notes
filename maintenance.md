@@ -2,9 +2,6 @@
 date: 2024-11-10T00:00+03:00
 tags:
   - blog
-sr-due: 2024-02-04
-sr-interval: 9
-sr-ease: 206
 ---
 
 # Maintenance
@@ -39,6 +36,9 @@ filenames, etc.
 - `external`, `file`, `directory` frontmatter variables in [[Zettelkasten]]
   files are isn't broken.
 - My projects have `README.md` file.
+
+- Edit and organize my photos and pictures, movies, games and software.
+  [[my_pictures]], [[my_movies]], [[my_games]], [[my_awesome_software_list]]
 
 ## OS
 
@@ -90,9 +90,3 @@ support audio to text conversion or build some workflow.
 - [Keyboard Tester](https://www.keyboardtester.com/tester.html)
 - [Free Online Audio Tests, Test Tones and Tone Generators](https://www.audiocheck.net/)
 
-## Monitoring
-
-- [ ] Automatic problems informing via [[email]]
-- [ ] How much data writing daily
-- [ ] Backup problems' detection
-- [ ] Verify monitoring is really working

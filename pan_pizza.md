@@ -2,8 +2,9 @@
 date: 2023-09-21T00:00+03:00
 tags:
   - blog
-  - IRL
-external: https://based.cooking/pan-pizza/
+  - cooking
+external:
+  - https://based.cooking/pan-pizza/
 sr-due: 2024-01-28
 sr-interval: 3
 sr-ease: 268

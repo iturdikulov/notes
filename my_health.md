@@ -2,7 +2,7 @@
 date: 2023-09-21T00:00+03:00
 tags:
   - blog
-  - IRL
+  - health
 sr-due: 2024-02-02
 sr-interval: 1
 sr-ease: 223
@@ -108,3 +108,5 @@ Here some useful list of items for hygiene support:
 - [Простая Академия](https://prosto.academy/)
 
 - [ ] [Enlightenment – healer v1.0, полость рта | DanielDefo - Королевство Добра](https://danieldefo.ru/threads/enlightenment-healer-v1-0.14516/#post-781108)
+
+## Medecine

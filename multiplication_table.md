@@ -43,7 +43,7 @@ sr-ease: 180
 
 Basically multiplication table is set of multiply operations between **two
 numbers**. And there no difference which number is first or second, because it's
-following [[Commutative_Associative_and_Distributive_Laws]] property.
+following [[commutative_associative_and_distributive_laws]] property.
 
 Half of the table is a mirror image of the other (diagonal line from top left to
 bottom right), and you can memorize first part (small number x big number).
