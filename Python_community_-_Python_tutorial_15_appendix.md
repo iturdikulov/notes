@@ -3,6 +3,7 @@ external:
   - https://docs.python.org/3/tutorial/appendix.html
 tags:
   - blog
+  - article_annotation
 date: 2025-01-14T11:41+03:00
 ---
 

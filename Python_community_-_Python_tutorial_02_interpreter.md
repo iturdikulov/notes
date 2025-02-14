@@ -4,6 +4,7 @@ external:
   - https://docs.python.org/3/tutorial/interpreter.html
 tags:
   - blog
+  - article_annotation
 ---
 
 # 2. Using the Python Interpreter

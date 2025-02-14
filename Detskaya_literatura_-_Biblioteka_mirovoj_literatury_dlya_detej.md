@@ -2,6 +2,8 @@
 date: 2025-01-14T11:41+03:00
 tags:
   - blog
+  - fiction
+  - book_annotation
 sr-due: 2024-02-08
 sr-interval: 14
 sr-ease: 230

@@ -4,6 +4,7 @@ date: 2025-01-14T11:41+03:00
 tags:
   - blog
   - Python
+  - book_annotation
 sr-due: 2025-09-20
 sr-interval: 604
 sr-ease: 268

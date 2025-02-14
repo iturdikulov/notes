@@ -6,6 +6,7 @@ directory: ~/Computer/graphics/archive/Price-Donut_Tutorial
 tags:
   - blog
   - 3D
+  - video_annotation
 sr-due: 2025-06-09
 sr-interval: 501
 sr-ease: 250

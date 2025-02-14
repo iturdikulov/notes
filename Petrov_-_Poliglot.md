@@ -5,6 +5,7 @@ archive: null
 tags:
   - blog
   - linguistic
+  - video_annotation
 sr-due: 2024-02-04
 sr-interval: 10
 sr-ease: 190

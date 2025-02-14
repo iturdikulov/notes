@@ -7,6 +7,7 @@ directory: ~/Computer/graphics/Muratori-Handmade_Hero
 tags:
   - blog
   - gamedev
+  - video_annotation
 sr-due: 2024-02-09
 sr-interval: 15
 sr-ease: 213

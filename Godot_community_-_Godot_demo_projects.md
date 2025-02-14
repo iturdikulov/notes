@@ -3,6 +3,7 @@ author: Godot Community
 date: 2023-09-14T00:00+03:00
 tags:
   - blog
+  - repo_annotation
 external:
   - https://godotengine.github.io/godot-demo-projects/
 directory: ~/Computer/graphics/Godot_Community-Godot_demo_projects/

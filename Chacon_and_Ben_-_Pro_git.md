@@ -7,6 +7,7 @@ external:
 tags:
   - blog
   - VCS
+  - book_annotation
 sr-due: 2025-05-27
 sr-interval: 488
 sr-ease: 230

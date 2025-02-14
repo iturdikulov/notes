@@ -2,6 +2,7 @@
 date: 2024-11-25T23:03+03:00
 tags:
   - blog
+  - book_annotation
 author: Борис Трушин
 ---
 

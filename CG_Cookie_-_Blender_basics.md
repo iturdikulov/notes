@@ -3,6 +3,7 @@ author: Jonathan Lampel
 tags:
   - blog
   - 3D
+  - video_annotation
 date: 2023-12-12T00:00+03:00
 external:
   - https://cgcookie.com/courses/blender-basics-an-introduction-to-blender-4-x

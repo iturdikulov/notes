@@ -4,6 +4,7 @@ date: 2023-03-08T00:00+03:00
 tags:
   - blog
   - computer_science
+  - article_annotation
 external:
   - https://teachyourselfcs.com/
 sr-due: 2024-01-31

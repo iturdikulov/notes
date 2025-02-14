@@ -6,6 +6,7 @@ external:
 tags:
   - blog
   - cheat-sheets
+  - article_annotation
 sr-due: 2024-02-18
 sr-interval: 24
 sr-ease: 208

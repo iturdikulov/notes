@@ -4,6 +4,7 @@ author: Зорич В.А.
 tags:
   - blog
   - mathematics
+  - book_annotation
 directory:
   - ~/Arts_and_Entertainment/literature/Vladimir Zorich/Matiematichieskii analiz (chast' 1), 10-ie izdaniie (2378)/
   - ~/Arts_and_Entertainment/literature/Vladimir Zorich/Matiematichieskii analiz (chast' 2), 9-ie izdaniie (2377)/

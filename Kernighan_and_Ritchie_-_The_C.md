@@ -3,6 +3,7 @@ directory: ~/Computer/programming/Kernighan_and_Ritchie-The_C_programming_langua
 tags:
   - blog
   - C
+  - book_annotation
 sr-due: 2025-11-29
 sr-interval: 674
 sr-ease: 236

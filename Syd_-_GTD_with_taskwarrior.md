@@ -9,6 +9,7 @@ external:
 tags:
   - blog
   - productivity
+  - article_annotation
 sr-due: 2024-02-10
 sr-interval: 16
 sr-ease: 210

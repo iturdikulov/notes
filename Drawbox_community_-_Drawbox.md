@@ -5,6 +5,7 @@ date: 2023-05-29T00:00+03:00
 tags:
   - blog
   - art
+  - course_annotation
 sr-due: 2024-05-28
 sr-interval: 124
 sr-ease: 208

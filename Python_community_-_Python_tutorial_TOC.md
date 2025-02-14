@@ -5,6 +5,7 @@ date: 2024-11-04T00:00+03:00
 tags:
   - blog
   - cheat-sheets
+  - article_annotation
 sr-due: 2024-01-28
 sr-interval: 1
 sr-ease: 130

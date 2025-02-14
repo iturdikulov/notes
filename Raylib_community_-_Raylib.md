@@ -6,6 +6,7 @@ date: 2025-01-14T11:41+03:00
 tags:
   - blog
   - computer_graphics_programming
+  - repo_annotation
 directory: ~/Computer/graphics/stash/Raylib_Community-Raylib
 sr-due: 2024-07-04
 sr-interval: 161

@@ -3,6 +3,7 @@ tags:
   - blog
   - computer_programming
   - computer_science
+  - book_annotation
 author:
   - InterviewCake Team
 external:

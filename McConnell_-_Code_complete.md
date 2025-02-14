@@ -3,6 +3,7 @@ author: Steve McConnell
 date: 2025-01-14T11:41+03:00
 tags:
   - blog
+  - book_annotation
 sr-due: 2024-02-01
 sr-interval: 7
 sr-ease: 148

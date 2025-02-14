@@ -7,6 +7,7 @@ directory: ~/Computer/programming/DeVries-Tutorials/
 tags:
   - blog
   - computer_programming
+  - video_annotation
 sr-due: 2024-02-14
 sr-interval: 20
 sr-ease: 210

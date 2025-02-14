@@ -3,6 +3,7 @@ external:
   - https://docs.python.org/3/tutorial/floatingpoint.html
 tags:
   - blog
+  - article_annotation
 date: 2025-01-14T11:41+03:00
 ---
 
@@ -277,7 +278,7 @@ is:
 ```python
 7205759403792794 / 2 ** 56
 ```
-Dividing both the numerator and denominator by two reduces the fraction to:<wbr class="f"> 
+Dividing both the numerator and denominator by two reduces the fraction to:<wbr class="f">
 ```python
 3602879701896397 / 2 ** 55
 ```

@@ -4,6 +4,7 @@ author: Unreal Sensei
 tags:
   - blog
   - archive
+  - video_annotation
 external:
   - https://www.youtube.com/watch?v=k-zMkzmduqI
 directory: ~/Computer/graphics/Sensei-Unreal_Engine_5_Beginner_Tutorial/

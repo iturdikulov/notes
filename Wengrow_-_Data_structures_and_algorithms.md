@@ -8,6 +8,7 @@ tags:
   - blog
   - computer_programming
   - computer_science
+  - book_annotation
 directory: ~/Computer/science/Wengrow-Data_structures_and_algorithms/
 ---
 

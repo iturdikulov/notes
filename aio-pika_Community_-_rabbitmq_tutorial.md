@@ -3,6 +3,7 @@ date: 2024-09-06T00:00+03:00
 tags:
   - blog
   - Python
+  - book_annotation
 directory: ~/Computer/software/rabbitmq
 ---
 

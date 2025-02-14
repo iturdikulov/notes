@@ -2,6 +2,7 @@
 tags:
   - blog
   - photo
+  - book_annotation
 author: Килпатрик Дэвид
 date: 2025-01-14T11:41+03:00
 sr-due: 1678896000

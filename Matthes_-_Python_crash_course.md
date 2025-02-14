@@ -5,6 +5,7 @@ directory: ~/Computer/programming/Matthes-Python_Crash_Course
 tags:
   - blog
   - Python
+  - book_annotation
 sr-due: 2024-01-29
 sr-interval: 4
 sr-ease: 190

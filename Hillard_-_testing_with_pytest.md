@@ -6,6 +6,7 @@ external:
 tags:
   - blog
   - computer_testing
+  - article_annotation
 directory: ~/Computer/programming/Hillard-Testing_With_Pytest
 sr-due: 2023-01-28
 sr-interval: 15
