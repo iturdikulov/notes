@@ -73,6 +73,7 @@ Additional Skills:
 
 - [x] [[Yershov_-_programmirovanie_vtoraya_gramotnost]]
 - [x] [[Evans_-_So_you_want_to_be_a_WizarD]]
+- [ ] [[job_interview]]
 - [ ] [[Sonmez_-_Gibkie_navyki]]
 - [ ] [[Hunt_and_Thomas_-_The_pragmatic_programmer]]
 - [ ] Программист-фанатик
