@@ -39,10 +39,32 @@ SOLID principles when you **need to** use them.
 > interfaces. That helps nobody and makes the code both unreadable and
 > unscalable.
 
+- The Single-responsibility principle: "There should never be more than one
+reason for a class to change." In other words, every class should have only
+one responsibility.
+
+- The Open–closed principle: "Software entities ... should be open for
+extension, but closed for modification."
+
+- The Liskov substitution principle: "Functions that use pointers or references
+to base classes must be able to use objects of derived classes without knowing
+it." See also design by contract.
+
+- The Interface segregation principle: "Clients should not be forced to depend
+upon interfaces that they do not use."
+
+- The Dependency inversion principle: "Depend upon abstractions, not concretions."
+
+Although the SOLID principles apply to any object-oriented design, they can also
+form a core philosophy for methodologies such as agile development or adaptive
+software development.
+
+TODO: add critical information about SOLID principles.
+
 ## Single-Responsibility Principle (SRP)
 
 - The **S**ingle-responsibility principle (SRP):
-&#10;<br>
+<br class="f">
 "There should **never** be more than **one** reason for a class to change."
 Every class should have only one responsibility, each section of program must
 address a separate concern.
@@ -103,7 +125,7 @@ single method.
 ## The Open–closed principle (OCP)
 
 - The Open–closed principle:
-&#10;<br>
+<br class="f">
 "Software entities (classes, modules, functions, etc.) should be open for
 extension, but closed for modification."
 
@@ -193,7 +215,7 @@ class Square(Shape):
 ## The Liskov substitution principle (LSP)
 
 - The Liskov substitution principle:
-&#10;<br>
+<br class="f">
 Subtypes must be substitutable for their base types, so anytime I can replace
 base class with any of their subclass, and nothing will be broken (other classes
 expecations).
@@ -277,7 +299,7 @@ get_total_area([Rectangle(10, 5), Square(5)])
 ## The Interface segregation principle (ISP)
 
 - The Interface segregation principle:
-&#10;<br>
+<br class="f">
 "Clients should not be forced to depend upon interfaces that they do not use."
 Interfaces belong to clients, not to hierarchies.
 \
@@ -368,7 +390,7 @@ class NewPrinter(Printer, Fax, Scanner):
 ## The Dependency inversion principle (DIP)
 
 - The Dependency inversion principle:
-&#10;<br>
+<br class="f">
 "Depend upon abstractions, not concretes".
 \
 Abstractions should not depend upon details. Details should depend upon
