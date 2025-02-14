@@ -40,3 +40,19 @@ Another example, The ABC Of Design.
 
 ![The APC Of Design](img/The_ABC_of_Design.png)
 _The ABC Of Design_
+
+## Graphic design Inspiration
+
+- [Terminal Hugo Theme](https://panr.github.io/hugo-theme-terminal-demo/)
+- [Sentence Case: automatically capitalize sentences](https://getreuer.info/posts/keyboards/sentence-case/#overview)
+- [The Interactive Fiction Archive](https://ifarchive.org/), mainly color scheme
+- [PocketBase - Open Source backend in 1 file](https://pocketbase.io/)
+- [the morning paper - Computer Science](https://blog.acolyer.org/)
+- [Essays · Gwern.net](https://gwern.net/)
+- [tek256](https://tek256.com/faq/)
+- [seedit4.me](https://seedit4.me/)
+- [Thunderbird](https://www.thunderbird.net/en-US/thunderbird/115.0/holidayeoy/)
+
+## Graphic design learning path
+
+- [ ] Refactoring UI (Thailwind CSS)
