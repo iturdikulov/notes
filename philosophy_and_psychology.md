@@ -4,17 +4,20 @@ tags:
   - blog
 external:
   - https://en.wikipedia.org/wiki/Psychology
-sr-due: 2023-01-28
-sr-interval: 96
-sr-ease: 308
 ---
 
 # Psychology
 
-> Psychology is the study of the mind. It studies thoughts, feelings, and
-> behaviors in humans and animals. Psychology aims to explain how the mind
-> works. It also looks at how our actions relate to how we think.\
-> — <cite>[Simple English Wikipedia](https://simple.wikipedia.org/wiki/Psychology)</cite>
+What actually is psychology?
+<br class="f">
+Psychology is the **study** of the mind and behaviour, how our actions relate to how
+we think, subject of study is human and animals.
+
+Studies:
+
+- thoughts;
+- feelings;
+- behaviors;
 
 Many psychology problems (which I define as such) can be solved by continuous
 work on them. Many of them imposed by society, some are imposed by nature. For
@@ -31,7 +34,27 @@ example:
 - Overweight, physical and mental health promblems → exercise, eat healthy,
   sleep enough → solve problems.
 
+## Psychology learning path
+
+- [ ] [IDRLabs Psychology Tests and Articles](https://www.idrlabs.com/)
+- [ ] [[Laozi_-_Tao_Te_Ching]]
+- [ ] [Общая психология, Петухов В.В., курс лекций МГУ - YouTube](https://www.youtube.com/playlist?list=PLWsL2KQ39BExodEpTCWHUtXxezWnGCPyW)
+- [ ] [5X Your BRAIN CELLS - YouTube](https://www.youtube.com/watch?v=lSwHXE9LohA)
+- [ ] [Stoicism: 10 LESSONS Men Learn Too Late In LIFE (Might Hurt Your Feelings) - YouTube](https://www.youtube.com/watch?v=CrhJBvGgwpg)
+
+## Meditation
+
+- [Meditation 101: A Beginner's Guide -
+  YouTube](https://www.youtube.com/watch?v=o-kMJBWk9E0), [local
+  copy](file:///home/inom/Arts_and_Entertainment/audiovisual/health/Meditation_101_A_Beginner_s_Guide_o-kMJBWk9E0_.mp4)
+
+- [5-Minute Meditation You Can Do Anywhere -
+  YouTube](https://www.youtube.com/watch?v=inpok4MKVLM), [local
+  copy](file:///home/inom/Arts_and_Entertainment/audiovisual/health/5-Minute_Meditation_You_Can_Do_Anywhere_inpok4MKVLM.mp4)
+
 ## Techniques for dealing with lack of motivation, malaise, depression [^1]
+
+<!-- TODO: move into note. -->
 
 [[people#Jonathan_Blow]] about ways to deal with lack of motivation, malaise,
 and depression. Particularly relevant to those in software development and other
@@ -97,19 +120,6 @@ Methods of relaxation:
 
 - Physical - breathing, muscle relaxation.
 - Mental - meditation, some activities.
-
-## External links
-
-- [IDRLabs Psychology Tests and Articles](https://www.idrlabs.com/)
-
-## To-do
-
-- [ ] [[Laozi_-_Tao_Te_Ching]]
-- [ ] [[Sonmez_-_Soft_skills]]
-- [ ] [[Clear_-_Atomic_Habbits]]
-- [ ] [5X Your BRAIN CELLS - YouTube](https://www.youtube.com/watch?v=lSwHXE9LohA)
-- [ ] [Stoicism: 10 LESSONS Men Learn Too Late In LIFE (Might Hurt Your Feelings) - YouTube](https://www.youtube.com/watch?v=CrhJBvGgwpg)
-- [ ] [Общая психология, Петухов В.В., курс лекций МГУ - YouTube](https://www.youtube.com/playlist?list=PLWsL2KQ39BExodEpTCWHUtXxezWnGCPyW)
 
 [^1]: [Techniques for dealing with lack of motivation, malaise,
     depression](file:///home/inom/Science/psychology/Blow-Dealing_with_depression/Blow-Dealing_with_depression_i7kh8pNRWOo.mp4),
