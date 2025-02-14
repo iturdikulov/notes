@@ -22,6 +22,7 @@ sr-ease: 225
 
 [[Rust]] is practically unknown to me, learning materials:
 
+- [ ] [[Brown_-_rust_rust_book_experiment]]
 - [ ] [The Rust Programming Language](https://doc.rust-lang.org/stable/book/)
 - [ ] [Rust By Example](https://doc.rust-lang.org/stable/rust-by-example/index.html)
 - [Implementing TCP in Rust](https://www.youtube.com/watch?v=bzja9fQWzdA)
