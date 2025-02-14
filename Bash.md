@@ -27,10 +27,18 @@ https://pubs.opengroup.org/onlinepubs/9799919799/utilities/V3_chap02.html)
 I can learn Bash and in same time Zsh variants (POSIX compliant parts) of shell
 command languages.
 
-## Cheat sheet
+## Bash learning path
 
-![[./img/ref-Bash_cheatsheeet.pdf]]
-_[bash cheat sheet](https://github.com/obfusk/bash-cheatsheet/tree/master)_
+- [ ] [Bash Scriptng Guide](https://www.opennet.ru/docs/RUS/bash_scripting_guide/)
+- [ ] [Bash Debugging Hub](https://sentry.io/answers/bash)
+- [ ] [Advanced Bash-Scripting Guide RUS](https://www.opennet.ru/docs/RUS/bash_scripting_guide/)
+- [ ] [Bourne Shell Tutorial](https://www.grymoire.com/Unix/Bourne.html)
+- [ ] [GitHub - fliptheweb/bash-shortcuts-cheat-sheet: Useful shortcuts for bash/zsh](https://github.com/fliptheweb/bash-shortcuts-cheat-sheet/tree/master)
+- [ ] [The Bash Hackers Wiki](https://wiki.bash-hackers.org/doku.php)
+- [ ] [Command Challenge!](https://cmdchallenge.com/)
+- [ ] [Bash Guide for Beginners](https://tldp.org/LDP/Bash-Beginners-Guide/html/)
+- [ ] [The Bash Guide](https://guide.bash.academy/)
+- [/] [[Bash_cheat-sheet]]
 
 ## Snippets
 
@@ -42,12 +50,3 @@ for i in *;  # process every file in current directory
     mv "$i" "$new";
 done;
 ```
-
-## External links
-
-- [ ] [Bourne Shell Tutorial](https://www.grymoire.com/Unix/Bourne.html)
-- [ ] [GitHub - fliptheweb/bash-shortcuts-cheat-sheet: Useful shortcuts for bash/zsh](https://github.com/fliptheweb/bash-shortcuts-cheat-sheet/tree/master)
-- [ ] [The Bash Hackers Wiki](https://wiki.bash-hackers.org/doku.php)
-- [ ] [Command Challenge!](https://cmdchallenge.com/)
-- [ ] [Bash Guide for Beginners](https://tldp.org/LDP/Bash-Beginners-Guide/html/)
-- [ ] [The Bash Guide](https://guide.bash.academy/)
