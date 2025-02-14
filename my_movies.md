@@ -45,9 +45,11 @@ To understand custom bullet list types check [[my_notation]] note.
 - [p] Меланхолия (фильм, 2011), depressive a little, but not a lot for me. Make
   me think about life. 9.1/10
 - [p] Интерстеллар (2014) 9/10
+- [c] Аннигиляция
+- [c] Тихое место фильм, 2018
 
-### Shows and series
-
+<!-- ### Shows and series -->
+<!---->
 - [x] Моб Психо 8/10
 - [x] [Доктор Стоун (сериал 2019)](https://www.kinopoisk.ru/series/1249511)
 - [x] Поднятие уровня в одиночку, Сезон 1, 8.9/10
@@ -60,10 +62,10 @@ To understand custom bullet list types check [[my_notation]] note.
 
 ## Inbox
 
-- [ ] Аннигиляция
+- [ ] Учитель на замену
+
 - [ ] Джентльмены
 - [ ] Однажды, двадцать лет спустя (1980)
-- [ ] [Тихое место фильм, 2018](https://www.kinopoisk.ru/film/1044906/?utm_referrer=www.google.com))
 - [ ] The Never Ending Story
 - [ ] день курка
 - [ ] 9 дней одного года
@@ -75,7 +77,6 @@ To understand custom bullet list types check [[my_notation]] note.
 - [ ] Большой и Добрый Великан
 - [ ] Нефть
 - [ ] Сериал метод
-- [ ] Учитель на замену
 - [ ] One Eight Seven
 - [ ] Фантомас
 - [ ] Судьба резидента
