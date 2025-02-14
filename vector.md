@@ -6,3 +6,7 @@ tags:
 ---
 
 # Vector
+
+Mathematical object, expressed by magnitude and direction.
+
+TODO: add more info about vector.
