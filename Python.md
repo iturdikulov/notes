@@ -73,6 +73,8 @@ List of materials to review with [[my_notation]]:
 - [ ] [[Sorn_-_Comprehensive_python_cheatsheet|Python cheatsheet]], to dive in into language itself.
 - [ ] [Python Wiki](https://wiki.python.org/moin/)
 
+- [ ] [[Python_concurency]]
+- [ ] [[projects#Python]]
 - [/] [Documentation](https://docs.python.org/3/)
 - [/] [[Python_cheat-sheet]]
 - [/] [[Python_community_-_Python_tutorial_TOC|Official Python tutorial]]
@@ -132,37 +134,22 @@ List of materials to review with [[my_notation]]:
 - [The Complete Python course](https://www.udemy.com/course/the-complete-python-course/)
 - [30 Days of Python](https://github.com/codingforentrepreneurs/30-Days-of-Python)
 
-### Async
-
-- [Асинхронный python без головной боли (часть 1) / Хабр](https://habr.com/ru/articles/667630/)
-- parallel_loops_in_python TODO: prepare book
-- [Asyncio complete tutorial](https://superfastpython.com/python-asyncio/)
-- [Ускорение Python в 2 раза с помощью multiprocessing, async и MapReduce / Хабр](https://habr.com/ru/articles/825206/)
-- [python - How does asyncio actually work? - Stack Overflow](https://stackoverflow.com/questions/49005651/how-does-asyncio-actually-work)
-- [An Intro to Threading in Python – Real Python](https://realpython.com/intro-to-python-threading/)
-- [asyncio — Asynchronous I/O Python 3.12.5 documentation](https://docs.python.org/3/library/asyncio.html)
-- [Async IO in Python: A Complete Walkthrough – Real Python](https://realpython.com/async-io-python/)
-- [How Python Asyncio Works: Recreating it from Scratch](https://jacobpadilla.com/articles/recreating-asyncio)
-
-### Projects to learn
-
-- [Table of Contents - Practical Python Projects](https://practicalpython.yasoob.me/toc#)
-- [[Craig_-_Python_examples]]
-- [The Big Book of Small Python Projects](https://inventwithpython.com/bigbookpython/)
-- [Traditional Face Detection Using Python – Real Python](https://realpython.com/courses/traditional-face-detection-python/ )
-- [Modern Python Projects Course](https://training.talkpython.fm/courses/details/modern-python-projects)
-- Python copy settings [Configuration files to enable validating python code with flake8, mypy, isort, and black using pre-commit hooks (via https://pre-commit.com/). Also an .editorconfig file for standardization across editors. · GitHub](https://gist.github.com/tdhopper/ae09efe739247029e096e6dbdd891544)
-
 ### Packages & Frameworks
 
+TODO: review
+
 - [Python Packaging User Guide](https://packaging.python.org/en/latest/)
-- [Pydantic](https://docs.pydantic.dev/dev/)
-- [Advanced Pydantic Usage Guide · GitHub](https://gist.github.com/shiningflash/f17eabef18b38a70a38fb510130be58b)
-- [How to use Celery Pytest Fixtures](https://medium.com/@scythargon/how-to-use-celery-pytest-fixtures-for-celery-intergration-testing-6d61c91775d9)
-- [First Steps with Celery — Celery 5.4.0 documentation](https://docs.celeryq.dev/en/stable/getting-started/first-steps-with-celery.html)
-- [Python REST APIs With Flask, Connexion, and SQLAlchemy](https://realpython.com/flask-connexion-rest-api/)
-- Decomposition of [igorbenav/FastAPI-boilerplate](https://github.com/igorbenav/FastAPI-boilerplate)
-- [HTTPX](https://www.python-httpx.org/quickstart/)
+- [A curated list of awesome Python frameworks, libraries, software and resources](https://github.com/vinta/awesome-python)
+- [[backend#Python]]
+
+- [JupyterLite and pandas intro](https://jvns.github.io/pandas-cookbook/lab/index.html)
+- [scipy](https://scipy.org/) - Fundamental algorithms for scientific computing
+in Python
+- [numpy](https://numpy.org/) - the fundamental package for scientific computing
+with Python
+- [Performance analysis for Python snippets](https://github.com/nschloe/perfplot)
+- [A platform-independent file lock for Python.](https://github.com/tox-dev/filelock)
+- [mistletoe: markdown parser in pure Python.](https://github.com/miyuchina/mistletoe)
 
 ### Python internals
 
