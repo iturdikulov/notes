@@ -15,11 +15,11 @@ How to use them in `printf` function described in [[printf_format_string]].
 
 Check main types here:
 
+- [ ] [[data_structure#Data types]]
 - [ ] [C data types - Wikipedia](https://en.wikipedia.org/wiki/C_data_types#Main_types)
 - [ ] [C and C++ Integer Limits | Microsoft Learn](https://learn.microsoft.com/en-us/cpp/c-language/cpp-integer-limits?view=msvc-170)
 
 ## External links
 
-- [[data_type]].
 - [cstdint](https://www.cplusplus.com/reference/cstdint/)
 - [C Programming/stdint.h](https://en.wikibooks.org/wiki/C_Programming/stdint.h)

@@ -22,7 +22,7 @@ of Python, most noteworthy features and language elements.
 2.  [[Python_community_-_Python_tutorial_02_interpreter|Using the Python Interpreter]]
 3.  [[Python_community_-_Python_tutorial_03_introduction|An Informal Introduction to Python]]
 4.  [[Python_community_-_Python_tutorial_04_controlflow|More Control Flow Tools]]
-5.  [[Python_community_-_Python_tutorial_05_datastructures|Data Structures]]
+5.  [[Python_data_structures]]
 6.  [[Python_community_-_Python_tutorial_06_modules|Modules]]
 7.  [[Python_community_-_Python_tutorial_07_input_output|Input and Output]]
 8.  [[Python_community_-_Python_tutorial_08_errors|Errors and Exceptions]]

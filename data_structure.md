@@ -21,71 +21,6 @@ optimizations. <!--SR:!2024-10-09,1,201-->
 > to the data, i.e., it is an algebraic structure about data.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Data_structure)</cite>
 
-Why data structures matter?
-<br class="f">
-Solid knowledge in data structures allows you to write scalable, fast and
-**efficient** software, increase your software expertise and make you happy 🙂.
-
-Analyzing the number of ==steps== an operation takes is the heart of
-understanding the performance of data structures and your program which use
-them. You **must** always analyze your application to see which data structure
-is a better fit. <!--SR:!2024-09-29,2,221-->
-
-Data structures refer to how data is **organized**. Does this data organization
-is matter for something?
-<br class="f">
-Data organization can be highly impact on **performance** and **efficiency**.
-Your program can run fast and efficient or even not run at all (out of memory as
-example). Depending on data organization program can run faster or slower by
-orders of magnitude. <!--SR:!2024-09-29,2,221-->
-
-What is data type?
-<br class="f">
-Data type is possible values + operations on them + representation as machine
-types.
-Data type (or simply type) is a **collection** or grouping of **data values**,
-usually specified by a set of **possible values**, a set of allowed operations
-on these values, and/or a representation of these values as machine types.
-
-Modern programming languages offer ways to work with data without directly
-dealing with explicit types, you usually work through interfaces or abstract
-data.
-
-How computers store data, is there some diffirences between data types in their
-final form?
-<br class="f">
-Data itself is just basically numbers (including strings), in computers all data
-finally stored as [[bit]] sequences. <!--SR:!2024-09-29,2,221-->
-
-Most widely used data structure to store sequences?
-<br class="f">
-An [[array]].
-
-## Data structures implementation
-
-Array and record data structures are based on computing the ==addresses== of
-data items with arithmetic operations.
-[Stack \(Array Implementation\)](https://www.cs.usfca.edu/~galles/visualization/StackArray.html). <!--SR:!2024-09-29,2,221-->
-
-Linked data structures are based on storing addresses of data items within the
-==structure== itself.
-[Stack \(Linked List Implementaion\)](https://www.cs.usfca.edu/~galles/visualization/StackLL.html). <!--SR:!2024-09-29,2,221-->
-
-The implementation of a data structure usually requires writing a set of
-procedures that create and manipulate instances of that structure. The
-efficiency of a data structure cannot be analyzed separately from those
-operations. This observation motivates the theoretical concept of an abstract
-data type, a data structure that is defined ==indirectly== by the operations
-that may be performed on it, and the mathematical properties of those operations
-(including their space and time cost). <!--SR:!2024-09-29,2,221-->
-
-Data structure efficiency analyzing with their procedures which create and
-manipulate instances of that structure, which manipulations you know?
-<br class="f">
-insert, delete, search, etc. <!--SR:!2024-09-29,2,221-->
-
-## List of data structures
-
 - [[array]]
 - [[set]]
 - Linked Lists
@@ -120,9 +55,14 @@ Extra topics:
         - B-Trees
     - k-D Trees
 
-### Data types
+## Data types
 
-#### Primitive types
+### Programming languages
+
+- [[C_data_types]]
+- [[Python_data_structures]]
+
+### Primitive types
 
 - Boolean, true or false.
 - Character
@@ -135,15 +75,15 @@ Extra topics:
 - Enumerated type, a set of symbols
 - Complex, representation of complex numbers
 
-### Linear data structures
+## Linear data structures
 
-### Trees
+## Trees
 
-### Hash-based structures
+## Hash-based structures
 
-### Graphs
+## Graphs
 
-### Other
+## Other
 
 ## Data structures examples
 
@@ -235,6 +175,70 @@ Here is a list of the most common operations:
 - Search, if value exist in array, return index.
 - Insert, add new value to additional slot within array.
 - Delete, remove value from array. <!--SR:!2024-09-29,2,221-->
+
+
+Why data structures matter?
+<br class="f">
+Solid knowledge in data structures allows you to write scalable, fast and
+**efficient** software, increase your software expertise and make you happy 🙂.
+
+Analyzing the number of ==steps== an operation takes is the heart of
+understanding the performance of data structures and your program which use
+them. You **must** always analyze your application to see which data structure
+is a better fit. <!--SR:!2024-09-29,2,221-->
+
+Data structures refer to how data is **organized**. Does this data organization
+is matter for something?
+<br class="f">
+Data organization can be highly impact on **performance** and **efficiency**.
+Your program can run fast and efficient or even not run at all (out of memory as
+example). Depending on data organization program can run faster or slower by
+orders of magnitude. <!--SR:!2024-09-29,2,221-->
+
+What is data type?
+<br class="f">
+Data type is possible values + operations on them + representation as machine
+types.
+Data type (or simply type) is a **collection** or grouping of **data values**,
+usually specified by a set of **possible values**, a set of allowed operations
+on these values, and/or a representation of these values as machine types.
+
+Modern programming languages offer ways to work with data without directly
+dealing with explicit types, you usually work through interfaces or abstract
+data.
+
+How computers store data, is there some diffirences between data types in their
+final form?
+<br class="f">
+Data itself is just basically numbers (including strings), in computers all data
+finally stored as [[bit]] sequences. <!--SR:!2024-09-29,2,221-->
+
+Most widely used data structure to store sequences?
+<br class="f">
+An [[array]].
+
+## Data structures implementation
+
+Array and record data structures are based on computing the ==addresses== of
+data items with arithmetic operations.
+[Stack \(Array Implementation\)](https://www.cs.usfca.edu/~galles/visualization/StackArray.html). <!--SR:!2024-09-29,2,221-->
+
+Linked data structures are based on storing addresses of data items within the
+==structure== itself.
+[Stack \(Linked List Implementaion\)](https://www.cs.usfca.edu/~galles/visualization/StackLL.html). <!--SR:!2024-09-29,2,221-->
+
+The implementation of a data structure usually requires writing a set of
+procedures that create and manipulate instances of that structure. The
+efficiency of a data structure cannot be analyzed separately from those
+operations. This observation motivates the theoretical concept of an abstract
+data type, a data structure that is defined ==indirectly== by the operations
+that may be performed on it, and the mathematical properties of those operations
+(including their space and time cost). <!--SR:!2024-09-29,2,221-->
+
+Data structure efficiency analyzing with their procedures which create and
+manipulate instances of that structure, which manipulations you know?
+<br class="f">
+insert, delete, search, etc. <!--SR:!2024-09-29,2,221-->
 
 ## To-do
 

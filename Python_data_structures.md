@@ -174,8 +174,7 @@ for x in range(10):
 
 print(squares) # [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
 ```
-<br class="f">
-That this creates (or overwrites) a variable named `x` that still
+<br class="f"> That this creates (or overwrites) a variable named `x` that still
 exists after the loop completes. We can calculate the list of squares
 without any side effects using:
 ```python
