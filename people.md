@@ -21,6 +21,8 @@ sr-ease: 230
 I save some information about Peoples which I find interesting. I can save their
 contacts, biography, and other information.
 
+- [[TJDeVries]]
+
 - [ ] Isaac Newton
 - [ ] Nikola Tesla
 - [ ] Ibn sina (Авиценна)
@@ -31,9 +33,5 @@ contacts, biography, and other information.
 - [ ] [Tim Pope (tpope)](https://github.com/tpope)
 - [ ] [Dmitry V. Sokolov (ssloy)](https://github.com/ssloy)
 - [ ] [Sergey Leschev - Team Lead](https://sergeyleschev.github.io/)
-
-## Jay Wengrow
-jay@actualize.co
-
-
-## [Jonathan Blow](https://en.wikipedia.org/wiki/Jonathan_Blow)
+- [ ] Jay Wengrow jay@actualize.co
+- [ ] [Jonathan Blow](https://en.wikipedia.org/wiki/Jonathan_Blow)
