@@ -22,7 +22,7 @@ be ==automated==.
 
 I think knowing computer science help to write effective and scalable [[code]]
 (goal of good [[programmer]], which I want to be). I described how I
-[[learning|learn]] computer science [[#Computer science learning path|here]].
+[[learning|learn]] computer science [[#Learning path|here]].
 
 Computer science connect theory (computation, automation, information) with real
 world practice (software and hardware). In Russian, it's known as Информа́тика.

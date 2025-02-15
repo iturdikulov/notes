@@ -28,7 +28,7 @@ programming, software development in my learning path.
 ## Learning path
 
 Programming lerning path is closely related to
-[[computer_science#Computer science learning path|computer science learning path]].
+[[computer_science#Learning path|computer science learning path]].
 
 To understand custom bullet list types check [[my_notation]] note.
 

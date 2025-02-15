@@ -30,7 +30,7 @@ sr-ease: 216
 > learn how to:
 >
 > - Fight software rot
-> - [[computer_programming#Programming learning path|learn]] continuously
+> - [[computer_programming#Learning path|learn]] continuously
 > - Avoid the trap of duplicating knowledge
 > - Write flexible, dynamic, and adaptable code
 > - Harness the power of basic tools

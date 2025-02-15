@@ -33,7 +33,7 @@ tags:
 [[zen_of_python|Zen of python]] describes the philosophy of Python.
 
 This is most prioritized language for me. I learn it according to my
-[[computer_programming#Programming learning path|roadmap]].
+[[computer_programming#Learning path|roadmap]].
 
 **Python** is a [[high-level_programming_language|high-level]],
 [[general-purpose_programming_language|general-purpose]] programming language.

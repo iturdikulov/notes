@@ -36,4 +36,4 @@ A lot of [[computer_software]] include built-in cheatsheets of hotkeys:
 - [Wizard zines](https://wizardzines.com/comics/)
 - [C++ Cheat Sheets & Infographics](https://hackingcpp.com/cpp/cheat_sheets.html)
 - [CS 261](https://w3.cs.jmu.edu/lam2mo/cs261_2016_08/calendar.html), great
-source for [[computer_science#Computer science learning path|learning]].
+source for [[computer_science#Learning path|learning]].

@@ -20,7 +20,7 @@ sr-ease: 170
 [[Lua]], actively use it with [[Neovim]] as first-class programming language for
 customization and writing plugins.
 
-## Lua learning path
+## Learning path
 
 - `:h lua-guide` in neovim
 - [ ] [Everything You Need To Start Writing Lua - YouTube](https://www.youtube.com/watch?v=CuWfgiwI73Q)

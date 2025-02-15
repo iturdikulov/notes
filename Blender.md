@@ -20,11 +20,6 @@ animated films, visual effects, [[art]], 3D-printed models, motion graphics,
 interactive 3D applications, virtual reality, and, formerly, video
 [[game|games]].
 
-## Learning path
-
-- [ ] [Making 3D console](https://cgcookie.com/courses/press-start-your-simple-first-blender-project)
-- [ ] [Blender Panel to import Google Earth Studio, KML Routes, and 3D Masking](https://github.com/imagiscope/EarthStudioTools)
-
 ## General shortcuts
 
 - Toggle left toolbar:<wbr class="f"> `t`
@@ -384,6 +379,9 @@ _[Learn Blender with a poster infographic](https://www.giudansky.com/illustratio
 _[Blender Hotkey Cheat Sheet](https://cgcookie.com/downloads/blender-hotkey-cheat-sheet)_
 
 ## Learning path
+
+- [ ] [Making 3D console](https://cgcookie.com/courses/press-start-your-simple-first-blender-project)
+- [ ] [Blender Panel to import Google Earth Studio, KML Routes, and 3D Masking](https://github.com/imagiscope/EarthStudioTools)
 
 - Jan - Blender Secrets
 - Baechler and Greer-Blender 3D by Example

@@ -22,7 +22,7 @@ sr-ease: 223
 I get some fundamentals articles from [Frontend Developer Roadmap](https://roadmap.sh/frontend)
 
 I also have own
-[[computer_programming#Programming learning path]] to learn
+[[computer_programming#Learning path]] to learn
 frontend development.
 
 Source of articles and materials:

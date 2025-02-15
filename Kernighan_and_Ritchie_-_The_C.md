@@ -41,15 +41,14 @@ C wears well as one's ==experience== with it grows.
 Is C is a [[general-purpose_programming_language]] language?
 <br class="f">
 Yes, general-purpose something like universal language, to use it in any domain,
-and not have limited functions to specific domain. <!--SR:!2023-08-07,69,287-->
+and not have limited functions to specific domain. <!--SR:!2025-09-01,198,287-->
 
 Is C is high-level language?
 <br class="f">
 Yes, but it not a "very high-level" language, nor a "big" one. But its absence
 of restrictions and its generality make it more convenient and effective for
 many tasks than supposedly more powerful languages. For example, it's used a lot
-in hardware programming, embedded systems, kernel development, etc.
-<!--SR:!2023-07-28,59,267-->
+in hardware programming, embedded systems, kernel development, etc. <!--SR:!2025-07-23,158,267-->
 
 # Chapter 1 - A Tutorial Introduction /9
 

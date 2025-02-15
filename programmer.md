@@ -19,7 +19,7 @@ sr-ease: 242
 
 I usually program now in [[Python]].
 
-I think [[computer_programming#Programming learning path|main goal]] as
+I think [[computer_programming#Learning path|main goal]] as
 programmer is able to solve problems and break any limitations in professional
 way (able to do anything possible in a various fields). And of course write
 programs with high efficiency, quality and space complexity ☺.

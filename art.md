@@ -36,14 +36,14 @@ For me Art is sort of self-expression, when I have a need to express my thoughts
 or just "creative copy" something beautiful.
 
 I'm fan of traditional [[visual_art]] and CGI art. I have my
-[[art#Art learning path|study plan]] to understand art and their subfields
+[[art#Learning path|study plan]] to understand art and their subfields
 better.
 
 ## Learning path
 
 Currently, I'm focusing on learning [[visual_art]] and [[photography]],
 additionally I'm learning
-[[computer_graphics#Computer Graphics learning path|computer graphics]] which is
+[[computer_graphics#Learning path|computer graphics]] which is
 for me very close field.
 
 I also like to practice [[my_handwriting|handwriting]].
