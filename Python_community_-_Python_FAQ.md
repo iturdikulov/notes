@@ -5,7 +5,7 @@ external:
 tags:
   - blog
   - Python
-  - article_annotation
+  - annotation_article
 sr-due: 2024-05-06
 sr-interval: 102
 sr-ease: 208

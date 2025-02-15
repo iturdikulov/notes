@@ -2,7 +2,7 @@
 date: 2024-11-25T23:02+03:00
 tags:
   - blog
-  - book_annotation
+  - annotation_book
 author: Яков Перельман
 file: ~/Wiki/books/Perelman_-_Zanimatelnaya_matematika.pdf
 ---

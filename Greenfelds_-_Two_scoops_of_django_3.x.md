@@ -3,7 +3,7 @@ date: 2023-09-13T00:00+03:00
 tags:
   - blog
   - Python
-  - book_annotation
+  - annotation_book
 external:
   - https://www.feldroy.com/books/two-scoops-of-django-3-x
 directory: ~/Computer/web/Greenfelds-Two_Scoops_of_Django_3.x

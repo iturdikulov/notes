@@ -4,7 +4,7 @@ date: 2023-09-14T00:00+03:00
 tags:
   - blog
   - gamedev
-  - book_annotation
+  - annotation_book
 directory: ~/Computer/graphics/Manzur_and_Marques-Godot_Engine_Game_Development/
 sr-due: 2025-04-01
 sr-interval: 432

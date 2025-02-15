@@ -3,7 +3,7 @@ date: 2023-06-05T00:00+03:00
 tags:
   - blog
   - computer_terms
-  - article_annotation
+  - annotation_article
 sr-due: 2024-02-13
 sr-interval: 19
 sr-ease: 202

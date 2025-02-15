@@ -3,7 +3,7 @@ date: 2025-01-22T21:40+03:00
 tags:
   - blog
   - computer_programming_profession
-  - article_annotation
+  - annotation_article
 file: ./articles/Ershov_-_programmirovanie_vtoraya_gramotnost.pdf
 lang: ru
 ---

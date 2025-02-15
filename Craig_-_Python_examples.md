@@ -6,7 +6,7 @@ date: 2023-08-19T00:00+03:00
 tags:
   - blog
   - Python
-  - repo_annotation
+  - annotation_repo
 directory: ~/Computer/programming/Craig-Python_Examples/
 sr-due: 2024-01-31
 sr-interval: 6

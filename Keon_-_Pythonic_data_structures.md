@@ -6,7 +6,7 @@ date: 2023-08-19T00:00+03:00
 tags:
   - blog
   - Python
-  - repo_annotation
+  - annotation_repo
 directory: ~/Computer/science/Keon-Pythonic_Data_Structures/
 sr-due: 2024-01-28
 sr-interval: 3

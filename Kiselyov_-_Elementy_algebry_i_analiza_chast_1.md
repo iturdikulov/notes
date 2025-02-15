@@ -5,7 +5,7 @@ directory: ~/Science/math/Киселёв-Элементы_алгебры_и_ан
 tags:
   - blog
   - mathematics
-  - book_annotation
+  - annotation_book
 sr-due: 2024-04-28
 sr-interval: 94
 sr-ease: 210

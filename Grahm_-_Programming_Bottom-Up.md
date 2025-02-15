@@ -2,7 +2,7 @@
 date: 2025-02-05T22:28+03:00
 tags:
   - blog
-  - article_annotation
+  - annotation_article
   - computer_programming_profession
 author: Paul Graham
 file: ./articles/Graham_-_Programming_Bottom_Up.html

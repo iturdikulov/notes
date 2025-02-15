@@ -4,7 +4,7 @@ author: Ruslan Osipov
 tags:
   - blog
   - cheat-sheets
-  - book_annotation
+  - annotation_book
 directory: ~/Computer/software/Osipov-Mastering_Vim/
 sr-due: 2024-02-10
 sr-interval: 16

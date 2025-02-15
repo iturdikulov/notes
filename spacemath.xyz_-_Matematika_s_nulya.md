@@ -4,7 +4,7 @@ date: 2025-01-14T11:41+03:00
 tags:
   - blog
   - mathematics
-  - book_annotation
+  - annotation_book
 ---
 
 # Математика с нуля

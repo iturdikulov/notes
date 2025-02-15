@@ -6,7 +6,7 @@ archive: null
 tags:
   - blog
   - physics
-  - book_annotation
+  - annotation_book
 sr-due: 2024-07-02
 sr-interval: 1
 sr-ease: 230

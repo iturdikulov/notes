@@ -6,7 +6,7 @@ directory: ~/Science/math/Емелин-Кратчайший_курс_школь�
 tags:
   - blog
   - mathematics
-  - book_annotation
+  - annotation_book
 sr-interval: 7
 sr-ease: 170
 date: 2025-01-14T11:41+03:00

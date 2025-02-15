@@ -4,7 +4,7 @@ external:
   - https://docs.python.org/3/tutorial/appetite.html
 tags:
   - blog
-  - article_annotation
+  - annotation_article
 ---
 
 # 1. Whetting Your Appetite

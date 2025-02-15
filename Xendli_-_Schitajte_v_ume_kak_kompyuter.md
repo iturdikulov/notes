@@ -4,7 +4,7 @@ author: Билл Хэндли
 tags:
   - blog
   - mathematics
-  - book_annotation
+  - annotation_book
 directory: ~/Science/math/Хэндли_Считайте_в_уме_как_компьютер/
 sr-due: 2025-02-28
 sr-interval: 400

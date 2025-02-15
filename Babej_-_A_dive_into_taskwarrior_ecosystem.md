@@ -6,7 +6,7 @@ external:
 tags:
   - blog
   - productivity
-  - article_annotation
+  - annotation_article
 sr-due: 2025-06-04
 sr-interval: 496
 sr-ease: 248

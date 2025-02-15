@@ -8,7 +8,7 @@ file: ~/Arts_and_Entertainment/literature/Andriei Stoliarov/Tom 1. Proghrammirov
 tags:
   - blog
   - computer_programming_fix
-  - book_annotation
+  - annotation_book
 lang: ru
 ---
 

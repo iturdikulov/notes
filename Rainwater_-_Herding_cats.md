@@ -3,7 +3,7 @@ date: 2025-01-14T11:41+03:00
 tags:
   - blog
   - psychology
-  - book_annotation
+  - annotation_book
 author:
   - J. Hank Rainwater
 external:

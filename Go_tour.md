@@ -2,7 +2,7 @@
 date: 2025-02-06T10:20+03:00
 tags:
   - blog
-  - research
+  - annotation_repo
 author: Google
 external:
   - https://go.dev/tour/

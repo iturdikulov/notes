@@ -2,7 +2,7 @@
 tags:
   - blog
   - keyboard
-  - article_annotation
+  - annotation_article
 author: Dan
 date: 2025-01-14T11:41+03:00
 external:

@@ -3,7 +3,7 @@ author: Jonathan Lampel
 tags:
   - blog
   - 3D
-  - video_annotation
+  - annotation_video
 date: 2023-12-12T00:00+03:00
 external:
   - https://cgcookie.com/courses/blender-basics-an-introduction-to-blender-4-x
@@ -21,14 +21,14 @@ At the end of this course, you will be able to comfortably navigate Blender
 And I think more important, you can understand basic concepts of 3D
 graphics and how to work with it.
 
-# 1 Intro to Blender 4.0
+## 1 Intro to Blender 4.0
 
 Interface is too small, how I can adjust it?
 <br class="f">
 You can adjust resolution scale for UI in `Blender Preferences` → `UI`.
 <!--SR:!2024-01-31,10,270-->
 
-# 2: Navigating the 3D View
+## 2: Navigating the 3D View
 
 How to zoom in/out?
 <br class="f">
@@ -58,7 +58,7 @@ aviable:
 2. `S-M-LMB` for pan navigate
 3. `C-A-LMB` for zoom
 
-# 3: Selecting Objects
+## 3: Selecting Objects
 
 To deselect everything click on free space, or press ==`M-A`==.
 
@@ -89,7 +89,7 @@ X - is sort of cartwheel exercise, 🤸
 Y - is front/backflip
 Z - is pirouetting
 
-# 4: Transforming Objects and Adjusting Transformations
+## 4: Transforming Objects and Adjusting Transformations
 
 Little squares in Gizmo move tool move object in ==2 axes (plane)==.
 <!--SR:!2024-01-28,7,250-->
@@ -119,7 +119,7 @@ using `C-` or `C-S-` keys.
 You can clear object transformation by ==`M-G, M-R, M-S`== keys.
 <!--SR:!2024-01-25,4,230-->
 
-# 5: Adding, Deleting, and the 3D Cursor
+## 5: Adding, Deleting, and the 3D Cursor
 
 Is context menu and object deletion aviable in outliner?
 <br class="f">
@@ -136,7 +136,7 @@ How to quickly add mesh primitives (cube, cylinder, etc.)?
 Add mesh tools (cube, cylinder, etc.) from left sidebar is useful to
 quickly generate meshes and snap them to geometry automatically.
 
-# 6: Local Space and Parenting
+## 6: Local Space and Parenting
 
 How transformation works in blender, is there any specific order?
 <br class="f">
@@ -159,7 +159,7 @@ child to parent. And you can clear parent hierarchy by moving them with
 When you parent child object to target object, ==target object== must be
 selected and active to make it parent (selected last).
 
-# 7: Editing Object Data
+## 7: Editing Object Data
 
 How to open object data in outliner?
 <br class="f">
@@ -172,7 +172,7 @@ Object is sort of container, which can store other objects and object data.
 You can also change objects data from one to another one. Also object has
 own properties and object data (data block) has own properties.
 
-# 8: Edit Mode and Object Origins
+## 8: Edit Mode and Object Origins
 
 Does vertices and edges have size?
 <br class="f">
@@ -212,7 +212,7 @@ To quickly change current mode for object, you can use PIE menu -
 You usually need to model object in edit mode, but rotate it in ==object
 mode==, to keep its local orientation.
 
-# 9: Duplicate and Instance Objects
+## 9: Duplicate and Instance Objects
 
 How to duplicate object and place it in same place?
 <br class="f">
@@ -225,7 +225,7 @@ their ==data==, and move them. Linked instances much more effective in
 terms of memory usage and rendering. And it's working for various objects:
 Light, Geometry, Camera, etc.
 
-# 10: Pivot Points, Snapping, and Proportional Editing
+## 10: Pivot Points, Snapping, and Proportional Editing
 
 How to change pivot point?
 <br class="f">
@@ -339,7 +339,7 @@ How to flip normals?
 <br class="f">
 You can flip normal by selecting it and press `M-N`, then `flip`.
 
-# 13: The Extrude, Inset, and Knife Tools
+## 13: The Extrude, Inset, and Knife Tools
 
 Extrusion face in blender means?
 <br class="f">
@@ -385,7 +385,7 @@ How to quickly select extrusion mode?
 `M-E` open extrude menu, which allow you to extrude along normals,
 individual faces, etc.
 
-# 14 - Bevel and Edge Loops
+## 14 - Bevel and Edge Loops
 
 You can use bevel tool ==(`C-B`)== on edges and vertices (`V` to toggle,
 `C-S-B` to start with vertices). Good shape to training is box.
@@ -412,7 +412,7 @@ modes).
 Loop cut can't go through face with ==5+ edges (ngon's)== and through
 triangles.
 
-# 15 - Subdivide, Fill, and Merge
+## 15 - Subdivide, Fill, and Merge
 
 How to subdivide Edges?
 <br class="f">
@@ -454,7 +454,7 @@ enable snapping by vertex.
 To create some form from edge loops (for example tunnel), select edges,
 then `Edge` menu → ==`Bridge Edge Loops`==.
 
-# 16 - Object Modifiers
+## 16 - Object Modifiers
 
 How to add bevel modifier?
 <br class="f">
@@ -492,7 +492,7 @@ How to quickly find element in menu?
 <br class="f">
 You can instantly type something in menus, to quickly find element.
 
-# 17 - Editors and Windows
+## 17 - Editors and Windows
 
 You can temporarily hide toolbar by ==`T`== key.
 
@@ -521,7 +521,7 @@ How to permanently save current settings?
 current settings (tools, workspaces, etc.) into startup file or reset all
 of them.
 
-# 18 - Working With Blend Files
+## 18 - Working With Blend Files
 
 How to ignore UI settings when opening blend file?
 <br class="f">
@@ -560,7 +560,7 @@ you move texture somewhere, blender don't track this changes, and then you
 need to manually relink texture. But you can pack this texture into blend
 file (File → External Data → Pack Resources).
 
-# 19 - Cameras and Rendering
+## 19 - Cameras and Rendering
 
 How to change active camera?
 <br class="f">
@@ -591,7 +591,7 @@ How to render image with transparency?
 To render image with transparency go to `Render` settings tab → `Film` and
 enable `Transparent`.
 
-# 20 - Materials and Lighting
+## 20 - Materials and Lighting
 
 Is possible quickly transfer material/colors between objects?
 <br class="f">
@@ -633,7 +633,7 @@ Which base parameters are control Sunlight type?
 <br class="f">
 Position is no matter, only rotation and point location is matter.
 
-# 21 - Intro to 3D Animation
+## 21 - Intro to 3D Animation
 
 How to quickly jump to specific frame?
 <br class="f">
@@ -685,7 +685,7 @@ How to move keyframes in Timeline?
 You can move keyframes in Timeline by selecting it and use `G` → `Drag &
 Drop`.
 
-# 22 - 2D Animation with Grease Pencil
+## 22 - 2D Animation with Grease Pencil
 
 How to access grease pencil mode?
 <br class="f">
@@ -739,7 +739,7 @@ How to replicate hand-drawn animation (simple method using some modifier)?
 You can apply `Build` modifier to grease pencil object to animate for
 example how it was drawn (check Timing → Natural Drawing Speed).
 
-# 23 - Intro to Sculpting
+## 23 - Intro to Sculpting
 
 To swap direction in sculpting mode, use ==`C-`== key.
 
@@ -802,7 +802,7 @@ How to avoid lumps in sculpting?
 <br class="f">
 To avoid lumps, prefer to work with low-res mesh and then add more details.
 
-# 24 - Next Steps
+## 24 - Next Steps
 
 Learn basics, before you dive into some specific area.
 

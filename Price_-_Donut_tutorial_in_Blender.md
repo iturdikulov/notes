@@ -6,7 +6,7 @@ directory: ~/Computer/graphics/archive/Price-Donut_Tutorial
 tags:
   - blog
   - 3D
-  - video_annotation
+  - annotation_video
 sr-due: 2025-06-09
 sr-interval: 501
 sr-ease: 250
@@ -15,6 +15,8 @@ sr-ease: 250
 # Blender Beginner Donut Tutorial
 
 A big part of this tutorial is also in [[Blender]] note.
+
+## Part 1
 
 Probably better to place `subdivision modifier` on bottom of the stack
 (depends on the situation).
@@ -63,7 +65,7 @@ One method to quickly set camera position:
 To set material, in properties window (right side), select material tab and
 press add new, and set base color and other properties.
 
-# Part 2
+## Part 2
 
 After adding new object, in bottom left corner will be temporary (until you
 not do any action) available object options, to reopen them press `F9`.
@@ -82,7 +84,7 @@ size), use mouse scroll or use `PgUP`/`PgDown`.
 Sometimes useful to hide part of object. One method to do it is select
 edge, use grow selection and hide it.
 
-# Part 3
+## Part 3
 
 TODO: add note. **Z-fighting**, also called **stitching** or
 **planefighting**, is a phenomenon in 3D rendering that occurs when two or
@@ -114,14 +116,14 @@ apply.
 
 Blender modifiers work from ==top to bottom== (order).
 
-# Part 4
+## Part 4
 
 ==Shrink wrap== modifier can help with snapping vertices between two
 objects. Select target mesh, which vertices need to be snapped. Usually
 need to place this modifier above other ones.
 <!--SR:!2023-12-10,3,250-->
 
-## Sculpting
+### Sculpting
 
 If you have subdivision modifier, which is not applied, sculpting still
 working on low-poly mesh, so usually you need to ==apply it==.
@@ -140,7 +142,7 @@ You can smooth mask by ==Mask menu (top bar) and select smooth mask==.
 
 To reduce "lumpiness" in model, you can use ==smooth== tool.
 
-# Part 5 - Shading
+## Part 5 - Shading
 
 To set color you need to add material, and usually first you need to set
 ==Base color==.
@@ -217,7 +219,7 @@ If you changed texture by using Texture Paint don't forget to ==save it==
 To determine isolate mode, check Top Left status in layout mode `User
 Perspective (Local)` means we are in ==isolate mode==.
 
-# Part 6 Geometry Nodes
+## Part 6 Geometry Nodes
 
 You can find Geometry Nodes in default layout menu.
 
@@ -314,7 +316,7 @@ You can make values easier to edit using Math node (Multiply/Divide/Etc).
 It's useful to control density for example.
 <!--SR:!2023-12-12,4,270-->
 
-# Part 7: Geometry Nodes (Long Sprinkles)
+## Part 7: Geometry Nodes (Long Sprinkles)
 
 Any operations like dragging/scale usually better to do with disabled
 ==proportional edition mode (`O`) and snapping (`S-TAB`)==.
@@ -406,7 +408,7 @@ will ==be converted into specific value==.
 
 [Notes](file:///home/inom/Downloads/Part%208%20Rendering.html)
 
-# Part 8: Rendering
+## Part 8: Rendering
 
 You can apply material to multiple objects. Select required objects
 (`S-LMB`), as last step select object with material, and then ==link them:
@@ -481,7 +483,7 @@ inside).
 - `Scale (thickness)`, for example 0.002 - 0.005, it's depend on object
 dimensions.
 
-# Part 9: Layout
+## Part 9: Layout
 
 You can quickly split blender layout windows, move cursor to corner of
 window, it became + shape, while holding LMB move to create window if there
@@ -534,7 +536,7 @@ or `X,X/Y,Y,Z,Z` for local axis==.
 
 TODO: Rigid Body note.
 
-# Part 10: Lighting
+## Part 10: Lighting
 
 You can switch lamp type in lamp tab, available these types of light
 source: ==Point, Sun, Spot and Area==.
@@ -602,7 +604,7 @@ personal issue)?
 If you can't select multiple object, check maybe you have some issues with
 linked objects (issues after duplicate for example).
 
-# Part 11: Compositing
+## Part 11: Compositing
 
 TODO: add note about area light.
 
@@ -642,7 +644,7 @@ High Contrast`, View Transform `AgX` (more realistic).
 
 To delete node and retain its connection press ==`C-X`==.
 
-## Glare
+### Glare
 
 Using compositor you can create `Glare` node.
 To add glare node: ==`S-A` → `Filter` → `Glare`==.
@@ -686,7 +688,7 @@ very low values.
 You can quickly toggle post-processing like Compositing in ==`Output`== Tab
 → `Post Processing`.
 
-# Part 12: Keyframe animation
+## Part 12: Keyframe animation
 
 In layout mode on bottom exist animation timeline (`Playback`), you can
 drag it up. Here some useful controls, like start/end keyframe (animation
@@ -738,7 +740,7 @@ values are 30 FPS and 60 FPS (online platforms, gaming, etc.). 30 FPS, is
 usually enough for animation, 60 FPS for smooth 3D content for example and
 24 FPS usually using in films shot (minimal for smooth animation).
 
-# Part 13: Rendering
+## Part 13: Rendering
 
 AI Denoiser work good with high ==Sampling Rate==.
 
@@ -781,7 +783,7 @@ of image intensities. Usually you want to minimize High Clip values here
 - Output `TIFF` 8-bit, path frames/version.
 - Render first, middle and last frame to validate result.
 
-# Part 14: Video Editor
+## Part 14: Video Editor
 
 Usually you want to create new blend file especially for video: `File` →
 `New` → ==`Video Editing`==.

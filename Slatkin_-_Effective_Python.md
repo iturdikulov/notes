@@ -2,7 +2,7 @@
 tags:
   - blog
   - Python
-  - book_annotation
+  - annotation_book
 author: Brett Slatkin
 date: 2025-01-14T11:41+03:00
 sr-due: 1681833600

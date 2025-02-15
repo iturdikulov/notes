@@ -7,7 +7,7 @@ archive: true
 tags:
   - blog
   - Python
-  - article_annotation
+  - annotation_article
 sr-due: 2024-06-16
 sr-interval: 143
 sr-ease: 246

@@ -7,7 +7,7 @@ external:
 tags:
   - blog
   - computer_testing
-  - video_annotation
+  - annotation_video
 sr-due: 2024-01-29
 sr-interval: 2
 sr-ease: 226

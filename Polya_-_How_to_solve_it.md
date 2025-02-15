@@ -4,7 +4,7 @@ directory: ~/Arts_and_Entertainment/literature/George Polya/How to solve it (227
 tags:
   - blog
   - mathematics
-  - book_annotation
+  - annotation_book
 sr-due: 2024-05-12
 sr-interval: 108
 sr-ease: 250

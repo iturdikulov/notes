@@ -23,7 +23,7 @@ sr-ease: 291
 I use android on daily-basis with smartphone and tablet. But I'm trying to keep
 it simple and minimalistic.
 
-I store list of useful software in [[my_awesome_software_list#Android]].
+I store list of useful software in [[my_awesome_software_list#Mobile & Tablet]].
 
 I also need sync data between my working machine and android devices. There 2
 ways to sync data which I usually use:

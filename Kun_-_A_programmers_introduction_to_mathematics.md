@@ -2,7 +2,7 @@
 tags:
   - blog
   - mathematics
-  - book_annotation
+  - annotation_book
 author: Jeremy Kun
 external:
   - https://j2kun.gumroad.com/l/pim-book

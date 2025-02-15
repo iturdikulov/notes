@@ -3,7 +3,7 @@ directory: ~/Computer/programming/Kernighan_and_Ritchie-The_C_programming_langua
 tags:
   - blog
   - C
-  - book_annotation
+  - annotation_book
 sr-due: 2025-11-29
 sr-interval: 674
 sr-ease: 236
@@ -20,7 +20,7 @@ control flow, and data structures.
 
 Questions and answers formatted as flashcards.
 
-# Preface /6
+## Preface /6
 
 Any popular language changes over the time, and C is not an exception.
 
@@ -36,7 +36,7 @@ Write ==useful== programs probably the best goal to learn any language.
 C wears well as one's ==experience== with it grows.
 <!--SR:!2023-07-31,62,267-->
 
-# Preface to the first edition /8
+## Preface to the first edition /8
 
 Is C is a [[general-purpose_programming_language]] language?
 <br class="f">
@@ -50,7 +50,7 @@ of restrictions and its generality make it more convenient and effective for
 many tasks than supposedly more powerful languages. For example, it's used a lot
 in hardware programming, embedded systems, kernel development, etc. <!--SR:!2025-07-23,158,267-->
 
-# Chapter 1 - A Tutorial Introduction /9
+## Chapter 1 - A Tutorial Introduction /9
 
 Basics of C (as language, like [[variable]] and arithmetic [[expression]]).
 <br class="f">
@@ -65,7 +65,7 @@ Basics of C (as language, like [[variable]] and arithmetic [[expression]]).
 - Pointers, `int *p;`
 - Standard library, `#include <stdio.h>`
 
-## 1.1 Getting Started /9
+### 1.1 Getting Started /9
 
 The only way to learn a new programming language is by ==writing programs== in
 it.
@@ -148,7 +148,7 @@ arguments (or just empty parenthesis).
 `"hello, world\n"` this is a ==character string== or ==string constant==.
 <!--SR:!2024-05-04,177,208!2023-07-27,58,248-->
 
-### Exercises
+#### Exercises
 
 - [x] [Exercise 1-1](file:///home/inom/Computer/programming/Kernighan_and_Ritchie-The_C_programming_language/chapter_1/1-1_hello_world.c).
 Run the "hello, world" program on your system. Experiment with leaving out parts
@@ -158,7 +158,7 @@ of the program, to see what error messages you get.
 Experiment to find out what happens when printf's argument string contains '\c,
 where c is some character not listed above.
 
-## 1.2 Variables and Arithmetic Expressions /11
+### 1.2 Variables and Arithmetic Expressions /11
 
 Formula to convert Fahrenheit to Celsius is
 ==$$^\circ C = \frac{5}{9} \times (^\circ F - 32)$$==
@@ -192,7 +192,7 @@ variable names, optionally initial value==. Example: `int fahr, celsius = 0`.
 
 What this code can output?
 ```c
-#include <stdio.h>
+##include <stdio.h>
 printf("Int size: %d byte sizeof(int)", sizeof(int));
 printf("Float size: %d byte sizeof(float)", sizeof(float));
 ```
@@ -252,7 +252,7 @@ printf("%d", 5/9); // 0
 Can you describe main sections of this code? For example first line is an
 include header...
 ```c
-#include <stdio.h>
+##include <stdio.h>
 /* print Fahrenheit-Celsius table
    for fahr = 0, 20, ..., 300; floating-point version */
 int main() {
@@ -311,7 +311,7 @@ If variable has floating-point nature, but can be written using integral values
 [[printf_format_string|printif]] check this note for details how '%'
 placeholder in printf work.
 
-## 1.3 The for statement /16
+### 1.3 The for statement /16
 
 In any context where it is permissible to use the value of some type, you can
 use ==a more complicated expression of that type==.
@@ -337,7 +337,7 @@ true?
 <br class="f">
 Yes, any **valid** expressions. TODO: test it.
 
-## 1.4 Symbolic Constants /17
+### 1.4 Symbolic Constants /17
 
 A `#define` line defines a ==`symbolic name` or `symbolic constant`== to be a
 particular string of character (token string). Generally speaking `#define`
@@ -351,10 +351,10 @@ Need use `#define name replacement list` statement.
 Why we used here `#define` here? Why not just place this definitions in for loop
 control structure?
 ```c
-#include <stdio.h>
-#define LOWER 0   /* lower limit of table */
-#define UPPER 300 /* upper limit */
-#define STEP  20  /* step size */
+##include <stdio.h>
+##define LOWER 0   /* lower limit of table */
+##define UPPER 300 /* upper limit */
+##define STEP  20  /* step size */
 /* print Fahrenheit-Celsius table */
 int main() {
     int fahr;
@@ -367,7 +367,7 @@ int main() {
 <br class="f">
 Its bad practice to bury **magic numbers** like 300 and 20 in program.
 
-## 1.5 Character Input and Output /18
+### 1.5 Character Input and Output /18
 
 A text stream is a sequence of ==characters==
 <!--SR:!2024-08-28,293,268-->
@@ -389,7 +389,7 @@ G
 ```
 <!--SR:!2023-08-06,68,288-->
 
-### 1.5.1 File Copying /18
+#### 1.5.1 File Copying /18
 
 What does this code do, describe main steps?
 ```c
@@ -409,7 +409,7 @@ Read character from input stream
 ```
 <!--SR:!2024-07-11,245,267-->
 
-### 1.5.2 Character Counting /20
+#### 1.5.2 Character Counting /20
 
 Can this program to count characters simplified?
 ```c
@@ -449,10 +449,10 @@ Difference between `++nc` and `nc++`
 <br class="f">
 `6` - minimum field width, `1` - precision, `f` - floating point number.
 
-### 1.5.3 Line Counting /21
+#### 1.5.3 Line Counting /21
 
 ```c
-#include <stdio.h>
+##include <stdio.h>
 
 /* count lines in input */
 int main() {
@@ -472,13 +472,13 @@ int main() {
 `'\n'`is a ==newline character==, `0x0A` in hex, `10` in decimal.
 <!--SR:!2024-01-12,244,268-->
 
-### 1.5.4 Word Counting /22
+#### 1.5.4 Word Counting /22
 
 ```c
-#include <stdio.h>
+##include <stdio.h>
 
-#define IN  1 /* inside a word */
-#define OUT 0 /* outside a word */
+##define IN  1 /* inside a word */
+##define OUT 0 /* outside a word */
 
 /* count lines, words, and characters in input */
 int main() {
@@ -512,7 +512,7 @@ An assignment is an expression with the value and assignments associated from
 Expressions connected by && or || are evaluated (direction) ==left to right==.
 <!--SR:!2023-07-17,76,248-->
 
-## 1.6 Arrays /23
+### 1.6 Arrays /23
 
 White space characters are
 <br class="f">
@@ -527,7 +527,7 @@ printed page — they make reading easier.
 <!--SR:!2023-06-13,32,248-->
 
 ```c
-#include <stdio.h>
+##include <stdio.h>
 
 /* count digits, white space, others */
 int main() {
@@ -564,13 +564,13 @@ By definition, `chars` are just small ==integers==
 <!--SR:!2023-07-19,78,250-->
 
 ```c
-#include <stdio.h>
+##include <stdio.h>
 int main() {
     printf("char size in bytes %d\n", sizeof(char));
 }
 ```
 
-## 1.7 Functions /25
+### 1.7 Functions /25
 
 Function encapsulate things, so we can reuse it in different places and don't
 worry about ==its implementation==.
@@ -593,7 +593,7 @@ Above function declaration.
 <!--SR:!2023-05-17,4,274-->
 
 ```c
-#include <stdio.h>
+##include <stdio.h>
 
 // function prototype
 int power(int m, int n);
@@ -668,7 +668,7 @@ function decalaration
 Well-chosen names are good self-==documenting== code
 <!--SR:!2023-08-23,80,267-->
 
-## 1.8 Arguments - Call by Value /28
+### 1.8 Arguments - Call by Value /28
 
 In C, all function arguments are passed by ==value, unless argument is
 pointer/array==.
@@ -692,7 +692,7 @@ function is ==the location or address of the beginning of the array==.
 <!--SR:!2023-05-15,3,267-->
 
 
-## 1.9 Character Arrays /29
+### 1.9 Character Arrays /29
 
 The most common type of array in C is the ==array of characters==.
 <!--SR:!2023-07-18,49,287-->
@@ -712,8 +712,8 @@ C implementation:
  * Program to print the longest input line
  */
 
-#include <stdio.h>
-#define MAXLINE 10000 /* maximum input line length */
+##include <stdio.h>
+##define MAXLINE 10000 /* maximum input line length */
 
 // Functions prototypes
 int getline(char line[], int maxline);
@@ -778,7 +778,7 @@ called, and disappears when the function is exited. This is why such variables
 are usually known as ==automatic variables==.
 <!--SR:!2023-05-16,3,254-->
 
-## 1.10 External Variables and Scope /31
+### 1.10 External Variables and Scope /31
 
 To use external variable you need to ==define and declare== it.
 <!--SR:!2023-05-23,6,227-->
@@ -788,9 +788,9 @@ storage; "declaration" refers to places where the nature of the variable is
 stated, but no storage is allocated.
 
 ```c
-#include <stdio.h>
+##include <stdio.h>
 
-#define MAXLINE 1000   /* maximum input line size */
+##define MAXLINE 1000   /* maximum input line size */
 
 // Define external variables
 int max;               /* maximum length seen so far */
@@ -879,7 +879,7 @@ program.
 <!--SR:!2023-06-23,24,247-->
 
 
-# Chapter 2 - Types, Operators and Expressions /35
+## Chapter 2 - Types, Operators and Expressions /35
 
 Which core language parts usually program consists of?
 <br class="f">
@@ -895,7 +895,7 @@ The type of object determines (variable, expression...)?
 <br class="f">
 The set of values it can have and what operations can be performed on it.
 
-## 2.1 Variable Names /35
+### 2.1 Variable Names /35
 
 Which variable names rules you should follow?
 <br class="f">
@@ -926,7 +926,7 @@ lowercase, `_` as word separator, can be short for local variables (especially
 loop indices), for external can be longer, but in limit's range.
 
 
-## 2.2 Data Types and Sizes /35
+### 2.2 Data Types and Sizes /35
 
 Can we omit `int` in `short` and `long` declarations?
 <br class="f">
@@ -962,7 +962,7 @@ characters are always positive.
 Plain `int` is equivalent to ==`signed int`==.
 <!--SR:!2024-05-21,194,234-->
 
-## 2.3 Constants /36
+### 2.3 Constants /36
 
 `1234` as is in code it's?
 <br class="f">
@@ -1099,7 +1099,7 @@ Yes, enumeration is usually better than `#define` because enumeration offer the
 chance of checking and debugger may print enumeration values in their symbolic
 form.
 
-## 2.4 Declarations /39
+### 2.4 Declarations /39
 
 
 ```c
@@ -1116,7 +1116,7 @@ What is `c` and `line`?
 <!--SR:!2023-05-16,3,254-->
 
 ```c
-#define MAXLINE 1000
+##define MAXLINE 1000
 int limit = MAXLINE + 1;
 printf("%d\n", limit); /* 1001 */
 ```
@@ -1151,7 +1151,7 @@ change that array. Result is implementation dependent if an attempt is made to
 change a `const` object.
 <!--SR:!2023-06-21,22,234-->
 
-## 2.5 Arithmetic Operators /40
+### 2.5 Arithmetic Operators /40
 
 Which arithmetic operations you know (5 operations)?
 <br class="f">
@@ -1176,7 +1176,7 @@ Oder of precedence of arithmetic operators (higher first)?
 2. Multiplicative operators: `*`, `/`, `%`
 3. Additive operators: `+`, `-`
 
-## 2.6 Relational and Logical Operators /40
+### 2.6 Relational and Logical Operators /40
 
 `>`, `>=`, `<`, `<=`, `==`, `!=` are relational and equality operators. Which
 precedence they have?
@@ -1219,7 +1219,7 @@ printf("%d\n", !"hello"); /* 0 */
 printf("%d\n", !'\0'); /* 1 */
 ```
 
-## 2.7 Type Conversions /41
+### 2.7 Type Conversions /41
 
 Which one is operand, operator and operation in `a = b + c;`?
 <br class="f">
@@ -1282,395 +1282,3 @@ unsigned operands (some expression with multiple operands)?
 Will we convert value of right side to left, on assignment?
 <br class="f">
 Yes, the value of the right side is converted to the type of the left side.
-
-## 2.8 Increment and Decrement Operators /44
-
-## 2.9 Bitwise Operators /46
-
-## 2.10 Assignment Operators and Expressions /47
-
-## 2.11 Conditional Expressions /49
-
-## 2.12 Precedence and Order of Evaluation /49
-
-# Chapter 3 - Control Flow /52
-
-## 3.1 Statements and Blocks /52
-
-## 3.2 If-Else /52
-
-## 3.3 Else-If /53
-
-## 3.4 Switch /54
-
-## 3.5 Loops - While and For /56
-
-## 3.6 Loops - Do-While /58
-
-## 3.7 Break and Continue /59
-
-## 3.8 Goto and labels /60
-
-# Chapter 4 - Functions and Program Structure /62
-
-## 4.1 Basics of Functions /62
-
-## 4.2 Functions Returning Non-integers /65
-
-## 4.3 External Variables /67
-
-## 4.4 Scope Rules /72
-
-## 4.5 Header Files /73
-
-## 4.6 Static Variables /75
-
-## 4.7 Register Variables /75
-
-## 4.8 Block Structure /76
-
-## 4.9 Initialization /76
-
-## 4.10 Recursion /78
-
-## 4.11 The C Preprocessor /79
-
-### 4.11.1 File Inclusion /79
-
-### 4.11.2 Macro Substitution /80
-
-### 4.11.3 Conditional Inclusion /82
-
-# Chapter 5 - Pointers and Arrays /83
-
-## 5.1 Pointers and Addresses /83
-
-## 5.2 Pointers and Function Arguments /84
-
-## 5.3 Pointers and Arrays /87
-
-## 5.4 Address Arithmetic /90
-
-## 5.5 Character Pointers and Functions /93
-
-## 5.6 Pointer Arrays; Pointers to Pointers /96
-
-## 5.7 Multi-dimensional Arrays /99
-
-## 5.8 Initialization of Pointer Arrays /101
-
-## 5.9 Pointers vs. Multi-dimensional Arrays /101
-
-## 5.10 Command-line Arguments /102
-
-## 5.11 Pointers to Functions /106
-
-## 5.12 Complicated Declarations /108
-
-# Chapter 6 - Structures /114
-
-## 6.1 Basics of Structures /114
-
-## 6.2 Structures and Functions /116
-
-## 6.3 Arrays of Structures /118
-
-## 6.4 Pointers to Structures /122
-
-## 6.5 Self-referential Structures /124
-
-## 6.6 Table Lookup /127
-
-## 6.7 Typedef /129
-
-## 6.8 Unions /131
-
-## 6.9 Bit-fields /132
-
-# Chapter 7 - Input and Output /135
-
-## 7.1 Standard Input and Output /135
-
-## 7.2 Formatted Output - printf /137
-
-## 7.3 Variable-length Argument Lists /138
-
-## 7.4 Formatted Input - Scanf /140
-
-## 7.5 File Access /142
-
-## 7.6 Error Handling - Stderr and Exit /145
-
-## 7.7 Line Input and Output /146
-
-## 7.8 Miscellaneous Functions /147
-
-### 7.8.1 String Operations /147
-
-### 7.8.2 Character Class Testing and Conversion /148
-
-### 7.8.3 Ungetc /148
-
-### 7.8.4 Command Execution /148
-
-### 7.8.5 Storage Management /148
-
-### 7.8.6 Mathematical Functions /149
-
-### 7.8.7 Random Number generation /149
-
-# Chapter 8 - The UNIX System Interface /151
-
-## 8.1 File Descriptors /151
-
-## 8.2 Low Level I/O - Read and Write /152
-
-## 8.3 Open, Creat, Close, Unlink /153
-
-## 8.4 Random Access - Lseek /155
-
-## 8.5 Example - An implementation of Fopen and Getc /156
-
-## 8.6 Example - Listing Directories /159
-
-## 8.7 Example - A Storage Allocator /163
-
-# Appendix A - Reference Manual /168
-
-## A.1 Introduction /168
-
-## A.2 Lexical Conventions /168
-
-### A.2.1 Tokens /168
-
-### A.2.2 Comments /168
-
-### A.2.3 Identifiers /168
-
-### A.2.4 Keywords /169
-
-### A.2.5 Constants /169
-
-#### A.2.5.1 Integer Constants /169
-
-#### A.2.5.2 Character Constants /170
-
-#### A.2.5.3 Floating Constants /170
-
-#### A2.5.4 Enumeration Constants /170
-
-### A.2.6 String Literals /171
-
-## A.3 Syntax Notation /171
-
-## A.4 Meaning of Identifiers /171
-
-### A.4.1 Storage Class /171
-
-### A.4.2 Basic Types /172
-
-### A.4.3 Derived types /173
-
-### A.4.4 Type Qualifiers /173
-
-## A.5 Objects and Lvalues /173
-
-## A.6 Conversions /173
-
-### A.6.1 Integral Promotion /174
-
-### A.6.2 Integral Conversions /174
-
-### A.6.3 Integer and Floating /174
-
-### A.6.4 Floating Types /174
-
-### A.6.5 Arithmetic Conversions /174
-
-### A.6.6 Pointers and Integers /175
-
-### A.6.7 Void /176
-
-### A.6.8 Pointers to Void /176
-
-## A.7 Expressions /176
-
-### A.7.1 Pointer Conversion /177
-
-### A.7.2 Primary Expressions /177
-
-### A.7.3 Postfix Expressions /177
-
-#### A.7.3.1 Array References /178
-
-#### A.7.3.2 Function Calls /178
-
-#### A.7.3.3 Structure References /179
-
-#### A.7.3.4 Postfix Incrementation /179
-
-### A.7.4 Unary Operators /179
-
-#### A.7.4.1 Prefix Incrementation Operators /180
-
-#### A.7.4.2 Address Operator /180
-
-#### A.7.4.3 Indirection Operator /180
-
-#### A.7.4.4 Unary Plus Operator /180
-
-#### A.7.4.5 Unary Minus Operator /180
-
-#### A.7.4.6 One's Complement Operator /180
-
-#### A.7.4.7 Logical Negation Operator /181
-
-#### A.7.4.8 Sizeof Operator /181
-
-### A.7.5 Casts /181
-
-### A.7.6 Multiplicative Operators /181
-
-### A.7.7 Additive Operators /182
-
-### A.7.8 Shift Operators /182
-
-### A.7.9 Relational Operators /183
-
-### A.7.10 Equality Operators /183
-
-### A.7.11 Bitwise AND Operator /183
-
-### A.7.12 Bitwise Exclusive OR Operator /184
-
-### A.7.13 Bitwise Inclusive OR Operator /184
-
-### A.7.14 Logical AND Operator /184
-
-### A.7.15 Logical OR Operator /184
-
-### A.7.16 Conditional Operator /184
-
-### A.7.17 Assignment Expressions /185
-
-### A.7.18 Comma Operator /185
-
-### A.7.19 Constant Expressions /186
-
-## A.8 Declarations /186
-
-### A.8.1 Storage Class Specifiers /187
-
-### A.8.2 Type Specifiers /188
-
-### A.8.3 Structure and Union Declarations /188
-
-### A.8.4 Enumerations /191
-
-### A.8.5 Declarators /192
-
-### A.8.6 Meaning of Declarators /193
-
-#### A.8.6.1 Pointer Declarators /193
-
-#### A.8.6.2 Array Declarators /194
-
-#### A.8.6.3 Function Declarators /194
-
-### A.8.7 Initialization /196
-
-### A.8.8 Type names /198
-
-### A.8.9 Typedef /199
-
-### A.8.10 Type Equivalence /199
-
-## A.9 Statements /199
-
-### A.9.1 Labeled Statements /200
-
-### A.9.2 Expression Statement /200
-
-### A.9.3 Compound Statement /200
-
-### A.9.4 Selection Statements /201
-
-### A.9.5 Iteration Statements /201
-
-### A.9.6 Jump statements /202
-
-## A.10 External Declarations /203
-
-### A.10.1 Function Definitions /203
-
-### A.10.2 External Declarations /204
-
-## A.11 Scope and Linkage /205
-
-### A.11.1 Lexical Scope /205
-
-### A.11.2 Linkage /206
-
-## A.12 Preprocessing /206
-
-### A.12.1 Trigraph Sequences /207
-
-### A.12.2 Line Splicing /207
-
-### A.12.3 Macro Definition and Expansion /207
-
-### A.12.4 File Inclusion /209
-
-### A.12.5 Conditional Compilation /210
-
-### A.12.6 Line Control /211
-
-### A.12.7 Error Generation /211
-
-### A.12.8 Pragmas /212
-
-### A.12.9 Null directive /212
-
-### A.12.10 Predefined names /212
-
-## A.13 Grammar /212
-
-# Appendix B - Standard Library /220
-
-## B.1 Input and Output: &lt;stdio.h&gt; /220
-
-### B.1.1 File Operations /220
-
-### B.1.2 Formatted Output /222
-
-### B.1.3 Formatted Input /223
-
-### B.1.4 Character Input and Output Functions /225
-
-### B.1.5 Direct Input and Output Functions /225
-
-### B.1.6 File Positioning Functions /226
-
-### B.1.7 Error Functions /226
-
-## B.2 Character Class Tests: &lt;ctype.h&gt; /226
-
-## B.3 String Functions: &lt;string.h&gt; /227
-
-## B.4 Mathematical Functions: &lt;math.h&gt; /228
-
-## B.5 Utility Functions: &lt;stdlib.h&gt; /229
-
-## B.6 Diagnostics: &lt;assert.h&gt; /231
-
-## B.7 Variable Argument Lists: &lt;stdarg.h&gt; /231
-
-## B.8 Non-local Jumps: &lt;setjmp.h&gt; /232
-
-## B.9 Signals: &lt;signal.h&gt; /232
-
-## B.10 Date and Time Functions: &lt;time.h&gt; /233
-
-## B.11 Implementation-defined Limits: &lt;limits.h&gt; and &lt;float.h&gt; /234
-
-# Appendix C - Summary of Changes /236

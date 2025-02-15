@@ -5,7 +5,7 @@ directory: ~/Computer/software/Neil-Practical_Vim
 tags:
   - blog
   - cheat-sheets
-  - book_annotation
+  - annotation_book
 sr-due: 2024-02-23
 sr-interval: 29
 sr-ease: 206

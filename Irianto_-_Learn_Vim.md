@@ -4,7 +4,7 @@ date: 2025-01-14T11:41+03:00
 tags:
   - blog
   - cheat-sheets
-  - book_annotation
+  - annotation_book
 external:
   - https://learnvim.irian.to
 directory: ~/Computer/software/Irianto-Learn_Vim

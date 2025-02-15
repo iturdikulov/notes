@@ -5,7 +5,7 @@ date: 2023-08-26T00:00+03:00
 tags:
   - blog
   - mathematics
-  - book_annotation
+  - annotation_book
 author: Math is Fun Team
 directory: ~/Science/math/Math_is_Fun_Team-Math_is_Fun/
 ---

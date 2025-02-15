@@ -3,7 +3,7 @@ external:
   - https://docs.python.org/3/tutorial/floatingpoint.html
 tags:
   - blog
-  - article_annotation
+  - annotation_article
 date: 2025-01-14T11:41+03:00
 ---
 

@@ -2,7 +2,7 @@
 tags:
   - blog
   - computer_programming
-  - book_annotation
+  - annotation_book
 author:
   - Andrew Hunt; David Thomas
 external:

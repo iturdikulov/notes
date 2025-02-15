@@ -4,7 +4,7 @@ external:
   - https://docs.python.org/3/tutorial/stdlib2.html
 tags:
   - blog
-  - article_annotation
+  - annotation_article
 date: 2025-01-14T11:41+03:00
 ---
 

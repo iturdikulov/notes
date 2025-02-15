@@ -5,7 +5,7 @@ external:
 date: 2023-08-19T00:00+03:00
 tags:
   - blog
-  - repo_annotation
+  - annotation_repo
 directory: ~/Computer/science/Martin-Interactive_Coding_Challenges/
 sr-due: 2024-02-10
 sr-interval: 16

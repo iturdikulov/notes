@@ -6,7 +6,7 @@ date: 2023-08-18T00:00+03:00
 tags:
   - blog
   - C
-  - repo_annotation
+  - annotation_repo
 directory: ~/Computer/programming/Kernighan_and_Ritchie-The_C_programming_language/Costrasel-The_C_Programming_Language_Solutions/
 sr-due: 2024-02-11
 sr-interval: 17

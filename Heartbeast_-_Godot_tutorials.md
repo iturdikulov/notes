@@ -3,7 +3,7 @@ date: 2024-01-01T00:00+03:00
 tags:
   - blog
   - gamedev
-  - video_annotation
+  - annotation_video
 directory: ~/Computer/graphics/Heartbeast-Godot_Tutorials/
 sr-due: 2024-01-29
 sr-interval: 3

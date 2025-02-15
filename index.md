@@ -110,7 +110,7 @@ science and deep programming knowledge. Thus, I define my sub-goals:
 - Learn computer graphics and game development every **week**, to create amazing
   visual content.
   <br class="f">
-  [[computer_graphics]], [[computer_programming#Game Development|game development]]
+  [[computer_graphics]], [[gamedev|game development]].
 
 ### Goal 3: Improve the quality of life and be happy
 

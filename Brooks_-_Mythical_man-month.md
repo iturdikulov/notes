@@ -4,7 +4,7 @@ author: Fred Brooks
 tags:
   - blog
   - psychology
-  - book_annotation
+  - annotation_book
 directory: ~/Arts_and_Entertainment/literature/Frederick Brooks/Mythical Man-Month, The_ Essays on Software Engineering, Anniversary Edition (1830)/
 sr-due: 2024-02-01
 sr-interval: 4
