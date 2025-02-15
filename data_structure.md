@@ -23,7 +23,7 @@ optimizations. <!--SR:!2024-10-09,1,201-->
 
 - [[array]]
 - [[set]]
-- Linked Lists
+- [[linked_data_structure]]
 - [[stack]]
 - [[queue]]
 - [[hash_table]]

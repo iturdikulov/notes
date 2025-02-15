@@ -23,3 +23,5 @@ sr-ease: 224
 > references are actually array indices: as long as no arithmetic is done on
 > those indices, the data structure is essentially a linked one.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Linked_data_structure)</cite>
+
+TODO: linked list
