@@ -11,7 +11,7 @@ sr-ease: 228
 # Control flow
 
 Remember, you start loop from 0 and check condition by ==N== if you use `<`
-[[boolean_expression]]. So it's canonical to write some like this:
+[[boolean#Boolean expression]]. So it's canonical to write some like this:
 
 ## Control flow in loop
 

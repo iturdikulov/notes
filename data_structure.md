@@ -64,7 +64,8 @@ Extra topics:
 
 ### Primitive types
 
-- Boolean, true or false.
+- [[boolean]]
+
 - Character
 - Floating-point representation of a finite subset of the rationals.
     - Including single-precision and double-precision IEEE 754 floats, among others
