@@ -120,7 +120,7 @@ escape last quote.
 > only difference between the two is that within single quotes you don’t need to
 > escape `"` (but you have to escape `'`) and vice versa.
 
-[[string_literal|Strings]] can be multiple lines, wrapped by triple double quotes
+[[string|Strings]] can be multiple lines, wrapped by triple double quotes
 (`"""`) or triple single quotes (`'''`). You can use `\` character to prevent
 automatically inserting new line in output, in functions or methods at the top
 this usually using for documentation (docstrings).
@@ -299,7 +299,7 @@ Most versatile [[data_type]] is [[list]]. In Python list can contain elements of
 [1, 4, 9, 16, 25] print(squares)  # [1, 4, 9, 16, 25] squares = ["1", 4, "9",
 16, "25"] print(squares) ``` <!--SR:!2024-12-30,66,240-->
 
-Lists almost like [[string_literal|string]] (but mutable) and
+Lists almost like [[string|string]] (but mutable) and
 [[Iterator|iterators]] can be indexed and sliced.
 
 ```python

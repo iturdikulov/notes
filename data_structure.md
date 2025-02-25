@@ -65,6 +65,7 @@ Extra topics:
 ### Primitive types
 
 - [[boolean]]
+- [[character]]
 
 - Character
 - Floating-point representation of a finite subset of the rationals.
