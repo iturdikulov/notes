@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"8ab3cd0adac49a27","type":"file","file":"TODO.md","x":-920,"y":-900,"width":780,"height":700},
+		{"id":"a1fd976bb514f70e","type":"file","file":"computer_programming.md","x":-920,"y":-180,"width":780,"height":660},
+		{"id":"9c3329ba21d23e74","type":"file","file":"my_routine.md","x":680,"y":-900,"width":800,"height":700},
+		{"id":"74b5ab0c7ee68ec8","type":"file","file":"projects.md","x":-120,"y":-900,"width":780,"height":700},
+		{"id":"97f656e4b4a12d28","type":"file","file":"computer_graphics.md","x":680,"y":-180,"width":800,"height":660},
+		{"id":"05e5eb87064f9baa","type":"file","file":"computer_science.md","x":-120,"y":-180,"width":780,"height":660}
+	],
+	"edges":[]
+}
