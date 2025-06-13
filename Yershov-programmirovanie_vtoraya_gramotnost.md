@@ -11,7 +11,7 @@ lang: ru
 # Программирование - вторая грамотность
 
 Заметки по
-[выступлению](./articles/Ershov_-_programmirovanie_vtoraya_gramotnost.pdf)
+[выступлению](articles/Ershov-programmirovanie_vtoraya_gramotnost.pdf)
 Андрея Петровича Ершова.
 
 > Любите книгу, источник знания.\
