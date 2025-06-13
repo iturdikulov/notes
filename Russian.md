@@ -49,6 +49,7 @@ _The Russian alphabet_
 - [gramota.ru](http://new.gramota.ru/)
 - [videotutor-rusyaz.ru](https://videotutor-rusyaz.ru/uchenikam/teoriya.html)
 - [morphologyonline.ru](https://morphologyonline.ru/chasti-rechi.html)
+- [Пунктуация - памятка графомана](https://proza.ru/diary/drcroco/2011-09-10)
 
 ## External links
 

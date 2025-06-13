@@ -411,9 +411,10 @@ sr-ease: 163
 тренировок](https://docs.google.com/spreadsheets/d/1M5zmwoW73Bi7qHlmtXLdg_lKuhbjlKZrqt4cMFRaxVQ/edit#gid=0)
 by /u/BaronMyrtle
 
-## To-do
+## Learning path
 
 - [ ] [50 Push-Ups Challenge](https://darebee.com/challenges/50-push-ups-challenge.html)
 - [ ] [Squat Challenge](https://darebee.com/challenges/squats-challenge.html)
 - [ ] [Ab Challenge](https://darebee.com/challenges/ab-challenge.html)
-- [[Volkov_i_dr_-_Bioximiya_myshechnoj_deyatelnosti]]
+- [[Volkov_i_dr-Bioximiya_myshechnoj_deyatelnosti]]
+- [Уроки Фёдора Емельянеко - YouTube](https://www.youtube.com/playlist?list=PLsQ5oQmHyvpJsegsBlA8I6QfG6LlCYDLV)

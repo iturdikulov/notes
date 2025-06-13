@@ -18,7 +18,8 @@ tags:
 
 - [ ] https://pragprog.com/titles/hwrust/hands-on-rust/
 
-- [[Muratori_-_Handmade_hero]]
+- [[Muratori-Handmade_hero]]
+  - [Building Handmade Hero with Nix Flakes](https://venikx.com/posts/handmade-hero-nixos/)
 - [[lineage_2_tools]]
 - [[L2bot]]
 - [[OpenCV_L2_Bot]]

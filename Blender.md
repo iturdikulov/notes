@@ -454,8 +454,8 @@ _[Blender Hotkey Cheat Sheet](https://cgcookie.com/downloads/blender-hotkey-chea
 - [ ] [Glass Liquid Simulation Tutorial](https://www.youtube.com/watch?v=V_LEc4r9_a0)
 
 - [ ] Geometry Nodes from scratch (check your filesystem)
-- [x] [[Price_-_Donut_tutorial_in_Blender]]
-- [x] [[CG_Cookie_-_Blender_basics]]
+- [x] [[Price-Donut_tutorial_in_Blender]]
+- [x] [[CG_Cookie-Blender_basics]]
 
 ## Tools
 

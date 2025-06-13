@@ -40,11 +40,11 @@ English](https://docs.godotengine.org/en/stable/about/list_of_features.html).
 - [ ] [Terrain3D for Godot 4 - C++ Editable Terrain System - YouTube](https://www.youtube.com/watch?v=Aj9vWIEaFXg)
     - [TokisanGames/Terrain3D: A high performance, editable terrain system for Godot 4.](https://github.com/TokisanGames/Terrain3D)
 - [ ] [Godot 4 Tutorial - Space Shooter Using Components - YouTube](https://www.youtube.com/watch?v=zUeLesdL7lE&list=PL9FzW-m48fn09w6j8NowI_pSBVcsb3V78&index=1))
-- [ ] [[HK-SHAO_-_Godot_raytracing_demo]]
+- [ ] [[HK-SHAO-Godot_raytracing_demo]]
 - [ ] [[Obuz_Game_Development_with_Blender_and_Godot]]
-- [ ] [[Godot_community_-_Godot_demo_projects]]
-- [ ] [[Manzur_and_Marques_-_Godot_engine_game_development]]
-- [ ] [[Heartbeast_-_Godot_tutorials]]
+- [ ] [[Godot_community-Godot_demo_projects]]
+- [ ] [[Manzur_and_Marques-Godot_engine_game_development]]
+- [ ] [[Heartbeast-Godot_tutorials]]
 
 
 ## Inbox

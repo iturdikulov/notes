@@ -37,7 +37,7 @@ TODO: global rewrite
 
 To understand custom bullet list types check [[my_notation]] note.
 
-- [ ] [[Osipov_-_Mastering_Vim]]
+- [ ] [[Osipov-Mastering_Vim]]
 - [ ] [Vim Tips I Wish I Knew Earlier - YouTube](https://www.youtube.com/watch?v=5BU2gBOe9RU)
 - [ ] [Diving Deeper in Vim Regular Expressions](https://thevaluable.dev/vim-regular-expressions-in-depth/)
 - [ ] [The Basics of Vim Regular Expressions](https://thevaluable.dev/regular-expression-basics-vim-grep/)
@@ -52,8 +52,8 @@ To understand custom bullet list types check [[my_notation]] note.
 - [ ] `:h`
 - [ ] [VimGolf](https://www.vimgolf.com/)
 - [ ] [Interactive Vim tutorial](http://www.openvim.com/)
-- [ ] [[Neil_-_Practical_Vim]]
-- [ ] [[Neil_-_Modern_Vim]]
+- [ ] [[Neil-Practical_Vim]]
+- [ ] [[Neil-Modern_Vim]]
 - [ ] [Neovim as a LaTex Development Environment](https://blog.epheme.re/software/nvim-latex.html )
 
 ### Inbox
@@ -1307,10 +1307,10 @@ rel=".\{-}"
 - [ ] Commit style
 - [ ] Code style
 - [ ] CLI tools
-- [ ] [[Irianto_-_Learn_Vim]]
-- [ ] [[Neil_-_Modern_Vim]]
-- [ ] [[Neil_-_Practical_Vim]]
-- [ ] [[Osipov_-_Mastering_Vim]]
+- [ ] [[Irianto-Learn_Vim]]
+- [ ] [[Neil-Modern_Vim]]
+- [ ] [[Neil-Practical_Vim]]
+- [ ] [[Osipov-Mastering_Vim]]
 - [ ] coverage test, [andythigpen/nvim-coverage](https://github.com/andythigpen/nvim-coverage)?
 - [ ] generate test, AI-test generate? [jackMort/ChatGPT.nvim](https://github.com/jackMort/ChatGPT.nvim)
 - [ ] [VimGolf - real Vim ninjas count every keystroke!](https://www.vimgolf.com/)

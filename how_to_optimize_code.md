@@ -533,4 +533,4 @@ eliminate half of the resumes, we have an algorithm of $\mathcal{O}(\log n)$.
 ## External links
 
 - [ ] [How to Optimize Code — principles-of-performance documentation](https://llllllllll.github.io/principles-of-performance/how-to-optimize-code.html)
-- [[Wengrow_-_Data_structures_and_algorithms#7. Big O in Everyday Code /113]]
+- [[Wengrow-Data_structures_and_algorithms#7. Big O in Everyday Code /113]]

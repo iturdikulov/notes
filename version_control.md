@@ -27,7 +27,7 @@ source code, build artifacts and other files.
 
 ## Learning path
 
-- [[Linux_community_-_Submitting_patches|submit patches]] in right way.
+- [[Linux_community-Submitting_patches|submit patches]] in right way.
 - [x] [Learn Git - Boot.dev](https://www.boot.dev/courses/learn-git)
 - [x] [Resolving a merge conflict using the command line - GitHub Docs](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/resolving-a-merge-conflict-using-the-command-line)
 - [ ] [Команда Git Rerere](https://medium.com/nuances-of-programming/%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D0%B0-git-rerere-%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D0%B7%D0%B8%D1%80%D1%83%D0%B9%D1%82%D0%B5-%D1%80%D0%B5%D1%88%D0%B5%D0%BD%D0%B8%D1%8F-%D0%B4%D0%BB%D1%8F-%D1%83%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B5%D0%BD%D0%B8%D1%8F-%D0%BA%D0%BE%D0%BD%D1%84%D0%BB%D0%B8%D0%BA%D1%82%D0%BE%D0%B2-%D1%81%D0%BB%D0%B8%D1%8F%D0%BD%D0%B8%D1%8F-5dac55edadcc)
@@ -38,7 +38,7 @@ source code, build artifacts and other files.
 
 - [ ] [GitHub - conventional-commits/conventionalcommits.org: The conventional commits specification](https://github.com/conventional-commits/conventionalcommits.org)
 
-- [ ] [[Chacon_and_Ben_-_Pro_git]]
+- [ ] [[Chacon_and_Ben-Pro_git]]
 - [ ] [The ULTIMATE Git workflow using Neovim's Fugitive, Telescope & Git-Signs!](https://www.youtube.com/watch?v=IyBAuDPzdFY)
 - [ ] [pre-commit](https://pre-commit.com/)
 - [ ] [GitHub - jsirex/git-tutorial: Day to day git tutorial]( https://github.com/jsirex/git-tutorial/tree/master)

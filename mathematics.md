@@ -42,7 +42,8 @@ strict grouping, but I'm trying to keep it organized by priority.
 
 To understand custom bullet list types check [[my_notation]] note.
 
-- [[Perelman_-_Zanimatelnaya_matematika]]
+- [[spacemath-matematika_s_nulya]]
+- [[Perelman-Zanimatelnaya_matematika]]
 
 ### Inbox
 
@@ -59,27 +60,25 @@ To understand custom bullet list types check [[my_notation]] note.
 - [Закон обратных квадратов — Википедия](https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%BA%D0%BE%D0%BD_%D0%BE%D0%B1%D1%80%D0%B0%D1%82%D0%BD%D1%8B%D1%85_%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%BE%D0%B2)
 - [Прямая и обратная пропорциональность. Формулы, обозначение, примеры](https://skysmart.ru/articles/mathematic/pryamaya-i-obratnaya-proporcionalnost)
 - Курант, Роббинс: Что такое математика?
-- [[Trushin_-_Kombinatorika]]
+- [[Trushin-Kombinatorika]]
 - [Linear Algebra](https://linear.axler.net/ )
 
 
 | Year | Title                                                                                                                           |
 | ---- | ------------------------------------------------------------------------------------------------------------------------------- |
-|      | [[Perelman_-_Zanimatelnaya_matematika\|Перельман - Занимательная математика]]                                                   |
-|      | [[Trushin_-_Kombinatorika\|Трушин - Комбинаторика]]                                                                             |
-|      | [[Zajcev_and_Ryzhkov_and_Skanavi_-_Elementarnaia_matematika\|Зайцев и Рыжков и Сканави - Элементарная Математика]] |
+|      | [[Perelman-Zanimatelnaya_matematika\|Перельман - Занимательная математика]]                                                   |
+|      | [[Trushin-Kombinatorika\|Трушин - Комбинаторика]]                                                                             |
+|      | [[Zajcev_and_Ryzhkov_and_Skanavi-Elementarnaia_matematika\|Зайцев и Рыжков и Сканави - Элементарная Математика]] |
 - [ ] Сканави
 - [ ] [Animation vs. Math - YouTube](https://www.youtube.com/watch?v=B1J6Ou4q8vE)
 - [ ] [Animation vs. Geometry - YouTube](https://www.youtube.com/watch?v=VEJWE6cpqw0)
-- [[spacemath.xyz_-_Matematika_s_nulya]]
-- [[Vilenkin_-_populryanaya_kombinatorika]]
-- [[Math_is_fun_community_-_Math_is_fun|Math is fun]]
-- [[Kiselyov_-_Elementy_algebry_i_analiza_chast_1]]
+- [[Vilenkin-populryanaya_kombinatorika]]
+- [[Kiselyov-Elementy_algebry_i_analiza_chast_1]]
 - Intermediate Algebra, Miller et al
 
 - [!] Курант, Роббинс: Что такое математика?
-- [ ] [[Emelin_-_Kratchajshij_kurs_shkolnoj_matematiki]]
-- [ ] [[Xendli_-_Schitajte_v_ume_kak_kompyuter]]
+- [ ] [[Emelin-Kratchajshij_kurs_shkolnoj_matematiki]]
+- [ ] [[Xendli-Schitajte_v_ume_kak_kompyuter]]
 - [Книга «Математика для гуманитариев» | savva4](https://savvateev.xyz/book/)
 - Savvateev - vviedieniie v nastoiashchuiu matiematiku
 
@@ -118,9 +117,9 @@ Popular science and more:
 Algebra and Analysis:
 
 - [ ] [Алгебра, уроки в свободном доступе](https://www.youtube.com/playlist?list=PLp1o4TiOetLxhCoq5ltCibkk0tlJua_z7)
-- [[Zorich_-_Matematicheskij_analiz]]
-- [[Schroder_-_Mathematical_analysis]]
-- [[Demidovich_-_Sbornik_zadach_i_uprazhnenij_po_matematicheskomu_analizu]]
+- [[Zorich-Matematicheskij_analiz]]
+- [[Schroder-Mathematical_analysis]]
+- [[Demidovich-Sbornik_zadach_i_uprazhnenij_po_matematicheskomu_analizu]]
 
 Discrete mathematics and programming related:
 
@@ -128,9 +127,9 @@ Discrete mathematics and programming related:
 - [Ликбез по дискретной математике](https://stepic.org/course/%D0%9B%D0%B8%D0%BA%D0%B1%D0%B5%D0%B7-%D0%BF%D0%BE-%D0%B4%D0%B8%D1%81%D0%BA%D1%80%D0%B5%D1%82%D0%BD%D0%BE%D0%B9-%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B5-91/)
 - [Introduction to Numerical Computing with NumPy](https://www.youtube.com/watch?v=ZB7BZMhfPgk)
 - Concrete Mathematics: A Foundation for Computer Science
-- [[Romanovskij_-_Diskretnyj_analiz]]
-- [[Kushnirenko_-_Programmirovanie_dlya_matematikov]]
-- [[Kun_-_A_programmers_introduction_to_mathematics]]
+- [[Romanovskij-Diskretnyj_analiz]]
+- [[Kushnirenko-Programmirovanie_dlya_matematikov]]
+- [[Kun-A_programmers_introduction_to_mathematics]]
 
 Computer Graphics related:
 

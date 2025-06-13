@@ -25,7 +25,7 @@ I use the following operating systems:
 
 ## Learning path
 
-- [ ] [[Tanenbaum_and_Bos_-_Modern_operating_systems]]
+- [ ] [[Tanenbaum_and_Bos-Modern_operating_systems]]
 - [ ] [Operating System Tutorial](https://www.guru99.com/os-tutorial.html)
 - [ ] [Introduction · Linux Inside](https://0xax.gitbooks.io/linux-insides/content/)
 

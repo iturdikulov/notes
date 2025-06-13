@@ -57,8 +57,8 @@ To understand custom bullet list types check [[my_notation]] note.
 - [!] Fundamentals of English grammar:
       ![[img/Spelling_punctuation_and_grammar_SPAG.excalidraw|Spelling punctuation and grammar scheme]]
 - Some book from Ilia Frank series, [Метод чтения Ильи Франка](http://www.franklang.ru/)
-- [[Petrov_-_Poliglot]]
-- [[CHernixovskaya_-_English_start-up]]
+- [[Petrov-Poliglot]]
+- [[CHernixovskaya-English_start-up]]
 - [[Murphy_Essential_Grammar_in_Use_Elementary]]
 - [[Murphy_Essential_Grammar_in_Use_Intermediate]]
 - [English Playlists](https://boosty.to/englishplaylists)

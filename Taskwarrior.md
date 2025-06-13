@@ -19,7 +19,7 @@ need and will do. If I'll not do it, someone or something will do it for me
 (this is usually bad).
 
 Some good introductin into Taskwarrior available in
-[[Babej_-_A_dive_into_taskwarrior_ecosystem|Babej taskwarrior tutorial]].
+[[Babej-A_dive_into_taskwarrior_ecosystem|Babej taskwarrior tutorial]].
 
 Features:
 
@@ -35,11 +35,15 @@ Features:
 Algorithm of daily review and daily plan generator:
 
 - Check your mood and energy level, think about 3 MIT's (most important tasks).
-- Check generated task list (`t`), ask yourself what you can do today and re-schedule
-  items if needed, I use `tm <numbers> wait:+days` custom [[Taskwarrior]]
-  command.
+  Don't overload, select N amount of tasks which you can REALLY do;
+- Check generated task list (`t`), ask yourself what you can do today and
+  re-schedule items if needed (with Eisenhower matrix), I use `tm <numbers>
+  wait:+days` custom [[Taskwarrior]] command.
+- Set task ETA (`tm <numbers> due:date`).
 - Set priorities if needed (`tm <numbers> priority:H|M|L`).
 - Pick task, work on it and complete it (`fin <numbers>`).
+- Set project for task (`tm <numbers> project:project_name`).
+- Review your tasks, anything can be changed;
 
 You can execute ==`task diagnostics`== command to check if everything is set up
 correctly.

@@ -41,11 +41,11 @@ Latest standard:
 - [ ] [C Programming and Memory Management - YouTube](https://www.youtube.com/watch?v=rJrd2QMVbGM)
 
 - [!] [[C]], create flashcards with Learn C in Y minutes
-- [[Kernighan_and_Ritchie_-_The_C]]
-    - [[Costrasel_-_The_C_programming_language_solutions]]
+- [[Kernighan_and_Ritchie-The_C]]
+    - [[Costrasel-The_C_programming_language_solutions]]
 - TODO: [Learn C the Hard Way](https://learncodethehardway.org/c/)
 - [Собрал в одном большом гайде всё, что хотел бы знать, когда изучал язык C / Хабр](https://habr.com/ru/companies/ncloudtech/articles/871748/)
-- [[Xiryanov_-_Kurs_molodogo_bojcza_MFTI_yazyk_S]], to learn basics of [[C]].
+- [[Xiryanov-Kurs_molodogo_bojcza_MFTI_yazyk_S]], to learn basics of [[C]].
 - [C Reference Card](img/C_Reference_Card_ANSI.v2.2.pdf)
 
 - [Learn C the Hard Way](https://learncodethehardway.org/c/)
@@ -59,3 +59,7 @@ Latest standard:
 - Gustedt - modern C
 
 - [/] [[C_cheat-sheet]]
+
+## Libraries and frameworks
+
+- [imgui](https://github.com/ocornut/imgui) - GUI library

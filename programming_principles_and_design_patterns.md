@@ -62,9 +62,9 @@ useful.
 ## Learning path
 
 - [[software_quality]]
-- [[Martin_Fowler_-_Refactoring]]
-- [[Kernighan_and_Pike_-_The_practice_of_programming]]
-- [[Kernighan_and_Plauger_-_The_elements_of_programming_style]]
+- [[Martin_Fowler-Refactoring]]
+- [[Kernighan_and_Pike-The_practice_of_programming]]
+- [[Kernighan_and_Plauger-The_elements_of_programming_style]]
 - [Sourcemaking](https://sourcemaking.com/)
 - Winter and Manshreck and Wright - Software Engineering at Google
 - Spolsky - The Best Software Writing I
@@ -74,7 +74,7 @@ useful.
 - [ ] [Awesome Software Architecture](https://awesome-architecture.com/)
 - [p] [[12factor_app]] - Intersting high-level overview of "good" applications
   development practicies.
-- [ ] [[Freeman_etal_-_Head_first_design_patterns]]
+- [ ] [[Freeman_etal-Head_first_design_patterns]]
 - [ ] [Architecture Patterns with Python](https://www.cosmicpython.com/book/preface.html)
 - [python-patterns](https://github.com/faif/python-patterns)
 - [ ] [[solid]] note research, part 2.
@@ -87,11 +87,11 @@ useful.
 - [GitHub - pgorecki/python-ddd: Python DDD example](https://github.com/pgorecki/python-ddd)
 - [Как сменить технологию и не закопаться в рефакторинге: опыт внедрения DDD в проект на FastAPI — Часть 1 / Хабр](https://habr.com/ru/articles/833720/)
 - [ ] [A curated list of data oriented design resources](https://github.com/dbartolini/data-oriented-design)
-- [/] [[McConnell_-_Code_complete]], read and take notes.
+- [/] [[McConnell-Code_complete]], read and take notes.
 - [ ] [Five Questions about Language Design](https://paulgraham.com/langdes.html)
 - [ ] [Why Arc Isn't Especially Object-Oriented](https://paulgraham.com/noop.html)
 
-- [x] [[Grahm_-_Programming_Bottom-Up]]
+- [x] [[Grahm-Programming_Bottom-Up]]
 - [ ] [Graham_-_Beating the Averages](https://paulgraham.com/avg.html)
 - [ ] [Design and Research](https://paulgraham.com/desres.html)
 - [ ] [Better Bayesian Filtering](https://paulgraham.com/better.html)

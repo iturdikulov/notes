@@ -22,7 +22,7 @@ sr-ease: 225
 
 [[Rust]] is practically unknown to me, learning materials:
 
-- [ ] [[Brown_-_rust_rust_book_experiment]]
+- [ ] [[Brown-rust_rust_book_experiment]]
 - [ ] [The Rust Programming Language](https://doc.rust-lang.org/stable/book/)
 - [ ] [Rust By Example](https://doc.rust-lang.org/stable/rust-by-example/index.html)
 - [Implementing TCP in Rust](https://www.youtube.com/watch?v=bzja9fQWzdA)
@@ -34,3 +34,7 @@ sr-ease: 225
 - [ ] [GUI in Rust that runs on both web and native](https://github.com/emilk/egui)
 - [/] [[Rust_cheat-sheet]]
 - Blandy - Programming Rust
+
+## Libraries and frameworks
+
+- [ratatui](https://github.com/ratatui/ratatui) - TUI library for Rust

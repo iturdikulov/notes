@@ -44,7 +44,7 @@ studies.
 
 > The only way to learn a new programming language is by writing programs
 > in it.\
-> — <cite>[[Kernighan_and_Ritchie_-_The_C]]</cite>
+> — <cite>[[Kernighan_and_Ritchie-The_C]]</cite>
 
 > Repeat the tutorial from memory, notes can help. Experiment, do something new,
 > based on tutorials. Make something dirty but get experience.
@@ -66,10 +66,10 @@ enough to learn something new. My actual current learning list is aviable with
 `t project:learn` command ([[Taskwarrior]]).
 
 - [ ] [Copying Better: How To Acquire The Tacit Knowledge of Experts](https://commoncog.com/how-to-learn-tacit-knowledge/)
-- [ ] [[Syd_-_GTD_with_taskwarrior]]
+- [ ] [[Syd-GTD_with_taskwarrior]]
 - [ ] [Supermemo Wiki](https://supermemo.guru)
-- [ ] [[Sonmez_-_Gibkie_navyki]]
-- [ ] [[Clear_-_Atomic_Habbits]]
+- [ ] [[Sonmez-Gibkie_navyki]]
+- [ ] [[Clear-Atomic_Habbits]]
 
 ### Learning resources
 

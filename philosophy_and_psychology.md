@@ -37,7 +37,7 @@ example:
 ## Learning path
 
 - [ ] [IDRLabs Psychology Tests and Articles](https://www.idrlabs.com/)
-- [ ] [[Laozi_-_Tao_Te_Ching]]
+- [ ] [[Laozi-Tao_Te_Ching]]
 - [ ] [Общая психология, Петухов В.В., курс лекций МГУ - YouTube](https://www.youtube.com/playlist?list=PLWsL2KQ39BExodEpTCWHUtXxezWnGCPyW)
 - [ ] [5X Your BRAIN CELLS - YouTube](https://www.youtube.com/watch?v=lSwHXE9LohA)
 - [ ] [Stoicism: 10 LESSONS Men Learn Too Late In LIFE (Might Hurt Your Feelings) - YouTube](https://www.youtube.com/watch?v=CrhJBvGgwpg)

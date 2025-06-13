@@ -16,9 +16,9 @@ tags:
 - [ ] [Getting Started With Testing in Python – Real Python](https://realpython.com/python-testing/#writing-integration-tests)
 - [Python Testcontainers](https://github.com/testcontainers/testcontainers-python)
   - [ ] [Using Testcontainers with Pytest: Isolate Data for Effective Testing](https://qxf2.com/blog/using-testcontainers-with-pytest/)
-- [[Hillard_-_testing_with_pytest]]
-- [[Batchelder_-_Getting_started_testing]]
-- [[Seporaitis_-_Large_scale_refactoring_with_PyBowler]]
+- [[Hillard-testing_with_pytest]]
+- [[Batchelder-Getting_started_testing]]
+- [[Seporaitis-Large_scale_refactoring_with_PyBowler]]
 - [Refactoring Python Applications for Simplicity – Real Python](https://realpython.com/python-refactoring/)
 - [Testing Flask Applications — Flask Documentation (2.2.x)](https://flask.palletsprojects.com/en/2.2.x/testing/)
 - [Simple mock server for testing using Flask · GitHub](https://gist.github.com/eruvanos/f6f62edb368a20aaa880e12976620db8)

@@ -32,7 +32,7 @@ collection various things related to health.
 ## Learning materials and books
 
 - [ ] [[my_physical_exercise_plan]];
-- [ ] [[Volkov_i_dr_-_Bioximiya_myshechnoj_deyatelnosti\|Волков и др. - Биохимия мышечной деятельности]]
+- [ ] [[Volkov_i_dr-Bioximiya_myshechnoj_deyatelnosti\|Волков и др. - Биохимия мышечной деятельности]]
 
 ## Hygiene
 

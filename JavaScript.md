@@ -35,7 +35,7 @@ tags:
     - Kantor - JavaScript
     - Kantor - thematic sections
 
-- [[Flanagan_-_JavaScript]]
+- [[Flanagan-JavaScript]]
 - [Why async: JavaScript and the real world](https://frontarm.com/courses/async-javascript/promises/why-async/)
 - [JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 - [1000x FASTER JavaScript? - YouTube](https://www.youtube.com/watch?v=B76gFi43HvM)

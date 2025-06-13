@@ -58,5 +58,5 @@ complete the challenge!
 ## TODO
 
 - [ ] [Drawabox](https://drawabox.com/)
-- [ ] [[Loomis_-_Fun_with_a_pencil]]
+- [ ] [[Loomis-Fun_with_a_pencil]]
 - [ ] artist PDF files...

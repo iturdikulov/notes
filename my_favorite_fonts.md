@@ -13,7 +13,7 @@ sr-ease: 270
 
 ## Favorite fonts
 
-Significant part are from [[programming_fonts_-_test_drive|programming fonts]].
+Significant part are from [[programming_fonts-test_drive|programming fonts]].
 
 TODO: add images.
 

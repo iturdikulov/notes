@@ -41,7 +41,7 @@ something related to notes published on this site.
 To get email address please try to use **one** of these methods:
 
 1. If you have "modern" [[web_browser]] you can read it from the picture below.\
-   ![my_email](./img/my_email.svg)
+   ![my_email](img/my_email.svg)
 
 2. Combine my name in lowercase (`Inom`), the at sign (`@`), and current domain
   (`iturdikulov.com`), and you'll get full email address.

@@ -38,8 +38,10 @@ tags:
 - [What y'all will need when Nix drives you to drink.](https://www.youtube.com/watch?v=Eni9PPPPBpg)
 - [/] [[Nix_cheat-sheet]]
 
-## Deployment
+## Deployment and development
 
+- [lorri: Your project’s nix-env](https://github.com/nix-community/lorri)
+- [Nix Deployment Tool: deploy-rs](https://serokell.io/blog/deploy-rs)
 - [Deploying Haskell applications with ECS, Docker, and Nix | William Yao](https://williamyaoh.com/posts/2019-04-09-deploying-haskell-with-ecs-and-nix.html)
 - [Building Typescript Node Apps With Nix | John's Codes](https://johns.codes/blog/building-typescript-node-apps-with-nix)
 - [Novice Nix: Flake Templates · peppe.rs](https://oppi.li/posts/novice_nix:_flake_templates/ )

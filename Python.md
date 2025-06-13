@@ -50,7 +50,7 @@ It supports any popular [[programming_paradigm]]:
 - [[OOP|object-oriented]]
 - [[functional_programming|functional]]
 
-Rich [[Python_community_-_Python_tutorial_10_stdlib|stdlib]], it's "batteries
+Rich [[Python_community-Python_tutorial_10_stdlib|stdlib]], it's "batteries
 included" language.
 
 ## Learning path
@@ -70,29 +70,29 @@ List of materials to review with [[my_notation]]:
 
 - [ ] [Python cheat sheets](https://www.datacamp.com/cheat-sheet)
 - [ ] [Python Cheatsheet](https://www.pythoncheatsheet.org/)
-- [ ] [[Sorn_-_Comprehensive_python_cheatsheet|Python cheatsheet]], to dive in into language itself.
+- [ ] [[Sorn-Comprehensive_python_cheatsheet|Python cheatsheet]], to dive in into language itself.
 - [ ] [Python Wiki](https://wiki.python.org/moin/)
 
 - [ ] [[Python_concurency]]
 - [ ] [[projects#Python]]
 - [/] [Documentation](https://docs.python.org/3/)
 - [/] [[Python_cheat-sheet]]
-- [/] [[Python_community_-_Python_tutorial_TOC|Official Python tutorial]]
+- [/] [[Python_community-Python_tutorial_TOC|Official Python tutorial]]
 
 ### Core
 
 - [CS50's Introduction to Programming with Python | Harvard University](https://pll.harvard.edu/course/cs50s-introduction-programming-python)
-- [[Python_community_-_Python_FAQ|FAQ]]
-- [[Python_community_-_Python_Glossary|Glossary]]
-- [[Python_community_-_Python_tutorial_10_stdlib|Standart library]]
+- [[Python_community-Python_FAQ|FAQ]]
+- [[Python_community-Python_Glossary|Glossary]]
+- [[Python_community-Python_tutorial_10_stdlib|Standart library]]
 - [Python Developer’s Guide](https://devguide.python.org/)
 - [How to learn Python programming | Guido van Rossum and Lex Fridman - YouTube](https://www.youtube.com/watch?v=F2Mx-u7auUs)
-- [[Matthes_-_Python_crash_course]]
+- [[Matthes-Python_crash_course]]
 - [Python для сетевых инженеров](https://pyneng.readthedocs.io/ru/latest/index.html) paradigms function, imperative, oop
 - [Python Introduction - Learn By Example](https://www.learnbyexample.org/python-introduction/)
 - [Think Python — Think Python](https://allendowney.github.io/ThinkPython/)
-- [[Ramalho_-_Fluent_Python]]
-- [[Slatkin_-_Effective_Python]], general tips to write good Python code
+- [[Ramalho-Fluent_Python]]
+- [[Slatkin-Effective_Python]], general tips to write good Python code
 - [Python Classes: The Power of OOP – Real Python]( https://realpython.com/python-classes/)
 - [Sets in Python – Real Python](https://realpython.com/python-sets/), research article.
 - [Set Difference Python: Intersection, union and difference of Sets in Python. - DEV Community](https://dev.to/svinci/intersection-union-and-difference-of-sets-in-python-4gkn)
@@ -107,7 +107,7 @@ List of materials to review with [[my_notation]]:
 - [PEP 8 – Style Guide for Python Code](https://peps.python.org/pep-0008/)
 
 - [Recursion in Python: An Introduction – Real Python](https://realpython.com/python-recursion/)
-- [[Xiryanov_-_Praktika_programmirovaniya_na_Python|Практика программирования на Python]].
+- [[Xiryanov-Praktika_programmirovaniya_na_Python|Практика программирования на Python]].
 
 - [awesome-python-typing](https://github.com/typeddjango/awesome-python-typing)
 - [Python dataclasses will save you HOURS, also featuring attrs - YouTube](https://youtu.be/vBH6GRJ1REM)
@@ -132,7 +132,7 @@ List of materials to review with [[my_notation]]:
 - [The Complete Python course](https://www.udemy.com/course/the-complete-python-course/)
 - [30 Days of Python](https://github.com/codingforentrepreneurs/30-Days-of-Python)
 
-### Packages & Frameworks
+### Libraries and frameworks
 
 TODO: review
 
@@ -158,7 +158,7 @@ with Python
 
 ### Web frameworks
 
-- [[Lubanovic_-_FastAPI]]
+- [[Lubanovic-FastAPI]]
 - [GitHub - vishyarjun/rate_limiter_fastapi: API Rate Limiter built in FastAPI Python Framework](https://github.com/vishyarjun/rate_limiter_fastapi )
 
 ### Dev tools
