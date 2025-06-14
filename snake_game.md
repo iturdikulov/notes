@@ -11,6 +11,3 @@ sr-ease: 273
 # Snake Game
 
 Snake game written by me.
-
-
-[[30_day_drawing_challenge]]

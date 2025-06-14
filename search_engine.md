@@ -74,7 +74,7 @@ websites, also good source for category names.
 
 - WolframAlpha - computational intelligence search engine:<wbr class="f"> `@wa Turing machine 2506`
 - MathWorld - search for math definitions, formulas:<wbr class="f"> `@math topology`
-- [[Math_is_fun_community_-_Math_is_fun|Math is Fun]]- search for math definitions, formulas:<wbr class="f"> `@mathf Pi`
+- [[Math_is_fun_community-Math_is_fun|Math is Fun]]- search for math definitions, formulas:<wbr class="f"> `@mathf Pi`
 
 - [[GitHub]] - code search:<wbr class="f"> `@gh linux`
 - SourceGraph - code search:<wbr class="f"> `@s linkedin api`

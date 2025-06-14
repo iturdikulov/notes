@@ -5,7 +5,6 @@ tags:
   - psychology
   - annotation_article
 author: Julian Evans
-file: ./literature/Julia Evans/So you want to be a wizard (2436)/So you want to be a wizard - Julia Evans.pdf
 sr-due: 2024-08-26
 sr-interval: 1
 sr-ease: 216
@@ -13,7 +12,9 @@ sr-ease: 216
 
 # So you want to be a Wizard
 
-[[./literature/Julia Evans/So you want to be a wizard (2436)/So you want to be a wizard - Julia Evans.pdf|Julia Evans - So you want to be a wizard]].
+TODO: add calibre book
+
+Julia Evans - So you want to be a wizard.
 Tips from Julian, looks like mix of team-work and self-productive tips. Written
 in [[comics]] style.
 
