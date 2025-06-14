@@ -12,7 +12,8 @@ external/salesloop
 private/
 
 # Inbox files
-inbox.md
+TODO.md
+TODO_mobile.md
 books/
 literature/
 articles/

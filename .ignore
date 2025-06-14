@@ -1,4 +1,5 @@
 # Exclude search
 img/
 node_modules/
-!inbox.md
+!TODO.md
+!TODO_mobile.md
