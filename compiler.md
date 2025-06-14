@@ -8,7 +8,7 @@ tags:
 
 TODO: add term
 
-- [ ] [[Aho_Lam_et_al_-_Compilers]]
+- [ ] [[Aho_Lam_et_al-Compilers]]
 - [LLVM Tutorial](https://llvm.org/docs/tutorial/)
 
 ## External links
