@@ -69,8 +69,9 @@ leetcode exec 1
 - [HackerRank - Online Coding Tests and Technical Interviews](https://www.hackerrank.com/)
 - [Developer Training | Test Coding Skills Online - Codility](https://app.codility.com/programmers/)
 
-## External links
+## Learn path
 
+- [LeetCode Was Hard Until I Learned THESE 8 Patterns (With Templates!) - YouTube](https://www.youtube.com/watch?app=desktop&v=RYT08CaYq6A)
 - [MisterBooo/LeetCodeAnimation](https://github.com/MisterBooo/LeetCodeAnimation)
 - [Top 100 Liked Questions](https://leetcode.com/problemset/all/?listId=79h8rn6&page=1)
 - [Top Interview Questions](https://leetcode.com/problemset/all/?page=1&listId=wpwgkgt)
