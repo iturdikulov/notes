@@ -115,12 +115,29 @@ mkShell {
 
 - [Notes on PCI passthrough on NixOS using QEMU and VFIO](https://alexbakker.me/post/nixos-pci-passthrough-qemu-vfio.html)
 - Review and add notes [Virtiofs: Shared file system](https://github.com/virtio-win/kvm-guest-drivers-windows/wiki/Virtiofs:-Shared-file-system)
+- [NixOS: PCI passthrough · GitHub](https://gist.github.com/techhazard/1be07805081a4d7a51c527e452b87b26)
+- [PCI passthrough via OVMF - ArchWiki](https://wiki.archlinux.org/title/PCI_passthrough_via_OVMF)
+
+## nix-index and nix-locate
+
+`nix-locate` from `nix-index` package allow to locate libraries in nix store.
+This is useful for debugging, adding required libraries to `LD_LIBRARY_PATH`.
+
+```sh
+$ nix-index # to generate database
+$ nix-locate --top-level libstdc++.so.6 | grep gcc
+libgccjit.out                                         0 s /nix/store/76vxcz4qm3v22li7dxcvpyn4hl4ivnki-libgccjit-10.3.0/lib/libstdc++.so.6
+libgccjit.out                                 1,903,088 x /nix/store/76vxcz4qm3v22li7dxcvpyn4hl4ivnki-libgccjit-10.3.0/lib/libstdc++.so.6.0.28
+libgccjit.out                                     2,498 r /nix/store/76vxcz4qm3v22li7dxcvpyn4hl4ivnki-libgccjit-10.3.0/lib/libstdc++.so.6.0.28-gdb.py
+gcc-unwrapped.lib                                     0 s /nix/store/x17b1wq871r4ycrxyy1n85ja09dxq3ih-gcc-10.3.0-lib/lib/libstdc++.so.6
+gcc-unwrapped.lib                             1,903,088 x /nix/store/x17b1wq871r4ycrxyy1n85ja09dxq3ih-gcc-10.3.0-lib/lib/libstdc++.so.6.0.28
+gcc-unwrapped.lib                                 2,494 r /nix/store/x17b1wq871r4ycrxyy1n85ja09dxq3ih-gcc-10.3.0-lib/lib/libstdc++.so.6.0.28-gdb.py
+```
 
 ## TODO:
 
- - linux kernel flake + le9ec
- - test Plasma/Wayland
- - pipewire low-latency + rtkit
+- linux kernel flake + le9ec
+- pipewire low-latency + rtkit
 
 ## Configurations
 
