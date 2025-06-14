@@ -14,7 +14,7 @@ What is boolean data type?
 <br class="f">
 Data type that has one of two possible values, usually denoted as `true` and
 `false`. Which is intended to represent the two truth values of logic and
-Boolean algebra. <!--SR:!2025-02-21,2,228-->
+Boolean algebra. <!--SR:!2025-02-26,5,228-->
 
 It is named after George Boole [^1], who first defined an algebraic system of logic
 in the mid 19th century.
@@ -29,24 +29,24 @@ implement different actions behaviour with [[control_flow]].
 If there is no explicit Boolean data type (like in `C90`), **can** boolean data
 type be represented?
 <br class="f">
-Yes usually used `int` to represent `true` (0) and `false` (1) values. <!--SR:!2025-02-21,2,228-->
+Yes usually used `int` to represent `true` (0) and `false` (1) values. <!--SR:!2025-02-26,5,228-->
 
 The implementation of Booleans in computers are most likely represented as a
 full word or a bit?
 <br class="f">
 Usually as full [[word]], this is usually due to the ways computers transfer
-blocks of information. <!--SR:!2025-02-21,2,228-->
+blocks of information. <!--SR:!2025-02-26,5,228-->
 
 Most [[programming_language|programming languages]], have
 support for Boolean algebraic operations such as:
 
-Conjunction (AND, &, *): returns `true` if both operands are ==`true`==. <!--SR:!2025-02-21,2,228-->
+Conjunction (AND, &, *): returns `true` if both operands are ==`true`==. <!--SR:!2025-02-26,5,228-->
 
-Disjunction (OR, |, +): returns `true` if at least one operand is ==`true`==. <!--SR:!2025-02-21,2,228-->
+Disjunction (OR, |, +): returns `true` if at least one operand is ==`true`==. <!--SR:!2025-02-26,5,228-->
 
-Equivalence (EQV, =, \=\=): returns `true` if both operands are ==the same==. <!--SR:!2025-02-20,1,208-->
+Equivalence (EQV, =, \=\=): returns `true` if both operands are ==the same==. <!--SR:!2025-02-23,2,208-->
 
-OR - `true` when one or both inputs are true, XOR returns `true` when?
+OR - returns `true` when one or both inputs are true, XOR returns `true` when?
 <br class="f">
 When inputs are different.
 Exclusive OR (XOR), `true` only if inputs differ.
@@ -54,10 +54,16 @@ Exclusive OR (XOR), `true` only if inputs differ.
 print(True ^ False,  False ^ True,  True ^ True,  False ^ False)
 print(True or False, False or True, True or True, False or False)
 ```
+*Results:*
+```
+True True False False
+True True True False
+```
+
 <!--SR:!2025-02-21,2,228-->
 
 Negation (NOT, !): Returns the opposite of the operand. `NOT true and NOT false`
-will return ==`false`==. <!--SR:!2025-02-21,2,228-->
+will return ==`false`==. <!--SR:!2025-02-26,5,228-->
 
 ## Boolean expression
 
