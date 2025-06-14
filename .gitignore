@@ -8,6 +8,7 @@
 _*.txt
 broken_links_output.md
 orphaned_files_output.md
+empty_files.md
 
 # Personal
 external/salesloop
