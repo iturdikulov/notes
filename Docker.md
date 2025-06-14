@@ -25,3 +25,4 @@ Cleanup `subvolumes`, warning this is dangerous!
 - [Docker Cheatsheet \[2023 Updated\] – Collabnix](https://collabnix.com/docker-cheatsheet/)
 - [Docker Hub Container Image Library | App Containerization](https://hub.docker.com/)
 - [LinuxServer.io, ready to use containers](https://docs.linuxserver.io/)
+- [Distroless контейнеры / Хабр](https://habr.com/ru/articles/710968/)
