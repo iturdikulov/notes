@@ -18,6 +18,7 @@ contains almost everything related to software which I use.
 ## External links
 
 - [ ] [hlissner dotfiles](https://github.com/hlissner/dotfiles)
+- [ ] [ryan4yin/nix-config](https://github.com/ryan4yin/nix-config)
 - [ ] [tjdevries/config_manager](https://github.com/tjdevries/config_manager)
 - [ ] [ThePrimeagen/dev](https://github.com/ThePrimeagen/dev)
 - [ ] [craftzdog dotfiles](https://github.com/craftzdog/dotfiles-public)

@@ -22,10 +22,15 @@ optimizations. <!--SR:!2024-10-09,1,201-->
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Data_structure)</cite>
 
 - [[array]]
-- [[set]]
-- [[linked_data_structure]]
-- [[stack]]
+    - [[set]]
+    - [[stack]]
 - [[queue]]
+- [[linked_data_structure]]
+    - [[list#Linked list|linked list]]
+    - singly-linked list
+    - doubly-linked list
+    - skip list
+
 - [[hash_table]]
 
 - [[tree]]
@@ -66,10 +71,8 @@ Extra topics:
 
 - [[boolean]]
 - [[character]]
+- [[floating-point_arithmetic]]
 
-- Character
-- Floating-point representation of a finite subset of the rationals.
-    - Including single-precision and double-precision IEEE 754 floats, among others
 - Fixed-point representation of the rationals
 - Integer, a direct representation of either the integers or the non-negative integers
 - Reference, sometimes erroneously referred to as a pointer or handle, is a value that refers to another value, possibly including itself

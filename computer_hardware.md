@@ -30,7 +30,7 @@ Great cheap computer hardware:
 
 ## Learning path
 
-- [ ] [[Petzold_-_Code]], recently (2022) was rewritten, contains many "base"
+- [ ] [[Petzold-Code]], recently (2022) was rewritten, contains many "base"
 - [Архитектура микропроцессоров и изоляция уровней исполнения](https://dxdt.ru/2024/03/29/12651/)
 - Gomel University - mikroprocessory i kompjutery
 - [ ] [How does Computer Hardware Work?  - YouTube](https://www.youtube.com/watch?v=d86ws7mQYIg)

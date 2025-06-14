@@ -7,6 +7,6 @@ tags:
 
 # Concurency and parallel computing
 
-- [ ] [What every systems programmer should know about concurrency](./articles/Kline_-_concurrency_primer.pdf), research article.
+- [ ] [What every systems programmer should know about concurrency](articles/Kline-concurrency_primer.pdf), research article.
 - [ ] [Synchronization (computer science) - Wikipedia](https://en.wikipedia.org/wiki/Synchronization_\(computer_science\))
 - [ ] [[Python_concurency]]

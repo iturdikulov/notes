@@ -118,7 +118,7 @@ Some information from [Simple English Wikipedia, the free encyclopedia](https://
 - [ ] [Интерактивный курс по SQL](https://sql-academy.org/)
 - [ ] [Практическое владение языком SQL](https://sql-ex.ru/)
 - [ ] [smarteist - SQL cheat sheet](https://gist.github.com/smarteist/dc19be1101c0041e5963eba3772c3f67)
-- [/] [[Forta_-_SQL_za_10_minut]]
+- [/] [[Forta-SQL_za_10_minut]]
 - [ ] Iliev - Introduction to SQL
 - [ ] [Оптимизация SQL запросов / Хабр](https://habr.com/ru/articles/861604/)
 

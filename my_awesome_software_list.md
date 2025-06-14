@@ -34,7 +34,6 @@ To understand custom bullet list types check [[my_notation]] note.
 - [indent](https://www.gnu.org/software/indent/) - Code formatter
 - [TeX Live packages](https://tug.org/texlive/) - [[LaTex]] system
 - [ghostscript](https://www.ghostscript.com/) - PostScript interpreter
-- [imgui](https://github.com/ocornut/imgui) - GUI library
 - [Create text-based diagrams with Mermaid - YouTube](https://www.youtube.com/watch?v=4_LdV1cs2sA)
 - Rsync tutorial, [rsync(1) manpage](https://download.samba.org/pub/rsync/rsync.1) and [examples](https://rsync.samba.org/examples.html)
 
@@ -70,6 +69,7 @@ To understand custom bullet list types check [[my_notation]] note.
 
 ### Shell & Terminal
 
+- [[foot]] - Terminal emulator
 - [[Bash]] - Unix shell
 - [[Zsh]] - Unix shell
 - [[tmux]] - Terminal multiplexer
@@ -203,6 +203,8 @@ To understand custom bullet list types check [[my_notation]] note.
 - [[GIMP]] - Image editor
 - [[Blender]] - 3D graphics
 - [SolveSpace](https://solvespace.com/) - CAD software
+- [FreeCAD: Your own 3D parametric modeler](https://www.freecad.org/)
+    https://wiki.freecad.org/Macro_FCInfo/ru
 - [[PureRef]] - Reference manager
 - [jp2a](https://github.com/Talinx/jp2a/) - Image to ASCII converter
 - [qView](https://interversehq.com/qview/) - Image viewer
@@ -264,7 +266,9 @@ To understand custom bullet list types check [[my_notation]] note.
 - [wireshark](https://www.wireshark.org/) - Network analyzer
 - [nmap](https://nmap.org/) - Network scanner
 - [curl](https://curl.se/) - Data transfer tool
+
 - [rclone](https://rclone.org/) - Cloud storage manager
+
 - [rsync](https://rsync.samba.org/) - File copying tool
 - [nethogs](https://github.com/raboof/nethogs) - Network monitor
 - [nfs-utils](http://nfs.sourceforge.net/) - Network filesystem tools
@@ -297,6 +301,9 @@ To understand custom bullet list types check [[my_notation]] note.
 
 ## Awesome software
 
+- [The ultimate list of which programs support Vim-like keybindings](https://github.com/erikw/vim-keybindings-everywhere-the-ultimate-list)
+- [Big Pile of Vim-like](https://vim.reversed.top/)
+- [Programs and Equipment I Use | Luke's Webpage](https://lukesmith.xyz/programs/)
 - [sindresorhus/awesome](https://github.com/sindresorhus/awesome) - Awesome lists
 - [StanForever/awesome-websites](https://github.com/StanForever/awesome-websites) - Website collection
 - [ArchWiki List of Applications](https://wiki.archlinux.org/title/list_of_applications)
