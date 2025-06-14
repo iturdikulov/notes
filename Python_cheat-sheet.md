@@ -14,6 +14,7 @@ language with Q/A flashcards based on learnxinyminutes [^1] cheatsheet.
 
 How to write single-line comments and multi-line comments?
 <br class="f">
+By using `#` and `"""` respectively.
 ```python
 # Single line comments start with a number symbol.
 
@@ -25,14 +26,18 @@ as documentation for functions, classes, modules.
 ```
 
 Is there rule for single-line comments which placed after the statement?
+<br class="f">
+Yes accourding to PEP8 [^2], inline comments should be separated by at least two
+spaces from the statement.
 ```python
 Pi = 3.141592653589793  # need to place two spaces for same line comments
 ```
 <!--SR:!2024-10-27,4,182-->
 
-What is the result type of this division `10.0 / 3`?
+What is the result data-type of this division `10.0 / 3`?
 <br class="f">
-The result of division is always float, `10.0 / 3  => 3.3333333333333335` <!--SR:!2024-11-27,12,202-->
+The result of division is always [[floating-point_arithmetic|float]] `10.0 / 3
+=> 3.3333333333333335` <!--SR:!2025-03-14,24,202-->
 
 What modulo operation finds in Python?
 <br class="f">
@@ -49,14 +54,15 @@ print(-7 % 3)  # => 2
 
 What is exponentiation and how to use it in Python?
 <br class="f">
-Raise a number to a power. In python exist special operator `**`, `2**3 => 8`,
+Raise a number to a power. In python exist special operator `**`, `2**3 => 8`.
 ```python
 x = 2
 y = 16
 print(x**y) # => 65536, x to the y'th power
 ```
 
-How to enforce custom precedence in Python?
+How to enforce custom precedence in some expression (for example `1 + 3 * 2`) in
+Python?
 <br class="f">
 Need to use parentheses:
 ```python
@@ -67,16 +73,20 @@ Need to use parentheses:
 ```
 <!--SR:!2025-03-03,25,182-->
 
+How to use floor division (also known as integer division) in Python.
+<br class="f">
+Need to use `//` operator:
 ```
 5 // 3       # => 1
 -5 // 3      # => -2
 5.0 // 3.0   # => 1.0  # works on floats too
 -5.0 // 3.0  # => -2.0
 ```
+Used to obtaining the quotient without any fractional part.
 
 Most basic and efficient data type in Python (and many other languages) is?
 <br class="f">
-Boolean values, they are also called primitives.
+[[bolean_data_type]], it's member of [[data_structure#Primitive types]].
 ```python
 True   # => True
 False  # => False
@@ -85,51 +95,52 @@ False  # => False
 
 How do you negate a Boolean value?
 <br class="f">
-With not.
+With `not` operator, very useful in [[conditional]] statements.
 ```python
 not True   # => False
 not False  # => True
 ```
 <!--SR:!2024-11-27,11,202-->
 
-Boolean Operators in python?
+Two main Boolean Operators in python?
 <br class="f">
-"and" and "or", case-sensitive
+`and` and `or`, case-sensitive, very useful in [[conditional]] statements.
 ```python
 True and False  # => False
 False or True   # => True
 ```
-<!--SR:!2024-11-25,11,202-->
+<!--SR:!2025-03-12,22,202-->
 
-How do `True` and `False` relate to numerical values (evaluate to)?
+How do `True` and `False` boolean values relate to numerical values (evaluate to)?
 <br class="f">
-True and False are actually 1 and 0 but with different keywords.
+`True` and `False` are actually `1` and `0` (`bool` type is inherited from
+`int`) but with different keywords.
 ```python
+1 == True    # => True
+0 == False   # => True
 True + True  # => 2
 True * 8     # => 8
 False - 5    # => -5
 ```
 <!--SR:!2025-02-13,7,182-->
 
-How do comparison operators actually work, for boolean values?
+How do comparison operators for boolean values actually work?
 <br class="f">
-First we get specific values of comparable objects, then we compare them and
-evaluate to True or False.
-Look at the numerical value of True and False or boolean representations of
-values.
+1. We get specific values of comparable objects
+2. Then we compare them depending on types of objects
+3. And evaluate result of comparison to `True` or `False`.
 ```python
 0 == False   # => True
 2 > True     # => True
 2 == True    # => False
 -5 != False  # => True
 ```
-<!--SR:!2024-10-28,3,162-->
+<!--SR:!2025-02-20,2,142-->
 
-How do you evaluate `None`, `0`, and empty `strings`, empty `lists`, empty
-`dicts`, empty `tuples`, empty `sets`?
+How do you evaluate to boolean this values: `None`, `0`, empty `strings`,
+empty `lists`, empty `dicts`, empty `tuples`, empty `sets`?
 <br class="f">
-None, 0, and empty strings/lists/dicts/tuples/sets all evaluate to False. All
-other values are True.
+All evaluate to `False`, and all other values evaluate to `True`.
 ```python
 bool(0)      # => False
 bool("")     # => False
@@ -137,17 +148,17 @@ bool([])     # => False
 bool({})     # => False
 bool(())     # => False
 bool(set())  # => False
+
 bool(4)      # => True
 bool(-6)     # => True
 ```
-<!--SR:!2025-02-11,5,182-->
+<!--SR:!2025-02-27,8,182-->
 
-<!-- TODO: need review -->
-How do boolean logical operators (and, or) on ints work (casting), bool(X)?
+How do boolean operators `and`, `or` work on integers? What is `bool(X)`?
 <br class="f">
-Using boolean logical operators (and/or) on ints casts them to booleans for
-evaluation, but their non-cast value is returned. Don't mix up with bool(ints)
-and bitwise and/or (&,|).
+They cast integera values to booleans values for evaluation, but their non-cast
+value is returned as result. General rule: don't mix up `int` valuse with `bool`
+values when you use bitwise operators.
 ```python
 bool(0)   # => False, boolean value!
 bool(2)   # => True
@@ -158,123 +169,133 @@ bool(2)   # => True
 ```
 <!--SR:!2024-10-25,2,162-->
 
-How to use equality in Python?
+How to compare objects by equality in Python?
 <br class="f">
-Equality is the `==` operator.
+Need to use equality operator - `==`.
 ```python
-1 == 1  # => True
-2 == 1  # => False
+1 == 1     # => True
+2 == 1     # => False
 ```
 
-How to use inequality in Python?
+How to use inequality operator in Python?
 <br class="f">
-Inequality is the `!=` operator.
+Need to use inequality operator `!=`.
 ```python
 1 != 1  # => False
 2 != 1  # => True
 ```
-<!--SR:!2024-11-28,14,182-->
+<!--SR:!2025-03-15,25,182-->
 
 How to use more or less than operators in Python?
 <br class="f">
+Need to use `>`/`>=` and `<`/`<=` operators.
 ```python
 1 < 10  # => True,  1 is less than 10
 1 > 10  # => False, 1 is greater than 10
 2 <= 2  # => True, 2 is less or equal to 2
 2 >= 2  # => True, 2 is greater or equal to 2
 ```
-<!--SR:!2024-11-24,10,202-->
+<!--SR:!2025-03-19,29,222-->
 
-How do you vitrify that value is in a numeric range 1..2?
+How do you verify that value is in a numeric range `-300_000` to `2025`?
 <br class="f">
-You can use following comparations:
+You can use following comparing:
 ```python
-# Seeing whether a value is in a range
-1 < 2 and 2 < 3  # => True
-2 < 3 and 3 < 2  # => False
+# Seeing whether a
+x = 2025
+range_from = -300_000
+range_to = 2026
 
-# Chaining makes this look nicer
-1 < 2 < 3  # => True
-2 < 3 < 2  # => False
+print(x > range_from and x < range_to)  # => True, using and
+print(range_from < x < range_to)        # => True, using chaining
 ```
-<!--SR:!2024-11-21,5,182-->
 
 What is the difference between `is` and `==`?
 <br class="f">
+`is` checks if two variables refer to the **same object**,
+`==` checks sobjects pointed to have the **same values**.
 ```python
-# `Is` checks if two variables refer to the **same object**, but `==` checks
-# if the objects pointed to have the **same values**.
-
 a = [1, 2, 3, 4]  # Point a at a new list, [1, 2, 3, 4]
 b = a             # Point b at what a is pointing to
+
 b is a            # => True, a and b refer to the same object
 b == a            # => True, a's and b's objects are equal
+
 b = [1, 2, 3, 4]  # Point b at a new list, [1, 2, 3, 4]
-b is a            # => False, a and b do not refer to the same object
+
+b is a            # => False, a and b DO NOT refer to the same object
 b == a            # => True, a's and b's objects are equal
 ```
 
-How do you create strings?
+How you can create strings in Python?
 <br class="f">
-Strings are created with " or '.
+Strings are created with `"` or `'` characters and there are few types of
+strings:
 ```python
 "This is a string."
+
 'This is also a string.'
+
 name = "Inom"
 f"This is a formatted string with placeholders: Name - {name}."
+
+"""
+This is a multi-line string, which also can be written with triple quotes and
+supports formatting.
+"""
 ```
 <!--SR:!2025-02-17,11,202-->
 
 How do you add (concatenate) strings?
 <br class="f">
-```python
-# Strings can be added with "+"
-"Hello " + "world!"  # => "Hello world!"
-```
-
-How to concatenate strings without using `+`?
+Strings can be concatenated with `+` character or whitespace.
 <br class="f">
-With whitespace characters:
 ```python
-# String literals (but not variables) can be concatenated without using '+'
-"Hello " "world!"    # => "Hello world!"
+"Hello " + "world!"  # => "Hello world!"
 
-print(
+"Hello " "World"
+
+(
     "Hello "
-    "world"             # => "Hello world"
+    "World"
 )
 ```
-<!--SR:!2024-11-20,6,162-->
 
 Can be string treated like a list of characters?
 <br class="f">
+Yes, in Python also no "char" type, only string with length 1
 ```python
-# Yes, in python also no "char" type, type("s")
 "Hello world!"[0]  # => 'H'
+type("H")          # => <class 'str'>
 ```
-<!--SR:!2024-11-22,7,182-->
+<!--SR:!2025-03-04,13,182-->
 
-How do you find the length of a string or array?
+How do you find the length of a string or list, set, dict?
+<br class="f">
+Need to use `len` built-in function.
 ```python
-len("This is a string")  # => 16
-len([1, 2, 3])           # => 3
+len("This is a string")    # => 16
+len([1, 2, 3])             # => 3
+len({1, 2, 3})             # => 3
+len({1: "one", 2: "two"})  # => 2
 ```
 
 What are f-strings?
 <br class="f">
- Since Python 3.6, you can use f-strings or formatted string literals, to place
-variables inside a string (sort of template).
+A formatted string literal or f-string is a string literal that is prefixed with
+'f' or 'F', usually contain replacement fields, which are expressions delimited
+by curly braces `{}`.
 ```python
 name = "Reiko"
 f"She said her name is {name}."  # => "She said her name is Reiko"
 # Any valid Python expression inside these braces is returned to the string.
 f"{name} is {len(name)} characters long."  # => "Reiko is 5 characters long."
 ```
-<!--SR:!2024-10-26,4,182-->
+<!--SR:!2025-02-26,7,182-->
 
-Is `None` an object?
+Is `None` an object in Python?
 <br class="f">
-Yes, like any other data.
+Yes, like any other data type in Python.
 ```python
 isinstance(None, object)  # => True
 
@@ -296,26 +317,42 @@ from types import FunctionType
 print(type(Person), isinstance(Person, type))
 print(type(test), isinstance(test, FunctionType))
 ```
+*Results:*
+```
+<class 'str'> True
+<class 'int'> True
+<class 'float'> True
+<class 'complex'> True
+<class 'bool'> True
+<class 'NoneType'> True
+<class 'list'> True
+<class 'tuple'> True
+<class 'dict'> True
+<class 'set'> True
+<class 'type'> True
+<class 'function'> True
+```
 <!--SR:!2024-11-24,8,162-->
 
-TODO: need review
-How do you compare objects to None and why?
+How do you compare objects to `None`, with `==` or `is`?
 <br class="f">
-`is` checks to see if the object is the same object, while `==` just checks if
-they are equivalent, some classes have custom comparison methods that treat `==
-None` differently from `is None`.
-Don't use the equality "==" symbol to compare objects to None Use "is" instead.
-This checks for equality of object identity.
+`is` checks to see if the object is the same object, since `None` is a unique
+singleton, is `None` is faster and safer than comparing `None` with `==`.
+`==` just checks if they are equivalent.
+General rule: don't use the equality "==" symbol to compare objects to None Use
+"is" instead.
 ```python
+# This checks for equality of object identity.
 "etc" is None  # => False
 None is None   # => True
 
+# Some objects in Python can override comparison method, and treat `== None`
+# differently from `is None`.
 import numpy as np
 a = np.zeros(3) # now a is array([0., 0., 0.])
 
-# compares elementwise, outputs array([False, False, False]), i.e. not
-# boolean!!!
-a == None   # array([False, False, False])
+# compares elementwise (each item in array)
+a == None   # array([False, False, False]), NOT BOOLEAN!!!
 
 # compares object to object, outputs False
 a is None   # => False
@@ -330,23 +367,29 @@ Print objects to the text stream file.
 ```python
 print("I'm Python. Nice to meet you!")  # => I'm Python. Nice to meet you!
 print("Hello, World", end="!")  # => Hello, World!
+# print("Wow, I can print into file!", file=open("/tmp/myfile.txt", "w"))
 ```
 <!--SR:!2025-02-13,7,182-->
 
-How do you get input from the console?
+How do you get input data from user in interactive mode?
 <br class="f">
+By using `input` built-in function.
 ```python
 input_string_var = input("Enter some data: ")  # Returns the data as a string
+print("You typed: " + input_string_var)
 ```
 <!--SR:!2025-02-19,13,182-->
 
-Is there a declaration in Python (`cpython`)?
+Is there exists a declaration in Python (`cpython`), like `int x` in [[C]]?
 <br class="f">
-There are no declarations ([[Python_type_hints]] are not declarations), only assignments. <!--SR:!2024-10-27,4,182-->
+There are no declarations ([[Python_type_hints]] are not declarations), only
+assignments, `x = 1; type(x)`. <!--SR:!2024-10-27,4,182-->
 
 Convention in naming variables is?
 <br class="f">
-snake_case style and not starting with number
+According to PEP 8 [^2] internal consistency is preferred, usually used
+`snake_case` style and not starting with number (otherwise you get syntax
+error).
 ```python
 some_var = 5
 some_var  # => 5
@@ -355,28 +398,31 @@ some_var  # => 5
 
 What happens if you access an unassigned variable?
 <br class="f">
-Accessing a previously unassigned variable is an exception.
-See [[#3. Control Flow and Iterables]] to learn more about exception handling.
+Python will throw a `NameError` exception.
 ```python
 some_unknown_var  # Raises a NameError
 ```
+See [[#3. Control Flow and Iterables]] to learn more about exception handling.
 
-How can you use if as an expression (like ternary operator)?
+How can you use `if` as an expression (like ternary operator)?
 <br class="f">
-Equivalent of C's `?:` ternary operator.
+You can use `if` as an expression.
 ```python
+# [true_value] if condition else [false_value]
 "yay!" if 0 > 1 else "nay!"  # => "nay!"
 "yay!" if 0 < 1 else "nay!"  # => "yay!"
 ```
 <!--SR:!2024-11-23,7,182-->
 
-What are lists, how to create them?
+What are Pyton lists?
 <br class="f">
 Data structure which store sequences.
+CPython’s lists are really variable-length arrays, not Lisp-style linked lists.
+The implementation uses a contiguous array of references to other objects, and
+keeps a pointer to this array and the array’s length in a list head structure.
 ```python
-li = []
-# You can start with a prefilled list
-other_li = [4, 5, 6]
+li = []               # empty list
+other_li = [4, 5, 6]  # prefilled list
 ```
 <!--SR:!2024-11-29,13,182-->
 
@@ -384,32 +430,27 @@ How do you add elements to a list and remove them?
 <br class="f">
 ```python
 li = []
-# Add stuff to the end of a list with append
 li.append(1)    # li is now [1]
-li.append(2)    # li is now [1, 2]
-li.append(4)    # li is now [1, 2, 4]
-li.append(3)    # li is now [1, 2, 4, 3]
-# Remove from the end with pop
-li.pop()        # => 3 and li is now [1, 2, 4]
-# Let's put it back
-li.append(3)    # li is now [1, 2, 4, 3] again.
+li.insert(1, 2) # li is now [1, 2]
+li.pop()        # => 2 and li is now [1]
+li.append(2)    # li is now [1, 2] again.
 ```
 <!--SR:!2024-10-26,4,182-->
 
 How do you access elements in a list?
 <br class="f">
-By index.
+By index. Negative indices count from the end.
 ```python
 # Access a list like you would any array
 li[0]   # => 1
 # Look at the last element
-li[-1]  # => 3
+li[-1]  # => 2
 ```
 <!--SR:!2025-02-13,7,182-->
 
-Looking out of list bounds (accessing) is an?
+Is it safe to looking out of list bounds (accessing)?
 <br class="f">
-index error:
+No, it's throwing an index error:
 ```python
 li = [1, 2, 3]
 li[4]  # Raises an IndexError
@@ -426,9 +467,8 @@ li[:3]    # Return list ...
 li[::2]   # Return list ...
 li[::-1]  # Return list ...
 ```
-<br class="f">
-You can look at ranges with slice syntax. The start index is included, the end
-index is not (it's a closed/open range for you mathy types).
+<br class="f"> You can look at ranges with slice syntax. General rule:
+Inclusive start, exclusive end.
 ```python
 li = [1, 2, 4, 3]
 li[1:3]   # [2, 4], return list from index 1 to 3
@@ -449,12 +489,15 @@ Yes. But be careful, we are creating shallow copy.
 a = []
 b = []
 li = [a, b, 4, 3]
-li2 = li[:]  # => li2 = [1, 2, 4, 3] but (li2 is li) will result in false.
+li2 = li[:]  # => li2 = [1, 2, 4, 3]
+
+li2 == li    # True
+li2 is li    # False, since li2 shallow copy
 ```
 
-How do you remove arbitrary elements from a list?
+How do you remove arbitrary values from a list?
 <br class="f">
-Remove arbitrary elements from a list with "del"
+Remove arbitrary elements from a list with `del` statement.
 ```python
 li = [1, 2, 4, 3]
 del li[2]  # li is now [1, 2, 3]
@@ -463,11 +506,12 @@ del li[2]  # li is now [1, 2, 3]
 How do you remove the first occurrence of a value in a list, what if we are
 trying to remove a value that is not in the list or remove it two times?
 <br class="f">
-Remove first occurrence of a value
+Remove first occurrence of a value with `remove` method, when we are trying to
+remove not-existing value, it raises `ValueError`.
 ```python
 li = [1, 2, 3]
-li.remove(4)  # Raises a ValueError as 4 is not in the list
 li.remove(2)  # li is now [1, 3]
+li.remove(4)  # Raises a ValueError as 4 is not in the list
 li.remove(2)  # Raises a ValueError as 2 is not in the list
 ```
 
@@ -477,17 +521,18 @@ Need to use `insert` method.
 ```python
 li = [1, 3]
 li.insert(1, 2)  # li is now [1, 2, 3]
+li.insert(0, 0)  # li is now [0, 1, 2, 3]
 ```
 
-How do you get the index of the first item found matching (index by value) the
-argument in a list, what if index is not found?
+How to get first matching index of value in list? What if value doesn't exist in
+a list?
 ```python
-li = [1, 2, 3]
+li = [1, 2, 3, 2, 2]
 li.index(2)  # => 1
 li.index(4)  # Raises a ValueError as 4 is not in the list
 ```
 
-How do you add lists (concatenate lists)?
+How do you concatenate lists?
 <br class="f">
 You can concatenate lists with `+` operator or with `extend(l)` method.
 ```python
@@ -503,6 +548,7 @@ li_2.extend(other_li)  # Now li is [1, 2, 3, 4, 5, 6]
 
 li == li_2  # => True
 ```
+
 How do you check for existence in a list?
 <br class="f">
 With `in` operator.
@@ -520,29 +566,23 @@ li = [3, 1, 4]
 len(li)  # => 3
 ```
 
-Tuples are like lists, but they are (main property)?
+Tuples are almost like lists, with one important difference:
 <br class="f">
-But they are immutable.
+They are immutable.
 ```python
 tup = (1, 2, 3)
 tup[0]      # => 1
 tup[0] = 3  # Raises a TypeError
 ```
 
-How do you create a tuple of length one, zero?
+How you can create a tuple of length one, zero or other lenghts in Python?
 <br class="f">
-Note that a tuple of length one has to have a comma after the last element but
+The tuple of length one has to have a comma after the last element but
 tuples of other lengths, even zero, do not.
 ```python
 type((1))   # => <class 'int'>, not a tuple!
-
-a = (1,)
-b = ()
-type(a)  # => <class 'tuple'>
-len(a)   # => 1
-
-type(b)  # => <class 'tuple'>
-len(b)   # => 0
+type((1,))  # => <class 'tuple'>, with 1 length
+type(())    # => <class 'tuple'>, with 0 lenght
 ```
 
 Can do you perform list operations (get length, concatenate, slice, existence
@@ -557,7 +597,7 @@ tup[:2]          # => (1, 2)
 ```
 
 How do you unpack tuples (`(1, 2, 3)`), is it possible to unpack
-arbitrary-lenght tuple into few variables, nested unpacking?
+arbitrary-length tuple into few variables, nested unpacking?
 <br class="f">
 You can unpack tuples (or lists) into variables
 ```python
@@ -584,14 +624,15 @@ e, d = d, e  # d is now 5 and e is now 4
 
 What are dictionaries?
 <br class="f">
-Dictionaries ([[hash_table]]) store mappings from keys to values.
+Dictionaries [[hash_table]]) is a data type which store mappings from keys to
+values.
 ```python
 empty_dict = {}
 # Here is a prefilled dictionary
 filled_dict = {"one": 1, "two": 2, "three": 3}
 ```
 
-What are the requirements for keys in dictionaries?
+What are the primary requirements for keys in dictionaries?
 <br class="f">
 Keys for dictionaries have to be immutable types. This is to ensure that
 the key can be converted to a constant hash value for quick look-ups.
@@ -1730,3 +1771,4 @@ print(my_function.__code__.co_argcount)  # => 2
 ```
 
 [^1]: [Learn Python in Y Minutes](https://learnxinyminutes.com/python/)
+[^2]: [PEP 8 – Style Guide for Python Code | peps.python.org](https://peps.python.org/pep-0008/)
