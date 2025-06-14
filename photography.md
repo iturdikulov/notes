@@ -73,8 +73,9 @@ Based on great article (Russian language) [^1].
 - Place into sleeves
 - Store in special folders to protect from dust and scratches.
 
-## External links
+## Learning path
 
+- [ ] [Set.a.Light 3D Review & Tutorial](https://www.youtube.com/watch?v=YFlC6RL1MmM)
 - [ ] [Вычислительная Фотография](https://vas3k.blog/blog/computational_photography/)
 - [ ] [Вычислительная фотография 2.0](https://jejeya.pictures/future_of_photography)
 

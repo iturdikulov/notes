@@ -14,7 +14,6 @@ sr-ease: 227
 <!-- TODO: MARK physical books -->
 <!-- TODO: verify originals, wiki links -->
 
-
 TODO: very scratchy, need to be rewritten and chaos fixed.
 TODO: sync with other notes, DRY (move books in related sections)
 
@@ -33,18 +32,19 @@ If the title of the author and book in Cyrillic, this means I read it in
 
 ## Classic, famous books and stories
 
-- [ ] [[Lermontov_-_Geroj_nashego_vremeni\|Лермонтов - Герой нашего времени]]
-- [ ] [[Pushkin_-_Pikovaya_dama\|Пушкин - Пиковая дама]]
-- [ ] [[Klark_-_Rasskazy\|Кларк - Рассказы]]
-- [ ] [[Van_Vogt_-_Rasskazy\|Ван Вогт - Рассказы]]
-- [p] [[Ekzyuperi_-_Malenkij_princz\|Экзюпери - Маленький принц]]
+- [ ] [[Lermontov-Geroj_nashego_vremeni\|Лермонтов - Герой нашего времени]]
+- [ ] [[Pushkin-Pikovaya_dama\|Пушкин - Пиковая дама]]
+- [ ] [[Klark-Rasskazy\|Кларк - Рассказы]]
+- [ ] [[Van_Vogt-Rasskazy\|Ван Вогт - Рассказы]]
+- [p] [[Ekzyuperi-Malenkij_princz\|Экзюпери - Маленький принц]]
 
 ## Sci-fi and fantasy
 
 > Сон разума рождает чудовищ. Фантастика будит разум. \
 > — <cite>[Книжная серия «Антология мировой фантастики»](https://fantlab.ru/series422)</cite>
 
-- [ ] [[Yudkowsky_-_Harry_Potter_and_the_methods_of_rationality]]
+- [ ] [[Yudkowsky-Harry_Potter_and_the_methods_of_rationality]]
+- [ ] [Деннис Тейлор «Вселенная Боба»](https://fantlab.ru/work974514)
 - [x] [Альфред Ван Вогт «Война против Руллов»](https://fantlab.ru/work5079),
   7.8/10, good but not enough.
 
@@ -60,9 +60,61 @@ adding a link at the end of [[#Inbox]] section.
 - [Собачье сердце — Википедия](https://ru.wikipedia.org/wiki/%D0%A1%D0%BE%D0%B1%D0%B0%D1%87%D1%8C%D0%B5_%D1%81%D0%B5%D1%80%D0%B4%D1%86%D0%B5)
 - [Божественная комедия — Википедия](https://ru.wikipedia.org/wiki/%D0%91%D0%BE%D0%B6%D0%B5%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F_%D0%BA%D0%BE%D0%BC%D0%B5%D0%B4%D0%B8%D1%8F)
 - Александр Грин (Юлия Синелобова) – Вор в лесу
+- Ковчег 47 Либра
 
-- [[Detskaya_literatura_-_Biblioteka_mirovoj_literatury_dlya_detej]]
-- [[Ekzyuperi_-_CZitadel]]
+Сергей Лукьяненко:
+
+- «Лабиринт отражений»;
+- «Поиски утраченного завтра»;
+- «Линия грёз»;
+- «Императоры иллюзий»;
+- «Спектр»;
+- «Изменённые»;
+- «Черновик»;
+- «Чистовик»;
+
+серия - «Дозоры»;
+
+- «Танцы на снегу»;
+- «Геном»;
+- «Порог»;
+- «Предел»;
+- «Прыжок»;
+- «Звёздная тень»;
+- «Искатели неба»;
+- «Ловец видений»;
+- «Квази»;
+- «Рыцари сорока островов»;
+- «Мальчик и тьма»;
+- «Мой папа — антибиотик»;
+- «Способность спустить курок»;
+- «За лесом, где подлый враг»;
+- «Фальшивые зеркала»;
+- «Одиссей Фокс»;
+
+серия - «Пограничье».
+Олег Дивов:
+- «Холод, голод, интеллект»;
+- «Вредная профессия»;
+- «Когда начнётся муйня»;
+- «К-10»;
+- «Лучший экипаж Солнечной»;
+- «У Билли есть хреновина»;
+- «Леди не движется»;
+цикл - «Мастер собак»;
+- «Закон фронтира»;
+- «Выбраковка»;
+- «Саботажник»;
+- «Ночной смотрящий»;
+- «Родина слонов»;
+- «Канал им. Москвы»;
+- «К-9»;
+- «Толкование сновидений».
+Антон Карелин:
+- «Одиссей Фокс».
+
+- [[Detskaya_literatura-Biblioteka_mirovoj_literatury_dlya_detej]]
+- [[Ekzyuperi-CZitadel]]
 
 - [Don't Panic by Neil Gaiman | Open Library](https://openlibrary.org/books/OL8914483M/Don't_Panic?mode=all)
 - [Айзек Азимов «Я, робот» | Лаборатория Фантастики](https://fantlab.ru/work688)
@@ -79,6 +131,7 @@ adding a link at the end of [[#Inbox]] section.
 - [Джозеф Кэмпбелл «Тысячеликий герой» | Livelib](https://www.livelib.ru/book/1008030517/reviews-tysyachelikij-geroj-dzhozef-kempbell)
 - [Тед Чан «История твоей жизни»](https://fantlab.ru/work18472)
 - [Урсула К. Ле Гуин «Волшебник Земноморья»](https://fantlab.ru/work152289)
+- Чёрный котёнок
 
 - Tolkien - The Silmarillion
 - Book 1. Harry Potter and the Sorcerer’s Stone (1997)

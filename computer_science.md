@@ -16,6 +16,7 @@ Active sources:
 - [[LeetCode]] - research and solve problems.
 - Jay Vs. Leetcode
 - [Code Interview University](https://github.com/jwasham/coding-interview-university)
+- [[informatika]]
 
 
 ## High-level

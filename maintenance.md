@@ -36,6 +36,7 @@ filenames, etc.
 - `external`, `file`, `directory` frontmatter variables in [[Zettelkasten]]
   files are isn't broken.
 - My projects have `README.md` file.
+- Broken, empty and  orphaned files from [[Obsidian]], generated with plugin
 
 - Edit and organize my photos and pictures, movies, games and software.
   [[my_pictures]], [[my_movies]], [[my_games]], [[my_awesome_software_list]]
