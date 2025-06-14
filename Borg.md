@@ -11,6 +11,17 @@ sr-ease: 232
 
 # Borg
 
+## Automatic backup
+
+I have simple setup with systemd timer for automatic backups. On
+failure, it generates & send email with error report.
+
+Check this:
+
+TODO: add links to github, maybe automatically?
+
+~/.local....backup.sh
+~/.config/yadm.../borg
 
 ## Verifying backup
 
