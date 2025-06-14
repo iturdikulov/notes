@@ -56,7 +56,7 @@ To understand custom bullet list types check [[my_notation]] note.
   - [p] Episode 2: Cubes, Cylinders & Cones! Free Basic Drawing Class
 - [/] [[my_sketchbook]] - draw things
 - [[graphic_design]]
-- [[Price_-_Donut_tutorial_in_Blender]]
+- [[Price-Donut_tutorial_in_Blender]]
 - [Learn to Draw - YouTube](https://www.youtube.com/playlist?list=PL1HIh25sbqZnkA1T09UtVHoyjYaMJuK0a)
 - redraw Russian_Cyrillic_alphabet
 - redraw International_Morse_Code
@@ -69,17 +69,17 @@ To understand custom bullet list types check [[my_notation]] note.
 
 - [/] [[my_sketchbook|Sketchbook]]
 - [/] [[30_day_drawing_challenge|Drawing Challenge]]
-- [/] [[Loomis_-_Fun_with_a_pencil|Loomis book]]
+- [/] [[Loomis-Fun_with_a_pencil|Loomis book]]
 - Make https://aleeodom.wordpress.com/wp-content/uploads/2010/10/gradient.png,
   Gimp, Inkscape, Krita, Hand-drawn.
-- [[Drawbox_community_-_Drawbox|Taking fundamental drawing exercises]].
-- [[Prokopenko_-_Figure_drawing_fundamentals]]
+- [[Drawbox_community-Drawbox|Taking fundamental drawing exercises]].
+- [[Prokopenko-Figure_drawing_fundamentals]]
 - [[my_handwriting]]
 
 ### Photography
 
 - [[photography]]
-- [ ] [[Kilpatrik_-_Svet_i_osveshhenie]], good book about light and lighting.
+- [ ] [[Kilpatrik-Svet_i_osveshhenie]], good book about light and lighting.
 
 ### Software
 

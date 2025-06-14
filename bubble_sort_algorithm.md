@@ -89,5 +89,5 @@ The efficiency of Bubble Sort (in terms of Big O) is approximately (will close
 to it with big numbers) $\mathcal{O}(N^2)$, quadratic time, grows exponentially.
 In worst case array of 5 items we need to compare 10 times and make 10 swaps,
 array of 10 items we need to compare about 45 times and make about 45 swaps. You
-can check [[Wengrow_-_Data_structures_and_algorithms|Wengrow]] book, page
+can check [[Wengrow-Data_structures_and_algorithms|Wengrow]] book, page
 73. <!--SR:!2024-09-27,22,250-->

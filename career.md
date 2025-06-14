@@ -71,17 +71,17 @@ Additional Skills:
 
 ## Learning path
 
-- [x] [[Yershov_-_programmirovanie_vtoraya_gramotnost]]
-- [x] [[Evans_-_So_you_want_to_be_a_WizarD]]
+- [x] [[Yershov-programmirovanie_vtoraya_gramotnost]]
+- [x] [[Evans-So_you_want_to_be_a_WizarD]]
 - [ ] James - The Tao of Programming
 - [ ] [[job_interview]]
 - [ ] [[work]]
-- [ ] [[Sonmez_-_Gibkie_navyki]]
-- [ ] [[Hunt_and_Thomas_-_The_pragmatic_programmer]]
+- [ ] [[Sonmez-Gibkie_navyki]]
+- [ ] [[Hunt_and_Thomas-The_pragmatic_programmer]]
 - [ ] Программист-фанатик
-- [ ] [[Brooks_-_Mythical_man-month]]
-- [ ] [[Rainwater_-_Herding_cats]]
-- [ ] [[Yourdon_-_Death_march]]
+- [ ] [[Brooks-Mythical_man-month]]
+- [ ] [[Rainwater-Herding_cats]]
+- [ ] [[Yourdon-Death_march]]
 - [ ] [Hackers and Painters](https://paulgraham.com/hp.html)
 - [ ] [Great Hackers](https://paulgraham.com/gh.html)
 - [ ] [Capt. Grace Hopper on Future Possibilities: Data, Hardware, Software, and People (Part One, 1982) - YouTube](https://www.youtube.com/watch?v=si9iqF5uTFk)

@@ -31,21 +31,12 @@ if some presentation work is done on server for example.
 
 - [What is a web server? | MDN](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_web_server)
 - [What is the difference between webpage, website, web server, and search engine? | MDN](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/Pages_sites_servers_and_search_engines)
-- [[Shuler_-_How_does_the_Internet_work]]
-
-### Python
-
-- [[Pydantic]]
-- [Ruff](https://blog.jerrycodes.com/ruff-the-python-linter/)
+- [[Shuler-How_does_the_Internet_work]]
 - [Type hints cheat sheet - mypy](https://mypy.readthedocs.io/en/stable/cheat_sheet_py3.html)
-- [Flask](https://flask.palletsprojects.com/en/stable/)
 - [The Flask Mega-Tutorial](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world)
 - [FastAPI Best Practices and Conventions we used at our startup](https://github.com/zhanymkanov/fastapi-best-practices)
 - [Превращаем любой фреймворк в FastAPI. На прицеле Flask / Habr](https://habr.com/en/articles/748618/)
-- [[aio-pika_Community_-_rabbitmq_tutorial]].
-- [FastAPI](https://fastapi.tiangolo.com/learn/)
-- [FastStream](https://faststream.airt.ai/latest/faststream)
-- [rq-flask-sqlalchemy-template](https://github.com/edkrueger/rq-flask-sqlalchemy-template/tree/master)
+- [[aio-pika_Community-rabbitmq_tutorial]].
 - [python - Celery: log each task run to its own file?](https://stackoverflow.com/questions/25281612/celery-log-each-task-run-to-its-own-file)
 - [Using Celery: Python Task Management](https://www.toptal.com/python/orchestrating-celery-python-background-jobs)
 - [fastapi_celery_redis_postgres_app.py · GitHub](https://gist.github.com/JacobFV/c9c068f66d371175e5334d1635deaea0)
@@ -53,19 +44,33 @@ if some presentation work is done on server for example.
 - [First Steps with Celery — Celery 5.4.0 documentation](https://docs.celeryq.dev/en/stable/getting-started/first-steps-with-celery.html)
 - [Python REST APIs With Flask, Connexion, and SQLAlchemy](https://realpython.com/flask-connexion-rest-api/)
 - Decomposition of [igorbenav/FastAPI-boilerplate](https://github.com/igorbenav/FastAPI-boilerplate)
-- [HTTPX](https://www.python-httpx.org/quickstart/)
 - Django in action
-- Django framework [[Greenfelds_-_Two_scoops_of_django_3.x]]
+- Django framework [[Greenfelds-Two_scoops_of_django_3.x]]
 - [Руководство Django Girls](https://tutorial.djangogirls.org/ru/)
 - [Python Django - The Practical Guide](https://www.udemy.com/course/python-django-the-practical-guide/)
 - [Большой гайд по миграциям в Django: готовимся к миграциям и избегаем конфликтов / Хабр](https://habr.com/ru/companies/idaproject/articles/861386/)
 - [Сборка Django-приложения при помощи Nuitka в onefile / Хабр](https://habr.com/ru/companies/astralinux/articles/872510/)
 
-- [[Seporaitis_-_Large_scale_refactoring_with_PyBowler|PyBowler]]
+- [[Seporaitis-Large_scale_refactoring_with_PyBowler|PyBowler]]
 - [spectree: API spec validator and OpenAPI document generator](https://github.com/0b01001001/spectree#flask)
 - [Лучшие open-source инструменты для Python проектов](https://habr.com/en/articles/708916/)
+
+## Libraries, frameworks
+
+- [sqlc-dev/sqlc: Generate type-safe code from SQL](https://github.com/sqlc-dev/sqlc)
+
+### Python
+
+- [[Pydantic]]
+- [Ruff](https://blog.jerrycodes.com/ruff-the-python-linter/)
+- [Vulture - Find dead code](https://pypi.org/project/vulture/)
+- [Task manager for asyncio | Taskiq](https://taskiq-python.github.io/)
+- [RedBeat Celery Beat Scheduler](https://github.com/sibson/redbeat)
+- [Flask](https://flask.palletsprojects.com/en/stable/)
+- [FastAPI](https://fastapi.tiangolo.com/learn/)
+- [FastStream](https://faststream.airt.ai/latest/faststream)
+- [HTTPX](https://www.python-httpx.org/quickstart/)
 
 ### Challenges
 
 - [Бэкендеры Вызов Хабр Карьеры и Хекслета](https://drive.google.com/drive/folders/1iW5Fgax0A1DTjt6URUhKYBoZ1A-AAZpZ)
-
