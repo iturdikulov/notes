@@ -7,24 +7,6 @@ tags:
 
 # Computer graphics
 
-> Deals with generating images and art with the aid of computers. Today,
-> computer graphics is a core technology in digital [[photography]] film, video
-> [[game|games]], digital [[art]], cell phone and computer displays, and many
-> specialized applications. A great deal of specialized hardware and software
-> has been developed, with the displays of most devices being driven by computer
-> graphics hardware. It is a vast and recently developed area of computer
-> science. The phrase was coined in 1960 by computer graphics researchers Verne
-> Hudson and William Fetter of Boeing. It is often abbreviated as CG, or
-> typically in the context of film as computer generated imagery (CGI). The
-> non-artistic aspects of computer graphics are the subject of
-> [[computer_science]] research.\
-> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Computer_graphics)</cite>
-
-![](https://www.youtube.com/watch?v=hTpcOmlvCEQ)\
-_Excellent example of computer graphics (rendered video) from branch education_
-
-## Learning path
-
 My outline for learning [[computer_graphics]]. The main software for this is
 [[Godot]], [[Blender]], [[Python]].
 
@@ -34,7 +16,6 @@ To understand custom bullet list types check [[my_notation]] note.
 
 ## Inbox
 
-- [Handmade Hero](https://guide.handmadehero.org/), watch course and take notes.
 - [[Godot]], TODO: own gamedev note
 - [Learn Godot's GDScript From Zero by GDQuest](https://gdquest.itch.io/learn-godot-gdscript)
 - [/] [[Godot]] note research (with documentation).
@@ -71,8 +52,8 @@ Computer graphics and game development:
 
 Programming, rendering, 2D/3D graphics and game development:
 
-- [[Javidx9_-_Code_it_yourself]]
-- [[Muratori_-_Handmade_hero|Handmade Hero]], my initial steps, heavy
+- [[Javidx9-Code_it_yourself]]
+- [[Muratori-Handmade_hero|Handmade Hero]], my initial steps, heavy
   related to programming with [[MS_Windows|Windows]] API and
 - [Scratchapixel 3.0, Learn Computer Graphics Programming](https://www.scratchapixel.com/)
 - [Computer Graphics (CMU 15-462/662)](https://www.youtube.com/playlist?list=PL9_jI1bdZmz2emSh0UQ5iOdT2xRHFHL7E)
@@ -83,7 +64,7 @@ Programming, rendering, 2D/3D graphics and game development:
 - [Introduction - Vulkan Tutorial](https://vulkan-tutorial.com/)
 - [Vulkan (c++) Game Engine Tutorials](https://www.youtube.com/playlist?list=PL8327DO66nu9qYVKLDmdLW_84-yE4auCR)
 - [Уроки по OpenGL с сайта OGLDev](https://triplepointfive.github.io/ogltutor/)
-- [[Raylib_community_-_Raylib]]
+- [[Raylib_community-Raylib]]
 - [Physics of JellyCar: Soft Body Physics Explained](https://www.youtube.com/watch?v=3OmkehAJoyo)
 - [The code of several works on oimo.io/works](https://github.com/saharan/works)
 - [WebGL-Fluid-Simulation)](https://github.com/PavelDoGreat/WebGL-Fluid-Simulation)
@@ -92,8 +73,7 @@ Programming, rendering, 2D/3D graphics and game development:
 
 - [!] [[Blender#Learning]]
 - [mister chad](https://mister-chad.com/welcome)
-- [[Muratori_-_Handmade_hero]]
-- [[Creative_Shrimp_-_Hard_surface_modeling_In_Blender]]
+- [[Creative_Shrimp-Hard_surface_modeling_In_Blender]]
 - Trammell HUMAN Realistic Portrait With Blender?
 - Tuytel and Rahman Creating 3D Environments?
 - [Creating Realistic 3D Water in
@@ -108,5 +88,5 @@ Raster and vector graphics:
 
 ### Archive
 
-- [x] [[Price_-_Donut_tutorial_in_Blender]]
+- [x] [[Price-Donut_tutorial_in_Blender]]
 - [x] TODO: add links, Inkscape shape tutorial
