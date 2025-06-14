@@ -25,3 +25,5 @@ sr-ease: 224
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Linked_data_structure)</cite>
 
 TODO: linked list
+
+- [ ] [Связный список на Python: Коты в коробках / Хабр](https://habr.com/ru/companies/otus/articles/470828/)

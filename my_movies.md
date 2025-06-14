@@ -19,6 +19,7 @@ To understand custom bullet list types check [[my_notation]] note.
 ## Now
 
 - [ ] Futurama. Volume 1
+- ted lasso
 
 ## Archive
 
@@ -63,6 +64,8 @@ To understand custom bullet list types check [[my_notation]] note.
 ## Inbox
 
 - [ ] Учитель на замену
+- [ ] Электрический штат (2025)
+- [ ] Полный расколбас (мультфильм, 2016)
 
 - [ ] Джентльмены
 - [ ] Однажды, двадцать лет спустя (1980)

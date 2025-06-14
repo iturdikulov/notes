@@ -34,3 +34,5 @@ sr-ease: 250
 > (hindbrain and midbrain).
 >
 > [Simple English Wikipedia](https://simple.wikipedia.org/wiki/Emotion)
+
+## My favorite emojis

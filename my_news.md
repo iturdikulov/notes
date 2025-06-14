@@ -17,3 +17,8 @@ sr-ease: 275
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/News)</cite>
 
 My main news provider is [[Miniflux]]
+
+## External links
+
+- [Новости, каталог RSS](https://www.michael-smirnov.ru/)
+- [HN Popularity Contest](https://refactoringenglish.com/tools/hn-popularity/)

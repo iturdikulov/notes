@@ -23,12 +23,16 @@ sr-ease: 250
 IRL is abbreviation for "in real life". I use it to describe my real life
 activities.
 
-For life support I need buy some things, [[cooking|cook]] food
-and keep inventory (which require [[maintenance]]).
+For life support I need to buy some things, [[cooking|cook]] food and keep
+inventory (which require [[maintenance]]).
 
 Sometimes I do some [[DIY|cool things]] or spent time for [[art]].
 
 Also, worth to mention this notes [[home_construction]] and [[government]].
+
+## Environment
+
+- [ ] [How to improve your WFH lighting to reduce eye strain - Russell Baylis](https://rustle.ca/posts/articles/work-from-home-lighting)
 
 ## Size chart
 

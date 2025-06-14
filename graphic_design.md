@@ -41,7 +41,7 @@ Another example, The ABC Of Design.
 ![The APC Of Design](img/The_ABC_of_Design.png)
 _The ABC Of Design_
 
-## Graphic design Inspiration
+## Graphic design examples and inspiration
 
 - [Terminal Hugo Theme](https://panr.github.io/hugo-theme-terminal-demo/)
 - [Sentence Case: automatically capitalize sentences](https://getreuer.info/posts/keyboards/sentence-case/#overview)
@@ -52,6 +52,7 @@ _The ABC Of Design_
 - [tek256](https://tek256.com/faq/)
 - [seedit4.me](https://seedit4.me/)
 - [Thunderbird](https://www.thunderbird.net/en-US/thunderbird/115.0/holidayeoy/)
+- [terminal.sexy - Terminal Color Scheme Designer](https://terminal.sexy/)
 
 ## Learning path
 

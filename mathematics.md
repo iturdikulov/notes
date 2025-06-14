@@ -44,6 +44,7 @@ To understand custom bullet list types check [[my_notation]] note.
 
 - [[spacemath-matematika_s_nulya]]
 - [[Perelman-Zanimatelnaya_matematika]]
+- [[Math_is_fun_community-Math_is_fun]]
 
 ### Inbox
 
