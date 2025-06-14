@@ -6,6 +6,8 @@
 !.obsidian/snippets/
 *.out
 _*.txt
+broken_links_output.md
+orphaned_files_output.md
 
 # Personal
 external/salesloop
