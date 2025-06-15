@@ -27,6 +27,9 @@ setfacl -m group:rslsync:rwx /home/inom
 sudo setfacl -R -d -m group:rslsync:rwx /home/inom/Wiki
 sudo setfacl -R -m group:rslsync:rwx /home/inom/Wiki
 
+sudo setfacl -R -d -m group:rslsync:rwx /home/inom/Music
+sudo setfacl -R -m group:rslsync:rwx /home/inom/Music
+
 # Any sub directories created will also belong to the rslsync group
 chmod g+s /home/inom/Wiki
 ```
