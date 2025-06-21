@@ -20,5 +20,8 @@ books/
 literature/
 articles/
 
+# Drafts
+img/tmp/
+
 # Original images, which I want to keep
 img_originals/
