@@ -81,6 +81,30 @@ Need to verify some loges, units, etc. for my [[OS]].
 support audio to text conversion or build some workflow.
 - [[how_do_I_sync_my_data|Sync my data]].
 
+### General cleaning
+
+- Get ready: gather tools, rags, supplies, work area.
+- Dust: carpets, tables, ventilation, chandeliers, light bulbs, curtains,
+  blinds, furniture, frames, electrical appliances, shelves, books, paintings
+  and other surfaces.
+- Stains: monitors, furniture, wallpaper, carpets,
+- Wash and/or wipe: window sills, windows, door handles and switches
+- Floor, baseboards: vacuum or sweep, wash
+- Wash: blankets and throws
+- Furniture: necessary care, supplies, move and wash the floor underneath.
+
+### Bathroom and toilet cleaning
+
+- Clean: taps, shower head, grout, bathtub deposits, sink.
+- Wash: shower stall, cabinets inside and outside, mirrors, curtain, toilet.
+
+### Kitchen cleaning
+
+- Clean: stove top, burners, knobs, oven inside, microwave.
+- Dust: hood, refrigerator, move refrigerator and wipe dust.
+- Wash: sink and taps, hood grill, refrigerator, cabinets,
+dishwasher (wash cycle with vinegar).
+
 ## Hardware
 
 - [EIZO ](https://www.eizo.be/monitor-test/) - Online monitor quality test,
