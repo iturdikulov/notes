@@ -202,6 +202,17 @@ Some keybindings, which integrated with Zsh:
 For reverse search in history with ==`C-r`== hotkey and ==`Up`== key, I use
 different tool - [atuin](https://github.com/atuinsh/atuin).
 
+## atuin
+
+Invoke: standard key `C-r`.
+
+Remove item:
+
+- Select the entry you want to delete
+- Press `C-o` to open the inspector
+- Press `C-d` to delete the entry
+  NOTE: there is no confirmation dialog after pressing `C-d`.
+
 ## Sioyek
 
 I use [[Sioyek]] to read and annotate PDFs. It's optimized for research and
