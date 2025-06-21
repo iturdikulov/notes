@@ -301,6 +301,7 @@ To understand custom bullet list types check [[my_notation]] note.
 
 ## Awesome software
 
+- [Are we Wayland yet](https://arewewaylandyet.com/)
 - [The ultimate list of which programs support Vim-like keybindings](https://github.com/erikw/vim-keybindings-everywhere-the-ultimate-list)
 - [Big Pile of Vim-like](https://vim.reversed.top/)
 - [Programs and Equipment I Use | Luke's Webpage](https://lukesmith.xyz/programs/)
