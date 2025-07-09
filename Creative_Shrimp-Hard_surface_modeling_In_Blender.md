@@ -15,5 +15,4 @@ sr-ease: 250
 
 # Hard Surface Modeling In Blender
 
-Bring your hard surface creations to life.
-Hard surface made easy.
+Bring your hard surface creations to life. Hard surface made easy.

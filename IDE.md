@@ -18,5 +18,5 @@ sr-ease: 218
 > interpreter, or both; others, such as SharpDevelop and Lazarus, do not.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Integrated_development_environment)</cite>
 
-I use right now [[Pycharm]] as my main IDE, also I have my
-custom [[Neovim]] [[PDE]].
+I use right now [[Pycharm]] as my main IDE, also I have my custom [[Neovim]]
+[[PDE]].

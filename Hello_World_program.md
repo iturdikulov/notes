@@ -168,8 +168,8 @@ puts "Hello, World!"
 
 ## Z-Shell
 
-The Z shell ([[Zsh]]) is a Unix shell that can be used as an interactive login shell
-and as a **command interpreter** for shell scripting.
+The Z shell ([[Zsh]]) is a Unix shell that can be used as an interactive login
+shell and as a **command interpreter** for shell scripting.
 
 ```zsh
 echo "Hello, World!"

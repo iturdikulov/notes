@@ -25,8 +25,7 @@ sr-ease: 255
 
 ## Learning
 
-Keybindings cheat sheet:
-![](img/Inkscape_keyboard_layout_cheat_sheet.svg)
+Keybindings cheat sheet: ![](img/Inkscape_keyboard_layout_cheat_sheet.svg)
 _[Inkscape Keyboard Layout v0.48.4 - Openclipart](https://openclipart.org/detail/188861/inkscape-keyboard-layout-v0484)_
 
 ## External links
@@ -36,6 +35,7 @@ _[Inkscape Keyboard Layout v0.48.4 - Openclipart](https://openclipart.org/detail
 - [ ] [The Inkscape Master Class | Logos By Nick Academy](https://logosbynick.teachable.com/courses/enrolled/485218)
 - [ ] [Inkscape Beginner Tutorials - Quickstart](https://inkscape.org/gallery/=tutorial/inkscape-beginner-tutorials/).
 - [ ] Interesting article how to integrate Inkscape with latex:
-  [How I draw figures for my mathematical lecture notes using Inkscape](https://castel.dev/post/lecture-notes-2/).
-- [ ] inkscape-open-symbols\* - Symbol libraries are sets of SVG symbols located in
-  one SVG document, [PanderMusubi/inkscape-open-symbols: Open source SVG symbol sets that can be used as Inkscape symbols](https://github.com/PanderMusubi/inkscape-open-symbols)
+      [How I draw figures for my mathematical lecture notes using Inkscape](https://castel.dev/post/lecture-notes-2/).
+- [ ] inkscape-open-symbols\* - Symbol libraries are sets of SVG symbols located
+      in one SVG document,
+      [PanderMusubi/inkscape-open-symbols: Open source SVG symbol sets that can be used as Inkscape symbols](https://github.com/PanderMusubi/inkscape-open-symbols)

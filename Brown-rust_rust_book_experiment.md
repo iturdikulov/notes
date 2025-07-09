@@ -13,8 +13,6 @@ external:
 # Rust Book experiment
 
 Diffirences from original Rust Book:
- - Interactive quizzes, don't skip them.
- - Built-in temproray highlights.
 
-
-
+- Interactive quizzes, don't skip them.
+- Built-in temproray highlights.
