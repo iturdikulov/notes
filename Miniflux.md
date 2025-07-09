@@ -46,7 +46,7 @@ news, tweets, posts, videos, etc. Something like News Inbox.
 ## Pages Navigation
 
 - `h`:<wbr class="f"> Go to previous page
-- `l`:<wbr class="f">  Go to next page
+- `l`:<wbr class="f"> Go to next page
 
 ## Actions
 
@@ -54,7 +54,8 @@ news, tweets, posts, videos, etc. Something like News Inbox.
 - `v`:<wbr class="f"> Open original link to a new tab
 - `m`:<wbr class="f"> Toggle read/unread and focus next
 - `M`:<wbr class="f"> Toggle read/unread and focus previous
-- `d`:<wbr class="f"> Fetch original web page and apply scraper rules or readability
+- `d`:<wbr class="f"> Fetch original web page and apply scraper rules or
+  readability
 - `f`:<wbr class="f"> Star or Unstar the current entry (favorites)
 - `s`:<wbr class="f"> Save article to configured third-party services
 - `a`:<wbr class="f"> Toggle open/close entry attachments
@@ -68,6 +69,6 @@ news, tweets, posts, videos, etc. Something like News Inbox.
 - `c` - Open comments link to a new tab
 - `C` - Open comments link into current tab
 - `A` - Mark current page as read
-- `z t` -  Scroll item to top
+- `z t` - Scroll item to top
 - `#` - Removes current feed
 - `Escape` - Close modal dialogs

@@ -16,4 +16,4 @@ sr-ease: 272
 ## External links
 
 - [vnen/Godot-24-Hours: Examples and demo projects for the Godot Engine
-Game Development in 24 Hours book.](https://github.com/vnen/Godot-24-Hours)
+  Game Development in 24 Hours book.](https://github.com/vnen/Godot-24-Hours)

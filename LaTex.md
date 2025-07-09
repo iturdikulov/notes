@@ -29,5 +29,5 @@ sr-ease: 273
   contributed to it. Most of the packages are free and can be downloaded and
   used immediately.
 - [ ] Interesting article how to integrate Inkscape with latex:
-  [How I draw figures for my mathematical lecture notes using Inkscape](https://castel.dev/post/lecture-notes-2/).
+      [How I draw figures for my mathematical lecture notes using Inkscape](https://castel.dev/post/lecture-notes-2/).
 - [ ] [My auto-reload setup for writing LATEX documents in VIM](https://nikopj.github.io/blog/auto-reload-latex/#update_january_17th_2021)

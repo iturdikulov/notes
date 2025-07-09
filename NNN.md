@@ -13,9 +13,11 @@ sr-ease: 249
 # NNN file manager
 
 Enable deleting into trash with `NNN_TRASH` [[environment_variable]].
+
 ```bash
 NNN_TRASH=1  # enable trash
 ```
+
 ## Shortcuts
 
 `q` quit
@@ -98,6 +100,7 @@ Pick/err, quit
 <kbd>Q</kbd>
 
 ## Filter and prompt shortcuts
+
 Filter
 <br class="f">
 <kbd>/</kbd>
@@ -205,6 +208,7 @@ Send to FIFO
 <kbd>Esc</kbd>
 
 ## Misc shortcuts
+
 Select plugin, ???
 <br class="f">
 <kbd>;</kbd>
@@ -252,9 +256,11 @@ Lock
 Help, conf
 <br class="f">
 <kbd>?</kbd>
+
 <!--SR:!2023-06-08,4,210-->
 
 ## type-to-nav mode shortcuts
+
 Go to first file/match
 <br class="f">
 <kbd>'</kbd>
@@ -304,6 +310,7 @@ Go HOME
 <kbd>~</kbd>
 
 TODO:
+
 - bookmarks
 - Hot-plugged drives
 - Live Previews

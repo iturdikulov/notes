@@ -10,8 +10,8 @@ sr-ease: 248
 
 # GNU/Linux
 
-> Linux or **GNU/Linux** is a [[Unix]]-like [[OS]] (or family of)
-> for [[computer|computers]].
+> Linux or **GNU/Linux** is a [[Unix]]-like [[OS]] (or family of) for
+> [[computer|computers]].
 >
 > The Linux kernel (the basis of the operating system) is free software, meaning
 > everyone has the freedom to use it, see how it works, change it, or share it.
@@ -40,7 +40,8 @@ To get printer url use following command: `lpinfo -v`
 
 To get active printers list use following command: `lpstat -a`
 
-Printing with specific printer and option: `lpr -o landscape -o fit-to-page -P printer_name filename/filinames`
+Printing with specific printer and option:
+`lpr -o landscape -o fit-to-page -P printer_name filename/filinames`
 
 Get printer status: `lpq -P printer_name`
 

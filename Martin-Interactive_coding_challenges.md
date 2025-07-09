@@ -15,4 +15,4 @@ sr-ease: 230
 # Interactive coding challenges
 
 120+ interactive Python coding interview challenges (algorithms and data
-structures).  Includes Anki flashcards.
+structures). Includes Anki flashcards.

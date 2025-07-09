@@ -10,9 +10,8 @@ sr-ease: 150
 
 # Lua cheat-sheet
 
-In the following sections, I'll describe the basics of [[Lua]]
-programming language with Q/A flashcards based on learnxinyminutes [^1]
-cheatsheet.
+In the following sections, I'll describe the basics of [[Lua]] programming
+language with Q/A flashcards based on learnxinyminutes [^1] cheatsheet.
 
 ```lua
 -- Two dashes start a one-line comment.
