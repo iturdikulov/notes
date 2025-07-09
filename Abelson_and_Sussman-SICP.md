@@ -5,9 +5,9 @@ tags:
   - computer_programming
   - annotation_book
 author: Harold Abelson; Gerald Jay Sussman
-directory: ~/Computer/programming/Abelson_and_Sussman-SICP/
 external:
   - http://mitpress.mit.edu/9780262510875/structure-and-interpretation-of-computer-programs/
+file: ./books/Abelson_and_Sussman-SICP.pdf
 sr-due: 2025-02-18
 sr-interval: 390
 sr-ease: 263

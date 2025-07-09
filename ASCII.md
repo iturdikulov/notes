@@ -11,13 +11,14 @@ sr-ease: 248
 
 What's ASCII?
 <br class="f">
+
 > Text encoding standard for electronic communication, limited to 128 code
-> points.
-> **ASCII** (/ˈæskiː/, _ASS-kee_), an acronym for **American Standard Code for
-> Information Interchange**, is a [[character]] encoding standard for electronic
-> communication. ASCII codes represent text in computers, telecommunications
-> equipment, and other devices. ASCII has just 128 code points, of which only 95
-> are printable characters, which severely limit its scope.\
+> points. **ASCII** (/ˈæskiː/, _ASS-kee_), an acronym for **American Standard
+> Code for Information Interchange**, is a [[character]] encoding standard for
+> electronic communication. ASCII codes represent text in computers,
+> telecommunications equipment, and other devices. ASCII has just 128 code
+> points, of which only 95 are printable characters, which severely limit its
+> scope.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/ASCII)</cite>
 
 ## ASCII printable characters (character code 32-127)
