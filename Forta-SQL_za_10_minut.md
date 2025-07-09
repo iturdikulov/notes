@@ -4,6 +4,7 @@ tags:
   - blog
   - annotation_book
 author: Ben Forta
+file: ./books/Forta-SQL_za_10_minut.djvu
 ---
 
 # SQL за 10 минут

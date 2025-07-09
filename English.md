@@ -40,23 +40,25 @@ media and people.
 
 TODO: better group resources
 
-I usually just read/consume some content in [[English]].
-[[touch_typing|Touch typing]] greatly help me to memorize words and phrases.
+I usually just read/consume some content in [[English]]. [[touch_typing|Touch
+typing]] greatly help me to memorize words and phrases.
 
-I am a native speaker of [[Russian]], and sometimes I need to study
-English with Russian in same time (to understand grammar terms, differences,
-etc.).
+I am a native speaker of [[Russian]], and sometimes I need to study English with
+Russian in same time (to understand grammar terms, differences, etc.).
 
 To understand custom bullet list types check [[my_notation]] note.
 
 ### Now
 
 - THE article fundamentals
-- Алевтина Попова - От YESли бы к YESтественно. Как выучить английские времена с помощью мемов.
+- Алевтина Попова - От YESли бы к YESтественно. Как выучить английские времена с
+  помощью мемов.
 - [!] [[duolingo]]
 - [!] Fundamentals of English grammar:
-      ![[img/Spelling_punctuation_and_grammar_SPAG.excalidraw|Spelling punctuation and grammar scheme]]
-- Some book from Ilia Frank series, [Метод чтения Ильи Франка](http://www.franklang.ru/)
+  ![[img/Spelling_punctuation_and_grammar_SPAG.excalidraw|Spelling punctuation
+  and grammar scheme]]
+- Some book from Ilia Frank series,
+  [Метод чтения Ильи Франка](http://www.franklang.ru/)
 - [[Petrov-Poliglot]]
 - [[CHernixovskaya-English_start-up]]
 - [[Murphy_Essential_Grammar_in_Use_Elementary]]
@@ -102,8 +104,9 @@ There are some types of collocations: Fixed, Strong, and Weak.
 ## English grammar
 
 Examples of correct English language parts (paragraphs, sentences, words and
-other parts), main soruce is [English grammar -
-Wikipedia](https://en.wikipedia.org/wiki/English_grammar) webpage.
+other parts), main soruce is
+[English grammar - Wikipedia](https://en.wikipedia.org/wiki/English_grammar)
+webpage.
 
 Using dash, en-dash, capitalization:
 

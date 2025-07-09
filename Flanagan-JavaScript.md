@@ -5,10 +5,10 @@ tags:
   - blog
   - computer_programming_web
   - annotation_book
+file: ./books/Flanagan-JavaScript.pdf
 sr-due: 2024-04-12
 sr-interval: 78
 sr-ease: 228
-directory: ~/Computer/programming/Flanagan-JavaScript
 ---
 
 # JavaScript: The definitive guide: Master the world's most-used programming language

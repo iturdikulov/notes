@@ -7,8 +7,8 @@ tags:
 
 # Go cheat-sheet
 
-In the following sections, I'll describe the basics of [[Go]] programming language
-with Q/A flashcards based on learnxinyminutes [^1] cheatsheet.
+In the following sections, I'll describe the basics of [[Go]] programming
+language with Q/A flashcards based on learnxinyminutes [^1] cheatsheet.
 
 ```go
 // Go was created out of the need to get work done. It's not the latest trend in programming language theory, but it is a way to solve real-world problems.
