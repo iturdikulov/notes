@@ -22,14 +22,14 @@ databases, game development, utilities, etc.
 
 ## ANSI C
 
-> ANSI C, ISO C, and Standard C are successive standards for the
-> [[C]] programming language published by the American
-> National Standards Institute (ANSI) and ISO/IEC JTC 1/SC 22/WG 14 of the
-> International Organization for Standardization (ISO) and the International
-> Electrotechnical Commission (IEC). Historically, the names referred
-> specifically to the original and best-supported version of the standard (known
-> as C89 or C90). Software developers writing in C are encouraged to conform to
-> the standards, as doing so helps portability between compilers.\
+> ANSI C, ISO C, and Standard C are successive standards for the [[C]]
+> programming language published by the American National Standards Institute
+> (ANSI) and ISO/IEC JTC 1/SC 22/WG 14 of the International Organization for
+> Standardization (ISO) and the International Electrotechnical Commission (IEC).
+> Historically, the names referred specifically to the original and
+> best-supported version of the standard (known as C89 or C90). Software
+> developers writing in C are encouraged to conform to the standards, as doing
+> so helps portability between compilers.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/ANSI_C)</cite>
 
 Latest standard:
@@ -42,7 +42,7 @@ Latest standard:
 
 - [!] [[C]], create flashcards with Learn C in Y minutes
 - [[Kernighan_and_Ritchie-The_C]]
-    - [[Costrasel-The_C_programming_language_solutions]]
+  - [[Costrasel-The_C_programming_language_solutions]]
 - TODO: [Learn C the Hard Way](https://learncodethehardway.org/c/)
 - [Собрал в одном большом гайде всё, что хотел бы знать, когда изучал язык C / Хабр](https://habr.com/ru/companies/ncloudtech/articles/871748/)
 - [[Xiryanov-Kurs_molodogo_bojcza_MFTI_yazyk_S]], to learn basics of [[C]].

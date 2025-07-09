@@ -10,9 +10,9 @@ sr-ease: 150
 
 # Bash cheat-sheet
 
-In the following sections, I'll describe the basics of [[Bash]]
-programming language with Q/A flashcards based on learnxinyminutes [^1]
-cheatsheet and Stegerman Bash [^2] cheat-sheet.
+In the following sections, I'll describe the basics of [[Bash]] programming
+language with Q/A flashcards based on learnxinyminutes [^1] cheatsheet and
+Stegerman Bash [^2] cheat-sheet.
 
 ## Learn Bash in Y minutes
 
@@ -513,4 +513,5 @@ info --apropos bash
 _[bash cheat sheet](https://github.com/obfusk/bash-cheatsheet/tree/master)_
 
 [^1]: [Learn Bash in Y Minutes](https://learnxinyminutes.com/bash/)
+
 [^2]: [Bash cheat sheet](https://github.com/obfusk/bash-cheatsheet/)

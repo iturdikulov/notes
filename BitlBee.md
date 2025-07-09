@@ -16,8 +16,9 @@ sr-ease: 272
 > — <cite>https://www.bitlbee.org/</cite>
 
 Install the program and connect to the BitlBee server with your favorite
-[[IRC]]-client. You will be force-joined into the control channel where root (the
-bot, your assistant, the bee) will try to help you to get the program working.
+[[IRC]]-client. You will be force-joined into the control channel where root
+(the bot, your assistant, the bee) will try to help you to get the program
+working.
 
 Adding new account:
 
@@ -34,6 +35,7 @@ Sending private messages to users who are not in a channel:
 ## Using Plugins
 
 Plugin adds custom protocol support to bitlbee, you can add account as usual:
+
 ```
 account add plugin_name <email> <password>
 account xxx on

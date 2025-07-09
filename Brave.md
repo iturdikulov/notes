@@ -16,7 +16,7 @@ Free open source browser. Currently (11/24) I stopped to use it.
 Key features for me:
 
 - Rich ad blocking (Shield), and it's available for all computing platform which
-I use.
+  I use.
 - Support for extensions.
 - [[VA-API]] support on [[Linux]].
 - [[web_browser#Development tools|Browser DevTools]] support.

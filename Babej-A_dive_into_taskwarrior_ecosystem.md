@@ -5,14 +5,14 @@ external:
   - https://www.youtube.com/watch?v=tijnc65soEI
 tags:
   - blog
-  - productivity
+  - archive
   - annotation_article
 sr-due: 2025-06-04
 sr-interval: 496
 sr-ease: 248
 ---
 
-#  A Dive into Taskwarrior Ecosystem
+# A Dive into Taskwarrior Ecosystem
 
 ## Typical Workflow
 
