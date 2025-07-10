@@ -13,4 +13,4 @@ TODO: add term
 
 ## External links
 
-- [Compiler Explorer](https://godbolt.org/)
+- [Compiler Explorer](https://godbolt.org/), online compiler

@@ -18,8 +18,8 @@ sr-ease: 247
 
 I prefer technical conferences, which I visit mostly online.
 
-My primary goal to visit conferences is to [[learning|learn]] something new
-and be inspired by other people.
+My primary goal to visit conferences is to [[learning|learn]] something new and
+be inspired by other people.
 
 ## External links
 

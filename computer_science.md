@@ -210,7 +210,4 @@ and process **textual and linguistic data**.
 The Turing Award is generally recognized as the highest distinction in computer
 science.
 
-
-## References
-
 [^1]: [Computer science - Wikipedia](https://en.wikipedia.org/wiki/Computer_science)
