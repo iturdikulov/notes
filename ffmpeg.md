@@ -34,9 +34,9 @@ Get existing video metadata:
 
     ffmpeg -i INPUT.mp4 -f ffmetadata FFMETADATAFILE
 
-Check there are no existing chapters.
-Watch the video, noting chapters into a `chapters.txt` file as you go.
-Place `FFMETADATAFILE`, `chapters.txt`, and the video file in the same directory.
+Check there are no existing chapters. Watch the video, noting chapters into a
+`chapters.txt` file as you go. Place `FFMETADATAFILE`, `chapters.txt`, and the
+video file in the same directory.
 
 chapters.txt example:
 
@@ -53,7 +53,8 @@ Run the helper script to append chapters to `FFMETADATAFILE`:
 
 ## Usage examples
 
-Create a new video, copying the video and audio from the original without re-encoding:
+Create a new video, copying the video and audio from the original without
+re-encoding:
 
     ffmpeg -i INPUT.mp4 -i FFMETADATAFILE -map_metadata 1 -codec copy OUTPUT.mp4
     # or
@@ -63,6 +64,7 @@ Combine ffmpeg with fd, convert into specific video/audio codec
 
     fd -d 1 -e avi -x ffmpeg -i {} -vcodec libx264 -acodec aac {.}.mp4
 
-Compine ffmpeg with fd, convert into h264_vaapi with hardware acceleration, vaapi, custom device:
+Compine ffmpeg with fd, convert into h264_vaapi with hardware acceleration,
+vaapi, custom device:
 
     fd -d 1 -e avi -x ffmpeg -hwaccel vaapi -hwaccel_output_format vaapi -hwaccel_device /dev/dri/renderD128 -i {} -c:v h264_vaapi {.}_.mp4

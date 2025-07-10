@@ -100,7 +100,6 @@ Here are some good hostnames which I use for my computers.
     wash
     zanja
 
-
 ## Phonetic Alphabet
 
     Alpha
@@ -399,6 +398,7 @@ Here are some good hostnames which I use for my computers.
     equinox
 
 ## Days/Months
+
     sunday
     monday
     tuesday
@@ -439,6 +439,7 @@ Here are some good hostnames which I use for my computers.
     dionysus      bacchus
 
 ## Greek/Roman Mythology
+
     Acheron
     Achilles
     Actaeon

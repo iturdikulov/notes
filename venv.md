@@ -26,8 +26,8 @@ This note explains how to create isolated Python environment and install
 Virtual environment is a tool to create ==isolated== Python and packages
 environment for your program (projects, services, etc.).
 
-Python applications often using packages and modules that don't come as part
-of the standard library (dependencies).
+Python applications often using packages and modules that don't come as part of
+the standard library (dependencies).
 
 Applications sometimes need a **specific version** of a library, because the
 application may require that a particular bug has been fixed, or the application
@@ -36,9 +36,9 @@ may be written using an obsolete version of the library's interface
 sometimes requiring own version of a library, and using global packages isn't
 working. ^shared-packages-issue
 
-What if we just use only new version of packages in each project?
-It's very common in Python packages to try the best to avoid breaking changes in
-new versions, but it's better to be safe, and install newer versions
+What if we just use only new version of packages in each project? It's very
+common in Python packages to try the best to avoid breaking changes in new
+versions, but it's better to be safe, and install newer versions
 **intentionally** and when you can run the [[software_testing|tests]] to check
 everything is working correctly.
 
@@ -54,15 +54,14 @@ installation** for a particular version of Python, plus a number of additional
 packages. Each application can use own virtual environment.
 
 Which standard python module used to create virtual environments?
-<br class="f">
-The module used to create and manage virtual environments is called `venv`.
+<br class="f"> The module used to create and manage virtual environments is
+called `venv`.
 
 Which Python version will be installed in the virtual environment when you use
 `venv` module?
-<br class="f">
-`venv` will install the Python version **from which** the command was run (as
-reported by the `--version` option). For instance, executing the command with
-``python3.12`` will install Python 3.12.
+<br class="f"> `venv` will install the Python version **from which** the command
+was run (as reported by the `--version` option). For instance, executing the
+command with `python3.12` will install Python 3.12.
 
 ## Using "venv" module
 
@@ -124,15 +123,14 @@ Links to other editor's configuration help:
 To install (upgrade, remove) packages you would normally use the pip command
 that comes with Python (built-in).
 
-By default, pip will install packages from [the Python package
-index](https://pypi.org/) into your global Python environment (the global
-installation of Python), which brings some package version
-[[#^shared-packages-issue|problems]].
+By default, pip will install packages from
+[the Python package index](https://pypi.org/) into your global Python
+environment (the global installation of Python), which brings some package
+version [[#^shared-packages-issue|problems]].
 
 Installing packages with pip.
 
 ```sh
-
 # Install a package into system-wide default location:
 pip install package_name
 
@@ -176,14 +174,13 @@ pip install --find-links url|path/to/file
 pip install --editable .
 ```
 
-More information aviable in [Installing Python
-Modules](https://docs.python.org/3/installing/index.html#installing-index)
+More information aviable in
+[Installing Python Modules](https://docs.python.org/3/installing/index.html#installing-index)
 documentation.
 
 When you've written a package and want to make it available on the Python,
-consult the [Python packaging user
-guide](https://packaging.python.org/en/latest/tutorials/packaging-projects/).
-
+consult the
+[Python packaging user guide](https://packaging.python.org/en/latest/tutorials/packaging-projects/).
 
 To initialize a virtual environment in `.venv` directory, run:
 

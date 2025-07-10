@@ -21,24 +21,24 @@ sr-ease: 249
 
 ## How a website found on the internet
 
-1.  open [http://example.com](http://example.com)
-2.  need to find IP address of example.com
-3.  Places where we try to find IP address, next checked only if current one
-    fails
-    - Local Cache
-      - browser cache
-      - DNS Cache
-      - Hosts File
-    - Recursive DNS servers (resolver) Usually ISP DNS server, dns record can be
-      cached.
-    - Root DNS servers Root DNS servers are responsible for finding the relevant
-      TLD server (find .com .org .io ... other TLD DNS servers).
-    - Top Level DNS Servers TLD Used to find relevant NS servers for domain
-      (Authoritative DNS Servers). Used DNS glue records to break loop.
-    - Authoritative DNS Servers Place contains the information for the domain.
-      Here we ask the A Record of the domain name, with IP address.
-4.  Since we have IP address, we connect to server:port (80/443 port) and get
-    for example web-page HTML code.
+1. open [http://example.com](http://example.com)
+2. need to find IP address of example.com
+3. Places where we try to find IP address, next checked only if current one
+   fails
+   - Local Cache
+     - browser cache
+     - DNS Cache
+     - Hosts File
+   - Recursive DNS servers (resolver) Usually ISP DNS server, dns record can be
+     cached.
+   - Root DNS servers Root DNS servers are responsible for finding the relevant
+     TLD server (find .com .org .io ... other TLD DNS servers).
+   - Top Level DNS Servers TLD Used to find relevant NS servers for domain
+     (Authoritative DNS Servers). Used DNS glue records to break loop.
+   - Authoritative DNS Servers Place contains the information for the domain.
+     Here we ask the A Record of the domain name, with IP address.
+4. Since we have IP address, we connect to server:port (80/443 port) and get for
+   example web-page HTML code.
 
 ## External links
 
