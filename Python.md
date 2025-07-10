@@ -70,7 +70,8 @@ List of materials to review with [[my_notation]]:
 
 - [ ] [Python cheat sheets](https://www.datacamp.com/cheat-sheet)
 - [ ] [Python Cheatsheet](https://www.pythoncheatsheet.org/)
-- [ ] [[Sorn-Comprehensive_python_cheatsheet|Python cheatsheet]], to dive in into language itself.
+- [ ] [[Sorn-Comprehensive_python_cheatsheet|Python cheatsheet]], to dive in
+      into language itself.
 - [ ] [Python Wiki](https://wiki.python.org/moin/)
 
 - [ ] [[Python_concurency]]
@@ -88,13 +89,15 @@ List of materials to review with [[my_notation]]:
 - [Python Developer’s Guide](https://devguide.python.org/)
 - [How to learn Python programming | Guido van Rossum and Lex Fridman - YouTube](https://www.youtube.com/watch?v=F2Mx-u7auUs)
 - [[Matthes-Python_crash_course]]
-- [Python для сетевых инженеров](https://pyneng.readthedocs.io/ru/latest/index.html) paradigms function, imperative, oop
+- [Python для сетевых инженеров](https://pyneng.readthedocs.io/ru/latest/index.html)
+  paradigms function, imperative, oop
 - [Python Introduction - Learn By Example](https://www.learnbyexample.org/python-introduction/)
 - [Think Python — Think Python](https://allendowney.github.io/ThinkPython/)
 - [[Ramalho-Fluent_Python]]
 - [[Slatkin-Effective_Python]], general tips to write good Python code
-- [Python Classes: The Power of OOP – Real Python]( https://realpython.com/python-classes/)
-- [Sets in Python – Real Python](https://realpython.com/python-sets/), research article.
+- [Python Classes: The Power of OOP – Real Python](https://realpython.com/python-classes/)
+- [Sets in Python – Real Python](https://realpython.com/python-sets/), research
+  article.
 - [Set Difference Python: Intersection, union and difference of Sets in Python. - DEV Community](https://dev.to/svinci/intersection-union-and-difference-of-sets-in-python-4gkn)
 - [python - Meaning of @classmethod and @staticmethod](https://stackoverflow.com/questions/12179271/meaning-of-classmethod-and-staticmethod-for-beginner)
 - [Thoughts On @staticmethod Usage In Python - Julius Seporaitis](https://www.seporaitis.net/posts/2020/05/05/python-staticmethod-usage/)
@@ -107,7 +110,8 @@ List of materials to review with [[my_notation]]:
 - [PEP 8 – Style Guide for Python Code](https://peps.python.org/pep-0008/)
 
 - [Recursion in Python: An Introduction – Real Python](https://realpython.com/python-recursion/)
-- [[Xiryanov-Praktika_programmirovaniya_na_Python|Практика программирования на Python]].
+- [[Xiryanov-Praktika_programmirovaniya_na_Python|Практика программирования на
+  Python]].
 
 - [awesome-python-typing](https://github.com/typeddjango/awesome-python-typing)
 - [Python dataclasses will save you HOURS, also featuring attrs - YouTube](https://youtu.be/vBH6GRJ1REM)
@@ -117,7 +121,7 @@ List of materials to review with [[my_notation]]:
 - [PEP 498 – Literal String Interpolation | peps.python.org](https://peps.python.org/pep-0498/)
 - [Python's F-String for String Interpolation and Formatting – Real Python](https://realpython.com/python-f-strings/)
 
-- [Refactoring Python Applications for Simplicity – Real Python](https://realpython.com/python-refactoring/ )
+- [Refactoring Python Applications for Simplicity – Real Python](https://realpython.com/python-refactoring/)
 - [Скучный Python: повышаем качество кода / Хабр](https://habr.com/ru/company/otus/blog/713992/)
 
 - [The Hitchhiker’s Guide to Python!](https://python-docs.readthedocs.io/en/latest/index.html)
@@ -125,7 +129,7 @@ List of materials to review with [[my_notation]]:
 - [Detailed Videos - PythonByteSize](https://www.pythonbytesize.com/detailed-videos.html)
 - [The origins of Python](https://inference-review.com/article/the-origins-of-python)
 - [Python Monorepo](https://www.tweag.io/blog/2023-04-04-python-monorepo-1/)
-- [Ned Batchelder - Facts and Myths about Python names and values - PyCon 2015 - YouTube](https://www.youtube.com/watch?v=\_AEJHKGk9ns)
+- [Ned Batchelder - Facts and Myths about Python names and values - PyCon 2015 - YouTube](https://www.youtube.com/watch?v=_AEJHKGk9ns)
 - [А как в питоне пайпать? — Development — Форум](https://www.linux.org.ru/forum/development/17025364)
 
 - [Blog - Full Stack Python](https://www.fullstackpython.com/blog.html)
@@ -142,9 +146,9 @@ TODO: review
 
 - [JupyterLite and pandas intro](https://jvns.github.io/pandas-cookbook/lab/index.html)
 - [scipy](https://scipy.org/) - Fundamental algorithms for scientific computing
-in Python
+  in Python
 - [numpy](https://numpy.org/) - the fundamental package for scientific computing
-with Python
+  with Python
 - [Performance analysis for Python snippets](https://github.com/nschloe/perfplot)
 - [A platform-independent file lock for Python.](https://github.com/tox-dev/filelock)
 - [mistletoe: markdown parser in pure Python.](https://github.com/miyuchina/mistletoe)
@@ -159,16 +163,17 @@ with Python
 ### Web frameworks
 
 - [[Lubanovic-FastAPI]]
-- [GitHub - vishyarjun/rate_limiter_fastapi: API Rate Limiter built in FastAPI Python Framework](https://github.com/vishyarjun/rate_limiter_fastapi )
+- [GitHub - vishyarjun/rate_limiter_fastapi: API Rate Limiter built in FastAPI Python Framework](https://github.com/vishyarjun/rate_limiter_fastapi)
 
 ### Dev tools
 
 - [Python Module Dependency graphs](https://github.com/thebjorn/pydeps)
-- [Python Debugging With Pdb – Real Python](https://realpython.com/python-debugging-pdb/ )
+- [Python Debugging With Pdb – Real Python](https://realpython.com/python-debugging-pdb/)
 
 ### Computer Graphics
 
 - [Python CFFI bindings for Raylib](https://github.com/electronstudio/raylib-python-cffi)
 
-[^1]: article - [Python High-level essentials / Хабр](https://habr.com/ru/articles/697760/),
-      repository - [Python developer roadmap](https://github.com/amaargiru/pyroad)
+[^1]: article -
+    [Python High-level essentials / Хабр](https://habr.com/ru/articles/697760/),
+    repository - [Python developer roadmap](https://github.com/amaargiru/pyroad)

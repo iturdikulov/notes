@@ -26,6 +26,7 @@ Some [[vector_graphics|vector]] ([[Inkscape]], Adobe Illustrator) and
 it's useful as intermediate format especially for vector graphics.
 
 <!-- NEXT: add link -->
+
 I also have resume in this format.
 
 ## Recipes
@@ -49,4 +50,5 @@ pdfjam --papersize "$input_file_dimensions" "$input_file" --outfile output.pdf
 
 ## Tools
 
-- pdfunite (part of poppler) - merge PDF files, usage: `pdfunite file1.pdf file2.pdf merged.pdf`
+- pdfunite (part of poppler) - merge PDF files, usage:
+  `pdfunite file1.pdf file2.pdf merged.pdf`

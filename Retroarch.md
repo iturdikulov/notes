@@ -24,7 +24,6 @@ retroarch
 
 # Install
 retroarch-assets-ozone # for a more desktop-friendly GUI.
-
 ```
 
 ## Configuration files

@@ -19,6 +19,7 @@ tags:
 > — <cite>[Simple English Wikipedia](https://simple.wikipedia.org/wiki/Operating_system)</cite>
 
 I use the following operating systems:
+
 - [[Linux]] kernel based operating systems
 - [[Android]] linux kernel based operating system
 - [[MS_Windows]] NT kernel based operating system
@@ -41,8 +42,7 @@ I use the following operating systems:
 
 - [ ] [[pseudoterminal]]
 - [ ] [EasyEffects не нужно, или PipeWire для продвинутых: часть 1 — Desktop — Статьи](https://www.linux.org.ru/articles/desktop/17829071)
-- [ ] [WireGuard in NetworkManager – Thomas Haller's Blog](https://blogs.gnome.org/thaller/2019/03/15/wireguard-in-networkmanager/ )
+- [ ] [WireGuard in NetworkManager – Thomas Haller's Blog](https://blogs.gnome.org/thaller/2019/03/15/wireguard-in-networkmanager/)
 - [ ] [Гайд по межсетевому экранированию (nftables)](https://habr.com/ru/articles/684524/))
-    - [ ] [NixOS 21.11 and nftables](https://scvalex.net/posts/54/)
+  - [ ] [NixOS 21.11 and nftables](https://scvalex.net/posts/54/)
 - [ ] [Sending an ethernet packet](https://github.com/francisrstokes/githublog/blob/main/2024%2F11%2F1%2Fsending-an-ethernet-packet.md)
-

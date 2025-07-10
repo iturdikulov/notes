@@ -14,12 +14,14 @@ sr-ease: 250
 
 Describe how to solve general principles of solving problems.
 <br class="f">
+
 > How to Solve It (1945) is a small volume by mathematician George Pólya
 > describing methods of problem-solving.
 >
 > Four principles
 >
-> How to Solve It suggests the following steps when solving a mathematical problem:
+> How to Solve It suggests the following steps when solving a mathematical
+> problem:
 >
 >     First, you have to understand the problem.
 >     After understanding, make a plan.

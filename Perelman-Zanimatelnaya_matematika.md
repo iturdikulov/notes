@@ -4,7 +4,7 @@ tags:
   - blog
   - annotation_book
 author: Яков Перельман
-file: ~/Wiki/books/Perelman_-_Zanimatelnaya_matematika.pdf
+file: ./books/Perelman-Zanimatelnaya_matematika.pdf
 ---
 
 # Занимательная математика
@@ -15,5 +15,3 @@ file: ~/Wiki/books/Perelman_-_Zanimatelnaya_matematika.pdf
 математика». Эти сочинения приобщают к миру научных знаний, помогают привить
 читателю вкус к изучению точных наук, вызывают интерес к самостоятельным
 творческим занятиям.
-
-

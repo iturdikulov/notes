@@ -10,15 +10,15 @@ sr-ease: 150
 
 # Nix cheat-sheet
 
-In the following sections, I'll describe the basics of [[Nix]]
-programming language with Q/A flashcards based on learnxinyminutes [^1]
-cheatsheet.
+In the following sections, I'll describe the basics of [[Nix]] programming
+language with Q/A flashcards based on learnxinyminutes [^1] cheatsheet.
 
-Nix is a simple functional language developed for the [Nix package
-manager](https://nixos.org/nix/) and [NixOS](https://nixos.org/).
+Nix is a simple functional language developed for the
+[Nix package manager](https://nixos.org/nix/) and [NixOS](https://nixos.org/).
 
 You can evaluate Nix expressions using
-[nix-instantiate](https://nixos.org/nix/manual/#sec-nix-instantiate) or [`nix
+[nix-instantiate](https://nixos.org/nix/manual/#sec-nix-instantiate) or
+[`nix
 repl`](https://nixos.org/nix/manual/#ssec-relnotes-2.0).
 
 ```nix
@@ -372,7 +372,6 @@ with builtins; [
   #=> "/nix/store/2drvlh8r57f19s9il42zg89rdr33m2rm-package-1.2.3.tgz"
 
 ]
-
 ```
 
 [^1]: [Learn Nix in Y Minutes](https://learnxinyminutes.com/nix/)

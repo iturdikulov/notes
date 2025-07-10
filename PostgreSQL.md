@@ -25,4 +25,3 @@ psql
 CREATE USER teamname WITH ENCRYPTED PASSWORD 'password';
 CREATE DATABASE yourdb OWNER teamname;
 ```
-

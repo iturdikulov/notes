@@ -12,10 +12,10 @@ sr-ease: 230
 
 # NixOS
 
-> NixOS is a [[Linux]] distribution based on the Nix package manager and
-> build system. It supports reproducible and declarative system-wide
-> configuration management as well as atomic upgrades and rollbacks, although it
-> can additionally support imperative package and user management. In NixOS, all
+> NixOS is a [[Linux]] distribution based on the Nix package manager and build
+> system. It supports reproducible and declarative system-wide configuration
+> management as well as atomic upgrades and rollbacks, although it can
+> additionally support imperative package and user management. In NixOS, all
 > components of the distribution — including the kernel, installed packages and
 > system configuration files — are built by Nix from pure functions called Nix
 > expressions.\
@@ -36,10 +36,10 @@ also good (minimal), but I like the NixOS approach more.
   package options)
 - Consistency (rebuild all dependencies when core packages are updated).
 - Multi-user package management (users can install packages without root).
-- > 80,000 official packages (Nixpkgs), special packages with easily
-configurable options (NixOS options, > 10000 options).
+- 80,000 official packages (Nixpkgs), special packages with easily configurable
+  > options (NixOS options, > 10000 options).
 - Documentation and community (Guides and Tutorials, NixOS wiki, Discourse,
-Matrix, GitHub).
+  Matrix, GitHub).
 
 ## Cleanup old generations
 
@@ -90,9 +90,11 @@ nix-shell -p nix-prefetch-git jq --run "nix-prefetch-git --url https://github.co
 
 ## LD_LIBRARY_PATH issues
 
-This can happen when importing python libraries: Solution: add ${stdenv.cc.cc.lib}/lib/libstdc++.so.6 to the LD_LIBRARY_PATH.
+This can happen when importing python libraries: Solution: add
+${stdenv.cc.cc.lib}/lib/libstdc++.so.6 to the LD_LIBRARY_PATH.
 
 A sample shell.nix:
+
 ```
 { pkgs ? (import <nixpkgs> {}).pkgs }:
 with pkgs;
@@ -114,7 +116,8 @@ mkShell {
 ## PCI passthrough
 
 - [Notes on PCI passthrough on NixOS using QEMU and VFIO](https://alexbakker.me/post/nixos-pci-passthrough-qemu-vfio.html)
-- Review and add notes [Virtiofs: Shared file system](https://github.com/virtio-win/kvm-guest-drivers-windows/wiki/Virtiofs:-Shared-file-system)
+- Review and add notes
+  [Virtiofs: Shared file system](https://github.com/virtio-win/kvm-guest-drivers-windows/wiki/Virtiofs:-Shared-file-system)
 - [NixOS: PCI passthrough · GitHub](https://gist.github.com/techhazard/1be07805081a4d7a51c527e452b87b26)
 - [PCI passthrough via OVMF - ArchWiki](https://wiki.archlinux.org/title/PCI_passthrough_via_OVMF)
 

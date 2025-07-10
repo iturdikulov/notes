@@ -11,4 +11,3 @@ sr-ease: 212
 
 - [Pascal user manual](http://pascal.hansotten.com/uploads/books/Pascal_User_Manual_and_Report_Fourth_Edition.pdf)
 - [/] [[Pascal_cheat-sheet]]
-

@@ -4,7 +4,7 @@ tags:
   - blog
   - annotation_book
 author: John Sonmez
-file: ./literature/John Sonmez/Gibkiie navyki. Ischierpyvaiushchieie rukovodstvo po prokachkie siebia dlia nachinaiushchikh ra (2699)/Gibkiie navyki. Ischierpyvaiushchieie ruko - John Sonmez.fb2
+file: ./books/Gibkiie_navyki_-_John_Sonmez.fb2
 lang: ru
 ---
 

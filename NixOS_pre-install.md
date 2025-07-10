@@ -18,9 +18,11 @@ Entry point:
 - [Bootloader - NixOS Wiki](https://nixos.wiki/wiki/Bootloader)
 
 Typical boot process looks like this:
+
 ```
 Motherboard firmware (UEFI) -> FS with Bootloader -> Kernel -> Init... -> ...
 ```
+
 And we need to prepare the first 2 steps.
 
 ## 0. Prepare
@@ -29,6 +31,7 @@ And we need to prepare the first 2 steps.
 
 Boot from the USB stick and setup networking. (optionally setup SSH if you want
 to complete the installation from another computer)
+
 ```bash
 # Configure wifi:
 wpa_passphrase SSID 'PASSWORD' > /etc/wpa_supplicant.conf (optional)
@@ -41,11 +44,13 @@ passwd # So we can login via SSH
 ```
 
 SSH to installation:
+
 ```bash
 ssh -o PubkeyAuthentication=no -o PreferredAuthentications=password root@192.168.122.86
 ```
 
 Identify devices
+
 ```bash
 # List block devices (physical drives)
 lsblk
@@ -151,23 +156,24 @@ mount -o compress=zstd,noatime,subvol=nix,ssd $ROOT /mnt/nix
 mount|grep /mnt/
 ```
 
-
 ## 4. Install NixOS
 
 ### Typical installation
 
 Generate configuration:
+
 ```bash
 nixos-generate-config --root /mnt
 ```
 
 Adjust mount paths (if required)
+
 ```bash
 # /mnt/etc/nixos/hardware-configuration.nix
 ```
 
-
 Install NixOS
+
 ```bash
 nixos-install
 ```
@@ -178,11 +184,13 @@ nixos-install
 ```
 
 Set user password
+
 ```bash
 $ passwd username
 ```
 
 Mount and copy `$BOOT` to `$BOOT_BACKUP`
+
 ```bash
 mkdir -p /tmp/boot
 mount $BOOT_BACKUP /tmp/boot
@@ -195,6 +203,7 @@ umount /tmp/boot
 Check [this README.md](file:///etc/dotfiles/README.md) file.
 
 ## Reinstall bootloader
+
 https://nixos.wiki/wiki/Bootloader
 
 ```bash
@@ -222,7 +231,6 @@ nixos-enter NIXOS_INSTALL_BOOTLOADER=1 /nix/var/nix/profiles/system/bin/switch-t
 - fix hardware-configuration.nix
 - swap in ram
 - backup boot partition
-
 
 tmpfs 1618464 415764 1202700 26% /run/user/1000
 mount -o remount,size=2G /run/user/0

@@ -13,13 +13,12 @@ directory: ~/Computer/software/Neil-Modern_Vim
 
 # Modern Vim: Craft your development environment with Vim 8 and Neovim
 
-Turn [[Neovim]] into a full-blown development
-environment using Vim 8’s new features and this sequel to the beloved bestseller
-Practical Vim. Integrate your editor with tools for building, testing, linting,
-indexing, and searching your codebase. Discover the future of Vim with Neovim: a
-fork of Vim that includes a built-in terminal emulator that will transform your
-workflow. Whether you choose to switch to Neovim or stick with Vim 8, you’ll be
-a better developer.
+Turn [[Neovim]] into a full-blown development environment using Vim 8’s new
+features and this sequel to the beloved bestseller Practical Vim. Integrate your
+editor with tools for building, testing, linting, indexing, and searching your
+codebase. Discover the future of Vim with Neovim: a fork of Vim that includes a
+built-in terminal emulator that will transform your workflow. Whether you choose
+to switch to Neovim or stick with Vim 8, you’ll be a better developer.
 
 **Contents**
 

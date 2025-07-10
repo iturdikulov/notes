@@ -32,9 +32,9 @@ Main topics:
 - Automating with modifiers
 
 In 2D there mostly pixels information, 3D objects are represented by data that
-holds the necessary information to render the object in 3D space.
-In fact in game-development, 2D and 3D combine to create a game (also final
-result is just 2D image).
+holds the necessary information to render the object in 3D space. In fact in
+game-development, 2D and 3D combine to create a game (also final result is just
+2D image).
 
 Edge is what connects ==two vertices==.
 
@@ -70,8 +70,8 @@ Creating barrel steps, with lid and metal rings:
 
 ## Building Materials and Shaders
 
-A shader is a piece of code that tells the rendering engine what to do with
-a ==materials== properties.
+A shader is a piece of code that tells the rendering engine what to do with a
+==materials== properties.
 
 In blender when you select objects, you have different properties
 (context-aware) in the Inspector panel.

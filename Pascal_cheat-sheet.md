@@ -10,9 +10,8 @@ sr-ease: 150
 
 # Pascal cheat-sheet
 
-In the following sections, I'll describe the basics of [[Pascal]]
-programming language with Q/A flashcards based on learnxinyminutes [^1]
-cheatsheet.
+In the following sections, I'll describe the basics of [[Pascal]] programming
+language with Q/A flashcards based on learnxinyminutes [^1] cheatsheet.
 
 ```pascal
 //Anatomy of a Pascal Program
@@ -45,7 +44,6 @@ begin
         area to declare your instruction
     }
 end. // End of a main program area should require a "." symbol
-
 ```
 
 ```pascal
@@ -59,7 +57,6 @@ var
     b : integer;
 //or this
 var a,b : integer;
-
 ```
 
 ```pascal
@@ -159,7 +156,6 @@ Begin
           // address multidimensional arrays with a single set of brackets
 
 End.
-
 ```
 
 ```pascal
@@ -207,4 +203,3 @@ End.
 ```
 
 [^1]: [Learn Pascal in Y Minutes](https://learnxinyminutes.com/pascal/)
-

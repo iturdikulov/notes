@@ -5,10 +5,10 @@ tags:
   - blog
   - Python
   - annotation_book
+file: ./books/Ramalho-Fluent_Python.pdf
 sr-due: 2025-09-20
 sr-interval: 604
 sr-ease: 268
-directory: ~/Computer/programming/Ramalho-Fluent_Python
 ---
 
 # Fluent Python
@@ -183,9 +183,9 @@ proficient in Python 3.
 
 ##### defaultdict: Another Take on Missing Keys /120
 
-##### The __missing__ Method /121
+##### The **missing** Method /121
 
-##### Inconsistent Usage of __missing__ in the Standard Library /124
+##### Inconsistent Usage of **missing** in the Standard Library /124
 
 #### Variations of dict /125
 
@@ -527,11 +527,11 @@ proficient in Python 3.
 
 #### Private and “Protected” Attributes in Python /412
 
-#### Saving Memory with __slots__ /414
+#### Saving Memory with **slots** /414
 
-##### Simple Measure of __slot__ Savings /417
+##### Simple Measure of **slot** Savings /417
 
-##### Summarizing the Issues with __slots__ /418
+##### Summarizing the Issues with **slots** /418
 
 #### Overriding Class Attributes /419
 
@@ -553,7 +553,7 @@ proficient in Python 3.
 
 ##### How Slicing Works /434
 
-##### A Slice-Aware __getitem__ /436
+##### A Slice-Aware **getitem** /436
 
 #### Vector Take #3: Dynamic Attribute Access /437
 
@@ -747,7 +747,7 @@ proficient in Python 3.
 
 #### Iterables Versus Iterators /629
 
-#### Sentence Classes with __iter__ /633
+#### Sentence Classes with **iter** /633
 
 ##### Sentence Take #2: A Classic Iterator /633
 
@@ -985,7 +985,7 @@ proficient in Python 3.
 
 ##### The Invalid Attribute Name Problem /872
 
-##### Flexible Object Creation with __new__ /873
+##### Flexible Object Creation with **new** /873
 
 #### Computed Properties /875
 
@@ -1043,7 +1043,7 @@ proficient in Python 3.
 
 ##### Overriding Descriptors /924
 
-##### Overriding Descriptor Without __get__ /925
+##### Overriding Descriptor Without **get** /925
 
 ##### Nonoverriding Descriptor /926
 
@@ -1069,9 +1069,9 @@ proficient in Python 3.
 
 #### A Class Factory Function /941
 
-#### Introducing __init_subclass__ /944
+#### Introducing **init_subclass** /944
 
-##### Why __init_subclass__ Cannot Configure __slots__ /951
+##### Why **init_subclass** Cannot Configure **slots** /951
 
 #### Enhancing Classes with a Class Decorator /952
 
@@ -1099,7 +1099,7 @@ proficient in Python 3.
 
 ##### Metaclasses Should Be Implementation Details /979
 
-#### A Metaclass Hack with __prepare__ /980
+#### A Metaclass Hack with **prepare** /980
 
 #### Wrapping Up /982
 

@@ -9,7 +9,7 @@ lang: ru
 sr-due: 2024-04-30
 sr-interval: 96
 sr-ease: 210
-directory: ~/Computer/science/Petzold-Code
+file: ./books/Petzold-Code.pdf
 ---
 
 # Код: тайный язык информатики
