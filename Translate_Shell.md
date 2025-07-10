@@ -24,6 +24,7 @@ TODO: go through documentation/command line switches.
 To go into REPL mode, type `trans -shell <options>`.
 
 Available REPL modes:
+
 - `-brief`, only the most relevant translation
 - `en:ru`, specify source and target language
 

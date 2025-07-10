@@ -8,7 +8,7 @@ author:
   - InterviewCake Team
 external:
   - https://www.interviewcake.com/table-of-contents
-directory: ~/Computer/science/InterviewCake_Team-Coding_Interview_Practice
+file: ./books/InterviewCake_Team-Coding_interview_practice.pdf
 sr-due: 2024-01-31
 sr-interval: 4
 sr-ease: 223

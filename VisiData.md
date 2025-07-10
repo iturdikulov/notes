@@ -8,6 +8,4 @@ tags:
 
 TODO:
 
-- [An Introduction to VisiData — An Introduction to VisiData](https://jsvine.github.io/intro-to-visidata/ )
-
-
+- [An Introduction to VisiData — An Introduction to VisiData](https://jsvine.github.io/intro-to-visidata/)

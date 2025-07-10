@@ -14,7 +14,8 @@ sr-ease: 220
 ![How does Computer Memory Work?](https://www.youtube.com/watch?v=7J7X7aZvMXQ)\
 _How does Computer Memory Work?_
 
-Local [file](file:///home/inom/Computer/hardware/visualization/how_does_computer_memory_work_7J7X7aZvMXQ.mp4).
+Local
+[file](file:///home/inom/Computer/hardware/visualization/how_does_computer_memory_work_7J7X7aZvMXQ.mp4).
 
 - [0:00:20](file:///home/inom/Computer/hardware/visualization/how_does_computer_memory_work_7J7X7aZvMXQ.mp4)
   Copy data (files) from SSD into DRAM

@@ -2,7 +2,7 @@
 date: 2023-06-25T00:00+03:00
 tags:
   - blog
-  - productivity
+  - archive
 external:
   - https://taskwarrior.org/
 directory: ~/.task

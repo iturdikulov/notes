@@ -18,7 +18,9 @@ Since thunderbird support all organizing and email related features, I use it as
 all-in-one email client, plus it's open-source and now have mobile clients.
 
 Actual shortcuts and main features aviable in thunderbird documentation [^2].
-Modifier keys are the Ctrl-key on Windows and Linux, and the Cmd-key on Mac OS devices. This guide uses Ctrl, and Mac users need to replace it with Cmd whenever it is used to make the shortcut work on their devices.
+Modifier keys are the Ctrl-key on Windows and Linux, and the Cmd-key on Mac OS
+devices. This guide uses Ctrl, and Mac users need to replace it with Cmd
+whenever it is used to make the shortcut work on their devices.
 
 ## The most useful shortcuts
 
@@ -42,4 +44,5 @@ Modifier keys are the Ctrl-key on Windows and Linux, and the Cmd-key on Mac OS d
 ## References
 
 [^1]: [Linux Build Prerequisites](https://developer.thunderbird.net/thunderbird-development/building-thunderbird/linux-build-prerequisites#getting-the-code)
+
 [^2]: [Keyboard shortcuts](https://support.mozilla.org/en-US/kb/keyboard-shortcuts-thunderbird#w_list-of-keyboard-shortcuts)

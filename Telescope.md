@@ -15,8 +15,8 @@ sr-ease: 228
 Highly extendable fuzzy finder over lists. Telescope is centered around
 modularity, allowing for easy customization.
 
-> Find, Filter, Preview, Pick. All lua, all the time.
-> Gaze deeply into unknown regions using the power of the moon.\
+> Find, Filter, Preview, Pick. All lua, all the time. Gaze deeply into unknown
+> regions using the power of the moon.\
 > — <cite>[GitHub](https://github.com/nvim-telescope/telescope.nvim)</cite>
 
 One of my most-used [[Neovim]] plugins, I use it for project navigation,
@@ -45,4 +45,5 @@ defaults.
 - Toggle selection and move to prev selection:<wbr class="f"> `S-Tab`
 - Send all items not filtered to quickfixlist (qflist):<wbr class="f"> `C-q`
 - Send all selected items to qflist:<wbr class="f"> `M-q`
-- Change directory functionality to some pickers, like find files (custom mappng):<wbr class="f"> `cd`
+- Change directory functionality to some pickers, like find files (custom
+  mappng):<wbr class="f"> `cd`
