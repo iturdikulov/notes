@@ -12,7 +12,7 @@ My daily plate, what I eat, drink, prepare and buy in my [[life]].
 - [x] 🥛 Milk, good combination with coffee.
 - [ ] 🧃 Juice, I prefer without sugar, pomegranate juice.
 - [ ] 🌶️ Hot pepper, chili. Not really a fan of spicy food, but sometimes I need
-         it.
+      it.
 - [ ] 🫑 Bell Pepper.
 - [ ] 🌿 Flavoring: basil, parsley, dill.
 - [ ] 🧄 Garlic
@@ -83,7 +83,6 @@ My daily plate, what I eat, drink, prepare and buy in my [[life]].
 - [ ] 🍩 Donuts
 - [ ] 🍦 Waffles
 - [ ] 🍯 Honey
-
 
 ## Vitamins
 

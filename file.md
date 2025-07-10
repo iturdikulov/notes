@@ -32,5 +32,4 @@ file -k path/to/file
 
 # Look inside a zipped file and determine the file type(s) inside (not worked when I tried it):
 file -z foo.zip
-
 ```

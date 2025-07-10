@@ -90,7 +90,8 @@ To understand custom bullet list types check [[my_notation]] note.
 
 ## Inbox
 
-- redraw [The Sleep of Reason Produces Monsters - Wikipedia](https://en.wikipedia.org/wiki/The_Sleep_of_Reason_Produces_Monsters)
+- redraw
+  [The Sleep of Reason Produces Monsters - Wikipedia](https://en.wikipedia.org/wiki/The_Sleep_of_Reason_Produces_Monsters)
 
 ## External links
 

@@ -74,6 +74,10 @@ Principles:
 - divide and conquer
 - schedule (clean zone or part of zone per day)
 
+## Internal links
+
+- [[human_migration]], some migration info
+
 ## External links
 
 - [Size chart for mens uniforms | Uniforms by Olino](https://webshop.olinouniforms.com/en-us/size-chart-men).

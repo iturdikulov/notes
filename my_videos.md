@@ -16,7 +16,7 @@ get fun.
 
 ## Watchlist
 
-- [ ] [Штерн Борис Евгеньевич  Реален ли межзвездный перелет в обозримое время - YouTube](https://www.youtube.com/watch?v=gcNVVNMc5Nc)
+- [ ] [Штерн Борис Евгеньевич Реален ли межзвездный перелет в обозримое время - YouTube](https://www.youtube.com/watch?v=gcNVVNMc5Nc)
 - [ ] [ВСЁ, ЧТО МЫ НЕ ЗНАЛИ О СНЕ. Семихатов, Сурдин и Полуэктов. - YouTube](https://www.youtube.com/watch?v=w-XGG22_WoU)
 
 ## Inspirational videos
