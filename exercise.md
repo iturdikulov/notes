@@ -18,8 +18,9 @@ sr-ease: 224
 > system, hone athletic skills, improve health, or simply for enjoyment. Many
 > individuals choose to exercise outdoors where they can congregate in groups,
 > socialize, and improve well-being as well as mental health.\ — <cite>[Exercise
+>
 > - Wikipedia](https://en.wikipedia.org/wiki/Exercise)</cite>
 
-I have my own plan to do [[my_physical_exercise_plan]].
+I have my own plan to do [[my_physical_exercise_plan.ru]].
 
 TODO: merge with my daily exercises?

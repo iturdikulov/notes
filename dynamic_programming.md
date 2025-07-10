@@ -33,7 +33,6 @@ sr-ease: 221
 > problem into smaller problems, which are all quite similar.\
 > — <cite>[Wikipedia in Simple English](https://simple.wikipedia.org/wiki/Dynamic_programming)</cite>
 
-
 ## External links
 
 - [ ] [CSE 373 -- Lecture 18, Fall 2020 - YouTube](https://www.youtube.com/watch?v=wAA0AMfcJHQ)
