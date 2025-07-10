@@ -93,7 +93,9 @@ To understand custom bullet list types check [[my_notation]] note.
 
 Here are some resources for [[artistic_inspiration]]:
 
+- [Reddit Art](https://www.reddit.com/r/Art/)
 - [ArtStation - showcase platform](https://www.artstation.com/)
 - [DeviantArt - Art Gallery and Community](https://www.deviantart.com/)
 - [Arthive - Social network for artists and art connoisseurs](https://arthive.com/)
 - [Behance - Best of Behance](https://www.behance.net/)
+- [Vital Articles/Art - Wikipedia](https://en.wikipedia.org/wiki/Wikipedia:Vital_articles/Level/4/Arts)

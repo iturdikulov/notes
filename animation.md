@@ -19,7 +19,6 @@ sr-ease: 250
 > alongside these other forms.\
 > — <cite>[Animation - Wikipedia](https://en.wikipedia.org/wiki/Animation)</cite>
 
-
 ## External links
 
 - [Сайт Алексея Кобелева про дисней](http://prodisney.ru/)

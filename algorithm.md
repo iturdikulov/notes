@@ -8,7 +8,6 @@ sr-interval: 14
 sr-ease: 144
 ---
 
-****
 # Algorithm
 
 The words 'algorithm' and 'algorism' come from the name of a Persian

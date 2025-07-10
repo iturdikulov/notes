@@ -11,12 +11,13 @@ sr-ease: 273
 
 # Castlevania
 
-> Castlevania (`/ˌkæsəlˈveɪniə/`), known in Japan as Akumajō Dracula, is a gothic
-> horror action-adventure video game series and media franchise about Dracula,
-> created and developed by Konami. It has been released on various platforms,
-> from early systems to modern consoles, as well as handheld devices such as
-> mobile phones. The franchise has expanded into several spin-off video games
-> and other media, including comic books and an animated television series.\
+> Castlevania (`/ˌkæsəlˈveɪniə/`), known in Japan as Akumajō Dracula, is a
+> gothic horror action-adventure video game series and media franchise about
+> Dracula, created and developed by Konami. It has been released on various
+> platforms, from early systems to modern consoles, as well as handheld devices
+> such as mobile phones. The franchise has expanded into several spin-off video
+> games and other media, including comic books and an animated television
+> series.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Castlevania)</cite>
 
 ## Castlevania (TV series)

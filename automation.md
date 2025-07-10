@@ -19,5 +19,3 @@ TODO: review note
 - [ ] Verify monitoring is really working
 - [Website monitoring | Grafana Labs](https://grafana.com/grafana/dashboards/13041-website-monitoring/)
 - [ ] [entr](https://github.com/eradman/entr) - File change monitoring
-
-
