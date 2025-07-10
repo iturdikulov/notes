@@ -19,10 +19,10 @@ sr-ease: 250
 > and video production, recreational purposes, hobby, and mass communication.
 >
 > Typically, a lens is used to focus the light reflected or emitted from objects
-> into a real image on the light-sensitive surface inside a [[camera]
-> during a timed exposure. With an electronic image sensor, this produces an
-> electrical charge at each pixel, which is electronically processed and stored
-> in a digital image file for subsequent display or processing. The result with
+> into a real image on the light-sensitive surface inside a [[camera] during a
+> timed exposure. With an electronic image sensor, this produces an electrical
+> charge at each pixel, which is electronically processed and stored in a
+> digital image file for subsequent display or processing. The result with
 > photographic emulsion is an invisible latent image, which is later chemically
 > "developed" into a visible image, either negative or positive, depending on
 > the purpose of the photographic material and the method of processing. A
@@ -79,4 +79,5 @@ Based on great article (Russian language) [^1].
 - [ ] [Вычислительная Фотография](https://vas3k.blog/blog/computational_photography/)
 - [ ] [Вычислительная фотография 2.0](https://jejeya.pictures/future_of_photography)
 
-[^1]: [Размачивание фотопленки для выпрямления](http://xn--80atkeanlo.xn--80ahcc7avfgj.xn--p1ai/material/razmachivanie-foto.html). [Local copy](./articles/Razmachivanie_fotoplenki_dlya_vypryamleniya.html).
+[^1]: [Размачивание фотопленки для выпрямления](http://xn--80atkeanlo.xn--80ahcc7avfgj.xn--p1ai/material/razmachivanie-foto.html).
+    [Local copy](./articles/Razmachivanie_fotoplenki_dlya_vypryamleniya.html).

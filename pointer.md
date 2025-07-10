@@ -81,7 +81,8 @@ int main() {
 }
 ```
 
-*Results:*
+_Results:_
+
 ```
 array[0] = 10
 array[1] = bbbb
@@ -129,7 +130,6 @@ int main(){
 ```
 
 ## Null pointer
-
 
 ## Learn pointers
 

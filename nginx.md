@@ -75,6 +75,7 @@ http {
 ```
 
 To test/run nginx with custom config, we can use this command:
+
 ```sh
 ngnix -t /path/to/config.conf
 nginx -c /path/to/config.conf

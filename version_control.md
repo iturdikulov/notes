@@ -32,7 +32,7 @@ source code, build artifacts and other files.
 - [x] [Resolving a merge conflict using the command line - GitHub Docs](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/resolving-a-merge-conflict-using-the-command-line)
 - [ ] [Команда Git Rerere](https://medium.com/nuances-of-programming/%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D0%B0-git-rerere-%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D0%B7%D0%B8%D1%80%D1%83%D0%B9%D1%82%D0%B5-%D1%80%D0%B5%D1%88%D0%B5%D0%BD%D0%B8%D1%8F-%D0%B4%D0%BB%D1%8F-%D1%83%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B5%D0%BD%D0%B8%D1%8F-%D0%BA%D0%BE%D0%BD%D1%84%D0%BB%D0%B8%D0%BA%D1%82%D0%BE%D0%B2-%D1%81%D0%BB%D0%B8%D1%8F%D0%BD%D0%B8%D1%8F-5dac55edadcc)
 - [ ] [Semantic Commit Messages · GitHub](https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716)
-- [ ] [I hate Conventional Commits — musicmatzes blog](https://beyermatthias.de/i-hate-conventional-commits )
+- [ ] [I hate Conventional Commits — musicmatzes blog](https://beyermatthias.de/i-hate-conventional-commits)
 - [ ] git bisect
 - [ ] Evans How Git Works
 
@@ -41,7 +41,7 @@ source code, build artifacts and other files.
 - [ ] [[Chacon_and_Ben-Pro_git]]
 - [ ] [The ULTIMATE Git workflow using Neovim's Fugitive, Telescope & Git-Signs!](https://www.youtube.com/watch?v=IyBAuDPzdFY)
 - [ ] [pre-commit](https://pre-commit.com/)
-- [ ] [GitHub - jsirex/git-tutorial: Day to day git tutorial]( https://github.com/jsirex/git-tutorial/tree/master)
+- [ ] [GitHub - jsirex/git-tutorial: Day to day git tutorial](https://github.com/jsirex/git-tutorial/tree/master)
 - [ ] [Removing sensitive data from a repository - GitHub Docs](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/removing-sensitive-data-from-a-repository)
 - [ ] [ThePrimeagen/git-worktree.nvim](https://github.com/ThePrimeagen/git-worktree.nvim)
 - [ ] [arslanbilal/git-cheat-sheet: :octocat: git and git flow cheat sheet](https://github.com/arslanbilal/git-cheat-sheet)
@@ -57,4 +57,3 @@ source code, build artifacts and other files.
 - [ ] [[diff]]
 - [A collection of useful .gitattributes templates](https://github.com/gitattributes/gitattributes)
 - [A collection of useful .gitignore templates](https://github.com/github/gitignore)
-

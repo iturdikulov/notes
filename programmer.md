@@ -19,10 +19,10 @@ sr-ease: 242
 
 I usually program now in [[Python]].
 
-I think [[computer_programming#Learning path|main goal]] as
-programmer is able to solve problems and break any limitations in professional
-way (able to do anything possible in a various fields). And of course write
-programs with high efficiency, quality and space complexity ☺.
+I think [[computer_programming#Learning path|main goal]] as programmer is able
+to solve problems and break any limitations in professional way (able to do
+anything possible in a various fields). And of course write programs with high
+efficiency, quality and space complexity ☺.
 
 [[computer|Computers]] and programming give you opportunity to make something
 useful without shackles of material world.
