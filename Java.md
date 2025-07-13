@@ -1,10 +1,10 @@
 ---
-date: 2023-03-19T00:00+03:00
+created: 2023-03-19T00:00+03:00
 tags:
   - blog
   - Java
-sr-due: 2024-08-30
-sr-interval: 217
+sr-due: 2028-08-20
+sr-interval: 1137
 sr-ease: 304
 ---
 

@@ -1,8 +1,11 @@
 ---
-date: 2025-02-11T21:39+03:00
+created: 2025-02-11T21:39+03:00
 tags:
   - blog
   - cheat-sheets
+sr-due: 2025-07-12
+sr-interval: 1
+sr-ease: 224
 ---
 
 # Rust cheat-sheet

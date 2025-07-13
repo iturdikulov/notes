@@ -2,13 +2,13 @@
 author: Casey Muratori
 external:
   - https://hero.handmade.network/episode/code
-date: 2025-01-14T11:41+03:00
+created: 2025-01-14T11:41+03:00
 directory: ~/Computer/graphics/Muratori-Handmade_Hero
 tags:
   - blog
   - gamedev
   - annotation_video
-sr-due: 2024-02-09
+sr-due: 2025-08-01
 sr-interval: 15
 sr-ease: 213
 ---

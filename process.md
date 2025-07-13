@@ -1,8 +1,11 @@
 ---
-date: 2025-01-30T09:17+03:00
+created: 2025-01-30T09:17+03:00
 tags:
   - blog
   - unix
+sr-due: 2025-07-13
+sr-interval: 3
+sr-ease: 246
 ---
 
 # Process

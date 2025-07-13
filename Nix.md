@@ -1,7 +1,10 @@
 ---
-date: 2024-11-07T09:53+03:00
+created: 2024-11-07T09:53+03:00
 tags:
   - blog
+sr-due: 2035-07-10
+sr-interval: 3652
+sr-ease: 449
 ---
 
 # Nix

@@ -1,8 +1,11 @@
 ---
-date: 2024-09-26T00:00+03:00
+created: 2024-09-26T00:00+03:00
 tags:
   - blog
   - Python
+sr-due: 2025-07-12
+sr-interval: 1
+sr-ease: 186
 ---
 
 # Concurency and parallel computing

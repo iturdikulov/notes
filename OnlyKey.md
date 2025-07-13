@@ -1,11 +1,11 @@
 ---
-date: 2023-04-29T00:00+03:00
+created: 2023-04-29T00:00+03:00
 external: https://onlykey.io/
 tags:
   - blog
-sr-due: 2024-01-29
-sr-interval: 3
-sr-ease: 250
+sr-due: 2025-09-19
+sr-interval: 71
+sr-ease: 230
 ---
 
 # Onlykey

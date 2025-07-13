@@ -1,10 +1,13 @@
 ---
 title: iturdikulov.com
-date: 2025-01-13T11:36+03:00
+created: 2025-01-13T11:36+03:00
 tags:
   - blog
   - outline
   - habits
+sr-due: 2025-07-12
+sr-interval: 2
+sr-ease: 150
 ---
 
 # My notes, my projects and my life

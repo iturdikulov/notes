@@ -1,11 +1,11 @@
 ---
-date: 2023-07-15T00:00+03:00
+created: 2023-07-15T00:00+03:00
 tags:
   - blog
   - productivity
-sr-due: 2024-01-28
-sr-interval: 2
-sr-ease: 244
+sr-due: 2025-09-17
+sr-interval: 69
+sr-ease: 224
 ---
 
 # How do I sync my data (and use it)

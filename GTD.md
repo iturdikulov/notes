@@ -1,10 +1,10 @@
 ---
-date: 2023-03-05T00:00+03:00
+created: 2023-03-05T00:00+03:00
 author: David Allen
 tags:
   - blog
   - productivity
-sr-due: 2024-02-02
+sr-due: 2025-07-22
 sr-interval: 7
 sr-ease: 209
 ---

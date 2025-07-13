@@ -1,8 +1,11 @@
 ---
-date: 2024-01-23T00:00+03:00
+created: 2024-01-23T00:00+03:00
 tags:
   - blog
   - linguistic
+sr-due: 2025-07-19
+sr-interval: 9
+sr-ease: 264
 ---
 
 # Proofreading

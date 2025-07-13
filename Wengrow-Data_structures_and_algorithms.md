@@ -1,7 +1,7 @@
 ---
 author:
   - Jay Wengrow
-date: 2025-01-14T11:41+03:00
+created: 2025-01-14T11:41+03:00
 external:
   - https://pragprog.com/titles/jwpython/a-common-sense-guide-to-data-structures-and-algorithms-in-python-volume-1/
 tags:
@@ -10,6 +10,9 @@ tags:
   - computer_science
   - annotation_book
 directory: ~/Computer/science/Wengrow-Data_structures_and_algorithms/
+sr-due: 2025-07-11
+sr-interval: 1
+sr-ease: 130
 ---
 
 # A Common-sense Guide to Data Structures and Algorithms

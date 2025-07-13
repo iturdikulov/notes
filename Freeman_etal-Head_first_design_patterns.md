@@ -1,6 +1,6 @@
 ---
 author: Eric Freeman; Elisabeth Robson
-date: 2024-11-25T12:04+03:00
+created: 2024-11-25T12:04+03:00
 tags:
   - blog
   - computer_programming_patterns

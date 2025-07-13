@@ -1,13 +1,13 @@
 ---
-date: 2023-03-18T00:00+03:00
+created: 2023-03-18T00:00+03:00
 tags:
   - blog
   - computer_programming_patterns
 file:
   - ./articles/Real_Python_-_SOLID_Principles.html
-sr-due: 2024-01-26
-sr-interval: 2
-sr-ease: 228
+sr-due: 2025-09-12
+sr-interval: 64
+sr-ease: 208
 ---
 
 # SOLID

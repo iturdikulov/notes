@@ -1,13 +1,13 @@
 ---
 author: N. Y. Vilenkin
-date: 2024-03-10T00:00+03:00
+created: 2024-03-10T00:00+03:00
 tags:
   - blog
   - mathematics
   - annotation_book
-sr-due: 2024-04-28
-sr-interval: 94
-sr-ease: 210
+sr-due: 2025-08-30
+sr-interval: 51
+sr-ease: 170
 ---
 
 # Популярная комбинаторика

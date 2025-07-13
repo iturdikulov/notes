@@ -1,11 +1,11 @@
 ---
-date: 2023-03-12T00:00+03:00
+created: 2023-03-12T00:00+03:00
 tags:
   - blog
   - education
-sr-due: 2023-01-28
-sr-interval: 4
-sr-ease: 195
+sr-due: 2025-07-11
+sr-interval: 1
+sr-ease: 130
 ---
 
 # Learning

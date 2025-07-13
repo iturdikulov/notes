@@ -1,8 +1,11 @@
 ---
-date: 2023-09-21T00:00+03:00
+created: 2023-09-21T00:00+03:00
 tags:
   - blog
   - computer_programming
+sr-due: 2025-07-12
+sr-interval: 2
+sr-ease: 150
 ---
 
 # Backend

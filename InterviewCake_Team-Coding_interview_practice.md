@@ -9,10 +9,10 @@ author:
 external:
   - https://www.interviewcake.com/table-of-contents
 file: ./books/InterviewCake_Team-Coding_interview_practice.pdf
-sr-due: 2024-01-31
+sr-due: 2025-07-22
 sr-interval: 4
 sr-ease: 223
-date: 2025-01-14T11:41+03:00
+created: 2025-01-14T11:41+03:00
 ---
 
 # Coding Interview Practice

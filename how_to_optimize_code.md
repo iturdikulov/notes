@@ -1,9 +1,12 @@
 ---
-date: 2024-09-02T00:00+03:00
+created: 2024-09-02T00:00+03:00
 tags:
   - blog
   - computer_science
   - computer_programming
+sr-due: 2025-07-13
+sr-interval: 3
+sr-ease: 239
 ---
 
 # How to optimize code

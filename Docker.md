@@ -1,10 +1,10 @@
 ---
-date: 2023-03-12T00:00+03:00
+created: 2023-03-12T00:00+03:00
 tags:
   - blog
-sr-due: 2023-02-28
-sr-interval: 3
-sr-ease: 252
+sr-due: 2025-10-27
+sr-interval: 109
+sr-ease: 232
 ---
 
 # Docker

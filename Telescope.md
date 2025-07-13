@@ -1,13 +1,13 @@
 ---
-date: 2023-04-06T00:00+03:00
+created: 2023-04-06T00:00+03:00
 tags:
   - blog
   - cheat-sheets
 external:
   - https://github.com/nvim-telescope/telescope.nvim
-sr-due: 2024-01-28
-sr-interval: 2
-sr-ease: 228
+sr-due: 2025-07-27
+sr-interval: 17
+sr-ease: 168
 ---
 
 # Telescope - Neovim plugin

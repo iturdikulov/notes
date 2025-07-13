@@ -1,10 +1,10 @@
 ---
-date: 2024-02-01T00:00+03:00
+created: 2024-02-01T00:00+03:00
 tags:
   - blog
-sr-due: 2024-07-02
-sr-interval: 1
-sr-ease: 212
+sr-due: 2025-08-26
+sr-interval: 47
+sr-ease: 192
 ---
 
 # Pascal

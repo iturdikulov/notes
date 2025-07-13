@@ -1,8 +1,11 @@
 ---
-date: 2023-10-06T00:00+03:00
+created: 2023-10-06T00:00+03:00
 tags:
   - blog
   - computer_programming_web
+sr-due: 2025-07-11
+sr-interval: 1
+sr-ease: 164
 ---
 
 # JavaScript (dialect of ECMAScript), often abbreviated as JS

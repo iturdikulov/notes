@@ -1,11 +1,11 @@
 ---
-date: 2023-09-15T00:00+03:00
+created: 2023-09-15T00:00+03:00
 tags:
   - blog
 directory: ~/Reference/docsets/
-sr-due: 2024-01-29
-sr-interval: 4
-sr-ease: 270
+sr-due: 2025-09-19
+sr-interval: 71
+sr-ease: 250
 ---
 
 # Documentation

@@ -1,10 +1,10 @@
 ---
-date: 2023-08-26T00:00+03:00
+created: 2023-08-26T00:00+03:00
 external:
   - https://archivebox.io/
 tags:
   - blog
-sr-due: 2024-02-12
+sr-due: 2025-07-29
 sr-interval: 17
 sr-ease: 245
 ---

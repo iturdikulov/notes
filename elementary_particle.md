@@ -1,10 +1,10 @@
 ---
-date: 2022-12-29T00:00+03:00
+created: 2022-12-29T00:00+03:00
 tags:
   - blog
-sr-due: 2024-01-28
-sr-interval: 2
-sr-ease: 246
+sr-due: 2025-09-17
+sr-interval: 69
+sr-ease: 226
 ---
 
 # Elementary particles

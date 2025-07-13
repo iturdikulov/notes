@@ -1,13 +1,13 @@
 ---
 external:
   - https://www.duolingo.com/
-date: 2023-05-06T00:00+03:00
+created: 2023-05-06T00:00+03:00
 tags:
   - blog
   - linguistic
-sr-due: 2024-01-28
-sr-interval: 1
-sr-ease: 164
+sr-due: 2025-09-13
+sr-interval: 65
+sr-ease: 144
 ---
 
 # Duolingo

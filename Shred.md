@@ -1,5 +1,5 @@
 ---
-date: 2023-08-05T00:00+03:00
+created: 2023-08-05T00:00+03:00
 author:
   - Colin Plumb
 external:
@@ -7,9 +7,9 @@ external:
 tags:
   - blog
   - cryptography
-sr-due: 2024-01-28
-sr-interval: 3
-sr-ease: 267
+sr-due: 2025-09-16
+sr-interval: 68
+sr-ease: 247
 ---
 
 # Shred - secure delete

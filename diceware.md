@@ -1,14 +1,14 @@
 ---
 external:
   - https://theworld.com/~reinhold/diceware.html
-date: 2023-08-15T00:00+03:00
+created: 2023-08-15T00:00+03:00
 tags:
   - blog
   - cryptography
 directory: ~/Computer/data/word_list/
-sr-due: 2024-01-28
-sr-interval: 1
-sr-ease: 229
+sr-due: 2025-09-15
+sr-interval: 67
+sr-ease: 209
 ---
 
 # Diceware

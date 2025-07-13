@@ -4,7 +4,7 @@ tags:
   - Python
   - annotation_book
 author: Brett Slatkin
-date: 2025-01-14T11:41+03:00
+created: 2025-01-14T11:41+03:00
 file: ./books/Slatkin-Effective_Python.epub
 sr-due: 1681833600
 sr-ease: 250

@@ -5,10 +5,10 @@ tags:
 author:
   - Robert Sedgewick; Kevin Wayne
 directory: ~/Computer/science/Sedgewick_and_Wayne-Algorithms_Part_1
-sr-due: 2024-01-28
-sr-interval: 2
-sr-ease: 246
-date: 2025-01-14T11:41+03:00
+sr-due: 2025-09-15
+sr-interval: 67
+sr-ease: 226
+created: 2025-01-14T11:41+03:00
 ---
 
 # Algorithms: Part 1

@@ -1,9 +1,9 @@
 ---
-date: 2023-03-21T00:00+03:00
+created: 2023-03-21T00:00+03:00
 tags:
   - blog
   - computer_programming
-sr-due: 2024-02-16
+sr-due: 2025-08-01
 sr-interval: 1
 sr-ease: 225
 ---

@@ -1,11 +1,11 @@
 ---
-date: 2023-09-15T00:00+03:00
+created: 2023-09-15T00:00+03:00
 tags:
   - blog
 external: https://calibre-ebook.com/
-sr-due: 2024-01-29
-sr-interval: 4
-sr-ease: 277
+sr-due: 2025-09-19
+sr-interval: 71
+sr-ease: 257
 ---
 
 # Calibre (software)

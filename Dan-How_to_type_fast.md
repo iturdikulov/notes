@@ -4,12 +4,12 @@ tags:
   - keyboard
   - annotation_article
 author: Dan
-date: 2025-01-14T11:41+03:00
+created: 2025-01-14T11:41+03:00
 external:
   - https://roosterdan.medium.com/how-to-type-100-words-per-minute-a780fd80fd27
-sr-due: 2025-01-27
-sr-interval: 368
-sr-ease: 248
+sr-due: 2030-08-05
+sr-interval: 1852
+sr-ease: 268
 ---
 
 ## How to type 100 words per minute
@@ -37,7 +37,7 @@ He recommends buying a mechanical keyboard, which I already have, and I like it.
    <br class="f">
    "Proper posture is important as minor discomforts get amplified (if you
    haven't proper one) over time". I agree, and definitely need to improve my
-   posture. And combine it with [[my_physical_exercise_plan]]. <!--SR:!2025-02-03,2,248-->
+   posture. And combine it with [[my_physical_exercise_plan.ru]]. <!--SR:!2025-02-03,2,248-->
 
 2. What benefit do training tools provide for progress measurement?
    <br class="f">

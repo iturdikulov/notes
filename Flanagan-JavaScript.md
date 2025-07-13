@@ -1,14 +1,14 @@
 ---
 author: David Flanagan
-date: 2025-01-14T11:41+03:00
+created: 2025-01-14T11:41+03:00
 tags:
   - blog
   - computer_programming_web
   - annotation_book
 file: ./books/Flanagan-JavaScript.pdf
-sr-due: 2024-04-12
-sr-interval: 78
-sr-ease: 228
+sr-due: 2025-08-27
+sr-interval: 48
+sr-ease: 188
 ---
 
 # JavaScript: The definitive guide: Master the world's most-used programming language

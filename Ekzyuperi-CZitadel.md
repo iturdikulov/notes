@@ -1,11 +1,11 @@
 ---
-date: 2023-09-30T00:00+03:00
+created: 2023-09-30T00:00+03:00
 tags:
   - blog
   - annotation_fiction
 author: Antoine de Saint-Exupéry
 directory: ~/Arts_and_Entertainment/literature/Antoine de Saint Exupery/Malien'kii prints. Tsitadiel' (sbornik) (1002)/
-sr-due: 2024-02-08
+sr-due: 2025-07-29
 sr-interval: 14
 sr-ease: 230
 ---

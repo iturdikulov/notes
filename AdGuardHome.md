@@ -1,10 +1,10 @@
 ---
-date: 2023-06-18T00:00+03:00
+created: 2023-06-18T00:00+03:00
 tags:
   - blog
 external:
   - https://github.com/AdguardTeam/AdGuardHome
-sr-due: 2024-01-30
+sr-due: 2025-07-22
 sr-interval: 4
 sr-ease: 272
 ---

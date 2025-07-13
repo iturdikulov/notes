@@ -1,8 +1,11 @@
 ---
-date: 2025-02-20T08:47+03:00
+created: 2025-02-20T08:47+03:00
 tags:
   - blog
   - productivity
+sr-due: 2025-08-14
+sr-interval: 35
+sr-ease: 268
 ---
 
 # foot - minimalistic terminal emulator

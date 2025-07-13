@@ -1,11 +1,11 @@
 ---
-date: 2023-09-14T00:00+03:00
+created: 2023-09-14T00:00+03:00
 tags:
   - blog
 directory: ~/Computer/web/PDF_Menu_Generator/
-sr-due: 2024-01-28
-sr-interval: 2
-sr-ease: 248
+sr-due: 2025-09-13
+sr-interval: 65
+sr-ease: 228
 ---
 
 # PDF Menu Generator

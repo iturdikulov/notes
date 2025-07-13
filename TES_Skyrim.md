@@ -1,7 +1,10 @@
 ---
-date: 2024-11-22T11:21+03:00
+created: 2024-11-22T11:21+03:00
 tags:
   - blog
+sr-due: 2025-07-13
+sr-interval: 3
+sr-ease: 253
 ---
 
 # Skyrim

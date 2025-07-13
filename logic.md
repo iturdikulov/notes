@@ -1,10 +1,10 @@
 ---
-date: 2023-03-21T00:00+03:00
+created: 2023-03-21T00:00+03:00
 tags:
   - blog
-sr-due: 2024-01-28
-sr-interval: 2
-sr-ease: 229
+sr-due: 2025-09-17
+sr-interval: 69
+sr-ease: 209
 ---
 
 # Logic

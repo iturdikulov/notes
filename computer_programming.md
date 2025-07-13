@@ -1,8 +1,11 @@
 ---
-date: 2025-02-13T22:09+03:00
+created: 2025-02-13T22:09+03:00
 tags:
   - blog
   - outline
+sr-due: 2025-07-11
+sr-interval: 1
+sr-ease: 130
 ---
 
 # Computer programming

@@ -1,9 +1,12 @@
 ---
-date: 2023-03-12T00:00+03:00
+created: 2023-03-12T00:00+03:00
 tags:
   - blog
 external:
   - https://en.wikipedia.org/wiki/Psychology
+sr-due: 2025-07-13
+sr-interval: 3
+sr-ease: 223
 ---
 
 # Psychology

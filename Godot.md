@@ -1,13 +1,13 @@
 ---
-date: 2023-05-04T00:00+03:00
+created: 2023-05-04T00:00+03:00
 external:
   - https://www.godotengine.org/
 tags:
   - blog
   - gamedev
-sr-due: 2023-01-28
-sr-interval: 5
-sr-ease: 244
+sr-due: 2025-11-02
+sr-interval: 115
+sr-ease: 224
 ---
 
 # Godot Engine (game engine)

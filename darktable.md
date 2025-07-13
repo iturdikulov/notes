@@ -1,12 +1,12 @@
 ---
-date: 2023-07-15T00:00+03:00
+created: 2023-07-15T00:00+03:00
 external:
   - https://www.darktable.org/
 tags:
   - blog
-sr-due: 2024-01-29
-sr-interval: 3
-sr-ease: 269
+sr-due: 2025-09-19
+sr-interval: 71
+sr-ease: 249
 ---
 
 # Darktable

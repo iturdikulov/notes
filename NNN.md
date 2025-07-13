@@ -1,11 +1,11 @@
 ---
-date: 2023-04-02T00:00+03:00
+created: 2023-04-02T00:00+03:00
 tags:
   - blog
   - cheat-sheets
 external:
   - https://github.com/jarun/nnn
-sr-due: 2024-02-03
+sr-due: 2025-07-22
 sr-interval: 6
 sr-ease: 249
 ---

@@ -7,9 +7,9 @@ author:
   - Andrew Hunt; David Thomas
 external:
   - https://pragprog.com/titles/tpp20/the-pragmatic-programmer-20th-anniversary-edition/
-date: 2025-01-14T11:41+03:00
+created: 2025-01-14T11:41+03:00
 directory: ~/Computer/programming/Hunt_and_Thomas-The_Pragmatic_Programmer
-sr-due: 2024-01-31
+sr-due: 2025-07-22
 sr-interval: 4
 sr-ease: 216
 ---

@@ -1,11 +1,14 @@
 ---
-date: 2024-11-21T18:14+03:00
+created: 2024-11-21T18:14+03:00
 tags:
   - blog
   - computer_programming_tools
 external:
   - https://jqlang.github.io/jq/
   - https://jqlang.github.io/jq/tutorial/
+sr-due: 2025-07-13
+sr-interval: 3
+sr-ease: 227
 ---
 
 # ./jq, sed for JSON data

@@ -1,11 +1,11 @@
 ---
-date: 2023-03-20T00:00+03:00
+created: 2023-03-20T00:00+03:00
 tags:
   - blog
   - computer_science
-sr-due: 2024-01-28
-sr-interval: 2
-sr-ease: 225
+sr-due: 2025-09-13
+sr-interval: 65
+sr-ease: 205
 ---
 
 # Turing completeness

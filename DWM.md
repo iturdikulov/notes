@@ -1,14 +1,14 @@
 ---
-date: 2022-12-29T00:00+03:00
+created: 2022-12-29T00:00+03:00
 tags:
   - blog
   - archive
 external:
   - https://github.com/bakkeby/dwm-flexipatch
 directory: ~/Computer/software/dwm-flexipatch/
-sr-due: 2023-01-28
-sr-interval: 10
-sr-ease: 257
+sr-due: 2034-06-08
+sr-interval: 3255
+sr-ease: 277
 ---
 
 # dwm (dynamic window manager)

@@ -1,8 +1,11 @@
 ---
-date: 2025-01-29T11:16+03:00
+created: 2025-01-29T11:16+03:00
 tags:
   - blog
   - quotes
+sr-due: 2025-07-13
+sr-interval: 3
+sr-ease: 250
 ---
 
 # My personal and favorite quotes

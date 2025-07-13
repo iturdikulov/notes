@@ -1,11 +1,11 @@
 ---
-date: 2023-09-15T00:00+03:00
+created: 2023-09-15T00:00+03:00
 tags:
   - blog
 external: https://github.com/naelstrof/maim
-sr-due: 2024-01-29
-sr-interval: 4
-sr-ease: 276
+sr-due: 2025-08-15
+sr-interval: 36
+sr-ease: 236
 ---
 
 # maim

@@ -1,11 +1,11 @@
 ---
-date: 2023-03-13T00:00+03:00
+created: 2023-03-13T00:00+03:00
 tags:
   - blog
   - computer_science
-sr-due: 2024-01-28
-sr-interval: 1
-sr-ease: 190
+sr-due: 2025-09-18
+sr-interval: 70
+sr-ease: 170
 ---
 
 # Expression (computer science)

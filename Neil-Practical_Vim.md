@@ -1,12 +1,12 @@
 ---
 author: Drew Neil
-date: 2025-01-14T11:41+03:00
+created: 2025-01-14T11:41+03:00
 tags:
   - blog
   - cheat-sheets
   - annotation_book
 file: ./books/Neil-Practical_Vim.pdf
-sr-due: 2024-02-23
+sr-due: 2025-08-03
 sr-interval: 29
 sr-ease: 206
 ---

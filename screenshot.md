@@ -1,11 +1,11 @@
 ---
-date: 2023-09-15T00:00+03:00
+created: 2023-09-15T00:00+03:00
 tags:
   - blog
 directory: ~/Pictures/screenshot/
-sr-due: 2024-01-29
-sr-interval: 4
-sr-ease: 278
+sr-due: 2025-07-29
+sr-interval: 19
+sr-ease: 218
 ---
 
 # Screenshot

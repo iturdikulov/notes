@@ -4,8 +4,8 @@ tags:
   - blog
 author: Hitoshi Akamatsu
 directory: ~/Arts_and_Entertainment/animation/Castlevania_TV_series/
-sr-due: 2024-03-01
-sr-interval: 35
+sr-due: 2027-08-22
+sr-interval: 773
 sr-ease: 273
 ---
 

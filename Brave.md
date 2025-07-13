@@ -1,12 +1,12 @@
 ---
 external:
   - https://brave.com/
-date: 2023-03-16T00:00+03:00
+created: 2023-03-16T00:00+03:00
 tags:
   - blog
-sr-due: 2024-01-29
-sr-interval: 4
-sr-ease: 270
+sr-due: 2025-09-17
+sr-interval: 69
+sr-ease: 250
 ---
 
 # Brave (web browser)

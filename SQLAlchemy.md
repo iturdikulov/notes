@@ -1,8 +1,11 @@
 ---
-date: 2024-09-18T00:00+03:00
+created: 2024-09-18T00:00+03:00
 tags:
   - blog
   - DB
+sr-due: 2025-07-21
+sr-interval: 11
+sr-ease: 269
 ---
 
 # SQLAlchemy

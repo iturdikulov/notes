@@ -1,15 +1,18 @@
 ---
-date: 2025-02-14T08:33+03:00
+created: 2025-02-14T08:33+03:00
 tags:
   - blog
+sr-due: 2025-07-14
+sr-interval: 3
+sr-ease: 214
 ---
 
 # Game development
 
+- [ ] [Coding an HTML5 Canvas Game with JS in 5 min 30 sec - YouTube](https://www.youtube.com/watch?v=KoWqdEACyLI)
 - [/] [Bevy game development - Tainted Coders](https://taintedcoders.com/)
-
-- [TIC-80 is a fantasy computer for making, playing and sharing tiny games.](https://github.com/nesbox/TIC-80 )
-- [Coding an HTML5 Canvas Game with JS in 5 min 30 sec - YouTube](https://www.youtube.com/watch?v=KoWqdEACyLI)
+- [ ] [[GDScript]]
+- [ ] [TIC-80 is a fantasy computer for making, playing and sharing tiny games.](https://github.com/nesbox/TIC-80 )
 - [ ] [[Godot]]
 - [ ] [Game Development](https://develop.games/)
 - [ ] [ASCII графика и PIXEL арт на Python - YouTube](https://www.youtube.com/watch?v=ww55ublLFq8)

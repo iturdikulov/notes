@@ -1,11 +1,11 @@
 ---
-date: 2023-02-03T00:00+03:00
+created: 2023-02-03T00:00+03:00
 tags:
   - blog
   - cheat-sheets
-sr-due: 2024-01-28
-sr-interval: 1
-sr-ease: 208
+sr-due: 2025-09-18
+sr-interval: 70
+sr-ease: 188
 ---
 
 # GNU Readline

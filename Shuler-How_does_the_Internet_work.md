@@ -1,13 +1,13 @@
 ---
 author: Rus Shuler
-date: 2025-01-14T11:41+03:00
+created: 2025-01-14T11:41+03:00
 external:
   - https://web.stanford.edu/class/msande91si/www-spr04/readings/week1/InternetWhitepaper.htm
 tags:
   - blog
   - computer_programming_web
   - annotation_article
-sr-due: 2024-02-11
+sr-due: 2025-07-29
 sr-interval: 17
 sr-ease: 248
 ---

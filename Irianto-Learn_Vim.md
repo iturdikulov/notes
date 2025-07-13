@@ -1,6 +1,6 @@
 ---
 author: Igor Irianto
-date: 2025-01-14T11:41+03:00
+created: 2025-01-14T11:41+03:00
 tags:
   - blog
   - cheat-sheets
@@ -8,9 +8,9 @@ tags:
 external:
   - https://learnvim.irian.to
 directory: ~/Computer/software/Irianto-Learn_Vim
-sr-due: 2024-05-04
-sr-interval: 100
-sr-ease: 228
+sr-due: 2025-09-01
+sr-interval: 53
+sr-ease: 188
 ---
 
 # Learn Vim

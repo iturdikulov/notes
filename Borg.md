@@ -1,12 +1,12 @@
 ---
-date: 2023-03-22T00:00+03:00
+created: 2023-03-22T00:00+03:00
 tags:
   - blog
 external:
   - https://borgbackup.github.io/
-sr-due: 2024-01-28
-sr-interval: 2
-sr-ease: 232
+sr-due: 2025-09-13
+sr-interval: 65
+sr-ease: 212
 ---
 
 # Borg

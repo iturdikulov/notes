@@ -1,10 +1,10 @@
 ---
-date: 2022-12-29T00:00+03:00
+created: 2022-12-29T00:00+03:00
 tags:
   - blog
-sr-due: 2024-01-28
-sr-interval: 3
-sr-ease: 267
+sr-due: 2025-09-19
+sr-interval: 71
+sr-ease: 247
 ---
 
 # PEP20 - The Zen of Python

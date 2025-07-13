@@ -1,13 +1,13 @@
 ---
-date: 2023-03-28T00:00+03:00
+created: 2023-03-28T00:00+03:00
 external:
   - https://inkscape.org/
 tags:
   - blog
   - cheat-sheets
-sr-due: 2024-01-28
-sr-interval: 3
-sr-ease: 255
+sr-due: 2025-09-19
+sr-interval: 71
+sr-ease: 235
 ---
 
 # Inkscape

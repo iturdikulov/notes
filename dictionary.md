@@ -1,8 +1,11 @@
 ---
-date: 2023-06-24T00:00+03:00
+created: 2023-06-24T00:00+03:00
 tags:
   - blog
   - dictionary
+sr-due: 2025-07-13
+sr-interval: 3
+sr-ease: 249
 ---
 
 # Dictionary

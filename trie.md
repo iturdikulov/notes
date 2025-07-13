@@ -1,9 +1,9 @@
 ---
-date: 2023-10-06T00:00+03:00
+created: 2023-10-06T00:00+03:00
 tags:
   - blog
   - computer_science
-sr-due: 2024-02-07
+sr-due: 2025-07-29
 sr-interval: 1
 sr-ease: 207
 ---

@@ -1,10 +1,10 @@
 ---
-date: 2023-09-15T00:00+03:00
+created: 2023-09-15T00:00+03:00
 tags:
   - blog
-sr-due: 2025-03-02
-sr-interval: 46
-sr-ease: 250
+sr-due: 2027-03-20
+sr-interval: 618
+sr-ease: 270
 ---
 
 # Open Publication Distribution System (OPDS)

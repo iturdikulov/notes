@@ -1,5 +1,5 @@
 ---
-date: 2025-01-14T11:41+03:00
+created: 2025-01-14T11:41+03:00
 author:
   - Brian W. Kernighan
   - P. J. Plauger
@@ -7,7 +7,7 @@ tags:
   - blog
   - annotation_book
 directory: ~/Arts_and_Entertainment/literature/Brian Kernighan/The Elements of Programming Style, 2nd Edition (2083)/
-sr-due: 2024-01-31
+sr-due: 2025-07-22
 sr-interval: 5
 sr-ease: 242
 ---

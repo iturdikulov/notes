@@ -1,8 +1,8 @@
 ---
-date: 2023-03-12T00:00+03:00
+created: 2023-03-12T00:00+03:00
 tags:
   - blog
-sr-due: 2024-02-05
+sr-due: 2025-07-29
 sr-interval: 8
 sr-ease: 268
 ---

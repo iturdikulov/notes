@@ -1,5 +1,5 @@
 ---
-date: 2023-09-25T00:00+03:00
+created: 2023-09-25T00:00+03:00
 tags:
   - blog
   - unix
@@ -8,9 +8,9 @@ author:
   - korfuri
 external:
   - https://blog.korfuri.fr/posts/2022/08/nixos-on-an-oracle-free-tier-ampere-machine/
-sr-due: 2024-03-21
-sr-interval: 56
-sr-ease: 168
+sr-due: 2029-01-30
+sr-interval: 1300
+sr-ease: 188
 ---
 
 # NixOS on an Oracle Free Tier Ampere machine. Success!

@@ -1,11 +1,11 @@
 ---
-date: 2023-03-06T00:00+03:00
+created: 2023-03-06T00:00+03:00
 tags:
   - blog
   - linguistic
-sr-due: 2023-01-28
-sr-interval: 3
-sr-ease: 206
+sr-due: 2025-10-28
+sr-interval: 110
+sr-ease: 186
 ---
 
 # English language

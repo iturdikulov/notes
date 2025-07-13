@@ -1,11 +1,11 @@
 ---
-date: 2023-01-27T00:00+03:00
+created: 2023-01-27T00:00+03:00
 tags:
   - blog
   - VCS
-sr-due: 2024-01-28
-sr-interval: 3
-sr-ease: 250
+sr-due: 2025-09-19
+sr-interval: 71
+sr-ease: 230
 ---
 
 # diff

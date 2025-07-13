@@ -1,8 +1,11 @@
 ---
-date: 2024-09-10T00:00+03:00
+created: 2024-09-10T00:00+03:00
 tags:
   - blog
   - DB
+sr-due: 2025-07-20
+sr-interval: 10
+sr-ease: 257
 ---
 
 # Structured Query Language (SQL)

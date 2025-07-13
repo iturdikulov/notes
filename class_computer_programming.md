@@ -1,10 +1,10 @@
 ---
-date: 2024-06-28T00:00+03:00
+created: 2024-06-28T00:00+03:00
 tags:
   - blog
-sr-due: 2024-07-02
-sr-interval: 1
-sr-ease: 225
+sr-due: 2025-08-25
+sr-interval: 46
+sr-ease: 205
 ---
 
 # Class (computer programming)

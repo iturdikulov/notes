@@ -1,11 +1,11 @@
 ---
-date: 2023-06-28T00:00+03:00
+created: 2023-06-28T00:00+03:00
 tags:
   - blog
   - computer_science
-sr-due: 2024-01-29
-sr-interval: 2
-sr-ease: 226
+sr-due: 2025-09-13
+sr-interval: 65
+sr-ease: 206
 ---
 
 # Array operations

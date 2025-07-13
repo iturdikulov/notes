@@ -1,14 +1,14 @@
 ---
 author: Charles Petzold
-date: 2024-11-05T00:00+03:00
+created: 2024-11-05T00:00+03:00
 tags:
   - blog
   - computer_programming
   - annotation_book
 lang: ru
-sr-due: 2024-04-30
-sr-interval: 96
-sr-ease: 210
+sr-due: 2025-08-31
+sr-interval: 52
+sr-ease: 170
 file: ./books/Petzold-Code.pdf
 ---
 

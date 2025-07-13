@@ -1,13 +1,13 @@
 ---
 external:
   - https://github.com/renerocksai/telekasten.nvim
-date: 2023-04-06T00:00+03:00
+created: 2023-04-06T00:00+03:00
 tags:
   - blog
   - archive
-sr-due: 2024-05-20
-sr-interval: 115
-sr-ease: 286
+sr-due: 2035-07-10
+sr-interval: 3652
+sr-ease: 386
 ---
 
 # Telekasten.nvim - working with a markdown zettelkasten / wiki and mixing it with a journal

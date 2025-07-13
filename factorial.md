@@ -1,11 +1,11 @@
 ---
-date: 2024-03-18T00:00+03:00
+created: 2024-03-18T00:00+03:00
 tags:
   - blog
   - mathematics
-sr-due: 2024-07-02
-sr-interval: 1
-sr-ease: 230
+sr-due: 2025-08-28
+sr-interval: 49
+sr-ease: 210
 ---
 
 # Factorial

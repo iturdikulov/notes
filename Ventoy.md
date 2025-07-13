@@ -1,12 +1,12 @@
 ---
-date: 2023-05-20T00:00+03:00
+created: 2023-05-20T00:00+03:00
 tags:
   - blog
 external:
   - https://www.ventoy.net/en/index.html
-sr-due: 2024-01-29
-sr-interval: 4
-sr-ease: 276
+sr-due: 2025-09-15
+sr-interval: 67
+sr-ease: 256
 ---
 
 # Ventoy

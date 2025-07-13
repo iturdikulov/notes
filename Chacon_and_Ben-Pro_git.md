@@ -1,7 +1,7 @@
 ---
 author:
   - Scott Chacon; Ben Straub
-date: 2025-01-14T11:41+03:00
+created: 2025-01-14T11:41+03:00
 external:
   - https://git-scm.com/book/en/v2
 tags:
@@ -13,6 +13,9 @@ sr-interval: 488
 sr-ease: 230
 directory:
   - ~/Computer/software/Chacon_and_Ben-Pro_Git
+sr-due: 2030-04-04
+sr-interval: 1729
+sr-ease: 250
 ---
 
 # Pro Git

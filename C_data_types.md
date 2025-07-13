@@ -1,10 +1,10 @@
 ---
-date: 2022-12-29T00:00+03:00
+created: 2022-12-29T00:00+03:00
 tags:
   - blog
-sr-due: 2024-01-28
-sr-interval: 2
-sr-ease: 248
+sr-due: 2025-09-14
+sr-interval: 66
+sr-ease: 228
 ---
 
 # C data types

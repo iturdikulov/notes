@@ -1,10 +1,13 @@
 ---
-date: 2024-11-04T00:00+03:00
+created: 2024-11-04T00:00+03:00
 external:
   - https://docs.python.org/3/tutorial/interpreter.html
 tags:
   - blog
   - annotation_article
+sr-due: 2025-07-13
+sr-interval: 3
+sr-ease: 243
 ---
 
 # 2. Using the Python Interpreter

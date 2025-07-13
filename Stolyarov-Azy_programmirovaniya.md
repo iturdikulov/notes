@@ -1,7 +1,7 @@
 ---
 author:
   - Андрей Викторович Столяров
-date: 2025-01-14T11:41+03:00
+created: 2025-01-14T11:41+03:00
 external:
   - http://www.stolyarov.info/books/programming_intro/
 file: ~/Arts_and_Entertainment/literature/Andriei Stoliarov/Tom 1. Proghrammirovaniie - Vviedieniie v profiessiiu Azy proghrammirovaniia (1316)/Tom 1. Proghrammirovaniie - Vviedieniie v - Andriei Stoliarov.pdf
@@ -10,6 +10,9 @@ tags:
   - computer_programming_fix
   - annotation_book
 lang: ru
+sr-due: 2025-07-11
+sr-interval: 1
+sr-ease: 187
 ---
 
 # Программирование: введение в профессию. Том 1: азы программирования

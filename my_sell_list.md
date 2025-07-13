@@ -1,10 +1,10 @@
 ---
-date: 2024-04-21T00:00+03:00
+created: 2024-04-21T00:00+03:00
 tags:
   - blog
-sr-due: 2024-07-05
-sr-interval: 4
-sr-ease: 270
+sr-due: 2025-08-29
+sr-interval: 50
+sr-ease: 250
 ---
 
 # My Sell List

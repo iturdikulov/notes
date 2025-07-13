@@ -1,11 +1,14 @@
 ---
-date: 2024-12-02T15:37+03:00
+created: 2024-12-02T15:37+03:00
 tags:
   - blog
   - computer_programming_patterns
 external:
   - https://12factor.net/
 file: ./articles/12factor_-_12factor.epub
+sr-due: 2025-07-13
+sr-interval: 3
+sr-ease: 237
 ---
 
 # The Twelve-Factor App

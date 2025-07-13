@@ -1,7 +1,10 @@
 ---
-date: 2023-03-17T00:00+03:00
+created: 2023-03-17T00:00+03:00
 tags:
   - blog
+sr-due: 2025-07-13
+sr-interval: 3
+sr-ease: 204
 ---
 
 # Pointer (computer programming)

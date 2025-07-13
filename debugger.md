@@ -1,8 +1,11 @@
 ---
-date: 2023-03-11T00:00+03:00
+created: 2023-03-11T00:00+03:00
 tags:
   - blog
   - computer_programming
+sr-due: 2025-07-11
+sr-interval: 1
+sr-ease: 219
 ---
 
 # Debugger

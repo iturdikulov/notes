@@ -1,10 +1,10 @@
 ---
-date: 2024-06-15T00:00+03:00
+created: 2024-06-15T00:00+03:00
 tags:
   - blog
-sr-due: 2024-07-02
-sr-interval: 1
-sr-ease: 227
+sr-due: 2025-08-28
+sr-interval: 49
+sr-ease: 207
 ---
 
 # Round-robin_scheduling

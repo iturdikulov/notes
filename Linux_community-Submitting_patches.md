@@ -1,5 +1,5 @@
 ---
-date: 2023-09-18T00:00+03:00
+created: 2023-09-18T00:00+03:00
 tags:
   - blog
   - VCS
@@ -7,9 +7,9 @@ tags:
 external:
   - https://www.kernel.org/doc/html/latest/process/submitting-patches.html
   - https://www.kernel.org/doc/html/latest/process/submit-checklist.html
-sr-due: 2024-06-06
-sr-interval: 133
-sr-ease: 230
+sr-due: 2025-11-05
+sr-interval: 118
+sr-ease: 210
 ---
 
 # Submitting patches: the essential guide to getting your code into the kernel

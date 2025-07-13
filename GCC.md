@@ -1,10 +1,10 @@
 ---
-date: 2023-04-02T00:00+03:00
+created: 2023-04-02T00:00+03:00
 external:
   - https://gcc.gnu.org/
 tags:
   - blog
-sr-due: 2024-01-29
+sr-due: 2025-07-22
 sr-interval: 2
 sr-ease: 233
 ---

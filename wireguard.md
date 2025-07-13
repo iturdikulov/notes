@@ -3,10 +3,10 @@ external:
   - https://www.wireguard.com/
 tags:
   - blog
-sr-due: 2024-01-29
+sr-due: 2025-07-22
 sr-interval: 4
 sr-ease: 270
-date: 2025-01-14T11:41+03:00
+created: 2025-01-14T11:41+03:00
 ---
 
 # WireGuard

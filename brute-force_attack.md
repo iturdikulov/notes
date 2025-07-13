@@ -1,11 +1,11 @@
 ---
-date: 2023-11-09T00:00+03:00
+created: 2023-11-09T00:00+03:00
 tags:
   - blog
   - cryptography
-sr-due: 2024-01-28
-sr-interval: 1
-sr-ease: 229
+sr-due: 2025-09-14
+sr-interval: 66
+sr-ease: 209
 ---
 
 # Brute-force attack

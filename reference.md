@@ -1,11 +1,11 @@
 ---
-date: 2023-09-15T00:00+03:00
+created: 2023-09-15T00:00+03:00
 tags:
   - blog
 directory: ~/Reference/
-sr-due: 2024-01-28
-sr-interval: 2
-sr-ease: 245
+sr-due: 2025-09-15
+sr-interval: 67
+sr-ease: 225
 ---
 
 # Reference

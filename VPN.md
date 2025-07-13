@@ -1,11 +1,11 @@
 ---
-date: 2023-03-11T00:00+03:00
+created: 2023-03-11T00:00+03:00
 tags:
   - blog
   - network
-sr-due: 2024-01-28
-sr-interval: 3
-sr-ease: 269
+sr-due: 2025-09-18
+sr-interval: 70
+sr-ease: 249
 ---
 
 # Virtual private network (VPN)

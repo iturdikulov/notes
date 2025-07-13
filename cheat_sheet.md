@@ -1,8 +1,11 @@
 ---
-date: 2024-10-13T00:00+03:00
+created: 2024-10-13T00:00+03:00
 tags:
   - blog
   - cheat-sheets
+sr-due: 2025-07-13
+sr-interval: 3
+sr-ease: 205
 ---
 
 # Cheat sheet and reference card

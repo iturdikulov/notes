@@ -4,7 +4,10 @@ external:
 tags:
   - blog
   - annotation_article
-date: 2025-01-14T11:41+03:00
+created: 2025-01-14T11:41+03:00
+sr-due: 2025-07-19
+sr-interval: 9
+sr-ease: 258
 ---
 
 # 8. Errors and Exceptions

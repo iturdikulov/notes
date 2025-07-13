@@ -1,11 +1,11 @@
 ---
-date: 2024-03-17T00:00+03:00
+created: 2024-03-17T00:00+03:00
 tags:
   - blog
   - multimedia
-sr-due: 2024-07-04
-sr-interval: 3
-sr-ease: 262
+sr-due: 2025-08-28
+sr-interval: 49
+sr-ease: 242
 ---
 
 # cmus

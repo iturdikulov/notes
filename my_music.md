@@ -1,9 +1,9 @@
 ---
-date: 2022-12-29T00:00+03:00
+created: 2022-12-29T00:00+03:00
 directory: ~/Music/
 tags:
   - blog
-sr-due: 2024-02-12
+sr-due: 2025-07-29
 sr-interval: 17
 sr-ease: 212
 ---

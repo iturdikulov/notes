@@ -1,13 +1,13 @@
 ---
 external:
   - https://www.blender.org/
-date: 2023-03-04T00:00+03:00
+created: 2023-03-04T00:00+03:00
 tags:
   - blog
   - cheat-sheets
-sr-due: 2023-01-28
-sr-interval: 4
-sr-ease: 224
+sr-due: 2025-11-01
+sr-interval: 114
+sr-ease: 204
 ---
 
 # Blender

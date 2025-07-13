@@ -1,8 +1,11 @@
 ---
-date: 2023-10-06T00:00+03:00
+created: 2023-10-06T00:00+03:00
 tags:
   - blog
   - computer_programming_web
+sr-due: 2025-07-13
+sr-interval: 3
+sr-ease: 243
 ---
 
 # The HyperText Markup Language (HTML)

@@ -1,9 +1,9 @@
 ---
-date: 2023-10-06T00:00+03:00
+created: 2023-10-06T00:00+03:00
 tags:
   - blog
   - computer_programming
-sr-due: 2024-01-29
+sr-due: 2025-07-22
 sr-interval: 2
 sr-ease: 228
 ---
@@ -86,7 +86,7 @@ flexibility of use as its design highlights.
 #include <iostream>
 
 int main() {
-    std:<wbr class="f"> cout << "Hello, World!" << std:<wbr class="f"> endl;
+    std::cout << "Hello, World!" << std::endl;
     return 0;
 }
 ```

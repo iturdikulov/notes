@@ -1,11 +1,11 @@
 ---
-date: 2024-03-03T00:00+03:00
+created: 2024-03-03T00:00+03:00
 tags:
   - blog
   - cheat-sheets
-sr-due: 2024-07-04
-sr-interval: 3
-sr-ease: 249
+sr-due: 2025-08-27
+sr-interval: 48
+sr-ease: 229
 ---
 
 # Vim base keybindings

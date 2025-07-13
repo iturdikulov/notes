@@ -1,11 +1,14 @@
 ---
-date: 2025-01-22T21:40+03:00
+created: 2025-01-22T21:40+03:00
 tags:
   - blog
   - computer_programming_profession
   - annotation_article
 file: ./articles/Ershov_-_programmirovanie_vtoraya_gramotnost.pdf
 lang: ru
+sr-due: 2025-07-11
+sr-interval: 1
+sr-ease: 204
 ---
 
 # Программирование - вторая грамотность

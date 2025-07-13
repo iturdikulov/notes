@@ -1,16 +1,16 @@
 ---
 author:
   - Ned Batchelder
-date: 2024-04-24T00:00+03:00
+created: 2024-04-24T00:00+03:00
 external:
   - https://www.youtube.com/watch?v=FxSsnHeWQBY
 tags:
   - blog
   - computer_testing
   - annotation_video
-sr-due: 2024-01-29
-sr-interval: 2
-sr-ease: 226
+sr-due: 2025-09-14
+sr-interval: 66
+sr-ease: 206
 ---
 
 # Getting Started Testing - PyCon 2014

@@ -1,11 +1,11 @@
 ---
-date: 2023-09-15T00:00+03:00
+created: 2023-09-15T00:00+03:00
 tags:
   - blog
 directory: ~/People/
-sr-due: 2024-01-29
-sr-interval: 2
-sr-ease: 230
+sr-due: 2025-08-11
+sr-interval: 32
+sr-ease: 190
 ---
 
 # People

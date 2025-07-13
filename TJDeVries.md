@@ -1,8 +1,11 @@
 ---
-date: 2024-11-19T23:28+03:00
+created: 2024-11-19T23:28+03:00
 tags:
   - blog
   - person
+sr-due: 2025-07-12
+sr-interval: 2
+sr-ease: 232
 ---
 
 # Person: TJ DeVries

@@ -1,10 +1,10 @@
 ---
-date: 2023-10-03T00:00+03:00
+created: 2023-10-03T00:00+03:00
 tags:
   - blog
-sr-due: 2024-01-28
-sr-interval: 1
-sr-ease: 229
+sr-due: 2025-09-12
+sr-interval: 64
+sr-ease: 209
 ---
 
 # Rendering (computer graphics)

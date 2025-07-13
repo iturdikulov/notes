@@ -1,11 +1,11 @@
 ---
-date: 2022-12-29T00:00+03:00
+created: 2022-12-29T00:00+03:00
 tags:
   - blog
   - art
-sr-due: 2024-02-04
-sr-interval: 8
-sr-ease: 250
+sr-due: 2025-09-20
+sr-interval: 72
+sr-ease: 230
 ---
 
 # Art

@@ -1,10 +1,10 @@
 ---
-date: 2024-01-15T00:00+03:00
+created: 2024-01-15T00:00+03:00
 tags:
   - blog
   - art
 directory: ~/Arts_and_Entertainment/visual_arts/my_sketchbook/
-sr-due: 2024-01-30
+sr-due: 2025-07-22
 sr-interval: 3
 sr-ease: 249
 ---

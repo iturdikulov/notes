@@ -1,11 +1,11 @@
 ---
 author: Thomas H. Cormen
-date: 2025-01-14T11:41+03:00
+created: 2025-01-14T11:41+03:00
 tags:
   - blog
   - annotation_book
-sr-due: 2024-05-07
-sr-interval: 103
+sr-due: 2027-07-04
+sr-interval: 724
 sr-ease: 228
 directory: ~/Computer/science/Cormen-Algorithms_unlocked
 ---

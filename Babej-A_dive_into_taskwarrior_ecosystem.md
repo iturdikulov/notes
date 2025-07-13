@@ -1,15 +1,15 @@
 ---
 author: Tomas Babej
-date: 2025-01-14T11:41+03:00
+created: 2025-01-14T11:41+03:00
 external:
   - https://www.youtube.com/watch?v=tijnc65soEI
 tags:
   - blog
   - archive
   - annotation_article
-sr-due: 2025-06-04
-sr-interval: 496
-sr-ease: 248
+sr-due: 2030-08-06
+sr-interval: 1853
+sr-ease: 268
 ---
 
 # A Dive into Taskwarrior Ecosystem

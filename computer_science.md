@@ -1,8 +1,11 @@
 ---
-date: 2022-12-29T00:00+03:00
+created: 2022-12-29T00:00+03:00
 tags:
   - blog
   - computer_science
+sr-due: 2025-07-11
+sr-interval: 1
+sr-ease: 130
 ---
 
 # Computer Science
@@ -17,7 +20,6 @@ Active sources:
 - Jay Vs. Leetcode
 - [Code Interview University](https://github.com/jwasham/coding-interview-university)
 - [[informatika]]
-
 
 ## High-level
 

@@ -1,7 +1,10 @@
 ---
-date: 2024-11-07T09:57+03:00
+created: 2024-11-07T09:57+03:00
 tags:
   - blog
+sr-due: 2025-07-13
+sr-interval: 3
+sr-ease: 224
 ---
 
 # Xodo (shareware)

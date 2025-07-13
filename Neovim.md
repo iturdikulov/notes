@@ -1,5 +1,5 @@
 ---
-date: 2023-02-20T00:00+03:00
+created: 2023-02-20T00:00+03:00
 tags:
   - blog
   - cheat-sheets
@@ -7,8 +7,8 @@ external:
   - https://neovim.io/
 directory:
   - ~/Computer/software/nvim/
-sr-due: 2024-01-26
-sr-interval: 1
+sr-due: 2025-09-15
+sr-interval: 67
 sr-ease: 130
 ---
 

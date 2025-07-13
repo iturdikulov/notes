@@ -1,10 +1,10 @@
 ---
-date: 2023-03-11T00:00+03:00
+created: 2023-03-11T00:00+03:00
 tags:
   - blog
-sr-due: 2024-01-28
-sr-interval: 3
-sr-ease: 266
+sr-due: 2025-09-17
+sr-interval: 69
+sr-ease: 246
 ---
 
 # Creamy Mashed Potatoes

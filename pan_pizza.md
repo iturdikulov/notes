@@ -1,13 +1,13 @@
 ---
-date: 2023-09-21T00:00+03:00
+created: 2023-09-21T00:00+03:00
 tags:
   - blog
   - cooking
 external:
   - https://based.cooking/pan-pizza/
-sr-due: 2024-01-28
-sr-interval: 3
-sr-ease: 268
+sr-due: 2025-09-16
+sr-interval: 68
+sr-ease: 248
 ---
 
 # Pan Pizza

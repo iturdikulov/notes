@@ -1,11 +1,11 @@
 ---
-date: 2023-08-16T00:00+03:00
+created: 2023-08-16T00:00+03:00
 tags:
   - blog
   - network
-sr-due: 2024-01-28
-sr-interval: 1
-sr-ease: 228
+sr-due: 2025-09-12
+sr-interval: 64
+sr-ease: 208
 ---
 
 # Secure Shell (SSH)

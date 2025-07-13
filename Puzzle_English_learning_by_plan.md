@@ -1,11 +1,11 @@
 ---
-date: 2023-03-14T00:00+03:00
+created: 2023-03-14T00:00+03:00
 tags:
   - blog
   - linguistic
-sr-due: 2024-04-11
-sr-interval: 77
-sr-ease: 328
+sr-due: 2025-10-13
+sr-interval: 95
+sr-ease: 308
 ---
 
 # Puzzle English learning by plan

@@ -1,14 +1,14 @@
 ---
 author: Andrew Loomis
-date: 2025-01-14T11:41+03:00
+created: 2025-01-14T11:41+03:00
 tags:
   - blog
   - art
   - annotation_book
 directory: ~/Arts_and_Entertainment/visual_arts/Loomis-Fun_With_A_Pencil
-sr-due: 2024-06-08
-sr-interval: 135
-sr-ease: 234
+sr-due: 2025-11-07
+sr-interval: 120
+sr-ease: 214
 ---
 
 # Fun With A Pencil: How Everybody Can Easily Learn to Draw

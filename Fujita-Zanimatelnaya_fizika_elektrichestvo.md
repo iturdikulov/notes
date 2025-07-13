@@ -1,5 +1,5 @@
 ---
-date: 2024-02-06T00:00+03:00
+created: 2024-02-06T00:00+03:00
 author: Kazuhiro  Fujita
 external: null
 archive: null
@@ -7,9 +7,9 @@ tags:
   - blog
   - physics
   - annotation_book
-sr-due: 2024-07-02
-sr-interval: 1
-sr-ease: 230
+sr-due: 2025-08-24
+sr-interval: 45
+sr-ease: 210
 ---
 
 # Fujita - Занимательная физика Электричество

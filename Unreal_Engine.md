@@ -1,13 +1,13 @@
 ---
-date: 2023-04-19T00:00+03:00
+created: 2023-04-19T00:00+03:00
 external:
   - https://www.unrealengine.com/en-US/linux
 tags:
   - blog
   - archive
-sr-due: 2024-02-28
-sr-interval: 32
-sr-ease: 282
+sr-due: 2025-09-26
+sr-interval: 78
+sr-ease: 262
 ---
 
 # Unreal Engine

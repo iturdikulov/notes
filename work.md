@@ -1,12 +1,12 @@
 ---
-date: 2023-03-12T00:00+03:00
+created: 2023-03-12T00:00+03:00
 tags:
   - blog
   - productivity
 directory: ~/Work/
-sr-due: 2024-01-28
+sr-due: 2025-07-11
 sr-interval: 2
-sr-ease: 220
+sr-ease: 130
 ---
 
 # Work (human activity)

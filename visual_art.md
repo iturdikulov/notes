@@ -1,9 +1,9 @@
 ---
-date: 2023-09-15T00:00+03:00
+created: 2023-09-15T00:00+03:00
 tags:
   - blog
 directory: ~/Arts_and_Entertainment/visual_arts/
-sr-due: 2024-02-01
+sr-due: 2025-07-22
 sr-interval: 6
 sr-ease: 248
 ---

@@ -1,11 +1,14 @@
 ---
-date: 2024-11-25T18:13+03:00
+created: 2024-11-25T18:13+03:00
 tags:
   - blog
   - annotation_book
 author: John Sonmez
 file: ./books/Gibkiie_navyki_-_John_Sonmez.fb2
 lang: ru
+sr-due: 2025-07-11
+sr-interval: 1
+sr-ease: 194
 ---
 
 # Гибкие навыки

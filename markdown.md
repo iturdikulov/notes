@@ -1,13 +1,13 @@
 ---
-date: 2023-03-13T00:00+03:00
+created: 2023-03-13T00:00+03:00
 external:
   - https://daringfireball.net/projects/markdown/syntax
 tags:
   - blog
   - markdown
-sr-due: 2024-01-29
-sr-interval: 4
-sr-ease: 273
+sr-due: 2025-09-13
+sr-interval: 65
+sr-ease: 253
 ---
 
 > Markdown is a text-to-HTML conversion tool for web writers. Markdown allows

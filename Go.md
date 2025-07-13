@@ -1,13 +1,13 @@
 ---
-date: 2023-03-19T00:00+03:00
+created: 2023-03-19T00:00+03:00
 external:
   - https://go.dev/
 tags:
   - blog
   - Go
-sr-due: 2023-01-28
-sr-interval: 34
-sr-ease: 265
+sr-due: 2025-11-16
+sr-interval: 129
+sr-ease: 245
 ---
 
 # Go (programming language), aka Golang

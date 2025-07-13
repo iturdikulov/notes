@@ -1,13 +1,13 @@
 ---
-date: 2024-08-18T00:00+03:00
+created: 2024-08-18T00:00+03:00
 tags:
   - blog
   - psychology
   - annotation_article
 author: Julian Evans
-sr-due: 2024-08-26
-sr-interval: 1
-sr-ease: 216
+sr-due: 2025-08-17
+sr-interval: 38
+sr-ease: 196
 ---
 
 # So you want to be a Wizard

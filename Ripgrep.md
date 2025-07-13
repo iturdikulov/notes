@@ -1,13 +1,13 @@
 ---
-date: 2023-06-17T00:00+03:00
+created: 2023-06-17T00:00+03:00
 tags:
   - blog
   - computer_programming_tools
 external:
   - https://github.com/BurntSushi/ripgrep
-sr-due: 2024-01-28
-sr-interval: 2
-sr-ease: 231
+sr-due: 2025-09-15
+sr-interval: 67
+sr-ease: 211
 ---
 
 # ripgrep

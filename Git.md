@@ -1,10 +1,13 @@
 ---
-date: 2022-12-29T00:00+03:00
+created: 2022-12-29T00:00+03:00
 tags:
   - blog
   - cheat-sheets
 external:
   - https://git-scm.com/
+sr-due: 2025-07-11
+sr-interval: 1
+sr-ease: 143
 ---
 
 # Git Version Control System

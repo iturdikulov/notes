@@ -1,13 +1,13 @@
 ---
 external:
   - https://www.l2jserver.com/
-date: 2023-04-18T00:00+03:00
+created: 2023-04-18T00:00+03:00
 tags:
   - blog
   - gamedev
-sr-due: 2024-01-28
-sr-interval: 3
-sr-ease: 267
+sr-due: 2025-09-18
+sr-interval: 70
+sr-ease: 247
 ---
 
 # L2jServer Lineage 2 Java Server

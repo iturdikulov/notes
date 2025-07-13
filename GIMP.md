@@ -1,10 +1,10 @@
 ---
-date: 2024-01-17T00:00+03:00
+created: 2024-01-17T00:00+03:00
 tags:
   - blog
 external:
   - https://www.gimp.org/
-sr-due: 2024-02-05
+sr-due: 2025-07-29
 sr-interval: 9
 sr-ease: 266
 ---

@@ -1,13 +1,13 @@
 ---
-date: 2023-09-14T00:00+03:00
+created: 2023-09-14T00:00+03:00
 tags:
   - blog
 external:
   - http://coderx.ru/showthread.php?t=9575&highlight=xBot2010
 archive: true
-sr-due: 2025-01-30
-sr-interval: 371
-sr-ease: 250
+sr-due: 2030-08-20
+sr-interval: 1867
+sr-ease: 270
 ---
 
 # Исходники моего недоделанного бота

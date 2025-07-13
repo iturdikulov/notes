@@ -1,11 +1,11 @@
 ---
-date: 2023-10-05T00:00+03:00
+created: 2023-10-05T00:00+03:00
 tags:
   - blog
   - computer_science
-sr-due: 2024-01-28
-sr-interval: 1
-sr-ease: 183
+sr-due: 2025-08-13
+sr-interval: 34
+sr-ease: 143
 ---
 
 # Graph (abstract data type)

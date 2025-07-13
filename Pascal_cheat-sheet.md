@@ -1,11 +1,11 @@
 ---
-date: 2022-12-29T00:00+03:00
+created: 2022-12-29T00:00+03:00
 tags:
   - blog
   - cheat-sheets
-sr-due: 2023-01-28
-sr-interval: 5
-sr-ease: 150
+sr-due: 2030-12-18
+sr-interval: 1987
+sr-ease: 170
 ---
 
 # Pascal cheat-sheet

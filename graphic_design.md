@@ -1,11 +1,11 @@
 ---
-date: 2023-09-21T00:00+03:00
+created: 2023-09-21T00:00+03:00
 tags:
   - blog
   - art
-sr-due: 2024-01-29
-sr-interval: 3
-sr-ease: 250
+sr-due: 2025-09-19
+sr-interval: 71
+sr-ease: 230
 ---
 
 # Graphic design

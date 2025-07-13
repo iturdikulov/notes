@@ -4,7 +4,7 @@ tags:
   - photo
   - annotation_book
 author: Килпатрик Дэвид
-date: 2025-01-14T11:41+03:00
+created: 2025-01-14T11:41+03:00
 sr-due: 1678896000
 sr-ease: 250
 sr-interval: 3

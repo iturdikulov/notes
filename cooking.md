@@ -1,10 +1,10 @@
 ---
-date: 2023-03-12T00:00+03:00
+created: 2023-03-12T00:00+03:00
 tags:
   - blog
-sr-due: 2024-02-04
-sr-interval: 9
-sr-ease: 250
+sr-due: 2025-09-21
+sr-interval: 73
+sr-ease: 230
 ---
 
 # Cooking

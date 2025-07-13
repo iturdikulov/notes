@@ -1,5 +1,5 @@
 ---
-date: 2023-10-02T00:00+03:00
+created: 2023-10-02T00:00+03:00
 author: Unreal Sensei
 tags:
   - blog
@@ -8,7 +8,7 @@ tags:
 external:
   - https://www.youtube.com/watch?v=k-zMkzmduqI
 directory: ~/Computer/graphics/Sensei-Unreal_Engine_5_Beginner_Tutorial/
-sr-due: 2024-02-11
+sr-due: 2025-07-29
 sr-interval: 17
 sr-ease: 210
 ---

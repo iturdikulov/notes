@@ -1,8 +1,11 @@
 ---
-date: 2024-11-04T08:42+03:00
+created: 2024-11-04T08:42+03:00
 tags:
   - blog
   - computer_programming_tools
+sr-due: 2025-07-13
+sr-interval: 3
+sr-ease: 241
 ---
 
 # ls

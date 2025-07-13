@@ -1,11 +1,11 @@
 ---
-date: 2023-03-14T00:00+03:00
+created: 2023-03-14T00:00+03:00
 external:
   - https://obsidian.md/
 tags:
   - blog
   - productivity
-sr-due: 2024-02-01
+sr-due: 2025-07-22
 sr-interval: 5
 sr-ease: 226
 ---
@@ -15,12 +15,13 @@ sr-ease: 226
 > Obsidian is a powerful and extensible knowledge base that works on top of your
 > local folder of plain text files.
 
-[Obsidian Forum](https://forum.obsidian.md/)
 
 ## Hotkeys
 
 - Toggle left sidebar:<wbr class="f"> `F3` <!--SR:!2025-07-10,2,226-->
 - Toggle right sidebar:<wbr class="f"> `F4`
+- Toggle checkbox:<wbr class="f"> `C-l`
+- Cycle bullet/checkbox:<wbr class="f"> `C-S-l`
 - Focus on last note (set focus to content):<wbr class="f"> `M-n`
 - Switch between edit and read mode:<wbr class="f"> `C-e` <!--SR:!2025-07-10,2,236-->
 - Find or create a note:<wbr class="f"> `M-f`
@@ -38,15 +39,15 @@ sr-ease: 226
 - Search in all files:<wbr class="f"> `C-S-f`
 - Access developer console:<wbr class="f"> `C-S-I` <!--SR:!2025-07-10,2,235-->
 - Find broken links:<wbr class="f"> `C-S-b` <!--SR:!2025-07-10,2,235-->
+- Execute all code blocks in current file:<wbr class="f"> `C-S-e`
 
 Check also [[spaced_repetition#Hotkeys|Spaced repetition]].
 
 ## Plugins
 
-- [ ] Review [Obsidian tracker](https://github.com/pyrochlore/obsidian-tracker)
-- [Obsidian-html](https://obsidian-html.github.io/v4/index.html)
-- [Excalidraw](https://github.com/zsviczian/obsidian-excalidraw-plugin)
+- [[excalidraw]]
 
 ## External links
 
 - [Obsidian Help](https://help.obsidian.md/)
+- [Obsidian Forum](https://forum.obsidian.md/)

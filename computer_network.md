@@ -1,11 +1,11 @@
 ---
 external:
   - https://simple.wikipedia.org/wiki/Computer_network
-date: 2023-03-21T00:00+03:00
+created: 2023-03-21T00:00+03:00
 tags:
   - blog
   - network
-sr-due: 2024-02-01
+sr-due: 2025-07-22
 sr-interval: 6
 sr-ease: 243
 ---

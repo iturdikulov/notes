@@ -1,11 +1,11 @@
 ---
-date: 2023-09-14T00:00+03:00
+created: 2023-09-14T00:00+03:00
 tags:
   - blog
 directory: ~/Computer/graphics/OpenCV_L2_Bot/
-sr-due: 2024-01-28
-sr-interval: 3
-sr-ease: 269
+sr-due: 2025-08-12
+sr-interval: 33
+sr-ease: 229
 ---
 
 # OpenCV L2 Bot

@@ -1,11 +1,11 @@
 ---
-date: 2023-03-11T00:00+03:00
+created: 2023-03-11T00:00+03:00
 tags:
   - blog
   - AI
-sr-due: 2023-01-28
-sr-interval: 4
-sr-ease: 210
+sr-due: 2025-11-03
+sr-interval: 116
+sr-ease: 190
 ---
 
 # Artificial intelligence (AI)

@@ -1,8 +1,11 @@
 ---
-date: 2025-01-18T23:02+03:00
+created: 2025-01-18T23:02+03:00
 tags:
   - blog
 lang: ru
+sr-due: 2025-07-13
+sr-interval: 3
+sr-ease: 249
 ---
 
 # Анекдоты (Russian jokes)

@@ -1,11 +1,11 @@
 ---
-date: 2023-07-20T00:00+03:00
+created: 2023-07-20T00:00+03:00
 tags:
   - blog
   - 3D
-sr-due: 2024-01-28
-sr-interval: 1
-sr-ease: 228
+sr-due: 2025-09-16
+sr-interval: 68
+sr-ease: 208
 ---
 
 # Polygon mesh

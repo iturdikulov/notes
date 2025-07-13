@@ -1,8 +1,11 @@
 ---
-date: 2022-12-29T00:00+03:00
+created: 2022-12-29T00:00+03:00
 tags:
   - blog
   - cheat-sheets
+sr-due: 2025-07-13
+sr-interval: 3
+sr-ease: 239
 ---
 
 # JavaScript cheat-sheet

@@ -1,9 +1,12 @@
 ---
-date: 2025-01-12T19:27+03:00
+created: 2025-01-12T19:27+03:00
 tags:
   - blog
 external:
   - https://www.gnu.org/software/gawk/manual/gawk.html
+sr-due: 2025-07-13
+sr-interval: 3
+sr-ease: 250
 ---
 
 # GNU Awk

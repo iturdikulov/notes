@@ -1,9 +1,9 @@
 ---
-date: 2023-12-29T00:00+03:00
+created: 2023-12-29T00:00+03:00
 tags:
   - blog
   - 2D
-sr-due: 2024-02-02
+sr-due: 2025-07-22
 sr-interval: 5
 sr-ease: 248
 ---

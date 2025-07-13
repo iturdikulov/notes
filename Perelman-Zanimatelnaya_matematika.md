@@ -1,10 +1,13 @@
 ---
-date: 2024-11-25T23:02+03:00
+created: 2024-11-25T23:02+03:00
 tags:
   - blog
   - annotation_book
 author: Яков Перельман
 file: ./books/Perelman-Zanimatelnaya_matematika.pdf
+sr-due: 2025-07-11
+sr-interval: 1
+sr-ease: 221
 ---
 
 # Занимательная математика

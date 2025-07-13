@@ -1,10 +1,13 @@
 ---
-date: 2024-11-18T00:00+03:00
+created: 2024-11-18T00:00+03:00
 external:
   - https://docs.python.org/3/tutorial/venv.html
   - https://fastapi.tiangolo.com/virtual-environments
 tags:
   - blog
+sr-due: 2025-07-13
+sr-interval: 3
+sr-ease: 212
 ---
 
 # Python virtual environments and packages

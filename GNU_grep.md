@@ -1,10 +1,13 @@
 ---
-date: 2025-01-12T19:30+03:00
+created: 2025-01-12T19:30+03:00
 tags:
   - blog
 external:
   - https://www.gnu.org/software/grep/
   - https://www.gnu.org/software/grep/manual/html_node/index.html
+sr-due: 2025-07-13
+sr-interval: 3
+sr-ease: 250
 ---
 
 # GNU grep

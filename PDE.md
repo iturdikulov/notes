@@ -1,8 +1,11 @@
 ---
-date: 2024-11-08T10:15+03:00
+created: 2024-11-08T10:15+03:00
 tags:
   - blog
   - term
+sr-due: 2025-07-13
+sr-interval: 1
+sr-ease: 199
 ---
 
 # PDE (Personalized Development Environment)

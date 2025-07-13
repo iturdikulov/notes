@@ -1,10 +1,10 @@
 ---
-date: 2023-06-05T00:00+03:00
+created: 2023-06-05T00:00+03:00
 tags:
   - blog
   - computer_terms
   - annotation_article
-sr-due: 2024-02-13
+sr-due: 2025-08-01
 sr-interval: 19
 sr-ease: 202
 external:

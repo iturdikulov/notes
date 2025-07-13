@@ -1,8 +1,11 @@
 ---
-date: 2024-11-13T21:24+03:00
+created: 2024-11-13T21:24+03:00
 tags:
   - blog
 external: https://docs.pydantic.dev/latest/
+sr-due: 2025-07-13
+sr-interval: 3
+sr-ease: 220
 ---
 
 # Pydantic library

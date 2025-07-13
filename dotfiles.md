@@ -1,7 +1,10 @@
 ---
-date: 2023-04-02T00:00+03:00
+created: 2023-04-02T00:00+03:00
 tags:
   - blog
+sr-due: 2025-07-13
+sr-interval: 3
+sr-ease: 217
 ---
 
 # dotfiles - Hidden file and hidden directory

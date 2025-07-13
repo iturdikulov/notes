@@ -1,9 +1,9 @@
 ---
-date: 2024-07-20T00:00+03:00
+created: 2024-07-20T00:00+03:00
 tags:
   - blog
-sr-due: 2024-08-29
-sr-interval: 4
+sr-due: 2026-09-19
+sr-interval: 436
 sr-ease: 270
 ---
 

@@ -1,7 +1,10 @@
 ---
-date: 2025-02-13T23:07+03:00
+created: 2025-02-13T23:07+03:00
 tags:
   - blog
+sr-due: 2025-07-12
+sr-interval: 1
+sr-ease: 130
 ---
 
 # Career

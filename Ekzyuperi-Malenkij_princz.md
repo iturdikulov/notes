@@ -1,13 +1,13 @@
 ---
-date: 2023-09-30T00:00+03:00
+created: 2023-09-30T00:00+03:00
 tags:
   - blog
   - annotation_fiction
 author: Antoine de Saint-Exupéry
 directory: ~/Arts_and_Entertainment/literature/Antoine de Saint Exupery/The Little Prince (1009)/"
-sr-due: 2025-01-19
-sr-interval: 369
-sr-ease: 270
+sr-due: 2031-02-09
+sr-interval: 2040
+sr-ease: 290
 ---
 
 TODO: translate to Russian

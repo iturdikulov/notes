@@ -1,11 +1,11 @@
 ---
-date: 2023-09-19T00:00+03:00
+created: 2023-09-19T00:00+03:00
 tags:
   - blog
   - archive
-sr-due: 2024-01-28
-sr-interval: 3
-sr-ease: 268
+sr-due: 2025-09-19
+sr-interval: 71
+sr-ease: 248
 ---
 
 # Markor

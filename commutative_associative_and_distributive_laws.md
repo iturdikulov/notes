@@ -1,13 +1,13 @@
 ---
-date: 2023-05-18T00:00+03:00
+created: 2023-05-18T00:00+03:00
 tags:
   - blog
   - mathematics
 external:
   - https://www.mathsisfun.com/associative-commutative-distributive.html
-sr-due: 2024-01-28
-sr-interval: 1
-sr-ease: 227
+sr-due: 2025-09-12
+sr-interval: 64
+sr-ease: 207
 ---
 
 # Commutative, Associative and Distributive Laws

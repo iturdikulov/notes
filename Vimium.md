@@ -1,9 +1,9 @@
 ---
-date: 2023-06-04T00:00+03:00
+created: 2023-06-04T00:00+03:00
 tags:
   - blog
   - cheat-sheets
-sr-due: 2024-02-21
+sr-due: 2025-08-03
 sr-interval: 26
 sr-ease: 287
 ---

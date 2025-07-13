@@ -1,11 +1,14 @@
 ---
-date: 2025-02-05T22:28+03:00
+created: 2025-02-05T22:28+03:00
 tags:
   - blog
   - annotation_article
   - computer_programming_profession
 author: Paul Graham
 file: ./articles/Graham_-_Programming_Bottom_Up.html
+sr-due: 2025-07-13
+sr-interval: 3
+sr-ease: 244
 ---
 
 # Programming Bottom-Up

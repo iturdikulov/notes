@@ -4,7 +4,10 @@ external:
 tags:
   - blog
   - annotation_article
-date: 2025-01-14T11:41+03:00
+created: 2025-01-14T11:41+03:00
+sr-due: 2025-07-13
+sr-interval: 3
+sr-ease: 245
 ---
 
 # 14. Floating Point Arithmetic: Issues and Limitations

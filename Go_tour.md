@@ -1,11 +1,14 @@
 ---
-date: 2025-02-06T10:20+03:00
+created: 2025-02-06T10:20+03:00
 tags:
   - blog
   - annotation_repo
 author: Google
 external:
   - https://go.dev/tour/
+sr-due: 2025-07-11
+sr-interval: 1
+sr-ease: 153
 ---
 
 # A Tour of Go

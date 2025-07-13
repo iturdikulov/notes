@@ -1,12 +1,12 @@
 ---
 external: https://www.programmingfonts.org
-date: 2023-03-12T00:00+03:00
+created: 2023-03-12T00:00+03:00
 tags:
   - blog
   - annotation_article
-sr-due: 2024-01-29
-sr-interval: 3
-sr-ease: 250
+sr-due: 2025-09-17
+sr-interval: 69
+sr-ease: 230
 ---
 
 # Programming Fonts - Test Drive

@@ -1,10 +1,10 @@
 ---
-date: 2023-10-03T00:00+03:00
+created: 2023-10-03T00:00+03:00
 tags:
   - blog
-sr-due: 2024-01-28
-sr-interval: 2
-sr-ease: 230
+sr-due: 2025-09-14
+sr-interval: 66
+sr-ease: 210
 ---
 
 # Software quality

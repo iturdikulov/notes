@@ -1,8 +1,11 @@
 ---
-date: 2024-09-07T00:00+03:00
+created: 2024-09-07T00:00+03:00
 tags:
   - blog
   - VCS
+sr-due: 2025-07-13
+sr-interval: 3
+sr-ease: 225
 ---
 
 # fugutive.vim

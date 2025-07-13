@@ -1,10 +1,10 @@
 ---
-date: 2023-03-12T00:00+03:00
+created: 2023-03-12T00:00+03:00
 tags:
   - blog
-sr-due: 2024-03-11
-sr-interval: 45
-sr-ease: 214
+sr-due: 2025-10-01
+sr-interval: 83
+sr-ease: 194
 ---
 
 # Comics

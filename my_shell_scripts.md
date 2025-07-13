@@ -1,11 +1,11 @@
 ---
-date: 2023-04-02T00:00+03:00
+created: 2023-04-02T00:00+03:00
 tags:
   - blog
   - computer_programming_tools
-sr-due: 2024-01-28
-sr-interval: 1
-sr-ease: 212
+sr-due: 2025-09-15
+sr-interval: 67
+sr-ease: 192
 ---
 
 # My shell scripts

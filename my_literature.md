@@ -1,9 +1,9 @@
 ---
-date: 2024-11-13T00:00+03:00
+created: 2024-11-13T00:00+03:00
 tags:
   - blog
   - outline
-sr-due: 2024-02-03
+sr-due: 2025-07-22
 sr-interval: 6
 sr-ease: 227
 ---

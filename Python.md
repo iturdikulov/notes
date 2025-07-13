@@ -1,8 +1,12 @@
 ---
-date: 2022-12-29T00:00+03:00
+date: 2025-07-11T10:48:44+03:00
+created: 2022-12-29T00:00:00+03:00
 tags:
   - blog
   - Python
+sr-due: 2025-07-11
+sr-interval: 1
+sr-ease: 130
 ---
 
 # Python
@@ -10,19 +14,19 @@ tags:
 > Python is a [[high-level_programming_language|high-level]], general-purpose
 > [[programming_language]]. Its design philosophy emphasizes code readability
 > with the use of significant indentation via the off-side rule.
->
+> 
 > Python is a multi-paradigm programming language. [[OOP|object-oriented]]
 > programming and [[structured_programming]] are fully supported, and many of
 > their features support [[functional_programming]] and aspect-oriented
 > programming (including metaprogramming and metaobjects). Many other paradigms
 > are supported via extensions, including design by contract and logic
 > programming.
->
+> 
 > Python uses dynamic typing and a combination of reference counting and a
 > cycle-detecting garbage collector for memory management. It uses dynamic name
 > resolution (late binding), which binds method and variable names during
 > program execution.
->
+> 
 > Its design offers some support for functional programming in the Lisp
 > tradition. It has `filter`, `map` and `reduce` functions; list comprehensions,
 > dictionaries, sets, and generator expressions. The standard library has two

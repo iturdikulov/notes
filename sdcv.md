@@ -1,12 +1,12 @@
 ---
-date: 2023-08-20T00:00+03:00
+created: 2023-08-20T00:00+03:00
 external:
   - https://github.com/Dushistov/sdcv
 tags:
   - blog
   - linguistic
-sr-due: 2024-07-10
-sr-interval: 167
+sr-due: 2028-09-02
+sr-interval: 1150
 sr-ease: 329
 ---
 

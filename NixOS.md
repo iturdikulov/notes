@@ -1,11 +1,11 @@
 ---
-date: 2023-07-23T00:00+03:00
+created: 2023-07-23T00:00+03:00
 external:
   - https://nixos.org/
 tags:
   - blog
   - unix
-sr-due: 2024-02-07
+sr-due: 2025-07-29
 sr-interval: 12
 sr-ease: 230
 ---

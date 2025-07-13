@@ -1,13 +1,13 @@
 ---
-date: 2023-03-06T00:00+03:00
+created: 2023-03-06T00:00+03:00
 tags:
   - blog
   - linguistic
 lang: ru
 directory: ~/Arts_and_Entertainment/russian/
-sr-due: 2024-01-29
-sr-interval: 3
-sr-ease: 243
+sr-due: 2025-09-14
+sr-interval: 66
+sr-ease: 223
 ---
 
 # Russian language

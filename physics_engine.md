@@ -1,11 +1,11 @@
 ---
-date: 2024-07-15T00:00+03:00
+created: 2024-07-15T00:00+03:00
 tags:
   - blog
   - physics
-sr-due: 2024-08-28
-sr-interval: 3
-sr-ease: 250
+sr-due: 2025-08-19
+sr-interval: 40
+sr-ease: 230
 ---
 
 # Physics engine

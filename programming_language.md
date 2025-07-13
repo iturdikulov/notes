@@ -1,8 +1,11 @@
 ---
-date: 2025-02-06T11:36+03:00
+created: 2025-02-06T11:36+03:00
 tags:
   - blog
   - computer_programming
+sr-due: 2025-07-11
+sr-interval: 1
+sr-ease: 130
 ---
 
 # Programming language

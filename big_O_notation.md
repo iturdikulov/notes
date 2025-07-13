@@ -1,11 +1,11 @@
 ---
-date: 2023-03-18T00:00+03:00
+created: 2023-03-18T00:00+03:00
 tags:
   - blog
   - computer_science
-sr-due: 2024-07-31
-sr-interval: 21
-sr-ease: 187
+sr-due: 2025-08-06
+sr-interval: 27
+sr-ease: 147
 ---
 
 # Big O notation

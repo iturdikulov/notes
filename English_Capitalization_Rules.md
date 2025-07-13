@@ -1,13 +1,13 @@
 ---
-date: 2024-07-14T00:00+03:00
+created: 2024-07-14T00:00+03:00
 tags:
   - blog
   - linguistic
 external:
   - https://www.grammarly.com/blog/capitalization-rules/
-sr-due: 2024-08-28
-sr-interval: 3
-sr-ease: 266
+sr-due: 2025-08-20
+sr-interval: 41
+sr-ease: 246
 ---
 
 # English Capitalization Rules

@@ -1,11 +1,11 @@
 ---
-date: 2022-12-29T00:00+03:00
+created: 2022-12-29T00:00+03:00
 tags:
   - blog
   - education
-sr-due: 2024-01-27
-sr-interval: 1
-sr-ease: 205
+sr-due: 2025-07-11
+sr-interval: 2
+sr-ease: 130
 ---
 
 # How to study or learn

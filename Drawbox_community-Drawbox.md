@@ -1,14 +1,14 @@
 ---
 external:
   - https://drawabox.com/
-date: 2023-05-29T00:00+03:00
+created: 2023-05-29T00:00+03:00
 tags:
   - blog
   - art
   - annotation_book
-sr-due: 2024-05-28
-sr-interval: 124
-sr-ease: 208
+sr-due: 2025-09-05
+sr-interval: 57
+sr-ease: 168
 ---
 
 # Drawabox - learning the fundamentals of drawing

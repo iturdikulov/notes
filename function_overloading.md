@@ -1,9 +1,9 @@
 ---
-date: 2023-04-01T00:00+03:00
+created: 2023-04-01T00:00+03:00
 tags:
   - blog
   - computer_programming
-sr-due: 2024-01-29
+sr-due: 2025-07-22
 sr-interval: 2
 sr-ease: 229
 ---
@@ -35,8 +35,8 @@ long Volume(long l, int b, int h) {  // Volume of a cuboid.
 }
 
 int main() {
-  std:<wbr class="f"> cout << Volume(10);
-  std:<wbr class="f"> cout << Volume(2.5, 8);
-  std:<wbr class="f"> cout << Volume(100l, 75, 15);
+  std:: cout << Volume(10);
+  std:: cout << Volume(2.5, 8);
+  std:: cout << Volume(100l, 75, 15);
 }
 ```

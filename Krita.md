@@ -1,13 +1,13 @@
 ---
-date: 2023-03-04T00:00+03:00
+created: 2023-03-04T00:00+03:00
 external:
   - https://krita.org/en/
 tags:
   - blog
   - cheat-sheets
-sr-due: 2024-01-28
-sr-interval: 2
-sr-ease: 228
+sr-due: 2025-09-17
+sr-interval: 69
+sr-ease: 208
 ---
 
 # Krita

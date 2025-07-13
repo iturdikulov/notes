@@ -1,12 +1,12 @@
 ---
-date: 2023-09-22T00:00+03:00
+created: 2023-09-22T00:00+03:00
 tags:
   - blog
 external:
   - https://www.gnu.org/software/bash/
-sr-due: 2023-01-28
-sr-interval: 3
-sr-ease: 250
+sr-due: 2025-10-30
+sr-interval: 112
+sr-ease: 230
 ---
 
 # Bash (Unix shell)

@@ -1,11 +1,11 @@
 ---
-date: 2022-12-29T00:00+03:00
+created: 2022-12-29T00:00+03:00
 tags:
   - blog
   - productivity_web
-sr-due: 2024-09-13
-sr-interval: 232
-sr-ease: 288
+sr-due: 2031-05-10
+sr-interval: 2130
+sr-ease: 308
 ---
 
 # YouTube

@@ -1,11 +1,11 @@
 ---
-date: 2023-08-05T00:00+03:00
+created: 2023-08-05T00:00+03:00
 tags:
   - blog
   - cheat-sheets
   - productivity
-sr-due: 2024-02-04
-sr-interval: 7
+sr-due: 2027-05-22
+sr-interval: 681
 sr-ease: 254
 ---
 

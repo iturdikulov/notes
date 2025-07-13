@@ -1,11 +1,11 @@
 ---
-date: 2023-03-19T00:00+03:00
+created: 2023-03-19T00:00+03:00
 tags:
   - blog
   - computer_science
-sr-due: 2024-01-29
-sr-interval: 2
-sr-ease: 225
+sr-due: 2025-09-14
+sr-interval: 66
+sr-ease: 205
 ---
 
 # Linear search (sequential search)

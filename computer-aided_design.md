@@ -1,10 +1,10 @@
 ---
-date: 2023-04-17T00:00+03:00
+created: 2023-04-17T00:00+03:00
 tags:
   - blog
-sr-due: 2024-01-28
-sr-interval: 3
-sr-ease: 266
+sr-due: 2025-09-19
+sr-interval: 71
+sr-ease: 246
 ---
 
 # Computer-aided design (CAD, CADD)

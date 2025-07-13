@@ -1,12 +1,12 @@
 ---
 author: Eric Matthes
-date: 2025-01-14T11:41+03:00
+created: 2025-01-14T11:41+03:00
 directory: ~/Computer/programming/Matthes-Python_Crash_Course
 tags:
   - blog
   - Python
   - annotation_book
-sr-due: 2024-01-29
+sr-due: 2025-07-22
 sr-interval: 4
 sr-ease: 190
 ---

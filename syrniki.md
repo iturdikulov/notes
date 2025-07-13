@@ -1,9 +1,9 @@
 ---
-date: 2024-01-18T00:00+03:00
+created: 2024-01-18T00:00+03:00
 tags:
   - blog
   - cooking
-sr-due: 2024-01-29
+sr-due: 2025-07-22
 sr-interval: 3
 sr-ease: 268
 ---

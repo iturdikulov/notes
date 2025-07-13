@@ -1,10 +1,10 @@
 ---
-date: 2023-04-23T00:00+03:00
+created: 2023-04-23T00:00+03:00
 tags:
   - blog
-sr-due: 2024-01-28
-sr-interval: 3
-sr-ease: 268
+sr-due: 2025-09-17
+sr-interval: 69
+sr-ease: 248
 ---
 
 # Smartphone

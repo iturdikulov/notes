@@ -1,10 +1,10 @@
 ---
 author: Katsuhiro Otomo
-date: 2025-01-14T11:41+03:00
+created: 2025-01-14T11:41+03:00
 tags:
   - blog
 directory: ~/Arts_and_Entertainment/literature/Katsuhiro Otomo/
-sr-due: 2024-01-30
+sr-due: 2025-07-22
 sr-interval: 4
 sr-ease: 270
 ---

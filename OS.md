@@ -1,7 +1,10 @@
 ---
-date: 2023-04-02T00:00+03:00
+created: 2023-04-02T00:00+03:00
 tags:
   - blog
+sr-due: 2025-07-12
+sr-interval: 2
+sr-ease: 216
 ---
 
 # Operating system

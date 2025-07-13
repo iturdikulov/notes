@@ -1,13 +1,14 @@
 ---
-date: 2023-03-12T00:00+03:00
+date: 2025-07-11T09:40:59+03:00
+created: 2023-03-12T00:00+03:00
+external:
+  - https://www.stephenmwangi.com/obsidian-spaced-repetition/
 tags:
   - blog
   - education
-external:
-  - https://www.stephenmwangi.com/obsidian-spaced-repetition/
-sr-due: 2024-01-29
-sr-interval: 3
-sr-ease: 230
+sr-due: 2030-04-14
+sr-interval: 1736
+sr-ease: 250
 ---
 
 # Spaced repetition and test flashcards
@@ -15,7 +16,7 @@ sr-ease: 230
 > Learning technique usually using flashcards, where information that is newer,
 > and harder to remember are shown more frequently, while information that is
 > older and easier to remember is shown less frequently.
->
+> 
 > This is done to take advantage of the spacing effect which can be a better way
 > and quicker way to learn and keep information.\
 > — <cite>[Simple English Wikipedia](https://simple.wikipedia.org/wiki/Spaced_repetition)</cite>
@@ -87,7 +88,6 @@ Repetition](https://www.stephenmwangi.com/obsidian-spaced-repetition/) website.
 
 - [ ] [Effective Spaced Repetition](https://borretti.me/article/effective-spaced-repetition)
 
-
 What is a flashcard?
 <br class="f">
 Card which have information on both sides, first side usually is question, and
@@ -141,7 +141,7 @@ effective spaced repetition from Fernando Borretti.
 - Repeat yourself. Memory volume can be described as frequency * times.
 - Organize by source not by topic. You can't find ideal ontology, much simplier
   make decks for each source. Textbook → chapter source.
-- Write Atomic Flashcards, they should focus on one thing. It’s harder to
+- Write Atomic Flashcards, they should focus on one thing. It's harder to
   objectively grade yourself if flashcard can be answered very ambiguously, if
   you click remembered, you will under-review the parts you forgot.
   Exception: you can have big cards if you also have smaller cards that add up
@@ -178,7 +178,7 @@ ing==. Still?
 
 Double:<wbr class="f"> colon. <!--SR:!2024-10-27,36,281-->
 
-Double colon with new line is not working:<wbr class="f">  <!--SR:!2024-10-08,17,259-->
+Double colon with new line is not working:<br class="f"> <!--SR:!2024-10-08,17,259-->
 correctly (empty).
 
 Simple

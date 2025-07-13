@@ -1,11 +1,14 @@
 ---
-date: 2024-11-04T00:00+03:00
+created: 2024-11-04T00:00+03:00
 external:
   - https://docs.python.org/3/tutorial/appetite.html
 tags:
   - blog
   - annotation_article
   - Python_tutorial
+sr-due: 2025-07-13
+sr-interval: 3
+sr-ease: 233
 ---
 
 # 1. Whetting Your Appetite

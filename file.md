@@ -1,14 +1,14 @@
 ---
-date: 2023-03-22T00:00+03:00
+created: 2023-03-22T00:00+03:00
 tags:
   - blog
   - computer_programming_tools
 external:
   - https://www.darwinsys.com/file/
 directory: ~/Computer/data/files_samples
-sr-due: 2024-01-29
-sr-interval: 4
-sr-ease: 272
+sr-due: 2025-09-18
+sr-interval: 70
+sr-ease: 252
 ---
 
 # File

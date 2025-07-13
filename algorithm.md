@@ -1,11 +1,11 @@
 ---
-date: 2023-03-18T00:00+03:00
+created: 2023-03-18T00:00+03:00
 tags:
   - blog
   - computer_science
-sr-due: 2024-09-09
-sr-interval: 14
-sr-ease: 144
+sr-due: 2025-08-23
+sr-interval: 44
+sr-ease: 130
 ---
 
 # Algorithm

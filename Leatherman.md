@@ -1,12 +1,12 @@
 ---
-date: 2024-06-16T00:00+03:00
+created: 2024-06-16T00:00+03:00
 external:
   - http://leatherman.com/
   - https://en.wikipedia.org/wiki/Leatherman
 tags:
   - blog
-sr-due: 2024-07-05
-sr-interval: 4
+sr-due: 2026-12-02
+sr-interval: 510
 sr-ease: 270
 ---
 

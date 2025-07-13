@@ -1,11 +1,11 @@
 ---
-date: 2023-07-20T00:00+03:00
+created: 2023-07-20T00:00+03:00
 tags:
   - blog
   - 3D
-sr-due: 2024-03-07
-sr-interval: 41
-sr-ease: 243
+sr-due: 2025-09-30
+sr-interval: 82
+sr-ease: 223
 ---
 
 # Polygon (computer graphics)

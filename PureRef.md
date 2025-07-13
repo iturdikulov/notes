@@ -1,9 +1,12 @@
 ---
-date: 2025-01-12T12:24+03:00
+created: 2025-01-12T12:24+03:00
 tags:
   - blog
 external:
   - https://www.pureref.com/
+sr-due: 2025-07-13
+sr-interval: 3
+sr-ease: 242
 ---
 
 # PureRef

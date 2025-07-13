@@ -1,11 +1,11 @@
 ---
-date: 2023-03-12T00:00+03:00
+created: 2023-03-12T00:00+03:00
 tags:
   - blog
   - computer_programming
-sr-due: 2024-01-28
-sr-interval: 2
-sr-ease: 229
+sr-due: 2025-09-15
+sr-interval: 67
+sr-ease: 209
 ---
 
 # Low-level programming language

@@ -1,12 +1,13 @@
 ---
-date: 2023-03-12T00:00+03:00
+date: 2025-07-11T09:47:03+03:00
+created: 2023-03-12T00:00:00+03:00
+lang: ru
 tags:
   - blog
   - health
-lang: ru
-sr-due: 2024-01-28
-sr-interval: 1
-sr-ease: 163
+sr-due: 2025-09-14
+sr-interval: 66
+sr-ease: 143
 ---
 
 # План индивидуального занятия по физической культуре

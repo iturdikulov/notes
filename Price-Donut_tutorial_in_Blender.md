@@ -1,5 +1,5 @@
 ---
-date: 2023-06-05T00:00+03:00
+created: 2023-06-05T00:00+03:00
 external:
   - https://www.youtube.com/playlist?list=PLjEaoINr3zgEPv5y--4MKpciLaoQYZB1Z
 directory: ~/Computer/graphics/archive/Price-Donut_Tutorial
@@ -7,9 +7,9 @@ tags:
   - blog
   - 3D
   - annotation_video
-sr-due: 2025-06-09
-sr-interval: 501
-sr-ease: 250
+sr-due: 2026-03-21
+sr-interval: 254
+sr-ease: 230
 ---
 
 # Blender Beginner Donut Tutorial

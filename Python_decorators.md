@@ -1,8 +1,11 @@
 ---
-date: 2024-11-16T20:21+03:00
+created: 2024-11-16T20:21+03:00
 tags:
   - blog
   - Python
+sr-due: 2025-07-11
+sr-interval: 1
+sr-ease: 205
 ---
 
 # Python decorators

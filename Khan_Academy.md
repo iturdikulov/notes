@@ -1,9 +1,9 @@
 ---
 external: https://www.khanacademy.org/
-date: 2023-04-16T00:00+03:00
+created: 2023-04-16T00:00+03:00
 tags:
   - blog
-sr-due: 2024-02-11
+sr-due: 2025-07-29
 sr-interval: 14
 sr-ease: 234
 ---

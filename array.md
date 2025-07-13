@@ -1,11 +1,11 @@
 ---
-date: 2022-12-29T00:00+03:00
+created: 2022-12-29T00:00+03:00
 tags:
   - blog
   - computer_science
-sr-due: 2024-08-01
-sr-interval: 22
-sr-ease: 201
+sr-due: 2025-07-24
+sr-interval: 14
+sr-ease: 141
 ---
 
 # Array (computer science)

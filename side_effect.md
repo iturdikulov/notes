@@ -1,11 +1,11 @@
 ---
-date: 2023-03-21T00:00+03:00
+created: 2023-03-21T00:00+03:00
 tags:
   - blog
   - computer_programming
-sr-due: 2024-01-26
-sr-interval: 1
-sr-ease: 189
+sr-due: 2025-09-13
+sr-interval: 65
+sr-ease: 169
 ---
 
 # Side effect

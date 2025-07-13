@@ -1,10 +1,10 @@
 ---
-date: 2023-03-12T00:00+03:00
+created: 2023-03-12T00:00+03:00
 tags:
   - blog
-sr-due: 2024-01-28
-sr-interval: 1
-sr-ease: 184
+sr-due: 2025-09-13
+sr-interval: 65
+sr-ease: 164
 ---
 
 # Functional programming

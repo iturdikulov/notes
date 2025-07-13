@@ -1,11 +1,11 @@
 ---
 external:
   - https://chat.openai.com/chat
-date: 2023-03-12T00:00+03:00
+created: 2023-03-12T00:00+03:00
 tags:
   - blog
-sr-due: 2024-03-30
-sr-interval: 64
+sr-due: 2027-07-15
+sr-interval: 735
 sr-ease: 247
 ---
 

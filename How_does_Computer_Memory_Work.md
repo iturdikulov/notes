@@ -1,12 +1,12 @@
 ---
-date: 2024-02-11T00:00+03:00
+created: 2024-02-11T00:00+03:00
 external: https://www.youtube.com/watch?v=7J7X7aZvMXQ
 author: Branch Education
 tags:
   - blog
-sr-due: 2024-07-02
-sr-interval: 1
-sr-ease: 220
+sr-due: 2025-08-27
+sr-interval: 48
+sr-ease: 200
 ---
 
 # Branch Education - How does Computer Memory Work?

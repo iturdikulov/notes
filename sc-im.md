@@ -1,11 +1,11 @@
 ---
-date: 2023-04-08T00:00+03:00
+created: 2023-04-08T00:00+03:00
 tags:
   - blog
   - mathematics
 external:
   - https://github.com/andmarti1424/sc-im
-sr-due: 2024-01-30
+sr-due: 2025-07-22
 sr-interval: 3
 sr-ease: 252
 ---

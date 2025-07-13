@@ -1,5 +1,5 @@
 ---
-date: 2023-07-14T00:00+03:00
+created: 2023-07-14T00:00+03:00
 external:
   - https://cs-syd.eu/posts/2015-06-14-gtd-with-taskwarrior-part-1-intro
   - https://cs-syd.eu/posts/2015-06-21-gtd-with-taskwarrior-part-2-collection
@@ -10,7 +10,7 @@ tags:
   - blog
   - archive
   - annotation_article
-sr-due: 2024-02-10
+sr-due: 2025-07-29
 sr-interval: 16
 sr-ease: 210
 ---

@@ -1,6 +1,6 @@
 ---
 author: TJ DeVries
-date: 2023-06-05T00:00+03:00
+created: 2023-06-05T00:00+03:00
 external:
   - https://www.youtube.com/@teej_dv/videos
 directory: ~/Computer/programming/DeVries-Tutorials/
@@ -8,7 +8,7 @@ tags:
   - blog
   - computer_programming
   - annotation_video
-sr-due: 2024-02-14
+sr-due: 2025-08-01
 sr-interval: 20
 sr-ease: 210
 ---

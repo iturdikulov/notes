@@ -1,11 +1,11 @@
 ---
-date: 2023-09-21T00:00+03:00
+created: 2023-09-21T00:00+03:00
 tags:
   - blog
   - DB
 external:
   - https://www.sqlite.org/
-sr-due: 2024-01-30
+sr-due: 2025-07-22
 sr-interval: 4
 sr-ease: 270
 ---

@@ -1,10 +1,10 @@
 ---
-date: 2022-12-29T00:00+03:00
+created: 2022-12-29T00:00+03:00
 tags:
   - blog
-sr-due: 2024-01-28
-sr-interval: 2
-sr-ease: 209
+sr-due: 2025-09-16
+sr-interval: 68
+sr-ease: 189
 ---
 
 # Computer software

@@ -1,7 +1,10 @@
 ---
-date: 2025-02-14T08:06+03:00
+created: 2025-02-14T08:06+03:00
 tags:
   - blog
+sr-due: 2025-07-13
+sr-interval: 3
+sr-ease: 225
 ---
 
 # Web development

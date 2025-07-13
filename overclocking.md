@@ -1,10 +1,10 @@
 ---
-date: 2024-07-12T00:00+03:00
+created: 2024-07-12T00:00+03:00
 tags:
   - blog
-sr-due: 2024-08-26
-sr-interval: 1
-sr-ease: 230
+sr-due: 2025-08-21
+sr-interval: 42
+sr-ease: 210
 ---
 
 # Overclocking

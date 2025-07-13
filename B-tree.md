@@ -1,10 +1,10 @@
 ---
-date: 2023-03-18T00:00+03:00
+created: 2023-03-18T00:00+03:00
 tags:
   - blog
-sr-due: 2024-01-27
-sr-interval: 1
-sr-ease: 201
+sr-due: 2025-09-15
+sr-interval: 67
+sr-ease: 181
 ---
 
 # B-tree

@@ -1,12 +1,12 @@
 ---
-date: 2023-08-28T00:00+03:00
+created: 2023-08-28T00:00+03:00
 external: https://colemakmods.github.io/mod-dh/
 archive: true
 tags:
   - blog
-sr-due: 2024-01-29
-sr-interval: 4
-sr-ease: 274
+sr-due: 2025-07-28
+sr-interval: 18
+sr-ease: 214
 ---
 
 # Colemak Mod-DH

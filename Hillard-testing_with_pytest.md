@@ -8,10 +8,10 @@ tags:
   - computer_testing
   - annotation_article
 directory: ~/Computer/programming/Hillard-Testing_With_Pytest
-sr-due: 2023-01-28
-sr-interval: 15
-sr-ease: 226
-date: 2025-01-14T11:41+03:00
+sr-due: 2025-11-06
+sr-interval: 119
+sr-ease: 206
+created: 2025-01-14T11:41+03:00
 ---
 
 # Effective Python Testing With Pytest

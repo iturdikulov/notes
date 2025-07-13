@@ -1,9 +1,12 @@
 ---
-date: 2024-12-16T08:38+03:00
+created: 2024-12-16T08:38+03:00
 tags:
   - blog
 external:
   - https://github.com/flightlessmango/MangoHud
+sr-due: 2025-07-13
+sr-interval: 3
+sr-ease: 224
 ---
 
 # MangoHud monitoring overlay

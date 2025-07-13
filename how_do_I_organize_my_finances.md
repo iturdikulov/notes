@@ -1,9 +1,9 @@
 ---
-date: 2023-03-13T00:00+03:00
+created: 2023-03-13T00:00+03:00
 tags:
   - blog
   - finance
-sr-due: 2024-02-10
+sr-due: 2025-07-29
 sr-interval: 15
 sr-ease: 231
 ---

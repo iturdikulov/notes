@@ -2,15 +2,15 @@
 author: Ray
 external:
   - https://www.raylib.com/index.html
-date: 2025-01-14T11:41+03:00
+created: 2025-01-14T11:41+03:00
 tags:
   - blog
   - computer_graphics_programming
   - annotation_repo
 directory: ~/Computer/graphics/stash/Raylib_Community-Raylib
-sr-due: 2024-07-04
-sr-interval: 161
-sr-ease: 271
+sr-due: 2025-11-14
+sr-interval: 127
+sr-ease: 251
 ---
 
 # Raylib

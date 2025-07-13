@@ -1,13 +1,13 @@
 ---
-date: 2023-01-07T00:00+03:00
+created: 2023-01-07T00:00+03:00
 directory: ~/Arts_and_Entertainment/literature/George Polya/How to solve it (2276)/
 tags:
   - blog
   - mathematics
   - annotation_book
-sr-due: 2024-05-12
-sr-interval: 108
-sr-ease: 250
+sr-due: 2025-10-25
+sr-interval: 107
+sr-ease: 230
 ---
 
 # How to solve it

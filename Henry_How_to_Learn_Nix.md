@@ -3,12 +3,12 @@ author: Ian Henry
 tags:
   - blog
   - unix
-date: 2023-07-17T00:00+03:00
+created: 2023-07-17T00:00+03:00
 external:
   - https://ianthehenry.com/posts/how-to-learn-nix/
-sr-due: 2024-07-21
-sr-interval: 178
-sr-ease: 230
+sr-due: 2030-04-03
+sr-interval: 1728
+sr-ease: 250
 ---
 
 # Henry How to Learn Nix

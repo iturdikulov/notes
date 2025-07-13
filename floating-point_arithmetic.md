@@ -1,10 +1,10 @@
 ---
-date: 2023-03-23T00:00+03:00
+created: 2023-03-23T00:00+03:00
 tags:
   - blog
-sr-due: 2024-01-29
-sr-interval: 2
-sr-ease: 228
+sr-due: 2025-09-14
+sr-interval: 66
+sr-ease: 208
 ---
 
 # Floating-point arithmetic

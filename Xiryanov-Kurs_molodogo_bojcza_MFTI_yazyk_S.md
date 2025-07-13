@@ -1,6 +1,6 @@
 ---
 author: Тимофей Хирьянов
-date: 2023-09-14T00:00+03:00
+created: 2023-09-14T00:00+03:00
 tags:
   - blog
   - C
@@ -8,7 +8,7 @@ tags:
 external:
   - https://www.youtube.com/playlist?list=PLRDzFCPr95fLjzcv6nNdjMu_9RcZgIM9U
 directory: ~/Computer/programming/Хирьянов-Курс_молодого_бойца_МФТИ_язык_С/
-sr-due: 2024-02-07
+sr-due: 2025-07-29
 sr-interval: 13
 sr-ease: 210
 ---
