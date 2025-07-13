@@ -1,5 +1,6 @@
 ---
-created: 2023-03-14T00:00+03:00
+date: 2025-07-13T20:16:38+03:00
+created: 2023-03-14T00:00:00+03:00
 external:
   - https://obsidian.md/
 tags:
@@ -14,7 +15,6 @@ sr-ease: 226
 
 > Obsidian is a powerful and extensible knowledge base that works on top of your
 > local folder of plain text files.
-
 
 ## Hotkeys
 
