@@ -2,9 +2,9 @@
 created: 2024-11-22T11:21+03:00
 tags:
   - blog
-sr-due: 2025-07-13
-sr-interval: 3
-sr-ease: 253
+sr-due: 2025-07-25
+sr-interval: 12
+sr-ease: 273
 ---
 
 # Skyrim
@@ -47,9 +47,9 @@ Simplified Mod Organizer 2 installation guide:
 
 - **[SSE Engine Fixes](https://www.nexusmods.com/skyrimspecialedition/mods/17230)** -
   Fixes a number of engine bugs present in the Special Edition and Classic,
-  including decoupling waterflow to the in-game timer, double perk bug, "false
+  including decoupling water-flow to the in-game timer, double perk bug, "false
   save corruption" bug, and more. Similar to "Crash Fixes". Read the description
-  to see all of the present features.
+  to see all the present features.
 
 ### Recommended Mods
 
@@ -59,7 +59,7 @@ Simplified Mod Organizer 2 installation guide:
   Skyrim, but more.
 
 - **[Modern Brawl Bug Fix](http://www.nexusmods.com/skyrimspecialedition/mods/1473/?)** -
-  from the USKP wiki: bugfixes that pertain to brawling while also under the
+  from the USKP wiki: bug-fixes that pertain to brawling while also under the
   influence of cloak spells of various types. See mod description for a better
   explanation.
 
@@ -69,7 +69,7 @@ Simplified Mod Organizer 2 installation guide:
 
 - **[Better MessageBox Controls](http://www.nexusmods.com/skyrimspecialedition/mods/1428/?)** -
   Same as the previous mod, but applies to all other message boxes (skill trees,
-  map, etc)
+  map, etc.)
 
 - **[Realistic Ragdolls and Force](http://www.nexusmods.com/skyrimspecialedition/mods/1439/?)** -
   Exactly what it says.
@@ -89,7 +89,7 @@ Simplified Mod Organizer 2 installation guide:
 ### Optional Mods
 
 - **[Cutting Room Floor](http://www.nexusmods.com/skyrimspecialedition/mods/276/?)** -
-  This is a result of unfinished content created by bethesda but not included in
+  This is a result of unfinished content created by Bethesda but not included in
   the final release (most likely due to time constraints). This mod restores and
   finishes that content.
 

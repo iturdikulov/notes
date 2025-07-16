@@ -1,9 +1,10 @@
 ---
-created: 2023-06-02T00:00+03:00
+date: 2025-07-13T20:19:41+03:00
+created: 2023-06-02T00:00:00+03:00
 tags:
   - blog
-sr-due: 2025-07-13
-sr-interval: 3
+sr-due: 2025-07-19
+sr-interval: 6
 sr-ease: 199
 ---
 
@@ -16,14 +17,14 @@ sr-ease: 199
 > configuration management.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Version_control)</cite>
 
-My primary version control system is **[[Git]]**.
-
 Version control system track changes over the files and allow recalling a
 specific version of a file.
 
+My primary version control system is **[[Git]]**.
+
 Modern developer tools can use multiple version control systems at the same
-time. For example GIT and vim's built-in undo system (can be extended with
-undotree plugin).
+time. For example, GIT and vim's built-in undo system (can be extended with
+undotree plug-in).
 
 I also use cloud based VCS services like [[GitHub]] and [[GitLab]] to store my
 source code, build artifacts and other files.

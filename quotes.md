@@ -3,9 +3,9 @@ created: 2025-01-29T11:16+03:00
 tags:
   - blog
   - quotes
-sr-due: 2025-07-13
-sr-interval: 3
-sr-ease: 250
+sr-due: 2025-07-25
+sr-interval: 12
+sr-ease: 270
 ---
 
 # My personal and favorite quotes
@@ -13,4 +13,4 @@ sr-ease: 250
 Autosuggest and autocorrect.
 <br class="f">
 > Autosuggest and autocorrect and other auto-* things not always good, it's
-> bring limits where you can do something better without them. <!--SR:!2025-02-05,3,250-->
+> bring limits where you can do something better without them. <!--SR:!2025-07-21,8,250-->

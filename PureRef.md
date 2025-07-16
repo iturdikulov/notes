@@ -2,11 +2,12 @@
 created: 2025-01-12T12:24+03:00
 tags:
   - blog
+  - archive
 external:
   - https://www.pureref.com/
-sr-due: 2025-07-13
-sr-interval: 3
-sr-ease: 242
+sr-due: 2025-08-19
+sr-interval: 37
+sr-ease: 282
 ---
 
 # PureRef
@@ -18,5 +19,3 @@ sr-ease: 242
 > — <cite>[PureRef](https://www.pureref.com/)</cite>
 
 I use it to store [[art]] reference images, it's pretty helpful for drawing.
-
-TODO: add workflow notes.
