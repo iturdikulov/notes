@@ -1,41 +1,42 @@
 ---
-created: 2025-02-13T23:07+03:00
+date: 2025-07-15T08:54:24+03:00
+created: 2025-02-13T23:07:00+03:00
 tags:
   - blog
-sr-due: 2025-07-12
-sr-interval: 1
+sr-due: 2025-07-18
+sr-interval: 2
 sr-ease: 130
 ---
 
 # Career
 
-Yershov quote, TODO: translate into English:
+## Programmer
 
-> Программист должен обладать способностью первоклассного математика к
-> абстракции и логическому мышлению в сочетании с эдисоновским талантом
-> сооружать все, что угодно, из нуля и единиц. Он должен сочетать аккуратность
-> бухгалтера с проницательностью разведчика, фантазию автора детективных романов
-> — с трезвой практичностью экономиста. А кроме того, программист должен иметь
-> вкус к коллективной работе, понимать интересы пользователя и многое другое…\
-> — <cite>Андрей Петрович Ершов</cite>
+> [!quote] 
+  The programmer must have the ability of a first-class mathematician for
+  abstraction and logical thinking, combined with Edison's talent for
+  constructing anything from zero and one. He must combine the accuracy of a
+  bank clerk with the insight of an intelligence officer, the fantasy of a
+  detective novelist with the sober practicality of a businessman. And besides, a programmer should be familiar with corporate interests, have a taste for teamwork, understand the purpose of the work, and much more.\
+> — <cite>Andrey Petrovich Yershov</cite>
 
-Some high-level goals for career as programmer.
+To be an effective programmer is one of my primary [[my_goals#Goal 1 Become an effective programmer|goal]]. My current abilities and skills available in [[cv_en.pdf]] and [[cv_ru.pdf]].
 
-Programming Languages & Development:
+## Career Plan
 
-- Experimental research programming experience in Lisp, Scheme, Pascal, etc.
-- Development of complex software systems using Python, C, Go
-- Microcontroller programming (ESP32)
-- Proficiency in scripting languages: Bourne Shell, Lua
-- Reading-level understanding of Rust, Ruby, Perl
-- Experience with assembly languages.
+TODO: Scratch! Requiring a lot rewriting work.
 
-Python Ecosystem:
-
-- Python with modern asyncio, libraries and frameworks, type hints.
+- Development of complex software systems using Python (7.2/10), Go (2/10), C (2/10).
+	- Python with modern asyncio, libraries and frameworks, type hints.
+	- Advanced typing system utilization (protocols, generics)
+	- Experience with pydantic, aiohttp, FastAPI, Django, requests, pytest/unittest.
+- Web development
 - Strong focus on asynchronous programming.
-- Advanced typing system utilization (protocols, generics)
-- Experience with pydantic, aiohttp, FastAPI, Django, requests, pytest/unittest.
+- Proficiency in scripting languages: Bourne Shell (6/10), Lua (4/10).
+- Experimental research programming experience.
+- Reading-level understanding of Rust, Ruby, Perl
+- Microcontroller programming, ESP32 (2/10).
+- Experience with assembly languages.
 
 Software Engineering & Architecture:
 
@@ -72,13 +73,24 @@ Additional Skills:
 - Advanced English language proficiency
 - Experience with Internet registration organizations.
 
+## Platforms
+
+TODO: add personal links.
+
+- Kwork
+- [Upwork](https://www.upwork.com/)
+- [Freelancer](https://www.freelancer.com/)
+- [Guru.com](https://www.guru.com/)
+- [PeoplePerHour.com](https://www.peopleperhour.com/)
+- [Topcoder](https://www.topcoder.com/)
+- [HackerEarth | Online coding platform and developer assessment software](https://www.hackerearth.com/)
+
 ## Learning path
 
 - [x] [[Yershov-programmirovanie_vtoraya_gramotnost]]
 - [x] [[Evans-So_you_want_to_be_a_WizarD]]
 - [ ] James - The Tao of Programming
 - [ ] [[job_interview]]
-- [ ] [[work]]
 - [ ] [[Sonmez-Gibkie_navyki]]
 - [ ] [[Hunt_and_Thomas-The_pragmatic_programmer]]
 - [ ] Программист-фанатик
