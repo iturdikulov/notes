@@ -3,12 +3,16 @@ created: 2025-02-13T22:09+03:00
 tags:
   - blog
   - outline
-sr-due: 2025-07-11
-sr-interval: 1
+sr-due: 2025-07-18
+sr-interval: 2
 sr-ease: 130
 ---
 
 # Computer programming
+
+Programming is the craft of creating instructions ([[code]]) that tell [[computer|computers]] what to do. It involves designing [[algorithm|algorithms]] and writing them in [[programming_language|programming languages]] that humans can understand, which are then converted to machine code for computers to execute. Good programming requires understanding the problem domain, languages, libraries, algorithms, and logic.
+
+## Learning path
 
 - [ ] [[spaced_repetition#Programming related flashcards]]
 - [ ] Основы информатики и вычислительной техники
@@ -20,7 +24,7 @@ sr-ease: 130
 
 ## High-level overview
 
-- [[career]]
+- [[my_career]]
 - [[computer_science]]
 - [[programming_foundations]]
 - [[projects]]
