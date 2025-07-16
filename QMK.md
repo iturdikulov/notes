@@ -4,8 +4,8 @@ directory: ~/Computer/hardware/QMK
 tags:
   - blog
   - keyboard
-sr-due: 2025-07-22
-sr-interval: 5
+sr-due: 2025-07-25
+sr-interval: 11
 sr-ease: 248
 ---
 
@@ -77,6 +77,19 @@ qmk c2json --no-cpp keymap.c >keymap.json # without --no-cpp it might not work
 ```
 3. Go to [QMK Configurator](https://config.qmk.fm/), upload here `keymap.json`
    and print it to PDF ( icon and  icon).
+
+## My layers and modifiers
+
+Hold `SYM` to activate the symbols layer.
+
+Hold `NAV` to activate the navigation layer
+
+The home row modifiers are `oneshot` so that it's possible to modify the keys on
+the base layer, where there are no dedicated modifiers.
+
+Sometimes you need to use qwerty layout (games for example), I created special
+layer in QMK for that, which activate qwerty layout over the Colemak-DH layout
+when I press special `QWE` default layer switch button (toggle logic).
 
 ## External links
 

@@ -3,9 +3,9 @@ created: 2023-02-21T00:00+03:00
 tags:
   - blog
   - cheat-sheets
-sr-due: 2025-07-22
+sr-due: 2025-07-18
 sr-interval: 2
-sr-ease: 225
+sr-ease: 150
 ---
 
 # Keyboard shortcut
@@ -22,32 +22,15 @@ sr-ease: 225
 > exactly what counts as a "key" sometimes differs.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Keyboard_shortcut)</cite>
 
-[[touch_typing|Touch typing]] and keyboard shortcuts are main driver of
+[[touch_typing|Touch typing]] and [[computer_keyboard]] shortcuts are main driver of
 mouseless workflow. In this note I describe the most used shortcuts in my
 workflow, each section except "Universal" is linked to a more detailed note.
 
+Sometimes you need to create and use non-standard shortcuts, and this
+[Keyboard Heatmap](https://www.patrick-wied.at/projects/heatmap-keyboard/) tool can find most used keys, you can type most comfort keys for you, analyze heatmap and decide which keys you want to use.
+
 In this file I place **basic** keybindings list for each my most used program,
 with link to detailed keybindings in separate note.
-
-## QMK
-
-I have a keyboard with [[QMK]] firmware, which allows me to create custom
-keyboard layers, macros and other features.
-
-I use [[Colemak_Mod-DH]] layout (not hardware, I use system layout) and my own
-navigation and symbols layers.
-
-My layers and modifiers:
-
-Hold `SYM` to activate the symbols layer.
-Hold `NAV` to activate the navigation layer
-
-The home row modifiers are `oneshot` so that it's possible to modify the keys on
-the base layer, where there are no dedicated modifiers.
-
-Sometimes you need to use qwerty layout (games for example), I created special
-layer in QMK for that, which activate qwerty layout over the Colemak-DH layout
-when I press special `QWE` default layer switch button (toggle logic).
 
 ## Universal
 
@@ -144,9 +127,11 @@ I also use limited subset of Vimium keybindings:
 - Focus input:<wbr class="f"> `gi`
 - Visit previous page:<wbr class="f"> `<C-6>`
 
-## Hyprland
+## KDE 
 
-TODO: add
+- Keep window above others: <wbr class="f"> `S-]`
+- Keep window below others: <wbr class="f"> `S-]`
+
 
 ## MPV
 
