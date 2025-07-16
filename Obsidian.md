@@ -22,9 +22,9 @@ sr-ease: 226
 - Toggle right sidebar:<wbr class="f"> `F4`
 - Toggle checkbox:<wbr class="f"> `C-l`
 - Cycle bullet/checkbox:<wbr class="f"> `C-S-l`
+- Toggle list:<wbr class="f"> `C-M-l`
 - Focus on last note (set focus to content):<wbr class="f"> `M-n`
 - Switch between edit and read mode:<wbr class="f"> `C-e` <!--SR:!2025-07-10,2,236-->
-- Find or create a note:<wbr class="f"> `M-f`
 - Open command palette:<wbr class="f"> `C-S-p`
 - Open graph view:<wbr class="f"> `C-g`
 - Open back-links for the current file:<wbr class="f"> `M-b`
@@ -40,6 +40,14 @@ sr-ease: 226
 - Access developer console:<wbr class="f"> `C-S-I` <!--SR:!2025-07-10,2,235-->
 - Find broken links:<wbr class="f"> `C-S-b` <!--SR:!2025-07-10,2,235-->
 - Execute all code blocks in current file:<wbr class="f"> `C-S-e`
+- Insert template:<wbr class="f"> `M-e`
+- Find or create a note:<wbr class="f"> `M-f`
+- Open daily note:<wbr class="f"> `M-S-f`
+- Insert `<br>` break snippet:<wbr class="f"> `M-i`
+- Insert `<wbr>` break snippet:<wbr class="f"> `M-w`
+- Open note for review: <wbr class="f"> ``C-M-` ``
+- Open all flashcards: <wbr class="f"> `C-M-a`
+- Cram flashcards in this note: <wbr class="f"> `C-M-S-a`
 
 Check also [[spaced_repetition#Hotkeys|Spaced repetition]].
 
