@@ -6,8 +6,8 @@ external:
   - https://bevyengine.org/learn/
   - https://docs.rs/bevy/latest/bevy/
   - https://github.com/bevyengine/bevy-assets
-sr-due: 2025-07-13
-sr-interval: 3
+sr-due: 2025-07-24
+sr-interval: 10
 sr-ease: 250
 ---
 

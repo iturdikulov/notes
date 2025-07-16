@@ -2,9 +2,9 @@
 created: 2024-11-27T19:18+03:00
 tags:
   - blog
-sr-due: 2025-07-13
-sr-interval: 3
-sr-ease: 252
+sr-due: 2025-07-28
+sr-interval: 14
+sr-ease: 272
 ---
 
 # Soldering

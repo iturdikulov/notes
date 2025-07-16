@@ -4,9 +4,9 @@ tags:
   - blog
   - annotation_book
 author: Борис Трушин
-sr-due: 2025-07-13
-sr-interval: 3
-sr-ease: 241
+sr-due: 2025-07-18
+sr-interval: 2
+sr-ease: 201
 ---
 
 # Комбинаторика с нуля до олимпиад

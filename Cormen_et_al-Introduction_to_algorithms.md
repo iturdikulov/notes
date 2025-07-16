@@ -6,9 +6,9 @@ tags:
   - annotation_book
 directory: ~/Computer/science/Cormen_et_al-Introduction_to_algorithms
 created: 2025-01-14T11:41+03:00
-sr-due: 2025-07-13
-sr-interval: 3
-sr-ease: 238
+sr-due: 2025-07-26
+sr-interval: 12
+sr-ease: 258
 ---
 
 # Introduction to Algorithms

@@ -3,8 +3,8 @@ created: 2024-10-13T00:00+03:00
 tags:
   - blog
   - cheat-sheets
-sr-due: 2025-07-13
-sr-interval: 3
+sr-due: 2025-07-21
+sr-interval: 7
 sr-ease: 205
 ---
 

@@ -4,9 +4,9 @@ tags:
   - blog
 external:
   - https://github.com/flightlessmango/MangoHud
-sr-due: 2025-07-13
-sr-interval: 3
-sr-ease: 224
+sr-due: 2025-07-27
+sr-interval: 13
+sr-ease: 244
 ---
 
 # MangoHud monitoring overlay

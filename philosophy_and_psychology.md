@@ -4,9 +4,9 @@ tags:
   - blog
 external:
   - https://en.wikipedia.org/wiki/Psychology
-sr-due: 2025-07-13
-sr-interval: 3
-sr-ease: 223
+sr-due: 2025-07-21
+sr-interval: 8
+sr-ease: 243
 ---
 
 # Psychology

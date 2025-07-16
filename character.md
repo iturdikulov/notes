@@ -3,8 +3,8 @@ created: 2025-02-19T22:26+03:00
 tags:
   - blog
   - computer_programming_science
-sr-due: 2025-07-13
-sr-interval: 3
+sr-due: 2025-07-20
+sr-interval: 7
 sr-ease: 231
 ---
 

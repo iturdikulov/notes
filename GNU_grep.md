@@ -5,9 +5,9 @@ tags:
 external:
   - https://www.gnu.org/software/grep/
   - https://www.gnu.org/software/grep/manual/html_node/index.html
-sr-due: 2025-07-13
-sr-interval: 3
-sr-ease: 250
+sr-due: 2025-07-27
+sr-interval: 13
+sr-ease: 270
 ---
 
 # GNU grep

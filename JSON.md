@@ -2,9 +2,9 @@
 created: 2025-01-13T09:32+03:00
 tags:
   - blog
-sr-due: 2025-07-13
-sr-interval: 3
-sr-ease: 241
+sr-due: 2025-07-28
+sr-interval: 14
+sr-ease: 261
 ---
 
 # JSON (JavaScript Object Notation)

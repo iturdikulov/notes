@@ -4,9 +4,9 @@ tags:
   - blog
   - annotation_fiction
 author: Александр Пушкин
-sr-due: 2025-07-13
-sr-interval: 3
-sr-ease: 248
+sr-due: 2025-07-27
+sr-interval: 13
+sr-ease: 268
 ---
 
 # Пиковая дама

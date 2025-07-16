@@ -4,8 +4,8 @@ tags:
   - blog
   - computer_science
   - computer_programming
-sr-due: 2025-07-13
-sr-interval: 3
+sr-due: 2025-07-21
+sr-interval: 7
 sr-ease: 239
 ---
 

@@ -3,9 +3,9 @@ created: 2023-08-20T00:00+03:00
 tags:
   - blog
   - AI
-sr-due: 2025-07-12
-sr-interval: 1
-sr-ease: 200
+sr-due: 2025-07-18
+sr-interval: 2
+sr-ease: 160
 ---
 
 # Large language model (LLM)

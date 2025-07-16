@@ -4,9 +4,9 @@ tags:
   - blog
   - annotation_fiction
 author: Eliezer Yudkowsky
-sr-due: 2025-07-13
-sr-interval: 3
-sr-ease: 248
+sr-due: 2025-07-28
+sr-interval: 14
+sr-ease: 268
 ---
 
 # Harry Potter and the Methods of Rationality

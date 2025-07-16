@@ -4,8 +4,8 @@ tags:
   - blog
   - annotation_book
 author: James Clear
-sr-due: 2025-07-13
-sr-interval: 3
+sr-due: 2025-07-23
+sr-interval: 9
 sr-ease: 238
 ---
 

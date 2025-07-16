@@ -2,9 +2,9 @@
 created: 2024-12-08T22:41+03:00
 tags:
   - blog
-sr-due: 2025-07-13
-sr-interval: 3
-sr-ease: 250
+sr-due: 2025-07-27
+sr-interval: 13
+sr-ease: 270
 ---
 
 # Kindle paperwhite

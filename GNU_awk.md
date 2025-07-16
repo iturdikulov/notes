@@ -4,9 +4,9 @@ tags:
   - blog
 external:
   - https://www.gnu.org/software/gawk/manual/gawk.html
-sr-due: 2025-07-13
-sr-interval: 3
-sr-ease: 250
+sr-due: 2025-07-28
+sr-interval: 14
+sr-ease: 270
 ---
 
 # GNU Awk

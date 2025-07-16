@@ -3,9 +3,9 @@ created: 2025-02-07T20:29+03:00
 tags:
   - blog
   - outline
-sr-due: 2025-07-11
-sr-interval: 1
-sr-ease: 133
+sr-due: 2025-07-20
+sr-interval: 4
+sr-ease: 170
 ---
 
 # My awesome software list

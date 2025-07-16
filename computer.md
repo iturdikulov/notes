@@ -3,9 +3,9 @@ created: 2023-03-21T00:00+03:00
 tags:
   - blog
   - computer_science
-sr-due: 2025-07-11
-sr-interval: 1
-sr-ease: 130
+sr-due: 2025-07-19
+sr-interval: 3
+sr-ease: 150
 ---
 
 # Computer

@@ -1,10 +1,11 @@
 ---
-created: 2024-11-29T22:16+03:00
+date: 2025-07-13T20:36:06+03:00
+created: 2024-11-29T22:16:00+03:00
 tags:
   - blog
-sr-due: 2025-07-13
-sr-interval: 3
-sr-ease: 229
+sr-due: 2025-08-16
+sr-interval: 34
+sr-ease: 269
 ---
 
 # My notation

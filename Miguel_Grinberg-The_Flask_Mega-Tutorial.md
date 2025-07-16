@@ -7,9 +7,9 @@ tags:
   - blog
   - Python
   - annotation_book
-sr-due: 2025-07-11
-sr-interval: 1
-sr-ease: 230
+sr-due: 2025-07-18
+sr-interval: 2
+sr-ease: 190
 ---
 
 # The Flask Mega-Tutorial

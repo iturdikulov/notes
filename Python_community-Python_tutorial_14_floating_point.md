@@ -5,8 +5,8 @@ tags:
   - blog
   - annotation_article
 created: 2025-01-14T11:41+03:00
-sr-due: 2025-07-13
-sr-interval: 3
+sr-due: 2025-07-24
+sr-interval: 10
 sr-ease: 245
 ---
 

@@ -3,9 +3,9 @@ created: 2024-11-11T19:59+03:00
 tags:
   - blog
   - Python
-sr-due: 2025-07-11
+sr-due: 2025-07-17
 sr-interval: 1
-sr-ease: 218
+sr-ease: 158
 ---
 
 # Python type hints

@@ -6,8 +6,8 @@ tags:
   - computer_programming_profession
 author: Paul Graham
 file: ./articles/Graham_-_Programming_Bottom_Up.html
-sr-due: 2025-07-13
-sr-interval: 3
+sr-due: 2025-07-23
+sr-interval: 9
 sr-ease: 244
 ---
 

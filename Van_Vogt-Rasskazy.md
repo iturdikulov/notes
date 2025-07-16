@@ -5,9 +5,9 @@ tags:
   - annotation_fiction
 author: Альфред Ван Вогт
 lang: ru
-sr-due: 2025-07-13
-sr-interval: 3
-sr-ease: 248
+sr-due: 2025-09-02
+sr-interval: 50
+sr-ease: 288
 ---
 
 # Рассказы Альфреда Вана Вогта

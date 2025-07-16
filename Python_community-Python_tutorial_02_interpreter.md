@@ -5,8 +5,8 @@ external:
 tags:
   - blog
   - annotation_article
-sr-due: 2025-07-13
-sr-interval: 3
+sr-due: 2025-07-24
+sr-interval: 10
 sr-ease: 243
 ---
 

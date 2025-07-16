@@ -3,8 +3,8 @@ created: 2024-11-07T09:54+03:00
 tags:
   - blog
   - mathematics
-sr-due: 2025-07-13
-sr-interval: 3
+sr-due: 2025-07-24
+sr-interval: 10
 sr-ease: 247
 ---
 

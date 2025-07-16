@@ -2,8 +2,8 @@
 created: 2025-02-14T08:33+03:00
 tags:
   - blog
-sr-due: 2025-07-14
-sr-interval: 3
+sr-due: 2025-07-20
+sr-interval: 6
 sr-ease: 214
 ---
 

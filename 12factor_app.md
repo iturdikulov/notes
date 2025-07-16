@@ -6,8 +6,8 @@ tags:
 external:
   - https://12factor.net/
 file: ./articles/12factor_-_12factor.epub
-sr-due: 2025-07-13
-sr-interval: 3
+sr-due: 2025-07-21
+sr-interval: 7
 sr-ease: 237
 ---
 

@@ -4,9 +4,9 @@ tags:
   - blog
   - annotation_book
 author: Bill Lubanovic
-sr-due: 2025-07-11
+sr-due: 2025-07-17
 sr-interval: 1
-sr-ease: 218
+sr-ease: 178
 ---
 
 # FastAPI

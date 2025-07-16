@@ -8,9 +8,9 @@ tags:
   - annotation_book
 author: Math is Fun Team
 directory: ~/Science/math/Math_is_Fun_Team-Math_is_Fun/
-sr-due: 2025-07-12
-sr-interval: 1
-sr-ease: 209
+sr-due: 2025-07-18
+sr-interval: 2
+sr-ease: 169
 ---
 
 # Math is Fun

@@ -4,9 +4,9 @@ tags:
   - blog
   - annotation_fiction
 author: Михаил Лермонтов
-sr-due: 2025-07-13
-sr-interval: 3
-sr-ease: 228
+sr-due: 2025-07-26
+sr-interval: 12
+sr-ease: 248
 ---
 
 # Михаил Лермонтов «Герой нашего времени»

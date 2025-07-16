@@ -6,8 +6,8 @@ tags:
   - blog
   - annotation_article
   - Python_tutorial
-sr-due: 2025-07-13
-sr-interval: 3
+sr-due: 2025-07-23
+sr-interval: 9
 sr-ease: 233
 ---
 

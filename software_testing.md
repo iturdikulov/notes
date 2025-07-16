@@ -2,9 +2,9 @@
 created: 2023-04-17T00:00+03:00
 tags:
   - blog
-sr-due: 2025-07-13
-sr-interval: 3
-sr-ease: 201
+sr-due: 2025-07-20
+sr-interval: 4
+sr-ease: 150
 ---
 
 # Software testing

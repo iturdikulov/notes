@@ -3,9 +3,9 @@ created: 2023-05-19T00:00+03:00
 tags:
   - blog
   - computer_science
-sr-due: 2025-07-13
-sr-interval: 3
-sr-ease: 224
+sr-due: 2025-07-17
+sr-interval: 1
+sr-ease: 184
 ---
 
 # Queue (abstract data type)

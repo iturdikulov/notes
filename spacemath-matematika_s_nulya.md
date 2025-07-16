@@ -5,9 +5,9 @@ tags:
   - blog
   - mathematics
   - annotation_book
-sr-due: 2025-07-11
+sr-due: 2025-07-17
 sr-interval: 1
-sr-ease: 226
+sr-ease: 166
 ---
 
 # Математика с нуля

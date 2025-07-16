@@ -5,9 +5,9 @@ external:
   - https://fastapi.tiangolo.com/virtual-environments
 tags:
   - blog
-sr-due: 2025-07-13
-sr-interval: 3
-sr-ease: 212
+sr-due: 2025-07-25
+sr-interval: 11
+sr-ease: 232
 ---
 
 # Python virtual environments and packages

@@ -5,9 +5,9 @@ tags:
   - annotation_book
 author: Яков Перельман
 file: ./books/Perelman-Zanimatelnaya_matematika.pdf
-sr-due: 2025-07-11
-sr-interval: 1
-sr-ease: 221
+sr-due: 2025-07-18
+sr-interval: 2
+sr-ease: 161
 ---
 
 # Занимательная математика

@@ -4,9 +4,9 @@ tags:
   - blog
 external:
   - https://github.com/ValveSoftware/gamescope
-sr-due: 2025-07-13
-sr-interval: 3
-sr-ease: 236
+sr-due: 2025-07-27
+sr-interval: 13
+sr-ease: 256
 ---
 
 # gamescope: the micro-compositor formerly known as steamcompmgr

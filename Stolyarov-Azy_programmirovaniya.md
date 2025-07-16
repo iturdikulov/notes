@@ -10,9 +10,9 @@ tags:
   - computer_programming_fix
   - annotation_book
 lang: ru
-sr-due: 2025-07-11
+sr-due: 2025-07-17
 sr-interval: 1
-sr-ease: 187
+sr-ease: 130
 ---
 
 # Программирование: введение в профессию. Том 1: азы программирования

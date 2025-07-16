@@ -8,9 +8,9 @@ external:
   - https://github.com/cognitive-engineering-lab/rust-book
   - https://rust-book.cs.brown.edu/
   - https://doc.rust-lang.ru/book/
-sr-due: 2025-07-13
-sr-interval: 3
-sr-ease: 248
+sr-due: 2025-07-23
+sr-interval: 10
+sr-ease: 268
 ---
 
 # Rust Book experiment

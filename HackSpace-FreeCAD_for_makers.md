@@ -8,8 +8,8 @@ file: ./books/FreeCAD_for_makers.pdf
 tags:
   - blog
   - annotation_book
-sr-due: 2025-07-11
-sr-interval: 1
+sr-due: 2025-07-22
+sr-interval: 6
 sr-ease: 230
 ---
 

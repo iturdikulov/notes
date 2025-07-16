@@ -3,9 +3,9 @@ created: 2025-02-06T09:50+03:00
 tags:
   - blog
   - cheat-sheets
-sr-due: 2025-07-13
-sr-interval: 3
-sr-ease: 199
+sr-due: 2025-07-17
+sr-interval: 1
+sr-ease: 130
 ---
 
 # Python cheat-sheet

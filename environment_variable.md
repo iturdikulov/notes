@@ -3,9 +3,9 @@ created: 2024-11-14T20:16+03:00
 tags:
   - blog
   - unix
-sr-due: 2025-07-14
-sr-interval: 1
-sr-ease: 209
+sr-due: 2025-07-25
+sr-interval: 11
+sr-ease: 249
 ---
 
 # Environment variable (env-var)

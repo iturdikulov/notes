@@ -1,11 +1,12 @@
 ---
+date: 2025-07-14T09:33:27+03:00
+created: 2023-03-28T00:00:00+03:00
 external: https://en.wikipedia.org/wiki/Wiki
-created: 2023-03-28T00:00+03:00
 tags:
   - blog
-sr-due: 2025-07-13
-sr-interval: 3
-sr-ease: 238
+sr-due: 2025-07-26
+sr-interval: 12
+sr-ease: 258
 ---
 
 # Wiki (encyclopedia)
