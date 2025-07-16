@@ -1,4 +1,4 @@
-""""""""""""""""""""""
+"""""""""""""""""""""
 " Leader
 """"""""""""""""""""""
 " let mapleader=" "
@@ -45,7 +45,7 @@ exmap forward obcommand app:go-forward
 nmap <C-i> :forward<CR>
 
 " " Yank to system clipboard
-" set clipboard=unnamed
+set clipboard=unnamed
 
 vmap <Space>y "+y
 
