@@ -6,6 +6,13 @@ body {
   --file-line-width: 960px;
 }
 
+/* Font size for tablet/desktop */
+@media (min-width: 768px) {
+  body {
+    --font-text-size: 24px !important;
+  }
+}
+
 /* Custom flashcard separator */
 br.f{
     display: block;
@@ -63,27 +70,6 @@ iframe[src*="youtu"] {
     max-width: 100ch;
     margin: 0 auto;
   }
-}
-
-/* Color column ruller */
-body {
-  --code-size: 1em; /* unify inline code elements size */
-}
-.cm-contentContainer {
-  background: linear-gradient(90deg, #0000 calc(100% - 1ch), #31343a 0);
-  background-size: 1ch 100%;
-  background-repeat: no-repeat;
-  background-position: 80ch 0;
-}
-
-/* disable line wrap */
-.cm-contentContainer .cm-content {
-    white-space: nowrap;
-}
-
-/* code block line width */
-.cm-line {
-    max-width: 80ch;
 }
 
 /* Popup size */

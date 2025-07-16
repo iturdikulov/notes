@@ -5,9 +5,9 @@ tags:
   - annotation_book
 author: Ben Forta
 file: ./books/Forta-SQL_za_10_minut.djvu
-sr-due: 2025-07-11
+sr-due: 2025-07-14
 sr-interval: 1
-sr-ease: 229
+sr-ease: 209
 ---
 
 # SQL за 10 минут
