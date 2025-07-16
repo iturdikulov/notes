@@ -4,9 +4,24 @@ tags:
   - blog
 external:
   - https://github.com/clearloop/leetcode-cli
-sr-due: 2025-07-13
-sr-interval: 3
-sr-ease: 226
+sr-due: 2025-07-17
+sr-interval: 1
+sr-ease: 186
 ---
 
-# leetcode-cli
+# `leetcode-cli`
+
+[[CLI]] tool to interact with [[LeetCode]], it's simplify process and give you
+tool to automate test submissions, list problems, etc.
+
+Typical workflow:
+
+1. List problems: `leetcode l stack`, `stack` is optional filter.
+2. Pick (save & read) problem in configured directory: `leetcode p 155|less`.
+3. Edit problem in configured editor: `leetcode e <problem_id>`.
+4. Test problem: `leetcode t <problem_id>`.
+5. Submit (eXecute) problem: `leetcode x <problem_id>`.
+
+Example of output:
+
+<iframe src="file:///home/inom/Wiki/stdout_leetcode-cli.html" width="800" height="300"></iframe>
