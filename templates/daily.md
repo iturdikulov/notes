@@ -8,11 +8,9 @@ tags:
 
 <% tp.web.daily_quote() %>
 
-- [ ] Move old uncompleted tasks
-- [ ] Morning exercise
+[[../TODO|TODO]], [[../TODO_mobile|TODO_mobile]], [[../TODO_tablet|TODO_tablet]]
 
 ## Work
-
 
 
 ## Life
