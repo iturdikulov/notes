@@ -5,30 +5,31 @@ external:
 tags:
   - blog
   - cheat-sheets
-sr-due: 2025-09-17
-sr-interval: 69
-sr-ease: 208
+sr-due: 2025-07-18
+sr-interval: 1
+sr-ease: 130
 ---
 
 # Krita
 
+## Generative AI
+
+https://github.com/Acly/krita-ai-diffusion
+
 ## Mouse shortcuts
 
-Right-click
-<br class="f">
-Show a palette of brushes, color history and other tools.
-Right-click again to hide it.
+- Toggle a palette of brushes, color history and other tools: <wbr class="f"> `Right-click`
 
-S-left mouse drag in Brush mode
+`S-left` mouse drag in Brush mode:
 <br class="f">
 resize brush (large when dragging to right, small when dragging to left).
 
-Space+left mouse button
+Space+left mouse button:
 <br class="f">
 pan the canvas. Also with middle button (mouse wheel)
 click and drag.
 
-S-Space+left mouse button for ==fine canvas rotations==.
+Use `S-Space+left` mouse button for ==fine canvas rotations==.
 
 C-click:<wbr class="f"> Color pick the pixel under the cursor.
 
@@ -49,7 +50,7 @@ V
 Hold this key, press mouse and hold it, it will trace a straight line between
 the press point and the release point.
 
-## Default
+## Default shortcuts
 
 D:<wbr class="f"> Default foreground (FG =black) and background (BG = white) colors.
 
@@ -100,7 +101,7 @@ S-I
 <br class="f">
 Show color selector.
 
-## Toolbar
+## Toolbar shortcuts
 
 B:<wbr class="f"> Freehand Brush Tool
 
@@ -139,7 +140,7 @@ Also works for rectangular / elliptical drawing tools, BTW.
 Once a selection is made, you can make one with ==Shift pressed==: it adds to
 the selection; with Alt pressed: it removes from selection.
 
-## Layers
+## Layers shortcuts
 
 Note: when I write “current layer”, it often applies to a selection of layers.
 
@@ -183,7 +184,7 @@ C-J:<wbr class="f"> Duplicate current layer.
 
 F3:<wbr class="f"> Show layer properties.
 
-## Filters
+## Filters shortcuts
 
 C-U
 <br class="f">
@@ -195,8 +196,6 @@ C-L:<wbr class="f"> Level filter; allows increasing contrast (move side arrows t
 M-S:<wbr class="f"> initial of blending mode: select the drawing mode.
 
 ## Custom Shortcuts
-
-Custom
 
 You can change the keyboard shortcuts via the Settings > Configure Krita menu,
 Keyboard Shortcuts tab.
@@ -226,6 +225,6 @@ TODO: file_close_all tablet_debugger selection_tool_mode_subtract Select Differe
 Blending Mode Select Screen Blending Mode flatten_image
 
 
-## Learning
+## Learning path
 
 - [ ] [Krita](https://www.youtube.com/playlist?list=PLhqJJNjsQ7KE3FLHIE31UgmLdcqsZfXTw)
