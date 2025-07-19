@@ -1,5 +1,6 @@
 ---
-created: 2023-03-04T00:00+03:00
+date: 2025-07-19T10:24:17+03:00
+created: 2023-03-04T00:00:00+03:00
 external:
   - https://krita.org/en/
 tags:
@@ -18,212 +19,148 @@ https://github.com/Acly/krita-ai-diffusion
 
 ## Mouse shortcuts
 
-- Toggle a palette of brushes, color history and other tools: <wbr class="f"> `Right-click`
+Toggle a popup widget (palette of brushes, colors history ring, and other tools): <wbr class="f"> `RightMouse`
 
-`S-left` mouse drag in Brush mode:
-<br class="f">
-resize brush (large when dragging to right, small when dragging to left).
+Resize brush: <wbr class="f"> `S-LeftMouseDrag` in brush mode, large when dragging to right, small when dragging to left.
 
-Space+left mouse button:
-<br class="f">
-pan the canvas. Also with middle button (mouse wheel)
-click and drag.
+Pan the canvas: <wbr class="f"> `S-LeftMouse`, or with `MiddleButton` (click and drag).
 
-Use `S-Space+left` mouse button for ==fine canvas rotations==.
+Fine canvas rotations: <wbr class="f"> `S-Space-LeftMouse` or `S-MiddleMouse`
 
-C-click:<wbr class="f"> Color pick the pixel under the cursor.
+Color pick the pixel under the cursor: <wbr class="f"> `C-LeftMouse`.
 
-C-M-click:<wbr class="f"> idem, but only if on current layer.
+Zoom: <wbr class="f"> `MiddleMouse` scroll, or `+` and `-` keys
 
-Select Layer Mode. Hold this key, click on a pixel, you select the layer
-holding this pixel.
-<br class="f">
-R
+Select layer holding some pixel: <wbr class="f"> Hold `R` key, click on a pixel, you select the layer holding this pixel. Hold `S-` to also select those layers.
 
-S-R
-<br class="f">
-Idem, but add the layer to the selection of layers. You can hit C-G to
-group the selected layers, for example…
+Trace a straight line between the press point and the release point: <wbr class="f"> hold `V` and draw line.
 
-V
-<br class="f">
-Hold this key, press mouse and hold it, it will trace a straight line between
-the press point and the release point.
+## General shortcuts
 
-## Default shortcuts
+Freehand Brush tool: <wbr class="f"> `B`.
 
-D:<wbr class="f"> Default foreground (FG =black) and background (BG = white) colors.
+Set eraser mode: <wbr class="f"> `E`, it will use brush size if brush tool active.
 
-X:<wbr class="f"> Swap FG and BG colors.
+Move tool: <wbr class="f"> `T`, move the current layer out of the selection, depending on options.
 
-E:<wbr class="f"> Set eraser mode
+Transform tool: <wbr class="f"> `C-T`, transform a layer or selection: beside rotating, inverting or deforming capabilities, allows moving the selection, you can transform group of layers.
 
-M:<wbr class="f"> Horizontal Mirror Tool.
+Crop Tool: <wbr class="f"> `C`, cut the bounds of the image to what is selected. Keeps the layers.
 
-Num-4:<wbr class="f"> Rotate canvas left of 15°
+Gradient tool: <wbr class="f"> `G`, set gradient from foreground to background colors, can be used with selection.
 
-Num-6:<wbr class="f"> Rotate canvas right of 15°
+Color Select Tool: <wbr class="f"> `P`
 
-Num-5:<wbr class="f"> Reset canvas rotation.
+Fill Tool: <wbr class="f"> `F`, fill color under mouse cursor with the foreground color, support selection. Play with options for tolerance, growth, feathering, etc.
 
-+:<wbr class="f"> Zoom in.
+Rectangular Selection Tool: <wbr class="f"> `C-R`, use `C-S-A` to deselect.
 
--:<wbr class="f"> Zoom out.
+Elliptical Selection Tool: <wbr class="f"> `J`.
 
-Num-1:<wbr class="f"> Zoom at 100 %.
+Outline Selection Tool (custom key): <wbr class="f"> I assigned it to the `S` shortcut.
 
-Num-2:<wbr class="f"> Zoom at Fit Page.
+Move uncompleted selection: <wbr class="f"> if you started selection, but not released `LeftMouse` you can move it with `M-` key.
 
-Num-3:<wbr class="f"> Zoom at Fit Page Width.
+Constraints selection with to 1:1 aspect ration: <wbr class="f"> hold `S-` key when you create selection.
 
-C-I:<wbr class="f"> Invert colors on current layer(s).
+Add additional selection to current one: <wbr class="f"> make additional selection with `S-` modifier.
 
-Del:<wbr class="f"> Erase everything in current layer.
+Remove from current selection: <wbr class="f"> make additional selection with `M-` modifier.
 
-Backspace:<wbr class="f"> Fill selection with BG color.
+Reset foreground and background colors (black/white): <wbr class="f"> `D`
 
-S-Backspace:<wbr class="f"> Fill selection with FG color.
+Swap foreground and background colors: <wbr class="f"> `X`
 
-C-Backspace:<wbr class="f"> Fill selection with BG color (opacity).
+Rotate canvas left by 15°: <wbr class="f"> `4`
 
-C-S-Backspace:<wbr class="f"> Fill selection with FG color (opacity).
+Reset canvas rotation: <wbr class="f"> `5`
 
-U
-<br class="f">
-Show common colors (on the left of the palette; allows quick selection;
-alternative: right-click…)
+Rotate canvas right by 15°: <wbr class="f"> `6`
 
-H
-<br class="f">
-Show color history (below the palette; colors used in the current picture)
+Zoom at 100% (reset zoom): <wbr class="f"> `1`
 
-S-I
-<br class="f">
-Show color selector.
+Zoom to Fit Page: <wbr class="f"> `2`
 
-## Toolbar shortcuts
+Zoom to Fit Page Width: <wbr class="f"> `3`
 
-B:<wbr class="f"> Freehand Brush Tool
+Invert colors on current layer(s): <wbr class="f"> `C-I`
 
-T:<wbr class="f"> Move Tool: move the current layer out the selection, depending on options
+Erase everything in current layer or selection: <wbr class="f"> `DEL`
 
-C-T
-<br class="f">
-Transform a layer or selection: beside rotating, inverting or deforming
-capabilities, allows moving the selection.
-Moreover, if you select a group of layers, it will move the whole group at once.
-You can quickly group & ungroup layers to do that (or just keep these useful
-groups!)
+Fill selection with background color: <wbr class="f"> `BS`
 
-C:<wbr class="f"> Crop Tool: cut the bounds of the image to what is selected. Keeps the layers.
+Fill selection with foreground color: <wbr class="f"> `S-BS`
 
-G:<wbr class="f"> Gradient tool, between FG and BG colors. Better use with a selection…
+Fill selection with background color and selection opacity: <wbr class="f"> `C-BS`.
 
-P:<wbr class="f"> Color Select Tool. I rather use the Ctrl key to go into color picking mode.
+Fill selection with foreground color and selection opacity: <wbr class="f"> `C-S-BS`.
 
-F
-<br class="f">
-Fill Tool. Fill the selection and / or the current color with the FG color.
-Play with options for tolerance, growth, feathering, etc.
+Show common colors (on the left of the palette; allows quick selection): <wbr class="f"> `U` 
 
-C-R:<wbr class="f"> Rectangular Selection Tool.
+Show color history (below the palette; colors used in the current picture): <wbr class="f"> `H`, alternative is pop-up widget (`RightMouse`).
 
-J:<wbr class="f"> Elliptical Selection Tool.
+Show color selector: <wbr class="f"> `S-I`
 
-I mostly use the ==Outline Selection Tool (freehand)==, I assigned it the S
-shortcut.
-
-When making a rectangular or elliptical selection, press ==Alt== to move the
-selection instead of grow / shrink, and Shift constraints to 1:1 aspect ratio.
-Also works for rectangular / elliptical drawing tools, BTW.
-
-Once a selection is made, you can make one with ==Shift pressed==: it adds to
-the selection; with Alt pressed: it removes from selection.
+TODO: review mirror tools
+Horizontal Mirror Tool: <wbr class="f"> ?
 
 ## Layers shortcuts
 
-Note: when I write “current layer”, it often applies to a selection of layers.
+Note: when I write "current layer", it often applies to a selection of layers.
 
-PageDown:<wbr class="f"> Select next layer.
+Add paint layer: <wbr class="f"> `Ins`.
 
-PageUp:<wbr class="f"> Select previous layer.
+Add vector layer: : <wbr class="f"> `S-Ins`.
 
-When focus is on layers, arrow works too. ==S-arrows== allows to select
-consecutive layers. So is Shift+click.
+Delete current layer: <wbr class="f"> `S-DEL`.
 
-Home:<wbr class="f"> Go to first layer.
+Duplicate current layer: <wbr class="f"> `C-J`.
 
-End:<wbr class="f"> Go to last layer.
+Show layer properties: <wbr class="f"> `F3`.
 
-C-PageDown:<wbr class="f"> Move current layer down.
+Select next layer: <wbr class="f"> `PageDown`.
 
-C-PageUp:<wbr class="f"> Move current layer up.
+Select previous layer: <wbr class="f"> `PageUp`.
 
-C-G
-<br class="f">
-Move the current layer, or selected layers, into a group. If all layers of
-a group are selected, the group disappears.
+Go to first layer: <wbr class="f"> `Home`.
 
-C-M-G
-<br class="f">
-Move the current layer out and above the current group.
+Go to last layer: <wbr class="f"> `End`.
 
-C-E
-<br class="f">
-Merge current layer on layer below (in list), which keeps its name.
-Useful after pasting, when you don’t want to keep too many layers.
-Warning! Destructive, don’t do it by mistake. But of course, C-Z (undo) fixes
-that, if you notice what you have done…
-If the layer below is a group of layer, the group and the merged layer are
-flattened (making only one layer).
-If the layer is the last of its group, it does nothing.
+Activate/Select layers in active Layers dock: <wbr class="f"> Arrows keys or `S-` arrows.
 
-S-Del:<wbr class="f"> Delete current layer.
+Move current layer down: <wbr class="f"> `C-PageDown`.
 
-C-J:<wbr class="f"> Duplicate current layer.
+Move current layer up: <wbr class="f"> `C-PageUp`.
 
-F3:<wbr class="f"> Show layer properties.
+Move the current layer, or selected layers, into a group. If all layers of a group are selected, the group disappears: <wbr class="f"> `C-G`.
 
-## Filters shortcuts
+TODO: not working?
+Move the current layer out and above the current group: <wbr class="f"> `C-M-G`
 
-C-U
-<br class="f">
-Hue / Saturation / Lightness filter.
+Merge current layer on layer below (in list), which keeps its name: <wbr class="f"> `C-E`. Useful after pasting, when you don't want to keep too many layers. Warning! Destructive, don't do it by mistake. But of course, C-Z (undo) fixes that, if you notice what you have done… If the layer below is a group of layer, the group and the merged layer are flattened (making only one layer). If the layer is the last of its group, it does nothing.
+
+## Filters shortcuts (image adjustments)
+
+Hue / Saturation / Lightness filter: <wbr class="f"> `C-U`.
 Move Saturation to zero to get gray-level image.
 
-C-L:<wbr class="f"> Level filter; allows increasing contrast (move side arrows toward middle).
+Level filter: <wbr class="f"> `C-L` allows increasing contrast (move side arrows toward middle).
 
-M-S:<wbr class="f"> initial of blending mode: select the drawing mode.
+Select some blending mode (part of hotkey): <wbr class="f"> `M-S-...`. `M-S-N` (normal), `M-S-O` (overlay), `M-S-C` (color), etc.
 
 ## Custom Shortcuts
 
-You can change the keyboard shortcuts via the Settings > Configure Krita menu,
-Keyboard Shortcuts tab.
-~/.local/share/krita/shortcuts/Inomoz.shortcuts
+You can change the keyboard shortcuts via the `Settings > Configure Krita -> Keyboard Shortcuts`. Custom shortcuts stored in `~/.config/kritashortcutsrc`.
 
-InteractionTool - M-S-S
-<br class="f">
-In vector layer, choose the Select Shapes Tool (fat arrow)
+Quickly export into PNG or JPEG file: <wbr class="f"> `C-M-S-E`.
 
-PathTool - M-S-E
-<br class="f">
-In vector layer, choose the Edit Shapes Tool (thin arrow on path)
+In vector layer, choose the `Select Shapes Tool` (fat arrow): <wbr class="f"> `M-C`.
 
-The Outline Selection Tool:<wbr class="f"> KisToolSelectOutline - S
+In vector layer, choose the `Edit Shapes Tool` (thin arrow on path): <wbr class="f"> `M-D`.
 
-SvgTextTool - C-S-T:<wbr class="f"> The name is clear
+SVG text tool: <wbr class="f"> `C-S-T`.
 
-Also clear, useful to check if we painted on right layer
-<br class="f">
-toggle_layer_visibility - C-S-W
-
-Quickly export that PNG or JPEG file
-<br class="f">
-file_export_file - C-S-E
-
-TODO: file_close_all tablet_debugger selection_tool_mode_subtract Select Difference
-Blending Mode Select Screen Blending Mode flatten_image
-
+Toggle layer visibility: <wbr class="f"> `C-S-V`, useful to check if we painted on right layer.
 
 ## Learning path
 
