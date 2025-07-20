@@ -1,21 +1,20 @@
 ---
-title: iturdikulov.com
-created: 2025-01-13T11:36+03:00
+date: 2025-07-18T09:17:32+03:00
+created: 2025-01-13T11:36:00+03:00
 tags:
   - blog
   - outline
   - habits
-sr-due: 2025-07-18
-sr-interval: 4
-sr-ease: 170
+sr-due: 2025-10-02
+sr-interval: 76
+sr-ease: 230
+title: iturdikulov.com
 ---
 
 # My notes, my projects, and my life
 
-[[about_me|I'm]] a programmer, who is trying to be a professional in the field
-and stay a human being at the same time. My primary specialization is
-[[backend]] [[web_development]], but I'm also interested in
-[[computer_graphics]], [[gamedev|game development]] and [[art]].
+[[about_me|I'm]] a programmer, who is trying to be a professional in the field and stay a human being at the same time. My primary specialization is
+[[backend]] [[web_development]], but I'm also interested in [[computer_graphics]], [[gamedev|game development]] and [[art]].
 
 My website contains mainly my notes that are of interest of me, they are managed with [[Zettelkasten]] methodology. I use them mostly to improve my [[learning|education process]], store information that important for me and share it with others. I will be pleased if you find something useful.
 
