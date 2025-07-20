@@ -4,14 +4,17 @@ tags:
   - daily
 ---
 
-# {{date:dddd, MMMM Do, YYYY}}
+# Sunday, July 20th, 2025
 
 <% tp.web.daily_quote() %>
 
-[[../TODO|TODO]], [[../TODO_mobile|TODO_mobile]], [[../TODO_tablet|TODO_tablet]]
+## Links
 
-## Work
+- [[../TODO|TODO]], [Starred News](http://volga:8080/starred)
+- [[Index]], [[../my_goals|my_goals]], [[../my_learning_path|my_learning_path]], [[../spaced_repetition#Programming related flashcards|spaced repetition]]
 
+- [[<% tp.date.now("yyyy-MM-DD", -1) %>|Yesterday]]
 
-## Life
+## Tasks
 
+- [ ] Move old tasks & review inbox
