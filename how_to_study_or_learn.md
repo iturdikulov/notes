@@ -3,7 +3,7 @@ created: 2022-12-29T00:00+03:00
 tags:
   - blog
   - education
-sr-due: 2025-07-17
+sr-due: 2025-07-19
 sr-interval: 1
 sr-ease: 130
 ---
@@ -18,10 +18,10 @@ TODO: flashcards are not ideal, need to review
 > honesty.
 
 Place for study is important. You can prepare ==environment== for study, reduce
-distraction factors. For example if you make your bed, you will not want to
-sleep there, because it's accurate, and you wank keep it accurate, it can be
+distraction factors. For example, if you make your bed, you will not want to
+sleep there, because it's accurate, and you want keep it accurate, it can be
 also initial ritual to make first task done!. Sometimes you can find other
-places to study, for example study café.
+places to study, for example study cafe.
 
 If you spend more time on learning, you will be more effective. To increase
 effective try to understand, you're learning ==fact or concept==. Name of thing
@@ -36,8 +36,8 @@ meaningful for you. Otherwise, you just study ineffectively, and wasting your
 study time.
 
 What is ==meaningful==? It's something which can be related to something you
-already know. For example, you know about file systems, like NTFS, FAT, etc. And
-you just discovered and learn new one BTRFS. You associate it with previous,
+already know. For example, you know about filesystem, like NTFS, FAT, etc. And
+you just discovered and learn new one Btrfs. You associate it with previous,
 compare it, find pros and cons and then add it as new thing into your knowledge
 system (let's assume its work in that way and leave details).
 
@@ -45,7 +45,7 @@ To simplify learning, break concepts and facts into ==small chunks== and
 reinforce them. Find out fun things to do during short breaks and great rewards
 after finishing studying.
 
-## Advices
+## Advice to study
 
 1. Study with social groups increase your ==motivation== and help you to learn.
    It's also provided challenge and competition.
