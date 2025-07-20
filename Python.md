@@ -4,7 +4,7 @@ created: 2022-12-29T00:00:00+03:00
 tags:
   - blog
   - Python
-sr-due: 2025-07-17
+sr-due: 2025-07-19
 sr-interval: 1
 sr-ease: 130
 ---
@@ -69,6 +69,16 @@ whiteboard, aviable in the spoiler below:
 
 List of materials to review with [[my_notation]]:
 
+- Brownlee_-_Python_Asyncio_Jump-Start
+- [[Pydantic]]
+- [Ruff](https://blog.jerrycodes.com/ruff-the-python-linter/)
+- [Vulture - Find dead code](https://pypi.org/project/vulture/)
+- [Task manager for asyncio | Taskiq](https://taskiq-python.github.io/)
+- [RedBeat Celery Beat Scheduler](https://github.com/sibson/redbeat)
+- [Flask](https://flask.palletsprojects.com/en/stable/)
+- [FastAPI](https://fastapi.tiangolo.com/learn/)
+- [FastStream](https://faststream.airt.ai/latest/faststream)
+- [HTTPX](https://www.python-httpx.org/quickstart/)
 - [ ] [Ultimate Python study guide](https://github.com/huangsam/ultimate-python)
 - [ ] [roadmap.sh - Python](https://roadmap.sh/python).
 
