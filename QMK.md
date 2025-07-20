@@ -11,13 +11,6 @@ sr-ease: 248
 
 # QMK Firmware
 
-> The goal of the QMK software project is to develop a completely customizable,
-> powerful, and enjoyable firmware experience for any project - keyboard or
-> otherwise - and to provide helpful, encouraging, and kind support and feedback
-> for people with any software development experience.
-TODO: add source
-
-
 I use QMK on my keyboard (KBD75 rev2). I'have done some basic customizations to
 keymap. I use Colemak-DH layout (check image below), but on system level
 (because I use also Russian ЙЦУКЕН layout, so it's depends on qwerty layout).
@@ -80,9 +73,11 @@ qmk c2json --no-cpp keymap.c >keymap.json # without --no-cpp it might not work
 
 ## My layers and modifiers
 
+TODO: not actual
+
 Hold `SYM` to activate the symbols layer.
 
-Hold `NAV` to activate the navigation layer
+Hold `NUM` to activate the navigation layer
 
 The home row modifiers are `oneshot` so that it's possible to modify the keys on
 the base layer, where there are no dedicated modifiers.
