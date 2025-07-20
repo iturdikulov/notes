@@ -25,9 +25,9 @@ I find list very effective to track something, so I formatted learning path as m
 
 [[computer_programming#Learning path|Programming]] applied learning materials, related outline notes (like frontend/backend) and some management stuff.
 
-[[computer_science#Computer science learning path|Computer science]] help me to understand my profession (software engineer) better and break my barriers in software development.
+[[computer_science#Learning path|Computer science]] help me to understand my profession (software engineer) better and break my barriers in software development.
 
-[[computer_graphics#Computer graphics learning path|Computer graphics]] impress me, and I want to learn more about it. It's a great way to express my thoughts in easy to understand form.
+[[computer_graphics#Learning path|Computer graphics]] impress me, and I want to learn more about it. It's a great way to express my thoughts in easy to understand form.
 
 [[my_awesome_software_list|My awesome software list]] is subset of endlessly large software list, which I use for my work and personal life. In fact this is sort of my tools list.
 

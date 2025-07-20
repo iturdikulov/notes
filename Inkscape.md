@@ -23,13 +23,11 @@ sr-ease: 235
 > export various other file formats, including SVG, AI, EPS, PDF, PS and PNG.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Inkscape)</cite>
 
-## Learning
+## Learning path
 
-Keybindings cheat sheet: ![](img/Inkscape_keyboard_layout_cheat_sheet.svg)
+- [Logos By Nick Academy](https://logosbynick.teachable.com/courses), 2D graphics tutorials
+- [ ] Keybindings cheat sheet: ![](img/Inkscape_keyboard_layout_cheat_sheet.svg)
 _[Inkscape Keyboard Layout v0.48.4 - Openclipart](https://openclipart.org/detail/188861/inkscape-keyboard-layout-v0484)_
-
-## External links
-
 - [ ] [Изометрическое Черчение в Inkscape](https://habr.com/en/articles/722566/)
 - [ ] [Inkscape keyboard and mouse reference | Inkscape](https://inkscape.org/doc/keys.html)
 - [ ] [The Inkscape Master Class | Logos By Nick Academy](https://logosbynick.teachable.com/courses/enrolled/485218)

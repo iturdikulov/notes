@@ -2,8 +2,8 @@
 created: 2023-03-17T00:00+03:00
 tags:
   - blog
-sr-due: 2025-07-17
-sr-interval: 1
+sr-due: 2025-07-20
+sr-interval: 2
 sr-ease: 164
 ---
 
@@ -139,6 +139,5 @@ int main(){
 - [ ] [Указатели, ссылки и массивы в C и C++: точки над i / Хабр](https://habr.com/ru/articles/251091/)
 - [ ] [Массивы, строки, указатели.](https://www.opennet.ru/docs/RUS/bogatyrev/gl_2.html)
 - [ ] [Переменные, адреса и указатели в языке Си. Урок 8 курса "Основы языка C"](https://younglinux.info/c/pointers)
-
 - [ ] [Pointers in C, Part I: Pointers vs. Arrays - Approxion](https://www.approxion.com/pointers-in-c-part-i-pointers-vs-arrays/)
 - [ ] [Pointers in C, Part II: CV-Qualifiers - Approxion](https://www.approxion.com/pointers-in-c-part-ii-cv-qualifiers/)

@@ -19,7 +19,8 @@ GIMP is a cross-platform, free, open-source image editor.
 > options and 3rd party plugins.\
 > — <cite>[GIMP](https://www.gimp.org/)</cite>
 
-## Learning
+## Learning path
 
+- [Logos By Nick Academy](https://logosbynick.teachable.com/courses), 2D graphics tutorials
 - [ ] [GIMP lessons by Logos By nick](https://logosbynick.teachable.com/courses/500184/lectures/9191446)
 - [ ] GIMP book (in Russian, search on linux.org.ru)

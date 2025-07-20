@@ -6,8 +6,8 @@ tags:
   - blog
   - cheat-sheets
   - annotation_article
-sr-due: 2025-09-13
-sr-interval: 65
+sr-due: 2025-07-19
+sr-interval: 1
 sr-ease: 130
 ---
 
