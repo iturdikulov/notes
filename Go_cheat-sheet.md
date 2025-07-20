@@ -3,9 +3,9 @@ created: 2025-02-06T10:24+03:00
 tags:
   - blog
   - cheat-sheets
-sr-due: 2025-07-18
-sr-interval: 2
-sr-ease: 173
+sr-due: 2025-07-31
+sr-interval: 13
+sr-ease: 213
 ---
 
 # Go cheat-sheet

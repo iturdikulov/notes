@@ -6,8 +6,8 @@ external:
 tags:
   - blog
   - cheat-sheets
-sr-due: 2025-07-18
-sr-interval: 1
+sr-due: 2025-07-21
+sr-interval: 2
 sr-ease: 130
 ---
 
@@ -165,3 +165,4 @@ Toggle layer visibility: <wbr class="f"> `C-S-V`, useful to check if we painted 
 ## Learning path
 
 - [ ] [Krita](https://www.youtube.com/playlist?list=PLhqJJNjsQ7KE3FLHIE31UgmLdcqsZfXTw)
+- [ ] [[Gardner_-_Draw_and_Paint_Better_with_Krita]]

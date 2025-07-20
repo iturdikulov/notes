@@ -3,7 +3,7 @@ created: 2023-09-21T00:00+03:00
 tags:
   - blog
   - computer_programming
-sr-due: 2025-07-17
+sr-due: 2025-07-19
 sr-interval: 1
 sr-ease: 130
 ---
@@ -32,6 +32,7 @@ if some presentation work is done on server for example.
 
 ## Learning path
 
+- [Backend Developer Roadmap](https://roadmap.sh/backend).
 - [What is a web server? | MDN](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_web_server)
 - [What is the difference between webpage, website, web server, and search engine? | MDN](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/Pages_sites_servers_and_search_engines)
 - [[Shuler-How_does_the_Internet_work]]
@@ -61,18 +62,6 @@ if some presentation work is done on server for example.
 ## Libraries, frameworks
 
 - [sqlc-dev/sqlc: Generate type-safe code from SQL](https://github.com/sqlc-dev/sqlc)
-
-### Python
-
-- [[Pydantic]]
-- [Ruff](https://blog.jerrycodes.com/ruff-the-python-linter/)
-- [Vulture - Find dead code](https://pypi.org/project/vulture/)
-- [Task manager for asyncio | Taskiq](https://taskiq-python.github.io/)
-- [RedBeat Celery Beat Scheduler](https://github.com/sibson/redbeat)
-- [Flask](https://flask.palletsprojects.com/en/stable/)
-- [FastAPI](https://fastapi.tiangolo.com/learn/)
-- [FastStream](https://faststream.airt.ai/latest/faststream)
-- [HTTPX](https://www.python-httpx.org/quickstart/)
 
 ### Challenges
 

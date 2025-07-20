@@ -8,9 +8,9 @@ tags:
   - blog
   - computer_science
 directory: ~/Computer/science/LeetCode_Team-LeetCode/
-sr-due: 2025-09-12
-sr-interval: 64
-sr-ease: 209
+sr-due: 2025-07-19
+sr-interval: 1
+sr-ease: 130
 ---
 
 # LeetCode
@@ -62,8 +62,9 @@ leetcode test 1
 leetcode exec 1
 ```
 
-## Alternatives
+## Alternatives & Similar projects
 
+- [Advent of Code](https://adventofcode.com/)
 - [Project Euler](https://projecteuler.net/)
 - [Codewars - Achieve mastery through coding practice and developer mentorship](https://www.codewars.com/)
 - [HackerRank - Online Coding Tests and Technical Interviews](https://www.hackerrank.com/)

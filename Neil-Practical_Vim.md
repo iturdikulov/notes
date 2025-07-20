@@ -6,9 +6,9 @@ tags:
   - cheat-sheets
   - annotation_book
 file: ./books/Neil-Practical_Vim.pdf
-sr-due: 2025-08-03
-sr-interval: 29
-sr-ease: 206
+sr-due: 2025-07-18
+sr-interval: 1
+sr-ease: 130
 ---
 
 # Practical Vim: Edit text at the speed of thought

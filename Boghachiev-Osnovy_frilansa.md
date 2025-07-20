@@ -8,8 +8,8 @@ tags:
   - annotation_book
 file: ./books/Boghachiev-Osnovy_frilansa.epub
 lang: ru
-sr-due: 2025-07-17
-sr-interval: 3
+sr-due: 2025-07-25
+sr-interval: 7
 sr-ease: 230
 ---
 

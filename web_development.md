@@ -2,17 +2,20 @@
 created: 2025-02-14T08:06+03:00
 tags:
   - blog
-sr-due: 2025-07-17
-sr-interval: 1
+sr-due: 2025-07-20
+sr-interval: 2
 sr-ease: 185
 ---
 
 # Web development
 
+## Learning path
+
 - [[CSS]]
 - [[HTML]]
 - [[JavaScript]]
 
+- [The Path to Learn Web Development](https://flaviocopes.com/the-path-to-learn-web-development/)
 - Meeks and Dufour D3.js in Action
 - [Web technology for developers | MDN](https://developer.mozilla.org/en-US/docs/Web)
 - [web.dev - Learn](https://web.dev/learn).

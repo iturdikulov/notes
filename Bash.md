@@ -4,9 +4,9 @@ tags:
   - blog
 external:
   - https://www.gnu.org/software/bash/
-sr-due: 2025-10-30
-sr-interval: 112
-sr-ease: 230
+sr-due: 2025-07-19
+sr-interval: 1
+sr-ease: 130
 ---
 
 # Bash (Unix shell)
@@ -29,6 +29,7 @@ command languages.
 
 ## Learning path
 
+- [ ] https://www.gnu.org/software/bash/manual/html_node/index.html
 - [ ] [Bash Scriptng Guide](https://www.opennet.ru/docs/RUS/bash_scripting_guide/)
 - [ ] [Bash Debugging Hub](https://sentry.io/answers/bash)
 - [ ] [Advanced Bash-Scripting Guide RUS](https://www.opennet.ru/docs/RUS/bash_scripting_guide/)

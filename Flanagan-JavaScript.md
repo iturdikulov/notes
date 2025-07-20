@@ -6,9 +6,9 @@ tags:
   - computer_programming_web
   - annotation_book
 file: ./books/Flanagan-JavaScript.pdf
-sr-due: 2025-08-27
-sr-interval: 48
-sr-ease: 188
+sr-due: 2025-07-19
+sr-interval: 1
+sr-ease: 130
 ---
 
 # JavaScript: The definitive guide: Master the world's most-used programming language

@@ -5,9 +5,11 @@ tags:
   - annotation_book
 author: Ben Forta
 file: ./books/Forta-SQL_za_10_minut.djvu
-sr-due: 2025-07-17
-sr-interval: 1
+sr-due: 2025-07-20
+sr-interval: 2
 sr-ease: 169
 ---
 
 # SQL за 10 минут
+
+- [Демонстрационная база данных](https://postgrespro.ru/education/demodb)

@@ -1,100 +1,89 @@
 ---
+date: 2025-07-20T12:40:33+03:00
+created: 2025-01-14T11:41:00+03:00
+author: Brett Slatkin
+file: ./books/Slatkin-Effective_Python.epub
 tags:
   - blog
   - Python
   - annotation_book
-author: Brett Slatkin
-created: 2025-01-14T11:41+03:00
-file: ./books/Slatkin-Effective_Python.epub
-sr-due: 1681833600
-sr-ease: 250
-sr-interval: 29
+sr-due: 2025-07-21
+sr-interval: 1
+sr-ease: 130
 ---
 
 # Effective Python: 90 specific ways to write better python
 
 ### Item 1: Know which version of python you're using {#item-1-know-which-version-of-python-you-re-using}
 
-
 #### Idioms of programming language are defined by its users {#idioms-of-programming-language-are-defined-by-its-users}
 
 This means popular practices, formating rules, conventions, etc are defined by their users!
-
 
 #### Python version {#python-version}
 
 You can easily detect which python version you use right now.
 
-
 ### Item 2: Follow the PEP8 Style Guide {#item-2-follow-the-pep8-style-guide}
-
 
 #### PEP is {#pep-is}
 
 Python Enhancement Proposal or PEP 8
 It's Python formatting style guide.
 
-
 #### Why PEP? {#why-pep}
 
 Using consistent style, make your code much more approachable and readable.
-
 
 #### Whitespace {#whitespace}
 
 Since whitespaces are significant in Python, it's recommend to follow this rules:
 
--   Use 4 spaces insted tabs for indentation.
--   Indent a long lines by additional spaces if they splitted.
--   Functions and classes separated by 2 blank lines.
--   Class methods separated by 1 blank line.
--   ...
-
+- Use 4 spaces insted tabs for indentation.
+- Indent a long lines by additional spaces if they splitted.
+- Functions and classes separated by 2 blank lines.
+- Class methods separated by 1 blank line.
+- ...
 
 #### Naming {#naming}
 
--   Functions, variables, and attributes in `lowercas_underscore` format.
--   Protected instance attributes should be in `_leading_underscore` format.
--   Classes (including exceptions) should be in `CapitalizedWord` format.
--   Module-level constants should be in `ALL_CAPS` format.
--   Instance methods in classes should use `self` (ref to object), as the name of the first parameter.
--   Class methods should use `cls`, which refers to the class, as the name of the first parameter.
-
+- Functions, variables, and attributes in `lowercas_underscore` format.
+- Protected instance attributes should be in `_leading_underscore` format.
+- Classes (including exceptions) should be in `CapitalizedWord` format.
+- Module-level constants should be in `ALL_CAPS` format.
+- Instance methods in classes should use `self` (ref to object), as the name of the first parameter.
+- Class methods should use `cls`, which refers to the class, as the name of the first parameter.
 
 #### Expressions and statements {#expressions-and-statements}
 
--   Use inline negation `if a is not b` instead negation of positive expression `if not a is b`, some like `if not CONDTION`. It's really hard to understand.
--   Don't check for empty/non-empty by comparing length to zero ([], ''), just use `if/if not` something and you need assume that empty value will be evaluated to False, non-empty to True.
--   Avoid single-line if, for and while loops, except compound statements, spread them over multiple lines for clarity/readability (it's actual for complex items).
--   Split long lines with parentheses if they are too long.
--   Prefer splitting with parentheses over using \\ line conttinuation character.
-
+- Use inline negation `if a is not b` instead negation of positive expression `if not a is b`, some like `if not CONDTION`. It's really hard to understand.
+- Don't check for empty/non-empty by comparing length to zero ([], ''), just use `if/if not` something and you need assume that empty value will be evaluated to False, non-empty to True.
+- Avoid single-line if, for and while loops, except compound statements, spread them over multiple lines for clarity/readability (it's actual for complex items).
+- Split long lines with parentheses if they are too long.
+- Prefer splitting with parentheses over using \\ line conttinuation character.
 
 #### Imports {#imports}
 
--   Place imports at top.
--   Use absolute names when you import modules.
--   When you need do relative import, use explicit method `from . import foo`
--   Follow ordering of module import: stdlib, thrid-party, own.
--   Use linters linke pylint, black, etc...
-
+- Place imports at top.
+- Use absolute names when you import modules.
+- When you need do relative import, use explicit method `from . import foo`
+- Follow ordering of module import: stdlib, thrid-party, own.
+- Use linters linke pylint, black, etc...
 
 #### Things to remember {#things-to-remember}
 
--   Follow the PEP style guide.
--   Following common style facilitates collaboration with others.
--   Consistent code style make it easier to modify later (include automation?).
-
+- Follow the PEP style guide.
+- Following common style facilitates collaboration with others.
+- Consistent code style make it easier to modify later (include automation?).
 
 ### Item 3: Know the Differences Between bytes and str {#item-3-know-the-differences-between-bytes-and-str}
-
 
 #### Sequence data {#sequence-data}
 
 In python there are 2 types that represent sequences of characters
 bytes and str
 
--   byte - RAW unsigned 8 bit value `b'h\x65llo'`
+- byte - RAW unsigned 8 bit value `b'h\x65llo'`
 
 <!--listend-->
 
@@ -143,7 +132,6 @@ Python's syntax makes it easy to write single line epxressions that are overly c
 
 Move complex expressions into helpere functions expeciialy if you need to use the same logic repeately
 
-
 # Cover /1
 
 # Half Title /4
@@ -164,7 +152,7 @@ Move complex expressions into helpere functions expeciialy if you need to use th
 
 # Chapter 1 Pythonic Thinking /26
 
-## Item 1: Know Which Version of Python You’re Using /26
+## Item 1: Know Which Version of Python You're Using /26
 
 ## Item 2: Follow the PEP 8 Style Guide /27
 

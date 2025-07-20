@@ -6,9 +6,9 @@ tags:
   - computer_programming
   - annotation_book
 lang: ru
-sr-due: 2025-08-31
-sr-interval: 52
-sr-ease: 170
+sr-due: 2025-07-19
+sr-interval: 1
+sr-ease: 130
 file: ./books/Petzold-Code.pdf
 ---
 

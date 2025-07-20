@@ -8,8 +8,8 @@ tags:
   - annotation_book
 author: Math is Fun Team
 directory: ~/Science/math/Math_is_Fun_Team-Math_is_Fun/
-sr-due: 2025-07-18
-sr-interval: 2
+sr-due: 2025-07-21
+sr-interval: 3
 sr-ease: 169
 ---
 

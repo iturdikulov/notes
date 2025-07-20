@@ -7,8 +7,6 @@ tags:
   - blog
   - mathematics
   - annotation_book
-sr-interval: 7
-sr-ease: 170
 created: 2025-01-14T11:41+03:00
 sr-due: 2025-08-16
 sr-interval: 31

@@ -7,9 +7,9 @@ tags:
 external:
   - https://www.feldroy.com/books/two-scoops-of-django-3-x
 directory: ~/Computer/web/Greenfelds-Two_Scoops_of_Django_3.x
-sr-due: 2025-07-29
-sr-interval: 16
-sr-ease: 210
+sr-due: 2025-07-19
+sr-interval: 1
+sr-ease: 130
 ---
 
 # Two Scoops of Django 3.x

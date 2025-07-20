@@ -1,21 +1,19 @@
 ---
+date: 2025-07-20T12:41:03+03:00
+created: 2025-01-14T11:41:00+03:00
 author:
   - Scott Chacon; Ben Straub
-created: 2025-01-14T11:41+03:00
 external:
   - https://git-scm.com/book/en/v2
+directory:
+  - ~/Computer/software/Chacon_and_Ben-Pro_Git
 tags:
   - blog
   - VCS
   - annotation_book
-sr-due: 2025-05-27
-sr-interval: 488
-sr-ease: 230
-directory:
-  - ~/Computer/software/Chacon_and_Ben-Pro_Git
-sr-due: 2030-04-04
-sr-interval: 1729
-sr-ease: 250
+sr-due: 2025-07-21
+sr-interval: 1
+sr-ease: 130
 ---
 
 # Pro Git

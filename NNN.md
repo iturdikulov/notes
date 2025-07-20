@@ -5,9 +5,9 @@ tags:
   - cheat-sheets
 external:
   - https://github.com/jarun/nnn
-sr-due: 2025-07-22
-sr-interval: 6
-sr-ease: 249
+sr-due: 2025-07-19
+sr-interval: 2
+sr-ease: 150
 ---
 
 # NNN file manager

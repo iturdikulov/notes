@@ -2,9 +2,9 @@
 created: 2023-03-12T00:00+03:00
 tags:
   - blog
-sr-due: 2025-07-18
-sr-interval: 4
-sr-ease: 170
+sr-due: 2025-07-20
+sr-interval: 2
+sr-ease: 150
 ---
 
 # My projects

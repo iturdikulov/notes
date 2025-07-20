@@ -9,9 +9,9 @@ author:
 external:
   - https://www.interviewcake.com/table-of-contents
 file: ./books/InterviewCake_Team-Coding_interview_practice.pdf
-sr-due: 2025-07-22
-sr-interval: 4
-sr-ease: 223
+sr-due: 2025-07-19
+sr-interval: 1
+sr-ease: 130
 created: 2025-01-14T11:41+03:00
 ---
 

@@ -1,14 +1,14 @@
 ---
-created: 2022-12-29T00:00+03:00
+date: 2025-07-20T12:42:18+03:00
+created: 2022-12-29T00:00:00+03:00
+external:
+  - https://github.com/hyprwm/Hyprland
 tags:
   - blog
   - cheat-sheets
-external:
-  - https://github.com/hyprwm/Hyprland
-sr-due: 2023-01-28
-sr-due: 2025-07-20
-sr-interval: 10
-sr-ease: 252
+sr-due: 2025-11-15
+sr-interval: 118
+sr-ease: 272
 ---
 
 # Hyprland

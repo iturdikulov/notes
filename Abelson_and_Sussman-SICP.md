@@ -8,9 +8,9 @@ author: Harold Abelson; Gerald Jay Sussman
 external:
   - http://mitpress.mit.edu/9780262510875/structure-and-interpretation-of-computer-programs/
 file: ./books/Abelson_and_Sussman-SICP.pdf
-sr-due: 2026-02-08
-sr-interval: 213
-sr-ease: 243
+sr-due: 2025-07-19
+sr-interval: 1
+sr-ease: 130
 ---
 
 # Structure and Interpretation of Computer Programs

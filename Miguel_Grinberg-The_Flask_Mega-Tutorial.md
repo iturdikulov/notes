@@ -7,8 +7,8 @@ tags:
   - blog
   - Python
   - annotation_book
-sr-due: 2025-07-18
-sr-interval: 2
+sr-due: 2025-07-22
+sr-interval: 4
 sr-ease: 190
 ---
 

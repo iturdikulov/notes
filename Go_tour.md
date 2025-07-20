@@ -6,7 +6,7 @@ tags:
 author: Google
 external:
   - https://go.dev/tour/
-sr-due: 2025-07-17
+sr-due: 2025-07-18
 sr-interval: 1
 sr-ease: 130
 ---
