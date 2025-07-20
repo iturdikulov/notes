@@ -6,13 +6,6 @@ body {
   --file-line-width: 960px;
 }
 
-/* Font size for tablet/desktop */
-@media (min-width: 768px) {
-  body {
-    --font-text-size: 24px !important;
-  }
-}
-
 /* Custom flashcard separator */
 br.f{
     display: block;
@@ -23,6 +16,13 @@ br.f{
     margin: 0.2rem 0;
     padding: 0;
 }
+
+@media (min-width: 768px) {
+  body {
+    --font-text-size: 24px !important;
+  }
+}
+
 
 .cm-line br.f{
   margin: -1rem 0;
