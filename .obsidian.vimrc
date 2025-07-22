@@ -9,6 +9,10 @@
 " (Ctrl+Shift+I) the list of commands that are currently defined by the app.
 " The simple syntax :obcommand [commandName] will execute the named command.
 "
+
+" Colemak DH ANSI langmap
+set langmap=увсьгнтйфяцычкамепирошлбщдюзж.хэъ;fsdhljkqaxwrcptvbgzmnue\,yi.\;o/[']
+
 unmap <Space>
 
 exmap openGraph obcommand graph:open
