@@ -3,8 +3,8 @@ created: 2023-03-21T00:00+03:00
 tags:
   - blog
   - computer_science
-sr-due: 2025-07-19
-sr-interval: 3
+sr-due: 2025-07-27
+sr-interval: 6
 sr-ease: 150
 ---
 
@@ -20,6 +20,8 @@ sr-ease: 150
 > group of computers that are linked and function together, such as a
 > [[computer_network]] or computer cluster.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Computer)</cite>
+
+A computer is essentially a universal device for processing information.
 
 - TODO: Find computer enhance course by Muratori
 
