@@ -9,19 +9,13 @@ sr-ease: 250
 
 # Self-hosting (web services)
 
-> The practice of running and maintaining a website or service using a private
-> [[web_server]], instead of using a service outside of someone's own control.
-> Self-hosting allows users to have more control over their data, privacy, and
-> computing infrastructure, as well as potentially saving costs and improving
-> skills.
+> The practice of running and maintaining a website or service using a private [[web_server]], instead of using a service outside of someone's own control. Self-hosting allows users to have more control over their data, privacy, and computing infrastructure, as well as potentially saving costs and improving skills.
 >
-> [Wikipedia](https://en.wikipedia.org/wiki/Self-hosting_\(web_services\))
+> [Wikipedia](https://en.wikipedia.org/wiki/Self-hosting_(web_services))
 
-For me self-hosting is way to easily share data between devices, and to have
-full control over my data with minimal latency, and maximal speed.
+For me self-hosting is way to easily share data between devices, and to have full control over my data with minimal latency, and maximal speed.
 
-TODO: review this services and maybe add some of them to my self-hosting:
-[envs.net | environments](https://envs.net/)
+TODO: review this services and maybe add some of them to my self-hosting: [envs.net | environments](https://envs.net/)
 
 ## External links
 

@@ -10,14 +10,12 @@ sr-ease: 274
 
 # suckless.org
 
-> Home of dwm, dmenu and other quality software with a focus on simplicity,
-> clarity, and frugality.\
+> Home of dwm, dmenu and other quality software with a focus on simplicity, clarity, and frugality.\
 > — <cite>[suckless.org](https://suckless.org/)</cite>
 
 ## xst
 
-> xst is a [st](https://st.suckless.org/) fork with some patches applied and
-> other goodies.\
+> xst is a [st](https://st.suckless.org/) fork with some patches applied and other goodies.\
 > — <cite>[xst](https://github.com/gnotclub/xst)</cite>
 
 xst is my main program, I usually have [[tmux]] sessions in it.

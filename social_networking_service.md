@@ -9,9 +9,7 @@ sr-ease: 130
 
 # Social networking service (SNS)
 
-> Online platform which people use to build social networks or social
-> relationships with other people who share similar personal or career content,
-> interests, activities, backgrounds or real-life [[contacts]].\
+> Online platform which people use to build social networks or social relationships with other people who share similar personal or career content, interests, activities, backgrounds or real-life [[contacts]].\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Social_networking_service)</cite>
 
 ## External links

@@ -9,8 +9,7 @@ sr-ease: 272
 
 # Soldering
 
-Soldering joins metals together by melting a metal filler (solder) between them,
-which hardens to create a strong connection.
+Soldering joins metals together by melting a metal filler (solder) between them, which hardens to create a strong connection.
 
 For [[digital_electronics]] usually used SN60/PB40 solder.
 

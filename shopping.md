@@ -10,18 +10,12 @@ sr-ease: 250
 
 # Shopping
 
-> Shopping is an activity in which a customer browses the available goods or
-> services presented by one or more retailers with the potential intent to
-> purchase a suitable selection of them. A typology of shopper types has been
-> developed by scholars which identifies one group of shoppers as recreational
-> shoppers, that is, those who enjoy shopping and view it as a leisure
-> activity.\
+> Shopping is an activity in which a customer browses the available goods or services presented by one or more retailers with the potential intent to purchase a suitable selection of them. A typology of shopper types has been developed by scholars which identifies one group of shoppers as recreational shoppers, that is, those who enjoy shopping and view it as a leisure activity.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Shopping)</cite>
 
 I rarely go shopping. I prefer to buy things online.
 
-I usually have special list note, where I store things I want to buy or what
-required to buy (food, clothes, etc.).
+I usually have special list note, where I store things I want to buy or what required to buy (food, clothes, etc.).
 
 ## Online shopping sites
 

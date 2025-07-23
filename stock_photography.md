@@ -9,13 +9,7 @@ sr-ease: 250
 
 # Stock photography
 
-> Supply of photographs which are often licensed for specific uses. The stock
-> industry, which began to gain hold in the 1920s, has established models
-> including traditional macrostock [[photography]], midstock photography, and
-> microstock photography. Professional stock photographers traditionally place
-> their images with one or more stock agencies on a contractual basis, while
-> stock agencies may accept the high-quality photos of amateur photographers
-> through online submission.\
+> Supply of photographs which are often licensed for specific uses. The stock industry, which began to gain hold in the 1920s, has established models including traditional macrostock [[photography]], midstock photography, and microstock photography. Professional stock photographers traditionally place their images with one or more stock agencies on a contractual basis, while stock agencies may accept the high-quality photos of amateur photographers through online submission.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Stock_photography)</cite>
 
 ## External links

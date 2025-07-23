@@ -10,9 +10,7 @@ sr-ease: 220
 
 # Software engineering
 
-> Software engineering is an **engineering approach** to software
-> development. A practitioner, called a software engineer, applies the
-> engineering design process to develop software.
+> Software engineering is an **engineering approach** to software development. A practitioner, called a software engineer, applies the engineering design process to develop software.
 
 Is programmer and coder are same person as software engineer?
 <br class="f">

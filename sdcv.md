@@ -12,8 +12,7 @@ sr-ease: 329
 
 # sdcv
 
-> sdcv is a simple, cross-platform, text-based utility for working with
-> dictionaries in StarDict format.\
+> sdcv is a simple, cross-platform, text-based utility for working with dictionaries in StarDict format.\
 > — <cite>[sdcv](https://github.com/Dushistov/sdcv)</cite>
 
 ## Ordering dictionaries
@@ -27,8 +26,7 @@ oxford    43808
 Merriam-Webster's Collegiate    119769
 ```
 
-you take the first column of output, in other words Dictionary's name,
-and put it to ~/.sdcv_ordering line by line:
+you take the first column of output, in other words Dictionary's name, and put it to ~/.sdcv_ordering line by line:
 
 ```sh
 # optimal dictionary ordering: Apersyan, Lingvo Universal, Motitsky, Babylon,
@@ -39,9 +37,7 @@ oxford
 $
 ```
 
-that's all, at the next run of sdcv, for example sdcv man you get at first
-translation from Merriam-Webster's Collegiate and after that from oxford
-dictionary and after that all other translations.
+that's all, at the next run of sdcv, for example sdcv man you get at first translation from Merriam-Webster's Collegiate and after that from oxford dictionary and after that all other translations.
 
 ## External links
 
