@@ -10,7 +10,7 @@ tags:
   - computer_science
   - annotation_book
 directory: ~/Computer/science/Wengrow-Data_structures_and_algorithms/
-sr-due: 2025-07-19
+sr-due: 2025-07-22
 sr-interval: 1
 sr-ease: 130
 ---
@@ -458,7 +458,7 @@ occur for a given number of data elements across various types of Big O:
 If we have a $\mathcal{O}(N^2)$, algorithm that processes an array and find
 that it takes 256 steps, what is the size of the array?
 <br class="f">
-$\sqrt{256} = 16$ <!--SR:!2024-09-24,10,166-->
+$\sqrt{256} = 16$ <!--SR:!2025-08-08,17,166-->
 
 Use Big O Notation to describe the time complexity of the following function. It
 finds the greatest product of any pair of two numbers within a given array:
@@ -479,7 +479,7 @@ print(greatestProduct([10, 2, 3, 4, 5, 6, 7, 8, 9, 10]))
 The algorithm has a time complexity of $\mathcal{O}(N^2)$, in this case, $N$ is the
 size of the array. We have an outer loop that iterates over the array $N$ times,
 and for each of those times, an inner loop iterates over the same array $N$
-times. This results in $N^2$ steps. <!--SR:!2024-09-18,8,172-->
+times. This results in $N^2$ steps. <!--SR:!2025-07-26,4,152-->
 
 The following function finds the greatest single number within an array, but has
 an efficiency of $O(N^2)$. Rewrite the function so that it becomes a speedy
