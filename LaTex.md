@@ -12,7 +12,7 @@ sr-ease: 273
 
 - [TeX Live packages](https://tug.org/texlive/) (typesetting system, TeX is a
   popular means of typesetting complex mathematical formulae)
-  - ==texlive-core== - essential package, based on the medium upstream install
+  - texlive-core - essential package, based on the medium upstream install
     scheme
   - texlive-latexextra - contains many useful packages, such as polyglossia,
     amsmath and graphicx.
