@@ -5,7 +5,7 @@ tags:
   - annotation_book
 author: Яков Перельман
 file: ./books/Perelman-Zanimatelnaya_matematika.pdf
-sr-due: 2025-07-19
+sr-due: 2025-07-22
 sr-interval: 1
 sr-ease: 130
 ---

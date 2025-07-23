@@ -2,9 +2,9 @@
 created: 2025-02-14T08:06+03:00
 tags:
   - blog
-sr-due: 2025-07-20
-sr-interval: 2
-sr-ease: 185
+sr-due: 2025-07-22
+sr-interval: 1
+sr-ease: 165
 ---
 
 # Web development

@@ -6,9 +6,9 @@ tags:
 external:
   - https://12factor.net/
 file: ./articles/12factor_-_12factor.epub
-sr-due: 2025-07-21
-sr-interval: 7
-sr-ease: 237
+sr-due: 2025-07-25
+sr-interval: 4
+sr-ease: 217
 ---
 
 # The Twelve-Factor App

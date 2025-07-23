@@ -79,7 +79,7 @@ science.
 
 Here is list of my current active source of learning materials:
 
-- [[informatika]]
+- [[informatika.ru]]
 - [[Wengrow-Data_structures_and_algorithms]]
 - [[LeetCode]] - research and solve problems.
 - Jay Vs. Leetcode

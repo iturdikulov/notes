@@ -2,14 +2,14 @@
 created: 2025-02-13T23:18+03:00
 tags:
   - blog
-sr-due: 2025-07-19
+sr-due: 2025-07-22
 sr-interval: 1
-sr-ease: 141
+sr-ease: 130
 ---
 
 # Programming foundations
 
-- [ ] [[informatika]]
+- [ ] [[informatika.ru]]
 - [[computer_science]]
 - [[computer_hardware]]
 - [[programming_language]]

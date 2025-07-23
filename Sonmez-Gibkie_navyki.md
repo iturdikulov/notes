@@ -6,9 +6,9 @@ tags:
 author: John Sonmez
 file: ./books/Gibkiie_navyki_-_John_Sonmez.fb2
 lang: ru
-sr-due: 2025-07-18
-sr-interval: 1
-sr-ease: 134
+sr-due: 2025-07-31
+sr-interval: 9
+sr-ease: 154
 ---
 
 # Гибкие навыки

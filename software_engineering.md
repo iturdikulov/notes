@@ -3,9 +3,9 @@ created: 2024-11-02T23:50+03:00
 tags:
   - blog
   - computer_programming
-sr-due: 2025-07-20
-sr-interval: 7
-sr-ease: 240
+sr-due: 2025-07-25
+sr-interval: 4
+sr-ease: 220
 ---
 
 # Software engineering

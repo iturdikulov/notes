@@ -6,7 +6,7 @@ tags:
   - computer_programming_web
   - annotation_book
 file: ./books/Flanagan-JavaScript.pdf
-sr-due: 2025-07-19
+sr-due: 2025-07-22
 sr-interval: 1
 sr-ease: 130
 ---

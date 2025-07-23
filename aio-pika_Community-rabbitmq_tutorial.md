@@ -5,9 +5,9 @@ tags:
   - Python
   - annotation_book
 directory: ~/Computer/software/rabbitmq
-sr-due: 2025-07-21
-sr-interval: 7
-sr-ease: 238
+sr-due: 2025-07-25
+sr-interval: 4
+sr-ease: 218
 ---
 
 # Rabbitmq tutorial (adopted for aio-pika)

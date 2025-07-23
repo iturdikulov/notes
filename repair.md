@@ -2,9 +2,9 @@
 created: 2024-11-10T10:10+03:00
 tags:
   - blog
-sr-due: 2025-07-21
-sr-interval: 7
-sr-ease: 242
+sr-due: 2025-07-25
+sr-interval: 4
+sr-ease: 222
 ---
 
 # Repair

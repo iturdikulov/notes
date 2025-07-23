@@ -3,9 +3,9 @@ created: 2023-04-14T00:00+03:00
 tags:
   - blog
   - computer_science
-sr-due: 2025-07-20
-sr-interval: 7
-sr-ease: 231
+sr-due: 2025-07-25
+sr-interval: 4
+sr-ease: 211
 ---
 
 # Set (abstract data type)

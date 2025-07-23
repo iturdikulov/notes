@@ -2,9 +2,9 @@
 created: 2025-02-14T08:33+03:00
 tags:
   - blog
-sr-due: 2025-07-21
-sr-interval: 3
-sr-ease: 194
+sr-due: 2025-07-23
+sr-interval: 2
+sr-ease: 174
 ---
 
 # Game development

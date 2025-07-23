@@ -5,9 +5,9 @@ author: Richard Phillips Feynman
 tags:
   - blog
   - research
-sr-due: 2025-07-19
-sr-interval: 3
-sr-ease: 242
+sr-due: 2025-07-23
+sr-interval: 2
+sr-ease: 222
 ---
 
 # The Feynman Technique: Master the Art of Learning

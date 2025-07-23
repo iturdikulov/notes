@@ -2,9 +2,9 @@
 date: 2025-07-18 09:44
 tags:
   - blog
-sr-due: 2025-07-20
-sr-interval: 2
-sr-ease: 246
+sr-due: 2025-07-22
+sr-interval: 1
+sr-ease: 226
 ---
 
 # Blender keyboard shortcuts

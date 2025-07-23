@@ -4,9 +4,9 @@ created: 2025-07-11T09:38:22+03:00
 tags:
   - blog
   - computer_science
-sr-due: 2025-07-20
-sr-interval: 2
-sr-ease: 213
+sr-due: 2025-07-22
+sr-interval: 1
+sr-ease: 193
 ---
 
 # Data type

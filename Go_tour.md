@@ -6,9 +6,9 @@ tags:
 author: Google
 external:
   - https://go.dev/tour/
-sr-due: 2025-07-18
-sr-interval: 1
-sr-ease: 130
+sr-due: 2025-07-31
+sr-interval: 9
+sr-ease: 150
 ---
 
 # A Tour of Go

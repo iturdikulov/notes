@@ -3,9 +3,9 @@ created: 2025-02-06T11:36+03:00
 tags:
   - blog
   - computer_programming
-sr-due: 2025-07-20
-sr-interval: 4
-sr-ease: 150
+sr-due: 2025-07-23
+sr-interval: 2
+sr-ease: 130
 ---
 
 # Programming language

@@ -8,9 +8,9 @@ file: ./books/Nravstviennyie_pis_ma_k_Lutsiliiu-Lucius_Annaeus_Seneca.m4b
 tags:
   - blog
   - annotation_book
-sr-due: 2025-07-20
-sr-interval: 2
-sr-ease: 170
+sr-due: 2025-07-22
+sr-interval: 1
+sr-ease: 150
 ---
 
 # Нравственные письма к Луцилию

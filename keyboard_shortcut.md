@@ -3,9 +3,9 @@ created: 2023-02-21T00:00+03:00
 tags:
   - blog
   - cheat-sheets
-sr-due: 2025-07-21
-sr-interval: 3
-sr-ease: 150
+sr-due: 2025-07-23
+sr-interval: 2
+sr-ease: 130
 ---
 
 # Keyboard shortcut

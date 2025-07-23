@@ -5,9 +5,9 @@ tags:
   - cheat-sheets
 external:
   - https://git-scm.com/
-sr-due: 2025-07-21
-sr-interval: 3
-sr-ease: 150
+sr-due: 2025-07-23
+sr-interval: 2
+sr-ease: 130
 ---
 
 # Git Version Control System

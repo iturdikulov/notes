@@ -4,9 +4,9 @@ tags:
   - blog
   - computer_science
   - computer_programming
-sr-due: 2025-07-21
-sr-interval: 7
-sr-ease: 239
+sr-due: 2025-07-25
+sr-interval: 4
+sr-ease: 219
 ---
 
 # How to optimize code

@@ -5,9 +5,9 @@ tags:
   - blog
   - annotation_article
 created: 2025-01-14T11:41+03:00
-sr-due: 2025-07-19
-sr-interval: 9
-sr-ease: 258
+sr-due: 2025-07-26
+sr-interval: 5
+sr-ease: 238
 ---
 
 # 8. Errors and Exceptions

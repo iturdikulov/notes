@@ -4,9 +4,9 @@ tags:
   - blog
 external:
   - https://github.com/clearloop/leetcode-cli
-sr-due: 2025-07-19
+sr-due: 2025-07-22
 sr-interval: 1
-sr-ease: 166
+sr-ease: 146
 ---
 
 # `leetcode-cli`

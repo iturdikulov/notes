@@ -6,8 +6,8 @@ external:
 tags:
   - blog
   - cheat-sheets
-sr-due: 2025-07-21
-sr-interval: 2
+sr-due: 2025-07-22
+sr-interval: 1
 sr-ease: 130
 ---
 

@@ -3,9 +3,9 @@ created: 2024-10-30T00:00+03:00
 tags:
   - blog
   - computer_science
-sr-due: 2025-07-21
-sr-interval: 3
-sr-ease: 170
+sr-due: 2025-07-23
+sr-interval: 2
+sr-ease: 150
 ---
 
 # Dijkstra's algorithm

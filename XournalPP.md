@@ -2,9 +2,9 @@
 created: 2024-11-07T09:56+03:00
 tags:
   - blog
-sr-due: 2025-07-21
-sr-interval: 11
-sr-ease: 270
+sr-due: 2025-07-27
+sr-interval: 6
+sr-ease: 250
 ---
 
 # Xournal++

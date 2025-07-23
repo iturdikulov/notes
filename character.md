@@ -3,9 +3,9 @@ created: 2025-02-19T22:26+03:00
 tags:
   - blog
   - computer_programming_science
-sr-due: 2025-07-20
-sr-interval: 7
-sr-ease: 231
+sr-due: 2025-07-25
+sr-interval: 4
+sr-ease: 211
 ---
 
 # Character (computing)

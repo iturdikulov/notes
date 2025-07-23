@@ -3,8 +3,8 @@ created: 2025-02-13T22:09+03:00
 tags:
   - blog
   - outline
-sr-due: 2025-07-19
-sr-interval: 1
+sr-due: 2025-07-24
+sr-interval: 3
 sr-ease: 130
 ---
 

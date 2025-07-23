@@ -6,7 +6,7 @@ tags:
   - Python
   - annotation_book
 file: ./books/Ramalho-Fluent_Python.pdf
-sr-due: 2025-07-19
+sr-due: 2025-07-22
 sr-interval: 1
 sr-ease: 130
 ---

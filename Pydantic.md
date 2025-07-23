@@ -3,9 +3,9 @@ created: 2024-11-13T21:24+03:00
 tags:
   - blog
 external: https://docs.pydantic.dev/latest/
-sr-due: 2025-07-20
-sr-interval: 7
-sr-ease: 220
+sr-due: 2025-07-25
+sr-interval: 4
+sr-ease: 200
 ---
 
 # Pydantic library

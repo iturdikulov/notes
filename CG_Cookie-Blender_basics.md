@@ -8,7 +8,7 @@ created: 2023-12-12T00:00+03:00
 external:
   - https://cgcookie.com/courses/blender-basics-an-introduction-to-blender-4-x
 directory: ~/Computer/graphics/CG_Cookie-Blender_Basics
-sr-due: 2025-07-19
+sr-due: 2025-07-22
 sr-interval: 1
 sr-ease: 130
 ---

@@ -2,9 +2,9 @@
 created: 2023-03-21T00:00+03:00
 tags:
   - blog
-sr-due: 2025-07-19
-sr-interval: 6
-sr-ease: 207
+sr-due: 2025-07-24
+sr-interval: 3
+sr-ease: 187
 ---
 
 # Compiler

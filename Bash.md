@@ -4,8 +4,8 @@ tags:
   - blog
 external:
   - https://www.gnu.org/software/bash/
-sr-due: 2025-07-19
-sr-interval: 1
+sr-due: 2025-07-24
+sr-interval: 3
 sr-ease: 130
 ---
 

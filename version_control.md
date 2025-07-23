@@ -3,9 +3,9 @@ date: 2025-07-13T20:19:41+03:00
 created: 2023-06-02T00:00:00+03:00
 tags:
   - blog
-sr-due: 2025-07-19
-sr-interval: 6
-sr-ease: 199
+sr-due: 2025-07-24
+sr-interval: 3
+sr-ease: 179
 ---
 
 # Version control
