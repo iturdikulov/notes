@@ -14,5 +14,4 @@ sr-ease: 220
 
 Is programmer and coder are same person as software engineer?
 <br class="f">
-The term [[programmer]] and coder overlap software engineer, but they imply
-only the **construction** aspect of typical software engineer workload.
+The term [[programmer]] and coder overlap software engineer, but they imply only the **construction** aspect of typical software engineer workload.

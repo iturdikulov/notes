@@ -2,6 +2,7 @@
 created: 2025-01-22T21:40+03:00
 tags:
   - blog
+  - now
   - computer_programming_profession
   - annotation_article
 file: ./articles/Ershov_-_programmirovanie_vtoraya_gramotnost.pdf

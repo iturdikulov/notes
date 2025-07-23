@@ -12,8 +12,8 @@ sr-ease: 225
 
 What is a string?
 <br class="f">
-String is mutable or immutable sequence of [[character|characters]]. String can
-be assigned to variable or constant.
+String is mutable or immutable sequence of [[character|characters]]. String can be assigned to variable or constant.
+
 ```
 ┌─────────────┐
 │E|X|A|M|P|L|E│
@@ -24,21 +24,17 @@ character
 
 Strings have static or dynamic length?
 <br class="f">
-Both, depending on programming language. Strings can have fixed length
-(staticaly allocated) or variable length (dynamically allocated).
+Both, depending on programming language. Strings can have fixed length (statically allocated) or variable length (dynamically allocated).
 
 Main purpose of strings?
 <br class="f">
-Store human-readable text, like words and sentences, which are used to
-communicate information (exchange) from a [[computer_program]] to the user of
-the program.
+Store human-readable text, like words and sentences, which are used to communicate information (exchange) from a [[computer_program]] to the user of the program.
 
 ## String datatype
 
 ## Strngs (Unix)
 
-[[Unix]] program that finds and prints the strings of printable characters in
-files.
+[[Unix]] program that finds and prints the strings of printable characters in files.
 
 ```sh
 # Print all strings in a binary and limit results to strings at least 10

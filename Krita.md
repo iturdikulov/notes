@@ -5,6 +5,7 @@ external:
   - https://krita.org/en/
 tags:
   - blog
+  - now
   - cheat-sheets
 sr-due: 2025-07-22
 sr-interval: 1

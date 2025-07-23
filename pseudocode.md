@@ -3,6 +3,7 @@ date: 2025-07-21T09:59:49+03:00
 created: 2023-03-21T00:00:00+03:00
 tags:
   - blog
+  - now
   - computer_programming
 sr-due: 2025-07-26
 sr-interval: 4

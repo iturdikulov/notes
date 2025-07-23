@@ -10,18 +10,13 @@ sr-ease: 204
 
 # Selection sort
 
-> In [[computer_science]], selection sort is an in-place comparison sorting
-> algorithm. It has an ==$O(N^2)$== time complexity, which makes it inefficient
-> on large lists, and generally performs worse than the similar insertion sort.
-> Selection sort is noted for its simplicity and has performance advantages over
-> more complicated algorithms in certain situations, particularly where
-> auxiliary memory is limited.\
+> In [[computer_science]], selection sort is an in-place comparison sorting algorithm. It has an ==$O(N^2)$== time complexity, which makes it inefficient on large lists, and generally performs worse than the similar insertion sort. Selection sort is noted for its simplicity and has performance advantages over more complicated algorithms in certain situations, particularly where auxiliary memory is limited.\
 > — <cite>[Selection sort - Wikipedia](https://en.wikipedia.org/wiki/Selection_sort)</cite> <!--SR:!2024-09-10,8,250-->
 
 ## Selection sort in action
 
-We compare each value with the lowest number we’ve encountered in each
-pass-through, and we swap the ==lowest number== into its correct position.
+We compare each value with the lowest number we’ve encountered in each pass-through, and we swap the ==lowest number== into its correct position.
+
 ```text
 4.2.7.1.3
 ...        -> find lowest value 1 at first pass-through
@@ -36,12 +31,9 @@ pass-through, and we swap the ==lowest number== into its correct position.
 ```
 <!--SR:!2024-09-10,8,250-->
 
-For N elements, we make ==$(N - 1) + (N - 2) + (N - 3) … + 1$== comparisons with
-selection sort. <!--SR:!2024-09-06,2,210-->
+For N elements, we make ==$(N - 1) + (N - 2) + (N - 3) … + 1$== comparisons with selection sort. <!--SR:!2024-09-06,2,210-->
 
-Selection Sort takes about ==half== the number of steps
-[[bubble_sort_algorithm|Bubble Sort]] does, indicating that selection sort is
-much faster than bubble sort. <!--SR:!2024-09-11,9,250-->
+Selection Sort takes about ==half== the number of steps [[bubble_sort_algorithm|Bubble Sort]] does, indicating that selection sort is much faster than bubble sort. <!--SR:!2024-09-11,9,250-->
 
 ## Code implementation: Selection sort
 

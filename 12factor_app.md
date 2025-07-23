@@ -2,6 +2,7 @@
 created: 2024-12-02T15:37+03:00
 tags:
   - blog
+  - now
   - computer_programming_patterns
 external:
   - https://12factor.net/
