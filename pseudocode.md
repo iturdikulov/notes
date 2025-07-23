@@ -1,25 +1,30 @@
 ---
-created: 2023-03-21T00:00+03:00
+date: 2025-07-21T09:59:49+03:00
+created: 2023-03-21T00:00:00+03:00
 tags:
   - blog
-sr-due: 2025-07-18
-sr-interval: 1
+  - computer_programming
+sr-due: 2025-07-26
+sr-interval: 4
 sr-ease: 130
 ---
 
 # Pseudocode
 
-This note is based on great "Pseudocode Standard" [^1] article.
+What is pseudocode and what's its main purpose?
+<br class="f">
+Pseudocode is kind of structured English (or any other language) for describing ==algorithms==. [^1] It used to focus on the logic of the algorithm without being distracted by details of language syntax. Good pseudocode describe the **entire logic of the algorithm** and it's implementation became mechanical task of translating line by line into source code.
 
-Kind of structured English for describing algorithms. Used to focus on the logic
-of the algorithm without being distracted by details of language syntax. Good
-pseudocode describe the entire logic of the algorithm and it's implementation
-became mechanical task of translating line by line into source code.
+Main Purpose of pseudocode?
+<br class="f">
+Pseudocode as a blueprint, you describe algorithm first in simplified version of actual [[code]]. This simplified form helps on :
+- Focus on what the program should do (the logic) without worrying about how to write it in specific programming languages.
+- Communicate ideas clearly with team members who may not know programming.
+- Plan solutions before diving into actual coding.
 
-Vocabulary used in pseudocode should be the vocabulary of the problem domain
-(not realisation). So someone who understand requirements (problem domain) can
-easily read it.
-
+What vocabulary should be used in pseudocode?
+<br class="f">
+Vocabulary used in pseudocode should be the vocabulary of the problem domain (not realization). Someone who understand requirements (problem domain) can easily read it, even if it's not good at [[computer_programming]].
 ```
 Extract the next word from the line (good)
 set word to get next token (poor)
@@ -31,28 +36,25 @@ FOR all the characters in the name (good)
 FOR character = first to last (ok)
 ```
 
-Avoid too vague expressions, logic should be decomposed to the level of single
-loop or decision.
+Avoid too vague expressions, logic should be decomposed to the level of single loop or decision.
 
-Style of pseudocode is free, but better to use some common convections, for
-example this "structured" part of pseudocode (notation of base constructs):
-SEQUENCE, WHILE, IF-THEN-ELSE, REPEAT-UNTIL, FOR, and CASE.
-
-- SEQUENCE is a linear progression where one task is performed sequentially
-  after another.
-- IF-THEN-ELSE is a decision (selection) in which a choice is made between two
-  alternative courses of action.
+Do you know some structured constructs in pseudocode (common words)?
+<br class="f">
+Style of pseudocode is free, but better to use some common convection's, for example this "structured" part of pseudocode (notation of base constructs): `SEQUENCE`, `WHILE`, `IF-THEN-ELSE`, `REPEAT-UNTIL`, `FOR`, and `CASE`.
+- SEQUENCE is a linear progression where one task is performed sequentially after another.
+- IF-THEN-ELSE is a decision (selection) in which a choice is made between two alternative courses of action.
 - WHILE is a loop (repetition) with a simple conditional test at its beginning.
-- CASE is a multiway branch (decision) based on the value of an expression. CASE
-  is a generalization of IF-THEN-ELSE.
+- CASE is a multi-way branch (decision) based on the value of an expression. CASE is a generalization of IF-THEN-ELSE.
 - REPEAT-UNTIL is a loop with a simple conditional test at the bottom.
 - FOR is a "counting" loop.
 
 ## SEQUENCE
 
-Sequential control is indicated by writing one action after another, each action
-on a line by itself, and all actions aligned with the same indent. The actions
-are performed in the sequence (top to bottom) that they are written.
+In sequence each step processed: <wbr class="f"> one after another in order.
+
+Analogy: Like following a morning routine - brush teeth, wash face, comb hair. 
+
+Sequential control is indicated by writing one action after another, each action on a line by itself, and all actions aligned with the same indent. The actions are performed in the sequence (top to bottom) that they are written.
 
 Example (non-computer)
 
@@ -71,8 +73,7 @@ READ width of rectangle
 COMPUTE area as height times width
 ```
 
-Several keywords are often used to indicate common input, output, and processing
-operations.
+Several keywords are often used to indicate common input, output, and processing operations.
 
 ```
 Input: READ, OBTAIN, GET
@@ -84,8 +85,7 @@ Add one: INCREMENT, BUMP
 
 ## IF-THEN-ELSE
 
-Binary choice on a given Boolean condition is indicated by the use of four
-keywords: IF, THEN, ELSE, and ENDIF. The general form is:
+Binary choice on a given Boolean condition is indicated by the use of four keywords: IF, THEN, ELSE, and ENDIF. The general form is:
 
 ```
 IF condition THEN
@@ -107,8 +107,7 @@ ENDIF
 
 ## WHILE
 
-The WHILE construct is used to specify a loop with a test at the top. The
-general form is:
+The WHILE construct is used to specify a loop with a test at the top. The general form is:
 
 ```
 WHILE condition
@@ -135,9 +134,7 @@ ENDWHILE
 
 ## CASE
 
-A CASE construct indicates a multiway branch based on conditions that are
-mutually exclusive. Four keywords, CASE, OF, OTHERS, and ENDCASE, and conditions
-are used to indicate the various alternatives. The general form is:
+A CASE construct indicates a multiway branch based on conditions that are mutually exclusive. Four keywords, CASE, OF, OTHERS, and ENDCASE, and conditions are used to indicate the various alternatives. The general form is:
 
 ```
 CASE expression OF
@@ -149,14 +146,11 @@ CASE expression OF
 ENDCASE
 ```
 
-Example CASE Title OF Mr : Print "Mister" Mrs : Print "Missus" Miss : Print
-"Miss" Ms : Print "Mizz" Dr : Print "Doctor" ENDCASE
+Example CASE Title OF Mr : Print "Mister" Mrs : Print "Missus" Miss : Print "Miss" Ms : Print "Mizz" Dr : Print "Doctor" ENDCASE
 
 ## REPEAT-UNTIL
 
-This loop is similar to the WHILE loop except that the test is performed at the
-bottom of the loop instead of at the top. Two keywords, REPEAT and UNTIL are
-used. The general form is:
+This loop is similar to the WHILE loop except that the test is performed at the bottom of the loop instead of at the top. Two keywords, REPEAT and UNTIL are used. The general form is:
 
 ```
 REPEAT
@@ -166,9 +160,7 @@ UNTIL condition # repeat if condition is True and stop if False
 
 ## FOR
 
-This loop is a specialized construct for iterating a specific number of times,
-often called a "counting" loop. Two keywords, FOR and ENDFOR are used. The
-general form is:
+This loop is a specialized construct for iterating a specific number of times, often called a "counting" loop. Two keywords, FOR and ENDFOR are used. The general form is:
 
 ```
 FOR iteration bounds # from x to y
@@ -176,8 +168,7 @@ FOR iteration bounds # from x to y
 ENDFOR
 ```
 
-In cases where the loop constraints can be obviously inferred it is best to
-describe the loop using problem domain vocabulary.
+In cases where the loop constraints can be obviously inferred it is best to describe the loop using problem domain vocabulary.
 
 Example
 
@@ -191,9 +182,7 @@ Example
 
 ## NESTED CONSTRUCTS
 
-The constructs can be embedded within each other, and this is made clear by use
-of indenting. Nested constructs should be clearly indented from their
-surrounding constructs.
+The constructs can be embedded within each other, and this is made clear by use of indenting. Nested constructs should be clearly indented from their surrounding constructs.
 
 Example
 
@@ -210,8 +199,7 @@ Example
     Print total
 ```
 
-In the above example, the IF construct is nested within the REPEAT construct,
-and therefore is indented.
+In the above example, the IF construct is nested within the REPEAT construct, and therefore is indented.
 
 ## INVOKING SUBPROCEDURES
 
@@ -283,8 +271,7 @@ FOR all the number at the back of the array
 Do it again for numbers before the decimal
 ```
 
-"Good Enough (not perfect)", mixed verbs: COMPUTE, SET, STORE, and SUBTRACT are
-used inconsistently, better to unify, for example `SET`.
+"Good Enough (not perfect)", mixed verbs: COMPUTE, SET, STORE, and SUBTRACT are used inconsistently, better to unify, for example `SET`.
 
 ```
 SET Carry to 0
@@ -308,8 +295,7 @@ IF Carry = 1 THEN
 END IF
 ```
 
-"Pretty Good" This example shows how pseudocode is written as comments in the
-source file. Note that the double slashes are indented.
+"Pretty Good" This example shows how pseudocode is written as comments in the source file. Note that the double slashes are indented.
 
 ```python
 def move_robot(robot: Robot):
@@ -322,8 +308,7 @@ def move_robot(robot: Robot):
     //END IF
 ```
 
-Source code statements are interleaved with pseudocode. Comments that correspond
-exactly to source code are removed during coding.
+Source code statements are interleaved with pseudocode. Comments that correspond exactly to source code are removed during coding.
 
 Example Python Implementation
 
