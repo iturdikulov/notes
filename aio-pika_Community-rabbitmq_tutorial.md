@@ -6,11 +6,12 @@ tags:
   - annotation_book
 directory: ~/Computer/software/rabbitmq
 sr-due: 2025-07-25
-sr-interval: 4
-sr-ease: 218
+sr-interval: 1
+sr-ease: 130
 ---
 
 # Rabbitmq tutorial (adopted for aio-pika)
 
 ![[img/RabbitMQ.excalidraw|Rabbitmq high-level overview diagram]]
+
 _Rabbitmq high-level overview_

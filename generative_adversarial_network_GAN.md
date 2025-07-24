@@ -11,7 +11,7 @@ sr-ease: 249
 
 > A generative adversarial network (GAN) is a class of machine learning
 > framework and a prominent framework for approaching generative
-> [[artificial_intelligence|AI]]. The concept was initially developed by Ian
+> [[AI]]. The concept was initially developed by Ian
 > Goodfellow and his colleagues in June
 > 2014. In a GAN, two neural networks contest with each other in the form of a
 > zero-sum game, where one agent's gain is another agent's loss.

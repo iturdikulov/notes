@@ -52,7 +52,5 @@ for x in array {
 }
 ```
 
-In Python used ==[[list]]== not arrays, and here no
-restrictions on the type of items stored in the array, and its size is not
-fixed.
+In Python used ==[[list]]== not arrays, and here no restrictions on the type of items stored in the array, and its size is not fixed.
 <!--SR:!2023-07-29,10,250-->

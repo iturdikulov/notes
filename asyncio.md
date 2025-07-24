@@ -1,4 +1,4 @@
-Linguistics, my primary focus is ---
+---
 created: 2023-08-27T00:00+03:00
 tags:
   - blog
@@ -10,10 +10,7 @@ sr-ease: 134
 
 # asyncio
 
-> Library to write concurrent code using the async/await syntax.
-> asyncio is often a perfect fit for IO-bound and high-level structured network
-> code.
-> [Python documentation](https://docs.python.org/3/library/asyncio.html)
+> Library to write concurrent code using the async/await syntax. asyncio is often a perfect fit for IO-bound and high-level structured network code. [Python documentation](https://docs.python.org/3/library/asyncio.html)
 
 ## Асинхронный python без головной боли [^1]
 
@@ -21,14 +18,11 @@ Series of articles.
 
 What is a coroutine in general, how it's modify function behavior?
 <br class="f">
-A coroutine gives the **interpreter** the ability to resume a base function that
-was suspended at the location where the await keyword was placed.
+A coroutine gives the **interpreter** the ability to resume a base function that was suspended at the location where the await keyword was placed.
 
 If function contains `await` keyword it can be called as a coroutine.
 <br class="f">
-Strictly speaking no, it's what function with await returning (coroutine
-object).
-`async def f` is asynchronous function, `f()` is coroutine object.
+Strictly speaking no, it's what function with await returning (coroutine object). `async def f` is asynchronous function, `f()` is coroutine object.
 
 Synchronous code:
 
@@ -54,8 +48,7 @@ main()
 print(time.strftime("%X"))
 ```
 
-Asynchronous code example, imagine that there is no async/await, then this code
-will be easier to read:
+Asynchronous code example, imagine that there is no async/await, then this code will be easier to read:
 
 ```python
 import asyncio
@@ -101,10 +94,7 @@ print(time.strftime("%X"))
 
 Asynchronous context managers:
 
-
-
-## [python - How does asyncio actually work? - Stack Overflow](https://stackoverflow.com/questions/49005651/how-does-asyncio-actually-work/51116910#51116910)
-
+- [ ] [python - How does asyncio actually work? - Stack Overflow](https://stackoverflow.com/questions/49005651/how-does-asyncio-actually-work/51116910#51116910)
 
 ## References
 

@@ -61,7 +61,7 @@ computer components and computer-operated equipment (Input, Output, CPU, RAM).
 
 Goal of Artificial intelligence?
 <br class="f">
-[[artificial_intelligence|Artificial intelligence]] and machine learning aim to
+[[AI|Artificial intelligence]] and machine learning aim to
 synthesize goal-orientated processes such as problem-solving, decision-making,
 environmental adaptation, planning and learning found in humans and animals.
 In other words replicate humans and animals processes/behavior.
