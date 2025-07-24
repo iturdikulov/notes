@@ -3,7 +3,7 @@ created: 2023-03-08T00:00+03:00
 tags:
   - blog
 directory: ~/Arts_and_Entertainment/visual_arts/30_days_draw_challenge/
-sr-due: 2025-07-29
+sr-due: 2025-04-21
 sr-interval: 12
 sr-ease: 248
 ---
@@ -17,9 +17,7 @@ For this challenge, I will use the following tools:
 - A4 paper
 - Fineliner Pens
 
-The drawing challenge is a fun and creative way to improve your drawing skills
-and explore different art styles and techniques. Here are the 30 prompts for the
-challenge:
+The drawing challenge is a fun and creative way to improve your drawing skills and explore different art styles and techniques. Here are the 30 prompts for the challenge:
 
 - [ ] Draw your favorite animal: cat
 - [ ] Draw your favorite food: manti
@@ -52,8 +50,7 @@ challenge:
 - [ ] Draw something from your imagination
 - [ ] Draw a self-portrait
 
-Remember to have fun and experiment with different styles and techniques as you
-complete the challenge!
+Remember to have fun and experiment with different styles and techniques as you complete the challenge!
 
 ## TODO
 

@@ -11,11 +11,7 @@ sr-ease: 190
 
 Construction of a 3D object from a CAD model or a digital 3D model.
 
-I have 3D printer which use fused filament fabrication 3D printing process.
-models. Fused filament fabrication (FFF), also known as fused deposition
-modeling (with the trademarked acronym FDM), or filament freeform fabrication,
-is a 3D printing process that uses a continuous filament of a thermoplastic
-material.
+I have 3D printer which use fused filament fabrication 3D printing process. models. Fused filament fabrication (FFF), also known as fused deposition modeling (with the trademarked acronym FDM), or filament freeform fabrication, is a 3D printing process that uses a continuous filament of a thermoplastic material.
 
 TODO:
 
@@ -23,8 +19,7 @@ TODO:
 - [ ] https://store.creality.com/blogs/all/k1c-maintenance-tips
 - [ ] https://www.reddit.com/r/Creality/comments/1gzc2ld/k1max_is_there_a_way_to_trigger_filament_retract/
 - [ ] [Creality K1: способы регулировки натяжения ремней - если у вас овальные круги, и неквадратные квадраты 😁](https://3dtoday.ru/blogs/10001c/creality-k1-moi-opyt-natyazenie-remnei-zamena-skivov-root-mainsail-normalnyi-input-shaping)
-- [ ] I think this is easy : FAN 0=Part Fan, FAN 1=Chamber Fan, Fan 2=Side Fan,
-      well at least on my K1 Max.
+- [ ] I think this is easy : FAN 0=Part Fan, FAN 1=Chamber Fan, Fan 2=Side Fan, well at least on my K1 Max.
 - [ ] [K1 0.2 nozzle](https://www.reddit.com/r/crealityk1/comments/1e3q6jl/working_on_a_02mm_profile_for_creality_print_51/?share_id=cKT74wd0cfEVrk3ZTJUSw&utm_medium=android_app&utm_name=androidcss&utm_source=share&utm_term=1)
 - [ ] https://3dtoday.ru/blogs/dimix200612/zamena-sopla-unicorn-na-volcano-v-creality-k1
 - [ ] https://www.printables.com/model/523382-creality-k1-belt-tension-meter
@@ -35,29 +30,25 @@ TODO:
 
 ## Printing from Zip Lock
 
-I can print from zip lock, to avoid plastic hydrate and printing quality
-degradation over time.
+I can print from zip lock, to avoid plastic hydrate and printing quality degradation over time.
 
 Here is schematic how I print from zip lock.
 
-![[./img/print_from_zip_lock.excalidraw|Shematic of print from zip lock]]
+![[./img/print_from_zip_lock.excalidraw|Shematic of print from zip lock]] 
+
 _Printing from a zip lock_
 
 ## Printing TPU
 
 Coil above bearings. Direct feed only, clogs with tube.
 
-tPU on k1c, fdplast 220C/50 head cooler 100% back cooler 100% side cooler 70%
-speed 40%
+tPU on k1c, fdplast 220C/50 head cooler 100% back cooler 100% side cooler 70% speed 40%
 
 ## Calibration
 
 ### Flow rate
 
-3D printer flow rate, or the extrusion multiplier, refers to the slicer setting
-that determines the amount of plastic to extrude. By default, the flow rate is
-set to 1.0 or 100% depending on the slicer. When you set the flow rate to 1.1 or
-110% you are increasing the flow rate by 10%.
+3D printer flow rate, or the extrusion multiplier, refers to the slicer setting that determines the amount of plastic to extrude. By default, the flow rate is set to 1.0 or 100% depending on the slicer. When you set the flow rate to 1.1 or 110% you are increasing the flow rate by 10%.
 
 Flow rate influences the quality of the print.
 
@@ -83,29 +74,17 @@ Specifications:
 
 General notes:
 
-Do not place the printer near any heat source or flammable or explosive objects.
-We suggest placing it in a well-ventilated, cool and dustless environment,
-stable environment without vibration.
+Do not place the printer near any heat source or flammable or explosive objects. We suggest placing it in a well-ventilated, cool and dustless environment, stable environment without vibration.
 
-Replacement of filaments of the same kind: follow the normal Retreat - Feed
-process.
+Replacement of filaments of the same kind: follow the normal Retreat - Feed process.
 
-Printing PLA/PTEG - remove top cover if room temperature exceed 30°C. Or use
-mod?
-https://www.printables.com/model/491477-creality-k1-vented-lid-riser/comments
+Printing PLA/PTEG - remove top cover if room temperature exceed 30°C. Or use mod? https://www.printables.com/model/491477-creality-k1-vented-lid-riser/comments
 
-Replacement of different filaments: Preheat the nozzle to reach the target
-temperature of the current filament; then retreat it, replace with the target
-filament, and preheat the nozzle to the higher filament extrude temperature of
-the two filaments; feed for 30s until the filament has been completely extruded,
-and finally set the nozzle temperature to the temperature of current filament
-nozzle.
+Replacement of different filaments: Preheat the nozzle to reach the target temperature of the current filament; then retreat it, replace with the target filament, and preheat the nozzle to the higher filament extrude temperature of the two filaments; feed for 30s until the filament has been completely extruded, and finally set the nozzle temperature to the temperature of current filament nozzle.
 
 ## Creality Helper Script
 
-Guide how I used
-[Creality-Helper-Script](https://github.com/Guilouz/Creality-Helper-Script) to
-unlock some features.
+Guide how I used [Creality-Helper-Script](https://github.com/Guilouz/Creality-Helper-Script) to unlock some features.
 
 Links:
 
@@ -127,15 +106,11 @@ Helper scripts recommended items from Tombraider2006 [^1]:
 
 4 Entware repo for embedded devices.
 
-5 Klipper Gcode Shell Command, give many "tune" and analyze features with
-commands and scripts.
+5 Klipper Gcode Shell Command, give many "tune" and analyze features with commands and scripts.
 
 6 Klipper Adaptive Meshing & Purging:
 
-On issuse with purging (`variable_purge_margin` doesn't help), like
-outline/support overlap, need to disable `adaptive_purge_line` in Web UI. TPU
-printing: need to tune printing profile and add _ADAPTIVE_PURGE_LINE_OFF in the
-start code and _ADAPTIVE_PURGE_LINE_ON in the end code.
+On issuse with purging (`variable_purge_margin` doesn't help), like outline/support overlap, need to disable `adaptive_purge_line` in Web UI. TPU printing: need to tune printing profile and add _ADAPTIVE_PURGE_LINE_OFF in the start code and _ADAPTIVE_PURGE_LINE_ON in the end code.
 
 7 Buzzer Support (beep sound), TODO: check later
 
@@ -143,8 +118,7 @@ start code and _ADAPTIVE_PURGE_LINE_ON in the end code.
 
 9 Fans Control Macros, TODO: check this when print with ABS
 
-TODO: check later 10 Improved Shapers Calibrations 11 Useful macros 12 Save
-Z-Offset Macros
+TODO: check later 10 Improved Shapers Calibrations 11 Useful macros 12 Save Z-Offset Macros
 
 16 Moonraker Timelapse, TODO: check this later
 
@@ -153,16 +127,11 @@ Z-Offset Macros
 1. Pause/stop printing
 2. Press retract in console (touch display menu option)
 3. Unlock extruder
-4. Optionaly remove your bowden tube from extruder, can be helpful when
-   fillament is ended in the process of 3D printing.
-5. Pull filament out, while taking out your filament don't forget the keep the
-   tension of filament with your fingers at the end (if you keep it loose like
-   in the video it might tangle
+4. Optionaly remove your bowden tube from extruder, can be helpful when fillament is ended in the process of 3D printing.
+5. Pull filament out, while taking out your filament don't forget the keep the tension of filament with your fingers at the end (if you keep it loose like in the video it might tangle
 6. press extract to remove filament from extruder
 
-7. cut your new filament in 45 degrees angle, gently without breaking your
-   filament push until the end, you will feel when it goes inside, if it resists
-   it's okay,
+7. cut your new filament in 45 degrees angle, gently without breaking your filament push until the end, you will feel when it goes inside, if it resists it's okay,
 
 8. put bowden tube back if needed and lock extruder
 9. start printing
@@ -173,33 +142,15 @@ Z-Offset Macros
 
 Number 1
 
-- [Creality K1 X Axis Resonance and Buzzing Fix (SUPER SIMPLE!) - YouTube](https://www.youtube.com/watch?v=eWtgwboWTi8)
-  [XY Axis Belt Tension | Creality Wiki](https://wiki.creality.com/en/k1-flagship-series/k1-series-general-documents/xy-axis-belt-tension)
-  [Z-axis Belt Tension | Creality Wiki](https://wiki.creality.com/en/k1-flagship-series/k1-series-general-documents/z-axis-belt-tension)
-  [Creality K1 belt tension meter by RaduSorin1 | Download free STL model | Printables.com](https://www.printables.com/model/523382-creality-k1-belt-tension-meter/comments)
-  TODO: pid calibration control: pid # алгоритм управления нагревателем pid или
-  watermark (регулирование по гистерезису. Гистерезис задается добавлением
-  строки « max_ delta: ». По умолчанию 2 градуса). ***
-  https://www.reddit.com/r/crealityk1/comments/176g33d/heater_extruder_not_heating_at_expected_rate/
-  [Creality K1 & K1C top mounted filament spool holder (new version 2) for TPU, etc. by Mr TVR | Download free STL model | Printables.com](https://www.printables.com/model/624848-creality-k1-k1c-top-mounted-filament-spool-holder)
+- [Creality K1 X Axis Resonance and Buzzing Fix (SUPER SIMPLE!) - YouTube](https://www.youtube.com/watch?v=eWtgwboWTi8) [XY Axis Belt Tension | Creality Wiki](https://wiki.creality.com/en/k1-flagship-series/k1-series-general-documents/xy-axis-belt-tension) [Z-axis Belt Tension | Creality Wiki](https://wiki.creality.com/en/k1-flagship-series/k1-series-general-documents/z-axis-belt-tension) [Creality K1 belt tension meter by RaduSorin1 | Download free STL model | Printables.com](https://www.printables.com/model/523382-creality-k1-belt-tension-meter/comments) TODO: pid calibration control: pid # алгоритм управления нагревателем pid или watermark (регулирование по гистерезису. Гистерезис задается добавлением строки « max_ delta: ». По умолчанию 2 градуса). *** https://www.reddit.com/r/crealityk1/comments/176g33d/heater_extruder_not_heating_at_expected_rate/ [Creality K1 & K1C top mounted filament spool holder (new version 2) for TPU, etc. by Mr TVR | Download free STL model | Printables.com](https://www.printables.com/model/624848-creality-k1-k1c-top-mounted-filament-spool-holder)
 
-Я делал последний раз проще, годится только для боудена в чистом виде, хотя
-можно адаптировать. Пластик ФДпласт идет в ZIF пакетах , не считая коробки.
-Просто делаю отверстие в углу шилом на 3-4 см ниже 'молнии пакета' и 1 см в
-сторону от угла. Вытаскиваю нить, оборачиваю углом пакета (тем что отступили) и
-степлером скрепляю. Одно отверстие если делать растягивается, поэтому нужно
-обернуть. Пластик так и остается в пакете, по целофану катушка легко крутится.
-Со временем стало пакет заворачивать в сторону мотора экструдера, приклеил
-скотчем противоположную сторону пакета к шкафу (он рядом). Пользуюсь так чуть
-меньше месяца, никаких проблем, пластик всегда сухой.
+Я делал последний раз проще, годится только для боудена в чистом виде, хотя можно адаптировать. Пластик ФДпласт идет в ZIF пакетах , не считая коробки. Просто делаю отверстие в углу шилом на 3-4 см ниже 'молнии пакета' и 1 см в сторону от угла. Вытаскиваю нить, оборачиваю углом пакета (тем что отступили) и степлером скрепляю. Одно отверстие если делать растягивается, поэтому нужно обернуть. Пластик так и остается в пакете, по целофану катушка легко крутится. Со временем стало пакет заворачивать в сторону мотора экструдера, приклеил скотчем противоположную сторону пакета к шкафу (он рядом). Пользуюсь так чуть меньше месяца, никаких проблем, пластик всегда сухой.
 
-https://www.youtube.com/watch?v=y08v6PY_7ak
-[Quick and Simple Way to Level Your Creality K1 or K1 Max Bed - YouTube](https://www.youtube.com/watch?v=mW4jI42n3z4)
+https://www.youtube.com/watch?v=y08v6PY_7ak [Quick and Simple Way to Level Your Creality K1 or K1 Max Bed - YouTube](https://www.youtube.com/watch?v=mW4jI42n3z4)
 
 1. Heat belt to 60 to calibrate
 2. Genreate height-map
-3. Level bed with
-   [shims](https://www.printables.com/model/665382-creality-k1k1-maxk1c-bed-levelling-risersshims/)
+3. Level bed with [shims](https://www.printables.com/model/665382-creality-k1k1-maxk1c-bed-levelling-risersshims/)
 
 ## Tuning
 
