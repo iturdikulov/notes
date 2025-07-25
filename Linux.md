@@ -10,21 +10,16 @@ sr-ease: 248
 
 # GNU/Linux
 
-> Linux or **GNU/Linux** is a [[Unix]]-like [[OS]] (or family of) for
-> [[computer|computers]].
+> Linux or **GNU/Linux** is a [[Unix]]-like [[OS]] (or family of) for [[computer|computers]].
 >
-> The Linux kernel (the basis of the operating system) is free software, meaning
-> everyone has the freedom to use it, see how it works, change it, or share it.
+> The Linux kernel (the basis of the operating system) is free software, meaning everyone has the freedom to use it, see how it works, change it, or share it.
 >
-> There is a lot of [[computer_software|software]] for Linux and—like Linux
-> itself—a lot of the software for Linux is free software. This is one reason
-> why many people like to use Linux.\
+> There is a lot of [[computer_software|software]] for Linux and—like Linux itself—a lot of the software for Linux is free software. This is one reason why many people like to use Linux.\
 > — <cite>[Simple English Wikipedia](https://simple.wikipedia.org/wiki/Linux)</cite>
 
 Personally I use [[Linux]] with [[NixOS]] distributions.
 
-One of Unix/Linux important idea is everything is ==a file==, with some
-exceptions (semaphores, processes and threads).
+One of Unix/Linux important idea is everything is ==a file==, with some exceptions (semaphores, processes and threads).
 
 ## Linux features
 
@@ -40,8 +35,7 @@ To get printer url use following command: `lpinfo -v`
 
 To get active printers list use following command: `lpstat -a`
 
-Printing with specific printer and option:
-`lpr -o landscape -o fit-to-page -P printer_name filename/filinames`
+Printing with specific printer and option: `lpr -o landscape -o fit-to-page -P printer_name filename/filinames`
 
 Get printer status: `lpq -P printer_name`
 

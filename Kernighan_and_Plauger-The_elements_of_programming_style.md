@@ -16,13 +16,11 @@ sr-ease: 242
 
 > God programming cannot be taught by preaching generalities.
 
-Book collect examples from various real programs, and those examples would be
-models as good and bad programming style.
+Book collect examples from various real programs, and those examples would be models as good and bad programming style.
 
 At the end of each topic, places summary and list of rules.
 
-The principles of style, applicable in all languages, including
-[[assembly_language|assembly]] codes.
+The principles of style, applicable in all languages, including [[assembly_language|assembly]] codes.
 
 # Chapter 1. Introduction
 

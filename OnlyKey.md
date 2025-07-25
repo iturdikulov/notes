@@ -8,34 +8,22 @@ sr-interval: 71
 sr-ease: 230
 ---
 
-# Onlykey
+# OnlyKey
 
-> OnlyKey was developed by a team of [[computer_security]] experts and white hat
-> hackers to stop malicious hackers. One thing hackers and malware on a computer
-> cannot do is physically touch something.
+> OnlyKey was developed by a team of [[computer_security]] experts and white hat hackers to stop malicious hackers. One thing hackers and malware on a computer cannot do is physically touch something.
 >
-> In order to use OnlyKey to log in, physical touch is required. In order to
-> read a secure message, physical touch is required.
+> In order to use OnlyKey to log in, physical touch is required. In order to read a secure message, physical touch is required.
 >
-> Our design is open source and reviewed by the community to verify that there
-> are no backdoors. This just isn't possible with other closed source products.
+> Our design is open source and reviewed by the community to verify that there are no backdoors. This just isn't possible with other closed source products.
 >
-> PIN PROTECTED When you first receive your OnlyKey the first step to set it up
-> is to set a PIN. The PIN is entered directly on the OnlyKey PIN pad to
-> activate OnlyKey. This provides the following advantages:
+> PIN PROTECTED When you first receive your OnlyKey the first step to set it up is to set a PIN. The PIN is entered directly on the OnlyKey PIN pad to activate OnlyKey. This provides the following advantages:
 >
-> Physical Security - If you lose your OnlyKey it is unusable without knowing
-> the PIN. Protected on Untrusted Computer - The PIN is entered on OnlyKey
-> instead of on a computer. Entering a PIN on a compromised computer would
-> result in compromise of the PIN. Only One PIN to Remember - Protect all of
-> your accounts with only one PIN to remember.\
+> Physical Security - If you lose your OnlyKey it is unusable without knowing the PIN. Protected on Untrusted Computer - The PIN is entered on OnlyKey instead of on a computer. Entering a PIN on a compromised computer would result in compromise of the PIN. Only One PIN to Remember - Protect all of your accounts with only one PIN to remember.\
 > — <cite>[Onlykey](https://onlykey.io/)</cite>
 
 ## OnlyKey setup (pam.d) in archlinux
 
-Be careful, pam rules applied immediately If you have issues, boot using
-live-iso usb drive, mount system (`mount /dev/.. /mnt`) and fix _etc/pam.d_
-files.
+Be careful, pam rules applied immediately If you have issues, boot using live-iso usb drive, mount system (`mount /dev/.. /mnt`) and fix _etc/pam.d_ files.
 
 ```bash
 # Install pam-u2f

@@ -12,22 +12,11 @@ sr-ease: 270
 
 # Leatherman
 
-> Leatherman is an American brand of **multi-tool** made by Leatherman Tool
-> Group of Portland, Oregon. The company was founded in July 1983 by Timothy S.
-> Leatherman and Steve Berliner in order to market the former's idea of a
-> capable, easily portable hand tool with multiple functions. That same year,
-> Leatherman Tool Group sold its first Multi-Tool, which was called the PST
-> (Pocket Survival Tool).\
-> — <cite>
-> [Leatherman - Wikipedia](https://en.wikipedia.org/wiki/Leatherman)</cite>
+> Leatherman is an American brand of **multi-tool** made by Leatherman Tool Group of Portland, Oregon. The company was founded in July 1983 by Timothy S. Leatherman and Steve Berliner in order to market the former's idea of a capable, easily portable hand tool with multiple functions. That same year, Leatherman Tool Group sold its first Multi-Tool, which was called the PST (Pocket Survival Tool).\
+> — <cite>[Leatherman - Wikipedia](https://en.wikipedia.org/wiki/Leatherman)</cite>
 
-> Leatherman was inspired to design a "Boy Scout knife with pliers" while Timothy
-> S. Leatherman and his wife traveled Europe and the Middle East in 1975, often
-> attempting to use a simple pocketknife to repair both their aged and repeatedly
-> malfunctioning Italian Fiat 600 car (bought in Amsterdam for $300) and leaky
-> hotel plumbing. He spent several years perfecting the "Mr. Crunch" prototype and
-> received his first U.S. patent (4,238,862) in 1980.
-> [Company history - Wikipedia](https://en.wikipedia.org/wiki/Leatherman#Company_history)</cite>
+> Leatherman was inspired to design a "Boy Scout knife with pliers" while Timothy S. Leatherman and his wife traveled Europe and the Middle East in 1975, often attempting to use a simple pocketknife to repair both their aged and repeatedly malfunctioning Italian Fiat 600 car (bought in Amsterdam for $300) and leaky hotel plumbing. He spent several years perfecting the "Mr. Crunch" prototype and received his first U.S. patent (4,238,862) in 1980.\
+> — <cite>[Company history - Wikipedia](https://en.wikipedia.org/wiki/Leatherman#Company_history)</cite>
 
 ## Leatherman Wave
 
@@ -35,8 +24,7 @@ I have a [Wave+](https://www.leatherman.com/wave-10.html) Multi-Tool.
 
 I use it for occasional repairs, outdoor activities, and as a backup tool.
 
-![Wave+](img/leatherman_wave/leatherman-wave-1.jpg)
-_Wave+_
+![Wave+](img/leatherman_wave/leatherman-wave-1.jpg) _Wave+_
 
 ### Tools Included
 
@@ -60,6 +48,7 @@ _Wave+_
 18. Medium Screwdriver
 
 ![Wave+ Tools](img/leatherman_wave/leatherman-wave-2.jpg)
+
 _Wave+ Tools_
 
 ## Disassembly
@@ -70,10 +59,9 @@ Some notes about the disassembly:
 
 - You need to be in good mood and have a lot of patience.
 - Prepare some box to store the screws and parts (with sections).
-- If you're planning to clean, prepare sort of cleaning liquid, capacious container
-  and brush.
-- Don't lose the small parts, they are **easy** to lose. So you need big desk
-with free space to work.
+- If you're planning to clean, prepare sort of cleaning liquid, capacious container and brush.
+- Don't lose the small parts, they are **easy** to lose. So you need big desk with free space to work.
 
 ![Engineer Explains Wave](img/leatherman_wave/engineer-explains-wave.jpg)
+
 _Engineer Explains Wave_

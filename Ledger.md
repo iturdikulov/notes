@@ -12,14 +12,12 @@ sr-ease: 252
 
 # ledger
 
-> Ledger is a powerful, double-entry accounting system that is accessed from the
-> UNIX command-line.\
+> Ledger is a powerful, double-entry accounting system that is accessed from the UNIX command-line.\
 > — <cite>[ledger](https://www.ledger-cli.org/)</cite>
 
 I'm almost not used ledger-cli before. But I want to try to use it IRL.
 
-Ledger offer double-entry accounting journal, where you track your transactions
-(plain text file). It's use a standard bookkeeping approach.
+Ledger offer double-entry accounting journal, where you track your transactions (plain text file). It's use a standard bookkeeping approach.
 
 Ledger transaction example:
 
@@ -29,8 +27,7 @@ Ledger transaction example:
     Assets:Checking                        -$42.00
 ```
 
-In accounting every type of income or expense and every "place" which holds some
-value is "account" (sort of category).
+In accounting every type of income or expense and every "place" which holds some value is "account" (sort of category).
 
 Accounts examples:
 
@@ -41,8 +38,7 @@ Accounts examples:
 - receivables;
 - equity.
 
-We track the flow of money from one account to another, amount of money figures
-twice, total balance of all accounts is always zero.
+We track the flow of money from one account to another, amount of money figures twice, total balance of all accounts is always zero.
 
 ## Journal example
 

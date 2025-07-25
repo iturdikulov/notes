@@ -15,5 +15,4 @@ sr-ease: 188
 
 # Learn Vim
 
-Learning Vim and Vimscript doesn't have to be hard. This is the guide that
-you're looking for.
+Learning Vim and Vimscript doesn't have to be hard. This is the guide that you're looking for.

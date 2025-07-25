@@ -10,12 +10,7 @@ sr-ease: 144
 
 # JavaScript (dialect of ECMAScript), often abbreviated as JS
 
-> JavaScript (/ˈdʒɑːvəskrɪpt/), often abbreviated as JS, is a
-> [[programming_language]] that is one of the core technologies of the World
-> Wide Web, alongside HTML and CSS. As of 2023, 98.7% of websites use JavaScript
-> on the client side for webpage behavior, often incorporating third-party
-> libraries. All major web browsers have a dedicated JavaScript engine to
-> execute the code on users' devices.\
+> JavaScript (/ˈdʒɑːvəskrɪpt/), often abbreviated as JS, is a [[programming_language]] that is one of the core technologies of the World Wide Web, alongside HTML and CSS. As of 2023, 98.7% of websites use JavaScript on the client side for webpage behavior, often incorporating third-party libraries. All major web browsers have a dedicated JavaScript engine to execute the code on users' devices.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/JavaScript)</cite>
 
 ## Learning path
@@ -30,13 +25,13 @@ sr-ease: 144
 - [From 0 to Production - The Modern React Tutorial (RSCs, Next.js, Shadui, Drizzle, TS and more) - YouTube](https://www.youtube.com/watch?v=d5x0JCZbAJs)
 - [Thinking in React](https://react.dev/learn/thinking-in-react)
 - Complete Intro to React.
-- [ ] [Thinking in React – React]( https://react.dev/learn/thinking-in-react)
+- [ ] [Thinking in React – React](https://react.dev/learn/thinking-in-react)
 - [ ] [Essential Typescript for React](https://www.jacobparis.com/content/react-ts)
 
 - [ ] [Современный учебник JavaScript](https://learn.javascript.ru/)
-    - Kantor - browser
-    - Kantor - JavaScript
-    - Kantor - thematic sections
+  - Kantor - browser
+  - Kantor - JavaScript
+  - Kantor - thematic sections
 
 - [[Flanagan-JavaScript]]
 - [Why async: JavaScript and the real world](https://frontarm.com/courses/async-javascript/promises/why-async/)
@@ -54,14 +49,12 @@ sr-ease: 144
 
 ## React
 
-A ==component== is a piece of reusable code that represents a part of a user
-interface. It used to render, manage, and update UI elements. <!--SR:!2024-08-31,4,203-->
+A ==component== is a piece of reusable code that represents a part of a user interface. It used to render, manage, and update UI elements. <!--SR:!2024-08-31,4,203-->
 
-Your own react components, like `Board` and `Square` must start with a
-==capital== letter. <!--SR:!2024-09-03,4,222-->
+Your own react components, like `Board` and `Square` must start with a ==capital== letter. <!--SR:!2024-09-03,4,222-->
 
 ```tsx
-export default function Square() {  // define main exportable function
+export default function Square() { // define main exportable function
   return <button className="square">X</button>; // return JSX element to function caller
 }
 ```

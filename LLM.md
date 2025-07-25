@@ -10,14 +10,11 @@ sr-ease: 140
 
 # Large language model (LLM)
 
-Modal of [[computation]] capable of language generation or other natural
-language processing tasks. How as language models, LLMs acquire these abilities?
+Modal of [[computation]] capable of language generation or other natural language processing tasks. How as language models, LLMs acquire these abilities?
 <br class="f">
-By learning **statistical relationships** from vast amounts of text during a
-self-supervised and semi-supervised training process.
+By learning **statistical relationships** from vast amounts of text during a self-supervised and semi-supervised training process.
 
-Hugging Face platform [^1] is like [[GitHub]] for AI models, it's contains a lot
-of large language models for a variety of tasks,
+Hugging Face platform [^1] is like [[GitHub]] for AI models, it's contains a lot of large language models for a variety of tasks,
 
 ## Learing LLM
 
@@ -29,15 +26,9 @@ of large language models for a variety of tasks,
 
 ## LLM questions examples
 
-Some information from Entropic Thoughts [^2] llm article. How llm can answer
-simple and complex questions with CLI workflow.
+Some information from Entropic Thoughts [^2] llm article. How llm can answer simple and complex questions with CLI workflow.
 
-- q 'If I asked you to generate 20 random lines of code that look like
-  something one might find in the Linux kernel, what would you print? I fully
-  undrstand you don’t have access to the real kernel source code, so you’d be
-  making stuff up and that is okay. Please put them in <scratchpad>. Then
-  count how many of them are assignment statements (including things like
-  memset).'
+- q 'If I asked you to generate 20 random lines of code that look like something one might find in the Linux kernel, what would you print? I fully undrstand you don’t have access to the real kernel source code, so you’d be making stuff up and that is okay. Please put them in <scratchpad>. Then count how many of them are assignment statements (including things like memset).'
 - git grep -n itur | q Where is iturdikulov defined?
 - q What is a better word for self-development used in professional contexts? Not strictly about professional development, but just becoming a better person more generally.
 - q 'What is a software developer paid per minute? Show your work in <scratchpad> then report the result.'
@@ -51,7 +42,7 @@ simple and complex questions with CLI workflow.
 - q How do I interpolate a perl variable in a regex without accidentally entering a $ anchor?
 
 - Summarization and context generation:
- - This chat is getting long. Summarize, as an artifact, all key points we've covered, lessons learned and include/don't include code, so I can pin it to your project knowledge.
+- This chat is getting long. Summarize, as an artifact, all key points we've covered, lessons learned and include/don't include code, so I can pin it to your project knowledge.
 - Clarification:
   - Ask me three questions about this to help you understand better.
   - Ask me questions before creating artifacts, preferring iteration over up front complete analysis. Only generate artifacts when specifically directed to do so. Use bullet points only when necessary.
@@ -79,4 +70,5 @@ simple and complex questions with CLI workflow.
 - Create a database indexing strategy
 
 [^1]: [Hugging Face – The AI community building the future.](https://huggingface.co/)
+
 [^2]: [q What do I title this article?](https://entropicthoughts.com/q)
