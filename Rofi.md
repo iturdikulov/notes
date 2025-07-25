@@ -11,16 +11,10 @@ sr-ease: 254
 
 # Rofi
 
-> Rofi started as a clone of simpleswitcher, written by Sean Pringle - a popup
-> window switcher roughly based on superswitcher. Simpleswitcher laid the
-> foundations, and therefore Sean Pringle deserves most of the credit for this
-> tool. Rofi (renamed, as it lost the simple property) has been extended with
-> extra features, like an application launcher and ssh-launcher, and can act as
-> a drop-in dmenu replacement, making it a very versatile tool.\
+> Rofi started as a clone of simpleswitcher, written by Sean Pringle - a popup window switcher roughly based on superswitcher. Simpleswitcher laid the foundations, and therefore Sean Pringle deserves most of the credit for this tool. Rofi (renamed, as it lost the simple property) has been extended with extra features, like an application launcher and ssh-launcher, and can act as a drop-in dmenu replacement, making it a very versatile tool.\
 > — <cite>[davatorium/rofi](https://github.com/davatorium/rofi)</cite>
 
-Rofi is my primary UI for GUI windows manage (launch/activate), passwords
-picking with [[pass]], open bookmarks, favorite files open tool, etc.
+Rofi is my primary UI for GUI windows manage (launch/activate), passwords picking with [[pass]], open bookmarks, favorite files open tool, etc.
 
 ## Key bindings
 
@@ -42,8 +36,7 @@ picking with [[pass]], open bookmarks, favorite files open tool, etc.
 - Remove to EOL* (not working FSR):<wbr class="f"> `C-k`
 - Delete till start of line:<wbr class="f"> `C-u`
 - Accept selection:<wbr class="f"> `C-m` or `RET`
-- Use entered text as command (useful to run commands with args):<wbr class="f">
-  `C-RET`
+- Use entered text as command (useful to run commands with args):<wbr class="f"> `C-RET`
 - Use entered text as command (in ssh/run modes):<wbr class="f"> `C-S-RET`
 - Use alternate accept command (?):<wbr class="f"> `S-RET`
 - Delete entry from history:<wbr class="f"> `S-DEL`

@@ -12,9 +12,7 @@ sr-ease: 273
 
 # Slack
 
-One of my main communication tools with my colleagues. Primary scope of Slack is
-professional and organizational communictions. Support text messaging, voice
-calls, video calls and have many integrations with other software.
+One of my main communication tools with my colleagues. Primary scope of Slack is professional and organizational communictions. Support text messaging, voice calls, video calls and have many integrations with other software.
 
 ## Basic Hotkeys
 

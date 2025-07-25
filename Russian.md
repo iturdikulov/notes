@@ -12,15 +12,7 @@ sr-ease: 223
 
 # Russian language
 
-> Russian (русский язык, russkij jazyk, /ˈruskʲɪj jɪˈzɨk/) is an
-> [[language_family|East Slavic]] language mainly spoken in Russia. It is the
-> native language of the Russians and belongs to the Indo-European language
-> family. It is one of four living East Slavic languages, and is also a part of
-> the larger Balto-Slavic languages. It was the de facto and de jure official
-> language of the former Soviet Union. Russian has remained an official language
-> in independent Russia, Belarus, Kazakhstan, and Kyrgyzstan, and is still
-> commonly used as a lingua franca in Ukraine, the Caucasus, Central Asia, and
-> to a lesser extent in the Baltic states and Israel.\
+> Russian (русский язык, russkij jazyk, /ˈruskʲɪj jɪˈzɨk/) is an [[language_family|East Slavic]] language mainly spoken in Russia. It is the native language of the Russians and belongs to the Indo-European language family. It is one of four living East Slavic languages, and is also a part of the larger Balto-Slavic languages. It was the de facto and de jure official language of the former Soviet Union. Russian has remained an official language in independent Russia, Belarus, Kazakhstan, and Kyrgyzstan, and is still commonly used as a lingua franca in Ukraine, the Caucasus, Central Asia, and to a lesser extent in the Baltic states and Israel.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Russian_language)</cite>
 
 ## Путь изучения грамматики русского языка
@@ -30,12 +22,9 @@ sr-ease: 223
 
 ## Кириллица
 
-Script was conceived and popularised by the followers of Cyril and Methodius in
-Bulgaria, its name denotes homage rather than authorship.
+Script was conceived and popularised by the followers of Cyril and Methodius in Bulgaria, its name denotes homage rather than authorship.
 
-The Russian alphabet (ру́сский алфави́т, ру́сская а́збука, more traditionally) is
-the script used to write the Russian language. It is derived from the Cyrillic
-script.
+The Russian alphabet (ру́сский алфави́т, ру́сская а́збука, more traditionally) is the script used to write the Russian language. It is derived from the Cyrillic script.
 
 ![[./img/Russian_Cyrillic_alphabet.svg]]
 _The Russian alphabet_

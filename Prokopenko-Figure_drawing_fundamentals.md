@@ -15,5 +15,4 @@ sr-ease: 250
 
 # Figure Drawing Fundamentals
 
-Get classical training on how to draw male and female figures. Course contains
-several drawing fundamentals including gesture, measuring, and shading.
+Get classical training on how to draw male and female figures. Course contains several drawing fundamentals including gesture, measuring, and shading.

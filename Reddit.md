@@ -10,7 +10,6 @@ sr-ease: 270
 
 # Reddit
 
-Reddit is a [[social_networking_service]] of communities where people can dive
-into their interests, hobbies and passions.
+Reddit is a [[social_networking_service]] of communities where people can dive into their interests, hobbies and passions.
 
 I think it's also a good place to self-promote your content.

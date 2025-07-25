@@ -9,8 +9,7 @@ sr-ease: 266
 
 # Poetry on NixOS
 
-[[Poetry]] on [[NixOS]] require some configuration and initial setup. Basically
-I use `nix-shell` with some minimal configuration.
+[[Poetry]] on [[NixOS]] require some configuration and initial setup. Basically I use `nix-shell` with some minimal configuration.
 
 First I create `shell.nix` file:
 

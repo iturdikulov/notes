@@ -12,10 +12,7 @@ sr-ease: 200
 
 Python library to perform data validation. Has great typing support.
 
-You declare the "shape" of the data as classes with attributes. And each
-attribute has a type. Then you create an instance of that class with some
-values, and it will validate the values, convert them to the appropriate type
-(if that's the case) and give you an object with all the data.
+You declare the "shape" of the data as classes with attributes. And each attribute has a type. Then you create an instance of that class with some values, and it will validate the values, convert them to the appropriate type (if that's the case) and give you an object with all the data.
 
 ```python
 from datetime import datetime
