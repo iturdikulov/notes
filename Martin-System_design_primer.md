@@ -14,5 +14,4 @@ sr-ease: 230
 
 # The System Design Primer
 
-Learn how to design large-scale systems. Prep for the system design interview.
-Includes Anki flashcards.
+Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards.

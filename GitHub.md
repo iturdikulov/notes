@@ -12,15 +12,11 @@ sr-ease: 231
 
 # GitHub
 
-Internet hosting service for software development and version control using
-[[Git]].
+Internet hosting service for software development and version control using [[Git]].
 
-Like [[GitLab]] it provides the distributed version control of Git
-plus access control, bug tracking, software feature requests, task management,
-continuous integration, and wikis for every project.
+Like [[GitLab]] it provides the distributed version control of Git plus access control, bug tracking, software feature requests, task management, continuous integration, and wikis for every project.
 
-You can optimize working with GitHub by using described tips/shortcuts in the
-next sections.
+You can optimize working with GitHub by using described tips/shortcuts in the next sections.
 
 ## GitHub CLI
 

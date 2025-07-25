@@ -11,12 +11,10 @@ sr-ease: 244
 
 # MangoHud monitoring overlay
 
-A Vulkan and OpenGL overlay for monitoring FPS, temperatures, CPU/GPU load and
-more.\
+A Vulkan and OpenGL overlay for monitoring FPS, temperatures, CPU/GPU load and more.\
 > — <cite>[GitHub](https://github.com/flightlessmango/MangoHud)</cite>
 
-Useful to monitor perfomance of [[my_games]] and various
-[[my_awesome_software_list#Computer Graphics|computer graphics]] software.
+Useful to monitor perfomance of [[my_games]] and various [[my_awesome_software_list#Computer Graphics|computer graphics]] software.
 
 ## Keybindings
 

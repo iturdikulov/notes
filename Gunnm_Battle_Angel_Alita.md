@@ -11,15 +11,7 @@ sr-ease: 270
 
 # Gunnm aka Battle Angel Alita
 
-> Gunnm (Japanese: 銃夢, romanized: Ganmu, lit. 'gun dream'), also known as
-> Battle Angel Alita in English, is a Japanese cyberpunk [[manga]] series
-> created by Yukito Kishiro and originally published in Shueisha's Business Jump
-> magazine from 1990 to 1995. The second of the comic's nine volumes was adapted
-> in 1993 into a two-part anime original video animation titled Battle Angel for
-> North American release by ADV Films and the UK and Australian release by Manga
-> Entertainment. Manga Entertainment also dubbed Battle Angel Alita into
-> English. A live-action film adaptation titled Alita: Battle Angel was released
-> on February 14, 2019.\
+> Gunnm (Japanese: 銃夢, romanized: Ganmu, lit. 'gun dream'), also known as Battle Angel Alita in English, is a Japanese cyberpunk [[manga]] series created by Yukito Kishiro and originally published in Shueisha's Business Jump magazine from 1990 to 1995. The second of the comic's nine volumes was adapted in 1993 into a two-part anime original video animation titled Battle Angel for North American release by ADV Films and the UK and Australian release by Manga Entertainment. Manga Entertainment also dubbed Battle Angel Alita into English. A live-action film adaptation titled Alita: Battle Angel was released on February 14, 2019.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Battle_Angel_Alita)</cite>
 
 I watched movie, and it was good. So I decided to read manga.

@@ -5,6 +5,7 @@ created: 2023-03-27T00:00+03:00
 tags:
   - blog
   - cheat-sheets
+  - now_software
 sr-due: 2027-05-16
 sr-interval: 675
 sr-ease: 252
@@ -17,15 +18,13 @@ sr-ease: 252
 
 I tried various RSS readers. But I chose Miniflux for these reasons:
 
-- Integrated with web browser, I can quickly open URL, even watch video, listen
-  to podcast, or read article.
+- Integrated with web browser, I can quickly open URL, even watch video, listen to podcast, or read article.
 - Simple and clean interface.
 - Customizable.
 - Full-featured for me (categories, feeds, etc.).
 - Mobile friendly.
 
-I'm still in process of using RSS habitually. I'm trying to use it for all inbox
-news, tweets, posts, videos, etc. Something like News Inbox.
+I'm still in process of using RSS habitually. I'm trying to use it for all inbox news, tweets, posts, videos, etc. Something like News Inbox.
 
 ## Navigation
 
@@ -54,9 +53,8 @@ news, tweets, posts, videos, etc. Something like News Inbox.
 - `v`:<wbr class="f"> Open original link to a new tab
 - `m`:<wbr class="f"> Toggle read/unread and focus next
 - `M`:<wbr class="f"> Toggle read/unread and focus previous
-- `d`:<wbr class="f"> Fetch original web page and apply scraper rules or
-  readability
-- `f`:<wbr class="f"> Star or Unstar the current entry (favorites)
+- `d`:<wbr class="f"> Fetch original web page and apply scraper rules or readability
+- `f`:<wbr class="f"> Star or remove star the current entry (favorites)
 - `s`:<wbr class="f"> Save article to configured third-party services
 - `a`:<wbr class="f"> Toggle open/close entry attachments
 - `Space/S-Space`:<wbr class="f"> Page down/up
@@ -71,4 +69,4 @@ news, tweets, posts, videos, etc. Something like News Inbox.
 - `A` - Mark current page as read
 - `z t` - Scroll item to top
 - `#` - Removes current feed
-- `Escape` - Close modal dialogs
+- `Escape` - Close modal dialog

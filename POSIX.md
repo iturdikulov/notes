@@ -9,14 +9,7 @@ sr-ease: 250
 
 # POSIX
 
-> The Portable Operating System Interface (POSIX; IPA: /ˈpɒz.ɪks/) is a family
-> of standards specified by the IEEE Computer Society for maintaining
-> compatibility between operating systems. POSIX defines both the system and
-> user-level application programming interfaces (APIs), along with command line
-> shells and utility interfaces, for software compatibility (portability) with
-> variants of [[Unix]] and other operating systems. POSIX is also a trademark of
-> the IEEE. POSIX is intended to be used by both application and system
-> developers.\
+> The Portable Operating System Interface (POSIX; IPA: /ˈpɒz.ɪks/) is a family of standards specified by the IEEE Computer Society for maintaining compatibility between operating systems. POSIX defines both the system and user-level application programming interfaces (APIs), along with command line shells and utility interfaces, for software compatibility (portability) with variants of [[Unix]] and other operating systems. POSIX is also a trademark of the IEEE. POSIX is intended to be used by both application and system developers.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/POSIX)</cite>
 
 ## External links

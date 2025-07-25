@@ -10,8 +10,7 @@ sr-ease: 170
 
 # Pascal cheat-sheet
 
-In the following sections, I'll describe the basics of [[Pascal]] programming
-language with Q/A flashcards based on learnxinyminutes [^1] cheatsheet.
+In the following sections, I'll describe the basics of [[Pascal]] programming language with Q/A flashcards based on learnxinyminutes [^1] cheatsheet.
 
 ```pascal
 //Anatomy of a Pascal Program

@@ -29,8 +29,7 @@ And we need to prepare the first 2 steps.
 
 <!-- NEXT: need review [[My_Arch_Linux_enviroment]] iso/pre-install section -->
 
-Boot from the USB stick and setup networking. (optionally setup SSH if you want
-to complete the installation from another computer)
+Boot from the USB stick and setup networking. (optionally setup SSH if you want to complete the installation from another computer)
 
 ```bash
 # Configure wifi:
@@ -232,8 +231,7 @@ nixos-enter NIXOS_INSTALL_BOOTLOADER=1 /nix/var/nix/profiles/system/bin/switch-t
 - swap in ram
 - backup boot partition
 
-tmpfs 1618464 415764 1202700 26% /run/user/1000
-mount -o remount,size=2G /run/user/0
+tmpfs 1618464 415764 1202700 26% /run/user/1000 mount -o remount,size=2G /run/user/0
 
 ## External links
 

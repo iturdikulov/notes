@@ -2,6 +2,7 @@
 created: 2023-04-02T00:00+03:00
 tags:
   - blog
+  - now
 sr-due: 2025-07-25
 sr-interval: 9
 sr-ease: 236
@@ -9,16 +10,9 @@ sr-ease: 236
 
 # Operating system
 
-> Group of computer programs, including device drivers, kernels, and other
-> software that lets people interact with a computer. It manages computer
-> hardware and software resources. It provides common services for computer
-> programs.
+> Group of computer programs, including device drivers, kernels, and other software that lets people interact with a computer. It manages computer hardware and software resources. It provides common services for computer programs.
 >
-> An OS can be small (like MenuetOS), or large (like Microsoft Windows,
-> GNU/Linux). Different operating systems can be used for different purposes.
-> Some are used for everyday things like on a personal computer
-> (general-purpose). Others are mobile operating systems or are used for
-> specialized work.\
+> An OS can be small (like MenuetOS), or large (like Microsoft Windows, GNU/Linux). Different operating systems can be used for different purposes. Some are used for everyday things like on a personal computer (general-purpose). Others are mobile operating systems or are used for specialized work.\
 > — <cite>[Simple English Wikipedia](https://simple.wikipedia.org/wiki/Operating_system)</cite>
 
 I use the following operating systems:

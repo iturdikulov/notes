@@ -5,6 +5,7 @@ external:
   - https://obsidian.md/
 tags:
   - blog
+  - now_software
   - productivity
 sr-due: 2025-07-22
 sr-interval: 5
@@ -13,8 +14,7 @@ sr-ease: 226
 
 # Obsidian
 
-> Obsidian is a powerful and extensible knowledge base that works on top of your
-> local folder of plain text files.
+> Obsidian is a powerful and extensible knowledge base that works on top of your local folder of plain text files.
 
 ## Hotkeys
 
@@ -45,7 +45,7 @@ sr-ease: 226
 - Open daily note:<wbr class="f"> `M-S-f`
 - Insert `<br>` break snippet:<wbr class="f"> `M-i`
 - Insert `<wbr>` break snippet:<wbr class="f"> `M-w`
-- Open note for review: <wbr class="f"> ``C-M-` ``
+- Open note for review: <wbr class="f"> `` C-M-` ``
 - Open all flashcards: <wbr class="f"> `C-M-a`
 - Cram flashcards in this note: <wbr class="f"> `C-M-S-a`
 

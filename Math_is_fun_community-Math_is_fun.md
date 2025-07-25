@@ -15,12 +15,9 @@ sr-ease: 149
 
 # Math is Fun
 
-Math is fun [^1] explain [[mathematics]] in very easy language, provide many
-puzzles, [[game|games]], worksheets and an illustrated dictionary. For kids,
-teachers and parents.
+Math is fun [^1] explain [[mathematics]] in very easy language, provide many puzzles, [[game|games]], worksheets and an illustrated dictionary. For kids, teachers and parents.
 
-Start from this section:
-[Index by Year and Subject](https://www.mathsisfun.com/links/index.html)
+Start from this section: [Index by Year and Subject](https://www.mathsisfun.com/links/index.html)
 
 ## Year 3 to 6
 
@@ -32,8 +29,7 @@ Skip counting is the counting by intervals more than ==one==. <!--SR:!2025-02-12
 
 Why need to learn skip counting?
 <br class="f">
-To build number sense and **count items quickly** need to practice skip counting, it
-also simplifies learning multiplication and division. <!--SR:!2025-02-11,1,190-->
+To build number sense and **count items quickly** need to practice skip counting, it also simplifies learning multiplication and division. <!--SR:!2025-02-11,1,190-->
 
 - 9 + 3 = <wbr class="f">12 <!--SR:!2025-02-11,1,190-->
 - 3 + 9 = <wbr class="f">12 <!--SR:!2025-02-11,1,190-->
@@ -56,4 +52,5 @@ also simplifies learning multiplication and division. <!--SR:!2025-02-11,1,190--
 - [Math Trainer - Addition](https://www.mathsisfun.com/numbers/math-trainer-addition.html)
 
 [^1]: [Math is Fun](https://www.mathsisfun.com/)
+
 [^2]: [Years 3 to 6 Numbers Index](https://www.mathsisfun.com/links/b-3to6-numbers.html)

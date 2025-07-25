@@ -9,9 +9,7 @@ sr-ease: 230
 
 # Mikrotik
 
-> MikroTik makes networking hardware and software, which is used in nearly all
-> countries of the world. Our mission is to make existing Internet technologies
-> faster, more powerful and affordable to wider range of users.\
+> MikroTik makes networking hardware and software, which is used in nearly all countries of the world. Our mission is to make existing Internet technologies faster, more powerful and affordable to wider range of users.\
 > — <cite>[MikroTik Routers and Wireless](https://mikrotik.com)</cite>
 
 ## Mini PCI modem as usb 4g modem

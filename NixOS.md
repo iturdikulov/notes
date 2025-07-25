@@ -12,34 +12,23 @@ sr-ease: 230
 
 # NixOS
 
-> NixOS is a [[Linux]] distribution based on the Nix package manager and build
-> system. It supports reproducible and declarative system-wide configuration
-> management as well as atomic upgrades and rollbacks, although it can
-> additionally support imperative package and user management. In NixOS, all
-> components of the distribution — including the kernel, installed packages and
-> system configuration files — are built by Nix from pure functions called Nix
-> expressions.\
+> NixOS is a [[Linux]] distribution based on the Nix package manager and build system. It supports reproducible and declarative system-wide configuration management as well as atomic upgrades and rollbacks, although it can additionally support imperative package and user management. In NixOS, all components of the distribution — including the kernel, installed packages and system configuration files — are built by Nix from pure functions called Nix expressions.\
 > — <cite>[NixOS Wiki](https://nixos.wiki/wiki/Overview_of_the_NixOS_Linux_distribution)</cite>
 
-NixOS is my current favorite Linux distribution. I like their features and
-trying to use it everywhere where it's possible. [[archlinux|Arch Linux]] is
-also good (minimal), but I like the NixOS approach more.
+NixOS is my current favorite Linux distribution. I like their features and trying to use it everywhere where it's possible. [[archlinux|Arch Linux]] is also good (minimal), but I like the NixOS approach more.
 
 ## Features
 
 - Declarative configuration model (Nix language, global configuration file).
-- Reliable and atomic upgrades (same result on different machines, atomic.
-  upgrades which are resistant to power failures).
+- Reliable and atomic upgrades (same result on different machines, atomic. upgrades which are resistant to power failures).
 - Rollbacks (boot menu with previous configurations).
 - Reproducible system configurations (easily clone system across many machines).
-- Source-based model with binary cache (flexible build configuration, change
-  package options)
+- Source-based model with binary cache (flexible build configuration, change package options)
 - Consistency (rebuild all dependencies when core packages are updated).
 - Multi-user package management (users can install packages without root).
 - 80,000 official packages (Nixpkgs), special packages with easily configurable
   > options (NixOS options, > 10000 options).
-- Documentation and community (Guides and Tutorials, NixOS wiki, Discourse,
-  Matrix, GitHub).
+- Documentation and community (Guides and Tutorials, NixOS wiki, Discourse, Matrix, GitHub).
 
 ## Cleanup old generations
 
@@ -90,8 +79,7 @@ nix-shell -p nix-prefetch-git jq --run "nix-prefetch-git --url https://github.co
 
 ## LD_LIBRARY_PATH issues
 
-This can happen when importing python libraries: Solution: add
-${stdenv.cc.cc.lib}/lib/libstdc++.so.6 to the LD_LIBRARY_PATH.
+This can happen when importing python libraries: Solution: add ${stdenv.cc.cc.lib}/lib/libstdc++.so.6 to the LD_LIBRARY_PATH.
 
 A sample shell.nix:
 
@@ -116,15 +104,13 @@ mkShell {
 ## PCI passthrough
 
 - [Notes on PCI passthrough on NixOS using QEMU and VFIO](https://alexbakker.me/post/nixos-pci-passthrough-qemu-vfio.html)
-- Review and add notes
-  [Virtiofs: Shared file system](https://github.com/virtio-win/kvm-guest-drivers-windows/wiki/Virtiofs:-Shared-file-system)
+- Review and add notes [Virtiofs: Shared file system](https://github.com/virtio-win/kvm-guest-drivers-windows/wiki/Virtiofs:-Shared-file-system)
 - [NixOS: PCI passthrough · GitHub](https://gist.github.com/techhazard/1be07805081a4d7a51c527e452b87b26)
 - [PCI passthrough via OVMF - ArchWiki](https://wiki.archlinux.org/title/PCI_passthrough_via_OVMF)
 
 ## nix-index and nix-locate
 
-`nix-locate` from `nix-index` package allow to locate libraries in nix store.
-This is useful for debugging, adding required libraries to `LD_LIBRARY_PATH`.
+`nix-locate` from `nix-index` package allow to locate libraries in nix store. This is useful for debugging, adding required libraries to `LD_LIBRARY_PATH`.
 
 ```sh
 $ nix-index # to generate database

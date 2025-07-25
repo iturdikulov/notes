@@ -9,32 +9,18 @@ sr-ease: 254
 
 # Microsoft Windows
 
-> Microsoft Windows is a group of several proprietary graphical operating system
-> families developed and marketed by Microsoft. Each family caters to a certain
-> sector of the computing industry. For example, Windows NT for consumers,
-> Windows Server for servers, and Windows IoT for embedded systems.\
+> Microsoft Windows is a group of several proprietary graphical operating system families developed and marketed by Microsoft. Each family caters to a certain sector of the computing industry. For example, Windows NT for consumers, Windows Server for servers, and Windows IoT for embedded systems.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Microsoft_Windows)</cite>
 
 ## Windows LTSC Edition
 
-Windows from Enterprise Long-Term Servicing Channel (LTSC), long-term support
-variant of Windows Enterprise released every 2 to 3 years. Each release is
-supported with security updates for either 5 or 10 years after its release, and
-intentionally receive no feature updates. **Some features**, including the
-Microsoft Store and bundled apps, are **not included** in this edition. However,
-Windows Store can be installed using a command prompt. This edition was first
-released as Windows 10 Enterprise LTSB (Long-Term Servicing Branch). There are
-currently 4 releases of LTSC: one in 2015 (version 1507), one in 2016 (version
-1607), one in 2018 (labeled as 2019, version 1809), and one in 2021 (version
-21H2). In 2024 planned next release.
+Windows from Enterprise Long-Term Servicing Channel (LTSC), long-term support variant of Windows Enterprise released every 2 to 3 years. Each release is supported with security updates for either 5 or 10 years after its release, and intentionally receive no feature updates. **Some features**, including the Microsoft Store and bundled apps, are **not included** in this edition. However, Windows Store can be installed using a command prompt. This edition was first released as Windows 10 Enterprise LTSB (Long-Term Servicing Branch). There are currently 4 releases of LTSC: one in 2015 (version 1507), one in 2016 (version 1607), one in 2018 (labeled as 2019, version 1809), and one in 2021 (version 21H2). In 2024 planned next release.
 
-Check post-installation steps for Windows, in this note
-[[windows_setup_script]], her some info which LTSC edition I use.
+Check post-installation steps for Windows, in this note [[windows_setup_script]], her some info which LTSC edition I use.
 
 ## Windows Setup Script
 
-I have own quick-start script for [[MS_Windows]]. I tried to make it very simple
-and straightforward. To install Windows, I usually just use [[Ventoy]].
+I have own quick-start script for [[MS_Windows]]. I tried to make it very simple and straightforward. To install Windows, I usually just use [[Ventoy]].
 
 Script:
 
@@ -100,8 +86,7 @@ echo "Set-ItemProperty -path 'HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\Ex
 echo "Stop-Process -name explorer  # explorer.exe restarts automatically after stopping"
 ```
 
-To execute it, you need to run PowerShell as Administrator, save script as file
-and execute this command:
+To execute it, you need to run PowerShell as Administrator, save script as file and execute this command:
 
 ```powershell
 Set-ExecutionPolicy unrestricted
@@ -112,14 +97,11 @@ Currently, I use this Windows version:
 
 - ISO file: `en-us_windows_10_enterprise_ltsc_2021_x64_dvd_d289cf96.iso`
 - SHA-256: `c90a6df8997bf49e56b9673982f3e80745058723a707aef8f22998ae6479597d`
-- SHA is from this URL
-  [MSDN Files Info by WZT](https://msdn.rg-adguard.net/public.php?seach=us_windows_10_enterprise_ltsc_2021_x64_dvd_d289cf96)
+- SHA is from this URL [MSDN Files Info by WZT](https://msdn.rg-adguard.net/public.php?seach=us_windows_10_enterprise_ltsc_2021_x64_dvd_d289cf96)
 
-NOTE: It's containing driver issues or Microsoft store issues, so it's better to
-use it only if you know what you are doing.
+NOTE: It's containing driver issues or Microsoft store issues, so it's better to use it only if you know what you are doing.
 
-NOTE: [winutil](https://github.com/ChrisTitusTech/winutil) can be used as
-post-installation tool.
+NOTE: [winutil](https://github.com/ChrisTitusTech/winutil) can be used as post-installation tool.
 
 ## External links
 
