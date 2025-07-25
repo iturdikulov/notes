@@ -10,15 +10,10 @@ sr-ease: 272
 
 # Bitlbee
 
-> BitlBee brings [[IM]] (instant messaging) to IRC clients. It's a great
-> solution for people who have an IRC client running all the time and don't want
-> to run an additional XMPP/Facebook/discord/whatever client.\
+> BitlBee brings [[IM]] (instant messaging) to IRC clients. It's a great solution for people who have an IRC client running all the time and don't want to run an additional XMPP/Facebook/discord/whatever client.\
 > — <cite>https://www.bitlbee.org/</cite>
 
-Install the program and connect to the BitlBee server with your favorite
-[[IRC]]-client. You will be force-joined into the control channel where root
-(the bot, your assistant, the bee) will try to help you to get the program
-working.
+Install the program and connect to the BitlBee server with your favorite [[IRC]]-client. You will be force-joined into the control channel where root (the bot, your assistant, the bee) will try to help you to get the program working.
 
 Adding new account:
 
@@ -47,8 +42,7 @@ List & add:
 chat list xxxx
 ```
 
-Add chat with one of these commands, `!1` here is channel ID generated from
-`chat list xxxx`
+Add chat with one of these commands, `!1` here is channel ID generated from `chat list xxxx`
 
 ```
 chat add plugin_name !1 #mydchannel

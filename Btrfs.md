@@ -9,13 +9,9 @@ sr-ease: 252
 
 # Btrfs (better F S)
 
-Btrfs includes native optimizations for SSD media. To enable
-these features, mount the Btrfs filesystem with the -o SSD mount option. These
-optimizations include enhanced SSD write performance by avoiding optimization
-such as seek optimizations which do not apply to solid-state media.
+Btrfs includes native optimizations for SSD media. To enable these features, mount the Btrfs filesystem with the -o SSD mount option. These optimizations include enhanced SSD write performance by avoiding optimization such as seek optimizations which do not apply to solid-state media.
 
-Asynchronous discard support is available with mount option `discard=async`, and
-is enabled by default as of linux 6.2.
+Asynchronous discard support is available with mount option `discard=async`, and is enabled by default as of linux 6.2.
 
 Here list of "safe" commands for btrfs:
 
@@ -36,15 +32,12 @@ btrfs filesystem du # show disk usage by files and directories for a btrfs
                     # filesystem
 ```
 
-Periods for maintenance:
-balance - weekly, example: `btrfs balance -dusage=50 -dlimit=2`
-scrub - monthly, with full system backup
-check `discard=async` is enabled by default as of linux 6.2. TODO: check actual
-mount options.
+Periods for maintenance: balance - weekly, example: `btrfs balance -dusage=50 -dlimit=2` scrub - monthly, with full system backup check `discard=async` is enabled by default as of linux 6.2. TODO: check actual mount options.
 
 `btrfs check` is not safe, it's experimental and can corrupt data (2021).
 
 Resize filesystem (root volume) to maximum size
+
 ```sh
 # first check lsblk -f
 parted /dev/sdb resizepart 2 100% # 2 here is partition numper
@@ -54,8 +47,7 @@ btrfs fi show / # validate size
 
 # What to do on a failed disk (btrfs) / TODO: NEED review and test...
 
-https://superuser.com/questions/1087787/linux-btrfs-convert-to-single-with-failed-drive#:\~:text=Begin%20a%20rebalancing%20operation%20with,and%20size%20of%20your%20array.
-Do this in arch live-iso.
+https://superuser.com/questions/1087787/linux-btrfs-convert-to-single-with-failed-drive#:\~:text=Begin%20a%20rebalancing%20operation%20with,and%20size%20of%20your%20array. Do this in arch live-iso.
 
 Convert Btrfs raid1 to single Btrfs
 
@@ -93,13 +85,9 @@ btrfs fi usage
 
 https://btrfs.wiki.kernel.org/index.php/Using_Btrfs_with_Multiple_Devices
 
-We then shut down the system, plugged the replacement disk in (actually
-the disk we had earlier ruined by double degraded booting, after wiping
-the BTRFS partition), booted and then did the usual dance to turn the
-now-single BTRFS into a RAID1 again.
+We then shut down the system, plugged the replacement disk in (actually the disk we had earlier ruined by double degraded booting, after wiping the BTRFS partition), booted and then did the usual dance to turn the now-single BTRFS into a RAID1 again.
 
-Restore gpt partiton from backup to new drive first (partition~table~),
-and recommended restore EFI partition too. Instructions above.
+Restore gpt partiton from backup to new drive first (partition~table~), and recommended restore EFI partition too. Instructions above.
 
 ```sh
 # add multiple devices
@@ -115,15 +103,9 @@ btrfs fi show
 btrfs filesystem df /
 ```
 
-As a result, we had a RAID1 again. If you wonder why we did not use
-Btrfs replace: We would have to connect the new disk before the second
-reboot, which is not always practical. With the method above, once we
-have rebalanced the file system to a single one, we can reboot as often
-as we like to get the new drive online.
+As a result, we had a RAID1 again. If you wonder why we did not use Btrfs replace: We would have to connect the new disk before the second reboot, which is not always practical. With the method above, once we have rebalanced the file system to a single one, we can reboot as often as we like to get the new drive online.
 
-Alternative
-https://btrfs.wiki.kernel.org/index.php/Using_Btrfs_with_Multiple_Devices#Using_btrfs_replace
-
+Alternative https://btrfs.wiki.kernel.org/index.php/Using_Btrfs_with_Multiple_Devices#Using_btrfs_replace
 
 ## External links
 
