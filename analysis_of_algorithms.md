@@ -11,7 +11,7 @@ sr-ease: 245
 
 # Analysis of algorithms
 
-The process of finding the computational ==[[computational_complexity]]== of algorithms is called analysis of algorithms[^1].
+The process of finding the computational ==[[computational_complexity]]== of algorithms is called analysis of algorithms [^1]. <!--SR:!2025-07-26,2,245-->
 
 Which method can be used to compare, predict performance, and understand various trade-offs between two algorithms?
 <br class="f">

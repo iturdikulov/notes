@@ -10,7 +10,6 @@ sr-ease: 270
 
 # Twitter
 
-From breaking news and entertainment to sports and politics, get the full story
-with all the live commentary.
+From breaking news and entertainment to sports and politics, get the full story with all the live commentary.
 
 The company operated the [[social_networking_service]].

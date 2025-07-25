@@ -10,8 +10,6 @@ sr-ease: 252
 
 # SolveSpace
 
-Is a free (GPLv3) parametric 3d [[computer-aided_design|cad]] tool. TODO: add
-source
+Is a free (GPLv3) parametric 3d [[computer-aided_design|cad]] tool. TODO: add source
 
-TODO: watch series
-[SolveSpace](https://www.youtube.com/playlist?list=PLGAjLwYQPgaBafzQTLA84IkTOptOdIsUX)
+TODO: watch series [SolveSpace](https://www.youtube.com/playlist?list=PLGAjLwYQPgaBafzQTLA84IkTOptOdIsUX)

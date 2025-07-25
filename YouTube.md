@@ -10,14 +10,7 @@ sr-ease: 308
 
 # YouTube
 
-> YouTube is an American online video sharing and social media platform
-> headquartered in San Bruno, California, United States. Accessible worldwide,
-> it was launched on February 14, 2005, by Steve Chen, Chad Hurley, and Jawed
-> Karim. It is owned by Google and is the second most visited website, after
-> Google Search. YouTube has more than 2.5 billion monthly users, who
-> collectively watch more than one billion hours of videos each day. As of May
-> 2019, videos were being uploaded at a rate of more than 500 hours of content
-> per minute.
+> YouTube is an American online video sharing and social media platform headquartered in San Bruno, California, United States. Accessible worldwide, it was launched on February 14, 2005, by Steve Chen, Chad Hurley, and Jawed Karim. It is owned by Google and is the second most visited website, after Google Search. YouTube has more than 2.5 billion monthly users, who collectively watch more than one billion hours of videos each day. As of May 2019, videos were being uploaded at a rate of more than 500 hours of content per minute.
 >
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/YouTube)</cite>
 

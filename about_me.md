@@ -13,7 +13,7 @@ TODO: add more info
 
 I'm [[my_career]], problem-solver, self-[[my_learning_path|learner]], self-promoter, self-organizer; Human being, who wants to be happy, healthy, kind, and wise; Family member, who wants to be a good son and brother.
 
-I would self-identify as a fan of “procedural programming.” I worked as a Frontend developer for about 7-8 years. I worked as a Python developer for a 7 years. I have done a fair amount of Linux specific tasks in my free time. I run Linux Distribution on my personal computer. I care about how to computers works at a low level. I like high-level abstractions and simplicity and building things. 
+I would self-identify as a fan of “procedural programming.” I worked as a Frontend developer for about 7-8 years. I worked as a Python developer for a 7 years. I have done a fair amount of Linux specific tasks in my free time. I run Linux Distribution on my personal computer. I care about how to computers works at a low level. I like high-level abstractions and simplicity and building things.
 
 I also like [[art]], [[computer_graphics]], [[digital_electronics]].
 

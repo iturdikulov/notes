@@ -10,9 +10,7 @@ sr-ease: 249
 
 # Virtual private network (VPN)
 
-> Mechanism for creating a secure connection between a computing device and a
-> [[computer_network]], or between two networks, using an insecure communication
-> medium such as the public [[internet]].\
+> Mechanism for creating a secure connection between a computing device and a [[computer_network]], or between two networks, using an insecure communication medium such as the public [[internet]].\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Virtual_private_network)</cite>
 
 ## External links

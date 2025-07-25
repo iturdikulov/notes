@@ -6,4 +6,3 @@ tags:
 ---
 
 # Transaction Control Language
-

@@ -11,22 +11,12 @@ sr-ease: 256
 
 # Ventoy
 
-> Ventoy is an open source tool to create bootable USB drive for
-> ISO/WIM/IMG/VHD(x)/EFI files. With ventoy, you don't need to format the disk
-> over and over, you just need to copy the ISO/WIM/IMG/VHD(x)/EFI files to the
-> USB drive and boot them directly. You can copy many files at a time and ventoy
-> will give you a boot menu to select them (screenshot). You can also browse
-> ISO/WIM/IMG/VHD(x)/EFI files in local disks and boot them. x86 Legacy BIOS,
-> IA32 UEFI, x86_64 UEFI, ARM64 UEFI and MIPS64EL UEFI are supported in the same
-> way. Most types of OS supported
-> (Windows/WinPE/Linux/ChromeOS/Unix/VMware/Xen...)\
+> Ventoy is an open source tool to create bootable USB drive for ISO/WIM/IMG/VHD(x)/EFI files. With ventoy, you don't need to format the disk over and over, you just need to copy the ISO/WIM/IMG/VHD(x)/EFI files to the USB drive and boot them directly. You can copy many files at a time and ventoy will give you a boot menu to select them (screenshot). You can also browse ISO/WIM/IMG/VHD(x)/EFI files in local disks and boot them. x86 Legacy BIOS, IA32 UEFI, x86_64 UEFI, ARM64 UEFI and MIPS64EL UEFI are supported in the same way. Most types of OS supported (Windows/WinPE/Linux/ChromeOS/Unix/VMware/Xen...)\
 > — <cite>[Ventoy](https://www.ventoy.net/en/index.html)</cite>
 
 ## [Getting started](https://www.ventoy.net/en/doc_start.html)
 
-1. Install ventoy,
-   [AUR (en) - ventoy-bin](https://aur.archlinux.org/packages/ventoy-bin),
-   [Download Ventoy](https://www.ventoy.net/en/download.html)
+1. Install ventoy, [AUR (en) - ventoy-bin](https://aur.archlinux.org/packages/ventoy-bin), [Download Ventoy](https://www.ventoy.net/en/download.html)
 2. Find the USB device
    ```bash
    lsblk -o name,mountpoint,label,size,uuid
