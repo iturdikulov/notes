@@ -12,8 +12,7 @@ sr-ease: 250
 
 # Nginx
 
-> nginx ("engine x") is an HTTP web server, reverse proxy, content cache, load
-> balancer, TCP/UDP proxy server, and mail proxy server.\
+> nginx ("engine x") is an HTTP web server, reverse proxy, content cache, load balancer, TCP/UDP proxy server, and mail proxy server.\
 > — <cite>[nginx](https://nginx.org/)</cite>
 
 Example of basic nginx configuration file:

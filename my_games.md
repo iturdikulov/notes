@@ -11,11 +11,9 @@ sr-ease: 285
 
 TODO: add links inside all lists.
 
-I play computer games, though not excessively, usually on my [[computer]] for
-fun and education. Sometimes I develop games and mods.
+I play computer games, though not excessively, usually on my [[computer]] for fun and education. Sometimes I develop games and mods.
 
-In this note, I am compiling a list of active games (currently playing), games I
-plan to play, and an archive of games I have completed.
+In this note, I am compiling a list of active games (currently playing), games I plan to play, and an archive of games I have completed.
 
 To understand custom bullet list types check [[my_notation]] note.
 
@@ -151,8 +149,7 @@ To understand custom bullet list types check [[my_notation]] note.
 
 ## External links
 
-- [awesome-games-of-coding](https://github.com/michelpereira/awesome-games-of-coding) -
-A curated list of games that can teach you how to learn a programming language.
+- [awesome-games-of-coding](https://github.com/michelpereira/awesome-games-of-coding) - A curated list of games that can teach you how to learn a programming language.
 - [Inomoz Steam](https://steamcommunity.com/id/inomoz/games/?tab=all&sort=name)
 - [ ] [John Carmack: Doom, Quake, VR, AGI, Programming, Video Games, and Rockets | Lex Fridman Podcast #309 - YouTube](https://www.youtube.com/watch?v=I845O57ZSy4)
 - [ ] [Let’s BUILD a COMPUTER in CONWAY's GAME of LIFE ⠠⠵ - YouTube](https://www.youtube.com/watch?v=Kk2MH9O4pXY)

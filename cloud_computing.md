@@ -9,13 +9,7 @@ sr-ease: 237
 
 # Cloud computing
 
-> Cloud computing is the on-demand availability of [[computer]] system
-> resources, especially data storage (cloud storage) and [[computing]] power,
-> without direct active management by the user. Large clouds often have
-> functions distributed over multiple locations, each of which is a data center.
-> Cloud computing relies on sharing of resources to achieve coherence and
-> typically uses a pay-as-you-go model, which can help in reducing capital
-> expenses but may also lead to unexpected operating expenses for users.\
+> Cloud computing is the on-demand availability of [[computer]] system resources, especially data storage (cloud storage) and [[computing]] power, without direct active management by the user. Large clouds often have functions distributed over multiple locations, each of which is a data center. Cloud computing relies on sharing of resources to achieve coherence and typically uses a pay-as-you-go model, which can help in reducing capital expenses but may also lead to unexpected operating expenses for users.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Cloud_computing)</cite>
 
 ## External links

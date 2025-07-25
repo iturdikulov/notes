@@ -11,6 +11,5 @@ sr-ease: 346
 
 # Brain.fm
 
-> Use Brain.fm's functional [[my_music|music]] to help you focus relax and sleep
-> better, using cutting edge neuroscience to get results.\
+> Use Brain.fm's functional [[my_music|music]] to help you focus relax and sleep better, using cutting edge neuroscience to get results.\
 > — <cite>[Brain.fm](https://www.brain.fm/)</cite>

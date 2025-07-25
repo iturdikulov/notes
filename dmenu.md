@@ -10,16 +10,12 @@ sr-ease: 270
 
 # dmenu (dynamic menu for X)
 
-> dmenu is a dynamic menu for X, originally designed for dwm. It manages large
-> numbers of user-defined menu items efficiently.\
+> dmenu is a dynamic menu for X, originally designed for dwm. It manages large numbers of user-defined menu items efficiently.\
 > — <cite>[dmenu](https://tools.suckless.org/dmenu/)</cite>
 
-I widely used dmenu in my scripts (before rofi), which linked with my global
-shortcuts. It's allow integrating CLI programs with nice looking UI to quickly
-run desired actions.
+I widely used dmenu in my scripts (before rofi), which linked with my global shortcuts. It's allow integrating CLI programs with nice looking UI to quickly run desired actions.
 
-You can use dmenu as programs launcher (main purpose), search tool, etc. One of
-popular alternative is [[Rofi]], which I use right now.
+You can use dmenu as programs launcher (main purpose), search tool, etc. One of popular alternative is [[Rofi]], which I use right now.
 
 dmenu is keyboard oriented program, and need to use it's
 

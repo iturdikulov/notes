@@ -13,11 +13,9 @@ sr-ease: 229
 
 This is my important place in choosing what to learn for [[my_goals]] and my [[projects]] required skills. These two entities are primary source of my learning materials.
 
-Since I'm use [[Zettelkasten]], I can create new notes based on education
-materials and extend them with different sources and my experience.
+Since I'm use [[Zettelkasten]], I can create new notes based on education materials and extend them with different sources and my experience.
 
-My current focus is on following things, order is not important. All with help of [[spaced_repetition]], [[SQ3R_method]], [[Zettelkasten]],
-[[how_to_study_or_learn|study techniques]], etc.
+My current focus is on following things, order is not important. All with help of [[spaced_repetition]], [[SQ3R_method]], [[Zettelkasten]], [[how_to_study_or_learn|study techniques]], etc.
 
 I need spent some time each day, enough to learn something new.
 
@@ -37,8 +35,7 @@ I find list very effective to track something, so I formatted learning path as m
 
 [[mathematics#Mathematics learning path|Mathematics]] is a "clean" fundamental [[science]], and part of many others, I want to learn it better, at least on some beginner/medium level.
 
-[[physics#Physics learning path|Physics]] and [[chemistry#Chemistry learning path|chemistry]] go after mathematics in my learning priority. I want to
-understand world better, and this fields can help me with it.
+[[physics#Physics learning path|Physics]] and [[chemistry#Chemistry learning path|chemistry]] go after mathematics in my learning priority. I want to understand world better, and this fields can help me with it.
 
 [[Russian#Russian learning path|Russian]] and [[English#English learning path|English]] languages. English is great to reveal huge part of world, new knowledge and opportunities, I'm native Russian speaker, currently I spent more time to learn English.
 

@@ -10,13 +10,11 @@ sr-ease: 185
 
 # Cheat sheet and reference card
 
-I use mostly cheat-sheets as reference cards. It's give me high-level overview
-of the topic and the most important commands.
+I use mostly cheat-sheets as reference cards. It's give me high-level overview of the topic and the most important commands.
 
 Primary sources are [[computer]]-related subjects and [[computer_software]].
 
-I also have my own collections of images and PDF files with various
-cheat-sheets, quick reference cards and other useful stuff.
+I also have my own collections of images and PDF files with various cheat-sheets, quick reference cards and other useful stuff.
 
 A lot of [[computer_software]] include built-in cheatsheets of hotkeys:
 
@@ -38,5 +36,4 @@ A lot of [[computer_software]] include built-in cheatsheets of hotkeys:
 - [QuickRef.ME](https://quickref.me/)
 - [Wizard zines](https://wizardzines.com/comics/)
 - [C++ Cheat Sheets & Infographics](https://hackingcpp.com/cpp/cheat_sheets.html)
-- [CS 261](https://w3.cs.jmu.edu/lam2mo/cs261_2016_08/calendar.html), great
-source for [[computer_science#Learning path|learning]].
+- [CS 261](https://w3.cs.jmu.edu/lam2mo/cs261_2016_08/calendar.html), great source for [[computer_science#Learning path|learning]].

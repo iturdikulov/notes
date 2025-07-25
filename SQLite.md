@@ -12,20 +12,12 @@ sr-ease: 270
 
 # SQLite
 
-> SQLite (/ˌɛsˌkjuːˌɛlˈaɪt/, /ˈsiːkwəˌlaɪt/) is a database engine written in the
-> C programming language. It is not a standalone app; rather, it is a library
-> that software developers embed in their apps. As such, it belongs to the
-> family of embedded databases. It is the most widely deployed database engine,
-> as it is used by several of the top web browsers, operating systems, mobile
-> phones, and other embedded systems.\
+> SQLite (/ˌɛsˌkjuːˌɛlˈaɪt/, /ˈsiːkwəˌlaɪt/) is a database engine written in the C programming language. It is not a standalone app; rather, it is a library that software developers embed in their apps. As such, it belongs to the family of embedded databases. It is the most widely deployed database engine, as it is used by several of the top web browsers, operating systems, mobile phones, and other embedded systems.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/SQLite)</cite>
-
 
 Is there strict typing in SQLite?
 <br class="f">
-SQLite has a loose type system, you can store any type of data in any field,
-regardless of how you defined it. Remember: just because you can do something,
-doesn't mean you should! <!--SR:!2024-11-11,2,250-->
+SQLite has a loose type system, you can store any type of data in any field, regardless of how you defined it. Remember: just because you can do something, doesn't mean you should! <!--SR:!2024-11-11,2,250-->
 
 How import data from SQL, which is main command at least?
 <br class="f">

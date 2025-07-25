@@ -10,8 +10,7 @@ sr-ease: 246
 
 # Process
 
-Computer program that is being executed by one or many threads. Since my main
-[[OS]] is [[Linux]], I'll collect information about Linux/Unix processes.
+Computer program that is being executed by one or many threads. Since my main [[OS]] is [[Linux]], I'll collect information about Linux/Unix processes.
 
 Useful commands:
 

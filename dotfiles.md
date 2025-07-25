@@ -9,14 +9,11 @@ sr-ease: 237
 
 # dotfiles - Hidden file and hidden directory
 
-Hidden file or directory, is item which file system utilities do not display by
-default when they are used to showing directory listing. This behavior useful to
-not "clutter" the display of the content of directory.
+Hidden file or directory, is item which file system utilities do not display by default when they are used to showing directory listing. This behavior useful to not "clutter" the display of the content of directory.
 
 They are commonly used for storing user configuration files.
 
-My personal `dotfiles` [GitHub](https://github.com/iturdikulov/dotfiles)
-contains almost everything related to software which I use.
+My personal `dotfiles` [GitHub](https://github.com/iturdikulov/dotfiles) contains almost everything related to software which I use.
 
 ## External links
 

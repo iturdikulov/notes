@@ -9,6 +9,7 @@ sr-ease: 229
 ---
 
 # Function overloading (method overloading)
+
 <br class="f">
 > Ability to create multiple [[function|functions]] of
 > the same name with different implementations. Calls to an overloaded function

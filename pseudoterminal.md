@@ -10,15 +10,11 @@ sr-ease: 210
 
 # Pseudoterminal (pseudotty or PTY)
 
-In [[Unix]]-like systems, a pseudoterminal is a pair of pseudo-device endpoints
-(files) which establish asynchronous, bidirectional communication (IPC) channel
-(with two ports) between two or more processes.
+In [[Unix]]-like systems, a pseudoterminal is a pair of pseudo-device endpoints (files) which establish asynchronous, bidirectional communication (IPC) channel (with two ports) between two or more processes.
 
-In the pair master controls slave (like remote login/terminal) and slave acts like serial
-port for shell programs, enabling two-way communication
+In the pair master controls slave (like remote login/terminal) and slave acts like serial port for shell programs, enabling two-way communication
 
-To control master through provided means used special terminal emulator
-applications, like [[foot]].
+To control master through provided means used special terminal emulator applications, like [[foot]].
 
 ![[img/termios-script-diagram.excalidraw|Termios script diagram]]
 _Termios script diagram_

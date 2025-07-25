@@ -9,14 +9,11 @@ sr-ease: 228
 
 # Escape sequences
 
-Combination of characters, which meaning something other than the literal
-characters contained therein.
+Combination of characters, which meaning something other than the literal characters contained therein.
 
-Usually 2 characters, one is preceding and second is actual character (which
-explain that escape sequence).
+Usually 2 characters, one is preceding and second is actual character (which explain that escape sequence).
 
-In C escape sequence is one character (`char` integer type), which is preceded
-by backslash.
+In C escape sequence is one character (`char` integer type), which is preceded by backslash.
 
 ## Escape sequences in C
 

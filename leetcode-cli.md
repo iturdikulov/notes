@@ -11,8 +11,7 @@ sr-ease: 146
 
 # `leetcode-cli`
 
-[[CLI]] tool to interact with [[LeetCode]], it's simplify process and give you
-tool to automate test submissions, list problems, etc.
+[[CLI]] tool to interact with [[LeetCode]], it's simplify process and give you tool to automate test submissions, list problems, etc.
 
 Typical workflow:
 

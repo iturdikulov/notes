@@ -11,9 +11,7 @@ sr-ease: 330
 
 # Puzzle English
 
-Online platform for learning English. Contains various exercises, tests, words
-learning, etc. They use aggressive marketing techniques and I paid for the
-subscription (premium). So I try to use it as much as possible.
+Online platform for learning English. Contains various exercises, tests, words learning, etc. They use aggressive marketing techniques and I paid for the subscription (premium). So I try to use it as much as possible.
 
 Features:
 
@@ -23,8 +21,7 @@ Features:
 - Interactive tests
 - ...
 
-I think I can take some useful notes from this website. I'll track them here -
-[[Puzzle_English_learning_by_plan|plan]].
+I think I can take some useful notes from this website. I'll track them here - [[Puzzle_English_learning_by_plan|plan]].
 
 ## External links
 

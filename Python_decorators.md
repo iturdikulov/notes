@@ -10,13 +10,9 @@ sr-ease: 130
 
 # Python decorators
 
-Decorators are a form of syntactic sugar to make your code more concise,
-basically it's functions which modify the functionality of other functions,
-usually do something before and after original function execution (without
-explicitly modifying the original function).
+Decorators are a form of syntactic sugar to make your code more concise, basically it's functions which modify the functionality of other functions, usually do something before and after original function execution (without explicitly modifying the original function).
 
-They make code easier to read while accomplishing clunky syntax. Wrappers are
-one type of decorator.
+They make code easier to read while accomplishing clunky syntax. Wrappers are one type of decorator.
 
 Simple example of function decoration:
 
@@ -40,7 +36,7 @@ func()
 print(func.__name__)  # inner_function
 ```
 
-![[img/Python_simple_function_wrap.excalidraw|Python function wrap diagram]]
+![[img/Python_simple_function_wrap.excalidraw|Python function wrap diagram]]\
 _Function wrap_
 
 Simplify decoration with `@` decorator:
@@ -63,8 +59,7 @@ hello_world()
 print(hello_world.__name__)  # inner_function
 ```
 
-Use `functools.wraps` to update a wrapper function to look like the wrapped
-function (which we pass):
+Use `functools.wraps` to update a wrapper function to look like the wrapped function (which we pass):
 
 ```python
 from functools import wraps

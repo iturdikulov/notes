@@ -11,15 +11,9 @@ sr-ease: 232
 
 Zettelkasten Type
 
-Excalidraw is a free, open-source (offline and online) virtual whiteboard for
-sketching hand-drawn like diagrams (https://excalidraw.com/). While Zettelkasten
-traditionally relies on text-based notes, Excalidraw can be a useful addition
-for creating [[visual_art|visual representations]] of ideas, concepts, and
-relationships between them.
+Excalidraw is a free, open-source (offline and online) virtual whiteboard for sketching hand-drawn like diagrams (https://excalidraw.com/). While Zettelkasten traditionally relies on text-based notes, Excalidraw can be a useful addition for creating [[visual_art|visual representations]] of ideas, concepts, and relationships between them.
 
-Excalidraw can be used to creating mind maps or concept maps to organize
-ideas. Diagramming complex systems or processes. Illustrating metaphors or
-analogies. Highlighting key points in a text note with a visual summary.
+Excalidraw can be used to creating mind maps or concept maps to organize ideas. Diagramming complex systems or processes. Illustrating metaphors or analogies. Highlighting key points in a text note with a visual summary.
 
 Excalidraw benefits:
 
@@ -27,8 +21,7 @@ Excalidraw benefits:
 - Easier identification of patterns and connections between ideas.
 - More engaging and interactive note-taking experience.
 
-Primarily a tool for brainstorming and initial exploration, may not be suitable
-for detailed note-taking, for this I use own [[Zettelkasten]] system.
+Primarily a tool for brainstorming and initial exploration, may not be suitable for detailed note-taking, for this I use own [[Zettelkasten]] system.
 
 Integration with Zettelkasten
 

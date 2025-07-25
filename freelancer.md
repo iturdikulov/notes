@@ -9,18 +9,9 @@ sr-ease: 265
 
 # Freelancer
 
-> Freelance (sometimes spelled free-lance or free lance), freelancer, or
-> freelance worker, are terms commonly used for a person who is self-employed
-> and not necessarily committed to a particular employer long-term. Freelance
-> workers are sometimes represented by a company or a temporary agency that
-> resells freelance labor to clients; others work independently or use
-> professional associations or websites to get work.
+> Freelance (sometimes spelled free-lance or free lance), freelancer, or freelance worker, are terms commonly used for a person who is self-employed and not necessarily committed to a particular employer long-term. Freelance workers are sometimes represented by a company or a temporary agency that resells freelance labor to clients; others work independently or use professional associations or websites to get work.
 >
-> Fields, professions, and industries where freelancing is predominant include:
-> music, writing, acting, [[computer_programming]], web design,
-> [[computer_graphics|graphic]] design, translating and illustrating, film and
-> video production, and other forms of piece work that some cultural theorists
-> consider central to the cognitive-cultural economy.\
+> Fields, professions, and industries where freelancing is predominant include: music, writing, acting, [[computer_programming]], web design, [[computer_graphics|graphic]] design, translating and illustrating, film and video production, and other forms of piece work that some cultural theorists consider central to the cognitive-cultural economy.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Freelancer)</cite>
 
 ## External links

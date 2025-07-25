@@ -9,13 +9,7 @@ sr-ease: 269
 
 # Hostname
 
-> In [[computer_network]], a hostname (archaically [[node|nodename]]) is a label
-> that is assigned to a device connected to a computer network and that is used
-> to identify the device in various forms of electronic communication, such as
-> the World Wide Web. Hostnames may be simple names consisting of a single word
-> or phrase, or they may be structured. Each hostname usually has at least one
-> numeric network address associated with it for routing packets for performance
-> and other reasons.\
+> In [[computer_network]], a hostname (archaically [[node|nodename]]) is a label that is assigned to a device connected to a computer network and that is used to identify the device in various forms of electronic communication, such as the World Wide Web. Hostnames may be simple names consisting of a single word or phrase, or they may be structured. Each hostname usually has at least one numeric network address associated with it for routing packets for performance and other reasons.\
 > — <cite>[Hostname](https://en.wikipedia.org/wiki/Hostname)</cite>
 
 Here are some good hostnames which I use for my computers.

@@ -9,31 +9,23 @@ sr-ease: 245
 
 # Computer hardware
 
-> Computer hardware includes the physical parts of a [[computer]], such as the
-> case, central processing unit (CPU), random access memory (RAM), monitor,
-> mouse, keyboard, computer data storage, graphics card, sound card, speakers
-> and motherboard.
+> Computer hardware includes the physical parts of a [[computer]], such as the case, central processing unit (CPU), random access memory (RAM), monitor, mouse, keyboard, computer data storage, graphics card, sound card, speakers and motherboard.
 >
-> By contrast, software is the set of instructions that can be stored and run by
-> hardware. Hardware is so-termed because it is "hard" or rigid with respect to
-> changes, whereas software is "soft" because it is easy to change.
+> By contrast, software is the set of instructions that can be stored and run by hardware. Hardware is so-termed because it is "hard" or rigid with respect to changes, whereas software is "soft" because it is easy to change.
 >
-> Hardware is typically directed by the software to execute any command or
-> instruction. A combination of hardware and software forms a usable computing
-> system, although other systems exist with only hardware.\
+> Hardware is typically directed by the software to execute any command or instruction. A combination of hardware and software forms a usable computing system, although other systems exist with only hardware.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Computer_hardware)</cite>
 
 Great cheap computer hardware:
 
-[Computer Hardware Chart 2.0 by Sonic840](img/ref-Computer_hardware_chart.webp)
-[Source](https://www.deviantart.com/sonic840/art/Computer-Hardware-Chart-2-0-587798335)
+[Computer Hardware Chart 2.0 by Sonic840](img/ref-Computer_hardware_chart.webp) [Source](https://www.deviantart.com/sonic840/art/Computer-Hardware-Chart-2-0-587798335)
 
 ## Learning path
 
 - [ ] [[Petzold-Code]], recently (2022) was rewritten, contains many "base"
 - [Архитектура микропроцессоров и изоляция уровней исполнения](https://dxdt.ru/2024/03/29/12651/)
 - Gomel University - mikroprocessory i kompjutery
-- [ ] [How does Computer Hardware Work?  - YouTube](https://www.youtube.com/watch?v=d86ws7mQYIg)
+- [ ] [How does Computer Hardware Work? - YouTube](https://www.youtube.com/watch?v=d86ws7mQYIg)
 - [ ] [PDP-11 - Wikipedia](https://en.wikipedia.org/wiki/PDP-11)
 - [ ] [Visual Transistor-level Simulation of the 6502 CPU](http://visual6502.org/)
 - [ ] [How do hardware timers work? - YouTube](https://www.youtube.com/watch?v=g_koa00MBLg)

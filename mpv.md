@@ -12,12 +12,9 @@ sr-ease: 333
 
 # mpv
 
-mpv is a free (as in freedom) [[media]] player for the command line (it has own
-pseudo-gui). It supports a wide variety of media file formats (including
-images), audio and video codecs, and subtitle types.
+mpv is a free (as in freedom) [[media]] player for the command line (it has own pseudo-gui). It supports a wide variety of media file formats (including images), audio and video codecs, and subtitle types.
 
-mpv also provide GPU video decoding, API, scripts, OSD, OSC, configurable
-keybinding and ton of other features.
+mpv also provide GPU video decoding, API, scripts, OSD, OSC, configurable keybinding and ton of other features.
 
 I use it as my main video player
 
@@ -92,5 +89,4 @@ TODO: add scripts from my nix dotfiles
 - [ ] [GitHub - NurioHin/mpv-bookmarker: A bookmarker menu to manage all your bookmarks in mpv](https://github.com/NurioHin/mpv-bookmarker/)
 - [ ] [GitHub - zenyd/mpv-scripts: Scripts for the mpv media player](https://github.com/zenyd/mpv-scripts)
 - [ ] [GitHub - occivink/mpv-scripts: Various scripts for mpv](https://github.com/occivink/mpv-scripts)
-- [umpv](https://github.com/mpv-player/mpv/blob/master/TOOLS/umpv), useful to
-add queue, use mpv as music player, emulates "single mpv instance"
+- [umpv](https://github.com/mpv-player/mpv/blob/master/TOOLS/umpv), useful to add queue, use mpv as music player, emulates "single mpv instance"

@@ -12,10 +12,7 @@ sr-ease: 252
 
 # fd
 
-> fd is a program to **find** entries in your **filesystem**. It is a simple,
-> **fast** and user-friendly alternative to find. While it does not aim to
-> support all of find's powerful functionality, it provides sensible
-> (opinionated) defaults for a majority of use cases.\
+> fd is a program to **find** entries in your **filesystem**. It is a simple, **fast** and user-friendly alternative to find. While it does not aim to support all of find's powerful functionality, it provides sensible (opinionated) defaults for a majority of use cases.\
 > — <cite>[Github](https://github.com/sharkdp/fd)</cite>
 
 ## Commands

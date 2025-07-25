@@ -12,12 +12,7 @@ sr-ease: 130
 
 ## Programmer
 
-> [!quote] 
-  The programmer must have the ability of a first-class mathematician for
-  abstraction and logical thinking, combined with Edison's talent for
-  constructing anything from zero and one. He must combine the accuracy of a
-  bank clerk with the insight of an intelligence officer, the fantasy of a
-  detective novelist with the sober practicality of a businessman. And besides, a programmer should be familiar with corporate interests, have a taste for teamwork, understand the purpose of the work, and much more.\
+> [!quote] The programmer must have the ability of a first-class mathematician for abstraction and logical thinking, combined with Edison's talent for constructing anything from zero and one. He must combine the accuracy of a bank clerk with the insight of an intelligence officer, the fantasy of a detective novelist with the sober practicality of a businessman. And besides, a programmer should be familiar with corporate interests, have a taste for teamwork, understand the purpose of the work, and much more.\
 > — <cite>Andrey Petrovich Yershov</cite>
 
 To be an effective programmer is one of my primary [[my_goals#Goal 1 Become an effective programmer|goal]]. My current abilities and skills available in [[cv_en.pdf]] and [[cv_ru.pdf]].
@@ -27,9 +22,9 @@ To be an effective programmer is one of my primary [[my_goals#Goal 1 Become an e
 TODO: Scratch! Requiring a lot rewriting work.
 
 - Development of complex software systems using Python (7.2/10), Go (2/10), C (2/10).
-	- Python with modern asyncio, libraries and frameworks, type hints.
-	- Advanced typing system utilization (protocols, generics)
-	- Experience with pydantic, aiohttp, FastAPI, Django, requests, pytest/unittest.
+  - Python with modern asyncio, libraries and frameworks, type hints.
+  - Advanced typing system utilization (protocols, generics)
+  - Experience with pydantic, aiohttp, FastAPI, Django, requests, pytest/unittest.
 - Web development
 - Strong focus on asynchronous programming.
 - Proficiency in scripting languages: Bourne Shell (6/10), Lua (4/10).
@@ -48,9 +43,7 @@ Software Engineering & Architecture:
 
 Databases & Infrastructure:
 
-- [[SQL]] language expertise, particularly [[PostgreSQL]] and [[SQLite]]
-  dialects, indexes, transactinos, views, and triggers, procedures, functions,
-  and stored procedures
+- [[SQL]] language expertise, particularly [[PostgreSQL]] and [[SQLite]] dialects, indexes, transactinos, views, and triggers, procedures, functions, and stored procedures
 - SQL [[SQL#ORM|ORM]] frameworks
 - SQL optimization and database expert knowledge
 - Experience with Redis, ElasticCache

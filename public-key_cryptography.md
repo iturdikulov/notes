@@ -9,14 +9,7 @@ sr-ease: 239
 
 # Public-key cryptography
 
-> Public-key [[cryptography]], or asymmetric cryptography, is the field of
-> cryptographic systems that use pairs of related keys. Each key pair consists
-> of a public key and a corresponding private key. Key pairs are generated with
-> cryptographic [[algorithm|algorithms]] based on [[mathematics|mathematical]]
-> problems termed one-way functions.
-> [[computer_security|Security]] of public-key cryptography depends on keeping
-> the private key secret; the public key can be openly distributed without
-> compromising security.\
+> Public-key [[cryptography]], or asymmetric cryptography, is the field of cryptographic systems that use pairs of related keys. Each key pair consists of a public key and a corresponding private key. Key pairs are generated with cryptographic [[algorithm|algorithms]] based on [[mathematics|mathematical]] problems termed one-way functions. [[computer_security|Security]] of public-key cryptography depends on keeping the private key secret; the public key can be openly distributed without compromising security.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Public-key_cryptography)</cite>
 
 Examples of protocols using asymmetric key algorithms include:
@@ -27,8 +20,7 @@ Examples of protocols using asymmetric key algorithms include:
 - IPsec
 - PGP
 - ZRTP, a secure VoIP protocol
-- Transport Layer Security standardized by IETF and its predecessor Secure
-  Socket Layer
+- Transport Layer Security standardized by IETF and its predecessor Secure Socket Layer
 - SILC
 - SSH
 - Bitcoin

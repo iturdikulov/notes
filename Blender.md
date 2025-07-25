@@ -12,13 +12,9 @@ sr-ease: 184
 
 # Blender
 
-Free and open source [[3D_computer_graphics|3D]] creation suite. Free as in
-freedom.
+Free and open source [[3D_computer_graphics|3D]] creation suite. Free as in freedom.
 
-[[computer_graphics|Computer graphics]] software tool set used for creating
-animated films, visual effects, [[art]], 3D-printed models, motion graphics,
-interactive 3D applications, virtual reality, and, formerly, video
-[[game|games]].
+[[computer_graphics|Computer graphics]] software tool set used for creating animated films, visual effects, [[art]], 3D-printed models, motion graphics, interactive 3D applications, virtual reality, and, formerly, video [[game|games]].
 
 The [[blender_keyboard_shortcuts]] keep me working effective, fast and enjoyable.
 
@@ -28,8 +24,7 @@ The [[blender_keyboard_shortcuts]] keep me working effective, fast and enjoyable
 - [[Creative_Shrimp-Hard_surface_modeling_In_Blender]]
 - Trammell HUMAN Realistic Portrait With Blender?
 - Tuytel and Rahman Creating 3D Environments?
-- [Creating Realistic 3D Water in
-Blender](https://www.youtube.com/watch?v=vr7mkSiKRLM)
+- [Creating Realistic 3D Water in Blender](https://www.youtube.com/watch?v=vr7mkSiKRLM)
 - [ ] [Making 3D console](https://cgcookie.com/courses/press-start-your-simple-first-blender-project)
 - [ ] [Blender Panel to import Google Earth Studio, KML Routes, and 3D Masking](https://github.com/imagiscope/EarthStudioTools)
 
@@ -59,7 +54,7 @@ Blender](https://www.youtube.com/watch?v=vr7mkSiKRLM)
 - [intranetgirl](https://www.youtube.com/@intr4)
 - [RenderRides](https://www.youtube.com/@RenderRides)
 
-- [ ] [How to Create 3D Terrain with Google Maps and Blender! - YouTube](https://www.youtube.com/watch?v=Mj7Z1P2hUWk )
+- [ ] [How to Create 3D Terrain with Google Maps and Blender! - YouTube](https://www.youtube.com/watch?v=Mj7Z1P2hUWk)
 - [ ] [Creating Realistic 3d Pencil model in Blender Tutorial](https://www.youtube.com/watch?v=dq7qUVHnN0M)
 - [ ] [Part 1: Ball Tube Slide - Satisfying Animation Loop (Blender Tutorial) - YouTube](https://www.youtube.com/watch?v=sWPXIgIL1dM)
 - [ ] [Blender Tutorial: Hologram - YouTube](https://www.youtube.com/watch?v=0OsgS2JpM8k)
@@ -110,4 +105,3 @@ Blender](https://www.youtube.com/watch?v=vr7mkSiKRLM)
 ## Tools
 
 - [Scripts to import data into blender for use with testing/benchmarking renderers](https://github.com/aclysma/rendering-demo-scenes)
-

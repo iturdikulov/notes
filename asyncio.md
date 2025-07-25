@@ -3,7 +3,7 @@ created: 2023-08-27T00:00+03:00
 tags:
   - blog
   - Python
-sr-due: 2025-07-17
+sr-due: 2024-07-17
 sr-interval: 1
 sr-ease: 134
 ---

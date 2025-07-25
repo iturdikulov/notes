@@ -18,6 +18,7 @@ Below some information how to start syncthing on startup.
 [From https://github.com/gutenye/syncthing-kindle/issues/3](https://github.com/gutenye/syncthing-kindle/issues/3)
 
 Copy script somewhere, source is from first post (into Kindle), for example into `/mnt/us/documents/syncthing.conf`
+
 ```
 # syncthing daemon
 
@@ -36,6 +37,7 @@ end script
 ```
 
 Open terminal in KOReader: `Tools -> Page 2 -> More tools Terminal emulator` and copy script:
+
 ```
 mntroot rw
 cp /mnt/us/documents/syncthing.conf /etc/upstart

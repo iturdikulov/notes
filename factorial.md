@@ -12,9 +12,7 @@ sr-ease: 210
 
 What is factorial?
 <br class="f">
-Product (multiplication) of all positive integers
-(including 0) less than or equal to n. In other words, multiply all numbers from
-${n}$ to 1.
+Product (multiplication) of all positive integers (including 0) less than or equal to n. In other words, multiply all numbers from ${n}$ to 1.
 
 | $${n}$$ | $${n!}$$  |
 | ------- | --------- |
@@ -38,12 +36,12 @@ Examples:
 - ${1}!$ 1
 - ${10}!$ 10 × 9 × 8 × 7 × 6 × 5 × 4 × 3 × 2 × 1 = 3628800
 
-10! = 10 × 9!, ... and 125! = 125 × 124!, etc. How this can be described in a
-formula?
+10! = 10 × 9!, ... and 125! = 125 × 124!, etc. How this can be described in a formula?
 <br class="f">
 $$
 {n!} = n \times (n-1)!
 $$
+
 Where ${n-1}!$ is just part of ${n!}$.
 
 ## External links

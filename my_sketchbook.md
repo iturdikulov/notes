@@ -13,20 +13,15 @@ sr-ease: 249
 
 My first steps in [[art]] creation.
 
-This is place where I store my drawings. Some are digital some are scanned from
-paper. I'll place here more [[art]] related stuff. I use [[PureRef]] to store my
-reference images all them aviable in [pur](./img/my_sketchbook.pur) file.
+This is place where I store my drawings. Some are digital some are scanned from paper. I'll place here more [[art]] related stuff. I use [[PureRef]] to store my reference images all them aviable in [pur](./img/my_sketchbook.pur) file.
 
-Remember to **have fun** and experiment with different styles and techniques as
-you complete the challenge!
+Remember to **have fun** and experiment with different styles and techniques as you complete the challenge!
 
 To understand custom bullet list types check [[my_notation]] note.
 
 ## Sphere
 
-> [!NOTE]- References and tutorials
-> ![Learn To Draw #01](https://www.youtube.com/watch?v=ewMksAbgdBI).
-> ![How to Sphere](https://www.youtube.com/watch?app=desktop&v=gE1CmIzQzgE)
+> [!NOTE]- References and tutorials ![Learn To Draw #01](https://www.youtube.com/watch?v=ewMksAbgdBI). ![How to Sphere](https://www.youtube.com/watch?app=desktop&v=gE1CmIzQzgE)
 
 ## Vehicle
 
@@ -90,8 +85,7 @@ To understand custom bullet list types check [[my_notation]] note.
 
 ## Inbox
 
-- redraw
-  [The Sleep of Reason Produces Monsters - Wikipedia](https://en.wikipedia.org/wiki/The_Sleep_of_Reason_Produces_Monsters)
+- redraw [The Sleep of Reason Produces Monsters - Wikipedia](https://en.wikipedia.org/wiki/The_Sleep_of_Reason_Produces_Monsters)
 
 ## External links
 

@@ -9,16 +9,7 @@ sr-ease: 230
 
 # Do it yourself (DIY)
 
-> "Do it yourself" ("DIY") is the method of building, modifying, or repairing
-> things by oneself without the direct aid of professionals or certified
-> experts. Academic research has described DIY as behaviors where "individuals
-> use raw and semi-raw materials and parts to produce, transform, or reconstruct
-> material possessions, including those drawn from the natural environment
-> (e.g., landscaping)". DIY behavior can be triggered by various motivations
-> previously categorized as marketplace motivations (economic benefits, lack of
-> product availability, lack of product quality, need for customization), and
-> identity enhancement (craftsmanship, empowerment, community seeking,
-> uniqueness).\
+> "Do it yourself" ("DIY") is the method of building, modifying, or repairing things by oneself without the direct aid of professionals or certified experts. Academic research has described DIY as behaviors where "individuals use raw and semi-raw materials and parts to produce, transform, or reconstruct material possessions, including those drawn from the natural environment (e.g., landscaping)". DIY behavior can be triggered by various motivations previously categorized as marketplace motivations (economic benefits, lack of product availability, lack of product quality, need for customization), and identity enhancement (craftsmanship, empowerment, community seeking, uniqueness).\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Do_it_yourself)</cite>
 
 For me DIY is important part of my [[life]].

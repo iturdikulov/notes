@@ -9,14 +9,7 @@ sr-ease: 248
 
 # dm-crypt (cryptsetup)
 
-> dm-crypt is a transparent block device encryption subsystem in [[Linux]]
-> kernel versions 2.6 and later and in DragonFly BSD. It is part of the device
-> mapper (dm) infrastructure, and uses cryptographic routines from the kernel's
-> Crypto API. Unlike its predecessor cryptoloop, dm-crypt was designed to
-> support advanced modes of operation, such as XTS, LRW and ESSIV (see disk
-> encryption theory for further information), in order to avoid watermarking
-> attacks. In addition to that, dm-crypt addresses some reliability problems of
-> cryptoloop.\
+> dm-crypt is a transparent block device encryption subsystem in [[Linux]] kernel versions 2.6 and later and in DragonFly BSD. It is part of the device mapper (dm) infrastructure, and uses cryptographic routines from the kernel's Crypto API. Unlike its predecessor cryptoloop, dm-crypt was designed to support advanced modes of operation, such as XTS, LRW and ESSIV (see disk encryption theory for further information), in order to avoid watermarking attacks. In addition to that, dm-crypt addresses some reliability problems of cryptoloop.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Dm-crypt)</cite>
 
 ## Create/mount encrypted file container

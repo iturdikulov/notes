@@ -12,8 +12,7 @@ sr-ease: 226
 
 What is English transcription?
 <br class="f">
-English transcription is a way to write English
-words using only English letters.
+English transcription is a way to write English words using only English letters.
 
 ## External links
 

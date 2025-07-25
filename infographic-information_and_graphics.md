@@ -9,16 +9,9 @@ sr-ease: 271
 
 # Infographic (information and graphics)
 
-> Graphic visual representations of information, data, or knowledge intended to
-> present information quickly and clearly. They can improve cognition by
-> utilizing graphics to enhance the human visual system's ability to see
-> patterns and trends.
+> Graphic visual representations of information, data, or knowledge intended to present information quickly and clearly. They can improve cognition by utilizing graphics to enhance the human visual system's ability to see patterns and trends.
 >
-> Infographics can be created by hand using simple everyday tools such as graph
-> paper, pencils, markers, and rulers. However, today they are more often
-> created using [[computer_program|computer software]], which is often both
-> faster and easier. They can be created with general
-> [[my_awesome_software_list#graphics|illustration software]].\
+> Infographics can be created by hand using simple everyday tools such as graph paper, pencils, markers, and rulers. However, today they are more often created using [[computer_program|computer software]], which is often both faster and easier. They can be created with general [[my_awesome_software_list#graphics|illustration software]].\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Infographic)</cite>
 
 TODO: add examples

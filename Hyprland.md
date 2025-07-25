@@ -13,8 +13,7 @@ sr-ease: 272
 
 # Hyprland
 
-> Hyprland is an independent, highly customizable, dynamic tiling Wayland
-> compositor that doesn't sacrifice on its looks.\
+> Hyprland is an independent, highly customizable, dynamic tiling Wayland compositor that doesn't sacrifice on its looks.\
 > — <cite>[hyprwm/Hyprland](https://github.com/hyprwm/Hyprland)</cite>
 
 ## Basic Window Control

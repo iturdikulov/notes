@@ -10,30 +10,18 @@ sr-ease: 130
 
 # C programming language
 
-C is multi-paradigm programming language (I started learn it later than needed
-😼). By design work efficiently with typical machine instructions.
+C is multi-paradigm programming language (I started learn it later than needed 😼). By design work efficiently with typical machine instructions.
 
-It\'s some like low-level programming language (but C is high-level and
-general-purpose programming language). It's support functional/procedure
-programming paradigm.
+It\'s some like low-level programming language (but C is high-level and general-purpose programming language). It's support functional/procedure programming paradigm.
 
-C common used in OS development, microcontroller firmware development,
-databases, game development, utilities, etc.
+C common used in OS development, microcontroller firmware development, databases, game development, utilities, etc.
 
 ## ANSI C
 
-> ANSI C, ISO C, and Standard C are successive standards for the [[C]]
-> programming language published by the American National Standards Institute
-> (ANSI) and ISO/IEC JTC 1/SC 22/WG 14 of the International Organization for
-> Standardization (ISO) and the International Electrotechnical Commission (IEC).
-> Historically, the names referred specifically to the original and
-> best-supported version of the standard (known as C89 or C90). Software
-> developers writing in C are encouraged to conform to the standards, as doing
-> so helps portability between compilers.\
+> ANSI C, ISO C, and Standard C are successive standards for the [[C]] programming language published by the American National Standards Institute (ANSI) and ISO/IEC JTC 1/SC 22/WG 14 of the International Organization for Standardization (ISO) and the International Electrotechnical Commission (IEC). Historically, the names referred specifically to the original and best-supported version of the standard (known as C89 or C90). Software developers writing in C are encouraged to conform to the standards, as doing so helps portability between compilers.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/ANSI_C)</cite>
 
-Latest standard:
-[ANSI C - Wikipedia#C2x](https://en.wikipedia.org/wiki/ANSI_C#C2x)
+Latest standard: [ANSI C - Wikipedia#C2x](https://en.wikipedia.org/wiki/ANSI_C#C2x)
 
 ## Learning path
 

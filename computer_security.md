@@ -15,13 +15,11 @@ sr-ease: 250
 - [[GPG]]
 - [[pass]]
 - [[dm-crypt]]
-- [DroidFS](https://github.com/hardcore-sushi/DroidFS) - use encrypted virtual
-  filesystems on Android
+- [DroidFS](https://github.com/hardcore-sushi/DroidFS) - use encrypted virtual filesystems on Android
 
 ## Hacking tools
 
-Great list of hacking tools provided by
-[Compass Security Blog](https://blog.compass-security.com/2019/10/hacking-tools-cheat-sheet/):
+Great list of hacking tools provided by [Compass Security Blog](https://blog.compass-security.com/2019/10/hacking-tools-cheat-sheet/):
 
 [Hacking Tools Cheat Sheet – Compass Security Blog](https://blog.compass-security.com/2019/10/hacking-tools-cheat-sheet/)
 
@@ -35,8 +33,7 @@ Great list of hacking tools provided by
 - Shells (Bind/reverse shells)
 - Vulnerability DBs and Exploits (searchsploit and some links)
 - Cracking (ncrack, hashcat, John the Ripper)
-- Metasploit Framework (Use exploits, generate shells, shell listeners,
-  meterpreter, pivoting, SOCKS proxying)
+- Metasploit Framework (Use exploits, generate shells, shell listeners, meterpreter, pivoting, SOCKS proxying)
 - Linux Privilege Escalation (LinEnum, lynis, GTFOBins)
 - Windows Privilege Escalation (PowerSploit, smbmap)
 - Windows Credentials Gathering (mimikatz, lsadump)

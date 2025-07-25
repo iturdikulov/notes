@@ -11,8 +11,7 @@ sr-ease: 252
 
 # My Videos
 
-Videos which I like to watch, watching them is a way to learn something new or
-get fun.
+Videos which I like to watch, watching them is a way to learn something new or get fun.
 
 ## Watchlist
 
@@ -21,8 +20,7 @@ get fun.
 
 ## Inspirational videos
 
-These videos help me to get some motivation and inspiration or mood. They are
-from cinematics, movies, games trailers, etc.
+These videos help me to get some motivation and inspiration or mood. They are from cinematics, movies, games trailers, etc.
 
 Local directory: `~/Arts_and_Entertainment/inspiration`
 

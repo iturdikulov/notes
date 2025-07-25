@@ -11,8 +11,7 @@ sr-ease: 261
 
 # ls
 
-Ls used to display everything in some directory, by default `ls` doesn't show
-hidden (started with `.`) files and directories.
+Ls used to display everything in some directory, by default `ls` doesn't show hidden (started with `.`) files and directories.
 
 `ls` is one of most popular [[GNU_Utilities]] tool.
 
@@ -28,8 +27,7 @@ List of common commands:
 - To display files in a single column, without details:<wbr class="f"> `ls -1`
 - Show all the subtree files (Recursive Mode):<wbr class="f"> `ls -R
 
-I also use "modern" replacement - [eza](https://eza.rocks/), with dynamic
-aliases in my [[Zsh]] config (`~/.zshrc` file):
+I also use "modern" replacement - [eza](https://eza.rocks/), with dynamic aliases in my [[Zsh]] config (`~/.zshrc` file):
 
 ```bash
 if (( $+commands[eza] )); then

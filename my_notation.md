@@ -10,8 +10,7 @@ sr-ease: 269
 
 # My notation
 
-This note outlines a system for tagging [[learning]] materials and
-[[index#Now|other]] stuff.
+This note outlines a system for tagging [[learning]] materials and [[index#Now|other]] stuff.
 
 - [ ] Scheduled for future.
 - [!] Scheduled, but has high priority.
@@ -19,8 +18,6 @@ This note outlines a system for tagging [[learning]] materials and
 - [x] Completed, it was good.
 - [p] Completed, it was very good or perfect.
 - [c] Canceled or completed and not liked.
-- [-] Stopped at some point, maybe I'll revisit it later, or I don't interest in
-  it right now.
+- [-] Stopped at some point, maybe I'll revisit it later, or I don't interest in it right now.
 
-Custom notations allowing me for quick assessment of learning materials based
-on personal experience and priorities, informing future learning decisions.
+Custom notations allowing me for quick assessment of learning materials based on personal experience and priorities, informing future learning decisions.

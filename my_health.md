@@ -10,23 +10,9 @@ sr-ease: 223
 
 # Health and "beauty"
 
-My health is the key of productive and satisfying [[life]]. To be healthy I need
-to follow some rules, tips, and well-known methods to support my health. Here I
-collection various things related to health.
+My health is the key of productive and satisfying [[life]]. To be healthy I need to follow some rules, tips, and well-known methods to support my health. Here I collection various things related to health.
 
-> In common usage and medicine, health, according to the World Health
-> Organization, is "a state of complete physical, mental and social well-being
-> and not merely the absence of disease and infirmity". A variety of definitions
-> have been used for different purposes over time. Health can be promoted by
-> encouraging healthful activities, such as regular
-> [[my_physical_exercise_plan|physical exercise]] and adequate [[sleep]],
-> and by reducing or avoiding unhealthful activities or situations, such as
-> smoking or excessive stress. Some factors affecting health are due to
-> individual choices, such as whether to engage in a high-risk behavior, while
-> others are due to structural causes, such as whether the society is arranged
-> in a way that makes it easier or harder for people to get necessary healthcare
-> services. Still, other factors are beyond both individual and group choices,
-> such as genetic disorders.\
+> In common usage and medicine, health, according to the World Health Organization, is "a state of complete physical, mental and social well-being and not merely the absence of disease and infirmity". A variety of definitions have been used for different purposes over time. Health can be promoted by encouraging healthful activities, such as regular [[my_physical_exercise_plan|physical exercise]] and adequate [[sleep]], and by reducing or avoiding unhealthful activities or situations, such as smoking or excessive stress. Some factors affecting health are due to individual choices, such as whether to engage in a high-risk behavior, while others are due to structural causes, such as whether the society is arranged in a way that makes it easier or harder for people to get necessary healthcare services. Still, other factors are beyond both individual and group choices, such as genetic disorders.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Health)</cite>
 
 ## Learning materials and books
@@ -92,8 +78,7 @@ Here some useful list of items for hygiene support:
 - Communicate desired haircut style with the stylist or barber.
 - Sit comfortably and allow the stylist or barber to trim and style your hair.
 - Optionally, request additional services such as hair coloring or treatments.
-- Pay attention to hygiene practices at the salon, ensuring clean tools and
-  equipment are used.
+- Pay attention to hygiene practices at the salon, ensuring clean tools and equipment are used.
 
 ## External links
 

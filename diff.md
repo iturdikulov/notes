@@ -22,8 +22,7 @@ Diff has a lot of options, for example:
 
 ### Basic unified format explanation
 
-Unified format (unidiff) is most commonly used to generate patch files. For
-example you have 2 files, `old_file` and `new_file`.
+Unified format (unidiff) is most commonly used to generate patch files. For example you have 2 files, `old_file` and `new_file`.
 
 old_file:
 
@@ -64,8 +63,7 @@ Explanation:
 +++ new_file	2023-01-27 22:30:33.064812208 +0600
 ```
 
-2. Hunk of differences, which starts with `@@` (diff can contain multiple
-   hunks).
+2. Hunk of differences, which starts with `@@` (diff can contain multiple hunks).
 
 ```
 # area where the files differ, from-file-line-number to-file-line-number
@@ -85,11 +83,9 @@ Explanation:
 
 ### How to generate a patch file
 
-You can generate a patch file in unified formt -
-`diff -u old_file new_file > patch_file`.
+You can generate a patch file in unified formt - `diff -u old_file new_file > patch_file`.
 
-Or generate directories diff with this command -
-`diff -Naur <dir1> <dir2> > patch_file`.
+Or generate directories diff with this command - `diff -Naur <dir1> <dir2> > patch_file`.
 
 Here:
 

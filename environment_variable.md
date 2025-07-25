@@ -10,26 +10,18 @@ sr-ease: 249
 
 # Environment variable (env-var)
 
-> An environment variable is a user-definable value that **can** affect the way
-> running processes will behave on a computer. Environment variables are part of
-> the environment in which a process runs.\
+> An environment variable is a user-definable value that **can** affect the way running processes will behave on a computer. Environment variables are part of the environment in which a process runs.\
 > — <cite>[Environment variable - Wikipedia](https://en.wikipedia.org/wiki/Environment_variable)</cite>
 
 Is each process has its own set of environment variables?
 <br class="f">
-Yes, in all [[Unix]] and Unix-like systems, as well as on Windows, each process
-has its own separate set of environment variables. Useful to set program
-settings, pass information to child processes. They are widely used to store
-specific configurations for programs (customize behaviour).
+Yes, in all [[Unix]] and Unix-like systems, as well as on Windows, each process has its own separate set of environment variables. Useful to set program settings, pass information to child processes. They are widely used to store specific configurations for programs (customize behaviour).
 
-Collection of environment variables function as a [[hash_table|associative
-array]] where both the keys and values are ==strings==.
+Collection of environment variables function as a [[hash_table|associative array]] where both the keys and values are ==strings==.
 
-The commands `env` and `set` can be used to set environment variables and are
-often incorporated directly into the shell.
+The commands `env` and `set` can be used to set environment variables and are often incorporated directly into the shell.
 
-The following commands can also be used, but are often dependent on a certain
-shell.
+The following commands can also be used, but are often dependent on a certain shell.
 
 Unix shells:
 

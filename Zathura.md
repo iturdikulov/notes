@@ -10,8 +10,7 @@ sr-ease: 273
 
 # Zathura document viewer
 
-Zathura is my favorite [[document|documents']] viewer. It's support many
-formats (for example [[PDF]]), lightweight and fast.
+Zathura is my favorite [[document|documents']] viewer. It's support many formats (for example [[PDF]]), lightweight and fast.
 
 I use custom configuration to adjust colors/fonts and paddings.
 
@@ -41,8 +40,7 @@ Go to bottom / top of current page:<wbr class="f"> `H` / `L`
 
 Move backward and forward through the jump list:<wbr class="f"> `C-o` / `i`
 
-Bisect forward and backward between the last two jump points. Generate new
-jump point and go to it.
+Bisect forward and backward between the last two jump points. Generate new jump point and go to it.
 <br class="f">
 `C-j` / `^k`
 
@@ -124,10 +122,7 @@ Open a document (support tab completion):<wbr class="f"> `:open`
 
 Show document information:<wbr class="f"> `info`
 
-Execute an external command.
-$FILE expands to the current document path, and
-$PAGE to the current page number
-? `:exec <command>`
+Execute an external command. $FILE expands to the current document path, and $PAGE to the current page number ? `:exec <command>`
 
 Print document:<wbr class="f"> `:print`
 
@@ -141,12 +136,8 @@ Export attachments ? For "export", there are two possibilities:
 
 `export image-p{page_number}-{image_number} {file_name}`
 
-Set page offset ? `:offset <offset>` The command `:offset <number>` will make
-Zathura take into account an offset when jumping to a page number (by typing
-<number>G, the command :<number> will not mind the offset). For example, a given
-book begins counting its pages on the PDF's 17th page (so on page 17, the index
-is 1; on 18 it is 2, and so on). On setting :offset 16, 245G will jump to the
-261st page of the PDF rather than the 245th.
+Set page offset ? `:offset <offset>` The command `:offset <number>` will make Zathura take into account an offset when jumping to a page number (by typing
+<number>G, the command :<number> will not mind the offset). For example, a given book begins counting its pages on the PDF's 17th page (so on page 17, the index is 1; on 18 it is 2, and so on). On setting :offset 16, 245G will jump to the 261st page of the PDF rather than the 245th.
 
 ## External links
 

@@ -375,6 +375,7 @@ using a known identity (sorry, no anonymous contributions.) This will be done
 for you automatically if you use `git commit -s`. Reverts should also include
 "Signed-off-by". `git revert -s` does that for you.
 
+
 Some people also put extra tags at the end. They'll just be ignored for now, but
 you can do this to mark internal company procedures or just point out some
 special detail about the sign-off.

@@ -9,9 +9,7 @@ sr-ease: 230
 
 # Integer overflow
 
-> Number which is stored becomes larger than the capacity of the
-> [[computer_memory]] it is stored in. The most likely result is that the number
-> will reset to 0 and start over.\
+> Number which is stored becomes larger than the capacity of the [[computer_memory]] it is stored in. The most likely result is that the number will reset to 0 and start over.\
 > — <cite>[Wikipedia](https://simple.wikipedia.org/wiki/Integer_overflow)</cite>
 
 Example:

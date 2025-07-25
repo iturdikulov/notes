@@ -9,9 +9,7 @@ sr-ease: 144
 
 # Pointer (computer programming)
 
-In [[computer_science]] a pointer is an object (or variable) in many
-[[programming_language|programming languages]] that stores a ==**memory
-address**== to something (specific value first byte/block).
+In [[computer_science]] a pointer is an object (or variable) in many [[programming_language|programming languages]] that stores a ==**memory address**== to something (specific value first byte/block).
 
 Pointer features:
 

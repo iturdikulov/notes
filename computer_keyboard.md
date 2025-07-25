@@ -10,12 +10,8 @@ sr-ease: 270
 
 # Computer keyboard
 
-> Peripheral input device modeled after the typewriter keyboard (I even used it)
-> which uses an arrangement of buttons or keys to act as mechanical levers or
-> electronic switches.
+> Peripheral input device modeled after the typewriter keyboard (I even used it) which uses an arrangement of buttons or keys to act as mechanical levers or electronic switches.
 
-Currently, I use KBD75 V2 custom mechanical keyboard, which support [[QMK]]
-firmware. It's allows me to create custom keyboard layers, macro, my own
-navigation and symbols layers, and other features.
+Currently, I use KBD75 V2 custom mechanical keyboard, which support [[QMK]] firmware. It's allows me to create custom keyboard layers, macro, my own navigation and symbols layers, and other features.
 
 I use [[Colemak_Mod-DH]] keymap layout (not hardware, I use system layout).

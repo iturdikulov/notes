@@ -29,21 +29,15 @@ sr-ease: 130
 
 ## Organize
 
-I organize my work using, [[GTD]] mainly using Inbox, Tasks (TODO and NEXT),
-Daily and Weekly notes with [[Taskwarrior]].
+I organize my work using, [[GTD]] mainly using Inbox, Tasks (TODO and NEXT), Daily and Weekly notes with [[Taskwarrior]].
 
-To follow external timelines I sometimes use [[calendar]] events, but it's
-secondary task planner.
+To follow external timelines I sometimes use [[calendar]] events, but it's secondary task planner.
 
 To connect with colleagues I use [[IM]] and [[email]] clients.
 
-In my work significantly help my [[development_environment]], [[backup]]
-plan and daily [[maintenance]], with attention to [[computer_security]]
-practices.
+In my work significantly help my [[development_environment]], [[backup]] plan and daily [[maintenance]], with attention to [[computer_security]] practices.
 
-Currently, I'm working now as a full-stack software engineer in a small company
-(remote, full-stack position, but moving into [[backend]]
-position).
+Currently, I'm working now as a full-stack software engineer in a small company (remote, full-stack position, but moving into [[backend]] position).
 
 I also use various [[my_awesome_software_list|software]].
 

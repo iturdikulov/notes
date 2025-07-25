@@ -12,8 +12,7 @@ sr-ease: 174
 ## Learning path
 
 - [How 3D video games do graphics](https://www.youtube.com/watch?v=bGe-d09Nc_M)
-- [[Muratori-Handmade_hero|Handmade Hero]], my initial steps, heavy
-  related to programming with [[MS_Windows|Windows]] API and
+- [[Muratori-Handmade_hero|Handmade Hero]], my initial steps, heavy related to programming with [[MS_Windows|Windows]] API and
 - [Shadertoy BETA](https://www.shadertoy.com/)
 - [Real Time VFX](https://realtimevfx.com/)
 - [RenderDoc](https://renderdoc.org/)
@@ -21,7 +20,7 @@ sr-ease: 174
 - [Let's code 3D Engine in Python. OpenGL Pygame Tutorial](https://youtu.be/eJDIsFJN4OQ)
 - [Mavor's Rants: Total Annihilation Graphics Engine](https://mavorsrants.blogspot.com/2012/04/total-annihilation-graphics-engine.html)
 - [ ] [Bevy game development - Tainted Coders](https://taintedcoders.com/)
-- [ ] [TIC-80 is a fantasy computer for making, playing and sharing tiny games.](https://github.com/nesbox/TIC-80 )
+- [ ] [TIC-80 is a fantasy computer for making, playing and sharing tiny games.](https://github.com/nesbox/TIC-80)
 - [ ] [Game Development](https://develop.games/)
 - [ ] [ASCII графика и PIXEL арт на Python - YouTube](https://www.youtube.com/watch?v=ww55ublLFq8)
 - [ ] [Red Blob Games](https://www.redblobgames.com/)
@@ -44,7 +43,7 @@ sr-ease: 174
 - [ ] [Introduction to Godot — Godot Engine](https://docs.godotengine.org/en/stable/getting_started/introduction/introduction_to_godot.html)
 - [ ] [Rendering isometric sprites using Godot · Kenney](https://kenney.nl/knowledge-base/learning/rendering-isometric-sprites-using-godot)
 - [ ] [Terrain3D for Godot 4 - C++ Editable Terrain System - YouTube](https://www.youtube.com/watch?v=Aj9vWIEaFXg)
-    - [TokisanGames/Terrain3D: A high performance, editable terrain system for Godot 4.](https://github.com/TokisanGames/Terrain3D)
+  - [TokisanGames/Terrain3D: A high performance, editable terrain system for Godot 4.](https://github.com/TokisanGames/Terrain3D)
 - [ ] [Godot 4 Tutorial - Space Shooter Using Components - YouTube](https://www.youtube.com/watch?v=zUeLesdL7lE&list=PL9FzW-m48fn09w6j8NowI_pSBVcsb3V78&index=1))
 - [ ] [[HK-SHAO-Godot_raytracing_demo]]
 - [ ] [[Obuz_Game_Development_with_Blender_and_Godot]]
@@ -53,7 +52,6 @@ sr-ease: 174
 - [ ] [[Heartbeast-Godot_tutorials]]
 - [ ] [[GDScript]]
 - [Learn Godot's GDScript From Zero by GDQuest](https://gdquest.itch.io/learn-godot-gdscript)
-
 
 ## Inbox
 

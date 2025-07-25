@@ -14,12 +14,9 @@ sr-ease: 243
 
 Computer network is?
 <br class="f">
-Set of [[computer|computers]] sharing resources located on or provided by
-[[node|network nodes]].
+Set of [[computer|computers]] sharing resources located on or provided by [[node|network nodes]].
 
-Group of two or more [[computer|computers]] that are linked together. Networks
-are usually used to share resources, exchange files or communicate with other
-users.
+Group of two or more [[computer|computers]] that are linked together. Networks are usually used to share resources, exchange files or communicate with other users.
 
 - TODO: connection and protocols
 - TODO: network topology
@@ -29,8 +26,7 @@ users.
 
 [[OS]] kernel virtual network devices (drivers).
 
-TAP used for bridging (emulating Eithernet devices), data link OSI layer, above
-physical layer, which is the lowest layer.
+TAP used for bridging (emulating Eithernet devices), data link OSI layer, above physical layer, which is the lowest layer.
 
 TUN used for IP-packets routing, network layer, after data link layer.
 

@@ -12,13 +12,11 @@ sr-ease: 130
 
 For me, programming is one revolutionary way to solve problems with a computer. The computer plays the role of a super-tool that allows you to solve arbitrary problems that can be described in the form of algorithms. In order for a computer to execute an algorithm, it is necessary to convert the algorithm into instructions. And we need to do this in two stages. Step 1 write the program, step 2 convert it into machine code (there can be many different steps). Below more detailed explanation.
 
-Programming is the craft of creating instructions ([[code]]) that tell [[computer]] what to do. It involves process of designing [[algorithm]] and writing it in [[programming_language]]. Programming languages are for humans, they usually can understand it. 
+Programming is the craft of creating instructions ([[code]]) that tell [[computer]] what to do. It involves process of designing [[algorithm]] and writing it in [[programming_language]]. Programming languages are for humans, they usually can understand it.
 
-After you written algorithm in specific programming language somewhere ([[source_code]]), then it will be converted to machine code for computers to execute. 
+After you written algorithm in specific programming language somewhere ([[source_code]]), then it will be converted to machine code for computers to execute.
 
-Good programming requires understanding the problem domain, languages,
-libraries, algorithms, and logic. Programming is significant part of
-[[my_career]].
+Good programming requires understanding the problem domain, languages, libraries, algorithms, and logic. Programming is significant part of [[my_career]].
 
 ## Learning path
 

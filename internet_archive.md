@@ -9,6 +9,5 @@ sr-ease: 253
 
 # Internet Archive
 
-> Internet Archive is a non-profit library of millions of free books, movies,
-> software, music, websites, and more.\
+> Internet Archive is a non-profit library of millions of free books, movies, software, music, websites, and more.\
 > — <cite>[Internet Archive](https://archive.org/)</cite>

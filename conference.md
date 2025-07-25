@@ -9,17 +9,12 @@ sr-ease: 227
 
 # Conference
 
-> A conference is a meeting, often lasting a few days, which is organized on a
-> particular subject, or to bring together people who have a common interest.
-> Conferences can be used as a form of group decision-making, although
-> discussion, not always decisions, is the primary purpose of conferences. The
-> term derives from the word confer.\
+> A conference is a meeting, often lasting a few days, which is organized on a particular subject, or to bring together people who have a common interest. Conferences can be used as a form of group decision-making, although discussion, not always decisions, is the primary purpose of conferences. The term derives from the word confer.\
 > — <cite>[Conference](https://en.wikipedia.org/wiki/Conference)</cite>
 
 I prefer technical conferences, which I visit mostly online.
 
-My primary goal to visit conferences is to [[learning|learn]] something new and
-be inspired by other people.
+My primary goal to visit conferences is to [[learning|learn]] something new and be inspired by other people.
 
 ## External links
 

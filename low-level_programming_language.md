@@ -9,6 +9,7 @@ sr-ease: 209
 ---
 
 # Low-level programming language
+
 <br class="f">
 > Programming language that involves knowledge of both computer hardware and the
 > coding used to make the computer hardware do actions.
@@ -18,5 +19,4 @@ sr-ease: 209
 > hardware to do actions.\
 > — <cite>[Simple English Wikipedia](https://simple.wikipedia.org/wiki/Low-level_programming_language)</cite>
 
-Usually low-level programming languages are used to ==speed up execution== of
-program, or to make it more efficient.
+Usually low-level programming languages are used to ==speed up execution== of program, or to make it more efficient.

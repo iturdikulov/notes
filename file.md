@@ -15,8 +15,7 @@ sr-ease: 252
 
 Determines the type of file. Additional information: `man file`
 
-Determine the MIME encoding type of all file in a directory: ?
-`file -i path/to/dir/*`
+Determine the MIME encoding type of all file in a directory: ? `file -i path/to/dir/*`
 
 Other examples:
 

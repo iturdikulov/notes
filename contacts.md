@@ -12,8 +12,7 @@ sr-ease: 234
 
 TODO: Info how I organize contact note type, need implement
 
-I use caldav server to store contacts and sync them across devices using
-TODO: add notes vdirsyncer on desktop computer and Davx5 on android phone.
+I use caldav server to store contacts and sync them across devices using TODO: add notes vdirsyncer on desktop computer and Davx5 on android phone.
 
 ## Edit and view contacts
 
@@ -21,10 +20,8 @@ TODO: add notes vdirsyncer on desktop computer and Davx5 on android phone.
 
 khard + khardel Radicale card/caldav server? or just google DAVx5 org-caldav
 
-Also each contact may have description like in Wikipedia format: name brief born
-education known for spouse children
+Also each contact may have description like in Wikipedia format: name brief born education known for spouse children
 
-- TODO Sync - adb <> org-mode Also each contact may have description like in
-  Wikipedia format: name brief born education known for spouse children
+- TODO Sync - adb <> org-mode Also each contact may have description like in Wikipedia format: name brief born education known for spouse children
 
 - Contacts/Persons list:

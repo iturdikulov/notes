@@ -10,10 +10,7 @@ sr-ease: 212
 
 # My Music
 
-> Music is generally defined as the [[art]] of arranging sound to create some
-> combination of form, harmony, melody, rhythm or otherwise expressive content.
-> Definitions of music vary depending on culture, though it is an aspect of all
-> human societies, a cultural universal.\
+> Music is generally defined as the [[art]] of arranging sound to create some combination of form, harmony, melody, rhythm or otherwise expressive content. Definitions of music vary depending on culture, though it is an aspect of all human societies, a cultural universal.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Music)</cite>
 
 To understand custom bullet list types check [[my_notation]] note.
@@ -34,7 +31,7 @@ TODO: group by album, genere.
 - Music for the Jilted Generation
 - 20 Years of Hardcore
 - TRON: Legacy
-- Lofi  & Chill
+- Lofi & Chill
 - The Four Seasons & Concertos for Bassoon and Violin "in tromba marina"
 - O Fortuna - Carmina Burana
 - Oblivion - Original Motion Picture Soundtrack
@@ -328,8 +325,7 @@ TODO: group by album, genere.
 - [[brain.fm]]
 - [Spotify - Web Player: Music for everyone](https://open.spotify.com/)
 - [Yandex Music](https://music.yandex.ru/home)
-- [MusicBrainz - The Open Music Encyclopedia](https://musicbrainz.org/), useful
-  for finding the correct artist and album name
+- [MusicBrainz - The Open Music Encyclopedia](https://musicbrainz.org/), useful for finding the correct artist and album name
 - [You are listening to](http://youarelistening.to/)
 - [Radio Record](https://www.radiorecord.ru/)
 - [Sounds of the Forest](https://timberfestival.org.uk/soundsoftheforest-soundmap/)

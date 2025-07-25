@@ -10,9 +10,7 @@ sr-ease: 247
 
 # Sniprun
 
-SnipRun selection:<wbr class="f"> <kbd>f</kbd>
-SnipRun initial mode:<wbr class="f"> <kbd><leader>ze</kbd>
-SnipRun run:<wbr class="f"> <kbd><leader>zee</kbd>
+SnipRun selection:<wbr class="f"> <kbd>f</kbd> SnipRun initial mode:<wbr class="f"> <kbd><leader>ze</kbd> SnipRun run:<wbr class="f"> <kbd><leader>zee</kbd>
 
 Get output from code blocks
 
@@ -20,8 +18,7 @@ Get output from code blocks
 gcc --version
 ```
 
-If there is no main function present, sniprun will wrap one around the code. It
-also will add some of the standard include files needed to compile the code.
+If there is no main function present, sniprun will wrap one around the code. It also will add some of the standard include files needed to compile the code.
 
 ```c
 printf("Hello World me!");
@@ -36,4 +33,5 @@ int main(int argc,char **argv) {
   exit(0);
 }
 ```
+
 TODO: add more examples

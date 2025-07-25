@@ -2,6 +2,7 @@
 created: 2023-09-22T00:00+03:00
 tags:
   - blog
+  - now
 sr-due: 2025-07-22
 sr-interval: 4
 sr-ease: 248
@@ -9,39 +10,20 @@ sr-ease: 248
 
 # HTTP and HTTPS and TLS
 
-> The Hypertext Transfer Protocol (HTTP) is an application layer protocol in the
-> [[TCP_IP|Internet protocol suite]] model for
-> distributed, collaborative, hypermedia information systems. HTTP is the
-> foundation of data communication for the World Wide Web, where hypertext
-> documents include hyperlinks to other resources that the user can easily
-> access, for example by a mouse click or by tapping the screen in a web
-> browser.\
+> The Hypertext Transfer Protocol (HTTP) is an application layer protocol in the [[TCP_IP|Internet protocol suite]] model for distributed, collaborative, hypermedia information systems. HTTP is the foundation of data communication for the World Wide Web, where hypertext documents include hyperlinks to other resources that the user can easily access, for example by a mouse click or by tapping the screen in a web browser.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/HTTP)</cite>
 
-> Hypertext Transfer Protocol Secure (HTTPS) is an extension of the Hypertext
-> Transfer Protocol (HTTP). It uses encryption for secure communication over a
-> [[computer_network]], and is widely used on the [[internet]]. In HTTPS, the
-> communication protocol is encrypted using Transport Layer Security (TLS) or,
-> formerly, Secure Sockets Layer (SSL). The protocol is therefore also referred
-> to as HTTP over TLS, or HTTP over SSL.\
+> Hypertext Transfer Protocol Secure (HTTPS) is an extension of the Hypertext Transfer Protocol (HTTP). It uses encryption for secure communication over a [[computer_network]], and is widely used on the [[internet]]. In HTTPS, the communication protocol is encrypted using Transport Layer Security (TLS) or, formerly, Secure Sockets Layer (SSL). The protocol is therefore also referred to as HTTP over TLS, or HTTP over SSL.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/HTTPS)</cite>
 
-> Transport Layer Security (TLS) is a [[cryptography|cryptographic]] protocol
-> designed to provide communications security over a computer network. The
-> protocol is widely used in applications such as [[email]],
-> [[IM|instant messaging]], and voice over IP, but its use in securing HTTPS
-> remains the most publicly visible.
+> Transport Layer Security (TLS) is a [[cryptography|cryptographic]] protocol designed to provide communications security over a computer network. The protocol is widely used in applications such as [[email]], [[IM|instant messaging]], and voice over IP, but its use in securing HTTPS remains the most publicly visible.
 >
-> The TLS protocol aims primarily to provide security, including privacy
-> (confidentiality), integrity, and authenticity through the use of
-> cryptography, such as the use of certificates, between two or more
-> communicating computer applications. It runs in the presentation layer and is
-> itself composed of two layers: the TLS record and the TLS handshake protocols.\
+> The TLS protocol aims primarily to provide security, including privacy (confidentiality), integrity, and authenticity through the use of cryptography, such as the use of certificates, between two or more communicating computer applications. It runs in the presentation layer and is itself composed of two layers: the TLS record and the TLS handshake protocols.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Transport_Layer_Security)</cite>
 
 ## External links
 
-- [ ] [A declaration of war on the HTTP of Shit «  The Tar Pit](http://thetarpit.org/2017/https-war-declaration)
+- [ ] [A declaration of war on the HTTP of Shit « The Tar Pit](http://thetarpit.org/2017/https-war-declaration)
 - [ ] [Как мы TLS Fingerprint обходили… / Habr](https://habr.com/en/articles/596411/)
 - [ ] [HTTP Crash Course & Exploration - YouTube](https://www.youtube.com/watch?v=iYM2zFP3Zn0)
 - [ ] [HTTP | MDN](https://developer.mozilla.org/en-US/docs/Web/HTTP)

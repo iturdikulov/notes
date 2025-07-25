@@ -10,10 +10,7 @@ sr-ease: 267
 
 # Fandom (website)
 
-> Fandom powers fan experiences - Our mission is to understand, inform,
-> entertain and celebrate fans by building the best entertainment and gaming
-> communities, content, services and experiences.
-TODO: add source
+> Fandom powers fan experiences - Our mission is to understand, inform, entertain and celebrate fans by building the best entertainment and gaming communities, content, services and experiences. TODO: add source
 
 Contains useful wikis which I'm interested in.
 

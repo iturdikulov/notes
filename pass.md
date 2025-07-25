@@ -10,13 +10,7 @@ sr-ease: 250
 
 # Pass (software)
 
-> Password management should be simple and follow Unix philosophy. With pass,
-> each password lives inside of a [[GPG]] encrypted file whose filename is the
-> title of the website or resource that requires the password. These encrypted
-> files may be organized into meaningful folder hierarchies, copied from
-> computer to computer, and, in general, manipulated using standard command line
-> file management utilities.
-TODO: add source
+> Password management should be simple and follow Unix philosophy. With pass, each password lives inside of a [[GPG]] encrypted file whose filename is the title of the website or resource that requires the password. These encrypted files may be organized into meaningful folder hierarchies, copied from computer to computer, and, in general, manipulated using standard command line file management utilities. TODO: add source
 
 ## Commands
 
@@ -43,11 +37,9 @@ pass mv [-f] old/path new/path
 pass grep [GREP_OPTIONS] search-string
 ```
 
-If I have only one login for site, I use site.tld as entry name. If I have more
-I use site.tld/username.
+If I have only one login for site, I use site.tld as entry name. If I have more I use site.tld/username.
 
-Application passwords just haven't tld, like
-`pass insert application[/username]`.
+Application passwords just haven't tld, like `pass insert application[/username]`.
 
 I also use passwords groups, like business, email, social, etc.
 
