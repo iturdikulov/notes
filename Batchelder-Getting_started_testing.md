@@ -6,6 +6,7 @@ external:
   - https://www.youtube.com/watch?v=FxSsnHeWQBY
 tags:
   - blog
+  - now
   - computer_testing
   - annotation_video
 sr-due: 2025-09-14
@@ -15,53 +16,43 @@ sr-ease: 206
 
 # Getting Started Testing - PyCon 2014
 
-If you've never written tests before, you probably know you _should_, but view
-the whole process as a bureaucratic paperwork nightmare to check off on your
-ready-to-ship checklist. This is the wrong way to approach testing. Tests are a
-solution to a problem that is important to you: does my code work? I'll show how
-Python tests are written, and why.
+If you've never written tests before, you probably know you _should_, but view the whole process as a bureaucratic paperwork nightmare to check off on your ready-to-ship checklist. This is the wrong way to approach testing. Tests are a solution to a problem that is important to you: does my code work? I'll show how Python tests are written, and why.
 
 Slides can be found at:
+
 - https://speakerdeck.com/pycon2014
 - https://github.com/PyCon/2014-slides
 
 ## Features
 
-Features of unit-testing?
+Features of unit-testing, what are the benefits of unit testing?
 <br class="f">
-- Know if your code works
-- Save time
-- Better code
-- Remove fear
+- Know if your code works, eliminate fear and worrying
+- Save time by catching bugs and issues early
+- Improve you code and product
 - "Debugging is hard, testing is easy"
-- Test defending from chaos
-
-## Roadmap
-
-- Growing tests
-- unittest
-- Mocks
+- Reduce entropy and chaos
 
 ## Growing tests
 
-How tests must be written?
+How to tests must be written?
 <br class="f">
-- automated (low effort and repeatable)
-- tests must be repeatable with low effort (run independently, fast)
-- explicit expected results
-- checked automatically
-- reliable (really tests something)
-- informative (to quickly find the problem)
-- focused (little code as possible, help with debugging)
+- Automated (low effort and repeatable)
+- Tests must be repeatable with low effort (run independently, fast)
+- Explicit expected results
+- Checked automatically
+- Reliable (really tests something)
+- Informative (to quickly find the problem)
+- Focused (little code as possible, help with debugging)
 
-## unittest (automated test)
+## Unittest (automated test)
 
-- python standard library
-- infrastructure for well-structured tests
-- patterned on xUnit
-
-A simple unit test
-
+What is `unittest`?
+<br class="f">
+- Python standard library
+- Infrastructure for well-structured tests
+- Patterned on xUnit
+A simple unit test:
 ```python
 import unittest
 from portfolio import Portfolio
@@ -84,33 +75,25 @@ except AssertionError:
 else:
     [record the success]
 ```
-
-You execute unittest by this command `python -m unittest test_portfolio.py`
-Possible output:
-
+You execute Unittest by this command `python -m unittest test_portfolio.py` Possible output:
 ```
 F..E
 ======================================================================
 FAIL: test_buy_one_stock (test_portfolio.PortfolioTest)
 ...
 Run 3 tests in 0.000s
+
+Dots indicate passing tests. `F` indicates a failing test. `E` indicates an exception in a test. Usually it's a bug in the test code.
 ```
 
-Dots indicate passing tests. `F` indicates a failing test. `E` indicates an
-exception in a test. Usually it's a bug in the test code.
+What ensures test isolation in Unittest?
+<br class="f">
+- All tests get a new test object (it's preferable, to avoid side effects from previous tests).
+- Tests can't affect each other.
+- Failure doesn't stop next tests.
 
-tests isolation
-
-- all tests get a new test object (it's preferable, to avoid side effects from
-  previous tests)
-- tests can't affect each other
-- failure doesn't stop next tests
-
-Use `assertEqual` instead of `assert`, because it gives value which generated
-the failure.
-
+Use ==`assertEqual`== instead of `assert`, because it gives value which generated the failure.
 Other assert helpers:
-
 ```python
 assertEqual(a, b)
 assertNotEqual(a, b)
@@ -131,8 +114,9 @@ assertItemsEqual(a, b)
 ...
 ```
 
-Pro-tip: you own base class to write domain specific helpers/asserts
-
+How can you create custom assert methods in Unittest?
+<br class="f">
+Write you own base class to write domain specific helpers/asserts
 ```python
 class PortfolioTest(unittest.TestCase):
     """Base class for all Portfolio tests"""
@@ -144,19 +128,16 @@ class PortfolioTest(...):
 ...
 ```
 
-Unittest can't call the function to test (for example with wrong number of
-arguments), you need use special `assertRaises` method with context manager.
-
+How to call function in unittest?
+<br class="f">
+Unittest can't call the function to test (for example with wrong number of arguments), you need use special `assertRaises` method with context manager.
 ```python
 with self.assertRaises(TypeError):
     p.buy('IBM', 100)
 ```
 
-If you see repetition you need refactor code. You can use `setUp` (before each
-test) and `tearDown` (after each test) methods to avoid repetition.
-
+If you see repetition you need refactor code. You can use `setUp` (before each test) and ==`tearDown`== (after each test) methods to avoid repetition.
 Under the covers:
-
 ```python
 testcase = PortfolioTest()
 try:
@@ -178,31 +159,27 @@ else:
         else:
             [record error]
 ```
-
-`setUp` and `tearDown` give you isolation!:
-
+`setUp` and `tearDown` gives isolation!:
 - establish context
 - common `per-` or `post-` work
 - isolation, even with failures
 - also: `fixtures`
 
-Tests are real code!
-
-- helper functions, classes, etc. (so use real code, which used in your program)
-- can become significant
-- might need tests!
+Is there difference between real and test code?
+<br class="f">
+No. Tests are the real code:
+- Helper functions, classes, etc. So use real code, which used in your program
+- Can become significant
+- Might need tests!
 
 ## Mocks
 
+What main problem mocks solve?
+<br class="f">
 Mocks solve the problem of dependencies which can be really slow.
+Fake results can solve the problem of dependencies and give predictable test results (you not depending on external factors) but some code in some time isn't tested!
 
-Fake results can solve the problem of dependencies and give predictable test
-results (you not depending on external factors) but some code in some time isn't
-tested!
-
-So you use sort-of real objects, but with using for example "monkey patching" or
-patching (don't forget to unpatch it in `tearDown`) which give a predictable
-result of the function and in same time you test it.
+So you use sort-of real objects, but with using for example "monkey patching" or patching (don't forget to unpatch it in `tearDown`) which give a predictable result of the function and in same time you test it.
 
 Even better: mock objects (`import mock`)
 

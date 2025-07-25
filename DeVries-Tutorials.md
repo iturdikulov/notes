@@ -39,8 +39,7 @@ Breakpoint condition how to use them?
 <br class="f">
 For example: `i == 1` - only trigger breakpoint when `i` is equal to `1`
 
-Dap-ui can be start automatically on starting debug session, nvim-dap trigger
-event and dap-ui listen it.
+Dap-ui can be start automatically on starting debug session, nvim-dap trigger event and dap-ui listen it.
 
 Key name for dap-ui events `dapui_config` is not important/strict rule.
 
