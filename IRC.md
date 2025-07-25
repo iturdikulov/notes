@@ -10,10 +10,7 @@ sr-ease: 230
 
 # Internet Relay Chat (IRC)
 
-> Text-based chat system for instant messaging. IRC is designed for group
-> communication in discussion forums, called channels, but also allows
-> one-on-one communication via private message as well as chat and data
-> transfer, including file sharing.\
+> Text-based chat system for instant messaging. IRC is designed for group communication in discussion forums, called channels, but also allows one-on-one communication via private message as well as chat and data transfer, including file sharing.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Internet_Relay_Chat)</cite>
 
 ## External links
