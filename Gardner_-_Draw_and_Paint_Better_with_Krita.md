@@ -12,4 +12,3 @@ sr-ease: 178
 ---
 
 # Draw and Paint Better with Krita
-

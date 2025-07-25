@@ -9,8 +9,7 @@ sr-ease: 247
 
 # Chemistry
 
-TODO: add term
-TODO: add periodic table note
+TODO: add term TODO: add periodic table note
 
 ## Learning path
 

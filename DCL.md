@@ -6,4 +6,3 @@ tags:
 ---
 
 # Data Control Language
-
