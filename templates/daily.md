@@ -6,8 +6,6 @@ tags:
 
 # Sunday, July 20th, 2025
 
-<% tp.web.daily_quote() %>
-
 ## Links
 
 - [[../TODO|TODO]], [Starred News](http://volga:8080/starred)
