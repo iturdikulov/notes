@@ -17,8 +17,7 @@ TODO: add authors
 
 The leading introductory textbook and reference on algorithms.
 
-This book looks extremely complete and big. So I decided to split it into 8
-parts. Each part is chapter from book.
+This book looks extremely complete and big. So I decided to split it into 8 parts. Each part is chapter from book.
 
 # Contents /6
 

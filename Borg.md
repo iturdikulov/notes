@@ -13,8 +13,7 @@ sr-ease: 212
 
 ## Automatic backup
 
-I have simple setup with systemd timer for automatic backups. On failure, it
-generates & send email with error report.
+I have simple setup with systemd timer for automatic backups. On failure, it generates & send email with error report.
 
 Check this:
 

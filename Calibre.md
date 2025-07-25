@@ -10,20 +10,14 @@ sr-ease: 257
 
 # Calibre (software)
 
-> Calibre is a cross-platform free and [[open-source]] suite of e-book software.
-> Calibre supports organizing existing e-books into virtual libraries,
-> displaying, editing, creating and converting e-books, as well as syncing
-> e-books with a variety of e-readers.\
-> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Calibre_\(software\))</cite>
+> Calibre is a cross-platform free and [[open-source]] suite of e-book software. Calibre supports organizing existing e-books into virtual libraries, displaying, editing, creating and converting e-books, as well as syncing e-books with a variety of e-readers.\
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Calibre_(software))</cite>
 
-I use Calibre to convert books into required formats, and manage my
-[[book|books]].
+I use Calibre to convert books into required formats, and manage my [[book|books]].
 
-I also use custom [web app](https://github.com/janeczku/calibre-web) for
-accessing my books across different devices.
+I also use custom [web app](https://github.com/janeczku/calibre-web) for accessing my books across different devices.
 
-Calibre providing special ebook converting tool, you can for example convert
-EPUB files into [[PDF]] file:
+Calibre providing special ebook converting tool, you can for example convert EPUB files into [[PDF]] file:
 
 ```sh
 # ebook-convert also have recipes (news, websites, etc.), which can be used to

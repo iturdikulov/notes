@@ -15,8 +15,7 @@ Free open source browser. Currently (11/24) I stopped to use it.
 
 Key features for me:
 
-- Rich ad blocking (Shield), and it's available for all computing platform which
-  I use.
+- Rich ad blocking (Shield), and it's available for all computing platform which I use.
 - Support for extensions.
 - [[VA-API]] support on [[Linux]].
 - [[web_browser#Development tools|Browser DevTools]] support.
@@ -24,10 +23,8 @@ Key features for me:
 
 ## Useful URL's
 
-- [brave://settings/searchEngines](brave://settings/searchEngines) - search
-  engines settings
-- [brave://settings/extensions](brave://settings/extensions) - extensions
-  settings
+- [brave://settings/searchEngines](brave://settings/searchEngines) - search engines settings
+- [brave://settings/extensions](brave://settings/extensions) - extensions settings
 - [brave://flags](brave://flags) - flags settings
 - [brave://media-internals](brave://media-internals) - media internals
 - [brave://gpu](brave://gpu) - gpu info

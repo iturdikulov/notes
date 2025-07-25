@@ -9,10 +9,7 @@ sr-ease: 226
 
 # CI/CD
 
-> In software engineering, CI/CD or CICD is the combined practices of continuous
-> integration (CI) and continuous delivery (CD) or, less often, continuous
-> deployment. They are sometimes referred to collectively as continuous
-> development or continuous [[computer_software]] development.\
+> In software engineering, CI/CD or CICD is the combined practices of continuous integration (CI) and continuous delivery (CD) or, less often, continuous deployment. They are sometimes referred to collectively as continuous development or continuous [[computer_software]] development.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/CI/CD)</cite>
 
 ## External links
