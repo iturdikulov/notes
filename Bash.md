@@ -11,21 +11,12 @@ sr-ease: 130
 
 # Bash (Unix shell)
 
-> Bash is a [[Unix]] shell and command language written by Brian Fox for the GNU
-> Project as a free software replacement for the Bourne shell. First released in
-> 1989, it has been used as the default login shell for most Linux
-> distributions. Bash was one of the first programs Linus Torvalds ported to
-> Linux, alongside GCC.\
-> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Bash_\(Unix_shell\))</cite>
+> Bash is a [[Unix]] shell and command language written by Brian Fox for the GNU Project as a free software replacement for the Bourne shell. First released in 1989, it has been used as the default login shell for most Linux distributions. Bash was one of the first programs Linus Torvalds ported to Linux, alongside GCC.\
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Bash_(Unix_shell))</cite>
 
-Personally, I use [[Zsh]] as my default shell and interactive command
-interpreter, but sometimes I use and write scripts written in Bash (for
-portability).
+Personally, I use [[Zsh]] as my default shell and interactive command interpreter, but sometimes I use and write scripts written in Bash (for portability).
 
-Since Zsh support POSIX compliant [Shell Command Language](
-https://pubs.opengroup.org/onlinepubs/9799919799/utilities/V3_chap02.html)
-I can learn Bash and in same time Zsh variants (POSIX compliant parts) of shell
-command languages.
+Since Zsh support POSIX compliant [Shell Command Language](https://pubs.opengroup.org/onlinepubs/9799919799/utilities/V3_chap02.html) I can learn Bash and in same time Zsh variants (POSIX compliant parts) of shell command languages.
 
 ## Learning path
 
