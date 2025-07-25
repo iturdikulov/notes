@@ -2,6 +2,7 @@
 created: 2023-03-14T00:00+03:00
 tags:
   - blog
+  - now
 sr-due: 2025-07-22
 sr-interval: 5
 sr-ease: 248
@@ -11,22 +12,21 @@ sr-ease: 248
 
 What's ASCII?
 <br class="f">
-
-> Text encoding standard for electronic communication, limited to 128 code
-> points. **ASCII** (/ˈæskiː/, _ASS-kee_), an acronym for **American Standard
-> Code for Information Interchange**, is a [[character]] encoding standard for
-> electronic communication. ASCII codes represent text in computers,
-> telecommunications equipment, and other devices. ASCII has just 128 code
-> points, of which only 95 are printable characters, which severely limit its
-> scope.\
+> Text encoding standard for electronic communication, limited to 128 code points. **ASCII** (/ˈæskiː/, _ASS-kee_), an acronym for **American Standard Code for Information Interchange**, is a [[character]] encoding standard for electronic communication. ASCII codes represent text in computers, telecommunications equipment, and other devices. ASCII has just 128 code points, of which only 95 are printable characters, which severely limit its scope.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/ASCII)</cite>
+
+Term ASCII stands as: <wbr class="f"> American Standard Code for Information Interchange.
+
+Purpose of ASCII: <wbr class="f"> used for text representation in electronic communication, computers, telecommunications equipment, devices.
+
+Number of Code Points in ASCII: <wbr class="f"> 128 code points and 95 are printable characters, limited compared to more comprehensive encoding systems.
+
+Limitation of ASCII: <wbr class="f"> severe scope due to limited number of printable characters, fails to represent many symbols and special characters used in modern languages and computing.
+
 
 ## ASCII printable characters (character code 32-127)
 
-Codes 32-127 are common for all the different variations of the ASCII table,
-they are called printable characters, represent letters, digits, punctuation
-marks, and a few miscellaneous symbols. You will find almost every character on
-your keyboard. Character 127 represents the command DEL.
+Codes 32-127 are common for all the different variations of the ASCII table, they are called printable characters, represent letters, digits, punctuation marks, and a few miscellaneous symbols. You will find almost every character on your keyboard. Character 127 represents the command DEL.
 
 | DEC | OCT   | HEX    | BIN             | Symbol | HTML Number | HTML Name | Description                            |
 | --- | ----- | ------ | --------------- | ------ | ----------- | --------- | :------------------------------------- |
