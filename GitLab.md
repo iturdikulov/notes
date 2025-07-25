@@ -10,15 +10,10 @@ sr-ease: 246
 
 # GitLab
 
-> GitLab Inc. is an open-core company that operates GitLab, a DevOps software
-> package which can develop, secure, and operate software. The open source
-> software project was created by Ukrainian developer Dmytro Zaporozhets and
-> Dutch developer Sytse Sijbrandij. In 2018, GitLab Inc. was considered to be
-> the first partly-Ukrainian unicorn.\
+> GitLab Inc. is an open-core company that operates GitLab, a DevOps software package which can develop, secure, and operate software. The open source software project was created by Ukrainian developer Dmytro Zaporozhets and Dutch developer Sytse Sijbrandij. In 2018, GitLab Inc. was considered to be the first partly-Ukrainian unicorn.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/GitLab)</cite>
 
-DevOps software package which can develop, secure, and operate software.
-Alternative to [[GitHub]].
+DevOps software package which can develop, secure, and operate software. Alternative to [[GitHub]].
 
 Includes:
 

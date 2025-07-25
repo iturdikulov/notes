@@ -13,10 +13,7 @@ sr-ease: 266
 
 GIMP is a cross-platform, free, open-source image editor.
 
-> Whether you are a graphic designer, photographer, illustrator, or scientist,
-> GIMP provides you with sophisticated tools to get your job done. You can
-> further enhance your productivity with GIMP thanks to many customization
-> options and 3rd party plugins.\
+> Whether you are a graphic designer, photographer, illustrator, or scientist, GIMP provides you with sophisticated tools to get your job done. You can further enhance your productivity with GIMP thanks to many customization options and 3rd party plugins.\
 > — <cite>[GIMP](https://www.gimp.org/)</cite>
 
 ## Learning path
