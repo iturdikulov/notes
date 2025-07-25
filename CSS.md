@@ -10,21 +10,9 @@ sr-ease: 243
 
 # Cascading Style Sheets (CSS)
 
-> Cascading Style Sheets (CSS) is a style sheet language used for describing the
-> presentation of a document written in a markup language such as [[HTML]] or
-> XML (including XML dialects such as SVG, MathML or XHTML). CSS is a
-> cornerstone technology of the World Wide Web, alongside HTML and
-> [[JavaScript]].
+> Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as [[HTML]] or XML (including XML dialects such as SVG, MathML or XHTML). CSS is a cornerstone technology of the World Wide Web, alongside HTML and [[JavaScript]].
 >
-> CSS is designed to enable the separation of content and presentation,
-> including layout, colors, and fonts. This separation can improve content
-> accessibility; provide more flexibility and control in the specification of
-> presentation characteristics; enable multiple web pages to share formatting by
-> specifying the relevant CSS in a separate .css file, which reduces complexity
-> and repetition in the structural content; and enable the .css file to be
-> cached to improve the page load speed between the pages that share the file
-> and its formatting.
-> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/CSS)</cite>
+> CSS is designed to enable the separation of content and presentation, including layout, colors, and fonts. This separation can improve content accessibility; provide more flexibility and control in the specification of presentation characteristics; enable multiple web pages to share formatting by specifying the relevant CSS in a separate .css file, which reduces complexity and repetition in the structural content; and enable the .css file to be cached to improve the page load speed between the pages that share the file and its formatting. — <cite>[Wikipedia](https://en.wikipedia.org/wiki/CSS)</cite>
 
 ## Frequently Used Words in CSS Classes
 
@@ -158,7 +146,11 @@ Examples with [BEM](https://en.bem.info/methodology/quick-start) metodology.
 <div class="gallery">
   <ul class="gallery__list">
     <li class="gallery__item">
-      <img class="gallery__img" src="flowers.jpg" alt="Blooming like there's no tomorrow">
+      <img
+        class="gallery__img"
+        src="flowers.jpg"
+        alt="Blooming like there's no tomorrow"
+      >
     </li>
     <li class="gallery__item">
       <img class="gallery__img" src="trees.jpg" alt="Park 'Three Pines'">
@@ -205,9 +197,10 @@ Examples with [BEM](https://en.bem.info/methodology/quick-start) metodology.
   <h4 class="widget__title">Growing Jelly</h4>
 
   <div class="widget__content">
-    <p>To grow a communicative, friendly jelly,
-    we need a roll of foam rubber, two kilograms of sugar,
-    three eggs and half a teaspoon of acetone.</p>
+    <p>
+      To grow a communicative, friendly jelly, we need a roll of foam rubber,
+      two kilograms of sugar, three eggs and half a teaspoon of acetone.
+    </p>
 
     <a class="widget__link" href="#">Don't Read More...</a>
   </div>
@@ -218,31 +211,34 @@ Examples with [BEM](https://en.bem.info/methodology/quick-start) metodology.
 
 ```html
 <div class="news">
-    <h3 class="news__title">Yesterday's News</h3>
+  <h3 class="news__title">Yesterday's News</h3>
 
-    <ul class="news__list">
-        <!-- to element's class we are adding block's class,
+  <ul class="news__list">
+    <!-- to element's class we are adding block's class,
              to create a new namespace -->
-        <li class="news__item item-news">
-            <h4 class="item-news__title">Roach's Speed Skating Competition</h4>
-            <div class="item-news__text">
-              <p>The team of sprat from Petrozavodsk won</p>
+    <li class="news__item item-news">
+      <h4 class="item-news__title">Roach's Speed Skating Competition</h4>
+      <div class="item-news__text">
+        <p>The team of sprat from Petrozavodsk won</p>
 
-              <a href="#" class="item-news__link">Read More</a>
-            </div>
-        </li>
+        <a href="#" class="item-news__link">Read More</a>
+      </div>
+    </li>
 
-        <li class="news__item item-news">
-            <h4 class="item-news__title">Scientists clarified the role of nail file in nail care</h4>
-            <div class="item-news__text">
-              <p>British scientists highly praised
-                the contribution of the nail file
-                to growing 1.5-meter long nails.</p>
+    <li class="news__item item-news">
+      <h4 class="item-news__title">
+        Scientists clarified the role of nail file in nail care
+      </h4>
+      <div class="item-news__text">
+        <p>
+          British scientists highly praised the contribution of the nail file to
+          growing 1.5-meter long nails.
+        </p>
 
-              <a href="#" class="item-news__link">Don't Read More</a>
-            </div>
-        </li>
-    </ul>
+        <a href="#" class="item-news__link">Don't Read More</a>
+      </div>
+    </li>
+  </ul>
 </div>
 ```
 
@@ -260,15 +256,15 @@ Examples with [BEM](https://en.bem.info/methodology/quick-start) metodology.
   </div>
 
   <div class="article__content">
-    Go to the market and buy a bunch of parsley from old ladies for a hundred grams.
-    Properly sort it out and cleanse it from beetles and caterpillars. Give
-    the beetles to the cat to play with, settle the caterpillars in a pot with
-    cacti, let one be John, the other Billy, and now you will have a Wild West
-    in your pot. Get back to your bunch of parsley. Look at it tenderly and
+    Go to the market and buy a bunch of parsley from old ladies for a hundred
+    grams. Properly sort it out and cleanse it from beetles and caterpillars.
+    Give the beetles to the cat to play with, settle the caterpillars in a pot
+    with cacti, let one be John, the other Billy, and now you will have a Wild
+    West in your pot. Get back to your bunch of parsley. Look at it tenderly and
     scratch behind its ear, you can scratch yourself or the cat. Tie it up with
     a satin ribbon, be sure to tie a bow. Congratulations! Now you have a fully
-    domesticated bunch of parsley that will run after you merrily and grow
-    their seeds in your slippers.
+    domesticated bunch of parsley that will run after you merrily and grow their
+    seeds in your slippers.
   </div>
 </article>
 ```
@@ -279,7 +275,8 @@ Examples with [BEM](https://en.bem.info/methodology/quick-start) metodology.
 <article class="entry">
   <header class="entry__header">
     <h3 class="entry__title title-entry">
-      <a class="title-entry__link" href="#">Rubber Ducks as a Way of Self-Discovery</a>
+      <a class="title-entry__link" href="#"
+      >Rubber Ducks as a Way of Self-Discovery</a>
     </h3>
 
     <time class="entry__datetime">May 32, 10:87</time>
@@ -292,13 +289,11 @@ Examples with [BEM](https://en.bem.info/methodology/quick-start) metodology.
   </div>
 
   <div class="entry__content">
-    Get a box of fifty rubber ducks from the attic,
-    left over from New Year’s celebration. From the ducks
-    and lit candles, lay out a pentagram on the floor of
-    the room. Sit in the middle in lotus position, take a
-    German-Brazilian dictionary in each hand, cough, take
-    a full breath of air and say loud and confidently,
-    with full commitment “Quack!”
+    Get a box of fifty rubber ducks from the attic, left over from New Year’s
+    celebration. From the ducks and lit candles, lay out a pentagram on the
+    floor of the room. Sit in the middle in lotus position, take a
+    German-Brazilian dictionary in each hand, cough, take a full breath of air
+    and say loud and confidently, with full commitment “Quack!”
   </div>
 
   <div class="entry__tags tags-entry">

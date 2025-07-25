@@ -16,9 +16,7 @@ sr-ease: 268
 
 ## Typical Workflow
 
-1. Add a simple task:<wbr class="f"> `task add <description separated by spaces>`
-   Creating a task with due dates, recurrences, and tags
-   `task add Mow the lawn project:Lawnwork due:tomorrow recur:biweekly +home`
+1. Add a simple task:<wbr class="f"> `task add <description separated by spaces>` Creating a task with due dates, recurrences, and tags `task add Mow the lawn project:Lawnwork due:tomorrow recur:biweekly +home`
 2. List tasks:<wbr class="f"> `task list`
 3. Complete a task:<wbr class="f"> `task <task number> done`
 
@@ -36,6 +34,7 @@ TODO: default project, like inbox
 ## Attributes
 
 You can use some specific task attributes, such as:
+
 - tags
 - project
 - priority
@@ -46,11 +45,11 @@ You can use some specific task attributes, such as:
 
 - `due date` specify the exact date by which a task must be completed.
 - `scheduled date` represents the earliest opportunity to work on task
-- `wait date` represent the earliest opportunity the task should show up on the
-task list
+- `wait date` represent the earliest opportunity the task should show up on the task list
 - `until date` represent a date after which the task self-destructs.
 
 Relative dates to specify:
+
 ```sh
 task ... due:now
 task ... due:today
@@ -85,6 +84,7 @@ task ... due:sow+2d
 ## Modify tasks
 
 List of modification commands:
+
 - `task edit`
 - `task annotate`
 - `task undo`
@@ -94,8 +94,7 @@ List of modification commands:
 
 Taskwarrior has a next report, which is sorted by decreasing urgency.
 
-Urgency is a numeric score, Taskwarrior use a weighted linear expression to
-calculate urgency, which can be tweaked by user.
+Urgency is a numeric score, Taskwarrior use a weighted linear expression to calculate urgency, which can be tweaked by user.
 
 ```sh
 urgency.user.tag.next.coefficient    15.0 # +next tag
@@ -116,11 +115,11 @@ urgency.blocked.coefficient         -5.0 # blocked by other tasks
 ## Filters and reports
 
 Taskwarrior has a set of pre-defined reports:
+
 - `task next` (default)
 - `task completed` ...
 
-These can be further narrowed down using filters:
-`$ task <FILTER> <REPORT | COMMAND>`
+These can be further narrowed down using filters: `$ task <FILTER> <REPORT | COMMAND>`
 
 ```sh
 task project:Home
@@ -130,6 +129,7 @@ task project:Work completed
 ### Filters - attribute modifiers
 
 Attribute modifiers improve filters
+
 ```sh
 task due.before:eom priority.not:L list
 ```
@@ -161,10 +161,10 @@ and or xor ! # logical operators
 ( ) # precedence
 ```
 
-The `=` operator is not strict equality (approximate equality), sort of
- ranges, to use strict equality, use `==`
+The `=` operator is not strict equality (approximate equality), sort of ranges, to use strict equality, use `==`
 
 For example:
+
 ```sh
 task due.before:eom priority.not:L list
 task '( due < eom or priorioty != L)' list
@@ -204,6 +204,7 @@ Pretty useful settings are:
 ## Taskwarrior under the hood
 
 is all about plaintext (generally JSON file) - look into the ~/.task/
+
 - completed.data
 - pending.data
 - backlog.data
@@ -211,27 +212,22 @@ is all about plaintext (generally JSON file) - look into the ~/.task/
 
 ## Garbage collection
 
-When a task is marked as deleted, it gets a new status, and an end attribute.
-The task is written back into the `pending.data` file, but it doesn't belong
-there - it belongs in the `completed.data` file.
+When a task is marked as deleted, it gets a new status, and an end attribute. The task is written back into the `pending.data` file, but it doesn't belong there - it belongs in the `completed.data` file.
 
-Garbage Collection ([[garbage_collection]]) is operation automatically run by
-Taskwarrior to move tasks into the correct files.
+Garbage Collection ([[garbage_collection]]) is operation automatically run by Taskwarrior to move tasks into the correct files.
 
-When moving tasks between the files, ID numbers are affected, because they are
-simply line numbers in the `pending.data` file.
+When moving tasks between the files, ID numbers are affected, because they are simply line numbers in the `pending.data` file.
 
 ## Intermediate topics
 
-— Custom reports
-  This configurable in settings file.
-— Recurrence (and specifying frequencies)
-  ```sh
-  task add Throw out the trash due:eow recur:weekly
-  ```
+— Custom reports This configurable in settings file. — Recurrence (and specifying frequencies)
+
+```sh
+task add Throw out the trash due:eow recur:weekly
+```
+
 - Timetracking
-- Virtual tags
-  `task +TODAY`, `task +LATEST`, check more in `man task`
+- Virtual tags `task +TODAY`, `task +LATEST`, check more in `man task`
 
 ## Taskserver
 
@@ -239,8 +235,7 @@ Docker images available. Main command is `task sync`.
 
 ## Context
 
-You can switch between context using this command:
-`task @ <context>`
+You can switch between context using this command: `task @ <context>`
 
 ## UDA (user defined attributes)
 
