@@ -3,6 +3,7 @@ created: 2023-04-06T00:00+03:00
 tags:
   - blog
   - cheat-sheets
+  - now_software
 external:
   - https://github.com/nvim-telescope/telescope.nvim
 sr-due: 2025-07-27
@@ -12,20 +13,16 @@ sr-ease: 168
 
 # Telescope - Neovim plugin
 
-Highly extendable fuzzy finder over lists. Telescope is centered around
-modularity, allowing for easy customization.
+Highly extendable fuzzy finder over lists. Telescope is centered around modularity, allowing for easy customization.
 
-> Find, Filter, Preview, Pick. All lua, all the time. Gaze deeply into unknown
-> regions using the power of the moon.\
+> Find, Filter, Preview, Pick. All lua, all the time. Gaze deeply into unknown regions using the power of the moon.\
 > — <cite>[GitHub](https://github.com/nvim-telescope/telescope.nvim)</cite>
 
-One of my most-used [[Neovim]] plugins, I use it for project navigation,
-filtering search, and many other things.
+One of my most-used [[Neovim]] plugins, I use it for project navigation, filtering search, and many other things.
 
 ## Keyboard shortcuts
 
-Mappings are fully customizable. Many familiar mapping patterns are set up as
-defaults.
+Mappings are fully customizable. Many familiar mapping patterns are set up as defaults.
 
 - Show mappings for picker actions (insert mode):<wbr class="f"> `C-/`
 - Show mappings for picker actions (normal mode):<wbr class="f"> `?`
@@ -45,5 +42,4 @@ defaults.
 - Toggle selection and move to prev selection:<wbr class="f"> `S-Tab`
 - Send all items not filtered to quickfixlist (qflist):<wbr class="f"> `C-q`
 - Send all selected items to qflist:<wbr class="f"> `M-q`
-- Change directory functionality to some pickers, like find files (custom
-  mappng):<wbr class="f"> `cd`
+- Change directory functionality to some pickers, like find files (custom mappng):<wbr class="f"> `cd`

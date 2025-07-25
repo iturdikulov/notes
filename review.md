@@ -9,18 +9,9 @@ sr-ease: 229
 
 # Review
 
-> A review is an evaluation of a publication, product, service, or company or a
-> critical take on current affairs in literature, politics or culture. In
-> addition to a critical evaluation, the review's author may assign the work a
-> rating to indicate its relative merit.
+> A review is an evaluation of a publication, product, service, or company or a critical take on current affairs in literature, politics or culture. In addition to a critical evaluation, the review's author may assign the work a rating to indicate its relative merit.
 >
-> Reviews can apply to a [[my_movies|movie]] (a movie review), video
-> [[my_games|games]](video game review), [[my_music|musical]] composition (music
-> review of a composition or recording), [[my_literature|books]](book review);
-a piece of hardware like a car, [[life|home]] appliance,
-> or computer; or [[my_awesome_software_list|software]] such as business
-> software, sales software; or an event or performance, such as a live music
-> concert, play, musical theater show, dance show or art exhibition
+> Reviews can apply to a [[my_movies|movie]] (a movie review), video [[my_games|games]](video game review), [[my_music|musical]] composition (music review of a composition or recording), [[my_literature|books]](book review); a piece of hardware like a car, [[life|home]] appliance, or computer; or [[my_awesome_software_list|software]] such as business software, sales software; or an event or performance, such as a live music concert, play, musical theater show, dance show or art exhibition
 >
 > A compilation of reviews may itself be called a review.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Review)</cite>

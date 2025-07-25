@@ -9,13 +9,9 @@ sr-ease: 222
 
 # Repair
 
-Information for repairing my devices. I'm not really professional in repair, but
-I can make some minor repair.
+Information for repairing my devices. I'm not really professional in repair, but I can make some minor repair.
 
-First before repairing my devices I usually check
-[iFixit](https://www.ifixit.com/), If device is "popular" there should be some
-instructions. If there nothing usual, worth to check [[YouTube]] or just
-[[search_engine]] things.
+First before repairing my devices I usually check [iFixit](https://www.ifixit.com/), If device is "popular" there should be some instructions. If there nothing usual, worth to check [[YouTube]] or just [[search_engine]] things.
 
 ## External links
 

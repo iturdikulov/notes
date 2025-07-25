@@ -12,13 +12,10 @@ sr-ease: 271
 
 # Surfingkeys
 
-> Browser extension that provides keyboard-based navigation and control of the
-> web in the spirit of the VIM editor. But it's not for VIM users only, it's for
-> anyone who just needs some more shortcuts to his/her own functions.\
+> Browser extension that provides keyboard-based navigation and control of the web in the spirit of the VIM editor. But it's not for VIM users only, it's for anyone who just needs some more shortcuts to his/her own functions.\
 > — <cite>[GitHub](https://github.com/brookhong/Surfingkeys)</cite>
 
-I think it's too complicated, and I just use [[Vimium]] right now, and I removed
-from my spaced repetition system.
+I think it's too complicated, and I just use [[Vimium]] right now, and I removed from my spaced repetition system.
 
 ## Help
 

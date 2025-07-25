@@ -10,10 +10,7 @@ sr-ease: 267
 
 # Translate Shell
 
-> Translate Shell (formerly Google Translate CLI) is a command-line translator
-> powered by Google Translate (default), Bing Translator, Yandex.Translate, and
-> Apertium. It gives you easy access to one of these translation engines in your
-> terminal.
+> Translate Shell (formerly Google Translate CLI) is a command-line translator powered by Google Translate (default), Bing Translator, Yandex.Translate, and Apertium. It gives you easy access to one of these translation engines in your terminal.
 
 Main command is `trans`.
 
@@ -32,5 +29,4 @@ To exit REPL mode, type `C-d`.
 
 Set the source language and the target language in translate-shell repl?
 <br class="f">
-Russian → English - `ru:en`
-English → Russian - ` en:ru`
+Russian → English - `ru:en` English → Russian - `en:ru`

@@ -16,7 +16,7 @@ Work is activity to support personal needs, others needs or a wider community. T
 
 Work activity vary, it can be gathering natural resources by hand to operating complex technologies. Personally I usually engage in [[backend]] development.
 
-All but the simplest tasks also require [[my_career#Programmer|specific skills]], [[computer|equipment,]] or [[my_awesome_software_list|tools]], and other resources (such as material for manufacturing goods). 
+All but the simplest tasks also require [[my_career#Programmer|specific skills]], [[computer|equipment,]] or [[my_awesome_software_list|tools]], and other resources (such as material for manufacturing goods).
 
 As humans are diurnal, they work mainly [[my_routine|during the day]].
 

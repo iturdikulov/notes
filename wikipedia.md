@@ -11,9 +11,7 @@ sr-ease: 270
 
 [Wikipedia](http://en.wikipedia.org/)
 
-Wikipedia is one of my important [[learning]] sources. When you logged in you
-have some cool features, for example CSS styling, or you can edit your own
-article.
+Wikipedia is one of my important [[learning]] sources. When you logged in you have some cool features, for example CSS styling, or you can edit your own article.
 
 ## Related/similar projects
 

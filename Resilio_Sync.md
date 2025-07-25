@@ -11,16 +11,11 @@ sr-ease: 249
 
 # Resilo Sync
 
-I was long time [[Syncthing]] user, but I have some problems with it in my
-[[Android]] smartphone. So I switched to [[Resilio_Sync]].
+I was long time [[Syncthing]] user, but I have some problems with it in my [[Android]] smartphone. So I switched to [[Resilio_Sync]].
 
-Resilo sync allow to synchronize data between my mobile and desktop devices, and
-it's intuitive and easy to use. I'm no need paid plan for selective sync, in my
-case `.sync/IgnoreList` and sharing few directories is enough.
+Resilo sync allow to synchronize data between my mobile and desktop devices, and it's intuitive and easy to use. I'm no need paid plan for selective sync, in my case `.sync/IgnoreList` and sharing few directories is enough.
 
-There is non-intuitive setup on [[Linux]] if I want to share directory from
-somewhere from my home directory in [[NixOS]], here are some tips to make it
-work for my Wiki directory.
+There is non-intuitive setup on [[Linux]] if I want to share directory from somewhere from my home directory in [[NixOS]], here are some tips to make it work for my Wiki directory.
 
 ```bash
 setfacl -d -m group:rslsync:rwx /home/inom
@@ -37,8 +32,7 @@ sudo setfacl -R -m group:rslsync:rwx /home/inom/Music
 chmod g+s /home/inom/Wiki
 ```
 
-[$HOME facl is always reset in NixOS](https://discourse.nixos.org/t/home-facl-is-always-reset-in-21-05/13408).
-I have same issue, as workaround I use this `activationScripts` configuration:
+[$HOME facl is always reset in NixOS](https://discourse.nixos.org/t/home-facl-is-always-reset-in-21-05/13408). I have same issue, as workaround I use this `activationScripts` configuration:
 
 ```nix
 system.activationScripts."resilio" = ''
@@ -49,8 +43,5 @@ system.activationScripts."resilio" = ''
 
 ## Directories which I sync
 
-- Root directory from smartphone and tablet, 1 way sync to avoid possibility
-  loss of files, all file operatons are done on smartphone. I have configured
-  ignore list `.sync/IgnoreList` to avoid syncing some files/directories.
-- Zettelkasten, two-way sync, with extra sub-directores not related to
-  zettelkasten, ths simplify resilo sync setup.
+- Root directory from smartphone and tablet, 1 way sync to avoid possibility loss of files, all file operatons are done on smartphone. I have configured ignore list `.sync/IgnoreList` to avoid syncing some files/directories.
+- Zettelkasten, two-way sync, with extra sub-directores not related to zettelkasten, ths simplify resilo sync setup.

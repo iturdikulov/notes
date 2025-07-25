@@ -19,7 +19,7 @@ sr-ease: 165
 - Meeks and Dufour D3.js in Action
 - [Web technology for developers | MDN](https://developer.mozilla.org/en-US/docs/Web)
 - [web.dev - Learn](https://web.dev/learn).
-- [Как выполнять скрейпинг LinkedIn — полное руководство (обновлено в 2025 г.)]( https://ru-brightdata.com/blog/how-tos-ru/linkedin-scraping-guide)
+- [Как выполнять скрейпинг LinkedIn — полное руководство (обновлено в 2025 г.)](https://ru-brightdata.com/blog/how-tos-ru/linkedin-scraping-guide)
 - [How to Scrape LinkedIn & 7 Best LinkedIn Scrapers ['25]](https://research.aimultiple.com/linkedin-scrapers/)
 - [OAuth.com - OAuth 2.0 Simplified](https://www.oauth.com/)
 - [Build a JavaScript Front End for a Flask API – Real Python](https://realpython.com/flask-javascript-frontend-for-rest-api/#demo)

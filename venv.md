@@ -12,59 +12,31 @@ sr-ease: 232
 
 # Python virtual environments and packages
 
-This note explains how to create isolated Python environment and install
-[[Python]] packages. In these notes used mostly Python Virtual Environment
-[tutorial](https://docs.python.org/3/tutorial/venv.html) with
-[fastapi tutorial](https://fastapi.tiangolo.com/virtual-environments/).
+This note explains how to create isolated Python environment and install [[Python]] packages. In these notes used mostly Python Virtual Environment [tutorial](https://docs.python.org/3/tutorial/venv.html) with [fastapi tutorial](https://fastapi.tiangolo.com/virtual-environments/).
 
-> The `venv` [[Python]] module supports creating lightweight “virtual
-> environments”, each with their own **independent set** of Python packages
-> installed in their **site** directories.\
-> A virtual environment is created on top of an existing Python installation,
-> known as the virtual environment’s “base” Python, and may optionally be
-> isolated from the packages in the base environment, so only those explicitly
-> installed in the virtual environment are available.\
+> The `venv` [[Python]] module supports creating lightweight “virtual environments”, each with their own **independent set** of Python packages installed in their **site** directories.\
+> A virtual environment is created on top of an existing Python installation, known as the virtual environment’s “base” Python, and may optionally be isolated from the packages in the base environment, so only those explicitly installed in the virtual environment are available.\
 > — <cite>[venv](https://docs.python.org/3/library/venv.html)</cite>
 
-Virtual environment is a tool to create ==isolated== Python and packages
-environment for your program (projects, services, etc.).
+Virtual environment is a tool to create ==isolated== Python and packages environment for your program (projects, services, etc.).
 
-Python applications often using packages and modules that don't come as part of
-the standard library (dependencies).
+Python applications often using packages and modules that don't come as part of the standard library (dependencies).
 
-Applications sometimes need a **specific version** of a library, because the
-application may require that a particular bug has been fixed, or the application
-may be written using an obsolete version of the library's interface
-(compatibility and testing). This behavior creating conflicts, each application
-sometimes requiring own version of a library, and using global packages isn't
-working. ^shared-packages-issue
+Applications sometimes need a **specific version** of a library, because the application may require that a particular bug has been fixed, or the application may be written using an obsolete version of the library's interface (compatibility and testing). This behavior creating conflicts, each application sometimes requiring own version of a library, and using global packages isn't working. ^shared-packages-issue
 
-What if we just use only new version of packages in each project? It's very
-common in Python packages to try the best to avoid breaking changes in new
-versions, but it's better to be safe, and install newer versions
-**intentionally** and when you can run the [[software_testing|tests]] to check
-everything is working correctly.
+What if we just use only new version of packages in each project? It's very common in Python packages to try the best to avoid breaking changes in new versions, but it's better to be safe, and install newer versions **intentionally** and when you can run the [[software_testing|tests]] to check everything is working correctly.
 
-Also, depending on your operating system (e.g. Linux, Windows, macOS), it could
-have come with Python already installed. And in that case it probably had some
-packages pre-installed with some specific versions **needed by your system**. If
-you install packages in the global Python environment, you could end up breaking
-some of the programs that came with your operating system.
+Also, depending on your operating system (e.g. Linux, Windows, macOS), it could have come with Python already installed. And in that case it probably had some packages pre-installed with some specific versions **needed by your system**. If you install packages in the global Python environment, you could end up breaking some of the programs that came with your operating system.
 
-The solution for this problem is to create a `virtual environment`, a
-self-contained directory tree (usually `.venv`) that contains a **Python
-installation** for a particular version of Python, plus a number of additional
-packages. Each application can use own virtual environment.
+The solution for this problem is to create a `virtual environment`, a self-contained directory tree (usually `.venv`) that contains a **Python installation** for a particular version of Python, plus a number of additional packages. Each application can use own virtual environment.
 
 Which standard python module used to create virtual environments?
-<br class="f"> The module used to create and manage virtual environments is
-called `venv`.
+<br class="f">
+The module used to create and manage virtual environments is called `venv`.
 
-Which Python version will be installed in the virtual environment when you use
-`venv` module?
-<br class="f"> `venv` will install the Python version **from which** the command
-was run (as reported by the `--version` option). For instance, executing the
-command with `python3.12` will install Python 3.12.
+Which Python version will be installed in the virtual environment when you use `venv` module?
+<br class="f">
+`venv` will install the Python version **from which** the command was run (as reported by the `--version` option). For instance, executing the command with `python3.12` will install Python 3.12.
 
 ## Using "venv" module
 
@@ -113,8 +85,7 @@ deactivate
 
 How to configure [[PDE]] and [[IDE]] to work with virtual environment?
 
-Personally I use nix flakes, `direnv` (to activate virtual environment) and
-[[Neovim]] in terminal emulator.
+Personally I use nix flakes, `direnv` (to activate virtual environment) and [[Neovim]] in terminal emulator.
 
 Links to other editor's configuration help:
 
@@ -123,13 +94,9 @@ Links to other editor's configuration help:
 
 ## Using "pip" package installer
 
-To install (upgrade, remove) packages you would normally use the pip command
-that comes with Python (built-in).
+To install (upgrade, remove) packages you would normally use the pip command that comes with Python (built-in).
 
-By default, pip will install packages from
-[the Python package index](https://pypi.org/) into your global Python
-environment (the global installation of Python), which brings some package
-version [[#^shared-packages-issue|problems]].
+By default, pip will install packages from [the Python package index](https://pypi.org/) into your global Python environment (the global installation of Python), which brings some package version [[#^shared-packages-issue|problems]].
 
 Installing packages with pip.
 
@@ -177,13 +144,9 @@ pip install --find-links url|path/to/file
 pip install --editable .
 ```
 
-More information aviable in
-[Installing Python Modules](https://docs.python.org/3/installing/index.html#installing-index)
-documentation.
+More information aviable in [Installing Python Modules](https://docs.python.org/3/installing/index.html#installing-index) documentation.
 
-When you've written a package and want to make it available on the Python,
-consult the
-[Python packaging user guide](https://packaging.python.org/en/latest/tutorials/packaging-projects/).
+When you've written a package and want to make it available on the Python, consult the [Python packaging user guide](https://packaging.python.org/en/latest/tutorials/packaging-projects/).
 
 To initialize a virtual environment in `.venv` directory, run:
 

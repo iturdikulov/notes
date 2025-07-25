@@ -10,9 +10,7 @@ sr-ease: 228
 
 # Unix commands
 
-> List of Unix commands as specified by IEEE Std 1003.1-2008, which is part of
-> the Single UNIX Specification (SUS). These commands can be found on Unix
-> operating systems and most Unix-like operating systems.\
+> List of Unix commands as specified by IEEE Std 1003.1-2008, which is part of the Single UNIX Specification (SUS). These commands can be found on Unix operating systems and most Unix-like operating systems.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/List_of_Unix_commands)</cite>
 
 Name
@@ -63,9 +61,7 @@ Name
 - `logger`:<wbr class="f"> Log messages
 - `printf`:<wbr class="f"> Write formatted output
 - `read`:<wbr class="f"> Read a line from standard input
-- `sh`:<wbr class="f"> Shell, the standard command language interpreter
-AT&T UNIX (in earlier versions, sh was either the Thompson shell or the PWB
-shell)
+- `sh`:<wbr class="f"> Shell, the standard command language interpreter AT&T UNIX (in earlier versions, sh was either the Thompson shell or the PWB shell)
 - `sleep`:<wbr class="f"> Suspend execution for an interval
 - `tee`:<wbr class="f"> Duplicate the standard output
 - `test`:<wbr class="f"> Evaluate expression
@@ -164,7 +160,6 @@ shell)
 - `uname`:<wbr class="f"> Return system name
 - `uncompress`:<wbr class="f"> Expand compressed data
 - `write`:<wbr class="f"> Write to another user's terminal
-
 
 ## Filesystem
 

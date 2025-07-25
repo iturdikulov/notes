@@ -10,16 +10,10 @@ sr-ease: 248
 
 # Raster graphics editor (graphics editor)
 
-> A raster graphics editor (also called bitmap graphics editor) is a
-> [[computer_program]] that allows users to create and edit images interactively
-> on the computer screen and save them in one of many raster
-> [[computer_graphics]] file formats (also known as bitmap images) such as JPEG,
-> PNG, WebP, TIFF and GIF.\
+> A raster graphics editor (also called bitmap graphics editor) is a [[computer_program]] that allows users to create and edit images interactively on the computer screen and save them in one of many raster [[computer_graphics]] file formats (also known as bitmap images) such as JPEG, PNG, WebP, TIFF and GIF.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Raster_graphics_editor)</cite>
 
-My first raster graphics editor was [Microsoft
-Paint](https://en.wikipedia.org/wiki/Microsoft_Paint). It also aviable
-[online](https://paint.js.org/).
+My first raster graphics editor was [Microsoft Paint](https://en.wikipedia.org/wiki/Microsoft_Paint). It also aviable [online](https://paint.js.org/).
 
 ## External links
 

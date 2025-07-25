@@ -10,8 +10,7 @@ sr-ease: 267
 
 # Vim keycodes
 
-You can find keycodes using this command in [[Neovim]]:
-`:help keycodes`
+You can find keycodes using this command in [[Neovim]]: `:help keycodes`
 
 Here are some examples:
 

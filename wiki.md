@@ -11,20 +11,13 @@ sr-ease: 258
 
 # Wiki (encyclopedia)
 
-> A wiki (/ˈwɪki/ (listen) WIK-ee) is an online hypertext publication
-> collaboratively edited and managed by its own audience, using a web browser. A
-> typical wiki contains multiple pages for the subjects or scope of the project,
-> and could be either open to the public or limited to use within an
-> organization for maintaining its internal knowledge base.
-TODO: add source
+> A wiki (/ˈwɪki/ (listen) WIK-ee) is an online hypertext publication collaboratively edited and managed by its own audience, using a web browser. A typical wiki contains multiple pages for the subjects or scope of the project, and could be either open to the public or limited to use within an organization for maintaining its internal knowledge base. TODO: add source
 
 Wiki concepts:
 
-- You can easily create new pages and collaborate with others with simple text
-  formatting and using only a web browser.
+- You can easily create new pages and collaborate with others with simple text formatting and using only a web browser.
 - You can easily link to other pages, like web.
-- Anyone can edit any page, you may be not expert in the topic (but this also
-  can be bad, so review must be done).
+- Anyone can edit any page, you may be not expert in the topic (but this also can be bad, so review must be done).
 
 I'm use similar format to store my notes, with [[Zettelkasten]] method.
 

@@ -12,13 +12,7 @@ sr-ease: 262
 
 # Unreal Engine
 
-> Unreal Engine (UE) is a 3D computer graphics [[game]] engine developed by Epic
-> Games, first showcased in the 1998 first-person shooter game Unreal. Initially
-> developed for PC first-person shooters, it has since been used in a variety of
-> genres of games and has seen adoption by other industries, most notably the
-> film and television industry. Unreal Engine is written in C++ and features a
-> high degree of portability, supporting a wide range of desktop, mobile,
-> console, and virtual reality platforms.\
+> Unreal Engine (UE) is a 3D computer graphics [[game]] engine developed by Epic Games, first showcased in the 1998 first-person shooter game Unreal. Initially developed for PC first-person shooters, it has since been used in a variety of genres of games and has seen adoption by other industries, most notably the film and television industry. Unreal Engine is written in C++ and features a high degree of portability, supporting a wide range of desktop, mobile, console, and virtual reality platforms.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Unreal_Engine)</cite>
 
 ## Usage
@@ -30,12 +24,10 @@ sr-ease: 262
 ## Tips
 
 - Can't find projects in Epic Launcher (wine):\
-  You can create symbolic link to directory with projects, this allows to
-  install marketplace projects into your projects' directory.
+  You can create symbolic link to directory with projects, this allows to install marketplace projects into your projects' directory.
 
   Example: `/home/inom/.wine/drive_c/users/inom/Documents/Unreal Projects ->
   /games/unreal-samples/`
-
 
 ## External links
 
