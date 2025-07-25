@@ -10,37 +10,22 @@ sr-ease: 254
 
 # Web browser
 
-> A web browser is an application for accessing websites. When a user requests a
-> web page from a particular website, the browser retrieves its files from a web
-> server and then displays the page on the user's screen. Browsers are used on a
-> range of devices, including desktops, laptops, tablets, and smartphones. In
-> 2020, an estimated 4.9 billion people have used a browser. The most used
-> browser is Google Chrome, with a 65% global market share on all devices,
-> followed by Safari with 18%.
+> A web browser is an application for accessing websites. When a user requests a web page from a particular website, the browser retrieves its files from a web server and then displays the page on the user's screen. Browsers are used on a range of devices, including desktops, laptops, tablets, and smartphones. In 2020, an estimated 4.9 billion people have used a browser. The most used browser is Google Chrome, with a 65% global market share on all devices, followed by Safari with 18%.
 >
-> A web browser is not the same thing as a search engine, though the two are
-> often confused. A search engine is a website that provides links to other
-> websites. However, to connect to a website's server and display its web pages,
-> a user must have a web browser installed. In some technical contexts, browsers
-> are referred to as user agents.\
+> A web browser is not the same thing as a search engine, though the two are often confused. A search engine is a website that provides links to other websites. However, to connect to a website's server and display its web pages, a user must have a web browser installed. In some technical contexts, browsers are referred to as user agents.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Web_browser)</cite>
 
 Currently, I use and [[Brave]] and [[Firefox]] as fallback browser.
 
-I also recommend checking and integrate [[search_engine|search engines]] into
-your browser.
+I also recommend checking and integrate [[search_engine|search engines]] into your browser.
 
 ## Chromium Command Line Switches
 
-Since I using mostly chromium-based browsers, I can use command line switches to
-customize my browser behaviour, this is useful for debugging and testing.
+Since I using mostly chromium-based browsers, I can use command line switches to customize my browser behaviour, this is useful for debugging and testing.
 
-List of auto-generated command line switches can be found in
-[Beverloo](https://peter.sh/experiments/chromium-command-line-switches/) page.
+List of auto-generated command line switches can be found in [Beverloo](https://peter.sh/experiments/chromium-command-line-switches/) page.
 
-Alternative source is
-[Kapeli](https://kapeli.com/cheat_sheets/Chromium_Command_Line_Switches.docset/Contents/Resources/Documents/index)
-documentation.
+Alternative source is [Kapeli](https://kapeli.com/cheat_sheets/Chromium_Command_Line_Switches.docset/Contents/Resources/Documents/index) documentation.
 
 ## Shortcuts
 
@@ -74,15 +59,14 @@ This is a list of keyboard shortcuts which I use in my web browser.
 - Open the Task Manager:<wbr class="f"> `S-Esc`
 - Set focus on the last item in the toolbar:<wbr class="f"> `F10`
 - Switch focus to unfocused dialog (if showing)
-<br class="f">
-`F6`. If you press `F6` 2 times in focused address bar, you restore focus to the
-page, this is useful to use with extensions like vimium.
+  <br class="f">
+`F6`. If you press `F6` 2 times in focused address bar, you restore focus to the page, this is useful to use with extensions like vimium.
 - Open the Find Bar to search the current page:<wbr class="f"> `C-f` or `F3`
 - Jump to the next match to your Find Bar search:<wbr class="f"> `C-g`
 - Jump to the previous match to your Find Bar search:<wbr class="f"> `C-S-g`
 - Open Developer Tools:<wbr class="f"> `C-S-j` or `F12` or `C-S-c` (this also allow selecting elements).
 - Open the Clear Browsing Data options
-<br class="f">
+  <br class="f">
 `C-S-Delete`. This is dangerous. Much safer just clear this data in `Devtools ->
 Application -> Storage`.
 - Open the Help Center in a new tab:<wbr class="f"> `F1`
@@ -92,13 +76,13 @@ Application -> Storage`.
 
 - Search with your default search engine in current tab:<wbr class="f"> Type a search term `CR`
 - Search with custom search engine
-<br class="f">
+  <br class="f">
 Type a search engine name (`@nix`) and press `tab` or `space`.
 - Add .com to a site name, and open it:<wbr class="f"> Type a site name and press `C-CR` <!--SR:!2024-09-24,3,274-->
 - Open a new tab, focus it and perform a search:<wbr class="f"> Type a search term `M-CR`
 - Jump to the address bar:<wbr class="f"> `C-l` or `meta-d` or `f6`
 - Remove predictions from your address bar
-<br class="f">
+  <br class="f">
 `down` arrow to highlight, `S-delete`. Useful if you have annoying items.
 
 ### Webpage
@@ -130,7 +114,7 @@ Type a search engine name (`@nix`) and press `tab` or `space`.
 ### Mouse
 
 - Open a link in a current tab (mouse only)
-<br class="f">
+  <br class="f">
 Drag a link to a tab. Also, useful to drag links into search input on page
 - Open a link in new background tab:<wbr class="f"> `C-click` a link
 - Open a link, and jump to it:<wbr class="f"> `C-S-click` a link
@@ -138,7 +122,7 @@ Drag a link to a tab. Also, useful to drag links into search input on page
 - Open a link in a new window:<wbr class="f"> S-Click a link
 - Open a tab in a new window (mouse only):<wbr class="f"> Drag the tab out of the tab strip
 - Move a tab to a current window (mouse only)
-<br class="f">
+  <br class="f">
 Drag the tab into an existing window, Press `esc` while dragging to cancel.
 - Save the current webpage as a bookmark with mouse:<wbr class="f"> Drag the web address to the Bookmarks Bar
 - Display your browsing history:<wbr class="f"> `right-click` on `back` and `next` buttons or hold them
@@ -147,17 +131,11 @@ Drag the tab into an existing window, Press `esc` while dragging to cancel.
 
 ## Development tools
 
-DevTools allowing you edit web pages in live mode, debug [[JavaScript]] code and
-examine page source and structure (DOM tree).
+DevTools allowing you edit web pages in live mode, debug [[JavaScript]] code and examine page source and structure (DOM tree).
 
-Since my primary browser is Brave, I take more attention to Chrome DevTools
-details. [Chrome DevTools](https://developer.chrome.com/docs/devtools) are
-supported in Brave, so it's recommended to use them for debugging and testing
-when working with web development (frontend). Check link above for more
-information.
+Since my primary browser is Brave, I take more attention to Chrome DevTools details. [Chrome DevTools](https://developer.chrome.com/docs/devtools) are supported in Brave, so it's recommended to use them for debugging and testing when working with web development (frontend). Check link above for more information.
 
-All shortcuts aviable in `shortcuts` section in DevTools settings or on
-[this](https://developer.chrome.com/docs/devtools/shortcuts) web page.
+All shortcuts aviable in `shortcuts` section in DevTools settings or on [this](https://developer.chrome.com/docs/devtools/shortcuts) web page.
 
 ### Global shortcuts
 
