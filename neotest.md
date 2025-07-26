@@ -5,6 +5,7 @@ created: 2023-03-19T00:00+03:00
 tags:
   - blog
   - computer_testing
+  - now_software
 sr-due: 2025-07-22
 sr-interval: 2
 sr-ease: 223
@@ -14,30 +15,23 @@ sr-ease: 223
 
 A framework for interacting with [[software_testing|tests]] within [[Neovim]].
 
-Has core to run tests runners, interact with them, and display results (interact
-with user).
+Has core to run tests runners, interact with them, and display results (interact with user).
 
-Has plugins to interact with specific test runners. Currently, I use
-`neotest-python` with `pytest` runner.
+Has plugins to interact with specific test runners. Currently, I use `neotest-python` with `pytest` runner.
 
-Usage pretty standard, it can run/stop the nearest test, run all tests in file,
-debug tests and attach to tests.
+Usage pretty standard, it can run/stop the nearest test, run all tests in file, debug tests and attach to tests.
 
 Core documentation is here:
 
-- `:h neotest` - details of neotest design and how to interact with it
-  programmatically
+- `:h neotest` - details of neotest design and how to interact with it programmatically
 - `:h neotest.Config` - configuration options
 - `:h neotest.setup()` - default setup values for neotest
 - `:h neotest.run.xxx` - run and stop tests
 - `:h neotest.output` - displays output of tests
-- `:h neotest.output_panel` - records all output of tests over time in a single
-  window
+- `:h neotest.output_panel` - records all output of tests over time in a single window
 - `:h neotest.summary` - displays test suite structure from project root
-- `:h neotest.diagnostic` - use vim.diagnostic to display error messages where
-  they occur while running
-- `:h neotest.status` - displays the status of a test/namespace beside the
-  beginning of the definition.
+- `:h neotest.diagnostic` - use vim.diagnostic to display error messages where they occur while running
+- `:h neotest.status` - displays the status of a test/namespace beside the beginning of the definition.
 
 ## Usage
 
@@ -75,10 +69,7 @@ lua require("neotest").jump.next({ status = "failed" })
 
 Neotest use 2 strategies to run tests:
 
-1. **integrated**, default strategy that will run a process in the background
-   and allow opening a floating terminal to attach.
-2. **dap**, Uses nvim-dap to debug tests (adapter must support providing an
-   nvim-dap configuration).
+1. **integrated**, default strategy that will run a process in the background and allow opening a floating terminal to attach.
+2. **dap**, Uses nvim-dap to debug tests (adapter must support providing an nvim-dap configuration).
 
-To write adapter check official documentation:
-[neotest#writing-adapters](https://github.com/nvim-neotest/neotest/blob/master/README.md#writing-adapters).
+To write adapter check official documentation: [neotest#writing-adapters](https://github.com/nvim-neotest/neotest/blob/master/README.md#writing-adapters).
