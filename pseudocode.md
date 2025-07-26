@@ -19,13 +19,15 @@ Pseudocode is kind of structured English (or any other language) for describing 
 Main Purpose of pseudocode?
 <br class="f">
 Pseudocode as a blueprint, you describe algorithm first in simplified version of actual [[code]]. This simplified form helps on :
+
 - Focus on what the program should do (the logic) without worrying about how to write it in specific programming languages.
 - Communicate ideas clearly with team members who may not know programming.
 - Plan solutions before diving into actual coding.
 
 What vocabulary should be used in pseudocode?
 <br class="f">
-Vocabulary used in pseudocode should be the vocabulary of the problem domain (not realization). Someone who understand requirements (problem domain) can easily read it, even if it's not good at [[computer_programming]].
+Vocabulary used in pseudocode should be the vocabulary of the problem domain (not realization). Someone who understand requirements (problem domain) can easily read it, even if it's not good at [[computer_programming]]. <!--SR:!2025-07-26,1,130-->
+
 ```
 Extract the next word from the line (good)
 set word to get next token (poor)
@@ -41,7 +43,8 @@ Avoid too vague expressions, logic should be decomposed to the level of single l
 
 Do you know some structured constructs in pseudocode (common words)?
 <br class="f">
-Style of pseudocode is free, but better to use some common convection's, for example this "structured" part of pseudocode (notation of base constructs): `SEQUENCE`, `WHILE`, `IF-THEN-ELSE`, `REPEAT-UNTIL`, `FOR`, and `CASE`.
+Style of pseudocode is free, but better to use some common convection's, for example this "structured" part of pseudocode (notation of base constructs): `SEQUENCE`, `WHILE`, `IF-THEN-ELSE`, `REPEAT-UNTIL`, `FOR`, and `CASE`. <!--SR:!2025-07-26,1,130-->
+
 - SEQUENCE is a linear progression where one task is performed sequentially after another.
 - IF-THEN-ELSE is a decision (selection) in which a choice is made between two alternative courses of action.
 - WHILE is a loop (repetition) with a simple conditional test at its beginning.
@@ -51,9 +54,9 @@ Style of pseudocode is free, but better to use some common convection's, for exa
 
 ## SEQUENCE
 
-In sequence each step processed: <wbr class="f"> one after another in order.
+In sequence each step processed: <wbr class="f"> one after another in order. <!--SR:!2025-07-26,2,177-->
 
-Analogy: Like following a morning routine - brush teeth, wash face, comb hair. 
+Analogy: Like following a morning routine - brush teeth, wash face, comb hair.
 
 Sequential control is indicated by writing one action after another, each action on a line by itself, and all actions aligned with the same indent. The actions are performed in the sequence (top to bottom) that they are written.
 

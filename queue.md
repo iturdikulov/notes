@@ -24,7 +24,8 @@ sr-ease: 164
 | Insert    | O(1)    | O(1)       |
 | Delete    | O(1)    | O(1)       |
 
-![[img/queue.excalidraw|FIFO queue diagram]] _Representation of a FIFO queue_
+![[img/queue.excalidraw|FIFO queue diagram]]
+_Representation of a FIFO queue_
 
 ## External links
 

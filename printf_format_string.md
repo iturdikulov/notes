@@ -10,8 +10,7 @@ sr-ease: 249
 
 # Printf format in C
 
-Where the _specifier character_ at the end is the most significant component,
-since it defines the type and the interpretation of its corresponding argument:
+Where the _specifier character_ at the end is the most significant component, since it defines the type and the interpretation of its corresponding argument:
 
 | _specifier_ | Output | Example |
 | --- | --- | --- |
@@ -31,10 +30,8 @@ since it defines the type and the interpretation of its corresponding argument:
 | c | Character | a |
 | s | String of characters | sample |
 | p | Pointer address | b8000000 |
-| n | Nothing printed.
-The corresponding argument must be a pointer to a signed int.
-The number of characters written so far is stored in the pointed location. |  |
-| % | A % followed by another % character will write a single % to the stream. | % |
+| n | Nothing printed. The corresponding argument must be a pointer to a signed int. The number of characters written so far is stored in the pointed location. 
+| % | A % followed by another % character will write a single % to the stream. 
 
 ## External links
 

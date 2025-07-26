@@ -16,7 +16,6 @@ sr-ease: 204
 ## Selection sort in action
 
 We compare each value with the lowest number we’ve encountered in each pass-through, and we swap the ==lowest number== into its correct position.
-
 ```text
 4.2.7.1.3
 ...        -> find lowest value 1 at first pass-through
@@ -41,41 +40,41 @@ Can you write selection sort, at least basic implementation?
 <br class="f">
 ```js
 function selectionSort(array) {
-    // Usage: selectionSort([2, 3, 5, 1, 2, 6, 7, 8, 9, 10]);
+  // Usage: selectionSort([2, 3, 5, 1, 2, 6, 7, 8, 9, 10]);
 
-    // Pass-through's generation until **second-to-last** value (i current value)
-    // we assume array will be sorted after all N-1 pass-through operations
-    // (last item will be automatically sorted)
-    for(let i = 0; i < array.length - 1; i++) {
-        // Track index of lowest value in unsorted area
-        // on initialization we assume first array item is already sorted
-        // we need to track index and value of lowest array item, this is why used index here
-        let lowestNumberIndex = i;
+  // Pass-through's generation until **second-to-last** value (i current value)
+  // we assume array will be sorted after all N-1 pass-through operations
+  // (last item will be automatically sorted)
+  for (let i = 0; i < array.length - 1; i++) {
+    // Track index of lowest value in unsorted area
+    // on initialization we assume first array item is already sorted
+    // we need to track index and value of lowest array item, this is why used index here
+    let lowestNumberIndex = i;
 
-        // We start checking from 1 to 9 index (j = i + 1), comparasions steps
-        //  then from 2 to 9
-        //   then from 3 to 9, etc.
-        for(let j = i + 1; j < array.length; j++) {
-            if(array[j] < array[lowestNumberIndex]) {
-                // Store minimal value for current array range
-                lowestNumberIndex = j;
-            }
-        } // possible situation when lowestNumberIndex doesn't change at all
+    // We start checking from 1 to 9 index (j = i + 1), comparasions steps
+    //  then from 2 to 9
+    //   then from 3 to 9, etc.
+    for (let j = i + 1; j < array.length; j++) {
+      if (array[j] < array[lowestNumberIndex]) {
+        // Store minimal value for current array range
+        lowestNumberIndex = j;
+      }
+    } // possible situation when lowestNumberIndex doesn't change at all
 
-        // If current index NOT already minimal value, we need to swap
-        // currentVal ⇄  minValue, swap step
-        if(lowestNumberIndex != i) {
-            let currentValTemp = array[i];
-            array[i] = array[lowestNumberIndex];
-            array[lowestNumberIndex] = currentValTemp;
-        }
+    // If current index NOT already minimal value, we need to swap
+    // currentVal ⇄  minValue, swap step
+    if (lowestNumberIndex != i) {
+      let currentValTemp = array[i];
+      array[i] = array[lowestNumberIndex];
+      array[lowestNumberIndex] = currentValTemp;
     }
-    return array;
+  }
+  return array;
 }
 
 console.log(selectionSort([2, 3, 5, 1, 2, 6, 7, 8, 9, 10]));
 ```
-*Results:*
+_Results:_
 ```
 [
   1, 2, 2, 3,  5,

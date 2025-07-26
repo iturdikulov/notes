@@ -3,6 +3,7 @@ created: 2022-12-29T00:00+03:00
 tags:
   - blog
   - computer_programming_patterns
+  - now
 sr-due: 2025-07-22
 sr-interval: 1
 sr-ease: 130
@@ -14,8 +15,7 @@ List of programming principles aviable at Wikipedia [^1].
 
 DRY
 <br class="f">
-Don't Repeat Youself. Avoid writing the same code in multiple places.
-This principle make your code more maintainable when you need to change it.
+Don't Repeat Youself. Avoid writing the same code in multiple places. This principle make your code more maintainable when you need to change it.
 
 Why repeating code is bad or can be bad?
 <br class="f">
@@ -29,37 +29,25 @@ YAGNI:<wbr class="f"> You Ain't Going to Need It
 
 [[SOLID]]
 <br class="f">
-Single Responsibility, Open/Closed, Liskov Substitution, Interface Segregation,
-Dependency Inversion.
+Single Responsibility, Open/Closed, Liskov Substitution, Interface Segregation, Dependency Inversion.
 
-Programming principles are required to write "good code". If you follow them
-usually you receive good codebase which can be easily maintained and extended.
+Programming principles are required to write "good code". If you follow them usually you receive good codebase which can be easily maintained and extended.
 
 High-level principles:
 
 - Gathering problems and requirements is first step, and it's important.
-- Architecture planning and discussion required to make decisions and deeply
-understand the problem.
-- Need to write maintainable code for people, DRY, KISS, YAGNI, need to avoid
-neurosis and excessive perfectionism.
-- Write **simple** self-documenting code that explains its logic, comments
-should be up-to-date and do not contain unnecessary information (explain what is
-not clear or why it was done that way):
-  - I avoid deep abstractions and always prefer composition to inheritance or
-  impurity.
+- Architecture planning and discussion required to make decisions and deeply understand the problem.
+- Need to write maintainable code for people, DRY, KISS, YAGNI, need to avoid neurosis and excessive perfectionism.
+- Write **simple** self-documenting code that explains its logic, comments should be up-to-date and do not contain unnecessary information (explain what is not clear or why it was done that way):
+  - I avoid deep abstractions and always prefer composition to inheritance or impurity.
   - I prefer flat data structures whenever possible.
-  - I introduce external dependencies to a minimum (ideally without them at
-  all).
-  - I design modules with clear APIs, but almost never translate them into
-  microservices.
+  - I introduce external dependencies to a minimum (ideally without them at all).
+  - I design modules with clear APIs, but almost never translate them into microservices.
   - To understand legacy code, I draw dependency graphs and sequence diagrams.
   - I write examples - lots of examples. Some of them are even interactive.
-- Several levels of testing, with the help of "tools" (debugger, linter, etc.)
-and automatic testing greatly help to detect bugs and issues.
-- Working with team, helping others and myself (documentation, training,
-reviews) significantly improve quality of any project.
-- I listen to the opinion of older comrades, experience is very expensive and
-useful.
+- Several levels of testing, with the help of "tools" (debugger, linter, etc.) and automatic testing greatly help to detect bugs and issues.
+- Working with team, helping others and myself (documentation, training, reviews) significantly improve quality of any project.
+- I listen to the opinion of older comrades, experience is very expensive and useful.
 - I do refactor my code if something is unclear and needs to be improved.
 
 ## Learning path
@@ -75,16 +63,14 @@ useful.
 - [ ] [Великая дидактика — Википедия](https://ru.wikipedia.org/wiki/%D0%92%D0%B5%D0%BB%D0%B8%D0%BA%D0%B0%D1%8F_%D0%B4%D0%B8%D0%B4%D0%B0%D0%BA%D1%82%D0%B8%D0%BA%D0%B0)
 - [Обобщённое программирование — Википедия](https://ru.wikipedia.org/wiki/%D0%9E%D0%B1%D0%BE%D0%B1%D1%89%D1%91%D0%BD%D0%BD%D0%BE%D0%B5_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5)
 - [ ] [Awesome Software Architecture](https://awesome-architecture.com/)
-- [p] [[12factor_app]] - Intersting high-level overview of "good" applications
-  development practicies.
+- [p] [[12factor_app]] - Intersting high-level overview of "good" applications development practicies.
 - [ ] [[Freeman_etal-Head_first_design_patterns]]
 - [ ] [Architecture Patterns with Python](https://www.cosmicpython.com/book/preface.html)
 - [python-patterns](https://github.com/faif/python-patterns)
 - [ ] [[solid]] note research, part 2.
 - [ ] Refactoring: Improving the Design of Existing Code, read and take notes.
 - Domain-Driven Design Distilled, read and take notes.
-- [Data-Oriented Demo: SOA, composition - YouTube](https://www.youtube.com/watch?v=ZHqFrNyLlpA),
-  research video.
+- [Data-Oriented Demo: SOA, composition - YouTube](https://www.youtube.com/watch?v=ZHqFrNyLlpA), research video.
 - Beyond the Twelve-Factor App, read and take notes.
 - [[OOP]] - research note.
 - [GitHub - pgorecki/python-ddd: Python DDD example](https://github.com/pgorecki/python-ddd)

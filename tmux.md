@@ -3,6 +3,7 @@ created: 2023-09-10T00:00+03:00
 tags:
   - blog
   - cheat-sheets
+  - now_software
 sr-due: 2025-09-13
 sr-interval: 65
 sr-ease: 203
@@ -10,9 +11,7 @@ sr-ease: 203
 
 # Tmux
 
-> tmux is a terminal multiplexer. It lets you switch easily between several
-> programs in one terminal, detach them (they keep running in the background)
-> and reattach them to a different terminal.\
+> tmux is a terminal multiplexer. It lets you switch easily between several programs in one terminal, detach them (they keep running in the background) and reattach them to a different terminal.\
 > — <cite> [tmux Wiki](https://github.com/tmux/tmux/wiki)</cite>
 
 Tmux is my daily driver for terminals, [[CLI]] and code [[Neovim|editors].
@@ -40,18 +39,15 @@ Sessions are the independent workspaces of Tmux.
 - Rename session:<wbr class="f"> `$`
 - New tmux session:<wbr class="f"> `tmux` from command line or `:new<CR>` from tmux session. <!--SR:!2024-09-22,1,203-->
 - New tmux session with name:<wbr class="f"> `tmux new -s myname` or `:new -s myname<CR>`
-- Attach:<wbr class="f"> `tmux a` (or at, or attach) or use `tma` alias. Optionally you can use
-  session name (`tma -t myname`). <!-- TODO: mux alias? -->
+- Attach:<wbr class="f"> `tmux a` (or at, or attach) or use `tma` alias. Optionally you can use session name (`tma -t myname`). <!-- TODO: mux alias? -->
 - List sessions:<wbr class="f"> `tmux ls` or use `tml` alias.
 - Kill specific session:<wbr class="f"> `tmux kill-session -t myname`.
-- You can use ==`tmux kill-server`== to _cleanly and gracefully_ kill all
-tmux open sessions (and server). Alternative is `Q` keybinding.
+- You can use ==`tmux kill-server`== to _cleanly and gracefully_ kill all tmux open sessions (and server). Alternative is `Q` keybinding.
 - You can **force kill** all tmux processes with ==`pkill -f --bind=enter:replace-query+print-querytmux`==.
-- If you are inside a tmux session you would like to keep, use
-  ==`tmux kill-session -a`== to close all other sessions.
+- If you are inside a tmux session you would like to keep, use ==`tmux kill-session -a`== to close all other sessions.
 - Jump next and previous session:<wbr class="f"> `)`, `(`
 - Interactive window/session list.
-<br class="f">
+  <br class="f">
 `w`, `S`. Use `j` and `k` to navigate, and switch by hitting `<CR>`.
 - Find window (changed to tmux-sessionizer):<wbr class="f"> `^a`
 - Create window (tab) with current path if configured:<wbr class="f"> `c`
@@ -85,9 +81,8 @@ tmux open sessions (and server). Alternative is `Q` keybinding.
 - Swap window right:<wbr class="f"> `:swap-window -t +1; select-window -t +1`
 
 - Do I need always use prefix to resize panes?
-<br class="f">
-No, if you strike key fast enough (to hold you need to configure `repeat-time`
-option).
+  <br class="f">
+No, if you strike key fast enough (to hold you need to configure `repeat-time` option).
 
 - Resize pane up (by 5):<wbr class="f"> `M-Up`
 - Resize pane down (by 5):<wbr class="f"> `M-Down`

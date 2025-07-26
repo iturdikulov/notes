@@ -14,6 +14,8 @@ sr-ease: 250
 
 I use it very often in my [[life]].
 
+TODO: check services?
+
 ## External links
 
 - [Shipper](https://shipper.space/)
