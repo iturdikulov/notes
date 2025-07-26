@@ -3,6 +3,7 @@ created: 2023-03-06T00:00+03:00
 tags:
   - blog
   - linguistic
+  - now_life
 sr-due: 2025-10-28
 sr-interval: 110
 sr-ease: 186
@@ -10,55 +11,37 @@ sr-ease: 186
 
 # English language
 
-English is a West Germanic language in the Indo-European
-[[language_family|language family]].
+English is a West Germanic language in the Indo-European [[language_family|language family]].
 
-> English is a language that started in Anglo-Saxon England. It is originally
-> from Anglo-Frisian and Old Saxon dialects. English is now used as a global
-> language. There are about 375 million native speakers (people who use it as
-> their first language) in the world.
+> English is a language that started in Anglo-Saxon England. It is originally from Anglo-Frisian and Old Saxon dialects. English is now used as a global language. There are about 375 million native speakers (people who use it as their first language) in the world.
 >
-> Frisian is the language closest to English. The vocabulary of English was
-> influenced by other Germanic languages in the early Middle Ages and later by
-> Romance languages, especially French.
+> Frisian is the language closest to English. The vocabulary of English was influenced by other Germanic languages in the early Middle Ages and later by Romance languages, especially French.
 >
-> English has changed and developed over time, like all other languages. The
-> most obvious changes are the many words taken from Latin and Old French, which
-> then came to Old English and then Modern English, which is used today.
+> English has changed and developed over time, like all other languages. The most obvious changes are the many words taken from Latin and Old French, which then came to Old English and then Modern English, which is used today.
 >
-> English grammar has also become very different from other Germanic languages,
-> but it stayed different from Romance languages. Because nearly 60% of the
-> vocabulary comes from Latin, English is sometimes called the Germanic language
-> that is the most Latin, and it is often mistaken for being a Romance language.
+> English grammar has also become very different from other Germanic languages, but it stayed different from Romance languages. Because nearly 60% of the vocabulary comes from Latin, English is sometimes called the Germanic language that is the most Latin, and it is often mistaken for being a Romance language.
 >
 > [Simple English Wikipedia](https://simple.wikipedia.org/wiki/English_language)
 
-I have own learning path, which can help me to understand English materials,
-media and people.
+I have own learning path, which can help me to understand English materials, media and people.
 
 ## Learning path
 
 TODO: better group resources
 
-I usually just read/consume some content in [[English]]. [[touch_typing|Touch
-typing]] greatly help me to memorize words and phrases.
+I usually just read/consume some content in [[English]]. [[touch_typing|Touch typing]] greatly help me to memorize words and phrases.
 
-I am a native speaker of [[Russian]], and sometimes I need to study English with
-Russian in same time (to understand grammar terms, differences, etc.).
+I am a native speaker of [[Russian]], and sometimes I need to study English with Russian in same time (to understand grammar terms, differences, etc.).
 
 To understand custom bullet list types check [[my_notation]] note.
 
 ### Now
 
 - THE article fundamentals
-- Алевтина Попова - От YESли бы к YESтественно. Как выучить английские времена с
-  помощью мемов.
+- Алевтина Попова - От YESли бы к YESтественно. Как выучить английские времена с помощью мемов.
 - [!] [[duolingo]]
-- [!] Fundamentals of English grammar:
-  ![[img/Spelling_punctuation_and_grammar_SPAG.excalidraw|Spelling punctuation
-  and grammar scheme]]
-- Some book from Ilia Frank series,
-  [Метод чтения Ильи Франка](http://www.franklang.ru/)
+- [!] Fundamentals of English grammar: ![[img/Spelling_punctuation_and_grammar_SPAG.excalidraw|Spelling punctuation and grammar scheme]]
+- Some book from Ilia Frank series, [Метод чтения Ильи Франка](http://www.franklang.ru/)
 - [[Petrov-Poliglot]]
 - [[CHernixovskaya-English_start-up]]
 - [[Murphy_Essential_Grammar_in_Use_Elementary]]
@@ -97,16 +80,11 @@ To understand custom bullet list types check [[my_notation]] note.
 
 ## Collactions (словосочетания)
 
-One method to learn English is learning collocations. They very useful to learn
-natural language. Collocations are words that are used together in a sentence.
-There are some types of collocations: Fixed, Strong, and Weak.
+One method to learn English is learning collocations. They very useful to learn natural language. Collocations are words that are used together in a sentence. There are some types of collocations: Fixed, Strong, and Weak.
 
 ## English grammar
 
-Examples of correct English language parts (paragraphs, sentences, words and
-other parts), main soruce is
-[English grammar - Wikipedia](https://en.wikipedia.org/wiki/English_grammar)
-webpage.
+Examples of correct English language parts (paragraphs, sentences, words and other parts), main soruce is [English grammar - Wikipedia](https://en.wikipedia.org/wiki/English_grammar) webpage.
 
 Using dash, en-dash, capitalization:
 

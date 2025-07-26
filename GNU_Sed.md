@@ -3,6 +3,7 @@ created: 2023-03-14T00:00+03:00
 tags:
   - blog
   - computer_programming_tools
+  - now_software
 sr-due: 2025-07-22
 sr-interval: 3
 sr-ease: 268
@@ -10,27 +11,21 @@ sr-ease: 268
 
 # GNU sed (stream editor) is a non-interactive command-line text editor
 
-> sed is commonly used to filter text or edit, i.e., it takes text input,
-> performs some operation (or set of operations) on it, and outputs the modified
-> text.
+> sed is commonly used to filter text or edit, i.e., it takes text input, performs some operation (or set of operations) on it, and outputs the modified text.
 >
-> sed is typically used for extracting part of a file using pattern matching or
-> substituting multiple occurrences of a string within a file.\
+> sed is typically used for extracting part of a file using pattern matching or substituting multiple occurrences of a string within a file.\
 > — <cite>[GNU sed](https://www.gnu.org/software/sed/)</cite>
 
 ## Examples
 
-Replace all `apple` occurrences with `mango` and print the result to `stdout`
-(don't do any file modifications):
+Replace all `apple` occurrences with `mango` and print the result to `stdout` (don't do any file modifications):
 <br class="f">
 ```sh
 echo "I have 1 apple and he has 2 apples." | sed 's/apple/mango/g'
 ```
+_Results:_ `I have 1 mango and he has 2 mangos.`
 
-*Results:* `I have 1 mango and he has 2 mangos.`
-
-Replace all `apple` occurrences with `mango` in a
-specific file and overwrite the original file in place:
+Replace all `apple` occurrences with `mango` in a specific file and overwrite the original file in place:
 
 ```sh
 # -i[SUFFIX], --in-place[=SUFFIX]
@@ -42,10 +37,9 @@ sed -i 's/apple/mango/g' /tmp/sed_test
 cat /tmp/sed_test
 ```
 
-*Results:* `I have 1 mango and he has 2 mangos.`
+_Results:_ `I have 1 mango and he has 2 mangos.`
 
-Replace all `apple` (extended regex) occurrences with `APPLE` (extended regex)
-in all input lines and print the result to `stdout`:
+Replace all `apple` (extended regex) occurrences with `APPLE` (extended regex) in all input lines and print the result to `stdout`:
 <br class="f">
 ```sh
 # -E, --regexp-extended
@@ -53,16 +47,13 @@ in all input lines and print the result to `stdout`:
 
 echo "I have 1 apple and he has 2 apples." | sed -E 's/(apple)/\U\1/g'
 ```
-
-*Results:* `I have 1 APPLE and he has 2 APPLEs.`
+_Results:_ `I have 1 APPLE and he has 2 APPLEs.`
 
 Remove leading spaces:
-
 ```sh
 printf "  One\n  Two\n  Three\n  Four\n  Five"|sed -E 's/^\s+//g'
 ```
-
-*Results:*
+_Results:_
 ```
 One
 Two
@@ -77,7 +68,8 @@ Remove empty lines and print results to stdout:
 printf "One\n\n\nTwo\nThree\nFour\nFive\nSix\nSeven\nEight\nNine\n"|sed '/^$/d'
 ```
 
-*Results:*
+_Results:_
+
 ```
 One
 Two
@@ -100,7 +92,8 @@ fd Wiki -a -d 1 | sed 's/\/home//'
 fd Wiki -a -d 1 | sed 's|/home||'
 ```
 
-*Results:*
+_Results:_
+
 ```
 /inom/Wiki/Wikipedia-Glossary_of_computer_science.md
 /inom/Wiki/Wikipedia-Glossary_of_computer_science.md
@@ -128,7 +121,8 @@ sed -i -f /tmp/script.sed /tmp/data.txt
 cat /tmp/data.txt
 ```
 
-*Results:*
+_Results:_
+
 ```
 shared class Main {
   shared static void main(String[] args) {
@@ -145,7 +139,7 @@ Print just the first line to `stdout`:
 printf "I have 1 apple and he has 2 apples.\nAnd you?" | sed -n '1p'
 ```
 
-*Results:* `I have 1 apple and he has 2 apples.`
+_Results:_ `I have 1 apple and he has 2 apples.`
 
 Delete the first line of a file:
 
@@ -159,7 +153,8 @@ sed -i 1d /tmp/sed_test
 cat /tmp/sed_test
 ```
 
-*Results:*
+_Results:_
+
 ```
 Two
 Three
@@ -180,7 +175,8 @@ printf "One\nTwo\nThree\nFour\nFive\nSix\nSeven\nEight\nNine\n" > /tmp/sed_test
 sed '4d' /tmp/sed_test
 ```
 
-*Results:*
+_Results:_
+
 ```
 Two
 Three
@@ -211,7 +207,7 @@ Eight
 Nine
 ```
 
-Insert a new line at the first line of a file:
+Insert a newline at the first line of a file:
 
 ```sh
 # -i[SUFFIX], --in-place[=SUFFIX] - edit files in place (makes backup if SUFFIX
@@ -221,7 +217,7 @@ Insert a new line at the first line of a file:
 sed -i '1i\your new line text\' path/to/file
 ```
 
-*Results:* `sed: can't read path/to/file: No such file or directory`
+_Results:_ `sed: can't read path/to/file: No such file or directory`
 
 Replace every occurrence of 'hello' with 'world' on lines 10-20:
 
@@ -234,7 +230,8 @@ printf "hello\nhello\nhello\nhello\nhello\nhello\nhello\nhello\nhello\n" >\
 sed '1,2s/hello/world/' /tmp/sed_test
 ```
 
-*Results:*
+_Results:_
+
 ```
 world
 world
@@ -258,7 +255,7 @@ sed '/Once upon a time/i\Chapter 1'
 sed '/happily ever after/a\The end.'
 ```
 
-Replace mulitline substrngs in multiple files:
+Replace multiline substrings in multiple files:
 
 ```sh
 for i in ./appmanifest_*.acf; do
