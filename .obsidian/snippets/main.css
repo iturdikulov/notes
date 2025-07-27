@@ -55,6 +55,9 @@ iframe[src*="youtu"] {
   }
 }
 
+.sr-flashcard .sr-content{
+  flex-grow: none;
+}
 .sr-flashcard code{
   color: var(--code-normal);
   font-family: var(--font-monospace);
