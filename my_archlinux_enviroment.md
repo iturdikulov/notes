@@ -10,14 +10,9 @@ sr-ease: 250
 
 # My Arch Linux environment
 
-> Arch Linux is an independently developed, x86-64 general-purpose GNU/Linux
-> distribution that strives to provide the latest stable versions of most
-> software by following a rolling-release model. The default installation is a
-> minimal base system, configured by the user to only add what is purposely
-> required.
+> Arch Linux is an independently developed, x86-64 general-purpose GNU/Linux distribution that strives to provide the latest stable versions of most software by following a rolling-release model. The default installation is a minimal base system, configured by the user to only add what is purposely required.
 
-For me Arch Linux is feature-complete Linux distribution, with small
-dependencies, rich documentation and a good community.
+For me Arch Linux is feature-complete Linux distribution, with small dependencies, rich documentation and a good community.
 
 I use it a lot, and know how to work with it.
 
@@ -30,23 +25,16 @@ I use it a lot, and know how to work with it.
 - Pacman
 
 ## Before start
-- check [hostnames](file:///home/inom/Computer/data/word_list/etc-hosts) and
-network settings.
+
+- check [hostnames](file:///home/inom/Computer/data/word_list/etc-hosts) and network settings.
 
 ## Principles
 
--   simplicity, fewer problems for users, minimal changes.
--   modernity, since it\'s rolling-release distribution used latest
-    stable releases of software.
--   pragmatism, no ideological, political or popular opinion\'s.
--   user centrality, fill the needs of arch community users - proficient
-    GNU/Linux users, or anyone who is willing to read documentation, and
-    solve their own problems.
--   versatility, arch is general-purpose distribution, it provide
-    ability to build custom system (do-it-yourself), by choosing of
-    thousands packages from official repository or AUR. Arch also
-    provide tools like simple and fast package manager, arch build
-    system, custom repositories, etc.
+- simplicity, fewer problems for users, minimal changes.
+- modernity, since it\'s rolling-release distribution used latest stable releases of software.
+- pragmatism, no ideological, political or popular opinion\'s.
+- user centrality, fill the needs of arch community users - proficient GNU/Linux users, or anyone who is willing to read documentation, and solve their own problems.
+- versatility, arch is general-purpose distribution, it provide ability to build custom system (do-it-yourself), by choosing of thousands packages from official repository or AUR. Arch also provide tools like simple and fast package manager, arch build system, custom repositories, etc.
 
 # 0. Prepare environment
 
@@ -62,12 +50,9 @@ After downloading and checking, copy it to flash drive, I use ventoy.
 
 ## Setup installation via SSH, recommended way
 
-1.  Set a root password `passwd`
-2.  Confirm that `PermitRootLogin` yes is set in
-    `/etc/ssh/sshd_config`. If it is not, set it and reload
-    the OpenSSH daemon `sshd.service`
-3.  On the local machine, connect to the target machine via SSH with the
-    following commands:
+1. Set a root password `passwd`
+2. Confirm that `PermitRootLogin` yes is set in `/etc/ssh/sshd_config`. If it is not, set it and reload the OpenSSH daemon `sshd.service`
+3. On the local machine, connect to the target machine via SSH with the following commands:
 
 ```sh
 ip a                # find machine IP, need run inside remote machine
@@ -111,15 +96,15 @@ timedatectl status
 
 ## Features
 
--   self-healing in some configurations (nature of COW)
--   online defragmentation
--   online volume grow and shrinking
--   online block device addition and removal
--   RAID0, RAID1 and RAID10
--   Atomic writable (via copy-on-write)
--   Checksums
--   Incremental backup
--   ...
+- self-healing in some configurations (nature of COW)
+- online defragmentation
+- online volume grow and shrinking
+- online block device addition and removal
+- RAID0, RAID1 and RAID10
+- Atomic writable (via copy-on-write)
+- Checksums
+- Incremental backup
+- ...
 
 # 1. Wipe existing disks
 
@@ -138,9 +123,7 @@ shred --verbose --random-source=/dev/urandom -n1 --zero $DISK_DRIVE_2 &
 
 # 2. Partitioning
 
-Since we use cgdisk, it use 1 MiB alignment automatically (useful for
-performance). Here example how to do partitioning on 1 disk drive, you
-need repeat this steps on drive 2.
+Since we use cgdisk, it use 1 MiB alignment automatically (useful for performance). Here example how to do partitioning on 1 disk drive, you need repeat this steps on drive 2.
 
 ## Start partitioning from free space, usually last line in TUI.
 
@@ -202,7 +185,6 @@ test -e "$DISK_PARTITON_A3" && echo "$DISK_PARTITON_A3" OK || echo fail
 test -e "$DISK_PARTITON_B1" && echo "$DISK_PARTITON_B1" OK || echo fail
 test -e "$DISK_PARTITON_B2" && echo "$DISK_PARTITON_B2" OK || echo fail
 test -e "$DISK_PARTITON_B3" && echo "$DISK_PARTITON_B3" OK || echo fail
-
 ```
 
 ## 3. File systems creation
@@ -511,28 +493,27 @@ sudo btrfs device stats /
 sudo btrfs fi show
 sudo btrfs filesystem df /
 df
-
 ```
 
 ---
 
-1.  Network
+1. Network
 
-    ```sh
-    # Up network device if needed
-    sudo ip link set dev enp10s0 up
-    ```
+   ```sh
+   # Up network device if needed
+   sudo ip link set dev enp10s0 up
+   ```
 
-2.  Custom Font install
+2. Custom Font install
 
-    ```sh
-    # -LJ to download from github
-    curl -LJ -o ~/.local/share/fonts/Meslo.zip --create-dirs https://github.com/ryanoasis/nerd-fonts/releases/download/v2.2.1/MPlus.zip
-    trash ~/.local/share/fonts/MPlus.zip
-    fc-cache -v
-    ```
+   ```sh
+   # -LJ to download from github
+   curl -LJ -o ~/.local/share/fonts/Meslo.zip --create-dirs https://github.com/ryanoasis/nerd-fonts/releases/download/v2.2.1/MPlus.zip
+   trash ~/.local/share/fonts/MPlus.zip
+   fc-cache -v
+   ```
 
-3.  Ansible install [GitHub - Inom-Turdikulov/inomoz-quickstart](https://github.com/inomoz/inomoz-quickstart)
+3. Ansible install [GitHub - Inom-Turdikulov/inomoz-quickstart](https://github.com/inomoz/inomoz-quickstart)
 
 ## Enable SSH access (sshd) after installation
 
@@ -557,8 +538,8 @@ ip a|grep enp
 - [Frequently asked questions - ArchWiki](https://wiki.archlinux.org/title/Frequently_asked_questions)
 - [Installation guide - ArchWiki](https://wiki.archlinux.org/title/installation_guide)
 - [Install Arch Linux via SSH - ArchWiki](https://wiki.archlinux.org/title/Install_Arch_Linux_via_SSH)
-- [My install instruction for a secure Arch Linux (sway) laptop workstation  · GitHub](https://gist.github.com/Th3Whit3Wolf/2f24b29183be7f8e9c0b05115aefb693)
-- [ ARCH - install uefi on dm-crypt btrfs · GitHub](https://gist.github.com/broedli/5604637d5855bef68f3e#72-bootloader-grub2-install)
+- [My install instruction for a secure Arch Linux (sway) laptop workstation · GitHub](https://gist.github.com/Th3Whit3Wolf/2f24b29183be7f8e9c0b05115aefb693)
+- [ARCH - install uefi on dm-crypt btrfs · GitHub](https://gist.github.com/broedli/5604637d5855bef68f3e#72-bootloader-grub2-install)
 - [Uniform look for Qt and GTK applications - ArchWiki](https://wiki.archlinux.org/index.php/Uniform_look_for_Qt_and_GTK_applications)
 - [GTK - ArchWiki](https://wiki.archlinux.org/index.php/GTK+#Themes)
 - [Qt - ArchWiki](https://wiki.archlinux.org/index.php/qt#Appearance)

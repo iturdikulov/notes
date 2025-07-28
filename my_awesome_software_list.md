@@ -10,15 +10,13 @@ sr-ease: 150
 
 # My awesome software list
 
-This is a list my software, aka toolkit. Some of them described in more details
-in separate notes.
+This is a list my software, aka toolkit. Some of them described in more details in separate notes.
 
 Check also [[shell_script#My shell scripts]] and [[dotfiles]].
 
 To understand custom bullet list types check [[my_notation]] note.
 
-- [/] [dotfiles](https://github.com/iturdikulov/dotfiles), personal [[NixOS]],
-  scripts and [[my_awesome_software_list|software]] configuration.
+- [/] [dotfiles](https://github.com/iturdikulov/dotfiles), personal [[NixOS]], scripts and [[my_awesome_software_list|software]] configuration.
 
 ## Development Tools
 
@@ -129,11 +127,8 @@ To understand custom bullet list types check [[my_notation]] note.
 - [Ventoy](https://www.ventoy.net/) - Bootable USB creator
 - [progress](https://github.com/Xfennec/progress) - Progress viewer
 - [libfaketime](https://github.com/wolfcw/libfaketime) - System time modifier
-- systemd-ihibit - Execute a program with an inhibition lock taken systemd-inhibit
-  wodim foobar.iso This burns the ISO image foobar.iso on a CD using wodim(1), and
-  inhibits system sleeping, shutdown and idle while doing so.
-- `ldd` - Print shared library dependencies, useful for debugging and find
-  required libraries.
+- systemd-ihibit - Execute a program with an inhibition lock taken systemd-inhibit wodim foobar.iso This burns the ISO image foobar.iso on a CD using wodim(1), and inhibits system sleeping, shutdown and idle while doing so.
+- `ldd` - Print shared library dependencies, useful for debugging and find required libraries.
 - [parallel](https://www.gnu.org/software/parallel/) - Parallel command execution
 - [[pass]] - Password manager
 - [[GPG]] - Encryption tools
@@ -146,8 +141,7 @@ To understand custom bullet list types check [[my_notation]] note.
 ## Hardware & Electronics
 
 - [[htop]] - Process viewer
-- dmidecode - Hardware information
-  sudo dmidecode -t 2 - get motherboard name
+- dmidecode - Hardware information sudo dmidecode -t 2 - get motherboard name
 - lshw - Hardware lister
 - [geekbench] - System benchmarking
 - [bench] - Performance testing
@@ -191,8 +185,7 @@ To understand custom bullet list types check [[my_notation]] note.
 - [MusicBrainz Picard](https://picard.musicbrainz.org/) - Music tagger
 - [REAPER](https://www.reaper.fm/) - Digital audio workstation.
 - [HandBrake](https://handbrake.fr/) - Video transcoder.
-- [flacon](https://github.com/flacon/flacon) - Audio file encoder. Extracts
-  audio tracks from an audio CD image to separate tracks.
+- [flacon](https://github.com/flacon/flacon) - Audio file encoder. Extracts audio tracks from an audio CD image to separate tracks.
 - [[Twitch]] - Live streaming platform
 - [[YouTube]] - Video sharing platform
 - [IMDb](https://www.imdb.com/) - Movie/TV database
@@ -206,8 +199,7 @@ To understand custom bullet list types check [[my_notation]] note.
 - [[GIMP]] - Image editor
 - [[Blender]] - 3D graphics
 - [SolveSpace](https://solvespace.com/) - CAD software
-- [FreeCAD: Your own 3D parametric modeler](https://www.freecad.org/)
-    https://wiki.freecad.org/Macro_FCInfo/ru
+- [FreeCAD: Your own 3D parametric modeler](https://www.freecad.org/) https://wiki.freecad.org/Macro_FCInfo/ru
 - [[PureRef]] - Reference manager
 - [jp2a](https://github.com/Talinx/jp2a/) - Image to ASCII converter
 - [qView](https://interversehq.com/qview/) - Image viewer
@@ -241,8 +233,7 @@ To understand custom bullet list types check [[my_notation]] note.
 - [Steam](https://store.steampowered.com/) - Game platform
 - [[MangoHud]] - Performance overlay
 - [[gamescope]] - Gaming compositor
-- [Epic Games](https://store.epicgames.com/en-US/) - Epic Games Store is a
-  digital video game storefront for PC and Mac (game store)
+- [Epic Games](https://store.epicgames.com/en-US/) - Epic Games Store is a digital video game storefront for PC and Mac (game store)
 - [-] [Lutris](https://lutris.net/) - Game manager
 
 ## Text Processing & Productivity

@@ -10,25 +10,19 @@ sr-ease: 227
 
 # My books
 
-<!-- TODO: add links to each book into ~/Arts_and_Entertainment/literature/ or create review for each book. -->
-<!-- TODO: MARK physical books -->
-<!-- TODO: verify originals, wiki links -->
+- TODO: add links to each book into or create review for each book.
+- TODO: MARK physical books
+- TODO: verify originals, wiki links
+- TODO: very scratchy, need to be rewritten and chaos fixed. 
+- TODO: sync with other notes, DRY (move books in related sections)
 
-TODO: very scratchy, need to be rewritten and chaos fixed.
-TODO: sync with other notes, DRY (move books in related sections)
+This section contains mostly a [[fiction]] [[book|books]] I'd like to read and want to read. This list isn't contained all my fiction books, so I just start tracking my reading progress "recently".
 
-This section contains mostly a [[fiction]] [[book|books]] I'd like to read and
-want to read. This list isn't contained all my fiction books, so I just start
-tracking my reading progress "recently".
-
-A lot of books are in the notes on a specific topic (learning paths), they are
-marked with 📕 emoji, they can be found in [[index#Now|index]] note.
+A lot of books are in the notes on a specific topic (learning paths), they are marked with 📕 emoji, they can be found in [[index#Now|index]] note.
 
 Usually I read books on the kindle-paperwhite reader.
 
-If the title of the author and book in Cyrillic, this means I read it in
-[[Russian]] language. To understand custom bullet list types check
-[[my_notation]] note.
+If the title of the author and book in Cyrillic, this means I read it in [[Russian]] language. To understand custom bullet list types check [[my_notation]] note.
 
 ## Classic, famous books and stories
 
@@ -40,19 +34,16 @@ If the title of the author and book in Cyrillic, this means I read it in
 
 ## Sci-fi and fantasy
 
-> Сон разума рождает чудовищ. Фантастика будит разум. \
+> Сон разума рождает чудовищ. Фантастика будит разум.\
 > — <cite>[Книжная серия «Антология мировой фантастики»](https://fantlab.ru/series422)</cite>
 
 - [ ] [[Yudkowsky-Harry_Potter_and_the_methods_of_rationality]]
 - [ ] [Деннис Тейлор «Вселенная Боба»](https://fantlab.ru/work974514)
-- [x] [Альфред Ван Вогт «Война против Руллов»](https://fantlab.ru/work5079),
-  7.8/10, good but not enough.
+- [x] [Альфред Ван Вогт «Война против Руллов»](https://fantlab.ru/work5079), 7.8/10, good but not enough.
 
 ## Inbox
 
-If you have book recommendations for me, please
-[create a Pull Request](https://github.com/iturdikulov/notes/edit/main/my_fiction_books.md)
-adding a link at the end of [[#Inbox]] section.
+If you have book recommendations for me, please [create a Pull Request](https://github.com/iturdikulov/notes/edit/main/my_fiction_books.md) adding a link at the end of [[#Inbox]] section.
 
 - [Обломов (роман) — Википедия](https://ru.wikipedia.org/wiki/%D0%9E%D0%B1%D0%BB%D0%BE%D0%BC%D0%BE%D0%B2_(%D1%80%D0%BE%D0%BC%D0%B0%D0%BD))
 - [Повесть о том, как один мужик двух генералов прокормил — Википедия](https://ru.wikipedia.org/wiki/%D0%9F%D0%BE%D0%B2%D0%B5%D1%81%D1%82%D1%8C_%D0%BE_%D1%82%D0%BE%D0%BC,_%D0%BA%D0%B0%D0%BA_%D0%BE%D0%B4%D0%B8%D0%BD_%D0%BC%D1%83%D0%B6%D0%B8%D0%BA_%D0%B4%D0%B2%D1%83%D1%85_%D0%B3%D0%B5%D0%BD%D0%B5%D1%80%D0%B0%D0%BB%D0%BE%D0%B2_%D0%BF%D1%80%D0%BE%D0%BA%D0%BE%D1%80%D0%BC%D0%B8%D0%BB)
@@ -92,16 +83,15 @@ adding a link at the end of [[#Inbox]] section.
 - «Фальшивые зеркала»;
 - «Одиссей Фокс»;
 
-серия - «Пограничье».
-Олег Дивов:
+серия - «Пограничье». Олег Дивов:
+
 - «Холод, голод, интеллект»;
 - «Вредная профессия»;
 - «Когда начнётся муйня»;
 - «К-10»;
 - «Лучший экипаж Солнечной»;
 - «У Билли есть хреновина»;
-- «Леди не движется»;
-цикл - «Мастер собак»;
+- «Леди не движется»; цикл - «Мастер собак»;
 - «Закон фронтира»;
 - «Выбраковка»;
 - «Саботажник»;
@@ -109,8 +99,7 @@ adding a link at the end of [[#Inbox]] section.
 - «Родина слонов»;
 - «Канал им. Москвы»;
 - «К-9»;
-- «Толкование сновидений».
-Антон Карелин:
+- «Толкование сновидений». Антон Карелин:
 - «Одиссей Фокс».
 
 - [[Detskaya_literatura-Biblioteka_mirovoj_literatury_dlya_detej]]
@@ -124,9 +113,7 @@ adding a link at the end of [[#Inbox]] section.
 - [Курт Воннегут «Сирены Титана» | Лаборатория Фантастики](https://fantlab.ru/work1432)
 - [Питер Уоттс «Ложная слепота» | Лаборатория Фантастики](https://fantlab.ru/work134421)
 - [Джон Уиндем «День триффидов» | Лаборатория Фантастики](https://fantlab.ru/work15067)
-- [Лао-цзы «Дао дэ цзин. Учение о Пути и Благой Силе с параллелями из Библии
-  агавад Гиты» (сост. Батонов С.Н.) | Livelib](
-  s://www.livelib.ru/book/1004182546-dao-de-tszin-uchenie-o-puti-i-blagoj-sile-s-parallelyami-iz-biblii-i-bhagavad-gity-sost-batonov-sn-laotszy)
+- [Лао-цзы «Дао дэ цзин. Учение о Пути и Благой Силе с параллелями из Библии агавад Гиты» (сост. Батонов С.Н.) | Livelib](s://www.livelib.ru/book/1004182546-dao-de-tszin-uchenie-o-puti-i-blagoj-sile-s-parallelyami-iz-biblii-i-bhagavad-gity-sost-batonov-sn-laotszy)
 - [Гомер «Илиада» (пер. с древнегреческого Н. Гнедича) | Lib.ru](https://lib.ru/POEEAST/GOMER/gomer01.txt)
 - [Джозеф Кэмпбелл «Тысячеликий герой» | Livelib](https://www.livelib.ru/book/1008030517/reviews-tysyachelikij-geroj-dzhozef-kempbell)
 - [Тед Чан «История твоей жизни»](https://fantlab.ru/work18472)
@@ -156,8 +143,7 @@ adding a link at the end of [[#Inbox]] section.
 - [A Confederacy of Dunces](https://amzn.to/1SCZ0xz)
 - [Animal Farm and 1984](https://amzn.to/1SCYYpr)
 - [Thing Explainer <sub>Complicated Stuff in Simple Words</sub>](https://amzn.to/1PMIWqm)
-- [[Detskaya_literatura-Biblioteka_mirovoj_literatury_dlya_detej|Библиотека
-  мировой литературы для детей]]
+- [[Detskaya_literatura-Biblioteka_mirovoj_literatury_dlya_detej|Библиотека мировой литературы для детей]]
 - Кафка?
 - [Как закалялась сталь](https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D0%BA_%D0%B7%D0%B0%D0%BA%D0%B0%D0%BB%D1%8F%D0%BB%D0%B0%D1%81%D1%8C_%D1%81%D1%82%D0%B0%D0%BB%D1%8C)
 - Война миров
@@ -329,10 +315,8 @@ adding a link at the end of [[#Inbox]] section.
 ## Collections of recommendations
 
 - [NoZDR - Что почитать из фантастики](https://nzdr.ru/biblio/100/fantastika)
-- [A science fiction novel flowchart](https://x.com/future_is_meow/status/1043042205479395328)
-  ![[./img/ref-Science_fiction_novel_flowchart.jpg]]
-- [A Guide to Navigating NPR's Top 100 Science Fiction and Fantasy Books](https://archive.org/details/NPRFlowchart)
-  ![[./img/ref-NPR_science_and_fantasy_fiction_flowchart.jpg]]
+- [A science fiction novel flowchart](https://x.com/future_is_meow/status/1043042205479395328) ![[./img/ref-Science_fiction_novel_flowchart.jpg]]
+- [A Guide to Navigating NPR's Top 100 Science Fiction and Fantasy Books](https://archive.org/details/NPRFlowchart) ![[./img/ref-NPR_science_and_fantasy_fiction_flowchart.jpg]]
 
 - [Reddit - FREEMEDIAHECKYEAH](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/reading/)
 - [LiveLib](https://www.livelib.ru/)

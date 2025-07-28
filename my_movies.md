@@ -11,8 +11,7 @@ sr-ease: 252
 
 TODO: wrap in links.
 
-I started track of movies I watched in 2022. So this list is of course
-incomplete.
+I started track of movies I watched in 2022. So this list is of course incomplete.
 
 To understand custom bullet list types check [[my_notation]] note.
 
@@ -26,40 +25,31 @@ To understand custom bullet list types check [[my_notation]] note.
 ### Movies
 
 - [x] ВАЛЛ·И (2008), sensitive, happy end, for children, 8/10
-- [x] [Гандахар: Световые годы
-  (1988)](https://www.youtube.com/watch?v=njpeVDkE27Y)
+- [x] [Гандахар: Световые годы (1988)](https://www.youtube.com/watch?v=njpeVDkE27Y)
 - [x] Невероятный мир глазами Энцо, dramatic, family movie 9.2/10
 - [x] Sicario (2015), after second watch less emotional/interesting, 8.5/10
 - [x] Голый пистолет, after second watch less funny, but overall good, 8.1/10
-- [x] Опенгеймер, a lot of historical information, a little bit boring (for me),
-  7.8/10
-- [x] Прогулка с Богами: Два мира / Along with the Gods: The Two Worlds
-  Sensitively and beautifully told story about the afterlife. 8.9/10
+- [x] Опенгеймер, a lot of historical information, a little bit boring (for me), 7.8/10
+- [x] Прогулка с Богами: Два мира / Along with the Gods: The Two Worlds Sensitively and beautifully told story about the afterlife. 8.9/10
 - [p] The Hobbit: An Unexpected Journey (2012), 9.1/10
-- [p] Lord of the Rings: The Fellowship of the Ring (2001) Medieval motifs,
-  fantasy, magic, RPG! 9.85/10.
-- [p] Кунг-фу Панда / Kung Fu Panda (2008). Tigress animations are very good.
-  Humor also good. 9.1/10
-- [p] Кунг-фу Панда 2 / Kung Fu Panda 2 (2011). Probably a little bit weaker
-  than previous movie. But very sensitive. 9/10
+- [p] Lord of the Rings: The Fellowship of the Ring (2001) Medieval motifs, fantasy, magic, RPG! 9.85/10.
+- [p] Кунг-фу Панда / Kung Fu Panda (2008). Tigress animations are very good. Humor also good. 9.1/10
+- [p] Кунг-фу Панда 2 / Kung Fu Panda 2 (2011). Probably a little bit weaker than previous movie. But very sensitive. 9/10
 - [p] Матрица (1999) 9.3/10, в целом отлично, некоторые моменты уже устарели
-- [p] Меланхолия (фильм, 2011), depressive a little, but not a lot for me. Make
-  me think about life. 9.1/10
+- [p] Меланхолия (фильм, 2011), depressive a little, but not a lot for me. Make me think about life. 9.1/10
 - [p] Интерстеллар (2014) 9/10
 - [c] Аннигиляция
 - [c] Тихое место фильм, 2018
 
 <!-- ### Shows and series -->
 <!---->
+
 - [x] Моб Психо 8/10
 - [x] [Доктор Стоун (сериал 2019)](https://www.kinopoisk.ru/series/1249511)
 - [x] Поднятие уровня в одиночку, Сезон 1, 8.9/10
 - [c] Другой мир не может противостоять силе мгновенной смерти, Сезон 1, 5/10
-- [x] [Castlevania (TV Series 2017–2021) -
-  IMDb](https://www.imdb.com/title/tt6517102/), Seasons 1-2 are better than 3-4,
-  7/10
-- [x] Экипаж 314 (сериал, 1-2 сезоны), 2021, nice, but became boring at some
-  point 7/10.
+- [x] [Castlevania (TV Series 2017–2021) - IMDb](https://www.imdb.com/title/tt6517102/), Seasons 1-2 are better than 3-4, 7/10
+- [x] Экипаж 314 (сериал, 1-2 сезоны), 2021, nice, but became boring at some point 7/10.
 
 ## Inbox
 
@@ -172,12 +162,7 @@ To understand custom bullet list types check [[my_notation]] note.
 
 The Fill-In Filmography:
 
-> A massive mapping of cinematic genres (with representative movies for each
-> category), this big-screen behemoth is fully customizable to reflect your
-> personal tastes—just grab a pencil and fill in the circle next to each film to
-> mark it as “Loved It,” “Liked It,” or merely “Watched It”! Whether your prefer
-> Period Pieces, Musicals, or tales of Haunted Dolls, there’s something here for
-> cinephiles of every sort.\
+> A massive mapping of cinematic genres (with representative movies for each category), this big-screen behemoth is fully customizable to reflect your personal tastes—just grab a pencil and fill in the circle next to each film to mark it as “Loved It,” “Liked It,” or merely “Watched It”! Whether your prefer Period Pieces, Musicals, or tales of Haunted Dolls, there’s something here for cinephiles of every sort.\
 > — <cite>[popchart](https://popchart.co/products/the-fill-in-filmography)</cite>
 
 ![The Fill-In Filmography](img/The_Fill-In_Filmography.webp)
