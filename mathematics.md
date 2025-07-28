@@ -7,38 +7,28 @@ tags:
   - mathematics
 lang: ru
 sr-due: 2025-07-29
-sr-interval: 2
-sr-ease: 209
+sr-interval: 1
+sr-ease: 130
 ---
 
 # Mathematics
 
-> Mathematics is the study of numbers, shapes, and patterns. The word comes from
-> the Greek μάθημα (máthema), meaning "science, knowledge, or learning", and is
-> sometimes shortened to maths (in British Commonwealth countries) or math (in
-> North America).
+> Mathematics is the study of numbers, shapes, and patterns. The word comes from the Greek μάθημα (máthema), meaning "science, knowledge, or learning", and is sometimes shortened to maths (in British Commonwealth countries) or math (in North America).
 >
 > It is the study of:
 >
 > - Numbers: including how things can be counted.
-> - Structure: including how things are organized, but also how they can be or
->   could have been. This subfield is usually called algebra.
-> - Place: where things are, and spatial arrangement, including arrangements of
->   spaces themselves. This subfield is usually called geometry.
-> - Change: how things become different. This subfield is usually called
->   analysis.
-> - Applied math is useful for solving problems in the real world. People
->   working in business, science, engineering, and construction use
->   mathematics.\
-> — <cite>[Simple English Wikipedia](https://simple.wikipedia.org/wiki/Mathematics)</cite>
+> - Structure: including how things are organized, but also how they can be or could have been. This subfield is usually called algebra.
+> - Place: where things are, and spatial arrangement, including arrangements of spaces themselves. This subfield is usually called geometry.
+> - Change: how things become different. This subfield is usually called analysis.
+> - Applied math is useful for solving problems in the real world. People working in business, science, engineering, and construction use mathematics.\
+>   — <cite>[Simple English Wikipedia](https://simple.wikipedia.org/wiki/Mathematics)</cite>
 
-I have learning path to understand mathematics better and use in my life and
-work.
+I have learning path to understand mathematics better and use in my life and work.
 
 ## Learning path
 
-I place here all my learning resources related to [[mathematics]], here is no
-strict grouping, but I'm trying to keep it organized by priority.
+I place here all my learning resources related to [[mathematics]], here is no strict grouping, but I'm trying to keep it organized by priority.
 
 To understand custom bullet list types check [[my_notation]] note.
 
@@ -47,7 +37,6 @@ To understand custom bullet list types check [[my_notation]] note.
 - [[Math_is_fun_community-Math_is_fun]]
 
 ### Inbox
-
 
 - Strogatz - The Joy of x
 - Worral - Proofs and Refutations
@@ -62,14 +51,14 @@ To understand custom bullet list types check [[my_notation]] note.
 - [Прямая и обратная пропорциональность. Формулы, обозначение, примеры](https://skysmart.ru/articles/mathematic/pryamaya-i-obratnaya-proporcionalnost)
 - Курант, Роббинс: Что такое математика?
 - [[Trushin-Kombinatorika]]
-- [Linear Algebra](https://linear.axler.net/ )
+- [Linear Algebra](https://linear.axler.net/)
 
-
-| Year | Title                                                                                                                           |
-| ---- | ------------------------------------------------------------------------------------------------------------------------------- |
-|      | [[Perelman-Zanimatelnaya_matematika\|Перельман - Занимательная математика]]                                                   |
-|      | [[Trushin-Kombinatorika\|Трушин - Комбинаторика]]                                                                             |
+| Year | Title                                                                                                            |
+| ---- | ---------------------------------------------------------------------------------------------------------------- |
+|      | [[Perelman-Zanimatelnaya_matematika\|Перельман - Занимательная математика]]                                      |
+|      | [[Trushin-Kombinatorika\|Трушин - Комбинаторика]]                                                                |
 |      | [[Zajcev_and_Ryzhkov_and_Skanavi-Elementarnaia_matematika\|Зайцев и Рыжков и Сканави - Элементарная Математика]] |
+
 - [ ] Сканави
 - [ ] [Animation vs. Math - YouTube](https://www.youtube.com/watch?v=B1J6Ou4q8vE)
 - [ ] [Animation vs. Geometry - YouTube](https://www.youtube.com/watch?v=VEJWE6cpqw0)
@@ -83,12 +72,11 @@ To understand custom bullet list types check [[my_notation]] note.
 - [Книга «Математика для гуманитариев» | savva4](https://savvateev.xyz/book/)
 - Savvateev - vviedieniie v nastoiashchuiu matiematiku
 
-
 - [Project Euler](https://projecteuler.net/)
 
 Theory and Interactive:
 
-- [Fast inverse square root - Wikipedia](https://en.wikipedia.org/w/index.php?title=Fast_inverse_square_root )
+- [Fast inverse square root - Wikipedia](https://en.wikipedia.org/w/index.php?title=Fast_inverse_square_root)
 - [[multiplication_table|Multiplication table]]
 - [Math Games](https://www.mathsisfun.com/games/index.html)
 - [GeoGebra](https://www.geogebra.org/)
@@ -150,16 +138,13 @@ Computer Graphics related:
 
 ### Videos
 
-- [Математик и черт](https://www.youtube.com/watch?v=52yhBkkulXw) - теорема
-  Ферма, научно-популярное.
+- [Математик и черт](https://www.youtube.com/watch?v=52yhBkkulXw) - теорема Ферма, научно-популярное.
 - [Деконструкция – Математик и чёрт (рассказывает Алексей Савватеев) - YouTube](https://www.youtube.com/watch?v=DA9fuIumryg).
 
 ## Число Пи
 
 Суть числа Пи?
 <br class="f">
-Отношение длины окружности к диаметру круглого объекта или круга.
-Pi = L / d ≈ 3.1415926535897932384626433832795028841971693993751058209749445923078164
+Отношение длины окружности к диаметру круглого объекта или круга. Pi = L / d ≈ 3.1415926535897932384626433832795028841971693993751058209749445923078164
 
 Пи иррационально, нет двух таких целых чисел, чтобы получить число Pi.
-
