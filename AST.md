@@ -14,21 +14,21 @@ sr-ease: 206
 What is an Abstract Syntax Tree?
 <br class="f">
 > In [[computer_science]], an abstract syntax [[tree]] (AST), or just syntax tree, is a tree representation of the abstract syntactic structure of text (often source code) written in a formal language. Each node of the tree denotes (represent) a construct occurring in the text.\
-> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Abstract_syntax_tree)</cite>
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Abstract_syntax_tree)</cite> <!--SR:!2025-08-01,1,182-->
 
 TODO: review & confirm flashcards
 TODO: review python `ast` module
 
-Why are ASTs used?
+Where ASTs is used in programming?
 <br class="f">
 ASTs are used for program analysis and transformation, enabling static analysis, code refactoring, optimization, and generation of documentation.
 As example Euclidean algorithm is shown below.
 ![[img/AST.excalidraw|Abstract syntax tree flowchart diagram for the Euclidean algorithm]]
-_An abstract syntax tree for the Euclidean algorithm_
+_An abstract syntax tree for the Euclidean algorithm_ <!--SR:!2025-08-01,2,166-->
 
 What are the main components of an AST?
 <br class="f">
-The main components are nodes (representing constructs) and edges (showing relationships between constructs).
+The main components are nodes (representing constructs) and edges (showing relationships between constructs). <!--SR:!2025-08-03,4,206-->
 
 How is an AST created?
 <br class="f">
@@ -44,9 +44,10 @@ A CST includes all the syntactic details of the source code, such as punctuation
 
 What are some benefits of using ASTs?
 <br class="f">
-Benefits include easier manipulation of code for transformations and optimizations, improved error handling, and more precise static analysis.
+Benefits include easier manipulation of code for transformations and optimizations, improved error handling, and more precise static analysis. TODO: need example
 
 What tools can be used to work with ASTs?
 <br class="f">
 Some tools include compilers, interpreters, IDEs (Integrated Development Environments), and specialized libraries or APIs in programming languages
 like Python (e.g., `ast` module).
+TODO: not clear
