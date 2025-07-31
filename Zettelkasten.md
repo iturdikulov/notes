@@ -12,11 +12,9 @@ sr-ease: 130
 
 # Zettelkasten Method
 
-My notes should be organized to evolve, save my time and bring benefits to me
-and others.
+My notes should be organized to evolve, save my time and bring benefits to me and others.
 
-I took general note ideas from Zettelkasten and
-[Evergreen](https://notes.andymatuschak.org/About_these_notes) notes.
+I took general note ideas from Zettelkasten and [Evergreen](https://notes.andymatuschak.org/About_these_notes) notes.
 
 Main principles of my note-taking method:
 
@@ -26,73 +24,49 @@ Main principles of my note-taking method:
 - Prefer relationships to hierarchy
 - Write notes in personal-aware style, instead public-aware style
 
-For example, instead of just creating a note named "Closures" perhaps you write
-a title "Use closures to retain access to internal scope after a function exits"
-and then describe them and provide examples within that note. The "Closures"
-note can then become an outline of links on the topic, each pointing to another
-note like the one described.
+For example, instead of just creating a note named "Closures" perhaps you write a title "Use closures to retain access to internal scope after a function exits" and then describe them and provide examples within that note. The "Closures" note can then become an outline of links on the topic, each pointing to another note like the one described.
 
 Notes can have various [[#Note types (AKA templates)|types]].
 
 ## Note types (AKA templates)
 
-I use some templates/note types with [[Zettelkasten]]. I will update it as I
-improve my workflow. To set note type need just to apply note type tag.
+I use some templates/note types with [[Zettelkasten]]. I will update it as I improve my workflow. To set note type need just to apply note type tag.
 
-All new note have a `- blog` tag, this allowing to use [[spaced_repetition]]
-system to continuously review and work with notes and allow build web log for my
-[[iturdikulov.com|generated website]].
+All new note have a `- blog` tag, this allowing to use [[spaced_repetition]] system to continuously review and work with notes and allow build web log for my [[iturdikulov.com|generated website]].
 
 The types will be described below.
 
 # Zettelkasten Method
 
-Organizing notes to evolve, save time, and bring benefits to both myself and
-others is a key goal of my note-taking system. I've drawn inspiration from the
-Zettelkasten method and Evergreen notes.
+Organizing notes to evolve, save time, and bring benefits to both myself and others is a key goal of my note-taking system. I've drawn inspiration from the Zettelkasten method and Evergreen notes.
 
 ### Main Principles
 
 1. **Atomic Notes**: Each note should focus on a single, distinct idea.
-2. **Concept-Oriented**: Notes should be centered around concepts rather than
-specific facts or details.
-3. **Linked Notes**: Create connections between related notes to build a network
-of ideas.
-4. **Relationships Over Hierarchy**: Prioritize the relationships between notes
-over strict hierarchical organization.
-5. **Personal-Aware Style**: Write notes as if for yourself, considering your
-future needs and interests.
+2. **Concept-Oriented**: Notes should be centered around concepts rather than specific facts or details.
+3. **Linked Notes**: Create connections between related notes to build a network of ideas.
+4. **Relationships Over Hierarchy**: Prioritize the relationships between notes over strict hierarchical organization.
+5. **Personal-Aware Style**: Write notes as if for yourself, considering your future needs and interests.
 
 ### Example
 
-Instead of creating a generic note titled "Closures," I might write a more
-specific title like "Use closures to retain access to internal scope after a
-function exits." This note would then include detailed explanations and
-examples. The original "Closures" note could serve as an outline linking to
-these more specific notes.
+Instead of creating a generic note titled "Closures," I might write a more specific title like "Use closures to retain access to internal scope after a function exits." This note would then include detailed explanations and examples. The original "Closures" note could serve as an outline linking to these more specific notes.
 
 ### Note Types (Templates)
 
-I use various templates or note types with Zettelkasten, which I'll update as my
-workflow evolves. Applying a note type tag is all that's needed to categorize a
-new note.
+I use various templates or note types with Zettelkasten, which I'll update as my workflow evolves. Applying a note type tag is all that's needed to categorize a new note.
 
-All new notes are tagged with `- blog`, allowing them to be reviewed using the
-spaced repetition system and included in my generated website at
-[iturdikulov.com](http://iturdikulov.com).
+All new notes are tagged with `- blog`, allowing them to be reviewed using the spaced repetition system and included in my generated website at [iturdikulov.com](http://iturdikulov.com).
 
 ### Fleeting Notes
 
-I don't use fleeting notes. Instead, I rely on plain To-Do lists that support
-features I value. Currently, this approach meets my needs.
+I don't use fleeting notes. Instead, I rely on plain To-Do lists that support features I value. Currently, this approach meets my needs.
 
-> **Note**: Avoid placing ideas in the fleeting system; instead, create
-  permanent notes.
+> **Note**: Avoid placing ideas in the fleeting system; instead, create permanent notes.
 
 ### Permanent Notes
 
-When an idea is worth storing, I create a permanent note. This is the default
-note type and must meet certain criteria:
+When an idea is worth storing, I create a permanent note. This is the default note type and must meet certain criteria:
 
 - **Atomic**: One general idea per note.
 - **Essence Extraction**: Focus on capturing the core concept without complicating it.
@@ -148,19 +122,17 @@ Notes may include these frontmatter variables:
 - [Taxonomy of Note Types](https://notes.andymatuschak.org/Taxonomy_of_note_types)
 - [Andy Notes](https://notes.andymatuschak.org/About_these_notes)
 - [PKM Zettelkasten Wiki](https://zk.zettel.page/)
+
 ## Fleeting notes
 
-I not use fleeting notes, instead I used plain To-Do lists, which
-support many things which I like to have, currently it's enough for me.
+I not use fleeting notes, instead I used plain To-Do lists, which support many things which I like to have, currently it's enough for me.
 
 > [!NOTE]
-> Need to avoid placing ideas in fleeting system, you can just create permanent
-note.
+> Need to avoid placing ideas in fleeting system, you can just create permanent note.
 
 ## Permanent note
 
-When I have some idea, and it's worth to store, I create permanent note. This is
-default note type.
+When I have some idea, and it's worth to store, I create permanent note. This is default note type.
 
 This note must meet some criteria:
 
@@ -168,8 +140,7 @@ This note must meet some criteria:
 - I need to extract essence of the idea and don't complicate it.
 - Write it as if you are writing for someone else or for you in years future.
 - Required minimal context to understand note.
-- When I add new Zettel note, I check my previous notes and answer to these
-questions and if many of them false, I delete or avoiding to create new note.
+- When I add new Zettel note, I check my previous notes and answer to these questions and if many of them false, I delete or avoiding to create new note.
   - Is this relevant to my requirements/thoughts/interests?
   - How I can use this to update my knowledge and existing notes?
   - Is this information correct, solve some issue or follow my thoughts?
@@ -182,55 +153,39 @@ questions and if many of them false, I delete or avoiding to create new note.
 
 To-Do: add examples.
 
-- Bridge note, to combine ideas, usually someone else and mine if they different
-in terms, or even very different, notes have `bridge` tag.
-- Person note, to store someone contacts (public person), biography or some
-additional information, notes have `person` tag.
-- Personal term, something what very specific to limited amount of users, local
-things, etc., notes have `term` tag.
-- Log note, to store some log information, such as time tracking. Good example
-is [[30_day_drawing_challenge]], notes have `log` tag.
+- Bridge note, to combine ideas, usually someone else and mine if they different in terms, or even very different, notes have `bridge` tag.
+- Person note, to store someone contacts (public person), biography or some additional information, notes have `person` tag.
+- Personal term, something what very specific to limited amount of users, local things, etc., notes have `term` tag.
+- Log note, to store some log information, such as time tracking. Good example is [[30_day_drawing_challenge]], notes have `log` tag.
 
 ## Literature notes
 
-I have "rich" system to manage my literature notes.
-Remember, you are not simply collecting resources you need to process them.
+I have "rich" system to manage my literature notes. Remember, you are not simply collecting resources you need to process them.
 
-Before you have temptation to create new note, answer following question: Is the
-content interesting/useful/relevant to you and/or your existence notes.
+Before you have temptation to create new note, answer following question: Is the content interesting/useful/relevant to you and/or your existence notes.
 
 Here are some rules:
 
 - Literature notes have `research` tag.
-- If required research note can have linked directory, sort of dependencies
-(`directory:` YAML frontmatter variable). This can be code, assets, etc.
-- Some research notes have `file` frontmatter variable, with link to relate
-book/article/other resource. Usually these notes haven't `directory` frontmatter
-variable.
-- Notes are taken specifically on the content. Usually I just use annotating to
-  generate initial notes.
+- If required research note can have linked directory, sort of dependencies (`directory:` YAML frontmatter variable). This can be code, assets, etc.
+- Some research notes have `file` frontmatter variable, with link to relate book/article/other resource. Usually these notes haven't `directory` frontmatter variable.
+- Notes are taken specifically on the content. Usually I just use annotating to generate initial notes.
 - Be selective, store useful information
-- Rewrite information in your own words and make sure you understand the
-concept, imagine you explain it to someone else.
+- Rewrite information in your own words and make sure you understand the concept, imagine you explain it to someone else.
 - Use direct quotes sparingly, don't overuse them.
 
 ## Outline or structure notes
 
-Sort of index section from books, it's allow to group notes by topic, concept, or
-similarity. For example, [[my_awesome_software_list]]. These notes have `outline`
-tag.
-
+Sort of index section from books, it's allow to group notes by topic, concept, or similarity. For example, [[my_awesome_software_list]]. These notes have `outline` tag.
 
 Rules for outline notes:
 
-- Main index note, as entry point, like website index page. For example,
-[[projects]] note my current working projects, reflect my current interests.
+- Main index note, as entry point, like website index page. For example, [[projects]] note my current working projects, reflect my current interests.
 - Topic note, like [[index]].
 
 ## Spaced repetition notes
 
-Have special topics tags, used to generate interactive flashcards with
-[[spaced_repetition]] system: `base`, `productivity`, etc.
+Have special topics tags, used to generate interactive flashcards with [[spaced_repetition]] system: `base`, `productivity`, etc.
 
 ## Frontmatter variables
 
@@ -241,9 +196,9 @@ Notes may have this frontmatter variables:
 - `book: <link>` - link to book file
 - `article: <link>` - link to article file
 - `archive: true` - archived note
-- `date: <date>` - date of creation/update, mainly used to organize my RSS with
-  [[iturdikulov.com]] site.
+- `date: <date>` - date of creation/update, mainly used to organize my RSS with [[iturdikulov.com]] site.
 - `sr*` - spaced repetition related variables
+
 ## External links
 
 - [Types of ZT Notes](https://zk.zettel.page/types-of-notes)

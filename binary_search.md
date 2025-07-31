@@ -2,6 +2,7 @@
 created: 2023-03-19T00:00+03:00
 tags:
   - blog
+  - now
   - computer_science
 sr-due: 2025-09-15
 sr-interval: 67
@@ -12,23 +13,12 @@ sr-ease: 182
 
 Also known as half-interval search, logarithmic search, binary chop.
 
-> In [[computer_science]], binary search [[algorithm]] that finds the position
-> of a target value within a ==sorted== [[array]].
+> In [[computer_science]], binary search [[algorithm]] that finds the position of a target value within a ==sorted== [[array]].
 >
-> Binary search compares the target value to the middle element of the array. If
-> they are not equal, the half in which the target cannot lie is eliminated and
-> the search continues on the remaining half, again taking the middle element to
-> compare to the target value, and repeating this until the target value is
-> found. If the search ends with the remaining half being empty, the target is
-> not in the array.\
+> Binary search compares the target value to the middle element of the array. If they are not equal, the half in which the target cannot lie is eliminated and the search continues on the remaining half, again taking the middle element to compare to the target value, and repeating this until the target value is found. If the search ends with the remaining half being empty, the target is not in the array.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Binary_search_algorithm)</cite>
-> <!--SR:!2024-09-28,15,202-->
 
-Half-interval search perfectly explains what binary search is about. Binary
-search usable on ==ordered= array, and we can eliminate half not required
-results during each iteration until we not find value or processed all data.
-Very good visualization aviable here: [Binary and Linear Search
-Visualization](https://www.cs.usfca.edu/~galles/visualization/Search.html)
+Half-interval search perfectly explains what binary search is about. Binary search usable on ==ordered== array, and we can eliminate half not required results during each iteration until we not find value or processed all data. Very good visualization aviable here: [Binary and Linear Search Visualization](https://www.cs.usfca.edu/~galles/visualization/Search.html)
 
 | Property                    | Value            |
 | :-------------------------- | :--------------- |
@@ -40,6 +30,7 @@ Visualization](https://www.cs.usfca.edu/~galles/visualization/Search.html)
 | Worst-case space complexity | O(1)             |
 
 Simple example of binary search algorithm:
+
 ```
 1 2 3 4 5 6 7 8 9 10 # I guess < 5
           6 7 8 9 10 # answer is higher, I guess < 8
@@ -111,7 +102,7 @@ puts "3 17    22    75 80 202 # I guess 202"
 # x x      x    x   x  x  # midpoint = 202, return 202 index (5)
 p binary_search([3, 17, 22, 75, 80, 202], 202)
 ```
-*Results:*
+_Results:_
 ```
 Visualize the algorithm, best case scenario:
 3 17    22    75 80 202 # I guess 22
@@ -132,51 +123,33 @@ lower_bound: 5, upper_bound: 5,
 
 ## Compare with linear search (worst case)
 
-1. array items 3
-   linear search: 3 steps
-   binary search: 2 steps
-2. array items 7
-   linear search: 7 steps
-   binary search: 3 steps
-3. array items 15
-   linear search: 15 steps
-   binary search: 4 steps
-   ...
-4. array items 100
-   linear search: 100 steps
-   binary search: 7 steps
-5. array items 10000
-   linear search: 10000 steps
-   binary search: ≈13 steps
-6. array items 1000000
-   linear search: 1000000 steps
-   binary search: 20 steps
+1. array items 3 linear search: 3 steps binary search: 2 steps
+2. array items 7 linear search: 7 steps binary search: 3 steps
+3. array items 15 linear search: 15 steps binary search: 4 steps ...
+4. array items 100 linear search: 100 steps binary search: 7 steps
+5. array items 10000 linear search: 10000 steps binary search: ≈13 steps
+6. array items 1000000 linear search: 1000000 steps binary search: 20 steps
 
-Each lookup step in **binary search** eliminates ==half== of the elements from the
-search. <!--SR:!2025-02-06,13,239-->
+Each lookup step in **binary search** eliminates ==half== of the elements from the search. <!--SR:!2025-02-06,13,239-->
 
-Each time when we double input data for binary-search algorithm, it just takes
-==one== more step. For linear search we must double search steps each time. <!--SR:!2024-09-17,8,221-->
+Each time when we double input data for binary-search algorithm, it just takes ==one== more step. For linear search we must double search steps each time. <!--SR:!2024-09-17,8,221-->
 
 Difference between $\mathcal{O}(N)$ and $\mathcal{O}(log N)$:
 
-| N elem. | O(N)   | O(log N) |
-|---------|--------|----------|
-| 8       | 8      | 3        |
-| 16      | 16     | 4        |
-| 32      | 32     | 5        |
-| 64      | 64     | 6        |
-| 128     | 128    | 7        |
-| 256     | 256    | 8        |
-| 512     | 512    | 9        |
-| 1024    | 1024   | 10       |
+| N elem. | O(N) | O(log N) |
+| ------- | ---- | -------- |
+| 8       | 8    | 3        |
+| 16      | 16   | 4        |
+| 32      | 32   | 5        |
+| 64      | 64   | 6        |
+| 128     | 128  | 7        |
+| 256     | 256  | 8        |
+| 512     | 512  | 9        |
+| 1024    | 1024 | 10       |
 
+Binary search efficiency somewhere in between of $\mathcal{O}(1)$ and $\mathcal{O}(N)$ (but neither one of them). And its efficiency is ==$\mathcal{O}(\log{n})$==. <!--SR:!2024-09-16,7,204-->
 
-Binary search efficiency somewhere in between of $\mathcal{O}(1)$ and
-$\mathcal{O}(N)$ (but neither one of them). And its efficiency is ==$\mathcal{O}(\log{n})$==. <!--SR:!2024-09-16,7,204-->
-
-$\mathcal{O}(\log{n})$ algorithm efficiency is - increases ==one== step each
-time the data is doubled. <!--SR:!2024-09-06,4,221-->
+$\mathcal{O}(\log{n})$ algorithm efficiency is - increases ==one== step each time the data is doubled. <!--SR:!2024-09-06,4,221-->
 
 ## External links
 
