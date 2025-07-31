@@ -2,6 +2,7 @@
 created: 2024-08-22T00:00+03:00
 tags:
   - blog
+  - now
   - computer_science
 sr-due: 2025-08-18
 sr-interval: 39
@@ -10,23 +11,14 @@ sr-ease: 201
 
 # Bubble sort
 
-> Bubble sort, sometimes referred to as sinking sort, is a simple sorting
-> algorithm that repeatedly steps through the input list element by element,
-> comparing the current element with the one after it, swapping their values if
-> needed (current > next). These passes through the list are repeated until no
-> swaps have to be performed during a pass, meaning that the list has become
-> fully sorted. The algorithm, which is a comparison sort, is named for the way
-> the larger elements "bubble" up to the top of the list.\
+> Bubble sort, sometimes referred to as sinking sort, is a simple sorting algorithm that repeatedly steps through the input list element by element, comparing the current element with the one after it, swapping their values if needed (current > next). These passes through the list are repeated until no swaps have to be performed during a pass, meaning that the list has become fully sorted. The algorithm, which is a comparison sort, is named for the way the larger elements "bubble" up to the top of the list.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Bubble_sort)</cite>
 
-Buble-sort is classical sorting algorithms, usually used to learn how to sort
-data and not to be used in production itself, but can be used as part of other
-algorithms.
+Bubble-sort is classical sorting algorithms, usually used to learn how to sort data and not to be used in production itself, but can be used as part of other algorithms.
 
-Bubble sort, it's because the ==highest unsorted== value "bubbles" up to its correct
-position, starting from right boundary of the array. <!--SR:!2024-09-08,4,216-->
+Bubble sort, it's because the ==highest unsorted== value "bubbles" up to its correct position, starting from right boundary of the array. <!--SR:!2024-09-08,4,216-->
 
-How to sort `2135` using bubble sort (graphical answer allowed)? How many pass-through's are used here?
+How to sort `2135` using bubble sort (graphical answer allowed)? How many pass-trough's are used here?
 <br class="f">
 ```
 2.1.3.5
@@ -43,10 +35,8 @@ swap detected, need to repeat to verify sorting, we also change starting boundar
 no swap detected
 array is sorted: 1.2.3.5
 ```
-<!--SR:!2024-09-21,8,215-->
 
-Code implementation of bubble sort (at least basic concepts), input data
-unsorted list, output sorted list:
+Code implementation of bubble sort (at least basic concepts), input data unsorted list, output sorted list:
 <br class="f">
 ```python
 def bubble_sort(array_items):
@@ -81,13 +71,8 @@ def bubble_sort(array_items):
 
 print(bubble_sort([65, 55, 45, 35, 25, 15, 10]))
 ```
-*Results:* `[10, 15, 25, 35, 45, 55, 65]`
+_Results:_ `[10, 15, 25, 35, 45, 55, 65]`
 
 What is the efficiency of bubble sort?
 <br class="f">
-The efficiency of Bubble Sort (in terms of Big O) is approximately (will close
-to it with big numbers) $\mathcal{O}(N^2)$, quadratic time, grows exponentially.
-In worst case array of 5 items we need to compare 10 times and make 10 swaps,
-array of 10 items we need to compare about 45 times and make about 45 swaps. You
-can check [[Wengrow-Data_structures_and_algorithms|Wengrow]] book, page
-73. <!--SR:!2024-09-27,22,250-->
+The efficiency of Bubble Sort (in terms of Big O) is approximately (will close to it with big numbers) $\mathcal{O}(N^2)$, quadratic time, grows exponentially. In worst case array of 5 items we need to compare 10 times and make 10 swaps, array of 10 items we need to compare about 45 times and make about 45 swaps. You can check [[Wengrow-Data_structures_and_algorithms|Wengrow]] book, page 73.

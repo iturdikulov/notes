@@ -5,6 +5,7 @@ tags:
   - blog
   - cheat-sheets
   - annotation_book
+  - now_software
 file: ./books/Neil-Practical_Vim.pdf
 sr-due: 2025-08-02
 sr-interval: 11
@@ -31,28 +32,23 @@ Thanks + contains some story about author's life.
 
 # Read Me \17
 
-Practical Vim is for programmers who want to raise their game.
+Practical Vim is for programmers who wants to raise their game.
 
 This book focusing on Vim's core features.
 
 ## How This Book Is Structured \17
 
-Practical Vim is a recipe book. It's not designed to be read in sequence, you
-can read any chapter. Tips can be cross-referred or self-contained.
+Practical Vim is a recipe book. It's not designed to be read in sequence, you can read any chapter. Tips can be cross-referred or self-contained.
 
 ## A Note on the Examples \18
 
-Many actions in vim can be done in many ways, if you thinking something can be
-done faster it can be true, so author just show specific ways, and maybe later
-describe how do things with other way.
+Many actions in vim can be done in many ways, if you thinking something can be done faster it can be true, so author just show specific ways, and maybe later describe how do things with other way.
 
 ## Learn to Touch Type, Then Learn Vim \18
 
-Haha... So I probably fit to this (~~only 50wpm right now~~, about 70+wpm, after
-I switched from QWERTY to Colemak-DH).
+Ha-ha... So I probably fit to this (~~only 50wpm right now~~, about 70+wpm, after I switched from QWERTY to Colemak-DH).
 
-In Vim, everything can be done with keyboard. And for touch typist, that means
-Vim does everything faster.
+In Vim, everything can be done with keyboard. And for touch typist, that means Vim does everything faster.
 
 # Read the Forgotten Manual \19
 
@@ -60,20 +56,17 @@ This book more focusing on practices. So need to do examples, rather than read.
 
 ## Get to Know Vim's Built-in Documentation \19
 
-How to open vim tutor built-in documentation, interactive tutor?:<wbr class="f"> `:h vimtutor`,
-`:Tutor`
+How to open vim tutor built-in documentation, interactive tutor?:<wbr class="f"> `:h vimtutor`, `:Tutor`
 
 Built-in ℹ️ icons in this book are linked to documentation.
 
 ## Notation for Simulating Vim on the Page \20
 
-Describe how keybindings working in Vim. Vim combine chords and keybindings with
-modifiers.
+Describe how keybinding working in Vim. Vim combine chords and keybinding with modifiers.
 
 Get help about key-notations:<wbr class="f"> `:h key-notation`
 
-Here also good example how to represent keystrokes with ranges of keys,
-modifiers, etc. `f{char}`, `m{a-zA-Z}`, etc...
+Here also good example how to represent keystrokes with ranges of keys, modifiers, etc. `f{char}`, `m{a-zA-Z}`, etc...
 
 ## Downloading the Examples \24
 
@@ -81,11 +74,7 @@ Book contains linked examples, so you can download them and play with them.
 
 ## Use Vim's Factory Settings \24
 
-To open vim with default settings run this command ==`vim -u NONE -N`==. -N flag
-here reverts vi compatible mode (_nocompatible_). Set nocompatible is completely
-ignored in nvim, +1 reason to use it 🤔. But butter just use blank `init.lua`
-file, to enable built-in plugins.
-<!--SR:!2023-06-05,1,239-->
+To open vim with default settings run this command ==`vim -u NONE -N`==. -N flag here reverts vi compatible mode (_nocompatible_). Set `nocompatible` is completely ignored in nvim, +1 reason to use it 🤔. But butter just use blank `init.lua` file, to enable built-in plugins.
 
 ## On the Role of Vim Script \25
 
@@ -93,8 +82,7 @@ This book not about `Vim Script`, but it's used widely across the material.
 
 ## On Vim Versions \26
 
-How get vim version and health status of current neovim instance, including
-plugins?
+How to get vim version and health status of current Neovim instance, including plugins?
 <br class="f">
 `:checkhealth`, but it can be slow!
 
@@ -102,8 +90,7 @@ plugins?
 
 # 1. The Vim Way \28
 
-If you know how to craft useful actions using vim, you can reuse them and repeat
-effectively.
+If you know how to craft useful actions using vim, you can reuse them and repeat effectively.
 
 Big Vim brother is watching you.
 
@@ -112,9 +99,11 @@ Big Vim brother is watching you.
 Dot command is sort of "micro" macro.
 
 Dot command help:<wbr class="f"> `:h .`.
+
 <!--SR:!2023-06-07,3,258-->
 
 Test snippet:
+
 ```text
 Line one
 Line two
@@ -126,7 +115,7 @@ Line four
 
 `u`:<wbr class="f"> Undo.
 
-`dd`:<wbr class="f"> Delete current line. <!--SR:!2024-11-22,9,266-->
+`dd`:<wbr class="f"> Delete current line.
 
 `.`:<wbr class="f"> repeat last command, for example deletion
 
@@ -134,15 +123,14 @@ Line four
 
 `>G`
 <br class="f">
-Increase indentation from the current line until the end of the file (in
-Markdown until section?). You can repeat this command, go down 1 line and press
-`.` key.
+Increase indentation from the current line until the end of the file (in Markdown until section?). You can repeat this command, go down 1 line and press `.` key.
 
 `>}`:<wbr class="f"> Increase indentation for paragraph forward.
 
 Do vim record keystrokes if we enter insert mode and type something?
 <br class="f">
 Yes, we can even repeat or paste these keystrokes - `.`, `".p`
+
 <!--SR:!2023-06-08,3,258-->
 
 ## Tip 2. Don't Repeat Yourself \31
@@ -158,14 +146,14 @@ Difference between `i` and `a`?
 `a;`:<wbr class="f"> Insert semicolon after cursor.
 
 Test snippet:
+
 ```javascript
-var foo = 1
-var bar = "a"
-var foobar = foo + bar
+var foo = 1;
+var bar = "a";
+var foobar = foo + bar;
 ```
 
-How run normal mode commands across a range?:<wbr class="f"> use `:normal` command.
-<!--SR:!2023-06-05,1,238-->
+How to run normal mode commands across a range?:<wbr class="f"> use `:normal` command.
 
 `C`:<wbr class="f"> Change to the end of the line and set insert mode.
 
@@ -186,7 +174,7 @@ How run normal mode commands across a range?:<wbr class="f"> use `:normal` comma
 How to add space padding for each `+` sign here (dot method)?
 
 ```javascript
-var foo = "method("+argument1+","+argument2+")";
+var foo = "method(" + argument1 + "," + argument2 + ")";
 ```
 <br class="f">
 1. search first `+` sign - `f+` or `/+<CR>`
@@ -220,19 +208,12 @@ Scan document for next match, repeat, undo:<wbr class="f"> `/pattern<CR>`, `n`, 
 Scan document for previous match, repeat, undo:<wbr class="f"> `?pattern<CR>`, `n`, `N`
 
 Perform substitution, undoat, undo:<wbr class="f"> `:s/old/new/`, `&`, `u`
-<!--SR:!2023-06-06,1,238-->
 
-Execute a sequence of changes (record & execute macro), repeat,
-undo:<wbr class="f"> `qx{changes}q`, `@x`, `u`
+Execute a sequence of changes (record & execute macro), repeat, undo:<wbr class="f"> `qx{changes}q`, `@x`, `u`
 
 Difference between `:s` and `:%s`
 <br class="f">
-`%` is the range over which the `:s` command (short for `:substitute`) will be
-run. `%` itself is short for the range `:1,$`, which means Line 1 to the last
-line in the buffer. The Vim help has a couple topics (user manual - `:help
-10.3`, reference manual - `:help cmdline-ranges`) describing the forms that
-ranges can take.
-`:s` also support ranges, like `:1,3s/old/new/`.
+`%` is the range over which the `:s` command (short for `:substitute`) will be run. `%` itself is short for the range `:1,$`, which means Line 1 to the last line in the buffer. The Vim help has a couple topics (user manual - `:help 10.3`, reference manual - `:help cmdline-ranges`) describing the forms that ranges can take. `:s` also support ranges, like `:1,3s/old/new/`.\
 _[source - StackOverflow](https://stackoverflow.com/a/22327877)._
 
 ## Tip 5. Find and Replace by Hand \36
@@ -254,8 +235,6 @@ Goal of this article search and replace interactive.
 `cw`:<wbr class="f"> Change word from cursor to the end of the word.
 
 ## Tip 6. Meet the Dot Formula \38
-
-
 
 # Part I—Modes \40
 

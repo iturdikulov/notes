@@ -2,6 +2,7 @@
 created: 2023-02-21T00:00+03:00
 tags:
   - blog
+  - now_software
   - cheat-sheets
 sr-due: 2025-07-23
 sr-interval: 2
@@ -10,27 +11,20 @@ sr-ease: 130
 
 # Keyboard shortcut
 
-> In [[computing]], a keyboard shortcut also known as hotkey is a
-> series of one or several keys to quickly invoke a software program or perform
-> a preprogrammed action.
+TODO: require to rewrite, put links into related notes!
+
+> In [[computing]], a keyboard shortcut also known as hotkey is a series of one or several keys to quickly invoke a software program or perform a pre-programmed action.
 >
-> This action may be part of the standard functionality
-> of the operating system or application program, or it may have been written by
-> the user in a scripting language.
+> This action maybe part of the standard functionality of the operating system or application program, or it may have been written by the user in a scripting language.
 >
-> Some integrated keyboards also include pointing devices; the definition of
-> exactly what counts as a "key" sometimes differs.\
+> Some integrated keyboards also include pointing devices; the definition of exactly what counts as a "key" sometimes differs.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Keyboard_shortcut)</cite>
 
-[[touch_typing|Touch typing]] and [[computer_keyboard]] shortcuts are main driver of
-mouseless workflow. In this note I describe the most used shortcuts in my
-workflow, each section except "Universal" is linked to a more detailed note.
+[[touch_typing|Touch typing]] and [[computer_keyboard]] shortcuts are main driver of mouseless workflow. In this note I describe the most used shortcuts in my workflow, each section except "Universal" is linked to a more detailed note.
 
-Sometimes you need to create and use non-standard shortcuts, and this
-[Keyboard Heatmap](https://www.patrick-wied.at/projects/heatmap-keyboard/) tool can find most used keys, you can type most comfort keys for you, analyze heatmap and decide which keys you want to use.
+Sometimes you need to create and use non-standard shortcuts, and this [Keyboard Heatmap](https://www.patrick-wied.at/projects/heatmap-keyboard/) tool can find most used keys, you can type most comfort keys for you, analyze heatmap and decide which keys you want to use.
 
-In this file I place **basic** keybindings list for each my most used program,
-with link to detailed keybindings in separate note.
+In this file I place **basic** keybindings list for each my most used program, with link to detailed keybindings in separate note.
 
 ## Universal
 
@@ -67,14 +61,11 @@ Notepad based shortcuts, work mostly in all "classic" GUI program.
 
 ## Vim
 
-Since my most used program is Neovim, I have a lot of shortcuts for it. To quit
-I use `ZZ`, `:x`, `:q` and `:qa` 😼. I store basic keybindings in my
-[[vim_base_keybindings|Base keybindings]] note and more advanced in [[Neovim]].
+Since my most used program is Neovim, I have a lot of shortcuts for it. To quit I use `ZZ`, `:x`, `:q` and `:qa` 😼. I store basic keybindings in my [[vim_base_keybindings|Base keybindings]] note and more advanced in [[Neovim]].
 
 ## GNU Readline
 
-[[GNU_Readline]] used in many programs like Bash, Python, etc. So I need to know
-some basic keybindings to work with it.
+[[GNU_Readline]] used in many programs like Bash, Python, etc. So I need to know some basic keybindings to work with it.
 
 - Move back one character.:<wbr class="f"> `C-b`
 - Move forward one character.:<wbr class="f"> `C-f`
@@ -85,9 +76,7 @@ some basic keybindings to work with it.
 
 ## Obsidian
 
-[[Obsidian]] is my [[Telekasten|Zettelkasten system]] companion, main task
-is to render markdown, process [[spaced_repetition]] notes and
-work with [[excalidraw]] diagrams.
+[[Obsidian]] is my [[Telekasten|Zettelkasten system]] companion, main task is to render markdown, process [[spaced_repetition]] notes and work with [[excalidraw]] diagrams.
 
 Core keybindings:
 
@@ -103,8 +92,7 @@ Core keybindings:
 
 ## Web Browser
 
-I store my shortcuts (advanced list) in [[browser_shortcuts]]
-note. Currently, I'm using [[Brave]] browser and sometimes [[Firefox]].
+I store my shortcuts (advanced list) in [[browser_shortcuts]] note. Currently, I'm using [[Brave]] browser and sometimes [[Firefox]].
 
 Here are some universal shortcuts:
 
@@ -127,11 +115,10 @@ I also use limited subset of Vimium keybindings:
 - Focus input:<wbr class="f"> `gi`
 - Visit previous page:<wbr class="f"> `<C-6>`
 
-## KDE 
+## KDE
 
 - Keep window above others: <wbr class="f"> `S-]`
 - Keep window below others: <wbr class="f"> `S-]`
-
 
 ## MPV
 
@@ -168,15 +155,13 @@ Basic keybindings:
 
 I use [[Zsh]] as my main interactive command interpreter.
 
-Some keybindings from GNU readline are available in Z shell, but I
-usually use Vi-mode in Zsh, and it has its own keybindings.
+Some keybindings from GNU readline are available in Z shell, but I usually use Vi-mode in Zsh, and it has its own keybindings.
 
 To enter Vi-mode in Zsh type `Esc`, to back to insert mode type `i`.
 
 ## fzf
 
-I use [[fzf]] as main UI provider for list of anything, for mine shell scripts
-and commands.
+I use [[fzf]] as main UI provider for list of anything, for mine shell scripts and commands.
 
 Some keybindings, which integrated with Zsh:
 
@@ -184,8 +169,7 @@ Some keybindings, which integrated with Zsh:
 - Paste path into command line:<wbr class="f"> `C-t`
 - Change directory into selected path:<wbr class="f"> `M-C`
 
-For reverse search in history with ==`C-r`== hotkey and ==`Up`== key, I use
-different tool - [atuin](https://github.com/atuinsh/atuin).
+For reverse search in history with ==`C-r`== hotkey and ==`Up`== key, I use different tool - [atuin](https://github.com/atuinsh/atuin).
 
 ## atuin
 
@@ -195,13 +179,11 @@ Remove item:
 
 - Select the entry you want to delete
 - Press `C-o` to open the inspector
-- Press `C-d` to delete the entry
-  NOTE: there is no confirmation dialog after pressing `C-d`.
+- Press `C-d` to delete the entry NOTE: there is no confirmation dialog after pressing `C-d`.
 
 ## Sioyek
 
-I use [[Sioyek]] to read and annotate PDFs. It's optimized for research and
-reading scientific papers.
+I use [[Sioyek]] to read and annotate PDFs. It's optimized for research and reading scientific papers.
 
 Basic keybindings:
 
@@ -218,13 +200,7 @@ Basic keybindings:
 
 Basic keybindings:
 
-Jump to a conversation:<wbr class="f"> `C-k`
-Open direct message's menu:<wbr class="f"> `C-S-k`
-Compose a new message:<wbr class="f"> `C-n`
-Open channel browser:<wbr class="f"> `C-S-l`
-Open the Threads view:<wbr class="f"> `C-S-t`
-Mentions & reactions:<wbr class="f"> `C-S-m`
-Search current channel or conversation:<wbr class="f"> `C-f`
+Jump to a conversation:<wbr class="f"> `C-k` Open direct message's menu:<wbr class="f"> `C-S-k` Compose a new message:<wbr class="f"> `C-n` Open channel browser:<wbr class="f"> `C-S-l` Open the Threads view:<wbr class="f"> `C-S-t` Mentions & reactions:<wbr class="f"> `C-S-m` Search current channel or conversation:<wbr class="f"> `C-f`
 
 ## Blender
 
@@ -254,8 +230,7 @@ I use [[Krita]] as my board and drawing tool.
 
 ## Inkscape
 
-[[Inkscape]] is a vector graphics editor. I use it rarely, but it's very
-powerful, and I'm planning to learn it more.
+[[Inkscape]] is a vector graphics editor. I use it rarely, but it's very powerful, and I'm planning to learn it more.
 
 - Select and transform objects:<wbr class="f"> `S`
 - Pen Tool:<wbr class="f"> `P`

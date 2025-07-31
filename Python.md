@@ -11,39 +11,22 @@ sr-ease: 130
 
 # Python
 
-> Python is a [[high-level_programming_language|high-level]], general-purpose
-> [[programming_language]]. Its design philosophy emphasizes code readability
-> with the use of significant indentation via the off-side rule.
-> 
-> Python is a multi-paradigm programming language. [[OOP|object-oriented]]
-> programming and [[structured_programming]] are fully supported, and many of
-> their features support [[functional_programming]] and aspect-oriented
-> programming (including metaprogramming and metaobjects). Many other paradigms
-> are supported via extensions, including design by contract and logic
-> programming.
-> 
-> Python uses dynamic typing and a combination of reference counting and a
-> cycle-detecting garbage collector for memory management. It uses dynamic name
-> resolution (late binding), which binds method and variable names during
-> program execution.
-> 
-> Its design offers some support for functional programming in the Lisp
-> tradition. It has `filter`, `map` and `reduce` functions; list comprehensions,
-> dictionaries, sets, and generator expressions. The standard library has two
-> modules (itertools and functools) that implement functional tools borrowed
-> from Haskell and Standard ML.\
-> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Python_\(programming_language\))</cite>
+> Python is a [[high-level_programming_language|high-level]], general-purpose [[programming_language]]. Its design philosophy emphasizes code readability with the use of significant indentation via the off-side rule.
+>
+> Python is a multi-paradigm programming language. [[OOP|object-oriented]] programming and [[structured_programming]] are fully supported, and many of their features support [[functional_programming]] and aspect-oriented programming (including metaprogramming and metaobjects). Many other paradigms are supported via extensions, including design by contract and logic programming.
+>
+> Python uses dynamic typing and a combination of reference counting and a cycle-detecting garbage collector for memory management. It uses dynamic name resolution (late binding), which binds method and variable names during program execution.
+>
+> Its design offers some support for functional programming in the Lisp tradition. It has `filter`, `map` and `reduce` functions; list comprehensions, dictionaries, sets, and generator expressions. The standard library has two modules (`itertools` and `functools`) that implement functional tools borrowed from Haskell and Standard ML.\
+> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Python_(programming_language))</cite>
 
 [[zen_of_python|Zen of python]] describes the philosophy of Python.
 
-This is most prioritized language for me. I learn it according to my
-[[computer_programming#Learning path|roadmap]].
+This is most prioritized language for me. I learn it according to my [[computer_programming#Learning path|roadmap]].
 
-**Python** is a [[high-level_programming_language|high-level]],
-[[general-purpose_programming_language|general-purpose]] programming language.
+**Python** is a [[high-level_programming_language|high-level]], [[general-purpose_programming_language|general-purpose]] programming language.
 
-One of key features of Python is attention to [[readability]], by using
-indentation to delimit code blocks, rather than curly brackets or keywords.
+One of key features of Python is attention to [[readability]], by using indentation to delimit code blocks, rather than curly brackets or keywords.
 
 Python is [dynamically typed] and [garbage-collected].
 
@@ -54,18 +37,13 @@ It supports any popular [[programming_paradigm]]:
 - [[OOP|object-oriented]]
 - [[functional_programming|functional]]
 
-Rich [[Python_community-Python_tutorial_10_stdlib|stdlib]], it's "batteries
-included" language.
+Rich [[Python_community-Python_tutorial_10_stdlib|stdlib]], it's "batteries included" language.
 
 ## Learning path
 
-I learn Python according to customized amaargiru [^1] pyroad developer roadmap,
-I place links to my notes related to Python in special [[excalidraw]]
-whiteboard, aviable in the spoiler below:
+I learn Python according to customized amaargiru [^1] pyroad developer roadmap, I place links to my notes related to Python in special [[excalidraw]] whiteboard, aviable in the spoiler below:
 
-> [!IMPORTANT]- High-level overview of Python
-> ![[img/python_high_level_overview.excalidraw|100%|Python high-level overview scheme]]
-> _Python high-level overview_
+> [!IMPORTANT]- High-level overview of Python ![[img/python_high_level_overview.excalidraw|100%|Python high-level overview scheme]] _Python high-level overview_
 
 List of materials to review with [[my_notation]]:
 
@@ -84,8 +62,7 @@ List of materials to review with [[my_notation]]:
 
 - [ ] [Python cheat sheets](https://www.datacamp.com/cheat-sheet)
 - [ ] [Python Cheatsheet](https://www.pythoncheatsheet.org/)
-- [ ] [[Sorn-Comprehensive_python_cheatsheet|Python cheatsheet]], to dive in
-      into language itself.
+- [ ] [[Sorn-Comprehensive_python_cheatsheet|Python cheatsheet]], to dive in into language itself.
 - [ ] [Python Wiki](https://wiki.python.org/moin/)
 
 - [ ] [[Python_concurency]]
@@ -103,15 +80,13 @@ List of materials to review with [[my_notation]]:
 - [Python Developer’s Guide](https://devguide.python.org/)
 - [How to learn Python programming | Guido van Rossum and Lex Fridman - YouTube](https://www.youtube.com/watch?v=F2Mx-u7auUs)
 - [[Matthes-Python_crash_course]]
-- [Python для сетевых инженеров](https://pyneng.readthedocs.io/ru/latest/index.html)
-  paradigms function, imperative, oop
+- [Python для сетевых инженеров](https://pyneng.readthedocs.io/ru/latest/index.html) paradigms function, imperative, oop
 - [Python Introduction - Learn By Example](https://www.learnbyexample.org/python-introduction/)
 - [Think Python — Think Python](https://allendowney.github.io/ThinkPython/)
 - [[Ramalho-Fluent_Python]]
 - [[Slatkin-Effective_Python]], general tips to write good Python code
 - [Python Classes: The Power of OOP – Real Python](https://realpython.com/python-classes/)
-- [Sets in Python – Real Python](https://realpython.com/python-sets/), research
-  article.
+- [Sets in Python – Real Python](https://realpython.com/python-sets/), research article.
 - [Set Difference Python: Intersection, union and difference of Sets in Python. - DEV Community](https://dev.to/svinci/intersection-union-and-difference-of-sets-in-python-4gkn)
 - [python - Meaning of @classmethod and @staticmethod](https://stackoverflow.com/questions/12179271/meaning-of-classmethod-and-staticmethod-for-beginner)
 - [Thoughts On @staticmethod Usage In Python - Julius Seporaitis](https://www.seporaitis.net/posts/2020/05/05/python-staticmethod-usage/)
@@ -124,8 +99,7 @@ List of materials to review with [[my_notation]]:
 - [PEP 8 – Style Guide for Python Code](https://peps.python.org/pep-0008/)
 
 - [Recursion in Python: An Introduction – Real Python](https://realpython.com/python-recursion/)
-- [[Xiryanov-Praktika_programmirovaniya_na_Python|Практика программирования на
-  Python]].
+- [[Xiryanov-Praktika_programmirovaniya_na_Python|Практика программирования на Python]].
 
 - [awesome-python-typing](https://github.com/typeddjango/awesome-python-typing)
 - [Python dataclasses will save you HOURS, also featuring attrs - YouTube](https://youtu.be/vBH6GRJ1REM)
@@ -159,10 +133,8 @@ TODO: review
 - [[backend#Python]]
 
 - [JupyterLite and pandas intro](https://jvns.github.io/pandas-cookbook/lab/index.html)
-- [scipy](https://scipy.org/) - Fundamental algorithms for scientific computing
-  in Python
-- [numpy](https://numpy.org/) - the fundamental package for scientific computing
-  with Python
+- [scipy](https://scipy.org/) - Fundamental algorithms for scientific computing in Python
+- [numpy](https://numpy.org/) - the fundamental package for scientific computing with Python
 - [Performance analysis for Python snippets](https://github.com/nschloe/perfplot)
 - [A platform-independent file lock for Python.](https://github.com/tox-dev/filelock)
 - [mistletoe: markdown parser in pure Python.](https://github.com/miyuchina/mistletoe)
@@ -188,6 +160,4 @@ TODO: review
 
 - [Python CFFI bindings for Raylib](https://github.com/electronstudio/raylib-python-cffi)
 
-[^1]: article -
-    [Python High-level essentials / Хабр](https://habr.com/ru/articles/697760/),
-    repository - [Python developer roadmap](https://github.com/amaargiru/pyroad)
+[^1]: article - [Python High-level essentials / Хабр](https://habr.com/ru/articles/697760/), repository - [Python developer roadmap](https://github.com/amaargiru/pyroad)

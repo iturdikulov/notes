@@ -24,7 +24,7 @@ And I think more important, you can understand basic concepts of 3D graphics and
 
 Interface is too small, how I can adjust it?
 <br class="f">
-You can adjust resolution scale for UI in `Blender Preferences` → `UI`. <!--SR:!2024-01-31,10,270-->
+You can adjust resolution scale for UI in `Blender Preferences` → `Interface` → `UI`. <!--SR:!2024-01-31,10,270-->
 
 ## 2: Navigating the 3D View
 
@@ -42,9 +42,9 @@ If you are not able to remember hotkey, try to check it in panels controls (hove
 
 How to quickly navigate in 3D view (top, bottom, left, front, etc.)?
 <br class="f">
-You can use `NUM1-9` keys. But using `Pie menu` for navigation (````) I think more suitable than `Num` keys (on my keyboard at least).
+You can use `NUM1-9` keys. But using `Pie menu` for navigation (` `` `) I think more suitable than `Num` keys (on my keyboard at least).
 
-You can enable 3 keys Mouse emulation (`Settings` → `Input`), which might be useful for tablet and with this mode some additional keybindings will aviable:
+You can enable 3 keys Mouse emulation (`Settings` → `Input`), which might be useful for tablet and with this mode some additional key bindings will aviable:
 
 1. `M-LMB` for orbiting
 2. `S-M-LMB` for pan navigate
@@ -66,25 +66,25 @@ How to determine active object in 3D view?
 <br class="f">
 Blender mark active object using light orange glow (border).
 
-How blender mark hidden toolbars in UI?
+How to blender mark hidden toolbars in UI?
 <br class="f">
 You can expose additional tools from toolbar, if here small triangle (on left sidebar for example) and you can extend them by resizing to right.
 
 Can you describe how rotation works (mnemonic/IRL example) per axis (X is front, Y left/right, Z top/bottom)?
 <br class="f">
-X - is sort of cartwheel exercise, 🤸 Y - is front/backflip Z - is pirouetting
+X - is sort of cartwheel exercise 🤸, Y - is front/backflip Z - is pirouetting
 
 ## 4: Transforming Objects and Adjusting Transformations
 
 Little squares in Gizmo move tool move object in ==2 axes (plane)==. <!--SR:!2024-01-28,7,250-->
 
-White circle in rotate tool allow you to rotate object at given degree ==`C-`, `C-S-`== keys allow you to work with fixed values of degree. <!--SR:!2024-02-04,14,250-->
+White circle in rotate tool allow you to rotate object at given degree ==`C-`,`C-S-`== keys allow you to work with fixed values of degree. <!--SR:!2024-02-04,14,250-->
 
 `Scale cage tool` acts like ==`transform tool`== in raster editors, but in 3D space.
 
 In blender when you rotate object, arm is matter, long arm ==slow== rotation, short arm fast rotation. <!--SR:!2024-02-03,13,250-->
 
-To reset values, hover on it and press ==`BCK`==. <!--SR:!2024-01-29,8,250-->
+To reset values (some number in input), hover on it and press ==`BCK`==. <!--SR:!2024-01-29,8,250-->
 
 You can use math in input values, for example $2+2$ or $2*2$.
 
@@ -92,7 +92,7 @@ How to transform object with more precision or determine values?
 <br class="f">
 You can transform objects using precision (`S-` key) or determine values using `C-` or `C-S-` keys. <!--SR:!2024-01-25,4,230-->
 
-You can clear an object transformation by ==`M-G, M-R, M-S`== keys. <!--SR:!2024-01-25,4,230-->
+You can clear an object transformation (move, rotate, scale) by ==`M-G, M-R, M-S`== keys. <!--SR:!2024-01-25,4,230-->
 
 ## 5: Adding, Deleting, and the 3D Cursor
 
@@ -102,9 +102,9 @@ In outliner deletion and context menus also works.
 
 How to quickly snap selection or cursor (grid, world origin, etc.)?
 <br class="f">
-You can locate 3D cursor from snap menu (`Object` → `Snap` → `Cursor to`). You can also snap objects in same manner. Or use `S-S` shortcut. Or you can use new snapping `G` → `B`...
+You can locate 3D cursor from snap menu (`Object` → `Snap` → `Cursor to`). You can also snap objects in same manner. Or use `S-S` shortcut. Or you can use new snapping `G` → `B` → `snap 1,2` ...
 
-How to quickly add mesh primitives (cube, cylinder, etc.)?
+How to quickly add mesh primitives (cube, cylinder, etc.) and snap in same time?
 <br class="f">
 Add mesh tools (cube, cylinder, etc.) from left sidebar is useful to quickly generate meshes and snap them to geometry automatically.
 
@@ -116,13 +116,9 @@ In blender transformation has priorities, for example rotation is calculated fir
 
 To change current transformation orientation, use ==`,`== key.
 
-Applying rotation, is sort of make object to use global ==axis (transform orientation)==.
-
-By default, object origin reference point is ==world origin==. But you can change this by parenting, when you parent child to parent, reference point will be parent origin.
-
 You can parent objects by moving them in outliner with ==`S-`== key from child to parent. And you can clear parent hierarchy by moving them with `S-` key in outliner, from parent to outside (clear space).
 
-When you parent child object to target object, ==target object== must be selected and active to make it parent (selected last).
+By default, object origin reference point is ==world origin==. But you can change this by parenting, when you parent child to parent, reference point will be parent origin.
 
 ## 7: Editing Object Data
 
@@ -130,7 +126,7 @@ How to open object data in outliner?
 <br class="f">
 You can click on object icon or object data icon in outliner and this will open associated tab in properties.
 
-Object vs Object Data?
+Relationship between object and object Data?
 <br class="f">
 Object is sort of container, which can store other objects and object data. You can also change objects data from one to another one. Also object has own properties and object data (data block) has own properties.
 
@@ -140,7 +136,7 @@ Does vertices and edges have size?
 <br class="f">
 Vertices haven't size in blender and edges are infinity thin.
 
-If I remove all geometry from object, origin will be still present?
+If I remove all geometry from object, origin will be still present (visualized as orange dot, usually in the center of object)?
 <br class="f">
 Each object has origin, even if you remove all geometry this origin will be still present.
 
@@ -152,11 +148,11 @@ You can select specific object, which added in edit mode (for example multiple c
 
 How to set origin to geometry center?
 <br class="f">
-Use `Set Origin` → `Origin to Geometry` (or `Origin to Center of Mass`).
+Use context menu: `Set Origin` → `Origin to Geometry` (or `Origin to Center of Mass`).
 
 How to transform only object origin?
 <br class="f">
-Transform tools support additional options (top right corner). For example `Options` → `Affect Only` → `Origins`. `Only locations`, is useful when you select two objects and scale for example (object not scaled, changed only locations). `Parents only`, transform only parent object.
+Transform tools support additional options (top right corner). For example: `Options` → `Affect Only` → `Origins`. `Only locations` useful when you select two objects and scale for example (object not scaled, changed only locations). `Parents only`, transform only parent object.
 
 To quickly change current mode for object, you can use PIE menu - ==`C-TAB`==. In keymap settings you can set only `TAB` key for this menu. <!--SR:!2024-01-23,2,249-->
 
@@ -166,25 +162,26 @@ You usually need to model object in edit mode, but rotate it in ==object mode==,
 
 How to duplicate object and place it in same place?
 <br class="f">
-After duplication of object you can instantly move it. To keep it in exact same place, use `ESC` key (cancel move operation). Duplication copy object so if you change one object, another will be not changed.
+After duplication of object (`S-D`) you can instantly move it. To keep it in exact same place, use `ESC` key (cancel move operation). 
 
-Duplicate linked (`ALT-D`) create linked copy, it duplicates object but not their ==data==, and move them. Linked instances much more effective in terms of memory usage and rendering. And it's working for various objects: Light, Geometry, Camera, etc.
+Duplicate linked (`M-D` instead `S-D`) create linked copy, it duplicates object but not their ==data==, and move them. Linked instances much more effective in terms of memory usage and rendering. And it's working for various objects: Light, Geometry, Camera, etc.
 
 ## 10: Pivot Points, Snapping, and Proportional Editing
 
 How to change pivot point?
 <br class="f">
 You can change transform pivot point (center of the header section), for example rotate around 3D cursor, or bounding box center, or around active object, or around median point.
+TODO: Median point in blender.
 
 How to change grid size?
 <br class="f">
-You can change grid scale in `Show Overlays` menu (top right), this is useful for snapping for example. You can also change scene units, which also affect to grid and objects (for example location)! (`Scene` tab → `Unit scale`).
+You can change grid scale in `Show Overlays` menu (top right), this is useful for snapping for example. You can also change scene units, which also affect to grid and objects (for example location)! (`Scene tab in Properties` → `Unit scale`).
 
 How to quickly set object dimensions to 1 meter, 1 km, 1 cm for example (without calculation yourself)?
 <br class="f">
-Blender support unit prefixes in values, for example 1 mm, 1 cm, 1 m, 1 km, etc. If you type 1 km in some input it will be automatically converted to meters.
+Blender support unit prefixes in values, for example 1 mm, 1 cm, 1 m, 1 km, etc. If you type 1 km in some input (`Transform panel` for example) it will be automatically converted to meters.
 
-You can enable `Absolute Grid Snap` in snapping settings, to snap object by ==pivot center== all time, no matter what initial position was.
+You can enable `Absolute Grid Snap` in snapping settings, to snap object by ==pivot center== all time, no matter what initial position was. TODO: not clear.
 
 Which snapping modes are available?
 <br class="f">

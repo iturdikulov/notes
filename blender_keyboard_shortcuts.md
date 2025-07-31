@@ -20,32 +20,23 @@ Blender's keyboard shortcuts enhance efficiency. Check next sections for detaile
 - Search for function, mode aware:<wbr class="f"> `F3`
 - Initiate move, move along axis:
   <br class="f">
-  `g`; then `x`, `y`, `z` move along axis or move using `mmb` hold with snapping
-  to axis. Along local axis (rotate object first) - `x,x`/`y,y`/`z,z`.
-  Alternative drag `mmb` while moving to snap/move object to axis. You can move
-  object by Gizmo (local) in move mode (left toolbar) and white circle around
-  object. To cancel move press `esc` or `rmb`.
+`g`; then `x`, `y`, `z` move along axis or move using `mmb` hold with snapping to axis. Along local axis (rotate object first) - `x,x`/`y,y`/`z,z`. Alternative drag `mmb` while moving to snap/move object to axis. You can move object by Gizmo (local) in move mode (left toolbar) and white circle around object. To cancel move press `esc` or `rmb`.
 - Scale:
   <br class="f">
-  `s`, along axis - `x/y/z` or scale using `mmb` hold with
-  snapping to axis. Along local axis - `x,x`/`y,y`/`z,z`.
-  Or scale button in left panel.
+`s`, along axis - `x/y/z` or scale using `mmb` hold with snapping to axis. Along local axis - `x,x`/`y,y`/`z,z`. Or scale button in left panel.
 - Rotate
   <br class="f">
-  `r`, along axis - `x/y/z` or rotate using `mmb` hold with
-  snapping to axis. Along local axis - `X,X`/`Y,Y`/`Z,Z`. Or rotate button in left
-  panel.
+`r`, along axis - `x/y/z` or rotate using `mmb` hold with snapping to axis. Along local axis - `X,X`/`Y,Y`/`Z,Z`. Or rotate button in left panel.
 - Trackball Rotate:<wbr class="f"> `r, r`
 - Precise movement
   <br class="f">
-  `S-` (*hold*). Allow to drag/set value more precisely.
+`S-` (_hold_). Allow to drag/set value more precisely.
 - Incremental movement
   <br class="f">
-  `C-(*hold*)`. Allow to drag/set value incrementally or enable snapping.
+`C-(*hold*)`. Allow to drag/set value incrementally or enable snapping.
 - Duplicate vertices/mesh.
   <br class="f">
-  `S-d`, or `Mesh -> Duplicate`. `lmb` to confirm, `esc` to cancel.
-  When you duplicate vertices, you can press `p` to separate them into a new mesh.
+`S-d`, or `Mesh -> Duplicate`. `lmb` to confirm, `esc` to cancel. When you duplicate vertices, you can press `p` to separate them into a new mesh.
 - Duplicate Linked:<wbr class="f"> `M-d`
 
 <!-- TODO: need to review -->
@@ -58,14 +49,13 @@ Blender's keyboard shortcuts enhance efficiency. Check next sections for detaile
 - Open quick favorite's menu:<wbr class="f"> `q`
 - Rename object
   <br class="f">
-  You can rename selected object by double-clicking on it in outliner. Or select object and press F2.
+You can rename selected object by double-clicking on it in outliner. Or select object and press F2.
 - Shading Pie Menu
   <br class="f">
-  `z`. You can also change/check current view-port shading in top right corner,
-  layout mode
+`z`. You can also change/check current view-port shading in top right corner, layout mode
 - Toggle X-Ray (to select through mesh)
   <br class="f">
-  `M-z` or button in top right (2 squares).
+`M-z` or button in top right (2 squares).
 - Pivot point pie menu TODO: what is pivot?:<wbr class="f"> `.`
 - Snap pie menu:<wbr class="f"> `S-s`
 - Orientation pie menu:<wbr class="f"> `,`
@@ -79,7 +69,7 @@ Blender's keyboard shortcuts enhance efficiency. Check next sections for detaile
 - Orbit:<wbr class="f"> `mmb`
 - Pan:<wbr class="f"> `S-mmb`
 - Zoom In/Out:<wbr class="f"> `scroll` or `C-mmb`
-- Smooth zoom:<wbr class="f"> `C-mmb` (*drag*)
+- Smooth zoom:<wbr class="f"> `C-mmb` (_drag_)
 - Fly:<wbr class="f"> `S-~`. `scroll` to change speed.
 
 - Pie Menu:<wbr class="f"> `~`
@@ -120,7 +110,7 @@ Change Window type (under Cursor):
 
 - Change Mode Pie Menu:<wbr class="f"> `C-tab`
 - Edit/Object mode toggle:<wbr class="f"> `tab`
-- Mirror:<wbr class="f"> `C-m` *then* `X/Y/Z` (*or* `mmb` *(drag))*
+- Mirror:<wbr class="f"> `C-m` _then_ `X/Y/Z` (_or_ `mmb` _(drag))_
 - Set Parent (to last selected):<wbr class="f"> `C-p`
 - Clear Parent:<wbr class="f"> `M-p`
 - Toggle Snapping:<wbr class="f"> `S-tab`, or button in top right controls.
@@ -142,7 +132,7 @@ Change Window type (under Cursor):
 - Select:<wbr class="f"> `lmb`
 - Select All:<wbr class="f"> `a`
 - Deselect All:<wbr class="f"> `M-a`
-- Marquee Box Select:<wbr class="f"> `b` *or* `LMB (*drag*)`
+- Marquee Box Select:<wbr class="f"> `b` _or_ `LMB (*drag*)`
 - Circle Select:<wbr class="f"> `c`
 - Lasso Select:<wbr class="f"> `C-rmb`
 - Invert Selection:<wbr class="f"> `C-i`
@@ -188,7 +178,7 @@ Modelling:
 
 Curve Editing:
 
-- Add new handle:<wbr class="f"> `e` *or* `C-rmb`
+- Add new handle:<wbr class="f"> `e` _or_ `C-rmb`
 - Change handle type:<wbr class="f"> `v`
 - Delete but maintain connection:<wbr class="f"> `C-x`
 - Close curve:<wbr class="f"> `M-c`
@@ -204,7 +194,7 @@ Texturing:
 ## UV Editor shortcuts
 
 - TODO: need review
-- Select Island:<wbr class="f"> `l` (*under cursor*) or `C-l`
+- Select Island:<wbr class="f"> `l` (_under cursor_) or `C-l`
 - Stitch:<wbr class="f"> `v`
 - Weld:<wbr class="f"> `S-w`
 - Pin:<wbr class="f"> `p`
@@ -238,7 +228,7 @@ Paint:
 
 TODO: need review
 
-- Cut Connection:<wbr class="f"> `C-rmb` (*drag*)
+- Cut Connection:<wbr class="f"> `C-rmb` (_drag_)
 - Connect selected:<wbr class="f"> `F`
 - Properties:<wbr class="f"> `n`
 - Delete selected but maintain connection:<wbr class="f"> `C-x`
@@ -301,12 +291,12 @@ Timeline / Dopesheet
 
 - Toggle Dopesheet:<wbr class="f"> `C-tab`
 - Toggle Frames/Seconds:<wbr class="f"> `C-t`
-- Zoom to fit active keyframes:<wbr class="f"> `home` *or* `. (Numpad)`
+- Zoom to fit active keyframes:<wbr class="f"> `home` _or_ `. (Numpad)`
 - Set Keyframe Interpolation:<wbr class="f"> `t`
 - Set Keyframe Handle Type:<wbr class="f"> `v`
 - Set Keyframe Extrapolation:<wbr class="f"> `S-e`
 - Mirror Keyframes:<wbr class="f"> `C-m`
-- Set Preview Range:<wbr class="f"> `p` *then* `lmb` (*drag*)
+- Set Preview Range:<wbr class="f"> `p` _then_ `lmb` (_drag_)
 - Auto set preview range:<wbr class="f"> `C-M-p`
 - Clear Preview:<wbr class="f"> `M-p`
 - Marker:<wbr class="f"> `m`
@@ -337,7 +327,7 @@ Graph Editor:
 - Dissolve bones:<wbr class="f"> `C-x`
 - Split:<wbr class="f"> `y`
 - Separate:<wbr class="f"> `p`
-- Scroll Hierarchy:<wbr class="f"> `]` *and* `[`
+- Scroll Hierarchy:<wbr class="f"> `]` _and_ `[`
 
 Posing Mode:
 
@@ -361,10 +351,8 @@ Posing Mode:
 
 ## More keybindings
 
-![[./img/blender-infographiC-SM-2500.png]]
-_[Learn Blender with a poster infographic](https://www.giudansky.com/illustration/infographics/blender-map)_
+![[./img/blender-infographiC-SM-2500.png]] _[Learn Blender with a poster infographic](https://www.giudansky.com/illustration/infographics/blender-map)_
 
 ---
 
-![[img/ref-CGCookie-blender_hotkeys_4.1.pdf#page=2]]
-_[Blender Hotkey Cheat Sheet](https://cgcookie.com/downloads/blender-hotkey-cheat-sheet)_
+![[img/ref-CGCookie-blender_hotkeys_4.1.pdf#page=2]] _[Blender Hotkey Cheat Sheet](https://cgcookie.com/downloads/blender-hotkey-cheat-sheet)_

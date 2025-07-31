@@ -10,9 +10,7 @@ sr-ease: 265
 
 # fugutive.vim
 
-> Fugitive is the premier Vim plugin for [[Git]]. Or maybe it's the premier Git
-> plugin for Vim? Either way, it's "so awesome, it should be illegal". That's
-> why it's called Fugitive.\
+> Fugitive is the premier Vim plugin for [[Git]]. Or maybe it's the premier Git plugin for Vim? Either way, it's "so awesome, it should be illegal". That's why it's called Fugitive.\
 > — <cite>[tpope/vim-fugitive: A Git wrapper](https://github.com/tpope/vim-fugitive)</cite>
 
 Get file local history/undotree:<wbr class="f"> `<leader>u`
@@ -23,8 +21,7 @@ Open git commit UI vertically:<wbr class="f"> `:vert G`
 
 Fugitive menu:<wbr class="f"> `<leader>g`
 
-`:diffoff[!]`:<wbr class="f"> Close diff window, can be used in combination with `:q[!]` to
-close
+`:diffoff[!]`:<wbr class="f"> Close diff window, can be used in combination with `:q[!]` to close
 
 `:diffupdate`:<wbr class="f"> update diff window, can help with highlighting issues
 
@@ -68,20 +65,17 @@ Checkout current file if it's working copy, or stage if it's index file <br clas
 
 `:Gremove`:<wbr class="f"> Remove current file
 
-`:Gmove <relative_path>`:<wbr class="f"> Move current file, to append current file use
-`<ctrl-r>%`
+`:Gmove <relative_path>`:<wbr class="f"> Move current file, to append current file use `<ctrl-r>%`
 
-`:G blame:<wbr class="f"> `Open split window with blame buffer
+`:G blame:<wbr class="f">`Open split window with blame buffer
 
 `:G commit`:<wbr class="f"> Open split window with commit buffer
 
 `:Gedit :<path>` or `Gedit :0` or `<leader>ge`:<wbr class="f"> Open index file
 
-`:Gdiffsplit` or `<leader>gd`:<wbr class="f"> vimdiff against the index version of the file,
-quit from this mode by `:q`
+`:Gdiffsplit` or `<leader>gd`:<wbr class="f"> vimdiff against the index version of the file, quit from this mode by `:q`
 
-`:Git diff` or `<leader>gD`:<wbr class="f"> git diff against the last committed version of the
-file.
+`:Git diff` or `<leader>gD`:<wbr class="f"> git diff against the last committed version of the file.
 
 `:Git commit --ammend` or `<leader>ga`:<wbr class="f"> amend last commit
 
@@ -127,17 +121,11 @@ Push and create merge request:<wbr class="f"> `<leader>pT` (in fugitive mode for
 
 Pull:<wbr class="f"> `<leader>pP` (in fugitive mode for nvim)
 
-During a merge conflict, this is a three-way diff against the "ours" and
-"theirs" ancestors (open with `dd`). Additional ==`d2o`, `d3o`, `dp`== maps are
-provided by vim-fugitive to obtain the hunk from the "ours" or "theirs"
-ancestor, respectively.
+During a merge conflict, this is a three-way diff against the "ours" and "theirs" ancestors (open with `dd`). Additional ==`d2o`, `d3o`, `dp`== maps are provided by vim-fugitive to obtain the hunk from the "ours" or "theirs" ancestor, respectively.
 
-What if I want to pick changes from `head` (target branch) or from `branch-name`
-(merge-branch) during merge conflict (ignore remote or local changes), how to do
-it with vim-fugitive?
+What if I want to pick changes from `head` (target branch) or from `branch-name` (merge-branch) during merge conflict (ignore remote or local changes), how to do it with vim-fugitive?
 <br class="f">
-Need to use `Gwrite!`, `!` is required because this is dangerous command, and
-you can lose your changes. Be very careful with this strategy anyway.
+Need to use `Gwrite!`, `!` is required because this is dangerous command, and you can lose your changes. Be very careful with this strategy anyway.
 
 Git signs menu:<wbr class="f"> `<leader>h[key]`
 

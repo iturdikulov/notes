@@ -3,6 +3,7 @@ created: 2024-11-11T19:59+03:00
 tags:
   - blog
   - Python
+  - now_python
 sr-due: 2025-07-22
 sr-interval: 1
 sr-ease: 138
@@ -12,32 +13,23 @@ sr-ease: 138
 
 What is [[Python]] type hint?
 <br class="f">
-Optional "type hints" (also called "type annotations"), special syntax that
-allow declaring the type of objects. By declaring types for your variables,
-editors and tools can give you better support and analyze your code.
+Optional "type hints" (also called "type annotations"), special syntax that allow declaring the type of objects. By declaring types for your variables, editors, and tools can give you better support and analyze your code.
 
 Do type hints affect the runtime behavior of your code?
 <br class="f">
-Type hints normally don't affect the runtime behavior of your code. Think of
-type hints as similar to comments! <!--SR:!2025-02-22,9,250-->
+Type hints normally don't affect the runtime behavior of your code. Think of type hints as similar to comments! <!--SR:!2025-02-22,9,250-->
 
-Python has rich typing support, we can check related
-[Typing PEPs](https://peps.python.org/topic/typing/).
+Python has rich typing support, we can check related [Typing PEPs](https://peps.python.org/topic/typing/).
 
-In this note I collect some of the most important features, recipes related to
-type hints. Initial information is from [FastAPI python
-types](https://fastapi.tiangolo.com/python-types/) intro.
+In this note I collect some of the most important features, recipes related to type hints. Initial information is from [FastAPI python types](https://fastapi.tiangolo.com/python-types/) intro.
 
-I also have commented code with type hints examples and explanations:
-[python/type_hints.py](https://github.com/iturdikulov/python/blob/main/type_hints.py).
+I also have commented code with type hints examples and explanations: [python/type_hints.py](https://github.com/iturdikulov/python/blob/main/type_hints.py).
 
 ## Type hints features
 
-- Editor provide additional support for type hints (autocomplete, analyze,
-etc.).
+- Editor provide additional support for type hints (autocomplete, analyze, etc.).
 - Type check for static analysis.
-- For libraries, type hints can be used to generate documentation, define
-requirements, convert data, validate data, document the API using OpenAPI.
+- For libraries, type hints can be used to generate documentation, define requirements, convert data, validate data, document the API using OpenAPI.
 
 ## Basic examples
 
@@ -63,8 +55,7 @@ def get_full_name(first_name: str, last_name: str) -> str:
 print(get_full_name("john", "doe"))  # John Doe
 ```
 
-Type hints help us to analyze code better, in following example we get type hint
-warning, '■ Operator "+" not supported for types "str" and "int"':
+Type hints help us to analyze code better, in following example we get type hint warning, '■ Operator "+" not supported for types "str" and "int"':
 
 ```python
 def get_name_with_age(name: str, age: int) -> str:
@@ -89,24 +80,17 @@ def get_items(item_a: str, item_b: int, item_c: float, item_d: bool, item_e: byt
 print(get_items("a", 1, 1.0, True, b"b"))
 ```
 
-There are some data structures that can contain other values, like `dict`,
-`list`, `set` and `tuple`. And the internal values can have their own type too
-(`list(int)`). These types that have internal types are called =="generic"==
-types. And it's possible to declare them, with optional internal types.
+There are some data-structures that can contain other values, like `dict`, `list`, `set` and `tuple`. And the internal values can have their own type too (`list(int)`). These types that have internal types are called =="generic"== types. And it's possible to declare them, with optional internal types.
 
-Python standard module `typing` provide runtime support for these type hints,
-but newer Python version can make this obsolete.
+Python standard module `typing` provide runtime support for these type hints, but newer Python version can make this obsolete.
 
-As Python advances, **newer versions** come with improved support for these type
-annotations and in many cases you won't even need to import and use the `typing`
-module to declare the type annotations.
+As Python advances, **newer versions** come with improved support for these type annotations and in many cases you won't even need to import and use the `typing` module to declare the type annotations.
 
 ### List and tuples type hints
 
 We can declare variable type as list of integers with following syntax:
 <br class="f">
-`variable_name: list[str]`, in the brackets are type parameters. Usage in the
-function:
+`variable_name: list[str]`, in the brackets are type parameters. Usage in the function:
 ```python
 def process_items(items: list[str]):  # each list sequence item is a string
     for item in items:
@@ -125,9 +109,7 @@ def process_items(items_t: tuple[int, int, str], items_s: set[bytes]):
 
 ### Dict type hints
 
-To define a `dict`, you pass ==2== type parameters, separated by commas (for key
-and value types).
-
+To define a `dict`, you pass ==2== type parameters, separated by commas (for key and value types).
 ```python
 def process_items(prices: dict[str, float]):  # key/value type parameter
     for item_name, item_price in prices.items():
@@ -137,10 +119,7 @@ def process_items(prices: dict[str, float]):  # key/value type parameter
 
 ### Union type hints
 
-You can declare that a variable can be any of several types, for example, a
-`int` or a `str`, `str` or `None`. In newer Python version we can use special
-union syntax, types separated by ==a vertical bar (`|`)==.
-
+You can declare that a variable can be any of several types, for example, a `int` or a `str`, `str` or `None`. In newer Python version we can use special union syntax, types separated by ==a vertical bar (`|`)==.
 ```python
 def process_item(item: int | str):  # item could be an int or a str
     print(item)
@@ -154,8 +133,8 @@ def say_hi(name: str | None = None):  # item could be possible None
 
 ## Classes as types
 
-You can also declare a class as the type of variable.
-
+You can also declare a class as the type of variable. How?
+<br class="f">
 ```python
 class Person:
     def __init__(self, name: str):
@@ -168,14 +147,9 @@ def get_person_name(one_person: Person):
 
 ## Metadata Annotations
 
-We can put additional metadata in type hints using `Annotated` (Python 3.9+).
-The first type parameter you pass to `Annotated` is the actual type. The rest,
-is just metadata for other tools.
+We can put additional metadata in type hints using `Annotated` (Python 3.9+). The first type parameter you pass to `Annotated` is the actual type. The rest, is just metadata for other tools.
 
-Python itself doesn't do anything with this `Annotated`. And for editors and
-other tools, the type is still ==`str`==. But you can use this space in
-`Annotated` to provide additional information for application for custom
-behavior.
+Python itself doesn't do anything with this `Annotated`. And for editors and other tools, the type is still ==`str`==. But you can use this space in `Annotated` to provide additional information for application for custom behavior.
 ```python
 from typing import Annotated
 

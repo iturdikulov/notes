@@ -11,22 +11,16 @@ sr-ease: 245
 
 # Analysis of algorithms
 
-The process of finding the computational ==[[computational_complexity]]== of algorithms is called analysis of algorithms [^1]. <!--SR:!2025-07-26,2,245-->
-
-Which method can be used to compare, predict performance, and understand various trade-offs between two algorithms?
+The process of finding the computational complexity [^1] of an algorithm is called?
 <br class="f">
+Analysis of algorithms (or complexity analysis). This involves determining the time complexity (how runtime scales with input size) and space complexity (memory usage) using Big O notation.
 Analysis of algorithms helps compare algorithms, predict performance, and understand trade-offs between resources (time/memory). It is crucial for optimizing [[computation|computational]] efficiency.
-
-The search process of X characterizes the effectiveness of the algorithm. What X is?
-<br class="f">
-In [[computer_science]] this is the process of finding the [[computational_complexity]] (number of steps, which depends on input size) of [[algorithm|algorithm's]]. For example, amount of time to execute an algorithm, required storage or memory.
 
 Efficiency of algorithms is measured by?
 <br class="f">
-Efficiency of algorithms is measured by its function's values: value is small or grow slowly compared to a growth in the size on input.
+**Time Complexity** - How execution time grows with input size (e.g., O(n), O(log n), O(n²)). **Space Complexity** - How memory usage grows with input size.
+Both are typically expressed using [[big_O_notation]] to describe worst-case performance as input approaches infinity. <!--SR:!2025-08-03,5,245-->
 
-Different inputs of the same size may cause the algorithm to have different behavior, so best, worst, and average case descriptions might all be of practical interest.
-
-When not otherwise specified, the function describing the performance of an algorithm is usually an upper bound, determined from the worst case inputs to the algorithm.
+Different inputs of the same size may cause the algorithm to have different behavior, so best, worst, and average case descriptions might all be of practical interest. When not otherwise specified, the function describing the performance of an algorithm is usually an upper bound, determined from the ==worst== case inputs to the algorithm. <!--SR:!2025-08-04,5,247-->
 
 [^1]: [Analysis of algorithms - Wikipedia](https://en.wikipedia.org/wiki/Analysis_of_algorithms)

@@ -2,6 +2,7 @@
 created: 2024-08-26T00:00+03:00
 tags:
   - blog
+  - now
   - computer_science
 sr-due: 2025-08-04
 sr-interval: 17
@@ -70,26 +71,18 @@ def insertion_sort(array):
 
 ## The efficiency of insertion sort
 
-Four types of steps occur in Insertion Sort, which ones with typical order of
-them?
+Four types of steps occur in Insertion Sort, which ones with typical order of them?
 <br class="f">
 removals ("cut"), comparisons, shifts, and insertions, in total $N^2 + 2N - 2$ steps in worst case <!--SR:!2024-09-20,6,210-->
 
-If there are N elements, we make ==$1+2+3...(N - 1), \frac{N^2}{2}$==
-comparisons and shifts with insertion sort. <!--SR:!2024-09-06,1,228-->
+If there are N elements, we make ==$1+2+3...(N - 1), \frac{N^2}{2}$== comparisons and shifts with insertion sort. <!--SR:!2024-09-06,1,228-->
 
-If there are N elements, we make ==$N-1$== pass-throughs and same amount of
-removals and insertions. <!--SR:!2024-09-10,1,208-->
+If there are N elements, we make ==$N-1$== pass-through and same amount of removals and insertions. <!--SR:!2024-09-10,1,208-->
 
-If Insertion Sort takes $N^2$ steps for the worst-case scenario, we’d say that
-it takes about ==$\frac{N^2}{2}$== steps for the average scenario, and in the
-best-case scenario it's about $N$ steps, both $\mathcal{O}(N^2)$.
+If Insertion Sort takes $N^2$ steps for the worst-case scenario, we’d say that it takes about ==$\frac{N^2}{2}$== steps for the average scenario, and in the best-case scenario it's about $N$ steps, both $\mathcal{O}(N^2)$.
 
-Selection sort takes fewer steps in best-case scenario because it has mechanism
-for ==ending a pass-through== early and any point.
+Selection sort takes fewer steps in best-case scenario because it has mechanism for ==ending a pass-through== early and any point.
 
-If you have reason to assume you’ll be dealing with data that is mostly sorted
-which sorting algorithm would you use, selection sort or insertion sort?
+If you have reason to assume you’ll be dealing with data that is mostly sorted which sorting algorithm would you use, selection sort or insertion sort?
 <br class="f">
-Insertion sort, because it’s faster in best-case scenario when data is mostly
-sorted.
+Insertion sort, because it’s faster in best-case scenario when data is mostly sorted.

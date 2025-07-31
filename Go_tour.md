@@ -2,7 +2,6 @@
 created: 2025-02-06T10:20+03:00
 tags:
   - blog
-  - now
   - annotation_repo
 author: Google
 external:
@@ -14,26 +13,22 @@ sr-ease: 150
 
 # A Tour of Go
 
-My notes on A Tour of [[Go]] [^1].
+My notes on A Tour of Go[^1].
 
-Every Go program is made up of ==packages==.
+Every [[Go]] program is made up of ==packages==. <!--SR:!2025-07-30,4,190-->
 
-Programs start running in package ==main==.
+Programs start running in package named ==main==. <!--SR:!2025-07-30,4,194-->
 
-By convention, the package name is the same as the last element of the `import`
-path. For instance, the `math/rand` package comprises files that begin with the
-statement ==`package rand`==.
+By convention, the package name is the same as the last element of the `import` path. For instance, the `math/rand` package comprises files that begin with the statement ==`package rand`==. <!--SR:!2025-07-29,2,184-->
 
-How to import packages?
-<br class="f">
 Better to use "factored" import statement (good style):
 ```go
 package main
 
 import (
 	"fmt"
-	"test"
 	"math"
+	"time"
 	"math/rand"
 )
 
@@ -49,10 +44,7 @@ import "fmt"
 import "math"
 ```
 
-Which names can be exported in Go?
-<br class="f">
-In Go, a name is exported if it begins with a capital letter. For example,
-Pizza is an exported name, as is Pi, which is exported from the math package.
+In Go, a name is exported if it ==begins with a capital letter==. For example, Pizza is an exported name, as is Pi, which is exported from the math package.
 ```go
 package main
 
@@ -67,8 +59,7 @@ func main() {
 }
 ```
 
-Write the simplest Go function which return sum of two arguments (x, y)
-<br class="f">
+The simplest Go function which return sum of two arguments (x, y)
 ```go
 package main
 
@@ -82,14 +73,15 @@ func main() {
 	fmt.Println(add(42, 13))
 }
 ```
-
 <!-- TODO: https://go.dev/blog/declaration-syntax -->
 
-How to shorten this declaration `x int, y int`?:<wbr class="f"> `x, y int`
+<!-- STOPPED here -->
+
+How to shorten this declaration `x int, y int`?:<wbr class="f"> `x, y int` <!--SR:!2025-07-30,4,190-->
 
 How many results function in Go can return?
 <br class="f">
-A function can return any number of results.
+A function can return any number of results. 
 ```go
 package main
 
@@ -104,13 +96,11 @@ func main() {
 	fmt.Println(a, b)
 }
 ```
+<!--SR:!2025-07-28,1,130-->
 
 Can we use named return values in Go?
 <br class="f">
-Yes, if so, they are treated as variables defined at the top of the function.
-These names should be used to document the meaning of the return values.
-A return statement without arguments returns the named return values. This is
-known as a "naked" return.
+Yes, if so, they are treated as variables defined at the top of the function. These names should be used to document the meaning of the return values. A return statement without arguments returns the named return values. This is known as a "naked" return.
 ```go
 // Naked return statements should be used only in short functions, as with the
 // example shown here. They can harm readability in longer functions.
@@ -131,8 +121,7 @@ func main() {
 
 How to declare list of variables in Go?
 <br class="f">
-Need to use the `var` statement (as in function argument lists), the type is
-last. A `var` statement can be at package or function level.
+Need to use the `var` statement (as in function argument lists), the type is last. A `var` statement can be at package or function level.
 ```go
 package main
 
@@ -149,9 +138,7 @@ func main() {
 
 Can we initialize variable values and declare them in same time?
 <br class="f">
-Yes, a var declaration can include initializers, one per variable.
-If an initializer is present, the type can be omitted; the variable will take
-the type of the initializer.
+Yes, a var declaration can include initializers, one per variable. If an initializer is present, the type can be omitted; the variable will take the type of the initializer.
 ```go
 package main
 
@@ -164,11 +151,11 @@ func main() {
 	fmt.Println(i, j, c, python, java)
 }
 ```
+<!--SR:!2025-07-28,1,164-->
 
 What `:=` is used for?
 <br class="f">
-This is short assignment statement. Can be used in place of a var declaration
-with implicit type.
+This is short assignment statement. Can be used in place of a var declaration with implicit type.
 ```go
 package main
 
@@ -183,8 +170,7 @@ func main() {
 }
 ```
 
-Where every statement begins with a keyword (`var`, `func`, and so on) and so
-the `:=` construct is not available?
+Where every statement begins with a keyword (`var`, `func`, and so on) and so the `:=` construct is not available?
 <br class="f">
 Outside a function.
 
@@ -205,6 +191,7 @@ rune // alias for int32
 float32 float64
 complex64 complex128
 ```
+
 ```go
 package main
 
@@ -228,11 +215,9 @@ func main() {
 
 <!-- TODO: https://go.dev/blog/constants -->
 
-When you need an integer value you should use ==`int`== unless you have a
-specific reason to use a sized or unsigned integer type.
+When you need an integer value you should use ==`int`== unless you have a specific reason to use a sized or unsigned integer type. TODO: why? <!--SR:!2025-07-31,4,190-->
 
-If variables declared without an explicit initial value, which values they will
-have?
+If variables declared without an explicit initial value, which values they will have?
 <br class="f">
 Zero values:
 - `0` - for numeric types,
@@ -274,8 +259,8 @@ func main() {
 
 Is non-explicit conversion between numeric types in assignments allowed?
 <br class="f">
-Unlike in C, in Go assignment between items of different type requires an
-explicit conversion.
+TODO: add example
+Unlike in C, in Go assignment between items of different type requires an explicit conversion. <!--SR:!2025-07-30,3,170-->
 
 Which type `i`, `j` and `k` will have?
 ```go
@@ -293,15 +278,11 @@ func main() {
 }
 ```
 <br class="f">
-When declaring a variable without specifying an explicit type (either by using
-the `:=` syntax or `var = expression` syntax), the variable's type is inferred
-from the value on the right-hand side.
+When declaring a variable without specifying an explicit type (either by using the `:=` syntax or `var = expression` syntax), the variable's type is inferred from the value on the right-hand side.
 
-When the right-hand side contains an untyped numeric constant, the new variable
-may be a which type?
+When the right-hand side contains an untyped numeric constant, the new variable maybe a which type?
 <br class="f">
-It can be `int`, `float64`, `complex128`, etc., depending on the precision of the
-constant:
+It can be `int`, `float64`, `complex128`, etc., depending on the precision of the constant:
 ```go
 package main
 
@@ -312,6 +293,7 @@ func main() {
 	fmt.Printf("v is of type %T\n", v)
 }
 ```
+<!--SR:!2025-07-29,2,184-->
 
 ## Goroutines
 

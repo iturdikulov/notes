@@ -54,7 +54,7 @@ Simple flowchart how I see programming and place of algorithms in it:
 
 Algorithm time complexity is?:<wbr class="f"> How long does it take to run algorithm X with N data. <!--SR:!2025-08-23,30,232-->
 
-Algorithm space complexity:<wbr class="f"> Amount of memory space required to solve algorithm X with N input data. <!--SR:!2025-07-31,7,192-->
+Algorithm space complexity:<wbr class="f"> Amount of memory space required to solve algorithm X with N input data. <!--SR:!2025-08-04,4,172-->
 
 Formalized way to describe algorithm time and space complexity is ==Big O Notation==. <!--SR:!2025-08-28,35,192-->
 

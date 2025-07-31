@@ -2,6 +2,7 @@
 created: 2024-11-21T18:14+03:00
 tags:
   - blog
+  - now_software
   - computer_programming_tools
 external:
   - https://jqlang.github.io/jq/
@@ -16,24 +17,19 @@ sr-ease: 247
 > jq is a lightweight and flexible command-line JSON processor.\
 > — <cite>https://jqlang.github.io/jq/</cite>
 
-jq allows you to simplify ==[[JSON]]== data processing, it used to slice, filter
-and map and transform **structured data**, like [[GNU_sed]], [[GNU_awk]],
-[[GNU_grep]].
+`jq` allows you to simplify ==[[JSON]]== data processing, it used to slice, filter, and map and transform **structured data**, like [[GNU_sed]], [[GNU_awk]], [[GNU_grep]].
 
-Very detailed information aviable in jq manual: `man jq`, [jq
-Manual](https://jqlang.github.io/jq/manual/).
+Very detailed information aviable in jq manual: `man jq`, [jq Manual](https://jqlang.github.io/jq/manual/).
 
 ## jq tutorial
 
-Information taken from official
-[tutorial](https://jqlang.github.io/jq/tutorial/). Examples are primary made on
-[[GitHub]] JSON [[API]].
+Information taken from official [tutorial](https://jqlang.github.io/jq/tutorial/). Examples are primary made on [[GitHub]] JSON [[API]].
 
-Exract commits (root):
+Extract commits (root):
 
 ```sh
 # Gets the last 5 commits from the mine notes repo. And use `.` expression,
-# takes the input and produces it unchanged/pretty-printed as output.
+# takes the input and produces it ==unchanged/pretty-printed== as output.
 curl --silent \
 'https://api.github.com/repos/iturdikulov/notes/commits?per_page=5' | jq '.'
 ```
@@ -41,14 +37,12 @@ curl --silent \
 Extract first commit:
 
 ```sh
+# jq support indexing with ==square brackets==
 curl --silent \
 'https://api.github.com/repos/iturdikulov/notes/commits?per_page=5'|jq '.[0]'
 ```
 
-The ==`|`== operator in jq feeds the output of one filter into the input of
-another (`{...}` which builds an object out of those fields). You can access
-nested attributes, such as `.commit.message`.
-
+The ==`|`== operator in jq feeds the output of one filter into the input of another (`{...}` which builds an object out of those fields). You can access nested attributes, such as `.commit.message`.
 ```sh
 curl --silent \
 'https://api.github.com/repos/iturdikulov/notes/commits?per_page=5' |\
@@ -56,31 +50,20 @@ jq '.[0] | {message: .commit.message, name: .commit.committer.name}'
 ```
 
 Another example:
-
 ```sh
 curl --silent \
 'https://api.github.com/repos/iturdikulov/notes/commits?per_page=5' |\
 jq '[.[] | {message: .commit.message, name: .commit.committer.name}]'
 ```
+`.[]` returns ==each element== of the array returned to the response, one at a time, which are all fed into `{message: .commit.message, name: .commit.committer.name}`.
 
-==`.[]`== returns each element of the array returned to the response, one at a
-time, which are all fed into `{message: .commit.message, name:
-.commit.committer.name}`.
+Data in jq is represented as streams of ==JSON values== - every jq expression runs for each value in its input stream, and can produce any number of values to its output stream.
 
-Data in jq is represented as streams of ==JSON values== - every jq expression
-runs for each value in its input stream, and can produce any number of values to
-its output stream.
+Streams are serialized by just separating JSON values with whitespace. This is a `cat`\-friendly format - you can just join two JSON streams together and get a valid JSON stream.
 
-Streams are serialised by just separating JSON values with whitespace. This is a
-`cat`\-friendly format - you can just join two JSON streams together and get a
-valid JSON stream.
+If you want to get the output as a single array, you can tell jq to "collect" all the answers by wrapping the filter in square brackets.
 
-If you want to get the output as a single array, you can tell jq to "collect"
-all the answers by wrapping the filter in square brackets.
-
-Next, let's try getting the URLs of the parent commits out of the API results as
-well. In each commit, the GitHub API includes information about "parent"
-commits. There can be one or many.
+Next, let's try getting the URLs of the parent commits out of the API results as well. In each commit, the GitHub API includes information about "parent" commits. There can be one or many.
 
 ```
 "parents": [
@@ -92,9 +75,7 @@ commits. There can be one or many.
 ]
 ```
 
-We want to pull out **all** the "html_url" fields inside that array of parent
-commits and make a simple list of strings to go along with the "message" and
-"author" fields we already have.
+We want to pull out **all** the "html_url" fields inside that array of parent commits and make a simple list of strings to go along with the "message" and "author" fields we already have.
 
 ```sh
 curl --silent \
@@ -102,7 +83,8 @@ curl --silent \
 jq '[.[] | {message: .commit.message, name: .commit.committer.name, parents: [.parents[].html_url]}]'
 ```
 
-*Results:*
+_Results:_
+
 ```
 [
   {
@@ -143,6 +125,4 @@ jq '[.[] | {message: .commit.message, name: .commit.committer.name, parents: [.p
 ]
 ```
 
-Here we're making an object as before, but this time the `parents` field is
-being set to `[.parents[].html_url]`, which collects all the parent commit
-URLs defined in the parents object.
+Here we're making an object as before, but this time the `parents` field is being set to `[.parents[].html_url]`, which collects all the parent commit URLs defined in the parents object.

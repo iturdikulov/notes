@@ -5,6 +5,7 @@ external:
   - https://github.com/gto76/python-cheatsheet
 tags:
   - blog
+  - now
   - cheat-sheets
   - annotation_article
 sr-due: 2025-08-01

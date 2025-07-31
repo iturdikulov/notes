@@ -2,7 +2,6 @@
 created: 2023-04-17T00:00+03:00
 tags:
   - blog
-  - now
   - computer_programming
 external:
   - https://github.com/ziishaned/learn-regex
@@ -60,7 +59,7 @@ The regular expression `123` matches the string ==`123`==. Regular expressions a
 Meta characters - special characters which do not stand for themselves but instead are ==interpreted== in some special way. The meta characters are as follows:
 
 - `.` - Period matches any single character except a ==line break==.
-- `[a]` - Character class, matches ==any character== contained between the square brackets.
+- `[a]` - Character class, matches ==any character== contained between the square brackets. TODO: fix
 - `[^a]` - Negated character class. Matches any character that ==is not contained== between the square brackets.
 - `-` - Matches 0 or more repetitions of the ==preceding== symbol, outside certain contexts (character set for example, `[aA-zZ]`) have not special meaning.
 - `*` - Matches 0 or more repetitions of the ==preceding== symbol (greedy).
@@ -101,7 +100,6 @@ The car parked in the garage.
 "ar[.]"
 A garage is a good place to park a car.
 ```
-
 A period (`.`) inside a character set, however, means a ==literal period==.
 
 Negated Character Sets in general, the caret symbol `^` represents the start of the string, but when it is typed after the opening square bracket it ==negates== the character set.
@@ -134,7 +132,7 @@ The fat cat sat on the concatenation.
 
 ### 2.3 The plus repetition
 
-The `+` symbol matches ==one or more repetitions== of the preceding character.
+The `+` symbol matches ==one or more repetitions== of the preceding character. <!--SR:!2025-07-29,1,208-->
 
 For example, the regular expression `c.+t` means: a lowercase `c`, followed by at least one character, followed by a lowercase `t`. It needs to be clarified that`t` is the last `t` in the sentence. In vim need to escape `+`.
 ```

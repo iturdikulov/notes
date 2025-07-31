@@ -36,6 +36,7 @@ Features of unit-testing, what are the benefits of unit testing?
 ## Growing tests
 
 How to tests must be written?
+TODO: rewrite
 <br class="f">
 - Automated (low effort and repeatable)
 - Tests must be repeatable with low effort (run independently, fast)
@@ -113,10 +114,11 @@ assertSequenceEqual(a, b)
 assertItemsEqual(a, b)
 ...
 ```
+TODO: test
 
-How can you create custom assert methods in Unittest?
+Can you write own base class with custom assert method?
 <br class="f">
-Write you own base class to write domain specific helpers/asserts
+Yes, you can write you own base class to write domain specific helpers/asserts
 ```python
 class PortfolioTest(unittest.TestCase):
     """Base class for all Portfolio tests"""
@@ -128,7 +130,8 @@ class PortfolioTest(...):
 ...
 ```
 
-How to call function in unittest?
+How to call function in unittest to test?
+TODO: not clear
 <br class="f">
 Unittest can't call the function to test (for example with wrong number of arguments), you need use special `assertRaises` method with context manager.
 ```python
@@ -170,7 +173,7 @@ Is there difference between real and test code?
 No. Tests are the real code:
 - Helper functions, classes, etc. So use real code, which used in your program
 - Can become significant
-- Might need tests!
+- Might need tests! <!--SR:!2025-08-04,5,226-->
 
 ## Mocks
 

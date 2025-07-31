@@ -28,8 +28,7 @@ You can easily detect which python version you use right now.
 
 #### PEP is {#pep-is}
 
-Python Enhancement Proposal or PEP 8
-It's Python formatting style guide.
+Python Enhancement Proposal or PEP 8 It's Python formatting style guide.
 
 #### Why PEP? {#why-pep}
 
@@ -80,8 +79,7 @@ Since whitespaces are significant in Python, it's recommend to follow this rules
 
 #### Sequence data {#sequence-data}
 
-In python there are 2 types that represent sequences of characters
-bytes and str
+In python there are 2 types that represent sequences of characters bytes and str
 
 - byte - RAW unsigned 8 bit value `b'h\x65llo'`
 
@@ -93,8 +91,7 @@ print(list(a))
 print(a)
 ```
 
-- str instances - [[Unicode]] code points, that represent textual characters
-from human language str instances don't have binary encoding
+- str instances - [[Unicode]] code points, that represent textual characters from human language str instances don't have binary encoding
 
 <!--listend-->
 
@@ -118,11 +115,7 @@ If you want to read or write unicode data be careful about system encoding. Expl
 
 prefer f-strings
 
-format of f strinig: f'{key!r:&lt;10} = {value:.2f}
-    {key!r} - raw
-    {key:&lt;10} - left order (min width) - 10 characters
-    {value:.2f} - precision formatting
-    f'my number is {number:.{places}}?
+format of f strinig: f'{key!r:&lt;10} = {value:.2f} {key!r} - raw {key:&lt;10} - left order (min width) - 10 characters {value:.2f} - precision formatting f'my number is {number:.{places}}?
 
 F-strings are sucinot yet powerful, because they allow for arbitray Pytho expression to be directly embedded within format specifiers.
 
@@ -188,7 +181,7 @@ Move complex expressions into helpere functions expeciialy if you need to use th
 
 ## Item 17: Prefer defaultdict Over setdefault to Handle Missing Items in Internal State /95
 
-## Item 18: Know How to Construct Key-Dependent Default Values with __missing__ /98
+## Item 18: Know How to Construct Key-Dependent Default Values with **missing** /98
 
 # Chapter 3 Functions /102
 
@@ -254,13 +247,13 @@ Move complex expressions into helpere functions expeciialy if you need to use th
 
 ## Item 46: Use Descriptors for Reusable @property Methods /215
 
-## Item 47: Use__getattr__, __getattribute__, and __setattr__ for Lazy Attributes /220
+## Item 47: Use__getattr__, **getattribute**, and **setattr** for Lazy Attributes /220
 
-## Item 48: Validate Subclasses with __init_subclass__ /226
+## Item 48: Validate Subclasses with **init_subclass** /226
 
-## Item 49: Register Class Existence with __init_subclass__ /233
+## Item 49: Register Class Existence with **init_subclass** /233
 
-## Item 50: Annotate Class Attributes with __set_name__ /239
+## Item 50: Annotate Class Attributes with **set_name** /239
 
 ## Item 51: Prefer Class Decorators Over Metaclasses for Composable Class Extensions /243
 

@@ -15,9 +15,7 @@ tags:
 
 ## Urgent & Important
 
-## Science
-
-## Code
+## Science & Programming
 
 ## Code++
 

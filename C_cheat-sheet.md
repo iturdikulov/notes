@@ -46,6 +46,7 @@ int main(){
   printf("In year usually %d days\n", DAYS_IN_YEAR);
 }
 ```
+<!--SR:!2025-08-01,2,237-->
 
 How to declare enumeration constants?
 <br class="f">
@@ -150,6 +151,7 @@ angle brackets, and provide the path:
 #include "my_header.h" 		// local file
 #include "../my_lib/my_lib_header.h" //relative path
 ```
+<!--SR:!2025-08-02,2,217-->
 
 How/where to declare function **signatures** in advance?
 ```c
@@ -738,5 +740,6 @@ enum traffic_light_state {GREEN, YELLOW, RED};
 Node createLinkedList(int *vals, int len);
 
 /* Beyond the above elements, other definitions should be left
+```
 
 [^1]: [Learn C in Y Minutes](https://learnxinyminutes.com/c/)

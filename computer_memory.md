@@ -22,11 +22,9 @@ Memory can be viewed as a giant collection of cells. Each cell is a single byte 
 
 ## Facts about computer memory
 
-A computer can jump to any memory address ==in one== step.
-<!--SR:!2023-11-30,179,270-->
+A computer can jump to any memory address ==in one== step. <!--SR:!2026-07-26,365,270-->
 
-When computer allocate an array, it also stores arrays ==address, at which memory addresses the array begins==.
-<!--SR:!2023-07-14,1,240-->
+When computer allocate an array, it also stores arrays address, at which ==memory== addresses the array begins. <!--SR:!2025-08-04,5,240-->
 
 ## External links
 
