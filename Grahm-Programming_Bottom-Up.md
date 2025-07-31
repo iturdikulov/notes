@@ -18,7 +18,7 @@ Paul Graham's article on programming bottom-up[^1].
 
 Why big programs (code-base) are not a good idea?
 <br class="f">
-Fundamental elements of a program should not be too large, otherwise it's become a **mass of complexity**, will be hard to read, test, and debug. <!--SR:!2025-02-08,3,250-->
+Fundamental elements of a program should not be too large, otherwise it's become a **mass of complexity**, will be hard to read, test, and debug. <!--SR:!2025-08-02,2,230-->
 
 ### Top-down program design
 

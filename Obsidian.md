@@ -38,7 +38,7 @@ sr-ease: 226
 - Search in current file:<wbr class="f"> `/` or `C-f` <!--SR:!2025-07-10,2,237-->
 - Search in all files:<wbr class="f"> `C-S-f`
 - Access developer console:<wbr class="f"> `C-S-I` <!--SR:!2025-07-10,2,235-->
-- Find broken links:<wbr class="f"> `C-S-b` <!--SR:!2025-07-10,2,235-->
+- Find broken links:<wbr class="f"> `C-S-b` <!--SR:!2025-08-05,5,235-->
 - Execute all code blocks in current file:<wbr class="f"> `C-S-e`
 - Insert template:<wbr class="f"> `M-e`
 - Find or create a note:<wbr class="f"> `M-f`

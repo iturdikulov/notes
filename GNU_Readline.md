@@ -3,7 +3,6 @@ created: 2023-02-03T00:00+03:00
 tags:
   - blog
   - cheat-sheets
-  - now_software
 sr-due: 2025-09-18
 sr-interval: 70
 sr-ease: 188

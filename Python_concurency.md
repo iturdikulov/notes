@@ -2,12 +2,16 @@
 created: 2025-02-14T08:37+03:00
 tags:
   - blog
+  - now_python
+  - Python
 sr-due: 2025-07-22
 sr-interval: 1
 sr-ease: 130
 ---
 
 # Python concurrency
+
+TODO: review and rewrite!
 
 Various notes on concurrency in [[Python]]. Main information source is
 FastAPI tutorial [^1], realpython concurrency article [^2] and official
