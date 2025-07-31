@@ -12,41 +12,26 @@ sr-ease: 254
 
 # Kitty (terminal emulator)
 
-> `kitty` is designed for power **keyboard** users. To that end all its controls
-> work with the keyboard (although it fully supports mouse interactions as
-> well). Its configuration is a simple, human editable, single file for easy
-> reproducibility (I like to store configuration in source control).
+> `kitty` is designed for power **keyboard** users. To that end all its controls work with the keyboard (although it fully supports mouse interactions as well). Its configuration is a simple, human editable, single file for easy reproducibility (I like to store configuration in source control).
 >
-> The code in kitty is designed to be simple, modular and hackable. It is
-> written in a mix of [[C]] (for performance sensitive parts) and [[Python]]
-> (for easy hackability of the UI). It does not depend on any large and complex
-> UI toolkit, using only OpenGL for rendering everything (NOTE: not perfect with
-> specific fonts).
+> The code in kitty is designed to be simple, modular and hackable. It is written in a mix of [[C]] (for performance sensitive parts) and [[Python]] (for easy hackability of the UI). It does not depend on any large and complex UI toolkit, using only OpenGL for rendering everything (NOTE: not perfect with specific fonts).
 >
-> Finally, kitty is designed from the ground up to support all modern terminal
-> features, such as [[Unicode]], true color, bold/italic fonts,
-> text formatting, etc. It even extends existing text formatting escape codes,
-> to add support for features not available elsewhere, such as colored and
-> styled (curly) underlines. One of the design goals of kitty is to be easily
-> extensible, so that new features can be added in the future with relatively
-> little effort.\
+> Finally, kitty is designed from the ground up to support all modern terminal features, such as [[Unicode]], true color, bold/italic fonts, text formatting, etc. It even extends existing text formatting escape codes, to add support for features not available elsewhere, such as colored and styled (curly) underlines. One of the design goals of kitty is to be easily extensible, so that new features can be added in the future with relatively little effort.\
 > — <cite>[kitty](https://sw.kovidgoyal.net/kitty/overview)</cite>
 
 <!-- NEXT: link/note to wezterm -->
-Personally, I just switched to Wezterm and not use kitty right
-now.
+
+Personally, I just switched to [[foot]] and not use kitty right now.
 
 ## Shortcuts
 
-Kitty support any operation with keyboard (which is cool) and also supports all
-shortcuts customization.
+Kitty support any operation with keyboard (which is cool) and supports all shortcuts customization.
 
 `Mod` key in my configuration is `Ctrl+Shift`.
 
 ## Scrolling
 
-These shortcuts are working only in terminal mode (not in any TUI/Full screen
-console application).
+These shortcuts are working only in terminal mode (not in any TUI/Full screen console application).
 
 Line up / Line down:<wbr class="f"> `Mod+k` / `Mod+j`
 
@@ -88,7 +73,7 @@ Close window:<wbr class="f"> `s-S-c`, it's my custom shortcut
 
 Resize window:<wbr class="f"> `Mod-r`
 
-Next window / Previous window:<wbr class="f"> `Mod+]` / `Mod+[` * TODO: need rebind
+Next window / Previous window:<wbr class="f"> `Mod+]` / `Mod+[` * 
 
 Move window forward:<wbr class="f"> `Mod+f`
 
@@ -102,13 +87,9 @@ Visually swap window (with number):<wbr class="f"> `Mod+F8`
 
 Focus specific window:<wbr class="f"> `Mod+<window number>` (1-9)
 
-TODO: check other window shortcuts
-
 ## Other
 
-Increase font size:<wbr class="f"> `Mod-equal`
-Decrease font size:<wbr class="f"> `Mod-minus`
-Restore font size:<wbr class="f"> `Mod-backspace`
+Increase font size:<wbr class="f"> `Mod-equal` Decrease font size:<wbr class="f"> `Mod-minus` Restore font size:<wbr class="f"> `Mod-backspace`
 
 Open URL in web browser:<wbr class="f"> `Mod-e`
 
@@ -132,9 +113,7 @@ Input Unicode character:<wbr class="f"> `C-M-u`, customized
 
 Reset the terminal:<wbr class="f"> `Mod-delete` ?
 
-Edit kitty.conf:<wbr class="f"> `Mod-f2`
-Reload kitty.conf:<wbr class="f"> `Mod-f5`
-Debug kitty.conf:<wbr class="f"> `Mod-f6`
+Edit kitty.conf:<wbr class="f"> `Mod-f2` Reload kitty.conf:<wbr class="f"> `Mod-f5` Debug kitty.conf:<wbr class="f"> `Mod-f6`
 
 Open a kitty shell:<wbr class="f"> `Mod-escape`
 

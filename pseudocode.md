@@ -14,7 +14,7 @@ sr-ease: 130
 
 What is pseudocode and what's its main purpose?
 <br class="f">
-Pseudocode is kind of structured English (or any other language) for describing ==algorithms==. [^1] It used to focus on the logic of the algorithm without being distracted by details of language syntax. Good pseudocode describe the **entire logic of the algorithm** and it's implementation became mechanical task of translating line by line into source code.
+Pseudocode is kind of structured English (or any other language) for describing ==algorithms==. [^1] It used to focus on the logic of the algorithm without being distracted by details of language syntax. Good pseudocode describe the **entire logic of the algorithm** and it's implementation became mechanical task of translating line by line into source code. <!--SR:!2025-08-01,1,135-->
 
 Main Purpose of pseudocode?
 <br class="f">
@@ -26,7 +26,7 @@ Pseudocode as a blueprint, you describe algorithm first in simplified version of
 
 What vocabulary should be used in pseudocode?
 <br class="f">
-Vocabulary used in pseudocode should be the vocabulary of the problem domain (not realization). Someone who understand requirements (problem domain) can easily read it, even if it's not good at [[computer_programming]]. <!--SR:!2025-07-28,1,130-->
+Vocabulary used in pseudocode should be the vocabulary of the problem domain (not realization). Someone who understand requirements (problem domain) can easily read it, even if it's not good at [[computer_programming]]. <!--SR:!2025-08-02,3,150-->
 
 ```
 Extract the next word from the line (good)
@@ -43,7 +43,7 @@ Avoid too vague expressions, logic should be decomposed to the level of single l
 
 Do you know some structured constructs in pseudocode (common words)?
 <br class="f">
-Style of pseudocode is free, but better to use some common convection's, for example this "structured" part of pseudocode (notation of base constructs): `SEQUENCE`,  `IF-THEN-ELSE`, `CASE`, `WHILE`, `REPEAT-UNTIL`, `FOR` <!--SR:!2025-07-28,1,130-->
+Style of pseudocode is free, but better to use some common convection's, for example this "structured" part of pseudocode (notation of base constructs): `SEQUENCE`,  `IF-THEN-ELSE`, `CASE`, `WHILE`, `REPEAT-UNTIL`, `FOR` <!--SR:!2025-08-01,1,130-->
 
 - SEQUENCE is a linear progression where one task is performed sequentially after another.
 - IF-THEN-ELSE is a decision (selection) in which a choice is made between two alternative courses of action.
@@ -54,7 +54,7 @@ Style of pseudocode is free, but better to use some common convection's, for exa
 
 ## SEQUENCE
 
-In sequence each step processed: <wbr class="f"> one after another in order. <!--SR:!2025-07-30,4,177-->
+In sequence each step processed: <wbr class="f"> one after another in order. <!--SR:!2025-08-06,7,177-->
 
 Analogy: Like following a morning routine - brush teeth, wash face, comb hair.
 

@@ -68,23 +68,23 @@ TODO: more patterns [Multiplication Tips and Tricks](https://www.mathsisfun.com/
 
 Difficult ones:
 
-- 7 × 8 = <wbr class="f"> 56, 7 ate and ate
-- 8 × 7 = <wbr class="f"> 56
+- 7 × 8 = <wbr class="f"> 56, 7 ate and ate <!--SR:!2025-08-02,2,160-->
+- 8 × 7 = <wbr class="f"> 56 <!--SR:!2025-07-31,1,186-->
 - 9 × 7 = <wbr class="f"> 63
-- 7 × 9 = <wbr class="f"> 63
-- 6 × 9 = <wbr class="f"> 54
+- 7 × 9 = <wbr class="f"> 63 <!--SR:!2025-08-01,2,206-->
+- 6 × 9 = <wbr class="f"> 54 <!--SR:!2025-08-01,2,169-->
 - 9 × 6 = <wbr class="f"> 54
-- 6 × 7 = <wbr class="f"> 42
-- 7 × 6 = <wbr class="f"> 42
+- 6 × 7 = <wbr class="f"> 42 <!--SR:!2025-08-02,2,186-->
+- 7 × 6 = <wbr class="f"> 42 <!--SR:!2025-08-01,2,206-->
 - 6 × 4 = <wbr class="f"> 24
 - 6 × 8 = <wbr class="f"> 48
 - 7 × 3 = <wbr class="f"> 21
 - 7 × 4 = <wbr class="f"> 28
-- 8 × 3 = <wbr class="f"> 24
+- 8 × 3 = <wbr class="f"> 24 <!--SR:!2025-08-02,2,186-->
 - 8 × 4 = <wbr class="f"> 32
 - 8 × 6 = <wbr class="f"> 48
-- 8 × 9 = <wbr class="f"> 72
-- 9 × 8 = <wbr class="f"> 72
+- 8 × 9 = <wbr class="f"> 72 <!--SR:!2025-08-03,4,212-->
+- 9 × 8 = <wbr class="f"> 72 <!--SR:!2025-08-02,3,226-->
 - 9 × 2 = <wbr class="f"> 18
 - 9 × 3 = <wbr class="f"> 27
 - 9 × 4 = <wbr class="f"> 36

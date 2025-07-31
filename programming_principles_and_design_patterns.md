@@ -21,7 +21,7 @@ Why repeating code is bad or can be bad?
 <br class="f">
 - If you need to change it, you have to change it in multiple places.
 - If you forget to change it in one place, you'll have a new bug.
-- It's more work to write it over and over again and maintain it.
+- It's more work to write it over and over again and maintain it. <!--SR:!2025-08-01,1,130-->
 
 KISS:<wbr class="f"> Keep It Simple, Stupid
 
