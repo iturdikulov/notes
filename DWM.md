@@ -13,32 +13,22 @@ sr-ease: 277
 
 # dwm (dynamic window manager)
 
-> dwm is a dynamic window manager for X. It manages windows in tiled, monocle
-> and floating layouts. All the layouts can be applied dynamically,
-> optimizing the environment for the application in use and the task performed\
+> dwm is a dynamic window manager for X. It manages windows in tiled, monocle and floating layouts. All the layouts can be applied dynamically, optimizing the environment for the application in use and the task performed\
 > — <cite>[dwm](https://dwm.suckless.org/)</cite>
 
 UPDATE: right now I switched to [[Hyprland]].
 
-I used long time `i3wm`, `KWin`, `GNOME`, `Desktop Window Manager`, various
-status bars (like `polybar`), etc. But after that I discovered DWM, I just
-switched to it and use it with maximum pleasure. It has some "disadvantages",
-maybe not clear logic if you use it first time, but It's all manageable and
-solvable. Especially if you use something like `DWM flexipatch`.
+I used long time `i3wm`, `KWin`, `GNOME`, `Desktop Window Manager`, various status bars (like `polybar`), etc. But after that I discovered DWM, I just switched to it and use it with maximum pleasure. It has some "disadvantages", maybe not clear logic if you use it first time, but It's all manageable and solvable. Especially if you use something like `DWM flexipatch`.
 
-I use various patches, with my dwm-flexipatch fork:
-[Inom-Turdikulov/dwm-flexipatch](https://github.com/iturdikulov/dwm-flexipatch).
+I use various patches, with my dwm-flexipatch fork: [Inom-Turdikulov/dwm-flexipatch](https://github.com/iturdikulov/dwm-flexipatch).
 
-I swapped meta key (ALT/META) to super key (WIN), which used in DWM by default
-as modifier key, to reduce key conflicts in various programs.
+I swapped meta key (ALT/META) to super key (WIN), which used in DWM by default as modifier key, to reduce key conflicts in various programs.
 
-Key notation in flashcards - I usually use vim key notation (`:h key-notation`),
-with some exceptions.
+Key notation in flashcards - I usually use vim key notation (`:h key-notation`), with some exceptions.
 
 ## Launching DWM
 
-You can use `~/.xinitrc` (for distros like [[archlinux]]). But right now I have
-custom [[NixOS]] configuration.
+You can use `~/.xinitrc` (for distros like [[archlinux]]). But right now I have custom [[NixOS]] configuration.
 
 ```sh
 # Environment variables
@@ -74,8 +64,7 @@ By default, dwm is in tiled layout mode (`D-t`).
 _Tiled layout_
 ```
 
-Monocle layout is good for ensuring a window is kept maximized and focused
-(`D-m`).
+Monocle layout is good for ensuring a window is kept maximized and focused (`D-m`).
 
 ```text
 +------+----------------------------------+--------+
@@ -153,11 +142,10 @@ Toggle between tiled and monocle layout:<wbr class="f"> `<D-C-S-space>`.
 - Toggle previous window (sort of common Alt-Tab behavior):<wbr class="f"> `<D-Tab>`
 - Toggle tag 2 on focused window (window on multiple workspaces):<wbr class="f"> `<D-S-C-2>`
 - Apply tag to all (window on all workspaces), to reset apply some specific tag.
-<br class="f">
+  <br class="f">
 `<D-S-0>`
-- Banish tags (add/remove all windows from #2 tag). It's sort of moving all
-windows from tag #2 to current tag. To reset press again or switch to tag.
-<br class="f">
+- Banish tags (add/remove all windows from #2 tag). It's sort of moving all windows from tag #2 to current tag. To reset press again or switch to tag.
+  <br class="f">
 `<D-C-2>`
 
 ## Floating windows control
@@ -166,13 +154,7 @@ windows from tag #2 to current tag. To reset press again or switch to tag.
 - Drag floating window using mouse (with drag):<wbr class="f"> `<D-LeftMouse>`
 - Resize floating window using mouse (with drag):<wbr class="f"> `<D-RightMouse>` <!--SR:!2024-09-24,3,257-->
 
-To control floating windows I use
-[floatpos](https://github.com/bakkeby/patches/wiki/floatpos/) with configured
-keymap. This patch requiring special `Mod3Mask` key. In my case `Mod3Mask` is
-bind to `XF86Tools` (`F13`) key, added manually using [[QMK]]. Penultimate key
-on my keyboard.
-To enable mod3 key I run this command in [[DWM]] autostart script:
-`xmodmap -e "clear mod3" -e "add mod3 = XF86Tools"`
+To control floating windows I use [floatpos](https://github.com/bakkeby/patches/wiki/floatpos/) with configured keymap. This patch requiring special `Mod3Mask` key. In my case `Mod3Mask` is bind to `XF86Tools` (`F13`) key, added manually using [[QMK]]. Penultimate key on my keyboard. To enable mod3 key I run this command in [[DWM]] autostart script: `xmodmap -e "clear mod3" -e "add mod3 = XF86Tools"`
 
 Which keys you use as floating window resize/move keys (float position patch)?
 ```
@@ -188,8 +170,7 @@ These directions:
 ↙h ↓e ↘.
 ```
 
-Resize floating window modifier, window is positioned in a floating grid,
-movement is relative to client's current position (center include).
+Resize floating window modifier, window is positioned in a floating grid, movement is relative to client's current position (center include).
 ```text
 .--------
 |        |
@@ -199,8 +180,7 @@ movement is relative to client's current position (center include).
 <br class="f">
 `S-`
 
-Move floating window modifier, absolute positioning (allows moving windows between
-monitors)?
+Move floating window modifier, absolute positioning (allows moving windows between monitors)?
 <br class="f">
 `C-`
 
@@ -208,8 +188,7 @@ monitors)?
 
 Here core shortcuts, which I use in DWM, my primary launcher is [[Rofi]]:
 
-Actual programs shortcuts/specific hardware control, etc. are located in
-`config.h`. Check `SHCMD()` functions.
+Actual programs shortcuts/specific hardware control, etc. are located in `config.h`. Check `SHCMD()` functions.
 
 - Toggle sticky mode on active window (topmost):<wbr class="f"> `<D-S>`
 - Kill active window:<wbr class="f"> `D-S-c`
@@ -261,23 +240,11 @@ Actual programs shortcuts/specific hardware control, etc. are located in
 
 ## Dwmblocks DND (not used anymore, maybe in future)
 
-Enabled modules are: `datetime`, volume status and keyboard layout.
-That items are not interactive.
+Enabled modules are: `datetime`, volume status and keyboard layout. That items are not interactive.
 
 I also created custom modules, `dnd`.
 
-- [dnd](https://github.com/inomoz/dotfiles/blob/main/.local/bin/dnd)
-(Do Not Disturb), key <kbd>s-C-n</kbd>.
-It's toggling notifications pause mode, in status bar displayed ⛔ icon.
-
-## To-do
-
-- TODO: create fancy screenshot with border
-- [x] create repo with my patches, I switched to [DWM
-flexipatch](file:///home/inom/Computer/software/dwm-flexipatch/)
-- [-] describe dwmblocks, I not use dwmblocks now, instead I use [GitHub -
-Gerschtli/dwm-status: Highly performant and configurable DWM status
-service](https://github.com/Gerschtli/dwm-status)
+- [dnd](https://github.com/inomoz/dotfiles/blob/main/.local/bin/dnd) (Do Not Disturb), key <kbd>s-C-n</kbd>. It's toggling notifications pause mode, in status bar displayed ⛔ icon.
 
 ## External links
 

@@ -3,6 +3,7 @@ created: 2023-04-19T00:00+03:00
 tags:
   - blog
   - computer_programming_tools
+  - now_software
 external:
   - https://www.gnu.org/software/coreutils/
 sr-due: 2025-09-13
@@ -12,16 +13,14 @@ sr-ease: 188
 
 # GNU Core Utilities
 
-> The GNU Core Utilities or coreutils is a package of GNU software containing
-> implementations for many of the basic tools, such as cat, ls, and rm, which
-> are used on [[Unix]]-like operating systems.\
+> The GNU Core Utilities or coreutils is a package of GNU software containing implementations for many of the basic tools, such as cat, ls, and rm, which are used on [[Unix]]-like operating systems.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/GNU_Core_Utilities)</cite>
 
-Here I store basic coreutils and similar tools that I use on a daily basis. A
-lot of these commands also usually exist in this [[Unix_commands]] list.
+Here I store basic coreutils and similar tools that I use on a daily basis. A lot of these commands also usually exist in this [[Unix_commands]] list.
 
-Source code of coreutils can be found at gnu.org website:
-[coreutils.git](http://git.savannah.gnu.org/gitweb/?p=coreutils.git)
+Source code of coreutils can be found at gnu.org website: [coreutils.git](http://git.savannah.gnu.org/gitweb/?p=coreutils.git)
+
+TODO: write flashcards
 
 ### File utilities
 
@@ -94,7 +93,7 @@ Source code of coreutils can be found at gnu.org website:
 - `basename` - Removes the path prefix from a given pathname
 - `chroot` - Changes the root directory
 - `date` - Prints or sets the system date and time
-    - Prints the date and time in UTC:<wbr class="f"> `date -u`
+  - Prints the date and time in UTC:<wbr class="f"> `date -u`
 - `dirname` - Strips non-directory suffix from file name
 - `du` - Shows disk usage on file systems
 - `echo` - Displays a specified line of text
@@ -116,10 +115,9 @@ Source code of coreutils can be found at gnu.org website:
 - `printf` - Formats and prints data
 - `pwd` - Prints the current working directory
 - `readlink` - Displays value of a symbolic link, very useful to copy file path
-    - The `realpath` command without options, operates like `readlink` in
-    `canonicalize` mode.
-    - Get the actual file to which symlink points:<wbr class="f"> `readlink path/to/file/`
-    - Get absolute path of file:<wbr class="f"> `readlink -f/--canonicalize path/to/file/`
+  - The `realpath` command without options, operates like `readlink` in `canonicalize` mode.
+  - Get the actual file to which symlink points:<wbr class="f"> `readlink path/to/file/`
+  - Get absolute path of file:<wbr class="f"> `readlink -f/--canonicalize path/to/file/`
 - `runcon` - Run command with specified security context
 - `seq` - Prints a sequence of numbers
 - `sleep` - Delays for a specified amount of time
@@ -145,9 +143,7 @@ Source code of coreutils can be found at gnu.org website:
 
 ## GNU binutils
 
-> The GNU Binary Utilities, or binutils, are a set of programming tools for
-> creating and managing binary programs, object files, libraries, profile data,
-> and assembly source code.\
+> The GNU Binary Utilities, or binutils, are a set of programming tools for creating and managing binary programs, object files, libraries, profile data, and assembly source code.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/GNU_Binutils)</cite>
 
 [Website](https://www.gnu.org/software/binutils/).
@@ -190,7 +186,6 @@ lsof is a command for LiSting Open Files. You can use lsof for example to:
 - Find files open to a process with known PID: lsof -p 1234
 - Find files open to a named command: lsof -c bash
 - Find files open by a specific user: lsof -u somebody
-
 
 ## External links
 

@@ -10,22 +10,14 @@ sr-ease: 228
 
 # "Hello, World!" program
 
-> A "Hello, World!" program is generally a [[computer_program]] that ignores any
-> input, and outputs or displays a message similar to "Hello, World!". A small
-> piece of code in most general-purpose [[programming_language|programming
-> languages]], this program is used to illustrate a language's basic syntax.
-> "Hello, World!" programs are often the first a student learns to write in a
-> given language, and they can also be used as a **sanity check** to ensure
-> computer software intended to compile or run source code is correctly
-> installed, and that its operator understands how to use it.\
+> A "Hello, World!" program is generally a [[computer_program]] that ignores any input, and outputs or displays a message similar to "Hello, World!". A small piece of code in most general-purpose [[programming_language|programming languages]], this program is used to illustrate a language's basic syntax. "Hello, World!" programs are often the first a student learns to write in a given language, and they can also be used as a **sanity check** to ensure computer software intended to compile or run source code is correctly installed, and that its operator understands how to use it.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/%22Hello,_World!%22_program)</cite>
 
 Languages which I have experience with (very different levels of experience).
 
 ## Python
 
-[[Python]] is programming language that lets you work quickly and integrate
-systems more effectively.
+[[Python]] is programming language that lets you work quickly and integrate systems more effectively.
 
 ```python
 print("Hello, World!")
@@ -41,7 +33,7 @@ package main
 import "fmt"
 
 func main() {
-  fmt.Println("Hello World")
+	fmt.Println("Hello World")
 }
 ```
 
@@ -63,9 +55,7 @@ console.log("Hello, World!");
 
 ## C
 
-[[C]] designed to be compiled to provide low-level access to memory and language
-constructs that map efficiently to machine instructions, all with minimal
-runtime support.
+[[C]] designed to be compiled to provide low-level access to memory and language constructs that map efficiently to machine instructions, all with minimal runtime support.
 
 ```c
 #include <stdio.h>
@@ -78,9 +68,7 @@ int main() {
 
 ## C++
 
-[[CPP|C++]] designed with systems programming and embedded, resource-constrained
-software and large systems in mind, with performance, efficiency, and
-flexibility of use as its design highlights.
+[[CPP|C++]] designed with systems programming and embedded, resource-constrained software and large systems in mind, with performance, efficiency, and flexibility of use as its design highlights.
 
 ```cpp
 #include <iostream>
@@ -93,8 +81,7 @@ int main() {
 
 ## Rust
 
-[[Rust]] is a general-purpose programming language emphasizing performance, type
-safety, and concurrency.
+[[Rust]] is a general-purpose programming language emphasizing performance, type safety, and concurrency.
 
 ```rust
 fn main() {
@@ -104,8 +91,7 @@ fn main() {
 
 ## Pascal
 
-[[Pascal]] is small, efficient language intended to encourage good programming
-practices using structured programming and data structuring.
+[[Pascal]] is small, efficient language intended to encourage good programming practices using structured programming and data structuring.
 
 ```pascal
 program HelloWorld(output);
@@ -126,8 +112,7 @@ public class Main {
 
 ## GDScript
 
-[[GDScript]] langugage is optimized for and tightly integrated with [[Godot]]
-allowing great flexibility for content creation and integration.
+[[GDScript]] langugage is optimized for and tightly integrated with [[Godot]] allowing great flexibility for content creation and integration.
 
 ```gdscript
 extends Node2D
@@ -138,9 +123,7 @@ func _ready():
 
 ## Perl
 
-Perl borrows features from other programming languages including C, sh, AWK, and
-sed. It provides text processing facilities without the arbitrary data-length
-limits of many contemporary Unix command line tools.
+Perl borrows features from other programming languages including C, sh, AWK, and sed. It provides text processing facilities without the arbitrary data-length limits of many contemporary Unix command line tools.
 
 ```perl
 #!/usr/bin/env perl
@@ -149,8 +132,7 @@ print "Hello World\n";
 
 ## PHP
 
-[[PHP]] is general-purpose scripting language that is especially suited to web
-development.
+[[PHP]] is general-purpose scripting language that is especially suited to web development.
 
 ```php
 <?php
@@ -159,8 +141,7 @@ echo 'Hello World';
 
 ## Ruby
 
-[[Ruby]] is dynamic, programming language with a focus on simplicity and
-productivity.
+[[Ruby]] is dynamic, programming language with a focus on simplicity and productivity.
 
 ```ruby
 puts "Hello, World!"
@@ -168,8 +149,7 @@ puts "Hello, World!"
 
 ## Z-Shell
 
-The Z shell ([[Zsh]]) is a Unix shell that can be used as an interactive login
-shell and as a **command interpreter** for shell scripting.
+The Z shell ([[Zsh]]) is a Unix shell that can be used as an interactive login shell and as a **command interpreter** for shell scripting.
 
 ```zsh
 echo "Hello, World!"
@@ -177,10 +157,7 @@ echo "Hello, World!"
 
 ## Nix
 
-The [[Nix]] language is designed for conveniently creating and composing
-derivations – precise descriptions of how contents of existing files are used to
-derive new files. It is a domain-specific, purely functional, lazily evaluated,
-dynamically typed programming language.
+The [[Nix]] language is designed for conveniently creating and composing derivations – precise descriptions of how contents of existing files are used to derive new files. It is a domain-specific, purely functional, lazily evaluated, dynamically typed programming language.
 
 ```nix
 # nix-instantiate --eval --expr '"Hello world"'
@@ -189,9 +166,7 @@ dynamically typed programming language.
 
 ## x86 assembly language
 
-Regarded as a programming language, [[assembly_language]] is machine-specific
-and low-level. Like all assembly languages, x86 assembly uses mnemonics to
-represent fundamental CPU instructions, or machine code.
+Regarded as a programming language, [[assembly_language]] is machine-specific and low-level. Like all assembly languages, x86 assembly uses mnemonics to represent fundamental CPU instructions, or machine code.
 
 ```asm
 ; This code can be compiled with the NASM assembler

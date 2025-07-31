@@ -4,6 +4,7 @@ created: 2025-07-23T08:24:22+03:00
 tags:
   - blog
   - DB
+  - now
 ---
 
 # Data Definition Language
@@ -11,7 +12,8 @@ tags:
 DDL is short name of ==Data Definition Language==, which deals with database **schemas and descriptions**, of how the data should reside in the database. Think of DDL as an architect, which able to create and modify databases and tables.
 
 > [!PDF|] [[books/postgresql-18-A4.pdf#page=98&selection=0,26,0,27|postgresql-18-A4, p.59]]
-> > Chapter 5. Data Definition
+>
+>> Chapter 5. Data Definition
 
 Is ordering of rows guaranteed when we read a table?
 <br class="f">
@@ -28,10 +30,9 @@ Which frequently used data types you know (SQl/[[PostgreSQL]])?
 
 ## CREATE
 
-Create new tables/databases (like building a new room).
-In this command need to specify at least a name of new table, names of the columns and the datatype of each column. 
+Create new tables/databases (like building a new room). In this command need to specify at least a name of new table, names of the columns and the datatype of each column.
 
-Usually you also specify default value of column. 
+Usually you also specify default value of column.
 
 ```sql
 CREATE TABLE products ( 
@@ -46,17 +47,18 @@ CREATE TABLE products (
 ```
 
 > [!PDF|] [[books/postgresql-18-A4.pdf#page=99&selection=12,0,14,65|postgresql-18-A4, p.60]]
-> > When you create many interrelated tables it is wise to choose a ==consistent== naming pattern for the tables and columns. For instance, there is a choice of using singular or plural nouns for table names, both of which are favored by some theorist or other.
+>
+>> When you create many interrelated tables it is wise to choose a ==consistent== naming pattern for the tables and columns. For instance, there is a choice of using singular or plural nouns for table names, both of which are favored by some theorist or other.
 
 How to remove table?
 <br class="f">
 Need to use `DROP TABLE` command, for example:
+
 ```sql
 DROP TABLE products;
 -- or
 DROP TABLE IF EXISTS products; -- this will ignore error message
 ```
-
 
 ## ALTER
 
@@ -81,8 +83,7 @@ ALTER TABLE Customers
 RENAME COLUMN City TO Location;
 ```
 
-How to change the data type of the `"City"` column to `"varchar(100)"` in
-`Customers` table?
+How to change the datatype of the `"City"` column to `"varchar(100)"` in `Customers` table?
 <br class="f">
 ```sql
 # MySQL dialect
@@ -90,15 +91,13 @@ ALTER TABLE Customers
 MODIFY COLUMN City varchar(100);
 ```
 
-
 - `ALTER` - Change existing structure (like modify building plan)
 - `DROP` - Dropping structures (like demolition)
 - `TRUNCATE` - Table truncation, saving structure (like removing everything from room, but keeping walls)
 
 ## View Queries
 
-What is a view?
-Creates a view that shows all `customers` from Brazil:
+What is a view? Creates a view that shows all `customers` from Brazil:
 <br class="f">
 In SQL, a view is a virtual table based on the result-set of an SQL statement.
 ```sql
@@ -125,4 +124,3 @@ How to drop the "Brazil Customers" view:
 ```sql
 DROP VIEW [Brazil Customers];
 ```
-<!--SR:!2024-11-10,1,230-->
