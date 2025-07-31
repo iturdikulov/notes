@@ -3,6 +3,7 @@ created: 2023-09-21T00:00+03:00
 tags:
   - blog
   - DB
+  - now
 sr-due: 2025-07-22
 sr-interval: 5
 sr-ease: 240
@@ -10,18 +11,10 @@ sr-ease: 240
 
 # Database
 
-> In [[computing]], a database is an organized collection of data (also known
-> as a data store) stored and accessed electronically through the use of a
-> database management system. Small databases can be stored on a file system,
-> while large databases are hosted on computer clusters or cloud storage. The
-> design of databases spans formal techniques and practical considerations,
-> including data modeling, efficient data representation and storage, query
-> languages, security and privacy of sensitive data, and distributed computing
-> issues, including supporting concurrent access and fault tolerance.\
+> In [[computing]], a database is an organized collection of data (also known as a data store) stored and accessed electronically through the use of a database management system. Small databases can be stored on a file system, while large databases are hosted on computer clusters or cloud storage. The design of databases spans formal techniques and practical considerations, including data modeling, efficient data representation and storage, query languages, security and privacy of sensitive data, and distributed computing issues, including supporting concurrent access and fault tolerance.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Database)</cite>
 
-Database is a container (one or multiple files) which needed to store some
-sorted data usually linked to each other.
+Database is a container (one or multiple files) which needed to store some sorted data usually linked to each other.
 
 Databases/DBMS which I use/used:
 
@@ -33,64 +26,51 @@ Databases/DBMS which I use/used:
 > [!NOTE]
 > Follow-up information mostly added from Ben Forta's SQL book [^1].
 
-A ==relational database== (RDB) is a database based on the relational model of
-data.
+A ==relational database== (RDB) is a database based on the relational model of data.
 
-Many relational database systems are equipped with the option of using
-SQL (Structured Query Language) for querying and updating the database.
+Many relational database systems are equipped with the option of using SQL (Structured Query Language) for querying and updating the database.
 
-Structure and properties of a database and their tables are described in
-==schema==.
+Structure and properties of a database and their tables are described in ==schema==.
 
 ## Database table
 
-Table is a ==structured== data set of specific type. Data stored in a table
-should be the same type (orders, customers, etc.), don't mix different types.
+Table is a ==structured== data set of specific type. Data stored in a table should be the same type (orders, customers, etc.), don't mix different types.
 
 Database and table names should be unique.
 
-Tables are consisted of columns, rows and cells, which store some information
-fragments, usually with specific type (integer, string, etc.).
+Tables are consisted of columns, rows, and cells, which store some information fragments, usually with specific type (integer, string, etc.).
 
-Columns like tables should contain only ==one type== of data (strict
-requirement). Level of information fragmentation is defined by requirements of
-the application.
+Columns like tables should contain only ==one type== of data (strict requirement). Level of information fragmentation is defined by requirements of the application.
 
-Row is separate table ==record== (same thing).
+Row separate table ==records==.
 
 ## Basic RDBMS specific information
 
-A database management system used to maintain relational databases is a
-==relational database management system (RDBMS)==.
+A database management system used to maintain relational databases is a ==relational database management system (RDBMS)==.
 
-Data types and their names are main source of incompatibility between different
-RDBMS.
+Data types and their names are main source of incompatibility between different RDBMS.
 
-Primary key is a column (or set of columns, composite primary key), whose values are unique and
-used to ==identify each record in the table, to access them==.
+Primary key is a column (or set of columns, composite primary key), whose values are unique and used to ==identify each record in the table, to access them==.
 
 Is primary keys are strictly required?
 <br class="f">
-They are not, but highly recommended. Even if today you don't need them, they can
-be useful in the future.
+They are not, but highly recommended. Even if today you don't need them, they can be useful in the future.
 
 Primary keys requirements?
 <br class="f">
-- Unique, two or more rows can't have the same primary key values.
+- Unique, two, or more rows can't have the same primary key values.
 - Primary key values can't be `NULL`.
 - Primary key values usually can't be changed (not recommended).
-- Primary key values usually can't be reused, if you removed record, their
-primary key value can't be assigned to another record.\
-That rules applying to composite primary keys too (unique by combination of
-columns, not `NULL`, etc.).
+- Primary key values usually can't be reused, if you removed record, their primary key value can't be assigned to another record.\
+  That rules applying to composite primary keys too (unique by combination of columns, not `NULL`, etc.).
 
-## Database normalisation
+## Database normalization
 
-Some information from [Simple English Wikipedia, the free encyclopedia](https://simple.wikipedia.org/wiki/Database_normalisation).
+TODO: Some information from [Simple English Wikipedia, the free encyclopedia](https://simple.wikipedia.org/wiki/Database_normalisation).
 
 ## Learning path
 
-- [ ] [Database normalization - Wikipedia](https://en.m.wikipedia.org/wiki/Database_normalization )
+- [ ] [Database normalization - Wikipedia](https://en.m.wikipedia.org/wiki/Database_normalization)
 - Silberschatz and Henry and Sudarshan - DB system concepts
 - [[PostgreSQL]]
 - [[MySQL]]

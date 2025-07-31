@@ -4,6 +4,7 @@ created: 2023-06-24T00:00:00+03:00
 tags:
   - blog
   - dictionary
+  - now_life
 sr-due: 2025-07-23
 sr-interval: 9
 sr-ease: 249

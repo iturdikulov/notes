@@ -2,6 +2,7 @@
 created: 2023-03-16T00:00+03:00
 tags:
   - blog
+  - now
   - mathematics
 sr-due: 2025-07-22
 sr-interval: 5
@@ -10,19 +11,13 @@ sr-ease: 228
 
 # Fibonacci sequence
 
-> In mathematics, the Fibonacci sequence is a sequence in which each number is
-> the sum of the ==two preceding ones==. Numbers that are part of the Fibonacci
-> sequence are known as Fibonacci numbers, commonly denoted $F_n$. Many writers
-> begin the sequence with 0 and 1, although some authors start it from 1 and
-> 1 and some (as did Fibonacci) from 1 and 2. Starting from 0 and 1, the
-> sequence begins `0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, ....`.\
+> In mathematics, the Fibonacci sequence is a sequence in which each number is the sum of the ==two preceding ones==. Numbers that are part of the Fibonacci sequence are known as Fibonacci numbers, commonly denoted $F_n$. Many writers begin the sequence with 0 and 1, although some authors start it from 1 and 1 and some (as did Fibonacci) from 1 and 2. Starting from 0 and 1, the sequence begins `0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, ....`.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Fibonacci_sequence)</cite>
 
 ![[img/Fibonacci_spiral.excalidraw|Fibonacci spiral diagram]]
 _Fiboancci Spiral_
 
-A Fibonacci spiral approximates the golden spiral using quarter-circle arcs
-inscribed in squares derived from the Fibonacci sequence.
+A Fibonacci spiral approximates the golden spiral using quarter-circle arcs inscribed in squares derived from the Fibonacci sequence.
 
 Applications of Fibonacci numbers include computer [[algorithm]]:
 
@@ -31,9 +26,7 @@ Applications of Fibonacci numbers include computer [[algorithm]]:
 
 ## Fibonacci sequence generation in Python
 
-Main idea: each number is the sum of the two preceding ones, input is length of
-Fibonacci sequence, output Fibonacci sequence. We need to store result of latest
-calculation (sum of `A` and `B`), so we need to use temporary variable.
+Main idea: each number is the sum of the two preceding ones, input is length of Fibonacci sequence, output Fibonacci sequence. We need to store result of latest calculation (sum of `A` and `B`), so we need to use temporary variable.
 
 ```python
 i = 7
@@ -46,7 +39,8 @@ while i > 0:
   i -= 1
 ```
 
-*Results:*
+_Results:_
+
 ```
 0
 1

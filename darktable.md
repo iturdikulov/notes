@@ -11,11 +11,7 @@ sr-ease: 249
 
 # Darktable
 
-> darktable is an open source [[photography]] workflow application and raw
-> developer. A virtual lighttable and darkroom for photographers. It manages
-> your digital negatives in a database (build personal
-> [[stock_photography|photography stock]]), lets you view them through a
-> zoomable lighttable and enables you to develop raw images and enhance them.\
+> darktable is an open source [[photography]] workflow application and raw developer. A virtual lighttable and darkroom for photographers. It manages your digital negatives in a database (build personal [[stock_photography|photography stock]]), lets you view them through a zoomable lighttable and enables you to develop raw images and enhance them.\
 > — <cite>[darktable](https://www.darktable.org/)</cite>
 
 ## Darktable Modules
@@ -88,26 +84,20 @@ Film Type (Red, Green, Blue)
 
 Take a tenth of the ISO value. So if ISO is 160...
 
-luma 16%
-chroma 32% (double luma)
+- luma 16%
+- chroma 32% (double luma)
 
 ## Common ND filters
 
-Filter ([ev] or f-stop, absorbance, transmittance)
-ND2 (-1, 0.3, 50%)
-ND4 (-2, 0.6, 25%)
-ND8 (-3, 0.9, 12.5%)
-ND400 (-9, 2.7, 0.195%)
+Filter ([ev] or f-stop, absorbance, transmittance) ND2 (-1, 0.3, 50%) ND4 (-2, 0.6, 25%) ND8 (-3, 0.9, 12.5%) ND400 (-9, 2.7, 0.195%)
 
 ## Darktable Workflow
 
 ### Basic workflow
 
-- Copy a film roll (a directory of RAW images) into a directory on the machine
-running Darktable.
+- Copy a film roll (a directory of RAW images) into a directory on the machine running Darktable.
 - Import the film roll into Darktable.
-- Review the images using lighttable mode and remove any images that are beyond
-repair, I mark them with `F1`, filter with `S-F1` and then delete.
+- Review the images using lighttable mode and remove any images that are beyond repair, I mark them with `F1`, filter with `S-F1` and then delete.
 - Take a snapshot of the image, so we can do a before and after comparison.
 - Adjust the white balance.
 - Exposure compensation and recovery.
@@ -116,10 +106,8 @@ repair, I mark them with `F1`, filter with `S-F1` and then delete.
 - Capture sharpening.
 - Contrast with levels and curves.
 - Crop and rotate the image.
-- Color and selective enhancements such as saturation, color adjustments and
-spot removal.
-- Sync directories, I do 2-way compare (NEW>OLD) and move OLD images
-into archive.
+- Color and selective enhancements such as saturation, color adjustments and spot removal.
+- Sync directories, I do 2-way compare (NEW>OLD) and move OLD images into archive.
 
 ### Output workflow
 
