@@ -2,6 +2,7 @@
 created: 2023-03-18T00:00+03:00
 tags:
   - blog
+  - now
   - computer_programming_patterns
 file:
   - ./articles/Real_Python_-_SOLID_Principles.html
@@ -12,62 +13,38 @@ sr-ease: 208
 
 # SOLID
 
-> In software engineering, SOLID is a mnemonic acronym
-> for five design principles intended to make object-oriented designs more
-> understandable, flexible, and maintainable. The principles are a subset of
-> many principles promoted by American software engineer and instructor Robert
-> C. Martin, first introduced in his 2000 paper Design Principles and Design
-> Patterns discussing software rot.\
+> In software engineering, SOLID is a mnemonic acronym for five design principles intended to make object-oriented designs more understandable, flexible, and maintainable. The principles are a subset of many principles promoted by American software engineer and instructor Robert C. Martin, first introduced in his 2000 paper Design Principles and Design Patterns discussing software rot.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/SOLID)</cite>
 
 The SOLID acronym was introduced later, around 2004, by Michael Feathers.
 
-SOLID principles help build architecture with object-oriented design ([[OOD]]).
-This isn't simple process and challenge for your skills. Usually OOD is must be
-done before you start coding.
+SOLID principles help build architecture with object-oriented design ([[OOD]]). This isn't simple process and challenge for your skills. Usually OOD is must be done before you start coding.
 
 Main purpose of SOLID principles?
 <br class="f">
-Make your classes more maintainable, flexible, improve their structure and make
-scalable. But don't forget about overhead and over-engineering. You should use
-SOLID principles when you **need to** use them.
-\
-> Abstract code that repeats. Don't cross abstraction boundaries. Encapsulate
-> into sensible logical units. Use interfaces for classes with common partial
-> data contracts. But please don't go on a puritanical crusade and demand
-> everything be abstracted to the nth degree and wrapped in endless single-use
-> interfaces. That helps nobody and makes the code both unreadable and
-> unscalable.
+Make your classes more maintainable, flexible, improve their structure and make scalable. But don't forget about overhead and over-engineering. You should use SOLID principles when you **need to** use them.
 
-- The Single-responsibility principle: "There should never be more than one
-reason for a class to change." In other words, every class should have only
-one responsibility.
+> Abstract code that repeats. Don't cross abstraction boundaries. Encapsulate into sensible logical units. Use interfaces for classes with common partial data contracts. But please don't go on a puritanical crusade and demand everything be abstracted to the nth degree and wrapped in endless single-use interfaces. That helps nobody and makes the code both unreadable and unscalable.
 
-- The Open–closed principle: "Software entities ... should be open for
-extension, but closed for modification."
+- The Single-responsibility principle: "There should never be more than one reason for a class to change." In other words, every class should have only one responsibility.
 
-- The Liskov substitution principle: "Functions that use pointers or references
-to base classes must be able to use objects of derived classes without knowing
-it." See also design by contract.
+- The Open–closed principle: "Software entities ... should be open for extension, but closed for modification."
 
-- The Interface segregation principle: "Clients should not be forced to depend
-upon interfaces that they do not use."
+- The Liskov substitution principle: "Functions that use pointers or references to base classes must be able to use objects of derived classes without knowing it." See also design by contract.
+
+- The Interface segregation principle: "Clients should not be forced to depend upon interfaces that they do not use."
 
 - The Dependency inversion principle: "Depend upon abstractions, not concretions."
 
-Although the SOLID principles apply to any object-oriented design, they can also
-form a core philosophy for methodologies such as agile development or adaptive
-software development.
+Although the SOLID principles apply to any object-oriented design, they can also form a core philosophy for methodologies such as agile development or adaptive software development.
 
 TODO: add critical information about SOLID principles.
 
 ## Single-Responsibility Principle (SRP)
 
-- The **S**ingle-responsibility principle (SRP):
+The **S**ingle-responsibility principle (SRP):
 <br class="f">
-"There should **never** be more than **one** reason for a class to change."
-Every class should have only one responsibility, each section of program must
-address a separate concern.
+"There should **never** be more than **one** reason for a class to change." Every class should have only one responsibility, each section of program must address a separate concern.
 
 Example which violate SRP:
 
@@ -119,15 +96,13 @@ class ZipFileManager:
             archive.write(self.path)
 ```
 
-Be aware, having a single responsibility doesnʼt necessarily mean having a
-single method.
+Be aware, having a single responsibility doesnʼt necessarily mean having a single method.
 
 ## The Open–closed principle (OCP)
 
-- The Open–closed principle:
+The Open–closed principle:
 <br class="f">
-"Software entities (classes, modules, functions, etc.) should be open for
-extension, but closed for modification."
+"Software entities (classes, modules, functions, etc.) should be open for extension, but closed for modification."
 
 Example which violate OCP:
 
@@ -214,17 +189,11 @@ class Square(Shape):
 
 ## The Liskov substitution principle (LSP)
 
-- The Liskov substitution principle:
+The Liskov substitution principle:
 <br class="f">
-Subtypes must be substitutable for their base types, so anytime I can replace
-base class with any of their subclass, and nothing will be broken (other classes
-expecations).
-"Functions that use pointers or references to base classes must be able to use
-objects of derived classes without knowing it." See also design by contract.
-\
-![Liskov: The Liskov Substitution Principle - YouTube](https://www.youtube.com/watch?v=-Z-17h3jG0A)\
-_Subtypes behave like supertypes, explaning the principle first hand._
-
+Subtypes must be substitute for their base types, so anytime I can replace base class with any of their subclass, and nothing will be broken (other classes expectations). "Functions that use pointers or references to base classes must be able to use objects of derived classes without knowing it." See also design by contract.\
+  ![Liskov: The Liskov Substitution Principle - YouTube](https://www.youtube.com/watch?v=-Z-17h3jG0A)\
+  _Subtypes behave like supertypes, explaning the principle first hand._
 
 Example which violate LSP:
 
@@ -256,7 +225,7 @@ class Square(Rectangle):
             self.__dict__["height"] = value
 ```
 
-Fixed example (don't violate liskov substitution):
+Fixed example (don't violate Liskov substitution):
 
 ```python
 # shapes_lsp.py
@@ -298,16 +267,11 @@ get_total_area([Rectangle(10, 5), Square(5)])
 
 ## The Interface segregation principle (ISP)
 
-- The Interface segregation principle:
+The Interface segregation principle:
 <br class="f">
-"Clients should not be forced to depend upon interfaces that they do not use."
-Interfaces belong to clients, not to hierarchies.
-\
-In this case, clients are classes and subclasses, and interfaces consist of
-methods and attributes.
-\
-In other words, if a class doesn’t use particular methods or attributes, then
-those methods and attributes should be segregated into more specific classes.
+"Clients should not be forced to depend upon interfaces that they do not use." Interfaces belong to clients, not to hierarchies.\
+  In this case, clients are classes and subclasses, and interfaces consist of methods and attributes.\
+  In other words, if a class doesn’t use particular methods or attributes, then those methods and attributes should be segregated into more specific classes.
 
 Example which violate ISP:
 
@@ -389,12 +353,10 @@ class NewPrinter(Printer, Fax, Scanner):
 
 ## The Dependency inversion principle (DIP)
 
-- The Dependency inversion principle:
+The Dependency inversion principle:
 <br class="f">
-"Depend upon abstractions, not concretes".
-\
-Abstractions should not depend upon details. Details should depend upon
-abstractions.
+"Depend upon abstractions, not concretes".\
+  Abstractions should not depend upon details. Details should depend upon abstractions.
 
 Example which violate DIP:
 
@@ -478,13 +440,9 @@ FrontEnd(api).display_data()
 
 ## TODO
 
-- [x] [SOLID Principles: Improve Object-Oriented Design in Python – Real
-      Python](https://realpython.com/solid-principles-python/), research
-      article.
+- [x] [SOLID Principles: Improve Object-Oriented Design in Python – Real Python](https://realpython.com/solid-principles-python/), research article.
 - [ ] [A Solid Guide to SOLID Principles - Baeldung](https://www.baeldung.com/solid-principles)
 - [ ] [Evolving Software: SOLID principles as a continuum | Kislay Verma](https://kislayverma.com/programming/evolving-software-solid-principles-as-a-continuum/)
 - [ ] [Как писать чистый код — советы для разработчиков с примерами / Хабр](https://habr.com/ru/articles/864758/)
-- [ ] [Why SOLID principles are still the foundation for modern software
-      architecture - Stack
-      Overflow](https://stackoverflow.blog/2021/11/01/why-solid-principles-are-still-the-foundation-for-modern-software-architecture/),
+- [ ] [Why SOLID principles are still the foundation for modern software architecture - Stack Overflow](https://stackoverflow.blog/2021/11/01/why-solid-principles-are-still-the-foundation-for-modern-software-architecture/),
 - [ ] [I don't love the single responsibility principle](https://sklivvz.com/posts/i-dont-love-the-single-responsibility-principle)
