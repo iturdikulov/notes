@@ -15,9 +15,6 @@ tags:
 
 ## Urgent & Important
 
-- [ ] Move old tasks & review inbox
-- [ ] Review flashcards
-
 ## Science
 
 ## Code
@@ -26,6 +23,6 @@ tags:
 
 ## Art
 
-## Life
-
 ## Unsorted
+
+## Today I learned
