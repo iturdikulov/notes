@@ -10,8 +10,7 @@ sr-ease: 204
 
 # Rust cheat-sheet
 
-In the following sections, I'll describe the basics of [[Rust]] programming
-language with Q/A flashcards based on Learn Rust in Y Minutes [^1] cheatsheet.
+In the following sections, I'll describe the basics of [[Rust]] programming language with Q/A flashcards based on Learn Rust in Y Minutes [^1] cheatcheet.
 
 ```rust
 // This is a comment. Line comments look like this...
@@ -41,9 +40,10 @@ fn main() {
   println!("2 + 2 = {}", add2(2, 2));
 }
 ```
+
 What is the output of the above code?
 <br class="f">
-*Results:* `2 + 2 = 4`
+_Results:_ `2 + 2 = 4`
 
 How to set immutable variables?
 <br class="f">
@@ -60,8 +60,7 @@ fn main() {
 
 Is there type inference in Rust?
 <br class="f">
-Yes. Most of the time, the Rust compiler can infer what type a variable is, so
-you don’t have to write an explicit type annotation.
+Yes. Most of the time, the Rust compiler can infer what type a variable is, so you don’t have to write an explicit type annotation.
 ```rust
 use std::any::type_name;
 
@@ -77,7 +76,7 @@ fn main() {
     print_type_of(&y);
 }
 ```
-*Results:*
+_Results:_
 ```
 Types of 1 and 1.3:
 i32
@@ -87,6 +86,7 @@ f64
 How to sum two bindings, 1 and 2?
 <br class="f">
 Need just to use `+` operator.
+
 ```rust
 fn main() {
     let x = 1;
@@ -131,12 +131,7 @@ fn main() {
     let s: String = "hello world".to_string();
 }
 ```
-
-A string slice – an immutable view into another string. This is basically an
-**immutable pointer and length of a string** – it doesn’t actually contain the
-contents of a string, just a pointer to the beginning and a length of a string
-buffer, statically allocated or contained in another object (in this case, `s`).
-The string slice is like a view `&[u8]` into `Vec<T>`.
+A string slice – an immutable view into another string. This is basically an **immutable pointer and length of a string** – it doesn’t actually contain the contents of a string, just a pointer to the beginning and a length of a string buffer, statically allocated or contained in another object (in this case, `s`). The string slice is like a view `&[u8]` into `Vec<T>`.
 ```rust
 fn main() {
     let s: String = "hello world".to_string();
@@ -145,9 +140,10 @@ fn main() {
     println!("{} {}", s, s_slice);
 }
 ```
+
 What this code will print?
 <br class="f">
-*Results:* `hello world hello world`
+_Results:_ `hello world hello world`
 
 How to set a fixed-size array and dynamic array (vector)?
 <br class="f">
@@ -164,14 +160,14 @@ fn main() {
     println!("Dynamic array {:?}", vector);
 }
 ```
-*Results:*
+_Results:_
 ```
 Fixed-size array [1, 2, 3, 4]
 Dynamic array [1, 2, 3, 4, 5]
 ```
 
-A slice – an immutable view into a vector or array. This is much like a string
-slice, but for vectors. How to create slice of `vec![1, 2, 3, 4]`?
+A slice – an immutable view into a vector or array. This is much like a string slice, but for vectors. How to create slice of `vec![1, 2, 3, 4]`?
+<br class="f">
 ```rust
 fn main() {
     let mut vector: Vec<i32> = vec![1, 2, 3, 4];
@@ -182,8 +178,8 @@ fn main() {
 }
 ```
 
-A tuple is a fixed-size set of values of possibly different types. How to define
-tuple in rust with `1, "hello", 3.4` items, how to get second item?
+A tuple is a fixed-size set of values of possibly different types. How to define tuple in rust with `1, "hello", 3.4` items, how to get second item?
+<br class="f">
 ```rust
 fn main() {
     let x: (i32, &str, f64) = (1, "hello", 3.4);
@@ -196,9 +192,9 @@ fn main() {
 How to destructure (unpacking with strict arity) `let x: (i32, &str, f64)` into a, b, c?
 <br class="f">
 ```rust
-    // Destructuring `let`
-    let (a, b, c) = x;
-    println!("{} {} {}", a, b, c); // 1 hello 3.4
+// Destructuring `let`
+let (a, b, c) = x;
+println!("{} {} {}", a, b, c); // 1 hello 3.4
 ```
 
 ## 2. Types
@@ -246,8 +242,7 @@ fn main() {
 
 How to create enum with fields?
 <br class="f">
-Enum with fields. If you want to make something optional, the standard library
-has `Option`.
+Enum with fields. If you want to make something optional, the standard library has `Option`.
 ```rust
 fn main() {
     enum OptionalI32 {
@@ -300,10 +295,8 @@ fn main() {
     // No value present
 }
 ```
-<br class="f">\
-We use generics to create **definitions** for items like function
-signatures or structs, which we can then use with **many different** concrete
-data types. They also allow us to avod code duplication.
+<br class="f">
+We use generics to create **definitions** for items like function signatures or structs, which we can then use with **many different** concrete data types. They also allow us to avod code duplication.
 
 Using methods with generics.
 ```rust
@@ -333,15 +326,14 @@ fn main() {
 ```
 What this code will print?
 <br class="f">
-*Results:*
+_Results:_
 ```
 1
 2
 3
 ```
 
-Traits, known as interfaces or typeclasses in other languages. Functionality a
-particular type has and can share with other types. How to define trait?
+Traits, known as interfaces or typeclasses in other languages. Functionality a particular type has and can share with other types. How to define trait?
 <br class="f">
 ```rust
 struct Foo<T> { bar: T }
@@ -383,14 +375,13 @@ fn main() {
     println!("Pointer address: {:?}", fib as *const u32);
 }
 ```
-*Results:*
+_Results:_
 ```
 Fib: 5
 Pointer address: 0x55b7c5107c60
 ```
 
 ## 3. Pattern matching
-
 
 How to match on enum?
 <br class="f">
@@ -415,6 +406,7 @@ fn main() {
 ```
 
 What this code will print?
+<br class="f">
 ```rust
 enum OptionalI32 {
     AnI32(i32),
@@ -436,10 +428,10 @@ fn main() {
     }
 }
 ```
-<br class="f">*Results:* `Different numbers: 15 32`
+<br class="f">
+_Results:_ `Different numbers: 15 32`
 
 ## 4. Control flow
-
 
 How to use simple control flow?
 <br class="f">
@@ -508,6 +500,7 @@ fn main() {
 ## 5. Memory safety & pointers
 
 What last line of this code will print?
+
 ```rust
 fn main() {
     // Owned pointer – only one thing can ‘own’ this pointer at a time
@@ -523,12 +516,10 @@ fn main() {
     println!("{}", mine); // << ???
 }
 ```
-<br class="f">This would not compile (error: borrow of moved value `mine`),
-because `now_its_mine` now owns the pointer
+<br class="f">
+This would not compile (error: borrow of moved value `mine`), because `now_its_mine` now owns the pointer
 
-Reference – an immutable pointer that refers to other data When a reference is
-taken to a value, we say that the value has been ‘borrowed’. While a value is
-borrowed immutably, it **cannot be mutated or moved**. A borrow is active until?
+Reference – an immutable pointer that refers to other data When a reference is taken to a value, we say that the value has been ‘borrowed’. While a value is borrowed immutably, it **cannot be mutated or moved**. A borrow is active until?
 <br class="f">
 The last use of the borrowing variable.
 ```rust
@@ -567,6 +558,6 @@ fn main() {
   }
 ```
 
-NEXT: compare with original cheatsheet
+NEXT: compare with original cheatcheet.
 
 [^1]: [Learn Rust in Y Minutes](https://learnxinyminutes.com/rust/)

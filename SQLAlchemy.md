@@ -2,6 +2,7 @@
 created: 2024-09-18T00:00+03:00
 tags:
   - blog
+  - now
   - DB
 sr-due: 2025-07-27
 sr-interval: 6
@@ -10,15 +11,12 @@ sr-ease: 249
 
 # SQLAlchemy
 
-The SQLAlchemy ORM provides an additional configuration layer allowing
-user-defined ==Python classes== to be mapped to database tables and other
-constructs, as well as an object persistence mechanism known as the Session. It
-then extends the Core-level SQL Expression Language to allow SQL queries to be
-composed and invoked in terms of user-defined objects. <!--SR:!2024-11-10,1,230-->
+The SQLAlchemy ORM provides an additional configuration layer allowing user-defined ==Python classes== to be mapped to database tables and other constructs, as well as an object persistence mechanism known as the Session. It then extends the Core-level SQL Expression Language to allow SQL queries to be composed and invoked in terms of user-defined objects. <!--SR:!2024-11-10,1,230-->
 
 The start of any SQLAlchemy application is an object called the ==`Engine`==.
 
 Creating in-memory database using SQLite:
+
 ```python
 from sqlalchemy import create_engine
 # engine not actually tried to connect to the database yet, lazy initialization
@@ -33,6 +31,7 @@ with engine.connect() as conn:  # auto-close connection opened resource
     result = conn.execute(text("select 'hello world'"))
     print(result.all())
 ```
+
 ```
 BEGIN (implicit) # start of transaction
 select 'hello world'
@@ -42,6 +41,7 @@ ROLLBACK # end of transaction, alternatively can be used COMMIT
 ```
 
 Committing:
+
 ```python
 with engine.connect() as conn:
     conn.execute(text("CREATE TABLE some_table (x int, y int)"))
@@ -51,6 +51,7 @@ with engine.connect() as conn:
     )
     conn.commit()
 ```
+
 ```
 BEGIN (implicit)
 CREATE TABLE some_table (x int, y int)
@@ -73,6 +74,7 @@ with engine.begin() as conn:
 ```
 
 fetching rows:
+
 ```python
 with engine.connect() as conn:
     result = conn.execute(text("SELECT x, y FROM some_table"))
@@ -80,17 +82,11 @@ with engine.connect() as conn:
         print(f"x: {row.x}  y: {row.y}")
 ```
 
-SQLAlchemy `Result` has lots of methods for fetching and transforming rows, such
-as the ==Result.all()== method illustrated previously, which returns an iterable
-list of all Row objects.
+SQLAlchemy `Result` has lots of methods for fetching and transforming rows, such as the ==Result.all()== method illustrated previously, which returns an iterable list of all Row objects.
 
 The `Row` objects themselves are intended to act like Python ==named tuples==.
 
-Mapping Access - To receive rows as Python mapping objects, which is essentially
-a read-only version of Python’s interface to the common ==dict object==, the
-Result may be transformed into a `MappingResult` object using the
-`Result.mappings()` modifier; this is a result object that yields
-dictionary-like `RowMapping` objects rather than Row objects:
+Mapping Access - To receive rows as Python mapping objects, which is essentially a read-only version of Python’s interface to the common ==dict object==, the Result may be transformed into a `MappingResult` object using the `Result.mappings()` modifier; this is a result object that yields dictionary-like `RowMapping` objects rather than Row objects:
 ```python
 with engine.connect() as conn:
     result = conn.execute(text("select x, y from some_table"))
@@ -101,11 +97,7 @@ with engine.connect() as conn:
         y = dict_row["y"]
 ```
 
-The `Connection.execute()` accepts parameters, which are known as ==bound
-parameters== (extremely recommended to use). A rudimentary example might be if
-we wanted to limit our `SELECT` statement only to rows that meet a certain
-criteria, such as rows where the “y” value were greater than a certain value
-that is passed in to a function.
+The `Connection.execute()` accepts parameters, which are known as ==bound parameters== (extremely recommended to use). A rudimentary example might be if we wanted to limit our `SELECT` statement only to rows that meet a certain criteria, such as rows where the “y” value were greater than a certain value that is passed into a function.
 ```python
 with engine.connect() as conn:
     result = conn.execute(
@@ -131,14 +123,9 @@ with engine.connect() as conn:
     conn.commit()
 ```
 
-The fundamental transactional / database interactive object when using the ORM
-is called the ==`Session`==. In modern SQLAlchemy, this object is used in a
-manner very similar to that of the `Connection`.
+The fundamental transactional / database interactive object when using the ORM is called the ==`Session`==. In modern SQLAlchemy, this object is used in a manner very similar to that of the `Connection`.
 
-When the Session is used with non-ORM constructs, it passes through the SQL
-statements we give it and does not generally do things much differently from how
-the Connection does directly.
-
+When the Session is used with non-ORM constructs, it passes through the SQL statements we give it and does not generally do things much differently from how the Connection does directly.
 How to use Session:
 <br class="f">
 ```python
@@ -160,28 +147,16 @@ with Session(engine) as session:
 
 Does the Session object hold onto the Connection object?
 <br class="f">
-The `Session` doesn’t actually hold onto the Connection object after it ends the
-transaction. It gets a new Connection from the Engine the next time it needs to
-execute SQL against the database.
+The `Session` doesn’t actually hold onto the Connection object after it ends the transaction. It gets a new Connection from the Engine the next time it needs to execute SQL against the database.
 
-The foundation for SQL queries in SQLAlchemy are Python objects that represent
-database concepts like tables and columns. These objects are known collectively
-as database ==metadata==.
+The foundation for SQL queries in SQLAlchemy are Python objects that represent database concepts like tables and columns. These objects are known collectively as database ==metadata==.
 
-The most common foundational objects for database metadata in SQLAlchemy are
-==MetaData, Table, and Column==.
+The most common foundational objects for database metadata in SQLAlchemy are ==MetaData, Table, and Column==.
 
-In SQLAlchemy, ==reflection== term refers to the feature of querying a
-database’s schema catalogs in order to load information about existing tables,
-columns, constraints, and other constructs.
+In SQLAlchemy, ==reflection== term refers to the feature of querying a database’s schema catalogs in order to load information about existing tables, columns, constraints, and other constructs.
 
-==MetaData==, a collection of `Table` objects and their associated schema
-constructs.
+==MetaData==, a collection of `Table` objects and their associated schema constructs.
 
-MetaData is a thread-safe object for ==read== operations. Construction of new
-tables within a single MetaData object, either explicitly or via reflection, may
-not be completely thread-safe.
+MetaData is a thread-safe object for ==read== operations. Construction of new tables within a single MetaData object, either explicitly or via reflection, may not be completely thread-safe.
 
-
-
-## https://docs.sqlalchemy.org/en/20/orm/session_basics.html#id1
+TODO: https://docs.sqlalchemy.org/en/20/orm/session_basics.html#id1

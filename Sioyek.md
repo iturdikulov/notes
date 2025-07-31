@@ -12,8 +12,7 @@ sr-ease: 263
 
 # Sioyek
 
-> Sioyek is a [[PDF]] viewer with a focus on technical books and research
-> papers.\
+> Sioyek is a [[PDF]] viewer with a focus on technical books and research papers.\
 > — <cite>[Sioyek](https://sioyek.info/)</cite>
 
 Key features for me:
@@ -59,7 +58,7 @@ Start search/next/previous:<wbr class="f"> `/`/`[num]n`/`[num]N`
 
 ## Marks
 
-Create persistent mark with `u` letter/go to this mark:<wbr class="f"> `mu` / `` `u``
+Create persistent mark with `u` letter/go to this mark:<wbr class="f"> `mu` / `` `u ``
 
 What different between lowercase and uppercase marks?
 <br class="f">
@@ -75,8 +74,7 @@ Transform visual mark to line mark and move to the next/previous line?
 
 Quick go-to visual mark (created by right mouse click) and back:<wbr class="f"> `` ` ``
 
-How to enable visual scroll mode, which automatically move visual scroll mark by
-wheel mouse?
+How to enable visual scroll mode, which automatically move visual scroll mark by wheel mouse?
 <br class="f">
 `F7`
 
@@ -108,8 +106,7 @@ Open portal helper (it'll load the closest portal):<wbr class="f"> `F12`
 
 How to create portal?
 <br class="f">
-`p` to use current location as source (select source), go to destination, and
-press `p` again. You can even create portals between different files!
+`p` to use current location as source (select source), go to destination, and press `p` again. You can even create portals between different files!
 
 How to create portal using mouse and link as destination?
 <br class="f">
@@ -117,8 +114,7 @@ How to create portal using mouse and link as destination?
 
 How to delete the closest portal?
 <br class="f">
-`dp`, this will delete the closest portal to current location (which displayed
-in helper window)
+`dp`, this will delete the closest portal to current location (which displayed in helper window)
 
 How to adjust portal position?
 <br class="f">
@@ -126,18 +122,13 @@ press `P` while portal active, adjust destination (position) and press `<BCK>`
 
 How to adjust portal position and other parameters, using mouse?
 <br class="f">
-`wheel` to adjust position, mouse drag to pan and `<C-wheel>` to zoom in/zoom
-out
+`wheel` to adjust position, mouse drag to pan and `<C-wheel>` to zoom in/zoom out
 
 ## Configuration
 
-To edit and find configuration, use command pallet (`:`) and following search
-keys:
+To edit and find configuration, use command pallet (`:`) and following search keys:
 
-– prefs
-– prefs_user
-– keys
-– keys_user
+– prefs – prefs_user – keys – keys_user
 
 ## TODO
 
