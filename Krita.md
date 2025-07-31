@@ -22,7 +22,7 @@ https://github.com/Acly/krita-ai-diffusion
 
 Toggle a popup widget (palette of brushes, colors history ring, and other tools): <wbr class="f"> `RightMouse` <!--SR:!2025-07-26,1,130-->
 
-Resize brush: <wbr class="f"> `S-LeftMouseDrag` in brush mode, large when dragging to right, small when dragging to left. <!--SR:!2025-07-26,2,154-->
+Resize brush: <wbr class="f"> `S-LeftMouseDrag` in brush mode, large when dragging to right, small when dragging to left. <!--SR:!2025-08-01,1,134-->
 
 Pan the canvas: <wbr class="f"> `S-LeftMouse`, or with `MiddleButton` (click and drag).
 
@@ -86,7 +86,7 @@ Zoom to Fit Page Width: <wbr class="f"> `3` <!--SR:!2025-07-26,1,134-->
 
 Invert colors on current layer(s): <wbr class="f"> `C-I`
 
-Erase everything in current layer or selection: <wbr class="f"> `DEL` <!--SR:!2025-07-26,2,154-->
+Erase everything in current layer or selection: <wbr class="f"> `DEL` <!--SR:!2025-08-03,3,154-->
 
 Fill selection with background color: <wbr class="f"> `BS` <!--SR:!2025-07-25,1,134-->
 
@@ -114,7 +114,7 @@ Add vector layer: : <wbr class="f"> `S-Ins`.
 
 Delete current layer: <wbr class="f"> `S-DEL`. <!--SR:!2025-07-26,1,130-->
 
-Duplicate current layer: <wbr class="f"> `C-J`. <!--SR:!2025-07-26,1,130-->
+Duplicate current layer: <wbr class="f"> `C-J`. <!--SR:!2025-08-01,1,130-->
 
 Show layer properties: <wbr class="f"> `F3`. <!--SR:!2025-07-25,1,134-->
 
@@ -152,7 +152,7 @@ You can change the keyboard shortcuts via the `Settings > Configure Krita -> Key
 
 Quickly export into PNG or JPEG file: <wbr class="f"> `C-M-S-E`. <!--SR:!2025-07-25,1,134-->
 
-In vector layer, choose the `Select Shapes Tool` (fat control arrow): <wbr class="f"> `M-C`. <!--SR:!2025-07-26,1,130-->
+In vector layer, choose the `Select Shapes Tool` (fat control arrow): <wbr class="f"> `M-C`. <!--SR:!2025-08-01,1,130-->
 
 In vector layer, choose the `Edit Shapes Tool` (thin arrow on path): <wbr class="f"> `M-D`.
 
