@@ -34,7 +34,7 @@ Notepad based shortcuts, work mostly in all "classic" GUI program.
 - Open the help:<wbr class="f"> `F1`
 - Switch tabs forward:<wbr class="f"> `C-tab`
 - Switch tabs backward:<wbr class="f"> `C-S-tab`
-- Close tab:<wbr class="f"> `C-w` <!--SR:!2024-05-02,3,245-->
+- Close tab:<wbr class="f"> `C-w` <!--SR:!2025-08-07,7,245-->
 - Zoom in, zoom out, reset zoom of the page:<wbr class="f"> `C-+`, `C--`, `C-0`
 - Select all the text:<wbr class="f"> `C-a`
 - Search text:<wbr class="f"> `C-f`, `/`
@@ -54,7 +54,7 @@ Notepad based shortcuts, work mostly in all "classic" GUI program.
 - Down, Select Down:<wbr class="f"> `NAV-e`, `NAV-S-e` <!--SR:!2024-04-30,1,205-->
 - Delete Word Left:<wbr class="f"> `C-BCK` <!--SR:!2024-05-01,2,225-->
 - Delete Word Right:<wbr class="f"> `C-DEL`
-- Home, Select to Home:<wbr class="f"> `NAV-l`, `NAV-S-l` <!--SR:!2024-04-30,1,205-->
+- Home, Select to Home:<wbr class="f"> `NAV-j`, `NAV-S-j` <!--SR:!2024-04-30,1,205-->
 - End, Select to End:<wbr class="f"> `NAV-y`, `NAV-S-y`
 - Top, Select to Top:<wbr class="f"> `NAV-C-l`, `NAV-C-S-l`
 - Bottom, Select to bottom:<wbr class="f"> `NAV-C-y`, `NAV-C-S-y` <!--SR:!2024-04-30,1,205-->
