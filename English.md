@@ -3,7 +3,6 @@ created: 2023-03-06T00:00+03:00
 tags:
   - blog
   - linguistic
-  - now_life
 sr-due: 2025-10-28
 sr-interval: 110
 sr-ease: 186

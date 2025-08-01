@@ -2,7 +2,6 @@
 created: 2023-03-19T00:00+03:00
 tags:
   - blog
-  - now
   - mathematics
   - computer_science
 sr-due: 2025-08-01

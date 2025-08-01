@@ -130,7 +130,7 @@ lower_bound: 5, upper_bound: 5,
 5. array items 10000 linear search: 10000 steps binary search: ≈13 steps
 6. array items 1000000 linear search: 1000000 steps binary search: 20 steps
 
-Each lookup step in **binary search** eliminates ==half== of the elements from the search. <!--SR:!2025-02-06,13,239-->
+Each lookup step in **binary search** eliminates ==half== of the elements from the search. <!--SR:!2025-09-14,44,259-->
 
 Each time when we double input data for binary-search algorithm, it just takes ==one== more step. For linear search we must double search steps each time. <!--SR:!2024-09-17,8,221-->
 

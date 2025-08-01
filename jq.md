@@ -2,7 +2,6 @@
 created: 2024-11-21T18:14+03:00
 tags:
   - blog
-  - now_software
   - computer_programming_tools
 external:
   - https://jqlang.github.io/jq/

@@ -5,7 +5,6 @@ created: 2023-05-06T00:00+03:00
 tags:
   - blog
   - linguistic
-  - now_life
 sr-due: 2025-09-13
 sr-interval: 65
 sr-ease: 144

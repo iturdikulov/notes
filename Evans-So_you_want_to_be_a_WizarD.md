@@ -2,7 +2,6 @@
 created: 2024-08-18T00:00+03:00
 tags:
   - blog
-  - psychology
   - annotation_article
   - now_life
 author: Julian Evans

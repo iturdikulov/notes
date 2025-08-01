@@ -46,7 +46,7 @@ int main(){
   printf("In year usually %d days\n", DAYS_IN_YEAR);
 }
 ```
-<!--SR:!2025-08-01,2,237-->
+<!--SR:!2025-08-08,7,257-->
 
 How to declare enumeration constants?
 <br class="f">

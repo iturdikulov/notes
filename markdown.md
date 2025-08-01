@@ -4,7 +4,6 @@ external:
   - https://daringfireball.net/projects/markdown/syntax
 tags:
   - blog
-  - markdown
 sr-due: 2025-09-13
 sr-interval: 65
 sr-ease: 253

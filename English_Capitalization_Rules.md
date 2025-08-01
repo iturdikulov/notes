@@ -3,7 +3,6 @@ created: 2024-07-14T00:00+03:00
 tags:
   - blog
   - linguistic
-  - now_life
 external:
   - https://www.grammarly.com/blog/capitalization-rules/
 sr-due: 2025-08-20

@@ -4,7 +4,6 @@ created: 2023-03-12T00:00:00+03:00
 tags:
   - blog
   - now_life
-  - education
 sr-due: 2025-07-25
 sr-interval: 9
 sr-ease: 170

@@ -5,8 +5,7 @@ external:
 tags:
   - blog
   - annotation_article
-  - Python_tutorial
-  - now_python
+  - Python
 sr-due: 2025-07-23
 sr-interval: 9
 sr-ease: 233

@@ -2,8 +2,7 @@
 date: 2025-07-29 22:30
 tags:
   - blog
-  - research
-  - now_art
+  - gamedev
 ---
 
 # Introduction to Godot

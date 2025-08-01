@@ -3,7 +3,6 @@ created: 2023-04-19T00:00+03:00
 tags:
   - blog
   - computer_programming_tools
-  - now_software
 external:
   - https://www.gnu.org/software/coreutils/
 sr-due: 2025-09-13

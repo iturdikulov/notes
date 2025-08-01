@@ -5,7 +5,7 @@ external:
 created: 2023-08-18T00:00+03:00
 tags:
   - blog
-  - C
+  - computer_programming
   - annotation_repo
 directory: ~/Computer/programming/Kernighan_and_Ritchie-The_C_programming_language/Costrasel-The_C_Programming_Language_Solutions/
 sr-due: 2025-07-29

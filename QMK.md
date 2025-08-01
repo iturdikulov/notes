@@ -3,7 +3,7 @@ created: 2023-01-28T00:00+03:00
 directory: ~/Computer/hardware/QMK
 tags:
   - blog
-  - keyboard
+  - computer_programming_tools
 sr-due: 2025-07-25
 sr-interval: 11
 sr-ease: 248

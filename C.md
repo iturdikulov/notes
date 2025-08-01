@@ -2,7 +2,7 @@
 created: 2022-12-29T00:00+03:00
 tags:
   - blog
-  - C
+  - computer_programming
 sr-due: 2025-10-31
 sr-interval: 113
 sr-ease: 130

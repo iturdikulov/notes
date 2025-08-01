@@ -4,7 +4,6 @@ external:
 created: 2023-03-04T00:00+03:00
 tags:
   - blog
-  - cheat-sheets
 sr-due: 2025-09-11
 sr-interval: 55
 sr-ease: 184

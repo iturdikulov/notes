@@ -2,7 +2,7 @@
 created: 2024-03-03T00:00+03:00
 tags:
   - blog
-  - now_software
+  - computer_programming_tools
   - cheat-sheets
 sr-due: 2025-08-27
 sr-interval: 48

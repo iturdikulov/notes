@@ -6,7 +6,6 @@ external:
 tags:
   - blog
   - now_software
-  - cheat-sheets
 sr-due: 2025-07-22
 sr-interval: 1
 sr-ease: 130

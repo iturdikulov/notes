@@ -4,7 +4,7 @@ external:
 created: 2023-04-05T00:00+03:00
 tags:
   - blog
-  - markdown
+  - archive
 sr-due: 2025-07-22
 sr-interval: 3
 sr-ease: 252

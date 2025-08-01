@@ -4,7 +4,6 @@ tags:
   - blog
   - 3D
   - annotation_video
-  - now_software
 created: 2023-12-12T00:00+03:00
 external:
   - https://cgcookie.com/courses/blender-basics-an-introduction-to-blender-4-x

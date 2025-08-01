@@ -4,7 +4,6 @@ tags:
   - blog
   - now
   - annotation_article
-  - computer_programming_profession
 author: Paul Graham
 file: ./articles/Graham_-_Programming_Bottom_Up.html
 sr-due: 2025-07-23

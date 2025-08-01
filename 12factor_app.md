@@ -2,7 +2,7 @@
 created: 2024-12-02T15:37+03:00
 tags:
   - blog
-  - computer_programming_patterns
+  - now
 external:
   - https://12factor.net/
 file: ./articles/12factor_-_12factor.epub
@@ -20,7 +20,7 @@ Twelve-Factor application is metodology to build web apps (SaaS), required for (
 - Allow to deploy on modern cloud platforms.
 - Minimal differences between development and production, enable continuous deployment.
 - Support easy scaling and maintenance.
-- Universal, can be used with any programming language. <!--SR:!2025-07-25,1,188-->
+- Universal, can be used with any programming language. <!--SR:!2025-08-02,1,168-->
 
 ## 1. Codebase
 
@@ -81,7 +81,7 @@ Every release should always have a unique release ID, such as a timestamp of the
 
 Can I change something in release?
 <br class="f">
-Release cannot be mutated once it is created. Any change must create a new release. <!--SR:!2025-02-03,5,248-->
+Release cannot be mutated once it is created. Any change must create a new release. <!--SR:!2025-08-13,12,248-->
 
 Run stage should be kept to as few moving parts as possible and should be automatically restarted if it crashes.
 
@@ -109,7 +109,7 @@ Sticky sessions are a violation of twelve-factor and should never be used or rel
 
 What's port binding in twelve-factor app, why it's useful?
 <br class="f">
-The twelve-factor app is completely self-contained (does not rely on runtime injection) and exports HTTP (maybe other protocol) as a service by binding to a port and listening to requests coming in on that port. This is usually requiring to add web-server library into app to serve requests. Port-binding approach also means that one app can become the backing service for another app, by providing the URL to the backing app as a resource handle in the config for the consuming app. <!--SR:!2024-12-08,2,248-->
+The twelve-factor app is completely self-contained (does not rely on runtime injection) and exports HTTP (maybe other protocol) as a service by binding to a port and listening to requests coming in on that port. This is usually requiring to add web-server library into app to serve requests. Port-binding approach also means that one app can become the backing service for another app, by providing the URL to the backing app as a resource handle in the config for the consuming app. <!--SR:!2025-08-06,5,248-->
 
 ## 8. Concurrency
 

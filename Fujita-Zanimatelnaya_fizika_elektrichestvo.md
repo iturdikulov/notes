@@ -5,7 +5,7 @@ external: null
 archive: null
 tags:
   - blog
-  - physics
+  - now_science
   - annotation_book
 sr-due: 2025-08-24
 sr-interval: 45

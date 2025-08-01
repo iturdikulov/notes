@@ -2,7 +2,7 @@
 created: 2023-03-13T00:00+03:00
 tags:
   - blog
-  - physics
+  - now_science
 sr-due: 2025-09-14
 sr-interval: 66
 sr-ease: 188

@@ -4,7 +4,6 @@ created: 2024-03-17T00:00:00+03:00
 tags:
   - blog
   - now_software
-  - multimedia
 sr-due: 2025-08-28
 sr-interval: 49
 sr-ease: 242

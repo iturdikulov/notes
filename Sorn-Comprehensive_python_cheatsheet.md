@@ -140,7 +140,7 @@ items = ['ABC', 'DEF']
 flatter_list = list(itertools.chain.from_iterable(items))
 print(flatter_list)  # ['A', 'B', 'C', 'D', 'E', 'F']
 ```
-<!--SR:!2025-06-16,234,230-->
+<!--SR:!2025-11-26,117,210-->
 
 Generate product of list items, `functools.reduce`<br>
 `[1, 2, 3] -> 6 = (1 * 2) * 3` or `[1, 2, 3, 4] -> 24 = ((1 * 2) * 3) * 4`

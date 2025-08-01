@@ -3,7 +3,6 @@ created: 2023-03-18T00:00+03:00
 tags:
   - blog
   - now
-  - computer_programming_patterns
 file:
   - ./articles/Real_Python_-_SOLID_Principles.html
 sr-due: 2025-09-12

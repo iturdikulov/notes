@@ -2,7 +2,6 @@
 created: 2024-11-16T22:53+03:00
 tags:
   - blog
-  - now_python
   - Python
 sr-due: 2025-07-23
 sr-interval: 9

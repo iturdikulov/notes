@@ -4,7 +4,7 @@ created: 2023-06-24T00:00:00+03:00
 tags:
   - blog
   - dictionary
-  - now_life
+  - linguistic
 sr-due: 2025-07-23
 sr-interval: 9
 sr-ease: 249
@@ -112,7 +112,7 @@ researched the history of that word". <!--SR:!2025-02-20,8,252-->
 - **drive** (водить):<wbr class="f"> drove, driven
 - **eat** (есть):<wbr class="f"> ate, eaten
 
-- **fall** (падать):<wbr class="f"> fell, fallen <!--SR:!2025-02-13,1,230-->
+- **fall** (падать):<wbr class="f"> fell, fallen <!--SR:!2025-08-01,1,210-->
 - **feed** (кормить):<wbr class="f"> fed, fed
 - **feel** (чувствовать):<wbr class="f"> felt, felt
 - **fight** (драться):<wbr class="f"> fought, fought

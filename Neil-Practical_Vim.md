@@ -5,7 +5,7 @@ tags:
   - blog
   - cheat-sheets
   - annotation_book
-  - now_software
+  - computer_programming_tools
 file: ./books/Neil-Practical_Vim.pdf
 sr-due: 2025-08-02
 sr-interval: 11

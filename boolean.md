@@ -33,7 +33,7 @@ Most [[programming_language|programming languages]], have support for Boolean al
 
 Conjunction (AND, &, *): returns `true` if both operands are ==`true`==. <!--SR:!2025-02-26,5,228-->
 
-Disjunction (OR, |, +): returns `true` if at least one operand is ==`true`==. <!--SR:!2025-02-26,5,228-->
+Disjunction (OR, |, +): returns `true` if at least one operand is ==`true`==. <!--SR:!2025-08-12,11,228-->
 
 Equivalence (EQV, =, \=\=): returns `true` if both operands are ==the same==. <!--SR:!2025-02-23,2,208-->
 

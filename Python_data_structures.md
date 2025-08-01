@@ -3,7 +3,6 @@ external:
   - https://docs.python.org/3/tutorial/datastructures.html
 tags:
   - blog
-  - now_python
   - Python
   - annotation_article
 created: 2025-01-14T11:41+03:00

@@ -2,7 +2,7 @@
 created: 2024-01-23T00:00+03:00
 tags:
   - blog
-  - physics
+  - now_science
 external:
   - https://en.wikipedia.org/wiki/Outer_space
 sr-due: 2025-07-22
