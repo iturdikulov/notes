@@ -19,8 +19,6 @@ tags:
 
 ## Code++
 
-## Art
+## Art & Gamedev
 
 ## Unsorted
-
-## Today I learned
