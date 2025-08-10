@@ -240,7 +240,7 @@ To understand custom bullet list types check [[my_notation]] note.
 
 - [[Taskwarrior]] - TODO manager
 - Timewarrior
-- [[termdown]] - Timer and stopwatch
+- [Countdown](https://github.com/antonmedv/countdown) - Terminal countdown timer
 - [[ledger]] - Accounting
 - [[sc-im]] - Spreadsheet
 - [libreoffice](https://www.libreoffice.org/) - Office suite
