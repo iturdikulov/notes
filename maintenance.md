@@ -96,3 +96,25 @@ Need to verify some loges, units, etc. for my [[OS]].
 - [UFO Test](https://www.testufo.com/framerates-text) - Vertical scrolling text, useful to test FPS.
 - [Keyboard Tester](https://www.keyboardtester.com/tester.html)
 - [Free Online Audio Tests, Test Tones and Tone Generators](https://www.audiocheck.net/)
+
+## Duplicates: comma separated tags property
+
+```dataview
+TABLE WITHOUT ID key[0] as File, key[1] as tag, length(rows) as Count
+WHERE typeof(tags) = "string"
+FLATTEN split(tags, "\s*,#?\s*") as tag
+WHERE tag
+GROUP BY [file.link, tag]
+WHERE length(rows) > 1
+```
+
+## Duplicates: tags property as a list
+
+```dataview
+TABLE WITHOUT ID key[0] as File, key[1] as tag, length(rows) as Count
+WHERE typeof(tags) = "array"
+FLATTEN tags as tag
+WHERE tag
+GROUP BY [file.link, tag]
+WHERE length(rows) > 1
+```
