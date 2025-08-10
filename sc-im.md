@@ -2,7 +2,7 @@
 created: 2023-04-08T00:00+03:00
 tags:
   - blog
-  - mathematics
+  - HEAD
 external:
   - https://github.com/andmarti1424/sc-im
 sr-due: 2025-07-22

@@ -2,7 +2,7 @@
 created: 2023-05-18T00:00+03:00
 tags:
   - blog
-  - mathematics
+  - HEAD
 external:
   - https://www.mathsisfun.com/associative-commutative-distributive.html
 sr-due: 2025-09-12

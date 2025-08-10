@@ -2,7 +2,7 @@
 created: 2023-10-05T00:00+03:00
 tags:
   - blog
-  - computer_science
+  - HEAD
 sr-due: 2025-07-22
 sr-interval: 2
 sr-ease: 224

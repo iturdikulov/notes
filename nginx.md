@@ -2,7 +2,7 @@
 created: 2023-03-21T00:00+03:00
 tags:
   - blog
-  - network
+  - WEAPON
 external:
   - https://nginx.org/
 sr-due: 2025-07-22

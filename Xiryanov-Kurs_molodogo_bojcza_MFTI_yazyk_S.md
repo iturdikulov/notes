@@ -3,8 +3,8 @@ author: Тимофей Хирьянов
 created: 2023-09-14T00:00+03:00
 tags:
   - blog
-  - computer_programming
-  - annotation_video
+  - WEAPON
+  - literature
 external:
   - https://www.youtube.com/playlist?list=PLRDzFCPr95fLjzcv6nNdjMu_9RcZgIM9U
 directory: ~/Computer/programming/Хирьянов-Курс_молодого_бойца_МФТИ_язык_С/

@@ -2,7 +2,7 @@
 created: 2023-03-06T00:00+03:00
 tags:
   - blog
-  - cryptography
+  - HEAD
 sr-due: 2025-07-29
 sr-interval: 8
 sr-ease: 250

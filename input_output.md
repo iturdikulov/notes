@@ -2,7 +2,7 @@
 created: 2022-12-29T00:00+03:00
 tags:
   - blog
-  - computer_programming
+  - WEAPON
 sr-due: 2025-09-12
 sr-interval: 64
 sr-ease: 205
@@ -15,7 +15,7 @@ sr-ease: 205
 > I/O devices are the pieces of hardware used by a human (or other system) to communicate with a computer. For instance, a keyboard or computer mouse is an input device for a computer, while monitors and printers are output devices. Devices for communication between computers, such as modems and network cards, typically perform ==both input and output== operations. Any interaction with the system by an interactor is an input and the reaction the system responds is called the output.\
 > — <cite>[Input/output - Wikipedia](https://en.wikipedia.org/wiki/Input/output)</cite> <!--SR:!2024-09-22,18,245-->
 
-==(I/O)== communication between a computer and its users, its storage devices, other computers (via a network) or the outside world. <!--SR:!2024-10-26,29,237-->
+==(I/O)== communication between a computer and its users, its storage devices, other computers (via a network) or the outside world. TODO: REWRITE <!--SR:!2024-10-26,29,237-->
 
 Some examples of I/O operations:
 <br class="f">
@@ -25,4 +25,4 @@ Some examples of I/O operations:
 - reading/writing [[file|files]]
 - [[printf_format_string|Printing]] to screen <!--SR:!2024-09-07,4,236-->
 
-Important aspects of I/O are ==throughput, latency==, and whether the communications are synchronous or asynchronous (using some kind of buffer). <!--SR:!2024-09-07,5,236-->
+Important aspects of I/O are ==throughput, latency==, and whether the communications are synchronous or asynchronous (using some kind of buffer). <!--SR:!2025-08-04,3,216-->

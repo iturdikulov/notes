@@ -2,7 +2,7 @@
 created: 2023-04-17T00:00+03:00
 tags:
   - blog
-  - computer_programming
+  - WEAPON
 external:
   - https://github.com/ziishaned/learn-regex
 sr-due: 2025-07-22
@@ -132,7 +132,7 @@ The fat cat sat on the concatenation.
 
 ### 2.3 The plus repetition
 
-The `+` symbol matches ==one or more repetitions== of the preceding character. <!--SR:!2025-07-29,1,208-->
+The `+` symbol matches ==one or more repetitions== of the preceding character. <!--SR:!2025-08-02,1,188-->
 
 For example, the regular expression `c.+t` means: a lowercase `c`, followed by at least one character, followed by a lowercase `t`. It needs to be clarified that`t` is the last `t` in the sentence. In vim need to escape `+`.
 ```

@@ -3,7 +3,7 @@ external: https://www.programmingfonts.org
 created: 2023-03-12T00:00+03:00
 tags:
   - blog
-  - annotation_article
+  - literature
 sr-due: 2025-09-17
 sr-interval: 69
 sr-ease: 230

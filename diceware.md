@@ -4,7 +4,7 @@ external:
 created: 2023-08-15T00:00+03:00
 tags:
   - blog
-  - cryptography
+  - HEAD
 directory: ~/Computer/data/word_list/
 sr-due: 2025-09-15
 sr-interval: 67

@@ -2,7 +2,7 @@
 created: 2023-03-13T00:00+03:00
 tags:
   - blog
-  - finance
+  - HEAD
 sr-due: 2025-07-29
 sr-interval: 15
 sr-ease: 231

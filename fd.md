@@ -2,7 +2,7 @@
 created: 2023-06-17T00:00+03:00
 tags:
   - blog
-  - computer_programming_tools
+  - ENDS
 external:
   - https://github.com/sharkdp/fd
 sr-due: 2025-07-22

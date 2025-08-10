@@ -2,7 +2,7 @@
 created: 2024-11-21T18:14+03:00
 tags:
   - blog
-  - computer_programming_tools
+  - ENDS
 external:
   - https://jqlang.github.io/jq/
   - https://jqlang.github.io/jq/tutorial/

@@ -2,8 +2,7 @@
 created: 2023-04-03T00:00+03:00
 tags:
   - blog
-  - cheat-sheets
-  - now_software
+  - ENDS
 sr-due: 2025-09-15
 sr-interval: 67
 sr-ease: 130

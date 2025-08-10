@@ -2,7 +2,7 @@
 created: 2024-11-25T23:05+03:00
 tags:
   - blog
-  - annotation_book
+  - literature
 author:
   - Владимир Зайцев
   - Валерий Рыжков

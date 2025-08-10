@@ -2,7 +2,7 @@
 created: 2023-03-22T00:00+03:00
 tags:
   - blog
-  - computer_programming_tools
+  - ENDS
 external:
   - https://www.darwinsys.com/file/
 directory: ~/Computer/data/files_samples

@@ -2,7 +2,7 @@
 created: 2022-12-29T00:00+03:00
 tags:
   - blog
-  - art
+  - JEWELRY
 sr-due: 2025-09-20
 sr-interval: 72
 sr-ease: 230

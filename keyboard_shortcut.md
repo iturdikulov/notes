@@ -2,8 +2,7 @@
 created: 2023-02-21T00:00+03:00
 tags:
   - blog
-  - now_software
-  - cheat-sheets
+  - ENDS
 sr-due: 2025-07-23
 sr-interval: 2
 sr-ease: 130
@@ -236,6 +235,17 @@ I use [[Krita]] as my board and drawing tool.
 - Pen Tool:<wbr class="f"> `P`
 - Layers and Objects:<wbr class="f"> `C-S-l`
 - Trace Bitmap:<wbr class="f"> `S-M-b`
+
+## Lazygit
+
+,.: single page
+<>: top/bottom
+kj: single line
+UP/DN: single line (arrows)
+
+PGUP/PGDN: main pane single line (page-up / page-down)
+C-u/d: main pane single line (i don't use) (ctrl-u / ctrl-d)
+
 
 ## External links
 

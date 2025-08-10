@@ -2,7 +2,7 @@
 created: 2023-07-20T00:00+03:00
 tags:
   - blog
-  - 3D
+  - JEWELRY
 sr-due: 2025-09-30
 sr-interval: 82
 sr-ease: 223

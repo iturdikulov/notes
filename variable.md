@@ -2,8 +2,8 @@
 created: 2023-03-13T00:00+03:00
 tags:
   - blog
-  - computer_programming
-  - computer_science
+  - WEAPON
+  - HEAD
 sr-due: 2025-09-15
 sr-interval: 67
 sr-ease: 202

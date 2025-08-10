@@ -2,7 +2,7 @@
 created: 2023-03-12T00:00+03:00
 tags:
   - blog
-  - VCS
+  - ENDS
 external:
   - https://savannah.gnu.org/projects/patch/
 sr-due: 2025-07-22

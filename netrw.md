@@ -2,7 +2,7 @@
 created: 2023-08-14T00:00+03:00
 tags:
   - blog
-  - computer_programming_tools
+  - ENDS
 sr-due: 2027-09-10
 sr-interval: 792
 sr-ease: 283

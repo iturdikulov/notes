@@ -4,7 +4,7 @@ created: 2025-01-13T11:36:00+03:00
 tags:
   - blog
   - outline
-  - habits
+  - WEAPON
 sr-due: 2025-10-02
 sr-interval: 76
 sr-ease: 230
@@ -25,7 +25,7 @@ My notes are sort of "second brain", allow me choosing what to do **next**, stor
 - System Design
 - [[life|Life]] as communication, teamwork, saving life-balance and improving mentoring abilities.
 - [[media|Media]] collection, for relax and fun.
-- [[learning|Learning]] is source of pet projects and [[knowledge]].
+- [[learning|Learning]] is source of pet projects and knowledge.
 - [[computer_science|Computer science]] to practice algorithmic thinking and logical reasoning.
 - [[computer_programming|Computer programming]] to practice and empower problems-solving abilities.
 - [[computer_performance|Performance]] to focus on fast products.

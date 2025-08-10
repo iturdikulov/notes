@@ -4,7 +4,7 @@ created: 2023-03-12T00:00:00+03:00
 directory: ~/Work/
 tags:
   - blog
-  - productivity
+  - HEAD
 sr-due: 2025-07-22
 sr-interval: 7
 sr-ease: 170

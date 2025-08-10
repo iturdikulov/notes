@@ -2,9 +2,7 @@
 created: 2023-07-20T00:00+03:00
 tags:
   - blog
-  - computer_graphics
-  - 2D
-  - 3D
+  - JEWELRY
 sr-due: 2025-07-29
 sr-interval: 2
 sr-ease: 245

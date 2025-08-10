@@ -2,8 +2,8 @@
 created: 2024-09-06T00:00+03:00
 tags:
   - blog
-  - Python
-  - annotation_book
+  - WEAPON
+  - literature
 directory: ~/Computer/software/rabbitmq
 sr-due: 2025-07-25
 sr-interval: 1

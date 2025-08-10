@@ -1,8 +1,7 @@
 ---
 created: 2022-01-01T00:00+03:00
 tags:
-  - mathematics
-  - now
+  - HEAD
 sr-due: 2024-01-28
 sr-interval: 1
 sr-ease: 180

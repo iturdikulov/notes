@@ -2,7 +2,7 @@
 created: 2024-03-06T00:00+03:00
 tags:
   - blog
-  - now_science
+  - HEAD
 sr-due: 2025-08-24
 sr-interval: 45
 sr-ease: 210

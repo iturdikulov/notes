@@ -3,7 +3,7 @@ date: 2025-07-20T17:49:32+03:00
 created: 2024-03-17T00:00:00+03:00
 tags:
   - blog
-  - now_software
+  - ENDS
 sr-due: 2025-08-28
 sr-interval: 49
 sr-ease: 242

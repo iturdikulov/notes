@@ -2,8 +2,7 @@
 created: 2024-09-02T00:00+03:00
 tags:
   - blog
-  - computer_science
-  - computer_programming
+  - WEAPON
 sr-due: 2025-07-25
 sr-interval: 4
 sr-ease: 219

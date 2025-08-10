@@ -2,7 +2,7 @@
 created: 2024-09-26T00:00+03:00
 tags:
   - blog
-  - Python
+  - WEAPON
 sr-due: 2025-07-23
 sr-interval: 2
 sr-ease: 130

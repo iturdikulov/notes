@@ -2,7 +2,7 @@
 created: 2023-01-27T00:00+03:00
 tags:
   - blog
-  - VCS
+  - ENDS
 sr-due: 2025-09-19
 sr-interval: 71
 sr-ease: 230

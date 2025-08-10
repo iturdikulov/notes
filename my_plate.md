@@ -2,7 +2,7 @@
 created: 2024-11-22T20:15+03:00
 tags:
   - blog
-  - now_life
+  - FULL-BODY
 sr-due: 2025-07-24
 sr-interval: 10
 sr-ease: 250

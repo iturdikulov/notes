@@ -2,7 +2,7 @@
 created: 2023-08-26T00:00+03:00
 tags:
   - blog
-  - unix
+  - ENDS
 sr-due: 2025-09-17
 sr-interval: 69
 sr-ease: 250

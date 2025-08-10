@@ -2,7 +2,7 @@
 created: 2023-03-16T00:00+03:00
 tags:
   - blog
-  - mathematics
+  - HEAD
 sr-due: 2025-07-22
 sr-interval: 5
 sr-ease: 228

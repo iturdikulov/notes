@@ -2,8 +2,8 @@
 created: 2023-09-25T00:00+03:00
 tags:
   - blog
-  - unix
-  - annotation_article
+  - ENDS
+  - literature
 author:
   - korfuri
 external:

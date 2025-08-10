@@ -4,7 +4,7 @@ created: 2023-03-10T03:00:00+03:00
 directory: ~/Wiki/
 tags:
   - blog
-  - productivity
+  - ENDS
 sr-due: 2025-07-23
 sr-interval: 2
 sr-ease: 130
