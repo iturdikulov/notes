@@ -5,8 +5,7 @@ external:
   - https://www.stephenmwangi.com/obsidian-spaced-repetition/
 tags:
   - blog
-  - education
-  - now_life
+  - JEWELRY
 sr-due: 2030-04-14
 sr-interval: 1736
 sr-ease: 250
@@ -43,27 +42,6 @@ Yes, you will remember about your habits, and ask yourself, I'm following it or 
 Right now I'm using [[Obsidian]] plugin [spaced repetition](https://www.stephenmwangi.com/obsidian-spaced-repetition/) and various note types to generate flashcards. I also use it to select current notes to work.
 
 Detailed documentation aviable at [Obsidian Spaced Repetition](https://www.stephenmwangi.com/obsidian-spaced-repetition/) website.
-
-## Programming related flashcards
-
-- #Python
-- #Rust
-- #Go
-- #C
-- #computer_programming_web
-- #computer
-- #computer_programming
-- #computer_programming_science
-- #computer_terms
-- #computer_testing
-- #cheat-sheets
-- #computer_programming_patterns
-- #computer_programming_profession
-- #computer_programming_tools
-- #DB
-- #computer_graphics_programming
-- #gamedev
-- #cryptography
 
 ## Flashcard
 
