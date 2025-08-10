@@ -2,7 +2,7 @@
 created: 2024-12-02T15:37+03:00
 tags:
   - blog
-  - now
+  - WEAPON
 external:
   - https://12factor.net/
 file: ./articles/12factor_-_12factor.epub
@@ -44,11 +44,11 @@ Yes, always need to use dependency declaration and isolation, it also simplifies
 
 Where to store app environtment specific files?
 <br class="f">
-Anything which have **different value** for different environment (dev, test, prod), should be stored in repository (schemas, config files, credentials, etc.). <!--SR:!2025-01-25,1,210-->
+Anything which have **different value** for different environment (dev, test, prod), should be stored in repository (schemas, config files, credentials, etc.). TODO: NOT CLEAR <!--SR:!2025-01-25,1,210-->
 
 How to store config in 12-factor application, with code?
 <br class="f">
-Need strict separation of config from code. Validation rule: app could be made open source at any moment, without compromising security. <!--SR:!2025-07-29,5,230-->
+Need strict separation of config from code. Validation rule: app could be made open source at any moment, without compromising security. <!--SR:!2025-08-14,13,230-->
 
 Where to store config (various parameters)?
 <br class="f">
@@ -58,11 +58,11 @@ The twelve-factor app stores config in environment variables, which have granula
 
 What's an attacheble resource?
 <br class="f">
-External services (consumed over network) used as part of normal operation - MySQL, RabbitMQ, Redis, SMTP, etc. They are attacheble resources, and need to use same rules as for local resources. Resources are attacheble and detacheble, anytime you can replace broken resource with new one (restored from backup or re-initialized). <!--SR:!2025-07-25,1,228-->
+External services (consumed over network) used as part of normal operation - MySQL, RabbitMQ, Redis, SMTP, etc. They are attacheble resources, and need to use same rules as for local resources. Resources are attacheble and detacheble, anytime you can replace broken resource with new one (restored from backup or re-initialized). TODO: NOT CLEAR <!--SR:!2025-08-03,2,228-->
 
 Is there difference for 12 factor app between local and third party services (attacheble resources)?
 <br class="f">
-The code for a twelve-factor app makes no distinction between local and third party services, you can change local backing service with remote anytime by changing configuration. <!--SR:!2025-01-29,5,248-->
+The code for a twelve-factor app makes no distinction between local and third party services, you can change local backing service with remote anytime by changing configuration. <!--SR:!2025-08-14,13,248-->
 
 ## 5. Build, release, run
 
@@ -91,7 +91,7 @@ The app is executed in the execution environment as one or more processes.
 
 What's stateless app?
 <br class="f">
-A stateless app is an application program that does not save client data generated in one session for use in the next session with that client. Twelve-factor processes are stateless and share-noting. Any data that needs to persist must be stored in a stateful backing service (typicaly a database). No need to synchronize server states; new instances can handle requests immediately. <!--SR:!2025-01-30,1,228-->
+A stateless app is an application program that does not save client data generated in one session for use in the next session with that client. Twelve-factor processes are stateless and share-noting. Any data that needs to persist must be stored in a stateful backing service (typicaly a database). No need to synchronize server states; new instances can handle requests immediately. <!--SR:!2025-08-02,1,208-->
 
 Can I assume that something is cached on disk and will be aviable on a future request or job?
 <br class="f">
@@ -117,7 +117,7 @@ How we work with processes with twelve-factor app?
 <br class="f">
 In the twelve-factor app, processes are a first class citizen. Each application task type can be executed with own process (diverse workloads, many process types are good). This is Unix process model for running service daemons. <!--SR:!2024-12-08,2,248-->
 
-Application can run many processes (process formation) in single runtime (==1;;vertical== scaling), but it must also be able to span multiple processes running on multiple physical machines (==1;;horizontal== scaling). <!--SR:!2025-01-20,8,268-->
+Application can run many processes (process formation) in single runtime (==1;;vertical== scaling), but it must also be able to span multiple processes running on multiple physical machines (==1;;horizontal== scaling). <!--SR:!2025-08-31,30,288-->
 
 Twelve-factor app processes should never daemonize or write PID files. Instead, rely on the operating system's process manager (systemd?, distributed process manager on a cloud platform) to manage output streams, respond to crashed processes and handle user-initiated restarts and shutdowns.
 
@@ -138,7 +138,7 @@ Twelve-factor app is designed for continuous deployment by keeping the gap betwe
 
 Can I use different backing services (MySQL/SQLite) on development and production?
 <br class="f">
-We should not use different backing services (Redis/RabbitMQ, MySQL/SQlite) on development and production, even if possible to use adapters to mix them with some abstractions (Celery, SQLAlchemy). <!--SR:!2025-07-29,5,248-->
+We should not use different backing services (Redis/RabbitMQ, MySQL/SQlite) on development and production, even if possible to use adapters to mix them with some abstractions (Celery, SQLAlchemy). <!--SR:!2025-08-18,17,268-->
 
 ## 11. Logs
 
