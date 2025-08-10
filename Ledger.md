@@ -2,7 +2,7 @@
 created: 2022-12-29T00:00+03:00
 tags:
   - blog
-  - finance
+  - JEWELRY
 external:
   - https://www.ledger-cli.org/
 sr-due: 2025-07-22

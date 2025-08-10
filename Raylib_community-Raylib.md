@@ -5,8 +5,8 @@ external:
 created: 2025-01-14T11:41+03:00
 tags:
   - blog
-  - computer_graphics_programming
-  - annotation_repo
+  - JEWELRY
+  - literature
 directory: ~/Computer/graphics/stash/Raylib_Community-Raylib
 sr-due: 2025-11-14
 sr-interval: 127

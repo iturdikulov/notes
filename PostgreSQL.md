@@ -2,7 +2,7 @@
 created: 2023-04-03T00:00+03:00
 tags:
   - blog
-  - DB
+  - WEAPON
 external:
   - https://www.postgresql.org/
 sr-due: 2025-07-22

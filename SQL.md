@@ -2,8 +2,7 @@
 created: 2024-09-10T00:00+03:00
 tags:
   - blog
-  - now
-  - DB
+  - WEAPON
 sr-due: 2025-07-18
 sr-interval: 10
 sr-ease: 257

@@ -5,8 +5,8 @@ external:
   - https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world
 tags:
   - blog
-  - Python
-  - annotation_book
+  - WEAPON
+  - literature
 sr-due: 2025-07-22
 sr-interval: 4
 sr-ease: 190

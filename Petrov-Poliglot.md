@@ -4,8 +4,8 @@ external: null
 archive: null
 tags:
   - blog
-  - linguistic
-  - annotation_video
+  - ENDS
+  - literature
 sr-due: 2025-09-21
 sr-interval: 73
 sr-ease: 170

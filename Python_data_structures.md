@@ -3,8 +3,8 @@ external:
   - https://docs.python.org/3/tutorial/datastructures.html
 tags:
   - blog
-  - Python
-  - annotation_article
+  - WEAPON
+  - literature
 created: 2025-01-14T11:41+03:00
 sr-due: 2025-07-25
 sr-interval: 4

@@ -2,7 +2,7 @@
 created: 2025-02-06T09:50+03:00
 tags:
   - blog
-  - cheat-sheets
+  - ENDS
 sr-due: 2025-07-22
 sr-interval: 1
 sr-ease: 130

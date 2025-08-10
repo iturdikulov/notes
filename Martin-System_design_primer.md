@@ -5,7 +5,7 @@ external:
 created: 2023-08-19T00:00+03:00
 tags:
   - blog
-  - annotation_repo
+  - literature
 directory: ~/Computer/science/Martin-System_Design_Primer/
 sr-due: 2025-07-29
 sr-interval: 14

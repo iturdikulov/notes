@@ -3,8 +3,8 @@ author: Andrew Loomis
 created: 2025-01-14T11:41+03:00
 tags:
   - blog
-  - art
-  - annotation_book
+  - JEWELRY
+  - literature
 directory: ~/Arts_and_Entertainment/visual_arts/Loomis-Fun_With_A_Pencil
 sr-due: 2025-11-07
 sr-interval: 120

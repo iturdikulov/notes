@@ -2,8 +2,8 @@
 created: 2024-11-25T18:13+03:00
 tags:
   - blog
-  - annotation_book
-  - now_life
+  - literature
+  - JEWELRY
 author: John Sonmez
 file: ./books/Gibkiie_navyki_-_John_Sonmez.fb2
 lang: ru

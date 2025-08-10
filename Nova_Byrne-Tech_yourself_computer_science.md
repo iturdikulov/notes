@@ -3,8 +3,8 @@ author: Oz Nova; Myles Byrne
 created: 2023-03-08T00:00+03:00
 tags:
   - blog
-  - computer_science
-  - annotation_article
+  - HEAD
+  - literature
 external:
   - https://teachyourselfcs.com/
 sr-due: 2025-07-22

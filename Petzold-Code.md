@@ -3,9 +3,8 @@ author: Charles Petzold
 created: 2024-11-05T00:00+03:00
 tags:
   - blog
-  - now
-  - computer_programming
-  - annotation_book
+  - WEAPON
+  - literature
 lang: ru
 sr-due: 2025-07-22
 sr-interval: 1

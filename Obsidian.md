@@ -5,8 +5,7 @@ external:
   - https://obsidian.md/
 tags:
   - blog
-  - now_software
-  - productivity
+  - ENDS
 sr-due: 2025-07-22
 sr-interval: 5
 sr-ease: 226

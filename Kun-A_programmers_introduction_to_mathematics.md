@@ -1,8 +1,8 @@
 ---
 tags:
   - blog
-  - mathematics
-  - annotation_book
+  - HEAD
+  - literature
 author: Jeremy Kun
 external:
   - https://j2kun.gumroad.com/l/pim-book

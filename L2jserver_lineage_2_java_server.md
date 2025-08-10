@@ -4,7 +4,7 @@ external:
 created: 2023-04-18T00:00+03:00
 tags:
   - blog
-  - gamedev
+  - JEWELRY
 sr-due: 2025-09-18
 sr-interval: 70
 sr-ease: 247

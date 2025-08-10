@@ -2,7 +2,7 @@
 created: 2023-09-21T00:00+03:00
 tags:
   - blog
-  - DB
+  - WEAPON
 external:
   - https://www.sqlite.org/
 sr-due: 2025-07-22
@@ -17,7 +17,7 @@ sr-ease: 270
 
 Is there strict typing in SQLite?
 <br class="f">
-SQLite has a loose type system, you can store any type of data in any field, regardless of how you defined it. Remember: just because you can do something, doesn't mean you should! <!--SR:!2024-11-11,2,250-->
+SQLite has a loose type system, you can store any type of data in any field, regardless of how you defined it. Remember: just because you can do something, doesn't mean you should! <!--SR:!2025-08-06,5,250-->
 
 How import data from SQL, which is main command at least?
 <br class="f">

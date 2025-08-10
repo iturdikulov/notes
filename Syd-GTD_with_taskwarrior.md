@@ -9,7 +9,7 @@ external:
 tags:
   - blog
   - archive
-  - annotation_article
+  - literature
 sr-due: 2025-07-29
 sr-interval: 16
 sr-ease: 210

@@ -3,7 +3,7 @@ date: 2025-07-11T10:48:44+03:00
 created: 2022-12-29T00:00:00+03:00
 tags:
   - blog
-  - Python
+  - WEAPON
 sr-due: 2025-07-22
 sr-interval: 1
 sr-ease: 130

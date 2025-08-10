@@ -4,8 +4,8 @@ external:
 created: 2023-08-26T00:00+03:00
 tags:
   - blog
-  - mathematics
-  - annotation_book
+  - HEAD
+  - literature
 author: Math is Fun Team
 directory: ~/Science/math/Math_is_Fun_Team-Math_is_Fun/
 sr-due: 2025-07-23

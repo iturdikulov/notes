@@ -3,9 +3,8 @@ author: Luciano Ramalho
 created: 2025-01-14T11:41+03:00
 tags:
   - blog
-  - Python
-  - now
-  - annotation_book
+  - WEAPON
+  - literature
 file: ./books/Ramalho-Fluent_Python.pdf
 sr-due: 2025-07-22
 sr-interval: 1

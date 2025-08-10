@@ -2,8 +2,8 @@
 created: 2025-01-14T11:41+03:00
 tags:
   - blog
-  - now_life
-  - annotation_book
+  - JEWELRY
+  - literature
 author:
   - J. Hank Rainwater
 external:

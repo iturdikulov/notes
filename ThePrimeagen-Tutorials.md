@@ -6,7 +6,7 @@ external:
 created: 2023-08-15T00:00+03:00
 tags:
   - blog
-  - annotation_video
+  - literature
 directory: ~/Computer/programming/ThePrimeagen-Tutorials/
 sr-due: 2025-07-22
 sr-interval: 5

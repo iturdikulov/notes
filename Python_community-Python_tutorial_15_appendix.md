@@ -3,8 +3,8 @@ external:
   - https://docs.python.org/3/tutorial/appendix.html
 tags:
   - blog
-  - now_python
-  - annotation_article
+  - WEAPON
+  - literature
 created: 2025-01-14T11:41+03:00
 sr-due: 2025-07-23
 sr-interval: 9

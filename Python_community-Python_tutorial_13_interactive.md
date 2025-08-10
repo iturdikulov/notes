@@ -3,7 +3,7 @@ external:
   - https://docs.python.org/3/tutorial/interactive.html
 tags:
   - blog
-  - annotation_article
+  - literature
 created: 2025-01-14T11:41+03:00
 sr-due: 2025-07-24
 sr-interval: 10

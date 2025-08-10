@@ -5,8 +5,7 @@ external:
   - https://www.thunderbird.net/
 tags:
   - blog
-  - cheat-sheets
-  - productivity
+  - ENDS
 sr-due: 2025-07-24
 sr-interval: 11
 sr-ease: 258

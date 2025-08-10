@@ -4,7 +4,7 @@ external:
   - https://nixos.org/
 tags:
   - blog
-  - unix
+  - ENDS
 sr-due: 2025-07-29
 sr-interval: 12
 sr-ease: 230

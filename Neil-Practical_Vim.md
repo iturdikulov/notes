@@ -3,9 +3,7 @@ author: Drew Neil
 created: 2025-01-14T11:41+03:00
 tags:
   - blog
-  - cheat-sheets
-  - annotation_book
-  - computer_programming_tools
+  - ENDS
 file: ./books/Neil-Practical_Vim.pdf
 sr-due: 2025-08-02
 sr-interval: 11

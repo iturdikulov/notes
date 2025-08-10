@@ -5,8 +5,8 @@ author: Brett Slatkin
 file: ./books/Slatkin-Effective_Python.epub
 tags:
   - blog
-  - Python
-  - annotation_book
+  - WEAPON
+  - literature
 sr-due: 2025-07-22
 sr-interval: 1
 sr-ease: 130

@@ -2,7 +2,7 @@
 date: 2025-07-23 19:21
 tags:
   - blog
-  - DB
+  - WEAPON
 ---
 
 # The SQL SELECT Statement

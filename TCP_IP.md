@@ -2,7 +2,7 @@
 created: 2023-04-15T00:00+03:00
 tags:
   - blog
-  - network
+  - WEAPON
 sr-due: 2025-07-29
 sr-interval: 17
 sr-ease: 248

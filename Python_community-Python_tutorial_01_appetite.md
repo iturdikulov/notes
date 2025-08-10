@@ -4,8 +4,8 @@ external:
   - https://docs.python.org/3/tutorial/appetite.html
 tags:
   - blog
-  - annotation_article
-  - Python
+  - literature
+  - WEAPON
 sr-due: 2025-07-23
 sr-interval: 9
 sr-ease: 233

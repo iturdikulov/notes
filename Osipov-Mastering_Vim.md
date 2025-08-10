@@ -3,8 +3,8 @@ created: 2025-01-14T11:41+03:00
 author: Ruslan Osipov
 tags:
   - blog
-  - cheat-sheets
-  - annotation_book
+  - ENDS
+  - literature
 directory: ~/Computer/software/Osipov-Mastering_Vim/
 sr-due: 2025-07-29
 sr-interval: 16

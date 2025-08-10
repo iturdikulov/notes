@@ -2,7 +2,7 @@
 created: 2024-11-25T23:02+03:00
 tags:
   - blog
-  - annotation_book
+  - literature
 author: Яков Перельман
 file: ./books/Perelman-Zanimatelnaya_matematika.pdf
 sr-due: 2025-07-22

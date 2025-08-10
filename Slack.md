@@ -2,7 +2,7 @@
 created: 2023-06-04T00:00+03:00
 tags:
   - blog
-  - cheat-sheets
+  - ENDS
 external:
   - https://slack.com/
 sr-due: 2025-07-22

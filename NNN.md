@@ -2,7 +2,7 @@
 created: 2023-04-02T00:00+03:00
 tags:
   - blog
-  - cheat-sheets
+  - ENDS
 external:
   - https://github.com/jarun/nnn
 sr-due: 2025-07-22

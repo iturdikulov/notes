@@ -3,8 +3,8 @@ created: 2023-01-07T00:00+03:00
 directory: ~/Arts_and_Entertainment/literature/George Polya/How to solve it (2276)/
 tags:
   - blog
-  - mathematics
-  - annotation_book
+  - HEAD
+  - literature
 sr-due: 2025-10-25
 sr-interval: 107
 sr-ease: 230

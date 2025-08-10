@@ -2,7 +2,7 @@
 created: 2023-08-05T00:00+03:00
 tags:
   - blog
-  - linguistic
+  - ENDS
 sr-due: 2025-07-22
 sr-interval: 7
 sr-ease: 267

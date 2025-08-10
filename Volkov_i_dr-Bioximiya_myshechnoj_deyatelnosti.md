@@ -2,8 +2,8 @@
 created: 2023-09-21T00:00+03:00
 tags:
   - blog
-  - health
-  - annotation_book
+  - JEWELRY
+  - literature
 author:
   - Волков Николай
   - Несен Эмилия

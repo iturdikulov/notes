@@ -2,8 +2,8 @@
 created: 2023-09-18T00:00+03:00
 tags:
   - blog
-  - VCS
-  - annotation_article
+  - ENDS
+  - literature
 external:
   - https://www.kernel.org/doc/html/latest/process/submitting-patches.html
   - https://www.kernel.org/doc/html/latest/process/submit-checklist.html

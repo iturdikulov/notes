@@ -7,7 +7,7 @@ external:
 file: ./books/Nravstviennyie_pis_ma_k_Lutsiliiu-Lucius_Annaeus_Seneca.m4b
 tags:
   - blog
-  - annotation_book
+  - literature
 sr-due: 2025-07-22
 sr-interval: 1
 sr-ease: 150

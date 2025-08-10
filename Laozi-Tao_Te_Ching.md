@@ -2,8 +2,8 @@
 created: 2023-09-16T00:00+03:00
 tags:
   - blog
-  - now_life
-  - annotation_book
+  - JEWELRY
+  - literature
 author:
   - Laozi
 sr-due: 2025-07-22

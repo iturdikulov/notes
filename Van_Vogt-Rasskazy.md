@@ -2,7 +2,7 @@
 created: 2024-11-25T18:13+03:00
 tags:
   - blog
-  - annotation_fiction
+  - literature
 author: Альфред Ван Вогт
 lang: ru
 sr-due: 2025-09-02

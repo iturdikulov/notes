@@ -2,7 +2,7 @@
 created: 2023-03-12T00:00+03:00
 tags:
   - blog
-  - now
+  - WEAPON
 sr-due: 2025-09-13
 sr-interval: 65
 sr-ease: 178
@@ -34,7 +34,7 @@ Yes, of course:
 - Make the development process faster
 - Help us retain our sanity
 
-A class is a special type of value in an object-oriented programming language like Python. It's similar to a ==dictionary== type in that it usually stores other types inside itself. <!--SR:!2025-08-01,2,184-->
+A class is a special type of value in an object-oriented programming language like Python. It's similar to a ==dictionary== datatype in that it usually stores other types inside itself. <!--SR:!2025-08-06,5,204-->
 
 Difference between function and method (Python):
 <br class="f">

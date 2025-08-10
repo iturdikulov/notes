@@ -5,8 +5,8 @@ external:
 directory: ~/Computer/graphics/archive/Price-Donut_Tutorial
 tags:
   - blog
-  - 3D
-  - annotation_video
+  - JEWELRY
+  - literature
 sr-due: 2026-03-21
 sr-interval: 254
 sr-ease: 230

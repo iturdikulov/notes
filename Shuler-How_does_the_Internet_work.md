@@ -5,8 +5,8 @@ external:
   - https://web.stanford.edu/class/msande91si/www-spr04/readings/week1/InternetWhitepaper.htm
 tags:
   - blog
-  - computer_programming_web
-  - annotation_article
+  - WEAPON
+  - literature
 sr-due: 2025-07-29
 sr-interval: 17
 sr-ease: 248

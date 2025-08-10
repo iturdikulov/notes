@@ -2,7 +2,7 @@
 created: 2023-09-14T00:00+03:00
 tags:
   - blog
-  - annotation_repo
+  - literature
 directory: ~/Computer/graphics/OpenCV_Realtime_Angle_Calculation/
 sr-due: 2025-07-29
 sr-interval: 14

@@ -4,8 +4,8 @@ external:
   - https://docs.python.org/3/faq/programming.html
 tags:
   - blog
-  - Python
-  - annotation_article
+  - WEAPON
+  - literature
 sr-due: 2027-04-30
 sr-interval: 659
 sr-ease: 208
