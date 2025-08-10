@@ -1,24 +1,22 @@
 ---
 date: <% tp.date.now("yyyy-MM-DD HH:mm") %>
 tags:
-  - daily
+  - fleeting
 ---
 
-# Sunday, July 20th, 2025
-
-## Links & Focus
+# <% tp.date.now("dddd Do MMMM YYYY HH:mm:ss") %>
 
 - [[Index]]
 - [[../TODO|TODO]]
 - [Starred Articles](http://rss.home.arpa/starred)
 - [[<% tp.date.now("yyyy-MM-DD", -1) %>|Yesterday]]
 
-## Urgent & Important
+## Weapon
 
-## Science & Programming
+## Head
 
-## Code++
+## Full-body
 
-## Art & Gamedev
+## Ends
 
-## Unsorted
+## Jewelry
