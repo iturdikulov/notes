@@ -2,8 +2,8 @@
 created: 2024-08-18T00:00+03:00
 tags:
   - blog
-  - annotation_article
-  - now_life
+  - literature
+  - JEWELRY
 author: Julian Evans
 sr-due: 2025-08-17
 sr-interval: 38

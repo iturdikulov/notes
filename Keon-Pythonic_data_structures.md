@@ -5,8 +5,8 @@ external:
 created: 2023-08-19T00:00+03:00
 tags:
   - blog
-  - Python
-  - annotation_repo
+  - WEAPON
+  - literature
 directory: ~/Computer/science/Keon-Pythonic_Data_Structures/
 sr-due: 2025-09-19
 sr-interval: 71

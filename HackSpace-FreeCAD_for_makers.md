@@ -7,7 +7,7 @@ external:
 file: ./books/FreeCAD_for_makers.pdf
 tags:
   - blog
-  - annotation_book
+  - literature
 sr-due: 2025-07-22
 sr-interval: 1
 sr-ease: 130

@@ -5,8 +5,8 @@ external:
 directory: ~/Science/math/Емелин-Кратчайший_курс_школьной_математики
 tags:
   - blog
-  - mathematics
-  - annotation_book
+  - HEAD
+  - literature
 created: 2025-01-14T11:41+03:00
 sr-due: 2025-08-16
 sr-interval: 31

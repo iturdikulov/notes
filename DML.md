@@ -2,7 +2,7 @@
 date: 2025-07-23 19:10
 tags:
   - blog
-  - DB
+  - WEAPON
 ---
 
 # Data Manipulation Language

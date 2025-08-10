@@ -4,8 +4,8 @@ created: 2025-07-16T09:07:27+03:00
 author: Richard Phillips Feynman
 tags:
   - blog
-  - research
-  - now_life
+  - literature
+  - JEWELRY
 sr-due: 2025-07-23
 sr-interval: 2
 sr-ease: 222

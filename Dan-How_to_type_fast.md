@@ -1,8 +1,8 @@
 ---
 tags:
   - blog
-  - now_software
-  - annotation_article
+  - ENDS
+  - literature
 author: Dan
 created: 2025-01-14T11:41+03:00
 external:

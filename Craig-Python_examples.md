@@ -5,8 +5,8 @@ external:
 created: 2023-08-19T00:00+03:00
 tags:
   - blog
-  - Python
-  - annotation_repo
+  - WEAPON
+  - literature
 directory: ~/Computer/programming/Craig-Python_Examples/
 sr-due: 2025-07-22
 sr-interval: 6

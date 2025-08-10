@@ -4,7 +4,7 @@ external:
   - https://inkscape.org/
 tags:
   - blog
-  - cheat-sheets
+  - JEWELRY
 sr-due: 2025-09-19
 sr-interval: 71
 sr-ease: 235

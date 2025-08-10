@@ -3,8 +3,8 @@ author: Igor Irianto
 created: 2025-01-14T11:41+03:00
 tags:
   - blog
-  - cheat-sheets
-  - annotation_book
+  - ENDS
+  - literature
 external:
   - https://learnvim.irian.to
 directory: ~/Computer/software/Irianto-Learn_Vim

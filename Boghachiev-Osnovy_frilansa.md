@@ -5,7 +5,7 @@ author:
 created: 2025-06-25T22:50:17+03:00
 tags:
   - blog
-  - annotation_book
+  - literature
 file: ./books/Boghachiev-Osnovy_frilansa.epub
 lang: ru
 sr-due: 2025-07-25

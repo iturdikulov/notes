@@ -9,8 +9,8 @@ directory:
   - ~/Computer/software/Chacon_and_Ben-Pro_Git
 tags:
   - blog
-  - VCS
-  - annotation_book
+  - ENDS
+  - literature
 sr-due: 2025-07-22
 sr-interval: 1
 sr-ease: 130

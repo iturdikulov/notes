@@ -2,7 +2,7 @@
 author: Ian Henry
 tags:
   - blog
-  - unix
+  - ENDS
 created: 2023-07-17T00:00+03:00
 external:
   - https://ianthehenry.com/posts/how-to-learn-nix/

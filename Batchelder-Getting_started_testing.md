@@ -6,9 +6,8 @@ external:
   - https://www.youtube.com/watch?v=FxSsnHeWQBY
 tags:
   - blog
-  - now
-  - computer_testing
-  - annotation_video
+  - WEAPON
+  - literature
 sr-due: 2025-09-14
 sr-interval: 66
 sr-ease: 206

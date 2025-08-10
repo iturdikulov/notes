@@ -2,7 +2,7 @@
 created: 2024-11-25T18:13+03:00
 tags:
   - blog
-  - annotation_book
+  - literature
 author: Артур Кларк
 sr-due: 2025-07-28
 sr-interval: 14

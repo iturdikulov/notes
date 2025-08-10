@@ -5,9 +5,8 @@ external:
   - https://realpython.com/pytest-python-testing/
 tags:
   - blog
-  - now
-  - computer_testing
-  - annotation_article
+  - WEAPON
+  - literature
 directory: ~/Computer/programming/Hillard-Testing_With_Pytest
 sr-due: 2025-11-06
 sr-interval: 119

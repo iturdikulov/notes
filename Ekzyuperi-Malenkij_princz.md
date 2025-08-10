@@ -2,8 +2,8 @@
 created: 2023-09-30T00:00+03:00
 tags:
   - blog
-  - now_life
-  - annotation_fiction
+  - JEWELRY
+  - literature
 author: Antoine de Saint-Exupéry
 directory: ~/Arts_and_Entertainment/literature/Antoine de Saint Exupery/The Little Prince (1009)/"
 sr-due: 2031-02-09

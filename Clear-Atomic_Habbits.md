@@ -2,7 +2,7 @@
 created: 2024-11-25T18:13+03:00
 tags:
   - blog
-  - annotation_book
+  - literature
 author: James Clear
 sr-due: 2025-07-23
 sr-interval: 9

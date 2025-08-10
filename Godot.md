@@ -4,7 +4,7 @@ external:
   - https://www.godotengine.org/
 tags:
   - blog
-  - gamedev
+  - JEWELRY
 sr-due: 2025-11-02
 sr-interval: 115
 sr-ease: 224

@@ -2,7 +2,7 @@
 created: 2025-02-08T17:23+03:00
 tags:
   - blog
-  - annotation_book
+  - literature
 author: Steve Klabnik; Carol Nichols
 external:
   - https://github.com/cognitive-engineering-lab/rust-book

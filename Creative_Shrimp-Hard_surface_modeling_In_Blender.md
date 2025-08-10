@@ -5,8 +5,8 @@ external:
 created: 2023-08-19T00:00+03:00
 tags:
   - blog
-  - 3D
-  - annotation_video
+  - JEWELRY
+  - literature
 directory: ~/Computer/graphics/Creative_Shrimp-Hard_Surface_Modeling_In_Blender
 sr-due: 2027-08-13
 sr-interval: 764

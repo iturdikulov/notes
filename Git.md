@@ -2,8 +2,7 @@
 created: 2022-12-29T00:00+03:00
 tags:
   - blog
-  - VCS
-  - cheat-sheets
+  - ENDS
 external:
   - https://git-scm.com/
 sr-due: 2025-07-23

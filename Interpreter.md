@@ -3,8 +3,7 @@ date: 2025-07-25T09:32:25+03:00
 created: 2023-05-13T00:00:00+03:00
 tags:
   - blog
-  - now
-  - computer_programming
+  - WEAPON
 sr-due: 2025-07-22
 sr-interval: 2
 sr-ease: 222
@@ -26,4 +25,4 @@ Here example how [[Python]] interpreter works:
 TODO: very small image, resize SR width
 <br class="f">
 ![[img/how_python_interpreter_works.excalidraw|Python interpreter virtual machine hand-drawn scheme]]
-_How python interpreter works_ <!--SR:!2025-08-01,2,222-->
+_How python interpreter works_ <!--SR:!2025-08-05,4,222-->

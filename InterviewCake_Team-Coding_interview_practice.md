@@ -1,9 +1,9 @@
 ---
 tags:
   - blog
-  - computer_programming
-  - computer_science
-  - annotation_book
+  - WEAPON
+  - HEAD
+  - literature
 author:
   - InterviewCake Team
 external:

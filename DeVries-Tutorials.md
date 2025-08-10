@@ -6,8 +6,8 @@ external:
 directory: ~/Computer/programming/DeVries-Tutorials/
 tags:
   - blog
-  - computer_programming
-  - annotation_video
+  - WEAPON
+  - literature
 sr-due: 2025-08-01
 sr-interval: 20
 sr-ease: 210

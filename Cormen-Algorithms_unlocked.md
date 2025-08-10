@@ -3,7 +3,7 @@ author: Thomas H. Cormen
 created: 2025-01-14T11:41+03:00
 tags:
   - blog
-  - annotation_book
+  - literature
 sr-due: 2027-07-04
 sr-interval: 724
 sr-ease: 228

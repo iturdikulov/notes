@@ -3,8 +3,7 @@ created: 2023-03-05T00:00+03:00
 author: David Allen
 tags:
   - blog
-  - now_life
-  - productivity
+  - HEAD
 sr-due: 2025-07-22
 sr-interval: 7
 sr-ease: 209

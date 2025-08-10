@@ -5,8 +5,8 @@ external: null
 archive: null
 tags:
   - blog
-  - now_science
-  - annotation_book
+  - HEAD
+  - literature
 sr-due: 2025-08-24
 sr-interval: 45
 sr-ease: 210

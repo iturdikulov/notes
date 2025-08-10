@@ -2,8 +2,8 @@
 created: 2023-09-19T00:00+03:00
 tags:
   - blog
-  - computer_programming
-  - annotation_book
+  - WEAPON
+  - literature
 author: Harold Abelson; Gerald Jay Sussman
 external:
   - http://mitpress.mit.edu/9780262510875/structure-and-interpretation-of-computer-programs/

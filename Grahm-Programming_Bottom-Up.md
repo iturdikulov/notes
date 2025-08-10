@@ -2,8 +2,8 @@
 created: 2025-02-05T22:28+03:00
 tags:
   - blog
-  - now
-  - annotation_article
+  - WEAPON
+  - literature
 author: Paul Graham
 file: ./articles/Graham_-_Programming_Bottom_Up.html
 sr-due: 2025-07-23
@@ -47,13 +47,13 @@ Changing the language to suit the problem.
 
 - Bottom-up promote code reuse?:<wbr class="f"> Yes. <!--SR:!2025-02-08,3,250-->
 
-- Bottom-up code easier to read?:<wbr class="f"> Maybe, because it's less complex. <!--SR:!2025-02-08,3,250-->
+- Bottom-up code easier to read?:<wbr class="f"> Maybe, because it's less complex. <!--SR:!2025-08-11,10,270-->
 
 - Bottom-up promote redesign more often, because you see ==similarity and patterns== in code. <!--SR:!2025-02-08,3,250-->
 
 Is it possible to do bottom-up design in programming languages other than Lisp?
 <br class="f">
-> Bottom-up design is possible to a certain degree in languages other than Lisp. Whenever you see library functions, bottom-up design is happening. <!--SR:!2025-02-08,3,250-->
+> Bottom-up design is possible to a certain degree in languages other than Lisp. Whenever you see library functions, bottom-up design is happening. <!--SR:!2025-08-13,12,270-->
 
 Is Bottom-up design in large teams fits better?
 <br class="f">

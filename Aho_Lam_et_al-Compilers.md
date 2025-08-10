@@ -2,7 +2,7 @@
 created: 2024-01-14T11:41+03:00
 tags:
   - blog
-  - annotation_book
+  - literature
 author:
   - Alfred V. Aho
   - Monica S. Lam

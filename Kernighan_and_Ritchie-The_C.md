@@ -2,8 +2,8 @@
 directory: ~/Computer/programming/Kernighan_and_Ritchie-The_C_programming_language
 tags:
   - blog
-  - computer_programming
-  - annotation_book
+  - WEAPON
+  - literature
 sr-due: 2025-11-29
 sr-interval: 674
 sr-ease: 236
@@ -28,8 +28,7 @@ Goal of the [[C#ANSI C]] standard
 <br class="f">
 Produce an unambiguous and machine-independent definition of the language C. In
 my words - universal, clear and easy to understand language because it can only
-mean one thing.
-<!--SR:!2023-05-13,1,227-->
+mean one thing. <!--SR:!2025-08-03,2,227-->
 
 Write ==useful== programs probably the best goal to learn any language.
 
@@ -68,8 +67,7 @@ Basics of C (as language, like [[variable]] and arithmetic [[expression]]).
 ### 1.1 Getting Started /9
 
 The only way to learn a new programming language is by ==writing programs== in
-it.
-<!--SR:!2023-08-01,63,267-->
+it. <!--SR:!2026-03-24,235,287-->
 
 Here [[Hello_World_program]], can you in details describe it, each
 parts?

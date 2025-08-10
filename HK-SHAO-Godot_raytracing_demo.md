@@ -3,7 +3,7 @@ author: HK-SHAO
 created: 2023-09-14T00:00+03:00
 tags:
   - blog
-  - annotation_repo
+  - literature
 external:
   - https://github.com/HK-SHAO/Godot-RayTracing-Demo
 directory: ~/Computer/graphics/stash/HK-SHAO-Godot_Raytracing_Demo/

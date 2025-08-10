@@ -5,7 +5,7 @@ external:
   - https://github.com/hyprwm/Hyprland
 tags:
   - blog
-  - cheat-sheets
+  - archive
 sr-due: 2025-11-15
 sr-interval: 118
 sr-ease: 272

@@ -3,8 +3,8 @@ author: David Flanagan
 created: 2025-01-14T11:41+03:00
 tags:
   - blog
-  - computer_programming_web
-  - annotation_book
+  - WEAPON
+  - literature
 file: ./books/Flanagan-JavaScript.pdf
 sr-due: 2025-07-22
 sr-interval: 1

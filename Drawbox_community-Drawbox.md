@@ -4,8 +4,8 @@ external:
 created: 2023-05-29T00:00+03:00
 tags:
   - blog
-  - art
-  - annotation_book
+  - JEWELRY
+  - literature
 sr-due: 2025-09-05
 sr-interval: 57
 sr-ease: 168

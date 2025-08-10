@@ -6,7 +6,7 @@ external:
 tags:
   - blog
   - archive
-  - annotation_article
+  - literature
 sr-due: 2030-08-06
 sr-interval: 1853
 sr-ease: 268

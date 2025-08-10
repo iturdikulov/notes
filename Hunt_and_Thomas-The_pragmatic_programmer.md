@@ -1,8 +1,8 @@
 ---
 tags:
   - blog
-  - computer_programming
-  - annotation_book
+  - WEAPON
+  - literature
 author:
   - Andrew Hunt; David Thomas
 external:
