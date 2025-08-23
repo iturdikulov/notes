@@ -1,15 +1,18 @@
+<%*
+let title = tp.file.title
+if (title.startsWith("Untitled")) {
+  title = await tp.system.prompt("Note Header");
+  const modTitle = title.replace(/ /g, "-").toLowerCase()
+  await tp.file.rename(modTitle);
+}
+-%>
 ---
 date: <% tp.date.now("yyyy-MM-DD HH:mm") %>
 tags:
   - blog
   - person
 ---
-<%*
-let title = tp.file.title
-if (title.startsWith("Untitled")) {
-  title = await tp.system.prompt("Note Header");
-}
--%>
+
 # Person: <% title %>
 
 place_public_photo_or_2dd
