@@ -38,7 +38,7 @@ To understand custom bullet list types check [[my_notation]] note.
 - [Learn Python, Data Viz, Pandas & More | Tutorials | Kaggle](https://www.kaggle.com/learn)
 - [ ] [[LLM]]
 - [ ] [Practical Deep Learning for Coders - Practical Deep Learning](https://course.fast.ai/)
-- [!] [Richard Feynman: Can Machines Think? - YouTube](https://www.youtube.com/watch?app=desktop&v=ipRvjS7q1DI) NO, in some ways yes and can demonstrate intelegence-like behavior. TODO: write own note?
+- [ ] [Richard Feynman: Can Machines Think? - YouTube](https://www.youtube.com/watch?app=desktop&v=ipRvjS7q1DI) NO, in some ways yes and can demonstrate intelegence-like behavior. write own note? 📅 2025-08-10 
 - [ ] [Заметки про искусственный интеллект](https://dxdt.ru/2024/07/25/13473/)
 - [ ] [Knowledge graph](https://neo4j.com/blog/what-is-knowledge-graph/)
 - [ ] [Harvard CS50’s Artificial Intelligence with Python](https://www.youtube.com/watch?v=5NgNicANyqM)

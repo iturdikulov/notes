@@ -44,7 +44,8 @@ Yes, always need to use dependency declaration and isolation, it also simplifies
 
 Where to store app environtment specific files?
 <br class="f">
-Anything which have **different value** for different environment (dev, test, prod), should be stored in repository (schemas, config files, credentials, etc.). TODO: NOT CLEAR <!--SR:!2025-01-25,1,210-->
+Anything which have **different value** for different environment (dev, test, prod), should be stored in repository (schemas, config files, credentials, etc.). 
+- [ ] NOT CLEAR <!--SR:!2025-01-25,1,210-->
 
 How to store config in 12-factor application, with code?
 <br class="f">
@@ -58,7 +59,8 @@ The twelve-factor app stores config in environment variables, which have granula
 
 What's an attacheble resource?
 <br class="f">
-External services (consumed over network) used as part of normal operation - MySQL, RabbitMQ, Redis, SMTP, etc. They are attacheble resources, and need to use same rules as for local resources. Resources are attacheble and detacheble, anytime you can replace broken resource with new one (restored from backup or re-initialized). TODO: NOT CLEAR <!--SR:!2025-08-03,2,228-->
+External services (consumed over network) used as part of normal operation - MySQL, RabbitMQ, Redis, SMTP, etc. They are attacheble resources, and need to use same rules as for local resources. Resources are attacheble and detacheble, anytime you can replace broken resource with new one (restored from backup or re-initialized).
+- [ ] NOT CLEAR <!--SR:!2025-08-03,2,228-->
 
 Is there difference for 12 factor app between local and third party services (attacheble resources)?
 <br class="f">

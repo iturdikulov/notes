@@ -13,7 +13,7 @@ Construction of a 3D object from a CAD model or a digital 3D model.
 
 I have 3D printer which use fused filament fabrication 3D printing process. models. Fused filament fabrication (FFF), also known as fused deposition modeling (with the trademarked acronym FDM), or filament freeform fabrication, is a 3D printing process that uses a continuous filament of a thermoplastic material.
 
-TODO:
+## TODO
 
 - [ ] [Creality K1 silent toolhead covers (5015 or 5020 fan) by Stanislau Shchahliak | Download free STL model | Printables.com](https://www.printables.com/model/797223-creality-k1-silent-toolhead-covers-5015-or-5020-fa)
 - [ ] https://store.creality.com/blogs/all/k1c-maintenance-tips
@@ -112,15 +112,18 @@ Helper scripts recommended items from Tombraider2006 [^1]:
 
 On issuse with purging (`variable_purge_margin` doesn't help), like outline/support overlap, need to disable `adaptive_purge_line` in Web UI. TPU printing: need to tune printing profile and add _ADAPTIVE_PURGE_LINE_OFF in the start code and _ADAPTIVE_PURGE_LINE_ON in the end code.
 
-7 Buzzer Support (beep sound), TODO: check later
+7 Buzzer Support (beep sound), 
+- [ ] check later
 
 8 Nozle Cleaning Fan Control (improve algorithm speed)
 
-9 Fans Control Macros, TODO: check this when print with ABS
+9 Fans Control Macros, 
+- [ ] check this when print with ABS
 
-TODO: check later 10 Improved Shapers Calibrations 11 Useful macros 12 Save Z-Offset Macros
+- [ ] check later 10 Improved Shapers Calibrations 11 Useful macros 12 Save Z-Offset Macros
 
-16 Moonraker Timelapse, TODO: check this later
+16 Moonraker Timelapse, 
+- [ ] check this later
 
 ## Replace filament
 
@@ -142,7 +145,7 @@ TODO: check later 10 Improved Shapers Calibrations 11 Useful macros 12 Save Z-Of
 
 Number 1
 
-- [Creality K1 X Axis Resonance and Buzzing Fix (SUPER SIMPLE!) - YouTube](https://www.youtube.com/watch?v=eWtgwboWTi8) [XY Axis Belt Tension | Creality Wiki](https://wiki.creality.com/en/k1-flagship-series/k1-series-general-documents/xy-axis-belt-tension) [Z-axis Belt Tension | Creality Wiki](https://wiki.creality.com/en/k1-flagship-series/k1-series-general-documents/z-axis-belt-tension) [Creality K1 belt tension meter by RaduSorin1 | Download free STL model | Printables.com](https://www.printables.com/model/523382-creality-k1-belt-tension-meter/comments) TODO: pid calibration control: pid # алгоритм управления нагревателем pid или watermark (регулирование по гистерезису. Гистерезис задается добавлением строки « max_ delta: ». По умолчанию 2 градуса). *** https://www.reddit.com/r/crealityk1/comments/176g33d/heater_extruder_not_heating_at_expected_rate/ [Creality K1 & K1C top mounted filament spool holder (new version 2) for TPU, etc. by Mr TVR | Download free STL model | Printables.com](https://www.printables.com/model/624848-creality-k1-k1c-top-mounted-filament-spool-holder)
+- [Creality K1 X Axis Resonance and Buzzing Fix (SUPER SIMPLE!) - YouTube](https://www.youtube.com/watch?v=eWtgwboWTi8) [XY Axis Belt Tension | Creality Wiki](https://wiki.creality.com/en/k1-flagship-series/k1-series-general-documents/xy-axis-belt-tension) [Z-axis Belt Tension | Creality Wiki](https://wiki.creality.com/en/k1-flagship-series/k1-series-general-documents/z-axis-belt-tension) [Creality K1 belt tension meter by RaduSorin1 | Download free STL model | Printables.com](https://www.printables.com/model/523382-creality-k1-belt-tension-meter/comments) - [ ] pid calibration control: pid # алгоритм управления нагревателем pid или watermark (регулирование по гистерезису. Гистерезис задается добавлением строки « max_ delta: ». По умолчанию 2 градуса). *** https://www.reddit.com/r/crealityk1/comments/176g33d/heater_extruder_not_heating_at_expected_rate/ [Creality K1 & K1C top mounted filament spool holder (new version 2) for TPU, etc. by Mr TVR | Download free STL model | Printables.com](https://www.printables.com/model/624848-creality-k1-k1c-top-mounted-filament-spool-holder)
 
 Я делал последний раз проще, годится только для боудена в чистом виде, хотя можно адаптировать. Пластик ФДпласт идет в ZIF пакетах , не считая коробки. Просто делаю отверстие в углу шилом на 3-4 см ниже 'молнии пакета' и 1 см в сторону от угла. Вытаскиваю нить, оборачиваю углом пакета (тем что отступили) и степлером скрепляю. Одно отверстие если делать растягивается, поэтому нужно обернуть. Пластик так и остается в пакете, по целофану катушка легко крутится. Со временем стало пакет заворачивать в сторону мотора экструдера, приклеил скотчем противоположную сторону пакета к шкафу (он рядом). Пользуюсь так чуть меньше месяца, никаких проблем, пластик всегда сухой.
 
