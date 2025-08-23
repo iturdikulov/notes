@@ -2,7 +2,7 @@
 created: 2023-03-05T00:00+03:00
 tags:
   - blog
-  - ENDS
+  - ends
 external:
   - https://www.mozilla.org/en-US/firefox
 sr-due: 2025-07-22
@@ -10,7 +10,7 @@ sr-interval: 4
 sr-ease: 270
 ---
 
-TODO: merge with [[browser_shortcuts]]
+- [ ] merge with [[browser_shortcuts]]
 
 # Firefox
 

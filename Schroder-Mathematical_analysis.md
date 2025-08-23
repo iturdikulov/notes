@@ -3,7 +3,7 @@ created: 2025-01-14T11:41+03:00
 author: Bernd S. W. Schröder
 tags:
   - blog
-  - HEAD
+  - head
   - literature
 directory: ~/Arts_and_Entertainment/literature/Bernd Schroder/Mathematical Analysis A Concise Introduction (2379)/
 sr-due: 2025-09-12

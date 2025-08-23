@@ -111,7 +111,7 @@ The built-in names actually also live in a module; this is called
 ==`__builtins__`, `dir(__builtins__)`==: The module that provides the built-in
 namespace.
 
-<!-- TODO: Need to research -->
+<!-- - [ ] Need to research -->
 
 How local namespace for a function is created/deleted?
 <br class="f">

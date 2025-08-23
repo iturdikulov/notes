@@ -2,7 +2,7 @@
 author: Jonathan Lampel
 tags:
   - blog
-  - JEWELRY
+  - jewelry
   - literature
 created: 2023-12-12T00:00+03:00
 external:
@@ -170,7 +170,7 @@ Duplicate linked (`M-D` instead `S-D`) create linked copy, it duplicates object 
 How to change pivot point?
 <br class="f">
 You can change transform pivot point (center of the header section), for example rotate around 3D cursor, or bounding box center, or around active object, or around median point.
-TODO: Median point in blender.
+- [ ] Median point in blender.
 
 How to change grid size?
 <br class="f">
@@ -180,7 +180,7 @@ How to quickly set object dimensions to 1 meter, 1 km, 1 cm for example (without
 <br class="f">
 Blender support unit prefixes in values, for example 1 mm, 1 cm, 1 m, 1 km, etc. If you type 1 km in some input (`Transform panel` for example) it will be automatically converted to meters.
 
-You can enable `Absolute Grid Snap` in snapping settings, to snap object by ==pivot center== all time, no matter what initial position was. TODO: not clear.
+You can enable `Absolute Grid Snap` in snapping settings, to snap object by ==pivot center== all time, no matter what initial position was. - [ ] not clear.
 
 Which snapping modes are available?
 <br class="f">
@@ -228,7 +228,7 @@ You can select all objects in collection by `RMB` on collection and click on `Se
 
 You can group multiple objects by Empty object and parenting ==(`C-P`)==, useful when you need to transform group of items and visualize selection of them in viewport.
 
-TODO: note backface culling (can be enabled in shading options).
+- [ ] note backface culling (can be enabled in shading options).
 
 Can shade smooth be applied to individual faces?
 <br class="f">

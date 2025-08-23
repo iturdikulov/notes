@@ -21,7 +21,7 @@ Does not rely on boot sectors, instead it uses bootloaders (EFI application file
 UEFI support code signing, so it's possible to verify that bootloader is not modified.
 
 ## Partition tables
-TODO: move into own note!
+- [ ] move into own note!
 
 Usually disks must be partitioned and there are two definitions how to store partition information.
 

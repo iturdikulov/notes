@@ -17,7 +17,7 @@ sr-ease: 263
 
 Personally I have DMOZ categories data files, which I use as inspiration to organize my files. It's sort of [[FHS]] but for my local files.
 
-Usually use [[Ripgrep]] to find required categories.
+Usually use [[ripgrep_rg]] to find required categories.
 
 ```sh
 rg figlet ~/Computer/data/dmoz_category

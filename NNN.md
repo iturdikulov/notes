@@ -2,7 +2,7 @@
 created: 2023-04-02T00:00+03:00
 tags:
   - blog
-  - ENDS
+  - ends
 external:
   - https://github.com/jarun/nnn
 sr-due: 2025-07-22
@@ -309,7 +309,7 @@ Go HOME
 <br class="f">
 <kbd>~</kbd>
 
-TODO:
+- [ ]
 
 - bookmarks
 - Hot-plugged drives

@@ -5,7 +5,7 @@ external:
   - https://obsidian.md/
 tags:
   - blog
-  - ENDS
+  - ends
 sr-due: 2025-07-22
 sr-interval: 5
 sr-ease: 226

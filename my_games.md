@@ -9,7 +9,7 @@ sr-ease: 285
 
 # My Games
 
-TODO: add links inside all lists.
+- [ ] add links inside all lists.
 
 I play computer games, though not excessively, usually on my [[computer]] for fun and education. Sometimes I develop games and mods.
 

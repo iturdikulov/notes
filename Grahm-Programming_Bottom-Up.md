@@ -2,7 +2,7 @@
 created: 2025-02-05T22:28+03:00
 tags:
   - blog
-  - WEAPON
+  - work-tool
   - literature
 author: Paul Graham
 file: ./articles/Graham_-_Programming_Bottom_Up.html

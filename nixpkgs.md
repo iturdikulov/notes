@@ -18,7 +18,7 @@ Nixpkgs is a collection of over 80,000 software packages that can be installed w
 
 ### Problem
 
-<!-- TODO: maybe no more actual -->
+<!-- - [ ] maybe no more actual -->
 
 [There isn a clear canonical way to refer to a specific package version. · Issue #93327 · NixOS/nixpkgs · GitHub](https://github.com/NixOS/nixpkgs/issues/93327).
 

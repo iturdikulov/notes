@@ -17,7 +17,7 @@ My primary interest with this [[game]] is modding possibilities, Papyrus scripti
 
 Basically I install Mod Organizer 2 and some recommended mods.
 
-TODO: review [Modding Skyrim SE on Linux - A Headache Minimization Guide at Skyrim Special Edition Nexus - Mods and Community](https://www.nexusmods.com/skyrimspecialedition/mods/91500)
+- [ ] review [Modding Skyrim SE on Linux - A Headache Minimization Guide at Skyrim Special Edition Nexus - Mods and Community](https://www.nexusmods.com/skyrimspecialedition/mods/91500)
 
 Simplified Mod Organizer 2 installation guide: [steamtinker](https://github.com/sonic2kk/steamtinkerlaunch/wiki/Mod-Organizer-2).
 

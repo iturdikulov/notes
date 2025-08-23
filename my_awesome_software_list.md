@@ -48,7 +48,7 @@ To understand custom bullet list types check [[my_notation]] note.
 - [[fzf]] - Command-line fuzzy finder
 - [cloc](https://github.com/AlDanial/cloc) - Code line counter
 - [[jq]] - JSON processor
-- [[ripgrep]] - Regex search tool
+- [[ripgrep_rg]] - Regex search tool
 - [ripgrep-all](https://github.com/phiresky/ripgrep-all) - Enhanced ripgrep
 - [[Neovim]] - Text editor, my [[PDE]]
 - [[GNU_Sed]]

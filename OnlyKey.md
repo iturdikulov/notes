@@ -52,7 +52,7 @@ auth include u2f-required
 reboot
 ```
 
-TODO: need to ingerate with NixOS, 2 keys (backup).
+- [ ] need to ingerate with NixOS, 2 keys (backup).
 
 ## External links
 

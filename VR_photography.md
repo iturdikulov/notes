@@ -14,7 +14,7 @@ sr-ease: 270
 
 ## External links
 
-- TODO: files examples?
+- - [ ] files examples?
 - [Explore World](https://www.explordle.com/map/wor)
 - [Stock 360°](https://www.360cities.net/)
 - [Random Street View](https://randomstreetview.com/)

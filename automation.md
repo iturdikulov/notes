@@ -13,7 +13,7 @@ sr-ease: 203
 
 ## Monitoring
 
-TODO: review note
+- [ ] review note
 
 - [ ] [[backup]] monitoring
 - [ ] Automatic problems informing via [[email]]

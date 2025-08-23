@@ -15,4 +15,4 @@ sr-ease: 251
 
 I store some encyclopedias in `.zim` format, which can be opened in [[kiwix]].
 
-TODO: merge with wiki?
+- [ ] Merge with wiki?

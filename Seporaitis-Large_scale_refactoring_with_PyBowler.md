@@ -6,7 +6,7 @@ directory: ~/Computer/programming/Seporaitis-Large_Scale_Refactoring_With_PyBowl
 archive: true
 tags:
   - blog
-  - WEAPON
+  - work-tool
   - literature
 sr-due: 2025-11-08
 sr-interval: 121

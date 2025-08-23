@@ -5,7 +5,7 @@ external:
 created: 2023-08-19T00:00+03:00
 tags:
   - blog
-  - JEWELRY
+  - jewelry
   - literature
 directory: ~/Computer/graphics/Creative_Shrimp-Hard_Surface_Modeling_In_Blender
 sr-due: 2027-08-13

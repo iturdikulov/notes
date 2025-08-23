@@ -2,7 +2,7 @@
 created: 2023-09-19T00:00+03:00
 tags:
   - blog
-  - WEAPON
+  - work-tool
   - literature
 author: Harold Abelson; Gerald Jay Sussman
 external:

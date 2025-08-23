@@ -13,7 +13,7 @@ Install & configure RetroArch on arch-based system!
 
 ## Install
 
-TODO: rewrite this section and use NixOS setup
+- [ ] rewrite this section and use NixOS setup
 
 ```bash
 # install package

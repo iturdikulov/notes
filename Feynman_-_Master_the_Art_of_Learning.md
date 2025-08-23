@@ -5,7 +5,7 @@ author: Richard Phillips Feynman
 tags:
   - blog
   - literature
-  - JEWELRY
+  - jewelry
 sr-due: 2025-07-23
 sr-interval: 2
 sr-ease: 222

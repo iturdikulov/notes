@@ -23,7 +23,7 @@ I currently use it to "fix" some specific display and perfomance issues with [[g
 
 ## Keyboard shortcuts
 
-To use shortcuts need to enable keyboard passthrough, with `D-F1` hotkey (`D-S-F1` to disable). TODO: maybe something changed: [issue: Super key for shortcuts considered harmful](https://github.com/ValveSoftware/gamescope/issues/391).
+To use shortcuts need to enable keyboard passthrough, with `D-F1` hotkey (`D-S-F1` to disable). - [ ] maybe something changed: [issue: Super key for shortcuts considered harmful](https://github.com/ValveSoftware/gamescope/issues/391).
 
 - Toggle fullscreen:<wbr class="f"> `D-f`
 - Toggle nearest neighbour filtering:<wbr class="f"> `D-n`

@@ -19,7 +19,7 @@ To be an effective programmer is one of my primary [[my_goals#Goal 1 Become an e
 
 ## Career Plan
 
-TODO: Scratch! Requiring a lot rewriting work.
+- [ ] Scratch! Requiring a lot rewriting work.
 
 - Development of complex software systems using Python (7.2/10), Go (2/10), C (2/10).
   - Python with modern asyncio, libraries and frameworks, type hints.
@@ -68,7 +68,7 @@ Additional Skills:
 
 ## Platforms
 
-TODO: add personal links.
+- [ ] add personal links.
 
 - Kwork
 - [Upwork](https://www.upwork.com/)

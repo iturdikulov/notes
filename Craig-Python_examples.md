@@ -5,7 +5,7 @@ external:
 created: 2023-08-19T00:00+03:00
 tags:
   - blog
-  - WEAPON
+  - work-tool
   - literature
 directory: ~/Computer/programming/Craig-Python_Examples/
 sr-due: 2025-07-22

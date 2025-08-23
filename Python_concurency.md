@@ -2,7 +2,7 @@
 created: 2025-02-14T08:37+03:00
 tags:
   - blog
-  - WEAPON
+  - work-tool
 sr-due: 2025-07-22
 sr-interval: 1
 sr-ease: 130
@@ -10,13 +10,13 @@ sr-ease: 130
 
 # Python concurrency
 
-TODO: review and rewrite!
+- [ ] review and rewrite!
 
 Various notes on concurrency in [[Python]]. Main information source is
 FastAPI tutorial [^1], realpython concurrency article [^2] and official
 documentation [^3].
 
-TODO: check [^2] and [^3] in details.
+- [ ] check [^2] and [^3] in details.
 
 The dictionary definition of concurrency is ==simultaneous== occurrence.
 
@@ -49,7 +49,7 @@ Concurrency types:
 ## Learning path
 
 - [Асинхронный python без головной боли (часть 1) / Хабр](https://habr.com/ru/articles/667630/)
-- parallel_loops_in_python TODO: prepare book
+- parallel_loops_in_python - [ ] prepare book
 - [Asyncio complete tutorial](https://superfastpython.com/python-asyncio/)
 - [Ускорение Python в 2 раза с помощью multiprocessing, async и MapReduce / Хабр](https://habr.com/ru/articles/825206/)
 - [python - How does asyncio actually work? - Stack Overflow](https://stackoverflow.com/questions/49005651/how-does-asyncio-actually-work)

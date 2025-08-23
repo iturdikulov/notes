@@ -15,4 +15,4 @@ The key combination consists of Alt+SysRq (PrntScr) and another key, which contr
 
 A common use of the magic SysRq key is to perform a safe reboot of a Linux computer which has otherwise locked up (abbr. REISUB). This can prevent a fsck being required on reboot and gives some programs a chance to save emergency backups of unsaved work. The QWERTY (or AZERTY) mnemonics: "Raising Elephants Is So Utterly Boring", "Reboot Even If System Utterly Broken" or simply the word "BUSIER" read backwards, are often used to remember the following SysRq-keys sequence:
 
-TODO: source required
+- [ ] source required

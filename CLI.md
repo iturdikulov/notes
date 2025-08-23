@@ -9,4 +9,4 @@ sr-ease: 208
 
 # Command-line interface (CLI)
 
-TODO: add term
+- [ ] add term

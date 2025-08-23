@@ -2,7 +2,7 @@
 created: 2023-09-21T00:00+03:00
 tags:
   - blog
-  - JEWELRY
+  - jewelry
   - literature
 author:
   - Волков Николай

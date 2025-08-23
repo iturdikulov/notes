@@ -2,7 +2,7 @@
 author: Thomas H. Cormen; Charles E. Leiserson; Ronald L. Rivest; Clifford Stein
 tags:
   - blog
-  - HEAD
+  - head
   - literature
 directory: ~/Computer/science/Cormen_et_al-Introduction_to_algorithms
 created: 2025-01-14T11:41+03:00
@@ -13,7 +13,7 @@ sr-ease: 258
 
 # Introduction to Algorithms
 
-TODO: add authors
+- [ ] add authors
 
 The leading introductory textbook and reference on algorithms.
 

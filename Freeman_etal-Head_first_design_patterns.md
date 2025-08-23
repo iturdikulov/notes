@@ -3,7 +3,7 @@ author: Eric Freeman; Elisabeth Robson
 created: 2024-11-25T12:04+03:00
 tags:
   - blog
-  - WEAPON
+  - work-tool
   - literature
 sr-due: 2025-09-20
 sr-interval: 604

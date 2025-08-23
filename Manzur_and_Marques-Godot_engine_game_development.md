@@ -3,7 +3,7 @@ author: Ariel Manzur; George Marques
 created: 2023-09-14T00:00+03:00
 tags:
   - blog
-  - JEWELRY
+  - jewelry
   - literature
 directory: ~/Computer/graphics/Manzur_and_Marques-Godot_Engine_Game_Development/
 sr-due: 2031-01-19

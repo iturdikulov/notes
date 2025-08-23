@@ -2,7 +2,7 @@
 created: 2023-03-15T00:00+03:00
 tags:
   - blog
-  - WEAPON
+  - work-tool
 sr-due: 2025-07-22
 sr-interval: 6
 sr-ease: 225
@@ -44,4 +44,4 @@ strings -n n -t d[x] path/to/file
 
 ## String literal
 
-TODO: add term
+- [ ] add term

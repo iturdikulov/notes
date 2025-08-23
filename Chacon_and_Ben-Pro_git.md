@@ -9,7 +9,7 @@ directory:
   - ~/Computer/software/Chacon_and_Ben-Pro_Git
 tags:
   - blog
-  - ENDS
+  - ends
   - literature
 sr-due: 2025-07-22
 sr-interval: 1

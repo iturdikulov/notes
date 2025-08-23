@@ -2,7 +2,7 @@
 created: 2023-04-06T00:00+03:00
 tags:
   - blog
-  - ENDS
+  - ends
 external:
   - https://github.com/nvim-telescope/telescope.nvim
 sr-due: 2025-07-27

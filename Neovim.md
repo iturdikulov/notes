@@ -2,7 +2,7 @@
 created: 2023-02-20T00:00+03:00
 tags:
   - blog
-  - ENDS
+  - ends
 external:
   - https://neovim.io/
 directory:
@@ -33,7 +33,7 @@ Environment).
 
 ## Learning path
 
-TODO: global rewrite
+- [ ] global rewrite
 
 To understand custom bullet list types check [[my_notation]] note.
 
@@ -191,7 +191,7 @@ Use (a/i/r) keys:
 
 ## Search & replace
 
-Grep content in current project and open find toolbar (custom):<wbr class="f"> `<leader>fs`, TODO: remap
+Grep content in current project and open find toolbar (custom):<wbr class="f"> `<leader>fs`, - [ ] remap
 
 `/`:<wbr class="f"> search mode
 
@@ -432,7 +432,7 @@ Jump to function/variable definition (body of function):<wbr class="f"> `gd`
 
 Go to type definition (object class for example):<wbr class="f"> `go`
 
-Jump to function/variable implementation:<wbr class="f"> `gI`, TODO: not sure what this means
+Jump to function/variable implementation:<wbr class="f"> `gI`, - [ ] not sure what this means
 
 Find symbol, find symbol based on grep:`<leader>vws[S]`
 
@@ -567,7 +567,7 @@ Duplicate line and stay on same line:<wbr class="f"> `yyP`
 
 Fix spaces / tabs issues in whole file:<wbr class="f"> `:%retab`
 
-Insert new line above/below (custom keybinding and command):<wbr class="f"> `[<space>`, `]<space>`, TODO: delete line above/below?
+Insert new line above/below (custom keybinding and command):<wbr class="f"> `[<space>`, `]<space>`, - [ ] delete line above/below?
 
 ### kylechui/nvim-surround
 
@@ -681,7 +681,7 @@ Bullet demote:<wbr class="f"> `<C-t>` or `>>` or `>` in visual mode
 
 URL to markdown → clipboard → paste:<wbr class="f"> <S-v>
 
-TODO: HTML/other? to Markdown → clipboard → paste
+- [ ] HTML/other? to Markdown → clipboard → paste
 
 ### Markdown Snippets
 
@@ -955,7 +955,7 @@ You can use the `:reg[a|b|c]` command to see all the registers and their
 content. If you use `qw` to record a macro, the register `"w` will have all
 actions which you have done.
 
-The unnamed register (yank, delete):<wbr class="f"> `""`, TODO: need review
+The unnamed register (yank, delete):<wbr class="f"> `""`, - [ ] need review
 
 10 numbered registers (latest yank, newest, ..., oldest):<wbr class="f"> `"0` to `"9`
 
@@ -1261,9 +1261,9 @@ In neovim it's `[+]` in the status line (after filename)
 
 List keybindings of current buffer:<wbr class="f"> `WhichKey`
 
-Find keybinding by using `which-key`:<wbr class="f"> `<leader>fk`, TODO: need to change, conflict with auto-format
+Find keybinding by using `which-key`:<wbr class="f"> `<leader>fk`, - [ ] need to change, conflict with auto-format
 
-Find action:<wbr class="f"> `<leader>fK`, TODO: need to change, conflict with auto-format
+Find action:<wbr class="f"> `<leader>fK`, - [ ] need to change, conflict with auto-format
 
 Help tags:<wbr class="f"> `<leader>fh`
 

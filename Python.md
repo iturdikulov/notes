@@ -3,7 +3,7 @@ date: 2025-07-11T10:48:44+03:00
 created: 2022-12-29T00:00:00+03:00
 tags:
   - blog
-  - WEAPON
+  - work-tool
 sr-due: 2025-07-22
 sr-interval: 1
 sr-ease: 130
@@ -126,7 +126,7 @@ List of materials to review with [[my_notation]]:
 
 ### Libraries and frameworks
 
-TODO: review
+- [ ] review
 
 - [Python Packaging User Guide](https://packaging.python.org/en/latest/)
 - [A curated list of awesome Python frameworks, libraries, software and resources](https://github.com/vinta/awesome-python)

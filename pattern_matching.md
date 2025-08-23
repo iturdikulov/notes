@@ -9,4 +9,4 @@ sr-ease: 228
 
 # Pattern matching
 
-TODO: add term
+- [ ] add term

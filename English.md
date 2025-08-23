@@ -2,7 +2,7 @@
 created: 2023-03-06T00:00+03:00
 tags:
   - blog
-  - ENDS
+  - ends
 sr-due: 2025-10-28
 sr-interval: 110
 sr-ease: 186
@@ -26,7 +26,7 @@ I have own learning path, which can help me to understand English materials, med
 
 ## Learning path
 
-TODO: better group resources
+- [ ] better group resources
 
 I usually just read/consume some content in [[English]]. [[touch_typing|Touch typing]] greatly help me to memorize words and phrases.
 

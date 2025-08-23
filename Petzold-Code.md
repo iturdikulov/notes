@@ -3,7 +3,7 @@ author: Charles Petzold
 created: 2024-11-05T00:00+03:00
 tags:
   - blog
-  - WEAPON
+  - work-tool
   - literature
 lang: ru
 sr-due: 2025-07-22

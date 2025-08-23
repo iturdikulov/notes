@@ -39,4 +39,4 @@ In `(...)` are keys to use listed feature, need press prefix key and then key in
 - Image previews, via `catimg`, `viu`, or extension
 - Calendar support (`c`), but I prefer to use [[Taskwarrior]] and [[Thunderbird]]
 
-## TODO: Plugins
+## - [ ] Plugins

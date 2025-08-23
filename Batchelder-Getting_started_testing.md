@@ -6,7 +6,7 @@ external:
   - https://www.youtube.com/watch?v=FxSsnHeWQBY
 tags:
   - blog
-  - WEAPON
+  - work-tool
   - literature
 sr-due: 2025-09-14
 sr-interval: 66
@@ -35,7 +35,7 @@ Features of unit-testing, what are the benefits of unit testing?
 ## Growing tests
 
 How to tests must be written?
-TODO: rewrite
+- [ ] rewrite
 <br class="f">
 - Automated (low effort and repeatable)
 - Tests must be repeatable with low effort (run independently, fast)
@@ -113,7 +113,7 @@ assertSequenceEqual(a, b)
 assertItemsEqual(a, b)
 ...
 ```
-TODO: test
+- [ ] test
 
 Can you write own base class with custom assert method?
 <br class="f">
@@ -130,7 +130,7 @@ class PortfolioTest(...):
 ```
 
 How to call function in unittest to test?
-TODO: not clear
+- [ ] not clear
 <br class="f">
 Unittest can't call the function to test (for example with wrong number of arguments), you need use special `assertRaises` method with context manager.
 ```python

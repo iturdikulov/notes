@@ -1,7 +1,7 @@
 ---
 tags:
   - blog
-  - ENDS
+  - ends
 created: 2023-07-17T00:00+03:00
 external:
   - https://www.youtube.com/playlist?list=PL-saUBvIJzOkjAw_vOac75v-x6EzNzZq-
@@ -501,7 +501,7 @@ You can put in outputs various things:
 
 ## External links
 
-TODO:
+- [ ]
  - follow config guide
  - https://github.com/nix-community/home-manager/issues/2216#issuecomment-917507881
 

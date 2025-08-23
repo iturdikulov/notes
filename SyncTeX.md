@@ -4,7 +4,7 @@ external:
   - https://itexmac.sourceforge.net/SyncTeX.html
 tags:
   - blog
-  - ENDS
+  - ends
 sr-due: 2025-07-22
 sr-interval: 4
 sr-ease: 270

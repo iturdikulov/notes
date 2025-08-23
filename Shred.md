@@ -6,7 +6,7 @@ external:
   - https://www.gnu.org/software/coreutils/manual/html_node/shred-invocation.html
 tags:
   - blog
-  - HEAD
+  - head
 sr-due: 2025-09-16
 sr-interval: 68
 sr-ease: 247

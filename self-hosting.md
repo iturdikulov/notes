@@ -15,7 +15,7 @@ sr-ease: 250
 
 For me self-hosting is way to easily share data between devices, and to have full control over my data with minimal latency, and maximal speed.
 
-TODO: review this services and maybe add some of them to my self-hosting: [envs.net | environments](https://envs.net/)
+- [ ] review this services and maybe add some of them to my self-hosting: [envs.net | environments](https://envs.net/)
 
 ## External links
 

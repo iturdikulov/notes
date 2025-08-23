@@ -9,6 +9,6 @@ sr-ease: 259
 
 # VisiData
 
-TODO:
+- [ ]
 
 - [An Introduction to VisiData — An Introduction to VisiData](https://jsvine.github.io/intro-to-visidata/)

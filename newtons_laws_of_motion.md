@@ -2,7 +2,7 @@
 created: 2023-03-19T00:00+03:00
 tags:
   - blog
-  - HEAD
+  - head
 sr-due: 2025-07-22
 sr-interval: 5
 sr-ease: 232
@@ -17,7 +17,7 @@ sr-ease: 232
 > 	1. If two bodies exert forces on each other, these forces have the same ==magnitude but== opposite directions.\
 >    — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Newton%27s_laws_of_motion)</cite>
 
-TODO: completely understand the three laws of motion.
+- [ ] completely understand the three laws of motion.
 
 ## External links
 

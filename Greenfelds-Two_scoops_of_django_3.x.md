@@ -2,7 +2,7 @@
 created: 2023-09-13T00:00+03:00
 tags:
   - blog
-  - WEAPON
+  - work-tool
   - literature
 external:
   - https://www.feldroy.com/books/two-scoops-of-django-3-x

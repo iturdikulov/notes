@@ -4,7 +4,7 @@ created: 2025-01-14T11:41+03:00
 directory: ~/Computer/programming/Matthes-Python_Crash_Course
 tags:
   - blog
-  - WEAPON
+  - work-tool
   - literature
 sr-due: 2025-07-22
 sr-interval: 4

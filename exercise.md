@@ -2,7 +2,7 @@
 created: 2022-12-29T00:00+03:00
 tags:
   - blog
-  - FULL-BODY
+  - full-body
 sr-due: 2025-07-22
 sr-interval: 4
 sr-ease: 224
@@ -18,4 +18,4 @@ sr-ease: 224
 
 I have my own plan to do [[my_physical_exercise_plan.ru]].
 
-TODO: merge with my daily exercises?
+- [ ] merge with my daily exercises?

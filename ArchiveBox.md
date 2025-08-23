@@ -15,7 +15,7 @@ Self-hosted internet archiving solution. I tried to use it, but I found it a lit
 
 And I avoided using it, and instead I'm going to build my own archiving solution, based on [[SingleFile_CLI]], [[chromium]] PDF printing and Postlight Parser based HTML DOM dump.
 
-TODO: implement/write own note
+- [ ] implement/write own note
 
 ## TODO
 

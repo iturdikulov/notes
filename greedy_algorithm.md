@@ -9,4 +9,4 @@ sr-ease: 230
 
 # Greedy algorithm
 
-TODO: add term
+- [ ] add term

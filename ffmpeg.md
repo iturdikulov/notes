@@ -16,7 +16,7 @@ sr-ease: 252
 
 I widely use FFmpeg in various wrappers and sometimes directly. Best example is slightly modified [Luke Smith's](https://lukesmith.xyz/) [ffmpeg screen record script](https://raw.githubusercontent.com/LukeSmithxyz/voidrice/master/.local/bin/dmenurecord).
 
-TODO: place my version here.
+- [ ] place my version here.
 
 ## [How to Add Chapters to MP4s with FFmpeg - Kyle Howells](https://ikyle.me/blog/2020/add-mp4-chapters-ffmpeg)
 

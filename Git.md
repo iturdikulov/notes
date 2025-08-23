@@ -2,7 +2,7 @@
 created: 2022-12-29T00:00+03:00
 tags:
   - blog
-  - ENDS
+  - ends
 external:
   - https://git-scm.com/
 sr-due: 2025-07-23
@@ -132,7 +132,7 @@ Show full change history. Is possible to list remote changes?
 
 How to customize output of `git log`, for example:
 
-TODO: very complex, simplify!
+- [ ] very complex, simplify!
 - show full branch names
 - hide branch names
 - compact view of log, limit to 1 commit
@@ -163,7 +163,7 @@ A: decorate flags
 * 351cadb A: add contents.md
 ```
 
-TODO: very complex, simplify!
+- [ ] very complex, simplify!
 Can you explain output (only significant parts)?
 <br class="f">
 - `*` asterisk represent commit
@@ -211,7 +211,7 @@ Show change history for file/directory including diffs
 <br class="f">
 `git log -p [file/directory]`
 
-View differences of branches/stash with meld, other tool? TODO: review this
+View differences of branches/stash with meld, other tool? - [ ] review this
 <br class="f">
 ```sh
 ## To get list of toolname runt this:
@@ -721,7 +721,7 @@ git stash pop
 git add .
 ```
 
-TODO: very complex
+- [ ] very complex
 How to implement typical and simple Git workflow with pull-requests and feature branches, main steps?
 <br class="f">
 1. Update my local main branch with `git pull [origin main]`

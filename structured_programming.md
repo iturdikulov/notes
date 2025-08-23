@@ -9,4 +9,4 @@ sr-ease: 164
 
 # Structured programming
 
-TODO: add term
+- [ ] add term

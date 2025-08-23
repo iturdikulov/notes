@@ -9,4 +9,4 @@ sr-ease: 250
 
 # Bootstrapping (compilers)
 
-TODO: add term
+- [ ] add term

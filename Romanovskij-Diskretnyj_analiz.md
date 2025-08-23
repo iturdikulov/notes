@@ -4,7 +4,7 @@ created: 2025-01-14T11:41+03:00
 directory: ~/Arts_and_Entertainment/literature/Iosif Romanovsky/Diskrietnyi analiz (2274)/
 tags:
   - blog
-  - HEAD
+  - head
   - literature
 sr-due: 2025-07-29
 sr-interval: 8

@@ -2,7 +2,7 @@
 created: 2025-02-06T09:50+03:00
 tags:
   - blog
-  - ENDS
+  - ends
 sr-due: 2025-07-22
 sr-interval: 1
 sr-ease: 130
@@ -1200,7 +1200,7 @@ avg(7)  # (8+7)/3 => 5.0
 
 How to use anonymous functions?
 <br class="f">
-<!-- TODO: more info about anonymous functions -->
+<!-- - [ ] more info about anonymous functions -->
 We can define anonymous functions with `lambda` keyword.
 ```python
 (lambda x: x > 2)(3)                  # => True
@@ -1208,7 +1208,7 @@ We can define anonymous functions with `lambda` keyword.
 ```
 
 Is Python has built-in higher order functions?
-<!-- TODO: more info about higher order functions -->
+<!-- - [ ] more info about higher order functions -->
 <br class="f">
 There are built-in higher order functions
 ```python

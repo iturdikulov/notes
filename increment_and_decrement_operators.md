@@ -10,4 +10,4 @@ sr-ease: 228
 
 # Increment and decrement operators
 
-TODO: add term
+- [ ] add term

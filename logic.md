@@ -9,4 +9,4 @@ sr-ease: 209
 
 # Logic
 
-TODO: add term
+- [ ] add term

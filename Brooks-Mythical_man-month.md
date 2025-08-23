@@ -4,7 +4,7 @@ author: Fred Brooks
 tags:
   - blog
   - literature
-  - JEWELRY
+  - jewelry
 directory: ~/Arts_and_Entertainment/literature/Frederick Brooks/Mythical Man-Month, The_ Essays on Software Engineering, Anniversary Edition (1830)/
 sr-due: 2025-07-22
 sr-interval: 4

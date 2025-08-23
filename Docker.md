@@ -13,7 +13,7 @@ Cleanup `subvolumes`, warning this is dangerous!
 
 `docker rmi $(docker images --quiet --filter "dangling=true")`
 
-`docker rmi $(docker images|grep aws)` TODO: not working, need to review
+`docker rmi $(docker images|grep aws)` - [ ] not working, need to review
 
 `docker system prune` after image cleanup.
 

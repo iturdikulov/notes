@@ -5,7 +5,7 @@ external:
 directory: ~/Computer/graphics/archive/Price-Donut_Tutorial
 tags:
   - blog
-  - JEWELRY
+  - jewelry
   - literature
 sr-due: 2026-03-21
 sr-interval: 254
@@ -86,7 +86,7 @@ edge, use grow selection and hide it.
 
 ## Part 3
 
-TODO: add note. **Z-fighting**, also called **stitching** or
+- [ ] add note. **Z-fighting**, also called **stitching** or
 **planefighting**, is a phenomenon in 3D rendering that occurs when two or
 more primitives have very similar distances to the camera. This would cause
 them to have near-similar or identical values in the z-buffer, which keeps
@@ -194,8 +194,8 @@ shader.
 
 Shading Models control how your Material will reflect ==incoming light==.
 
-TODO: Shading note.
-TODO: Normal note.
+- [ ] Shading note.
+- [ ] Normal note.
 
 Texture Paint require setting
 ==Image Texture (material base color circle)== on object, and then you are
@@ -327,9 +327,9 @@ tool` in left toolbar.
 
 If you have very small objects blender default ==clipping== value can be a
 problem (objects not rendering), to fix that change clipping value in right
-properties window (`N` → `View` → `Clip Start`). TODO: render?
+properties window (`N` → `View` → `Clip Start`). - [ ] render?
 
-TODO: new note
+- [ ] new note
 **Clipping**, in the context of computer graphics, is a method to
 selectively enable or disable rendering operations within a defined region
 of interest. Mathematically, clipping can be described using the
@@ -372,7 +372,7 @@ DON'T forget to unpin ==`Geometry Nodes`== panel if you work on multiple
 objects with different `Gometry Nodes` modifier. You can validate its name
 on top in this panel.
 
-TODO: review this
+- [ ] review this
 You can use rotation values from `Distribute Points on Faces` nodes and
 connect it into `Instance points` node. It allows applying normal vectors
 from some faces for each instance point (like get correct rotation values)?
@@ -452,9 +452,9 @@ If you use small object in scene, you might need adjust `Render shadows`
 (increase cube size in shadows options of render) and `Lamp Bias` in shadow
 options of lamp (available in EEVEE render mode).
 
-TODO: render samples note
+- [ ] render samples note
 
-TODO: denoise note
+- [ ] denoise note
 
 My viewport render looks noisy, is it possible to make it better?
 <br class="f">
@@ -474,7 +474,7 @@ You can reset object position and move it into center of scene, by typing
 
 Objects like food / human body parts has SSS ==(Subsurface Scattering)==.
 
-TODO: add note about [SSS](https://en.wikipedia.org/wiki/Subsurface_scattering)
+- [ ] add note about [SSS](https://en.wikipedia.org/wiki/Subsurface_scattering)
 
 To add SSS go to `Material` → `Subsurface` and adjust these parameters:
 - `Weight`, for example 1.0.
@@ -534,7 +534,7 @@ You can enable tracking mode on rotation (press ==`R` 2 times==)
 You can lock movement/scaling/rotate by axis `G/S/R` then press ==`X/Y/Z`
 or `X,X/Y,Y,Z,Z` for local axis==.
 
-TODO: Rigid Body note.
+- [ ] Rigid Body note.
 
 ## Part 10: Lighting
 
@@ -606,7 +606,7 @@ linked objects (issues after duplicate for example).
 
 ## Part 11: Compositing
 
-TODO: add note about area light.
+- [ ] add note about area light.
 
 The area light simulates light originating from a
 ==surface (or surface-like)== emitter. For example, a TV screen, office
@@ -821,4 +821,4 @@ Good setup for video (`Output` → `Encoding`)?
 To render video (if `Sequencer` enabled in `Output` tab → `Post Processing`) just
 use ==Render Animation (`C-F12`)==.
 
-TODO: copy Andrew nodes schemes into my notes
+- [ ] copy Andrew nodes schemes into my notes

@@ -9,4 +9,4 @@ sr-ease: 230
 
 # Quicksort algorithm
 
-TODO: add term and example
+- [ ] add term and example

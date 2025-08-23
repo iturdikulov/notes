@@ -2,7 +2,7 @@
 created: 2022-12-29T00:00+03:00
 tags:
   - blog
-  - WEAPON
+  - work-tool
 sr-due: 2025-10-31
 sr-interval: 113
 sr-ease: 130
@@ -31,7 +31,7 @@ Latest standard: [ANSI C - Wikipedia#C2x](https://en.wikipedia.org/wiki/ANSI_C#C
 - [!] [[C]], create flashcards with Learn C in Y minutes
 - [[Kernighan_and_Ritchie-The_C]]
   - [[Costrasel-The_C_programming_language_solutions]]
-- TODO: [Learn C the Hard Way](https://learncodethehardway.org/c/)
+- - [ ] [Learn C the Hard Way](https://learncodethehardway.org/c/)
 - [Собрал в одном большом гайде всё, что хотел бы знать, когда изучал язык C / Хабр](https://habr.com/ru/companies/ncloudtech/articles/871748/)
 - [[Xiryanov-Kurs_molodogo_bojcza_MFTI_yazyk_S]], to learn basics of [[C]].
 - [C Reference Card](img/C_Reference_Card_ANSI.v2.2.pdf)

@@ -16,7 +16,7 @@ sr-ease: 250
 > Negative numbers are commonly represented in binary using two's complement.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Binary_number)</cite>
 
-TODO: add two's complement explanation
+- [ ] add two's complement explanation
 
 Great cheatcheet for binary numbers:
 

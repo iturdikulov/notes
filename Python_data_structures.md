@@ -3,7 +3,7 @@ external:
   - https://docs.python.org/3/tutorial/datastructures.html
 tags:
   - blog
-  - WEAPON
+  - work-tool
   - literature
 created: 2025-01-14T11:41+03:00
 sr-due: 2025-07-25
@@ -13,7 +13,7 @@ sr-ease: 220
 
 # 5. Data Structures
 
-TODO: review and rewrite!
+- [ ] review and rewrite!
 
 How to add an item to the end of the list with a built-in method and equivalent slice assign method?
 <br class="f">

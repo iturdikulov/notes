@@ -5,7 +5,7 @@ external:
   - https://www.thunderbird.net/
 tags:
   - blog
-  - ENDS
+  - ends
 sr-due: 2025-07-24
 sr-interval: 11
 sr-ease: 258

@@ -10,11 +10,11 @@ sr-ease: 227
 
 # My books
 
-- TODO: add links to each book into or create review for each book.
-- TODO: MARK physical books
-- TODO: verify originals, wiki links
-- TODO: very scratchy, need to be rewritten and chaos fixed. 
-- TODO: sync with other notes, DRY (move books in related sections)
+- - [ ] add links to each book into or create review for each book.
+- - [ ] MARK physical books
+- - [ ] verify originals, wiki links
+- - [ ] very scratchy, need to be rewritten and chaos fixed. 
+- - [ ] sync with other notes, DRY (move books in related sections)
 
 This section contains mostly a [[fiction]] [[book|books]] I'd like to read and want to read. This list isn't contained all my fiction books, so I just start tracking my reading progress "recently".
 

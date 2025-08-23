@@ -2,7 +2,7 @@
 created: 2023-03-11T00:00+03:00
 tags:
   - blog
-  - FULL-BODY
+  - full-body
 external:
   - https://based.cooking/pozharskiye-cutlets/
 sr-due: 2025-09-15

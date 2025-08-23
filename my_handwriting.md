@@ -14,4 +14,4 @@ sr-ease: 226
 
 I like to write beautiful and readable handwriting, but I prefer calligraphy style.
 
-TODO: add my own font!
+- [ ] add my own font!

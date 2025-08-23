@@ -22,4 +22,4 @@ c = c + 2;
 printf("%d\n", c); // 0 - WTF?
 ```
 
-TODO: integer underflow
+- [ ] integer underflow

@@ -2,7 +2,7 @@
 created: 2022-12-28T00:00+03:00
 tags:
   - blog
-  - FULL-BODY
+  - full-body
 sr-due: 2025-09-12
 sr-interval: 64
 sr-ease: 221

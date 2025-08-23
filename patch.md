@@ -2,7 +2,7 @@
 created: 2023-03-12T00:00+03:00
 tags:
   - blog
-  - ENDS
+  - ends
 external:
   - https://savannah.gnu.org/projects/patch/
 sr-due: 2025-07-22
@@ -14,7 +14,7 @@ sr-ease: 272
 
 Patch - apply a diff file to an original file.
 
-TODO: term/source?
+- [ ] term/source?
 
 It's widely used to update the source code of a program, for example it's official method to patch DWM and other suckless software.
 

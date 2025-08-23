@@ -2,7 +2,7 @@
 created: 2023-03-09T00:00+03:00
 tags:
   - blog
-  - ENDS
+  - ends
 sr-due: 2025-07-22
 sr-interval: 4
 sr-ease: 277
@@ -10,7 +10,7 @@ sr-ease: 277
 
 # Pandoc
 
-Pandoc is a [[Haskell]] library and command-line tool to convert markup files (Markdown, LaTeX, HTML), it's also can produce PDF output. TODO: add source
+Pandoc is a [[Haskell]] library and command-line tool to convert markup files (Markdown, LaTeX, HTML), it's also can produce PDF output. - [ ] add source
 
 It supports a dozen input/output formats, you can check this by running `pandoc --list-input-formats` and `pandoc --list-output-formats` commands, or use the `--from` and `--to` options to select formats interactively.
 
@@ -56,7 +56,7 @@ pandoc -C \
        "$file" && \
 ```
 
-- `-t` - input format [[markdown#gfm]] TODO: add this heading/note
+- `-t` - input format [[markdown#gfm]] - [ ] add this heading/note
 - `-f` - output format (markdown+raw_html)
 - `--wrap=preserve` - preserve line breaks
 - `--csl=books/research-institute-for-nature-and-forest.csl` - citation style

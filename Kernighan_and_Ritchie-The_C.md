@@ -2,7 +2,7 @@
 directory: ~/Computer/programming/Kernighan_and_Ritchie-The_C_programming_language
 tags:
   - blog
-  - WEAPON
+  - work-tool
   - literature
 sr-due: 2025-11-29
 sr-interval: 674
@@ -333,7 +333,7 @@ executed condition will be revalidated.
 The initialization, condition and increment can be any expressions, is that
 true?
 <br class="f">
-Yes, any **valid** expressions. TODO: test it.
+Yes, any **valid** expressions. - [ ] test it.
 
 ### 1.4 Symbolic Constants /17
 

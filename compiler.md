@@ -9,7 +9,7 @@ sr-ease: 187
 
 # Compiler
 
-TODO: add term
+- [ ] add term
 
 - [ ] [[Aho_Lam_et_al-Compilers]]
 - [LLVM Tutorial](https://llvm.org/docs/tutorial/)

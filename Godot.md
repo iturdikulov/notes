@@ -4,7 +4,7 @@ external:
   - https://www.godotengine.org/
 tags:
   - blog
-  - JEWELRY
+  - jewelry
 sr-due: 2025-11-02
 sr-interval: 115
 sr-ease: 224
@@ -22,6 +22,8 @@ Godot relies on the object-oriented programming paradigm (classes, objects).
 Out-of-box supported [[GDScript]] programming language, and with the GDExtension technology C or C++.
 
 I also have own [[gamedev#Godot]] learning path list.
+
+## Projects
 
 ## External links
 

@@ -2,7 +2,7 @@
 created: 2023-09-21T00:00+03:00
 tags:
   - blog
-  - WEAPON
+  - work-tool
 sr-due: 2025-07-22
 sr-interval: 5
 sr-ease: 240
@@ -65,7 +65,7 @@ Primary keys requirements?
 
 ## Database normalization
 
-TODO: Some information from [Simple English Wikipedia, the free encyclopedia](https://simple.wikipedia.org/wiki/Database_normalisation).
+- [ ] Some information from [Simple English Wikipedia, the free encyclopedia](https://simple.wikipedia.org/wiki/Database_normalisation).
 
 ## Learning path
 

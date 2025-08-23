@@ -9,4 +9,4 @@ sr-ease: 227
 
 # Programming paradigm
 
-TODO: add term
+- [ ] add term

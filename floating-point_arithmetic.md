@@ -2,7 +2,7 @@
 created: 2023-03-23T00:00+03:00
 tags:
   - blog
-  - WEAPON
+  - work-tool
 sr-due: 2025-09-14
 sr-interval: 66
 sr-ease: 208
@@ -37,7 +37,7 @@ int main() {
 }
 ```
 
-Decimal (base ten) floating-point usable to work with money values. TODO: add note?
+Decimal (base ten) floating-point usable to work with money values. - [ ] add note?
 
 ## External links
 

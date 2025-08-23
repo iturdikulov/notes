@@ -15,7 +15,7 @@ sr-ease: 212
 
 To understand custom bullet list types check [[my_notation]] note.
 
-TODO: group by album, genere.
+- [ ] group by album, genere.
 
 ## Tracks
 
@@ -36,7 +36,7 @@ TODO: group by album, genere.
 - O Fortuna - Carmina Burana
 - Oblivion - Original Motion Picture Soundtrack
 - Kurt Stewart
-- TODO: [Spotify tracks collection](https://open.spotify.com/collection/tracks)
+- - [ ] [Spotify tracks collection](https://open.spotify.com/collection/tracks)
 - Deep Purple - Smoke on the Water
 - Это всё, что останется после меня...
 - 2 UNLIMITED - No Limi

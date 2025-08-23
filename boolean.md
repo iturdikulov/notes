@@ -2,7 +2,7 @@
 created: 2023-05-24T00:00+03:00
 tags:
   - blog
-  - HEAD
+  - head
 sr-due: 2025-09-13
 sr-interval: 65
 sr-ease: 208

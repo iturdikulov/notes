@@ -4,7 +4,7 @@ created: 2025-01-13T11:36:00+03:00
 tags:
   - blog
   - outline
-  - WEAPON
+  - work-tool
 sr-due: 2025-10-02
 sr-interval: 76
 sr-ease: 230

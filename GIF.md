@@ -9,7 +9,7 @@ sr-ease: 270
 
 # GIF
 
-TODO: add term
+- [ ] add term
 
 ## External links
 

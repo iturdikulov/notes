@@ -2,7 +2,7 @@
 created: 2023-09-30T00:00+03:00
 tags:
   - blog
-  - JEWELRY
+  - jewelry
   - literature
 author: Antoine de Saint-Exupéry
 directory: ~/Arts_and_Entertainment/literature/Antoine de Saint Exupery/The Little Prince (1009)/"
@@ -11,14 +11,14 @@ sr-interval: 2040
 sr-ease: 290
 ---
 
-TODO: translate to Russian
+- [ ] translate to Russian
 
 # Маленький Принц (The Little Prince)
 
 > The Little Prince (French: Le Petit Prince, pronounced [lə p(ə)ti pʁɛ̃s]) is a novella written and illustrated by French aristocrat, writer, and military pilot Antoine de Saint-Exupéry. It was first published in English and French in the United States by Reynal & Hitchcock in April 1943 and was published posthumously in France following liberation; Saint-Exupéry's works had been banned by the Vichy Regime. The story follows a young prince who visits various planets, including Earth, and addresses themes of loneliness, friendship, love, and loss. Despite its style as a children's book, The Little Prince makes observations about life, adults, and human nature.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/The_Little_Prince)</cite>
 
-TODO: I need to check original illustrations from book.
+- [ ] I need to check original illustrations from book.
 
 It was real enjoyment and very emotional book. From simplified story author tell us about humans and their bad sides.
 

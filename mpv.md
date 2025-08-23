@@ -2,7 +2,7 @@
 created: 2022-12-29T00:00+03:00
 tags:
   - blog
-  - ENDS
+  - ends
 external:
   - https://mpv.io/
 sr-due: 2026-02-26
@@ -18,7 +18,7 @@ mpv also provide GPU video decoding, API, scripts, OSD, OSC, configurable keybin
 
 I use it as my main video player
 
-TODO: need to refactor this page
+- [ ] need to refactor this page
 
 ## Keyboard bindings (keys are sensitive)
 
@@ -83,7 +83,7 @@ TODO: need to refactor this page
 
 ## Plugins
 
-TODO: add scripts from my nix dotfiles
+- [ ] add scripts from my nix dotfiles
 
 - [GitHub - jonniek/mpv-playlistmanager: Mpv lua script to create and manage playlists](https://github.com/jonniek/mpv-playlistmanager)
 - [ ] [GitHub - NurioHin/mpv-bookmarker: A bookmarker menu to manage all your bookmarks in mpv](https://github.com/NurioHin/mpv-bookmarker/)

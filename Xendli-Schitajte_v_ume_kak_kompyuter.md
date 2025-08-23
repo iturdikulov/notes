@@ -3,7 +3,7 @@ created: 2023-09-15T00:00+03:00
 author: Билл Хэндли
 tags:
   - blog
-  - HEAD
+  - head
   - literature
 directory: ~/Science/math/Хэндли_Считайте_в_уме_как_компьютер/
 sr-due: 2031-01-06

@@ -4,7 +4,7 @@ external:
   - https://docs.python.org/3/faq/programming.html
 tags:
   - blog
-  - WEAPON
+  - work-tool
   - literature
 sr-due: 2027-04-30
 sr-interval: 659

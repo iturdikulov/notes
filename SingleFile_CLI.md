@@ -4,7 +4,7 @@ external:
   - https://github.com/gildas-lormeau/single-file-cli
 tags:
   - blog
-  - ENDS
+  - ends
 sr-due: 2025-07-22
 sr-interval: 4
 sr-ease: 270

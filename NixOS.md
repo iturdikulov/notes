@@ -4,7 +4,7 @@ external:
   - https://nixos.org/
 tags:
   - blog
-  - ENDS
+  - ends
 sr-due: 2025-07-29
 sr-interval: 12
 sr-ease: 230
@@ -50,7 +50,7 @@ sudo nix-collect-garbage --delete-older-than 30d
 sudo nixos-rebuild switch
 ```
 
-TODO: own hey utility?
+- [ ] own hey utility?
 
 ```bash
 hey gc; sudo hey gc
@@ -123,7 +123,7 @@ gcc-unwrapped.lib                             1,903,088 x /nix/store/x17b1wq871r
 gcc-unwrapped.lib                                 2,494 r /nix/store/x17b1wq871r4ycrxyy1n85ja09dxq3ih-gcc-10.3.0-lib/lib/libstdc++.so.6.0.28-gdb.py
 ```
 
-## TODO:
+## - [ ]
 
 - linux kernel flake + le9ec
 - pipewire low-latency + rtkit

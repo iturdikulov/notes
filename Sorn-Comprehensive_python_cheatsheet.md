@@ -5,7 +5,7 @@ external:
   - https://github.com/gto76/python-cheatsheet
 tags:
   - blog
-  - ENDS
+  - ends
   - literature
 sr-due: 2025-08-01
 sr-interval: 24

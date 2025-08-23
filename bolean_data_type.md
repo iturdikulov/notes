@@ -9,4 +9,4 @@ sr-ease: 228
 
 # Boolean data type
 
-TODO: add term
+- [ ] add term

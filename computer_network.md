@@ -4,7 +4,7 @@ external:
 created: 2023-03-21T00:00+03:00
 tags:
   - blog
-  - WEAPON
+  - work-tool
 sr-due: 2025-07-22
 sr-interval: 6
 sr-ease: 243
@@ -18,9 +18,9 @@ Set of [[computer|computers]] sharing resources located on or provided by [[node
 
 Group of two or more [[computer|computers]] that are linked together. Networks are usually used to share resources, exchange files or communicate with other users.
 
-- TODO: connection and protocols
-- TODO: network topology
-- TODO: OSI
+- - [ ] connection and protocols
+- - [ ] network topology
+- - [ ] OSI
 
 ## TUN/TAP
 

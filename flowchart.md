@@ -9,4 +9,4 @@ sr-ease: 209
 
 # Flowchart
 
-TODO: add term
+- [ ] add term

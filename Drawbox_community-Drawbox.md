@@ -4,7 +4,7 @@ external:
 created: 2023-05-29T00:00+03:00
 tags:
   - blog
-  - JEWELRY
+  - jewelry
   - literature
 sr-due: 2025-09-05
 sr-interval: 57
@@ -72,7 +72,7 @@ Using your old techniques or art materials is fine.
 
 Reference is not bad, but try to avoid them in first time and use as Reference, not copy/paste material (multiple references to fill some gaps, or learn something).
 
-TODO: Additional related materials:
+- [ ] Additional related materials:
 
 - [ ] [Stress-Free Sketching with Sheldon Borenstein](https://drawabox.com/nma/stressfreesketching)
 - [ ] [Overcoming the Fear of a Blank Page](https://youtu.be/mgl6Ll3K3gw)

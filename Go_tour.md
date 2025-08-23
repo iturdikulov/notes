@@ -73,7 +73,7 @@ func main() {
 	fmt.Println(add(42, 13))
 }
 ```
-<!-- TODO: https://go.dev/blog/declaration-syntax -->
+<!-- - [ ] https://go.dev/blog/declaration-syntax -->
 
 <!-- STOPPED here -->
 
@@ -213,9 +213,9 @@ func main() {
 }
 ```
 
-<!-- TODO: https://go.dev/blog/constants -->
+<!-- - [ ] https://go.dev/blog/constants -->
 
-When you need an integer value you should use ==`int`== unless you have a specific reason to use a sized or unsigned integer type. TODO: why? <!--SR:!2025-07-31,4,190-->
+When you need an integer value you should use ==`int`== unless you have a specific reason to use a sized or unsigned integer type. - [ ] why? <!--SR:!2025-07-31,4,190-->
 
 If variables declared without an explicit initial value, which values they will have?
 <br class="f">
@@ -259,7 +259,7 @@ func main() {
 
 Is non-explicit conversion between numeric types in assignments allowed?
 <br class="f">
-TODO: add example
+- [ ] add example
 Unlike in C, in Go assignment between items of different type requires an explicit conversion. <!--SR:!2025-07-30,3,170-->
 
 Which type `i`, `j` and `k` will have?

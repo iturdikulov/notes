@@ -2,7 +2,7 @@
 created: 2023-03-21T00:00+03:00
 tags:
   - blog
-  - HEAD
+  - head
 sr-due: 2025-07-27
 sr-interval: 6
 sr-ease: 150
@@ -15,7 +15,7 @@ sr-ease: 150
 
 A computer is essentially a universal device for processing information.
 
-- TODO: Find computer enhance course by Muratori
+- - [ ] Find computer enhance course by Muratori
 
 ## Central processing unit (CPU)
 

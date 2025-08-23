@@ -32,7 +32,7 @@ btrfs filesystem du # show disk usage by files and directories for a btrfs
                     # filesystem
 ```
 
-Periods for maintenance: balance - weekly, example: `btrfs balance -dusage=50 -dlimit=2` scrub - monthly, with full system backup check `discard=async` is enabled by default as of linux 6.2. TODO: check actual mount options.
+Periods for maintenance: balance - weekly, example: `btrfs balance -dusage=50 -dlimit=2` scrub - monthly, with full system backup check `discard=async` is enabled by default as of linux 6.2. - [ ] check actual mount options.
 
 `btrfs check` is not safe, it's experimental and can corrupt data (2021).
 
@@ -45,7 +45,7 @@ btrfs filesystem resize max /
 btrfs fi show / # validate size
 ```
 
-# What to do on a failed disk (btrfs) / TODO: NEED review and test...
+# What to do on a failed disk (btrfs) / - [ ] NEED review and test...
 
 https://superuser.com/questions/1087787/linux-btrfs-convert-to-single-with-failed-drive#:\~:text=Begin%20a%20rebalancing%20operation%20with,and%20size%20of%20your%20array. Do this in arch live-iso.
 

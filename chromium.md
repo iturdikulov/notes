@@ -26,6 +26,6 @@ Reasons why I use it:
 - [SponsorBlock](https://chrome.google.com/webstore/detail/sponsorblock-for-youtube/mnjggcdmjocbbbhaepdhchncahnbgone), to skip sponsored segments of YouTube videos.
 - [Picture In Picture](https://chrome.google.com/webstore/detail/picture-in-picture-extens/hkgfoiooedgoejojocmhlaklaeopbecg), to watch videos in a floating window (always on top).
 
-TODO: add flags and settings, and [config](file:///home/inom/.config/chromium-flags.conf).
+- [ ] add flags and settings, and [config](file:///home/inom/.config/chromium-flags.conf).
 
-TODO: add info about automation
+- [ ] add info about automation

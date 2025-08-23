@@ -14,7 +14,7 @@ sr-ease: 250
 
 ## Multimedia formats
 
-TODO: research and review formats
+- [ ] research and review formats
 
 - MP4
 - GIF

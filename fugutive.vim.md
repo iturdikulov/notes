@@ -2,7 +2,7 @@
 created: 2024-09-07T00:00+03:00
 tags:
   - blog
-  - ENDS
+  - ends
 sr-due: 2025-08-20
 sr-interval: 38
 sr-ease: 265
@@ -131,4 +131,4 @@ Git signs menu:<wbr class="f"> `<leader>h[key]`
 
 `:Grename newname`:<wbr class="f"> Full rename
 
-TODO: cherry-pick file/changes
+- [ ] cherry-pick file/changes

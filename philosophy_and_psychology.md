@@ -47,7 +47,7 @@ Many psychology problems (which I define as such) can be solved by continuous wo
 
 ## Techniques for dealing with lack of motivation, malaise, depression [^1]
 
-<!-- TODO: move into note. -->
+<!-- - [ ] move into note. -->
 
 [[people#Jonathan_Blow]] about ways to deal with lack of motivation, malaise, and depression. Particularly relevant to those in software development and other fields requiring prolonged periods of focused computer work (which is not natural for humans). The speaker frames these issues as existing on a spectrum, ranging from mild lack of motivation to serious depression.
 

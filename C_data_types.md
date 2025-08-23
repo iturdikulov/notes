@@ -9,7 +9,7 @@ sr-ease: 228
 
 # C data types
 
-TODO: need review!
+- [ ] need review!
 
 How to use them in `printf` function described in [[printf_format_string]].
 

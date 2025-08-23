@@ -9,4 +9,4 @@ sr-ease: 210
 
 # Assembly language
 
-TODO: add term
+- [ ] add term

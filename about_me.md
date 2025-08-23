@@ -9,7 +9,7 @@ sr-ease: 290
 
 # About me
 
-TODO: add more info
+- [ ] add more info
 
 I'm [[my_career]], problem-solver, self-[[my_learning_path|learner]], self-promoter, self-organizer; Human being, who wants to be happy, healthy, kind, and wise; Family member, who wants to be a good son and brother.
 

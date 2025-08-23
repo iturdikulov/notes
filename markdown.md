@@ -155,10 +155,8 @@ Some markdown features are specific to [[Obsidian]].
 
 > [!CAUTION]- Advises about risks or negative outcomes of certain actions.
 
-### Custom checkbox
+### Custom checkboxes
 
-- [ ] `[ ]` Unchecked
-- [x] `[x]` Checked
 - [>] `[>]` Rescheduled
 - [<] `[<]` Scheduled
 - [!] `[!]` Important

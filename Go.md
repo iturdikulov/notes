@@ -4,7 +4,7 @@ external:
   - https://go.dev/
 tags:
   - blog
-  - WEAPON
+  - work-tool
 sr-due: 2025-11-16
 sr-interval: 129
 sr-ease: 245

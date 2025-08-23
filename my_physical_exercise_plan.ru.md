@@ -4,7 +4,7 @@ created: 2023-03-12T00:00:00+03:00
 lang: ru
 tags:
   - blog
-  - FULL-BODY
+  - full-body
 sr-due: 2025-09-14
 sr-interval: 66
 sr-ease: 143

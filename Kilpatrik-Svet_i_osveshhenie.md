@@ -1,7 +1,7 @@
 ---
 tags:
   - blog
-  - JEWELRY
+  - jewelry
   - literature
 author: Килпатрик Дэвид
 created: 2025-01-14T11:41+03:00

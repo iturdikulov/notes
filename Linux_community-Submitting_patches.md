@@ -2,7 +2,7 @@
 created: 2023-09-18T00:00+03:00
 tags:
   - blog
-  - ENDS
+  - ends
   - literature
 external:
   - https://www.kernel.org/doc/html/latest/process/submitting-patches.html
@@ -39,7 +39,7 @@ I fixed that, but it cost this...
 
 Covered xxx function with unit test to prevent regression in the future.
 
-Follow commit format, TODO discover it.
+- [ ] Discover & follow commit format
 
 Solve only **one problem**. If your description starts to get long, that's
 a sign that you probably need to split up your patch.
@@ -75,7 +75,7 @@ with such a tag is applied. Some bots monitoring mailing lists can also track
 such tags and take certain actions. Private bug trackers and invalid URLs are
 forbidden.
 
-<!-- TODO: I stopped here -->
+<!-- - [ ] I stopped here -->
 If your patch fixes a bug in a specific commit, e.g. you found an issue using
 `git bisect`, please use the 'Fixes:' tag with the first 12 characters of the
 SHA-1 ID, and the one line summary. Do not split the tag across multiple lines,

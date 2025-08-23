@@ -1,7 +1,7 @@
 ---
 created: 2022-01-01T00:00+03:00
 tags:
-  - HEAD
+  - head
 sr-due: 2024-01-28
 sr-interval: 1
 sr-ease: 180
@@ -61,7 +61,7 @@ Multiples of even numbers or even and odd numbers are always even numbers. 2x, 4
 
 2x12 → double 2x12 → 24 3×12=36 4×12=48 5x12 → ends in 0, 60 (pattern above) 6×12=72 7×12=84 8×12=96 9×12=108 10x12 → add 0, 120
 
-TODO: more patterns [Multiplication Tips and Tricks](https://www.mathsisfun.com/multiplication-tips-tricks.html)
+- [ ] more patterns [Multiplication Tips and Tricks](https://www.mathsisfun.com/multiplication-tips-tricks.html)
 
 ## Training
 

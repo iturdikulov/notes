@@ -3,7 +3,7 @@ created: 2025-01-14T11:41+03:00
 author: Ruslan Osipov
 tags:
   - blog
-  - ENDS
+  - ends
   - literature
 directory: ~/Computer/software/Osipov-Mastering_Vim/
 sr-due: 2025-07-29

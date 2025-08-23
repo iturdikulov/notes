@@ -244,7 +244,7 @@ annotation with ==`t annotate`==.
 Usually read and review happens on the internet. Enter the ==`rnr <url>`==
 to quickly generate this type of task.
 
-TODO: dynamic include?
+- [ ] dynamic include?
 To grab web page title I use complex `url2text` script,
 which utilize [[Brave]] browser (to support dynamic rendered
 web-pages, and avoid some false-positive web-sites protection issues).

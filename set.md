@@ -2,7 +2,7 @@
 created: 2023-04-14T00:00+03:00
 tags:
   - blog
-  - HEAD
+  - head
 sr-due: 2025-07-25
 sr-interval: 4
 sr-ease: 211
@@ -37,7 +37,7 @@ In worst case insertion into set takes (steps):
 <br class="f">
 Insert into beginning of set is worst case scenario. In contrast to insertion into the begging of a regular array ($N+1$), insertion can take $2N + 1$ steps. Formula: search $N$ steps + shift $N$ steps + insert 1 step. In other words we add search operation to insert value into set. <!--SR:!2024-09-14,4,179-->
 
-TODO: check
+- [ ] check
 
 - union
 - intersection

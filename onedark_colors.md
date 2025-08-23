@@ -26,4 +26,4 @@ Main colors:
 - Red: `#e06c75`
 - Yellow: `#e5c07b`
 
-TODO: review this, add Excalidraw cheat sheet.
+- [ ] review this, add Excalidraw cheat sheet.

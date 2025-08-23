@@ -9,6 +9,6 @@ sr-ease: 250
 
 # Instant messaging (IM)
 
-TODO: add term
+- [ ] add term
 
 - [[how_do_I_work_with_instant_messages]]

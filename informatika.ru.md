@@ -9,7 +9,7 @@ lang: ru
 file: ./books/Kushnirienko-Osnovy_informatiki_i_vychislitielnoi_tiekhniki.pdf
 tags:
   - blog
-  - HEAD
+  - head
 sr-due: 2025-07-18
 sr-interval: 1
 sr-ease: 130

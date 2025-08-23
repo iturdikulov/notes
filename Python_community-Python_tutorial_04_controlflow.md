@@ -242,7 +242,7 @@ def http_error(status):
 > extract components (sequence elements or object attributes) from the
 > value into ==variables== in case block. <!--SR:!2024-08-19,6,238-->
 
-TODO: need improve Can I use objects (classes for example) in pattern matching, can I bind class
+- [ ] need improve Can I use objects (classes for example) in pattern matching, can I bind class
 attributes to variables?
 <br class="f">
 Yes, you can use objects (in case blocks), place them with arguments (like
@@ -311,7 +311,7 @@ assigned to. <!--SR:!2024-11-21,100,258-->
 
 Can patterns in match case be nested?
 <br class="f">
-<!-- TODO: add real nested example -->
+<!-- - [ ] add real nested example -->
 Yes, patterns can be arbitrarily nested. For example, if we have a short list
 of Points, with `__match_args__` added, we could match it like this:
 ```python

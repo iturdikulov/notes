@@ -16,7 +16,7 @@ sr-ease: 248
 
 I synchronize settings and applications, so each device can replace the other. My ideology is to use minimum installed software to minimize backup (pain on android) and new phone setup.
 
-TODO:
+- [ ]
 
 - backup plan
 - resilo sync

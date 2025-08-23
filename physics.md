@@ -2,7 +2,7 @@
 created: 2023-03-13T00:00+03:00
 tags:
   - blog
-  - HEAD
+  - head
 sr-due: 2025-09-14
 sr-interval: 66
 sr-ease: 188
@@ -15,7 +15,8 @@ sr-ease: 188
 
 ## Learning path
 
-TODO: better group resources TODO: add YouTube channels, Бояршинов, etc.
+- [ ] better group resources TODO
+- [ ] Add YouTube channels, Бояршинов, etc.
 
 To understand custom bullet list types check [[my_notation]] note.
 

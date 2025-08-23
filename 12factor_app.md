@@ -2,7 +2,7 @@
 created: 2024-12-02T15:37+03:00
 tags:
   - blog
-  - WEAPON
+  - work-tool
 external:
   - https://12factor.net/
 file: ./articles/12factor_-_12factor.epub

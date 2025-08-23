@@ -6,7 +6,7 @@ created: 2025-01-14T11:41+03:00
 directory: ~/Computer/graphics/Muratori-Handmade_Hero
 tags:
   - blog
-  - JEWELRY
+  - jewelry
   - literature
 sr-due: 2025-08-01
 sr-interval: 15
@@ -51,7 +51,7 @@ Can you explain what this code do `byte ptr[Test], 0FFh`
 <br class="f">
 Instruction `byte ptr[Test], 0FFh` is telling the assembler to allocate one byte
 of memory at the address represented by the label Test. And this is variable
-declaration (TODO: test it).
+declaration (- [ ] test it).
 
 What assembler mnemonic here will be used?
 ```c

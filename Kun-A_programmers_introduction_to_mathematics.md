@@ -1,7 +1,7 @@
 ---
 tags:
   - blog
-  - HEAD
+  - head
   - literature
 author: Jeremy Kun
 external:

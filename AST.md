@@ -2,7 +2,7 @@
 created: 2022-12-29T00:00+03:00
 tags:
   - blog
-  - HEAD
+  - head
 sr-due: 2025-07-22
 sr-interval: 4
 sr-ease: 206
@@ -15,8 +15,8 @@ What is an Abstract Syntax Tree?
 > In [[computer_science]], an abstract syntax [[tree]] (AST), or just syntax tree, is a tree representation of the abstract syntactic structure of text (often source code) written in a formal language. Each node of the tree denotes (represent) a construct occurring in the text.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Abstract_syntax_tree)</cite> <!--SR:!2025-08-01,1,182-->
 
-TODO: review & confirm flashcards
-TODO: review python `ast` module
+- [ ] review & confirm flashcards
+- [ ] review python `ast` module
 
 Where ASTs is used in programming?
 <br class="f">
@@ -43,10 +43,10 @@ A CST includes all the syntactic details of the source code, such as punctuation
 
 What are some benefits of using ASTs?
 <br class="f">
-Benefits include easier manipulation of code for transformations and optimizations, improved error handling, and more precise static analysis. TODO: need example
+Benefits include easier manipulation of code for transformations and optimizations, improved error handling, and more precise static analysis. - [ ] need example
 
 What tools can be used to work with ASTs?
 <br class="f">
 Some tools include compilers, interpreters, IDEs (Integrated Development Environments), and specialized libraries or APIs in programming languages
 like Python (e.g., `ast` module).
-TODO: not clear
+- [ ] not clear

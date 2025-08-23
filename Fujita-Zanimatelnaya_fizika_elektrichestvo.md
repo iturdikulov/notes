@@ -5,7 +5,7 @@ external: null
 archive: null
 tags:
   - blog
-  - HEAD
+  - head
   - literature
 sr-due: 2025-08-24
 sr-interval: 45

@@ -4,7 +4,7 @@ created: 2025-01-14T11:41+03:00
 directory: ~/Science/math/Киселёв-Элементы_алгебры_и_анализа
 tags:
   - blog
-  - HEAD
+  - head
   - literature
 sr-due: 2025-08-29
 sr-interval: 50

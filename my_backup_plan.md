@@ -20,15 +20,15 @@ sr-ease: 130
 
 Each directory must be backed up.
 
-TODO: `/etc` Host-specific system-wide configuration files. Add into backup. Clean up.
+- [ ] `/etc` Host-specific system-wide configuration files. Add into backup. Clean up.
 
-TODO: `$HOME`. Add into backup.
+- [ ] `$HOME`. Add into backup.
 
-TODO: `/media` Mount external drive to `/media/backup`
+- [ ] `/media` Mount external drive to `/media/backup`
 
-TODO: `/mnt` Temporarily mounted filesystems. Use with rclone?
+- [ ] `/mnt` Temporarily mounted filesystems. Use with rclone?
 
-TODO: move binraries from ~/.local/bin to /opt/bin/inom or find/create package
+- [ ] move binraries from ~/.local/bin to /opt/bin/inom or find/create package
 
 /usr Secondary hierarchy for read-only user data; contains the majority of (multi-)user utilities and applications. Should be shareable and read-only.[9][10]
 

@@ -24,7 +24,7 @@ Features:
 - [[open-source]]
 - [[CLI]]
 - many extensions and integrations, like Taskwarrior Server and Taskwarrior TUI
-- integrations, most popular Timewarrior and Taskserver, TODO: add note/use it.
+- integrations, most popular Timewarrior and Taskserver, - [ ] add note/use it.
 
 ## Quickstart
 
@@ -84,7 +84,7 @@ task sync
 
 Great information about managing recurring tasks in taskwarrior from Stack Exchange [^2].
 
-TODO: test.
+- [ ] test.
 
 ```bash
 task add recur:<duration> due:<first task due date> until:<delete first task by date> wait:<date when task will appear> "my task"

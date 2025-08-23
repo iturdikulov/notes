@@ -9,4 +9,4 @@ sr-ease: 207
 
 # Procedural programming
 
-TODO: add term
+- [ ] add term

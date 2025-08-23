@@ -5,7 +5,7 @@ external:
 tags:
   - blog
   - literature
-  - WEAPON
+  - work-tool
 sr-due: 2025-07-23
 sr-interval: 9
 sr-ease: 233

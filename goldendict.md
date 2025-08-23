@@ -9,4 +9,4 @@ sr-ease: 270
 
 # GoldenDict
 
-TODO: add term
+- [ ] add term

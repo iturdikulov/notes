@@ -5,7 +5,7 @@ external:
   - https://www.stephenmwangi.com/obsidian-spaced-repetition/
 tags:
   - blog
-  - JEWELRY
+  - jewelry
 sr-due: 2030-04-14
 sr-interval: 1736
 sr-ease: 250

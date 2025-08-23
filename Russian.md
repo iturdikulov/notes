@@ -2,7 +2,7 @@
 created: 2023-03-06T00:00+03:00
 tags:
   - blog
-  - ENDS
+  - ends
 lang: ru
 directory: ~/Arts_and_Entertainment/russian/
 sr-due: 2025-09-14

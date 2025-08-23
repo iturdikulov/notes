@@ -17,7 +17,7 @@ I have simple setup with systemd timer for automatic backups. On failure, it gen
 
 Check this:
 
-TODO: add links to github, maybe automatically?
+- [ ] add links to github, maybe automatically?
 
 ```
 ~/.local....backup.sh 

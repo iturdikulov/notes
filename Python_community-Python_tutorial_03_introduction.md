@@ -39,7 +39,7 @@ print(5 ** 2)  # 5 squared, result is:<wbr class="f"> 25
 print(2 ** 7)  # 2 to the power of 7, result is:<wbr class="f"> 128
 ```
 
-TODO: need review
+- [ ] need review
 What is floor division (or div), what are value of `(-11) // 4` ?
 <br class="f">
 Mathematical *division* that rounds down to **nearest** integer. The floor

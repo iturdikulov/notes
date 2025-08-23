@@ -9,4 +9,4 @@ sr-ease: 250
 
 # Xournal++
 
-TODO: recreate https://xournalpp.github.io/ in xournal and link images
+- [ ] recreate https://xournalpp.github.io/ in xournal and link images

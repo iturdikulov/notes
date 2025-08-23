@@ -2,7 +2,7 @@
 created: 2024-09-10T00:00+03:00
 tags:
   - blog
-  - WEAPON
+  - work-tool
 sr-due: 2025-07-18
 sr-interval: 10
 sr-ease: 257
@@ -13,7 +13,13 @@ sr-ease: 257
 > Structured Query Language (SQL) is a domain-specific language used to manage data, especially in a relational database management system (RDBMS). It is particularly useful in handling structured data, i.e., data incorporating relations among entities and variables.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/SQL)</cite> <!--SR:!2024-11-26,17,250-->
 
-SQL is a language of structured queries, created to interaction with databases. Query language used to manage data in a **relational** RDBMS ([[database]]).
+SQL is a language of structured queries, created to interaction with databases. Query language used to manage data in a **relational** RDBMS ([[database]]). SQL designed to using technical and non-technical users.
+
+A relational database represents a collection of related (two-dimensional) tables.
+
+All in SQL rule:
+<br class="f">
+Everything what you can do in SQL, you must do in SQL.
 
 SQL is almost universal language, mostly all database's support it (with some dialect specific differences for non `ANSI SQL` features).
 
@@ -34,11 +40,30 @@ _SQL component's diagram_
 
 [[DQL]] is short name of ==Data Query Language== which used for performing queries on the data within schema objects. The purpose of the DQL Command is to get some schema relation based on the query passed to it. SELECT statement is used to retrieve data from the database.
 
-[[DCL]] is short name of ==Data Control Language== which includes commands such as GRANT, and mostly concerned with rights, permissions and other controls of the database system. TODO: add more info <!--SR:!2025-08-05,9,253-->
+[[DCL]] is short name of ==Data Control Language== which includes commands such as GRANT, and mostly concerned with rights, permissions and other controls of the database system. - [ ] add more info <!--SR:!2025-08-05,9,253-->
 
 The Transaction Control Language ([[TCL]]) is used in conjunction with the Data's Manipulation Language to control the processing and exposure of changes, in other words control the ==transactions==. <!--SR:!2025-08-04,8,253-->
 
 [[SELECT]] is used to extract data from one or multiple tables, usually with specific conditions.
+
+In different databases, SQL [[data_type|datatypes]] may have the same names, but their properties will ==differ==, reefer to documentation for additional information.
+
+To visualize relations used an ==Entity Relationship (ER)== Diagram, a type of flowchart that illustrates how “entities” such as people, objects or concepts relate to each other within a system. 
+
+ER Diagrams are most often used to design or debug relational databases in the fields of software engineering, business information systems, education, and research.
+
+## Logical operators
+
+| A           | B           | WHERE A AND B | WHERE A OR B | WHERE NOT A |
+|-------------|-------------|---------------|--------------|-------------|
+| TRUE        | TRUE        | ==TRUE==      | TRUE         | FALSE       |
+| TRUE        | FALSE       | FALSE         | ==TRUE==     | FALSE       |
+| FALSE       | TRUE        | FALSE         | TRUE         | ==TRUE==    |
+| FALSE       | FALSE       | ==FALSE==     | FALSE        | TRUE        |
+
+Logical operators priority in SQL, no quotes used?
+<br class="f">
+The first condition is always fulfilled with the NOT operator, followed by AND, and last of all by the condition with OR.
 
 ## Security
 

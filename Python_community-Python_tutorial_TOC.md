@@ -4,7 +4,7 @@ external:
 created: 2024-11-04T00:00+03:00
 tags:
   - blog
-  - ENDS
+  - ends
   - literature
 sr-due: 2025-07-22
 sr-interval: 1

@@ -12,7 +12,7 @@ sr-ease: 248
 
 # Hugo
 
-TODO: add term
+- [ ] add term
 
 ## External links
 

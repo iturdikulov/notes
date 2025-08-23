@@ -5,7 +5,7 @@ external:
   - https://realpython.com/pytest-python-testing/
 tags:
   - blog
-  - WEAPON
+  - work-tool
   - literature
 directory: ~/Computer/programming/Hillard-Testing_With_Pytest
 sr-due: 2025-11-06

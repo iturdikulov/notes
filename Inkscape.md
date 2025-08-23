@@ -4,7 +4,7 @@ external:
   - https://inkscape.org/
 tags:
   - blog
-  - JEWELRY
+  - jewelry
 sr-due: 2025-09-19
 sr-interval: 71
 sr-ease: 235

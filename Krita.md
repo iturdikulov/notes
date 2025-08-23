@@ -5,7 +5,7 @@ external:
   - https://krita.org/en/
 tags:
   - blog
-  - JEWELRY
+  - jewelry
 sr-due: 2025-07-22
 sr-interval: 1
 sr-ease: 130
@@ -101,7 +101,7 @@ Show color history (below the palette; colors used in the current picture): <wbr
 
 Show color selector: <wbr class="f"> `S-I` <!--SR:!2025-07-25,1,130-->
 
-TODO: review mirror tools Horizontal Mirror Tool: <wbr class="f"> ?
+- [ ] review mirror tools Horizontal Mirror Tool: <wbr class="f"> ?
 
 ## Layers shortcuts
 
@@ -133,7 +133,7 @@ Move current layer up: <wbr class="f"> `C-PageUp`. <!--SR:!2025-07-26,1,130-->
 
 Move the current layer, or selected layers, into a group. If all layers of a group are selected, the group disappears: <wbr class="f"> `C-G`. <!--SR:!2025-07-25,1,134-->
 
-TODO: not working? Move the current layer out and above the current group: <wbr class="f"> `C-M-G`
+- [ ] not working? Move the current layer out and above the current group: <wbr class="f"> `C-M-G`
 
 Merge current layer on layer below (in list), which keeps its name: <wbr class="f"> `C-E`. Useful after pasting, when you don't want to keep too many layers. Warning! Destructive, don't do it by mistake. But of course, C-Z (undo) fixes that, if you notice what you have done… If the layer below is a group of layer, the group and the merged layer are flattened (making only one layer). If the layer is the last of its group, it does nothing.
 

@@ -2,7 +2,7 @@
 created: 2023-04-08T00:00+03:00
 tags:
   - blog
-  - HEAD
+  - head
 external:
   - https://github.com/andmarti1424/sc-im
 sr-due: 2025-07-22
@@ -12,13 +12,13 @@ sr-ease: 252
 
 # sc-im
 
-TODO: add term
+- [ ] add term
 
 To enter numeric value, press `=` and enter the value.
 
 If you enter `:fsum`, sc-im auto-calculate the sum of the column.
 
-TODO: review man
+- [ ] review man
 
 ## External links
 

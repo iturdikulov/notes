@@ -5,7 +5,7 @@ external:
   - https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world
 tags:
   - blog
-  - WEAPON
+  - work-tool
   - literature
 sr-due: 2025-07-22
 sr-interval: 4

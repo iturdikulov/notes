@@ -4,7 +4,7 @@ external:
   - https://github.com/Dushistov/sdcv
 tags:
   - blog
-  - ENDS
+  - ends
 sr-due: 2028-09-02
 sr-interval: 1150
 sr-ease: 329

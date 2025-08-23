@@ -2,7 +2,7 @@
 created: 2023-04-19T00:00+03:00
 tags:
   - blog
-  - ENDS
+  - ends
 external:
   - https://www.gnu.org/software/coreutils/
 sr-due: 2025-09-13
@@ -19,7 +19,7 @@ Here I store basic coreutils and similar tools that I use on a daily basis. A lo
 
 Source code of coreutils can be found at gnu.org website: [coreutils.git](http://git.savannah.gnu.org/gitweb/?p=coreutils.git)
 
-TODO: write flashcards
+- [ ] write flashcards
 
 ### File utilities
 

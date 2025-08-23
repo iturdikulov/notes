@@ -9,4 +9,4 @@ sr-ease: 273
 
 # BibTeX
 
-TODO: add term
+- [ ] add term

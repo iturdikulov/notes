@@ -2,7 +2,7 @@
 created: 2024-09-06T00:00+03:00
 tags:
   - blog
-  - WEAPON
+  - work-tool
   - literature
 directory: ~/Computer/software/rabbitmq
 sr-due: 2025-07-25

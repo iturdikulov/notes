@@ -3,7 +3,7 @@ created: 2024-08-18T00:00+03:00
 tags:
   - blog
   - literature
-  - JEWELRY
+  - jewelry
 author: Julian Evans
 sr-due: 2025-08-17
 sr-interval: 38
@@ -12,7 +12,7 @@ sr-ease: 196
 
 # So you want to be a Wizard
 
-TODO: add calibre book
+- [ ] add calibre book
 
 Julia Evans - So you want to be a wizard. Tips from Julian, looks like mix of team-work and self-productive tips. Written in [[comics]] style.
 

@@ -4,7 +4,7 @@ external:
 created: 2023-03-27T00:00+03:00
 tags:
   - blog
-  - ENDS
+  - ends
 sr-due: 2027-05-16
 sr-interval: 675
 sr-ease: 252

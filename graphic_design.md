@@ -2,7 +2,7 @@
 created: 2023-09-21T00:00+03:00
 tags:
   - blog
-  - JEWELRY
+  - jewelry
 sr-due: 2025-09-19
 sr-interval: 71
 sr-ease: 230

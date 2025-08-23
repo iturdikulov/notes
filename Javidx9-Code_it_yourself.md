@@ -5,7 +5,7 @@ external:
 created: 2023-08-19T00:00+03:00
 tags:
   - blog
-  - JEWELRY
+  - jewelry
   - literature
 directory: ~/Computer/graphics/Javidx9-Code_It_Yourself/
 sr-due: 2025-07-22

@@ -2,7 +2,7 @@
 date: 2025-07-23 19:21
 tags:
   - blog
-  - WEAPON
+  - work-tool
 ---
 
 # The SQL SELECT Statement
@@ -280,7 +280,7 @@ WHERE ProductID = ANY
   WHERE Quantity = 10);
 ```
 
-<!-- TODO: need review from here -->
+<!-- - [ ] need review from here -->
 
 The `ALL` operator:
 - returns a boolean value as a result
@@ -310,7 +310,7 @@ FROM Products
 WHERE TRUE;
 ```
 
-<!-- TODO: very important to understand -->
+<!-- - [ ] very important to understand -->
 
 The `GROUP BY` statement groups rows that have the same values into summary
 rows, like "find the number of customers in each country". The `GROUP BY`
@@ -338,7 +338,7 @@ HAVING COUNT(CustomerID) > 5
 ORDER BY COUNT(CustomerID) DESC;
 ```
 
-<!-- TODO: example -->
+<!-- - [ ] example -->
 
 `WITH` often used for retrieving hierarchical data or re-using temp result set
 several times in a query. Also referred to as `"Common Table Expression"`

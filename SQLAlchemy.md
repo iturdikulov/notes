@@ -2,7 +2,7 @@
 created: 2024-09-18T00:00+03:00
 tags:
   - blog
-  - WEAPON
+  - work-tool
 sr-due: 2025-07-27
 sr-interval: 6
 sr-ease: 249
@@ -158,4 +158,4 @@ In SQLAlchemy, ==reflection== term refers to the feature of querying a databaseâ
 
 MetaData is a thread-safe object for ==read== operations. Construction of new tables within a single MetaData object, either explicitly or via reflection, may not be completely thread-safe.
 
-TODO: https://docs.sqlalchemy.org/en/20/orm/session_basics.html#id1
+- [ ] https://docs.sqlalchemy.org/en/20/orm/session_basics.html#id1

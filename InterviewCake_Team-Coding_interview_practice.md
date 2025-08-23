@@ -1,8 +1,8 @@
 ---
 tags:
   - blog
-  - WEAPON
-  - HEAD
+  - work-tool
+  - head
   - literature
 author:
   - InterviewCake Team

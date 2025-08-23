@@ -9,4 +9,4 @@ sr-ease: 164
 
 # Functional programming
 
-TODO: add term
+- [ ] add term

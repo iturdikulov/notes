@@ -14,4 +14,4 @@ sr-ease: 250
 
 To solve this issue computer designers invented two's method for storing negative binary numbers.
 
-TODO: Describe two's method
+- [ ] Describe two's method

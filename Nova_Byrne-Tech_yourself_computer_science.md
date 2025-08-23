@@ -3,7 +3,7 @@ author: Oz Nova; Myles Byrne
 created: 2023-03-08T00:00+03:00
 tags:
   - blog
-  - HEAD
+  - head
   - literature
 external:
   - https://teachyourselfcs.com/
@@ -33,7 +33,7 @@ NOTE: ... other translations removed
 
 Study all nine subjects below, in roughly the presented order, using either the suggested textbook or video lecture series, but ideally both. Aim for 100-200 hours of study of each topic, then revisit favorites throughout your career 🚀.
 
-TODO: use anchors links to sections
+- [ ] use anchors links to sections
 
 - [[computer_programming|Programming]]
 

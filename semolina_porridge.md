@@ -2,7 +2,7 @@
 created: 2023-04-29T00:00+03:00
 tags:
   - blog
-  - FULL-BODY
+  - full-body
 sr-due: 2025-09-19
 sr-interval: 71
 sr-ease: 248
@@ -10,7 +10,7 @@ sr-ease: 248
 
 # Semolina Porridge
 
-TODO: link with recipes outline?
+- [ ] link with recipes outline?
 
 ## Required ingredients
 

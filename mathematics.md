@@ -4,7 +4,7 @@ directory:
   - ~/Science/math/
 tags:
   - blog
-  - HEAD
+  - head
 lang: ru
 sr-due: 2025-07-29
 sr-interval: 1

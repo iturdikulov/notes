@@ -4,7 +4,7 @@ external: null
 archive: null
 tags:
   - blog
-  - ENDS
+  - ends
   - literature
 sr-due: 2025-09-21
 sr-interval: 73

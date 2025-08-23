@@ -1,7 +1,7 @@
 ---
 tags:
   - blog
-  - WEAPON
+  - work-tool
   - literature
 author:
   - Andrew Hunt; David Thomas

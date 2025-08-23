@@ -2,7 +2,7 @@
 created: 2023-08-05T00:00+03:00
 tags:
   - blog
-  - ENDS
+  - ends
 sr-due: 2027-05-22
 sr-interval: 681
 sr-ease: 254

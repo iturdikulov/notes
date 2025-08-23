@@ -2,7 +2,7 @@
 created: 2023-08-05T00:00+03:00
 tags:
   - blog
-  - ENDS
+  - ends
 sr-due: 2025-07-22
 sr-interval: 7
 sr-ease: 267
@@ -14,7 +14,7 @@ sr-ease: 267
 
 Main command is `trans`.
 
-TODO: go through documentation/command line switches.
+- [ ] go through documentation/command line switches.
 
 ## REPL
 

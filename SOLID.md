@@ -2,7 +2,7 @@
 created: 2023-03-18T00:00+03:00
 tags:
   - blog
-  - WEAPON
+  - work-tool
 file:
   - ./articles/Real_Python_-_SOLID_Principles.html
 sr-due: 2025-09-12
@@ -37,7 +37,7 @@ Make your classes more maintainable, flexible, improve their structure and make 
 
 Although the SOLID principles apply to any object-oriented design, they can also form a core philosophy for methodologies such as agile development or adaptive software development.
 
-TODO: add critical information about SOLID principles.
+- [ ] add critical information about SOLID principles.
 
 ## Single-Responsibility Principle (SRP)
 

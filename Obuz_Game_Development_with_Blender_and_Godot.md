@@ -5,7 +5,7 @@ external:
   - https://github.com/PacktPublishing/Game-Development-with-Blender-and-Godot
 tags:
   - blog
-  - JEWELRY
+  - jewelry
 directory: ~/Computer/graphics/Obuz_Game_Development_with_Blender_and_Godot/
 sr-due: 2025-11-09
 sr-interval: 122

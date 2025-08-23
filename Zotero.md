@@ -13,7 +13,7 @@ sr-ease: 244
 
 # Zotero Research Assistant
 
-TODO: add term
+- [ ] add term
 
 ![](img/Zotero-5-macOS-Screenshot@2x.png)
 _Zotero main window_

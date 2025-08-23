@@ -2,7 +2,7 @@
 created: 2023-03-05T00:00+03:00
 tags:
   - blog
-  - ENDS
+  - ends
 sr-due: 2025-07-22
 sr-interval: 3
 sr-ease: 252
@@ -19,7 +19,7 @@ sr-ease: 252
 - Shell: [[Zsh]]
 - Editor: [[Neovim]]
 - Browser:
-  - vim keybindings <!-- TODO: add materials -->
+  - vim keybindings <!-- - [ ] add materials -->
   - session manager:
   - password manager:
   - adblocker

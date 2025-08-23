@@ -9,6 +9,6 @@ sr-ease: 203
 
 # Computation
 
-TODO: add term
+- [ ] add term
 
 ## Computational problem

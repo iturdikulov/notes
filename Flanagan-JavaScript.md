@@ -3,7 +3,7 @@ author: David Flanagan
 created: 2025-01-14T11:41+03:00
 tags:
   - blog
-  - WEAPON
+  - work-tool
   - literature
 file: ./books/Flanagan-JavaScript.pdf
 sr-due: 2025-07-22

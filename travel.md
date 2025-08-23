@@ -14,7 +14,7 @@ sr-ease: 270
 
 My general traveling notes (some [[life]] experience).
 
-<!-- TODO: add some. -->
+<!-- - [ ] add some. -->
 
 Travel and me very different things 🙃.
 

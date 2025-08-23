@@ -9,4 +9,4 @@ sr-ease: 248
 
 # Haskell
 
-TODO: add term
+- [ ] add term

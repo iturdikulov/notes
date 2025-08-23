@@ -277,7 +277,7 @@ Standard library module `unittest` is used for what purpose?
 The `unittest` module is not as effortless as the `doctest` module, but it
 allows a more comprehensive set of tests to be maintained in a separate file:
 ```python
-# TODO: writhe actual tests functions
+# - [ ] writhe actual tests functions
 import unittest
 
 class TestStatisticalFunctions(unittest.TestCase):

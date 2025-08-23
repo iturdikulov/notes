@@ -3,7 +3,7 @@ created: 2023-03-05T00:00+03:00
 author: David Allen
 tags:
   - blog
-  - HEAD
+  - head
 sr-due: 2025-07-22
 sr-interval: 7
 sr-ease: 209
@@ -16,10 +16,10 @@ sr-ease: 209
 > The Getting Things Done method follows a simple rule: by writing down all tasks your mind is free to focus on the task at hand. In this way, the mind does not have to remember all the things he still has to do.\
 > — <cite>[Wikipedia in Simple English](https://simple.wikipedia.org/wiki/Getting_Things_Done)</cite>
 
-- TODO: Джедайские техники, Максим Дорофеев
-- TODO: Review this note
+- - [ ] Джедайские техники, Максим Дорофеев
+- - [ ] Review this note
 
-I like ideas of GTD productivity system (or framework). I not read the book (TODO: need read I think), but I use daily GTD method. This method allow getting things done **better way** than just allow things to happen.
+I like ideas of GTD productivity system (or framework). I not read the book (- [ ] need read I think), but I use daily GTD method. This method allow getting things done **better way** than just allow things to happen.
 
 GTD allow to organize messy ideas/tasks, and you start actually doing and track them. This will reduce stress and free up your brain time.
 

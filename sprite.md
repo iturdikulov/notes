@@ -3,7 +3,7 @@ created: 2023-03-21T00:00+03:00
 directory: ~/Computer/graphics/sprite/
 tags:
   - blog
-  - JEWELRY
+  - jewelry
 sr-due: 2025-07-22
 sr-interval: 3
 sr-ease: 244

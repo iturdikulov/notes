@@ -2,7 +2,7 @@
 date: 2025-07-29 22:30
 tags:
   - blog
-  - JEWELRY
+  - jewelry
 ---
 
 # Introduction to Godot

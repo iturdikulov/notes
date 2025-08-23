@@ -9,4 +9,4 @@ sr-ease: 228
 
 # Zero-based numbering
 
-TODO: add term
+- [ ] add term

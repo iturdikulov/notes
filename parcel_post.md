@@ -14,7 +14,7 @@ sr-ease: 250
 
 I use it very often in my [[life]].
 
-TODO: check services?
+- [ ] check services?
 
 ## External links
 

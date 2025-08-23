@@ -2,7 +2,7 @@
 created: 2024-11-11T19:59+03:00
 tags:
   - blog
-  - WEAPON
+  - work-tool
 sr-due: 2025-07-22
 sr-interval: 1
 sr-ease: 138

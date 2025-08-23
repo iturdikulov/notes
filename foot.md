@@ -2,7 +2,7 @@
 created: 2025-02-20T08:47+03:00
 tags:
   - blog
-  - ENDS
+  - ends
 sr-due: 2025-08-14
 sr-interval: 35
 sr-ease: 268
@@ -15,7 +15,7 @@ sr-ease: 268
 
 foot supports all [[font|fonts]] that can be loaded by freetype, including bitmap fonts and color emoji fonts.
 
-TODO: add flashcards
+- [ ] add flashcards
 
 ## Keyboard shortcuts
 

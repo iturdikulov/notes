@@ -2,7 +2,7 @@
 created: 2023-08-14T00:00+03:00
 tags:
   - blog
-  - ENDS
+  - ends
 sr-due: 2027-09-10
 sr-interval: 792
 sr-ease: 283
@@ -82,7 +82,9 @@ Select sorting style:<wbr class="f"> `s`, by name, time, or file size
 
 Change the owner:<wbr class="f"> `mf` to select files, `mx` then `chown ...`
 
-TODO: select all directories. TODO: invert the selection. TODO: switch between files and directories
+- [ ] select all directories. 
+- [ ] invert the selection. 
+- [ ] switch between files and directories
 
 ## External links
 

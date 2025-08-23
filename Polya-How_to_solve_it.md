@@ -3,7 +3,7 @@ created: 2023-01-07T00:00+03:00
 directory: ~/Arts_and_Entertainment/literature/George Polya/How to solve it (2276)/
 tags:
   - blog
-  - HEAD
+  - head
   - literature
 sr-due: 2025-10-25
 sr-interval: 107

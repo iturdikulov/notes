@@ -29,7 +29,7 @@ sr-ease: 268
 - add task with priority:<wbr class="f"> `task add pri:H <description>`. H, M, L are supported.
 - annotate task:<wbr class="f"> `task <task number> annotate <annotation>`
 
-TODO: default project, like inbox
+- [ ] default project, like inbox
 
 ## Attributes
 

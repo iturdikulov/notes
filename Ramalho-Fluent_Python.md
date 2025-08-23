@@ -3,7 +3,7 @@ author: Luciano Ramalho
 created: 2025-01-14T11:41+03:00
 tags:
   - blog
-  - WEAPON
+  - work-tool
   - literature
 file: ./books/Ramalho-Fluent_Python.pdf
 sr-due: 2025-07-22

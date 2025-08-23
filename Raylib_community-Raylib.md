@@ -5,7 +5,7 @@ external:
 created: 2025-01-14T11:41+03:00
 tags:
   - blog
-  - JEWELRY
+  - jewelry
   - literature
 directory: ~/Computer/graphics/stash/Raylib_Community-Raylib
 sr-due: 2025-11-14
