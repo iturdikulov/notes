@@ -6,7 +6,7 @@ external:
 directory: ~/Computer/programming/DeVries-Tutorials/
 tags:
   - blog
-  - WEAPON
+  - work-tool
   - literature
 sr-due: 2025-08-01
 sr-interval: 20
@@ -48,9 +48,3 @@ Dap-debug support REPL.
 Dap is created by Microsoft.
 
 You can use `ඞ` as symbol for breakpoint
-
-TODO:<wbr class="f"> check remote debugging / attach to process.
-
-TODO:<wbr class="f"> check LSP-symbols and start really use them
-
-TODO:<wbr class="f"> <leader>td to run test?
