@@ -2,8 +2,8 @@
 .sync/
 .trash/
 .venv/
-.obsidian/
-!.obsidian/snippets/
+.obsidian/*
+!.obsidian/snippets
 *.out
 _*.txt
 broken_links_output.md
