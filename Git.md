@@ -14,17 +14,22 @@ sr-ease: 130
 
 Distributed revision control system, [[computer_program]], designed to help people create other computer program together.
 
+What does it mean that Git is a distributed version control system?
+<div class="f"></div>
+It means multiple developers can work on a project simultaneously without interfering with each other's code because each has a full copy of the repository. There exist conventions of "sort of" central repo, usually named `origin`.
+
 > Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency. — <cite>[Git](https://git-scm.com/)</cite>
 
 Git is useful to work with code without fear, you can experiment with code, use multiple branches as features tree, if your decision was incorrect, you can easily revert you changes. It's also useful for reviewing your changes and collaborate.
 
 Additional details can be found in @ProGitChacon2022 book. You can also use built-in help: `man git`, `git help` or `git [command] –help`.
 
+How do you set a global Git user name and email?
+<div class="f"></div>
 After installing git, you usually need to configure it, here minimal configuration example, with my personal data:
-
 ```sh
-git config --global user.name "First Lastname"
-git config --global user.email "user@domain.tld"
+git config --global user.name "First Lastname"   # git config --get user.name
+git config --global user.email "user@domain.tld" # git config --get user.email
 ```
 
 Main objects in Git is commits and branches, they can be presented as nodes graph:
@@ -130,22 +135,35 @@ Show full change history. Is possible to list remote changes?
 <br class="f">
 `git log`, `gl` is mine custom alias for graph view of commits. Yes, you can log the commits of a remote repo as well (remote/branch): `git log origin/main` <!--SR:!2024-09-19,3,253-->
 
-How to customize output of `git log`, for example:
+What is a commit hash in Git?
+<div class="f"></div>
+Git commit hashes are SHA-1/SHA-256 hashes that uniquely identify each commit. Generated from elements like the commit message, author information, timestamp, and parent commit hashes not just content changes they can differ even in repositories with identical content if any of these elements vary. While essential for tracking project history, these hashes are created automatically, so developers typically don't interact with their generation details.
 
-- [ ] very complex, simplify!
-- show full branch names
+How to customize output of `git log`, for example:
+- show full branch names (`decorate`)
 - hide branch names
-- compact view of log, limit to 1 commit
-- graph mode and all branches
+- compact view of log (`oneline`), limit to 1 commit
+- compact view of log, graph mode and full branch names
+- compact view of log, graph mode, default branch/tag decorations, and parent commit ID's for each commit
   <br class="f">
 A: decorate flags
 - `git log --decorate=full`, show full branch names
 - `git log --decorate=no`, hide branch names B: compact view of log, limit to 1 commit
 - `git log --oneline -n1` C: graph mode and all branches
 - `git log --oneline --graph --all`
-- `git log --oneline --decorate --graph --parents`
+- `git log --oneline --graph --decorate --parents`
 ```
  $ git log --oneline --decorate --graph --parents
+*   cb0280e a563a6a a3c16d4 (HEAD -> main) F: Merge branch 'add_classics', amend
+|\
+| * a3c16d4 a7bb5fe (add_classics) D:\ add classic
+* | a563a6a a7bb5fe E: update contents
+|/
+...
+```
+
+Can you explain this graph output (only significant parts)?
+```
 *   cb0280e a563a6a a3c16d4 (HEAD -> main) F: Merge branch 'add_classics', amend
 |\
 | * a3c16d4 a7bb5fe (add_classics) D:\ add classic
@@ -162,13 +180,10 @@ A: decorate flags
 * d05a05c 351cadb B: add titles
 * 351cadb A: add contents.md
 ```
-
-- [ ] very complex, simplify!
-Can you explain output (only significant parts)?
 <br class="f">
 - `*` asterisk represent commit
-- `cb0280e a563a6a a3c16d4 (HEAD -> main)`, first hash it's merg-commit hash, second two are parent commits (merge from → to).
-- the next section is a visual representation of the branch structure. It shows the commits on the add_classics branch and the main branch before the merge. Notice that they both share a common parent.
+- `cb0280e a563a6a a3c16d4 (HEAD -> main)`, first hash is a merge-commit hash (current commit), second two are parent commits (merge from → to).
+- the next section is a visual representation of the branch structure. It shows the commits on the `add_classics` branch and the main branch before the merge. Notice that they both share a common parent.
 - etc.
 
 You have this git graph, which type of merge Git will do?
@@ -180,8 +195,11 @@ You have this git graph, which type of merge Git will do?
 Git will do a fast-forward merge, which means that it will simply move the HEAD
 pointer from B to E, and we don't need to create a new merge commit.
 
+In Git, a `tree` object represents a ==directory==, and a `blob` object represents a file. These objects are fundamental to how Git stores and manages data. The `tree` object does not contain the file data itself but references `blob` objects that do.
+
 Get details of repository object (by commit hash)
 <br class="f">
+`git cat-file` is a plumbing command that allows users to view the content of Git objects like commits, blobs, trees, and tags.
 `git cat-file -p [commit hash]`
 
 What `.git/refs/heads/main` this file contains?
@@ -253,6 +271,10 @@ To delete a remote branch "branch_name":
 <br class="f">
 `git push --delete origin [branch_name]` or `git push origin :<remotebranch>`
 
+Is git config keys case-sensitive?
+<br class="f">
+No, they are case-insensitive, `defaultBranch` and `defaultbranch` work the same.
+
 How to change remote branch (`origin`) URL?
 <br class="f">
 `git config remote.origin.url <new_url>`
@@ -273,7 +295,7 @@ Switch to a **my_branch**
 <br class="f">
 `git switch my_branch` <!--SR:!2024-09-19,3,253-->
 
-Merge branch **foo** into branch **bar**. First we need to find/switch to merge base (the best common ancestor?) of two branches, then we can merge them.
+Merge branch **foo** into branch **bar**. First we need to find/switch to merge base (the best common ancestor) of two branches, then we can merge them.
 <br class="f">
 `git switch bar; git merge foo`
 
@@ -397,9 +419,9 @@ Undo last commit but keep the changes
 <br class="f">
 `git reset --soft HEAD~1`
 
-Revert everything to the last commit. So it removes staged and working directory changes.
+Revert everything to the last commit. So it removes staged and working directory changes. Is it dangerous?
 <br class="f">
-`git reset --hard` but be careful, you can lose your changes. Maybe need stash them first.
+`git reset --hard` **but be careful, you can lose your changes**. Maybe need stash them first.
 
 Undo last commit. If you want to nuke commit C to never see it again:
 ```
@@ -600,6 +622,14 @@ What should you ignore in typical coding project?
 - Ignore things that are personal or specific to how you like to work (e.g. editor settings, but not code assignments config)
 - Ignore things that are sensitive or dangerous (e.g. .env files, passwords, API keys, etc.)
 
+The order of patterns in a `.gitignore` file determines their effect, and patterns can override each other. How this work?
+```
+temp/*
+!temp/instructions.md
+```
+<br class="f">
+Everything in the `temp/` directory would be ignored _except_ for `instructions.md`. If the order were reversed, `instructions.md` would be ignored.
+
 `node_modules` vs `node_modules/` in `.gitignore` file, what is difference?
 <br class="f">
 First one ignore directory name or file name as a "section", second one ignore directory only
@@ -641,7 +671,7 @@ Ignore multiple files with the same extension:<wbr class="f"> `*.txt`, `*` wildc
 
 Ignoring files only in the root directory
 <br class="f">
-Must include a slash in the beginning `/example.txt`
+Must include a slash in the beginning `/example.txt`. Patterns starting with a `/` are anchored to the directory containing the `.gitignore` file.
 
 Ignore multiple files with the same name (prefix):<wbr class="f"> `example*`
 
@@ -678,6 +708,10 @@ To import commits from another repo:
 Update all submodules.
 <br class="f">
 `git submodule update --init --recursive` <!--SR:!2024-09-17,1,233-->
+
+Git Log hashes only.
+<br class="f">
+`git log --pretty=format:"%H"`
 
 Check any signatures it finds and list them in its output: `git log --pretty="format:%h %G? %aN %s"`
 
