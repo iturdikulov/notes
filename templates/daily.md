@@ -15,11 +15,13 @@ tags:
 
 ## Head
 
+- [ ] Spaced-repetition session 🔁
+
 ## Full-body
 
 ## Ends
 
-- [ ] Убрать или разложить 3 лишних сущности дома 🔁
+- [ ] Remove or decompose 3 extra entities of the house 🔁
 
 ## Jewelry
 
