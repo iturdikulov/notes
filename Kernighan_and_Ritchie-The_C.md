@@ -32,8 +32,7 @@ mean one thing. <!--SR:!2025-08-03,2,227-->
 
 Write ==useful== programs probably the best goal to learn any language.
 
-C wears well as one's ==experience== with it grows.
-<!--SR:!2023-07-31,62,267-->
+C wears well as one's ==experience== with it grows. <!--SR:!2026-04-27,231,287-->
 
 ## Preface to the first edition /8
 

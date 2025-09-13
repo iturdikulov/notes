@@ -2,7 +2,7 @@
 created: 2024-03-18T00:00+03:00
 tags:
   - blog
-  - head
+  - head-clean
 sr-due: 2025-08-28
 sr-interval: 49
 sr-ease: 210
@@ -12,7 +12,7 @@ sr-ease: 210
 
 What is factorial?
 <br class="f">
-Product (multiplication) of all positive integers (including 0) less than or equal to n. In other words, multiply all numbers from ${n}$ to 1.
+Product (multiplication) of all positive integers (including 0) less than or equal to $N$. In other words, multiply all numbers from ${n}$ to 1.
 
 | $${n}$$ | $${n!}$$  |
 | ------- | --------- |
@@ -46,4 +46,4 @@ Where ${n-1}!$ is just part of ${n!}$.
 
 ## External links
 
-- [Factorial Function !](https://www.mathsisfun.com/numbers/factorial.html)
+- [ ] [Factorial Function !](https://www.mathsisfun.com/numbers/factorial.html)

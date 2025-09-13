@@ -2,7 +2,7 @@
 created: 2022-12-29T00:00+03:00
 tags:
   - blog
-  - WEAPON
+  - work-tool-main
 sr-due: 2025-10-29
 sr-interval: 111
 sr-ease: 207
@@ -16,13 +16,13 @@ Unicode or The Unicode Standard, is a universal character set. In one place it's
 
 How many characters in Unicode?
 <br class="f">
-Unicode is ultimately capable of encoding more than 1.1 million character. Goal of standart (which is partially done) be a superset of all characters sets. As of Unicode version 16.0, there are 155,063 characters with code points, covering 168 modern and historical scripts, as well as multiple symbol sets. <!--SR:!2025-08-03,4,207-->
+Unicode is ultimately capable of encoding more than **1.1 million character**. Goal of standard (which is partially done) be a superset of all characters sets. As of Unicode version 16.0, there are 155,063 characters with code points, covering 168 modern and historical scripts, as well as multiple symbol sets. <!--SR:!2025-08-03,4,207-->
 
 What is BMP in Unicode?
 <br class="f">
 The first $65536 (2^{16})$, code point positions in the Unicode character set are said to constitute the Basic Multilingual Plane (BMP). The BMP includes most of the more commonly used characters.
 
-The Unicode character set also contains space for around a million additional code point positions. Characters in this latter range are referred to as ==supplementary characters==. TODO: add more info about this range. <!--SR:!2025-08-01,1,186-->
+The Unicode character set also contains space for around a million additional code point positions (not BMP ones). Characters in this latter range are referred to as ==supplementary characters==. <!--SR:!2025-09-12,2,186-->
 
 ![[img/unicodeplanes.excalidraw|Colored unicode planes diagram]]
 _Unicode planes_

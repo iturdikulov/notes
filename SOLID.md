@@ -2,7 +2,7 @@
 created: 2023-03-18T00:00+03:00
 tags:
   - blog
-  - work-tool
+  - work-tool-main
 file:
   - ./articles/Real_Python_-_SOLID_Principles.html
 sr-due: 2025-09-12
@@ -11,6 +11,8 @@ sr-ease: 208
 ---
 
 # SOLID
+
+- [ ] fix flashcards
 
 > In software engineering, SOLID is a mnemonic acronym for five design principles intended to make object-oriented designs more understandable, flexible, and maintainable. The principles are a subset of many principles promoted by American software engineer and instructor Robert C. Martin, first introduced in his 2000 paper Design Principles and Design Patterns discussing software rot.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/SOLID)</cite>

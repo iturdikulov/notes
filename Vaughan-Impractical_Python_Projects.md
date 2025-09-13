@@ -3,8 +3,8 @@ author: Lee Vaughan
 date: 2025-06-25T22:52:30+03:00
 tags:
   - blog
-  - Python
-  - annotation_book
+  - work-tool
+  - literature
 file: ~/Wiki/books/Vaughan-Impractical_Python_Projects.pdf
 directory: ~/Desktop/CS/Vaughan-Impractical_Python_Projects
 ---
@@ -55,8 +55,6 @@ or any human language.
     - [ ] If user quits:
         end and exit
 
-[pseudonyms](./Chapter_1/pseudonyms.py)
-
 `pylint` tool to check your code, it's providing useful messages like:
 - R - refactor for a "good practice" metric violation
 - C - convention for coding standard violation
@@ -72,8 +70,6 @@ uppercase, refer to constants.
 
 According to PEP 257 a docstring is a string literal that occurs as the first
 statement in a module, function, class, or method definition.
-
-[pseudonyms](./Chapter_1/pseudonyms_fixed.py)
 
 Good reasons for adding comments;
 

@@ -3,7 +3,7 @@ external:
   - https://docs.python.org/3/tutorial/datastructures.html
 tags:
   - blog
-  - work-tool
+  - work-tool-main
   - literature
 created: 2025-01-14T11:41+03:00
 sr-due: 2025-07-25
@@ -664,7 +664,7 @@ while (n := n + 1) < 5:
 ```
 
 Sequence objects typically may be compared to other objects with the same
-==sequence type==.
+==sequence type==. <!--SR:!2025-09-14,4,220-->
 
 The sequence comparison uses **lexicographical** ordering: first the
 ==first two== items are compared, and if they differ this determines the

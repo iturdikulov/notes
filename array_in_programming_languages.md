@@ -2,7 +2,7 @@
 created: 2023-06-24T00:00+03:00
 tags:
   - blog
-  - work-tool
+  - work-tool-main
 sr-due: 2025-07-22
 sr-interval: 2
 sr-ease: 202
@@ -51,5 +51,4 @@ for x in array {
 }
 ```
 
-In Python used ==[[list]]== not arrays, and here no restrictions on the type of items stored in the array, and its size is not fixed.
-<!--SR:!2023-07-29,10,250-->
+In Python used ==[[list]]== not arrays, and here no restrictions on the type of items stored in the array, and its size is not fixed. <!--SR:!2025-10-03,25,250-->

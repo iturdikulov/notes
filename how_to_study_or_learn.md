@@ -2,7 +2,7 @@
 created: 2022-12-29T00:00+03:00
 tags:
   - blog
-  - HEAD
+  - head
 sr-due: 2025-07-22
 sr-interval: 1
 sr-ease: 130
@@ -10,7 +10,7 @@ sr-ease: 130
 
 # How to study or learn
 
-TODO: flashcards are not ideal, need to review
+- [ ] flashcards are not ideal, need to review
 
 > Education is a **purposeful activity** directed at **achieving certain aims**, such as transmitting knowledge or fostering skills and character traits. These aims may include the development of understanding, rationality, kindness, and honesty.
 

@@ -2,7 +2,7 @@
 created: 2025-02-14T08:37+03:00
 tags:
   - blog
-  - work-tool
+  - work-tool-main
 sr-due: 2025-07-22
 sr-interval: 1
 sr-ease: 130
@@ -96,7 +96,7 @@ async def main():
 asyncio.run(main())  # run main() coroutine
 ```
 
-You can only use `await` inside of functions created with ==`async def`== functions. <!--SR:!2025-02-22,9,250-->
+You can only use `await` inside of functions created with ==`async def`== functions. <!--SR:!2025-10-01,23,250-->
 
 To actually run a coroutine, asyncio provides the following mechanisms:
 - The ==`asyncio.run()`== function to run the top-level entry point “main()”

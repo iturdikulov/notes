@@ -2,7 +2,7 @@
 created: 2023-03-14T00:00+03:00
 tags:
   - blog
-  - work-tool
+  - work-tool-main
 sr-due: 2025-09-17
 sr-interval: 69
 sr-ease: 165
@@ -10,9 +10,7 @@ sr-ease: 165
 
 # Operator
 
-How you can describe operator purpose in computing?
-<br class="f">
-Operator is generally like functions (with different syntax) with specific purpose and used very often. Usually operators defined by programming language itself.
+Operator is generally like ==functions== (with different syntax) with specific purpose and used very often. Usually operators defined by programming language itself.
 
 > In [[computer_programming]], operators are **constructs** defined within programming languages which behave generally like ==functions==, but which differ syntactically or semantically.
 >

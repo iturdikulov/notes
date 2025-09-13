@@ -5,7 +5,7 @@ external:
 tags:
   - blog
   - literature
-  - work-tool
+  - work-tool-main
 sr-due: 2025-07-24
 sr-interval: 10
 sr-ease: 243

@@ -3,7 +3,7 @@ external:
   - https://docs.python.org/3/tutorial/appendix.html
 tags:
   - blog
-  - work-tool
+  - work-tool-main
   - literature
 created: 2025-01-14T11:41+03:00
 sr-due: 2025-07-23

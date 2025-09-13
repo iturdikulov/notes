@@ -5,7 +5,7 @@ external:
 tags:
   - blog
   - literature
-  - work-tool
+  - work-tool-main
 sr-due: 2025-07-23
 sr-interval: 9
 sr-ease: 233
@@ -17,7 +17,7 @@ In this section described when [[Python]] can be usable. For example, scripting,
 
 Also described strong points of Python, such as rapid development (write / compile / test / re-compile cycle), interactivity, extensibility, splitting into modules, simple integration, automation, batteries-included.
 
-Python is ==[[Interpreter|interpreted]]== language, no compilation and linking is necessary (but possible with non-standard realizations). <!--SR:!2025-04-12,2,249-->
+Python is ==[[Interpreter|interpreted]]== language, no compilation and linking is necessary (but possible with non-standard realizations). <!--SR:!2025-09-13,5,249-->
 
 Python can be used as "glue language", to connect components together.
 

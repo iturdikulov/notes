@@ -2,7 +2,7 @@
 created: 2024-11-16T22:53+03:00
 tags:
   - blog
-  - work-tool
+  - work-tool-main
 sr-due: 2025-07-23
 sr-interval: 9
 sr-ease: 221

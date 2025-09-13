@@ -2,7 +2,7 @@
 created: 2025-02-05T22:28+03:00
 tags:
   - blog
-  - work-tool
+  - work-tool-main
   - literature
 author: Paul Graham
 file: ./articles/Graham_-_Programming_Bottom_Up.html
@@ -45,11 +45,15 @@ Changing the language to suit the problem.
 
 - With bottom-up design you have shorter programs, fewer components and connections between components, and thus ==less== chance for errors there (reduce complexity).
 
-- Bottom-up promote code reuse?:<wbr class="f"> Yes. <!--SR:!2025-02-08,3,250-->
+Bottom-up design promoting code reuse?
+<br class="f">
+Yes. <!--SR:!2025-09-16,8,250-->
 
-- Bottom-up code easier to read?:<wbr class="f"> Maybe, because it's less complex. <!--SR:!2025-08-11,10,270-->
+Bottom-up code easier to read?
+<br class="f">
+Maybe (yes), because it's less complex. <!--SR:!2025-08-11,10,270-->
 
-- Bottom-up promote redesign more often, because you see ==similarity and patterns== in code. <!--SR:!2025-02-08,3,250-->
+Bottom-up promote redesign more often, because you see ==similarity and patterns== in code. <!--SR:!2025-09-15,5,230-->
 
 Is it possible to do bottom-up design in programming languages other than Lisp?
 <br class="f">
