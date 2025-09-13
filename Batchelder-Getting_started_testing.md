@@ -6,7 +6,7 @@ external:
   - https://www.youtube.com/watch?v=FxSsnHeWQBY
 tags:
   - blog
-  - work-tool
+  - work-tool-clean
   - literature
 sr-due: 2025-09-14
 sr-interval: 66
@@ -24,8 +24,6 @@ Slides can be found at:
 
 ## Features
 
-Features of unit-testing, what are the benefits of unit testing?
-<br class="f">
 - Know if your code works, eliminate fear and worrying
 - Save time by catching bugs and issues early
 - Improve you code and product
@@ -34,9 +32,8 @@ Features of unit-testing, what are the benefits of unit testing?
 
 ## Growing tests
 
-How to tests must be written?
-- [ ] rewrite
-<br class="f">
+How to tests must be written:
+
 - Automated (low effort and repeatable)
 - Tests must be repeatable with low effort (run independently, fast)
 - Explicit expected results
@@ -48,10 +45,14 @@ How to tests must be written?
 ## Unittest (automated test)
 
 What is `unittest`?
-<br class="f">
-- Python standard library
+<span class="f"></span>
+Python's built-in testing framework for writing and running automated tests
+
+It's also:
+
 - Infrastructure for well-structured tests
 - Patterned on xUnit
+ 
 A simple unit test:
 ```python
 import unittest
@@ -75,6 +76,7 @@ except AssertionError:
 else:
     [record the success]
 ```
+
 You execute Unittest by this command `python -m unittest test_portfolio.py` Possible output:
 ```
 F..E
@@ -87,12 +89,12 @@ Dots indicate passing tests. `F` indicates a failing test. `E` indicates an exce
 ```
 
 What ensures test isolation in Unittest?
-<br class="f">
+<span class="f"></span>
 - All tests get a new test object (it's preferable, to avoid side effects from previous tests).
 - Tests can't affect each other.
 - Failure doesn't stop next tests.
 
-Use ==`assertEqual`== instead of `assert`, because it gives value which generated the failure.
+Use `assertEqual` instead of `assert`, because it gives value which generated the failure.
 Other assert helpers:
 ```python
 assertEqual(a, b)
@@ -113,10 +115,9 @@ assertSequenceEqual(a, b)
 assertItemsEqual(a, b)
 ...
 ```
-- [ ] test
 
 Can you write own base class with custom assert method?
-<br class="f">
+<span class="f"></span>
 Yes, you can write you own base class to write domain specific helpers/asserts
 ```python
 class PortfolioTest(unittest.TestCase):
@@ -129,9 +130,6 @@ class PortfolioTest(...):
 ...
 ```
 
-How to call function in unittest to test?
-- [ ] not clear
-<br class="f">
 Unittest can't call the function to test (for example with wrong number of arguments), you need use special `assertRaises` method with context manager.
 ```python
 with self.assertRaises(TypeError):
@@ -139,6 +137,7 @@ with self.assertRaises(TypeError):
 ```
 
 If you see repetition you need refactor code. You can use `setUp` (before each test) and ==`tearDown`== (after each test) methods to avoid repetition.
+
 Under the covers:
 ```python
 testcase = PortfolioTest()
@@ -167,17 +166,17 @@ else:
 - isolation, even with failures
 - also: `fixtures`
 
-Is there difference between real and test code?
-<br class="f">
+Is there fundamental difference between real and test code?
+<span class="f"></span>
 No. Tests are the real code:
 - Helper functions, classes, etc. So use real code, which used in your program
-- Can become significant
+- Can become significant.
 - Might need tests! <!--SR:!2025-08-04,5,226-->
 
 ## Mocks
 
 What main problem mocks solve?
-<br class="f">
+<span class="f"></span>
 Mocks solve the problem of dependencies which can be really slow.
 Fake results can solve the problem of dependencies and give predictable test results (you not depending on external factors) but some code in some time isn't tested!
 
@@ -217,4 +216,3 @@ Topics
 - `BDD`: describe external behavior
 - `integration tests`: test the whole system, bigger chunks
 - `load testing`: how many users can your system handle
-- ...
