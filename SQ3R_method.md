@@ -2,7 +2,7 @@
 created: 2022-12-28T00:00+03:00
 tags:
   - blog
-  - jewelry
+  - head-clean
 sr-due: 2025-09-12
 sr-interval: 64
 sr-ease: 223
@@ -10,18 +10,20 @@ sr-ease: 223
 
 # SQ3R reading method
 
-> This is sort of optimization of the reading process. SQRRR or SQ3R is a reading comprehension method named for its five steps: **survey, question, read, recite and review**. The method was introduced by Francis P. Robinson, an American education philosopher in his 1946 book Effective Study.
+> This is sort of optimization of the reading process. SQRRR or SQ3R is a reading comprehension method named for its five steps: **survey, question, read, ==recite==, and review**. The method was introduced by Francis P. Robinson, an American education philosopher in his 1946 book Effective Study.
 >
 > Similar methods developed subsequently include PQRST and KWL table.\
 > — <cite>[Wikipedia](https://en.wikipedia.org/wiki/SQ3R)</cite>
 
 ![[img/SQ3R.excalidraw|SQ3R explanation diagram]]
-<br class="f">
+<span class="f"></span>
 _SQ3R explanation_
 
 General idea is repeating the process of reading, which helps to understand and remember material better. This isn't wasting time, actually if you want to understand some material in detail this is usually required.
 
-What SQ3R stands for?:<wbr class="f"> Survey, Question, Read, Recite, Review.
+What SQ3R term stands for?
+<br class="f">
+Survey, Question, Read, Recite, Review.
 
 ## How I use it
 
@@ -57,7 +59,3 @@ Use flashcards to test yourself, and repeat the process.
 - Make flash cards
 - Review flash cards when you have time
 - Progress is more important than perfection
-
-## Notes
-
-I generally use daily, weekly, and yearly notes.
