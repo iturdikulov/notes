@@ -16,8 +16,13 @@ tags:
 ## Head
 
 - [ ] Spaced-repetition session 🔁
+- [ ] Learn 10+ new words
 
 ## Full-body
+
+- [ ] Basic training
+- [ ] Walk session
+- [ ] Strength training
 
 ## Ends
 
