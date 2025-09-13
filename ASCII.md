@@ -2,7 +2,7 @@
 created: 2023-03-14T00:00+03:00
 tags:
   - blog
-  - work-tool-main
+  - work-tool-clean
 sr-due: 2025-07-22
 sr-interval: 5
 sr-ease: 248
@@ -11,20 +11,13 @@ sr-ease: 248
 # ASCII
 
 What's ASCII?
-<br class="f">
-> Text encoding standard for electronic communication, limited to 128 code points. **ASCII** (/ˈæskiː/, _ASS-kee_), an acronym for **American Standard Code for Information Interchange**, is a [[character]] encoding standard for electronic communication. ASCII codes represent text in computers, telecommunications equipment, and other devices. ASCII has just 128 code points, of which only 95 are printable characters, which severely limit its scope.\
-> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/ASCII)</cite>
-
-Term ASCII stands as: American Standard Code for Information Interchange. <!--SR:!2025-09-09,1,168-->
-
-Purpose of ASCII, where it's used?
-<br class="f">
+<span class="f"></span>
+American Standard Code for Information Interchange ([ASCII](https://en.wikipedia.org/wiki/ASCII)) - a [[character]] encoding standard with 128 code points (95 printable) used to represent text in computers and electronic devices.
 Standardizes text representation across different systems and devices, for example in electronic communication (email and web protocols), computers, telecommunications equipment, devices.
 
 Number of Code Points in ASCII: <wbr class="f"> 128 code points and 95 are printable characters, limited compared to more comprehensive encoding systems.
 
-Limitation of ASCII, where it can't be used?: <wbr class="f"> severe scope due to limited number of printable characters, fails to represent many symbols and special characters used in modern languages and computing. <!--SR:!2025-08-02,2,228-->
-
+Limitation of ASCII, where it can't be used? <wbr class="f"> Fails to represent many symbols and special characters used in modern languages and computing, due to limited number of characters. Can't use ASCII for: international websites, multilingual documents, modern messaging apps, scientific texts with special symbols.
 
 ## ASCII printable characters (character code 32-127)
 
