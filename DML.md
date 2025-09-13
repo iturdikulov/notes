@@ -2,7 +2,7 @@
 date: 2025-07-23 19:10
 tags:
   - blog
-  - work-tool
+  - work-tool-main
 ---
 
 # Data Manipulation Language

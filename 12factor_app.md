@@ -2,7 +2,7 @@
 created: 2024-12-02T15:37+03:00
 tags:
   - blog
-  - work-tool
+  - work-tool-main
 external:
   - https://12factor.net/
 file: ./articles/12factor_-_12factor.epub
@@ -119,7 +119,7 @@ How we work with processes with twelve-factor app?
 <br class="f">
 In the twelve-factor app, processes are a first class citizen. Each application task type can be executed with own process (diverse workloads, many process types are good). This is Unix process model for running service daemons. <!--SR:!2024-12-08,2,248-->
 
-Application can run many processes (process formation) in single runtime (==1;;vertical== scaling), but it must also be able to span multiple processes running on multiple physical machines (==1;;horizontal== scaling). <!--SR:!2025-08-31,30,288-->
+Application can run many processes (process formation) in single runtime (==1;;vertical== scaling), but it must also be able to span multiple processes running on multiple physical machines (==1;;horizontal== scaling). <!--SR:!2026-01-06,120,308-->
 
 Twelve-factor app processes should never daemonize or write PID files. Instead, rely on the operating system's process manager (systemd?, distributed process manager on a cloud platform) to manage output streams, respond to crashed processes and handle user-initiated restarts and shutdowns.
 

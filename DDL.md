@@ -3,7 +3,7 @@ date: 2025-07-23T08:24:36+03:00
 created: 2025-07-23T08:24:22+03:00
 tags:
   - blog
-  - work-tool
+  - work-tool-main
 ---
 
 # Data Definition Language
