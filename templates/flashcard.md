@@ -1,2 +1,2 @@
 
-<br class="f">
+<span class="f"></span>
