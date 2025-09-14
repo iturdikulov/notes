@@ -3,7 +3,7 @@ date: 2025-07-11T10:48:44+03:00
 created: 2022-12-29T00:00:00+03:00
 tags:
   - blog
-  - work-tool-main
+  - work-tool-clean
 sr-due: 2025-07-22
 sr-interval: 1
 sr-ease: 130
@@ -11,14 +11,34 @@ sr-ease: 130
 
 # Python
 
-> Python is a [[high-level_programming_language|high-level]], general-purpose [[programming_language]]. Its design philosophy emphasizes code readability with the use of significant indentation via the off-side rule.
->
-> Python is a multi-paradigm programming language. [[OOP|object-oriented]] programming and [[structured_programming]] are fully supported, and many of their features support [[functional_programming]] and aspect-oriented programming (including metaprogramming and metaobjects). Many other paradigms are supported via extensions, including design by contract and logic programming.
->
-> Python uses dynamic typing and a combination of reference counting and a cycle-detecting garbage collector for memory management. It uses dynamic name resolution (late binding), which binds method and variable names during program execution.
->
-> Its design offers some support for functional programming in the Lisp tradition. It has `filter`, `map` and `reduce` functions; list comprehensions, dictionaries, sets, and generator expressions. The standard library has two modules (`itertools` and `functools`) that implement functional tools borrowed from Haskell and Standard ML.\
-> — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Python_(programming_language))</cite>
+What type of programming language is Python?
+<span class="f"></span>
+[[high-level_programming_language|High-level]], general-purpose [[programming_language]].
+
+Python emphasizing code readability through indentation.
+
+What programming paradigms does Python support?
+<span class="f"></span>
+Multi-paradigm: [[OOP|object-oriented]], [[structured_programming|structured]], functional, and aspect-oriented programming (including metaprogramming and metaobjects).
+Many other paradigms are supported via extensions, including design by contract and logic programming.
+
+How does Python handle memory management?
+<span class="f"></span>
+Uses dynamic typing, reference counting, and cycle-detecting garbage collection. 
+
+What is Python's name resolution method called?
+<span class="f"></span>
+Dynamic name resolution (late binding), which binds method and variable names during program execution.
+
+What functional programming features does Python have?
+<span class="f"></span>
+It has `filter`, `map` and `reduce` functions; list comprehensions, dictionaries, sets, and generator expressions. The standard library has two modules (`itertools` and `functools`) that implement functional tools borrowed from Haskell and Standard ML.
+
+Is Python weakly or strongly typed?
+<span class="f"></span>
+Python is strongly, dynamically typed.
+- **Strong** typing means that the type of a value doesn't change in unexpected ways. A string containing only digits doesn't magically become a number, as may happen in Perl. Every change of type requires an explicit conversion.
+- **Dynamic** typing means that runtime objects (values) have a type, as opposed to static typing where variables have a type.
 
 [[zen_of_python|Zen of python]] describes the philosophy of Python.
 
@@ -38,6 +58,8 @@ It supports any popular [[programming_paradigm]]:
 - [[functional_programming|functional]]
 
 Rich [[Python_community-Python_tutorial_10_stdlib|stdlib]], it's "batteries included" language.
+
+I use [[Python_code_snippets|collection]] of code snippets related to Python.
 
 ## Learning path
 
