@@ -15,9 +15,9 @@ What's ASCII?
 American Standard Code for Information Interchange ([ASCII](https://en.wikipedia.org/wiki/ASCII)) - a [[character]] encoding standard with 128 code points (95 printable) used to represent text in computers and electronic devices.
 Standardizes text representation across different systems and devices, for example in electronic communication (email and web protocols), computers, telecommunications equipment, devices.
 
-Number of Code Points in ASCII: <wbr class="f"> 128 code points and 95 are printable characters, limited compared to more comprehensive encoding systems.
+Number of Code Points in ASCII: <wbr class="f"> 128 code points and 95 are printable characters, limited compared to more comprehensive encoding systems. <!--SR:!2025-09-17,2,248-->
 
-Limitation of ASCII, where it can't be used? <wbr class="f"> Fails to represent many symbols and special characters used in modern languages and computing, due to limited number of characters. Can't use ASCII for: international websites, multilingual documents, modern messaging apps, scientific texts with special symbols.
+Limitation of ASCII, where it can't be used? <wbr class="f"> Fails to represent many symbols and special characters used in modern languages and computing, due to limited number of characters. Can't use ASCII for: international websites, multilingual documents, modern messaging apps, scientific texts with special symbols. <!--SR:!2025-09-17,2,248-->
 
 ## ASCII printable characters (character code 32-127)
 

@@ -57,7 +57,7 @@ The twelve-factor app stores config in environment variables, which have granula
 
 ## 4. Backing services
 
-External services (consumed over network) used as part of normal operation - MySQL, RabbitMQ, Redis, SMTP, etc. They are ==attachable== resources, and need to use same rules as for local resources. 
+External services (consumed over network) used as part of normal operation - MySQL, RabbitMQ, Redis, SMTP, etc. They are ==attachable== resources, and need to use same rules as for local resources. <!--SR:!2025-09-17,2,235--> 
 
 Resources are attachable and detachable, anytime you can replace broken resource with new one (restored from backup or re-initialized).
 
@@ -68,10 +68,9 @@ No, local and third party services are the "same", you can change local backing 
 ## 5. Build, release, run
 
 Non-development deployment process go through three stages:
-
 1. ==Build== stage - transform specific code version (fixed commit) into build.
 2. ==Release== stage - combine build with deploys current config and make release ready for immediate execution.
-3. ==Run== stage - running the app in the execution environment (one or multiple processes). <!--SR:!2025-01-25,1,228-->
+3. ==Run== stage - running the app in the execution environment (one or multiple processes). <!--SR:!2025-09-16,2,228!2025-09-16,1,215!2025-09-17,2,235-->
 
 The twelve-factor app uses strict separation between the build, release, and run stages.
 
@@ -89,7 +88,7 @@ Run stage should be kept to as few moving parts as possible and should be automa
 
 The app is executed in the execution environment as one or more processes.
 
-A ==stateless== app is an application program that does not save client data generated in one session for use in the next session with that client. 
+A ==stateless== app is an application program that does not save client data generated in one session for use in the next session with that client. <!--SR:!2025-09-17,2,235--> 
 
 Twelve-factor processes are stateless and share-noting. Any data that needs to persist must be stored in a stateful backing service (typically a database). No need to synchronize server states; new instances can handle requests immediately. <!--SR:!2025-08-02,1,208-->
 
@@ -119,7 +118,7 @@ Twelve-factor app processes should never demonize or write PID files. Instead, r
 
 ## 9. Disposability
 
-Processes should be disposable, they can be started or stopped a moment's notice, have a minimal startup time, shut down gracefully with ==SIGTERM== event and be ready to sudden death (hardware failures). 
+Processes should be disposable, they can be started or stopped a moment's notice, have a minimal startup time, shut down gracefully with ==SIGTERM== event and be ready to sudden death (hardware failures). <!--SR:!2025-09-17,2,235--> 
 
 Graceful shutdown and sudden death sustainability could be tricky for specific process types, you need to think about architecture and design of your application which support this (job returns, lock auto-release, atomic transaction or idempotent jobs, etc.). <!--SR:!2024-12-08,2,248-->
 
@@ -145,7 +144,7 @@ In staging or production deploys, each process’ stream will be captured by the
 
 ## 12. Admin processes
 
-One-off admin processes should be run in an ==identical== environment as the regular long-running processes of the app. 
+One-off admin processes should be run in an ==identical== environment as the regular long-running processes of the app. <!--SR:!2025-09-17,2,235--> 
 
 They run against a release, using the same codebase and config (equal environment) as any process run against that release. 
 
