@@ -10,10 +10,7 @@ sr-interval: 76
 sr-ease: 230
 title: iturdikulov.com
 ---
-
 # Inom Turdikulov
-
-My website contains mainly my notes that are of interest of me, they are managed with [[Zettelkasten]] methodology. I use them mostly to improve my [[learning|education process]], store information that important for me and share it with others. I will be pleased if you find something useful.
 
 ## Recent Notes
 
@@ -23,7 +20,24 @@ My website contains mainly my notes that are of interest of me, they are managed
 
 [[about_me|I'm]] a programmer, who is trying to be a professional in the field and stay a human being at the same time. My primary specialization is [[backend]] [[web_development]]. 
 
+I have about 12+ years of experience building web applications. Specializes in creating modular, minimal‑yet‑functional solutions that align with client needs. Proficient in Python, JavaScript, Pascal, ~~C, and Go~~, and comfortable with Unix‑based DevOps workflows.
+
+## Contacts
+
+For press or business inquiries, you can contact me via [[email]]. But please **don't send me spam messages**, I might be interested in job offers or something related to notes published on this site.
+
+To get email address please try to use **one** of these methods:
+
+1. If you have "modern" [[web_browser]] you can read it from the picture below.\
+   ![my_email](img/my_email.svg)
+
+2. Combine my name in lowercase (`Inom`), the at sign (`@`), and current domain (`iturdikulov.com`), and you'll get full email address.
+
+Other ways to contact me **maybe** I'll share through email contact channel.
+
 ## Index
+
+My website contains mainly my notes that are of interest of me, they are managed with [[Zettelkasten]] methodology. I use them mostly to improve my [[learning|education process]], store information that important for me and share it with others. I will be pleased if you find something useful.
 
 My notes are sort of "second brain", allow me choosing what to do **next**, store long-term information and focus on important things:
 
@@ -41,18 +55,6 @@ My notes are sort of "second brain", allow me choosing what to do **next**, stor
 - [[computer_graphics|Computer graphics]], [[gamedev|game development]] and [[art]] as side interests.
 - [[my_awesome_software_list|Awesome software]] list help me to control and learn "tools".
 
-Almost [all notes](https://github.com/iturdikulov/notes) written in [[English]] language, which isn't my primary one, so be ready for grammar mistakes. This notes is also my great English practice project.
-Some notes written in [[Russian]] (search for `.ru`).
+Almost all notes [written](https://github.com/iturdikulov/notes) in [[English]] language, which isn't my primary one, so be ready for grammar mistakes. These notes are also my great English practice project.
 
-## Contacts
-
-For press or business inquiries, you can contact me via [[email]]. But please **don't send me spam messages**, I might be interested in job offers or something related to notes published on this site.
-
-To get email address please try to use **one** of these methods:
-
-1. If you have "modern" [[web_browser]] you can read it from the picture below.\
-   ![my_email](img/my_email.svg)
-
-2. Combine my name in lowercase (`Inom`), the at sign (`@`), and current domain (`iturdikulov.com`), and you'll get full email address.
-
-Other ways to contact me **maybe** I'll share through email contact channel.
+Some notes are written in [[Russian]] language (search for `.ru` postfix).

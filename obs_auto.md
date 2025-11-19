@@ -3,7 +3,10 @@ date: 2025-11-19 16:56
 tags:
   - blog
 ---
+
 # Quick Video Recording with OBS Automation
+
+Russian translation available [[obs_auto.ru|here]].
 
 I enjoy automating repetitive tasks, and today I’ll show how I optimized screencasting.
 
