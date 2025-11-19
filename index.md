@@ -30,6 +30,10 @@ title: iturdikulov.com
 - [[SQ3R_method|SQ3R reading method]]
 - [[GPG|GNU Privacy Guard (GPG or GnuPG]]
 - [[CG_Cookie-Blender_basics|Blender Basics]]
+- [[regexp|Regular expression]]
+- [[ffmpeg]]
+
+Other notes available in [[recent_notes_archive]].
 
 ## Bio
 
