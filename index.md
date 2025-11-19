@@ -15,6 +15,21 @@ title: iturdikulov.com
 ## Recent Notes
 
 - [[obs_auto|Quick Video Recording with OBS Automation]] | [[obs_auto.ru|RU]]
+- [[Git|Git Version Control System]]
+- [[functional_programming|Functional Programming]]
+- [[OOP|Object-oriented programming (OOP)]]
+- [[Python_decorators|Python Decorators]]
+- [[Docker|Docker and Docker Files]]
+- [[SOLID|Solid Principles]]
+- [[Python_community-Python_tutorial_TOC|Python Tutorial Series]]
+- [[oauth|OAuth 2.0]]
+- [[SQL|Structured Query Language (SQL)]]
+- [[big_O_notation|Big O notation]]
+- [[AST|Abstract syntax tree]]
+- [[GTD|Getting Things Done (GTD)]]
+- [[SQ3R_method|SQ3R reading method]]
+- [[GPG|GNU Privacy Guard (GPG or GnuPG]]
+- [[CG_Cookie-Blender_basics|Blender Basics]]
 
 ## Bio
 
