@@ -15,12 +15,15 @@ body {
     background: repeating-linear-gradient(90deg, var(--code-normal) 0, var(--code-normal) 4px, transparent 4px, transparent 8px);
 }
 
+pre[class*='language-']{
+  margin-bottom: 2rem !important;
+}
+
 @media (min-width: 768px) {
   body {
     --font-text-size: 24px !important;
   }
 }
-
 
 .cm-line br.f{
   margin: -1rem 0;
@@ -53,6 +56,18 @@ iframe[src*="youtu"] {
   }
 }
 
+/* Spaced Repetition plugin styles */
+.sr-deck-list .sr-tree-item-row{
+  font-size: 1rem;
+}
+
+.sr-flashcard pre{
+  background-color: var(--code-background);
+  position: relative;
+}
+.sr-info-section .sr-context{
+  color: #69D4FF;
+}
 .sr-flashcard .sr-content{
   flex-grow: none;
 }
@@ -66,9 +81,42 @@ iframe[src*="youtu"] {
   -webkit-box-decoration-break: clone;
 }
 
+.sr-edit-view {
+  background-color: black;
+  background-image: radial-gradient(
+    rgba(0, 150, 0, 0.75), black 120%
+  );
+  color: white;
+  padding: 1rem;
+  border-radius: 8px;
+  text-shadow: 0 0 4px #C8C8C8;
+  overflow: hidden;
+  position: relative;
+
+  &::after {
+    content: "";
+    display: block;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    background: repeating-linear-gradient(0deg, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15) 1px, transparent 1px, transparent 2px);
+    pointer-events: none;
+  }
+}
+
+.sr-edit-view .sr-input {
+    font-size: 16px;
+    font-family: monospace;
+    line-height: 1.6;
+    text-shadow: 0 0 1px #C8C8C8;
+}
+
 @media only screen and (min-width: 768px) {
   .sr-modal-content {
-    max-width: 100ch;
+    max-width: 960px;
+    width: 100%;
     margin: 0 auto;
   }
 }
@@ -379,3 +427,10 @@ li[data-task='"'] > p > input:checked::after {
   line-height: 1;
   font-size: 150%;
 }
+
+/* PDF export */
+@media print {
+  body {
+    --font-text-size: 12pt !important;
+  }
+ }
