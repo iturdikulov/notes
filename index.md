@@ -11,11 +11,19 @@ sr-ease: 230
 title: iturdikulov.com
 ---
 
-# My notes, my projects, and my life
+# Inom Turdikulov
+
+My website contains mainly my notes that are of interest of me, they are managed with [[Zettelkasten]] methodology. I use them mostly to improve my [[learning|education process]], store information that important for me and share it with others. I will be pleased if you find something useful.
+
+## Recent Notes
+
+- [[obs_auto|Quick Video Recording with OBS Automation]] | [[obs_auto.ru|RU]]
+
+## Bio
 
 [[about_me|I'm]] a programmer, who is trying to be a professional in the field and stay a human being at the same time. My primary specialization is [[backend]] [[web_development]]. 
 
-My website contains mainly my notes that are of interest of me, they are managed with [[Zettelkasten]] methodology. I use them mostly to improve my [[learning|education process]], store information that important for me and share it with others. I will be pleased if you find something useful.
+## Index
 
 My notes are sort of "second brain", allow me choosing what to do **next**, store long-term information and focus on important things:
 
