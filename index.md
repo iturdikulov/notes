@@ -8,12 +8,15 @@ tags:
 sr-due: 2025-10-02
 sr-interval: 76
 sr-ease: 230
-title: iturdikulov.com
+title: iturdikulov.com – Notes and reflections by Inom Turdikulov
 ---
 # Inom Turdikulov
 
+Welcome hypertext user, this is my website where I share my experiences and thoughts through notes. Maybe you'll find something useful.
+
 ## Recent Notes
 
+- [[jq|jq, sed for JSON data]]
 - [[obs_auto|Quick Video Recording with OBS Automation]] | [[obs_auto.ru|RU]]
 - [[Python_decorators|Python decorators]]
 - [[Python_community-Python_tutorial_TOC|The Python Tutorial]]
@@ -45,18 +48,18 @@ I have about 12+ years of experience building web applications. Specializes in
 
 For press or business inquiries, you can contact me via [[email]]. But please **don't send me spam messages**, I might be interested in job offers or something related to notes published on this site.
 
-To get email address please try to use **one** of these methods:
+To get email address, please try to use **one** of these methods:
 
 1. If you have "modern" [[web_browser]] you can read it from the picture below.\
    ![my_email](img/my_email.svg)
 
-2. Combine my name in lowercase (`Inom`), the at sign (`@`), and current domain (`iturdikulov.com`), and you'll get full email address.
+2. Combine my name in lowercase (`Inom`), the at sign (`@`), and current domain (`iturdikulov.com`), and you'll get a full email address.
 
-Other ways to contact me **maybe** I'll share through email contact channel.
+Other ways to contact me, **maybe** I'll share through email contact channel.
 
 ## Index
 
-My website contains mainly my notes that are of interest of me, they are managed with [[Zettelkasten]] methodology. I use them mostly to improve my [[learning|education process]], store information that important for me and share it with others. I will be pleased if you find something useful.
+My website contains mainly my notes that are of interest to me, they are managed with [[Zettelkasten]] methodology. I use them mostly to improve my [[learning|education process]], store information that important for me and share it with others. I will be pleased if you find something useful.
 
 My notes are sort of "second brain", allow me choosing what to do **next**, store long-term information and focus on important things:
 
@@ -66,7 +69,7 @@ My notes are sort of "second brain", allow me choosing what to do **next**, stor
 - System Design
 - [[life|Life]] as communication, teamwork, saving life-balance and improving mentoring abilities.
 - [[media|Media]] collection, for relax and fun.
-- [[learning|Learning]] is source of pet projects and knowledge.
+- [[learning|Learning]] is the source of pet projects and knowledge.
 - [[computer_science|Computer science]] to practice algorithmic thinking and logical reasoning.
 - [[computer_programming|Computer programming]] to practice and empower problems-solving abilities.
 - [[computer_performance|Performance]] to focus on fast products.
@@ -74,6 +77,6 @@ My notes are sort of "second brain", allow me choosing what to do **next**, stor
 - [[computer_graphics|Computer graphics]], [[gamedev|game development]] and [[art]] as side interests.
 - [[my_awesome_software_list|Awesome software]] list help me to control and learn "tools".
 
-Almost all notes [written](https://github.com/iturdikulov/notes) in [[English]] language, which isn't my primary one, so be ready for grammar mistakes. These notes are also my great English practice project.
+Almost all notes [written](https://github.com/iturdikulov/Wiki) in [[English]] language, which isn't my primary one, so be ready for grammar mistakes. These notes are also my great English practice project.
 
 Some notes are written in [[Russian]] language (search for `.ru` postfix).
