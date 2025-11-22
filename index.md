@@ -16,8 +16,9 @@ Welcome hypertext user, this is my website where I share my experiences and thou
 
 ## Recent Notes
 
+- [[atuin|Atuin - sync, search and backup shell history]]
 - [[jq|jq, sed for JSON data]]
-- [[obs_auto|Quick Video Recording with OBS Automation]] | [[obs_auto.ru|RU]]
+- [[obs_auto|Quick Video Recording with OBS Automation]] | [[obs_auto.ru|На русском]]
 - [[Python_decorators|Python decorators]]
 - [[Python_community-Python_tutorial_TOC|The Python Tutorial]]
 - [[oauth|OAuth 2.0]]
